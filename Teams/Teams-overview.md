@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: fe9e0b5220466971749bd3a8fd12c0c854e42009
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928260"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778473"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
@@ -38,7 +38,7 @@ Teams の管理者向けビデオの「Teams へようこそ」をお見逃し�
 
 ## <a name="teams-architecture"></a>Teams のアーキテクチャ
 
-Teams は Office 365 グループ、Microsoft Graph、および他の Office 365 と同じエンタープライズ レベルのセキュリティ、コンプライアンス、管理容易性で構築されています。 Teams は Azure Active Directory (Azure AD) に保存された ID を活用します。 Teams は、オフラインの場合やネットワークの状態が不安定な場合でも作業を続けます。
+Teams は Microsoft 365 グループ、Microsoft Graph、および他の Office 365 と同じエンタープライズ レベルのセキュリティ、コンプライアンス、管理容易性で構築されています。 Teams は Azure Active Directory (Azure AD) に保存された ID を活用します。 Teams は、オフラインの場合やネットワークの状態が不安定な場合でも作業を続けます。
 
 Microsoft 365 全体の中での Teams の位置を確認するには、次のアーキテクチャ ポスターを参照してください: [Microsoft 365 の一部としての Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -68,7 +68,7 @@ Teams をカスタマイズおよび拡張するには、[アプリ、ボット�
 - [Teams 管理者ロールを使用してTeams を管理します](using-admin-roles.md)
 - [Teams 管理センターで Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 - [新しい Teams 管理センターへの移行中に Teams を管理する](manage-teams-in-modern-portal.md)
-- [Office 365組織のチーム機能を管理します](enable-features-office-365.md)
+- [Microsoft 365 または Office 365 の Teams 機能を管理する](enable-features-office-365.md)
 
 Teams およびその他の Office 365 製品とサービスに今後導入される機能についての最新情報を常に取得するには、必ず「[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)」と「[Teams ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)」を確認してください。 新機能および更新された機能、計画済みの変更、および問題についての通知を取得して、常に情報を把握して準備を整えられるようになります。 
 
