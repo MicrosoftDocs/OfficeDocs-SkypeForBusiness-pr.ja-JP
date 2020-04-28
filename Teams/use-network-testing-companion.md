@@ -11,20 +11,21 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
-description: ネットワークテストコンパニオンツールをダウンロードして使用する方法について説明します。
+description: ネットワークの品質と接続をテストするために、ネットワークテストコンパニオンツールをダウンロードして使用する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f70e3db61db45897dbb9877bb67b7471ff26d060
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780026"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905159"
 ---
 <a name="use-the-network-testing-companion"></a>ネットワーク テスト コンパニオンを使用する
 =================================

@@ -14,16 +14,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.policypackages.overview
+ms.custom:
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams でポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+description: Microsoft Teams でポリシーパッケージを使用して管理する方法について説明します。ユーザーグループのポリシーを管理するときの一貫性を向上させるために、さまざまな方法で管理することができます。
+ms.openlocfilehash: b69ce06d01af624ff73386531d7ef2b77bef3b4e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42942446"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914068"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシーパッケージを管理する
 
@@ -85,7 +87,7 @@ Microsoft Teams 管理センターでポリシーパッケージを表示、割�
 
 #### <a name="assign-a-policy-package-to-one-user"></a>1人のユーザーにポリシーパッケージを割り当てる
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動してユーザーをクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
 2. ユーザーのページで、[**ポリシー**] をクリックし、[**ポリシーパッケージ**] の横にある [**編集**] をクリックします。
 3. [**ポリシーパッケージの割り当て**] ウィンドウで、割り当てるパッケージを選択し、[**保存**] をクリックします。
 

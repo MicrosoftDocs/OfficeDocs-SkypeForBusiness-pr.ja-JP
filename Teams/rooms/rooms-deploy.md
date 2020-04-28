@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams ルームの展開
+title: デプロイの概要
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Microsoft Teams ルームの展開については、この記事を参照してください。
-ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: この記事では、展開フェーズなど、Microsoft Teams のルームを展開する方法について説明します。
+ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863348"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905409"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -41,7 +41,7 @@ Microsoft Teams の会議室の展開は、基本的にフェーズに分けて�
 
 これらの依存関係の詳細については、以下の計画ガイダンスのリンクを参照してください。
 
--   [ネットワークの状態をチェックする](rooms-prep.md#check-network-availability)
+-   [ネットワークの可用性を確認する](rooms-prep.md#check-network-availability)
 -   [証明書](rooms-prep.md#certificates)
 -   [プロキシ](rooms-prep.md#proxy)
 
@@ -49,10 +49,10 @@ Microsoft Teams の会議室の展開は、基本的にフェーズに分けて�
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サイトが Microsoft Teams のルームの重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅が用意されていることを確認します。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトが Microsoft Teams のルームの重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅が用意されていることを確認します。</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>まず、デバイスの展開と構成を計画します。</li></ul>| 
 
-## <a name="service-readiness"></a>サービスの準備状況
+## <a name="service-readiness"></a>サービスの準備
 
 Microsoft Teams ルームの展開を準備するには、次の主要なタスクを実行します。
 
@@ -74,16 +74,16 @@ Microsoft Teams のルームアカウントの詳細については、「 [Micro
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams の会議サービスアカウントのライセンス要件を特定します。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams の会議サービスアカウントのライセンス要件を特定します。</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>マシンアカウントとサービスアカウントをホストするための準備を行います。</li></ul>| 
 
 
 _Microsoft Teams 室のサンプルサービスアカウントの計画テーブル_
 
-| **サイト**  | **会議室名** | **会議室の種類** | **今後の room 機能**                                                 | **Microsoft Teams ルームのアカウント機能**                                                                                         |
+| **サイト**  | **会議室の名前** | **会議室の種類** | **将来の会議室の機能**                                                 | **Microsoft Teams ルームのアカウント機能**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| 本部 | Curie         | 中        | 1画面、オーディオ、ビデオ plus プレゼンテーション <br>ダイヤルイン会議アクセス<br> PSTN アクセス  | Skype for Business で有効、Exchange (リソースメールボックス) を有効にします。 <br>電話会議に対応 <br>電話システムに対応 |
-| シドニー | 丘          | さまざま         | 2画面、オーディオ、ビデオ、プレゼンテーション<br>ダイヤルイン会議アクセス<br> PSTN アクセス  | Skype for Business で有効、Exchange (リソースメールボックス) を有効にします。<br> 電話会議に対応 <br>電話システムに対応 |
+| ロンドン HQ | Curie         | 中        | 1 画面、音声およびビデオ、プレゼンテーション <br>ダイヤルイン会議アクセス<br> PSTN アクセス  | Skype for Business で有効、Exchange (リソースメールボックス) を有効にします。 <br>電話会議に対応 <br>電話システムに対応 |
+| シドニー HQ | Hill          | 大         | 2画面、オーディオ、ビデオ、プレゼンテーション<br>ダイヤルイン会議アクセス<br> PSTN アクセス  | Skype for Business で有効、Exchange (リソースメールボックス) を有効にします。<br> 電話会議に対応 <br>電話システムに対応 |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>Microsoft Teams の会議室のコンピューターとサービスのアカウントをホストするための準備をする (オプション)
@@ -104,7 +104,7 @@ Microsoft Teams 室のコンピューターアカウントが含まれている�
 PowerShell を使用して、構成情報の取得や設定など、多くのリモート管理操作を実行できます。 Powershell リモート処理を有効*にするに*は、powershell リモート管理を有効にする必要があります。また、展開プロセスの一部として、またはグループポリシーを使って構成する必要があります。 これらの機能の詳細と有効化については、「[メンテナンスと操作](rooms-operations.md#remote-management-using-powershell)」をご覧ください。 
 
 
-## <a name="configuration-and-deployment"></a>構成と展開 
+## <a name="configuration-and-deployment"></a>構成および展開 
 
 構成と展開の計画は、次の主要領域で構成されています。
 
@@ -123,7 +123,7 @@ Microsoft Teams の各ルームデバイスには、専用の固有のリソー�
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams のルームアカウントの名前付け規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニングスクリプトを使用するかを決定します。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams のルームアカウントの名前付け規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニングスクリプトを使用するかを決定します。</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>まず、デバイスの展開を計画します。</li></ul>| 
 
 
@@ -138,7 +138,7 @@ Microsoft Teams のルームの展開を計画するときに、必要なソフ�
 | 50を超える Microsoft Teams を展開することで、複数のベンダーからデバイスを展開したり、展開の一部として組織固有のエージェントを要求したりすることができます。 | [Microsoft Endpoint Configuration Manager](rooms-scale.md)などの、タスク sequencer ベースのソフトウェアのビルドと配布プラットフォームを使用します。  |
 
 
-**Pro ヒント**-Microsoft Teams の各ルームには、ネットワーク上に有効で一意のコンピューター名が必要です。 多くの監視および警告システムでは、コンピューター名がキー識別子として表示されるため、サポート担当者は、フラグが付けられている Microsoft Teams の会議室を簡単に見つけることができるように、Microsoft Teams 室の展開に対して名前付け規則を開発することが重要です。操作が必要な場合。 例としては、MTR*サイト*-*ルーム名*のパターン (MTR-LON-curie) が使用されている場合があります。 
+**Pro ヒント**-Microsoft Teams の各ルームには、ネットワーク上に有効で一意のコンピューター名が必要です。 多くの監視および警告システムでは、コンピューター名がキー識別子として表示されるため、サポート担当者は、操作が必要であるとマークされている Microsoft Teams のルームを簡単に見つけることができるようにすることが重要です。 例としては、MTR*サイト*-*ルーム名*のパターン (MTR-LON-curie) が使用されている場合があります。 
 
 展開の一環として、Microsoft Teams のルームアプリケーションインストーラーによって作成される[ローカルアカウント](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)を管理および構成するための戦略も検討する必要があります。
 
@@ -148,7 +148,7 @@ Microsoft [Azure モニター](https://docs.microsoft.com/skypeforbusiness/plan-
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>展開時に使用する Microsoft Teams 室のデバイスの名前付け規則を決定します。</li><li>Microsoft Teams 室のデバイスをドメインに参加するかどうか、およびローカルアカウントを管理して構成する方法を決定します。 </li><li>Operations Management Suite を使用して Microsoft Teams ルームの展開を監視するかどうかを決定します。</li><li>デバイスの展開の準備として、ソフトウェアとエージェントを Microsoft Teams のルームシステムに展開するために使用する方法を決定します。 </li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>展開時に使用する Microsoft Teams 室のデバイスの名前付け規則を決定します。</li><li>Microsoft Teams 室のデバイスをドメインに参加するかどうか、およびローカルアカウントを管理して構成する方法を決定します。 </li><li>Operations Management Suite を使用して Microsoft Teams ルームの展開を監視するかどうかを決定します。</li><li>デバイスの展開の準備として、ソフトウェアとエージェントを Microsoft Teams のルームシステムに展開するために使用する方法を決定します。 </li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイス展開のアプローチの計画を開始します。</li></ul>| 
 
 
@@ -159,19 +159,19 @@ Microsoft Teams のルームユニットにソフトウェアを展開した後�
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>サイトごとの展開を管理するユーザーを決定する。</li><li> サイトに Microsoft Teams の会議室デバイスをインストールし、構成とテストに着手するリソースを特定します。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定する。</li><li> サイトに Microsoft Teams の会議室デバイスをインストールし、構成とテストに着手するリソースを特定します。</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>| 
 
 _展開テーブルの例_
 
-| **サイト**  | **会議室名** | **会議室の種類** | **Microsoft Teams のルームシステム**  | **周辺機器**  | **Microsoft Teams 室のコンピューター名**  | **Microsoft Teams 会議室リソースアカウント**  |
+| **サイト**  | **会議室の名前** | **会議室の種類** | **Microsoft Teams ミーティング システム**  | **周辺機器**  | **Microsoft Teams 室のコンピューター名**  | **Microsoft Teams 会議室リソースアカウント**  |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
-| 本部 | Curie         | 中        |                                   |                  |                                          |                                             |
-| シドニー | 丘          | さまざま         |                                   |                  |                                          |                                             |
+| ロンドン HQ | Curie         | 中        |                                   |                  |                                          |                                             |
+| シドニー HQ | Hill          | 大         |                                   |                  |                                          |                                             |
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft Teams のルームアプリケーションと周辺機器構成 
 
-Microsoft Teams の各会議室のシステムが物理的に展開され、サポートされている周辺機器が接続された後、microsoft teams の会議アプリケーションを構成して、Microsoft Teams の会議室のリソースアカウントとパスワードを割り当てる必要があります。microsoft Teams のルームシステムで Microsoft Teams または Skype for Business および Exchange にサインインできるようにします。 ドキュメント内の他の場所にリンクされている認定 USB オーディオおよびビデオ周辺機器を活用することが重要です。 そうしないと、予期しない動作が発生する可能性があります。 
+Microsoft teams の各会議室のシステムが物理的に展開され、サポートされている周辺機器デバイスが接続されると、microsoft teams の会議機能を使用して、microsoft teams 室のリソースアカウントと、microsoft teams の会議へのサインインを有効にすることができます。 ドキュメント内の他の場所にリンクされている認定 USB オーディオおよびビデオ周辺機器を活用することが重要です。 そうしないと、予期しない動作が発生する可能性があります。 
 
 Microsoft Teams の各会議室システムを手動で構成することができます。 または、一元保存された、Microsoft Teams の会議室の XML 構成ファイルを使用して、アプリケーションの設定を管理し、Microsoft Teams の会議室のシステムが起動するたびに、必要な構成を再適用することができます。 
 
@@ -181,7 +181,7 @@ XML 構成ファイルの使用方法の詳細については、「 [Microsoft T
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>Microsoft Teams の各会議室システムを手動で構成するのか、一元管理の XML ファイルを使用するのか (Microsoft Teams のルームデバイスごとに1つ) を決定します。</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams の各会議室システムを手動で構成するのか、一元管理の XML ファイルを使用するのか (Microsoft Teams のルームデバイスごとに1つ) を決定します。</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リモート管理アプローチを定義します。</li></ul>| 
 
 ### <a name="testing"></a> 試験
@@ -196,9 +196,9 @@ Microsoft Teams の会議室のシステムが展開されたら、それをテ�
 
 _サンプルアセットテーブル_
 
-| **サイト**  | **会議室名** | **会議室の種類** | **Microsoft Teams ルームのシリアル番号**  | **周辺機器/シリアル nos./ポート**  | **Microsoft Teams 室のコンピューター名**  | **Microsoft Teams 室サービスアカウント**  | **展開日** |
+| **サイト**  | **会議室の名前** | **会議室の種類** | **Microsoft Teams ルームのシリアル番号**  | **周辺機器/シリアル nos./ポート**  | **Microsoft Teams 室のコンピューター名**  | **Microsoft Teams 室サービスアカウント**  | **展開日** |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
-| 本部 | Curie         | 中        |                                          |                                          |                                          |                                            |                   |
-| シドニー | 丘          | さまざま         |                                          |                                          |                                          |                                            |                   |
+| ロンドン HQ | Curie         | 中        |                                          |                                          |                                          |                                            |                   |
+| シドニー HQ | Hill          | 大         |                                          |                                          |                                          |                                            |                   |
 
 

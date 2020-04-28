@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
-ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: HT
+ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42413317"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898172"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -36,7 +36,6 @@ ms.locfileid: "42413317"
 
 匿名参加を許可した場合、会議への招待状に含まれるリンクをクリックすると、誰でも匿名ユーザーとして会議に参加することができます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。
 
-
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
@@ -44,7 +43,8 @@ ms.locfileid: "42413317"
 
     ![管理センターでの会議の参加者設定のスクリーンショット](media/meeting-settings-participants.png "Microsoft Teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
 
-組織のユーザーがスケジュールを行った会議に匿名ユーザーを参加させないようにするには、この設定をオフにします。
+> [!CAUTION]
+> 組織のユーザーがスケジュールを行った会議に匿名ユーザーを参加させないようにするには、この設定をオフにします。
 
 ## <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする
 
@@ -92,7 +92,7 @@ ms.locfileid: "42413317"
     ![管理センターでの会議のネットワーク設定のスクリーンショット](media/meeting-settings-network.png "Microsoft Teams 管理センターでの Teams 会議のネットワーク設定のスクリーンショット")
 
     - DSCP マーキングを QoS で使用できるようにするには、[**リアルタイム メディア トラフィックのサービスの品質 (QoS) マーカーを挿入する**] をオンにします。 選択できるのは、マーカーを使用するか使用しないかのどちらかです。トラフィックの種類ごとにカスタム マーカーを設定することはできません。 DSCP マーカーの詳細については、「[QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)」を参照してください。
-        > [!NOTE] 
+        > [!NOTE]
         > [**リアルタイム メディア トラフィックのサービスの品質 (QoS) マーカーを挿入する**] をオンにすると、UDP ポート 3479 (オーディオ), 3480 (ビデオ)、および 3481 (共有) を使用するトランスポート リレーへの通信もオンになります。
     - ポート範囲を指定するには、[**リアルタイム メディア トラフィックの種類ごとのポート範囲を選択する**] の横にある [**ポート範囲を指定**] を選択し、オーディオ、ビデオ、画面共有用の開始および終了ポートを入力します。 QoS を実装するには、このオプションを選択する必要があります。
         > [!IMPORTANT]
@@ -102,7 +102,7 @@ ms.locfileid: "42413317"
 
 お客様の環境で使用すべきポート範囲がわからない場合は、以下の設定から始めることをお勧めします。 詳細については、「[Microsoft Teams でサービスの品質 (QoS) を実装する](QoS-in-Teams.md)」を参照してください。 必要な DSCP マーキングと、Teams と ExpressRoute の両方で使用される、対応する推奨メディア ポートの範囲を以下に示します。
 
-_ポート範囲と DSCP マーカー_
+### <a name="port-ranges-and-dscp-markings"></a>ポート範囲と DSCP マーカー
 
 メディア トラフィックの種類| クライアントのソース ポートの範囲\* |プロトコル|DSCP 値|DSCP クラス|
 |:---             |:---                         |:---    |:---      |:---      |

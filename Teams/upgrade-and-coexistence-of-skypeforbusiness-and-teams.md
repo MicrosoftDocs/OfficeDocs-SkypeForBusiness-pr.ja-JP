@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849d54b5bbdab228d4d91329894da3cdf993017b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706607"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902272"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード手順を選択する
 
@@ -156,7 +156,7 @@ TeamsOnly ユーザーの視点からの新しい会話の場合、チャット�
 | メリット     |       デメリット |
 | :------------------ | :---------------- |
 | エンド ユーザーにとって予測可能なルーティングです。 すべての通話とチャットは、管理者の選択に基づき、Skype for Business または Teams のいずれかに配信されます。|相互運用会話では、リッチ テキスト、ファイル共有、画面共有はサポートされていません。 回避策として、[今すぐ会議] 機能を使用して会議を開始するという方法があります。 |
-|各機能は 1 つのクライアントでのみ使用可能であるため、エンド ユーザーの混乱を軽減できる可能性があります。 | TeamsOnly にアップグレードされるまでは、チャットや通話など、Skype for Business で実行される一般的なアクティビティにユーザーは、Teams ではアクセスできません。|
+|各機能は 1 つのクライアントでのみ使用可能であるため、エンド ユーザーの混乱を軽減できる可能性があります。 | ユーザーは、Skype for Business で実行された一般的なアクティビティ (たとえば、チャットや Teams へのアップグレードの前) でのチームへのアクセス権を持ちません。|
 |Skype for Business から Teams への移行中、ユーザーが利用できる機能のセットに関する管理者の制御能力が高まります。 | |
 | 組織を TeamsOnly モードへ完全に移行する準備ができていない場合でも、組織は会議のために Teams を使用できます。||
 |他のユーザーに表示される特定のユーザーのプレゼンスは、使用するクライアントに関係なく同じです。||

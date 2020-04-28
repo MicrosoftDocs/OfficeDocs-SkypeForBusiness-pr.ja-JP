@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: Microsoft Teams でクラウド通話キューの電話システムをセットアップする方法について説明します。
-ms.openlocfilehash: 0feee280526b432a14f0411ab4787e3b07ce2453
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: このページでは、Microsoft Teams で電話システムをセットアップする方法について説明します。これにより、あいさつメッセージの送信、音楽の保留、リダイレクト、その他の機能を行うことができます。
+ms.openlocfilehash: d6a0095e0189c37a8002017fde590e05faf791fe
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788966"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914030"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 

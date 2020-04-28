@@ -17,15 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e226acdc12d4b94b7854f6d4bdb1d2fa618fa21e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4e3f26f286fa3f8418df93d6498b8c754c857785
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777502"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901722"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -195,7 +195,7 @@ Teams は層 D に準拠しています。 これには、 [iso 27001](https://d
 
 業界トップのコンプライアンスコミットメントを持つコンプライアンスカテゴリ C と D のサービスは、既定で有効になっています。 カテゴリ A と B のサービスには、組織全体に対してこれらのサービスを有効または無効にするコントロールが用意されています。 詳細については、[コンプライアンス標準](security-compliance-overview.md#compliance-standards)を参照してください。 チームはクラウドセキュリティアライアンスのコンプライアンスもサポートしています。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Microsoft 365 セキュリティ](https://docs.microsoft.com/microsoft-365/security/)
 [microsoft 365 コンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/)

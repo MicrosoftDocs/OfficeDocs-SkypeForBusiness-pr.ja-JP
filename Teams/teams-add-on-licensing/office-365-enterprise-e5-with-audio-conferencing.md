@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'アドオン ライセンス、機能、Office 365 Enterprise E5 プランを購入する方法について説明します。 '
-ms.openlocfilehash: c5c205a6084b017a1085bf49a10df04e139bfc56
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+- seo-marvel-apr2020
+description: アドオンライセンス、その機能、Office 365 Enterprise E5 プランのこれらのライセンスを購入する方法について説明します。
+ms.openlocfilehash: 06559857143f04714acd0a39064fc4a9c12c04ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826535"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904709"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: アドオンライセンス、機能、および企業向けの Microsoft 365 アプリの購入方法について説明します。
-ms.openlocfilehash: e80ccd6a32b9eec9a0ba8973d11acaea7abc3ffc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: アドオンライセンス、その特定の機能、および Microsoft 365 Apps for enterprise のこれらのライセンスを購入する方法について説明します。
+ms.openlocfilehash: b8183276354c41a9f75336b0e4a4e371cc8e55df
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779936"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904699"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>エンタープライズ向けの Microsoft 365 アプリ
 

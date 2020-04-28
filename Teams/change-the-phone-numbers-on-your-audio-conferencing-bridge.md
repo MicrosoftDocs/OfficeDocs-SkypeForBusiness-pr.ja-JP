@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 新しいサービス電話番号を会議ブリッジに割り当てて、ユーザーの利用範囲を広げるために必要な手順について説明します。
-ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780356"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898152"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -67,7 +67,7 @@ ms.locfileid: "43780356"
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>手順 3-ユーザーの会議出席依頼に含まれている既定の電話番号を変更する (オプション)
 
-ユーザーの既定の電話番号は、会議のスケジュール時に会議出席依頼に記載されている電話番号です。 新しいユーザーに対して defaul 電話番号を割り当てる方法を含め、詳細については、「 [Microsoft Teams の招待に含まれる電話番号を設定](set-the-phone-numbers-included-on-invites-in-teams.md)する」または「 [Skype for business Online の招待に含まれる電話番号を設定](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)する」を参照してください。
+ユーザーの既定の電話番号は、会議のスケジュール時に会議出席依頼に記載されている電話番号です。 新規ユーザーに対して既定の電話番号を割り当てる方法を含め、詳細については、「 [Microsoft Teams の招待に含まれる電話番号を設定](set-the-phone-numbers-included-on-invites-in-teams.md)する」または「 [Skype for business Online の招待に含まれる電話番号を設定](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)する」を参照してください。
   
 1. 職場または学校のアカウントを使用してサインインします。
 
@@ -83,7 +83,7 @@ ms.locfileid: "43780356"
 
 次の2つの手順については、Windows PowerShell を起動する必要があります。
   
-一部またはすべてのユーザーの会議出席依頼に含まれている既定の電話番号を更新した場合、必要に応じて、会議移行サービスを使用して既定の電話番号を変更する前に、組織内のユーザーに送信された会議出席依頼を更新することができます。 詳細については、「[会議移行サービス (MMS) の](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)セットアップ」を参照してください。
+一部またはすべてのユーザーの会議出席依頼に含まれている既定の電話番号を更新した場合、必要に応じて、会議移行サービスを使用して既定の電話番号を変更する前に、組織内のユーザーに送信された会議の招待を更新することができます。 詳細については、「[会議移行サービス (MMS) の](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)セットアップ」を参照してください。
   
 - 手順2で既定の電話番号を変更したユーザーに対して、会議移行サービス (MMS) を実行します。 これを行うには、次のコマンドを実行します。
 
@@ -139,7 +139,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 3. 電話番号がフリーダイヤル番号の場合は、一覧から電話番号を選び、操作ウィンドウで [**割り当てを解除**] をクリックします。 電話番号が有料番号の場合は、 [Microsoft サポート](https://go.microsoft.com/fwlink/?linkid=2091806)に連絡して電話番号を割り当てていないことを確認してください。
 
-4. 電話番号が有料 fre 番号の場合は、確認ウィンドウで [**はい]** をクリックします。
+4. 電話番号が無料番号の場合は、確認ウィンドウで [**はい**] をクリックします。
 
    > [!IMPORTANT]
    > 電話会議ブリッジから電話番号の割り当てを解除すると、ユーザーはその電話番号を使用して新規または既存の会議に参加できなくなります。
@@ -223,9 +223,9 @@ Windows PowerShell の起動の詳細については、「[単一の Windows pow
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-**[割り当て解除] ボタンが淡色表示になっている**
+**[割り当て解除] ボタンは使用できません**
 
-番号の割り当てを解除したいが、ボタンが灰色表示になっていて、それを超えている場合は、次のメッセージが表示され_ます。 "既定または共有の番号は、ブリッジから割り当て解除することができます。́t専用の有料電話番号の割り当てを解除するには、サポートにお問い合わせください。_
+番号の割り当てを解除する場合でも、ボタンは使用できません。マウスをポイントしている場合は、次のようなメッセージが表示され_ます。 "既定または共有の番号はブリッジから割り当て解除することができます" というメッセージについては、サポートに問い合わせることができます。́t専用の有料電話番号の割り当てを解除するには、サポートにお問い合わせください。_
 
 ブリッジに関する詳細情報を入手するには、次の Powershell を実行します。
 ```PowerShell
@@ -255,5 +255,5 @@ Windows PowerShell には、多くのユーザーについて同時に設定を�
 
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)

@@ -13,15 +13,16 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: PowerShell を使用して、Microsoft Teams のチームへのゲスト アクセスを許可または拒否できます。
+description: PowerShell を使用して、Microsoft Teams のすべてのチームまたは特定のチームへのゲストアクセスを許可またはブロックする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e15e2e70559f75cff6be97f2996dc45666f963b8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776962"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902592"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell を使用してチームへのゲスト アクセスを制御する
 ================================================
@@ -43,9 +44,9 @@ PowerShell を使用して、ドメインに基づいてゲスト ユーザー�
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell を使用してゲスト アクセスをオンまたはオフにする
 
-1.  Skype for Business Online PowerShell モジュールを次からダウンローします https://www.microsoft.com/download/details.aspx?id=39366
+1.    Skype for Business Online PowerShell モジュールを次からダウンローします https://www.microsoft.com/download/details.aspx?id=39366
  
-2.  PowerShell セッションを Skype for Business Online エンドポイントに接続します。
+2.    PowerShell セッションを Skype for Business Online エンドポイントに接続します。
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -53,7 +54,7 @@ PowerShell を使用して、ドメインに基づいてゲスト ユーザー�
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.  設定を確認して、`AllowGuestUser` が `$False` の場合は、[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) コマンドレットを使用して `$True` に設定します。
+3.    設定を確認して、`AllowGuestUser` が `$False` の場合は、[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) コマンドレットを使用して `$True` に設定します。
 
     ```PowerShell
     Get-CsTeamsClientConfiguration

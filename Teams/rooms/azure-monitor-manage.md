@@ -14,13 +14,13 @@ ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
 description: この記事では、Azure モニターを使用して、統合された方法で Microsoft Teams 室のデバイスを管理する方法について説明します。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8ddc76c43bf3aff42312f18ed35fc7aec9691edb
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 74c4ba537adeeeffbc7f3f3ca1cfba7481dff6fb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137594"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905459"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Azure モニターを使用して Microsoft Teams 室のデバイスを管理する
 
@@ -44,7 +44,7 @@ Microsoft Teams の会議アプリが Windows イベントログで対応する�
 | 3001  <br> エラーイベント  | これはハードウェアのエラー イベントです。 Microsoft Teams room アプリには、接続されているハードウェアコンポーネント (会議室、マイク、スピーカー、カメラなど) の正常性を5分間隔でチェックするプロセスがあります。 1つ以上のコンポーネントに問題がある場合は、イベントログに EventID 3001 が書き込まれます。 このイベントは、デバイスの問題が修正されるまで、5分間隔で書き込まれます。   | {"説明":**会議室の表示状態の正面: 異常。** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. カメラの状態: 正常。 "," ResourceState ":" 異常 "," OperationName ":" ハードウェアチェックエンジン "、" OperationResult ": Fail", "OS": "Windows 10", "OSVersion": "10.0.14393.1198", "<span></span>alias": "2.0.58.0"、"DisplayName"、"DisplayName": "IPv4Address": "10.10.10.10"、"IPv6Address": ""、"@contoso": ""、"IPv6Address": "10.10.10.10"、"IPv4Address2": "10.10.10.10"} <br><br>  ハードウェア周辺機器は Healthy または Unhealthy のいずれかとして表示されます。 <br> この例では、構成済みの正面の室内ディスプレイが 2 つあり、現在いずれも利用できません。 会議のマイクの状態は問題であり、いくつかの原因が考えられます。 少なくとも 1 つのリソースがチェックに合格していなかったため、ResourceState が Unhealthy として表示されます。 技術者を派遣して詳しい調査を行ってください。 |
 | 4000  <br> 情報  <br> | これはアプリの再起動イベントです。 アプリが再起動するたびに、このイベントを必ず Windows イベント ログに記録します。  <br> | {"説明": "アプリは再起動します"、"ResourceState": "正常"、"OperationName": "再起動", "実行結果": "Pass", "OS": "10.0.14393.693"、"Alias": ""、"<span></span>alias": "1.0.38.0"、"AppVersion": "IPv4Address"、"appversion": ""、"" @domain: "10.10.10.10"、"IPv6Address": "" <br><br> アプリはさまざまな理由で再起動される場合があります。 同じ建物内および異なる建物内のデバイスの再起動頻度を比較します。 これにより、インフラストラクチャの問題が解決される可能性があるため、電力変動や障害などの既知の問題に留意してください。|
 
-## <a name="see-also"></a>関連項目
+## <a name="related-topics"></a>関連項目
  
 
 [Azure モニターを使用して Microsoft Teams の会議室の管理を計画する](azure-monitor-plan.md)

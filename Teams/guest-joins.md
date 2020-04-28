@@ -14,15 +14,16 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: ゲストがどのような方法で Microsoft Teams のチームに参加するよう招待されるかについての簡単な概要を理解します。
+description: 組織外のユーザーを Microsoft Teams のチームにゲストとして追加するために必要な手順について説明します。
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491770bcd3c2f435bbd2ea18c366effea2c8124f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833177"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902552"
 ---
 <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法
 ========================
@@ -39,7 +40,7 @@ Microsoft Teams でのチーム所有者は、Web またはデスクトップを
 1. ゲストが、チームに関する情報と、チームのメンバーとして要求される事項が記載されたようこそメールを、チーム所有者から受信します。 
 1. ゲストが招待を承諾します。
   Azure Active Directory または Office 365 の職場または学校のアカウントに属しているメール アドレスを利用しているゲスト ユーザーは、招待を直接承諾することができます。 
-  ゲストがメール アドレスと関連付けられた Microsoft アカウントをまだ持っていない場合、そのゲストは無料の Microsoft アカウントを 1 つ作成するように指示されます。 
+  ゲストのメールアドレスに Microsoft アカウントが関連付けられていない場合は、無料で作成されます。 
 1. 招待を承諾すると、ゲストは [チームやチャネルへの参加](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)、チャネル メッセージに対する受信や応答、[チャネル内のファイルへのアクセス](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、チャットへの参加、会議への参加、ドキュメントでの共同作業などを行うことができるようになります。 
 
 Teams では、ゲストは明確に特定されます。 ゲスト ユーザーの名前にはラベル **(ゲスト)** が含まれていて、チャネルにはチームにゲストが存在していることを示すアイコンが含まれています。 詳しくは、「[ゲストのエクスペリエンスについて](guest-experience.md)」をご覧ください。

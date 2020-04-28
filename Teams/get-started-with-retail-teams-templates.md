@@ -11,19 +11,20 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: チームテンプレートを使用して、小売業者のニーズに合わせて設計されたチーム構造を作成する方法について説明します。
+description: チームテンプレートを使用して、定義済みの設定、チャネル、およびプレインストールされたアプリを提供することで、小売業者のニーズに合わせて設計されたチーム構造を作成する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4477d42cf7036ac93d79684407ee97b7b9e9b900
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892367"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904662"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>小売業の Teams テンプレートの使用を開始する 
 
@@ -63,7 +64,7 @@ Teams のテンプレートには、小売業者のニーズに合わせて設�
 
 組織のマネージャーコラボレーションテンプレートをカスタマイズするには、次の方法をお勧めします。
 
-- 組織に、マネージャーに関連する内部の web サイト (SharePoint サイトなど) がある場合は、それらを関連チームチャネルのタブとして固定することを検討してください (手順について[は、こちら](get-started-with-teams-templates.md)のドキュメントを参照してください)。
+- 組織に、マネージャーに関連する内部 web サイト (SharePoint サイトなど) がある場合は、それらを関連チームチャネルのタブとして固定することを検討してください。 手順については、 [Microsoft Teams のテンプレート](get-started-with-teams-templates.md)に関するドキュメントを参照してください。
 
 ## <a name="how-to-use-first-party-templates"></a>ファーストパーティテンプレートの使用方法
 

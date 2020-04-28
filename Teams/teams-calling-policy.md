@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Microsoft Teams での通話ポリシー設定について説明します。
+description: Microsoft Teams のカスタムの通話ポリシーや、さまざまな通話ポリシーの設定に対してユーザーを作成、変更、および追加する方法について説明します。
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972448"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914019"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams の発信通話制限ポリシー
 ===================================
@@ -36,10 +37,10 @@ Microsoft Teams では、通話ポリシーによって、ユーザーが使用�
 カスタムの通話ポリシーを作成するには、次の手順を実行します。
 
 1. Microsoft Teams 管理センターで、[**音声** > **通話のポリシー**] を選択します。
-2. [**新しいポリシー**] を選びます。
+2. **[新しいポリシー]** を選択します。
 3. 通話ポリシーで使用する機能を有効にします。 すべての選択は既定で**オフ**になっています。
 4. 着信通話をボイスメールにルーティングできるかどうかを制御するには、[**常に有効**] または [**ユーザー管理**] を選択します。 ボイスメールへのルーティングを禁止するには、[**常に無効**] を選びます。
-5. [**保存**] を選びます。
+5. **[保存]** を選択します。
 
 ## <a name="modify-an-existing-calling-policy"></a>既存の通話ポリシーを変更する
 
@@ -49,7 +50,7 @@ Microsoft Teams では、通話ポリシーによって、ユーザーが使用�
 2. 変更するポリシーの横にあるをクリックし、[**編集**] を選択します。
 3. 通話ポリシーで使用する機能を有効にします。 すべての選択は既定で**オフ**になっています。
 4. 着信通話をボイスメールにルーティングできるかどうかを制御するには、[**常に有効**] または [**ユーザー管理**] を選択します。 ボイスメールへのルーティングを禁止するには、[**常に無効**] を選びます。
-5. [**保存**] を選びます。
+5. **[保存]** を選択します。
 
 ## <a name="assign-a-calling-policy-to-a-user"></a>ユーザーに通話ポリシーを割り当てる
 
@@ -59,7 +60,7 @@ Microsoft Teams では、通話ポリシーによって、ユーザーが使用�
 2. ポリシー名の横にあるをクリックして選択し、[**ユーザーの管理**] を選択します。
 3. [**ユーザーの管理**] ウィンドウで、ユーザーの名前を検索します。 (少なくとも3文字を入力する必要があります)。
 4. ユーザー名を選択し、[**追加**] を選択します。
-5. [**保存**] を選びます。
+5. **[保存]** を選択します。
 
 ## <a name="calling-policy-settings"></a>通話ポリシーの設定
 
@@ -105,6 +106,10 @@ Microsoft Teams では、通話ポリシーによって、ユーザーが使用�
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>通話中に取り込み中
 
 [取り込み中] (取り込み中)) は、ユーザーが既に通話または会議に参加している場合や、通話が保留になっている場合に、着信通話の処理方法を構成できる、チーム呼び出しポリシーの新しい設定です。 新規または着信通話は、取り込み中の信号で拒否することができます。 [取り込み] オプションは、テナントレベルまたはユーザーレベルで有効にすることができます。 通話や電話会議のユーザー、または通話を保留しているユーザーは、会議中の通話や会議の開始を防ぐことはできません。 この設定は、既定では無効になっています。
+
+### <a name="allow-music-on-hold"></a>保留中の音楽を許可する
+
+この設定では、PSTN の発信者が保留になっているときに、保留中の音楽をオンまたはオフにすることができます。 既定でオンになっています。 この設定は、コールパークと上司のデリゲート機能には適用されず、現在 powershell 経由でのみ利用できます。 
 
 ## <a name="see-also"></a>関連項目
 

@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '政府機関、教育機関 および非営利組織 のプラン用のアドオン ライセンスと機能について説明します。 '
-ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+- seo-marvel-apr2020
+description: 政府機関向け、教育機関向け、非営利団体向けプランのアドオンライセンスと機能について説明します。
+ms.openlocfilehash: d16a6f0170acb90a54e24cbf7b24f2480fd4b51a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795970"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904542"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU、非営利団体
 
@@ -51,4 +52,4 @@ ms.locfileid: "42795970"
 
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 非営利団体](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Office 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

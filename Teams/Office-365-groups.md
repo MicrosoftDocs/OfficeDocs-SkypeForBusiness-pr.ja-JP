@@ -8,7 +8,7 @@ ms.date: 04/16/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-description: Microsoft 365 グループとグループメンバーシップが Microsoft Teams とどのように連携するかについて説明します。
+description: この記事では、microsoft 365 のグループとグループメンバーシップが Microsoft Teams とどのように連携するかについて説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,13 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1a922853bebef0286d03d65e1b714c35b9be48d5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 414ca42153ab336500aa7b2e9de42dd9fe7f2708
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778583"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902122"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 グループおよび Microsoft Teams
 =====================================

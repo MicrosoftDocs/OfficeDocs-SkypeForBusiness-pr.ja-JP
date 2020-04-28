@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: この記事では、Microsoft Teams ミーティングのコンソールとその周辺機器の設定方法を説明します。
-ms.openlocfilehash: c91c570cd83cc07f1f15823623f2b02a2ebcddf4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+description: この記事では、Microsoft Teams 室本体とその周辺機器を設定して構成する方法について説明します。
+ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826095"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905449"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams ミーティングのコンソールを構成する
 

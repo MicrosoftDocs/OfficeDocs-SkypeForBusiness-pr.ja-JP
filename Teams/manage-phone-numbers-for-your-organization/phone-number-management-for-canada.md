@@ -19,13 +19,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
+- seo-marvel-apr2020
 description: この表を使って、Microsoft Teams のカナダでの電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: 9b24413ae7e1534e1a39cc76cc943341221e82cc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1ebeb077f17c47ed91509538ab5a66d1a2c19620
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779824"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905839"
 ---
 # <a name="phone-number-management-for-canada"></a>カナダでの電話番号の管理
 
@@ -51,6 +52,5 @@ ms.locfileid: "43779824"
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
 
 [緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
 
 

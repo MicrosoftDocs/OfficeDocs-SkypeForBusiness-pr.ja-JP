@@ -8,20 +8,21 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: AAD に基づく動的なチームメンバーシップについて説明します。
+description: 動的メンバーシップを使用して、Microsoft Teams が Office 365 グループに関連付けられているチームをサポートする方法について説明します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.custom: seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780186"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905799"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 
@@ -40,7 +41,7 @@ Microsoft Teams では、チームの Office 365 グループに反映された�
 > - ルールでは、チームメンバーになっているユーザーを定義できますが、チーム所有者とは限りません。
 > - チームおよびチャネルサイズの現在の制限については、「 [Microsoft Teams の制限と仕様](limits-specifications-teams.md)」を参照してください。
 > - メンバーは動的なグループルールによって定義されるため、所有者は、ユーザーをチームのメンバーとして追加または削除することはできません。
-> - メンバーは、動的グループによってバックアップされたチームを脱退することはできません。
+> -    メンバーは、動的グループによってバックアップされたチームを脱退することはできません。
 
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>動的メンバーシップを使用して Office 365 グループを作成して管理する

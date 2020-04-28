@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Microsoft Teams ミーティングの展開に関連する計画の考慮事項と、システムを展開および管理する方法について説明します。
-ms.openlocfilehash: 4d92a5fc347ac7a8a53c35a93445ca923665f84c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 0a418f6fcca9a122a7e3e6aaca123562f2b6fc56
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826075"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905429"
 ---
-<h2>Microsoft Teams ミーティング</h2>
+<h1>Microsoft Teams ミーティング</h1>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
@@ -108,7 +108,7 @@ ms.locfileid: "41826075"
 </ul>
 
 > [!NOTE]
-> Microsoft Teams ミーティングは、Microsoft Teams、Skype for Business Online、Skype for Business Server 2019、または Skype for Business Server 2015 と一緒に使用することを意図しています。  <br><br>Lync Server 2013 のような以前のプラットフォームでは、Microsoft Teams ミーティングの使用は想定されていません。
+> Microsoft Teams ミーティングは、Microsoft Teams、Skype for Business Online、Skype for Business Server 2019、または Skype for Business Server 2015 と一緒に使用することを意図しています。<br><br>Lync Server 2013 のような以前のプラットフォームでは、Microsoft Teams ミーティングの使用は想定されていません。
 
 これらの記事は、該当デバイスの計画、展開、管理に携わるユーザーを対象としており、本システムのユーザー向けではありません。 ユーザー向けの Microsoft Teams ミーティング [オンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) をご覧ください。
 

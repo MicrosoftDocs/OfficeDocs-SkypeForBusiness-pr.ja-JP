@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: この記事では、Microsoft Teams Rooms の既知の問題を、機能の領域ごとに説明しています。
-ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+description: 管理者は、更新、ユーザーインターフェイス、ハードウェア、制限事項、予期される動作など、Microsoft Teams のルームの既知の問題のリストについて知ることができます。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d8f7dcd6453458885a35bdcf7b39e729cc776f5a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102378"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905419"
 ---
 # <a name="known-issues"></a>既知の問題 
  

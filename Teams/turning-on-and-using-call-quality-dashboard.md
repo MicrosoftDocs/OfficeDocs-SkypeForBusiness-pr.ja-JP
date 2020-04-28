@@ -22,13 +22,14 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: '通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。 '
-ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。
+ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788987"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914051"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -409,11 +410,11 @@ EndpointName、EndpointMake、Endpointmake、Endpointmake、EndpointLabel1、End
 
 Skype for Business の CQD にレポートまたはアップロードされたテナントデータ (マッピング) ファイルhttps://cqd.lync.com)を作成した場合 (その方法についhttps://cqd.teams.microsoft.com)ては、次のようにしてください。
 
-1.  エクスポートする[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)レポートセットに移動して参照します。 
-2.  レポートの上にマウスポインターを移動し、[...] を選びます。メニューの [**エクスポートレポートツリー**] を選びます。 エクスポートファイルを保存します。
-3.  レポートを[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)インポートする場所に移動して参照します。
-4.  左側のリンクから [**インポート**] をクリックし、エクスポートされたファイルを選択します。 
-5.  レポートがインポートされると、"レポートのインポートが正常に完了しました。" というメッセージが表示されます。 レポートセットの最後に新しいレポートが追加されました。 " 
+1.    エクスポートする[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)レポートセットに移動して参照します。 
+2.    レポートの上にマウスポインターを移動し、[...] を選びます。メニューの [**エクスポートレポートツリー**] を選びます。 エクスポートファイルを保存します。
+3.    レポートを[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)インポートする場所に移動して参照します。
+4.    左側のリンクから [**インポート**] をクリックし、エクスポートされたファイルを選択します。 
+5.    レポートがインポートされると、"レポートのインポートが正常に完了しました。" というメッセージが表示されます。 レポートセットの最後に新しいレポートが追加されました。 " 
 
 
 ## <a name="create-custom-detailed-reports"></a>ユーザー設定の詳細レポートを作成する
@@ -505,7 +506,7 @@ CQD にアクセスできる役割の詳細については、「 [CQD にアク�
 
 CQD レポート (isTeams = 1) でのみチームをフィルター処理している場合、*第1のエンドポイント*が Teams であるすべての通話をフィルター処理します。 *第2のエンドポイント*が Skype for business の場合、その情報が CQD レポートに表示されます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
