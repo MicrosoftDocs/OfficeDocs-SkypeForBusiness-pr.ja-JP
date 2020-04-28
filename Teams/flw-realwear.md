@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e95440652111dbcd39b756ef942e7a974ef31de0
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: 6ec30e455a79ee37a107509e7c179dd859732b1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131205"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780576"
 ---
 # <a name="microsoft-teams-for-realwear"></a>RealWear 用 Microsoft Teams
 
@@ -43,7 +43,7 @@ RealWear 用 Microsoft Teams クライアントは現在、パブリック プ�
 
 ## <a name="required-licenses"></a>必要なライセンス
 
-Microsoft Teams ライセンスは、Office 365 サブスクリプションに含まれています。 RealWear 用 Teams を使用するために、追加のライセンスは必要ありません。 Teams の入手方法の詳細については、「 [Microsoft Teams へのアクセス方法](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)」を参照してください。
+Microsoft Teams ライセンスは、Microsoft 365 サブスクリプションおよび Office 365 サブスクリプションに含まれています。 RealWear 用 Teams を使用するために、追加のライセンスは必要ありません。 Teams の入手方法の詳細については、「 [Microsoft Teams へのアクセス方法](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)」を参照してください。
 
 ## <a name="managing-realwear-devices"></a>RealWear デバイスを管理する
 

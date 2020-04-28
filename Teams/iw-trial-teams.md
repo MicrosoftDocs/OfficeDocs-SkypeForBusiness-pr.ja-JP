@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Microsoft Teams のライセンスが付与されていない Office 365 ユーザーは、Teams の 1 年間試用版を開始できます。
+description: Microsoft Teams のライセンスが付与されていない Microsoft 365 ユーザーまたは Office 365 ユーザーは、Teams の 1 年間試用版を開始できます。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137157"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778353"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
 
-Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版を開始するための Microsoft Teams ライセンスを所有していない、組織内の既存の Office 365 ユーザーを対象にしています。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。
+Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版を開始するための Microsoft Teams ライセンスを所有していない、組織内の既存の Microsoft 365 ユーザーまたは Office 365 ユーザーを対象にしています。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。
 
 > [!IMPORTANT]
 > Microsoft Teams の商用クラウド試用版は、2020 年 1 月から Microsoft Teams Exploratory に置き換えられます。 この新しいサービスの詳細については、「[Teams Exploratory のライセンスを管理する](teams-exploratory.md)」をご覧ください。
@@ -55,7 +55,7 @@ Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版�
 
 ユーザーが (Microsoft 365 管理センターで) アプリや試用版にサインアップできるようにする必要があります。 詳細については、この記事で後述する「[試用版を管理する](#manage-the-trial)」を参照してください。 
 
-Teams を含む Office 365 ライセンスを所有していないユーザーは、Microsoft Teams 商用クラウド試用版のオファーを開始できます。 たとえば、ユーザーが Office 365 Business (Teams を含まない) を所有している場合、ユーザーは試用版の対象になります。
+Teams を含む Office 365 ライセンスを所有していないユーザーは、Microsoft Teams 商用クラウド試用版のオファーを開始できます。 たとえば、ユーザーが Microsoft 365 Apps for business (Teams を含まない) を所有している場合、ユーザーは試用版の対象になります。
 
 ## <a name="who-is-not-eligible"></a>対象外
 

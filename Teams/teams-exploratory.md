@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Microsoft Teams ライセンスが付与されていない Office 365 ユーザーは、Exploratory Teams ライセンスを開始できます。
+description: Microsoft Teams ライセンスが付与されていない Microsoft 365 または Office 365 ユーザーは、Exploratory Teams ライセンスを開始できます。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4cc744b8cbe9942712857309f061b998957661b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749794"
+ms.locfileid: "43780386"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 =======================================================
@@ -54,7 +54,7 @@ Teams Exploratory エクスペリエンスの一部として管理者に表示�
 
 ## <a name="whos-eligible"></a>対象者
 
-ユーザーが管理対象の AAD ドメインのメール アドレスを持っており、現在 Teams のライセンスを持っていないかライセンスを割り当てられていない場合は、このエクスペリエンスの対象となります。 たとえば、ユーザーが Office 365 Business (Teams を含まない) を持っている場合、Teams Exploratory エクスペリエンスの対象になります。
+ユーザーが管理対象の AAD ドメインのメール アドレスを持っており、現在 Teams のライセンスを持っていないかライセンスを割り当てられていない場合は、このエクスペリエンスの対象となります。 たとえば、ユーザーが Microsoft 365 Apps for business (Teams を含まない) を持っている場合、Teams Exploratory エクスペリエンスの対象になります。
 
 ユーザーが (Microsoft 365 管理センターで) アプリや試用版にサインアップできるようにする必要があります。 詳細については、この記事で後述する「[Teams Exploratory エクスペリエンスを管理する](#manage-the-teams-exploratory-experience)」を参照してください。 
 

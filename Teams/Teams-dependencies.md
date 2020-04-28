@@ -18,24 +18,24 @@ f1.keywords:
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1743b8d2fea354716138800ffe2c1b50d9e71b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834807"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778483"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
 
-組織の要件を満たすために、Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理することができます。 すべての承認レベルが Office 365 テナントに適用されます。 それぞれの承認レベルによって、ゲストのエクスペリエンスが次の通り制御されます。
+組織の要件を満たすために、Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理することができます。 すべての承認レベルが Office 365 組織に適用されます。 それぞれの承認レベルによって、ゲストのエクスペリエンスが次の通り制御されます。
 
 - **Azure Active Directory**: Microsoft Teams のゲスト アクセスは、Azure Active Directory ビジネス ツー ビジネス (B2B) プラットフォームに依存します。 この承認レベルは、ゲストのエクスペリエンスをディレクトリ、テナント、およびアプリケーション レベルで制御します。
 - **Microsoft Teams**: Microsoft Teams のゲストエクスペリエンスのみを管理します。
-- **Office 365 グループ**: Office 365 グループおよび Microsoft Teams でのゲスト エクスペリエンスを制御します。
-- **SharePoint Online と OneDrive for Business**: SharePoint Online、OneDrive for Business、Office 365 グループ、および Microsoft Teams でのゲスト エクスペリエンスを制御します。
+- **Microsoft 365 グループ**: Microsoft 365 グループおよび Microsoft Teams でのゲスト エクスペリエンスを制御します。
+- **SharePoint Online と OneDrive for Business**: SharePoint Online、OneDrive for Business、Microsoft 365 グループ、および Microsoft Teams でのゲスト エクスペリエンスを制御します。
 
-これらの異なる承認レベルにより、組織におけるゲスト アクセスを柔軟にセットアップできるようになります。 たとえば、自分の Microsoft Teams でゲスト ユーザーを許可せず、組織全体では許可する場合、Microsoft Teams でゲスト アクセスをオフにするだけです。 別の例: Azure AD、Teams、Groups レベルでゲスト アクセスを有効にしつつ、1 つ以上の基準 (データ分類が社外秘に等しいなど) に一致する選択したチームに対するゲスト ユーザーの追加を無効にすることができます。 SharePoint Online と OneDrive for Business には、Office 365 グループに依存しない独自のゲスト アクセス設定があります。
+これらの異なる承認レベルにより、組織におけるゲスト アクセスを柔軟にセットアップできるようになります。 たとえば、自分の Microsoft Teams でゲスト ユーザーを許可せず、組織全体では許可する場合、Microsoft Teams でゲスト アクセスをオフにするだけです。 別の例: Azure AD、Teams、Groups レベルでゲスト アクセスを有効にしつつ、1 つ以上の基準 (データ分類が社外秘に等しいなど) に一致する選択したチームに対するゲスト ユーザーの追加を無効にすることができます。 SharePoint Online と OneDrive for Business には、Microsoft 365 グループに依存しない独自のゲスト アクセス設定があります。
 
 > [!NOTE]
 > ゲストにも [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) と [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) のサービスの制限が適用されます。 
@@ -70,41 +70,41 @@ Azure AD には、外部ユーザーを構成する次の設定があります�
 ゲストを招待できるユーザーの管理方法の詳細については、「[Azure Active Directory B2B コラボレーションの招待の委任](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)」を参照してください。
 
 > [!NOTE]
-> どのドメインをゲストとしてテナントに招待できるかを管理することもできます。 詳細については、「[Office 365 グループへのゲスト アクセスを許可/拒否する](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)」を参照してください。
+> どのドメインをゲストとしてテナントに招待できるかを管理することもできます。 詳細については、「[Microsoft 365 グループへのゲスト アクセスの許可/ブロック](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)」を参照してください。
 
 ユーザー ゲスト アカウントを手動で Azure AD B2B に追加する必要はありません。ゲストを Teams に追加すると、アカウントは自動的にディレクトリに追加されます。
 
 ### <a name="licensing-for-guest-access"></a>ゲスト アクセスのライセンス
-ゲスト アクセス ライセンスは、Azure AD ライセンスの一部です。 ゲスト アクセスはすべての Office 365 Business Premium サブスクリプションおよび Office 365 Enterprise サブスクリプションに含まれています。 ライセンスに関する詳細については、[Azure Active Directory B2B コラボレーションのライセンスに関するガイダンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)をご覧ください。
+ゲスト アクセス ライセンスは、Azure AD ライセンスの一部です。 ゲスト アクセスは、Microsoft 365 Business Standard および Office 365 Enterprise のすべてのサブスクリプションに含まれています。 ライセンスに関する詳細については、[Azure Active Directory B2B コラボレーションのライセンスに関するガイダンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)をご覧ください。
 
 
 > [!NOTE]
-> Exchange Online プラン 2 などのスタンドアロン Office 365 サブスクリプションプランのみを持っている組織内のユーザーは、Teams によって組織に属しているものと見なされるため、その同じ組織へのゲストとして招待されることはできません。 Teams を使用するこれらのユーザーの場合は、Office 365 Business Premium、Office 365 Enterprise、または Office 365 Education サブスクリプションが割り当てられる必要があります。 
+> Exchange Online プラン 2 などのスタンドアロン Office 365 サブスクリプションプランのみを持っている組織内のユーザーは、Teams によって組織に属しているものと見なされるため、その同じ組織へのゲストとして招待されることはできません。 これらのユーザーが Teams を使用する場合は、Microsoft 365 Business Standard、Office 365 Enterprise、または Office 365 Education サブスクリプションが割り当てられる必要があります。 
 
 ## <a name="control-guest-access-in-teams"></a>Teams でのゲスト アクセスを管理する
 
 Teams でのゲスト アクセスは、既定でオフになっています。 ゲスト アクセスをオンにするに場合は、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」を参照してください。 
 
 
-## <a name="control-guest-access-in-office-365-groups"></a>Office 365 グループでゲスト アクセスを管理する
+## <a name="control-guest-access-in-microsoft-365-groups"></a>Microsoft 365 グループでのゲスト アクセスを管理する
 
-Office 365 グループから、自分の組織内のすべての Office 365 グループおよび Microsoft Teams のチームへのゲスト ユーザーおよびゲスト アクセスの追加を制御できます。
+Microsoft 365 グループから、自分の組織内のすべての Microsoft 365 グループおよび Microsoft Teams のチームへのゲスト ユーザーおよびゲスト アクセスの追加を管理できます。
 
-1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) で、Office 365 全体管理者アカウントを使用してサインインします。
+1. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) で、グローバル管理者アカウントを使用してサインインします。
 
 2. 左側で [**設定**] を選択し、[**Services &amp; add-ins (サービスとアドイン)**] を選択します。
 
-3. [**Office 365 グループ**] を選択します。
+3. **[Microsoft 365 グループ]** を選択します。
 
-     ![設定での Office 365 グループを示すスクリーン ショット](media/authorize-guest-image2.png)
+     ![設定での Microsoft 365 グループを示すスクリーン ショット](media/authorize-guest-image2.png)
   
-4. 組織外のチーム所有者やグループ所有者に Office 365 へのアクセスを許可するか否かに応じて、[Office 365 グループ] ページのトグルを [**オン**] または [**オフ**] にします。 [**グループ所有者に組織外のユーザーをグループに追加させる**] の横にあるトグルをクリックまたはタップして [**オン**] にします。 このトグルを**オン**にすると、グループおよびチームの所有者が組織外のユーザーを Office 365 グループおよび Microsoft Teams に追加できるかどうかを制御するための別のオプションが表示されます。 グループおよびチームの所有者がゲスト ユーザーを追加できるようにする場合は、このトグルを**オン**に設定します。 
+4. 組織外のチーム所有者やグループ所有者に Microsoft 365 へのアクセスを許可するか否かに応じて、[Microsoft 365 グループ] ページのトグルを **[オン]** または **[オフ]** にします。 [**グループ所有者に組織外のユーザーをグループに追加させる**] の横にあるトグルをクリックまたはタップして [**オン**] にします。 このトグルを **[オン]** にすると、グループおよびチームの所有者が組織外のユーザーを Microsoft 365 グループおよび Microsoft Teams に追加できるかどうかを制御するための別のオプションが表示されます。 グループおよびチームの所有者がゲスト ユーザーを追加できるようにする場合は、このトグルを**オン**に設定します。 
  
-   ![オプションが有効になっている Office 365 グループ パネルを示すスクリーン ショット](media/authorize-guest-image3.png)
+   ![オプションが有効になっている Microsoft 365 グループ パネルを示すスクリーン ショット](media/authorize-guest-image3.png)
 
-上記の設定は、テナント レベルで適用され、Office 365 グループおよび Teams でのゲストのエクスペリエンスを制御します。
+上記の設定は、テナント レベルで適用され、Microsoft 365 グループおよび Teams でのゲストのエクスペリエンスを制御します。
 
-グループのゲスト アクセスの詳細については、「[Office 365 グループのゲスト アクセス](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」を参照してください。ゲスト アクセスの仕組み、ゲスト アクセスの管理方法、よくある質問への回答が記載されています。
+グループのゲスト アクセスの詳細については、「[ゲストを Microsoft 365 グループに追加する](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」を参照してください。ゲスト アクセスの仕組み、ゲスト アクセスの管理方法、よくある質問への回答が記載されています。
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online と OneDrive for Business へのゲスト アクセスを管理する
 
@@ -116,11 +116,11 @@ Teams のゲスト アクセスを完全に利用するには、Office 365 管�
 
     詳細については、「[外部共有をオンまたはオフにする](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)」を参照してください。
 
-- Office 365 グループ: [**グループ所有者が組織外のユーザーをグループに追加できるようにする**] をオンにします。
+- Microsoft 365 グループ: **[グループ所有者が組織外のユーザーをグループに追加できるようにする]** をオンにします。
 
-    詳細については、上記の「[Office 365 グループのゲスト アクセスを管理する](#control-guest-access-in-office-365-groups)」を参照してください。
+    詳細については、上記の「[Microsoft 365 グループでのゲスト アクセスを管理する](#control-guest-access-in-microsoft-365-groups)」を参照してください。
   
-上記の設定は、テナント レベルで適用され、SharePoint Online、OneDrive for Business、Office 365 グループおよび Teams でのゲストのエクスペリエンスを制御します。
+上記の設定は、テナント レベルで適用され、SharePoint Online、OneDrive for Business、Microsoft 365 グループ、Teams でのゲストのエクスペリエンスを制御します。
 
 Teams に接続されたチーム サイトの SharePoint Online の外部ユーザー設定を管理できます。 詳細については、「[SharePoint チーム サイト設定を管理する](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42)」をご覧ください。
 

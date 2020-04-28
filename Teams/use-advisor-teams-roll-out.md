@@ -19,20 +19,20 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053620"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780806"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開について説明します。 Office 365 テナント環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。 次に、Teams のアドバイザーは、展開する各ワークロードのチャネルを備えた展開チーム (チーム内) を作成します。展開チームの各ワークロードには、各ワークロードのすべての展開タスクを含む包括的な Planner の計画が付属しています。  この Planner プランを使用して、プロジェクト マネージャー、Teams および Office 365 の管理者、サポート担当者、導入およびユーザー準備チームなど、展開の各フェーズの責任者にタスクを割り当てます。 各展開タスクには、タスクを正常に完了するために必要なすべてのガイダンスとリソースが含まれています。
+Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開について説明します。 Office 365 組織の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。 次に、Teams のアドバイザーは、展開する各ワークロードのチャネルを備えた展開チーム (チーム内) を作成します。展開チームの各ワークロードには、各ワークロードのすべての展開タスクを含む包括的な Planner の計画が付属しています。  この Planner プランを使用して、プロジェクト マネージャー、Teams および Office 365 の管理者、サポート担当者、導入およびユーザー準備チームなど、展開の各フェーズの責任者にタスクを割り当てます。 各展開タスクには、タスクを正常に完了するために必要なすべてのガイダンスとリソースが含まれています。
 
-Teams のアドバイザーは、[Teams 管理センター](https://admin.teams.microsoft.com)の一部です。 少なくとも、Office 365 Business Essentials ライセンスが必要です。そのため、Forms および Planner との Teams の統合アドバイザーを活用できます。 Teams のアドバイザーの使用を開始するには、ダッシュボードの [**チームのワークロードの展開**] ウィジェットの [**開始**] ボタンをクリックします。 または、[**計画**] > [**Teams アドバイザー**] の順に移動します。
+Teams のアドバイザーは、[Teams 管理センター](https://admin.teams.microsoft.com)の一部です。 Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic ライセンスが必要です。 Teams のアドバイザーの使用を開始するには、ダッシュボードの [**チームのワークロードの展開**] ウィジェットの [**開始**] ボタンをクリックします。 または、[**計画**] > [**Teams アドバイザー**] の順に移動します。
 
 > [!IMPORTANT]
 > Teams のアドバイザーは、Microsoft 365 Government - GCC High または DoD 展開では使用できません。
@@ -96,8 +96,8 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|構成済みの Office 365 グループの名前付けポリシー     |名前付け基準が Office 365 グループ用に構成されているかどうか。 Office 365 グループの名前付けポリシーにより組織は一貫した名前付け戦略をユーザーが作成したチームに適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Office 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[Office 365 Group naming policy (Office 365 グループの名前付けポリシー)](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)」を参照してください。    |
-|構成済みの Office 365 グループ有効期限ポリシー     |Office 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[Office 365 グループの有効期限ポリシー](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
+|構成済みの Office 365 グループの名前付けポリシー     |名前付け基準が Microsoft 365 グループ用に構成されているかどうか。 Microsoft 365 グループの名前付けポリシーにより、組織はユーザーが作成したチームに対して一貫した名前付け戦略を適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Microsoft 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[Office 365 Group naming policy (Office 365 グループの名前付けポリシー)](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)」を参照してください。    |
+|構成済みの Office 365 グループ有効期限ポリシー     |Microsoft 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[Office 365 グループの有効期限ポリシー](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>ミーティングと会議のアセスメント
 
@@ -131,7 +131,7 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Teams のアドバイザーのライセンス要件は何ですか?
-少なくとも、Office 365 Business Essentials が必要です。そのため、Forms および Planner との Teams の統合アドバイザーを活用できます。
+Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic が必要です。
 
 ### <a name="can-i-delete-the-deployment-team"></a>展開チームを削除できますか?
 Teams のアドバイザーが展開チームを作成した後、他のチームと同様にチームを管理できます。これには削除機能も含まれます。 Teams 管理センターを使用しチームを削除しない場合、Teams 管理センターはチームがまだ存在していることを表示することに注意してください。 これは一時的なものです。Teams のアドバイザーがパブリック プレビュー期間を終了し、一般公開されると修正されます。

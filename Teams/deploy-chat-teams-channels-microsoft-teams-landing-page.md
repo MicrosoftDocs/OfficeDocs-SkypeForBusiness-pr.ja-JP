@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170595"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776572"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -46,7 +46,7 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 |確認事項|アクション |
 |------------|-------|
-|Teams を展開するために組織の準備が整っているか?|この質問に回答するには、次を参照してください。 <ul><li>[Teams 用に組織のネットワークを準備する](prepare-network.md)</li><li>[Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)</li><li>[チームを作成するときの Office 365 グループの計画](plan-office-365-groups.md)</li></ul>|
+|Teams を展開するために組織の準備が整っているか?|この質問に回答するには、次を参照してください。 <ul><li>[Teams 用に組織のネットワークを準備する](prepare-network.md)</li><li>[Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)</li><li>[チームを作成するときの Microsoft 365 グループの計画](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
@@ -193,7 +193,7 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 | 確認事項 | アクション |
 |--------------|--------|
 |チームの作成が可能なユーザーに関する制御の実施が必要になるか?| 「[Teams でのガバナンスを計画する](plan-teams-governance.md)」を参照してください。|
-|チームの命名に関する制御の実施が必要になるか?|「[Azure Active Directory での Office 365 グループの名前付けポリシーの強制](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)」を参照してください。|
+|チームの命名に関する制御の実施が必要になるか?|「[Azure Active Directory での Microsoft 365 グループに対する名前付けポリシーの強制](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)」を参照してください。|
 |||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams のアプリケーション ポリシー (サイドレール制御)

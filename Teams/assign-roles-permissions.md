@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43778933"
@@ -48,7 +48,7 @@ Microsoft Teams には、**所有者**と**メンバー**という 2 つのユ�
 |        ***プライベート チャネルの削除**         |    必要     |    不要|
 |          **メンバーの追加**          |  はい<sup>3</sup>   |     いいえ<sup>4</sup>    |
 |          **メンバーを追加する要求**          |  N/A   |     はい<sup>5</sup>     |
-|           **アプリを追加する**            |    はい     |    Yes<sup>2</sup>|
+|           **アプリの追加**            |    はい     |    Yes<sup>2</sup>|
 
 <sup>1</sup> 制限されていない限り、チームオーナーはチームを作成できます。 後述の「[チームを作成するためのアクセス許可](#permissions-to-create-teams)」をご覧ください。<br>
 <sup>2</sup> 所有者はこれらの項目をチーム レベルでオフにできます。その場合、メンバーは項目にアクセスできなくなります。<br>
@@ -75,10 +75,10 @@ Microsoft Teams には、**所有者**と**メンバー**という 2 つのユ�
 
 ## <a name="permissions-to-create-teams"></a>チームを作成するためのアクセス許可
 
-既定では、Exchange Online のメールボックスを持つすべてのユーザーは、Microsoft 365 グループを作成する権限と、そのために Microsoft Teams 内のチームを作成する権限を持っています。 グループの作成と管理の権限を一連のユーザーに委任することで、新しいチームの作成をより厳密に制御し、新しい Microsoft 365 グループを作成することができます。 手順については、「 [Microsoft 365 グループを作成できるユーザーを管理する](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)」を参照してください。
+デフォルト設定では、Exchange Online にメールボックスを持つすべてのユーザーは Microsoft 365 グループ作成権限があり、すなわち Microsoft Teams でチームを作成する権限があります。 グループの作成と管理に関する権限を特定のユーザーに委任することで、新しいチームおよび Microsoft 365 のグループの作成をより厳重に管理し制限することができます。 手順については、[Microsoft 365 グループを作成できるユーザーを管理する](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)を参照してください。
 
 
 ||||
 |---------|---------|---------|
 | ![判断ポイントを表すアイコン](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |判断ポイント         |Microsoft Teams のすべてのユーザーがチームを作成できますか (作成できることを推奨)?         |
-| ![次の手順を示すアイコン](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |次のステップ         |チームを作成できるユーザーを制限する必要がある場合に、Microsoft 365 グループを作成できるユーザーの既定のアクセス許可を変更する         |
+| ![次の手順を示すアイコン](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |次の手順         |チームを作成できるユーザーを制限する場合は、Microsoft 365 グループの既定の作成権限を変更します。         |

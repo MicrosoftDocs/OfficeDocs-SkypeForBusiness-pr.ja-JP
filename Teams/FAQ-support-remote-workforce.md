@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096962"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780316"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -90,7 +90,7 @@ Microsoft 365 をお持ちの場合は、既に Teams をお持ちです。 す�
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Teams の使用を開始するためのサポートの受け方や展開が成功したかどうかの確認方法について教えてください。
 
-Microsoft では、計画、展開、利用促進、ベスト プラクティスの導入に役立つ、[Office 365 用 FastTrack Center 特典](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365)を提供しています。 このサービスは、ユーザーが 150 人以上いる場合は無料で提供されています。 詳細については、「[簡単になった、Microsoft 365 用 FastTrack アシスタントの申請](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)」をお読みください。 Microsoft 365 用 FastTrack セットアップ ガイダンスは、すべての Office 365 テナント管理者に提供されています。 このガイダンスにアクセスするには、管理者の資格情報を使用して [https://aka.ms/setupguidance](https://aka.ms/setupguidance) にサインインします。
+Microsoft では、計画、展開、利用促進、ベスト プラクティスの導入に役立つ、[Office 365 用 FastTrack Center 特典](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365)を提供しています。 このサービスは、ユーザーが 150 人以上いる場合は無料で提供されています。 詳細については、「[簡単になった、Microsoft 365 用 FastTrack アシスタントの申請](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)」をお読みください。 Microsoft 365 用 FastTrack セットアップ ガイダンスは、すべての Office 365 組織の管理者に提供されています。 このガイダンスにアクセスするには、管理者の資格情報を使用して [https://aka.ms/setupguidance](https://aka.ms/setupguidance) にサインインします。
 
 ご自身で使用を開始する場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」をお読みになり、Teams をわずか 30 日で運用開始させるための方法を学べるウェビナー シリーズ「[Teams in 30](https://aka.ms/Teamsin30)」をご覧になってください。
 
