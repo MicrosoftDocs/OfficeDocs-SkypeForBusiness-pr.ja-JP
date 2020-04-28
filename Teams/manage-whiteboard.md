@@ -9,22 +9,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: Microsoft Teams でホワイトボード web アプリを使用する方法について説明します。
+description: この記事では、Microsoft Teams でホワイトボード web アプリを管理および使用する方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb6c4a1773996101d916c8fe11c0e46bc78b287
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b8f17a65ca4ce10497b4f05d6b2762f1f430909b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837517"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904959"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Microsoft Teams でホワイトボードを管理する
 ==========================================
@@ -39,7 +40,7 @@ Microsoft ホワイトボードは、人、コンテンツ、アイデアが集�
 
 Microsoft ホワイトボードを使用する前に、ホワイトボードアプリが Surface Hub デバイスにインストールされていることを確認してください。 ホワイトボードがインストールされていない場合は、Surface Hub デバイスで Microsoft ストアアプリに移動し、 [Microsoft ホワイトボード](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab)を入手します。 詳細については、「 [Surface Hub で Microsoft ホワイトボードを有効にする](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627)」を参照してください。
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>詳細情報
 
 詳細については、以下を参照してください。
 

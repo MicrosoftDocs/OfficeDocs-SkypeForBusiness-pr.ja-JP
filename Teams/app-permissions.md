@@ -12,18 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: 組織から要求されているデータおよびアクセス許可アプリについて説明します。
+description: 管理者は、Microsoft Teams アプリが組織から要求しているデータと権限について学習できます。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845228"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904592"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -135,7 +136,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - タブのリスクプロファイルは、ブラウザータブで実行されている同じ web サイトとほぼ同じです。 
 
-- また、タブには、現在のユーザーのサインイン名と UPN、現在のユーザーの Azure AD オブジェクト ID、その場所にある Office 365 グループの ID (チームの場合)、テナント ID が含まれているコンテキストが取得されます。を選び、ユーザーの現在のロケールを選びます。 ただし、これらの Id をユーザーの情報に対応付けるには、ユーザーが Azure AD にサインインする必要があります。
+- また、タブには、現在のユーザーのサインイン名と UPN、現在のユーザーの Azure AD オブジェクト ID、その場所にある Office 365 グループの ID (チームの場合)、テナント ID、ユーザーの現在のロケールなど、タブによって実行されているコンテキストが取得されます。 ただし、これらの Id をユーザーの情報に対応付けるには、ユーザーが Azure AD にサインインする必要があります。
 
 ## <a name="connectors"></a>コネクタ
 

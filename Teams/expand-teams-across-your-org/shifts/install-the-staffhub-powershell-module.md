@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft StaffHub PowerShell モジュールをインストールして接続する方法について説明します。
+description: Microsoft StaffHub PowerShell モジュールにインストールして接続し、StaffHub teams を Microsoft Teams に移行する方法について説明します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,17 +17,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75ed6840b409f391b87759e2004c0f1ea475ce69
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 52b4e0c41520468bc1e05734644d1beb05fed5be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827565"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905729"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Microsoft StaffHub PowerShell モジュールをインストールする
 
 > [!IMPORTANT]
-> 2019 年 12 月 31 日より、Microsoft StaffHub が廃止されます。 Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は、2019 年 12 月 31 日以降すべてのユーザーがご利用できなくなります。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。  
+> 2019 年 12 月 31 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は、2019 年 12 月 31 日以降すべてのユーザーがご利用できなくなります。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。  
 
 この記事の手順を使用して、Microsoft StaffHub PowerShell モジュールをインストールして接続します。 これは[、StaffHub teams を teams に移動](move-staffhub-teams-to-shifts-in-teams.md)するために必要です。
 
@@ -73,7 +74,7 @@ ms.locfileid: "41827565"
 
 2. メッセージが表示されたら、グローバル管理者としてログインします。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Microsoft StaffHub PowerShell リファレンス](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
 - [Microsoft StaffHub のチームを Teams の Shifts に移動する](move-staffhub-teams-to-shifts-in-teams.md)

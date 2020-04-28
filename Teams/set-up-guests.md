@@ -11,25 +11,25 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: Microsoft Teams でのゲスト アクセス機能をオンまたはオフにします。
+description: Office 365 管理者として Microsoft Teams のゲストアクセス機能を有効または無効にする方法について説明します。
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bcdbc3251820bdcee860323ad993efc8d6673c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: e634c58d34787a76477591ab4262c703e5773cbe
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835647"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903792"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 ===================================================
 
 既定では、ゲスト アクセスはオフになっています。 管理者やチームの所有者がゲストを追加できるようにするには、Office 365 管理者が Teams へのゲスト アクセスをオンにする必要があります。 ゲスト アクセスをオンにするには、[ゲスト アクセスのチェックリスト](guest-access-checklist.md)を使用します。 
 
-ゲスト アクセスをオンにしてからその変更が有効になるまでに、2 から 24 時間かかります。 ユーザーがチームにゲストを追加しようとするときに "Contact your administrator (管理者にお問い合わせください)" というメッセージが表示される場合、ゲスト アクセスがオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。
+ゲストアクセスを有効にすると、変更が反映されるまでに数時間かかることがあります。 ユーザーがチームにゲストを追加しようとするときに "Contact your administrator (管理者にお問い合わせください)" というメッセージが表示される場合、ゲスト アクセスがオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。
 
 > [!IMPORTANT]
 > ゲスト アクセスをオンにする方法は、Azure Active Directory、Office 365、SharePoint Online、Teams の設定により異なります。 詳細については、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」を参照してください。
@@ -38,15 +38,15 @@ ms.locfileid: "41835647"
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 管理センターでゲスト アクセスを構成する
 
-1.  Microsoft Teams 管理センターにサインインする。
+1.    Microsoft Teams 管理センターにサインインする。
 
-2.  [**組織全体の設定**] > [**ゲスト アクセス**] を選択します。
+2.    [**組織全体の設定**] > [**ゲスト アクセス**] を選択します。
 
 3. **[Microsoft Teams でのゲスト アクセスを許可]** を **[オン]** に設定します。
 
     ![ゲスト アクセスの許可の切り替えをオンに設定する ](media/set-up-guests-image1.png)
 
-4.  **[通話]**、**[会議]**、および **[メッセージング]** で、ゲスト ユーザーに何を許可する必要があるかに応じて、各機能の **[オン]** または **[オフ]** を選択します。
+4.    **[通話]**、**[会議]**、および **[メッセージング]** で、ゲスト ユーザーに何を許可する必要があるかに応じて、各機能の **[オン]** または **[オフ]** を選択します。
 
     - **プライベート通話の発信** – この設定を [**オン**] にするとゲストがピアツーピアの通話を発信することができるようになります。
     - **IP ビデオを許可** - この設定を [**オン**] に切り替えると、ゲストは自分たちの通話および会議でビデオを使用することができるようになります。
@@ -67,7 +67,7 @@ ms.locfileid: "41835647"
     - **会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。 
 
 
-5.  **[保存]** をクリックします。
+5.    **[保存]** をクリックします。
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell を使用してゲスト アクセスをオンまたはオフにする
 「[PowerShell を使用してゲスト アクセスをオンまたはオフにする](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)」を参照してください。

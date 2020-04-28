@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: ユーザーは、ステータス メッセージの代理人として別のユーザーを明示的に設定できます。
-ms.openlocfilehash: e76181ff69f2d4e6ed75183bdb5fbdda695d05e4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: "\"退席中\" 状態または \"応答不可\" 状態のユーザーが自分の状態メッセージで別のユーザーを代理として明示的に設定する方法について説明します。"
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153809"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904739"
 ---
 # <a name="message-delegation"></a>メッセージの委任
 
@@ -42,13 +43,13 @@ ms.locfileid: "42153809"
 
 ## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Teams クライアントのユーザー ステータスに対する共存モードの影響
 
-管理者は、ステータスのメモと委任言及の動作がユーザーの共存モードに一部依存することに注意する必要があります。 このマトリックスは可能性を示します。
+管理者は、[状態メモ] と [委任によるメンション] の動作が、ユーザーの共存モードに依存することに注意する必要があります。 このマトリックスは可能性を示します。
 
 |共存モード | 正常な動作|
 |---|---|
-|TeamsOnly |ユーザーは、Teams からのみメモを設定できます。 <br> ユーザーの Teams メモは、Teams と SfB に表示されます。 |
-|アイランド | Teams で設定されたユーザーのメモは、Teams でのみ表示されます。 <br> SfB で設定されたユーザーのメモは、SfB でのみ表示されます。 |
-|SfB* モード | ユーザーは、SfB からのみメモを設定できます。 <br> ユーザーの SfB メモは、SfB と Teams に表示されます。  |
+|TeamsOnly |ユーザーは、Teams からのみメモを設定できます。 <br> ユーザーの Teams のメモは Teams & SfB に表示されます。 |
+|アイランド | Teams でのユーザーのメモセットは、Teams でのみ表示されます。 <br> Sfb でのみ表示される sfb でのユーザのメモセット |
+|SfB* モード | ユーザーは、SfB からのみメモを設定できます。 <br> ユーザーの SfB メモは、SfB & Teams で表示されます。  |
 |||
 
 モードが TeamsOnly または アイランドの場合、ユーザーはメモを設定できます。  
@@ -57,9 +58,9 @@ ms.locfileid: "42153809"
   
 メモが Skype for Business から設定されていることを視覚的に示すものはありません。
 
-Skype for Business のステータス メモに文字数の制限は適用されていません。 Microsoft Teams は、Skype for Business からのメモ セットのうち最初の 280 文字のみを表示します。 メモの最後にある省略記号 (…) は省略されたことを示します。
+Skype for Business では、状態メモに文字数の制限は適用されません。 Microsoft Teams は、Skype for Business からのメモ セットのうち最初の 280 文字のみを表示します。 メモの最後にある省略記号 (…) は省略されたことを示します。
   
-Skype for Business は、メモの有効期限をサポートしていません。
+Skype for Business では、ノートの有効期間をサポートしていません。
 
 ユーザーが TeamsOnly モードにアップグレードされている場合は、Skype for Business から Teams にメモを移行することはできません。
 

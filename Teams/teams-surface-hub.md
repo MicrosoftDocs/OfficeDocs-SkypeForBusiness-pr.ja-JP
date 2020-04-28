@@ -8,23 +8,24 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Microsoft Teams for Surface Hub の管理者設定を構成します。
+description: Surface Hub アプリの Teams をインストールして構成する方法について説明します。これにより、Teams が既定の通話および会議アプリケーションになります。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Devices
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 589bbfe75f0beea88066b5a6188b1d29c98ddd5f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836937"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905649"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Microsoft Teams for Surface Hub を展開する
 ======================================

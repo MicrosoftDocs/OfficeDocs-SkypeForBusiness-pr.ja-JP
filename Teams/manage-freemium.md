@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
-description: 無料の Teams の管理機能について説明します。
+description: Teams のユーザーを管理できるユーザーと、さまざまなチームのプランの違いについて説明します。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb766eb7f1e5e8ef98afc540bdbb5264877b8142
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0d8d7edb5710883c7725a0784819d3a35c1c2f2f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780036"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905099"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>無料版の Microsoft Teams を管理する
 ==========================================

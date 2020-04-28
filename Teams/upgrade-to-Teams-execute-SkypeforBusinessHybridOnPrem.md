@@ -8,25 +8,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Skype for Business サーバーまたは Microsoft Lync オンプレミスの展開から Teams へのアップグレードを展開して実装する。
+description: Skype for Business オンプレミスの展開から組織を Microsoft Teams にアップグレードする方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac5045df6462be28d7f13e093695376ea612e6cd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 491f4132d5f5c4c4e5d8215d0d48277a864cf064
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780156"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905219"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Skype for Business オンプレミスから Teams にアップグレードする
 

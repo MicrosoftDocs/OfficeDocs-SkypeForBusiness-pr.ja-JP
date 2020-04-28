@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: Microsoft Teams でリソースアカウントを管理する方法について説明します。
-ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+- seo-marvel-apr2020
+description: この記事では、Microsoft Teams でリソースアカウントを作成、編集、管理する方法について説明します。
+ms.openlocfilehash: 07f6f15f3ed3fc1e115ae672ef1eac89b5eab12f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43750004"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905009"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -37,7 +38,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 > [!NOTE]
 > この記事は、Microsoft Teams と Skype for Business Online の両方に適用されます。 Skype for Business Server 2019 を使用しているリソースアカウントの場合は、「[リソースアカウントを構成する](/SkypeForBusiness/hybrid/configure-onprem-ra)」を参照してください。
 
-## <a name="overview"></a>概要
+## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a>電話システムの通話キューに電話番号を割り当てる
 
 組織が既に少なくとも1つの電話システムライセンスを使用している場合、電話システムの通話キューに電話番号を割り当てるには、次の手順を実行します。
 

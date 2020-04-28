@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: この記事では、Microsoft Teams ミーティングの累積的な改善点について説明します。
-ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+description: 管理者は、microsoft teams ルームのリリースノートを読むことができます。これにより、Microsoft Teams のルームでの累積的な改善点が一覧表示されます。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227521"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905339"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -70,7 +71,6 @@ ms.locfileid: "43227521"
 - XML を使用して2台のルームの会議からの重複コンテンツを無効にする機能
 - アプリケーションのスプラッシュ画面
 - デバイス設定のオープンソースソフトウェア (OSS) 通知
-- Skype for Business Server 2015/2019 で TLS 1.0 および TLS 1.1 が無効になっている場合の PSOM 接続の問題を修正しました。
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 

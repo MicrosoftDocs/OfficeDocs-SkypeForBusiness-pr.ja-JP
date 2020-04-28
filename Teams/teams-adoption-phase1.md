@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: チーム導入のスタートアップフェーズについて説明します。
+description: この記事では、Microsoft Teams の導入フェーズでのアクティビティについて説明します。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c2f179c6b51c6e016377ff7008b9e81c9b08660
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 00615f1bbd48654701ff64e547bffdbd8ee142f9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837777"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905669"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams の導入段階 1 - 開始
 
@@ -63,7 +65,7 @@ ms.locfileid: "41837777"
 
 ほとんどの場合、この最初のチームは、チームに興味を持っている合う仲間人の小さなグループであり、実装について責任を負うこともあります。 導入計画が段階的に進んでいくと、チーム内の他のユーザーも含められます。 また、サポートが必要な Microsoft のリソースを利用することをお勧めします。 
 
-## <a name="additional-resources"></a>追加リソース
+## <a name="additional-resources"></a>その他のリソース
 
 [Microsoft 技術コミュニティ](https://aka.ms/TechCommunity)では、多くの Office 365 製品について、導入と技術上の問題について提供されています。 次のコミュニティに参加することをお勧めします。
 

@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 組織のチームを幅広くサポートする方法について説明します。
+description: 組織のチームの幅広いスケール対応をサポートするために必要な手順の概要を説明します。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85cb53ed6099dcbb5c2fdf0b9b45816048f3b77c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: bfccc3338589c6a90025024b373c917de58ebeee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837757"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904602"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams の導入段階 3 - 規模
 

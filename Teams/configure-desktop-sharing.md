@@ -11,17 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams のチャットや会議でユーザーがデスクトップを共有できるように、会議ポリシーを構成します。
+description: チームのチャットまたは会議でユーザーがデスクトップを共有できるように会議ポリシーを構成する方法について説明します。
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 366aaeb4f48670ae04d4b53d21196ef2d9e81fb4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825545"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905899"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 ============================================
@@ -52,8 +53,8 @@ ms.locfileid: "41825545"
 
 5. 次の設定をオンまたはオフにします。
 
-    - **[参加者による制御の付与または要求を許可する]**: チームのメンバーによる、発表者のデスクトップまたはアプリケーションの制御の付与や要求を許可します。
-    - **[外部の参加者による制御の付与または要求を許可する]**: ゲストや外部の (フェデレーション) ユーザーによる、発表者のデスクトップまたはアプリケーションの制御の付与や要求を許可します。
+    - **参加者による制御の付与または要求を許可する**–チームのメンバーが、発表者のデスクトップまたはアプリケーションの制御を付与または要求できるようにします。
+    - **外部参加者による制御の付与または要求を許可する**–ゲストと外部 (フェデレーション) ユーザーは、発表者のデスクトップまたはアプリケーションの制御を許可または要求できます。
     - **[PowerPoint 共有を許可する]**: ユーザーによる、PowerPoint プレゼンテーションのアップロードや共有ができる会議の作成を許可します。
     - **[ホワイトボードを許可する]**: ユーザーによるホワイトボードの共有を許可します。
     - **[共有メモを許可する]**: ユーザーが共有メモを取ることを許可します。

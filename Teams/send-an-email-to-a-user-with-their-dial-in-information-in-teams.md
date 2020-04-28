@@ -20,14 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
-description: Microsoft Teams で電話会議情報を記載したメールをユーザーに送信します。
-ms.openlocfilehash: 2a045eaf3a2a79b893ff0d13e25d9b34224fd355
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: Microsoft Teams で電話会議情報を記載したメールをユーザーに送信する方法について説明します。
+ms.openlocfilehash: d1cab63d9e89bb62254a838de708c022ef0b0993
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140930"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905609"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft Teams の電話会議情報が含まれたメールをユーザーに送信する
 
@@ -47,7 +47,7 @@ Microsoft Teams ユーザーは、電話会議情報を送信する必要があ�
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が含まれるメールをユーザーに送信する
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 

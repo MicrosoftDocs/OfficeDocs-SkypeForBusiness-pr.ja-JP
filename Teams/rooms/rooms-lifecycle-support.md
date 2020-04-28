@@ -12,13 +12,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: この記事では、Microsoft Teams ミーティングのライフサイクル サポートについて説明します。
-ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+description: 動的サポートの構造とそのフェーズを含む、Microsoft Teams のルームのライフサイクルのサポートについて説明します。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190830"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905379"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams ミーティング アプリ バージョンのサポート
  
@@ -63,7 +64,7 @@ Microsoft Teams のルームアプリケーションで見つかった互換性�
 
 Windows 10 のサポートされているバージョンを使用している場合は、Microsoft Teams ミーティング アプリの最新のアプリケーション更新プログラムを入手できます。  
 
-## <a name="see-also"></a>関連項目
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

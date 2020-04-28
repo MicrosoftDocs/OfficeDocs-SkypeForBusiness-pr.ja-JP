@@ -8,24 +8,24 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Microsoft Teams で Microsoft 365 または Office 365 を有効にする方法について説明します。
+description: Microsoft Teams を Microsoft 365 または Office 365 組織向けに有効にする方法、ユーザーライセンスを割り当てて個別のアクセスを制御する方法、コンテンツソースを許可またはブロックする方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d10e93c1ae5f01a2417502f99ee18ab4d12d7b9d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 161022a385ec703ca4da9c5ea26840513ffa38b4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778543"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902432"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>組織で Teams を有効にする
 

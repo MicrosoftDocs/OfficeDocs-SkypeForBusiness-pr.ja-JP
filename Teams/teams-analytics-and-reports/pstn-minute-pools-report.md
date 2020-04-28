@@ -16,27 +16,27 @@ MS.collection:
 description: Microsoft Teams 管理センターで Teams の PSTN 分プールレポートを使用して、現在の月に組織内で消費されている分を表示する方法を説明します。
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d00e6f76258caad7899ddd589e037718928741e0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140668"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904899"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams の PSTN 分プールレポート
 
 Microsoft Teams 管理センターの Teams PSTN 分数プールレポートは、現在の月に消費された分数を表示して、組織内の電話会議と通話アクティビティの概要を示します。 通話に使用されているライセンス、合計通話時間、使用済みの分数、および場所ごとのライセンス使用状況などのアクティビティの内訳を確認できます。
 
-## <a name="view-the-report"></a>レポートを表示する
+## <a name="view-the-pstn-minute-pools-report"></a>PSTN の分単位のプールレポートを表示する
 
-Microsoft Teams 管理センターの左のナビゲーションで、[**分析] & [レポート** > の**利用状況レポート**] をクリックします。 [レポートの**表示**] タブの [**レポート**] で、[ **PSTN 分プール**] を選択し、[**レポートの実行**] をクリックします。
+Microsoft Teams 管理センターの左側のナビゲーションで、**[分析およびレポート]** > **[使用状況レポート]** をクリックします。 [レポートの**表示**] タブの [**レポート**] で、[ **PSTN 分プール**] を選択し、[**レポートの実行**] をクリックします。
 
 ![管理センターの Teams の PSTN 分単位のプールレポートのスクリーンショット](../media/teams-reports-pstn-minute-pools-with-callouts.png "番号付き吹き出しが含まれる Microsoft Teams 管理センターの Teams PSTN 分プールレポートのスクリーンショット")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
-|コールアウト |説明  |
+|Callout |説明  |
 |--------|-------------|
 |**1**   |各レポートには、生成された日付が含まれています。 通常、レポートはアクティビティの時刻から 24 ～ 48 時間の遅延を反映します。 |
 |**2**   |機能 (ライセンス) をクリックすると、その機能のアクティビティが表示されます。 |

@@ -10,23 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams の導入について、認識を向上させ、トレーニングプログラムを実装する方法について説明します。
+description: Microsoft Teams の導入のためのトレーニングプログラムを強化して実装する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - Adopt
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1111a73fcd80b429d04ed688ac44053c4ef3ad9
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506868"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904352"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 

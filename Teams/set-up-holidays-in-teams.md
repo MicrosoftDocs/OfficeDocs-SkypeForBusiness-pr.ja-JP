@@ -16,14 +16,16 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.holidays.overview
-description: Microsoft Teams で休日を設定し、自動応答に接続する方法について説明します。
-ms.openlocfilehash: dc156b2c2ae0a71ae7cdb1282676f47c7ba648bc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.holidays.overview
+- seo-marvel-apr2020
+description: Microsoft Teams で休日を設定して、休日機能を使用して自動応答に接続する方法について説明します。
+ms.openlocfilehash: 531b2ff6c9fedcab7710fbab3ac9bd69d615ab73
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838017"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905579"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 
@@ -53,7 +55,7 @@ Microsoft Teams の祝日機能を使用すると、組織内のユーザーが�
 
 8. ドロップダウンリストを使用して、休日の終了時刻を選択します。
 
-9. [**保存**] を選びます。
+9. **[保存]** を選択します。
 
 ## <a name="change-a-holiday"></a>休日を変更する
 
@@ -69,7 +71,7 @@ Microsoft Teams の祝日機能を使用すると、組織内のユーザーが�
 
 6. ドロップダウンリストを使用して、休日の終了時刻を選択します。
 
-7. [**保存**] を選びます。
+7. **[保存]** を選択します。
 
 ## <a name="connect-a-holiday-to-an-auto-attendant"></a>休日を自動応答に接続する
 
@@ -84,8 +86,8 @@ Microsoft Teams の祝日機能を使用すると、組織内のユーザーが�
 7. 応答メッセージの後に通話を終了するには、[**アクション**] の [**切断**] を選びます。 
 
     通話をリダイレクトするには、[**通話のリダイレクト**] を選択し、ドロップダウンリストからリダイレクトされた通話を受信するユーザーを選択するか、表示名で相手を検索します。
-8. [**保存**] を選びます。
+8. **[保存]** を選択します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [クラウド自動応答とは何](what-are-phone-system-auto-attendants.md)ですか?

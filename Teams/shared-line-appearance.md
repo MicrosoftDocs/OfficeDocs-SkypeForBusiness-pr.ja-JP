@@ -20,20 +20,21 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
-description: '[共有の線の外観] を使うと、ユーザーは代理として応答するか、通話を処理するデリゲートを選ぶことができます。'
-ms.openlocfilehash: bb6728de67d1bf29a5e00ed9b62d8957391dd8ba
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Microsoft Teams で電話会議情報を記載したメールをユーザーに送信する方法について説明します。
+ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837967"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905549"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での回線共有機能
 
 共有された線の外観は、委任機能の一部であり、ユーザーは代理として応答したり、通話を処理したりすることができます。 この機能は、ユーザーの通話を定期的に処理する管理アシスタントがある場合に便利です。 共有線の外観のコンテキストでは、マネージャーは代理人を代理として発信または受信するために代理人を承認し、代理人が他のユーザーの代わりに通話を発信および受信することができます。
 
 > [!IMPORTANT]
-> この機能は、Teams のみの展開モードでのみ利用できます。 Teams の展開モードの詳細については、「 [Microsoft teams と Skype For business の共存と相互運用性につい](teams-and-skypeforbusiness-coexistence-and-interoperability.md)て」を参照してください。
+> この機能を使用できるのは、Teams のみの展開モードだけです。 Teams の展開モードの詳細については、「 [Microsoft teams と Skype For business の共存と相互運用性につい](teams-and-skypeforbusiness-coexistence-and-interoperability.md)て」を参照してください。
 
 ## <a name="license-required"></a>ライセンスが必要
 
@@ -56,7 +57,7 @@ ms.locfileid: "41837967"
 
 共有線の外観は、現在、次のアプリとデバイスでサポートされています。
 
-| 機能 | Teams のデスクトップ | Teams Mac アプリ | Teams Web App (Edge) |Teams mobile iOS/Android アプリ | Teams の IP 電話 |
+| 機能 | Teams デスクトップ | Teams Mac アプリ | Teams Web アプリ (Edge) |Teams モバイル iOS/Android アプリ | Teams IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | 代理人を設定する | はい | はい | はい | いいえ | いいえ |
 | 他の人の代理で通話を受信する | はい | はい | はい | はい | はい |
@@ -73,6 +74,6 @@ ms.locfileid: "41837967"
  
 委任者と代理人が同じ地理的な場所にない場合は、PSTN プロバイダーが、委任されている (代理として) 呼び出しについて別の地理的な場所から表示することを許可します。 
  
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>詳細情報
 
 [代理人と電話回線を共有する](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)

@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 管理者は、開催者が会議に無料電話番号を使用する方法を制御できます。
-ms.openlocfilehash: 7bc830529fc24a61be914998e923ad2d5288b7c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: 電話会議のブリッジ会議で、開催者が無料電話番号を使用する方法を制御する方法について説明します。
+ms.openlocfilehash: 517ffea6a15cd625320f33e3eb4911f4a250d51d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837267"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904572"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>特定の Teams ユーザーの無料電話番号を無効にする
 

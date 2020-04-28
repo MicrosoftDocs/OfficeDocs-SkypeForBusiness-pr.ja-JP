@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 組織とユーザーが Microsoft Teams の準備ができていることを確認する
+description: Microsoft Teams 環境に正常に移行するための組織の準備を評価する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: a9cfb5c1982d6cfa031db447ed07543edf3a2a3e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706937"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904442"
 ---
 # <a name="assess-organizational-change-readiness"></a>組織的な変更の準備状況を評価する
 
@@ -46,16 +48,16 @@ ms.locfileid: "42706937"
 
 | | |
 |---|---|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断のポイント|<ul><li>組織の文化はどのようなものであるか。</li><li>新しいテクノロジでユーザーの作業方法がどのように最適化されますか?</li><li>動作方法を変更するために特別な注意が必要となる可能性があるユーザー</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織の文化はどのようなものであるか。</li><li>新しいテクノロジでユーザーの作業方法がどのように最適化されますか?</li><li>動作方法を変更するために特別な注意が必要となる可能性があるユーザー</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>組織のユーザーの準備プロファイルを取得するには、次のガイダンスと関連するアクティビティを使用します。</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>組織変更の準備
 
 組織の準備を評価することによって、ユーザーがどのように動作するかを決定することができます。また、ユーザーが新しいテクノロジの receptive や採用方法を変更する可能性があります。 ユーザーが変更にどのように対応するかを理解することにより、組織は積極的に懸念事項を把握し、最適な購入を実現するためにロールアウト計画を調整し、実際にピアとの変更を容易にするために役立つユーザーを特定することができます。
 
-### <a name="activity"></a>処理
+### <a name="activity"></a>アクティビティ
 
-組織の準備評価を実施し、変更された場合に組織の文化を文書化するには、次のスレッドの初心を使用します。 この情報は、プロジェクトに実装するために必要な認識とトレーニングの量を伝えるのに役立ちます。 正確な数字は気にしないでください。 この練習は、組織の文化についての一般的な理解を示すものです。 はじめにヘルプが必要な場合は、過去のロールアウトを評価してください。これは、ユーザーが変更にどのように対応するかを予測するのに役立ちます。また、予期した反応を事前に対処するのに役立ちます。
+組織の準備評価を実施し、変更された場合に組織の文化を文書化するには、次のスレッドの初心を使用します。 この情報は、プロジェクトを実装するためにどの程度の意識の向上とトレーニングが必要になるかを判断するのに役立ちます。 正確な数字は気にしないでください。 この練習は、組織の文化についての一般的な理解を示すものです。 はじめにヘルプが必要な場合は、過去のロールアウトを評価してください。これは、ユーザーが変更にどのように対応するかを予測するのに役立ちます。また、予期した反応を事前に対処するのに役立ちます。
 
 #### <a name="what-percentage-of-users-fall-into-each-bucket"></a>各バケットに分類されるユーザーの割合
 

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: カスタムチームアプリを開発から展開に移動する方法について説明します。
-ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: dd34b96a40affc2ffd7e5ddeb6a118a122831296
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229937"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904949"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Microsoft Teams で基幹業務アプリを管理する
 
@@ -126,6 +126,20 @@ Microsoft は、<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 アプリを更新するには、開発者が[手順 1](#step-1-develop-and-test)と[手順 2](#step-2-validate-in-production)に従って続行する必要があります。
 
 テナントアプリカタログを使用して、アプリを更新することができます。 これを行うには、Microsoft Teams 管理センターで、[ **Teams アプリ** > の**管理**] に移動します。 アプリの一覧で、アプリ名をクリックし、[**更新**] をクリックします。 この操作を行うと、テナントアプリカタログの既存のアプリは置き換えられ、アプリのすべてのアクセス許可ポリシーとアプリのセットアップポリシーは、更新されたアプリに適用されたままになります。
+
+### <a name="end-user-update-experience"></a>エンドユーザーによる更新エクスペリエンス
+
+ほとんどの場合、アプリの更新が完了すると、エンドユーザーに対して新しいバージョンが自動的に表示されます。 ただし、 <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams マニフェスト</a>には、ユーザーの承認を必要とする次のような更新があります。
+
+* ボットが追加または削除された
+* 既存のボットの "botId" プロパティが変更されました
+* 既存のボットの "isNotificationOnly" プロパティが変更されました
+* ボットの "supportsFiles" プロパティが変更されました
+* メッセージング拡張機能が追加または削除されました
+* 新しいコネクタが追加されました
+* 新しい静的タブが追加されました
+* 新しい [構成可能] タブが追加されました
+* "webApplicationInfo" 内のプロパティが変更されました
 
 ## <a name="related-apps"></a>関連アプリ
 

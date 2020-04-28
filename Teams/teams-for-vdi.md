@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43adfb71c287677a6390d371a05bd1aea35ceda3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779986"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903122"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -161,12 +161,6 @@ Teams は、エンタープライズ向けの Microsoft 365 アプリの既存�
     > これらの例では、 **ALLUSERS = 1**パラメーターも使用します。 このパラメーターを設定すると、チームのコンピューター全体のインストーラーがコントロールパネルの [プログラムと機能] に表示され、[アプリ] では、コンピューターのすべてのユーザーの Windows 設定の & 機能が表示されます。 すべてのユーザーが管理者の資格情報を持っている場合は、チームをアンインストールできます。 **ALLUSERS = 1**と**alluser = 1**の違いを理解しておくことが重要です。 **ALLUSERS = 1**パラメーターは、非 VDI および vdi 環境で使うことができ、 **alluser = 1**パラメーターは vdi 環境でのみ使用され、コンピューター単位のインストールを指定します。
 
 3. VDI VM から MSI をアンインストールします。
-
-    Teams をアンインストールする方法は 2 つあります。  
-  
-    - PowerShell スクリプト (推奨)
-
-    - コマンドライン:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -259,7 +253,7 @@ DisallowCalling 通話ポリシーおよび AllOff 会議ポリシーをユー�
 1. Microsoft Teams 管理センターの左側のナビゲーションで、割り当てるポリシーに移動します。 次に例を示します。
     - [**音声**]  >  [**通話ポリシー**] の順に移動し、[**DisallowCalling**] をクリックします。
     - [**会議**]  >  [**会議ポリシー**] の順に移動し、[**AllOff**] をクリックします。
-3. **[ユーザーを管理する]** を選択します。
+3. [**ユーザーを管理する**] を選択します。
 4. [**ユーザーを管理する**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**保存**] をクリックします。
 

@@ -19,14 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 description: Microsoft Teams でユーザーに会議 ID を割り当てる方法と、会議 id パラメーターを指定する方法について説明します。
-ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 66d67693970f03326ae2acb58ba40310f567a370
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140940"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905619"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーに割り当てられている会議 ID を表示およびリセットする
 
@@ -34,7 +34,7 @@ ms.locfileid: "43140940"
   
 会議 ID は自動的に作成され、ユーザーに割り当てられますが、ユーザーがこの機能を使用したくない場合や、特定の番号に設定したい場合、またはユーザーが自分の会議 ID を忘れてしまったり、紛失したりする場合もあります。 Microsoft Teams 管理センターまたは Windows PowerShell を使用して、会議 ID を表示、変更、リセットすることができます。
   
-ユーザーに会議 ID と既定の電話会議の電話番号が含む電子メールが送信されるか、または会議 ID をリセットすると、PINではない 会議 ID を含む別の電子メールが送信されます。 会議の開催者のPINをリセットするの詳細については、 [ここ](reset-a-conference-id-for-a-user-in-teams.md)をクリックします。 
+ユーザーに会議 ID と既定の電話会議の電話番号が含む電子メールが送信されるか、または会議 ID をリセットすると、PINではない 会議 ID を含む別の電子メールが送信されます。 会議開催者の PIN をリセットする方法の詳細については、「 [Microsoft Teams でユーザーの会議 ID をリセット](reset-a-conference-id-for-a-user-in-teams.md)する」を参照してください。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -100,4 +100,3 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
 ## <a name="related-topics"></a>関連項目
 
 [Office 365 での電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
-

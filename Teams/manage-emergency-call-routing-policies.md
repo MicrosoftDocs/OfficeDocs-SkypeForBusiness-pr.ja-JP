@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams で緊急通話ルーティングポリシーを使用および管理する方法について説明します。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 緊急電話番号を設定し、緊急電話のルーティング方法を指定するために、Microsoft Teams で緊急通話ルーティングポリシーを使用および管理する方法について説明します。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 310f2d3177f7a601013859d06a90f6d1ba44c656
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141120"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905119"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ルーティングポリシーを管理する
 
@@ -39,7 +39,7 @@ ms.locfileid: "43141120"
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **緊急ポリシー**] に移動し、[**通話ルーティングポリシー** ] タブをクリックします。
-2. [**追加**] をクリックします。
+2. **[追加]** をクリックします。
 3. ポリシーの名前と説明を入力します。
 4. Enhanced エマージェンシー・サービスを有効にするには、強化された**エマージェンシー・サービス**を有効にします。 強化された緊急サービスが有効になっていると、チームはサービスからポリシーと場所情報を取得し、緊急通話の一部としてその情報を含めます。
 5. 緊急電話番号のいずれかを定義します。 これを行うには、[**緊急電話番号**] の下で、次の操作を行います。
@@ -62,10 +62,10 @@ ms.locfileid: "43141120"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-グローバルポリシーまたは作成したカスタムポリシーを編集できます。
+グローバル ポリシー、または作成したカスタム ポリシーを編集できます。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **緊急ポリシー**] に移動し、[**通話ルーティングポリシー** ] タブをクリックします。
-2. ポリシー名の左側をクリックしてポリシーを選択し、[**編集**] をクリックします。
+2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** をクリックします。
 3. 必要な変更を加えて、[**保存**] をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
@@ -77,17 +77,17 @@ ms.locfileid: "43141120"
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
-2. [**ポリシー**] をクリックし、[**割り当てられたポリシー**] の横にある [**編集**] をクリックします。
+2. **[ポリシー]** をクリックし、**[割り当てられたポリシー]** の横にある **[編集]** をクリックします。
 3. [**緊急着信ルーティングポリシー**] で、割り当てるポリシーを選び、[**保存**] をクリックします。
 
-ユーザー設定のチームポリシーを一度に複数のユーザーに割り当てるには、「 [teams のユーザー設定を一括](edit-user-settings-in-bulk.md)して編集する」を参照してください。
+一度に複数のユーザーにカスタムのチーム ポリシーを割り当てる方法については、「[一括で Teams のユーザー設定を編集する](edit-user-settings-in-bulk.md)」を参照してください。
 
 または、次の操作も実行できます。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **緊急ポリシー**] に移動し、[**通話ルーティングポリシー** ] タブをクリックします。
 2. ポリシー名の左側をクリックしてポリシーを選びます。
-3. **[ユーザーを管理]** を選択します。
-4. **[ユーザーを管理]** ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して **[追加]** を選びます。 追加するユーザーごとに、この手順を繰り返します。
+3. [**ユーザーを管理**] を選択します。
+4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、[**保存**] をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
@@ -98,7 +98,7 @@ ms.locfileid: "43141120"
 
 ### <a name="assign-a-custom-emergency-call-routing-policy-to-users-in-a-group"></a>ユーザー設定の緊急通話ルーティングポリシーをグループ内のユーザーに割り当てる
 
-ユーザーが既に識別している複数のユーザーに緊急通話ルーティングポリシーを割り当てることができます。 たとえば、セキュリティグループまたは配布グループ内のすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続します。
+ユーザーが既に識別している複数のユーザーに緊急通話ルーティングポリシーを割り当てることができます。 たとえば、セキュリティグループまたは配布グループ内のすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Graph 用 Azure Active Directory PowerShell モジュールと Skype for Business PowerShell モジュールに接続します。
 
 この例では、Contoso の HR グループのすべてのユーザーに、HR 緊急通話ルーティングポリシーと呼ばれるポリシーを割り当てます。  
 
@@ -113,7 +113,7 @@ $group = Get-AzureADGroup -SearchString "Contoso HR"
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-グループ内のすべてのユーザーを特定のチームポリシーに割り当てます。 この例では、HR 緊急通話ルーティングポリシーが使用されています。
+グループ内のすべてのユーザーを特定のチーム ポリシーに割り当てる。 この例では、HR 緊急通話ルーティングポリシーが使用されています。
 ```PowerShell
 $members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 

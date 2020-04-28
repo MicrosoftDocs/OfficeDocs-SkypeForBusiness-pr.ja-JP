@@ -16,20 +16,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 医療組織向け Secure Messaging で Teams を始めましょう
+description: 開封済みメッセージと優先度の通知を含めることができるセキュリティで保護されたメッセージングポリシーをカスタマイズする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136987"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905529"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>医療組織向け Secure Messaging で Teams を始めましょう
 
 メッセージングポリシーは、Microsoft Teams のユーザーが利用できるチャットおよびチャネルのメッセージング機能を制御するために使用されます。また、病院、クリニック、医師などの医療機関向けのセキュリティで保護されたメッセージングの展開の一環として、重要なメッセージが読み込まれたときの状態を把握していることが重要です。
 
-グローバル (組織全体の既定) ポリシーを使用するか、組織内のユーザー用に1つまたは複数のカスタムメッセージングポリシーを作成することができます。 組織内のユーザーは、カスタムポリシーを作成して割り当てる場合を除き、自動的にグローバルポリシーを取得します。 カスタムポリシーを作成したら、組織内のユーザーまたはユーザーのグループに割り当てます。 たとえば、一部の機能 (医師と看護師のみ) と他の従業員 (janitorial や台所のスタッフなど) を使用する場合にのみ、いくつかの機能を利用できるようにすることができます。 組織に必要なものを自分で決定します。ここでは、推奨されるガイダンスについて説明します。
+グローバル (組織全体の既定) ポリシーを使用するか、組織内のユーザー用に1つまたは複数のカスタムメッセージングポリシーを作成することができます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。 カスタムポリシーを作成したら、組織内のユーザーまたはユーザーのグループに割り当てます。 たとえば、一部の機能 (医師と看護師のみ) と他の従業員 (janitorial や台所のスタッフなど) を使用する場合にのみ、いくつかの機能を利用できるようにすることができます。 組織に必要なものを自分で決定します。ここでは、推奨されるガイダンスについて説明します。
 
 [Microsoft Teams 管理センター](https://admin.teams.microsoft.com)でポリシーを簡単に管理するには、管理者の資格情報でログインし、左側のナビゲーションウィンドウで [**メッセージングポリシー** ] を選択します。
 

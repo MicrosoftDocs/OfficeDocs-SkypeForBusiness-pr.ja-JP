@@ -22,14 +22,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-- seo-marvel-mar2020
-description: コスト、空き時間、専用の電話番号など、Office 365 の電話会議について説明します。
-ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Office 365 の電話会議で、ユーザーが自分の電話から会議にダイヤルインできるようにする方法について説明します。
+ms.openlocfilehash: 9ceb233ccca58abe89c13fb3c9f9cf08580f389c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780416"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905059"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 の電話会議
 Office 365 の電話会議では、ユーザーは自分の電話から会議に出席することができます。 電話会議では、最大 250 人の電話参加者が可能です。

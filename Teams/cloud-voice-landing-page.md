@@ -15,16 +15,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
+- seo-marvel-apr2020
 search.appverid: MET150
-description: Teams でクラウド ボイスを展開するためのランディング ページ
+description: クラウドボイス機能についての詳細を確認して、必要な展開の意思決定について理解してください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8498d8d4f6336bf54f6ae7f9c96540783b54dd1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825055"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905909"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft Teams でのクラウド ボイス
 
@@ -57,7 +58,7 @@ Microsoft Teams でのクラウド ボイスの展開と使用の詳細につい
 
 ## <a name="phone-system-office-365"></a>電話システム (Office 365)
 
-電話システムは、Office 365 クラウドで通話コントロールと構内交換機 (PBX) 機能を利用できるようにする Microsoft の技術です。 電話システムを利用すると、既存の構内交換機 (PBX) システムを Office 365 で直接提供される機能セットと置き換えて、会社のクラウドと緊密に連携して生産性を向上させることができます。
+電話システムは、Office 365 クラウドで通話コントロールと構内交換機 (PBX) 機能を利用できるようにする Microsoft の技術です。 電話システムを使用すると、既存の構内交換機 (PBX) システムを、Office 365 から直接配布された機能セットに置き換えることができます。また、会社のクラウド生産性エクスペリエンスに密接に統合されています。
 
 
 |確認事項|Action |
@@ -90,7 +91,7 @@ Microsoft Teams でのクラウド ボイスの展開と使用の詳細につい
 
 ### <a name="voicemail"></a>ボイスメール
 
-Azure ボイスメール サービスによるクラウド ボイスメールを利用する場合、Exchange メールボックスへのボイスメール デポジットのみをサポートし、サードパーティのメール システムはサポートしません。 クラウド ボイスメールでは、組織内のすべてのユーザーに対してボイスメールの文字起こしが既定で有効になっています。 会社のニーズに応じて、特定のユーザーまたは組織全体の全ユーザーに対してボイスメールの文字起こしを無効にすることができます。
+Azure ボイスメールサービスを利用したクラウドボイスメールは、Exchange メールボックスのみを対象としたボイスメールのデポジットをサポートしており、サードパーティのメールシステムをサポートしていません。 クラウド ボイスメールでは、組織内のすべてのユーザーに対してボイスメールの文字起こしが既定で有効になっています。 会社のニーズに応じて、特定のユーザーまたは組織全体の全ユーザーに対してボイスメールの文字起こしを無効にすることができます。
 
 |確認事項|Action |
 |:------------|:-------|

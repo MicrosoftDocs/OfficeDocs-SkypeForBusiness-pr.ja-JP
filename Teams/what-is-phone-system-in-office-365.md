@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 電話システムでできることについて説明します。
-ms.openlocfilehash: 398b1e159a54da21ca83ced5014f54d758420c2d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+- seo-marvel-apr2020
+description: この記事では、Microsoft Office 365 の電話システムテクノロジについて説明します。
+ms.openlocfilehash: d64c8c0998b37446051b067af629f49eb2b4bd28
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836657"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905129"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 の電話システムとは
 

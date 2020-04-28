@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '組織の電話システム (クラウド PBX) の設定方法について説明します。 '
-ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Office 365 で組織の電話システム (クラウド PBX) を設定する方法を説明したステップバイステップガイドです。
+ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779814"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905569"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>組織で電話システムをセットアップする
 
@@ -33,9 +34,9 @@ ms.locfileid: "43779814"
 
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>ステップ 1: 電話システムは、国または地域で利用可能なことを確認します。
 
-1.  最初に [オーディオ会議や通話プランのための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) へ進み、ページの上部にある一覧表から国または地域を選択します。 
-2.   **電話システム** での機能と詳細の一覧を確認します。 
-3.  電話システムが使用可能な場合は、手順 2 に進みます。 
+1.    最初に [オーディオ会議や通話プランのための国および地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) へ進み、ページの上部にある一覧表から国または地域を選択します。 
+2.     **電話システム** での機能と詳細の一覧を確認します。 
+3.    電話システムが使用可能な場合は、手順 2 に進みます。 
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>手順 2: 電話システムおよび通話プランのライセンスを購入し、割り当てる
 

@@ -12,15 +12,16 @@ ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams デスクトップ クライアントの更新方法について説明します。
+description: この記事では、Microsoft Teams デスクトップクライアントの更新プロセスについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a76fe4e0cfb896d1bd89a02acebc1c00dff8767
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 107ef412c7c4faa3e4e0ae3ad9a8539c3bf70dec
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776832"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903152"
 ---
 # <a name="teams-update-process"></a>Teams の更新プロセス
 

@@ -16,18 +16,19 @@ ms.collection:
 description: 組織内のユーザーの Teams の使用状況を把握するために、Microsoft Teams 管理センターにある Teams ユーザー アクティビティ レポートを、どのように使用するかについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e6d747afdf5dc5d381c11c83521e8a56ee38fe
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528432"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903872"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams ユーザー アクティビティ レポート
 
 Teams ユーザー アクティビティ レポートは、Teams で組織内のユーザーが実行するアクティビティの種類を把握するのに役立ちます。 たとえば、1 対 1 の通話で対話するユーザーの数、チャネル メッセージを使用して連絡し合うユーザーの数、プライベート チャット メッセージでやり取りするユーザーの数を確認することができます。
 
-## <a name="view-the-report"></a>レポートを表示する
+## <a name="view-the-user-activity-report"></a>ユーザーアクティビティレポートを表示する
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析およびレポート]** > **[使用状況レポート]** をクリックします。 **[レポートの表示]** タブの **[レポート]** で、**[Teams ユーザーの利用状況]** を選択します。
 2. **[日付の範囲]** の下で、範囲を選択して、**[レポートの実行]** をクリックします。

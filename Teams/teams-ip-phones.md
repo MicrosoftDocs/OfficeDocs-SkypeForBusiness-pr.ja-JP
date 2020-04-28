@@ -18,13 +18,14 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947482
-description: Microsoft Teams 認定 IP 卓上および会議電話
-ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
+ms.openlocfilehash: 655de2414203525d305c0097ba9301e2ef513f87
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779976"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903112"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 

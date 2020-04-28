@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams を組織全体で展開する
-description: チームのシフト、医療機関向けチーム、教育機関、小売業者、および行政機関向けの teams など、Microsoft Teams のリソースについて説明します。
+description: 特定の組織の種類についてチームを最大限に活用できるように、標準のチーム展開で構築可能なリソースについて説明します。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4b6e2b1706f64a37aa8174ca919bd7582b90772
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 91a584f7dea5ae9c6ea23f8c4ee30b5eadf3dc20
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136941"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904372"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Microsoft Teams を組織全体で展開する
 
@@ -75,7 +75,7 @@ ms.locfileid: "43136941"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>教育用 Teams</h3>
+                        <h3>教育機関用 Teams</h3>
                     </div>
                 </div>
             </div>

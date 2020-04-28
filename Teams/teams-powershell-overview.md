@@ -12,15 +12,16 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
+description: PowerShell コマンドレットの構造など、Microsoft Teams を管理するための PowerShell コントロールの使用方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
-ms.translationtype: HT
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052524"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903042"
 ---
 # <a name="teams-powershell-overview"></a>Teams での PowerShell の概要
 
@@ -86,8 +87,8 @@ PowerShell コントロールのリファレンス ドキュメントには、�
 
 ポリシーは、個々のユーザーに細かく適用できる設定のまとまりです。 各ポリシーの種類にはポリシーそのものの作成、表示、削除、更新を行い、これらのポリシーをユーザーに割り当てるための独自のコマンドレットのセットがあります。 一般的な構成は次のとおりです。
 
-- GET コマンド (例: ``Get-CsTeamsMeetingPolicy``): 組織内で割り当てることができるポリシー ドキュメントを返し、ユーザーが使用するために Microsoft が作成したポリシーと、自分で作成したカスタム ポリシーの両方を返します。
-   > 組織で作成したカスタム ポリシーのみを検索する場合は、``-Filter "tag:*"`` を使用できます。
+- コマンドの取得 (例``Get-CsTeamsMeetingPolicy``): 組織内で割り当てることができるポリシードキュメントを返します。これは、使用するために Microsoft によって作成されたポリシーと、作成したカスタムポリシーの両方を返します。
+   > 組織で作成したカスタムポリシーのみを検索する場合は、を使用``-Filter "tag:*"``できます。
 
 - NEW コマンド (例: ``New-CsTeamsMeetingPolicy``): 組織の新しいポリシーを作成し、組織内のユーザーに割り当てられるようになります。 すべてのポリシーがカスタム ポリシーの作成をサポートするわけではありません。 多くの場合、組織で使用するポリシーに、サポート対象の設定の組み合わせがあることを確認するためです。
 
@@ -95,13 +96,13 @@ PowerShell コントロールのリファレンス ドキュメントには、�
    > カスタム ポリシーが割り当てられていない組織内のユーザーに既定で割り当てられるポリシーを編集するには、``Set-Cs<PolicyName> -Identity Global`` を実行します。
 
 - REMOVE コマンド (例: ``Remove-CsTeamsMeetingPolicy``): このコマンドレットを使用して、テナントに作成されたカスタム ポリシーを削除できます。 組織内の少なくとも 1 人のユーザーに割り当てられているカスタム ポリシーを削除した場合、そのユーザーはグローバル ポリシーに戻ります。
-   > 実際に組織のグローバル ポリシーは削除できませんが、組織内のグローバル ポリシーを Microsoft が提供する既定の設定にリセットする場合は、``Remove-Cs<PolicyName> -Identity Global`` を実行できます。
+   > 組織内のグローバルポリシーを実際に削除することはできませんが、組織内のグローバルポリシーを Microsoft が提供する既定の設定にリセットする場合``Remove-Cs<PolicyName> -Identity Global``は、実行できます。
 
 - GRANT コマンド (例: ``Grant-CsTeamsMeetingPolicy``): 特定のユーザーにポリシーを割り当てることができます。
    > カスタム ポリシーの割り当てを削除し、組織の既定のポリシーにユーザーを戻すには、``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` を実行します。
 
 > [!TIP]
-> すべてのポリシーでカスタム ポリシーの作成が許可されているわけではなく、一部のポリシーにはカスタマイズできない設定が含まれています (そのため、設定は表示できますが、``set-`` と``new-`` の間にカスタム値を設定できません)。 顧客がパラメーターを使用できない場合は、特定のコマンドレットのドキュメントが呼び出されます。
+> すべてのポリシーでカスタムポリシーを作成することはできません。一部のポリシーには、カスタマイズできない設定があります (そのため、設定``set-``を``new-``表示することはできますが、and でカスタム値を設定することはできません)。 顧客がパラメーターを使用できない場合は、特定のコマンドレットのドキュメントが呼び出されます。
 
 共通パラメーター:
 
@@ -118,7 +119,7 @@ PowerShell コントロールのリファレンス ドキュメントには、�
 - ``Get-Cs<ConfigurationName>`` (例: ``Get-CsTeamsClientConfiguration``): 
 
 - SET コマンド (例:``Set-CsTeamsClientConfiguration`` ): その種類の構成でプロパティを設定します。 変更するパラメーターを指定します。
-   > **Identity Global** の指定、または ``Get-Cs<ConfigurationName>`` | ``Set-Cs<ConfigurationName>`` の実行のいずれかの方法で変更を行っている構成を参照できます。
+   > 変更している構成は、**Id グローバル**を指定するか、または実行``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``して、次の2つの方法のいずれかで参照できます。
 
 ## <a name="other-powershell-tools"></a>その他の PowerShell ツール
 

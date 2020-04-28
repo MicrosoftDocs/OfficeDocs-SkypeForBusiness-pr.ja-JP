@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Microsoft Teams クライアントにサービスの品質 (QoS) を実装します。
+description: Microsoft Teams のサービスの品質 (QoS) のために、組織用のネットワークを準備する方法について説明します。
+ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,13 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66e6dc43e03f1ec3606116ad001f11104de4a55f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 81c10ce415c0ed0db670a81b896289b23cb39218
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139606"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904562"
 ---
 # <a name="set-qos-on-windows-clients"></a>Windows クライアントで QoS を設定する
 

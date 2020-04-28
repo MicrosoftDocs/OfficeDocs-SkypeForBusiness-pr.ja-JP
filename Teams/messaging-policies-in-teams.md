@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
-description: メッセージング ポリシーについて、および Teams でメッセージング ポリシーを使用してチャット メッセージングを制御する方法について取り上げます。
-ms.openlocfilehash: a589b676a6c1da24eae7a25218fcfd449160f374
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+- seo-marvel-apr2020
+description: この記事では、メッセージングポリシーと、それらを使用して Teams でチャットメッセージングを制御する方法について説明します。
+ms.openlocfilehash: d9cc2fbd9d3ba2eef77114228130a763d3f4fd25
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079439"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904422"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams でメッセージング ポリシーを管理する
 

@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Teams で組織全体にわたるチームを作成および管理する方法について説明します。
+description: Teams で組織全体のチームを作成して管理する方法について説明します。共同作業を行うために、小規模または中規模の組織のすべてのユーザーに自動的な方法を提供します。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90051eb5ee4faf981ec54efa8049909dde4311d3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 41d7241cc0ffddf1042a3fe46f75def76c1ccf04
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778453"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903032"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -71,7 +72,7 @@ ms.locfileid: "43778453"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>所属していない可能性のあるアカウントの削除
 
-メンバーは組織全体のチームから抜けることはできませんが、チームの所有者は、所属していないアカウントを削除することにより、チームの参加者名簿を管理できます。 **組織全体のチームからユーザーを削除するには、必ず Teams を使用してください**。 Microsoft 365 管理センターや Outlook のグループなど、別の方法でユーザーを削除した場合、そのユーザーは組織全体のチームに再び追加される可能性があります。
+メンバーは組織全体のチームを脱退することはできませんが、チーム所有者は、所属していないアカウントを削除することでチームリストを管理できます。 **組織全体のチームからユーザーを削除するには、必ず Teams を使用してください**。 Microsoft 365 管理センターや Outlook のグループなど、別の方法でユーザーを削除した場合、そのユーザーは組織全体のチームに再び追加される可能性があります。
 
 ## <a name="faq"></a>FAQ
 

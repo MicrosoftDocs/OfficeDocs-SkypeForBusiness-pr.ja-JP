@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Microsoft Teams の品質と使用状況を監視するために必要なタスクとアクティビティ
+description: 管理者は、Microsoft Teams の品質および使用状況を監視するために必要なタスクとアクティビティについて知ることができます。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e870c6e6561bac991e7b9498ef76162ec1fa2eb9
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 9737834e38d87fbc5f925a5667d57ccd0a0aa626
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706977"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904342"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 

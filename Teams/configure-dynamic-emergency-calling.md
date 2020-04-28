@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 動的な緊急通話を構成する
+description: Microsoft 通話プランおよび電話システムダイレクトルーティングの動的な緊急通話機能を構成する方法について説明します。
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417592"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905889"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -96,7 +97,7 @@ Azure Maps は、位置ベースのサービスに使用されます。  Microso
 
 [ネットワーク設定] は、Teams クライアントの場所を決定するために使用され、緊急通話ポリシーと緊急対応の場所を動的に取得します。 組織で緊急電話が機能する方法に応じて、ネットワーク設定を構成できます。
 
-ネットワーク設定には、サブネットのコレクションが含まれているサイトが含まれます。これらは、ユーザーへの動的なポリシーの割り当てに対してのみ使用されます。  たとえば、TeamsEmergencyCalling ポリシーと TeamsEmergencyCallRouting ポリシーが "Redmond サイト" に割り当てられている可能性があります。これにより、ホームまたは別の Microsoft 場所からローミングするユーザーは、緊急電話番号、ルーティング、セキュリティデスクで構成されます。レドモンドに固有です。  
+ネットワーク設定には、サブネットのコレクションが含まれているサイトが含まれます。これらは、ユーザーへの動的なポリシーの割り当てに対してのみ使用されます。  たとえば、TeamsEmergencyCalling ポリシーと TeamsEmergencyCallRouting ポリシーは "Redmond site" に割り当てられている可能性があります。これにより、自宅または別の Microsoft の場所からローミングしたユーザーは、緊急電話番号、ルーティング、および、Redmond に固有のセキュリティデスクで構成されます。  
 
 >[!Note]
 >サブネットは、LIS で定義することもできます。また、緊急対応の場所に関連付けることもできます。  

@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 導入計画のフェーズ2の主要な決定を行う
+description: Microsoft Teams の導入計画の第2段階で行う必要がある主要な決定事項についてのクイックスタート
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1dfd82cc10f90616dcdd557e9d1d70f36a9ae1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837817"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904322"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft Teams のガバナンスのクイック スタート
 
@@ -36,7 +38,7 @@ ms.locfileid: "41837817"
 
 詳細については、「 [teams のガバナンスの計画](plan-teams-governance.md)」を参照して、 [teams でのライフサイクル管理を計画](plan-teams-lifecycle.md)してください。
 
-## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![判断ポイントを表すアイコン](media/teams-adoption-decision-icon.png)行う
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![判断ポイントを表すアイコン](media/teams-adoption-decision-icon.png)行う
 
 次の決定を行います (この時点では、これらの決定はフェーズ2にのみ適用されます)。
 
@@ -62,7 +64,7 @@ Teams の会議エクスペリエンスは高品質で、ビデオチャット�
 
 ### <a name="decision-6--data-security"></a>判断 6: データのセキュリティ
 
-幅広い展開の準備として、環境内のチームの種類を分類するためにセキュリティラベルを使用することを選択できます。 この実験を目的として、 [teams でガバナンスを計画](plan-teams-governance.md)することをお勧めします。また、Office 365 組織の Teams データに基本的なアイテム保持ポリシーが設定されていることを確認することをお勧めします。 この作業を完了するには、Office 365 管理者の権限が必要であるため、テクニカルチームとの協力が必要になることがあります。
+幅広い展開の準備として、環境内のチームの種類を分類するためにセキュリティラベルを使用することを選択できます。 この実験を目的として、 [teams でガバナンスを計画](plan-teams-governance.md)することをお勧めします。また、Microsoft 365 または Office 365 の teams データに基本的なアイテム保持ポリシーが設定されていることを確認してください。 この作業を完了するには、Office 365 管理者の権限が必要であるため、テクニカルチームとの協力が必要になることがあります。
 
 ### <a name="decision-7-length-of-your-experiment"></a>決定 7: 実験の長さ
 

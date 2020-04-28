@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: この記事では、Teams または Skype for Business でのプロキシサーバーの使用について説明します。
-ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+- seo-marvel-apr2020
+description: この記事では、Microsoft Teams または Skype for Business でのプロキシサーバーの使用に関する情報を提供します。
+ms.openlocfilehash: 5a0d35ee2b8c95c4dea30886497e184f57077264
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863188"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905679"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams または Skype for Business Online 向けのプロキシ サーバー
 
@@ -55,7 +56,7 @@ Microsoft は次を実行することもお勧めします。
     
 このガイダンスに従うことで、問題が生じる可能性が最小になります。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Office 365 のネットワーク接続の原則](https://aka.ms/pnc)
 

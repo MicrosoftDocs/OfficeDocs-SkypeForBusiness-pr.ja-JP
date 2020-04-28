@@ -8,22 +8,23 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: チームをアーカイブまたは完全に削除する方法について説明しています。
+description: この記事では、Microsoft Teams でチームをアーカイブする、または完全に削除する方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3e07d851d853ee3fb57454177bed48590cdb55f3
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780716"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904969"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 ===========================================

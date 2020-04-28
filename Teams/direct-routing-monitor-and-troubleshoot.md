@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: この記事では、ダイレクトルーティング構成の監視とトラブルシューティングを行う方法について説明します。
-ms.openlocfilehash: 5dcae4d734c146c92c0cda4ac988d6010f90cc6f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: セッション境界のコントローラー、ダイレクトルーティングコンポーネント、通信 trunks など、直接ルーティング構成の監視とトラブルシューティングを行う方法について説明します。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 52ab594b901606ccf7c3b43fc8484d989c248fcd
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836047"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901912"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>ダイレクト ルーティングの監視とトラブルシューティング
 

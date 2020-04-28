@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-description: Microsoft Teams の管理センターで自分のチームの表示や更新を行う方法を説明します。
+description: 組織で共同作業のために設定されているチームを Microsoft Teams 管理センターで表示または更新する方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d07c9c1f19b86b3b95a597a52290acb2fdaa80cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836269"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904999"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 ==========================================
@@ -85,7 +86,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ## <a name="team-profile"></a>チーム プロフィール
 
-メインのチームの概要グリッドから、チーム名をクリックすることによって、任意のチームのチーム プロフィール ページに移動することができます。 チーム プロフィール ページには、チームのチャネルと設定に加えて、チーム (およびそれをサポートする Office 365 グループ) に属しているメンバー、所有者、ゲストが表示されます。 チーム プロフィール ページから、次の操作を行うことができます。
+メインのチームの概要グリッドから、チーム名をクリックすることによって、任意のチームのチーム プロフィール ページに移動することができます。 チームプロファイルページには、チーム (およびそのバッキング Office 365 グループ) に属しているメンバー、所有者、ゲスト、およびチームのチャネルと設定が表示されます。 チーム プロフィール ページから、次の操作を行うことができます。
 
 - メンバーおよび所有者の追加または削除。
 - チャネルの追加または削除 (全般チャネルを削除することはできません)。

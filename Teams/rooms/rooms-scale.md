@@ -12,11 +12,11 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: このトピックでは、大規模な展開での Microsoft Teams のルームの展開について説明します。
+description: Microsoft Endpoint Configuration Manager を使用して大規模な展開で Microsoft Teams のルームを展開する方法について説明します。
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141020"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905319"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams ルームを展開する
 
@@ -728,7 +728,7 @@ Microsoft Endpoint Configuration Manager のタスクシーケンスが完了し
 
     5.  [**ブート構成**] を選びます。
 
-    6.  次のいずれかを実行します。
+    6.  次のいずれかの操作を行います。
 
         -   [ **PXE ブート**] を選択し、一覧の一番上にドラッグします。 または、ネットワークアダプターを左にスワイプして、すぐにデバイスを起動することもできます。 これにより、起動順序は変わりません。
         -   ブートメディアを含む USB フラッシュドライブを選択します。

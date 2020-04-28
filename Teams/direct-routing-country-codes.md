@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: この記事では、ダイレクトルーティング用のメディアパスの国コードについて説明します。
-ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: この記事では、ダイレクトルーティング用のメディアパスの国コードを特定して、最適なメディアパスを選択できるようにする方法について説明します。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836097"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904809"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>ダイレクトルーティングメディアパスの国コード
 
@@ -45,7 +46,7 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | オーランド諸島   | AX4 |
 | アルバニア         | AL |
 | アルジェリア         | DZ |
-| アメリカ領サモア  | も |
+| 米領サモア  | も |
 | アンドラ         | AD |
 | アンゴラ          | AO |
 | アンギラ        | AI |
@@ -65,11 +66,11 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | ベルギー         | ば |
 | ベリーズ          | BZ |
 | ベナン           | BJ |
-| バーミューダー諸島         | BM |
+| バミューダ         | BM |
 | ブータン          | BT |
 | ボリビア         | BO |
 | ボネール         | BQ |
-| ボスニア・ヘルツェゴビナ | BA |
+| ボスニア ヘルツェゴビナ | BA |
 | ボツワナ        | BW |
 | ブーベ島   | BV |
 | ブラジル          | BR |
@@ -77,13 +78,13 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | 英領バージン諸島 | VG |
 | ブルネイ          | BN |
 | ブルガリア        | BG |
-| ブルキナ ファソ    | BF |
+| ブルキナファソ    | BF |
 | ブルンジ         | 両 |
 | カーボベルデ      | [CV] |
 | カンボジア        | HTTPS://C2RSETUP.OFFICEAPPS.LIVE.COM/C2R/DOWNLOAD.ASPX?PRODUCTRELEASEID=LANGUAGEPACK&LANGUAGE=KM-KH&PLATFORM=X64&SOURCE=O16LAP&VERSION=O16GA |
 | カメルーン        | ILM-CM |
 | カナダ          | FR-CA |
-| Cayman Islands  | アヒル |
+| ケイマン諸島  | アヒル |
 | 中央アフリカ共和国 | 接続料金 |
 | チャド            | 来 |
 | チリ           | CL |
@@ -105,21 +106,21 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | デンマーク         | DK |
 | ジブチ        | DJ |
 | ドミニカ        | ダイレクト |
-| Dominican Republic (República Dominicana) | 作業 |
+| ドミニカ共和国 | 作業 |
 | エクアドル         | EC |
 | エジプト           | EG |
-| El Salvador     | SV |
+| エルサルバドル     | SV |
 | 赤道ギニア | GQ |
 | エリトリア         | ユーザ |
 | エストニア         | EE |
 | Eswatini        | SZ |
 | エチオピア        | サーブ |
 | フォークランド諸島 | FK |
-| Faroe Islands   | ライブラリの |
+| フェロー諸島   | ライブラリの |
 | フィジー            | FJ |
 | フィンランド         | FI |
 | フランス          | FR |
-| フランス領ギアナ   | GF |
+| 仏領ギアナ   | GF |
 | 仏領ポリネシア | いい |
 | フランス領南極地方 | TF |
 | ガボン           | GA |
@@ -141,7 +142,7 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | ハイチ           | こんにちは |
 | [聞こえる島とマクドナルド諸島] | HM |
 | ホンジュラス        | HN |
-| 香港特別自治区   | HK |
+| 香港特別行政区   | HK |
 | ハンガリー         | HU |
 | アイスランド         | い |
 | インド           | チェックイン |
@@ -163,7 +164,7 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | 韓国           | KR |
 | ・・ Vo          | XK |
 | クウェート          | ワーカ |
-| キルギスタン      | KG |
+| キルギス      | KG |
 | ラオス            | 中南米 |
 | ラトビア          | LV |
 | レバノン         | 1000 |
@@ -181,10 +182,10 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | マリ            | ML |
 | マルタ           | スレッド |
 | マーシャル諸島 | MH |
-| マルチニーク      | TRIGGERS |
+| マルティニーク      | TRIGGERS |
 | モーリタニア      | クーパー |
 | モーリシャス       | MU |
-| マヨット島         | YT |
+| マヨット         | YT |
 | メキシコ          | MX |
 | ミクロネシア      | FM |
 | モルドバ         | MD |
@@ -194,7 +195,7 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | モントセラト      | VERDANA |
 | モロッコ         | 100 |
 | モザンビーク      | MZ |
-| ビルマ         | TU |
+| ミャンマー         | TU |
 | ナミビア         | NA |
 | ナウル           | NR |
 | ネパール           | 受信 |
@@ -213,7 +214,7 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | オマーン            | 原則 |
 | パキスタン        | 主 |
 | パラオ           | PW |
-| Palestinian Authority | .PS |
+| パレスチナ自治政府 | .PS |
 | パナマ          | PA |
 | パプアニューギニア | PG |
 | パラグアイ        | PY |
@@ -230,11 +231,11 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | ルワンダ          | RW |
 | サバ島            | DMX |
 | サン Barthelemy | BL |
-| Saint Kitts and Nevis | KN |
+| セントクリストファー・ネーヴィス | KN |
 | セントルシア     | LC |
 | サン Martin    | メイン |
 | サンピエール・ミクロン | PM |
-| セントビンセントおよびグレナディーン諸島 | VC-1 |
+| セントビンセント及びグレナディーン諸島 | VC-1 |
 | サモア           | WS-METADATA |
 | サンマリノ      | MANAGER |
 | サンサントメとプリンシペ | 短期 |
@@ -254,7 +255,7 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | サウスジョージア・サウスサンドウィッチ諸島 | GS |
 | 南スーダン     | 変動 |
 | スペイン           | 可 |
-| Sri Lanka       | HTTPS://C2RSETUP.OFFICEAPPS.LIVE.COM/C2R/DOWNLOAD.ASPX?PRODUCTRELEASEID=LANGUAGEPACK&LANGUAGE=SI-LK&PLATFORM=X64&SOURCE=O16LAP&VERSION=O16GA |
+| スリランカ       | HTTPS://C2RSETUP.OFFICEAPPS.LIVE.COM/C2R/DOWNLOAD.ASPX?PRODUCTRELEASEID=LANGUAGEPACK&LANGUAGE=SI-LK&PLATFORM=X64&SOURCE=O16LAP&VERSION=O16GA |
 | セントヘレナ、アセンション、トリスタンダクーニャ | 悪夢 |
 | スーダン           | SD |
 | スリナム        | SR |
@@ -281,7 +282,7 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | ウガンダ          | UG-CN&PLATFORM |
 | ウクライナ         | ウクライナ |
 | アラブ首長国連邦 | AE |
-| イギリス  | 以上 |
+| 英国  | 以上 |
 | 米国   | プロセッサー |
 | ウルグアイ         | UY |
 | ウズベキスタン      | UZ |

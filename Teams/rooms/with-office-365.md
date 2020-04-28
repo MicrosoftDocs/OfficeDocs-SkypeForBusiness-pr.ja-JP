@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Microsoft Teams のルームを Microsoft 365 または Office 365 に展開する方法については、このトピックを参照してください。
-ms.openlocfilehash: 02eb5869d7464a4daeece177c4d1b5a5ef440fa0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: このトピックでは、microsoft Teams のルームを Microsoft 365 または Office 365 と共に展開する方法について説明します。この情報には、Teams または Skype for Business および Exchange が両方ともオンラインになっています。
+ms.openlocfilehash: 2b7574b54782140e3f082c8c3859c9caee7712eb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780546"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905279"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft Teams のルームを Microsoft 365 または Office 365 と共に展開する
 

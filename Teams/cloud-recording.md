@@ -12,15 +12,16 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams で会議のレコーディングをオンにして管理する方法を説明します。
+description: オーディオ、ビデオ、画面共有のアクティビティをキャプチャするために、チームの会議とグループの通話を記録するためにクラウド音声機能を展開するための実用的なガイダンス。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780336"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905499"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -30,7 +31,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams のクラウド会議をレコーディングするための前提条件
 
-Teams ユーザーの会議を記録するには、そのテナントに対して Microsoft Stream を有効にする必要があります。 また、会議の開催者とレコーディングを開始するユーザーの双方は、次の前提条件を満たす必要があります。
+チームユーザーの会議を記録するには、テナントに対して Microsoft Stream を有効にする必要があります。 また、会議の開催者とレコーディングを開始するユーザーの双方は、次の前提条件を満たす必要があります。
 
 - Office 365 E1、E3、E5、A1、A3、A5、M365 Business、Business Premium または Business Essentials を所有している
 - Microsoft Stream<sup>1</sup> のライセンスが付与されている必要がある 

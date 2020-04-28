@@ -8,9 +8,11 @@ ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
-description: Skype for Business から Microsoft Teams への移行手順を続行するためのガイダンス
+description: チームを使ってネットワークの正常性を監視し、ユーザーを関与させ、新しい機能の準備を行う方法について説明します。
 localization_priority: Normal
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b414cd4a6e312270520560edd3ed4d14c874bacb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706447"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904092"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft Teams を効果的に使用する方法
 

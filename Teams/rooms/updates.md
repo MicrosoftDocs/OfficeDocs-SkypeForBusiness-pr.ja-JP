@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: Microsoft Teams ルームの Windows 更新プログラムを管理する
-ms.openlocfilehash: 2fc96118b70ff7c15e7bde02fdcd048c07581ad3
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 管理者は、Microsoft Teams のルームの Windows Update と Windows 機能の更新プログラムを管理する方法について知ることができます。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e52c1fdf3bb35be6869320aa57e6f5aff5fd0773
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827915"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905309"
 ---
 # <a name="manage-windows-updates"></a>Windows の更新プログラムを管理する
 

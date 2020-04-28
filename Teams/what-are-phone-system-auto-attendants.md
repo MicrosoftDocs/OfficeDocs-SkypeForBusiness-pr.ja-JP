@@ -1,5 +1,5 @@
 ---
-title: クラウド自動応答とは何ですか?
+title: クラウドの自動応答とは
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,15 +22,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
-description: クラウドの自動応答の概要とその使用方法について説明します。
-ms.openlocfilehash: d9f108acd4c1ebe3c275d79555145c6c92a78737
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: クラウド自動応答の概要と、その使用方法について説明します。発信者がメニューシステムを移動して、ユーザーや部署への通話の検索、配置、転送を実行できるようにする方法について説明します。
+ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836667"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905139"
 ---
-# <a name="what-are-cloud-auto-attendants"></a>クラウド自動応答とは何ですか?
+# <a name="what-are-cloud-auto-attendants"></a>クラウドの自動応答とは
 
 Office 365 の電話システムは自動応答を提供します。これを使用すると、外部と内部の発信者は、組織内のユーザーや部署への通話を検索して、その場所に移動することができます。
   
@@ -91,7 +92,7 @@ Office 365 で電話システムの自動応答を設定するには、「[ク�
 |スピーチ (音声入力) |担当  <br/> 姓  <br/> FirstName + LastName  <br/> LastName + FirstName  | 8万ユーザー |
 
 > [!NOTE]
-> 音声認識で名前でダイヤルを使用していても、組織の Active Directory が8万ユーザーよりも大きく、ダイヤルスコープ機能を使って名前でダイヤルの範囲を制限していない場合は、電話のキーパッドを使って発信者に名前でダイヤルすることができます。および音声入力は、他のすべてのシナリオで利用できます。 ダイヤル範囲機能を使用して、名前でダイヤル機能の範囲を変更することによってアクセスできる名前を、特定の自動応答に絞り込むことができます。
+> 音声認識で名前でダイヤルを使用していても、組織の Active Directory が8万ユーザーよりも大きく、ダイヤルの範囲機能を使用して名前によるダイヤルの範囲を制限していない場合は、電話のキーパッドを使って、発信者に名前でダイヤルできます。音声入力は、他のすべてのシナリオでも利用できます ダイヤル範囲機能を使用して、名前でダイヤル機能の範囲を変更することによってアクセスできる名前を、特定の自動応答に絞り込むことができます。
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>名前でダイヤル - キーパッド (DTMF) 入力
 通話相手は、名前でダイヤルすることで、ユーザーに連絡する相手の完全名または一部名のいずれかを指定することができます。 名前を入力するときに使用できるさまざまな形式があります。

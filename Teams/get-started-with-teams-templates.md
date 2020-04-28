@@ -11,19 +11,20 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: チームテンプレートを使用して、定義済みのチャネルでチームを作成する方法について説明します。
+description: チームテンプレートを使用して、さまざまなトピックのチャネルでコラボレーションスペースを作成する方法と、コンテンツやサービスを提供するプレインストールアプリを作成する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: e4cdf8d489025110b47a98402a344e025b256012
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796030"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904622"
 ---
 # <a name="get-started-with-teams-templates"></a>Teams のテンプレートの使用を開始する
 
@@ -74,7 +75,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 | 向け<br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | チャネル<ul><li>シフトハンド</li><li>意欲</li></ul>チームのプロパティ<ul><li>チームの表示がパブリックに設定</li></ul>メンバーの権限<ul><li>メンバーがチャネルを作成、更新、または削除できないようにする</li><li>メンバーがアプリを追加または削除できないようにする</li><li>メンバーがコネクタを作成、更新、または削除できないようにする</li></ul> |
 | 向け<br>上司との共同作業 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | チャネル<ul><li>シフトハンド</li><li>意欲</li></ul>チームのプロパティ:<ul><li>チームの表示はプライベートに設定</li></ul>メンバーの権限:<ul><li>メンバーがチャネルを作成、更新、または削除できないようにする</li><li>メンバーがアプリを追加または削除できないようにする</li><li>メンバーがコネクタを作成、更新、または削除できないようにする</li></ul>|
 | ヘルス<br>ワード |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |チャネル <ul><li>お知らせ\*</li><li>Huddles\*</li><li>切り下げ</li><li>割り当てる\*</li><li>トレーニング\*</li></ul>\*自動お気に入りチャネル |
-|ヘルス<br>所在 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>Custodial</li><li>人事</li></li><li>薬</li></ul>\*自動お気に入りチャネル|
+|ヘルス<br>病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>Custodial</li><li>人事</li></li><li>薬</li></ul>\*自動お気に入りチャネル|
 |||
 
 ## <a name="related-topics"></a>関連項目

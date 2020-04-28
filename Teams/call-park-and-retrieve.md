@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
-description: コール パークおよび保留解除を使用して、クラウド内の Teams サービスで通話を保留扱いできます。
-ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+- seo-marvel-apr2020
+description: 電話会議を使って、クラウドの Teams サービスで通話を保留にする方法について説明します。
+ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824595"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905039"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -93,7 +94,7 @@ ms.locfileid: "41824595"
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-[保留] ボタンや [保留解除] ボタンがユーザーに表示されない場合: 
+ユーザーが [パーク] または [取得] ボタンを表示できない場合: 
 
 - ユーザーがコール パーク ポリシーを有効にしていることを確認します。 
 

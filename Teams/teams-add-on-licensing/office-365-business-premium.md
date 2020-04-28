@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 ビジネス標準 '
+title: 'Microsoft 365 Business Standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'アドオンライセンス、機能、Microsoft 365 Business Standard プランの購入方法について説明します。 '
-ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: アドオンライセンス、その機能、および Microsoft 365 Business Standard プランのこれらのライセンスを購入する方法について説明します。
+ms.openlocfilehash: 136dbf60f728d4c4455c466dd8a8a02376e20f1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780506"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904612"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 ビジネス標準
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
 [Microsoft 365 ビジネス Standard](https://products.office.com/en/business/office-365-business-premium)をお持ちの場合は、microsoft Teams を使用して、サブスクリプションを利用している組織内の他のユーザーに電話をかけることができます。 たとえば、会社に 10 人の社員がいる場合は、Teams を使用してお互いに通話したりインスタント メッセージを送ることができます。
 
@@ -66,7 +67,7 @@ ms.locfileid: "43780506"
 
 2. **[課金]** > **[サービスを購入する]** > **[アドオンのサブスクリプション]** に移動します。
 
-   コミュニケーション クレジットを購入するためのオプションが表示されます。
+   通信クレジットを購入するオプションが表示されます。
 
 3. コミュニケーション クレジットに資金を追加する場合は、**[課金]** > **[サブスクリプション]** > **[コミュニケーション クレジット]** に移動します。
 

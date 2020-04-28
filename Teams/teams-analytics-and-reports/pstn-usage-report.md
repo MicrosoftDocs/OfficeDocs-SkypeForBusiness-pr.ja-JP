@@ -16,12 +16,13 @@ MS.collection:
 description: Microsoft Teams 管理センターで Teams の PSTN 使用状況レポートを使用して、組織内での通話と電話会議の使用状況の概要を確認する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778253"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904302"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams の PSTN 使用状況レポート
 
@@ -29,7 +30,7 @@ Microsoft Teams 管理センターのチーム PSTN 使用状況レポートで�
 
 [**通話プラン**] タブには、ユーザーが着信と発信の PSTN 通話に費やした時間 (分)、およびこれらの通話の料金が表示されます。 [ **Direct Routing** ] タブには、SIP アドレスと通話の開始時刻と終了時刻などの情報が表示されます。 このレポートの情報を使用して、組織の PSTN の使用状況を把握し、ビジネス上の意思決定を調査、計画、決定するのに役立ちます。
 
-## <a name="view-the-report"></a>レポートを表示する
+## <a name="view-the-pstn-usage-report"></a>PSTN 使用状況レポートを表示する
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析およびレポート]** > **[使用状況レポート]** をクリックします。 [**レポートの表示**] タブの [**レポート**] で、[ **PSTN 使用状況レポート**] を選択します。
 2. [**日付範囲**] で、定義済みの7日または28日の範囲を選択するか、ユーザー設定の範囲を設定して、[**レポートの実行**] を選択します。
@@ -79,10 +80,10 @@ Microsoft Teams 管理センターのチーム PSTN 使用状況レポートで�
 
 共有関連付け ID は、ダウンロードしたエクスポートされた Excel ファイルにのみ存在し、2つ以上の通話が関連していることを示します。 以下では、さまざまなシナリオと、共有関連付け ID が存在する場合について説明します。
 
-1.  Pstn エンドポイントの pstn ユーザー 1 (Teams クライアントでの Teams ユーザー 1)、通話の種類 Dr_In、関連付け ID 5・ 9433--2 48、f2ac、共有関連付け ID なし。
-2.  PSTN エンドポイントで PSTN User 1 と呼ばれる teams クライアントの teams ユーザー1、通話の種類 Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4、共有関連付け ID がありません。
-3.  Pstn エンドポイントの PSTN ユーザー1は、Teams クライアントでの Teams ユーザー2、通話の種類 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9、共有関連付け ID f45e9a25-9f94-46e7-a457-84f5940efde9 と呼ばれています。
-4.  関連付け ID が "f45e9a25-9f94-46e7-a457-84f5940efde9" の既存の通話3。 会議中の PSTN ユーザー 1 (Teams ユーザー 2) Teams ユーザー2が移行した (ブラインドまたはコンサルティング) チームまたは PSTN ユーザーへの通話、通話の種類 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0、共有関連付け ID f45e9a25-9f94-46e7-a457-84f5940efde9。
+1.    Pstn エンドポイントの pstn ユーザー 1 (Teams クライアントでの Teams ユーザー 1)、通話の種類 Dr_In、関連付け ID 5・ 9433--2 48、f2ac、共有関連付け ID なし。
+2.    PSTN エンドポイントで PSTN User 1 と呼ばれる teams クライアントの teams ユーザー1、通話の種類 Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4、共有関連付け ID がありません。
+3.    Pstn エンドポイントの PSTN ユーザー1は、Teams クライアントでの Teams ユーザー2、通話の種類 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9、共有関連付け ID f45e9a25-9f94-46e7-a457-84f5940efde9 と呼ばれています。
+4.    関連付け ID が "f45e9a25-9f94-46e7-a457-84f5940efde9" の既存の通話3。 会議中の PSTN ユーザー 1 (Teams ユーザー 2) Teams ユーザー2が移行した (ブラインドまたはコンサルティング) チームまたは PSTN ユーザーへの通話、通話の種類 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0、共有関連付け ID f45e9a25-9f94-46e7-a457-84f5940efde9。
 
 ## <a name="exporting-the-reports"></a>レポートのエクスポート
 **[Excel にエクスポート]** をクリックしてから、**[ダウンロード]** タブの **[ダウンロード]** をクリックして、準備のできたレポートをダウンロードします。 データの量によっては、エクスポートプロセスが完了するまで数秒かかることがあります。
@@ -155,6 +156,6 @@ CSV の最初の行には、列名が含まれています。 すべての日付
 | 2004 | 共有関連付け ID | `uniqueidentifier` | 2つ以上の通話が関連していることを示します |
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: このトピックでは、オンプレミスの Exchange を使用したハイブリッド環境で Microsoft Teams のルームを展開する方法について説明します。
-ms.openlocfilehash: 0efed0a07024f0f1fcfeea7168c4f78c66fecd64
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141010"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905299"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams ミーティング を展開
 
@@ -176,14 +176,14 @@ Skype for Business (プラン 3)] を選択します。 Microsoft Teams のル�
 
 検証のために、任意のクライアントを使用してこのアカウントにログインできるようにする必要があります。
   
-## <a name="see-also"></a>関連項目
+## <a name="related-topics"></a>関連項目
 
-[Microsoft Teams 室のアカウントを構成する](rooms-configure-accounts.md)
+[Microsoft Teams ミーティングのアカウントを構成する](rooms-configure-accounts.md)
 
 [Microsoft Teams ミーティングを計画する](rooms-plan.md)
   
-[Microsoft Teams ルームの展開](rooms-deploy.md)
+[デプロイの概要](rooms-deploy.md)
   
-[Microsoft Teams 室コンソールを構成する](console.md)
+[Microsoft Teams ミーティング コンソールを構成する](console.md)
   
 [Microsoft Teams Rooms を管理する](rooms-manage.md)

@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams に接続するために、医療情報システム上の FHIR Api を使用して、電子医療記録を Microsoft Teams に統合する方法について説明します。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: FHIR Api を使用して、電子医療記録を Microsoft Teams の患者アプリに統合する方法について説明します。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141210"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905519"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>電子医療記録を Microsoft Teams に統合する
 

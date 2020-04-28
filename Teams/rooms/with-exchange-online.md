@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: このトピックでは、Microsoft Teams のルームを Exchange Online と共に展開する方法について説明します。
-ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: このトピックでは、オンプレミスの Exchange Online と Skype for Business Server を使用して Microsoft Teams ルームを展開する方法について説明します。
+ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780556"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905289"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams ミーティング を展開
 
@@ -156,7 +156,7 @@ Skype for Business (プラン 3)] を選択します。 Microsoft Teams のル�
 > [!IMPORTANT]
 > Skype for Business Plan 2 を使用している場合は、Skype for Business のみのモードで Microsoft Teams ルームのみを使用できます。つまり、すべての会議が Skype for Business 会議になります。 Microsoft Teams のミーティングの会議室を使用できるようにするため、ミーティング ルーム ライセンスのご購入をお勧めします。
   
-## <a name="see-also"></a>関連項目
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams ミーティングのアカウントを構成する](rooms-configure-accounts.md)
 

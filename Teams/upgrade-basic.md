@@ -7,12 +7,13 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Skype for Business から Teams へのアップグレードに関する10段階のアクションプランの高速化
+description: この高速な10段階のアクションプランに従って、基本的な Skype for Business のセットアップから Microsoft Teams のセットアップに切り替えます。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
+- seo-marvel-apr2020
 - Teams-upgrade-guidance
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
@@ -22,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3d65b6af52764a28548cb9ddf190959f89e8f97
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f6489362a37be76c44f2b0dbf58e094c58c85d21
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778333"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904472"
 ---
 # <a name="upgrade-basic"></a>アップグレードの基本
 

@@ -17,12 +17,13 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能にライセンスを割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 55d85aae6540c6b5888be848ad08d686bd0da2b1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858559"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905069"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Microsoft Teams ライセンスを割り当てる
 

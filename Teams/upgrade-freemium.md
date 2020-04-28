@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams を無料で Office 365 サブスクリプションにアップグレードする
+title: 無料で Microsoft Teams をサブスクリプションにアップグレードする
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,31 +8,31 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: 無料版の Microsoft Teams をアップグレードする方法について
+description: ユーザー向けの Office 365 サブスクリプションプランを購入して、無料版の Microsoft Teams から製品版に簡単にアップグレードする方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92bb76f58983e4605d5a1be147bb898aee1a5832
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 2c760285655d9bb2557fbf981c333e1019cef379
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170525"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904452"
 ---
-# <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Microsoft Teams を無料で Office 365 月額プラン バージョンにアップグレードする
+# <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>無料版の Microsoft Teams をサブスクリプションバージョンにアップグレードする
 ======================================================
 
-組織で Microsoft Teams の無料バージョンを使用している場合は、ユーザーの Office 365 サブスクリプションプランを購入すると、簡単に製品版にアップグレードできます。 フルバージョンでは、スケジュール、電話会議、強化された管理、セキュリティ機能など、無料版では提供されていないその他の Teams 機能が提供されています。 Office 365 は、使い慣れた Microsoft Office デスクトップスイートと、Exchange Online、SharePoint Online、Office などの Microsoft の次世代通信とコラボレーションサービスのクラウドベースのバージョンを組み合わせたものです。ユーザーはインターネットを介して実質上どこにいても生産性を高めることができます。 チームをアップグレードしても、既存のチームデータは失われません。すべてのチーム、チャネル、チャット、ファイル、権限が追加されました。 
+組織で Microsoft Teams の無料バージョンを使用している場合は、Microsoft 365 または Office 365 のサブスクリプションプランを購入すれば、簡単に製品版にアップグレードできます。 フルバージョンでは、スケジュール、電話会議、強化された管理、セキュリティ機能など、無料版では提供されていないその他の Teams 機能が提供されています。 Office 365 は、使い慣れた Microsoft Office デスクトップスイートと、Exchange Online、SharePoint Online、Office などの Microsoft の次世代通信とコラボレーションサービスのクラウドベースのバージョンを組み合わせたものです。ユーザーはインターネットを介して実質上どこにいても生産性を高めることができます。 チームをアップグレードしても、既存のチームデータは失われません。すべてのチーム、チャネル、チャット、ファイル、権限が追加されました。 
 
 > [!NOTE]
-> Office 365 サブスクリプションを既にお持ちの場合は、無料バージョンではなく、Teams の試用版 (会社の id が含まれます) を対象としています。 Teams 試用版では、期間限定で Teams のフルバージョンが提供されます。 詳細については、「 [Microsoft Teams の商用クラウド試用版を管理する](iw-trial-teams.md)」を参照してください。
+> Microsoft 365 または Office 365 のサブスクリプションを既にお持ちの場合は、無料バージョンではなく、Teams の試用版 (会社の id が含まれます) を対象としています。 Teams 試用版では、期間限定で Teams のフルバージョンが提供されます。 詳細については、「 [Microsoft Teams の商用クラウド試用版を管理する](iw-trial-teams.md)」を参照してください。
 
 ## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>Teams を無料版の Teams と比較する方法を教えてください。
 
@@ -47,7 +47,7 @@ ms.locfileid: "43170525"
 - チャネル会議
 - 画面共有
 
-Office 365 サブスクリプションに含まれているすべてのチームのバージョンには、無料で提供される機能に加えて、次の機能が用意されています。
+Microsoft 365 または Office 365 サブスクリプションに含まれているすべてのチームのバージョンでは、無料で提供される機能に加えて次の機能が提供されます。
 
 - ユーザー制限なし (エンタープライズライセンスあり)
 - Exchange メールホスティングとカスタムメールドメイン
@@ -85,7 +85,7 @@ Teams の無料機能と Teams 機能の詳細については、「[チームプ
 
 ![[アップグレード] ボタンを示すスクリーンショット](media/teams-freemium-upgrade-image1.png)
 
-Teams へのサインインに使用するメールアドレスを入力して、Office 365 Business Premium プランを購入します。 Office 365 Business Essentials または Enterprise edition の Office 365 を購入する場合は、[サポートにお問い合わせ](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)ください。
+チームへのサインインに使用するメールアドレスを入力して、Microsoft 365 ビジネス Standard プランを購入します。 Microsoft 365 Business Basic または Enterprise edition の Office 365 を購入する場合は、[サポートにお問い合わせ](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)ください。
 
 ## <a name="whats-next"></a>次の作業
 

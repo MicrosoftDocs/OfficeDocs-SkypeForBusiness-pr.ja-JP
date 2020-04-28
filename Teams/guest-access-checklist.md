@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
-description: このチェックリストを使用すると、Microsoft Teams の設定が容易になります。
+description: グローバルまたはチームの管理者として Microsoft Teams でゲストアクセスを有効にし、構成する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776952"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902582"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams のゲスト アクセスのチェックリスト
 =========================================
@@ -30,7 +31,7 @@ ms.locfileid: "43776952"
 このチェックリストは、Microsoft Teams のゲスト アクセスを有効にして、構成するのに役立ちます。 これらの変更を行うには、グローバル管理者または Teams の管理者である必要があります。
 
 > [!IMPORTANT]
-> 変更が有効になるまで最大で 24 時間かかる場合があります。 
+> 変更が有効になるまで、数時間かかる場合があります。 
 
 この短いビデオ (5 分 31 秒) で、Teams を含む、Microsoft 365 全体でゲスト アクセスを有効する方法について説明します。
 

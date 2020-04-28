@@ -10,19 +10,21 @@ search.appverid: MET150
 ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
-description: クラウド ビデオ相互運用性により、サード パーティ製の会議室デバイスで Microsoft Teams の会議に参加することが可能になります。
+description: クラウドビデオ相互運用機能を中間ソリューションとして使用して、サードパーティの会議室デバイスが Microsoft Teams 会議に参加できるようにします。
 localization_priority: Normal
+ms.custom:
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5c7cb1888856ff8dba910e4f4735516876a8ade2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779643"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905879"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -73,7 +75,7 @@ Office 365 には、サードパーティ製のアプリケーションを Share
 
 ## <a name="deploy-cloud-video-interop"></a>クラウド ビデオ相互運用性を展開する
 
-クラウド ビデオ相互運用性ソリューションを展開する際には、パートナー ソリューションを展開していることを理解することが重要です。 クラウド ビデオ相互運用性を展開するために必要な一般的な手順を次の図に示します。
+クラウドビデオ相互運用ソリューションを展開するときは、パートナーソリューションを展開することを理解しておくことが重要です。 クラウド ビデオ相互運用性を展開するために必要な一般的な手順を次の図に示します。
 
 ![組織での CVI の展開を説明する図](media/deploying-cvi.png)
 
@@ -81,7 +83,7 @@ Office 365 には、サードパーティ製のアプリケーションを Share
 
 計画フェーズでは、ネイティブの Teams デバイスと交換しないデバイスを特定し、これらのデバイスをサポートできるクラウド ビデオ相互運用性パートナーを見つける必要があります。  
 
-また、クラウド ビデオ相互運用性対応デバイスが必要な会議をスケジュールするユーザーごとにライセンスが必要であることを理解することも重要です。 正確なライセンス要件は、クラウド ビデオ相互運用性パートナーから取得できます。 展開を開始する前に、ライセンスに関することがクリアされていることを確認してください。
+また、クラウドビデオ相互運用対応デバイスを参加させる会議をスケジュールするユーザーごとに、ライセンスが必要であることを理解しておくことも重要です。 正確なライセンス要件は、クラウド ビデオ相互運用性パートナーから取得できます。 展開を開始する前に、ライセンスに関することがクリアされていることを確認してください。
 
 ### <a name="configure"></a>構成
 
@@ -89,7 +91,7 @@ CVI 展開用に選択したパートナーは、組織内で正常に展開す�
 
 ### <a name="provision"></a>プロビジョニング  
 
-プロビジョニング フェーズでは、パートナーから提供された構成ガイドに従って、適切なユーザーにライセンスを割り当てます。 また、パートナーが Teams 環境にアクセスできるようにするには、Azure 同意プロセスも実行する必要があります。 Azure 同意プロセスの詳細については、こちらを参照してください。https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
+プロビジョニング フェーズでは、パートナーから提供された構成ガイドに従って、適切なユーザーにライセンスを割り当てます。 また、パートナーが Teams 環境にアクセスできるようにするには、Azure 同意プロセスも実行する必要があります。 Azure の同意プロセスの詳細については[、Microsoft identity platform エンドポイントの権限と同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)を参照してください。
 
 ### <a name="schedule"></a>スケジュール
 
@@ -97,13 +99,13 @@ CVI 展開用に選択したパートナーは、組織内で正常に展開す�
 
 ### <a name="join"></a>参加
 
-パートナー ソリューションによっては、クラウド ビデオ相互運用性対応の会議に参加する方法がいくつかあります。 正確な会議参加シナリオは、クラウド ビデオ相互運用性パートナーから提供されます。 次に例を示します。
+パートナー ソリューションによっては、クラウド ビデオ相互運用性対応の会議に参加する方法がいくつかあります。 正確な会議参加シナリオは、クラウド ビデオ相互運用性パートナーから提供されます。 以下に例をいくつか示しました。
 
 - IVR (対話型音声応答) 
   - tenantkey@domain を使用して、パートナーの IVR にダイヤルインできます。
   - パートナー IVR にいると、VTC conferenceId を入力するように求められます。これにより、Teams 会議に接続されます。
 - 直接ダイヤル 
-  - TenantKey の全文字列を使用して、直接ダイヤル機能を使用すると、パートナーの IVR に対する操作なしに、Teams 会議に直接ダイヤルインできます。VTC ConferenceId@domain。
+  - このダイレクトダイヤル機能を使用すると、パートナーの IVR とやり取りすることなく、直接、tenantkey の完全な文字列を使用して、Teams 会議に直接ダイヤルインすることができます。VTC ConferenceId@domain。
 - ワンタッチ ダイヤル 
   - Teams ミーティングが統合されている場合は、パートナーが提供するワンタッチ ダイヤル機能を使用できます (ダイヤルの文字列を入力する必要はありません)。
 

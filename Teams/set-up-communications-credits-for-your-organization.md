@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
+- seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779744"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905589"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -37,7 +38,7 @@ Skype for Business または Microsoft Teams で無料番号を使用する場�
   
 ## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>手順 1: 電話会議または通話プランのライセンスをユーザーに割り当てる
 
-サインアップすると、お住まいの国や地域により異なる、通話可能分数を取得します。 [ここで](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)、お住まいの国または地域の検索に使用できる分数を確認できます。 この通話可能分数を使い切ると、通話は切断されます。 これを回避するには、コミュニケーション クレジットを設定する必要があります。
+サインアップすると、お住まいの国や地域により異なる、通話可能分数を取得します。 [電話会議と通話プランの](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization)国または地域を検索して、通話時間 (分単位) を確認できます。 この通話可能分数を使い切ると、通話は切断されます。 これを回避するには、コミュニケーション クレジットを設定する必要があります。
   
 これを実行するには、 **電話会議または電話システムのライセンス** をユーザーに割り当てる必要があります。
   
@@ -114,7 +115,7 @@ Each organization will have a different usage of Calling Plan volume and rates t
   
 各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

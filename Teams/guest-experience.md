@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: ゲスト ユーザーが利用できる Microsoft Teams の機能性について説明します。
+description: この記事では、ゲストユーザーが利用できる Microsoft Teams の機能について説明し、それに関連する最も一般的な Faq の一部についても説明します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785870"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902602"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -87,7 +88,7 @@ Teams のゲストエクスペリエンスについては、次のビデオを�
 | 不在着信をボイスメールに移動する | いいえ | いいえ<sup>1</sup> |はい |
 | 通話を受信できる電話番号を持つ | × | いいえ | はい |
 | 電話番号をダイヤルする | × | いいえ | はい |
-| 通話設定にアクセスする | × | いいえ | はい |
+| 通話設定にアクセスする | いいえ | いいえ | はい |
 | ボイスメールの挨拶を変更する | いいえ | いいえ<sup>1</sup> | はい |
 | 着信音を変更する | × | いいえ  | はい |
 | TTY のサポート | × | いいえ | はい |

@@ -20,19 +20,20 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Microsoft Teams ミーティングで利用可能な機能について説明します。 '
-ms.openlocfilehash: 193d84970d5c425143de75d212ad57ac4532aa1c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+- seo-marvel-apr2020
+description: Microsoft Teams ルームのさまざまな種類の通話と会議機能で利用可能なライセンスについて説明します。
+ms.openlocfilehash: cc736fad2e7050f4989250917d8fc0d1a7c22fae
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693812"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905389"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams ミーティング ルームのライセンスの更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有コミュニケーション デバイスのライセンス ソリューション
 
-Microsoft では、会議をライセンス化し、会議室デバイス (Microsoft Teams ミーティングや Microsoft Surface Hub など) をデバイスごとに呼び出すための専用の SKU を提供しています。
+Microsoft には、会議室 (microsoft Teams 室、Microsoft Surface Hub、Microsoft Teams 用 collaboartion bar など) の会議室のデバイスごとに、会議と通話のライセンスを付与する専用の SKU が用意されています。
 
 ||ミーティング ルーム SKU |  
 |:--- |:---: |

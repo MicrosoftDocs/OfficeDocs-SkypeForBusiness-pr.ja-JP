@@ -13,17 +13,18 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Microsoft Teams ミーティングの管理の概要。
-ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+description: Microsoft Teams のルームシステムがユーザーに対して利用可能になるように、継続的なメンテナンスと運用を開発して実行する方法について説明します。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825885"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905369"
 ---
 # <a name="management-overview"></a>管理の概要
 
-Microsoft Teams ミーティングのシステムをユーザーが利用できる状態にし、良好なエクスペリエンスを確実に提供するには、継続的なメンテナンスと操作を開発して実施することが不可欠です。 
+Microsoft Teams の部屋システムがユーザーに提供され、優れたユーザーエクスペリエンスを提供できるように、継続的なメンテナンスと運用を開発して実施することが重要です。 
 
 ## <a name="monitoring"></a>監視 
 
@@ -55,7 +56,7 @@ Microsoft Operations Manager Suite を使用して、Microsoft Teams ミーテ�
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Operations Management Suite を使って Microsoft Teams ミーティングの展開を監視することを確認します。</li><li>メール通知に使用する対象の配布リストを決定します。</li></ul>|
+|![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Operations Management Suite を使って Microsoft Teams ミーティングの展開を監視することを確認します。</li><li>メール通知に使用するターゲット配布リストを決定します。</li></ul>|
 |![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>品質と信頼性の監視アプローチを定義します。</li></ul>|
 
 ## <a name="quality-and-reliability-monitoring-cqd"></a>品質と信頼性の監視 (CQD)
@@ -77,7 +78,7 @@ Microsoft Teams ミーティングは Windows 10 Enterprise IoT または Window
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-上記のセクションで前述したように、Operations Management Suite の通知を設定し、Microsoft Teams ミーティングの問題についての通知をお客様の運用チームやヘルプデスクが受け取れるようにすることをお勧めします。 PowerShell リモート管理用のオプションについては、「[PowerShell を使ったリモート管理](rooms-operations.md#remote-management-using-powershell)」を参照してください。 周辺機器が接続されていない場合は、ローカルの “スマート ハンド” か IT サポートに頼ってデバイスの調査と再接続を行う必要があるかもしれません。 
+上記のセクションで前述したように、Operations Management Suite の通知を設定し、Microsoft Teams ミーティングの問題についての通知をお客様の運用チームやヘルプデスクが受け取れるようにすることをお勧めします。 PowerShell リモート管理用のオプションについては、「[PowerShell を使ったリモート管理](rooms-operations.md#remote-management-using-powershell)」を参照してください。 周辺機器が切断されている場合は、ローカルの "スマートハンド" または IT サポートに依存して、デバイスを調査し、再接続することが必要な場合があります。 
 
 トラブルシューティングと管理モードについての詳細は、「[管理者モードとデバイス管理](rooms-operations.md#admin-mode-and-device-management)」を参照してください。 
 

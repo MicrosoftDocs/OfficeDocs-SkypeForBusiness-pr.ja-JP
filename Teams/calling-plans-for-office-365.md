@@ -24,13 +24,14 @@ ms.custom:
 - O365P_E5Voiceplandetails
 - Licensing
 - LIL_Placement
+- seo-marvel-apr2020
 description: 'Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。 '
-ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779946"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905019"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 の通話プラン
 
@@ -42,7 +43,7 @@ ms.locfileid: "43779946"
     
 - **国内および国際通話プラン**: ライセンスを取得したユーザーは、ユーザーのいる場所に基づいてユーザーに割り当てられた Office 365 ライセンスの国/地域の番号と、[196 の国/地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際番号に電話をかけることができます。
     
-それぞれの組織と国/地域で利用可能な月間分数については、[こちら](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)をご覧ください。
+国[と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)の利用可能時間については、各国/地域の各組織で利用可能な月額プランをご覧ください。
   
 > [!IMPORTANT]
 > 国/地域は、**[Microsoft 365 管理センター]** の **[組織プロファイル]** にある請求先住所**ではなく**、**[Microsoft 365 管理センター]** > **[アクティブなユーザー]** にあるユーザーのライセンスの場所に基づいています。  

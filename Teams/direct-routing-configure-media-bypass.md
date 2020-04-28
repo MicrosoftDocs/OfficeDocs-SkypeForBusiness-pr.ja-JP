@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: このトピックでは、電話システムのダイレクトルーティングでメディアバイパスを構成する方法について説明します。
-ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: すべてのユーザーを一度に切り替えるか、段階的な方法 (推奨) を実装して、電話システムのダイレクトルーティングでメディアバイパスを構成する方法について説明します。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837607"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904839"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを構成する
 
@@ -29,11 +30,11 @@ ms.locfileid: "41837607"
 
 メディアのバイパスを有効にするには、次の条件を満たしている必要があります。
 
-1.  セッション境界コントローラー (SBC) ベンダーがメディアバイパスをサポートしていることを確認し、SBC でバイパスを構成する方法について説明します。 SBCs の詳細については、認定ページを参照してください。このページでは、メディアのバイパスがサポートされているものと手順について説明します。
+1.    セッション境界コントローラー (SBC) ベンダーがメディアバイパスをサポートしていることを確認し、SBC でバイパスを構成する方法について説明します。 SBCs の詳細については、認定ページを参照してください。このページでは、メディアのバイパスがサポートされているものと手順について説明します。
 
-2.  次のコマンドを使用して、トランクでメディアバイパスを有効にする必要があります: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**。
+2.    次のコマンドを使用して、トランクでメディアバイパスを有効にする必要があります: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**。
 
-3.  必要なポートが開かれていることを確認します。 
+3.    必要なポートが開かれていることを確認します。 
 
 
 ## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>非バイパスの trunks からバイパス対応の trunks に移行する
@@ -59,7 +60,7 @@ Trunks を構成して移行を実行する方法については、「SBC ベン
 
 
 
-## <a name="see-also"></a>関連項目
+## <a name="related-topics"></a>関連項目
 
 [ダイレクトルーティングによるメディアバイパスの計画](direct-routing-plan-media-bypass.md)
 

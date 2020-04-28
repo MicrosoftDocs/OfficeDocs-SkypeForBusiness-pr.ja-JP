@@ -8,7 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft Teams で StaffHub teams をシフトに移行する計画を立てる方法についてのガイダンスを取得します。
+description: このタイムラインを使用して、組織の StaffHub teams から Microsoft Teams のシフトへの移行を支援します。
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,13 +18,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 67c7a34a1051f68183429d9850561748d34568ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780616"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905719"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft Teams での StaffHub teams のシフトへの移行を計画する
 

@@ -7,25 +7,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: パイロット、オンボード、およびチームへのアップグレードを行うときに、ユーザーとの通信、トレーニング、サポートを計画する
+description: パイロットの際に、ユーザーの通信、トレーニング、サポートを計画し、Microsoft Teams にアップグレードしてアップグレードします。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5519646aab3f1fbd14a2ee643313e50f9fbc678c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b751ec6d14e5d137bb9dfdb3e4c6e9664137cda4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136647"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905329"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>ユーザーの研修計画を準備する
 
@@ -52,7 +52,7 @@ ms.locfileid: "43136647"
 <table>
 <tbody>
 <tr><th>どのような通信チャネルを活用しますか?</th><th>どのようなトレーニングチャネルを活用しますか?</th><th>使用するサポートチャネルは何ですか?</th></tr>
-<tr><td><ul><li>Email<br><strong>ヒント:</strong>サンプルのパイロット、共存、およびアップグレードのメールを使用して、メールキャンペーンをカスタマイズします。</li><li>ポスターとデジタル看板</li><li>イベントを起動する</li><li>部門マネージャー</li><li>チャンピオン</li><li>チーム/チャネル</li><li>Gamification</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Microsoft のインストラクター主導のトレーニング</a></li><li>Microsoft-公開されたオンライン記事とビデオ</li><li>参照<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Skype for Business から Teams に切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Teams ビデオトレーニング</a></li></ul></li><li>製品内サポート (ヘルプ)</li><li>社内トレーニングチーム</li><li>パートナートレーニングチーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>アウトソーシングのサポートデスク</li><li>セルフサービス (イントラネットサイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">オンラインヘルプと使い方</a></li><li>床-walkers とチャンピオン</li><li>フィードバックループ (アンケート、評価)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>ヒント:</strong>サンプルのパイロット、共存、およびアップグレードのメールを使用して、メールキャンペーンをカスタマイズします。</li><li>ポスターとデジタル サイネージ</li><li>立ち上げイベント</li><li>部署のマネージャー</li><li>支持者</li><li>チーム/チャネル</li><li>ゲーミフィケーション</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Microsoft のインストラクター主導のトレーニング</a></li><li>Microsoft-公開されたオンライン記事とビデオ</li><li>参照<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Skype for Business から Teams に切り替える</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Teams ビデオトレーニング</a></li></ul></li><li>製品内サポート (ヘルプ)</li><li>社内トレーニング チーム</li><li>パートナー トレーニング チーム</li></ul></td><td><ul><li>社内ヘルプデスク</li><li>外部委託されたサポート デスク</li><li>セルフサービス (イントラネットサイト)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">オンラインヘルプと使い方</a></li><li>現場監督と支持者</li><li>フィードバックループ (アンケート、評価)</li></ul></td></tr>
 </tbody>
 </table>
 </div>
