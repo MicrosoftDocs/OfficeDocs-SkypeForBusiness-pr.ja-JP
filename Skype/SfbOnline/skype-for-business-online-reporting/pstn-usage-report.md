@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: '[新しい Skype for Business 管理センターのレポート] 領域には、組織内の電話会議アクティビティと電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。 通話のコストなど、電話会議の PSTN 利用状況の詳細を表示して、組織内での使用状況を特定するために、使用状況を理解し、請求の詳細を呼び出すことができます。'
-ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776272"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918515"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況レポート
 
@@ -77,8 +77,9 @@ ms.locfileid: "43776272"
      **統合コミュニケーション アプリケーション (UCAP)** 
      *    **ucap_in** (自動応答や通話キューなどの UC アプリケーションへの着信 PSTN 通話) 
      *    **ucap_out** (自動応答や通話キューなどの UC アプリケーションからの送信 PSTN 通話)
-     *    **注:** 自動応答や通話キューなどの UC アプリケーションからユーザーに転送された通話は、ピアツーピア (P2P) の音声通話であるため、PSTN 使用状況レポートには表示されません。 Skype for Business 管理センターの P2P 通話には、"ツール > Skype for Business Call Analytics" のようにアクセスして、ユーザー名または SIP アドレスで検索し、日付/時刻/発信元の CLID (呼び出し行 ID) で検索することができます。 
-*     
+         > [!NOTE]
+         > 自動応答や通話キューなどの UC アプリケーションからユーザーに転送された通話は、ピアツーピア (P2P) の音声通話であるため、PSTN 使用状況レポートには表示されません。 Skype for Business 管理センターの P2P 通話には、"ツール > Skype for Business Call Analytics" のようにアクセスして、ユーザー名または SIP アドレスで検索し、日付/時刻/発信元の CLID (呼び出し行 ID) で検索することができます。 
+
      [ **国内/国際**] は、ユーザーの場所に基づいて通話が国内 (国/地域内) または国際 (国/地域外) のどちらと見なされるかを示します。 
 *    [**宛先ダイヤル**] は、フランス、ドイツ、または米国 (米国) などのダイヤル先の国/地域の名前です。 
 *    [**番号の種類**] は、ユーザーの電話番号、サービス、またはフリーダイヤル番号からの電話番号の種類です。  
@@ -125,28 +126,29 @@ CSV の最初の行には、列名が含まれています。
 
 エクスポートされたファイルには、オンラインレポートでは使用できない追加のフィールドが含まれています。 これらは、トラブルシューティングや自動化されたワークフローに使用できます。
 
-| #  | 名前 | [データ型 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 説明 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | この Id | `uniqueidentifier` | 一意の通話識別子 |
-| 1 | 通話 ID | `nvarchar(64)` | 通話識別子。 一意であるとは限りません |
-| 両面 | 会議 ID | `nvarchar(64)` | 電話会議の ID |
-| 3 | ユーザーの場所 | `nvarchar(2)` | ユーザーの国コード、 [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | AAD ObjectId | `uniqueidentifier` | Azure Active Directory でユーザーの ID を呼び出します。<br/> ボット通話の種類 (ucap_in、ucap_out) については、この情報とその他のユーザー情報は null または空になります。 |
-| 5 | UPN | `nvarchar(128)` | Azure Active Directory での UserPrincipalName (サインイン名)。<br/>通常、これはユーザーの SIP アドレスと同じであり、ユーザーのメールアドレスと同じにすることができます。 |
-| 6 | ユーザーの表示名 | `nvarchar(128)` | ユーザーの表示名 |
-| 7 | 発信者番号 | `nvarchar(128)` | 着信通話を受信した電話番号、または発信通話でダイヤルした番号。 [E.i](https://en.wikipedia.org/wiki/E.164)形式 |
-| 個 | 通話の種類 | `nvarchar(32)` | 通話が PSTN の送信または着信であるか、ユーザーまたは電話会議によって発信された通話などの通話の種類であるか |
-| ファイブ | 数値の種類 | `nvarchar(16)` | ユーザーの電話番号の種類 (無料番号のサービスなど) |
-| 常用 | 国内/国際 | `nvarchar(16)` | ユーザーの所在地に基づいて、通話が国内 (国または地域内) または国際 (国または地域外) のどちらであったか |
-| 折り | ダイヤル先 | `nvarchar(64)` | ダイヤル先の国または地域 |
-| 以内 | 通話先の電話番号 | `nvarchar(32)` | 番号が[164](https://en.wikipedia.org/wiki/E.164)形式でダイヤルされる |
-| 14 | 開始時刻 | `datetimeoffset` | 通話開始時刻 (UTC、 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| 14 | 終了時刻 | `datetimeoffset` | 通話終了時刻 (UTC、 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-| マート | 継続時間 (秒) | `int` | 通話が接続されていた時間 |
-| 16 | 接続料金 | `numeric(16, 2)` | 接続料金 |
-| 18 | 職責 | `numeric(16, 2)` | お客さまのアカウントに課金される金額または通話の料金 |
-| 才 | 通貨 | `nvarchar(3)` | 通話の料金を計算するために使用される通貨の種類 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| # | 機能 | `nvarchar(32)` | 通話に使用されたライセンス |
+> [!div class="has-no-wrap"]  
+> | #  | 名前 | [データ型 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 説明 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | この Id | `uniqueidentifier` | 一意の通話識別子 |
+> | 1 | 通話 ID | `nvarchar(64)` | 通話識別子。 一意であるとは限りません |
+> | 2 | 会議 ID | `nvarchar(64)` | 電話会議の ID |
+> | 3 | ユーザーの場所 | `nvarchar(2)` | ユーザーの国コード、 [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | Azure Active Directory でユーザーの ID を呼び出します。<br/> ボット通話の種類 (ucap_in、ucap_out) については、この情報とその他のユーザー情報は null または空になります。 |
+> | 5 | UPN | `nvarchar(128)` | Azure Active Directory での UserPrincipalName (サインイン名)。<br/>通常、これはユーザーの SIP アドレスと同じであり、ユーザーのメールアドレスと同じにすることができます。 |
+> | 6 | ユーザーの表示名 | `nvarchar(128)` | ユーザーの表示名 |
+> | 7 | 発信者番号 | `nvarchar(128)` | 着信通話を受信した電話番号、または発信通話でダイヤルした番号。 [E.i](https://en.wikipedia.org/wiki/E.164)形式 |
+> | 個 | 通話の種類 | `nvarchar(32)` | 通話が PSTN の送信または着信であるか、ユーザーまたは電話会議によって発信された通話などの通話の種類であるか |
+> | ファイブ | 数値の種類 | `nvarchar(16)` | ユーザーの電話番号の種類 (無料番号のサービスなど) |
+> | 常用 | 国内/国際 | `nvarchar(16)` | ユーザーの所在地に基づいて、通話が国内 (国または地域内) または国際 (国または地域外) のどちらであったか |
+> | 折り | ダイヤル先 | `nvarchar(64)` | ダイヤル先の国または地域 |
+> | 以内 | 通話先の電話番号 | `nvarchar(32)` | 番号が[164](https://en.wikipedia.org/wiki/E.164)形式でダイヤルされる |
+> | 14 | 開始時刻 | `datetimeoffset` | 通話開始時刻 (UTC、 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | 14 | 終了時刻 | `datetimeoffset` | 通話終了時刻 (UTC、 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+> | マート | 継続時間 (秒) | `int` | 通話が接続されていた時間 |
+> | 16 | 接続料金 | `numeric(16, 2)` | 接続料金 |
+> | 18 | 職責 | `numeric(16, 2)` | お客さまのアカウントに課金される金額または通話の料金 |
+> | 才 | 通貨 | `nvarchar(3)` | 通話の料金を計算するために使用される通貨の種類 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | # | 機能 | `nvarchar(32)` | 通話に使用されたライセンス |
 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Skype for Business のその他のレポートを表示しますか?
@@ -167,7 +169,7 @@ CSV の最初の行には、列名が含まれています。
 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

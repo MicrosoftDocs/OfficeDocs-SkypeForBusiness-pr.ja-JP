@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 次のセクションでは、ハイブリッドシナリオで Skype for Business 機能を提供するために、リソース/ユーザーフォレストモデルに複数のフォレストがある環境を構成する方法について説明します。
-ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780126"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918686"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>リソース フォレスト トポロジの展開
  
@@ -65,7 +65,7 @@ Skype for Business Server が1つのフォレスト (リソースフォレスト
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-の場合は、Sid  <br/> |
    
-選択された[アカウントリンク属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)がソースアンカーとして使用されます。 使用する必要がある、別の不変の属性がある場合は、これを行うことができます。AD FS の要求ルールを編集して、AAD Connect 構成中に属性を選択する必要があります。
+選択された[アカウントリンク属性](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts)がソースアンカーとして使用されます。 使用する必要がある、別の不変の属性がある場合は、これを行うことができます。AD FS の要求ルールを編集して、AAD Connect 構成中に属性を選択する必要があります。
   
 フォレスト間で Upn を同期しません。 テスト中に、複数のフォレストで同じ UPN を使用できないため、各ユーザーフォレストに一意の UPN を使用する必要があることがわかりました。 その結果、UPN を同期したり、同期したりしないようにするための2つの可能性が提供されました。 
   
@@ -121,14 +121,16 @@ AAD Connect は、次の点を除き、既定の設定を使用してインス�
     
 3. オンプレミスディレクトリでユーザーを識別する: [**複数のディレクトリにユーザー id が存在**する] を選択し、 **ObjectSID**属性と**msExchangeMasterAccountSID**属性を選択します。
     
-4. [Azure AD でユーザーを識別する: ソースアンカー]:[適切な sourceanchor 属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)(ユーザープリンシパル名- **UserPrincipalName**) を選択した後に選択した属性を選択します。
+4. [Azure AD でユーザーを識別する: ソースアンカー]:[適切な sourceanchor 属性](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute)(ユーザープリンシパル名- **UserPrincipalName**) を選択した後に選択した属性を選択します。
     
 5.  オプション機能: Exchange ハイブリッドが展開されているかどうかを選択します。
     
     > [!NOTE]
     >  Exchange Online のみを使用している場合は、CNAME リダイレクトにより、自動検出の際に OAuth エラーに関して問題が発生する可能性があります。 これを修正するには、Skype for Business Server 管理シェルから次のコマンドレットを実行して、Exchange 自動検出 URL を設定する必要があります。
-  
-    Set-CsOAuthConfiguration-ExchangeAutoDiscoverURL https://<span>autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    >
+    > ```powershell
+    > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    > ```
     
 6.  AD FS ファーム: [**既存の Windows Server 2012 R2 AD fs ファームを使用する**] を選択し、ad fs サーバーの名前を入力します。
     
@@ -142,4 +144,3 @@ Skype for Business ハイブリッドを構成するためのベストプラク�
 
 必要に応じて、Exchange ハイブリッドを構成するためのベストプラクティスに従います。 詳細については、「 [Exchange Server のハイブリッド展開](https://docs.microsoft.com/exchange/exchange-hybrid)」を参照してください。 
   
-
