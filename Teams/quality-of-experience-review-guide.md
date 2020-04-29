@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: bb0b28805f06109109a1d7ba47b08f57112c9ee4
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780586"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918726"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド 
 
@@ -61,28 +61,6 @@ _図 1-このガイドで取り上げている主要な運用領域_
 
 このガイドは、指定された品質チャンピオンでも使用することを目的としています。 詳細については、「[品質支持者の役割](4-envision-plan-my-service-management.md#the-quality-champion-role)」を参照してください。
 
-## <a name="assign-roles-for-accessing-cqd"></a>CQD にアクセスするための役割の割り当て
-
-このガイドを使用する前に、CQD にアクセスできるように、適切なテナント[ロール](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)が割り当てられていることを確認してください。
-
-次の表に、CQD で実行できる各役割について説明します。
-
-
-|  |レポートを表示する  |EUII フィールドを表示する  |レポートを作成する  |建物のデータをアップロードする  |
-|---------|:-------:|:-------:|:-------:|:-------:|
-|グローバル管理者     |はい         |Yes         |Yes         |Yes         |
-|Teams サービス管理者     |はい         |Yes         |Yes         |Yes         |
-|Teams 通信管理者     |はい         |Yes         |Yes         |Yes         |
-|Teams 通信サポート エンジニア     |はい         |Yes         |必要         |いいえ         |
-|Teams 通信サポート スペシャリスト     |はい         |いいえ         |はい         |いいえ         |
-|Skype for Business 管理者     |はい         |Yes         |Yes         |Yes         |
-|Azure AD グローバルリーダー |はい         |Yes         |必要         |いいえ         |
-|Microsoft 365 レポートリーダー<sup>1</sup>     |はい         |いいえ         |はい         |いいえ         |
-
-<sup>1</sup> CQD レポートの読み取りに加えて、Microsoft 365 レポート閲覧者は、管理センターのすべての[アクティビティレポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)と、 [microsoft 365 導入コンテンツパック](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)のすべてのレポートを表示できます。
-
-> [!NOTE]
-> EUII (エンドユーザーを特定できる情報) が表示されず、この情報を表示することを許可されているロールの1つがある場合は、CQD で30日間は EUII しか保持されないことに注意してください。 30日以上経過したものは削除されます。
 
 ## <a name="what-is-quality"></a>品質とは
 

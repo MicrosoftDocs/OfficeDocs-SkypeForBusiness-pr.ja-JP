@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 電話システムのダイレクトルーティングを使用してメディアのバイパスを計画する方法について説明します。これにより、メディアトラフィックのパスを短縮し、パフォーマンスを向上させることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901842"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918696"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -254,7 +254,8 @@ UDP/SRTP | クライアント | SBC | 50 000 – 50 019  | SBC で定義 |
 | UDP/SRTP | SBC | クライアント | SBC で定義 | 50 000 – 50 019  |
 
 
-注: クライアントのソースポートを変換するネットワークデバイスがある場合は、ネットワーク機器と SBC の間で変換されたポートが開かれていることを確認してください。 
+> [!NOTE]
+> クライアントのソースポートを変換するネットワークデバイスがある場合は、ネットワーク機器と SBC の間で変換されたポートが開かれていることを確認してください。 
 
 ### <a name="requirements-for-using-transport-relays"></a>トランスポートリレーを使用するための要件
 
@@ -262,7 +263,7 @@ UDP/SRTP | クライアント | SBC | 50 000 – 50 019  | SBC で定義 |
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
 
--52.112.0.0/14 (52.112.0.1 から52.115.255.254 への IP アドレス)
+- 52.112.0.0/14 (52.112.0.1 から52.115.255.254 への IP アドレス)
 
 ## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
 
@@ -282,11 +283,12 @@ UDP/SRTP | トランスポートリレー | SBC | 50 000-59 999    | SBC で定�
 | UDP/SRTP | SBC | トランスポートリレー | SBC で定義 | 50 000 – 59 999、3478、3479     |
 
 
-注: SBC では、同時通話ごとに少なくとも2つのポートが推奨されます。 Microsoft にはトランスポートリレーの2つのバージョンがあるため、次のものが必要です。
-
-- v4 (ポート範囲 59 999 50 000 でのみ使用可能)
-
-- v6 (ポート3478、3479と連携)
+> [!NOTE]
+> Microsoft は、SBC で同時呼び出しごとに少なくとも2つのポートをお勧めします。 Microsoft にはトランスポートリレーの2つのバージョンがあるため、次のものが必要です。
+> 
+> - v4 (ポート範囲 59 999 50 000 でのみ使用可能)
+> 
+> - v6 (ポート3478、3479と連携)
 
 現時点では、メディアバイパスは、トランスポートリレーの v4 バージョンのみをサポートしています。 今後、v6 のサポートが導入される予定です。 
 
@@ -301,7 +303,7 @@ UDP/SRTP | トランスポートリレー | SBC | 50 000-59 999    | SBC で定�
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
 
--52.112.0.0/14 (52.112.0.1 から52.115.255.254 への IP アドレス)
+- 52.112.0.0/14 (52.112.0.1 から52.115.255.254 への IP アドレス)
 
 ## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
 
@@ -315,8 +317,8 @@ UDP/SRTP | トランスポートリレー | SBC | 50 000-59 999    | SBC で定�
 
 | 通過 | 開始 | 終了 | 送信元ポート | 宛先ポート|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | メディアプロセッサ | SBC | 49 152 – 53 247    | SBC で定義 |
-| UDP/SRTP | SBC | メディアプロセッサ | SBC で定義 | 49 152 – 53 247     |
+UDP/SRTP | メディアプロセッサ | SBC | 3478、3479、49 152 – 53 247    | SBC で定義 |
+| UDP/SRTP | SBC | メディアプロセッサ | SBC で定義 | 3478、3479、49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>メディアバイパスとメディア以外のバイパス用に個別の trunks を構成する  
 

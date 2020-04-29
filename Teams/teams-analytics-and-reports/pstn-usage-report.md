@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターで Teams の PSTN 使用状況�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904302"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918575"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams の PSTN 使用状況レポート
 
@@ -104,56 +104,58 @@ CSV の最初の行には、列名が含まれています。 すべての日付
 
  国固有の規制により、12ヶ月のデータの保持を禁止する場合を除き、現在の日付から1年後にデータをエクスポートすることができます。
 
-| # | 名前 | [データ型 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 説明 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | この Id | `uniqueidentifier` | 一意の通話識別子 |
-| 1 | 通話 ID | `nvarchar(64)` | 通話識別子。 一意であるとは限りません |
-| 両面 | 会議 ID | `nvarchar(64)` | 電話会議の ID |
-| 3 | ユーザーの場所 | `nvarchar(2)` | ユーザーの国コード、 [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | AAD ObjectId | `uniqueidentifier` | Azure Active Directory でユーザーの ID を呼び出します。<br/> ボット通話の種類 (ucap_in、ucap_out) については、この情報とその他のユーザー情報は null または空になります。 |
-| 5 | UPN | `nvarchar(128)` | Azure Active Directory での UserPrincipalName (サインイン名)。<br/>通常、これはユーザーの SIP アドレスと同じであり、ユーザーのメールアドレスと同じにすることができます。 |
-| 6 | ユーザーの表示名 | `nvarchar(128)` | ユーザーの表示名 |
-| 7 | 発信者番号 | `nvarchar(128)` | 着信通話を受信した電話番号、または発信通話でダイヤルした番号。 [E.i](https://en.wikipedia.org/wiki/E.164)形式 |
-| 個 | 通話の種類 | `nvarchar(32)` | 通話が PSTN の送信または着信であるか、ユーザーまたは電話会議によって発信された通話などの通話の種類であるか |
-| ファイブ | 数値の種類 | `nvarchar(16)` | ユーザーの電話番号の種類 (無料番号のサービスなど) |
-| 常用 | 国内/国際 | `nvarchar(16)` | ユーザーの所在地に基づいて、通話が国内 (国または地域内) または国際 (国または地域外) のどちらであったか |
-| 折り | ダイヤル先 | `nvarchar(64)` | ダイヤル先の国または地域 |
-| 以内 | 通話先の電話番号 | `nvarchar(32)` | 番号が[164](https://en.wikipedia.org/wiki/E.164)形式でダイヤルされる |
-| 14 | 開始時刻 | `datetimeoffset` | 通話開始時刻 |
-| 14 | 終了時刻 | `datetimeoffset` | 通話終了時刻 |
-| マート | 継続時間 (秒) | `int` | 通話が接続されていた時間 |
-| 16 | 接続料金 | `numeric(16, 2)` | 接続料金 |
-| 18 | 職責 | `numeric(16, 2)` | お客さまのアカウントに課金される金額または通話の料金 |
-| 才 | 通貨 | `nvarchar(3)` | 通話の料金を計算するために使用される通貨の種類 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| # | 機能 | `nvarchar(32)` | 通話に使用されたライセンス |
+> [!div class="has-no-wrap"]  
+> | # | 名前 | [データ型 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 説明 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | この Id | `uniqueidentifier` | 一意の通話識別子 |
+> | 1 | 通話 ID | `nvarchar(64)` | 通話識別子。 一意であるとは限りません |
+> | 2 | 会議 ID | `nvarchar(64)` | 電話会議の ID |
+> | 3 | ユーザーの場所 | `nvarchar(2)` | ユーザーの国コード、 [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | Azure Active Directory でユーザーの ID を呼び出します。<br/> ボット通話の種類 (ucap_in、ucap_out) については、この情報とその他のユーザー情報は null または空になります。 |
+> | 5 | UPN | `nvarchar(128)` | Azure Active Directory での UserPrincipalName (サインイン名)。<br/>通常、これはユーザーの SIP アドレスと同じであり、ユーザーのメールアドレスと同じにすることができます。 |
+> | 6 | ユーザーの表示名 | `nvarchar(128)` | ユーザーの表示名 |
+> | 7 | 発信者番号 | `nvarchar(128)` | 着信通話を受信した電話番号、または発信通話でダイヤルした番号。 [E.i](https://en.wikipedia.org/wiki/E.164)形式 |
+> | 個 | 通話の種類 | `nvarchar(32)` | 通話が PSTN の送信または着信であるか、ユーザーまたは電話会議によって発信された通話などの通話の種類であるか |
+> | ファイブ | 数値の種類 | `nvarchar(16)` | ユーザーの電話番号の種類 (無料番号のサービスなど) |
+> | 常用 | 国内/国際 | `nvarchar(16)` | ユーザーの所在地に基づいて、通話が国内 (国または地域内) または国際 (国または地域外) のどちらであったか |
+> | 折り | ダイヤル先 | `nvarchar(64)` | ダイヤル先の国または地域 |
+> | 以内 | 通話先の電話番号 | `nvarchar(32)` | 番号が[164](https://en.wikipedia.org/wiki/E.164)形式でダイヤルされる |
+> | 14 | 開始時刻 | `datetimeoffset` | 通話開始時刻 |
+> | 14 | 終了時刻 | `datetimeoffset` | 通話終了時刻 |
+> | マート | 継続時間 (秒) | `int` | 通話が接続されていた時間 |
+> | 16 | 接続料金 | `numeric(16, 2)` | 接続料金 |
+> | 18 | 職責 | `numeric(16, 2)` | お客さまのアカウントに課金される金額または通話の料金 |
+> | 才 | 通貨 | `nvarchar(3)` | 通話の料金を計算するために使用される通貨の種類 ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | # | 機能 | `nvarchar(32)` | 通話に使用されたライセンス |
 
 ### <a name="exported-direct-routing-usage-report"></a>エクスポートされたダイレクトルーティングの使用状況レポート
 
 国固有の規制により、その期間のデータの保持が禁止されている場合を除き、現在の日付から5か月 (150 日) までのデータをエクスポートすることができます。
 
-| # | 名前 | [データ型 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 説明 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | CorrelationId | `uniqueidentifier` | 一意の通話識別子 |
-| 1 | SIP アドレス | `nvarchar(128)` | 通話を発信または受信したユーザーまたはボットのアドレス。<br/>これは実際には Azure Active Directory での UserPrincipalName (UPN、サインイン名) であることに注意してください。通常、SIP アドレスと同じです。 |
-| 両面 | 表示名 | `nvarchar(128)` | Microsoft 365 管理センターで設定されているユーザーの名前または呼び出し元のボット (たとえば、通話キューまたは自動応答) |
-| 3 | ユーザーの国 | `nvarchar(2)` | ユーザーの国コード、 [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | [招待時間] | `datetimeoffset` | 最初の招待が Teams ユーザーからの送信または SBC への呼び出しで送信された場合、または SBC からの直接ルーティングの SIP プロキシコンポーネントによる Teams またはボットの受信時に受信した場合 |
-| 5 | [開始時刻] | `datetimeoffset` | SIP プロキシが、SBC on the outbound (Teams/Bot から PSTN ユーザまで) から最終回答 (SIP メッセージ "200 OK") を受信したか、または、SIP プロキシが着信コール (Teams/ボットへの PSTN ユーザ) 内の次のホップに招待を送信した時刻。<br/>失敗した通話および不在着信があった場合、これは招待または故障時間と同じです。 |
-| 6 | 故障時間 | `datetimeoffset` | 失敗した (完全に確立されていない) 通話のみ |
-| 7 | [終了時刻] | `datetimeoffset` | 成功した (完全に確立された) 通話の場合にのみ存在します。 通話終了時刻 |
-| 個 | デュレーション (秒) | `int` | 通話時間 |
-| ファイブ | 成功 | `nvarchar(3)` | はい/いいえ 成功または試行 |
-| 常用 | 発信者番号 | `nvarchar(32)` | 通話を発信したユーザーまたはボットの数です。 チームユーザーからの着信に受信した場合、PSTN ユーザーであるため、Teams ユーザーからの発信時に、チームのユーザー番号になります。 |
-| 以内 | 呼び出し先番号 | `nvarchar(32)` | 通話を受信したユーザまたはボットの番号。 チームユーザー呼び出しの受信時に、teams ユーザーになり、Teams ユーザーからの発信時に PSTN ユーザーになります。 |
-| 14 | 通話の種類 | `nvarchar(32)` | 通話の種類と方向 |
-| 14 | メディアの Azure 領域 | `nvarchar(8)` | 非バイパス呼び出しでメディアパスに使用されたデータセンター |
-| マート | 通知用 Azure 領域 | `nvarchar(8)` | バイパスと非バイパスの両方の通話の通知に使用されるデータセンター |
-| 16 | 最終 SIP コード | `int` | 通話が終了したコード、 [RFC 3261](https://tools.ietf.org/html/rfc3261) |
-| 18 | 最終 Microsoft サブコード | `int` | Microsoft には、SIP コードに加えて、特定の問題を示す独自のサブコードが用意されています。 |
-| 才 | 最終 SIP 語句 | `nvarchar(256)` | SIP コードと Microsoft サブコードの説明 |
-| # | SBC FQDN | `nvarchar(64)` | セッションの境界コントローラーの完全修飾ドメイン名 |
-| 超える | メディアバイパス | `nvarchar(3)` | はい/いいえ トランクがメディアバイパスに対して有効化されたかどうかを示します。 |
-| 2004 | 共有関連付け ID | `uniqueidentifier` | 2つ以上の通話が関連していることを示します |
+> [!div class="has-no-wrap"]  
+> | # | 名前 | [データ型 (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 説明 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | CorrelationId | `uniqueidentifier` | 一意の通話識別子 |
+> | 1 | SIP アドレス | `nvarchar(128)` | 通話を発信または受信したユーザーまたはボットのアドレス。<br/>これは実際には Azure Active Directory での UserPrincipalName (UPN、サインイン名) であることに注意してください。通常、SIP アドレスと同じです。 |
+> | 2 | 表示名 | `nvarchar(128)` | Microsoft 365 管理センターで設定されているユーザーの名前または呼び出し元のボット (たとえば、通話キューまたは自動応答) |
+> | 3 | ユーザーの国 | `nvarchar(2)` | ユーザーの国コード、 [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | [招待時間] | `datetimeoffset` | 最初の招待が Teams ユーザーからの送信または SBC への呼び出しで送信された場合、または SBC からの直接ルーティングの SIP プロキシコンポーネントによる Teams またはボットの受信時に受信した場合 |
+> | 5 | [開始時刻] | `datetimeoffset` | SIP プロキシが、SBC on the outbound (Teams/Bot から PSTN ユーザまで) から最終回答 (SIP メッセージ "200 OK") を受信したか、または、SIP プロキシが着信コール (Teams/ボットへの PSTN ユーザ) 内の次のホップに招待を送信した時刻。<br/>失敗した通話および不在着信があった場合、これは招待または故障時間と同じです。 |
+> | 6 | 故障時間 | `datetimeoffset` | 失敗した (完全に確立されていない) 通話のみ |
+> | 7 | [終了時刻] | `datetimeoffset` | 成功した (完全に確立された) 通話の場合にのみ存在します。 通話終了時刻 |
+> | 個 | デュレーション (秒) | `int` | 通話時間 |
+> | ファイブ | 成功 | `nvarchar(3)` | はい/いいえ 成功または試行 |
+> | 常用 | 発信者番号 | `nvarchar(32)` | 通話を発信したユーザーまたはボットの数です。 チームユーザーからの着信に受信した場合、PSTN ユーザーであるため、Teams ユーザーからの発信時に、チームのユーザー番号になります。 |
+> | 以内 | 呼び出し先番号 | `nvarchar(32)` | 通話を受信したユーザまたはボットの番号。 チームユーザー呼び出しの受信時に、teams ユーザーになり、Teams ユーザーからの発信時に PSTN ユーザーになります。 |
+> | 14 | 通話の種類 | `nvarchar(32)` | 通話の種類と方向 |
+> | 14 | メディアの Azure 領域 | `nvarchar(8)` | 非バイパス呼び出しでメディアパスに使用されたデータセンター |
+> | マート | 通知用 Azure 領域 | `nvarchar(8)` | バイパスと非バイパスの両方の通話の通知に使用されるデータセンター |
+> | 16 | 最終 SIP コード | `int` | 通話が終了したコード、 [RFC 3261](https://tools.ietf.org/html/rfc3261) |
+> | 18 | 最終 Microsoft サブコード | `int` | Microsoft には、SIP コードに加えて、特定の問題を示す独自のサブコードが用意されています。 |
+> | 才 | 最終 SIP 語句 | `nvarchar(256)` | SIP コードと Microsoft サブコードの説明 |
+> | # | SBC FQDN | `nvarchar(64)` | セッションの境界コントローラーの完全修飾ドメイン名 |
+> | 超える | メディアバイパス | `nvarchar(3)` | はい/いいえ トランクがメディアバイパスに対して有効化されたかどうかを示します。 |
+> | 2004 | 共有関連付け ID | `uniqueidentifier` | 2つ以上の通話が関連していることを示します |
 
 
 ## <a name="related-topics"></a>関連項目

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 1つのセッション境界コントローラー (SBC) を構成して、Microsoft パートナーや PSTN キャリアの複数のテナントを処理する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 061d0afec96e6c76e49f6471ea8ed2f673e33eba
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901852"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918716"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -119,8 +119,8 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>ベースドメインをテナントに追加して確認する
 
-1.    Microsoft 365 管理センターで、[**セットアップ** > **Domains** > ドメインの**追加**] に移動します。
-2.    [**自分が所有しているドメインを入力して**ください] ボックスに、ベースドメインの FQDN を入力します。 次の例では、ベースドメインは*customers.adatum.biz*です。
+1. Microsoft 365 管理センターで、[**セットアップ** > **Domains** > ドメインの**追加**] に移動します。
+2. [**自分が所有しているドメインを入力して**ください] ボックスに、ベースドメインの FQDN を入力します。 次の例では、ベースドメインは*customers.adatum.biz*です。
 
     ![[ドメインの追加] ページを示すスクリーンショット](media/direct-routing-2-sbc-add-domain.png)
 
@@ -129,8 +129,8 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
     ![確認済みドメイン名の確認を示すスクリーンショット](media/direct-routing-3-sbc-verify-domain.png)
 
-5.    [**次へ**] をクリックし、[ **Dns 設定の更新**] ページで [**自分で dns レコードを追加する**] を選択し、[**次へ**] をクリックします。
-6.    次のページで、すべての値を削除します (Exchange、SharePoint、または Teams/Skype for Business のドメイン名を使用する場合を除く)、[**次へ**] をクリックし、[**完了**] をクリックします。 新しいドメインがセットアップの完了状態になっていることを確認します。
+5. [**次へ**] をクリックし、[ **Dns 設定の更新**] ページで [**自分で dns レコードを追加する**] を選択し、[**次へ**] をクリックします。
+6. 次のページで、すべての値を削除します (Exchange、SharePoint、または Teams/Skype for Business のドメイン名を使用する場合を除く)、[**次へ**] をクリックし、[**完了**] をクリックします。 新しいドメインがセットアップの完了状態になっていることを確認します。
 
     ![セットアップの状態が完了しているドメインを示すスクリーンショット](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -227,7 +227,7 @@ Microsoft は、直接ルーティングの最初のリリースで、新しい-
 
 -    通信事業者は、CSOnlinePSTNGateway コマンドを使用して、1つのトランク (キャリアドメインのキャリアトランク) を設定して管理する必要があります。 上の例では、adatum.biz が使用されています。
 -    顧客テナントでは、キャリアでは、ユーザーのボイスルーティングポリシーに派生トランク FQDN を追加するだけです。 トランクの新規 CSOnlinePSTNGateway を実行する必要はありません。
--     派生した樹幹は、名前が示すように、キャリアトランクからすべての構成パラメーターを継承または導出します。 たとえば
+-    派生した樹幹は、名前が示すように、キャリアトランクからすべての構成パラメーターを継承または導出します。 たとえば
 -    Customers.adatum.biz –航空会社のテナントに作成する必要があるキャリアトランク。
 -    Sbc1.customers.adatum.biz –顧客テナントの派生トランクで、PowerShell で作成する必要はありません。  オンラインボイスルーティングポリシーの顧客テナントに派生トランクの名前を追加することはできません。
 -   通信事業者は、派生した樹幹 FQDN をキャリアの SBC ip アドレスに解決する DNS レコードを設定する必要があります。

@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。
-ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914051"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918844"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -38,6 +38,30 @@ ms.locfileid: "43914051"
 通話品質ダッシュボード (CQD) は、Microsoft Teams と Skype for Business Online サービスを使って発信した通話の品質を把握するのに適しています。 このトピックでは、通話品質の問題をトラブルシューティングするために使用できるデータの収集を開始する手順について説明します。
 
 現在、Advanced CQD と CQD は両方とも使用できます。 Advanced CQD は、で<span>https://cqd.teams.microsoft.com</span>ご利用いただけます。 新しい URL。ただし、管理者の資格情報を使ってログインします。
+
+## <a name="assign-roles-for-accessing-cqd"></a>CQD にアクセスするための役割の割り当て
+
+CQD にアクセスするための[役割](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)を、使用する必要があるユーザーに割り当てます。 
+
+次の表に、CQD で実行できる各役割について説明します。
+
+
+|  |レポートを表示する  |EUII フィールドを表示する  |レポートを作成する  |建物のデータをアップロードする  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|グローバル管理者     |はい         |Yes         |Yes         |必要         |
+|Teams サービス管理者     |はい         |Yes         |Yes         |必要         |
+|Teams 通信管理者     |はい         |Yes         |Yes         |必要         |
+|Teams 通信サポート エンジニア     |はい         |Yes         |必要         |不要         |
+|Teams 通信サポート スペシャリスト     |はい         |いいえ         |はい         |不要         |
+|Skype for Business 管理者     |はい         |Yes         |Yes         |必要         |
+|Azure AD グローバルリーダー |はい         |Yes         |必要         |不要         |
+|Microsoft 365 レポートリーダー<sup>1</sup>     |はい         |いいえ         |はい         |不要         |
+
+<sup>1</sup> CQD レポートの読み取りに加えて、Microsoft 365 レポート閲覧者は、管理センターのすべての[アクティビティレポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)と、 [microsoft 365 導入コンテンツパック](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)のすべてのレポートを表示できます。
+
+> [!NOTE]
+> EUII (エンドユーザーを特定できる情報) が表示されず、この情報を表示することを許可されているロールの1つがある場合は、CQD で30日間は EUII しか保持されないことに注意してください。 30日以上経過したものは削除されます。
+
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Power BI を使用して CQD データを分析する
 
@@ -187,18 +211,18 @@ CQD の概要レポートには、詳細レポート用に計画されている�
 |機能|概要レポート|詳細レポート|
 |:--- |:--- |:--- |
 |アプリケーション共有のメトリック | いいえ | はい |
-|顧客の建物情報のサポート | はい | Yes |
+|顧客の建物情報のサポート | はい | 必要 |
 |顧客エンドポイント情報のサポート | <span>Cqd.teams.microsoft.com のみ<span/> | <span>Cqd.teams.microsoft.com のみ<span/> |
 |ドリルダウン分析のサポート   | いいえ   | はい   |
 |メディアの信頼性のメトリック   | いいえ   | はい   |
-|ボックスのないレポート   | はい   | Yes   |
-|概要レポート   | はい   | Yes   |
+|ボックスのないレポート   | はい   | 必要   |
+|概要レポート   | はい   | 必要   |
 |ユーザーごとのレポートセット   | いいえ   | はい   |
 |レポートセットのカスタマイズ (レポートの追加、削除、変更)   | いいえ   | はい   |
 |ビデオベースの画面共有のメトリック   | いいえ   | はい   |
 |ビデオ指標   | いいえ   | はい   |
 |利用可能なデータの量   | 過去12か月間   | 過去12か月間   |
-|Microsoft Teams データ   | はい   | Yes   |
+|Microsoft Teams データ   | はい   | 必要   |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>ボックスのないレポート
@@ -500,7 +524,7 @@ Teams では、Skype for Business Online ではなく、いくつかの品質と
 - Microsoft 365 レポートリーダー
 - Teams 通信サポート スペシャリスト
 
-CQD にアクセスできる役割の詳細については、「 [CQD にアクセスするための役割の割り当て](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd)」を参照してください。
+CQD にアクセスできる役割の詳細については、「 [CQD にアクセスするための役割の割り当て](#assign-roles-for-accessing-cqd)」を参照してください。
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>チームのみを対象としてフィルター処理したときに、CQD に Skype for Business の情報が表示されるのはなぜですか?
 

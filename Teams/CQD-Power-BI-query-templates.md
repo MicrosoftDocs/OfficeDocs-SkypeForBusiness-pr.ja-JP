@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI を使用して、Microsoft Teams の CQD データを分析します。
-ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170505"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918676"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI を使用して Microsoft Teams の CQD データを分析する
 
@@ -29,7 +29,7 @@ ms.locfileid: "43170505"
 
 Teams の CQD レポートの場合、Power BI を使ってデータのクエリやレポートを行う場合は、CQD Power BI テンプレートをダウンロードしてください。 Power BI でテンプレートを開くと、CQD 管理者の資格情報でサインインするように求められます。 これらのクエリテンプレートをカスタマイズして、Power BI ライセンスと CQD の管理者権限を持つ組織内のすべてのユーザーに配布することができます。
 
-これらの .PBIX ファイルを使用するには、その前に、[ダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に含まれている[Microsoft CQD の Power BI コネクタをインストール](CQD-Power-BI-connector.md)する必要があり*ます。* 
+これらの PBIT ファイルを使用するには、その前に、[ダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に含まれている[Microsoft CQD の Power BI コネクタをインストール](CQD-Power-BI-connector.md)する必要があり*ます。* 
 
 
 |  |  |
@@ -43,7 +43,7 @@ Teams の CQD レポートの場合、Power BI を使ってデータのクエリ
 |CQD ユーザーフィードバック (通話の評価) レポート pbit     | 組織への通話をサポートするために簡単に使用できる方法で、通話データの料金が表示されます。 Verbatims との相互参照により、エンドユーザーの教育機会を特定します。        |
 
 > [!TIP]
-> Power BI レポートを CQD データ用に設定したら、それらをタブとしてチャネルに追加します。 チャネルでを**+** 選択した後、[ **Power BI** ] を選択してから、レポートを検索します。 これらのレポートにアクセスできるのは、Power BI ライセンスと CQD 管理者の資格情報を持っているユーザーのみです。
+> Power BI レポートを CQD データ用に設定したら、それらをタブとしてチャネルに追加します。 チャネルでを**+** 選択した後、[ **Power BI** ] を選択してから、レポートを検索します。 詳細については、「[ [POWER BI] タブで Teams の埋め込みレポート](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams)を閲覧する」を参照してください。 これらのレポートにアクセスできるのは、Power BI ライセンスと CQD 管理者の資格情報を持っているユーザーのみです。
 
 
 ## <a name="related-topics"></a>関連項目

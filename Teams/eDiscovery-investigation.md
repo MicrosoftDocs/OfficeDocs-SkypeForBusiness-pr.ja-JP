@@ -1,7 +1,7 @@
 ---
 title: コンテンツの電子情報開示調査の実施
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: hakank
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 法的手続きのために電子的に保存された情報をす�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521543"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918585"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -39,20 +39,18 @@ ms.locfileid: "43521543"
 | コンテンツの種類 | e 検出可能 | メモ |
 |:--- | --- |:--- |
 | Teams のチャットメッセージ | はい | チャットからのチャットメッセージは、ゲストユーザが1:1 の唯一の参加者であるか、1: N のチャットができないことを示しています。 |
-| 音声録音 | いいえ | |
-| メッセージが各ユーザーによって読み上げられた時刻を示すタイムスタンプ | いいえ | |
-| 音声録音 | いいえ | |
-| プライベートチャネルメッセージ | いいえ | |
+| 音声録音 | 不要 | |
+| プライベートチャネルメッセージ | 不要 | |
 | 絵文字、Gif、ステッカー | はい | |
-| コードスニペット | いいえ | |
-| チャットリンク | いいえ | |
-| 反力 (いいね!、ハートなど) | いいえ | |
+| コードスニペット | 不要 | |
+| チャットリンク | はい | |
+| 反力 (いいね!、ハートなど) | 不要 | |
 | 編集済みメッセージ | はい | ユーザーが保留になっている場合、以前のバージョンの編集済みメッセージは保持されます。 |
 | インライン画像 | はい | |
-| 示し | いいえ | |
-| 件名 | いいえ | |
+| 示し | はい | |
+| 件名 | はい | |
 | 意味 | はい | 引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用符で囲まれていることを示すわけではありません。 |
-| チャネルの名前 | いいえ | |
+| チャネルの名前 | 不要 | |
 
 - Microsoft Teams のコンテンツを使用して電子情報開示の調査を実施するには、「[セキュリティ & コンプライアンスセンター」リンクで「電子情報開示ケースを管理](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)する」の手順1を確認します。
 
