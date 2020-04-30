@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 正常性ダッシュボードを使って、セッションの境界コントローラーとダイレクトルーティングの間の接続を監視する方法について説明します。
-ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051803"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940744"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接ルーティングの正常性ダッシュボード
 
@@ -55,7 +55,7 @@ ms.locfileid: "42051803"
 
    この計算式は、次の数式で計算されます。
 
-   解説 = 回答された通話 + ユーザーがビジー状態になっています + Ring no Answer + ターミナル Reject 発作 x 100
+   解説 = 100 x (回答された通話 + ユーザーの取り込み中 + Ring Answer + ターミナル拒否発作)/通話合計
 
  
 - **平均通話時間**-平均通話時間に関する情報は、通話の品質を監視するのに役立ちます。 1:1 PSTN 通話の平均時間は、4 ~ 5 分です。  ただし、会社ごとに、この平均は異なる場合があります。  Microsoft は、会社の平均通話時間のベースラインを確立することをお勧めします。 このパラメーターがベースラインより大きくなっている場合は、ユーザーが通話品質または信頼性に問題があり、通常よりも早く切断されていることを示している可能性があります。 わずかな平均通話時間 (たとえば15秒) が表示されると、サービスが確実に動作していないために、発信者が停止する可能性があります。 

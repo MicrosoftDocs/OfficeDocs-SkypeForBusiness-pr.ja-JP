@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95ad893b3070a560edfa0e4afe46ab10df2960ad
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096882"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898132"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>[作業の開始] ウィザードを使用して Business Voice をセットアップする
 
@@ -49,7 +49,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
 
 <table>
     <tr>
-        <td>緊急アドレスを変更する場合は、[<b>編集</b>] をクリックして新しいアドレスを入力します。 入力したアドレスは、正当なものであり、緊急対応サービス用に正しく書式設定されていることを確認するために検証されます。 このアドレスは、次の手順で番号を割り当てるすべてのユーザーに割り当てられます。 複数の場所に従業員がいる場合、「<a href="./customize-business-voice.md">Business Voice 設計カスタマイズ</a>」を参照して、[作業の開始] ウィザードを準備した後、緊急アドレスを追加し割り当ててください。</td> 
+        <td>緊急アドレスを変更する場合は、[<b>編集</b>] をクリックして新しいアドレスを入力します。 入力したアドレスは、正当なものであり、緊急対応サービス用に正しく書式設定されていることを確認するために検証されます。 このアドレスは、次の手順で番号を割り当てるすべてのユーザーに割り当てられます。 複数の場所に従業員がいる場合、「<a href="./customize-business-voice.md">Business Voice 設計カスタマイズ</a>」を参照して、[作業の開始] ウィザードを準備した後、緊急アドレスを追加し割り当ててください。</td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
 </table>
 
@@ -59,7 +59,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
 
 <table>
     <tr>
-        <td>新しいローカル電話番号に加えて、フリーダイヤル番号を購入するか、既存の番号を Microsoft 365 にポートできます。 フリーダイヤル番号を設定する場合は、通話プランを購入する必要があります。 1 つ以上の番号を Microsoft 365 にポートするには、ウィザードが完了した後、<a href="https://admin.teams.microsoft.com">Teams 管理センター</a>に移動します。
+        <td>新しいローカル電話番号に加えて、フリーダイヤル番号を購入するか、既存の番号を Microsoft 365 にポートできます。 フリーダイヤル番号を設定する場合は、通信クレジットを購入する必要があります。 1 つ以上の番号を Microsoft 365 にポートするには、ウィザードが完了した後、<a href="https://admin.teams.microsoft.com">Teams 管理センター</a>に移動します。
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>

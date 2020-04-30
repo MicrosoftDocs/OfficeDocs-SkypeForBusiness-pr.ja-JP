@@ -20,12 +20,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: 655de2414203525d305c0097ba9301e2ef513f87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 389262df9117e07eefa1c78d6fd255bfc437fdad
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903112"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940654"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -49,10 +49,11 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 |Audiocodes C448HD (CAP モードのみ) | C450HD_TEAMS_0.225 | 2019 年 3 月|
 |Crestron M100|2.3875.00068|2018 年 12 月|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |2019 年 1 月|
-|Poly Trio 8500/8800 (共有モードのみ)| 5.9.0.10869|2019 年 6 月|
+|Lenovo ThinkSmart View|CD-18781Y|2020年4月|
 |Poly CCX400 | 1.0.0.0200 | 2020 年 1 月|
 |Poly CCX600 | 5.9.12.1111| 2020 年 1 月|
 |Poly CCX500 | 5.9.12.1111| 2019 年 12 月|
+|Poly Trio 8500/8800 (共有モードのみ)| 5.9.0.10869|2019 年 6 月|
 |Yealink MP56| 122.15.0.6| 2020 年 3 月|
 |Yealink VP59 | 91.15.0.16 |2019 年 6 月|
 |Yealink T55 | 58.15.0.36 |2019 年 5 月|

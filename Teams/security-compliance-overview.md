@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3f26f286fa3f8418df93d6498b8c754c857785
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 77f8172e19ff4ca9e2057da50dee9f42ef443ae2
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901722"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940644"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -191,9 +191,9 @@ Teams のデータは、Office 365 組織に関連付けられている地理的
 
 ## <a name="compliance-standards"></a>コンプライアンス基準
 
-Teams は層 D に準拠しています。 これには、 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001)、 [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018)、 [SSAE16 soc 1 と soc 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)、 [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)、および[EU モデル条項 (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)が含まれます。 Microsoft のコンプライアンスフレームワークでは、Office 365 アプリケーションとサービスは4つのカテゴリに分類されています。 各カテゴリは、そのカテゴリに記載されるように、Office 365 サービスまたは関連する Microsoft サービスに対して満たす必要がある特定のコンプライアンスコミットメントによって定義されます。
+Teams では、 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001)、 [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018)、 [SSAE16 soc 1 と soc 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)、 [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)、および[EU モデルの句 (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)を使用します。 Microsoft のコンプライアンスフレームワークでは、Office 365 アプリケーションとサービスは4つのカテゴリに分類されています。 各カテゴリは、そのカテゴリに記載されるように、Office 365 サービスまたは関連する Microsoft サービスに対して満たす必要がある特定のコンプライアンスコミットメントによって定義されます。
 
-業界トップのコンプライアンスコミットメントを持つコンプライアンスカテゴリ C と D のサービスは、既定で有効になっています。 カテゴリ A と B のサービスには、組織全体に対してこれらのサービスを有効または無効にするコントロールが用意されています。 詳細については、[コンプライアンス標準](security-compliance-overview.md#compliance-standards)を参照してください。 チームはクラウドセキュリティアライアンスのコンプライアンスもサポートしています。
+詳細については、「[データ保護のリソース](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)」を参照してください。 チームはクラウドセキュリティアライアンスのコンプライアンスもサポートしています。
 
 ## <a name="related-topics"></a>関連項目
 

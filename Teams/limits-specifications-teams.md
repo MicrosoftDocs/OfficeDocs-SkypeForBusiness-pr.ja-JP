@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Microsoft Teams に適用される制限、仕様、およびその他の要件について説明します。
+description: この記事では、Microsoft Teams に適用される制限、仕様、およびその他の要件について説明します。
 localization_priority: Priority
 f1.keywords:
 - NOCSH
@@ -17,12 +17,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 03cc795f9d3df5500c4eafceee4a1fd5d3605fb6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209449"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904032"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -39,7 +40,7 @@ ms.locfileid: "43209449"
 |テナントで許可されている組織全体のチームの数 | 5     |
 |[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
 |グローバル管理者を作成できるチームの数        |  500,000   |
-|Office 365 テナントが持てるチームの数    | 500,000&sup2;     |
+|Office 365 組織が持てるチームの数    | 500,000&sup2;     |
 |チームごとのチャネル数    | 200 (削除されたチャネルを含む) &sup3;         |
 |チームごとのプライベート チャネル数    |30|
 |チャネル会話の投稿サイズ | 投稿ごとに約 28 KB<sup>4</sup> |
@@ -63,6 +64,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |機能  | 上限  |
 |---------|---------|
 |プライベート チャットに参加できるユーザー数 <sup>1</sup>  | 100    |
+|ビデオまたは音声通話でチャットに参加できるユーザーの数 | 20 |
 |添付ファイルの数 <sup>2</sup>  |10     |
 |チャットのサイズ | 投稿ごとに約 28 KB<sup>3</sup> |
 
@@ -109,7 +111,9 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |機能     | 上限 |
 |------------|---------------|
 |会議に参加できるユーザー数  | 250 人    |
+|ビデオまたは音声通話でチャットに参加できるユーザーの数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2GB|
+|Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
 
 ### <a name="meeting-expiration"></a>会議の有効期限
 
@@ -127,7 +131,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |------------|---------------|
 |対象ユーザーの規模 | 出席者 10,000 名 |
 |イベントの期間 | 4 時間 |
-|Office 365 テナントの同時ライブ イベント | 15 |
+|Office 365 組織の同時ライブ イベント | 15 |
 
 ライブ イベントおよび Teams のライブ イベントと Skype 会議ブロードキャストの比較の詳細については、「[Teams ライブ イベントと Skype 会議ブロードキャスト](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)」にアクセスしてください。
 
@@ -145,7 +149,7 @@ SharePoint Online ドキュメント ライブラリと OneDrive for Business �
 
 Team は、SharePoint Online のバックエンドのファイル共有で実行しているために、SharePoint の制限は、Team 内のファイルのセクションに適用されます。 ここでは、SharePoint Online の適用可能な記憶域の制限を示します。
 
-|機能                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
+|機能                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |ストレージ                 |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB   |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB           |
 |Teams ファイル用のストレージ |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |

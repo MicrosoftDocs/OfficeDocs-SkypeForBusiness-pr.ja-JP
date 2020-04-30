@@ -14,18 +14,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44544e440d9f6cdfff08ae66ed7f425abf69fb4d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136537"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902952"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -164,7 +164,7 @@ Teams は、Education、Education Plus、Education E5 といったすべての �
 
 ### <a name="is-teams-available-in-the-government-community-cloud-gcc"></a>Teams は政府機関のコミュニティ クラウド (GCC) で利用できますか?
 
-はい、Teams は、米国の Government Cloud Community (GCC) 向けです。 [詳細については、こちらを参照してください](plan-for-government-gcc.md)。
+はい、Teams は、米国の Government Cloud Community (GCC) 向けです。 詳細については、「[Microsoft 365 GCC の展開の計画](plan-for-government-gcc.md)」を参照してください。
 
 ## <a name="calling-capabilities"></a>通話機能
 
@@ -204,7 +204,7 @@ Skype ミーティング システムを、Microsoft Teams ミーティングに
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Skype ミーティング システム V1 は Teams 会議をサポートするように更新されますか?
 
-Skype ミーティング システム バージョン 1 (SRS v1) ソフトウェアを搭載した Lync Room System (LRS) デバイスは、2018 年 10 月 9 日にサポート終了になりました。 これは、Skype ミーティング システム V1 ソフトウェアがもはや製品の更新プログラムや修正を取得しなくなることを意味します。 Skype ミーティング システム V1 ソフトウェアを使用している Lync Room System デバイスをお持ちのお客様には、デバイスを Microsoft Teams ミーティングにアップグレードすることをお勧めします。 [詳細については、こちらを参照してください](rooms/lrs-migration.md)。
+Skype ミーティング システム バージョン 1 (SRS v1) ソフトウェアを搭載した Lync Room System (LRS) デバイスは、2018 年 10 月 9 日にサポート終了になりました。 これは、Skype ミーティング システム V1 ソフトウェアがもはや製品の更新プログラムや修正を取得しなくなることを意味します。 Skype ミーティング システム V1 ソフトウェアを使用している Lync Room System デバイスをお持ちのお客様には、デバイスを Microsoft Teams ミーティングにアップグレードすることをお勧めします。 詳細については、「[Lync Room System (LRS) デバイスを Microsoft Teams ミーティングに移行する](rooms/lrs-migration.md)」を参照してください。
 
 ## <a name="management-capabilities"></a>管理機能
 

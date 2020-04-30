@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe9e0b5220466971749bd3a8fd12c0c854e42009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 256c86eec1fba1526ef8e7a17fbb07db4c5d3e32
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778473"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940684"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
@@ -70,7 +70,7 @@ Teams をカスタマイズおよび拡張するには、[アプリ、ボット�
 - [新しい Teams 管理センターへの移行中に Teams を管理する](manage-teams-in-modern-portal.md)
 - [Microsoft 365 または Office 365 の Teams 機能を管理する](enable-features-office-365.md)
 
-Teams およびその他の Office 365 製品とサービスに今後導入される機能についての最新情報を常に取得するには、必ず「[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)」と「[Teams ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams)」を確認してください。 新機能および更新された機能、計画済みの変更、および問題についての通知を取得して、常に情報を把握して準備を整えられるようになります。 
+Teams およびその他の Office 365 製品とサービスに今後導入される機能についての最新情報を常に取得するには、必ず「[メッセージ センター](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)」と「[Teams ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)」を確認してください。 新機能および更新された機能、計画済みの変更、および問題についての通知を取得して、常に情報を把握して準備を整えられるようになります。 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード
 Teams は Office 365 でのインテリジェント コミュニケーションの中心的なクライアントで、最終的に Skype for Business Online に取って代わります。 Teams に導入される新機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://aka.ms/O365Roadmap)」を参照してください。 常設チャットおよびメッセージの機能を補完するために、Teams では内蔵され完全に統合された音声とビデオによる、包括的な会議および通話のエクスペリエンスを提供しています。 Microsoft Teams ブログの「[完全な会議および通話ソリューションとなった Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)」をご覧ください。

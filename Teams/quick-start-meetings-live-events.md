@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170486"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940784"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
@@ -59,7 +59,7 @@ Microsoft 365 または Office 365 を展開したときに、既にネットワ
 
 - ユーザーが Teams 会議を初めて使用する場合は、[会議の管理](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)トレーニングをユーザーと共有します。 講師主導のオンライン クラスを確認して、[Teams で効果的な会議を実行します](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings)。
 
-- 会議オプションの管理については、「[Teams会議の参加者設定を変更する](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)」をお読みください。
+- 会議オプションの管理については、「[Teams会議の参加者設定を変更する](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)」をお読みください。
 
 - [ユーザーのデバイス (電話、ヘッドセット、カメラ) の管理](device-management.md)を忘れないでください。 Teams 認定デバイスの最新情報を取得するには、「[Teams デバイス](https://office.com/teamsdevices)」にアクセスしてください。
 

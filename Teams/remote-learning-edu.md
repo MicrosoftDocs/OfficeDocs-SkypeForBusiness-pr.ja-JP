@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d380300aa27d07ecfecdbe805be9042c88779285
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780566"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898162"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -76,6 +76,9 @@ Teams の使用を開始するには、2 つの作業を行う必要がありま
 Teams の作成方法のチュートリアルついては、「[Create a class team in Microsoft Teams (Microsoft Teams でクラス チームを作成する)](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)」をご確認ください。
 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. ポリシーを使用してユーザー エクスペリエンスを構成する
+
+> [!IMPORTANT]
+> 会議中に学生を保護する方法についての詳細情報は、「[遠隔学習で Teams の会議を使用している間、学生の安全を確保する](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)」を参照してください。
 
 [Teams ポリシー](teams-policies.md)により、特定のユーザーまたはユーザーのグループが使用できるオプションを制限する機能が提供されています。 ポリシーを適用することにより、プライベート チャット、プライベート通話、会議のスケジュール設定、共有可能なコンテンツの種類などを使用または設定できるユーザーを定義することができます。
 
@@ -156,8 +159,6 @@ Teams では、会議の開催者はすべての参加者に対して会議を�
 
 > [!NOTE]
 > Teams の主要機能の一部は、教育機関に固有のものではありません。 Teams の主要機能に関するヒントは、「[Microsoft Teams のヘルプとラーニング](https://support.office.com/teams)」を参照してください。
-
-会議中に学生を保護する方法についての詳細情報は、「[遠隔学習で Teams の会議を使用している間、学生の安全を確保する](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)」を参照してください。
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>ユーザーがプロフィール写真を変更できないようにする
 

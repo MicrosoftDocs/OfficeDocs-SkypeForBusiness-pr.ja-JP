@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506848"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940714"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -77,7 +77,7 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
    - [Microsoft IT が社員のリモート作業を実現した 9 つの方法](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
-1. 教育機関用 Teams
+1. 教育機関用 Teams 
    - 教育機関の場合、教員、生徒、事務職員を Teams でセットアップするには、Office 365 A1 を使用してください。 この無料版の Office 365 は、すべての教育機関でご利用いただけます。 「[学校全体で Office 365 を無料で入手する](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)」でサインアップしてください。
 
    - 「[リモート学習の開始](remote-learning-edu.md)」をぜひご覧ください。

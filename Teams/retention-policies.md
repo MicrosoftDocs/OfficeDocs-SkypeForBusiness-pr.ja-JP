@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams のアイテム保持ポリシー
 author: LanaChin
-ms.author: v-lanac
-manager: serdars
+ms.author: anwara
+manager: prvijay
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -17,18 +17,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dde12e5197031cd768cecf539ae2213f2a5b4d92
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905469"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940774"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams のアイテム保持ポリシー
 
 アイテム保持ポリシーは、組織内の情報をより効果的に管理するのに役立ちます。 アイテム保持ポリシーは、組織の社内ポリシー、業界の規制、法的要件に準拠するために必要なデータを保持したり、負債と考えられるデータ、保存する必要がなくなったデータ、法的またはビジネス上の価値がないデータを削除したりするために使用できます。
 
-既定では、Teams チャット、チャネル、ファイルのデータは永続的に保持されます。 管理者は、チャットやチャネルのメッセージ用に Teams のアイテム保持ポリシーを設定して、データを保持するか、削除するか、特定の期間保持した後に削除するかを前もって決定できます。
+既定では、アイテム保持ポリシーを使用してコンテンツを削除しようとした場合や、ユーザーが削除した場合、管理者が削除した場合を除き、チームチャット、チャネル、ファイルのデータは永久に保持されます。管理者として、チャットやチャネルメッセージ用にチームのアイテム保持ポリシーを設定し、データを保持するか削除するか、特定の期間に保持するかを決定してから、削除することができます。
 
 [Microsoft 365 コンプライアンスセンター](https://protection.office.com/)で、またはセキュリティ & コンプライアンスセンターの PowerShell コマンドレットを使用して、チームおよびその他のワークロードのアイテム保持ポリシーを作成して管理します。 Teams のアイテム保持ポリシーは、組織全体に適用することも、特定のユーザーやチームに適用することもできます。
 

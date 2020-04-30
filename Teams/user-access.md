@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10485fd7f04cfae675ea38967389851d4d72be90
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 823038671ac03669808e8a3dec5d065a60682b19
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903352"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940614"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Microsoft Teams へのユーザー アクセスを管理する
 =====================================
@@ -53,7 +53,7 @@ Teams ユーザーライセンスは、いつでも無効にすることがで�
 ## <a name="manage-via-powershell"></a>PowerShell を使用して管理する
 
 > [!IMPORTANT]
-> MsolLicenseOptions を使うと、カスタマイズしたスクリプトで明示的に指定されていない限り、以前に無効になっていたすべてのサービスを有効にできます。 たとえば、チームを無効にしている間も Exchange & Sway を無効にする必要がある場合は、この操作をスクリプトに含めるか、または両方とも Exchange & Sway が有効になるように、特定のユーザーに対して行う必要があります。 GUI を使ってこの機能を管理する方法については、「 [Office 365 ライセンスレポートと管理ツール-一括](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)してライセンスを削除する」を参照してください。
+> MsolLicenseOptions を使うと、カスタマイズしたスクリプトで明示的に指定されていない限り、以前に無効になっていたすべてのサービスを有効にできます。 たとえば、チームを無効にしている間も Exchange & Sway を無効にする必要がある場合は、この操作をスクリプトに含めるか、または両方とも Exchange & Sway が有効になるように、特定のユーザーに対して行う必要があります。
 
 PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。 Microsoft Teams ではサービス プランの名前は TEAMS1 になります。 GCC の場合、サービスプラン名は TEAMS_GOV です。 GCC 高の場合、サービスプラン名は TEAMS_GCCHIGH。 DoD の場合、サービスプラン名は TEAMS_DOD (詳細については、「 [Office 365 PowerShell でサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)にする」を参照してください。)
 
@@ -74,7 +74,7 @@ PowerShell からワークロード ライセンスとして Teams を有効ま�
 | | | |
 |---------|---------|---------|
 |![判断ポイントを表すアイコン](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |判断ポイント         |<ul><li>組織全体でのチームのオンボードの計画はどのようなものですか?  (パイロットまたはオープン)</li></ul>         |
-|![次の手順を示すアイコン](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |次のステップ         |<ul><li>終了したパイロットによるオンボードの場合は、ライセンスまたは対象指定の通信を使用するかどうかを決定します。</li><li>決定に応じて、チームへのアクセスが許可されているパイロットユーザー (必要な場合) だけを確認するための手順を実行します。</li><li>Teams へのアクセス権を持つ (または使用しない) ユーザーを対象としたガイドラインを文書化します。</li></ul>         |
+|![次の手順を示すアイコン](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |次の手順         |<ul><li>終了したパイロットによるオンボードの場合は、ライセンスまたは対象指定の通信を使用するかどうかを決定します。</li><li>決定に応じて、チームへのアクセスが許可されているパイロットユーザー (必要な場合) だけを確認するための手順を実行します。</li><li>Teams へのアクセス権を持つ (または使用しない) ユーザーを対象としたガイドラインを文書化します。</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-organization-level"></a>Office 365 組織レベルでチームを管理する
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
