@@ -4,7 +4,7 @@ ms.topic: hub-page
 title: ユーザー向けの講師主導のトレーニングとビデオ
 ms.reviewer: dearbeen
 manager: serdars
-description: Microsoft Teams について学ぶため、講師主導のクラスにサインアップします。
+description: 講師主導の無料のライブ トレーニング クラスにサインアップして、Microsoft Teams のすべてを学ぶ方法について説明します。
 localization_priority: Priority
 author: lolajacobsen
 audience: admin
@@ -14,17 +14,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.instructorled
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: 43d7c47379c6645ca25da4974e0b08f0e4444faa
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4808fecfa53a4d1e825d2b2f04d7d6b7b53d3866
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137127"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905789"
 ---
 <div id="main" class="v2">
     <div class="container">
