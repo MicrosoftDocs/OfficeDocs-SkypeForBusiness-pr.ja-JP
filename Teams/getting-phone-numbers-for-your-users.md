@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'チームに新しい番号を取得する方法、既存の番号を移行する方法、ユーザーへの変更を表示する方法について説明します。 '
-ms.openlocfilehash: d2ac4a0a5e487b99cf8dbc303b85e6f4e3446ec8
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: 97d827d2fedbf12fd18519ac70a23bacdc78a58c
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170753"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951012"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -35,7 +35,7 @@ ms.locfileid: "42170753"
 
 - **Microsoft Teams 管理センターを使用します。** 一部の国と地域では、Microsoft Teams 管理センターを使用して、ユーザーの電話番号を取得できます。 「[ユーザー用に新しい電話番号を取得する」を](#get-new-phone-numbers-for-your-users)参照してください。
     
-- **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から既存の番号を移行または転送することができます。 詳細については、「[組織の](/microsoftteams/manage-phone-numbers-for-your-organization)電話[番号をチームに転送](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)する」または「電話番号を管理する」を参照してください。  
+- **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から既存の番号を移行または転送することができます。 この方法の詳細については、「[Teams に電話番号を移行](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
 - **新しい番号には申請書を使用します。** 場合によっては (お住まいの国または地域によっては)、Microsoft Teams 管理センターを使用して新しい電話番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 その場合は、フォームをダウンロードして、もう一度送信する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
   
@@ -47,7 +47,7 @@ ms.locfileid: "42170753"
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
     
 1. 左側のナビゲーションで、[**電話番号** **] に移動** > し、[**追加**] をクリックします。
-2. 注文の名前を入力し、必要に応じて説明を追加します。
+2. 注文の名前を入力し、説明を追加します。
 3. [場所と数量] ページで、次の操作を行います。
     1. [**国または地域**] で、国または地域を選択します。
     2. [**番号の種類**] で、[**ユーザー (サブスクライバー)**] を選びます。
@@ -80,7 +80,7 @@ ms.locfileid: "42170753"
 > その他の電話番号を取得する必要がある場合は、 [PSTN サービスデスクにお問い合わせください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227551"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952446"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -153,7 +153,11 @@ CQD Power BI コネクタは、作成できるクエリの種類によっては�
 
 **<sup>2</sup>** CQD で使用するログイン資格情報は、Power BI デスクトップアプリ自体へのログインに使用する資格情報と同じである必要はあり*ません*。
 
+## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
+### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Power BI コネクタは、"ベータ" 状態から更新されますか?
+
+ベータタグにもかかわらず、Power BI 用の通話品質コネクタは、リリース版のコネクタであり、Power BI teams によって正式なセキュリティが署名されており、これを反映しています。 このベータ版タグを削除する認定プロセスは広範囲であるため、Power BI チームからのコミットメントを得て、コネクタに直接サポートを提供する必要があります。 現時点では時間の制約があるため、Power BI チームは現在、そのサポートとより広範な認定を提供することはできませんが、Microsoft Call Quality コネクタのセキュリティ、完全性、および全般的な機能を証明するための準備は完了しています。
 
 ## <a name="related-topics"></a>関連項目
 

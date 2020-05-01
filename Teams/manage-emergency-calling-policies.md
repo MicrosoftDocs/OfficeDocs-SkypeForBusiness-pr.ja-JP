@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で緊急通話ポリシーを使用して管理する方法について説明します。この方法では、組織内の Teams ユーザーが緊急通報を行ったときの動作を定義します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 62a6314435aa3af44d0c44ab6a6790212c62d8de
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905109"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952436"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ポリシーを管理する
 
@@ -42,9 +42,10 @@ ms.locfileid: "43905109"
 2. **[追加]** をクリックします。
 3. ポリシーの名前と説明を入力します。
 4. 緊急通報が行われたときに、組織内のユーザーに通知する方法 (通常はセキュリティデスク) を設定します。 これを行うには、[**通知モード**] で、次のいずれかを選択します。
-    - **通知のみ**: チームチャットメッセージは、指定したユーザーとグループに送信されます。
+    - **通知のみ送信**: チームチャットメッセージは、指定したユーザーとグループに送信されます。
     - **Conferenced がミュートになっている**場合: チームチャットメッセージは、指定したユーザーとグループに送信され、発信者と psap 演算子の間の会話に参加することはできますが、参加することはできません。
-5.  Conferenced を選択した**が、ミュート**の通知モードの場合は、[**通知のダイヤルアウト番号**] ボックスで、ユーザーまたはグループの PSTN 電話番号を入力して、通話を発信し、緊急通話に参加することができます。 たとえば、組織のセキュリティデスクの番号を入力すると、緊急通話が行われたときに通話を受け、通話を聞いたり参加したりできます。
+    - **Conferenced in and is ミュート** **(近**日公開): チームチャットメッセージは指定したユーザーとグループに送信され、ミュートを解除して、発信者と psap 演算子の間の会話に参加することができます。
+5.  Conferenced を選択した**が、ミュート**の通知モードの場合は、[**通知のダイヤルアウト番号**] ボックスで、ユーザーまたはグループの PSTN 電話番号を入力して、通話を発信し、緊急通話に参加することができます。 たとえば、組織のセキュリティデスクの番号を入力すると、緊急通話の発信時に通話を受けられ、通話を聞くことができます。
 6. 緊急通報が行われたときに通知するために、1人以上のユーザーまたはグループ (組織のセキュリティデスクなど) を検索して選択します。  通知は、ユーザー、配布グループ、セキュリティグループのメールアドレスに送信できます。 通知できるユーザーの最大数は50です。
 7. **[保存]** をクリックします。
 
@@ -100,15 +101,15 @@ ms.locfileid: "43905109"
 > 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
 
 特定のグループの GroupObjectId を取得します。
-```
+```powershell
 $group = Get-AzureADGroup -SearchString "Contoso Operations"
 ```
 指定したグループのメンバーを取得します。
-```
+```powershell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 グループ内のすべてのユーザーを特定のチーム ポリシーに割り当てる。 この例では、操作は緊急通話ルーティングポリシーです。
-```
+```powershell
 $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
@@ -119,9 +120,9 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 
 次の例は、Contoso 緊急通話ポリシー1と呼ばれるポリシーを Site1 サイトに割り当てる方法を示しています。
 
-    ```
-    Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
-    ```
+```powershell
+Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
+```
 
 ## <a name="related-topics"></a>関連項目
 
