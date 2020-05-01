@@ -12,13 +12,13 @@ ms.reviewer: annaray
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: この記事では、Microsoft Teams デスクトップクライアントの更新プロセスについて説明します。
+description: この記事では、Microsoft Teams デスクトップ クライアントの更新のプロセスについて説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 107ef412c7c4faa3e4e0ae3ad9a8539c3bf70dec
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43903152"
@@ -31,17 +31,17 @@ Teams デスクトップ クライアントの更新プログラムは、TAP (Te
 
 デスクトップ クライアントは自動的に更新されます。 Teams は、数時間ごとにバックグラウンドで更新プログラムを確認します。更新プログラムをダウンロードすると、コンピューターがアイドル状態になるまで待機してから、更新プログラムをサイレント インストールします。
 
-ユーザーは、アプリの右上にある **[プロファイル]** ドロップダウン メニューの **[更新プログラムの確認]** をクリックして、更新プログラムを手動でダウンロードすることもできます。 更新プログラムが入手可能であれば、ダウンロードが実行されて、コンピューターがアイドル状態のときにサイレント インストールされます。
+ユーザーは、アプリの右上にある **[プロファイル]** ドロップダウン メニューの **[アップデートの確認]** をクリックして、更新プログラムを手動でダウンロードすることもできます。 更新プログラムが入手可能であれば、ダウンロードが実行されて、コンピューターがアイドル状態のときにサイレント インストールされます。
 
 更新プログラムがダウンロードされるには、ユーザーがサインインしている必要があります。 
 
 2019 年 7 月 31 日以降、Teams クライアントの更新プログラムで更新時に使用されるネットワーク帯域幅が大幅に減少されます。 これは既定でオンになっているため、管理者もユーザーも特別な操作は必要ありません。
 
-## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>エンタープライズ向けの Microsoft 365 アプリの更新について教えてください。
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps for enterprise の更新プログラムについて
 
-「Enterprise 用 microsoft 365 アプリの新規インストールと共に teams をインストールする[365](https://docs.microsoft.com/DeployOffice/teams-install)」の説明に従って、既定では office がインストールされます。 
+「[Microsoft 365 Apps と同時に Microsoft Teams を展開する](https://docs.microsoft.com/DeployOffice/teams-install)」で説明されているように、Teams のインストールは既定で、Microsoft 365 Apps for enterprise の新しいインストールと一緒に行われます。 
 
-上で説明したとおり、Teams は、Word や Excel などの他の Office アプリの更新プロセスではなく、独自の更新プロセスに従います。 詳細については、「[エンタープライズ向けの Microsoft 365 アプリの更新プログラムチャネルの概要」](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)を参照してください。
+上で説明したとおり、Teams は、Word や Excel などの他の Office アプリの更新プロセスではなく、独自の更新プロセスに従います。 詳細については、「[Microsoft 365 Apps for enterprise の更新プログラム チャネルの概要](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)」を参照してください
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上の Teams の更新について
 
@@ -57,7 +57,7 @@ Teams では、どんな配信メカニズムを使用してであれ、管理�
 
 デスクトップ クライアントが最新ではなくなったタイミングを特定する助けとして、ユーザーの現在のバージョンが 1 か月から 3 か月前のものである場合、および新しいバージョンが使用できる場合に、アプリ内アラートが表示されます。 このアプリ内のメッセージ機能により、ユーザーは最新バージョンの Teams に更新するか、必要に応じて IT 管理者に連絡してそうしてもらうように促されます。 3 か月より前の Teams デスクトップ クライアントを使用しているユーザーには、ブロック ページが表示されます。このページには、すぐに更新するか、IT 管理者に連絡するか、Teams on the web に移動するかを選択するオプションが表示されます。
 
-デスクトップ クライアント バージョンが、最初のインストールまたは Teams を初めて実行した時点で 3 か月より前のものである場合は、上述のサービス情報が表示されるまで 28 日間の猶予期間が設定されています。 この期間中に、自動更新プロセスによって Teams クライアントが更新されます。 更新されない場合は、最新バージョンの Teams に手動で更新するか、必要に応じて IT 管理者に連絡してそうしてもらうように促すアプリ内アラートがユーザーに表示されます。 これには、enterprise バンドル用の Microsoft 365 アプリの一部として Teams デスクトップクライアントを使用するユーザーが含まれます。
+デスクトップ クライアント バージョンが、最初のインストールまたは Teams を初めて実行した時点で 3 か月より前のものである場合は、上述のサービス情報が表示されるまで 28 日間の猶予期間が設定されています。 この期間中に、自動更新プロセスによって Teams クライアントが更新されます。 更新されない場合は、最新バージョンの Teams に手動で更新するか、必要に応じて IT 管理者に連絡してそうしてもらうように促すアプリ内アラートがユーザーに表示されます。 対象となるのは、Teams デスクトップ クライアントを Microsoft 365 Apps for enterprise バンドルの一部として使用しているユーザーです。
 
 政府機関向けクラウドの Teams デスクトップ クライアントについては、現在のところ、別途お知らせするまでこのサービス契約の例外です。
 

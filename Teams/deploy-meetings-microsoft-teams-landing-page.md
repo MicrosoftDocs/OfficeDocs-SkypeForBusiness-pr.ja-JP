@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのミーティングと会議
 ms.reviewer: ''
-description: ここに示す展開のリソースを使用して、Microsoft Teams でのミーティングを展開します。
+description: ここに示す展開のリソースを使用して、Microsoft Teams での会議と電話会議を展開します。
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7aee2a4a8e17480be9eb99b4504ef6967e6b2bb3
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: a9cd648d3daf9651c2fc3ff4cec70525c9af24df
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190856"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901902"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
