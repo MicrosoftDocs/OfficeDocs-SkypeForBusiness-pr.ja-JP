@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b92307510b93e03157fd3c337d5d1928d4afa7d6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905869"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997268"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Microsoft Teams の使用状況シナリオを定義する
 
@@ -70,6 +70,6 @@ ms.locfileid: "43905869"
 ![シナリオの影響と難易度を示す図](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Microsoft では、新しい革新的な方法でチームをどのように使用するかについて、常に熱心に取り組んでいます。 私たちの [導入ディスカッションフォーラム] で #TeamsStories を共有します。 投稿にハッシュタグ **#TeamsStories**を含めます。 組織で Teams を使用する方法については、常に関心を持っています。
+> Microsoft では、新しい革新的な方法でチームをどのように使用するかについて、常に熱心に取り組んでいます。 推進している[導入ディスカッションフォーラム](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)で、お客様の #TeamsStories を共有します。 投稿にハッシュタグ **#TeamsStories**を含めます。 組織で Teams を使用する方法については、常に関心を持っています。
 
 ![次の手順](media/teams-adoption-next-icon.png)を示すアイコン。 [[初期](teams-adoption-onboard-early-adopters.md)導入] と [フィードバックの収集] を選びます。

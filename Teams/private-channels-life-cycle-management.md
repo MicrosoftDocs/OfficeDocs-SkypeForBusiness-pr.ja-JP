@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織内のプライベートチャネルのライフサイクルを管理する方法について説明します。
-ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 10746605895732af19a43ffb85df06a81ae34316
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240637"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997248"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートチャネルのライフサイクルを管理する
 
@@ -68,7 +68,7 @@ PATCH /teams/<team_id>
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
 ```PowerShell
-New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
+New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
 ```
 
 ### <a name="using-graph-api"></a>Graph API を使用する
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>チーム内のすべてのプライベートチャネルの SharePoint Url を検索する
 
-プライベートチャネルのファイルに対して電子情報開示または法的保持を実行することを検討している場合、または特定のプライベートチャネルにファイルを配置する基幹業務アプリを構築する場合は、プライベートチャネルごとに作成された固有の SharePoint サイトコレクションを照会する方法が必要になります。
+プライベートチャネルのファイルに対して電子情報開示または法的保持を実行することを検討している場合、または特定のプライベートチャネルにファイルを配置するカスタムアプリを構築する場合は、プライベートチャネルごとに作成された固有の SharePoint サイトコレクションを照会する方法が必要になります。
 
 管理者として、PowerShell または Graph Api コマンドを使って、これらの Url を照会することができます。
 
@@ -106,7 +106,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “<group_id>"
+    $groupID = "<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
     $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
     {$x.RelatedGroupId;$x.url}}
@@ -236,7 +236,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
           ]
     }
     ```    
-2.  メンバーを所有者に昇格させるには、次&lt;の&gt;よう&lt;に&gt;します&lt;。&gt; group_id、channel_id、id は前の呼び出しから返されます。 ただし、 &lt;前&gt;の&lt;通話&gt;から返された id と userId は同じではないため、互換性がありません。 Id &lt;&gt;を使用していることを確認してください。
+2.     メンバーを所有者に昇格させるには、次&lt;の&gt;よう&lt;に&gt;します&lt;。&gt; group_id、channel_id、id は前の呼び出しから返されます。 ただし、 &lt;前&gt;の&lt;通話&gt;から返された id と userId は同じではないため、互換性がありません。 Id &lt;&gt;を使用していることを確認してください。
 
     **要求**
 

@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ea73b460fee758a45f19d6acbd5ff8172e2b8304
+ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170555"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "44006043"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリを管理する
 ======================================================
@@ -53,13 +53,13 @@ Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams 
 
 ## <a name="upload-a-new-app"></a>新しいアプリをアップロードする
 
-アプリカタログを使って、組織専用に構築された基幹業務アプリケーションのテストと配布を行うことができます。 Teams アプリパッケージは、 [Teams アプリ Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)を使用して作成されます。 アプリパッケージがある場合は、アプリカタログに追加することができます。 組織内のすべてのユーザーがアプリカタログを表示できますが、グローバル管理者と Teams サービス管理者のみが公開および管理できます。
+アプリカタログを使って、組織専用に構築されたカスタムアプリケーションのテストと配布を行うことができます。 Teams アプリパッケージは、 [Teams アプリ Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)を使用して作成されます。 アプリパッケージがある場合は、アプリカタログに追加することができます。 組織内のすべてのユーザーがアプリカタログを表示できますが、グローバル管理者と Teams サービス管理者のみが公開および管理できます。
 
 新しいカスタムアプリをテナントアプリカタログにアップロードするには、[**新しいアプリのアップロード**] をクリックして、アプリパッケージを .zip 形式でアップロードします。 アプリはアップロードされた後は強調表示されません。アプリカタログを検索して見つける必要があります。
 
 アップロードした後にアプリを更新するには、[**アプリの管理**] ページのアプリの一覧でアプリ名をクリックし、[**更新**] をクリックします。 この操作を行うと、アプリカタログの既存のアプリは置き換えられ、すべてのアプリのアクセス許可ポリシーとアプリのセットアップポリシーは、更新されたアプリに適用されたままになります。
 
-詳細については、「 [Teams で基幹業務アプリを管理](manage-your-lob-apps.md)する」を参照してください。
+詳細については、「 [Teams でカスタムアプリを管理](manage-your-custom-apps.md)する」を参照してください。
 
 ## <a name="allow-and-block-apps"></a>アプリを許可または禁止する
 

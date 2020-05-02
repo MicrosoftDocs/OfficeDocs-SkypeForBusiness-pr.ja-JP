@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、microsoft teams ルームのリリースノートを読むことができます。これにより、Microsoft Teams のルームでの累積的な改善点が一覧表示されます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ffc6b052fca002493b31a2f7c55f43cf9ce8804a
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905339"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997218"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -346,7 +346,7 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 
 [Microsoft Teams ミーティング Current Branch バージョンのサポート](rooms-lifecycle-support.md)
 
-[Microsoft Teams ミーティングの既知の問題](known-issues.md)
+[組織のサポートチーム](known-issues.md)
 
 [Microsoft Teams ミーティングを計画する](rooms-plan.md)
 

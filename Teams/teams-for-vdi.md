@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940674"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997168"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -353,7 +353,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 - マルチモニター設定での画面共有の場合、メイン モニターのみ共有されます。
 - CWA での高 DPI スケーリングはサポートされていません。
 
-VDI に関連しない Teams の既知の問題については、「[Teams の既知の問題](Known-issues.md)」を参照してください。
+VDI に関連していない Teams の既知の問題については、「[組織のサポートチーム](Known-issues.md)」をご覧ください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 

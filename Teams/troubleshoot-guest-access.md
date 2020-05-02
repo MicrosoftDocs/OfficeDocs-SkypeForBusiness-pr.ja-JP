@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 52d3922bc68e942ad1cd58e40861fa8820ee6614
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 72c6db7bdc6ff8b765afdf38bfe910552b45cbf2
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778403"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997258"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティング
 ======================================================
@@ -31,15 +31,15 @@ ms.locfileid: "43778403"
 > 変更が有効になるまで最大で 24 時間かかる場合があります。 
 
 
+- 問題がわかっているかどうかを確認するには、「[組織内のサポートチーム](Known-issues.md)」を参照してください。
 - Teams でのゲスト アクセスに関する最新のサポートの問題を確認するには、[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)に関するページに移動します。
-- Microsoft がお客様の問題を把握しているかどうかを確認するには、「[Microsoft Teams の既知の問題](Known-issues.md)」を参照してください。
 - ゲストとは、自分の組織の外部のユーザーのことです。 ユーザーが組織内にいる場合 (社内の従業員、オンサイトの請負業者、オンサイトの代理業者など) は、ゲストとして追加することはできません。 これは、関連会社についても同じです。
 - 今後実装される新機能や更新されたゲスト アクセス機能については、「[Teams のロードマップ](https://aka.ms/teamsroadmap)」で見つけてください。
 - ご要望については、「[Teams UserVoice](https://aka.ms/TeamsUserVoice)」でお知らせください。
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>ゲストに対してライセンスのエラーが表示されている場合
 
-Teams のゲスト アクセスでは Azure Active Directory (Azure AD) ビジネス ツー ビジネス (B2B) およびそのライセンス モデルを使用しています。 ゲストアクセスは、すべての Microsoft 365 ビジネス標準、Office 365 Enterprise、Office 365 エデュケーションサブスクリプションに含まれています。 追加の Office 365 ライセンスは不要です。
+Teams のゲスト アクセスでは Azure Active Directory (Azure AD) ビジネス ツー ビジネス (B2B) およびそのライセンス モデルを使用しています。 ゲスト アクセスは、Microsoft 365 Business Standard、Office 365 Enterprise、Office 365 Education のすべてのサブスクリプションに含まれています。 追加の Office 365 ライセンスは不要です。
 
 > [!NOTE]
 > ゲストのゲストのホームテナントで teams を有効にしておく必要があるのは、ゲストが別の (リソース) テナントでゲストとしてチームにサインインして使用できるようにするためです。

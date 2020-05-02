@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904592"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997188"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -43,7 +43,7 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 |    |     |
 |-----------|------------|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>次の表を参考にして、調査しているアプリで要求されているアクセス許可について理解してください。</li></ul> |
-| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アプリまたはサービス自体を調査して、組織内でのアクセスを許可するかどうかを決定します。 たとえば、ボットはユーザーからのメッセージを送受信します。また、エンタープライズ基幹業務用のボットを除いて、これらはコンプライアンスの境界外にあります。 そのため、bot を含むすべてのアプリには、これらのアクセス許可が必要であり、少なくともそのリスクのプロファイルが設定されています。 </li></ul>|
+| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アプリまたはサービス自体を調査して、組織内でのアクセスを許可するかどうかを決定します。 たとえば、ボットはユーザーからのメッセージを送受信します。また、エンタープライズカスタムボット以外は、コンプライアンスの境界外にあります。 そのため、bot を含むすべてのアプリには、これらのアクセス許可が必要であり、少なくともそのリスクのプロファイルが設定されています。 </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>グローバルアプリのアクセス許可と考慮事項
 

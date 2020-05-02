@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d5c5f919e03cd1e2935e4027e38b33a23a9540b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: fb06a50d8a61d78abd84d8bf4f54295ece6d68ab
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779223"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997128"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -435,7 +435,7 @@ Wi-fi ドライバーに問題がある可能性があります。 たとえば�
 
 2.  **クライアント接続の検証:** 接続の問題により、Teams で機能またはサインインの問題が発生します。 サービスへの接続を検証することをお勧めします (特に新しいサイトまたは場所の場合)。 次の[Office 365 url と IP アドレス範囲](https://aka.ms/o365ips)のガイダンスが各サイトで使用されていることを確認します。 [Microsoft ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を使用して、接続テストを実行し、クラウド音声機能でメディアポートが正しく開かれていることを確認できます。 接続テストの実行方法の詳細な手順については、「[ネットワークの準備](3-envision-evaluate-my-environment.md#network-readiness)ガイダンス」をご覧ください。
 
-3.  **既知の問題の一覧を確認します。** これらの問題のいずれかによってユーザーが悪影響を受けたかどうかを確認するには、 [Teams の既知の問題の一覧](known-issues.md)を参照してください。 問題を解決するために用意されている回避策 (ある場合) に従います。
+3.  **既知の問題の一覧を確認します。**[組織のサポートチーム](known-issues.md)に連絡し、これらの問題のいずれかによってユーザーが悪影響を受けたかどうかを確認してください。 問題を解決するために用意されている回避策 (ある場合) に従います。
 
 4.  **Microsoft Teams コミュニティにアクセスします。**[Microsoft teams コミュニティ](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)では、teams 専用のスペースが用意されています。 Teams コミュニティでは、チームの中心となるディスカッションリスト、ブログ投稿、およびお知らせが提供されます。 問題の解決策については、質問を投稿したり、以前のディスカッションを検索したりすることができます。
 

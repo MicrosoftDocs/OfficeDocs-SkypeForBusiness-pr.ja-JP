@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75a76ca7a98191f90005ebe6c1edf915fde4571
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d7411ab9862dc07b7c3bb5f8f4bed6f1cca62b47
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778303"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997018"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -115,7 +115,7 @@ DEB または RPM パッケージをインストールすると、パッケー�
 システムのパッケージ マネージャーを使用して自動更新を有効にするための署名キーが自動的にインストールされます。 ただし、これは (https://packages.microsoft.com/keys/microsoft.asc) にもあります。 Microsoft Teams は毎月更新されており、リポジトリが正常にインストールされていれば、システム上の他のパッケージと同様に、システム パッケージ マネージャーによって自動更新が処理されます。
 
 > [!NOTE] 
-> バグが見つかった場合は、クライアント内から `Report a Problem` を使用してご報告ください。 既知の問題については、「[既知の問題](Known-issues.md)」を参照してください。
+> バグが見つかった場合は、クライアント内から `Report a Problem` を使用してご報告ください。 既知の問題については、「[組織のサポートチーム](Known-issues.md)」を参照してください。
 > Linux 向けの Teams のサポートについては、[Microsoft Q&A の Linux フォーラム サポート チャネル](https://docs.microsoft.com/answers/topics/teams.html) をご利用いただけます。 質問を投稿するときは、必ず `teams-linux` タグを使用してください。 
 
 #### <a name="install-teams-using-deb-package"></a>DEB パッケージを使用して Teams をインストールする
