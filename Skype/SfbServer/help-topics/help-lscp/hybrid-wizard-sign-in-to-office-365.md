@@ -1,5 +1,5 @@
 ---
-title: ハイブリッドウィザード Office 365 にサインインする
+title: ハイブリッドウィザード Microsoft 365 または Office 365 にサインインする
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Skype for Business Server ハイブリッド管理ウィザードを使用して、Skype for Business Online とハイブリッドの環境を構成することができます。
-ms.openlocfilehash: a76bdf59ab9bc54d8cabdc642f1a3824b013410e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for business Server のハイブリッド管理ウィザードを使用すると、Skype for business Online でハイブリッドの環境を構成するのに役立ちます。
+ms.openlocfilehash: 1e94dba9c0aef4a45c00409319f51c87d7e623d4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822720"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780436"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a>ハイブリッド ウィザード: Office 365 へのサインイン
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>ハイブリッドウィザード: Microsoft 365 または Office 365 にサインインします。
 
-Skype for Business Server ハイブリッド管理ウィザードを使用して、Skype for Business Online とハイブリッドの環境を構成することができます。
+Skype for business Server のハイブリッド管理ウィザードを使用すると、Skype for business Online でハイブリッドの環境を構成するのに役立ちます。
 
-## <a name="sign-in-to-office-365"></a>Office 365 にサインインする
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 にサインインする
 
-Office 365 テナント用のユーザー名とパスワードを入力して、Office 365 テナントを使用する内部設置型の展開にログインして接続します。Office 365 にサインアップしたときに onmicrosoft ドメイン用に作成された管理アカウント (admin@contoso.onmicrosoft.com など) を使用する必要があります。
+Microsoft 365 または Office 365 組織のユーザー名とパスワードを入力してログインし、オンプレミスの展開を Microsoft 365 または Office の365組織に接続します。 Microsoft 365 または Office 365 (たとえば、admin@contoso.onmicrosoft.com) にサインアップするときに、.onmicrosoft ドメインに対して作成された管理者アカウントを使用する必要があります。
 
-ハイブリッドの環境を構成する方法の詳細については、「[Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)」を参照してください。
+ハイブリッド環境を構成する方法の詳細については、「[ハイブリッド展開の概要](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)」を参照してください。
 
 

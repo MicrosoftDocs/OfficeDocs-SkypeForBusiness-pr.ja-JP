@@ -18,12 +18,12 @@ description: クラウド、同期済み、フェデレーションなど、Micr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a58dcdae704be7ccdaefe1e2bca3b4978f4a10f9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75020dfd414e6990f1a3a07ec6f1506ebc9f2f89
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139296"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776882"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams での ID モデルと認証
 ==========================================
@@ -44,8 +44,8 @@ Microsoft Teams は、Office 365 で利用できるすべての ID モデルを�
 
 |ID モデル |展開チェックリスト  |その他の情報  |
 |---------|---------|---------|
-|すべて     |<ol type="1"><li>Office 365 プランのオプションの比較、サブスクリプションの入手</li><li>Office 365 テナントの作成</li><li>テナントへの Office 365 ライセンスの割り当て</li><li>ドメインおよび管理者ユーザーの設定</li><li>引き続き ID モデル固有の手順の実施</li></ol>          |<ul style="list-style-type:none"><li>[Office 365 プランのオプション](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[Office 365 ビジネス プランの比較](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[一般法人向け Office 365 サブスクリプションのライセンスを購入する](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[サブスクリプションにライセンスを追加する](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[一般法人向け Office 365 のセットアップ](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[セットアップ ウィザードでユーザーとドメインを追加する](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>注意: サポートが必要な場合は、[Microsoft FastTrack for Office 365 team](https://go.microsoft.com/fwlink/?linkid=854618)を参照してください。</li></ul>          |
-|クラウド ID     |<ol type="1"><li>Office 365 管理ポータルを使用したユーザーの作成</li></ol>           |<ul style="list-style-type:none"><li>[Office 365 にユーザーを個別に、またはまとめて追加する](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
+|すべて     |<ol type="1"><li>Office 365 プランのオプションの比較、サブスクリプションの入手</li><li>Office 365 組織を作成する</li><li>テナントへの Office 365 ライセンスの割り当て</li><li>ドメインおよび管理者ユーザーの設定</li><li>引き続き ID モデル固有の手順の実施</li></ol>          |<ul style="list-style-type:none"><li>[Office 365 プランのオプション](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[一般法人向け Microsoft 365 アプリの比較](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[一般法人向け Office 365 サブスクリプションのライセンスを購入する](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[サブスクリプションにライセンスを追加する](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[一般法人向け Office 365 のセットアップ](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[セットアップ ウィザードでユーザーとドメインを追加する](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>注意: サポートが必要な場合は、[Microsoft FastTrack for Office 365 team](https://go.microsoft.com/fwlink/?linkid=854618)を参照してください。</li></ul>          |
+|クラウド ID     |<ol type="1"><li>Microsoft 365 管理センターを使用してユーザーを作成する</li></ol>           |<ul style="list-style-type:none"><li>[Office 365 にユーザーを個別に、またはまとめて追加する](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
 |同期された ID     |<ol type="1"><li>Azure AD Connect のインストール</li><li>ディレクトリ同期の設定</li><li>オンプレミスの Active Directory 管理ツールを使用したユーザーの作成</li></ol>         |<ul style="list-style-type:none"><li>[Office 365 のディレクトリ同期をセットアップする](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>注意: 認証を実行する場合、パスワードのハッシュを Office 365 に同期させる必要があります。</li></ul>         |
 |フェデレーション ID    |<ol type="1"><li>Azure AD Connect のインストール</li><li>ディレクトリ同期の設定</li><li>フェデレーション ID プロバイダーのインストールと設定 (ADFS 推奨)</li><li>オンプレミスの Active Directory 管理ツールを使用したユーザーの作成</li></ol>           |<ul style="list-style-type:none"><li>[Office 365 のディレクトリ同期をセットアップする](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>[AD FS の配置を計画する](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[チェックリスト: フェデレーション サーバー ファームを配置する](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[AD FS に対してエクストラネット アクセスを構成する](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[AD FS と Azure AD の間の信頼を確立する](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[AD FS によるシングル サインオンを確認および管理する](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Azure AD のフェデレーション互換性リスト](https://go.microsoft.com/fwlink/?linkid=854625)</li><li>注意: パスワードのハッシュは Azure Active Directory に同期させる必要はありません。</li></ul>         |
 
@@ -56,7 +56,7 @@ Microsoft Teams は、Office 365 で利用できるすべての ID モデルを�
 
 Office 365 プランでは、Office 365 サービスへのユーザー ログインのセキュリティを高める多要素認証 (MFA) をサポートしています。Office 365 の MFA では、ユーザーはパスワードを正しく入力した後に、自分のスマートフォンで電話、テキスト メッセージ、またはアプリの通知を承認します。この 2 番目の認証要素が満たされた後に、ユーザーはサイン インできるようになります。
 
-多要素認証は、Microsoft Teams が含まれている任意の Office 365 プランでサポートされています。 Microsoft Teams を含む Office 365 サブスクリプションプランについては、後の「ライセンス」セクションで説明します。
+多要素認証は、microsoft Teams を含む Microsoft 365 または Office 365 プランでサポートされています。 Microsoft Teams を含むサブスクリプションプランについては、後の「ライセンス」セクションで説明します。
 
 ユーザーが MFA に登録されると、次回ユーザーがサインインしたときに、第2の認証要素を設定するように求めるメッセージが表示されます。 サポートされている認証方法は次のとおりです。
 

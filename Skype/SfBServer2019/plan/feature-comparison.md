@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: Skype for Business Server 2019 または Skype for business Online 管理者は、これらの表を使用して、どの機能がどのクライアントでサポートされているかを理解できます。'
-ms.openlocfilehash: f8b50614d663104e1307b233449ccffc0e26adb5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3d56744e9c383e018c5954422d4e1b6be4035b32
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129490"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779433"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 のデスクトップクライアント機能の比較
 
@@ -72,7 +72,7 @@ Skype for business Server 2019 で使用できる一部の機能は、Skype for 
 | コーポレート アドレス帳の検索                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Microsoft Outlook の連絡先の検索                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | 連絡先グループの管理                                                                         | &#x2714;                                      | &#x2714;                  | &#x2714;         |
-| 配布グループと Office 365 グループを展開する                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
+| 配布グループと Microsoft 365 グループを展開する                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | 応答グループの検索  <br/> (Skype for Business Online では使用できません)                | &#x2714;                                      |                           | &#x2714;         |
 | 最近の連絡先グループの表示                                                                 | &#x2714;                                      |                           | &#x2714;         |
 | 現在の会話グループの表示                                                           | &#x2714;                                      | &#x2714;                  | &#x2714;         |
