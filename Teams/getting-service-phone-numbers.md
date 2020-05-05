@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: チームの電話会議、自動応答、および通話キュー (サービス番号) の新しい電話番号やポートを取得したり、既存の電話番号を移行したりする方法について説明します。
-ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136717"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021989"
 ---
 # <a name="getting-service-phone-numbers"></a>サービス電話番号を取得する
 
@@ -51,7 +51,7 @@ ms.locfileid: "43136717"
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**電話番号** **] に移動** > し、[**追加**] をクリックします。
-2. 注文の名前を入力し、必要に応じて説明を追加します。
+2. 注文の名前を入力し、説明を追加します。
 3. [場所と数量] ページで、次の操作を行います。
     1. [**国または地域**] で、国または地域を選択します。
     1. [**番号の種類**] で、目的のサービス番号の種類を選択します。
@@ -80,7 +80,7 @@ ms.locfileid: "43136717"
 
 サービス番号を取得したら、電話会議ブリッジに各番号を割り当てます。 「[電話会議ブリッジの有料または無料電話番号を変更する」を](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 

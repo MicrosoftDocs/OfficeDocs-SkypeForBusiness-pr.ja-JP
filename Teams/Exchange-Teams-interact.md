@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba8e6439d1b0c8bb5795408f5cff39ef2c298fa4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9475b323e1b9b04c5735a656eac5766b8a110810
+ms.sourcegitcommit: 48b24ccf133c9d03b0d1d4eea1ec275b2be5e3bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778733"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44016181"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -47,10 +47,10 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Office
 
 | ユーザーのメールボックスのホスト先: | 電子情報開示| 法的な&nbsp;保全 | 保持| チームとチャネルの管理 |Teams で会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|○ (<sup>8</sup> )|Yes|はい|はい <sup>7</sup>|はい|Yes|Yes|Yes|
-|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|○ (<sup>8</sup> )|Yes|はい|はい <sup>7</sup>|はい|Yes|Yes|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|必要|×|いいえ|はい|必要|いいえ|はい <sup>5|はい <sup>6|Yes|Yes|
-|**Exchange on-premises** (Azure AD との同期 & OAuth 構成が必要)|はい <sup>2</sup>| はい <sup>2、3</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|○<sup>8</sup> (EXCHANGE 2016 cu3 以降で +)|Yes|必要|いいえ|はい <sup>5|はい <sup>6|Yes|Yes|
+|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|必要|○ (<sup>8</sup> )|Yes|はい|はい <sup>7</sup>|はい|Yes|Yes|必要|
+|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|必要|○ (<sup>8</sup> )|Yes|はい|はい <sup>7</sup>|はい|Yes|Yes|はい|
+|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|必要|不要|いいえ|はい|必要|いいえ|はい <sup>5|はい <sup>6|Yes|必要|
+|**Exchange on-premises** (Azure AD との同期 & OAuth 構成が必要)|はい <sup>2</sup>| はい <sup>2</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|○<sup>8</sup> (EXCHANGE 2016 cu3 以降で +)|Yes|必要|いいえ|はい <sup>5|はい <sup>6|Yes|必要|
 
 <sup>1</sup> Exchange 2016 CU3 以降がサポートされています。  
 
