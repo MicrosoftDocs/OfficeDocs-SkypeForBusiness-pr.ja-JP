@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4eb43e79a7ad45596876a3fc932ad405271b0dda
 ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/28/2020
 ms.locfileid: "43918505"
@@ -72,7 +72,7 @@ ms.locfileid: "43918505"
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    | 
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
-|ビデオ通話と会議 | <ul><li>ビデオ通話やオンライン会議のエクスペリエンス向上のために、2.0 GHz のプロセッサと 4.0 GB 以上の RAM を搭載したコンピューターの使用をお勧めします。 </li><li>背景のビデオ特殊効果を使うには、高度なベクトル拡張機能 2 (AVX2) がサポートされているプロセッサと、ほとんどの遅延 2013 Mac デバイス以降でサポートされているものが必要です。 サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams ミーティングの類似性検出を使用して会議に参加する機能は、Linux では利用できません。</li></ul>
+|ビデオ通話と会議 | <ul><li>ビデオ通話やオンライン会議のエクスペリエンス向上のために、2.0 GHz のプロセッサと 4.0 GB 以上の RAM を搭載したコンピューターの使用をお勧めします。 </li><li>ビデオの背景効果には、Advanced Vector Extension 2 (AVX2) サポート (大半の 2013 年後半の Mac デバイス以降でサポートされています) を備えたプロセッサが必要です。 サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams ミーティングの類似性検出を使用して会議に参加する機能は、Linux では利用できません。</li></ul>
 |サポートされている Linux ディストリビューション | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>モバイル デバイスでの Teams のハードウェア要件

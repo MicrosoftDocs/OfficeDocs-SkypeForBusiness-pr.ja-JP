@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03cc795f9d3df5500c4eafceee4a1fd5d3605fb6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904032"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950972"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -134,6 +134,16 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |Office 365 組織の同時ライブ イベント | 15 |
 
 ライブ イベントおよび Teams のライブ イベントと Skype 会議ブロードキャストの比較の詳細については、「[Teams ライブ イベントと Skype 会議ブロードキャスト](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)」にアクセスしてください。
+
+> [!IMPORTANT]
+> **Microsoft 365 ライブ イベントの上限の引き上げ**
+> 
+> お客様が急速に変化するコミュニケーションのニーズに対応できるように、Microsoft 365 ライブ イベントは、2020 年 7 月 1 日まで、Teams でホストされるライブ イベントの既定の上限を一時的に引き上げます。 2020 年 4 月下旬から次の上限が適用されるようになります。
+> - 参加者の制限: イベントは最大 20,000 人の参加者をサポートできます
+> - 同時イベント: テナント全体で 50 のイベントを同時にホストできます
+> - イベントの時間: イベントの長さが 1 回のブロードキャストにつき 16 時間に延長されました
+
+
 
 ## <a name="presence-in-outlook"></a>Outlook でのプレゼンス
 
