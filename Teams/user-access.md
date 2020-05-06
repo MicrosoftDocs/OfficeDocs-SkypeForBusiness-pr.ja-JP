@@ -1,9 +1,8 @@
 ---
 title: Microsoft Teams へのユーザー アクセスを管理する
-author: LolaJacobsen
-ms.author: lolaj
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -13,69 +12,96 @@ f1.keywords:
 - CSH
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Microsoft Teams 製品ライセンスの割り当てまたは削除を行って、ユーザーごとにユーザーレベルのアクセスを有効または無効にする方法について説明します。
+description: 組織内のユーザーに Teams のライセンスを割り当てまたは削除して、チームへのユーザーアクセスを管理する方法について説明します。
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 823038671ac03669808e8a3dec5d065a60682b19
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 32ab8f68ef1c37fbb5cb724b322b4db0ee757b84
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940614"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042274"
 ---
-<a name="manage-user-access-to-microsoft-teams"></a><span data-ttu-id="c8e13-103">Microsoft Teams へのユーザー アクセスを管理する</span><span class="sxs-lookup"><span data-stu-id="c8e13-103">Manage user access to Microsoft Teams</span></span>
-=====================================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="manage-user-access-to-teams"></a><span data-ttu-id="d6aee-103">Teams へのユーザー アクセスを管理する</span><span class="sxs-lookup"><span data-stu-id="d6aee-103">Manage user access to Teams</span></span>
 
-<span data-ttu-id="c8e13-104">ユーザーレベルでは、microsoft Teams 製品ライセンスを割り当てまたは削除することで、ユーザーごとに Microsoft Teams へのアクセスを有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="c8e13-104">At the user level, access to Microsoft Teams can be enabled or disabled on a per-user basis by assigning or removing the Microsoft Teams product license.</span></span>
+<span data-ttu-id="d6aee-104">Microsoft Teams 製品ライセンスを割り当てたり、削除したりして、ユーザーレベルでチームへのアクセスを管理します。</span><span class="sxs-lookup"><span data-stu-id="d6aee-104">You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license.</span></span> <span data-ttu-id="d6aee-105">組織内の各ユーザーは、Teams を使用する前に Teams ライセンスを所有している必要があります。</span><span class="sxs-lookup"><span data-stu-id="d6aee-105">Each user in your organization must have a Teams license before they can use Teams.</span></span> <span data-ttu-id="d6aee-106">新しいユーザーアカウントが作成されたとき、または既存のアカウントを持つユーザーに新しいユーザーのチームライセンスを割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="d6aee-106">You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.</span></span>
 
-<span data-ttu-id="c8e13-105">Teams 管理センターから管理されるメッセージポリシーを使用して、Teams のユーザーが利用できるチャットおよびチャネルメッセージング機能を制御します。</span><span class="sxs-lookup"><span data-stu-id="c8e13-105">Use messaging policies, managed from the Teams Admin Center, to control what chat and channel messaging features are available to users in Teams.</span></span> <span data-ttu-id="c8e13-106">組織内のユーザーに対して、既定のポリシーを使用するか、1つ以上のカスタムメッセージポリシーを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="c8e13-106">You can use the default policy or create one or more custom messaging policies for people in your organization.</span></span> <span data-ttu-id="c8e13-107">詳細については、「 [Teams のメッセージングポリシーを管理する」](messaging-policies-in-teams.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c8e13-107">To learn more, read [Manage messaging policies in Teams](messaging-policies-in-teams.md).</span></span>
+<span data-ttu-id="d6aee-107">既定では、ライセンス計画 (Microsoft 365 Enterprise E3 や Microsoft 365 Business Premium など) がユーザーに割り当てられている場合、Teams ライセンスが自動的に割り当てられ、ユーザーはチームに対して有効になります。</span><span class="sxs-lookup"><span data-stu-id="d6aee-107">By default, when a licensing plan (for example, Microsoft 365 Enterprise E3 or Microsoft 365 Business Premium)  is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams.</span></span> <span data-ttu-id="d6aee-108">ライセンスを削除するか、いつでも割り当てて、ユーザーに対して Teams を有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="d6aee-108">You can disable or enable Teams for a user by removing or assigning a license at any time.</span></span>
+
+<span data-ttu-id="d6aee-109">Teams のライセンスは、Microsoft 365 管理センターまたは PowerShell を使用して管理します。</span><span class="sxs-lookup"><span data-stu-id="d6aee-109">You manage Teams licenses in the Microsoft 365 admin center or by using PowerShell.</span></span> <span data-ttu-id="d6aee-110">ライセンスを管理するには、グローバル管理者またはユーザー管理者である必要があります。</span><span class="sxs-lookup"><span data-stu-id="d6aee-110">You must be a Global admin or User management admin to manage licenses.</span></span>
 
 > [!NOTE]
-><span data-ttu-id="c8e13-108">組織内のすべてのユーザーに対して Teams を有効にすることをお勧めします。これにより、チームはプロジェクトやその他の動的なイニシアチブの organically を形成することができます。</span><span class="sxs-lookup"><span data-stu-id="c8e13-108">Microsoft recommends that you turn on Teams for all users in a company so that teams can be formed organically for projects and other dynamic initiatives.</span></span> <span data-ttu-id="c8e13-109">パイロットを決定している場合でも、チームをすべてのユーザーに対して有効にしておくことをお勧めしますが、ユーザーのパイロットグループとの通信のみを対象としています。</span><span class="sxs-lookup"><span data-stu-id="c8e13-109">Even if you are deciding to pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.</span></span>
+> <span data-ttu-id="d6aee-111">チームがプロジェクトやその他の動的なイニシアチブのために organically を形成できるように、すべてのユーザーに対して Teams を有効にすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="d6aee-111">We recommend that you enable Teams for all users so that teams can be formed organically for projects and other dynamic initiatives.</span></span> <span data-ttu-id="d6aee-112">パイロットを実行している場合でも、チームをすべてのユーザーに対して有効にしたままにしておくと便利な場合がありますが、ユーザーのパイロットグループとの通信のみを対象としています。</span><span class="sxs-lookup"><span data-stu-id="d6aee-112">Even if you're running a pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.</span></span>
 
-## <a name="manage-teams-through-the-microsoft-365-admin-center"></a><span data-ttu-id="c8e13-110">Microsoft 365 管理センターを使用してチームを管理する</span><span class="sxs-lookup"><span data-stu-id="c8e13-110">Manage Teams through the Microsoft 365 admin center</span></span>
+## <a name="using-the-microsoft-365-admin-center"></a><span data-ttu-id="d6aee-113">Microsoft 365 管理センターを使用する</span><span class="sxs-lookup"><span data-stu-id="d6aee-113">Using the Microsoft 365 admin center</span></span>
 
-<span data-ttu-id="c8e13-111">Teams のユーザーレベルのライセンスは、Microsoft 365 管理センターのユーザー管理インターフェイスを使用して直接管理されます。</span><span class="sxs-lookup"><span data-stu-id="c8e13-111">Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces.</span></span> <span data-ttu-id="c8e13-112">管理者は、新しいユーザーアカウントが作成されたとき、または既存のアカウントを持つユーザーに対して、新しいユーザーにライセンスを割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="c8e13-112">An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts.</span></span> <span data-ttu-id="c8e13-113">管理者は、Microsoft Teams ライセンスを管理するためのグローバル管理者またはユーザー管理者の権限を持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="c8e13-113">The administrator must have Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.</span></span>
+<span data-ttu-id="d6aee-114">Microsoft 365 管理センターを使用して、個々のユーザーまたは少数のユーザーの Teams ライセンスを一度に管理します。</span><span class="sxs-lookup"><span data-stu-id="d6aee-114">Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time.</span></span> <span data-ttu-id="d6aee-115">Teams のライセンスは、[**ライセンス**] ページ (同時に最大20人のユーザーの場合) または [**アクティブなユーザー** ] ページで管理できます。</span><span class="sxs-lookup"><span data-stu-id="d6aee-115">You can manage Teams licenses on the **Licenses** page (for up to 20 users at at time) or **Active users** page.</span></span> <span data-ttu-id="d6aee-116">選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザーライセンスを管理するかによって異なります。</span><span class="sxs-lookup"><span data-stu-id="d6aee-116">The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.</span></span>
 
-<span data-ttu-id="c8e13-p104">E3 または E5 といったライセンス SKU をユーザーに割り当てる場合、Microsoft Teams ライセンスが自動的に割り当てられ、そのユーザーには Microsoft Teams が有効化されます。管理者はすべての Office 365 サービスとライセンスを細かく制御できます。特定のユーザーまたはグループの Microsoft Teams ライセンスを有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="c8e13-p104">When a license SKU like E3 or E5 is assigned to a user, a Microsoft Teams license is automatically assigned, and the user is enabled for Microsoft Teams. Administrators can have a granular control over all the Office 365 services and licenses, and the Microsoft Teams license for a specific user or a group of users can be enabled or disabled.</span></span>
+<span data-ttu-id="d6aee-117">数百または数千のユーザーなど、多数のユーザーの Teams ライセンスを管理する必要がある場合は、 [Azure Active Directory (AZURE AD) で](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)Powershell またはグループベースのライセンスを[使用](#using-powershell)します。</span><span class="sxs-lookup"><span data-stu-id="d6aee-117">If you need to manage Teams licenses for a large number of users, such as hundreds or thousands of users, [use Powershell](#using-powershell) or [group-based licensing in Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign).</span></span> 
 
-![管理センターの [製品ライセンス] セクションのスクリーンショット。](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
+### <a name="assign-a-teams-license"></a><span data-ttu-id="d6aee-118">Teams ライセンスを割り当てる</span><span class="sxs-lookup"><span data-stu-id="d6aee-118">Assign a Teams license</span></span>
 
-<span data-ttu-id="c8e13-117">Teams ユーザーライセンスは、いつでも無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="c8e13-117">A Teams user license can be disabled at any time.</span></span> <span data-ttu-id="c8e13-118">ライセンスを無効にすると、ユーザーは Microsoft Teams へのアクセスを許可されなくなり、Office 365 アプリ起動ツールとホームページで Teams を表示することはできなくなります。</span><span class="sxs-lookup"><span data-stu-id="c8e13-118">Once the license is disabled, the users access to Microsoft Teams will be prevented and the user will no longer be able to see Teams in the Office 365 app launcher and homepage.</span></span>
+<span data-ttu-id="d6aee-119">この手順は、[**ライセンス**] ページまたは [**アクティブなユーザー** ] ページのどちらを使用するかによって異なります。</span><span class="sxs-lookup"><span data-stu-id="d6aee-119">The steps are different depending on whether you use the **Licenses** page or **Active users** page.</span></span>  <span data-ttu-id="d6aee-120">詳細な手順については、「[ユーザーにライセンスを割り当てる](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d6aee-120">For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).</span></span>
 
-![[製品のライセンス] セクションで選択された Teams を示すスクリーンショット。](media/Manage_user_access_to_Microsoft_Teams_image4.png)
+|||
+|---------|---------|
+|![ユーザーに対して有効になっている Teams ライセンスのスクリーンショット](media/assign-teams-licenses-1.png)    | ![ユーザーに対して有効になっている Teams ライセンスのスクリーンショット](media/assign-teams-licenses-2.png)        |
 
-## <a name="manage-via-powershell"></a><span data-ttu-id="c8e13-120">PowerShell を使用して管理する</span><span class="sxs-lookup"><span data-stu-id="c8e13-120">Manage via PowerShell</span></span>
+### <a name="remove-a-teams-license"></a><span data-ttu-id="d6aee-123">Teams ライセンスを削除する</span><span class="sxs-lookup"><span data-stu-id="d6aee-123">Remove a Teams license</span></span>
+
+<span data-ttu-id="d6aee-124">ユーザーからチームライセンスを削除すると、そのユーザーに対してチームが無効になり、アプリ起動ツールまたはホームページで teams が表示されなくなります。</span><span class="sxs-lookup"><span data-stu-id="d6aee-124">When you remove a Teams license from a user, Teams is disabled for that user, and they will no longer see Teams in the app launcher or homepage.</span></span> <span data-ttu-id="d6aee-125">詳細な手順については、「[ユーザーからライセンスの割り当てを解除](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="d6aee-125">For detailed steps, see [Unassign licenses from users](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users).</span></span>
+
+|||
+|---------|---------|
+|![ユーザーが無効にした Teams ライセンスのスクリーンショット](media/remove-teams-licenses-1.png)    | ![ユーザーが無効にした Teams ライセンスのスクリーンショット](media/remove-teams-licenses-2.png)        |
+
+## <a name="using-powershell"></a><span data-ttu-id="d6aee-128">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="d6aee-128">Using PowerShell</span></span>
+
+<span data-ttu-id="d6aee-129">PowerShell を使用して、ユーザーの Teams ライセンスを一括で管理します。</span><span class="sxs-lookup"><span data-stu-id="d6aee-129">Use PowerShell to manage Teams licenses for users in bulk.</span></span> <span data-ttu-id="d6aee-130">他のサービスプランライセンスの場合と同様に、PowerShell を使用して Teams を有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="d6aee-130">You enable and disable Teams through PowerShell in the same way that you would for any other service plan license.</span></span> <span data-ttu-id="d6aee-131">Teams のサービスプランの識別子が必要です。次のようになります。</span><span class="sxs-lookup"><span data-stu-id="d6aee-131">You'll need the identifiers for the service plans for Teams, which are as follows:</span></span>
+
+- <span data-ttu-id="d6aee-132">Microsoft Teams: TEAMS1</span><span class="sxs-lookup"><span data-stu-id="d6aee-132">Microsoft Teams: TEAMS1</span></span>
+- <span data-ttu-id="d6aee-133">Microsoft Teams for GCC: TEAMS_GOV</span><span class="sxs-lookup"><span data-stu-id="d6aee-133">Microsoft Teams for GCC: TEAMS_GOV</span></span>
+- <span data-ttu-id="d6aee-134">Microsoft Teams (DoD): TEAMS_DOD</span><span class="sxs-lookup"><span data-stu-id="d6aee-134">Microsoft Teams for DoD: TEAMS_DOD</span></span>
+
+### <a name="assign-teams-licenses-in-bulk"></a><span data-ttu-id="d6aee-135">Teams ライセンスを一括で割り当てる</span><span class="sxs-lookup"><span data-stu-id="d6aee-135">Assign Teams licenses in bulk</span></span>
+
+<span data-ttu-id="d6aee-136">詳細な手順については、「 [PowerShell を使用してライセンスをユーザーアカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d6aee-136">For detailed steps, see [Assign licenses to user accounts with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).</span></span>
+
+### <a name="remove-teams-licenses-in-bulk"></a><span data-ttu-id="d6aee-137">Teams ライセンスを一括で削除する</span><span class="sxs-lookup"><span data-stu-id="d6aee-137">Remove Teams licenses in bulk</span></span>
+
+<span data-ttu-id="d6aee-138">詳細な手順については、「 [PowerShell を使ったサービスへのアクセスを無効に](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)する」および「[ユーザーライセンスの割り当て中にサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)にする」を参照</span><span class="sxs-lookup"><span data-stu-id="d6aee-138">For detailed steps, see [Disable access to services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) and [Disable access to services while assigning user licenses](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses).</span></span>
+
+#### <a name="example"></a><span data-ttu-id="d6aee-139">例</span><span class="sxs-lookup"><span data-stu-id="d6aee-139">Example</span></span> 
+
+<span data-ttu-id="d6aee-140">次の例は、 [MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions)と[set-msoluserlicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense)コマンドレットを使用して、特定のライセンス計画を持っているユーザーのチームを無効にする方法を示しています。</span><span class="sxs-lookup"><span data-stu-id="d6aee-140">The following is an example of how to use the [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) and [Set-MsolUserLicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) cmdlets to disable Teams for users who have a specific licensing plan.</span></span> <span data-ttu-id="d6aee-141">たとえば、次の手順に従って、特定のライセンス計画を持っているすべてのユーザーに対して Teams の使用を無効にします。</span><span class="sxs-lookup"><span data-stu-id="d6aee-141">For example, follow these steps to first disable Teams for all users who have a particular licensing plan.</span></span> <span data-ttu-id="d6aee-142">次に、Teams にアクセスする必要がある個々のユーザーに対して Teams を有効にします。</span><span class="sxs-lookup"><span data-stu-id="d6aee-142">Then enable Teams for each individual user who should have access to Teams.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="c8e13-121">MsolLicenseOptions を使うと、カスタマイズしたスクリプトで明示的に指定されていない限り、以前に無効になっていたすべてのサービスを有効にできます。</span><span class="sxs-lookup"><span data-stu-id="c8e13-121">New-MsolLicenseOptions will enable all services that were previously disabled unless explicitly identified in your customized script.</span></span> <span data-ttu-id="c8e13-122">たとえば、チームを無効にしている間も Exchange & Sway を無効にする必要がある場合は、この操作をスクリプトに含めるか、または両方とも Exchange & Sway が有効になるように、特定のユーザーに対して行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="c8e13-122">As an example, if you wanted to leave both Exchange & Sway disabled while additionally disabling Teams, you'd need to include this in the script or both Exchange & Sway will become enabled for those users you've identified.</span></span>
+> <span data-ttu-id="d6aee-143">カスタムスクリプトで明示的に指定されていない限り、 [MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions)コマンドレットによって、以前に無効になっていたすべてのサービスが有効になります。</span><span class="sxs-lookup"><span data-stu-id="d6aee-143">The [New-MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) cmdlet will enable all services that were previously disabled unless explicitly identified in your custom script.</span></span> <span data-ttu-id="d6aee-144">たとえば、チームを無効にしている間も Exchange と Sway の両方を無効のままにしておく必要がある場合は、これをスクリプトに含めるか、または Exchange と Sway の両方を有効にして、特定のユーザーに対して有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="d6aee-144">For example, if you want to leave both Exchange and Sway disabled while also disabling Teams, you'll need to include this in the script or both Exchange and Sway will be enabled for those users you identified.</span></span>
 
-<span data-ttu-id="c8e13-123">PowerShell からワークロード ライセンスとして Teams を有効または無効にすることは、別のワークロードとして実行されます。</span><span class="sxs-lookup"><span data-stu-id="c8e13-123">Enabling and disabling Teams as a workload license through PowerShell is done just as any other workload.</span></span> <span data-ttu-id="c8e13-124">Microsoft Teams ではサービス プランの名前は TEAMS1 になります。</span><span class="sxs-lookup"><span data-stu-id="c8e13-124">The service plan name is TEAMS1 for Microsoft Teams.</span></span> <span data-ttu-id="c8e13-125">GCC の場合、サービスプラン名は TEAMS_GOV です。</span><span class="sxs-lookup"><span data-stu-id="c8e13-125">For GCC the service plan name is TEAMS_GOV.</span></span> <span data-ttu-id="c8e13-126">GCC 高の場合、サービスプラン名は TEAMS_GCCHIGH。</span><span class="sxs-lookup"><span data-stu-id="c8e13-126">For GCC High the service plan name is TEAMS_GCCHIGH.</span></span> <span data-ttu-id="c8e13-127">DoD の場合、サービスプラン名は TEAMS_DOD (詳細については、「 [Office 365 PowerShell でサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)にする」を参照してください。)</span><span class="sxs-lookup"><span data-stu-id="c8e13-127">For DoD the service plan name is TEAMS_DOD (See [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) for more information.)</span></span>
-
-<span data-ttu-id="c8e13-128">**サンプル:** 次に示すのは、特定のライセンスの種類のすべてのユーザーに対して Teams を無効にする方法の簡単なサンプルです。</span><span class="sxs-lookup"><span data-stu-id="c8e13-128">**Sample:** The following is just a quick sample on how you would disable Teams for everyone in a particular license type.</span></span> <span data-ttu-id="c8e13-129">まずこの方法を行い、次にパイロットで使用する目的でアクセスが必要なユーザーに対して個別に有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="c8e13-129">You'll need to do this first, then individually enable it for the users who should have access for piloting purposes.</span></span>
-
-<span data-ttu-id="c8e13-130">組織内で利用可能なサブスクリプションの種類を表示するには、次のコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="c8e13-130">To display the subscription types you have within your organization, use the following command:</span></span>
+<span data-ttu-id="d6aee-145">次のコマンドを実行して、組織内で利用可能なすべてのライセンスプランを表示します。</span><span class="sxs-lookup"><span data-stu-id="d6aee-145">Run the following command to display all available licensing plans in your organization.</span></span> <span data-ttu-id="d6aee-146">詳細については、「 [PowerShell でライセンスとサービスを表示](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d6aee-146">To learn more, see [View licenses and services with PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell).</span></span>
 
       Get-MsolAccountSku
 
-<span data-ttu-id="c8e13-131">組織名と自分の学校で使用するプランを含むプランの名前を記入します (例: ContosoSchool:ENTERPRISEPACK_STUDENT)。次に、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="c8e13-131">Fill in the name of your plan that includes your organization name and the plan for your school (such as ContosoSchool:ENTERPRISEPACK_STUDENT), and then run the following commands:</span></span>
+<span data-ttu-id="d6aee-147">次のコマンドを実行し\<ます。ここで、"CompanyName: ライセンス>" は、組織名と、前の手順で取得したライセンスプランの識別子です。</span><span class="sxs-lookup"><span data-stu-id="d6aee-147">Run the following commands, where \<CompanyName:License> is your organization name and the identifier for the licensing plan that you retrieved in the earlier step.</span></span> <span data-ttu-id="d6aee-148">たとえば、ContosoSchool: ENTERPRISEPACK_STUDENT とします。</span><span class="sxs-lookup"><span data-stu-id="d6aee-148">For example, ContosoSchool:ENTERPRISEPACK_STUDENT.</span></span>
 
-      $acctSKU="<plan name>
+      $acctSKU="<CompanyName:License>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
-<span data-ttu-id="c8e13-132">指定したプランのアクティブなライセンスを持つすべてのユーザーのチームを無効にするには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="c8e13-132">To disable Teams for all users with an active license for your named plan, run the following command:</span></span>
+
+<span data-ttu-id="d6aee-149">ライセンス計画のアクティブなライセンスを所有しているすべてのユーザーのチームを無効にするには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="d6aee-149">Run the following command to disable Teams for all users who have an active license for the licensing plan.</span></span>
 
       Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 
-| | | |
-|---------|---------|---------|
-|![判断ポイントを表すアイコン](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |<span data-ttu-id="c8e13-134">判断ポイント</span><span class="sxs-lookup"><span data-stu-id="c8e13-134">Decision Point</span></span>         |<ul><li><span data-ttu-id="c8e13-135">組織全体でのチームのオンボードの計画はどのようなものですか?</span><span class="sxs-lookup"><span data-stu-id="c8e13-135">What is your organization's plan for Teams onboarding across the organization?</span></span>  <span data-ttu-id="c8e13-136">(パイロットまたはオープン)</span><span class="sxs-lookup"><span data-stu-id="c8e13-136">(Pilot or Open)</span></span></li></ul>         |
-|![次の手順を示すアイコン](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |<span data-ttu-id="c8e13-138">次の手順</span><span class="sxs-lookup"><span data-stu-id="c8e13-138">Next Steps</span></span>         |<ul><li><span data-ttu-id="c8e13-139">終了したパイロットによるオンボードの場合は、ライセンスまたは対象指定の通信を使用するかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="c8e13-139">If onboarding via a closed Pilot, decide if you would like to do so via licensing, or targeted communication.</span></span></li><li><span data-ttu-id="c8e13-140">決定に応じて、チームへのアクセスが許可されているパイロットユーザー (必要な場合) だけを確認するための手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="c8e13-140">Depending on decision, take steps to make sure only Pilot users who are allowed to access Teams (if needed).</span></span></li><li><span data-ttu-id="c8e13-141">Teams へのアクセス権を持つ (または使用しない) ユーザーを対象としたガイドラインを文書化します。</span><span class="sxs-lookup"><span data-stu-id="c8e13-141">Document the guidelines for which users who will (or will not) have access to Teams.</span></span></li></ul>         |
+## <a name="manage-teams-at-the-organization-level"></a><span data-ttu-id="d6aee-150">組織レベルでチームを管理する</span><span class="sxs-lookup"><span data-stu-id="d6aee-150">Manage teams at the organization level</span></span>
 
-## <a name="manage-teams-at-the-office-365-organization-level"></a><span data-ttu-id="c8e13-142">Office 365 組織レベルでチームを管理する</span><span class="sxs-lookup"><span data-stu-id="c8e13-142">Manage Teams at the Office 365 organization level</span></span>
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
+## <a name="related-topics"></a><span data-ttu-id="d6aee-151">関連項目</span><span class="sxs-lookup"><span data-stu-id="d6aee-151">Related topics</span></span>
+
+- [<span data-ttu-id="d6aee-152">Teams アドオンライセンス</span><span class="sxs-lookup"><span data-stu-id="d6aee-152">Teams add-on licenses</span></span>](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [<span data-ttu-id="d6aee-153">Teams のアドオンライセンスを割り当てる</span><span class="sxs-lookup"><span data-stu-id="d6aee-153">Assign Teams add-on licenses</span></span>](teams-add-on-licensing/assign-teams-add-on-licenses.md)
+- [<span data-ttu-id="d6aee-154">PowerShell でライセンスとサービスを表示する</span><span class="sxs-lookup"><span data-stu-id="d6aee-154">View licenses and services with PowerShell</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+- [<span data-ttu-id="d6aee-155">ライセンスのための製品名とサービス プラン識別子</span><span class="sxs-lookup"><span data-stu-id="d6aee-155">Product names and service plan identifiers for licensing</span></span>](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+- [<span data-ttu-id="d6aee-156">エデュケーション SKU リファレンス</span><span class="sxs-lookup"><span data-stu-id="d6aee-156">Education SKU reference</span></span>](sku-reference-edu.md)

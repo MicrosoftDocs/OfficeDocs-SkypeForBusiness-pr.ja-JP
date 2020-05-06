@@ -43,7 +43,7 @@
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [Teams でのユーザーのプレゼンス](presence-admins.md)
 ## [Teams のタグを管理する](manage-tags.md)
-## [Teams でクロスチームおよびチームごとの分析を表示する](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [Teams で分析を表示する](teams-analytics-and-reports/view-analytics.md)
 ## [Teams の有効期限と更新](team-expiration-renewal.md)
 ## [チームをアーカイブまたは削除する](archive-or-delete-a-team.md)
 ## [Slack から Teams に移行する](migrate-slack-to-teams.md)
@@ -59,9 +59,11 @@
 ### [Teams でのアプリの管理設定](admin-settings.md)
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Microsoft 365 または Office 365 とカスタム コネクタを使用する](Office-365-custom-connectors.md)
-### [基幹業務アプリを管理する](manage-your-lob-apps.md)
+### [自分のカスタム アプリを管理する](manage-your-custom-apps.md)
 ### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [組織のタスク アプリを管理する](manage-tasks-app.md)
+### [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 外部ユーザーと通信する
@@ -274,14 +276,6 @@
 #### [ダイレクト ルーティングを使用してアナログ デバイスを使用する方法](direct-routing-analog-devices.md)
 
 
-### [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
-
-### ダイレクト ルーティングの監視とトラブルシューティング
-#### [概要](direct-routing-monitor-and-troubleshoot.md)
-#### [正常性ダッシュボード](direct-routing-health-dashboard.md)
-### [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### 場所に基づくルーティング
 #### [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 #### [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
@@ -295,12 +289,14 @@
 #### [ローカル メディアの最適化を計画する](direct-routing-media-optimization.md)
 #### [ローカル メディアの最適化を構成する](direct-routing-media-optimization-configure.md)
 
-### ダイレクト ルーティングの監視とトラブルシューティング
-#### [概要](direct-routing-monitor-and-troubleshoot.md)
-#### [正常性ダッシュボード](direct-routing-health-dashboard.md)
 ### [PSTN 接続を使用するハイブリッド環境でのユーザー アカウント](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [ダイレクト ルーティングに移行する](direct-routing-migrating.md)
+
+### ダイレクト ルーティングの監視とトラブルシューティング
+#### [概要](direct-routing-monitor-and-troubleshoot.md)
+#### [正常性ダッシュボード](direct-routing-health-dashboard.md)
+
 
 ### ダイレクト ルーティングのテクニカル リファレンス
 #### [発信通話でのトランクのフェイルオーバー](direct-routing-trunk-failover-on-outbound-call.md)
@@ -680,6 +676,7 @@
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
+## [組織で Teams をサポートする](Known-issues.md)
 ## [通話品質を監視および管理する](monitor-call-quality-qos.md)
 ### [QoE のレビュー ガイド](quality-of-experience-review-guide.md)
 ### [Teams の QoS をセットアップする](QoS-in-Teams.md)
@@ -700,7 +697,6 @@
 ## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
 ## [よくあるご質問 (FAQ): リモートの従業員をサポートする](FAQ-support-remote-workforce.md)
 ## [Teams のサービス正常性を確認する](service-health.md)
-## [Teams の既知の問題](Known-issues.md)
 ## [Teams のサポート リソース](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->

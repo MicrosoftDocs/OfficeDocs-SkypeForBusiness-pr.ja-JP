@@ -7,6 +7,7 @@
 ### [要件](requirements.md)
 ### [オンライン ライセンス](rooms-licensing.md)
 ### [Azure Monitor による管理の計画](azure-monitor-plan.md)
+### [管理された会議室による管理の計画](managed-meeting-rooms.md)
 
 ## 展開
 ### [展開の概要](rooms-deploy.md)
@@ -25,7 +26,7 @@
 ## 管理
 ### [管理の概要](rooms-manage.md)
 ### [メンテナンスと運用](rooms-operations.md)
-### [既知の問題](known-issues.md)
+### [組織で Teams をサポートする](known-issues.md)
 ### [Azure Monitor でのデバイス](azure-monitor-manage.md)
 ### [XML を使用した設定](xml-config-file.md)
 ### [回復ツールの使用](recovery-tool.md)
