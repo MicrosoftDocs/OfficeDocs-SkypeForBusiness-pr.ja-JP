@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 16e02d3a1948ece53fbb51189880bb3dbd737b23
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c067abec99c032b8343de0a5c5fc0a1f3869efe5
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778743"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042224"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトに関する環境の検出
 ===================================================
@@ -115,7 +115,7 @@ ms.locfileid: "43778743"
 > | 質問 | 回答 | コメント |
 > |---|---|---|
 > | どの種類のユーザーが Teams で有効になっていますか? | <input type="checkbox">組織内のすべてのユーザー <br/> <input type="checkbox">特定のユーザー/ユーザーグループ <br>&nbsp;&nbsp; ([コメント] 列で指定し&nbsp;ます) ||
-> | どの Teams 機能とモダリティが使用されていますか? | <input type="checkbox">チャネルベースの会話 <br/> <input type="checkbox">プライベートチャット <br/> <input type="checkbox">ゲストアクセス <br/> <input type="checkbox">チャネル会議 <br/> <input type="checkbox">プライベート会議 <br/> <input type="checkbox">プライベート通話 <br/> <input type="checkbox">アドホックチャネル meetup <br/> <input type="checkbox">会議のビデオ <br/> <input type="checkbox">会議での画面共有 <br/> <input type="checkbox">電話会議 <br/><input type="checkbox">アプリケーション (アプリ)<br> &nbsp;&nbsp;タブ&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;ボット&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;コネクタ&nbsp; <input type="checkbox"><br><input type="checkbox">カスタムクラウドストレージの統合 <br>&nbsp;&nbsp; (Dropbox、Box、[ファイル]、[Google Drive]、[Egnyte &nbsp; )] <br/> <input type="checkbox">チャネルメールの統合 <br/> <input type="checkbox">その他 ([コメント] 列で指定します) | |
+> | どの Teams 機能とモダリティが使用されていますか? | <input type="checkbox">チャネルベースの会話 <br/> <input type="checkbox">プライベートチャット <br/> <input type="checkbox">ゲストアクセス <br/> <input type="checkbox">チャネル会議 <br/> <input type="checkbox">プライベート会議 <br/> <input type="checkbox">プライベート通話 <br/> <input type="checkbox">アドホックチャネル meetup <br/> <input type="checkbox">会議のビデオ <br/> <input type="checkbox">会議での画面共有 <br/> <input type="checkbox">電話会議 <br/><input type="checkbox">アプリケーション (アプリ)<br> &nbsp;&nbsp;タブ&nbsp; <input type="checkbox"><br>&nbsp;&nbsp;ボット&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;コネクタ&nbsp; <input type="checkbox"><br><input type="checkbox">カスタムクラウドストレージの統合 <br>&nbsp;&nbsp; Dropbox、Box、[ファイル]、[Google Drive]、[Egnyte] (近日&nbsp;公開) <br/> <input type="checkbox">チャネルメールの統合 <br/> <input type="checkbox">その他 ([コメント] 列で指定します) | |
 > | チームにどのようなアプリケーションを展開していますか? | | |
 > | 特定的に禁止している Teams の機能はありますか? <br/>[はい] の場合は、[コメント] 列の詳細を確認します。 | <input type="checkbox">うん <br/> <input type="checkbox">違います ||
 > | どの Teams クライアントが使用されていますか? | <input type="checkbox">Web <br/> <input type="checkbox">窓 <br/> <input type="checkbox">For <br/> <input type="checkbox">走ら <br/>  <input type="checkbox">I/o <br/> <input type="checkbox">用 <br/> <input type="checkbox">Windows Mobile | |

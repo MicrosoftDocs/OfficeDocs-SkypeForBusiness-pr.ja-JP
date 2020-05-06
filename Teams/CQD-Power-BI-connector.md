@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
-ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
+ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952446"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042594"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -158,6 +158,16 @@ CQD Power BI コネクタは、作成できるクエリの種類によっては�
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Power BI コネクタは、"ベータ" 状態から更新されますか?
 
 ベータタグにもかかわらず、Power BI 用の通話品質コネクタは、リリース版のコネクタであり、Power BI teams によって正式なセキュリティが署名されており、これを反映しています。 このベータ版タグを削除する認定プロセスは広範囲であるため、Power BI チームからのコミットメントを得て、コネクタに直接サポートを提供する必要があります。 現時点では時間の制約があるため、Power BI チームは現在、そのサポートとより広範な認定を提供することはできませんが、Microsoft Call Quality コネクタのセキュリティ、完全性、および全般的な機能を証明するための準備は完了しています。
+
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>ブラウザーの Advanced CQD と比べて、コネクタが遅いように見えるのはなぜですか? パフォーマンスを向上させるために何ができますか?
+
+さまざまなテンプレートのクエリパフォーマンスは、実際にはブラウザーとコネクタの両方で同じです。 差分は、実行される同時クエリの数によって異なります。 CQD のブラウザー内バージョンでは、あまり開発されていないため、情報密度の高い視覚エフェクトオプションがあまり多くないため、ほとんどのレポートでは、2-3 のクエリを一度に読み込むことが制限されていました。 一方、コネクタテンプレートには、多くの場合、20以上の同時クエリが表示されます。 以前に使用していたものと同じように、レポートを作成したい場合は、1つのタブあたりのクエリ数が2-3 を超えないようにレポートを作成してみてください。
+
+### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>クエリを実行するときに、定期的に1万行の上限に達していることがわかりました。 コネクタで1万以上の行を返すにはどうすればよいですか?
+
+1万行の上限は API end で実際に指定されており、パフォーマンスを大幅に向上させ、メモリ不足の原因で発生するクエリ実行エラーのリスクを軽減するために設計されています。
+
+結果の行数を増やす代わりに、コネクタのベストプラクティスに従ってレポートを再構成することをお勧めします。 ここに記載したテンプレートは、これらのベストプラクティスを示すように設計されています。 可能であれば、月、年、日付、地域、国など、より広い範囲の基数を使って Kpi を参照してください。このような場合は、より高い基数のサイズで段階的にドリルダウンすることができます。 ヘルプデスクと場所を拡張したレポートのどちらも、このドリルダウンワークフローの良い例です。
 
 ## <a name="related-topics"></a>関連項目
 

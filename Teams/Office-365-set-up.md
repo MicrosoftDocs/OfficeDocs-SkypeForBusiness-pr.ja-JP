@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 161022a385ec703ca4da9c5ea26840513ffa38b4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1240ebc29be11241c26054a9281e59d2654dca82
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902432"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041864"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>組織で Teams を有効にする
 
@@ -39,7 +39,7 @@ ms.locfileid: "43902432"
 
 
  
-個別のライセンスを管理する方法については、「[Microsoft Teams 用の Office 365 ライセンス](Office-365-licensing.md)」をご覧ください。 
+個々のライセンスの管理の詳細については、「 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>組織全体に対して Teams をオンまたはオフにする 

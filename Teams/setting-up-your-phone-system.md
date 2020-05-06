@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Office 365 で組織の電話システム (クラウド PBX) を設定する方法を説明したステップバイステップガイドです。
-ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 01e5016761481a49af5a2946dd151acb7c3930ea
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905569"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042434"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>組織で電話システムをセットアップする
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905569"
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>手順 2: 電話システムおよび通話プランのライセンスを購入し、割り当てる
 
-電話システムと通話プランのライセンスを1人のユーザーに割り当てるには、手順は「Office 365 ライセンスの割り当て」と同じです。  複数のユーザーに一括してライセンスを割り当てることもできます。 詳細については、「 [Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md)」を参照してください。
+電話システムと通話プランのライセンスを1人のユーザーに割り当てるには、手順は「Office 365 ライセンスの割り当て」と同じです。  複数のユーザーに一括してライセンスを割り当てることもできます。 詳細については、「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
 
 お住まいの国または地域で通話プランを利用できない場合は、ダイレクトルーティングを使用してオンプレミスのテレフォニーインフラストラクチャを電話システムに接続することを検討してください。  詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
 

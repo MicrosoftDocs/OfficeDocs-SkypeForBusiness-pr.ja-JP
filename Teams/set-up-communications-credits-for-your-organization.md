@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905589"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042944"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -42,11 +42,11 @@ Skype for Business または Microsoft Teams で無料番号を使用する場�
   
 これを実行するには、 **電話会議または電話システムのライセンス** をユーザーに割り当てる必要があります。
   
-- **電話会議**ライセンスをユーザーに自分に割り当てます。 [Assign Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md) を参照してください。
+- **電話会議**ライセンスをユーザーに自分に割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
     
     このライセンスを割り当てた後、電話会議を設定する必要があります。 詳細な手順については、「 [Office 365 で電話会議を試用または購入](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)する」を参照してください。
     
-- **電話システム**と**国内または国内および国際**通話プランのライセンスをユーザーに割り当てます。 [Assign Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md) を参照してください。
+- **電話システム**と**国内または国内および国際**通話プランのライセンスをユーザーに割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
     
     > [!NOTE]
     > 通信クレジットについては必須ではありませんが、**国内通話プラン**または**国内および国際通話プラン**のライセンスを割り当てる必要があります。

@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510786"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042844"
 ---
 # <a name="configure-resource-accounts"></a>リソースアカウントを構成する
 
@@ -43,7 +43,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
 自動応答または呼び出しキューが最上位の自動応答の下にネストされている場合、関連付けられたリソースアカウントには、自動応答とコールキューの構造に複数のエントリポイントが必要な場合にのみ、電話番号が必要になります。
 
-オンラインに所属している組織内のユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要であり、エンタープライズ voip を有効にするか、Office 365 通話プランを設定する必要があります。 「 [Microsoft Teams ライセンスを割り当てる](/MicrosoftTeams/assign-teams-licenses)」を参照してください。 エンタープライズ Voip を有効にするには、Windows PowerShell を使用できます。 たとえば、次のように実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+オンラインに所属している組織内のユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要であり、エンタープライズ voip を有効にするか、Office 365 通話プランを設定する必要があります。 「 [Microsoft Teams アドオンライセンスを割り当てる](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)」を参照してください。 エンタープライズ Voip を有効にするには、Windows PowerShell を使用できます。 たとえば、次のように実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 作成している電話システムの自動応答または呼び出しキューがネストされていて、電話番号は必要ない場合は、次の処理を行います。
 
@@ -62,7 +62,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
    米国以外の地域では、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 代わりに、「[組織の電話番号を管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)する」に移動して、米国外からその方法を確認します。
 
-2. 電話システムのライセンスを購入します。 参照:  
+2. 電話システムのライセンスを購入します。 参照先:  
    - [電話システム–仮想ユーザーライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 および E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
@@ -84,7 +84,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
     このコマンドの詳細については[、「Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 」を参照してください。
 
-5. [電話システム-仮想ユーザーまたは電話システムのライセンスをリソースアカウントに割り当てる。 「 [Microsoft Teams のライセンスを割り当て](/MicrosoftTeams/assign-teams-licenses)、[ライセンスを1ユーザーに割り当てる」を](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)参照してください。
+5. [電話システム-仮想ユーザーまたは電話システムのライセンスをリソースアカウントに割り当てる。 「 [Microsoft Teams アドオンライセンスを割り当てる](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)」および「[ライセンスを1ユーザーに割り当てる」を](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)参照してください。
 
    リソースアカウントに電話番号を割り当てる場合は、費用がかからない電話システム仮想ユーザーライセンスを使用できるようになります。 これにより、組織レベルで電話番号に電話システム機能が提供され、自動応答と通話キュー機能を作成できるようになります。
 

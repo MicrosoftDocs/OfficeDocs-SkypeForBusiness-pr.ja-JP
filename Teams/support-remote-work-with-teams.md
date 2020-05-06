@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: bdcb1dd78db1e3a555b58b40c17a7313d875317a
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940714"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042424"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -33,7 +33,7 @@ ms.locfileid: "43940714"
 
 - 6 か月無料で提供される **[Office 365 E1](e1-trial-license.md)** または **[Teams のフリーミアム版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用し、すべてのユーザーが Teams にアクセスできる状態になっていることを確認します。 サポートが必要な場合は、Microsoft アカウント チームまたはパートナーにお問い合わせください。
 
--  Teams が含まれているサブスクリプションが既にある場合は、**[Teams をすべてのユーザーに対して有効にします](assign-teams-licenses.md)**。
+-  Teams が含まれているサブスクリプションが既にある場合は、**[Teams をすべてのユーザーに対して有効にします](user-access.md)**。
     
 - 組織での使用を開始する方法については、「**[Teams での会議とライブ イベント](quick-start-meetings-live-events.md)**」を参照してください。 
 

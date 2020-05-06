@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。
-ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918844"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047360"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -51,11 +51,11 @@ CQD にアクセスするための[役割](https://docs.microsoft.com/office365/
 |グローバル管理者     |はい         |Yes         |Yes         |必要         |
 |Teams サービス管理者     |はい         |Yes         |Yes         |必要         |
 |Teams 通信管理者     |はい         |Yes         |Yes         |必要         |
-|Teams 通信サポート エンジニア     |はい         |Yes         |必要         |不要         |
-|Teams 通信サポート スペシャリスト     |はい         |いいえ         |はい         |不要         |
+|Teams 通信サポート エンジニア     |はい         |Yes         |必要         |いいえ         |
+|Teams 通信サポート スペシャリスト     |はい         |いいえ         |はい         |いいえ         |
 |Skype for Business 管理者     |はい         |Yes         |Yes         |必要         |
-|Azure AD グローバルリーダー |はい         |Yes         |必要         |不要         |
-|Microsoft 365 レポートリーダー<sup>1</sup>     |はい         |いいえ         |はい         |不要         |
+|Azure AD グローバルリーダー |はい         |Yes         |必要         |いいえ         |
+|Microsoft 365 レポートリーダー<sup>1</sup>     |はい         |いいえ         |はい         |いいえ         |
 
 <sup>1</sup> CQD レポートの読み取りに加えて、Microsoft 365 レポート閲覧者は、管理センターのすべての[アクティビティレポート](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)と、 [microsoft 365 導入コンテンツパック](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)のすべてのレポートを表示できます。
 
@@ -482,6 +482,8 @@ CQD で詳細なレポートを作成し、会議 ID にフィルターを適用
  
 テレメトリによって問題が発生するとは限りませんが、お客様の意思決定を確認して通知する方法を理解するのに役立ちます。 ネットワーク、デバイス、ドライバーまたはファームウェアの更新、使用、またはユーザーのどちらを使用していますか?
 
+### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>メジャーの通話回数とユーザー数の値に0.2% の差が表示されるのはなぜですか。また、正確なボリュームを取得するにはどうすればよいですか? 
+通話カウントとユーザーカウントのメジャーを計算するために、個別の countif 操作が、データセット内の呼び出しまたはユーザー id に対して実行されます。 大きなデータセットの場合、個別の countif が含まれる最大0.2% のエラーがあります。 最も正確なボリュームの場合は、この個別の countif 操作に依存しないため、ストリームカウントのメジャーに依存している必要があります。 データの量を減らすためにフィルター処理を行うと、エラーが発生する可能性がありますが、個別の通話とユーザーカウントでこのエラーソースを elimnate ない可能性があります。 メジャーに影響を与える[通話品質ダッシュボードで利用可能な寸法と測定値](dimensions-and-measures-available-in-call-quality-dashboard.md)を参照してください。
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>CQD v2 のレポートデータが CQD v3 のレポートデータと異なるのはなぜですか? 
 

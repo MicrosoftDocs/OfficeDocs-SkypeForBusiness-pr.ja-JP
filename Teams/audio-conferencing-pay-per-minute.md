@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft ボリュームライセンスを使用する組織で電話会議機能を有効にするための [分単位の支払い] オプションについて説明します。
-ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139166"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041724"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
@@ -74,11 +74,11 @@ ms.locfileid: "43139166"
   
 ## <a name="want-to-find-out-more-about-pricing"></a>価格設定の詳細については、こちらを参照してください。
 
- **価格を見る** [価格を確認し、アドオンライセンスを購入する方法](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how)、または次のいずれかを参照してください。
+ **価格を見る** 次の内容を参照してください。
   
-- [電話会議の料金](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [電話会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [電話システムの料金](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [電話システムの価格](https://products.office.com/skype-for-business/phone-system#Requirements)
     
 - [通話プランの価格](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     

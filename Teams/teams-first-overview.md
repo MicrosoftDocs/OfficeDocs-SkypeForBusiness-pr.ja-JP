@@ -15,12 +15,12 @@ description: このガイダンスを使用して、Microsoft Teams を最初の
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780376"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041714"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft Teams を最初にロールアウトする
 
@@ -43,7 +43,7 @@ Microsoft Teams を使用すると、従業員が世界中の従業員の現実�
     AAD 同期と同期される属性について理解するには、「 [AZURE AD Connect sync: 属性が Azure Active Directory に同期](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)されている」を参照してください。
 
 3.  Teams に割り当てられている適切なユーザーライセンス  
-    Teams のライセンスについて理解するには、「 [Microsoft teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
+    Teams のライセンスについて理解するには、「 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 4.  Teams 用に準備された組織のネットワーク  
     ネットワークの準備について理解するには、「 [Teams 用に組織のネットワークを準備](prepare-network.md)する」を参照してください。
@@ -54,7 +54,7 @@ Microsoft Teams を使用すると、従業員が世界中の従業員の現実�
 > 2019年9月1日以降に作成されたテナントは、Teams 専用モードでプロビジョニングされます。
 > 
 > [!IMPORTANT]
-> Skype for Business Server を展開していて、テナントが2019年9月1日以降にプロビジョニングされている場合は、プレミアサポートに連絡して、Teams の共存機能を有効にしてください。 Teams のライセンスをユーザーに割り当てる<span class="underline">前に</span>、"組織全体のアップグレードポリシー" が "アイランドモード" に設定されていることを確認してください。
+> Skype for Business Server を展開していて、テナントが2019年9月1日以降にプロビジョニングされている場合は、サポートに連絡して、Teams の共存機能を有効にしてください。 Teams のライセンスをユーザーに割り当てる<span class="underline">前に</span>、"組織全体のアップグレードポリシー" が "アイランドモード" に設定されていることを確認してください。
 
 ## <a name="migration-starting-points"></a>移行開始ポイント
 
@@ -233,7 +233,7 @@ Teams での VoIP/PSTN</td>
 
 1.  上の [ここから始めてください] セクションで、前提条件を満たしているかをご説明します。
 
-2.  テナントを諸島モードに切り替える (9/1/2019 の後にプロビジョニングされたテナントの場合は、プレミアサポートに連絡して、この変更を行う)  
+2.  テナントを諸島モードに切り替える (9/1/2019 の後にプロビジョニングされたテナントの場合は、この変更を行うためにサポートに連絡してください)  
     [共存およびアップグレードを設定する](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  会社のビジネス/会社のポリシーに従ってテナントを構成する  
@@ -292,7 +292,7 @@ Microsoft Teams は、組織が1つのプラットフォームですべての従
   - [Microsoft 365 グループ](office-365-groups.md)は、チームとチャネルの作成/管理に使用されます。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams IT アーキテクチャとテレフォニー ソリューション ポスター](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

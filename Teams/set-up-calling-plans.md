@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: お住まいの地域で利用可能なプランの表示、ライセンスの購入 & 購入、電話番号の取得、緊急対応の住所 & 場所の追加など、通話プランの設定方法について説明します。
-ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140880"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042404"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 
@@ -45,7 +45,7 @@ ms.locfileid: "43140880"
     > [!TIP]
     > Office 365の **電話システム** ライセンスと通話プランは一緒になっているため、通話プラン購入のオプションを確認するには、最初に **電話システム** ライセンスを取得する必要があります。
   
-2. まずライセンスを割り当て、組織内のユーザーに通話プランを割り当てます。 [Assign Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md) を参照してください。
+2. まずライセンスを割り当て、組織内のユーザーに通話プランを割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
     
 ## <a name="step-3-get-phone-numbers"></a>手順 3: 電話番号を取得する
 新しいユーザー番号を取得する方法には次の 3 通りあります。

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 電話会議を使って、クラウドの Teams サービスで通話を保留にする方法について説明します。
-ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905039"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042964"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -44,7 +44,7 @@ ms.locfileid: "43905039"
 
 ## <a name="license-required"></a>ライセンスが必要
 
-通話を保留および解除するには、ユーザーがエンタープライズ VoIP ユーザーであり、管理者がユーザーにコール パーク ポリシーを付与する必要があります。 ライセンス モデルの詳細については、「[Microsoft Teams 用の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
+通話を保留および解除するには、ユーザーがエンタープライズ VoIP ユーザーであり、管理者がユーザーにコール パーク ポリシーを付与する必要があります。 ライセンスモデルの詳細については、「 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>コール パークおよび保留解除機能の可用性
 

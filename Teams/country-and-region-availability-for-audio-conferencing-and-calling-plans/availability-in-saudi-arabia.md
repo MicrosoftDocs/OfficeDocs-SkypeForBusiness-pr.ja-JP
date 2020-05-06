@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business の Office 365 サービスと、サウジアラビアで利用できる Microsoft Teams について説明します。
-ms.openlocfilehash: 36d59a1c77824f86d4eca6d94450c71c4cd87cb6
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: ba64a0e3cb0e9bfd6da12cfaf70516cf3c508955
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958462"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047836"
 ---
 # <a name="availability-in-saudi-arabia"></a>サウジアラビアでの利用可能性
 
@@ -71,7 +71,7 @@ ms.locfileid: "43958462"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | 該当なし  <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
-|無料電話番号は使用できますか?  <br/> |いいえ  <br/> |
+|無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
   

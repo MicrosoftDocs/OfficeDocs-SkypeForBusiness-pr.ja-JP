@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表で、日本での Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: 47a4e034b298cdf751349e9cfbdc9947c8cc898f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+ms.openlocfilehash: 50c3509d19041dbf08440c7484a384def71aee57
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706992"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047846"
 ---
 # <a name="phone-number-management-for-japan"></a>日本での電話番号の管理
 
@@ -41,11 +41,11 @@ ms.locfileid: "41706992"
   
 |**実行する操作**|**これらの手順を実行して正しいフォームをダウンロードする**|
 |:-----|:-----|
-|日本で通話プランの新しいユーザー電話番号を取得する。   <br/> |ユーザー用の新規の電話番号を取得するには、「[Office 365 の SoftBank 通話](https://aka.ms/SoftBankVoicePlan)」にお問い合わせください。 ユーザーに割り当てることができるように、同社によりそれらの番号が組織に追加されます。 <br/>
-|日本での電話会議、自動応答、通話キュー用の新しいサービス電話番号を取得する。  <br/> |[お問い合わせください](mailto:ptnapac@microsoft.com)。|
-|日本のユーザー向けに Office 365 に電話番号を転送する。  <br/> |電話番号を転送するには、「[Office 365 の SoftBank 通話](https://aka.ms/SoftBankVoicePlan)」にお問い合わせください。 次に、これらの番号を組織に追加します。  <br/> |
-|日本での電話会議、自動応答、通話キュー用の電話番号を Office 365 に転送する。  |[お問い合わせください](mailto:ptnapac@microsoft.com) |
-|通話プラン電話番号を持っているユーザーに割り当てられた緊急対応のアドレスを変更する。 |緊急対応のアドレスを変更するには、「[Office 365 の SoftBank 通話](https://aka.ms/SoftBankVoicePlan)」にお問い合わせください。 同社がこの情報を更新できます。|
+|日本で通話プランの新しいユーザー電話番号を取得する。|ユーザー用の新規の電話番号を取得するには、「[Office 365 の SoftBank 通話](https://aka.ms/SoftBankVoicePlan)」にお問い合わせください。 ユーザーに割り当てることができるように、同社によりそれらの番号が組織に追加されます。 <br/>
+|電話会議、自動応答、および日本の通話キューの新しいサービス電話番号を取得します。|[お問い合わせください](mailto:ptnapac@microsoft.com)。|
+|日本の**ユーザー**向けに、Office 365 に転送された電話番号を取得します。|ユーザーの電話番号を移行するに[は、Office 365 のソフトバンク通話](https://aka.ms/SoftBankVoicePlan)にお問い合わせください。 次に、これらの番号を組織に追加します。  <br/> |
+|日本の**通話キュー**の Office 365 に転送された電話番号を取得します。|サービスの電話番号を移行するに[は、Office 365 のソフトバンク通話](https://aka.ms/SoftBankVoicePlan)にお問い合わせください。 次に、これらの番号を組織に追加します。|
+|通話プランの電話番号があるユーザーに割り当てられた緊急対応の住所を変更します。|緊急対応のアドレスを変更するには、「[Office 365 の SoftBank 通話](https://aka.ms/SoftBankVoicePlan)」にお問い合わせください。 同社がこの情報を更新できます。|
 |ユーザー番号をサービス番号に変更する。 |Office 365 の SoftBank 通話を使用している場合、現在サポートされていません。
 
 ## <a name="related-topics"></a>関連項目

@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: この記事では、Microsoft Teams 用に認定されている電話機と、それらの電話機でサポートされている機能のリストを取り上げています。
-ms.openlocfilehash: f7f579fcd5c939c5c844a0f4f4e3ba9a2aba97f8
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 5f8eaa1e4acd9563f31ed39e365c7699dbbaec04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951282"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042924"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
@@ -142,7 +142,7 @@ Teams 電話機のユーザーは、左上にあるメニューから **[サイ�
 
 ## <a name="required-licenses"></a>必要なライセンス
 
-Microsoft Teams ライセンスは、 [microsoft 365 および Office 365 サブスクリプション](Office-365-licensing.md)の一部として購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、利用可能な[電話システムライセンス](https://products.office.com/microsoft-teams/voice-calling)を参照してください。
+Microsoft Teams ライセンスは、 [microsoft 365 および Office 365 サブスクリプション](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)の一部として購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、利用可能な[電話システムライセンス](https://products.office.com/microsoft-teams/voice-calling)を参照してください。
 
 Teams の入手方法については[Microsoft Teams へのアクセス権を取得するにはどうしたらよいですか?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)を参照してください。
 

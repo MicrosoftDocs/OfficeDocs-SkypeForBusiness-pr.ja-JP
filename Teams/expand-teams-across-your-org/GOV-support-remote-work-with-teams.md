@@ -15,12 +15,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して政府組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079389"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042384"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Microsoft Teams を使用して政府機関のリモート ワーカーをサポートする
 
@@ -33,7 +33,7 @@ Office 365 for Government の一部として Microsoft Teams を実行してい�
 
   - 6 か月間無料で提供される **[Office 365 G1 プラン](../g1-trial-license.md)** を使用し、すべてのユーザーが Teams にアクセスできるようにします。 サポートが必要な場合は、Microsoft アカウント チームまたはパートナーにお問い合わせください。
 
-  - 既にサブスクリプションを持っている場合は、すべてのユーザーに対して **[Teams が有効になっている](../assign-teams-licenses.md)** ことを確認します。
+  - 既にサブスクリプションを持っている場合は、すべてのユーザーに対して **[Teams が有効になっている](../user-access.md)** ことを確認します。
 
   - Teams を組織に迅速に展開する方法については、「[**Teams の迅速展開 (PowerPoint)**](https://aka.ms/TeamsGovFastPath)」を参照してください。
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ae16216c5975407b3ec1c60a67231edd2ee8f1
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940971"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042494"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のタスクアプリを管理する
 
@@ -28,7 +28,7 @@ ms.locfileid: "43940971"
 
 ## <a name="overview-of-tasks"></a>タスクの概要
 
-Tasks アプリを利用すると、Microsoft Teams に対して、共同作業を行っている個人のタスクとプランナーを使ったチームタスクの統合を1か所で行うことができます。 ユーザーは、チームの左側のアプリとして、個々のチーム内のチャネルのタブとしてタスクにアクセスできます。 [タスク] の**個人用リスト**と**チームリスト**を使用すると、ユーザーは個人とチームのすべてのタスクを表示して管理し、作業の優先順位を付けることができます。 タスクは、Teams のデスクトップ、web、モバイルクライアントで利用できます。 
+タスクアプリでは、Microsoft Teams との統合されたタスク管理のエクスペリエンスを[実現し、Microsoft に](https://todo.microsoft.com/tasks/)よって実行される個人タスクと Planner を使ったチームタスクを1か所にまとめることができます。 ユーザーは、チームの左側のアプリとして、個々のチーム内のチャネルのタブとしてタスクにアクセスできます。 [タスク] の**個人用リスト**と**チームリスト**を使用すると、ユーザーは個人とチームのすべてのタスクを表示して管理し、作業の優先順位を付けることができます。 タスクは、Teams のデスクトップ、web、モバイルクライアントで利用できます。 
 
 > [!NOTE]
 > チームのデスクトップクライアントでタスクのエクスペリエンスをロールアウトすると、最初にアプリ名が**Planner**としてユーザーに表示されます。 この名前は、 **Planner によって**一時的に変更され、タスクに変更され、後で [**タスク**] に名前が変更されます。 Teams モバイルクライアントでは、ユーザーにはアプリ名が常に**タスク**として表示されます。 デスクトップエクスペリエンスを利用できるようになった後、モバイルエクスペリエンスの利用状況が少し遅れている可能性があります。

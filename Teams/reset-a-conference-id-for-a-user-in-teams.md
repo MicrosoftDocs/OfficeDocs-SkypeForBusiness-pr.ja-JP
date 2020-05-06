@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft Teams でユーザーの会議 ID をリセットし、会議の更新と移行ツールへのリンクを取得する手順について説明します。
-ms.openlocfilehash: 4874630d27f0ded2cdf9cf4bb0bc0912a426e544
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 008a479677723dedbfe1923f57358808b16fd9ec
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137617"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042454"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの会議 ID をリセットする
 
@@ -59,7 +59,7 @@ ms.locfileid: "43137617"
 
 - 電話会議**のセクションで**、[電話会議情報を**メールで送信**する] をクリックすると、会議 ID、ダイヤルイン電話番号など、会議のすべての情報をメールでユーザーに送信できます。 PIN は送信されません。
     
-- 会議 ID には7桁の数字が含まれ、その長さを変更することはできません。
+- 会議 ID には8桁の数字が含まれており、その長さを変更することはできません。
     
 - 会議 ID をリセットすると、新しい会議 ID が [ **電話会議 ID**] に一覧表示されます。
     

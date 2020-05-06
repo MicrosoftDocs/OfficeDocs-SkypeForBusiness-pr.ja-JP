@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749574"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042214"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -124,12 +124,12 @@ Teams 会議アドインの問題を解決するには、次の手順に従い�
 
 Teams Meeting add-in for Outlook のアドインをインストールできない場合は、次のトラブルシューティングの手順を試してください。
 
+- Windows 7ユーザーは、Teams Meetingアドインを機能させるために、[Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
 - チームでの会議のスケジュールを有効にするチームのアップグレードポリシーがユーザーにあることを確認します。 詳細については、「 [Skype For business から Teams にアップグレードする](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
 - Outlook アドインを許可する Teams 会議ポリシーがユーザーにあることを確認します。 詳細については、「 [Teams の会議ポリシーを管理](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)する」を参照してください。
 - ユーザーに Teams デスクトップクライアントがインストールされていることを確認します。 会議アドインは、Teams web クライアントを使用している場合にのみインストールされます。
-- ユーザーが regsvr32 を実行するためのアクセス許可を持っていることを確認します。
+- ユーザーが regsvr32 を実行するためのアクセス許可を持っていることを確認します。  詳細については、こちらを参照してくださいhttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
 - Outlook デスクトップクライアントで利用できるすべての更新プログラムが適用されていることを確認します。
-- ログインしているユーザー アカウント名にスペースが含まれていないことを確認します。 これは既知の問題であり、今後のビルドで修正される予定です。
 - 次の手順を実行します。
   - Teamsのデスクトップ クライアントを再起動します。
   - [Teamsのデスクトップ クライアント]からサインアウトして、もう一度サインインします。

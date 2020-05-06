@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: b83113df089d22aeab705f0eb4ebc1d808b25c28
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940694"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041934"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 グループおよび Microsoft Teams
 =====================================
@@ -56,3 +56,11 @@ Office 365 管理者は、Exchange 共有メールボックス、SharePoint ド�
 ユーザーのグループの機能と機能は、グループメンバーシップの場所によって異なります。 たとえば、チームのメンバーを削除すると、Office 365 グループからも削除されます。 グループから削除すると、チームクライアントからチームとチャネルが直ちに削除されます。 Microsoft 365 管理センターを使用してグループからユーザーを削除すると、SharePoint Online ドキュメントライブラリ、Yammer グループ、共有 OneNote などの他の共同作業の側面にはアクセスできなくなります。 ただし、チームのチャット機能へのアクセス権は、約2時間で引き続き利用できます。
 
 チームメンバーを管理するためのベストプラクティスとして、チームクライアントからメンバーを追加または削除して、他の依存クラウドアプリケーションへの適切な連鎖アクセス制御が適用されていることを確認します。 さらに、分離された環境では、ユーザーが使用したリソースに引き続きアクセスできるという印象を与えないようにします (次の同期サイクルで、サービスの特定のコンポーネントへのアクセスが追加または取り消されるまで)。 Teams クライアントの外部でチームメンバーを追加または削除する場合 (Microsoft 365 管理センター、Azure AD、または Exchange Online PowerShell を使用して)、変更が Teams に反映されるまでに最大で24時間かかる場合があります。
+
+<a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>会議のスケジュールを設定しているときにグループを出席者として追加する機能
+----------------------------------------------------------
+
+2020年5月以降、グループをスケジュールされた会議に招待できるようになりました。次の点にご注意ください。
+1. 既存の Microsoft 365 グループから作成された既存の Microsoft 365 グループとチームはすべて検索可能になり、会議に追加することができます。 ただし、メンバーは、グループのサブスクリプションに基づいて会議出席依頼を受信します。
+2. 最初から作成されたチームは、2018でも検索可能になりますが、既定のグループのサブスクリプションによって会議の出席依頼が受信されることはありません。 "自分に返信する" というメッセージが表示されます。 グループの設定を変更することで、Outlook から変更することができます。
+3. 2018年5月以降に最初から作成された Teams は検索可能ではないため、"HiddenFromAddressListsEnabled" プロパティを使って非表示になります。 これは管理者によって管理される設定であり、管理者が変更することができます。

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: クラウド自動応答の概要と、その使用方法について説明します。発信者がメニューシステムを移動して、ユーザーや部署への通話の検索、配置、転送を実行できるようにする方法について説明します。
-ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 614077237f95c97c584a467c5852f97f438e92b8
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905139"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042604"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>クラウドの自動応答とは
 
@@ -64,7 +64,7 @@ Office 365 で電話システムの自動応答を設定するには、「[ク�
 > 自動応答と通話キューの直接ルーティングサービス番号は、Microsoft Teams ユーザーに対してサポートされており、通話エージェントにのみ対応しています。
 
    > [!TIP]
-   > **電話システム**のライセンスを持つオンラインユーザーであるオペレーターまたはメニューオプションへの通話をリダイレクトするには、そのアカウントのエンタープライズ voip を有効にするか、通話プランを割り当てる必要があります。 [Assign Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md) を参照してください。 Windows PowerShell を使用することもできます。 たとえば、次を実行します。
+   > **電話システム**のライセンスを持つオンラインユーザーであるオペレーターまたはメニューオプションへの通話をリダイレクトするには、そのアカウントのエンタープライズ voip を有効にするか、通話プランを割り当てる必要があります。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。 Windows PowerShell を使用することもできます。 たとえば、次を実行します。
   
 - 自動応答の無料サービス番号を取得して使用するには、通信クレジットを設定する必要があります。 これを行うには、「[通信クレジットとは](what-are-communications-credits.md)」を参照して、[組織の通信クレジットを設定](set-up-communications-credits-for-your-organization.md)します。
 

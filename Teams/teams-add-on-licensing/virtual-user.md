@@ -20,14 +20,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 組織内のリソースアカウントに無料の電話システム (仮想ユーザーライセンスまたは有料電話システムユーザーライセンス) を割り当てる方法について説明します。
-ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904789"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042414"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 電話システム–仮想ユーザーライセンス 
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 電話システム–仮想ユーザーライセンス
 
 電話システムライセンスを持つ組織では、無料の Microsoft 365 電話システム–仮想ユーザーライセンス、または有料電話システムユーザーライセンスをリソースアカウントに割り当てることができます。 通話プランは必要ありません。 すべての自動応答または通話キューには、関連するリソースアカウントが必要です。 電話番号が必要なリソースアカウントには、無料の Microsoft 365 電話システム–仮想ユーザーライセンスまたは有料電話システムユーザーライセンスが必要です。その前に電話番号をリソースアカウントに適用することができます。
 
@@ -41,7 +41,7 @@ ms.locfileid: "43904789"
 組織では、全体のサイズに応じて、Microsoft 365 電話システム–仮想ユーザーライセンスが割り当てられています。 電話システムや電話システムを含む、少なくとも1つのライセンスを持つ組織には、無料で25の仮想ユーザーライセンスが用意されています。 組織に10個の電話システムユーザーライセンスを追加すると、Microsoft 365 電話システムがさらに1つ増えます。仮想ユーザーライセンスが利用可能になります。
 
 > [!NOTE]
-> 電話システムは、Office 365 E1 および E3 で利用可能なアドオンライセンスです。 電話システムは、Office 365 E5 および Microsoft 365 Business Voice ライセンスの一部としても含まれています。
+> 電話システムは、Microsoft 365 および Office 365 E1 および E3 で利用可能なアドオンライセンスです。 電話システムは、Microsoft 365 E5、Office 365 E5、および Microsoft 365 ビジネス Voip ライセンスの一部としても含まれています。
 
 組織で利用可能な無料の Microsoft 365 電話システム–自動応答または通話キューノードを作成するための仮想ユーザーライセンスを使用している場合は、リソースアカウントを使って、有料電話システムのライセンスを使用することができます。 ほとんどの組織には、スケーリングプランに基づいて十分な仮想ユーザーライセンスがあります。 
 

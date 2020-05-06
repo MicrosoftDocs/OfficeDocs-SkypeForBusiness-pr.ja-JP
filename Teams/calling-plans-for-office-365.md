@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。 '
-ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905019"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041734"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 の通話プラン
 
@@ -58,19 +58,19 @@ ms.locfileid: "43905019"
     ![音声通話プランを購入するためのオプションを示すスクリーンショット。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > お使いのプランによっては、通話システムのライセンスを購入するために、さらにアドオンを購入する必要がある場合があります。 詳細については、「[Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」の「プランに基づいたライセンス オプション」を参照してください。
+    > お使いのプランによっては、通話システムのライセンスを購入するために、さらにアドオンを購入する必要がある場合があります。 詳細は、[Microsoft Teamsアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)をご覧ください。
   
 2. 電話システムのライセンスを購入したら、通話プランを購入することができます。そのためには、**Microsoft 365 管理センター**にサインインし、**[請求]** > **[サービスの購入]** > **[アドオン サブスクリプション]** の順に選択して、**[今すぐ購入]** をクリックします。 そこに通話プランが表示されます。
     
     ![音声通話プランのオプションを示すスクリーンショット。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-組織のニーズに応じて、ユーザーごとに異なる通話プランを購入し、割り当てることができます。 必要な通話プランを選択したら、チェックアウトに進みます。 Microsoft 365 管理センターの各ユーザーにプランを割り当てます。 その方法については、「[Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md)」を参照してください。
+組織のニーズに応じて、ユーザーごとに異なる通話プランを購入し、割り当てることができます。 必要な通話プランを選択したら、チェックアウトに進みます。 Microsoft 365 管理センターの各ユーザーにプランを割り当てます。 方法については、「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>ハイブリッド ユーザーに対してオンプレミスの PSTN 接続を提供するサービス プロバイダーをお持ちですか?
 
 その場合、通話プランを購入する必要はありません。 Office 365 Enterprise E5 には**通話システム**のアドオンが含まれているため、チェックアウトに進んでください。
   
-次に、Microsoft 365 管理センターのユーザーに Enterprise E5 または**電話システム**のアドオン ライセンスを割り当てます。 その方法については、「[Microsoft Teams ライセンスを割り当てる](assign-teams-licenses.md)」を参照してください。
+次に、Microsoft 365 管理センターのユーザーに Enterprise E5 または**電話システム**のアドオン ライセンスを割り当てます。 方法については、「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
   
 ## <a name="pricing-information"></a>価格情報
 
