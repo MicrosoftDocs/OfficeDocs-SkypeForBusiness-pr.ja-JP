@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940774"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042444"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams のアイテム保持ポリシー
 
@@ -55,7 +55,7 @@ Teams のアイテム保持ポリシーを使用すると、次のことがで�
 
 データにアイテム保持ポリシーが適用される場合、データは元の場所に保持されるため、ユーザーはそのデータを使用し続けることができます。 ポリシーが適用されるデータをユーザーが編集または削除する場合、安全な場所にコピーが保存され、ポリシーが有効な間はそこで保持されます。
 
-アイテム保持ポリシーの最小ライセンス要件は、Office 365 E3 です。 ライセンスの詳細については、「[Microsoft Teams 用の Office 365 ライセンス](Office-365-licensing.md)」を参照してください。
+アイテム保持ポリシーの最小ライセンス要件は、Office 365 E3 です。 ライセンスの詳細については、「 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 ## <a name="how-teams-retention-policies-work"></a>Teams のアイテム保持ポリシーのしくみ
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Microsoft Teams で電話会議情報を記載したメールをユーザーに送信する方法について説明します。
-ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905549"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042584"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での回線共有機能
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905549"
 
 代理人になるには、PSTN 接続 (通話プランライセンスまたは直接ルーティング OnlineVoiceRoutingPolicy) を持つ電話システムが必要です。または、委任を設定するか、他のユーザーに代わって通話を発信または受信することができます。
 
-管理者と代理人は両方とも、PSTN 接続 (通話プランライセンスまたは直接ルーティング OnlineVoiceRoutingPolicy のいずれか) を持つ電話システムを使用している必要があります。 共有回線のエクスペリエンスは、委任の一部であり、電話システムにも含まれています。 ライセンスモデルの詳細については、「 [Microsoft Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
+管理者と代理人は両方とも、PSTN 接続 (通話プランライセンスまたは直接ルーティング OnlineVoiceRoutingPolicy のいずれか) を持つ電話システムを使用している必要があります。 共有回線のエクスペリエンスは、委任の一部であり、電話システムにも含まれています。 ライセンスモデルの詳細については、「 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>委任および共有の線の外観を設定する
 

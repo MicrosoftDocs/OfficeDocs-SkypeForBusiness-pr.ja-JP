@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: カスタムチームアプリを開発から展開に移動する方法について説明します。
-ms.openlocfilehash: 8166ba6b46853510a9f4e966ddca4e5b8686b551
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006056"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064532"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Microsoft Teams でカスタムアプリを管理する
 
@@ -139,7 +139,11 @@ Microsoft は、<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 * 新しいコネクタが追加されました
 * 新しい静的タブが追加されました
 * 新しい [構成可能] タブが追加されました
-* "webApplicationInfo" 内のプロパティが変更されました
+* "WebApplicationInfo" 内のプロパティが変更されました
+
+![新しいバージョンが利用可能なアプリが表示されているアプリの一覧のスクリーンショット](media/manage-your-custom-apps-update1.png)
+
+![アプリのアップグレードオプションのスクリーンショット](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-apps"></a>関連アプリ
 

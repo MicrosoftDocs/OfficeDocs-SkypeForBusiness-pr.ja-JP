@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 853e897a31b229962acec8f85d8a0a3e966c507b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905859"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041874"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Microsoft Teams の導入の推進を開始する
 
@@ -36,7 +36,7 @@ Microsoft Teams の導入を推進することで、企業内で優れたユー�
 
 作業を始める前に、次のことを確認してください。
 
-- [Teams がインストール](get-clients.md)され、[ライセンスが環境に割り当てら](office-365-licensing.md)れます。 少なくとも、主要なチームと、この初期プロジェクトフェーズに参加する事前の採用者に割り当てる必要があります。
+- [Teams がインストール](get-clients.md)され、[ライセンスが環境に割り当てら](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)れます。 少なくとも、主要なチームと、この初期プロジェクトフェーズに参加する事前の採用者に割り当てる必要があります。
 
 - デスクトップとモバイルアプリケーションをダウンロードしました。 
 

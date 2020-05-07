@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Microsoft Teams のチャット、チーム、チャネル、およびアプリを展開する際の段階的なガイダンス
+description: 組織のプロファイルとビジネスの要件に基づいて、Microsoft Teams のチャット、チーム、チャネル、およびアプリを展開する際の段階的なガイダンスです。
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,13 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776572"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901942"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -96,7 +97,7 @@ Teams には、組織に適した Teams の管理に使用できる、カスタ�
 
 ### <a name="guest-access"></a>ゲスト アクセス
 
-Teams のゲスト アクセスを使用すると、組織の外部にいる個人がチームおよびチャネルにアクセスできるようになります。 ゲスト アクセスの設定を使用すると、ゲスト ユーザーが使用できる (または使用できない) 機能を制御できます。 ゲスト アクセスは、既定でオフになっています。 詳細については、「[Teams でのゲスト アクセス](https://docs.microsoft.com/microsoftteams/guest-access)」を参照してください。
+Teams のゲスト アクセスを使用すると、組織の外部にいる個人がチームおよびチャネルにアクセスできるようになります。 ゲスト アクセスの設定を使用すると、ゲスト ユーザーが使用できるまたは使用できない機能を制御できます。 ゲスト アクセスは、既定でオフになっています。 詳細については、「[Teams でのゲスト アクセス](https://docs.microsoft.com/microsoftteams/guest-access)」を参照してください。
 
 > [!NOTE]
 > 外部アクセスとゲスト アクセスの詳細ついては、「[Microsoft Teams の別の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」を参照してください。
@@ -240,7 +241,7 @@ Teams は、主要な生産性シナリオ (会議、予定表、相互運用チ
 
 ### <a name="government---gcc-considerations"></a>政府機関: GCC に関する考慮事項
 
-政府機関向け Microsoft 365 (GCC: Government Community Cloud) の使用は、米国連邦、州、地方、民族、または領土の政府機関など、政府の規制と要件の対象になるデータを扱う機関で Office 365 の展開を推進している IT 担当者の要件を満たすために適しています。
+政府機関向け Microsoft 365 (GCC: Government Community Cloud) の使用は、米国連邦、州、地方、民族、または領土の政府機関など、政府の規制と要件の対象になるデータを扱う機関で Office 365 の展開を推進している IT 担当者の要件を満たすのに適しています。
 
 | 確認事項 | アクション |
 |--------------|--------|

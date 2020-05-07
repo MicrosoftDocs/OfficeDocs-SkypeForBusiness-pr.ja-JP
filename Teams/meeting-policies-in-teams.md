@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: 3a482ce562c0d0281c1bc289dfc953f416a8f133
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940704"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139211"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -106,10 +106,11 @@ ms.locfileid: "43940704"
 - [Outlook アドインを許可する](#allow-the-outlook-add-in)
 - [チャネルの会議スケジュールを許可する](#allow-channel-meeting-scheduling)
 - [プライベート会議のスケジュールを許可する](#allow-scheduling-private-meetings)
+- [プライベート会議で "今すぐ会議" を許可する](#allow-meet-now-in-private-meetings)
 
 ### <a name="allow-meet-now-in-channels"></a>チャネルで "今すぐ会議" を許可する
 
-これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 これをオンにすると、ユーザーが Teams チャネルにメッセージを投稿するときに、ユーザーは作成ボックスの下の [**今すぐ会議**] をクリックして、チャネルでアドホック会議を開始できます。
+これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 これをオンにすると、ユーザーが Teams チャネルにメッセージを投稿するときに、ユーザーは作成ボックスの下の [**今すぐ会議**] をクリックして、チャネルでアドホック会議を開始できます。 既定値は True です。
 
 ![メッセージの下の [今すぐ会議] アイコンが表示されたスクリーンショット](media/meeting-policies-meet-now.png)
 
@@ -123,7 +124,7 @@ ms.locfileid: "43940704"
 
 ### <a name="allow-channel-meeting-scheduling"></a>チャネルの会議スケジュールを許可する
 
-これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルで会議をスケジュールできるかどうかを制御します。  これをオフにすると、ユーザーは Teams チャネルで会議を開始するときに [**会議の予約**] オプションを使用できなくなり、Teams のユーザーに対して [**チャネルの追加**] オプションが無効になります。
+これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルで会議をスケジュールできるかどうかを制御します。  これをオフにすると、ユーザーは Teams チャネルで会議を開始するときに [**会議の予約**] オプションを使用できなくなり、Teams のユーザーに対して [**チャネルの追加**] オプションが無効になります。 既定値は True です。
 
 ![Teams の [会議の予約] オプションが表示されたスクリーンショット](media/meeting-policies-schedule-a-meeting.png)
 
@@ -133,7 +134,11 @@ ms.locfileid: "43940704"
 
 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams でプライベート会議をスケジュールできるかどうかを制御します。 チームのチャネルに公開されていない会議はプライベートです。
 
-[**プライベート会議のスケジュールを許可する**] および [**チャネルの会議スケジュールを許可する**] を無効にすると、Teams のユーザーに対して [**必須出席者の追加**] および [**チャネルの追加**] オプションが無効になります。
+[**プライベート会議のスケジュールを許可する**] および [**チャネルの会議スケジュールを許可する**] を無効にすると、Teams のユーザーに対して [**必須出席者の追加**] および [**チャネルの追加**] オプションが無効になります。 既定値は True です。
+
+### <a name="allow-meet-now-in-private-meetings"></a>プライベート会議で "今すぐ会議" を許可する
+
+これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーがアドホック プライベート会議を開始できるかどうかを制御します。  既定値は True です。
 
 <a name="bkaudioandvideo"> </a>
 
@@ -314,7 +319,6 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 - [匿名ユーザーが会議を開始できるようにする](#let-anonymous-people-start-a-meeting)
 - [ユーザーの参加を自動的に許可する](#automatically-admit-people)
 - [ダイヤルイン ユーザーによるロビーのバイパスを許可する](#allow-dial-in-users-to-bypass-the-lobby)
-- [プライベート会議で "今すぐ会議" を許可する](#allow-meet-now-in-private-meetings)
 - [ライブ キャプションを有効にする](#enable-live-captions)
 - [会議でチャットを許可する](#allow-chat-in-meetings)
 
@@ -378,9 +382,6 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 |   | 組織内のすべてのユーザー     |ロビーで待つ         |
 |   | 組織内およびフェデレーション組織のすべてのユーザー      | ロビーで待つ         |
 
-### <a name="allow-meet-now-in-private-meetings"></a>プライベート会議で "今すぐ会議" を許可する
-
-これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーがアドホック プライベート会議を開始できるかどうかを制御します。 
 
 ### <a name="enable-live-captions"></a>ライブ キャプションを有効にする
 

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 通話共有とグループ通話のピックアップユーザーが着信した通話を同僚と共有できるようにして、ユーザーが連絡不能なときに通話をキャプチャできるようにします。
-ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780786"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042954"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 
@@ -43,7 +43,7 @@ Microsoft Teams の通話共有とグループ通話のピックアップ機能�
 
 ## <a name="license-required"></a>ライセンスが必要
 
-通話共有とグループ通話のピックアップをセットアップして使用するには、ユーザーはエンタープライズ Voip を有効にしている必要があります。 ライセンスモデルの詳細については、「 [Microsoft Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
+通話共有とグループ通話のピックアップをセットアップして使用するには、ユーザーはエンタープライズ Voip を有効にしている必要があります。 ライセンスモデルの詳細については、「 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 ## <a name="configure-group-call-pickup"></a>グループ通話のピックアップを構成する
 
