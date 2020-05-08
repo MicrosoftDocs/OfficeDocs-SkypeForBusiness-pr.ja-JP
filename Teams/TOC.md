@@ -624,14 +624,14 @@
 ## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
 ### [リモート学習の開始](remote-learning-edu.md)
+### [EDU 管理者向けの Microsoft Teams ポリシー パッケージ](policy-packages-edu.md)
 ### [多数のユーザー セットにポリシーを割り当てる](batch-policy-assignment-edu.md)
-### [教育機関向けの Teams のライセンス](teams-edu-licensing.md)
 ### [教育機関管理者向けの低帯域幅ガイダンス](edu-remote-low-bandwidth.md)
 ### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
 ### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
-### [EDU 管理者向けの Microsoft Teams ポリシー パッケージ](policy-packages-edu.md)
 ### [Microsoft Education のガバナンスに関するよくある質問 (管理者向け)](plan-teams-governance-edu.md)
 ### [Moodle の統合をインストールする](install-moodle-integration.md)
+### [教育機関向けの Teams のライセンス](teams-edu-licensing.md)
 ### [教育 SKU の参照](sku-reference-edu.md)
 
 ## 現場担当者向けの Teams
@@ -734,16 +734,8 @@
 
 ## ライセンス
 ### [Teams へのユーザー アクセスを管理する](user-access.md)
-### [Teams の Microsoft 365 と Office 365 ライセンス](office-365-licensing.md)
-### [Teams のライセンスを割り当てる](assign-teams-licenses.md)
-### [Teams アドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### プランに基づいたライセンスオプション
-##### [Microsoft 365 Business Standard](teams-add-on-licensing/office-365-business-premium.md)
-##### [Microsoft 365 Apps for enterprise](teams-add-on-licensing/office-365-premium-pro-plus.md)
-##### [Office 365 Enterprise E1 および E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-##### [Office 365 Enterprise E5 (電話会議なし)](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-##### [GOV、EDU、および非営利団体](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Teams アドオン ライセンス オプション](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+### [Teams アドオンのライセンス割り当て](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [Office 365 E1 試用版を管理する](e1-trial-license.md)
 ### [Office 365 G1 試用版を管理する](g1-trial-license.md)
 ### [Teams の商用試用版サービスの管理](iw-trial-teams.md)
@@ -751,7 +743,7 @@
 ### [Teams の無料版を管理する](manage-freemium.md)
 ### [Teams を無料で月額プラン バージョンにアップグレードする](upgrade-freemium.md)
 ### [メッセージング ポリシーのライセンス](teams-add-on-licensing/pri-message.md)
-### [仮想ユーザー ライセンス](teams-add-on-licensing/virtual-user.md)
+### [Microsoft 365 電話システム - 仮想ユーザー ライセンス](teams-add-on-licensing/virtual-user.md)
 
 
 ## Microsoft 365 や Office 365 との相互運用性

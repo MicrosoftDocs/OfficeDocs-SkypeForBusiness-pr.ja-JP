@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 581d67f0083ea8b0e91615a96685f10f4cd64785
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940951"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159004"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>チームターゲット設定の階層を設定する
 
@@ -118,7 +118,7 @@ CSV ファイルには、次の3つの列を、最初の列から順に入力す
 > [!IMPORTANT]
 > この手順を実行するには、PowerShell テストギャラリーから最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 この方法については、「 [Powershell テストギャラリーから最新の Teams powershell モジュールをインストール](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)する」を参照してください。
 
-スキーマ CSV ファイルで階層を定義したら、それを Teams にアップロードできます。 これを行うには、次のコマンドを実行します。 この手順を実行するには、管理者である必要があります。 
+スキーマ CSV ファイルで階層を定義したら、それを Teams にアップロードできます。 これを行うには、次のコマンドを実行します。 この手順を実行するには、グローバル管理者または Teams サービス管理者である必要があります。
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"

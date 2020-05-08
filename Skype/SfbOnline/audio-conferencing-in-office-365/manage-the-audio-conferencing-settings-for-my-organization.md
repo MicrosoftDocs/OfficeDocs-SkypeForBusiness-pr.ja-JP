@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン会議ライセンスと会議 ID をユーザーとその他のさまざまなダイヤルイン会議設定に割り当てる方法については、「Skype for Business Online の手順」を参照してください。 '
-ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa8e9cbaf063ebf1780e3f8ce45b7bd54ced474f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777982"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164146"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
 
@@ -88,7 +88,7 @@ Skype for Business のすべての電話会議の設定を1か所で表示した
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>You can also use the Windows PowerShell and run:
 
-ユーザーに送信されるメール メッセージの、差出人の連絡先情報を変更する[](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
+実際のメールアドレスや、送信者の連絡先情報の表示名など、ユーザーに自動的に送信されるメールに変更を加えることができます。 既定では、メールの送信者は Microsoft 365 または Office 365 ですが、Windows PowerShell と[-](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)コマンドレットを使用して、メールアドレスと表示名を変更できます。 ユーザーにメールを送信するメールアドレスを変更するには、次のことを行う必要があります。
 
 - Enter the email display name in the  _SendEmailFromDisplayName_ parameter.
 
@@ -243,10 +243,10 @@ You can also set the primary and secondary languages that are supported when you
 1. 職場または学校のアカウントを使用してサインインします。
 
 2. **Skype For business**> 管理センターに移動します。
+ 
+3. **Skype for business 管理センター**の左側のナビゲーションで、[**電話会議** > の**Microsoft bridge**] に移動します。 ここでは、
 
-3. 職場または学校のアカウントを使用して、Office 365 にサインインします。******** > ****
-
-   - 電話会議で使うために Office 365 によって設定された電話番号を表示する。
+   - 電話会議に使用するために Microsoft 365 または Office 365 によって設定された電話番号を表示します。
 
    - 場所を表示したり、電話会議の自動応答で使用する第 1 言語と第 2 言語を表示したりする。
 
@@ -315,11 +315,11 @@ Windows PowerShell を使用して組織レベルで管理できる複数の設�
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell を使い始めるには、次のトピックを参照してください。
-- Windows PowerShell は、ユーザーと、ユーザーに許可されていることと許可されていないことを管理するためにあるということです。Windows PowerShell があれば、一元管理を使用して Office 365 を管理し、複数のタスクを抱えているときに、日常の仕事を簡素化することができます。Windows PowerShell を開始するには、これらのトピックを参照してください。
+- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常業務を簡素化することができます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
 
 - Windows PowerShell には、管理センターを使用する場合にのみ、速度、シンプルさ、生産性の向上という利点があります。たとえば、多くのユーザーの設定を一度に変更する場合です。 次のトピックで、これらの利点を説明します。
 

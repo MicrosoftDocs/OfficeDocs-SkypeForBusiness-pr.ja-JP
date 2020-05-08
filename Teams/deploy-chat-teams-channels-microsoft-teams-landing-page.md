@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901942"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041844"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -151,11 +151,11 @@ Teams のアプリを展開および管理する方法の詳細については�
 
 ### <a name="teams-licensing"></a>Teams のライセンス
 
-Teams は多くの Office 365 ライセンスの一部として提供されています。 Teams のライセンスの詳細については、「[Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。
+Teams は多くの Office 365 ライセンスの一部として提供されています。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 |確認事項|アクション |
 |------------|-------|
-|展開しようとしている Teams のすべての機能を使用するために必要なライセンスをユーザーが所持しているか? | ライセンス要件の詳細については、「[Teams の Office 365 ライセンス](office-365-licensing.md)」を参照してください。|
+|展開しようとしている Teams のすべての機能を使用するために必要なライセンスをユーザーが所持しているか? | ライセンス要件の詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。|
 |||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange と SharePoint の相互運用性 

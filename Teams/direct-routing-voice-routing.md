@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone システムのダイレクトルーティングでボイスルーティングを構成する方法について説明します。
-ms.openlocfilehash: 8889475acda00cf1565f944c7925ba0fb5194ec5
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 0611684c79d92572ade41f2545096fe1d9bb4dd2
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157989"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159014"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>直接ルーティング用のボイスルーティングを構成する
 
 この記事では、電話システムのダイレクトルーティングのボイスルーティングを構成する方法について説明します。  これは、次の手順の手順3で、直接ルーティングを構成します。
 
 - 手順1 [SBC と Microsoft 電話システムを接続して接続を検証する](direct-routing-connect-the-sbc.md) 
-- 手順2 [ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする](direct-routing-enable-users.md)    
+- 手順2 [ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする](direct-routing-enable-users.md)
 - **手順3音声ルーティングを構成する**(この記事)
 - 手順4。 [数値を別の形式に変換する](direct-routing-translate-numbers.md) 
 
@@ -81,43 +81,88 @@ SBCs は、アクティブなバックアップとして指定できます。 Ac
   > [!NOTE]
   > ルート "Other + 1" の優先度の値は、パターン + 1 XXX XXX XX XX と一致するルートが1つだけであるため、この例では問題ありません。 ユーザーが + 1 324 567 89 89 に通話を発信し、sbc5.contoso.biz と sbc6.contoso.biz の両方を利用できない場合は、通話が切断されます。
 
-次の表は、3つのボイスルートを使った構成をまとめたものです。 この例では、3つのルートすべてが同じ PSTN 使用状況 "US とカナダ" に含まれています。  すべてのルートは、PSTN の使用状況 "US およびカナダ" と関連付けられ、PSTN の使用状況はボイスルーティングポリシー "US のみ" に関連付けられています。 
+次の表は、3つのボイスルートを使った構成をまとめたものです。 この例では、3つのルートすべてが同じ PSTN 使用量 "US とカナダ" に含まれています。  すべてのルートは、"US とカナダ" の PSTN 使用と関連付けられており、PSTN の使用は "米国限定" ボイスルーティングポリシーに関連付けられています。
 
 |**PSTN 使用法**|**ボイスルート**|**番号パターン**|**[Priority]**|**SBC**|**説明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|米国限定|"レドモンド 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼び出された数値 + 1 425 XXX XX XX または + 1 206 XXX XX xx のアクティブルート|
-|米国限定|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|両面|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼び出した数値 + 1 425 XXX XX XX または + 1 206 XXX XX xx のバックアップルート|
-|米国限定|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|"発信番号" のルート + 1 XXX XXX XX XX (+ 1 425 XXX XX xx または + 1 206 XXX XX xx)|
+|米国およびカナダ|"レドモンド 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼び出された数値 + 1 425 XXX XX XX または + 1 206 XXX XX xx のアクティブルート|
+|米国およびカナダ|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼び出した数値 + 1 425 XXX XX XX または + 1 206 XXX XX xx のバックアップルート|
+|米国およびカナダ|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|"発信番号" のルート + 1 XXX XXX XX XX (+ 1 425 XXX XX xx または + 1 206 XXX XX xx)|
 |||||||
 
-
-### <a name="example-1-configuration-steps"></a>使用例 1: 構成手順
+## <a name="example-1-configuration-steps"></a>使用例 1: 構成手順
 
 次の例は、次の方法を示しています。
 
-- 単一の PSTN 使用を作成する 
-- 3つのボイスルートを構成する
-- ボイスルーティングポリシーを作成する
-- ユーザー Spencer Low にポリシーを割り当てる
+1. 単一の PSTN 使用を作成します。
+2. 3つのボイスルーティングを構成します。
+3. ボイスルーティングポリシーを作成します。
+4. Spencer Low という名前のユーザーにポリシーを割り当てます。
 
-**手順 1:** PSTN 使用量 "US およびカナダ" を作成する
+[Microsoft Teams 管理センター](#admincenterexample1)または[PowerShell](#powershellexample1)を使用して、次の手順を実行できます。
 
-Skype for Business リモート PowerShell セッションで、次のように入力します。
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+<a name="admincenterexample1"></a>
+
+#### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>手順 1: "US とカナダ" の PSTN 使用量を作成する
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声** > の**直接ルーティング**] に移動し、右上隅の [ **PSTN 使用状況レコードの管理**] を選びます。
+2. [**追加**] をクリックし、「**米国」と「カナダ**」と入力して、[**適用**] をクリックします。
+
+#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>手順 2: 3 つのボイスルーティングルート (Redmond 1、Redmond 2、その他 + 1) を作成する
+
+次の手順では、ボイスルートの作成方法について説明します。 次の手順を使用して、前の表で説明した設定を使用して、この例で Redmond 1、Redmond 2、その他の + 1 という名前の3つのボイスルートを作成します。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声** > の**直接ルーティング**] に移動し、[**ボイス**ルーティング] タブを選択します。
+2. [**追加**] をクリックして、ボイスルートの名前と説明を入力します。
+3. 優先度を設定し、ダイヤル番号のパターンを指定します。
+4. 音声ルートを使用して SBC を登録するには、[ **sbcs 登録 (オプション)**] で [ **sbcs の追加**] をクリックし、登録する sbcs を選択して、[**適用**] をクリックします。
+5. PSTN 使用状況レコードを追加するには、[ **pstn 使用状況レコード] (オプション)** の [ **pstn 使用量の追加**] をクリックし、追加する pstn レコードを選択して、[**適用**] をクリックします。
+6. **[保存]** をクリックします。
+
+#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>手順 3: "US Only" という名前の音声ルーティングポリシーを作成し、ポリシーに "US" と "カナダ" の PSTN 使用を追加する
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声** > **音声ルーティングポリシー**] に移動し、[**追加**] をクリックします。
+2. 名前として「 **US** 」と入力して、説明を追加します。
+3. [ **Pstn 使用状況レコード**] で、[ **pstn 使用量の追加**] をクリックし、"米国およびカナダ" の pstn 利用状況レコードを選択して、[**適用**] をクリックします。
+4. **[保存]** をクリックします。
+
+詳細については、「[ボイスルーティングポリシーを管理](manage-voice-routing-policies.md)する」を参照してください。
+
+#### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>手順 4: Spencer Low という名前のユーザーに音声ルーティングポリシーを割り当てる
+
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
+2. **[ポリシー]** をクリックし、**[割り当てられたポリシー]** の横にある **[編集]** をクリックします。
+3. [**音声ルーティングポリシー**] で、[US のみ] ポリシーを選択し、[**保存**] をクリックします。
+
+詳細については、「[ボイスルーティングポリシーを管理](manage-voice-routing-policies.md)する」を参照してください。
+
+### <a name="using-powershell"></a>PowerShell を使用する場合
+<a name="powershellexample1"></a>
+
+
+#### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>手順 1: "US とカナダ" の PSTN 使用量を作成する
+
+Skype for Business Online のリモート PowerShell セッションで、次のように入力します。
 
 ```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
-次のように入力して使用が作成されたことを検証します。 
+次のように入力して使用が作成されたことを確認します。
+
 ```PowerShell
 Get-CSOnlinePSTNUsage
 ``` 
+
 これは、切り捨てられる可能性がある名前のリストを返します。
+
 ```console
 Identity    : Global
-Usage       : {testusage, US and Canada, International, karlUsage. . .}
+Usage        : {testusage, US and Canada, International, karlUsage. . .}
 ```
-次の例は、PowerShell コマンド`(Get-CSOnlinePSTNUsage).usage`を実行して完全な名前を表示した場合の結果を示しています (トランケートされません)。
+
+次の例は、 `(Get-CSOnlinePSTNUsage).usage` Powershell コマンドを実行して完全な名前を表示した場合の結果を示しています (トランケートされません)。
 
 <pre>
  testusage
@@ -131,9 +176,9 @@ Usage       : {testusage, US and Canada, International, karlUsage. . .}
  Two trunks
 </pre>
 
-**手順 2:** Skype for Business Online の PowerShell セッションで、前の表に示されているように、Redmond 1、レドモンド2、その他の + 1 という3つのルートを作成します。
+#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>手順 2: 3 つのボイスルーティングルート (Redmond 1、Redmond 2、その他 + 1) を作成する
 
-"Redmond 1" ルートを作成するには、次のように入力します。
+"Redmond 1" ルートを作成するには、Skype for Business Online の PowerShell セッションで、次のように入力します。
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
@@ -150,6 +195,7 @@ OnlinePstnUsages        : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name                    : Redmond 1
 </pre>
+
 レドモンド2ルートを作成するには、次のように入力します。
 
 ```PowerShell
@@ -183,32 +229,32 @@ Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 
 戻り値:
 <pre>
 Identity            : Redmond 1 
-Priority            : 1
-Description     : 
-NumberPattern       : ^\+1(425|206) (\d{7})$
-OnlinePstnUsages    : {US and Canada}    
-OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
-Name            : Redmond 1
+Priority               : 1
+Description         : 
+NumberPattern         : ^\+1(425|206) (\d{7})$
+OnlinePstnUsages     : {US and Canada}     
+OnlinePstnGatewayList    : {sbc1.contoso.biz, sbc2.contoso.biz}
+Name             : Redmond 1
 Identity        : Redmond 2 
-Priority            : 2
-Description     : 
-NumberPattern       : ^\+1(425|206) (\d{7})$
-OnlinePstnUsages    : {US and Canada}    
-OnlinePstnGatewayList   : {sbc3.contoso.biz, sbc4.contoso.biz}
-Name            : Redmond 2
+Priority               : 2
+Description         : 
+NumberPattern         : ^\+1(425|206) (\d{7})$
+OnlinePstnUsages     : {US and Canada}     
+OnlinePstnGatewayList    : {sbc3.contoso.biz, sbc4.contoso.biz}
+Name             : Redmond 2
     
 Identity        : Other +1 
-Priority            : 4
-Description     : 
-NumberPattern       : ^\+1(\d{10})$
-OnlinePstnUsages    : {US and Canada}    
-OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
-Name            : Other +1
+Priority               : 4
+Description         : 
+NumberPattern         : ^\+1(\d{10})$
+OnlinePstnUsages     : {US and Canada}     
+OnlinePstnGatewayList    : {sbc5.contoso.biz, sbc6.contoso.biz}
+Name             : Other +1
 </pre>
 
 この例では、ルート "Other + 1" は優先度4を自動的に割り当てられています。 
 
-**手順 3:** ボイスルーティングポリシーを「US 専用」にして、「US とカナダ」という PSTN 使用のポリシーに追加します。
+#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>手順 3: "US Only" という名前の音声ルーティングポリシーを作成し、ポリシーに "US" と "カナダ" の PSTN 使用を追加する
 
 Skype for Business Online の PowerShell セッションで、次のように入力します。
 
@@ -225,7 +271,7 @@ Description         :
 RouteType           : BYOT
 </pre>
 
-**手順 4:** PowerShell を使用して、音声ルーティングポリシーをユーザー Spencer Low に付与します。
+#### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>手順 4: Spencer Low という名前のユーザーに音声ルーティングポリシーを割り当てる
 
 Skype for Business Online の PowerShell セッションで、次のように入力します。
 
@@ -250,7 +296,7 @@ US Only
 
 例1で作成した音声ルーティングポリシーでは、Microsoft 通話プランライセンスもユーザーに割り当てられていない限り、米国とカナダでの電話番号への通話のみが許可されています。
 
-次の例では、"制限なし" という音声ルーティングポリシーを作成できます。 このポリシーでは、例1で作成した PSTN の使用状況 "US and カナダ" と、新しい PSTN の使用状況 "海外" が再利用されます。  このポリシーは、SBCs sbc2.contoso.biz と sbc5.contoso.biz に対するその他のすべての通話をルーティングします。 
+次の例では、"制限なし" のボイスルーティングポリシーを作成できます。 このポリシーは、例1で作成された "US and カナダ" PSTN 使用量と、新しい "国際" PSTN の使用状況を再利用します。 このポリシーは、SBCs sbc2.contoso.biz と sbc5.contoso.biz に対するその他のすべての通話をルーティングします。
 
 次に示す例では、ユーザー Spencer 低に米国限定ポリシーを割り当て、ユーザー John 森には制限なしのポリシーを割り当てて、ルーティングが次のように行われるようにします。
 
@@ -268,28 +314,73 @@ US Only
 
 |**PSTN 使用法**|**ボイスルート**|**番号パターン**|**[Priority]**|**SBC**|**説明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|米国限定|"レドモンド 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼び出し先の番号 + 1 425 XXX XX XX または + 1 206 XXX XX xx のアクティブルート|
-|米国限定|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|両面|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼び出し先の番号のバックアップルート + 1 425 XXX XX XX または + 1 206 XXX XX xx|
-|米国限定|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6> contoso.biz|呼び出し先の番号のルーティング + 1 XXX XXX XX XX (+ 1 425 XXX XX xx または + 1 206 XXX XX xx)|
+|米国およびカナダ|"レドモンド 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|呼び出し先の番号 + 1 425 XXX XX XX または + 1 206 XXX XX xx のアクティブルート|
+|米国およびカナダ|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|呼び出し先の番号のバックアップルート + 1 425 XXX XX XX または + 1 206 XXX XX xx|
+|米国およびカナダ|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|呼び出し先の番号のルーティング + 1 XXX XXX XX XX (+ 1 425 XXX XX xx または + 1 206 XXX XX xx)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任意の番号パターンのルート |
 
-
   > [!NOTE]
-  > - ボイスルーティングポリシーの PSTN 使用の順序は重要です。 使用状況は順番に適用され、最初の使用で一致が見つかった場合は、他の使用法は評価されません。 PSTN の使用は、PSTN の使用の後に「米国専用」として設定する必要があります。 PSTN の使用順序を変更するには、 `Set-CSOnlineVoiceRoutingPolicy`コマンドを実行します。 <br/>たとえば、"US" と "カナダ" の順序を "第 1" と "海外" の順に変更するには、次のようにします。<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - ボイスルーティングポリシーの PSTN 使用の順序は重要です。 使用状況は順番に適用され、最初の使用で一致が見つかった場合は、他の使用法は評価されません。 "国際" PSTN 使用量は、"米国およびカナダ" PSTN の使用の後に配置する必要があります。 PSTN の使用順序を変更するには、 `Set-CSOnlineVoiceRoutingPolicy`コマンドを実行します。 <br/>たとえば、"US" と "カナダ" の順序を "第 1" と "海外" の順に変更するには、次のようにします。<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - "Other + 1" と "海外" のボイスルートの優先度は、自動的に割り当てられます。 "Redmond 1" と "レドモンド 2" よりも優先順位が低い場合は、問題ありません。
 
-
-### <a name="example-2-configuration-steps"></a>例 2: 構成手順
+## <a name="example-2-configuration-steps"></a>例 2: 構成手順
 
 次の例は、次の方法を示しています。
 
-- 国際通話と呼ばれる新しい PSTN の利用状況を作成する
-- 国際電話と呼ばれる新しいボイスルートを作成する
-- 制限なしと呼ばれる音声ルーティングポリシーを作成する
-- ユーザー John 森にポリシーを割り当てる
+1. 「国際」と呼ばれる新しい PSTN 使用法を作成します。
+2. 国際通話と呼ばれる新しいボイスルートを作成します。
+3. 制限なしと呼ばれる音声ルーティングポリシーを作成します。
+4. ユーザー John 森にポリシーを割り当てます。
 
+[Microsoft Teams 管理センター](#admincenterexample2)または[PowerShell](#powershellexample2)を使用して、次の手順を実行できます。
 
-**手順 1**: PSTN 使用量「国際」を作成します。 
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+<a name="admincenterexample2"></a>
+
+#### <a name="step-1-create-the-international-pstn-usage"></a>手順 1: "国際" PSTN 使用量を作成する
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声** > の**直接ルーティング**] に移動し、右上隅の [ **PSTN 使用状況レコードの管理**] を選びます。
+2. [**追加**] をクリックし、[**国際**] と入力して、[**適用**] をクリックします。
+
+#### <a name="step-2-create-the-international-voice-route"></a>手順 2: "国際" ボイスルーティングを作成する
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声** > の**直接ルーティング**] に移動し、[**ボイス**ルーティング] タブを選択します。
+2. [**追加**] をクリックし、名前として「国際」と入力して、説明を追加します。
+3. 優先度を4に設定して、ダイヤルされた番号のパターンを \d + に設定します。
+4. [ **Sbcs 登録 (オプション)**] で [ **sbcs の追加**] をクリックし、[sbc2.contoso.biz] と [sbc5.contoso.biz] を選択して、[**適用**] をクリックします。
+5. [ **Pstn 使用状況レコード] (オプション)** で、[ **pstn 使用量の追加**] をクリックし、"国際" pstn 使用状況レコードを選択して、[**適用**] をクリックします。
+6. **[保存]** をクリックします。
+
+#### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions-and-add-the-us-and-canada-and-international-pstn-usages-to-the-policy"></a>手順 3: "制限なし" という名前の音声ルーティングポリシーを作成し、"US and カナダ" と "国際" PSTN の使用をポリシーに追加する
+
+PSTN の使用状況 "US とカナダ" は、電話番号 "+ 1 425 XXX XX XX" と "+ 1 206 XXX XX XX" への通話に対する特別な処理を、ローカルまたはオンプレミスの通話として維持するために、この音声ルーティングポリシーで再利用されます。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声** > **音声ルーティングポリシー**] に移動し、[**追加**] をクリックします。
+2. 名前として「**制限なし**」と入力し、説明を追加します。
+3. [ **Pstn 使用状況レコード**] の [ **pstn 使用量の追加**] をクリックし、"米国およびカナダ" の pstn 利用状況レコードを選択し、[国際] pstn 使用状況レコードを選択します。 [**適用**] をクリックします。
+
+    PSTN の使用順序に注意してください。
+
+    - この例で使用されているように、通話が "+ 1 425 XXX XX XX" に設定されている場合、通話は "US とカナダ" の使用に設定され、特殊なルーティングロジックが適用されます。 つまり、sbc1.contoso.biz と sbc2.contoso.biz を使用して通話がルーティングされ、次にバックアップルートとして sbc3.contoso.biz と sbc4.contoso.biz が送信されます。
+
+    - "国際" という PSTN の使用が "US とカナダ" よりも前にある場合は、ルーティングロジックの一部として、+ 1 425 XXX XX XX への通話が sbc2.contoso.biz と sbc5.contoso.biz にルーティングされます。
+
+4. **[保存]** をクリックします。
+
+詳細については、「[ボイスルーティングポリシーを管理](manage-voice-routing-policies.md)する」を参照してください。
+
+#### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-john-woods"></a>手順 4: John 森という名前のユーザーにボイスルーティングポリシーを割り当てる
+
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
+2. **[ポリシー]** をクリックし、**[割り当てられたポリシー]** の横にある **[編集]** をクリックします。
+3. [**音声ルーティングポリシー**] で、[制限なし] ポリシーを選択し、[**保存**] をクリックします。
+
+結果として、John 森の通話に適用されるボイスポリシーは無制限であり、米国、カナダ、国際通話で利用可能な通話ルーティングのロジックに従っていることになります。
+
+### <a name="using-powershell"></a>PowerShell を使用する場合
+<a name="powershellexample2"></a>
+
+#### <a name="step-1-create-the-international-pstn-usage"></a>手順 1: "国際" PSTN 使用量を作成する
 
 Skype for Business Online のリモート PowerShell セッションで、次のように入力します。
 
@@ -297,7 +388,7 @@ Skype for Business Online のリモート PowerShell セッションで、次の
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
 ```
 
-**手順 2**: 新しいボイスルート "国際" を作成します。
+#### <a name="step-2--create-a-new-voice-route-named-international"></a>手順 2: "インターナショナル" という名前の新しいボイスルートを作成する
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
@@ -314,7 +405,7 @@ OnlinePstnGatewayList     : {sbc2.contoso.biz, sbc5.contoso.biz}
 Name                      : International
 </pre>
 
-**手順 3**: 音声ルーティングポリシーを作成する "制限なし"。 
+#### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions"></a>手順 3: "制限なし" という名前の音声ルーティングポリシーを作成する
 
 PSTN の利用状況 "レドモンド 1" と "Redmond" は、電話番号 "+ 1 425 XXX XX XX" と "+ 1 206 XXX XX XX" への通話に対する特別な処理を、ローカルまたはオンプレミスの通話として維持するために、この音声ルーティングポリシーで再利用されています。
 
@@ -324,9 +415,9 @@ PSTN の利用状況 "レドモンド 1" と "Redmond" は、電話番号 "+ 1 4
 
 PSTN の使用順序に注意してください。
 
-  a. 次の例のように、利用状況を設定して、"+ 1 425 XXX XX XX" という数値を指定した場合は、通話は "US およびカナダ" の使用に設定され、特殊なルーティングロジックが適用されます。 つまり、sbc1.contoso.biz と sbc2.contoso.biz を使用して通話がルーティングされ、次にバックアップルートとして sbc3.contoso.biz と sbc4.contoso.biz が送信されます。
+  - 次の例のように、利用状況を設定して、"+ 1 425 XXX XX XX" という数値を指定した場合は、通話は "US およびカナダ" の使用に設定され、特殊なルーティングロジックが適用されます。 つまり、sbc1.contoso.biz と sbc2.contoso.biz を使用して通話がルーティングされ、次にバックアップルートとして sbc3.contoso.biz と sbc4.contoso.biz が送信されます。
 
-  b. "国際" という PSTN の使用が "US とカナダ" よりも前にある場合は、ルーティングロジックの一部として、+ 1 425 XXX XX XX への通話が sbc2.contoso.biz と sbc5.contoso.biz にルーティングされます。 コマンドを入力します。
+  - "国際" という PSTN の使用が "US とカナダ" よりも前にある場合は、ルーティングロジックの一部として、+ 1 425 XXX XX XX への通話が sbc2.contoso.biz と sbc5.contoso.biz にルーティングされます。 コマンドを入力します。
 
   ```PowerShell
   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
@@ -336,15 +427,15 @@ PSTN の使用順序に注意してください。
 
     <pre>
     Identity              : International 
-    OnlinePstnUsages : {US and Canada, International}    
-    Description      :  
-    RouteType             : BYOT
+    OnlinePstnUsages : {US and Canada, International}     
+    Description         :  
+    RouteType               : BYOT
     </pre>
 
-**手順 4**: 次のコマンドを使用して、ボイスルーティングポリシーをユーザーの "John 森" に割り当てます。
+#### <a name="step-4-assign-the-voice-routing-policy-to-the-user-named-john-woods"></a>手順 4: John 森という名前のユーザーに音声ルーティングポリシーを割り当てる
 
 ```PowerShell
-Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions"
 ```
 
 次に、コマンドを使用して課題を確認します。 
@@ -362,8 +453,6 @@ No Restrictions
 </pre>
 
 結果として、John 森の通話に適用されるボイスポリシーは無制限であり、米国、カナダ、国際通話で利用可能な通話ルーティングのロジックに従うことになります。
-
-
 
 ## <a name="see-also"></a>関連項目
 

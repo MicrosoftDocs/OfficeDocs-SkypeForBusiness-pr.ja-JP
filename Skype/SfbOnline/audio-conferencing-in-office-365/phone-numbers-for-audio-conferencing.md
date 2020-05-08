@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777442"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164716"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online の電話会議の電話番号
 
@@ -55,7 +55,7 @@ Skype for Business Online ユーザーが Outlook または Outlook Web App で�
   
  **専用電話番号** とは、組織内のユーザーだけが使用できる電話番号のことです。誰かがこれらの番号のいずれかに電話をかけるときに使用する言語を変更できます。
   
- **共有電話番号**とは、他の Microsoft 365 または Office 365s と共有できる電話番号のことです。 誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
+ 共有された**電話番号**は、他の Microsoft 365 または Office 365 アカウントと共有できる電話番号です。 誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
   
 開催者に割り当てられる既定の電話会議番号は会議の招待状にのみ含まれるため、発信者は会議ブリッジに割り当てられた任意の電話番号を使用して、会議に参加できます。 会議に参加するために使用する電話番号の一覧はそれぞれの会議の招待状に含まれる [ **電話番号の検索**] リンクを使用して利用できます。
   
@@ -89,4 +89,4 @@ Skype for Business Online ユーザーが Outlook または Outlook Web App で�
    
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

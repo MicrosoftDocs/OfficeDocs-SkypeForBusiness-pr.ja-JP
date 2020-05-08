@@ -17,12 +17,12 @@ description: Microsoft 通話プランおよび電話システムダイレクト
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b76f8605aa1151911c26e0724db161b3a497fcf6
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905889"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164556"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -135,7 +135,7 @@ Azure Maps は、位置ベースのサービスに使用されます。  Microso
 
 ## <a name="configure-location-information-service"></a>位置情報サービスを構成する
 
-チームクライアントは、異なるネットワーク識別子に関連付けられている場所から緊急対応の住所を取得します。 サブネットとワイヤレスアクセスポイント (Wap) はどちらもサポートされています。 (イーサネットスイッチ/ポートのサポートは保留中です)。
+チームクライアントは、異なるネットワーク識別子に関連付けられている場所から緊急対応の住所を取得します。 サブネットとワイヤレスアクセスポイント (Wap) はどちらもサポートされています。 複数の場所が見つかった場合、WAP はサブネットより優先されます。 (イーサネットスイッチ/ポートのサポートは保留中です)。
 
 クライアントが場所を取得するには、次のコマンドレットを使用して、場所情報サービス (LIS) にネットワーク識別子と緊急対応の場所を設定する必要があります。  
 

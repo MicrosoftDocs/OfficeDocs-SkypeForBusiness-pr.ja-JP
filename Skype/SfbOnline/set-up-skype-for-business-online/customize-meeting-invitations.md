@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
-ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f4622a964037feab0c06e731606aded7a9fb758
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776232"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164336"
 ---
 # <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする
 
@@ -69,14 +69,14 @@ ms.locfileid: "43776232"
    
 5. [ **保存**] を選びます。
     
-6. Office 365 サービス全体に変更が反映されるまで 1 時間ほど待ちます。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。 
+6. すべての Microsoft 365 または Office 365 サービスに変更が反映されるまで、1時間かかる場合があります。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。 
     
     ![カスタム出席依頼がどのようなものかを図を使用せずに以下に示します](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 <a name="__top"> </a>
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

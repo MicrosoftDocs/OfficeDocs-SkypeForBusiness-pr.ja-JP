@@ -1,5 +1,5 @@
 ---
-title: 会議移行サービス (MMS) を使用する
+title: Meeting Migration Service (MMS) の使用
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,14 +22,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 会議移行サービス (MMS) は、バックグラウンドで実行されるサービスで、Skype for Business および Microsoft Teams の会議を自動的に更新します。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 5ce6f2ab5954ba0c076e9a4db432da3e93a75db1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 81bd5f1e9304ff3ff6eedb901a50632aa6edd73a
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010980"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163956"
 ---
-# <a name="using-the-meeting-migration-service-mms"></a>会議移行サービス (MMS) を使用する
+# <a name="using-the-meeting-migration-service-mms"></a>Meeting Migration Service (MMS) の使用
 
 会議移行サービス (MMS) は、次のシナリオでユーザーの既存の会議を更新するサービスです。
 
@@ -211,6 +211,6 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [オンプレミスとクラウドの間でユーザーを移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)

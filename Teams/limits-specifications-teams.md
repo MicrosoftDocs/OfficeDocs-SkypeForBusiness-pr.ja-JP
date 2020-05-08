@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950972"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064422"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -110,7 +110,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 |機能     | 上限 |
 |------------|---------------|
-|会議に参加できるユーザー数  | 250 人    |
+|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 250 人    |
 |ビデオまたは音声通話でチャットに参加できるユーザーの数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
@@ -131,7 +131,9 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |------------|---------------|
 |対象ユーザーの規模 | 出席者 10,000 名 |
 |イベントの期間 | 4 時間 |
-|Office 365 組織の同時ライブ イベント | 15 |
+|Office 365 組織で実行されている同時ライブ イベント <sup>1</sup> | 15 |
+
+<sup>1</sup> ライブ イベントはいくつでもスケジュールできますが、一度に実行できるのは 15 件のみです。 プロデューサーがライブ イベントに参加するとすぐに、実行中と見なされます。 16 回目のライブ イベントに参加しようとしたプロデューサーにエラーが発生します。
 
 ライブ イベントおよび Teams のライブ イベントと Skype 会議ブロードキャストの比較の詳細については、「[Teams ライブ イベントと Skype 会議ブロードキャスト](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)」にアクセスしてください。
 

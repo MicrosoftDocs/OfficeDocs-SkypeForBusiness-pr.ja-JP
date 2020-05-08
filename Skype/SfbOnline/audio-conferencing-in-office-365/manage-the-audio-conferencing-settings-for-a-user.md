@@ -20,20 +20,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Office 365 管理者としてSkype for Business Onlineの音声会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 '
-ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 'Microsoft 365 または Office 365 の管理者として、組織内の個々のユーザーの Skype for Business Online の音声会議設定 (プロバイダー、既定の有料電話番号、フリーダイヤル番号、会議 ID、PIN など) を編集できます。 '
+ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777992"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164136"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Skype for Business Online のユーザーの電話会議の設定を管理する
 
 > [!Note]
 > Microsoft Teams でユーザー設定を管理する場合は、「 [Microsoft teams でユーザーの電話会議の設定を管理](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)する」を参照してください。
 
-Office 365 管理者としてSkype for Business Onlineの電話会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 組織の設定を編集する場合は、「[組織の電話会議の設定を管理](manage-the-audio-conferencing-settings-for-my-organization.md)する」を参照してください。
+Microsoft 365 または Office 365 管理者として、組織内の個々のユーザーの電話会議の設定 (プロバイダー、既定の有料電話番号、フリーダイヤル番号、会議 ID、PIN など) を編集できます。 組織の設定を編集する場合は、「[組織の電話会議の設定を管理](manage-the-audio-conferencing-settings-for-my-organization.md)する」を参照してください。
 
  
 1. 職場または学校のアカウントを使用してサインインします。
@@ -63,7 +63,7 @@ Office 365 管理者としてSkype for Business Onlineの電話会議の設定 �
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization.md)
 
