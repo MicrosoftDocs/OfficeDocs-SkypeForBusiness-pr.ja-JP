@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 2021年7月31日に、サードパーティの電話会議プロバイダー (サードパーティ ACP) との Skype for Business の統合が終了すると、生涯プログラムが終了します。
-ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5b49bf573ad79cbdacbc538a0ef67faf1b2b634e
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985032"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164456"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Skype for Business とサードパーティの電話会議プロバイダーとの統合の終了プログラム 
 
@@ -59,7 +59,7 @@ Microsoft は、Skype for Business とサードパーティの電話会議プロ
 
 2021年7月31日より前に Microsoft 電話会議に移行して移行を完了すると、その日以降のサービスへの影響は発生しません。 Microsoft 電話会議への移行により、次のような変更が組織に導入されます。 
 
-- このサービスは、他のすべての Office 365 サービスに課金されます。 
+- サービスは、他のすべての Microsoft 365 または Office 365 サービスに課金されます。 
 
 - 標準サブスクリプションを購入した場合は、有料のダイヤルイン料金がユーザーごとの月額プランの料金に含まれます。 
 
@@ -73,13 +73,13 @@ Microsoft は、Skype for Business とサードパーティの電話会議プロ
 
 Microsoft 音声会議への移行は簡単です。また、サービスのライセンスを取得した後のわずかな手順で行うことができます。 Microsoft 電話会議に移行する方法については、以下を参照してください。
 
-- [Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **概要:**
 
 - 2021年7月31日より前に Microsoft 電話会議に移行して移行を完了する組織では、その日付以降、サービスへの影響は表示されません。
 
-- Microsoft 電話会議への移行の詳細について[は、「Office 365 で電話会議を試用または購入](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)する」を参照してください。 
+- Microsoft 電話会議への移行の詳細については、「 [microsoft 365 または Office 365 で電話会議を試す、または購入](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)する」を参照してください。 
 
 ### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>パス #2: サードパーティ電話会議プロバイダーを個別に使用し続ける
 
@@ -91,7 +91,7 @@ Skype for Business 会議で、一部の参加者に VoIP などの参加者を�
  
 スケジュールの観点と2021年7月31日時点では、サードパーティ ACP のダイヤルイン情報は、Skype for Business 会議の招待に自動的に含まれなくなります。 ユーザーは、会議の一部としてこの情報を引き続き使用したい場合は、Skype for Business 会議の出席依頼にダイヤルイン情報を手動で追加する必要があります。 
 
-2021年7月31日に、ユーザーの既存の会議が自動的に再スケジュールされ、サードパーティ ACP のダイヤルイン情報が削除されないことに注意してください。 ユーザーの会議で VoIP を有効にしておくことを決定する組織は、ユーザーに対してサードパーティ ACP の統合を無効にすることを検討してください。また、会議移行サービスを使用して、サードパーティの音声を削除するように会議のスケジュールを変更することを検討してください。既存の会議からダイヤルイン情報を会議して、既に予約されている会議でのオーディオの断片化を防止します。 
+2021年7月31日に、ユーザーの既存の会議が自動的に再スケジュールされ、サードパーティ ACP のダイヤルイン情報が削除されないことに注意してください。 ユーザーの会議のために VoIP を有効にしておくことを決定した組織は、ユーザーに対してサードパーティ ACP の統合を無効にすることを検討してください。会議移行サービスを使って、サードパーティの電話会議のダイヤルイン情報を削除して、既に予定されている会議での音声の断片化を防ぐ必要があり 
 
 - 特定の開催者に対してサードパーティの電話会議の統合を無効にするには、CsUserAcp コマンドレットを使用します。 詳細については、「 [CsUserAcp の削除](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)」を参照してください。 
 
@@ -105,7 +105,7 @@ Skype for Business 会議で、一部の参加者に VoIP などの参加者を�
 
     - 特定の開催者のすべての会議から VoIP を無効にするには、Set-csconferencingpolicy コマンドレットを使用して、ユーザーの会議ポリシーの AllowIPAudio パラメーターを false に設定します。 詳細については、「 [Set-set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)」を参照してください。
  
-- 組織がすべての会議で VoIP を無効にしていない場合は、Skype for Business Online とサードパーティ ACP との統合を無効にすることをお勧めします。また、サードパーティ ACP のダイヤルイン情報を削除するように会議をスケジュールし直すことをお勧めします。オーディオが断片化されないようにします。
+- 組織がすべての会議で VoIP を無効にしていない場合は、Skype for Business Online とサードパーティ ACP との統合を無効にすることをお勧めします。また、オーディオの断片化を防止するために、サードパーティ ACP のダイヤルイン情報を削除するように会議をスケジュールし直すことをお勧めします。
 
     - 特定の開催者に対してサードパーティの電話会議の統合を無効にするには、 [CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)コマンドレットを使用します。 
 

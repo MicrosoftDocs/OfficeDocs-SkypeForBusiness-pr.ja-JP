@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042594"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158984"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -28,6 +28,7 @@ CQD (.PBIX ファイル) 用の Power BI クエリテンプレートを使用す
 
 これらのテンプレートについては、「 [POWER BI を使用してチームの CQD データを分析](CQD-Power-BI-query-templates.md)する」を参照してください。
 
+Power BI レポートにアクセスするための適切な[CQD アクセスロール](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd)を持っていることを確認してください。 
 
 ## <a name="installation"></a>インストール
 

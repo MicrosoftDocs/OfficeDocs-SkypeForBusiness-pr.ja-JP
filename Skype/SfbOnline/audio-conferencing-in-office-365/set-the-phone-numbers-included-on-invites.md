@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: a570c457c51ce87655c1cb13e1eb61951b968400
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b7a4ee991ff8a8e41401b3b2d2dc20aa20708b88
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776782"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163936"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Skype for Business Onlineの招待状に含まれる電話番号を設定する
 
 > [!Note]
 > Microsoft Teamsの会議招待状の電話番号についての詳細は、「 [Microsoft Teamsの招待状に含める電話番号を設定](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)」を参照してください。.
 
-Office 365の電話会議では、組織内のユーザー はSkype for Business会議を作成することができ、その後、電話を利用してそれらの会議にダイアルインできます。 Office 365 では、承認済みの電話会議プロバイダー (ACP) によってホストされている Microsoft 電話会議ブリッジまたはサードパーティの電話会議ブリッジを使用するオプションがあります。
+Microsoft 365 または Office 365 の電話会議では、組織内のユーザーが Skype for Business 会議を作成できるようにし、電話を使用してこれらの会議にダイヤルインすることをユーザーに許可します。 Microsoft 365 および Office 365 では、承認済みの電話会議プロバイダー (ACP) によってホストされている Microsoft 電話会議ブリッジまたはサードパーティの電話会議ブリッジを使用するオプションがあります。
   
 > [!NOTE]
 > 電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。 地域または国/地域で利用可能なダイヤルイン電話番号があるかどうかを確認する場合は、 **Skype for business 管理センター** > **の音声** > **電話番号**を使用して、[**追加**]、[**新しいサービス番号**] の順にクリックします。 [ **国/地域**]、[**州/地域**] および [**市区町村**]のリストを使って検索を絞り込みます。> また、無料電話番号サービスを探している場合には、[**無料電話番号**] を [**州/地域**] リストから選択します。
@@ -136,11 +136,11 @@ Office 365の電話会議では、組織内のユーザー はSkype for Business
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell には、多くのユーザーについて同時に設定を変更する場合など、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を高めることができます。 次のトピックでこれらの利点について説明します。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -148,4 +148,4 @@ Office 365の電話会議では、組織内のユーザー はSkype for Business
     
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

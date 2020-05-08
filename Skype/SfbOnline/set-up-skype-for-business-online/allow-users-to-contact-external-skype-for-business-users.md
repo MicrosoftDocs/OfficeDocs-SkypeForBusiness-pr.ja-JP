@@ -28,17 +28,17 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'ユーザーが別の組織のユーザーと会話したり、外部からの連絡をしたりできるように Skype for Business を構成する方法について説明します。 '
-ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1f399f7b127596aaf28c7e22b2c65525c72a8e4
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010940"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164826"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
 
 > [!NOTE]
-> Skype for Business のフェデレーションは、21Vianet および Office 365 ドイツの組織が運用している Office 365 では使用できません。 
+> Skype for Business のフェデレーションは、21Vianet および Microsoft 365 または Office 365 ドイツの組織で運営されている Microsoft 365 または Office 365 では利用できません。 
   
 次の場合、この記事で説明する手順をご利用ください。
   
@@ -51,11 +51,11 @@ ms.locfileid: "42010940"
 ## <a name="enable-business-to-business-communications-for-your-users"></a>ユーザーに対する企業間の通信を有効にする
 <a name="bk_preview"> </a>
 
-この操作を行うには、両方の組織の Office 365 で[管理者権限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)を持っている必要があります。
+この操作を行うには、両方の組織で Microsoft 365 または Office 365 の[管理者権限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
 
 ![](../images/teams-logo-30x30.png) **Teams 管理センターを使用し**た Microsoft Teams ロゴを示すアイコン
   
-1. Office 365 管理者アカウントでサインインします。 
+1. Microsoft 365 または Office 365 管理者アカウントでサインインします。 
     
 2. 管理センターで、[**管理センター** > **チーム**] に移動します。
     
@@ -116,7 +116,7 @@ ms.locfileid: "42010940"
     
 - Lync と Skype for Business Online の間のフェデレーションを構成するには、次の記事を参照してください。 [Lync online の顧客のためのフェデレーションサポートの構成](https://technet.microsoft.com/library/hh202193.aspx)
     
-- Office 365 の2つの Skype for Business ユーザーが別々のドメインで相互に通信している場合は、両方の組織でオンになっている Skype for Business の機能 (たとえば、ビデオの会話やデスクトップ共有など) のみを使用できます。
+- Microsoft 365 または Office 365 の2つの Skype for Business ユーザーが別々のドメインで相互に通信している場合は、両方の組織でオンになっている Skype for Business の機能 (たとえば、ビデオの会話やデスクトップ共有など) のみを使用できます。
     
 - 組織内の Skype for Business ユーザーがインプレースまたは訴訟ホールドに設定されている場合、そのユーザーと他の Skype for Business または Skype ユーザー間の IM 会話は、そのユーザーのメールボックスの**回復可能なアイテム**に保存されます。 これらの会話は、自分のメールボックスの [**会話履歴**] フォルダーには保存されません。
     
@@ -125,7 +125,7 @@ ms.locfileid: "42010940"
 
 組織全体の外部通信を有効にした後は、特定の個人に対してのみオフにすることができます。
   
-1. Office 365 管理者アカウントでサインインします。
+1. Microsoft 365 または Office 365 管理者アカウントでサインインします。
     
 2. 管理センターで、[**アクティブな****ユーザー** > ] に移動します。
     
@@ -149,7 +149,7 @@ ms.locfileid: "42010940"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 <a name="bk_preview"> </a>
 
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)

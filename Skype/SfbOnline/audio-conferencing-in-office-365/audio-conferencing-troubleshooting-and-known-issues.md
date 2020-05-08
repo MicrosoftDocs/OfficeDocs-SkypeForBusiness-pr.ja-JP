@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft をダイヤルイン会議プロバイダーとして使用する場合の既知の問題の一覧、状態、およびいくつかの回避策についてご確認ください。 '
-ms.openlocfilehash: 6c462fea8a6ff1ebdae25a09ef8471d82559f3eb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fba5bfff687121c7b1b64c0e51233ccb576497e2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695772"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164524"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>電話会議のトラブルシューティングと既知の問題
 
@@ -34,7 +34,7 @@ ms.locfileid: "41695772"
   
 ## <a name="troubleshooting-and-known-issues"></a>トラブルシューティングと既知の問題
 
-Microsoft を電話会議プロバイダーとして使う電話会議には、現在追跡中で、積極的に調査が行われている問題があります。この問題は、Office 365 の今後のリリースで機能が更新されると解決される可能性があります。
+Microsoft を電話会議プロバイダーとして使用する電話会議では、最新の問題が追跡され、調査が行われており、今後の Microsoft 365 のリリースで機能が更新されたときに解決される可能性があります。
   
 ここでは、電話会議をセットアップし、組織の Skype for Business を使っているユーザーに対して動作する場合に発生する可能性のある問題をトラブルシューティングするときの参考にしてください。
 
@@ -48,4 +48,4 @@ Microsoft を電話会議プロバイダーとして使う電話会議には、�
    
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

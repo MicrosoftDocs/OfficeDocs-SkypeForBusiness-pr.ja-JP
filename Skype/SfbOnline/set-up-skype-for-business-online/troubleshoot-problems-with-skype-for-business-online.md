@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 812df872775e31109df300e3bad1911de975c07e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Microsoft 365 および Office 365 での Skype for Business の管理者とユーザー向けの問題を解決する方法について説明します。
+ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777162"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164316"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Skype for Business Online に関する問題のトラブルシューティング
 
@@ -75,18 +75,16 @@ Skype for Business Online ユーザーが直面する問題の多くはパスワ
 ## <a name="still-need-help-contact-support"></a>さらにヘルプが必要な場合 サポートにお問い合わせください。
 <a name="BK_SupportBridge_1"> </a>
 
-一般法人向け Office 365 の管理者は、知識の豊富なサポート担当者に無料で問い合わせて、購入前のお問い合わせ、アカウント、課金に関するサポート、および技術的な問題の解決についての支援を受けることができます。 組織内の Microsoft 365 および Office 365 ユーザーの代わりに[サポートに連絡](https://go.microsoft.com/fwlink/p/?LinkID=518322)することもできます。
+一般法人向け Microsoft 365 アプリの管理者として、事前販売、アカウント、課金のサポート、および技術的な問題の解決のための知識のあるサポートエージェントに無料でアクセスできます。 組織内の Microsoft 365 および Office 365 ユーザーの代わりに[サポートに連絡](https://go.microsoft.com/fwlink/p/?LinkID=518322)することもできます。
 
-- [Office 365 コミュニティ フォーラムで情報を入手](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Microsoft 365 および Office 365 コミュニティフォーラムからヘルプを取得する](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [管理者向け: 電話サポート](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 
 > [!NOTE]
 > 中国で 21Vianet が運営する Office 365 を使用している場合は、[21Vianet のサポート チームにお問い合わせください](https://go.microsoft.com/fwlink/p/?linkid=847978)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
-
-

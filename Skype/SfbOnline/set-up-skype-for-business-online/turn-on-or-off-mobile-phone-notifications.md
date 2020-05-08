@@ -20,16 +20,16 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: ユーザーが着信、ボイス メール、インスタント メッセージの未読通知を受信するために携帯電話の通知をオンまたはオフにする方法を説明します。
-ms.openlocfilehash: e84ae2ef4054d730cc56bae3bd545f04e966bab4
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 8e209637ffe4c4053adc6dea44fb574257c330c3
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769550"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164114"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>携帯電話の通知をオン/オフする
 
-組織で「 **[一般法人向け Office 365 で管理者ロールを割り当てる](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 」場合、携帯電話やタブレットで Skype for Business を使用しているユーザーがインスタント メッセージの着信通知や未読通知を受信するか選択できます。
+組織のために**[Microsoft 365 アプリで管理者ロールを割り当てる](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** と、Skype for business ユーザーが携帯電話またはタブレットにいるときに、着信や不在着信の通知を受け取るかどうかを選ぶことができます。
   
 Android と Windows Phone の Skype for Business では、通知はリアル タイムにポップ アップ表示されます。 Windows Phone、iPhone、iPad デバイスでは、携帯電話やタブレットで Skype for Business を頻繁に使用していない場合は、プッシュ通知でアラートを表示します。
   
@@ -38,7 +38,7 @@ Android と Windows Phone の Skype for Business では、通知はリアル タ
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-1. Office 365 にサインインします。
+1. Microsoft 365 にサインインします。
     
 2. **Skype For business**> 管理センターに移動します。
     
@@ -57,7 +57,7 @@ Android と Windows Phone の Skype for Business では、通知はリアル タ
 > [!IMPORTANT]
 >  マイクロソフトは、他の企業を使用して Windows Phone、iPhone、iPad のユーザー向けにリアルタイムな Skype for Business モバイル通知を提供しています。 「 [Microsoft Skype for Business 製品のプライバシーに関する声明](https://go.microsoft.com/fwlink/p/?linkid=247732)」を参照してください。 
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 

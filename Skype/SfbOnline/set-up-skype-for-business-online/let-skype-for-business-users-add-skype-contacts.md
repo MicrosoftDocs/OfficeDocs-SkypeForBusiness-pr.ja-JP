@@ -20,22 +20,22 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Skype for Business を使用しているユーザーが組織外の Skype for Business ユーザーに連絡し、連絡先リストに追加できるようにする方法について説明します。 '
-ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71282fe105c85cadca9aab341fc1b5e6ffbe47d2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010810"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164476"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Skype for Business ユーザーが Skype の連絡先を追加できるようにする
 
 Skype for Business では、無料アプリの Skype を使用しているすべてのユーザーが、お客さまとの間で IM を検索して IM を行うことができます。 この記事では、Skype の連絡先を追加できるようにするために必要な操作について説明します。 
   
-この操作を行うには、Office 365 の[管理者権限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)が必要です。
+この操作を行うには、Microsoft 365 または Office 365 の[管理者権限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)が必要です。
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
   
-1. Office 365 管理者アカウントでサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)します。
+1. Microsoft 365 または Office 365 の管理者アカウントでサインイン[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)します。
     
 2. 管理センターで、[**管理センター** > ]**の [Skype for business**] に移動します。 
     

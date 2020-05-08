@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Skype for Business を使用して会議の開催者が他のユーザーを呼び出せるようにするための必要事項とその方法を説明します。
-ms.openlocfilehash: e69fa266b9e10091f0936baee45c140ba198661f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41982822"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164286"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Skype for Business 会議からダイヤルアウトして、他のユーザーが参加できるようにする
 
@@ -39,7 +39,7 @@ ms.locfileid: "41982822"
     
 - 会議の開催者が電話会議用に有効になっています。
 
-組織の会議に他の参加者を追加するには、他の参加者の追加を許可するために、開催者と同じ組織内で少なくとも1つの認証済みユーザーを会議に参加させる必要があります。ダイヤルアウト経由。 
+組織の会議に他の参加者を追加するには、他の参加者をダイヤルアウトで追加できるようにするため、少なくとも (自分の組織の) 同じ組織のユーザーが会議に参加している必要があります。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -58,10 +58,10 @@ ms.locfileid: "41982822"
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>電話会議について詳しく知りたいですか?
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Skype for Business アドオンのライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business をインストールする](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

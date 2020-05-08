@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: Skype for Business Server 2015 または Skype for business Online 管理者は、これらの表を使用して、どの機能がどのクライアントでサポートされているかを理解できます。'
-ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4d23a23b133366401d784d4e403b283af1967162
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041954"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158924"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のデスクトップクライアント機能の比較
 
@@ -165,7 +165,7 @@ Skype 間セッションでは、Skype for Business Online プラン1ユーザ�
 次の表に、音声サービスのサポートに関する機能を示します。
   
 > [!NOTE]
-> Skype for Business Voice (テレフォニー) 機能は、特定の Skype for business Online サブスクリプションプランに限定されます。 詳細については、「 [Skype For Business Online サービスの説明](https://technet.microsoft.com/library/jj822172.aspx)」を参照してください。 >
+> Skype for Business Voice (テレフォニー) 機能は、特定の Skype for business Online サブスクリプションプランに限定されます。 詳細については、「 [Skype For Business Online サービスの説明](https://technet.microsoft.com/library/jj822172.aspx)」を参照してください。
   
 | 機能 | Skype for Business 2015 または2016クライアント | Mac での Skype for Business | Lync 2013 クライアント | Lync Windows ストアアプリ | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -189,7 +189,8 @@ Skype 間セッションでは、Skype for Business Online プラン1ユーザ�
 |場所ベースのルーティング  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |応答グループ/チームの通話グループの管理 |&#x2714;||&#x2714;|||||||
 |応答の自動応答呼び出し |&#x2714;||&#x2714;|||||||
- &#x2776; この機能は、Skype for Business Online では使用できません。
+
+&#x2776; この機能は、Skype for Business Online では使用できません。
   
 ## <a name="external-users-support"></a>外部ユーザーのサポート
 

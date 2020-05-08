@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online で電話会議情報を記載した電子メールをユーザーに送信します。
-ms.openlocfilehash: b499bfb4734d46a671ff4c236b354630f7e0a284
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f2137d05ebe588a316704fabf4c8878910a40bc0
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776812"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163904"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Skype for Business Online の電話会議情報を使って、ユーザーにメールを送信する
 
@@ -82,7 +82,7 @@ Skype for Business ユーザーに電話会議情報を送付しなくてはな�
     
   - ユーザーの電話会議プロバイダーが Microsoft に変更された場合。
     
-- 既定では、メールの送信者は Office 365 から送信されますが、メールアドレスと表示名を変更するには、Windows PowerShell と[-](https://go.microsoft.com/fwlink/?LinkId=708983)コマンドレットを使用します。 ユーザーにメールを送信するメールアドレスを変更するには、次のことを行う必要があります。
+- 既定では、メールの送信者は、Microsoft 365 または Office 365 から送信されますが、Windows PowerShell と[-](https://go.microsoft.com/fwlink/?LinkId=708983)コマンドレットを使用して、メールアドレスと表示名を変更することができます。 ユーザーにメールを送信するメールアドレスを変更するには、次のことを行う必要があります。
     
   - SendEmailFromAddress パラメーターにメールアドレスを入力します。
     
@@ -105,11 +105,11 @@ Skype for Business ユーザーに電話会議情報を送付しなくてはな�
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。Windows PowerShell により、単一の管理ポイントを使って Office 365 を管理でき、複数の作業を実行する必要があるときに日常業務を合理化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
+- Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常業務を簡素化することができます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。 次のトピックで、これらの利点を説明します。 
     
@@ -124,4 +124,4 @@ Skype for Business ユーザーに電話会議情報を送付しなくてはな�
   
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

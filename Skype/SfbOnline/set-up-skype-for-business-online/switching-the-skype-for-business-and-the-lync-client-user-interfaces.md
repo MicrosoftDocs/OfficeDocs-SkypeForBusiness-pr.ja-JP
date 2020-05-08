@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 02221d0edde6a37ec16a4820792d1d18756d4bb7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Microsoft 365 または Office 365 の PowerShell を使用して、Skype for Business と Lync クライアントのユーザーインターフェイスを切り替える方法について説明します。 '
+ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706452"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164306"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Skype for Business と Lync クライアントのユーザー インターフェイスを切り替える
 
-[] Skype for Business Online を利用している組織の場合、Office 365 でリモート PowerShell を使って、Skype for Business ユーザーが Skype for Business クライアントまたは Skype for Business (Lync) クライアントのユーザー インターフェイスを使用できるように設定できます。 既定では、Skype for Business クライアントのユーザー インターフェイスを使用するように設定されています。 Lync クライアントエクスペリエンスを使用したい場合は、このトピックの後半の手順に従って、Lync ユーザーインターフェイスを表示する最初の起動クライアントの動作を管理することができます。
+Skype for Business Online 組織の場合、Microsoft 365 または Office 365 のリモート PowerShell を使用して、skype for business クライアントまたは skype for Business (Lync) クライアントのユーザーインターフェイスを使用できるようにすることができます。 既定では、Skype for Business クライアントのユーザー インターフェイスを使用するように設定されています。 Lync クライアントエクスペリエンスを使用したい場合は、このトピックの後半の手順に従って、Lync ユーザーインターフェイスを表示する最初の起動クライアントの動作を管理することができます。
   
 > [!NOTE]
 > Lync 2013 クライアント エクスペリエンスは、Skype for Business 2016 クライアント バージョンのオプションではありません。 Lync 2013 クライアントを使用するようにクライアント環境を構成する前に、クライアント バージョンを調べて、バージョンの先頭が 16 ではない (16.x.x.x などではない) ことを確認してください。 
@@ -167,9 +167,9 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
    
 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
   
-- [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## <a name="first-launch-client-behaviors"></a>最初の起動クライアントの動作
 
@@ -278,7 +278,7 @@ You can turn the tutorial back on by setting the **Value data** to **1**.
     
 You can also verify that the GPO has successfully updated the registry on a user's computer by examining the registry. Open Registry Editor and navigate to the **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]** key. If the GPO successfully updated the registry you will see a value named EnableSkypeUI with a value of 0.
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

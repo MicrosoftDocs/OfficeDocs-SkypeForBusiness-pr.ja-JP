@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56ea3f8b27a582a9cea282244a03be692d0781be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905779"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158994"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
@@ -38,7 +38,45 @@ ms.locfileid: "43905779"
 - ゲートウェイ構成
 - 通話ポリシー
 
-## <a name="enable-location-based-routing-for-users"></a>ユーザーの位置情報に基づくルーティングを有効にする
+[Microsoft チーム管理センター](#using-the-microsoft-teams-admin-center)または[powershel](#using-powershell)l を使用して、位置情報に基づくルーティングを有効にすることができます。
+
+## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+
+### <a name="enable-location-based-routing-for-users"></a>ユーザーの位置情報に基づくルーティングを有効にする
+
+1. ボイスルーティングポリシーを作成し、PSTN の使用をポリシーに割り当てます。 PSTN の使用状況をポリシーに割り当てるときは、次のいずれかを実行してください。
+
+    - Pstn ゲートウェイを使っているボイスルーティングに関連付けられた PSTN の使用状況をサイトに対して使います。
+    - 場所に基づくルーティングの制限が不要な地域内の PSTN ゲートウェイを使用するボイスルーティングに関連付けられた PSTN の使用状況を使用します。
+2. ルーティングの制限が強制される必要があるユーザーに、音声ルーティングポリシーを割り当てます。
+
+ボイスルーティングポリシーを作成してユーザーに割り当てる方法の詳細については、「 [Microsoft Teams でボイスルーティングポリシーを管理](manage-voice-routing-policies.md)する」を参照してください。
+
+### <a name="enable-location-based-routing-for-network-sites"></a>ネットワークサイトで位置情報に基づくルーティングを有効にする
+
+ルーティングの制限を適用する必要があるサイトの位置情報に基づくルーティングを有効にします。 これを行うには、Microsoft Teams 管理センターの左のナビゲーションで、[**場所** > の**ネットワークトポロジ**] に移動し、ネットワークサイトを選択し、[**編集**] をクリックして、[**場所に基づくルーティング**] を有効にします。  
+
+詳細については、「[ネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
+
+### <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイで位置情報に基づくルーティングを有効にする
+
+PSTN への通話をルーティングする PSTN ゲートウェイへの通話をルーティングするゲートウェイへの位置情報に基づくルーティングを有効にし、ゲートウェイが配置されているネットワークサイトを関連付けます。 
+
+1. 左側のナビゲーションで、[**音声** > の**直接ルーティング**] に移動し、[ **SBCs** ] タブをクリックします。
+2. SBC を選択し、[**編集**] をクリックします。 
+3. [**場所に基づくルーティングとメディアの最適化**] で、[**場所に基づくルーティングを有効にする**] をオンにします。
+4. ゲートウェイのサイト ID を指定し、バイパスモードを設定します。
+5. **[保存]** をクリックします。
+
+### <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーで位置情報に基づくルーティングを有効にする
+
+特定のユーザーに対して位置情報に基づくルーティングを適用するには、ユーザーの通話ポリシーを設定して PSTN の有料電話のバイパスを防ぐようにします。 これを行うには、通話ポリシーで [**有料通話を防ぐ**] 設定をオンにします。
+
+詳細については、「 [Teams の通話ポリシー](teams-calling-policy.md)」を参照してください。
+
+## <a name="using-powershell"></a>PowerShell を使用する場合
+
+### <a name="enable-location-based-routing-for-users"></a>ユーザーの位置情報に基づくルーティングを有効にする
 
 1. PSTN の使用状況を設定するには、 [CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)コマンドレットを使用します。 複数の使用の場合は、それぞれの使用をコンマで区切ります。
 
@@ -76,7 +114,8 @@ ms.locfileid: "43905779"
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## <a name="enable-location-based-routing-for-network-sites"></a>ネットワークサイトで位置情報に基づくルーティングを有効にする
+### <a name="enable-location-based-routing-for-network-sites"></a>ネットワークサイトで位置情報に基づくルーティングを有効にする
+
 1.  [CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps)コマンドレットを使用して、位置情報に基づくルーティングを有効にし、ルーティングの制限を適用する必要があるネットワークサイトに音声ルーティングポリシーを関連付けます。
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
@@ -96,7 +135,8 @@ ms.locfileid: "43905779"
     |Enablelocationrouting ルーティング    |True    |True    |
     |サブネット     |Subnet 1 (ニューデリー)     |Subnet 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイで位置情報に基づくルーティングを有効にする
+### <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイで位置情報に基づくルーティングを有効にする
+
 1. [新しい-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps)コマンドレットを使用して、各ゲートウェイまたはネットワークサイトのゲートウェイ構成を作成します。 
 
     ```PowerShell
@@ -148,7 +188,7 @@ ms.locfileid: "43905779"
     |PstnGateway: ゲートウェイ 3 DEL-PBX    |    False     |     サイト 1 (ニューデリー)    |
     |PstnGateway: ゲートウェイ 4 HYD-PBX    |    False     |    サイト 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーで位置情報に基づくルーティングを有効にする
+### <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーで位置情報に基づくルーティングを有効にする
 
 特定のユーザーに対して位置情報に基づくルーティングを適用するには、ユーザーの音声ポリシーを設定して、PTSN の有料のバイパスを防ぐようにします。 
 

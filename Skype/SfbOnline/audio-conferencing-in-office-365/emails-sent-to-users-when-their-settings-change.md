@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business Online でダイヤルイン会議の設定が変更されたときに、メールで自動的に送信される情報について説明します。 '
-ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f58bfe582b7adc6672c06bec0e90571ff9a96a
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986552"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164276"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Skype for Business Online の設定が変更されたときにユーザーに送信されたメール
 
@@ -35,11 +35,11 @@ ms.locfileid: "41986552"
 
 Microsoft を電話会議プロバイダーとして使用する電話[会議用に有効になっ](set-up-audio-conferencing.md)ているユーザーには、メールが自動的に送信されます。
   
-既定では、電話会議が有効になっているユーザーに送信されるメールには4種類のメールが用意されています。 ただし、ユーザーに送信されるメールの数を制限する場合は、オフにすることができます。 Office 365 の電話会議では、次の場合にユーザーのメールにメールが送信されます。
+既定では、電話会議が有効になっているユーザーに送信されるメールには4種類のメールが用意されています。 ただし、ユーザーに送信されるメールの数を制限する場合は、オフにすることができます。 Microsoft 365 または Office 365 の電話会議では、次の場合にユーザーのメールにメールが送信されます。
   
 - **電話会議ライセンスが割り当てられているか、電話会議プロバイダーを Microsoft に変更する場合。**
     
-     このメールには、会議 ID、会議用の既定の会議電話番号、ユーザーの電話会議の PIN、ユーザーの既存の会議を更新するために使用される Skype for Business Online 会議更新ツールを使用するための手順とリンクが含まれています。ユーザーズ. 「 [Skype For business ライセンスの割り当て](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」または「 [Microsoft の電話会議プロバイダーとしての割り当て](assign-microsoft-as-the-audio-conferencing-provider.md)」を参照してください。
+     このメールには、会議 ID、会議用の既定の会議電話番号、ユーザー用の電話会議の PIN、およびユーザーの既存の会議を更新するために使用される Skype for Business Online Meeting Update Tool を使用するための手順とリンクが含まれています。 「 [Skype For business ライセンスの割り当て](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」または「 [Microsoft の電話会議プロバイダーとしての割り当て](assign-microsoft-as-the-audio-conferencing-provider.md)」を参照してください。
     
     > [!NOTE]
     > 組織で動的会議 Id が有効になっている場合、スケジュールされているすべてのユーザーの会議には、固有の会議 Id が割り当てられます。 [組織内の電話会議の動的 id](using-audio-conferencing-dynamic-ids-in-your-organization.md)を設定することができます。 
@@ -76,7 +76,7 @@ Microsoft を電話会議プロバイダーとして使用する電話[会議用
     
     この問題は、**電話会議**のライセンスがユーザーから削除された場合、またはユーザーの電話会議プロバイダーを Microsoft からサードパーティの電話会議プロバイダーに変更した場合、またはプロバイダーを **[なし**] に設定した場合に発生します。 このメールには、Skype for Business Online Meeting Update ツールを使用して、既定の会議電話番号や会議 ID などの電話会議固有の情報を削除するための手順と情報が含まれています。
     
-    「[一般法人向け Office 365 ライセンスの割り当てまたは解除方法](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」をご覧ください。
+    「一般[法人向け Microsoft 365 アプリのライセンスの割り当てまたは削除」を](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)参照してください。
     
     このメールの例を次に示します。
     
@@ -87,7 +87,7 @@ Microsoft を電話会議プロバイダーとして使用する電話[会議用
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>送信されたメールメッセージに変更を加える
 
-メールアドレス、および*差出人*の連絡先情報に含まれている表示名など、ユーザーに自動的に送信されるメールを変更できます。 既定では、メールの送信者は Office 365 から送信されますが、Windows PowerShell と[-](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用してメールアドレスと表示名を変更することができます。 ユーザーにメールを送信するメールアドレスを変更するには、次のことを行う必要があります。
+メールアドレス、および*差出人*の連絡先情報に含まれている表示名など、ユーザーに自動的に送信されるメールを変更できます。 既定では、メールの送信者は、Microsoft 365 または Office 365 から送信されますが、Windows PowerShell と[-](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用して、メールアドレスと表示名を変更することができます。 ユーザーにメールを送信するメールアドレスを変更するには、次のことを行う必要があります。
   
 - _SendEmailFromAddress_ パラメーターにメール アドレスを入力する
     
@@ -145,13 +145,13 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-- 既定では、メールの送信者は Office 365 から送信されますが、Windows PowerShell と[-](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用してメールアドレスと表示名を変更することができます。
+- 既定では、メールの送信者は、Microsoft 365 または Office 365 から送信されますが、Windows PowerShell と[-](https://go.microsoft.com/fwlink/?LinkId=627285)コマンドレットを使用して、メールアドレスと表示名を変更することができます。
     
-- Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常業務を簡素化することができます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。 次のトピックで、これらの利点を説明します。 
     
@@ -164,7 +164,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change.md)
   

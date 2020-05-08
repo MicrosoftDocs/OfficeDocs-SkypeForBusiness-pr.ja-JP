@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online で電話会議番号の電話会議の自動応答の言語を選ぶ方法について説明します。
-ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93b6ea917c7f79747273366893efc47a22b89bb2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776802"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163907"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online で電話会議の自動案内の言語を設定する
 
@@ -64,7 +64,7 @@ Skype for Business の電話会議の自動応答では、電話会議に参加�
     
 - 専用電話番号には言語を設定できますが、共有電話番号には設定できません。
     
-- Microsoft をプロバイダーとして使用する Office 365 での電話会議を利用できる国/地域のリストを確認するには、「[電話会議の電話番号](phone-numbers-for-audio-conferencing.md)」をご覧ください。
+- Microsoft 365 または Office 365 の電話会議が、プロバイダーとして Microsoft を使用している場合は、「[電話会議の電話番号](phone-numbers-for-audio-conferencing.md)」を参照してください。
     
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
 
@@ -74,4 +74,4 @@ Skype for Business の電話会議の自動応答では、電話会議に参加�
   
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

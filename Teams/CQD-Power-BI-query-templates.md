@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI を使用して、Microsoft Teams の CQD データを分析します。
-ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 5d081853f9fc5c1106ce6906f31ddc10613ec9f9
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918676"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158964"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI を使用して Microsoft Teams の CQD データを分析する
 
@@ -31,6 +31,7 @@ Teams の CQD レポートの場合、Power BI を使ってデータのクエリ
 
 これらの PBIT ファイルを使用するには、その前に、[ダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に含まれている[Microsoft CQD の Power BI コネクタをインストール](CQD-Power-BI-connector.md)する必要があり*ます。* 
 
+Power BI レポートにアクセスするための適切な[CQD アクセスロール](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd)を持っていることを確認してください。 
 
 |  |  |
 |---------|---------|

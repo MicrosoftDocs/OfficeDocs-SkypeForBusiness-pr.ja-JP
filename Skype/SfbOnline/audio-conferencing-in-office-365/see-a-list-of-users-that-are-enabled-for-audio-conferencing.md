@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business 管理センターから、ダイヤルイン会議が有効になっている組織内のユーザーのリストを表示する方法について説明します。 '
-ms.openlocfilehash: ffc5649a4dc37428fb64915ce6a8b38d0869f388
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 206bd52d1b2e0cfc1a72bb557c5d5dc4c0162534
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680424"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163926"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online で電話会議用に有効になっているユーザーのリストを表示する
 
 > [!NOTE]
 > Microsoft Teams で有効になっているユーザーについては、「 [Microsoft teams で電話会議用に有効になっているユーザーのリストを表示](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)する」を参照してください。
 
-電話会議用に組織の Skype for Business ユーザーを有効にした後は、有効になっているユーザーの一覧を表示できます。 リストを見ると、使用している電話会議プロバイダーの種類、ユーザーの既定のダイヤルイン電話番号、組織で動的会議 id が有効になっていない場合は、リストの各ユーザーにも表示されます。開催した電話会議の場合。
+電話会議用に組織の Skype for Business ユーザーを有効にした後は、有効になっているユーザーの一覧を表示できます。 リストを見ると、使用している電話会議プロバイダーの種類、ユーザーの既定のダイヤルイン電話番号、組織で動的会議 Id が有効になっていない場合にも、自分が開催した電話会議の静的な会議 Id がリストに表示されます。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "41680424"
 
 - 有効になっているユーザーのリストを表示すると、一覧からユーザーを選んで、操作ウィンドウを使ってそのユーザーの電話会議の設定を編集できます。
     
-- 電話会議プロバイダーとして Microsoft を使用するように構成されている1人のユーザーを選ぶと、既定の電話番号と、組織で動的会議 Id が有効になっているかどうかが表示され、会議 ID をリセットすることができます。ユーザーが整理します。
+- Microsoft を電話会議プロバイダーとして使用するように構成されている1人のユーザーを選ぶと、既定の電話番号と、組織で動的会議 Id が有効になっているかどうかが表示され、ユーザーが開催する会議の会議 ID をリセットすることができます。
     
 - サードパーティの電話会議プロバイダーを使用するように構成されている1人のユーザーを選ぶと、電話会議プロバイダーの名前、有料電話番号、フリーダイヤル電話番号 (設定されている場合) を表示できます。
     
@@ -75,15 +75,15 @@ ms.locfileid: "41680424"
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して、Microsoft 365 または Office 365 と Skype for Business Online を管理することができます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell には、多くのユーザーについて同時に設定を変更する場合など、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を高めることができます。 次のトピックでこれらの利点について説明します。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -91,4 +91,4 @@ ms.locfileid: "41680424"
     
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

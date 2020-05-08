@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: PIN の長さと要件のパラメーターについて説明し、「Skype for Business での会議の長さを設定する方法」を参照してください。
-ms.openlocfilehash: 9142c78c30c56702e2892d396b5688ee120cc83e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9e1be77b18c5b416d220ce5d7432562888ce5752
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695812"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164536"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Skype for Business Online での電話会議の PIN の長さを設定する
 
@@ -36,7 +36,7 @@ ms.locfileid: "41695812"
 
 Skype for Business の電話会議をセットアップするときには、電話会議ブリッジを取得します。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 設定した電話番号は、Skype for Business アプリの会議出席依頼に含まれます。
   
-電話会議ブリッジは、電話を使って会議にダイヤルインしているユーザーに対して、通話に応答します。 自動応答からの音声プロンプトで、発信者に応答し、設定に応じて、通知を再生し、発信者に名前を記録するように依頼することができます。 **Microsoft bridge の設定**を使用すると、会議の通知と会議の参加エクスペリエンスの設定を変更したり、会議の開催者によって使用される pin の長さを設定したりすることができます。 会議の開催者が Skype for Business アプリを使って会議に参加できない場合は、Pin を使って会議を開始します。
+電話会議ブリッジは、電話を使用して会議にダイヤルインしようとしているユーザーの呼び出しに応答します。 自動応答からの音声プロンプトで、発信者に応答し、設定に応じて、通知を再生し、発信者に名前を記録するように依頼することができます。 **Microsoft bridge の設定**を使用すると、会議の通知と会議の参加エクスペリエンスの設定を変更したり、会議の開催者によって使用される pin の長さを設定したりすることができます。 会議の開催者が Skype for Business アプリを使って会議に参加できない場合は、Pin を使って会議を開始します。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -64,13 +64,13 @@ Skype for Business の電話会議をセットアップするときには、電�
     
 - PIN の桁の桁数を8に設定するには、次の操作を行います。`Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
     
-- Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常業務を簡素化することができます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、簡素化、生産性を高めるためのさまざまな利点があります。たとえば、多くのユーザーの設定を一度に変更する場合です。 次のトピックで、これらの利点を説明します。 
+- 多くのユーザーの設定を同時に変更するときなどは、Microsoft 365 管理センターのみを使用するよりも、Windows PowerShell を使用した方が、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -85,4 +85,4 @@ Skype for Business の電話会議をセットアップするときには、電�
   
 ## <a name="see-also"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

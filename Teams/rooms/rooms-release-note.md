@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、microsoft teams ルームのリリースノートを読むことができます。これにより、Microsoft Teams のルームでの累積的な改善点が一覧表示されます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ffc6b052fca002493b31a2f7c55f43cf9ce8804a
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 0a4af973e02c8ae3799ee0abe6df5c9694956635
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997218"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158954"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -29,6 +29,7 @@ ms.locfileid: "43997218"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
@@ -62,6 +63,12 @@ ms.locfileid: "43997218"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams ミーティング機能の概要と問題の解決
+
+### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
+
+この更新プログラムで導入されるもの:
+- Windows 10 キオスクでのアプリケーションの起動に関する信頼性の修正
+
 ### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)
 
 この更新プログラムで導入されるもの:
