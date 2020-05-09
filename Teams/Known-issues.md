@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の既知の問題
+title: 組織の Microsoft Teams をサポートする
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,25 +9,33 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
-ms.reviewer: marcl
+ms.reviewer: marcl, billkau
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams のクライアント アプリと管理者のエクスペリエンスに関する既知の問題の一覧を活用して、組織内の問題のトラブルシューティングを行います。
+description: チーム管理者またはヘルプデスクサポートエンジニアのいずれかにかかわらず、組織内の Microsoft Teams をサポートするのには、これらのリソースを使用します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1343317d29f196caf151ead5a6429fb3edf19d87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 362958a7307a71b68a2582bffca2e323966b1977
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902302"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997008"
 ---
-# <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams の既知の問題
+# <a name="support-microsoft-teams-in-your-organization"></a>組織の Microsoft Teams をサポートする
 
-この記事では、Microsoft Teams の既知の問題を、機能の領域ごとにまとめています。
+チームの既知の問題を探している場合は、こちらを参照してください。 組織のチームをサポートするには、この記事にあるリソースを使用します。 
+
+最初に、この記事で後述する最も多かった [一般的な問題と解決方法](#common-issues-and-resolutions) リストの確認から開始します。
+
+次に、必要なものが見つからない場合は、[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) に移動して、目次の問題を検索するか、**[タイトル別にてフィルターをかける ]** ボックスの問題を検索します。 
+:::image type="content" source="media/known-issues1.png" alt-text="チームのトラブル シューティング ページにある [目次とフィルター] ボックスのスクリーンショット":::
+
+それでも問題が解決しない場合は、[Microsoft サポート](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)にお問い合わせください。
+
 
 ## <a name="common-issues-and-resolutions"></a>一般的な問題と解決策
 
@@ -55,4 +63,9 @@ ms.locfileid: "43902302"
 |---------|---------|
 |ユーザーに「使い損ねていますよ」という メッセージが表示される場合。   |「[学校の Microsoft Teams を有効にする](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)」を確認してください。 EDU テナントにおいて、既定では Teams は有効になっていません。最初に、Teams を有効にする必要があります。 <br><br>次に、「[Office 365 Education のリモート教育と学習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)」を参照して、学校向けのセットアップに関する最新のガイダンスやトレーニング計画、仮想授業、生徒とのコンテンツの共有について確認してください。<br><br>最後に Microsoft Teams IT 管理者トレーニング ビデオ、デッキ、その他の詳細を、「[Teams の管理者トレーニング](itadmin-readiness.md)」でご覧ください。        |
 
-Microsoft Teams の問題の解決方法の詳細については、「[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)」を参照してください。
+
+## <a name="related-topics"></a>関連項目
+
+[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+[Teams のサポート リソース](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
