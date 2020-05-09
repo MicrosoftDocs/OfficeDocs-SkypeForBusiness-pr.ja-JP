@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表は、Microsoft Teams のオランダでの電話番号の取得と管理に関する情報を入手するために使います。
-ms.openlocfilehash: 77e6748873d921a2e25fb10a73010da4dfdc6fc7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7e814786f8e381e59d4c56af815cefff1490dac1
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706962"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170668"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>オランダでの電話番号の管理
 
@@ -38,7 +38,7 @@ ms.locfileid: "41706962"
 |:-----|:-----|
 |Microsoft Teams 管理センターに表示されていない新しいユーザーとサービスの電話番号を取得します。   <br/> | このフォームをダウンロードします。</br> [オランダ (nl) の新しい電話番号要求 (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(nl-nl).pdf?raw=true) <br/> [オランダ (ニュージーランド) への新しい電話番号要求 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(en-us).pdf?raw=true)  <br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
 |お客さまの電話番号をお送りします。  <br/> |次のフォームのいずれかをダウンロードします。 <br/> 
-            [オランダ (地域番号) 用の承認状 (LOA) (v.2.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> [オランダ (地域外の番号) 用の承認状 (LOA) (v.2.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> <br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
+            [オランダ (地域番号) 用の承認状 (LOA) (v.2.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> [オランダ (地域外の番号) 用の承認状 (LOA) (v.2.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-Netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> <br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
 |国内電話ディレクトリの電話番号を公開/非公開にします。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの電話番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 
