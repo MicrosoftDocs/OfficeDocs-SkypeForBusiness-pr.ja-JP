@@ -18,12 +18,12 @@ f1.keywords:
 description: チーム管理者またはヘルプデスクサポートエンジニアのいずれかにかかわらず、組織内の Microsoft Teams をサポートするのには、これらのリソースを使用します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 362958a7307a71b68a2582bffca2e323966b1977
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 2af4f29ade3e360f4802077d503fd5ad66b081c9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997008"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041944"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>組織の Microsoft Teams をサポートする
 
@@ -54,7 +54,7 @@ ms.locfileid: "43997008"
 |**会議ポリシー**|[会議ポリシー](meeting-policies-in-teams.md)は、組織内のユーザーによってスケジュールされた会議への参加者が利用できる機能を制御するために使用されます。 ポリシーを作成して変更を行った後、ユーザーをポリシーに割り当てることができます。         |
 ||**会議ポリシーを変更または作成する**<br><br>会議ポリシーを変更または作成するには、Microsoft Teams 管理センターにアクセスし、[**会議**]  >  [**会議ポリシー**] の順に移動します。 一覧からポリシーを選択するか、[**追加**] を選択します。 新しいポリシーを作成する場合は、名前と説明を追加します。 名前に特殊文字を含めたり、64 文字より長くしたりすることはできません。 設定を選び、**[保存]** をクリックします。 たとえば、多数のユーザーがいて、会議に必要な帯域幅を制限するとします。 「制限された帯域幅」という名前の新しいカスタム ポリシーを作成し、次の設定を無効にできます。<br><br>[**オーディオとビデオ**] で、<ul><li>[クラウド記録を許可する] を無効にします。</li><li>[IP のビデオを許可する] を無効にします。</li></ul>[**コンテンツの共有**] で、<ul><li>画面共有モードを無効にします。</li><li>[ホワイトボードを許可] を無効にします。</li><li>[メモの共有を許可する] を無効にします。</li></ul>その後、ポリシーをユーザーに割り当てます。         |
 | |**ユーザーに会議ポリシーを割り当てる**<br><br><ol><li>Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。</li><li>ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。</li><li>[**会議ポリシー**] で割り当てるポリシーを選択し、[**適用**] をクリックします。</li></ol>一度に複数のユーザーにポリシーを割り当てる方法については、「[一括で Teams のユーザー設定を編集する](edit-user-settings-in-bulk.md)」を参照してください。 または、以下の操作を実行できます。<ol><li>Microsoft Teams 管理センターの左側のナビゲーションで、**[会議] > [会議ポリシー]** の順に移動します。</li><li>ポリシー名の左側をクリックしてポリシーを選びます。</li><li>**[ユーザーを管理する]** を選択します。</li><li>[**ユーザーを管理する**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。</li><li>ユーザーの追加が完了したら、**[保存]** をクリックします。</li>         |
-|**表示されないダイヤル パッドのトラブルシューティング**     |以下の操作を行います。 <ul><li>ユーザーに [Teams ライセンス](assign-teams-licenses.md)が割り当てられていることを確認します。</li><li>ユーザーに[通話プラン](calling-plan-landing-page.md)が割り当てられていることを確認します。</li><li>[エンタープライズ VoIP](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail) に対してユーザーを有効にします。</li></ul>      |
+|**表示されないダイヤル パッドのトラブルシューティング**     |以下の操作を行います。 <ul><li>ユーザーに [Teams ライセンス](teams-add-on-licensing/assign-teams-add-on-licenses.md)が割り当てられていることを確認します。</li><li>ユーザーに[通話プラン](calling-plan-landing-page.md)が割り当てられていることを確認します。</li><li>[エンタープライズ VoIP](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail) に対してユーザーを有効にします。</li></ul>      |
 |**Teams サインインのトラブルシューティング**   |最初に、[Microsoft Teams サービスが正常である](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth)ことを確認します。 次に一般的なエラー コードを確認し、「[Microsoft Teams へのサインインで問題が起きるのはなぜですか。](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)」を参照します。  「[Microsoft Teams での ID モデルと認証](identify-models-authentication.md)」の確認が必要となる場合もあります。         |
 
 ### <a name="for-education-customers"></a>教育機関のお客様

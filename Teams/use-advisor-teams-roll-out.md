@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780806"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139200"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -65,6 +65,12 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
     - 導入タスクを含む Planner プラン
     - Forms のユーザー アンケート
     - Teams のアドバイザー ボット
+1. Skype for Business のアップグレード
+    - テナントの評価
+    - 導入タスクを含む Planner プラン
+    - Forms のユーザー アンケート
+    - Teams のアドバイザー ボット
+    - Skype for Business のアップグレード プランは、現在 Skype for Business Online またはオンプレミス環境で Skype for Business をご利用のお客様向けに設計されており、アップグレードの行程を正確に把握できるようになっています。 このプランでは、Teams を使い始めたばかりのお客様、Skype for Business と併せて既に Teams を使用しているお客様、あるいはアップグレードの準備ができているお客様のすべてに、変更の実装に実績のあるフレームワークを利用してステップ バイ ステップでアップグレードのプロセスを案内します。 このプランではさらに、[オンライン ガイダンスとベスト プラクティス](https://aka.ms/SkypeToTeams)、[ダウンロード可能なリソース ファイル](https://aka.ms/UpgradeSuccessKit)、[ライブでの 1 対多のアップグレード計画ワークショップ](https://aka.ms/UpgradeWorkshops)の他、成功を支援するさまざまなリソースにアクセスできます。
 
 チャット、チーム、チャネル、アプリ プランから始めることをお勧めします。 そのワークロードの展開が完了したら Teams のアドバイザーに戻り、[**チャネルの追加**] をクリックして次のワークロードを開始します。
 
@@ -84,7 +90,7 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 |アセスメント テスト  |確認できること  |
 |---------|---------|
 |構成済みのバニティ ドメイン     |テナント用に構成された @onmicrosoft.com 以外のドメイン (たとえば、@contoso.onmicrosoft.com) があるかどうか。 もちろん、@onmicrosoft.com ドメインを使用することも、バニティ ドメインを構成することもできます (任意)。 詳細については、「[Office 365 にドメインを追加する](https://docs.microsoft.com/office365/admin/setup/add-domain)」をご覧ください。 |
-|Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが**必須です**。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Teams の Office 365 ライセンス](https://docs.microsoft.com/microsoftteams/office-365-licensing)」を参照してください。    |
+|Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが**必須です**。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。    |
 |Exchange Online ライセンス     |使用可能な Exchange Online のライセンスで有効なサブスクリプションを所有しているかどうか 基本的な Teams 機能には Exchange は必要ありませんが、Exchange との統合により、最適な Teams エクスペリエンスが可能になります。 Microsoft Graph 内を検索して、テナントに関連付けられているサブスクリプションを分析し、対象の (割り当て可能なライセンスが少なくとも 1 つはある) Exchange Online ライセンスのサブスクリプションがあるかどうかを検証します。 詳細については、「[Exchange と Teams の連携](exchange-teams-interact.md)」をご覧ください。    |
 |SharePoint Online のライセンス     |使用可能な SharePoint Online のライセンスで有効なサブスクリプションを所有しているかどうか チャットのファイル ストレージに OneDrive for Business を提供する場合、ユーザーごとに SharePoint Online ライセンスを所有することをお勧めします。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) SharePoint Online ライセンスがあるかどうかを確認します。 詳細については、[Teams との SharePoint Online と OneDrive for Business の連携](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)をご覧ください。    |
 |ゲスト アクセスの有効化     |[ゲスト アクセス](guest-access.md)が有効になっているかどうか。 ゲスト アクセスを使用すると、外部ユーザーをチームに招待できます。 [Teams のゲスト アクセスのチェックリスト](guest-access-checklist.md)を使用して、Teams でゲスト アクセスを有効にします。チェックリストには、必要な Azure AD 構成が含まれています。 |
@@ -107,6 +113,9 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 |---------|---------|
 |電話会議のライセンス    |電話会議のライセンスの有効なサブスクリプションを所有しているかどうか。 これは、電話会議ブリッジを展開する場合の前提条件です。 Microsoft Graph を照会して、(割り当て可能なライセンスが少なくとも 1 つはある) 音声会議ライセンスがあるかどうかを確認します。詳細については、「[Teams アドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。    |
 |Stream のライセンス     |使用可能な Microsoft Stream のライセンスで有効なサブスクリプションを所有しているかどうか。 これは、会議の記録を有効にする場合の前提条件です。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Microsoft Stream ライセンスがあるかどうかを確認します。 Stream の詳細および有効化の方法については、「[Teams のクラウド会議の記録](cloud-recording.md)」をご覧ください。
+
+### <a name="assessments-for-skype-for-business-upgrade"></a>Skype for Business のアップグレードのアセスメント
+[すべてのワークロードのアセスメント テスト](#assessment-tests-for-all-workloads)に加え、Skype for Business のアップグレードには会議や会議プランで使用するアセスメントも含まれています。
 
 ### <a name="advisor-for-teams-bot"></a>Teams のアドバイザー ボット
 
@@ -148,6 +157,9 @@ Teams のアドバイザーが展開チームを作成した後、他のチー�
 ### <a name="can-i-modify-the-forms-survey"></a>Forms アンケートを変更できますか?
 はい。Teams のアドバイザーが展開チームを作成した後、必要に応じて Forms アンケートを変更できます。
 
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>GCC での Teams のアドバイザーとの間の違いはありますか?
+はい。GCC では現在 Teams Forms アプリを使用できないため、Forms のユーザー アンケートは作成されますがプランのチャネルにはピン留めされません。
+
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Teams のアドバイザーは自分の組織についてどのような情報を収集しますか?
 Teams のアドバイザーは、非 EUII (エンド ユーザー識別情報) の収集に関する同意を要求します。 収集される情報はテレメトリーの形式であり、Teams のアドバイザーがどの程度成果を上げているのか、改善すべきところはどこなのか​​について、Microsoft にフィードバックを提供します。 このデータは、Microsoft が展開を支援するために組織と積極的に連携する機会を特定するために使用されます。
 
@@ -170,4 +182,4 @@ Teams のアドバイザーは、非 EUII (エンド ユーザー識別情報) �
 [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 
 [ライセンスのための製品名とサービス プラン識別子](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-) 
+)

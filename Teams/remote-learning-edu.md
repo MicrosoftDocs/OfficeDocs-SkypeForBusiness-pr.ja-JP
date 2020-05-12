@@ -18,19 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d380300aa27d07ecfecdbe805be9042c88779285
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: c9a87acce75568716eb4c4cf2dac4ecb6c03959d
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898162"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139240"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
 > [!NOTE]
-> この記事は、遠隔学習を学校で整備する上で役に立つリソースです。 教師、学校関係者、または IT 担当者の方々向けには、次のリソースが役立ちます。
+> この記事は、教育機関で遠隔学習を整備する上で役に立つリソースです。 教師、教育指導者、または IT 担当者の方々には、次のリソースが役立ちます。
 >
-> - Teams で学校や大学全体をすばやく準備して稼働させるには、こちらの [**1 ページにまとめた入門情報**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)をご参照ください。
+> - 教育機関全体ですばやく Teams を準備して稼働させるには、こちらの [**1 ページにまとめた入門情報**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)をご参照ください。
 > - 「[**Teams の使用を開始する方法**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)」をダウンロード: セキュリティと変更管理に役立つプラクティスを掲載した IT プロフェッショナル向けのガイドです。
 > - [**Teams を使用した授業での重要な最初の手順**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)に関する使い方ガイドを含む、教師向けに書かれた複数の記事を提供しています。
 > - Microsoft Educator Center の 1 時間のオンライン コースでは、教師が教育の場において Teams を活用する方法を示します。 [**Microsoft Teams を使用して学習を刷新する**](https://education.microsoft.com/course/9c9f5c11/overview)。
@@ -44,7 +44,7 @@ ms.locfileid: "43898162"
 
 Microsoft Teams は、会話、コンテンツ、課題、アプリが 1 か所にまとめられたデジタル ハブで、教師はこれを活用することにより、活気に満ちた学習環境を構築することができます。 協働学習向けのクラス作り、プロフェッショナルの学習コミュニティへの参加、同僚教師とのコミュニケーションなどを、すべて 1 つの環境から行えます。
 
-教師は Teams 内で、生徒との会話、ファイルや Web サイトの共有、OneNote Class Notebook の作成、課題の配布と採点をすばやく行えます。 教師は組み込みの OneNote Class Notebook とエンド ツー エンドの課題管理機能を使用することで、対話型の授業を組織し、効果的にかつタイミングよくフィードバックを提供することができます。 学校の管理職員とその他の職員は Staff Teams を使用することで、最新情報を常に把握し、お知らせや最近の議題に関する共同作業を行えます。 教員は、プロフェッショナルの学習コミュニティを使用して教材を共有できます。
+教師は Teams 内で、生徒との会話、ファイルや Web サイトの共有、OneNote Class Notebook の作成、課題の配布と採点をすばやく行えます。 教師は組み込みの OneNote Class Notebook とエンド ツー エンドの課題管理機能を使用することで、対話型の授業を組織し、効果的にかつタイミングよくフィードバックを提供することができます。 教育機関の管理職員とその他の職員は Staff Teams を使用することで、最新情報を常に把握し、お知らせや最近の議題に関する共同作業を行えます。 教員は、プロフェッショナルの学習コミュニティを使用して教材を共有できます。
 
 この記事に記載されているベスト プラクティスを使用することで、お客様の教育ニーズを満たすために Teams の使用を開始し、遠隔学習機能を有効にすることができます。 Class Teams は、協働学習用スペースの構築、仮想ミーティング用プラットフォームの提供、課題やフィードバックを通した学習の強化、生徒とのライブ通話の主導などに使用できます。
 
@@ -58,7 +58,7 @@ Teams では、Microsoft 365 の機能を利用してユーザーの認証とサ
 
 ユーザーが Teams の機能を使用できるようになるには、[Teams のライセンスをユーザーに対して有効にし](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)、[ライセンスをユーザーに付与する](teams-edu-licensing.md)必要があります。 Teams では、[Microsoft 365 グループ](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint と OneDrive](SharePoint-OneDrive-interact.md) など、Teams 以外の Microsoft 365 の機能を利用して共同作業のシナリオを有効にしています。 最適な Teams 環境をユーザーに提供するには、これらの機能も有効になっている必要があります。 [Teams では、Google でホストされるメールを使用するユーザーもサポートされています](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
-Microsoft Teams は、教育機関が無料で使用できる Office 365 A1 に含まれています。 Office 365 の展開方法および学校全体で Teams の使用を開始する方法に関する IT ガイドについては、[こちらのページ](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)を参照してください。 サポートが必要な場合は、[こちら](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)でサポート チケットを申請することができます。Microsoft のスペシャリストに直接相談することをご希望の場合は、お近くの Microsoft Store までご来店ください。
+Microsoft Teams は、教育機関が無料で使用できる Office 365 A1 に含まれています。 Office 365 の展開方法および教育機関全体で Teams の使用を開始する方法に関する IT ガイドについては、[こちらのページ](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)を参照してください。 サポートが必要な場合は、[こちら](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)でサポート チケットを申請することができます。Microsoft のスペシャリストに直接相談することをご希望の場合は、お近くの Microsoft Store までご来店ください。
 
 > [!NOTE]
 > EDU の展開に関する最新情報は、「[COVID-19 流行期における M365 EDU の展開の更新済みガイダンス](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)」をご確認ください。
@@ -78,9 +78,12 @@ Teams の作成方法のチュートリアルついては、「[Create a class t
 ### <a name="2-configure-user-experiences-using-policies"></a>2. ポリシーを使用してユーザー エクスペリエンスを構成する
 
 > [!IMPORTANT]
-> 会議中に学生を保護する方法についての詳細情報は、「[遠隔学習で Teams の会議を使用している間、学生の安全を確保する](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)」を参照してください。
+> 会議中に学生を保護する方法についての詳細情報は、「[遠隔学習で Teams の会議を使用している間、学生の安全を確保する](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)」を参照してください。 管理職員向けの EDU ポリシーに関する推奨事項の詳細は、[教育用 Teams ポリシーおよびポリシー パッケージ](policy-packages-edu.md)に記載されています。
 
 [Teams ポリシー](teams-policies.md)により、特定のユーザーまたはユーザーのグループが使用できるオプションを制限する機能が提供されています。 ポリシーを適用することにより、プライベート チャット、プライベート通話、会議のスケジュール設定、共有可能なコンテンツの種類などを使用または設定できるユーザーを定義することができます。
+
+> [!IMPORTANT]
+> 学生および教職員向けのポリシーに関する最新のガイドは、[教育用 Teams ポリシーおよびポリシー パッケージ](policy-packages-edu.md)に記載されています。
 
 **高等教育機関の職員、教員、および学生**は、既定の (グローバル) ポリシーに含まれる機能のメリットを受けることができます。 [メッセージング ポリシーによる翻訳機能の有効化](messaging-policies-in-teams.md#messaging-policy-settings)や会議ポリシーによる[会議の自動文字起こしの許可](meeting-policies-in-teams.md#allow-transcription)など、追加機能を Teams に追加するためのポリシー設定がいくつかあります。
 
@@ -88,41 +91,6 @@ Teams の作成方法のチュートリアルついては、「[Create a class t
 
 > [!IMPORTANT]
 > ユーザーに割り当てられている会議ポリシーについては、[参加を自動的に許可する] を [組織内のすべてのユーザー] に設定することをお勧めします。 この設定によって、認証されていないユーザーは、Teams 会議に参加する前にロビーからの許可が必要となります。 詳細については、「[Teams での会議ポリシーを管理する](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)」を参照してください。
-
-既定以外の一般的なポリシーの構成を以下に示します。これらの構成を小中高生に適用することにより、モデレートされていない生徒間のコミュニケーションを制限することができます。
-
-#### <a name="messaging-policy"></a>メッセージング ポリシー
-
-- "送信済みメッセージを削除" を 'オフ' に設定
-- "送信済みメッセージを編集" を 'オフ' に設定
-- [Giphy コンテンツの評価] を [高] に設定
-- [メッセージを翻訳する] を [オン] に設定
-- [優先通知を使用して緊急メッセージを送信する] を [オフ] に設定
-- [グループ チャットからユーザーを削除する] を [オフ] に設定
-
-#### <a name="meeting-policy"></a>会議ポリシー
-
-- [チャネルで "今すぐ会議" を許可する] を [オフ] に設定
-- [Outlook アドインを許可する] を [オフ] に設定
-- [チャネルの会議スケジュールを許可] を [オフ] に設定
-- [プライベート会議のスケジュールを許可] を [オフ] に設定
-- [プライベート会議で "今すぐ会議" を許可] を [オフ] に設定
-- オプション: [IP ビデオを許可] を [オン] に設定
-
-> [!NOTE]
-> これにより、学生のビデオを教師がリアルタイムで見ることができます。
-
-#### <a name="live-events-policy"></a>ライブ イベント ポリシー
-
-- [スケジュールを許可] を [オフ] に設定
-
-#### <a name="calling-policy"></a>通話ポリシー
-
-- [プライベート通話を行う] を [オフ] に設定
-
-#### <a name="teams-policy"></a>Teams ポリシー
-
-- [プライベート チャネルの作成] を [オフ] に設定
 
 **小学校の教職員**には、生徒に対しては制限されている、主要な機能を付与するポリシーを適用する必要があります。 プライベート チャットの作成および会議をスケジュール (新しいポリシーの既定の設定項目) を許可する新しいポリシーを作成します。 [これらのポリシーを一括ポリシー割り当てを使用して教職員に一括して割り当てます](batch-policy-assignment-edu.md)。
 
@@ -132,14 +100,14 @@ Teams の作成方法のチュートリアルついては、「[Create a class t
 
 Microsoft Teams for Education では、教育機関向けの[特別なチーム タイプ](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)が提供されています。 [クラス チーム タイプ](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)は教室での授業向けに作られており、課題、OneNote Classroom Notebook、生徒用の読み取り専用コンテンツをセキュリティで保護するための[クラスの教材フォルダー](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)、授業を妨害する生徒のミュートなど、特別な機能が提供されています。 クラス チームを展開するには、次の 2 つの方法があります。
 
-1. IT 担当者は [School Data Sync](https://sds.microsoft.com/) (SDS) を**セットアップ**することができ、こうすることで、すべてのクラスで、学校情報システムに含まれている情報に基づいてクラス チームを作成できるようになります。 このプロセスにより各セクションにグループがプロビジョニングされ、登録の変更時に教師と生徒名簿が同期された状態に保たれます。 [このプロセスを使用して](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)、教職員は、これらのグループをクラス チームに変換することができます。 クラス チームを作成したら、生徒の参加を許可する前に[教師は生徒用にチームを準備することができます](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) 。 SDS では、データのインポートについて 80 以上の学校情報システム (SIS システム) がサポートされています。 [SDS サポート チーム](https://aka.ms/SDSSupport) は、計画と構成に関してすぐに支援を提供できます。 「[リモート学習のための高速展開ガイド](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)」を確認して、すぐに使用を開始することもできます。
+1. IT 担当者が [School Data Sync](https://sds.microsoft.com/) (SDS) を**セットアップ**します。こうすることで、教育機関の情報システムに保存されている情報に基づいて、すべてのクラスを対象にクラス チームを作成できるようにします。 このプロセスにより各セクションにグループがプロビジョニングされ、登録の変更時に教師と生徒名簿が同期された状態に保たれます。 [このプロセスを使用して](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)、教職員は、これらのグループをクラス チームに変換することができます。 クラス チームを作成したら、生徒の参加を許可する前に[教師は生徒用にチームを準備することができます](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) 。 SDS では、データのインポートについて 80 以上の学校情報システム (SIS システム) がサポートされています。 [SDS サポート チーム](https://aka.ms/SDSSupport) は、計画と構成に関してすぐに支援を提供できます。 「[リモート学習のための高速展開ガイド](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)」を確認して、すぐに使用を開始することもできます。
 1. **教師**は自分のクラス タイプのチームをセットアップし、生徒を招待します。 これを行うには、教師は[生徒をチームに追加](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)するか、[参加用コードを共有](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)するか、または[チームへのリンクを共有](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)します。 可能な場合は、教師が自分の生徒をチームに追加するのが最良の方法です。こうすることで、アクセス許可が生徒に確実に付与され、チームに追加されたことが生徒に通知されます。
 
 チームのセットアップ後、チームの所有者は、[チームの設定のカスタマイズ](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158) ([チームの画像](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0)の追加など)、クラスの科目用[チャネル](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45)またはグループ協働学習エリアの作成、既存の教育コンテンツを取り込むための Quizlet や Flipgrid、Kahoot などの[アプリの追加](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)を行うことができ、また、[一番最初の投稿でチームについて説明することにより、](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2)クラス全員に通知を行い、会話を開始することができます。
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>職員の通信と共同作業用にスタッフ チームを作成する
 
-[スタッフ タイプ チーム](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf)は学校の管理職員とその他の職員向けに作られており、お知らせの送信、会議の準備、コンテンツの共有、[タスクを追跡するための Planner](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2) などの外部アプリの導入など、学校全体の取り組みに関する情報の共有や共同作業を簡単に行うことができます。 学校の管理職員は、チーム作成ウィザードを使用して学校の職員をチームに追加できます。[チームを作成してからメンバーを追加する](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9)ことも、[参加用コードまたはチームへのリンク](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)を使用してメンバーを追加することもできます。 [チャネルを作成すると](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525)、会話やファイルをワークストリームまたは題目ごとに整理するのに大変便利です。 「[チームの所有者向けガイド](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4)」は、チームの所有者の義務や機能について理解するのに役立ちます。
+[スタッフ タイプ チーム](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf)は教育機関の管理職員とその他の職員向けに作られており、お知らせの送信、会議の準備、コンテンツの共有、[タスクを追跡するための Planner](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2) などの外部アプリの導入など、教育機関全体の取り組みに関する情報の共有や共同作業を簡単に行うことができます。 教育機関の管理職員は、チーム作成ウィザードを使用して教育機関の職員をチームに追加できます。[チームを作成してからメンバーを追加する](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9)ことも、[参加用コードまたはチームへのリンク](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)を使用してメンバーを追加することもできます。 [チャネルを作成すると](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525)、会話やファイルをワークストリームまたは題目ごとに整理するのに大変便利です。 「[チームの所有者向けガイド](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4)」は、チームの所有者の義務や機能について理解するのに役立ちます。
 
 ## <a name="teams-meeting-scenarios"></a>Teams の会議シナリオ
 
@@ -164,7 +132,7 @@ Teams では、会議の開催者はすべての参加者に対して会議を�
 
 Teams では、ユーザーがプロフィール画像を変更できるかどうかを制御するため、テナント管理者によって構成されている[Outlook on the web のメールボックス ポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)の設定を優先します。 **[-SetPhotoEnabled]** 設定がオフの場合は、ユーザーがプロフィール画像を追加、変更、削除することはできません。 生徒やスタッフがプロフィールの画像を変更したり、削除したりできないようにするには、彼らに割り当てられた Outlook on the web のメールボックス ポリシーで設定をオフにします。
 
-たとえば、生徒が学校の IT 部門または HR 部門によって承認されたプロフィール画像をアップロードした場合、操作は必要ありません。 ただし、生徒が不適切な画像をアップロードした場合は、学校内のポリシーに従って画像を変更します。  
+たとえば、生徒が教育機関の IT 部門または HR 部門によって承認されたプロフィール画像をアップロードした場合、操作は必要ありません。 ただし、生徒が不適切な画像をアップロードした場合は、教育機関内部のポリシーに従って画像を変更します。
 
 ## <a name="adoption-content"></a>導入向けコンテンツ
 
