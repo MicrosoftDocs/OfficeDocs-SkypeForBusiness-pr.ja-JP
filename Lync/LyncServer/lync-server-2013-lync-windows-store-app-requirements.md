@@ -12,12 +12,12 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06d32aa0cf2248c80b8f98d80e8c796818b89a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5e85bf0d6e4281094be562bd94c8e5b76e02453
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186020"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2013-12-03_
 
 
 > [!NOTE]  
-> Lync server 2010 の場合は、lync server 2010 の累積的な更新プログラム (2 月 1 <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp2012 日 (kbid = 2670352</A>) 以降) を実行します。 ユーザーが会議に参加できるようにするには、サーバー上で Lync Server 2010 の累積的<A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp</A>な更新プログラム (10 月 2012) を実行します (kbid = 2737915)。
+> Lync Server 2010 の場合は、Lync Server 2010 の累積的な更新プログラム (2 月 1 2012 日 ( <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp kbid = 2670352</A>) 以降) を実行します。 ユーザーが会議に参加できるようにするには、サーバー上で Lync Server 2010 の累積的な更新プログラム (10 月 2012) を実行します ( <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp kbid = 2737915</A>)。
 
 
 
@@ -61,7 +61,7 @@ _**トピックの最終更新日:** 2013-12-03_
 
   - クライアントで、Windows 8.1 と Lync Windows ストアアプリの最新バージョンをインストールして、複数のドメインを使用するときに一般的に発生するサインインの問題を修正します (たとえば、SIP URI が**userA@domainZ.com** 、エッジサーバーが**sip.domainX.com**)。
 
-組織が Lync Online または Office 365 をサブスクライブしていて、独自のドメイン名を使用している場合は、Lync サーバーの自動検出のためにネットワークをセットアップするための特別な手順を実行する必要があります。 ネットワーク構成の要件は、モバイルデバイスの Lync Windows ストアアプリと Lync で同じです。 「Office 365 wiki」の「ネットワークをセットアップする」の手順に従い[https://go.microsoft.com/fwlink/?LinkId=271822](https://go.microsoft.com/fwlink/?linkid=271822)ます (「Lync モバイルデバイスをセットアップする」の記事を参照してください)。
+組織が Lync Online または Microsoft 365 をサブスクライブしていて、自分のドメイン名を使用している場合は、Lync サーバーの自動検出のためにネットワークをセットアップするための特別な手順を実行する必要があります。 ネットワーク構成の要件は、モバイルデバイスの Lync Windows ストアアプリと Lync で同じです。
 
 <div>
 
@@ -82,4 +82,3 @@ _**トピックの最終更新日:** 2013-12-03_
 </div>
 
 </div>
-

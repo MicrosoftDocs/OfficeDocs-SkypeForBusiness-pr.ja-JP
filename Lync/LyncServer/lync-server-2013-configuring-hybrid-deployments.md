@@ -12,12 +12,12 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb9719b4a894ebd0f6cfb0e457eb557062861352
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fa4e4250288a31cab708d7c3eb11087b00c5d6a9
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206373"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2016-05-26_
 
 ## <a name="in-this-section"></a>このセクションの内容
 
-  - オンプレミスの Lync 展開があり、一部のユーザーをクラウドに移動して、Office 365 で Lync Online を使用する場合は、「Lync Online を使用し[たハイブリッドのオンプレミス展開の構成](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)」を参照してください。
+  - オンプレミスの Lync 展開があり、一部のユーザーをクラウドに移動して、Microsoft 365 または Office 365 で Lync Online を使用する場合は、「Lync Online を使用し[たハイブリッドのオンプレミス展開の構成](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)」を参照してください。
 
   - Lync Online で Lync が有効になっているが、オンプレミス展開で有効になっていない場合は、「lync [online から Lync Server 2013 のユーザーを移行](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md)する」を参照してください。
 

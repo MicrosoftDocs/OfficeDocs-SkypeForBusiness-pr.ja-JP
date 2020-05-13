@@ -12,12 +12,12 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b326f7ee869b060a423696817c21d7cb763bb0a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193180"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ _**トピックの最終更新日:** 2013-02-21_
     
 
     > [!TIP]
-    > 定義<CODE>-Identity</CODE>によって返される構成設定の範囲を絞り込んだり展開したり、"Site: redmond" のようにスコープを展開して、サイト Redmond の CsClsConfiguration のみを取得したりすることができます。 構成の特定の部分に関する詳細が必要な場合は、出力を別の Windows PowerShell コマンドレットにパイプ処理できます。 たとえば、"Redmond" サイトの構成で定義されているシナリオの詳細を取得するには、次のように入力します。<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > 定義によって返される構成設定の範囲を絞り込んだり展開したり <CODE>-Identity</CODE> 、"site: redmond" のようにスコープを展開して、サイト Redmond の CsClsConfiguration のみを取得したりすることができます。 構成の特定の部分に関する詳細が必要な場合は、出力を別の Windows PowerShell コマンドレットにパイプ処理できます。 たとえば、"Redmond" サイトの構成で定義されているシナリオの詳細を取得するには、次のように入力します。<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>
@@ -85,7 +85,7 @@ _**トピックの最終更新日:** 2013-02-21_
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>構成の定義済み検索用語。 Office 365。オンプレミス展開ではありません。</p></td>
+    <td><p>構成の定義済み検索用語。 Office 365 または Microsoft 365 (社内展開ではない)。</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>Securitygroups まとめる</strong></p></td>
@@ -137,7 +137,7 @@ _**トピックの最終更新日:** 2013-02-21_
     </tr>
     <tr class="even">
     <td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
-    <td><p>実行が許可されている CLSAgent の最小バージョン。 この要素は、Office 365 を対象としています。</p></td>
+    <td><p>実行が許可されている CLSAgent の最小バージョン。 この要素は、Office 365 または Microsoft 365 を対象としています。</p></td>
     </tr>
     </tbody>
     </table>

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780756"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Ser
 
   - [AD FS を使用したシングルサインオン用の Windows PowerShell のインストール](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services サインインアシスタント (msoidcli-7.0.msi) は、Office 365 のデスクトップセットアップに含まれています。これは、Microsoft 365 管理センターからリンクされたダウンロードページから入手できます。
+  - Microsoft Online Services サインインアシスタント (msoidcli-7.0.msi) は、microsoft 365 のデスクトップセットアップに含まれています。これは、Microsoft 365 管理センターからリンクされているダウンロードページから入手できます。
 
 </div>
 
@@ -67,7 +67,7 @@ Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Ser
 
 ## <a name="administrator-credentials"></a>管理者の資格情報
 
-管理者の資格情報を入力するように求めるメッセージが表示されたら、Office 365 組織の管理者アカウントのユーザー名とパスワードを使用します。 Active Directory フェデレーションサービス (AD FS) 2.0、ディレクトリ同期、シングルサインオン、フェデレーション、および Lync Online へのユーザーの移動を構成するときに、これらの資格情報を使用することもできます。
+管理者の資格情報を入力するように求めるメッセージが表示されたら、Microsoft 365 または Office 365 組織の管理者アカウントのユーザー名とパスワードを使用します。 Active Directory フェデレーションサービス (AD FS) 2.0、ディレクトリ同期、シングルサインオン、フェデレーション、および Lync Online へのユーザーの移動を構成するときに、これらの資格情報を使用することもできます。
 
 </div>
 
@@ -75,7 +75,7 @@ Lync Server 2013 ハイブリッド環境とは、オンプレミスの Lync Ser
 
 ## <a name="connecting-to-lync-online-powershell"></a>Lync Online PowerShell への接続
 
-管理者は、Windows PowerShell を使用して Lync Online と Lync Online ユーザーアカウントを管理できるようになりました。 これを行うには、まず、Microsoft ダウンロードセンター (https://go.microsoft.com/fwlink/?LinkId=294688)から Lync Online Connector モジュールをダウンロードしてインストールする必要があります。 Lync Online コネクタモジュールをダウンロード、インストール、および使用する方法、および Windows PowerShell を使用して Lync Online を管理する方法の詳細については、「 [Windows powershell を使用して Lync online を管理する](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。
+管理者は、Windows PowerShell を使用して Lync Online と Lync Online ユーザーアカウントを管理できるようになりました。 これを行うには、まず、Microsoft ダウンロードセンター (から Lync Online Connector モジュールをダウンロードしてインストールする必要があり https://go.microsoft.com/fwlink/?LinkId=294688) ます。 Lync Online コネクタモジュールをダウンロード、インストール、および使用する方法、および Windows PowerShell を使用して Lync Online を管理する方法の詳細については、「 [Windows powershell を使用して Lync online を管理する](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。
 
 </div>
 

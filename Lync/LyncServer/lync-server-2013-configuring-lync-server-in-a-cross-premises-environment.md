@@ -12,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44d1f06fcbdbbba7400bf45857dad9ed57971363
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7dcbdb7ac12dcb8fc768a1f9e537622d01191b8f
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779723"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "43779723"
 
 _**トピックの最終更新日:** 2017-02-21_
 
-クロスプレミス構成では、一部のユーザーは Microsoft Lync Server 2013 のオンプレミスインストールに所属し、他のユーザーは Office 365 バージョンの Lync Server に所属しています。 クロスプレミス環境でサーバー間認証を構成するには、まず、Office 365 承認サーバーを信頼するように Lync Server 2013 の社内インストールを構成する必要があります。 このプロセスの最初の手順は、次の Lync Server 管理シェルスクリプトを実行することによって実行できます。
+クロスプレミス構成では、一部のユーザーは Microsoft Lync Server 2013 のオンプレミスインストールに所属し、他のユーザーは Lync Server の Microsoft 365 または Office 365 バージョンに所属しています。 クロスプレミス環境でサーバー間認証を構成するには、まず、Microsoft 365 承認サーバーを信頼するように Lync Server 2013 の社内インストールを構成する必要があります。 このプロセスの最初の手順は、次の Lync Server 管理シェルスクリプトを実行することによって実行できます。
 
     $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
     
@@ -87,25 +87,25 @@ _**トピックの最終更新日:** 2017-02-21_
 
 
 > [!NOTE]  
-> Microsoft Online Services コマンドレットをインストールしていない場合は、先に進む前に 2 つの作業を行う必要があります。 最初に、64 ビット バージョンの Microsoft Online Services サインイン アシスタントをダウンロードしてインストールします。 インストールが完了したら、Windows PowerShell 用 Microsoft Online Services モジュールの64ビット版をダウンロードしてインストールします。 Microsoft Online Services モジュールのインストールと使用の詳細については、Office 365 Web サイトを参照してください。 これらの説明では、Office 365 と Active Directory 間のシングル サインオン、フェデレーション、および同期の構成方法も説明されます。<BR>これらのコマンドレットをインストールしていない場合、Get-cstenant コマンドレットは使用できないため、スクリプトは失敗します。
+> Microsoft Online Services コマンドレットをインストールしていない場合は、先に進む前に 2 つの作業を行う必要があります。 最初に、64 ビット バージョンの Microsoft Online Services サインイン アシスタントをダウンロードしてインストールします。 インストールが完了したら、Windows PowerShell 用 Microsoft Online Services モジュールの64ビット版をダウンロードしてインストールします。 Microsoft Online Services モジュールのインストールおよび使用方法の詳細については、「Microsoft 365 または Office 365 web サイト」を参照してください。 これらの手順では、Microsoft 365 または Office 36 と Active Directory との間でシングルサインオン、フェデレーション、および同期を構成する方法についても説明します。<BR>これらのコマンドレットをインストールしていない場合、Get-cstenant コマンドレットは使用できないため、スクリプトは失敗します。
 
 
 
 </div>
 
-Office 365 を構成した後、Lync Server 2013 および Exchange 2013 用の Office 365 サービスプリンシパルを作成したら、次のサービスプリンシパルで資格情報を登録する必要があります。 これを行うには、最初に .CER ファイルとして保存されている X.509 Base64 を入手する必要があります。 この証明書が Office 365 サービス プリンシパルに適用されます。
+Microsoft 365 を構成した後、Lync Server 2013 および Exchange 2013 に対して Microsoft 365 または Office 365 サービスプリンシパルを作成した後、これらのサービスプリンシパルで資格情報を登録する必要があります。 これを行うには、最初に .CER ファイルとして保存されている X.509 Base64 を入手する必要があります。 この証明書は、Microsoft 365 または Office 365 のサービスプリンシパルに適用されます。
 
 X.509 証明書を取得したら、Microsoft Online Services モジュールを起動します ([**スタート**]、[**すべてのプログラム**]、[ **microsoft Online Services**]、[ **microsoft online services モジュール for Windows PowerShell**] の順にクリックします)。 サービスモジュールが開いたら、次のコマンドを入力して、サービスプリンシパルの管理に使用できるコマンドレットを含む Microsoft Online Windows PowerShell モジュールをインポートします。
 
     Import-Module MSOnlineExtended
 
-モジュールがインポートされたら、次のコマンドを入力し、Enter キーを押して Office 365 に接続します。
+モジュールがインポートされたら、次のコマンドを入力し、ENTER キーを押して Microsoft 365 に接続します。
 
     Connect-MsolService
 
 Enter キーを押すと、資格情報ダイアログ ボックスが表示されます。 ダイアログボックスに Microsoft 365 または Office 365 のユーザー名とパスワードを入力し、[OK] をクリックします。
 
-Office 365 に接続するとすぐに、次のコマンドを実行して、サービス プリンシパルに関する情報を取得できます。
+Microsoft 365 に接続した直後に、次のコマンドを実行してサービスプリンシパルに関する情報を戻すことができます。
 
     Get-MsolServicePrincipal
 
@@ -127,7 +127,7 @@ Office 365 に接続するとすぐに、次のコマンドを実行して、サ
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-証明書をインポートしてエンコードした後で、その証明書を Office 365 サービスプリンシパルに割り当てることができます。 これを行うには、まず、New-msolserviceprincipal を使用して、Lync Server と Microsoft Exchange サービスプリンシパルの AppPrincipalId プロパティの値を取得します。AppPrincipalId プロパティの値は、証明書を割り当てられているサービスプリンシパルを識別するために使用されます。 Lync Server 2013 の AppPrincipalId プロパティの値を使用して、次のコマンドを使用して、証明書を Office 365 バージョンの Lync Server に割り当てます (StartDate および EndDate プロパティは、証明書の有効期間に対応している必要があります)。
+証明書をインポートしてエンコードした後、証明書を Microsoft 365 サービスプリンシパルに割り当てることができます。 これを行うには、まず、New-msolserviceprincipal を使用して、Lync Server と Microsoft Exchange サービスプリンシパルの AppPrincipalId プロパティの値を取得します。AppPrincipalId プロパティの値は、証明書を割り当てられているサービスプリンシパルを識別するために使用されます。 Lync Server 2013 の AppPrincipalId プロパティの値を使用して、次のコマンドを使用して、Microsoft 365 バージョンの Lync Server に証明書を割り当てます (StartDate プロパティと EndDate プロパティは、証明書の有効期間に対応している必要があります)。
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 
@@ -150,7 +150,7 @@ Office 365 に接続するとすぐに、次のコマンドを実行して、サ
 
     Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 
-証明書の割り当てに加えて、社内バージョンの Lync Server 2013 のサーバープリンシパル名を追加して、Exchange Online の Office 365 サービスプリンシパルを構成する必要もあります。 これを行うには、Microsoft Online Services PowerShell セッションで次の4つの行を実行します。
+証明書の割り当てに加えて、社内バージョンの Lync Server 2013 のサーバープリンシパル名を追加して、Exchange Online の Microsoft 365 サービスプリンシパルを構成する必要もあります。 これを行うには、Microsoft Online Services PowerShell セッションで次の4つの行を実行します。
 
     Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
     

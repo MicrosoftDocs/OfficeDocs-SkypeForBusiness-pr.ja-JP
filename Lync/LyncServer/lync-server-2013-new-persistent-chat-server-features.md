@@ -12,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b8718d5f3dda34b97b4c3e96c2fe9531d6658b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6203e6a7ee99f4b080fa93976a2a937e62fe9d3c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216783"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,9 +51,9 @@ Lync Server 2013、常設チャットサーバーを使用すると、時間の�
 
   - 重要な知識と情報の分散を促進します。
 
-Lync Server 2013、常設チャットサーバーは、Microsoft Office 365 では使用できません。 現時点では、オンプレミスの Lync 2013 ユーザーのみが利用できます。
+Lync Server 2013、常設チャットサーバーは、Microsoft 365 または Office 365 では使用できません。 現時点では、オンプレミスの Lync 2013 ユーザーのみが利用できます。
 
-Lync 2013 では、常設チャット機能は Lync 2013 クライアントに統合されています。 その結果、ユーザーは Lync 2013 クライアントでインスタントメッセージング/プレゼンス、音声ビデオ、会議、および常設チャットへのアクセスが可能になります。 Lync 2013 クライアントの詳細については、 <https://go.microsoft.com/fwlink/p/?linkid=270877>「」を参照してください。
+Lync 2013 では、常設チャット機能は Lync 2013 クライアントに統合されています。 その結果、ユーザーは Lync 2013 クライアントでインスタントメッセージング/プレゼンス、音声ビデオ、会議、および常設チャットへのアクセスが可能になります。 Lync 2013 クライアントの詳細については、「」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=270877> 。
 
 このトピックでは、新しいバージョンの Lync Server 2013、常設チャットサーバーと以前のバージョン (Microsoft Lync Server 2010、グループチャット) の機能の変更点について説明します。
 
@@ -67,9 +67,9 @@ Lync 2013 では、常設チャット機能は Lync 2013 クライアントに�
 
 常設チャットサーバーの最新バージョンの詳細については、以下を参照してください。
 
-  - 常設チャットのヘルプ<https://go.microsoft.com/fwlink/p/?linkid=270945>には、常設チャットの機能の詳細な一覧、機能、および常設チャットサーバーの実行中に使用する方法が記載されています。
+  - 常設チャットのヘルプには、 <https://go.microsoft.com/fwlink/p/?linkid=270945> 常設チャットの機能の詳細な一覧、機能、および常設チャットサーバーの実行中に使用する方法が記載されています。
 
-  - 「計画」のドキュメントの「 [Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)」を参照してください。「展開」のドキュメントの「 [lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」、「 [Lync server 2010、グループチャットまたは Office Communications Server 2007 R2 グループチャットから Lync server 2013 への移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)」、および「操作」のドキュメントの「 [Lync server 2013」、「常設チャット](managing-lync-server-2013-persistent-chat-server.md)サーバーの管理」の「セットアップ手順」常設チャットサーバー。
+  - 「計画」のドキュメントの「 [Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)」を参照してください。「展開」のドキュメントの「 [lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」、「 [Lync server 2010、グループチャットまたは Office Communications server 2007 R2 グループチャットから Lync server 2013 への移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)」、および「操作」のドキュメントの「 [lync Server 2013、](managing-lync-server-2013-persistent-chat-server.md)常設チャットサーバーの管理」を参照して、常設チャットサーバーをセットアップする手順を提供します。
 
   - 常設チャットサーバーのドキュメント .msi ファイル (Windows Installer ファイル) を使用すると、ユーザーは常設チャットサーバーに関する包括的なオフラインドキュメントにアクセスできます。
 
@@ -103,13 +103,13 @@ Lync 2013 では、常設チャット機能は Lync 2013 クライアントに�
 
 
 > [!IMPORTANT]  
-> <STRONG>PersistentChatService</STRONG>の役割は、そのフロントエンドサーバーが Standard Edition&nbsp;&nbsp;フロントエンドサーバーである場合にのみ、Lync server 2013 フロントエンドサーバーと同じサーバー上で実行できます。 <STRONG>PersistentChatService</STRONG>の役割は、Lync Server 2013&nbsp;フロントエンドサーバーとは独立して実行することはできません。 Lync Server 2013 の展開のコンテキストにのみインストールできます。
+> <STRONG>PersistentChatService</STRONG>の役割は、 &nbsp; そのフロントエンドサーバーが Standard Edition フロントエンドサーバーである場合にのみ、Lync Server 2013 フロントエンドサーバーと同じサーバー上で実行でき &nbsp; ます。 <STRONG>PersistentChatService</STRONG>の役割は、Lync Server 2013 フロントエンドサーバーとは独立して実行することはできません &nbsp; 。 Lync Server 2013 の展開のコンテキストにのみインストールできます。
 
 
 
 </div>
 
-常設チャットサーバーでは、Lookup サービスは廃止されました。 Lync Server 2010 のグループチャットでは、参照サービスはすべてのグループチャットサーバーのフロントエンドサーバー上で実行され、チャネルサーバーの1つに対してルーティングが実行されました。 Lync Server 2013 は、連絡先オブジェクトを使用してルーティングに依存します。各常設チャットサーバープールは、Lync Server フロントエンドサーバーが要求を識別し、適切な常設チャットサーバープールにルーティングするために使用する連絡先オブジェクトによって表されます。プールで常設チャットサーバーを実行しているコンピューターの1台。
+常設チャットサーバーでは、Lookup サービスは廃止されました。 Lync Server 2010 のグループチャットでは、参照サービスはすべてのグループチャットサーバーのフロントエンドサーバー上で実行され、チャネルサーバーの1つに対してルーティングが実行されました。 Lync Server 2013 は、連絡先オブジェクトを使用してルーティングに依存します。各常設チャットサーバープールは、Lync Server フロントエンドサーバーによって使用される連絡先オブジェクトによって表され、要求を特定して適切な常設チャットサーバープールにルーティングし、プール内で常設チャットサーバーを実行しているコンピューターの1つにルーティングします。
 
 Lync Server 2013 には、コンプライアンスサービスの変更があります。
 
@@ -139,7 +139,7 @@ Lync Server 2013 では、高可用性と障害復旧の両方が強化されて
 
   - 高可用性の強化: SQL Server ミラーリングを使用して、常設チャットサーバーのコンテンツデータベースおよび常設チャットのコンプライアンスデータベースをデータセンター (サイト内) に高可用性で提供します。
 
-  - 障害復旧機能の向上: 常設チャットサーバーは、1つの常設チャットサーバープールを2つのサイト (つまり、トポロジ内の単一の論理プールで、物理的にはプール内のサーバーを物理的に拡張できるようにする拡張プールアーキテクチャをサポートします。2つのサイト間で配置されています)。 SQL Server のログ配布は、クロスサイトの障害復旧に使用されます。
+  - 障害復旧機能の向上: 常設チャットサーバーは、1つの常設チャットサーバープールを2つのサイト (つまり、トポロジ内の単一の論理プールで、2つのサイト間で物理的に配置されたプール内の複数のサイト) に拡張できる拡張プールアーキテクチャをサポートします。 SQL Server のログ配布は、クロスサイトの障害復旧に使用されます。
 
 高可用性と障害復旧の詳細については、「展開」のドキュメントの「 [Lync server 2013 での高可用性および障害復旧のための常設チャットサーバーの構成](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)」を参照してください。
 
@@ -165,7 +165,7 @@ Lync Server 2013 では、以下を提供することで、常設チャットサ
 
 ## <a name="whats-different-about-user-roles-from-previous-group-chat-server-versions"></a>以前のグループチャットサーバーのバージョンのユーザーの役割については、どのような違いがありますか。
 
-Lync Server 2010、グループチャットには、ユーザー管理者の役割、チャットルーム管理者の役割、およびアドインを管理できる Lync Server 管理者の役割があります。常設チャットサーバーは、常設チャット管理者の役割 (他の Lync に似ています) を提供するだけです。サーバーの役割ベースのアクセス制御 (RBAC) の役割)。 この RBAC の役割のメンバーであるすべてのユーザーは、チャットルーム、アドイン、およびカテゴリを管理でき (そのためこれらのカテゴリのユーザーアクセス権を取得する)、および常設チャットサーバープールの構成を行うことができます。
+Lync Server 2010、グループチャットには、ユーザー管理者の役割、チャットルーム管理者の役割、およびアドインを管理できる Lync Server 管理者の役割があります。常設チャットサーバーは、常設チャット管理者の役割 (他の Lync Server の役割ベースのアクセス制御 (RBAC) の役割に似ています) を提供します。 この RBAC の役割のメンバーであるすべてのユーザーは、チャットルーム、アドイン、およびカテゴリを管理でき (そのためこれらのカテゴリのユーザーアクセス権を取得する)、および常設チャットサーバープールの構成を行うことができます。
 
 </div>
 
@@ -209,7 +209,7 @@ Lync Server 2010、グループチャットには、ユーザー管理者の役�
 
 <div>
 
-## <a name="logging"></a>ログ記録
+## <a name="logging"></a>ログ
 
 常設チャットサーバーおよび System Center Operations Manager のログは、Lync Server 2013 トレースログに統合されています。
 
@@ -234,4 +234,3 @@ Lync Server 2010、グループチャットには、ユーザー管理者の役�
 </div>
 
 </div>
-

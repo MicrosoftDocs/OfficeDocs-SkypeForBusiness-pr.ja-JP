@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779563"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**トピックの最終更新日:** 2016-08-15_
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>共有 SIP アドレススペース用に Skype for Business Online テナントを構成する
 
-セッション開始プロトコル (SIP) アドレスは、電話番号や電子メールアドレスと同様に、ネットワーク上の各ユーザーの一意の識別子です。 オンプレミスから Skype for Business Online に Lync ユーザーを移動する前に、Office 365 組織を構成して、共有セッション開始プロトコル (SIP) アドレススペースを社内展開と共有する必要があります。 この設定が構成されていない場合は、次のエラーメッセージが表示されることがあります。
+セッション開始プロトコル (SIP) アドレスは、電話番号や電子メールアドレスと同様に、ネットワーク上の各ユーザーの一意の識別子です。 オンプレミスから Skype for Business Online に Lync ユーザーを移動する前に、Microsoft 365 または Office 365 組織を構成して、共有セッション開始プロトコル (SIP) アドレススペースを社内展開と共有する必要があります。 この設定が構成されていない場合は、次のエラーメッセージが表示されることがあります。
 
 Move-CsUser: HostedMigration fault: Error = (510), Description = (このユーザーのテナントは、共有 sip アドレススペースに対して有効になっていません。)
 
@@ -71,7 +71,7 @@ Move-CsUser: HostedMigration fault: Error = (510), Description = (このユー�
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-Skype for Business Online とのリモート PowerShell セッションを確立するには、まず、Windows PowerShell 用の Skype for Business Online モジュールをインストールする必要があります[https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911)。これには、次の情報を入手できます。
+Skype for Business Online とのリモート PowerShell セッションを確立するには、まず、Windows PowerShell 用の Skype for Business Online モジュールをインストールする必要があります。これには、次の情報を入手でき [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) ます。
 
 モジュールをインストールした後、次のコマンドレットを使用してリモートセッションを確立できます。
 
@@ -116,4 +116,3 @@ Skype for Business Online PowerShell モジュールの使用方法の詳細に�
 </div>
 
 </div>
-

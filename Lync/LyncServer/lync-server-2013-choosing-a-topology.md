@@ -12,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc30881da768d8dad9f952df37bdf1accdf091b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192020"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221741"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +69,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 次の表に、サポートされている Microsoft Lync Server 2013 トポロジで使用可能な機能を示します。 列見出しは、該当するエッジ構成オプションで使用できる機能を示しています。 たとえば、拡張エッジ (DNS 負荷分散) オプションでは、高可用性がサポートされること、エッジの外部インターフェイスに割り当てられたルーティング不可のプライベート IP アドレス (NAT を使用) またはルーティング可能なパブリック IP アドレスを使用できること、およびロード バランサー機器が必要ないのでコストが削減されることがわかります。
 
-DNS 負荷分散でサポートされているエッジフェールオーバーシナリオには、Lync から Lync へのポイントツーポイントセッション、Lync 会議セッション、Lync から PSTN へのセッション、および Office 365 があります。 DNS 負荷分散のメリットを得られないエッジフェールオーバーのシナリオは、リモートユーザー Exchange ユニファイドメッセージング (UM) (Exchange 2010 SP1 以前)、パブリックインスタントメッセージング (IM) 接続、および Office Communications を実行しているサーバーとのフェデレーションのためのフェールオーバーです。Server.
+DNS 負荷分散でサポートされているエッジフェールオーバーのシナリオには、Lync から Lync へのポイントツーポイントセッション、Lync 会議セッション、Lync から PSTN へのセッション、Office 365、および Microsoft 365 があります。 DNS 負荷分散の恩恵を受けられないエッジフェールオーバーのシナリオは、リモートユーザー Exchange ユニファイドメッセージング (UM) (Exchange 2010 SP1 以前)、パブリックインスタントメッセージング (IM) 接続、および Office Communications Server を実行しているサーバーとのフェデレーションのフェールオーバーです。
 
 ### <a name="summary-of-edge-server-topology-options"></a>エッジ サーバー トポロジ オプションの概要
 
@@ -153,7 +153,7 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
 
   - Lync Server 2013 の拡張統合エッジ (DNS 負荷分散) には、エッジプールの各エッジサーバーに3つのパブリック IP アドレスが必要です。
 
-  - Lync Server 2013 の拡張統合エッジ (ハードウェア負荷分散) には、ロードバランサーの仮想 IP アドレスに3つのパブリック IP アドレスが必要です (プールに追加されたエッジサーバーの数が増えても1回の要件)、さらに3つのパブリック IP アドレスプール内のエッジサーバー。
+  - Lync Server 2013 の拡張統合エッジ (ハードウェア負荷分散) は、ロードバランサーの仮想 IP アドレスに3つのパブリック IP アドレスを必要とします (プールに追加されたエッジサーバーの数が増えると増加しない1つの要件)、およびプール内のエッジサーバーごとの3つのパブリック IP アドレスが必要です。
 
 ### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>拡張統合エッジに必要な IP アドレス (役割ごとの IP アドレス)
 
@@ -172,22 +172,22 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>pbm-2</p></td>
+<td><p>2 </p></td>
 <td><p>6 </p></td>
 <td><p>3 (VIP ごとに 1 つ) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>1/3</p></td>
+<td><p>3 </p></td>
 <td><p>9 </p></td>
 <td><p>3 (VIP ごとに 1 つ) + 9</p></td>
 </tr>
 <tr class="odd">
-<td><p>2/4</p></td>
-<td><p>12</p></td>
+<td><p>4 </p></td>
+<td><p>12 </p></td>
 <td><p>3 (VIP ごとに 1 つ) + 12</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>15 </p></td>
 <td><p>3 (VIP ごとに 1 つ) + 15</p></td>
 </tr>
@@ -212,22 +212,22 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>pbm-2</p></td>
-<td><p>pbm-2</p></td>
+<td><p>2 </p></td>
+<td><p>2 </p></td>
 <td><p>1 (VIP ごとに 1 つ) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>1/3</p></td>
-<td><p>1/3</p></td>
+<td><p>3 </p></td>
+<td><p>3 </p></td>
 <td><p>1 ( VIP ごとに 1 つ) + 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>2/4</p></td>
-<td><p>2/4</p></td>
+<td><p>4 </p></td>
+<td><p>4 </p></td>
 <td><p>1 (VIP ごとに 1 つ) + 4</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>5</p></td>
 <td><p>1 (VIP ごとに 1 つ) + 5</p></td>
 </tr>
@@ -271,7 +271,7 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
 
 
 > [!IMPORTANT]
-> Lync Server 2010 および Microsoft Office 365 を使用して企業とフェデレーションを行う場合は、DNS 負荷分散を使用することをお勧めします。 フェデレーションパートナーの大部分が Office Communications Server 2007 または Office Communications Server 2007 R2 を使用している場合は、パフォーマンスに著しい影響を与えることに注意してください。
+> Lync Server 2010 および Office 365 または Microsoft 365 を使用して企業とフェデレーションを行う場合は、DNS 負荷分散を使用することをお勧めします。 フェデレーションパートナーの大部分が Office Communications Server 2007 または Office Communications Server 2007 R2 を使用している場合は、パフォーマンスに著しい影響を与えることに注意してください。
 
 
 

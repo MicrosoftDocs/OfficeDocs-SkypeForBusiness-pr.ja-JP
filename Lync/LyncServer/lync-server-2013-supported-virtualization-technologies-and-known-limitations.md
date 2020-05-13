@@ -12,12 +12,12 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c81b56fd8d0922b011840aa2b3133ce05d32ad13
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0968f79b8c9aedc3dc2d2318a2e8abf5c51531d7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218283"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221147"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,9 +45,9 @@ Lync VDI プラグインは、サポートされている仮想化テクノロ�
 
 Lync VDI プラグインは、個人用仮想デスクトップシナリオでは完全なデスクトップリモート処理をサポートしますが、リモートデスクトップセッションシナリオではサポートしていません。 これらのシナリオは、次のように記述できます。
 
-  - **サポート: カスタマイズされた仮想デスクトップまたは仮想デスクトップインフラストラクチャ (VDI)。**   このシナリオでは、ユーザーごとにカスタマイズ可能な仮想デスクトップにログオンし、セッション間で保持されるファイルをデスクトップに保存することができます。 Microsoft リモートデスクトップサービス、VMware ホライズン表示、および Citrix XenDesktop は、Lync での使用がテストされている実装です。 Microsoft によってテストされたベンダー固有の VDI 環境およびクライアントハードウェアの詳細については、「 [Microsoft Lync 用のインフラストラクチャ認定](https://go.microsoft.com/fwlink/?linkid=313435)」を参照してください。
+  - **サポート: カスタマイズされた仮想デスクトップまたは仮想デスクトップインフラストラクチャ (VDI)。**    このシナリオでは、ユーザーごとにカスタマイズ可能な仮想デスクトップにログオンし、セッション間で保持されるファイルをデスクトップに保存することができます。 Microsoft リモートデスクトップサービス、VMware ホライズン表示、および Citrix XenDesktop は、Lync での使用がテストされている実装です。 Microsoft によってテストされたベンダー固有の VDI 環境およびクライアントハードウェアの詳細については、「 [Microsoft Lync 用のインフラストラクチャ認定](https://go.microsoft.com/fwlink/?linkid=313435)」を参照してください。
 
-  - **サポート対象外: リモートデスクトップセッション。**   このシナリオでは、ユーザーごとに、カスタマイズできない汎用の仮想デスクトップセッションにログオンします。 実装の例には、Microsoft リモートデスクトップセッション (RDSH) と citrix XenApp を Citrix レシーバーと組み合わせたものが含まれています。
+  - **サポート対象外: リモートデスクトップセッション。**    このシナリオでは、ユーザーごとに、カスタマイズできない汎用の仮想デスクトップセッションにログオンします。 実装の例には、Microsoft リモートデスクトップセッション (RDSH) と citrix XenApp を Citrix レシーバーと組み合わせたものが含まれています。
 
 Lync VDI プラグインは、アプリケーションの仮想化などの他の仮想化テクノロジをサポートしていません。これにより、完全なアプリケーションをローカルにインストールすることなく、アプリケーションを使用できるようになります。 実装の例としては、Citrix XenApp と Microsoft Application Virtualization (App-v) があります。 アプリケーションのストリーミング、アプリケーションのリモート処理、および混合仮想化モード (たとえば、完全なデスクトップリモート処理でのアプリケーションのリモート処理) はサポートされていません。
 
@@ -81,7 +81,7 @@ VDI 環境で Lync 2013 を使用する場合の既知の制限は次のとお�
     
       - カスタマイズされた着信音と音楽の保持機能。
 
-  - Lync VDI プラグインは、Office 365 環境ではサポートされていません。
+  - Lync VDI プラグインは、Microsoft 365 または Office 365 環境ではサポートされていません。
 
 </div>
 

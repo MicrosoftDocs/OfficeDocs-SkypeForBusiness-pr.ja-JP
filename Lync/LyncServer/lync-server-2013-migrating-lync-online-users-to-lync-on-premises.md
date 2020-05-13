@@ -12,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e87b977dd70227d134e5feae8df2ea089e216df3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780746"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ _**トピックの最終更新日:** 2015-11-13_
     
       - Azure Active Directory 同期ツールをインストールします。 詳細については、「<https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>」を参照してください。
     
-      - ユーザーが Lync Online のシングルサインオンを使用できるようにするには、Active Directory <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>フェデレーションサービスをインストールします。
+      - ユーザーが Lync Online のシングルサインオンを使用できるようにするには、Active Directory フェデレーションサービスをインストール <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx> します。
     
       - オンプレミス展開で、Lync Server 管理シェルの次のコマンドレットを入力して、Lync Online のホスティングプロバイダーを作成します。
         
@@ -117,13 +117,13 @@ _**トピックの最終更新日:** 2015-11-13_
     
       - **Lyncdiscover.contoso.com** A レコードを更新して、オンプレミスのリバースプロキシサーバーの FQDN を指すようにします。
     
-      - ***\_Sip * を更新し\_ます。** Lync オンプレミスのアクセスエッジサービスのパブリック IP または VIP アドレスに解決する Tls.contoso.com SRV レコード。
+      - * Sip * を更新し** \_ ます。 \_** Lync オンプレミスのアクセスエッジサービスのパブリック IP または VIP アドレスに解決する Tls.contoso.com SRV レコード。
     
-      - ***\_Sipfederationtls * を更新し\_ます。** Lync オンプレミスのアクセスエッジサービスのパブリック IP または VIP アドレスに解決する Tcp.contoso.com SRV レコード。
+      - * Sipfederationtls * を更新し** \_ ます。 \_** Lync オンプレミスのアクセスエッジサービスのパブリック IP または VIP アドレスに解決する Tcp.contoso.com SRV レコード。
     
       - 組織で分割 DNS ("スプリットブレイン DNS" と呼ばれることもあります) を使用している場合は、内部 DNS ゾーンを使用して名前を解決するユーザーがフロントエンドプールに転送されることを確認してください。
 
-6.  `Get-CsUser`コマンドレットを入力して、移動するユーザーに関するいくつかのプロパティを確認します。 HostingProviderProxyFQDN がに`"sipfed.online.lync.com"`設定され、SIP アドレスが正しく設定されていることを確認する必要があります。
+6.  コマンドレットを入力して、 `Get-CsUser` 移動するユーザーに関するいくつかのプロパティを確認します。 HostingProviderProxyFQDN がに設定され、 `"sipfed.online.lync.com"` SIP アドレスが正しく設定されていることを確認する必要があります。
 
 7.  Lync Online ユーザーをオンプレミスの Lync に移動します。
     
@@ -141,15 +141,15 @@ _**トピックの最終更新日:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    **HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、ホストされている移行サービスが実行されているプールへの url である必要があります。 *Https://\<pool FQDN\>/HostedMigration/hostedmigrationService.svc*。
+    **HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、ホストされている移行サービスが実行されているプールへの url である必要があります。 *Https:// \< pool FQDN \> /HostedMigration/hostedmigrationService.svc*。
     
-    ホストされている移行サービスへの URL を確認するには、Office 365 組織アカウントの Lync Online コントロールパネルの URL を表示します。
+    ホストされている移行サービスへの URL を確認するには、Microsoft 365 または Office 365 組織アカウントの Lync Online コントロールパネルの URL を表示します。
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-organization"></a>Office 365 組織のホスト型移行サービスの URL を決定するには
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-organizaton"></a>組織のためのホスト型移行サービスの URL を決定するには
     
-    1.  Office 365 組織に管理者としてログインします。
+    1.  Microsoft 365 または Office 365 組織に管理者としてログインします。
     
     2.  **Lync 管理センター**を開きます。
     
@@ -173,7 +173,7 @@ _**トピックの最終更新日:** 2015-11-13_
     
 
     > [!NOTE]  
-    > Rtcxds データベースのトランザクションログファイルの既定の最大サイズは 16 GB です。 多数のユーザーを同時に移動する場合は、特にミラーリングを有効にしている場合は、この値が十分ではない可能性があります。 これを回避するには、ファイルサイズを増やすか、またはログファイルを定期的にバックアップします。 詳細については<A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>、「」を参照してください。
+    > Rtcxds データベースのトランザクションログファイルの既定の最大サイズは 16 GB です。 多数のユーザーを同時に移動する場合は、特にミラーリングを有効にしている場合は、この値が十分ではない可能性があります。 これを回避するには、ファイルサイズを増やすか、またはログファイルを定期的にバックアップします。 詳細については、「」を参照してください <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A> 。
 
     
     </div>

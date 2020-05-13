@@ -12,12 +12,12 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae6aec94b75bdb559dace5fe110c1b07442f6171
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d5b3b276d93fc0f09ad42be9448dc87eb1ba049
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216273"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2016-05-25_
 
 Lync Server ハイブリッド展開は、contoso.com などのドメインのユーザーが、オンプレミスの Lync Server と Microsoft Lync Online の間で分割されている展開です。 一部のドメインユーザーはオンプレミスの Lync Server に所属しており、一部のユーザーは Skype for Business Online に所属しています。
 
-Skype for Business Online でハイブリッド用にオンプレミスの Lync 展開を構成し、Active Directory 同期を使用してオンプレミスのユーザーとオンラインユーザーの同期を維持することができます。 また、オンプレミスの Exchange および SharePoint との統合、または Microsoft Office 365 アプリケーション (Exchange Online や SharePoint Online など) との統合のためにハイブリッド展開を構成することもできます。
+Skype for Business Online でハイブリッド用にオンプレミスの Lync 展開を構成し、Active Directory 同期を使用してオンプレミスのユーザーとオンラインユーザーの同期を維持することができます。 また、オンプレミスの Exchange および SharePoint との統合、または Microsoft 365 および Office 365 アプリケーション (Exchange Online や SharePoint Online など) との統合のためのハイブリッド展開を構成することもできます。
 
 このセクションでは、Lync Server ハイブリッド展開に必要なアプリケーションの展開と、Lync Server オンプレミスと Skype for Business Online との間でユーザーを管理するように展開を構成する方法について説明します。
 
@@ -60,4 +60,3 @@ Skype for Business Online の詳細については、「 [Lync online](https://g
 </div>
 
 </div>
-

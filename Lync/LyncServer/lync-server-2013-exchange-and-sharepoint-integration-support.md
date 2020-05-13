@@ -12,12 +12,12 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4f96a5f5b1b4de3564da0dd9773a8472bd2b1a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 262e31ac6049920ca4e327f50dccaae18d69a2f5
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204776"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +67,7 @@ Lync Server 2013 は、2台のサーバー間認証シナリオをサポート�
 
 
 > [!NOTE]  
-> この Lync Server 2013 リリースでは、オンプレミスのサーバーと Office 365 コンポーネント間のサーバー間認証はサポートされていません。 これは特に、Lync Server 2013 と Microsoft Exchange 365 の社内インストールとの間でサーバー間認証をセットアップできないことを意味します。
+> オンプレミスのサーバーと Microsoft 365 または Office 365 コンポーネントとの間のサーバー間認証は、この Lync Server 2013 リリースではサポートされていません。 これは特に、Lync Server 2013 と Microsoft Exchange 365 の社内インストールとの間でサーバー間認証をセットアップできないことを意味します。
 
 
 
@@ -84,4 +84,3 @@ Lync Server 2013 は、2台のサーバー間認証シナリオをサポート�
 </div>
 
 </div>
-

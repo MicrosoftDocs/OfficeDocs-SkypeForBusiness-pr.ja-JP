@@ -12,12 +12,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1e31e9fd0de6135dd1fd3f552d0d692f1bf7543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4148cd97ec118a223e7e8b1b1e8c3825f51dbad6
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184010"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219737"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**トピックの最終更新日:** 2013-10-28_
 
   - 電話会議、ビデオ会議、またはその両方
 
-Microsoft Lync Server 2013 と、拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) の連絡先との間のインスタントメッセージング (IM) やプレゼンスなどの通信は、ピアツーピアのみでサポートされています。プロバイダー. その他の場合 (lync server、Lync server 2010 から Lync Server 2013 フェデレーションなど)、複数の参加者が会話に参加するよう招待することができます。
+Microsoft Lync Server 2013 と、拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) の連絡先の間のインスタントメッセージング (IM) やプレゼンスなどの通信は、ピアツーピアのみをサポートしている場合があります。これは、フェデレーションパートナーの自分と連絡先のみをサポートしています。 その他の場合 (lync server、Lync server 2010 から Lync Server 2013 フェデレーションなど)、複数の参加者が会話に参加するよう招待することができます。
 
 <div>
 
@@ -97,19 +97,19 @@ Microsoft Lync Server 2013、Lync Server 2010、および Office Communications 
         
 
         > [!NOTE]
-        > <STRONG>新しい SIP フェデレーションドメイン</STRONG>の場合は、Microsoft Lync Online、microsoft Office 365 の<STRONG>ドメイン名 (または FQDN)</STRONG>を指定する必要があります。 Microsoft Lync Server 2013、Lync Server 2010、および Office Communications Server の場合は、<STRONG>アクセスエッジサービス (FQDN)</STRONG>も提供する必要があります。
+        > <STRONG>新しい SIP フェデレーションドメイン</STRONG>の場合は、Microsoft Lync Online および microsoft 365 または Office 365 の<STRONG>ドメイン名 (または FQDN)</STRONG>を指定する必要があります。 Microsoft Lync Server 2013、Lync Server 2010、および Office Communications Server の場合は、<STRONG>アクセスエッジサービス (FQDN)</STRONG>も提供する必要があります。
 
         
         </div>
     
       - <span></span>  
-        パートナーがエッジサーバーを検出できる、検出されたパートナーフェデレーションについては、外部 DNS- \_SIPFEDERATIONTLS で SRV レコードを作成します。\_Tcp.contoso.com –エッジサーバーのポート5061およびホスト (A) レコードを指します。
+        パートナーがエッジサーバーを検出できる、検出されたパートナーフェデレーションについては、外部 DNS-sipfederationtls で SRV レコードを作成し \_ ます。 \_tcp.contoso.com –エッジサーバーのポート5061およびホスト (A) レコードを指します。
         
         <div>
         
 
         > [!IMPORTANT]
-        > Windows Phone または Apple iPhone、iPad、またはその他の Apple デバイスで Microsoft Lync Mobile クライアントをサポートしていて、プッシュ通知サービスまたはプッシュ通知サービスを使用している場合は、_sipfederationtls の _tcp を計画する必要があります。 &lt;Lync Mobile&gt;クライアントを所有している各 sip ドメインの sip ドメイン SRV レコード。 Android および Nokia Symbian Lync Mobile では、プッシュ通知を使用しないでください。この要件の対象にはなりません。
+        > Windows Phone または Apple iPhone、iPad、またはその他の Apple デバイスで Microsoft Lync Mobile クライアントをサポートしていて、プッシュ通知サービスまたはプッシュ通知サービスを使用している場合は、_sipfederationtls の _tcp を計画する必要があります。 &lt;&gt;Lync Mobile クライアントを所有している各 sip ドメインの sip ドメイン SRV レコード。 Android および Nokia Symbian Lync Mobile では、プッシュ通知を使用しないでください。この要件の対象にはなりません。
 
         
         </div>

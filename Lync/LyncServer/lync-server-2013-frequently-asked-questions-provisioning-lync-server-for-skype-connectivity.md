@@ -12,12 +12,12 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214673"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221781"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,9 +73,9 @@ _**トピックの最終更新日:** 2019-03-22_
 
 **Q: Windows Live とのフェデレーションはまだ利用可能ですか?**
 
-**A:** 2012年10月から、Microsoft は Windows Live Messenger (WLM) ユーザーを Skype に移行する手助けを開始しました。これで、最終的に WLM を撤去することになります。Lync は、WLM が市場にある限り、WLM とのフェデレーションを引き続きサポートしますが、Windows Live ドメインのライセンス認証を追加することは許可されません。WLM ユーザーの移動は、Skype 6.0 for Mac および Windows (2012 年10月25日リリース) によって有効になります。これにより、Microsoft アカウント (つまり、WLM と同じ資格情報) でサインインできます。 Skype にサインインするだけで、WLM の友人リストは Skype に自動的に追加され、ユーザーは、固定電話と mobiles の呼び出し、画面共有、グループビデオ通話、およびワイドのサポートなど、Skype の拡張された通信機能を活用できます。さまざまなデバイス。さらに、WLM ユーザーのフェデレーションされた Lync 連絡先は、他の仲間リストを使用して Skype への移行を実行し、これらの連絡先の Skype と Lync 間の IM はすぐに使用できるようになります。 Lync のお客様は、このサービスの継続性を有効にするために何もする必要はありません。
+**A:** 2012年10月から、Microsoft は Windows Live Messenger (WLM) ユーザーを Skype に移行する手助けを開始しました。これで、最終的に WLM を撤去することになります。Lync は、WLM が市場にある限り、WLM とのフェデレーションを引き続きサポートしますが、Windows Live ドメインのライセンス認証を追加することは許可されません。WLM ユーザーの移動は、Skype 6.0 for Mac および Windows (2012 年10月25日リリース) によって有効になります。これにより、Microsoft アカウント (つまり、WLM と同じ資格情報) でサインインできます。 Skype にサインインするだけで、WLM の友人リストは Skype に自動的に追加され、ユーザーは、固定電話と mobiles の呼び出し、画面共有、グループビデオ通話、さまざまなデバイスのサポートなど、Skype の拡張された通信機能を利用できます。さらに、WLM ユーザーのフェデレーションされた Lync 連絡先は、他の仲間リストを使用して Skype への移行を実行し、これらの連絡先の Skype と Lync 間の IM はすぐに使用できるようになります。 Lync のお客様は、このサービスの継続性を有効にするために何もする必要はありません。
 
-**Q: Yahoo\!または AOL とのフェデレーションは引き続き利用できますか?**
+**Q: Yahoo または AOL とのフェデレーションは \! 引き続き利用できますか?**
 
 **A:** 違います。 Yahoo とのフェデレーション\! および AOL は、Yahoo からのサポートを受けています。\! および AOL。両方の Yahoo\! AOL の場合、サービスは2014年6月30日に終了します。 
 
@@ -126,7 +126,7 @@ _**トピックの最終更新日:** 2019-03-22_
 
 3.  確認が表示されたら、Lync 管理センターを使用して "外部通信" を有効にします。 詳細については、[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
-この順序は重要です。Lync Online で通信を有効にする前に、オンプレミス接続をセットアップする必要があります。 順序を逆にした場合、でオンプレミスで<https://pic.lync.com>入力された情報は通過しません。 このドメインとの外部通信に既に Lync Online をセットアップしている場合は、これをオフにし、24時間待機してから、もう一度開始します。最初<https://pic.lync.com>に、オンプレミス情報を入力してから、lync Online の外部通信を有効にしてください。
+この順序は重要です。Lync Online で通信を有効にする前に、オンプレミス接続をセットアップする必要があります。 順序を逆にした場合、でオンプレミスで入力された情報 <https://pic.lync.com> は通過しません。 このドメインとの外部通信に既に Lync Online をセットアップしている場合は、これをオフにし、24時間待機してから、もう一度開始します。最初に、オンプレミス情報を入力してから、 <https://pic.lync.com> Lync Online の外部通信を有効にしてください。
 
 **Q: Skype 接続用に複数のアクセスエッジサービス Fqdn をプロビジョニングできますか。**
 
@@ -138,7 +138,7 @@ _**トピックの最終更新日:** 2019-03-22_
 
 **Q: Windows Live でサポートされているドメイン以外のドメインを含む ID を持つ Windows Live Messenger の連絡先を追加するにはどうすればよいですか?**
 
-**A:** Windows live 以外のドメインを持つアカウントまたは ID を使用して windows live Messenger ユーザーを追加する場合は、アドレスを次の形式\<で入力\>し\<ます。\>ユーザー名 (ドメイン名) \<@msn .com\> 。ドメイン名は、ユーザーの電子メールアドレスのドメイン名です。 たとえば、ted@contoso.com を追加する必要がある場合は、次の形式を使用します。 ted () @msn .com。 Windows Live によって管理されるドメインの一覧については、「Live Communications Server Service Pack 1 をインストールした後のパブリックインスタントメッセージングに関する既知の問題」 https://support.microsoft.com/?kbid=897567の「サポートされるドメイン」セクションを参照してください。
+**A:** Windows live 以外のドメインを持つアカウントまたは ID を使用して Windows Live Messenger ユーザーを追加する場合は、アドレスを次の形式で入力します。 \< ユーザー名 \> ( \< ドメイン名 \> ) @msn .com。 \< ドメイン名 \> は、ユーザーの電子メールアドレスのドメイン名です。 たとえば、ted@contoso.com を追加する必要がある場合は、次の形式を使用します。 ted () @msn .com。 Windows Live によって管理されるドメインの一覧については、「Live Communications Server Service Pack 1 をインストールした後のパブリックインスタントメッセージングに関する既知の問題」の「サポートされるドメイン」セクションを参照してください https://support.microsoft.com/?kbid=897567 。
 
 **Q: プロビジョニングプロセスにはどのくらいの時間がかかりますか?**
 
@@ -161,4 +161,3 @@ _**トピックの最終更新日:** 2019-03-22_
 </div>
 
 </div>
-

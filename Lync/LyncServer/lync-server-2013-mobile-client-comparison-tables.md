@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de331cc4742a3a995a63ea4848e2515871fb5f69
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780246"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -412,8 +412,7 @@ IPhone および iPad では、次のように、ユーザーが一定期間ア�
 </table>
 
 
-1 Skype for Business Online や Microsoft 365 または Office 365 ユーザーは使用できません。
-
+1 Skype for Business Online、Microsoft 365、または Office 365 ユーザーは使用できません。
 </div>
 
 <div>
@@ -757,11 +756,11 @@ IPhone および iPad では、次のように、ユーザーが一定期間ア�
 </table>
 
 
-1 Microsoft 365 または Office 365 ユーザーの場合、この機能は電話会議プロバイダー (ACP) が有効な会議に対してのみ使用できます。
+1 Office 365 および Microsoft 365 ユーザーの場合、この機能は電話会議プロバイダー (ACP) が有効な会議のみで使用できます。
 
 2 Microsoft 365 または Office 365 ユーザーは使用できません。
 
-3 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、この機能はサードパーティの電話会議プロバイダーから入手できます。
+3 Skype for Business Online、Microsoft 365、または Office 365 ユーザーの場合、この機能はサードパーティの電話会議プロバイダーから入手できます。
 
 Lync Web App で共有されている 4A PowerPoint プレゼンテーションは、Lync Mobile 2013 から表示できません。 Lync 2013 デスクトップクライアントで行われた注釈は、モバイルデバイスでは表示できません。
 
@@ -892,13 +891,13 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </table>
 
 
-1 lync Server 2013、Skype for Business Online、および Office 365 のユーザーは、アイコンをタップして他の Lync ユーザーと Skype ユーザーを呼び出すことができます。 Lync Server 2013 ユーザーは、アイコンをタップして PSTN 通話を行うこともできます。
+1 lync Server 2013、Skype for Business Online、および Microsoft 365 または Office 365 のユーザーは、アイコンをタップして他の Lync ユーザーと Skype ユーザーを呼び出すことができます。 Lync Server 2013 ユーザーは、アイコンをタップして PSTN 通話を行うこともできます。
 
 2オンプレミスの Lync Server 2013 ユーザー、Windows Phone、iPhone、iPad デバイスでは、ユーザーは連絡先カードの通話アイコンをタップして、Lync Server 2013 からのコールバックを受け入れます。 Microsoft 365 または Office 365 ユーザー、Windows Phone、iPhone、iPad デバイスでは、ユーザーが [呼び出し] ボタンをタップすると、ユーザーが番号を呼び出すことを確認するダイアログボックスが表示されます。
 
-3 Skype for Business Online や Microsoft 365 または Office 365 ユーザーは使用できません。
+3 Skype for Business Online、Microsoft 365、または Office 365 ユーザーは使用できません
 
-4 Skype for Business Online および/または Microsoft 365 または Office 365 ユーザーの場合、この機能は Microsoft パートナーによってサポートされています。
+4 Skype for Business Online、Microsoft 365、または Office 365 ユーザーの場合、この機能は Microsoft パートナーによってサポートされています。
 
 </div>
 
@@ -973,7 +972,7 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 
 1既定では、フェデレーションユーザーには外部連絡先のプライバシー関係が割り当てられます。 公開されている作業番号を呼び出すことによって、携帯電話のフェデレーション連絡先にアクセスできるようにするには、フェデレーションの連絡先は手動で仕事仲間のプライバシー関係を割り当てる必要があります。
 
-2 Office 365 ユーザーは使用できません。
+2 Microsoft 365 または Office 365 ユーザーは使用できません。
 
 </div>
 
@@ -1080,4 +1079,3 @@ Lync Web App で共有されている 4A PowerPoint プレゼンテーション�
 </div>
 
 </div>
-

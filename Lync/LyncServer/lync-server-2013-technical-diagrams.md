@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a76769398b93e422a3d9cad2f8f84ad1c6f8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194980"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219687"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42194980"
 
 _**トピックの最終更新日:** 2014-03-14_
 
-**概要:** これらの図は、Lync 2013 で推奨されるソリューションの視覚的な表現を提供します。
+**概要:**  これらの図は、Lync 2013 で推奨されるソリューションの視覚的な表現を提供します。
 
 これらのリソースは、Visio (.vsd) 形式 (Visio 2010 または Visio 2013) および PDF 形式で使用できます。 ドキュメントを印刷する方法については、「ポスターの印刷に関するヒント」を参照してください。
 
@@ -87,7 +87,7 @@ _**トピックの最終更新日:** 2014-03-14_
 </colgroup>
 <thead>
 <tr class="header">
-<th>役職</th>
+<th>タイトル</th>
 <th>説明</th>
 </tr>
 </thead>
@@ -136,7 +136,7 @@ _**トピックの最終更新日:** 2014-03-14_
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Microsoft の Zoom.it を使用して、詳細な情報でポスターにズームする</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">PDF 版</a>(モバイルデバイスやタブレットコンピューターに最適)</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Visio バージョン</a>(visio ユーザーに最適)</p></td>
-<td><p>このポスターでは、Lync 2013 に対して使用可能なプラットフォームのオプションについて説明します。また、Bdm のお客様は、Office 365、ハイブリッド Lync、Lync Server オンプレミスおよびホストされた Lync で Lync Online から選択できます。 ポスターにはそれぞれのオプションに最適なシナリオ、ライセンス要件、および IT 技術者の業務などを含む、各アーキテクチャのオプションの詳細が含まれています。</p>
+<td><p>このポスターでは、Lync 2013 に対して使用可能なプラットフォームのオプションについて説明します。また、Bdm のお客様は、Microsoft 365、ハイブリッド Lync、Lync Server オンプレミスおよびホストされた Lync で Lync Online から選択できます。 ポスターにはそれぞれのオプションに最適なシナリオ、ライセンス要件、および IT 技術者の業務などを含む、各アーキテクチャのオプションの詳細が含まれています。</p>
 <p>サイズ:34 x 44 インチ</p>
 <p>このポスターは、Visio 2013 を使用して作成されています。 特定の環境では、変更を行う必要はありません。</p></td>
 </tr>

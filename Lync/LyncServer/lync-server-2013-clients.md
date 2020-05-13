@@ -12,12 +12,12 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ded803c1b84e57e1ba1d5352bd4d76a30efda721
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 265febdc2a0b13833c1db04253430306edd2a952
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208083"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221831"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -81,7 +81,7 @@ Lync Web App が拡張されたため、lync Server 2013 では、更新され�
 
 ## <a name="lync-2013-basic"></a>Lync 2013 Basic
 
-Lync 2013 Basic は、ライセンス供与され、オンプレミスの Lync Server 2013 の展開、および完全な Lync 2013 クライアントが含まれていない Microsoft Office 365 プランに加入しているお客様向けのダウンロード可能なクライアントです。 Lync Basic クライアントには、拡張プレゼンス、連絡先、インスタントメッセージング (IM)、Lync 会議、および基本的な音声機能が含まれています。 Lync Basic でサポートされていない機能には、マルチパーティビデオ、OneNote 統合、仮想デスクトップインフラストラクチャ (VDI) のサポート、スキル検索、レコーディング、エンタープライズ Voip 機能、高度な通話処理 (たとえば、着信の転送やチーム呼び出し) があります。 詳細については、「 [Lync Server 2013 のクライアントの比較表](lync-server-2013-desktop-client-comparison-tables.md)」を参照してください。
+Lync 2013 Basic は、ライセンス供与され、オンプレミスの Lync Server 2013 展開、および完全な Lync 2013 クライアントが含まれていない Microsoft 365 または Office 365 プランに加入しているお客様向けのダウンロード可能なクライアントです。 Lync Basic クライアントには、拡張プレゼンス、連絡先、インスタントメッセージング (IM)、Lync 会議、および基本的な音声機能が含まれています。 Lync Basic でサポートされていない機能には、マルチパーティビデオ、OneNote 統合、仮想デスクトップインフラストラクチャ (VDI) のサポート、スキル検索、レコーディング、エンタープライズ Voip 機能、高度な通話処理 (たとえば、着信の転送やチーム呼び出し) があります。 詳細については、「 [Lync Server 2013 のクライアントの比較表](lync-server-2013-desktop-client-comparison-tables.md)」を参照してください。
 
 </div>
 
@@ -107,13 +107,13 @@ Lync 2013 モバイルアプリには、連絡先、プレゼンス、IM 機能�
 
 Lync Server 2013 は、以前のサーバーリリースから次のクライアントをサポートしています。 ユーザーが会議に参加するときに、特定の以前のクライアントを使用できるようにすることができます。 詳細については、「展開」のドキュメントの「 [Lync Server 2013 での会議参加ページの構成](lync-server-2013-configuring-the-meeting-join-page.md)」を参照してください。
 
-  - **Lync 2010**   lync 2010 には、IM、拡張プレゼンス、音声、ビデオ、共有、テレフォニーなどの完全なデスクトップ環境が用意されています。 ただし、Lync Server 2013 で導入された新機能は、ユーザーのクライアントが Lync 2013 にアップグレードされるまで使用できません。
+  - **Lync 2010**    Lync 2010 には、IM、拡張プレゼンス、音声、ビデオ、共有、テレフォニーなどの完全なデスクトップ環境が用意されています。 ただし、Lync Server 2013 で導入された新機能は、ユーザーのクライアントが Lync 2013 にアップグレードされるまで使用できません。
 
-  - **Lync 2010 mobile**   lync Server 2013 は、Microsoft Lync 2010 モバイルモバイルアプリをすべてサポートしています。 Microsoft Lync 2010 Mobile は、スマートフォンまたは Windows Mobile のプロフェッショナルエディションを実行している電話から接続している組織内のユーザーに対して IM、拡張プレゼンス、およびテレフォニーを提供します。 ユーザーに対して、Microsoft Lync 2010 Mobile をインストールするようにユーザーに指示するには、携帯電話のアプリマーケットプレースに連絡します。 詳細については、「Lync Server 2010 のドキュメント」の「モバイルクライアント[https://go.microsoft.com/fwlink/p/?LinkID=235955](https://go.microsoft.com/fwlink/p/?linkid=235955)の計画」を参照してください。
+  - **Lync 2010 Mobile**    Lync Server 2013 は、Microsoft Lync 2010 モバイルモバイルアプリをすべてサポートしています。 Microsoft Lync 2010 Mobile は、スマートフォンまたは Windows Mobile のプロフェッショナルエディションを実行している電話から接続している組織内のユーザーに対して IM、拡張プレゼンス、およびテレフォニーを提供します。 ユーザーに対して、Microsoft Lync 2010 Mobile をインストールするようにユーザーに指示するには、携帯電話のアプリマーケットプレースに連絡します。 詳細については、「Lync Server 2010 のドキュメント」の「モバイルクライアントの計画」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=235955](https://go.microsoft.com/fwlink/p/?linkid=235955) 。
 
-  - ****   Lync Server 2013 の lync phone edition の lync phone edition software for インテリジェント IP 電話 (たとえば、USB 接続電話) は更新されていません。 Lync Phone Edition は、電話会議用の通話、拡張プレゼンス、およびクライアントオーディオ機能の配置と受信のために引き続きサポートされています。
+  - **Lync Phone Edition**    Lync Server 2013 では、インテリジェント IP 電話用の lync Phone Edition ソフトウェア (USB 接続電話など) は更新されていません。 Lync Phone Edition は、電話会議用の通話、拡張プレゼンス、およびクライアントオーディオ機能の配置と受信のために引き続きサポートされています。
 
-  - **Lync 2010 アテンダント**   Microsoft lync 2010 の統合された通話管理プログラムを使用すると、受付の高速通話処理、IM、画面上のルーティングを通じて同時に複数の会話を管理することができます。
+  - **Lync 2010 アテンダント**    Microsoft Lync 2010 アテンダント統合された通話管理プログラムを使用すると、受付を高速な通話処理、IM、画面上のルーティングによって同時に複数の会話を管理することができます。
 
 </div>
 

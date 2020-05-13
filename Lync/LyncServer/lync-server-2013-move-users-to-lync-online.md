@@ -12,12 +12,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5106d4e27921d9407b2663410cc0872892479ebb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3dcc72c0f9934aebf28838cfd79899e1ce7aa2bc
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779854"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ _**トピックの最終更新日:** 2014-05-29_
 
 Lync Online へのユーザーの移動を開始する前に、いくつかのパイロットユーザーを移動して、環境が正しく構成されていることを確認することをお勧めします。 その後、追加のユーザーの移動を試みる前に、Lync の機能とサービスが期待どおりに機能することを確認できます。
 
-オンプレミスのユーザーを Lync Online テナントに移動するには、Microsoft Office 365 組織の管理者の資格情報を使用して、Lync Server 管理シェルで次のコマンドレットを実行します。 "Username@contoso.com" を、移動するユーザーの情報に置き換えます。
+オンプレミスのユーザーを Lync Online テナントに移動するには、Lync Server 管理シェルで、Microsoft 365 または Office 365 組織の管理者の資格情報を使用して次のコマンドレットを実行します。 "Username@contoso.com" を、移動するユーザーの情報に置き換えます。
 
    ```PowerShell
     $creds=Get-Credential
@@ -63,13 +63,13 @@ Lync Online へのユーザーの移動を開始する前に、いくつかの�
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-**HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、Hosted Migration service が実行されているプールへの url である必要\<があり\>ます。 Https://pool FQDN/hostedmigration/hostedmigrationservice.svc
+**HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、Hosted Migration service が実行されているプールへの url である必要があります。 HTTPS:// \< pool FQDN \> /hostedmigration/hostedmigrationservice.svc
 
-ホストされている移行サービスへの URL を確認するには、Office 365 組織アカウントの Lync Online コントロールパネルの URL を表示します。
+ホストされている移行サービスへの URL を確認するには、Microsoft 365 または Office 365 組織アカウントの Lync Online コントロールパネルの URL を表示します。
 
-**Office 365 組織のホスト型移行サービスの URL を決定するには**
+**組織のホスト型移行サービスの URL を決定するには**
 
-1.  Office 365 組織に管理者としてログインします。
+1.  Microsoft 365 または Office 365 組織に管理者としてログインします。
 
 2.  **Lync 管理センター**を開きます。
 
