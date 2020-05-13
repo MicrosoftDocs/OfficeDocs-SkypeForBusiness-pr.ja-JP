@@ -102,7 +102,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |---------|---------|
 |文字     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
 |この範囲内の文字    | 0 ~ 1F<br>80 ~ 9F        |
-|単語数     | フォーム、CON、CONIN$、CONOUT$、PRN、AUX、NUL、COM1 ~ COM9、LPT1 ~  LPT9、desktop.ini、&#95;vti&#95;|
+|単語     | フォーム、CON、CONIN$、CONOUT$、PRN、AUX、NUL、COM1 ~ COM9、LPT1 ~  LPT9、desktop.ini、&#95;vti&#95;|
 
 チャネル名は、アンダースコア (_) またはピリオド (。) で始まったり終わったりすることもできません。
 
