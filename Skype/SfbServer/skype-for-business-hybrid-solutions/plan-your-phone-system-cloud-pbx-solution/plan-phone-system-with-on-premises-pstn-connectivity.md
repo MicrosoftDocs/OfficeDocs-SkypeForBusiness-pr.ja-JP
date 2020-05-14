@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でオンプレミスの PSTN 接続を使用して Office 365 で電話システムを計画する
+title: Skype for Business Server でオンプレミスの PSTN 接続を使用する電話システムを計画する
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,30 +19,30 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
-description: オンプレミスの PSTN 接続を備えた Office 365 (クラウド PBX) の電話システムの計画に関する考慮事項について説明します。
-ms.openlocfilehash: be8fbe5671e2959341c08d4efa45829df0cc5e42
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: オンプレミスの PSTN 接続を使用する電話システム (クラウド PBX) の計画に関する考慮事項について説明します。
+ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42020228"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220238"
 ---
-# <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype for Business Server でオンプレミスの PSTN 接続を使用して Office 365 で電話システムを計画する
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype for Business Server でオンプレミスの PSTN 接続を使用する電話システムを計画する
 
-オンプレミスの PSTN 接続を備えた Office 365 (クラウド PBX) の電話システムの計画に関する考慮事項について説明します。
+オンプレミスの PSTN 接続を使用する電話システム (クラウド PBX) の計画に関する考慮事項について説明します。
 
 このコンテンツは、既に Skype for Business Server または Lync Server 2013 を社内で展開している場合に関連しています。 その他のシナリオについては、「 [Microsoft テレフォニーソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)」を参照してください。
 
- オンプレミスの PSTN 接続を備えた Office 365 の電話システムでは、ユーザーの電話システム (クラウド PBX) の機能を活用することができます。 これは、次のシナリオで役立ちます。
+ オンプレミスの PSTN 接続を備えた電話システムでは、ユーザーの電話システム (クラウド PBX) の機能を活用することができます。 これは、次のシナリオで役立ちます。
 
-- 一部の Skype for Business ユーザーには、オンプレミスに所属し、Skype for Business Online に所属している他のユーザーがいます。 Office 365 の電話システムで、Skype for Business Online に所属しているユーザーの機能を有効にできますが、オンプレミスの PSTN 接続を引き続き使用することができます。
+- 一部の Skype for Business ユーザーには、オンプレミスに所属し、Skype for Business Online に所属している他のユーザーがいます。 Skype for Business Online に所属するユーザーに対して、電話システムの機能と機能を有効にすることはできますが、オンプレミスの PSTN 接続を引き続き使用することができます。
 
 - オンプレミスの展開があり、一部またはすべてのユーザーを Skype for Business Online に移動する必要がありますが、オンプレミスの PSTN 接続を引き続き使用します。
 
     > [!IMPORTANT]
-    > オンプレミスの PSTN 接続を備えた Office 365 の電話システムでユーザーを正常に有効にするには、その SIP アドレスが自分のドメイン内にある必要があります。 Office 365、onmicrosoft.com の既定のドメインの使用はサポートされていません。 
+    > オンプレミスの PSTN 接続を使用する電話システムでユーザーを正常に有効にするには、その SIP アドレスが自分のドメイン内にある必要があります。 Microsoft 365 または Office 365, onmicrosoft.com の既定のドメインの使用はサポートされていません。 
 
-ライセンスとプランを含む Office 365 の電話システムの詳細については、「 [Skype For business の PSTN 通話プラン](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918)」を参照してください。
+ライセンスやプランを含む電話システムの詳細については、「 [Skype for business の PSTN 通話プラン](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918)」を参照してください。
 
 ## <a name="feature-comparison"></a>機能の比較
 
@@ -55,33 +55,33 @@ ms.locfileid: "42020228"
 ファームウェアを更新する前に、ユーザーをオンプレミスからオンラインに移動すると、ユーザーは電話を使用して接続できなくなります。 この問題を解決するには、ユーザーをオンプレミス環境に戻して、電話を最小ファームウェアに更新する必要があります。 ユーザーをオンプレミス環境に戻す前に、最小限のファームウェアに更新したり、電話をハードリセットしたりしないでください。
 デバイスが最低限のファームウェアではない場合にハードリセットが実行されると、既定では、Skype for Business Online ではサポートされていない PIN 認証が使用されます。 詳細については、「 [Skype for Business Online の電話機の入手](https://support.office.com/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US)」を参照してください。
 
-Office 365 で電話システムをオンプレミスの PSTN 接続と共に展開することで、オンプレミスの PSTN 接続を保持しながら、自分のペースで Skype for Business Online を使用してユーザーをクラウドに移行することができます。 PBX を所有している場合は、その PBX を使用して、クラウドに移動するユーザーに PSTN 接続を提供することができます。 Office 365 の Skype for Business Online および電話システムにユーザーを移動すると、その従来の PBX 電話は動作しなくなりますが、電話番号は、Pc またはスマートフォンの Skype for Business クライアントまたは Skype for Business に準拠した電話機のいずれかにルーティングされます。レ 移植後、Office 365 ユーザーと従来の PBX ユーザーは互いに通常どおりに通話でき、通常の電話番号を使用して PSTN 通話の発信と受信を行うことができます。
+オンプレミスの PSTN 接続を備えた電話システムを展開することで、オンプレミスの PSTN 接続を保持したまま、自分のペースで Skype for Business Online を使用してユーザーをクラウドに移行できます。 PBX を所有している場合は、その PBX を使用して、クラウドに移動するユーザーに PSTN 接続を提供することができます。 ユーザーが Skype for Business Online および電話システムに移行されると、従来の PBX 電話は動作しなくなりますが、その電話番号は、Pc またはスマートフォンの Skype for Business クライアントのいずれかと、Skype for Business に準拠した机の電話機にルーティングされます。 一度移植すると、電話システムのユーザーと従来の PBX ユーザーは互いに通常どおりに通話でき、通常の電話番号を使用して PSTN 通話の発信と受信を行うことができます。
 
-コールセンターなど、従来の PBX にカスタム機能または主要なアドオンがある場合があります。 カスタム機能が Office 365 の電話システムで現在利用できない場合は、そのカスタム機能を必要とするユーザーを従来の PBX でオンプレミスのままにしておく必要があります。また、カスタム機能にアクセスする必要のないユーザーを Office 365 の電話システムに移植する必要はありません。オンプレミスの PSTN 接続。
+コールセンターなど、従来の PBX にカスタム機能または主要なアドオンがある場合があります。 カスタム機能が電話システムで現時点では使用できない場合は、そのカスタム機能を必要とするユーザーを従来の PBX と共存させておく必要があります。また、カスタム機能にアクセスする必要のないユーザーを、オンプレミスの PSTN 接続を使用して電話システムに移植する必要はありません。
 
-Skype for Business Server 2015 と直接相互運用する従来の Pbx の一覧については、「 [Microsoft Lync 用のインフラストラクチャ認定](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)」を参照してください。 PBX がこのリストに含まれていない場合は、セッションボーダーコントローラーを使用して、Skype for Business Online の Office 365 で PBX を電話システムに接続することができます。
+Skype for Business Server 2015 と直接相互運用する従来の Pbx の一覧については、「 [Microsoft Lync 用のインフラストラクチャ認定](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)」を参照してください。 PBX がこのリストに含まれていない場合は、セッションボーダーコントローラーを使用して、Skype for Business Online の電話システムに PBX を接続することができます。
 
 ### <a name="network-considerations-for-quality-and-performance"></a>ネットワークの品質とパフォーマンスに関する考慮事項
 
-オンプレミスの PSTN 接続を備えた Office 365 で、電話システムのようなクラウドにホストされるサービスを展開する場合は、次の点を考慮する必要があります。 純粋なオンプレミスの Skype for Business Server 2015 エンタープライズ Voip の展開では、すべてのインフラストラクチャとクライアントが企業独自のネットワーク上に配置されています。 このネットワークの品質とパフォーマンスは、高品質のオーディオおよびビデオにとって重要であり、エンタープライズスタッフの直接的な制御下にあります。 Office 365 の電話システムでオンプレミスの PSTN 接続を使用する場合は、次の3つのネットワークが関係しています。そのうち2つは、お客様が責任を担い、そのうちの1つはエンタープライズスタッフが直接制御しています。
+オンプレミスの PSTN 接続を備えた電話システムなどのクラウドにホストされるサービスを展開する場合は、次の点に注意してください。 純粋なオンプレミスの Skype for Business Server 2015 エンタープライズ Voip の展開では、すべてのインフラストラクチャとクライアントが企業独自のネットワーク上に配置されています。 このネットワークの品質とパフォーマンスは、高品質のオーディオおよびビデオにとって重要であり、エンタープライズスタッフの直接的な制御下にあります。 オンプレミスの PSTN 接続を備えた電話システムでは、次の3つのネットワークが関係しています。そのうち2つは、お客様が責任を負いますが、そのうちの1つはエンタープライズスタッフが直接制御しています。
 
-- **Microsoft のグローバルメディア配信ネットワーク**Microsoft のグローバルクラウドネットワークとインフラストラクチャ。 Office 365 と電話システムの Office 365 サーバーとトラフィックがこのネットワークをスキャンします。
+- **Microsoft のグローバルメディア配信ネットワーク**Microsoft のグローバルクラウドネットワークとインフラストラクチャ。 電話システムサーバーとトラフィックがこのネットワークをスキャンします。
 
-- **エンタープライズ/クラウド PSTN 相互接続**これは、企業を Office 365 クラウドに接続するネットワークです。 これは、一般的なインターネット接続と同じであるとは限りません。
+- **エンタープライズ/クラウド PSTN 相互接続**これは、企業をクラウドに接続するネットワークです。 これは、一般的なインターネット接続と同じであるとは限りません。
 
-- **企業の独自のネットワーク**リアルタイムメディアの品質は、自分のネットワークに大きく依存しています。特に、WiFi ネットワークおよび Office 365 クラウドに到達するために使用される相互接続の品質です。
+- **企業の独自のネットワーク**リアルタイムメディアの品質は、自分のネットワークに大きく依存します。特に、WiFi ネットワークと、クラウドに到達するために使用される相互接続の品質です。
 
 > [!NOTE]
 > Skype for business Online でのパフォーマンスのチューニングの詳細については、「 [skype for Business online のパフォーマンス](https://support.office.com/article/Tune-Skype-for-Business-Online-performance-beec23c2-c5d6-4e84-a8af-e82aefca7802?ui=en-US&amp;rs=en-US&amp;ad=US)をチューニングする」を参照してください。 
 
-## <a name="prerequisites-for-using-phone-system-in-office-365-with-on-premises-pstn-connectivity"></a>オンプレミスの PSTN 接続を備えた Office 365 で電話システムを使用するための前提条件
+## <a name="prerequisites-for-using-phone-system-with-on-premises-pstn-connectivity"></a>オンプレミスの PSTN 接続を備えた電話システムを使用するための前提条件
 
-オンプレミスの PSTN 接続を使用して Office 365 で電話システムを構成し、ユーザーを Skype for Business Online に移動する前に、次の前提条件が満たされていることを確認する必要があります。
+オンプレミスの PSTN 接続を備えた電話システムを構成し、ユーザーを Skype for Business Online に移動する前に、次の前提条件が満たされていることを確認する必要があります。
 
- **オンプレミスのサーバーバージョン。** オンプレミスの PSTN 接続を備えた Office 365 の電話システムをサポートするには、社内展開にあるサーバーのバージョンを次の表に示すようにします。
+ **オンプレミスのサーバーバージョン。** オンプレミスの PSTN 接続を使用する電話システムをサポートするには、社内展開にあるサーバーのバージョンを次の表に示すようにします。
 
 
-| サーバーの役割は、新しいファームを作成するとき、またはサーバーを既存のファームに参加させるときに指定します。                                       | **サポートされているバージョン\\**\*                                                                                         |
+| **サーバーの役割**                                       | **サポートされているバージョン\\**\*                                                                                         |
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | フェデレーションエッジ\*\*  <br/>                            | Skype for Business Server 2015  <br/>                                                                              |
 | 次ホップフェデレーションルート内部プールサーバー  <br/> | Skype for Business Server 2015、2016年3月の累積的な更新プログラムプログラム6.0.9319.235 以降またはそれ以上 (フロントエンドまたはディレクター)  <br/> |
@@ -114,6 +114,6 @@ Skype for Business Server 2015 と直接相互運用する従来の Pbx の一�
 
 - **勧めActive Directory フェデレーションサービス (AD FS)。** シングルサインオンをサポートするには、AD FS を展開することをお勧めします。 詳細については、「 [Active Directory フェデレーションサービス (AD FS)](https://technet.microsoft.com/library/cc736690%28v=ws.10%29.aspx)」を参照してください。
 
-Office 365 での電話システムの展開の詳細については、「 [Enable users For Phone system In office 365 with ON-PREMISES PSTN connectivity In Skype For Business Server](enable-users-for-phone-system.md)」を参照してください。
+電話システムの展開の詳細については、「 [Enable users For Phone system with ON-PREMISES PSTN connectivity In Skype For Business Server](enable-users-for-phone-system.md)」を参照してください。
 
 

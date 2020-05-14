@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: このトピックでは、Microsoft 365 または Office 365 での Skype Room System アカウントのプロビジョニングについて説明します。
-ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779713"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221851"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Microsoft 365 および Office 365 での Skype Room System アカウントのプロビジョニング
  
-Office 365 での Skype Room System アカウントのプロビジョニングの詳細については、このトピックをお読みください。
+このトピックでは、Microsoft 365 または Office 365 での Skype Room System アカウントのプロビジョニングについて説明します。
   
-次のセクションでは、Office 365 組織の Skype Room System アカウントのプロビジョニングについて説明します。
+次のセクションでは、Skype Room System アカウントのプロビジョニングについて説明します。
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Microsoft 365 および Office 365 の前提条件
 
@@ -41,7 +41,7 @@ Office 365 での Skype Room System アカウントのプロビジョニング�
     
   - Skype for Business Online のリモート PowerShell アクセス
     
-  - Office 365 ディレクトリアクセスにアクセスするための windows PowerShell 用 windows Azure Active Directory モジュール
+  - Microsoft 365 または Office 365 のディレクトリアクセスにアクセスするための windows PowerShell 用 windows Azure Active Directory モジュール
     
 Skype Room アカウントの場合は、次のライセンスが必要です。
   
@@ -55,9 +55,9 @@ Skype Room アカウントの場合は、次のライセンスが必要です。
     
 ## <a name="provisioning-overview"></a>プロビジョニングの概要
 
-次の図は、Office 365 の Skype Room System アカウントのプロビジョニングフローの概要を示しています。
+次の図は、Skype Room System アカウントのプロビジョニングフローの概要を示しています。
   
-![O365 の Skype Room System のプロビジョニング手順](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype Room System のプロビジョニング手順](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>新しい会議室を識別する
 
@@ -93,7 +93,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Skype for Business Online ライセンスの割り当て
 
-「Office 365 for business または[skype For business アドオンライセンス](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)[のライセンスを割り当てるまたは削除](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)する」に記載されているように、office 365 管理ポータルを使用して skype For business online (プラン 2) または skype For business online (プラン 3) ライセンスを割り当てることができるようになりました。 
+「Microsoft 365 for business または[skype For business アドオンライセンス](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)[のライセンスを割り当てるまたは削除](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)する」に記載されているように、microsoft 365 管理ポータルを使用して skype For business online (プラン 2) または skype For business online (plan 3) ライセンスを割り当てることができるようになりました。 
   
 Skype for business Online のライセンスを割り当てた後は、Skype for Business クライアントを使用してログインし、アカウントがアクティブであることを確認できます。
   
@@ -126,7 +126,7 @@ Skype for business Online のライセンスを割り当てた後は、Skype for
 
 ## <a name="password-expiration"></a>パスワードの期限切れ
 
-Office 365 では、別のパスワードの有効期限ポリシーを構成しない限り、すべてのユーザーアカウントの既定のパスワードの有効期限ポリシーは90日になります。 Skype Room System アカウントの場合は、次の手順を使用してパスワードを無期限に設定することができます。
+Microsoft 365 または Office 365 では、ユーザーアカウントすべての既定のパスワードの有効期限ポリシーは、別のパスワードの有効期限ポリシーを構成しない限り、90日間です。 Skype Room System アカウントの場合は、次の手順を使用してパスワードを無期限に設定することができます。
   
 1. テナント全体管理者の資格情報を使用して、Windows Azure Active Directory セッションを作成します。
     

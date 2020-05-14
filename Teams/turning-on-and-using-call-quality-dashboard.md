@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。
-ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047360"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44226022"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -37,7 +37,7 @@ ms.locfileid: "44047360"
   
 通話品質ダッシュボード (CQD) は、Microsoft Teams と Skype for Business Online サービスを使って発信した通話の品質を把握するのに適しています。 このトピックでは、通話品質の問題をトラブルシューティングするために使用できるデータの収集を開始する手順について説明します。
 
-現在、Advanced CQD と CQD は両方とも使用できます。 Advanced CQD は、で<span>https://cqd.teams.microsoft.com</span>ご利用いただけます。 新しい URL。ただし、管理者の資格情報を使ってログインします。
+現在、Advanced CQD と CQD は両方とも使用できます。 Advanced CQD は、でご利用いただけ <span>https://cqd.teams.microsoft.com</span> ます。 新しい URL。ただし、管理者の資格情報を使ってログインします。
 
 ## <a name="assign-roles-for-accessing-cqd"></a>CQD にアクセスするための役割の割り当て
 
@@ -148,9 +148,9 @@ URL Date パラメーターで Day フィールドを使用できるようにな
 
 |URL| ローリング日のトレンドの終了日|
 |:---|:---|
-|<span>https://<cqdv3>/spd/#/ダッシュボード/<reportid>/2019-02/</span>   |2019年2月の現在の日付|
-|<span>https://<cqdv3>/spd/#/ダッシュボード/<reportid>/2019-02-15/</span>|2019年2月15日|
-|<span>https://<cqdv3>/spd/#/ダッシュボード/<reportid>/00/</span>        |現在の日付|
+|<span>https:// <cqdv3> /spd/#/ダッシュボード/ <reportid> /2019-02/</span>   |2019年2月の現在の日付|
+|<span>https:// <cqdv3> /spd/#/ダッシュボード/ <reportid> /2019-02-15/</span>|2019年2月15日|
+|<span>https:// <cqdv3> /spd/#/ダッシュボード/ <reportid> /00/</span>        |現在の日付|
 |||
 
 既定では、月の現在の日付が、ローリング日の傾向の最終日として使用されます。
@@ -181,7 +181,7 @@ CQD の使用を開始する前に、次のように Microsoft 365 または Off
 1. Microsoft Teams service 管理者アカウントを使用して Microsoft 365 または Office 365 にサインインし、[**管理者**] タイルを選んで管理センターを開きます。
 2. 左側のウィンドウの [**管理センター**] で、[ **microsoft teams** ] を選択して、microsoft teams 管理センターを開きます。
 3. Microsoft Teams 管理センターで、左側のウィンドウの [**通話品質ダッシュボード**] を選択します。
-4. Https:// \(<span><span/>cqd.teams.microsoft.com\)が開かれるページで、[**サインイン**] をクリックして、グローバル管理者アカウントまたは microsoft teams サービス管理者アカウント情報を入力します。
+4. Https://cqd.teams.microsoft.com が開かれるページで \( <span> <span/> \) 、[**サインイン**] をクリックして、グローバル管理者アカウントまたは microsoft teams サービス管理者アカウント情報を入力します。
 
     ![スクリーンショット: 資格情報のプロンプトが表示されます](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
@@ -189,7 +189,7 @@ CQD の使用を開始する前に、次のように Microsoft 365 または Off
 > [!NOTE]
 > レポートに意味のある結果を表示するために十分なデータの処理には、1時間以上かかる場合があります。
 
-![Skype for business の](media/sfb-logo-30x30.png) **レガシポータルを使用し**た skype for business ロゴのアイコン
+![Skype for business の ](media/sfb-logo-30x30.png) **レガシポータルを使用し**た skype for business ロゴのアイコン
 
 1. 管理者アカウントを使用して Microsoft 365 または Office 365 にサインインし、[**管理者**] タイルを選んで管理センターを開きます。
 2. 左側のウィンドウの [**管理センター**] で、[ **microsoft teams** ] を選択して、microsoft teams 管理センターを開きます。
@@ -212,7 +212,7 @@ CQD の概要レポートには、詳細レポート用に計画されている�
 |:--- |:--- |:--- |
 |アプリケーション共有のメトリック | いいえ | はい |
 |顧客の建物情報のサポート | はい | 必要 |
-|顧客エンドポイント情報のサポート | <span>Cqd.teams.microsoft.com のみ<span/> | <span>Cqd.teams.microsoft.com のみ<span/> |
+|顧客エンドポイント情報のサポート | Cqd.teams.microsoft.com のみ <span><span/> | Cqd.teams.microsoft.com のみ <span><span/> |
 |ドリルダウン分析のサポート   | いいえ   | はい   |
 |メディアの信頼性のメトリック   | いいえ   | はい   |
 |ボックスのないレポート   | はい   | 必要   |
@@ -359,7 +359,7 @@ CQD Summary レポートダッシュボードには、右上隅にある [設定
 
    - データファイルには、.tsv (タブ区切り値) ファイルまたは .csv (カンマ区切り値) ファイルを指定する必要があります。 .Csv ファイルでは、カンマが含まれているフィールドは引用符で囲む必要があります。または、コンマが削除されている必要があります。 たとえば、建物の名前が ny である場合は、.csv ファイルに "NY, NY" と入力します。
    - データファイルのサイズは、50 MB 以下でなければなりません。
-   - Cqd.teams.microsoft.com にアップロードされたファイルの行数の上限は100万で、クエリのパフォーマンスが速くなります。 この制限は、CQD<span></span><span></span>の CQD v2 にも適用されます。
+   - Cqd.teams.microsoft.com にアップロードされたファイルの行数の上限は100万で、クエリのパフォーマンスが速くなります。 この制限は、CQD の CQD v2 にも適用 <span></span> されます <span></span> 。
    - データファイルの各列は、このトピックの後半で説明するように、定義済みのデータ型と一致している必要があります。
 3. 次に、**開始日**を指定し、必要に応じて**終了日を指定**します。
 4. 最後に、[**アップロード**] を選んで、CQD サーバーにファイルをアップロードします。
@@ -432,11 +432,11 @@ EndpointName、EndpointMake、Endpointmake、Endpointmake、EndpointLabel1、End
 
 ## <a name="migrate-reports-from-previous-version-of-cqd"></a>以前のバージョンの CQD からレポートを移行する
 
-Skype for Business の CQD にレポートまたはアップロードされたテナントデータ (マッピング) ファイルhttps://cqd.lync.com)を作成した場合 (その方法についhttps://cqd.teams.microsoft.com)ては、次のようにしてください。
+Skype for Business の CQD にレポートまたはアップロードされたテナントデータ (マッピング) ファイルを作成した場合 (その方法については https://cqd.lync.com) https://cqd.teams.microsoft.com) 、次のようにしてください。
 
-1.    エクスポートする[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)レポートセットに移動して参照します。 
+1.    [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)エクスポートするレポートセットに移動して参照します。 
 2.    レポートの上にマウスポインターを移動し、[...] を選びます。メニューの [**エクスポートレポートツリー**] を選びます。 エクスポートファイルを保存します。
-3.    レポートを[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)インポートする場所に移動して参照します。
+3.    レポートを [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) インポートする場所に移動して参照します。
 4.    左側のリンクから [**インポート**] をクリックし、エクスポートされたファイルを選択します。 
 5.    レポートがインポートされると、"レポートのインポートが正常に完了しました。" というメッセージが表示されます。 レポートセットの最後に新しいレポートが追加されました。 " 
 
@@ -445,7 +445,7 @@ Skype for Business の CQD にレポートまたはアップロードされた�
 
 特定のレポートを作成して、提供された詳細レポートではないような方法でデータを分析するには、カスタムレポートを作成します。
 
-ログイン\(時に表示される画面の上部にあるレポートのプルダウンリストで、[ **Summary Reports**レポートの概要\) ] 画面**を選択し**、[**新規作成**] をクリックします。クエリエディターを表示するには、レポートのアクションメニューで [編集] をクリックします。 それぞれのレポートは、キューブに対するクエリに基づきます。 レポートは、クエリから返されたデータを視覚化したものです。 クエリエディターを使用すると、これらのクエリやレポートの表示オプションを編集できます。 新しいレポートのクエリエディターを開くと、次のスクリーンショットのような画面が表示されます。
+ログイン時に表示される画面の上部にあるレポートのプルダウンリストで、[レポートの \( **概要**] 画面を選択し、 \) [**新規作成**] をクリックします。クエリエディターを表示するには、レポートのアクションメニューで [編集] をクリックします。 **Detailed Reports** それぞれのレポートは、キューブに対するクエリに基づきます。 レポートは、クエリから返されたデータを視覚化したものです。 クエリエディターを使用すると、これらのクエリやレポートの表示オプションを編集できます。 新しいレポートのクエリエディターを開くと、次のスクリーンショットのような画面が表示されます。
 
 ![新しいレポートを編集する](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
@@ -489,9 +489,17 @@ CQD で詳細なレポートを作成し、会議 ID にフィルターを適用
 
 CQD v2 と v3 のデータの違いが表示される場合は、データの比較または検証が、集計レベルではなく、"りんごからりんご" と "幅" レベルで行われていることを確認してください。 たとえば、"建物 30" の WiFi Teams のデスクトップクライアントデータの両方のレポートをフィルター処理する場合、低品質の割合は、v2 と v3 で同じである必要があります。
 
-CQD v3 では CQD v2 に新しいシナリオが存在しないため、CQD v2 と CQD v3 の合計数は異なります。 フィルターを使用しない場合は、集計の合計または総計が異なる場合があります。  
+CQDv2 の呼び出しセットアップエラーは、"Audio" のモダリティに対しては非常に考慮されていますが、CQDv3 では、すべてのモダリティ (オーディオ、ビデオ、Appsharing) でこの分類が発生し、それぞれのモダリティストリームで表されます。 
 
-使用シナリオに Skype for Business Server の2019通話が含まれている場合、CQD v3 のデータには、Skype ボット通話 (自動応答、CVI、仮想デスクトップインターフェイス)、ライブイベント、PSTN 通話が含まれます。 CQD v2 では、このデータは使用されません。 (CQD v3 には、クラウドデータコネクタが構成された Skype for Business Server 2019 が必要です。)
+Teams の場合、CQDv2 はすべてのモダリティ CQDv3 に同じユーザーフィードバックを適用し、Teams のモダリティにフィードバックベースを適用します。
+
+CQD V3 の内容 
+1. Skype for Business Server の2019通話 
+2. Skype ボット通話 (自動応答、通話キュー、会議アナウンスメントサービスなど) 
+3. 仮想デスクトップインターフェイス、
+4. 会議ビデオの相互運用機能、
+3. ライブイベントの発行元と発表者の通話 
+4. PSTN 通話。 
 
 たとえば、CQD v2 の概要レポートで5000エラーが20万オーディオストリームで表示されている場合は、5500のエラーのある30万オーディオストリーム (Skype for Business Server 2019 通話、CVI 通話、PSTN 通話など) が CQD v3 のサマリーレポートに表示されることはありません。
 
@@ -500,6 +508,18 @@ CQD v3 では CQD v2 に新しいシナリオが存在しないため、CQD v2 �
 - User Agent Category Pair
 - 第1の製品
 - 第2の製品
+
+次に、CQD v2 と CQD v3 のデータを比較するために特定のフィルターを適用する例を示します。
+
+1. 使用可能な QoE レコード = True
+
+2. [追加] は、サーバーペアフィルターの値: Client: client and Client: Server。 ほとんどのテナントでは、サーバー呼び出しを除外します。
+
+3. ユーザーエージェントカテゴリのフィルターを追加し、自動アテンダント、通話キュー、ボット、Room system、MediationServer、会議アナウンスメントサービス、VDI などのフィルターを追加します。
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="CQD v3 での特定のフィルターの適用のスクリーンショット":::
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="CQD v2 での特定のフィルターの適用のスクリーンショット":::
 
 ### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>CQD v2 と CQD v3 とのその他の予想される違い
 

@@ -17,16 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: ハイブリッド環境で Azure AD Connect を構成する方法について説明します。
-ms.openlocfilehash: 75e269cfa36a97249c9078cfc37cfc493ebcc502
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7a0c458692da1381f2ed3f52dfef8c1d360d74e2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780116"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221471"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Teams と Skype for Business の Azure AD Connect を構成する
  
-オンプレミスの Skype for Business Server (または Lync Server) を使用しており、Teams または Skype for Business Online のいずれかを使用することを計画している組織は、このドキュメントで説明されているように、オンプレミスディレクトリと Office 365 を同期するように Azure AD Connect を構成する必要があります。  これには、オンプレミスの Skype for Business から Teams に直接移動する組織が含まれます。 特に、Skype for Business オンプレミスを持つ組織では、適切な msRTCSIP 属性を Azure AD に同期させる必要があります。 
+オンプレミスの Skype for Business Server (または Lync Server) を使用しており、Teams または Skype for Business Online のどちらを使用する予定の組織では、このドキュメントで説明されているように、オンプレミスディレクトリと Microsoft 365 または Office 365 を同期するように Azure AD Connect を構成する必要があります。  これには、オンプレミスの Skype for Business から Teams に直接移動する組織が含まれます。 特に、Skype for Business オンプレミスを持つ組織では、適切な msRTCSIP 属性を Azure AD に同期させる必要があります。 
 
 > [!NOTE]
 > また、既存の Teams ユーザーで Skype for Business オンプレミスも使用している場合は、Skype for Business オンプレミスのアカウントをクラウドに移行する必要があります。これは、Skype for Business ユーザーとの相互運用やフェデレーション組織のユーザーとの通信などの機能をすべて活用するために必要になります。 ユーザーが Teams のみを使用している場合でも、追加機能を提供するために、インフラストラクチャによって当該のオンライン Skype for Business アカウントが要求されます。  この移行を実行するには、ハイブリッドを有効にできるように、Azure AD Connect を正しく構成してください。
@@ -34,7 +34,7 @@ ms.locfileid: "43780116"
 
 ## <a name="background-information"></a>参考資料
 
-Azure Active Directory Connect は、オンプレミスの Active Directory を常に Office 365 と同期させます。  オンプレミスのディレクトリには、権限のある ID のソースが保持され、オンプレミス環境からの変更は Azure AD に同期されます。 詳細については、「 [AZURE AD Connect Sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)」を参照してください。 オンプレミスのすべてのユーザーをクラウドに移行していない場合でも、チーム、Skype for Business オンプレミス、または Skype for Business Online を使用するすべてのユーザーをオンプレミスから Azure AD に同期して、オンプレミスとオンラインのユーザーとの通信を確保する必要があります。 *オンプレミスとオンラインのディレクトリの両方に、組織内のユーザーが表示されます。*
+Azure Active Directory Connect では、オンプレミスの Active Directory が、Microsoft 365 または Office 365 と継続的に同期されます。  オンプレミスのディレクトリには、権限のある ID のソースが保持され、オンプレミス環境からの変更は Azure AD に同期されます。 詳細については、「 [AZURE AD Connect Sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)」を参照してください。 オンプレミスのすべてのユーザーをクラウドに移行していない場合でも、チーム、Skype for Business オンプレミス、または Skype for Business Online を使用するすべてのユーザーをオンプレミスから Azure AD に同期して、オンプレミスとオンラインのユーザーとの通信を確保する必要があります。 *オンプレミスとオンラインのディレクトリの両方に、組織内のユーザーが表示されます。*
 
 
 ## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>Skype for Business Server を使用している場合の Azure AD の構成 
@@ -45,7 +45,7 @@ Azure Active Directory Connect は、オンプレミスの Active Directory を�
 
 2. 複数のフォレストで、そのうち 1 つのフォレストのみが Skype for Business Server をホストしていて、他の 1 つ以上のフォレストが権限のあるユーザー ID を含んでいる (アカウント フォレスト)。 
 
-3. 複数のフォレストで Skype for Business Server を複数配置している。 特定の要件が満たされている場合、組織はこれらの複数の展開を1つの Office 365 組織に統合することができます。
+3. 複数のフォレストで Skype for Business Server を複数配置している。 特定の要件が満たされている場合、組織はこれらの複数の展開を1つの Microsoft 365 または Office 365 組織に統合することができます。
 
 ### <a name="single-forest"></a>単一のフォレスト 
 
@@ -66,7 +66,7 @@ Azure Active Directory Connect は、オンプレミスの Active Directory を�
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>複数のフォレストでの Skype for Business Server の複数配置 
 
-このシナリオでは、複数のフォレストがあり、それぞれに Skype for Business サーバーと1つの Office 365 組織が含まれています。  Skype for Business Server を含む各フォレストは、AAD Connect を使用して、そのテナントの Azure AD に同期させることができます。 指定した時間に Skype for Business ハイブリッド用に構成できるフォレストは最大でも 1 つだけです。 フォレストでハイブリッドを有効にする前に、他のすべてのフォレストのすべての SIP ドメイン[を無効に](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)する必要があります。 このような環境を Office 365 に統合する方法の詳細については、「 [Teams と Skype for business のクラウド統合](cloud-consolidation.md)」を参照してください。
+このシナリオでは、複数のフォレストがあり、それぞれに Skype for Business サーバーと1つの Microsoft 365 または Office 365 組織が含まれています。  Skype for Business Server を含む各フォレストは、AAD Connect を使用して、その組織の Azure AD に同期させることができます。 指定した時間に Skype for Business ハイブリッド用に構成できるフォレストは最大でも 1 つだけです。 フォレストでハイブリッドを有効にする前に、他のすべてのフォレストのすべての SIP ドメイン[を無効に](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)する必要があります。 このような環境を Microsoft 365 または Office 365 に統合する方法の詳細については、「 [Teams と Skype For business のクラウド統合](cloud-consolidation.md)」を参照してください。
 
 ## <a name="general-requirements"></a>一般的な要件 
 
@@ -84,7 +84,7 @@ Teams と Skype for Business Online の両方のサービスでは、正しい A
 
 ## <a name="related-information"></a>関連情報
 
-- [ハイブリッド id とは](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- [ハイブリッド id とは](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity)
 
 - [Azure AD Connect 同期: 同期を理解してカスタマイズする](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 

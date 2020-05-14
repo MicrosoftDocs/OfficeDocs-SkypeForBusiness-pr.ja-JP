@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015/2019 と Lync 2013 の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムに関する詳細情報を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: f1644a96542ae6b7a1ee5842d640b1581d660cae
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928250"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220547"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
 [Skype For Business server 2019](#skype-for-business-server-2019-update-history)、 [Skype for business server 2015](#skype-for-business-server-2015-update-history)、 [Lync server 2013](#lync-server-2013-update-history)、 [lync server 2010](#lync-server-2010-update-history)の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムに関する詳細情報を取得し、更新プログラムをダウンロードします。
 
-最新の Skype for Business Online および Office 365 の更新プログラムについては、「 [Microsoft 365 ロードマップ](https://go.microsoft.com/fwlink/p/?linkid=529454)」を参照してください。
+最新の Skype for Business Online および Microsoft 365 の更新プログラムについては、 [microsoft 365 ロードマップ](https://go.microsoft.com/fwlink/p/?linkid=529454)を参照してください。
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server 2019 の更新履歴
 
@@ -131,7 +131,7 @@ KB 4470124 は、公開されているすべての累積的な更新プログラ
 
 #### <a name="pre-configured-vhds"></a>事前構成済みの Vhd
 
-完全なトポロジは7つの仮想マシンで構成されており、Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013、UC の開発者プラットフォーム Api (Microsoft Lync 2013 SDK、Exchange Web サービスマネージ API 2.0 を含む) を完全に評価できます。Microsoft Lync Server 2013 SDK および Microsoft ユニファイドコミュニケーションマネージ API 4.0)。
+完全なトポロジは、7つの仮想マシンで構成されており、microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013、UC の開発者プラットフォーム Api (Microsoft Lync 2013 SDK、Exchange Web サービスマネージ API 2.0、Microsoft Lync Server 2013 SDK、Microsoft 統合コミュニケーションマネージ API の4.0 を含む) を完全に評価できます。
 
 パッケージ名/リンク|リリース日|
 |:--- |:--- |

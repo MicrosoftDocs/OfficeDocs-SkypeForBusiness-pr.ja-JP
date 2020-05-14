@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateIncomplete
-description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 81d6b46813783fbc9eb0bac645a5107d1467d73c
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 住所の検証は、通話プランの設定の重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
+ms.openlocfilehash: 784877ce6f1d860d2bd98ace9ccf977890f60230
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769090"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220667"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>番号のアクティブ化が未完了として表示されるのはなぜですか?
 
-住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 何らかの理由で電話番号が有効になっておらず、住所の検証によって**未完了**と表示されている場合は、サービスリクエストを作成して送信する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
+住所の検証は、通話プランの設定の重要な部分です。 何らかの理由で電話番号が有効になっておらず、住所の検証によって**未完了**と表示されている場合は、サービスリクエストを作成して送信する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
 1. 管理センターで、[**ヘルプが必要**ですか?] を選択します。
@@ -42,9 +42,9 @@ ms.locfileid: "41769090"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>150 ユーザーを超える組織では、緊急住所の検証をするためにサービス リクエストを作成します。
 
-1. 職場または学校のアカウントを使用して、Office 365 に管理者としてサインインします。
+1. 職場または学校のアカウントを使用して、管理者として Microsoft 365 または Office 365 にサインインします。
     
-2. 管理センターの左側のナビゲーションで、[**新しいサービスリクエスト**の**サポート** > ] をクリックします。
+2. 管理センターの左側のナビゲーションで、[ **Support**  >  **新しいサービスリクエスト**のサポート] をクリックします。
     
 3. [**サービス リクエスト**] で、[**追加**] をクリックします。
     
@@ -69,7 +69,7 @@ ms.locfileid: "41769090"
       - 国または地域
     
      > [!IMPORTANT]
-     > **電話番号を割り当てるときに検証しようとしている緊急住所がある、Office 365 の通話プランが提供されている国/地域を入力します。**
+     > **電話番号を割り当てているときの緊急対応の住所を検証する、通話プランが提供される国/地域を入力します。**
   
       - 郵便番号
     

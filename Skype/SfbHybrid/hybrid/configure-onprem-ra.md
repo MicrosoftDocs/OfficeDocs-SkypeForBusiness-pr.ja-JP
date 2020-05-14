@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042844"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221137"
 ---
 # <a name="configure-resource-accounts"></a>リソースアカウントを構成する
 
-Skype for Business Server 2019 ハイブリッド実装では、ユニファイドメッセージング用の電話システムで提供されるクラウドサービスのみを使用し、Exchange Online とは統合されません。 Skype for Business Server 2019 では、「 [Office で電話システムを](/MicrosoftTeams/here-s-what-you-get-with-phone-system)使用する方法」で説明されているクラウド通話キューと自動応答を使用できるようになりました365。
+Skype for Business Server 2019 ハイブリッド実装では、ユニファイドメッセージング用の電話システムで提供されるクラウドサービスのみを使用し、Exchange Online とは統合されません。 Skype for Business Server 2019 では、「 [Microsoft 365 または Office 365 で電話システムを](/MicrosoftTeams/here-s-what-you-get-with-phone-system)使用する」で説明されているクラウド通話キューおよび自動応答を使用できるようになりました。
 
 Skype for Business Server 2019 で電話システムの自動応答または通話キューを使用するには、アプリケーションエンドポイントとして機能し、電話番号を割り当てることができるリソースアカウントを作成する必要があります。その後、オンライン Teams 管理センターを使用して、通話キューまたは自動応答を構成します。 このリソースアカウントは、この記事に記載されているように、オンラインにすることができます (「 [Microsoft Teams で](/MicrosoftTeams/manage-resource-accounts)リソースアカウントをホームにする」を参照してください)。 通常、複数の電話システムの自動応答または通話キューノードがあります。各ノードは、オンラインまたは Skype for Business Server 2019 に所属するリソースアカウントにマップされます。
 
@@ -43,7 +43,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
 自動応答または呼び出しキューが最上位の自動応答の下にネストされている場合、関連付けられたリソースアカウントには、自動応答とコールキューの構造に複数のエントリポイントが必要な場合にのみ、電話番号が必要になります。
 
-オンラインに所属している組織内のユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要であり、エンタープライズ voip を有効にするか、Office 365 通話プランを設定する必要があります。 「 [Microsoft Teams アドオンライセンスを割り当てる](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)」を参照してください。 エンタープライズ Voip を有効にするには、Windows PowerShell を使用できます。 たとえば、次のように実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+オンラインに所属している組織内のユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要であり、エンタープライズ voip を有効にするか、Microsoft 365 または Office 365 の通話プランを使用する必要があります。 「 [Microsoft Teams ライセンスを割り当てる](/MicrosoftTeams/assign-teams-licenses)」を参照してください。 エンタープライズ Voip を有効にするには、Windows PowerShell を使用できます。 たとえば、次のように実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 作成している電話システムの自動応答または呼び出しキューがネストされていて、電話番号は必要ない場合は、次の処理を行います。
 
@@ -58,17 +58,17 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
 1. 有料または無料のサービス番号を取得または取得します。 この番号は、他の音声サービスまたはリソースアカウントに割り当てることはできません。
 
-   リソースアカウントに電話番号を割り当てる前に、既存の有料または無料のサービス番号を取得または移植する必要があります。 有料またはフリーダイヤルのサービス電話番号を取得すると、 **Microsoft Teams の管理センター** > **の音声** > **電話番号**が表示され、一覧表示されている**番号の種類**が [サービス]**フリーダイヤル**として表示されます。 サービス番号を取得するには、「[サービス電話番号を取得](/MicrosoftTeams/getting-service-phone-numbers)する」または「既存のサービス番号を移行する場合は、「[電話番号を Teams に移行](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)する」を参照してください。
+   リソースアカウントに電話番号を割り当てる前に、既存の有料または無料のサービス番号を取得または移植する必要があります。 有料またはフリーダイヤルのサービス電話番号を取得すると、 **Microsoft Teams の管理センター**の音声電話番号が表示され、一覧表示されて  >  **Voice**  >  **Phone numbers**いる**番号の種類**が [**サービス] フリーダイヤル**として表示されます。 サービス番号を取得するには、「[サービス電話番号を取得](/MicrosoftTeams/getting-service-phone-numbers)する」または「既存のサービス番号を移行する場合は、「[電話番号を Teams に移行](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)する」を参照してください。
 
    米国以外の地域では、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 代わりに、「[組織の電話番号を管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)する」に移動して、米国外からその方法を確認します。
 
-2. 電話システムのライセンスを購入します。 参照先:  
+2. 電話システムのライセンスを購入します。 参照:  
    - [電話システム–仮想ユーザーライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 および E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 Enterprise E5 ビジネスソフトウェア](https://products.office.com/business/office-365-enterprise-e5-business-software)
 
-3. 各電話システムの自動応答またはコールキュー `New-CsHybridApplicationEndpoint`に対してコマンドレットを実行し、それぞれの名前、sip アドレスなどを指定することによって、オンプレミスのリソースアカウントを作成します。
+3. `New-CsHybridApplicationEndpoint`各電話システムの自動応答またはコールキューに対してコマンドレットを実行し、それぞれの名前、sip アドレスなどを指定することによって、オンプレミスのリソースアカウントを作成します。
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -76,7 +76,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
     このコマンドの詳細については[、「CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 」を参照してください。
 
-4. オプションリソースアカウントを作成したら、オンラインとオンプレミスの間で AD が同期されるまで待機するか、同期を強制して、電話システムの自動応答または呼び出しキューのオンライン構成に進むことができます。 同期を強制的に実行するには、AAD Connect を実行しているコンピュータで次のコマンドを実行します (まだ行っ`import-module adsync`ていない場合は、コマンドを実行するためにロードする必要があります)。
+4. オプションリソースアカウントを作成したら、オンラインとオンプレミスの間で AD が同期されるまで待機するか、同期を強制して、電話システムの自動応答または呼び出しキューのオンライン構成に進むことができます。 同期を強制的に実行するには、AAD Connect を実行しているコンピュータで次のコマンドを実行します (まだ行っていない場合は `import-module adsync` 、コマンドを実行するためにロードする必要があります)。
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -89,7 +89,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
    リソースアカウントに電話番号を割り当てる場合は、費用がかからない電話システム仮想ユーザーライセンスを使用できるようになります。 これにより、組織レベルで電話番号に電話システム機能が提供され、自動応答と通話キュー機能を作成できるようになります。
 
 
-6. サービス番号をリソースアカウントに割り当てます。 `Set-CsHybridApplicationEndpoint`コマンドを使用して、リソースアカウントに電話番号 (-lineuri オプションを指定) を割り当てます。
+6. サービス番号をリソースアカウントに割り当てます。 コマンドを使用して、 `Set-CsHybridApplicationEndpoint` リソースアカウントに電話番号 (-LineURI オプションを指定) を割り当てます。
 
     ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
@@ -127,7 +127,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
 Skype for Business フロントエンドサーバーにログインし、次の PowerShell コマンドレットを実行します。
 
-1. 各電話システムの自動応答またはコールキュー `New-CsHybridApplicationEndpoint`に対してコマンドレットを実行し、それぞれの名前、sip アドレスなどを指定することによって、オンプレミスのリソースアカウントを作成します。
+1. `New-CsHybridApplicationEndpoint`各電話システムの自動応答またはコールキューに対してコマンドレットを実行し、それぞれの名前、sip アドレスなどを指定することによって、オンプレミスのリソースアカウントを作成します。
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -135,7 +135,7 @@ Skype for Business フロントエンドサーバーにログインし、次の 
 
     このコマンドの詳細については[、「CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 」を参照してください。
 
-2. オプションリソースアカウントを作成したら、オンラインとオンプレミスの間で AD が同期されるまで待機するか、同期を強制して、電話システムの自動応答または呼び出しキューのオンライン構成に進むことができます。 同期を強制的に実行するには、AAD Connect を実行しているコンピュータで次のコマンドを実行します (まだ行っ`import-module adsync`ていない場合は、コマンドを実行するためにロードする必要があります)。
+2. オプションリソースアカウントを作成したら、オンラインとオンプレミスの間で AD が同期されるまで待機するか、同期を強制して、電話システムの自動応答または呼び出しキューのオンライン構成に進むことができます。 同期を強制的に実行するには、AAD Connect を実行しているコンピュータで次のコマンドを実行します (まだ行っていない場合は `import-module adsync` 、コマンドを実行するためにロードする必要があります)。
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -209,4 +209,4 @@ Exchange UM から電話システムへの移行では、通話キューと自�
 
 [新しい-Csonline Applicationinstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-[Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) - \(のリソースアカウントを管理して、オンラインでリソースアカウントを作成する\)
+[Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)  -  \( でリソースアカウントを管理するオンラインになっているリソースアカウントを作成するには\)

@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: このトピックでは、既存の Skype for Business Server または Exchange Server の展開を最新バージョンまたは Skype for Business Online または Exchange Online に移行する場合に考慮する必要がある事項について説明します。
-ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265612"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221267"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Skype for Business Server および Exchange Server の移行を計画する
 
@@ -33,7 +33,7 @@ Exchange 2019 と Skype for Business Server 2019 では、サポートされて�
 - ボイスメール
 - 自動応答
 
-Exchange 2013 または exchange 2016 の UM サービスに UM の役割を展開していて、Exchange 2019 にアップグレードする場合は、ボイスメールを Office 365 の Microsoft Cloud ボイスメールサービスに移行する必要があります。 ボイスメールをクラウドボイスメールに移行する場合は、以下の「 [exchange 2013/exchange 2016 And skype For business 2015 To exchange 2019 And skype](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) for business 2019」セクションを参照してください。
+Exchange 2013 または exchange 2016 の UM サービスに UM の役割を展開し、Exchange 2019 にアップグレードする場合は、ボイスメールを Microsoft 365 または Office 365 の Microsoft クラウドボイスメールサービスに移行する必要があります。 ボイスメールをクラウドボイスメールに移行する場合は、以下の「 [exchange 2013/exchange 2016 And skype For business 2015 To exchange 2019 And skype](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) for business 2019」セクションを参照してください。
 > [!IMPORTANT]
 > Exchange 2013 または Exchange 2016 サーバーのユーザーが UM が有効なメールボックスを持っている場合は、Skype for business サーバーを Skype for business Server の2019にアップグレードし、ユーザーをそれらのサーバーに移動してボイスメッセージングが停止しないようにする前に、exchange 2019 に移行しないでください。
 
@@ -55,13 +55,13 @@ Skype for Business Server 2019 では、Exchange Online UM からクラウドボ
 - Exchange 2013/Exchange 2016 および Skype for Business Server 2015 から Exchange 2019 および Skype for business Server 2019
 - Skype for business Server 2015 から Skype for business Server 2019 (Exchange 2013/Exchange 2016)
 
-次のシナリオでは、現在の展開の一部として PBX または SBC 構成が存在しないこと、およびオンプレミスの Exchange サーバーで UM が構成されていることを前提としています。 これらの各ソリューションは、オンプレミスの Skype for Business サーバーと Office 365 との間でハイブリッド展開を構成することを前提としています。 Skype for Business ハイブリッド展開の詳細については、「 [Plan hybrid connectivity](plan-hybrid-connectivity.md)」を参照してください。
+次のシナリオでは、現在の展開の一部として PBX または SBC 構成が存在しないこと、およびオンプレミスの Exchange サーバーで UM が構成されていることを前提としています。 これらの各ソリューションは、オンプレミスの Skype for Business サーバーと Microsoft 365 または Office 365 間のハイブリッド展開の構成を決定したことも前提としています。 Skype for Business ハイブリッド展開の詳細については、「 [Plan hybrid connectivity](plan-hybrid-connectivity.md)」を参照してください。
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 および Skype for Business 2015 から Exchange 2019 および Skype for business 2019
 
 このシナリオでは、既存の Exchange 2013、Exchange 2016、および Skype for business の2015サーバーを Exchange 2019 と Skype for Business の2019に移行します。
 
-このトピックで前述したように、Exchange 2019 には UM サービスは含まれなくなりました。 これは、Exchange 2019 に移行するすべてのメールボックスに対して、UM サービスによって提供された機能をクラウドボイスメールを使用して置き換える必要があることを意味します。 Skype for Business Server 2019 と Office 365 との間でハイブリッド展開を設定すると、これらの Exchange UM ボイスメールサービスがクラウドボイスメールに置き換えられます。
+このトピックで前述したように、Exchange 2019 には UM サービスは含まれなくなりました。 これは、Exchange 2019 に移行するすべてのメールボックスに対して、UM サービスによって提供された機能をクラウドボイスメールを使用して置き換える必要があることを意味します。 Skype for Business Server 2019 および Microsoft 365 または Office 365 の間でハイブリッド展開を設定すると、これらの Exchange UM ボイスメールサービスがクラウドボイスメールに置き換えられます。
 
 ボイスメール機能をすべてのユーザーが引き続き利用できるようにするには、ユーザーを Exchange 2019 および Skype for Business Server 2019 に移動する順序が重要です。 また、ボイスメールが処理される場所は、Exchange と Skype for Business のメールボックスとユーザーが配置されている場所によって決まります。 次の表を参照して、Exchange と Skype for business サーバーのどの組み合わせがサポートされており、ボイスメールが処理されるかを確認します。
 

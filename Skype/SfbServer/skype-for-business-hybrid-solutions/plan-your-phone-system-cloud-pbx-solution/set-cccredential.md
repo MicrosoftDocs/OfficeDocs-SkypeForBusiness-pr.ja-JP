@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を設定します。
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780676"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221571"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -44,12 +44,12 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-CcCredential コマンドレットは、テナント管理者のアカウント名とパスワードを設定します。 2.0 より前のリリースでは、この管理者はグローバル管理者である必要があります。 Cloud Connector はこのアカウントを使用して、構成情報の取得、構成パラメーターの設定、および Office 365 組織の構成に対するアプライアンスの状態の更新を行います。 リリース2.0 以降では、このコマンドレットを使用して、VmAdmin および DomainAdmin アカウントのパスワードを更新することもできます。
+CcCredential コマンドレットは、テナント管理者のアカウント名とパスワードを設定します。 2.0 より前のリリースでは、この管理者はグローバル管理者である必要があります。 Cloud Connector はこのアカウントを使用して、構成情報を取得し、構成パラメーターを設定し、アプライアンスの状態を Microsoft 365 または Office 365 組織の構成に更新します。 リリース2.0 以降では、このコマンドレットを使用して、VmAdmin および DomainAdmin アカウントのパスワードを更新することもできます。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
 | AccountType <br/> | 必須 <br/> |System.String  <br/> | パラメーターの値は、"TenantAdmin"、"VmAdmin"、または "DomainAdmin" である必要があります。 <br/> |
    
@@ -66,6 +66,6 @@ CcCredential コマンドレットは、テナント管理者のアカウント�
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>
 
-[取得-CcCredential](get-cccredential.md)
+[Get-CcCredential](get-cccredential.md)
   
 

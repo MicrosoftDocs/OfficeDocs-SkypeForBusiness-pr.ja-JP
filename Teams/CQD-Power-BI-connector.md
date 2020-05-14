@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158984"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219837"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -34,11 +34,11 @@ Power BI レポートにアクセスするための適切な[CQD アクセスロ
 
 コネクタの使用を有効にするためのカスタムコネクタのインストールとセキュリティの調整のプロセスについては、「 [POWER BI ドキュメント](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)」で詳しく説明します。 わかりやすくするために、簡単に説明します。
 
-1.    * \[\]Power BI デスクトップ\\カスタムコネクタフォルダーがコンピューターに既に含まれているかどうかを確認し\\*ます。 見つからない場合は、このフォルダーを作成します。<sup>1</sup>
+1.  * \[ \] \\ Power BI デスクトップ \\ カスタムコネクタ*フォルダーがコンピューターに既に含まれているかどうかを確認し   ます。 見つからない場合は、このフォルダーを作成します。<sup>1</sup>
 
-2.  コネクタファイル ( * \*mez*また* \*は pqx*ファイル) をダウンロードして、*カスタムコネクタ*ディレクトリに配置します。
+2.  コネクタファイル ( * \* mez*または* \* pqx*ファイル) をダウンロードして、*カスタムコネクタ*ディレクトリに配置します。
 
-3.  **コネクタファイルが* \*mez*ファイルの場合**は、[カスタムコネクタのセットアップのドキュメント](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)で説明されているように、セキュリティ設定を調整する必要もあります。
+3.  **コネクタファイルが* \* mez*ファイルの場合**は、[カスタムコネクタのセットアップのドキュメント](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)で説明されているように、セキュリティ設定を調整する必要もあります。
 
 この Power BI Connector for Microsoft Teams の新しいバージョンがリリースされた場合は、*カスタムコネクタ*ディレクトリにある古いコネクタファイルを新しいファイルに置き換えるだけです。
 
@@ -150,7 +150,7 @@ CQD Power BI コネクタは、作成できるクエリの種類によっては�
 
 ## <a name="footnotes"></a>脚注
 
-**<sup>1</sup>** 特定のプロセスとアプリ (OneDrive など) によって、ドキュメントのルートフォルダーが変更されることがあります。*POWER BI デスクトップ\\カスタムコネクタ*ディレクトリが、現在のルートフォルダーの [ドキュメント] フォルダー内に配置されていることを確認します。
+**<sup>1</sup>** 特定のプロセスとアプリ (OneDrive など) によって、ドキュメントのルートフォルダーが変更されることがあります。*POWER BI デスクトップ \\ カスタムコネクタ*ディレクトリが、現在のルートフォルダーの [ドキュメント] フォルダー内に配置されていることを確認します。
 
 **<sup>2</sup>** CQD で使用するログイン資格情報は、Power BI デスクトップアプリ自体へのログインに使用する資格情報と同じである必要はあり*ません*。
 
@@ -160,7 +160,7 @@ CQD Power BI コネクタは、作成できるクエリの種類によっては�
 
 ベータタグにもかかわらず、Power BI 用の通話品質コネクタは、リリース版のコネクタであり、Power BI teams によって正式なセキュリティが署名されており、これを反映しています。 このベータ版タグを削除する認定プロセスは広範囲であるため、Power BI チームからのコミットメントを得て、コネクタに直接サポートを提供する必要があります。 現時点では時間の制約があるため、Power BI チームは現在、そのサポートとより広範な認定を提供することはできませんが、Microsoft Call Quality コネクタのセキュリティ、完全性、および全般的な機能を証明するための準備は完了しています。
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>ブラウザーの Advanced CQD と比べて、コネクタが遅いように見えるのはなぜですか? パフォーマンスを向上させるために何ができますか?
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>ブラウザーの Advanced CQD と比べて、コネクタが遅いように見えるのはなぜですか? パフォーマンスを向上させるために何ができますか?
 
 さまざまなテンプレートのクエリパフォーマンスは、実際にはブラウザーとコネクタの両方で同じです。 差分は、実行される同時クエリの数によって異なります。 CQD のブラウザー内バージョンでは、あまり開発されていないため、情報密度の高い視覚エフェクトオプションがあまり多くないため、ほとんどのレポートでは、2-3 のクエリを一度に読み込むことが制限されていました。 一方、コネクタテンプレートには、多くの場合、20以上の同時クエリが表示されます。 以前に使用していたものと同じように、レポートを作成したい場合は、1つのタブあたりのクエリ数が2-3 を超えないようにレポートを作成してみてください。
 
@@ -169,6 +169,8 @@ CQD Power BI コネクタは、作成できるクエリの種類によっては�
 1万行の上限は API end で実際に指定されており、パフォーマンスを大幅に向上させ、メモリ不足の原因で発生するクエリ実行エラーのリスクを軽減するために設計されています。
 
 結果の行数を増やす代わりに、コネクタのベストプラクティスに従ってレポートを再構成することをお勧めします。 ここに記載したテンプレートは、これらのベストプラクティスを示すように設計されています。 可能であれば、月、年、日付、地域、国など、より広い範囲の基数を使って Kpi を参照してください。このような場合は、より高い基数のサイズで段階的にドリルダウンすることができます。 ヘルプデスクと場所を拡張したレポートのどちらも、このドリルダウンワークフローの良い例です。
+
+
 
 ## <a name="related-topics"></a>関連項目
 

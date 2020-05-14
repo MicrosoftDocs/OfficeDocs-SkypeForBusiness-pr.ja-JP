@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
-description: 住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: dd748a532957790d977b10fc0ec94f7f8af7b910
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 住所の検証は、通話プランの設定の重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
+ms.openlocfilehash: 86b1658624c9514bc030048b04dd9bd93c4a3306
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769320"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220727"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>住所検証のためのサポート チケットを作成する方法を教えてください。
 
-住所検証は、Office 365 の通話プランのセットアップで重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。 これをどのように行うかは、所属する組織のサイズに基づきます。
+住所の検証は、通話プランの設定の重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。 これをどのように行うかは、所属する組織のサイズに基づきます。
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
@@ -46,9 +46,9 @@ ms.locfileid: "41769320"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>150 ユーザーを超える組織では、緊急住所の検証をするためにサービス リクエストを作成します。
 
-1. 職場または学校のアカウントを使用して、Office 365 に管理者としてサインインします。
+1. 職場または学校のアカウントを使用して、管理者として Microsoft 365 または Office 365 にサインインします。
     
-2. 管理センターの左側のナビゲーションで、[**新しいサービスリクエスト**の**サポート** > ] をクリックします。
+2. 管理センターの左側のナビゲーションで、[ **Support**  >  **新しいサービスリクエスト**のサポート] をクリックします。
     
 3. [**サービス リクエスト**] で、[**追加**] をクリックします。
     
@@ -73,7 +73,7 @@ ms.locfileid: "41769320"
       - 国または地域
     
      > [!IMPORTANT]
-     > **電話番号を割り当てるときに検証しようとしている緊急住所がある、Office 365 の通話プランが提供されている国/地域を入力します。**
+     > **電話番号を割り当てているときの緊急対応の住所を検証する、通話プランが提供される国/地域を入力します。**
   
       - 郵便番号
     
@@ -100,7 +100,7 @@ ms.locfileid: "41769320"
 > [!TIP]
 > 参照番号は、Microsoft 365 管理センターの [**サービスリクエスト**] ページに表示されます。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

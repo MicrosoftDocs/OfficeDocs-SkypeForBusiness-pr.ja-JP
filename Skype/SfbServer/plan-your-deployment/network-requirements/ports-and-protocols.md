@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '概要: Skype for Business Server を実装する前に、ポートの使用に関する考慮事項を確認してください。'
-ms.openlocfilehash: 33199855d020af08e306022be47a0a9757125adb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 09b0d187195faa0aa4b5278456991d9223427f9d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42025788"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220387"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>サーバーのポートとプロトコルの要件
  
@@ -34,7 +34,7 @@ Skype for Business Server では、外部および内部ファイアウォール
   
 また、「 [Skype For business 2015 Server の技術ダイアグラム](../../technical-diagrams.md)」の記事に記載されているプロトコルワークロードのポスターを参照すると、これらの表に記載されている情報を図の形式で見つけることができます。
 > [!NOTE]
-> - Skype for Business Online (O365) を実装している場合は、「 [Office 365 の url と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)」を参照してください。 ハイブリッド環境では、このトピックを参照し、[ハイブリッド接続を計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)する必要があります。
+> - Skype for Business Online (Microsoft 365 または Office 365) を実装している場合は[、「microsoft 365」および「office 365 の url と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)」を参照してください。 ハイブリッド環境では、このトピックを参照し、[ハイブリッド接続を計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)する必要があります。
 > - ハードウェアまたはソフトウェアファイアウォールを使用することはできますが、特定のモデルやバージョンは必要ありません。 重要なのは、どのポートがホワイトリストされているのか、ファイアウォールが Skype for Business Server の機能を損なわないようにするためです。
   
 ## <a name="port-and-protocol-details"></a>ポートとプロトコルの詳細
@@ -107,7 +107,7 @@ Skype for Business Server では、外部および内部ファイアウォール
 |常設チャット フロントエンド サーバー  |常設チャットのファイル転送サービス  |443  |TCP (TLS)  ||
    
 > [!NOTE]
-> リモート通話コントロールのシナリオによっては、フロントエンドサーバーまたはディレクターと PBX との間に TCP 接続が必要な場合があります。 Skype for Business Server は TCP ポート5060を使用しなくなりましたが、リモート通話コントロールの展開時には、RCC Line サーバーの FQDN と、フロントエンドサーバーまたはディレクターが接続するために使用する TCP ポートを関連付ける信頼されたサーバー構成を作成します。PBX システム。 詳細については、「Skype for Business Server Management Shell」のドキュメントの「 **CsTrustedApplicationComputer**コマンドレット」を参照してください。
+> リモート通話コントロールのシナリオによっては、フロントエンドサーバーまたはディレクターと PBX との間に TCP 接続が必要な場合があります。 Skype for Business Server は TCP ポート5060を使用しなくなりましたが、リモート通話コントロールの展開時には、RCC Line サーバーの FQDN と、そのフロントエンドサーバーまたはディレクターが PBX システムに接続するために使用する TCP ポートを関連付ける信頼されたサーバー構成を作成します。 詳細については、「Skype for Business Server Management Shell」のドキュメントの「 **CsTrustedApplicationComputer**コマンドレット」を参照してください。
   
 次の表に、(DNS 負荷分散ではない) ハードウェア負荷分散のみを使用するプールでハードウェア ロード バランサーを開くために必要なポートを示します。
   

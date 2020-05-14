@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 1 つ以上のエッジ サーバーを展開したら、組織でサポートする外部アクセスの種類を有効にする必要があります。
-ms.openlocfilehash: e4405585da71dc48f5fa1790f83938a814270d84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
-ms.translationtype: HT
+ms.openlocfilehash: e3feecfffa591df5433ce45526ec236ca6ef8b42
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818278"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221661"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>組織の外部アクセス ポリシーの管理
 
@@ -41,7 +41,7 @@ ms.locfileid: "41818278"
 
 これらのオプションには、次の種類の外部アクセスが含まれます。
 
-  - **[フェデレーション ユーザーとの通信を有効にする]**   フェデレーション パートナーのドメインへのユーザー アクセスをサポートする場合は、これを有効にします。 この設定では、他の SIP フェデレーション ドメインや、Microsoft Office 365 などのホストされているプロバイダーとユーザーが通信できるように構成します。 
+  - **[フェデレーション ユーザーとの通信を有効にする]**   フェデレーション パートナーのドメインへのユーザー アクセスをサポートする場合は、これを有効にします。 この設定では、ユーザーが他の SIP フェデレーションドメインと、Microsoft 365 または Office 365 などのホストされるプロバイダーと通信する機能を構成します。 
 
 
   - **[リモート ユーザーとの通信を有効にする]**   ファイアウォールの外側にいる組織内のユーザー (在宅勤務者や出張中のユーザーなど) がインターネット経由で Skype for Business Server に接続できるようにする場合は、このオプションを有効にします。

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: Skype for Business Server 2015 のサーバー以外の要件を構成します。 展開の前に構成する必要があるさまざまな事項があります (Active Directory、DNS、証明書、ファイルの Hare など)。'
-ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572805"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220877"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 の環境要件
  
@@ -168,11 +168,11 @@ Exchange Server は、Skype for Business Server と同じリソースフォレ�
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Skype for Business Online および Azure Active Directory Connect を使用するリソースフォレストトポロジの複数フォレスト
 <a name="BKMK_multipleforestopology"> </a>
 
-![2つの AD フォレスト、1つのユーザーフォレスト、1つのリソースフォレストを示します。 2つのフォレストには、信頼関係があります。 これらのユーザーは、Azure AD Connect を使用して Office 365 と同期されます。 Office 365 を使用して、すべてのユーザーが Skype for Business に対して有効になります。](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![2つの AD フォレスト、1つのユーザーフォレスト、1つのリソースフォレストを示します。 2つのフォレストには、信頼関係があります。 Azure AD Connect を使用して、Microsoft 365 または Office 365 と同期されます。 すべてのユーザーは、Microsoft 365 または Office 365 経由で Skype for Business に対して有効になっています。](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-このシナリオでは、社内に複数のフォレストがあり、リソースフォレストトポロジがあります。 Active Directory フォレスト間に完全な信頼関係があります。 Azure Active Directory Connect ツールは、オンプレミスのユーザーフォレストと Office 365 の間でアカウントを同期するために使用されます。
+このシナリオでは、社内に複数のフォレストがあり、リソースフォレストトポロジがあります。 Active Directory フォレスト間に完全な信頼関係があります。 Azure Active Directory Connect ツールは、オンプレミスのユーザーフォレストと Microsoft 365 または Office 365 間でアカウントを同期するために使用されます。
   
- また、組織は Office 365 を使用しており、 [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836)を使用してオンプレミスアカウントを office 365 と同期します。 Skype for business が有効になっているユーザーは、Office 365 と Skype for Business Online を介して有効になります。 Skype for Business Server がオンプレミスで展開されていません。
+ また、組織には Microsoft 365 または Office 365 があり、 [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836)を使用してオンプレミスアカウントを microsoft 365 または office 365 と同期させます。 Skype for business が有効になっているユーザーは、Microsoft 365 または Office 365 と Skype for Business Online を介して有効になります。 Skype for Business Server がオンプレミスで展開されていません。
   
 シングルサインオン認証は、ユーザーフォレストにある Active Directory フェデレーションサービスファームによって提供されます。
   
@@ -210,7 +210,7 @@ Skype for Business Server 2015 は、国際化ドメイン名 (Idn) をサポー
   
 これは、既にドメインに参加しているコンピューターでは論理のように見えますが、エッジサーバーがドメインに参加していない場合は、ドメインサフィックスを持たない短い名前の既定値を持つことができます。 そのような場合は、DNS またはエッジサーバー、あるいはその他の Skype for Business Server 2015 サーバーまたはプールのいずれかに該当しないことを確認してください。
   
-そして、必ずしも Unicode 文字またはアンダースコアは使用しないでください。 標準文字 (A ~ Z、a ~ z、0-9、ハイフン) は、外部 DNS および公共の証明機関によってサポートされる予定です (証明書の SN に Fqdn を割り当てる必要があります)。このため、grief を使用すると、多くの場合、これには、という名前を付けます。
+そして、必ずしも Unicode 文字またはアンダースコアは使用しないでください。 標準文字 (A ~ Z、a ~ z、0-9、ハイフン) は、外部 DNS および公共の証明機関によってサポートされる予定です (証明書の SN に Fqdn を割り当てる必要があります)。このため、このことを念頭に置いて、grief の多くのことができます。
   
 ネットワークの DNS 要件の詳細については、「計画」のドキュメントの「[ネットワーク](../../plan-your-deployment/network-requirements/network-requirements.md)」セクションを参照してください。
   
@@ -248,7 +248,7 @@ Skype for Business Server 2015 は、国際化ドメイン名 (Idn) をサポー
 - Windows Server 2003 の CA に対して Web ベースの証明書要求を送信する場合は、Windows Server 2003 (SP2 適用済み) または Windows XP を実行しているコンピューターから送信する必要があります。
     
 > [!NOTE]
-> KB922706 は、Windows Server 2003 証明書サービス web 登録に対して web 証明書を登録する際の問題を解決することをサポートしていますが、Windows Server 2008、Windows Vista、または Windows 7 を使用して証明書を要求することはできません。Windows Server 2003 CA から。 
+> KB922706 は、Windows Server 2003 証明書サービス web 登録に対して web 証明書を登録する際の問題を解決することをサポートしていますが、windows server 2008、Windows Vista、または Windows 7 を使用して Windows Server 2003 CA から証明書を要求することはできません。 
   
 > [!NOTE]
 > RSASSA-PSS 署名アルゴリズムを使用することはサポートされていません。その他の問題の中では、ログイン時にエラーが発生し、転送の問題が発生する可能性があります。 
@@ -270,7 +270,7 @@ Skype for Business Server 2015 は、国際化ドメイン名 (Idn) をサポー
   
 また、Skype for Business Server 2015 には、SHA-256 暗号化ハッシュ関数を使用して署名された証明書を (必要とせずに) サポートしています。 256を使用して外部アクセスをサポートするには、外部証明書を、SHA-1-256 を使用してパブリック CA から発行する必要があります。
   
-わかりやすくするために、次の表に、Standard Edition サーバー、フロントエンドプール、およびその他の役割に関する証明書の要件を、例として使用されている架空の contoso.com で使用しています (おそらく、何らかのものを使用している可能性があります)。その他の環境の場合)。 これらはすべて標準の web サーバー証明書で、エクスポートできない秘密キーが含まれています。 その他の注意事項:
+わかりやすくするために、次の表に、Standard Edition サーバー、フロントエンドプール、およびその他の役割に関する証明書の要件を、例として架空の contoso.com を使用して示します (環境によっては他のものを使用している可能性があります)。 これらはすべて標準の web サーバー証明書で、エクスポートできない秘密キーが含まれています。 その他の注意事項:
   
 - サーバー拡張キー使用法 (EKU) は、証明書ウィザードを使用して証明書を要求するときに自動的に構成されます。
     
@@ -283,24 +283,24 @@ Standard Edition サーバーの証明書:
 |**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|**コメント**|
 |:-----|:-----|:-----|:-----|:-----|
 |既定値  <br/> |プールの FQDN  <br/> |プールの FQDN およびサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効にされている場合は、証明書ウィザードで、サポートされている各 SIP ドメイン FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要となる場合は、sip.sipdomain のエントリ (存在するそれぞれの SIP 用) も必要となります。  <br/> |SN = se01。SAN = se01  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。  <br/> |Standard edition サーバー Standard Edition サーバーでは、サーバーの FQDN はプールの FQDN と同じです。  <br/> このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクト名の別名に自動的に追加されます。  <br/> この証明書は、サーバー間認証に使用することもできます。  <br/> |
-|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •内部 web FQDN (サーバーの FQDN と同じ)  <br/> AND  <br/> •簡単な Url を満たす  <br/> •ダイヤルインの簡易 URL  <br/> •管理者の簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = se01。SAN = se01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン。SAN = 管理  <br/> ワイルドカード証明書使用時:  <br/> SN = se01。SAN = se01。SAN =\*. contoso.com  <br/> |トポロジビルダーで内部 web FQDN を上書きすることはできません。  <br/> 複数の会議の簡易 Url がある場合は、それらすべてを San として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
-|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •外部 web FQDN  <br/> AND  <br/> •ダイヤルインの簡易 URL  <br/> • SIP ドメインごとに単純な Url を満たす  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = se01。SAN = webcon01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン .com  <br/> ワイルドカード証明書使用時:  <br/> SN = se01。SAN = webcon01。SAN =\*. contoso.com  <br/> |複数の会議の簡易 Url がある場合は、それらすべてをサブジェクトの別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •内部 web FQDN (サーバーの FQDN と同じ)  <br/> AND  <br/> •簡単な Url を満たす  <br/> •ダイヤルインの簡易 URL  <br/> •管理者の簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = se01。SAN = se01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン。SAN = 管理  <br/> ワイルドカード証明書使用時:  <br/> SN = se01。SAN = se01。SAN = \* . contoso.com  <br/> |トポロジビルダーで内部 web FQDN を上書きすることはできません。  <br/> 複数の会議の簡易 Url がある場合は、それらすべてを San として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •外部 web FQDN  <br/> AND  <br/> •ダイヤルインの簡易 URL  <br/> • SIP ドメインごとに単純な Url を満たす  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = se01。SAN = webcon01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン .com  <br/> ワイルドカード証明書使用時:  <br/> SN = se01。SAN = webcon01。SAN = \* . contoso.com  <br/> |複数の会議の簡易 Url がある場合は、それらすべてをサブジェクトの別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
    
 フロントエンドプール内のフロントエンドサーバーの証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|**コメント**|
 |:-----|:-----|:-----|:-----|:-----|
 |既定値  <br/> |プールの FQDN  <br/> |プールの FQDN およびサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効にされている場合は、証明書ウィザードで、サポートされている各 SIP ドメイン FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要となる場合は、sip.sipdomain のエントリ (存在するそれぞれの SIP 用) も必要となります。  <br/> |SN = eepool。SAN = eepool、SAN = ee01  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。  <br/> |このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクト名の別名に自動的に追加されます。  <br/> この証明書は、サーバー間認証に使用することもできます。  <br/> |
-|内部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> •内部 web FQDN (サーバーの FQDN と同じではない)  <br/> •サーバーの FQDN  <br/> • Skype for Business プールの FQDN  <br/> AND  <br/> •簡単な Url を満たす  <br/> •ダイヤルインの簡易 URL  <br/> •管理者の簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = ee01。SAN = ee01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン。SAN = 管理  <br/> ワイルドカード証明書使用時:  <br/> SN = ee01。SAN = ee01。SAN =\*. contoso.com  <br/> |複数の会議の簡易 Url がある場合は、それらすべてをサブジェクトの別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
-|外部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> •外部 web FQDN  <br/> AND  <br/> •ダイヤルインの簡易 URL  <br/> •管理者の簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = ee01。SAN = webcon01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン .com  <br/> ワイルドカード証明書使用時:  <br/> SN = ee01。SAN = webcon01。SAN =\*. contoso.com  <br/> |複数の会議の簡易 Url がある場合は、それらすべてをサブジェクトの別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|内部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> •内部 web FQDN (サーバーの FQDN と同じではない)  <br/> •サーバーの FQDN  <br/> • Skype for Business プールの FQDN  <br/> AND  <br/> •簡単な Url を満たす  <br/> •ダイヤルインの簡易 URL  <br/> •管理者の簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = ee01。SAN = ee01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン。SAN = 管理  <br/> ワイルドカード証明書使用時:  <br/> SN = ee01。SAN = ee01。SAN = \* . contoso.com  <br/> |複数の会議の簡易 Url がある場合は、それらすべてをサブジェクトの別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|外部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> •外部 web FQDN  <br/> AND  <br/> •ダイヤルインの簡易 URL  <br/> •管理者の簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = ee01。SAN = webcon01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン .com  <br/> ワイルドカード証明書使用時:  <br/> SN = ee01。SAN = webcon01。SAN = \* . contoso.com  <br/> |複数の会議の簡易 Url がある場合は、それらすべてをサブジェクトの別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
    
 ディレクターの証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|
 |:-----|:-----|:-----|:-----|
 |既定値  <br/> |ディレクター プール  <br/> |ディレクターの FQDN、ディレクタープールの FQDN。  <br/> このプールがクライアントの自動ログオンサーバーであり、グループポリシーで厳密な DNS マッチングが必要な場合は、microsoft.rtc.management.xds.sipdomain のエントリも必要です (SIP ドメインごとに)。  <br/> |pool.contoso.com;SAN = dir01  <br/> このディレクター プールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。  <br/> |
-|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •内部 web FQDN (サーバーの FQDN と同じ)  <br/> •サーバーの FQDN  <br/> • Skype for Business プールの FQDN  <br/> AND  <br/> •簡単な Url を満たす  <br/> •ダイヤルインの簡易 URL  <br/> •管理者の簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = dir01。SAN = dir01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン。SAN = 管理  <br/> ワイルドカード証明書使用時:  <br/> SN = dir01。SAN = dir01 SAN =\*. contoso.com  <br/> |
-|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •外部 web FQDN  <br/> AND  <br/> • SIP ドメインごとに単純な Url を満たす  <br/> •ダイヤルインの簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |ディレクターの外部 web FQDN は、フロントエンドプールまたはフロントエンドサーバーとは別のものにする必要があります。  <br/> SN = dir01。SAN = directorwebcon01、SAN = 「contoso .com」SAN = fabrikam .comSAN = ダイヤルイン .com  <br/> ワイルドカード証明書使用時:  <br/> SN = dir01。SAN = directorwebcon01 SAN =\*. contoso.com  <br/> |
+|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •内部 web FQDN (サーバーの FQDN と同じ)  <br/> •サーバーの FQDN  <br/> • Skype for Business プールの FQDN  <br/> AND  <br/> •簡単な Url を満たす  <br/> •ダイヤルインの簡易 URL  <br/> •管理者の簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |SN = dir01。SAN = dir01。SAN = contoso .com。SAN = fabrikam .comSAN = ダイヤルイン。SAN = 管理  <br/> ワイルドカード証明書使用時:  <br/> SN = dir01。SAN = dir01 SAN = \* . contoso.com  <br/> |
+|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> •外部 web FQDN  <br/> AND  <br/> • SIP ドメインごとに単純な Url を満たす  <br/> •ダイヤルインの簡易 URL  <br/> または  <br/> •簡易 Url のワイルドカードエントリ  <br/> |ディレクターの外部 web FQDN は、フロントエンドプールまたはフロントエンドサーバーとは別のものにする必要があります。  <br/> SN = dir01。SAN = directorwebcon01、SAN = 「contoso .com」SAN = fabrikam .comSAN = ダイヤルイン .com  <br/> ワイルドカード証明書使用時:  <br/> SN = dir01。SAN = directorwebcon01 SAN = \* . contoso.com  <br/> |
    
 スタンドアロンの仲介サーバーの証明書:
   
@@ -312,7 +312,7 @@ Standard Edition サーバーの証明書:
   
 |**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|
 |:-----|:-----|:-----|:-----|
-|既定値  <br/> |アプライアンスの FQDN  <br/> |SIP.\<MICROSOFT.RTC.MANAGEMENT.XDS.SIPDOMAIN\> (SIP ドメインごとに1つのエントリのみが必要)  <br/> |SN = sba01;SAN = sip。SAN: fabrikam. .com  <br/> |
+|既定値  <br/> |アプライアンスの FQDN  <br/> |SIP。 \<microsoft.rtc.management.xds.sipdomain \> (SIP ドメインごとに1つのエントリのみが必要)  <br/> |SN = sba01;SAN = sip。SAN: fabrikam. .com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>常設チャットサーバーの証明書
 
@@ -340,22 +340,22 @@ Mobility を展開していて、モバイルクライアントの自動検出�
   
 ここでは、計画が少し前になっていますが、モビリティを展開しないで Skype for Business Server 2015 を展開した場合は、既に環境に証明書を持っている場合は、次の行が表示されることがあります。 通常、内部 CA を経由してそれらを再発行するのは非常に簡単ですが、パブリック CA からのパブリック証明書を使用すると、もう少し上がることができます。
   
-このことを確認している場合に、多数の SIP ドメインがある場合 (SAN をさらに高価にする場合) は、HTTPS を使用するのではなく、最初の自動検出サービス要求に HTTP を使用するようにリバースプロキシを構成できます (既定では、構成)。 この詳細については、「Mobility for Mobility」のトピックを参照してください。
+これが表示されている場合に、多数の SIP ドメインがある場合 (SAN をより高価に追加することになります)、HTTPS (既定の構成) ではなく、初期自動検出サービス要求に HTTP を使用するようにリバースプロキシを構成できます。 この詳細については、「Mobility for Mobility」のトピックを参照してください。
   
 ディレクタープールおよびフロントエンドプールの証明書の要件:
   
 |**説明**|**SAN エントリ**|
 |:-----|:-----|
-|内部自動検出サービス URL  <br/> |SAN = lyncdiscoverinternal。\<microsoft.rtc.management.xds.sipdomain\>  <br/> |
-|外部自動検出サービス URL  <br/> |SAN = lyncdiscover。\<microsoft.rtc.management.xds.sipdomain\>  <br/> |
+|内部自動検出サービス URL  <br/> |SAN = lyncdiscoverinternal。 \<microsoft.rtc.management.xds.sipdomain\>  <br/> |
+|外部自動検出サービス URL  <br/> |SAN = lyncdiscover。 \<microsoft.rtc.management.xds.sipdomain\>  <br/> |
    
-また、SAN =\*を使用することもできます。\<microsoft.rtc.management.xds.sipdomain\>
+また、SAN = を使用することもでき \* ます。 \<microsoft.rtc.management.xds.sipdomain\>
   
 リバースプロキシ (パブリック CA) の証明書の要件:
   
 |**説明**|**SAN エントリ**|
 |:-----|:-----|
-|外部自動検出サービス URL  <br/> |SAN = lyncdiscover。\<microsoft.rtc.management.xds.sipdomain\>  <br/> |
+|外部自動検出サービス URL  <br/> |SAN = lyncdiscover。 \<microsoft.rtc.management.xds.sipdomain\>  <br/> |
    
 この SAN は、リバースプロキシ上の SSL リスナーに割り当てられている証明書に割り当てる必要があります。
   

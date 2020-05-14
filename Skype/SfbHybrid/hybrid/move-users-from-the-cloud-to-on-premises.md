@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Skype for Business Online からオンプレミスにユーザーを移動する方法について説明します。
-ms.openlocfilehash: 0add74a2480f4caed493e6e448427aa2462db714
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 64a5561fda35669be6ce7718c3ec037dcb8b9264
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779673"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221337"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>クラウドからオンプレミスにユーザーを移動する 
 
@@ -49,16 +49,16 @@ ms.locfileid: "43779673"
 
 ### <a name="move-users-with-move-csuser"></a>Move-CsUser を使用してユーザーを移動する
 
-Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 組織の両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始`-Credential`することができます。また、パラメーターを使用して、必要な office 365 管理者の役割を持つ office 365 アカウントの資格情報を指定することもできます。
+Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境とクラウドサービス組織 (Microsoft 365 または Office 365) の両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始することができます。また、パラメーターを使用して、 `-Credential` 必要な管理役割を持つ Microsoft 365 または Office 365 アカウントの資格情報を指定することもできます。
 
 Move-CsUser を使用してユーザーをオンプレミスに移動するには、次のようにします。
 
 - Identity パラメーターを使用して移動するユーザーを指定します。
 - -Target パラメーターに、ユーザーをホストする必要があるオンプレミスプールの完全修飾ドメイン名を指定します。
-- オンプレミスと Office 365 の両方に十分な権限を持つアカウントが1つもない場合は、-credential パラメーターを使用して、Office 365 に十分な権限を持つアカウントを指定します。
-- Office 365 のアクセス許可を持つアカウントが "on.microsoft.com" で終わっていない場合は、「[必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)」に説明されているように、正しい値を指定して-HostedMigrationOverrideUrl パラメーターを指定する必要があります。
+- オンプレミスとクラウドサービス (Microsoft 365 または Office 365) の両方に十分な権限を持つアカウントが1つもない場合は、-credential パラメーターを使用して、Microsoft 365 または Office 365 に十分な権限を持つアカウントを指定します。
+- Microsoft 365 または Office 365 のアクセス許可を持つアカウントが "on.microsoft.com" で終わっていない場合は、-HostedMigrationOverrideUrl パラメーターを指定して、「[必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)」の説明に従って正しい値を指定する必要があります。
 
-次のコマンドレットシーケンスを使用して、ユーザーを Skype for Business Server に移動できます。また、Office 365 資格情報が別のアカウントであると仮定して、資格情報の取得を求めるプロンプトの入力として指定します。
+次のコマンドレットシーケンスを使用して、ユーザーを Skype for Business Server に移動できます。また、Microsoft 365 または Office 365 の資格情報が別のアカウントであると仮定して、資格情報の取得を求めるプロンプトの入力として指定します。
 
 ```PowerShell
 $cred=Get-Credential
@@ -73,13 +73,13 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 3. [**検索**] を使用して、オンプレミスに戻したいユーザーを検索します。
 4. ユーザーを選択し、リストの上にある**アクション**ドロップダウンから、[**選択したユーザーをオンプレミスに移動**] を選択します。
 5. ウィザードで、ユーザーをホストするユーザープールを選択し、[**次へ**] をクリックします。
-6. メッセージが表示された場合は、onmicrosoft.com で終了し、十分な権限があるアカウントを使用して、Office 365 にサインインします。
+6. メッセージが表示された場合は、onmicrosoft.com で終了し、十分な権限があるアカウントを使用して、Microsoft 365 または Office 365 にサインインします。
 7. [**次へ**] をクリックし、[**次**へ] をもう一度クリックして、ユーザーを移動します。
 8. 成功または失敗に関するステータスメッセージは、ウィザードではなく、メインコントロールパネルアプリの上部に表示されることに注意してください。
 
 ### <a name="removing-teamsonly-mode"></a>TeamsOnly モードを削除する
 
-CU8 を使用して Skype for Business 2015 より前のバージョンを使用していて、ユーザーを TeamsOnly モードでオンプレミスに戻した場合は、ユーザーをオンプレ`TeamsUpgradePolicy`ミスで移動する前に、の UpgradeToTeams インスタンスを削除する必要があります。 別のモードでポリシーを明示的に付与するか、グローバルポリシーを使用するようにそのユーザーの既存のポリシー割り当てを削除することができます (テナントのグローバルポリシーが Teams にアップグレードされていない場合)。
+CU8 を使用して Skype for Business 2015 より前のバージョンを使用していて、ユーザーを TeamsOnly モードでオンプレミスに戻した場合は、 `TeamsUpgradePolicy` ユーザーをオンプレミスで移動する前に、の UpgradeToTeams インスタンスを削除する必要があります。 別のモードでポリシーを明示的に付与するか、グローバルポリシーを使用するようにそのユーザーの既存のポリシー割り当てを削除することができます (テナントのグローバルポリシーが Teams にアップグレードされていない場合)。
 
 TeamsUpgradePolicy のユーザーの割り当てを削除するには、Skype for Business Online PowerShell ウィンドウから次のコマンドレットを実行します。
 

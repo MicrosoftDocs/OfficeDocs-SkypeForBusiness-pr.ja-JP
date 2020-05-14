@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 次のセクションでは、ハイブリッドシナリオで Skype for Business 機能を提供するために、リソース/ユーザーフォレストモデルに複数のフォレストがある環境を構成する方法について説明します。
-ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: cf3a162001756661afd0f204e9968713d9db0f5b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918686"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221481"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>リソース フォレスト トポロジの展開
  
@@ -33,9 +33,9 @@ ms.locfileid: "43918686"
   
 ## <a name="topology-requirements"></a>トポロジの要件
 
-複数のユーザーフォレストがサポートされています。 以下の点に注意します。 
+複数のユーザーフォレストがサポートされています。 以下の点にご注意ください。 
     
-- ハイブリッド構成でサポートされている Lync Server および Skype for Business Server のバージョンの[要件](plan-hybrid-connectivity.md#server-version-requirements)については、「 [Plan Hybrid connectivity In Skype for Business Server and Office 365](plan-hybrid-connectivity.md)」を参照してください。
+- ハイブリッド構成でサポートされている Lync Server および Skype for Business Server のバージョンの[要件](plan-hybrid-connectivity.md#server-version-requirements)については、「 [Plan Hybrid connectivity In Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md)」を参照してください。
     
 - Exchange Server は1つ以上のフォレストに展開できます。これには、Skype for Business Server を含むフォレストを含めることができる場合とできない場合があります。 最新の累積更新プログラムが適用されていることを確認します。
     
@@ -73,9 +73,9 @@ Skype for Business Server が1つのフォレスト (リソースフォレスト
     
 - 各ユーザーフォレストからの一意の UPN がリソースフォレスト内の関連付けられている無効なオブジェクトと同期されている場合、AD FS 認証は失敗します。 照合ルールは、無効にされ、認証に使用できなかったリソースフォレスト内のオブジェクトの UPN を検索します。 
     
-## <a name="create-an-office-365-organization"></a>Office 365 組織を作成する
+## <a name="create-a-microsoft-365-or-office-365-organization"></a>Microsoft 365 または Office 365 組織を作成する
 
-次に、展開で使用するために Office 365 組織を準備する必要があります。 詳細については、「 [Microsoft のクラウドサービスのサブスクリプション、ライセンス、アカウント、およびテナント](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)」を参照してください。 
+次に、展開で使用するために Microsoft 365 または Office 365 組織を準備する必要があります。 詳細については、「 [Microsoft のクラウドサービスのサブスクリプション、ライセンス、アカウント、およびテナント](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)」を参照してください。 
   
 ## <a name="configure-active-directory-federation-services"></a>Active Directory フェデレーションサービスを構成する
 
@@ -91,9 +91,9 @@ SIP/SMTP および Upn が一致する展開のみがテストされました。
     
 各ユーザーフォレストに AD FS ファームを配置し、フォレストごとに一意の SIP/SMTP/UPN を使用することで、両方の問題を解決します。 認証の試行中に、特定のユーザーフォレスト内のアカウントのみが検索され、照合されます。 これは、よりシームレスな認証プロセスを提供するのに役立ちます。 
   
-これは、Windows Server 2012 R2 AD FS の標準的な展開であり、続行する前に動作する必要があります。 手順については、「 [How To INSTALL AD FS 2012 R2 For Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)」を参照してください。 
+これは、Windows Server 2012 R2 AD FS の標準的な展開であり、続行する前に動作する必要があります。 手順については、「 [Microsoft 365 または Office 365 の AD FS 2012 R2 をインストールする方法](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)」を参照してください。 
   
-いったん展開したら、前に選択したソースアンカーと一致するようにクレームルールを編集する必要があります。 AD FS MMC の [証明書利用者信頼] の下で、[ **Microsoft Office 365 Identity Platform**] を右クリックし、[**要求規則の編集**] をクリックします。 最初のルールを編集し、ObjectSID を**employeeNumber**に変更します。 
+いったん展開したら、前に選択したソースアンカーと一致するようにクレームルールを編集する必要があります。 AD FS MMC の [証明書利用者信頼] の下で、[ **microsoft 365 Identity platform** ] または [ **Microsoft Office 365 Identity platform**] を右クリックし、[**要求規則の編集**] を選択します。 最初のルールを編集し、ObjectSID を**employeeNumber**に変更します。 
   
 ![複数フォレストの [ルールの編集] 画面](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
@@ -107,9 +107,9 @@ AAD Connect では、アカウントフォレストとリソースフォレス�
   
 ![複数フォレストの Metaverse オブジェクト画面](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-緑色で強調表示されている属性は、Office 365、黄色はユーザーフォレストから、青はリソースフォレストからマージされました。 
+緑色で強調表示されている属性は、Microsoft 365 または Office 365、ユーザーフォレストから黄色、青がリソースフォレストからマージされました。 
   
-これはテストユーザーなので、employeeNumber の場合は以前に選択されているである、cloudSourceAnchor の1101場合は、AAD Connect が sourceAnchor および Office 365 からのリソースフォレストオブジェクトを識別していることを確認できます。 その後、このオブジェクトを上記の表示に結合することができました。 
+これはテストユーザーなので、この1101場合は以前に選択されている employeeNumber である、Microsoft 365 または Office 365 から、cloudSourceAnchor とリソースフォレストオブジェクトを AAD Connect で識別していることを確認できます。 その後、このオブジェクトを上記の表示に結合することができました。 
   
 詳細については、「[オンプレミスのディレクトリと Azure Active Directory を統合する](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)」を参照してください。 
   

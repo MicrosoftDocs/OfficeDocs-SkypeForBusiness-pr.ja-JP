@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Skype for Business で使用できるPolycom、HP、Mitel 製の電話の種類と、必要なライセンスについて説明します。 '
-ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784764"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220437"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
 [] Skype for Business Online は、Skype for Business アプリよりも従来式の電話の機能性や操作性を利用したいユーザー向けに、デスクトップ電話に適合および対応しています。このトピックでは、Skype for Business Online での使用でサポートされる電話およびファームウェアのバージョンについて説明し、組織内で電話機をセットアップする際に役立つその他の情報を提供します。
 
 > [!NOTE]
-> Skype For Business は、Office 365 の主要なコミュニケーション方法として、Microsoft Teams によってゆっくりと置き換えられます。  詳細について[は、「Office 365 でのインテリジェントコミュニケーションの新しいビジョン](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)」を参照してください。
+> Skype For Business は、microsoft Teams が microsoft 365 および Office 365 の主要なコミュニケーション方法として、徐々に置き換えられます。  詳細について[は、「Office 365 でのインテリジェントコミュニケーションの新しいビジョン](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)」を参照してください。
 >
 >最新の更新プログラムおよびサポートされているデバイスに関する最新の情報を取得するには、「 [Microsoft Teams デバイスでインテリジェントコミュニケーションを](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)実現する」を参照してください。
   
 ## <a name="supported-phones"></a>サポートされている電話
   
-Office 365 での電話システムと Skype for Business Server のためのパートナー IP 電話プログラム (PIP) を通して広範なデバイスを開発および認定するために、Polycom、Yealink、AudioCodes と提携し、緊密に協業を進めています。
+Microsoft は、電話システムのパートナー IP 電話プログラム (PIP) を介して、さまざまなデバイスの開発と認定を行うために、Polycom、不在時、オーディオコードと密接に連携して協力しています。
   
 Skype for Business の新しい電話を注文する際には、*適切なプロダクト ID*で電話を購入することが重要です。 このような製品 ID により、お客様は受け取った電話機が Skype for Business Online の対象バージョンがインストール済みのものであることを確認できます。
   
@@ -64,7 +64,7 @@ AudioCodes 電話機の詳細については、「[Skype for Business の IP 電
   
 ## <a name="supported-firmware"></a>サポートされているファームウェア
 
-サポート対象の電話で、Office 365 の電話システムと機能する必要な最低限のソフトウェア リリースは次のとおりです。
+これは、サポートされている電話が電話システムで動作するために必要な最小のソフトウェアリリースです。
   
 ||||
 |:-----|:-----|:-----|
@@ -92,24 +92,24 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**機能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|ユーザー資格情報でのサイン イン  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
-|PC (ペアリング) 経由のサイン イン、Windows のみ  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **注:** 展開ガイドのサポートサポートマトリックスを確認してください。           |はい  <br/> |はい  <br/> |はい  <br/> |なし  <br/> |
-|シングルクリックでの会議への参加  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|クリックしてダイヤル (ペアリング)  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|会議のコントロール  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|ビジュアル ボイスメール  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|電話のロック  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|デバイスの更新  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|インバンド プロビジョニング  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|QoE  <br/> |はい  <br/> |Yes  <br/> |はい  <br/> |いいえ  <br/> |
-|ログのアップロード  <br/> <br/> **注:** 現時点では、すべてのログは Microsoft サポートチームのみにアップロードされます。通話記録へのお客様のアクセスはまだご利用いただけません。           |はい  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|先進認証  <br/> |はい  <br/> |Yes  <br/> |はい  <br/> |いいえ  <br/> |
-|複数の緊急電話番号  <br/> |はい  <br/> |×    <br/> |いいえ  <br/> |はい  <br/> |
-|Exchange の予定表の統合*  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> <br/> **注:** PC テザリングが必要           |
-|プレゼンス統合  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|企業ディレクトリ  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |あり  <br/> |
-|デリゲーション  <br/> |はい  <br/> |Yes  <br/> |はい  <br/> |なし  <br/> |
+|ユーザー資格情報でのサイン イン  <br/> |Yes  <br/> |Yes  <br/> |はい  <br/> |いいえ  <br/> |
+|PC (ペアリング) 経由のサイン イン、Windows のみ  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |はい  <br/> |
+|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **注:** 展開ガイドのサポートサポートマトリックスを確認してください。           |Yes  <br/> |Yes  <br/> |はい  <br/> |なし  <br/> |
+|シングルクリックでの会議への参加  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |はい  <br/> |
+|クリックしてダイヤル (ペアリング)  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |はい  <br/> |
+|会議のコントロール  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |はい  <br/> |
+|ビジュアル ボイスメール  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |はい  <br/> |
+|電話のロック  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |はい  <br/> |
+|デバイスの更新  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |はい  <br/> |
+|インバンド プロビジョニング  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |必要  <br/> |
+|QoE  <br/> |Yes  <br/> |Yes  <br/> |必要  <br/> |不要  <br/> |
+|ログのアップロード  <br/> <br/> **注:** 現時点では、すべてのログは Microsoft サポートチームのみにアップロードされます。通話記録へのお客様のアクセスはまだご利用いただけません。           |Yes  <br/> |Yes  <br/> |Yes  <br/> |はい  <br/> |
+|先進認証  <br/> |Yes  <br/> |Yes  <br/> |必要  <br/> |不要  <br/> |
+|複数の緊急電話番号  <br/> |はい  <br/> |不要  <br/> |いいえ  <br/> |はい  <br/> |
+|Exchange の予定表の統合*  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |必要  <br/> <br/> **注:** PC テザリングが必要           |
+|プレゼンス統合  <br/> |はい  <br/> |Yes  <br/> |Yes  <br/> |必要  <br/> |
+|企業ディレクトリ  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |必要  <br/> |
+|デリゲーション  <br/> |Yes  <br/> |Yes  <br/> |必要  <br/> |不要  <br/> |
 |連絡先の写真の統合  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |
 ||||||
 
@@ -120,10 +120,10 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 ## <a name="what-else-should-you-know"></a>その他の情報
 詳細な設定手順については、「[Skype for Business Online 電話機の展開レポート](deploying-skype-for-business-online-phones.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
-[Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

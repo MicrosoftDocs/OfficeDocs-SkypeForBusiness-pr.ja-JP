@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: このトピックでは、リモートの仮想デスクトップに接続しているときに Skype for Business を使用する際の計画に関する考慮事項について説明します。
-ms.openlocfilehash: c2972e2b453b6cf5592ddc8b3b48dfceee9a4e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6886eab8a13db852e0aa86b63d08aa33f82fdaed
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027998"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219527"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>VDI 環境での Skype for Business の計画
  
@@ -43,7 +43,7 @@ VDI プラグインコンポーネントには、Microsoft、Citrix、VMWare で
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX リアルタイム最適化パック
 <a name="Citrix_RT"> </a>
 
-Citrix の VDI 環境プラグイン (XenApp および XenDesktop の機能) は、Lync 2013 と Skype for Business 2015 および 2016 (任意のクリックでインストーラーを実行するための完全なクライアント、または仮想サーバーにインストールされた1月 2017 PU の後にリリースされた MSI インストーラー) と互換性があります。コンピューター. 全体的な機能は Microsoft Lync VDI プラグインに基づいていますが、Windows 10、Macintosh、Linux を含む、幅広いクライアントオペレーティングシステムで動作します。
+Citrix の VDI 環境プラグイン (XenApp および XenDesktop の機能) は、Lync 2013 と Skype for Business 2015 および 2016 (任意のクリックを使用してインストーラーを実行する完全なクライアント、または仮想デスクトップにインストールされた1月 2017 PU 後にリリースされる MSI インストーラー) と互換性があります。 全体的な機能は Microsoft Lync VDI プラグインに基づいていますが、Windows 10、Macintosh、Linux を含む、幅広いクライアントオペレーティングシステムで動作します。
   
 機能とサポートされるテクノロジの完全な一覧については、「 [Microsoft Skype For business を XenApp および XenDesktop ユーザーに提供](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)する」を参照してください。
   
@@ -62,7 +62,7 @@ VMWare の VDI 環境ソリューションは、仮想デスクトップにイ�
   
 機能とサポートされているテクノロジの詳細については、以下のリンクにある VMWare web サイトを参照してください。
   
-- [VMware ホライズン 7.4 &amp;ホライズンクライアント4.7 の新機能](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [VMware ホライズン 7.4 &amp; ホライズンクライアント4.7 の新機能](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
 - [Skype for Business 用のホライズン仮想化パック](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
@@ -161,10 +161,10 @@ VDI 環境で Skype for Business 2015 クライアントを使用する場合の
     
 - カスタマイズされた着信音と音楽の保持機能。
     
-Lync VDI プラグインは、Office 365 環境ではサポートされていません。
+Lync VDI プラグインは、Microsoft 365 または Office 365 環境ではサポートされていません。
   
 > [!NOTE]
-> Citrix リアルタイム最適化パックは Office 365 をサポートしています。 Citrix ベースの仮想環境の場合は、サポートされている機能とバージョンの一覧について、Citrix の[技術概要](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl)のドキュメントを参照してください。
+> Citrix リアルタイム最適化パックは、Microsoft 365 および Office 365 をサポートしています。 Citrix ベースの仮想環境の場合は、サポートされている機能とバージョンの一覧について、Citrix の[技術概要](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl)のドキュメントを参照してください。
   
 ## <a name="see-also"></a>関連項目
 <a name="Citrix_RT"> </a>

@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: Office 365 (クラウド PBX) の電話システムで展開および使用するための Cloud Connector アプライアンスを準備する方法について説明します。
-ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: クラウドコネクタアプライアンスを展開するための準備方法と、電話システム (クラウド PBX) での使用方法について説明します。
+ms.openlocfilehash: d00002719ed8aaac7d0f0fb0e5ceb5722acc289c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779243"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220067"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Cloud Connector アプライアンスの準備
 
-Office 365 (クラウド PBX) の電話システムで展開および使用するための Cloud Connector アプライアンスを準備する方法について説明します。
+クラウドコネクタアプライアンスを展開するための準備方法と、電話システム (クラウド PBX) での使用方法について説明します。
 
 このセクションでは、Skype for Business Cloud Connector エディションのインストールファイルを取得する方法、クラウドコネクタソフトウェアをインストールする方法、および展開用に Cloud Connector アプライアンスを準備する方法について説明します。 このセクションのすべての手順を完了すると、1つまたは複数のサイト用の Cloud Connector を展開する準備が整います。 既存の Cloud Connector の展開があり、まだ Cloud Connector バージョン2.1 にアップグレードしていない場合は、「 [Cloud connector の新しいバージョンへのアップグレード](upgrade-to-a-new-version-of-cloud-connector.md)」を参照してください。
 
@@ -43,7 +43,7 @@ Office 365 (クラウド PBX) の電話システムで展開および使用す�
 
 ## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>Skype for Business Cloud Connector エディションのインストーラーをダウンロードする
 
-1. Cloud Connector Vm が実行されるホストサーバーで、インストールファイル[https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)をダウンロードします。 
+1. Cloud Connector Vm が実行されるホストサーバーで、インストールファイルをダウンロードします [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。 
 
     > [!IMPORTANT]
     > インストール中に追加のファイルがダウンロードされるので、ホストサーバーは、Cloud Connector のインストール中にインターネットにアクセスできる必要があります。 
@@ -136,7 +136,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="create-virtual-switches-in-hyper-v-manager"></a>Hyper-v マネージャーで仮想スイッチを作成する
 
-1. **Hyper-v マネージャー** > の**仮想スイッチマネージャー**を開き、[**新しい仮想スイッチマネージャー**] を選択します。
+1. **Hyper-v マネージャー**  >  の**仮想スイッチマネージャー**を開き、[**新しい仮想スイッチマネージャー**] を選択します。
 
 2. 外部仮想スイッチを作成し、それを内部ネットワークドメインに接続されている物理ネットワークアダプターにバインドします。
 
@@ -171,7 +171,7 @@ Export-CcConfigurationSampleFile
 
 - **SiteName:** 既定値は**Site1**です。 既存または新規のサイトにアプライアンスを登録するために**register**を実行すると、コマンドレットは**SiteName**を使用して登録するサイトを決定するため、Cloud Connector を展開する前に更新する必要があります。
 
-     アプライアンスを新しいサイトに登録する場合は、 **SiteName**の値が一意で、既存のサイトとは異なるものである必要があります。 アプライアンスを既存のサイトに登録する場合は、.ini ファイルの**SiteName**の値は、Office 365 組織の構成で定義されている名前と一致している必要があります。 構成ファイルをあるサイトから別のサイトにコピーする場合は、各サイトの**SiteName**の値を適宜更新してください。
+     アプライアンスを新しいサイトに登録する場合は、 **SiteName**の値が一意で、既存のサイトとは異なるものである必要があります。 アプライアンスを既存のサイトに登録する場合は、.ini ファイル内の**SiteName**の値は、Microsoft 365 または Office 365 組織の構成で定義されている名前と一致している必要があります。 構成ファイルをあるサイトから別のサイトにコピーする場合は、各サイトの**SiteName**の値を適宜更新してください。
 
 - **ServerName:** サーバー名にドメイン名を含めることはできず、15文字に制限する必要があります。
 
@@ -305,11 +305,11 @@ CceService アカウントは、Skype for Business Cloud Connector エディシ�
 
 3. その値を**有効**に設定します。
 
-## <a name="set-up-your-office-365-organization"></a>Office 365 組織をセットアップする
+## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>Microsoft 365 または Office 365 組織をセットアップする
 
-Office 365 組織は、Skype for Business Online と Office 365 の電話システムを使用している必要があります。 Cloud Connector を使用する前に、テナントがセットアップおよび構成されていることを確認してください。
+Microsoft 365 または Office 365 組織で Skype for Business Online と電話システムを使用する必要があります。 Cloud Connector を使用する前に、テナントがセットアップおよび構成されていることを確認してください。
 
-Office 365 のセットアップ手順によっては、テナントのリモート PowerShell (TRPS) を使用して Office 365 組織を構成する必要があります。 **これは、ホストサーバーにインストールする必要があります。** PowerShell の Skype for Business Online モジュールは、「 [skype For Business online, Windows PowerShell モジュール」](https://www.microsoft.com/download/details.aspx?id=39366)からダウンロードできます。
+一部の Microsoft 365 および Office 365 のセットアップ手順では、テナントリモート PowerShell (TRPS) を使用して、Microsoft 365 または Office 365 組織を構成する必要があります。 **これは、ホストサーバーにインストールする必要があります。** PowerShell の Skype for Business Online モジュールは、「 [skype For Business online, Windows PowerShell モジュール」](https://www.microsoft.com/download/details.aspx?id=39366)からダウンロードできます。
 
 Cloud Connector online management に専用の Skype for Business 管理者アカウントを作成します (例: CceOnlineManagmentAdministrator)。 このアカウントはアプライアンスによって使用され、アプライアンスを追加または削除したり、自動 OS 更新を有効または無効にしたり、自動バイナリ更新を有効または無効にしたりします。 このアカウントのパスワードを期限切れにならないように設定します。これにより、有効期限が切れるたびにサービスのパスワードを変更する必要はありません。
 

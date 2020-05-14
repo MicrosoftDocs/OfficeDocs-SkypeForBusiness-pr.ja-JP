@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 でのクラウド自動応答の使用の概要。
-ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 2186909b3ec905d6ec6d387bcea172d8fb80287c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510796"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221307"
 ---
 # <a name="plan-cloud-call-queues"></a>クラウド通話キューを計画する
 
@@ -33,7 +33,7 @@ Cloud call queue は、顧客からの通話を受け付け、案内応答メッ
 > [!NOTE]
 > 複数の電話番号を通話キューに割り当てることができますが、それらは Microsoft サービス番号、直接ルーティング番号、またはハイブリッド番号である必要があります。
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要件
 
 次の要件は、サポートされているトポロジで Skype for Business Server 2019 が既に展開されていることを前提としています。  要件は、シナリオによって異なります。
 
@@ -43,7 +43,7 @@ Cloud call queue は、顧客からの通話を受け付け、案内応答メッ
 
 - ハイブリッド接続。 Skype for Business Server を既に展開しており、オンプレミスのユーザーのためにクラウドコールキューを有効にする場合は、オンプレミスの環境とオンライン環境の間でハイブリッド接続が設定されていることを確認する必要があります。 これは、分割ドメイン構成と呼ばれることがあります。
 
-   詳細については、「skype for business [server と office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」および「 [Skype for Business server と office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
+   詳細については、「skype [for Business server と microsoft 365 または office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」および「 [Skype for Business server と microsoft 365 または office 365 間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
 
 - リソースアカウントに電話番号を割り当てる場合は、費用がかからない電話システムの仮想ユーザーライセンスを使用できるようになります。 これにより、組織レベルで電話番号に電話システム機能が提供され、自動応答と通話キュー機能を作成できるようになります。
 
@@ -65,8 +65,8 @@ Cloud call queue は、顧客からの通話を受け付け、案内応答メッ
 
 [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Skype for Business Server と Office 365 の間のハイブリッド接続を計画する](plan-hybrid-connectivity.md)
+[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を計画する](plan-hybrid-connectivity.md)
 
-[Skype for Business Server と Office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)
+[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)
 
 [Microsoft Teams のリソースのアカウントの管理](/MicrosoftTeams/manage-resource-accounts)

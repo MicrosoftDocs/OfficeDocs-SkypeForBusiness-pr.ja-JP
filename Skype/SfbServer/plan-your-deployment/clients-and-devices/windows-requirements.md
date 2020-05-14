@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: '概要: Skype for Business Server の計画中に Windows クライアントのサポート要件を確認します。'
-ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 67208fc25344ff417094419f22068822e03b13db
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928240"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219827"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows クライアントの要件とソフトウェアのサポート
  
 **概要:** Skype for Business Server を計画する際に、Windows クライアントのサポート要件を確認します。
   
-このセクションでは、Skype for Business Windows クライアントをサポートするために必要なソフトウェアの概要を示します。  これらのクライアントは、Office 365 のインストール時にインストールされます。また、[すべてのデバイスで Skype For business をダウンロード](https://products.office.com/skype-for-business/download-app?tab=tabs-3)して入手することもできます。
+このセクションでは、Skype for Business Windows クライアントをサポートするために必要なソフトウェアの概要を示します。 これらのクライアントは、Microsoft 365 または Office 365 のインストール時にインストールされます。また、[すべてのデバイスで Skype For business をダウンロード](https://products.office.com/skype-for-business/download-app?tab=tabs-3)して入手することもできます。
   
 > [!NOTE]
 > Outlook メッセージングおよびコラボレーションクライアント内から会議管理をサポートする Skype for business 用オンラインミーティングアドインは、Skype for Business と共に自動的にインストールされます。 
@@ -45,7 +45,7 @@ ms.locfileid: "42928240"
    
 ## <a name="hardware"></a>ハードウェア
 
-Skype for Business クライアントの実行に必要なハードウェアについては、「Office 365 の[システム要件](https://products.office.com/office-system-requirements)」を参照してください。
+Skype for Business クライアントの実行に必要なハードウェアについては、Microsoft 365 および Office[システムの要件](https://products.office.com/office-system-requirements)を参照してください。
   
 ## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype 会議アプリと Skype for Business Web App 
 
@@ -81,4 +81,4 @@ Windows Phone for business の必須コンポーネントは次のとおりで�
 
 [すべてのデバイスで Skype for Business をダウンロードする](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Office 365 のシステム要件](https://products.office.com/office-system-requirements)
+[Microsoft 365 および Office のシステム要件](https://products.office.com/office-system-requirements)

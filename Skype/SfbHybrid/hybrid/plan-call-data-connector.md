@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Online テレメトリツールを使用した、ハイブリッドシナリオでのオンプレミスの実装の監視の概要。
-ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779663"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221317"
 ---
 # <a name="plan-call-data-connector"></a>通話データコネクタを計画する
 
@@ -54,18 +54,18 @@ Call Analytics and CQD tools を使用すると、次のように、通話の品
 
 ![SfB クラウドボイスメール](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要件
 
 次の要件は、サポートされているトポロジで Skype for Business Server を既に展開していることを前提としています。  Skype for Business Server およびサポートされているトポロジの展開の詳細については、「[トポロジの基本](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)」を参照してください。 通話データコネクタを構成するには、次のことを行う必要があります。
 
 - ハイブリッド接続を有効にします。 Skype for Business Server を既に展開している場合に、通話データコネクタを有効にするには、オンプレミスの環境とオンライン環境の間でハイブリッド接続が設定されていることを確認する必要があります。 これは、分割ドメイン構成と呼ばれることがあります。
 
-   詳細については、「skype for business [server と office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」および「 [Skype for Business server と office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
+   詳細については、「skype [for Business server と microsoft 365 または office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」および「 [Skype for Business server と microsoft 365 または office 365 間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
 
-- Office 365 組織に対して認証を行い、次の役割が有効になっていることを確認します。
+- Microsoft 365 または Office 365 組織に対して認証を行い、次の役割が有効になっていることを確認します。
 
   - Skype for Business Server 管理者
-  - グローバル管理者
+  - Microsoft 365 または Office 365 グローバル管理者
 
 - まだ行っていない場合は、 [Microsoft Teams および Skype For Business Online の通話品質ダッシュボードの有効化と使用](/microsoftteams/turning-on-and-using-call-quality-dashboard)に関する説明に従って、通話品質ダッシュボードを有効にします。
 

@@ -16,12 +16,12 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905499"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224230"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -40,11 +40,12 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 - レコーディングを保存するのに十分なストレージを Microsoft Stream に確保している
 - TeamsMeetingPolicy-AllowCloudRecording 設定が true に設定されている
 - その会議の匿名ユーザー、ゲスト ユーザー、フェデレーション ユーザーではない
+- ユーザーの会議に対して議事録を有効にするには、割り当てられている Teams の会議ポリシーを true に設定する必要があります。
 
-> [!NOTE]
-> また、レコーディングを自動的に文字起こしするかどうかをレコーディングを開始するユーザーが選択できるようにするには、そのユーザーの TeamsMeetingPolicy -AllowTranscription 設定を true に設定する必要があります。
+<sup>1</sup>ユーザーは Microsoft Stream との会議をアップロード/ダウンロードするためのライセンスが必要ですが、会議を記録するためのライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
 
-<sup>1</sup> 会議を Microsoft Stream にアップロードおよびダウンロードするライセンスは必要ですが、会議を記録するライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
+> [!IMPORTANT] 
+> ユーザーがレコーディングの記録とダウンロードのみを行う必要がある場合は、Microsoft Stream ライセンスが割り当てられている必要はありません。 これは、レコーディングが Microsoft Stream に保存されていないことを意味しますが、この記録は、削除される前に30日間の制限付きで Azure Media Services (AMS) に保存されています。 この時点では、管理者がコントロールや管理を行って、削除する機能を含むものではありません。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>組織内のユーザーに対して Teams のクラウド会議のレコーディングを設定する
 
@@ -54,7 +55,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 
 Microsoft Stream は、適格な Microsoft 365 および Office 365 サブスクリプションの一部として、またはスタンドアロンサービスとして利用できます。  詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。  Microsoft Stream は、microsoft 365 Business、Microsoft 365 Business Standard、および Microsoft 365 Business Basic に含まれるようになりました。
 
-ユーザーが Microsoft Stream にアクセスできるように [Office 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法をご確認ください。 Microsoft Stream がそのユーザーに対してブロックされていないことを、[この記事](https://docs.microsoft.com/stream/disable-user-organization)の定義に従って確認します。
+ユーザーが Microsoft Stream にアクセスできるように [Office 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法をご確認ください。 Microsoft stream[のブロックサイン](https://docs.microsoft.com/stream/disable-user-organization)アップで定義されているように、ユーザーに対して microsoft stream がブロックされていないことを確認します。
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>ユーザーが Microsoft Stream でビデオのアクセス許可をアップロードしていることを確認する
 
@@ -132,7 +133,7 @@ PowerShell を使用する場合は、TeamsMeetingPolicy で AllowTranscription 
 
 ### <a name="planning-for-storage"></a>ストレージの計画
 
-1 時間のレコーディングのサイズは 400 MB です。 記録されたファイルに必要な容量を理解していること、および Microsoft Stream で使用できる十分なストレージがあることを確認します。  サブスクリプションに含まれている基本ストレージ、および追加のストレージの購入方法については、[こちらの記事](https://docs.microsoft.com/stream/license-overview)をご確認ください。
+1 時間のレコーディングのサイズは 400 MB です。 記録されたファイルに必要な容量を理解していること、および Microsoft Stream で使用できる十分なストレージがあることを確認します。  サブスクリプションに含まれている基本記憶域と追加記憶域の購入方法を理解するには、 [「Microsoft Stream ライセンスの概要」](https://docs.microsoft.com/stream/license-overview)を参照してください。
 
 ## <a name="manage-meeting-recordings"></a>会議のレコーディングを管理する
 
@@ -140,7 +141,6 @@ PowerShell を使用する場合は、TeamsMeetingPolicy で AllowTranscription 
 
 > [!NOTE]
 > レコーディングとユーザー アクセスを管理する方法の詳細については、「[Microsoft Stream でユーザー データを管理する](https://docs.microsoft.com/stream/managing-user-data)」と「[Microsoft Stream でのアクセス許可とプライバシー](https://docs.microsoft.com/stream/portal-permissions)」を参照してください。
-
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会議のレコーディングのコンプライアンスと電子情報開示
 

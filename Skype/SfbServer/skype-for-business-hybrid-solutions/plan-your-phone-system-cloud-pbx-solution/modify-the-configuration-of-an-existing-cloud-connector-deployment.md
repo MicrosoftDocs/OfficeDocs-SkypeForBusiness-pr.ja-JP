@@ -1,5 +1,5 @@
 ---
-title: 既存の Cloud Connector の展開の構成を変更する
+title: 既存の Cloud Connector の展開構成の変更
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 既存の Skype for Business Cloud Connector エディション1.4.1 以降の展開の構成を変更するには、このトピックの手順に従います。
-ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779383"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220297"
 ---
-# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>既存の Cloud Connector の展開の構成を変更する
+# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>既存の Cloud Connector の展開構成の変更
  
 既存の Skype for Business Cloud Connector エディション1.4.1 以降の展開の構成を変更するには、このトピックの手順に従います。 
   
@@ -109,7 +109,7 @@ ms.locfileid: "43779383"
 
 展開内の複数のサイトの構成を変更するには、1つのサイトの手順に従って、一度に1つのサイトを更新します。
   
-## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>Office 365 組織の構成を変更して自動更新を有効にする
+## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>Microsoft 365 または Office 365 組織の構成を変更して自動更新を有効にする
 <a name="BKMK_MultipleSites"> </a>
 
 オペレーティングシステムの自動更新と Bits の自動更新を有効にするには、オンライン管理用の Skype for Business テナント管理者アカウントを使用し、テナントのリモート PowerShell を次のように使用する必要があります。
@@ -161,9 +161,9 @@ ms.locfileid: "43779383"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>専用のテナント管理者の資格情報を更新する
 <a name="BKMK_MultipleSites"> </a>
 
-Cloud Connector の Office 365 組織における管理上の変更は、必要なアクセス許可を持つアカウントから作成されます。 2.0 より前の Cloud Connector のバージョンでは、このアカウントは専用のグローバルテナント管理者アカウントです。 Cloud Connector バージョン2.0 以降では、このアカウントは、Skype for Business の管理者権限を持つ Office 365 アカウントにすることができます。
+クラウドコネクタの Microsoft 365 または Office 365 組織の管理上の変更は、必要なアクセス許可を持つアカウントから作成されます。 2.0 より前の Cloud Connector のバージョンでは、このアカウントは専用のグローバルテナント管理者アカウントです。 Cloud Connector バージョン2.0 以降では、このアカウントは、Skype for Business 管理者権限を持つ Microsoft 365 または Office 365 アカウントにすることができます。
   
-Office 365 で管理者アカウントの資格情報が変更された場合は、展開した各 Cloud Connector アプライアンスで次の管理者 PowerShell コマンドを実行して、ローカルにキャッシュされた資格情報を Cloud Connector で更新する必要もあります。
+Microsoft 365 または Office 365 で管理者アカウントの資格情報が変更された場合は、展開した各 Cloud Connector アプライアンス上で次の管理者 PowerShell コマンドを実行して、ローカルにキャッシュされた資格情報を Cloud Connector で更新する必要があります。
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
@@ -175,7 +175,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > このセクションは、Cloud Connector バージョン2.0 以降に適用されます。 
   
-すべての Cloud Connector 資格情報は、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\> ホストサーバーのパスワードが変更された場合は、ローカルに格納されている資格情報を更新する必要があります。
+すべての Cloud Connector 資格情報は、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> ホストサーバーのパスワードが変更された場合は、ローカルに格納されている資格情報を更新する必要があります。
   
 Cloud Connector アプライアンスでローカルに格納されている資格情報を更新するには、 [Get](get-cccredential.md) [と cccredential の各コマンドレット](set-cccredential.md)を使用して、次の手順を実行します。
   
@@ -191,7 +191,7 @@ Cloud Connector アプライアンスでローカルに格納されている資�
     
 3. ホストサーバーを再起動します。
     
-4. 次のファイルを削除します。 "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>
+4. 次のファイルを削除します。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \>
     
 5. 管理者として PowerShell コンソールを起動してから、説明に従ってパスワードを再入力するには、「Register-CcAppliance-Local」を実行します。 Cloud Connector の展開の前に入力したのと同じパスワードを入力してください。
     
@@ -215,9 +215,9 @@ Cloud Connector アプライアンスでローカルに格納されている資�
 > [!NOTE]
 > このセクションは、Cloud Connector バージョン2.0.1 以降に適用されます。 
   
-Cloud Connector service は、Cloud Connector Management service を実行します。 CceService アカウントは、Cloud Connector Edition の展開時に作成され、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>"および"%SystemDrive%\Programdata\Cloudconnector\credentials..CceService "。
+Cloud Connector service は、Cloud Connector Management service を実行します。 CceService アカウントは、Cloud Connector Edition の展開時に作成され、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> "および"%SystemDrive%\Programdata\Cloudconnector\credentials..CceService "。
   
-すべてのアプライアンスがサイトディレクトリ共有にアクセスできるようにするには、CceService アカウントのパスワードが、サイト内に展開されているすべてのアプライアンスで同じである必要があります。 以下の点に注意します。
+すべてのアプライアンスがサイトディレクトリ共有にアクセスできるようにするには、CceService アカウントのパスワードが、サイト内に展開されているすべてのアプライアンスで同じである必要があります。 以下の点にご注意ください。
   
 - 既定では、CceService アカウントは、[パスワードを無期限にする] として構成されています。 パスワードを更新するときは、この構成を維持することをお勧めします。
     
@@ -271,18 +271,18 @@ Cloud Connector service は、Cloud Connector Management service を実行しま
     
     - CcLockFile
     
-    - Site_\<エッジ外部 Sip プールの fqdn\>
+    - Site_ \< エッジ外部 Sip プールの fqdn\>
     
-    - Tenant_\<エッジ外部 Sip プールの fqdn\>
+    - Tenant_ \< エッジ外部 Sip プールの fqdn\>
     
-    - TenantConfigLock_\<エッジ外部 Sip プールの fqdn\>
+    - TenantConfigLock_ \< エッジ外部 Sip プールの fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>新しい SIP ドメインを追加する
 <a name="BKMK_UpdatePassword"> </a>
 
 既存の Cloud Connector 展開に新しい SIP ドメイン (または複数の SIP ドメイン) を追加するには、次の手順を実行します。
   
-1. Office 365 でドメインを更新する手順を完了しており、DNS レコードを追加できることを確認してください。 Office 365 でドメインをセットアップする方法の詳細については、「 [office 365 にドメインを追加](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)する」を参照してください。
+1. Microsoft 365 または Office 365 でドメインを更新する手順を完了しており、DNS レコードを追加できることを確認してください。 Microsoft 365 または Office 365 でドメインをセットアップする方法の詳細については、「 [Add a domain To microsoft 365」または「office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)」を参照してください。
     
 2. 新しい SIP ドメインを使用して、Cloud Connector 構成ファイルを更新します。
     
@@ -303,7 +303,7 @@ Cloud Connector service は、Cloud Connector Management service を実行しま
 
 Cloud Connector の展開でプライマリ SIP ドメインを変更する必要がある場合は、次の手順を実行します。
   
-1. Office 365 でドメインを更新する手順を完了しており、DNS レコードを追加できることを確認してください。 Office 365 でドメインをセットアップする方法の詳細については、「 [office 365 にドメインを追加](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)する」を参照してください。
+1. Microsoft 365 または Office 365 でドメインを更新する手順を完了しており、DNS レコードを追加できることを確認してください。 Microsoft 365 または Office 365 でドメインをセットアップする方法の詳細については、「 [Add a domain To microsoft 365」または「office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)」を参照してください。
     
 2. 新しい SIP ドメインを使用して、Cloud Connector 構成ファイルを更新します。
     

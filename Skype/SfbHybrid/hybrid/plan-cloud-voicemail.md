@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この記事では、Microsoft クラウドボイスメールサービスを実装するための利点、計画に関する考慮事項、および要件について説明します。 クラウドボイスメールの構成の詳細については、「Cloud 留守番電話を構成する」を参照してください。
-ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
-ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
+ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210633"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221287"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスユーザー用にクラウドボイスメールサービスを計画する
 
@@ -31,7 +31,7 @@ ms.locfileid: "44210633"
 
 - Skype for Business Online または Outlook クライアントを使用して、ユーザーの Exchange メールボックス内のボイスメールにアクセスする
 
-- Office 365 web ベースのポータルを使用してボイスメールオプションを管理する機能
+- Microsoft 365 管理センターを使用してボイスメールオプションを管理する機能
 
 - 社内またはクラウドでの Exchange メールボックスのサポート
 
@@ -46,7 +46,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 - Exchange UM の役割を構成する必要はありません。
 - クラウドボイスメールのセットアップタスクの方が簡単です。
 - ボイスメール機能への更新はクラウドに直接配信されるため、ユーザーは常に最新の機能と更新プログラムにアクセスでき、累積的な更新プログラム (Cu) への依存度は低くなります。
-- オンプレミスとオンラインの両方の Exchange メールボックスに対して同じコントロールセットがあります。 これらのコントロールの詳細については、「[電話システムボイスメールをセットアップ](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US)する」を参照してください。
+- オンプレミスとオンラインの両方の Exchange メールボックスに対して同じコントロールセットがあります。 これらのコントロールの詳細については、「[電話システムボイスメールをセットアップ](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d)する」を参照してください。
 
 次の図は、ハイブリッド展開でのクラウドボイスメールを示しています。
 
@@ -73,7 +73,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 
 - ハイブリッド接続。 Skype for Business Server を既に展開しており、オンプレミスのユーザーに対してクラウドボイスメールを有効にする場合は、オンプレミスの環境とオンライン環境の間でハイブリッド接続が設定されていることを確認する必要があります。 これは、分割ドメイン構成と呼ばれることがあります。
 
-   詳細については、「skype for business [server と office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」および「 [Skype for Business server と office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
+   詳細については、「Skype for business [server と Microsoft 365 または office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」および「 [Skype for Business server と office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
 
 - オンプレミスのユーザーは、Skype for Business Server のエンタープライズ Voip およびホストボイスメールに対して有効にする必要があります。
 

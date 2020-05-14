@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 適切なファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、Skype for Business online 電話機の設定を構成するための展開手順について説明します。
-ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 41c6ef53469ab2de3699fd17a2d181477e143fae
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113150"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220447"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -174,12 +174,12 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Skype for Business** <br/> |**交換** <br/> |**電話機のサインイン方法** <br/> |**Skype For Business アクセス** <br/> |**先進認証と MFA を無効にした Exchange アクセス** <br/> |**先進認証と MFA を有効にした Exchange アクセス** <br/> |
 |オンライン  <br/> |オンライン  <br/> |Web サイン イン  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|オンライン  <br/> |オンライン  <br/> |ユーザー名/パスワード  <br/> |はい  <br/> |はい  <br/> |いいえ  <br/> |
+|オンライン  <br/> |オンライン  <br/> |ユーザー名/パスワード  <br/> |はい  <br/> |はい  <br/> |不要  <br/> |
 |オンライン  <br/> |オンプレミス  <br/> |Web サイン イン  <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |
-|オンライン  <br/> |オンプレミス  <br/> |ユーザー名/パスワード  <br/> |はい  <br/> |はい  <br/> |なし  <br/> |
+|オンライン  <br/> |オンプレミス  <br/> |ユーザー名/パスワード  <br/> |はい  <br/> |はい  <br/> |不要  <br/> |
 |オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PIN 認証  <br/> |はい  <br/> |いいえ  <br/> |なし  <br/> |
 |オンプレミス  <br/> |オンライン/オンプレミス  <br/> |ユーザー名/パスワード  <br/> |はい  <br/> |はい  <br/> |該当なし  <br/> |
-|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PC 経由のサイン イン(BTOE)  <br/> |はい  <br/> |はい  <br/> |該当なし  <br/> |
+|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PC 経由のサイン イン(BTOE)  <br/> |必要  <br/> |はい  <br/> |該当なし  <br/> |
    
 - **電話機の機能** 機能セットは IP 電話機パートナーによって多少異なる場合があります。 すべての機能セットと、各電話の製造元の各機能の詳細については、「 [Skype For Business Online の電話を取得](getting-phones-for-skype-for-business-online.md)する」を参照してください。
     
@@ -219,10 +219,10 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
 > [!NOTE]
 > BToE は Mac および VDI プラットフォームでは現在サポートされていません。 
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Office 365 の電話システムでできること](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

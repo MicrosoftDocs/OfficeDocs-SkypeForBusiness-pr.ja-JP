@@ -1,5 +1,5 @@
 ---
-title: Cloud Connector エディションでメディアバイパスを計画する
+title: Cloud Connector エディションでのメディア バイパスの計画
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: このトピックでは、Cloud Connector エディションバージョン2.0 以降でメディアバイパスを実装する場合の計画の検討事項について説明します。 メディアバイパスの展開の詳細については、「Cloud Connector エディションでメディアバイパスを展開する」を参照してください。
-ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 568fa13584a44540d8351ea2eb32475c1d276ff7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778783"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220257"
 ---
-# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでメディアバイパスを計画する
+# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Cloud Connector エディションでのメディア バイパスの計画
  
 このトピックでは、Cloud Connector エディションバージョン2.0 以降でメディアバイパスを実装する場合の計画の検討事項について説明します。 メディアバイパスの展開の詳細については、「 [Cloud Connector エディションでメディアバイパスを展開](deploy-media-bypass-in-cloud-connector.md)する」を参照してください。
   
@@ -37,7 +37,7 @@ ms.locfileid: "43778783"
 
 信号はメディアバイパスの有無にかかわらず同じパスになりますが、メディアの流れは異なります。 次の図は、メディアバイパスを使用する場合と使用しない場合のトポロジでのメディアと信号経路を示しています。 
   
-たとえば、メディアバイパスを使用しない次のトポロジでは、Skype for Business クライアントは PSTN 通話を外部番号に発信し、SIP シグナリングは Office 365 に送られ、Office 365 はエンドユーザーの音声ポリシーに従ってシグナリングトラフィックを転送します。 Cloud Connector ユーザーの場合、音声ポリシーは、シグナリングトラフィックを Cloud Connector エッジサーバーにリダイレクトします。これにより、シグナリングトラフィックは、Cloud Connector 仲介サーバーを介して PSTN セッションボーダーコントローラー (SBC) またはゲートウェイにルーティングされます。 メディアは、次の図に示すように、Skype for Business クライアントから Cloud Connector 仲介サーバー、次に SBC またはゲートウェイに流れます。
+たとえば、メディアバイパスが使用されていない次のトポロジでは、Skype for Business クライアントは PSTN 通話を外部番号に転送します。この SIP シグナリングは、Microsoft 365 または Office 365 に送られ、エンドユーザーの音声ポリシーに従ってシグナリングトラフィックをリダイレクトします。 Cloud Connector ユーザーの場合、音声ポリシーは、シグナリングトラフィックを Cloud Connector エッジサーバーにリダイレクトします。これにより、シグナリングトラフィックは、Cloud Connector 仲介サーバーを介して PSTN セッションボーダーコントローラー (SBC) またはゲートウェイにルーティングされます。 メディアは、次の図に示すように、Skype for Business クライアントから Cloud Connector 仲介サーバー、次に SBC またはゲートウェイに流れます。
   
 **メディアバイパスを使用しないメディアおよび信号経路**
 
@@ -59,7 +59,7 @@ PSTN からの着信通話では、逆方向の同じ信号パスが使用され
 
 ![Cloud Connector のマルチサイトの例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. SIP トラフィックは、Zurich フルタ内のユーザーから Office 365 に送られます。
+1. SIP トラフィックは、Zurich フルタ内のユーザーから Microsoft 365 または Office 365 に送られます。
     
 2. 次に、ユーザーの音声ルーティングポリシーで指定されているように、アムステルダムの Cloud Connector アプライアンスにトラフィックがルーティングされます。
     

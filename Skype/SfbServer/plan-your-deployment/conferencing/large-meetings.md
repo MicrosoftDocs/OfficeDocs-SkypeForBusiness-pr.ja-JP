@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '概要: このトピックでは、Skype for Business Server での大規模な会議の実装と管理のベストプラクティスについて説明します。'
-ms.openlocfilehash: 18b0f036e49996564aa68735300f4e677ce5b1cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acb0dd1dbd0efe93b985ed2f9e143ef1538ecb86
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780236"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221257"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Skype for Business Server での大規模会議の計画
  
@@ -26,10 +26,10 @@ ms.locfileid: "43780236"
 Skype for Business Server がサポートする会議の規模は、共有プールまたは専用プールで会議がホストされているかどうかによって決まります 1000 250。 
   
 > [!NOTE]
-> このトピックでは、Skype for Business Server でサポートされている大規模な会議のベストプラクティスに焦点を当てます。 組織で大規模な会議機能が必要な場合は、Office 365 の一部である新しいオンラインサービスである Skype 会議ブロードキャストを活用するハイブリッド環境の実装を検討する必要があります。 
+> このトピックでは、Skype for Business Server でサポートされている大規模な会議のベストプラクティスに焦点を当てます。 組織で大規模な会議機能が必要な場合は、Skype 会議ブロードキャストを活用するハイブリッド環境の実装を検討する必要があります。これには、Microsoft 365 および Office 365 の一部である新しいオンラインサービスが含まれています。 
 
 > [!NOTE]
-> Skype 会議ブロードキャストを使用すると、ユーザーは最大1万参加者の大規模なオンラインユーザーに会議をホストしてブロードキャストすることができます。 Skype 会議ブロードキャストを使用するには、運用 Office 365 組織のハイブリッドセットアップで Skype for Business Server が既に構成されている必要があります。 すべてのユーザーは、前提条件として確立されたオンラインテナントを持っている必要があります。 Skype 会議ブロードキャストを利用できるハイブリッドソリューションの展開については、「 [Skype 会議ブロードキャストとは](https://go.microsoft.com/fwlink/?LinkId=617071)」を参照してください。また、[オンプレミス展開については「skype 会議ブロードキャストを構成する](../../deploy/configure-skype-meeting-broadcast.md)」を参照してください。 
+> Skype 会議ブロードキャストを使用すると、ユーザーは最大1万参加者の大規模なオンラインユーザーに会議をホストしてブロードキャストすることができます。 Skype 会議ブロードキャストを使用するには、運用中の Microsoft 365 または Office 365 組織のハイブリッドセットアップで Skype for Business Server が既に構成されている必要があります。 すべてのユーザーは、前提条件として確立されたオンラインテナントを持っている必要があります。 Skype 会議ブロードキャストを利用できるハイブリッドソリューションの展開については、「 [Skype 会議ブロードキャストとは](https://go.microsoft.com/fwlink/?LinkId=617071)」を参照してください。また、[オンプレミス展開については「skype 会議ブロードキャストを構成する](../../deploy/configure-skype-meeting-broadcast.md)」を参照してください。 
   
 通常、大規模な会議には次のような特性があります。
   

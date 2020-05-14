@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business でサポートされているクライアントとアプリを確認します。'
-ms.openlocfilehash: 71960fe7f450bbf4073c80d584e1eb1b0eb259d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bcb6cfdaa0797e46ebc01f551a46600577d4dc27
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013490"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220557"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントとデバイスの計画
 
@@ -36,7 +36,7 @@ Skype for Business Server は、コンピューターにインストールされ
 
 ### <a name="skype-for-business-2019"></a>Skype for Business (2019)
 
-Skype for business (2019) は、Skype for Business Server 2015 および2019を対象とした、完全に機能することが推奨されるクライアントです。 新機能の詳細については[、「Skype For business で最新の更新プログラムを実行](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)する」を参照してください。 クライアント機能のサポートについては、「Skype for business[のデスクトップクライアント機能の比較](desktop-feature-comparison.md)」と、ユーザードキュメントの「 [skype for business のヘルプ](https://support.office.com/Skype-for-business)」を参照してください。 このクライアントは、ユーザーが Office 365 をインストールするときに含まれます。
+Skype for business (2019) は、Skype for Business Server 2015 および2019を対象とした、完全に機能することが推奨されるクライアントです。 新機能の詳細については[、「Skype For business で最新の更新プログラムを実行](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)する」を参照してください。 クライアント機能のサポートについては、「Skype for business[のデスクトップクライアント機能の比較](desktop-feature-comparison.md)」と、ユーザードキュメントの「 [skype for business のヘルプ](https://support.office.com/Skype-for-business)」を参照してください。 このクライアントは、ユーザーが Microsoft 365 または Office 365 をインストールするときに含まれます。
 
 より少ない機能をサポートする無料の基本クライアントも利用できます。 [すべてのデバイスで Skype For business をダウンロード](https://products.office.com/skype-for-business/download-app?tab=tabs-3)すると、両方のバージョンをダウンロードできます。 完全なクライアントと基本的なクライアントの違いについては、「[基本的なクライアントの制限](desktop-feature-comparison.md#Full-Basic)」を参照してください。
 
@@ -79,9 +79,9 @@ Skype for business 用オンラインミーティングアドインは、Windows
 
 仮想デスクトップインフラストラクチャ (VDI) 環境は、セキュリティおよびコンプライアンスの問題が特に重要である一部の組織で使用されます。 仮想デスクトップに所属するクライアントで、オーディオとビデオの処理の負荷が増大しなければならないような接続で、Skype for Business を使用して、オーディオとビデオを完全に統合することができます。 その処理をエンドユーザーのローカルコンピューターにオフロードし、仮想デスクトップの負荷を軽減する、追加の VDI プラグインソフトウェアが用意されています。 これらのプラグインの使用の詳細については、「 [VDI 環境で Skype For business を計画](vdi-environments.md)する」を参照してください。
 
-### <a name="microsoft-teams-rooms"></a>Microsoft Teams ルーム
+### <a name="microsoft-teams-rooms"></a>Microsoft Teams ミーティング
 
-Microsoft Teams ルームは、Microsoft の最新の会議ソリューションであり、使い慣れたインターフェイスを使用しており、簡単に展開および管理できます。液晶パネルなどの既存の機器を活用して、インストールを容易にします。 Microsoft Teams ルームでは、コンソールモードの Surface Pro 4 または Surface Pro で実行されている目的に特化されたアプリケーションを使用しています (このアプリは、そのデバイス上で実行される唯一のアプリである必要があります)。また、実装には独自のデバイスアカウントが必要です。 ソフトウェアは、Windows ストアと Windows Update の両方で更新されます。 展開https://aka.ms/MTRDocsでこれらの room コンソールを使用する方法の詳細については、「」を参照してください。 
+Microsoft Teams ルームは、Microsoft の最新の会議ソリューションであり、使い慣れたインターフェイスを使用しており、簡単に展開および管理できます。液晶パネルなどの既存の機器を活用して、インストールを容易にします。 Microsoft Teams ルームでは、コンソールモードの Surface Pro 4 または Surface Pro で実行されている目的に特化されたアプリケーションを使用しています (このアプリは、そのデバイス上で実行される唯一のアプリである必要があります)。また、実装には独自のデバイスアカウントが必要です。 ソフトウェアは、Windows ストアと Windows Update の両方で更新されます。 https://aka.ms/MTRDocs展開でこれらの room コンソールを使用する方法の詳細については、「」を参照してください。 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 上の Skype for Business
 
@@ -92,7 +92,7 @@ Microsoft Surface Hub は、ブレーンストーミング、コラボレーシ�
 
 組織が適切なライセンスを購入した場合は、[完全なクライアント] を選択します。それ以外の場合は、[基本クライアント] を選択します。
 
-ユーザーは、自分の[すべてのデバイスで Skype For business をダウンロード](https://products.office.com/skype-for-business/download-app?tab=tabs-3)することによって、自分でクライアントをインストールすることができます。 クライアントは、ユーザーが Windows に Office 365 をインストールするときにもインストールされます。 一部のユーザーが Mac を使用している場合、前のセクションで説明したように、それらのユーザーは異なる機能のセットを持つことになります。
+ユーザーは、自分の[すべてのデバイスで Skype For business をダウンロード](https://products.office.com/skype-for-business/download-app?tab=tabs-3)することによって、自分でクライアントをインストールすることができます。 クライアントは、ユーザーが Microsoft 365 または Office 365 を Windows にインストールしたときにもインストールされます。 一部のユーザーが Mac を使用している場合、前のセクションで説明したように、それらのユーザーは異なる機能のセットを持つことになります。
 
 Skype for business Server 2015 で使用できる一部の機能は、Skype for business Online または Skype for business Server 2019 では利用できません。2015またはハイブリッドのユーザーアカウントの[制限に](desktop-feature-comparison.md#Online-Hybrid)ついては、「 [2019](desktop-feature-comparison.md#Online-Hybrid)の詳細については」を参照してください。 Skype for Business Online の管理者は、使用可能なさまざまなプランについては、「 [skype For Business Online サービスの説明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)」を参照してください。
 

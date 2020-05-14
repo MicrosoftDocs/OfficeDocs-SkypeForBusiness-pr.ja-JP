@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: '概要: Skype for Business のエンタープライズクライアントインストール方法の概要について説明します。'
-ms.openlocfilehash: cdee3db6dc6fcec646ee2e15b6aeebc298d75b67
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8d6e59582c3c420d5752a84f793e6c3025b3c500
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778283"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220647"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Skype for Business Server のクライアントを展開する
  
 **概要:** Skype for business のエンタープライズクライアントインストール方法の概要。
   
-ユーザーに Skype for Business を展開する方法は、skype for business を Office 365 プランの一部として購入したか、または Skype for Business のボリュームライセンスバージョンを購入したかどうかによって異なります。 
+ユーザーに Skype for Business を展開する方法は、Skype for business を Microsoft 365 または Office 365 プランの一部として購入したか、または Skype for Business のボリュームライセンスバージョンを購入したかどうかによって異なります。 
   
-- **Office 365**Skype for Business を含む Office 365 プランがある場合、使用されるインストールテクノロジはクイック実行と呼ばれます。 Office 365 では、ユーザーが Microsoft 365 管理センターから自分の Skype for Business をインストールできるようにすることができます。 または、ローカルネットワークにソフトウェアをダウンロードしてから、Microsoft エンドポイント構成マネージャーを使用して既存のソフトウェア展開ツールを使用して、ユーザーに Skype for Business を展開することもできます。 Office 365 に同梱されている Skype for business のインストールの詳細については、「 [Deploy The skype For business client In office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)」を参照してください。
+- **Microsoft 365 または Office 365**Skype for Business を含む Microsoft 365 または Office 365 プランをお持ちの場合は、使用されるインストールテクノロジはクイック実行と呼ばれます。 ユーザーが Microsoft 365 管理センターから自分の Skype for Business をインストールできるようにすることができます。 または、ローカルネットワークにソフトウェアをダウンロードしてから、Microsoft エンドポイント構成マネージャーを使用して既存のソフトウェア展開ツールを使用して、ユーザーに Skype for Business を展開することもできます。 Microsoft 365 および Office 365 に同梱されている Skype for Business のインストールの詳細については、「 [microsoft 365 または office の365で skype For business クライアントを展開](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)する」を参照してください。
     
 - **ボリュームライセンス付き**Skype for Business 2015 または2016クライアントのボリュームライセンス版がある場合、使用されるインストールテクノロジは Windows インストーラー (MSI) です。 Windows インストーラーベースのインストールパッケージは、複数の MSI ファイルで構成されています。 言語に依存しないコア MSI パッケージと 1 つ以上の言語固有のパッケージが組み合わされ 1 つの完全な製品になっています。 セットアップによって個々のパッケージがアセンブルされ、ユーザーのコンピューターへの Office のインストール中およびインストール後に、カスタマイズ タスクとメンテナンス タスクが実行されます。 Skype for Business 2019 クライアントはクイック実行インストーラーを使用します。
     
@@ -35,7 +35,7 @@ ms.locfileid: "43778283"
 > Outlook メッセージングおよびコラボレーションクライアント内から会議管理をサポートする Microsoft Office 用 Skype 会議アドインは、Skype for Business クライアントを使用して自動的にインストールされます。 
   
 > [!NOTE]
-> Office 365 セットアッププログラムを実行しても、以前のバージョンの Lync はアンインストールされません。 Skype for Business クライアントは、他の Lync クライアントと共存してインストールします。 
+> Microsoft 365 および Office 365 のセットアッププログラムでは、以前のバージョンの Lync はアンインストールされません。 Skype for Business クライアントは、他の Lync クライアントと共存してインストールします。 
   
 ## <a name="installing-windows-clients"></a>Windows クライアントのインストール
 
@@ -60,4 +60,4 @@ ms.locfileid: "43778283"
     
 ## <a name="see-also"></a>関連項目
 
-[Office 365 で Skype for Business クライアントを展開する](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
+[Microsoft 365 または Office 365 で Skype for Business クライアントを展開する](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)

@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server を使用しているユーザーに対して、クラウドベースのボイスメールを実装する方法について説明します。
-ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288715"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221461"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスのユーザー用にクラウドボイスメールサービスを構成する
 
@@ -84,7 +84,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **組織**は、テナントに割り当てられている既定のドメインです。 この情報を取得するには、テナント管理者が office.com にログインし、[管理センター] アプリをクリックして、左側の [**セットアップ**] に移動し、[**ドメイン**] をクリックします。 例: mytenant.onmicrosoft.com。
 
-    組織名は、Office 365 の既定のドメイン名でもあります。
+    組織名は、Microsoft 365 または Office 365 の既定のドメイン名でもあります。
 
 ホスト型ボイスメールポリシーが正常に作成されたことを確認するには、次のコマンドを実行します。
 
@@ -100,7 +100,7 @@ Get-CsHostedVoicemailPolicy
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>クラウドボイスメールでユーザーを有効にする

@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Microsoft テレフォニーソリューションについて説明します。
-ms.openlocfilehash: 1ab2feb1a7cc650bc9dbb35d3205a6f9de2de7b7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048628"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221327"
 ---
 # <a name="microsoft-telephony-solutions"></a>Microsoft テレフォニーソリューション
 
@@ -40,13 +40,13 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 ## <a name="private-branch-exchange-pbx-options"></a>構内交換 (PBX) のオプション
 
-### <a name="phone-system-office-365"></a>電話システム (Office 365)
+### <a name="phone-system-microsoft-365-or-office-365"></a>電話システム (Microsoft 365 または Office 365)
   
-電話システムは、microsoft Teams または Skype for Business Online を使用して Office 365 クラウドで通話コントロールと構内交換機 (PBX) 機能を有効にするための Microsoft のテクノロジです。 
+電話システムは、microsoft Teams または Skype for Business Online を使用して microsoft 365 または Office 365 クラウドで通話コントロールと構内交換機 (PBX) 機能を有効にするための Microsoft のテクノロジです。 
 
-電話システムは Teams または Skype for Business Online クライアントおよび認定済みデバイスと連携して動作します。 電話システムを使用すると、既存の PBX システムを、Office 365 から直接提供される機能セットと置き換えて、会社のクラウドの生産性向上に密接に統合することができます。 電話システムを公衆交換電話網 (PSTN) に接続するには、Microsoft の通話プランまたは独自のテレフォニーキャリアを選択できます。
+電話システムは Teams または Skype for Business Online クライアントおよび認定済みデバイスと連携して動作します。 電話システムを使用すると、既存の PBX システムを、Microsoft 365 または Office 365 から直接提供される一連の機能に置き換えて、会社のクラウドの生産性向上に密接に統合することができます。 電話システムを公衆交換電話網 (PSTN) に接続するには、Microsoft の通話プランまたは独自のテレフォニーキャリアを選択できます。
 
-詳細については、「 [Office 365 の電話システムとは](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)」を参照してください。
+詳細については、「 [Microsoft 365 または Office 365 の電話システムとは](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)」を参照してください。
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>エンタープライズ Voip (Skype for Business Server)
 
@@ -58,18 +58,18 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 公衆交換電話網 (PSTN) に接続するには、次の方法を選択できます。
 
-- Office 365 で Microsoft 通話プランを使用する 
+- Microsoft 365 または Office 365 で Microsoft 通話プランを使用する 
 - 独自のテレフォニー電話会社への接続
 
-### <a name="calling-plan-office-365"></a>通話プラン (Office 365)
+### <a name="calling-plan-microsoft-365-or-office-365"></a>通話プラン (Microsoft 365 または Office 365)
 
-このオプションでは、Microsoft の Office 365 Phone システムを公衆交換電話網 (PSTN) に接続して、世界中の固定電話および携帯電話の通話を有効にします。 通話プランの場合、Microsoft は PSTN キャリアです。
+このオプションは、Microsoft 365 または Office 365 の電話システムを公衆交換電話網 (PSTN) に接続して、世界中の固定電話および携帯電話の通話を有効にします。 通話プランの場合、Microsoft は PSTN キャリアです。
 
-詳細については、「 [Office 365 の通話プラン](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)」を参照してください。
+詳細については、「 [Microsoft 365 または Office 365 の通話プラン](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)」を参照してください。
 
-### <a name="connect-your-own-telephony-carrier-office-365-and-skype-for-business-on-premises"></a>独自のテレフォニー電話会社 (Office 365 と Skype for Business オンプレミス) を接続する
+### <a name="connect-your-own-telephony-carrier-microsoft-365-or-office-365-and-skype-for-business-on-premises"></a>独自のテレフォニー電話会社 (Microsoft 365 または Office 365 と Skype for Business オンプレミス) を接続する
 
-このオプションでは、オンプレミスの Skype for Business の Office 365 またはエンタープライズ Voip システムのいずれかをテレフォニーネットワークに接続します。 このオプションには、サポートされているセッションボーダーコントローラー (SBC) が必要です。 場合によっては、オンプレミスで展開された追加の Microsoft ソフトウェアが必要になることがあります。
+このオプションを使用すると、オンプレミスの Skype for Business の Microsoft 365 または Office 365 またはエンタープライズ Voip システムの電話システムがテレフォニーネットワークに接続されます。 このオプションには、サポートされているセッションボーダーコントローラー (SBC) が必要です。 場合によっては、オンプレミスで展開された追加の Microsoft ソフトウェアが必要になることがあります。
 
 ## <a name="which-solution-is-right-for-your-organization"></a>どのソリューションが自分の組織に適していますか?
 
@@ -101,7 +101,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 - 現在の従来の PBX は、ビジネスに不可欠な固有の機能を提供していますか?
 - 一部またはすべてのユーザーに、現在電話システムで提供されていない機能が必要かどうかを確認します。
 
-以下の点に注意してください。
+次の点に注意してください。
 
 - 複雑な環境のソリューションを設計したり、複数ステップの移行を管理したりする必要がある場合は、4つのオプションすべてを互いに共存させることができます。
 - Skype for business Server または cloud Connector エディションを使用した独自のキャリアを備えた電話システムは、Skype for business Server または Cloud Connector を使用してのみ展開できます。 1つの会社では、Skype for Business Server と Cloud Connector の共存はサポートされていません。
@@ -115,12 +115,12 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 
 - 国内または国際通話プランが追加された Microsoft 電話システム (ライセンス対象のサービスのレベルによって異なります)。 
-- PSTN 通話プランは Office 365 では動作しないので、このオプションではオンプレミス展開の展開やメンテナンスは必要ありません。
+- PSTN 通話プランは、Microsoft 365 または Office 365 では動作しないため、このオプションでは、オンプレミス展開の展開やメンテナンスは必要ありません。
 - お客様は、直接ルーティングを使用して、サードパーティの PBX、アナログデバイス、および SBC でサポートされている他のサードパーティ製テレフォニー機器との相互運用性を実現するために、サポートされる SBC を接続できます。
 
 | インフラストラクチャの要件                   | 必須|
 | :----------------------------------------------------| ---------:|
-| Office 365 への継続的な接続は必要ありません | はい |
+| Microsoft 365 または Office 365 への継続的な接続は必要ありません | はい |
 | 世界中で利用可能                            | いいえ  |
 | サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | いいえ |
 | サードパーティ製の電話会社との契約が必要      | いいえ   |
@@ -137,7 +137,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 - セッションボーダーコントローラーを独自に管理しない場合。
 - Teams または Skype for Business Online には、組織が必要とするすべての機能が含まれています。
 
-詳細については、「 [office 365 の電話システム](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)と[Office 365 の通話プラン](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)」を参照してください。
+詳細については、「 [microsoft 365 の電話システムに](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)ついて」365および「 [microsoft 365 または Office 365 の通話プラン](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)」を参照してください。
 
 ## <a name="phone-system-with-own-carrier-via-direct-routing"></a>直接ルーティング経由で carrier を備えた電話システム
 
@@ -152,7 +152,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 | インフラストラクチャの要件                   | 必須|
 | :----------------------------------------------------| ---------:|
-| Office 365 への継続的な接続は必要ありません | はい |
+| Microsoft 365 または Office 365 への継続的な接続は必要ありません | はい |
 | 世界中で利用可能                            | はい  |
 | サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | はい |
 | サードパーティ製の電話会社との契約が必要 *      | はい   |
@@ -168,7 +168,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 - サードパーティの Pbx や機器との相互運用が必要なのは、microsoft が提供するオーバーヘッドポケットベル、アナログデバイス
 - Teams には、組織に必要なすべての機能が用意されています。
 
-詳細については、「 [Office 365 の電話システムとは](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)」と「 [Direct Routing を計画](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)する」を参照してください。
+詳細については、「 [Microsoft 365 の電話システムと Office 365 に](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)ついて」と「 [Direct Routing を計画](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)する」を参照してください。
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Skype for Business Server または Cloud Connector エディションを使用した独自のキャリアを備えた電話システム
@@ -184,7 +184,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 | インフラストラクチャの要件                   | 必須|
 | :----------------------------------------------------| ---------:|
-| Office 365 への継続的な接続は必要ありません | はい |
+| Microsoft 365 または Office 365 への継続的な接続は必要ありません | はい |
 | 世界中で利用可能                            | はい  |
 | サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | はい |
 | サードパーティ製の電話会社との契約が必要      | はい   |
@@ -198,7 +198,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 - PSTN 通話プランは、お客様の地域では利用できません。
 - 現在の PSTN キャリアを保持する必要があります。
 
-詳細については、「 [Office 365 の電話システム](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)について」、「 [Skype for business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)」、および「 [Plan For Skype for business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)」を参照してください。
+詳細については、「 [Microsoft 365 の電話システムと Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)、 [Skype for business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)」、および「 [Plan For Skype for business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)」を参照してください。
 
 推奨事項: ビジネス上の条件が変更された場合、たとえば、PSTN キャリアを保持する必要がなくなった場合は、オプション1または2を使用して Microsoft Teams に移行することを検討します。
 - メンテナンスコストを最小限に抑える
@@ -217,7 +217,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 | インフラストラクチャの要件                   | 必須|
 | :----------------------------------------------------| ---------:|
-| Office 365 への継続的な接続は必要ありません | いいえ |
+| Microsoft 365 または Office 365 への継続的な接続は必要ありません | いいえ |
 | 世界中で利用可能                            | はい  |
 | サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | はい |
 | サードパーティ製の電話会社との契約が必要      | はい   |
@@ -228,15 +228,3 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 推奨事項: ビジネス上の条件が変更された場合、たとえば、PSTN キャリアを保持する必要がなくなった場合は、オプション1または2を使用して Microsoft Teams に移行することを検討します。
 - メンテナンスコストを最小限に抑える
 - Microsoft によってリリースされた最新の機能にアクセスできる
-
-
-
-
-
-
-
-
-
-
-
-  

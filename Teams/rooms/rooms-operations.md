@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: このトピックでは、Skype Room Systems の後継である Microsoft Teams ミーティングの管理について説明します。
-ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157762"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "43580705"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams ミーティングのメンテナンスと運用 
  
@@ -31,10 +31,10 @@ Microsoft Teams ミーティングは、Microsoft の最新の会議ソリュー
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams ミーティングでログを収集する
 <a name="Logs"> </a>
 
-ログを収集するには、Microsoft Teams ミーティング アプリに付属のログ収集スクリプトを呼び出す必要があります。 管理モードでは、管理者特権の PowerShell プロンプトを起動し、次のコマンドを実行します。
+ログを収集するには、Microsoft Teams ミーティング アプリに付属のログ収集スクリプトを呼び出す必要があります。 管理者モードで、管理者特権のコマンド プロンプトを開始して、次のコマンドを発行します。
   
 ```PowerShell
-c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
+powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
 ログは ZIP ファイルとして c:\rigel に出力されます。
@@ -175,9 +175,9 @@ Copy-Item $movefile $targetDevice
 1. インストール [MSI](https://go.microsoft.com/fwlink/?linkid=851168) から、デバイスがアクセスできる共有先にパッケージを抽出します。
 2. Microsoft Teams ミーティングのデバイスを対象に次のスクリプトを実行します (\<share\> は、該当するデバイス共有に変更します)。
     
-```PowerShell
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+    ```PowerShell
+    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+    ```
 
 ## <a name="admin-mode-and-device-management"></a>管理者モードおよびデバイスの管理
 <a name="AdminMode"> </a>

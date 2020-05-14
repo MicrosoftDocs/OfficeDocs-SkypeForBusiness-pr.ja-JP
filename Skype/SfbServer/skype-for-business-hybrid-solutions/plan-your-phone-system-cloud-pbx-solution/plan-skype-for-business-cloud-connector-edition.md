@@ -19,46 +19,46 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
-description: Skype for Business Cloud Connector エディション、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装するパッケージ化された仮想マシン (Vm) のセットの詳細を確認してください。
-ms.openlocfilehash: 055149121b5abdb2fa92f72278f94b35f8556dff
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Skype for Business Cloud Connector エディション、電話システム (クラウド PBX) でオンプレミスの PSTN 接続を実装するパッケージ化された仮想マシン (Vm) のセットの情報を確認できます。
+ms.openlocfilehash: d2b7f4203da082112b846cc3f12f57dd7758fc82
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779263"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220087"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションの計画
 
-Skype for Business Cloud Connector エディション、Office 365 の電話システム (クラウド PBX) でのオンプレミスの PSTN 接続を実装するパッケージ化された仮想マシン (Vm) のセットの詳細を確認してください。
+Skype for Business Cloud Connector エディション、電話システム (クラウド PBX) でオンプレミスの PSTN 接続を実装するパッケージ化された仮想マシン (Vm) のセットの情報を確認できます。
 
-既存の Lync Server または Skype for Business Server をまだ持っていない場合は、Cloud Connector Edition が組織に適したソリューションになることがあります。 お客様のビジネスに適した Office 365 ソリューションの電話システムを調査している場合は、「 [Microsoft テレフォニーソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)」を参照してください。
+既存の Lync Server または Skype for Business Server をまだ持っていない場合は、Cloud Connector Edition が組織に適したソリューションになることがあります。 お客様のビジネスに適した電話システムソリューションについて調査している場合は、「 [Microsoft テレフォニーソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)」を参照してください。
 
 このドキュメントでは、Cloud Connector edition の要件とサポートされるトポロジについて説明し、Cloud Connector エディションの展開の計画に役立てることができます。 Cloud Connector 環境を構成する前に、このトピックを必ずお読みください。 Cloud Connector エディションを展開および構成する準備ができたら、「 [configure and Manage Skype For Business Cloud Connector edition](configure-skype-for-business-cloud-connector-edition.md)」を参照してください。
 
-Cloud Connector Edition 2.1 を使用できるようになりました。 2.1 にまだアップグレードしていない場合は、「 [Cloud Connector の新しいバージョンへのアップグレード](upgrade-to-a-new-version-of-cloud-connector.md)」を参照してください。 インストールファイルは、で[https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)入手できます。
+Cloud Connector Edition 2.1 を使用できるようになりました。 2.1 にまだアップグレードしていない場合は、「 [Cloud Connector の新しいバージョンへのアップグレード](upgrade-to-a-new-version-of-cloud-connector.md)」を参照してください。 インストールファイルは、で入手でき [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) ます。
 
 > [!NOTE]
 > Microsoft は、新しいバージョンのリリース後、60日間、Cloud Connector Edition の以前のバージョンをサポートしています。 Microsoft は、2.1 のリリース後、60日間、バージョン2.0.1 をサポートして、アップグレードの時間を確保します。 2.0.1 以前のすべてのバージョンはサポートされなくなりました。
 
-Cloud Connector Edition は、Office 365 の電話システムでオンプレミスの PSTN 接続を実装するパッケージ化された仮想マシン (Vm) のセットで構成されるハイブリッド製品です。 最小限の Skype for Business Server トポロジを仮想化環境に展開することで、クラウドに所属している組織内のユーザーは、Microsoft クラウドから PBX サービスを受けることができますが、既存のオンプレミス音声インフラストラクチャを使用して PSTN 接続が提供されます。
+Cloud Connector エディションは、電話システムでオンプレミスの PSTN 接続を実装するパッケージ化された仮想マシン (Vm) のセットで構成されるハイブリッド製品です。 最小限の Skype for Business Server トポロジを仮想化環境に展開することで、クラウドに所属している組織内のユーザーは、Microsoft クラウドから PBX サービスを受けることができますが、既存のオンプレミス音声インフラストラクチャを使用して PSTN 接続が提供されます。
 
 ![クラウド PBX を Skype for Business のオンプレミス展開に接続するクラウド PBX ゲートウェイを示しているトポロジ図。](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
-Cloud Connector を使用すると、Office 365 サービスの電話システムを既存のテレフォニー環境 (PBX、アナログデバイス、コールセンターなど) と統合できるため、既存のテレフォニーソリューションから Office 365 の電話システムへの段階的な移行を実装できます。
+Cloud Connector を使用すると、電話システムサービスを既存のテレフォニー環境 (PBX、アナログデバイス、コールセンターなど) と統合できるため、既存のテレフォニーソリューションから電話システムへの段階的な移行を実装できます。
 
-たとえば、会社に、Office 365 の電話システムが提供していない特定の機能を備えた、高度なコールセンターがあるとします。 コールセンターのユーザーは、既存のソリューションをそのままにして、他のユーザーを Office 365 の電話システムに移動することができます。
+たとえば、会社に、電話システムが提供しない特定の機能を備えた高度なコールセンターがあるとします。 通話センターのユーザーに既存のソリューションを使用したまま、他のユーザーを電話システムに移動することを選択できます。
 
-Cloud Connector は、オンプレミスとオンラインの間のルーティングを提供し、Office 365 の電話システムで独自の PSTN プロバイダーを使用することを選択できます。
+Cloud Connector は、オンプレミスとオンラインのユーザー間のルーティングを提供し、独自の PSTN プロバイダーを電話システムで使用することを選択できます。
 
 Cloud Connector エディションの展開を計画する場合は、次の点を考慮してください。
 
-- Cloud Connector を使用してクラウド音声ソリューションを利用するには、Office 365 に電話システムが含まれている Office 365 組織にサインアップする必要があります。 Office 365 組織をまだお持ちでない場合は、「 [office 365 For Business](https://products.office.com/business/office)」にサインアップする方法を参照してください。 Skype for Business Online を含むプランにサインアップする必要があることに注意してください。
+- Cloud Connector を使用してクラウド音声ソリューションを利用するには、電話システムを含む Microsoft 365 または Office 365 組織にサインアップする必要があります。 Microsoft 365 または Office 365 組織がまだない場合は、ここでサインアップする方法について説明します。 [microsoft 365 For Business](https://products.office.com/business/office)。 Skype for Business Online を含むプランにサインアップする必要があることに注意してください。
 
-- Skype for Business Online サービスを使用して Cloud Connector アプライアンスを登録し、さまざまなコマンドレットを実行するには、Cloud Connector 2.0 以降で、Skype for Business のテナント管理者権限を持つ専用の Office 365 アカウントが必要です。 2.0 より前の Cloud Connector のバージョンでは、テナント全体管理者権限を持つ専用の Office 365 アカウントが必要です。
+- Skype for Business Online サービスを使用して Cloud Connector アプライアンスを登録し、さまざまなコマンドレットを実行するには、Cloud Connector 2.0 以降を使用するには、Skype for Business テナント管理者権限を持つ専用の Microsoft 365 または Office 365 アカウントが必要です。 2.0 より前の Cloud Connector のバージョンでは、テナント全体管理者権限を持つ専用の Microsoft 365 または Office 365 アカウントが必要です。
 
 - Cloud Connector では、完全なオンプレミスの Skype for Business Server 展開は必要ありません。
 
-    現時点では、Cloud Connector は Lync または Skype for Business のオンプレミスサーバーと共存できません。 既存の Lync または Skype for Business ユーザーを Office 365 に移行し、オンプレミステレフォニーをユーザーに提供し続ける場合は、既存の Skype for Business Server 展開を使用して、オンプレミス接続を備えた Office 365 の電話システムについて検討してください。 詳細については、「 [office 365 で電話システムを計画する (クラウド PBX)](plan-your-phone-system-cloud-pbx-solution.md) 」、および「 [Office 365 で電話システムを計画する (オンプレミスの PSTN 接続と共に Skype for business Server を使用](plan-phone-system-with-on-premises-pstn-connectivity.md)する」を参照してください)。
+    現時点では、Cloud Connector は Lync または Skype for Business のオンプレミスサーバーと共存できません。 既存の Lync または Skype for Business ユーザーを Microsoft 365 に移行し、オンプレミステレフォニーをユーザーに提供する場合は、既存の Skype for Business Server 展開を使用して、オンプレミス接続を備えた電話システムを検討してください。 詳細については、「 [plan Your Phone system (CLOUD PBX)」ソリューション](plan-your-phone-system-cloud-pbx-solution.md)を参照してください。また、[オンプレミスの PSTN 接続を備えた電話システムを Skype for Business Server で計画](plan-phone-system-with-on-premises-pstn-connectivity.md)します。
 
 - 以前の Skype for Business または Lync Server を展開していて、スキーマを拡張した場合は、環境からすべての Skype for Business または Lync Server コンポーネントを削除している限り、クラウドコネクタ展開のスキーマをクリーンアップする必要はありません。
 
@@ -101,7 +101,7 @@ Cloud Connector エディションの展開を計画する場合は、次の点�
 ## <a name="cloud-connector-edition-components"></a>Cloud Connector Edition コンポーネント
 <a name="BKMK_Components"> </a>
 
-Cloud Connector エディションでは、エッジコンポーネント、仲介コンポーネント、中央管理ストア (CMS) の役割で構成される最小限の Skype for Business Server トポロジを含むパッケージ化された Vm のセットを展開します。 また、Cloud Connector の内部機能に必要なドメインコントローラーもインストールします。 これらのサービスは、Skype for Business Online サービスを含む Office 365 組織とのハイブリッド用に構成されています。
+Cloud Connector エディションでは、エッジコンポーネント、仲介コンポーネント、中央管理ストア (CMS) の役割で構成される最小限の Skype for Business Server トポロジを含むパッケージ化された Vm のセットを展開します。 また、Cloud Connector の内部機能に必要なドメインコントローラーもインストールします。 これらのサービスは、Skype for Business Online サービスを含む Microsoft 365 または Office 365 組織とのハイブリッド用に構成されています。
 
 ![Cloud Connector Edition コンポーネント](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -189,13 +189,13 @@ Cloud Connector コンポーネントは、次の機能を提供します。
 
 - 容量計画のためには、次の計算に基づいて、1つまたは複数の Cloud connector がオフラインになった場合の負荷の処理能力を考慮する必要があります。
 
-  - **N + 1 ボックス。** Cloud Connector の大規模なバージョンでは、N + 1 ボックス\*は 500 n の同時呼び出しを99.8% の可用性でサポートします。
+  - **N + 1 ボックス。** Cloud Connector の大規模なバージョンでは、N + 1 ボックスは 500 \* n の同時呼び出しを99.8% の可用性でサポートします。
 
-    Cloud Connector の小規模バージョンでは、N + 1 ボックスは 50\*n 個の同時通話を99.8% の可用性でサポートしています。
+    Cloud Connector の小規模バージョンでは、N + 1 ボックスは 50 \* n 個の同時通話を99.8% の可用性でサポートしています。
 
-  - **N + 2 ボックス** より大規模な Cloud Connector の場合、N + 2 ボックスは\*500 n 件の同時通話を99.9% の可用性でサポートします。
+  - **N + 2 ボックス** より大規模な Cloud Connector の場合、N + 2 ボックスは 500 n 件の \* 同時通話を99.9% の可用性でサポートします。
 
-    Cloud Connector の小規模バージョンでは、N + 2 ボックスは 50\*n 件の同時通話を99.9% の可用性でサポートしています。
+    Cloud Connector の小規模バージョンでは、N + 2 ボックスは 50 \* n 件の同時通話を99.9% の可用性でサポートしています。
 
 ![1つの PSTN サイト内の2つのクラウドコネクタ](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
@@ -242,13 +242,13 @@ Cloud Connector エディションを展開する前に、ご使用の環境に�
 
 - ホストマシンでインターネットを参照するためにプロキシサーバーが必要な場合は、次の構成変更を行う必要があります。
 
-  - プロキシをバイパスするには、プロキシサーバーで設定した WinHTTP プロキシ設定と、"192.168.213" を含むバイパスリストを指定します。\*「Cloud Connector の Managements Services および cloudconnector .ini ファイルで定義されている Skype for Business の社内のサブネットによって使用されるネットワーク。 そうしないと、管理接続が失敗し、Cloud Connector の展開と自動回復が妨げられます。 以下に、サンプルの winhttp 構成コマンドを示します。 netsh winhttp set proxy "10.10.10.175: 8080" バイパス-\*list = ". ローカル; 1。\*; 172.20。\*; 192.168.218。\*'\<local\>'。
+  - プロキシをバイパスするには、プロキシサーバーと、"192.168.213" を含むバイパスリストを使用して、WinHTTP プロキシ設定を設定します。 \*CloudConnector .ini ファイルで定義されているように、Cloud Connector Managements services と Skype for Business の社内のサブネットによって使用されるネットワーク。 そうしないと、管理接続が失敗し、Cloud Connector の展開と自動回復が妨げられます。 次に示すのは、サンプルの winhttp 構成コマンドです。 netsh winhttp set proxy "10.10.10.175: 8080" バイパス-list = " \* ... \* ;172.20. \* ; 192.168.218 \* \<ローカル \> "です。
 
   - ユーザー単位ではなく、コンピューターごとにプロキシ設定を指定します。 それ以外の場合、Cloud Connector のダウンロードは失敗します。 レジストリの変更またはグループポリシー設定を使用して、次のように、コンピューターごとにプロキシ設定を指定できます。
 
   - **レジストリ:** HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword: 00000000
 
-  - **グループポリシー:** コンピューター\>管理用\>テンプレート Windows\>コンポーネント Internet Explorer: ユーザーごとではなく、コンピューターごとにプロキシ設定を行います。
+  - **グループポリシー:** コンピューター \> 管理用テンプレート \> Windows コンポーネント \> Internet Explorer: ユーザーごとではなく、コンピューターごとにプロキシ設定を行います。
 
 - 認定済みの PBX/トランクまたは認定済みの SBC/ゲートウェイ (少なくとも2つのゲートウェイが推奨)。
 
@@ -260,12 +260,12 @@ Cloud Connector エディションを展開する前に、ご使用の環境に�
 
 - 外部 DNS レコード。このレコードは、インストールパッケージに含まれている CloudConnector .ini ファイルで定義されています。
 
-  - エッジコンポーネントのアクセスエッジサービスの外部 DNS レコード。たとえば、「\<ドメイン名\>」と指定します。 PSTN サイトごとに1つのレコードが必要です。 このレコードには、そのサイトのすべてのエッジの IP アドレスが含まれている必要があります。
+  - エッジコンポーネントのアクセスエッジサービスの外部 DNS レコード。たとえば、[ap] のようになります。 \<ドメイン名 \> 。 PSTN サイトごとに1つのレコードが必要です。 このレコードには、そのサイトのすべてのエッジの IP アドレスが含まれている必要があります。
 
-- 必要なすべての DNS および SRV レコードを作成した Office 365 組織。
+- 必要なすべての DNS および SRV レコードが作成された Microsoft 365 または Office 365 組織。
 
     > [!IMPORTANT]
-    > テナントを Cloud Connector エディションと統合する場合、既定のドメインサフィックス onmicrosoft.com を組織の SIP ドメインとして使用することはサポートされていません。 > sip を使用できません。\<この DNS\>レコードは Office 365 によって使用されるため、Cloud Connector エッジアクセスプロキシインターフェイスの名前としてのドメイン名。
+    > テナントを Cloud Connector エディションと統合する場合、既定のドメインサフィックス onmicrosoft.com を組織の SIP ドメインとして使用することはサポートされていません。 > sip を使用できません。 \<\>この DNS レコードは Microsoft 365 および Office 365 によって使用されるため、クラウドコネクタエッジアクセスプロキシインターフェイスの名前としてドメイン名を指定します。
 
 - パブリック証明機関 (CA) から取得された外部エッジの証明書。
 
@@ -275,7 +275,7 @@ Cloud Connector エディションを展開する前に、ご使用の環境に�
 
 - ホストコンピューターにインストールされているテナントのリモート PowerShell モジュール。
 
-- リモート PowerShell を実行するための Office 365 Skype for Business 管理者の資格情報。
+- リモート PowerShell を実行するための Skype for Business 管理者の資格情報。
 
     > [!IMPORTANT]
     > 管理者アカウントでは、多要素認証を有効にしないでください。
@@ -374,7 +374,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 次の表に、Cloud Connector エッジコンポーネントと外部ファイアウォールの間の通信を有効にするためのポートとポート範囲を示します。 この表は、最低限の推奨事項を示しています。
 
-この場合、インターネットへのすべてのメディアトラフィックは、次のようにオンラインエッジを介して流れます:\>ユーザーエンドポイント-\>-オンラインエッジ--Cloud Connector エッジ:
+この場合、インターネットへのすべてのメディアトラフィックは、次のようにオンラインエッジを介して流れます: ユーザーエンドポイント-- \> オンラインエッジ-- \> Cloud Connector エッジ:
 
 **外部ファイアウォール-最小構成**
 
@@ -394,7 +394,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 次の表に、Cloud Connector エッジコンポーネントと外部ファイアウォールの間の通信を有効にするためのポートとポート範囲を示します。 次の表に、推奨されるソリューションを示します。
 
-この場合、インターネットのエンドポイントのすべてのメディアトラフィックは、直接 Cloud Connector エッジコンポーネントに流れることができます。 メディアパスは、ユーザーエンドポイント-\> Cloud Connector エッジになります。
+この場合、インターネットのエンドポイントのすべてのメディアトラフィックは、直接 Cloud Connector エッジコンポーネントに流れることができます。 メディアパスは、ユーザーエンドポイント- \> Cloud Connector エッジになります。
 
 > [!NOTE]
 > このソリューションは、ユーザーのエンドポイントが対称 NAT の背後にある場合は機能しません。
@@ -431,20 +431,20 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - Windows Update:[ソフトウェア更新プログラム用にファイアウォールを構成する方法](https://technet.microsoft.com/library/bb693717.aspx)
 
-- Skype for Business Online 管理者 PowerShell \*:. online.lync.com
+- Skype for Business Online 管理者 PowerShell: \* . online.lync.com
 
     この宛先にプロキシ除外が必要な場合は、WinHTTP バイパス一覧に追加する必要があります。
 
-- Cloud Connector の更新プログラム:[ダウンロードセンター](https://aka.ms/CloudConnectorInstaller)、 [https://go.microsoft.com](https://go.microsoft.com)、および[https://download.microsoft.com](https://download.microsoft.com)
+- Cloud Connector の更新プログラム:[ダウンロードセンター](https://aka.ms/CloudConnectorInstaller)、 [https://go.microsoft.com](https://go.microsoft.com) 、および[https://download.microsoft.com](https://download.microsoft.com)
 
 ### <a name="dns-name-resolution-for-the-edge-component"></a>エッジコンポーネントの DNS 名の解決
 <a name="BKMB_Ports"> </a>
 
-エッジコンポーネントは、Office 365 サービスの外部名と他の Cloud Connector コンポーネントの内部名を解決する必要があります。
+エッジコンポーネントは、Microsoft 365 または Office 365 サービスの外部名と他の Cloud Connector コンポーネントの内部名を解決する必要があります。
 
 各エッジコンポーネントは、外部および内部接続インターフェイスを備えたマルチホームのコンピューターです。 Cloud Connector は、境界ネットワーク内のドメインコントローラーコンポーネントに DNS サーバーを展開します。 エッジサーバーは、すべての名前解決のために境界内の DNS サーバーをポイントできますが、クラウドコネクタ DNS サーバーが外部名を解決できるようにするには、1つ以上の DNS A レコードを含む DNS ゾーンを、他のパブリック DNS サーバーに名前参照を参照する外部クエリに設定する必要があります。
 
-.Ini ファイルでは、SIP ドメインと同じドメイン空間にあるゲートウェイの FQDN 名を設定すると、この SIP ドメインの権限のある領域が境界内の DNS サーバーに作成されます。 エッジサーバーがこの DNS サーバーを指して名前を解決している場合、エッジは _sipfederationtls を解決しません。\<yourdomain\> DNS レコード。通話フローに必要です。 この場合、Microsoft では、インターネット名参照を解決するためにエッジの外部インターフェイスに DNS サーバーを提供することをお勧めします。また、各エッジコンポーネントは、ホストファイルを使用して、他の Cloud Connector コンポーネント名を IP アドレスに解決する必要があります。
+.Ini ファイルでは、SIP ドメインと同じドメイン空間にあるゲートウェイの FQDN 名を設定すると、この SIP ドメインの権限のある領域が境界内の DNS サーバーに作成されます。 エッジサーバーがこの DNS サーバーを指して名前を解決している場合、エッジは _sipfederationtls を解決しません。 \<yourdomain \> DNS レコード。通話フローに必要です。 この場合、Microsoft では、インターネット名参照を解決するためにエッジの外部インターフェイスに DNS サーバーを提供することをお勧めします。また、各エッジコンポーネントは、ホストファイルを使用して、他の Cloud Connector コンポーネント名を IP アドレスに解決する必要があります。
 
 > [!NOTE]
 > セキュリティ上の理由から、クラウドコネクタの DNS サーバーが名前解決のために実稼働ドメインの内部サーバーをポイントしないようにすることをお勧めします。
@@ -455,7 +455,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 最初に、次の一般的な展開パラメーターを定義する必要があります。
 
 
-|**アイテム**|**説明**|**メモ**|
+|**Item**|**説明**|**メモ**|
 |:-----|:-----|:-----|
 |SIP ドメイン  <br/> |会社のユーザーが使用している SIP URI。 この展開で提供されるすべての SIP ドメインを指定します。 複数の SIP ドメインを持つことができます。  <br/> ||
 |PSTN サイト数  <br/> |展開される PSTN サイトの数。  <br/> ||
@@ -479,8 +479,8 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |仮想マシンのドメイン名  <br/> |Cloud Connector の内部コンポーネントのドメイン名。 このドメインは、運用ドメインとは別のものである必要があります。 この名前は、すべての Cloud Connector アプライアンスで同じである必要があります。  <br/> .Ini ファイルでの名前: "VirtualMachineDomain"  <br/> |. ローカルドメインが優先されます。  <br/> |
 |Cloud Connector ドメインコントローラー名  <br/> |ドメインコントローラーの名前。  <br/> .Ini ファイルでの名前: "ServerName"  <br/> |15文字以下にする必要があります。 Netbios 名のみを入力します。  <br/> |
 |Cloud Connector ドメインコントローラー IP/サブネットマスク  <br/> |ドメインコントローラーの IP アドレス。  <br/> .Ini ファイルでの名前: "IP"  <br/> ||
-|O365 Online サービスの Fqdn  <br/> |世界規模の O365 インスタンスでは、ほとんどの場合、既定値である必要があります。  <br/> .Ini ファイルでの名前: "OnlineSipFederationFqdn"  <br/> ||
-|SiteName  <br/> |Skype for Business サイト名。たとえば、シアトルというようになります。  <br/> .Ini ファイルでの名前: "SiteName"  <br/> リリース1.4.1 以降では、サイト名がサイトごとに異なる必要があり、名前は Office 365 で定義されている PSTN サイト (存在する場合) と一致する必要があります。 サイト内の最初のアプライアンスを登録すると、PSTN サイトが自動的に作成されることに注意してください。  <br/> ||
+|Microsoft 365 または Office 365 Online サービス Fqdn  <br/> |世界中の Microsoft 365 または Office 365 インスタンスでは、ほとんどの場合、既定値である必要があります。  <br/> .Ini ファイルでの名前: "OnlineSipFederationFqdn"  <br/> ||
+|SiteName  <br/> |Skype for Business サイト名。たとえば、シアトルというようになります。  <br/> .Ini ファイルでの名前: "SiteName"  <br/> リリース1.4.1 以降では、サイト名がサイトごとに異なる必要があります。また、名前は、存在する場合は、(Microsoft 365 または Office 365 で定義された) PSTN サイトと一致する必要があります。 サイト内の最初のアプライアンスを登録すると、PSTN サイトが自動的に作成されることに注意してください。  <br/> ||
 |ハードウェアの種類  <br/> リリース1.4.1 以降  <br/> |ハードウェアの種類。 既定値は Normal です。 最小値に設定することもできます。  <br/> ||
 |Country Code  <br/> |ダイヤルの国番号。  <br/> .Ini ファイルでの名前: "CountryCode"  <br/> ||
 |都市  <br/> |City (省略可能)。  <br/> .Ini ファイルでの名前: "City"  <br/> ||
@@ -511,8 +511,8 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |メディアリレー名  <br/> |オーディオビデオメディアリレーエッジの名前。たとえば、「MR」とします。 1つの外部プール名がプール内のすべてのエッジコンポーネントに対して使用されます。 PSTN サイトごとに1つのエッジメディアリレープールが必要です。  <br/> .Ini ファイルでの名前: "Parameters for a pool of Edge Servers" の "ExternalMRFQDNPoolName"  <br/> |15文字以下にする必要があります。 Netbios 名のみを入力します。  <br/> |
 |メディアリレーエッジの外部 IP  <br/> |現時点では1つの IP のみがサポートされているため、これはアクセスエッジと同じ IP になります (マッピングされている場合は、両方のアドレスを指定してください)。 アクセスエッジのエッジコンポーネントの外部 IP と同じアドレスにすることができます。 注エッジが NAT の背後にある場合は、次のパラメーターの値も指定する必要があります。  <br/> .Ini ファイルでの名前: "Parameters for a pool of Edge Servers" の "ExternalMRIPs"  <br/> ||
 |メディアリレーエッジの外部 IP (エッジが NAT の背後にある場合)  <br/> |エッジが NAT の背後にある場合は、NAT デバイスのパブリックアドレスも指定する必要があります。  <br/> .Ini ファイルでの名前: "Parameters for a pool of Edge Servers" の "ExternalMRPublicIPs"  <br/> ||
-|音声ゲートウェイ1の製造元とモデル  <br/> |SBC/Voice gateway の製造元とモデルを指定します。 デバイスまたは SIP トランクは、テスト済みのデバイスのリストから接続できること[https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP)に注意してください。  <br/> ||
-|音声ゲートウェイ2の製造元とモデル (3 つ以上のゲートウェイがある場合はこの行をコピーしてください)  <br/> |音声ゲートウェイの製造元とモデルを指定します。 で[https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP)デバイスをテストしたデバイスのリストから接続できることに注意してください。  <br/> ||
+|音声ゲートウェイ1の製造元とモデル  <br/> |SBC/Voice gateway の製造元とモデルを指定します。 デバイスまたは SIP トランクは、テスト済みのデバイスのリストから接続できることに注意 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) してください。  <br/> ||
+|音声ゲートウェイ2の製造元とモデル (3 つ以上のゲートウェイがある場合はこの行をコピーしてください)  <br/> |音声ゲートウェイの製造元とモデルを指定します。 でデバイスをテストしたデバイスのリストから接続できることに注意 [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP) してください。  <br/> ||
 |音声ゲートウェイ1の名前  <br/> |AD ドメインを使用してコンピューターの FQDN を生成するために使用されます。 仲介コンポーネントと音声ゲートウェイ間で TLS を使用する場合に必要です。 FQDN の使用を計画しない場合、たとえば、TLS が必要ない、または音声ゲートウェイが FQDN (IP のみ) を使用した接続をサポートしていない場合は、を指定してください。  <br/> ||
 |音声ゲートウェイ2の名前 (3 つ以上のゲートウェイがある場合はこの行をコピーしてください)  <br/> |AD ドメインを使用してコンピューターの FQDN を生成するために使用されます。 仲介コンポーネントと音声ゲートウェイ間で TLS を使用する場合に必要です。 FQDN の使用を計画しない場合、たとえば、TLS が必要ない、または音声ゲートウェイが FQDN (IP のみ) を使用した接続をサポートしていない場合は、を指定してください。  <br/> ||
 |音声ゲートウェイ1の IP アドレス  <br/> |音声ゲートウェイの IP アドレス。  <br/> ||
@@ -530,11 +530,11 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |仮想マシンの管理者パスワード  <br/> バージョン1.4.2 のみ  <br/> |展開中に管理ネットワークを構成するために使用します。  <br/> ユーザー名は管理者です。 ユーザー名を変更することはできません。  <br/> ||
 |CABackupFile  <br/> バージョン2.0 以降  <br/> |Cloud Connector サイトに複数のアプライアンスを展開するときに、Active Directory サーバーからファイルに証明機関サービスを保存するために使用します。 CA バックアップファイルを新しい追加アプライアンスに正常にインポートするために、1つの Cloud Connector サイト内のすべてのアプライアンスで同じパスワードを使用してください。  <br/> ||
 |CCEService  <br/> バージョン2.0 以降  <br/> |Cloud Connector Management service で使用されます。Cloud Connector サイトディレクトリへのアクセスが必要です。 1つの Cloud Connector サイト内のすべてのアプライアンスで同じパスワードを使用してください。  <br/> ||
-|Office 365 テナント管理者  <br/> | このアカウントは cloud Connector によって使用され、Cloud Connector のテナント設定を更新して管理します。 <br/>  バージョン2.0 以降: Skype for Business の管理者権限を持つ専用 Office 365 アカウントの資格情報。 <br/>  2.0 より前のバージョン: グローバルテナント管理者権限を持つ専用 Office 365 アカウントの資格情報。 <br/> ||
+|Microsoft 365 または Office 365 テナント管理者  <br/> | このアカウントは cloud Connector によって使用され、Cloud Connector のテナント設定を更新して管理します。 <br/>  バージョン2.0 以降: Skype for Business の管理者権限を持つ専用の Microsoft 365 または Office 365 アカウントの資格情報。 <br/>  2.0 以前のバージョン: グローバルテナント管理者権限を持つ専用の Microsoft 365 または Office 365 アカウントの資格情報。 <br/> ||
 |参照サポートを有効にする  <br/> |これにより、IP/PBX へのトランク構成で SIP 参照サポートが有効か無効かが定義されます。 既定値は True です。 IP/PBX ゲートウェイが参照サポートをサポートしている場合は、True のままにしてください。 そうでない場合は、この値を False に変更する必要があります。 ゲートウェイが参照をサポートしているかどうかがわからない場合は、「認定された[IP-pbx とゲートウェイ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)」を参照してください。   <br/> ||
 |EnableFastFailoverTimer  <br/> バージョン2.0 以降  <br/> |既定値の "True" の場合、送信呼び出しが10秒以内にゲートウェイによって応答されないと、次に使用可能なゲートウェイにルーティングされます。追加のトランクがない場合は、呼び出しは自動的に削除されます。  <br/> ただし、ネットワークとゲートウェイの応答が遅い組織や、呼び出しを確立するプロセスに10秒以上かかる場合は、呼び出しが不必要に削除される可能性があります。  <br/> UAE またはアフガニスタンなどの一部の国に電話をかける場合、通話の確立プロセスに10秒以上かかることがあります。 同様の問題が発生した場合は、値を False に変更する必要があります。 接続された SBC またはゲートウェイの対応する設定を忘れずに変更してください。  <br/> この値は、True または False にすることができます。 既定値は True です。  <br/> ||
 |ForwardCallHistory  <br/> バージョン2.0 以降  <br/> | このパラメーターは、初回呼び出しの報告に使用される SIP ヘッダーを同時呼び出し、着信転送、および通話転送シナリオで有効にするために使用されます。 パラメーターを True に設定すると、2つの SIP ヘッダーが有効になります。 <br/>  履歴-情報 <br/>  参照元 <br/>  History-Info ヘッダーは、SIP 要求を再ターゲットするためのものです。また、要求履歴情報をキャプチャするための標準的なメカニズムを使用して、ネットワークやエンドユーザーにさまざまなサービスを提供することができます ([RFC 4244-セクション 1.1](http://www.ietf.org/rfc/rfc4244.txt))。 Cloud Connector トランクインターフェイスの場合、これは切り替わりおよび着信転送シナリオで使用されます。  <br/>  この値は、True または False にすることができます。 既定値は False です。 <br/> ||
-|転送パラレル  <br/> バージョン2.0 以降  <br/> |PAI は、sip サーバーが認証されたユーザーの id をアサートできるようにする、SIP のプライベート拡張機能です。 SIP トランクプロバイダーでは、履歴情報と参照元ヘッダーが存在しない場合に、PAI を使用して、請求書を目的として使用することができます。 構成で P が有効になっている Id を転送すると、仲介サーバーは、SIP &amp; Tel URI を含む pai ヘッダーを Cloud CONNECTOR から sip トランクに転送します。 仲介サーバーは、SIP トランクでクラウドコネクタに対して&amp;受信した tel URI の e.164 番号を使用して pai ヘッダーを転送します。 また、仲介サーバーは、いずれかの方向で受信したすべてのプライバシーヘッダーを転送します。 仲介サーバーによって送信された SIP 要求に、PAI ヘッダーと共に "Privacy: id" という形式のプライバシーヘッダーが含まれている場合、アサートされた id は、ネットワーク信頼ドメイン外のプライベートに保持する必要があります。  <br/> この値は、True または False にすることができます。 既定値は False です。  <br/> ||
+|転送パラレル  <br/> バージョン2.0 以降  <br/> |PAI は、sip サーバーが認証されたユーザーの id をアサートできるようにする、SIP のプライベート拡張機能です。 SIP トランクプロバイダーでは、履歴情報と参照元ヘッダーが存在しない場合に、PAI を使用して、請求書を目的として使用することができます。 構成で P が有効になっている Id を転送すると、仲介サーバーは、SIP Tel URI を含む PAI ヘッダーを &amp; Cloud Connector から Sip トランクに転送します。 仲介サーバーは、 &amp; SIP トランクでクラウドコネクタに対して受信した TEL URI の e.164 番号を使用して PAI ヘッダーを転送します。 また、仲介サーバーは、いずれかの方向で受信したすべてのプライバシーヘッダーを転送します。 仲介サーバーによって送信された SIP 要求に、PAI ヘッダーと共に "Privacy: id" という形式のプライバシーヘッダーが含まれている場合、アサートされた id は、ネットワーク信頼ドメイン外のプライベートに保持する必要があります。  <br/> この値は、True または False にすることができます。 既定値は False です。  <br/> ||
 
 ### <a name="certificate-requirements"></a>証明書の要件
 <a name="BKMK_Certs"> </a>
@@ -550,14 +550,14 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
-- **オプション2。** 展開するすべてのエッジプールサーバーで1つのワイルドカード証明書を使用する場合は、証明書のエッジプール名\*の代わりに、sipdomain.com のワイルドカード SAN エントリを使用できます。 サブジェクト名は、展開した任意のエッジプールのアクセスエッジプール名にすることができます。
+- **オプション2。** 展開するすべてのエッジプールサーバーで1つのワイルドカード証明書を使用する場合は、 \* 証明書のエッジプール名の代わりに、sipdomain.com のワイルドカード SAN エントリを使用できます。 サブジェクト名は、展開した任意のエッジプールのアクセスエッジプール名にすることができます。
 
   ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
 > [!NOTE]
-> Sip の外部 DNS エントリを作成することはできません。\<microsoft.rtc.management.xds.sipdomain\>この名前は Office 365 展開に属しているためです。
+> Sip の外部 DNS エントリを作成することはできません。 \<\>この名前は、Microsoft 365 または Office 365 の展開に属しているため、microsoft.rtc.management.xds.sipdomain。
 
 > [!NOTE]
 > 組織内に展開されているすべてのエッジプールに対して単一の証明書を使用し、オプション2で定義されたワイルドカード証明書を使用できない場合は、証明書の SAN 名に展開されているすべてのエッジプールの FQDN を含める必要があります。
@@ -573,7 +573,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
-- <strong>オプション2。</strong>展開するすべてのエッジプールサーバーで1つのワイルドカード証明書を使用する場合は、証明書のエッジプール名\*の代わりに、sipdomain.com のワイルドカード SAN エントリを使用できます。 サブジェクト名は、展開した任意のエッジプールのアクセスエッジプール名にすることができます。
+- <strong>オプション2。</strong>展開するすべてのエッジプールサーバーで1つのワイルドカード証明書を使用する場合は、 \* 証明書のエッジプール名の代わりに、sipdomain.com のワイルドカード SAN エントリを使用できます。 サブジェクト名は、展開した任意のエッジプールのアクセスエッジプール名にすることができます。
 
   ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
@@ -581,7 +581,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
   ```
 
 > [!NOTE]
-> Sip の外部 DNS エントリを作成することはできません。\<microsoft.rtc.management.xds.sipdomain\>この名前は Office 365 展開に属しているためです。
+> Sip の外部 DNS エントリを作成することはできません。 \<\>この名前は、Microsoft 365 または Office 365 の展開に属しているため、microsoft.rtc.management.xds.sipdomain。
 
 展開の目的に応じて、次の表を使用できます。
 
@@ -708,11 +708,11 @@ Cloud Connector 2.1 以降では、Operations Management Suite (OMS) を使用�
 
 詳細については、次のトピックを参照してください。
 
-- [Microsoft テレフォニーソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft テレフォニー ソリューション](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Skype for Business Cloud Connector エディションを構成および管理する](configure-skype-for-business-cloud-connector-edition.md)
 
-- [Cloud Connector エディションでメディアバイパスを計画する](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [Cloud Connector エディションでのメディア バイパスの計画](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [Cloud Connector エディションでのメディアバイパスの展開](deploy-media-bypass-in-cloud-connector.md)
 

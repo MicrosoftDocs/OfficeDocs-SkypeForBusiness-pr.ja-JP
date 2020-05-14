@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: IT プロフェッショナルに、Skype for business 2016、Skype for Business 2015、Lync 2013 クライアントの永続バージョンに関する最新の更新情報へのリンクを提供します。
-ms.openlocfilehash: 8a6008845c4218c8682a22cbab110551999d19cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f8ee4756c38f6917a814db1672b29db3c7f6ca6c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779703"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221881"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用する Skype for Business の最新バージョンの更新プログラム
 
@@ -25,14 +25,14 @@ ms.locfileid: "43779703"
 
 > [!NOTE]
 > - この記事の情報は、Windows インストーラー (MSI) インストールテクノロジを使用する、従来のバージョンの Skype for Business にのみ適用されます。 たとえば、Office Professional Plus 2016 に含まれている Skype for business などの、Skype for business のボリュームライセンス版をインストールした場合。
-> - この記事の情報は、Microsoft 365 Apps for enterprise に含まれている Skype for business など、Skype for business の Office 365 バージョンには適用されません。
+> - この記事に記載されている情報は、microsoft 365 または Office 365 バージョンの Skype for business には適用されません。たとえば、Microsoft 365 Apps for enterprise に付属している Skype for business などがあります。
 > - 最新のモバイルクライアント更新プログラムについては、モバイルクライアント (iTunes、Google Play、Microsoft Store) のアプリストアに移動して詳細を表示し、更新プログラムをインストールします。
 > - 使用している Skype for business のバージョンについては、「現在[のバージョンの skype](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016) for business について」を参照してください。
 > - Office の更新プログラムをインストールする手順については、「[Office の更新プログラムをインストールする](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)」を参照してください。
 
-Office 365 とオンプレミス環境との Skype for Business の互換性は、展開のシステム要件に依存します。
+Skype for Business の Microsoft 365 または Office 365 とオンプレミス環境との互換性は、展開のシステム要件に依存します。
 
-- Office 365 は、メインストリームサポートのすべてのバージョンの Skype for business で動作します。これには、最新バージョンの Skype for business 2016 が含まれています。 以前のバージョンの Skype for business では、拡張サポートを使用しているユーザーのみが Office 365 を引き続き使用できます。ただし、機能が制限されます。 詳細については、「 [Microsoft ライフサイクルポリシー](https://support.microsoft.com/lifecycle)」を参照してください。
+- Microsoft 365 と Office 365 は、主流サポートされているすべてのバージョンの Skype for business と連携して動作します。これには、最新バージョンの Skype for Business 2016 が含まれています。 以前のバージョンの Skype for business では、拡張サポートを利用しているユーザーのみが、Microsoft 365 または Office 365 を引き続き使用することができますが、機能が制限されています。 詳細については、「 [Microsoft ライフサイクルポリシー](https://support.microsoft.com/lifecycle)」を参照してください。
 
 - Skype for Business Server のオンプレミス展開の場合は、お使いの Skype for business のバージョンのシステム要件に従います。
 

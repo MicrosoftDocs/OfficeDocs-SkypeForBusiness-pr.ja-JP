@@ -11,52 +11,52 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
-description: このトピックでは、Skype for Business ソフトウェア ボリューム ライセンスがあるかどうかを確認する方法について説明します。
-ms.openlocfilehash: 5de1fc9204e22b30431f692770e3ec663599dd73
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: このトピックでは、Skype for Business ソフトウェアボリュームライセンスがあるかどうかを確認する方法について説明します。
+ms.openlocfilehash: a44e95d8cd488e2b12e03ee9848ef3d1b254180c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768480"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220927"
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>Skype Room System: Skype for Business ソフトウェア ライセンス
+# <a name="skype-room-system-skype-for-business-software-license"></a>Skype Room System: Skype for Business ソフトウェアライセンス
  
-このトピックでは、Skype for Business ソフトウェア ボリューム ライセンスがあるかどうかを確認する方法について説明します。 
+このトピックでは、Skype for Business ソフトウェアボリュームライセンスがあるかどうかを確認する方法について説明します。 
   
-Skype Room System はインストールされた Skype for Business クライアントを使用します。これにはソフトウェアボリュームライセンスが必要です。 最初の Skype Room システムを展開する前に、キー管理サーバー (KMS) または複数のライセンス認証キー (MAK) を使用した展開のボリュームライセンスの状態を確認してください。
+Skype Room System は、インストールされている Skype for Business クライアントを使用します。これにはソフトウェアボリュームライセンスが必要です。 最初の Skype Room System を展開する前に、キー管理サーバー (KMS) またはマルチライセンス認証キー (MAK) を使用して、展開のボリュームライセンスの状態を確認してください。
   
 ## <a name="key-management-servers-kms"></a>キー管理サーバー (KMS)
 
-KMS が設定されていて、Skype for business ボリュームライセンスのライセンス認証が行われると、skype Room システムは自動的に Skype for Business クライアントをアクティブ化します。 KMS が配置されているかどうかを確認するには、次の手順を実行します。
+KMS が設定されている場合、Skype for Business ボリュームライセンスのライセンス認証が配布されると、skype Room System は自動的に Skype for Business クライアントをアクティブにします。 KMS が適切であるかどうかを確認するには、次のようにします。
   
-コマンドプロンプトで次を実行します。`nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
+コマンドプロンプトで、次を実行します。`nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
-詳細については、「 [DNS を使用して Office および Windows の KMS ホストを見つけて、未承認のインスタンスを削除する方法](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx)」を参照してください。 
+詳細については、「DNS を使用して[Office および WINDOWS KMS ホストを検出して、権限のないインスタンスを削除する方法](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx)」を参照してください。 
   
-KMS をセットアップするには、「 [office 2013 および GVLKs の kms のライセンス](https://technet.microsoft.com/library/ee624357.aspx)認証と[Office 2013 の Active Directory のライセンス認証を](https://technet.microsoft.com/library/dn385360.aspx)行う」を参照してください。
+Kms をセットアップするには、「 [office 2013 の kms ライセンス認証](https://technet.microsoft.com/library/ee624357.aspx)」および「 [OFFICE 2013 の Kms と Active Directory ライセンス認証用の GVLKs](https://technet.microsoft.com/library/dn385360.aspx) 」を参照してください。
   
-Lync 用の Office 2013 汎用ボリュームライセンスキー: 23BNTT 3G-KDQW3-TCK7R (このキーによって、Skype Room System がネットワーク上の KMS を検索します)。
+Office 2013 の一般的なボリュームライセンスキー Lync: 23BNTT KDQW3-TCK7R (このキーを使用すると、Skype Room System によってネットワーク上の KMS が検索されます)。
   
-## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>ボリューム ライセンス サービス センター (VLSC) からのマルチ ライセンス認証キー (MAK)
+## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>ボリュームライセンスサービスセンター (VLSC) からのマルチライセンス認証キー (MAK)
 
-顧客が他のボリューム ライセンス ソフトウェアを使用している場合、IT 部門では VLSC を使用してソフトウェア ライセンス認証およびボリューム ライセンス契約 (VLA) を管理します。 これにより、会社は skype for Business VL のライセンス認証を購入することもできます。その後、会社は Skype Room System 管理コンソールで入力の MAK を取得できます。
+お客様が他のボリュームライセンスソフトウェアを使用している場合は、IT 部門が VLSC を使用してソフトウェアのライセンス認証とボリュームライセンス契約 (VLA) を管理します。 これにより、会社で skype for Business VL ライセンス認証を購入できるようになります。これにより、会社は Skype Room System 管理コンソールで入力の MAK を取得することができます。
   
-VLA を保持する顧客は、契約を管理し、MAK を取得するために使用する自身の VLSC 資格情報を確認する必要があります。 未定の場合、お客様の財務部門は、お客様が VLA の支払いを行ったかどうかを確認できます。
+VLA を使用しているお客様は、VLSC の資格情報を知っている必要があります。これは、契約を管理し、MAK を取得するために使用されます。 ご不明な場合は、お客様の財務部門が、VLA に対してお客様が支払ったかどうかを確認できる必要があります。
   
-MAK を取得するには、ボリューム ライセンス サービス センターにアクセスして契約を表示し、プロダクト キー (MAK) をダウンロードしてください。 詳細については、[ボリュームライセンスサービスセンター](https://www.microsoft.com/Licensing/servicecenter/default.aspx)を参照してください。 
+MAK を取得するには、ボリュームライセンスサービスセンターにアクセスして、契約書を表示し、プロダクトキー (MAK) をダウンロードします。 詳細については、[ボリュームライセンスサービスセンター](https://www.microsoft.com/Licensing/servicecenter/default.aspx)にアクセスしてください。 
   
-## <a name="mak-for-office-365-without-vlsc-access"></a>VLSC アクセスのない Office 365 用の MAK
+## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>VLSC アクセスなしの MAK for Microsoft 365 または Office 365
 
-お客様がボリュームライセンス契約を持っていない場合、Skype for Business のライセンス認証は、より簡単に管理することが難しくなります。 ただし、VLSC アクセスのない Office 365 のお客様は、次の情報を Skype Room システムを販売する OEM に提供することにより、プロモーションの MAK を取得できます。
+お客様がボリュームライセンス契約を所有していない場合は、Skype for Business のライセンス認証をより簡単に管理できます。 ただし、Microsoft 365 および Office 365 のお客様は、VLSC アクセスを行わない場合は、Skype Room System を販売している OEM に次の情報を提供することで、販促用の MAK を取得できます。
   
 - 会社名
     
-- 展開の連絡先名、メール、および電話番号
+- 展開連絡先の名前、電子メール、電話番号
     
-- 展開されたシステムの数
+- 展開されているシステムの数
     
 - 展開日
     
-- 顧客が Microsoft のテクニカルアカウントマネージャーを持っている場合、TAM の名前と連絡先情報
+- お客様が Microsoft テクニカルアカウントマネージャーを持っている場合は、TAM の名前と連絡先情報
     
 

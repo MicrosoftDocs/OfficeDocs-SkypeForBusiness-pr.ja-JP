@@ -12,51 +12,51 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
-description: '概要: Skype for Business Server を管理および管理する方法については、以下のリンクを参照してください。'
-ms.openlocfilehash: b02fba1db57498b0cda6b8d50e4ac631b82755ea
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server を管理および管理する方法については、次のリンクを参照してください。'
+ms.openlocfilehash: 22580e7005c3f7161d3161ddd14ee20b1be5b98d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817566"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221711"
 ---
 # <a name="manage-skype-for-business-server"></a>Skype for Business Server の管理 
 
-**概要:** Skype for Business Server を管理および管理する方法については、次のリンクを参照してください。
+**概要:** Skype for Business Server を管理および保守する方法については、次のリンクを参照してください。
   
-Skype for Business Server は、エンタープライズレベルのコラボレーションの要件をサポートできる、インスタント メッセージング (IM)、プレゼンス、会議、ビデオ、およびテレフォニーのソリューションを提供します。 このトピックでは、Skype for Business Server の展開を構成、監視、および管理する方法に関する情報へのリンクを提供します。 
+Skype for Business Server には、エンタープライズレベルのコラボレーション要件をサポートできるインスタントメッセージング (IM)、プレゼンス、会議、ビデオ、テレフォニーのソリューションが用意されています。 ここでは、Skype for Business Server の展開を構成、監視、および管理する方法に関する情報へのリンクを提供します。 
   
-記事は、情報の新規公開やユーザーからのフィードバックに応じて随時更新されます。 このページは頻繁に更新されるので、随時にチェックしてください。
+これらの記事は、新しい情報が入り次第、またユーザーのフィードバックに基づいて随時更新されます。 このページは頻繁に更新されるため、よく確認してください。
 
-## <a name="visual-resources-about-how-to-manage-skype-for-business-server"></a>Skype for Business Server を管理する方法に関するビジュアルリソース
+## <a name="visual-resources-about-how-to-manage-skype-for-business-server"></a>Skype for Business Server の管理方法に関するビジュアルリソース
 
-Skype for Business Server を管理する方法については、次のリソースを参照してください。
+Skype for Business Server を管理する方法については、以下のリソースを参照してください。
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![技術図面のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |アーキテクチャの選択肢を大きな図で示します。  <br/> |
-|![ビデオのアイコン](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|ビデオのデモとトレーニング-*近*日公開  <br/> |Skype for Business Server 向けのビデオ プレゼンテーションやトレーニングが用意されています。  <br/> |
+|![技術ダイアグラムのアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Skype for Business Server の技術ダイアグラム](../technical-diagrams.md) <br/> |大判の図によって各アーキテクチャを一目で確認できます。  <br/> |
+|![ビデオのアイコン](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|ビデオのデモとトレーニング-近日中にご提供し*ます。*  <br/> |Skype for Business Server のビデオプレゼンテーションとトレーニングを検出します。  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>Skype for Business Server の管理に関する記事
 
-次の記事は、Skype for Business Server を構成、監視、管理する方法についての記事であり、オンラインで表示することができます。 
+Skype for Business Server を構成、監視、および管理する方法に関する以下の記事は、オンラインで読むことができます。 
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server でトポロジを管理する](topology/topology.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロールパネルと Skype for Business Server Management Shell を使用して、サーバーのアップグレード、更新、追加、削除を行うための段階的な手順について説明します。  <br/> |
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server で正常性と監視を管理する](health-and-monitoring/health-and-monitoring.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロールパネルと Skype for Business Server Management Shell を使用して実行できる監視および正常性構成タスクのステップバイステップの手順について説明します。  <br/> |
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server でアーカイブを管理する](archiving/archiving.md) <br/> |このセクションのトピックでは、skype for Business Server コントロールパネルと Skype for Business Server Management Shell を使用して、アーカイブオプションと Skype for business Server のユーザーポリシーを構成するための詳しい手順について説明します。  <br/> |
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 2015 での常設チャット サーバーの管理](persistent-chat/persistent-chat.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロールパネルと Skype for Business Server Management Shell を使用して、常設チャットサーバーを管理するための詳しい手順について説明します。  <br/> **注:** これは、Skype for Business 2015 のみでご利用いただけます。|
-|![数字による "方法" のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 管理シェル](management-shell.md) <br/> |このセクションのトピックでは、skype for business Server 管理シェルを使用して、Skype for Business Server を管理する方法について説明します。  <br/> |
+|![数値方法のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server でのトポロジの管理](topology/topology.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロールパネルと Skype for Business Server 管理シェルを使用して、サーバーをアップグレード、更新、追加、削除するための手順を順を追って説明します。  <br/> |
+|![数値方法のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server での正常性と監視の管理](health-and-monitoring/health-and-monitoring.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロールパネルと Skype for Business Server 管理シェルを使用して実行できる監視および正常性構成タスクの詳細な手順について説明します。  <br/> |
+|![数値方法のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server でのアーカイブの管理](archiving/archiving.md) <br/> |このセクションのトピックでは、skype for Business Server コントロールパネルと Skype for business Server 管理シェルを使用して、Skype for business server のアーカイブオプションとユーザーポリシーを構成するための手順を説明します。  <br/> |
+|![数値方法のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 2015 での常設チャットサーバーの管理](persistent-chat/persistent-chat.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロールパネルと Skype for Business Server 管理シェルを使用して常設チャットサーバーを管理するための手順を順を追って説明します。  <br/> **注:** これは、Skype for Business 2015 でのみ利用できます。|
+|![数値方法のアイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 管理シェル](management-shell.md) <br/> |このセクションのトピックでは、Skype for business Server 管理シェルを使用して Skype for Business Server を管理する方法について説明します。  <br/> |
    
-## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Skype for Business Server の計画に関するその他の参考資料
+## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Skype for Business Server の計画に関するその他のリソース
 
-Skype for Business Server の計画方法に関する次の参考資料がその他の専門部門から入手できます。 
+Skype for Business Server の計画方法に関する以下のリソースが、他の特定分野の専門家から提供されています。 
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![ドキュメントのアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server (IT 担当者向け)](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |リソースセンターにアクセスして、ビデオ、コミュニティサイト、ドキュメント、ダウンロードなどにアクセスします。 |
-|![開発者向けコンテンツのアイコン](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|開発者向け Skype for Business Server  <br/> |Skype for Business Server 用の開発者向けリソースとして、コード サンプル、トレーニング、SDK などが用意されています。 |
-|![ニュース、ブログなどのアイコン](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 テクニカルブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype チーム ブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Skype for Business Server を開発し、ドキュメントを提供しているチームからのお知らせを定期的にチェックしてください。  |
+|![ドキュメントのアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server (IT 担当者向け)](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |ビデオ、コミュニティサイト、ドキュメント、ダウンロードなどにアクセスするには、リソースセンターにアクセスしてください。 |
+|![開発者向けコンテンツのアイコン](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server (開発者向け)  <br/> |コードサンプル、トレーニング、Sdk など、Skype for Business Server の開発者向けリソースを見つけることができます。 |
+|![ニュース、ブログなどのアイコン](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更の管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype チームブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Skype for Business Server を作成してドキュメント化する teams からの最新ニュースを把握します。  |
    
 

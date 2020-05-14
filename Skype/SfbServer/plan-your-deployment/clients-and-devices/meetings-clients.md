@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT 担当者は、skype for business Server の計画時に Skype for Business Web App と Skype 会議アプリのサポート要件を確認する必要があります。 この記事は、これらのアプリのユーザーを対象としたものではありません。'
-ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30397c922dbc5bb8578714d70712f90d7e14ca4c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777792"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221047"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアントを計画する (Web アプリと会議アプリ)
  
@@ -33,14 +33,14 @@ Skype for Business Server を実装したら、組織のユーザーには、展
 後で、これらのユーザーは会議を作成し、組織外からユーザーを招待することができます。また、会議の出席者は、どのバージョンの Skype for Business クライアントも使用していない場合があります。 これらのユーザーが会議出席依頼の URL をクリックすると、クライアントが存在しないことが検出され、会議に参加できるように、会議専用クライアントをダウンロードしてインストールするように求められます。
   
 > [!NOTE]
-> Skype for Business Web App と Skype 会議アプリは、Skype for business を使用せずに会議にログインしようとした場合にのみ使用できます。 これらのアプリのユーザーヘルプは[https://aka.ms/smahelp](https://aka.ms/smahelp)、にあります。 
+> Skype for Business Web App と Skype 会議アプリは、Skype for business を使用せずに会議にログインしようとした場合にのみ使用できます。 これらのアプリのユーザーヘルプは [https://aka.ms/smahelp](https://aka.ms/smahelp) 、にあります。 
   
 > [!NOTE]
 > Skype for Business Web App または Skype 会議アプリを事前にインストールすることはできませんが、[スマートフォン](https://products.office.com/skype-for-business/download-app?tab=tabs-1)や[タブレット](https://products.office.com/skype-for-business/download-app?tab=tabs-2)ユーザーは、会議に参加するために使用できる安価なモバイルクライアントをインストールすることができます。
   
 既定では、会議をホストしているサーバーは、会議に参加するために Skype for Business Web App をダウンロードしてインストールするようユーザーに指示します。 Skype for Business Web App はフロントエンドサーバーに格納され、会議の出席者に送信されます。 
   
-Skype for business Server の場合、skype 会議アプリ (Windows 上) および skype for Business for Mac (on Mac) は、CU5 で始まる skype for Business Web App の代替として使用できますが、代替アプリを提供するには、「 [Enable Skype 会議アプリを使用して skype For Business Web app を置き換える (オプション)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)」で説明されている追加の  Skype 会議アプリと Skype for Business for Mac が有効になっている場合、ユーザーは Skype for Business サーバーからではなく、Office 365 コンテンツ配信ネットワーク (CDN) から最新バージョンのアプリをダウンロードします。 Skype for Business Server 2019 では、Skype 会議アプリと Skype for Business for Mac を使用することが唯一のオプションです。
+Skype for business Server の場合、skype 会議アプリ (Windows 上) および skype for Business for Mac (on Mac) は、CU5 で始まる skype for Business Web App の代替として使用できますが、代替アプリを提供するには、「 [Enable Skype 会議アプリを使用して skype For Business Web app を置き換える (オプション)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)」で説明されている追加の Skype 会議アプリと Skype for Business for Mac が有効になっている場合、ユーザーは Skype for Business サーバーからではなく、Microsoft 365 または Office 365 コンテンツ配信ネットワーク (CDN) から最新バージョンのアプリをダウンロードします。 Skype for Business Server 2019 では、Skype 会議アプリと Skype for Business for Mac を使用することが唯一のオプションです。
   
 Skype 会議アプリは、Internet Explorer のユーザーにワンクリック参加を含む、アプリをダウンロードしてインストールし、会議に参加するための簡単なブラウザーの操作性を提供します。 また、skype 会議アプリは、信頼性と会議の機能のために Skype for Business Web App に関して多くの改良が加えられています。 
   
@@ -130,7 +130,7 @@ Skype for Business Web App または Skype 会議アプリのユーザーが会�
 |投票の実行  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |他のユーザーと共有するファイルをアップロードする  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |会議または電話会議の予約  <br/> |Outlook または Skype for Business Web Scheduler  <br/> |Outlook または Skype for Business Web Scheduler  <br/> |Skype for Business Web Scheduler  <br/> |Skype for Business Web Scheduler  <br/> |Skype for Business Web Scheduler  <br/> |
-|Q&amp;マネージャー  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Q &amp; マネージャー  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |出席者のビデオを無効にする  <br/> |&#x2714;|||||
 |会議 IM を無効にする  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |対象ユーザーをミュートにする  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|

@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: af578cf92f6c19e8ac612dfe8301914c9e55833b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836309"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224210"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
   
-発信者番号通知機能は、PSTN 接続に関係なくすべての電話システムのユーザーが使用できます。
+発信者番号機能は、PSTN 接続にかかわらず、すべての電話システムユーザーが利用できます。
   
 - オンラインの PSTN 接続
     
@@ -46,7 +46,7 @@ ms.locfileid: "41836309"
   
 ## <a name="outbound-caller-id"></a>発信側の発信者番号通知
 
-発信側の PSTN 発信者番号通知に使用できるオプションは次の 3 つです。
+送信 PSTN の発信者番号認識には、次の3つのオプションがあります。
   
 - ユーザーに割り当てられた電話番号。既定です。
     
@@ -62,11 +62,11 @@ ms.locfileid: "41836309"
     
 発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](/microsoftteams/set-the-caller-id-for-a-user)」を参照してください。
   
-### <a name="end-user-control-of-outbound-caller-id"></a>発信側の発信者番号通知のエンド ユーザー コントロール
+### <a name="end-user-control-of-outbound-caller-id"></a>発信の発信者番号のエンドユーザーによる制御
 
-EnableUserOverride 属性を使用すると、単独または複数のユーザーが発信者番号通知の設定を **非通知**に変更できます。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は False です。
+EnableUserOverride 属性を使うと、1人または複数のユーザーがその発信者番号設定を**匿名**に変更できます。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は False です。
   
-エンドユーザーは、Skype for Business デスクトップクライアントの [**設定**] タブを使用して、その発信者番号を**匿名**に設定できます。 [**エンドユーザー**に電話をかける (管理者によって有効になっている場合)] を選択し、[**すべての通話に対して電話番号とプロフィール情報を非表示**にする] を選びます。
+エンドユーザーは、Skype for Business デスクトップクライアントの [**設定**] タブを使用して、発信者番号を**匿名**に設定することができます。 [**エンドユーザーに通話**を発信する (管理者によって有効になっている場合)] を選び、[**すべての通話に対して電話番号とプロファイル情報を非表示に**する] を選択します。 Teams では、ユーザーは右上隅にある自分のプロファイル画像に移動して、[**設定**の呼び出し] を選び、[  >  **Calls****発信者**番号認識] で [**すべての通話に対して電話番号とプロファイル情報を非表示に**する] を選択します。
   
 ||||
 |:-----|:-----|:-----|
@@ -77,7 +77,7 @@ EnableUserOverride 属性を使用すると、単独または複数のユーザ�
 |MSI  <br/> |Skype for Business  <br/> |いいえ  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |いいえ  <br/> |
    
-## <a name="inbound-caller-id"></a>着信側の発信者番号通知
+## <a name="inbound-caller-id"></a>着信の発信者番号
 
 電話システムでは、番号が Azure AD のユーザーに関連付けられている場合は、外部電話番号の [ID] と表示されます。 電話番号が Azure AD にない場合は、電話会社が指定した表示名が表示されます (利用可能な場合)。
 
@@ -85,7 +85,7 @@ BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発�
   
 発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](/microsoftteams/set-the-caller-id-for-a-user)」を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ユーザー設定を移行し、ユーザーを Teams に移動する方法について説明します。'
-ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7b6925917cff3265280b88979660ad1289a63d12
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779683"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221377"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams にユーザーを移動する
 
@@ -61,17 +61,17 @@ Skype for business Server 2015 と CU8 の社内管理ツール、および Skyp
 
 Move-CsUser は、オンプレミスの Skype for Business 管理シェル PowerShell ウィンドウから入手できます。 以下の手順および必要なアクセス許可は、ユーザーを Skype for Business Online に移動する場合と同じですが、ユーザーには MoveToTeams スイッチも指定する必要があります。また、ユーザーにも (Skype for Business Online に加えて) Teams のライセンスが付与されていることを確認する必要があります。
 
-[必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境と Office 365 組織の両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始`-Credential`することができます。また、パラメーターを使用して、必要な office 365 管理者の役割を持つ office 365 アカウントの資格情報を指定することもできます。
+[必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)で説明されているように、オンプレミス環境とクラウドサービス (Microsoft 365 または Office 365) の両方に十分な特権を持っている必要があります。 両方の環境で権限を持つ単一のアカウントを使用するか、オンプレミスの資格情報を使用してオンプレミスの Skype for Business Server 管理シェルウィンドウを開始することができます。また、パラメーターを使用して、 `-Credential` 必要な管理役割を持つ Microsoft 365 または Office 365 アカウントの資格情報を指定することもできます。
 
 ユーザーを、CsUser を使用して Teams 専用モードに移行するには、次のようにします。
 
-- `Identity`パラメーターを使用して移動するユーザーを指定します。
-- 値が "sipfed" の-Target パラメーターを指定します。<span>com "。
-- `MoveToTeams`スイッチを指定します。
-- オンプレミスと Office 365 の両方に十分な権限を持つアカウントがない場合は、 `-credential`パラメーターを使用して、office 365 に十分な権限を持つアカウントを指定します。
-- Office 365 のアクセス許可を持つアカウントが "onmicrosoft" で終了していない場合。<span>com "では、「 `-HostedMigrationOverrideUrl` [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)」に説明されているように、適切な値を指定してパラメーターを指定する必要があります。
+- パラメーターを使用して移動するユーザーを指定し `Identity` ます。
+- 値が "sipfed <span> " の-Target パラメーターを指定します。com "。
+- スイッチを指定し `MoveToTeams` ます。
+- オンプレミスとクラウドサービス (Microsoft 365 または Office 365) の両方に十分な権限を持つアカウントがない場合は、パラメーターを使用して、 `-credential` Office 365 で十分な権限を持つアカウントを指定します。
+- Microsoft 365 または Office 365 のアクセス許可を持つアカウントが "onmicrosoft" で終了していない場合。 <span>com "では、「 `-HostedMigrationOverrideUrl` [必要な管理者の資格情報](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)」に説明されているように、適切な値を指定してパラメーターを指定する必要があります。
 
-次のコマンドレットシーケンスを使用して、ユーザーを TeamsOnly に移動できます。また、Office 365 資格情報が別のアカウントであると仮定して、資格情報の取得を求めるメッセージの入力として指定します。
+次のコマンドレットシーケンスを使用して、ユーザーを TeamsOnly に移動できます。また、Microsoft 365 または Office 365 の資格情報が別のアカウントであると仮定して、資格情報の取得を求めるプロンプトの入力として指定します。
 
   ```powershell
   $cred=Get-Credential
@@ -86,13 +86,13 @@ Move-CsUser は、オンプレミスの Skype for Business 管理シェル Power
 3. [**検索**] を使用して、Teams に移動するユーザーを検索します。
 4. ユーザーを選択し、リストの上にある**アクション**ドロップダウンから、[**選択したユーザーを Teams に移動**] を選択します。
 5. ウィザードで、[ **次へ**] をクリックします。
-6. メッセージが表示された場合は、onmicrosoft.com で終了し、十分な権限があるアカウントを使用して、Office 365 にサインインします。
+6. メッセージが表示された場合は、onmicrosoft.com で終了し、十分な権限があるアカウントを使用して、Microsoft 365 または Office 365 にサインインします。
 7. [**次へ**] をクリックし、[**次**へ] をもう一度クリックして、ユーザーを移動します。
 8. 成功または失敗に関するステータスメッセージは、ウィザードではなく、メインコントロールパネルアプリの上部に表示されることに注意してください。
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>今後 Teams に移行するために、Skype for Business のオンプレミスユーザーに通知する
 
-Skype for business Server 2015 と CU8 のオンプレミスの管理ツール、および Skype for Business Server 2019 では、今後 Teams への移行の際に社内の Skype for Business ユーザーに通知することができます。 これらの通知を有効にすると、ユーザーには、次に示すように、Skype for Business クライアント (Win32、Mac、web、およびモバイル) に通知が表示されます。 ユーザーが [**試す**] ボタンをクリックすると、Teams クライアントがインストールされている場合は起動されます。そうしないと、ユーザーはブラウザー内の Teams の web バージョンに移動します。 既定では、通知が有効になっている場合、Win32 Skype for Business クライアントは、ユーザーを Teams のみモードに移行する前に、リッチクライアントが使用可能になるように Teams クライアントをダウンロードします。ただし、この動作を無効にすることもできます。  通知はの`TeamsUpgradePolicy`社内バージョンを使用して構成され、Win32 クライアントのサイレントダウンロードは社内`TeamsUpgradeConfiguration`のコマンドレットによって制御されます。
+Skype for business Server 2015 と CU8 のオンプレミスの管理ツール、および Skype for Business Server 2019 では、今後 Teams への移行の際に社内の Skype for Business ユーザーに通知することができます。 これらの通知を有効にすると、ユーザーには、次に示すように、Skype for Business クライアント (Win32、Mac、web、およびモバイル) に通知が表示されます。 ユーザーが [**試す**] ボタンをクリックすると、Teams クライアントがインストールされている場合は起動されます。そうしないと、ユーザーはブラウザー内の Teams の web バージョンに移動します。 既定では、通知が有効になっている場合、Win32 Skype for Business クライアントは、ユーザーを Teams のみモードに移行する前に、リッチクライアントが使用可能になるように Teams クライアントをダウンロードします。ただし、この動作を無効にすることもできます。  通知はの社内バージョンを使用して構成され、 `TeamsUpgradePolicy` Win32 クライアントのサイレントダウンロードは社内のコマンドレットによって制御され `TeamsUpgradeConfiguration` ます。
 
 > [!TIP]
 > CU8 を使用して Skype for Business 2015 で動作するために、一部のサーバーで再起動が必要になることがあります。

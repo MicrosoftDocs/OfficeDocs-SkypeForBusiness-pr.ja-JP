@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: '概要: このトピックでは、Skype for Business Server の会議機能について説明します。'
-ms.openlocfilehash: feaa3dbbe3d05b09e3490ef160ceb21816ae7d5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1c67eecda6c7691dfbb042f4743733b73864a426
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780426"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221167"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Skype for Business Server での会議の計画
  
@@ -136,7 +136,7 @@ Skype for Business Server がサポートできる会議のサイズは、会議
     
 大規模な会議の管理の詳細については、「 [Skype For Business Server で大規模な会議を計画](large-meetings.md)する」を参照してください。
   
-組織で大規模な会議機能が必要な場合は、Office 365 の一部であるオンラインサービスである Skype 会議ブロードキャストを活用するハイブリッド環境の実装を検討する必要があります。 Skype 会議ブロードキャストを使用すると、ユーザーは最大1万参加者の大規模なオンラインユーザーに会議をホストしてブロードキャストすることができます。 Skype 会議ブロードキャストを使用するには、運用 Office 365 組織のハイブリッドセットアップで Skype for Business Server が既に構成されている必要があります。 すべてのユーザーは、前提条件として確立されたオンラインテナントを持っている必要があります。 Skype 会議ブロードキャストを利用できるハイブリッドソリューションの展開については、「 [Skype 会議ブロードキャスト用にオンプレミス展開を構成](../../deploy/configure-skype-meeting-broadcast.md)する」を参照してください。
+組織で大規模な会議機能が必要な場合は、Skype 会議ブロードキャストを利用するハイブリッド環境の実装を検討する必要があります。これには、Microsoft 365 および Office 365 の一部であるオンラインサービスが含まれます。 Skype 会議ブロードキャストを使用すると、ユーザーは最大1万参加者の大規模なオンラインユーザーに会議をホストしてブロードキャストすることができます。 Skype 会議ブロードキャストを使用するには、運用中の Microsoft 365 または Office 365 組織のハイブリッドセットアップで Skype for Business Server が既に構成されている必要があります。 すべてのユーザーは、前提条件として確立されたオンラインテナントを持っている必要があります。 Skype 会議ブロードキャストを利用できるハイブリッドソリューションの展開については、「 [Skype 会議ブロードキャスト用にオンプレミス展開を構成](../../deploy/configure-skype-meeting-broadcast.md)する」を参照してください。
   
 ## <a name="determine-your-organizations-needs"></a>組織のニーズを決定する
 

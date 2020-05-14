@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号を変更またはブロックする方法について説明します。
-ms.openlocfilehash: ff2f9a02bdf91eb6296dce03e426be673f83495a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: a4dbdbac0922bb475f47447a3cf8b2d0f001909c
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824545"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224262"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号ポリシーを管理する
 
@@ -40,20 +40,20 @@ ms.locfileid: "41824545"
 ## <a name="create-a-custom-caller-id-policy"></a>カスタム発信者番号ポリシーを作成する
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[音声]** > **[発信者番号ポリシー]** の順に移動します。
-2. **[追加]** をクリックします。
+2. **[追加]** をクリックします。 <br>
 ![管理センターの新しい [発信者番号ポリシー] ページのスクリーン ショット](media/caller-id-policies-add-policy.png)
 3. ポリシーの名前と説明を入力します。
 4. ここで、希望する設定を選びます。
 
     - **[Block incoming caller ID](着信した発信者番号をブロックする)**: この設定をオンにすると、着信した通話の発信者番号が表示されないようにブロックされます。
-    - **[Users can override the caller ID policy](ユーザーに発信者番号ポリシーの上書きを許可する)**: この設定をオンにすると、ユーザーは自分の番号が受信者に表示されるかどうかに関するポリシーの設定を上書きすることができます。 つまり、発信者番号を表示するかどうかをユーザー自身が選択できます。
-    - **[Replace caller ID](発信者番号を置換する)**: 次のいずれかを選択して、ユーザーに対して表示される発信者番号を設定します。
+    - **発信者番号ポリシーを無効**にする: この設定を有効にすると、ユーザーがポリシーの設定を上書きして、呼び出し先の番号を表示するかどうかを指定することができます。 つまり、発信者番号を表示するかどうかをユーザー自身が選択できます。 詳細については、「[発信の発信者番号のエンドユーザーによる制御](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id)」を参照してください。
+    - **発信者**番号認識の代わりに、次のいずれかを選択して、ユーザーに表示される発信者番号を設定します。
 
         - **[ユーザーの番号]**: ユーザーの番号を表示します。 
         - **[サービス番号]**: サービス電話番号が発信者番号として表示されるように設定できるようになります。
         - **[匿名]**: 発信者番号が [匿名] として表示されます。
 
-    - **[Service number to use to replace the caller ID](発信者番号の代わりに使用するサービス番号)**: ユーザーの発信者番号の代わりに使用するサービス番号を選択します。 このオプションは、**[Replace caller ID](発信者番号を置換する)** で **[サービス番号]** を選択した場合に使用できます。
+    - **発信者番号をこのサービス番号に変更**します。ユーザーの発信者番号を置き換えるサービス番号を選択します。 このオプションは、[発信者番号認識**の代わり**に**サービス番号**] を選択した場合に使用できます。
 
 5. **[保存]** をクリックします。
 

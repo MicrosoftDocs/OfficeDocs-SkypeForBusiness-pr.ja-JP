@@ -1,5 +1,5 @@
 ---
-title: Cloud Connector で単一のサイトを展開する
+title: Cloud Connector での単一サイトの展開
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Cloud Connector エディションに単一の PSTN サイトを展開する方法について説明します。
-ms.openlocfilehash: cc508d21f9e39c215ce3c07403ab75e791e2414a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779353"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220537"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>Cloud Connector で単一のサイトを展開する
+# <a name="deploy-a-single-site-in-cloud-connector"></a>Cloud Connector での単一サイトの展開
  
 Cloud Connector エディションに単一の PSTN サイトを展開する方法について説明します。
   
@@ -55,7 +55,7 @@ Install-CcAppliance
   
 1. 「 [Cloud connector アプライアンスを準備](prepare-your-cloud-connector-appliance.md)する」で説明されている手順に従って、cloud connector アプライアンスを準備します。 一部の手順は、展開の最初のアプライアンスに対してのみ必要になることに注意してください。 サイトディレクトリが存在し、HA サポート用に正しく構成されていることを確認します。
     
-2. Office 365 組織の構成のトポロジ情報を更新するには、新しく追加したホストサーバー上でのみ次のコマンドレットを実行します。 複数のアプライアンスを同時に追加する場合は、新しく追加した各ホストサーバー上でコマンドレットを1つずつ実行します。
+2. Microsoft 365 または Office 365 組織の構成のトポロジ情報を更新するには、新しく追加したホストサーバー上でのみ次のコマンドレットを実行します。 複数のアプライアンスを同時に追加する場合は、新しく追加した各ホストサーバー上でコマンドレットを1つずつ実行します。
     
    ```powershell
    Register-CcAppliance
@@ -80,7 +80,7 @@ Install-CcAppliance
 
 既存のサイトからアプライアンスを削除するには、次のようにします。
   
-1. Office 365 組織の構成のトポロジ情報を更新するには、サイトから削除するホストサーバー上でのみ、次のコマンドレットを実行します。
+1. サイトから削除するホストサーバー上でのみ次のコマンドレットを実行して、Microsoft 365 または Office 365 組織の構成のトポロジ情報を更新します。
     
    ```powershell
    Unregister-CcAppliance

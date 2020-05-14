@@ -1,5 +1,5 @@
 ---
-title: オンプレミスのエンタープライズボイスのユーザーを有効にする
+title: エンタープライズ Voip オンプレミスのユーザーを有効にする
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,43 +18,43 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
-description: ユーザーが Office 365 (クラウド PBX) で電話システムを使用するには、まず、エンタープライズボイスで電話システムを有効にして、電話番号を割り当てる必要があります。 これは、オンプレミスの展開を使用して、ユーザーがオンプレミスの展開をホームにしている場合に行われます。
-ms.openlocfilehash: 4409de1965fbcca641dde69d70c734d1bcd3a8b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ユーザーが電話システム (クラウド PBX) を使用するには、最初にエンタープライズ Voip に対して有効にし、電話番号を割り当てる必要があります。 これは、ユーザーがオンプレミス展開に所属している間に、オンプレミス展開を使用して実行します。
+ms.openlocfilehash: f02638f618b32190fafcded66550b5c3dcc52f2d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802297"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221701"
 ---
-# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>オンプレミスのエンタープライズボイスのユーザーを有効にする
+# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>エンタープライズ Voip オンプレミスのユーザーを有効にする
  
-ユーザーが Office 365 (クラウド PBX) で電話システムを使用するには、まず、エンタープライズボイスで電話システムを有効にして、電話番号を割り当てる必要があります。 これは、オンプレミスの展開を使用して、ユーザーがオンプレミスの展開をホームにしている場合に行われます。
+ユーザーが電話システム (クラウド PBX) を使用するには、最初にエンタープライズ Voip に対して有効にし、電話番号を割り当てる必要があります。 これは、ユーザーがオンプレミス展開に所属している間に、オンプレミス展開を使用して実行します。
   
-### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>エンタープライズ Voip のユーザーをオンプレミスにして電話番号を割り当てるには
+### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>エンタープライズ Voip オンプレミスでユーザーを有効にし、電話番号を割り当てるには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. スタート メニューかデスクトップ ショートカットを使用して、Skype for Business Server のコントロール パネルを開きます。
+2. [スタート] メニューまたはデスクトップショートカットを使用して、Skype for Business Server コントロールパネルを開きます。
     
-    また、ブラウザー ウィンドウを開いて管理 URL を入力し、Skype for Business Server のコントロール パネルを開くこともできます。
+    ブラウザーウィンドウを開き、管理者の URL を入力して Skype for Business Server コントロールパネルを開くこともできます。
     
-3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
+3. 左側のナビゲーション バーで **[ユーザー]** をクリックします。
     
-4. [**ユーザーの検索**] ボックスに、有効にするユーザー アカウントの表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) の全体か先頭の部分の文字列を入力して、[**検索**] をクリックします。
+4. **[ユーザーの検索]** ボックスに、有効にするユーザー アカウントの表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) の全体か最初の一部の文字列を入力して、**[検索]** をクリックします。
     
-5. 表で、エンタープライズ Voip を有効にする Skype for Business Online のユーザーアカウントをクリックします。
+5. 表で、エンタープライズ Voip を有効にする Skype for Business Online ユーザーアカウントをクリックします。
     
 6. [**編集**] メニューの [**詳細の表示**] をクリックします。
     
-7. [**テレフォニー**] の [**エンタープライズ VoIP**] をクリックします。
+7. [**テレフォニー**] で、[**エンタープライズ voip**] をクリックします。
     
-8. [**回線 URI**] をクリックし、正規化された一意の電話番号 (たとえば、tel:+14255550200) を入力して、[**確定**] をクリックします。
+8. [**回線 URI**] をクリックし、正規化された一意の電話番号 (たとえば、tel: + 14255550200) を入力します。 [**確定**] をクリックします。
     
-## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>エンタープライズボイスのオンプレミスのユーザーを有効にするときの特別な考慮事項
+## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>エンタープライズ Voip オンプレミスでユーザーを有効にするときの特別な考慮事項
 
-場合によっては、エンタープライズ VoIP でユーザーを有効にする方法を変更して、ユーザーが正常に発信および受信できることを確認する必要があります。 次の条件を満たすユーザーが展開に含まれている場合は、エンタープライズ Voip のユーザーを有効にするための手順を実行します。
+場合によっては、エンタープライズ Voip でユーザーを有効にする方法を変更して、確実に通話を発信および受信できるようにする必要があります。 次の条件を満たすユーザーが展開に含まれている場合は、そのユーザーのエンタープライズ Voip を有効にするための手順を実行します。
   
-- ユーザーがオンプレミスの広告で作成されていて、skype for business またはエンタープライズ voip を有効にせずに skype for business Online と同期していて、lineuri が設定されていない場合は、影響\< \>を受けるユーザーごとに次のコマンドレットを実行して、値を環境の実際の値に置き換えます。
+- オンプレミスの AD でユーザーが作成されていて、skype for business または Enterprise Voice が有効になっていない状態で Skype for Business Online と同期されており、LineURI が設定されていない場合は、影響を受けるユーザーごとに次のコマンドレットを実行し、その値を \< \> 環境の実際の値に置き換えます
     
   ```powershell
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
@@ -64,13 +64,13 @@ ms.locfileid: "41802297"
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- ユーザーがオンプレミスの Skype for Business に対して既に有効になっているが、エンタープライズ Voip では有効になっていない場合、または LineURI を割り当ててから Skype for Business Online に移行している場合は、ユーザーごとに次のコマンドレットを実行します。
+- ユーザーが既にオンプレミスの Skype for business に対して有効になっているが、エンタープライズ Voip が有効になっていない場合、または Skype for Business Online に移動する前に LineURI が割り当てられている場合は、ユーザーごとに次のコマンドレットを実行します。
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- ユーザーがオンプレミスの Skype for Business で既に有効になっているが、エンタープライズ Voip に対して有効になっていない場合は、既に LineURI が割り当てられていても、次のコマンドレットを実行します。
+- LineURI が既に割り当てられている場合でも、ユーザーがオンプレミスの Skype for Business で既に有効になっているが、エンタープライズ Voip が有効になっていない場合は、影響を受けるユーザーごとに次のコマンドレットを実行します。
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true
