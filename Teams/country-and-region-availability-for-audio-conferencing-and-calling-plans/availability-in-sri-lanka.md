@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Microsoft Office 365 サービスの Skype for Business および Microsoft Teams がスリランカで利用可能になっています。
-ms.openlocfilehash: 57055a4e379f7ecc77718da38514edc4ca241472
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: ここでは、Microsoft 365 と、microsoft Teams for スリランカで利用可能な Office 365 サービスをご紹介します。
+ms.openlocfilehash: 96a700cfa7917ca4b51c3fd4e65c831f77fd950f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852394"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230695"
 ---
 # <a name="availability-in-sri-lanka"></a>スリランカでの利用可能性
 
-電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
+[[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Microsoft Office 365 サービスの Skype for Business および Microsoft Teams がスリランカで利用可能になっています。
+ここでは、Microsoft 365 と、microsoft Teams for スリランカで利用可能な Office 365 サービスをご紹介します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -51,9 +51,9 @@ ms.locfileid: "41852394"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |利用可能  <br/> |
+| 自動応答 <br/> |連絡可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 
@@ -83,7 +83,7 @@ ms.locfileid: "41852394"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

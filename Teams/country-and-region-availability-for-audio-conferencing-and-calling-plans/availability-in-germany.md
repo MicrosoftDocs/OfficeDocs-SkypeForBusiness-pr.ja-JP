@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business の Office 365 サービスと、ドイツで利用できる Microsoft Teams について説明します。
-ms.openlocfilehash: af11dafc34947f2ef162252029795d1465f6d43a
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをドイツで利用できます。
+ms.openlocfilehash: 9a8c6675ec7116fb8e358c394fb54d169a56c432
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951202"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231166"
 ---
 # <a name="availability-in-germany"></a>ドイツでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business の Office 365 サービスと、ドイツで利用できる Microsoft Teams について説明します。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをドイツで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 

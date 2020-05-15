@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 517cea81f2cbe47f43fe38b2761b774f49c425c4
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041835"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230655"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -48,8 +48,8 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 |:---|:---|:---|
 |Audiocodes C450HD | C450HD_TEAMS_0.225 | 2019 年 3 月|
 |Audiocodes C448HD (CAP モードのみ) | C450HD_TEAMS_0.225 | 2019 年 3 月|
-|Crestron M100|2.3875.00068|2018 年 12 月|
-|Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |2019 年 1 月|
+|Crestron M100| この製品は廃止されました。 詳細については、「Crestron [M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T)の web サイトを参照してください。 | 5/11/2020 で廃止|
+|Crestron Flex UC-P100-T & UC-P110-T  | この製品は廃止されました。 詳細については、「Crestron it の web サイト」の「 [UC 携帯電話]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)」を参照してください。 |5/11/2020 で廃止|
 |Lenovo ThinkSmart View|CD-18781Y|2020年4月|
 |Poly CCX400 | 1.0.0.0200 | 2020 年 1 月|
 |Poly CCX600 | 5.9.12.1111| 2020 年 1 月|
@@ -86,3 +86,5 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 [Skype for Business および Microsoft Teams 認定プログラム](https://docs.microsoft.com/SkypeForBusiness/certification/overview)について理解します。
 
 [Microsoft Teams の電話と認定デバイスについて。](https://products.office.com/microsoft-teams/across-devices/devices)
+
+[チームと Skype の相互運用性](teams-skype-interop.md)

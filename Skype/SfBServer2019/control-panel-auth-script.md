@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: OAuth プロトコルを使用して Office 365 で SFB 2019 コントロールパネル認証を構成するヘルパースクリプト。
-ms.openlocfilehash: ad6c41c70cc885ca8eee2a19e7dcc4173ef714c2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: OAuth プロトコルを使用して、Microsoft 365 または Office 365 で SFB 2019 コントロールパネル認証を構成するヘルパースクリプト。
+ms.openlocfilehash: 92c13da1146698d130439c1f76e3885b561bec1b
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887726"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232598"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Skype for Business Server 2019 コントロールパネル認証スクリプト
 
-このスクリプトは、Skype for Business Server 2019 累積更新プログラム1をインストールした後、新しいコントロールパネルのセットアップの一部として実行する必要があります。 このスクリプトは、Azure で Azure AD アプリケーションを作成します。 これにより、新しいコントロールパネルで OAuth を使用して Office 365 にサインインすることができます。
+このスクリプトは、新しいコントロールパネルのセットアップの一部として、Skype for Business Server 2019 の累積的な更新プログラム1をインストールした後に実行する必要があります。 このスクリプトは azure に Azure AD アプリケーションを作成します。 これは、新しいコントロールパネルで OAuth を使用して Microsoft 365 または Office 365 にサインインするのに役立ちます。
 
 ```powershell
 <#
  .SYNOPSIS
- Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.
+ Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol.
 
  .DESCRIPTION
  Copyright (c) Microsoft Corporation. All rights reserved.

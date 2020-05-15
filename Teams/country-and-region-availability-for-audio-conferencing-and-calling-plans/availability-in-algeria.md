@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下に、Skype for Business の Office 365 サービスと、アルジェリアで利用できる Microsoft Teams を示します。
-ms.openlocfilehash: 22b099fcc5ca17328c3102b8491fa61ca1124bb7
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
+ms.openlocfilehash: 91a3f919bd35088baea1d742992e1da9e27cedd6
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853952"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230495"
 ---
 # <a name="availability-in-algeria"></a>アルジェリアで利用可能
 
-電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
+[[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-以下に、Skype for Business の Office 365 サービスと、アルジェリアで利用できる Microsoft Teams を示します。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -50,9 +50,9 @@ ms.locfileid: "41853952"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-|自動応答 <br/> |利用可能  <br/> |
+|自動応答 <br/> |連絡可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 
@@ -82,7 +82,7 @@ ms.locfileid: "41853952"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

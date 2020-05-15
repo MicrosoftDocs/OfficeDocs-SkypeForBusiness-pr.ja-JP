@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 緊急電話、緊急通話のルーティング、動的な緊急通話に関する情報など、緊急通話について説明します。
-ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c2de31aa81ac36338560c9b75d5c7ef27e460f8
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141030"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232548"
 ---
 # <a name="manage-emergency-calling"></a>緊急通話を管理する
 
@@ -90,7 +90,7 @@ Teams 管理センターの住所マップ検索機能を使用して、緊急�
 
 Microsoft 通話プランの動的な緊急通話には、Teams クライアントの現在の場所に基づいて緊急通話の構成とルーティングを行う機能が用意されています。 適切な公開安全性の応答ポイント (PSAP) に自動的にルーティングするか、またはセキュリティデスクの担当者に通知する機能は、Teams ユーザーの使用国によって異なります。  
 
-現時点では、米国内の通話プランのユーザーのみが緊急通話をルーティングするために、次のように動的な場所を活用できます。
+プランユーザのために、緊急通報の動的な場所は、次のように米国でのみサポートされています。 (動的な緊急通話と直接ルーティングの詳細については、「[直接ルーティングの考慮事項](#considerations-for-direct-routing)」を参照してください。
 
 - 米国の通話プランのユーザー向けの Teams クライアントで、米国内で緊急対応の住所が動的に取得される場合、その住所は登録アドレスではなく緊急ルーティングに使用され、住所のサービス領域の PSAP に自動的にルーティングされます。
 

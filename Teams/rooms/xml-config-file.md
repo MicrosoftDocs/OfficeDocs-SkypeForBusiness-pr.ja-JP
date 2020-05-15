@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft Teams 室のデバイスで使用される既定の設定のリモート管理。カスタムテーマの適用や、マスター設定ファイルの作成などが含まれます。
-ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 8d723423cc8e93429d193f4340eceddcc55ca10d
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510766"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230505"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams ミーティング のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
@@ -46,6 +46,7 @@ ms.locfileid: "43510766"
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
@@ -83,7 +84,7 @@ ms.locfileid: "43510766"
 |\<SkypeSettings\> |すべての要素のコンテナー。 ||必須。 |
 | \<AutoScreenShare\>  |ブール型 &#x2777;  |第1の &#x2776;  | true の場合、自動画面共有が有効になります。  |
 |\<Hide会議名\> |ブール型 &#x2777;  |第1の &#x2776;  |true の場合、会議名が非表示になります。 |
-|\<UserAccount\> |Container |第1の &#x2776;  |資格情報パラメーターのコンテナー。 通常、RanierConf<span></span>@contoso など、サインインアドレス、Exchange アドレス、またはメールアドレスは同じです。 |
+|\<UserAccount\> |Container |第1の &#x2776;  |資格情報パラメーターのコンテナー。 通常、RanierConf @contoso など、サインインアドレス、Exchange アドレス、またはメールアドレスは同じです <span></span> 。 |
 |\<SkypeMeetingsEnabled\>  |ブール型 &#x2777;  |第1の &#x2776;  |既定では有効です。 |
 |\<SkypeSignInAddress\> |文字列 &#x2778;  ||本体の SfB または Teams のデバイスアカウントのサインイン名。 |
 |\<ExchangeAddress\> |文字列 &#x2778;  ||本体の Exchange device アカウントのサインイン名。 ExchangeAddress が省略された場合、SkypeSignInAddress は自動的には再利用されません。 |
@@ -91,9 +92,10 @@ ms.locfileid: "43510766"
 |\<DomainUsername\> |文字列 &#x2778;  ||コンソール デバイスのドメイン名およびユーザー名 (Seattle\RanierConf など)。 |
 |\<パスワード\> |String 3  || パスワード パラメーターは、Skype for Business デバイス アカウントのサインインで使用されるものと同一のパスワードです。  |
 | \<ConfigureDomain\>  |文字列 &#x2778;  ||複数のドメインをコンマで区切ってリスト表示することができます。 |
-|\<TeamsMeetingsEnabled\> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 <br/> <br/> SkypeMeetingsEnabled \<\>と\<TeamsMeetingsEnabled\>の両方が無効になっている場合、XML ファイルの形式が不適切であると見なされますが、両方の設定を同時に有効にすることはできます。 |
+|\<TeamsMeetingsEnabled\> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 <br/> <br/> SkypeMeetingsEnabled と TeamsMeetingsEnabled の両方が無効になっている場合、XML ファイルの形式が不適切であると見なされ \< \> \< \> ますが、両方の設定を同時に有効にすることはできます。 |
 |\<IsTeamsDefaultClient の> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 |
 |\<BluetoothAdvertisementEnabled> |ブール型 &#x2777;  |第1の &#x2776;  |既定では有効です。 |
+|\<AutoAcceptProximateMeetingInvitations> |ブール型 &#x2777;  |第1の &#x2776;  |True の場合、近接通信ベースの会議が自動的に受け入れられます。 既定では無効です。 |
 |\<DualScreenMode\>  |ブール型 &#x2777;  |第1の &#x2776;  |True の場合、デュアルスクリーンモードが有効になります。 それ以外の場合は、デバイスでシングルスクリーンモードが使用されます。 |
 | \<DuplicateIngestDefault\> |ブール型 &#x2777;  |第1の &#x2776; |True の場合、会議の終了時に両方の画面にコンテンツが表示されます。 | 
 |\<SendLogs\> |Container |第1の &#x2776;  |  |
@@ -109,7 +111,7 @@ ms.locfileid: "43510766"
 | \<テーマ\>  |Container |第1の &#x2776;  |XML ファイルに適用できる機能の1つは、組織のユーザー設定のテーマです。 テーマ名、背景画像、色を指定できます。 |
 |\<グループ名\> |文字列 &#x2778;  || クライアントのテーマを特定するために使用されます。 テーマ名のオプションは、既定、提供されたプリセット テーマのいずれか、またはカスタムになります。 <br/>  ユーザー設定のテーマ名には、常に*ユーザー設定*の名前が使用されます。 クライアント UI は、コンソールで既定または標準のいずれかに設定できますが、カスタムテーマを使用するには、管理者がリモートで設定する必要があります。 <br/>  プリセット テーマには次のものが含まれます:  <br/>  Default <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  現在のテーマを無効にするには、[テーマなし] を使用します。  |
 |\<CustomThemeImageUrl\> |文字列 &#x2778;  ||カスタムテーマの場合は必須。それ以外の場合は省略可能です。 ファイル名のみを入力します。   |ユーザー設定のテーマイメージの詳細については、「[ユーザー設定のテーマイメージ](xml-config-file.md#Themes)」セクションを参照してください。
-|\<CustomThemeColor\> |Container ||\<\>Redcomponent \<、\>GreenComponent、および\<BlueComponent\>値のコンテナー。 ユーザー設定のテーマには、これらの値を入力する必要があります。 |
+|\<CustomThemeColor\> |Container ||\<Redcomponent \> 、 \< GreenComponent \> 、および \< BlueComponent \> 値のコンテナー。 ユーザー設定のテーマには、これらの値を入力する必要があります。 |
 |\<赤成分\> |Byte (0-255) ||赤のカラー コンポーネントを表します。 |
 |\<GreenComponent\> |Byte (0-255) ||緑のカラー コンポーネントを表します。 |
 |\<BlueComponent\> |Byte (0-255) ||青のカラー コンポーネントを表します。 | 
@@ -123,7 +125,7 @@ ms.locfileid: "43510766"
   
 ## <a name="manage-console-settings-with-an-xml-configuration-file"></a>コンソールの設定を、XML 構成ファイルを使用して管理する
 
-起動時に、Microsoft Teams の会議コンソールによって SkypeSettings `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`という名前の xml ファイルが検出された場合は、xml ファイルで示されている構成設定を適用した後、xml ファイルを削除します。
+起動時に、Microsoft Teams の会議コンソールによって SkypeSettings という名前の XML ファイルが検出された場合は、 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` xml ファイルで示されている構成設定を適用した後、xml ファイルを削除します。
   
 エンタープライズに搭載されている Microsoft Teams の会議室の数や、それらを構成するための管理方法に応じて、XML 構成ファイルを配置する方法はいくつかあります。 ファイルがコンソールにプッシュされたら、再起動して構成の変更を処理します。 処理に成功すると、XML 構成ファイルが削除されます。 Microsoft Teams 室のデバイスに提案された管理方法については、次のトピックをご覧ください。
   
@@ -136,7 +138,7 @@ ms.locfileid: "43510766"
 
 <a name="Themes"> </a>
 
-ユーザー設定のテーマのイメージファイルは、`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`フォルダーに配置する必要があります。 \<CustomThemeImageUrl\>変数にファイル名と拡張子を入力します。
+ユーザー設定のテーマのイメージファイルは、フォルダーに配置する必要があり `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` ます。 CustomThemeImageUrl 変数にファイル名と拡張子を入力し \< \> ます。
   
 画像ファイルは、正確に3840X1080 ピクセルであり、jpg、jpeg、png、bmp のいずれかのファイル形式である必要があります。 組織でカスタム画像が必要な場合は、グラフィックデザイナーで[カスタムテーマ Photoshop テンプレート](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)を使うことができます。 このセクションには、さまざまなユーザーインターフェイス要素が、テーマイメージの残りの部分に対する相対的な場所と、コンソールやディスプレイに表示される領域について詳しく説明されています。
   
@@ -148,16 +150,16 @@ XML 構成ファイルはデバイスの起動時に更新され、テーマ画�
 
 1. Microsoft Teams ルームコンソールの [Windows の設定] に移動します。
 2. 管理者パスワードを入力します。
-3. コマンドプロンプトで、「デバイス`devmgmt.msc`マネージャーの起動」と入力します。
+3. コマンドプロンプトで、「デバイスマネージャーの起動」と入力し `devmgmt.msc` ます。
 4. **デバイスマネージャー**で、[**イメージングデバイス**] ノードを確認し、コンテンツカメラを探します。
 5. カメラを右クリックして、[**プロパティ**] を開きます。
 6. [**詳細**] タブを選択し、ドロップダウンで [**デバイスインスタンスパス**] プロパティを探します。
-7. 表示される値は、XML 構成ファイルで設定するデバイスインスタンスパスです。 XML でパスを指定するときは、アンパサンド (&) を`&amp;`に置き換えます。
+7. 表示される値は、XML 構成ファイルで設定するデバイスインスタンスパスです。 XML でパスを指定するときは、アンパサンド (&) をに置き換え `&amp;` ます。
 
 ## <a name="see-also"></a>関連項目
 
 [コンテンツ カメラ](content-camera.md)
 
-[Microsoft Teams Rooms を管理する](rooms-manage.md)
+[Microsoft Teams ミーティングの管理](rooms-manage.md)
 
 [ファイルアイテムを構成する](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

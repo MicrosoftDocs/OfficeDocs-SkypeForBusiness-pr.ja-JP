@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business の Office 365 サービスと、アラビアの首長国で利用できる Microsoft Teams について説明します。
-ms.openlocfilehash: 5b414f65a03ff2f37d3cac3988213e355e5c8895
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアラブ首長国連邦で利用できます。
+ms.openlocfilehash: 09e2fc5402966157cd1f3fc4acc1030abd5a82b4
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852169"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230535"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>アラブ首長国連邦 (UAE) での利用可能性
 
-電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
+[[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business の Office 365 サービスと、アラビアの首長国で利用できる Microsoft Teams について説明します。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアラブ首長国連邦で利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -51,9 +51,9 @@ ms.locfileid: "41852169"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |利用可能  <br/> |
+| 自動応答 <br/> |連絡可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 
@@ -69,7 +69,7 @@ ms.locfileid: "41852169"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当しない  <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |該当なし  <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
@@ -83,7 +83,7 @@ ms.locfileid: "41852169"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

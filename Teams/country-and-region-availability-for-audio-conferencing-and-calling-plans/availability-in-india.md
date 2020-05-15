@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams でインドで利用できる Office 365 サービスについて説明します。
-ms.openlocfilehash: 7fbd64ee3f00fdad0898c8dd6ea67bce224f8548
-ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをインドで利用できるようにする方法について説明します。
+ms.openlocfilehash: 7ec292a4d30db652df19a8e31c26d2bf5542a750
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632762"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231146"
 ---
 # <a name="availability-in-india"></a>インドでの利用可能性
 
-電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
+[[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams でインドで利用できる Office 365 サービスについて説明します。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをインドで利用できるようにする方法について説明します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |Microsoft はインドで電話会議を販売していません。 TATA 通信では、Microsoft Teams 会議と互換性のあるダイヤルイン/ダイヤルアウトサービスが提供されます。 詳細については、 [「Tata 通信」 web サイト](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)を参照してください。   <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> チェンナイ (<li> ムンバイ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> チェンナイ (<li> ムンバイ</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |連絡可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -52,8 +52,8 @@ ms.locfileid: "42632762"
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
 | 自動応答 <br/> |連絡可能  <br/> |
-|通話キュー  <br/> |連絡可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|通話キュー  <br/> |利用可能  <br/> |
+|ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 
@@ -79,11 +79,11 @@ ms.locfileid: "42632762"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|コミュニケーション クレジットは利用できますか?  <br/> |不要  <br/> |
+|コミュニケーション クレジットは利用できますか?  <br/> |いいえ  <br/> |
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

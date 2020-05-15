@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business の Office 365 サービスと、サウジアラビアで利用できる Microsoft Teams について説明します。
-ms.openlocfilehash: ba64a0e3cb0e9bfd6da12cfaf70516cf3c508955
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをサウジアラビアで利用できるようにする方法について説明します。
+ms.openlocfilehash: 01232ae21c0a5a6a442380ebbfb0c587f1b45093
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047836"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231056"
 ---
 # <a name="availability-in-saudi-arabia"></a>サウジアラビアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business の Office 365 サービスと、サウジアラビアで利用できる Microsoft Teams について説明します。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをサウジアラビアで利用できるようにする方法について説明します。
   
 ## <a name="audio-conferencing"></a>電話会議
 

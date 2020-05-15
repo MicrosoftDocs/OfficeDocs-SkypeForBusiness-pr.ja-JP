@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下は、パナマで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: c4ef573d8e1f91c0fd0ced5567eac926c445820c
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをパナマで利用できます。
+ms.openlocfilehash: 380c41fc93b5eaee38648318a0efbbb6225b9770
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852891"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230876"
 ---
 # <a name="availability-in-panama"></a>パナマでの利用可能性
 
-電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
+[[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-以下は、パナマで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをパナマで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |○:<br/><ul><li> パナマ市</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> パナマ市</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -51,9 +51,9 @@ ms.locfileid: "41852891"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |利用可能  <br/> |
+| 自動応答 <br/> |連絡可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 
@@ -83,7 +83,7 @@ ms.locfileid: "41852891"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

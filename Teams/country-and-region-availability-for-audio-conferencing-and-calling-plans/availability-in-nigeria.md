@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 次に示すのは、ナイジェリアで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
-ms.openlocfilehash: 987e0a150fcd1af53af06eaacd09e987c19d7e36
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: ここでは、Microsoft 365 および Skype for Business および Microsoft Teams 用の Office 365 サービスを、ナイジェリアで利用できます。
+ms.openlocfilehash: 5831103a3e7f0d28497edd80d2483a5e6b90bad7
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852976"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231006"
 ---
 # <a name="availability-in-nigeria"></a>ナイジェリアで利用可能
 
-電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
+[[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-次に示すのは、ナイジェリアで利用可能な Skype for Business および Microsoft Teams の Office 365 サービスです。
+ここでは、Microsoft 365 および Skype for Business および Microsoft Teams 用の Office 365 サービスを、ナイジェリアで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -50,9 +50,9 @@ ms.locfileid: "41852976"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-|自動応答 <br/> |利用可能  <br/> |
+|自動応答 <br/> |連絡可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 
@@ -82,7 +82,7 @@ ms.locfileid: "41852976"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

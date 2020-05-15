@@ -18,38 +18,58 @@ f1.keywords:
 - NOCSH
 description: Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e23b1d2c69fd09136a581010632a140e82385051
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: c3ff180848d12ad3fb00d048bbb1910bf13c00d6
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141140"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232498"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>組織の緊急対応の場所の位置情報を追加、変更、削除する
 
-組織内の物理的な場所の数に応じて、建物、フロア、オフィスの場所を追加して、より具体的な緊急対応の場所を作成することができます。 詳細については、「緊急対応の[場所、場所、通話ルーティングとは](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)」を参照してください。
+組織内の物理的な場所の数に応じて、建物、フロア、オフィスの場所を追加して、より具体的な緊急対応の場所を作成することができます。 詳細については、「[緊急通話を管理](what-are-emergency-locations-addresses-and-call-routing.md)する」をご覧ください。
   
 通話プランの取得方法とコストについては、「Teams の[アドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+
+組織の緊急対応の場所は、Microsoft Teams 管理センターまたは PowerShell を使用して管理します。
   
 ## <a name="add-a-place-to-an-emergency-location"></a>緊急対応の場所に場所を追加する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域** > の**緊急対応の住所**] をクリックします。
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域**の  >  **緊急対応の住所**] をクリックします。
 2. リストで、場所を追加する場所の名前をクリックします。
 3. [**場所**] タブで、[**場所の追加**] をクリックします。
 4. プレース名を入力し、[**適用**] をクリックします。
+
+### <a name="using-powershell"></a>PowerShell を使用する場合
+
+「[新しい-Csonlin」の場所](https://docs.microsoft.com/powershell/module/skype/new-csonlinelislocation)を参照してください。
     
 ## <a name="change-a-place-for-an-emergency-location"></a>緊急対応の場所を変更する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域** > の**緊急対応の住所**] をクリックします。
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域**の  >  **緊急対応の住所**] をクリックします。
 2. リストで、場所を変更する場所の名前をクリックします。
 3. [**場所**] タブで変更する場所を選択し、[**編集**] をクリックします。
 4. 場所情報を更新して、[**適用**] をクリックします。
+
+### <a name="using-powershell"></a>PowerShell を使用する場合
+
+「 [Set-Csonlin¥ location](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation)」を参照してください。
     
 ## <a name="remove-a-place-from-an-emergency-location"></a>緊急対応の場所から場所を削除する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域** > の**緊急対応の住所**] をクリックします。
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域**の  >  **緊急対応の住所**] をクリックします。
 2. リストで、場所を削除する場所の名前をクリックします。
 3. [**場所**] タブで削除する場所を選択し、[**削除**] をクリックします。
+
+### <a name="using-powershell"></a>PowerShell を使用する場合
+
+「 [Csonlin¥ location の削除」を](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelislocation)参照してください。
     
 ## <a name="related-topics"></a>関連項目
 

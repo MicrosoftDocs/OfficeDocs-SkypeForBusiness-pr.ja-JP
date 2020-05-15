@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft では、2020年2月28日に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止しています。 この記事では、影響を受けるお客様がビジネス継続性を計画する際に知っておく必要があることを要約しています。
-ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: cf8b62d4a36059a90631e139910dab3f9f40aa38
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042834"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232562"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイドメッセージングオンライン移行のサポート
 
@@ -82,7 +82,7 @@ Microsoft は、独自の機能を使用しているさまざまな顧客展開�
     ユーザーの移行に関する詳細とタイムラインについては、管理者通知センターで通知を参照してください。 通知は、移行期間の少なくとも30日前に送信されます。 
 
     > [!Note]
-    > ユーザーの移行タイムラインで通知を受信し、業務上重要な理由で移行を延期したい場合は、Microsoft サポートに連絡してください。 2020年2月28日を過ぎた移行は延期できないことに注意してください。 さらに質問があるお客様については、アカウントチームまたは Microsoft サポートにお問い合わせください。 既に Office 365 を使用しているお客様は、Microsoft 365 管理センターからサポート案件を送信できます。 
+    > ユーザーの移行タイムラインで通知を受信し、業務上重要な理由で移行を延期したい場合は、Microsoft サポートに連絡してください。 2020年2月28日を過ぎた移行は延期できないことに注意してください。 さらに質問があるお客様については、アカウントチームまたは Microsoft サポートにお問い合わせください。 Microsoft 365 または Office 365 をすでに使用しているお客様は、Microsoft 365 管理センターからサポート案件を送信できます。 
 
 6. **計画された移行をオプトインすることを検討する**
 
@@ -104,7 +104,7 @@ Microsoft は、独自の機能を使用しているさまざまな顧客展開�
 
 ## <a name="auto-attendant-migration-guidelines"></a>自動応答移行のガイドライン
 
-Office 365 組織管理者は、Microsoft クラウド自動応答サービスで Exchange UM Online 自動応答を再作成し、オンプレミスの電話番号を2020年2月28日の前に切り替える必要があります。これは、Exchange UMO サービスが廃止されるときです。 新しいクラウド自動応答を移行してテストするには、このガイドラインが推奨されています。 自動応答の数が多い場合は、 [EXCHANGE UM 自動応答をクラウド自動応答移行スクリプトに](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)使用して、自動応答の一括移行を簡略化できます。
+Microsoft 365 および Office 365 の組織管理者は、Microsoft クラウド自動応答サービスで Exchange UM Online 自動応答を再作成し、オンプレミスの電話番号を2020年2月28日までに切り替える必要があります。これは、Exchange UMO サービスが廃止された場合です。 新しいクラウド自動応答を移行してテストするには、このガイドラインが推奨されています。 自動応答の数が多い場合は、 [EXCHANGE UM 自動応答をクラウド自動応答移行スクリプトに](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)使用して、自動応答の一括移行を簡略化できます。
 
 ### <a name="setup"></a>セットアップ
 
@@ -127,7 +127,7 @@ Office 365 組織管理者は、Microsoft クラウド自動応答サービス�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO および Azure クラウドベースのサービス機能のマトリックス
 
-| サービス | 機能レベル | 機能 | Notes (メモ)  | クラウド VM/AA  | ExUMO |
+| サービス | 機能レベル | 機能 | メモ  | クラウド VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | /VM  | サービス機能| サードパーティ製 PBX のサポート    | Exchange UM Online からの SIP notify メッセージを使用して、MWI (メッセージ待機インジケーター) などのサードパーティ製 PBX に提供されるすべての機能を含む | N   | Y    |
 | /VM | サービス機能  | Skype for Business Server をサポートする   |  | Y | Y    |
@@ -163,13 +163,13 @@ Office 365 組織管理者は、Microsoft クラウド自動応答サービス�
 | /VM | 発信者の機能  | 無音検出   |  | N | Y    |
 | /VM | テナント-管理機能 | サーバーレベルで保護されたボイスメール    | テナント管理者は、受信ボイスメールを保護としてマークするようにサービスレベルのルールを構成できます。 | Y | Y    |
 | /VM | テナント-管理機能 | レコーディングの時間制限を変更する  |     | Y | Y    |
-| /VM | テナント-管理機能 | 無音検出のタイムアウトを変更する    |  | N/A    | Y    |
+| /VM | テナント-管理機能 | 無音検出のタイムアウトを変更する    |  | 該当なし    | Y    |
 | /VM | テナント-管理機能 | 入力エラーの数を変更する | CVM: 3 にハードコーディングされている | N | Y    |
 | /VM | テナント-管理機能 | 既定の言語を変更する |  | Y | Y    |
 | /VM | テナント-管理機能 | 議事録の無効化/有効化 |  | Y | Y    |
 | /VM | テナント-管理機能 | 不在着信通知を無効または有効にする |  | N | Y    |
 | /VM | テナント-管理機能 | ボイスメールプレビューの改善にご協力ください    |  | Y | Y    |
-| /VM | テナント-管理機能 | 有効なユーザーのテキストメッセージをカスタマイズする|  | N/A    | Y    |
+| /VM | テナント-管理機能 | 有効なユーザーのテキストメッセージをカスタマイズする|  | 該当なし    | Y    |
 | /VM | テナント-管理機能 | 用語のプロファニティマスクの議事録|  | Y | N    |
 | /VM | テナント-管理機能 | ボイスメールポリシー    |   | Y | Y    |
 | /VM | テナント-管理機能 | Web ポータルの管理   |  | CY19   | Y    |

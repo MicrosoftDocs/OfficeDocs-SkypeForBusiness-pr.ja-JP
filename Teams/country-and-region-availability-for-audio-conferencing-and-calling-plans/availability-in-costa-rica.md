@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをコスタリカで利用できます。
-ms.openlocfilehash: 66704409757c1edb5f18d19ee490a16af3a6a838
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: 以下は、Skype for Business および Microsoft Teams 用の Microsoft 365 と Office 365 サービスをコスタリカで利用できるようにするものです。
+ms.openlocfilehash: 6bf47cc134dd5b1b532933b7c1ee3d6bc173543c
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853662"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231186"
 ---
 # <a name="availability-in-costa-rica"></a>コスタリカでの利用可能性
 
 [別の国または地域を検索](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)するか、電話会議と通話プランの国と地域の空き時間情報を参照してください。電話会議と通話プランの場合。
 
-ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをコスタリカで利用できます。
+以下は、Skype for Business および Microsoft Teams 用の Microsoft 365 と Office 365 サービスをコスタリカで利用できるようにするものです。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -51,9 +51,9 @@ ms.locfileid: "41853662"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |利用可能  <br/> |
+| 自動応答 <br/> |連絡可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
-|ボイスメール  <br/> |利用可能  <br/> |
+|ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
 
@@ -83,7 +83,7 @@ ms.locfileid: "41853662"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

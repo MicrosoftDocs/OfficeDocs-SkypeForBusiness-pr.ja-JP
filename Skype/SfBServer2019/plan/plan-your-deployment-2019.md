@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: Skype for Business Server 2019 の機能、サーバー、およびトポロジを構成するための概念、論理、および物理設計を開発する方法について説明するリンクを参照してください。'
-ms.openlocfilehash: 2948010c99019cbb3329c6770d56ff93fb6b86d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4c7b969c41761441889c5d0963b1a3c6b6b644f7
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129470"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232368"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Skype for Business Server 2019 の展開の計画
  
@@ -62,4 +62,4 @@ Skype for Business Server の計画方法に関する以下のリソースが、
 |:--- |:--- |:--- |
 |![DMC のアイコン](../media/paragraph_writing.png)| [Skype for Business Server (IT 担当者向け)](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |ビデオ、コミュニティサイト、ドキュメント、ダウンロードなどにアクセスするには、docs.microsoft.com とリソースセンターを参照してください。    |
 |![開発者向けコンテンツのアイコン](../media/developer.png)|[Skype 開発者プラットフォーム](https://go.microsoft.com/fwlink/?LinkId=619775)   | コードサンプル、トレーニング、Sdk など、Skype for Business Server の開発者向けリソースを見つけることができます。    |
-|![ニュース、ブログなどのアイコン](../media/blog_site.png) | <UL><LI>[変更の管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Office 365 の技術系ブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype チームブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Skype for Business Server を作成してドキュメント化する teams からの最新ニュースを把握します。    |
+|![ニュース、ブログなどのアイコン](../media/blog_site.png) | <UL><LI>[変更の管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 技術系ブログ](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype チームブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Skype for Business Server を作成してドキュメント化する teams からの最新ニュースを把握します。    |

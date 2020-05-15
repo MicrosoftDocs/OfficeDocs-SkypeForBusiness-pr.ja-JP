@@ -25,19 +25,19 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: Skype for Business および Microsoft Teams 用の Office 365 サービスについては、モルドバでご確認いただけます。
-ms.openlocfilehash: 04e387d28ba798010ca3049d35b6aeba281e3d76
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスについては、モルドバでご確認いただけます。
+ms.openlocfilehash: f740c172649e043a5f269da93a514ea41d0ba58d
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141130"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230395"
 ---
 # <a name="availability-in-moldova"></a>モルドバでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams の Office 365 サービスをモルドバで利用できるようにする方法について説明します。
+以下は、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、モルドバで利用できるようにするものです。
   
 ## <a name="audio-conferencing"></a>電話会議
 
