@@ -18,12 +18,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903082"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224240"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -35,14 +35,16 @@ ms.locfileid: "43903082"
 
 ユーザーが Teams ライブ イベントをスケジュールするには、次の前提条件を満たす必要があります。
 
-以下に、割り当てられる必要のあるライセンスを示します。  
+Teams ライブ イベントを作成または表示するために割り当てる必要があるライセンスは次のとおりです。  
 
-- Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 A3 または A5 ライセンス
-- Microsoft Teams のライセンス
-- Microsoft Stream のライセンス
+- Microsoft 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 Education A3 または A5 ライセンスがある。
+- Microsoft Teams のライセンス。 - これは上記のライセンスに含まれています。 
+- コンテンツを外部のアプリまたはデバイスと共有する場合は、Microsoft Stream のライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。 
 
-> [!IMPORTANT]
-> ライブ イベントを作成およびスケジュール設定するユーザーには、Exchange Online のメールボックスが必要です。
+  ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream に保存されず、削除されるまでの 30 日間の制限付きで Azure Media Services (AMS) に保存されます。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
+
+> [!NOTE]
+> 現時点では、Teams ライブ イベントの作成と開催に使用できる Microsoft 365 Small Business プランはありません。
 
 認証されたユーザーとしてライブ イベントに参加するのに、Office 365 のライセンスが必要であることを理解することは重要ですが、この要件は使用する作成方法によって異なります。
 
@@ -82,6 +84,14 @@ ms.locfileid: "43903082"
 
 次の表に、ライブ イベントで提供されるコア機能と特徴、および Skype 会議ブロードキャストとの相違点を示します。
 
+> [!IMPORTANT]
+> **Microsoft 365 ライブ イベントの上限の引き上げ**
+> 
+> お客様が急速に変化するコミュニケーションのニーズに対応できるように、Microsoft 365 ライブ イベントは、2020 年 7 月 1 日まで、Teams でホストされるライブ イベントの既定の上限を一時的に引き上げます。 2020 年 4 月下旬から次の上限が適用されるようになります。
+> - 参加者の制限: イベントは最大 20,000 人の参加者をサポートできます
+> - 同時イベント: テナント全体で 50 のイベントを同時にホストできます
+> - イベントの時間: イベントの長さが 1 回のブロードキャストにつき 16 時間に延長されました
+
 |**機能**   |**Skype 会議ブロードキャスト** |**Teams で生成されたイベント** |**外部アプリまたはデバイスで作成されたイベント** |
 |---------|---------|---------|---------|
 |最大視聴者数 |出席者 10,000 名 |出席者 10,000 名 <sup>1</sup> |出席者 10,000 名 <sup>1</sup> |
@@ -119,14 +129,33 @@ ms.locfileid: "43903082"
 世界中の複数の地域で Teams ライブ イベントを使用できます。 次に、イベント チームのメンバーと出席者向けの利用状況を示します。
 
 > [!IMPORTANT]
-> イベントの地域は、開催者と Microsoft 365 または Office 365 に応じて自動的に選択されます。
+> イベントの地域は、開催者と Microsoft 365 テナントの場所に応じて自動的に選択されます。
 
-**利用可能な地域**
+**これらの地域のデータ センターで利用可能**
 
-- 南北アメリカ
-- ヨーロッパ/アフリカ
+- 北アメリカ
+- 中央アメリカ
+- 南アメリカ
 - アジア太平洋
-- カナダ、インド、オーストラリア、日本、英国のデータの場所
+- ヨーロッパ/アフリカ
+
+**これらの国/地域のデータの場所 (サポートされている)**
+- オーストラリア
+- カナダ
+- インド
+- 日本
+- 英国
+
+**これらの国/地域およびクラウドはサポートされていません**
+- ドイツ
+- フランス
+- ノルウェー
+- 南アフリカ
+- 韓国
+- スイス
+- アラブ首長国連邦
+- Government Community Cloud (GCC)-H
+- DOD
 
 **除外対象と考慮事項**
 
