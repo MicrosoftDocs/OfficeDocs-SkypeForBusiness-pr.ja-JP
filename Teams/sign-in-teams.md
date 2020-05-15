@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 先進認証のしくみ、アカウントの切り替え方法、先進認証のトラブルシューティングについて説明します。
+description: 先進認証のしくみ、アカウントの切り替え方法、先進認証のトラブルシューティングについて説明します。 サインイン時に、事前入力されているユーザーの名前 (UPN) を無視するように Teams に指示する方法についても説明します。
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection:
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43bbb3018b1c0cbe9f225a8a78acd4007b9232c2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f9b11fca87ce8cda8bc5d61198eb640fecd5b787
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903732"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158824"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================

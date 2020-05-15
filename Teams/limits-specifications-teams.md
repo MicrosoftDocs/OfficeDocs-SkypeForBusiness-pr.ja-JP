@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 8730c1522439660652bd164d6628fdf2f78f37cb
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064422"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44229885"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -35,7 +35,7 @@ ms.locfileid: "44064422"
 |-----------|---------------|
 |ユーザーが作成できるチームの数 | オブジェクト制限 250、&sup1;         |
 |ユーザーがメンバーの一員になることができるチームの数|1,000|
-|チームのメンバーの数 | 5,000       |
+|チームのメンバーの数 | 10,000       |
 |チーム 1 つあたりの所有者数 | 100   |
 |テナントで許可されている組織全体のチームの数 | 5     |
 |[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
