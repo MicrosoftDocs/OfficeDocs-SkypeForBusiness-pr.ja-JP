@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接ルーティング用のローカルメディア最適化を構成する
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 518445e10b757adc9a21c426fb885bb04b7a878b
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.openlocfilehash: c3da3cf243b24d0f614c05e9d09eb68796a68545
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047856"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256492"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>直接ルーティング用のローカルメディア最適化を構成する
 
@@ -52,7 +52,7 @@ ms.locfileid: "44047856"
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>SBC ベンダー仕様に従って、ローカルメディア最適化用に SBC を構成する
 
-この記事では、Microsoft コンポーネントの構成について説明します。 SBC 構成の詳細については、SBC ベンダーの documenation を参照してください。
+この記事では、Microsoft コンポーネントの構成について説明します。 SBC 構成の詳細については、SBC ベンダーのドキュメントを参照してください。
 
 ローカルメディア最適化は、次の SBC ベンダーによってサポートされています。
 
@@ -108,7 +108,7 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description
 
 ### <a name="define-network-regions"></a>ネットワーク領域を定義する
 
-ネットワーク領域を定義するには、CsTenantNetworkRegion コマンドレットを使用します。 RegionID パラメーターは、地域の地理を表す論理名であり、依存関係または制限がありません。 CentralSite <site ID>パラメーターは省略可能です。
+ネットワーク領域を定義するには、CsTenantNetworkRegion コマンドレットを使用します。 RegionID パラメーターは、地域の地理を表す論理名であり、依存関係または制限がありません。 CentralSite <site ID> パラメーターは省略可能です。
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -228,7 +228,7 @@ BypassMode が定義されている場合に、招待と再招待の際に直接
 
 | ユーザーの物理的な場所| ユーザーが電話番号を発信または受信した場合 | ユーザの電話番号  | オンラインボイスルーティングポリシー | SBC 用に構成されたモード |
 |:------------|:-------|:-------|:-------|:-------|
-| ベトナム | + 84 4 3926 3000 | + 84 4 5555 5555   | 優先度 1:\+^ 84 ({9}\d) $-VNsbc.contoso.com <br> 優先度 2:. *-proxysbc.contoso.com   | VNsbc.contoso.com –常にバイパス <br> proxysbc.contoso.com –常にバイパス
+| ベトナム | + 84 4 3926 3000 | + 84 4 5555 5555   | 優先度 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br> 優先度 2:. *-proxysbc.contoso.com   | VNsbc.contoso.com –常にバイパス <br> proxysbc.contoso.com –常にバイパス
 
 
 次の図は、常にバイパスモードを使用した発信通話の SIP のはしごと、SBC と同じ場所にいるユーザーを示しています。
@@ -239,7 +239,7 @@ BypassMode が定義されている場合に、招待と再招待の際に直接
 
 | パラメーター | 説明 |
 |:------------|:-------|
-| 招待 + 8443926300@VNsbc.contoso.com | オンラインボイスルーティングポリシーで定義された SBC のターゲット名は、要求 URI で送信されます | 
+| 招待 + 8443926300@VNsbc.contoso.com | オンラインボイスルーティングポリシーで定義された SBC のターゲット FQDN は、要求 URI で送信されます。 | 
 | X--UserLocation: internal | このフィールドは、ユーザーが企業ネットワーク内に配置されていることを示しています |
 | MediaPath: VNsbc.contoso.com |   クライアントがターゲット SBC にどの SBC を通過する必要があるかを指定します。 この例では、常にバイパスしているため、クライアントはヘッダーで唯一の名前として送信されるターゲット名です。 | 
 |----UserSite: ベトナム |   ユーザーが配置されているサイトで示されているフィールド。 |
@@ -277,7 +277,7 @@ BypassMode が定義されている場合に、招待と再招待の際に直接
 
 | パラメーター |   説明 |
 |:------------|:-------|
-|招待 + 8443926300@VNsbc.contoso.com | オンラインボイスルーティングポリシーで定義された SBC のターゲット名は、要求 URI で送信されます。|
+|招待 + 8443926300@VNsbc.contoso.com | オンラインボイスルーティングポリシーで定義された SBC のターゲット FQDN は、要求 URI で送信されます。|
 | X--UserLocation: external | このフィールドは、ユーザーが企業ネットワークの外部にあることを示しています。 |
 | MediaPath: proxysbc.contoso.com、VNsbc.contoso.com    | クライアントがターゲット SBC にどの SBC を通過する必要があるかを指定します。 この例では、常にバイパスしており、クライアントは外部です。 |
 
@@ -309,7 +309,7 @@ BypassMode が定義されている場合に、招待と再招待の際に直接
 
 | ユーザーの物理的な場所 |  ユーザーが電話番号を発信または受信した場合 |  ユーザの電話番号 | オンラインボイスルーティングポリシー |   SBC 用に構成されたモード |
 |:------------|:-------|:-------|:-------|:-------|
-| ベトナム | + 84 4 3926 3000 |  + 84 4 5555 5555 | 優先度 1:\+^ 84 ({9}\d) $-VNsbc.contoso.com <br> 優先度 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com –常にバイパス |
+| ベトナム | + 84 4 3926 3000 |  + 84 4 5555 5555 | 優先度 1: ^ \+ 84 (\d {9} ) $-VNsbc.contoso.com <br> 優先度 2:. *-proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com –常にバイパス |
 
 #### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>発信通話とユーザーは、ローカルユーザーに対してのみ、SBC と同じ場所にあります。
 

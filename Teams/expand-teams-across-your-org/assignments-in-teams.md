@@ -21,12 +21,12 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327999"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256452"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
@@ -47,13 +47,15 @@ Microsoft Teams 管理センターの管理設定を使用すると、組織内�
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-MakeCode はブロックベースのコーディングプラットフォームであり、すべての学生に対してコンピューターの科学を実現します。 
+Microsoft MakeCode はブロックベースのコーディングプラットフォームであり、すべての学生に対してコンピューターの科学を実現します。 
 
-これは、サードパーティの製品またはサービスであり、独自の用語とプライバシーポリシーの適用対象となります。 お客様は、サードパーティの製品とサービスの使用に関して責任を負います。
+MakeCode は、Microsoft[利用規約](https://go.microsoft.com/fwlink/?LinkID=206977)および[プライバシー](https://go.microsoft.com/fwlink/?LinkId=521839)ポリシーの適用対象となる microsoft 製品です。
 
-この設定は、既定ではオフになっています。
+この設定は、既定ではオフになっています。 Teams で MakeCode の割り当てを有効にするには、 **Teams 管理センター**で、[**課題**] セクションに移動し、MakeCode トグルオプションを **[オン**] にします。 [**保存**] をクリックして、これらの設定を有効にするまで24時間ほどかかります。
 
-[MakeCode について、詳細はこちらをご覧ください](https://www.microsoft.com/makecode)
+この機能のしくみについて詳しくは、この[ビデオデモ](https://makecode.com/blog/teams/teams-assignments)をご覧ください。
+
+[MakeCode について、詳細はこちらをご覧ください](https://aka.ms/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902352"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256392"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft Teams のユーザー アクティビティ レポートを使用する 
 ========================================
@@ -32,7 +32,7 @@ Microsoft 365 管理センターのアクティビティレポートを使用し
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>レポートダッシュボードで Teams レポートを表示する方法
 
-1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)で、[**レポート** > の**利用状況**] を選択します。
+1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)で、[**レポート**の  >  **利用状況**] を選択します。
  
 2. [**利用状況**] ページで、[**レポートの選択**] を選び、レポートの一覧の [ **Microsoft Teams** ] で、表示するレポートを選びます。
 
@@ -101,7 +101,7 @@ Teams デバイスの使用状況レポートには、モバイルアプリな�
 
 ### <a name="reports-reader-role"></a>レポートリーダーの役割
 
-*レポートリーダー*ロールは、これらのレポートにアクセスできる IT 以外のスタッフに割り当てることができます。 この役割をトレーニングマネージャーやビジネス関係者に割り当てることで、チームの導入を推進し、管理するのに役立つ分析情報にアクセスできるようにします。
+*レポートリーダー*ロールは、これらのレポートにアクセスできる IT 以外のスタッフに割り当てることができます。 この役割をトレーニングマネージャーやビジネス関係者に割り当てることで、チームの導入を推進し、管理するのに役立つ分析情報にアクセスできるようにします。 役割を割り当てる方法については、「 [Azure Active Directory を使用するユーザーに管理者と管理者の役割を割り当てる](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)」を参照してください。
 
 ## <a name="other-information-on-the-reports-dashboard"></a>レポートダッシュボードのその他の情報
 

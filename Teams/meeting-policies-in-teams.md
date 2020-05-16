@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139211"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256502"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -327,7 +327,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>匿名ユーザーが会議を開始できるようにする
 
-これは開催者単位のポリシーです。 この設定は、認証された組織のユーザーが参加していない場合でも、B2B ユーザーおよびフェデレーション ユーザーなどの匿名ユーザーがユーザーの会議に参加できるかどうかを制御します。 
+これは開催者単位のポリシーです。 この設定は、認証された組織のユーザーが参加していない場合でも、B2B ユーザーおよびフェデレーション ユーザーなどの匿名ユーザーがユーザーの会議に参加できるかどうかを制御します。 既定値は False です。
 
 ![待機中のユーザーへのメッセージが表示されたスクリーンショット](media/meeting-policies-anonymous-user-lobby.png)
 
@@ -365,11 +365,11 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 |---------|---------|
 |**すべてのユーザー**   |すべての会議参加者は、ロビーで待たずに会議に直接参加します。 これには、認証ユーザー、フェデレーション ユーザー、ゲスト、匿名ユーザー、およびスマートフォンでダイヤル インするユーザーが含まれます。       |
 |**組織内およびフェデレーション組織のすべてのユーザー**     |ゲスト ユーザーやフェデレーション組織のユーザーなど、組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。  匿名ユーザーおよびスマートフォンでダイヤル インするユーザーは、ロビーで待機します。   |
-|**組織内のすべてのユーザー**    |ゲスト ユーザーを含む組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。  フェデレーション ユーザー、匿名ユーザー、およびスマートフォンでダイヤル インするユーザーは、ロビーで待機します。           |
+|**組織内のすべてのユーザー**    |ゲスト ユーザーを含む組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。  フェデレーション ユーザー、匿名ユーザー、およびスマートフォンでダイヤル インするユーザーは、ロビーで待機します。 これは、既定の設定です。           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>ダイヤルイン ユーザーによるロビーのバイパスを許可する
 
-これは開催者単位のポリシーです。 この設定では、スマートフォンでダイヤル インするユーザーが会議に直接参加するのか、[**ユーザーの参加を自動的に許可する**] の設定に関わらずロビーで待機するのかを制御します。
+これは開催者単位のポリシーです。 この設定では、スマートフォンでダイヤル インするユーザーが会議に直接参加するのか、[**ユーザーの参加を自動的に許可する**] の設定に関わらずロビーで待機するのかを制御します。 既定値は False です。
 
 スマートフォンでダイヤル インするユーザーの参加動作は、次のとおりです。
 
@@ -402,6 +402,16 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="meeting-policy-settings---meeting-attendance-report"></a>会議のポリシー設定-会議出席依頼のレポート
+
+これは、ユーザーごとのポリシーです。 この設定は、会議の開催者が[会議出席の参加者レポート](teams-analytics-and-reports/meeting-attendance-report.md)をダウンロードできるかどうかを制御します。
+
+現時点では、このポリシー設定を構成するには PowerShell を使用する必要があります。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
+
+会議の開催者が会議の出席レポートをダウンロードできるようにするには、 **AllowEngagementReport**パラメーターを [**有効**] に設定します。 有効にした場合、レポートをダウンロードするオプションが [**参加者**] ウィンドウに表示されます。
+
+会議の開催者がレポートをダウンロードできないようにするには、パラメーターを [**無効**] に設定します。 既定では、この設定は無効であり、レポートをダウンロードするためのオプションは使用できません。
+
 ## <a name="related-topics"></a>関連項目
 
-[Teams のメッセージング ポリシー](messaging-policies-in-teams.md)
+- [Teams での PowerShell の概要](teams-powershell-overview.md)

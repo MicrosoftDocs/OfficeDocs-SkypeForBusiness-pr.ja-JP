@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997188"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256482"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -57,7 +57,11 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 
 ### <a name="considerations"></a>考慮事項
 
-アプリは、使用するデータと、利用規約およびプライバシーポリシーへのリンクでデータがどのように使用されているかを公開する必要があります。</td>
+- アプリは、使用するデータと、利用規約およびプライバシーポリシーへのリンクでデータがどのように使用されているかを公開する必要があります。
+
+- [リソース固有の同意](resource-specific-consent.md)は、アプリのインストール画面に表示される、アプリが要求できる一連のアクセス許可を提供します。 リソース固有の同意権限の詳細については、「 [Graph 権限リファレンス](https://docs.microsoft.com/graph/permissions-reference)」を参照してください。
+
+- アプリでは、リソース固有の同意権限以外の権限が必要になる場合もあります。 アプリがインストールされると、アプリは同意プロンプトを通じてグラフのアクセス許可を要求できます。 詳細については、「 [AZURE AD アプリケーションの同意のエクスペリエンスについ](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)て」を参照してください。 Azure ポータルで API の権限と承認を構成できます。 詳細については、「 [Azure Active Directory の承認フレームワーク](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)」を参照してください。
 
 ## <a name="bots-and-messaging-extensions"></a>ボットとメッセージングの拡張機能
 
@@ -95,13 +99,13 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 
 - ボットメッセージには、フィッシングまたはマルウェアサイトへのリンクが含まれていても、ユーザー、テナント管理者、または Microsoft によってグローバルにブロックされている可能性があります。
 
-- Bot は、アプリが追加されたチームメンバー、または個人またはグループチャットの個々のユーザーに対して、非常に基本的な id 情報を取得 (および保存する可能性があります) することができます。 これらのユーザーについての詳細情報を取得するには、ボットが Azure Active Directory にサインインする必要があります (Azure AD)
+- Bot は、アプリが追加されたチームメンバー、または個人またはグループチャットの個々のユーザーに対して、非常に基本的な id 情報を取得 (および保存する可能性があります) することができます。 これらのユーザーについての詳細情報を入手するには、ボットが Azure Active Directory (Azure AD) にサインインする必要があります。
 
 - Bot は、チーム内のチャネルの一覧を取得 (および保存する可能性があります) することができます。このデータは企業ネットワークから離れています。
 
 - ボットにファイルが送信されると、ファイルは企業ネットワークから脱退します。 ファイルを送受信するには、各ファイルに対してユーザーの承認が必要です。 
 
-- 既定では、bot はユーザーの代わりに操作することはできませんが、ユーザーにサインインを求めることができます。ユーザーがサインインするとすぐに、ボットには追加の項目を実行できるアクセストークンがあります。 このような追加事項は、ボットとユーザがサインインする場所によって異なります。ボットは、にhttps://apps.dev.microsoft.com/登録されている Azure AD アプリであり、独自の権限を設定できます。
+- 既定では、bot はユーザーの代わりに操作することはできませんが、ユーザーにサインインを求めることができます。ユーザーがサインインするとすぐに、ボットには追加の項目を実行できるアクセストークンがあります。 このような追加事項は、ボットとユーザがサインインする場所によって異なります。ボットは、に登録されている Azure AD アプリで https://apps.dev.microsoft.com/ あり、独自の権限を設定できます。
 
 - ユーザーがチームに追加または削除されるたびに、ボットに通知されます。
 
