@@ -34,6 +34,7 @@
 ## [Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
 ## [チームの動的なメンバーシップの概要](dynamic-memberships.md)
 ## [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
+## [大規模な Teams を管理する](best-practices-large-groups.md)
 ## [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)
 ## [people manager teams を作成する](create-manager-directs-teams.md)
 ## [チームとチャネル ポリシーを管理する](teams-policies.md)
@@ -433,6 +434,7 @@
 #### [資金を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams 通話のフロー](microsoft-teams-online-call-flows.md)
+### [音声ルーティング ポリシーを管理する](manage-voice-routing-policies.md)
 
 ## 大規模組織の実践的なガイダンス
 ### [チュートリアル: Teams での通話](Tutorial-calling-in-teams.yml)
@@ -689,7 +691,7 @@
 #### [Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)
 #### [Power BI コネクタをインストールして CQD クエリ テンプレートを使用する](CQD-Power-BI-connector.md)
 #### [Teams の使用率に関する CQD データを取得する](CQD-teams-utilization-report.md)
-#### [CQD PSTN レポートを使用する](CQD-PSTN-report.md)
+#### [CQD PSTN ダイレクト ルーティング レポートを使用する](CQD-PSTN-report.md)
 ### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [通話品質ダッシュボードでのストリームの分類](stream-classification-in-call-quality-dashboard.md)
 ## [インストールと更新に関する問題のトラブルシューティング](troubleshoot-installation.md)
@@ -774,6 +776,7 @@
 ## [チームのヘルプを表示する](get-help-in-microsoft-teams.md)
 ## [Teams のコンテンツ アップデート](teams-updates.md)
 
+## [サポート PIN を確認する方法](support-pin.md)
 
 ## 国および地域ごとの電話会議および通話プランの利用可能性
 ### [概要](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -17,20 +17,20 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 3c02d93fb010b603e973077029b9b6710c5e0ba7
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940784"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210643"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
 Microsoft Teams での会議には、会議とライブ イベントの 2 つの方法があります。 この記事を使用して、組織の会議とライブイ ベントをすばやく展開して構成します。 
 
- - Teams の**会議** には、最大 250 人用の音声、ビデオ、画面共有が含まれます。 Teams で共同作業を行うための重要な方法の 1 つです。 また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません) 。コールインの手順については、出席依頼に記載されています。 
+ - Teams の**会議** には、最大 350 人用の音声、ビデオ、画面共有が含まれます。 Teams で共同作業を行うための重要な方法の 1 つです。 また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません) 。コールインの手順については、出席依頼に記載されています。 
 
- - **ライブ イベント**は Teams 会議の拡張機能であり、これを使用すると、多くのオンライン視聴者 (最大 10,000 人) にストリーミングするイベントのスケジュールと作成を行うことができます。 250人を超える会議が必要な場合は、ライブ イベントを使用してください。
+ - **ライブ イベント**は Teams 会議の拡張機能であり、これを使用すると、多くのオンライン視聴者 (最大 10,000 人) にストリーミングするイベントのスケジュールと作成を行うことができます。 350 人を超える会議が必要な場合は、ライブ イベントを使用してください。
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>会議やライブ イベントのライセンスを取得する
 
@@ -45,7 +45,7 @@ Microsoft Teams での会議には、会議とライブ イベントの 2 つの
 > <sup>2</sup>  会議で[**連絡先電話**番号](set-up-the-call-me-feature-for-your-users.md)にダイヤルアウトするには、主催者は E5 または[電話会議アドイン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を必要とします。 [ダイヤル プラン](what-are-dial-plans.md)が必要となる場合もあります。 
 
 
-ライセンスの詳細については、「[Microsoft Teams 用の Office 365 ライセンス](Office-365-licensing.md)」をお読みください。 
+ライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」をお読みください。 
 
 ## <a name="make-sure-your-networks-ready"></a>ネットワークの準備ができていることを確認する
 

@@ -11,13 +11,13 @@
 
 ## [Microsoft テレフォニー ソリューション](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
-### [オンプレミスの PSTN 接続を使用した電話システムの計画](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+### [Skype for Business Server でオンプレミス PSTN 接続を使用して電話システムを計画する](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 ### [Skype for Business Server でオンプレミスの PSTN 接続を使用して電話システムのユーザーを有効にする](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
 #### [エンタープライズ VoIP オンプレミスでユーザーを有効にする](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 #### [音声ルーティング ポリシーの割り当て](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
-#### [エンタープライズ VoIP オンラインおよび Office 365 ボイスメールの電話システムでユーザーを有効にする](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+#### [エンタープライズ VoIP オンラインおよび電話システムのボイスメールでユーザーを有効にする](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 
 
 ### [Skype for Business Cloud Connector エディションの計画](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
