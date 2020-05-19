@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9cd648d3daf9651c2fc3ff4cec70525c9af24df
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901902"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281682"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -111,7 +111,7 @@ Teams のミーティング エクスペリエンスを最適なものにする�
 
 | 確認事項 | アクション |
 |--------------|--------|
-|ユーザーのために個人用デバイスを購入するか? |「[Teams でのデバイスを管理する](device-management.md)」を参照してください。 |
+|ユーザーのために個人用デバイスを購入するか? |「[Teams でのデバイスを管理する](devices/device-management.md)」を参照してください。 |
 |会議室に会議室システムのデバイスを購入して配備するか?|「[会議室のデバイスとソリューション](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」を参照してください。|
 |||
 
