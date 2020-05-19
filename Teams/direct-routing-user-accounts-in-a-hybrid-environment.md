@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: ユーザー作成のさまざまな組み合わせと、サポートされている組み合わせとサポートされていない組み合わせについて説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779996"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280256"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
 
@@ -65,7 +65,7 @@ PSTN 接続を使用した Skype for Business ハイブリッド環境では、�
 |**サポートされていない組み合わせ**    | |         |         |      |
 |Azure AD| オンプレミス/オンライン | Skype for Business/Microsoft Teams|エンタープライズ音声/ハイブリッドボイス接続/直接ルーティング  |いいえ。オンプレミスの広告では、最初にユーザーオブジェクトを作成する必要があります |
 |オンプレミス広告  |オンプレミス| Microsoft Teams| エンタープライズ音声/ハイブリッドボイス接続/直接ルーティング   |いいえ、Microsoft Teams クライアントはオンプレミスの Skype for Business ではサポートされていません |     
-|オンプレミス広告  |オンライン |Skype for Business  | ダイレクト ルーティング  |いいえ。 skype for business クライアントでは、直接ルーティングはサポートされておらず、Skype for Business では、ユーザーはエンタープライズ Voip を有効にしておく必要があります。  |
+|オンプレミス広告  |オンライン |Skype for Business  | ダイレクト ルーティング  |いいえ。 Skype for Business クライアントでは、直接ルーティングはサポートされていません  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN を使ったハイブリッド環境のサポートに関する声明

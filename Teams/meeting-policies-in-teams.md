@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256502"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278200"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -401,6 +401,23 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 これは開催者単位のポリシーです。 この設定は、ユーザーの会議で会議チャットを許可するかどうかを制御します。
 
 <a name="bkparticipantsandguests"> </a>
+
+## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>会議ポリシー設定-指定されたプレゼンターロールモード
+
+これは、ユーザーごとのポリシーです。 この設定では、Teams クライアントの [**会議オプション**] の設定を変更する**こと**ができます。 このポリシー設定は、[今すぐ会議] を含むすべての会議に影響します。
+
+[**発表者]** : 会議の開催者が会議で発表者になれるユーザーを選択できるように設定します。 詳細については、「teams 会議のチーム会議と[ロール](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)[の参加者設定を変更](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)する」を参照してください。
+
+現時点では、このポリシー設定を構成するには PowerShell を使用する必要があります。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
+
+Teams で [**表示できるユーザー]** の既定値を指定するには、 **Designatedpresenterrolemode**パラメーターを次のいずれかに設定します。
+
+- すべてのユーザーの**上書き**: すべての会議参加者を発表者にすることができます。 これは既定の値です。 このパラメーターは、Teams の [**すべてのユーザー** ] 設定に対応します。
+- すべてのユーザーの**上書き**: ゲストユーザーを含む、組織内の認証済みユーザーは発表者になることができます。 このパラメーターは、Teams の **[組織内のユーザー** ] 設定に対応します。
+- **EveryoneInSameAndFederatedCompanyUserOverride**: 組織内の認証済みユーザー (ゲストユーザーやフェデレーションされた組織のユーザーを含む) は、発表者になることができます。 このパラメーターは、 **[組織内のユーザー] と [Teams の信頼済み組織**] の設定に対応します。
+- 構成内容の**上書き**: 会議の開催者のみが発表者になり、すべての会議参加者が出席者として指定されます。 このパラメーターは、Teams の [**自分のみ**] の設定に対応しています。
+
+既定値を設定した後でも、会議の開催者は Teams でこの設定を変更することができ、スケジュールした会議で発表できるユーザーを選択することに注意してください。
 
 ## <a name="meeting-policy-settings---meeting-attendance-report"></a>会議のポリシー設定-会議出席依頼のレポート
 

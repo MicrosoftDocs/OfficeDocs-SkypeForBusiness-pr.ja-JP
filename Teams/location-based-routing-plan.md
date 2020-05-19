@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836547"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280276"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -133,7 +133,7 @@ PSTN エンドポイントが含まれている場合、場所に基づくルー
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>位置情報に基づくルーティングでユーザーが有効にされていない
 
-位置情報に基づくルーティングが有効になっていないユーザーは、位置情報に基づくルーティングが有効になっていない他のユーザーに PSTN 通話を転送または転送することができます。 位置情報に基づくルーティングが有効になっているユーザーは、通常、位置情報に基づくルーティングが有効になっているユーザーに PSTN 通話を転送または転送することはできません。通常は、PSTN の位置情報に基づくルーティングを有効にしたゲートウェイにのみ参加することができます。通話. この例外は、位置情報に基づくルーティングが有効になっていないサイトにユーザーがローミングする場合に発生します。 このシナリオでは、転送された通話が許可されています。  
+位置情報に基づくルーティングが有効になっていないユーザーは、位置情報に基づくルーティングが有効になっていない他のユーザーに PSTN 通話を転送または転送することができます。 位置情報に基づくルーティングが有効になっているユーザーは、通常、位置情報に基づくルーティングが有効になっているユーザーに対して PSTN 通話を転送または転送することはできません。通常は、PSTN 通話の位置情報に基づくルーティングが有効なゲートウェイにのみ参加することができます。 この例外は、位置情報に基づくルーティングが有効になっていないサイトにユーザーがローミングする場合に発生します。 このシナリオでは、転送された通話が許可されています。  
 
 同様に、位置情報に基づくルーティングが有効になっていないユーザーは、位置情報に基づくルーティングが有効になっていない他のユーザーから転送または転送された PSTN 通話のみを受信できます。 
 
@@ -250,11 +250,15 @@ Teams web クライアントと Skype for Business クライアントはサポ�
 
 PSTN 通話の位置情報に基づくルーティングが有効になっているユーザーは、他のユーザーや PSTN 番号との会議を開始することはできません。 自動応答または通話キューへの接続は許可されています。 ユーザーが会議ライセンスを持っている場合は、ユーザーは関連ユーザーとの会議を開始して、電話会議を開始するために会議ブリッジ経由で PSTN に通話を発信する必要があります。  
 
+### <a name="media-bypass-requirement-for-location-based-routing"></a>場所に基づくルーティングのメディアバイパスの要件
+
+インドで位置情報に基づくルーティングを展開する場合は、メディアのバイパスも構成する必要があります。 詳細については、「[ダイレクトルーティングによるメディアバイパスの計画](direct-routing-plan-media-bypass.md)」を参照してください。
+
 ## <a name="next-steps"></a>次のステップ
 
 「[場所に基づくルーティングのネットワーク設定を構成](location-based-routing-configure-network-settings.md)する」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 - [Teams でのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)
