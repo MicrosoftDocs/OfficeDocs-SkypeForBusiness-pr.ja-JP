@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042214"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321616"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -32,7 +32,7 @@ Teams 会議アドインを使用すると、ユーザーは Outlook から Team
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows 用 Outlook の Teams 会議アドイン
 
-Teams の会議アドインは、Microsoft Teams と Office 2010、Office 2013 または Office 2016 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。 Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。
+Microsoft Teams を所有しているユーザー、および Office 2013、Office 2016、または Office 2019 が Windows PC にインストールされているユーザーの場合、Teams 会議アドインが自動的にインストールされます。 Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。
 
 ![Outlook リボン上の Teams 会議アドインのスクリーンショット](media/Teams-add-in-for-Outlook.png)
 
@@ -65,12 +65,12 @@ iOS と Android の Outlook アプリの最新ビルドには、Teams 会議ボ�
 ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Outlook の Teams 会議アドインと FindTime
-FindTime は、Outlook 用のアドインです。これは、企業全体の会議時間に関してユーザが合意できるようにします。 会議の招待者が希望の時間を提示したら、FindTime はユーザーの代わりに会議出席依頼を送信します。 FindTime で [**オンライン会議**] オプションが選択されている場合、FindTime は Skype for Business または Microsoft Teams の会議をスケジュールします。 (FindTime は、既定のオンライン会議チャネルとして、組織が設定したものを使用します。)
+FindTime は、Outlook 用のアドインであり、ユーザーが会社間の会議の時間に合意したときに役立ちます。 会議の招待者が希望の時間を提示したら、FindTime はユーザーの代わりに会議出席依頼を送信します。 FindTime で [**オンライン会議**] オプションが選択されている場合、FindTime は Skype for Business または Microsoft Teams の会議をスケジュールします。 (FindTime は、既定のオンライン会議チャネルとして、組織が設定したものを使用します。)
 
 > [!NOTE]  
 > [Findtime ダッシュボード](https://findtime.microsoft.com/UserDashboard)で Skype for Business の設定を保存した場合、FindTime は Microsoft Teams の代わりにその設定を使用します。 Microsoft Teams を使用する場合は、ダッシュボードの Skype for Business の設定を削除します。
 
-詳細については、「[FindTime で会議をスケジュールする](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)」を参照してください。
+詳細については、「 [FindTime での会議のスケジュール](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)」を参照してください。
 
 ## <a name="authentication-requirements"></a>認証要件
 
@@ -128,7 +128,8 @@ Teams Meeting add-in for Outlook のアドインをインストールできな�
 - チームでの会議のスケジュールを有効にするチームのアップグレードポリシーがユーザーにあることを確認します。 詳細については、「 [Skype For business から Teams にアップグレードする](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
 - Outlook アドインを許可する Teams 会議ポリシーがユーザーにあることを確認します。 詳細については、「 [Teams の会議ポリシーを管理](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)する」を参照してください。
 - ユーザーに Teams デスクトップクライアントがインストールされていることを確認します。 会議アドインは、Teams web クライアントを使用している場合にのみインストールされます。
-- ユーザーが regsvr32 を実行するためのアクセス許可を持っていることを確認します。  詳細については、こちらを参照してくださいhttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
+- ユーザーに Outlook 2013 以降がインストールされていることを確認します。
+- ユーザーが regsvr32 を実行するためのアクセス許可を持っていることを確認します。
 - Outlook デスクトップクライアントで利用できるすべての更新プログラムが適用されていることを確認します。
 - 次の手順を実行します。
   - Teamsのデスクトップ クライアントを再起動します。

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278170"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321746"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>チームターゲット設定の階層を設定する
 
@@ -116,7 +116,7 @@ CSV ファイルには、次の3つの列を、最初の列から順に入力す
 ## <a name="apply-your-hierarchy"></a>階層を適用する
 
 > [!IMPORTANT]
-> この手順を実行するには、PowerShell テストギャラリーから最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 この方法については、「 [Powershell テストギャラリーから最新の Teams powershell モジュールをインストール](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)する」を参照してください。
+> この手順を実行するには、 [Powershell テストギャラリー](https://www.poshtestgallery.com/packages/MicrosoftTeams/)から最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「[プレリリース版の Teams PowerShell モジュールをインストール](install-prerelease-teams-powershell-module.md)する」を参照してください。
 
 スキーマ CSV ファイルで階層を定義したら、それを Teams にアップロードできます。 これを行うには、次のコマンドを実行します。 この手順を実行するには、グローバル管理者または Teams サービス管理者である必要があります。
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>階層を削除する
 
 > [!IMPORTANT]
-> この手順を実行するには、PowerShell テストギャラリーから最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 この方法については、「 [Powershell テストギャラリーから最新の Teams powershell モジュールをインストール](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)する」を参照してください。
+> この手順を実行するには、 [Powershell テストギャラリー](https://www.poshtestgallery.com/packages/MicrosoftTeams/)から最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「[プレリリース版の Teams PowerShell モジュールをインストール](install-prerelease-teams-powershell-module.md)する」を参照してください。
 
 組織内のすべてのユーザーに対して [**発行済みのリスト**] タブをすぐに無効にする場合は、階層を削除できます。 ユーザーは、[**発行済みリスト**] タブまたはタブのいずれかの機能にアクセスできません。 これには、発行するための新しいタスクリストを作成したり、下書きリストにアクセスしたり、リストにアクセスしたり、リストを公開したり、レポートを表示したりする機能が含まれます。 階層を削除しても、以前に公開されたタスクは発行されません。 これらのタスクは、受信者のチームが完了するまで、引き続き利用できます。 
 
@@ -136,60 +136,6 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ```powershell
 Remove-TeamTargetingHierarchy
 ```
-
-### <a name="teams-powershell-module"></a>Teams Powershell モジュール
-
-#### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell テストギャラリーから最新の Teams PowerShell モジュールをインストールする
-
-最新の一般公開バージョンの Teams PowerShell モジュール (現在[1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) では、チーム階層の管理はサポートされていません。 次の手順を使用して、PowerShell テストギャラリーから、team hierarchy サポートを含む最新バージョンの Teams PowerShell モジュールをインストールします。
-
-> [!NOTE]
-> PowerShell テストギャラリーから、パブリック PowerShell ギャラリーのバージョンのモジュールと共に Teams PowerShell モジュールをインストールしないでください。 次の手順に従って、最初にパブリック PowerShell ギャラリーから Teams PowerShell モジュールをアンインストールしてから、PowerShell テストギャラリーから最新バージョンのモジュールをインストールします。
-
-1. 既存のすべての PowerShell セッションを終了します。
-2. Windows PowerShell モジュールの新しいインスタンスを開始します。
-3. パブリック PowerShell ギャラリーから Teams PowerShell モジュールをアンインストールするには、次の操作を実行します。
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. 既存のすべての PowerShell セッションを終了します。
-5. もう一度 Windows PowerShell モジュールを起動し、次の操作を実行して、PowerShell テストギャラリーを信頼できるソースとして登録します。
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. 次の操作を実行して、PowerShell テストギャラリーから最新の Teams PowerShell モジュールをインストールします。
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. 次の操作を実行して、PowerShell テストギャラリーの最新バージョンの Teams PowerShell モジュールが正常にインストールされていることを確認します。
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell テストギャラリーから最新バージョンの Teams PowerShell モジュールに更新する
-
-PowerShell テストギャラリーから既に Teams PowerShell モジュールをインストールしている場合は、次の手順を使用して最新バージョンに更新します。
-
-1. 既存のすべての PowerShell セッションを終了します。
-2. Windows PowerShell モジュールの新しいインスタンスを開始します。
-3. 次の操作を実行して、PowerShell テストギャラリーから現在インストールされている Teams PowerShell モジュールのバージョンを更新します。
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. 次の操作を実行して、PowerShell テストギャラリーの最新バージョンの Teams PowerShell モジュールが正常にインストールされていることを確認します。
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
@@ -200,3 +146,4 @@ PowerShell テストギャラリーから既に Teams PowerShell モジュール
 ## <a name="related-topics"></a>関連項目
 
 - [Teams で組織のタスクアプリを管理する](manage-tasks-app.md)
+- [Teams での PowerShell の概要](teams-powershell-overview.md)

@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織内のプライベートチャネルのライフサイクルを管理する方法について説明します。
-ms.openlocfilehash: 10746605895732af19a43ffb85df06a81ae34316
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997248"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321703"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートチャネルのライフサイクルを管理する
 
 ここでは、組織内の[プライベートチャネル](private-channels.md)のライフサイクルを管理するために必要なガイダンスについて説明します。
 
 > [!IMPORTANT]
-> この記事の PowerShell の手順を使用してプライベートチャネルを管理している場合は、PowerShell テストギャラリーから最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 この方法については、「 [Powershell テストギャラリーから最新の Teams powershell モジュールをインストール](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)する」を参照してください。 最新の一般公開バージョンの Teams PowerShell モジュール (現在[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) では、プライベートチャネルの管理はサポートされていません。
+> この記事の PowerShell の手順を使用してプライベートチャネルを管理している場合は、 [Powershell テストギャラリー](https://www.poshtestgallery.com/packages/MicrosoftTeams/)から最新のプレリリース版の Teams PowerShell モジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「[プレリリース版の Teams PowerShell モジュールをインストール](install-prerelease-teams-powershell-module.md)する」を参照してください。 最新の一般公開バージョンの Teams PowerShell モジュールは、プライベートチャネルの管理をサポートしていません。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>チームメンバーがプライベートチャネルを作成できるかどうかを設定する
 
@@ -102,7 +102,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
 1. 管理者アカウントを使用して、 [SharePoint Online 管理シェル](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)をインストールして接続します。
-2. &lt;Group_id&gt;がチームのグループ id である場合は、次のように実行します。 (チームへのリンクでグループ ID を簡単に見つけることができます。)
+2. &lt;Group_id &gt; がチームのグループ id である場合は、次のように実行します。 (チームへのリンクでグループ ID を簡単に見つけることができます。)
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -146,7 +146,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. SharePoint URL を取得するプライベートチャネルごとに、次のように要求します。ここ&lt;で&gt; channel_id はチャネル id です。
+2. SharePoint URL を取得するプライベートチャネルごとに、次のように要求し &lt; ます。ここで channel_id &gt; はチャネル id です。
 
     **要求**
 
@@ -184,7 +184,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
-1. 次を実行します&lt;。&gt;ここでは、group_id がチームの&lt;グループ&gt; id であり、channel_name がチャネル名であることを示します。
+1. 次を実行し &lt; ます。ここでは、group_id &gt; がチームのグループ id で &lt; あり、channel_name &gt; がチャネル名であることを示します。
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
@@ -200,7 +200,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 これらのコマンドは、 [Graph エクスプローラ](https://developer.microsoft.com/graph/graph-explorer)から試すことができます。
 
-1. 以下を使用します&lt;。&gt;ここでは、group_id がチームの&lt;グループ&gt; id であり、channel_id がチャネル id です。
+1. 以下を使用します。ここでは、 &lt; group_id &gt; がチームのグループ id で &lt; あり、CHANNEL_ID &gt; がチャネル id です。
 
     **要求**
 
@@ -236,7 +236,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
           ]
     }
     ```    
-2.     メンバーを所有者に昇格させるには、次&lt;の&gt;よう&lt;に&gt;します&lt;。&gt; group_id、channel_id、id は前の呼び出しから返されます。 ただし、 &lt;前&gt;の&lt;通話&gt;から返された id と userId は同じではないため、互換性がありません。 Id &lt;&gt;を使用していることを確認してください。
+2. メンバーを所有者に昇格させるには、次のようにし &lt; &gt; &lt; ます。 group_id、channel_id &gt; 、 &lt; id &gt; は前の呼び出しから返されます。 ただし、 &lt; &gt; &lt; &gt; 前の通話から返された id と userId は同じではないため、互換性がありません。 Id を使用していることを確認してください &lt; &gt; 。
 
     **要求**
 
@@ -265,60 +265,6 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
       "userId": "userId-value",
       "email": "email-value"
      }
-    ```
-
-## <a name="teams-powershell-module"></a>Teams Powershell モジュール
-
-### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell テストギャラリーから最新の Teams PowerShell モジュールをインストールする
-
-最新の一般公開バージョンの Teams PowerShell モジュール (現在[1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) では、プライベートチャネルの管理はサポートされていません。 次の手順を使用して、PowerShell テストギャラリーからプライベートチャネルのサポート (現在 1.0.21) を使用して、最新バージョンの Teams PowerShell モジュールをインストールします。
-
-> [!NOTE]
-> PowerShell テストギャラリーから、パブリック PowerShell ギャラリーのバージョンのモジュールと共に Teams PowerShell モジュールをインストールしないでください。 次の手順に従って、最初にパブリック PowerShell ギャラリーから Teams PowerShell モジュールをアンインストールしてから、PowerShell テストギャラリーから最新バージョンのモジュールをインストールします。
-
-1. 既存のすべての PowerShell セッションを終了します。
-2. Windows PowerShell モジュールの新しいインスタンスを開始します。
-3. パブリック PowerShell ギャラリーから Teams PowerShell モジュールをアンインストールするには、次の操作を実行します。
-
-    ```PowerShell
-    Uninstall-Module -Name MicrosoftTeams
-    ```
-
-4. 既存のすべての PowerShell セッションを終了します。
-5. もう一度 Windows PowerShell モジュールを起動し、次の操作を実行して、PowerShell テストギャラリーを信頼できるソースとして登録します。
-
-    ```PowerShell
-    Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
-    ```
-
-6. 次の操作を実行して、PowerShell テストギャラリーから最新の Teams PowerShell モジュールをインストールします。
-
-    ```PowerShell
-    Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
-    ```
-
-7. 次の操作を実行して、PowerShell テストギャラリーの最新バージョンの Teams PowerShell モジュールが正常にインストールされていることを確認します。
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
-    ```
-
-#### <a name="update-to-the-latest-version-of-the-teams-powershell-module-from-the-powershell-test-gallery"></a>PowerShell テストギャラリーから最新バージョンの Teams PowerShell モジュールに更新する
-
-PowerShell テストギャラリーから既に Teams PowerShell モジュールをインストールしている場合は、次の手順を使用して最新バージョンに更新します。
-
-1. 既存のすべての PowerShell セッションを終了します。
-2. Windows PowerShell モジュールの新しいインスタンスを開始します。
-3. 次の操作を実行して、PowerShell テストギャラリーから現在インストールされている Teams PowerShell モジュールのバージョンを更新します。
-
-    ```PowerShell
-    Update-Module -Name MicrosoftTeams -Force
-    ```
-
-4. 次の操作を実行して、PowerShell テストギャラリーの最新バージョンの Teams PowerShell モジュールが正常にインストールされていることを確認します。
-
-    ```PowerShell
-    Get-Module -Name MicrosoftTeams
     ```
 
 ## <a name="related-topics"></a>関連項目
