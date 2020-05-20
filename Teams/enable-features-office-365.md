@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2ec2956b3fc448f4408cefd7e7bf323898cc7d2
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: d39ec3f7bb6a5454c25acf859e335993ed275a71
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898102"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042504"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -75,7 +75,7 @@ Microsoft Teams での**ゲスト アクセス**により、組織内のチー�
 
 ファイル共有オプションおよびファイル保存オプションをオンまたはオフにすることができます。
 
-ユーザーは Teams のチャネルやチャットでクラウド ストレージ サービスを介して、ファイルのアップロードや共有を行うことができます。現時点では、Teams のクラウド ストレージ オプションには、Box、Dropbox、Google ドライブ、[Egnyte](https://www.egnyte.com) があります。自分の組織で使用することになるクラウド ストレージ プロバイダのスイッチをオンにします。
+ユーザーは Teams のチャネルやチャットでクラウド ストレージ サービスを介して、ファイルのアップロードや共有を行うことができます。現時点では、Teams のクラウド ストレージ オプションには、Box、Dropbox、Google ドライブ、Egnyte (近日予定) があります。自分の組織で使用することになるクラウド ストレージ プロバイダのスイッチをオンにします。
 
 #### <a name="organization"></a>組織
 

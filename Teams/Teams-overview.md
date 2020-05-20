@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 256c86eec1fba1526ef8e7a17fbb07db4c5d3e32
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 8aad3af888bb071ad871d67d964b0ae388684a15
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940684"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43996998"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
@@ -100,7 +100,7 @@ Skype for Business を実行していて、Teams にアップグレードする�
 
 ## <a name="teams-known-issues"></a>Teams の既知の問題
 
-「[Teams の既知の問題](Known-issues.md)」を参照してください。
+「[組織で Teams をサポートする](Known-issues.md)」を参照してください。
 
 ## <a name="teams-client-release-notes"></a>Teams クライアントのリリース ノート
 

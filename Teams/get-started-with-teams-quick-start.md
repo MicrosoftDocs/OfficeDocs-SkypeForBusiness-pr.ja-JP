@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72c6c4c959350c8320c908b4e9f4a9c649eb8d7b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136777"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042804"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
@@ -55,7 +55,7 @@ Teams をロールアウトする準備を整えるために実行する必要�
 - [Teams 用に組織のネットワークを準備する](prepare-network.md)
     - これには、Office 365 ドメイン、SharePoint Online、Exchange Online、OneDrive for Business の構成が含まれます。
 
-- すべてのユーザーの Teams のライセンスを取得する。 [Teams のプラン](https://products.office.com/microsoft-teams/free)と [Teams 用 Office 365 ライセンス](office-365-licensing.md)を確認してください。 
+- すべてのユーザーの Teams のライセンスを取得する。 [チーム プラン](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)と [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)を確認します。
 
 - [デスクトップ、Web、モバイル クライアントをインストールするメリットについて学ぶ](get-clients.md)
 
@@ -65,7 +65,7 @@ Teams をロールアウトする準備を整えるために実行する必要�
    - [Skype for Business Server と Office 365 の間のハイブリッド接続を計画する](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-> 組織でオンプレミスの Skype for Business Server (または Lync Server) を実行している場合、オンプレミスのディレクトリと Office 365 を同期するよう [Azure AD Connect を構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)する必要があります。 
+   > 組織でオンプレミスの Skype for Business Server (または Lync Server) を実行している場合、オンプレミスのディレクトリと Office 365 を同期するよう [Azure AD Connect を構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)する必要があります。 
 
 
 ## <a name="next-steps"></a>次の手順
