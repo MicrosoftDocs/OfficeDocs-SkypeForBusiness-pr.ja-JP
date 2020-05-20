@@ -60,11 +60,12 @@
 ### [Teams でのアプリの管理設定](admin-settings.md)
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Microsoft 365 または Office 365 とカスタム コネクタを使用する](Office-365-custom-connectors.md)
+### [リソース固有の同意](resource-specific-consent.md)
 ### [自分のカスタム アプリを管理する](manage-your-custom-apps.md)
 ### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [組織のタスク アプリを管理する](manage-tasks-app.md)
 ### [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
+### [組織のタスク アプリを管理する](manage-tasks-app.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 外部ユーザーと通信する
@@ -138,6 +139,7 @@
 ## [Teams のクラウド会議の記録](cloud-recording.md)
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ## [ユーザーの [電話する] 機能をセットアップする](set-up-the-call-me-feature-for-your-users.md)
+## [会議出席レポートを入手する](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Microsoft Teams ミーティング](rooms/index.md)
 ## [Teams でホワイトボードを管理する](manage-whiteboard.md)
@@ -244,7 +246,7 @@
 #### [クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
 #### [小規模ビジネスの例: 自動応答をセットアップする](tutorial-org-aa.yml)
 #### [小規模ビジネスの例 - 呼び出しキューをセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Microsoft Teams のリソースのアカウントの管理](manage-resource-accounts.md)
+#### [Teams のリソース アカウントを管理する](manage-resource-accounts.md)
 #### [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
 #### [自動応答および呼び出しキューの通話に Teams から直接応答する](answer-auto-attendant-and-call-queue-calls.md)
 
@@ -602,6 +604,7 @@
 # 業界および政府機関向けのガイダンス
 ## [概要](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
+## [予約アプリと仮想訪問](bookings-app-admin.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Microsoft StaffHub PowerShell モジュールをインストールする](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -626,7 +629,7 @@
 ## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
 ### [リモート学習の開始](remote-learning-edu.md)
-### [EDU 管理者向けの Microsoft Teams ポリシー パッケージ](policy-packages-edu.md)
+### [Teams EDU ポリシーおよびポリシー パッケージ](policy-packages-edu.md)
 ### [多数のユーザー セットにポリシーを割り当てる](batch-policy-assignment-edu.md)
 ### [教育機関管理者向けの低帯域幅ガイダンス](edu-remote-low-bandwidth.md)
 ### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
@@ -751,6 +754,7 @@
 ## Microsoft 365 や Office 365 との相互運用性
 
 ### [Microsoft 365 グループと Teams](office-365-groups.md)
+### [Microsoft 365 管理センターを使用して、Microsoft 365 リソース アカウントを作成する](devices/resource-account-ui.md)
 ### [既存の Microsoft 365 グループを Teams で強化する](enhance-office-365-groups.md)
 ### [Exchange と Teams の連携](exchange-teams-interact.md)
 #### [Teams で使用する Exchange ハイブリッド展開の組織を構成する](exchange-hybrid-organization.md)
@@ -760,11 +764,12 @@
 
 
 ## サポート対象のデバイス
-### [Teams でのデバイスの管理](device-management.md)
-### [Teams 対応の電話機](phones-for-teams.md)
-### [USB オーディオ デバイスおよびビデオ デバイス](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Teams でのデバイスの管理](devices/device-management.md)
+### [Teams 対応の電話機](devices/phones-for-teams.md)
+### [USB オーディオ デバイスおよびビデオ デバイス](devices/usb-devices.md)
+### [Microsoft Teams の共同作業バーを展開する](devices/collab-bar-deploy.md)
 ### [会議室のデバイスとソリューション](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Microsoft Teams 認定 IP 電話](teams-ip-phones.md)
+### [Microsoft Teams 認定 IP 電話](devices/teams-ip-phones.md)
 ### [Skype for Business Online 対応の電話機](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
