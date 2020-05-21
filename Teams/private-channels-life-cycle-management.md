@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織内のプライベートチャネルのライフサイクルを管理する方法について説明します。
-ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321703"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326694"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートチャネルのライフサイクルを管理する
 
@@ -180,7 +180,11 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 プライベートチャネルの所有者とメンバーの一覧を表示して、プライベートチャネルの特定のメンバーを所有者に昇格させる必要があるかどうかを判断することができます。 この問題は、プライベートチャネルの所有者が組織を離れていて、プライベートチャネルでチャネルの所有権を要求するために管理者のヘルプが必要な場合に発生します。
 
-管理者として、PowerShell または Graph Api コマンドを使って、これらの Url を照会することができます。
+管理者は、Microsoft Teams 管理センター、PowerShell、または Graph API を使って、これらの操作を実行できます。
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+
+Microsoft Teams 管理センターを使用してチームメンバーを管理する方法については、「 [Microsoft teams 管理センターで](manage-teams-in-modern-portal.md)チームを管理する」を参照してください。
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 

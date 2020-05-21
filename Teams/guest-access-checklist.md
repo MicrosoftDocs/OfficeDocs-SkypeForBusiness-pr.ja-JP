@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9d91731792dd049f76d781c4a0be08e92d09e0bb
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902582"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326604"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams のゲスト アクセスのチェックリスト
 =========================================
@@ -31,7 +31,7 @@ ms.locfileid: "43902582"
 このチェックリストは、Microsoft Teams のゲスト アクセスを有効にして、構成するのに役立ちます。 これらの変更を行うには、グローバル管理者または Teams の管理者である必要があります。
 
 > [!IMPORTANT]
-> 変更が有効になるまで、数時間かかる場合があります。 
+> 変更が反映されるまでに数時間かかる場合があります。 
 
 この短いビデオ (5 分 31 秒) で、Teams を含む、Microsoft 365 全体でゲスト アクセスを有効する方法について説明します。
 
@@ -39,7 +39,7 @@ ms.locfileid: "43902582"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>手順 1: Teams の組織全体レベルでゲスト アクセスを有効にする
 
-ゲスト アクセスを有効にするには、**Microsoft Teams 管理センター**に移動します。 
+ゲストアクセスを有効にするには、の管理センターに移動 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> します。 
 
 1. Teams 管理センターで、**[組織全体の設定]** > **[ゲスト アクセス]** を選択します。
 2. **[Microsoft Teams でのゲスト アクセスを許可]** のスイッチを **[オン]** に設定します。
@@ -78,7 +78,7 @@ ms.locfileid: "43902582"
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>手順 3: Microsoft 365 グループを構成する
 
-1. Microsoft 365 管理センターで、[**設定** > の**設定**] に移動し、[**サービス**] をクリックして、[ **microsoft 365 グループ**] を選択します。
+1. Microsoft 365 管理センターで、[**設定**  >  の**設定**] に移動し、[**サービス**] をクリックして、[ **microsoft 365 グループ**] を選択します。
 
      ![スクリーンショットは Microsoft 365 グループの設定を示しています。](media/guest-access-checklist-services-settings.png)
 2. **[組織外のグループ メンバーがグループ コンテンツにアクセスできるようにします]** のチェックボックスがオンになっていることを確認します。 この設定がオフになっていると、ゲストはどのグループ コンテンツにもアクセスすることはできません。

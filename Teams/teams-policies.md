@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: dc3d5fa4880f3255017b535657a4a32a51789c82
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 392bbb3c97cf32e815f81073bf662d4d6280ae75
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836967"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326654"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams でチーム ポリシーを管理する
 
@@ -37,7 +37,7 @@ ms.locfileid: "41836967"
 
 チーム ポリシーを管理するには、Microsoft Teams 管理センターで **[Teams]** > **[チーム ポリシー]** の順に移動します。 グローバル (組織全体の既定) ポリシーを使用することも、カスタム ポリシーを作成してユーザーに割り当てることもできます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。
 
-グローバル ポリシーを編集するか、カスタム ポリシーを作成して割り当てることもできます。 ユーザーにカスタム ポリシーが割り当てられると、そのポリシーがユーザーに適用されます。 ユーザーにカスタム ポリシーが割り当てられない場合は、グローバル ポリシーがユーザーに適用されます。 グローバル ポリシーを編集するか、ポリシーを割り当てた後、変更が反映されるまでに最大で 24 時間かかる場合があります。
+グローバル ポリシーを編集するか、カスタム ポリシーを作成して割り当てることもできます。 ユーザーにカスタム ポリシーが割り当てられると、そのポリシーがユーザーに適用されます。 ユーザーにカスタム ポリシーが割り当てられない場合は、グローバル ポリシーがユーザーに適用されます。 グローバルポリシーを編集するか、ポリシーを割り当てると、変更が有効になるまでに数時間かかることがあります。
 
 ## <a name="create-a-custom-teams-policy"></a>カスタムのチーム ポリシーを作成する
 
@@ -83,7 +83,7 @@ Microsoft Teams 管理センターを使用して、1 つ以上のユーザー�
 
 ### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>グループのユーザーにカスタムのチーム ポリシーを割り当てる
 
-あらかじめ特定した複数のユーザーにカスタムのチーム ポリシーを割り当てることができます。 たとえば、セキュリティ グループのすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Graph 用 Azure Active Directory PowerShell モジュールと Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
+ユーザー設定のチームポリシーは、既に特定した複数のユーザーに割り当てることができます。 たとえば、セキュリティ グループのすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Graph 用 Azure Active Directory PowerShell モジュールと Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
 
 この例では、「Marketing Teams Policy」という名前のチーム ポリシーを、Contoso マーケティング グループのすべてのユーザーに割り当てます。  
 

@@ -16,12 +16,12 @@ description: この記事では、Microsoft Teams の情報障壁の概要と、
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2bbe2f38fe56e6952952730b7ba74dda1a98398f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904979"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326744"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -64,7 +64,7 @@ ms.locfileid: "43904979"
 情報バリアポリシーは、PowerShell コマンドレットを使用して Microsoft 365 コンプライアンスセンター (SCC) で管理されます。 詳細については、「[情報バリアのポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)する」を参照してください。
 
 > [!IMPORTANT]
-> ポリシーを設定または定義する前に、 **Microsoft Teams でスコープ指定されたディレクトリ検索を有効にする必要があり**ます。 スコープ指定されたディレクトリ検索を有効にしてから、情報バリアのポリシーを設定または定義する前に、少なくとも24時間待機します。 詳細に[ついては、「情報の障壁の前提条件」を参照して](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)ください。
+> ポリシーを設定または定義する前に、 **Microsoft Teams でスコープ指定されたディレクトリ検索を有効にする必要があり**ます。 スコープ指定されたディレクトリ検索を有効にしてから、情報バリアのポリシーを設定または定義する前に、少なくとも数時間待ってください。 詳細に[ついては、「情報の障壁の前提条件」を参照して](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)ください。
 
 ## <a name="information-barriers-administrator-role"></a>情報障壁管理者の役割
 

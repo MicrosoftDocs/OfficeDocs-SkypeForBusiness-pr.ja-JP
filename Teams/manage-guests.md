@@ -17,18 +17,18 @@ description: 初めてのチームとチャネルを作成する方法、早期�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 83f4e4cdff4515f89a5b3fe68c91d848f9ae5dda
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777842"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326454"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを管理する
 ======================================
 
 > [!IMPORTANT]
-> 変更が有効になるまで最大で 24 時間かかる場合があります。 
+> 変更が反映されるまでに数時間かかる場合があります。 
 
 **ゲスト**は、microsoft Teams で、すべての Microsoft 365 ビジネス標準、Office 365 Enterprise、Microsoft 365 Business Basic、Office 365 エデュケーションサブスクリプションに含まれているユーザーの種類です。 追加の Office 365 ライセンスは不要です。 [ゲスト アクセス ライセンス](#guest-access-licensing-limits)の詳細については、以下を参照してください。
 
@@ -64,7 +64,7 @@ Teams では追加することができるゲストの数に制限はありま�
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>ゲスト アクセス設定が有効になるまでのラグ タイム
 
-Azure Active Directory のゲストアクセスの設定では、Microsoft 365 または Office 365 全体で変更が有効になるまでに、2-24 時間かかります。 ユーザーがチームにゲストを追加しようとするときに「Contact your administrator (管理者にお問い合わせください)」というメッセージが表示される場合、ゲスト機能がオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。 ゲスト アクセスの設定の問題に関するヘルプについては、「[Teams でのゲスト アクセスのトラブルシューティング](troubleshoot-guest-access.md)」を参照してください。
+Azure Active Directory のゲストアクセス設定の場合、変更が Microsoft 365 または Office 365 全体で有効になるまでに数時間かかります。 ユーザーがチームにゲストを追加しようとするときに「Contact your administrator (管理者にお問い合わせください)」というメッセージが表示される場合、ゲスト機能がオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。 ゲスト アクセスの設定の問題に関するヘルプについては、「[Teams でのゲスト アクセスのトラブルシューティング](troubleshoot-guest-access.md)」を参照してください。
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>外部アクセス (フェデレーション) とゲスト アクセス

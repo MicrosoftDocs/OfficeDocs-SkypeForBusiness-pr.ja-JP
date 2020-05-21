@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015/2019 と Lync 2013 の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムに関する詳細情報を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220547"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326574"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
@@ -54,6 +54,7 @@ KB 4470124 は、公開されているすべての累積的な更新プログラ
 
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015 累積更新プログラム11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020年5月13日 |
 |Skype for Business Server 2015 累積更新プログラム10修正プログラム1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
 |Skype for Business Server 2015 累積更新プログラム10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 7 月 |
 |累積的な更新プログラム 9 (Skype for Business Server 2015、Web コンポーネントサーバー)|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 年 5 月 |

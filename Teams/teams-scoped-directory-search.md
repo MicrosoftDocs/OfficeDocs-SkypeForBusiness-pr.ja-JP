@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341771"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326594"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
 
@@ -51,7 +51,7 @@ Microsoft Teams を使用すると、組織はディレクトリのカスタム�
 
 1. 情報バリアポリシーを使用して、組織を仮想サブグループに構成します。 詳細については、「[情報バリアポリシーを定義](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)する」を参照してください。
 
-2. Microsoft Teams 管理センターで、[**組織全体の設定** > **チームの設定**] を選択します。
+2. Microsoft Teams 管理センターで、[**組織全体の設定**チームの設定] を選択し  >  **Teams settings**ます。
 
 3. [**検索**] の [ **Exchange アドレス帳ポリシー (abp) を使用して Teams で検索**する] の横にある [オン **] に切り替えます。**
 
@@ -59,4 +59,4 @@ Microsoft Teams を使用すると、組織はディレクトリのカスタム�
 
 
 > [!IMPORTANT]
-> この変更は、複製に最大24時間かかることがあります。
+> この変更は、複製に数時間かかる場合があります。

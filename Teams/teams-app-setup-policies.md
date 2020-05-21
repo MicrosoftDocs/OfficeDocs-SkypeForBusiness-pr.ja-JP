@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064482"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326774"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -58,7 +58,7 @@ ms.locfileid: "44064482"
 
 Microsoft Teams 管理センターを使用して、カスタムポリシーを作成することができます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動します。
 2. **[追加]** をクリックします。
     ![[アプリセットアップポリシーの追加] ページを示すスクリーンショット](media/app-setup-policies-add.png)
 3. ポリシーの名前と説明を入力します。
@@ -86,7 +86,7 @@ Microsoft Teams 管理センターを使用して、カスタムポリシーを�
 
 Microsoft Teams 管理センターを使って、作成するグローバル (組織全体の既定) ポリシーやカスタムポリシーなどのポリシーを編集できます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動します。
 2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** をクリックします。
 3. ここで、必要な変更を行います。
 4. **[保存]** をクリックします。
@@ -105,7 +105,7 @@ Microsoft Teams 管理センターを使用して、カスタムポリシーを�
 
 または、次の操作も実行できます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動します。
 2. ポリシー名の左側をクリックしてポリシーを選びます。
 3. [**ユーザーを管理**] を選択します。
 4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
@@ -161,7 +161,7 @@ Teams app store にはすべての Teams アプリが一覧表示されます。
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>ポリシーの変更が有効になるまでにはどのくらいの時間がかかりますか?
 
-グローバル ポリシーを編集するか、ポリシーを割り当てた後、変更が反映されるまでに最大で 24 時間かかる場合があります。
+グローバルポリシーを編集するか、ポリシーを割り当てると、変更が有効になるまでに数時間かかることがあります。
 
 ### <a name="user-experience"></a>ユーザー エクスペリエンス
 

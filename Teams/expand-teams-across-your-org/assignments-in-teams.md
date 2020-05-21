@@ -21,12 +21,12 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256452"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326764"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
@@ -51,7 +51,7 @@ Microsoft MakeCode はブロックベースのコーディングプラットフ�
 
 MakeCode は、Microsoft[利用規約](https://go.microsoft.com/fwlink/?LinkID=206977)および[プライバシー](https://go.microsoft.com/fwlink/?LinkId=521839)ポリシーの適用対象となる microsoft 製品です。
 
-この設定は、既定ではオフになっています。 Teams で MakeCode の割り当てを有効にするには、 **Teams 管理センター**で、[**課題**] セクションに移動し、MakeCode トグルオプションを **[オン**] にします。 [**保存**] をクリックして、これらの設定を有効にするまで24時間ほどかかります。
+この設定は、既定ではオフになっています。 Teams で MakeCode の割り当てを有効にするには、 **Teams 管理センター**で、[**課題**] セクションに移動し、MakeCode トグルオプションを **[オン**] にします。 [**保存**] をクリックして、これらの設定が有効になるまで数時間待ちます。
 
 この機能のしくみについて詳しくは、この[ビデオデモ](https://makecode.com/blog/teams/teams-assignments)をご覧ください。
 
@@ -82,6 +82,6 @@ TurnitinApiUrl は、管理コンソールのホストアドレスです。
 プロンプトが表示された後、TurnitinApiKey が提供されます。 API キーをコピーして、Microsoft Teams 管理センターに貼り付けます。  これは、キーを表示できる唯一の時間です。
 ![API キーのコピーを示すスクリーンショット](./educationImages/Assignments_mopo_turnitin3.png)
 
-この設定については、管理センターの [**保存**] ボタンをクリックすると、これらの設定が有効になるまで最大24時間許可してください。
+この設定のために管理センターで [**保存**] ボタンをクリックしたときに、これらの設定が有効になるまで、数時間許可してください。
 
 Teams で Turnitin 統合の使用を開始する準備ができましたか? [以前のアクセスプログラム](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)にサインアップします。

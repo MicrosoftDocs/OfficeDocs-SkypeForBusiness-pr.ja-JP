@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780626"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326794"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft StaffHub のチームを Microsoft Teams のシフトに移動する
 
@@ -156,7 +156,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 Teams には、組織の現場担当者にとって最も重要なアプリをハイライトするために Teams をカスタマイズするのに使用できる、FirstlineWorker アプリ セットアップ ポリシーが組み込まれています。 このポリシーをユーザーに割り当てると、すばやく簡単にアクセスできるよう、ポリシー内のアプリがチームのアプリ バーに固定されます。 Teams に追加された他のアプリは、Teams のデスクトップと Web クライアントで [**その他のアプリ**] をクリックすると表示されます。Teams モバイル クライアントの場合は、上方向にスワイプします。 既定では、FirstlineWorker アプリのセットアップ ポリシーには、アクティビティ、シフト、チャット、および通話の各アプリが含まれています。
 
-FirstlineWorker アプリのセットアップ ポリシーをユーザーに割り当てる手順については、「[FirstlineWorker アプリのセットアップ ポリシーを使用して Teams にシフトをピン留めする](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)」を参照してください。 ポリシーの割り当て後、それが有効になるまで最大 24 時間かかる場合があります。
+FirstlineWorker アプリのセットアップ ポリシーをユーザーに割り当てる手順については、「[FirstlineWorker アプリのセットアップ ポリシーを使用して Teams にシフトをピン留めする](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)」を参照してください。 ポリシーを割り当てると、有効になるまでに数時間かかることがあります。
 
 StaffHub のチームとユーザーを Teams に移動する少なくとも 1 週間前までにこの手順を完了しておくことをお勧めします。 ユーザーが Teams にサインインしたら、シフト アプリがユーザーに表示され、アクセスできることを確認します。
 

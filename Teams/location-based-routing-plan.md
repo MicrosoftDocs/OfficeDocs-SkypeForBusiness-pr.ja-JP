@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: 6f72360f4462a64e357d58489aa70203bf10c532
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280276"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326644"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -252,9 +252,9 @@ PSTN 通話の位置情報に基づくルーティングが有効になってい
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>場所に基づくルーティングのメディアバイパスの要件
 
-インドで位置情報に基づくルーティングを展開する場合は、メディアのバイパスも構成する必要があります。 詳細については、「[ダイレクトルーティングによるメディアバイパスの計画](direct-routing-plan-media-bypass.md)」を参照してください。
+インドで位置情報に基づくルーティングを展開する場合は、メディアのバイパスも構成する必要があります。 詳細については、「ダイレクト[ルーティングによるメディアのバイパスの計画](direct-routing-plan-media-bypass.md)」および「[直接ルーティング用のローカルメディアの最適化](direct-routing-media-optimization.md)」を参照してください。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 「[場所に基づくルーティングのネットワーク設定を構成](location-based-routing-configure-network-settings.md)する」を参照してください。
 
