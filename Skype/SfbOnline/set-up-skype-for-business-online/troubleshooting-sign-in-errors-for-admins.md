@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Skype for Business Online のサインイン エラーの一般的な原因およびこれらの問題を解決する方法について説明します。 '
-ms.openlocfilehash: 881bb6e41b4b22fe71caeb701ac10d1696147d4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777152"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164326"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Skype for Business Online サインイン エラーのトラブルシューティング (管理者用)
 
@@ -128,7 +128,7 @@ Forefront TMG 2010 で Msoidsvc.exe のアプリケーション エントリを�
 
   - **値/参照先**: sipdir.online.lync.com
 
-詳細については、Microsoft サポート技術情報の記事 2566790「[Office 365 Skype for Business Online DNS 構成に関する問題のトラブルシューティング](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)」を参照してください。
+詳細については、Microsoft サポート技術情報の記事 2566790「[Troubleshooting Skype for Business Online DNS configuration issues in Microsoft 365 or Office 365 (Microsoft 365 または Office 365 での Skype for Business Online DNS 構成に関する問題のトラブルシューティング)](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)」を参照してください。
 
 ### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>サード パーティの SSL 証明書を ADFS サーバー上にインストールする
 <a name="verify-upn-and"> </a>
