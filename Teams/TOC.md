@@ -64,8 +64,8 @@
 ### [自分のカスタム アプリを管理する](manage-your-custom-apps.md)
 ### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
 ### [組織のタスク アプリを管理する](manage-tasks-app.md)
+### [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 外部ユーザーと通信する
@@ -129,6 +129,7 @@
 ## [クイック スタート - 会議とライブ イベント](quick-start-meetings-live-events.md)
 ## [展開の計画](deploy-meetings-microsoft-teams-landing-page.md)
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
+## [Teams 会議でのプレゼンターと参加者の機能](roles-in-meetings.md)
 ## [会議ポリシーを管理する](meeting-policies-in-teams.md)
 ## [会議の設定を管理する](meeting-settings-in-teams.md)
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -137,6 +138,7 @@
 ## [サポートされていないブラウザーでの Teams 会議](unsupported-browsers.md)
 ## [Teams でのデスクトップ共有を構成する](configure-desktop-sharing.md)
 ## [Teams のクラウド会議の記録](cloud-recording.md)
+## [コンタクト センターの統合](teams-contact-center.md)
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ## [ユーザーの [電話する] 機能をセットアップする](set-up-the-call-me-feature-for-your-users.md)
 ## [会議出席レポートを入手する](teams-analytics-and-reports/meeting-attendance-report.md)
@@ -213,6 +215,7 @@
 ## ライブ イベント
 ### [Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)
 ### [Teams のライブ イベントの計画](teams-live-events/plan-for-teams-live-events.md)
+### [ライブ イベントでのプレゼンターと参加者の機能](roles-in-live-events.md)
 ### [Teams のライブ イベントをセットアップする](teams-live-events/set-up-for-teams-live-events.md)
 ### [PowerShell を使用して Teams のライブ イベント ポリシーを設定する](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Teams のライブ イベント設定を構成する](teams-live-events/configure-teams-live-events.md)
@@ -670,6 +673,7 @@
 ## コンプライアンス
 ### [情報障壁](information-barriers-in-teams.md)
 ### [保持ポリシー](retention-policies.md)
+### [通話と会議のためのポリシー ベースの録音](teams-recording-policy.md)
 ### [データ損失防止](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 電子情報開示
 #### [コンテンツに対して電子情報開示の調査を行う](ediscovery-investigation.md)
@@ -776,6 +780,7 @@
 ## Teams の PowerShell
 ### [概要](teams-powershell-overview.md)
 ### [Teams のコマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [Teams PowerShell モジュールのプレリリース版をインストールする](install-prerelease-teams-powershell-module.md)
 
 ## [Teams の開発者向けドキュメント](https://docs.microsoft.com/microsoftteams/platform)
 ## [チームのヘルプを表示する](get-help-in-microsoft-teams.md)
