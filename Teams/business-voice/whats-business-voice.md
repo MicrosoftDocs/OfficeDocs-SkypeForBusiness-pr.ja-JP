@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice の概要と、中小企業がより効果的にコミュニケーションを行えるようにする方法。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780796"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170678"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice とは
 
@@ -32,15 +32,19 @@ Business Voice は、Microsoft 365 電話システムの機能を 1 つの管理
 
 組織の人数が 300 人以下で、次の Microsoft 365 サブスクリプションのいずれかを利用している場合は、Business Voice が最適です。
 
-* Microsoft 365 Business Basic
-* Microsoft 365 Business Standard
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-* Microsoft 365 Business
+- Microsoft 365 Business Basic
+- Microsoft 365 Business Standard
+- Microsoft 365 Business Premium
+- Microsoft Apps for business 
+- Microsoft Apps for enterprise
+- Microsoft 365 F1
+- Office 365 F1
+- Microsoft と Office 365 Enterprise E1、E3、E5
+- Microsoft 365 と Office 365 Education A1、A3、A5
+- Microsoft 365 と Office 365 Government G1、G3、G5 (GCC のみ)
+- Microsoft 365 Nonprofit Business Basic
+- Microsoft 365 Nonprofit Business Standard
+- Microsoft 365 と Office 365 Nonprofit E1、E3、E5
 
 Business Voice は 70 以上の国と地域で利用できます。 Business Voice を自分でセットアップできるかどうか、電話番号を Microsoft 365 に転送できるかどうか、および Microsoft 365 で電話番号を管理できるかどうかは、Microsoft 365 テナントが存在する国または地域によって異なります。 詳細については、「[Business Voice を利用できる国と地域](country-region-availability.md)」をご覧ください。
 

@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 既存の SharePoint Online サイトまたはページを取得し、組織のイントラネット ポータルとして使用できるスタンドアロンの静的タブを作成します。
 localization_priority: Priority
-ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207076"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326584"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>SharePoint Online サイトまたはページから Terms の「イントラネット ポータル アプリ」を作成する
 
@@ -41,7 +41,7 @@ SharePoint イントラネット サイトの *Teams 個人用アプリ*が作�
 
 2. 自分のテナントのサブドメインを知っておく必要があります。これはプレースホルダーの **{{subdomain}}** で使用します。
 
-3. この記事では、選択したサイトまたはページの *URL* として **{{siteUrl}}** プレースホルダーを使用します。
+3. この記事では、選択したサイトまたはページの *URL* のプレースホルダーとして **{{siteUrl}}** を使用します。
     - *URL* の例:   https://contoso.sharepoint.com/teams/Contoso   * または * https://contoso.sharepoint.com/sites/Contoso
 4. また、URL の*パス*を示すために **{{sitePath}}** を使用します (例: /teams/Contoso)。
     - *パス*の例:   /teams/Contoso   * または * /sites/Contoso
@@ -96,7 +96,7 @@ SharePoint イントラネット サイトの *Teams 個人用アプリ*が作�
 
 Teams デスクトップで新しいタブを表示するには、アプリ バーの左側にある省略記号 (**…**) に移動します。 新しいアプリを見つけて読み込んで、スタンドアロン アプリケーションを Teams でテストします。
 
-新しいアプリを左側のメニューのより高い位置で使用できるようにするには、そのためにアプリのポリシー設定を使用する必要があります。 この設定は、[Teams 管理セクション] > [アプリ ポリシー] > [固定されたアプリケーションの追加] の下にあります。 テストのためにユーザーにポリシーを割り当てると、その変更は 24 時間後に表示されます。 この点を念頭に置いて、遅延を回避するために、アプリを表示する位置をできるだけ早く決定してください。
+新しいアプリを左側のメニューのより高い位置で使用できるようにするには、そのためにアプリのポリシー設定を使用する必要があります。 この設定は、[Teams 管理セクション] > [アプリ ポリシー] > [固定されたアプリケーションの追加] の下にあります。 テストのためにユーザーにポリシーを割り当てると、その変更は数時間後に表示されます。 この点を念頭に置いて、遅延を回避するために、アプリを表示する位置をできるだけ早く決定してください。
 
 モバイル デバイスで新しいアプリを表示してテストするには、画面の下部にあるタブ バーの上のシェブロン (**^**) をタップして、アプリ ドロワーを開きます。 アプリを見つけて、モバイル デバイスでそのアプリに移動します。
 
