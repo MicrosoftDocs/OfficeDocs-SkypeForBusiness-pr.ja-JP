@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 14b14302aa3f75a164e6e6dbbef5cc91fc2b47cf
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785940"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338237"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -73,7 +73,7 @@ Microsoft Phone システムのダイレクトルーティングでは、サポ�
 |SBC に接続されたテレフォニー trunks|SBC に接続されている1つ以上のテレフォニー trunks。 一方の端では、SBC は直接ルーティングを介して Microsoft 電話システムに接続します。 SBC は、Pbx、アナログテレフォニーアダプターなどのサードパーティ製のテレフォニーエンティティにも接続できます。 SBC に接続された PSTN 接続オプションは動作します。 (SBC への PSTN trunks の設定については、SBC ベンダーまたはトランクプロバイダを参照してください。)|
 |Office 365 組織|Microsoft Teams ユーザーのホームとして使用する Office 365 組織、SBC への構成と接続。|
 |ユーザーレジストラー|ユーザーは、Office 365 に所属している必要があります。<br/>会社に Office 365 へのハイブリッド接続を備えたオンプレミスの Skype for Business または Lync 環境がある場合は、オンプレミスのユーザーに対して Teams でボイスを有効にすることはできません。<br/><br/>ユーザーのレジストラーを確認するには、次の Skype for Business Online PowerShell コマンドレットを使用します。<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>コマンドレットの出力は、次のように表示されます。<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domains|1つまたは複数のドメインが Office 365 組織に追加されている。<br/><br/>テナント用に自動的に作成される既定\*のドメイン onmicrosoft.com は使用できないことに注意してください。<br/><br/>ドメインを表示するには、次の Skype for Business Online PowerShell コマンドレットを使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと Office 365 組織の詳細については、「ドメインに関する[FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)」を参照してください。|
+|Domains|1つまたは複数のドメインが Office 365 組織に追加されている。<br/><br/>テナント用に自動的に作成される既定のドメイン onmicrosoft.com は使用できないことに注意 \* してください。<br/><br/>ドメインを表示するには、次の Skype for Business Online PowerShell コマンドレットを使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと Office 365 組織の詳細については、「ドメインに関する[FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)」を参照してください。|
 |SBC のパブリック IP アドレス|SBC への接続に使用できるパブリック IP アドレス。 Sbc は、SBC の種類に基づいて NAT を使うことができます。|
 |SBC の完全修飾ドメイン名 (FQDN)|SBC の FQDN。 FQDN のドメイン部分は、Office 365 組織で登録されているドメインの1つです。 詳細については、「 [SBC ドメイン名](#sbc-domain-names)」を参照してください。|
 |SBC のパブリック DNS エントリ |SBC FQDN をパブリック IP アドレスにマッピングするパブリック DNS エントリ。 |
@@ -132,14 +132,14 @@ Teams ユーザーは、1対1のチームを開始して、チームの通話を
 
 ## <a name="sbc-domain-names"></a>SBC ドメイン名
 
-SBC ドメイン名は、テナントのドメインに登録されている名前のいずれかである必要があります。 Onmicrosoft.com テナントを SBC \*の FQDN 名に使用することはできません。
+SBC ドメイン名は、テナントのドメインに登録されている名前のいずれかである必要があります。 \*Onmicrosoft.com テナントを SBC の FQDN 名に使用することはできません。
 
-次の表は、テナントに登録されている DNS 名の例を示しています。この名前は、SBC の FQDN として使用できるかどうか、有効な FQDN 名の例です。
+次の表は、テナントに登録されている DNS 名の例を示しています。名前は、SBC の FQDN として使用できるかどうか、有効な FQDN 名の例です。
 
 |**DNS 名**|**SBC FQDN に使用できます**|**FQDN 名の例**|
 |:--- |:--- |:--- |
 contoso.com|はい|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|いいえ|Onmicrosoft.com ドメインを使用する場合、SBC 名はサポートされません。
+|contoso.onmicrosoft.com|X|Onmicrosoft.com ドメインを使用する場合、SBC 名はサポートされません。
 
 新しいドメイン名を使用することを前提としています。 たとえば、テナントには、テナントに登録されているドメイン名として contoso.com があるため、sbc1.sip.contoso.com を使用します。 SBC という名前の sbc1.sip.contoso.com を組み合わせるには、その前に、テナントのドメインにドメイン名 sip.contoso.com を登録する必要があります。 ドメイン名を登録する前に、sbc1.sip.contoso.com と SBC をペアリングしようとすると、次のエラーメッセージが表示されます: "sbc1.sip.contoso.com" ドメインはこのテナント用に構成されていないため、使用できません。 "
 ドメイン名を追加したら、UPN user@sip.contoso.com でユーザーを作成して、Teams ライセンスを割り当てる必要もあります。 ドメイン名がテナントのドメインに追加された後は、最大24時間かかる場合があります。新しい名前のユーザーが作成され、ライセンスがユーザーに割り当てられます。 
@@ -155,9 +155,9 @@ Microsoft は、認定署名要求 (CSR) を生成して、SBC の証明書を�
   > [!NOTE]
   > ほとんどの証明機関 (Ca) では、秘密キーのサイズを2048以上にする必要があります。 CSR を生成するときは、この点に注意してください。
 
-証明書は、subject、common name、またはサブジェクトの代替名の各フィールドに SBC FQDN を設定する必要があります。
+証明書は、subject フィールドの共通名 (CN) として SBC FQDN を持つ必要があります。
 
-または、ダイレクトルーティングは SAN のワイルドカードをサポートしており、ワイルドカードは[TLS 経由の標準 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)に準拠している必要があります。 例としては\*、SAN で contoso.com を使います。これは、SBC FQDN sbc.contoso.com と一致しますが、sbc.test.contoso.com と一致しません。
+または、ダイレクトルーティングは SAN のワイルドカードをサポートしており、ワイルドカードは[TLS 経由の標準 RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)に準拠している必要があります。 例としては \* 、SAN で contoso.com を使います。これは、SBC FQDN sbc.contoso.com と一致しますが、sbc.test.contoso.com と一致しません。
 
 証明書は、次のルート証明機関のいずれかによって生成される必要があります。
 
@@ -280,7 +280,7 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 
 
 
-メディアトラフィックは、Microsoft Cloud の別のサービスとの間でフローします。 メディアトラフィックの IP 範囲は次のとおりです。
+メディアトラフィックは、Microsoft Cloud の別のサービスとの間でフローします。 メディアトラフィックの IP アドレス範囲は次のとおりです。
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
 

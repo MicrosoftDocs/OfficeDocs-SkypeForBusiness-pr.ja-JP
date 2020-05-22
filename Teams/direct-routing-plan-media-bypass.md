@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 電話システムのダイレクトルーティングを使用してメディアのバイパスを計画する方法について説明します。これにより、メディアトラフィックのパスを短縮し、パフォーマンスを向上させることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918696"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338247"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -140,7 +140,9 @@ ms.locfileid: "43918696"
 コード変換を実行できる (B2BUA)\* | はい | いいえ、エンドポイント間の音声のみを中継します | 
 ワールドワイドおよび場所のインスタンス数 | 8合計: 米国東部および西での22 (アムステルダムとダブリン)香港およびシンガポールでの2日本の2  | 多数
 
-IP 範囲は 52.112.0.0/14 (IP アドレスは52.112.0.1 から 52.115.255.254) です。 
+IP 範囲は次のとおりです。
+- 52.112.0.0/14 (52.112.0.1 から52.115.255.254 への IP アドレス)
+- 52.120.0.0/14 (52.120.0.1 から52.123.255.254 への IP アドレス)
 
 \*コード変換の説明: 
 

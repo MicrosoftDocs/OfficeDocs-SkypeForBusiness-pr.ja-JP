@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: このトピックを使用して、Skype for Business Server 2015 サーバーを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、サーバーファームのインストールと展開を成功させるために役立ちます。'
-ms.openlocfilehash: 53ce5d464b9faea14ca6970f85b3f937af8238e2
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 02ccebca4eebef84638992dd88ba45040e733d19
+ms.sourcegitcommit: b1f7f1435c5e72c2eea4069fbb0bea29b197cb80
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237950"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44342457"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のサーバー要件
  
@@ -51,7 +51,7 @@ Active Directory、DNS、証明書などの環境要件を探している場合�
 |:-----|:-----|
 |CPU  <br/> |64ビットデュアルプロセッサ、16ビットコア、2.26 ghz 以上。  <br/> Intel Itanium プロセッサは、Skype for Business Server 2015 の役割ではサポートされていません。  <br/> |
 |メモリ  <br/> |32 gb  <br/> |
-|ディスク  <br/> |いずれも：  <br/> • 1万 RPM のハードディスクドライブのうち、少なくとも 72 GB のディスクの空き領域 (raid 1 を使用している2台のディスク、および RAID 10 を使用する2つのディスク)。  <br/> OR  <br/> •ソリッドステートドライブ (Ssd) は、8 1万 RPM メカニカルディスクドライブと同じ空き領域と同じパフォーマンスを提供することができます。  <br/> |
+|ディスク  <br/> |いずれも：  <br/> • 1万 RPM のハードディスクドライブのうち、少なくとも 72 GB のディスクの空き領域 (raid 1 を使用している2台のディスク、および RAID 10 を使用する2つのディスク)。  <br/> または  <br/> •ソリッドステートドライブ (Ssd) は、8 1万 RPM メカニカルディスクドライブと同じ空き領域と同じパフォーマンスを提供することができます。  <br/> |
 |ネットワーク  <br/> |1 Gbps 以上のデュアルポートネットワークアダプター (2 つのネットワークアダプターを使用できますが、1つの MAC アドレスと1つの IP アドレスをチーミングする必要があります)。  <br/> デュアルまたはマルチホーム構成は、フロントエンドサーバー、バックエンドサーバー、Standard Edition サーバー、および常設チャットサーバーではサポートされて**いません**。 <br/> オペレーティングシステムに公開されておらず、サーバーハードウェアを監視および管理するためにも使用されている限り、帯域外管理システム (DRAC や ILO など) があります。 このシナリオは、複数のホームサーバーを構成するものではなく、サポートされています。  <br/> |
    
 エッジサーバー、スタンドアロン仲介サーバー、ビデオ相互運用サーバー、およびディレクターの推奨ハードウェア:
@@ -60,7 +60,7 @@ Active Directory、DNS、証明書などの環境要件を探している場合�
 |:-----|:-----|
 |CPU  <br/> |64ビットデュアルプロセッサ、クアッドコア、2.26 ghz またはそれ以上。  <br/> Intel Itanium プロセッサは、Skype for Business Server 2015 の役割ではサポートされていません。  <br/> |
 |メモリ  <br/> |16 gb  <br/> |
-|ディスク  <br/> |いずれも：  <br/> •4台以上の 1万 RPM ハードディスクドライブ (少なくとも 72 GB の空きディスク領域がある) (ディスクは2倍の RAID 1 構成である必要があります)。  <br/> OR  <br/> •ソリッドステートドライブ (Ssd) は、4 1万 RPM メカニカルディスクドライブと同じ空き領域と同じパフォーマンスを提供することができます。  <br/> |
+|ディスク  <br/> |いずれも：  <br/> •4台以上の 1万 RPM ハードディスクドライブ (少なくとも 72 GB の空きディスク領域がある) (ディスクは2倍の RAID 1 構成である必要があります)。  <br/> または  <br/> •ソリッドステートドライブ (Ssd) は、4 1万 RPM メカニカルディスクドライブと同じ空き領域と同じパフォーマンスを提供することができます。  <br/> |
 |ネットワーク  <br/> |1 Gbps 以上のデュアルポートネットワークアダプター (2 つのネットワークアダプターを使用できますが、1つの MAC アドレスと1つの IP アドレスをチーミングする必要があります)。  <br/> デュアルまたはマルチホーム構成は、ビデオ相互運用サーバーとディレクターではサポートされて**いません**。 <br/> エッジサーバーでは、2つのネットワークインターフェイス (または、1 Gbps 以上のデュアルポートネットワークアダプター、つまり合計4つのネットワークアダプターが1つの MAC アドレスと1つの IP アドレスでチーミングされ、合計2つのペア) が必要です。  <br/> スタンドアロンの仲介サーバーでは、追加のネットワークインターフェイスカード (Nic) をインストールして、特定の PSTN IP アドレスの構成を許可することができます。  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 のオペレーティングシステム
@@ -178,15 +178,14 @@ SQL ミラーリングの詳細については、「Skype for Business Server 20
 <a name="Software"> </a>
 
 Skype for Business Server 2015 を実行しているすべてのサーバーについてインストールまたは構成する必要があることがあります。また、以下に一覧表示されています。 その後、特定のサーバーの役割に対する追加の要件があります。
-  
-> [メモ!]Skype For Business server 2015 は、.NET Framework 4.8 をサポートしていません。
+
   
  **すべてのサーバー:**
   
 |**ソフトウェア/役割**|**詳細**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |すべての Skype for Business Server サーバーには、Windows PowerShell 3.0 がインストールされている必要があります。  <br/> • Windows Server 2012 または Windows Server 2012 R2 上でインストールを実行している場合は、既に設定されているため、設定しています。  <br/> • Windows Server 2008 R2 でアップグレードする場合は、 [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595)をダウンロードして入手できます。 <br/> **ヒント:** 適切な PowerShell を用意したら、PowerShell プロンプトに進み、「」と入力`$PSVersionTable`して、それが buildversion 6.2.9200.0 以降であることを確認します。 これにより、必要な情報が表示されます。  <br/> |
-|Microsoft .NET Framework  <br/> |WCF サービスは、Windows 機能としてインストールされている**機能**です。**サーバーマネージャー**ではダウンロードは必要ありません。 <br/> •この機能をインストールするとき、または既にインストールされていて確認する際には、次のように、 **HTTP アクティブ化**オプションもチェックされ、インストールされていることを確認する必要があります。 <br/> ![.NET Framework 4.5 機能の下の HTTP アクティブ化オプションを示すスクリーンショット。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)HTTP ライセンス認証をインストールするには、他にもいくつかの設定をインストールする必要があることを示す追加のポップアップが表示されても心配しないでください。 これで正常です。 [OK] をクリックして、先に進みます。 このポップアップが表示されない場合は、それらが既にインストールされていると仮定し、先に進んでください。  <br/> Microsoft .NET Framework は、通常、Windows Server 2012 R2 または Windows Server 2016 がインストールされている場合にインストールされます。 Skype for Business Server は、次の Microsoft .NET Framework バージョンで動作します。  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6. x  <br/> • .NET 4.7.1 (Skype for Business Server CU 5 以降のリリース)  <br/> • .NET 4.7.2 (Skype for Business Server CU 6 以降のリリース)  <br/>  • .NET 4.8 (Skype for Business Server CU 9 以降のリリース) <br/>  .NET Framework 3.5 は、Windows Server 2008 R2 コンピューターに既定でインストールされる可能性がありますが (アップグレードの前に必ず確認してください)、実際には Windows Server 2012/Windows Server 2012 R2 サーバー (新規インストールの場合) にはありません。 を追加するには、インストールドライブまたはメディア (Windows Server のインストール元、またはインストールファイルが保存されている場所) にアクセスする必要があります。 その後、サーバーマネージャから機能としてインストールし、インストールメディア (具体的には**\sources\sxs**フォルダー) を指定し、インストールを続行します。 <br/> |
+|Windows PowerShell 3.0  <br/> |すべての Skype for Business Server サーバーには、Windows PowerShell 3.0 がインストールされている必要があります。  <br/> • Windows Server 2012 または Windows Server 2012 R2 上でインストールを実行している場合は、既に設定されているため、設定しています。  <br/> • Windows Server 2008 R2 でアップグレードする場合は、 [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595)をダウンロードして入手できます。 <br/> **ヒント:** 適切な PowerShell を用意したら、PowerShell プロンプトに進み、「」と入力して、それが BuildVersion 6.2.9200.0 以降であることを確認 `$PSVersionTable` します。 これにより、必要な情報が表示されます。  <br/> |
+|Microsoft .NET Framework  <br/> |WCF サービスは、Windows 機能としてインストールされている**機能**です。**サーバーマネージャー**ではダウンロードは必要ありません。 <br/> •この機能をインストールするとき、または既にインストールされていて確認する際には、次のように、 **HTTP アクティブ化**オプションもチェックされ、インストールされていることを確認する必要があります。 <br/> ![.NET Framework 4.5 機能の下の HTTP アクティブ化オプションを示すスクリーンショット。 ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)HTTP ライセンス認証をインストールするには、他にもいくつかの設定をインストールする必要があることを示す追加のポップアップが表示されても心配しないでください。 これで正常です。 [OK] をクリックして、先に進みます。 このポップアップが表示されない場合は、それらが既にインストールされていると仮定し、先に進んでください。  <br/> Microsoft .NET Framework は、通常、Windows Server 2012 R2 または Windows Server 2016 がインストールされている場合にインストールされます。 Skype for Business Server は、次の Microsoft .NET Framework バージョンで動作します。  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6. x  <br/> • .NET 4.7.1 (Skype for Business Server CU 5 以降のリリース)  <br/> • .NET 4.7.2 (Skype for Business Server CU 6 以降のリリース)  <br/>  • .NET 4.8 (Skype for Business Server CU 9 以降のリリース) <br/>  .NET Framework 3.5 は、Windows Server 2008 R2 コンピューターに既定でインストールされる可能性がありますが (アップグレードの前に必ず確認してください)、実際には Windows Server 2012/Windows Server 2012 R2 サーバー (新規インストールの場合) にはありません。 を追加するには、インストールドライブまたはメディア (Windows Server のインストール元、またはインストールファイルが保存されている場所) にアクセスする必要があります。 その後、サーバーマネージャから機能としてインストールし、インストールメディア (具体的には**\sources\sxs**フォルダー) を指定し、インストールを続行します。 <br/> |
 |メディアファンデーション  <br/> |Windows Server 2016、windows server 2012、Windows server 2012 R2 では、Windows Media フォーマットランタイムが Microsoft Media Foundation と共にインストールされます。  <br/> 会議に使用されるすべてのフロントエンドサーバーおよび Standard Edition サーバーでは、windows Media フォーマットランタイムを使用して、コールパーク、アナウンス、および応答グループアプリケーションがアナウンスと音楽を再生する Windows media Audio (.wma) ファイルを実行する必要があります。  <br/> |
 |Windows Identity Foundation  <br/> |Skype for Business Server 2015 のサーバー間認証シナリオをサポートするには、Windows Identity Foundation 3.5 が必要です。  <br/> • Windows Server 2012 および Windows Server 2012 R2 の場合は、何もダウンロードする必要はありません。 **サーバーマネージャー**を開き、[**役割と機能の追加ウィザード]** に進みます。 **Windows Identity Foundation 3.5**は、[**機能**] セクションの下に一覧表示されます。 このチェックボックスがオンになっている場合は、問題ありません。 それ以外の場合は、それを選択し、[次へ] をクリックして [**インストール**] ボタンに移動します <br/> |
 |リモート サーバー管理ツール  <br/> |役割管理ツール: AD DS および AD LDS ツール  <br/> |
