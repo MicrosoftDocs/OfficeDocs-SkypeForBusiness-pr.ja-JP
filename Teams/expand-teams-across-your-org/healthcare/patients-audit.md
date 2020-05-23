@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780406"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350181"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者アプリの監査ログ
 
@@ -28,7 +28,7 @@ ms.locfileid: "43780406"
 
 ## <a name="meet-hipaa-requirements"></a>HIPAA の要件を満たす
 
-HIPAA のガイドラインに従って、医療機関は PHI へのすべてのアクセス記録を保持する必要があります。そのため、変更内容を監査することができます。 Microsoft は、Microsoft Teams を使用して企業のお客様を対象としており、HIPAA の要件と制御に対応しています。 [患者] アプリから PHI へのアクセスは完全に追跡され、ログは M365 セキュリティ/コンプライアンスセンターで利用可能になります。詳細については、「[監査ログの検索機能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」の記事を参照してください。
+HIPAA のガイドラインに従って、医療機関は PHI へのすべてのアクセス記録を保持する必要があります。そのため、変更内容を監査することができます。 Microsoft は、Microsoft Teams を使用して企業のお客様を対象としており、HIPAA の要件と制御に対応しています。 患者のアプリから PHI へのアクセスは完全に管理されており、「[監査ログの検索機能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」の記事に記載されているように、Microsoft 365 コンプライアンスセンターでログを入手できます。
 
 > [!IMPORTANT]
 > 患者のプライバシーを維持する負担は、法律によって医療機関に適用されます。 法律では、患者は患者のプライバシーを保護する必要があります。また、IT 管理者または HIPAA のコントローラーが、どの看護師、clinician、またはソーシャルワーカーのアクセスまたは変更されたかを簡単に判断する必要があります。 PHI アクセス違反の最も一般的な例の1つは、VIP 患者へのアクセスです。 監査ログ機能は、PHI アクセス違反の調査を実施し、HIPAA の要件を満たすために必要です。
@@ -41,7 +41,7 @@ HIPAA のガイドラインに従って、医療機関は PHI へのすべての
 
 1. 管理者は、自分の FHIR サービスプロバイダーと協力して、患者アプリで使用されている形式で EMR を利用できるようにする必要があります。 「[電子医療記録を Microsoft Teams に統合](patients-app.md)する」を参照してください。
 2. 医療機関管理者は、Teams 管理センターで患者アプリを有効にする必要があります。 詳細については、「 [Microsoft Teams でアプリセットアップポリシーを管理](../../teams-app-setup-policies.md)する」を参照してください。
-3. 管理者は、「を開始して[監査ログの検索をオンまたはオフ](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)にする前に説明し[た](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)ように、Office 365 でアクティビティの監査を有効にするのと同じように、O365 でアクティビティ監査を有効にする必要があります。 監査ログがすでにオンになっている場合は、患者アプリに特別な情報は必要ありません。 医療機関がチーム内でアプリをインストールして実行するたびに、監査ログには PHI アクティビティが記録されます。
+3. [監査ログの検索](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)を開始して有効にする[前](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)に説明したように、管理者はアクティビティの監査を有効にする必要があります。 監査ログがすでにオンになっている場合は、患者アプリに特別な情報は必要ありません。 医療機関がチーム内でアプリをインストールして実行するたびに、監査ログには PHI アクティビティが記録されます。
 4. その後、管理者は、患者アプリの利用可能状況を知らせる必要があります。また、ヘルスケア担当者は、監査に含めるアクティビティの生成を開始する必要があります。
 
 <!-- add link out to client doc when available -->

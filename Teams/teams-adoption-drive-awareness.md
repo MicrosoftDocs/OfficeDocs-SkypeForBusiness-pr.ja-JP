@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904352"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350131"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
-認識とトレーニングは、全体的な導入戦略のマーケティングおよびコミュニケーションセグメントです。 これにより、従業員は Microsoft Teams の新機能と、基になる Office 365 サービスとアプリを確実に理解することができます。
+認識とトレーニングは、全体的な導入戦略のマーケティングおよびコミュニケーションセグメントです。 これにより、従業員は Microsoft Teams の新機能と、Microsoft 365 または Office 365 のサービスとアプリの新機能をご利用いただけるようになります。
    
 最初のパイロットと、会社全体での最終的なロールアウトについては、内部通信が優先される必要があります。 次のものが必要です。
 
@@ -49,13 +49,13 @@ ms.locfileid: "43904352"
 
 ## <a name="implement-end-user-training"></a>エンドユーザートレーニングの実装
 
-Skype のリソースを使用して、ユーザーが Microsoft Teams や他の Office 365 サービスの使用を開始するときに、エンドユーザーのトレーニングを実施します。 詳細については、以下のリソースページを参照してください。
+Skype のリソースを使用して、ユーザーが Microsoft Teams およびその他の Microsoft 365 または Office 365 サービスの使用を開始するときに、エンドユーザーのトレーニングを実施します。 詳細については、以下のリソースページを参照してください。
 
 - [チーム向けのインストラクター主導のエンドユーザー向けトレーニング](instructor-led-training-teams-landing-page.md)
 - [Teams の管理者トレーニング](itadmin-readiness.md)
 - [オンラインエンドユーザー向けビデオトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [エキスパート & IT 担当者向けのクラウドオンライントレーニングのコーヒー](https://aka.ms/CoffeeintheCloud) 
-- [Office 365 トレーニングのクイックガイドの日](https://aka.ms/O365AdoptionTools)
+- [Life Microsoft 365 および Office 365 トレーニングのクイックガイドの日](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>成功を測定、共有する
 
@@ -71,4 +71,4 @@ Skype のリソースを使用して、ユーザーが Microsoft Teams や他の
 
 [Microsoft Teams の利用状況レポートの詳細については、Microsoft 365 管理センターを参照してください。](teams-activity-reports.md)
 
-![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[サービス正常性レビューのスケジュール](teams-adoption-schedule-service-health-reviews.md)
+![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) :[サービス正常性レビューのスケジュール](teams-adoption-schedule-service-health-reviews.md)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ユーザーにクラウドボイスメールをセットアップする方法について説明します。 '
-ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042934"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349721"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
@@ -35,7 +35,7 @@ ms.locfileid: "44042934"
 > [!NOTE]
 > クラウドボイスメールでは、Exchange メールボックスでのボイスメールメッセージのデポジットのみがサポートされ、サードパーティのメールシステムはサポートされません。 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>クラウドのみの環境: クラウドボイスメールをセットアップする
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>クラウドのみの環境: クラウドのボイスメールをセットアップする
 
 Skype for Business Online と通話プランのユーザーには、**電話システム**のライセンスと電話番号を割り当てた後で、クラウドボイスメールが自動的に設定され、ユーザーに提供されます。
   
@@ -45,21 +45,32 @@ Skype for Business Online と通話プランのユーザーには、**電話シ�
     
 3. ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。Windows PowerShell を使用し、下記の手順を実行することによって、所属する組織のトランスクリプションを無効にすることができます。
 
-## <a name="phone-system-with-on-premises-environments"></a>オンプレミス環境での電話システム
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Exchange Server メールボックスユーザーにクラウドボイスメールをセットアップする
 
-次の情報は、オンプレミスの通話プラン環境で動作するようにクラウドボイスメールを構成する方法について説明します。
+以下の情報は、電話システムに接続しているが、Exchange Server にメールボックスがあるユーザーと連携するようにクラウドボイスメールを構成する方法について説明します。 
   
-1. 電話システム機能がプランに含まれていない場合は、 **電話システム** アドオン ライセンスの購入が必要になることがあります。 Exchange Online ライセンスの購入も必要になります。 「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+1. 電話システム機能がプランに含まれていない場合は、 **電話システム** アドオン ライセンスの購入が必要になることがあります。 「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
     
-2. 一般[法人向け Office 365 のライセンスの割り当てまたは削除](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)を行います。また、 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)か、組織内のユーザーに Exchange Online ライセンスを割り当てます。
+2. [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/assign-teams-add-on-licenses.md)を会社のユーザーに割り当てます。
     
-3. ユーザーに展開されているオンプレミス PSTN 通話ソリューションと一致する指示に従ってください。 Cloud Connector Edition の場合は、「 [Skype For Business Cloud Connector エディションの構成](https://technet.microsoft.com/library/mt605228.aspx)」の「**電話システムの音声およびボイスメールサービスのユーザーを有効にする**」セクションの手順に従います。 Skype for Business Server での PSTN 通話については、「[エンタープライズボイスオンプレミスのユーザーを有効にする](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)」を参照してください。 Teams のダイレクトルーティングの場合は、「**電話番号を設定し、エンタープライズボイスメールとボイスメールを有効に**する」のセクションに従って、[ [Direct ルーティングの構成](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)] を選びます。
+3. ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。Windows PowerShell を使用し、下記の手順を実行することによって、所属する組織のトランスクリプションを無効にすることができます。
 
-4. ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。Windows PowerShell を使用し、下記の手順を実行することによって、所属する組織のトランスクリプションを無効にすることができます。
-
-5. ボイスメールメッセージは、Exchange Online Protection を介してルーティングされる SMTP 経由で、ユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信されるようにするには、exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認します。[コネクタを使用して、メールフローを構成](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。 
+4. ボイスメールメッセージは、Exchange Online Protection を介してルーティングされる SMTP 経由で、ユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信されるようにするには、exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認します。[コネクタを使用して、メールフローを構成](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。 
 
 6. Skype for Business クライアントで、グリーティングのカスタマイズや、視覚ボイスメールなどのボイスメール機能を有効にするには、Exchange Web Services を使用した Office 365 から Exchange server メールボックスへの接続が必要です。 この接続を有効にするには、「 [exchange と Exchange Online 組織の間での Oauth 認証の構成](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)」で説明されている新しい exchange Oauth 認証プロトコルを構成するか、Exchange ハイブリッドウィザードを EXCHANGE 2013 cu5 以降以上で実行する必要があります。 さらに、「skype for business [online と Exchange server の間の統合と oauth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明されているように、Skype For business Online と exchange server の間で統合と oauth を構成する必要があります。 
+
+## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Skype for Business Server ユーザー用にクラウドボイスメールをセットアップする
+
+以下の情報は、オンラインの Exchange および Skype for Business のオンプレミスで動作するようにクラウドボイスメールを構成する方法について説明します。 
+  
+1. 組織内のユーザーに Exchange Online のライセンスを購入する必要がある場合があります。 「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+    
+2. 一般法人[向け Office 365 のライセンスの割り当てまたは削除](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)を行う Exchange Online ライセンスを組織のユーザーに割り当てます。
+    
+3. ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。Windows PowerShell を使用し、下記の手順を実行することによって、所属する組織のトランスクリプションを無効にすることができます。
+
+4. クラウドボイスメールの Skype for Business server ユーザーを構成するには、「[オンプレミスユーザー向けのクラウドボイスメールサービスの計画](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)」を参照してください。
+
 
 > [!NOTE]
 > 代理人が委任者の代わりに着信に応答する場合、クラウドボイスメールでは通知を利用できません。 不在着信の通知は、ユーザーが受信できます。
@@ -135,7 +146,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 - [Skype for Business 2016 トレーニング](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online のセットアップ](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Office 365 での電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)

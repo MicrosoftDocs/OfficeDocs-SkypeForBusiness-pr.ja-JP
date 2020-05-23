@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: 405a87be4bd9504c0bdca98c17748f0864ba72ed
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8424defb7d9fa6359600a99c3c19fdf0b8c4dd28
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780196"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350151"
 ---
 # <a name="patients-app-overview"></a>患者アプリの概要
 
@@ -30,18 +30,18 @@ ms.locfileid: "43780196"
 
 このアプリには、次の2つのモードがあります。
 
-- Emr から FHIR に接続する EMR 接続モード。 EMR 接続モードのアプリはプライベートプレビューのままであり、ユーザーまたは管理者は、Office 365 組織に関する情報を使って、 [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)に Microsoft メールをドロップして、アプリへのアクセスを要求することがあります。
+- Emr から FHIR に接続する EMR 接続モード。 EMR 接続モードのアプリはプライベートプレビューのままで、お客様または管理者は、microsoft 365 組織に関する情報を含む[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)に microsoft メールをドロップして、アプリへのアクセスを要求することがあります。
 - 治療チームが患者情報を手動で追加/取り込みできる手動モード。 アプリケーションは、Teams app store で利用可能で、エンドユーザーはプライベートプレビューでダウンロードすることができます。 アプリは、Teams の[アプリセットアップポリシー](../../teams-app-setup-policies.md)を使用して、ユーザーの特定のセクションに制限することができます。 アプリへのアクセスを取得するには、テナントがテクノロジ導入プログラムに含まれている必要があります (タップ)。 [Teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)でメールを削除して、アクセス権を要求するプロセスを開始してください。
 
 ## <a name="usage-example"></a>使用例
 
-医療 wards の各シフトでの丸めセッション中に、clinicians は nursing ステーションで収集して、の患者との進行状況に関する最新の更新について話し合うことができます。  また、重要な指標 (医療、患者の医療記録での明示的なものではありません) を強調表示し、お客様の診断に基づいて患者が適切なグライドパス上にいることを確認します。 このような患者を丸めるために、クレジットの追加により、すべての clinicians が追加され、患者リストに患者が追加されるようになります。 ラウンドでは、患者との間の看護師とその他のケア givers によって、モバイルデバイス上の Microsoft Teams と患者アプリの情報が更新され、デバイス上の関連する患者情報が更新され、ケアチーム内の他のすべてのユーザーがその更新とメモを確認して、同期を維持することができます。1日に2回、シフトの開始時と終了時には、患者リストを超えて患者の一覧を表示し、患者のアプリを使って患者の顔を見ながら、大きなディスプレイ画面で患者のアプリを使って情報を共有することができます。 場合によっては、特定の clinicians が、それらのチーム会議にリモートでダイヤルインしても、ディスカッションの一部となることがあります。
+医療 wards の各シフトでの丸めセッション中に、clinicians は nursing ステーションで収集して、の患者との進行状況に関する最新の更新について話し合うことができます。  また、重要な指標 (医療、患者の医療記録での明示的なものではありません) を強調表示し、診断に基づいて患者が適切なグライドパス上にいることを確認します。 このような患者を丸めるために、クレジットの追加により、すべての clinicians が追加され、患者リストに患者が追加されるようになります。 ラウンドでは、患者との間の看護師とその他のケア givers によって、モバイルデバイス上の Microsoft Teams と患者アプリの情報が更新され、デバイス上の関連する患者情報が更新され、ケアチーム内の他のすべてのユーザーがその更新とメモを確認して、同期を維持することができます。1日に2回、シフトの開始時と終了時には、患者リストを超えて患者の一覧を表示し、患者のアプリを使って患者の顔を見ながら、大きなディスプレイ画面で患者のアプリを使って情報を共有することができます。 場合によっては、特定の clinicians が、それらのチーム会議にリモートでダイヤルインしても、ディスカッションの一部となることがあります。
 
 ## <a name="configure-patients-app"></a>患者のアプリを設定する
 
 EMR モードの患者アプリを使用するように環境を準備する方法について詳しくは、「 [Microsoft Teams への電子医療記録の統合](patients-app.md)」をご覧ください。 また、組織で患者のアプリを有効にするには、「 [Microsoft Teams でアプリセットアップポリシーを管理](../../teams-app-setup-policies.md)する」を参照する必要があります。
 
-エンドユーザーが患者アプリにアクセスして、所有または管理しているチームにインストールする方法については、「 [Microsoft Teams の使用を開始](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)する」を参照してください。 
+エンドユーザーが患者アプリにアクセスして自分が所有または管理しているチームにインストールする方法については、「 [Microsoft Teams の患者の概要](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)」を参照してください。
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
@@ -66,7 +66,7 @@ EMR モードの患者アプリを使用するように環境を準備する方�
 
 **このアプリは PHI に対応しているため、不正アクセスや規制への準拠を防ぐ監査もありますか?**
 
-はい、あります。 患者のアプリで Microsoft Teams ユーザーによって実行されるすべての UI 操作が監査され、セキュリティ/コンプライアンスセンターで利用可能になります。 詳細については、こちらの記事を参照して[ください](patients-audit.md)。
+はい、あります。 患者のアプリで Microsoft Teams ユーザーによって実行されるすべての UI 操作が監査され、セキュリティ/コンプライアンスセンターで利用可能になります。 詳細については、「[患者アプリの監査ログ](patients-audit.md)」で説明します。
 
 ## <a name="related-topics"></a>関連トピック
 

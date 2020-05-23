@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a65a9c43ba6828781c53b14e739ba92593ca934c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904322"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350251"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft Teams のガバナンスのクイック スタート
 
@@ -64,10 +64,10 @@ Teams の会議エクスペリエンスは高品質で、ビデオチャット�
 
 ### <a name="decision-6--data-security"></a>判断 6: データのセキュリティ
 
-幅広い展開の準備として、環境内のチームの種類を分類するためにセキュリティラベルを使用することを選択できます。 この実験を目的として、 [teams でガバナンスを計画](plan-teams-governance.md)することをお勧めします。また、Microsoft 365 または Office 365 の teams データに基本的なアイテム保持ポリシーが設定されていることを確認してください。 この作業を完了するには、Office 365 管理者の権限が必要であるため、テクニカルチームとの協力が必要になることがあります。
+幅広い展開の準備として、環境内のチームの種類を分類するためにセキュリティラベルを使用することを選択できます。 この実験を目的として、 [teams でガバナンスを計画](plan-teams-governance.md)することをお勧めします。また、Microsoft 365 または Office 365 の teams データに基本的なアイテム保持ポリシーが設定されていることを確認してください。 この作業を完了するには、Microsoft 365 または Office 365 管理者の権限が必要であるため、テクニカルチームとの協力が必要になることがあります。
 
 ### <a name="decision-7-length-of-your-experiment"></a>決定 7: 実験の長さ
 
 チームの実装が成功すると、適切な勢い、焦点、高い知識が確実になります。 このフェーズの期間は60日間であり、早期導入が十分なビジネスサイクルを完了していることを確認することをお勧めします。 実験を延長すると時間がかかりすぎると、変更プログラムが失敗するリスクが増加します。ただし、この時間は組織ごとに異なります。  
 
-![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[使用シナリオの定義](teams-adoption-define-usage-scenarios.md)
+![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) :[使用シナリオの定義](teams-adoption-define-usage-scenarios.md)

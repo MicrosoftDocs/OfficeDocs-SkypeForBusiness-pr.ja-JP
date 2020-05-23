@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 211bf51e0221ecaba29cee9e9a859c0a6acf9332
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256392"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349981"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Microsoft Teams のユーザー アクティビティ レポートを使用する 
 ========================================
@@ -107,7 +107,7 @@ Teams デバイスの使用状況レポートには、モバイルアプリな�
 
 ### <a name="at-a-glance-activity-widget"></a>概要アクティビティウィジェット
 
-レポートダッシュボードには、Teams の利用状況データが表示されます。このウィジェットは、Office 365 の他のさまざまなサービスを使用して、ユーザーのコミュニケーションや共同作業を行うためのクロスプロダクトビューを提供します。
+レポートダッシュボードには、Teams の利用状況データが含まれています。このウィジェットは、Microsoft 365 または Office 365 の他のさまざまなサービスを使用して、ユーザーのコミュニケーションや共同作業を行うためのクロスプロダクトビューを提供します。
 
 ![[チームの概要] アクティビティウィジェットのスクリーンショット。](media/at-a-glance-activity-widget.png)
 

@@ -17,18 +17,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で緊急通話ポリシーを使用して管理する方法について説明します。この方法では、組織内の Teams ユーザーが緊急通報を行ったときの動作を定義します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62a6314435aa3af44d0c44ab6a6790212c62d8de
-ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
+ms.openlocfilehash: ea02c1c7f9d4142db9cb25c00714e04a28e0e5e3
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952436"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350201"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ポリシーを管理する
 
 組織で通話プランを使用している場合、または電話システムダイレクトルーティングを展開している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通報を行ったときの動作を定義できます。 ポリシーを割り当てられたユーザーが緊急サービスを呼び出すときの通知方法と通知方法を設定することができます。 たとえば、ポリシー設定を構成して、組織のセキュリティデスクに自動的に通知し、緊急通話で聞くことができます。  
 
-緊急通話のポリシーを管理するには、Microsoft Teams 管理センターの**ボイス** > **緊急ポリシー**または Windows PowerShell を使用します。 ポリシーは、ユーザーと[ネットワークサイト](cloud-voice-network-settings.md)に割り当てることができます。
+緊急通話のポリシーを管理するに**Voice**  >  は、Microsoft Teams 管理センターのボイス**緊急ポリシー**または Windows PowerShell を使用します。 ポリシーは、ユーザーと[ネットワークサイト](cloud-voice-network-settings.md)に割り当てることができます。
 
 ユーザーの場合は、グローバル (組織全体の既定) ポリシーを使用するか、カスタムポリシーを作成して割り当てることができます。 カスタムポリシーを作成して割り当てる場合を除き、ユーザーはグローバルポリシーを自動的に取得します。 グローバルポリシーの設定は編集できますが、名前の変更や削除はできないことに注意してください。 ネットワークサイトの場合は、カスタムポリシーを作成して割り当てる必要があります。
 
@@ -38,7 +38,7 @@ ms.locfileid: "43952436"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **緊急ポリシー**] に移動し、[**通話ポリシー** ] タブをクリックします。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **緊急ポリシー**] に移動し、[**通話ポリシー** ] タブをクリックします。
 2. **[追加]** をクリックします。
 3. ポリシーの名前と説明を入力します。
 4. 緊急通報が行われたときに、組織内のユーザーに通知する方法 (通常はセキュリティデスク) を設定します。 これを行うには、[**通知モード**] で、次のいずれかを選択します。
@@ -59,7 +59,7 @@ ms.locfileid: "43952436"
 
 グローバル ポリシー、または作成したカスタム ポリシーを編集できます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **緊急ポリシー**] に移動し、[**通話ポリシー** ] タブをクリックします。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **緊急ポリシー**] に移動し、[**通話ポリシー** ] タブをクリックします。
 2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** をクリックします。
 3. 必要な変更を加えて、[**保存**] をクリックします。
 
@@ -71,15 +71,21 @@ ms.locfileid: "43952436"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
+1人のユーザーにポリシーを割り当てるには、次の操作を行います。
+
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
 2. **[ポリシー]** をクリックし、**[割り当てられたポリシー]** の横にある **[編集]** をクリックします。
 3. [**緊急通話ポリシー**] で、割り当てるポリシーを選択し、[**保存**] をクリックします。
 
-一度に複数のユーザーにカスタムのチーム ポリシーを割り当てる方法については、「[一括で Teams のユーザー設定を編集する](edit-user-settings-in-bulk.md)」を参照してください。
+複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで [**ユーザー**] に移動し、ユーザーを検索するか、ビューをフィルター処理して、目的のユーザーを表示します。
+2. [ **&#x2713;** (チェックマーク)] 列で、ユーザーを選びます。 すべてのユーザーを選択するには、テーブルの上部にある &#x2713; (チェックマーク) をクリックします。
+3. [**設定の編集**] をクリックし、必要な変更を加えて、[**適用**] をクリックします。  
 
 または、次の操作も実行できます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **緊急ポリシー**] に移動し、[**通話ポリシー** ] タブをクリックします。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **緊急ポリシー**] に移動し、[**通話ポリシー** ] タブをクリックします。
 2. ポリシー名の左側をクリックしてポリシーを選びます。
 3. [**ユーザーを管理**] を選択します。
 4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
@@ -124,7 +130,8 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams で緊急通話ルーティングポリシーを管理する](manage-emergency-call-routing-policies.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
+- [チームのユーザーにポリシーを割り当てる](assign-policies.md)

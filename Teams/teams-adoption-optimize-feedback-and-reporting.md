@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fcaa545f2a704dfad856a4cebbcc9cb9f31d7481
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140698"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349771"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
-ユーザーのフィードバックとサービスの正常性の報告に関するベストプラクティスに従って、サービスと従業員からのシグナルを受信していることを確認します。  場合によっては、特定のサービスの利用状況と正常性のレポートにアクセスするために Office 365 管理者権限が必要になることがあります。 組織の Office 365 管理者ではない場合は、そのユーザーと協力して、このデータの一部にアクセスするために Microsoft 365 管理センターでレポートリーダーロールを付与する必要があります。 
+ユーザーのフィードバックとサービスの正常性の報告に関するベストプラクティスに従って、サービスと従業員からのシグナルを受信していることを確認します。  場合によっては、特定のサービスの利用状況と正常性のレポートにアクセスするために管理者権限が必要になることがあります。 組織の Microsoft 365 または Office 365 管理者でない場合は、この個人と協力して、Microsoft 365 管理センターでレポートリーダーの役割を与えて、このようなデータにアクセスしてください。
 
 ## <a name="incorporating-feedback"></a>フィードバックの組み込み 
 
@@ -56,8 +56,8 @@ Microsoft Teams の使用を拡大縮小するための準備として、展開�
 
 Microsoft Teams の展開と採用の際には、次の3種類のレポートを確認する必要があります。
 
-- [サービス正常性](https://status.office365.com/)– Office 365 と社内 IT サポート部門の両方から。
-- [[サービスアクティビティ](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)] – Office 365 から[Microsoft Teams のレポート](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)を表示します。 組織内の他のシステムの情報を使用することもできます。
+- [サービス正常性](https://status.office365.com/)– Microsoft 365 または Office 365 と社内 IT サポート部門の両方から。
+- [サービスアクティビティ](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)– microsoft 365 または Office 365 では、 [microsoft Teams のレポート](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)を表示できます。 組織内の他のシステムの情報を使用することもできます。
 - サービスの満足度–社内コミュニティフォーラムから収集された、特定のエクスペリエンスに関するアンケート
 
-![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[ドライブの認識とトレーニングの実装](teams-adoption-drive-awareness.md)
+![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) :[ドライブの認識とトレーニングの実装](teams-adoption-drive-awareness.md)

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00615f1bbd48654701ff64e547bffdbd8ee142f9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905669"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349711"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams の導入段階 1 - 開始
 
@@ -67,10 +67,10 @@ ms.locfileid: "43905669"
 
 ## <a name="additional-resources"></a>その他のリソース
 
-[Microsoft 技術コミュニティ](https://aka.ms/TechCommunity)では、多くの Office 365 製品について、導入と技術上の問題について提供されています。 次のコミュニティに参加することをお勧めします。
+[Microsoft の技術コミュニティ](https://aka.ms/TechCommunity)では、多くの microsoft 365 および Office 365 製品の導入と技術上の問題に対して、ピアが提供する情報を提供しています。 次のコミュニティに参加することをお勧めします。
 
 - [Microsoft Teams の技術コミュニティ](https://aka.ms/TeamsCommunity)–製品についての質問を受け、他の teams のお客様から学んで、ブログをフォローして、チームの新しい機能や使用ケースを把握します。 
-- [Office 365 のエキスパートプログラム](https://aka.ms/O365Champions)と推進力のある導入コミュニティ–チーム、SharePoint、Yammer、その他の製品などの office 365 ワークロードを最適に導入する方法について、ピアから学習します。 IT プロフェッショナル、ビジネスユーザー、"偶発的" 開発者、およびクラウドサービスの導入に関心を持っているユーザーを開くことができます。  
+- [エキスパートプログラム](https://aka.ms/O365Champions)と推進力を持つ導入コミュニティ–チーム、SharePoint、Yammer、その他の製品など、Microsoft 365 または Office 365 のワークロードを最大限に活用する方法について、同僚に説明しています。 IT プロフェッショナル、ビジネスユーザー、"偶発的" 開発者、およびクラウドサービスの導入に関心を持っているユーザーを開くことができます。  
 
 
-![次の手順](media/teams-adoption-next-icon.png)を示すアイコン:[チームとチャネルについて](teams-adoption-understand-teams-and-channels.md)
+![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) :[チームとチャネルについて](teams-adoption-understand-teams-and-channels.md)

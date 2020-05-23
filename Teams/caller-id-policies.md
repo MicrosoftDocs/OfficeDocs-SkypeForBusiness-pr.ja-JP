@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号を変更またはブロックする方法について説明します。
-ms.openlocfilehash: a4dbdbac0922bb475f47447a3cf8b2d0f001909c
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: dde534d0c74b11b3c3131a7d5c9eb8611135f70f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224262"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349781"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号ポリシーを管理する
 
@@ -67,17 +67,21 @@ ms.locfileid: "44224262"
 
 ## <a name="assign-a-custom-caller-id-policy-to-users"></a>カスタム発信者番号ポリシーをユーザーに割り当てる
 
-Microsoft Teams 管理センターを使用して、1 つ以上のユーザーまたは Skype for Business PowerShell モジュールにカスタム ポリシーを割り当てることで、セキュリティグループや配布グループなどのユーザーのグループにカスタム ポリシーを割り当てることができます。
+Microsoft Teams 管理センターを使用して、ユーザー設定のポリシーを1人以上のユーザーまたは Skype for Business PowerShell モジュールに割り当てて、セキュリティグループ、配布グループなど、グループ内のユーザーにカスタムポリシーを割り当てることができます。
 
-### <a name="assign-a-custom-caller-line-id-policy-to-a-user"></a>カスタム発信者回線 ID ポリシーをユーザーに割り当てる
+### <a name="assign-a-custom-caller-line-id-policy-to-users"></a>カスタム発信者番号通知ポリシーをユーザーに割り当てる
+
+1人のユーザーにポリシーを割り当てるには、次の操作を行います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
 2. **[ポリシー]** をクリックし、**[割り当てられたポリシー]** の横にある **[編集]** をクリックします。
 3. **[発信者番号ポリシー]** で、割り当てるポリシーを選択し、**[保存]** を選択します。
 
-### <a name="assign-a-custom-calling-line-id-policy-to-multiple-users-at-a-time"></a>カスタム発信回線 ID ポリシーを複数のユーザーに一度に割り当てる
+複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
 
-一度に複数のユーザーにカスタム発信回線 ID ポリシーを割り当てる方法については、「[一括で Teams のユーザー設定を編集する](edit-user-settings-in-bulk.md)」を参照してください。
+1. Microsoft Teams 管理センターの左のナビゲーションで [**ユーザー**] に移動し、ユーザーを検索するか、ビューをフィルター処理して、目的のユーザーを表示します。
+2. [ **&#x2713;** (チェックマーク)] 列で、ユーザーを選びます。 すべてのユーザーを選択するには、テーブルの上部にある &#x2713; (チェックマーク) をクリックします。
+3. [**設定の編集**] をクリックし、必要な変更を加えて、[**適用**] をクリックします。  
 
 または、次の操作も実行できます。
 
@@ -113,4 +117,4 @@ $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Cal
  ## <a name="related-topics"></a>関連項目
 
 - [New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-
+- [チームのユーザーにポリシーを割り当てる](assign-policies.md)

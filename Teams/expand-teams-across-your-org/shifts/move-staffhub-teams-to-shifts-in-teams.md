@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326794"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350311"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft StaffHub のチームを Microsoft Teams のシフトに移動する
 
 > [!IMPORTANT]
-> 2019 年 12 月 31 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は、2019 年 12 月 31 日以降すべてのユーザーがご利用できなくなります。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。
+> 2020年6月30日の有効な Microsoft StaffHub は廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 2020年6月30日に、StaffHub はすべてのユーザーに対して機能しなくなります。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。
 
 Teams 内のシフト アプリでは、スケジュール管理と日ごと常に発生し続けるシフトの入れ替えや取り消しのための簡単なアプローチが提供されます。 チーム メンバーはアプリを使用して複数のデバイスからスケジュールやシフトの情報に直接アクセスでき、基本設定、スケジュール管理、休暇の申請などの操作を行えます。
 
@@ -50,13 +50,13 @@ Teams 内のシフト アプリでは、スケジュール管理と日ごと常�
 
 ### <a name="when-to-move-to-teams"></a>Teams に移行する時期
 
-2019 年 12 月 31 日より、StaffHub が廃止されます。 Teams の使用を今から開始し、組織のチームとユーザーの StaffHub からの移行を開始することをお勧めします。 StaffHub で最もよく使用される機能はスケジュール管理であるため、今後は Teams 内のシフト アプリを使用されることをお勧めします。
+2020年6月30日、StaffHub は廃止されます。 Teams の使用を今から開始し、組織のチームとユーザーの StaffHub からの移行を開始することをお勧めします。 StaffHub で最もよく使用される機能はスケジュール管理であるため、今後は Teams 内のシフト アプリを使用されることをお勧めします。
 
 ### <a name="what-is-moved-to-teams"></a>Teams に移動する内容
 
 StaffHub チームを移動すると、チーム メンバーシップ、ユーザーの詳細、チームのスケジュール、およびチャット データが Teams に移動します。 StaffHub チームを移動しても、ファイルは移動しません。 チームに移動したいファイルが StaffHub チームに含まれている場合は、別の手順でファイルを移動します。
 
-各 StaffHub チームには、対応する Office 365 グループが必要です。 StaffHub チームが Office 365 グループに関連付けられている場合、チームを移動すると、グループのプライバシー設定が保持されます。 StaffHub チームに Office 365 グループが関連付けられていない場合は、移行を支援するためにプライバシー設定が [プライベート] のグループが自動的に作成されます。  Teams と StaffHub ではチームとグループの名前の付け方に違いがあるため、Teams ではチーム名が異なる場合があります。 
+すべての StaffHub チームには、対応する Microsoft 365 または Office 365 グループが必要です。 StaffHub チームが Microsoft 365 グループに関連付けられている場合、チームを移動すると、グループのプライバシー設定が保持されます。 StaffHub チームに Microsoft 365 グループが関連付けられていない場合は、移行をサポートするために、プライバシー設定のグループが [プライベート] に自動的に作成されます。  Teams と StaffHub ではチームとグループの名前の付け方に違いがあるため、Teams ではチーム名が異なる場合があります。 
 
 チームを StaffHub から Teams に移動すると、ユーザーは StaffHub のスケジュールにはアクセスできなくなり、Teams 内のシフトにリダイレクトされます。 中断を最小限に抑え、Teams の導入をユーザーに促すために、この変更について組織全体に伝達することをお勧めします。 Azure AD Premium を使用している場合は、[レポートを実行](run-report-to-show-staffhub-usage.md)して、組織の StaffHub ユーザーのうち、この変更について知っておく必要があるユーザーのリストを取得できます。  
 
@@ -364,7 +364,7 @@ StaffHub チームに関連付けられているグループにチーム所有�
 
 **StaffHub から Teams にファイルを移動しようとすると、"アクセスは拒否されました" というエラー メッセージが表示されます。**
 
-これは、自分がメンバーでないプライベートの Office 365 グループ内のファイルを移動しようとした場合に発生することがあります。 該当する場合は、[AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) コマンドレットを使用して自分自身を StaffHub チームに追加してからファイルを移動します。 ファイルの移動後は、[Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) コマンドレットを使用して、チームから自分自身を削除します。 
+この問題は、自分がメンバーでないプライベートの Microsoft 365 グループでファイルを移動しようとしている場合に発生することがあります。 該当する場合は、[AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) コマンドレットを使用して自分自身を StaffHub チームに追加してからファイルを移動します。 ファイルの移動後は、[Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) コマンドレットを使用して、チームから自分自身を削除します。 
 
 **StaffHub から Teams にファイルを移動しようとすると、[全般] フォルダーが存在しないというエラーが表示されます。**
 

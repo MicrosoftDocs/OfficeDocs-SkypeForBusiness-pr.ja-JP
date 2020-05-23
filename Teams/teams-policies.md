@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 392bbb3c97cf32e815f81073bf662d4d6280ae75
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: ce387ec406a9ccfd6ee45a67f2613a45c219f21f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326654"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349701"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams でチーム ポリシーを管理する
 
@@ -65,13 +65,19 @@ ms.locfileid: "44326654"
 
 Microsoft Teams 管理センターを使用して、1 つ以上のユーザーまたは Skype for Business PowerShell モジュールにカスタム ポリシーを割り当てることで、セキュリティグループや配布グループなどのユーザーのグループにカスタム ポリシーを割り当てることができます。
 
-### <a name="assign-a-custom-teams-policy-to-a-user"></a>ユーザーにカスタムのチーム ポリシーを割り当てる
+### <a name="assign-a-custom-teams-policy-to-users"></a>ユーザーにカスタムのチーム ポリシーを割り当てる
+
+1人のユーザーにポリシーを割り当てるには、次の操作を行います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
 2. **[ポリシー]** をクリックし、**[割り当てられたポリシー]** の横にある **[編集]** をクリックします。
 3. **[チーム ポリシー]** で割り当てるポリシーを選択し、**[保存]** をクリックします。
 
-一度に複数のユーザーにカスタムのチーム ポリシーを割り当てる方法については、「[一括で Teams のユーザー設定を編集する](edit-user-settings-in-bulk.md)」を参照してください。
+複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで [**ユーザー**] に移動し、ユーザーを検索するか、ビューをフィルター処理して、目的のユーザーを表示します。
+2. [ **&#x2713;** (チェックマーク)] 列で、ユーザーを選びます。 すべてのユーザーを選択するには、テーブルの上部にある &#x2713; (チェックマーク) をクリックします。
+3. [**設定の編集**] をクリックし、必要な変更を加えて、[**適用**] をクリックします。  
 
 または、次の操作も実行できます。
 
@@ -108,3 +114,4 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 
 - [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
 - [Teams のプライベート チャネル](private-channels.md)
+- [チームのユーザーにポリシーを割り当てる](assign-policies.md)

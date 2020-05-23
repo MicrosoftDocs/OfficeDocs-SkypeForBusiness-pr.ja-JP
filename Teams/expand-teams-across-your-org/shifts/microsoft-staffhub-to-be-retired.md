@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780636"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350161"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
-2019 年 12 月 31 日より、Microsoft StaffHub が廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。
+2020年6月30日の有効な Microsoft StaffHub は廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。
 
 これらの変更は、Microsoft 365 を使ってすべての従業員を強化するための継続的な取り組みの一部です。 チーム内の最初のラインワーカー向けの機能を使用すると、組織内のすべての従業員がチームを使って作業を効率化し、同僚と共同作業を行い、情報や専門知識にアクセスして、最善の作業を実行できるようになります。
 
@@ -37,13 +37,13 @@ ms.locfileid: "43780636"
 
 #### <a name="when-will-staffhub-be-retired"></a>StaffHub はいつから廃止されますか?
 
-2019年4月の間に、新しいテナントで Microsoft StaffHub は利用できなくなり、既存のテナントの Office 365 アプリ起動ツールからアプリにアクセスすることはできなくなります。 現在のユーザーは、2019年12月31日までサービスを使用できますが、その他の機能は利用できません。
+2019年4月の時点では、Microsoft StaffHub は新しいテナントでは利用できなくなり、現在のテナントの Microsoft 365 または Office 365 アプリ起動ツールからアプリにアクセスすることはできなくなります。 現在のユーザーは、2019年12月31日までサービスを使用できますが、その他の機能は利用できません。
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub が廃止された場合はどうなりますか?
 
-2020年1月1日のすべてのユーザーに対して、Microsoft StaffHub が機能しなくなります。 アプリを開こうとしているユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 ユーザーが teams を含むアクティブなライセンスを持っており、その組織がチームを有効にするための適切な手順を実行している場合、StaffHub のデータとコア機能は、チームへの切り替え時に使用できるようになります。
+2020年6月30日に、Microsoft StaffHub はすべてのユーザーに対して機能しなくなります。 アプリを開こうとしているユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 ユーザーが teams を含むアクティブなライセンスを持っており、その組織がチームを有効にするための適切な手順を実行している場合、StaffHub のデータとコア機能は、チームへの切り替え時に使用できるようになります。
 
-2019年4月と2019年12月の間、StaffHub ユーザーはアプリ内通知を受信して、チームの使用を促すことができます。
+2019年4月と2020年6月の間、StaffHub ユーザーはアプリ内通知を受信して、チームの使用を促すことができます。
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Teams で現在提供されているすべての機能は、StaffHub によって提供されますか?
 
@@ -103,7 +103,7 @@ Teams のシフトアプリは、Firstline Worker を接続して同期させる
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>シフトについて詳しく知るには
 
-製品情報については[https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software)、にアクセスしてください。
+製品情報については、にアクセス [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software) してください。
 
 管理者ガイダンスについては、「 [Teams で組織のシフトアプリを管理する](manage-the-shifts-app-for-your-organization-in-teams.md)」を参照してください。
 
@@ -127,9 +127,9 @@ StaffHub から Teams への切り替えを行う方法の詳細については�
 
 Teams では、Skype for Business との共存がサポートされています。 詳細については、「[チームと skype for business の共存と相互運用性](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)と移行および相互運用に関する[ガイダンス](../../migration-interop-guidance-for-teams-with-skype.md)を理解する」を参照してください。
 
-#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>各ユーザーは、Office 365 アカウントまたは Azure Active Directory (Azure AD) アカウントを持っている必要がありますか。
+#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>各ユーザーは Microsoft 365 または Office 365 アカウント、または Azure Active Directory (Azure AD) アカウントを持っている必要がありますか。
 
-はい。 teams 内のチームとシフトを使用する各マネージャーとチームメンバーは、Office 365 アカウント (Azure AD) を持っている必要があり、有効なライセンスが割り当てられている必要があります。
+はい。 teams 内のチームとシフトを使用する各マネージャーとチームメンバーは、Microsoft 365 または Office 365 アカウント (Azure AD) を所有しており、有効なライセンスが割り当てられている必要があります。
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>StaffHub では、StaffHub teams によって作成されたすべての Microsoft 365 グループに、特別な接頭文字を追加することができます。 Teams でも同じことができますか?
 
@@ -137,7 +137,7 @@ StaffHub から Teams に移動しても、同じ機能はありません。 す
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>Teams でチーム名は同じになりますか?
 
-チームの名前が異なる場合があります。 Teams のチーム名では、Office 365 グループ名が使用されます。 StaffHub チーム名が、対応する Office 365 グループの名前と異なる場合は、Teams に切り替えると別の名前が表示されます。
+チームの名前が異なる場合があります。 Teams のチーム名では、Microsoft 365 グループ名が使用されます。 StaffHub チーム名が、対応する Microsoft 365 グループの名前と異なる場合は、Teams に切り替えると別の名前が表示されます。
 
 #### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>StaffHub チームが Teams に移行されると、チームメンバーシップはどうなりますか?
 
@@ -147,7 +147,7 @@ StaffHub から Teams に移動しても、同じ機能はありません。 す
  
 #### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>プロビジョニングされていない、または状態がアクティブではないチームメンバーの StaffHub はどうなりますか?
 
-ユーザーのスケジュールは [シフト] に移動されますが、ユーザーはチームまたは Office 365 グループのメンバーにはなりません。
+ユーザーのスケジュールは [シフト] に移動されますが、ユーザーはチームまたは Microsoft 365 グループのメンバーにはなりません。
 
 Azure AD ユーザーアカウントにリンクされていない非アクティブなアカウントの場合、管理者は、ユーザーが組織の適切な Azure AD アカウントにリンクされるように、StaffHub のチームメンバーページに有効な Microsoft 365 または Office 365 のメールアドレスを追加して、ユーザーがチームのメンバーとして追加されていることを確認できます。
 
@@ -157,9 +157,9 @@ Azure AD ユーザーアカウントにリンクされていない非アクテ�
  
 #### <a name="what-happens-to-chats-in-staffhub"></a>StaffHub のチャットはどうなりますか?
 
-ユーザーを移行するには、StaffHub のデータチャット履歴を Teams に移行する予定です。 チームで利用できるチャット履歴の量は、移行のために組織を構成するまでの時間によって異なります。 2019年12月31日までに90日間のデータを移行するのに十分な時間を提供するには、2019年6月30日以降のアクションを実行することをお勧めします。
+ユーザーを移行するには、StaffHub のデータチャット履歴を Teams に移行する予定です。 チームで利用できるチャット履歴の量は、移行のために組織を構成するまでの時間によって異なります。 2019年6月30日以降は、2020年6月30日までに90日間のデータを移行するのに十分な時間を提供することをお勧めします。
 
-移行を開始する前に、Microsoft 365 管理センターで Office 365 グループの作成が有効になっていることを確認します。これは、StaffHub のチャットデータを Teams に移動できるようにするために不可欠です。 2019年6月30日までにこのサービスを有効にしないと、移行日が後になったり、チャットデータがコピーされたりすることはありません。
+移行を開始する前に、microsoft 365 管理センターで Microsoft 365 グループの作成が有効になっていることを確認します。これは、StaffHub のチャットデータを Teams に移動できるようにするために不可欠です。 2019年6月30日までにこのサービスを有効にしないと、移行日が後になったり、チャットデータがコピーされたりすることはありません。
 
 #### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>StaffHub にアップロードされたファイルはどうなりますか?
 
@@ -175,7 +175,7 @@ Azure AD ユーザーアカウントにリンクされていない非アクテ�
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>Teams でのファイル共有機能について教えてください。 ファイルはどこに保存されますか?
 
-ファイル共有機能 (マネージャーがチームメンバーにファイルを配布する機能) は、SharePoint Online によってバックエンドで実現されています。 チームが作成されると、そのチームの Office 365 グループがバックグラウンドで自動的にプロビジョニングされます。
+ファイル共有機能 (マネージャーがチームメンバーにファイルを配布する機能) は、SharePoint Online によってバックエンドで実現されています。 チームが作成されると、Microsoft 365 グループがバックグラウンドでそのチームに対して自動的にプロビジョニングされます。
 
 詳細については、「 [SharePoint Online と OneDrive For business が Teams を操作する方法](../../SharePoint-OneDrive-interact.md)」を参照してください。
  
@@ -209,4 +209,4 @@ StaffHub Api を使用して統合を構築した場合、これらの Api は�
 
 #### <a name="where-can-i-provide-feedback"></a>フィードバックはどこで利用できますか?
   
-モバイルアプリで、画面の左上にある [**その他**] をタップし、[**設定** > ] に移動して、**フィードバックを送信**するか、**問題を報告**します。 同様に、デスクトップおよび web アプリでは、画面の左下にある「 > **アイデアの共有**または問題の**報告**」**を参照し**てください。
+モバイルアプリで、画面の左上にある [**その他**] をタップし、[**設定**] に移動して、  >  **フィードバックを送信**するか、**問題を報告**します。 同様に、デスクトップおよび web アプリでは、画面の左下に**ある「**  >  **アイデアの共有**または問題の**報告**」を参照してください。

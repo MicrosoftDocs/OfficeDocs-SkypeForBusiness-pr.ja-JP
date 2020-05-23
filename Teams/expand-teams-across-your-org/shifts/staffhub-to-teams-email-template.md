@@ -17,17 +17,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1baea026c70d3132e1753e334341b89e261a1493
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 38316b5526e3dbf702e2c6217d996062d405f789
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825775"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349581"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>StaffHub から Teams へのユーザー宛のサンプル メール
 
 > [!IMPORTANT]
-> 2019 年 12 月 31 日より、Microsoft StaffHub が廃止されます。 Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は、2019 年 12 月 31 日以降すべてのユーザーがご利用できなくなります。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。 
+> 2020年6月30日の有効な Microsoft StaffHub は廃止されます。 Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 2020年6月30日に、StaffHub はすべてのユーザーに対して機能しなくなります。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。 
 
 StaffHub から Teams への移行が成功するように、組織内のユーザーに変更について知らせるために使用できるメール テンプレートを作成しました。 これをオンボードディング戦略の一環として使用して、シフトについて、および Teams への移行についてユーザーに通知し、組織全体での導入を支援します。
 
@@ -43,7 +43,7 @@ StaffHub から Teams への移行が成功するように、組織内のユー�
 
 Teams 内のこれらのツールにより、お客様の仕事の 1 日がより快適なものになり、チームや組織の他のユーザーと簡単につながることができるようになります。
 
-**次の手順**
+## <a name="next-steps"></a>次の手順
 
 今は何も行う必要はありません。 IT 部門は、ユーザーのすべてのスケジュール データを StaffHub から Teams のシフト アプリに移動させ、&lt;その日&gt;のうちに、シフト スケジュールへのアクセスに StaffHub の代わりに Teams を使い始めることができます。  
 

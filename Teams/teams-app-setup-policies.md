@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b4c6fe9551374139e8220543cb83f262a2a5195a
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326774"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350061"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -93,15 +93,21 @@ Microsoft Teams 管理センターを使って、作成するグローバル (�
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>ユーザーにカスタムアプリセットアップポリシーを割り当てる
 
-Microsoft Teams 管理センターを使用して、カスタムポリシーを個々のユーザーに割り当てるか、Skype for Business PowerShell モジュールを使用して、セキュリティグループや配布グループなどのユーザーグループにカスタムポリシーを割り当てることができます。
+Microsoft Teams 管理センターを使用して、カスタムポリシーを個々のユーザーに割り当てるか、Skype for Business PowerShell モジュールを使用して、セキュリティグループ、配布グループなど、グループ内のユーザーにカスタムポリシーを割り当てることができます。
 
 ### <a name="assign-a-custom-app-setup-policy-to-users"></a>ユーザーにカスタムアプリセットアップポリシーを割り当てる
+
+1人のユーザーにポリシーを割り当てるには、次の操作を行います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
 2. ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。
 3. [**アプリセットアップポリシー**] で、割り当てるアプリセットアップポリシーを選択し、[**適用**] をクリックします。
 
-一度に複数のユーザーにポリシーを割り当てる方法については、「[一括でTeams のユーザー設定を編集する](edit-user-settings-in-bulk.md)」を参照してください。
+複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで [**ユーザー**] に移動し、ユーザーを検索するか、ビューをフィルター処理して、目的のユーザーを表示します。
+2. [ **&#x2713;** (チェックマーク)] 列で、ユーザーを選びます。 すべてのユーザーを選択するには、テーブルの上部にある &#x2713; (チェックマーク) をクリックします。
+3. [**設定の編集**] をクリックし、必要な変更を加えて、[**適用**] をクリックします。  
 
 または、次の操作も実行できます。
 
@@ -194,6 +200,7 @@ Teams のモバイルクライアントでは、ユーザーにはアクティ�
 
 アプリを申請する前に、ロゴガイドラインに従っていることを確認してください。 詳細については、「[販売業者ダッシュボードの申請のチェックリスト](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)」を参照してください。 
 
- ## <a name="related-topics"></a>関連項目
+ ## <a name="related-topics"></a>関連トピック
 
 - [Teams でのアプリの管理設定](admin-settings.md)
+- [チームのユーザーにポリシーを割り当てる](assign-policies.md)

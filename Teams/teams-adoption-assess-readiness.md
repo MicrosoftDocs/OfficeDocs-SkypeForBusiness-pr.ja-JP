@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c34494c08b6c81671c7f36e1ca76593e8d204be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: aeca6da477147c420c9dea053dbebc465fb491f6
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904769"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350271"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Microsoft Teams に対する組織の準備状況について
 
@@ -64,7 +64,7 @@ ms.locfileid: "43904769"
 - グループとの高い知識を共有する
 - リスクの作成しつまり、動作しているかどうかを確認することをお勧めします。
 
-Office 365 で簡単なフォームを使用して、チームの早い導入プログラムをユーザーがオプトインできるようにします。 組織の規模と複雑さに応じて、これらの個人の一部またはすべてを実験段階で有効にすることができます。 このプログラムでは、お客様は、実験段階への積極的な参加に同意し、プロジェクトチームに対して通常のフィードバックを提供します。 単にドライブの新しいテクノロジをテストしたいと考えています。 このアクティブなフィードバックを送信することで、プロジェクトの成果を高めることができることを知らせていただきます。 [フェーズ 2](teams-adoption-phase2-experiment.md)では、このユーザーの一覧を使用します。
+Microsoft 365 または Office 365 で簡単なフォームを使用して、チームの早期導入プログラムを選択できるようにします。 組織の規模と複雑さに応じて、これらの個人の一部またはすべてを実験段階で有効にすることができます。 このプログラムでは、お客様は、実験段階への積極的な参加に同意し、プロジェクトチームに対して通常のフィードバックを提供します。 単にドライブの新しいテクノロジをテストしたいと考えています。 このアクティブなフィードバックを送信することで、プロジェクトの成果を高めることができることを知らせていただきます。 [フェーズ 2](teams-adoption-phase2-experiment.md)では、このユーザーの一覧を使用します。
 
 お客様の環境でこのプログラムを思いするのに役立つリソースは、早期の導入プログラムガイドです。  
  
@@ -104,4 +104,4 @@ Office 365 で簡単なフォームを使用して、チームの早い導入プ
 
 内部のエキスパートを使用して、さまざまな変更の種類に関する問題に対処することができます。 ここでは、フィードバックは成功の鍵となります。課題やニーズを共有するユーザーを促します。 これらの個人またはグループには、実験中にテーブルの座席を付けることによって、disrupters と dissenters を取り入れています。 このベストプラクティスは、共同作業の改善をよりスムーズに展開するための方法を pave します。  
 
-![次の手順](media/teams-adoption-next-icon.png)を示すアイコン: [Microsoft Teams の導入フェーズ 2: 実験](teams-adoption-phase2-experiment.md) 
+![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) : [Microsoft Teams の導入フェーズ 2: 実験](teams-adoption-phase2-experiment.md) 

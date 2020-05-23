@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7000c3555a660fc692b7b88b0d94fb3ea42742c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140744"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350241"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
 
@@ -41,7 +41,7 @@ ms.locfileid: "43140744"
 
 ## <a name="gather-feedback"></a>フィードバックの収集
 
-Office 365 のコンポーネントを使用して、プロジェクトのフィードバックを収集します。
+Microsoft 365 または Office 365 のコンポーネントを使用して、プロジェクトのフィードバックを収集します。
   
 ![判断ポイントを表すアイコン](media/teams-adoption-decision-icon.png) 決定: 組織で既に Yammer ネットワークに投資している場合は、早期導入プログラムのフィードバックフォーラムとして使用することができます。 それ以外の場合は、早期導入プログラムのメンバー数が5000未満の場合は、チームを作成してフィードバックを収集し、トレーニングを受けることができます。
   
@@ -49,4 +49,4 @@ Office 365 のコンポーネントを使用して、プロジェクトのフィ
 > 一部の組織では、早期導入のフィードバック用のチャネルをチームワークエキスパートプログラムチームにまとめることができます。 これは、早期採用されている開発者が将来のチャンピオンとなり、より強力なコミュニティを構築するための優れたアプローチです。 
 
 
-![次の手順](media/teams-adoption-next-icon.png)を示すアイコン。[オンボードサポート](teams-adoption-onboard-support.md)。
+![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) 。[オンボードサポート](teams-adoption-onboard-support.md)。
