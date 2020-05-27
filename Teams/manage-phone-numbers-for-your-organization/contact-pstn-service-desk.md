@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織で電話番号を取得したり、番号を移行 (転送) したりする場合、PSTN サービスデスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: f9dd45f70a0e233f22fbbe607731d65146c705f7
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006013"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374275"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN サービスデスクの連絡先
 
@@ -38,6 +38,7 @@ ms.locfileid: "44006013"
 |:-----:|:------:|
 | [**米国またはカナダ**国内の場合は、ptn@microsoft.com にメールでお問い合わせください。](mailto:ptn@microsoft.com)| [**ベルギー、フランス、ドイツ、英国、アイルランド、オランダ、スペイン、スウェーデン、スイス**、米国 ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
 |[**米国またはカナダ以外**のお客様は、ptneu@microsoft.com でメールを送信してください。](mailto:ptneu@microsoft.com)| [**世界中の**お客様は、gcstnmsd@microsoft.com でメールを送信](mailto:gcstnmsd@microsoft.com)|
+|着信要求に大きなスパイクがあるため、**北アメリカの移植チーム**のバックログが発生します。 このバックログを FIFO (先入れ先出し) ベースでクリアするために取り組んでいます。その結果、**新しい要求への返信が遅延されます。**|
 
 **既存の電話番号の移行/移行に**関するサポートが必要な場合は、できるだけ詳細な情報を入力してください。
   - [組織 ID (テナント id) または現在アクティブな Microsoft ドメイン](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)。

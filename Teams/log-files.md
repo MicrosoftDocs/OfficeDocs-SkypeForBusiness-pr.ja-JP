@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c8da7e60e785d765e77e17935b60382e864a83b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833377"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374205"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -88,9 +88,9 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 
 |クライアント |場所 |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\\*. ブログ         |
-|            |%appdata%\Microsoft\Teams\skylib\\*. ブログ
-|            |%appdata%\Microsoft\Teams\media-stack\\* .etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack \\ *. ブログ         |
+|            |%appdata%\Microsoft\Teams\skylib \\ *. ブログ
+|            |%appdata%\Microsoft\Teams\media-stack \\ * .etl         |
 |Mac OSX     |~/Library/application support Support/Microsoft/Teams/media-stack/*. ブログ         |
 |            |~/Library/application support Support/Microsoft/Teams/skylib/*. ブログ         |
 
@@ -103,7 +103,7 @@ bootstrapper ログとも呼ばれるデスクトップ ログには、デスク
 
 Windows:
 
-1.  アプリケーション トレイの **Microsoft Teams アイコン**をクリックし、[**Get Logs (ログを取得)**] を選択します。
+1.  システムトレイ**で Microsoft Teams アイコン**を右クリックし、[**ログの取得**] を選択します。
 
 Mac OsX:
 
