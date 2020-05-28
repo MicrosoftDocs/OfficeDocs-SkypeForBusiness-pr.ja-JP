@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: ヘッドセット、スピーカーフォン、web カメラ、モニターなどの USB 周辺機器とデバイスは、Microsoft Teams で認定されています。
-ms.openlocfilehash: 8ecb8fcd065cb43c37fa4c55cc5b7106218d6eca
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
+ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281788"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407409"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams で認定された USB オーディオデバイスおよびビデオデバイス
 
@@ -74,10 +74,16 @@ Teams での通話コントロールのサポートについて詳しくは、�
 
 ## <a name="certified-devices"></a>認定済みデバイス
 
-*更新日: 2020 年4月*
+*更新されたテーブル2020*
 
 | [製造元]    | モデリング                   | 識別  | 認定プログラム                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
+|Jabra evolve             |Jabra Link 370 USB ドングルを使って、750のスピーカーフォンを話す|5/21/2020 | Microsoft Teams について認定済み  | 
+|EPOS              | Sennheiser 660 のヘッドセットの調整 |5/15/2020 |Microsoft Teams について認定済み  | 
+|EPOS              | Sennheiser 560 のヘッドセットの調整|5/15/2020 |Microsoft Teams について認定済み  | 
+|EPOS              | Sennheiser に適合する460T ヘッドセット |5/15/2020 |Microsoft Teams について認定済み  | 
+|EPOS              | Sennheiser 360 のヘッドセットの調整| 5/15/2020 |Microsoft Teams について認定済み  | 
+|Yealink           |UH36 ヘッドセット | 5/13/2020 |Microsoft Teams について認定済み  | 
 | Poly            | Savi 8210 Office        | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
 | Poly            | Savi 8210 UC            | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
 | Poly            | Savi 8220 Office        | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |

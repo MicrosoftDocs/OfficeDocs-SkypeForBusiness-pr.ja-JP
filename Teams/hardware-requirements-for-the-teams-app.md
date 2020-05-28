@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams のハードウェア要件
-ms.reviewer: ''
+ms.reviewer: microthk
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e6b61a610d01a50d09af77c626001ca2aff5918
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 9c37bc3aa89a92cf4fdd1e870f49653c8915355e
+ms.sourcegitcommit: d675569fe51c20d0ad1b9855191297530f922d75
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224120"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385988"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -86,6 +86,7 @@ Teams は、次のようなモバイル プラットフォームで使用でき�
 - iOS: iPhone、iPad、iPod touch と互換性があります。
 
   サポート対象は、最新の 2 つのメジャー バージョンの iOS に限られています。 新しいメジャー バージョンの iOS がリリースされると、その新しいバージョンの iOS と、その 1 つ前のバージョンが正式にサポートされます。
+  IOS の **[背景**ビデオに適用する] オプションには、ios 12 以降のオペレーティングシステムが必要です。 iPhone 7 以降、iPad 2018 (第6世代) 以降、iPod touch 2019 (7 世代) と互換性があります。
 
 Teams を最適なパフォーマンスでご利用いただくために、最新バージョンの iOS および Android を使用してください。
 
