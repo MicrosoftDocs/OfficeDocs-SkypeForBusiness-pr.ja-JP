@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
 ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/23/2020
 ms.locfileid: "44349611"
@@ -153,8 +153,8 @@ ms.locfileid: "44349611"
 > <span data-ttu-id="c7c0e-207">レジストリの編集を誤ると、システムに重大な損害を与える可能性があります。</span><span class="sxs-lookup"><span data-stu-id="c7c0e-207">Incorrectly editing the registry may severely damage your system.</span></span> <span data-ttu-id="c7c0e-208">レジストリに変更を加える前に、コンピューター上の重要なデータをバックアップする必要があります。</span><span class="sxs-lookup"><span data-stu-id="c7c0e-208">Before making changes to the registry, you should back up any valued data on the computer.</span></span>
 - <span data-ttu-id="c7c0e-209">Regedit.exe を起動する</span><span class="sxs-lookup"><span data-stu-id="c7c0e-209">Launch RegEdit.exe</span></span>
 - <span data-ttu-id="c7c0e-210">HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins に移動する</span><span class="sxs-lookup"><span data-stu-id="c7c0e-210">Navigate to HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins</span></span>
-- <span data-ttu-id="c7c0e-211">Teamconnect が存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="c7c0e-211">Verify TeamsAddin.FastConnect exists.</span></span>
-- <span data-ttu-id="c7c0e-212">Teams から LoadBehavior に接続します。これは、が存在し、3に設定されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="c7c0e-212">Within TeamsAddin.FastConnect, verify LoadBehavior exists and is set to 3.</span></span>
+- <span data-ttu-id="c7c0e-211">TeamsAddin.FastConnect が存在することを確認します。</span><span class="sxs-lookup"><span data-stu-id="c7c0e-211">Verify TeamsAddin.FastConnect exists.</span></span>
+- <span data-ttu-id="c7c0e-212">TeamsAddin.FastConnect から LoadBehavior に接続します。これは、が存在し、3に設定されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="c7c0e-212">Within TeamsAddin.FastConnect, verify LoadBehavior exists and is set to 3.</span></span>
   - <span data-ttu-id="c7c0e-213">LoadBehavior の値が3以外の場合は、3に変更して、Outlook を再起動します。</span><span class="sxs-lookup"><span data-stu-id="c7c0e-213">If LoadBehavior has a value other than 3, change it to 3 and restart Outlook.</span></span>
 
 ### <a name="delegate-scheduling-does-not-work"></a><span data-ttu-id="c7c0e-214">代理人のスケジュール設定が機能しない</span><span class="sxs-lookup"><span data-stu-id="c7c0e-214">Delegate scheduling does not work</span></span>
