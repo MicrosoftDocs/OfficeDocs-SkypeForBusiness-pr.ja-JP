@@ -314,6 +314,7 @@
 ##### [SIP プロトコル](direct-routing-protocols-SIP.md)
 ##### [メディア プロトコル](direct-routing-protocols-media.md)
 #### [呼び戻しボットをセットアップする](direct-routing-ringback-bot.md)
+#### [音声ルーティング ポリシーを管理する](manage-voice-routing-policies.md)
 
 
 ## 電話番号
@@ -439,7 +440,6 @@
 #### [資金を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams 通話のフロー](microsoft-teams-online-call-flows.md)
-### [音声ルーティング ポリシーを管理する](manage-voice-routing-policies.md)
 
 ## 大規模組織の実践的なガイダンス
 ### [チュートリアル: Teams での通話](Tutorial-calling-in-teams.yml)
