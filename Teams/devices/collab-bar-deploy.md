@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: この記事では、Microsoft Teams のコラボレーションバーの展開について説明します。
-ms.openlocfilehash: 4593d6b42e61efbd7d57f27fd0a10ed8f97b82f5
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268056"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410452"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>Microsoft Teams のコラボレーションバーの展開
 
@@ -52,7 +52,7 @@ Microsoft Teams のコラボレーションバーの展開は、次のフェー�
 |    |     |
 |-----------|------------|
 | ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトが Microsoft Teams のコラボレーションバーのサイト準備要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅が用意されていることを確認します。</li></ul>|
-| ![次のステップを示すアイコン](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>コラボレーションバーの展開と構成の計画を開始します。</li></ul>|
+| ![次のステップを示すアイコン](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>コラボレーションバーの展開と構成の計画を開始します。</li></ul>|
 
 ## <a name="service-readiness"></a>サービスの準備
 
@@ -62,7 +62,7 @@ Microsoft Teams のコラボレーションバーの展開は、次のフェー�
 
 Microsoft 365 リソースアカウントを設定する場合は、会議室ライセンスを購入する必要があります。 会議室ライセンスには、組織内のユーザーが Outlook または Teams で会議室を予約できるようにするリソースメールボックスが含まれています。 このライセンスでは、会議参加者間でのビデオおよび音声会議や画面共有も可能です。
 
-外部の電話番号に対して電話をかけたり、発信したりする必要がある場合は、Microsoft 365 の電話システムまたは Microsoft 365 のビジネスボイスライセンスも必要になります。
+外部の電話番号に対して電話をかけたり、発信したりする必要がある場合は、通話プランまたは Microsoft 365 Business Voice[アドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)が必要になることがあります。 組織で直接ルーティングを有効にしている場合は、会議室の SKU のみが必要になります。
 
 リソースアカウントを作成するときに、アカウントに対して自動的に会議出席依頼を承諾または辞退するか、定期的な会議を許可するか、または他のユーザーがリソースを予約できるようにするかを指定できます。
 
@@ -73,7 +73,7 @@ Microsoft 365 リソースアカウントのコラボレーションバーの詳
 |    |     |
 |-----------|------------|
 | ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>外部の電話を発信または受信するかどうかを決定し、リソースアカウントのライセンス要件を特定します。</li></ul>|
-| ![次のステップを示すアイコン](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リソースアカウントを準備します。</li></ul>|
+| ![次のステップを示すアイコン](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>リソースアカウントを準備します。</li></ul>|
 
 ## <a name="configuration-and-deployment"></a>構成および展開
 
@@ -87,7 +87,7 @@ Microsoft 365 リソースアカウントのコラボレーションバーの詳
 
 ### <a name="account-provisioning"></a>アカウントプロビジョニング
 
-Microsoft 365 リソースアカウントを使用して、ユーザーがコラボレーションバーを利用できるようにする場合は、「 [microsoft 365 管理センターを使用してリソースアカウントを作成](resource-account-ui.md)する」の手順に従って、1つのコラボレーションバーに対して microsoft 365 リソースアカウントを作成します。 ここでは、会議室のライセンスをリソースアカウントに追加する必要があります。また、外部電話番号、電話システム、またはビジネスボイスライセンスを使って通話を発信または受信する必要がある場合にも使用できます。
+Microsoft 365 リソースアカウントを使用して、ユーザーがコラボレーションバーを利用できるようにする場合は、「 [microsoft 365 管理センターを使用してリソースアカウントを作成](resource-account-ui.md)する」の手順に従って、1つのコラボレーションバーに対して microsoft 365 リソースアカウントを作成します。 また、組織が直接ルーティングを使用していない場合は、会議室のライセンスをリソースアカウントに追加する必要があります。また、外部電話番号への通話を発信または受信したい場合は、通話プランまたはビジネスボイスライセンスを追加する必要があります。
 
 プライベートで使用するためにコラボレーションバーを個々のユーザーに割り当てる場合は、追加のアカウントを設定する必要はありません。 ユーザーは個人アカウントを使用してコラボレーションバーにサインインできます。
 
@@ -97,7 +97,7 @@ Microsoft 365 リソースアカウントを使用して、ユーザーがコラ
 |    |     |
 |-----------|------------|
 | ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>専用リソースアカウントの名前付け規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニングスクリプトを使用するかを決定します。</li></ul>|
-| ![次のステップを示すアイコン](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>まず、デバイスの展開を計画します。</li></ul>|
+| ![次のステップを示すアイコン](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>まず、デバイスの展開を計画します。</li></ul>|
 
 ### <a name="device-deployment"></a>デバイスの展開
 
@@ -106,7 +106,7 @@ Microsoft 365 リソースアカウントを使用して、ユーザーがコラ
 |    |     |
 |-----------|------------|
 | ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定する。</li><li> Microsoft Teams on the site のコラボレーションバーをインストールし、構成とテストに着手するリソースを特定します。</li></ul>|
-| ![次のステップを示すアイコン](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>|
+| ![次のステップを示すアイコン](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>デバイスのテストを開始します。</li></ul>|
 
 ### <a name="testing"></a> 試験
 

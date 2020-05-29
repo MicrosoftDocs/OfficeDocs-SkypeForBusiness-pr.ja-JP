@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: バッチポリシーの割り当てを使用して、リモート学校 (teleschool、tele) の目的で、教育機関の多数のユーザーにポリシーを割り当てる方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 5772a260642b09232e4df5eec57751a39ec2a74a
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033361"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410442"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>学校の大規模なユーザーセットにポリシーを割り当てる
 
@@ -108,10 +108,8 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 ## <a name="assign-a-policy-in-bulk"></a>ポリシーをまとめて割り当てる
 
-次に、適切なポリシーをユーザーにまとめて割り当てます。 ポリシーの割り当てまたは更新ができるユーザーの最大数は、一度に2万です。 たとえば、2万のスタッフと教師を超えている場合は、複数のバッチを送信する必要があります。
+次に、適切なポリシーをユーザーにまとめて割り当てます。 ポリシーの割り当てまたは更新ができるユーザーの最大数は、一度に5000です。 たとえば、5000のスタッフと教師を超えている場合は、複数のバッチを送信する必要があります。
 
-> [!IMPORTANT]
-> 現時点では、一度に5000ユーザーのバッチでポリシーを割り当てることをお勧めします。 こうした需要が増加すると、処理時間の遅延が発生する可能性があります。 これらの増加した処理時間の影響を最小限に抑えるために、最大5000人のユーザーに対して少量のバッチサイズを送信し、前のバッチが完了した後でのみ各バッチを送信することをお勧めします。 通常の営業時間外にバッチを送信することもできます。
 
 次を実行して、EducatorMeetingPolicy という名前の会議ポリシーを、スタッフと教師に割り当てます。
 
@@ -120,7 +118,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> TeamsMessagingPolicy などの別のポリシータイプを一括で割り当てるには、割り当てるポリシーと```PolicyType``` ```PolicyName```ポリシー名に変更する必要があります。
+> TeamsMessagingPolicy などの別のポリシータイプを一括で割り当てるには、割り当てるポリシーとポリシー名に変更する必要があり ```PolicyType``` ```PolicyName``` ます。
 
 ## <a name="get-the-status-of-a-bulk-assignment"></a>一括割り当ての状態を取得する
 
@@ -130,13 +128,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
-バッチ処理の各ユーザーの割り当て状態を表示するには、次を実行します。 各ユーザーの詳細が```UserState```プロパティに表示されます。
+バッチ処理の各ユーザーの割り当て状態を表示するには、次を実行します。 各ユーザーの詳細がプロパティに表示され ```UserState``` ます。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## <a name="assign-a-policy-in-bulk-if-you-have-more-than-20000-users"></a>2万を超えるユーザーがいる場合にポリシーを一括で割り当てる
+## <a name="assign-a-policy-in-bulk-if-you-have-more-than-5000-users"></a>5000を超えるユーザーがいる場合にポリシーを一括で割り当てる
 
 まず、次の手順を実行して、所有しているスタッフと教師の数を確認します。
 
@@ -144,13 +142,13 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8
 $faculty.count
 ```
 
-ユーザー Id のリスト全体を指定する代わりに、次のようにして最初の2万を指定し、その後に次の2万を実行します。
+ユーザー Id のリスト全体を指定する代わりに、次のようにして最初の5000を指定し、その後に次の5000を実行します。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-ユーザー Id の範囲は、すべてのユーザーのリストに到達するまで変更できます。 たとえば、最初の```$faculty[0..19999```バッチに対しては enter ```$faculty[20000..39999``` 、2番目```$faculty[40000..59999```のバッチには、3番目のバッチに対してを使用します。
+ユーザー Id の範囲は、すべてのユーザーのリストに到達するまで変更できます。 たとえば、 ```$faculty[0..4999``` 最初のバッチに対しては enter、2番目のバッチには、3番目のバッチに対してを使用し ```$faculty[5000..9999``` ```$faculty[10000..14999``` ます。
 
 ## <a name="get-the-policies-assigned-to-a-user"></a>ユーザーに割り当てられているポリシーを取得する
 

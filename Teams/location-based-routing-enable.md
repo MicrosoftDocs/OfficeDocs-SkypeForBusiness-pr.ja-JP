@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158994"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412644"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
@@ -54,7 +54,7 @@ ms.locfileid: "44158994"
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>ネットワークサイトで位置情報に基づくルーティングを有効にする
 
-ルーティングの制限を適用する必要があるサイトの位置情報に基づくルーティングを有効にします。 これを行うには、Microsoft Teams 管理センターの左のナビゲーションで、[**場所** > の**ネットワークトポロジ**] に移動し、ネットワークサイトを選択し、[**編集**] をクリックして、[**場所に基づくルーティング**] を有効にします。  
+ルーティングの制限を適用する必要があるサイトの位置情報に基づくルーティングを有効にします。 これを行うには、Microsoft Teams 管理センターの左のナビゲーションで、[**場所**の  >  **ネットワークトポロジ**] に移動し、ネットワークサイトを選択し、[**編集**] をクリックして、[**場所に基づくルーティング**] を有効にします。  
 
 詳細については、「[ネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
 
@@ -62,7 +62,7 @@ ms.locfileid: "44158994"
 
 PSTN への通話をルーティングする PSTN ゲートウェイへの通話をルーティングするゲートウェイへの位置情報に基づくルーティングを有効にし、ゲートウェイが配置されているネットワークサイトを関連付けます。 
 
-1. 左側のナビゲーションで、[**音声** > の**直接ルーティング**] に移動し、[ **SBCs** ] タブをクリックします。
+1. 左側のナビゲーションで、[**音声**の直接ルーティング] に移動し、[  >  **Direct Routing** **SBCs** ] タブをクリックします。
 2. SBC を選択し、[**編集**] をクリックします。 
 3. [**場所に基づくルーティングとメディアの最適化**] で、[**場所に基づくルーティングを有効にする**] をオンにします。
 4. ゲートウェイのサイト ID を指定し、バイパスモードを設定します。
@@ -176,17 +176,6 @@ PSTN への通話をルーティングする PSTN ゲートウェイへの通話
     Identity: sbc2.contoso.com 
     GatewaySiteLbrEnabled: $false 
     ```
-
-    PSTN への通話をルーティングしないシステムに接続されたエンドポイント (たとえば、PBX など) には、位置情報に基づくルーティングが有効になっている Teams ユーザーのエンドポイントと同様の制限があります。 つまり、これらのユーザーは、ユーザーの場所に関係なく、Teams ユーザーとの間での通話の発信と受信を行うことができます。 また、システムが関連付けられているネットワークサイトに関係なく、PSTN ネットワーク (たとえば、別の PBX に接続されているエンドポイント) との間で通話を送受信することはできません。 PSTN エンドポイントを含むすべての着信通話、発信通話、通話転送、通話転送には、位置に基づくルーティング enforcements が適用されます。 これらの呼び出しでは、そのシステムにローカルとして定義されている PSTN ゲートウェイのみを使用する必要があります。 
-
-    次の表は、2つの異なるネットワークサイトでの4ゲートウェイのゲートウェイ構成を示しています。2つは PSTN ゲートウェイに接続され、2つは PBX システムに接続されています。 
-
-    ||GatewaySiteLbrEnabled   |NetworkSiteID  |
-    |---------|---------|---------|
-    |PstnGateway: ゲートウェイ1の DEL-GW    |    True     |   サイト 1 (ニューデリー)      |
-    |PstnGateway: ゲートウェイ 2 HYD     |   True      |      サイト 2 (Hyderabad)   |
-    |PstnGateway: ゲートウェイ 3 DEL-PBX    |    False     |     サイト 1 (ニューデリー)    |
-    |PstnGateway: ゲートウェイ 4 HYD-PBX    |    False     |    サイト 2 (Hyderabad)     |
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーで位置情報に基づくルーティングを有効にする
 

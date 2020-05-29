@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219837"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410472"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -160,9 +160,9 @@ CQD Power BI コネクタは、作成できるクエリの種類によっては�
 
 ベータタグにもかかわらず、Power BI 用の通話品質コネクタは、リリース版のコネクタであり、Power BI teams によって正式なセキュリティが署名されており、これを反映しています。 このベータ版タグを削除する認定プロセスは広範囲であるため、Power BI チームからのコミットメントを得て、コネクタに直接サポートを提供する必要があります。 現時点では時間の制約があるため、Power BI チームは現在、そのサポートとより広範な認定を提供することはできませんが、Microsoft Call Quality コネクタのセキュリティ、完全性、および全般的な機能を証明するための準備は完了しています。
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>ブラウザーの Advanced CQD と比べて、コネクタが遅いように見えるのはなぜですか? パフォーマンスを向上させるために何ができますか?
+### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>ブラウザーの Advanced CQD と比べてコネクタの速度が遅いのはなぜですか? パフォーマンスを向上させるために何ができますか?
 
-さまざまなテンプレートのクエリパフォーマンスは、実際にはブラウザーとコネクタの両方で同じです。 差分は、実行される同時クエリの数によって異なります。 CQD のブラウザー内バージョンでは、あまり開発されていないため、情報密度の高い視覚エフェクトオプションがあまり多くないため、ほとんどのレポートでは、2-3 のクエリを一度に読み込むことが制限されていました。 一方、コネクタテンプレートには、多くの場合、20以上の同時クエリが表示されます。 以前に使用していたものと同じように、レポートを作成したい場合は、1つのタブあたりのクエリ数が2-3 を超えないようにレポートを作成してみてください。
+さまざまなテンプレートのクエリパフォーマンスは、実際にはブラウザーとコネクタの両方で同じです。  Power BI は、他のスタンドアロンアプリと同じように、認証とレンダリング時間をパフォーマンスに追加します。 さらに、実行される同時クエリの数も異なります。 CQD のブラウザー内バージョンでは、あまり開発されていないため、情報密度の高い視覚エフェクトオプションがあまり多くないため、ほとんどのレポートでは、2-3 のクエリを一度に読み込むことが制限されていました。 一方、コネクタテンプレートには、多くの場合、20以上の同時クエリが表示されます。 以前に使用していたものと同じように、レポートを作成したい場合は、1つのタブあたりのクエリ数が2-3 を超えないようにレポートを作成してみてください。
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>クエリを実行するときに、定期的に1万行の上限に達していることがわかりました。 コネクタで1万以上の行を返すにはどうすればよいですか?
 
