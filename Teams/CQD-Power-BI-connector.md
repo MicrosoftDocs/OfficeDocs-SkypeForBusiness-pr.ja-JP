@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410472"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416867"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -163,6 +163,10 @@ CQD Power BI コネクタは、作成できるクエリの種類によっては�
 ### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>ブラウザーの Advanced CQD と比べてコネクタの速度が遅いのはなぜですか? パフォーマンスを向上させるために何ができますか?
 
 さまざまなテンプレートのクエリパフォーマンスは、実際にはブラウザーとコネクタの両方で同じです。  Power BI は、他のスタンドアロンアプリと同じように、認証とレンダリング時間をパフォーマンスに追加します。 さらに、実行される同時クエリの数も異なります。 CQD のブラウザー内バージョンでは、あまり開発されていないため、情報密度の高い視覚エフェクトオプションがあまり多くないため、ほとんどのレポートでは、2-3 のクエリを一度に読み込むことが制限されていました。 一方、コネクタテンプレートには、多くの場合、20以上の同時クエリが表示されます。 以前に使用していたものと同じように、レポートを作成したい場合は、1つのタブあたりのクエリ数が2-3 を超えないようにレポートを作成してみてください。
+
+詳細については、次の記事を参照してください。 
+- [Power BI の最適化ガイド](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
+- [DirectQuery モデルのガイダンス](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>クエリを実行するときに、定期的に1万行の上限に達していることがわかりました。 コネクタで1万以上の行を返すにはどうすればよいですか?
 

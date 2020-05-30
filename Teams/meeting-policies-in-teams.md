@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374315"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416877"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -335,7 +335,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 これは開催者単位のポリシーであり、会議の leaderless でダイヤルすることができます。 この設定は、ユーザーが会議に参加できるかどうかを制御します。 既定値は False であり、ダイヤルインユーザーは、組織から認証されたユーザーが会議に参加するまでロビーで待機することになります。 
 
-**注**False で、ダイヤルインユーザーが最初に会議に参加し、ロビーに配置されている場合、組織のユーザーは、lobbby からユーザーを許可するためにチームクライアントと会議に参加する必要があります。 ユーザーのダイヤルに使用できるロビーコントロールはありません。 
+**注**False で、ダイヤルインユーザーが最初に会議に参加し、ロビーに配置されている場合、組織のユーザーは、ロビーからユーザーを許可するためにチームクライアントとの会議に参加する必要があります。 ユーザーのダイヤルに使用できるロビーコントロールはありません。 
 
 
 ### <a name="automatically-admit-people"></a>ユーザーの参加を自動的に許可する
@@ -346,7 +346,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
  会議の開催者は、会議出席依頼の [**会議オプション**] をクリックして、スケジュールする会議ごとにこの設定を変更できます。
  
- **注**会議オプションでは、"ロビーをバイパスできるユーザー" というラベルが設定されます。
+ **注**会議オプションの設定には、"ロビーをバイパスできるユーザー" のラベルが表示されます。
   
 |値を設定する  |参加動作 |
 |---------|---------|
@@ -406,6 +406,23 @@ Teams で [**表示できるユーザー]** の既定値を指定するには、
 会議の開催者が会議の出席レポートをダウンロードできるようにするには、 **AllowEngagementReport**パラメーターを [**有効**] に設定します。 有効にした場合、レポートをダウンロードするオプションが [**参加者**] ウィンドウに表示されます。
 
 会議の開催者がレポートをダウンロードできないようにするには、パラメーターを [**無効**] に設定します。 既定では、この設定は無効であり、レポートをダウンロードするためのオプションは使用できません。
+
+## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>会議ポリシーの設定-諸島モードの会議プロバイダー
+
+**近日公開**
+
+これは、ユーザーごとのポリシーです。 この設定は、*孤島モードのユーザー*が使用する Outlook 会議アドインを制御します。 ユーザーが Teams 会議アドインのみを使用できるようにするか、Teams 会議と Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールすることができます。
+
+このポリシーは、組織のチーム会議ポリシーで**Allowoutlookaddin**パラメーターが**True**に設定されている、孤島モードのユーザーにのみ適用できます。
+
+現在、PowerShell を使ってこのポリシーを設定することはできません。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
+
+ユーザーが使用できるようにする会議アドインを指定するには、次のように**PreferredMeetingProviderForIslandsMode**パラメーターを設定します。
+
+- Outlook で Teams 会議アドインと Skype for Business アドインの両方を有効にするには、パラメーターを**TeamsAndSfB**に設定します。 これは既定の値です。
+- パラメーターを**Teamsonly**設定すると、Outlook で Teams 会議アドインのみが有効になります。 このポリシー設定では、今後のすべての会議に Teams の会議参加リンクを設定することができます。 既存の Skype for Business 会議の参加リンクは Teams に移行されません。 このポリシー設定は、プレゼンス、チャット、PSTN 通話、または Skype for Business のその他の機能には影響しません。つまり、ユーザーはこれらの機能に対して引き続き Skype for Business を使用することになります。
+
+  パラメーターを**Teamsonly**に設定してから、 **TeamsAndSfB**に戻すと、両方の会議アドインが有効になります。 ただし、既存の Teams 会議の参加リンクは Skype for Business に移行されないことに注意してください。 変更後にスケジュールされた Skype for Business 会議のみが、Skype for Business 会議の参加リンクになります。
 
 ## <a name="related-topics"></a>関連項目
 

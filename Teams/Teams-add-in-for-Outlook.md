@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349611"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416727"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -37,6 +37,7 @@ Microsoft Teams を所有しているユーザー、および Office 2013、Offi
 ![Outlook リボン上の Teams 会議アドインのスクリーンショット](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Teams アドインへのリンクがある**直接 URL はありません**。
 > - 組織で Teams と Skype for Business の両方を実行している場合は、その他の考慮事項があります。 状況によっては、Outlook で Teams アドインを使用できない場合があります。 詳細については、「 [Skype For business から Teams にアップグレードする](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
 > - Regsvr32.exe ファイルを実行するユーザーのアクセス許可は、コンピューターに Teams 会議アドインをインストールするための最小要件です。
 > - Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
@@ -65,6 +66,7 @@ iOS と Android の Outlook アプリの最新ビルドには、Teams 会議ボ�
 ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Outlook の Teams 会議アドインと FindTime
+
 FindTime は、Outlook 用のアドインであり、ユーザーが会社間の会議の時間に合意したときに役立ちます。 会議の招待者が希望の時間を提示したら、FindTime はユーザーの代わりに会議出席依頼を送信します。 FindTime で [**オンライン会議**] オプションが選択されている場合、FindTime は Skype for Business または Microsoft Teams の会議をスケジュールします。 (FindTime は、既定のオンライン会議チャネルとして、組織が設定したものを使用します。)
 
 > [!NOTE]  
@@ -96,7 +98,9 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 
 お客様は、[Skype for Business から Teams へのアップグレード手順を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)ことができます。 テナント管理者は、Teams の共存モードを使用して、ユーザーにこの手順を定義できます。 テナント管理者には、ユーザーが Skype for Business (アイランド モード) と共に Teams を使用できるようにするオプションがあります。 
 
-アイランド モードのユーザは、Outlook で会議をスケジュールする場合、通常は Skype for Business と Teams の会議のどちらをスケジュールするか選択できると想定しています。 Outlook on the web、Outlook Windows、および Outlook Mac では、アイランド モードの場合、Skype for Business および Teams アドインの両方が表示されます。 初期リリースではいくつかの制限があるため、Outlook モバイルは Skype for Business **または** Teams の会議の作成のみをサポートしています。 詳細は次の表を参照してください。
+アイランド モードのユーザは、Outlook で会議をスケジュールする場合、通常は Skype for Business と Teams の会議のどちらをスケジュールするか選択できると想定しています。 Outlook on the web、Outlook Windows、Outlook Mac では、既定では、諸島モードでは、ユーザーには Skype for Business と Teams の両方のアドインが表示されます。 チーム会議ポリシー設定を構成して、島々モードのユーザーが Teams 会議アドインのみを使用できるようにするか、Teams 会議と Skype for Business の両方の会議アドインのどちらを使用するかを制御することができます。
+
+初期リリースではいくつかの制限があるため、Outlook モバイルは Skype for Business **または** Teams の会議の作成のみをサポートしています。 詳細は次の表を参照してください。
 
 | Teams 管理センターの共存モード | Outlook モバイルの既定の会議プロバイダー |
 | --------------------------------------|---------------------------------------------|
@@ -105,6 +109,14 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 | Skype for Business と Teams の共同作業 | Skype for Business |
 | Skype for Business と Teams の共同作業と会議 | Teams |
 | Teams のみ | Teams |
+
+### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>島々モードのユーザーが Teams 会議アドインのみを使用できるか、Teams 会議と Skype for Business 会議アドインの両方を使用するかを設定する
+
+**近日公開**
+
+管理者として、チーム会議ポリシー設定を構成して、*孤島モードのユーザー*に使用する Outlook 会議アドインを制御することができます。 ユーザーが Teams 会議アドインのみを使用できるようにするか、Teams 会議と Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールすることができます。
+
+このポリシーは、組織のチーム会議ポリシーで**Allowoutlookaddin**パラメーターが**True**に設定されている、孤島モードのユーザーにのみ適用できます。 このポリシーを設定する手順については、「[島々モードでユーザーの会議プロバイダーを設定](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)する」を参照してください。
 
 ## <a name="other-considerations"></a>その他の考慮事項
 

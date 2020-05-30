@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 745644c7a6cf2207412faacd78e7b5a26d7b754d
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349661"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416887"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -73,11 +73,27 @@ Firstlineworker ポリシーを表示するには、Microsoft Teams 管理セン
 
 ![FirstlineWorker アプリセットアップポリシーのスクリーンショット](../../media/firstline-worker-app-setup-policy.png "Microsoft Teams 管理センターの FirstlineWorker アプリセットアップポリシーのスクリーンショット")
 
-#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>FirstlineWorker ポリシーを個々のユーザーに割り当てる
+#### <a name="assign-the-firstlineworker-policy-to-users"></a>FirstlineWorker ポリシーをユーザーに割り当てる
+
+FirstlineWorker アプリのセットアップポリシーを1人のユーザーに割り当てるには、次の操作を行います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
-2. **[割り当てられているポリシー]** の隣にある **[編集]** を選択します。
-3. [ **Teams アプリセットアップポリシー**] で [ **firstlineworker**] を選択し、[**保存**] を選択します。
+2. ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。
+3. [**アプリセットアップポリシー**] で [ **firstlineworker**] を選択し、[**適用**] をクリックします。
+
+複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
+
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
+2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部にある [&#x2713; (チェックマーク)] をクリックします。
+3. [**設定の編集**] をクリックし、[**アプリセットアップポリシー**] で [ **firstlineworker**] を選択し、[**適用**] をクリックします。  
+
+または、次の操作も実行できます。
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動します。
+2. ポリシー名の左側をクリックして、FirstlineWorker ポリシーを選択します。
+3. [**ユーザーを管理**] を選択します。
+4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
+5. ユーザーの追加が完了したら、[**適用**] を選択します。
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>FirstlineWorker アプリのセットアップポリシーをグループのユーザーメンバーに割り当てる
 
@@ -102,5 +118,15 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
 
+## <a name="search-the-audit-log-for-shifts-events"></a>監査ログでシフトイベントを検索する
+
+**(プレビュー段階)**
+
+監査ログを検索して、組織内のシフトアクティビティを表示できます。  監査ログを検索し、監査ログに記録されている[シフトアクティビティ](../../audit-log-events.md#shifts-in-teams-activities)の一覧を表示する方法の詳細については、「 [Teams のイベントの監査ログを検索](../../audit-log-events.md)する」を参照してください。
+
+監査ログを検索する前に、まず[セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 詳細については、「[監査ログの検索を有効または無効に](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)する」を参照してください。 監査データは、監査を有効にした時点でのみ利用可能であることに注意してください。
+
 ## <a name="related-topics"></a>関連項目
+
 - [Firstline Worker のヘルプをシフトする](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [チームのユーザーにポリシーを割り当てる](../../assign-policies.md)

@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: すべてのユーザーを一度に切り替えるか、段階的な方法 (推奨) を実装して、電話システムのダイレクトルーティングでメディアバイパスを構成する方法について説明します。
+description: すべてのユーザーを一度に切り替えるか、段階的な方法 (推奨) を実装して、Microsoft Teams の電話システムダイレクトルーティングでメディアバイパスを構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904839"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416897"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを構成する
 
