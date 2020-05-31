@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898132"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412624"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>[作業の開始] ウィザードを使用して Business Voice をセットアップする
 
@@ -37,6 +37,8 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
 
 > [!IMPORTANT]
 > Microsoft Teams と Business Voice は、ユーザーのメールボックスが Microsoft 365 にある場合にのみ機能します。  オンプレミスの Exchange Server 上のメールボックスはサポートしていません。
+>
+> 作業の開始ウィザードは、Skype for Business ハイブリッド展開をサポートしていません。 Skype for Business ハイブリッド展開があり、Business Voice をセットアップする場合は、「[組織での電話システムのセットアップ](../setting-up-your-phone-system.md)」をご覧ください。
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 
