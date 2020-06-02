@@ -15,12 +15,12 @@ description: このガイダンスを使用して、Microsoft Teams を最初の
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041714"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472348"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft Teams を最初にロールアウトする
 
@@ -142,9 +142,7 @@ Teams での VoIP/PSTN</td>
 <li><p>チャネルメッセージのコンプライアンスのための電子情報開示と法的保持はサポートされています</p></li>
 <li><p>データ損失防止ポリシー (DLP) を使用できます。</p></li>
 </ul>
-<p>Exchange Online で利用できるすべての機能セット、Exchange オンプレミスは、次の機能をサポートしています。</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Exchange と Teams の連携</a></p>
-<p>すべてのリストの場合</p></td>
+<p>Exchange Online で利用できるフル機能セット exchange オンプレミスでは、これらの機能のほとんどがサポートされています。「Exchange とチームが全リストを<a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">操作する方法</a>」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>
@@ -243,8 +241,7 @@ Teams での VoIP/PSTN</td>
     [Teams のクライアントを取得する](get-clients.md)
 
 5.   導入プログラムを推進する  
-    [Microsoft Teams を導入する](adopt-microsoft-teams-landing-page.md)
-    
+    [Microsoft Teams を導入する](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft Teams の導入クイック スタートのチェックリスト](teams-adoption-quick-start-checklist.md)
 
 6.  他のワークロードの Office 365 への移行の計画を開始する

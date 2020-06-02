@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898172"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489139"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -38,8 +38,11 @@ ms.locfileid: "43898172"
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
-1. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
-2. [**参加者**] の下で、[**匿名ユーザーが会議に参加できます**] をオンにします。
+1. の管理センターに移動 <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> します。
+
+2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
+
+3. [**参加者**] の下で、[**匿名ユーザーが会議に参加できます**] をオンにします。
 
     ![管理センターでの会議の参加者設定のスクリーンショット](media/meeting-settings-participants.png "Microsoft Teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
 
@@ -62,8 +65,9 @@ ms.locfileid: "43898172"
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
-1. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
-2. [**招待メール**] で、次の操作を行います。
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>に移動します。
+2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
+3. [**招待メール**] で、次の操作を行います。
 
     ![カスタマイズ可能な会議の招待状設定のスクリーンショット](media/meeting-settings-invitation.png "Teams 会議用のカスタマイズ可能な会議の招待状設定のスクリーンショット")
 
@@ -71,9 +75,9 @@ ms.locfileid: "43898172"
     - [**法的情報の URL**] 法的な質問があるユーザーを誘導することができる、法的情報が記載されている Web サイトが組織にある場合は、こちらに URL を入力します。
     - [**ヘルプの URL**] ユーザーに問題が発生した場合にユーザーを誘導することができる、サポート Web サイトが組織にある場合は、こちらに URL を入力します。
     - [**フッター**] フッターとして含めるテキストを入力します。
-3. **[Preview invite]**(出席依頼のプレビュー) をクリックして、会議出席依頼のプレビューを表示します。
-4. 作業を終えたら、**[保存]** をクリックします。
-5. 変更が反映されるまで、約 1 時間待ちます。 その後、Team 会議をスケジュールし、会議の招待状の表示のされ方を確認します。  
+4. **[Preview invite]**(出席依頼のプレビュー) をクリックして、会議出席依頼のプレビューを表示します。
+5. 作業を終えたら、**[保存]** をクリックします。
+6. 変更が反映されるまで、約 1 時間待ちます。 その後、Team 会議をスケジュールし、会議の招待状の表示のされ方を確認します。  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Teams 会議でのリアルタイム メディア トラフィックの処理方法を設定する
 
@@ -85,9 +89,9 @@ ms.locfileid: "43898172"
 > QoS を有効にするか Microsoft Teams サービスに関する設定を Microsoft Teams 管理センターで変更する場合、Teams の QoS への変更を完全に実装するには、[すべてのユーザー デバイスおよびすべてのネットワーク デバイスに対して対応する設定を適用](QoS-in-Teams-clients.md)する必要があいります。
 
  ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
-
-1. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
-2. [**ネットワーク**] で、以下の手順を実行します。
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>に移動します。
+2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
+3. [**ネットワーク**] で、以下の手順を実行します。
 
     ![管理センターでの会議のネットワーク設定のスクリーンショット](media/meeting-settings-network.png "Microsoft Teams 管理センターでの Teams 会議のネットワーク設定のスクリーンショット")
 
@@ -108,7 +112,7 @@ ms.locfileid: "43898172"
 |:---             |:---                         |:---    |:---      |:---      |
 |オーディオ            | 50,000–50,019               |TCP/UDP |46        |完全優先転送 (EF)|
 |ビデオ            | 50,020–50,039               |TCP/UDP |34        |相対的優先転送 (AF41)|
-|アプリケーション/画面共有| 50,040–50,059      |TCP/UDP |18        |相対的優先転送 (AF21)|
+|アプリケーション/画面共有| 50,040–50,059      |TCP/UDP |才        |相対的優先転送 (AF21)|
 | | | | |
 
 \* 割り当てるポート範囲は重複させることはできず、互いに隣り合っている必要があります。

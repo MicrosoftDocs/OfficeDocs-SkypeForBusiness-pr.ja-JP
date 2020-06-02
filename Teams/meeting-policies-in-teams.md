@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416877"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489149"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -423,6 +423,24 @@ Teams で [**表示できるユーザー]** の既定値を指定するには、
 - パラメーターを**Teamsonly**設定すると、Outlook で Teams 会議アドインのみが有効になります。 このポリシー設定では、今後のすべての会議に Teams の会議参加リンクを設定することができます。 既存の Skype for Business 会議の参加リンクは Teams に移行されません。 このポリシー設定は、プレゼンス、チャット、PSTN 通話、または Skype for Business のその他の機能には影響しません。つまり、ユーザーはこれらの機能に対して引き続き Skype for Business を使用することになります。
 
   パラメーターを**Teamsonly**に設定してから、 **TeamsAndSfB**に戻すと、両方の会議アドインが有効になります。 ただし、既存の Teams 会議の参加リンクは Skype for Business に移行されないことに注意してください。 変更後にスケジュールされた Skype for Business 会議のみが、Skype for Business 会議の参加リンクになります。
+
+## <a name="meeting-policy-settings---video-filters-mode"></a>会議のポリシー設定-ビデオフィルターモード
+
+これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でビデオの背景をカスタマイズできるかどうかを制御します。
+
+現在、PowerShell を使ってこのポリシーを設定することはできません。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーにポリシーを割り当てます。
+
+会議中にユーザーがビデオの背景をカスタマイズできるかどうかを指定するには、次のように**Videoフィルタモード**のパラメーターを設定します。
+
+|PowerShell での値の設定 |動作  |
+|---------|---------|
+|**NoFilters**     |ユーザーはビデオの背景をカスタマイズできません。|
+|**BlurOnly**     |ユーザーには、ビデオの背景をぼかすオプションがあります。 |
+|**BlurandDefaultBackgrounds**     |ユーザーは、ビデオの背景をぼかすか、一連の画像から背景として使うかを選択するオプションがあります。 |
+|**AllFilters**     |[使用] には、ビデオの背景をぼかす、一連の画像から選択する、または背景として使用するカスタム画像をアップロードするオプションがあります。 |
+
+> [!NOTE]
+> ユーザーによってアップロードされた画像は、Teams ではスクリーンされません。 [ **Allfilters** ] 設定を使用すると、ユーザーが不快感を与える、または不適切な画像をアップロードすることを防止するための内部組織ポリシーが必要になります。また、組織が Teams 会議の背景に使用する権限を持っていない場合もあります。
 
 ## <a name="related-topics"></a>関連項目
 

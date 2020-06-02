@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この記事では、Microsoft クラウドボイスメールサービスを実装するための利点、計画に関する考慮事項、および要件について説明します。 クラウドボイスメールの構成の詳細については、「Cloud 留守番電話を構成する」を参照してください。
-ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: b78608f3fd1e60421ad0edc4318b2b44217851c2
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221287"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472256"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスユーザー用にクラウドボイスメールサービスを計画する
 
@@ -59,7 +59,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 3. その後、メールボックスがオンプレミスかオンラインかにかかわらず、ユーザーの Exchange メールボックスにボイスメールがデポジットされます。  
 4. ユーザーは、Skype for Business または Outlook クライアントから、ボイスメールにアクセスできます。
 
-## <a name="requirements"></a>要件
+## <a name="requirements"></a>Requirements
 
 次の要件は、サポートされているトポロジで Skype for Business Server を既に展開していることを前提としています。  要件は、シナリオによって異なります。
 
@@ -79,7 +79,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 
 - 外部 Exchange Web サービス (EWS) の URL と自動検出を設定する必要があります。また、一部のクラウドボイスメール機能は制限されます。
 
-- オンプレミスのみの展開&#x2014;は、Exchange と Skype for Business のオンプレミスサーバーのみを使用して&#x2014;、クラウドボイスメールを利用したい場合は、電話システムのライセンスが必要になります。
+- オンプレミスの Exchange サーバーがある場合は、「 [set Up Cloud ボイスメール For Exchange Server Mailbox Users](https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users)」の手順を使用してクラウドボイスメールをセットアップします。
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 
