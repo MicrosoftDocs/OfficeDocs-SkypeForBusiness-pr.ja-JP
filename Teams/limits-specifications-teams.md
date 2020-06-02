@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8730c1522439660652bd164d6628fdf2f78f37cb
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 85879d55ad50a6c68bbe59d9c1fb51663988c661
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44229885"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489059"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -43,6 +43,7 @@ ms.locfileid: "44229885"
 |Office 365 組織が持てるチームの数    | 500,000&sup2;     |
 |チームごとのチャネル数    | 200 (削除されたチャネルを含む) &sup3;         |
 |チームごとのプライベート チャネル数    |30|
+|プライベート チャネルのメンバー数    |250 人|
 |チャネル会話の投稿サイズ | 投稿ごとに約 28 KB<sup>4</sup> |
 
 &sup1; Azure Active Directory の任意のディレクトリ オブジェクトは、この制限にカウントされます。 グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
