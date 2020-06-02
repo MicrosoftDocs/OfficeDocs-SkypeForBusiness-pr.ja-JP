@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c40e9f89d56329dc8f4f450b72a76c031315b9a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 502bdb8c5e441449680fa383b20f3e570d8a8ecc
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041754"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489129"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 =======================================================
@@ -79,7 +79,7 @@ Teams Exploratory エクスペリエンスには Exchange Online ライセンス
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>ユーザーが試用版アプリおよびサービスをインストールできないようにする
 
-ユーザーが試用版アプリとサービスをインストールできるようにする機能をオフにすると、そのユーザーは Teams Exploratory エクスペリエンスを実行できなくなります。
+ユーザーが試用版アプリとサービスをインストールできるようにする機能をオフにすると、そのユーザーは Teams Exploratory エクスペリエンスを実行できなくなります。 管理者権限が必要です。 管理者の役割の詳細については、「[Microsoft Teams の管理者ロールを使用して Teams を管理する](teams-exploratory.md)」を参照してください。
 
 1. [[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home) から、**[設定]** > **[設定]** に移動し、**[サービス]** を選択し、**[ユーザーが所有するアプリとサービス]** を選択します。
 
@@ -94,11 +94,11 @@ Teams Exploratory エクスペリエンスには Exchange Online ライセンス
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Teams が含まれているライセンスを持つユーザーの利用可能性を管理する
 
-Teams が含まれているライセンスの割り当てられたユーザーは、Teams Exploratory エクスペリエンスの対象になりません。 Teams のサービス プランが有効なときには、そのユーザーは Teams にログインして使用できます。 サービス プランが無効になっている場合、ユーザーはサインインできず、Teams Exploratory エクスペリエンスは利用できません。
+Teams が含まれているライセンスの割り当てられたユーザーは、Teams Exploratory エクスペリエンスの対象になりません。 Teams のサービス プランが有効なときには、そのユーザーは Teams にログインして使用できます。 サービス プランが無効になっている場合、ユーザーはサインインできず、Teams Exploratory エクスペリエンスは利用できません。 管理者権限が必要です。 
 
 Teams へのアクセスをオフにするには:
 
-1. Microsoft 365 管理センターで、**[ユーザー]** > **[アクティブ ユーザー]** を選択します。
+1. [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)で、**[ユーザー]** > **[アクティブ ユーザー]** を選択します。
 
 2. ユーザーの名前の横にあるボックスを選択します。
 
@@ -110,7 +110,7 @@ Teams へのアクセスをオフにするには:
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスをすでに使用しているユーザーの Teams の可用性を管理する
 
-ユーザーが Teams Exploratory エクスペリエンスを実行している場合は、ライセンスまたはサービス プランを削除することでそれをオフにできます。
+ユーザーが Teams Exploratory エクスペリエンスを実行している場合は、ライセンスまたはサービス プランを削除することでそれをオフにできます。 管理者権限が必要です。 
 
 Teams Exploratory エクスペリエンスのライセンスをオフにするには:
 
@@ -131,7 +131,7 @@ Teams Exploratory ライセンスを持つユーザーは、通常の有料ラ�
 
 ### <a name="upgrade-users-from-the-teams-exploratory-license"></a>Teams Exploratory ライセンスからユーザーをアップグレードする
 
-Teams Exploratory ライセンスからユーザーをアップグレードするには、次の手順を実行します。
+Teams Exploratory ライセンスからユーザーをアップグレードするには(管理者権限が必要です)、次の手順を実行します。
 
 1. Teams が含まれているサブスクリプションを購入します。
 
@@ -161,3 +161,10 @@ Microsoft Teams Exploratory エクスペリエンスは、次の**契約応当�
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>エンド ユーザーが、Microsoft Teams Exploratory エクスペリエンスを契約日、または更新日の前に開始した場合は、どうなりますか?
 
 Microsoft Teams Exploratory エクスペリエンス ライセンスの開始が、**契約応当日**、または**更新日**の 90 日以内であれば、次の契約応当日、更新日まで有料のライセンスに移行する必要はありません。 
+
+### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>契約に応当日または年次更新日がない場合 (月単位の契約など)
+
+応当日または年次更新日を含まない契約については、最初のエンド ユーザーが Microsoft Teams Exploratory エクスペリエンス ライセンスをアクティブ化した翌年が、応当日または年次更新日として扱われます。 Microsoft Teams Exploratory ライセンスを使用しているユーザーは、上記のポリシーに従って、その年のその日までに有料ライセンスに移行する必要があります。
+
+たとえば、最初のエンドユーザーが、2020 年 6 月 19 日に Microsoft Teams Exploratory をアクティブ化した場合、2021 年 6 月 19 日までにそれらのユーザーと顧客テナントのその他のすべての対象ユーザーが Teams の有料ライセンスに移行する必要があります。 
+
