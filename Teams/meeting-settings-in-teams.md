@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
-ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: MT
+ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42413317"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489139"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -36,15 +36,18 @@ ms.locfileid: "42413317"
 
 匿名参加を許可した場合、会議への招待状に含まれるリンクをクリックすると、誰でも匿名ユーザーとして会議に参加することができます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。
 
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+1. <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> で管理センターにアクセスします。
 
-1. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
-2. [**参加者**] の下で、[**匿名ユーザーが会議に参加できます**] をオンにします。
+2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
+
+3. [**参加者**] の下で、[**匿名ユーザーが会議に参加できます**] をオンにします。
 
     ![管理センターでの会議の参加者設定のスクリーンショット](media/meeting-settings-participants.png "Microsoft Teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
 
-組織のユーザーがスケジュールを行った会議に匿名ユーザーを参加させないようにするには、この設定をオフにします。
+> [!CAUTION]
+> 組織のユーザーがスケジュールを行った会議に匿名ユーザーを参加させないようにするには、この設定をオフにします。
 
 ## <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする
 
@@ -60,10 +63,11 @@ ms.locfileid: "42413317"
 
 ### <a name="customize-your-meeting-invitations"></a>会議の招待状をカスタマイズする
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
-1. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
-2. [**招待メール**] で、次の操作を行います。
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>にアクセスします。
+2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
+3. [**招待メール**] で、次の操作を行います。
 
     ![カスタマイズ可能な会議の招待状設定のスクリーンショット](media/meeting-settings-invitation.png "Teams 会議用のカスタマイズ可能な会議の招待状設定のスクリーンショット")
 
@@ -71,9 +75,9 @@ ms.locfileid: "42413317"
     - [**法的事項の URL**] 法的な質問があるユーザーを誘導することができる、法的情報が記載されている Web サイトが組織にある場合は、こちらに URL を入力します。
     - [**ヘルプの URL**] ユーザーに問題が発生した場合にユーザーを誘導することができる、サポート Web サイトが組織にある場合は、こちらに URL を入力します。
     - [**フッター**] フッターとして含めるテキストを入力します。
-3. **[Preview invite]**(出席依頼のプレビュー) をクリックして、会議出席依頼のプレビューを表示します。
-4. 作業を終えたら、**[保存]** をクリックします。
-5. 変更が反映されるまで、約 1 時間待ちます。 その後、Team 会議をスケジュールし、会議の招待状の表示のされ方を確認します。  
+4. **[Preview invite]**(出席依頼のプレビュー) をクリックして、会議出席依頼のプレビューを表示します。
+5. 作業を終えたら、**[保存]** をクリックします。
+6. 変更が反映されるまで、約 1 時間待ちます。 その後、Team 会議をスケジュールし、会議の招待状の表示のされ方を確認します。  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Teams 会議でのリアルタイム メディア トラフィックの処理方法を設定する
 
@@ -84,15 +88,15 @@ ms.locfileid: "42413317"
 > [!IMPORTANT]
 > QoS を有効にするか Microsoft Teams サービスに関する設定を Microsoft Teams 管理センターで変更する場合、Teams の QoS への変更を完全に実装するには、[すべてのユーザー デバイスおよびすべてのネットワーク デバイスに対して対応する設定を適用](QoS-in-Teams-clients.md)する必要があいります。
 
- ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
-
-1. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
-2. [**ネットワーク**] で、以下の手順を実行します。
+ ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>にアクセスします。
+2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
+3. [**ネットワーク**] で、以下の手順を実行します。
 
     ![管理センターでの会議のネットワーク設定のスクリーンショット](media/meeting-settings-network.png "Microsoft Teams 管理センターでの Teams 会議のネットワーク設定のスクリーンショット")
 
     - DSCP マーキングを QoS で使用できるようにするには、[**リアルタイム メディア トラフィックのサービスの品質 (QoS) マーカーを挿入する**] をオンにします。 選択できるのは、マーカーを使用するか使用しないかのどちらかです。トラフィックの種類ごとにカスタム マーカーを設定することはできません。 DSCP マーカーの詳細については、「[QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)」を参照してください。
-        > [!NOTE] 
+        > [!NOTE]
         > [**リアルタイム メディア トラフィックのサービスの品質 (QoS) マーカーを挿入する**] をオンにすると、UDP ポート 3479 (オーディオ), 3480 (ビデオ)、および 3481 (共有) を使用するトランスポート リレーへの通信もオンになります。
     - ポート範囲を指定するには、[**リアルタイム メディア トラフィックの種類ごとのポート範囲を選択する**] の横にある [**ポート範囲を指定**] を選択し、オーディオ、ビデオ、画面共有用の開始および終了ポートを入力します。 QoS を実装するには、このオプションを選択する必要があります。
         > [!IMPORTANT]
@@ -102,7 +106,7 @@ ms.locfileid: "42413317"
 
 お客様の環境で使用すべきポート範囲がわからない場合は、以下の設定から始めることをお勧めします。 詳細については、「[Microsoft Teams でサービスの品質 (QoS) を実装する](QoS-in-Teams.md)」を参照してください。 必要な DSCP マーキングと、Teams と ExpressRoute の両方で使用される、対応する推奨メディア ポートの範囲を以下に示します。
 
-_ポート範囲と DSCP マーカー_
+### <a name="port-ranges-and-dscp-markings"></a>ポート範囲と DSCP マーカー
 
 メディア トラフィックの種類| クライアントのソース ポートの範囲\* |プロトコル|DSCP 値|DSCP クラス|
 |:---             |:---                         |:---    |:---      |:---      |
