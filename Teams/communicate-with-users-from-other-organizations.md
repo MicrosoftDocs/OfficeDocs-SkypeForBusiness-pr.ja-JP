@@ -17,12 +17,12 @@ description: 外部アクセス (フェデレーション) とゲスト アク�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785930"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539444"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams の別の組織のユーザーと通信する
 ======================================================
@@ -73,7 +73,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 | 個々のユーザーをブロックできる | いいえ | はい |
 | @メンションがサポートされている | はい<sup>4</sup> | はい |
 | プライベート通話をする | はい | はい |
-| ダイヤルイン会議の参加者の電話番号を表示する | いいえ | はい |
+| ダイヤルイン会議の参加者の電話番号を表示する | No<sup>5</sup> | はい |
 | IP ビデオを許可する | Yes | はい |
 | 画面共有モード | はい<sup>4</sup> | はい |
 | 今すぐ会議を許可する | いいえ | はい |
@@ -88,6 +88,8 @@ Teams では既定で外部アクセスが有効になっています。つま�
 <sup>2</sup> 電子メールまたはセッション開始プロトコル (SIP) アドレスのみ。<br>
 <sup>3</sup> 外部 (フェデレーション) チャットは 1:1 のみ。<br>
 <sup>4</sup> 2 つの異なる組織の Teams のみユーザーの Teams のみの 1:1 チャットでサポートされる。 
+<sup>5</sup> 既定では、外部ユーザーはダイヤル インした参加者の電話番号は見ることができません。 これらの電話番号のプライバシーを維持する場合は、[**開始/終了アナウンスの種類**] で [**トーン**] を選択します (これにより、Teams が番号を読み取ることができなくなります)。外部ユーザーに外部 PSTN 電話番号を表示したくない場合は、[**開始/終了アナウンスの種類**] で [**トーン**] を選択します。 詳細については、「[Microsoft Teams で会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)」を参照してください。
+
 
 ## <a name="related-topics"></a>関連項目
 
