@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 管理者は、Microsoft Teams 会議で入力および終了のお知らせを有効または無効にする方法について説明します。
-ms.openlocfilehash: b5c9227ad50816fecf64690b4a2de3233e7a669f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5b3cdabac41c5c79827df714ccf3192f06b55440
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904749"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539474"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Microsoft Teams で会議の入退室通知をオンまたはオフにする
 
@@ -39,19 +39,25 @@ Office 365 の電話会議をセットアップしている場合、電話会議
   
 ## <a name="setting-meeting-join-options"></a>会議の参加オプションの設定
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
-1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
+これらの変更を行うには、管理者である必要があります。
 
-2. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
+1. 管理センターにログイン  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> します。
 
-3. [**ブリッジ設定**] ウィンドウで、[**会議の開始と終了の通知**] を有効または無効にします。 これは既定では選択されています。 この選択をクリアすると、既に参加済みのユーザーは、誰かが入ってきたり退出したりしたときに通知を受け取りません。
+2. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
+
+3. [**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。 
+
+4. [**ブリッジ設定**] ウィンドウで、[**会議の開始と終了の通知**] を有効または無効にします。 これは既定では選択されています。 この選択をクリアすると、既に参加済みのユーザーは、誰かが入ってきたり退出したりしたときに通知を受け取りません。
     
-4. [**開始/終了のお知らせの種類**] で、[**名前または電話番号**] または [**トーン**] を選択します。
+5. [**エントリ/退出のお知らせの種類**] の下にある [**名前または電話番号**] または [**トーン**] を選択します。
+  > [!NOTE]
+  > 既定では、外部参加者はダイヤルイン参加者の電話番号を表示することはできません。 これらの電話番号のプライバシーを維持する場合は、[アナウンスの**種類**] の [**トーン**] を選択します (これにより、チームがこの番号を閲覧できなくなります)。
     
-5. [**名前または電話番号**] を選ぶ場合は、[**発信者に、会議に参加する前に自分の名前を記録するように要求します**] を有効または無効にします。
+6. [**名前または電話番号**] を選ぶ場合は、[**発信者に、会議に参加する前に自分の名前を記録するように要求します**] を有効または無効にします。
     
-6. [**保存**] をクリックします。
+7. [**保存**] をクリックします。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 

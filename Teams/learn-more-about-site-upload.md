@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137117"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539644"
 ---
 <a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
 ============================
@@ -38,9 +38,9 @@ ms.locfileid: "43137117"
 
 **サブネットと場所の表を編集するには**
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所** > ] をクリック**します。**
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所**] をクリックし  >  **Reporting labels**ます。
 2. [**場所のデータの置換**] をクリックします。
-3. [**場所データの置換**] ウィンドウで、[**ファイルの選択**] をクリックし、編集した .csv または .tsv ファイルを参照してアップロードします。
+3. [**場所の置換] データ**ウィンドウで、[**ファイルの選択**] をクリックし、編集した .csv または .tsv ファイルを参照してアップロードします。
 4. [**アップロード**] をクリックします。
 
 サンプルテンプレートは[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)からダウンロードできます。

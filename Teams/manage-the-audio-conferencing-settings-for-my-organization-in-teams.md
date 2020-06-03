@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: b353f119d3f666f0a694ab325273e2b5f568da04
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f887e6567052f80d6353202906f77a51e6403372
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042484"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539454"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -45,7 +45,7 @@ ms.locfileid: "44042484"
   
 1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
     
-2. **Microsoft 365 管理センター**の左のナビゲーションで、[**ユーザー** > の**アクティブな**ユーザー] に移動し、利用可能なユーザーのリストからユーザー (複数可) を選びます。
+2. **Microsoft 365 管理センター**の左のナビゲーションで、[ユーザーの**Users**  >  **アクティブな**ユーザー] に移動し、利用可能なユーザーのリストからユーザー (複数可) を選びます。
     
     > [!NOTE]
     > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。  
@@ -59,7 +59,7 @@ ms.locfileid: "44042484"
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>電話会議ユーザーに送信されたメールを有効または無効にする
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -90,7 +90,7 @@ ms.locfileid: "44042484"
 
 ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。 会議通話 ID は自動的に作成されユーザーに割り当てられますが、ユーザーは使わないため特定の番号に設定しようと考える場合や、ユーザーが会議通話 ID を覚えられない、または紛失してしまう場合があります。 
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -102,7 +102,7 @@ ms.locfileid: "44042484"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議の情報が記載された電子メールをユーザーに送信する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -115,7 +115,7 @@ ms.locfileid: "44042484"
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>招待状に含まれている電話番号を設定する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -132,7 +132,7 @@ ms.locfileid: "44042484"
 
 **発信者が会議に参加するときの会議エクスペリエンスを設定する**
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -146,7 +146,10 @@ ms.locfileid: "44042484"
 
     [**名前または電話番号**] を選ぶと、[**発信者に会議に参加する前に自分の名前を記録するように要求する**] を有効または無効にすることもできます。 
 
-5. [**保存**] をクリックします。
+    > [!NOTE]
+    > 既定では、外部参加者はダイヤルイン参加者の電話番号を表示することはできません。 これらの電話番号のプライバシーを維持する場合は、[アナウンスの**種類**] の [**トーン**] を選択します (これにより、チームがこの番号を閲覧できなくなります)。
+
+5. **[保存]** をクリックします。
 
     
 [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)を参照してください。
@@ -172,7 +175,7 @@ ms.locfileid: "44042484"
 
 3. [**ブリッジの設定**] ペインで、[**電話会議設定を変更した場合ユーザーに自動的に電子メールを送信する**] を有効または無効にします。
 
-4. [**保存**] をクリックします。 
+4. **[保存]** をクリックします。 
  
     電話会議設定をメールでユーザーに送ることもできます。その場合は、ユーザーの電話会議プロパティに移動して、[**電話会議情報を電子メールで送信する**] をクリックします。
     
@@ -182,7 +185,7 @@ ms.locfileid: "44042484"
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>電話会議ブリッジの第 1 (既定) 言語と第 2 (代替) 言語を表示、設定する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -197,7 +200,7 @@ ms.locfileid: "44042484"
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>電話会議のダイヤルイン番号を確認する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でクラウド音声機能のネットワーク設定を構成する方法について説明します。
-ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888706"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539627"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams でクラウド音声機能のネットワークトポロジを管理する
 
@@ -39,12 +39,12 @@ ms.locfileid: "41888706"
 
 #### <a name="add-and-configure-a-network-site"></a>ネットワークサイトを追加および構成する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所** > の**ネットワークトポロジ**] に移動し、[**ネットワークサイト**] タブをクリックします。
-2. [**新規作成**] をクリックして、サイトの名前と説明を入力します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所**のネットワークトポロジ] に移動し、[  >  **Network topology****ネットワークサイト**] タブをクリックします。
+2. [**追加**] をクリックして、サイトの名前と説明を入力します。
 
     ![[ネットワークサイトの追加] ページのスクリーンショット](media/manage-network-topology-add-site.png)
 
-3. ネットワーク領域にサイトを関連付けるには、[**ネットワーク領域のリンク**] をクリックし、既存の地域を選択するか、[**追加**] をクリックして地域を追加し、[**リンク**] をクリックします。  
+3. ネットワーク領域にサイトを関連付けるには、[**ネットワーク領域の追加**] をクリックし、既存の地域を選択するか、[**追加**] をクリックして地域を追加し、[**リンク**] をクリックします。  
 4. サイトの位置情報に基づくルーティングを有効にするには、**場所に基づくルーティング**を有効にします。
 5. サイトに緊急サービスポリシーを割り当てるには、次のいずれか、または両方の操作を行います。
 
@@ -56,7 +56,7 @@ ms.locfileid: "41888706"
 
 #### <a name="modify-a-network-site"></a>ネットワークサイトを変更する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所** > の**ネットワークトポロジ**] に移動し、[**ネットワークサイト**] タブをクリックします。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所**のネットワークトポロジ] に移動し、[  >  **Network topology****ネットワークサイト**] タブをクリックします。
 2. サイト名の左側をクリックして、サイトを選択し、[**編集**] をクリックします。
 3. 必要な変更を加えて、[保存] をクリックし**ます。**
 
@@ -66,7 +66,7 @@ ms.locfileid: "41888706"
 
 #### <a name="add-a-trusted-ip-address"></a>信頼できる IP アドレスを追加する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所** > の**ネットワークトポロジ**] に移動し、[**信頼さ**れている ip] タブをクリックします。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所**のネットワークトポロジ] に移動し、[  >  **Network topology****信頼さ**れている ip] タブをクリックします。
 2. [**新規**] をクリックします。
 3. [**信頼できる ip アドレスの追加**] ウィンドウで、ip のバージョン、ip アドレス、ネットワークの範囲を指定し、説明を追加して、[**適用**] をクリックします。
 
@@ -74,7 +74,7 @@ ms.locfileid: "41888706"
 
 #### <a name="edit-a-trusted-ip-address"></a>信頼できる IP アドレスを編集する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所** > の**ネットワークトポロジ**] に移動し、[**信頼さ**れている ip] タブをクリックします。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**場所**のネットワークトポロジ] に移動し、[  >  **Network topology****信頼さ**れている ip] タブをクリックします。
 2. [IP アドレス] の左側をクリックして選び、[**編集**] をクリックします。
 3. [**信頼できる IP アドレスの編集**] ウィンドウで、必要な変更を行い、[**適用**] をクリックします。
 
@@ -84,7 +84,7 @@ ms.locfileid: "41888706"
 
 ### <a name="define-network-regions"></a>ネットワーク領域を定義する
 
- ネットワーク領域を定義するには、 [CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion)コマンドレットを使用します。 RegionID パラメーターは、領域の地理を表す論理名であり、依存関係または制限がないため、CentralSite &lt;site ID&gt;パラメーターは省略可能であることに注意してください。
+ ネットワーク領域を定義するには、 [CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion)コマンドレットを使用します。 RegionID パラメーターは、領域の地理を表す論理名であり、依存関係または制限がないため、CentralSite &lt; SITE ID &gt; パラメーターは省略可能であることに注意してください。
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -178,6 +178,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 「 [Set-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress)」も参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams でのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

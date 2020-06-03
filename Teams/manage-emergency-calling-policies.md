@@ -17,16 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で緊急通話ポリシーを使用して管理する方法について説明します。この方法では、組織内の Teams ユーザーが緊急通報を行ったときの動作を定義します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea02c1c7f9d4142db9cb25c00714e04a28e0e5e3
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 98d6fb5eba98701cddccb808e5670fb34a00efbf
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350201"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539484"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ポリシーを管理する
 
-組織で通話プランを使用している場合、または電話システムダイレクトルーティングを展開している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通報を行ったときの動作を定義できます。 ポリシーを割り当てられたユーザーが緊急サービスを呼び出すときの通知方法と通知方法を設定することができます。 たとえば、ポリシー設定を構成して、組織のセキュリティデスクに自動的に通知し、緊急通話で聞くことができます。  
+組織で[通話プラン](set-up-calling-plans.md)を使用している場合、または[電話システムダイレクトルーティング](direct-routing-landing-page.md)を展開している場合は、Microsoft teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通報を行ったときの動作を定義できます。 ポリシーを割り当てられたユーザーが緊急サービスを呼び出すときの通知方法と通知方法を設定することができます。 たとえば、ポリシー設定を構成して、組織のセキュリティデスクに自動的に通知し、緊急通話で聞くことができます。  
 
 緊急通話のポリシーを管理するに**Voice**  >  は、Microsoft Teams 管理センターのボイス**緊急ポリシー**または Windows PowerShell を使用します。 ポリシーは、ユーザーと[ネットワークサイト](cloud-voice-network-settings.md)に割り当てることができます。
 
@@ -45,9 +45,9 @@ ms.locfileid: "44350201"
     - **通知のみ送信**: チームチャットメッセージは、指定したユーザーとグループに送信されます。
     - **Conferenced がミュートになっている**場合: チームチャットメッセージは、指定したユーザーとグループに送信され、発信者と psap 演算子の間の会話に参加することはできますが、参加することはできません。
     - **Conferenced in and is ミュート** **(近**日公開): チームチャットメッセージは指定したユーザーとグループに送信され、ミュートを解除して、発信者と psap 演算子の間の会話に参加することができます。
-5.  Conferenced を選択した**が、ミュート**の通知モードの場合は、[**通知のダイヤルアウト番号**] ボックスで、ユーザーまたはグループの PSTN 電話番号を入力して、通話を発信し、緊急通話に参加することができます。 たとえば、組織のセキュリティデスクの番号を入力すると、緊急通話の発信時に通話を受けられ、通話を聞くことができます。
+5.  Conferenced を選択した**が**、[**緊急通話にダイヤルする番号**] がオンになっている場合は、ユーザーまたはグループの PSTN 電話番号を入力して、通話を発信し、緊急通話に参加することができます。 たとえば、組織のセキュリティデスクの番号を入力すると、緊急通話の発信時に通話を受けられ、通話を聞くことができます。
 6. 緊急通報が行われたときに通知するために、1人以上のユーザーまたはグループ (組織のセキュリティデスクなど) を検索して選択します。  通知は、ユーザー、配布グループ、セキュリティグループのメールアドレスに送信できます。 通知できるユーザーの最大数は50です。
-7. **[保存]** をクリックします。
+7. [**適用**] をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
@@ -79,9 +79,9 @@ ms.locfileid: "44350201"
 
 複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで [**ユーザー**] に移動し、ユーザーを検索するか、ビューをフィルター処理して、目的のユーザーを表示します。
-2. [ **&#x2713;** (チェックマーク)] 列で、ユーザーを選びます。 すべてのユーザーを選択するには、テーブルの上部にある &#x2713; (チェックマーク) をクリックします。
-3. [**設定の編集**] をクリックし、必要な変更を加えて、[**適用**] をクリックします。  
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
+2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部にある [&#x2713; (チェックマーク)] をクリックします。
+3. [**設定の編集**] をクリックし、必要な変更を行い、[**適用**] をクリックします。  
 
 または、次の操作も実行できます。
 
@@ -130,7 +130,7 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams で緊急通話ルーティングポリシーを管理する](manage-emergency-call-routing-policies.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

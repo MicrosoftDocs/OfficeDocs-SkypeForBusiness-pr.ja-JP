@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c3ff180848d12ad3fb00d048bbb1910bf13c00d6
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 5ba712602ef2a966343282d4e467365f3c1c3329
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232498"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539434"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>組織の緊急対応の場所の位置情報を追加、変更、削除する
 
@@ -39,7 +39,7 @@ ms.locfileid: "44232498"
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**地域**の  >  **緊急対応の住所**] をクリックします。
 2. リストで、場所を追加する場所の名前をクリックします。
-3. [**場所**] タブで、[**場所の追加**] をクリックします。
+3. [**場所**] タブの [**追加**] をクリックします。
 4. プレース名を入力し、[**適用**] をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合

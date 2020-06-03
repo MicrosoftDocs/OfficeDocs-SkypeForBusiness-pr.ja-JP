@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーの緊急対応の場所を割り当てる、または変更する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5b13cf5d4b4a0cf22077318e3c2c2196840f66e
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 35f7dfe6572b7ef3dc76b6c224d206e2ee4f23a2
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232468"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539514"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てまたは変更する
 
@@ -37,7 +37,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、ユー�
 
 1. Microsoft Teams 管理センターの左のナビゲーションで **、[**  >  **電話番号**] をクリックします。
 
-2. [**電話番号**] ページで、一覧からユーザー番号を選び、[**編集**] をクリックします。
+2. [**電話番号**] ページで、[**数値**] タブをクリックし、一覧でユーザー番号を選択し、[**編集**] をクリックします。
 
 3. [**編集**] ウィンドウの [**緊急**対応の場所] で、次のいずれかの操作を行います。
 
@@ -45,7 +45,9 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、ユー�
 
     - ユーザーに既に割り当てられている場所を変更するには、[ **X** ] をクリックして、既存の場所を削除してから、割り当てる場所を検索して選択します。
 
-4. **[保存]** をクリックします。
+4. 電話番号情報を使用してユーザーにメールを送信するかどうかに応じて、**電話番号情報を含むメールユーザー**を無効にするか、有効にします。 既定では、これはオンになっています。
+
+5. [**適用**] をクリックします。
 
 ## <a name="using-powershell"></a>PowerShell を使用する場合
 
