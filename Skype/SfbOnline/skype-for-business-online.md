@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: a6a41915188b033a953373e44b9ac7993d3e9586
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 35f66c853eb26cdd946ab08ae8ea63bdce2ca63d
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010560"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205354"
 ---
 # <a name="skype-for-business-online-admin"></a>Skype for Business Online の管理
 
@@ -193,7 +193,7 @@ ms.locfileid: "42010560"
                 <div class="card">
                     <div class="cardText">
                         <h3>電話会議</h3>
-                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Office 365 での電話会議</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">組織の電話会議の設定を管理する</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">電話会議に関するよくある質問</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">電話会議プロバイダーを比較する</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で電話会議や PTSN 会議が使用できるかを確認する</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">電話会議</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">組織の電話会議の設定を管理する</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">電話会議に関するよくある質問</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">電話会議プロバイダーを比較する</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で電話会議や PTSN 会議が使用できるかを確認する</a></p>
                     </div>
                 </div>
             </div>
@@ -229,7 +229,7 @@ ms.locfileid: "42010560"
                 <div class="card">
                     <div class="cardText">
                         <h3>通話プラン</h3>
-                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">Office 365 の通話プランについて</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">通話プランのセットアップ</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で通話プランが使用できるかを確認する</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">通話プランとは何ですか?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">通話プランのセットアップ</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">自分の国や地域で通話プランが使用できるかを確認する</a></p>
                     </div>
                 </div>
             </div>
@@ -241,7 +241,7 @@ ms.locfileid: "42010560"
                 <div class="card">
                     <div class="cardText">
                         <h3>電話システム</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Office 365 での電話システムについて</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Office 365 での電話システムで利用できる&#39;s</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">電話システムとは何ですか?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">ここでは、電話システムで利用できる&#39;s</a></p>
                </div>
                 </div>
             </div>

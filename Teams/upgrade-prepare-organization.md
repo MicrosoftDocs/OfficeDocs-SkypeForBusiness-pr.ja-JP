@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 組織の変更を承諾するための準備を評価し、ユーザーが Skype for Business から Microsoft Teams にアップグレードできるようにするための計画を準備します。
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b758734de436771d94c0f9b44215d621c276b767
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8f355e57e71ff59a5927a697aeb75e559e3615aa
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136967"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523010"
 ---
 # <a name="prepare-your-organization"></a>組織を準備する
 

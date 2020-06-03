@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 新しい Microsoft 365 レポートダッシュボードには、組織内の Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。
-ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: レポートダッシュボードには、組織内の Microsoft 365 または Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。
+ms.openlocfilehash: 951f93aabe66bdb7e6b92f9b2c6cf1627e7e1a10
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776282"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205508"
 ---
 # <a name="session-details-report"></a>セッションの詳細レポート
 
-[] 新しい Office 365 の [ **レポート**] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、 **Skype For Business セッションの詳細**レポートを使用すると、個々のユーザーの通話エクスペリエンスの詳細を確認できます。
+**レポート**ダッシュボードには、組織内の Microsoft 365 または Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、 **Skype For Business セッションの詳細**レポートを使用すると、個々のユーザーの通話エクスペリエンスの詳細を確認できます。
   
 利用可能なその他のレポートについては、 [「レポートの概要」](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
@@ -46,7 +46,7 @@ ms.locfileid: "43776282"
 3. [**レポートの選択**] の下の一覧で、[ **Skype for business セッションの詳細**] をクリックします。
     
     > [!TIP]
-    > このレポートが表示されない場合は、「 **Skype for business 管理センター** > の**レポート** > **セッションの詳細**」をご覧ください。 
+    > このレポートが表示されない場合は、「 **Skype for business 管理センターの**  >  **レポート**  >  **セッションの詳細**」をご覧ください。 
   
     > [!IMPORTANT]
     > 使用している Microsoft 365 または Office 365 のサブスクリプションによっては、ここに表示される製品やレポートがすべて表示されない場合があります。 
@@ -118,7 +118,7 @@ ms.locfileid: "43776282"
 
 - [Skype For BUSINESS PSTN 分単位のプールレポート](pstn-minute-pools-report.md)には、組織内の現在の月に消費された分数が表示されます。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

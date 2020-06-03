@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489149"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523150"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
 ::: zone target="docs"
 会議ポリシーは、組織内のユーザーによってスケジュールされた会議への参加者が利用できる機能を制御するために使用されます。 ポリシーを作成して変更を行った後、ユーザーをポリシーに割り当てることができます。 会議ポリシーは、Microsoft Teams 管理センターで管理するか、[PowerShell](teams-powershell-overview.md) を使用して管理します。
+
+> [!NOTE]
+> ロールを使用して、会議の発表者と出席者の権限を管理する方法については、「 [Teams 会議のロール](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。
 
 次の方法でポリシーを実装できます。これらの方法は、会議の開始前、会議中、または会議後のユーザーの会議エクスペリエンスに影響します。
 
@@ -409,11 +412,11 @@ Teams で [**表示できるユーザー]** の既定値を指定するには、
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>会議ポリシーの設定-諸島モードの会議プロバイダー
 
-**近日公開**
+**(近日公開)**
 
-これは、ユーザーごとのポリシーです。 この設定は、*孤島モードのユーザー*が使用する Outlook 会議アドインを制御します。 ユーザーが Teams 会議アドインのみを使用できるようにするか、Teams 会議と Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールすることができます。
+これは、ユーザーごとのポリシーです。 この設定は、*孤島モードのユーザー*が使用する Outlook 会議アドインを制御します。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
 
-このポリシーは、組織のチーム会議ポリシーで**Allowoutlookaddin**パラメーターが**True**に設定されている、孤島モードのユーザーにのみ適用できます。
+このポリシーは、アイランドモードで、Teams の会議ポリシーで **AllowOutlookAddIn** パラメーターが **True** に設定されているユーザーにのみ適用できます。
 
 現在、PowerShell を使ってこのポリシーを設定することはできません。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
 

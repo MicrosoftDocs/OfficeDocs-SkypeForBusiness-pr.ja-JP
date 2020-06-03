@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 search.appverid: MET150
 description: チームを使ってネットワークの正常性を監視し、ユーザーを関与させ、新しい機能の準備を行う方法について説明します。
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b414cd4a6e312270520560edd3ed4d14c874bacb
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904092"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522810"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft Teams を効果的に使用する方法
 

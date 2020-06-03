@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Skype for Business アクティビティレポートを取得する方法、内容を確認する方法、データを解釈する方法について説明します。 '
-ms.openlocfilehash: 577ed8ea84326510ad1c2943dcbf0b280a2bd9ae
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f50b8c03304a308594fd7bd920ee92e8d38a1f43
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769420"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205558"
 ---
 # <a name="activity-report"></a>アクティビティ レポート
 
-Office 365**レポート**ダッシュボードには、組織内の office 365 製品全体でのアクティビティの概要が表示されます。 個々の製品レベルレポートにドリルインして、各製品内のアクティビティについて、より詳細な洞察を得ることができます。 たとえば、 **Skype For business アクティビティ**レポートを使用して、ユーザーがどの程度ピアツーピアまたは開催された会議セッションを使用しているか、または会議セッションに参加しているかどうかを確認できます。 
+**レポート**ダッシュボードには、組織内の Microsoft 365 または Office 365 製品全体のアクティビティの概要が表示されます。 個々の製品レベルレポートにドリルインして、各製品内のアクティビティについて、より詳細な洞察を得ることができます。 たとえば、 **Skype For business アクティビティ**レポートを使用して、ユーザーがどの程度ピアツーピアまたは開催された会議セッションを使用しているか、または会議セッションに参加しているかどうかを確認できます。 
 
 詳細については、 [「レポートの概要」](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
@@ -40,9 +40,9 @@ Office 365**レポート**ダッシュボードには、組織内の office 365 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>Skype for Business アクティビティレポートを取得する方法
 
-1. [管理センター >**レポート** > の**利用状況]** に移動します。
+1. [管理センター > レポートの**Reports**  >  **利用状況]** に移動します。
     
-2. [**利用状況**] ページで、左側の [レポートの**選択] リスト**で [ **skype for business** > **アクティビティ**] を選ぶか、[ **skype for business アクティビティ**] ウィジェットをクリックします。
+2. [**利用状況**] ページで、左側の [レポートの選択] リストで [ **skype for business**  >  **アクティビティ**] を選ぶか、[ **skype for business アクティビティ**] ウィジェットをクリックします。 **Select a report list**
 
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Skype for Business アクティビティレポートを解釈する
@@ -90,7 +90,7 @@ Office 365**レポート**ダッシュボードには、組織内の office 365 
 * **ピア**ツーピア: ユーザーが使用したピアツーピア電話セッションの合計数を示します。
 * **開催**された会議には、そのユーザーが開催した電話会議の合計数が表示されます。
 * **[参加した会議:** このユーザーが参加した電話会議の合計数を表示します。
-* [**割り当て製品**"は、このユーザーに割り当てられている Office 365 製品です。<br/>
+* [**割り当て製品**"は、このユーザーに割り当てられている Microsoft 365 または Office 365 製品です。<br/>
 
 組織のポリシーにより、ユーザー情報が特定できるレポートを表示できない場合は、これらのすべてのレポートのプライバシー設定を変更することができます。 [管理センターのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)の [レポート] セクションで、[**ユーザーの詳細を非表示に**する] を確認します。
 ***
@@ -117,7 +117,7 @@ Office 365**レポート**ダッシュボードには、組織内の office 365 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
 
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

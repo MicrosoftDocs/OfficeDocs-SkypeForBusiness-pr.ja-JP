@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825135"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512814"
 ---
 # <a name="document-my-success-plan"></a>成功計画を文書化する
 
@@ -173,7 +173,7 @@ ms.locfileid: "41825135"
 
 チラシ、ウェルカム メール、トレーニング資料といった導入アクティビティをサポートするリソースを特定し、さらに組織の要件を満たすために必要なカスタマイズを特定します。
 
-[Microsoft Teams Customer Success Kit](https://www.microsoft.com/download/details.aspx?id=54244) から導入アクティビティのテンプレートをダウンロードします。
+[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) から導入アクティビティのテンプレートをダウンロードします。
 
 ### <a name="operational-plan"></a>運用計画
 

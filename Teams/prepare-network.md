@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43945571"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44523302"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -106,7 +106,10 @@ ms.locfileid: "43945571"
 <td>Teams クライアントを実行しているすべてのコンピューターで、Office 365 によって提供されるサービスを検出し、ファイアウォールによってアクセスが拒否されていないことを確認します。 ファイアウォールのポートを構成する方法については、「 <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 の URL と IP 範囲</a>」をご覧ください。</td>
 </tr>
 <tr class="odd">
-<td>検証 (NAT) プールサイズ</td>
+<td>セッションの永続性を維持する</td>
+<td>ファイアウォールによって、UDP の対応付けられたネットワークアドレス変換 (NAT) アドレスまたはポートが変更されていないことを確認します。</td>
+</tr><tr class="odd">
+<td>NAT プールサイズを検証する</td>
 <td>ユーザー接続に必要なネットワークアドレス変換 (NAT) プールサイズを確認します。 複数のユーザーやデバイスが<a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">ネットワークアドレス変換 (NAT) またはポートアドレス変換 (PAT)</a>を使って Office 365 にアクセスする場合、各パブリックルーティング可能な IP アドレスの背後に隠れているデバイスが、サポートされている番号を超えないようにする必要があります。 ポートの枯渇を防ぐため、適切なパブリック IP アドレスが NAT プールに割り当てられていることを確認します。 ポートの枯渇は、社内ユーザーと、Office 365 サービスに接続できないデバイスに寄与します。</td>
 </tr>
 <tr class="even">

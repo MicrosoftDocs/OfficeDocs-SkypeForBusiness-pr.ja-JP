@@ -22,16 +22,16 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 53d36b29961991a6d87ccd8b3ccfb94335693ac8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3708bff31f0034347c23d67d58cf4be7cb3bc956
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769340"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205058"
 ---
 # <a name="peer-to-peer-activity-report"></a>ピアツーピア アクティビティ レポート
 
-[] 新しい Office 365 の [ **レポート**] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、 **Skype For business ピアツーピアアクティビティ**レポートを使用して、ユーザーがどの程度 IM、音声、ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。 
+**レポート**ダッシュボードには、組織内の Microsoft 365 または Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、 **Skype For business ピアツーピアアクティビティ**レポートを使用して、ユーザーがどの程度 IM、音声、ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。 
 
 [レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)を確認します。
   
@@ -42,9 +42,9 @@ ms.locfileid: "41769340"
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Skype for Business ピアツーピア アクティビティ レポートを取得する方法
 
-1. [管理センター >**レポート** > の**利用状況]** に移動します。
+1. [管理センター > レポートの**Reports**  >  **利用状況]** に移動します。
     
-2. [**利用状況**] ページで、左側の [**レポートの選択] ボックスの一覧**の [ **Skype for business** > **ピアツーピアアクティビティ**] を選択します。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business ピアツーピアアクティビティ**] をクリックします。
+2. [**利用状況**] ページで、左側の [レポートの選択] ボックスの一覧の [ **Skype for business**  >  **ピアツーピアアクティビティ**] を選択します。 **Select a report list** または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business ピアツーピアアクティビティ**] をクリックします。
 
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Skype for Business ピアツーピア アクティビティ レポートを解析する
 
@@ -113,7 +113,7 @@ ms.locfileid: "41769340"
 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

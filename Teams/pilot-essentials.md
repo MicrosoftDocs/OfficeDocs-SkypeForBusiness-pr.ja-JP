@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Microsoft Teams のパイロットを開始し、Skype for Business の使用を継続する間、Teams が組織に提供できるすべての情報を探索するためのガイダンス
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706457"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522690"
 ---
 # <a name="conduct-a-user-pilot"></a>ユーザー パイロットを実施する
 
@@ -38,7 +38,7 @@ ms.locfileid: "42706457"
 - [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
 
-新しいテクノロジを展開することで、組織はコスト削減、セキュリティのコンプライアンス、従業員の満足度、業務効率などのビジネス価値を実現することができます。また、ユーザーの生産性と組織的なインフラストラクチャにも影響する可能性があります (お客様のネットワーク)。 組織全体で新しいテクノロジを有効にする前に、正式なユーザー パイロットを行います。 部屋全体を塗装する前に壁にある色の小さなパッチを塗装した場合と同様に、パイロットを実施して、技術的な知識とユーザーの適合性を検証し、問題を特定して、成功させることができます。組織全体の実装。
+新しいテクノロジを展開することで、組織はコスト削減、セキュリティのコンプライアンス、従業員の満足度、業務効率などのビジネス価値を実現することができます。また、ユーザーの生産性と組織のインフラストラクチャ (ネットワーク) に影響することもあります。 組織全体で新しいテクノロジを有効にする前に、正式なユーザー パイロットを行います。 部屋全体を塗装する前に壁にある色の小さなパッチを塗装した場合と同様に、パイロットを実施して、技術的な知識とユーザーの適合性を検証し、問題を特定して軽減し、組織全体の実装を確実に行うための試験的な展開を実行します。
 
 最も現実的な結果を得るため、パイロットには、実際のユーザーを含め、コミュニケーションと共同作業の方法を再現し、技術的およびユーザーの両方のエクスペリエンスを確認する必要があります。 組織が Skype for Business と Teams を同時に実行すること、今後 Teams にアップグレードすること、通話や会議などの新機能を展開することを検討している場合、パイロットは組織の適切な経路を特定するのに役立ちます。 ロールアウトのフェーズ1と見なされることもありますが、理想的なパイロットは、既に開始した準備を活用し、対象のユーザーグループに定義されたプランを実装します。
 

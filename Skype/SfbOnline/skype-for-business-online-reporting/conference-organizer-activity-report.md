@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: f005a1ee53d1fc5ab5ee9e4736ff8d6d241f3a6e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3d00b86e5e080e16f199a6f9e2fd24de2d607d23
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769390"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204838"
 ---
 # <a name="conference-organizer-activity-report"></a>電話会議開催者アクティビティ レポート
 
-[] 新しい Office 365 の [ **レポート**] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、[ **Skype for Business 電話会議開催者アクティビティ**] レポートを使用して、ユーザーが IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サードパーティ、およびダイヤルイン/アウト - Microsoft を使用する電話会議をどれだけ開催しているかを確認できます。 
+**レポート**ダッシュボードには、組織内の Microsoft 365 または Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、[ **Skype for Business 電話会議開催者アクティビティ**] レポートを使用して、ユーザーが IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サードパーティ、およびダイヤルイン/アウト - Microsoft を使用する電話会議をどれだけ開催しているかを確認できます。 
 
 詳細については、 [「レポートの概要」](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
@@ -40,9 +40,9 @@ ms.locfileid: "41769390"
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>Skype for Business 電話会議開催者レポートを取得する方法
 
-1. [管理センター >**レポート** > の**利用状況]** に移動します。
+1. [管理センター > レポートの**Reports**  >  **利用状況]** に移動します。
     
-2. [**利用状況**] ページで、左側の [レポートの選択]**ボックスの一覧**の [ **Skype for business** >**電話会議開催者アクティビティ**] を選択します。 または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business 電話会議開催者アクティビティ**] をクリックします。
+2. [**利用状況**] ページで、左側の [レポートの選択] ボックスの一覧の [ **Skype for business**  > **電話会議開催者アクティビティ**] を選択します。 **Select a report list** または、skype for business**アクティビティ**ウィジェットをクリックし、Skype for **business アクティビティ**リストで [ **skype for business 電話会議開催者アクティビティ**] をクリックします。
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Skype for Business 電話会議開催者レポートを解析する
 
@@ -117,7 +117,7 @@ ms.locfileid: "41769390"
 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

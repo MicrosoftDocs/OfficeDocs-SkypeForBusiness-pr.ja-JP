@@ -17,10 +17,10 @@ localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 既定では、仲介サーバーはフロントエンドサーバーと併置されています。 パフォーマンス上の理由で、仲介サーバーをスタンドアロンプールに展開したり、SIP トランキングを展開したりすることもできます。この場合、スタンドアロンプールを使用することを強くお勧めします。 Skype for Business Server の併置は、Lync Server 2013 の場合と同じように機能します。 詳細については、以下のトピックを参照してください。
 ms.openlocfilehash: 944b1778e02b297af61544ae500f347b61afefc3
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "42034037"
 ---
 # <a name="mediation-collocation-planning-tool"></a>仲介併置 (計画ツール)

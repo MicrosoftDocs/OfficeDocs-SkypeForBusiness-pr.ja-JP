@@ -16,18 +16,21 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: eb2a9a3cf2e349ab74fc9059408a7be2c41c8408
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224230"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523340"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
 Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記録して、音声、ビデオ、および画面共有のアクティビティをキャプチャできます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 レコーディングはクラウドで実行され、[Microsoft Stream](https://docs.microsoft.com/stream/) に保存されるため、ユーザーは組織全体で安全にそのレコーディングを共有できます。
 
 関連: [Teams 会議のレコーディングに関するエンド ユーザー向けドキュメント](https://aka.ms/recordmeeting)
+
+> [!NOTE]
+> Teams 会議での役割の使用について、およびユーザーの役割を変更する方法については、「 [teams 会議の役割](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams のクラウド会議をレコーディングするための前提条件
 
@@ -45,7 +48,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 <sup>1</sup>ユーザーは Microsoft Stream との会議をアップロード/ダウンロードするためのライセンスが必要ですが、会議を記録するためのライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
 
 > [!IMPORTANT] 
-> ユーザーがレコーディングの記録とダウンロードのみを行う必要がある場合は、Microsoft Stream ライセンスが割り当てられている必要はありません。 これは、レコーディングが Microsoft Stream に保存されていないことを意味しますが、この記録は、削除される前に30日間の制限付きで Azure Media Services (AMS) に保存されています。 この時点では、管理者がコントロールや管理を行って、削除する機能を含むものではありません。
+> ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 これは、レコーディングが Microsoft Stream に保存されていないことを意味しますが、この記録は、削除される前に30日間の制限付きで Azure Media Services (AMS) に保存されています。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>組織内のユーザーに対して Teams のクラウド会議のレコーディングを設定する
 
@@ -74,6 +77,9 @@ Microsoft Teams 管理センターを使用する場合は、会議ポリシー�
 PowerShell を使用する場合は、TeamsMeetingPolicy で AllowCloudRecording 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
 会議をレコーディングするには、会議の開催者とレコーディングを開始するユーザーの双方に、レコーディングのアクセス許可が必要です。 管理者がユーザーにカスタム ポリシーを割り当てていない限り、ユーザーはグローバル ポリシーを取得します。グローバル ポリシーでは、既定で AllowCloudRecording が無効になっています。
+
+> [!NOTE]
+> チームロールを使用して、会議を記録する権限を持つユーザーを構成する方法については、「 [teams 会議のロール](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。
 
 ユーザーがグローバル ポリシーにフォールバックするには、次のコマンドレットを使用して、ユーザーの特定のポリシーの割り当てを削除します。
 

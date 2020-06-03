@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: 新しい Microsoft 365 レポートダッシュボードには、組織内の Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイスの使用状況レポートを使って、Skype for business アプリがインストールされていて、IM および会議で使用している Windows ベースのオペレーティングシステムやモバイルデバイスなどのデバイスを確認できます。 詳細については、管理センターでアクティビティレポートを確認してください。
-ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: レポートダッシュボードには、組織内の Microsoft 365 または Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイスの使用状況レポートを使って、Skype for business アプリがインストールされていて、IM および会議で使用している Windows ベースのオペレーティングシステムやモバイルデバイスなどのデバイスを確認できます。 詳細については、管理センターでアクティビティレポートを確認してください。
+ms.openlocfilehash: b9baff4a9ca363276590faa8e3aaafffb9e7ad4f
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776302"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205458"
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況のレポート
 
-[] 新しい Office 365 の [ **レポート**] ダッシュボードには、組織内の Office 365 製品全体にわたるアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、 **skype For business デバイスの使用状況**レポートを使って、skype for business アプリがインストールされていて、IM および会議で使用している Windows ベースのオペレーティングシステムやモバイルデバイスなどのデバイスを確認できます。 
+**レポート**ダッシュボードには、組織内の Microsoft 365 または Office 365 製品全体のアクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、 **skype For business デバイスの使用状況**レポートを使って、skype for business アプリがインストールされていて、IM および会議で使用している Windows ベースのオペレーティングシステムやモバイルデバイスなどのデバイスを確認できます。 
 
 詳細については、 [「レポートの概要」](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)をご覧ください。
   
@@ -40,7 +40,7 @@ ms.locfileid: "43776302"
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Skype for Business デバイスの使用状況レポートを取得する方法
 
-1. [管理センター >**レポート** > の**利用状況]** に移動します。
+1. [管理センター > レポートの**Reports**  >  **利用状況]** に移動します。
     
 2. [**利用状況**] ページで、左側の [**レポートの選択] ボックスの一覧**の [ **Skype for business デバイスの使用状況**] をクリックします。 または、skype for business**アクティビティ**ウィジェットをクリックし、 **skype for business アクティビティ**リストで [ **skype for business デバイスの使用状況**] をクリックします。
     
@@ -109,7 +109,7 @@ Skype for Business アプリを使用しているデバイスを表示するに�
 
 - [Skype For business セッションの詳細レポート](session-details-report.md)個々のユーザの通話エクスペリエンスについての詳細を見ることができます。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

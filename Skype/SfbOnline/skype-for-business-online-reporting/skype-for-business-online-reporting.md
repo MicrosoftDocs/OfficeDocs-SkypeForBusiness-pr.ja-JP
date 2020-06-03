@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 90326597b6df3a96e7624852d849a64e3eec348f
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705952"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205488"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online のレポート
 
@@ -33,15 +33,15 @@ ms.locfileid: "41705952"
 Skype for Business Online レポートにアクセスするには、ユーザーアカウントとパスワードを使用して Microsoft 365 管理センターにログオンします。 レポートを表示するには、ログオンに使用するアカウントに、全体管理者の役割または代理 Skype for Business サービス管理者の役割が割り当てられている必要があります。
   
 > [!NOTE]
-> 権限を確認するには、管理センターの [ > **アクティブな****ユーザー] > ます**。 Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
+> 権限を確認するには、管理センターの [アクティブな**ユーザー] >**  >  **Active users**ます。 Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Skype for Business Online レポート リファレンス
 
-Office 365 および Skype for Business 管理センターでは、Skype for Business Online の場合など、さまざまな種類のレポートを使用できます。
+管理センターでは、Skype for Business Online の場合など、さまざまな種類のレポートを使用できます。
   
  **レポートを表示するには**
   
-1. 管理センターまたは**Skype for business 管理センター** > の**レポート**に移動します。
+1. 管理センターまたは**Skype for business 管理センター**の  >  **レポート**に移動します。
     
 2. ダッシュボード ウィンドウで、レポート ウィジェットをクリックするか、リストから目的のレポートを選択してください。
     
@@ -58,7 +58,7 @@ Office 365 および Skype for Business 管理センターでは、Skype for Bus
 |[Skype for Business PSTN 分プールレポート](pstn-minute-pools-report.md) <br/> | 機能は、通話に使用されるライセンス/サービスプランです。 <br/> ライセンスの種類 <br/> 機能の説明 <br/> 国内の分数プール  <br/> 使用時間 (分) <br/> 合計分数 <br/> 月に使用された分数の割合 <br/> |
 |[Skype for Business セッションの詳細レポート](session-details-report.md) <br/> | ユーザーエイリアス <br/> ダイアログ ID  <br/> メディアの種類  <br/> 開始時刻と終了時刻 <br/> 宛先と URI <br/> 会議の URL <br/> 電話番号 <br/> |
  
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターでのアクティビティレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
