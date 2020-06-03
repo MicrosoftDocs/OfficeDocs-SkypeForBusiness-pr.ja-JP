@@ -2,7 +2,7 @@
 layout: HubPage
 ms.topic: hub-page
 title: ユーザー向けの講師主導のトレーニングとビデオ
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 manager: serdars
 description: 講師主導の無料のライブ トレーニング クラスにサインアップして、Microsoft Teams のすべてを学ぶ方法について説明します。
 localization_priority: Priority
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: f3c50309e97c38e21e06c1ec133a5261f09ea392
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 6765b67498cb3e3ade6104ff86fc49d9be3384f1
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951002"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523450"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -172,26 +172,6 @@ Microsoft では、Teams を使いこなすための無料のライブ オンラ
                         <h3>Teams for Education - ウェビナー</h3>
                         <p>高等教育機関で Teams を使用する方法について説明します。</p>
                         <p><i>対象ユーザー: スタッフ、学生、教育関係者、研究教員、IT プロフェッショナル</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>現場担当者と Teams を強化する</h3>
-                        <p>Teams が従業員全体に無限の可能性をもたらすデジタル変革を実現する方法を説明します。</p>
-                        <p><i>対象ユーザー: ビジネス上の意思決定者、IT 意思決定者</i></p>
                     </div>
                 </div>
             </div>
