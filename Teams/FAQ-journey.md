@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Skype for Business Online から Microsoft Teams へのアップグレードによる移行に関してよく寄せられる質問を次に示します。
 localization_priority: Priority
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902952"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522670"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -118,7 +118,9 @@ Microsoft は、アップグレードの計画と実装を開始するために�
 
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>アップグレード プロセスに関する質問がある場合は誰に問い合わせればよいですか?
 
-アップグレードに関する質問は、お客様に割り当てられた Microsoft アカウント チーム、パートナー、[FastTrack](https://www.microsoft.com/fasttrack) などの、現時点で接点のある関係先に問い合わせてみてください。 また、[Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)内でヘルプ チケットを開くこともできます。
+アップグレードに関する質問は、お客様に割り当てられた Microsoft アカウント チーム、パートナー、[FastTrack](https://www.microsoft.com/fasttrack) などの、現時点で接点のある関係先に問い合わせてみてください。 または、[Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)から [**ヘルプ**] ボタンをクリックしてヘルプ チケットを開くこともできます。
+
+![Teams の [ヘルプ] ボタンのスクリーンショット](media/helpDesk.png "Microsoft Teams 管理センターの Teams の [ヘルプ] ボタンのスクリーンショット")     
 
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>自分のテナント内のすべてのユーザーを一緒にアップグレードすることはできますか? または、一部の選択したユーザーを同時にアップグレードすることを選べますか?
 
