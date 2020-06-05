@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で機密ラベルを定義して使用する方法について説明します。
-ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779764"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562072"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams の機密ラベル
 
@@ -109,6 +109,10 @@ $setting["EnableMIPLabels"] = "False"
 **Teams Graph Api、Powershell コマンドレット、テンプレートでの機密ラベルのサポート**
 
 現時点では、ユーザーは、Graph Api、Powershell コマンドレット、およびテンプレートを使って直接作成されたチームに機密ラベルを適用することはできません。
+
+**Teams EDU Sku での機密ラベルのサポート**
+
+機密ラベルは、現在、Teams の教育 Sku を使用しているお客様はサポートされていません。
 
 **SharePoint サイトコレクションでプライベートチャネルの機密ラベルを直接編集する**
 

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、Microsoft Teams でリソースアカウントを作成、編集、管理する方法について説明します。
-ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512897"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565904"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -52,7 +52,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 <!-- Auto attendants created after November 1st, 2019 also create a new resource account that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available. -->
 
-自動応答または通話キューが最上位レベルの自動応答の下に入れ子になっている場合、関連付けられたリソースアカウントには、自動応答と通話キューの構造に複数のエントリポイントが必要な場合は、電話番号のみが必要になります。
+自動応答または通話キューが最上位の自動応答の下に入れ子になっている場合、関連付けられたリソースアカウントには、自動応答と通話キューの構造に複数のエントリポイントを追加する必要がある場合は、電話番号のみが必要です。
 
 組織内のユーザーにオンラインで接続されているユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要です。また、エンタープライズボイスに対して有効になっているか、Office 365 通話プランを持っている必要があります。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次のように実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
@@ -98,9 +98,11 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 入れ子になった自動応答または通話キューにはリソースアカウントが必要ですが、多くの場合、対応するリソースアカウントには電話番号とライセンスが必要であり、電話番号をサポートする必要はありません。 電話番号を必要としないリソースアカウントを作成する場合は、次の手順で次の作業を行う必要があります。
 
 1. 新しいリソースアカウントを作成します。 「 [Microsoft Teams 管理センターでリソースアカウントを作成](#create-a-resource-account-in-the-microsoft-teams-admin-center)する」または「 [Powershell でリソースアカウントを作成](#create-a-resource-account-in-powershell)する」を参照してください。
+
 2. 次のいずれかを設定します。
    - [クラウド自動応答](create-a-phone-system-auto-attendant.md)
    - [クラウド通話キュー](create-a-phone-system-call-queue.md)
+   
 3. リソースアカウントを通話キューまたは自動応答に割り当てます。 「[電話番号とサービスの割り当て/割り当て解除」を](#assignunassign-phone-numbers-and-services)参照してください。
 
 
@@ -115,16 +117,6 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 新しいリソースアカウントを作成するには、[**追加**] をクリックします。 [**リソースアカウントの追加**] ウィンドウで、[**表示名**]、[**ユーザー名**] (ドメイン名は自動的に設定されます)、リソースアカウントの**リソースアカウントの種類**を入力します。 リソースアカウントの種類は、リソースアカウントに関連付けるアプリに応じて、**自動応答**または**通話キュー**のいずれかになります。 準備ができたら、[**保存**] をクリックします。
 
 ![新しいリソースアカウントオプションのスクリーンショット](media/res-acct.png)
-
-<a name="enablesignin"> </a>
-
-リソースアカウントを作成すると、そのアカウントのサインインがブロックされます。 ウィンドウの上部に、リソースアカウントを読み込むことができないというバナーが表示されます。 リソースアカウントでサインインが許可されるように、Microsoft 365 管理センターのリソースアカウントのサインインのブロックを解除する必要があります。 これを行うには、Microsoft 365 管理センターで、[**ユーザー**]、[検索] の順に移動して、リソースアカウントを選びます。 表示名の下にあるウィンドウの上部で、[**ブロックを解除**する] をクリックし、[**このユーザーのサインインをブロック**する] チェックボックスをオフにして、[変更の**保存**] をクリックします。
-
-![[このユーザーのブロックを解除する] オプションのスクリーンショット](media/res-acct-unblock.png)
-
-この操作を行うと、表示名の下に "サインインが許可されています" と表示されます。 
-
-![サインインが許可されているメッセージのスクリーンショット](media/res-acct-sign-in-allowed.png)
 
 次に、「[ユーザーにライセンスを割り当てる](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)」の説明に従って、Microsoft 365 管理センターのリソースアカウントにライセンスを適用します。
 
@@ -238,7 +230,9 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-Teams 管理センターのリソースアカウントに割り当てられている電話番号が表示されず、その番号を割り当てることができない場合は、次の点を確認してください。
+### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターのリソースアカウントに割り当てられている電話番号が表示されない
+
+Microsoft Teams 管理センターのリソースアカウントに割り当てられている電話番号が表示されず、その番号を割り当てることができない場合は、次の点を確認してください。
 
 ``` Powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
@@ -252,6 +246,25 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 > [!NOTE]
 > Cmldet を実行した後に Teams 管理センターの web ページを更新すると、番号を正しく割り当てることができます。
+
+### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a>「このリソースアカウントをサービスに使用できません。」という説明が表示できます。 エラーメッセージ
+
+<a name="blocksignin"> </a>
+
+リソースアカウントを使用しようとすると、次のエラーメッセージが表示されます。
+
+"このリソースアカウントをサービスに使用することはできません。 リソースアカウントを無効にしてサインインをブロックする必要があります。 Microsoft 365 管理センターの [ユーザー] ページで、このリソースアカウントのサインインをブロックする必要があります。
+
+既定では、リソースアカウントを作成すると、そのアカウントは無効になり、サインインはブロックされます。 これらの設定を変更することはできません。 このエラーメッセージを解決するには、リソースアカウントがサインインするのをブロックします。 その手順は次のとおりです。
+
+1. Microsoft 365 管理センターで、[**ユーザー**]、[検索] の順に移動して、リソースアカウントを選びます。
+2. 表示名の下にあるウィンドウの上部で、[**このユーザーをブロック**] をクリックし、[**このユーザーをブロック**する] チェックボックスをオンにして、[**変更を保存**] を選択します。
+
+   ![[このユーザーをブロック] オプションのスクリーンショット](media/res-acct-block.png)
+
+    この操作を行うと、表示名の下に「サインインがブロックされました」と表示されます。
+
+      ![サインインがブロックされたメッセージのスクリーンショット](media/res-acct-sign-in-blocked.png)
 
 ## <a name="related-information"></a>関連情報
 
