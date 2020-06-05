@@ -215,7 +215,6 @@
 ## ライブ イベント
 ### [Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)
 ### [Teams のライブ イベントの計画](teams-live-events/plan-for-teams-live-events.md)
-### [ライブ イベントでのプレゼンターと参加者の機能](roles-in-live-events.md)
 ### [Teams のライブ イベントをセットアップする](teams-live-events/set-up-for-teams-live-events.md)
 ### [PowerShell を使用して Teams のライブ イベント ポリシーを設定する](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Teams のライブ イベント設定を構成する](teams-live-events/configure-teams-live-events.md)
