@@ -17,12 +17,12 @@ description: 外部アクセス (フェデレーション) とゲスト アク�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539444"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562042"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams の別の組織のユーザーと通信する
 ======================================================
@@ -89,7 +89,6 @@ Teams では既定で外部アクセスが有効になっています。つま�
 <sup>3</sup> 外部 (フェデレーション) チャットは 1:1 のみ。<br>
 <sup>4</sup> 2 つの異なる組織の Teams のみユーザーの Teams のみの 1:1 チャットでサポートされる。 
 <sup>5</sup> 既定では、外部ユーザーはダイヤル インした参加者の電話番号は見ることができません。 これらの電話番号のプライバシーを維持する場合は、[**開始/終了アナウンスの種類**] で [**トーン**] を選択します (これにより、Teams が番号を読み取ることができなくなります)。外部ユーザーに外部 PSTN 電話番号を表示したくない場合は、[**開始/終了アナウンスの種類**] で [**トーン**] を選択します。 詳細については、「[Microsoft Teams で会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)」を参照してください。
-
 
 ## <a name="related-topics"></a>関連項目
 
