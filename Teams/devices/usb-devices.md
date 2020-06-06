@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: ヘッドセット、スピーカーフォン、web カメラ、モニターなどの USB 周辺機器とデバイスは、Microsoft Teams で認定されています。
-ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
-ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
+ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407409"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44591297"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams で認定された USB オーディオデバイスおよびビデオデバイス
 
@@ -76,59 +76,62 @@ Teams での通話コントロールのサポートについて詳しくは、�
 
 *更新されたテーブル2020*
 
-| [製造元]    | モデリング                   | 識別  | 認定プログラム                                  |
-|:----------------|:------------------------|:-----------|:---------------------------------------------------|
-|Jabra evolve             |Jabra Link 370 USB ドングルを使って、750のスピーカーフォンを話す|5/21/2020 | Microsoft Teams について認定済み  | 
-|EPOS              | Sennheiser 660 のヘッドセットの調整 |5/15/2020 |Microsoft Teams について認定済み  | 
-|EPOS              | Sennheiser 560 のヘッドセットの調整|5/15/2020 |Microsoft Teams について認定済み  | 
-|EPOS              | Sennheiser に適合する460T ヘッドセット |5/15/2020 |Microsoft Teams について認定済み  | 
-|EPOS              | Sennheiser 360 のヘッドセットの調整| 5/15/2020 |Microsoft Teams について認定済み  | 
-|Yealink           |UH36 ヘッドセット | 5/13/2020 |Microsoft Teams について認定済み  | 
-| Poly            | Savi 8210 Office        | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | Savi 8210 UC            | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | Savi 8220 Office        | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | Savi 8220 UC            | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | Savi 8240 Office        | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | Savi 8240 UC            | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | Blackwire 5210 ヘッドセット  | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | Blackwire 5220 ヘッドセット  | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | Blackwire 7225 ヘッドセット  | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | 航海者フォーカス UC        | 4/20/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Yealink         | CP700                   | 4/13/2020  | Microsoft Teams について認定済み                      |
-| Jabra evolve           | Evolve2 65 ヘッドセット      | 4/13/2020  | Microsoft Teams について認定済み                      |
-| EPOS/Sennheiser | Impact SC 30            | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 45            | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 60            | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 75 MS         | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 75 MS の効果     | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 230 USB MS II | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 260 USB MS II | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 630 USB MS    | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 635 USB       | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 660 USB MS    | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 660 付け USB   | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| EPOS/Sennheiser | Impact SC 665 USB       | 4/9/2020   | Microsoft Teams にアップグレードした Skype for Business |
-| ロジクール        | ゾーンワイヤレス           | 4/8/2020   | Microsoft Teams について認定済み                      |
-| Poly            | 航海者8200ヘッドセット    | 3/26/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| ロジクール        | 有線              | 3/26/2020  | Microsoft Teams について認定済み                      |
-| Jabra evolve           | Evolve2 40 ヘッドセット      | 3/26/2020  | Microsoft Teams について認定済み                      |
-| Poly            | 航海者6200ヘッドセット    | 3/23/2020  | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | 航海者 4245 Office     | 3/23/2020  | Microsoft Teams について認定済み                      |
-| Poly            | Blackwire 8225 ヘッドセット  | 3/23/2020  | Microsoft Teams について認定済み                      |
-| Poly            | Calisto 5300-M          | 03/05/2020 | Microsoft Teams について認定済み                      |
-| Poly            | 航海者 4210 Office     | 03/05/2020 | Microsoft Teams について認定済み                      |
-| Poly            | 航海者 4210 UC         | 03/05/2020 | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | 航海者 4220 Office     | 03/05/2020 | Microsoft Teams について認定済み                      |
-| Poly            | 航海者 4220 UC         | 03/05/2020 | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | 航海者 5200 Office     | 03/05/2020 | Microsoft Teams について認定済み                      |
-| Poly            | 航海者 5200 UC         | 03/05/2020 | Microsoft Teams にアップグレードした Skype for Business |
-| Poly            | Blackwire 3310-M        | 03/05/2020 | Microsoft Teams について認定済み                      |
-| Poly            | Blackwire 3315-M        | 03/03/2020 | Microsoft Teams について認定済み                      |
-| Poly            | Blackwire 3320-M        | 03/05/2020 | Microsoft Teams について認定済み                      |
-| poly            | Blackwire 3325-M        | 03/05/2020 | Microsoft Teams について認定済み                      |
-| Poly            | Calisto 3200-M          | 01/27/2020 | Microsoft Teams について認定済み                      |
-| Crestron        | CCS-マイク             | 12/18/2019 | Microsoft Teams について認定済み                      |
-| Sennheiser      | SP 30T                  | 12/05/2019 | Microsoft Teams について認定済み                      |
-| Polycom         | Elara                   | 11/06/2019 | Microsoft Teams について認定済み                      |
-| Polycom         | Studio のサウンドバー         | 10/18/2019 | Microsoft Teams について認定済み                      |
-| Yealink         | UVC30                   | 10/18/2019 | Microsoft Teams について認定済み                      |
+| [製造元]        | モデリング                                                     | 識別      | 認定プログラム                                      |
+|:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+| EPOS                | Sennheiser 660 のヘッドセットの調整                              | 5/15/2020      | Microsoft Teams について認定済み                          |
+| EPOS                | Sennheiser 560 のヘッドセットの調整                              | 5/15/2020      | Microsoft Teams について認定済み                          |
+| EPOS                | Sennheiser に適合する460T ヘッドセット                             | 5/15/2020      | Microsoft Teams について認定済み                          |
+| EPOS                | Sennheiser 360 のヘッドセットの調整                              | 5/15/2020      | Microsoft Teams について認定済み                          |
+| Yealink             | UH36 ヘッドセット                                              | 5/13/2020      | Microsoft Teams について認定済み                          |
+| Poly                | Savi 8210 Office                                          | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Savi 8210 UC                                              | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Savi 8220 Office                                          | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Savi 8220 UC                                              | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Savi 8240 Office                                          | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Savi 8240 UC                                              | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Savi 8245 Office                                          | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Savi 8245 UC                                             | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Blackwire 5210 ヘッドセット                                    | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Blackwire 5220 ヘッドセット                                    | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Blackwire 7225 ヘッドセット                                    | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | 航海者フォーカス UC                                          | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Yealink             | CP700                                                     | 4/13/2020      | Microsoft Teams について認定済み                          |
+| Jabra evolve               | Evolve2 65 ヘッドセット                                        | 4/13/2020      | Microsoft Teams について認定済み                          |
+| EPOS/Sennheiser     | Impact SC 30                                              | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 45                                              | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 60                                              | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 75 MS                                           | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 75 MS の効果                                       | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 230 USB MS II                                   | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 260 USB MS II                                   | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 630 USB MS                                      | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 635 USB                                         | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 660 USB MS                                      | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 660 付け USB                                     | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| EPOS/Sennheiser     | Impact SC 665 USB                                         | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
+| ロジクール            | ゾーンワイヤレス                                             | 4/8/2020       | Microsoft Teams について認定済み                          |
+| Poly                | 航海者8200ヘッドセット                                      | 3/26/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| ロジクール            | 有線                                                | 3/26/2020      | Microsoft Teams について認定済み                          |
+| Jabra evolve               | Evolve2 40 ヘッドセット                                        | 3/26/2020      | Microsoft Teams について認定済み                          |
+| Poly                | 航海者6200ヘッドセット                                      | 3/23/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | 航海者 4245 Office                                       | 3/23/2020      | Microsoft Teams について認定済み                          |
+| Poly                | Blackwire 8225 ヘッドセット                                    | 3/23/2020      | Microsoft Teams について認定済み                          |
+| Poly                | Calisto 5300-M                                            | 03/05/2020     | Microsoft Teams について認定済み                          |
+| Poly                | 航海者 4210 Office                                       | 03/05/2020     | Microsoft Teams について認定済み                          |
+| Poly                | 航海者 4210 UC                                           | 03/05/2020     | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | 航海者 4220 Office                                       | 03/05/2020     | Microsoft Teams について認定済み                          |
+| Poly                | 航海者 4220 UC                                           | 03/05/2020     | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | 航海者 5200 Office                                       | 03/05/2020     | Microsoft Teams について認定済み                          |
+| Poly                | 航海者 5200 UC                                           | 03/05/2020     | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | Blackwire 3310-M                                          | 03/05/2020     | Microsoft Teams について認定済み                          |
+| Poly                | Blackwire 3315-M                                          | 03/03/2020     | Microsoft Teams について認定済み                          |
+| Poly                | Blackwire 3320-M                                          | 03/05/2020     | Microsoft Teams について認定済み                          |
+| poly                | Blackwire 3325-M                                          | 03/05/2020     | Microsoft Teams について認定済み                          |
+| Poly                | Calisto 3200-M                                            | 01/27/2020     | Microsoft Teams について認定済み                          |
+| Crestron            | CCS-マイク                                               | 12/18/2019     | Microsoft Teams について認定済み                          |
+| Sennheiser          | SP 30T                                                    | 12/05/2019     | Microsoft Teams について認定済み                          |
+| Polycom             | Elara                                                     | 11/06/2019     | Microsoft Teams について認定済み                          |
+| Polycom             | Studio のサウンドバー                                           | 10/18/2019     | Microsoft Teams について認定済み                          |
+| Yealink             | UVC30                                                     | 10/18/2019     | Microsoft Teams について認定済み                          |
+| Jabra evolve               | PanaCast                                                  | 08/14/2019     | Microsoft に対して認定済み                                |
+

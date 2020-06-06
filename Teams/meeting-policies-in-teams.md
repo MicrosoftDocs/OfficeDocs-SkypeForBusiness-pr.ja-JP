@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523150"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583500"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -411,8 +411,6 @@ Teams で [**表示できるユーザー]** の既定値を指定するには、
 会議の開催者がレポートをダウンロードできないようにするには、パラメーターを [**無効**] に設定します。 既定では、この設定は無効であり、レポートをダウンロードするためのオプションは使用できません。
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>会議ポリシーの設定-諸島モードの会議プロバイダー
-
-**(近日公開)**
 
 これは、ユーザーごとのポリシーです。 この設定は、*孤島モードのユーザー*が使用する Outlook 会議アドインを制御します。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
 
