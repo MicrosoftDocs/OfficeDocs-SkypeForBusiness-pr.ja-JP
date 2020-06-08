@@ -18,16 +18,19 @@ f1.keywords:
 description: チーム管理者またはヘルプデスクサポートエンジニアのいずれかにかかわらず、組織内の Microsoft Teams をサポートするのには、これらのリソースを使用します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0d4daacda88078a731e1db2126c814e862aefa3
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 31951747565d7e226c89683b48fc1f09130af1bd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349571"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44561982"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>組織の Microsoft Teams をサポートする
 
-チームの既知の問題を探している場合は、こちらを参照してください。 組織のチームをサポートするには、この記事にあるリソースを使用します。 
+> [!NOTE]
+> この記事は、Teams の既知の問題に関する記事を置き換えるものです。 
+
+組織のチームをサポートするには、この記事にあるリソースを使用します。 
 
 最初に、この記事で後述する最も多かった [一般的な問題と解決方法](#common-issues-and-resolutions) リストの確認から開始します。
 
