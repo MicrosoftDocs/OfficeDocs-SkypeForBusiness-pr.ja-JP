@@ -2,6 +2,7 @@
 
 ## [新機能](../whats-new.md)
 ## [非推奨になった機能](../deprecated.md)
+## [仮想化ガイダンス](../virtualization-guidance.md)
 ## [Microsoft テレフォニー ソリューション](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Skype for Business のダウンロードと更新プログラム](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
