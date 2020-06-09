@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042794"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638776"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -55,7 +55,7 @@ Microsoft Teams の商用クラウド試用版は、製品の 1 年間試用版�
 
 ユーザーが (Microsoft 365 管理センターで) アプリや試用版にサインアップできるようにする必要があります。 詳細については、この記事で後述する「[試用版を管理する](#manage-the-trial)」を参照してください。 
 
-Teams を含む Office 365 ライセンスを所有していないユーザーは、Microsoft Teams 商用クラウド試用版のオファーを開始できます。 たとえば、ユーザーが Microsoft 365 Apps for business (Teams を含まない) を所有している場合、ユーザーは試用版の対象になります。
+Teams を含むMicrosoft 365 または Office 365 ライセンスを所有していないユーザーは、Microsoft Teams 商用クラウド試用版のオファーを開始できます。 たとえば、ユーザーが Microsoft 365 Apps for business (Teams を含まない) を所有している場合、ユーザーは試用版の対象になります。
 
 ## <a name="who-is-not-eligible"></a>対象外
 
@@ -148,6 +148,6 @@ Teams へのアクセスをオフにするには:
 
 2019 年 4 月 22 日の時点で、ユーザーは Microsoft Teams の商用クラウドの試用版ライセンスの要求を開始できます。 従来の試用版ライセンスから最新の試用版ライセンスへと組織内のユーザーを移行させる場合、まず各ユーザーの従来の Microsoft Teams 試用版ライセンスを削除する必要があります。 従来のライセンスを削除すると、影響を受けた各ユーザーは、更新済みの Microsoft Teams の商用クラウドの試用版ライセンスを要求できます。
 
-- Powershell を用いてこのライセンスを削除する場合は、次を参照してください :「[Office 365 PowerShell を使用してユーザー アカウントからライセンスを削除する](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)」
+- Powershell を用いてこのライセンスを削除する場合は、次を参照してください :「[Microsoft 365 または Office 365 PowerShell を使用してユーザー アカウントからライセンスを削除する](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)」
 
-- 管理ポータルからこのライセンスを削除する場合は、次を参照してください :「[一般法人向け Office 365 のユーザーからライセンスを削除する](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)」
+- 管理ポータルからこのライセンスを削除する場合は、次を参照してください :「[ユーザーからライセンスを削除する](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)」

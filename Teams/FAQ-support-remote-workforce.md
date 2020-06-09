@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780316"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637906"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -34,7 +34,7 @@ ms.locfileid: "43780316"
 Microsoft では、今回の新型コロナウイルス感染症 (COVID-19) 発生に関する発表を受け、主要地域での容量を大幅に拡張しています。 お客様が Microsoft のサービスを確実にご利用いただけるよう、状況および Microsoft のサービスを注視しています。クラウド サービスのメリットの 1 つは、動的なスケーリングを行えることです。これには、Microsoft の大規模なサプライ チェーンの活用、サービス間でのリソースの再分配、負荷の再配分などが含まれます。Microsoft Teams の利用度が増加していますが、Microsoft ではこれに対処しており、引き続き注意深く監視しています。 また、通話プランの需要に先んじて、必要に応じて十分な電話番号を調達するよう努めています。
 
 > [!NOTE]
-> すでに M365 をセットアップしていて、Microsoft が行っている操作について詳しく知りたい場合は、メッセージ センターにアクセスして、**MC205458** メッセージ センターの投稿を確認してください。
+> すでに Microsoft 365 をセットアップしていて、Microsoft が行っている操作について詳しく知りたい場合は、メッセージ センターにアクセスして、**MC205458** メッセージ センターの投稿を確認してください。
 
 Microsoft 365 担当コーポレート バイス プレジデントの Jared Spataro による 2020 年 3 月 5 日のブログ投稿「[Our commitment to customers during COVID-19 (新型コロナウイルス感染症発生中における、お客様への取り組み)](https://www.microsoft.com/ja-JP/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)」をぜひご覧ください。
 
@@ -102,21 +102,21 @@ Microsoft では、Education (EDU) テナントに対して、学校の生徒情
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Microsoft 365 を使い始めたので、Teams を使用してリモート ワーカーや学生をサポートできます。 サービスにサインアップしましたが、ユーザーが Teams を使用しようとすると、次のエラーが表示されます: "使い損ねていますよ。 管理者に Microsoft Teams を有効にするよう依頼しましょう。" どうすればよいですか?
 
-無料の Teams オファーの 1 つをアクティブにした後でも、ユーザーに対して有効にしておく必要があります。 「[Teams へのユーザー アクセスを管理する](user-access.md)」と「[Office 365 にユーザーを個別に、またはまとめて追加する](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)」をお読みください。
+無料の Teams オファーの 1 つをアクティブにした後でも、ユーザーに対して有効にしておく必要があります。 「[Teams へのユーザー アクセスを管理する](user-access.md)」と「[ユーザーを個別に、またはまとめて追加する](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)」をお読みください。
 
 初めてユーザーにライセンスを付与する、または有効にするが、Microsoft 365 はしばらく使用してきたという場合は、組織の [Teams を有効にする](Office-365-set-up.md)必要がある場合があります。 この記事上で、「[Microsoft 365 を持っていますが、Teams を使っていません。Teams の試用版ライセンスは提供されていますか?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)」をご確認ください。
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Microsoft が提供している Office 365 E1 試用版で電話プランを使用できますか? 社内のユーザーに電話番号を割り当てることは可能ですか? 料金を教えてください。
 
-アプリ間での音声とビデオ通話は、すべてのバージョンの Teams で行えます。 電話番号を社員に割り当てるには、[Office 365 の電話システム](what-is-phone-system-in-office-365.md)が必要です。 入手と展開に関しては、担当の Microsoft パートナーまたは営業担当者を通して行うことをお勧めします。 詳細については、「[Teams での音声通話とビデオ通話](https://products.office.com/microsoft-teams/voice-calling)」を参照してください。
+アプリ間での音声とビデオ通話は、すべてのバージョンの Teams で行えます。 電話番号を社員に割り当てるには、[電話システム](what-is-phone-system-in-office-365.md)が必要です。 入手と展開に関しては、担当の Microsoft パートナーまたは営業担当者を通して行うことをお勧めします。 詳細については、「[Teams での音声通話とビデオ通話](https://products.office.com/microsoft-teams/voice-calling)」を参照してください。
 
 ### <a name="can-i-set-up-an-auto-attendant-with-the-new-teams-e1-trial-so-i-can-have-an-emergency-line-internally-at-my-company-to-deal-with-covid-19-coronavirus"></a>新型コロナウイルス感染症 (COVID-19) 対策として社内用の緊急回線を用意したいのですが、新しい Teams E1 の試用版で自動応答を設定することはできますか?
 
-[クラウド自動応答](what-are-phone-system-auto-attendants.md)を Teams で設定するには、Teams に加えて [Office 365 の電話システム](what-is-phone-system-in-office-365.md)が必要です。 入手と展開に関しては、担当の Microsoft パートナーまたは営業担当者を通して行うことをお勧めします。
+[クラウド自動応答](what-are-phone-system-auto-attendants.md)を Teams で設定するには、Teams に加えて [電話システム](what-is-phone-system-in-office-365.md)が必要です。 入手と展開に関しては、担当の Microsoft パートナーまたは営業担当者を通して行うことをお勧めします。
 
 ### <a name="where-can-i-find-more-information-to-help-remote-workers"></a>リモート ワーカーを支援するための詳細情報はどこで参照できますか?
 
-エンド ユーザー向け: すべての Office 365 ワークロード全体で効率的に共同作業を行う方法を説明する、「[Office 365 で共同作業する](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)」を参照してください。
+エンド ユーザー向け: すべての Microsoft 365 ワークロード全体で効率的に共同作業を行う方法を説明する、「[Microsoft 365 で共同作業する](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)」を参照してください。
 
 IT 管理者 / IT 担当者向け: 「[Teams を使用してリモート ワーカーを支援する](support-remote-work-with-teams.md)」を参照してください。
 

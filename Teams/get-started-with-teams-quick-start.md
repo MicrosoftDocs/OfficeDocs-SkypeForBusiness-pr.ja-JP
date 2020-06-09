@@ -18,22 +18,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: bc5cc912a90320b7d7221fcd99df702020c69eaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042804"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638356"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
 > [!IMPORTANT]
-> **リモート ワーク**に対応するようにという要望の高まりに応えるため Microsoft Teams を迅速にロールアウトする場合、使用を開始するためのこのガイダンスにより、組織全体に Teams をロールアウトできます。 このガイダンスは、Teams が初めての Office 365 ワークロードである場合でも当てはまります。
+> **リモート ワーク**に対応するようにという要望の高まりに応えるため Microsoft Teams を迅速にロールアウトする場合、使用を開始するためのこのガイダンスにより、組織全体に Teams をロールアウトできます。 このガイダンスは、Teams が初めての Microsoft 365 または Office 365 ワークロードである場合でも当てはまります。
 
 Teams をすぐ開始するには、選択した早期導入者のグループに 2 つまたは 3 つのチームとチャネルを作成することをお勧めします。 まず Teams を小規模に展開することにより、Teams を使用して Teams を学習できます。また、組織全体に Teams を展開する方法を知るための貴重な識見を得ることができます。 中小企業の場合、組織全体に Teams を展開するために必要なのは、このクイック スタート ガイドのみです。
 
 
-Teams を使用すると、すぐに組織内外のチームとユーザーをまとめることができます。他のユーザーとチャットして、迅速で包括的な会話を促進したり、ドキュメントを安全に共有および共同編集したり、プロジェクトで反復処理を行うことができます。 共有メモ、Web ページ、およびアプリへの簡単に操作できるアクセスを追加して、Teams をカスタマイズします。 ユーザーは会議や通話を使用して、どこからでもリアルタイムで共同作業を行うことができます。 Teams によって Office 365 サービスとサードパーティ製アプリへのアクセスが簡素化され、共同作業とコミュニケーションのニーズの新たな中心になります。 最高のエクスペリエンスと一番的確なフィードバックを得るために、デスクトップとモバイルの両方のアプリケーションをインストールすることを早期導入者に勧めてください。
+Teams を使用すると、すぐに組織内外のチームとユーザーをまとめることができます。他のユーザーとチャットして、迅速で包括的な会話を促進したり、ドキュメントを安全に共有および共同編集したり、プロジェクトで反復処理を行うことができます。 共有メモ、Web ページ、およびアプリへの簡単に操作できるアクセスを追加して、Teams をカスタマイズします。 ユーザーは会議や通話を使用して、どこからでもリアルタイムで共同作業を行うことができます。 Teams によって Microsoft 365 または Office 365 サービスとサードパーティ製アプリへのアクセスが簡素化され、共同作業とコミュニケーションのニーズの新たな中心になります。 最高のエクスペリエンスと一番的確なフィードバックを得るために、デスクトップとモバイルの両方のアプリケーションをインストールすることを早期導入者に勧めてください。
 
 ![デスクトップおよびモバイル クライアントのユーザー インターフェイスを示すスクリーン ショット](media/get-started-microsoft-teams.png "Teams のデスクトップ クライアントとモバイル クライアントのユーザー インターフェイスを示すスクリーン ショット" ) 
 
@@ -50,10 +50,10 @@ Teams を使用すると、すぐに組織内外のチームとユーザーを�
 
 ## <a name="before-you-get-started"></a>使用を開始する前に
 
-Teams をロールアウトする準備を整えるために実行する必要がある事柄について取り上げます。Teams が初めてのワークロード (「Teams 優先」) の場合でも、既存の Office 365 展開のその後のワークロードである場合でも、当てはまります。
+Teams をロールアウトする準備を整えるために実行する必要がある事柄について取り上げます。Teams が初めてのワークロード (「Teams 優先」) の場合でも、既存の Microsoft 365 または Office 365 展開のその後のワークロードである場合でも、当てはまります。
 
 - [Teams 用に組織のネットワークを準備する](prepare-network.md)
-    - これには、Office 365 ドメイン、SharePoint Online、Exchange Online、OneDrive for Business の構成が含まれます。
+    - これには、Microsoft 365 または Office 365 ドメイン、SharePoint Online、Exchange Online、OneDrive for Business の構成が含まれます。
 
 - すべてのユーザーの Teams のライセンスを取得する。 [チーム プラン](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)と [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)を確認します。
 
@@ -65,7 +65,7 @@ Teams をロールアウトする準備を整えるために実行する必要�
    - [Skype for Business Server と Office 365 の間のハイブリッド接続を計画する](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-   > 組織でオンプレミスの Skype for Business Server (または Lync Server) を実行している場合、オンプレミスのディレクトリと Office 365 を同期するよう [Azure AD Connect を構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)する必要があります。 
+   > 組織でオンプレミスの Skype for Business Server (または Lync Server) を実行している場合、オンプレミスのディレクトリと Microsoft 365 または Office 365 を同期するよう [Azure AD Connect を構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)する必要があります。 
 
 
 ## <a name="next-steps"></a>次の手順

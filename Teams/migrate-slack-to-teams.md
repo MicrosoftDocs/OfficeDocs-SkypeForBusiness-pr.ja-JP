@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
-ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: ca104baf5baebaa0e44c2202794c1b8ed6862633
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506878"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638646"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack から Microsoft Teams に移行する
 
@@ -79,12 +79,12 @@ Slack のエクスポート オプションの詳細については、Slack の 
 
 Slack のアプリは、Teams のアプリのようなものです。 ワークスペースにあるアプリとそれらの構成の一覧が用意できたら、Teams アプリ ストアで検索を行い、Teams で使用できるものを確認できます*。 
 
-<your Slack workspace>.slack.com/apps/manage にアクセスしてアプリとカスタム統合の一覧を取得します。 このページには、各アプリが使用している構成の数も表示されます。 カスタム統合の移行性は一定ではありません。 Web フックの場合は、通常はそれを Office 365 コネクタに送信して、ワークフローを Teams に移動できます。 ボットやその他のアプリの Teams への移行については、それぞれの個別の状況に応じて評価を行うことにより計画を立てます。
+<your Slack workspace>.slack.com/apps/manage にアクセスしてアプリとカスタム統合の一覧を取得します。 このページには、各アプリが使用している構成の数も表示されます。 カスタム統合の移行性は一定ではありません。 Web フックの場合は、通常はそれを Microsoft 365 または Office 365 コネクタに送信して、ワークフローを Teams に移動できます。 ボットやその他のアプリの Teams への移行については、それぞれの個別の状況に応じて評価を行うことにより計画を立てます。
 
 \* アプリの使用が管理者により制限されている場合、使用可能なアプリの完全な一覧が表示されない可能性があります。
 
 ### <a name="users"></a>ユーザー
-Slack で使用してきた ID スキームは、Office 365 に直接マッピングできない可能性があります。 たとえば、Slack ユーザーのメール アドレスは、Office 365 の職場または学校のアカウントにマッピングできない場合があります。 Teams の展開を開始する前に、ユーザー ID マップを作成する必要があります。
+Slack で使用してきた ID スキームは、Microsoft 365 または Office 365 に直接マッピングできない可能性があります。 たとえば、Slack ユーザーのメール アドレスは、Microsoft 365 または Office 365 の職場または学校のアカウントにマッピングできない場合があります。 Teams の展開を開始する前に、ユーザー ID マップを作成する必要があります。
 
 有料版 Slack のサービス プランを使用している場合は、*<your Slack workspace>.slack.com/admin/stats#members* にアクセスして各ユーザーのメール アドレスやアカウントの種類 (例: シングル チャンネル ゲスト、マルチ チャンネル ゲスト) などのメンバーの詳細情報を取得できます。
 
@@ -335,7 +335,7 @@ Teams に追加するアプリを特定するには、アプリの使用状況�
 
 多くの場合、アプリは主に外部サービス (例: 監視システム) からイベント主導のデータを受信し、Slack にメッセージをプッシュします。 これと同じ結果は、Microsoft 365 コネクタを使用してイベントに基づいてメッセージを Teams にプッシュする方法で得られます。
 
-統合のために Teams で Office 365 コネクタが使用された Slack のソリューションの例を次に示します。
+統合のために Teams で Microsoft 365 コネクタが使用された Slack のソリューションの例を次に示します。
 - Ansible
   - 警告は [Ansible webhook](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html#webhook) 経由で Teams に送信できます。
 - New Relic

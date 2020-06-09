@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139200"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637176"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -78,7 +78,7 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 各プランには、Teams を展開する前に修復が必要な環境についての状況を迅速に特定するために使用できるテナント準備状況アセスメントが含まれています。 アセスメントには、前提条件とベスト プラクティスが含まれています。 各アセスメント テストには、緑色のチェック マークまたはオレンジ色の警告三角形が付いています。 
 
 - <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>緑色のチェックマークは、テナントが特定のテストに合格したことを意味しています。 
-- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>オレンジ色の警告の三角形は、何らかのアクションが必要かどうかを判断するためのフォロー アップを推奨していることを意味します (たとえば、Office 365 グループの有効期限ポリシーが推奨されますが、必須ではありません)。
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>オレンジ色の警告の三角形は、何らかのアクションが必要かどうかを判断するためのフォロー アップを推奨していることを意味します (たとえば、Microsoft 365 グループの有効期限ポリシーが推奨されますが、必須ではありません)。
 
 > [!IMPORTANT]
 > 管理者ロールを持つユーザーが Teams のアドバイザーを開始すると、すべてのアセスメントがバックグラウンドで実行されます。 何かを更新または修復した場合、最大 24 時間はアセスメントに反映されないことがあります。 これは一時的なものです。Teams のアドバイザーがパブリック プレビューを終了して一般公開されるとすぐに、アセスメントはほぼリアルタイムで更新されます。
@@ -102,8 +102,8 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|構成済みの Office 365 グループの名前付けポリシー     |名前付け基準が Microsoft 365 グループ用に構成されているかどうか。 Microsoft 365 グループの名前付けポリシーにより、組織はユーザーが作成したチームに対して一貫した名前付け戦略を適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Microsoft 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[Office 365 Group naming policy (Office 365 グループの名前付けポリシー)](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)」を参照してください。    |
-|構成済みの Office 365 グループ有効期限ポリシー     |Microsoft 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[Office 365 グループの有効期限ポリシー](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
+|構成済みのMicrosoft 365 グループの名前付けポリシー     |名前付け基準が Microsoft 365 グループ用に構成されているかどうか。 Microsoft 365 グループの名前付けポリシーにより、組織はユーザーが作成したチームに対して一貫した名前付け戦略を適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Microsoft 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[Microsoft 365 グループの名前付けポリシー](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)」を参照してください。    |
+|構成済みの Microsoft 365 グループ有効期限ポリシー     |Microsoft 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[Microsoft 365 グループの有効期限ポリシー](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>ミーティングと会議のアセスメント
 

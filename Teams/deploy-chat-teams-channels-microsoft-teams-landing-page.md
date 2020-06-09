@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041844"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637896"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -160,7 +160,7 @@ Teams は多くの Office 365 ライセンスの一部として提供されて�
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange と SharePoint の相互運用性 
 
-Teams のすべての機能を活用するために、すべてのユーザーは Exchange Online、SharePoint Online、および Office 365 グループの作成が可能になっている必要があります。 次の記事では、さまざまな環境でホストされている Exchange メールボックス、Exchange と Teams の相互作用のしくみ、および SharePoint と OneDrive for Business に関する同様の考慮事項について概要を示します。 
+Teams のすべての機能を活用するために、すべてのユーザーは Exchange Online、SharePoint Online、および Microsoft 365 グループの作成が可能になっている必要があります。 次の記事では、さまざまな環境でホストされている Exchange メールボックス、Exchange と Teams の相互作用のしくみ、および SharePoint と OneDrive for Business に関する同様の考慮事項について概要を示します。 
 
 |確認事項|アクション |
 |------------|-------|

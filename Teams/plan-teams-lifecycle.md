@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad4592799efef11b7d09d564af5217dd9cdd550
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951272"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638846"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams でのライフサイクル管理の計画
 
@@ -41,7 +41,7 @@ Teams には、自分の組織でコラボレーション ライフサイクル�
 
 **Teams**
 
-_チーム_とは、人、コンテンツ、ツールを 1 つにまとめてコラボレーションを促進する集合体です。 チームによって、メンバーが誰であるか、およびそれらのメンバーに適用されるアクセス許可およびポリシーが定義されます。 Teams は、Microsoft 365 グループを基にして構築されていて、Office 365 グループ メンバーシップに対する変更はチームに同期されます。 他の Microsoft 365 グループと同様に、Teams にも Exchange メールボックス、SharePoint サイト、OneNote ノートブック、およびその他の Office 365 内の資産が自動的に用意されています。 [Microsoft 365 グループについて](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+_チーム_とは、人、コンテンツ、ツールを 1 つにまとめてコラボレーションを促進する集合体です。 チームによって、メンバーが誰であるか、およびそれらのメンバーに適用されるアクセス許可およびポリシーが定義されます。 Teams は、Microsoft 365 グループを基にして構築されていて、Microsoft 365 グループ メンバーシップに対する変更はチームに同期されます。 他の Microsoft 365 グループと同様に、Teams にも Exchange メールボックス、SharePoint サイト、OneNote ノートブック、およびその他の Office 365 内の資産が自動的に用意されています。 [Microsoft 365 グループについて](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 **チャネル**
 
@@ -141,7 +141,7 @@ Teams を自分の組織にロール アウトするまえに、組織で必要�
 
 -   チームを最初から作成します。 個別のメール エイリアスまたはユーザー名を使用してメンバーを追加するか、配布リストを展開します。
 -   既存のチームからチームを作成し、そのチャネルの構成およびアプリの構成をテンプレートとして使用します。 オプションとして、メンバーシップ リストを使用することもできます。
--   既存の Office 365 グループに、チームを追加します。これにより、チームには Office 365 グループのメールボックスと SharePoint サイトへのアクセスも付与されます。
+-   既存の Microsoft 365 グループに、チームを追加します。これにより、チームには Microsoft 365 グループのメールボックスと SharePoint サイトへのアクセスも付与されます。
 -   Microsoft Graph Teams API または PowerShell コマンドレットを使用してチームを作成します。 API は、グローバル アドレス帳の属性 (地域や部署など) やビジネス プロセス (クライアントのエンゲージメントや学級名簿など) に基づき、プログラムでチームを作成することができます。
 
 次のリンクを使用して、チームの編成に関する詳細情報をご覧ください。

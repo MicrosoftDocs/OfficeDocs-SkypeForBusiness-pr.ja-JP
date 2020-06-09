@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227561"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638386"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>現場担当者向けにTeams 大規模にプロビジョニングする方法
 
@@ -315,7 +315,7 @@ Teams で大量のユーザーと共同作業するには、最初に Azure AD �
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>グループベースのライセンスを通じてユーザーにライセンスを割り当てる
 
-Office 365、Enterprise Mobility + Security、Dynamics 365 などの Microsoft 有料クラウドサービス、およびその他の同様の製品にはライセンスが必要です。 これらのライセンスは、これらのサービスにアクセスする必要がある各ユーザーに割り当てられます。 ライセンスを管理するために、管理者は、管理ポータル (Office または Azure) と PowerShell コマンドレットのいずれかを使用します。 Azure Active Directory (Azure AD) は、すべての Microsoft クラウド サービスの ID 管理をサポートする基盤となるインフラストラクチャです。 Azure AD には、ユーザーのライセンスの割り当て状態に関する情報が格納されます。
+Microsoft 365、Office 365、Enterprise Mobility + Security、Dynamics 365 などの Microsoft 有料クラウドサービス、およびその他の同様の製品にはライセンスが必要です。 これらのライセンスは、これらのサービスにアクセスする必要がある各ユーザーに割り当てられます。 ライセンスを管理するために、管理者は、管理ポータル (Office または Azure) と PowerShell コマンドレットのいずれかを使用します。 Azure Active Directory (Azure AD) は、すべての Microsoft クラウド サービスの ID 管理をサポートする基盤となるインフラストラクチャです。 Azure AD には、ユーザーのライセンスの割り当て状態に関する情報が格納されます。
 
 規模に応じてライセンスを有効にするために、Azure AD にはグループベースのライセンスが含まれています。このため、この記事の前半でセキュリティ グループを作成しました。 1 つ以上の製品ライセンスをグループに割り当てることができます。 Azure AD では、グループのメンバー全員にライセンスが割り当てられていることを確認します。 グループに参加する新しいメンバー全員に、適切なライセンスが割り当てられます。 グループを脱退するメンバーからライセンスが削除されます。 このライセンス管理により、PowerShell を介してライセンス管理を自動化し、組織および部門構造の変更をユーザーごとに反映する必要がなくなります。
 

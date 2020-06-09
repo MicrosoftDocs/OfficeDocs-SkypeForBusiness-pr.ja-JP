@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512824"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637646"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -40,7 +40,7 @@ ms.locfileid: "44512824"
 |テナントで許可されている組織全体のチームの数 | 5     |
 |[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
 |グローバル管理者を作成できるチームの数        |  500,000   |
-|Office 365 組織が持てるチームの数    | 500,000&sup2;     |
+|Microsoft 365 または Office 365 組織が持てるチームの数    | 500,000&sup2;     |
 |チームごとのチャネル数    | 200 (削除されたチャネルを含む) &sup3;         |
 |チームごとのプライベート チャネル数    |30|
 |プライベート チャネルのメンバー数    |250 人|
@@ -93,7 +93,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 詳細については、「[ Exchange Online の制限](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)」をご覧ください。
 
 > [!NOTE]
-> メッセージ サイズ、添付ファイル、およびインライン イメージの制限は、すべての Office 365 ライセンスで同じです。
+> メッセージ サイズ、添付ファイル、およびインライン イメージの制限は、すべての Microsoft 365 および Office 365 ライセンスで同じです。
 
 ## <a name="channel-names"></a>チャネル名
 
@@ -132,7 +132,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |------------|---------------|
 |対象ユーザーの規模 | 出席者 10,000 名 |
 |イベントの期間 | 4 時間 |
-|Office 365 組織で実行されている同時ライブ イベント <sup>1</sup> | 15 |
+|Microsoft 365 または Office 365 組織で実行されている同時ライブ イベント <sup>1</sup> | 15 |
 
 <sup>1</sup> ライブ イベントはいくつでもスケジュールできますが、一度に実行できるのは 15 件のみです。 プロデューサーがライブ イベントに参加するとすぐに、実行中と見なされます。 16 回目のライブ イベントに参加しようとしたプロデューサーにエラーが発生します。
 

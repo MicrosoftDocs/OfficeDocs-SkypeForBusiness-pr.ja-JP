@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a158f8b43b4cf58e2c5c6c4a4248488f41973d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780286"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610976"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Business Voice のインターネット接続を確認する
 
@@ -60,7 +60,7 @@ Business Voice は、Microsoft 365 のクラウドにあります。 Microsoft T
 
 次の手順を実行します。
 
-1. ブラウザーで、https://admin.teams.microsoft.com に移動します。 グローバル管理者権限を持つアカウントを使用してサインインします。 Office 365 へのサインアップに使用したアカウントには、これらのアクセス許可があります。
+1. ブラウザーで、https://admin.teams.microsoft.com に移動します。 グローバル管理者権限を持つアカウントを使用してサインインします。 Microsoft 365 または Office 365 へのサインアップに使用したアカウントには、これらのアクセス許可があります。
 2. **[計画]** を開いて **[ネットワーク プランナー]** を選択します。
 3. **[ネットワーク プラン]** で、**[追加]** を選択します。 プランの名前を入力して、**[適用]** を選択します。 ネットワーク プランは次のようになります。
 
@@ -77,13 +77,13 @@ Business Voice は、Microsoft 365 のクラウドにあります。 Microsoft T
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>インターネット接続の最低速度を確認する
 
-**[レポートの生成]** を選択すると、Office 365 で次のようなレポートが作成されます。
+**[レポートの生成]** を選択すると、Microsoft 365 または Office 365 で次のようなレポートが作成されます。
 
 ![ネットワーク プランナー レポートの詳細](../media/network-planner-report.png)
 
 強調表示された数値は、Teams と Business Voice で使用するインターネット接続の量を示しています。 この数値が、インターネット接続の合計速度の 30% を超えないようにすることをお勧めします。 たとえば、インターネット接続が 60 Mbps の場合、Teams や Business Voice は 18 Mbps 未満を使用する必要があります。
 
-この式を使用して、インターネット接続の最小速度を決定します: *\< 強調表示された数字 > / 0.3*。 前の図で強調表示されている数値を使用すると計算は、*4.6875 / 0.3 = 15.6* になります。 この場合、インターネット接続速度は、15.6 Mbps 以上にする必要があります。
+この式を使用して、インターネット接続の最小速度を決定します: *\<highlighted number> / 0.3*。 前の図で強調表示されている数値を使用すると計算は、*4.6875 / 0.3 = 15.6* になります。 この場合、インターネット接続速度は、15.6 Mbps 以上にする必要があります。
 
 Teams と Business Voice での使用量がインターネット接続の合計速度の 30% を超える場合、強調表示された数値が赤色で表示されます。 この場合、インターネット接続をアップグレードする必要がある場合があります。
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: f61da62118229cfa16db7a476c96e9d0bdf4a65a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522670"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637046"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -40,7 +40,7 @@ ms.locfileid: "44522670"
 
 ### <a name="why-is-microsoft-teams-replacing-skype-for-business-online"></a>Skype for Business Online を Microsoft Teams に置き換えるのはなぜですか?
 
-Microsoft Teams では、統合アプリにファイル、チャット、アプリをまとめることにより、Skype for Business Online の持つ機能を拡張しています。その機能により、組織はより迅速に活動したり、より効率的に共同作業を行ったりできるようになります。 Teams で提供されるエクスペリエンスのセットはずっと豊富なので、Office 365 の中核的な通信クライアントを Skype for Business から Teams に置き換えます。
+Microsoft Teams では、統合アプリにファイル、チャット、アプリをまとめることにより、Skype for Business Online の持つ機能を拡張しています。その機能により、組織はより迅速に活動したり、より効率的に共同作業を行ったりできるようになります。 Teams で提供されるエクスペリエンスのセットはずっと豊富なので、 Microsoft 365 および Office 365 の中核的な通信クライアントを Skype for Business から Teams に置き換えます。
 
 ### <a name="when-is-the-retirement-of-skype-for-business-online"></a>Skype for Business Online のサポートはいつ終了しますか?
 
@@ -66,7 +66,7 @@ Microsoft では、Skype for Business Server を使用しているお客様が�
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>Office 365 での Skype for Business の展開を現在進めているお客様や、展開を計画しているお客様に対する推奨事項を教えてください。
 
-現在 Skype for Business Online を展開しているお客様は、引き続きご使用いただけます。 すべての新規 Office 365 ユーザーには、単独で、または Skype for Business と並行して Teams の使用を開始し、ビジネス ニーズを満たすようにパス (共存または Teams のみ) とタイミングを特定することをお勧めします。 Skype for Business の使用期間にかかわらず、お客様は Skype for Business Online サポート終了日より前に Teams に移行していただく必要があります。
+現在 Skype for Business Online を展開しているお客様は、引き続きご使用いただけます。 すべての新規 Microsoft 365 および Office 365 ユーザーには、単独で、または Skype for Business と並行して Teams の使用を開始し、ビジネス ニーズを満たすようにパス (共存または Teams のみ) とタイミングを特定することをお勧めします。 Skype for Business の使用期間にかかわらず、お客様は Skype for Business Online サポート終了日より前に Teams に移行していただく必要があります。
 
 ### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Teams への移行を希望するユーザーに、どのようなサポートを提供しているのかを教えてください。特に、Skype for Business Online に既に大きな投資を行っているユーザーがどのようなサポートを受けられるのかを知りたいです。
 
@@ -74,7 +74,7 @@ Skype for Business を使用しているすべてのお客様には、Teams の�
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>ライセンスの観点から、これをどのように理解すればよいですか? Teams のインテリジェント コミュニケーション サービスに対する支払い方法を教えてください。
 
-Teams は Office 365 スイートで利用することができます。 現在 Skype for Business Online に含まれるプレミアム ワークロードの機能は Teams のプレミアム ワークロードとしても継続的に利用できます。 お客様によって投資された既存のライセンスは Teams に移転されます。 たとえば、Skype for Business で 電話会議スタンドアロンまたは E5 をご購入いただいているお客様は、Teams での電話会議が有効になり、すぐにご利用いただけます。
+Teams は Microsoft 365 および Office 365 スイートで利用することができます。 現在 Skype for Business Online に含まれるプレミアム ワークロードの機能は Teams のプレミアム ワークロードとしても継続的に利用できます。 お客様によって投資された既存のライセンスは Teams に移転されます。 たとえば、Skype for Business で 電話会議スタンドアロンまたは E5 をご購入いただいているお客様は、Teams での電話会議が有効になり、すぐにご利用いただけます。
 
 ### <a name="is-microsoft-planning-scheduled-upgrades"></a>Microsoft はアップグレードの予定を計画していますか?
 
@@ -172,7 +172,7 @@ Teams は、Education、Education Plus、Education E5 といったすべての �
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Microsoft のオンライン ボイス機能の計画を教えてください。
 
-Microsoft の音声ソリューションの中核は、現在利用可能な電話システムです。 さらに、Office 365 で直接電話番号の取得や割り当てを含む通話を完全にサポートする Microsoft 通話プランを追加することもできます。 通信電話トランクを保持したいお客様は、電話システムの一部として含まれているダイレクト ルーティングを使用できます。 組織のニーズに合わせて完全な音声ソリューションを提供するには、両方を組み合わせて調整します。
+Microsoft の音声ソリューションの中核は、現在利用可能な電話システムです。 さらに、Microsoft 365 または Office 365 で直接電話番号の取得や割り当てを含む通話を完全にサポートする Microsoft 通話プランを追加することもできます。 通信電話トランクを保持したいお客様は、電話システムの一部として含まれているダイレクト ルーティングを使用できます。 組織のニーズに合わせて完全な音声ソリューションを提供するには、両方を組み合わせて調整します。
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>Skype for Business Online の電話システム (クラウド PBX) で既に展開しているカスタマーに向けたガイダンスを教えてください。
 
@@ -190,7 +190,7 @@ Teams では電話会議がサポートされており、そのサービス エ�
 
 ### <a name="are-third-party-audio-conferencing-providers-acp-supported-in-teams"></a>サードパーティの電話会議プロバイダー (ACP) は Teams でサポートされていますか?
 
-Teams ではサードパーティの電話会議プロバイダー (ACP) がサポートされる予定はありません。 Microsoft は、Office 365 の電話会議サービスを利用することで、Teams および Skype for Business を利用しているユーザーにとっての電話会議の最適な操作性が実現すると考えています。 Skype for Business の会議で ACP サポートを利用する必要のあるお客様は、引き続き Skype for Business クライアントを使用して Skype for Business の会議にご参加いただけます。 Teams でスケジュールされた会議では、Office 365 の音声会議サービスを利用する必要があります。
+Teams ではサードパーティの電話会議プロバイダー (ACP) がサポートされる予定はありません。 Microsoft は、電話会議サービスを利用することで、Teams および Skype for Business を利用しているユーザーにとっての電話会議の最適な操作性が実現すると考えています。 Skype for Business の会議で ACP サポートを利用する必要のあるお客様は、引き続き Skype for Business クライアントを使用して Skype for Business の会議にご参加いただけます。 Teams でスケジュールされた会議では、Microsoft 365 または Office 365 の音声会議サービスを利用する必要があります。
 
 サード パーティ製のオーディオ会議プロバイダー (ACP) を Skype for Business に統合するためのサポートは 2021 年 7 月 31 日まで延長されています。移行のための時間を取れるよう、残っているアクティブ テナントへの限定的なサポートが提供されます。 これは、2018 年 4 月に発表された ACP タイムラインの更新プログラムです。
 

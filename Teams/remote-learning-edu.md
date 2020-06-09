@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a87acce75568716eb4c4cf2dac4ecb6c03959d
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139240"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638526"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -69,9 +69,9 @@ Teams の使用を開始するには、2 つの作業を行う必要がありま
 
 ### <a name="1-allow-users-to-create-teams"></a>1. ユーザーがチームを作成できるようにする
 
-生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 Teams のエクスペリエンスをユーザーがカスタマイズできるようにする方法の 1 つは、各自のニーズに合ったチームを作成することをユーザーに許可することです。 **既定では、すべてのユーザーが Microsoft 365 グループとチームを作成することができます**。 この能力を付与することが適切ではない場合があります。例えば、学校によっては、小中高生がチームを作成できないようにすることを希望する場合があります。 必要に応じて、お客様の環境内での Office 365 グループおよびチームの作成を、[特定のセキュリティ グループ](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)に制限することができます。
+生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 Teams のエクスペリエンスをユーザーがカスタマイズできるようにする方法の 1 つは、各自のニーズに合ったチームを作成することをユーザーに許可することです。 **既定では、すべてのユーザーが Microsoft 365 グループとチームを作成することができます**。 この能力を付与することが適切ではない場合があります。例えば、学校によっては、小中高生がチームを作成できないようにすることを希望する場合があります。 必要に応じて、お客様の環境内での Microsoft 365 グループおよびチームの作成を、[特定のセキュリティ グループ](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)に制限することができます。
 
-高等教育機関の場合、学生を含むすべてのユーザーがクラス、研究、グループ プロジェクト、学習グループなどのためにチームを作成できるようにすることが有益であると考えられます。 小学校、中学校、高等学校の場合、生徒間のすべてのコミュニケーションが大人が参加しているフォーラムで行われるよう、生徒がチームを作成できないように設定することをお勧めします。 この場合、Office 365 グループおよびチームの作成は、教職員に限定されます。
+高等教育機関の場合、学生を含むすべてのユーザーがクラス、研究、グループ プロジェクト、学習グループなどのためにチームを作成できるようにすることが有益であると考えられます。 小学校、中学校、高等学校の場合、生徒間のすべてのコミュニケーションが大人が参加しているフォーラムで行われるよう、生徒がチームを作成できないように設定することをお勧めします。 この場合、Microsoft 365 グループおよびチームの作成は、教職員に限定されます。
 
 Teams の作成方法のチュートリアルついては、「[Create a class team in Microsoft Teams (Microsoft Teams でクラス チームを作成する)](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)」をご確認ください。
 

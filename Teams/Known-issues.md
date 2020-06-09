@@ -18,12 +18,12 @@ f1.keywords:
 description: チーム管理者またはヘルプデスクサポートエンジニアのいずれかにかかわらず、組織内の Microsoft Teams をサポートするのには、これらのリソースを使用します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31951747565d7e226c89683b48fc1f09130af1bd
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: cde06d104f6f61efd981bb87b1503e8f097c5c26
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44561982"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637036"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>組織の Microsoft Teams をサポートする
 
@@ -51,7 +51,7 @@ ms.locfileid: "44561982"
 |---------|---------|
 |**Teams は初めてですか?**    |「[Microsoft Teams の使用を開始する](get-started-with-teams-quick-start.md)」をご覧ください。         |
 |**Teams のゲスト アクセスを有効にする**     |「[Teams のゲスト アクセス チェックリスト](guest-access-checklist.md)」を確認し、すべての手順が完了したことを確認します。 以下の追加リソースを参照してください。<ul><li>[Microsoft Teams でのゲスト アクセスについて](guest-access.md)</li>[ゲストがチームに参加する方法](guest-joins.md) <li>[セットアップ – Microsoft Teams のゲスト アクセスのチェックリスト](guest-access-checklist.md)</li></ul>|
-|**Teams での会議とダイヤルイン**    |Teams で電話会議を有効にしたり、設定したりする方法について、サポートをご希望ですか? このユーザーを最近作成しましたか? そうであれば、**設定が有効になるまで**、2 から 24 時間待つ必要があります。<br>そのユーザーに電話会議のライセンスが与えられ、既定の有料電話番号があることを確認するには、次のようにします。<br><ol><li>Microsoft 365 管理センターで、**[アクティブなユーザー]** に移動し、問題のユーザーを選択します。</li><li> 管理センター バージョンに応じて、**[ライセンスとアプリ]** を選択するか、**製品ライセンス**の **[編集]** をクリックします。</li><li> ユーザーに、電話会議、Microsoft Teams、Skype for Business Online (プラン 2) 用に選択したライセンスがあることを確認します。</li><li>ユーザー**管理センター**で、**[すべて表示]**、**[Teams]** の順にクリックします。</li><li>Microsoft Teams 管理センターで、**[従来のポータル]** をクリックします。</li><li>Skype for Business 管理センターで、**[電話会議]**、**[ユーザー]** の順にクリックします。</li><li>該当するユーザーを選択し、そのユーザーに既定の有料電話番号があることを確認します。</li> </ol> 詳細については、「[Office 365 の通話プラン](calling-plans-for-office-365.md)」を参照するか、ライセンス関連の質問については Microsoft コマース課金チームにお問い合わせください。 <br><br>追加情報:<ul><li>[Microsoft Teams でのミーティングと会議](deploy-meetings-microsoft-teams-landing-page.md)</li><li>[Office 365 の電話会議](audio-conferencing-in-office-365.md)</li></ul>       |
+|**Teams での会議とダイヤルイン**    |Teams で電話会議を有効にしたり、設定したりする方法について、サポートをご希望ですか? このユーザーを最近作成しましたか? そうであれば、**設定が有効になるまで**、2 から 24 時間待つ必要があります。<br>そのユーザーに電話会議のライセンスが与えられ、既定の有料電話番号があることを確認するには、次のようにします。<br><ol><li>Microsoft 365 管理センターで、**[アクティブなユーザー]** に移動し、問題のユーザーを選択します。</li><li> 管理センター バージョンに応じて、**[ライセンスとアプリ]** を選択するか、**製品ライセンス**の **[編集]** をクリックします。</li><li> ユーザーに、電話会議、Microsoft Teams、Skype for Business Online (プラン 2) 用に選択したライセンスがあることを確認します。</li><li>ユーザー**管理センター**で、**[すべて表示]**、**[Teams]** の順にクリックします。</li><li>Microsoft Teams 管理センターで、**[従来のポータル]** をクリックします。</li><li>Skype for Business 管理センターで、**[電話会議]**、**[ユーザー]** の順にクリックします。</li><li>該当するユーザーを選択し、そのユーザーに既定の有料電話番号があることを確認します。</li> </ol> 詳細については、「[通話プラン](calling-plans-for-office-365.md)」を参照するか、ライセンス関連の質問について Microsoft コマース課金チームにお問い合わせください。 <br><br>追加情報:<ul><li>[Microsoft Teams でのミーティングと会議](deploy-meetings-microsoft-teams-landing-page.md)</li><li>[電話会議](audio-conferencing-in-office-365.md)</li></ul>       |
 |**Teams Exploratory ライセンス**     |Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (AAD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 以前の [Microsoft の商用クラウド試用版](iw-trial-teams.md) は、 Teams Exploratory エクスペリエンスに変更になりました。 <br><br>追加情報:<ul><li>[ユーザーが Teams Exploratory エクスペリエンスにサインアップする方法](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[Teams Exploratory エクスペリエンスを管理する](teams-exploratory.md#manage-the-teams-exploratory-experience)</li></ul>|
 |**プライベート チャネル**    |Microsoft Teams のプライベート チャネルは、チーム内でのコラボレーションのための集中スペースを作成します。 プライベート チャネルの所有者またはメンバーであるチームのユーザーのみがチャネルにアクセスできます。 既にチームのメンバーである限り、ゲストを含む全てのユーザーをプライベート チャネルのメンバーとして追加できます。<br><br>知る必要があるユーザーにコラボレーションを限定したい場合、または管理する追加のチームを作成せずに特定のプロジェクトに割り当てられたユーザーのグループの間のコミュニケーションを促進したい場合は、プライベート チャネルの使用がお勧めです。<br><br>追加情報:<ul><li>[ユーザーが Teams Exploratory エクスペリエンスにサインアップする方法](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[Teams Exploratory エクスペリエンスを管理する](teams-exploratory.md#manage-the-teams-exploratory-experience)</li><ul>        |
 |**会議ポリシー**|[会議ポリシー](meeting-policies-in-teams.md)は、組織内のユーザーによってスケジュールされた会議への参加者が利用できる機能を制御するために使用されます。 ポリシーを作成して変更を行った後、ユーザーをポリシーに割り当てることができます。         |
@@ -62,7 +62,7 @@ ms.locfileid: "44561982"
 
 |||
 |---------|---------|
-|ユーザーに「使い損ねていますよ」という メッセージが表示される場合。   |「[学校の Microsoft Teams を有効にする](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)」を確認してください。 EDU テナントにおいて、既定では Teams は有効になっていません。最初に、Teams を有効にする必要があります。 <br><br>次に、「[Office 365 Education のリモート教育と学習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)」を参照して、学校向けのセットアップに関する最新のガイダンスやトレーニング計画、仮想授業、生徒とのコンテンツの共有について確認してください。<br><br>最後に Microsoft Teams IT 管理者トレーニング ビデオ、デッキ、その他の詳細を、「[Teams の管理者トレーニング](itadmin-readiness.md)」でご覧ください。        |
+|ユーザーに「使い損ねていますよ」という メッセージが表示される場合。   |「[学校の Microsoft Teams を有効にする](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)」を確認してください。 EDU テナントにおいて、既定では Teams は有効になっていません。最初に、Teams を有効にする必要があります。 <br><br>次に、「[リモート教育と学習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)」を参照して、学校向けのセットアップに関する最新のガイダンスやトレーニング計画、仮想授業、生徒とのコンテンツの共有について確認してください。<br><br>最後に Microsoft Teams IT 管理者トレーニング ビデオ、デッキ、その他の詳細を、「[Teams の管理者トレーニング](itadmin-readiness.md)」でご覧ください。        |
 
 
 ## <a name="related-topics"></a>関連項目

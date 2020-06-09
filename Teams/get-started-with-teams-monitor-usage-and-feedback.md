@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 928f761626f51c2c717e046ad2f3aac49161b4cd
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778443"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638376"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams での使用状況とフィードバックを監視する
 ユーザーがどのように Teams を使用していているか、また Teams に関するユーザーのエクスペリエンスはどのようなものかを知ることは重要です。 使用状況レポートは、使用パターンを正しく理解するために役立ちます。また、ユーザーのフィードバックと併用することで、広範な展開の情報を確認し、トレーニングとコミュニケーションの取り組みに関する優先順位を決定するための見識が得られます。
@@ -38,7 +38,7 @@ ms.locfileid: "43778443"
 
 Microsoft Teams 管理センターでの Teams のレポートにより、Teams が組織内でどのように使用されているかについての見識が得られます。 このレポートを使用して組織全体の Teams の使用状況、ユーザー アクティビティ、およびデバイスの使用状況について調べます。 
 
-このようなレポートを表示するには、Office 365 の全体管理者、Teams のサービス管理者、または Skype for Business の管理者であることが必要です。Microsoft Teams 管理センターに移動して、左側のナビゲーションにある **[分析およびレポート]** を選択し、**[レポート]** から実行するレポートを選択します。
+このようなレポートを表示するには、 Microsoft 365 または Office 365 の全体管理者、Teams のサービス管理者、または Skype for Business の管理者であることが必要です。Microsoft Teams 管理センターに移動して、左側のナビゲーションにある **[分析およびレポート]** を選択し、**[レポート]** から実行するレポートを選択します。
 
 - **Teams の使用状況レポート**: このレポートには、Teams の使用状況アクティビティの概要が示されます。アクティブなユーザーとチャネルの合計数、アクティブなユーザー数とチャネル数、ゲスト数、および各チームのメッセージ数も示されます。 
 
@@ -62,7 +62,7 @@ Teams のアクティビティは、 Microsoft 365 管理センターから利�
 
 ### <a name="microsoft-365-usage-analytics"></a>Microsoft 365 利用状況分析
 
-Power BI の Microsoft 365 利用状況分析を使用すると、Teams などの Office 365 製品とサービスの使用状況データを表示および分析できます。 Microsoft 365 利用状況分析は、事前に作成された 1 つのダッシュボードと事前に作成された複数のレポートが含まれているコンテンツ パックです。 それぞれのレポートで特定の使用状況のデータと見識が得られます。 このコンテンツ パックに接続するには、Power BI が必要になります。また、Office 365 の全体管理者かレポート閲覧者であることが必要です。 まだ Power BI がない場合は、[無料の Power BI サービスにサイン アップ](https://powerbi.microsoft.com)してください。 
+Power BI の Microsoft 365 利用状況分析を使用すると、Teams などの Microsoft 365 または Office 365 製品とサービスの使用状況データを表示および分析できます。 Microsoft 365 利用状況分析は、事前に作成された 1 つのダッシュボードと事前に作成された複数のレポートが含まれているコンテンツ パックです。 それぞれのレポートで特定の使用状況のデータと見識が得られます。 このコンテンツ パックに接続するには、Power BI が必要になります。また、 Microsoft 365、Office 365 の全体管理者、またはレポート閲覧者であることが必要です。 まだ Power BI がない場合は、[無料の Power BI サービスにサイン アップ](https://powerbi.microsoft.com)してください。 
 
 詳細については、「[Microsoft 365 利用状況分析](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)」を参照してください。 
 
