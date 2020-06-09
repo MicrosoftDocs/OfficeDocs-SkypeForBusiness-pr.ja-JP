@@ -41,6 +41,7 @@
 ## [Teams の機密度ラベル](sensitivity-labels.md)
 ## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
 ## [Teams でチャネルのモデレートを設定する](manage-channel-moderation-in-teams.md)
+## [Teams と Outlook のメールの統合](teams-outlook-email-integration.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [Teams でのユーザーのプレゼンス](presence-admins.md)
 ## [Teams のタグを管理する](manage-tags.md)
