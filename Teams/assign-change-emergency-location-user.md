@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーの緊急対応の場所を割り当てまたは変更する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f11bfd9762667823b4ec6b2883c9661f9f5754d0
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 450fe848052af1e331964da3d7b695daf0f1567a
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539504"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610996"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
-通話プランを設定するときは、各電話番号またはユーザーに緊急対応の場所を割り当てる必要があります。 ヨーロッパの国では、Office 365 から、または電話番号を Office 365 に移行したときに、緊急対応の場所が電話番号と関連付けられます。 米国では、ユーザーに割り当てられた緊急対応の場所が電話番号と関連付けられています。 割り当てられたユーザーが新しい場所に移動した場合は、緊急対応の住所を変更することができます。 緊急対応の住所と場所の詳細については、「[緊急通話を管理](what-are-emergency-locations-addresses-and-call-routing.md)する」を参照してください。
+通話プランを設定するときは、各電話番号またはユーザーに緊急対応の場所を割り当てる必要があります。 ヨーロッパの国では、Microsoft 365 または Office 365 から電話番号を取得したとき、または Microsoft 365 または Office 365 に電話番号を移行したときに、緊急対応の場所が電話番号と関連付けられます。 米国では、ユーザーに割り当てられた緊急対応の場所が電話番号と関連付けられています。 割り当てられたユーザーが新しい場所に移動した場合は、緊急対応の住所を変更することができます。 緊急対応の住所と場所の詳細については、「緊急対応の[場所、場所、通話ルーティング](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)の概要」を参照してください。
   
 通話プランの取得方法とコストについては、「Teams の[アドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
-
+  
 Microsoft Teams 管理センターまたは PowerShell を使用して、ユーザーの緊急対応の場所を割り当てたり、変更したりすることができます。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用

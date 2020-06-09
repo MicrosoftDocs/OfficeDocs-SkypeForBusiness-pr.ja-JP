@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、Microsoft Teams でリソースアカウントを作成、編集、管理する方法について説明します。
-ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: f454658cb051ed9e918ca8a1d90c716a35933f68
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565904"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637976"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -54,7 +54,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 自動応答または通話キューが最上位の自動応答の下に入れ子になっている場合、関連付けられたリソースアカウントには、自動応答と通話キューの構造に複数のエントリポイントを追加する必要がある場合は、電話番号のみが必要です。
 
-組織内のユーザーにオンラインで接続されているユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要です。また、エンタープライズボイスに対して有効になっているか、Office 365 通話プランを持っている必要があります。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次のように実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+インターネットに接続している組織内のユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要です。また、エンタープライズ voip を有効にするか、Microsoft 365 または Office 365 の通話プランを使用する必要があります。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次のように実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > リソースアカウントで問題が発生しないようにするには、次の手順を順番に実行します。
@@ -118,7 +118,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 ![新しいリソースアカウントオプションのスクリーンショット](media/res-acct.png)
 
-次に、「[ユーザーにライセンスを割り当てる](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)」の説明に従って、Microsoft 365 管理センターのリソースアカウントにライセンスを適用します。
+次に、「ユーザーを個別に、[またはまとめて追加](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)する」の説明に従って、Microsoft 365 管理センターのリソースアカウントにライセンスを適用します。
 
 ### <a name="edit-resource-account"></a>リソースアカウントを編集する 
 
@@ -182,7 +182,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. リソースアカウントは、ライセンスが適用されるまで使用できません。 Microsoft 365 管理センターのアカウントにライセンスを適用する方法については、「[ユーザーにライセンスを割り当て](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)、 [Skype for business のライセンスを割り当てる](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」を参照してください。
+2. リソースアカウントは、ライセンスが適用されるまで使用できません。 Microsoft 365 管理センターのアカウントにライセンスを適用する方法については、「[ユーザーを個別に、またはまとめて追加](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)する」と「 [Skype for business のライセンスを割り当てる](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」を参照してください。
 
 3. 省略適切なライセンスをリソースアカウントに適用した後、次に示すように、リソースアカウントに電話番号を割り当てることができます。 すべてのリソースアカウントで電話番号が必要になるわけではありません。 リソースアカウントにライセンスを適用していない場合、電話番号の割り当ては失敗します。
 

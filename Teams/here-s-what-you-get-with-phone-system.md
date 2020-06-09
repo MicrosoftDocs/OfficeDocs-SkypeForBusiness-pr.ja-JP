@@ -1,5 +1,5 @@
 ---
-title: Office 365 の電話システムでできること
+title: 電話システムで利用できる機能
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ビジネス向けの Microsoft 電話システムの計画とセットアップ方法について説明します。 '
-ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288705"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638346"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Office 365 の電話システムでできること
+# <a name="heres-what-you-get-with-phone-system"></a>電話システムで利用できる機能
 
-この記事では、Office 365 機能の電話システムについて説明します。 PBX (構内交換機) の交換として電話システムを使用する方法、および公衆交換電話網 (PSTN) に接続するためのオプションの詳細については、「 [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)」を参照してください。
+この記事では、電話システムの機能について説明します。 PBX (構内交換機) 交換として電話システムを使用する方法、および公衆交換電話網 (PSTN) に接続するためのオプションの詳細については、「[電話システムとは](what-is-phone-system-in-office-365.md)」を参照してください。
 
 クライアントは PC、Mac、モバイルで利用できます。これは、タブレットや携帯電話から Pc やデスクトップの IP 電話へのデバイスの機能を提供します。 詳細については、「 [Microsoft Teams のクライアントを取得する](get-clients.md)」を参照してください。
 
   
-## <a name="phone-system-in-office-365-features"></a>Office 365 での電話システムの機能
+## <a name="phone-system-features"></a>電話システムの機能
 
 電話システムには、次の機能が用意されています。 特に記載がない限り、機能は Teams と Skype for Business Online の両方で利用できます。
   
 |||
 |:-----|:-----|
-|**Office 365 での電話システムの機能** <br/> |**説明** <br/> |
+|**電話システムの機能** <br/> |**説明** <br/> |
 |[クラウド自動応答](what-are-phone-system-auto-attendants.md) <br/> |外部および内部の発信者が組織内の会社のユーザーや部署に通話を配置して、通話を転送できるようにするメニューシステムを作成することができます。  <br/> |
 |[クラウド通話キュー](create-a-phone-system-call-queue.md) <br/> |組織での通話キューの管理方法を構成することができます。たとえば、応答メッセージや音楽を保留にしたり、通話を処理する次の通話エージェントを検索したりできます。  <br/> |
 |保留音 | 公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。 この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 この機能は管理者が構成できますが、[現在は PowerShell 経由でのみ](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)設定できます。 PSTN 通話の提案転送でも、音楽を保留することはサポートされていません。|
@@ -51,7 +51,7 @@ ms.locfileid: "42288705"
 |[グループ通話のピックアップとグループへの転送](call-sharing-and-group-call-pickup.md) <br/> | ユーザーが着信した通話を同僚と共有できるようにすることで、ユーザーが使用できない間に発生した通話に同僚が応答できるようにします。 ユーザーは着信の共有通話の通知方法を構成できるため、他の形式の通話共有 (着信の転送、同時呼び出しなど) よりも、受信者に対する影響が少なくなります。 |
 |[通話と提案転送を転送する](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |ユーザーが通話を他のユーザーに転送できるようにします。 または、自分のオフィスから離れて、会話を続ける必要がある場合は、自分の PC または IP 電話から携帯電話に通話を転送することができます。  <br/> |
 |[ボイスメールへの着信転送](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 通話中にユーザがボイスメールに転送することができます。 |
-|[コール パークおよび取得](call-park-and-retrieve.md)  <br/> | ユーザーは、クラウドの Teams サービスで通話を保留にすることができます。 通話が保留中の場合、サービスは通話の取得用に一意のコードを生成します。 通話または他のユーザーが、そのコードとサポートされているアプリまたはデバイスを使って通話を取得できます。 <br/> |
+|[コール パークおよび取得](call-park-and-retrieve.md)  <br/> | ユーザーは、クラウドの Teams サービスで通話を保留にすることができます。 通話の保留を実行すると、Teams サービスにより通話解除のための固有のコードが生成されます。 通話を保留したユーザーまたは他のユーザーは、そのコードとサポートされているアプリやデバイスを使用して、通話を再開できます。 <br/> |
 |検索から電話番号に発信  <br/> | [ダイヤル] コマンドを使用して名前または番号を指定することで、ユーザーが検索ボックスから通話を発信できるようにします。 <br/> |
 |[発信者番号](how-can-caller-id-be-used-in-your-organization.md)  <br/> |社内からの通話には、会社のディレクトリから情報を取得する詳細な発信者番号が表示され、電話番号だけではなく、写真の ID と役職が表示されます。 外部電話番号からの通話の場合、電話サービスプロバイダによって提供される発信者番号認識が表示されます。 外部電話番号が企業ディレクトリ内のセカンダリ番号の場合は、企業ディレクトリからの情報が表示されます。  <br/> |
 |デバイス切り替え  <br/> |ユーザーは、チームに接続されている別の HID デバイスで通話または会議を再生することができます。たとえば、PC スピーカーからヘッドセットに切り替えます。   <br/> |
@@ -82,14 +82,14 @@ ms.locfileid: "42288705"
 
 ## <a name="related-topics"></a>関連項目
 
-- [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
+- [電話システムとは](what-is-phone-system-in-office-365.md)
 - [Microsoft Teams での Cloud Voice](cloud-voice-landing-page.md)
 - [電話システムをセットアップする](setting-up-your-phone-system.md)
 - [どの通話プランが適していますか?](calling-plan-landing-page.md)
 - [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 - [通話品質を監視および管理する](monitor-call-quality-qos.md)
 - [Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [電話システムの料金](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [電話システムの価格](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [通話と会議で仮想化されたデスクトップインフラストラクチャのチーム](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   

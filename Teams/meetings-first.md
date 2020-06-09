@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140296"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637946"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -78,9 +78,9 @@ Meetings First の唯一のハード要件は、オンプレミスの Active Dir
 
 Meetings First は、Skype for Business Server の任意のバージョンでサポートされています (サポートされなくなった Lync サーバーで動作することも確認されています)。 Meetings First は、サポートされている任意の Skype for Business クライアントでサポートされていますが、Better Together 機能を使用するには、最新のクライアントが必要です。
 
-これらの要件が満たされると (以前は満たされていなかった場合)、ユーザーは [Office 365 および Teams のライセンス](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)を取得できます。
+これらの要件が満たされていない場合 (以前のものではありません)、ユーザーは[Microsoft 365 または Office 365 および Teams のライセンス](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)を取得できます。
 
-Meetings First を最適に活用するため、すべてのユーザーは [Exchange Online](exchange-teams-interact.md)、[SharePoint Online、OneDrive for Business](sharepoint-onedrive-interact.md)、および Office 365 グループの作成が可能になっている必要があります。 会議は、メールボックスがオンプレミスの Exchange 上にあるユーザー、または SharePoint Online または OneDrive For Business や Office 365 グループの作成を行っていないユーザーに対してサポートされます。 ただし、エクスペリエンスは完全なものではなくなります。 特に、オンプレミスの Exchange Server を使用している組織では、Teams クライアントからの会議の作成と表示、およびコンプライアンス機能に制限がある場合があります (Exchange Server のバージョンによる)。
+初めての会議を最初に行うには、ユーザーが[Exchange Online](exchange-teams-interact.md)、 [SharePoint Online、OneDrive for Business](sharepoint-onedrive-interact.md)、および Microsoft 365 グループの作成を有効にしている必要があります。 会議は最初に、メールボックスが Exchange オンプレミスのユーザー、または SharePoint Online または OneDrive For Business、または Microsoft 365 グループの作成を行っていないユーザーに対してサポートされます。 ただし、エクスペリエンスは完全なものではなくなります。 特に、オンプレミスの Exchange Server を使用している組織では、Teams クライアントからの会議の作成と表示、およびコンプライアンス機能に制限がある場合があります (Exchange Server のバージョンによる)。
 
 少なくとも、ユーザーは [Teams のライセンス](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)が付与されている必要があります。 さらに、ユーザーには必要に応じて、[電話会議](set-up-audio-conferencing-in-teams.md)のライセンスを付与することもできます。
 

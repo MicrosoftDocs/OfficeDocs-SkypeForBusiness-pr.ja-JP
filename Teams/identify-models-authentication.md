@@ -18,19 +18,19 @@ description: クラウド、同期済み、フェデレーションなど、Micr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75020dfd414e6990f1a3a07ec6f1506ebc9f2f89
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1ccddd3bacdd495fb6febb11871d6d501f0a666b
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776882"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637206"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams での ID モデルと認証
 ==========================================
 
-Microsoft Teams は、Office 365 で利用できるすべての ID モデルをサポートしています。サポート対象の ID モデルには次のものがあります。
+Microsoft Teams では、Microsoft 365 および Office 365 で利用できるすべての id モデルをサポートしています。 サポートされている id モデルは次のとおりです。
 
--   **クラウド ID**: このモデルでは、ユーザーは Office 365 で作成、管理され、Azure Active Directory に保存されます。パスワードは Azure Active Directory によって確認されます。
+-   **クラウド id**: このモデルでは、ユーザーが Microsoft 365 または Office 365 で作成および管理され、Azure active directory に保存されて、パスワードが Azure active directory によって確認されます。
 
 -   **同期された ID**: このモデルでは、ユーザー ID はオンプレミス サーバーで管理され、アカウントとパスワードのハッシュはクラウドに同期されます。ユーザーは、クラウドの場合と同様にオンプレミスで同じパスワードを入力し、サインイン時にパスワードが Azure Active Directory によって確認されます。このモデルでは、Microsoft Azure Active Directory Connect ツールが使用されます。
 
@@ -39,22 +39,22 @@ Microsoft Teams は、Office 365 で利用できるすべての ID モデルを�
 <a name="configurations"></a>設定
 --------------
 
-実装および使用する id モデルに関する組織の決定に応じて、実装の要件は異なる場合があります。 以下の要件の表を参照して、展開がこれらの前提条件を満たしていることを確認します。 既に Office 365 を展開していて、id と認証方法を既に実装している場合は、次の手順をスキップできます。
+実装および使用する id モデルに関する組織の決定に応じて、実装の要件は異なる場合があります。 以下の要件の表を参照して、展開がこれらの前提条件を満たしていることを確認します。 既に Microsoft 365 または Office 365 を展開していて、id と認証の方法を既に実装している場合は、次の手順をスキップできます。
 
 
 |ID モデル |展開チェックリスト  |その他の情報  |
 |---------|---------|---------|
-|すべて     |<ol type="1"><li>Office 365 プランのオプションの比較、サブスクリプションの入手</li><li>Office 365 組織を作成する</li><li>テナントへの Office 365 ライセンスの割り当て</li><li>ドメインおよび管理者ユーザーの設定</li><li>引き続き ID モデル固有の手順の実施</li></ol>          |<ul style="list-style-type:none"><li>[Office 365 プランのオプション](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[一般法人向け Microsoft 365 アプリの比較](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[一般法人向け Office 365 サブスクリプションのライセンスを購入する](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[サブスクリプションにライセンスを追加する](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[一般法人向け Office 365 のセットアップ](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[セットアップ ウィザードでユーザーとドメインを追加する](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>注意: サポートが必要な場合は、[Microsoft FastTrack for Office 365 team](https://go.microsoft.com/fwlink/?linkid=854618)を参照してください。</li></ul>          |
-|クラウド ID     |<ol type="1"><li>Microsoft 365 管理センターを使用してユーザーを作成する</li></ol>           |<ul style="list-style-type:none"><li>[Office 365 にユーザーを個別に、またはまとめて追加する](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
-|同期された ID     |<ol type="1"><li>Azure AD Connect のインストール</li><li>ディレクトリ同期の設定</li><li>オンプレミスの Active Directory 管理ツールを使用したユーザーの作成</li></ol>         |<ul style="list-style-type:none"><li>[Office 365 のディレクトリ同期をセットアップする](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>注意: 認証を実行する場合、パスワードのハッシュを Office 365 に同期させる必要があります。</li></ul>         |
-|フェデレーション ID    |<ol type="1"><li>Azure AD Connect のインストール</li><li>ディレクトリ同期の設定</li><li>フェデレーション ID プロバイダーのインストールと設定 (ADFS 推奨)</li><li>オンプレミスの Active Directory 管理ツールを使用したユーザーの作成</li></ol>           |<ul style="list-style-type:none"><li>[Office 365 のディレクトリ同期をセットアップする](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>[AD FS の配置を計画する](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[チェックリスト: フェデレーション サーバー ファームを配置する](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[AD FS に対してエクストラネット アクセスを構成する](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[AD FS と Azure AD の間の信頼を確立する](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[AD FS によるシングル サインオンを確認および管理する](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Azure AD のフェデレーション互換性リスト](https://go.microsoft.com/fwlink/?linkid=854625)</li><li>注意: パスワードのハッシュは Azure Active Directory に同期させる必要はありません。</li></ul>         |
+|すべて     |<ol type="1"><li>Microsoft 365 と Office 365 プランのオプションを比較してサブスクリプションを取得する</li><li>Microsoft 365 または Office 365 組織を作成する</li><li>テナントに Microsoft 365 または Office 365 ライセンスを割り当てる</li><li>ドメインおよび管理者ユーザーの設定</li><li>引き続き ID モデル固有の手順の実施</li></ol>          |<ul style="list-style-type:none"><li>[Microsoft 365 および Office 365 プランのオプション](https://technet.microsoft.com/library/office-365-plan-options.aspx)</li><li>[一般法人向け Microsoft 365 アプリの比較](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[サブスクリプションライセンスを管理する](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[サブスクリプションにライセンスを追加する](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[一般法人向け Microsoft 365 のセットアップ](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[セットアップ ウィザードでユーザーとドメインを追加する](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li><li>注: サポートが必要な場合は、 [Microsoft FastTrack](https://go.microsoft.com/fwlink/?linkid=854618)を使用してサポートを受けることができます。</li></ul>          |
+|クラウド ID     |<ol type="1"><li>Microsoft 365 管理センターを使用してユーザーを作成する</li></ol>           |<ul style="list-style-type:none"><li>[ユーザーを個別に、またはまとめて追加する](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul>         |
+|同期された ID     |<ol type="1"><li>Azure AD Connect のインストール</li><li>ディレクトリ同期の設定</li><li>オンプレミスの Active Directory 管理ツールを使用したユーザーの作成</li></ol>         |<ul style="list-style-type:none"><li>[ディレクトリ同期をセットアップする](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>注: 認証を実行するには、パスワードハッシュが Microsoft 365 および Office 365 で同期されている必要があります。</li></ul>         |
+|フェデレーション ID    |<ol type="1"><li>Azure AD Connect のインストール</li><li>ディレクトリ同期の設定</li><li>フェデレーション ID プロバイダーのインストールと設定 (ADFS 推奨)</li><li>オンプレミスの Active Directory 管理ツールを使用したユーザーの作成</li></ol>           |<ul style="list-style-type:none"><li>[ディレクトリ同期をセットアップする](https://support.office.com/article/Set-up-directory-synchronization-for-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)</li><li>[AD FS の配置を計画する](https://go.microsoft.com/fwlink/?linkid=854619)</li><li>[チェックリスト: フェデレーション サーバー ファームを配置する](https://go.microsoft.com/fwlink/?linkid=854620)</li><li>[AD FS に対してエクストラネット アクセスを構成する](https://go.microsoft.com/fwlink/?linkid=854621)</li><li>[AD FS と Azure AD の間の信頼を確立する](https://go.microsoft.com/fwlink/?linkid=854622)</li><li>[AD FS によるシングル サインオンを確認および管理する](https://go.microsoft.com/fwlink/?linkid=854624)</li><li>[Azure AD のフェデレーション互換性リスト](https://go.microsoft.com/fwlink/?linkid=854625)</li><li>注意: パスワードのハッシュは Azure Active Directory に同期させる必要はありません。</li></ul>         |
 
-詳細については、[Choosing a sign-in model for Office 365 (Office 365 のサインイン モデルを選ぶ)](https://go.microsoft.com/fwlink/?linkid=854626)および[Office 365 ID と Azure Active Directory について](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)を参照してください。
+追加情報については、 [「サインインモデルを選択](https://go.microsoft.com/fwlink/?linkid=854626)する」と「 [Id モデルと Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)ガイドについて」を参照してください。
 
 <a name="multi-factor-authentication"></a>複数要素の認証
 ----------------------------
 
-Office 365 プランでは、Office 365 サービスへのユーザー ログインのセキュリティを高める多要素認証 (MFA) をサポートしています。Office 365 の MFA では、ユーザーはパスワードを正しく入力した後に、自分のスマートフォンで電話、テキスト メッセージ、またはアプリの通知を承認します。この 2 番目の認証要素が満たされた後に、ユーザーはサイン インできるようになります。
+Microsoft 365 および Office 365 プランは、ユーザーログインのセキュリティを強化する多要素認証 (MFA) をサポートしています。 MFA を使用して、ユーザーは、パスワードを正しく入力した後に、スマートフォンでの電話、テキストメッセージ、またはアプリの通知について同意する必要があります。 この2番目の認証ファクターが満たされた後にのみ、ユーザーはサインインできます。
 
 多要素認証は、microsoft Teams を含む Microsoft 365 または Office 365 プランでサポートされています。 Microsoft Teams を含むサブスクリプションプランについては、後の「ライセンス」セクションで説明します。
 
@@ -63,5 +63,5 @@ Office 365 プランでは、Office 365 サービスへのユーザー ログイ
 
 |テナント タイプ  |MFA の 2 番目の要素に関する利用可能なオプション  |メモ  |
 |---------|---------|---------|
-|**クラウドのみ**     |Office 365 の MFA <ul><li>電話</li><li>テキスト メッセージ</li><li>モバイル アプリへの通知</li><li>モバイル アプリの確認コード</li></ul>        |[Office 365 展開用の多要素認証の計画](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**ハイブリッド セットアップ (同期済みまたはフェデレーション ID モデル)**     |<ul><li>Office 365 の MFA</li><li>Azure MFA モジュール (ADFS 統合)</li><li>物理または仮想スマート カード (ADFS 統合)</li></ul>         |注: 追加の MFA ソリューションは、 [AZURE AD Id プロバイダーの互換性](https://www.microsoft.com/download/details.aspx?id=56843)に関するドキュメントで利用できます。         |
+|**クラウドのみ**     |Microsoft 365 および Office 365 の MFA <ul><li>電話</li><li>テキスト メッセージ</li><li>モバイル アプリへの通知</li><li>モバイル アプリの確認コード</li></ul>        |[Microsoft 365 展開用の多要素認証の計画](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
+|**ハイブリッド セットアップ (同期済みまたはフェデレーション ID モデル)**     |<ul><li>Microsoft 365 および Office 365 の MFA</li><li>Azure MFA モジュール (ADFS 統合)</li><li>物理または仮想スマート カード (ADFS 統合)</li></ul>         |注: 追加の MFA ソリューションは、 [AZURE AD Id プロバイダーの互換性](https://www.microsoft.com/download/details.aspx?id=56843)に関するドキュメントで利用できます。         |

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 組織外の企業やクライアントが電話をかけられるように、チームユーザーの勤務先電話番号を割り当て、変更、または削除する方法について説明します。
-ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326804"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609962"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号を割り当て、変更、または削除する
 
@@ -42,7 +42,7 @@ Teams で通話プランを取得する方法とその費用については、�
   
 ## <a name="assign-a-phone-number-to-a-user"></a>電話番号をユーザーに割り当てる
  
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
     
 1. 左側のナビゲーションで **、[**  >  **電話番号**] をクリックします。
 2. [**電話番号**] ページで、リスト内の未使用の番号を選択し、[**編集**] をクリックします。  
@@ -51,11 +51,12 @@ Teams で通話プランを取得する方法とその費用については、�
 5. 電話番号情報を使用してユーザーにメールを送信するかどうかに応じて、**電話番号情報を含むメールユーザー**を無効にするか、有効にします。 既定では、これはオンになっています。 
 6. **[保存]** をクリックします。
     > [!NOTE]
-    > Office 365 と Teams の間の待機時間のため、ユーザーを有効にするには数時間かかる場合があります。 数時間たっても電話番号が正しく割り当てられない場合は、[ビジネス製品のサポート-管理者向けヘルプを参照してください](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。 ここでは、ご意見をお待ちしています。
+    > Microsoft 365 または Office 365 と Teams の間の待機時間のために、ユーザーが有効になるまで最大24時間かかることがあります。 24時間たっても電話番号が正しく割り当てられない場合は、[ビジネス製品サポートにお問い合わせください。管理者向けヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) ここでは、ご意見をお待ちしています。
+
   
 ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更する
  
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
     
 1. 左側のナビゲーションで [**ユーザー**] をクリックし、目的のユーザーを見つけてダブルクリックし、[**アカウント**] をクリックし、[**全般情報**] で、ユーザーに割り当てられている電話番号をメモします。
 2. 左側のナビゲーションで **、[**  >  **電話番号**] をクリックします。
@@ -69,7 +70,7 @@ Teams で通話プランを取得する方法とその費用については、�
 
 ## <a name="remove-a-phone-number-from-a-user"></a>ユーザーの電話番号を削除する
  
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで [**ユーザー**] をクリックし、目的のユーザーを見つけてダブルクリックし、[**アカウント**] をクリックし、[**全般情報**] で、ユーザーに割り当てられている電話番号をメモします。
 2. 左側のナビゲーションで **、[**  >  **電話番号**] をクリックします。

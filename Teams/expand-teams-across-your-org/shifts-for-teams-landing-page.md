@@ -17,79 +17,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a091c3b3c93f6b3769c538b74c17b4235a09a5
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 5ba2118defb86ac6b957ac181c9a02afc5eed82f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079400"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610282"
 ---
 # <a name="shifts-for-teams"></a>Shifts for Teams
 
 チームは、組織内の最初のラインワーカーに、効率的にコミュニケーションや共同作業を行い、最善の作業を実行するために必要なツールを提供します。 ここでは、チームのスケジュール管理ツールであるシフトのセットアップと管理に必要な管理ガイダンスについて説明します。
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Teams で StaffHub からシフトへ移動する
-
-<ul class="panelContent cardsFTitle">
- <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>StaffHub の廃止と Teams でのシフトの切り替えについて説明します。</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>StaffHub チームを Teams の Shifts に移動する計画を立てる</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Teams での StaffHub teams のシフトへの移動</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-
-</ul>
-
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>組織のシフトを設定および管理する
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
@@ -120,6 +61,68 @@ ms.locfileid: "43079400"
                     </div>
                     <div class="cardText">
                         <h3>Firstline Worker のヘルプをシフトする</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+### <a name="shifts-extensions"></a>拡張機能のシフト
+
+<ul class="panelContent cardsF">
+    <li>
+        <a href="https://docs.microsoft.com/graph/api/resources/shift?view=graph-rest-1.0">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>シフトグラフ Api</h3>
+                        <p>グラフ Api をシフトすると、外部の労働力管理システムにシフトデータを統合し、バックエンドでカスタムシフトエクスペリエンスを柔軟に構築できるだけでなく、チームでの充実したフロントエンドエクスペリエンスをユーザーに提供できます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>労働力管理の統合</h3>
+                        <p>Kronos や JDA などのサードパーティの労働力管理システムを使っている場合、スケジュール、時刻、および出席については、オープンソースの統合を使用してシフトグラフ Api と SDK を使用して直接統合できます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Process/flow chart symbol"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>シフト + Power オートメーション</h3>
+                        <p>シフト + Power オートメーションを使うと、シフトから情報を取得したり、他のアプリと共にカスタムワークフローを作成したり、スケールで操作を実行したりできます。 わずかなコードを使わなくても、重要なプロセスを自動化できます。 トリガーとテンプレートでは、管理者の承認が必要な場合に、シフト要求の自動承認を有効にするなど、さまざまなシナリオをサポートしています。</p>
                     </div>
                 </div>
             </div>

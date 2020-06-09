@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: a74d07cc40adf8010c2d987e05669264f8cc1367
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862717"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610032"
 ---
 # <a name="plan-my-service-management"></a>サービス管理を計画する
 
@@ -31,14 +31,14 @@ ms.locfileid: "41862717"
 
 ## <a name="service-management-for-teams"></a>Teams のサービス管理
 
-サービス管理の内容は、展開されてユーザーに対して利用できる状態にされている、Microsoft Teams サービスの日常的な運用を網羅するものです。 Teams サービスは、Microsoft Office 365 およびオンプレミスで展開されている (ネットワーキングなどの) インフラストラクチャ コンポーネントを組み込んでいます。
+サービス管理の内容は、展開されてユーザーに対して利用できる状態にされている、Microsoft Teams サービスの日常的な運用を網羅するものです。 Teams サービスには、Microsoft 365 または Office 365 と、オンプレミス (ネットワークなど) に展開されているインフラストラクチャコンポーネントが含まれます。
 
 サービス管理の概念は、ほとんどの組織において、新しい概念ではない可能性が高いです。 既存のサービスに関連付けられているプロセスやタスクは、既に実施されているのではないでしょうか。 これはすなわち、現在のサービス管理の計画を立てるときに整備したものが、将来的に Microsoft Teams をサポートするために増強することになる可能性があるということです。
 
-サービス管理は、Microsoft Teams のエンドツーエンドの管理に関与するすべてのアクティビティとプロセスを組み込んでいます。 サービス管理の一部 (Office 365 サービス自体が構成されるインフラストラクチャコンポーネント) は、Microsoft の責任となりますが、ユーザーは、チーム、ネットワーク、および組織のさまざまな側面を管理する責任を負うものとします。それらのエンドポイントによって提供されます。
+サービス管理は、Microsoft Teams のエンドツーエンドの管理に関与するすべてのアクティビティとプロセスを組み込んでいます。 Microsoft 365 または Office 365 サービス自体を構成するインフラストラクチャコンポーネントであるサービス管理の一部のコンポーネントは、Microsoft の責任となりますが、ユーザーは、チーム、ネットワーク、エンドポイントによって提供されるさまざまな側面を管理する責任があります。
 Teams サービス管理に関する顧客の責任と、ユーザーエクスペリエンスの質を underpin している主要コンポーネントにどのように関連しているかについて詳しくは、「[サービス管理と品質の計画](https://docs.microsoft.com/MicrosoftTeams/prepare-network)」をご覧ください。
 
-![品質の3つの構成要素の図](media/plan-my-service-management-image1.png "品質--Office 365 サービス、ネットワーク、エンドポイントの3つのコンポーネントの図。サービス管理の3つの要素が重なっています。")
+![品質の3つの構成要素の図](media/plan-my-service-management-image1.png "Microsoft 365 または Office 365 サービス、ネットワーク、エンドポイントの3つのコンポーネントの図。サービス管理の3つの要素がどのように重なり合っていますか。")
 
 <!--ENDOFSECTION-->
 
@@ -64,16 +64,16 @@ Teams サービス管理に関する顧客の責任と、ユーザーエクス�
 
 |運用の役割 |説明 |チーム |連絡先の詳細 |
 |---------|---------|---------|---------|
-|サービス所有者|サービス所有者、ビジネス部門へのインターフェース、戦略|TBA|TBA|
-|電話会議の運用|日常的な運用、ユーザーとデバイス アカウントの移動/追加/変更、監視|TBA| TBA| 
-|テナント管理者|テナント全体の設定の変更、新しい機能の有効化|TBA|TBA|
-|ヘルプ デスク|ユーザーがサポートを利用するためのインターフェイス|TBA|TBA|
-|ネットワークの運用|LAN、WAN、Wi-fi、インターネットアクセスを実行します。|TBA|TBA|
-|Client & Endpoints チーム|デスクトップの展開を管理する|TBA|TBA|
-|ID の運用|Id インフラストラクチャを管理する (Active Directory、Active Directory フェデレーションサービス、Azure AD)|TBA|TBA|
-|導入/変更管理|ソリューションの意識、トレーニング、導入を管理する|TBA|TBA|
-|Exchange の運用|Exchange 環境を管理する|TBA|TBA|
-|テレフォニー操作|SBC と電話番号を管理する|TBA|TBA|
+|サービス所有者|サービス所有者、ビジネス部門へのインターフェース、戦略|後日発表|後日発表|
+|電話会議の運用|日常的な運用、ユーザーとデバイス アカウントの移動/追加/変更、監視|後日発表| 後日発表| 
+|テナント管理者|テナント全体の設定の変更、新しい機能の有効化|後日発表|後日発表|
+|ヘルプ デスク|ユーザーがサポートを利用するためのインターフェイス|後日発表|後日発表|
+|ネットワークの運用|LAN、WAN、Wi-fi、インターネットアクセスを実行します。|後日発表|後日発表|
+|Client & Endpoints チーム|デスクトップの展開を管理する|TBA|後日発表|
+|ID の運用|Id インフラストラクチャを管理する (Active Directory、Active Directory フェデレーションサービス、Azure AD)|後日発表|後日発表|
+|導入/変更管理|ソリューションの意識、トレーニング、導入を管理する|後日発表|TBA|
+|Exchange の運用|Exchange 環境を管理する|後日発表|後日発表|
+|テレフォニー操作|SBC と電話番号を管理する|後日発表|後日発表|
 
 <!--ENDOFSECTION-->
 
@@ -116,8 +116,8 @@ Teams サービス管理に関する顧客の責任と、ユーザーエクス�
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>組織のクラウド音声操作の責任者を決定します。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>『サービス管理の計画』をダウンロードしてください。</li><li>品質向上のレビューガイドをダウンロードします。</li><li>運用ガイドを完全に確認します。</li><li>操作の要件についてレビューし、理解するために、すべてのオペレーションチームメンバーへのすべてのガイドを提供します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>組織のクラウド音声操作の責任者を決定します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>『サービス管理の計画』をダウンロードしてください。</li><li>品質向上のレビューガイドをダウンロードします。</li><li>運用ガイドを完全に確認します。</li><li>操作の要件についてレビューし、理解するために、すべてのオペレーションチームメンバーへのすべてのガイドを提供します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

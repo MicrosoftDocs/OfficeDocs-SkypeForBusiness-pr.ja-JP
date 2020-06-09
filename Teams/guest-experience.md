@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902602"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637276"
 ---
 <a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
 =================================
@@ -57,7 +57,7 @@ Teams のゲストエクスペリエンスについては、次のビデオを�
 |会議を作成またはスケジュールにアクセスする  <br/> |&#x2713;||
 |OneDrive for Business ストレージにアクセスする  <br/> |&#x2713;||
 |テナント全体およびチーム/チャネルのゲスト アクセス ポリシーを作成する  <br/> |&#x2713;||
-|Office 365 組織のドメイン以外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |&#x2713;||
+|Microsoft 365 または Office 365 組織のドメイン以外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |&#x2713;||
 |チームを作成する  <br/> |&#x2713;||
 |パブリック チームを検出して参加する  <br/> |&#x2713;||
 |組織図を表示する  <br/> |&#x2713;||
@@ -99,7 +99,7 @@ Teams のゲストエクスペリエンスについては、次のビデオを�
 <sup>1</sup> この機能は近日中に利用できるようになります。
 
 > [!NOTE]
-> Office 365 の管理者は、ゲストが利用できる機能を制御します。 
+> Microsoft 365 および Office 365 管理者は、ゲストが利用できる機能を制御します。 
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137987"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610059"
 ---
 # <a name="evaluate-my-environment"></a>環境を評価する
 
@@ -66,8 +66,8 @@ ms.locfileid: "43137987"
 次の考慮事項を使用して、ユーザーの変更管理に対処するための組織の準備を評価します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>ユーザーによるソフトウェアまたはサービスの導入が成功したことを確認しましたか?</li><li>利用状況の uptake を追跡することはできますか?</li><li>初期&mdash;および継続的&mdash;な導入キャンペーン (認識、トレーニング、サポート) を設計および管理するためのリソースがありますか?</li><li>専用ユーザーの導入と変更管理チームを持っているか、またはこれらのリソースに投資してビジネスの成果を得ることができますか。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>上記のすべて&quot;に&quot;対して [はい] と回答した場合は、適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画を開始します。</li><li>上記の一部&quot;また&quot;はすべてに回答しなかった場合は、組織の変更管理と導入関連のアクティビティを支援するために、外部のリソースを利用することを検討してください。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>ユーザーによるソフトウェアまたはサービスの導入が成功したことを確認しましたか?</li><li>利用状況の uptake を追跡することはできますか?</li><li>初期 &mdash; および継続的な &mdash; 導入キャンペーン (認識、トレーニング、サポート) を設計および管理するためのリソースがありますか?</li><li>専用ユーザーの導入と変更管理チームを持っているか、またはこれらのリソースに投資してビジネスの成果を得ることができますか。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>&quot;上記のすべてに対して [はい] と回答した場合は、 &quot; 適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画を開始します。</li><li>&quot; &quot; 上記の一部またはすべてに回答しなかった場合は、組織の変更管理と導入関連のアクティビティを支援するために、外部のリソースを利用することを検討してください。</li></ol></td></tr>
 </table>
 
 
@@ -124,7 +124,7 @@ Microsoft のグローバルネットワークへのネットワークパスを�
 VPN は多くの組織に対して、価値のあるサービスを提供します。 残念ながら、通常は、リアルタイムメディアをサポートするように設計されていないか、構成されていません。 一部の VPN は、UDP をサポートしていない可能性もあります。 Vpn は、既に暗号化されているメディアトラフィックの上に、暗号化の追加レイヤーを導入することもあります。 さらに、VPN デバイスを介したヘアピン型トラフィックが原因で、Teams サービスへの接続が効率的ではない可能性もあります。
 さらに、チームが必要とする予測される負荷に対応するために、キャパシティの観点から設計されるとは限りません。
 
-Teams トラフィックのために VPN をバイパスする代替パスを提供することをお勧めします。 これは*スプリット トンネル VPN* として一般に知られています。 [トンネリングの分割とは、Office 365 のトラフィックが VPN を通過せず、直接 Office 365 に接続することを意味します。 この変更によって品質は良好になりますが、VPN デバイスと組織のネットワークからの負荷を軽減するという第2のメリットも提供されます。
+Teams トラフィックのために VPN をバイパスする代替パスを提供することをお勧めします。 これは*スプリット トンネル VPN* として一般に知られています。 [トンネリングの分割を行うと、Microsoft 365 または Office 365 のトラフィックは VPN を経由せず、直接 Microsoft 365 または Office 365 に移動します。 この変更によって品質は良好になりますが、VPN デバイスと組織のネットワークからの負荷を軽減するという第2のメリットも提供されます。
 
 スプリット トンネルを実行するには、構成の詳細について、VPN ベンダーに相談してください。
 
@@ -153,10 +153,10 @@ Microsoft Teams は、Microsoft Online Services に接続します。そのた�
 
 これらのポートを開くことは、高い信頼性を確保しながら Teams を展開するために不可欠です。 このポートのブロックはサポートされていないため、メディアの品質に影響します。
 
-所属する組織で、これらのポートが開かれる対象となる正確な IP アドレス範囲とドメインを指定することが必要な場合、これらのポートに対するターゲット IP 範囲とドメインを制限することができます。 正確なポート、プロトコル、IP 範囲のリストについては、「[Office 365 の URL と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)」をご覧ください。
+所属する組織で、これらのポートが開かれる対象となる正確な IP アドレス範囲とドメインを指定することが必要な場合、これらのポートに対するターゲット IP 範囲とドメインを制限することができます。 正確なポート、プロトコル、IP 範囲の一覧については、「 [Microsoft 365 または Office 365 の url と ip アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)」を参照してください。
 ターゲットの IP アドレス範囲とドメインを制限する場合は、変更されている可能性があるため、ポートと範囲のリストを常に最新の状態に維持する必要があります。 変更が生じたときに更新される、[こちらの RSS フィード](https://go.microsoft.com/fwlink/p/?linkid=236301)を購読できます。 また、 [Skype For Business ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を定期的に実行して、すべてのポートを開くかどうかをテストすることをお勧めします。 このツールの機能の詳細については、次のセクションをご覧ください。
 
-プロキシ サーバーが展開されている場合は、すべての Teams サービスについてプロキシ サーバーをバイパスすることをお勧めします。 プロキシを使っても機能する可能性がありますが、UDP の代わりに TCP を使うようになっているメディアによって音質が低下する可能性があります。 プロキシ サーバーとバイパスの詳細については、「[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)」を参照してください。
+プロキシ サーバーが展開されている場合は、すべての Teams サービスについてプロキシ サーバーをバイパスすることをお勧めします。 プロキシを使っても機能する可能性がありますが、UDP の代わりに TCP を使うようになっているメディアによって音質が低下する可能性があります。 プロキシサーバーとバイパスの詳細については、「 [Microsoft 365 または Office 365 の url と IP アドレスの範囲](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)」を参照してください。
 
 <!--ENDOFSECTION-->
 
@@ -166,11 +166,11 @@ Microsoft Teams は、Microsoft Online Services に接続します。そのた�
 
 [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) をダウンロードし、ネットワークが Teams に対応しているかどうかをテストできます。 このツールが提供する 2 つの機能により、すべての正しいポートが開かれているかどうかと、ネットワーク障害についてのテストを実施できます。
 
-ツールをダウンロードしてインストールした後、C:\\Program Files\\Microsoft Skype For business ネットワーク評価ツールで見つけることができます。 ツールの使用方法についての詳細なガイドである Usage.docx は、そのディレクトリに含まれています。
+ツールをダウンロードしてインストールした後、C: \\ Program Files \\ Microsoft Skype For Business ネットワーク評価ツールで見つけることができます。 ツールの使用方法についての詳細なガイドである Usage.docx は、そのディレクトリに含まれています。
 
 ### <a name="test-for-opened-ports"></a>開いているポートをテストする
 
-コマンドプロンプトウィンドウを開き、 **「Cd C:\\Program Files\\Microsoft Skype for business Network アセスメントツール**」と入力して、[ネットワーク評価ツール] ディレクトリに移動します。 コマンド プロンプトで、**networkassessmenttool.exe /connectivitycheck** と入力して開いているポートのテストを開始します。
+コマンドプロンプトウィンドウを開き、 **「Cd C: \\ Program Files \\ Microsoft Skype For Business Network アセスメントツール**」と入力して、[ネットワーク評価ツール] ディレクトリに移動します。 コマンド プロンプトで、**networkassessmenttool.exe /connectivitycheck** と入力して開いているポートのテストを開始します。
 
 チェックを実行した後、ツールは、"検証が完了しました" というメッセージまたはブロックされたポートに関するレポートを表示します。
 また、Connectivity_results.txt というファイルが生成されます。このファイルには、ツールからの出力が含まれます。出力は、%userprofile%\\appdata\\local\\microsoft skype for business network assessment tool\\ ディレクトリに格納されます。
@@ -206,7 +206,7 @@ Network Assessment Tool を使用して、両方のセグメントをテスト�
 
 帯域幅の計画、ポートのテスト、ネットワーク要件のテストの結果によって、Teams を展開する前に現在のネットワークを修復する必要があると示される場合、次の複数の方法で修復を実行することができます。
 
--   帯域幅が不十分な場合は、接続をアップグレードして、Office 365 へのトラフィックのフローが妨げられないようにします。
+-   帯域幅が不十分な場合は、接続をアップグレードして、Microsoft 365 または Office 365 へのトラフィックが unhindered に流れるようにします。
 
 -   ポートがブロックされた場合は、ファイアウォールのルールを変更して、ポートのテストをやり直します。
 

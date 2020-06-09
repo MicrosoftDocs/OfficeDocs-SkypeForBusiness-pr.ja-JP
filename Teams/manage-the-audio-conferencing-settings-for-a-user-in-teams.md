@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Office 365 管理者は、プロバイダー、既定の有料電話番号、電話会議 ID、ユーザーの PIN など、Teams の電話会議の設定を編集できます。
-ms.openlocfilehash: f635a3a9c471d2d089b8592c4dd36f55bf9095e2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Microsoft 365 または Office 365 管理者は、チームの電話会議の設定 (プロバイダー、既定の有料または無料電話番号、会議 ID、ユーザーの PIN など) を編集できます。
+ms.openlocfilehash: 33d241e9758bab2b52e342cab2ec157dafb73275
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137147"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638476"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの電話会議の設定を管理する
 
-Office 365 管理者としてSkype for Business Onlineの電話会議の設定 を編集することができます-プロバイダー、既定の有料または無料電話番号、会議 ID、暗証番号 (pin) など、組織内の個々 のユーザーの設定です。 組織の設定を編集する場合は、「[組織の電話会議の設定を管理](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)する」を参照してください。
+Microsoft 365 または Office 365 管理者として、組織内の個々のユーザーの電話会議の設定 (プロバイダー、既定の有料電話番号、フリーダイヤル番号、会議 ID、PIN など) を編集できます。 組織の設定を編集する場合は、「[組織の電話会議の設定を管理](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)する」を参照してください。
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -41,7 +41,7 @@ Office 365 管理者としてSkype for Business Onlineの電話会議の設定 �
 
 3. [**電話会議**] で、次のいずれかを変更します。
 
-|**]**|**説明**|
+|**設定**|**説明**|
 |:-----|:-----|
 |**電話会議**|ユーザーの電話会議のオンとオフを切り替えるには、[**電話会議**] の横にある [**編集**] をクリックし、[**電話会議**] ウィンドウで、[**電話会議**のオンとオフを切り替えます] をクリックします。|
 |**会議情報をメールで送信する**  |ユーザーに電子メールで会議 ID と電話番号とをすぐに送信する場合にのみ、このリンクをクリックします。 (PINはこのメールは含まれません。) [ユーザーに電子メールで電話会議の情報を送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)を参照してください。  |

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: オンボードのチェックリストを使用して、チーム用に Office 365 を準備し、Teams のコア機能、ネットワーク、およびクラウド音声のワークロードを構成します。
+description: オンボードのチェックリストを使用して、チーム用に Microsoft 365 または Office 365 を準備し、Teams のコア機能、ネットワーク、およびクラウド音声のワークロードを構成します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3c805e8ff14ddb1c46f83db819c5dd8a2c305914
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137997"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610069"
 ---
 # <a name="prepare-my-service"></a>サービスを準備する
 
@@ -34,7 +34,7 @@ ms.locfileid: "43137997"
 
 次のチェックリストは、Microsoft Teams の電話会議、電話システム (以下、「通話プラン」)、電話システムダイレクトルーティング (以下、「直接ルーティング」) 機能を実装するための手順を説明しています。
 
-*  [Teams 用の Office 365 を準備する](onboarding-checklist-enable-office-365.md)
+*  [Microsoft 365 または Office 365 をチーム用に準備する](onboarding-checklist-enable-office-365.md)
 
 *  [Teams のコア機能を構成する](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

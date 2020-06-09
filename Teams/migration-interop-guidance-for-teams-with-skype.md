@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd4c733aece4bc75c0bce16c77aebae4806fecd7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 56029dc8f1cb5a9cb99096107d85a6414dc4ed25
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904392"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638626"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス
 
@@ -56,7 +56,7 @@ Skype for Business を使用する組織が Teams を導入するとき、管理
     - ユーザーが Skype for Business Online に所属している (または Skype アカウントを所有したことがない) 場合、PowerShell で "UpgradeToTeams" を使用して、Mode=TeamsOnly で TeamsUpgradePolicy をそのユーザーに付与します。または、Teams 管理センターを使用して TeamsOnly モードを選択します。
     - ユーザーがオンプレミスに所属している場合、オンプレミスの管理ツールから `Move-CsUser` を使用して、まずそのユーザーを Skype for Business Online に移動します。  Skype for Business Server 2019 または CU8 for Skype for Business Server 2015 をお持ちの場合、`Move-CsUser` で `-MoveToTeams` スイッチを指定して、オンラインへの移行の一環としてユーザーを直接 Teams に移動することができます。 このオプションは、ユーザーの会議も Teams に移行します。 `-MoveToTeams` が指定されていないか使用できない場合、`Move-CsUser` の完了後に PowerShell または Teams 管理センターを使用して、TeamsOnly モードをそのユーザーに割り当てます。 詳細については、「[ユーザーのオンプレミスとクラウド間の移動](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)」を参照してください。  会議の移行の詳細については、「[会議移行サービス (MMS) の使用](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)」を参照してください。
 
-8.    ユーザーが Microsoft 電話システムを Teams で使用するには、TeamsOnly モードである (つまり、Skype for Business Online に所属しており、Teams にアップグレードされている) 必要があります。また、Microsoft 電話システムの[ダイレクト ルーティング](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (自分の SIP トランクと SBC で電話システムを使用するための機能) 向けに構成されているか、または Office 365 通話プランを利用している必要があります。 アイランド モードでは、Microsoft 電話システムのダイレクト ルーティングはサポートされません。    
+8.    Microsoft 電話システムを Teams と共に使用するには、ユーザーは TeamsOnly モード (つまり、Skype for Business Online を使用してチームにアップグレード) である必要があります。また、microsoft Phone システムの[ダイレクトルーティング](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277)(独自の SIP TRUNKS と SBC を使って電話システムを使うことができます)、または microsoft 365 または Office 365 の通話プラン アイランド モードでは、Microsoft 電話システムのダイレクト ルーティングはサポートされません。    
 
 9.  ユーザーが Skype for Business Online またはオンプレミスの Skype for Business に所属しているかどうかに関係なく、電話会議 (PSTN 経由のダイヤルインまたはダイヤルアウト) を使用して Teams の会議をスケジュールできます。 
 

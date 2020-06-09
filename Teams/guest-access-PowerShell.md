@@ -17,12 +17,12 @@ description: PowerShell を使用して、Microsoft Teams のすべてのチー�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d438b9d5cf3af8d200da07fcebe39f4222c2b25a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902592"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637306"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell を使用してチームへのゲスト アクセスを制御する
 ================================================
@@ -33,7 +33,7 @@ Microsoft 365 管理センターと Azure Active Directory (Azure AD) ポータ�
 
 - すべてのチームと Microsoft 365 グループにゲストを追加できるようにする
 
-- 特定のチームまたは Office 365 グループのゲスト ユーザーを許可または拒否する
+- 特定のチームまたは Microsoft 365 グループからのゲストユーザーを許可またはブロックする
 
 詳細については、「 [Microsoft 365 グループでゲストアクセスを管理](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access)する」の「PowerShell を使用してゲストアクセスを制御する」を参照してください。
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e07d851d853ee3fb57454177bed48590cdb55f3
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904969"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611006"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 ===========================================
@@ -42,7 +42,7 @@ ms.locfileid: "43904969"
 
 チームをアーカイブするには、次の手順に従います。
 
-1. Microsoft Teams 管理センターで、[**Teams**] を選択します。
+1. の管理センターで <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 、[ **Teams**] を選択します。
 2. チーム名をクリックして、チームを選びます。
 3. [**アーカイブ**] を選びます。 次のメッセージが表示されます。
 
@@ -55,7 +55,7 @@ ms.locfileid: "43904969"
 
 次の手順に従って、アーカイブされているチームを再度アクティブにします。
 
-1. Microsoft Teams 管理センターで、[**Teams**] を選択します。
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>で、[**チーム**] を選択します。
 2. チーム名をクリックして、チームを選びます。
 3. [**アーカイブ解除**] を選択します。 チームの状態が [**アクティブ**] に変わります。
 
@@ -63,16 +63,16 @@ ms.locfileid: "43904969"
 
 今後チームが必要にならない場合、アーカイブではなく、削除することができます。 チームを削除するには、次の手順に従います。
 
-1.  Microsoft Teams 管理センターで、[**Teams**] を選択します。
+1.  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>で、[**チーム**] を選択します。
 2.  チーム名をクリックして、チームを選びます。
 3.  [**削除**] を選びます。 確認メッセージが表示されます。
 4.  チームを完全に削除するには、[**削除**] を選択します。
 
 ## <a name="restore-a-deleted-team"></a>削除したチームを復元する
 
-チームに関連付けられている Office 365 グループを復元して、削除したチームを復元するには、次の手順を実行します。 チームの Office 365 グループを復元すると、タブ、標準チャネル、プライベート チャネル、それらに関連付けられたサイト コレクションなどのチーム コンテンツが復元されます。
+チームに関連付けられている Microsoft 365 グループを復元して、削除されたチームを復元するには、次の手順を実行します。 チームの Microsoft 365 グループを復元すると、タブ、標準チャネル、プライベートチャネル、関連付けられたサイトコレクションなどのチームコンテンツが復元されます。
 
-既定では、削除された Office 365 グループは 30 日間保持されます。 この 30 日の期間は、グループを復元できるため、「ソフト削除」と呼ばれます。 詳細については、「[削除済みの Office 365 グループを復元する](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)」を参照してください。
+既定では、削除された Microsoft 365 グループは30日間保持されます。 この 30 日の期間は、グループを復元できるため、「ソフト削除」と呼ばれます。 詳細については、「[削除された Microsoft 365 グループを復元](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)する」を参照してください。
 
 ### <a name="install-the-azureadpreview-module"></a>AzureADPreview モジュールをインストールする
 
@@ -92,7 +92,7 @@ ms.locfileid: "43904969"
     Install-Module AzureADPreview
     ```    
 
-### <a name="restore-the-deleted-office-365-group"></a>削除された Office 365 グループを復元する
+### <a name="restore-the-deleted-microsoft-365-group"></a>削除された Microsoft 365 グループを復元する
 
 1. Azure AD に接続するには、次の操作を実行します。
     ```PowerShell

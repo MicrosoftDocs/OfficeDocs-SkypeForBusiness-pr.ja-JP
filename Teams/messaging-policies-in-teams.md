@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: この記事では、メッセージングポリシーと、それらを使用して Teams でチャットメッセージングを制御する方法について説明します。
-ms.openlocfilehash: f02c9ffbb2517ca79c7f98b845f3865276259fb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: d435296f26c76017218af6120bcae5a4b90a0b36
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523140"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637926"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Teams でメッセージング ポリシーを管理する
 
@@ -91,7 +91,7 @@ ms.locfileid: "44523140"
 - **会議で Memes を使用** 有効にすると、ユーザーは他のユーザーとのチャット会話に Memes を含めることができます。
 - **会話でステッカーを使用** 有効にすると、ユーザーは他のユーザーとのチャット会話にステッカーを含めることができます。
 - **URL のプレビューを許可する** この設定を使用すると、メッセージでの URL の自動プレビューの有効/無効を切り替えることができます。
-- **ユーザーにメッセージの翻訳を許可する** この設定を有効にすると、Office 365 の個人用言語設定で指定された言語に Teams メッセージを自動的に翻訳できるようになります。
+- **ユーザーにメッセージの翻訳を許可する**この設定をオンにすると、ユーザーは Microsoft 365 または Office 365 の個人の言語設定で指定された言語に Teams のメッセージを自動的に翻訳できるようになります。
 - **イマーシブ リーダーにメッセージの表示を許可します** この設定を有効にすると、Microsoft イマーシブ リーダーでユーザーはメッセージを表示できるようになります。 イマーシブ リーダーは、テキストの読みやすさを向上させるための全画面閲覧エクスペリエンスを備えた学習ツールです。
 - **優先度通知を使って緊急メッセージを送信する**これを有効にすると、ユーザーは[優先度通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)を使ってメッセージを送信できます。 優先度通知は、2分間隔で20分間、または*緊急*とマークされているメッセージが受信者によって受信され、メッセージが適切なタイミングで処理される可能性を最大化するまで、ユーザーに通知されます。   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **オーディオメッセージの作成**

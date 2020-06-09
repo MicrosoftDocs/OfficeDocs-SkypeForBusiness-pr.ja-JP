@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ad827244baaacde8ee5c7166590c81347c8eea5b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021598"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610022"
 ---
 # <a name="plan-my-users-experience"></a>ユーザーエクスペリエンスを計画する
 
@@ -43,7 +43,7 @@ Teams の主な利点の1つは、クライアントが自動的に最新の状�
 
 以下の図に示すように、エンドポイントはユーザー向けの品質向上のための重要な文書パーツです。
 
-![品質の3つの構成要素について説明した図](media/plan-my-users-experience-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。エンドポイントにフォーカスがある状態。")
+![品質にかかわる 3 つの構成要素を取り上げた図](media/plan-my-users-experience-image1.png "品質の3つのコンポーネントと、サービス管理が3つのコンポーネントすべてにどのように重なっているかを説明する図。エンドポイントにフォーカスがある状態。")
 
 Teams のエンドポイントは、Pc、Mac、タブレット、モバイルデバイスなど、さまざまなデバイスで実行できます。 エクスペリエンスの一部では、デバイスだけでなく、デバイスの内蔵マイク/スピーカー、earbuds、最適化されたヘッドセットの使用など、ユーザーがデバイスに接続する方法についても説明します。 最適化されたヘッドセットを使用すると、全体的なユーザー エクスペリエンスが向上します。
 
@@ -58,7 +58,7 @@ Teams のエンドポイントは、Pc、Mac、タブレット、モバイルデ
 ## <a name="endpoint-firewalls"></a>エンドポイントのファイアウォール
 
 クライアント側のファイアウォールはユーザー エクスペリエンスに大きな影響をおよぼす可能性があります。
-クライアント側のファイアウォールは、通話が確立されないようにするだけではなく、通話品質に影響する可能性があります。 「[Office 365 URL および IP アドレス範囲](https://aka.ms/o365ips)」の情報に基づいて、クライアントのファイアウォールでの例外を適切に構成します。 ご利用のサードパーティ ベンダーには、例外の作成方法についての固有のガイダンスがあります。
+クライアント側のファイアウォールは、通話が確立されないようにするだけではなく、通話品質に影響する可能性があります。 [Microsoft 365 または Office 365 url と IP アドレス範囲](https://aka.ms/o365ips)の情報に基づいて、クライアントファイアウォールで適切な除外を構成します。 ご利用のサードパーティ ベンダーには、例外の作成方法についての固有のガイダンスがあります。
 
 >[!NOTE]
 > Microsoft Teams は、適切なファイアウォール構成で自動的に Windows ファイアウォールを更新します。
@@ -90,8 +90,8 @@ Microsoft Teams でリアルタイムのワークロードをサポートする�
 組織で、802.11 Power Save プロトコルをサポートしていないワイヤレスアクセスポイントまたはルーターを使用している場合は、Windows デバイスで実行されている Microsoft Teams での通話の中断または通話品質の低下が発生する可能性があります。 ワイヤレス アクセス ポイントまたはルーターをアップグレードすることができない場合は、バッテリで動作しているデバイスで Windows 電源プラン設定を更新する必要があります。 より詳細な情報と、構成についてのガイダンスは次の[サポート記事](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)で提供されています。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>組織に展開するチームクライアントは何ですか?</li><li>チームクライアントを最初にユーザーに展開するにはどうすればよいですか?</li><li>エンドポイントとデバイスを評価して品質向上のためにチームの要件を満たしているかどうかを検証する担当者</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>チームクライアントを展開するために実行されるプロセスを文書化します。</li><li>エンドポイントとデバイスを評価し、必要な操作や修復を行います。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>組織に展開するチームクライアントは何ですか?</li><li>チームクライアントを最初にユーザーに展開するにはどうすればよいですか?</li><li>エンドポイントとデバイスを評価して品質向上のためにチームの要件を満たしているかどうかを検証する担当者</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>チームクライアントを展開するために実行されるプロセスを文書化します。</li><li>エンドポイントとデバイスを評価し、必要な操作や修復を行います。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -113,8 +113,8 @@ Microsoft Teams は会議のために、または電話システムとして使�
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>ユーザーと会議室のエクスペリエンスについて、組織の全体的なデバイス戦略を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>組織に対して、ペルソナ間のマッピングの演習を実行します。</li><li>ユーザーと会議室のデバイスを取得するプロセスを文書化します。</li><li>ユーザーと会議室用にデバイスを展開し、構成するためのプロセスについて文書化します。</li><li>展開を開始するために、初期デバイスを調達します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>ユーザーと会議室のエクスペリエンスについて、組織の全体的なデバイス戦略を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>組織に対して、ペルソナ間のマッピングの演習を実行します。</li><li>ユーザーと会議室のデバイスを取得するプロセスを文書化します。</li><li>ユーザーと会議室用にデバイスを展開し、構成するためのプロセスについて文書化します。</li><li>展開を開始するために、初期デバイスを調達します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ecf199f5027774684f5a626c416f789293926d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2157ea9ec536e644440161fb321c7a60bb8d396e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140056"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638616"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Microsoft Teams で QoS を実装して通話品質を監視する
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140056"
 
 [**通話分析と通話品質ダッシュボード**](difference-between-call-analytics-and-call-quality-dashboard.md)を使用して、進行中の操作中に発生する問題の検出とトラブルシューティングを行うことができます。  
 
-[**通話分析**] には、Microsoft Teams または Skype for business アカウントの各ユーザーの***特定の通話と会議***に関連するデバイス、ネットワーク、接続に関する詳細情報が表示されます。 Office 365 管理者の場合は、通話分析を使用して、特定の通話で発生した通話品質や接続の問題のトラブルシューティングを行うことができます。 これは、問題を特定して解決するのに役立ちます。
+[**通話分析**] には、Microsoft Teams または Skype for business アカウントの各ユーザーの***特定の通話と会議***に関連するデバイス、ネットワーク、接続に関する詳細情報が表示されます。 Microsoft 365 または Office 365 の管理者である場合は、通話分析を使用して、特定の通話で発生した通話品質や接続の問題のトラブルシューティングを行うことができます。 これは、問題を特定して解決するのに役立ちます。
 
 **通話品質ダッシュボード (CQD)** は、管理者とネットワークエンジニアが1回の通話の分析とトラブルシューティングを行わずに、***ネットワーク***を最適化するために設計されています。 CQD は、特定のユーザーからフォーカスを移動して、組織全体の集計情報を確認します。 これは、問題を特定して解決するのにも役立ちます。
 

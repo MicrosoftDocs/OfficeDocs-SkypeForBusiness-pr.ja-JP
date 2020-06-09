@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 736ed72a4f4aacd41ed2db746976a9ff848aa74e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350301"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638546"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要を理解する
 
 チームとチャネルの概念は、Microsoft Teams の正常かつ生産的な実装の基盤となります。 
 
-- チームとは、社内のビジネスの成果を生み出すために共同作業する人、コンテンツ、ツールのコレクションです。 Teams は、Microsoft 365 グループを基にして構築されていて、Office 365 グループ メンバーシップに対する変更はチームに同期されます。
+- チームとは、社内のビジネスの成果を生み出すために共同作業する人、コンテンツ、ツールのコレクションです。 Teams は Microsoft 365 グループで構築されており、Microsoft 365 グループメンバーシップの同期をチームに変更します。
 
 - チャネルは、実際の作業が行われているチーム内のコラボレーションスペースです。 
 

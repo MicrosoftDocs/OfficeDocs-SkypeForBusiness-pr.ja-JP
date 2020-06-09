@@ -17,12 +17,12 @@ description: コネクタにより、頻繁に使用するサービスからコ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 33a407de891f0d988b1fb32988556059c6adc2e0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9ea72fbe054e3a6d0e89f87f1a8c23303ef55c5c
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778593"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637756"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Microsoft 365 とカスタムコネクタを使用する
 =======================================================
@@ -31,7 +31,7 @@ ms.locfileid: "43778593"
 
 チームの権限が許可されていて、すべてのチームメンバーがそのサービスのアクティビティについて通知する場合は、チームのメンバー全員がそのコネクタを使用して、チームの主要なクラウドサービスに接続できます。 コネクタを最初に設定したメンバーが残っている場合でも、コネクタは引き続き機能します。 権限を持つすべてのチームメンバーは、他のメンバーによるコネクタの設定を変更できます。
 
-Microsoft 365 コネクタは、Microsoft Teams と Microsoft 365 グループの両方で使用できます。すべてのメンバーが同期して、関連する情報をすばやく受け取ることができるようになります。 Microsoft Teams と Exchange は両方とも同じコネクタモデルを使用しており、両方のプラットフォームで同じコネクタを使用できます。 ただし、チームが依存している Office 365 グループのコネクタを無効にすると、そのチームのコネクタの作成機能も無効になります。
+Microsoft 365 コネクタは、Microsoft Teams と Microsoft 365 グループの両方で使用できます。すべてのメンバーが同期して、関連する情報をすばやく受け取ることができるようになります。 Microsoft Teams と Exchange は両方とも同じコネクタモデルを使用しており、両方のプラットフォームで同じコネクタを使用できます。 ただし、チームが依存している Microsoft 365 グループのコネクタを無効にすると、そのチームのコネクタの作成機能も無効になります。
 
 <a name="add-a-connector-to-a-channel"></a>チャネルにコネクタを追加する
 ----------------------------

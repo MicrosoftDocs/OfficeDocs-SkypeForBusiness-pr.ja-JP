@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 緊急電話番号を設定し、緊急電話のルーティング方法を指定するために、Microsoft Teams で緊急通話ルーティングポリシーを使用および管理する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b573543483d41219d2795043f47042789bc855ba
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539524"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638696"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ルーティングポリシーを管理する
 
@@ -109,7 +109,7 @@ ms.locfileid: "44539524"
 この例では、Contoso の HR グループのすべてのユーザーに、HR 緊急通話ルーティングポリシーと呼ばれるポリシーを割り当てます。  
 
 > [!NOTE]
-> 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
+> まず、 [「単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)する」の手順に従って、Graph モジュール用の Azure Active Directory Powershell と Skype For business powershell モジュールに接続していることを確認してください。
 
 特定のグループの GroupObjectId を取得します。
 ```PowerShell

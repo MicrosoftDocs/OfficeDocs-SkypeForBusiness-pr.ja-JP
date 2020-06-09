@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 動的メンバーシップを使用して、Microsoft Teams が Office 365 グループに関連付けられているチームをサポートする方法について説明します。
+description: 動的メンバーシップを使用して、microsoft Teams が Microsoft 365 グループに関連付けられているチームをサポートする方法について説明します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905799"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638406"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 
@@ -35,7 +35,7 @@ Microsoft Teams では、*動的メンバーシップ*を使用して、microsof
 
 この機能を使用すると、メンバーシップを手動で管理する代わりに、特定の条件セットに基づいて、特定のチームメンバーが自動的に更新されます。 この操作を行うには、Azure AD Premium P1 ライセンスが必要です。また、テナント管理者がテナントと管理者のアカウントを持っている場合は、[テナント管理者](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)がそのユーザーの Azure ad プロパティにチームメンバーシップを割り当てることができます。
 
-Microsoft Teams では、チームの Office 365 グループに反映された時点で動的メンバーシップの変更が反映されるまでに、数分から最大2時間かかることがあります。
+Microsoft Teams では、チームの Microsoft 365 グループに対して有効にした後、動的メンバーシップの変更が反映されるまでに数分から最大2時間かかることがあります。
 
 > [!NOTE]
 > - ルールでは、チームメンバーになっているユーザーを定義できますが、チーム所有者とは限りません。
@@ -44,7 +44,7 @@ Microsoft Teams では、チームの Office 365 グループに反映された�
 > -    メンバーは、動的グループによってバックアップされたチームを脱退することはできません。
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>動的メンバーシップを使用して Office 365 グループを作成して管理する
+## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>動的メンバーシップを使用した Microsoft 365 グループの作成と管理
 テナント管理者としてログインしているときに、「[動的グループを作成する」と「状態を確認](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)する」の手順に従います。 必要に応じて、「 [Azure Active Directory のグループの動的メンバーシップの規則」](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)を参照してください。
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>O365 グループを使用して新しいチームを作成する

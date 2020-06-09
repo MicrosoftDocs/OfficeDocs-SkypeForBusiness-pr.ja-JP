@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft ボリュームライセンスを使用する組織で電話会議機能を有効にするための [分単位の支払い] オプションについて説明します。
-ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041724"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610512"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
@@ -56,7 +56,7 @@ ms.locfileid: "44041724"
   
 1分あたりの支払い電話会議が機能するためには、各ユーザーに割り当てられているライセンスで[通信クレジット](what-are-communications-credits.md)を有効にする必要があります。 詳細については、「組織または[Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)[の通信クレジットをセットアップ](set-up-communications-credits-for-your-organization.md)する」を参照してください。
   
-組織内のユーザーに対して電話会議を1分あたりに有効にする方法については、「 [Office 365 で電話会議を試す、または購入](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)する」を参照してください。
+組織内のユーザーに対して電話会議を1分あたりに有効にするには、「 [Microsoft office 365 または office 365 で電話会議を試す](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)、または購入する」を参照してください。
 
 ## <a name="why-is-it-best-for-you"></a>最適な理由は何ですか?
 

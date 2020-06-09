@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9ffc71de13948be077c14699e98fca726bced3eb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904999"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638496"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 ==========================================
@@ -33,7 +33,7 @@ ms.locfileid: "43904999"
 
 この記事では、Microsoft Teams の管理センターでの Teams 管理ツールの概要を説明します。
 
-管理者である場合、自分の組織で共同作業のためにセットアップしたチームを表示したり更新したりする必要性が生じます。また、所有者のいないチームに所有者を割り当てるなどの修復アクションを実行しなければならない場合もあります。 組織のチームは、Microsoft Teams PowerShell モジュールと Microsoft Teams 管理センターの両方から管理することができます。 これらの 2 つのツールセットを使用した完全な管理機能については、次の役割の 1 つが割り当てられることを確認する必要があります。
+管理者である場合、自分の組織で共同作業のためにセットアップしたチームを表示したり更新したりする必要性が生じます。また、所有者のいないチームに所有者を割り当てるなどの修復アクションを実行しなければならない場合もあります。 組織のチームは、Microsoft Teams PowerShell モジュールと Microsoft Teams 管理センターの両方から管理することができます。 管理センターには、にアクセスでき <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ます。 これらの 2 つのツールセットを使用した完全な管理機能については、次の役割の 1 つが割り当てられることを確認する必要があります。
 
 - グローバル管理者
 - Teams サービス管理者
@@ -44,7 +44,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ## <a name="teams-overview-grid"></a>Teams の概要グリッド
 
-チームの管理ツールは、Microsoft Teams 管理センターの [**Teams**] ノードの下にあります。 (管理センターでは、[**Teams**] > [**Manage teams (チームの管理)**] を選択します。)各チームは Offfice 365 グループによって支えられていて、このノードは自分の組織内で Microsoft Teams に対応しているグループの表示を提供します。
+チームの管理ツールは、Microsoft Teams 管理センターの [**Teams**] ノードの下にあります。 (管理センターで、[ **Teams**  >  ] を選択します)**チームを管理**します。)各チームは Microsoft 365 グループによってサポートされており、このノードには、組織で Microsoft Teams が有効になっているグループのビューが用意されています。
 
 ![Teams の概要グリッドのスクリーンショット](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -55,11 +55,11 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 - **チーム メンバー** - テナントの所有者、ゲスト、メンバーを含む合計ユーザーの数。
 - **所有者** - このチームの所有者の数。
 - **ゲスト** - このチームのメンバーである、Azure Active Directory B2B ゲスト ユーザーの数。
-- **プライバシー** - 基となる Office 365 グループの可視性/AccessType。
+- **プライバシー** -バッキング Microsoft 365 グループの可視性/AccessType。
 - **状態** - このチームの状態がアーカイブ済みかアクティブか。 チームのアーカイブに関する詳細については、「[チームをアーカイブまたは復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」を参照してください。
-- **説明** - 基となる Office 365 グループの説明。
-- **分類** - 基となる Office 365 の グループに割り当てられている分類 (組織内で使用されている場合)。 分類の詳細については、「[組織の Office グループに対する分類を作成する](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)」を参照してください。
-- **GroupID** - 基となる Office 365 グループの一意の GroupID。
+- [ **Description** ]-バッキング Microsoft 365 グループの説明。
+- **分類**: バッキング Microsoft 365 グループに割り当てられている (組織で使用されている場合)。 分類の詳細については、「[組織の Office グループに対する分類を作成する](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)」を参照してください。
+- **Groupid** -バッキング Microsoft 365 グループの固有の groupid。
 
 > [!NOTE]
 > グリッドにこれらのプロパティがすべて表示されない場合は、**[列の編集]** アイコンをクリックします。 **[列の編集]** ウィンドウで、トグルを使用してグリッドの列のオンとオフを切り替えることができます。 完了したら、**[適用]** をクリックします。
@@ -78,7 +78,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ### <a name="delete"></a>削除
 
-チームを削除すると、チームとそれに対応する Office 365 グループが論理的に削除されます。 誤って削除したチームを復元するには、「[削除された Office 365 グループを復元する](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide)」の手順に従ってください。
+チームを削除すると、チームと対応する Microsoft 365 グループのソフト削除となります。 誤って削除されたチームを復元するには、「[削除されたグループを復元](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)する」の手順に従います。
 
 ### <a name="search"></a>検索
 
@@ -86,7 +86,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ## <a name="team-profile"></a>チーム プロフィール
 
-メインのチームの概要グリッドから、チーム名をクリックすることによって、任意のチームのチーム プロフィール ページに移動することができます。 チームプロファイルページには、チーム (およびそのバッキング Office 365 グループ) に属しているメンバー、所有者、ゲスト、およびチームのチャネルと設定が表示されます。 チーム プロフィール ページから、次の操作を行うことができます。
+メインのチームの概要グリッドから、チーム名をクリックすることによって、任意のチームのチーム プロフィール ページに移動することができます。 [チームプロファイル] ページには、チーム (およびそのバッキング Microsoft 365 グループ) に属するメンバー、所有者、ゲスト、およびチームのチャネルと設定が表示されます。 チーム プロフィール ページから、次の操作を行うことができます。
 
 - メンバーおよび所有者の追加または削除。
 - チャネルの追加または削除 (全般チャネルを削除することはできません)。
@@ -103,7 +103,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 - **チーム名**
 - **説明**
 - **プライバシー** - チームをパブリックかプライベートに設定します。
-- **分類** - これは自分の Office 365 グループの分類に基づいています。 **[社外秘]**、**[非常に機密性の高い社外秘]**、または **[一般]** を選択します。
+- **分類**-これは Microsoft 365 グループの分類によってサポートされます。 **[社外秘]**、**[非常に機密性の高い社外秘]**、または **[一般]** を選択します。
 - **会話の設定** - 送信されたメッセージをメンバーが編集および削除できるかどうかを設定します。
 - **チャネルの設定** - メンバーが新しいチャネルを作成したり、既存のチャネルを編集したりできるかどうかを設定します。また、タブ、コネクタ、アプリの追加、編集、削除も行えます。
 

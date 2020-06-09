@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 631d41d15eb727a9b9919e56720238189159f669
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780216"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638917"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
 
@@ -35,7 +35,7 @@ ms.locfileid: "43780216"
 
 -   **プレフィックス/サフィックスの名前付けポリシー** プレフィックスまたはサフィックスを使用して、チーム (グループ) の名前付け規則を定義できます (例: **GRP_US_My Group_Engineering**) プレフィックスとサフィックスは、チームを作成しているユーザーに基づいて名前に追加される、固定文字列またはユーザー属性 ( **[部署]** など) にすることができます。
 -   **カスタムのブロックする単語** 特定の組織のユーザーが作成したチームの名前で使用をブロックする単語のセットをアップロードできます。 たとえば、対象となるグループのチーム名に、 **CEO**、**給与**、**人事**の使用をブロックすることができます。
--   **分類** 組織内のユーザーが Office 365 グループを作成するときに設定できる分類を作成できます。 
+-   **分類**組織内のユーザーが Microsoft 365 グループを作成するときに設定できる分類を作成することができます。 
 
 > [!IMPORTANT]
 > Microsoft 365 グループの名前付けポリシーを使用するには、1つ以上の Microsoft 365 グループのメンバーである一意のユーザーごとに、Azure Active Directory Premium P1 ライセンスまたは Azure AD Basic EDU のライセンスが必要です。
@@ -66,14 +66,14 @@ ms.locfileid: "43780216"
 -   Microsoft Graph API (現在ベータ版) を使用して、チームの作成、構成、複製、アーカイブを行うことができます。 詳細については、「[Microsoft Graph API を使用して Microsoft Teams で作業する](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)」を参照してください。
 
 > [!TIP]
-> School Data Sync は、同期された各クラスに Office 365 グループを作成し、[非表示のグループ メンバーシップを有効](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)にするので、そのクラス内の教師と生徒だけがそのクラスのメンバーを見ることができます。 別のプロセスを使用してクラス グループを作成している場合は、New-UnifiedGroup コマンドレットの HiddenGroupMembershipEnabled パラメーターを使用して、同じプライバシー要件を満たすことができます。
+> School Data Sync は、各クラスに対して Microsoft 365 グループを作成し、[非表示のグループメンバーシップを有効](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)にします。これにより、クラス内の教師と学生のみがそのクラスのメンバーを表示できるようになります。 別のプロセスを使用してクラス グループを作成している場合は、New-UnifiedGroup コマンドレットの HiddenGroupMembershipEnabled パラメーターを使用して、同じプライバシー要件を満たすことができます。
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>学期や四半期が終わったときにチームにどのような対処すればよいですか?
 
 学校の学期または四半期が超過した場合にチームデータをどのように処理するかについては、最初に検討することをお勧めします。削除するか、コースを完了した後でも学生が利用できるようにするかどうかを検討してください。 学校の予定表を念頭に置いて、設定したポリシーが休日と競合しないようにします。 戦略の実装には次のツールを使用できます。
 
 -   **アイテム保持ポリシー:** 指定した期間を経過したすべての古いデータが削除されます。古いデータがチャット (すべてまたは一部のユーザー用) およびチャンネルから削除されます。 また、コンテンツを保持するようにチームを構成して、削除できないようにすることもできます。 詳細については、「[Microsoft Teams の保持ポリシー](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)」を参照してください。
--   **有効期限ポリシー:** 特定の日数が経過した後に、期限切れになるようにチームを構成します。 有効期限の 30 日前に、チームのすべての所有者に、チームの更新が必要であることが通知されます。それ以外の場合は、削除されます (管理者は、削除されたチームをさらに 30 日間復元できます)。 この設定は、未使用のチームが使用されていない状況を確認するのに非常に便利です。 詳細については、「[Office 365 グループの有効期限ポリシー](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)」を参照してください。
+-   **有効期限ポリシー:** 特定の日数が経過した後に、期限切れになるようにチームを構成します。 有効期限の 30 日前に、チームのすべての所有者に、チームの更新が必要であることが通知されます。それ以外の場合は、削除されます (管理者は、削除されたチームをさらに 30 日間復元できます)。 この設定は、未使用のチームが使用されていない状況を確認するのに非常に便利です。 詳細については、「 [Microsoft 365 グループの有効期限ポリシー](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)」を参照してください。
 
 -   **チームをアーカイブする:** この設定で、チームは読み取り専用モードになります。 参照して検索することはできますが、新しい投稿を追加することはできません。 「[チームをアーカイブする、または復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」は、チームの所有者がチームをアーカイブする方法を説明します。チームの所有者は、 「[Graph API (ベータ)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)」を使用してチームをアーカイブまたは復元することもできます。
  

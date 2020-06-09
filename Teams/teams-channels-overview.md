@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
-ms.translationtype: HT
+ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574024"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637506"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -56,7 +56,7 @@ ms.locfileid: "42574024"
 
 Microsoft Teams が組織全体に対してアクティブ化されると、指定されたチーム所有者は、共同で作業する従業員をチームに参加するよう招待できるようになります。 Microsoft Teams では、チーム所有者が組織内のユーザーを名前に基づいて追加することが簡単に行えます。 組織の設定に応じて、組織外のユーザーでありながらチーム メンバーになっているゲストも、チームに追加することができます。 詳細については、「[Microsoft Teams でのゲスト アクセス](guest-access.md)」をご覧ください。 
 
-チーム所有者は、既存の Office 365 グループに基づいてチームを作成することもできます。 グループに対するいかなる変更も、Microsoft Teams に自動的に同期されます。 既存の Office 365 グループに基づいてチームを作成することで、メンバーの招待や管理のプロセスが簡素化されるだけでなく、Microsoft Teams の内部のグループ ファイルの動機も行われます。
+チーム所有者は、既存の Microsoft 365 グループに基づいてチームを作成することもできます。 グループに対するいかなる変更も、Microsoft Teams に自動的に同期されます。 既存の Microsoft 365 グループに基づいてチームを作成すると、メンバーの招待と管理のプロセスが簡素化されるだけでなく、Microsoft Teams 内のグループファイルも同期されます。
 
 **チームの役割**
 
@@ -77,7 +77,7 @@ Microsoft Teams には、次の 2 つの主な役割があります。
 
 Office 365 での Microsoft Teams 管理者である場合は、Microsoft Teams 管理センターのシステム全体の設定にアクセスすることができます。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
 
-既定では、すべてのユーザーが Microsoft Teams 内にチームを作成するアクセス許可を持っています (これを変更するには、「[Teams でロールとアクセス許可を割り当てる](assign-roles-permissions.md)」をご覧ください)。 既存の Office 365 グループのユーザーは、Teams の機能を利用して自身のアクセス許可を拡張することもできます。
+既定では、すべてのユーザーが Microsoft Teams 内にチームを作成するアクセス許可を持っています (これを変更するには、「[Teams でロールとアクセス許可を割り当てる](assign-roles-permissions.md)」をご覧ください)。 既存の Microsoft 365 グループのユーザーは、Teams 機能を使用してアクセス許可を強化することもできます。
 
 ユーザーを Microsoft Teams に関与させるために鍵となる初期段階の計画アクティビティは、日々の生活で Teams がどのようにコラボレーションを深めているのかについて、洞察と理解を促進することです。 ユーザーと話し合い、断片的な方法で現在共同作業を行っている状況でビジネス シナリオを選択できるように支援します。 ユーザーたちが作業を完了するために役に立つ関連するタブとともに、それらのユーザーをチャネルに取り込みます。 Teams の最も強力なユース ケースの 1 つは、あらゆる組織横断型のプロセスです。 
 

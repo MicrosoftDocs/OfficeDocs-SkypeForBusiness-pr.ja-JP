@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
-ms.translationtype: HT
+ms.openlocfilehash: 45cfe8ed255e889093044672cb738152adaaf6ae
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778933"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610139"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams でチーム所有者とメンバーを割り当てます
 =================================================
@@ -29,7 +29,7 @@ ms.locfileid: "43778933"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft Teams には、**所有者**と**メンバー**という 2 つのユーザー ロールがあります。 既定では、新しいチームを作成したユーザーには所有者ステータスが付与されます。 また、チームの所有者とメンバーには、チャネルに対するモデレーターの機能を割り当てることができます (モデレートが設定されている場合)。 既存の Office 365 グループからチームを作成した場合、アクセス許可が継承されます。
+Microsoft Teams には、**所有者**と**メンバー**という 2 つのユーザー ロールがあります。 既定では、新しいチームを作成したユーザーには所有者ステータスが付与されます。 また、チームの所有者とメンバーには、チャネルに対するモデレーターの機能を割り当てることができます (モデレートが設定されている場合)。 既存の Microsoft 365 グループからチームを作成する場合は、アクセス許可が継承されます。
 
 所有者とメンバーの権限の違いを以下の表に示します。
 

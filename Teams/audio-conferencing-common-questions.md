@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 電話会議を使用するお客様からよく寄せられる質問の一部を次に示します。
-ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: c181c6cf2da1f1573b10f6e206bd1d658c6af00b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236847"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611036"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -35,19 +35,19 @@ ms.locfileid: "42236847"
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>電話会議の利点は何ですか?
 
-会議への通話は、ユーザーが外出先にいても、ノート pc やモバイルデバイスで Skype for Business または Microsoft Teams アプリを使って会議に参加することはできません。 ただし、電話を使って Skype for Business 会議または Microsoft Teams 会議に参加する場合は、コンピューター上のアプリを使用するよりも便利な方法があります。
+会議への通話は、ユーザーが外出先にいても、ノート pc やモバイルデバイスで Skype for Business または Microsoft Teams アプリを使って会議に参加することはできません。 ただし、コンピューター上のアプリよりも電話を使用して Skype for Business または Microsoft Teams 会議に参加したほうが良い場合があります。
   
-- インターネット接続は制限されています。
+- インターネット接続が制限されている。
     
-- 会議は音声のみである。
+- 会議が音声のみ。
     
-- このユーザーは Skype for Business 会議に参加しようとして失敗しました。
+- ユーザーが Skype for Business 会議に参加しようとして失敗した。
     
 - ダイヤルインすると、通話音質が向上します。
     
-- ユーザーは、Bluetooth デバイスを使って "ハンズフリー" で会議に参加できます。
+- Bluetooth デバイスを使用すると「ハンズフリー」で会議に参加できる。
     
-- ユーザーは、状況に応じて、より簡単で便利な検索を行うことができます。
+- 状況によっては、そのほうが簡単で便利なことがあります。
     
 ## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>電話会議には誰が参加できますか? 誰と聞くことができますか?
 
@@ -65,7 +65,7 @@ ms.locfileid: "42236847"
   
 ローカルのダイヤルイン番号と、組織が所在している国の国際ダイヤルイン番号についても、会議の出席依頼に記載されます。 会議の出席者が、招待に含まれている別の番号を使用している場合は、共有された電話番号になります。
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Office 365 の電話会議では、国際ダイヤルイン番号がいくつサポートされていますか?
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>Microsoft 365 または Office 365 の電話会議では、国際ダイヤルイン番号はいくつサポートされていますか?
 
 国/地域の最新リストについては、「 [Microsoft Teams の電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)」または「 [Skype for Business Online の電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)」を参照してください。
   
@@ -85,7 +85,7 @@ ms.locfileid: "42236847"
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>会議に参加できる電話の参加者の合計数は何人ですか?
 
-電話会議には最大で250の電話出席者が参加できます。
+電話会議では、最大 250 人の電話参加者が可能です。
   
 会議の制限事項については、「 [Skype For Business Online の制限](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)」を参照してください。
   
@@ -149,11 +149,11 @@ Skype for Business または Microsoft Teams ユーザーは、セットアッ�
 
 - **オプション #2**: "認証されていない発信者を会議内の最初のユーザーに許可する" 設定 (既定では無効) が、特定の開催者に対して有効になっている場合、そのユーザーによってスケジュールされたすべての会議が、開催者の電話会議の PIN を入力しなくても開始できます。 この設定が有効になっていると、最初の参加者がダイヤルイン電話番号で参加するとすぐに会議が開始され、ロビーに配置されることはありません。 詳細については、「 [Microsoft Teams でユーザーの電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)」または「 [Skype for business Online のユーザーの電話会議の設定を管理](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)する」を参照してください。
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
 [Microsoft Teams での電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[Skype for Business Online の電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Skype for Business Online での電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   

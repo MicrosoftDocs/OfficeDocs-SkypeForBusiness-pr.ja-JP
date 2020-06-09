@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: それぞれの国/地域のダイヤルイン会議の言語と割り当てられたカルチャ ID (en-US、da-DK、de-DE など) を検索します。
-ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 2718db11c905678a49650ad41f851e8f6e4e393c
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826225"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610296"
 ---
 # <a name="audio-conferencing-supported-languages"></a>電話会議でサポートされている言語
 
-Office 365 で電話会議をセットアップして構成するときに、呼び出し元が Skype for Business や Microsoft Teams の会議にダイヤルインするときに使用されるプライマリとセカンダリ (最大 4 つ) の言語を選択できます。 電話会議でサポートされている言語の一覧を示します。 
+Microsoft 365 または Office 365 で電話会議をセットアップして構成するときに、発信者が Skype for Business または Microsoft Teams の会議にダイヤルインするときに使用されるプライマリとセカンダリ (最大4つ) の言語を選ぶことができます。 電話会議でサポートされている言語の一覧を示します。 
   
 > [!IMPORTANT]
 > プライマリとセカンダリの言語は、専用の電話会議の電話番号でのみ変更できます。 
@@ -93,11 +93,11 @@ Office 365 で電話会議をセットアップして構成するときに、呼
 
 - [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) または [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) コマンドレットを使って、時間の節約や自動化が可能です。
     
-- Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常的な作業を簡略化できます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
     
   - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - 多くのユーザーの設定を同時に変更するときなどは、Microsoft 365 管理センターのみを使用するよりも、Windows PowerShell を使用した方が、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。 
     
@@ -112,6 +112,6 @@ Office 365 で電話会議をセットアップして構成するときに、呼
   
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

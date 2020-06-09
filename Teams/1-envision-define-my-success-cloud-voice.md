@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cafff163c4794002d8f92b638e73112faa8d1e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 94430052082d523861ed4a938e0e0b02b70049f9
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780666"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610986"
 ---
 # <a name="define-my-success"></a>成功を定義する
 
@@ -150,7 +150,7 @@ OKRs には、プロジェクトの最初に設定した目標が含まれてお
 > 電話会議の実装に関連する OKRs の例は、次のようにして参照できます。
 > <br>
 > 
-> **ビジョン: Office 365 への投資を最大化して生産性を向上**
+> **ビジョン: Microsoft 365 または Office 365 の投資を最大限に活用して生産性を向上させる**
 > 
 > |目的  |主要な結果  |目的  |
 > |---------|---------|---------|
@@ -163,7 +163,7 @@ OKRs には、プロジェクトの最初に設定した目標が含まれてお
 > 通話プランの実装に関連する OKRs の例については、以下を参照してください。
 > <br>
 > 
-> **ビジョン: Office 365 への投資を最大化して生産性を向上**
+> **ビジョン: Microsoft 365 または Office 365 の投資を最大限に活用して生産性を向上させる**
 > 
 > |目的  |主要な結果  |目的  |
 > |---------|---------|---------|
@@ -174,7 +174,7 @@ OKRs には、プロジェクトの最初に設定した目標が含まれてお
 > 直接ルーティングの実装に関連する OKRs の例は、次のようにして参照できます。
 > <br>
 > 
-> **ビジョン: Office 365 への投資を最大化して生産性を向上**
+> **ビジョン: Microsoft 365 または Office 365 の投資を最大限に活用して生産性を向上させる**
 > 
 > |目的  |主要な結果  |目的  |
 > |---------|---------|---------|

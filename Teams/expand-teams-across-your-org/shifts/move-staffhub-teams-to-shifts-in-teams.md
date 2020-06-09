@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 62686c87d653532f7f64b797fbe301a1cf0d2610
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350311"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638396"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Microsoft StaffHub のチームを Microsoft Teams のシフトに移動する
 
@@ -56,7 +56,7 @@ Teams 内のシフト アプリでは、スケジュール管理と日ごと常�
 
 StaffHub チームを移動すると、チーム メンバーシップ、ユーザーの詳細、チームのスケジュール、およびチャット データが Teams に移動します。 StaffHub チームを移動しても、ファイルは移動しません。 チームに移動したいファイルが StaffHub チームに含まれている場合は、別の手順でファイルを移動します。
 
-すべての StaffHub チームには、対応する Microsoft 365 または Office 365 グループが必要です。 StaffHub チームが Microsoft 365 グループに関連付けられている場合、チームを移動すると、グループのプライバシー設定が保持されます。 StaffHub チームに Microsoft 365 グループが関連付けられていない場合は、移行をサポートするために、プライバシー設定のグループが [プライベート] に自動的に作成されます。  Teams と StaffHub ではチームとグループの名前の付け方に違いがあるため、Teams ではチーム名が異なる場合があります。 
+すべての StaffHub チームには、対応する Microsoft 365 または Microsoft 365 グループが必要です。 StaffHub チームが Microsoft 365 グループに関連付けられている場合、チームを移動すると、グループのプライバシー設定が保持されます。 StaffHub チームに Microsoft 365 グループが関連付けられていない場合は、移行をサポートするために、プライバシー設定のグループが [プライベート] に自動的に作成されます。  Teams と StaffHub ではチームとグループの名前の付け方に違いがあるため、Teams ではチーム名が異なる場合があります。 
 
 チームを StaffHub から Teams に移動すると、ユーザーは StaffHub のスケジュールにはアクセスできなくなり、Teams 内のシフトにリダイレクトされます。 中断を最小限に抑え、Teams の導入をユーザーに促すために、この変更について組織全体に伝達することをお勧めします。 Azure AD Premium を使用している場合は、[レポートを実行](run-report-to-show-staffhub-usage.md)して、組織の StaffHub ユーザーのうち、この変更について知っておく必要があるユーザーのリストを取得できます。  
 

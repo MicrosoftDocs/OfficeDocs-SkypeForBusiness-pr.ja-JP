@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 55f65bf14973b54b091e0a6c3ecdc3edf49e6ed3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583500"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637966"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -332,7 +332,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 - [会議でチャットを許可する](#allow-chat-in-meetings)
 
 > [!NOTE]
->会議に参加するためのオプションは、各 Teams グループの設定および接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「[Office 365 における電話会議](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「[Teams での会議に参加する](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)」を参照してください。
+>会議に参加するためのオプションは、各 Teams グループの設定および接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「[電話会議](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「[Teams での会議に参加する](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)」を参照してください。
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>匿名ユーザーが会議を開始できるようにする
 

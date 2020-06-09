@@ -29,16 +29,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Skype for Business サービスの通信クレジット (PSTN 追加機能プラン) に対する支払い方法と、継続的な電話システムへのアクセスをユーザーに許可するプランについて説明します。 '
-ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827215"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610283"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
-通信クレジットは、Office 365 で電話システムと通話プランの支払いに便利な手段です。 通信クレジットを使用すると、ユーザーとユーザーがキャッチされずに、次のことを行うことができます。
+通信クレジットは、Microsoft 365 または Office 365 で電話システムと通話プランの支払いに便利な手段です。 通信クレジットを使用すると、ユーザーとユーザーがキャッチされずに、次のことを行うことができます。
   
 - 無料のダイヤルイン電話番号を使用して、電話会議にダイヤルインします。
     
@@ -76,17 +76,17 @@ ms.locfileid: "41827215"
     
 - [電話システムプラン](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、[サブスクリプションの**** > **追加**]**サブスクリプションに** > 移動して、情報を表示することもできます。
+[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、 **[サブスクリプションの**追加] サブスクリプションに移動して、情報を表示することもでき  >  **Subscriptions**  >  **Add subscriptions**ます。
   
 各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [クラウド ボイスメールのセットアップ - Admin ヘルプ](set-up-phone-system-voicemail.md)
+- [クラウド ボイスメールの設定 - Admin ヘルプ](set-up-phone-system-voicemail.md)
     
-- [呼び出しプランの設定](set-up-calling-plans.md) および [Office 365 の呼び出しプラン](calling-plans-for-office-365.md)
+- [Microsoft 365 または Office 365 の](calling-plans-for-office-365.md)[通話プラン](set-up-calling-plans.md)と通話プランをセットアップする
         
  
  

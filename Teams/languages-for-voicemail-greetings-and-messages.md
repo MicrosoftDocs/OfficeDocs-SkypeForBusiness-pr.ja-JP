@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 既定のシステムメッセージとボイスメールの応答メッセージについて、Skype for Business で設定できる言語について説明します。
-ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904522"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638766"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>ボイスメールの応答メッセージとメッセージで使用する言語
 
@@ -80,7 +80,7 @@ Skype for Business がシステムの応答メッセージで使用する言語�
 ## <a name="related-topics"></a>関連トピック
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Office 365 での電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
+[電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
   
   
  

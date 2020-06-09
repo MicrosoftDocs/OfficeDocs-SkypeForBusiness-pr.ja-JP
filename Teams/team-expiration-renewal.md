@@ -11,23 +11,23 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: チームの有効期限と更新について説明し、Microsoft 365 または Office 365 グループの有効期限ポリシーを使用して、Microsoft Teams で使用されていないチームを自動的にクリーンアップする方法について説明します。
+description: チームの有効期限と更新について説明し、Microsoft 365 または Microsoft 365 グループの有効期限ポリシーを使用して、Microsoft Teams で使用されていないチームを自動的にクリーンアップする方法について説明します。
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed1e91ae51bf3f2868e9e2f5f1de1532954d552e
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 34984c545e3e6593c9d5168a81d3465ce391dab2
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350281"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638556"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft Teams でのチームの期限切れと更新
 
 多くのチームがいる組織には、実際には使用されない teams が多いことがよくあります。 これは、製品の実験、短期的なチームのコラボレーション、または組織を離れるチーム所有者など、いくつかの理由で発生する可能性があります。 時間の経過と共に、チームはテナントリソースを蓄積して、負担を作ることができます。  
 
-使用されていないチームの数を管理者として指定するには、 [Microsoft 365 または Office 365 グループの有効期限ポリシー](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)を使って、使用していないチームを自動的にクリーンアップします。 Teams はグループによってサポートされているため、グループの有効期限ポリシーはチームにも自動的に適用されます。
+使用されていないチームの数を管理者として指定するには、 [microsoft 365 または microsoft 365 グループの有効期限ポリシー](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)を使って、使用していないチームを自動的にクリーンアップします。 Teams はグループによってサポートされているため、グループの有効期限ポリシーはチームにも自動的に適用されます。
 
 チームに有効期限ポリシーを適用すると、チームの所有者は、チームの有効期限の30日、15日間、1日前にチームの更新の通知を受け取ります。 チーム所有者は通知を受信したときに、チームの設定で [**今すぐ更新**] をクリックして、チームを更新することができます。
 

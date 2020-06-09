@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebe94c04fcc4d93f636544d54930cf83855deec2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 92516a73843b16212a13b4533da7db6fd1075532
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904819"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638756"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Microsoft Teams のデータの場所
 
-Teams のデータは、Office 365 組織に関連付けられている地理的地域内に存在します。 現在、Teams でサポートされているのは、オーストラリア、カナダ、フランス、ドイツ、インド、日本、南アフリカ、韓国、スイス (リヒテンシュタインを含む)、英国連邦、英国、南北アメリカ、APAC、および EMEA 地域です。 
+Teams のデータは、Microsoft 365 または Office 365 組織に関連付けられた地理的地域内に存在します。 現在、Teams でサポートされているのは、オーストラリア、カナダ、フランス、ドイツ、インド、日本、南アフリカ、韓国、スイス (リヒテンシュタインを含む)、英国連邦、英国、南北アメリカ、APAC、および EMEA 地域です。 
 
 > [!IMPORTANT]
 > Teams では現在、オーストラリア、カナダ、フランス、ドイツ、インド、日本、英国、英国、韓国、南アフリカ、スイス (リヒテンシュタインを含む) で、新しいテナントのみにデータ常駐品が提供されています。
@@ -34,7 +34,7 @@ Teams のデータは、Office 365 組織に関連付けられている地理的
 
 ## <a name="where-your-teams-data-is-stored"></a>チームデータが保存されている場所
 
-テナントのデータが格納されている領域を確認するには、 [Microsoft 365 管理センター](https://portal.office.com/adminportal/home) > の**設定** > **組織プロファイル**に移動します。 下にスクロールして **[データの場所]** に移動します。
+テナントのデータが格納されている領域を確認するには、 [Microsoft 365 管理センター](https://portal.office.com/adminportal/home)の  >  **設定**  >  **組織プロファイル**に移動します。 下にスクロールして **[データの場所]** に移動します。
 
 ![管理センターの Teams を含むデータの場所テーブルのスクリーンショット](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
@@ -56,7 +56,7 @@ Teams のデータは、Office 365 組織に関連付けられている地理的
 
 #### <a name="chat-channel-messages-team-structure"></a>チャット、チャネルメッセージ、チーム構造
 
-Teams のすべてのチームは、Office 365 グループとその SharePoint サイトと Exchange メールボックスによってサポートされます。 プライベートチャット (グループチャットを含む)、チャネルでの会話の一部として送信されるメッセージ、チームとチャネルの構造は、Azure で実行されているチャットサービスに格納されます。 また、データは、情報保護機能を有効にするために、ユーザーとグループのメールボックスの隠しフォルダーにも保存されています。
+Teams のすべてのチームは、Microsoft 365 グループとその SharePoint サイトと Exchange メールボックスによってサポートされます。 プライベートチャット (グループチャットを含む)、チャネルでの会話の一部として送信されるメッセージ、チームとチャネルの構造は、Azure で実行されているチャットサービスに格納されます。 また、データは、情報保護機能を有効にするために、ユーザーとグループのメールボックスの隠しフォルダーにも保存されています。
 
 #### <a name="voicemail-and-contacts"></a>ボイスメールと連絡先
 

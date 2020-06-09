@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862817"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610049"
 ---
 # <a name="deploy-my-service"></a>サービスを展開する
 
@@ -33,7 +33,7 @@ ms.locfileid: "41862817"
 
 このプレイブックを使用して、組織がサイトごとに Microsoft Teams の音声機能のロールアウトを正常に計画して実行できるようにします。
 
-このプレイには、必要なすべてのアクティビティ、推奨されるタイムライン、および各アクティビティの対応するガイダンスへのリンクが含まれています。このプレイには、特定のサイトにチームの音声展開を成功させるためのエンドツーエンドのガイダンスが記載されています。重要な要因に焦点を当てます。を選びます。
+このプレイには、必要なすべてのアクティビティ、推奨されるタイムライン、および各アクティビティの対応するガイダンスへのリンクが含まれています。このプレイには、ユーザーにとって重要な要素に焦点を当てた、特定のサイトに対するチームの音声展開を成功させるためのエンドツーエンドのガイダンスが含まれています。
 
 このプレイブックのアクティビティを完了することで、組織は次のことができます。
 
@@ -44,7 +44,7 @@ ms.locfileid: "41862817"
 -   サポートニーズを減らし、ユーザーの満足度を高める。
 
 > [!NOTE]
-> この記事と関連するプレイブックは、サービスの有効化または特定のサイトへのダイヤルトーンの提供に必要なすべての技術的構成手順を説明することを目的としていません。 代わりに、ユーザーが簡単にオンボードで作業するために推奨されるアクティビティとタスクに重点を置いています。また、サポート要件を最小限に抑えながら、迅速かつスムーズな移行によってチームのボイスワークロードを使い始めることができます。 チームボイス向けに環境を最適に構成する方法についての技術ガイダンスについては、「チームの[音声ワークロードを構成](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)する」、 [「teams の](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)[コア機能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)」、「チーム[のネットワーク](prepare-network.md)、 [Office 365 の有効化](onboarding-checklist-enable-office-365.md)」のオンボードチェックリストを参照してください。
+> この記事と関連するプレイブックは、サービスの有効化または特定のサイトへのダイヤルトーンの提供に必要なすべての技術的構成手順を説明することを目的としていません。 代わりに、ユーザーが簡単にオンボードで作業するために推奨されるアクティビティとタスクに重点を置いています。また、サポート要件を最小限に抑えながら、迅速かつスムーズな移行によってチームのボイスワークロードを使い始めることができます。 チームボイス向けに環境を最適に構成する方法についての技術ガイダンスについては、「チームの[音声ワークロードを構成](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)する」、 [「teams の](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)[コア機能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)」、「チーム[のネットワーク](prepare-network.md)、 [Microsoft 365 または Office 365 を有効](onboarding-checklist-enable-office-365.md)にする」のオンボードチェックリストを参照してください。
 
 <!--ENDOFSECTION-->
 
@@ -63,7 +63,7 @@ ms.locfileid: "41862817"
 
 -   使用状況と品質
 
--   出産
+-   導入
 
 [音声 (プレイブック) のサイト有効化のプレイ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)ブックは Microsoft Excel ブックです。 これら5つの各フォーカス領域は、ブック内の個別のシートであり、展開タスクとアクティビティはそれぞれ次のいずれかのシートにまとめられています。
 
@@ -90,9 +90,9 @@ ms.locfileid: "41862817"
 
 5. 各アクティビティを確認し、必要なアクションを実行して、タイムラインを通して状態を更新します。 次に示すように、状態はグラフィカルに表示されます。
   
-   - ![緑のチェックマーク](media/deploy-my-service-image3.png)が **[はい] または [該当しない] (緑)** の場合: アクティビティが完了しているか、このサイトには適用されず、これ以上の操作は必要ありません。</li>
-   - ![まだアクティビティが完了して](media/deploy-my-service-image4.png)いないことを示す黄色の感嘆符<strong>(黄):</strong>アクティビティはまだ完了していません。また、スケジュールされている場合は、[はい] または [いいえ] に更新する必要があります。</li>
-   - !["](media/deploy-my-service-image5.png) <strong>いいえ" (赤)</strong>が表示されていないことを示す赤色の X の例: 問題が発生したため、アクティビティは完了できません。また、プロジェクトの進捗会議に参加している必要があります。</li></ul>
+   - ![緑のチェックマークが ](media/deploy-my-service-image3.png) **[はい] または [該当しない] (緑)** の場合: アクティビティが完了しているか、このサイトには適用されず、これ以上の操作は必要ありません。</li>
+   - ![まだアクティビティが完了していないことを示す黄色の感嘆符 ](media/deploy-my-service-image4.png) <strong>(黄):</strong>アクティビティはまだ完了していません。また、スケジュールされている場合は、[はい] または [いいえ] に更新する必要があります。</li>
+   - !["いいえ" (赤) が表示されていないことを示す赤色の X の例 ](media/deploy-my-service-image5.png) <strong>:</strong>問題が発生したため、アクティビティは完了できません。また、プロジェクトの進捗会議に参加している必要があります。</li></ul>
 
 6. ステータスは各セクション内でロールアップされ、セクション見出しは次のいずれかのステータスインジケーターで表示されます。 **週単位のステータス**も自動的に更新されます。
 
@@ -106,8 +106,8 @@ ms.locfileid: "41862817"
 電話番号の移植や調達など、計画した時間よりも時間がかかる可能性があるアクティビティには注意してください。 これらのアクティビティは、サイト展開のタイムラインに悪影響を与える可能性があります。 アクティビティリストと関連するタイムラインの週を確認して更新して、関係者が各サイトのステータスと展開スケジュールの誤差を[確実に認識](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)できるようにしてください。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断のポイント</td><td><ul><li>展開にサイトの有効化のプレイブックが必要かどうかを決定します。</li><li>展開するすべてのサイトについて、Microsoft Teams のサイト有効化のプレイブックをカスタマイズする責任者を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト有効化のプレイブックをダウンロード</a>します。</li><li>初めてのサイト向けのサイト有効化のプレイブックをカスタマイズします。</li><li>必要に応じて、他のサイトにも同じ手順を繰り返します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>展開にサイトの有効化のプレイブックが必要かどうかを決定します。</li><li>展開するすべてのサイトについて、Microsoft Teams のサイト有効化のプレイブックをカスタマイズする責任者を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト有効化のプレイブックをダウンロード</a>します。</li><li>初めてのサイト向けのサイト有効化のプレイブックをカスタマイズします。</li><li>必要に応じて、他のサイトにも同じ手順を繰り返します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

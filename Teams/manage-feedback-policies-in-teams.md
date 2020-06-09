@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: フィードバックポリシーを使用して、組織内の Teams ユーザーがチームに関するフィードバックを Microsoft に送信できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326684"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637956"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams でフィードバックポリシーを管理する
 
@@ -32,7 +32,7 @@ ms.locfileid: "44326684"
 
 **フィードバックの提供機能**
 
-ユーザーは、チームでフィードバックを送信する**ために、** チームに関するコメントや提案をお送りし  >  **Give feedback**ます。 **フィードバック**を送信して送信されるデータは、"顧客データ" または "個人データ" と見なされる情報など、Office 365 契約の下で "サポートデータ" と見なされます。
+ユーザーは、チームでフィードバックを送信する**ために、** チームに関するコメントや提案をお送りし  >  **Give feedback**ます。 **フィードバック**を送信して送信されるデータは、Microsoft 365 または Office 365 契約の下では、"顧客データ" または "個人データ" と見なされる情報を含む "サポートデータ" と見なされます。
 
 ![Teams の [フィードバックの提供] オプションのスクリーンショット](media/manage-feedback-policies-in-teams-give-feedback.png)
 

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224210"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638897"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
@@ -50,7 +50,7 @@ ms.locfileid: "44224210"
   
 - ユーザーに割り当てられた電話番号。既定です。
     
-- Office 365 の電話番号インベントリの通話プランで*サービス*電話番号と*無料*電話番号として分類されている電話番号。 これは通常、組織の自動応答またはコール キューに割り当てられます。
+- 通話プランの電話番号のインベントリで*service* 、サービス*と無料の番号と*して分類される電話番号。 これは通常、組織の自動応答またはコール キューに割り当てられます。
     
 - 非通知に設定。
     
@@ -74,8 +74,8 @@ EnableUserOverride 属性を使うと、1人または複数のユーザーがそ
 |クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |はい  <br/> |
 |クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |はい  <br/> |
 |クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |はい  <br/> |
-|MSI  <br/> |Skype for Business  <br/> |いいえ  <br/> |
-|Mac  <br/> |Skype for Business  <br/> |いいえ  <br/> |
+|MSI  <br/> |Skype for Business  <br/> |X  <br/> |
+|Mac  <br/> |Skype for Business  <br/> |X  <br/> |
    
 ## <a name="inbound-caller-id"></a>着信の発信者番号
 

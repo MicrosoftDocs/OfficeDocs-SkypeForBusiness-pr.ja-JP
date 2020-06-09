@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 通話共有とグループ通話のピックアップユーザーが着信した通話を同僚と共有できるようにして、ユーザーが連絡不能なときに通話をキャプチャできるようにします。
-ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 0e21f8ec8b9d913568b87a41b70261ac917260e2
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042954"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638856"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 
@@ -47,7 +47,7 @@ Microsoft Teams の通話共有とグループ通話のピックアップ機能�
 
 ## <a name="configure-group-call-pickup"></a>グループ通話のピックアップを構成する
 
-グループ通話のピックアップを設定するために、ユーザーは最初に通話グループ (セキュリティグループまたは Office 365 グループとは異なります) を構成し、通話を共有するユーザーを追加します。 次に、同時呼び出しまたは [着信の転送] 設定を選択します。 詳細とステップバイステップの手順については、「 [Teams での着信の転送と同時呼び出し](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)」を参照してください。
+グループ通話のピックアップを設定するために、ユーザーは最初に通話グループ (セキュリティグループまたは Microsoft 365 グループとは異なります) を構成し、通話を共有するユーザーを追加します。 次に、同時呼び出しまたは [着信の転送] 設定を選択します。 詳細とステップバイステップの手順については、「 [Teams での着信の転送と同時呼び出し](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)」を参照してください。
 
 通話グループの作成と通知の設定は、ユーザー主導の機能です。管理者は、これらの機能をユーザーに対して構成する必要はありません。 通話グループは、セキュリティグループまたは Microsoft 365 グループから作成することはできません。チームで作成する必要があります。
 
