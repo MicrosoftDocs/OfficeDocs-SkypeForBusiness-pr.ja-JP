@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: 37fd96db69b456ac5659cc430da19d2aad6fa560
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412634"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666119"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -67,7 +67,10 @@ Microsoft Teams の認定を受けているのは、以下のコラボレーシ�
 
 |コラボレーションバーモデル|ファームウェア バージョン|リリース日 |会議室のサイズ (最大)|
 |:---|:---|:---|:---|
+|Poly Studio X30 | 3.1.1.216109| 2020年6月|フォーカスルーム (3m x 3m) </br> 小会議室 (4.5 m x 4.5 m)|
+|Poly Studio X50 | 3.1.1.216109| 2020年6月|フォーカスルーム (3m x 3m) </br> 小会議室 (4.5 m x 4.5 m)|
 |Yealink VC210| 118.15.0.14|2020 年 2 月|フォーカスルーム (3m x 3m) </br> 小会議室 (4.5 m x 4.5 m)|
+
 
 これらのデバイスでサポートされている機能については、「[Microsoft Teams phones feature set (Microsoft Teams の電話機能セット)](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set)」を参照してください。
 
