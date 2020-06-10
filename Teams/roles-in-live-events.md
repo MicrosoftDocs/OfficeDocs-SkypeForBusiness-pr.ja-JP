@@ -44,7 +44,7 @@ Microsoft Teams のライブ イベントは、多くの種類の参加者をサ
 プレゼンターと主催者は次のとおりです。
 
 - 自分の所属組織のプレゼンター
-- その他の組織のプレゼンター プレゼンターは主催者によって指定され、主催者からの個人的な招待が必要です。
+- 他の組織のプレゼンター プレゼンターは主催者によって指定され、主催者からの個人的な招待が必要です。
 
 プレゼンターと主催者は、ライブ イベントのすべての機能にアクセスできます。
 
@@ -122,4 +122,4 @@ Microsoft Teams のライブ イベントは、多くの種類の参加者をサ
 
 [Teams でのゲスト アクセス](guest-access.md)
 
-[Teams でのライブ イベントの計画](teams-live-events/plan-for-teams-live-events.md)
+[Teams でライブ イベントを計画する](teams-live-events/plan-for-teams-live-events.md)

@@ -12,12 +12,12 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc901b9ef1b4b358771427f44d220631e4a40ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f982f6e484412234c75eadaea925b65ee11bcbb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199020"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691613"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,21 +53,27 @@ Lync Server 2013 の場所に基づくルーティングの展開および構成
 
 場所に基づくルーティング会議アプリケーションは、既定では無効になっています。 このアプリケーションを有効にする前に、アプリケーションに割り当てる適切な優先順位を決定する必要があります。 この優先度を確認するには、Lync Server 管理シェルで次のコマンドレットを実行します。
 
-Get-CsServerApplication-Identity Service: レジストラー:\<Pool FQDN\>
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
 
-このコマンドレットで\<は、\>プールの FQDN は、場所に基づいたルーティング会議アプリケーションを有効にするプールです。
+このコマンドレットで \<Pool FQDN\> は、は、場所に基づいたルーティング会議アプリケーションを有効にするプールです。
 
 このコマンドレットは、Lync Server でホストされているアプリケーションの一覧とそれぞれの優先度の値を返します。 場所に基づくルーティング会議アプリケーションには、"UdcAgent" アプリケーションよりも大きく、"DefaultRouting"、"ExumRouting"、および "OutboundRouting" アプリケーションより小さい優先度の値を割り当てる必要があります。 場所に基づくルーティング会議アプリケーションは、"UdcAgent" アプリケーションの優先度の値より1ポイント高い優先度の値に割り当てることをお勧めします。
 
-たとえば、"UdcAgent" アプリケーションの優先度値が "2" の場合、"DefaultRouting" アプリケーションの優先度値は "8"、"ExumRouting" アプリケーションの優先度値は "9"、"OutboundRouting" アプリケーションの優先度は "10" になります。場所に基づくルーティング会議アプリケーションは、優先度の値 "3" に割り当てる必要があります。 その場合、アプリケーションの優先順位は次の順序で配置されます。その他のアプリケーション (優先度: 0 ~ 1)、"UdcAgent" (優先度: 2)、場所に基づくルーティングアプリケーション (優先度: 3)、その他のアプリケーション (優先度: 4 ~ 8)。DefaultRouting "(Priority: 9)、" ExumRouting "(Priority:10) および" OutboundRouting "(優先度:11)。
+たとえば、"UdcAgent" アプリケーションの優先度の値が "2" の場合は、"DefaultRouting" アプリケーションの優先度値は "8" で、"ExumRouting" アプリケーションの優先度値は "9" で、"OutboundRouting" アプリケーションの優先度値は "10" に設定されている場合は、場所に基づいたルーティング会議アプリケーションに優先度の値 "3" を割り当てる必要があります。 これにより、アプリケーションの優先度は次の順序で設定されます。その他のアプリケーション (優先順位: 0 から 1)、"UdcAgent" (優先度: 2)、場所に基づくルーティング会議アプリケーション (優先度: 3)、その他のアプリケーション (優先度: 4 ~ 8)、"DefaultRouting" (優先度: 9)、"ExumRouting" (優先度:11)。
 
 場所に基づくルーティング会議アプリケーションの正しい優先度の値を見つけたら、次のコマンドレットを各フロントエンドプールまたは Standard Edition サーバーに対して入力します。これは、場所に基づくルーティングが有効になっているユーザーのホームユーザーです。
 
-新機能-CsServerApplication-Identity Service: レジストラー\<: Pool\>FQDN/LBRouting- \<priority アプリケーション\>優先度-有効 $true-重要な $true-Urihttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
-次に例を示します。
+以下に例を示します。
 
-新規-CsServerApplication-Identity Service: レジストラー: Ls2013cu2lbrpool LBRouting/Priority 3-Priority 3-Enabled $true-Critical $true-Urihttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 このコマンドレットを使用した後、プール内のすべてのフロントエンドサーバー、または場所に基づくルーティング会議アプリケーションが有効になっている Standard Edition サーバーを再起動します。
 
