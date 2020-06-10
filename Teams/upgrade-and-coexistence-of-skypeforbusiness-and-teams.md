@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583450"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665419"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード手順を選択する
 
@@ -83,7 +83,7 @@ Skype for Business を使用する既存の組織を Teams に移行するには
 
 - *外部組織のユーザー*から開始されたチームクライアントからの通信は、常にユーザー a の Skype for business クライアントに着陸します。
 
-管理者により Office 365 ライセンスがユーザーに割り当てられている場合は、これが組織の既定のアップグレード エクスペリエンスとなります。 Office 365 ライセンスを割り当てると、Teams と Skype for Business Online の両方のライセンスが既定で割り当てられます。<sup>2</sup>
+ユーザーに Microsoft 365 または Office 365 のライセンスを割り当てている場合、これが組織の既定のアップグレード環境となります。 Microsoft 365 または Office 365 のライセンスを割り当てると、Teams と Skype for Business Online ライセンスの両方が既定で割り当てられます。<sup>2</sup>
 
 この方式を効果的に動作させるには、すべてのユーザーが両方のクライアントを同時に実行している必要があります。 組織内から受信するアイランド モードのユーザー宛てのチャットと通話は、Skype for Business クライアントと Teams クライアントのいずれにも配信される可能性があり、受信者はこれを制御できません。 これは、送信者が通信を開始するために使用するクライアントにより左右されます。 送信者と受信者の組織が異なる場合、アイランド モードのユーザー宛ての受信チャットと通話は、常に Skype for Business クライアントに配信されます。
 
@@ -178,7 +178,7 @@ TeamsOnly ユーザーの視点からの新しい会話の場合、チャット�
 |両方のユーザーがアイランド モードである間は、Skype for Business と Teams との間に相互運用性は生まれません。      |Skype for Business ユーザーと Teams ユーザーの間のコミュニケーションには、相互運用性が必要です。         |
 
 > [!NOTE]
-> サポートされている、Skype for Business Server ユーザーを Teams に移行するための方式に従うことが難しい場合は、Skype for Business サーバーと Active Directory にある関連するすべてのユーザー属性を削除することで、ユーザーを Teams に移行することが可能です。 ユーザーの Azure Active Directory 属性から Skype for Business Server の属性がクリアされ、DNS レコードが Office 365 に再ポイントされると、Office 365 のユーザーにライセンスを付与して、それらのユーザーを Teams にアップグレードすることができます。 
+> サポートされている、Skype for Business Server ユーザーを Teams に移行するための方式に従うことが難しい場合は、Skype for Business サーバーと Active Directory にある関連するすべてのユーザー属性を削除することで、ユーザーを Teams に移行することが可能です。 ユーザーの Azure Active Directory 属性が Skype for Business Server の属性によって消去され、DNS レコードが Microsoft 365 または Office 365 を参照していると、Microsoft 365 または Office 365 でユーザーをライセンスして、それらのユーザーを Teams にアップグレードすることができます。 
 
 > [!IMPORTANT]
 > 一括移行では、連絡先データと会議データはオンプレミス環境から Microsoft Teams に移行されません。

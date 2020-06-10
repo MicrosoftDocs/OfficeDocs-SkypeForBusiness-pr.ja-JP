@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: d0744c78062b2ecd507cc16658819ba101930597
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350131"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665969"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
@@ -55,7 +55,7 @@ Skype のリソースを使用して、ユーザーが Microsoft Teams および
 - [Teams の管理者トレーニング](itadmin-readiness.md)
 - [オンラインエンドユーザー向けビデオトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [エキスパート & IT 担当者向けのクラウドオンライントレーニングのコーヒー](https://aka.ms/CoffeeintheCloud) 
-- [Life Microsoft 365 および Office 365 トレーニングのクイックガイドの日](https://aka.ms/O365AdoptionTools)
+- [導入ツール](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>成功を測定、共有する
 

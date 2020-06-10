@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理者は、ユーザーが発信できる電話会議とエンドユーザーの PSTN 通話の種類を制御できます。
-ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278180"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665909"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -42,14 +42,14 @@ ms.locfileid: "44278180"
 ゾーン A と見なされる国/地域を確認するには、「[国/地域のゾーンを](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365)指定する」を参照してください。
 
    > [!NOTE]
-   > 発信先の番号が、会議の開催者 (電話会議の場合) またはエンドユーザー (エンドユーザーの PSTN 通話の場合) で Office 365 が設定されている同じ国/地域にある場合は、国内と見なされます。 
+   > 発信 365 365 先の番号が、会議の開催者 (電話会議の場合) またはエンドユーザー (エンドユーザーの PSTN 通話の場合) に設定されている国と同じ国である場合、通話は国内と見なされます。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>電話会議の発信通話を制限する 
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 

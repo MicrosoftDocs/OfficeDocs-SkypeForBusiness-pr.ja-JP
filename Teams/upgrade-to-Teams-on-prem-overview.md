@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6a864828ce925ea289f27de1b3340a50770b4e88
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779804"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665269"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Skype for Business から Teams へのアップグレード &mdash; IT 管理者向け
 
@@ -54,7 +54,7 @@ Skype for Business (オンラインまたはオンプレミス) を使用する�
 - 別のユーザーの Teams クライアントから開始される通信は、*そのユーザーが同じ組織内に存在する場合*、常にユーザー A の Teams クライアントに配信されます。 
 - 別のユーザーの Teams クライアントから開始される通信は、*そのユーザーがフェデレーション組織内に存在する場合*、常にユーザー A の Skype for Business クライアントに配信されます。
 
-アイランド モードは、まだ TeamsOnly ではないすべての既存の組織に対する TeamsUpgradePolicy の既定モードです。 Office 365 ライセンスを割り当てると、Teams と Skype for Business Online の両方のライセンスが既定で割り当てられます。 (これは、ユーザーが Skype for Business Server でオンプレミスに所属している場合でも同じです。 ユーザーの所属がオンプレミスとオンラインのいずれであっても、Teams の機能をすべて使用するには Skype for Business Online が現状では必要なため、Skype for Business Online のライセンスを有効にしたままにします)。実際、既定の構成を変更する手順をまだ何も実行していない段階でも、ユーザーは自分の組織で Teams をかなりの程度使用できます。  これは、機能のオーバーラップ方法の1つです。 この方式を採用すると、迅速かつエンドユーザー主導の導入を組織内で実現できます。
+アイランド モードは、まだ TeamsOnly ではないすべての既存の組織に対する TeamsUpgradePolicy の既定モードです。 Microsoft 365 または Office 365 のライセンスを割り当てると、Teams と Skype for Business Online ライセンスの両方が既定で割り当てられます。 (これは、ユーザーが Skype for Business Server でオンプレミスに所属している場合でも同じです。 ユーザーの所属がオンプレミスとオンラインのいずれであっても、Teams の機能をすべて使用するには Skype for Business Online が現状では必要なため、Skype for Business Online のライセンスを有効にしたままにします)。実際、既定の構成を変更する手順をまだ何も実行していない段階でも、ユーザーは自分の組織で Teams をかなりの程度使用できます。  これは、機能のオーバーラップ方法の1つです。 この方式を採用すると、迅速かつエンドユーザー主導の導入を組織内で実現できます。
 
 この方式が効果をもたらすには、すべてのユーザーが両方のクライアントを同時に実行している必要があります。 組織内から着信したアイランド モードのユーザー宛てのチャットと通話は、Skype for Business クライアントと Teams クライアントのいずれにも配信される可能性があり、受信者はこれを制御できません。 これは、送信者が通信を開始するために使用するクライアントにより左右されます。 送信者と受信者の組織が異なる場合、アイランド モードのユーザー宛ての着信チャットと通話は、常に Skype for Business クライアントに配信されます。  
 
@@ -148,7 +148,7 @@ Skype for Business (オンラインまたはオンプレミス) を使用する�
 
 -   2 ステップ: Move-CsUser を実行した後で、TeamsUpgradePolicy を使用して、そのユーザーに TeamsOnly モードを付与します。
 
-他のポリシーとは異なり、Office 365 で TeamsUpgradePolicy の新しいインスタンスを作成することはできません。 既存のインスタンスはすべて、このサービスに組み込まれています。  (モードは、TeamsUpgradePolicy 内のプロパティであり、ポリシー インスタンスの名前ではありません)。ポリシー インスタンスの名前がモードと同一である場合もありますが、必ず一致するわけではありません。 特に、ユーザーに TeamsOnly モードを割り当てる場合は、TeamsUpgradePolicy の UpgradeToTeams インスタンスをそのユーザーに付与します。 すべてのインスタンスの一覧を表示するには、次のコマンドを実行します。
+他のポリシーとは異なり、Microsoft 365 または Office 365 では、TeamsUpgradePolicy の新しいインスタンスを作成することはできません。 既存のインスタンスはすべて、このサービスに組み込まれています。  (モードは、TeamsUpgradePolicy 内のプロパティであり、ポリシー インスタンスの名前ではありません)。ポリシー インスタンスの名前がモードと同一である場合もありますが、必ず一致するわけではありません。 特に、ユーザーに TeamsOnly モードを割り当てる場合は、TeamsUpgradePolicy の UpgradeToTeams インスタンスをそのユーザーに付与します。 すべてのインスタンスの一覧を表示するには、次のコマンドを実行します。
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -238,7 +238,7 @@ TeamsOnly モードをテナント レベルで割り当てる場合は、どの
 
 - 組織全体の迅速なアップグレードを行うことができる場合は、このオプションを検討します。  両方のクライアントを実行することに伴う混乱が生じる可能性があるので、この期間を最小限にとどめることをお勧めします。 管理者は、両方のクライアントを実行することをユーザーに周知する必要があります。
 
-- このオプションはすぐに使用できるモデルで、管理者は、Office 365 ライセンスを割り当てること以外、特別なアクションなしで Teams の使用を開始できます。 ユーザーが既に Skype for Business Online を使用している場合は、このモデルを既に使用している可能性があります。
+- このオプションは、既定のモデルであり、Microsoft 365 または Office 365 ライセンスを割り当てることを除いて、管理者による操作を必要としません。 ユーザーが既に Skype for Business Online を使用している場合は、このモデルを既に使用している可能性があります。
 
 - 機能のオーバーラップモードの使用を終了して、TeamsOnly に移動することは難しい場合があります。 アップグレード済みのユーザーは Teams でのみ通信するため、そのユーザーと通信する組織内の他のユーザーはすべて Teams を使用する必要があります。  Teams を使用し始めていないユーザーがいる場合、メッセージを受け取れない可能性が生じます。 さらに、そのようなユーザーには、オンラインの TeamsOnly ユーザーが Skype for Business に表示されません。 これを回避するために、テナントのグローバル ポリシーを使用してテナント全体のアップグレードを実行する組織もありますが、これにはすべてのユーザーのアップグレード準備が整うまで待つ必要があります。
 
@@ -343,7 +343,7 @@ PSTN 通話機能が関係している場合、TeamsOnly モードへの移行�
 
 これは、音声が関係する最も簡単なアップグレード シナリオです。 
 
-1. ユーザーに Teams ライセンスが割り当てられていることを確認します。 既定で、Office 365 ライセンスを割り当てると Teams が有効になるので、その Teams ライセンスを無効にしていない限り、アクションは必要ありません。
+1. ユーザーに Teams ライセンスが割り当てられていることを確認します。 既定では、Microsoft 365 または Office 365 のライセンスを割り当てると、Teams が有効になります。これは、チームのライセンスを無効にしていない限り、操作は必要ありません。
 
 2.  ユーザーが既に電話番号を指定して Microsoft 通話プランを使用している場合に必要な変更は、そのユーザーに TeamsUpgradePolicy で TeamsOnly モードを割り当てることのみです。  TeamsOnly モードを割り当てる前は、着信 PSTN 通話はユーザーの Skype for Business クライアントに配信されます。 TeamsOnly モードにアップグレードすると、着信 PSTN 通話はユーザーの Teams クライアントに配信されます。  
 
@@ -365,7 +365,7 @@ PSTN 通話機能が関係している場合、TeamsOnly モードへの移行�
 
 5. これらのステップは相互に合うように調整する必要があります。 
 
-   - Office 365 で、ユーザーを TeamsOnly モードにアップグレードします (Grant-CsTeamsUpgradePolicy)。
+   - Microsoft 365 または Office 365 では、ユーザーを TeamsOnly モード (Grant-CsTeamsUpgradePolicy) にアップグレードします。
    - SBC で、通話をオンプレミスの仲介サーバーではなくダイレクト ルーティングに送信することにより、音声ルーティングが着信通話を許可するように構成します。
 
 
@@ -383,7 +383,7 @@ PSTN 通話機能が関係している場合、TeamsOnly モードへの移行�
 
 4. 必要に応じて、これらのユーザーに対してさまざまな Teams ポリシーを構成します (TeamsMessagingPolicy や TeamsMeetingPolicy など)。 この操作はいつでも行えますが、ユーザーをアップグレードした時にユーザーが確実に正しく構成されているようにするには、ユーザーを TeamsOnly アップグレードする前にこれを行なっておくのが最善です。
 
-5. 必要に応じて、Office 365 ライセンスを割り当てます。  ユーザーは、電話システムに加えて、Teams と Skype for Business Online プラン 2 の両方が必要です。 Skype for Business Online プラン 2 が無効になっている場合は、もう一度有効にします。  
+5. 必要に応じて、Microsoft 365 または Office 365 のライセンスを割り当てます。  ユーザーは、電話システムに加えて、Teams と Skype for Business Online プラン 2 の両方が必要です。 Skype for Business Online プラン 2 が無効になっている場合は、もう一度有効にします。  
 
 6. これらのステップは相互に合うように調整する必要があります。 
 
@@ -391,7 +391,7 @@ PSTN 通話機能が関係している場合、TeamsOnly モードへの移行�
 
    - SBC で、通話をオンプレミスの仲介サーバーではなくダイレクト ルーティングに送信することにより、音声ルーティングが着信通話を許可するように構成します。 
 
-   - Office 365 で: 関連する OnlineVoiceRoutingPolicy を割り当てて、発信通話を有効にします。 
+   - Microsoft 365 または Office 365 の場合: 発信通話を有効にするために、関連する OnlineVoiceRoutingPolicy を割り当てます。 
 
 
 ### <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>エンタープライズ VoIP を使用している Skype for Business Server オンプレミスから Microsoft 通話プランに移行する場合
@@ -406,7 +406,7 @@ PSTN 通話機能が関係している場合、TeamsOnly モードへの移行�
 
 3. 必要に応じて、これらのユーザーに対してさまざまな Teams ポリシーを構成します (TeamsMessagingPolicy や TeamsMeetingPolicy など)。 この操作はいつでも行えますが、ユーザーをアップグレードした時にユーザーが確実に正しく構成されているようにするには、ユーザーを TeamsOnly アップグレードする前にこれを行なっておくのが最善です。 
 
-4. 必要に応じて、Office 365 ライセンスを割り当てます。ユーザーは、電話システムに加えて、Teams と Skype for Business Online プラン 2 の両方が必要です。 Skype for Business Online プラン 2 が無効になっている場合は、もう一度有効にします。  
+4. 必要に応じて、Microsoft 365 または Office 365 のライセンスを割り当てます。ユーザーは、電話システムに加えて、Teams と Skype for Business Online プラン 2 の両方が必要です。 Skype for Business Online プラン 2 が無効になっている場合は、もう一度有効にします。  
 
 5. ユーザーの電話番号を取得します。 (詳細については、「[組織の電話番号を管理する](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)」を参照してください)。
 
@@ -556,7 +556,7 @@ Teams と Skype for Business は、連絡先の別個のリストを保持しま
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Skype for Business Server と Office 365 の間のハイブリッド接続を構成する](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を構成する](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [オンプレミスとクラウドの間でユーザーを移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 

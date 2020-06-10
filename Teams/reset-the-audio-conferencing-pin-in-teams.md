@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft Teams でユーザーの電話会議の PIN をリセットする方法と、Pin についての重要な事実について説明します。
-ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 8926218c72c888edb00480ff8382672a3730cf15
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905489"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666189"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
@@ -37,7 +37,7 @@ PIN は、電話会議が有効になっている Microsoft Teams ユーザー�
 
 ## <a name="reset-a-users-pin"></a>ユーザーの PIN をリセットする
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -52,7 +52,7 @@ PIN は、電話会議が有効になっている Microsoft Teams ユーザー�
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>ユーザーが自分の PIN をリセットする
 
-1. ユーザーにアクセス権を[https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing)付与します。
+1. ユーザーにアクセス権を付与 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) します。
 2. [ **PIN のリセット**] をクリックします。 
 
 
@@ -66,21 +66,21 @@ PIN は、電話会議が有効になっている Microsoft Teams ユーザー�
     
 - 既定の設定では、匿名の発信者が会議を開始することは許可されていません。
     
-- 電話会議のユーザーを有効にすると、既定では、会議の情報とその PIN を含むメールが送信されます。 PIN がリセットされると、ユーザーに対して設定されているプライマリ SMTP アドレス (エイリアス) 宛てに、ユーザーに Office 365 メールボックスがある必要があります。
+- 電話会議のユーザーを有効にすると、既定では、会議の情報とその PIN を含むメールが送信されます。 PIN がリセットされると、ユーザーに対して設定されているプライマリ SMTP アドレス (エイリアス) に新しい PIN がメールのユーザーに送信されるため、Microsoft 365 または Office 365 メールボックスが必要です。
     
 - 電話会議をセットアップするときには、組織内の Pin に必要な数字を設定します。 Pin は 4 ~ 12 桁にすることができます。既定値は5です。 PIN の長さの設定を変更した場合、設定は新しく生成された Pin にのみ適用され、電話会議用に有効になっている既存のユーザーの PIN の設定には適用されません。 「[電話会議の PIN の長さを設定](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)する」を参照してください。
     
-- 既定では、メールはユーザーの Office 365 プライマリ SMTP アドレスに設定されます。 Hotmail または MSN のメールアドレスなど、Office 以外の365のアドレスにメールを送信することができます。 Windows PowerShell を使用して、既定のメールアドレスを上書きできます。 これは、ユーザーが Office 365 の Exchange メールボックスを持っていない場合に便利です。
+- 既定では、メールはユーザーの Microsoft 365 または Office 365 プライマリ SMTP アドレスに設定されます。 メールは、Microsoft 以外の365または Office 以外の365アドレス (Hotmail または MSN のメールアドレスなど) に送信できます。 Windows PowerShell を使用して、既定のメールアドレスを上書きできます。 これは、ユーザーが Microsoft 365 または Office 365 で Exchange メールボックスを持っていない場合に便利です。
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常的な作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
   

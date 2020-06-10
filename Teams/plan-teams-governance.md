@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a196dfee988a41a5d8145d9b6256d1df6e714133
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905829"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665279"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
@@ -41,7 +41,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |判断ポイント|<ul><li>自分の組織において、チームについての特定の名前付け規則はありますか?</li><li>チーム作成者は組織固有の分類をチームに割り当てる機能を必要としていますか?</li><li>チームにゲストを追加する機能を、チーム単位で制限する必要はありますか?</li><li>自分の組織において、チームを作成可能なユーザーを制限する必要はありますか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|次のステップ|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|次の手順|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 > [!TIP]
 > 次の表を使用して、組織の要件を把握します。
@@ -58,7 +58,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 > 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> グループおよびチームの作成を制限することにより、自分たちのユーザーの生産性が下がる可能性があります。これは、多くの Office 365 サービスで、サービスが機能するためにグループが作成されることが必要となるためです。 詳細については、「 [Microsoft 365 グループを作成するユーザーを制御](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)する」を参照してください。
+> グループとチームの作成を制限すると、Microsoft 365 および Office 365 サービスの多くでは、サービスを機能させるためにグループを作成する必要があるため、ユーザーの生産性が低下する可能性があります。 詳細については、「 [Microsoft 365 グループを作成するユーザーを制御](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)する」を参照してください。
 
 
 #### <a name="additional-information"></a>追加情報
@@ -87,7 +87,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 |機能 |詳細 |Azure AD Premium ライセンスが必要 |Decision |
 |---------|---------|---------|---------|
 |有効期限ポリシー |有効期限ポリシーを設定して、Microsoft 365 グループのライフサイクルを管理します。 |P1 |TBD|
-|アイテム保持ポリシー |セキュリティ/コンプライアンス センターで Teams の保持ポリシーを設定して、特定の期間内のデータを保持または削除します。**注:** この機能を使用するには、Office 365 Enterprise E3 以上のライセンスが必要です。 |いいえ |TBD |
+|アイテム保持ポリシー |セキュリティ/コンプライアンス センター内で Teams の保持ポリシーを設定することによって特定の期間におけるデータを保持または削除します。 **注**: この機能を使用するには、Microsoft 365 または Office 365 Enterprise E3 以上のライセンスが必要です。 |いいえ |TBD |
 |アーカイブと復元 |チームがアクティブでなくなったときにチームをアーカイブして、参照用または将来再アクティブ化するために保持します。 |いいえ |TBD |
 
 > [!Note]
@@ -106,7 +106,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 ## <a name="teams-feature-management"></a>Teams 機能の管理
 
-Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 Office 365 組織レベルまたはユーザーごとのいずれかで、メッセージング、会議、通話の機能を管理できます。 
+Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 Microsoft 365 または Office 365 組織レベルまたはユーザーごとのいずれかで、メッセージング、会議、通話の機能を管理できます。
 
 
 |         |         |
@@ -129,7 +129,7 @@ Teams にはポリシーを介して、メッセージング、会議、通話�
 
 ## <a name="security-and-compliance"></a>セキュリティとコンプライアンス
 
-Teams は Office 365 の高度なセキュリティおよびコンプライアンス機能に基づいて構築されており、監査および報告、コンプライアンスのコンテンツ検索、電子情報開示、訴訟ホールド、および保持ポリシーをサポートします。 
+Teams は、Microsoft 365 および Office 365 の高度なセキュリティ機能とコンプライアンス機能に基づいて構築されており、監査とレポート、コンプライアンスコンテンツの検索、電子情報開示、法的保持、アイテム保持ポリシーをサポートしています。
 
 > [!Important]
 > 自分の組織でコンプライアンスおよびセキュリティに関する要件がある場合は、「[Microsoft Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」の記事で、このトピックについての掘り下げた内容を確認してください。

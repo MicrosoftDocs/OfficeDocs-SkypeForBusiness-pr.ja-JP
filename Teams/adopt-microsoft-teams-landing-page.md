@@ -21,14 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76086d7e34d56a9bab59c7ca10ed40472aecd7a1
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610246"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665929"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
+
+> [!NOTE]
+> 開始するためにリモートのラーニングとリソースへの切り替えを行う方法の概要については、[**リモートラーニングのホームページ**](https://www.microsoft.com/education/remote-learning)を参照してください。
 
 小規模ビジネスの場合、またはチャット、teams & チャネル、会議などで開始するチームをロールアウトする場合は、この[ガイド](get-started-with-teams-quick-start.md)を使用して、すぐに作業を開始できるように設計されています。 ハイブリッドまたはオンプレミスの Skype for Business の構成を使用している大規模な組織の場合、または音声機能 (Microsoft 365 または Office 365 の通話プランや電話システムなど) を展開する場合は、「はじめ**に」の**ガイダンスに従って、次の追加のガイダンスをご覧ください。
 

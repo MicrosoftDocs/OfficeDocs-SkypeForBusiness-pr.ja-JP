@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: ポート注文の概要と、サービスプロバイダーからチームに電話番号を移行する方法について説明します。
-ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: bc15d7be98f83b39a7dde006e3043b407b76a63e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227541"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665899"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 
@@ -65,7 +65,7 @@ ms.locfileid: "43227541"
 
 - Vonage や RingCentral などの電話会社からの VoIP 電話番号。
 
-- Skype for Business ハイブリッド電話番号。 これらの番号を移行する場合は、メールで<ptn@microsoft.com>お送りください。
+- Skype for Business ハイブリッド電話番号。 これらの番号を移行する場合は、メールでお送り <ptn@microsoft.com> ください。
 
   **次の転送はできません。**
   
@@ -112,7 +112,7 @@ ms.locfileid: "43227541"
 
 - 携帯電話番号
 
-- Office 365 で電話会議に使用できるサービス番号。
+- Microsoft 365 または Office 365 での電話会議に使用できるサービス番号。
 
 次に、これらの各種類の数値に対して番号移行要求を送信する方法について詳しく説明します。
   
@@ -131,7 +131,7 @@ ms.locfileid: "43227541"
 
 ポート注文の要求が完了すると、処理が完了するまでに7-14 日がかかります。 ただし、サービス プロバイダーによっては、最大 30 日かかる場合があります。 電話番号を移行した後は、skype からメールを受信して、連絡を取ることができます。
   
-ポート注文の状態を確認するには、Microsoft Teams 管理センターの左側のナビゲーションで、[**電話番号** **] に移動** > し、[**注文履歴**] をクリックします。 各ポート注文の状態は、[**状態**」列に表示されます。
+ポート注文の状態を確認するには、Microsoft Teams 管理センターの左側のナビゲーションで、[ **Voice**  >  **電話番号**] に移動し、[**注文履歴**] をクリックします。 各ポート注文の状態は、[**状態**」列に表示されます。
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>ユーザー (加入者番号) の電話番号をサービス番号に変更できますか?
 <a name="bkmk_type_1"> </a>

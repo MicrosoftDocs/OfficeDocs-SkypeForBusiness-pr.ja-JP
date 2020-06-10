@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: 55f65bf14973b54b091e0a6c3ecdc3edf49e6ed3
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 726e14aef92eed8fe681d183b8e1cfd404e659ca
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637966"
+ms.locfileid: "44665139"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -395,7 +395,6 @@ Teams で [**表示できるユーザー]** の既定値を指定するには、
 
 - すべてのユーザーの**上書き**: すべての会議参加者を発表者にすることができます。 これは既定の値です。 このパラメーターは、Teams の [**すべてのユーザー** ] 設定に対応します。
 - すべてのユーザーの**上書き**: ゲストユーザーを含む、組織内の認証済みユーザーは発表者になることができます。 このパラメーターは、Teams の **[組織内のユーザー** ] 設定に対応します。
-- **EveryoneInSameAndFederatedCompanyUserOverride**: 組織内の認証済みユーザー (ゲストユーザーやフェデレーションされた組織のユーザーを含む) は、発表者になることができます。 このパラメーターは、 **[組織内のユーザー] と [Teams の信頼済み組織**] の設定に対応します。
 - 構成内容の**上書き**: 会議の開催者のみが発表者になり、すべての会議参加者が出席者として指定されます。 このパラメーターは、Teams の [**自分のみ**] の設定に対応しています。
 
 既定値を設定した後でも、会議の開催者は Teams でこの設定を変更することができ、スケジュールした会議で発表できるユーザーを選択することに注意してください。

@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: デバイス、ネットワーク、接続に関する通話分析の詳細を使用して、Microsoft Teams および Skype for Business の通話と会議でのユーザーの問題のトラブルシューティングを行います。
-ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 71a1e1c339c502da5cbbf998c75e758f2bbe3be2
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749564"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665249"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>通話分析を使用して低品質の通話をトラブルシューティングする
 
-通話分析は、Microsoft Teams と Skype for Business の通話や接続の問題のトラブルシューティングに役立ちます。 通話分析には、Office 365 アカウントの各ユーザーの通話と会議のデバイス、ネットワーク、接続に関する詳細情報が表示されます。 通話分析に建物、サイト、テナントの情報が追加されている場合は、通話とセッションごとにも表示されます。 通話分析を通じて提供される情報は、ユーザーが不適切な通話や会議の操作を行った理由を把握するのに役立ちます。 
+通話分析は、Microsoft Teams と Skype for Business の通話や接続の問題のトラブルシューティングに役立ちます。 [通話分析] には、Microsoft 365 または Office 365 アカウントの各ユーザーの通話と会議のデバイス、ネットワーク、接続に関する詳細情報が表示されます。 通話分析に建物、サイト、テナントの情報が追加されている場合は、通話とセッションごとにも表示されます。 通話分析を通じて提供される情報は、ユーザーが不適切な通話や会議の操作を行った理由を把握するのに役立ちます。 
   
 ## <a name="call-analytics-permissions"></a>通話分析のアクセス許可
 
@@ -60,7 +60,7 @@ Teams の管理者ロールの詳細については、「 [Microsoft teams の�
 
 1. Teams の通信サポートまたはチーム管理者の資格情報でサインインします。
 
-2. Web ブラウザーで、に*https://admin.teams.microsoft.com*移動します。
+2. Web ブラウザーで、に移動 *https://admin.teams.microsoft.com* します。
     
 3. **ダッシュボード**の [**ユーザー検索**] で、通話のトラブルシューティングを行うユーザーの名前または sip アドレスの入力を開始するか、[**ユーザーの表示**] を選択してユーザーのリストを表示します。
     

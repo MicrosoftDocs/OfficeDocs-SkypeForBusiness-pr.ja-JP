@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491f4132d5f5c4c4e5d8215d0d48277a864cf064
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4cd9b38f09d4936d2db895f3ae8861bcf65b8a4e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905219"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666029"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Skype for Business オンプレミスから Teams にアップグレードする
 
@@ -42,7 +42,7 @@ ms.locfileid: "43905219"
 -   [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
 
-Skype for Business Server または Microsoft Lync をオンプレミスで展開していて、組織が Teams にアップグレードする必要がある場合は、この記事のガイダンスに従ってください。 ユーザーを段階的にチームに移行する場合は、Office 365 組織とのハイブリッド接続をセットアップして、共存の要件を特定する必要があります。 
+Skype for Business Server または Microsoft Lync をオンプレミスで展開していて、組織が Teams にアップグレードする必要がある場合は、この記事のガイダンスに従ってください。 ユーザーを段階的にチームに移行する場合は、Microsoft 365 または Office 365 組織とのハイブリッド接続をセットアップして、共存の要件を特定する必要があります。 
 
 > [!IMPORTANT]
 > Skype for Business Online は 2021 年 7 月 31 日に廃止される予定です。それ以降、アクセスとサポートが終了します。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。 アップグレードが成功すると、技術面およびユーザーの準備が整ったことになります。Microsoft Teams への移行を進める際には、必ずこのガイドを活用してください。

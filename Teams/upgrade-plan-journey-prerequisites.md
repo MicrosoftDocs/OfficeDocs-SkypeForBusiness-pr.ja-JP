@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9a5cd56e367b9255bd4c41b556583dcc921416a
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523200"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666069"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Teams の前提条件と環境上の依存関係
 
@@ -36,15 +36,15 @@ ms.locfileid: "44523200"
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Teams では、複数の Office 365 サービスが組み合わされているため、これらのサービスの適切な実装と運用によって異なります。 これらのサービスには、SharePoint Online、Exchange Online、OneDrive for Business などが含まれますが、これらは限定されません。
+Teams は、複数の Microsoft 365 と Office 365 サービスを組み合わせたものであり、これらのサービスの適切な実装と運用によって異なります。 これらのサービスには、SharePoint Online、Exchange Online、OneDrive for Business などが含まれますが、これらは限定されません。
 
 すべてのサービスが必要となるわけではありませんが、すべてのサービスを実装することを強くお勧めします。 特定のサービスを実装しない場合は、チームが組織に提供できる機能に影響します。 たとえば、SharePoint Online を実装する必要はありませんが、チームは SharePoint Online を使用して、グループ会話でのファイル共有などの特定の機能を利用しているため、このサービスを実装しないと、クライアントで提供される機能が低下します。
 
 前提条件については、次の記事を参照してください。チームと他のテクノロジとの相互作用について説明します。
 
-- 組織で Office 365 ワークロードを展開していない場合は、「一般[法人向け office 365](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)の概要」を参照してください。
+- 組織で Microsoft 365 または Office 365 のワークロードを展開していない場合は、「使用を[開始](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)する」を参照してください。
 
-- 組織で Office 365 の確認済みドメインを追加または構成していない場合は、「 [office 365 ドメインを確認](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)する」を参照してください。
+- 組織で、Microsoft 365 または Office 365 の確認済みドメインを追加または構成していない場合は、「ドメインに関する[FAQ](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)」を参照してください。
 
 - 組織で id が Azure Active Directory に同期されていない場合は、「 [Microsoft Teams の id モデルと認証](identify-models-authentication.md)」を参照してください。
 

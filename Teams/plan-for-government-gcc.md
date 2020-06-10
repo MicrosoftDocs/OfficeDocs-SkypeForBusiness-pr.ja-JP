@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Government-GCC 展開
+title: Office 365 Government-GCC 展開
 author: lolajacobsen
 ms.author: heidip
 manager: serdars
@@ -20,16 +20,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab398d4d76eb0c1ae6bac37b7c9c198ebc82d86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b93762c92d9681074124ba8ddb3fd066bdf8a60a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137813"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665229"
 ---
-# <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 Government-GCC 展開を計画する
+# <a name="plan-for-office-365-government---gcc-deployments"></a>Office 365 Government-GCC 展開を計画する
 
-このガイダンスは、米国連邦、州、地方、tribal、または territorial 政府機関の法人、州、地方、、または行政機関の関係にあるデータを処理する IT 365 プロフェッショナルを対象としており、これらの要件を満たすために Microsoft 365 Government-GCC の使用が適しています。 2020年3月 26[日: GCC 向けのダウンロード可能なクイックスタートガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)をお見逃しなく。
+このガイダンスは、米国連邦、州、地方、tribal、または territorial 政府機関の法人、州、地方、、または行政機関の団体またはその他の法人で、これらの要件を満たすために Office 365 Government-GCC の使用が適している場合に、Office 365 の展開を行う IT プロフェッショナルを対象としています。 2020年3月 26[日: GCC 向けのダウンロード可能なクイックスタートガイド](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)をお見逃しなく。
 
 > [!IMPORTANT]
 > Microsoft Teams では、coronavirus (COVID-19) pandemic のため、オンライン通話、音声/ビデオ会議に大きなスパイクが発生しています。<br/>
@@ -44,20 +44,20 @@ ms.locfileid: "43137813"
 
 
 > [!NOTE]
-> 組織が既に Microsoft 365 Government-GCC の資格要件を満たし、プログラムに受け入れられている場合は、手順1と2をスキップして、手順3に進みます。 
+> 組織が既に Office 365 Government-GCC の資格要件を満たし、プログラムに承認された場合は、手順1と2をスキップして、手順3に進んでください。 
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>手順1 組織に Microsoft 365 Government-GCC が必要かどうか、および資格要件を満たしているかどうかを確認します。 
+## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-and-meets-eligibility-requirements"></a>手順1 組織に Office 365 Government-GCC が必要かどうかを判断し、資格要件を満たしているかどうかを確認します。 
 
-Microsoft 365 Government-GCC 環境は、お客さまのクラウドサービスに関する米国政府の要件に準拠します。これには、FedRAMP の低品質、刑事司法および連邦税情報システム (CJI と FTI のデータ型) が含まれます。
+Office 365 Government-GCC 環境は、お客さまのクラウドサービスに関する米国政府の要件に準拠します。これには、FedRAMP の低品質、刑事司法および連邦税情報システム (CJI と FTI のデータ型) が含まれます。
 
-Office 365 の機能を活用できるだけでなく、Microsoft 365 Government-GCC に固有の次の機能を利用することができます。
+Office 365 の機能を活用できるだけでなく、Office 365 Government-GCC に固有の次の機能を利用することができます。
 
 -   組織の顧客のコンテンツは、Microsoft の一般法人向け Office 365 サービスの顧客のコンテンツから論理的に分離されます。
 -   組織の顧客コンテンツは、米国内に保存されています。
 -   組織のお客様のコンテンツへのアクセスは、Microsoft のユーザーに制限されています。
--   Microsoft 365 Government-GCC は、米国公的機関のお客様に必要な認定および accreditations に準拠しています。
+-   Office 365 Government-GCC は、米国公的機関のお客様に必要な認定および accreditations に準拠しています。
 
-米国政府機関向け Microsoft 365 政府向けの GCC 製品の詳細については、「[資格要件](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)を含む[Office 365 政府](https://products.office.com/government/compare-office-365-government-plans)機関向けプラン」を参照してください。
+米国政府機関向けの Office 365 Government-GCC のお客様向けの詳細については、「[資格要件](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)を含む[office 365 政府](https://products.office.com/government/compare-office-365-government-plans)機関向けプラン」を参照してください。
 
 [Office 365 US Government service の説明](https://technet.microsoft.com/library/mt774581.aspx)では、プラットフォームの利点について説明します。これは、米国内でのコンプライアンス要件を満たしています。
 
@@ -66,27 +66,27 @@ Office 365 の機能を活用できるだけでなく、Microsoft 365 Government
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織に対して Microsoft 365 Government-GCC が適切であるかどうかを決定します。</li><li>組織が資格要件を満たしていることを確認します。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織に合わせて Office 365 Government と GCC のどちらを使用するかを決定します。</li><li>組織が資格要件を満たしていることを確認します。</li></ul> |
 
 > [!Note]
-> Microsoft 365 Government-GCC は米国でのみ利用可能です。 米国政府以外のお客様は、多数の[Office 365 Government プラン](https://products.office.com/en/government/compare-office-365-government-plans)から選ぶことができます。
+> Office 365 Government-GCC はアメリカ国内でのみご利用いただけます。 米国政府以外のお客様は、多数の[Office 365 Government プラン](https://products.office.com/en/government/compare-office-365-government-plans)から選ぶことができます。
 
 
-## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>手順2 Microsoft 365 Government-GCC に適用する
+## <a name="step-2-apply-for-office-365-government---gcc"></a>手順2 Office 365 Government に適用する-GCC
 
 このサービスが組織に適していると判断された場合は、[ここでこのサービスの適用](https://products.office.com/government/eligibility-validation)プロセスを開始します。
 
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>手順3 Microsoft 365 Government-GCC の既定のセキュリティ設定について説明します。
+## <a name="step-3-understand-office-365-government---gcc-default-security-settings"></a>手順3 Office 365 Government-GCC の既定のセキュリティ設定について説明します。
 
 [管理とセキュリティの設定](enable-features-office-365.md)を変更する前に慎重に確認し、コンプライアンスへの影響を考慮して、既定のセキュリティ設定を変更することをお勧めします。
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft 365 Government の既定のセキュリティ設定を変更するかどうかを決定します。解決するには、変更の影響を最初に理解する必要があります。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>既定の Office 365 Government-GCC のセキュリティ設定を変更するかどうかを決定します。解決するには、変更の影響を最初に理解する必要があります。</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>手順4。 現在、どの機能が既定で利用できないか、無効になっているかを理解する。
 
-政府機関向けクラウドのお客様の要件に対応するため、Microsoft 365 Government-GCC とエンタープライズのプランにはいくつかの違いがあります。 使用できる機能については、次の表を参照してください。
+政府機関のクラウドのお客様の要件に対応するため、Office 365 Government-GCC とエンタープライズのプランにはいくつかの違いがあります。 使用できる機能については、次の表を参照してください。
 
 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
@@ -108,7 +108,7 @@ Office 365 の機能を活用できるだけでなく、Microsoft 365 Government
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>手順6 チームをコラボレーションのために展開する
 
-Microsoft 365 Government – GCC に onboarded したら、「 [Microsoft Teams をロールアウトする方法](How-to-roll-out-teams.md)」に記載されている展開の推奨パスに従います。 お客様の導入と変更管理チームやチームのチャンピオンに協力してください。
+Office 365 Government – GCC に onboarded したら、「 [Microsoft Teams をロールアウトする方法](How-to-roll-out-teams.md)」に記載されている展開の推奨パスに従います。 お客様の導入と変更管理チームやチームのチャンピオンに協力してください。
 
 また、 [Fasttrack](https://www.microsoft.com/fasttrack)または選択したパートナーと連携してサービスを稼働させることもできます。
 

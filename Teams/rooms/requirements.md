@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams ミーティングをサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fbfad5deba6288736beea0ef69660426975bb6fa
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: e7dfc83bc3e1eff42c7a8de3f7e80fb25c03bf90
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591307"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666269"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams ミーティングの要件
 
@@ -38,7 +38,7 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
 > [!NOTE]
 > Microsoft Teams ミーティングでは、Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015、または Skype for Business Online にサインインし、これらのサービスでホストされている会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams ミーティングではサポートしていません。 Microsoft Teams ミーティングは、21Vianet が運用している Office 365 や GCC-High 環境、DoD 環境ではサポートされません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams ミーティングではサポートしていません。 Microsoft Teams 室は、21Vianet が運営する Microsoft 365 または Office 365、または GCC-高、または DoD 環境ではサポートされていません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams ミーティングでは Exchange Server 2013 SP1 以降を使用する必要があります。
 

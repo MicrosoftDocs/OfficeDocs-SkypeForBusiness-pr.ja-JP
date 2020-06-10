@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: ユーザー向けの Office 365 サブスクリプションプランを購入して、無料版の Microsoft Teams から製品版に簡単にアップグレードする方法について説明します。
+description: Microsoft Teams の無料バージョンから製品版へのアップグレードを簡単に行う方法については、Microsoft 365 または Office 365 のサブスクリプションプランをご購入ください。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c760285655d9bb2557fbf981c333e1019cef379
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1b60ea0159207c88a9aab7030a1d058a44c649eb
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904452"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666009"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>無料版の Microsoft Teams をサブスクリプションバージョンにアップグレードする
 ======================================================
 
-組織で Microsoft Teams の無料バージョンを使用している場合は、Microsoft 365 または Office 365 のサブスクリプションプランを購入すれば、簡単に製品版にアップグレードできます。 フルバージョンでは、スケジュール、電話会議、強化された管理、セキュリティ機能など、無料版では提供されていないその他の Teams 機能が提供されています。 Office 365 は、使い慣れた Microsoft Office デスクトップスイートと、Exchange Online、SharePoint Online、Office などの Microsoft の次世代通信とコラボレーションサービスのクラウドベースのバージョンを組み合わせたものです。ユーザーはインターネットを介して実質上どこにいても生産性を高めることができます。 チームをアップグレードしても、既存のチームデータは失われません。すべてのチーム、チャネル、チャット、ファイル、権限が追加されました。 
+組織で Microsoft Teams の無料バージョンを使用している場合は、Microsoft 365 または Office 365 のサブスクリプションプランを購入すれば、簡単に製品版にアップグレードできます。 フルバージョンでは、スケジュール、電話会議、強化された管理、セキュリティ機能など、無料版では提供されていないその他の Teams 機能が提供されています。 Microsoft 365 と Office 365 は、使い慣れた Microsoft Office デスクトップスイートと、Exchange Online、SharePoint Online、Office などの Microsoft の次世代通信とコラボレーションサービスのクラウドベースのバージョンに統合されています。これにより、ユーザーはインターネット上のあらゆる場所から生産性を高めることができます。 チームをアップグレードしても、既存のチームデータは失われません。すべてのチーム、チャネル、チャット、ファイル、権限が追加されました。 
 
 > [!NOTE]
 > Microsoft 365 または Office 365 のサブスクリプションを既にお持ちの場合は、無料バージョンではなく、Teams の試用版 (会社の id が含まれます) を対象としています。 Teams 試用版では、期間限定で Teams のフルバージョンが提供されます。 詳細については、「 [Microsoft Teams の商用クラウド試用版を管理する](iw-trial-teams.md)」を参照してください。
@@ -51,12 +51,12 @@ Microsoft 365 または Office 365 サブスクリプションに含まれてい
 
 - ユーザー制限なし (エンタープライズライセンスあり)
 - Exchange メールホスティングとカスタムメールドメイン
-- OneDrive、SharePoint、Planner、Yammer、その他の Office 365 サービス
+- OneDrive、SharePoint、Planner、Yammer、その他の Microsoft 365 および Office 365 サービス
 - ユーザーあたり 1 TB のストレージ
 - スケジュールされた会議
 - 電話会議
 - 多要素認証、シングルサインオン、高度な監査とレポートなど、強化されたセキュリティ機能とコンプライアンス機能
-- 24 x 7 の電話と web のサポート、ユーザーとアプリを管理するための管理ツール、Office 365 サービスの使用状況レポート、サービスレベル契約、および構成可能なユーザー設定とポリシーを含む、管理コントロールとサポート機能
+- 24 x 7 の電話と web のサポート、ユーザーとアプリを管理するための管理ツール、Microsoft 365 または Office 365 サービスの使用状況レポート、サービスレベル契約、および構成可能なユーザー設定とポリシーを含む、管理コントロールとサポート機能
 
 Teams の無料機能と Teams 機能の詳細については、「[チームプランの比較](https://products.office.com/microsoft-teams/free)」を参照してください。
 
@@ -65,10 +65,10 @@ Teams の無料機能と Teams 機能の詳細については、「[チームプ
 次の要件を満たしている場合は、フルバージョンの Teams にアップグレードすることができます。
 
 - 既存の Teams 無料サブスクリプションにサインアップしたユーザーです。
-- 独自のドメインを使用している場合は、既に Azure Active Directory に関連付けられていない (試用版または購入済みの O365 サブスクリプション経由)。
+- 独自のドメインを作成している場合は、まだ Azure Active Directory に関連付けられていません (試用版または Microsoft 365 または Office 365 サブスクリプション経由)。
 
 > [!NOTE]
-> データをアップグレードして転送するには、Teams アプリケーションのアップグレードプロセスを通じてサブスクリプションを購入する必要があります。 アップグレードプロセスを行わずに Teams で Office 365 を購入した場合は、既に別のテナントがあるため、データを転送することはできません。
+> データをアップグレードして転送するには、Teams アプリケーションのアップグレードプロセスを通じてサブスクリプションを購入する必要があります。 アップグレードプロセスを行わずに、Microsoft 365 または Office 365 をチームと共に購入した場合は、別のテナントがあるため、データを転送できません。
 
 ## <a name="limitations"></a>伴う
 
@@ -76,7 +76,7 @@ Teams の無料機能と Teams 機能の詳細については、「[チームプ
 
 - アップグレードした後は、無料で Teams に戻すことはできません。
 - 複数の Teams 無料テナントを1つの有料テナントに統合することはできません。
-- すべてのユーザーが同じドメインに存在する必要があります。 (すべてのユーザーは、 *username*@*domain.com*の形式でサインインします)。
+- すべてのユーザーが同じドメインに存在する必要があります。 (すべてのユーザーは、ユーザー*名* @ の形式でサインインします。*domain.com*
 - すべてのユーザーをアップグレードする必要があります。同じテナントに Teams の無料サブスクリプションユーザーと有料サブスクリプションの両方を混在させることはできません。
 
 ## <a name="how-do-i-upgrade-my-organization"></a>組織をアップグレードするにはどうすればよいですか?

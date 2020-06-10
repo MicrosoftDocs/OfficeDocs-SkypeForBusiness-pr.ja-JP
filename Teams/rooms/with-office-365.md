@@ -15,26 +15,26 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、microsoft Teams のルームを Microsoft 365 または Office 365 と共に展開する方法について説明します。この情報には、Teams または Skype for Business および Exchange が両方ともオンラインになっています。
-ms.openlocfilehash: 2b7574b54782140e3f082c8c3859c9caee7712eb
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9a4ee558cfa9901566afc7f30f1f64a8b745331b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905279"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666139"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft Teams のルームを Microsoft 365 または Office 365 と共に展開する
 
-このトピックでは、microsoft teams または Skype for Business および Exchange が両方ともオンラインの Office 365 で Microsoft Teams ルームを展開する方法について説明します。
+このトピックでは、microsoft teams または Skype for Business および Exchange が両方ともオンラインで、microsoft Teams のルームを Microsoft 365 または Office 365 に展開する方法について説明します。
 
 ユーザーアカウントをセットアップする最も簡単な方法は、リモートの Windows PowerShell を使用してアカウントを構成することです。 Microsoft には、新しいユーザーアカウントを作成するのに役立つスクリプト、または既存のリソースアカウントを、互換性のある Microsoft Teams 室のユーザーアカウントに変換するために使用している既存のリソースアカウントを検証するための SkypeRoomProvisioningScript が用意されてい[ます](https://go.microsoft.com/fwlink/?linkid=870105)。 必要に応じて、次の手順に従って、Microsoft Teams の会議室のデバイスで使用するアカウントを構成することができます。
 
 ## <a name="requirements"></a>要件
 
-Microsoft Teams のルームを Office 365 に展開する前に、要件を満たしていることを確認してください。 詳細については、「 [Microsoft Teams の会議室の要件](requirements.md)」を参照してください。
+Microsoft Teams のルームを Microsoft 365 または Office 365 に展開する前に、要件を満たしていることを確認してください。 詳細については、「 [Microsoft Teams の会議室の要件](requirements.md)」を参照してください。
 
 Skype for Business を有効にするには、次のものが必要です。
 
-- Office 365 プランで Skype for Business Online (プラン2、またはエンタープライズベースのプラン) 以上。 このプランでは、ダイヤルイン会議機能を許可する必要があります。
+- Skype for Business Online (プラン2、またはエンタープライズベースのプラン) 以上で、Microsoft 365 または Office 365 プランに含まれています。 このプランでは、ダイヤルイン会議機能を許可する必要があります。
 
 - 会議からダイヤルイン機能が必要な場合は、電話会議と電話システムのライセンスが必要です。  会議からダイヤルアウト機能が必要な場合は、電話会議ライセンスが必要です。
 
@@ -58,16 +58,16 @@ Skype for Business Online プランの詳細については、「 [skype For Bus
 
      この例では、次の設定で新しい会議室のメールボックスを作成します。
 
-     - Name: Project-Rigel-01
+     - 名前: Rigel-01
 
-     - エイリアス: ProjectRigel01
+     - エイリアス: Rigel1
 
-     - アカウント: ProjectRigel01@contoso.onmicrosoft.com
+     - アカウント: Rigel1@contoso.onmicrosoft.com
 
      - アカウントパスワード: P@ $ $W 0rd5959
 
      ``` PowerShell
-     New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     New-Mailbox -Name "Rigel-01" -Alias Rigel1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
    - 既存の会議のメールボックスを変更するには、次の構文を使用します。
@@ -76,10 +76,10 @@ Skype for Business Online プランの詳細については、「 [skype For Bus
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     次の例では、エイリアス値 ProjectRigel02 を持つ既存のルームメールボックスのアカウントを有効にし、パスワードを 9898P@ $ $W 0rd に設定します。 既存のエイリアス値が原因で、アカウントが ProjectRigel02@contoso.onmicrosoft.com されることに注意してください。
+     次の例では、エイリアス値 Rigel2 を持つ既存のルームメールボックスのアカウントを有効にし、パスワードを 9898P@ $ $W 0rd に設定します。 既存のエイリアス値が原因で、アカウントが Rigel2@contoso.onmicrosoft.com されることに注意してください。
 
      ``` PowerShell
-     Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
    構文とパラメーターの詳細については、「[新しいメールボックス](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox)と[設定-](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)メールボックス」を参照してください。
@@ -104,12 +104,12 @@ Skype for Business Online プランの詳細については、「 [skype For Bus
    この例では、Rigel-01 という名前の会議室メールボックスでこれらの設定を構成します。
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
    構文とパラメーターの詳細については、「 [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
-4. MS Online PowerShell に接続して、 `Connect-MsolService -Credential $cred` powershell コマンドレットを実行して Active Directory の設定を行います。   Active Directory の詳細については、「 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。 
+4. MS Online PowerShell に接続して、powershell コマンドレットを実行して Active Directory の設定を行い `Connect-MsolService -Credential $cred` ます。   Active Directory の詳細については、「 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)はサポートされていません。 
@@ -124,14 +124,14 @@ Skype for Business Online プランの詳細については、「 [skype For Bus
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   次の例では、アカウント ProjectRigel01@contoso.onmicrosoft.com のパスワードを無期限に設定します。
+   次の例では、アカウント Rigel1@contoso.onmicrosoft.com のパスワードを無期限に設定します。
 
   ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
   ```
 <!-- 
    ``` PowerShell
-   Set-AzureADUserPassword -UserPrincipalName ProjectRigel01@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
    次のコマンドを実行して、アカウントの電話番号を設定することもできます。
@@ -144,7 +144,7 @@ Skype for Business Online プランの詳細については、「 [skype For Bus
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. デバイスアカウントには、有効な Office 365 ライセンスが必要です。または、Exchange と Microsoft Teams、または Skype for Business が動作しません。 ライセンスを所有している場合は、使用場所をデバイスアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 使用できる方法`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Office 365 組織で利用可能な Sku の一覧を取得するには、次の手順を実行します。
+6. デバイスアカウントには、有効な Microsoft 365 または Office 365 のライセンスが必要です。または、Exchange および Microsoft Teams または Skype for Business が動作しません。 ライセンスを所有している場合は、使用場所をデバイスアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 使用できる方法`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> Microsoft 365 または Office 365 組織で利用可能な Sku の一覧を取得するには、次の手順を実行します。
 
   ``` Powershell
   Get-MsolAccountSku
@@ -195,11 +195,11 @@ Skype for Business Online プランの詳細については、「 [skype For Bus
     > [!NOTE]
     > 新しいユーザーアカウントが、テナント内の既存のユーザーアカウントと同じレジストラープールに作成されていない可能性があります。 上のコマンドを実行すると、アカウント設定のエラーがこの状況で発生することはありません。
 
-Microsoft teams または Skype for Business Online で Microsoft Teams のルームアカウントを有効にするための上記の手順を完了したら、Microsoft teams の会議デバイスにライセンスを割り当てる必要があります。 Office 365 管理ポータルを使用して、デバイスに Skype for Business Online (プラン 2) または Skype for Business Online (Plan 3) ライセンスを割り当てます。
+Microsoft teams または Skype for Business Online で Microsoft Teams のルームアカウントを有効にするための上記の手順を完了したら、Microsoft teams の会議デバイスにライセンスを割り当てる必要があります。 Microsoft 365 管理センターを使用して、デバイスに Skype for Business Online (プラン 2) または Skype for Business Online (Plan 3) ライセンスを割り当てます。
 
 ### <a name="assign-a-license-to-your-account"></a>ライセンスをアカウントに割り当てる
 
-1. テナント管理者としてログインし、Office 365 管理ポータルを開いて、[管理者] アプリをクリックします。
+1. テナント管理者としてログインし、Microsoft 365 管理センターを開き、[管理者] アプリをクリックします。
 
 2. [**ユーザーとグループ**] をクリックしてから [**ユーザーの追加、パスワードのリセットなど**] をクリックします。
 
@@ -216,27 +216,27 @@ Microsoft teams または Skype for Business Online で Microsoft Teams のル�
 Exchange Online PowerShell コマンド:
 
 ``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
+Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
 -AdditionalResponse "This is a Rigel room!"
 ```
 
 Azure Active Directory PowerShell コマンド:
 
 ``` PowerShell
-Set-MsolUser -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```
 
 <!-- 
 ``` PowerShell
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```  -->
 
 Skype for Business PowerShell コマンド:

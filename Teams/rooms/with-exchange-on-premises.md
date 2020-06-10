@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: このトピックでは、オンプレミスの Exchange を使用したハイブリッド環境で Microsoft Teams のルームを展開する方法について説明します。
-ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d017706a0e512a4945eaccd69c0e11a7962ca518
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905299"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666159"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams ミーティング を展開
 
@@ -36,17 +36,17 @@ Microsoft には、新しいユーザーアカウントを作成するのに役�
 
 Exchange とオンプレミスの Microsoft Teams ルームを展開する前に、要件を満たしていることを確認してください。 詳細については、「 [Microsoft Teams の会議室の要件](requirements.md)」を参照してください。
   
-オンプレミスの Exchange で Microsoft Teams のルームを展開している場合は、Active Directory 管理ツールを使用して、オンプレミスのドメインアカウントのメールアドレスを追加します。 このアカウントは、Office 365 と同期されます。 次の操作を実行する必要があります。
+オンプレミスの Exchange で Microsoft Teams のルームを展開している場合は、Active Directory 管理ツールを使用して、オンプレミスのドメインアカウントのメールアドレスを追加します。 このアカウントは、Microsoft 365 または Office 365 と同期されます。 次の操作を実行する必要があります。
   
 - アカウントを作成してアカウントを Active Directory と同期する。
 
 - リモート メールボックスを有効にしてプロパティを設定する。
 
-- Office 365 ライセンスを割り当てます。
+- Microsoft 365 または Office 365 のライセンスを割り当てます。
 
 - Skype for Business Server でデバイスアカウントを有効にします。 デバイス アカウントを有効にするには、お使いの環境が次の前提条件を満たしている必要があります。
 
-  - Office 365 プランでは、Skype for Business Online (プラン 2) 以上が必要です。 このプランでは会議機能をサポートする必要があります。
+  - Microsoft 365 または Office 365 プランでは、Skype for Business Online (プラン 2) 以上が必要です。 このプランでは会議機能をサポートする必要があります。
   
   - Microsoft Teams 室のテレフォニーサービスプロバイダーを使用するエンタープライズ Voip (PSTN テレフォニー) が必要な場合は、Skype for Business Online (プラン 3) が必要です。
   
@@ -105,14 +105,14 @@ Exchange とオンプレミスの Microsoft Teams ルームを展開する前に
 
    構文とパラメーターの詳細については、「 [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
-### <a name="assign-an-office-365-license"></a>Office 365 ライセンスを割り当てる
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Microsoft 365 または Office 365 のライセンスを割り当てる
 
 1. Azure Active Directory に接続します。 Active Directory の詳細については、「 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)はサポートされていません。 
 
-2. デバイスアカウントには、有効な Office 365 ライセンスが必要です。または、Exchange と Microsoft Teams は動作しません。 ライセンスを所有している場合は、使用場所をデバイスアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 使用できる方法`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 利用可能な Sku の一覧を取得します。
+2. デバイスアカウントには、有効な Microsoft 365 または Office 365 のライセンスが必要です。または、Exchange と Microsoft Teams は動作しません。 ライセンスを所有している場合は、使用場所をデバイスアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 使用できる方法`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 利用可能な Sku の一覧を取得します。
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -166,7 +166,7 @@ Skype for Business Online PowerShell は、Microsoft Teams と Skype for Busines
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Microsoft Teams のルームアカウントにライセンスを割り当てる
 
-1. テナント管理者としてログインし、Office 365 管理ポータルを開いて、[管理者] アプリをクリックします。
+1. テナント管理者としてログインし、Microsoft 365 管理センターを開いて、[管理者] アプリをクリックします。
 2. [**ユーザーとグループ**] をクリックしてから [**ユーザーの追加、パスワードのリセットなど**] をクリックします。
 3. Microsoft Teams のルームアカウントをクリックし、ペンアイコンをクリックしてアカウント情報を編集します。
 4. [**ライセンス**] をクリックします。

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、オンプレミスの Exchange Online と Skype for Business Server を使用して Microsoft Teams ルームを展開する方法について説明します。
-ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 03999e5717f784166387c823c95af1e333d4f942
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905289"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666149"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams ミーティング を展開
 
@@ -86,7 +86,7 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 4. アカウントを作成するには、**[完了]** をクリックします。
 5. アカウントを作成したら、ディレクトリ同期を実行します。 これは、PowerShell で[MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0)を使うことで実現できます。 完了したら、[ユーザー] ページに移動し、前の手順で作成した2つのアカウントがマージされていることを確認します。
 
-### <a name="assign-an-office-365-license"></a>Office 365 ライセンスを割り当てる
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Microsoft 365 または Office 365 のライセンスを割り当てる
 
 1. まず、[Azure AD に接続して、いくつかのアカウント設定を適用します] を選びます。 次のコマンドレットを実行して接続することができます。 Active Directory の詳細については、「 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
 
@@ -100,8 +100,8 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. Exchange と Skype for Business Server が動作するためには、ユーザーアカウントが有効な Office 365 ライセンスを所有している必要があります。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 課題は、次の手順で作成します。
-3. 次に、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Office 365 組織で利用可能な Sku の一覧を取得するには、こちらを参照してください。
+2. Exchange と Skype for Business Server を確実に使用するには、ユーザーアカウントに有効な Microsoft 365 または Office 365 のライセンスが必要です。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。 課題は、次の手順で作成します。
+3. 次に、`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Microsoft 365 または Office 365 組織で利用可能な Sku の一覧を取得するには、こちらを参照してください。
 4. Sku の一覧が表示されたら、`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> コマンドレット. この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
 
     ```PowerShell
@@ -140,7 +140,7 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Skype for Business Server のライセンスを Microsoft Teams のルームアカウントに割り当てる
 
-1. テナント管理者としてログインし、Office 365 管理ポータルを開いて、[管理者] アプリをクリックします。
+1. テナント管理者としてログインし、Microsoft 365 管理センターを開いて、[管理者] アプリをクリックします。
 2. [**ユーザーとグループ**] をクリックしてから [**ユーザーの追加、パスワードのリセットなど**] をクリックします。
 3. Microsoft Teams のルームアカウントをクリックし、ペンアイコンをクリックしてアカウント情報を編集します。
 4. [**ライセンス**] をクリックします。
@@ -151,7 +151,7 @@ Skype for Business (プラン 3)] を選択します。 Microsoft Teams のル�
 検証のために、Skype for Business クライアントを使用して、このアカウントにログインできるようにする必要があります。
 
 > [!NOTE]
-> 現在、電話会議、または Office 365 電話システムと通話プランを使って、Skype for Business プラン2で E1、E3、E4、または E5 Sku を使用している場合は、引き続き機能します。 ただし、現在のライセンスの有効期限が切れた後、 [Teams 会議室のライセンス更新](rooms-licensing.md)で説明されているように、よりシンプルなライセンスモデルに移行することを検討する必要があります。
+> 現在、電話会議または電話システムと通話プランを使って Skype for Business プラン2で E1、E3、E4、または E5 Sku を使用している場合、これらは引き続き機能します。 ただし、現在のライセンスの有効期限が切れた後、 [Teams 会議室のライセンス更新](rooms-licensing.md)で説明されているように、よりシンプルなライセンスモデルに移行することを検討する必要があります。
 
 > [!IMPORTANT]
 > Skype for Business Plan 2 を使用している場合は、Skype for Business のみのモードで Microsoft Teams ルームのみを使用できます。つまり、すべての会議が Skype for Business 会議になります。 Microsoft Teams のミーティングの会議室を使用できるようにするため、ミーティング ルーム ライセンスのご購入をお勧めします。

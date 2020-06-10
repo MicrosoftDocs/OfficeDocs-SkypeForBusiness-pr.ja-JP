@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 緊急電話、緊急通話のルーティング、動的な緊急通話に関する情報など、緊急通話について説明します。
-ms.openlocfilehash: 889446ca08289ccb15128bee8ca6b6170398c599
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539494"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665159"
 ---
 # <a name="manage-emergency-calling"></a>緊急通話を管理する
 
@@ -84,7 +84,7 @@ Teams 管理センターの住所マップ検索機能を使用して、緊急�
 
 - 米国とカナダでは、たとえば、電話番号がユーザーに割り当てられている場合は、緊急対応の場所が必要です。
 
-- ヨーロッパ、中東、アフリカ (EMEA) などのその他の国では、 &mdash; &mdash; Office 365 から電話番号を取得する場合、または別のサービスプロバイダーまたは携帯電話会社から電話番号を移行する場合に、緊急対応の場所が必要です。
+- ヨーロッパ、中東、アフリカ (EMEA) など、その他の国の場合、Microsoft 365 または Office 365 から電話番号を取得する場合、または別のサービスプロバイダーまたは携帯電話会社から電話番号を移行する場合は、緊急対応の場所が必要です。
 
 ### <a name="dynamic-emergency-calling"></a>動的な緊急通話
 

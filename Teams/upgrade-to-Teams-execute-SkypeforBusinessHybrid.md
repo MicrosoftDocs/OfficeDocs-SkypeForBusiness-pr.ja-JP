@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9cc76313bb65a79241e26ab70a38d8698f27e7c
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 2866ae5bdaf38c0269efda13beed98982a057a4d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523440"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666039"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Skype for Business ハイブリッド展開から Teams にアップグレードする
 
@@ -41,7 +41,7 @@ ms.locfileid: "44523440"
 - [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
 - [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
 
-この記事のガイダンスに従って、Skype for Business または Microsoft Lync をオンプレミスで展開し、Office 365 組織とのハイブリッド展開で構成している場合は、複数の共存モード (またはオールイン) を使用して選択的にチームにアップグレードすることをお勧めします。 アップグレードの過程では、ユーザーを Skype for Business Online に移行する必要があり (まだオンラインになっていない場合)、適切な共存とアップグレードモードを割り当てます。
+Skype for Business または Microsoft Lync をオンプレミスで展開して、Microsoft 365 または Office 365 組織とのハイブリッド展開で構成している場合は、この記事に記載されているガイダンスに従って、複数の共存モード (またはオールイン) を使用して、選択的にチームにアップグレードすることをお勧めします。 アップグレードの過程では、ユーザーを Skype for Business Online に移行する必要があり (まだオンラインになっていない場合)、適切な共存とアップグレードモードを割り当てます。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

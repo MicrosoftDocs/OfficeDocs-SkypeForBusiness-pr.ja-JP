@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bea614da76bd61cf7c29b0e8f150f1aac85223a7
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523160"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666019"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Skype for Business オンプレミスの展開から Teams にアップグレードする
 
@@ -54,7 +54,7 @@ ms.locfileid: "44523160"
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>手順 2: 組織に対して選択したアップグレードを実装する
 
-ハイブリッドセットアップが完了したら、Office 365 にユーザーを移動することを計画できます。
+ハイブリッドセットアップが完了したら、ユーザーを Microsoft 365 または Office 365 に移行することを計画できます。
 
 詳細については、以下を参照してください。
 
@@ -64,8 +64,8 @@ ms.locfileid: "44523160"
 
 ## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 
-オンプレミスの電話システムから Teams への移行では、電話システムのダイレクトルーティング ("直接ルーティング") または Microsoft から提供されている Office 365 の通話プランを利用できます。
+オンプレミスの電話システムから Teams への移行では、電話システムによる直接ルーティング ("ダイレクトルーティング")、または microsoft から提供された Microsoft 365 または Office 365 の通話プランを利用できます。
 
-Office 365 で通話プランを使用していない場合は、チームへのアップグレードの一環として、エンタープライズボイスの展開を電話システムのダイレクトルーティングに切り替える必要があります。
+通話プランを使用していない場合は、チームへのアップグレードの一環として、エンタープライズ voip 展開から電話システムへの直接ルーティングに切り替える必要があります。
 
-詳細については、「[電話システムのダイレクトルーティングに関するその他の考慮事項](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)」を参照してください。 Office 365 での通話プランの使用を計画している場合は、「[チームに電話番号を移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」のガイダンスを参照してください。
+詳細については、「[電話システムのダイレクトルーティングに関するその他の考慮事項](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)」を参照してください。 通話プランの使用を計画している場合は、お客さまの[電話番号を Teams に移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)するためのガイダンスを参照してください。

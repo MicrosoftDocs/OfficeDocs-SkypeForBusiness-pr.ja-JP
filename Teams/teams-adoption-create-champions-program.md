@@ -21,12 +21,12 @@ f1.keywords:
 description: 組織で認知、導入、教育を推進することで、チャンピオンチームをトレーニングしてチームの導入を促進する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 9f6a54a6da5aa12e92e6ae50960cca5e5faf6d0a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350261"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665999"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Microsoft Teams のチャンピオン プログラムを作成する
 
@@ -45,7 +45,7 @@ ms.locfileid: "44350261"
 
 組織でこのプログラムを構築するには、[エキスパートプログラムガイド](https://go.microsoft.com/fwlink/?linkid=854665)を参照してください。 このコミュニティのベストプラクティスを次に示します。
 
-- Microsoft 365 または Microsoft Office 365[チャンピオンプログラム](https://aka.ms/O365Champions)に参加します。 最低でもチャンピオンプログラムのリーダー (およびすべての会社のチャンピオン) がプログラムのメンバーであることを確認してください。 この無料の月間コミュニティ通話では、独自のプログラムを実行し、チームやその他の Microsoft 365 または Office 365 サービスを最大限に活用するために役立つ情報が提供されます。 プログラムの教材は、自分の内部プログラムで再利用することができます。
+- [チャンピオンプログラム](https://aka.ms/O365Champions)に参加します。 少なくとも、チャンピオンプログラム (およびすべての会社のチャンピオン) のリーダーがプログラムのメンバーであることを確認してください。 この無料の月間コミュニティ通話では、独自のプログラムを実行し、チームやその他の Microsoft 365 または Office 365 サービスを最大限に活用するために役立つ情報が提供されます。 プログラムの教材は、自分の内部プログラムで再利用することができます。
 
 - Teams チャンピオンチームを使用する: エキスパートは、セットアップしたチームを使用して、すべてのプログラム通信、フィードバック、およびリソースの検索を行う必要があります。  こうすることで、製品とその利点をより深く理解できるようになります。
 

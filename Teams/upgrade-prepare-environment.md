@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa61c739910e00a277f6c3f201222ac5eb782da
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: ec46cfed6c39593dc32b155374f5cf9478d73ad0
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523020"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666049"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Teams にアップグレードするための環境の準備
 
@@ -43,7 +43,7 @@ ms.locfileid: "44523020"
 ユーザーの準備をする準備をして、次の作業を並行して完了します。
 
 - アップグレードを成功させるために必要なものがあるかどうかを確認するために[IT スタッフを準備](upgrade-prepare-IT-pros.md)します。
-- 環境がすべての[前提条件](upgrade-plan-journey-prerequisites.md)を満たしていることを確認し、Office 365 サービスと Teams の間の依存関係を理解します。
+- 環境がすべての[前提条件](upgrade-plan-journey-prerequisites.md)を満たしていることを確認し、Microsoft 365 または Office 365 サービスと Teams の間の依存関係を理解していることを確認します。
 - サンプルのアンケートを使用して[環境を評価](upgrade-plan-journey-evaluate-environment.md)し、組織がチームへのアップグレードを成功させるための準備を確認します。
 - 計画、準備、および必要な修復手順に従って、組織のワークロードをサポートするようにネットワークを[準備](prepare-network.md)します。
 - オンボードチェックリストを使用してサービスをロールアウトするための[準備](upgrade-prepare-environment-prepare-service.md)をして、チームの構成で Skype for Business から teams へのユーザーの移行をサポートする準備ができていることを確認します。

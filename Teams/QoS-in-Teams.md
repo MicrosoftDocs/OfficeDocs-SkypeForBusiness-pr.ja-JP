@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0fb9a90a3528ed8d2d7f4d2f00843a9215e92a2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a146b2971c32b88a8a8ef6925e38044b25b847e6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902422"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665709"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -44,9 +44,9 @@ QoS の形式がないと、音声とビデオで次の品質の問題が発生�
 
 Qos を有効にするために、qos の優先順位がサポートされていないパスの部分は、通話、ビデオ、画面共有の品質を低下させる可能性があるため、組織ではエンドツーエンドで一貫した QoS 設定を適用する必要があります。 これには、すべてのユーザー用 Pc またはデバイス、ネットワークスイッチ、インターネットへのルーター、および Teams online サービスへの設定の適用が含まれます。
 
-_図1組織のネットワークと Office 365 サービスの間の関係_
+_図1組織のネットワークと Microsoft 365 または Office 365 サービスの間の関係_
 
-![ネットワークとサービス間の関係を示す図](media/Qos-in-Teams-Image1.png "組織のネットワークと Office 365 サービスの間の関係: オンプレミスのネットワークとデバイスは、相互接続ネットワークに接続されます。これは、Office 365 クラウドの音声と電話会議サービスに接続します。")
+![ネットワークとサービス間の関係を示す図](media/Qos-in-Teams-Image1.png "組織のネットワークと Microsoft 365 または Office 365 サービスの間の関係: オンプレミスのネットワークとデバイスは、相互接続ネットワークに接続されます。これは、Microsoft 365 または Office 365 クラウドの音声と電話会議サービスに接続します。")
 
 ほとんどの場合、企業をクラウドに接続するネットワークは管理されていないネットワークとなり、QoS オプションを確実に設定することはできません。 エンドツーエンドの QoS に対応する選択肢の1つは[Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/)ですが、受信トラフィックと送信トラフィックの両方に対して、オンプレミスネットワークに QoS を実装することをお勧めします。 これにより、展開中のリアルタイム通信の負荷が増大し、また、チョークのポイントが軽減されます。
 
@@ -150,7 +150,7 @@ QoS タグとポート範囲など、以前に Skype for Business Online を展�
 
 QoS を実装する準備ができたら、次のガイドラインを念頭に置いてください。
 
-- Office 365 への最短のパスが最適です。
+- Microsoft 365 または Office 365 への最短パスをお勧めします。
 - ポートを閉じると音質が低下します。
 - プロキシなどの障害物はお勧めできません。
 - ホップ数を制限します。
@@ -158,7 +158,7 @@ QoS を実装する準備ができたら、次のガイドラインを念頭に�
   - ISP から Microsoft ネットワークエッジ–3ホップ
   - Microsoft ネットワークエッジから最終的な送信先への関連性がない
 
-ファイアウォールのポートを構成する方法については、「 [Office 365 の URL と IP 範囲](office-365-urls-ip-address-ranges.md)」をご覧ください。
+ファイアウォールポートの構成の詳細については、「 [Microsoft 365 および Office 365 の url と IP 範囲](office-365-urls-ip-address-ranges.md)」を参照してください。
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>Teams 管理センターでソースポートを管理する
 

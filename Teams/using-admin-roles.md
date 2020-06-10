@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 管理者ロールを使用して、チームを管理するために異なるレベルのアクセスを必要とする管理者を指定する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3917e64f7c50ad51d2b9f9fca48bedf0f4a96c66
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951072"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665209"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft Teams の管理者ロールを使用してチームを管理する
 
@@ -36,6 +36,8 @@ Azure Active Directory (Azure AD) を使用して、Microsoft Teams を管理す
 ## <a name="teams-roles-and-capabilities"></a>Teams でのロールと能力
 
 利用できる Teams の管理者ロールには 4 種類あり、Teams サービス管理者、Teams 通信管理者、Teams 通信サポート スペシャリスト、および Teams 通信サポート エンジニアが含まれます。 次の表を確認し、それぞれのロールに許可されている操作および、管理者が Microsoft Teams 管理センターや PowerShell で使用できるツールについて理解してください。
+
+フォローするには、の管理センターに移動し <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ます。
 
 
 
@@ -51,8 +53,8 @@ Azure Active Directory (Azure AD) を使用して、Microsoft Teams を管理す
 <sup>1</sup> [PowerShell - Skype for Business モジュール](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - Microsoft Teams モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
 <sup>3</sup> [Microsoft Teams 管理センター](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to O365 Group management>> 
-<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to O365 Group management>> 
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
+<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
 Microsoft Teams を管理するために使用可能な管理ツールの詳細については、「[Microsoft Teamsを管理する](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)」を参照してください。
 

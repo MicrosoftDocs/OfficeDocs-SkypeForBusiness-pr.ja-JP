@@ -19,30 +19,30 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b5111e61f6c545a7311280fa865c762e8498b86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d478d91c256661e493005859786606bdb2fe1a1c
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137817"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665869"
 ---
-# <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Microsoft 365 Government の計画-GCC 高展開
+# <a name="plan-for-office-365-government---gcc-high-deployments"></a>Office 365 Government の計画-GCC 高展開
 
-このガイダンスは、米国連邦政府機関の法人またはその他の法人に Office 365 の展開を推進している IT プロフェッショナルを対象としています。ここでは、Microsoft 365 Government – GCC 高を使用することで、これらの要件を満たす必要があります。
+このガイダンスは、米国連邦政府機関の法人またはその他の法人に Office 365 の展開を推進する IT プロフェッショナルを対象としています。これらの要件を満たすには、Office 365 Government – GCC High の使用が適しています。
 
 > [!NOTE]
-> 組織が既に Microsoft 365 Government – GCC の高品質要件を満たし、プログラムに承認された場合は、手順1と2をスキップして、手順3に進んでください。
+> 組織が既に Office 365 Government – GCC の高品質要件を満たし、プログラムに承認された場合は、手順1と2をスキップして、手順3に進んでください。
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-high-and-meets-eligibility-requirements"></a>手順1 組織で Microsoft 365 Government-GCC 高が必要かどうかを確認します。 
+## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-high-and-meets-eligibility-requirements"></a>手順1 組織で Office 365 Government が必要かどうかを確認します。 GCC は高品質要件を満たしている必要があります。 
 
-Microsoft 365 Government-GCC 高環境では、クラウドサービスの米国政府の要件に準拠します。 Office 365 の機能を活用できるように、組織は、Microsoft 365 Government に固有の次の機能を利用できます。 GCC High:
+Office 365 Government-GCC 高環境では、クラウドサービスの米国政府の要件に準拠します。 Office 365 の機能を活用できるだけでなく、Office 365 Government に固有の次の機能を利用することもできます。 GCC High:
 
 - 組織の顧客のコンテンツは、Microsoft の一般法人向け Office 365 サービスの顧客のコンテンツから論理的に分離されます。
 - 組織の顧客コンテンツは、米国内に保存されています。
 - 組織のお客様のコンテンツへのアクセスは、Microsoft のユーザーに制限されています。
-- Microsoft 365 Government – GCC High は、公的機関のお客様に必要な認定および accreditations に準拠しています。
+- Office 365 Government – GCC は米国公的機関のお客様に必要な認定および accreditations に準拠しています。
 
-Microsoft 365 Government –米国政府のお客様向けの高度な機能については、「[資格の要件](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)を含む[Office 365 政府](https://products.office.com/government/compare-office-365-government-plans)機関向けプラン」を参照してください。
+Office 365 Government の詳細については、米国政府のお客様向けの[office 365 政府](https://products.office.com/government/compare-office-365-government-plans)機関向けの GCC の高品質サービス ([特典](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)など) を参照してください。
 
 [Office 365 US Government service の説明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)では、プラットフォームの利点について説明します。この情報は、米国内での会議のコンプライアンス要件に基づいて中央に配置されています。
 
@@ -53,28 +53,28 @@ Microsoft 365 Government –米国政府のお客様向けの高度な機能に�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織に対して Microsoft 365 Government-GCC 高が適切であるかどうかを決定します。</li><li>組織が資格要件を満たしていることを確認します。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織にとって Office 365 Government-GCC 高が適切であるかどうかを決定します。</li><li>組織が資格要件を満たしていることを確認します。</li></ul> |
 
 > [!Note]
-> Microsoft 365 Government-GCC 高はアメリカ国内でのみご利用いただけます。 米国政府以外のお客様は、多数の[Office 365 Government プラン](https://products.office.com/en/government/compare-office-365-government-plans)から選ぶことができます。
+> Office 365 Government-GCC High は、米国でのみ利用可能です。 米国政府以外のお客様は、多数の[Office 365 Government プラン](https://products.office.com/en/government/compare-office-365-government-plans)から選ぶことができます。
 
-## <a name="step-2-apply-for-microsoft-365-government---gcc-high"></a>手順2 Microsoft 365 Government に適用する-GCC High
+## <a name="step-2-apply-for-office-365-government---gcc-high"></a>手順2 Office 365 Government に適用する-GCC 高
 
 このサービスが組織に適していると判断された場合は、[このサービスの適用](https://products.office.com/government/eligibility-validation)プロセスを開始します。
 
 
-## <a name="step-3-understand-microsoft-365-government---gcc-high-default-security-settings"></a>手順3 Microsoft 365 Government-GCC 高の既定のセキュリティ設定について説明します。
+## <a name="step-3-understand-office-365-government---gcc-high-default-security-settings"></a>手順3 Office 365 Government-GCC 高既定のセキュリティ設定について理解する。
 
 [管理とセキュリティの設定](enable-features-office-365.md)を変更する前に慎重に確認し、コンプライアンスへの影響を考慮して、既定のセキュリティ設定を変更することをお勧めします。
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>既定の Microsoft 365 Government-GCC 高セキュリティ設定を変更する必要があるかどうかを決定します。解決するには、変更の影響を最初に理解する必要があります。</li></ul> |
+| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>既定の Office 365 Government-GCC 高セキュリティ設定を変更する必要があるかどうかを決定します。解決するには、変更の影響を最初に理解する必要があります。</li></ul> |
 
 
-## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---gcc-high"></a>手順4。 Microsoft 365 Government で現在利用できる Teams 機能を理解する-GCC 高
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>手順4。 Office 365 Government-GCC High で現在利用できる Teams の機能を理解する
 
-政府機関向けクラウドのお客様の要件に対応するために、Microsoft 365 Government の Teams には、エンタープライズプランにおける GCC 高と Teams の間にいくつかの違いがあります。 使用できる機能については、次の表を参照してください。
+政府機関向けクラウドのお客様の要件に対応するために、エンタープライズプランの Office 365 Government-GCC 高と Teams には、いくつかの違いがあります。 使用できる機能については、次の表を参照してください。
 
 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
@@ -88,7 +88,7 @@ Microsoft 365 Government –米国政府のお客様向けの高度な機能に�
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>手順6 チームをコラボレーションのために展開する
 
-Microsoft 365 Government – GCC High に onboarded したら、 [Microsoft Teams のロールアウト方法](How-to-roll-out-teams.md)に関する推奨される展開パスに従います。 お客様の導入と変更管理チームやチームのチャンピオンに協力してください。
+Office 365 Government – GCC High に onboarded したら、 [Microsoft Teams をロールアウトする方法](How-to-roll-out-teams.md)で説明されている展開パスに従います。 お客様の導入と変更管理チームやチームのチャンピオンに協力してください。
 
 また、 [Fasttrack](https://www.microsoft.com/fasttrack)または選択したパートナーと連携してサービスを稼働させることもできます。
 

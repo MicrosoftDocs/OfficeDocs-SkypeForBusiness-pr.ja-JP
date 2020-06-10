@@ -17,25 +17,25 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042444"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666179"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams のアイテム保持ポリシー
 
 アイテム保持ポリシーは、組織内の情報をより効果的に管理するのに役立ちます。 アイテム保持ポリシーは、組織の社内ポリシー、業界の規制、法的要件に準拠するために必要なデータを保持したり、負債と考えられるデータ、保存する必要がなくなったデータ、法的またはビジネス上の価値がないデータを削除したりするために使用できます。
 
-既定では、アイテム保持ポリシーを使用してコンテンツを削除しようとした場合や、ユーザーが削除した場合、管理者が削除した場合を除き、チームチャット、チャネル、ファイルのデータは永久に保持されます。管理者として、チャットやチャネルメッセージ用にチームのアイテム保持ポリシーを設定し、データを保持するか削除するか、特定の期間に保持するかを決定してから、削除することができます。
+既定では、アイテム保持ポリシーを使用してコンテンツを削除しようとした場合や、ユーザーが削除した場合、管理者が削除した場合を除き、チームチャット、チャネル、ファイルのデータは無期限に保持されます。管理者として、チャットやチャネルメッセージ用にチームのアイテム保持ポリシーを設定し、データを保持するか削除するか、特定の期間に保持するかを決定してから、削除することができます。
 
 [Microsoft 365 コンプライアンスセンター](https://protection.office.com/)で、またはセキュリティ & コンプライアンスセンターの PowerShell コマンドレットを使用して、チームおよびその他のワークロードのアイテム保持ポリシーを作成して管理します。 Teams のアイテム保持ポリシーは、組織全体に適用することも、特定のユーザーやチームに適用することもできます。
 
 > [!NOTE]
 > プライベートチャネルメッセージの保持の構成はまだサポートしていません。 プライベート チャネルで共有されているファイルの保持はサポートされています。
 
-Office 365 のアイテム保持ポリシーについて詳しくは、「[アイテム保持ポリシーの概要](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)」を参照してください。
+Microsoft 365 または Office 365 のアイテム保持ポリシーの詳細については、「[アイテム保持ポリシーの概要](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)」を参照してください。
 
 ## <a name="what-are-retention-policies-for-teams"></a>Teams のアイテム保持ポリシーとは
 
@@ -148,7 +148,7 @@ Teams のアイテム保持ポリシーを削除するには、次の操作を�
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
-[Office 365 セキュリティ & コンプライアンス PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)を使用してチームのアイテム保持ポリシーを作成および管理するには、次のコマンドレットを使用します。
+[セキュリティ & コンプライアンスセンターの PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)を使用して、チームのアイテム保持ポリシーを作成および管理するには、次のコマンドレットを使用します。
 
 |ポリシー|ルール|
 |---|---|

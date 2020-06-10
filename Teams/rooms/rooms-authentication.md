@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams ルームの先進認証の構成方法について説明します
-ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505614"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666259"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams のルームでの認証
 
 Microsoft Teams 会議室デバイスのアカウント管理は、アプリケーションレベルで処理されます。 アプリケーションは、Microsoft Teams、Skype for Business、Exchange に接続して、room アカウントのリソースを取得して、通話と会議のエクスペリエンスを有効にします。 このデバイスは、常に機能するための限定されたものであり、通話プランを使って構成されているデバイスの場合は、そのデバイスに実装されているカスタムロックダウンメカニズムを使うことができます。 これは、これらのデバイスの認証は、エンドユーザーのデバイスとは異なる方法で行われることを意味します。  
 
-Microsoft Teams 室のデバイスを Office 365 で使用しているすべてのユーザーは、モダン認証をお勧めします。 Exchange server または Skype for Business server のオンプレミス展開を使用している場合は、先進認証を有効にするために Azure Active Directory (Azure AD) との[ハイブリッド先進認証](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)を構成します。
+Microsoft Teams 室のデバイスと Microsoft 365 または Office 365 を使用しているすべてのユーザーは、モダン認証をお勧めします。 Exchange server または Skype for Business server のオンプレミス展開を使用している場合は、先進認証を有効にするために Azure Active Directory (Azure AD) との[ハイブリッド先進認証](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)を構成します。
 
 先進認証は、Microsoft Teams の会議室バージョン4.4.25.0 以降でサポートされています。
 
@@ -61,9 +61,9 @@ SkypeSettings .xml ファイルで、次のように先進認証 XML 要素を**
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>先進認証のために環境を準備する
 
-作業を始める前に、Office 365 と Azure AD で使用する id モデルを理解していることを確認してください。 詳細については、「office [365 の id モデルと Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) 」および「[ハイブリッド id と office 365 のディレクトリ同期](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)」を参照してください。
+作業を始める前に、Office 365 と Azure AD で使用する id モデルを理解していることを確認してください。 詳細については、「 [office 365 の id モデルと Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) 」および「 [Microsoft 365 または Office 365 のハイブリッド id とディレクトリ同期](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)」を参照してください。
 
-### <a name="enable-modern-authentication-in-office-365"></a>Office 365 で先進認証を有効にする
+### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で先進認証を有効にする
 
 Exchange Online の先進認証を有効にするには、「 [Exchange online で先進認証を有効](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)にする」を参照してください。 Skype for Business Online を使用している場合は、Skype for Business Online の先進認証が有効になっていることも確認してください。 詳細については、「 [Skype For Business Online: 先進認証のためにテナントを有効](https://aka.ms/SkypeModernAuth)にする」を参照してください。
 

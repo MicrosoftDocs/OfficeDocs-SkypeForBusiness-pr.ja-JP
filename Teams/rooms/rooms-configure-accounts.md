@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: このトピックでは、Exchange と Skype for Business で Microsoft Teams ミーティングのアカウントを構成する方法について説明します。
-ms.openlocfilehash: 66eecbb0773f04599a0b5255cb5f83f158eb74f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 97367427aa2629fab3e40bae064c02f521ff710d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825945"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666249"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft Teams ミーティングのアカウントを構成する
  
@@ -28,11 +28,11 @@ ms.locfileid: "41825945"
   
 このトピックでは、Microsoft Exchange や Skype for Business で Microsoft Teams ミーティングに使用されるアカウントを作成する方法について説明します。 Microsoft Teams ミーティング デバイスの展開手順は、「[Microsoft Teams ミーティングのコンソールを構成する](console.md)」で取り上げられてます。 インフラストラクチャは、次のいずれかの構成に分類されます。
   
-- オンライン展開: 組織の環境全体が Office 365 に展開されます。 詳細については、「[Office 365 での Microsoft Teams ミーティングを展開する](with-office-365.md)」をご覧ください。
+- オンライン展開: 組織の環境は、すべて Microsoft 365 または Office 365 上に展開されます。 詳細については、「microsoft [365 または Office 365 で Microsoft Teams のルームを展開](with-office-365.md)する」を参照してください。
     
 - オンプレミス展開: 組織に、Active Directory、Exchange、Skype for Business Server がどこでホストされるかを制御するサーバーがあります。 詳細については、「[Skype for Business Server での Microsoft Teams ミーティングを展開する](with-skype-for-business-server-2015.md)」をご覧ください。
     
-- ハイブリッド展開: 組織に、オンプレミスでホストされるサービスと、Office 365 を介してオンラインでホストされるサービスが混在しています。 Microsoft Teams ミーティングでは、次のハイブリッド シナリオがサポートされています。 
+- ハイブリッド展開: 組織には、オンプレミスのホストと、Microsoft 365 または Office 365 経由でオンラインでホストされているサービスが混在しています。 Microsoft Teams ミーティングでは、次のハイブリッド シナリオがサポートされています。
     
   - Exchange Online とオンプレミスの Skype for Business Server。 詳細については、「[Exchange Online を使用して Microsoft Teams ミーティングを展開 (ハイブリッド)](with-exchange-online.md)」をご覧ください。
     
@@ -52,7 +52,7 @@ Microsoft Teams ミーティングには、Active Directory、Exchange、Skype f
 - Microsoft Teams ミーティングがデバイス アカウントを確認し、適切な Microsoft のサービスに到達できるように、インフラストラクチャを構成する必要があります。
     
 > [!IMPORTANT]
-> ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 ハイブリッド環境で Microsoft Teams ミーティングに使用するアカウントは、Microsoft Teams ミーティングの認証に Office 365 認証が求められるため、AAD Sync で有効にされたパスワードの同期が必要です。
+> ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 ハイブリッド環境では、microsoft Teams の会議で使用されるアカウントで、microsoft teams のルーム認証には Microsoft 365 または Office 365 認証が必要なため、AAD の同期でパスワード同期が有効になっている必要があります。
   
 デバイス アカウントは、会議室やミーティング スペースのアカウントとして認識されるリソース アカウントと見なすことができます。 その会議室を使って会議をスケジュールするときは、アカウントをその会議に招待します。 Microsoft Teams ミーティングを最も効果的に利用するには、各会議室に割り当てられているデバイス アカウントで同じ操作を行います。
   
@@ -80,7 +80,7 @@ Microsoft Teams ミーティングをインストールするミーティング 
    
 デバイス アカウントをセットアップする最も簡単な方法は、リモート Windows PowerShell を使用して構成することです。 Microsoft では、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) を提供しています。これは、新しいデバイス アカウントを作成するか、既存のリソース アカウントを検証するスクリプトであり、それらのアカウントを互換性のある Microsoft Teams ミーティングのデバイス アカウントに変換する助けとなります。
   
-Windows PowerShell コマンドレットよりも Office 365 UI を使用することを望む場合は、一部の手順を手動で実行できます。 「[Office 365 を使ったデバイス アカウントの作成](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)」を参照してください。
+Microsoft 365 または Office 365 の UI を Windows PowerShell コマンドレットで使う場合は、いくつかの手順を手動で実行できます。 「 [Microsoft 365 または Office 365 を使用してデバイスアカウントを作成](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)する」を参照してください。
   
 ## <a name="see-also"></a>関連項目
 

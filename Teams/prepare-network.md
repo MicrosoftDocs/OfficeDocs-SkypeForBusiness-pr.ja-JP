@@ -18,20 +18,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44523302"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669395"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
 ## <a name="network-requirements"></a>ネットワーク要件
 
-[Office 365 用にネットワークの最適化](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)を既に行っている場合は、Microsoft Teams の準備ができている可能性があります。 いずれの場合も、**リモートワーカー**をサポートするために、最初の Office 365 ワークロードとして teams をすばやくロールアウトする場合は、チームのロールアウトを開始する前に次のことを確認してください。
+[Microsoft 365 または Office 365 用にネットワーク](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)を既に最適化している場合は、microsoft Teams の準備ができている可能性があります。 いずれにしても、特に、**リモートワーカー**をサポートするために teams を最初の Microsoft 365 または Office 365 のワークロードとしてすばやくロールアウトする場合は、チームのロールアウトを開始する前に次のことを確認してください。
 
-1.  すべての場所でインターネットにアクセスできますか (Office 365 に接続できるようにします)。 少なくとも、通常の web トラフィックに加えて、Teams のメディアについては、すべての場所で次のように開いていることを確認してください。
+1.  すべての場所でインターネットにアクセスできますか (Microsoft 365 または Office 365 に接続できるようにします)。 少なくとも、通常の web トラフィックに加えて、Teams のメディアについては、すべての場所で次のように開いていることを確認してください。
 
     |  |  |
     |---------|---------|
@@ -49,10 +49,10 @@ ms.locfileid: "44523302"
 
 
     
-2.  Office 365 の確認済みドメイン (たとえば、contoso.com) があるか。
+2.  Microsoft 365 または Office 365 (たとえば、contoso.com) の確認済みドメインがありますか?
     
-      - 組織が Office 365 を展開していない場合は、「一般[法人向け office 365](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)の概要」を参照してください。
-      - 組織で Office 365 の確認済みドメインを追加または構成していない場合は、「 [office 365 ドメインを確認](https://docs.microsoft.com/office365/admin/setup/domains-faq)する」を参照してください。
+      - 組織が Microsoft 365 または Office 365 を展開していない場合は、「 [microsoft 365 または一般法人向け 365 office の使用を開始](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)する」を参照してください。
+      - 組織で Microsoft 365 または Office 365 の確認済みドメインを追加または構成していない場合は、「 [microsoft 365 または office 365 ドメインを確認](https://docs.microsoft.com/office365/admin/setup/domains-faq)する」を参照してください。
 
 3.  組織が Exchange Online と SharePoint Online を展開していますか?
     
@@ -64,7 +64,7 @@ ms.locfileid: "44523302"
 > [!IMPORTANT]
 > **教育機関向けの**場合: 組織が教育機関であり、学生情報システム (SIS) を使用している場合は、チームをロールアウトする前に[School Data Sync を展開](https://docs.microsoft.com/schooldatasync/)してください。
 >  
-> **オンプレミスの skype For Business server を実行**している場合: 組織がオンプレミスの Skype For business server (または Lync server) を実行している場合、オンプレミスのディレクトリを Office 365 と同期するように[Azure AD Connect を構成](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect)する必要があります。
+> **オンプレミスの skype For Business server を実行**している場合: 組織がオンプレミスの Skype For business server (または Lync server) を実行している場合、オンプレミスのディレクトリを Microsoft 365 または Office 365 と同期するように[Azure AD Connect を構成](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect)する必要があります。
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>ベストプラクティス: CQD と通話分析を使用してネットワークを監視する 
 
@@ -74,7 +74,7 @@ ms.locfileid: "44523302"
 
 ## <a name="network-optimization"></a>ネットワーク最適化
 
-次のタスクはオプションであり、チームをロールアウトする場合は必須ではありません。特に、小規模なビジネスで、Office 365 を既に展開している場合は、その必要はありません。 このガイダンスを使用して、ネットワークとチームのパフォーマンスを最適化します。また、ネットワークの制限事項があることがわかっている場合に使います。
+次のタスクはオプションであり、チームをロールアウトする場合は必須ではありません。特に、small business で、Microsoft 365 または Office 365 を既に展開している場合には、これらは必須ではありません。 このガイダンスを使用して、ネットワークとチームのパフォーマンスを最適化します。また、ネットワークの制限事項があることがわかっている場合に使います。
 
 次のような場合には、追加のネットワーク最適化を行うことができます。
 
@@ -82,7 +82,7 @@ ms.locfileid: "44523302"
   - 通話が切断される (ファイアウォールまたはプロキシブロックが原因である可能性があります)
   - 通話には静的と途切れがあります。また、ロボットなどのボイスサウンド (ジッタまたはパケットロスの可能性があります)
 
-ネットワークの障害を特定して修正するためのガイダンスなど、ネットワークの最適化の詳細については、「 [Office 365 のネットワーク接続の原則](https://aka.ms/pnc)」を参照してください。
+ネットワークの障害を特定して修正するためのガイダンスなど、ネットワークの最適化の詳細については、「 [Microsoft 365 と Office 365 のネットワーク接続の原則](https://aka.ms/pnc)」を参照してください。
 
 <table>
 <thead>
@@ -99,18 +99,18 @@ ms.locfileid: "44523302"
 </tr>
 <tr class="even">
 <td>チーム向けのアドバイザー</td>
-<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">チームのアドバイザー</a>は<a href="https://admin.teams.microsoft.com">teams 管理センター</a>の一部です。 Office 365 環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">チームのアドバイザー</a>は<a href="https://admin.teams.microsoft.com">teams 管理センター</a>の一部です。 Microsoft 365 または Office 365 の環境を評価し、チームを正常にロールアウトする前に、更新または変更する必要がある最も一般的な構成を特定します。</td>
 </tr>
 <tr class="odd">
 <td>外部の名前解決</td>
-<td>Teams クライアントを実行しているすべてのコンピューターで、Office 365 によって提供されるサービスを検出し、ファイアウォールによってアクセスが拒否されていないことを確認します。 ファイアウォールのポートを構成する方法については、「 <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 の URL と IP 範囲</a>」をご覧ください。</td>
+<td>Teams クライアントを実行しているすべてのコンピューターが外部 DNS クエリを解決して、Microsoft 365 または Office 365 によって提供されるサービスを検出し、ファイアウォールによってアクセスが禁止されていないことを確認します。 ファイアウォールポートの構成の詳細については、「 <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Microsoft 365 および Office 365 の url と IP 範囲</a>」を参照してください。</td>
 </tr>
 <tr class="odd">
 <td>セッションの永続性を維持する</td>
 <td>ファイアウォールによって、UDP の対応付けられたネットワークアドレス変換 (NAT) アドレスまたはポートが変更されていないことを確認します。</td>
 </tr><tr class="odd">
 <td>NAT プールサイズを検証する</td>
-<td>ユーザー接続に必要なネットワークアドレス変換 (NAT) プールサイズを確認します。 複数のユーザーやデバイスが<a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">ネットワークアドレス変換 (NAT) またはポートアドレス変換 (PAT)</a>を使って Office 365 にアクセスする場合、各パブリックルーティング可能な IP アドレスの背後に隠れているデバイスが、サポートされている番号を超えないようにする必要があります。 ポートの枯渇を防ぐため、適切なパブリック IP アドレスが NAT プールに割り当てられていることを確認します。 ポートの枯渇は、社内ユーザーと、Office 365 サービスに接続できないデバイスに寄与します。</td>
+<td>ユーザー接続に必要なネットワークアドレス変換 (NAT) プールサイズを確認します。 複数のユーザーやデバイスが、<a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">ネットワークアドレス変換 (NAT) またはポートアドレス変換 (PAT)</a>を使用して Microsoft 365 または Office 365 にアクセスする場合、各パブリックルーティング可能な IP アドレスの背後に隠れているデバイスがサポートされている番号を超えないようにする必要があります。 ポートの枯渇を防ぐため、適切なパブリック IP アドレスが NAT プールに割り当てられていることを確認します。 ポートの枯渇は、内部ユーザーと、Microsoft 365 または Office 365 サービスに接続できないデバイスに影響します。</td>
 </tr>
 <tr class="even">
 <td>Microsoft データセンターへのルーティング</td>
@@ -118,11 +118,11 @@ ms.locfileid: "44523302"
 </tr>
 <tr class="odd">
 <td>侵入検知と予防のガイダンス</td>
-<td>お客様の環境に、送信接続用のセキュリティレイヤーを追加するために展開された<a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">侵入検出</a>または防止システム (IDS/IPS) が展開されている場合は、すべての Office 365 url をホワイトリストしてください。</td>
+<td>お客様の環境に、送信接続用のセキュリティレイヤーを追加するために展開された<a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">侵入検知</a>または防止システム (IDS/IPS) が展開されている場合は、Microsoft のすべての365または Office 365 url をホワイトリストしてください。</td>
 </tr>
 <tr class="even">
 <td>分割トンネル VPN を構成する</td>
-<td><p>一般に[分割トンネル VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)と呼ばれる仮想プライベートネットワーク (VPN) をバイパスするチームトラフィックの代替パスを指定することをお勧めします。 [トンネリングの分割とは、Office 365 のトラフィックが VPN 経由ではなく、直接 Office 365 に移動することを意味します。 VPN をバイパスすると、チームの品質にプラスの影響があり、VPN デバイスと組織のネットワークの負荷が軽減されます。 分離トンネル VPN を実装するには、VPN ベンダーと共同作業を行います。</p>
+<td><p>一般に[分割トンネル VPN](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)と呼ばれる仮想プライベートネットワーク (VPN) をバイパスするチームトラフィックの代替パスを指定することをお勧めします。 [トンネリングの分割とは、Microsoft 365 または Office 365 のトラフィックが VPN 経由ではなく、直接 Microsoft 365 または Office 365 に移行することを意味します。 VPN をバイパスすると、チームの品質にプラスの影響があり、VPN デバイスと組織のネットワークの負荷が軽減されます。 分離トンネル VPN を実装するには、VPN ベンダーと共同作業を行います。</p>
 <p>VPN のバイパスが推奨されるその他の理由:
 <ul>
 <li><p>通常、Vpn は、リアルタイムメディアをサポートするように設計されていないか、構成されていません。</p></li> 
@@ -159,7 +159,7 @@ Teams は、ネットワークの状況に関係なく、最適なオーディ�
 
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 のネットワーク接続の原則](https://aka.ms/pnc)
+[Microsoft 365 および Office 365 のネットワーク接続の原則](https://aka.ms/pnc)
 
 [ワールドワイドエンドポイント: Skype for Business Online と Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 

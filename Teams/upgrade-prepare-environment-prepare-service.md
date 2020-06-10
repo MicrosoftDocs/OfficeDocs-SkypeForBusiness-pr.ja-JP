@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0a9f0e3d82dcfeb62a90d4601394bf39a03877
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523030"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666059"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Teams にアップグレードするためのサービスを準備する
 
@@ -44,7 +44,7 @@ ms.locfileid: "44523030"
 
 次のチェックリストは、組織に Microsoft Teams を展開するための手順について説明します。
 
-- [Teams 用の Office 365 を準備する](onboarding-checklist-enable-office-365.md)
+- [Microsoft 365 または Office 365 をチーム用に準備する](onboarding-checklist-enable-office-365.md)
 
 - [Teams のコア機能を構成する](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

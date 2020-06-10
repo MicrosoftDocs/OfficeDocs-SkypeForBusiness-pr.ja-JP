@@ -18,12 +18,12 @@ description: クラウド、同期済み、フェデレーションなど、Micr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ccddd3bacdd495fb6febb11871d6d501f0a666b
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6c32783b96e5fdfe8c0f783a0fd27fd58a7f04c1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637206"
+ms.locfileid: "44665679"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams での ID モデルと認証
 ==========================================
@@ -51,6 +51,7 @@ Microsoft Teams では、Microsoft 365 および Office 365 で利用できる�
 
 追加情報については、 [「サインインモデルを選択](https://go.microsoft.com/fwlink/?linkid=854626)する」と「 [Id モデルと Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)ガイドについて」を参照してください。
 
+
 <a name="multi-factor-authentication"></a>複数要素の認証
 ----------------------------
 
@@ -63,5 +64,5 @@ Microsoft 365 および Office 365 プランは、ユーザーログインのセ
 
 |テナント タイプ  |MFA の 2 番目の要素に関する利用可能なオプション  |メモ  |
 |---------|---------|---------|
-|**クラウドのみ**     |Microsoft 365 および Office 365 の MFA <ul><li>電話</li><li>テキスト メッセージ</li><li>モバイル アプリへの通知</li><li>モバイル アプリの確認コード</li></ul>        |[Microsoft 365 展開用の多要素認証の計画](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**ハイブリッド セットアップ (同期済みまたはフェデレーション ID モデル)**     |<ul><li>Microsoft 365 および Office 365 の MFA</li><li>Azure MFA モジュール (ADFS 統合)</li><li>物理または仮想スマート カード (ADFS 統合)</li></ul>         |注: 追加の MFA ソリューションは、 [AZURE AD Id プロバイダーの互換性](https://www.microsoft.com/download/details.aspx?id=56843)に関するドキュメントで利用できます。         |
+|**クラウドのみ**     |Microsoft 365 または Office 365 の MFA <ul><li>電話</li><li>テキスト メッセージ</li><li>モバイル アプリへの通知</li><li>モバイル アプリの確認コード</li></ul>        | |
+|**ハイブリッド セットアップ (同期済みまたはフェデレーション ID モデル)**     |<ul><li>Microsoft 365 または Office 365 の MFA</li><li>Azure MFA モジュール (ADFS 統合)</li><li>物理または仮想スマート カード (ADFS 統合)</li></ul>         |注: 追加の MFA ソリューションは、 [AZURE AD Id プロバイダーの互換性](https://www.microsoft.com/download/details.aspx?id=56843)に関するドキュメントで利用できます。         |

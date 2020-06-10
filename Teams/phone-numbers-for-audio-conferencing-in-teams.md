@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: 9f130ec72d398e55ff3f4890ae89422915fc47a2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c353fa46e271b6bdec72944565e595592e3810d1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779613"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665889"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の電話番号
 
-Microsoft Teams の電話**会議**をセットアップすると、ダイヤルイン電話番号が自動的に組織に割り当てられます。 電話会議ブリッジに割り当てられている電話番号を確認するには、Microsoft Teams 管理センターで、[**会議** > **会議ブリッジ**] に移動します。 詳細については、 [「電話会議番号のリストを表示する」を参照して](see-a-list-of-audio-conferencing-numbers-in-teams.md)ください。
+Microsoft Teams の電話**会議**をセットアップすると、ダイヤルイン電話番号が自動的に組織に割り当てられます。 電話会議ブリッジに割り当てられている電話番号を確認するには、Microsoft Teams 管理センターで、[**会議**  >  **会議ブリッジ**] に移動します。 詳細については、 [「電話会議番号のリストを表示する」を参照して](see-a-list-of-audio-conferencing-numbers-in-teams.md)ください。
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>電話会議のサービス対象範囲と価格情報
@@ -50,7 +50,7 @@ Microsoft Teams ユーザーが Outlook または Outlook Web App で会議を�
   
 - **専用電話番号** とは、組織内のユーザーだけが使用できる電話番号のことです。誰かがこれらの番号のいずれかに電話をかけるときに使用する言語を変更できます。
   
-- **共有電話番号**とは、他の Microsoft 365 または Office 365s と共有できる電話番号のことです。 誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
+- **共有電話番号**とは、他の Microsoft 365 または Office 365 と共有できる電話番号のことです。 誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
   
 開催者に割り当てられる既定の電話会議番号は会議の招待状にのみ含まれるため、発信者は会議ブリッジに割り当てられた任意の電話番号を使用して、会議に参加できます。 会議に参加するために使用する電話番号の一覧はそれぞれの会議の招待状に含まれる [ **電話番号の検索**] リンクを使用して利用できます。
   
@@ -78,4 +78,4 @@ Microsoft Teams ユーザーが Outlook または Outlook Web App で会議を�
    
 ## <a name="related-topics"></a>関連項目
 
-[Office 365 での電話会議を試用または購入する](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

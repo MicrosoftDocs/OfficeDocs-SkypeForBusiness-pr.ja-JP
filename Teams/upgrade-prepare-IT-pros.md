@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d4170d949daa9c53cb8035ab0a3249e4127ca3
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523050"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666219"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft Teams の IT スタッフを準備する
 
@@ -37,7 +37,7 @@ ms.locfileid: "44523050"
 - [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Office 365 組織の管理者、技術的な潜在顧客、およびサポートデスクは、高品質なユーザーエクスペリエンスを実現する責任を負うものとします。 これには、チームをサポートし、ユーザーに対してチームを構成する準備ができていること、発生する可能性のある問題のトラブルシューティングと解決が効果的であることを確認することが含まれます。
+Microsoft 365 または Office 365 の組織管理者、技術的な潜在顧客、およびサポートデスクは、高品質なユーザーエクスペリエンスを実現する責任を負うものとします。 これには、チームをサポートし、ユーザーに対してチームを構成する準備ができていること、発生する可能性のある問題のトラブルシューティングと解決が効果的であることを確認することが含まれます。
 
 次のリソースを IT スタッフのメンバーと共有して、チームへのアップグレードを開始する前に、ユーザーをサポートする準備ができていることを確認します。
 

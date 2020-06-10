@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: すべての機能を活用できるように、Microsoft Teams 室を展開するためのインフラストラクチャを準備する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905349"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666169"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -55,7 +55,7 @@ ms.locfileid: "43905349"
 - Active Directory または Azure Active Directory (Azure AD) インスタンスと、Microsoft Exchange および Skype for Business Server へのアクセス。
 - DHCP を使用して IP アドレスを提供することができるサーバーへのアクセス。 静的 IP アドレスを使用して Microsoft Teams ミーティングを構成することはできません。
 - HTTP ポート 80 および 443 にアクセスします。
-- オンプレミスの Skype for Business Server の実装については「[サーバーのポートとプロトコルの要件](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)」、または Microsoft Teams や Skype for Business Online の実装については「[Office 365 の URL と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)」の説明に従って構成された TCP および UDP ポート。
+- オンプレミスの Skype for Business Server の実装の場合は[サーバーのポートとプロトコルの要件](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)、microsoft Teams または Skype for business online の実装では、 [Microsoft 365 および Office 365 の url と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)の説明に従って構成された TCP および UDP ポート。
 
 > [!IMPORTANT]
 > 有線の 1 Gbps ネットワーク接続を使用して、必要な帯域幅を確保してください。
@@ -110,7 +110,7 @@ Microsoft Teams ミーティングは、Windows OS からプロキシ設定を�
 
 |用途|ソースまたは資格情報|送信元ポート|接続先|CDN|Office 365 向け ExpressRoute|接続先 IP|送信先ポート|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|認証と ID  <br/> |「[Office 365 の認証と ID](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity)」を参照 <br/> |||
+|認証と ID  <br/> |「 [Microsoft 365 と Office 365 の認証と id](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) 」を参照してください。 <br/> |||
 |ポータルと共有  <br/> |「 [Microsoft 365 管理センターと共有」を参照し](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity)てください。 <br/> |||
 |SIP 信号  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |永続共有オブジェクト モデル (PSOM) 接続による Web 会議  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -123,11 +123,11 @@ Microsoft Teams ミーティングは、Windows OS からプロキシ設定を�
 |Skype クライアントのポップ ヒント  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |quicktips.skypeforbusiness.com  <br/> |×  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
-> contoso.com および broadcast.skype.com のワイルドカードは、Office 365 専用で使用されるノードの長いリストを表しています。 
+> Contoso.com と broadcast.skype.com のワイルドカードは、Microsoft 365 または Office 365 専用に使用されるノードの長いリストを表します。 
   
 ### <a name="create-provisioning-packages"></a>プロビジョニング パッケージを作成する
 
-プロビジョニング パッケージは、Exchange Server や Office 365 の認証に使用します。
+プロビジョニングパッケージを使用して、Exchange Server、Microsoft 365、または Office 365 への認証を行います。
   
 ### <a name="admin-group-management"></a>管理グループの管理
 
