@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905539"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691523"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online のサポート終了
 
@@ -31,7 +31,7 @@ Skype for Business Online は、2021年7月31日に廃止されます。 この�
  
 ## <a name="what-is-the-skype-for-business-retirement-plan"></a>Skype for Business の廃止プランとは何ですか?
 
-Skype for Business Online は、2021年7月31日に廃止され、その後、サービスにアクセスできなくなります。 現在のところ、現在の Skype for Business Online のお客様は、サービスに変更がないため、必要に応じて新しいユーザーを追加することができます。 ただし、2019年9月1日以降、新しい Office 365 のすべてのユーザーを、チャット、会議、通話のために Teams に直接準備します。 Skype コンシューマーサービスと Skype for Business Server は、このお知らせの影響を受けないことに注意してください。  
+Skype for Business Online は、2021年7月31日に廃止され、その後、サービスにアクセスできなくなります。 現在のところ、現在の Skype for Business Online のお客様は、サービスに変更がないため、必要に応じて新しいユーザーを追加することができます。 ただし、2019年9月1日以降、新しい Microsoft 365 または Office 365 のお客様は全員、チャット、会議、通話のために Teams に直接組み込まれます。 Skype コンシューマーサービスと Skype for Business Server は、このお知らせの影響を受けないことに注意してください。  
 
 ## <a name="why-are-we-making-this-announcement-now"></a>今回このお知らせが登場するのはなぜですか?
 

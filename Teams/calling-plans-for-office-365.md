@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。 '
-ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: baa90b5a625abf53890fcd51ff91b0ac754b3c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041734"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691403"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 の通話プラン
 
@@ -39,9 +39,9 @@ ms.locfileid: "44041734"
   
 通話プランのオプションを紹介します。
   
-- **国内通話プラン**: ライセンスを取得したユーザーは、Office 365 で割り当てられた国/地域の番号に電話をかけることができます。
+- **国内通話プラン**: ライセンスを取得したユーザーは、Microsoft 365 または Office 365 で割り当てられている国/地域にある電話番号に発信できます。
     
-- **国内および国際通話プラン**: ライセンスを取得したユーザーは、ユーザーのいる場所に基づいてユーザーに割り当てられた Office 365 ライセンスの国/地域の番号と、[196 の国/地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際番号に電話をかけることができます。
+- **国内および国際通話プラン**: ライセンスを取得したユーザーは、ユーザーの所在地に基づいて、または[196 の国/地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)の国際電話番号に基づいて、Microsoft 365 または Office 365 ライセンスがユーザーに割り当てられている国/地域にある電話番号に発信することができます。
     
 国[と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)の利用可能時間については、各国/地域の各組織で利用可能な月額プランをご覧ください。
   
@@ -53,7 +53,7 @@ ms.locfileid: "44041734"
   
 ## <a name="how-to-buy-a-calling-plan"></a>通話プランを購入する方法
 
-1. <strong>まず **電話システム</strong>のアドオン ライセンス<strong>を購入する必要があります。そのためには、[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、**[請求]</strong> > **[サービスの購入]** > **[アドオン サブスクリプション]** > **[今すぐ購入]** の順に選択します。
+1. <strong>まず * * 電話システムアドオンライセンスを購入する必要があり</strong><strong>ます。これを行うには、 [Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、* * 課金</strong>  >  **購入サービス**  >  **アドオンサブスクリプション**を選択し  >  **Buy now**ます。
     
     ![音声通話プランを購入するためのオプションを示すスクリーンショット。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
@@ -88,7 +88,7 @@ ms.locfileid: "44041734"
     
 - [Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Office 365 の電話システムでできること](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [Microsoft 365 または Office 365 の電話システムで利用できる機能](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
 ## <a name="related-topics"></a>関連項目

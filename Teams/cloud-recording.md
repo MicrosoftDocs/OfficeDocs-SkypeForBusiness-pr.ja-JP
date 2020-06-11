@@ -16,12 +16,12 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eb2a9a3cf2e349ab74fc9059408a7be2c41c8408
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523340"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690903"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -48,7 +48,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 <sup>1</sup>ユーザーは Microsoft Stream との会議をアップロード/ダウンロードするためのライセンスが必要ですが、会議を記録するためのライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
 
 > [!IMPORTANT] 
-> ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 これは、レコーディングが Microsoft Stream に保存されていないことを意味しますが、この記録は、削除される前に30日間の制限付きで Azure Media Services (AMS) に保存されています。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
+> ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 これは、レコーディングが Microsoft Stream に保存されていないことを意味しますが、その記録は、削除される前に21日間の制限付きで Azure メディアサービス (AMS) に保存されます。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>組織内のユーザーに対して Teams のクラウド会議のレコーディングを設定する
 
@@ -58,7 +58,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 
 Microsoft Stream は、適格な Microsoft 365 および Office 365 サブスクリプションの一部として、またはスタンドアロンサービスとして利用できます。  詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。  Microsoft Stream は、microsoft 365 Business、Microsoft 365 Business Standard、および Microsoft 365 Business Basic に含まれるようになりました。
 
-ユーザーが Microsoft Stream にアクセスできるように [Office 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法をご確認ください。 Microsoft stream[のブロックサイン](https://docs.microsoft.com/stream/disable-user-organization)アップで定義されているように、ユーザーに対して microsoft stream がブロックされていないことを確認します。
+ユーザーが Microsoft Stream にアクセスできるように、 [microsoft 365 または Office 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法について説明します。 Microsoft stream[のブロックサイン](https://docs.microsoft.com/stream/disable-user-organization)アップで定義されているように、ユーザーに対して microsoft stream がブロックされていないことを確認します。
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>ユーザーが Microsoft Stream でビデオのアクセス許可をアップロードしていることを確認する
 
@@ -83,11 +83,15 @@ PowerShell を使用する場合は、TeamsMeetingPolicy で AllowCloudRecording
 
 ユーザーがグローバル ポリシーにフォールバックするには、次のコマンドレットを使用して、ユーザーの特定のポリシーの割り当てを削除します。
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 グローバル ポリシーの AllowCloudRecording の値を変更するには、次のコマンドレットを使用します。
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
+```
 </br>
 </br>
 
@@ -105,7 +109,7 @@ PowerShell を使用する場合は、TeamsMeetingPolicy で AllowCloudRecording
 
 お客様の Microsoft Stream データが保存されるリージョンを確認するには、Microsoft Stream で、右上隅にある **[?]** をクリックし、 **[About Microsoft Stream](Microsoft Stream について)** をクリックして、**[Your data is stored in](データの保存場所)** をクリックします。  Microsoft Stream でデータが保存されるリージョンについて詳しくは、「[Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)」を参照してください。
 
-Office 365 のサービス全体のデータの保存場所について詳しくは、「[データの保管場所](https://products.office.com/where-is-your-data-located?rtc=1)」を参照してください。
+Microsoft 365 または Office 365 のサービス間でデータが保存される場所の詳細については、「[データがどこにあるか](https://products.office.com/where-is-your-data-located?rtc=1)を確認する」を参照してください。
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>レコーディングの文字起こしを有効または無効にする
 
@@ -121,11 +125,15 @@ PowerShell を使用する場合は、TeamsMeetingPolicy で AllowTranscription 
 
 ユーザーがグローバル ポリシーにフォールバックするには、次のコマンドレットを使用して、ユーザーの特定のポリシーの割り当てを削除します。
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 グローバル ポリシーの AllowCloudRecording の値を変更するには、次のコマンドレットを使用します。
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
+```
 </br>
 </br>
 
@@ -150,7 +158,7 @@ PowerShell を使用する場合は、TeamsMeetingPolicy で AllowTranscription 
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会議のレコーディングのコンプライアンスと電子情報開示
 
-会議のレコーディングは、Office 365 の C レベルに準拠している Microsoft Stream に保存されます。 Microsoft Streams の会議や通話のレコーディングに関心があるコンプライアンス管理者の電子情報開示要求をサポートするため、Microsoft Teams のコンプライアンス コンテンツ検索機能ではレコーディング完了メッセージを利用できます。 コンプライアンス管理者は、コンプライアンス コンテンツ検索プレビューのアイテムの件名で "レコーディング" をキーワード検索して、組織内の会議や通話のレコーディングを見つけることができます。 コンプライアンス管理者がすべてのレコーディングを表示するための前提条件として、コンプライアンス管理者は Microsoft Stream の設定で管理アクセスを付与されている必要があります。 詳細については、「[Assign Microsoft Stream admins](https://docs.microsoft.com/stream/assign-administrator-user-role)」(Microsoft Stream で管理者を割り当てる) を参照してください。
+会議のレコーディングは Microsoft Stream に保存されます。これは Microsoft 365 と Office 365 Tier C に準拠しています。 Microsoft Streams の会議や通話のレコーディングに関心があるコンプライアンス管理者の電子情報開示要求をサポートするため、Microsoft Teams のコンプライアンス コンテンツ検索機能ではレコーディング完了メッセージを利用できます。 コンプライアンス管理者は、コンプライアンス コンテンツ検索プレビューのアイテムの件名で "レコーディング" をキーワード検索して、組織内の会議や通話のレコーディングを見つけることができます。 コンプライアンス管理者がすべてのレコーディングを表示するための前提条件として、コンプライアンス管理者は Microsoft Stream の設定で管理アクセスを付与されている必要があります。 詳細については、「[Assign Microsoft Stream admins](https://docs.microsoft.com/stream/assign-administrator-user-role)」(Microsoft Stream で管理者を割り当てる) を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

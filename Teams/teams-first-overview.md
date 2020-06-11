@@ -11,33 +11,33 @@ ms.collection:
 ms.reviewer: lsomi
 localization_priority: Normal
 search.appverid: MET150
-description: このガイダンスを使用して、Microsoft Teams を最初の Office 365 ワークロードとしてロールアウトします。
+description: Microsoft Teams を最初の Microsoft 365 または Office 365 のワークロードとして展開するには、このガイダンスを使用します。
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472348"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691003"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft Teams を最初にロールアウトする
 
-Microsoft Teams を使用すると、従業員が世界中の従業員の現実である、現在のかつてない時間帯に、相互に接続して共同作業を行うことができます。 チーム内でチャットしたり、ビデオ会議を行ったり、Office ドキュメントの共同作業を行ったりすると、会社の生産性を維持できます。 小規模ビジネス、非営利団体、大企業向けのいずれの場合も、他の Office アプリまたはサービスを展開する前に、Office 365 スイート内の最初のワークロードとして Teams を使い始めることができます。
+Microsoft Teams を使用すると、従業員が世界中の従業員の現実である、現在のかつてない時間帯に、相互に接続して共同作業を行うことができます。 チーム内でチャットしたり、ビデオ会議を行ったり、Office ドキュメントの共同作業を行ったりすると、会社の生産性を維持できます。 小規模ビジネス、非営利団体、大企業向けのいずれの場合も、他の Office アプリやサービスを展開する前に、Microsoft 365 または Office 365 スイートの最初のワークロードとして Teams を使用することができます。
 
 この記事では、"Teams First" アプローチで行う必要がある考慮事項について説明します。
 
 > [!IMPORTANT]
 > Teams は組織の最初のクラウドに展開されますが、チームの展開は、クラウド展開戦略全体の一部にする必要があります。
 
-他の Office 365 サービスを既にロールアウトしていて、チームが次のワークロード (最初ではなく) である場合は、[チームをロールアウトする方法](How-to-roll-out-teams.md)から開始してください。
+他の Microsoft 365 または Office 365 サービスを既にロールアウトしている場合に、(最初ではなく) 次のワークロードがロールアウトされるようになった場合は、[チームをロールアウトする方法](How-to-roll-out-teams.md)から開始します。
 
 ## <a name="start-here"></a>開始するには
 
 チームの最初の展開を始めるには、少なくともいくつかの前提条件を満たしている必要があります。 次のリストは、Teams を有効にする前に、組織に必要な場所を示しています。
 
-1.  使用しているドメイン名で構成されている Office 365 組織
+1.  ドメイン名で構成された Microsoft 365 または Office 365 の組織
 
 2.  Azure Active Directory connectivity (AAD connect) または同様のクラウド id 同期ソリューション–テナントに同期される必須属性がすべて含まれています。  
     AAD 同期と同期される属性について理解するには、「 [AZURE AD Connect sync: 属性が Azure Active Directory に同期](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)されている」を参照してください。
@@ -48,7 +48,7 @@ Microsoft Teams を使用すると、従業員が世界中の従業員の現実�
 4.  Teams 用に準備された組織のネットワーク  
     ネットワークの準備について理解するには、「 [Teams 用に組織のネットワークを準備](prepare-network.md)する」を参照してください。
 
-5.  Office 365 で Exchange、Sharepoint、OneDrive for Business へのネットワークアクセスを許可する: [office 365 url と IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
+5.  Microsoft 365 または Office 365 で、Exchange、Sharepoint、OneDrive for Business へのネットワークアクセスを許可する: [office 365 url と IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!NOTE]
 > 2019年9月1日以降に作成されたテナントは、Teams 専用モードでプロビジョニングされます。
@@ -58,7 +58,7 @@ Microsoft Teams を使用すると、従業員が世界中の従業員の現実�
 
 ## <a name="migration-starting-points"></a>移行開始ポイント
 
-出発点と、オンプレミスの Skype for Business または Lync server の存在に応じて、Teams で利用できる Office 365 および機能への旅。 以下のセクションでは、上記の前提条件に加え、基本的な機能と構成オプションについて説明します。 出発点のシナリオは、次のトピックに分類されています。
+出発点と、オンプレミスの Skype for Business または Lync server の存在に応じて、Teams で利用可能な Microsoft 365 または Office 365 および機能への旅。 以下のセクションでは、上記の前提条件に加え、基本的な機能と構成オプションについて説明します。 出発点のシナリオは、次のトピックに分類されています。
 
 **テナントチームの構成**: テナントとユーザーモードは、受信者の動作を制御するために使用されます。 これらの設定は、テナントレベルまたは組織内のユーザーレベルで割り当てることができます。 詳細については、「 [Skype For business を使用した共存](coexistence-chat-calls-presence.md)」を参照してください。
 
@@ -88,7 +88,7 @@ Teams は、2種類の PSTN 接続をサポートしています。 Microsoft �
 
 ## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>Skype for Business または Lync server を使用して**<span class="underline">いない</span>** 組織
 
-この出発点は、組織が Skype for Business または Lync server を使用していないことを前提としており、Teams は Office 365 の最初のアプリケーションとなります。 次の表では、コアサービスの Teams の高レベルの構成とエンドユーザー向け機能について詳しく説明します。
+この出発点は、現在、組織が Skype for Business または Lync server を使用していないことを前提としており、Teams は Microsoft 365 または Office 365 の最初のアプリケーションとなります。 次の表では、コアサービスの Teams の高レベルの構成とエンドユーザー向け機能について詳しく説明します。
 
 <table>
 <thead>
@@ -104,9 +104,9 @@ Teams は、2種類の PSTN 接続をサポートしています。 Microsoft �
 </tr>
 <tr class="even">
 <td>Teams でのチャット/外部通信</td>
-<td><p>内部 (Office 365 組織内) および Teams からの外部チャット通信可能</p>
-<p><em>注: DNS エントリは、外部アクセス用に構成されている必要があります。 Skype for business DNS レコードは、Lync および Skype for business 環境とのフェデレーションを許可するために、オンプレミスの Skype for Business または Office 365 を使っていない場合でも必要です。<br />
-<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Office 365 の外部ドメインネームシステムレコード</a></em></p></td>
+<td><p>Internal (Microsoft 365 または Office 365 組織内) と Teams からの外部チャット通信</p>
+<p><em>注: DNS エントリは、外部アクセス用に構成されている必要があります。 Skype for Business DNS レコードが必要なのは、Skype for business がオンプレミスではなく、または Microsoft 365 または Office 365 を使用していない場合でも、Lync と Skype for business の環境とのフェデレーションを許可することです。<br />
+<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">外部ドメイン名システムレコード</a></em></p></td>
 </tr>
 <tr class="odd">
 <td><em>Teams で会議を作成して表示する</em></td>
@@ -162,11 +162,11 @@ Teams での VoIP/PSTN</td>
     
     [Microsoft Teams の導入クイック スタートのチェックリスト](teams-adoption-quick-start-checklist.md)
 
-6.  他のワークロードの Office 365 への移行の計画を開始する
+6.  他のワークロードの Microsoft 365 または Office 365 への移行を計画する
 
 ## <a name="organizations-span-classunderlinewithspan-skype-for-business-or-lync-server"></a>Skype for Business または Lync server**<span class="underline">を使用している</span>** 組織
 
-この出発点は、組織が Skype for Business 2019 または 2015 + または Lync 2013 + server をオンプレミスで利用していることを前提としています。 オンプレミスのサーバーから Teams に移行する組織向けの広範なガイダンスは、これらのシナリオについて説明されています。 このガイダンスは、Teams が Office 365 で初めて利用するアプリケーションであるシナリオに固有のものです。 次の表では、コアサービスの Teams の高レベルの構成とエンドユーザー向け機能について詳しく説明します。
+この出発点は、組織が Skype for Business 2019 または 2015 + または Lync 2013 + server をオンプレミスで利用していることを前提としています。 オンプレミスのサーバーから Teams に移行する組織向けの広範なガイダンスは、これらのシナリオについて説明されています。 このガイダンスは、Teams が Microsoft 365 または Office 365 で使用する最初のアプリケーションであるシナリオに固有のものです。 次の表では、コアサービスの Teams の高レベルの構成とエンドユーザー向け機能について詳しく説明します。
 
 <table>
 <thead>
@@ -244,7 +244,7 @@ Teams での VoIP/PSTN</td>
     [Microsoft Teams を導入する](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft Teams の導入クイック スタートのチェックリスト](teams-adoption-quick-start-checklist.md)
 
-6.  他のワークロードの Office 365 への移行の計画を開始する
+6.  他のワークロードの Microsoft 365 または Office 365 への移行を計画する
 
 7.  Skype for business ハイブリッドを確立し、Skype for Business および Lync サーバーの推奨されるアップグレードパスに従います。  
     [Skype for Business オンプレミスから Teams にアップグレードする](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)
@@ -275,7 +275,7 @@ Microsoft Teams は、組織が1つのプラットフォームですべての従
 
 ## <a name="support-services-reference"></a>サポートサービスリファレンス
 
-チームは Exchange Online、SharePoint Online、OneDrive for Business、Microsoft 365 グループに依存して、完全に統合された Office 365 エクスペリエンスをユーザーに提供します。 上で説明したように、チームは、機能が制限されている場合に、これらのサービスを完全に展開することなく機能します。 チームとその前提条件の詳細については、「 [teams へようこそ](teams-overview.md)」を参照してください。
+チームは Exchange Online、SharePoint Online、OneDrive for Business、Microsoft 365 グループを利用して、完全に統合された Microsoft 365 または Office 365 エクスペリエンスをユーザーに提供します。 上で説明したように、チームは、機能が制限されている場合に、これらのサービスを完全に展開することなく機能します。 チームとその前提条件の詳細については、「 [teams へようこそ](teams-overview.md)」を参照してください。
 
 上記の各サービスの詳細については、以下のリンクを参照してください。
 
@@ -297,4 +297,4 @@ Microsoft Teams は、組織が1つのプラットフォームですべての従
 
 [Teams を使用したリモートワーカーのサポート](support-remote-work-with-teams.md)
 
-[Office 365 を使用してリモートで作業する](https://aka.ms/remote-work)
+[Microsoft 365 でリモートで作業する](https://aka.ms/remote-work)

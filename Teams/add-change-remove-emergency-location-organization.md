@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae3a224b38fba412b9c0dc4ec0bfde5028440a79
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 5758d79325cd83579e2a650db47c9913a0cda26b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610326"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690843"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
@@ -46,6 +46,7 @@ ms.locfileid: "44610326"
 
    > [!NOTE]
    > ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Microsoft 365 または Office 365 で電話番号を正しく有効にすることを理解しておくことが重要です。この番号を取得するために使用する緊急対応の場所で設定された住所は、電話番号の市外局番と一致する必要があります。
+
 5. 住所が見つからず、アドレスを手動で編集する場合は、[**アドレスを手動で編集**する] をオンにします。
 6. **[保存]** をクリックします。
 

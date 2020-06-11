@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 新しいサービス電話番号を会議ブリッジに割り当てて、ユーザーの利用範囲を広げるために必要な手順について説明します。
-ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: e0786ad2c35ebe7d9663a71b594f7f5facd73b08
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898152"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691383"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -37,15 +37,15 @@ ms.locfileid: "43898152"
 会議ブリッジに既に割り当てられている電話番号に加えて、他の場所から[サービス番号](/microsoftteams/getting-service-phone-numbers)(電話会議に使用されている有料または無料の電話番号) を取得して、ユーザーのために範囲を広げることができます。
   
 > [!NOTE]
-> 会議ブリッジの電話番号の割り当て/割り当て解除を行うには、電話番号は「*サービス*」番号でなければなりません。 番号の種類は、従来のポータルで [ > **電話番号** **] に移動**し、[番号の**種類**] 列で確認できます。 ユーザーが無料電話番号を使用してブリッジにダイヤルインするためには、Office 365 通信クレジットを最初に設定する必要があります。
+> 会議ブリッジの電話番号の割り当て/割り当て解除を行うには、電話番号は「*サービス*」番号でなければなりません。 番号の種類は、従来のポータルで [電話番号 **] に移動**  >  **Phone numbers**し、[**番号の種類**] 列で確認できます。 ユーザーが無料電話番号でブリッジにダイヤルインするためには、Microsoft 365 または Office 365 の通信クレジットを最初に設定する必要があります。
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>新しいサービス電話番号を電話会議ブリッジに割り当てるときの手順
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>手順 1-新しい電話番号を電話会議ブリッジに割り当てる
 
-1. 職場のアカウントを使用して、Office 365 にサインインします。
+1. 職場のアカウントを使用して、Microsoft 365 または Office 365 にサインインします。
 
-2. **Microsoft 365 管理センター** > **管理** > **Teams & Skype** > **従来のポータル** > **ボイス** > **電話番号**に移動します。
+2. **Microsoft 365 管理センター**  >  **管理**センター  >  **Teams & Skype**  >  **従来のポータル**  >  **ボイス**  >  **電話番号**に移動します。
 
 3. リストから電話番号を選び、操作ウィンドウで [**割り当て**] をクリックします。
 
@@ -57,9 +57,9 @@ ms.locfileid: "43898152"
 
 電話会議ブリッジの既定の番号として設定できるのは、サービスの有料電話番号だけです。**サービスの無料電話番号を電話会議ブリッジの既定の番号として設定することはできません**。 サービスの有料電話番号を割り当てていて、電話会議ブリッジの新しい既定の番号として設定したい場合は、次の手順を実行します。
 
-1. 職場のアカウントを使用して、Office 365 にサインインします。
+1. 職場のアカウントを使用して、Microsoft 365 または Office 365 にサインインします。
 
-2. **Microsoft 365 管理センター** > の**管理** > センター**チーム & Skype** > **会議** > **会議ブリッジ**に移動します。
+2. **Microsoft 365 管理センター**の  >  **管理**センター  >  **チーム & Skype**  >  **会議**  >  **会議ブリッジ**に移動します。
 
 3. 既定として構成するサービスの有料電話番号を強調表示します。
 
@@ -71,7 +71,7 @@ ms.locfileid: "43898152"
   
 1. 職場または学校のアカウントを使用してサインインします。
 
-2. **Microsoft 365 管理センター** > **管理** > センターの**チーム & Skype** > **従来のポータル** > **電話会議** > **ユーザー**に移動して、リストからユーザーを選びます。
+2. **Microsoft 365 管理センター**  >  **管理**センターの  >  **チーム & Skype**  >  **従来のポータル**  >  **電話会議**  >  **ユーザー**に移動して、リストからユーザーを選びます。
 
 3. 操作ウィンドウで [**編集**] をクリックします。
 
@@ -135,7 +135,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. 職場または学校のアカウントを使用してサインインします。
 
-2. **Microsoft 365 管理センター** > **管理** > **Teams & Skype** > **従来のポータル** > **ボイス** > **電話番号**に移動します。
+2. **Microsoft 365 管理センター**  >  **管理**センター  >  **Teams & Skype**  >  **従来のポータル**  >  **ボイス**  >  **電話番号**に移動します。
 
 3. 電話番号がフリーダイヤル番号の場合は、一覧から電話番号を選び、操作ウィンドウで [**割り当てを解除**] をクリックします。 電話番号が有料番号の場合は、 [Microsoft サポート](https://go.microsoft.com/fwlink/?linkid=2091806)に連絡して電話番号を割り当てていないことを確認してください。
 
@@ -151,7 +151,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
  次の手順では、Windows PowerShell バージョン3.0 以降を実行していることを確認します。
 
-1. 「**スタートメニュー** > **Windows PowerShell**」と入力します。
+1. 「**スタートメニュー**  >  **Windows PowerShell**」と入力します。
 
 2. [ **Windows PowerShell** ] ウィンドウで「 _Get Host_ 」と入力して、バージョンを確認します。
 
@@ -161,7 +161,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 4. また、skype for business online に接続するリモート Windows PowerShell セッションを作成できるようにする、Skype for Business Online 用の Windows PowerShell モジュールをインストールする必要もあります。 このモジュールは、64ビットのコンピューターでのみサポートされ、 [Skype For Business Online 用の Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)で Microsoft ダウンロードセンターからダウンロードできます。
 メッセージが表示されたら、コンピューターを再起動します。
 
-詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
+詳細については、「[単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
 
 ### <a name="to-start-windows-powershell"></a>Windows PowerShell を起動するには
 
@@ -181,7 +181,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 > [!NOTE]
 > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
-Windows PowerShell の起動の詳細については、「[単一の Windows powershell ウィンドウですべての Office 365 サービスに接続](https://technet.microsoft.com/library/dn568015.aspx)する」または「 [windows powershell を使用して Skype for business Online に](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)接続する」を参照してください。
+Windows PowerShell の起動の詳細については、「[すべての Microsoft 365 または Office 365 サービスを単一の Windows powershell ウィンドウで接続](https://technet.microsoft.com/library/dn568015.aspx)する」または「 [windows powershell を使用して Skype for business Online に](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)接続する」を参照してください。
 
 ### <a name="save-time-and-automate"></a>時間を節約して自動化する
 
@@ -241,7 +241,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>Windows PowerShell について
 
-Windows PowerShell を使用すると、ユーザーとその内容の管理を行うことができます。また、ユーザーの操作は許可されません。 Windows PowerShell を使用すると、1つの管理ポイントを使用して Office 365 および Skype for Business Online を管理することができます。特に、複数のタスクがある場合は、日常業務を簡素化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShell を使用すると、ユーザーとその内容の管理を行うことができます。また、ユーザーの操作は許可されません。 Windows PowerShell を使用すると、日常的な作業を簡略化できる単一の管理ポイントを使用して、Microsoft 365 または Office 365 と Skype for Business Online を管理することができます。特に複数のタスクを実行する場合は、この操作を行うことができます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -249,7 +249,7 @@ Windows PowerShell を使用すると、ユーザーとその内容の管理を�
 
 Windows PowerShell には、多くのユーザーについて同時に設定を変更する場合など、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を高めることができます。 次のトピックでこれらの利点について説明します。
 
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
 

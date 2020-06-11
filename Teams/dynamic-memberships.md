@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 24268206ee4f325d3b80f315f1125cfff5d0fbad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638406"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691593"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 
@@ -43,13 +43,13 @@ Microsoft Teams では、チームの Microsoft 365 グループに対して有�
 > - メンバーは動的なグループルールによって定義されるため、所有者は、ユーザーをチームのメンバーとして追加または削除することはできません。
 > -    メンバーは、動的グループによってバックアップされたチームを脱退することはできません。
 
-
 ## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>動的メンバーシップを使用した Microsoft 365 グループの作成と管理
+
 テナント管理者としてログインしているときに、「[動的グループを作成する」と「状態を確認](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)する」の手順に従います。 必要に応じて、「 [Azure Active Directory のグループの動的メンバーシップの規則」](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)を参照してください。
 
-## <a name="create-a-new-team-with-your-o365-group"></a>O365 グループを使用して新しいチームを作成する
+## <a name="create-a-new-team-with-your-microsoft-365-group"></a>Microsoft 365 グループを使用して新しいチームを作成する
 
-次に、「 [Microsoft Teams で既存の microsoft 365 グループを強化](enhance-office-365-groups.md)する」の説明に従って、メンバーシップの変更を有効にして新しいチームを作成します。
+次に、「[既存のグループからチームを作成](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865)する」の説明に従って、メンバーシップの変更を有効にして新しいチームを作成します。
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>既存のチームに動的メンバーシップを適用する
 

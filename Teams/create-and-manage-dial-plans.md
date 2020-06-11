@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft Teams 管理センターまたは Windows PowerShell を使用して、ダイヤルプラン (PSTN 通話ダイヤルプラン) を作成および管理する方法について説明します。
-ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902022"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691343"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "43902022"
 
 ### <a name="create-a-dial-plan"></a>ダイヤルプランを作成する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **ダイヤルプラン**] に移動します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **ダイヤルプラン**] に移動します。
 2. [**追加**] をクリックして、ダイヤルプランの名前と説明を入力します。
     ![ダイヤルプランを作成するための [追加] ページを示すスクリーンショット](media/create-dial-plan.png)
 3. [**ダイヤルプランの詳細**] で、ユーザーが1つまたは複数の追加の先頭の数字 (9 など) をダイヤルする必要がある場合は、外部ダイヤルのプレフィックスを指定します。 その手順は次のとおりです。
@@ -56,7 +56,7 @@ ms.locfileid: "43902022"
 
 ### <a name="edit-a-dial-plan"></a>ダイヤルプランを編集する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス** > **ダイヤルプラン**] に移動します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **ダイヤルプラン**] に移動します。
 2. ダイヤルプラン名の左側をクリックして、[**編集**] をクリックして、ダイヤルプランを選択します。
 3. 必要な変更を加えて、[**保存**] をクリックします。
 
@@ -74,7 +74,7 @@ ms.locfileid: "43902022"
 
  **Windows PowerShell バージョン3.0 以降を実行していることを確認する**
   
-1. バージョン3.0 以降を実行していることを確認するには、「**Windows PowerShell**を**開始する」** > をご覧ください。
+1. バージョン3.0 以降を実行していることを確認**Start Menu**するには、「  >  **Windows PowerShell**を開始する」をご覧ください。
     
 2. [ _Windows PowerShell_] ウィンドウに「 **Get-Host**」と入力して、バージョンを確認します。
     
@@ -82,11 +82,11 @@ ms.locfileid: "43902022"
     
 4. また、skype for business online に接続するリモート Windows PowerShell セッションを作成できるようにする、Skype for Business Online 用の Windows PowerShell モジュールをインストールする必要もあります。 このモジュールは、64ビットのコンピューターでのみサポートされていますが、 [Skype For Business Online 用の Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)でダウンロードできます。 メッセージが表示されたら、コンピューターを再起動します。
     
-詳細については、「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」を参照してください。
+詳細については、「[単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」を参照してください。
   
  **Windows PowerShell セッションを開始する**
   
-1. [ **Start** > **Windows PowerShell**を起動します] をクリックします。
+1. [ **Start**  >  **Windows PowerShell**を起動します] をクリックします。
     
 2. **Windows PowerShell**ウィンドウで、次を実行して Microsoft 365 または Office 365 に接続します。
     

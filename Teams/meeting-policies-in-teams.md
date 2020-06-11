@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: 726e14aef92eed8fe681d183b8e1cfd404e659ca
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665139"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690943"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -436,8 +436,8 @@ Teams で [**表示できるユーザー]** の既定値を指定するには、
 |---------|---------|
 |**NoFilters**     |ユーザーはビデオの背景をカスタマイズできません。|
 |**BlurOnly**     |ユーザーには、ビデオの背景をぼかすオプションがあります。 |
-|**BlurandDefaultBackgrounds**     |ユーザーは、ビデオの背景をぼかすか、一連の画像から背景として使うかを選択するオプションがあります。 |
-|**AllFilters**     |[使用] には、ビデオの背景をぼかす、一連の画像から選択する、または背景として使用するカスタム画像をアップロードするオプションがあります。 |
+|**BlurandDefaultBackgrounds**     |ユーザーには、ビデオの背景をぼかすか、既定の画像セットから背景として使うかを選択するオプションがあります。 |
+|**AllFilters**     |[使用] では、ビデオの背景をぼかす、既定の画像セットから選ぶ、または背景として使用するカスタム画像をアップロードするオプションがあります。 |
 
 > [!NOTE]
 > ユーザーによってアップロードされた画像は、Teams ではスクリーンされません。 [ **Allfilters** ] 設定を使用すると、ユーザーが不快感を与える、または不適切な画像をアップロードすることを防止するための内部組織ポリシーが必要になります。また、組織が Teams 会議の背景に使用する権限を持っていない場合もあります。

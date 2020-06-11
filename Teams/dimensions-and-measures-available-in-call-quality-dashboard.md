@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボードで使用される寸法と測定値に関する詳細情報を取得します。
-ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 2dfef2dbe1bb94574911ab94d8da0cff50410592
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232588"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691283"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用可能な寸法と測定値
 
@@ -121,8 +121,8 @@ CQD の寸法と測定の多くは、first または second というラベル�
 | First Inside Corp  | 列挙型 <br/>**指定可能な値:** <br/> 内側、外側  | 第1のエンドポイントが企業ネットワーク内のサブネット上にあるかどうかを示します。これは、テナント作成データへのサブネットのマッピングに基づいています。 既定では、エンドポイントは外部と見なされます。 <br/> **値の例:** 中に | |
 | Second Inside Corp  | 列挙型 <br/> **指定可能な値:** <br/> 内側、外側 | 第2のエンドポイントが企業ネットワーク内のサブネット上にあるかどうかを示します。これは、テナント作成データへのサブネットのマッピングに基づいています。 既定では、エンドポイントは外部と見なされます。 <br/>**値の例:** 中に  |  |
 |**Deployment**| | | |
-| First Tenant Id  | 文字列  | 第 1 のエンドポイントの Office 365 テナント ID。 <br/> **例値:** 00000000: 0000-0000-0000 —000000000000  | <br/>&bull;第1のエンドポイントのテナント id を判別できませんでした。 これは、オンプレミスの Skype for Business Server 展開にエンドポイントがサインインしていることを示している可能性があります。  |
-| Second Tenant Id  | String  | 第 2 のエンドポイントの Office 365 テナント ID。 <br/> **例値:** 00000000: 0000-0000-0000 —000000000000  |  <br/>&bull;第2のエンドポイントのテナント id を判別できませんでした。 これは、オンプレミスの Skype for Business Server 展開にエンドポイントがサインインしていることを示している可能性があります。  |
+| First Tenant Id  | 文字列  | 第1のエンドポイントのテナント ID。 <br/> **例値:** 00000000: 0000-0000-0000 —000000000000  | <br/>&bull;第1のエンドポイントのテナント id を判別できませんでした。 これは、オンプレミスの Skype for Business Server 展開にエンドポイントがサインインしていることを示している可能性があります。  |
+| Second Tenant Id  | String  | 第2のエンドポイントのテナント ID。 <br/> **例値:** 00000000: 0000-0000-0000 —000000000000  |  <br/>&bull;第2のエンドポイントのテナント id を判別できませんでした。 これは、オンプレミスの Skype for Business Server 展開にエンドポイントがサインインしていることを示している可能性があります。  |
 | First Pool  | String  | 第 1 のエンドポイントに割り当てられた Skype for Business Online プールの FQDN。 <br/> **例値:** pool1 <span></span> <span></span>  | <br/>&bull;エンドポイントが Microsoft Teams または Skype for Business にサインインしていることを示します。 このフィールドは、オンプレミスの Skype for Business Server 展開を使って、ストリームに対してのみ設定されます。 |
 | Second Pool  | String  | 第 2 のエンドポイントに割り当てられた Skype for Business Online プールの FQDN。 <br/> **例値:** <span>pool1.lync.com</span>   | &bull;第2のエンドポイントに対して、Skype for Business Online プールを特定できませんでした。 これは、オンプレミスの Skype for Business Server 展開にエンドポイントがサインインしていることを示している可能性があります。  |
 | Is Federated  | Boolean  | フェデレーションされた2つのテナントの間でストリームがあった場合は True、そうでない場合は False。   | <br/>&bull;フェデレーションされたストリームであるかどうかを判別できなかった <br/>&bull;一部のシグナリングデータが収集されませんでした   |
@@ -455,7 +455,7 @@ CQD の寸法と測定の多くは、first または second というラベル�
 
 値のレンジまたはグループとして提供されるディメンションは、次の形式で示されます。
 
- _\<並べ替え順序文字列 \> [ \< 下限、包括的な \>  -  \< 上位バインド排他\>_
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
 
 たとえば、デュレーション (分) ディメンションは、通話のデュレーションを秒単位で表し、値のレンジとして報告された値が付きます。
 
@@ -467,7 +467,7 @@ CQD の寸法と測定の多くは、first または second というラベル�
 |066: [3 – 4] |3 分 < = ストリーム デュレーション < 4 分 |
 |  | |
 
-\<並べ替え順序文字列> は、データを表示するときに並べ替え順序を制御するために使用され、フィルター処理に使うことができます。 For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected).
+The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected).
 
 > [!NOTE]
 > 並び順文字列の実際の値は重大ではありません。
@@ -480,7 +480,7 @@ CQD で使用される文字列は、多くの場合、データファイルか�
 
 列挙のペアとして提供されるディメンションは、次の形式で示されます。
 
- _\<1つの終点からの列挙値 \> : \< 他方のエンドポイントからの列挙値\>_
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
 
 列挙の値の順序は一貫したものですが、第 1 または第 2 のエンドポイントの順序は反映していません。
 
@@ -515,10 +515,10 @@ CQD で使用される文字列は、多くの場合、データファイルか�
 |Total Answer Seizure Ratio |比率 |通話の合計数に対する、5 秒未満のデュレーションがある通話の比率。 |
 |Total Short Call Percentage |パーセンテージ |1分未満の長さの通話の合計のパーセンテージ。 |
 |Total Media Failure Percentage |パーセンテージ |メディア パスが確立されなかった、または正常に終了しなかったすべてのストリームのパーセンテージ。 |
-|Media Failed Due To Firewall DPI Stream Count |ストリームの数 |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームの数。 これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。 |
-|Firewall DPI Media Failure Percentage |パーセンテージ |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームのパーセンテージ。 これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。 |
-|Media Failed Due To Firewall IP Blocked Stream Count |ストリームの数 |ネットワーク機器が Skype for Business サーバーへのアクセスをブロックしたために確立できなかったストリームの数。これらの失敗は、通常はプロキシ、ファイアウォール、その他のネットワーク セキュリティ デバイスが、Office 365 の Skype for Business によって使用された IP アドレスとポートにアクセスするように正しく構成されていないことを示します。 |
-|Firewall IP Blocked Media Failure Percentage |パーセンテージ |ネットワーク機器が Skype for Business サーバーへのアクセスをブロックしたために確立できなかったストリームの割合。 通常、これらのエラーは、Office 365 の Skype for Business で使用される IP アドレスとポートにアクセスするように、プロキシ、ファイアウォール、またはその他のネットワークセキュリティデバイスが適切に構成されていないことを示しています。 |
+|Media Failed Due To Firewall DPI Stream Count |ストリームの数 |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームの数。 通常、これらのエラーは、プロキシ、ファイアウォール、またはその他のネットワークセキュリティデバイスが、Microsoft 365 または Office 365 の Skype for Business で使用される IP アドレスとポートにアクセスするように正しく構成されていないことを示しています。 |
+|Firewall DPI Media Failure Percentage |パーセンテージ |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームのパーセンテージ。 通常、これらのエラーは、プロキシ、ファイアウォール、またはその他のネットワークセキュリティデバイスが、Microsoft 365 または Office 365 の Skype for Business で使用される IP アドレスとポートにアクセスするように正しく構成されていないことを示しています。 |
+|Media Failed Due To Firewall IP Blocked Stream Count |ストリームの数 |ネットワーク機器が Skype for Business サーバーへのアクセスをブロックしたために確立できなかったストリームの数。 通常、これらのエラーは、プロキシ、ファイアウォール、またはその他のネットワークセキュリティデバイスが、Microsoft 365 または Office 365 の Skype for Business で使用される IP アドレスとポートにアクセスするように正しく構成されていないことを示しています。 |
+|Firewall IP Blocked Media Failure Percentage |パーセンテージ |ネットワーク機器が Skype for Business サーバーへのアクセスをブロックしたために確立できなかったストリームの割合。 通常、これらのエラーは、Microsoft 365 または Office 365 の Skype for Business で使用される IP アドレスとポートにアクセスするように、プロキシ、ファイアウォール、または他のネットワークセキュリティデバイスが適切に構成されていないことを示しています。 |
 | 他のストリームカウントによるメディア失敗|ストリームの数| 未確定/未分類の理由により、エンドポイント間のメディアパスが確立されなかったストリームの数。| |
 | その他のメディアエラーパーセンテージ|パーセンテージ| 未確定/未分類の理由により、エンドポイント間のメディアパスが確立されなかったストリームのパーセンテージ。 ||
 | 合計 CDR 利用可能通話回数|ストリームの数|信頼性/診断情報が利用可能なメディアストリームの合計数です。 このメジャーには最大0.2% のエラーがあります。 詳細については、以下の注を参照してください。|

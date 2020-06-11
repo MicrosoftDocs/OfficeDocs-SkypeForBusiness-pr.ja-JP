@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f124cd09c0baa604b09345394d9a53ae254bbb6f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042944"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691243"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -44,7 +44,7 @@ Skype for Business または Microsoft Teams で無料番号を使用する場�
   
 - **電話会議**ライセンスをユーザーに自分に割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
     
-    このライセンスを割り当てた後、電話会議を設定する必要があります。 詳細な手順については、「 [Office 365 で電話会議を試用または購入](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)する」を参照してください。
+    このライセンスを割り当てた後、電話会議を設定する必要があります。 詳細な手順については、「 [Microsoft 365 または Office 365 での電話会議を試用または購入](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)する」を参照してください。
     
 - **電話システム**と**国内または国内および国際**通話プランのライセンスをユーザーに割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
     
@@ -57,9 +57,9 @@ Skype for Business または Microsoft Teams で無料番号を使用する場�
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>手順 2: 組織のためにコミュニケーション クレジットをセットアップする
 
-1. 職場または学校のアカウントを使用して、新しい Microsoft 365 管理センターにサインインします。
+1. 職場または学校のアカウントを使用して、 [Microsoft 365 管理センター](https://portal.office.com/Adminportal)にサインインします。
     
-2. Microsoft 365 管理センターの左のナビゲーションで、[**請求** > **書購入サービス**] に移動します。 下**に**スクロールして、[アドオン] を選択します。
+2. Microsoft 365 管理センターの左のナビゲーションで、[**請求**  >  **書購入サービス**] に移動します。 下**に**スクロールして、[アドオン] を選択します。
 
 3. [**通信クレジット**] を選びます。
     
@@ -84,15 +84,15 @@ Skype for Business または Microsoft Teams で無料番号を使用する場�
     >[!IMPORTANT]
     >ボリューム ライセンスをお持ちのお客様は、支払い方法としてエンタープライズ契約番号を選択できます。エンタープライズ契約番号が複数ある場合は、支払いに使用するエンタープライズ契約番号を選択できます。(該当する場合は) エンタープライズ契約番号に関連付ける発注書番号を指定することもできます。
     
-Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online already as their service provider can get usage data by reviewing it in the **Skype for Business admin center** > **Reports** > **PSTN usage details** report.
+Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. すでに Skype for business Online を使用している組織では、「 **Microsoft Teams 管理センター**」「  >  **Reports**  >  **PSTN 使用状況の詳細**」レポートで情報を確認して使用データを取得できます。
   
-通信クレジットを設定している場合は、組織の通話使用状況を調査して、必要な金額を確認する必要があります。 通話の利用状況の情報は、[ **PSTN 利用状況の詳細**] レポートで確認できます。 このレポートでは、データを保存したり、カスタムレポートを作成したりする必要がある場合に、通話データレコードを Excel にエクスポートすることができます。 使用状況の確認方法については、「 [Skype For BUSINESS PSTN 使用状況レポート](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)」を参照してください。
+通信クレジットを設定している場合は、組織の通話使用状況を調査して、必要な金額を確認する必要があります。 通話の利用状況の情報は、[ **PSTN 利用状況の詳細**] レポートで確認できます。 このレポートでは、データを保存したり、カスタムレポートを作成したりする必要がある場合に、通話データレコードを Excel にエクスポートすることができます。 使用状況の確認方法については、「 [PSTN 使用状況レポート](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)」を参照してください。
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>手順 3: コミュニケーション クレジットのライセンスをユーザーに割り当てる
 
-1. 職場または学校のアカウントを使用してサインインします。
+1. 職場または学校のアカウントを使用して、 [Microsoft 365 管理センター](https://portal.office.com/Adminportal)にサインインします。
     
-2. Microsoft 365 管理センターの左側のナビゲーションで、[**ユーザー**]  >  [**アクティブなユーザー**] に進み、そのリストから一人、または複数のユーザーを選択します。
+2. Microsoft 365 管理センターの左のナビゲーションで、[ユーザーの**Users**  >  **アクティブな**ユーザー] に移動し、一覧からユーザーを選びます。
     
 3. [**ライセンスとアプリ**] を選びます。
     
@@ -100,6 +100,9 @@ Each organization will have a different usage of Calling Plan volume and rates t
     
     > [!NOTE]
     > **Enterprise E5** ライセンスが割り当てられているユーザーがいる場合でも、これを実行することをお勧めします。
+
+    > [!TIP]
+    > [Powershell](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)を使用して、1つのコマンドで複数のユーザーにライセンスとアプリを割り当てることができます。
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>プランと価格の詳細情報
 
@@ -111,7 +114,7 @@ Each organization will have a different usage of Calling Plan volume and rates t
     
 - [電話システム プラン](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、[サブスクリプションの**Subscriptions** > **追加**]**サブスクリプションに** > 移動して、情報を表示することもできます。
+[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、 **[サブスクリプションの**追加] サブスクリプションに移動して、情報を表示することもでき  >  **Subscriptions**  >  **Add subscriptions**ます。
   
 各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
@@ -121,7 +124,7 @@ Each organization will have a different usage of Calling Plan volume and rates t
     
 - [クラウド ボイスメールの設定 - Admin ヘルプ](set-up-phone-system-voicemail.md)
     
-- [呼び出しプランの設定](set-up-calling-plans.md) および [Office 365 の呼び出しプラン](calling-plans-for-office-365.md)
+- [Microsoft 365 または Office 365 の](calling-plans-for-office-365.md)[通話プラン](set-up-calling-plans.md)と通話プランをセットアップする
     
 - [資金を追加してコミュニケーション クレジットを管理する](add-funds-and-manage-communications-credits.md)
     

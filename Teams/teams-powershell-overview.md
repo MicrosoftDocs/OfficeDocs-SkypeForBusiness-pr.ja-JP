@@ -17,12 +17,12 @@ description: PowerShell コマンドレットの構造など、Microsoft Teams �
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 32370c234e46b860ab026efd6b284d3db3a1458e
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c74f27af718b10aa033c51d4b42d1a3d15bcbc1b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951252"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690953"
 ---
 # <a name="teams-powershell-overview"></a>Teams での PowerShell の概要
 
@@ -44,7 +44,7 @@ PowerShell コントロールのリファレンス ドキュメントには、�
 
 チームを作成し管理するためのコマンドレットは、[Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/)にあります。 
 
-チームは O365 グループがサポートするため、チームを作成するときにグループを作成します。 コア チームとその設定を操作するためのコマンドレット (``new-team``、``get-team``、``set-team``)、チームのユーザーを管理するためのコマンドレット (``add-teamuser``、``remove-teamuser``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``、``remove-teamchannel``) のセットが用意されています。 これらのコマンドレットはすべてエンド ユーザーとして実行できますが、自分が所有している、またはメンバーであるチームのみが機能します。 グローバル管理者または Teams サービス管理者であれば、組織内のすべてのチームに実行できます。
+Teams は Microsoft 365 グループによってサポートされているため、チームを作成するときにグループを作成します。 コア チームとその設定を操作するためのコマンドレット (``new-team``、``get-team``、``set-team``)、チームのユーザーを管理するためのコマンドレット (``add-teamuser``、``remove-teamuser``)、およびチームのチャネルを管理するためのコマンドレット (``new-teamchannel``、``remove-teamchannel``) のセットが用意されています。 これらのコマンドレットはすべてエンド ユーザーとして実行できますが、自分が所有している、またはメンバーであるチームのみが機能します。 グローバル管理者または Teams サービス管理者であれば、組織内のすべてのチームに実行できます。
 
 > Microsoft Teams PowerShell モジュールのコマンドレットで使用されている **GroupId** は、Exchange PowerShell モジュールで ``Get-UnifiedGroup`` により返された **Identity** プロパティと同じです。
 
@@ -84,12 +84,12 @@ PowerShell コントロールのリファレンス ドキュメントには、�
 [Skype for Business コマンドレット モジュール](https://www.microsoft.com/download/details.aspx?id=39366)のコマンドレットを使用して、個々のユーザーのポリシーを管理します。
 
 > [!NOTE]
-> Skype for Business Online に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「[Office 365 PowerShell を使用して Skype for Business Online を管理する](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。 
+> Skype for Business Online に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「 [Microsoft 365 または Office 365 PowerShell を使用して Skype For Business Online を管理](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)する」を参照してください。 
 
 ポリシーは、個々のユーザーに細かく適用できる設定のまとまりです。 各ポリシーの種類にはポリシーそのものの作成、表示、削除、更新を行い、これらのポリシーをユーザーに割り当てるための独自のコマンドレットのセットがあります。 一般的な構成は次のとおりです。
 
-- コマンドの取得 (例``Get-CsTeamsMeetingPolicy``): 組織内で割り当てることができるポリシードキュメントを返します。これは、使用するために Microsoft によって作成されたポリシーと、作成したカスタムポリシーの両方を返します。
-   > 組織で作成したカスタムポリシーのみを検索する場合は、を使用``-Filter "tag:*"``できます。
+- コマンドの取得 (例 ``Get-CsTeamsMeetingPolicy`` ): 組織内で割り当てることができるポリシードキュメントを返します。これは、使用するために Microsoft によって作成されたポリシーと、作成したカスタムポリシーの両方を返します。
+   > 組織で作成したカスタムポリシーのみを検索する場合は、を使用でき ``-Filter "tag:*"`` ます。
 
 - NEW コマンド (例: ``New-CsTeamsMeetingPolicy``): 組織の新しいポリシーを作成し、組織内のユーザーに割り当てられるようになります。 すべてのポリシーがカスタム ポリシーの作成をサポートするわけではありません。 多くの場合、組織で使用するポリシーに、サポート対象の設定の組み合わせがあることを確認するためです。
 
@@ -97,13 +97,13 @@ PowerShell コントロールのリファレンス ドキュメントには、�
    > カスタム ポリシーが割り当てられていない組織内のユーザーに既定で割り当てられるポリシーを編集するには、``Set-Cs<PolicyName> -Identity Global`` を実行します。
 
 - REMOVE コマンド (例: ``Remove-CsTeamsMeetingPolicy``): このコマンドレットを使用して、テナントに作成されたカスタム ポリシーを削除できます。 組織内の少なくとも 1 人のユーザーに割り当てられているカスタム ポリシーを削除した場合、そのユーザーはグローバル ポリシーに戻ります。
-   > 組織内のグローバルポリシーを実際に削除することはできませんが、組織内のグローバルポリシーを Microsoft が提供する既定の設定にリセットする場合``Remove-Cs<PolicyName> -Identity Global``は、実行できます。
+   > 組織内のグローバルポリシーを実際に削除することはできませんが、組織内のグローバルポリシーを Microsoft が提供する既定の設定にリセットする場合は、実行でき ``Remove-Cs<PolicyName> -Identity Global`` ます。
 
 - GRANT コマンド (例: ``Grant-CsTeamsMeetingPolicy``): 特定のユーザーにポリシーを割り当てることができます。
    > カスタム ポリシーの割り当てを削除し、組織の既定のポリシーにユーザーを戻すには、``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` を実行します。
 
 > [!TIP]
-> すべてのポリシーでカスタムポリシーを作成することはできません。一部のポリシーには、カスタマイズできない設定があります (そのため、設定``set-``を``new-``表示することはできますが、and でカスタム値を設定することはできません)。 顧客がパラメーターを使用できない場合は、特定のコマンドレットのドキュメントが呼び出されます。
+> すべてのポリシーでカスタムポリシーを作成することはできません。一部のポリシーには、カスタマイズできない設定があります (そのため、設定を表示することはできますが、and でカスタム値を設定することはできません ``set-`` ``new-`` )。 顧客がパラメーターを使用できない場合は、特定のコマンドレットのドキュメントが呼び出されます。
 
 共通パラメーター:
 
@@ -120,7 +120,7 @@ PowerShell コントロールのリファレンス ドキュメントには、�
 - ``Get-Cs<ConfigurationName>`` (例: ``Get-CsTeamsClientConfiguration``): 
 
 - SET コマンド (例:``Set-CsTeamsClientConfiguration`` ): その種類の構成でプロパティを設定します。 変更するパラメーターを指定します。
-   > 変更している構成は、**Id グローバル**を指定するか、または実行``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``して、次の2つの方法のいずれかで参照できます。
+   > 変更している構成は、**Id グローバル**を指定するか、または実行 ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` して、次の2つの方法のいずれかで参照できます。
 
 ## <a name="other-powershell-tools"></a>その他の PowerShell ツール
 

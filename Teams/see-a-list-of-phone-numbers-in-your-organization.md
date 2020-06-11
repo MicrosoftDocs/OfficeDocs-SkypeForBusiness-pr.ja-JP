@@ -23,16 +23,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Microsoft Teams 管理センターを使用して、組織内のすべての電話番号とユーザーに割り当てられているすべての電話番号の一覧を表示する方法について説明します。
-ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8ad4e0ce2949e2aa72d387aff167a433ec7c8150
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140960"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691173"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
 
-Office 365 の電話会議など、ユーザーまたはその他のサービス (サービス番号) に様々な電話番号を割り当てることができます。
+Microsoft 365 や Office 365 の電話会議など、ユーザーまたは他のサービス (サービス番号) に割り当てることができる電話番号には、さまざまな種類があります。
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>組織のすべての電話番号のリストを表示するには
 

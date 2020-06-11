@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
-ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
+ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44428954"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691233"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -71,22 +71,22 @@ Microsoft Phone システムのダイレクトルーティングでは、サポ�
 |:--- |:--- |
 |セッションボーダーコントローラー (SBC)|サポートされている SBC。 詳細については、「[サポートされる SBCs](#supported-session-border-controllers-sbcs)」を参照してください。|
 |SBC に接続されたテレフォニー trunks|SBC に接続されている1つ以上のテレフォニー trunks。 一方の端では、SBC は直接ルーティングを介して Microsoft 電話システムに接続します。 SBC は、Pbx、アナログテレフォニーアダプターなどのサードパーティ製のテレフォニーエンティティにも接続できます。 SBC に接続された PSTN 接続オプションは動作します。 (SBC への PSTN trunks の設定については、SBC ベンダーまたはトランクプロバイダを参照してください。)|
-|Office 365 組織|Microsoft Teams ユーザーのホームとして使用する Office 365 組織、SBC への構成と接続。|
-|ユーザーレジストラー|ユーザーは、Office 365 に所属している必要があります。<br/>会社に Office 365 へのハイブリッド接続を備えたオンプレミスの Skype for Business または Lync 環境がある場合は、オンプレミスのユーザーに対して Teams でボイスを有効にすることはできません。<br/><br/>ユーザーのレジストラーを確認するには、次の Skype for Business Online PowerShell コマンドレットを使用します。<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>コマンドレットの出力は、次のように表示されます。<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domains|1つまたは複数のドメインが Office 365 組織に追加されている。<br/><br/>テナント用に自動的に作成される既定のドメイン onmicrosoft.com は使用できないことに注意 \* してください。<br/><br/>ドメインを表示するには、次の Skype for Business Online PowerShell コマンドレットを使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと Office 365 組織の詳細については、「ドメインに関する[FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)」を参照してください。|
+|Microsoft 365 または Office 365 組織|Microsoft Teams ユーザーのホームとして使用する Microsoft 365 または Office 365 組織、SBC への構成と接続。|
+|ユーザーレジストラー|ユーザーは、Microsoft 365 または Office 365 に所属している必要があります。<br/>お客様の会社に Microsoft 365 または Office 365 へのハイブリッド接続を使用したオンプレミスの Skype for Business または Lync 環境がある場合は、オンプレミスのユーザーに対して Teams でボイスを有効にすることはできません。<br/><br/>ユーザーのレジストラーを確認するには、次の Skype for Business Online PowerShell コマンドレットを使用します。<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>コマンドレットの出力は、次のように表示されます。<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|Domains|1つまたは複数のドメインが Microsoft 365 または Office 365 組織に追加されている。<br/><br/>テナント用に自動的に作成される既定のドメイン onmicrosoft.com は使用できないことに注意 \* してください。<br/><br/>ドメインを表示するには、次の Skype for Business Online PowerShell コマンドレットを使用できます。<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>ドメインと Microsoft 365 または Office 365 の組織の詳細については、「ドメインに関する[FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)」を参照してください。|
 |SBC のパブリック IP アドレス|SBC への接続に使用できるパブリック IP アドレス。 Sbc は、SBC の種類に基づいて NAT を使うことができます。|
-|SBC の完全修飾ドメイン名 (FQDN)|SBC の FQDN。 FQDN のドメイン部分は、Office 365 組織で登録されているドメインの1つです。 詳細については、「 [SBC ドメイン名](#sbc-domain-names)」を参照してください。|
+|SBC の完全修飾ドメイン名 (FQDN)|SBC の FQDN。これは、FQDN のドメイン部分が、Microsoft 365 または Office 365 組織で登録されているドメインのいずれかであることを示します。 詳細については、「 [SBC ドメイン名](#sbc-domain-names)」を参照してください。|
 |SBC のパブリック DNS エントリ |SBC FQDN をパブリック IP アドレスにマッピングするパブリック DNS エントリ。 |
 |SBC 用の公開された信頼できる証明書 |直接ルーティングを使用するすべての通信に使用する SBC の証明書。 詳細については、「 [SBC 用の公開された信頼できる証明書](#public-trusted-certificate-for-the-sbc)」を参照してください。|
 |直接ルーティングの接続ポイント |直接ルーティングの接続ポイントは、次の3つの Fqdn です。<br/><br/>`sip.pstnhub.microsoft.com`–グローバル FQDN を最初に試す必要があります。<br/>`sip2.pstnhub.microsoft.com`–セカンダリ FQDN、地理的には2番目の優先度の地域にマップされます。<br/>`sip3.pstnhub.microsoft.com`–第3の優先度の領域に地理的にマップされています。<br/><br/>構成要件の詳細については、「 [SIP シグナリング: fqdn](#sip-signaling-fqdns)」を参照してください。|
-|ダイレクトルーティングメディアのファイアウォールの IP アドレスとポート |SBC は、クラウドの次のサービスに通信します。<br/><br/>SIP プロキシ: 信号を処理します。<br/>メディアプロセッサ: メディアのバイパスがオンになっている場合を除き、メディアを処理します。<br/><br/>この2つのサービスは、このドキュメントの後半で説明するように、Microsoft Cloud で個別の IP アドレスを持ちます。<br/><br/>詳細については、「 [Office 365 の url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」の「 [Microsoft Teams」セクション](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 |
+|ダイレクトルーティングメディアのファイアウォールの IP アドレスとポート |SBC は、クラウドの次のサービスに通信します。<br/><br/>SIP プロキシ: 信号を処理します。<br/>メディアプロセッサ: メディアのバイパスがオンになっている場合を除き、メディアを処理します。<br/><br/>この2つのサービスは、このドキュメントの後半で説明するように、Microsoft Cloud で個別の IP アドレスを持ちます。<br/><br/>詳細については、「 [url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」の「 [Microsoft Teams」セクション](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 |
 |メディアトランスポートプロファイル|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Microsoft Teams メディアのファイアウォールの IP アドレスとポート |詳細については、「 [Office 365 の url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。 |
+Microsoft Teams メディアのファイアウォールの IP アドレスとポート |詳細については、「 [url と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>ライセンスおよびその他の要件 
 
-直接ルーティングのユーザーには、Office 365 で次のライセンスが割り当てられている必要があります。 
+直接ルーティングのユーザーは、Microsoft 365 または Office 365 で次のライセンスが割り当てられている必要があります。 
 
 - Microsoft 電話システム。 
 - ライセンスに含まれている場合は、Microsoft Teams + Skype for Business プラン2。
@@ -117,7 +117,7 @@ Teams ユーザーは、1対1のチームを開始して、チームの通話を
 
 同じユーザーに対して、通話プランと直接ルーティング接続の混在は任意ですが、役に立つ場合があります (たとえば、ユーザーに Microsoft 通話プランが割り当てられているが、一部の通話を SBC を使ってルーティングする場合など)。 最も一般的なシナリオの1つは、サードパーティ Pbx への通話です。  サードパーティの Pbx では、その Pbx に接続されている電話への通話を除くすべての通話が Microsoft の通話プランを使ってルーティングされますが、サードパーティ Pbx に接続されている電話への通話は SBC に転送されるため、PSTN ではなく企業ネットワーク内に留まります。 
 
-電話システムのライセンスの詳細については、「office 365 および[office 365 プランのオプション](https://technet.microsoft.com/library/office-365-plan-options.aspx)[を使用して office を最大限に活用する](https://products.office.com/compare-all-microsoft-office-products?tab=2)」を参照してください。 
+電話システムのライセンスの詳細については、「Office と[プランのオプション](https://technet.microsoft.com/library/office-365-plan-options.aspx)を[最大限に活用する](https://products.office.com/compare-all-microsoft-office-products?tab=2)」を参照してください。 
 
 電話システムのライセンスの詳細については、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。 
 
@@ -190,15 +190,15 @@ Microsoft は、お客様のリクエストに基づく追加の証明機関の�
 
 ## <a name="sip-signaling-fqdns"></a>SIP シグナリング: Fqdn 
 
-直接ルーティングは、次の Office 365 環境で提供されます。
-- Office 365
+直接ルーティングは、次の環境で提供されます。
+- Microsoft 365 または Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
 
 [Office 365 および米国政府機関](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)(GCC、gcc 高、DoD など) についての詳細はこちらをご覧ください。
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 直接ルーティングの接続ポイントは、次の3つの Fqdn です。
 
@@ -251,8 +251,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP アドレ
 
 ## <a name="sip-signaling-ports"></a>SIP シグナリング: ポート
 
-ダイレクトルーティングが提供されている Office 365 環境には、次のポートを使用する必要があります。
-- Office 365
+ダイレクトルーティングが提供されている Microsoft 365 または Office 365 環境には、次のポートを使用する必要があります。
+- Microsoft 365 または Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
@@ -282,7 +282,7 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 
 メディアトラフィックは、Microsoft Cloud の別のサービスとの間でフローします。 メディアトラフィックの IP アドレス範囲は次のとおりです。
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 - 52.112.0.0/14 (52.112.0.1 から52.115.255.254 に対する IP アドレス)。
 - 52.120.0.0/14 (52.120.0.1 から52.123.255.254 に対する IP アドレス)。
@@ -320,7 +320,7 @@ SIP プロキシとメディアプロセッサコンポーネントの両方が�
 
 メディアプロセッサのみが展開されている場所 (上記の最も近いデータセンターによる SIP フロー):
 - 日本 (JP 東部および西部データセンター)
-- オーストラリア (AU 東部および西部データセンター)
+- オーストラリア (AU 東部および東南データセンター)
 
 
 

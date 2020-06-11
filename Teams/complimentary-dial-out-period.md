@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: Microsoft Teams の Office 365 通話プランと Office 365 電話会議の無料のダイヤルアウト期間について説明します。
-ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Microsoft Teams の Microsoft 365 または Office 365 の通話プランと Office 365 電話会議の無料のダイヤルアウト期間について説明します。
+ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779794"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690893"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
 ## <a name="skype-for-business-pstn-services"></a>Skype for Business PSTN サービス
 
-お客様は、Skype for Business Online PSTN サービスの使用条件およびお客様のボリュームライセンス契約に従って、Office 365 の通話プランと Office 365 電話会議を使用できます。 PSTN サービスの使用条件は、[ライセンス条項とドキュメント](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)に記載されています。
+お客様は、Skype for Business Online PSTN サービスの使用条件およびお客様のボリュームライセンス契約に従って、Microsoft 365 または Office 365 通話プランおよび Office 365 電話会議を使用できます。 PSTN サービスの使用条件は、[ライセンス条項とドキュメント](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)に記載されています。
   
 ### <a name="end-of-complimentary-dial-out-period"></a>無料のダイヤルアウト期間の終了
 
@@ -44,7 +44,7 @@ ms.locfileid: "43779794"
 
 ### <a name="complimentary-dial-out-period-details"></a>無料のダイヤルアウト期間の詳細
 
-Office の365電話会議サービスをご利用のお客様の場合、Microsoft は、Office 365 電話会議のライセンスを割り当てられたユーザーが、2019年11月に発信した会議からのダイヤルアウトに関する追加の無料特典を提供しています。 この無料期間中、Microsoft は、会議のポリシー設定で定義されている会議の開催者または許可された出席者を許可し、その会議内から44の "Zone A" の国と地域の有料以外の電話番号へのダイヤルアウト通話を行うことができます。 この特典は、電話会議の月額プランライセンスに適用され、電話会議の1分あたりのライセンス数に延長されることはありません。
+Microsoft 365 または Office 365 電話会議サービスをご2019利用のお客様の場合、microsoft は、Microsoft 365 または Office 365 電話会議のサブスクリプションライセンスを割り当てられたユーザーによって開催された会議からのダイヤルアウトに関連する追加の無料特典を提供します。 この無料期間中、Microsoft は、会議のポリシー設定で定義されている会議の開催者または許可された出席者を許可し、その会議内から44の "Zone A" の国と地域の有料以外の電話番号へのダイヤルアウト通話を行うことができます。 この特典は、電話会議の月額プランライセンスに適用され、電話会議の1分あたりのライセンス数に延長されることはありません。
 
 さらに、次のように、無料のダイヤルアウト期間中に900分の cap 制限があります。
 
@@ -58,7 +58,7 @@ Office の365電話会議サービスをご利用のお客様の場合、Microso
 - ゾーンにない宛先へのすべての発信通話は、その送信先への公開料金での通信クレジットを使って分単位で課金されます (提供されたテナントでは通信クレジットが設定され、会議の開催者には通信クレジットライセンスが割り当てられています)。
 
 > [!NOTE]
-> Skype for Business 管理センターでは、ダイヤルアウトの分プールに対する使用状況を監視できます。 Microsoft Teams & Skype 管理センターで、**従来のポータル** > **レポート** > **PSTN 分プール**に移動します。 この無料の分数のプールには、"国と地域を対象とした発信通話" として報告されます。
+> Skype for Business 管理センターでは、ダイヤルアウトの分プールに対する使用状況を監視できます。 Microsoft Teams & Skype 管理センターで、**従来のポータル**  >  **レポート**  >  **PSTN 分プール**に移動します。 この無料の分数のプールには、"国と地域を対象とした発信通話" として報告されます。
 
 テナントのダイヤルアウト分数プールの使用率が80% と100% に達した場合、メール通知は、特定の顧客のすべてのテナント管理者に送信されます。
 

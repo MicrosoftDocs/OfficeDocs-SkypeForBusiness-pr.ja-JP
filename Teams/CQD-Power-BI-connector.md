@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416867"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690933"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -121,6 +121,8 @@ Power BI を使用しているにもかかわらず、Power BI 機能はすべ�
 4.  **キャッシュデータの参照:** 現在、Power BI では、DirectQuery コネクタからのキャッシュされたデータの参照を任意の方法でサポートしていません。 クエリの結果を参照しようとすると、新しいクエリになります。 
 
 5.  **相対データフィルター処理–** は、CQD コネクタでサポートされていますが、[*開始*時刻] と [*終了時刻*] のサイズに対してのみサポートされます。 *日付ディメンションは*、相対的な日付フィルター処理の候補として表示される場合もあり*ますが、日付は日付*時刻オブジェクトとして保存されないため、power BI での相対的な日付フィルター処理はサポートされません。
+
+6. **行政機関向けコミュニティクラウド (GCC) のサポート-** GCC 環境のお客様の場合、Power BI デスクトップを使用すると、CQD Power BI コネクタが機能します。 CQD Power BI connector は、現在、GCC のお客様の Power BI サービスに対応していません。
 
 コネクタはプレビュー版ですが、これらの制限は、コネクタの最終リリースによって変更されることはありませんのでご注意ください。 これらの問題のほとんどは、Power BI での DirectQuery コネクタの設計への制限、または CQD データモデルの設計に対する基本事項です。
 

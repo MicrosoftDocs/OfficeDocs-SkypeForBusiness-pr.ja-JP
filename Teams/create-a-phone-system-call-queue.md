@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: このページでは、Microsoft Teams で電話システムをセットアップする方法について説明します。これにより、あいさつメッセージの送信、音楽の保留、リダイレクト、その他の機能を行うことができます。
-ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669396"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697412"
 ---
 # <a name="create-a-cloud-call-queue"></a>クラウドの通話キューを作成する
 
@@ -68,10 +68,10 @@ ms.locfileid: "44669396"
   > [!NOTE]
   > 通話キューの直接ルーティングサービス番号は、Microsoft Teams ユーザーとエージェントに対してのみサポートされています。
 
-  > [!NOTE]
-  > インターネットに接続している組織内のユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要です。また、エンタープライズ voip に対応しているか、Office 365 の通話プランを使用している必要があります。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE]
+> インターネットに接続している組織内のユーザーに通話をリダイレクトするには、**電話システム**のライセンスが必要です。また、エンタープライズボイスに対して有効になっているか、Microsoft 365 または Office 365 の通話プランを使用している必要があります。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。 エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。 たとえば、次を実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Office 365 の通話プランの詳細については、「[電話システムと通話プラン](calling-plan-landing-page.md)」および「 [Office 365 の通話プラン](calling-plans-for-office-365.md)」を参照してください。
+- 通話プランの詳細については、「[電話システムと通話プラン](calling-plan-landing-page.md)」および「 [Microsoft 365 または Office 365 の通話](calling-plans-for-office-365.md)プラン」を参照してください。
 
 - クラウド通話キューを割り当てることができるのは、 **Microsoft Teams 管理センター**で取得した、または別のサービスプロバイダーから転送された有料またはフリーダイヤルのサービス電話番号だけです。 無料サービス番号には、通信クレジットが必要です。
 
@@ -97,7 +97,7 @@ ms.locfileid: "44669396"
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>手順 2-有料または無料のサービス電話番号を取得または移行する
 
-通話キューを作成して設定する前に、既存の有料または無料のサービス番号を取得または移行する必要があります。 サービス番号を取得するには、「[サービスの電話番号を取得](getting-service-phone-numbers.md)する」または「既存のサービス番号を移行する」を参照してください。「 [Office 365 に電話番号を転送](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」を参照してください。 有料またはフリーダイヤルのサービス電話番号を取得すると、 **Microsoft Teams 管理センター**の  >  **ボイス**  >  **電話番号**に表示されます。 無料電話番号には、無料の電話**番号**が付い**ています**。
+通話キューを作成して設定する前に、既存の有料または無料のサービス番号を取得または移行する必要があります。 サービス番号を取得するには、「[サービスの電話番号を取得](getting-service-phone-numbers.md)する」または「既存のサービス番号を移行する」を参照してください。「[チームに電話番号を移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」をご覧ください。 有料またはフリーダイヤルのサービス電話番号を取得すると、 **Microsoft Teams 管理センター**の  >  **ボイス**  >  **電話番号**に表示されます。 無料電話番号には、無料の電話**番号**が付い**ています**。
 
 > [!NOTE]
 > 米国外の場合は、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」に移動して、米国以外の地域での実行方法を確認します。
@@ -163,7 +163,7 @@ ms.locfileid: "44669396"
 
 以下のメーリングリストまたはグループのいずれかに属する、最大200の通話エージェントを選択できます。
 
-- Office 365 グループ
+- Microsoft 365 グループ
 - セキュリティグループ
 - 配布リスト
 
@@ -178,7 +178,7 @@ ms.locfileid: "44669396"
 
    エンタープライズ Voip のエージェントを有効にするには、Windows PowerShell を使用します。 たとえば、次を実行します。`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- **電話システム**のライセンスを持っているか、Office 365 グループに追加された通話プランを持っているユーザーメールが有効な配布リストまたはセキュリティグループ。 配布リストまたはセキュリティグループのエージェントを呼び出しキューエージェントとして追加する場合、最初の呼び出しが到着するまでに最大3時間かかることがあります。 新しく作成した分配リストまたはセキュリティ グループでは、通話キューで使用可能になるまで最大で48時間を要する場合があります。 新しく作成された Microsoft 365 グループは、ほぼ瞬時に利用できます。
+- **電話システム**のライセンスを持っているか、Microsoft 365 グループ、メールが有効な配布リスト、またはセキュリティグループに追加された通話プランを持っているユーザー。 配布リストまたはセキュリティグループのエージェントを呼び出しキューエージェントとして追加する場合、最初の呼び出しが到着するまでに最大3時間かかることがあります。 新しく作成した分配リストまたはセキュリティ グループでは、通話キューで使用可能になるまで最大で48時間を要する場合があります。 新しく作成された Microsoft 365 グループは、ほぼ瞬時に利用できます。
 
 - 使用しているエージェントで、Microsoft Teams アプリを呼び出しキューとして使用している場合は、そのモードである必要があります。
 
@@ -328,7 +328,7 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 
 ### <a name="more-about-windows-powershell"></a>Windows PowerShell の詳細について
 
-- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、1つの管理ポイントで Office 365 および Microsoft Teams を管理することができます。 複数のタスクがある場合は、日常業務を簡素化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、1つの管理ポイントで Microsoft 365 または Office 365 および Microsoft Teams を管理することができます。 複数のタスクがある場合は、日常業務を簡素化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
   - [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -336,13 +336,13 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 
 - 複数のユーザーに対して同時に変更を加える場合、Windows PowerShell では、Microsoft Teams 管理センターでの速度、シンプルさ、生産性の向上について多くの利点があります。 次のトピックでこれらの利点について説明します。
 
-  - [Windows PowerShell を使用して Office 365 を管理する](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理する](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Windows PowerShell 用にコンピューターをセットアップする](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[Office 365 の電話システムでできること](here-s-what-you-get-with-phone-system.md)
+[電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 
 [サービス電話番号を取得する](getting-service-phone-numbers.md)
 

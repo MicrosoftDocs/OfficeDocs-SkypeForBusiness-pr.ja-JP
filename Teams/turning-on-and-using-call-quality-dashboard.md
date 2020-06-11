@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。
-ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243563"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697429"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -48,12 +48,12 @@ CQD にアクセスするための[役割](https://docs.microsoft.com/office365/
 
 |  |レポートを表示する  |EUII フィールドを表示する  |レポートを作成する  |建物のデータをアップロードする  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|グローバル管理者     |はい         |Yes         |Yes         |必要         |
-|Teams サービス管理者     |はい         |Yes         |Yes         |必要         |
-|Teams 通信管理者     |はい         |Yes         |Yes         |必要         |
+|グローバル管理者     |はい         |Yes         |Yes         |Yes         |
+|Teams サービス管理者     |はい         |Yes         |Yes         |Yes         |
+|Teams 通信管理者     |はい         |Yes         |Yes         |Yes         |
 |Teams 通信サポート エンジニア     |はい         |Yes         |必要         |いいえ         |
 |Teams 通信サポート スペシャリスト     |はい         |いいえ         |はい         |いいえ         |
-|Skype for Business 管理者     |はい         |Yes         |Yes         |必要         |
+|Skype for Business 管理者     |はい         |Yes         |Yes         |Yes         |
 |Azure AD グローバルリーダー |はい         |Yes         |必要         |いいえ         |
 |Microsoft 365 レポートリーダー<sup>1</sup>     |はい         |いいえ         |はい         |いいえ         |
 
@@ -211,18 +211,18 @@ CQD の概要レポートには、詳細レポート用に計画されている�
 |機能|概要レポート|詳細レポート|
 |:--- |:--- |:--- |
 |アプリケーション共有のメトリック | いいえ | はい |
-|顧客の建物情報のサポート | はい | 必要 |
+|顧客の建物情報のサポート | はい | Yes |
 |顧客エンドポイント情報のサポート | Cqd.teams.microsoft.com のみ <span><span/> | Cqd.teams.microsoft.com のみ <span><span/> |
 |ドリルダウン分析のサポート   | いいえ   | はい   |
 |メディアの信頼性のメトリック   | いいえ   | はい   |
-|ボックスのないレポート   | はい   | 必要   |
-|概要レポート   | はい   | 必要   |
+|ボックスのないレポート   | はい   | Yes   |
+|概要レポート   | はい   | Yes   |
 |ユーザーごとのレポートセット   | いいえ   | はい   |
 |レポートセットのカスタマイズ (レポートの追加、削除、変更)   | いいえ   | はい   |
 |ビデオベースの画面共有のメトリック   | いいえ   | はい   |
 |ビデオ指標   | いいえ   | はい   |
 |利用可能なデータの量   | 過去12か月間   | 過去12か月間   |
-|Microsoft Teams データ   | はい   | 必要   |
+|Microsoft Teams データ   | はい   | Yes   |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>ボックスのないレポート
@@ -347,7 +347,7 @@ CQD Summary レポートダッシュボードには、右上隅にある [設定
 - エンドポイントからエンドポイントの作成/モデル/型へのマップ。など
   
 > [!NOTE]
-> CQD にアップロードするレポートのラベルは、Office 365 の契約で*サポートデータ*として扱われます。これには、*顧客データ*や*個人データ*と見なされる情報も含まれます。 *サポートデータ*として microsoft に提供したくないデータは含めないでください。この情報は、サポート目的で microsoft エンジニアに表示されます。
+> CQD にアップロードするレポートラベルは、*お客様のデータ*や*個人データ*と見なされる情報を含む、Microsoft 365 または Office 365 の契約の下で*サポートデータ*として扱われます。 *サポートデータ*として microsoft に提供したくないデータは含めないでください。この情報は、サポート目的で microsoft エンジニアに表示されます。
 
 ![スクリーンショット: 通話品質ダッシュボードのテナントデータが表示されます](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   

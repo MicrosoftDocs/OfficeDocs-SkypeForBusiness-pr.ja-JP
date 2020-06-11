@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcc9aa13f80a090d65bd51c00b797c2a2ad63c61
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523330"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691043"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
@@ -54,7 +54,7 @@ Teams では、共同作業の機能だけでなく、チャット、通話、�
 
 ### <a name="islands-mode"></a>アイランド モード
 
-既定では、ユーザーは、プレゼンス、チャット、通話、会議などの類似した重なり合う機能を提供する 2 つの別個のソリューションとして、Teams と Skype for Business を並列で実行できます。 Teams ユーザーは、チームとチャネル、Office 365 のファイルへのアクセス、アプリケーションなどの新しい共同作業の機能を利用することもできます。
+既定では、ユーザーは、プレゼンス、チャット、通話、会議などの類似した重なり合う機能を提供する 2 つの別個のソリューションとして、Teams と Skype for Business を並列で実行できます。 チームユーザーは、チームやチャネルなどの新しいコラボレーション機能、Microsoft 365 または Office 365 のファイルへのアクセス、およびアプリケーションを利用することもできます。
 
 「**アイランド**」と呼ばれるこの共存モードでは、各クライアント アプリケーションが別個のアイランド (島) として動作します。 Skype for Business は Skype for Business とやり取りし、Teams は Teams とやり取りします。 ユーザーは、両方のクライアントを常時実行することが想定されており、コミュニケーションを開始したクライアントでネイティブにコミュニケーションできます。 このように、**孤島**モードでの相互運用性は不要です。
 
@@ -91,7 +91,7 @@ Skype for Business エクスペリエンスが複雑化または低下するこ�
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>Skype for Business と Teams のコラボレーション
 
-このモードを使用すると、Skype for Business の既存の投資を継続して利用しつつ、Teams を組織の環境に導入できます。 このモードでは、Skype for Business のチャット、通話、および会議機能を変更せずに、Teams のコラボレーション機能 (チームとチャネル、Office 365 のファイルへのアクセス、アプリケーション) を追加します。 このモードでは、Teams のコミュニケーション機能 (プライベート チャット、通話、会議のスケジュール) は既定ではオフになります。
+このモードを使用すると、Skype for Business の既存の投資を継続して利用しつつ、Teams を組織の環境に導入できます。 このモードでは、チャット、通話、会議機能のために Skype for Business を変更せずに、チームのコラボレーション機能 (チームとチャネル、Microsoft 365 または Office 365 のファイルへのアクセスなど) を追加します。 このモードでは、Teams のコミュニケーション機能 (プライベート チャット、通話、会議のスケジュール) は既定ではオフになります。
 
 オンプレミスまたはハイブリッドの Skype for Business Server を開始点とする組織は、コミュニケーションの相互運用性と予測可能性をユーザーに提供する場合、または ([**アイランド**] モードでの導入の浸透に頼る代わりに) ユーザーの Teams へのアップグレードを予測可能なタイムラインに沿って行う場合は、このモードを [**アイランド**] モードの代わりに使用することを検討してください。
 
@@ -142,7 +142,7 @@ Skype for Business ユーザーと Teams ユーザーは 1 対 1 の音声通話
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> オンプレミス展開の Skype for Business を使用する相互運用エクスペリエンスでは、対象のオンプレミス展開が Office 365 Skype for Business のハイブリッド モードである必要があります。 詳細については、「[移行と相互運用に関するガイドライン](https://aka.ms/SkypeToTeams-Interop)」を参照してください。
+> Skype for Business のオンプレミス展開での相互運用エクスペリエンスには、オンプレミス環境と Microsoft 365 または Office 365 Skype for Business のハイブリッドモードが必要です。 詳細については、「[移行と相互運用に関するガイドライン](https://aka.ms/SkypeToTeams-Interop)」を参照してください。
 
 これらの相互運用エクスペリエンスは、[**Skype for Business と Teams のコラボレーション**]、[**Skype for Business と Teams のコラボレーションと会議**]、[**Skype for Business Only のみ**]、および [**Teams のみ**] の共存モードが割り当てられているユーザーが利用でき、これらのユーザー間で使用できます。 [**アイランド**] モードのユーザーの場合、相互運用性はありません。
 

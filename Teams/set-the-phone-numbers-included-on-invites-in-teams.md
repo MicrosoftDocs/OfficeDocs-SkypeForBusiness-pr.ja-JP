@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft Teams 会議に参加するための既定の電話番号を作成するには、次の手順に従います。
-ms.openlocfilehash: 22950bed0b09caf96e9fc26060f466eb6c00ff30
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 81624090b1e82bf695f8e558cd55324a45d927e5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905599"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691113"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
-Office 365 の電話会議では、組織内のユーザーが Microsoft Teams 会議を作成できるようになり、電話を使用してこれらの会議にダイヤルインすることができます。
+Microsoft 365 および Office 365 の電話会議では、組織内のユーザーが Microsoft Teams 会議を作成できるようになり、電話を使用してこれらの会議にダイヤルインすることができます。
   
 会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
   
@@ -45,25 +45,29 @@ Office 365 の電話会議では、組織内のユーザーが Microsoft Teams �
 
 電話会議用に有効になっているユーザーの会議の出席依頼に含まれる電話番号は、既定の電話会議の有料電話番号と、既定の電話会議無料電話番号のユーザー設定によって定義されます。 各設定では、特定のユーザーの会議出席依頼に含まれる有料電話と無料電話番号を指定します。 上で説明したように、各会議出席依頼には、1つの有料電話番号、オプションの無料電話番号、および特定の会議に参加するために使用できるすべてのダイヤルイン電話番号の一覧を表示するリンクが含まれています。
 
-新規ユーザーの場合、電話会議サービスが有効になっている場合は、ユーザーの Office 365 管理センターで設定された使用場所に基づいて、既定の会議の有料電話番号が割り当てられます。 電話会議でユーザーの国と一致する有料番号がある場合、その番号はユーザーの既定の有料電話番号として自動的に割り当てられます。 存在しない場合、電話会議ブリッジの既定の有料電話番号として定義された番号は、ユーザーの既定の有料電話番号として割り当てられます。  
+新規ユーザーの場合、電話会議サービスが有効になっている場合、ユーザーの Microsoft 365 管理センターで設定された使用場所に基づいて、既定の会議の有料電話番号が割り当てられます。 電話会議でユーザーの国と一致する有料番号がある場合、その番号はユーザーの既定の有料電話番号として自動的に割り当てられます。 存在しない場合、電話会議ブリッジの既定の有料電話番号として定義された番号は、ユーザーの既定の有料電話番号として割り当てられます。  
 
 電話会議サービスのユーザーを有効にすると、ユーザーの既定の有料電話番号と無料電話番号を初期値からいつでも変更できます。
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>会議の開催者またはユーザーの既定の電話会議の電話番号を設定または変更する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
-1. 左側のナビゲーションで [**ユーザー**] をクリックします。
+これらの変更を行うには、管理者である必要があります。
 
-    ![Microsoft Teams 管理センターでのユーザーの選択を示す](media/teams-set-phone-numbers-on-invites-image1.png)
+1. 管理センターにログイン <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> します。
 
-2. 使用可能なユーザーのリストからユーザー名をクリックします。
+2. 左側のナビゲーションで [**ユーザー**] をクリックします。
 
-3. [**電話会議**] の横の [**編集**] をクリックします。 
+    ![Microsoft Teams 管理センターでのユーザーの選択を示す](media/Admin-users.png)
+
+3. 使用可能なユーザーのリストからユーザー名をクリックします。
+
+4. [**電話会議**] の横の [**編集**] をクリックします。 
     
     ![電話会議の横にある [編集] をクリックする](media/teams-set-phone-numbers-on-invites-image3.png)
 
-4. [**有料**電話番号] または [無料**電話番号**] フィールドを使用して、ユーザーの番号を入力します。
+5. [**有料**電話番号] または [無料**電話番号**] フィールドを使用して、ユーザーの番号を入力します。
 
 
 > [!IMPORTANT]
@@ -71,17 +75,17 @@ Office 365 の電話会議では、組織内のユーザーが Microsoft Teams �
 
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
 
-Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常的な作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。 
   
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[Office 365 での電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Microsoft 365 または Office 365 で電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 [電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

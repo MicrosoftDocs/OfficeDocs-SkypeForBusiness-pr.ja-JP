@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c3d9d6ee6da2881aff52efa77c3d13678b560a
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 1338b9f497722b50658545918afa825fb652d462
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350231"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689703"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -132,8 +132,10 @@ Teams は、エンタープライズ向けの Microsoft 365 アプリの既存�
 
 1. 次のリンクのいずれかを使用して、VDI VM オペレーティング システムに一致する Teams MSI パッケージをダウンロードします。
 
-    - [32 ビット版](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
-    - [64 ビット版](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
+
+    - [32 ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64 ビット版](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
 
     必要な Teams デスクトップアプリの最小バージョンはバージョン1.3.00.4461 です。 (PSTN ホールドは以前のバージョンではサポートされていません。)
 
@@ -248,9 +250,9 @@ DisallowCalling の通話ポリシーと割り当てをユーザーに割り当�
 
 複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで [**ユーザー**] に移動し、ユーザーを検索するか、ビューをフィルター処理して、目的のユーザーを表示します。
-2. [ **&#x2713;** (チェックマーク)] 列で、ユーザーを選びます。 すべてのユーザーを選択するには、テーブルの上部にある &#x2713; (チェックマーク) をクリックします。
-3. [**設定の編集**] をクリックし、必要な変更を加えて、[**適用**] をクリックします。  
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
+2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部にある [&#x2713; (チェックマーク)] をクリックします。
+3. [**設定の編集**] をクリックし、必要な変更を行い、[**適用**] をクリックします。  
 
 または、次の操作も実行できます。
 
@@ -304,9 +306,9 @@ AllowCalling の通話ポリシーと、すべての会議ポリシーをユー�
 
 複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで [**ユーザー**] に移動し、ユーザーを検索するか、ビューをフィルター処理して、目的のユーザーを表示します。
-2. [ **&#x2713;** (チェックマーク)] 列で、ユーザーを選びます。 すべてのユーザーを選択するには、テーブルの上部にある &#x2713; (チェックマーク) をクリックします。
-3. [**設定の編集**] をクリックし、必要な変更を加えて、[**適用**] をクリックします。  
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
+2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部にある [&#x2713; (チェックマーク)] をクリックします。
+3. [**設定の編集**] をクリックし、必要な変更を行い、[**適用**] をクリックします。  
 
 または、次の操作も実行できます。
 
@@ -373,3 +375,4 @@ VDA および CWA の問題のトラブルシューティング方法につい�
 
 - [MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
+- [Windows 仮想デスクトップで Microsoft Teams を使用する](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)

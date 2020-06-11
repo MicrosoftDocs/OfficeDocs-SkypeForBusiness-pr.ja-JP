@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Microsoft Teams のコンテンツ検索を使用して、Exchange、SharePoint Online、OneDrive for Business、OneNote から Microsoft Teams の情報を照会する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776452"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690443"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "43776452"
 
 コンテンツ検索を使用すると、Exchange、SharePoint Online、OneDrive for Business にわたる Microsoft Teams の情報を照会することができます。
 
-詳細については、「 [Office 365 でコンテンツ検索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)を読む」を参照してください。
+詳細については、「 [Microsoft 365 または Office 365 でコンテンツ検索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)を読む」を参照してください。
 
 たとえば、製造仕様のメールボックスと製造仕様の SharePoint サイトに対して**コンテンツ検索**を使用すると、Exchange からの Teams 標準チャネルの会話、sharepoint Online からのファイルのアップロードと変更、OneNote の変更を検索することができます。
 
@@ -90,6 +90,6 @@ ms.locfileid: "43776452"
     ```
 3. コンテンツ検索クエリの一部として、チーム内の各プライベートチャネルからすべてのメンバーのメールボックスを含めます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Microsoft 365 コンプライアンスセンターの電子情報開示ケース](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

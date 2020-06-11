@@ -16,12 +16,12 @@ description: この記事では、Microsoft Teams 管理センターで利用で
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 24d8a9658c4f7c0d9b0c12472491065106a7533c
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904282"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690973"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -29,7 +29,7 @@ Microsoft Teams 管理センターで、Microsoft Teams についての新しい
 
 ## <a name="how-to-access-the-reports"></a>レポートにアクセスする方法
 
-レポートにアクセスするには、Office 365、Teams サービス管理者、チームコミュニケーション管理者、または Skype for Business 管理者のグローバル管理者である必要があります。Teams の管理者の役割と、各管理者の役割がアクセスできるレポートの詳細については、「チーム[管理者ロールを使用してチームを管理する](../using-admin-roles.md)」を参照してください。
+レポートにアクセスするには、Microsoft 365 または Office 365、Teams サービス管理者、チームコミュニケーション管理者、または Skype for Business 管理者のグローバル管理者である必要があります。Teams の管理者の役割と、各管理者の役割がアクセスできるレポートの詳細については、「チーム[管理者ロールを使用してチームを管理する](../using-admin-roles.md)」を参照してください。
 
 Microsoft Teams 管理センターに移動し、左のナビゲーションで [ **& 分析**]、[レポート] の順に選択し、[**レポート**] で実行するレポートを選択します。
 

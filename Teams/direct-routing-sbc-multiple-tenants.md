@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 1つのセッション境界コントローラー (SBC) を構成して、Microsoft パートナーや PSTN キャリアの複数のテナントを処理する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
-ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
+ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44021999"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689743"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -52,7 +52,7 @@ Microsoft は、配送業者を管理しません。 Microsoft は、PBX (Micros
 2. サブドメイン名を有効にします。
 3. 電話会社から顧客テナントにトランクを構成し、ユーザーをプロビジョニングします。
 
-*DNS の基礎と、Office 365 でのドメイン名の管理について理解していることを確認してください。先に進む前に[、「Office 365 ドメインに関するヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
+*DNS の基礎と、Microsoft 365 または Office 365 でのドメイン名の管理について理解していることを確認してください。先に進む前に、 [Microsoft 365 または Office 365 のドメインに関するヘルプを](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)参照してください。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>SBC の展開と構成
 
@@ -62,6 +62,7 @@ SBC ホスティングシナリオでの SBCs の展開と構成の詳細な手�
 - **Oracle:** [直接ルーティング構成のメモ](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)「Microsoft」セクションでは、SBC ホスティングシナリオの構成について説明します。 
 - **リボンの通信:** リボンについては、「リボンの主要な一連の製品を構成する方法」および「このページのリボンを構成する[」](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)を参照してください。[ベストプラクティス-Microsoft Teams のダイレクトルーティング Sbc エッジの配送業者の構成](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE システム (anynode):** 複数のテナントに対して、任意のノードの SBC を構成する方法のドキュメントと例については、[ [TE システムのコミュニティ] ページ](https://community.te-systems.de/)で登録してください。
+- **Metaswitch:** 複数のテナントに対して、他の Metaswitch のメタを有効にする方法については、こちらの[ページ](https://sso.metaswitch.com/UI/Login)で登録してください。
 
 > [!NOTE]
 > 「コンタクト」ヘッダーの設定方法に注意してください。 連絡先ヘッダーは、着信招待メッセージで顧客テナントを検索するために使用されます。 
@@ -74,19 +75,19 @@ SBC ホスティングシナリオでの SBCs の展開と構成の詳細な手�
 
 次の例では、次のようになります。
 - Adatum は、インターネットとテレフォニーサービスを提供することによって、複数の顧客に提供する電話会社です。
-- Woodgrove Bank、Contoso、Adventure Works は、Office 365 ドメインを所有しているが、Adatum からテレフォニーサービスを受け取る3人のユーザーです。
+- Woodgrove Bank、Contoso、Adventure Works は、Microsoft 365 または Office 365 ドメインを所有しているが、Adatum からテレフォニーサービスを受け取る3人のユーザーです。
 
-サブドメインは、ユーザーに対して構成されるトランクの FQDN 名と、招待状を Office 365 に送信するときに連絡先ヘッダー内の FQDN に一致させる**必要があり**ます。 
+サブドメインは、ユーザーに対して構成されるトランクの FQDN 名と、招待状を Microsoft 365 または Office 365 に送信するときに連絡先ヘッダーの FQDN に一致させる**必要があり**ます。 
 
-電話が Office 365 ダイレクトルーティングインターフェイスに到着すると、インターフェイスは連絡先ヘッダーを使って、ユーザーを検索する必要があるテナントを見つけます。 直接ルーティングでは、ユーザーによっては、複数のテナントで重複する可能性のある電話番号がない可能性があるため、招待で電話番号の参照は使用されません。 そのため、連絡先ヘッダーの FQDN 名は、電話番号によってユーザーを検索する正確なテナントを特定する必要があります。
+Microsoft 365 または Office 365 のダイレクトルーティングインターフェイスで通話を受信すると、インターフェイスは連絡先ヘッダーを使って、ユーザーが検索する必要があるテナントを見つけます。 直接ルーティングでは、ユーザーによっては、複数のテナントで重複する可能性のある電話番号がない可能性があるため、招待で電話番号の参照は使用されません。 そのため、連絡先ヘッダーの FQDN 名は、電話番号によってユーザーを検索する正確なテナントを特定する必要があります。
 
-*Office 365 組織でのドメイン名の作成について詳しくは、「 [office 365 ドメインに関するヘルプ](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)」を参照してください。*
+*Microsoft 365 または Office 365 組織でのドメイン名の作成について詳しくは、「 [Office 365 ドメインに関するヘルプ](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)」をご覧ください。*
 
 次の図は、ベースドメイン、サブドメイン、連絡先ヘッダーの要件をまとめたものです。
 
 ![ドメインと連絡先ヘッダーの要件を示す図](media/direct-routing-1-sbc-requirements.png)
 
-SBC は、接続を認証するために証明書を必要とします。 SBC ホスティングシナリオでは、通信事業者は、 * \*base_domain (たとえば、 \*customers.adatum.biz)* で証明書を要求する必要があります。 この証明書を使って、1つの SBC から提供されている複数のテナントへの接続を認証することができます。
+SBC は、接続を認証するために証明書を必要とします。 SBC ホスティングシナリオでは、通信事業者は、 * \* base_domain (たとえば、 \* customers.adatum.biz)* で証明書を要求する必要があります。 この証明書を使って、1つの SBC から提供されている複数のテナントへの接続を認証することができます。
 
 
 次の表は、1つの構成の例です。
@@ -113,13 +114,13 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 新しいドメインを追加するには、グローバル管理者として Microsoft 365 管理センターにサインインしている必要があります。 
 
-所有しhttps://portal.office.com)ている役割を検証するには、Microsoft 365 管理センターにサインインして、[**ユーザー** > の**アクティブな**ユーザー] に移動して、グローバル管理者の役割を持っていることを確認します。 
+所有している役割を検証するには、Microsoft 365 管理センターにサインインして、 https://portal.office.com) [**ユーザー**のアクティブなユーザー] に移動して、  >  **Active Users**グローバル管理者の役割を持っていることを確認します。 
 
-管理者の役割と、Office 365 での役割の割り当て方法の詳細については、「 [office 365 管理者ロールについ](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)て」を参照してください。
+管理者の役割と、Microsoft 365 または Office 365 での役割の割り当て方法の詳細については、「[管理者ロールについ](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)て」を参照してください。
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>ベースドメインをテナントに追加して確認する
 
-1. Microsoft 365 管理センターで、[**セットアップ** > **Domains** > ドメインの**追加**] に移動します。
+1. Microsoft 365 管理センターで、[**セットアップ**ドメインの追加] に移動し  >  **Domains**  >  **Add domain**ます。
 2. [**自分が所有しているドメインを入力して**ください] ボックスに、ベースドメインの FQDN を入力します。 次の例では、ベースドメインは*customers.adatum.biz*です。
 
     ![[ドメインの追加] ページを示すスクリーンショット](media/direct-routing-2-sbc-add-domain.png)
@@ -138,7 +139,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 ドメイン名を登録したら、少なくとも1つの E1、E3、または E5 のライセンスを持つユーザーを追加し、作成されたベースドメインと一致する SIP アドレスの FQDN 部分を持つ SIP アドレスを割り当てることによって、そのドメイン名をアクティブ化する必要があります。 
 
-*Office 365 組織でのユーザーの追加の詳細については、「 [office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
+*Microsoft 365 または Office 365 組織でのユーザーの追加の詳細については、「 [microsoft 365 または office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
 
 例: test@customers.adatum.biz
 
@@ -154,12 +155,12 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 新しいドメインを追加するには、グローバル管理者として Microsoft 365 管理センターにサインインしている必要があります。 
 
-所有しhttps://portal.office.com)ている役割を検証するには、Microsoft 365 管理センターにサインインして、[**ユーザー** > の**アクティブな**ユーザー] に移動して、グローバル管理者の役割を持っていることを確認します。 
+所有している役割を検証するには、Microsoft 365 管理センターにサインインして、 https://portal.office.com) [**ユーザー**のアクティブなユーザー] に移動して、  >  **Active Users**グローバル管理者の役割を持っていることを確認します。 
 
-管理者の役割と、Office 365 での役割の割り当て方法の詳細については、「 [office 365 管理者ロールについ](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)て」を参照してください。
+管理者の役割と、Microsoft 365 または Office 365 での役割の割り当て方法の詳細については、「[管理者ロールについ](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)て」を参照してください。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>サブドメインを顧客テナントに追加して確認する
-1. Microsoft 365 管理センターで、[**セットアップ** > **Domains** > ドメインの**追加**] に移動します。
+1. Microsoft 365 管理センターで、[**セットアップ**ドメインの追加] に移動し  >  **Domains**  >  **Add domain**ます。
 2. [**自分が所有しているドメインを入力してください**] ボックスに、このテナントのサブドメインの FQDN を入力します。 次の例では、サブドメインは sbc1.customers.adatum.biz です。
 
     ![[ドメインの追加] ページのスクリーンショット](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -177,7 +178,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
     ![TXT レコードの作成を示すスクリーンショット](media/direct-routing-8-sbc-txt-record.png)
 
-    詳細については、「 [Office 365 の任意の dns ホスティングプロバイダーで dns レコードを作成](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)する」を参照してください。
+    詳細については、「[任意の dns ホスティングプロバイダーで dns レコードを作成](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)する」を参照してください。
 
 7. 顧客の Microsoft 365 管理センターに戻り、[**確認**] をクリックします。 
 8. 次のページで、[**自分で DNS レコードを追加**します] を選択し、[**次へ**] をクリックします。
@@ -200,7 +201,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 
 ドメイン名を登録したら、少なくとも1人のユーザーを追加して、sip アドレスの FQDN 部分を使用して、顧客テナント内で作成されたサブドメインと一致する SIP アドレスを割り当てることで、ライセンス認証を行う必要があります。
 
-*Office 365 組織でのユーザーの追加の詳細については、「 [office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
+*Microsoft 365 または Office 365 組織でのユーザーの追加の詳細については、「 [microsoft 365 または office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)する」を参照してください。*
 
 例: test@sbc1.customers.adatum.biz
 

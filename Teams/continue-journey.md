@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522810"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689463"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft Teams を効果的に使用する方法
 
@@ -48,7 +48,7 @@ ms.locfileid: "44522810"
 Teams のメリットとビジネスの成果を最大限に引き出すには、ユーザーに実際に使ってもらわなければなりません。ただし、最初の感動は次第に薄れ、ユーザーは簡単に古い作業方法に戻ってしまうものです。継続的な導入計画によってユーザーによる導入を促し、Teams の感動を持続させましょう。計画に含まれるのは次の通りです。
 
 - 仲間のユーザーたちの啓発と意識付けのために、同僚のチャンピオンに協力を求めます。
-- エンゲージメントを推進して導入を促進するためのヒントを得るために [Office 365 導入ガイド](https://go.microsoft.com/fwlink/?linkid=859045)を確認します。
+- [Microsoft 365 導入ガイド](https://go.microsoft.com/fwlink/?linkid=859045)で、契約を強化し、導入を推進するためのヒントを確認してください。
 - 認識向上とベスト プラクティスの共有のために [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) を活用します。
 - 導入の広がりを支えるために、公式の[導入および変更管理の戦略](http://www.successwithteams.com/)を実施します。
 

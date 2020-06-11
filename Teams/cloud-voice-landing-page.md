@@ -20,12 +20,12 @@ search.appverid: MET150
 description: クラウドボイス機能についての詳細を確認して、必要な展開の意思決定について理解してください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281672"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690793"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Microsoft Teams でのクラウド ボイス
 
@@ -44,7 +44,7 @@ ms.locfileid: "44281672"
 
 Microsoft Teams でのクラウド ボイスの展開と使用の詳細については、次の記事をご覧ください。
 
-- [Office 365 の電話システム](what-is-phone-system-in-office-365.md)
+- [Microsoft 365 または Office 365 の電話システム](what-is-phone-system-in-office-365.md)
 - [通話プランが設定された電話システム](calling-plan-landing-page.md)
 - [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 - [クラウド ボイスの展開](cloud-voice-deployment.md)
@@ -58,12 +58,12 @@ Microsoft Teams でのクラウド ボイスの展開と使用の詳細につい
 
 ## <a name="phone-system-office-365"></a>電話システム (Office 365)
 
-電話システムは、Office 365 クラウドで通話コントロールと構内交換機 (PBX) 機能を利用できるようにする Microsoft の技術です。 電話システムを使用すると、既存の構内交換機 (PBX) システムを、Office 365 から直接配布された機能セットに置き換えることができます。また、会社のクラウド生産性エクスペリエンスに密接に統合されています。
+電話システムは、microsoft 365 または Office 365 クラウドでの通話管理および構内交換 (PBX) 機能を有効にするための Microsoft のテクノロジです。 電話システムを使用すると、既存の構内交換機 (PBX) システムを、Microsoft 365 または Office 365 から直接配信され、会社のクラウド生産性エクスペリエンスに緊密に統合することができます。
 
 
 |確認事項|Action |
 |:------------|:-------|
-|どんなユーザーの場所、またはオフィスに電話システムを実装しますか? |電話システムの詳細については、「[Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)」を参照してください。</li></ul>|
+|どんなユーザーの場所、またはオフィスに電話システムを実装しますか? |電話システムの詳細については、「 [Microsoft 365 または Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)」を参照してください。</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>公衆交換電話網 (PSTN) への接続
@@ -121,7 +121,7 @@ Microsoft では、2 種類の電話番号が用意されています。*サブ�
 
 ### <a name="dial-plans"></a>ダイヤル プラン
 
-Office 365 の電話システム機能であるダイヤル プランは、通話の認証およびルーティングの目的で、ダイヤルされた電話番号を代替形式 (通常は E.164 形式) に変換する正規化ルールです。
+Microsoft 365 または Office 365 の電話システム機能のダイヤルプランは、ダイヤルした電話番号を別の形式 (通常は164形式) に変換する正規化ルールのセットです。
 
 ダイヤル プランの詳細については、「[ダイヤル プランについて](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)」を参照してください。
 

@@ -17,12 +17,12 @@ description: Teams のクラウドボイスで組織に最適な Microsoft 電�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905029"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691413"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>どの通話プランが適していますか? 
 
@@ -35,8 +35,8 @@ ms.locfileid: "43905029"
 
 Microsoft 通話プランの展開と使用の詳細については、次の記事をご覧ください。
 
-- [Office 365 の電話システム](what-is-phone-system-in-office-365.md)
-- [Office 365 の通話プラン](calling-plans-for-office-365.md)
+- [Microsoft 365 または Office 365 の電話システム](what-is-phone-system-in-office-365.md)
+- [Microsoft 365 または Office 365 の通話プラン](calling-plans-for-office-365.md)
 - [通話プランの設定](set-up-calling-plans.md)
 
 
@@ -52,19 +52,19 @@ Microsoft をテレフォニー通信事業者として使用するには、通�
 |確認事項|Action |
 |------------|-------|
 |自分の住んでいる地域で通話プランを利用できますか? 通話プラン サービスを利用できるのはどのユーザーの場所ですか? | 詳細については、「[国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。 | 
-ユーザーは国際電話を利用する必要がありますか? | 詳細については、「[Office 365 の通話プラン](calling-plans-for-office-365.md)」を参照してください。 |
+ユーザーは国際電話を利用する必要がありますか? | 詳細については、「 [Microsoft 365 または Office 365 の通話プラン](calling-plans-for-office-365.md)」を参照してください。 |
 ユーザーは通話プランのライセンスを持っていますか? | ライセンスを購入して割り当てるには、「[手順 2: ライセンスを購入して割り当てる](set-up-calling-plans.md#step-2-buy-and-assign-licenses)」を参照してください。 |
 ユーザーはそれぞれ直通社内通話 (DID) 電話番号がありますか? | 電話番号を取得するには、「[手順 3: 電話番号を取得する](set-up-calling-plans.md#step-3-get-phone-numbers)」を参照してください。 |
 |||
 
-### <a name="transfer-phone-numbers-to-office-365"></a>Office 365 に電話番号を転送する
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>電話番号を Microsoft 365 または Office 365 に転送する
 
 電話番号を現在のサービス プロバイダーから Teams に簡単に移行できます。 電話番号を Teams に移行した後、Microsoft がサービス プロバイダーになり、それらの電話番号に対する請求を行います。 詳細については、「[電話番号を Teams に転送する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」を参照してください。
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急対応の場所
 
-Office 365 の通話プランを使用している場合、組織内のすべてのユーザーには、固有の直通社内通話 (DID) 電話番号と、対応する検証済みの緊急対応の住所が必要です。 緊急対応の住所に、緊急対応の場所 (たとえば、部屋番号や階数) を指定することもできます。 
+Microsoft 365 または Office 365 の通話プランを使用する場合、組織内のすべてのユーザーは、固有の直通電話番号と、対応する有効な緊急対応の住所を持っている必要があります。 緊急対応の住所に、緊急対応の場所 (たとえば、部屋番号や階数) を指定することもできます。 
 
 |確認事項|Action |
 |:------------|:-------|

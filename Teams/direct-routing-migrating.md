@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Skype for Business Online および Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。
-ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888586"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691363"
 ---
 # <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 
 この記事では、Skype for Business Online および Microsoft Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。 この記事では、次の環境からの移行について説明します。 
  
-- 通話プラン付きの Office 365 電話システム (Teams および Skype for Business Online 向け) 
-- Skype for Business Server のオンプレミス PSTN 接続による Office 365 電話システム (Skype for Business Online 向け)  
-- クラウド コネクタ エディションを使用したオンプレミス PSTN 接続による Office 365 電話システム (Skype for Business Online 向け)
+- 通話プラン (Teams および Skype for Business Online 向け) を含む電話システム 
+- Skype for Business Server のオンプレミスの PSTN 接続を備えた電話システム (Skype for Business Online)  
+- Cloud Connector エディションを使用したオンプレミスの PSTN 接続を使用した電話システム (Skype for Business Online 向け)
 
 
 これらの構成手順に加えて、通話を新しいルートへルーティングするために、セッション ボーダー コントローラー (SBC) 上での構成も必要です。 これは、このドキュメントの範囲外です。 詳細については、SBC 業者の資料を参照してください。  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>さまざまな PSTN 接続オプションのユーザー プロビジョニングの最終状態 
 
-次の表は、選択された Office 365 電話システムの PSTN 接続オプション用にプロビジョニングされたユーザーの最終状態を示します。 音声に関連する属性だけが表示されています。
+次の表では、選択した PSTN 接続オプション用にプロビジョニングされたユーザーのエンド状態を電話システムで示します。 音声に関連する属性だけが表示されています。
 
 |ユーザー オブジェクトの属性 |通話プランが設定された電話システム|Skype for Business Server 経由のオンプレミス PSTN 接続による電話システム|クラウド コネクタ経由のオンプレミス PSTN 接続による電話システム|ダイレクト ルーティング経由のオンプレミス PSTN 接続による電話システム|
 |---|---|---|---|---|

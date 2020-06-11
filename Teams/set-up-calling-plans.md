@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: お住まいの地域で利用可能なプランの表示、ライセンスの購入 & 購入、電話番号の取得、緊急対応の住所 & 場所の追加など、通話プランの設定方法について説明します。
-ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 97d0a29068acbb645018d7a3b76867e93d9804cd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666239"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691083"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 
-他の Teams ユーザへの通話は無料ですが、ユーザが社外の電話に通話を発信できるようにするには、Office 365 で国内通話プランまたは国際通話プランを購入します。 ビジネス向けの通話プランは簡単に設定できます。  通話プランの詳細については、「[どの通話プランをお持ちですか?](calling-plan-landing-page.md)」を参照してください。
+他の Teams ユーザへの通話は無料ですが、ユーザが社外の電話に通話を発信できるようにしたい場合は、Microsoft 365 または Office 365 の国内通話プランまたは国際通話プランを購入してください。 ビジネス向けの通話プランは簡単に設定できます。  通話プランの詳細については、「[どの通話プランをお持ちですか?](calling-plan-landing-page.md)」を参照してください。
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>手順 1: お客様の国/地域で通話プランが使用できるかどうかを確認する
 [電話会議および通話プランが利用可能な国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) で、お住まいの国と地域を選択し、電話会議、通話プラン、電話システム、有料または無料電話番号、通信クレジットについての情報を確認します。
@@ -40,10 +40,10 @@ ms.locfileid: "44666239"
 お住まいの国または地域で通話プランを利用できない場合は、ダイレクトルーティングを使用してオンプレミスのテレフォニーインフラストラクチャを電話システムに接続することを検討してください。  詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
   
 ## <a name="step-2-buy-and-assign-licenses"></a>手順 2: ライセンスを購入して割り当てる
-1. Office 365 の電話システムがプランに含まれていない場合は、**電話システム** のアドオン ライセンスを購入する必要があります。 **電話システム** ライセンスを取得したら、[Office 365の通話プラン](calling-plans-for-office-365.md) を購入します。 ライセンスとプランの購入については、[Microsoft Teams アドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) を参照してください。 
+1. 電話システム機能が Microsoft 365 または Office 365 プランに含まれていない場合は、**電話システム**のアドオンライセンスを購入する必要がある場合があります。 **電話システム**ライセンスを取得したら、 [Microsoft 365 または Office 365 の通話プラン](calling-plans-for-office-365.md)を購入します。 ライセンスとプランの購入については、[Microsoft Teams アドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) を参照してください。 
     
     > [!TIP]
-    > Office 365の **電話システム** ライセンスと通話プランは一緒になっているため、通話プラン購入のオプションを確認するには、最初に **電話システム** ライセンスを取得する必要があります。
+    > Microsoft 365 または Office 365 での**電話システム**ライセンスと通話プランは一緒に実行されるため、通話プランを購入するオプションを表示するには、まず**電話システム**のライセンスが必要です。
   
 2. まずライセンスを割り当て、組織内のユーザーに通話プランを割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
     
@@ -52,7 +52,7 @@ ms.locfileid: "44666239"
 
 - **Teams 管理センターを使用します。** 一部の国/地域では、Teams 管理センターを使用してユーザーの番号を取得できます。詳しくは、「[ユーザー用に電話番号を取得](getting-phone-numbers-for-your-users.md)する」をご覧ください。
     
-- **既存の番号を移行する。** 既存の番号を現在のサービス プロバイダーまたは電話会社から Office 365 に移行または転送します。 詳細については、「[チームに電話番号を移行する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。 
+- **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社の既存の電話番号を、Microsoft 365 または Office 365 に移植することができます。 詳細については、「[チームに電話番号を移行する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)する」を参照してください。 
   
 - **新しい番号には申請書を使用します。** 場合によっては (国/地域によっては)、Teams 管理センターを使用して新しい電話番号を取得することも、特定の電話番号または市外局番が必要になることもあります。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」をご覧ください。 
 

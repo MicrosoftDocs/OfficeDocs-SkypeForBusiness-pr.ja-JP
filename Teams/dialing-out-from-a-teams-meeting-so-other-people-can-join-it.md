@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会議の開催者は、Teams アプリを使ってダイヤルアウトする方法を学習し、他のユーザーが電話を使って同じ会議に参加できるようにします。
-ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901962"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691293"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
@@ -45,7 +45,7 @@ ms.locfileid: "43901962"
 
 ダイヤルアウト機能を利用するには、次の手順を実行します。
 
- **手順 1:** 会議で、[ユーザーの追加] ボタンの [**ユーザー** ![の追加](media/add-people-button.png) ] のスクリーンショットを使用して、電話番号にダイヤルアウトします。
+ **手順 1:** 会議で、[ユーザーの**Add people** ![ 追加] ボタンの [ユーザーの追加] のスクリーンショットを使用して、 ](media/add-people-button.png) 電話番号にダイヤルアウトします。
  **手順 2:**[ユーザーの招待] または [電話**番号をダイヤルする**] ボックスに、国/地域コードも含めて、すべての電話番号を入力します。
   
 ![[ユーザーの招待] または [電話番号のダイヤル] ボックスのスクリーンショット](media/invite-someone-box.png)
@@ -60,6 +60,6 @@ ms.locfileid: "43901962"
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>電話会議について詳しく知りたいですか?
 
-[Office 365 での電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

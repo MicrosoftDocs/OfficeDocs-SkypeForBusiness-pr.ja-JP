@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone システムのダイレクトルーティングを有効にする方法について説明します。
-ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160061"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691373"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする
 
@@ -37,17 +37,17 @@ ms.locfileid: "43160061"
 
 ユーザーに対して直接ルーティングを有効にする準備ができたら、次の手順を実行します。 
 
-1. Office 365 でユーザーを作成し、電話システムのライセンスを割り当てます。 
+1. Microsoft 365 または Office 365 でユーザーを作成し、電話システムのライセンスを割り当てます。 
 2. ユーザーが Skype for Business Online に所属していることを確認します。 
 3. 電話番号を構成し、エンタープライズボイスとボイスメールを有効にします。 
 4. チーム専用モードをユーザーに割り当てます。
 
-## <a name="create-a-user-in-office-365-and-assign-the-license"></a>Office 365 でユーザーを作成してライセンスを割り当てる 
+## <a name="create-a-user-and-assign-the-license"></a>ユーザーを作成してライセンスを割り当てる 
 
-Office 365 で新規ユーザーを作成するには、2つのオプションがあります。 ただし、Microsoft は、ルーティングの問題を回避するためのオプションを組織で選ぶことをお勧めします。 
+Microsoft 365 または Office 365 で新規ユーザーを作成するには、2つのオプションがあります。 ただし、Microsoft は、ルーティングの問題を回避するためのオプションを組織で選ぶことをお勧めします。 
 
 - オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドと同期します。 「[オンプレミスディレクトリと Azure Active Directory の統合」を](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)参照してください。
-- Office 365 管理ポータルに直接ユーザーを作成します。 「 [Office 365 にユーザーを個別に、またはまとめて追加する-管理者向けヘルプ」を](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)参照してください。 
+- Microsoft 365 管理センターで直接ユーザーを作成します。 「 [Microsoft 365 または Office 365 にユーザーを個別に、または一括して追加する」を](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)参照してください。 
 
 Skype for business Online の展開 coexists が Skype for Business 2015 または Lync 2010 または2013オンプレミスの場合、サポートされているオプションは、オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドに同期することだけです (オプション 1)。 
 

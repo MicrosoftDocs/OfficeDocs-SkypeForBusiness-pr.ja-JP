@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 製品の改善を計画するために、Microsoft が全数調査、使用状況、およびエラーデータを収集して、チームと Skype for Business の使用状況と問題を理解する方法について説明します。
-ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b7f1f7b63645adfb0cfa0c492a680059ef383402
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137357"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691533"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business と Microsoft Teams のデータ収集方法
 
@@ -104,7 +104,7 @@ Skype 会議アプリと Join Launcher Web ページでは、利用統計情報�
 
 - サーバーまたはテナント管理センターで、Disable自動 Sendtracing グループポリシー設定が False に設定されています (既定の状態)。 詳細については、「[クライアントブートストラップポリシーを構成する](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)」を参照してください。
     
-- エンドユーザーは、[全般] タブで個別にオプトインすること![ができます (歯車アイコン](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)をクリックすると歯車を表すアイコンが表示され、[**オプション**] ダイアログボックスには、Skype for business クライアントの [**全般**] タブが表示されます)。
+- エンドユーザーは、[全般] タブで個別にオプトインすることができます (歯車アイコンをクリックする ![ と歯車を表すアイコンが表示され、[ ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) **オプション**] ダイアログボックスには、Skype for Business クライアントの [**全般**] タブが表示されます)。
     
  
 ![[オプション] ダイアログの [データ収集] チェックボックスのスクリーンショット](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
@@ -115,7 +115,7 @@ Skype 会議アプリでは、MeetingUxEnableTelemetry によってエラー報�
 
 「 [Skype for Business Online 向けにネットワークをセットアップする](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66)」を参照してネットワークをセットアップできます。
 
-中国の 21Vianet によって運営されている Office 365 を使用している場合は、「[Set up your network for Lync Online](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)」を参照してください。
+中国の21Vianet が運営する Microsoft 365 または Office 365 を使用している場合は、「 [21vianet が運営する Skype For Business Online 用にネットワーク](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)をセットアップする」を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

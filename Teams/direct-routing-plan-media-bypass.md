@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 電話システムのダイレクトルーティングを使用してメディアのバイパスを計画する方法について説明します。これにより、メディアトラフィックのパスを短縮し、パフォーマンスを向上させることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: c1c11361a693fce63a863920fe6b27a2c87621af
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338247"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691253"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -79,13 +79,12 @@ ms.locfileid: "44338247"
 
 次に、ユーザーが SBC のパブリック IP アドレスにアクセスできない場合のコールフローについて説明します。 
 
-たとえば、ユーザーが外部であることを前提としていますが、テナント管理者は、インターネット上のすべてのユーザーに、SBC のパブリック IP アドレスを開くことはできません。ただし、Microsoft Cloud のみです。 トラフィックの内部コンポーネントは、Teams トランスポートリレー経由で流れることができます。 これは、企業ネットワークの外部のユーザーに推奨される構成です。 次の状況について検討しましょう。
+たとえば、ユーザーが外部であることを前提としていますが、テナント管理者は、インターネット上のすべてのユーザーに、SBC のパブリック IP アドレスを開くことはできません。ただし、Microsoft Cloud のみです。 トラフィックの内部コンポーネントは、Teams トランスポートリレー経由で流れることができます。 次の状況について検討しましょう。
 
 - Teams トランスポートリレーが使用されます。
 
 - メディアのバイパスの場合、Microsoft は、チームトランスポートリレーと SBC の間でポート 50 000 59 999 を開く必要があるトランスポートリレーのバージョン (将来は、3478と3479のポートのみを必要とするバージョンに移行する予定です) を使用しています。
 
-- メディアの最適化のため、Microsoft は、SBC のパブリック IP アドレスを Teams トランスポートリレーにのみ開くことをお勧めします。 企業ネットワークの外部にいるクライアントの場合、Microsoft は、SBC のパブリック IP アドレスに直接アクセスする代わりに、トランスポートリレーを使用することをお勧めします。
 
 次の図は、メディアのバイパスが有効になっている場合、クライアントは外部であり、クライアントはセッションの境界コントローラーのパブリック IP アドレスに到達できないことを示しています (メディアは Teams トランスポートリレーによって中継されます)。
 
@@ -138,7 +137,7 @@ ms.locfileid: "44338247"
 エンドユーザーに対してバイパスされる通話のメディアパス | ぜんぜん | クライアントがパブリック IP アドレスの SBC に到達できない場合 | 
 ボイスアプリケーションのメディアパス | いつも | ぜんぜん | 
 コード変換を実行できる (B2BUA)\* | はい | いいえ、エンドポイント間の音声のみを中継します | 
-ワールドワイドおよび場所のインスタンス数 | 8合計: 米国東部および西での22 (アムステルダムとダブリン)香港およびシンガポールでの2日本の2  | 多数
+ワールドワイドおよび場所のインスタンス数 | 10合計: 米国東部および西での22 (アムステルダムとダブリン)香港およびシンガポールでの2日本の22オーストラリア東部および東南 | 多数
 
 IP 範囲は次のとおりです。
 - 52.112.0.0/14 (52.112.0.1 から52.115.255.254 への IP アドレス)
@@ -165,13 +164,13 @@ IP 範囲は次のとおりです。
 
 SIP シグナリングの場合、FQDN とファイアウォールの要件は、非バイパスのケースと同じです。 
 
-直接ルーティングは、次の Office 365 環境で提供されます。
-- Office 365
+直接ルーティングは、次の Microsoft 365 または Office 365 環境で提供されます。
+- Microsoft 365 または Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD の詳細については、「GCC、GCC 高、DoD などの[office 365 および米国政府機関向けの環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)」を参照してください。
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 直接ルーティングの接続ポイントは、次の3つの Fqdn です。
 
@@ -227,7 +226,7 @@ Fqdn – sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP ア�
 ## <a name="sip-signaling-ports"></a>SIP シグナリング: ポート
 
 ダイレクトルーティングが提供されているすべての Office 365 環境では、ポート要件は同じです。
-- Office 365
+- Microsoft 365 または Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
@@ -263,7 +262,7 @@ UDP/SRTP | クライアント | SBC | 50 000 – 50 019  | SBC で定義 |
 
 トランスポートリレーは、メディアプロセッサ (バイパス以外のケース) と同じ範囲にあります。 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 および Office 365 の GCC 環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 - 52.112.0.0/14 (52.112.0.1 から52.115.255.254 への IP アドレス)
 
@@ -366,6 +365,5 @@ UDP/SRTP | メディアプロセッサ | SBC | 3478、3479、49 152 – 53 247  
 ## <a name="see-also"></a>関連項目
 
 [ダイレクト ルーティングでメディア バイパスを構成する](direct-routing-configure-media-bypass.md)
-
 
 
