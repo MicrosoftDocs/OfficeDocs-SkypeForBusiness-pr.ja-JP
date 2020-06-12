@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5c8ad6455fda6231efd089a2592a0860f206939
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 24abb87a7cf6b4c8ceb3f98f1ff35bdda1445e6e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506828"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691563"
 ---
 # <a name="microsoft-teams-admin-training"></a>Microsoft Teams の管理者トレーニング
 
@@ -161,7 +161,7 @@ ms.locfileid: "43506828"
                 <div class="card">
                     <div class="cardText">
                         <h3>Microsoft 365 認定: チームワーク管理者の関連付け</h3>
-                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 チームワーク管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Office 365 ワークロードを構成、展開、管理します。 </a></p>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 チームワーク管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Microsoft 365 または Office 365 ワークロードを構成、展開、管理します。 </a></p>
                     </div>
                 </div>
             </div>
