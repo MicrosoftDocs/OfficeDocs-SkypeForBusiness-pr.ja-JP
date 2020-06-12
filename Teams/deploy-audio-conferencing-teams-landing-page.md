@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c706fdde4f9634cc67b334cf19d0e9d3325f6ec8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776582"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691323"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の導入方法
 
@@ -44,7 +44,7 @@ Teams の電話会議を展開する前に、次の事項について検討し�
 |確認事項|アクション |
 |------------|-------|
 |自分の国/地域で電話会議が使用できるか?|自分の国/地域で電話会議が使用できるかどうかを調べるには、「[電話会議および通話プランを利用可能な国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。|
-|ユーザーは Teams の電話会議に対応したライセンスを所持しているか?|電話会議のライセンスは、Office 365 E5 サブスクリプションの一部として入手できます。また、Microsoft 365 Business Standard、E1 または E3 サブスクリプションのアドオン サービスとしても入手できます。 <ul><li>ライセンスを取得して割り当てる場合は、「[Office 365 の電話会議を試用または購入する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)」および「[一般法人向け Office 365 のライセンスを割り当てまたは削除する](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。</li><li> 詳細は、[Microsoft Teamsアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)をご覧ください。 </li><li>それぞれの Office 365 プランに含まれているクラウド機能を確認するには、「[プランに応じたライセンス オプション](teams-add-on-licensing/office-365-business-premium.md)」を参照してください。</li></ul>|
+|ユーザーは Teams の電話会議に対応したライセンスを所持しているか?|電話会議のライセンスは、 Microsoft 365 E5 または Office 365 E5 サブスクリプションの一部として入手できます。また、Microsoft 365 Business Standard、E1、または E3 サブスクリプションのアドオン サービスとしても入手できます。 <ul><li>ライセンスを取得して割り当てる場合は、「[Microsoft 365 または Office 365 の電話会議を試用または購入する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)」および「[Microsoft 365 Apps for business　のライセンスを割り当てまたは削除する](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。</li><li> 詳細は、[Microsoft Teamsアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)をご覧ください。 </li><li>それぞれのプランに含まれているクラウド機能を確認するには、「[プランに応じたライセンス オプション](teams-add-on-licensing/office-365-business-premium.md)」を参照してください。</li></ul>|
 |電話会議のライセンスを割り当てたユーザーにコミュニケーション クレジットを購入する必要があるか?|詳細については、「[コミュニケーション クレジットについて](what-are-communications-credits.md)」を参照してから、この後のセクション「[コミュニケーション クレジット](#communications-credits)」を確認してください。|
 |||
 
@@ -69,7 +69,7 @@ Teams には、組織に適した Teams の管理に使用できる、カスタ�
 
 会議ブリッジにより、ユーザーは電話機を使用してミーティングにダイヤルインできるようになります。 会議ブリッジの既定の設定を使用することも、電話番号 (有料ダイヤル/無料ダイヤル) およびその他の設定 (PIN や使用言語など) を変更することもできます。
 
-詳細については、「[Office 365 の電話会議](audio-conferencing-in-office-365.md)」を参照してください。
+詳細については、「[電話会議](audio-conferencing-in-office-365.md)」を参照してください。
 
 |確認事項|アクション |
 |------------|-------|
@@ -136,7 +136,7 @@ Teams の電話会議では、会議ブリッジの既定の言語と第 2 言�
 
 ### <a name="dial-plans"></a>ダイヤル プラン
 
-Office 365 の電話システムの一部であるダイヤル プランは、通話の認証およびルーティングの目的で、ダイヤルされた電話番号を代替形式 (通常、E.164 形式) に変換する正規化ルールです。
+Microsoft 365 または Office 365 の電話システムの一部であるダイヤル プランは、通話の認証およびルーティングの目的で、ダイヤルされた電話番号を代替形式 (通常、E.164 形式) に変換する正規化ルールです。
 
 ダイヤル プランの詳細については、「[ダイヤル プランについて](what-are-dial-plans.md)」を参照してください。
 

@@ -18,17 +18,17 @@ f1.keywords:
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778483"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689803"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
 
-組織の要件を満たすために、Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理することができます。 すべての承認レベルが Office 365 組織に適用されます。 それぞれの承認レベルによって、ゲストのエクスペリエンスが次の通り制御されます。
+組織の要件を満たすために、Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理することができます。 すべての承認レベルが Microsoft 365 または Office 365 組織に適用されます。 それぞれの承認レベルによって、ゲストのエクスペリエンスが次の通り制御されます。
 
 - **Azure Active Directory**: Microsoft Teams のゲスト アクセスは、Azure Active Directory ビジネス ツー ビジネス (B2B) プラットフォームに依存します。 この承認レベルは、ゲストのエクスペリエンスをディレクトリ、テナント、およびアプリケーション レベルで制御します。
 - **Microsoft Teams**: Microsoft Teams のゲストエクスペリエンスのみを管理します。
@@ -38,9 +38,9 @@ ms.locfileid: "43778483"
 これらの異なる承認レベルにより、組織におけるゲスト アクセスを柔軟にセットアップできるようになります。 たとえば、自分の Microsoft Teams でゲスト ユーザーを許可せず、組織全体では許可する場合、Microsoft Teams でゲスト アクセスをオフにするだけです。 別の例: Azure AD、Teams、Groups レベルでゲスト アクセスを有効にしつつ、1 つ以上の基準 (データ分類が社外秘に等しいなど) に一致する選択したチームに対するゲスト ユーザーの追加を無効にすることができます。 SharePoint Online と OneDrive for Business には、Microsoft 365 グループに依存しない独自のゲスト アクセス設定があります。
 
 > [!NOTE]
-> ゲストにも [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) と [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) のサービスの制限が適用されます。 
+> ゲストは、「[Microsoft 365 および Office 365 サービスの説明](https://go.microsoft.com/fwlink/p/?linkid=282347)」および「[Azure AD B2B コラボレーションの制限での制限](https://go.microsoft.com/fwlink/p/?linkid=853019)」に記載されているサービスの制限の対象となります。 
 
-次の図では、Azure Active Directory、Microsoft Teams、および Office 365 との間でゲスト アクセスの承認の依存関係がどのように与えられているか、および組み合わされているかを示します。
+次の図では、Azure Active Directory、Microsoft Teams、および Microsoft 365 または Office 365 との間でゲスト アクセスの承認の依存関係がどのように与えられているか、および組み合わされているかを示します。
 
 ![ゲスト アクセスの承認の依存関係の図](media/teams_dependencies_image1.png)
 
@@ -110,7 +110,7 @@ Microsoft 365 グループから、自分の組織内のすべての Microsoft 3
 
 Teams は、SharePoint Online と OneDrive for Business を利用して、チャネルとチャット会話のファイルやドキュメントを保管します。  
 
-Teams のゲスト アクセスを完全に利用するには、Office 365 管理者は次の設定を構成する必要があります。
+Teams のゲスト アクセスを完全に利用するには、Microsoft 365 または Office 365 の管理者は次の設定を構成する必要があります。
 
 - SharePoint Online: **既存のゲスト**、**新規および既存のゲスト**、または **すべてのユーザー**を選択します。
 

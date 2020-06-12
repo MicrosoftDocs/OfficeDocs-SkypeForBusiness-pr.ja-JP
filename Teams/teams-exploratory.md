@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 502bdb8c5e441449680fa383b20f3e570d8a8ecc
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489129"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689713"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 =======================================================
@@ -33,18 +33,18 @@ Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure A
 
 Teams Exploratory エクスペリエンスの一部として管理者に表示されるサービス プランは次のとおりです。
  - Exchange Online (プラン 1)
- - Office 365 のフロー
+ - Microsoft 365 または Office 365 のフロー
  - MyAnalytics を利用した分析情報
  - Microsoft Forms (プラン E1)
  - Microsoft Planner
  - Microsoft Search
  - Microsoft StaffHub
- - Microsoft Stream for O365 E1 SKU
+ - Microsoft Stream for Microsoft 365 E1 SKU および Office 365 E1 SKU
  - Microsoft Teams
- - Mobile Device Management for Office 365
+ - Microsoft 365 または Office 365 のモバイル デバイス管理
  - Office Mobile Apps for Office 365 
  - Office Online
- - Office 365 向けの PowerApps
+ - PowerApps for Microsoft 365 または Office 365
  - SharePoint Online (プラン 1)
  - Sway
  - To-Do (プラン 1)
@@ -152,7 +152,7 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 
 - Powershell を使用してこのライセンスを削除する場合は、次を参照してください :「[Office 365 PowerShell を使用してユーザー アカウントからライセンスを削除する](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)」
 
-- 管理ポータルからこのライセンスを削除する場合は、次を参照してください :「[一般法人向け Office 365 のユーザーからライセンスを削除する](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)」
+- 管理ポータルからこのライセンスを削除する場合は、「[組織からユーザーを削除する](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)」を参照してください。
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory エクスペリエンスの利用可能期間
 

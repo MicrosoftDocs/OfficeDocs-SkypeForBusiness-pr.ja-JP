@@ -19,18 +19,18 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637176"
+ms.locfileid: "44665259"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開について説明します。 Office 365 組織の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。 次に、Teams のアドバイザーは、展開する各ワークロードのチャネルを備えた展開チーム (チーム内) を作成します。展開チームの各ワークロードには、各ワークロードのすべての展開タスクを含む包括的な Planner の計画が付属しています。  この Planner プランを使用して、プロジェクト マネージャー、Teams および Office 365 の管理者、サポート担当者、導入およびユーザー準備チームなど、展開の各フェーズの責任者にタスクを割り当てます。 各展開タスクには、タスクを正常に完了するために必要なすべてのガイダンスとリソースが含まれています。
+Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開について説明します。 Microsoft 365 または Office 365 組織の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。 次に、Teams のアドバイザーは、展開する各ワークロードのチャネルを備えた展開チーム (チーム内) を作成します。展開チームの各ワークロードには、各ワークロードのすべての展開タスクを含む包括的な Planner の計画が付属しています。  この Planner プランを使用して、プロジェクト マネージャー、Teams や Microsoft 365 または Office 365 の管理者、サポート担当者、導入およびユーザー準備チームなど、展開の各フェーズの責任者にタスクを割り当てます。 各展開タスクには、タスクを正常に完了するために必要なすべてのガイダンスとリソースが含まれています。
 
 Teams のアドバイザーは、[Teams 管理センター](https://admin.teams.microsoft.com)の一部です。 Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic ライセンスが必要です。 Teams のアドバイザーの使用を開始するには、ダッシュボードの [**チームのワークロードの展開**] ウィジェットの [**開始**] ボタンをクリックします。 または、[**計画**] > [**Teams アドバイザー**] の順に移動します。
 
@@ -89,7 +89,7 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|構成済みのバニティ ドメイン     |テナント用に構成された @onmicrosoft.com 以外のドメイン (たとえば、@contoso.onmicrosoft.com) があるかどうか。 もちろん、@onmicrosoft.com ドメインを使用することも、バニティ ドメインを構成することもできます (任意)。 詳細については、「[Office 365 にドメインを追加する](https://docs.microsoft.com/office365/admin/setup/add-domain)」をご覧ください。 |
+|構成済みのバニティ ドメイン     |テナント用に構成された @onmicrosoft.com 以外のドメイン (たとえば、@contoso.onmicrosoft.com) があるかどうか。 もちろん、@onmicrosoft.com ドメインを使用することも、バニティ ドメインを構成することもできます (任意)。 詳細については、「[ドメインの追加](https://docs.microsoft.com/office365/admin/setup/add-domain)」をご覧ください。 |
 |Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが**必須です**。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。    |
 |Exchange Online ライセンス     |使用可能な Exchange Online のライセンスで有効なサブスクリプションを所有しているかどうか 基本的な Teams 機能には Exchange は必要ありませんが、Exchange との統合により、最適な Teams エクスペリエンスが可能になります。 Microsoft Graph 内を検索して、テナントに関連付けられているサブスクリプションを分析し、対象の (割り当て可能なライセンスが少なくとも 1 つはある) Exchange Online ライセンスのサブスクリプションがあるかどうかを検証します。 詳細については、「[Exchange と Teams の連携](exchange-teams-interact.md)」をご覧ください。    |
 |SharePoint Online のライセンス     |使用可能な SharePoint Online のライセンスで有効なサブスクリプションを所有しているかどうか チャットのファイル ストレージに OneDrive for Business を提供する場合、ユーザーごとに SharePoint Online ライセンスを所有することをお勧めします。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) SharePoint Online ライセンスがあるかどうかを確認します。 詳細については、[Teams との SharePoint Online と OneDrive for Business の連携](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)をご覧ください。    |
@@ -102,8 +102,8 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|構成済みのMicrosoft 365 グループの名前付けポリシー     |名前付け基準が Microsoft 365 グループ用に構成されているかどうか。 Microsoft 365 グループの名前付けポリシーにより、組織はユーザーが作成したチームに対して一貫した名前付け戦略を適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Microsoft 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[Microsoft 365 グループの名前付けポリシー](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)」を参照してください。    |
-|構成済みの Microsoft 365 グループ有効期限ポリシー     |Microsoft 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[Microsoft 365 グループの有効期限ポリシー](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
+|構成済みの Microsoft 365 グループの名前付けポリシー     |名前付け基準が Microsoft 365 グループ用に構成されているかどうか。 Microsoft 365 グループの名前付けポリシーにより、組織はユーザーが作成したチームに対して一貫した名前付け戦略を適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Microsoft 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[グループの名前付けポリシー](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)」を参照してください。    |
+|構成済みの Microsoft 365 グループ有効期限ポリシー     |Microsoft 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[グループの有効期限ポリシー](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>ミーティングと会議のアセスメント
 

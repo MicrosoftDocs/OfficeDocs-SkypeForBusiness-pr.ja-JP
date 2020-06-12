@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdcb1dd78db1e3a555b58b40c17a7313d875317a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042424"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691493"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -88,11 +88,11 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
 
    - 帯域幅が十分でない場合、Teams 会議の音質に影響を与える可能性があります。 低帯域幅の条件下での会議エクスペリエンスを最良なものにするために、ビデオの使用を控え、通話と会議の音声に公衆交換電話網 (PSTN) を使用することをユーザーに推奨します。 
 
-   - 最新のブログを読む (2020 年 3 月 6 日): [リモート社員の Office 365 トラフィックをすぐに最適化し、インフラストラクチャの負担を軽減する方法](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)。
+   - 最新のブログを読む (2020 年 3 月 6 日): [リモート社員の Microsoft 365 または Office 365 のトラフィックをすぐに最適化し、インフラストラクチャの負担を軽減する方法](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)。
 
    - 2020 年 3 月 26 日のブログ: [VPN で実行: Microsoft がリモート従業員をどのように接続させているか](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
-   - 中国にお住まいの場合は、「[中国内ユーザー向けの Office 365 グローバル テナントのパフォーマンスの最適化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)」をご確認ください。
+   - 中国にお住まいの場合は、「[中国内ユーザー向けの Microsoft 365 または Office 365 のグローバル テナントのパフォーマンスの最適化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)」をご確認ください。
 
    - 通話や会議の品質に関する問題のトラブルシューティングや解決のサポートが必要な場合は、この記事の下部にある「[既知の問題 - 中国: Skype for Business/Teams 会議 ID へのダイヤルイン](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)」のガイダンスに従ってください。
 
@@ -104,9 +104,9 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
 
    - [リモート ワークで、セキュリティを維持する: CISO のためのガイダンス](https://www.microsoft.com/security/blog/?p=90736)
 
-   - [在宅勤務をサポートするセキュリティ チームのための最も重要な 12 のタスク](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   - [Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work) (在宅勤務をサポートするためにセキュリティ チームが行う 12 の主なタスク)
    
-   - [VPN スプリット トンネリングを使用してリモート ユーザーの Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [VPN スプリット トンネリングを使用してリモート ユーザーの Microsoft 365 または Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - 「[セキュリティと Teams](teams-security-guide.md)」では、Microsoft 365 のエンタープライズ レベルのセキュリティのベスト プラクティスと手順の一環として、Teams のセキュリティのすべての技術的な詳細について説明しています。
 
@@ -132,9 +132,9 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
 
       - Teams ブログ (2020 年 2 月 28 日): [Microsoft Teams を使用して在宅勤務するための 4 つのヒント](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
-      - [Office 365 で共同作業する](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
+      - [Microsoft 365 または Office 365 を使用して共同作業を行う](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [Office 365 を使用してリモートで作業する](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
+      - [Microsoft 365 または Office 365 を使用してリモートで作業する](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [オンラインで作業する場合の 9 つのヒント](https://www.microsoft.com/tips/home/working-remotely)
 

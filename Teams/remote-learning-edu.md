@@ -18,17 +18,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638526"
+ms.locfileid: "44666279"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
+リモート学習への移行の概要と開始に役立つリソースについては、「[Remote Learning home page (リモート学習のホーム ページ)](https://www.microsoft.com/education/remote-learning)」を参照してください。
+
+教職員や学生のリモート学習を支援するためのリソースは、「[Office 365 Education のリモート教育と学習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)」で利用することができます。
+
+この記事では、教育機関がリモート学習の設定を行うための実際の手順について説明します。
+
 > [!NOTE]
-> この記事は、教育機関で遠隔学習を整備する上で役に立つリソースです。 教師、教育指導者、または IT 担当者の方々には、次のリソースが役立ちます。
+> 教師、教育指導者、または IT 担当者の方々には、次のリソースが役立ちます。
 >
 > - 教育機関全体ですばやく Teams を準備して稼働させるには、こちらの [**1 ページにまとめた入門情報**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)をご参照ください。
 > - 「[**Teams の使用を開始する方法**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)」をダウンロード: セキュリティと変更管理に役立つプラクティスを掲載した IT プロフェッショナル向けのガイドです。

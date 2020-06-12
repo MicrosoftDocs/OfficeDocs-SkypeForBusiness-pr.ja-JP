@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0d142be3a8d5f245cda857601995653d6ca6d240
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638846"
+ms.locfileid: "44665289"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams でのライフサイクル管理の計画
 
@@ -41,7 +41,7 @@ Teams には、自分の組織でコラボレーション ライフサイクル�
 
 **Teams**
 
-_チーム_とは、人、コンテンツ、ツールを 1 つにまとめてコラボレーションを促進する集合体です。 チームによって、メンバーが誰であるか、およびそれらのメンバーに適用されるアクセス許可およびポリシーが定義されます。 Teams は、Microsoft 365 グループを基にして構築されていて、Microsoft 365 グループ メンバーシップに対する変更はチームに同期されます。 他の Microsoft 365 グループと同様に、Teams にも Exchange メールボックス、SharePoint サイト、OneNote ノートブック、およびその他の Office 365 内の資産が自動的に用意されています。 [Microsoft 365 グループについて](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+_チーム_とは、人、コンテンツ、ツールを 1 つにまとめてコラボレーションを促進する集合体です。 チームによって、メンバーが誰であるか、およびそれらのメンバーに適用されるアクセス許可およびポリシーが定義されます。 Teams は、Microsoft 365 グループを基にして構築されていて、Microsoft 365 グループ メンバーシップに対する変更はチームに同期されます。 他の Microsoft 365 グループと同様に、Teams にも Exchange メールボックス、SharePoint サイト、OneNote ノートブック、そしてその他の Microsoft 365 または Office 365 内の資産が自動的に用意されています。 [Microsoft 365 グループについて](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 **チャネル**
 

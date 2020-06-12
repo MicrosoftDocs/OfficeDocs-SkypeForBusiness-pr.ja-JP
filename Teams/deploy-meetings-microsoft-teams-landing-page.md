@@ -19,14 +19,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281682"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665939"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
+
+> [!NOTE]
+> - リモート学習への移行の概要と開始に役立つリソースについては、「[**Remote Learning home page (リモート学習のホーム ページ)**](https://www.microsoft.com/education/remote-learning)」を参照してください。
+> - 教職員や学生のリモート学習を支援するためのリソースは、「[**Office 365 Education のリモート教育と学習**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)」で利用することができます。
+
 
 [使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 この時点で、[電話会議](deploy-audio-conferencing-teams-landing-page.md)、ビデオ、および共有を含むミーティング ワークロードを追加する準備が整っています。 この記事では、会議と電話会議の展開について説明します。 まず、Teams 会議とデバイスのビデオを見ます (3:28 分):
 

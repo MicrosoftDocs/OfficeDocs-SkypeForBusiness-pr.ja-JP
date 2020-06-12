@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2ba5201781743567d4c94cad3b065f21e6578e9a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637646"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690543"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -101,7 +101,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 |||
 |---------|---------|
-|文字     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|文字     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |この範囲内の文字    | 0 ~ 1F<br>80 ~ 9F        |
 |単語     | フォーム、CON、CONIN$、CONOUT$、PRN、AUX、NUL、COM1 ~ COM9、LPT1 ~  LPT9、desktop.ini、&#95;vti&#95;|
 

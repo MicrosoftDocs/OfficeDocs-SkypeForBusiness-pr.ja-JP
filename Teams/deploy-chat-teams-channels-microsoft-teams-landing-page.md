@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 3b1546c71cc2796ce599da449ab37bf275384efc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6a77e98a75497d8608f0b85ad1a52d3fed8d153b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637896"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691313"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -35,7 +35,7 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *2019 年 11 月の新機能*
- - [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams を展開できる](use-advisor-teams-roll-out.md)ようになりました。 Teams のアドバイザー (プレビュー) を使用して、Teams の展開について説明します。 Office 365 環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。
+ - [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams を展開できる](use-advisor-teams-roll-out.md)ようになりました。 Teams のアドバイザー (プレビュー) を使用して、Teams の展開について説明します。 Microsoft 365 または Office 365 の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。
  - [IT 担当者向けの Microsoft Teams の基礎の YouTube チャネル](https://aka.ms/MicrosoftTeamsforIT)には、Teams の展開、構成、および管理の方法を示す短い (8 〜 10 分) ビデオが含まれています。
 
 > [!TIP]
@@ -47,7 +47,7 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 |確認事項|アクション |
 |------------|-------|
-|Teams を展開するために組織の準備が整っているか?|この質問に回答するには、次を参照してください。 <ul><li>[Teams 用に組織のネットワークを準備する](prepare-network.md)</li><li>[Office 365 の URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)</li><li>[チームを作成するときの Microsoft 365 グループの計画](plan-office-365-groups.md)</li></ul>|
+|Teams を展開するために組織の準備が整っているか?|この質問に回答するには、次を参照してください。 <ul><li>[Teams 用に組織のネットワークを準備する](prepare-network.md)</li><li>[URL と IP アドレスの範囲](office-365-urls-ip-address-ranges.md)</li><li>[チームを作成するときの Microsoft 365 グループの計画](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
@@ -131,7 +131,7 @@ Teams は、Web からデスクトップ、モバイルまで複数のクライ�
 
 ### <a name="teams-usage-reporting"></a>Teams の使用状況レポート
 
-Office 365 の全体管理者、Teams のサービス管理者、およびレポート閲覧者の役割は、Teams の使用状況レポートを表示できます。 詳細については、「[Microsoft 365 利用状況分析](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide)」の記事を参照してください。
+全体管理者、Teams のサービス管理者、およびレポート閲覧者の役割は、Teams の使用状況レポートを表示できます。 詳細については、「[Microsoft 365 利用状況分析](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide)」の記事を参照してください。
 
 |確認事項|アクション |
 |------------|-------|
@@ -151,16 +151,16 @@ Teams のアプリを展開および管理する方法の詳細については�
 
 ### <a name="teams-licensing"></a>Teams のライセンス
 
-Teams は多くの Office 365 ライセンスの一部として提供されています。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
+Teams は多くの Microsoft 365 ライセンスまたは Office 365 ライセンスの一部として提供されています。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 |確認事項|アクション |
 |------------|-------|
 |展開しようとしている Teams のすべての機能を使用するために必要なライセンスをユーザーが所持しているか? | ライセンス要件の詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。|
 |||
 
-### <a name="exchange-and-sharepoint-interoperability"></a>Exchange と SharePoint の相互運用性 
+### <a name="exchange-and-sharepoint-interoperability"></a>Exchange と SharePoint の相互運用性
 
-Teams のすべての機能を活用するために、すべてのユーザーは Exchange Online、SharePoint Online、および Microsoft 365 グループの作成が可能になっている必要があります。 次の記事では、さまざまな環境でホストされている Exchange メールボックス、Exchange と Teams の相互作用のしくみ、および SharePoint と OneDrive for Business に関する同様の考慮事項について概要を示します。 
+Teams のすべての機能を活用するために、すべてのユーザーは Exchange Online、SharePoint Online、および Microsoft 365 グループの作成が可能になっている必要があります。 次の記事では、さまざまな環境でホストされている Exchange メールボックス、Exchange と Teams の相互作用のしくみ、および SharePoint と OneDrive for Business に関する同様の考慮事項について概要を示します。
 
 |確認事項|アクション |
 |------------|-------|
@@ -176,13 +176,13 @@ Teams のエンタープライズ展開を計画している場合は、1 つの
 | Teams の展開でどのような制限が問題になる可能性があるか? | 詳細については、「[Teams の制限と仕様](limits-specifications-teams.md)」を参照してください。 |
 |||
 
-### <a name="office-365-urls-and-ports"></a>Office 365 の URL とポート
+### <a name="urls-and-ports"></a>URL とポート
 
-インターネット トラフィックの詳細な制御を維持している組織は、Teams の適切な構成が必要になる URL、IP アドレス、ポート、およびプロトコルに関する最新のリストについて、「[Office 365 の URL と IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を確認してください。 マイクロソフトは、必要なポート、URL、IP アドレスが時間の経過とともに変更する可能性があることを踏まえて、継続して Office 365 サービスを改善し、新機能を追加します。 この情報が更新または変更されたときに通知を受け取れるように、RSS で購読することをお勧めします。 少なくとも、前述の「[チャットの展開に関する前提条件](#chat-deployment-prerequisites)」に示したポートが開かれているを確認してください。
+インターネット トラフィックの詳細な制御を維持している組織は、Teams の適切な構成が必要になる URL、IP アドレス、ポート、およびプロトコルに関する最新のリストについて、「[URL と IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を確認してください。 Microsoft は、必要なポート、URL、IP アドレスが時間の経過とともに変更する可能性があることを踏まえて、継続して Microsoft 365 サービスおよび Office 365 サービスを改善し、新機能を追加します。 この情報が更新または変更されたときに通知を受け取れるように、RSS で購読することをお勧めします。 少なくとも、前述の「[チャットの展開に関する前提条件](#chat-deployment-prerequisites)」に示したポートが開かれているを確認してください。
 
 |確認事項|アクション |
 |------------|-------|
-| ユーザーが Teams を使用できるようにするためにインターネット アクセスのルールが必要か、それとも最低限必要なポートを開くだけで十分か? | 詳細については、「[Office 365 の URL と IP アドレス範囲](office-365-urls-ip-address-ranges.md)」を参照してください。|
+| ユーザーが Teams を使用できるようにするためにインターネット アクセスのルールが必要か、それとも最低限必要なポートを開くだけで十分か? | 詳細については、「[URL と IP アドレス範囲](office-365-urls-ip-address-ranges.md)」を参照してください。|
 |||
 
 
@@ -241,11 +241,11 @@ Teams は、主要な生産性シナリオ (会議、予定表、相互運用チ
 
 ### <a name="government---gcc-considerations"></a>政府機関: GCC に関する考慮事項
 
-政府機関向け Microsoft 365 (GCC: Government Community Cloud) の使用は、米国連邦、州、地方、民族、または領土の政府機関など、政府の規制と要件の対象になるデータを扱う機関で Office 365 の展開を推進している IT 担当者の要件を満たすのに適しています。
+Office 365 for Government (GCC: Government Community Cloud) の使用は、米国連邦、州、地方、民族、または領土の政府機関など、政府の規制と要件の対象になるデータを扱う機関で Office 365 の展開を推進している IT 担当者の要件を満たすのに適しています。
 
 | 確認事項 | アクション |
 |--------------|--------|
-| Microsoft 365 Government: GCC 環境に Teams を展開する必要があるか? | 展開に関する考慮事項については、「[Microsoft 365 Government: GCC 展開の計画](plan-for-government-gcc.md)」を参照してください。|
+| Office 365 for Government: GCC 環境に Teams を展開する必要があるか? | 展開に関する考慮事項については、「[Office 365 for Government: GCC 展開の計画](plan-for-government-gcc.md)」を参照してください。|
 |||
 
 ## <a name="next-steps"></a>次のステップ
