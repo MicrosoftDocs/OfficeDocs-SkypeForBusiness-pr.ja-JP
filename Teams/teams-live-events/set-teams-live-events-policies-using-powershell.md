@@ -18,12 +18,12 @@ description: PowerShell を使用してチームのポリシーを設定する�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d5f1cceb42afd2be92aedcd0a40af4e23650512
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1c1131790e36fe451444a8c8a3fb25259d5741da
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140648"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691573"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>PowerShell を使用して Microsoft Teams でのライブ イベント ポリシーを設定する
 
@@ -36,7 +36,7 @@ ms.locfileid: "43140648"
 以下にいくつかの例を示します。
 
 > [!NOTE]
-> これらのコマンドレットを実行するには、Skype for Business Online PowerShell に接続する必要があります。 詳細については、「 [Office 365 PowerShell を使って Skype For Business Online を管理](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)する」を参照してください。
+> これらのコマンドレットを実行するには、Skype for Business Online PowerShell に接続する必要があります。 詳細については、「 [Microsoft 365 または Office 365 PowerShell で Skype For Business Online を管理](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)する」を参照してください。
 
 ## <a name="allow-users-to-schedule-live-events"></a>ユーザーがライブ イベントをスケジュールできるようにする 
 

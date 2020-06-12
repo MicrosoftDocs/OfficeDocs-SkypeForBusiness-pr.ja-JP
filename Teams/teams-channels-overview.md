@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637506"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690013"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -75,7 +75,7 @@ Microsoft Teams には、次の 2 つの主な役割があります。
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-Office 365 での Microsoft Teams 管理者である場合は、Microsoft Teams 管理センターのシステム全体の設定にアクセスすることができます。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
+Microsoft 365 または Office 365 の Microsoft Teams 管理者は、Microsoft Teams 管理センターでシステム全体の設定にアクセスできます。 これらの設定は、チーム設定でチーム所有者に表示されるオプションと既定値に影響します。 たとえば、チーム全体の通知、ディスカッション、リソースのために、既定のチャネル「一般」を有効にして、それらがすべてのチームにわたって表示されるようにすることができます。
 
 既定では、すべてのユーザーが Microsoft Teams 内にチームを作成するアクセス許可を持っています (これを変更するには、「[Teams でロールとアクセス許可を割り当てる](assign-roles-permissions.md)」をご覧ください)。 既存の Microsoft 365 グループのユーザーは、Teams 機能を使用してアクセス許可を強化することもできます。
 

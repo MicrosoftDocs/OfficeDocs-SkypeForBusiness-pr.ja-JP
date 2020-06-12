@@ -18,12 +18,12 @@ description: Microsoft Teams でユーザーにポリシーを割り当てるさ
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 098e55aa5f4096ac80e6f54e191e6c9d48d90826
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 1c8c6700ced98cad815c0e30a3afe3e40ae85b33
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698287"
+ms.locfileid: "44702732"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにライセンスを割り当てる
 
@@ -34,7 +34,7 @@ ms.locfileid: "44698287"
 
 組織によって、独自のニーズとユーザー設定のポリシーを持つさまざまな種類のユーザーが、それらのニーズに応じてさまざまなユーザーのセットに対してポリシー設定を調整できます。
 
-組織内のポリシーを簡単に管理できるように、Teams には、ユーザーにポリシーを割り当てるためのいくつかの方法が用意されています。 ポリシーは、個別に、またはバッチの割り当てを通じて、またはユーザーがメンバーになっているグループに直接割り当てることができます。 ポリシーパッケージを使用して、同じようなロールを持つ組織内のユーザーにポリシーの事前設定されたコレクションを割り当てることもできます。 選択するオプションは、管理しているポリシーの数と、割り当てられているユーザーの数によって異なります。
+組織内のポリシーを簡単に管理できるように、Teams には、ユーザーにポリシーを割り当てるためのいくつかの方法が用意されています。 ポリシーは、個別に、またはバッチの割り当てを通じて、またはユーザーがメンバーになっているグループに直接割り当てることができます。 ポリシーパッケージを使用して、同じようなロールを持つ組織内のユーザーにポリシーの事前設定されたコレクションを割り当てることもできます。 選択するオプションは、管理しているポリシーの数と、割り当てられているユーザーの数によって異なります。 組織内の最大ユーザー数に適用されるようにグローバルな (組織全体の既定の) ポリシーを設定することによって、専用のポリシーを必要とするユーザーにのみポリシーを割り当てる必要があります。
 
 この記事では、ユーザーにポリシーを割り当てることができるさまざまな方法について説明します。また、どのような場合に使用するかについての推奨されるシナリオ
 
@@ -62,6 +62,8 @@ ms.locfileid: "44698287"
 
 ここでは、ユーザーにポリシーを割り当てる方法の概要と、それぞれの推奨されるシナリオについて説明します。 詳細については、リンクをクリックしてください。
 
+個々のユーザーまたはグループにポリシーを割り当てる前に、組織内の最大ユーザー数に適用されるように[、グローバル (組織全体の既定) ポリシーを設定](#set-the-global-policies)します。  グローバルポリシーが設定されたら、専用のポリシーを必要とするユーザーにのみポリシーを割り当てる必要があります。
+
 |操作  |もし。。。  | 使用するのは...
 |---------|---------|----|
 |[個々のユーザーにポリシーを割り当てる](#assign-a-policy-to-individual-users)    | チームを初めて使い始めたり、少数のユーザーに1つまたはいくつかのポリシーを割り当てる必要があります。 |Skype for Business Online PowerShell モジュールの Microsoft Teams 管理センターまたは PowerShell コマンドレット
@@ -70,6 +72,50 @@ ms.locfileid: "44698287"
 |[グループにポリシーを割り当てる](#assign-a-policy-to-a-group)(プレビュー中)   |ユーザーのグループメンバーシップに基づいてポリシーを割り当てる必要があります。 たとえば、セキュリティグループまたは組織単位のすべてのユーザーにポリシーを割り当てる必要があるとします。| Teams PowerShell モジュールの PowerShell コマンドレット|
 | [ユーザーのバッチにポリシーパッケージを割り当てる](#assign-a-policy-package-to-a-batch-of-users)|同じロールまたは類似のロールを持つ組織内のユーザーのバッチに複数のポリシーを割り当てる必要があります。 たとえば、バッチの割り当てを使用して学校のすべての教師に教育 (教師) ポリシーパッケージを割り当てることで、チャット、通話、会議へのフルアクセスを許可したり、教育機関 (第1の学生) ポリシーパッケージを第2の学生に割り当てることができます。|Teams PowerShell モジュールの PowerShell コマンドレット|
 | グループにポリシーパッケージを割り当てる (近日公開)   | ||
+
+## <a name="set-the-global-policies"></a>グローバルポリシーを設定する
+
+次の手順に従って、ポリシーの種類ごとにグローバル (組織全体の既定) ポリシーを設定します。
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、更新するポリシーの種類の [ポリシー] ページに移動します。 たとえば、 *teams > teams のポリシー*や*会議 > 会議のポリシー*や*メッセージングポリシー* 、または*ボイス > 通話ポリシー*を使用します。
+2. [**グローバル (組織全体の既定)** ] ポリシーを選択して、現在の設定を表示します。
+3. 必要に応じてポリシーを更新し、[**保存**] を選択します。
+
+### <a name="using-powershell"></a>PowerShell を使用する場合
+
+PowerShell を使用してグローバルポリシーを設定するには、グローバル識別子を使用します。  まず、現在のグローバルポリシーを確認して、変更する設定を決定します。
+
+```powershell
+Get-CsTeamsMessagingPolicy -Identity Global
+ 
+Identity                      : Global
+Description                   :
+AllowUrlPreviews              : True
+AllowOwnerDeleteMessage       : False
+AllowUserEditMessage          : True
+AllowUserDeleteMessage        : True
+AllowUserChat                 : True
+AllowRemoveUser               : True
+AllowGiphy                    : True
+GiphyRatingType               : Moderate
+AllowMemes                    : True
+AllowImmersiveReader          : True
+AllowStickers                 : True
+AllowUserTranslation          : False
+ReadReceiptsEnabledType       : UserPreference
+AllowPriorityMessages         : True
+ChannelsInChatListEnabledType : DisabledUserOverride
+AudioMessageEnabledType       : ChatsAndChannels
+Expand (20 lines) Collapse 
+```
+
+次に、必要に応じてグローバルポリシーを更新します。  変更する設定の値のみを指定する必要があります。 
+ 
+```powershell
+Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
+```
 
 ## <a name="assign-a-policy-to-individual-users"></a>個々のユーザーにポリシーを割り当てる
 

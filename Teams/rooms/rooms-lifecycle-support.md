@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: 動的サポートの構造とそのフェーズを含む、Microsoft Teams のルームのライフサイクルのサポートについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905379"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691193"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams ミーティング アプリ バージョンのサポート
  
@@ -53,7 +53,8 @@ Microsoft Teams ミーティング デバイスでは、Windows 10 機能更新�
 
 |バージョン  |提供日   |Microsoft Teams ミーティングのサポート状況   |Microsoft Teams ミーティングの最小アプリケーション バージョン | 推奨 OS ビルド  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 1909 |2019-11-12 |現在検証中、 <br/>非推奨|&#x2014; |&#x2014; |
+| 2004 |2020-05-27 |[検証] で、 <br/>推奨されない|&#x2014; |19041.264 |
+| 1909 |2019-11-12 |検証が完了しました。 <br/>既知の問題はありません。|近日対応予定 |18363.418  |
 | 1903 |2019-05-21 |サポートされ <br/>推奨  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |スキップ、 <br/>推奨されない &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |サポート                             |4.1.22.0 |17134.191|
@@ -61,6 +62,8 @@ Microsoft Teams ミーティング デバイスでは、Windows 10 機能更新�
 | 1703 |2017-07-11 |非サポート                         |&#x2014; |&#x2014; |
 
 Microsoft Teams のルームアプリケーションで見つかった互換性の問題により、Windows 10 バージョン1809を &#x2780; することはお勧めできません。 この特定の問題により、夜間の再起動後に Microsoft Teams のルームアプリケーションが起動しなくなります。 この問題は、Windows 10 バージョン1903で修正されました。  
+
+Microsoft Teams のルームアプリケーションで見つかった互換性の問題により、Windows 10 バージョン2004を &#x2781; することはお勧めできません。 この特定の問題により、夜間の再起動後に Microsoft Teams のルームアプリケーションが起動しなくなります。 
 
 Windows 10 のサポートされているバージョンを使用している場合は、Microsoft Teams ミーティング アプリの最新のアプリケーション更新プログラムを入手できます。  
 

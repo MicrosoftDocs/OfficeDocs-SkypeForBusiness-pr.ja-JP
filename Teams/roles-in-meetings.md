@@ -17,12 +17,12 @@ description: Teams 会議でのプレゼンターと参加者の機能につい�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 11c5858532ade4fd4ed00f7c8f6d1d0c94baeb2d
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: c8433d4caa0defbe83114ac4027c10b6bf61a725
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321736"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702692"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-meeting"></a>Teams 会議でのプレゼンターと参加者の機能
 ======================================================
@@ -92,10 +92,10 @@ Microsoft Teams 会議は、多くの種類の参加者をサポートしてい�
 
 外部参加者とは、別の組織の Teams を使用して、会議への参加を招待されているが、それ以外の場合は組織の他の共有リソースにアクセスできないユーザーです。 外部ユーザーの参加者は、自分の組織と同じ ID 名で会議名簿に表示されます。 外部参加者の詳細については、「[別の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md#external-access)」をご覧ください。
 
-| 会議 (ゲストとしてのみチームに追加できる) ||
+| 会議 ||
 |-|-|-|
 | **機能** |||
-| チャット | 該当なし |
+| チャット | はい |
 | 会議のメモ | 該当なし |  
 | ホワイトボード | 該当なし |
 | 記録 | 該当なし |  
@@ -110,7 +110,7 @@ Microsoft Teams 会議は、多くの種類の参加者をサポートしてい�
 | 会議  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **機能**        | 事前会議 | 会議中 | 会議後 |
-| チャット | 該当なし | X | 該当なし |
+| チャット | 該当なし | はい | 該当なし |
 | 会議のメモ | 該当なし | X | 該当なし |
 | ホワイトボード | 該当なし | X | 該当なし |
 | 記録 | 該当なし | X | 該当なし |
