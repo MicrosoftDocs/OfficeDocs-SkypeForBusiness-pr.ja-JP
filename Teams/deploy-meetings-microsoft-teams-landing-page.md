@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665939"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691303"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -63,11 +63,9 @@ Teams の最高のエクスペリエンスを実現する場合、組織は Exch
 - Teams で使用するクライアントからの送信 TCP 80 および 443
 - Teams で使用するクライアントからの送信 UDP ポート 3478 から 3481
 
-[Network Testing Companion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2) を使用すると、ネットワークの場所でミーティング エクスペリエンスをサポートする音声とビデオのトラフィックを利用するための準備が整っているかどうかを確認できます。
-
 | 確認事項 | アクション |
 |--------------|--------|
-|Teams のミーティングの展開にネットワークが対応しているか? | ネットワークの対応状況を確認するには、次を参照してください。<ul><li>[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Teams のミーティングの展開にネットワークが対応しているか? | ネットワークの対応状況を確認するには、次を参照してください。<ul><li>[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL と IP アドレスの範囲](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
