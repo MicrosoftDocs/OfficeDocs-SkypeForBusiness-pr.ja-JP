@@ -1,9 +1,9 @@
 ---
-title: 'Teams メッセージングの優先度通知 '
-ms.author: tonysmit
-author: tonysmit
+title: Teams メッセージングの優先度通知
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav
+ms.reviewer: salu
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -19,27 +19,20 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: この記事では、Microsoft Teams メッセージングの優先度通知について説明します。
-ms.openlocfilehash: c2c84019635ce2c46b6aad38363c7f8aabada83b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: Microsoft Teams メッセージングの優先度通知について説明します。
+ms.openlocfilehash: d0323ead1a3bcf3f9b3dd4418428b033fe742db9
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904689"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724912"
 ---
 # <a name="messaging-policies-licensing"></a>メッセージング ポリシーのライセンス
 
-世界中のお客様から、COVID-19 (Coronavirus) pandemic によって、日常業務の重大なシフトを処理するために、新たな課題が生じました。
+世界中のお客様から、COVID-19 (Coronavirus) pandemic によって、日常業務の重大なシフトを処理するために、新たな課題が生じました。 迅速に変化する条件でチームメンバーと直接連絡を取ることができるようにすることは、緊急対応の応答中にビジネスの継続性を維持するために不可欠です。 優先度通知は、市販のお客様のみを対象とした Premium メッセージングアドオン SKU で利用できます。
 
-急速に変化する条件でチームメンバーと直接連絡を取ることができるようにすることは、ビジネス継続性を維持するために不可欠であり、また、Microsoft Teams の主要なメッセージング機能へのプロモーションアクセスを拡張しています。
+最初に2019年6月に発表された、Microsoft Teams の[優先度通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)は、緊急とマークされたすべてのメッセージについて、20分間隔で2分ごとに繰り返される通知を継続的に送信する機能をユーザーに付与します。 優先度通知は、2020の2番目の<sup>半分まで、</sup>すべての Teams ユーザーへのプロモーションとして利用可能になりました。
 
-初めて2019年6月に発表されました。 Teams の[優先度通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)は、*緊急*とマークされたすべてのメッセージについて、20分間隔で2分間隔で連続して通知を送信することをユーザーに許可します。 リリースでは、2020年4月1日まで、すべての Teams ユーザーへのプロモーションとして、優先度通知を利用できるようになりました。 
+すぐに有効になりました。このプロモーションを終了し、すべての Teams ユーザー<sup>1</sup>が基本的な機能として優先通知を利用できるようになりました。 これで、ユーザーは、優先度通知を使用して、実質無制限の緊急メッセージを送受信できるようになります。 [優先度通知の管理について、詳細はこちらをご覧](../messaging-policies-in-teams.md)ください。
 
-**お客様とコミュニティの危機対応の取り組みを支援するため、2020の2番目の半分まで、優先度通知のプロモーションを延長しています。** 優先度通知への継続的なアクセスを利用して、緊急対応の応答や回復作業を容易にすることができます。 プロモーション期間が終了すると、ライセンスを取得したユーザーは、サブスクリプションの条件に従って優先度通知を送信することができます。
-
-適切なユーザーライセンスをサポートするために、管理者は優先度通知の利用状況に関するレポートを提供します。 ユーザーは、ライセンスに関係なく、優先度の高い通知を使って、実質無制限の緊急メッセージを受信することができます。 [優先度通知の詳細について説明](../messaging-policies-in-teams.md)します。
-
-<!-- |Government| | |
-||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|
-||GCC-High| Office 365 F1 / Microsoft 365 F1<br> Office 365 G1| Office 365 G3 / Microsoft 365 G3 Microsoft 365 G5|
-||DoD| Office 365 F1 / Microsoft 365 F1<br>Office 365 G1|Office 365 G3 / Microsoft 365 G3| -->
+<sup>1</sup>現時点では、GCC、GCC High、または DoD のお客様は優先度通知を利用できません。

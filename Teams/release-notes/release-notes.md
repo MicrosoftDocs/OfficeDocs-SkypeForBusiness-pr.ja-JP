@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams の管理者向け機能のリリースノート。
-ms.openlocfilehash: f8bf1c14e8dca43eccfa2bfdde209eca43fc24fe
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702722"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710821"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams の管理者向け機能のリリースノート
 
 これらのリリースノートでは、Microsoft Teams の新しい管理機能について説明します。
+
+## <a name="june-11-2020"></a>2020年6月11日
+
+### <a name="call-queues---presence-based-routing"></a>通話キュー-プレゼンスベースのルーティング
+
+オフにすると、ログイン状態に関係なく通話を受信するように設定したエージェントに、通話がルーティングされます。 オンにした場合、オプトインされたエージェントは、プレゼンス状態が利用可能な場合にのみ、通話を受信します。 [詳細については、こちらを参照してください](../create-a-phone-system-call-queue.md)。
+
+
+## <a name="june-10-2020"></a>2020年6月10日
+
+### <a name="call-queues---longest-idle-routing"></a>通話キュー-最長アイドルルーティング
+このオプションを選ぶと、最長時間の間、着信に応答していない通話エージェントに着信が転送されます。 [詳細については、こちらを参照してください](../create-a-phone-system-call-queue.md)。
 
 ## <a name="june-1-2020"></a>2020年6月1日
 
@@ -90,12 +102,6 @@ Microsoft Teams クライアントでは、realwear の ruggedized ヘッドマ�
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>チームの通話と会議のポリシーベースのレコーディング
 
 この機能により、Microsoft 認定ソフトウェアベンダーを介して、チームの通話と会議のポリシーベースの自動レコーディングが可能になります。
-
-## <a name="march-29-2020"></a>2020年3月29日
-
-### <a name="call-queues---presence-based-routing"></a>通話キュー-プレゼンスベースのルーティング
-
-オフにすると、ログイン状態に関係なく通話を受信するように設定したエージェントに、通話がルーティングされます。 オンにした場合、オプトインされたエージェントは、プレゼンス状態が利用可能な場合にのみ、通話を受信します。 [詳細については、こちらを参照してください](../create-a-phone-system-call-queue.md)。
 
 ## <a name="march-25-2020"></a>2020年3月25日
 

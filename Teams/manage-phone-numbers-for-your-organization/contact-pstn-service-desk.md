@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織で電話番号を取得したり、番号を移行 (転送) したりする場合、PSTN サービスデスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: fd6300c16ec3f09742138e0ea4879b9d0dd6b12a
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374275"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710831"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN サービスデスクの連絡先
 
@@ -42,13 +42,13 @@ ms.locfileid: "44374275"
 
 **既存の電話番号の移行/移行に**関するサポートが必要な場合は、できるだけ詳細な情報を入力してください。
   - [組織 ID (テナント id) または現在アクティブな Microsoft ドメイン](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)。
-  - サポートが必要な電話番号の種類 (**ユーザー/加入者**または**サービス/有料/** 無料電話)。
+  - サポートが必要な電話番号の種類 **(ユーザー、サービスの有料、またはサービスの無料通話)**。
   - お客さまのリクエストに基づいて、その他の重要な詳細情報。
   
 **Microsoft Teams の新しい電話番号を取得するため**にサポートが必要な場合は、できるだけ多くの情報を追加してください。
   - [組織 ID (テナント id) または現在アクティブな Microsoft ドメイン。](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - 取得したい電話番号の種類 (**ユーザー/加入者**または**サービス/有料/** 無料電話)。
-  - 必要な数と、新しい電話番号を求める市外局番 (s)/Country/Region。
+  - サポートが必要な電話番号の種類 **(ユーザー、サービスの有料、またはサービスの無料通話)**。
+  - 必要な数と、新しい電話番号を求める市外局番 (s)/country/region。
 
 **番号の設定、構成、ライセンス、料金、請求に関する**サポートが必要な場合は、「[ビジネス製品のサポート連絡先-管理者向けヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)」ページにアクセスして、skype のテクニカルチームにお問い合わせください。
 

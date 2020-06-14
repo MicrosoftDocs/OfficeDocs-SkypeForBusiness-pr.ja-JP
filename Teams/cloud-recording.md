@@ -16,12 +16,12 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690903"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710811"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -113,7 +113,9 @@ Microsoft 365 または Office 365 のサービス間でデータが保存され
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>レコーディングの文字起こしを有効または無効にする
 
-ユーザーは、Teams 会議を記録する際に、会議を記録した後でトランスクリプトを自動的に生成されるかどうかを確認できます。 管理者が会議の開催者とレコーディングを開始するユーザーの文字起こし機能を無効にすると、レコーディングを開始するユーザーは会議のレコーディングを文字起こしする機能を選択できません。
+この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 これをオフにすると、会議の記録の再生中に [**検索**] および [**CC**] オプションを使用できなくなります。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。
+
+記録された会議の文字起こしは、現在、Teams の言語が英語に設定されているユーザー、および会議で英語が話されている場合のユーザーに対してのみサポートされていることに注意してください。
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、レコーディングを開始するユーザーが会議のレコーディングを文字起こしする機能を選択できるかどうかを制御できます。
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理者は、ダイレクトルーティングが認定されているセッション境界コントローラー (SBCs) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a76ed1e3a386aef7d6b6216b279a1e712e20f88
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691273"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710801"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -71,7 +71,11 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[自分の自分の ado エマージェンシールーティングサービス (お持ちの場合)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[内部の ado 緊](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[自分の自分の ado エマージェンシールーティングサービス (お持ちの場合)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[内部の ado 緊](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      サポートされている 3.20 (推奨 4.0)        |     |    |    
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     ペリフェラルメタ SBC        |     &#10004;   |  |      4.7      |     |    |    
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     ペリフェラルメタ SBC        |     &#10004;   |  |      4.7      |     |    |  
+|                     [Cisco](http://www.cisco.com/go/cube)                               |     1000 Series Integrated Services ルーター用の Cisco の統合境界線要素 (立方体)        |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |     |   |  
+|                                   |     4000 Series Integrated Services ルーター用の Cisco の統合境界線要素 (立方体)        |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |     |    |  
+|                                   |     1,000 v シリーズクラウドサービスルータの Cisco の統合境界線要素 (立方体)       |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |     |    |  
+|                                 |     1000 Series Aggregation Services ルーター用の Cisco の統合境界線要素 (立方体)      |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |     |    |  
 
 次の表は、ダイレクトルーティングとアナログデバイスの相互運用性を確認するデバイスを示しています。
 

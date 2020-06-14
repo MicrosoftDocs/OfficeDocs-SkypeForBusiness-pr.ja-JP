@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 開封済みメッセージと優先度の通知を含めることができるセキュリティで保護されたメッセージングポリシーをカスタマイズする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905529"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724892"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>医療組織向け Secure Messaging で Teams を始めましょう
 
@@ -52,8 +52,6 @@ ms.locfileid: "43905529"
 *開封確認メッセージの使用例:* Jakob Roth は、非常にリスクの高い患者であり、病院に対して認められています。ソフィア Krause は、さまざまな専門家を含む医療従事者チーム (IDT) の一部として機能している看護師で、この患者を担当する主要なケアコーディネーターとして割り当てられています。  ソフィアは、医師やその他の看護師とのグループチャットを開始し、患者と協力して治療を調整し、緊急のトリアージを開始します。看護師と医師は、治療の調整プロセス全体を通じて、患者の治療プランを通じてコミュニケーションを行い、共同作業します。  重要なメッセージと緊急メッセージは、1:1 とグループチャットで送信されます。 ソフィアは、開封済みメッセージ機能を使用して、送信先の医師または看護師によって送信されたメッセージが配信されるかどうかを確認します。 Jakob の患者の結果は近い場所にいるため、お客様はスムーズに連絡を取り合っています。
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>優先度通知を使って緊急メッセージを送信する
-
-[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 ユーザーは、チャットメッセージを他のユーザーに送信するときに、メッセージを*緊急*としてマークできます。 この機能を使うと、重大なインシデントで注意が必要な場合に、病院のスタッフが簡単に通知を受けることができます。 通常の*重要な*メッセージとは異なり、[優先度通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)は、最大20分間に1回、またはメッセージが受信され、受信者によって読み上げられるまでユーザーに通知され、メッセージが適切なタイミングで処理される可能性を最大化します。
 
