@@ -1,8 +1,8 @@
 ---
 title: 代理トランザクションを使用した常設チャットサーバーのテスト
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Test Persistent Chat Server with a synthetic transaction
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d960e2c719c6ac0cac1ba20c702deb81b7deb4d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 75d87e9ceafc16c8566a8cabc91ad9a5ec06a37f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189210"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189210"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-persistent-chat-server-with-a-synthetic-transaction"></a><span data-ttu-id="cd91f-102">代理トランザクションを使用した常設チャットサーバーのテスト</span><span class="sxs-lookup"><span data-stu-id="cd91f-102">Test Persistent Chat Server with a synthetic transaction</span></span>
+# <a name="test-persistent-chat-server-with-a-synthetic-transaction"></a><span data-ttu-id="5f8b8-102">代理トランザクションを使用した常設チャットサーバーのテスト</span><span class="sxs-lookup"><span data-stu-id="5f8b8-102">Test Persistent Chat Server with a synthetic transaction</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42189210"
 
 <span> </span>
 
-<span data-ttu-id="cd91f-103">_**トピックの最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="cd91f-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="5f8b8-103">_**トピックの最終更新日:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="5f8b8-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="cd91f-104">2人のユーザー間のチャットルームでメッセージを送受信するための常設チャットサーバーをテストするには</span><span class="sxs-lookup"><span data-stu-id="cd91f-104">To test Persistent Chat Server for sending and receiving messages in a chat room between two users</span></span>
+<span data-ttu-id="5f8b8-104">2人のユーザー間のチャットルームでメッセージを送受信するための常設チャットサーバーをテストするには</span><span class="sxs-lookup"><span data-stu-id="5f8b8-104">To test Persistent Chat Server for sending and receiving messages in a chat room between two users</span></span>
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] [-ReceiverSipAddress <String>] [-RegistrarPort <Int32>] [-SenderSipAddress <String>] -TargetFqdn <String> [-Force <SwitchParameter>] [-OutLoggerVariable <String>] 
         [-OutVerboseVariable <String>] [<CommonParameters>]
 
-<span data-ttu-id="cd91f-105">または</span><span class="sxs-lookup"><span data-stu-id="cd91f-105">or</span></span>
+<span data-ttu-id="5f8b8-105">または</span><span class="sxs-lookup"><span data-stu-id="5f8b8-105">or</span></span>
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] -ReceiverCredential <PSCredential> -ReceiverSipAddress <String> [-RegistrarPort 
         <Int32>] -SenderCredential <PSCredential> -SenderSipAddress <String> [-TargetFqdn <String>] [-Force <SwitchParameter>] [-OutLoggerVariable <String>] [-OutVerboseVariable <String>] [<CommonParameters>]
 
-<span data-ttu-id="cd91f-106">または</span><span class="sxs-lookup"><span data-stu-id="cd91f-106">or</span></span>
+<span data-ttu-id="5f8b8-106">または</span><span class="sxs-lookup"><span data-stu-id="5f8b8-106">or</span></span>
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] [-Force <SwitchParameter>] [-OutLoggerVariable <String>] [-OutVerboseVariable 

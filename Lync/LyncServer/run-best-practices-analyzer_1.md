@@ -1,8 +1,8 @@
 ---
 title: ベスト プラクティス アナライザーの実行
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run Best Practices Analyzer
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733603
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fead940eb80ee303955bed8f4dbe501984ebfa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a61b99fc5013f65ce70e5d79bee54ccca229725b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189271"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189271"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-best-practices-analyzer"></a><span data-ttu-id="321ad-102">ベスト プラクティス アナライザーの実行</span><span class="sxs-lookup"><span data-stu-id="321ad-102">Run Best Practices Analyzer</span></span>
+# <a name="run-best-practices-analyzer"></a><span data-ttu-id="c397a-102">ベスト プラクティス アナライザーの実行</span><span class="sxs-lookup"><span data-stu-id="c397a-102">Run Best Practices Analyzer</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42189271"
 
 <span> </span>
 
-<span data-ttu-id="321ad-103">_**トピックの最終更新日:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="321ad-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="c397a-103">_**トピックの最終更新日:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="c397a-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="321ad-104">Office Communications Server 2007 R2 ベストプラクティスアナライザーツールは、Office Communications Server 2007 R2 展開から構成情報を収集し、構成が Microsoft のベストプラクティスに従って設定されているかどうかを判断します。</span><span class="sxs-lookup"><span data-stu-id="321ad-104">The Office Communications Server 2007 R2 Best Practices Analyzer tool gathers configuration information from an Office Communications Server 2007 R2 deployment and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="321ad-105">このツールは、Microsoft .NET Framework 2.0 を実行しているクライアントコンピューター、または Office Communications Server 2007 R2 を実行しているサーバーに直接インストールできます。</span><span class="sxs-lookup"><span data-stu-id="321ad-105">You can install the tool on a client computer that runs Microsoft .NET Framework 2.0, or directly on the server that runs Office Communications Server 2007 R2.</span></span> <span data-ttu-id="321ad-106">ここでは、クライアント コンピューターにこのツールをインストールして実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="321ad-106">We recommend that you install and run this tool on a client computer.</span></span> <span data-ttu-id="321ad-107">また、ベストプラクティスアナライザーが完全なデータセットを収集できるように、Office Communications Server 2007 R2 管理ツールをクライアントコンピューターにローカルにインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="321ad-107">The Office Communications Server 2007 R2 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.</span></span>
+<span data-ttu-id="c397a-104">Office Communications Server 2007 R2 ベストプラクティスアナライザーツールは、Office Communications Server 2007 R2 展開から構成情報を収集し、構成が Microsoft のベストプラクティスに従って設定されているかどうかを判断します。</span><span class="sxs-lookup"><span data-stu-id="c397a-104">The Office Communications Server 2007 R2 Best Practices Analyzer tool gathers configuration information from an Office Communications Server 2007 R2 deployment and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="c397a-105">このツールは、Microsoft .NET Framework 2.0 を実行しているクライアントコンピューター、または Office Communications Server 2007 R2 を実行しているサーバーに直接インストールできます。</span><span class="sxs-lookup"><span data-stu-id="c397a-105">You can install the tool on a client computer that runs Microsoft .NET Framework 2.0, or directly on the server that runs Office Communications Server 2007 R2.</span></span> <span data-ttu-id="c397a-106">ここでは、クライアント コンピューターにこのツールをインストールして実行することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="c397a-106">We recommend that you install and run this tool on a client computer.</span></span> <span data-ttu-id="c397a-107">また、ベストプラクティスアナライザーが完全なデータセットを収集できるように、Office Communications Server 2007 R2 管理ツールをクライアントコンピューターにローカルにインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="c397a-107">The Office Communications Server 2007 R2 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.</span></span>
 
-<span data-ttu-id="321ad-108">Office Communications Server 2007 R2 ベストプラクティスアナライザーは、Microsoft ダウンロードセンターからダウンロードでき[https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702)ます。</span><span class="sxs-lookup"><span data-stu-id="321ad-108">You can download the Office Communications Server 2007 R2 Best Practices Analyzer from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702).</span></span>
+<span data-ttu-id="c397a-108">Office Communications Server 2007 R2 ベストプラクティスアナライザーは、Microsoft ダウンロードセンターからダウンロードでき [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702) ます。</span><span class="sxs-lookup"><span data-stu-id="c397a-108">You can download the Office Communications Server 2007 R2 Best Practices Analyzer from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702).</span></span>
 
 </div>
 
