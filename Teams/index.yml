@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft Teams の管理者向けドキュメント
-summary: チームを展開して管理する方法と、チームのユーザーを準備する方法について説明します。
+title: Microsoft Teams 管理ドキュメント
+summary: Teams をロールアウトして管理する方法を学び、Teams のためにユーザーを準備する
 brand: teams
 metadata:
-  title: Microsoft Teams の管理者向けドキュメント
-  description: チームを展開して管理する方法や、チームのユーザーを準備する方法など、Microsoft Teams の管理者向けドキュメントについて説明します。
+  title: Microsoft Teams 管理ドキュメント
+  description: Teams のロールアウトと管理の方法を含む Microsoft Teams 管理ドキュメントについて学び、Teams のためにユーザーを準備します。
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -15,13 +15,13 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
   ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ja-JP
   ms.lasthandoff: 04/27/2020
   ms.locfileid: "43905479"
 highlightedContent:
   items:
-  - title: COVID-19 応答-Teams を使ったリモートワーカーのサポート
+  - title: 新型コロナ ウイルス感染症の応答 - Teams を使用したリモート ワーカーのサポート
     itemType: overview
     url: /MicrosoftTeams/support-remote-work-with-teams
   - title: Teams のロールアウト方法
@@ -30,7 +30,7 @@ highlightedContent:
   - title: Teams でのセキュリティとコンプライアンス
     itemType: overview
     url: /MicrosoftTeams/security-compliance-overview
-  - title: 自分とユーザーのためのトレーニングを見つける
+  - title: 自分と自分のユーザーのためのトレーニングを見つける
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: Skype for Business から Teams へのアップグレード
@@ -42,19 +42,19 @@ highlightedContent:
 additionalContent:
   sections:
   - items:
-    - title: 上位の記事
+    - title: よく参照される記事
       links:
-      - text: Teams のネットワークを準備する
+      - text: Teams 用に組織のネットワークを準備する
         url: /MicrosoftTeams/prepare-network
-      - text: チームでチームをロールアウトするためのアドバイザーの使用
+      - text: Teams のアドバイザーを使用して、Teams の展開を支援する
         url: /MicrosoftTeams/use-advisor-teams-roll-out
-      - text: Teams でメモリを使用する方法
+      - text: Teams がメモリを使用する方法
         url: /MicrosoftTeams/teams-memory-usage-perf
-      - text: 他の組織のユーザーと通信する (ゲスト/外部アクセス)
+      - text: 別の組織のユーザーと通信する (ゲスト/外部アクセス)
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
       - text: IT アーキテクチャのポスターとソリューション
         url: /MicrosoftTeams/teams-architecture-solutions-posters
-    - title: Teams での音声通話
+    - title: Teams との音声通話
       links:
       - text: Microsoft Teams でのクラウド ボイス
         url: /MicrosoftTeams/cloud-voice-landing-page
@@ -62,17 +62,17 @@ additionalContent:
         url: /MicrosoftTeams/business-voice/whats-business-voice
       - text: 電話システムのダイレクト ルーティング
         url: /MicrosoftTeams/direct-routing-landing-page
-      - text: 共通エリア電話機を設定する
+      - text: 共通領域電話をセットアップする
         url: /MicrosoftTeams/set-up-common-area-phones
-    - title: その他のチームコンテンツ
+    - title: その他の Teams のコンテンツ
       links:
-      - text: エンドユーザー向けのヘルプコンテンツ
+      - text: エンドユーザー向けのヘルプ コンテンツ
         url: https://support.office.com/Teams
       - text: Teams 技術コミュニティ
         url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-      - text: Teams ユーザーフィードバックフォーラム
+      - text: Teams のユーザー フィードバック フォーラム
         url: https://microsoftteams.uservoice.com/
-      - text: Teams の製品情報
+      - text: Teams 製品情報
         url: https://products.office.com/microsoft-teams/group-chat-software
       - text: Teams 開発者プラットフォーム
         url: https://docs.microsoft.com/microsoftteams/platform/overview
