@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Online のレポートコマンドレットと REST web サービス
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online reporting cmdlets and REST web service
@@ -12,12 +12,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63cbce4dda006bb45606a09eef29d8c47946ad2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f40d394ba69cf017c11d4eb6cd57246a9d425c0f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189180"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ _**トピックの最終更新日:** 2014-09-05_
 
   - Get-csp2psessionreport。ユーザーが参加したピアツーピアセッションの数と種類に関する情報を提供します。
 
-ほとんどの管理者は、Microsoft 365 管理センターで利用可能なレポートを使用します。これらのレポートは自動生成されるだけでなく、多くの場合、データはグラフィカルに表示されます。これらの値は、レポート作成のコマンドレット。 ただし、Windows PowerShell を使い慣れている管理者は、レポート作成コマンドレットを使用して、Lync Online レポートからすぐに利用できないデータを返すことができます。 たとえば、レポートコマンドレットは、セッション時間 (各セッションが持続する時間) に関する情報を返します。 各セッション期間は、Lync Online レポートを使用して使用することはできません。 同様に、毎日表示される Lync Online レポートには、過去14日間の情報のみが表示されます。 日単位の合計 (たとえば、4か月前の日付) を確認したい場合は、レポート作成コマンドレットを使用します。
+ほとんどの管理者は、Microsoft 365 管理センターで利用可能なレポートを使用します。これらのレポートは自動生成されるだけでなく、レポート作成コマンドレットによって返される生の数値よりも簡単に解釈できるデータをグラフィカルに表示します。 ただし、Windows PowerShell を使い慣れている管理者は、レポート作成コマンドレットを使用して、Lync Online レポートからすぐに利用できないデータを返すことができます。 たとえば、レポートコマンドレットは、セッション時間 (各セッションが持続する時間) に関する情報を返します。 各セッション期間は、Lync Online レポートを使用して使用することはできません。 同様に、毎日表示される Lync Online レポートには、過去14日間の情報のみが表示されます。 日単位の合計 (たとえば、4か月前の日付) を確認したい場合は、レポート作成コマンドレットを使用します。
 
 また、管理者は[excel を使用して office 365 レポートデータを取得](https://msdn.microsoft.com/library/dn781442.aspx)することもできます。この記事では、Microsoft Excel の OData データ照会機能を使用してカスタムの office 365 レポートを作成する方法について説明します。 カスタムレポートを使用すると、Office 365 reporting service から返されるデータ (およびデータ量) を指定できます。 また、カスタムレポートを使用すると、データの並べ替えやグループ化の方法を指定したり、管理センターに表示されていない情報へのアクセスを提供したりすることもできます。
 

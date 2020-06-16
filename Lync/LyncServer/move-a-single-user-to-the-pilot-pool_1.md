@@ -1,8 +1,8 @@
 ---
 title: 1人のユーザーをパイロットプールに移動する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move a single user to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20f4e85c2f34a2e4319b14f310d2a9360cb274d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189895"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189895"
 
 _**トピックの最終更新日:** 2012-09-28_
 
-Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルを使用して、ユーザーを Office Communications Server 2007 R2 プールから Lync Server 2013 パイロットプールに移動することができます。 次の例では、レジストラープール列の** \<office communications server\> **は office communications server 2007 R2 プールで、これらのユーザーの6人すべてがこのプールに接続されています。 Lync Server 2013 コントロールパネルおよび Lync Server 管理シェルを使用して、ユーザーを Lync Server 2013 プールに移動するには、次の手順を使用します。
+Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルを使用して、ユーザーを Office Communications Server 2007 R2 プールから Lync Server 2013 パイロットプールに移動することができます。 次の例では、レジストラープール列は、 **\<Office Communications Server\>** Office Communications Server 2007 R2 プールで、これらのユーザーの6つすべてがこのプールに接続されています。 Lync Server 2013 コントロールパネルおよび Lync Server 管理シェルを使用して、ユーザーを Lync Server 2013 プールに移動するには、次の手順を使用します。
 
 ![Lync Server コントロールパネルでの OCS ユーザーの検索](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Lync Server コントロールパネルでの OCS ユーザーの検索")
 

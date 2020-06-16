@@ -1,8 +1,8 @@
 ---
-title: ユーザーのレプリケーションが完了したことを確認する
+title: ユーザー レプリケーションの完了の確認
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify user replication has completed
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a21ff29474825cdecca8db4c4db42eb5bb2cf0ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31bed57b6e24db0ba6f75e323fe311aa4aaf262c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188790"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188790"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>ユーザーのレプリケーションが完了したことを確認する
+# <a name="verify-user-replication-has-completed"></a>ユーザー レプリケーションの完了の確認
 
 </div>
 
@@ -53,7 +53,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 5.  [**イベント ソース**] ボックスの一覧の [**LS User Replicator**] をクリックします。
 
-6.  ** \<すべてのイベント id\> **に**30024**と入力し、[ **OK]** をクリックします。
+6.  Enter キーを押して **\<All Event IDs\>** **30024**と入力し、[ **OK]** をクリックします。
 
 7.  フィルターが適用されたイベントの一覧の [**全般**] タブで、ユーザーのレプリケーションが正常に完了したことを示す項目を探します。
 

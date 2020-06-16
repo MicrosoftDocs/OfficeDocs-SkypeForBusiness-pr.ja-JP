@@ -1,8 +1,8 @@
 ---
 title: すべての Exchange UM 連絡先オブジェクトが従来のプールから削除されていることを確認する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify that all Exchange UM Contact objects are removed from the legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7815f78dfa5f2b4aab3f09102a9948498c20cf10
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e638dc7e0172c3187859797776f8e64372c81d5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188850"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2012-09-26_
 
 **Ocsumutil**ツールまたは**Get-csexumcontact**コマンドレットを使用して、Exchange UM 連絡先オブジェクトが従来の Office Communications Server 2007 R2 プールから削除されていることを確認します。 **OCSUmUtil** は次のフォルダーにあります。
 
-% Program Files%\\Common Files\\Lync Server 2013\\サポート\\ocsumutil
+% Program Files% \\ Common Files \\ Lync Server 2013 \\ サポート \\OcsUMUtil.exe
 
 **OCSUmUtil** は、次の条件を満たすユーザー アカウントから実行する必要があります。
 

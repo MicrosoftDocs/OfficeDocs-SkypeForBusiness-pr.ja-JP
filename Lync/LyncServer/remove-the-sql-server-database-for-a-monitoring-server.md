@@ -1,8 +1,8 @@
 ---
-title: 監視サーバーの SQL Server データベースを削除する
+title: 監視サーバー用の SQL Server データベースの削除
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for a Monitoring server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f175f17b41a72c63aba77e6eb59aadce985ced82
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5f899fd36a985c124d5b0bfca899592eb9b7a17
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189390"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189390"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>監視サーバーの SQL Server データベースを削除する
+# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>監視サーバー用の SQL Server データベースの削除
 
 </div>
 
@@ -63,7 +63,7 @@ Microsoft Lync Server 2010 監視サーバーを削除した後、サーバー�
     
         Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    ここ\<で\> 、fqdn はデータベースサーバーの完全修飾ドメイン名 (fqdn)、 \<インスタンス\>はオプションの名前付きデータベースインスタンスです。
+    ここ \<FQDN\> で、はデータベースサーバーの完全修飾ドメイン名 (FQDN)、 \<instance\> はオプションの名前付きデータベースインスタンスです。
 
 4.  **Uninstall-CsDataBase** コマンドレットから操作を確認するメッセージが表示される場合は、情報を読み、**Y** (または Enter) キーを押して操作を続行するか、**N** キーを押し、次に Enter キーを押してコマンドレットを停止します (問題がある場合)。
 

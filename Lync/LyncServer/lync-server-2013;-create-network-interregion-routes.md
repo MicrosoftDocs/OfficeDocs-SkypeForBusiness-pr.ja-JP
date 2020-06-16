@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013;ネットワーク地域間ルートを作成する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: admin
 manager: serdars
 f1.keywords:
@@ -13,12 +13,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72917dc3ef179e0c27de6d47e599746a97e0540e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210243"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42210243"
 
 _**トピックの最終更新日:** 2012-10-20_
 
-*ネットワーク地域間ルート*では、ネットワーク地域のペア間のルートを定義します。 通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域間ルートが必要です。 これにより、展開内の各ネットワーク地域が他のすべての地域にアクセスできるようになります。
+A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.
 
 地域のリンクが地域間の接続に対する帯域幅制限を設定し、地域間ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。
 
@@ -99,9 +99,9 @@ _**トピックの最終更新日:** 2012-10-20_
 
 5.  [**新しい地域ルート**] ページで、[**名前**] をクリックし、ネットワーク地域間ルートの名前を入力します。
 
-6.  [**ネットワーク地域\#1**] をクリックし、一覧でネットワーク地域\#2 にルーティングするネットワーク地域をクリックします。
+6.  [**ネットワーク地域 \# 1**] をクリックし、一覧でネットワーク地域2にルーティングするネットワーク地域をクリックし \# ます。
 
-7.  [**ネットワーク地域\#2**] をクリックし、一覧でネットワーク地域\#1 にルーティングするネットワーク地域をクリックします。
+7.  [**ネットワーク地域 \# 2**] をクリックし、一覧でネットワーク地域1にルーティングするネットワーク地域をクリックし \# ます。
 
 8.  [**ネットワーク地域リンク**] フィールドの横の [**追加**] をクリックし、ネットワーク地域間ルートで使用するネットワーク地域リンクを追加します。
     
@@ -109,7 +109,7 @@ _**トピックの最終更新日:** 2012-10-20_
     
 
     > [!NOTE]  
-    > 2 つのネットワーク地域のルートを作成する場合、その間に直接のネットワーク地域リンクがなければ、必要なすべてのリンクを追加してルートを完成させる必要があります。 たとえば、北アメリカ/APAC 間には直接のネットワーク地域リンクがないため、このネットワーク地域間ルートには 2 つのネットワーク地域リンクが必要です。
+    > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     
     </div>

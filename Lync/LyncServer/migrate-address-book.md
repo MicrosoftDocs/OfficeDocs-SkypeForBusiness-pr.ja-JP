@@ -1,8 +1,8 @@
 ---
 title: アドレス帳を移行する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate Address Book
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42d28161eab03d494dd5ebb3771c0879dd3dbb99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210132"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ _**トピックの最終更新日:** 2012-10-09_
 
 **グループ化されたアドレス帳のエントリ**
 
-アドレス帳を OU ごとに作成するために **PartitionbyOU** WMI プロパティを True に設定した場合、アドレス帳のエントリを引き続きグループ化するには、ユーザーおよび連絡先で Active Directory の **msRTCSIP-GroupingId** 属性を設定する必要があります。アドレス帳のエントリのグループ化は、アドレス帳の検索範囲を制限するときなどに行うとよいでしょう。**msRTCSIP-GroupingId** 属性を使用する場合は、この属性を必要な所に設定するスクリプトを書き、グループ化する全ユーザーに同じ値をまとめて設定するようにします。たとえば、特定の OU の全ユーザーに同じ値を設定します。
+If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
 
 **アドレス帳の正規化ルール**
 
@@ -57,7 +57,7 @@ Lync Server 2010 環境でアドレス帳の正規化ルールをカスタマイ
 
 
 > [!NOTE]  
-> 組織でリモート通話コントロールを使用していて、アドレス帳の正規化ルールをカスタマイズした場合は、リモート通話コントロールを使う前に、このトピックの手順を遂行しなければなりません。この手順では、RTCUniversalServerAdmins グループのメンバーシップまたはそれに相当する権限が必要です。
+> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
 
 
 
@@ -71,22 +71,22 @@ Lync Server 2010 環境でアドレス帳の正規化ルールをカスタマイ
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>アドレス帳のカスタマイズした正規化ルールを移行するには
 
-1.  アドレス帳の\_共有\_フォルダー\_の\_ルートにある会社の電話番号の正規化ルールを見つけ、それを Lync Server 2013 パイロットプールのアドレス帳の共有フォルダーのルートにコピーします。
+1.  会社の \_ 電話 \_ 番号の \_ 正規化 \_Rules.txt、アドレス帳の共有フォルダーのルートにあるファイルを検索し、それを Lync Server 2013 パイロットプールのアドレス帳の共有フォルダーのルートにコピーします。
     
     <div>
     
 
     > [!NOTE]  
-    > アドレス帳の正規化ルールの例は、ABS Web コンポーネントのファイルディレクトリにインストールされています。 パスは<STRONG>次のとおりです。 $installedDriveLetter: Files\Files\ の Lync Server 2013 \ Web Components\Address Book Sample_Company_Phone_Number_Normalization_Rules</STRONG>。 このファイルは、 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules .txt</STRONG> &nbsp;としてアドレス帳の共有フォルダーのルートディレクトリにコピーしたり名前を変更したりできます。 たとえば、アドレス帳が<STRONG>$serverX</STRONG>&nbsp;で共有されている場合、このパスは<STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>のようになります。
+    > アドレス帳の正規化ルールの例は、ABS Web コンポーネントのファイルディレクトリにインストールされています。 パスは<STRONG>次のとおりです。 $installedDriveLetter: Files\Files\ の Lync Server 2013 \ Web Components\Address Book Sample_Company_Phone_Number_Normalization_Rules.txt、</STRONG>。 このファイルは &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; 、アドレス帳の共有フォルダーのルートディレクトリに、Company_Phone_Number_Normalization_Rules.txtとしてコピーしたり名前を変更したりできます。 たとえば、アドレス帳が<STRONG>$serverX</STRONG>で共有されている場合、この &nbsp; パスは<STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>のようになります。
 
     
     </div>
 
-2.  メモ帳\_などのテキストエディターを使用して、会社の電話\_番号\_の\_正規化ルール .txt ファイルを開きます。
+2.  メモ帳などのテキストエディターを使用して、会社の \_ 電話 \_ 番号の \_ 正規化 \_Rules.txt ファイルを開きます。
 
 3.  特定の種類のエントリは、Lync Server 2013 では正しく動作しません。 このファイルに目を通して、このステップで説明しているような種類のエントリがあれば、必要に応じてそれを編修し、パイロット プール内のアドレス帳共有フォルダーに変更後のファイルを保存します。
     
-    必要な空白文字や区切り文字が文字列に含まれていると、正規化ルールが正常に機能しなくなります。これらの文字は、正規化ルールに入力される文字列から取り除かれるためです。必要な空白文字や区切り文字が含まれる文字列を使用する場合は、文字列を編集する必要があります。たとえば、次の文字列を使用すると、正規化ルールが正常に機能しません。
+    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
@@ -114,7 +114,7 @@ Lync Server 2010 環境でアドレス帳の正規化ルールをカスタマイ
 
 3.  中央管理ストアのレプリケーションがすべてのプールで実行されるのを待ちます。
 
-4.  展開でコンテンツをクリアするために、\_電話\_の\_正規化\_ルールファイル "会社電話番号の正規化ルール" を変更します。 ファイルは、各 Lync Server 2013 プールのファイル共有にあります。 ファイルが\_存在しない場合は、「会社の電話\_番号\_の正規化\_ルール .txt」という名前の空のファイルを作成します。
+4.  展開でコンテンツをクリアするために、電話の正規化ルールファイル "会社 \_ 電話 \_ 番号の \_ 正規化 \_Rules.txt" を変更します。 ファイルは、各 Lync Server 2013 プールのファイル共有にあります。 ファイルが存在しない場合は、"会社 \_ 電話 \_ 番号の \_ 正規化Rules.txt" という名前の空のファイルを作成し \_ ます。
 
 5.  すべてのフロントエンドプールが新しいファイルを読み取るまで数分待機します。
 

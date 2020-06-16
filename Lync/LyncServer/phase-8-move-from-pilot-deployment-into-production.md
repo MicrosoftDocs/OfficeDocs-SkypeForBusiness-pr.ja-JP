@@ -1,8 +1,8 @@
 ---
 title: 'フェーズ 8: パイロット展開から運用への移行'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 8: Move from pilot deployment into production'
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b64bf36d44ae5db0fe5b0022381b14007c044747
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f572836c4ccb64fdb8bf85926e68dbcdbf5c712f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189620"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2012-10-15_
 
 ## <a name="in-this-section"></a>このセクションの内容
 
-  - [フェデレーション ルートとメディア トラフィックを構成する](configure-federation-routes-and-media-traffic_1.md)
+  - [フェデレーション ルートとメディア トラフィックの構成](configure-federation-routes-and-media-traffic_1.md)
 
   - [残りのユーザーを Lync Server 2013 に移動する](move-remaining-users-to-lync-server-2013_1.md)
 

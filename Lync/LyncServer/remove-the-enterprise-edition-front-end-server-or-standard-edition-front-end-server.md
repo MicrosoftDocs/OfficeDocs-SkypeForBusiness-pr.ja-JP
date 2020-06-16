@@ -1,8 +1,8 @@
 ---
 title: Enterprise Edition フロントエンドサーバーまたは Standard Edition フロントエンドサーバーを削除する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37091a4cc89b64f03697f7ac44a7cc45ff39070e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 461a7868d0c8a6c00df8dba67ed0135a100d4e84
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189450"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757248"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,13 +45,13 @@ _**トピックの最終更新日:** 2012-10-10_
 
   - [通話受付管理のリセット](reset-call-admission-control.md)
 
-  - [サービスのセッションを禁止する](prevent-sessions-for-services.md)
+  - [サービスのセッションの禁止](prevent-sessions-for-services.md)
 
   - [Lync Server 2010 サービスを停止する](stop-lync-server-2010-services.md)
 
-  - [プールからのフロントエンドサーバーの削除](remove-a-front-end-server-from-a-pool.md)
+  - [プールからのフロントエンド サーバーの削除](remove-a-front-end-server-from-a-pool.md)
 
-  - [フロントエンドプールまたは Standard Edition サーバーの削除](remove-front-end-pool-or-standard-edition-server.md)
+  - [フロントエンド プールまたは Standard Edition サーバーの削除](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

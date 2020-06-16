@@ -1,8 +1,8 @@
 ---
 title: ユーザーと連絡先を作成する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Create Users and Contacts
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76b8016079cd130a814da410df5e5a5b151d8702
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f90e6cbb1afb9c4c2dd2b43e1448ca635899531b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188690"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755481"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42188690"
 
 _**トピックの最終更新日:** 2013-02-22_
 
-ストレスおよびパフォーマンスの負荷テストの準備として、Lync Server 2013 ユーザープロビジョニングツール (Userprovisioning Tool .exe) を使用して、ユーザーと連絡先を作成する必要があります。
+ストレスおよびパフォーマンスの負荷テストの準備として、Lync Server 2013 ユーザープロビジョニングツール (UserProvisioningTool.exe) を使用して、ユーザーと連絡先を作成する必要があります。
 
 ここでは、このトピックを読んでいるときに役立つ可能性がある用語と定義の一覧を示します。
 
   - 組織単位– Active Directory ドメインサービスの組織単位 (OU)。
 
-  - フェデレーション/クロスプール– MSN ネットワーク、AOL®、Yahoo\!®などの他のインスタントメッセージング (IM) サービスのユーザーとの通信を有効にするユーザー。
+  - フェデレーション/クロスプール– MSN ネットワーク、AOL®、Yahoo®などの他のインスタントメッセージング (IM) サービスのユーザーとの通信を有効にするユーザー \! 。
 
   - 配布リスト–ユーザーグループとの通信を開始するために使用される active directory ドメインサービスユーザーの一覧を含む Active Directory ドメインサービス内のオブジェクト。
 
@@ -53,15 +53,15 @@ _**トピックの最終更新日:** 2013-02-22_
 
 <div>
 
-## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Userプロビジョニングツールを使用してユーザーと連絡先を作成する
+## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>UserProvisioningTool.exe を使用してユーザーと連絡先を作成する
 
-Lync Server ユーザープロビジョニングツールを使用して、ロードシミュレーション用のユーザーと連絡先を作成する必要があります。 Lync server ユーザープロビジョニングツールは、Lync Server のストレスおよびパフォーマンスツールパッケージと共にインストールされます。 パッケージインストーラー (CapacityPlanningTool) がフロントエンドサーバーまたは Standard Edition サーバー上で実行されていることを確認してください。 フロントエンドサーバーまたは Standard Edition サーバーで、ファイル Userprovisioning Tool (% LyncStressAndPerfTool Directory%\\LyncStress にあります) を実行して、Lync Server ユーザープロビジョニングツールを開始します。
+Lync Server ユーザープロビジョニングツールを使用して、ロードシミュレーション用のユーザーと連絡先を作成する必要があります。 Lync server ユーザープロビジョニングツールは、Lync Server のストレスおよびパフォーマンスツールパッケージと共にインストールされます。 パッケージインストーラー (CapacityPlanningTool.msi) がフロントエンドサーバーまたは Standard Edition サーバー上で実行されていることを確認してください。 \\フロントエンドサーバーまたは Standard Edition サーバーのファイル UserProvisioningTool.exe (% LyncStress directory% LyncStressAndPerfTool にあります) を実行して、Lync Server ユーザープロビジョニングツールを開始します。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Userプロビジョニングツールを実行するには、Domain Admins セキュリティグループのメンバーとしてログオンしている必要があります。 このコンテキストから実行する必要があります。これは、Usermsiexec.exe Tool が新しい Active Directory ドメインサービスユーザーを作成して構成しようとしているためです。
+> UserProvisioningTool.exe を実行するためには、Domain Admins セキュリティグループのメンバーとしてログオンしている必要があります。 UserProvisioningTool.exe が新しい Active Directory ドメインサービスユーザーを作成および構成するため、このコンテキストから実行する必要があります。
 
 
 
@@ -71,13 +71,13 @@ Lync Server ユーザープロビジョニングツールを使用して、ロ�
 
 
 > [!NOTE]  
-> 多数のユーザー (1万以上) を作成する場合は、ハイエンドコンピューターから Usermsiexec.exe Tool を実行します。 なお、ユーザーが作成されている間は、ドメインコントローラーの負荷も高くなります。
+> 多数のユーザー (1万以上) を作成する場合は、ハイエンドコンピューターから UserProvisioningTool.exe を実行します。 なお、ユーザーが作成されている間は、ドメインコントローラーの負荷も高くなります。
 
 
 
 </div>
 
-Lync Server ユーザープロビジョニングツールが開いたら、[**構成**] をクリックして、[**構成の読み込み**] を選択します。 ユーザーと連絡先の構成を開始するには、パッケージ SampleData に含まれている既定のファイルを読み込みます。 これにより、システムで変更する必要があるサンプルデータのフィールドが事前に作成されます。 既にカスタマイズされた設定を含む XML ファイルが事前に構成されている場合は、そのファイルを読み込みます。 次のセクションで説明されているように、Lync Server ユーザープロビジョニングツールのフィールドに入力します。
+Lync Server ユーザープロビジョニングツールが開いたら、[**構成**] をクリックして、[**構成の読み込み**] を選択します。 ユーザーおよび連絡先の構成を開始するには、SampleData.xml パッケージに含まれる既定のファイルを読み込みます。 これにより、システムで変更する必要があるサンプルデータのフィールドが事前に作成されます。 既にカスタマイズされた設定を含む XML ファイルが事前に構成されている場合は、そのファイルを読み込みます。 次のセクションで説明されているように、Lync Server ユーザープロビジョニングツールのフィールドに入力します。
 
 ![[ユーザー作成] タブ](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "[ユーザー作成] タブ")
 
@@ -133,7 +133,7 @@ Lync Server ユーザープロビジョニングツールが開いたら、[**�
 > [!NOTE]  
 > <OL>
 > <LI>
-> <P>米国形式の電話番号のみがサポートされています。 電話番号は常にユーザーに割り当てられ、Userare Tool によって作成されたすべてのユーザーがエンタープライズ Voip に対して有効になります。 電話会議の自動応答や UC 通話など、電話番号を使用するシナリオでは、この電話番号を使用して通話を適切にルーティングします。 このため、すべてのユーザーが一意の電話番号を持っている必要があります。 ユーザーを2回作成する必要がある場合は、別の市外局番を使用しないと、このコマンドは失敗します。または、以前のユーザーが無効にされている場合は、 <STRONG>Disable-CsUser</STRONG>コマンドレットを使用しています。</P>
+> <P>米国形式の電話番号のみがサポートされています。 電話番号は常にユーザーに割り当てられ、UserProvisioningTool.exe によって作成されたすべてのユーザーがエンタープライズ Voip に対して有効になります。 電話会議の自動応答や UC 通話など、電話番号を使用するシナリオでは、この電話番号を使用して通話を適切にルーティングします。 このため、すべてのユーザーが一意の電話番号を持っている必要があります。 ユーザーを2回作成する必要がある場合は、別の市外局番を使用しないと、このコマンドは失敗します。または、以前のユーザーが無効にされている場合は、 <STRONG>Disable-CsUser</STRONG>コマンドレットを使用しています。</P>
 > <LI>
 > <P>連絡先を作成する前に、[ユーザー] タブから実行する最初に、ユーザーのレプリケーションを完了する必要があります。ユーザーを作成したばかりの場合は、Lync Server のレプリケーションが完了するのを待って、データベースのユーザーアカウントを設定する必要があります。 ユーザーが複製を完了していない場合は、エラーが表示されます。 Lync Server 2013 のフロントエンドサービスが開始された場合、または最後のユーザーに対して<STRONG>Get-help ユーザー</STRONG>コマンドレットが正常に実行された場合に、ユーザーがレプリケーションを終了したことを確認できます。</P></LI></OL>
 
@@ -229,7 +229,7 @@ Lync Server 2013 ストレスおよびパフォーマンスツールの機能の
 
 ![[Location Info Service Config] タブ](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "[Location Info Service Config] タブ")
 
-この機能をテストすることを選択した場合は、フォームに記載されている値を入力し、[LIS Config ファイルの生成] ボタンをクリックします。 これにより\_、lis という名前の csv ファイルが\_生成されます。\_csv、lis、lis、\_および lis が作成されます。 その後、これらの CSV ファイルを LIS データベースにインポートするには、 **CsLisSubnet**コマンドレット、 **CsLisSwitch**コマンドレット、 **CsLisPort**コマンドレット、および**CsWirelessAccessPoint**コマンドレットをそれぞれ使用します。
+この機能をテストすることを選択した場合は、フォームに記載されている値を入力し、[LIS Config ファイルの生成] ボタンをクリックします。 これにより、LIS \_Subnet.csv、lis \_Switches.csv、lis \_Ports.csv、および lisWAP.csv という CSV ファイルが生成され \_ ます。 その後、これらの CSV ファイルを LIS データベースにインポートするには、 **CsLisSubnet**コマンドレット、 **CsLisSwitch**コマンドレット、 **CsLisPort**コマンドレット、および**CsWirelessAccessPoint**コマンドレットをそれぞれ使用します。
 
 </div>
 

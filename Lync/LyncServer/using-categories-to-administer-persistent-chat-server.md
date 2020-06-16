@@ -1,8 +1,8 @@
 ---
 title: カテゴリを使用して常設チャットサーバーを管理する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e02a780772cd0e9592bb078ab526a4085a234bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73801c006f7ef5487960628d0f981809cdfd2d38
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189010"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755631"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**トピックの最終更新日:** 2013-10-01_
 
 </div>
 
-チャット ルームのマネージャーは、ルームのカテゴリを変更することを除いて、チャット ルームのすべてのプロパティを変更できます。チャット ルームのマネージャーによる次の操作を制限することはできません。
+Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
 
   - チャット ルームを無効にする
 

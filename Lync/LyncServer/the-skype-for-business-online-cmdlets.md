@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Online のコマンドレット
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online cmdlets
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558831
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02365bfeeed60a22ea467091ebb0f2c92b0fa3c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ee81531ca8d900225d2b8dc2a10af55718a5b67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189190"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755711"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189190"
 
 _**トピックの最終更新日:** 2013-07-05_
 
-Windows PowerShell を使用して Skype for business Online に接続すると、Skype for Business Online コマンドレットのコレクションがメモリ内のコンピューターにコピーされます。 これらのコマンドレットは、ローカルコンピューターに既にあるその他のコマンドレット (Windows PowerShell のインストール時にインストールされたコアコマンドレットを含む) に加えて、Skype for Business Online の展開と Skype for business Online の展開を管理するために利用できます。Business Online のユーザーアカウント。 Skype for Business Online のコマンドレットについては、以下のトピックで説明します。
+Windows PowerShell を使用して Skype for business Online に接続すると、Skype for Business Online コマンドレットのコレクションがメモリ内のコンピューターにコピーされます。 これらのコマンドレットは、ローカルコンピューターに既にあるその他のコマンドレット (Windows PowerShell のインストール時にインストールされたコアコマンドレットを含む) に加えて、Skype for Business Online の展開と Skype for Business Online のユーザーアカウントを管理するために利用できます。 Skype for Business Online のコマンドレットについては、以下のトピックで説明します。
 
   - [Skype for Business Online テナントの管理](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 

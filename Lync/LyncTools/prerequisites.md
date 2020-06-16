@@ -1,8 +1,8 @@
 ---
 title: 前提条件
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Prerequisites
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4f10cb1bdf5733dbe54519325475871be10564
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d8f0ee6a50d40f938a9f2c6f731b0a4afa647ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196150"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756888"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,9 +93,9 @@ Lync Server 2013 ストレスおよびパフォーマンスツールを実行す
 
 1.  ドメインまたはローカルの管理者グループのメンバーとしてログオンしている必要があります。
 
-2.  Lync server 2013 のストレスおよびパフォーマンスツール (LyncPerfTool) は、Lync Server 2013 コンポーネントも実行しているコンピューターでは実行できません。
+2.  Lync server 2013 コンポーネントを実行しているコンピューターで lync Server 2013 ストレスおよびパフォーマンスツール (LyncPerfTool.exe) を実行することはできません。
 
-3.  ユーザーアカウントが存在するフロントエンドサーバーまたは Standard Edition サーバーで Lync Server 2013 ユーザー作成ツール (Userプロビジョニングツール) を実行する必要があります。 ツールを複数回実行する場合、Microsoft ユニファイドコミュニケーションが有効になっている各ユーザーは、一意の電話番号を持っている必要があります。
+3.  ユーザーアカウントが存在するフロントエンドサーバーまたは Standard Edition サーバーで Lync Server 2013 ユーザー作成ツール (UserProvisioningTool.exe) を実行する必要があります。 ツールを複数回実行する場合、Microsoft ユニファイドコミュニケーションが有効になっている各ユーザーは、一意の電話番号を持っている必要があります。
 
 4.  ページファイルのサイズは、システムで管理されているか、システムの RAM の容量の少なくとも1.5 倍になっている必要があります。
 

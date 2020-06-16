@@ -1,8 +1,8 @@
 ---
 title: 結果の解釈
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Interpreting the Results
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b3683e2a2ac9fb163fe9db3dabce40b3c61d098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d02f69f8ea1c8eb7df004e063dba39f03bbe8b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206163"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42206163"
 
 _**トピックの最終更新日:** 2013-02-24_
 
-Lync Server 2013 のストレスおよびパフォーマンスツール (LyncPerfTool) には、クライアントの動作と問題が発生しているかどうかを理解するために使用できるカウンターが多数あります。
+Lync Server 2013 ストレスおよびパフォーマンスツール (LyncPerfTool.exe) には、クライアントの動作と問題が発生しているかどうかを理解するために使用できるカウンターが多数あります。
 
 <div>
 
 ## <a name="client-counters"></a>クライアントカウンター
 
-実行されている LyncPerfTool の各インスタンスには、カウンターの個別のインスタンスがあります。 各インスタンスには、プロセス ID で名前が付けられます。
+実行されている LyncPerfTool.exe の各インスタンスには、カウンターの個別のインスタンスがあります。 各インスタンスには、プロセス ID で名前が付けられます。
 
 クライアントが過負荷になっている場合は、問題が発生する可能性があります。 これらの問題を回避するには、次の操作を行います。
 

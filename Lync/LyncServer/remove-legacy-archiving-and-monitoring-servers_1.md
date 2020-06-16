@@ -1,8 +1,8 @@
 ---
-title: 従来のアーカイブサーバーおよび監視サーバーを削除する
+title: 従来のアーカイブ サーバーおよび監視サーバーの削除
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove legacy Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83e0decfbf79aa4be81c47fd66014b10ccbcba22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3b4f149db04be75cec961478f4382b3e7a333e0a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189530"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189530"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>従来のアーカイブサーバーおよび監視サーバーを削除する
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>従来のアーカイブ サーバーおよび監視サーバーの削除
 
 </div>
 
@@ -37,11 +37,11 @@ ms.locfileid: "42189530"
 
 _**トピックの最終更新日:** 2012-09-26_
 
-Office Communications Server 2007 R2 の展開にアーカイブサーバーまたは監視サーバーが含まれている場合は、Lync Server 2013 に移行した後、これらのサーバーを従来の環境から削除できます。すべてのユーザーが削除されている場合は、残りのOffice Communications Server 2007 R2 プール。 アーカイブ サーバーまたは監視サーバーはどのような順序で削除してもかまいません。 重要な要件は、すべてのユーザーが残りの Office Communications Server 2007 R2 プールから削除されているということです。
+Office Communications Server 2007 R2 展開にアーカイブサーバーまたは監視サーバーが含まれている場合は、Lync Server 2013 に移行した後、これらのサーバーを従来の環境から削除できます。すべてのユーザーが、残りの Office Communications Server 2007 R2 プールからすべて削除されています。 アーカイブ サーバーまたは監視サーバーはどのような順序で削除してもかまいません。 重要な要件は、すべてのユーザーが残りの Office Communications Server 2007 R2 プールから削除されているということです。
 
 [「フェーズ 6: ユーザーをパイロットプールに移動](phase-6-move-users-to-the-pilot-pool.md)する」で説明されている手順に従って、Office Communications Server 2007 R2 から Lync Server 2013 にユーザーを移動することができます。
 
-すべてのユーザーが残りのプールから削除されたことを確認した後、「サーバーとサーバーの役割を削除[https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)する」の手順に従います。
+すべてのユーザーが残りのプールから削除されたことを確認した後、「サーバーとサーバーの役割を削除する」の手順に従い [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887) ます。
 
 </div>
 

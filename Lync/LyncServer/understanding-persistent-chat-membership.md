@@ -1,8 +1,8 @@
 ---
 title: 常設チャットのメンバーシップについて
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Understanding Persistent Chat membership
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cc357eff6cdc68c5285eeb915f5534b6f38b871
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 400866812ab2d5efb12960dc3c2f37c2fcb8eb45
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189150"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755681"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,9 +69,9 @@ _**トピックの最終更新日:** 2013-02-22_
 
 カテゴリの **AllowedMembers** と **Creators** を定義すると、次の利点が得られます。
 
-  - カテゴリ内のすべてのチャット ルームがカテゴリ レベルの制限のセットにバインドされます。これにより、業務ニーズとアクセス ポリシーに基づいてチャット ルームを分離できます。
+  - All chat rooms in this category are bound by the restrictions set at the category level. You can use this to segregate chat rooms based on business need and access policies.
 
-  - **Creators** の一覧に含まれるユーザーが、カテゴリ内に新しいチャット ルームを作成できます。チャット ルームを作成できる組織内の担当者の数が制限されているシステムを実装する場合は、この制御を使用して要件を満たすことができます。
+  - A user who is in the **Creators** list can create new chat rooms in that category. If you want to implement a system where a restricted number of personnel in the organization can create chat rooms, this control can be used to meet that requirement.
 
 </div>
 
@@ -81,7 +81,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 カテゴリの**Allowedmembers**には、このカテゴリの常設チャットルームを使用するすべてのユーザーが含まれている必要があります。 業務データを保護し、適切なレベルのアクセスを確保するための要件に応じて、ルームの検索およびルームへの参加が可能なユーザーを指定する 1 つ以上のカテゴリの定義が必要な場合があります。 ルームの作成を特定のユーザー グループ (中央のヘルプデスク、またはフルタイム勤務の従業員のみ) にのみ許可する場合は、要件を満たすカテゴリの **Creators** を絞り込むことができます。
 
-また、カテゴリを使用して倫理的境界を作成することもできます。倫理的境界を使用すると、組織内における利害の対立を避けることができます。たとえば、管理者は、トレーダー専用のカテゴリやアナリスト専用のカテゴリにチャット ルームを作成できます。
+Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
 
 <div>
 

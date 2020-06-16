@@ -1,8 +1,8 @@
 ---
 title: 構成の設定を確認する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify configuration settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f7655547ff4f3e528b3948a537bbd5e85f351ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188980"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755601"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +95,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 ## <a name="to-verify-policies-and-settings"></a>ポリシーと設定を確認するには
 
-1.  Office Communications Server 2007 R2 環境で、ダイヤルプランの名前 (以前の場所のプロファイル)、ダイヤルインアクセス番号 (会議アテンダントアクセスの電話番号と地域)、音声ルート、およびに一覧表示されているポリシーをメモしてください。前の表。また、Communicator Web Access に使用される Url にも対応しています。
+1.  Office Communications Server 2007 R2 環境で、Communicator Web Access に使用される Url に加えて、ダイヤルプラン (以前の場所のプロファイル)、ダイヤルインアクセス番号 (会議アテンダントアクセスの電話番号と地域)、音声ルート、および上記の表に記載されているポリシーの名前をメモしておきます。
 
 2.  Lync Server 2013 のフロントエンドサーバーで、[Lync Server コントロールパネル] を開きます。
 

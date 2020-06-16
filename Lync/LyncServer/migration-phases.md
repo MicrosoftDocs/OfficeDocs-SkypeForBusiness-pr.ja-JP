@@ -1,8 +1,8 @@
 ---
 title: 移行フェーズ
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d8101e5dee47699421ed83effed3c578c96bfda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19594eb5f0e7c2847dfbbf41795574c01b67d0be
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189980"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756818"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Lync Server 2013 では、Lync Server 2013 コンポーネントを含むネッ�
 
 1.  [フェーズ 1: Lync Server 2010 からの移行を計画する](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-2.  [フェーズ 2: 移行の準備をする](phase-2-prepare-for-migration.md)
+2.  [フェーズ 2: 移行の準備](phase-2-prepare-for-migration.md)
 
 3.  [フェーズ 3: Lync Server 2013 パイロットプールを展開する](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
@@ -53,11 +53,11 @@ Lync Server 2013 では、Lync Server 2013 コンポーネントを含むネッ�
 
 5.  [フェーズ 5: Lync Server 2013 エッジサーバーをパイロットプールに追加する](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-6.  [フェーズ 6: パイロット展開から運用への移行](phase-6-move-from-pilot-deployment-into-production.md)
+6.  [フェーズ 6: パイロット展開から運用展開への移行](phase-6-move-from-pilot-deployment-into-production.md)
 
-7.  [フェーズ 7: 移行後のタスクを完了する](phase-7-complete-post-migration-tasks.md)
+7.  [フェーズ 7: 移行後のタスクの実行](phase-7-complete-post-migration-tasks.md)
 
-8.  [フェーズ 8: 従来のプールを使用停止にする](phase-8-decommission-legacy-pools.md)
+8.  [フェーズ 8: レガシ プールの使用停止](phase-8-decommission-legacy-pools.md)
 
 </div>
 

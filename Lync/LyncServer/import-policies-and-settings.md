@@ -1,8 +1,8 @@
 ---
 title: ポリシーと設定をインポートする
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Import policies and settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dde4cfdc2f027c095cd6ad95582a130d047d3c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c6a56f1a622aca4d3f50565bc86528cf474c845
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198930"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42198930"
 
 _**トピックの最終更新日:** 2012-09-28_
 
-Office Communications Server 2007 R2 のトポロジ情報を Lync Server 2013 パイロットプールと統合した後、Office Communications Server の 2007 R2 ポリシーと構成設定を移行するには、Lync Server 2013 Management Shell コマンドレットを実行する必要があります。Lync Server 2013 パイロットプールに展開します。
+Office Communications Server 2007 R2 のトポロジ情報を Lync Server 2013 パイロットプールに結合した後、lync Server 2013 Management Shell コマンドレットを実行して、Office Communications Server の 2007 R2 ポリシーと構成設定を Lync 2013 Server のパイロットプールに移行する必要があります。
 
 **Import-cslegacyconfiguration**コマンドレットでは、ポリシー、音声ルート、ダイヤルプラン、Communicator Web access url、およびダイヤルインアクセス番号が Lync Server 2013 にインポートされます。
 

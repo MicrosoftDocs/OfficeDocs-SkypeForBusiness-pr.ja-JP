@@ -1,8 +1,8 @@
 ---
 title: 移行プロセス-詳細
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration process - details
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6df1eb2e0f69f79bd299f2da4f6f12aaba1bb5d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76624475b86427d8e3b1aa4f9efa75c127afcb85
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189950"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -66,7 +66,7 @@ Lync Server 2010、グループチャット、または Office Communications Se
 
 移行のためにソースデータを適切に準備するには、次の手順を実行します。
 
-1.  Lync Server 2010、グループチャット、または Office Communications Server 2007 R2 グループチャットのソースデータベースをバックアップします。 SQL Server のバックアップの詳細については、「」の「バックアップの概要<https://go.microsoft.com/fwlink/p/?linkid=254851>(SQL Server)」を参照してください。
+1.  Lync Server 2010、グループチャット、または Office Communications Server 2007 R2 グループチャットのソースデータベースをバックアップします。 SQL Server のバックアップの詳細については、「」の「バックアップの概要 (SQL Server)」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=254851> 。
     
     <div>
     
@@ -141,7 +141,7 @@ Lync Server 2010、グループチャット、または Office Communications Se
 
 8.  Lync server 2010、グループチャットまたは Office Communications Server 2007 R2 グループチャット参照サーバー URI を Lync Server 2013、常設チャットサーバーの連絡先オブジェクトに移植します。 Lync 2010 グループチャットまたは Office Communicator 2007 R2 グループチャットクライアントが、クライアント側の構成を変更せずに、移行後に最新の Lync 2013、常設チャット (クライアント) に接続する必要がある場合は、次の手順を実行する必要があります。
     
-      - Ocschat@\<DomainName\>参照サーバーのユーザーアカウントを削除します。 これは、Lync Server 2010 のグループチャットの参照サービスを指すために使用されました。 後で、そのプールをアンインストールして、信頼できるエントリを削除することができます。
+      - Ocschat@ \<domainName\> .Com 参照サーバーのユーザーアカウントを削除します。 これは、Lync Server 2010 のグループチャットの参照サービスを指すために使用されました。 後で、そのプールをアンインストールして、信頼できるエントリを削除することができます。
     
       - 従来のエンドポイント (常設チャットサーバーの連絡先オブジェクト) を作成するには、同じ SIP URI を使用して Windows PowerShell コマンドレット**new-cspersistentchatendpoint**を実行します。これにより、サービスの再起動時にレガシクライアントが効果的に動作するようになります。
     
@@ -163,7 +163,7 @@ Lync Server 2010、グループチャット、または Office Communications Se
     
 
     > [!IMPORTANT]  
-    > Lync Server 2013 は、複数の常設チャットサーバープールをサポートしています。 ただし、Lync 2010 グループチャットまたは Office Communications Server 2007 R2&nbsp;グループチャットプールを1つの lync server 2013、常設チャットサーバープールに移行することはサポートされています。 展開に新しい常設チャットサーバープールを追加して、規制要件を満たすようにすることができます (たとえば、特定の地域内のデータを保持する)。
+    > Lync Server 2013 は、複数の常設チャットサーバープールをサポートしています。 ただし、Lync 2010 グループチャットまたは Office Communications Server 2007 R2 &nbsp; グループチャットプールを1つの Lync server 2013、常設チャットサーバープールに移行することはサポートされています。 展開に新しい常設チャットサーバープールを追加して、規制要件を満たすようにすることができます (たとえば、特定の地域内のデータを保持する)。
 
     
     </div>

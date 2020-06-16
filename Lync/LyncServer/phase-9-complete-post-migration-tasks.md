@@ -1,8 +1,8 @@
 ---
 title: 'フェーズ 9: 移行後のタスクを完了する'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 9: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d1ef8c74a0ac14fd99cabb676a63ca176697fc9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e12268cce33526ba2602a2efc9a611ebb211801
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209483"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,23 +43,23 @@ _**トピックの最終更新日:** 2012-10-15_
 
 ## <a name="in-this-section"></a>このセクションの内容
 
-  - [応答グループを移行する](migrate-response-groups_1.md)
+  - [応答グループの移行](migrate-response-groups_1.md)
 
-  - [ダイヤルインアクセス番号の移行](migrate-dial-in-access-numbers_1.md)
+  - [ダイヤルイン アクセス番号の移行](migrate-dial-in-access-numbers_1.md)
 
   - [Exchange 2013 の Outlook Web App および IM 統合を有効にする](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [アドレス帳を移行する](migrate-address-book_1.md)
+  - [アドレス帳の移行](migrate-address-book_1.md)
 
   - [リモート通話コントロールを有効にする](enable-remote-call-control.md)
 
-  - [従来のアーカイブサーバーおよび監視サーバーを削除する](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [従来のアーカイブ サーバーおよび監視サーバーの削除](remove-legacy-archiving-and-monitoring-servers_1.md)
 
   - [仲介サーバーの移行](migrate-mediation-server.md)
 
-  - [信頼されたアプリケーション サーバーを構成する](configure-trusted-application-servers_1.md)
+  - [信頼済みアプリケーション サーバーの構成](configure-trusted-application-servers_1.md)
 
-  - [ミーティング参加ページを構成する](configure-the-meeting-join-page_1.md)
+  - [会議参加ページの構成](configure-the-meeting-join-page_1.md)
 
   - [Lync Server 2013 クライアントを展開する](deploy-lync-server-2013-clients_1.md)
 

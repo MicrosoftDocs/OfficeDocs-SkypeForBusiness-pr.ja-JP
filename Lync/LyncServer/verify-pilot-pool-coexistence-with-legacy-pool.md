@@ -1,8 +1,8 @@
 ---
-title: パイロットプールとレガシプールの共存を確認する
+title: パイロット プールとレガシ プールの共存の確認
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c30f15b7a4e40b5c814ed5f21d07e213b69cf10
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b76c1296f69421bfbfe83e61055249f2642420ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188890"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188890"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>パイロットプールとレガシプールの共存を確認する
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>パイロット プールとレガシ プールの共存の確認
 
 </div>
 
@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2012-09-29_
 
 ## <a name="verify-that-lync-server-2013-services-have-started"></a>Lync Server 2013 サービスが開始されたことを確認する
 
-1.  Lync Server 2013 フロントエンドサーバーから、[管理ツール\\] [サービス] アプレットに移動します。
+1.  Lync Server 2013 フロントエンドサーバーから、[管理ツール] [サービス] アプレットに移動し \\ ます。
 
 2.  次のサービスがフロントエンド サーバーで実行されていることを確認します。
 

@@ -1,8 +1,8 @@
 ---
 title: 移行
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6add96ea262c2d8495997bd2e17f046d6463e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e57303aa330245a0d00a7a824c5eb846e19519d7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209803"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42209803"
 
 _**トピックの最終更新日:** 2012-09-18_
 
-このセクションでは、microsoft Office Communications Server 2007 R2 または Microsoft Lync Server 2010 から Microsoft lync Server 2013 へ移行する方法について説明します。 Microsoft Lync server 2010 から、グループチャットから Microsoft Lync Server の2013、常設チャットサーバー、およびから移行する方法について説明します。Microsoft Office Communications Server 2007 R2 グループチャットから常設チャットサーバーへ。
+このセクションでは、microsoft Office Communications Server 2007 R2 または Microsoft Lync Server 2010 から Microsoft lync Server 2013 へ、microsoft Lync server 2010、グループチャットから Microsoft Lync Server 2013、常設チャットサーバー、および Microsoft Office Communications Server 2007 R2 グループチャットから常設チャットサーバーに移行する方法について説明します。
 
 <div>
 

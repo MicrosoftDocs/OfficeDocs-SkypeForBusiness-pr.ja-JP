@@ -1,8 +1,8 @@
 ---
 title: アドインの管理
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Manage add-ins
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 465f71a8221ce273574c5cf602146272b34f0cf7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 964716509feb0bf1101181693e5ab777de6736ab
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210134"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757198"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ _**トピックの最終更新日:** 2012-10-06_
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn &lt;文字列&gt;は、複数の常設チャットサーバープールが存在する場合にのみ必要です。
+> PersistentChatPoolFqdn &lt; 文字列 &gt; は、複数の常設チャットサーバープールが存在する場合にのみ必要です。
 
 
 

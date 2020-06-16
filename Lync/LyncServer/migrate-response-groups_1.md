@@ -1,8 +1,8 @@
 ---
 title: 応答グループを移行する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate response groups
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36b37fc6a67a1935c442edb4e2e8ef0d8812315c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190150"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +73,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 </div>
 
-応答グループを移行した後、正式なエージェントが応答グループにサインインおよびサインアウトするために使用する URL を更新し、Lync Server コントロールパネルまたは Lync Server 管理シェルコマンドレットを使用して、すべてのエージェントグループ、キュー、およびワークフローが移動されたことを確認する必要があります。完了.
+応答グループを移行した後、正式エージェントが応答グループにサインインおよびサインアウトするために使用する URL を更新し、Lync Server コントロールパネルまたは Lync Server 管理シェルコマンドレットを使用して、すべてのエージェントグループ、キュー、およびワークフローが正常に移動されたことを確認する必要があります。
 
 <div>
 
@@ -127,13 +127,13 @@ _**トピックの最終更新日:** 2012-10-19_
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  Office Communications Server 2007 R2 環境の Microsoft Office Communicator 2007 R2 用の [応答グループ] タブを展開した場合は、そのタブを Office Communicator 2007 R2 タブの .xml ファイルから削除します。
+5.  Office Communications Server 2007 R2 環境の Microsoft Office Communicator 2007 R2 用の [応答グループ] タブを展開した場合は、そのタブを Office Communicator 2007 R2 tabs.xml ファイルから削除します。
     
     <div>
     
 
     > [!NOTE]  
-    > 正規のエージェントが通話を受信するには、[応答グループ] タブを使用して応答グループにサインインする必要がありました。 [応答グループ] タブを展開した場合は、展開時に Office Communicator 2007 R2 のタブの xml ファイルの場所を選択しています。
+    > 正規のエージェントが通話を受信するには、[応答グループ] タブを使用して応答グループにサインインする必要がありました。 [応答グループ] タブを展開した場合は、展開時に Office Communicator 2007 R2 tabs.xml ファイルの場所を選択しています。
 
     
     </div>
@@ -144,7 +144,7 @@ _**トピックの最終更新日:** 2012-10-19_
     
 
     > [!NOTE]  
-    > 通常https://webpoolFQDN/RgsClients/Tab.aspx、URL は、Lync Server 2013 に移行したばかりのプールに関連付けられている web プールの完全修飾ドメイン名 (fqdn) である webpoolFQDN です。
+    > 通常、URL は https://webpoolFQDN/RgsClients/Tab.aspx 、Lync Server 2013 に移行したばかりのプールに関連付けられている web プールの完全修飾ドメイン名 (fqdn) である webpoolFQDN です。
 
     
     </div>

@@ -1,8 +1,8 @@
 ---
 title: 常設チャットサーバーの下位互換性を実行する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d107c13d281001196dcad17604d0bfbbb9e522
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5308d39e4edcfeddf494aa364f6b7ed43b9822dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189340"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42189340"
 
 _**トピックの最終更新日:** 2013-02-21_
 
-Lync Server 2013、常設チャットサーバーエンドポイントは、常設チャットサーバープールを指す簡単な URL を作成する方法を提供します。 これはレガシクライアント (Microsoft Office Communications Server 2007 R2 グループチャットサーバーまたは Lync Server 2010、グループチャット) の場合に便利です。これは、ユーザーがレガシクライアントを Lync 2013 を実行しているコンピューターに接続しようとしているときに、手動構成で簡単な URL を入力できるためです。常設チャット。 このエンドポイントは常設チャットでは使用されていません。レガシークライアントにのみ必要になります。 これは、会議室が移行される中間期間では便利ですが、Lync 2013 クライアントは組織全体に展開されていません。 Lync 2010 グループチャット (クライアント) を実行しているユーザーは、引き続き常設チャットサーバーのバックエンドサーバーに接続できます。
+Lync Server 2013、常設チャットサーバーエンドポイントは、常設チャットサーバープールを指す簡単な URL を作成する方法を提供します。 これは、従来のクライアント (Microsoft Office Communications Server 2007 R2 グループチャットサーバーまたは Lync Server 2010、グループチャット) の場合に便利です。ユーザーは、従来のクライアントを Lync 2013、常設チャットを実行しているコンピューターに接続しようとする場合に、簡単な URL を手動構成で入力できます。 このエンドポイントは常設チャットでは使用されていません。レガシークライアントにのみ必要になります。 これは、会議室が移行される中間期間では便利ですが、Lync 2013 クライアントは組織全体に展開されていません。 Lync 2010 グループチャット (クライアント) を実行しているユーザーは、引き続き常設チャットサーバーのバックエンドサーバーに接続できます。
 
 複数の常設チャットサーバーのエンドポイントを作成する必要はありません。常設チャットサーバープールごとに1つだけ必要です。 管理者は複数のエンドポイント (プールごとに1つ) を作成できますが、従来のクライアントは一度に1つのプールにのみ接続するように構成できます。 通常または主流のシナリオでは、従来の展開は1つのプールのみになります。 新しい展開では、通常、そのプールを新しい Lync Server 2013 に移行し、別の新しい常設チャットサーバープールを追加することがあります。
 
 一般的なシナリオでは、通常、次のパターンをたどります。
 
-  - 1つの Lync Server 2010、グループチャットプール、および Lync 2010 グループチャットクライアントを使用してユーザーを管理するには、既知のユーザー (既定の sip: ocschat@\<domainName\>) を使用して、そのプールに接続します。 ユーザーは、SIP が有効な Active Directory ドメインサービスであり、参照サービスが着信要求を受信するために登録します。
+  - 1つの Lync Server 2010、グループチャットプール、および Lync 2010 グループのチャットクライアントを使用してユーザーを管理するには、既知のユーザー (既定の sip: ocschat@) を使用してそのプールに接続し \<domainName\> ます。 ユーザーは、SIP が有効な Active Directory ドメインサービスであり、参照サービスが着信要求を受信するために登録します。
 
   - その後、Lync Server 2013 常設チャットサーバーと常設チャットサーバープールをインストールします。
 

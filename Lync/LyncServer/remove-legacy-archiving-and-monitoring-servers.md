@@ -1,8 +1,8 @@
 ---
-title: 従来のアーカイブサーバーおよび監視サーバーを削除する
+title: 従来のアーカイブ サーバーおよび監視サーバーの削除
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove legacy Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23209752263222be3521c6ddb9f9e03bd86d0808
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d77292fe478fa95deec50df84a78907af4290e3
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209423"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757108"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209423"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>従来のアーカイブサーバーおよび監視サーバーを削除する
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>従来のアーカイブ サーバーおよび監視サーバーの削除
 
 </div>
 
@@ -41,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 [「フェーズ 4: テストユーザーをパイロットプールに移動](phase-4-move-test-users-to-the-pilot-pool.md)する」で説明されている手順に従って、lync server 2010 から lync server 2013 にユーザーを移動することができます。
 
-すべてのユーザーが残りのプールから削除されたことを確認した後、「Microsoft Lync Server 2010 のアンインストールとサーバーの役割の削除」の手順に[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)従って、にダウンロードできます。
+すべてのユーザーが残りのプールから削除されたことを確認した後、「Microsoft Lync Server 2010 のアンインストールとサーバーの役割の削除」の手順に従って、にダウンロードでき [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) ます。
 
 </div>
 

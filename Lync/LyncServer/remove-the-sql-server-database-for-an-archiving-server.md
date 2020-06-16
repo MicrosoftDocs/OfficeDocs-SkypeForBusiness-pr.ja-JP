@@ -1,8 +1,8 @@
 ---
-title: アーカイブサーバーの SQL Server データベースを削除する
+title: アーカイブ サーバー用の SQL Server データベースの削除
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for an Archiving server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d077b21b1b45cc73c268b3dc6294f0a476f48809
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c84c15aea6be5ddcc30c357fec5971bf9786c25
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189360"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755791"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189360"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>アーカイブサーバーの SQL Server データベースを削除する
+# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>アーカイブ サーバー用の SQL Server データベースの削除
 
 </div>
 
@@ -63,7 +63,7 @@ Microsoft Lync Server 2010 アーカイブサーバーを削除した後、プ�
     
         Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    ここ\<で\> 、fqdn はデータベースサーバーの完全修飾ドメイン名 (fqdn)、 \<インスタンス\>は名前付きデータベースインスタンス (定義されている場合) です。
+    ここで、 \<FQDN\> はデータベースサーバーの完全修飾ドメイン名 (FQDN)、 \<instance\> は名前付きデータベースインスタンス (定義されている場合) です。
 
 4.  **Uninstall-CsDataBase** コマンドレットから操作を確認するメッセージが表示される場合は、情報を読み、**Y** (または Enter) キーを押して操作を続行するか、**N** キーを押し、次に Enter キーを押してコマンドレットを停止します (問題がある場合)。
 

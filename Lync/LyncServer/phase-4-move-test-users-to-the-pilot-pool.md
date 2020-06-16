@@ -1,8 +1,8 @@
 ---
 title: 'フェーズ 4: テストユーザーをパイロットプールに移動する'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 4: Move test users to the pilot pool'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3063b1f30bd7c63b35eb62f0bdbfdf0097a795ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 50077f7438be8a6b7e620b8bb8dcac12c0bd2e07
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209703"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757218"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**トピックの最終更新日:** 2012-09-26_
 
   - [Lync Server 2010 プールの現在のユーザーを表示する](view-current-users-in-lync-server-2010-pool.md)
 
-  - [ユーザーのレプリケーションが完了したことを確認する](verify-user-replication-has-completed.md)
+  - [ユーザー レプリケーションの完了の確認](verify-user-replication-has-completed.md)
 
   - [1人のユーザーをパイロットプールに移動する](move-a-single-user-to-the-pilot-pool.md)
 

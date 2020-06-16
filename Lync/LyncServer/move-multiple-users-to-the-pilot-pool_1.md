@@ -1,8 +1,8 @@
 ---
 title: 複数のユーザーをパイロットプールに移動する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move multiple users to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 657c6e001fa15fa6c1c70076a257a620f0cef790
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 41c663566605529b25d9890bb31cba462364c813
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189820"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +75,7 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シ
 
 1.  Lync Server 2013 管理シェルを開きます。
 
-2.  コマンドラインで、次のように入力し、 **User1**と**User2**を特定のユーザー名に置き換えて、**プール\_の FQDN**を移行先のプールの名前に置き換えます。 この例では、ユーザーが Hao Chen と Katie ヨルダンを移動します。
+2.  コマンドラインで、次のように入力し、 **User1**と**User2**を特定のユーザー名に置き換えて、**プールの \_ FQDN**を移行先のプールの名前に置き換えます。 この例では、ユーザーが Hao Chen と Katie ヨルダンを移動します。
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
@@ -85,7 +85,7 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シ
     
         Get-CsUser -Identity "User1"
 
-4.  **レジストラープール**id は、前の手順で**プール\_の FQDN**として指定したプールを指すようになります。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。 手順を繰り返して、 **User2**が移動されたことを確認します。
+4.  **レジストラープール**id は、前の手順で**プールの \_ FQDN**として指定したプールを指すようになります。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。 手順を繰り返して、 **User2**が移動されたことを確認します。
     
     ![PowerShell の Get-UsUser-Identity コマンドレットの出力](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell の Get-UsUser-Identity コマンドレットの出力")  
 
@@ -109,7 +109,7 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シ
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  各ユーザーの**レジストラープール**id は、前の手順で "プール\_FQDN" として指定したプールを指すようになりました。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。
+4.  各ユーザーの**レジストラープール**id は、前の手順で "プール FQDN" として指定したプールを指すようになりました \_ 。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。
 
 5.  さらに、Lync Server 2013 コントロールパネルでユーザーの一覧を表示し、レジストラープールの値が Lync Server 2013 プールを指すようになっていることを確認することができます。
     

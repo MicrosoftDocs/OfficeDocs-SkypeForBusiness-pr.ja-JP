@@ -1,8 +1,8 @@
 ---
 title: 概要
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Introduction
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 912c6a1704438106a3ffbb178d9f03a536489757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 354f28948578be528787928fd4e0874f6ff8e5fa
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204563"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -112,15 +112,15 @@ Lync Server 2013 のストレスおよびパフォーマンスツールには、
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Userプロビジョニングツール .exe</p></td>
+<td><p>UserProvisioningTool.exe</p></td>
 <td><p>Lync Server 2013 ユーザープロビジョニングツール。 このツールは、ユーザーと連絡先を作成するために使用されます。</p></td>
 </tr>
 <tr class="even">
-<td><p>Userprofilegenerator.exe</p></td>
+<td><p>UserProfileGenerator.exe</p></td>
 <td><p>Lync Server 2013 Load 構成ツール。 このツールは、シミュレートするユーザーロードの特性を構成するために使用されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p>LyncPerfTool</p></td>
+<td><p>LyncPerfTool.exe</p></td>
 <td><p>Lync Server 2013 ストレスおよびパフォーマンスツール。 LyncPerfTool は、ユーザー負荷をシミュレートするツールです。</p></td>
 </tr>
 <tr class="even">

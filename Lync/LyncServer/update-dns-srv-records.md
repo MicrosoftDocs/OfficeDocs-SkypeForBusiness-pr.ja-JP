@@ -1,8 +1,8 @@
 ---
-title: DNS SRV レコードを更新する
+title: DNS SRV レコードの更新
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Update DNS SRV records
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40abfa35892b09b3bdc4824a35f0697142980854
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85b286355f765342a2c7b240f23e0aac1c7daad6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189140"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189140"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="update-dns-srv-records"></a>DNS SRV レコードを更新する
+# <a name="update-dns-srv-records"></a>DNS SRV レコードの更新
 
 </div>
 
@@ -45,9 +45,9 @@ _**トピックの最終更新日:** 2012-09-29_
 
 1.  DNS サーバー上で、[**スタート**] をクリックし、[**管理ツール**] をクリックします。次に、[**DNS**] をクリックします。
 
-2.  SIP ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされている SIP ドメインを展開して、[ ** \_tcp** ] 設定に移動します。
+2.  SIP ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされている SIP ドメインを展開して、[ ** \_ tcp** ] 設定に移動します。
 
-3.  右側のウィンドウで、[ ** \_sipinternaltls** ] を右クリックし、[**プロパティ**] を選択します。
+3.  右側のウィンドウで、[ ** \_ sipinternaltls** ] を右クリックし、[**プロパティ**] を選択します。
 
 4.  [**このサービスを提供**しているホスト] で、Lync Server 2013 プールを指すようにホストの FQDN を更新します。
 
@@ -61,7 +61,7 @@ _**トピックの最終更新日:** 2012-09-29_
 
 3.  [**名前**] ボックスに「**cmd**」と入力し、[**OK**] をクリックします。
 
-4.  コマンドプロンプトで、Standard Edition サーバー \<\>のフロントエンドプール\>または fqdn の「 **nslookup** \<fqdn」と入力し、enter キーを押します。
+4.  コマンドプロンプトで「 **nslookup** \<FQDN of the Front End pool\> または \<FQDN of the Standard Edition server\> 」と入力し、enter キーを押します。
 
 5.  受け取る応答が、FQDN の適切な IP アドレスに解決しているのを確認します。
 

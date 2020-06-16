@@ -1,8 +1,8 @@
 ---
-title: フロントエンドプールの SQL Server データベースを削除する
+title: フロントエンド プール用の SQL Server データベースの削除
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for a Front End pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a69972d355ad2870445af14ccfeb097f1d8a6dcb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 10d46868b63236327825f2fe4134330fd055ead2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189400"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189400"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>フロントエンドプールの SQL Server データベースを削除する
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>フロントエンド プール用の SQL Server データベースの削除
 
 </div>
 
@@ -63,13 +63,13 @@ Microsoft Lync Server 2010 フロントエンドプールを削除するか、�
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    ここ\<で\> 、fqdn はデータベースサーバーの完全修飾ドメイン名 (fqdn)、 \<インスタンス\>は名前付きデータベースインスタンス (定義されている場合) です。
+    ここで、 \<FQDN\> はデータベースサーバーの完全修飾ドメイン名 (FQDN)、 \<instance\> は名前付きデータベースインスタンス (定義されている場合) です。
 
 4.  プール アプリケーション ストアのデータベースを削除するには、次のように入力します。
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    ここ\<で\> 、fqdn はデータベースサーバーの fqdn、 \<インスタンス\>は名前付きデータベースインスタンス (定義されている場合) です。
+    ここで、 \<FQDN\> はデータベースサーバーの FQDN、は \<instance\> 名前付きデータベースインスタンス (定義されている場合) です。
 
 5.  **Uninstall-CsDataBase** コマンドレットから操作を確認するメッセージが表示される場合は、情報を読み、**Y** (または Enter) キーを押して操作を続行するか、**N** キーを押し、次に Enter キーを押してコマンドレットを停止します (問題がある場合)。
 

@@ -1,8 +1,8 @@
 ---
 title: 移行フェーズ
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36541a63ab36eb2c99c816904b7b03eb1a1010b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 912035b963bdd2c23b998550679b1b731add2d21
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209834"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756808"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +41,7 @@ _**トピックの最終更新日:** 2012-08-29_
 
   - [フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [フェーズ 2: 移行の準備をする](phase-2-prepare-for-migration_1.md)
+  - [フェーズ 2: 移行の準備](phase-2-prepare-for-migration_1.md)
 
   - [フェーズ 3: Lync Server 2013 パイロットプールを展開する](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 

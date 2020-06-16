@@ -1,8 +1,8 @@
 ---
 title: ベスト プラクティス アナライザーの実行
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run Best Practices Analyzer
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733603
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fead940eb80ee303955bed8f4dbe501984ebfa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a61b99fc5013f65ce70e5d79bee54ccca229725b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189271"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2012-10-11_
 
 Office Communications Server 2007 R2 ベストプラクティスアナライザーツールは、Office Communications Server 2007 R2 展開から構成情報を収集し、構成が Microsoft のベストプラクティスに従って設定されているかどうかを判断します。 このツールは、Microsoft .NET Framework 2.0 を実行しているクライアントコンピューター、または Office Communications Server 2007 R2 を実行しているサーバーに直接インストールできます。 ここでは、クライアント コンピューターにこのツールをインストールして実行することをお勧めします。 また、ベストプラクティスアナライザーが完全なデータセットを収集できるように、Office Communications Server 2007 R2 管理ツールをクライアントコンピューターにローカルにインストールする必要があります。
 
-Office Communications Server 2007 R2 ベストプラクティスアナライザーは、Microsoft ダウンロードセンターからダウンロードでき[https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702)ます。
+Office Communications Server 2007 R2 ベストプラクティスアナライザーは、Microsoft ダウンロードセンターからダウンロードでき [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702) ます。
 
 </div>
 

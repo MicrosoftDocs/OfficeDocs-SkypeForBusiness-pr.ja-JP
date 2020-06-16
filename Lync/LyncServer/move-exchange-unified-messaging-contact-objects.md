@@ -1,8 +1,8 @@
 ---
 title: Exchange ユニファイドメッセージング連絡先オブジェクトの移動
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c9a16251ca49d4d5179ed3ad72e4d0307beb4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189899"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756616"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 
 > [!NOTE]  
-> <STRONG>Get-CsExUmContact</STRONG> および <STRONG>Move-CsExUmContact</STRONG> コマンドレットを使用するには、RTCUniversalUserAdmins グループのメンバーであり、連絡先オブジェクトを格納する組織単位 (OU) に対する OU アクセス許可を持っている必要があります。OU アクセス許可は <STRONG>Grant-OUPermission</STRONG> コマンドレットを使用して付与できます。
+> In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.
 
 
 
@@ -75,9 +75,9 @@ _**トピックの最終更新日:** 2012-10-19_
 
 2.  ExchUCUtil Windows PowerShell スクリプトに移動します。
     
-    Exchange 2007 では、ExchUCUtil. ps1 は次の場所にあります。 **% Program\\Files\\%\\\\Microsoft Exchange Server Scripts exchucutil. ps1**
+    Exchange 2007 では、ExchUCUtil.ps1 は次の場所にあります。 **% Program Files% \\ Microsoft \\ Exchange Server \\ Scripts \\ExchUCUtil.ps1**
     
-    Exchange 2010 では、ExchUCUtil. ps1 は次の場所にあります。 **% Program\\Files\\%\\\\\\Microsoft Exchange Server V14 Scripts exchucutil. ps1**
+    Exchange 2010 では、ExchUCUtil.ps1 は次の場所にあります。 **% Program Files% \\ Microsoft \\ Exchange Server \\ V14 \\ Scripts \\ExchUCUtil.ps1**
 
 3.  Exchange が単一のフォレストに展開されている場合は、次のように入力します。
     

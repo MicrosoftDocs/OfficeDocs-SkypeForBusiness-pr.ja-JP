@@ -1,8 +1,8 @@
 ---
 title: 併置された仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4140732fd5d091f3ed03e2dadd2f827a24531e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0ce0228edacba502161c4d44a6a94b38cede6655
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189160"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755691"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,13 +49,13 @@ _**トピックの最終更新日:** 2012-10-19_
 
 3.  [**仲介プール**] を右クリックし、[**新しい仲介サーバー**] を選択します。
 
-4.  [**新しい仲介プールの定義**] ページで、新しい仲介サーバー プールの FQDN を提供します。さらに、このプールを単一サーバー プールまたは複数サーバー プールとするかを選択し、[**次へ**] をクリックします。
+4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
 
 5.  新しい仲介サーバーによる着信通話のルーティング先となる次ホップ フロントエンド サーバー プールを選択し、[**次へ**] をクリックします。
 
 6.  仲介サーバーで使用されるエッジ プールを選択し、[**次へ**] をクリックします。
 
-7.  [**PSTN ゲートウェイの指定**] ページで、以前の PSTN ゲートウェイを仲介サーバーと関連付けます。ゲートウェイを選択し、[**追加**] をクリックします。
+7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
 
 8.  [**完了**] をクリックして、**新しい仲介プールの定義**ウィザードを閉じます。
 

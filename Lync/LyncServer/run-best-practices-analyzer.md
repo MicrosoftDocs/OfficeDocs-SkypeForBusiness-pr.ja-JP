@@ -1,8 +1,8 @@
 ---
 title: ベスト プラクティス アナライザーの実行
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run Best Practices Analyzer
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e792bb761b7a80604bf872546105414d383dfb8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ce1d36eeb686dc20676715b0edf0e03a3267fb21
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189330"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755751"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2012-03-21_
 
 Lync Server 2010 ベストプラクティスアナライザーツールは、Lync Server 2010 展開から構成情報を収集し、構成が Microsoft のベストプラクティスに従って設定されているかどうかを判断します。 このツールは、Microsoft .NET Framework 3.5 Service Pack 1 を実行しているクライアントコンピューター、または Lync Server 2010 を実行しているサーバーに直接インストールできます。 ここでは、クライアント コンピューターにこのツールをインストールして実行することをお勧めします。 また、ベストプラクティスアナライザーが完全なデータセットを収集できるように、Lync Server 2010 管理ツールをクライアントコンピューターにローカルにインストールする必要があります。
 
-Lync Server 2010 ベストプラクティスアナライザーは、Microsoft ダウンロードセンターからダウンロードでき<https://go.microsoft.com/fwlink/p/?linkid=246173>ます。
+Lync Server 2010 ベストプラクティスアナライザーは、Microsoft ダウンロードセンターからダウンロードでき <https://go.microsoft.com/fwlink/p/?linkid=246173> ます。
 
 </div>
 

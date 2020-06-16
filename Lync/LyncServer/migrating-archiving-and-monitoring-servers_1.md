@@ -1,8 +1,8 @@
 ---
-title: アーカイブサーバーと監視サーバーの移行
+title: アーカイブ サーバーと監視サーバーの移行
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67896576fce21eea630533a5826bbcbc53392fa0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43b7c7509dcf678967db651900c67cdfb3d26685
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209853"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757078"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42209853"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a>アーカイブサーバーと監視サーバーの移行
+# <a name="migrating-archiving-and-monitoring-servers"></a>アーカイブ サーバーと監視サーバーの移行
 
 </div>
 
@@ -51,7 +51,7 @@ Office Communications Server 2007 R2 にアーカイブサーバーと監視サ�
     
 
     > [!NOTE]  
-    > 移行のフェーズでは、新しい Lync Server 2013 パイロットプールで従来のエッジサーバーを使用している場合、Office communications Server 2007 R2 バージョンのアーカイブサーバーは、Office Communications Server 2007 に所属するユーザーのデータを引き続き収集します。R2 プールおよび Lync Server 2013 バージョンのアーカイブサーバーは、Lync Server 2013 プールに所属しているユーザーのデータを収集します。
+    > 移行のフェーズでは、新しい Lync Server 2013 パイロットプールで従来のエッジサーバーを使用している場合、office communications server 2007 R2 バージョンのアーカイブサーバーは、Office Communications Server 2007 R2 プールおよび Lync Server 2013 バージョンのアーカイブサーバーに所属するユーザーのデータを収集し続け、Lync Server の2013プールに所属しているユーザーのデータを収集します。
 
     
     </div>
