@@ -1,8 +1,8 @@
 ---
 title: サーバーとプールの使用停止
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Decommissioning servers and pools
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7df6bd74eec13b44109db0b0c8454f5b9f43ac4a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2201f097f06ea8e19e55395bc63c3bc932415be6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180550"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751299"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42180550"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="decommissioning-servers-and-pools"></a><span data-ttu-id="c87c2-102">サーバーとプールの使用停止</span><span class="sxs-lookup"><span data-stu-id="c87c2-102">Decommissioning servers and pools</span></span>
+# <a name="decommissioning-servers-and-pools"></a><span data-ttu-id="4cce9-102">サーバーとプールの使用停止</span><span class="sxs-lookup"><span data-stu-id="4cce9-102">Decommissioning servers and pools</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42180550"
 
 <span> </span>
 
-<span data-ttu-id="c87c2-103">_**トピックの最終更新日:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="c87c2-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="4cce9-103">_**トピックの最終更新日:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="4cce9-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="c87c2-104">次の web ページには、Office Communications Server 2007 R2 Standard Edition または Enterprise Edition のサーバーとプールの使用停止に関する詳細が含まれています。</span><span class="sxs-lookup"><span data-stu-id="c87c2-104">The following webpages contain details about decommissioning Office Communications Server 2007 R2 Standard Edition or Enterprise Edition servers and pools.</span></span>
+<span data-ttu-id="4cce9-104">次の web ページには、Office Communications Server 2007 R2 Standard Edition または Enterprise Edition のサーバーとプールの使用停止に関する詳細が含まれています。</span><span class="sxs-lookup"><span data-stu-id="4cce9-104">The following webpages contain details about decommissioning Office Communications Server 2007 R2 Standard Edition or Enterprise Edition servers and pools.</span></span>
 
-  - <span data-ttu-id="c87c2-105">の使用停止の標準エディション[https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span><span class="sxs-lookup"><span data-stu-id="c87c2-105">Decommissioning Standard Edition at [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span></span>
+  - <span data-ttu-id="4cce9-105">の使用停止の標準エディション[https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span><span class="sxs-lookup"><span data-stu-id="4cce9-105">Decommissioning Standard Edition at [https://go.microsoft.com/fwlink/p/?linkId=205889](https://go.microsoft.com/fwlink/p/?linkid=205889)</span></span>
 
-  - <span data-ttu-id="c87c2-106">サーバーとサーバーの役割の削除[https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span><span class="sxs-lookup"><span data-stu-id="c87c2-106">Removing Servers and Server Roles at [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span></span>
+  - <span data-ttu-id="4cce9-106">サーバーとサーバーの役割の削除[https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span><span class="sxs-lookup"><span data-stu-id="4cce9-106">Removing Servers and Server Roles at [https://go.microsoft.com/fwlink/p/?linkId=205887](https://go.microsoft.com/fwlink/p/?linkid=205887)</span></span>
 
-  - <span data-ttu-id="c87c2-107">エンタープライズプールの削除[https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span><span class="sxs-lookup"><span data-stu-id="c87c2-107">Removing an Enterprise Pool at [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span></span>
+  - <span data-ttu-id="4cce9-107">エンタープライズプールの削除[https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span><span class="sxs-lookup"><span data-stu-id="4cce9-107">Removing an Enterprise Pool at [https://go.microsoft.com/fwlink/p/?linkId=205888](https://go.microsoft.com/fwlink/p/?linkid=205888)</span></span>
 
 </div>
 
