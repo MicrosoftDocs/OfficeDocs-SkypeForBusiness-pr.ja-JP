@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: すべての機能を活用できるように、Microsoft Teams 室を展開するためのインフラストラクチャを準備する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666169"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735427"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -53,7 +53,7 @@ ms.locfileid: "44666169"
 適切に機能するために、Microsoft Teams ミーティング デバイスには、以下の要件を満たす有線ネットワークにアクセスする必要があります。
   
 - Active Directory または Azure Active Directory (Azure AD) インスタンスと、Microsoft Exchange および Skype for Business Server へのアクセス。
-- DHCP を使用して IP アドレスを提供することができるサーバーへのアクセス。 静的 IP アドレスを使用して Microsoft Teams ミーティングを構成することはできません。
+- DHCP を使用して IP アドレスを提供することができるサーバーへのアクセス。 Microsoft Teams のルームは、最初のユニットの起動時に静的 IP アドレスを使って構成することはできません。
 - HTTP ポート 80 および 443 にアクセスします。
 - オンプレミスの Skype for Business Server の実装の場合は[サーバーのポートとプロトコルの要件](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)、microsoft Teams または Skype for business online の実装では、 [Microsoft 365 および Office 365 の url と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)の説明に従って構成された TCP および UDP ポート。
 
@@ -104,7 +104,7 @@ Microsoft Teams ミーティングは、Windows OS からプロキシ設定を�
     
 11. サインイン画面に戻り、**Skype** ユーザーを選択します。 上記のすべての手順を正常に完了した場合は、Microsoft Teams ミーティング デバイスのサインインに成功します。
     
-このアプリケーションを使用するには、以下に記載されるエンドポイントに接続できる必要があります。IP アドレスを表示するには、トラフィックの流れを説明する表の下にある IP アドレスのセクションを展開します。
+To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
   
 **ファイアウォール プロキシのホスト名またはポートの例**
 
@@ -118,9 +118,9 @@ Microsoft Teams ミーティングは、Windows OS からプロキシ設定を�
 |オーディオ  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,000-50019  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
 |ビデオ  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |TCP/UDP 50,020 ～ 50,039  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
 |デスクトップの共有  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,040 ～ 50,059  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、50,000-59,999  <br/> |
-|iOS デバイスの Lync Mobile 2010 向け Lync モバイルのプッシュ通知Android、Nokia Symbian または Windows Phone のモバイル デバイスには、これは必要ありません。  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Lync Mobile push notifications for Lync Mobile 2010 on iOS devices. You don't need this for Android, Nokia Symbian or Windows Phone mobile devices.  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype テレメトリ  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |なし  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
-|Skype クライアントのポップ ヒント  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |quicktips.skypeforbusiness.com  <br/> |×  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
+|Skype クライアントの簡単なヒント  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |quicktips.skypeforbusiness.com  <br/> |×  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
 > Contoso.com と broadcast.skype.com のワイルドカードは、Microsoft 365 または Office 365 専用に使用されるノードの長いリストを表します。 
