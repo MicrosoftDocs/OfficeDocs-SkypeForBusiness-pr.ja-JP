@@ -1,8 +1,8 @@
 ---
 title: システムとデータをバックアップする
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5883be7a15e780ea8a804b51e54aa9d43992e775
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9146b854b7710df8342739c250ee75848e9a1d26
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181130"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755347"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42181130"
 
 _**トピックの最終更新日:** 2012-10-19_
 
-Lync Server 2013 への移行を開始する前に、完全なシステムバックアップを実行し、各プールに所属しているユーザーアカウントのインベントリを含む既存システムのドキュメントを作成して、Office の通信にロールバックできるようにすることを強くお勧めします。サーバー 2007 R2 が必要になった場合。 データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。 詳細と手順については、「Office Communications Server 2007 R2 のバックアップと復元<https://go.microsoft.com/fwlink/p/?linkid=168162>のガイド」を参照してください。
+Lync Server 2013 への移行を開始する前に、システムの完全バックアップを実行し、各プールに所属するユーザーアカウントのインベントリを含む既存システムのドキュメントを作成し、必要に応じて Office Communications Server 2007 R2 にロールバックできるようにすることを強くお勧めします。 データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。 詳細と手順については、「Office Communications Server 2007 R2 のバックアップと復元のガイド」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=168162> 。
 
 </div>
 

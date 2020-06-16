@@ -1,8 +1,8 @@
 ---
 title: Office Communications Server 2007 R2 の更新プログラムを適用する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a8760dbf812aab3a4ea85a960a56926b75877df
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 14b792188537098bc46ce3e37871f554ca37a97c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181170"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,9 +38,9 @@ ms.locfileid: "42181170"
 
 _**トピックの最終更新日:** 2012-10-19_
 
-Lync Server 2013 に移行する前に、Office Communications Server 2007 R2 環境に更新プログラムを適用する必要があります。 Office Communications Server 2007 R2 の最新情報については、「 **Communications server 2007 R2** **の更新プログラム**」を参照[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802)してください。
+Lync Server 2013 に移行する前に、Office Communications Server 2007 R2 環境に更新プログラムを適用する必要があります。 Office Communications Server 2007 R2 の最新情報については、「 **Communications server 2007 R2** **の更新プログラム**」を参照してください [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) 。
 
-Office Communications Server 2007 R2 用の更新プログラムをインストールするには、マイクロソフトサポート技術情報の記事968802「Communications Server 2007 R2 用の更新プログラム ()」に記載されている[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802)**方法1の累積的なサーバー更新インストーラ**手順を実行することをお勧めします。
+Office Communications Server 2007 R2 用の更新プログラムをインストールするには、マイクロソフトサポート技術情報の記事968802「Communications Server 2007 R2 用の更新プログラム ()」に記載されている**方法1の累積的なサーバー更新インストーラ**手順を実行することをお勧めし [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802) ます。
 
 </div>
 

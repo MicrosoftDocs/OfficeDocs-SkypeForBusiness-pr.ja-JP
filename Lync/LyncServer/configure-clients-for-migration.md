@@ -1,8 +1,8 @@
 ---
 title: 移行用にクライアントを構成する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8660fab3fccdae04ea4e3407aedf259ab3e1f4f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb167b56d201ff6215c45c10628b3c88be046041
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181020"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755013"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -44,7 +44,7 @@ _**トピックの最終更新日:** 2012-09-24_
 
 ## <a name="to-configure-clients-before-migration"></a>移行の前にクライアントを構成するには
 
-1.  Lync Server 2010 の最新のサーバー、クライアント、およびデバイスの更新プログラム (ホットフィックス) を展開します。 Lync Server 2010 に関する最新情報については、「Lync のリソースセンターを更新する」 <https://go.microsoft.com/fwlink/p/?linkid=232630>を参照してください。
+1.  Lync Server 2010 の最新のサーバー、クライアント、およびデバイスの更新プログラム (ホットフィックス) を展開します。 Lync Server 2010 に関する最新情報については、「Lync のリソースセンターを更新する」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=232630> 。
 
 2.  Lync Server 2010 で、クライアントバージョンフィルターを使用して、最新の更新プログラムがインストールされているクライアントのみを許可します。
 

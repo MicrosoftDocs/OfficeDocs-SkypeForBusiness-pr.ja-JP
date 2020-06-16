@@ -1,8 +1,8 @@
 ---
 title: ユーザー id とタグスコープを使用する Skype for Business Online のコマンドレット
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5319d527c859d239cd58eb5561d82a0b47a322e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9adf86a6ec6d2bd859411005dcc67b0dcbe09c7f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001442"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755119"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>ユーザー id とタグスコープを使用する Skype for Business Online のコマンドレット
 
@@ -60,7 +60,7 @@ ms.locfileid: "42001442"
 
   - [Get-csexternalaccesspolicy](https://technet.microsoft.com/library/gg425942\(v=ocs.15\))
 
-  - [Set-cshostedvoicemailpolicy](https://technet.microsoft.com/library/gg412829\(v=ocs.15\))
+  - [Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/gg412829\(v=ocs.15\))
 
   - [Set-csvoicepolicy](https://technet.microsoft.com/library/gg398828\(v=ocs.15\))
 

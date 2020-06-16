@@ -1,8 +1,8 @@
 ---
 title: システムとデータをバックアップする
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 866effa84453cf313a6eb5117b883410e2a1ed6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 14b8257b6748c6b8dc7db0069b7c10d30ca2b73c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181140"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755369"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42181140"
 
 _**トピックの最終更新日:** 2012-09-18_
 
-Lync Server 2013 への移行を開始する前に、システムの完全バックアップを実行し、各プールに所属するユーザーアカウントのインベントリを含む既存のシステムをドキュメント化して、Lync Server 2010 にロールバックできるようにすることを強くお勧めします。が必要になります。 データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。
+Lync Server 2013 への移行を開始する前に、システムの完全バックアップを実行し、各プールに所属しているユーザーアカウントのインベントリを含む既存システムのドキュメントを作成し、必要に応じて Lync Server 2010 にロールバックできるようにすることを強くお勧めします。 データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。
 
 詳細と手順については、「 [Lync Server 2010 のバックアップと復元](https://go.microsoft.com/fwlink/p/?linkid=265417)」を参照してください。
 

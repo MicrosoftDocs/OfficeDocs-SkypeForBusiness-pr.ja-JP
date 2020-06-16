@@ -1,8 +1,8 @@
 ---
 title: 'フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 1: Plan your migration from Office Communications Server 2007 R2'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d10698ba2529887db108484a21b3e878ef8c7ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 15a56e2fdade4021590ce0dfb039e734ae2a76e7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189750"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751169"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**トピックの最終更新日:** 2012-09-29_
 
   - [ユーザーの移行](user-migration_1.md)
 
-  - [アーカイブサーバーと監視サーバーの移行](migrating-archiving-and-monitoring-servers_1.md)
+  - [アーカイブ サーバーと監視サーバーの移行](migrating-archiving-and-monitoring-servers_1.md)
 
   - [移行後のサーバーの管理](administering-servers-after-migration_1.md)
 

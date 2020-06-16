@@ -1,8 +1,8 @@
 ---
 title: 'フェーズ 10: 従来のサイトを使用停止にする'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 10: Decommission legacy site'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3140e3529ec9e4c48ca41c26963f833f89d9f929
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d40c988822a27a34f148e4e1e7893a077965fcd
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209713"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,9 +63,9 @@ _**トピックの最終更新日:** 2012-10-16_
 
 ## <a name="in-this-section"></a>このセクションの内容
 
-  - [会議ディレクトリを移動する](move-conference-directories.md)
+  - [電話会議ディレクトリを移動する](move-conference-directories.md)
 
-  - [DNS SRV レコードを更新する](update-dns-srv-records_1.md)
+  - [DNS SRV レコードの更新](update-dns-srv-records_1.md)
 
   - [サーバーとプールの使用停止](decommissioning-servers-and-pools.md)
 

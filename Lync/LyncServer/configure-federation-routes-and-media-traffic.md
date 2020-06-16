@@ -1,8 +1,8 @@
 ---
 title: フェデレーション ルートとメディア トラフィックを構成する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f5b3e0a775af649b7210dd75dcf90d012f2e421
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5e9b7ad3f08d9ebf129c478bbcf94bed7845ef1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180920"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754973"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +65,7 @@ _**トピックの最終更新日:** 2012-10-15_
 
 
 > [!IMPORTANT]  
-> XMPP フェデレーションが Lync server 2013 エッジサーバーを経由してルーティングされている場合、レガシ Lync Server 2010 ユーザーは、すべてのユーザーが Lync Server 2013 に移動されるまで XMPP フェデレーションパートナーと通信できなくなります。 XMPP ポリシーと証明書は構成済みで、XMPP フェデレーションパートナーが Lync Server 2013 で構成されており、最後に DNS エントリが更新されています。
+> XMPP フェデレーションが Lync server 2013 エッジサーバーを経由してルーティングされる場合、レガシ Lync Server 2010 ユーザーは、すべてのユーザーが Lync Server 2013 に移動され、XMPP ポリシーと証明書が構成され、XMPP フェデレーションパートナーが Lync Server 2013 で構成され、最後に DNS エントリが更新されるまで、XMPP フェデレーションパートナーと通信できません
 
 
 
@@ -269,7 +269,7 @@ _**トピックの最終更新日:** 2012-10-15_
     
 
     > [!NOTE]  
-    > ハードウェア ロード バランサーがない場合は、フェデレーションの DNS A レコードを更新して、新しい Lync Server アクセス エッジ サーバーに解決する必要があります。混乱を最小限に抑えながらこれを実行するには、外部 Lync Server アクセス エッジ FQDN の TLL 値を減らして、DNS が新しい Lync Server アクセス エッジを指すように更新されたらフェデレーションとリモート アクセスが迅速に更新されるようにします。
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.
 
     
     </div>

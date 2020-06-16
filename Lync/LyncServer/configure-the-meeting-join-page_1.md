@@ -1,8 +1,8 @@
 ---
-title: ミーティング参加ページを構成する
+title: 会議参加ページの構成
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d73cab2e4344054d1e95b77c1a64eda425d22654
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a63354b9e0b0cf44ed44f53c91061578e01fecb5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180790"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754505"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180790"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-meeting-join-page"></a>ミーティング参加ページを構成する
+# <a name="configure-the-meeting-join-page"></a>会議参加ページの構成
 
 </div>
 
@@ -62,7 +62,7 @@ _**トピックの最終更新日:** 2012-12-14_
 </tr>
 <tr class="even">
 <td><p>Showalternatejoinoptionsexpan</p></td>
-<td><p>True に設定した場合、オンライン会議に参加するための別のオプション (Office Communicator 2007 R2 など) が自動的に展開され、ユーザーに表示されます。False (既定値) に設定されている場合、これらのオプションは使用可能ですが、ユーザーが自分でオプションの一覧を表示する必要があります。</p></td>
+<td><p>When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users. When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</p></td>
 </tr>
 </tbody>
 </table>

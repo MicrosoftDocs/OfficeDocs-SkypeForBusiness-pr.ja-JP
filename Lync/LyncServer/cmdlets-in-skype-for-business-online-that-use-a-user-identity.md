@@ -1,8 +1,8 @@
 ---
 title: ユーザー id を使用する Skype for Business Online のコマンドレット
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558859
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8310d5e25b5fc3dd3ada43fcf3c8f899f60e5a7e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8aee680c6e55de62ff9d49724d3e480c00159aa4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001262"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755109"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>ユーザー id を使用する Skype for Business Online のコマンドレット
 
@@ -49,7 +49,7 @@ Skype for Business Online では、個別のユーザー Id を参照するさ�
 
   - [Enable-Csの会議室](https://technet.microsoft.com/library/jj205062\(v=ocs.15\))
 
-  - [取得-CsExUmContact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))
+  - [Get-CsExUmContact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))
 
   - [取得-Cs会議室](https://technet.microsoft.com/library/jj205277\(v=ocs.15\))
 
@@ -57,9 +57,9 @@ Skype for Business Online では、個別のユーザー Id を参照するさ�
 
   - [取得-CsUserAcp](https://technet.microsoft.com/library/gg398978\(v=ocs.15\))
 
-  - [新規-CsExUmContact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))
+  - [New-CsExUmContact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))
 
-  - [削除-CsExUmContact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))
+  - [Remove-CsExUmContact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))
 
   - [削除-CsUserAcp](https://technet.microsoft.com/library/gg398982\(v=ocs.15\))
 

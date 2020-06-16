@@ -1,8 +1,8 @@
 ---
-title: 'フェーズ 2: 移行の準備をする'
+title: 'フェーズ 2: 移行の準備'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 2: Prepare for migration'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6f55ef2f7db41022dbf1a3d39e6baece47c377f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0687c32890d149672fd71a59d6a64206b99af384
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189740"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189740"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>フェーズ 2: 移行の準備をする
+# <a name="phase-2-prepare-for-migration"></a>フェーズ 2: 移行の準備
 
 </div>
 
@@ -45,13 +45,13 @@ Lync server 2010 から Lync Server 2013 への移行を開始する前に、こ
 
   - [Lync Server 2010 の更新プログラムの適用](apply-lync-server-2010-updates.md)
 
-  - [パイロットプール展開の DNS レコードを構成する](configure-dns-records-for-pilot-pool-deployment.md)
+  - [パイロット プール展開の DNS レコードの構成](configure-dns-records-for-pilot-pool-deployment.md)
 
   - [ベスト プラクティス アナライザーの実行](run-best-practices-analyzer.md)
 
-  - [システムとデータをバックアップする](back-up-systems-and-data.md)
+  - [システムとデータのバックアップ](back-up-systems-and-data.md)
 
-  - [移行用にクライアントを構成する](configure-clients-for-migration.md)
+  - [移行のためのクライアントの構成](configure-clients-for-migration.md)
 
   - [Lync Server 2010 環境の確認](verify-lync-server-2010-environment.md)
 

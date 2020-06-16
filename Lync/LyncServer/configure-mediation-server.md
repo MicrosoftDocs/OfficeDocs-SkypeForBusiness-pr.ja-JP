@@ -1,8 +1,8 @@
 ---
 title: 仲介サーバーの構成
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure Mediation Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0705d51d321aba21a8bad7ba0e26351bf26bc5f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82da1720cab2e6895c53565da17c9411faabdfbd
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180870"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,13 +39,13 @@ _**トピックの最終更新日:** 2012-09-28_
 
 この手順では、従来の Office Communications Server 2007 R2 仲介サーバーではなく、lync server 2013 仲介サーバーを使用するように Lync Server 2013 プールを構成する手順について説明します。
 
-サーバーの役割を追加または削除する際に、トポロジを正常に公開したり、有効または無効にするには、RTCUniversalServerAdmins グループおよび Domain Admins グループのメンバーであるユーザーとしてログインしている必要があります。サーバーの役割を追加するための適切な管理者権限およびアクセス許可を委任することもできます。詳細については、Standard Edition サーバーまたは Enterprise Edition サーバーの「展開」のドキュメントの「セットアップのアクセス許可の委任」を参照してください。他の構成変更の場合は、RTCUniversalServerAdmins グループのメンバーシップのみが必要です。
+To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 で動作する、認定 PSTN ゲートウェイ、IP-PBX、および SIP トランキングサービスの検索に関する最新情報については、「Microsoft ユニファイドコミュニケーションオープン<A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A>相互運用性プログラム」 () を参照してください。
+> Lync Server 2013 で動作する、認定 PSTN ゲートウェイ、IP-PBX、および SIP トランキングサービスの検索に関する最新情報については、「Microsoft ユニファイドコミュニケーションオープン相互運用性プログラム」 () を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A> 。
 
 
 
@@ -63,7 +63,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 4.  [**新しい IP/PSTN ゲートウェイの定義**] ページに、次の情報を入力します。
     
-      - ゲートウェイの FQDN または IP アドレスを入力します。ゲートウェイが TLS プロトコルを使用する場合は、ゲートウェイの FQDN が必要です。
+      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
     
       - [**IP/PSTN ゲートウェイのリッスン ポート**] の既定値をそのまま使用するか、変更されている場合は新しいリッスン ポートを入力します。
     

@@ -1,8 +1,8 @@
 ---
 title: 信頼されたアプリケーション サーバーを構成する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb693a68f58ef16ca29048d9e18738ef98d719d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180750"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42180750"
 
 _**トピックの最終更新日:** 2012-10-04_
 
-混在環境では、従来の Office Communications Server トポロジと Lync Server 2013 をマージした後で、新しい信頼されたアプリケーションサーバーを作成し、トポロジビルダーを使用して新しい信頼されたアプリケーションサーバーを定義する場合は、次ホッププールをに設定する必要があります。Lync Server 2013 プール。 マージされた環境では、従来の Office Communications Server プールと Lync Server 2013 プールの両方がドロップダウンリストに表示されます。 従来のプールの選択はサポートされていません**。
+混在環境では、従来の Office Communications Server トポロジを Lync Server 2013 とマージした後で、新しい信頼されたアプリケーションサーバーを作成した後、トポロジビルダーを使用して新しい信頼されたアプリケーションサーバーを定義する場合は、次ホッププールを Lync Server 2013 プールに設定する必要があります。 マージされた環境では、従来の Office Communications Server プールと Lync Server 2013 プールの両方がドロップダウンリストに表示されます。 従来のプールの選択はサポートされていません**。
 
 <div>
 

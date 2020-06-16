@@ -1,8 +1,8 @@
 ---
 title: Lync でユーザーの写真を表示する方法
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: How user photos are displayed in Lync
@@ -12,12 +12,12 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b2c64d0a147457eb50a778d7909b3ccfbf8fecc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 88d6f6f6f5578994831fd15329988d963a295832
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180360"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755441"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,13 +93,13 @@ Active Directory ドメインサービスからイメージを使用する場合
 
 ユーザーは、Lync 2010 クライアントを使用して、Active Directory ドメインサービスプロファイルで使用されているイメージを直接変更することはできません。 そのためには、次のいずれかのオプションを使用できます (使用可能な場合)。
 
-  - **Sharepoint server**   ユーザーは、sharepoint サーバー上の ' 個人用サイト ' に写真をアップロードし、 [sharepoint でプロファイルの同期を構成](https://go.microsoft.com/fwlink/p/?linkid=507466)して、Active Directory ドメインサービスの**thumbnailPhoto**属性に写真を同期させることができます。
+  - **SharePoint Server**    ユーザーは、SharePoint サーバー上の [個人用サイト] に写真をアップロードし、 [sharepoint でプロファイルの同期を構成](https://go.microsoft.com/fwlink/p/?linkid=507466)して、Active Directory ドメインサービスの**thumbnailPhoto**属性に写真を同期させることができます。
 
-  - **パブリックにアクセス可能な url**   に保存されている写真ユーザーは、使用するイメージの公開にアクセス可能な url を指定して、ユーザーの写真を構成できます。 画像は、パスワードを使用せずに、一般にアクセス可能である必要があります。 指定した web アドレスに格納されているイメージは、プレゼンス情報の連絡先カードカテゴリを通じて他のユーザーに転送されます。 Lync クライアントがユーザーの写真を表示する必要がある場合は、指定された web アドレスから画像を取得します。
+  - **パブリックにアクセス可能な URL**     に保存された写真ユーザーは、使用するイメージに対して、公開されているアクセス可能な URL を指定してユーザーの写真を構成できます。 画像は、パスワードを使用せずに、一般にアクセス可能である必要があります。 指定した web アドレスに格納されているイメージは、プレゼンス情報の連絡先カードカテゴリを通じて他のユーザーに転送されます。 Lync クライアントがユーザーの写真を表示する必要がある場合は、指定された web アドレスから画像を取得します。
 
-  - **Windows PowerShell**   管理者の exchange 2010 コマンドレットでは、thumbnailPhoto 属性を管理するため[に、exchange](https://go.microsoft.com/fwlink/p/?linkid=507468) 2010 管理シェルで**** コマンドレットを実行できます。 Exchange 2010 コマンドレットを使用して画像をインポートする場合、ファイルのサイズは 10 KB に制限されます。
+  - **Windows PowerShell**     の Exchange 2010 コマンドレット管理者は、 **thumbnailPhoto**属性を管理するために、の Exchange 2010 管理シェルで、[インポート-受信者データプロパティ](https://go.microsoft.com/fwlink/p/?linkid=507468)コマンドレットを実行できます。 Exchange 2010 コマンドレットを使用して画像をインポートする場合、ファイルのサイズは 10 KB に制限されます。
 
-  - **サードパーティ製のツール**   ユーザーは自分の写真のみを**thumbnailPhoto**属性にアップロードできます。
+  - **サードパーティ製のツール**    ユーザーは自分の写真のみを**thumbnailPhoto**属性にアップロードできます。
 
 </div>
 
@@ -144,7 +144,7 @@ Lync Server 2010 では、クライアントポリシー設定が CsClientPolicy
 <tbody>
 <tr class="odd">
 <td><p>NoPhoto</p></td>
-<td><p>none</p></td>
+<td><p>なし</p></td>
 <td><p><strong>マイ ピクチャを表示しない</strong></p></td>
 </tr>
 <tr class="even">
@@ -183,13 +183,13 @@ Lync 2010 では、ユーザーの写真はアドレス帳サービスによっ�
 
 ABWQ サービスへのクエリには、次の属性が含まれています。
 
-  - **Photohash**   はバイナリ写真データのハッシュ値を、現在の写真が変更されたかどうかを判断するために使用されます。
+  - **Photohash**    バイナリ写真データのハッシュ値。現在の写真が変更されたかどうかを判断するために使用されます。
 
-  - **PhotoRelPath**   サーバーに格納されているイメージファイルへの相対パスを示します。
+  - **PhotoRelPath**    サーバーに保存されているイメージファイルへの相対パス。
 
-  - **Photosize**   イメージファイルのサイズ (バイト単位)。
+  - **Photosize**    イメージファイルのサイズ (バイト単位)。
 
-  - **[タイムスタンプ**   ] サーバーからイメージファイルが最後にダウンロードされ、クライアントキャッシュにコピーされた日付と時刻です。
+  - **タイムスタンプ**    イメージファイルが最後にサーバーからダウンロードされ、クライアントキャッシュにコピーされた日時。
 
 次に、Lync 2010 クライアントは、イメージファイルを取得した後、クエリから返された属性値と、インバンドプロビジョニングからクライアントが受信した属性値を比較して、それらが異なるかどうかを確認します。 値が異なる場合、クライアントは、HTTP GET 要求を使用して、サインインしているユーザーのイメージファイルを取得します。
 
@@ -320,13 +320,13 @@ Lync 2013 では、次の表に示すように、ユーザーの写真に3つの
 
 Exchange 2013 でメールボックスが有効になっているすべてのユーザーは、Outlook Web Access または Lync 2013 クライアントオプションを使用して、高解像度写真を含む別のイメージをアップロードできます。 使用するイメージの推奨設定は次のとおりです。
 
-  - **画像解像度**   648 x 648 ピクセル
+  - **画像の解像度**    648 x 648 ピクセル
 
-  - **色深度**   24 ビット
+  - **色の深さ**    24ビット
 
-  - **画像ファイルのサイズ**   が最大 20 MB
+  - **画像ファイルのサイズ**    最大 20 MB
 
-  - **ファイル形式**   JPEG
+  - **ファイル形式**    JPEG
 
 648ピクセル×648ピクセルの一般的な24ビットの JPEG イメージはファイルサイズが約 240 KB なので、4ユーザーの写真ごとに 1 MB の保存スペースが必要になります。
 

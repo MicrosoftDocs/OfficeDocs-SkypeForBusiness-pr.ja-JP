@@ -1,8 +1,8 @@
 ---
-title: アーカイブサーバーと監視サーバーの移行
+title: アーカイブ サーバーと監視サーバーの移行
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4edd989985c4ed65027ed8d19725ec1f93c2bdc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ba86de15ea86844b677db1abb0f47f7e1995c7e8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190100"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42190100"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a>アーカイブサーバーと監視サーバーの移行
+# <a name="migrating-archiving-and-monitoring-servers"></a>アーカイブ サーバーと監視サーバーの移行
 
 </div>
 
@@ -51,7 +51,7 @@ Lync Server 2010 環境にアーカイブサーバーと監視サーバーを展
     
 
     > [!NOTE]  
-    > 移行のフェーズでは、新しい Lync Server 2013 パイロットプールで従来のエッジサーバーを引き続き使用している場合、lync server 2010 バージョンのアーカイブサーバーは、lync server の2010プールに所属しているユーザーのデータを引き続き収集し、Lync Server 2013 にアーカイブします。Lync Server 2013 プールに所属しているユーザーのデータを収集します。
+    > 移行のフェーズでは、新しい Lync Server 2013 パイロットプールを使用して従来のエッジサーバーを引き続き使用している場合、lync server 2010 バージョンのアーカイブサーバーは、lync server 2010 プールに所属するユーザーのデータを引き続き収集し、lync server 2013 のアーカイブによって lync Server の2013プールに所属するユーザーのデータを収集します。
 
     
     </div>

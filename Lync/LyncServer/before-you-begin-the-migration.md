@@ -1,8 +1,8 @@
 ---
-title: 移行を開始する前に
+title: 移行を始める前に
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48183259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d0114991e3fd2d4446d940648410cfec3c660da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bcdbade13418b228daca9005481d129042c5055
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181120"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42181120"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="before-you-begin-the-migration"></a>移行を開始する前に
+# <a name="before-you-begin-the-migration"></a>移行を始める前に
 
 </div>
 
@@ -54,7 +54,7 @@ _**トピックの最終更新日:** 2012-09-23_
 
   - [移行のプロセス](migration-process.md)
 
-  - [移行フェーズ](migration-phases.md)
+  - [移行のフェーズ](migration-phases.md)
 
 </div>
 

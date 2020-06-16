@@ -1,8 +1,8 @@
 ---
 title: グローバルスコープのみを使用する Skype for Business Online のコマンドレット
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4a894c4a9c6e2913abb003c49094bc6d6868483
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b97f3c8d9ca7dda0b96db211192350184cbf27b1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001252"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755099"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>グローバルスコープのみを使用する Skype for Business Online のコマンドレット
 
@@ -86,7 +86,7 @@ Identity パラメーターが指定されていない場合、既定では、Wi
 <td><p>既定値</p></td>
 </tr>
 <tr class="even">
-<td><p>はい</p></td>
+<td><p>True</p></td>
 <td><p>グローバルポリシーが変更された後</p></td>
 </tr>
 <tr class="odd">

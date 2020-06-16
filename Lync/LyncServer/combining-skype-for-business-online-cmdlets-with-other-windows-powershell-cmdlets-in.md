@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Online コマンドレットと他の Windows PowerShell コマンドレットの組み合わせ
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f95d242ec5a1f24f403e59b49e305d9e0a6c84b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd4f08370e5aeab6688fdbf2ce13a3e5ccb11a37
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180990"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755023"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -46,7 +46,7 @@ Windows PowerShell 3.0 の完全なコースはこの記事の範囲を超えて
 
 追加のパラメーターは含まれていないため、**出力**コマンドレットによって返されるすべての情報が既定のプリンターに出力されます。
 
-同様に、Skype for Business Online のコマンドレットには、データをファイルに保存するためのパラメーターが含まれていません。 しかし、このコマンドは次の**コマンドレットを使用して**、返された情報をテキストファイル C:\\Logs\\output.txt に保存します。
+同様に、Skype for Business Online のコマンドレットには、データをファイルに保存するためのパラメーターが含まれていません。 しかし、このコマンドは次の**コマンドレットを使用して**、返された情報をテキストファイル C: \\ Logs \\Tenants.txt に保存します。
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 
