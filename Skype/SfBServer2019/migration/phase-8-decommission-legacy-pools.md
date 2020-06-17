@@ -1,8 +1,8 @@
 ---
-title: フェーズ8の従来のプールの廃止
+title: フェーズ8のレガシプールの使用停止
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,28 +11,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.custom: httpsfix
-description: 次のトピックでは、DNS エントリの更新、コンテンツ管理サーバーの移動、プールの廃止、および従来の展開からのサーバーとプールの非アクティブ化と削除に関するガイダンスを示します。 このセクションに記載されているすべての手順を行う必要はありません。 ドキュメントを読み、使用する使用停止手順を確認します。
-ms.openlocfilehash: 2398e9ce681edc2bba9f4f93d54f39d727bdb75e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 次のトピックでは、DNS エントリの更新、コンテンツ管理サーバーの移動、プールの使用停止、および従来の展開からのサーバーとプールの非アクティブ化と削除に関するガイダンスを提供します。 このセクションに記載された手順をすべて実行する必要はありません。 ドキュメントを読んで、どの使用停止の手順を実行すればよいかを判断してください。
+ms.openlocfilehash: 2406b25436bc13cafca8b09c92220a96e0635ae3
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813105"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753695"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>フェーズ 8: レガシ プールの使用停止
 
-次のトピックでは、DNS エントリの更新、コンテンツ管理サーバーの移動、プールの廃止、および従来の展開からのサーバーとプールの非アクティブ化と削除に関するガイダンスを示します。 このセクションに記載されているすべての手順を行う必要はありません。 ドキュメントを読み、使用する使用停止手順を確認します。 
+次のトピックでは、DNS エントリの更新、コンテンツ管理サーバーの移動、プールの使用停止、および従来の展開からのサーバーとプールの非アクティブ化と削除に関するガイダンスを提供します。 このセクションに記載された手順をすべて実行する必要はありません。 ドキュメントを読んで、どの使用停止の手順を実行すればよいかを判断してください。 
   
-サーバーとサーバーの役割を削除する方法について説明していますが、展開を廃止するためのステップバイステップのガイドについては、「 [Microsoft Lync server をアンインストールして、サーバーの役割を削除](https://go.microsoft.com/fwlink/p/?linkId=246227)する」を参照してください。 
+サーバーとサーバーの役割の削除に関する一連の詳細な記事と、展開を使用停止にするためのステップバイステップガイドについては、「 [Microsoft Lync server のアンインストールとサーバーの役割の削除](https://go.microsoft.com/fwlink/p/?linkId=246227)」をダウンロードしてください。 
   
 > [!IMPORTANT]
-> Microsoft ユニファイドコミュニケーションマネージ API (UCMA) アプリケーションの移行とアップグレードに関する情報については、従来の環境を廃止する前に、「 [ucma アプリケーション: 共存、移行、アップグレードのシナリオ](https://go.microsoft.com/fwlink/p/?LinkId=269555)」を参照してください。
+> Microsoft ユニファイドコミュニケーションマネージ API (UCMA) アプリケーションの移行およびアップグレードの詳細については、従来の環境を使用停止にする前に、「 [ucma アプリケーション: 共存」、「移行」、および「アップグレードシナリオ](https://go.microsoft.com/fwlink/p/?LinkId=269555)」を参照してください。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
 > [DNS SRV レコードの更新](update-dns-srv-records.md)
 > 
-> [レガシインストールのセントラルマネジメントサーバーを Skype for Business Server 2019 に移動する](move-the-central-management-server.md)
+> [従来のサーバーの全体管理サーバーのインストールを Skype for Business Server 2019 に移行する](move-the-central-management-server.md)
 > 
 > [会議ディレクトリの移動](move-conference-directories.md)
 > 

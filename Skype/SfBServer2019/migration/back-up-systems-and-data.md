@@ -1,8 +1,8 @@
 ---
-title: システムとデータのバックアップ
+title: システムとデータをバックアップする
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: End User
 ms.topic: quickstart
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d61fddc1-98d4-4577-a371-33f9e221288c
-description: 移行を開始する前に、完全なシステムバックアップを実行して、必要に応じてロールバックすることができるように、既存のシステムをドキュメント化します。 データ、設定、およびシステムのバックアップと復元には、複数のツールとプログラムが用意されています。
-ms.openlocfilehash: 4a8e62fe75424f2d8fcb0d0c6af10c54c9339b55
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 移行を開始する前に、システム全体のバックアップを実行し、各プールに所属しているユーザーアカウントのインベントリを含む既存のシステムをドキュメント化して、必要になった場合にロールバックできるようにします。 データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。
+ms.openlocfilehash: 541eb350d8dbf79875e36f468b18ccf8ac49b969
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813935"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752989"
 ---
-# <a name="back-up-systems-and-data"></a>システムとデータのバックアップ
+# <a name="back-up-systems-and-data"></a>システムとデータをバックアップする
 
-移行を開始する前に、完全なシステムバックアップを実行し、各プールに所属しているユーザーアカウントのインベントリなど、既存のシステムをドキュメント化します。これにより、必要に応じてロールバックすることができます。 データ、設定、およびシステムのバックアップと復元には、複数のツールとプログラムが用意されています。
+移行を開始する前に、システムの完全バックアップを実行し、各プールに所属しているユーザーアカウントのインベントリを含む既存システムのドキュメントを作成して、必要になった場合にロールバックできるようにします。 データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。
 
 詳細と手順については、「お使いのバージョンのバックアップと復元の手順」を参照してください。 

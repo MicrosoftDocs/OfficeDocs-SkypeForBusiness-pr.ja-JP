@@ -1,8 +1,8 @@
 ---
-title: 会議ディレクトリを移動する
+title: 会議ディレクトリの移動
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: プールの使用を停止する前に、従来のプールの各会議ディレクトリについて、次の手順を実行する必要があります。
-ms.openlocfilehash: 339b2e31867b215c12c2422fd50b94cc42e625c7
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: プールを使用停止にする前に、従来のプール内の会議ディレクトリごとに次の手順を実行する必要があります。
+ms.openlocfilehash: 8a25b955ae769a712750ff08325b3fa29538be8a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888076"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752499"
 ---
-# <a name="move-conference-directories"></a>会議ディレクトリを移動する
+# <a name="move-conference-directories"></a>会議ディレクトリの移動
 
-プールを解除する前に、従来のプールの各会議ディレクトリに対して、次の手順を実行する必要があります。
+プールを使用停止にする前に、従来のプール内の会議ディレクトリごとに次の手順を実行する必要があります。
   
 ### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a>会議ディレクトリを Skype for Business Server 2019 に移動するには
 
@@ -32,15 +32,15 @@ ms.locfileid: "41888076"
    Get-CsConferenceDirectory
    ```
 
-    上のコマンドは、組織内のすべての会議ディレクトリを返します。 そのため、廃棄されたプールに結果を制限することができます。 たとえば、完全修飾ドメイン名 (FQDN) pool01.contoso.net を使用してプールを廃止する場合は、このコマンドを使用して、返されるデータをそのプールの会議ディレクトリに制限します。
+    上記のコマンドは、組織内のすべての会議ディレクトリを返します。 そのため、廃棄されたプールに対して結果を制限する必要がある場合があります。 たとえば、完全修飾ドメイン名 (FQDN) pool01.contoso.net でプールを使用停止にする場合は、次のコマンドを使用して、返されるデータをそのプールからの会議ディレクトリに制限します。
     
    ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
-    このコマンドは、ServiceID プロパティに FQDN pool01.contoso.net が含まれている会議ディレクトリだけを返します。
+    このコマンドは、ServiceID プロパティに FQDN pool01.contoso.net が含まれている会議ディレクトリのみを返します。
     
-3. 会議ディレクトリを移動するには、プール内の各会議ディレクトリに対して、次のコマンドを実行します。
+3. 会議ディレクトリを移動するには、プール内の会議ディレクトリごとに次のコマンドを実行します。
     
    ```PowerShell
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
@@ -58,9 +58,9 @@ ms.locfileid: "41888076"
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-レガシプールを廃止するための包括的な手順については、「 [Microsoft レガシーをアンインストールし、サーバーの役割を削除](https://go.microsoft.com/fwlink/p/?linkId=246227)する」をダウンロードしてください。
+レガシプールを使用停止にするための包括的な手順については、「 [Microsoft レガシーのアンインストールとサーバーの役割の削除](https://go.microsoft.com/fwlink/p/?linkId=246227)」をダウンロードしてください。
   
-会議ディレクトリを移動すると、次のようなエラーが発生する場合があります。
+会議ディレクトリを移動するときに、次のエラーが発生することがあります。
   
 ```console
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
@@ -69,6 +69,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-このエラーは通常、タスクを完了するために、Skype for Business Server の管理シェルで、更新された Active Directory のアクセス許可セットが必要な場合に発生します。 この問題を解決するには、管理シェルの現在のインスタンスを閉じてから、シェルの新しいインスタンスを開き、コマンドを再実行して会議ディレクトリを移動します。
+通常、このエラーは、Skype for Business Server 管理シェルで、タスクを完了するために、更新された Active Directory のアクセス許可セットが必要な場合に発生します。 この問題を解決するには、管理シェルの現在のインスタンスを閉じてから、シェルの新しいインスタンスを開き、コマンドを再実行して会議ディレクトリを移動します。
   
 

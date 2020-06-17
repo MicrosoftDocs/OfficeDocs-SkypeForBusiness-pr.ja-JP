@@ -1,8 +1,8 @@
 ---
 title: 移行用にクライアントを構成する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: このトピックでは、Skype for Business Server 2019 に移行する前に実行する必要がある、推奨されるクライアントの展開手順について説明します。 これらの構成の変更は、Lync Server 2013 または Skype for Business Server 2015 で行う必要があります。
-ms.openlocfilehash: ad3ed4f34409b5ba730d79c24db65092802572db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fd630898d064c8ba079f87ce571e73de8cf0aaf9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986092"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754067"
 ---
 # <a name="configure-clients-for-migration"></a>移行用にクライアントを構成する
 

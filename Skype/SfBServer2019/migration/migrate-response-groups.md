@@ -1,8 +1,8 @@
 ---
 title: 応答グループを移行する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ユーザーが Skype for Business Server 2019 プールに移動された後、応答グループを移行できます。 応答グループの移行には、エージェントグループ、キュー、ワークフロー、オーディオファイルをコピーし、応答グループの連絡先オブジェクトを従来の展開から Skype for Business Server 2019 プールに移動することが含まれます。 従来の応答グループを移行した後、応答グループへの通話は、Skype for Business Server 2019 プールの応答グループアプリケーションによって処理されます。 応答グループへの通話は、従来のプールによって処理されなくなりました。
-ms.openlocfilehash: 2d439462fa103cc16fd7ae70b79364be7d79803a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03b0ffd900b5d7c23dd6ff680d56c0c4db53d8dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42016108"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752679"
 ---
 # <a name="migrate-response-groups"></a>応答グループを移行する
 
@@ -40,7 +40,7 @@ ms.locfileid: "42016108"
 応答グループを移行する場合、従来の応答グループは削除されません。 Skype for Business Server コントロールパネルまたは Skype for Business Server 管理シェルのいずれかを使用して移行後に応答グループを管理すると、従来の応答グループと Skype for Business Server 2019 応答グループの両方を表示することができます。 更新プログラムは、Skype for Business Server 2019 応答グループにのみ適用する必要があります。 従来の応答グループは、ロールバックの目的でのみ保持されます。 
   
 > [!CAUTION]
-> 移行が完了し、新しい応答グループが作成されたら、Skype for Business Server コントロールパネルと Skype for business server 管理シェルによって、各応答の従来のバージョンと Skype for business Server 2019 のバージョンが表示されます。group. 従来の応答グループを削除するには、Skype for Business Server コントロールパネルまたは Skype for business Server 管理シェルを使用しないでください。 いずれかを削除すると、移行中に作成された対応する応答グループは動作を停止します。 従来の応答グループは、従来のプールを使用停止にしたときに削除されます。 
+> 移行が完了し、新しい応答グループが作成されたら、Skype for Business Server コントロールパネルと Skype for Business Server 管理シェルによって、各応答グループのレガシおよび Skype for business Server 2019 のバージョンが表示されます。 従来の応答グループを削除するには、Skype for Business Server コントロールパネルまたは Skype for business Server 管理シェルを使用しないでください。 いずれかを削除すると、移行中に作成された対応する応答グループは動作を停止します。 従来の応答グループは、従来のプールを使用停止にしたときに削除されます。 
   
 > [!IMPORTANT]
 > プールの使用を停止するまで、以前の展開からデータを削除しないようにすることをお勧めします。 また、移行直後に応答グループをエクスポートすることを強くお勧めします。 従来の応答グループを削除する必要がある場合は、バックアップから応答グループを復元して、Skype for Business Server 2019 応答グループを再度実行することができます。 

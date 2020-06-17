@@ -1,8 +1,8 @@
 ---
 title: プールからのフロントエンド サーバーの削除
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,26 +10,26 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: フロントエンドサーバーは、スタンドアロンコンピューターとしては存在できません。 プールに1台のコンピュータしかない場合でも、フロントエンドプールとして定義する必要があります。
-ms.openlocfilehash: 93df9e293f7a1876d4a8b1f172472f708556f67f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: フロントエンドサーバーは、スタンドアロンのコンピューターとしては存在できません。 プール内にコンピューターが1台しかない場合でも、フロントエンドプールとして定義する必要があります。
+ms.openlocfilehash: 7675ba119fa2937d765d5f4e497fca0a040b3b62
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813035"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752319"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>プールからのフロントエンド サーバーの削除
 
-フロントエンドサーバーは、スタンドアロンコンピューターとしては存在できません。 プールに1台のコンピュータしかない場合でも、フロントエンドプールとして定義する必要があります。
+フロントエンドサーバーは、スタンドアロンのコンピューターとしては存在できません。 プール内にコンピューターが1台しかない場合でも、フロントエンドプールとして定義する必要があります。
   
-このトピックでは、既存のフロントエンドプールから個々のフロントエンドサーバーを削除する手順について説明します。 フロントエンドサーバーがプール内の最後のサーバーである場合、またはプールを完全に削除する場合は、「[フロントエンドプールまたは Standard Edition サーバーを削除](remove-front-end-pool-or-standard-edition-server.md)する」を参照してください。 フロントエンドプールを削除する前に、個々のフロントエンドサーバーを削除する必要はありません。 プールを削除すると、各フロントエンドサーバーが削除されます。
+このトピックでは、既存のフロントエンドプールから個々のフロントエンドサーバーを削除するプロセスについて手順を追って説明します。 フロントエンドサーバーがプール内の最後のサーバーである場合、またはプールを完全に削除する場合は、「 [Remove Front end pool Or Standard Edition Server](remove-front-end-pool-or-standard-edition-server.md)」を参照してください。 フロントエンドプールを削除する前に、個々のフロントエンドサーバーを削除する必要はありません。 プールを削除すると、各フロントエンドサーバーが削除されます。
   
-### <a name="to-remove-a-front-end-server-from-a-pool"></a>プールからフロントエンドサーバーを削除するには
+### <a name="to-remove-a-front-end-server-from-a-pool"></a>フロントエンド サーバーをプールから削除するには
 
-1. Skype for Business Server 2019 フロントエンドサーバーで、[トポロジビルダー] を開きます。
+1. Skype for Business Server 2019 フロントエンドサーバーで、トポロジビルダーを開きます。
     
 2. 従来のインストールノードに移動します。
     
-3. [ **Enterprise Edition のフロントエンドプール**] を展開し、削除するフロントエンドサーバーでフロントエンドプールを展開して、削除するフロントエンドサーバーを右クリックし、[**削除**] をクリックします。
+3. [ **Enterprise Edition フロントエンドプール**] を展開し、削除するフロントエンドサーバーのフロントエンドプールを展開して、削除するフロントエンドサーバーを右クリックし、[**削除**] をクリックします。
     
 

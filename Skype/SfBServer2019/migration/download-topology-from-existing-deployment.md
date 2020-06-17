@@ -1,8 +1,8 @@
 ---
 title: 既存の展開環境からトポロジをダウンロードする
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,31 +10,31 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype for Business Server 2019 プールを作成する場合は、従来のインストールに関連付けられている中央管理ストアを使用します。 最初の使用時と後続の編集セッションでトポロジビルダーを起動すると、トポロジビルダーで現在の構成ドキュメントを読み込む場所を確認するメッセージが表示されます。 既にトポロジが定義されていて、全体管理ストアを確立しているため、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジビルダーはデータベースを読み取り、現在の定義を取得します。
-ms.openlocfilehash: 19c6072917e6fb8a0ec96ad22f89a0baab716f85
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server 2019 プールを作成する場合は、従来のインストールに関連付けられている中央管理ストアを使用します。 初めてトポロジ ビルダーを起動して、その後、編集セッションを行う場合、トポロジ ビルダーに現在の構成ドキュメントを読み込ませる場所を指定するようメッセージが表示されます。 トポロジが既に定義され、中央管理ストアが確立されているため、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジ ビルダーは、データベースを読み取り、現在の定義を取得します。
+ms.openlocfilehash: 56234c24d9278c2702f4b07bd6df774bff45c387
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813635"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752849"
 ---
 # <a name="download-topology-from-existing-deployment"></a>既存の展開環境からトポロジをダウンロードする
 
-Skype for Business Server 2019 プールを作成する場合は、従来のインストールに関連付けられている中央管理ストアを使用します。 最初の使用時と後続の編集セッションでトポロジビルダーを起動すると、トポロジビルダーで現在の構成ドキュメントを読み込む場所を確認するメッセージが表示されます。 既にトポロジが定義されていて、全体管理ストアを確立しているため、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジビルダーはデータベースを読み取り、現在の定義を取得します。 
+Skype for Business Server 2019 プールを作成する場合は、従来のインストールに関連付けられている中央管理ストアを使用します。 初めてトポロジ ビルダーを起動して、その後、編集セッションを行う場合、トポロジ ビルダーに現在の構成ドキュメントを読み込ませる場所を指定するようメッセージが表示されます。 トポロジが既に定義され、中央管理ストアが確立されているため、既存の展開からトポロジをダウンロードすることを選択する必要があります。 トポロジ ビルダーは、データベースを読み取り、現在の定義を取得します。 
   
-### <a name="to-download-a-topology-from-an-existing-deployment"></a>既存の展開からトポロジをダウンロードするには
+### <a name="to-download-a-topology-from-an-existing-deployment"></a>既存の展開環境からトポロジをダウンロードするには
 
 1. Skype for Business Server 展開ウィザードを開きます。
     
-2. **Skype For Business Server 2019 の展開ウィザード**ページで、[**管理ツールのインストール**] をクリックします。
+2. [ **Skype For Business Server 2019-展開ウィザード**] ページで、[**管理ツールのインストール**] をクリックします。
     
-3. トポロジビルダーを開始します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft skype for business Server 2019**]、[ **skype for business server Topology Builder**] の順にクリックします。
+3. トポロジビルダーを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft Skype for business Server 2019**]、[ **skype for business server トポロジビルダー**] の順にクリックします。
     
-4. [**既存の展開からトポロジをダウンロード**] を選択します。
+4. [**既存の展開からトポロジをダウンロードする**] をクリックします。
   
-5. ファイル名を選択し、tbxml ファイルの種類が設定されたトポロジを保存します。
+5. ファイル名を選択し、redmond.tbxml ファイルの種類が既定のトポロジを保存します。
     
-6. [Skype for Business Server] ノードを展開して、展開内のさまざまなサーバーの役割を表示します。
+6. [Skype for Business Server] ノードを展開して、展開に含まれるさまざまなサーバーの役割を確認します。
     
   
 

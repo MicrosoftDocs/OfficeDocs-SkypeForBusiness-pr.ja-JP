@@ -1,8 +1,8 @@
 ---
 title: Enterprise Edition フロントエンドサーバーまたは Standard Edition フロントエンドサーバーを削除する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: このトピックで説明されている手順は、Enterprise Edition フロントエンドプールまたは Standard Edition フロントエンドサーバーを削除する手順について説明します。 Skype for Business Server 2019 に移行した後は、従来の環境を廃止するための最初の手順の1つです。
-ms.openlocfilehash: 6c402035823a10e2c6e823c7558bd8a57a97b915
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このトピックで説明されている手順は、Enterprise Edition フロントエンドプールまたは Standard Edition フロントエンドサーバーを削除するプロセスをガイドすることを目的としています。 Skype for Business Server 2019 に移行した後、これは従来の環境を使用停止にするための最初の手順の1つです。
+ms.openlocfilehash: 2fbcebec1c873c595b0ad1d40b1d1d3e9b115a32
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812925"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752129"
 ---
 # <a name="remove-the-front-end-server"></a>フロントエンド サーバーの削除
 
-このセクションで説明されている手順は、Enterprise Edition フロントエンドプールまたは Standard Edition フロントエンドサーバーを削除する手順について説明します。 Skype for Business Server 2019 に移行した後は、従来の環境を廃止するための最初の手順の1つです。
+このセクションで説明する手順は、Enterprise Edition フロントエンドプールまたは Standard Edition フロントエンドサーバーを削除するプロセスをガイドすることを目的としています。 Skype for Business Server 2019 に移行した後、これは従来の環境を使用停止にするための最初の手順の1つです。
   
 ## <a name="in-this-section"></a>このセクションの内容
 

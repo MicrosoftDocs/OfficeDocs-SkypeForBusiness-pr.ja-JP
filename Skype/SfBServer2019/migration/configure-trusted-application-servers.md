@@ -1,8 +1,8 @@
 ---
-title: 信頼済みアプリケーション サーバーの構成
+title: 信頼されたアプリケーション サーバーを構成する
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,37 +10,37 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 混在環境では、新しい信頼できるアプリケーションサーバーを作成する場合は、次ホッププールを Skype for Business Server 2019 プールとして設定する必要があります。 混在環境では、ドロップダウンリストに従来のプールと Skype for Business Server 2019 プールの両方が表示されます。 従来のプールの選択はサポートされていません。
-ms.openlocfilehash: a853065c8888ce9e160b34d182ec8bde6f4569f3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 混在環境では、信頼されたアプリケーションサーバーを新たに作成する場合は、次ホッププールを Skype for Business Server 2019 プールとして設定する必要があります。 混在環境では、ドロップダウンリストに従来のプールと Skype for Business Server 2019 プールの両方が表示されます。 従来のプールを選択することはできません。
+ms.openlocfilehash: 1c0aac1efa4f83a81ccf2f3bb5ecbc925ee58839
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813775"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753947"
 ---
-# <a name="configure-trusted-application-servers"></a>信頼済みアプリケーション サーバーの構成
+# <a name="configure-trusted-application-servers"></a>信頼されたアプリケーション サーバーを構成する
 
-混在環境では、新しい信頼できるアプリケーションサーバーを作成する場合は、次ホッププールを Skype for Business Server 2019 プールとして設定する必要があります。 混在環境では、ドロップダウンリストに従来のプールと Skype for Business Server 2019 プールの両方が表示されます。 従来のプールの選択はサポートされていません。
+混在環境では、信頼されたアプリケーションサーバーを新たに作成する場合は、次ホッププールを Skype for Business Server 2019 プールとして設定する必要があります。 混在環境では、ドロップダウンリストに従来のプールと Skype for Business Server 2019 プールの両方が表示されます。 従来のプールを選択することはできません。
   
 > [!IMPORTANT]
-> 信頼されているアプリケーションサーバーを移行する場合は、使用している UCMA のバージョンも更新する必要があります。 Skype for Business Server 2019 用の新しい信頼できるアプリケーションプールを作成する場合は、UCMA を Skype for Business Server 2019 に含まれているバージョン、または利用可能な最新バージョンに更新する必要があります。 
+> 信頼されたアプリケーションサーバーを移行する場合は、使用している UCMA のバージョンも更新する必要があります。 Skype for business Server 2019 用の新しい信頼されたアプリケーションプールを作成する場合は、UCMA を Skype for Business Server 2019 に含まれているバージョンまたは利用可能な最新バージョンに更新する必要があります。 
   
-### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>信頼されたアプリケーションサーバーを作成するときに、[Skype for Business Server 2019 (次ホップ)] を選択します。
+### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>信頼されたアプリケーションサーバーを作成するときは、次ホップとして Skype for Business Server 2019 を選択します。
 
-1. トポロジビルダーを開きます。
+1. トポロジ ビルダーを開きます。
     
-2. 左側のウィンドウで、[**信頼されたアプリケーションサーバー** ] を右クリックし、[**新しい信頼できるアプリケーションプール**] をクリックします。
+2. 左側のウィンドウで、[**信頼済みアプリケーションサーバー** ] を右クリックし、[**新しい信頼済みアプリケーションプール**] をクリックします。
     
-3. 信頼されているアプリケーションプールの**プール FQDN**を入力し、シングルサーバーとマルチサーバーのどちらにするかを選択します。 
+3. 信頼されたアプリケーションプールの [**プールの FQDN** ] を入力し、単一サーバーにするか複数サーバーにするかを選択します。 
     
-4. [ **次へ**] をクリックします。
+4. [**次へ**] をクリックします。
     
-5. **[次ホップの選択**] ページで、一覧から [Skype For business Server 2019 フロントエンドプール] を選びます。 
+5. [**次ホップの選択**] ページで、リストから [Skype For business Server 2019 フロントエンドプール] を選択します。 
     
 6. [**完了**] をクリックします。
     
-7. トップノードの**Skype For Business Server**を選び、[**アクション**] メニューから [**発行**] を選択します。
+7. 最上位の [ **Skype For Business Server**] ノードを選択し、[**アクション**] メニューの [**発行**] を選択します。
     
-    信頼された**アプリケーションプール**が正常に作成され、正しいフロントエンドプールに関連付けられていることを確認します。 
+    **信頼済みアプリケーションプール**が正常に作成され、適切なフロントエンドプールに関連付けられていることを確認します。 
     
 

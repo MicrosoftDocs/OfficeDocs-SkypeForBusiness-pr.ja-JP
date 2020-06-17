@@ -1,8 +1,8 @@
 ---
 title: フロントエンド プール用の SQL Server データベースの削除
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,48 +10,48 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: フロントエンドプールを削除するか、プールを再構成して別のデータベースを使用する場合は、プールデータをホストしている SQL Server データベースを削除することができます。 次の手順を使用して、Topology Builder から定義を削除し、データベースサーバーからデータベースとログファイルを削除します。
-ms.openlocfilehash: 8644760f9f3a18f737fcccd80e20eb091efe2f4b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: フロントエンドプールを削除した後、または別のデータベースを使用するようにプールを再構成した後は、プールデータをホストしていた SQL Server データベースを削除できます。 次の手順を使用して、トポロジビルダーから定義を削除し、データベースサーバーからデータベースとログファイルを削除します。
+ms.openlocfilehash: 9047486708b92c07e6ec099fce43ec4c708fa900
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812855"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753409"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>フロントエンド プール用の SQL Server データベースの削除
 
-フロントエンドプールを削除するか、プールを再構成して別のデータベースを使用する場合は、プールデータをホストしている SQL Server データベースを削除することができます。 次の手順を使用して、Topology Builder から定義を削除し、データベースサーバーからデータベースとログファイルを削除します。
+フロントエンドプールを削除した後、または別のデータベースを使用するようにプールを再構成した後は、プールデータをホストしていた SQL Server データベースを削除できます。 次の手順を使用して、トポロジビルダーから定義を削除し、データベースサーバーからデータベースとログファイルを削除します。
   
 ## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>トポロジビルダーを使用して SQL Server データベースを削除するには
 
-1. Skype for Business Server 2019 フロントエンドサーバーから、[トポロジビルダー] を開き、既存のトポロジをダウンロードします。 
+1. Skype for Business Server 2019 フロントエンドサーバーから、トポロジビルダーを開き、既存のトポロジをダウンロードします。 
     
-2. [トポロジビルダー] で、[**共有コンポーネント**] に移動し、[ **sql Server ストア**] で、削除または再構成されたフロントエンドプールに関連付けられている sql server インスタンスを右クリックし、[**削除**] をクリックします。
+2. [トポロジビルダー] で、[**共有コンポーネント**] に移動し、[ **sql server ストア**] を選択して、削除または再構成したフロントエンドプールに関連付けられている SQL server インスタンスを右クリックし、[**削除**] をクリックします。
     
 3. トポロジを公開し、レプリケーションの状態を確認します。 
     
-## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>SQL server からユーザーデータベースとアプリケーションデータベースを削除するには
+## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>SQL server からユーザーおよびアプリケーションデータベースを削除するには
 
-1. SQL server 上のデータベースを削除するには、データベースファイルを削除する SQL server の [SQL Server のオプション] グループのメンバーである必要があります。 
+1. SQL server 上のデータベースを削除するには、データベースファイルを削除する対象の SQL server の SQL Server の [ユーザー] グループのメンバーである必要があります。 
     
 2. Skype for Business Server 管理シェルを開きます。
     
-3. プールユーザーストアのデータベースを削除するには、次のように入力します。
+3. プール ユーザー ストアのデータベースを削除するには、次のように入力します。
     
    ```PowerShell
    Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
-    ここ_ \<で\> 、fqdn_はデータベースサーバーの完全修飾ドメイン名 (FQDN) であり_ \<、\>インスタンス_は名前付きデータベースインスタンス (定義されている場合) です。 
+    ここで、 _\<FQDN\>_ はデータベースサーバーの完全修飾ドメイン名 (FQDN)、 _\<instance\>_ は名前付きデータベースインスタンス (定義されている場合) です。 
     
-4. プールアプリケーションストアのデータベースを削除するには、次のように入力します。
+4. プール アプリケーション ストアのデータベースを削除するには、次のように入力します。
     
    ```PowerShell
    Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
-    ここ_ \<で\> 、fqdn_はデータベースサーバーの fqdn で、 _ \<インスタンス\> _は名前付きデータベースインスタンス (定義されている場合) です。 
+    ここで、 _\<FQDN\>_ はデータベースサーバーの FQDN、は _\<instance\>_ 名前付きデータベースインスタンス (定義されている場合) です。 
     
-5. **CsDataBase**コマンドレットで操作の確認を求めるメッセージが表示されたら、情報を読み、Y (または enter) キーを押して続行するか、または N キーを押してコマンドレットを停止するか (エラーがある場合)、enter キーを押します。 
+5. **Uninstall**コマンドレットを実行してアクションを確認するように求めるメッセージが表示されたら、情報を読み、Y (または enter) キーを押して続行するか、N キーを押してコマンドレットを停止します (エラーがある場合)。 
     
 

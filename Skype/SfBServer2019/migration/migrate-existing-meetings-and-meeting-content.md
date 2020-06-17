@@ -1,8 +1,8 @@
 ---
 title: 既存の会議および会議コンテンツの移行
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,24 +10,24 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ユーザーアカウントを Skype for Business Server 2019 サーバーに移動すると、次の情報がそのユーザーアカウントに移動されます。
-ms.openlocfilehash: 6394ebf798560ce5a13fe7ba931076364257decc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ユーザーアカウントを Skype for Business Server 2019 サーバーに移動すると、そのユーザーアカウントを使用して次の情報が移動されます。
+ms.openlocfilehash: 6513f581f55028ec28d4cf05f1f1b3df37c49e65
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813475"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752689"
 ---
 # <a name="migrate-existing-meetings-and-meeting-content"></a>既存の会議および会議コンテンツの移行
 
-ユーザーアカウントを Skype for Business Server 2019 サーバーに移動すると、次の情報がそのユーザーアカウントで移動されます。
+ユーザーアカウントが Skype for Business Server 2019 サーバーに移動されると、そのユーザーアカウントを使用して次の情報が移動されます。
   
-- **ユーザーが既にスケジュールした会議**。 これには、会議ディレクトリと会議データの移動が含まれます。
+- **そのユーザーがスケジュールした会議**。 電話会議ディレクトリおよび電話会議データも移動されます。
     
-- **ユーザーの暗証番号 (PIN)**。 ユーザーの現在の PIN は、有効期限が切れるか、ユーザーが新しい PIN を要求するまで、引き続き動作します。
+- **ユーザーの暗証番号 (PIN)**。 ユーザーの現在の PIN は、期限が切れるか、ユーザーが新しい PIN を要求するまで引き続き機能します。
     
-次のユーザーアカウント情報は、新しいサーバーに移動されません。
+次に示すユーザー アカウント情報は、新しいサーバーに移動されません。
   
-- **会議コンテンツ**。 会議中に共有されたコンテンツ (PowerPoint、ホワイトボード、添付ファイル、投票データなど) を移動するには、 **move-CsUser**コマンドレットの一部として、 **-moveconの [data** ] パラメーターを使用します。 
+- **会議コンテンツ**。 PowerPoint、ホワイトボード、添付ファイル、投票データなど、会議中に共有されるコンテンツを移動するには、 **-moveconferencedata**パラメーターを、 **csuser**コマンドレットの一部として使用します。 
     
 

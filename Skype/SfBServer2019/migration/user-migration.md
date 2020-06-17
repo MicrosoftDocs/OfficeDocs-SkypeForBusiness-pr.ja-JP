@@ -1,8 +1,8 @@
 ---
 title: ユーザーの移行
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 移行のベストプラクティスとしては、複数のテストユーザーを作成し、それらを使ってシステムテストを実施することが推奨されます。 これらのアカウントの移動とテストが正常に完了したら、パイロットの運用ユーザーのグループを特定して、それらのアカウントを移動し、検証テストを実施する必要があります。 満足できる結果が得られたら、残りのユーザーを新しい展開に移動することができます。
-ms.openlocfilehash: ec149decccf2008a6bba2dcf7544b5a4919bec37
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
+ms.openlocfilehash: 98b9395da8341dab99b48d4f97da7332b8ed8102
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812765"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753279"
 ---
 # <a name="user-migration"></a>ユーザーの移行
 
-移行のベストプラクティスとしては、複数のテストユーザーを作成し、それらを使ってシステムテストを実施することが推奨されます。 これらのアカウントの移動とテストが正常に完了したら、パイロットの運用ユーザーのグループを特定して、それらのアカウントを移動し、検証テストを実施する必要があります。 満足できる結果が得られたら、残りのユーザーを新しい展開に移動することができます。
+A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
   
-Skype for Business Server 2019 のユーザーを有効にする方法について詳しくは、「Skype for business Server 2019 ドキュメントの展開」をご覧ください。 
+Skype for business Server 2019 でユーザーを有効にする方法の詳細については、「Skype for Business Server 2019 のドキュメントを展開する」を参照してください。 
   
   <!-- the topic [Disable or re-enable user account for Skype for Business Server 2019](../../operations/managing-users-in-lync-server-2013/disable-or-re-enable-user-account-for-lync-server.md) in  -->
 
