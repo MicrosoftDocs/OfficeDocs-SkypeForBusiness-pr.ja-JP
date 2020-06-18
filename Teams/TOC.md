@@ -905,3 +905,5 @@
 ### [Microsoft 365 の通話プラン: 英国での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Microsoft 365 の通話プラン: 英国での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+
+## [Teams 管理者機能のリリースノート](release-notes/release-notes.md)
