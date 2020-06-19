@@ -3,8 +3,8 @@ title: Microsoft Teams を導入する
 ms.reviewer: karuanag
 description: 組織で Microsoft Teams を計画して展開するために利用できる導入リソースについて説明します。
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
@@ -21,17 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665929"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756516"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
 > [!NOTE]
-> 開始するためにリモートのラーニングとリソースへの切り替えを行う方法の概要については、[**リモートラーニングのホームページ**](https://www.microsoft.com/education/remote-learning)を参照してください。
+> リモート学習への移行の概要と開始に役立つリソースについては、「[**Remote Learning home page (リモート学習のホーム ページ)**](https://www.microsoft.com/education/remote-learning)」を参照してください。
 
 小規模ビジネスの場合、またはチャット、teams & チャネル、会議などで開始するチームをロールアウトする場合は、この[ガイド](get-started-with-teams-quick-start.md)を使用して、すぐに作業を開始できるように設計されています。 ハイブリッドまたはオンプレミスの Skype for Business の構成を使用している大規模な組織の場合、または音声機能 (Microsoft 365 または Office 365 の通話プランや電話システムなど) を展開する場合は、「はじめ**に」の**ガイダンスに従って、次の追加のガイダンスをご覧ください。
 
