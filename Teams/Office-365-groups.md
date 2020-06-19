@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61569b2a60bdce188a7ffb75ae6720d4e1e87a3c
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ec2845723ce7f4a593064795f158ddf718d5b6e5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637056"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753897"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 グループおよび Microsoft Teams
 =====================================
@@ -43,7 +43,7 @@ Office 365 管理者は、Microsoft 365 グループを定義し、メンバー�
 チームを作成する場合は、バックエンドで、Microsoft 365 グループと、関連付けられた SharePoint ドキュメントライブラリと OneNote ノートブックを、他の Office 365 クラウドアプリケーションとの連携と共に作成しています。 チームを作成しているユーザーが既存の Office 365 パブリックまたはプライベートグループの所有者である場合は、チームの機能をグループに追加することができます。これは、ユーザーが5000人未満であり、チームに追加されていない場合です。 これにより、チャットメッセージ、ドキュメント、OneNote、その他のオブジェクトが存在する既定の**全般**チャネルが1つ作成されます。 チャネルのドキュメントライブラリを表示すると、チーム内のチャネルを表す **[全般**] フォルダーが表示されます。 さらに重要なのは、ドキュメントライブラリ内に独自のフォルダー構造を作成した場合、そのファイルはチャネルとしてチームに**伝達されません**。現時点では、チームから SharePoint へのフローのみが行われます。
 
 > [!NOTE]
-> 顧客のフィードバックに基づいて、Microsoft Teams でチームを作成した結果として生成された新しい Microsoft 365 グループは、既定では Outlook に表示されなくなります。 Outlook でこれらのグループを表示する既存の動作を継続する場合は、Exchange Online PowerShell コマンドレットが提供されます。これにより、Outlook のエクスペリエンスにグループを有効にすることができます。 Outlook を使用して作成されたグループで、後で Teams を有効にした場合は、Outlook と Teams の両方に表示されたままになります。 この更新プログラムは、数か月以内に Outlook と Teams の間で段階的にロールアウトされます。
+> 顧客のフィードバックに基づき、Microsoft Teams クライアントでチームを作成した結果として生成された新しい Microsoft 365 グループは、既定では Outlook に表示されなくなります。 Outlook でグループの表示をオンまたはオフにするには、 **HiddenFromExchangeClientsEnabled**パラメーターを指定して[get-unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup)コマンドレットを使用します。 Outlook を使用して作成されたグループで、後で Teams を有効にした場合は、Outlook と Teams の両方に表示されたままになります。 
 
 > [!NOTE]
 > Microsoft 365 グループを削除すると、永続的な Outlook/OWA の会話と Teams の会議出席依頼のメールボックスのエイリアスが削除され、SharePoint サイトの削除のマークが付けられます。 チームの削除と Outlook への影響の間は、約20分かかります。 チームクライアントからチームを削除すると、チームのメンバーになっているすべてのユーザーに直ちにチームが削除されます。 チーム機能が有効になっている Microsoft 365 グループのメンバーを削除した場合は、削除された対象ユーザーのチームクライアントでチームがビューから削除されるまでに約2時間かかることがあります。

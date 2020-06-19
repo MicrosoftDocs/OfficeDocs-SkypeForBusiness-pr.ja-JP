@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のセキュリティ ガイド
 author: MicrosoftHeidi
-ms.author: heidip
+ms.author: tracyp
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e13055fb9c4f3f30b1810a24a20aea25c9eb652
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 6762bd49bbe22b1e80c1b97f37048ee0a944e0a1
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689663"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761445"
 ---
 # <a name="security-and-microsoft-teams"></a>セキュリティと Microsoft Teams
 
@@ -51,7 +51,7 @@ Teams は、Windows Server オペレーティング システムで PKI の機�
 
 ### <a name="network-denial-of-service-attack"></a>ネットワークのサービス拒否攻撃
 
-サービス拒否攻撃は、有効なユーザーによるネットワークの正常な使用または機能が、攻撃者によって妨害された場合に発生します。サービス拒否攻撃により、攻撃者は以下のことを行うことができます。
+The denial-of-service attack occurs when the attacker prevents normal network use and function by valid users. By using a denial-of-service attack, the attacker can:
 
 - 攻撃対象のネットワークで実行されているアプリケーションまたはサービスに対して無効なデータを送信して、そのようなアプリケーションまたはサービスが正常に機能するのを妨害する。
 - 大量のトラフィックを送信してシステムを過負荷状態にして、適正な要求に対するシステムの応答を停止または低速化する。
@@ -61,7 +61,7 @@ Teams は、Windows Server オペレーティング システムで PKI の機�
 
 ### <a name="eavesdropping"></a>盗聴
 
-盗聴は、攻撃者が、ネットワークのデータ パスにアクセスし、トラフィックの監視と読み取りの機能を持っているときに起こる可能性があります。これは、スニッフィングまたはスヌーピングとも呼ばれます。トラフィックがプレーン テキストの場合、攻撃者は、ネットワークのパスにアクセスしたときにトラフィックを読み取ることができます。例としては、データ パス上のルーターを制御することによって実行される攻撃があります。
+Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
 
 Teams では、Microsoft 365 および Office 365 内でのサーバー通信に相互 TLS (MTLS) を使用し、また、クライエントからサービスへの通信に TLS を使用しているため、特定の会話が攻撃される可能性のある時間内にこの攻撃が目的を達成することは非常に困難です。 TLS はすべての関係者を認証し、すべてのトラフィックを暗号化します。 これで盗聴が防がれることはありませんが、攻撃者は暗号を破らない限りトラフィックを読み取れません。
 
@@ -89,7 +89,7 @@ SPIM は、スパムのようですが、インタンス メッセージ形式�
 
 ### <a name="viruses-and-worms"></a>ウイルスとワーム
 
-ウイルスは、同種の追加コード単位の複製を目的としたコード単位です。ウイルスは、有効に機能するためにホスト (ファイル、電子メール、プログラムなど) を必要とします。ワームも、ウイルスと同様、同種の追加コード単位を複製するようにコーディングされたコード単位ですが、ウイルスとは違ってホストを必要としません。ウイルスとワームは、クライアント間でファイルを転送しているとき、または他のユーザーから URL が送信されたときに主に出現します。ウイルスがコンピューター上に存在する場合、そのウイルスは、たとえば、無断でユーザー ID を使用してインスタント メッセージを送信する可能性があります。ウイルスの定期的なスキャンなど、標準的なクライアント セキュリティのベスト プラクティスによって、この問題を軽減できます。
+A virus is a unit of code whose purpose is to reproduce additional, similar code units. To work, a virus needs a host, such as a file, email, or program. Like a virus, a worm is a unit of code that is coded to reproduce additional, similar code units, but that unlike a virus does not need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf. Standard client security best practices such as periodically scanning for viruses can mitigate this issue.
 
 ## <a name="security-framework-for-teams"></a>Teams のセキュリティ フレームワーク
 
@@ -274,7 +274,7 @@ Teams では、匿名ユーザーはロビーと呼ばれる待機エリアに�
 
 既定の設定では、PSTN からダイヤルインする参加者は認証ユーザーが会議に参加すると直接会議に入りますが、このオプションを変更してダイヤルイン参加者も強制的にロビーに転送することができます。
 
-会議の開催者は、ロビーで待たずに参加者が会議に参加できるかどうかを制御します。各会議は、次のいずれかの方法でアクセスできるように設定できます。
+Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
 
 既定値は次のとおりです。
 
@@ -284,7 +284,7 @@ Teams では、匿名ユーザーはロビーと呼ばれる待機エリアに�
 
 ### <a name="presenter-capabilities"></a>発表者の機能
 
-会議の開催者は、参加者が会議中に発表できるかどうかを制御します。会議ごとに、発表者を次のいずれかに制限できます。
+Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
 
 - *自分の組織内のユーザー* - ゲストを含むすべてのテナント ユーザーが情報を提示できます。
 - *自分の組織と信頼できる組織のユーザー* - ゲストを含むテナント ユーザーすべては情報を提示でき、外部アクセス許可リストに含まれる Teams および Skype for Business のドメインからの外部ユーザーも情報を提示できます。  

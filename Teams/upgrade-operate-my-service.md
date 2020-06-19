@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c167903414aecabf7eecae01527a71ae61c27a4b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 434b7e0fed87d6273d13c7cb646079d51d7c1ddc
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666089"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761475"
 ---
 # <a name="operate-your-service"></a>サービスを運用する
 
@@ -49,7 +49,7 @@ ms.locfileid: "44666089"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>チームに対して操作を実装する方法を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>運用ガイドを完全に確認します。</li><li>組織の目標に合わせて、チームのワークロードの品質と信頼性を高める運用戦略を実装します。</li><li>エクスペリエンス品質レビューガイドを確認します。</li><li> 運用計画を実施して、チームの展開が最大限に機能していることを確認します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>運用ガイドを完全に確認します。</li><li>組織の目標に合わせて、チームのワークロードの品質と信頼性を高める運用戦略を実装します。</li><li>エクスペリエンス品質レビューガイドを確認します。</li><li> 運用計画を実施して、チームの展開が最大限に機能していることを確認します。</li></ul></td></tr>
 </table>
 
 ### <a name="operational-role-mapping"></a>運用の役割マッピング
@@ -67,7 +67,7 @@ ms.locfileid: "44666089"
 契約が実施された後、対応するチームが各自の役割を operationalize する必要があります。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td>
 <td><ul><li>このドキュメントを使用して、役割のマッピングの作業を簡単に行うことができます。</li><li>各サポートチームと会議して、必要なアクティビティのリストの各アイテムに名前を割り当てます。</li><li>割り当てられた役割に対して承認またはサインオフを獲得します。</li><li>該当するチームに、必要なアクティビティを実行するための適切なトレーニング、準備、およびリソースがあることを確認します。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams サービスの依存関係
@@ -433,7 +433,7 @@ Wi-fi ドライバーに問題がある可能性があります。 たとえば�
 
 2. **クライアント接続の検証:** 接続の問題により、Teams で機能またはサインインの問題が発生します。 サービスへの接続を検証することをお勧めします (特に新しいサイトまたは場所の場合)。 次の[Office 365 url と IP アドレス範囲](https://aka.ms/o365ips)のガイダンスが各サイトで使用されていることを確認します。 [Microsoft ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を利用して、接続テストを実行し、チームの機能に対してメディアポートが正しく開かれていることを確認することができます。 接続テストの実行方法の詳細な手順については、「[ネットワークの準備](prepare-network.md)ガイダンス」をご覧ください。
 
-3. **既知の問題の一覧を確認します。**[組織のサポートチーム](known-issues.md)に連絡し、これらの問題のいずれかによってユーザーが悪影響を受けたかどうかを確認してください。 問題を解決するために用意されている回避策 (ある場合) に従います。
+3. **既知の問題の一覧を確認します。** これらの問題のいずれかによってユーザーが悪影響を受けたかどうかを確認するには、「[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)」を参照してください。 問題を解決するために用意されている回避策 (ある場合) に従います。
 
 4. **Microsoft Teams コミュニティにアクセスします。**[Microsoft teams コミュニティ](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)では、teams 専用のスペースが用意されています。 Teams コミュニティでは、チームの中心となるディスカッションリスト、ブログ投稿、およびお知らせが提供されます。 問題の解決策については、質問を投稿したり、以前のディスカッションを検索したりすることができます。
 
@@ -457,7 +457,7 @@ Wi-fi ドライバーに問題がある可能性があります。 たとえば�
 
 [Microsoft Teams コミュニティ](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[組織のサポートチーム](known-issues.md)
+[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 [Microsoft Teams のサービスの正常性を確認する](service-health.md)
 

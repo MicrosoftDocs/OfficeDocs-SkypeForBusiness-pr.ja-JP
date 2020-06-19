@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 19c4bf59275d0f9be4c522129fd20ae668c2f30d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690013"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753439"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -34,7 +34,7 @@ ms.locfileid: "44690013"
 - **Teams**は、組織内のさまざまなプロジェクトや成果を取り巻く人、コンテンツ、およびツールの集合です。
 
     - 招待されたユーザーだけが対象の非公開チームを作成することもできます。
-    - チームは公開の形で作成することもでき、そうすれば組織内の誰でも参加できます（最大5000人のメンバー）。
+    - チームを公開して開き、組織内のすべての人が参加できるようにすることもできます (最大1万メンバー)。
     
     チームは、何かの仕事を完成させるために緊密に作業している人たちを 1 つにまとめるために設計されています。 Teams はプロジェクト単位の作業 (製品の立ち上げや、デジタル作戦指令室を作るなど) において、現在進行中の作業も含めて、組織の内部構造 (たとえば、部署やオフィスの場所など) を反映して、動的に機能します。 複数のチーム チャネルにわたる会話、ファイル、ノートはチームのメンバーだけが見ることができます。
 

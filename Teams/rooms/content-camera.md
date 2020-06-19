@@ -1,7 +1,7 @@
 ---
 title: コンテンツカメラのセットアップ方法-Microsoft Teams
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft Teams ルームのコンテンツカメラを使用します。画像処理ソフトウェアと連携して、発表者がアナログホワイトボードに描画することを許可します。
-ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157810"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756898"
 ---
 # <a name="content-cameras"></a>コンテンツ カメラ
 
@@ -87,7 +87,7 @@ Microsoft Teams Room system でコンテンツカメラを使用できるよう�
 
 カメラが会議室にインストールされたら、その会議室の Microsoft Teams ルームコンソールで設定します。
 
-1. [**設定** ![の設定](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)] アイコンを選択し、管理者としてログインして、[**デバイスの設定**] を選択します。
+1. [**設定** ![ の設定] アイコンを選択し ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 、管理者としてログインして、[**デバイスの設定**] を選択します。
 2. [**カメラの既定値**] セクションで、コンテンツのカメラを選択し、[**コンテンツの拡張機能**] オプションが選択されていることを確認します。
 3. 省略カメラが天井から装着されているために、カメラが上下逆さまに装着されている場合は、[**コンテンツカメラの回転180度**] オプションをオンにします。
 4. [**保存して終了**] を選びます。

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams ユーザーの導入計画 | ベスト プラクティス
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: be512ac7726defdd2879114eb47ed3e66a229e30
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689463"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751539"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft Teams を効果的に使用する方法
 
@@ -33,11 +33,11 @@ ms.locfileid: "44689463"
 
 この記事は、Skype for Business から Teams へのアップグレードが完了したらすぐに、アップグレードの過程のオペレーショナルエクセレンスステージの一部です。
 
-テクノロジーは、かつてないペースで技術革新をしています。最新のワークプレース環境を最新の状態に保つことは、組織が運営する方法の標準となっています。Microsoft Teams、Microsoft 365、および Microsoft のインテリジェントなコミュニケーションのビジョンは展開されているため、運用計画を立てておくことで、組織が長期的な成功を確実に設定できるようになります。最適な運用計画には、正常性と品質を実現するための環境の監視、ユーザーによる導入の最適化、時間の経過に伴う新しい機能の計画などが含まれます。
+Technology is innovating at an unprecedented pace. Staying current and enabling a modern workplace environment has become a standard in how organizations operate. As Microsoft Teams, Microsoft 365, and Microsoft's intelligent communication vision continue to unfold, having an operational plan in place will help ensure your organization is set up for long-term success. An optimal operational plan includes monitoring your environment for health and quality, continuing user momentum to optimize adoption, and planning for new functionality that will continue to come online over time.
 
 ## <a name="monitor-for-network-health-and-quality"></a>ネットワークの健全性と品質の監視
 
-ネットワークの状態は、ユーザーエクスペリエンスに影響します。ユーザーが低品質 (会議に参加するときの通話の時間、ラグタイムなど) を使用している場合、これはテクノロジ自体に関連しているため、テクノロジが機能せず、サポートされていないアプリのドアを開くことができます。ネットワークの正常性を監視および緩和するための計画を実装することで、サポートデスクへの通話を減らすだけでなく、ユーザーエクスペリエンスを向上させることができます。詳細については、次の記事を参照してください。
+The status of your network affects the user experience. When a user has a poor experience (for example, call drops or lag time when joining meetings), they correlate this to the technology itself, leaving them with the impression that the technology doesn't work and opening the door for unsupported apps. Implementing a plan to monitor and mitigate network health will help ensure a positive user experience in addition to reducing calls to your support desk. For more information, see the following articles:
 
 - [サービスを運用する](upgrade-operate-my-service.md)
 - [品質を監視する](upgrade-monitor-quality.md)
@@ -45,7 +45,7 @@ ms.locfileid: "44689463"
 
 ## <a name="drive-user-momentum-and-adoption"></a>ユーザーの機運と導入を促進する
 
-Teams のメリットとビジネスの成果を最大限に引き出すには、ユーザーに実際に使ってもらわなければなりません。ただし、最初の感動は次第に薄れ、ユーザーは簡単に古い作業方法に戻ってしまうものです。継続的な導入計画によってユーザーによる導入を促し、Teams の感動を持続させましょう。計画に含まれるのは次の通りです。
+To realize maximum benefit and business outcomes with Teams, users must actually use it. However, initial excitement tends to wane and users easily revert to old ways of working. Encourage user adoption and maintain excitement for Teams with an ongoing adoption plan, which can include:
 
 - 仲間のユーザーたちの啓発と意識付けのために、同僚のチャンピオンに協力を求めます。
 - [Microsoft 365 導入ガイド](https://go.microsoft.com/fwlink/?linkid=859045)で、契約を強化し、導入を推進するためのヒントを確認してください。
@@ -54,10 +54,10 @@ Teams のメリットとビジネスの成果を最大限に引き出すには�
 
 ## <a name="prepare-for-new-functionality"></a>新しい機能に対して準備する
 
-特定の技術のライフサイクルは、動的な成長サイクルに移行しました。つまり、チームと Microsoft 365 のロードマップは引き続き展開され、新しい機能が定期的に動作します。組織内で変更サイクルを確立することで、継続的な共同作業の改善を管理し、最大の価値を実感することができます。次のようなものがあります。
+The lifecycle of any given technology has shifted to a dynamic growth cycle. This means that the Teams and Microsoft 365 roadmaps will continue to unfold, with new functionality lighting up on a regular cadence. Establishing a change cycle within your organization will ensure you're ready to manage continual collaboration improvements and realize maximum value. This can include:
 
 - Teams の[ロードマップ](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)を監視します。
-- 新しい機能を準備し、実装するには、下の図のような変更計画フォームを実装します。技術的な準備とユーザーの準備の両方のアクティビティを必ず含めるようにしてください。
+- Implement a change planning form (as illustrated below) to prepare and implement new functionality. Be sure to include both technical and user readiness activities.
 
 
 ![予想されるリリース日とメモを示すフォームの例](media/upgrade-change-plan-form.png "次の手順と所有者で示されている、新しい機能に関する予想されるリリース日とメモを示す例のフォーム")

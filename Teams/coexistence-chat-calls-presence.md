@@ -1,7 +1,7 @@
 ---
 title: Skype for Business と共存する
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Skype for Business & チーム間の共存動作 (ルーティングパラメーター、チャット & 通話ルーティング、既存のスレッドからのチャット & の呼び出し、& プレゼンスなど)
-ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137308"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757238"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -174,7 +174,7 @@ Teams クライアントを使用しているユーザーと、まだ Skype for 
 期待される動作を確認するために、プレゼンスがユーザーの共存モードに基づいて共有されることを理解する必要があります。
 
 * ユーザーが TeamsOnly モードにある場合は、他のユーザー (Teams または Skype for Business のいずれか) に他のユーザーが表示する場合、そのユーザーのチームプレゼンスのみが表示されます。
-* ユーザーが SfB\*モード (SfbOnly、Sfbwithteams、SfbWithTeamsCollabAndMeetings) のいずれかにある場合は、他のユーザー (Teams または skype for business のいずれか) で、sfb\*ユーザーの skype for business のプレゼンスが表示されます。
+* ユーザーが SfB \* モード (SfbOnly、Sfbwithteams、SfbWithTeamsCollabAndMeetings) のいずれかにある場合は、他のユーザー (Teams または skype for business のいずれか) で、sfb \* ユーザーの Skype for business のプレゼンスが表示されます。
 * ユーザーがアイランド (またはレガシ) モードを使用している場合は、Teams でのプレゼンスと Skype for Business でのプレゼンスは独立しており (値が一致する必要はありません)、他のユーザーには、同じテナントにいるのかフェデレーション テナントにいるのか、またどのクライアントを使用しているのかに応じて、アイランド ユーザーのどちらか一方のプレゼンスが表示されます。
     * Teams では、同じテナント内の他のユーザーには、諸島ユーザーのチームのプレゼンスが表示されます。これは、上のテナント内ルーティングテーブルに揃えられています
     * Teams では、フェデレーションされたテナント内の他のユーザーには、諸島ユーザーの Skype for Business のプレゼンスが表示されます。これは、上のフェデレーションされたルーティングテーブルと一致しています

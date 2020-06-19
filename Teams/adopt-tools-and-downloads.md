@@ -1,10 +1,10 @@
 ---
 title: 採用を推進するためのツール
 ms.reviewer: karuanag
-description: 以下の導入リソースを使用して、Microsoft Teams およびその他の Office 365 サービスの導入を促進します。
+description: 以下の導入リソースを使用して、Microsoft Teams およびその他の Microsoft 365 または Office 365 サービスの導入を促進します。
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551005"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756506"
 ---
 # <a name="tools-for-driving-adoption"></a>導入を推進するためのツール 
 
@@ -148,8 +148,8 @@ ms.locfileid: "42551005"
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Office 365 チャンピオンプログラム
-Office 365 のエキスパートプログラムは、Microsoft Teams やその他の Office 365 サービスをさらに活用したいユーザーを支援する無料プログラムです。 Skype では、 [Microsoft テクニカルコミュニティ](https://aka.ms/DriveAdoption)のオンラインコミュニティを、ガバナンスからベストプラクティスへの導入のすべての要素を強調して、新機能を提供しています。 Skype のコミュニティにhttps://aka.ms/O365Champions参加して、早期リリースへのアクセス、他のお客様からの意見、Microsoft の専門家からのご意見をお寄せください。  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 または Office 365 チャンピオンプログラム
+チャンピオンプログラムは、Microsoft Teams およびその他の Microsoft 365 または Office 365 サービスからより多くの情報を入手したいユーザーを支援する無料プログラムです。 Skype では、 [Microsoft テクニカルコミュニティ](https://aka.ms/DriveAdoption)のオンラインコミュニティを、ガバナンスからベストプラクティスへの導入のすべての要素を強調して、新機能を提供しています。 Skype のコミュニティに参加 https://aka.ms/O365Champions して、早期リリースへのアクセス、他のお客様からの意見、Microsoft の専門家からのご意見をお寄せください。  
 
 ### <a name="teams-adoption-guide"></a>Teams の導入ガイド
 [Teams の導入 flipbook](https://aka.ms/teamstoolkit)を参照してください。このガイドは、社内のチームをロールアウトするのに役立ちます。 このツールには、多くのダウンロード可能なツール、テンプレート、その他のリソースが含まれており、チームの導入過程を進めるのに役立ちます。

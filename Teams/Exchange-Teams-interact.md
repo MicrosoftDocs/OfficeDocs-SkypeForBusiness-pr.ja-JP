@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637066"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752979"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -50,7 +50,7 @@ Exchange Online 専用 (レガシ) でホストされているユーザーは、
 |**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|○ (<sup>8</sup> )|Yes|はい|はい <sup>7</sup>|はい|Yes|Yes|Yes|
 |**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|○ (<sup>8</sup> )|Yes|はい|はい <sup>7</sup>|はい|Yes|Yes|はい|
 |**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|必要|不要|いいえ|はい|必要|いいえ|はい <sup>5|はい <sup>6|Yes|Yes|
-|**Exchange on-premises** (Azure AD との同期 & OAuth 構成が必要)|はい <sup>2</sup>| はい <sup>2</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|○<sup>8</sup> (EXCHANGE 2016 cu3 以降で +)|Yes|必要|いいえ|はい <sup>5|はい <sup>6|Yes|Yes|
+|**Exchange on-premises** (Azure AD との同期 & OAuth 構成が必要)|はい <sup>2</sup>| はい <sup>2</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|いいえ|はい|必要|いいえ|はい <sup>5|はい <sup>6|Yes|Yes|
 
 <sup>1</sup> Exchange 2016 CU3 以降がサポートされています。  
 
@@ -93,7 +93,7 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 
 組織で Microsoft Teams を実装する際は、さらに次の点を考慮する必要があります。
 
-- Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
+- In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
 
 - 条件付きアクセスを使用して、Teams や Exchange のコンプライアンス ポリシーの構成を制御および保護します。 詳細については、「[Teams に条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください .
 

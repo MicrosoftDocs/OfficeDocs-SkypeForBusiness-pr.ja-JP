@@ -1,7 +1,7 @@
 ---
 title: 中小規模企業向けの Teams テンプレート
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Microsoft Teams の事前定義されたテンプレートを使用して、中小規模企業のチームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 89555c13504b621b5cb9c43ae9edb33c9f2bbe54
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904889"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757058"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>中小企業向けの Teams テンプレートを使ってみる
 
@@ -37,7 +37,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 | ベーステンプレートの種類  | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| 中堅 <br>会社全体 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| チャネル <ul><li>General\*</li><li>人事\*</li><li>楽しい機能\*</li></ul><br> アプリ<ul><li>会社ポータル (**人事**チャネルに固定された web サイト) </li> </UL><br>チームのプロパティ <ul><li>チームの表示はプライベートに設定</li></ul> |
+| 中堅 <br>会社全体 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| チャネル <ul><li>一般\*</li><li>人事\*</li><li>楽しい機能\*</li></ul><br> アプリ<ul><li>会社ポータル (**人事**チャネルに固定された web サイト) </li> </UL><br>チームのプロパティ <ul><li>チームの表示はプライベートに設定</li></ul> |
 
 * 自動お気に入りチャネル 
 
@@ -61,7 +61,7 @@ Content-Type: application/json
 
 | ベーステンプレートの種類  | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| 中堅 <br>エグゼクティブチーム | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | チャネル <ul><li>General\*</li><li>外字\*</li></ul> アプリ<ul><li>OneNote (**プライベート**チャネルに固定されています)</li> <li>Planner (**プライベート**チャネルに固定されています) </li></ul><br>チームのプロパティ <ul><li>チームの表示はプライベートに設定</li></ul> | 
+| 中堅 <br>エグゼクティブチーム | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | チャネル <ul><li>一般\*</li><li>外字\*</li></ul> アプリ<ul><li>OneNote (**プライベート**チャネルに固定されています)</li> <li>Planner (**プライベート**チャネルに固定されています) </li></ul><br>チームのプロパティ <ul><li>チームの表示はプライベートに設定</li></ul> | 
 
 * 自動お気に入りチャネル<br>
 
@@ -85,7 +85,7 @@ Content-Type: application/json
 
 | ベーステンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
-| 中堅 <br>Finance  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| チャネル <ul><li>General\*</li><li>外字\*</li></ul><br> アプリ<ul><li>OneNote (**プライベート**チャネルに固定されています)</li> <li>Planner (**プライベート**チャネルに固定されています) </li> </ul><br>チームのプロパティ <ul><li>チームの表示はプライベートに設定</li></ul> | 
+| 中堅 <br>Finance  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| チャネル <ul><li>一般\*</li><li>外字\*</li></ul><br> アプリ<ul><li>OneNote (**プライベート**チャネルに固定されています)</li> <li>Planner (**プライベート**チャネルに固定されています) </li> </ul><br>チームのプロパティ <ul><li>チームの表示はプライベートに設定</li></ul> | 
 
 * 自動お気に入りチャネル
 

@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams のサービス (CCaaS) ソリューションとしての統合された連絡先センターの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dccf00bc362f2404b882eb02cf7f51b532ec9161
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: aceca495760670846a869a8dcca9734a5cf7daa1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691473"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756828"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams の連絡先センターの統合
 
@@ -51,6 +51,7 @@ Microsoft Teams では、チャット、ビデオ会議、通話などの通信�
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | 便利な連絡先 | https://www.niceincontact.com/microsoft-teams                                                            |
+| Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
@@ -213,6 +214,6 @@ Microsoft Teams でサポートされている統合モデルの概要につい�
 </tbody>
 </table>
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 認定プログラムへの参加を求めるベンダーの場合は、メールでお問い合わせください <Teamscategorypartner@microsoft.com> 。

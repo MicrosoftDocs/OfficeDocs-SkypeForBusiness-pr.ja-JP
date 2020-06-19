@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 開封済みメッセージと優先度の通知を含めることができるセキュリティで保護されたメッセージングポリシーをカスタマイズする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: 1321c22f2eac04063723b404153909c20125dd57
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724892"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755831"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>医療組織向け Secure Messaging で Teams を始めましょう
 
@@ -53,7 +53,7 @@ ms.locfileid: "44724892"
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>優先度通知を使って緊急メッセージを送信する
 
-ユーザーは、チャットメッセージを他のユーザーに送信するときに、メッセージを*緊急*としてマークできます。 この機能を使うと、重大なインシデントで注意が必要な場合に、病院のスタッフが簡単に通知を受けることができます。 通常の*重要な*メッセージとは異なり、[優先度通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)は、最大20分間に1回、またはメッセージが受信され、受信者によって読み上げられるまでユーザーに通知され、メッセージが適切なタイミングで処理される可能性を最大化します。
+ユーザーは、チャットメッセージを他のユーザーに送信するときに、メッセージを*緊急*としてマークできます。 この機能を使うと、重大なインシデントで注意が必要な場合に、病院のスタッフが簡単に通知を受けることができます。 通常の*重要な*メッセージとは異なり、[優先度通知](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)は、最大20分間に1回、またはメッセージが受信され、受信者によって読み上げられるまでユーザーに通知され、メッセージが適切なタイミングで処理される可能性を最大化します。
 
 管理者は、このポリシーを割り当てられたユーザーが優先度通知を送信する機能を有効または無効にすることができます。 この機能は既定でオンになっています。 優先度の高いメッセージの受信者は、メッセージポリシーが同じではない可能性があります。また、優先度の高いメッセージの受信を無効にするオプションはありません。 医療アプリケーションの場合、少なくとも一部のユーザーに対してこの機能を有効にすることをお勧めしますが、どちらを選択する必要がありますか。
 

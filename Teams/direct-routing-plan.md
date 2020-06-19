@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691233"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799828"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -49,7 +49,7 @@ Microsoft Phone システムのダイレクトルーティングでは、サポ�
 
 また、直接ルーティングでは、Microsoft 通話プランの追加ライセンスを所有しているユーザーもサポートされます。 詳細については、[電話システムと通話プラン](calling-plan-landing-page.md)に関する記事をご覧ください。 
 
-ダイレクトルーティングでは、ユーザーがスケジュールされた電話会議に参加するときに、ダイヤルイン番号は Microsoft 電話会議サービスによって提供されます。これには、適切なライセンスが必要です。  ダイヤルアウトの場合、Microsoft 電話会議サービスは、適切なライセンスが必要なオンライン通話機能を使用して通話を発信します。 (ダイヤルアウトでは、直接ルーティングによるルーティングが行われないことに注意してください)。詳細については、「[チームとのオンライン会議](https://products.office.com/microsoft-teams/online-meeting-solutions)」を参照してください。 
+ダイレクトルーティングでは、ユーザーがスケジュールされた電話会議に参加するときに、ダイヤルイン番号は Microsoft 電話会議サービスによって提供されます。これには、適切なライセンスが必要です。  ダイヤルアウトの場合、Microsoft 電話会議サービスは、適切なライセンスが必要なオンライン通話機能を使用して通話を発信します。 (注: Microsoft 電話会議ライセンスを持っていない場合、通話は直接ルーティングを通じてルーティングされます)。詳細については、「[チームとのオンライン会議](https://products.office.com/microsoft-teams/online-meeting-solutions)」を参照してください。 
  
 直接ルーティングの展開を計画することは、実装を成功させるための鍵となります。 この記事では、インフラストラクチャとライセンスの要件について説明し、SBC 接続に関する情報を提供します。 
 
@@ -67,7 +67,7 @@ Microsoft Phone システムのダイレクトルーティングでは、サポ�
 ## <a name="infrastructure-requirements"></a>インフラストラクチャの要件
 直接ルーティングを展開するためにサポートされている SBCs、ドメイン、およびその他のネットワーク接続要件のインフラストラクチャ要件を次の表に示します。  
 
-|**インフラストラクチャの要件**|**次のものが必要です**|
+|インフラストラクチャの要件|次のものが必要です|
 |:--- |:--- |
 |セッションボーダーコントローラー (SBC)|サポートされている SBC。 詳細については、「[サポートされる SBCs](#supported-session-border-controllers-sbcs)」を参照してください。|
 |SBC に接続されたテレフォニー trunks|SBC に接続されている1つ以上のテレフォニー trunks。 一方の端では、SBC は直接ルーティングを介して Microsoft 電話システムに接続します。 SBC は、Pbx、アナログテレフォニーアダプターなどのサードパーティ製のテレフォニーエンティティにも接続できます。 SBC に接続された PSTN 接続オプションは動作します。 (SBC への PSTN trunks の設定については、SBC ベンダーまたはトランクプロバイダを参照してください。)|
@@ -136,7 +136,7 @@ SBC ドメイン名は、テナントのドメインに登録されている名�
 
 次の表は、テナントに登録されている DNS 名の例を示しています。名前は、SBC の FQDN として使用できるかどうか、有効な FQDN 名の例です。
 
-|**DNS 名**|**SBC FQDN に使用できます**|**FQDN 名の例**|
+|DNS 名|SBC FQDN に使用できます|FQDN 名の例|
 |:--- |:--- |:--- |
 contoso.com|はい|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|X|Onmicrosoft.com ドメインを使用する場合、SBC 名はサポートされません。
@@ -257,7 +257,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP アドレ
 - Office 365 GCC 高
 - Office 365 DoD
 
-|**通過**|**開始**|**終了**|**ソースポート**|**宛先ポート**|
+|通過|開始|終了|送信元ポート|宛先ポート|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|SIP プロキシ|SBC|1024–65535|SBC で定義されています (Office 365 GCC 高/DoD 専用ポート5061を使用する必要があります)。|
 SIP/TLS|SBC|SIP プロキシ|SBC で定義|5061|
@@ -269,7 +269,7 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 
 次の表は、プライマリデータセンターと第2データセンター間の関係をまとめたものです。
 
-|**プライマリデータセンターの場合**|**EMEA**|**NOAM**|**北部**|
+|プライマリデータセンターの場合|EMEA|NOAM|北部|
 |:--- |:--- |:--- |:--- |
 |セカンダリデータセンター (sip2.pstnhub.microsoft.com)|プロセッサー|ヨーロッパ|プロセッサー|
 |第3のデータセンター (sip3.pstnhub.microsoft.com)|北部|北部|ヨーロッパ|
@@ -298,7 +298,7 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 ### <a name="port-range-applicable-to-all-environments"></a>ポート範囲 (すべての環境に適用される)
 メディアプロセッサのポート範囲は、次の表のように表示されます。 
 
-|**通過**|**開始**|**終了**|**ソースポート**|**宛先ポート**|
+|通過|開始|終了|送信元ポート|宛先ポート|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP/SRTP|メディアプロセッサ|SBC|3478-3481 および49152–53247|SBC で定義|
 |UDP/SRTP|SBC|メディアプロセッサ|SBC で定義|3478-3481 および49152–53247|
