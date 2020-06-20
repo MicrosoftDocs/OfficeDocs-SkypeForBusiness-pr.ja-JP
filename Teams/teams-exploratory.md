@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a342c27c7379ed11e691098fe309fe4e429cb1e0
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689713"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785303"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 =======================================================
@@ -147,6 +147,8 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>従来の Microsoft Teams の商用クラウドの試用版のライセンスはどうなりますか?
 
 2020 年 2 月から、対象ユーザーは最新の Microsoft Teams Exploratory エクスペリエンスの使用を開始できます。 従来の Teams の商用クラウドの試用版のライセンスはすべて、試用版の有効期限が切れる前に自動的に新しいサービスに変換されます。
+
+ユーザーが初めて、有効期限が切れた Teams の商用クラウド試用版にサインインすると、そのユーザーに Teams の探索機能ライセンスが自動的に割り当てられます。 ユーザーがサインインするまで、変換されません。
 
 ### <a name="remove-a-teams-exploratory-license"></a>Teams Exploratory ライセンスを削除する
 
