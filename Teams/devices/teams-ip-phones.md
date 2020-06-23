@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666119"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816818"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -71,6 +71,39 @@ Microsoft Teams の認定を受けているのは、以下のコラボレーシ�
 |Poly Studio X50 | 3.1.1.216109| 2020年6月|フォーカスルーム (3m x 3m) </br> 小会議室 (4.5 m x 4.5 m)|
 |Yealink VC210| 118.15.0.14|2020 年 2 月|フォーカスルーム (3m x 3m) </br> 小会議室 (4.5 m x 4.5 m)|
 
+### <a name="product-release-information-teams-phones"></a>製品のリリース情報-Teams 電話
+最新の Teams IP 電話アプリのバージョンとファームウェアバージョンがリリースされた場合は、次のようになります。
+#### <a name="release-date-may-132020"></a>リリース日: 2020 年5月13日
+#### <a name="app-versions"></a>アプリのバージョン
+|アプリ| バージョン|
+|:---|:---|
+|Teams | 040801|
+|管理者エージェント|210|
+|会社のポータル| 4715|
+
+#### <a name="firmware-versions"></a>ファームウェアのバージョン
+|更新 #3| 製品にリリースされたファームウェア|
+|:---|:---|
+|AudioCodes の C450HD|C450HD_TEAMS_1 3.47|
+|Poly CCX400|1.0.1.0054|
+|Poly CCX500/ CCX600|5.9.13.0306|
+|T55/T56/T58|58.15.0.104|
+|Yealink VP59|91.15.0.40|
+|ごみ箱 CP960|73.15.0.100|
+
+### <a name="product-release-information-collaboration-bar"></a>製品リリース情報-コラボレーションバー
+次に示すのは、最新の Teams コラボレーションバーアプリのバージョンとファームウェアのバージョンです。
+#### <a name="app-versions"></a>アプリのバージョン
+|アプリ| バージョン|
+|:---|:---|
+|Teams | 040901|
+|管理者エージェント|210|
+|会社のポータル| 4715|
+
+#### <a name="firmware-versions"></a>ファームウェアのバージョン
+|更新 #3| 製品にリリースされたファームウェア|
+|:---|:---|
+|Yealink VC210|118.15.0.19|
 
 これらのデバイスでサポートされている機能については、「[Microsoft Teams phones feature set (Microsoft Teams の電話機能セット)](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set)」を参照してください。
 

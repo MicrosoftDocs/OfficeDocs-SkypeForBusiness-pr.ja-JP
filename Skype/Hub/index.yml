@@ -1,0 +1,59 @@
+### YamlMime:Hub
+title: Skype for Business
+summary: Skype for Business の技術ドキュメント
+brand: m365
+metadata:
+  title: Skype for Business
+  description: Skype for Business の技術ドキュメント
+  ms.service: skype-for-business-online
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
+  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.translationtype: HT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "44805548"
+additionalContent:
+  sections:
+  - title: IT 担当者向け
+    items:
+    - title: Skype for Business Online
+      summary: Office 365 環境で Skype for Business Online を管理するためのリソースが見つかります。
+      url: /SkypeForBusiness/skype-for-business-online
+    - title: ハイブリッド ソリューション
+      summary: Skype for Business によるハイブリッド展開の計画については、こちらを参照してください。
+      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+    - title: Skype for Business Server
+      summary: 組織に対して Skype for Business Server を展開および管理します。
+      url: /SkypeForBusiness/skype-for-business-server-2019
+    - title: Skype for Business の PowerShell のリファレンス
+      summary: Skype for business と Skype for business Online を管理するために必要な PowerShell コマンドレットについて説明します。
+      url: /powershell/skype/intro
+    - title: Microsoft Teams
+      summary: Microsoft Teams を正常にロールアウトするために必要な計画、方法、実践的なガイダンスを確認します。
+      url: /MicrosoftTeams/
+    - title: Skype for Business から Microsoft Teams への移行
+      summary: Teams への移行を最適に行うためのガイダンスとツールを確認します。
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: Microsoft Teams ミーティング
+      summary: Microsoft Teams Rooms の計画、展開、管理方法について説明します。
+      url: /SkypeForBusiness/room-systems/
+    - title: Skype for Business 認定プログラム
+      summary: 認定ソリューションおよびデバイスについて説明します。
+      url: /SkypeForBusiness/certification/overview
+    - title: トラブルシューティング
+      summary: IT 担当者および管理者向けのトラブルシューティングおよびサポート リソースをご利用ください。
+      url: /office/troubleshoot
+  - title: 他のユーザー向け
+    items:
+    - title: 開発者
+      summary: Skype for Business のソリューション開発ガイド。
+      url: /skype-sdk/
+    - title: エンド ユーザー
+      summary: support.office.com で Skype for Business ユーザーのためのヘルプ、トレーニング、テクニカル サポートをご利用ください。
+      url: https://support.office.com/skype-for-business

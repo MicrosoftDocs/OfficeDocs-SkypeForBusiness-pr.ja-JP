@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 監査ログから Microsoft Teams のデータを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665639"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816628"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -187,8 +187,8 @@ ms.locfileid: "44665639"
 
 ## <a name="office-365-management-activity-api"></a>Office 365 管理アクティビティ API
 
-Office 365 Management Activity API を使用して、Teams のイベントに関する情報を取得することができます。 Teams の管理アクティビティ API スキーマの詳細については、「 [teams スキーマ](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api)」を参照してください。
+Office 365 Management Activity API を使用して、Teams のイベントに関する情報を取得することができます。 Teams の管理アクティビティ API スキーマの詳細については、「 [teams スキーマ](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
-- [Microsoft 365 コンプライアンスセンターで監査ログを検索する](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 
+- [Microsoft 365 コンプライアンスセンターで監査ログを検索する](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
