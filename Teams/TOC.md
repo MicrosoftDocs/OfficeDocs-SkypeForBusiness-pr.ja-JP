@@ -354,9 +354,19 @@
 ### [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)
 ### [緊急通話のルーティング ポリシーを管理する](manage-emergency-call-routing-policies.md)
 
+## 音声の移行についての Contoso 社のケース スタディ
+### [概要](voice-case-study-overview.md)
+### [Teams のアップグレード プラン](voice-case-study-migration-plan.md)
+### [電話システム](voice-case-study-phone-system.md)
+### [場所に基づくルーティング](voice-case-study-location-based-routing.md)
+### [緊急通話](voice-case-study-emergency-calling.md)
+### [電話会議](voice-case-study-audio-conferencing.md)
+### [自動応答と通話キュー](voice-case-study-call-queues.md)
 
 
-## Reference
+
+
+## リファレンス
 ### 国別電話番号の管理 
 #### [オーストラリアでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 #### [ベルギーでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
@@ -687,7 +697,6 @@
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
-## [組織で Teams をサポートする](Known-issues.md)
 ## [通話品質を監視および管理する](monitor-call-quality-qos.md)
 ### [QoE のレビュー ガイド](quality-of-experience-review-guide.md)
 ### [Teams の QoS をセットアップする](QoS-in-Teams.md)
@@ -703,6 +712,7 @@
 #### [CQD PSTN ダイレクト ルーティング レポートを使用する](CQD-PSTN-report.md)
 ### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [通話品質ダッシュボードでのストリームの分類](stream-classification-in-call-quality-dashboard.md)
+## [Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [インストールと更新に関する問題のトラブルシューティング](troubleshoot-installation.md)
 ## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
 ## [従来のシステムでメッセージおよび通話を受信するときの問題](legacy-login-issues.md)
