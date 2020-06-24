@@ -18,12 +18,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 424798b7f9acf1445510eb6a072631dda9501307
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689733"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854109"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -67,6 +67,14 @@ Teams ライブ イベントを作成または表示するために割り当て�
 
 > [!IMPORTANT]
 > 認証されていない匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。
+
+ゲストがライブイベントに表示されるようにするには、次の操作を行います:
+
+1. [ユーザーをゲストとしてチームに追加します](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
+2. ユーザーにゲストの招待を承諾してチームに参加してもらいます。
+3. [ライブイベントをスケジュールし、ゲストをイベントグループに追加します](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
+
+ベストプラクティスとして、ライブイベントのプロデューサーと発表者がイベントの前にチャットして情報を共有できるように、チャネルを作成することをお勧めします。 Microsoft 365 の資格情報を持たないゲストには、Teams の予定表は表示されません。 簡単にイベントに参加できるように、プロデューサーはイベントリンクをチャネルに投稿できます。 発表者は、Teams を開いてチャネルに移動し、リンクをクリックしてイベントに参加できます。 
 
 ## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか。
 
@@ -117,7 +125,7 @@ Teams ライブ イベントを作成または表示するために割り当て�
 |ライブ キャプションと字幕 |&#x2714; |&#x2714; |&#x274C; |
 |ライブ イベント記録のキャプション |&#x2714; |&#x2714; |&#x2714; |
 |出席者の DVR 制御 (一時停止、巻き戻し) |&#x2714; |&#x2714; |&#x2714; |
-|Partner eCDN のサポート |&#x2714; (Kollective, Ramp) |&#x2714; (Kollective, Ramp) |&#x2714; (Hive、Kollective、Ramp) |
+|Partner eCDN のサポート |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive、Kollective、Ramp) |
 |ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |&#x274C; |
 |視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
