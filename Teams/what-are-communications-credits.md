@@ -21,18 +21,18 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 2f867ec9d5731aba8f0b99cf9d4b82d35f958844
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161728"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44841988"
 ---
 # <a name="what-are-communications-credits"></a>通信クレジットについて
 
-[] コミュニケーション クレジットは、電話会議および通話プランの通話分数に対する支払いに便利な方法です。お客様と、お客様のユーザーは、これにより次のことを確実に行えるようになります。
+Communications Credits are a convenient way to pay for Audio Conferencing and Calling Plan minutes. It helps ensure you and your users are never caught without being able to:
   
-- 電話会議、自動応答、または通話キューで使用する無料電話番号を追加する。無料電話の通話は、分単位で請求され、コミュニケーション クレジットの残高がプラスである必要があります。
+- Add toll-free numbers to use with Audio Conferencing meetings, auto attendants, or call queues. Toll-free calls are billed per minute and require a positive Communications Credits balance.
     
 - 電話会議からダイヤルアウトして、世界中のあらゆる場所から他のユーザーを追加する。
     
@@ -45,10 +45,10 @@ ms.locfileid: "42161728"
 - 月額プランの月額プランがなくなった場合は、1分あたりのダイヤルアウトと料金がかかります。
     
 > [!NOTE]
-> 一部の発信先への発信通話は、お客様の電話会議サブスクリプションに含まれている場合があります。詳細については、お客様のサブスクリプション情報を御覧ください。 
+> Outbound calls to some destinations may be included in your Audio Conferencing subscription. Please check your subscription information for details. 
   
 > [!NOTE]
-> 組織の所在地が Enterprise Agreement (EA) の請求先住所とは別の地域にある場合は、コミュニケーション クレジットを購入できない可能性があります。コミュニケーション クレジットを取得できない場合、ポータルからサポート インシデントを開いてください。永続的な解決策が定まるまで、問題を緩和するために協力します。 
+> If your organization is located in a different region than the billing address of your Enterprise Agreement (EA), you might not be able to purchase Communications Credits. If you are unable to acquire Communications Credits, open a support incident from the portal and we will work with you to mitigate this issue until a permanent solution is in place. 
   
 ## <a name="what-are-the-communications-credits-rates"></a>コミュニケーション クレジットの料金について
 
@@ -56,25 +56,25 @@ ms.locfileid: "42161728"
   
 ## <a name="what-is-it"></a>説明
 
-Skype for Business で無料電話番号を使用する場合は、通話が分単位で請求されるため、コミュニケーション クレジットを設定する必要があります。また、 **PSTN 発信先** にダイヤルアウトする機能が必要な 通話プラン/電話会議ユーザー向けにコミュニケーション クレジットを設定することをお勧めします。ご利用の通話プランまたは電話会議のサブスクリプションでは、多くの国や地域が含まれていますが、一部の発信先が含まれていない可能性があります。コミュニケーション クレジットを設定しない場合や、ユーザーにライセンスを割り当てない場合に (通話プラン、電話会議プラン、または国/地域に基づき) 組織の通話分数が不足すると、これらのユーザーは通話を発信することや、オンラインの電話会議からダイヤルアウトすることができなくなります。
+To use toll-free numbers in Skype for Business, Communications Credits are required as these calls are billed per minute. Also, we recommend that you set up Communications Credits for your Calling Plan and Audio Conferencing users who need the ability to dial out to **any PSTN destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits or assign a license to your users and you run out minutes for your organization (depending on your Calling Plan, Audio Conferencing plan, or your country/region), those users won't be able to make calls or dial out from Online Audio Conferencing meetings.
   
 > [!NOTE]
-> 通信クレジットを設定して、 **Microsoft 365 管理センター** > **** > のユーザーが**アクティブな**ユーザーに対して通信クレジットライセンスを割り当てる必要があります。 
+> 通信クレジットを設定して、 **Microsoft 365 管理センター**のユーザーが  >  **Users**  >  **アクティブな**ユーザーに対して通信クレジットライセンスを割り当てる必要があります。 
   
 コミュニケーション クレジットの最適な設定を把握するために、組織の PSTN サービスの利用状況を注意深く評価することをお勧めします。 PSTN サービスの詳細については、「[電話システムと通話プラン](calling-plan-landing-page.md)」および「電話[会議の一般的な質問](Audio-Conferencing-common-questions.md)」を参照してください。
   
-追加機能プラン請求は、前払い残高の **一度払い** **を使用するか、** **自動リチャージ** 額 ( **推奨** ) を設定することで設定できます。後者の場合、リチャージ分を購入するタイミングを決める最低残高を指定できます。最初は、自動リチャージ額の設定をお勧めします。そうすると、実際の通話量を監視してニーズや使用パターンに合った自動リチャージの限度額を知ることができます。コミュニケーション クレジットは、ある程度の期間をかけて測定し、それぞれの組織のニーズに応じて最低残高やリチャージ額を調整する必要があります。
+You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
   
 > [!NOTE]
-> [Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)し、[ > **サブスクリプション** > の**追加**] サブスクリプションに移動して、プランと**価格を確認**できます。 
+> [Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)し、[サブスクリプションの追加]**サブスクリプションに移動**して、プランと価格を確認でき  >  **Subscriptions**  >  **Add subscriptions**ます。 
   
-**Microsoft 365 管理センター** > **支払い** > **購入サービス** > **アドオン**では、クレジットを追加するための通信クレジットを選ぶことができます。また、いつでも手動でクレジットを追加することができます。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
+**Microsoft 365 管理センター**の  >  **支払い**  >  **購入サービス**  >  **アドオン**では、クレジットを追加するための通信クレジットを選ぶことができます。また、いつでも手動でクレジットを追加することができます。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You will be sent an email when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
-Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. Skype for business を既にサービスプロバイダとして使用している組織の場合は、 **Microsoft 365 管理センター** > の**レポート**または**skype for business 管理センター** > **** > で**PSTN の使用状況の詳細**を確認して、利用状況データを取得できます。
+Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. Skype for business を既にサービスプロバイダとして使用している組織の場合は、 **Microsoft 365 管理センター**の  >  **レポート**または**skype for business 管理センター**で  >  **Reports**  >  **PSTN の使用状況の詳細**を確認して、利用状況データを取得できます。
   
-コミュニケーション クレジットを設定する場合は、組織の通話の利用状況を調べて、入力する必要のある料金を決める必要があります。通話の利用状況の情報は、[ **PSTN 利用状況の詳細**] レポートで確認できます。このレポートを使うと、カスタム レポートを作成したり、通話データ記録を Excel にエクスポートしたりすることができます。
+When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the **PSTN usage details** report. This report lets you export the call data records to Excel and create custom reports.
 
 > [!NOTE]
 > 通信クレジットは、有料サービス番号にも使用されます。 発信者は料金を支払います。
@@ -95,11 +95,11 @@ Each organization will have a different usage of Calling Plans volume and rates 
     
 - [電話システム](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)し、[ > **サブスクリプション** > の**追加**]**サブスクリプションに移動**して、価格に関する情報を表示することもできます。
+[Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、[**課金**サービス] に移動して、価格に関する情報を表示することもでき  >  **Purchase Services**ます。
   
 各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business PSTN 使用状況レポート](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   

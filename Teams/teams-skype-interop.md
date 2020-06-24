@@ -12,16 +12,14 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 組織内の Teams ユーザーと Skype (コンシューマー) ユーザーとの相互運用性機能について説明します。
 localization_priority: Normal
-ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410432"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859642"
 ---
 # <a name="teams-and-skype-interoperability"></a>チームと Skype の相互運用性
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 この記事では、Microsoft Teams と Skype (コンシューマー) との間の相互運用性機能の概要について説明します。 チームのユーザーと Skype ユーザーが、チャットや通話、および適用される管理コントロールによってコミュニケーションを行う方法について説明します。
 

@@ -17,16 +17,14 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で機密ラベルを定義して使用する方法について説明します。
-ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562072"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854119"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams の機密ラベル
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 機密[ラベル](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)を使用すると、チームの管理者はチーム内で共同作業を行って作成された機密組織のコンテンツへのアクセスを規制できます。 [セキュリティ & コンプライアンスセンター](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)では、機密ラベルと関連するポリシーを定義できます。 このようなラベルとポリシーは、組織内の teams に自動的に適用されます。  
 
@@ -36,19 +34,20 @@ ms.locfileid: "44562072"
 
 一方、機密ラベルとそのポリシーは、グループプラットフォーム、セキュリティ & コンプライアンスセンター、および Teams サービスの組み合わせによって、自動的にエンドツーエンドで適用されます。 機密ラベルを使用すると、組織の機密データをセキュリティで保護するための強力なインフラストラクチャサポートが提供されます。  
 
+分類ラベルを使用して、機密ラベルを使用して既存のグループを移行するには、「 [Microsoft 365 グループの Azure Active Directory の分類と秘密度ラベル](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels)」の手順を使用します。
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Teams の機密ラベルを作成、管理、および公開する
 
-Teams の機密ラベルを有効にし、作成して発行する方法については、「 [Microsoft Teams、microsoft 365 グループ、SharePoint サイトで機密ラベルを使用](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)する」を参照してください。
+Teams の機密ラベルを有効にし、作成して発行する方法については、「 [Microsoft 365 グループの Azure Active Directory の分類と機密ラベル](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)」を参照してください。
 
 >[!IMPORTANT]
 >機密ラベルの作成、更新、削除には、ユーザーにラベルを発行するための順序を慎重に付ける必要があります。 順序を逸脱すると、すべてのユーザーに対して永続的なチーム作成エラーが発生する可能性があります。 したがって、<a href="#createpublishlabels">ラベルの作成と発行</a>、発行された<a href="#modifydeletelabels">ラベルの変更と削除</a>、<a href="#manageerrors">チーム作成エラーの管理</a>を行う場合は、次の操作を実行することが重要です。
 
 <a name="createpublishlabels"> </a> **ラベルを作成して発行する**
 
-セキュリティ & コンプライアンスセンターでラベルを作成して公開するときに、ラベルが teams 作成インターフェイスに表示されるまでに最大24時間かかることがあります。 テナントのすべてのユーザーのラベルを発行するには、次の手順を実行します。
+セキュリティ & コンプライアンスセンターでラベルを作成して公開すると、チーム作成インターフェイスでラベルが表示されるまでに最大10分かかることがあります。 テナントのすべてのユーザーのラベルを発行するには、次の手順を実行します。
 1. ラベルを作成して、テナント内のいくつかの選択されたユーザーアカウントに公開します。
-2. ラベルが公開されたら、24時間待ちます。
-3. 24時間後に、ラベルにアクセスできるいずれかのユーザーアカウントを使用して、ラベルを含むチームを作成してみてください。
+2. ラベルが公開されたら、10分待ちます。
+3. 10分後に、ラベルにアクセスできるいずれかのユーザーアカウントを使用して、ラベルを含むチームを作成してみてください。
 4. 手順3でチームが正常に作成された場合は、テナントに残りのユーザーのラベルを公開します。
 
 <a name="modifydeletelabels"> </a> **公開したラベルを変更および削除**する
@@ -56,8 +55,8 @@ Teams の機密ラベルを有効にし、作成して発行する方法につ�
 機密ポリシーに関連付けられているラベルを削除または変更すると、テナントでのチームの作成エラーが発生する可能性があります。 したがって、ラベルを削除または変更する前に、最初にラベルと関連付けられているポリシーの関連付けを解除する必要があります。 次の手順を使用します。  
 ラベルを削除または変更するには、次の操作を行います。
 1. ラベルを使用するすべてのポリシーからラベルを削除します。 または、ポリシー自体を削除することもできます。
-2. ラベルがポリシーから削除された場合やポリシー自体が削除された場合は、さらに作業を続ける前に、48時間待ちます。
-3. 48時間経過したら、チーム作成インターフェイスを起動し、テナント内のユーザーのラベルが表示されなくなったことを確認します。
+2. ラベルをポリシーから削除するか、ポリシー自体を削除したら、10分待ってからさらに進みます。
+3. 10分後に、チーム作成インターフェイスを起動し、テナント内のユーザーのラベルが表示されなくなったことを確認します。
 4. これで、ラベルを安全に削除または変更できます。
 
 **チーム作成エラー** <a name="manageerrors"> </a>を管理する
