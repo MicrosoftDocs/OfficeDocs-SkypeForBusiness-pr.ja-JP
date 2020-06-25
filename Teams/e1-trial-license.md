@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b8cd74a8ac6c06a1bc51368009051dbacaca962
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 03544095e5189af2f80714151f31648f79e65c8d
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691353"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868674"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 試用版を管理する
 ==============================
@@ -85,8 +85,7 @@ E1 試用版のユーザーを有料サブスクリプションにアップグ�
 
 - Powershell を使用してこのライセンスを削除する場合は、次を参照してください :「[Office 365 PowerShell を使用してユーザー アカウントからライセンスを削除する](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)」
 
-- 管理ポータルからこのライセンスを削除する場合は、:「[一般法人向け Microsoft 365 のユーザーからライセンスを削除する](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)」を参照してください。
-
+- 管理ポータルからこのライセンスを削除する場合は、「[組織からユーザーを削除する](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
