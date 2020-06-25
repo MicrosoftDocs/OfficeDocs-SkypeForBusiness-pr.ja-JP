@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams のクラウド自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697432"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874248"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>クラウドの自動応答をセットアップする
 
@@ -220,7 +220,7 @@ ms.locfileid: "44697432"
 
 > [!IMPORTANT]
 > 次のことを確認してください。
->- 内線番号でダイヤルできるようにするには、Active Directory または Azure Active Directory [Microsoft 365 管理センター](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)で定義されている次のいずれかの電話属性の一部として内線番号を指定する必要があります。
+>- 内線番号を使用できるようにするには、Active Directory または Azure Active Directory で定義されている次のいずれかの電話属性の一部として内線番号が指定されている必要があります (詳しくは、「ユーザーを個別に追加するか、「一括で追加する」をご覧ください) https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 。
 >    - HomePhone
 >    - 携帯電話/MobilePhone
 >    - TelephoneNumber/PhoneNumber

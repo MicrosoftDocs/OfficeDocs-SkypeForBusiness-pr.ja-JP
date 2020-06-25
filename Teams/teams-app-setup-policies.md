@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b804916609b121ba02a048d1763c4181fb5d0a63
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ef4ff711aa385c062ca6d507363b4d1a1a5d88e4
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691023"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868570"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -200,7 +200,7 @@ Teams のモバイルクライアントでは、ユーザーにはアクティ�
 
 アプリを申請する前に、ロゴガイドラインに従っていることを確認してください。 詳細については、「[販売業者ダッシュボードの申請のチェックリスト](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)」を参照してください。 
 
- ## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連項目
 
 - [Teams でのアプリの管理設定](admin-settings.md)
 - [チームのユーザーにポリシーを割り当てる](assign-policies.md)

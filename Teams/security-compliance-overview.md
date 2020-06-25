@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33c09a92d8c23d8bc4c13c9a131eb82733378840
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 43535495153979642e0913c18d39581406fbf84c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841898"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868084"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -45,7 +45,7 @@ Microsoft Teams は、Microsoft 365 および Office 365 の hyper-v で構成�
 - [Microsoft Teams でのセキュリティとコンプライアンスに関する扱い](https://www.youtube.com/watch?v=Km4T4hMM__k) (10 分 54 秒)
 
 > [!IMPORTANT]
-> Microsoft 365 または Office 365 のお客様は、データを所有して管理します。 Microsoft は、お客様が登録したサービスを提供する以外の目的で、お客様のデータを使用することはありません。 サービス プロバイダーとして、広告のため、またはサービスに関連しない用途のために、メール、ドキュメント、チームをスキャンすることはありません。 Microsoft には、アップロードされたコンテンツへのアクセス権がありません。 OneDrive for Business および SharePoint Online と同様に、顧客データはテナント内に留まります。 信頼およびセキュリティに関連する情報の詳細については、[Microsoft Trust Center](https://microsoft.com/trustcenter) で確認できます。 Teams は Microsoft Trust Center と同じガイダンスと原則に従っています。
+> Microsoft 365 または Office 365 のお客様は、データを所有して管理します。 Microsoft は、お客様が登録したサービスを提供する以外の目的で、お客様のデータを使用することはありません。 サービス プロバイダーとして、広告のため、またはサービスに関連しない用途のために、メール、ドキュメント、チームをスキャンすることはありません。 Microsoft には、アップロードされたコンテンツへのアクセス権がありません。 Microsoft 365 の OneDrive と SharePoint と同様に、顧客データはテナント内に残ります。 信頼およびセキュリティに関連する情報の詳細については、[Microsoft Trust Center](https://microsoft.com/trustcenter) で確認できます。 Teams は Microsoft Trust Center と同じガイダンスと原則に従っています。
 
 ## <a name="security"></a>セキュリティ
 
@@ -53,14 +53,14 @@ Teams では、チーム全体および組織全体の 2 要素認証、Active D
 
 認証と Teams の詳細については、「[ID モデルと認証](identify-models-authentication.md)」を参照してください。先進認証については、「[先進認証のしくみ](sign-in-teams.md)」が特に役立ちます。
 
-Teams は SharePoint、OneNote、Exchange などと連携して動作するため、Microsoft 365 または Office 365 のセキュリティの管理に慣れている必要があります。 詳細については、「[Microsoft 365 または Office 365 組織を構成してセキュリティを強化する方法](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)」を参照してください。
+Teams は SharePoint、OneNote、Exchange などと連携して動作するため、Microsoft 365 または Office 365 のセキュリティの管理に慣れている必要があります。 詳細については、「 [Microsoft 365 または Office 365 組織を構成してセキュリティを強化する方法](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)」を参照してください。
 
 > [!NOTE]
 > 現時点では、[プライベート チャネル](private-channels.md)でサポートされるセキュリティとコンプライアンス機能は制限されています。 プライベート チャネルにおけるすべてのセキュリティ機能とコンプライアンス機能のサポートは、近日中に行われる予定です。
 
 ### <a name="advanced-threat-protection-atp"></a>Advanced Threat Protection (ATP)
 
-Advanced Threat protection (ATP) は、SharePoint および OneDrive for Business と共に Microsoft Teams で利用できます。また、コンテンツ管理のチームと統合されているアプリケーションにも対応しています。 ATP を使用すると、これらのアプリケーションのコンテンツが悪意のあるものであるかどうかを判断し、ユーザーのアクセスからこのコンテンツをブロックすることができます。
+Advanced Threat protection (ATP) は、SharePoint および OneDrive と共に、Microsoft Teams と共に、コンテンツ管理のチームと統合されたアプリケーションで利用できます。 ATP を使用すると、これらのアプリケーションのコンテンツが悪意のあるものであるかどうかを判断し、ユーザーのアクセスからこのコンテンツをブロックすることができます。
 
 検出後に影響を受けるコンテンツがどのように管理されるかは、Microsoft 365 または Office 365 で選択した設定によって異なります。 ATP の構成については、すべてのアプリケーションについて考慮することを強くお勧めします。さらに詳しくは、「 [SharePoint、OneDrive、Microsoft Teams の atp の分析](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)について」を参照してください。
 
@@ -70,13 +70,13 @@ Advanced Threat protection (ATP) は、SharePoint および OneDrive for Busines
 
 ### <a name="safe-attachments"></a>安全な添付ファイル
 
-安全な添付ファイルは、悪意のある添付ファイルを確認し、検出することによって、ユーザーのセキュリティを強化するために設計された機能です。 グローバル管理者またはセキュリティ管理者は、悪意のある可能性がある添付ファイルを処理するための[ポリシー](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)を作成して、ユーザーへの送信、クリック、操作ができないようにします。 安全な添付ファイルの保護は、SharePoint Online、OneDrive for Business、Microsoft Teams で利用できます。また、Microsoft 365 または Office 365 [Advanced Threat Protection プラン1と 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)には、この機能があります。 安全な添付ファイルの詳細について[は、こちら](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)を参照してください。
+安全な添付ファイルは、悪意のある添付ファイルを確認し、検出することによって、ユーザーのセキュリティを強化するために設計された機能です。 グローバル管理者またはセキュリティ管理者は、悪意のある可能性がある添付ファイルを処理するための[ポリシー](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)を作成して、ユーザーへの送信、クリック、操作ができないようにします。 安全な添付ファイルの保護は、SharePoint、OneDrive、Microsoft Teams で利用できます。 Microsoft 365 または Office 365 [Advanced Threat Protection プラン1と 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)には、この機能があります。 安全な添付ファイルの詳細について[は、こちら](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)を参照してください。
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Teams での条件付きアクセス ポリシーの仕組み
 
-Microsoft Teams は、会議、カレンダー、相互運用チャット、ファイル共有などの主要な生産性に関するシナリオについて、Exchange Online、SharePoint Online、および Skype for Business Online と強く結びついています。 これらのクラウド アプリ向けに設定された条件付きアクセス ポリシーは、任意のクライアントの Microsoft Teams にユーザーが直接サインインするときに適用されます。
+Microsoft Teams は、会議、予定表、相互運用チャット、ファイル共有などの主要な生産性のシナリオを実現するために、Exchange Online、SharePoint、Skype for Business Online に大きく依存しています。 これらのクラウド アプリ向けに設定された条件付きアクセス ポリシーは、任意のクライアントの Microsoft Teams にユーザーが直接サインインするときに適用されます。
 
-Microsoft Teams は、Azure Active Directory の条件付きアクセス ポリシーのクラウド アプリとして個別にサポートされています。 Microsoft Teams クラウド アプリ向けに設定されている条件付きアクセス ポリシーは、ユーザーがサインインするときに Microsoft Teams に適用されます。 ただし、 Exchange Online や SharePoint Online などの他のアプリにおいて適正なポリシーがなくでも、ユーザーはそれらのリソースに直接アクセスできます。 Azure ポータルでの条件付きアクセス ポリシーの設定の詳細については、「[Azure Active Directory のクイックスタート](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)」を参照してください。
+Microsoft Teams は、Azure Active Directory の条件付きアクセス ポリシーのクラウド アプリとして個別にサポートされています。 Microsoft Teams クラウド アプリ向けに設定されている条件付きアクセス ポリシーは、ユーザーがサインインするときに Microsoft Teams に適用されます。 ただし、Exchange Online や SharePoint などの他のアプリに適切なポリシーが適用されていない場合でも、ユーザーはこれらのリソースに直接アクセスできる可能性があります。 Azure ポータルでの条件付きアクセス ポリシーの設定の詳細については、「[Azure Active Directory のクイックスタート](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)」を参照してください。
 
 Windows および Mac 版の Microsoft Teams デスクトップ クライアントは先進認証をサポートしています。 先進認証により、Azure Active Directory 認証ライブラリ (ADAL) に基づくサインインが、あらゆるプラットフォームの Microsoft Office クライアント アプリケーションに導入されています。
 
@@ -153,7 +153,7 @@ Microsoft 365 コンプライアンスセンターでの保存と保持の詳細
 
 ### <a name="auditing-and-reporting"></a>監査と報告
 
-監査ログの検索プラグインは、Microsoft 365 コンプライアンスセンターに直接表示されます。また、監査イベントに関するレポートを作成することもできます。これにより、管理者は、ワークロードの特定のイベントセットまたは汎用イベントセットのエクスポートを無制限の監査タイムラインで行うことができます。 Microsoft 365 コンプライアンスセンター内のすべての監査ログデータに対して警告を設定し、さらに分析するためにこのデータをフィルター処理してエクスポートすることができます。 Microsoft 365 または Office 365 の監査ログの実施方法の詳細については、「[監査ログの検索](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」の記事を参照してください。 Microsoft 365 コンプライアンスセンターで Microsoft Teams のイベントを検索する方法については、「 [Teams で監査を有効](audit-log-events.md)にする」を参照してください。
+監査ログの検索プラグインは、Microsoft 365 コンプライアンスセンターに直接表示されます。また、監査イベントに関するレポートを作成することもできます。これにより、管理者は、ワークロードの特定のイベントセットまたは汎用イベントセットのエクスポートを無制限の監査タイムラインで行うことができます。 Microsoft 365 コンプライアンスセンター内のすべての監査ログデータに対して警告を設定し、さらに分析するためにこのデータをフィルター処理してエクスポートすることができます。 Microsoft 365 または Office 365 の監査ログの検索を実行する方法について詳しくは、「[監査ログの検索](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」を参照してください。 Microsoft 365 コンプライアンスセンターで Microsoft Teams のイベントを検索する方法については、「 [Teams で監査を有効](audit-log-events.md)にする」を参照してください。
 
 ## <a name="privacy"></a>プライバシー
 
@@ -197,6 +197,8 @@ Teams では、 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/
 
 ## <a name="related-topics"></a>関連項目
 
-[Microsoft 365 セキュリティ](https://docs.microsoft.com/microsoft-365/security/) 
-[Microsoft 365 のコンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/) 
+[Microsoft 365 セキュリティ](https://docs.microsoft.com/microsoft-365/security/)
+
+[Microsoft 365 のコンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/)
+
 [Microsoft のコンプライアンスサービス](https://docs.microsoft.com/microsoft-365/compliance/offering-home)

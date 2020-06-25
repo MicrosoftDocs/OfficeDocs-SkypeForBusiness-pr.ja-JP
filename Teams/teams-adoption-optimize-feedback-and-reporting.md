@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1577000dfe1adcdbc7c1bb0c03ce6c90aa3b29f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e883a71d22a8af6c2af6eee8cdbd30e5b618f4dc
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666289"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868644"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
@@ -57,7 +57,7 @@ Microsoft Teams の使用を拡大縮小するための準備として、展開�
 Microsoft Teams の展開と採用の際には、次の3種類のレポートを確認する必要があります。
 
 - [サービス正常性](https://status.office365.com/)– Microsoft 365、Office 365、社内 IT サポート部門。
-- [サービスアクティビティ](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)– microsoft 365 または Office 365 では、 [microsoft Teams のレポート](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)を表示できます。 組織内の他のシステムの情報を使用することもできます。
+- [管理センターの microsoft 365 レポート](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)-microsoft 365 または Office 365 からの Microsoft [365 レポートを管理センターで表示-microsoft Teams ユーザーアクティビティ](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity) 組織内の他のシステムの情報を使用することもできます。
 - サービスの満足度–社内コミュニティフォーラムから収集された、特定のエクスペリエンスに関するアンケート
 
 ![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) :[ドライブの認識とトレーニングの実装](teams-adoption-drive-awareness.md)

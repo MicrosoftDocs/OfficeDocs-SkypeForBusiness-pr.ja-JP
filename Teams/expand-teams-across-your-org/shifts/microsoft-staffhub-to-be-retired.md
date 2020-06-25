@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 7e557d204ca838ce3f8c5bad9c2c62949bf836aa
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350161"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868664"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub の廃止
 
@@ -133,7 +133,7 @@ Teams では、Skype for Business との共存がサポートされています�
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>StaffHub では、StaffHub teams によって作成されたすべての Microsoft 365 グループに、特別な接頭文字を追加することができます。 Teams でも同じことができますか?
 
-StaffHub から Teams に移動しても、同じ機能はありません。 すべての Microsoft 365 グループに名前の整合性を適用する必要がある場合は、 [microsoft 365 グループの名前付けポリシー](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)を使用できます。
+StaffHub から Teams に移動しても、同じ機能はありません。 すべての Microsoft 365 グループに名前の整合性を適用する必要がある場合は、[グループの名前付けポリシー](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)を使用できます。
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>Teams でチーム名は同じになりますか?
 

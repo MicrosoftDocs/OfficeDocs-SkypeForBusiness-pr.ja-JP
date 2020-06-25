@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: カスタムチームアプリを開発から展開に移動する方法について説明します。
-ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 705f5ecf5628dd981a4deb3ded847b3da8e9ea08
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064532"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868514"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Microsoft Teams でカスタムアプリを管理する
 
@@ -41,7 +41,7 @@ Teams でカスタムアプリを作成して管理するには、2つのテナ�
 
 ### <a name="create-test-users"></a>テストユーザーを作成する
 
-社内または外部の開発者がテストテナントのアカウントを持っているかどうかを確認します。 <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">詳しく</a>は、「ユーザーの追加」をご覧ください。
+社内または外部の開発者がテストテナントのアカウントを持っているかどうかを確認します。 <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users" target="_blank">詳しく</a>は、「ユーザーの追加」をご覧ください。
 
 ### <a name="allow-custom-apps-in-the-test-tenant"></a>テストテナントでカスタムアプリを許可する
 
@@ -50,13 +50,13 @@ Teams でカスタムアプリを作成して管理するには、2つのテナ�
 ユーザーがカスタムアプリをアップロードすることを許可するには、次の手順を実行します。
 
 1. [**カスタムアプリの組織全体での操作を許可する**] 設定をオンにします。 その手順は次のとおりです。
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ** > の**管理**] に移動し、[**組織全体のアプリの設定**] をクリックします。
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ**の管理] に移動し、  >  **Manage apps**[**組織全体のアプリの設定**] をクリックします。
     2. [**カスタムアプリ**] の下で、[**カスタムアプリでの操作を許可**する] をオンにし、[**保存**] をクリックします。
 
     !["カスタムアプリでの操作を許可する" 組織全体でのアプリ設定のスクリーンショット](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. グローバルアプリセットアップポリシーで [**カスタムアプリのアップロード**] 設定をオンにします。 その手順は次のとおりです。
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動し、[**グローバル (組織全体の既定)** ] ポリシーをクリックします。
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動し、[**グローバル (組織全体の既定)** ] ポリシーをクリックします。
     2. [**カスタムアプリのアップロード**] をオンにし、[**保存**] をクリックします。
 
     !["カスタムアプリのアップロード" アプリセットアップポリシーの設定のスクリーンショット](media/manage-your-lob-apps-app-setup-custom-apps.png)
@@ -86,13 +86,13 @@ Microsoft は、<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 信頼されたユーザーに対してカスタムアプリのアップロードを許可するには、次の手順を実行します。
 
 1. [**カスタムアプリの組織全体での操作を許可する**] 設定をオンにします。 その手順は次のとおりです。
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ** > の**管理**] に移動し、[**組織全体のアプリの設定**] をクリックします。
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ**の管理] に移動し、  >  **Manage apps**[**組織全体のアプリの設定**] をクリックします。
     2. [**カスタムアプリ**] の下で、[**カスタムアプリでの操作を許可**する] をオンにし、[**保存**] をクリックします。
 2. グローバルアプリセットアップポリシーで [**カスタムアプリのアップロード**] 設定をオフにします。 その手順は次のとおりです。
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動し、[**グローバル (組織全体の既定)** ] ポリシーをクリックします。
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動し、[**グローバル (組織全体の既定)** ] ポリシーをクリックします。
     2. [**カスタムアプリのアップロード**] をオフにして、[**保存**] をクリックします。
 3. カスタムアプリをアップロードして、信頼されたユーザーのセットに割り当てることができる新しいアプリのセットアップポリシーを作成します。 その手順は次のとおりです。
-    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ** > **セットアップポリシー**] に移動し、[**追加**] をクリックします。 新しいポリシーに名前と説明を付け、[**カスタムアプリのアップロード**] をオンにして、[**保存**] をクリックします。
+    1. <a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft Teams 管理センター</a>の左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動し、[**追加**] をクリックします。 新しいポリシーに名前と説明を付け、[**カスタムアプリのアップロード**] をオンにして、[**保存**] をクリックします。
     2. 作成した新しいポリシーを選択し、[**ユーザーの管理**] をクリックします。 ユーザーを検索し、[**追加**] をクリックして、[**適用**] をクリックします。 この手順を繰り返して、すべての信頼できるユーザーにポリシーを割り当てます。
 
         ![[アプリセットアップポリシーの追加] ページのスクリーンショット](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -125,7 +125,7 @@ Microsoft は、<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 アプリを更新するには、開発者が[手順 1](#step-1-develop-and-test)と[手順 2](#step-2-validate-in-production)に従って続行する必要があります。
 
-テナントアプリカタログを使用して、アプリを更新することができます。 これを行うには、Microsoft Teams 管理センターで、[ **Teams アプリ** > の**管理**] に移動します。 アプリの一覧で、アプリ名をクリックし、[**更新**] をクリックします。 この操作を行うと、テナントアプリカタログの既存のアプリは置き換えられ、アプリのすべてのアクセス許可ポリシーとアプリのセットアップポリシーは、更新されたアプリに適用されたままになります。
+テナントアプリカタログを使用して、アプリを更新することができます。 これを行うには、Microsoft Teams 管理センターで、[ **Teams アプリ**の管理] に移動  >  **Manage apps**します。 アプリの一覧で、アプリ名をクリックし、[**更新**] をクリックします。 この操作を行うと、テナントアプリカタログの既存のアプリは置き換えられ、アプリのすべてのアクセス許可ポリシーとアプリのセットアップポリシーは、更新されたアプリに適用されたままになります。
 
 ### <a name="end-user-update-experience"></a>エンドユーザーによる更新エクスペリエンス
 

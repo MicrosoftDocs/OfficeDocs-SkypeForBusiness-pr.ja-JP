@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 または Office 365 の電話会議 (PSTN 会議) ライセンスを試用または購入して、ユーザーがダイヤルインできる電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: db49a690ef0936dc22a618756d15064543074137
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691543"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868535"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft Teams の Microsoft 365 で電話会議を試用または購入する
 
@@ -52,7 +52,7 @@ ms.locfileid: "44691543"
 
    - **購入する場合は、**「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
-3. 会議をスケジュールまたは開催しようとしている組織内のユーザーに、個別に、[またはまとめてユーザーを追加](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)します。
+3. 会議をスケジュールまたは開催しようとしている組織内の[ユーザーにライセンスを割り当て](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)ます。
 
 4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
 
@@ -69,7 +69,7 @@ ms.locfileid: "44691543"
     > [!IMPORTANT]
     > コミュニケーション クレジットが設定されていない場合、電話会議が分数ごと従量課金ライセンスを持つすべてのユーザーに対して機能しません。
 
-4. 会議をスケジュールまたは開催しようとしている組織内のユーザーに、個別に、[またはまとめてユーザーを追加](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)します。
+4. 会議をスケジュールまたは開催しようとしている組織内の[ユーザーにライセンスを割り当て](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)ます。
 
     > [!NOTE]
     > 分数ごと従量課金制電話会議のライセンスがあれば、電話会議の使用率 (他のサービスを割り当てる必要がある可能性があります) の各ユーザーに個別にコミュニケーション クレジットのライセンスを割り当てる必要はありません。
@@ -94,7 +94,7 @@ ms.locfileid: "44691543"
 
 
 > [!NOTE]
-> この機能は、21Vianet が運営する Office 365 を中国で使用しているお客様にはまだご利用いただけません。詳細については、「 [21Vianet が運営する Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)」を参照してください。
+> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>関連項目
 

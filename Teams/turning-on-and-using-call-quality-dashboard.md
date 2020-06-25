@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボードをオンにして使用し、通話の品質に関する概要レポートを取得する方法について説明します。
-ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8f1bd778cfa24551d90b0186e606235193a47b0d
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697429"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874258"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する
 
@@ -41,7 +41,7 @@ ms.locfileid: "44697429"
 
 ## <a name="assign-roles-for-accessing-cqd"></a>CQD にアクセスするための役割の割り当て
 
-CQD にアクセスするための[役割](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)を、使用する必要があるユーザーに割り当てます。 
+CQD にアクセスするための[役割](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)を、使用する必要があるユーザーに割り当てます。
 
 次の表に、CQD で実行できる各役割について説明します。
 

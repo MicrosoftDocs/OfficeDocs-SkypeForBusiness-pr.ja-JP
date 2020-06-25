@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: 累積的な更新プログラム1をインストールした後、PowerShell を使用して Skype for Business Server 2019 の SEFAUtil 機能を取得する方法について説明します。'
-ms.openlocfilehash: 24040a3da5dc2549996463078a55324f3fc03657
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 19c3ba1124bbc1f32f301096036404f8bd101fe9
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232568"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868554"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Skype for Business Server 2019 での PowerShell による SEFAUtil 機能の使用
 
@@ -94,7 +94,7 @@ SEFAUtil (セカンダリ拡張機能のアクティブ化) を使用すると�
 
 このコマンドレットは、チームリストを特定のメンバーに設定します。
 
-## <a name="more-information"></a>More information
+## <a name="more-information"></a>詳細情報
 
 オンプレミス展開の場合、この機能で導入されたコマンドレットは、次のグループのメンバーのみが実行できます。以下に指定するアクセスレベルごとに、
 
@@ -103,7 +103,7 @@ SEFAUtil (セカンダリ拡張機能のアクティブ化) を使用すると�
 - CsHelpDesk-すべてのコマンドレットの取得
 
 これらの管理者ロールの詳細については、「 [Skype For Business Server コントロールパネル管理者の作成](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)」を参照してください。 管理者は、サーバーコンピューターに直接またはリモートでログオンして、これらのコマンドレットにアクセスできます。
-ハイブリッド展開の場合、Skype for Business 管理者は Get を呼び出してすべてのコマンドレットに設定できます。 役割の完全な一覧の詳細については、「[管理者の役割につい](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)て」を参照してください。
+ハイブリッド展開の場合、Skype for Business 管理者は Get を呼び出してすべてのコマンドレットに設定できます。 役割の完全な一覧の詳細については、「[管理者の役割につい](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)て」を参照してください。
 
 > [!NOTE]
 > サーバーの自動検出を有効にする必要があります。 コマンドレットを使用するために、追加のライセンス要件は導入されていません。

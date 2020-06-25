@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、更新、ユーザーインターフェイス、ハードウェア、制限事項、予期される動作など、Microsoft Teams のルームの既知の問題のリストについて知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e3cb46ed1ca3fde81f301ec6c2f2f8620452b389
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: 1083ceb040f173aeef0a8a60d56a888a6b8fdb17
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338227"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874454"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -31,9 +31,10 @@ ms.locfileid: "44338227"
 
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            | --- |
+| アプリケーションが起動しない |  アプリケーションバージョン4.4.41.0 に更新した後、システムは黒い画面で起動するか、数分後にログオン画面に移動します。 | この問題を解決するために、 [Microsoft Teams 会議室アプリケーションは、バージョン4.4.41.0 への更新後は開始されません](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)。  | なし |
 |  旧版のアプリ         |    Microsoft Teams Rooms のコンソールには、「システム構成が古くなっています」というエラーが表示されます。                |   [Microsoft Teams Rooms の回復ツールを使用する](recovery-tool.md)             |  なし |
 |  サポートされていないバージョンの Windows 10 に更新されたデバイス   |    Windows 10 デバイスがバージョン1803からバージョン1809に更新されました。これはサポートされていません。 サポートされているバージョンは1903です。 |   この問題は、 [DeferFeatureUpdatesPeriodinDays 設定のグループポリシーまたは MDM の設定](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)によって、指定した日数の機能更新プログラムを延期できる場合に、最大365日間に設定されている場合に発生する可能性があります。 <br><br> Windows 10 バージョン1809は、Microsoft Teams のルームでサポートされていません。バージョン1903はサポートされています。 ただし、2020年3月27日より、バージョン1809は365日以上経過しています。 この設定が変更されていない場合、Windows はバージョン1809をインストールしようとします。これにより、Microsoft Teams のルームで問題が発生する可能性があります。<br><br>この問題を回避するには、更新を延期するグループポリシーまたは MDM 設定を**削除**します。 これにより、Windows はサポートされている最新の OS バージョンに更新されます。 <br><br>**重要**グループポリシーまたは MDM 設定は**削除**する必要があり (左側に構成されて**いない)、0には設定しない**でください。 ポリシーが0に設定されている場合、Windows はサポートされていない最新バージョンを使用します。 |  なし |
-| アプリケーションが起動しない |  アプリケーションバージョン4.4.41.0 に更新すると、システムが黒い画面が表示されなくなった場合、または数分たってからログオン画面に移動します。 | この問題を解決するために、 [Microsoft Teams 会議室アプリケーションは、バージョン4.4.41.0 への更新後は開始されません](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)。  | なし |
+
 
 
 <a name="OS-conflicts"> </a>  

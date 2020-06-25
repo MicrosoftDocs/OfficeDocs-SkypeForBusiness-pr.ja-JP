@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 30d67c34e4ef0b7d94b9161bd5f12c51006aaa4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669395"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874273"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -51,8 +51,8 @@ ms.locfileid: "44669395"
     
 2.  Microsoft 365 または Office 365 (たとえば、contoso.com) の確認済みドメインがありますか?
     
-      - 組織が Microsoft 365 または Office 365 を展開していない場合は、「 [microsoft 365 または一般法人向け 365 office の使用を開始](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365)する」を参照してください。
-      - 組織で Microsoft 365 または Office 365 の確認済みドメインを追加または構成していない場合は、「 [microsoft 365 または office 365 ドメインを確認](https://docs.microsoft.com/office365/admin/setup/domains-faq)する」を参照してください。
+      - 組織が Microsoft 365 または Office 365 を展開していない場合は、「使用を[開始](https://docs.microsoft.com/microsoft-365/admin/admin-overview/get-started-with-office-365)する」を参照してください。
+      - 組織で、Microsoft 365 または Office 365 の確認済みドメインを追加または構成していない場合は、ドメインに関する[FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)を参照してください。
 
 3.  組織が Exchange Online と SharePoint Online を展開していますか?
     
@@ -99,7 +99,7 @@ ms.locfileid: "44669395"
 </tr>
 <tr class="even">
 <td>チーム向けのアドバイザー</td>
-<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">チームのアドバイザー</a>は<a href="https://admin.teams.microsoft.com">teams 管理センター</a>の一部です。 Microsoft 365 または Office 365 の環境を評価し、チームを正常にロールアウトする前に、更新または変更する必要がある最も一般的な構成を特定します。</td>
+<td><a href="https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out">チームのアドバイザー</a>は<a href="https://admin.teams.microsoft.com">teams 管理センター</a>の一部です。 Microsoft 365 または Office 365 の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。</td>
 </tr>
 <tr class="odd">
 <td>外部の名前解決</td>

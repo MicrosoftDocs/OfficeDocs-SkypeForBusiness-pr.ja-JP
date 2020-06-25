@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、Microsoft Teams でリソースアカウントを作成、編集、管理する方法について説明します。
-ms.openlocfilehash: f454658cb051ed9e918ca8a1d90c716a35933f68
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b47e00323129211f657ec1dafc4e62a7cd6e4321
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637976"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868614"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -118,7 +118,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 ![新しいリソースアカウントオプションのスクリーンショット](media/res-acct.png)
 
-次に、「ユーザーを個別に、[またはまとめて追加](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)する」の説明に従って、Microsoft 365 管理センターのリソースアカウントにライセンスを適用します。
+次に、「[ユーザーにライセンスを割り当てる](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)」の説明に従って、Microsoft 365 管理センターのリソースアカウントにライセンスを適用します。
 
 ### <a name="edit-resource-account"></a>リソースアカウントを編集する 
 
@@ -153,10 +153,10 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>仮想ユーザーライセンスを使用するように既存のリソースアカウントを変更する
 
-既存のリソースアカウントのライセンスを電話システムのライセンスから仮想ユーザーライセンスに切り替える場合は、無料の仮想ユーザーライセンスを取得してから、Microsoft 365 管理センターの手順に従って、[ユーザーを別のサブスクリプションに移動](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)する必要があります。 
+既存のリソースアカウントのライセンスを電話システムのライセンスから仮想ユーザーライセンスに切り替える場合は、無料の仮想ユーザーライセンスを取得してから、Microsoft 365 管理センターの手順に従って、[ユーザーを別のサブスクリプションに移動](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)する必要があります。
 
 > [!WARNING]
-> 常に完全な電話システムのライセンスを削除し、同じライセンスアクティビティに仮想ユーザーライセンスを割り当てます。 古いライセンスを削除した場合は、アカウントの変更を保存し、新しいライセンスを追加してから、アカウント設定をもう一度保存すると、リソースアカウントが予期したとおりに機能しなくなることがあります。 この問題が発生した場合は、仮想ユーザーライセンス用の新しいリソースアカウントを作成し、破損したリソースアカウントを削除することをお勧めします。 
+> 常に完全な電話システムのライセンスを削除し、同じライセンスアクティビティに仮想ユーザーライセンスを割り当てます。 古いライセンスを削除した場合は、アカウントの変更を保存し、新しいライセンスを追加してから、アカウント設定をもう一度保存すると、リソースアカウントが予期したとおりに機能しなくなることがあります。 この問題が発生した場合は、仮想ユーザーライセンス用の新しいリソースアカウントを作成し、破損したリソースアカウントを削除することをお勧めします。
 
 ## <a name="create-a-resource-account-in-powershell"></a>Powershell でリソースアカウントを作成する
 
@@ -182,7 +182,7 @@ Microsoft Teams または Skype for Business Online では、各電話システ�
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. リソースアカウントは、ライセンスが適用されるまで使用できません。 Microsoft 365 管理センターのアカウントにライセンスを適用する方法については、「[ユーザーを個別に、またはまとめて追加](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)する」と「 [Skype for business のライセンスを割り当てる](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」を参照してください。
+2. リソースアカウントは、ライセンスが適用されるまで使用できません。 Microsoft 365 管理センターのアカウントにライセンスを適用する方法については、「[ユーザーへ](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)のライセンスの割り当て、および[Skype for business のライセンスの割り当て](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)」を参照してください。
 
 3. 省略適切なライセンスをリソースアカウントに適用した後、次に示すように、リソースアカウントに電話番号を割り当てることができます。 すべてのリソースアカウントで電話番号が必要になるわけではありません。 リソースアカウントにライセンスを適用していない場合、電話番号の割り当ては失敗します。
 

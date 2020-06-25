@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 434b7e0fed87d6273d13c7cb646079d51d7c1ddc
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761475"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868504"
 ---
 # <a name="operate-your-service"></a>サービスを運用する
 
@@ -205,7 +205,7 @@ Teams サービスの今後の変更について把握したので、次の手�
 |---|---|---|---|
 | ユーザーへの影響 | 価 | | |
 | ユーザーの準備が必要 | はい | | |
-| 通信準備完了 | X | コミュニケーションメールは下書きされています。レビューは保留中です。 | コミュニケーションチーム |
+| 通信準備完了 | いいえ | コミュニケーションメールは下書きされています。レビューは保留中です。 | コミュニケーションチーム |
 | トレーニングの準備完了 | はい | トレーニングは、既存の Microsoft ビデオを活用します。 | トレーニングチーム |
 
 **進捗管理**
@@ -437,7 +437,7 @@ Wi-fi ドライバーに問題がある可能性があります。 たとえば�
 
 4. **Microsoft Teams コミュニティにアクセスします。**[Microsoft teams コミュニティ](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)では、teams 専用のスペースが用意されています。 Teams コミュニティでは、チームの中心となるディスカッションリスト、ブログ投稿、およびお知らせが提供されます。 問題の解決策については、質問を投稿したり、以前のディスカッションを検索したりすることができます。
 
-5. **Microsoft サポートにお問い合わせください。** チームのオンラインまたは電話での問題については、Microsoft サポートにお問い合わせください。 詳細については、「[ビジネス製品のサポートに問い合わせる](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」を参照してください。 プレミアユーザーの場合は、「 [Microsoft Teams のサポートへのお問い合わせ (プレミアユーザ)](https://support.microsoft.com/premier/contacts)」のガイダンスに従ってサポートリクエストを開始できます。
+5. **Microsoft サポートにお問い合わせください。** チームのオンラインまたは電話での問題については、Microsoft サポートにお問い合わせください。 詳細については、「一般[法人向け製品サポートへのお問い合わせ-管理者向けヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)」を参照してください。 プレミアユーザーの場合は、「 [Microsoft Teams のサポートへのお問い合わせ (プレミアユーザ)](https://support.microsoft.com/premier/contacts)」のガイダンスに従ってサポートリクエストを開始できます。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>毎日/毎週/毎月/必要なタスク
 

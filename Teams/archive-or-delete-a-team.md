@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611006"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868704"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 ===========================================
@@ -72,7 +72,7 @@ ms.locfileid: "44611006"
 
 チームに関連付けられている Microsoft 365 グループを復元して、削除されたチームを復元するには、次の手順を実行します。 チームの Microsoft 365 グループを復元すると、タブ、標準チャネル、プライベートチャネル、関連付けられたサイトコレクションなどのチームコンテンツが復元されます。
 
-既定では、削除された Microsoft 365 グループは30日間保持されます。 この 30 日の期間は、グループを復元できるため、「ソフト削除」と呼ばれます。 詳細については、「[削除された Microsoft 365 グループを復元](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)する」を参照してください。
+既定では、削除された Microsoft 365 グループは30日間保持されます。 この 30 日の期間は、グループを復元できるため、「ソフト削除」と呼ばれます。 詳細については、「[削除したグループを復元](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)する」を参照してください。
 
 ### <a name="install-the-azureadpreview-module"></a>AzureADPreview モジュールをインストールする
 

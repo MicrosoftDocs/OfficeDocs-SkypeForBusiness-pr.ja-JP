@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 電話会議、電話システム、通話プランなどの機能をユーザーに割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c7c455628f7595e1517fbd0cef8d2edc454ffbb
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042777"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868584"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>チームのアドオンライセンスをユーザーに割り当てる
 
@@ -48,7 +48,7 @@ Microsoft 365 管理センターまたは PowerShell を使用して、組織内
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターを使用する
 
-Microsoft 365 管理センターを使用して、個々のユーザーまたは少数のユーザーのライセンスを一度に割り当てることができます。 [**ライセンス**] ページ (一度に最大20人) または [**アクティブなユーザー** ] ページでライセンスを割り当てることができます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザーライセンスを管理するかによって異なります。 
+Microsoft 365 管理センターを使用して、個々のユーザーまたは少数のユーザーのライセンスを一度に割り当てることができます。 [**ライセンス**] ページ (一度に最大20人) または [**アクティブなユーザー** ] ページでライセンスを割り当てることができます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザーライセンスを管理するかによって異なります。
 
 詳細な手順については、「[ユーザーにライセンスを割り当てる](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)」を参照してください。
 
@@ -71,7 +71,7 @@ PowerShell を使用して、ユーザーにライセンスをまとめて割り
         ```
     3. NuGet プロバイダーをインストールするかどうかを確認するメッセージが表示されたら、「 **Y**」と入力して、enter キーを押します。
     4. PSGallery からモジュールをインストールするかどうかを確認するメッセージが表示されたら、「 **Y**」と入力して、enter キーを押します。
-3. Windows PowerShell コマンドプロンプトで、次のスクリプトを実行してライセンスをユーザーに割り当てます\<。ここで、CompanyName: License> は組織名と、割り当てるライセンスの識別子です。 たとえば、litwareinc: MCOMEETADV のようになります。
+3. Windows PowerShell コマンドプロンプトで、次のスクリプトを実行して、ユーザーにライセンスを割り当て \<CompanyName:License> ます。ここでは、組織名と、割り当てるライセンスの識別子を指定します。 たとえば、litwareinc: MCOMEETADV のようになります。
 
     この識別子は、ライセンスのフレンドリ名とは異なります。 たとえば、電話会議の識別子は MCOMEETADV です。 詳細については、「[ライセンスの製品名と SKU 識別子](#product-names-and-sku-identifiers-for-licensing)」を参照してください。
 

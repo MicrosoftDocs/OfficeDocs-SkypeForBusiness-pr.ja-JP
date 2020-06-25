@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 組織内のリソースアカウントに無料の電話システム (仮想ユーザーライセンスまたは有料電話システムユーザーライセンス) を割り当てる方法について説明します。
-ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042414"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868654"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 電話システム–仮想ユーザーライセンス
 
@@ -47,25 +47,25 @@ ms.locfileid: "44042414"
 
 ### <a name="license-allocation-example"></a>ライセンスの割り当ての例
 
-Contoso、Inc. は、電話システム (各従業員に1つ) が含まれている600ライセンスを購入しました。 Contoso には、最初の 25 plus 60 Microsoft 365 電話システム–仮想ユーザーライセンス、85の合計が割り当てられています。 組織には、電話番号を持つ90の通話キューと自動応答があります。 Microsoft 365 のすべての電話システムを割り当てる必要があります。仮想ユーザーライセンスを取得し、5つの標準価格の電話システムライセンスを取得する必要があります。 
+Contoso、Inc. は、電話システム (各従業員に1つ) が含まれている600ライセンスを購入しました。 Contoso には、最初の 25 plus 60 Microsoft 365 電話システム–仮想ユーザーライセンス、85の合計が割り当てられています。 組織には、電話番号を持つ90の通話キューと自動応答があります。 Microsoft 365 のすべての電話システムを割り当てる必要があります。仮想ユーザーライセンスを取得し、5つの標準価格の電話システムライセンスを取得する必要があります。
 
-Contoso は、自動応答と通話キューシステムを再設計することを検討する必要があります。 使用する電話番号の数が少なく、電話番号を必要としない下位ノードを使用している場合、実装が簡素化され、コストが削減されます。 
+Contoso は、自動応答と通話キューシステムを再設計することを検討する必要があります。 使用する電話番号の数が少なく、電話番号を必要としない下位ノードを使用している場合、実装が簡素化され、コストが削減されます。
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Microsoft 365 電話システムの購入方法–仮想ユーザーライセンス 
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>Microsoft 365 電話システムの購入方法–仮想ユーザーライセンス
 
 1. Microsoft 365 管理センターにサインインします。
-2. **請求** > **書サービス** > **の**アドオンに移動する
+2. **請求**  >  **書サービス**  >  **の**アドオンに移動する
 3. 最後までスクロールして、 **Microsoft 365 電話システム–仮想ユーザー**ライセンスを探します。 [**今すぐ購入**] を選択します。
 
 > [!NOTE]
-> ただし、料金がゼロの場合でも、ライセンスを**購入**する必要があります。 
+> ただし、料金がゼロの場合でも、ライセンスを**購入**する必要があります。
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 電話システムを使用するように既存のリソースアカウントを変更する–仮想ユーザーライセンス
 
-リソースアカウントのライセンスを電話システムライセンスから Microsoft 365 電話システムに切り替える場合は、仮想ユーザーライセンス: 
+リソースアカウントのライセンスを電話システムライセンスから Microsoft 365 電話システムに切り替える場合は、仮想ユーザーライセンス:
 
-1. 新しい Microsoft 365 電話システム–仮想ユーザーライセンスを取得します。 
-2. Microsoft 365 管理センターのリンクされた手順に従って、[ユーザーを別のサブスクリプションに移動](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)します。 
+1. 新しい Microsoft 365 電話システム–仮想ユーザーライセンスを取得します。
+2. Microsoft 365 管理センターのリンクされた手順に従って、[ユーザーを別のサブスクリプションに移動](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)します。
 
 > [!WARNING]
 > 常に完全な電話システムのライセンスを削除し、Microsoft 365 電話システム–仮想ユーザーライセンスを同じライセンスアクティビティに割り当てます。 古いライセンスを削除した場合は、アカウントの変更を保存し、新しいライセンスを追加してから、アカウント設定をもう一度保存すると、リソースアカウントが予期したとおりに機能しなくなることがあります。 この問題が発生した場合は、Microsoft 365 電話システムの新しいリソースアカウントを作成することをお勧めします。仮想ユーザーライセンスは、破損したリソースアカウントを削除することをお勧めします。 

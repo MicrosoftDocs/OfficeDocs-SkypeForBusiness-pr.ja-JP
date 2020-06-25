@@ -13,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Skype for Business Server 2019 のリソースアカウントをセットアップします。
-ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221137"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868434"
 ---
-# <a name="configure-resource-accounts"></a>リソースアカウントを構成する
+# <a name="configure-resource-accounts"></a>リソース アカウントの構成
 
 Skype for Business Server 2019 ハイブリッド実装では、ユニファイドメッセージング用の電話システムで提供されるクラウドサービスのみを使用し、Exchange Online とは統合されません。 Skype for Business Server 2019 では、「 [Microsoft 365 または Office 365 で電話システムを](/MicrosoftTeams/here-s-what-you-get-with-phone-system)使用する」で説明されているクラウド通話キューおよび自動応答を使用できるようになりました。
 
@@ -84,7 +84,7 @@ Skype for Business Server 2019 で電話システムの自動応答または通�
 
     このコマンドの詳細については[、「Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 」を参照してください。
 
-5. [電話システム-仮想ユーザーまたは電話システムのライセンスをリソースアカウントに割り当てる。 「 [Microsoft Teams アドオンライセンスを割り当てる](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)」および「[ライセンスを1ユーザーに割り当てる」を](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)参照してください。
+5. [電話システム-仮想ユーザーまたは電話システムのライセンスをリソースアカウントに割り当てる。 「 [Microsoft Teams アドオンライセンスを割り当てる](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)」および「[ユーザーにライセンスを割り当てる」を](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)参照してください。
 
    リソースアカウントに電話番号を割り当てる場合は、費用がかからない電話システム仮想ユーザーライセンスを使用できるようになります。 これにより、組織レベルで電話番号に電話システム機能が提供され、自動応答と通話キュー機能を作成できるようになります。
 
@@ -199,9 +199,9 @@ Exchange UM から電話システムへの移行では、通話キューと自�
 
 [クラウドの自動応答をセットアップする](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
-[クラウド自動応答を計画する](plan-cloud-auto-attendant.md)
+[クラウド自動応答の計画](plan-cloud-auto-attendant.md)
 
-[クラウド通話キューを計画する](plan-call-queue.md)
+[クラウド通話キューの計画](plan-call-queue.md)
 
 [オンプレミスユーザー用にクラウドボイスメールサービスを計画する](plan-cloud-voicemail.md)
 

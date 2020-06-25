@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637946"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868474"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -82,7 +82,7 @@ Meetings First は、Skype for Business Server の任意のバージョンでサ
 
 初めての会議を最初に行うには、ユーザーが[Exchange Online](exchange-teams-interact.md)、 [SharePoint Online、OneDrive for Business](sharepoint-onedrive-interact.md)、および Microsoft 365 グループの作成を有効にしている必要があります。 会議は最初に、メールボックスが Exchange オンプレミスのユーザー、または SharePoint Online または OneDrive For Business、または Microsoft 365 グループの作成を行っていないユーザーに対してサポートされます。 ただし、エクスペリエンスは完全なものではなくなります。 特に、オンプレミスの Exchange Server を使用している組織では、Teams クライアントからの会議の作成と表示、およびコンプライアンス機能に制限がある場合があります (Exchange Server のバージョンによる)。
 
-少なくとも、ユーザーは [Teams のライセンス](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)が付与されている必要があります。 さらに、ユーザーには必要に応じて、[電話会議](set-up-audio-conferencing-in-teams.md)のライセンスを付与することもできます。
+少なくとも、ユーザーは [Teams のライセンス](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)が付与されている必要があります。 さらに、ユーザーには必要に応じて、[電話会議](set-up-audio-conferencing-in-teams.md)のライセンスを付与することもできます。
 
 ユーザーにライセンスを付与するときは、テナントの既定値として [**SfBOnly** または **SfBWithTeamsCollab**](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) モードを付与することをお勧めします。 これによりユーザーは、Meetings First を開始する準備が整うまでは、既定の **Islands** モードで Teams を自分で使用し始めないようにすることができます。
 
