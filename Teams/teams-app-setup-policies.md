@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ef4ff711aa385c062ca6d507363b4d1a1a5d88e4
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: d521a00389286bf60a42201134a1d9b697a9bfdc
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868570"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44890006"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -167,7 +167,7 @@ Teams app store にはすべての Teams アプリが一覧表示されます。
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>ポリシーの変更が有効になるまでにはどのくらいの時間がかかりますか?
 
-グローバルポリシーを編集するか、ポリシーを割り当てると、変更が有効になるまでに数時間かかることがあります。
+ポリシーを編集または割り当てると、変更が有効になるまでに数時間かかる場合があります。
 
 ### <a name="user-experience"></a>ユーザー エクスペリエンス
 

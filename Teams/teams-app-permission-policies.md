@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b54a4263adc8e697a19f997ac34018e1e2b2c302
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 4bde860f0f3e64899f4309706575c71862c754a5
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691013"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889996"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
 管理者であれば、アプリのアクセス許可ポリシーを使用して、組織の Microsoft Teams ユーザーが使用できるアプリを制御できます。 すべてのアプリ、または Microsoft、第三者、お客様の組織によって公開されている特定のアプリを許可またはブロックすることができます。 アプリをブロックした場合、ポリシーを持つユーザーは、Teams アプリ ストアからアプリをインストールできません。 これらのポリシーを管理するには、グローバル管理者または Teams サービス管理者である必要があります。
 
-アプリのアクセス許可ポリシーは、Microsoft Teams 管理センターで管理します。 グローバル (組織全体の既定) ポリシーを使用するか、またはグループ内の個々のユーザーまたはユーザーにカスタムポリシーを作成して割り当てることができます。  
+アプリのアクセス許可ポリシーは、Microsoft Teams 管理センターで管理します。 グローバル (組織全体の既定) ポリシーを使用するか、またはグループ内の個々のユーザーまたはユーザーにカスタムポリシーを作成して割り当てることができます。 ポリシーを編集または割り当てると、変更が有効になるまでに数時間かかる場合があります。
 
 ![アプリのアクセス許可ポリシーのスクリーンショット](media/app-permission-policies.png)
 

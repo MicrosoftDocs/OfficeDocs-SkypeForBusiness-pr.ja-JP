@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32e231fbcef2991e13ec5b496e6ed61eb677ee20
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665759"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868304"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>先進認証を使用して Microsoft Teams にサインインする
 ==========================
@@ -59,6 +59,44 @@ Microsoft Teams は先進認証を使用して、サインイン操作をシン�
 
 MacOS 上では、Teams はユーザーにユーザー名と資格情報の入力を促し、組織の設定によっては多要素認証を促す場合もあります。 ユーザーが資格情報を入力すると、入力を再度求められることはありません。 これ以降、ユーザーが同じコンピューターで作業している場合は常に、Teams が自動的に起動します。
 
+## <a name="teams-for-ios-and-android-users"></a>iOS と Android の Teams のユーザー
+
+サインインすると、モバイルユーザーには、デバイス上で現在サインインしているまたは以前にサインインしたすべての Microsoft 365 アカウントの一覧が表示されます。 ユーザーは、任意のアカウントをタップしてサインインできます。 モバイル サインインには2つのシナリオがあります:
+    
+1. 選択されたアカウントが他の Office 365 または Microsoft 365 アプリに現在サインインしている場合、そのユーザーは直接 Teams に移動します。 ユーザーは資格情報を入力する必要はありません。
+    
+2. ユーザーが他の場所で Microsoft 365 アカウントにサインインしていない場合は、組織がモバイル サインイン ポリシー用に構成した内容に応じて、単一要素認証または多要素認証 (SFA または MFA) を提供するように求められます。
+
+### <a name="adding-multiple-accounts-to-teams"></a>Teams への複数アカウントの追加
+
+IOS と Android の Teams では、1 つのデバイスから Teams に複数のアカウントを追加することをサポートします。 次の画像は、ユーザーが複数のアカウントを Teams に追加する方法を示しています。
+    
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Teams に複数アカウントを追加":::
+
+### <a name="use-enterprise-mobility-management-to-control-which-accounts-can-sign-in-to-teams"></a>エンタープライズ モビリティ管理を使用して、Teams にサインインできるアカウントを制御する
+
+iOS と Android の Teams は、IT 管理者に、アカウント構成を Microsoft 365 アカウントに配布する機能を提供します。 この機能は、iOS の [管理対象アプリ構成](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html)  チャネルまたは Android の  [Android Enterprise](https://developer.android.com/work/managed-configurations)  チャネルを使用するすべてのモバイル デバイス管理 （MDM） プロバイダーで機能します。
+
+Microsoft Intune に登録されているユーザーは、Azure Portal の Intune を使用してアカウント構成設定を展開できます。
+
+MDM プロバイダーでアカウント セットアップ構成がセットアップされ、ユーザーがデバイスを登録した後、iOS と Android の Teams は、許可されたアカウントのみ Teams ログイン ページに表示します。 ユーザーはこのページで許可されているアカウントをタップして、サインインできます。
+
+管理対象デバイスの Azure Intune ポータルで次の構成パラメーターを設定します。
+
+
+|プラットフォーム |キー  |値  |
+|---------|---------|---------|
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **有効**: 使用できるアカウントは、IntuneMAMUPN キーで定義された管理対象ユーザー アカウントのみです。<br> **無効** (または、大文字と小文字を区別しない **有効** な任意の値): すべてのアカウントを使用できます。        |
+|iOS     |   **IntuneMAMUPN**      |   Teams. へのサインインが許可されているアカウントの UPN です。<br> Intune に登録されているデバイスの場合、{{userprincipalname}} トークンを使用して、登録済みのユーザーアカウントを表すことができます。       |
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    このキーで定義された管理対象ユーザーアカウントのみ許可されます。<br> 1つ以上のセミコロン [;] で区切られた UPN です。<br> Intune に登録されているデバイスの場合、{{userprincipalname}} トークンを使用して、登録済みのユーザーアカウントを表すことができます。
+
+アカウント セットアップ構成が設定されると、Teams はサインイン機能を制限し、登録されたデバイス上の許可されたアカウントのみにアクセスを許可します。
+
+管理対象の iOS/iPadOS デバイスのアプリ構成ポリシーを作成するには、「 [管理対象の iOS/iPadOS デバイスのアプリ構成ポリシーの追加](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)」を参照してください。
+
+管理対象の Android デバイスのアプリ構成ポリシーを作成するには、「 [管理対象の Android デバイスのアプリ構成ポリシーの追加](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)」を参照してください。
+
+
 ## <a name="switching-accounts-after-completing-modern-authentication"></a>先進認証を行った後のアカウントの切り替え
 
 ドメインに参加しているコンピューターでユーザーが作業している場合 (テナントで Kerberos が有効になっている場合など)、先進認証を行った後は、ユーザーはアカウントを切り替えることはできません。 ユーザーが作業を行っているのはドメインに参加しているコンピューターではない場合、ユーザーはアカウントを切り替えることができます。
@@ -67,9 +105,16 @@ MacOS 上では、Teams はユーザーにユーザー名と資格情報の入�
 
 Teams からサインアウトするには、アプリの上部にある自分のプロファイル画像をクリックし、[**サインアウト**] を選択します。タスク バーにあるアプリのアイコンを右クリックして [**ログアウト**] を選択することもできます。一旦 Teams からサインアウトすると、アプリを起動するには資格情報をもう一度入力する必要があります。
 
+### <a name="signing-out-of-teams-for-ios-and-android"></a>iOS と Android の Teams をサインアウト
+
+モバイル ユーザーはメニューに移動して [**その他**] メニューを選択し、[**サインアウト**] を選択することで、Teams からサインアウトできます。サインアウトすると、ユーザーは次にアプリを起動するときに、資格情報を再入力する必要があります。
+
+> [!NOTE]
+> Android の Teams はシングル サインオン (SSO) を使用して、サインインの操作を簡素化します。 ユーザーは、Android プラットフォームで完全にログアウトするために、Teams に加えて **すべての** Microsoft アプリからログアウトする必要があります。
+
 ## <a name="urls-and-ip-address-ranges"></a>URL と IP アドレスの範囲
 
-Teams を使用するには、インターネットへの接続が必要です。 Microsoft 365 または Office 365 の各プラン、政府機関向けまたはその他のクラウドで Teams を使用する顧客が到達可能である必要があるエンドポイントについては、「[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
+Teams を使用するには、インターネットへの接続が必要です。 Office 365 の各プラン、政府機関向けまたはその他のクラウドを使用するユーザーが到達可能である必要があるエンドポイントについては、「[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
 
 > [!IMPORTANT]
 > Teams では現在、すべてのユーザーについて、Google の ssl.gstatic.com サービス (<https://ssl.gstatic.com)> への接続 (TCP ポート 443) が要求されています。Gstatic を使用していない場合であってもこれは要求されます。 Teams では間もなく (2020 年前半) この要件が削除される予定になっており、そのタイミングに合わせてこの記事も更新されます。

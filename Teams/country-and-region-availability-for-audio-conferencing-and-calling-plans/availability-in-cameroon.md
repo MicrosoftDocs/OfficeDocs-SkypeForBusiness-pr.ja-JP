@@ -1,9 +1,9 @@
 ---
-title: アルジェリアで利用可能
-author: LanaChin
-ms.author: v-lanac
+title: カメルーンの可用性
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: 次に、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、カメルーンで利用できるようにします。
+ms.openlocfilehash: 283605d9c7c43dbf472d2738e19a940beffe7d43
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877898"
+ms.locfileid: "44878015"
 ---
-# <a name="availability-in-algeria"></a>アルジェリアで利用可能
+# <a name="availability-in-cameroon"></a>カメルーンの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
+次に、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、カメルーンで利用できるようにします。
   
 ## <a name="audio-conferencing"></a>電話会議
 

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665259"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868154"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -89,7 +89,7 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|構成済みのバニティ ドメイン     |テナント用に構成された @onmicrosoft.com 以外のドメイン (たとえば、@contoso.onmicrosoft.com) があるかどうか。 もちろん、@onmicrosoft.com ドメインを使用することも、バニティ ドメインを構成することもできます (任意)。 詳細については、「[ドメインの追加](https://docs.microsoft.com/office365/admin/setup/add-domain)」をご覧ください。 |
+|構成済みのバニティ ドメイン     |テナント用に構成された @onmicrosoft.com 以外のドメイン (たとえば、@contoso.onmicrosoft.com) があるかどうか。 もちろん、@onmicrosoft.com ドメインを使用することも、バニティ ドメインを構成することもできます (任意)。 詳細については、「[Microsoft 365 にドメインを追加する](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)」をご覧ください。 |
 |Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが**必須です**。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。    |
 |Exchange Online ライセンス     |使用可能な Exchange Online のライセンスで有効なサブスクリプションを所有しているかどうか 基本的な Teams 機能には Exchange は必要ありませんが、Exchange との統合により、最適な Teams エクスペリエンスが可能になります。 Microsoft Graph 内を検索して、テナントに関連付けられているサブスクリプションを分析し、対象の (割り当て可能なライセンスが少なくとも 1 つはある) Exchange Online ライセンスのサブスクリプションがあるかどうかを検証します。 詳細については、「[Exchange と Teams の連携](exchange-teams-interact.md)」をご覧ください。    |
 |SharePoint Online のライセンス     |使用可能な SharePoint Online のライセンスで有効なサブスクリプションを所有しているかどうか チャットのファイル ストレージに OneDrive for Business を提供する場合、ユーザーごとに SharePoint Online ライセンスを所有することをお勧めします。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) SharePoint Online ライセンスがあるかどうかを確認します。 詳細については、[Teams との SharePoint Online と OneDrive for Business の連携](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)をご覧ください。    |
@@ -102,8 +102,8 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|構成済みの Microsoft 365 グループの名前付けポリシー     |名前付け基準が Microsoft 365 グループ用に構成されているかどうか。 Microsoft 365 グループの名前付けポリシーにより、組織はユーザーが作成したチームに対して一貫した名前付け戦略を適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Microsoft 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[グループの名前付けポリシー](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)」を参照してください。    |
-|構成済みの Microsoft 365 グループ有効期限ポリシー     |Microsoft 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[グループの有効期限ポリシー](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
+|構成済みの Microsoft 365 グループの名前付けポリシー     |名前付け基準が Microsoft 365 グループ用に構成されているかどうか。 Microsoft 365 グループの名前付けポリシーにより、組織はユーザーが作成したチームに対して一貫した名前付け戦略を適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Microsoft 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[グループの名前付けポリシー](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)」を参照してください。    |
+|構成済みの Microsoft 365 グループ有効期限ポリシー     |Microsoft 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[Microsoft 365 グループの有効期限ポリシー](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>ミーティングと会議のアセスメント
 

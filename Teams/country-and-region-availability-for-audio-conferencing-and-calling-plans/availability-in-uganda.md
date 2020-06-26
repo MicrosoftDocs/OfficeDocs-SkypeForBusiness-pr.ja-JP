@@ -1,9 +1,9 @@
 ---
-title: アルジェリアで利用可能
-author: LanaChin
-ms.author: v-lanac
+title: ウガンダの可用性
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、ウガンダで利用できます。
+ms.openlocfilehash: 1ffab17c3330ff19c24c27f2e840f5ad1856a456
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877898"
+ms.locfileid: "44878040"
 ---
-# <a name="availability-in-algeria"></a>アルジェリアで利用可能
+# <a name="availability-in-uganda"></a>ウガンダの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、ウガンダで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 

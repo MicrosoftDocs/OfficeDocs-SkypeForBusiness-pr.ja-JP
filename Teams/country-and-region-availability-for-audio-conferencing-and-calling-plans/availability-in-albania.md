@@ -1,9 +1,9 @@
 ---
-title: アルジェリアで利用可能
-author: LanaChin
-ms.author: v-lanac
+title: アルバニアの可用性
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: ここでは、Microsoft 365 および Skype for Business および Microsoft Teams 用の Office 365 サービスをアルバニアで利用できます。
+ms.openlocfilehash: d0ed9c90e39f05cee079bd873c9773920ef00b43
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877898"
+ms.locfileid: "44878036"
 ---
-# <a name="availability-in-algeria"></a>アルジェリアで利用可能
+# <a name="availability-in-albania"></a>アルバニアの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
+ここでは、Microsoft 365 および Skype for Business および Microsoft Teams 用の Office 365 サービスをアルバニアで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい。 1分あたりの料金のみ。  <br/> |
+|電話会議は購入できますか?  <br/> |はい。 分単位の支払  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> | いいえ |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信クレジットが必要 <br/> |
    
@@ -68,8 +68,8 @@ ms.locfileid: "44877898"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?   | 地理的以外の場合。 電話番号が特定の都市や地域に関連していません。 <br/> |
-|有料電話番号は使用できますか?  <br/> |非地理的 ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?   | Tirana <br/> |
+|有料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
  電話会議、自動応答、通話キューの有料または無料の電話番号を取得する場合は、「 [Skype For business および Microsoft Teams のサービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。

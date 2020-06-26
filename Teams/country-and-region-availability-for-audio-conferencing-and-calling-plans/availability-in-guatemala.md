@@ -1,9 +1,9 @@
 ---
-title: アルジェリアで利用可能
-author: LanaChin
-ms.author: v-lanac
+title: グアテマラの利用可能時間
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、グアテマラで利用できます。
+ms.openlocfilehash: c86ffbaf3c8d3f01f691a05c2591423f8e9d5701
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877898"
+ms.locfileid: "44878031"
 ---
-# <a name="availability-in-algeria"></a>アルジェリアで利用可能
+# <a name="availability-in-guatemala"></a>グアテマラの利用可能時間
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、グアテマラで利用できます。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -68,8 +68,8 @@ ms.locfileid: "44877898"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?   | 地理的以外の場合。 電話番号が特定の都市や地域に関連していません。 <br/> |
-|有料電話番号は使用できますか?  <br/> |非地理的 ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?   | Cuidad de グアテマラ<br/> |
+|有料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
  電話会議、自動応答、通話キューの有料または無料の電話番号を取得する場合は、「 [Skype For business および Microsoft Teams のサービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。

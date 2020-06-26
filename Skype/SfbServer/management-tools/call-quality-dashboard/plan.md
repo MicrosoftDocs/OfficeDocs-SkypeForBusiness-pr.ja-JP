@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画するときの考慮事項について説明します。'
-ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: 407366fc98dc423db59ed9bf98cfe58463b708fc
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339442"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877948"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードを計画する 
  
@@ -144,7 +144,7 @@ CQD にはいくつかのコンポーネントが付属しており、各コン�
     
 - "運用" ポータルとは別に "開発" ポータルをホストする。 
     
-  **CQD Web ポータルと CQD キューブを異なるコンピューターにホストする。** CQD Portal を SQL Server インストールから分離したり、sql server インスタンスおよび sql Server Analysis Services インスタンスに SQL Server のエディションを組み合わせて使用したりする必要がある組織では、CQD ポータルをインストールし、CQD Cube を異なるコンピューターに置いたとき。 また、QoE アーカイブコンポーネントは、監視サーバーのパフォーマンスの制限に達しずに、QoE データをアーカイブするための持続可能な方法を必要とする場合にインストールされる唯一の CQD コンポーネントになることもあります。
+  **CQD Web ポータルと CQD キューブを異なるコンピューターにホストする。** CQD Portal を SQL Server インストールから分離したり、sql server インスタンスおよび sql Server Analysis Services インスタンスに SQL Server のエディションを混在させたりする必要がある組織では、CQD Portal と CQD キューブを異なるコンピューターにインストールすることもできます。 また、QoE アーカイブコンポーネントは、監視サーバーのパフォーマンスの制限に達しずに、QoE データをアーカイブするための持続可能な方法を必要とする場合にインストールされる唯一の CQD コンポーネントになることもあります。
   
 ![単一サーバー CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
@@ -195,10 +195,10 @@ CQD でのデータ処理は、次の2つの主要な段階に分かれていま
 
 |**マシン**|**CPU コア**|**RAM**|**同じディスク上の QoE アーカイブとキューブ**|**同じディスク上の QoE アーカイブと SQL Temp DB**|
 |:-----|:-----|:-----|:-----|:-----|
-|仮想マシン  <br/> |2/4  <br/> |7 GB  <br/> |はい  <br/> |はい  <br/> |
-|4コア  <br/> |2/4  <br/> |20 GB  <br/> |はい  <br/> |なし  <br/> |
-|8コア  <br/> |~  <br/> |32 GB  <br/> |はい  <br/> |なし  <br/> |
-|16コア  <br/> |16   <br/> |128 GB  <br/> |いいえ  <br/> |なし  <br/> |
+|仮想マシン  <br/> |4   <br/> |7 GB  <br/> |はい  <br/> |はい  <br/> |
+|4コア  <br/> |4   <br/> |20 GB  <br/> |はい  <br/> |いいえ  <br/> |
+|8コア  <br/> |8   <br/> |32 GB  <br/> |はい  <br/> |いいえ  <br/> |
+|16コア  <br/> |16   <br/> |128 GB  <br/> |いいえ  <br/> |いいえ  <br/> |
    
 **パフォーマンス結果**
 
@@ -267,7 +267,7 @@ CQD には、次のオペレーティングシステムが必要です。
     
   - ISAPI フィルター
     
-  - 正常&amp;性診断
+  - 正常性 &amp; 診断
     
   - HTTP ログ
     
@@ -282,7 +282,7 @@ CQD には、次のオペレーティングシステムが必要です。
   - IIS 管理コンソール
     
 > [!NOTE]
->  上記の要件については、次の点に注意してください。 > 3.5 および4.5 バージョンの .Net framework を使用できます。 両方が必要です (具体的には 3.5 SP1 が必要です)。 > の一部のシステムでは、IIS をインストールする前に ASP.NET をセットアップすると、ASP.NET が IIS に登録されないことがあります。 この問題により、対応する .Net バージョンのアプリケーションプールが存在しないこと、およびアプリプール構成に .NET CLR バージョンが存在しないことが検出されます。 Windows Server 2008 R2 でこのような問題を解決する`%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`には、を実行します。 Windows Server 2012 および Windows Server 2012 R2 で、IIS `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45`マネージャーの既定の Web サイトから "ServiceModel" モジュールを削除することによって実行されます。 > 管理ツールはオプションですが、推奨されています。
+>  上記の要件については、次の点に注意してください。 > 3.5 および4.5 バージョンの .Net framework を使用できます。 両方が必要です (具体的には 3.5 SP1 が必要です)。 > の一部のシステムでは、IIS をインストールする前に ASP.NET をセットアップすると、ASP.NET が IIS に登録されないことがあります。 この問題により、対応する .Net バージョンのアプリケーションプールが存在しないこと、およびアプリプール構成に .NET CLR バージョンが存在しないことが検出されます。 Windows Server 2008 R2 でこのような問題を解決するには、を実行 `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` します。 Windows Server 2012 および Windows Server 2012 R2 で、 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` IIS マネージャーの既定の Web サイトから "ServiceModel" モジュールを削除することによって実行されます。 > 管理ツールはオプションですが、推奨されています。
   
 PowerShell を使用してこれらの要件をインストールするには、次のように実行します。
   
@@ -318,6 +318,9 @@ SQL Server のビジネスインテリジェンス機能のインストールと
 最小限の特権の原則として、3つのドメインサービスアカウントが推奨されています。 
   
 - QoE の指標データベース (db_datareader 特権を持つ) のログインセキュリティプリンシパルと、QoE アーカイブ SQL Server インスタンスのログインセキュリティプリンシパル (セットアップ時にリンクされたサーバーオブジェクトを作成するために必要) の両方が既にあるもの。 このアカウントは、SQL Server エージェントジョブの "QoE Archive Data" 手順を実行するために使用されます。
+    
+    > [!NOTE]
+    > ロックダウンされた環境で作業している場合は、このサービスアカウントに「バッチジョブとしてログオンする」と「ローカルログオンを許可する」のユーザー権限が QoE メトリック監視データベース SQL Server と QoE Archive SQL Server の両方に付与されていることを確認する必要があります。
     
 - 1つは、SQL Server エージェントジョブの "プロセスキューブ" 手順の実行に使用されるものです。 セットアップは、QoE アーカイブデータベースへのログインセキュリティプリンシパル (読み取りおよび書き込み権限を持つ) を作成し、そのキューブの QoE ロール (フルコントロール権限を持つ) にメンバーを作成します。
     

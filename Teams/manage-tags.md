@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams での組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b19613268384831aaaa2608fc183b62fdc1b0445
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690859"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877938"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
@@ -38,6 +38,8 @@ Microsoft Teams のタグを使用すると、ユーザーはチームのメン�
 - グループの製品マネージャーは、チャネル内のすべての製品マネージャーにメッセージを送信したいと考えています。
 - 病院の管理者が、チャネル内のすべての radiologists にメッセージを送信したい。
 - マーケティング課長は、すべてのデザイナーとグループチャットを開始する必要があります。
+
+チャネルの会話でタグを @mentioned すると、他の @mention と同じように、タグに関連付けられているチームメンバーに通知が送信されます。
 
 詳細については、「 [Teams でタグを使用する」](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)をご覧ください。
 
@@ -77,10 +79,20 @@ Microsoft Teams のタグを使用すると、ユーザーはチームのメン�
 
 ![チームレベルの [タグ] 設定のスクリーンショット](media/manage-tags-team-settings.png)
 
-## <a name="add-tags-in-teams"></a>Teams でタグを追加する
+## <a name="use-tags"></a>タグを使用する
 
-タグを管理するには、アプリの左側にある [**チームの管理**] を選択し、リストからチームを見つけます。 [**その他のオプション**] を選択し、[**タグの管理**] を選択します。
+### <a name="add-tags"></a>タグを追加する
+
+タグを作成して割り当てるには、アプリの左側にある [**チーム**] を選択し、一覧からチームを見つけます。 [**その他のオプション**] を選択し、[**タグの管理**] を選択します。
 
 ここでは、タグを作成して、チームのメンバーに割り当てることができます。
 
 ![Teams クライアントでタグを適用する方法を示すスクリーンショット ](media/manage-tags-teams.png)
+
+### <a name="delete-tags"></a>タグを削除する
+
+タグに関連付けられているすべてのチームメンバーを削除すると、タグが削除されます。
+
+## <a name="related-topics"></a>関連項目
+
+[Teams でタグを使用する](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)

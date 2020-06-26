@@ -1,9 +1,9 @@
 ---
-title: アルジェリアで利用可能
-author: LanaChin
-ms.author: v-lanac
+title: バングラデシュの可用性
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、バングラデシュで利用できるようにする方法について説明します。
+ms.openlocfilehash: 1ec0337d6c63f97197908375c2c8a3712f5b9621
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877898"
+ms.locfileid: "44878028"
 ---
-# <a name="availability-in-algeria"></a>アルジェリアで利用可能
+# <a name="availability-in-bangladesh"></a>バングラデシュの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをアルジェリアで利用できるようにする方法について説明します。
+ここでは、Bangladash で利用できる Microsoft 365 および Skype for Business および Microsoft Teams 用の Office 365 サービスを紹介します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい。 1分あたりの料金のみ。  <br/> |
+|電話会議は購入できますか?  <br/> |はい。 1分あたりの料金のみ。 <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> | いいえ |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信クレジットが必要 <br/> |
    
