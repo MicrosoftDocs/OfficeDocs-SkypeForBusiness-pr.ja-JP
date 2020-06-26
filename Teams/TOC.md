@@ -217,6 +217,7 @@
 ## ライブ イベント
 ### [Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)
 ### [Teams のライブ イベントの計画](teams-live-events/plan-for-teams-live-events.md)
+### [ライブ イベントでのプレゼンター、プロデューサー、および出席者の機能](roles-in-live-events.md)
 ### [Teams のライブ イベントをセットアップする](teams-live-events/set-up-for-teams-live-events.md)
 ### [PowerShell を使用して Teams のライブ イベント ポリシーを設定する](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Teams のライブ イベント設定を構成する](teams-live-events/configure-teams-live-events.md)
@@ -508,31 +509,31 @@
 
 ## どのようにアップグレードするか計画する
 
-### [アップグレード計画の概要](upgrade-plan-journey.md)
-### [プロジェクト関係者に協力を求める](upgrade-enlist-stakeholders.md)
-### [プロジェクトの対象範囲を定義する](upgrade-define-project-scope.md)
-### [共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [会議優先](meetings-first.md)
+### プロジェクトと要件を計画する 
+#### [概要](upgrade-plan-journey.md)
+#### [プロジェクト関係者に協力を求める](upgrade-enlist-stakeholders.md)
+#### [プロジェクトの対象範囲を定義する](upgrade-define-project-scope.md)
+#### [共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [ユーザー パイロットを計画する](pilot-essentials.md)
 
-## Teams 向けの環境を準備する
-### [技術準備の概要](upgrade-prepare-environment.md)
-### [Teams に向けて IT スタッフを準備する](upgrade-prepare-IT-pros.md)
-### [前提条件](upgrade-plan-journey-prerequisites.md)
-### [環境を評価する](upgrade-plan-journey-evaluate-environment.md)
-### [サービスを準備する](upgrade-prepare-environment-prepare-service.md)
 
-## Teams に向けて組織を準備する
-### [組織準備の概要](upgrade-prepare-organization.md)
-### [組織的な変更の準備状況を評価する](upgrade-org-change-readiness.md)
-### [ユーザーの研修計画を準備する](upgrade-user-readiness.md)
+### Teams 向けの環境を準備する
+#### [技術準備の概要](upgrade-prepare-environment.md)
+#### [Teams に向けて IT スタッフを準備する](upgrade-prepare-IT-pros.md)
+#### [前提条件](upgrade-plan-journey-prerequisites.md)
+#### [環境を評価する](upgrade-plan-journey-evaluate-environment.md)
+#### [サービスを準備する](upgrade-prepare-environment-prepare-service.md)
+
+### Teams に向けて組織を準備する
+#### [組織準備の概要](upgrade-prepare-organization.md)
+#### [組織的な変更の準備状況を評価する](upgrade-org-change-readiness.md)
+#### [ユーザーの研修計画を準備する](upgrade-user-readiness.md)
 
 
 ## アップグレードを実装する
 ### [概要](upgrade-to-Teams.md)
-### [ユーザー パイロットを指導する](pilot-essentials.md)
 ### [Skype for Business Online から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [Skype for Business オンプレミスから Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
@@ -551,6 +552,9 @@
 ### [Skype for Business と共存する](coexistence-chat-calls-presence.md)
 ### [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
+
+
+### [会議優先](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -719,11 +723,11 @@
 ## [Teams のトラブルシューティングでログ ファイルを使用する](log-files.md)
 ## [よくあるご質問 (FAQ): リモートの従業員をサポートする](FAQ-support-remote-workforce.md)
 ## [Teams のサービス正常性を確認する](service-health.md)
-## [Teams のサポート リソース](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   
-# Reference
+# リファレンス
 
 ## [Teams の制限と仕様](limits-specifications-teams.md)
 ## [Teams のデータの場所](location-of-data-in-teams.md)
@@ -738,7 +742,6 @@
 ### [Teams でチームを作成するときの Microsoft 365 グループの計画](plan-office-365-groups.md)
 ### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
 ### [Teams でのガバナンスを計画する](plan-teams-governance.md)
-### [ネットワーク テスト コンパニオンを使用する](use-network-testing-companion.md)
 
 ## Teams のインストール
 ### [Teams のクライアントを取得する](get-clients.md)
