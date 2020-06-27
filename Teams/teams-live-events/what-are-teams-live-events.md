@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689723"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902292"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -76,7 +76,7 @@ Teams のライブイベントにより、複数の役割 (開催者、プロデ
 ECDN の目標は、ネットワークのパフォーマンスに影響を及ぼすことなく、インターネットからビデオコンテンツを取得し、企業全体にコンテンツを配布することです。 次の認定された eCDN パートナーのいずれかを使用して、組織内で保持されるライブイベントのネットワークを最適化することができます。
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
-- [見本](http://www.ramp.com)
+- [見本](https://rampecdn.com)
 
 ### <a name="attendee-experience"></a>出席者の操作 
 出席者のエクスペリエンスは、ライブイベントの最も重要な側面であり、出席者が問題を発生させることなくライブイベントに参加できるようにすることが重要です。 出席者のエクスペリエンスでは、Stream Player (Teams で作成されたイベント用) と Azure Media Player (外部のアプリやデバイスで生成されたイベントの場合) が使用され、デスクトップ、ブラウザー、モバイル (iOS、Android) で動作します。 Microsoft 365 と Office 365 では、Yammer と Teams を2つのコラボレーションハブとして提供しており、live 出席者エクスペリエンスはこれらのコラボレーションツールに統合されています。 
@@ -86,12 +86,12 @@ ECDN の目標は、ネットワークのパフォーマンスに影響を及ぼ
 ### <a name="live-event-usage-report"></a>ライブイベントの使用状況レポート 
 テナント管理者は、Microsoft Teams 管理センターでライブイベントのリアルタイムの利用状況分析を表示できます。  [[ライブイベントの使用状況] レポート](../teams-analytics-and-reports/teams-live-event-usage-report.md)には、組織内で保持されているライブイベントのアクティビティの概要が表示されます。  管理者は、イベントの状態、開始時刻、ビュー、および運用の種類などのイベントの利用状況情報を表示できます。  
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 「 [Teams ライブイベントのプラン](plan-for-teams-live-events.md)」に移動します。
 
 ### <a name="related-topics"></a>関連項目
 - [Yammer、Microsoft Teams、Microsoft Stream の Microsoft 365 全体でのライブイベント](https://docs.microsoft.com/stream/live-event-m365)
-- [Microsoft Teams ライブイベントの使用を開始する](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
+- [Microsoft Teams ライブ イベントの使用を開始する](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer のライブイベント](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
 - [Microsoft Stream のライブイベント](https://docs.microsoft.com/stream/live-event-overview)
 

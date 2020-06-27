@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、バングラデシュで利用できるようにする方法について説明します。
-ms.openlocfilehash: 1ec0337d6c63f97197908375c2c8a3712f5b9621
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: e271e0328e787326921d0fe931a643c3b5ba924e
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878028"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902232"
 ---
 # <a name="availability-in-bangladesh"></a>バングラデシュの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Bangladash で利用できる Microsoft 365 および Skype for Business および Microsoft Teams 用の Office 365 サービスを紹介します。
+ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、バングラデシュで利用できるようにする方法について説明します。
   
 ## <a name="audio-conferencing"></a>電話会議
 

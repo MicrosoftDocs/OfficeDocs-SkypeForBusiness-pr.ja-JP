@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: Teams のアップグレード計画のワークショップ
+summary: Teams へのアップグレードの計画と実施に役立つように設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、一連のライブの対話型アップグレード計画ワークショップにご参加ください。 最適なエクスペリエンスのために、以下の「アップグレードを計画する」セッションから始めてください。 登録するワークショップのタイトルをクリックします。
+brand: teams
+metadata:
+  title: Teams のアップグレード計画のワークショップ
+  description: Teams へのアップグレードの計画と実施に役立つように設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、一連のライブの対話型アップグレード計画ワークショップにご参加ください。 最適なエクスペリエンスのために、以下の「アップグレードを計画する」セッションから始めてください。 登録するワークショップのタイトルをクリックします。
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 01/27/2020
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902392"
+productDirectory:
+  items:
+  - title: アップグレードを計画する (ここから開始!)
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: Teams へのアップグレードを成功させるために必要なすべてを見つけてください。 対象ユーザー-すべて (ビジネススポンサー、IT 管理者、ユーザー準備/変更マネージャー、プロジェクトリーダー)
+    url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
+  - title: エンド ユーザーを準備させる
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: ユーザーが Teams を気に入って導入することを支援するためのユーザーの準備戦略を設計します。 対象ユーザー-ユーザーの準備と変更マネージャー
+    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
+  - title: アップグレード方法を特定する
+    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: 現在の Skype for Business の実装とアップグレードの目標に基づいて最適な方法を決定します。 対象ユーザー (IT 管理者)
+    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
+  - title: アップグレード方法を実装する
+    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
+    summary: 定義済みのアップグレード方法を、正式なアップグレード計画の一部として実行します。 対象ユーザー (IT 管理者)
+    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+additionalContent:
+  sections:
+  - items:
+    - title: このワークショップを自分の時間で表示する
+      summary: 「YouTube での Microsoft Teams へのアップグレード」を参照してください。
+      url: https://aka.ms/UpgradeOnDemand
+    - title: チームシナリオを拡張する
+      summary: IT 担当者向けのチームチョークトークのワークショップをご覧ください。
+      url: https://aka.ms/TeamsChalkTalks
+    - title: Teams は初めてですか?
+      summary: チームの概要については、こちらを参照してください。
+      url: https://docs.microsoft.com/microsoftteams/teams-overview

@@ -18,12 +18,12 @@ description: Teams でイベントのライブをセットアップします。�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2e865fe2285abb9cd515d1efe769f18cb5735ff2
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a813f72c61e34ab217b14316ec4c2320affedfc6
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689673"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902282"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -116,7 +116,7 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
  
 - **Kollective** はクラウドベースのスマートなピアリング配信プラットフォームです。既存のネットワーク インフラストラクチャを活用して、コンテンツをさまざまな形式 (ライブストリーミング ビデオ、オンデマンド ビデオ、ソフトウェア更新プログラム、セキュリティ パッチなど) でより高速かつ確実に、少ない帯域幅で配信します。 Microsoft のセキュリティで保護されたプラットフォームは、世界中の大手金融機関から信頼を得ています。追加のハードウェアは不要で、簡単にセットアップして保守できます。 [詳細については、こちらを参照してください](https://kollective.com/microsoft-pilot/)。
  
-- **Ramp OmniCache** を利用すると、次世代のネットワーク配信ソリューションとして、グローバル WAN 全体にわたりシームレスにビデオ コンテンツを配信できます。イベント プロデューサーがネットワーク帯域幅を最適化し、ライブ イベントのブロードキャストとオンデマンド ストリーミングをサポートするのに役立ちます。 Teams で作成されるライブ イベント用の Ramp OmniCache のサポートは、間もなく利用可能になります。 [詳細については、こちらを参照してください](http://www.ramp.com)。 
+- **Ramp OmniCache** を利用すると、次世代のネットワーク配信ソリューションとして、グローバル WAN 全体にわたりシームレスにビデオ コンテンツを配信できます。イベント プロデューサーがネットワーク帯域幅を最適化し、ライブ イベントのブロードキャストとオンデマンド ストリーミングをサポートするのに役立ちます。 Teams で作成されるライブ イベント用の Ramp OmniCache のサポートは、間もなく利用可能になります。 [詳細については、こちらを参照してください](https://rampecdn.com)。 
  
 > [!NOTE] 
 > お客様が選択した SDN または eCDN ソリューションには、そのソリューションの使用を管理する、**サードパーティ プロバイダーのサービス利用規約とプライバシー ポリシー**が適用されます。 プロバイダーのソリューションの使用に対しては、Microsoft ボリューム ライセンス条項やオンライン サービス条項は適用されません。 **サードパーティ プロバイダーの利用規約**に同意しない場合は、Teams でそのソリューションを有効にしないでください。 

@@ -11,74 +11,74 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: '概要: Skype for Business Server の通話料金の評価機能について説明します。'
-ms.openlocfilehash: ca33e327b7416f18943a425df4ecb0d78d4047c6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server の通話の評価機能について説明します。'
+ms.openlocfilehash: 15f2bcbcf75690baaa350541f5f1da134fb32025
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817736"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902221"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Skype for Business Server での通話の評価
 
-**概要:** Skype for Business Server の通話料金の評価機能について説明します。
+**概要:** Skype for Business Server の通話の評価機能について説明します。
 
-Skype for Business 2015 および2016クライアントでは、自分の通話料金は、エンドユーザーからのフィードバックを得るための手段として提供されています。
+[通話の評価] Windows 上の Skype for Business 2015 および2016クライアントでは、エンドユーザーからフィードバックを取得する方法を提供する新機能でした。
 
-通話の速度の評価ウィンドウには、音声通話とビデオ通話のための "スター" 評価システムと事前定義されたトークンが用意されています。 さらに、管理者は、ユーザー設定フィールドを有効にしてフィードバックを提供することもできます。
+[通話の評価] ウィンドウには、音声およびビデオ通話用の "星" レベルの評価システムと定義済みのトークンが用意されています。 さらに、管理者はユーザー設定フィールドにフィードバックを提供することもできます。
 
-収集された比率現在、通話データは既存の監視レポートには含まれていませんが、別の監視レポートがあります。 Sql クエリを実行してアクセスできるデータは、SQL テーブルで収集されます。
+収集されたレート現在の通話データは既存の監視レポートには含まれていませんが、別の監視レポートがあります。 Sql クエリを実行することによってアクセスできる、SQL テーブル内のデータが収集されます。
 
-## <a name="rate-my-call-prerequisites"></a>通話の評価の前提条件
+## <a name="rate-my-call-prerequisites"></a>通話の前提条件の評価
 
-Skype for Business Server の展開のユーザーが通話機能にアクセスできるようにするには、次のコンポーネントのセットを展開して構成する必要があります。
+Skype for Business Server の展開のユーザーが通話速度にアクセスできるようにするには、次のコンポーネントのセットを展開して構成する必要があります。
 
--  Skype for Business Server (バージョン9160以降) がインストールされている必要があります。
+-  Skype for Business Server がインストールされている必要があります (バージョン9160以降)。
 
-- ユーザーが Skype for Business の最新バージョンをインストールして更新する必要があります。また、Skype for business の UI を使用するように依頼することもできます。
+- ユーザーが Skype for business の最新バージョンをインストールして更新するようにして、Skype for Business UI を使用するように依頼します。
 
 - ユーザーは、Skype for Business Server のフロントエンドプールに所属している必要があります。
 
-- Skype for business server monitoring データベースを展開して、Skype for Business Server のプールに関連付ける必要があります。
+- Skype for business Server の監視データベースを展開して、Skype for Business Server プールに関連付ける必要があります。
 
-- 通話品質ダッシュボード (CQD) を展開することをお勧めします
+- 通話品質ダッシュボード (CQD) を展開することをお勧めします。
 
-## <a name="configure-rate-my-call"></a>通話の評価の構成
+## <a name="configure-rate-my-call"></a>通話のレートを構成する
 
-電話料金の評価機能は、クライアントポリシーでは既定で有効になっていますが、次の設定があります。
+通話の評価機能は、次の設定でクライアントポリシーで既定で有効になっています。
 
-- 通話表示率を評価する-10%
+- 通話表示の評価率-10%
 
-- 通話料金カスタムユーザーフィードバックを許可する-無効
+- 通話の評価 [カスタムユーザーフィードバックを許可する]-無効
 
-基本機能を有効にするために必要な操作はありませんが、カスタムのフィードバックが必要な場合は、個別に有効にする必要があります。 次の Windows PowerShell コマンドレットは、カスタムエンドユーザーフィードバックを有効にし、間隔を10% から80% に変更する例です。
+基本機能を有効にするために必要な操作はありませんが、カスタムフィードバックを有効にする必要がある場合は、それを個別に有効にする必要があります。 次の Windows PowerShell コマンドレットは、カスタムエンドユーザーフィードバックを有効にし、10% から80% に間隔を変更する例です。
 
 ```PowerShell
-Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
+Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>通話の評価データへのアクセス
+## <a name="accessing-rate-my-call-data"></a>通話の通話データへのアクセス
 
 ユーザーからのデータは、監視データベースの2つのテーブルで収集されます。
 
- **[QoeMetrics] を選びます。[dbo][CallQualityFeedbackToken]**-このテーブルには、エンドユーザによるトークンのポーリングの結果が含まれています。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]**-この表には、エンドユーザーによるトークンポーリングの結果が含まれています。
 
- **[QoeMetrics] を選びます。[dbo][CallQualityFeedbackTokenDef]**-このテーブルにはトークンの定義が含まれています。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]**-この表にはトークンの定義が含まれています。
 
-トークンの定義は、次のように記述します。
+トークンの定義は次のようにコード化されます。
 
 |||
 |:-----|:-----|
-|1  <br/> |DistortedSpeech  <br/> |
-|両面  <br/> | ElectronicFeedback <br/> |
-|3  <br/> | BackgroundNoise <br/> |
-|4  <br/> |MuffledSpeech  <br/> |
-|5  <br/> |Echo  <br/> |
-|2004  <br/> | FrozenVideo <br/> |
-|22  <br/> | PixelatedVideo <br/> |
+|1   <br/> |DistortedSpeech  <br/> |
+|2   <br/> | ElectronicFeedback <br/> |
+|3   <br/> | BackgroundNoise <br/> |
+|4   <br/> |MuffledSpeech  <br/> |
+|5   <br/> |Echo  <br/> |
+| 21  <br/> | FrozenVideo <br/> |
+|×  <br/> | ピクセルの画像 <br/> |
 |最高  <br/> | BlurryImage <br/> |
-|24  <br/> | PoorColor <br/> |
-|50  <br/> | DarkVideo <br/> |
+|ソケット  <br/> | PoorColor <br/> |
+|まで  <br/> | DarkVideo <br/> |
 |101  <br/> |Audio_SilentLocal  <br/> |
 |102  <br/> |Audio_SilentRemote  <br/> |
 |103  <br/> |Audio_Echo  <br/> |
@@ -108,13 +108,13 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics] を選びます。[dbo][CallQualityFeedback]** この表には、有効になっている場合に "Star" の投票と顧客のフィードバックからのポーリング結果が含まれています。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedback]** この表には、有効になっている場合の "Star" 投票およびお客様からのフィードバックのポーリング結果が含まれています。
 
-テーブルのデータは、 **select \* from [Table.Name]** クエリまたは Microsoft SQL Server Management Studio を使って呼び出すことができます。
+テーブルからのデータは、 **select \* from [Table.Name]** クエリまたは Microsoft SQL Server Management Studio を使用して呼び出すことができます。
 
 次の SQL クエリを使用できます。
 
- **音声**
+ **Audio**
 
 ```SQL
 SELECT
@@ -151,7 +151,7 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
- **ビデオ**
+ **Video**
 
 ```SQL
 SELECT
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>トークン定義の更新
 
-最新の Skype for Business クライアントでは、[QoeMetrics]\>に表示されない可能性がある新しい問題のトークン id (100) が報告されています。[dbo][CallQualityFeedbackTokenDef] テーブル。 最新のトークン定義を使ってデータベーステーブルを更新するには、次の SQL コマンドを監視データベースで Microsoft SQL Server Management Studio を使用して実行することができます。 このコマンドを実行すると、[QoeMetrics] のすべてのエントリが置き換えられます。[dbo][CallQualityFeedbackTokenDef] テーブル。
+最新の Skype for Business クライアントは、 \> [QoeMetrics] に存在しない可能性がある新しい問題のトークン id (100) を報告します。 [dbo]。[CallQualityFeedbackTokenDef] テーブル。 最新のトークン定義を使用してデータベーステーブルを更新するには、Microsoft SQL Server Management Studio を使用して、以下の SQL コマンドを監視データベースで実行できます。 このコマンドを実行すると、[QoeMetrics] のすべてのエントリが置き換えられます。[dbo]。[CallQualityFeedbackTokenDef] テーブル。
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
