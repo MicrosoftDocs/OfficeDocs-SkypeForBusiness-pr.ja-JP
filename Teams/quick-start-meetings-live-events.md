@@ -17,21 +17,21 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4511bf67926c831548084647195e21ed13fc08f5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0eb91032689ffccc5696d60e44e52e72d5f4f067
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691203"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889986"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
 Microsoft Teams での会議には、会議とライブ イベントの 2 つの方法があります。 この記事を使用して、組織の会議とライブイ ベントをすばやく展開して構成します。 
 
- - Teams の**会議** には、最大 250 人用の音声、ビデオ、画面共有が含まれます。 Teams で共同作業を行うための重要な方法の 1 つです。 また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません) 。コールインの手順については、出席依頼に記載されています。 
+ - Teams の**会議** には、最大 300 人用の音声、ビデオ、画面共有が含まれます。 Teams で共同作業を行うための重要な方法の 1 つです。 また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません) 。コールインの手順については、出席依頼に記載されています。 
 
- - **ライブ イベント**は Teams 会議の拡張機能であり、これを使用すると、多くのオンライン視聴者 (最大 10,000 人) にストリーミングするイベントのスケジュールと作成を行うことができます。 250人を超える会議が必要な場合は、ライブ イベントを使用してください。
-
+ - **ライブ イベント**は Teams 会議の拡張機能であり、これを使用すると、多くのオンライン視聴者 (最大 10,000 人) にストリーミングするイベントのスケジュールと作成を行うことができます。 300 人を超える会議が必要な場合は、ライブ イベントを使用してください。
+<br><br>**注:** 政府機関用の Teams (GCC、GCC High、DoD) の場合、制限は 250 のままです。 政府機関のクラウド制限が 250 から 300 に増加したときに、この記事を更新します。
 ## <a name="get-licenses-for-meetings-and-live-events"></a>会議やライブ イベントのライセンスを取得する
 
 だれでも無料で Teams 会議やパブリック ライブ イベントに参加できます。ライセンスは必要ありません。 参加者は、Teams または会議出席依頼の **[参加]** ボタンをクリックして、Teams 会議やライブ イベントに参加します。 会議の音声は Teams 会議の一部ですが、電話で会議にダイヤルインできるようにするには、ダイヤルイン番号を提供する必要があります。 
