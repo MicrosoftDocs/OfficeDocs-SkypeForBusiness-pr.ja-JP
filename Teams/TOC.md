@@ -117,6 +117,7 @@
 #### [概要](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams の使用状況レポート](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams ユーザー アクティビティ レポート](teams-analytics-and-reports/user-activity-report.md)
+#### [Teams アプリの使用状況レポート](teams-analytics-and-reports/app-usage-report.md)
 #### [Teams のデバイス使用状況レポート](teams-analytics-and-reports/device-usage-report.md)
 #### [PSTN のブロックされたユーザー レポート](teams-analytics-and-reports/pstn-blocked-users-report.md)
 #### [PSTN の利用分数プール レポート](teams-analytics-and-reports/pstn-minute-pools-report.md)
