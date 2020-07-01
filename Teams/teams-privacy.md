@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579573"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938496"
 ---
 # <a name="privacy-and-microsoft-teams"></a>プライバシーと Microsoft Teams
 
@@ -58,7 +58,7 @@ Microsoft は次の場合を除き、個人情報を開示しません。
 1. オンラインサービス条件に記載されている場合 (サービスの特定の要素を提供するための認定下請業者の使用など)。
 1. 法律で求められる場合。
 
-司法執行機関が Microsoft に問い合わせてくる場合、Microsoft は法的執行機関をリダイレクトして、ユーザーに個人情報を直接要求するよう試みます。 法的執行機関に個人データを開示せざるを得ない場合、Microsoft は法的にそうすることが禁止されていない限り、ユーザーに直ちに通知し、要求されているコピーを提供します。 法的執行機関およびその他の政府当局からの要求に応じて開示されるデータの詳細については、「[法執行機関要請レポート](https://www.microsoft.com/about/corporate-responsibility/lerr/)」を参照してください。
+司法執行機関が Microsoft に問い合わせてくる場合、Microsoft は法的執行機関をリダイレクトして、ユーザーに個人情報を直接要求するよう試みます。 法的執行機関に個人データを開示せざるを得ない場合、Microsoft は法的にそうすることが禁止されていない限り、ユーザーに直ちに通知し、要求されているコピーを提供します。 法的執行機関およびその他の政府当局からの要求に応じて開示されるデータの詳細については、「[法執行機関要請レポート](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report)」を参照してください。
 
 「[Teams セキュリティ ガイド](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards)」には、法令遵守基準についての詳細情報があります。
 
