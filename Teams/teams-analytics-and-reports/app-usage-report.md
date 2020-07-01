@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターで Teams アプリの使用状�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a5d5c1bdb5b5bbe58ecdb90721ce24bd0081a65
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902365"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938206"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams アプリの使用状況レポート
 
@@ -30,7 +30,7 @@ Microsoft Teams 管理センターの Teams アプリの使用状況レポート
 
 ## <a name="view-the-app-usage-report"></a>アプリの使用状況レポートを表示する
 
-1.  管理センターの左のナビゲーションで <https://teams.admin.microsoft.com> 、[分析] をクリックして [**レポート**の \> **利用状況レポート]**& します。 [**レポートの表示**] タブの [**レポート**] で、[**アプリの利用状況**] を選択します。
+1.  管理センターの左のナビゲーションで <https://admin.teams.microsoft.com> 、[分析] をクリックして [**レポート**の \> **利用状況レポート]**& します。 [**レポートの表示**] タブの [**レポート**] で、[**アプリの利用状況**] を選択します。
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="[利用状況レポート] メニュー項目のスクリーンショット":::
 

@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 医療の調整、セキュリティで保護されたメッセージング、テレケア、EHR 統合、firstline worker システムの統合など、医療機関向けの機能について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905739"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938366"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療関係組織のためのTeamsを始めましょう
 
@@ -109,10 +109,4 @@ Teams を作成するための新しいテンプレートは、病院の設定�
 
 ## <a name="firstline-worker-integration"></a>Firstline Worker の統合
 
-Microsoft Teams は Firstline Worker と統合されています。これは、シフトのスタッフ機能の調整に使用できます。
-
- 次の記事を参照してください。
-
-- [Microsoft StaffHub のチームを Microsoft Teams のシフトに移動する](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [Microsoft Teams で組織のシフト アプリを管理する](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft Teams は Firstline Worker と統合されています。これは、シフトのスタッフ機能の調整に使用できます。 「 [Microsoft Teams で組織のシフトアプリを管理する](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)」を参照してください。

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 748167dc8e03b53fc07611df0ff464d984fb5678
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951062"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938196"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 
@@ -62,4 +62,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> また、バッチポリシーの割り当てを使用して、メッセージングポリシーを多数のユーザーに割り当てることもできます。 詳細については、「[学校の多数のユーザーにポリシーを割り当て](../batch-policy-assignment-edu.md)、 [Teams のユーザーにポリシーを割り当てる](../assign-policies.md)」を参照してください。
+> また、バッチポリシーの割り当てまたはユーザーがメンバーになっているグループによって、メッセージングポリシーをユーザーに直接割り当てることもできます。 詳細については、「[学校の多数のユーザーにポリシーを割り当て](../batch-policy-assignment-edu.md)、 [Teams のユーザーにポリシーを割り当てる](../assign-policies.md)」を参照してください。

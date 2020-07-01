@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 緊急電話番号を設定し、緊急電話のルーティング方法を指定するために、Microsoft Teams で緊急通話ルーティングポリシーを使用および管理する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 35595d8c3b784b908448eae72013cb8bcf3f37f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638696"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938166"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ルーティングポリシーを管理する
 
@@ -74,56 +74,9 @@ ms.locfileid: "44638696"
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>ユーザーにカスタム緊急通話ルーティングポリシーを割り当てる
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-1人のユーザーにポリシーを割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
-2. **[ポリシー]** をクリックし、**[割り当てられたポリシー]** の横にある **[編集]** をクリックします。
-3. [**緊急着信ルーティングポリシー**] で、割り当てるポリシーを選び、[**保存**] をクリックします。
-
-複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
-2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部にある [&#x2713; (チェックマーク)] をクリックします。
-3. [**設定の編集**] をクリックし、必要な変更を行い、[**適用**] をクリックします。  
-
-または、次の操作も実行できます。
-
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **緊急ポリシー**] に移動し、[**通話ルーティングポリシー** ] タブをクリックします。
-2. ポリシー名の左側をクリックしてポリシーを選びます。
-3. [**ユーザーを管理**] を選択します。
-4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
-5. ユーザーの追加が完了したら、[**保存**] をクリックします。
-
-### <a name="using-powershell"></a>PowerShell を使用する場合
-
-#### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>ユーザーにカスタム緊急通話ルーティングポリシーを割り当てる
-
-「 [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)」を参照してください。
-
-### <a name="assign-a-custom-emergency-call-routing-policy-to-users-in-a-group"></a>ユーザー設定の緊急通話ルーティングポリシーをグループ内のユーザーに割り当てる
-
-ユーザーが既に識別している複数のユーザーに緊急通話ルーティングポリシーを割り当てることができます。 たとえば、セキュリティグループまたは配布グループ内のすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Graph 用 Azure Active Directory PowerShell モジュールと Skype for Business PowerShell モジュールに接続します。
-
-この例では、Contoso の HR グループのすべてのユーザーに、HR 緊急通話ルーティングポリシーと呼ばれるポリシーを割り当てます。  
-
-> [!NOTE]
-> まず、 [「単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)する」の手順に従って、Graph モジュール用の Azure Active Directory Powershell と Skype For business powershell モジュールに接続していることを確認してください。
-
-特定のグループの GroupObjectId を取得します。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso HR"
-```
-指定したグループのメンバーを取得します。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-グループ内のすべてのユーザーを特定のチーム ポリシーに割り当てる。 この例では、HR 緊急通話ルーティングポリシーが使用されています。
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
-``` 
-グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
+「 [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)」も参照してください。
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>ユーザー設定の緊急通話ルーティングポリシーをネットワークサイトに割り当てる
 
@@ -137,6 +90,8 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teams で緊急通話のポリシーを管理する](manage-emergency-calling-policies.md)
-- [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [チームのユーザーにポリシーを割り当てる](assign-policies.md)
+[Teams で緊急通話のポリシーを管理する](manage-emergency-calling-policies.md)
+
+[Teams での PowerShell の概要](teams-powershell-overview.md)
+
+[チームのユーザーにポリシーを割り当てる](assign-policies.md)

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 管理者は、Microsoft Teams 会議で入力および終了のお知らせを有効または無効にする方法について説明します。
-ms.openlocfilehash: 824949ea1c212f514830dfad3926444944ac099c
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ae2e8936b3fe0dbac0ba0d6ad7bfad3ab2e322ef
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690983"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938556"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Microsoft Teams で会議の入退室通知をオンまたはオフにする
 
@@ -43,7 +43,7 @@ Microsoft 365 または Office 365 で電話会議をセットアップすると
 
 これらの変更を行うには、管理者である必要があります。
 
-1. 管理センターにログイン  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> します。
+1. 管理センターにログイン  <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a> します。
 
 2. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -54,7 +54,7 @@ Microsoft 365 または Office 365 で電話会議をセットアップすると
 5. [**エントリ/退出のお知らせの種類**] の下にある [**名前または電話番号**] または [**トーン**] を選択します。
 
    > [!NOTE]
-   > 既定では、外部参加者はダイヤルイン参加者の電話番号を表示することはできません。 これらの電話番号のプライバシーを維持する場合は、[アナウンスの**種類**] の [**トーン**] を選択します (これにより、チームがこの番号を閲覧できなくなります)。
+   > 既定では、外部参加者はダイヤルイン参加者の電話番号を表示することはできません。 これらの電話番号のプライバシーを維持したい場合は、**開始/終了のお知らせの種類** の **トーン** を選びます (これにより、数字が Teams によって読み上げられません)。
     
 6. [**名前または電話番号**] を選ぶ場合は、[**発信者に、会議に参加する前に自分の名前を記録するように要求します**] を有効または無効にします。
     

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 454d3b4a057b15ad0f329434f541cd03d2b41a7f
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698277"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938456"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Microsoft Teams のカスタム アプリのポリシーと設定を管理する
 
@@ -132,6 +132,8 @@ ms.locfileid: "44698277"
 | オン     | オン     | オフ         | ユーザーがカスタムアプリをアップロードすることはできません。       |
 | オン    | オン        | オン        | ユーザーがチーム所有者であるかどうかに関係なく、ユーザーはカスタムアプリをチームにアップロードできます。 ユーザーは、個人用コンテキストでカスタムアプリをアップロードできます。       |
 
- ## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連項目
  
-- [Teams でのアプリの管理設定](admin-settings.md)
+[Teams でのアプリの管理設定](admin-settings.md)
+
+[チームのユーザーにポリシーを割り当てる](assign-policies.md)

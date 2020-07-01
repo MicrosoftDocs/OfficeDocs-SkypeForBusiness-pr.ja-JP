@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: フィードバックポリシーを使用して、組織内の Teams ユーザーがチームに関するフィードバックを Microsoft に送信できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b489e574a1d1c2a2b1ac5faf69626e997dbbfaa9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637956"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938486"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams でフィードバックポリシーを管理する
 
@@ -46,11 +46,11 @@ ms.locfileid: "44637956"
 
 管理者として、組織内のユーザーが**フィードバック**を送信し、アンケートを受けるかどうかを制御できます。 既定では、組織内のすべてのユーザーにグローバル (組織全体の既定) ポリシーが自動的に割り当てられ、ポリシーで**フィードバックの提供**機能とアンケートが有効になります。 この例外は、学生に対して機能が有効になっており、学生に対して無効になっている、教育機関向けの Teams です。
 
-グローバル ポリシーを編集するか、カスタム ポリシーを作成して割り当てることもできます。 ユーザーにカスタム ポリシーが割り当てられると、そのポリシーがユーザーに適用されます。 ユーザーにカスタム ポリシーが割り当てられない場合は、グローバル ポリシーがユーザーに適用されます。 グローバルポリシーを編集するか、ポリシーを割り当てると、変更が有効になるまでに数時間かかることがあります。
+グローバル ポリシーを編集するか、カスタム ポリシーを作成して割り当てることもできます。 グローバルポリシーを編集するか、カスタムポリシーを割り当てると、変更が有効になるまでに数時間かかることがあります。
 
 たとえば、組織内のすべてのユーザーが**フィードバック**を送信してフィードバックを受け取り、トレーニングの新入団体以外のアンケートを受けることができるようにします。 このシナリオでは、ユーザー設定のポリシーを作成して、両方の機能を無効にし、新しい採用者に割り当てることができます。 組織内の他のすべてのユーザーは、この機能を有効にしたグローバルポリシーを取得します。  
 
-カスタムポリシーを作成するには、 *[次](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* のコマンドレットを使用します。これは、カスタムポリシーを作成するために、1人以上のユーザーまたはユーザーのグループ (セキュリティグループ、配布グループなど) に割り当てるための、**許可-Csteamsフィードバックポリシー** **コマンドレットを**使用します。
+フィードバックポリシーは、PowerShell を使用して管理します。 *[この](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* コマンド**レットを使用して**、カスタムポリシーを作成します。これは、1人以上のユーザーまたはユーザーのグループ (セキュリティグループ、配布グループなど) に割り当てるために、ユーザー設定のポリシーと**Grant-csteamsフィードバックポリシー**コマンドレットを作成するために使用します。
 
 機能を無効にして有効にするには、次のパラメーターを設定します。
 
@@ -65,35 +65,17 @@ ms.locfileid: "44637956"
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
-## <a name="assign-a-custom-feedback-policy"></a>ユーザー設定のフィードバックポリシーを割り当てる
+## <a name="assign-a-custom-feedback-policy-to-users"></a>ユーザーにカスタムフィードバックポリシーを割り当てる
 
-### <a name="assign-a-custom-feedback-policy-to-a-user"></a>ユーザーにカスタムフィードバックポリシーを割り当てる
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 この例では、新入社員フィードバックポリシーという名前のカスタムポリシーを user1 という名前のユーザーに割り当てています。
 
 ```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>ユーザー設定のフィードバックポリシーをグループ内のユーザーに割り当てる
-
-ユーザー設定のフィードバックポリシーは、既に指定されている複数のユーザーに割り当てることができます。 たとえば、セキュリティ グループのすべてのユーザーにポリシーを割り当てることができます。
-
-この例では、新入社員フィードバックポリシーというカスタムフィードバックポリシーを、Contoso の新入社員グループのすべてのユーザーに割り当てます。  
-
-特定のグループの GroupObjectId を取得します。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso New Hires"
-```
-指定したグループのメンバーを取得します。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-グループ内のすべてのユーザーを特定のフィードバックポリシーに割り当てます。 この例では、新入社員フィードバックポリシーが追加されています。
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
-``` 
-グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
 
 ## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
+- [チームのユーザーにポリシーを割り当てる](assign-policies.md)

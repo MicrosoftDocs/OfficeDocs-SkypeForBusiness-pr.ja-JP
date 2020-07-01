@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d521a00389286bf60a42201134a1d9b697a9bfdc
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 9ddbcd1a5110cff52ce518cf052279204fc8e2c9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44890006"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938216"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
@@ -45,9 +45,9 @@ ms.locfileid: "44890006"
 
 アプリバーでプレインストールされているアプリを確認するには、ユーザーが [...] をクリックします **。** チームのデスクトップと web クライアントでその他のアプリを追加し、モバイルクライアントで上にスワイプします。
 
-アプリセットアップポリシーは、Microsoft Teams 管理センターで管理します。 グローバル (組織全体の既定) ポリシーを使用することも、カスタム ポリシーを作成してユーザーに割り当てることもできます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。 これらのポリシーを管理するには、グローバル管理者または Teams サービス管理者である必要があります。
+アプリセットアップポリシーは、Microsoft Teams 管理センターで管理します。 グローバル (組織全体の既定) ポリシーを使用するか、カスタムポリシーを作成して割り当てることができます。  カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。 これらのポリシーを管理するには、グローバル管理者または Teams サービス管理者である必要があります。
 
-グローバルポリシーの設定を編集して、目的のアプリを含めることができます。 組織内のさまざまなユーザーグループのチームをカスタマイズする場合は、1つ以上のカスタムポリシーを作成して割り当てます。 ユーザーにカスタム ポリシーが割り当てられると、そのポリシーがユーザーに適用されます。 ユーザーにカスタム ポリシーが割り当てられない場合は、グローバル ポリシーがユーザーに適用されます。
+グローバルポリシーの設定を編集して、目的のアプリを含めることができます。 組織内のさまざまなユーザーグループのチームをカスタマイズする場合は、1つ以上のカスタムポリシーを作成して割り当てます。
 
 ![[アプリセットアップポリシー] ページを示すスクリーンショット](media/app-setup-policies.png)
 
@@ -93,52 +93,7 @@ Microsoft Teams 管理センターを使って、作成するグローバル (�
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>ユーザーにカスタムアプリセットアップポリシーを割り当てる
 
-Microsoft Teams 管理センターを使用して、カスタムポリシーを個々のユーザーに割り当てるか、Skype for Business PowerShell モジュールを使用して、セキュリティグループ、配布グループなど、グループ内のユーザーにカスタムポリシーを割り当てることができます。
-
-### <a name="assign-a-custom-app-setup-policy-to-users"></a>ユーザーにカスタムアプリセットアップポリシーを割り当てる
-
-1人のユーザーにポリシーを割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
-2. ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。
-3. [**アプリセットアップポリシー**] で、割り当てるアプリセットアップポリシーを選択し、[**適用**] をクリックします。
-
-複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
-2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部にある [&#x2713; (チェックマーク)] をクリックします。
-3. [**設定の編集**] をクリックし、必要な変更を行い、[**適用**] をクリックします。  
-
-または、次の操作も実行できます。
-
-1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動します。
-2. ポリシー名の左側をクリックしてポリシーを選びます。
-3. [**ユーザーを管理**] を選択します。
-4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
-5. ユーザーの追加が完了したら、[**保存**] を選択します。
-
-### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>カスタムアプリセットアップポリシーをグループ内のユーザーに割り当てる
-
-カスタムアプリセットアップポリシーは、既に指定した複数のユーザーに割り当てることができます。 たとえば、セキュリティ グループのすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Graph 用 Azure Active Directory PowerShell モジュールと Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
-
-この例では、"人事アプリセットアップポリシー" というカスタムアプリセットアップポリシーを、Contoso 製薬 HR プロジェクトグループ内のすべてのユーザーに割り当てています。  
-
-> [!NOTE]
-> まず、 [「単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)する」の手順に従って、Graph モジュール用の Azure Active Directory Powershell と Skype For business powershell モジュールに接続していることを確認してください。
-
-特定のグループの GroupObjectId を取得します。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
-```
-指定したグループのメンバーを取得します。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-グループ内のすべてのユーザーを特定のアプリセットアップポリシーに割り当てます。 この例では、HR アプリのセットアップポリシーです。
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
-``` 
-グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="faq"></a>FAQ
 
@@ -202,5 +157,6 @@ Teams のモバイルクライアントでは、ユーザーにはアクティ�
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teams でのアプリの管理設定](admin-settings.md)
-- [チームのユーザーにポリシーを割り当てる](assign-policies.md)
+[Teams でのアプリの管理設定](admin-settings.md)
+
+[チームのユーザーにポリシーを割り当てる](assign-policies.md)

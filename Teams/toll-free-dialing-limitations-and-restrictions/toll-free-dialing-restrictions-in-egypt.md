@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限など、エジプトの無料電話番号へのダイヤル方法について説明します。
-ms.openlocfilehash: d7302220500a766fb00a6a13ffa0d96b0bbcf184
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140436"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938426"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>エジプトでのフリーダイヤル制限
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140436"
 
 |**詳細**|**説明**|
 |:-----|:-----|
-|フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
+|フリーダイヤルを利用できますか?  <br/> |いいえ  <br/> |
 |ダイヤル形式  <br/> |0800-XXX-XXXX  <br/> |
 |国/地域の ISO コード  <br/> |EG  <br/> |
 |対象となる島/地域  <br/> |該当なし  <br/> |

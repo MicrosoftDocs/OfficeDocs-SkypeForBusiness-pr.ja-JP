@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でボイスルーティングポリシーを作成して管理する方法について説明します。
-ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350191"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938128"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Microsoft Teams でボイスルーティングポリシーを管理する
 
@@ -65,35 +65,16 @@ ms.locfileid: "44350191"
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>カスタムボイスルーティングポリシーをユーザーに割り当てる
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-1人のユーザーにポリシーを割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
-2. **[ポリシー]** をクリックし、**[割り当てられたポリシー]** の横にある **[編集]** をクリックします。
-3. [**音声ルーティングポリシー**] で、割り当てるポリシーを選択し、[**保存**] をクリックします。
-
-複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左のナビゲーションで [**ユーザー**] に移動し、ユーザーを検索するか、ビューをフィルター処理して、目的のユーザーを表示します。
-2. [ **&#x2713;** (チェックマーク)] 列で、ユーザーを選びます。 すべてのユーザーを選択するには、テーブルの上部にある &#x2713; (チェックマーク) をクリックします。
-3. [**設定の編集**] をクリックし、必要な変更を加えて、[**適用**] をクリックします。  
-
-または、次の操作も実行できます。
-
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**  >  **音声ルーティングポリシー**] に移動します。
-2. ポリシー名の左側をクリックしてポリシーを選びます。
-3. [**ユーザーを管理**] を選択します。
-4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
-5. ユーザーの追加が完了したら、[**保存**] をクリックします。
-
-### <a name="using-powershell"></a>PowerShell を使用する場合
-
-「 [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)」を参照してください。
+「 [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)」も参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [直接ルーティング用のボイスルーティングを構成する](direct-routing-voice-routing.md)
-- [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
-- [チームのユーザーにポリシーを割り当てる](assign-policies.md)
+[Teams での PowerShell の概要](teams-powershell-overview.md)
+
+[直接ルーティング用のボイスルーティングを構成する](direct-routing-voice-routing.md)
+
+[ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
+
+[チームのユーザーにポリシーを割り当てる](assign-policies.md)

@@ -2,7 +2,7 @@
 title: 組織のシフトアプリを管理する
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416887"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938356"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
 > [!IMPORTANT]
-> 2020年6月30日の有効な Microsoft StaffHub は廃止されます。 Microsoft Teams で StaffHub 機能を構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 2020年6月30日に、StaffHub はすべてのユーザーに対して機能しなくなります。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub の廃止](microsoft-staffhub-to-be-retired.md)」を参照してください。  
+> 2020年6月30日有効な Microsoft StaffHub は廃止されました。 Microsoft Teams で StaffHub 機能を構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 2020年6月30日に、StaffHub がすべてのユーザーに対して動作を停止しました。 StaffHub を開こうとするユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 詳細については、「 [Microsoft StaffHub が廃止されました](microsoft-staffhub-to-be-retired.md)」を参照してください。  
 
 ## <a name="overview-of-shifts"></a>シフトの概要
 
@@ -65,7 +65,7 @@ Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続さ�
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstlineWorker アプリのセットアップポリシーを使用して、チームにシフトをピン留めする
 
-アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。 
+アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
  
 Teams には、組織内の Firstline Worker に割り当てることができる、FirstlineWorker アプリセットアップポリシーが組み込まれています。 既定では、ポリシーにはアクティビティ、シフト、チャット、および通話の各アプリが含まれています。 
 
@@ -73,50 +73,9 @@ Firstlineworker ポリシーを表示するには、Microsoft Teams 管理セン
 
 ![FirstlineWorker アプリセットアップポリシーのスクリーンショット](../../media/firstline-worker-app-setup-policy.png "Microsoft Teams 管理センターの FirstlineWorker アプリセットアップポリシーのスクリーンショット")
 
-#### <a name="assign-the-firstlineworker-policy-to-users"></a>FirstlineWorker ポリシーをユーザーに割り当てる
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>FirstLineWorker アプリのセットアップ ポリシーをユーザーに割り当てる
 
-FirstlineWorker アプリのセットアップポリシーを1人のユーザーに割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
-2. ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。
-3. [**アプリセットアップポリシー**] で [ **firstlineworker**] を選択し、[**適用**] をクリックします。
-
-複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
-2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部にある [&#x2713; (チェックマーク)] をクリックします。
-3. [**設定の編集**] をクリックし、[**アプリセットアップポリシー**] で [ **firstlineworker**] を選択し、[**適用**] をクリックします。  
-
-または、次の操作も実行できます。
-
-1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動します。
-2. ポリシー名の左側をクリックして、FirstlineWorker ポリシーを選択します。
-3. [**ユーザーを管理**] を選択します。
-4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
-5. ユーザーの追加が完了したら、[**適用**] を選択します。
-
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>FirstlineWorker アプリのセットアップポリシーをグループのユーザーメンバーに割り当てる
-
-最初の Lineworker アプリのセットアップポリシーは、セキュリティグループなどのグループのユーザーメンバーに割り当てることができます。これには、Graph モジュール用の Azure Active Directory PowerShell と Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](../../teams-powershell-overview.md)」を参照してください。
-
-この例では、Contoso Firstline チームグループのすべてのユーザーメンバーに FirstlineWorker アプリセットアップポリシーを割り当てます。
-
-> [!NOTE]
-> 「[単一の Windows PowerShell ウィンドウですべての Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」の手順に従って、必ず最初に Azure Active Directory PowerShell for Graph モジュールと Skype for Business PowerShell モジュールに接続してください。
-
-特定のグループの GroupObjectId を取得します。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
-```
-指定したグループのメンバーを取得します。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-グループのすべてのユーザーメンバーに FirstlineWorker アプリセットアップポリシーを割り当てます。
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
-``` 
-グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>監査ログでシフトイベントを検索する
 

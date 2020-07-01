@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft Teams 管理センターまたは Windows PowerShell を使用して、ダイヤルプラン (PSTN 通話ダイヤルプラン) を作成および管理する方法について説明します。
-ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691343"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938236"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -60,13 +60,9 @@ ms.locfileid: "44691343"
 2. ダイヤルプラン名の左側をクリックして、[**編集**] をクリックして、ダイヤルプランを選択します。
 3. 必要な変更を加えて、[**保存**] をクリックします。
 
-### <a name="add-users-to-a-dial-plan"></a>ダイヤルプランにユーザーを追加する
+### <a name="assign-a-dial-plan-to-users"></a>ユーザーにダイヤルプランを割り当てる
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動します。
-2. 表示名をクリックしてユーザーを選びます。
-3. [**ポリシー** ] タブを選択します。
-4. [割り当てられたポリシー] の右にある [**編集**] をクリックします。
-5. [ **Dial plan** ] ドロップダウンメニューで、ユーザーに割り当てるダイヤルプランを選択し、[**適用**] をクリックします。
+ダイヤルプランは、ポリシーを割り当てる方法と同じ方法で割り当てることができます。 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="using-powershell"></a>PowerShell を使用する場合
   
@@ -185,7 +181,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-既存の正規化ルールを調べて、どれを削除するかを決定し、そのインデックスを使用して削除するときには、次を実行します。正規化ルールの配列は、インデックス 0 で開始します。インデックス 1 である、3 桁の正規化ルールを削除する必要があります。
+Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it. The array of normalization rules starts with index 0. We would like to remove the 3-digit normalization rule, so that is index 1.
   
 ```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -216,7 +212,7 @@ Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-これらを実行して、OPDP1 という名前の既存のオンプレミス ダイヤル プランを組織のテナント ダイヤル プランとして追加します。まずオンプレミス ダイヤル プランを xml ファイルに保存してから、それを使用して新しいテナント ダイヤル プランを作成する必要があります。
+Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization. You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.
   
 これを実行して、オンプレミス ダイヤル プランを xml ファイルに保存します。
   

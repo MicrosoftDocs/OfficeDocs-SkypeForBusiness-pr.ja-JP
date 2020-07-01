@@ -22,23 +22,23 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4bde860f0f3e64899f4309706575c71862c754a5
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 83a06357402b44c5c15932211e562e488c2a2d5a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44889996"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938476"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
 管理者であれば、アプリのアクセス許可ポリシーを使用して、組織の Microsoft Teams ユーザーが使用できるアプリを制御できます。 すべてのアプリ、または Microsoft、第三者、お客様の組織によって公開されている特定のアプリを許可またはブロックすることができます。 アプリをブロックした場合、ポリシーを持つユーザーは、Teams アプリ ストアからアプリをインストールできません。 これらのポリシーを管理するには、グローバル管理者または Teams サービス管理者である必要があります。
 
-アプリのアクセス許可ポリシーは、Microsoft Teams 管理センターで管理します。 グローバル (組織全体の既定) ポリシーを使用するか、またはグループ内の個々のユーザーまたはユーザーにカスタムポリシーを作成して割り当てることができます。 ポリシーを編集または割り当てると、変更が有効になるまでに数時間かかる場合があります。
+アプリのアクセス許可ポリシーは、Microsoft Teams 管理センターで管理します。 グローバル (組織全体の既定) ポリシーを使用するか、カスタムポリシーを作成して割り当てることができます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。 ポリシーを編集または割り当てると、変更が有効になるまでに数時間かかる場合があります。
 
 ![アプリのアクセス許可ポリシーのスクリーンショット](media/app-permission-policies.png)
 
 > [!NOTE]
-> カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。 組織全体のアプリ設定は、グローバルポリシーや、作成してユーザーに割り当てるカスタムポリシーを上書きします。
+> 組織全体のアプリ設定は、グローバルポリシーや、作成してユーザーに割り当てるカスタムポリシーを上書きします。
 
 組織が既に Teams に登録されている場合は、Microsoft 365 管理センターの**テナント全体の設定**で構成したアプリ設定が、[アプリの[管理](manage-apps.md)] ページの組織全体のアプリの設定に反映されます。 チームを初めて使い始めたばかりの場合は、既定ではすべてのアプリがグローバルポリシーで許可されています。 これには、Microsoft、サードパーティ、組織によって公開されたアプリが含まれます。
 
@@ -82,52 +82,7 @@ Microsoft Teams 管理センターを使用して、作成するグローバル�
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>ユーザーにカスタムアプリのアクセス許可ポリシーを割り当てる
 
-Microsoft Teams 管理センターを使用して、ユーザー設定のポリシーを1人または複数のユーザーに割り当てることができます。また、グループ内のユーザー (セキュリティグループまたは配布グループ内のすべてのユーザー) にカスタムポリシーを割り当てることもできます。
-
-### <a name="assign-a-custom-app-permission-policy-to-users"></a>ユーザーにカスタムアプリのアクセス許可ポリシーを割り当てる
-
-1人のユーザーにポリシーを割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動します。
-2. ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。
-3. [**アプリのアクセス許可ポリシー**] で、割り当てるアプリのアクセス許可ポリシーを選択し、[**適用**] をクリックします。
-
-複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
-
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
-2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部にある [&#x2713; (チェックマーク)] をクリックします。
-3. [**設定の編集**] をクリックし、必要な変更を行い、[**適用**] をクリックします。  
-
-または、次の操作も実行できます。
-
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**チームアプリ**の  >  **アクセス許可ポリシー**] に移動します。
-2. ポリシー名の左側をクリックしてポリシーを選びます。
-3. **[ユーザーを管理する]** を選択します。
-4. [**ユーザーを管理する**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。
-5. ユーザーの追加が完了したら、[**保存**] をクリックします。
-
-### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>カスタムアプリのアクセス許可ポリシーをグループ内のユーザーに割り当てる
-
-カスタムアプリのアクセス許可ポリシーは、既に指定した複数のユーザーに割り当てることができます。 たとえば、セキュリティ グループのすべてのユーザーにポリシーを割り当てることができます。 これを行うには、Graph 用 Azure Active Directory PowerShell モジュールと Skype for Business PowerShell モジュールに接続します。 PowerShell を使用して Teams を管理する方法の詳細については、「[Teams での PowerShell の概要](teams-powershell-overview.md)」を参照してください。
-
-この例では、Contoso 製薬 HR プロジェクトグループ内のすべてのユーザーに HR アプリのアクセス許可ポリシーと呼ばれるカスタムアプリのアクセス許可ポリシーを割り当てます。  
-
-> [!NOTE]
-> まず、 [「単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)する」の手順に従って、Graph モジュール用の Azure Active Directory Powershell と Skype For business powershell モジュールに接続していることを確認してください。
-
-特定のグループの GroupObjectId を取得します。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
-```
-指定したグループのメンバーを取得します。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-グループ内のすべてのユーザーに特定のアプリのアクセス許可ポリシーを割り当てます。 この例では、HR アプリのアクセス許可ポリシーです。
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
-``` 
-グループ内のメンバー数によっては、このコマンドの実行に数分かかる場合があります。
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="app-permission-policies-for-gcc"></a>GCC のアプリアクセス許可ポリシー
 
@@ -196,5 +151,6 @@ GCC では、すべてのサードパーティ製アプリが既定でブロッ�
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teams でのアプリの管理設定](admin-settings.md)
-- [チームのユーザーにポリシーを割り当てる](assign-policies.md)
+[Teams でのアプリの管理設定](admin-settings.md)
+
+[チームのユーザーにポリシーを割り当てる](assign-policies.md)
