@@ -131,7 +131,6 @@
 ## [クイック スタート - 会議とライブ イベント](quick-start-meetings-live-events.md)
 ## [展開の計画](deploy-meetings-microsoft-teams-landing-page.md)
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
-## [Teams 会議でのプレゼンターと参加者の機能](roles-in-meetings.md)
 ## [会議ポリシーを管理する](meeting-policies-in-teams.md)
 ## [会議の設定を管理する](meeting-settings-in-teams.md)
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -626,12 +625,7 @@
 ## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ## [予約アプリと仮想訪問](bookings-app-admin.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Microsoft StaffHub はまもなく廃止予定です](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Microsoft StaffHub PowerShell モジュールをインストールする](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [レポートを実行してアクティブな StaffHub の使用状況を表示する](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [StaffHub チームを Teams の Shifts に移動する計画を立てる](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Microsoft StaffHub のチームを Teams の Shifts に移動する](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [ユーザーへのメール通信の例](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Microsoft StaffHubは廃止されました](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Teams で組織の Shifts アプリを管理する](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## 医療関係向けのTeams
