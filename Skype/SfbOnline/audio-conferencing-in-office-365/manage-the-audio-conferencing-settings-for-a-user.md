@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Microsoft 365 または Office 365 の管理者として、組織内の個々のユーザーの Skype for Business Online の音声会議設定 (プロバイダー、既定の有料電話番号、フリーダイヤル番号、会議 ID、PIN など) を編集できます。 '
-ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 47ad2b0d6b5684d2a897055ad43e253e55c67109
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164136"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943850"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Skype for Business Online のユーザーの電話会議の設定を管理する
 

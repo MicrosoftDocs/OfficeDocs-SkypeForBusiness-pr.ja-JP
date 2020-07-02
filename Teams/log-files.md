@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374205"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012193"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -34,9 +34,9 @@ ms.locfileid: "44374205"
 
 -   デスクトップ ログ
 
-Microsoft サポートでサポート リクエストを作成する際、サポート エンジニアによってデバッグ ログが要求されます。サポート リクエストを作成する前にこのログを手元に用意しておくと、Microsoft はすばやく問題解決を開始することができます。メディア ログやデスクトップ ログは Microsoft によって要求された場合のみ必要です。
+When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.
 
-次の表にクライアントとそれに関連付けられたログの概要を示します。ログ ファイルの格納場所は、クライアントとオペレーティング システムによって異なります。
+The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.
 
 
 |クライアント |デバッグ|デスクトップ|メディア|
@@ -44,6 +44,7 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 |Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
+|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -72,18 +73,24 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 
       キーボード ショートカット: Option + Command + Shift + 1
 
+-   走ら
+
+      キーボード ショートカット: Ctrl + Alt + Shift + 1
+
 デバッグ ログは次のフォルダーに自動的にダウンロードされます。
 
 -   Windows: %userprofile%\\Downloads
 
 -   Mac OSX: Downloads
 
+-   Linux: ~/ダウンロード
+
 -   ブラウザー: 既定の保存場所にデバッグ ログを保存するように求められます
 
 <a name="media-logs"></a>メディア ログ
 ---------------------------
 
-メディア ログには、音声、ビデオ、画面共有に関する診断データが含まれます。このログは要求があった場合にのみサポート ケースで必要とされ、Microsoft のみが検査できます。次の表にログの場所を示します。
+Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
 
 
 |クライアント |場所 |
@@ -93,23 +100,30 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 |            |%appdata%\Microsoft\Teams\media-stack \\ * .etl         |
 |Mac OSX     |~/Library/application support Support/Microsoft/Teams/media-stack/*. ブログ         |
 |            |~/Library/application support Support/Microsoft/Teams/skylib/*. ブログ         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/media-stack/*. ブログ         |
+|            |~/.config/Microsoft/Microsoft Teams/skylib/*. ブログ         |
 
 
 
 <a name="desktop-logs"></a>デスクトップ ログ
 ---------------------
 
-bootstrapper ログとも呼ばれるデスクトップ ログには、デスクトップ クライアントとブラウザー間で発生するログ データが含まれます。メディア ログと同様に、このログは Microsoft から要求された場合にのみ必要です。テキスト ベースのログで、任意のテキストベース エディタを使用して上から下の形式で読み取ることができます。
+Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.
 
 Windows:
 
-1.  システムトレイ**で Microsoft Teams アイコン**を右クリックし、[**ログの取得**] を選択します。
+1.  システムトレイで**Microsoft Teams**アイコンを右クリックし、[**ログの取得**] を選択します。
 
 Mac OsX:
 
 1.  [**ヘルプ**] プルダウン メニューで [**Get Logs (ログを取得)**] を選択する
 
+走ら
+
+1.  システムトレイの**Microsoft Teams**アイコンをクリックし、[**ログの取得**] を選択します。
+
 |クライアント |場所 |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
+|Windows     |% appdata% \Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |

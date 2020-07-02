@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321746"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944020"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>チームターゲット設定の階層を設定する
 
@@ -116,7 +116,7 @@ CSV ファイルには、次の3つの列を、最初の列から順に入力す
 ## <a name="apply-your-hierarchy"></a>階層を適用する
 
 > [!IMPORTANT]
-> この手順を実行するには、 [Powershell テストギャラリー](https://www.poshtestgallery.com/packages/MicrosoftTeams/)から最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「[プレリリース版の Teams PowerShell モジュールをインストール](install-prerelease-teams-powershell-module.md)する」を参照してください。
+> この手順を実行するには、 [Powershell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams/)から Teams PowerShell パブリックプレビューモジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「 [Teams PowerShell をインストール](teams-powershell-install.md)する」を参照してください。
 
 スキーマ CSV ファイルで階層を定義したら、それを Teams にアップロードできます。 これを行うには、次のコマンドを実行します。 この手順を実行するには、グローバル管理者または Teams サービス管理者である必要があります。
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>階層を削除する
 
 > [!IMPORTANT]
-> この手順を実行するには、 [Powershell テストギャラリー](https://www.poshtestgallery.com/packages/MicrosoftTeams/)から最新バージョンの Teams PowerShell モジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「[プレリリース版の Teams PowerShell モジュールをインストール](install-prerelease-teams-powershell-module.md)する」を参照してください。
+> この手順を実行するには、 [Powershell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams/)から Teams PowerShell パブリックプレビューモジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「 [Teams PowerShell をインストール](teams-powershell-install.md)する」を参照してください。
 
 組織内のすべてのユーザーに対して [**発行済みのリスト**] タブをすぐに無効にする場合は、階層を削除できます。 ユーザーは、[**発行済みリスト**] タブまたはタブのいずれかの機能にアクセスできません。 これには、発行するための新しいタスクリストを作成したり、下書きリストにアクセスしたり、リストにアクセスしたり、リストを公開したり、レポートを表示したりする機能が含まれます。 階層を削除しても、以前に公開されたタスクは発行されません。 これらのタスクは、受信者のチームが完了するまで、引き続き利用できます。 
 

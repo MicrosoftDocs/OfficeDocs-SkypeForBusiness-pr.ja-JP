@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で機密ラベルを定義して使用する方法について説明します。
-ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854119"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012313"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams の機密ラベル
 
@@ -100,6 +100,10 @@ $setting["EnableMIPLabels"] = "False"
 特定のラベルを使用して作成されたチームがゲストアクセスを許可するかどうかを指定できます。 ゲストアクセスが許可されていないラベルで作成されたチームは、組織内のユーザーのみが利用できます。 組織外のユーザーをチームに追加することはできません。
 
 ## <a name="known-issues"></a>既知の問題
+
+**チームの作成時に子の既定のラベルが表示されない**
+
+現時点では、Teams の既定のラベルとして設定された子ラベルは、チーム作成モデルの [感度ラベル] ドロップダウンリストの一番上には表示されません。 ただし、チームの作成者は、回避策として子ラベルを適用するためにドロップダウンを使用することができます。
 
 **Microsoft Teams 管理センターでの機密ラベルのサポート**
 
