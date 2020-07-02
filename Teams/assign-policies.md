@@ -18,19 +18,19 @@ description: Microsoft Teams でユーザーにポリシーを割り当てるさ
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 403131fa3e7bd2b3fb2a128640ac49497394d669
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938546"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021755"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにライセンスを割り当てる
 
 > [!NOTE]
 > **この記事で説明されている機能の1つについて、グループへのポリシーの割り当てについて、以下の点に注意して**ください。 
 > - [Microsoft Teams 管理センターを使用したグループへのポリシーの割り当て](#using-the-microsoft-teams-admin-center-3)は、まだリリースされていません。 これは発表され、近日公開予定です。 
-> - [PowerShell を使用したグループへのポリシーの割り当て](#using-powershell-3)は、現在プライベートプレビューでのみ利用できます。 この機能の Powershell コマンドレットは、プレリリースチームの PowerShell モジュールに含まれています。
+> - [PowerShell を使用したグループへのポリシーの割り当て](#using-powershell-3)は、現在プライベートプレビューでのみ利用できます。 この機能のコマンドレットは、Teams PowerShell パブリックプレビューモジュールに含まれています。
 >
 > この機能のリリース状況を把握するには、 [Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)を確認してください。
 
@@ -160,7 +160,7 @@ Import-PSSession -Session $CSSession
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-詳細については、「PowerShell を使用した[ポリシーの管理](teams-powershell-overview.md#managing-policies-via-powershell)」を参照してください。
+詳細については、「PowerShell を使用した[ポリシーの管理](teams-powershell-managing-teams.md#manage-policies-via-powershell)」を参照してください。
 
 ## <a name="assign-a-policy-package"></a>ポリシーパッケージを割り当てる
 
@@ -315,40 +315,14 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ### <a name="using-powershell"></a>PowerShell を使用する場合
 
-**この機能は、現在プライベートプレビューでのみ利用できます。この機能のコマンドレットは、プレリリースチームの PowerShell モジュールに含まれています。**
+**この機能は、現在プライベートプレビューでのみ利用できます。この機能のコマンドレットは、Teams PowerShell パブリックプレビューモジュールに含まれています。**
 
 > [!NOTE]
 > 現在、PowerShell を使用したグループへのポリシーの割り当ては、すべてのチームポリシーの種類では使用できません。 サポートされているポリシーの種類の一覧については、「[新しい-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 」を参照してください。
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft Teams PowerShell モジュールをインストールして接続する
 
-コマンドレットは、Teams PowerShell モジュールのプレリリースバージョンに含まれています。 次の手順に従って、最初に使用できるバージョンの Teams PowerShell モジュールをアンインストールし (インストールされている場合)、PowerShell テストギャラリーから最新のプレリリース版のモジュールをインストールします。
-
-まだインストールしていない場合は、次のように実行して、PowerShell テストギャラリーを信頼できるソースとして登録します。
-
-```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-一般的な Teams PowerShell モジュールのバージョンがインストールされている場合は、次のように実行してアンインストールします。
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-次を実行して、PowerShell テストギャラリーから最新の Microsoft Teams PowerShell モジュールをインストールします。
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
-```
-
-Teams に接続してセッションを開始するには、次を実行します。
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-メッセージが表示されたら、管理者の資格情報を使用してサインインします。
+これらのコマンドレットは、Teams PowerShell パブリックプレビューモジュールの一部です。 詳細な手順については、「 [Teams PowerShell をインストール](teams-powershell-install.md)する」を参照してください。
 
 #### <a name="assign-a-policy-to-a-group"></a>グループにポリシーを割り当てる
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、microsoft teams ルームのリリースノートを読むことができます。これにより、Microsoft Teams のルームでの累積的な改善点が一覧表示されます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d2b03a954661920b2c31d03081f7d6853e06b12
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877918"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021875"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -71,6 +71,8 @@ ms.locfileid: "44877918"
 - 品質と信頼性の修正
 - "4.4.41.0 の更新後にアプリケーションが起動しない" という問題を解決する
 
+> [!NOTE]
+> 使用しているデバイスがバージョン4.4.63.0 に自動的に更新されない場合は、「 [Microsoft Teams の会議室のバージョンを更新し](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update)ても問題を解決できない」の手順に従います。
 
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 

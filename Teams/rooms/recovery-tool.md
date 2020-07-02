@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms の回復ツールを使用する
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: この記事では、Microsoft Teams 室の回復ツールの使用方法について説明します。この機能は、サポートされている状態にシステムを移行するために使用します。
-ms.openlocfilehash: 755a85c9013d160197c8a8d57f74ef18b207e052
-ms.sourcegitcommit: 3d393ceded4d64963411cfdc96931952d480ded5
+ms.openlocfilehash: 47e9bed4377a111a1c1284684bbc40517dbb42d8
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42225281"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021725"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Microsoft Teams Rooms の回復ツールを使用する
 
@@ -29,28 +29,26 @@ ms.locfileid: "42225281"
 最新の[Microsoft Teams ルームインストールパッケージ](https://go.microsoft.com/fwlink/?linkid=851168)をダウンロードし、それを USB メモリスティックまたは Microsoft teams 室デバイスにアクセスできるネットワーク共有に抽出します。
 
 > [!NOTE]
-> MSI からファイルを抽出する方法は、さまざまな方法で実現できます。 すべてのファイルを抽出し、ディレクトリ構造を保持するメカニズムは受け入れられます。 このような方法の1つは`msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` 、 `PathToMsi` Microsoft Teams Room インストールパッケージへの完全パスを示すコマンドを`PathToTarget`使うことです。また、ファイルを抽出するフォルダーのフルパスを表します。
+> MSI からファイルを抽出する方法は、さまざまな方法で実現できます。 すべてのファイルを抽出し、ディレクトリ構造を保持するメカニズムは受け入れられます。 このような方法の1つは `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` 、 `PathToMsi` Microsoft Teams Room インストールパッケージへの完全パスを示すコマンドを使うことです。また、 `PathToTarget` ファイルを抽出するフォルダーのフルパスを表します。
 
 ## <a name="running-the-tool"></a>ツールを実行する
 
 1) Microsoft Teams 室のデバイスで管理者アカウントにサインインして、管理者特権のコマンドプロンプトを起動します。
-2) Microsoft teams 室のインストールパッケージから抽出されたファイルに含ま`RecoveryTool.ps1 file`れている、microsoft Teams の会議室のデバイスで確認することができます。 キットは、前提条件を準備するときに使用したネットワーク共有または USB ドライブにあります。
-3) 実行`powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`します。
-4) 出荷時の復元を実行している場合は、次の手順に従います。
-   - スクリプトによってプロンプトが表示されたら、[オプション 2:**リセット**] を選びます。
-   - BitLocker がオンになっている場合は、スクリプト出力の最後に示されている手順に従って、無効にします。
-   - 出荷時の復元を実行します。
-      - **設定**アプリを開き、[**更新] &** の [セキュリティ] を選択します。
-      - [**回復**] タブに移動します。
-      - [**この PC をリセット**する] の下で、[**はじめ**に] を選択します。
-      - [**すべて削除**]、[**次へ**]、[**リセット**] の順に選択します。
-      - システムが複数回再起動します。 リセットが完了すると、Windows OOBE 画面にシステムが表示されます。
-5) "古い" システムを修復する場合は、次の操作を行います。
-    - スクリプトによってメッセージが表示されたら、[オプション 1:**修復**] を選択します。
-    - 完了したら、Microsoft Teams 室のデバイスを再起動します。 自動的に再起動され、2回目の回復が完了します。
+2) Microsoft teams 室のインストールパッケージから抽出されたファイルに含まれている、Microsoft Teams の会議室のデバイスで確認することができ `RecoveryTool.ps1 file` ます。 キットは、前提条件を準備するときに使用したネットワーク共有または USB ドライブにあります。
+3) 実行 `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` します。
+4) 出荷時の復元を実行するには:
+   1. スクリプトによってプロンプトが表示されたら、[オプション 2:**リセット**] を選びます。
+   2. BitLocker がオンになっている場合は、スクリプト出力の最後に示されている手順に従って、無効にします。
+   3. 出荷時の復元を実行します。
+      1. **設定**アプリを開き、[**更新] &** の [セキュリティ] を選択します。
+      2. [**回復**] タブに移動します。
+      3. [**この PC をリセット**する] の下で、[**はじめ**に] を選択します。
+      4. [**すべて削除**]、[**次へ**]、[**リセット**] の順に選択します。
+        > [!WARNING]
+        > Microsoft Teams の会議室のデバイスは、 **[自分のファイルを保持する] でアプリと設定を削除**した場合、使用できなくなる可能性がありますが、Windows のリセットプロセス中に個人用のファイルオプションが選択されたままになります。 このオプションは選択しないでください。
+      5. システムが複数回再起動します。 リセットが完了すると、Windows の「box で動作しません」 (OOBE) 画面にシステムが表示されます。
 
-> [!NOTE]
-> **[自分のファイルを保持する] でアプリと設定を削除**した場合、Microsoft Teams の会議室が使用できなくなるという既知の問題がありますが、Windows のリセットプロセス中に個人用ファイルオプションが選択されたままになります。 このオプション*は使用しないでください。*
+
 
 ## <a name="see-also"></a>関連項目
 
