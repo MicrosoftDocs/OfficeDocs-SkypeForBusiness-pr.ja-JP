@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 教育機関におけるポリシーや EDU 設定、および Microsoft Teams でポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874430"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021885"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>境域機関向け Teams ポリシーおよびポリシー パッケージ
 
@@ -148,6 +148,9 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 ### <a name="meeting-policies"></a>会議ポリシー
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>会議を作成および開始する機能をオフにする
+
+> [!NOTE]
+> 現在、テナントのこの機能に気付かない場合があります。 それは、現在この機能がロールアウトされているためです。すべてのテナントにロールアウトされると、すべてのユーザーが利用できるようになります。 詳細については、「[チーム ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355)」を参照してください。
 
 学生が会議を無断でスケジュールすることができないようにするために、会議ポリシーで、次のような全般設定を使用して、会議作成機能を**オフ**に設定します。
 
