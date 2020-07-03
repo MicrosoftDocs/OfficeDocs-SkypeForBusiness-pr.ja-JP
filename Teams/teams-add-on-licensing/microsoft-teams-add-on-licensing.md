@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams のアドオンライセンスと各ライセンスで入手できる機能について説明します。
-ms.openlocfilehash: acb0ff4cd9cbaeeedb81490731a8b68a8de854a8
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170688"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028183"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams のアドオンライセンス
 
@@ -164,9 +164,9 @@ Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお�
 
 ユーザーがリモートで作業したり、家庭で仕事をしたりする必要がなくなったため、Microsoft には行政機関向け、教育機関向け、非営利団体向けに、複数の無料の Teams 試用版が用意されています。 試用版は以下のプランで利用できます。
 
-- Office 365 Enterprise [E1 試用版](../e1-trial-license.md)、E3 の試用版、および E5 の試用版
+- Office 365 Enterprise [E1 試用版](../e1-trial-license.md)(2020 年7月1日から廃止)、E3 試用版、および E5 試用版
 - Office 365 エデュケーション[A1 の試用版](../teams-edu-licensing.md)
-- Office 365 Government [G1 の試用版](../g1-trial-license.md)
+- Office 365 Government [G1 試用版](../g1-trial-license.md)(2020 年7月1日から廃止)
 
 試用版にサインアップするには、「[試用版へのサインアップ](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)」を参照してください。
 
@@ -176,7 +176,7 @@ Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお�
 
   ![トライアルベースのオプション](../media/licensing-trial-offers.png)
 
- このような音声機能の試用版を使用するには、基本プランが試用版である必要はありません。 Microsoft 365 のビジネスプランまたは企業向け、行政機関向け、教育機関向け、または非営利団体向けプランを使用して、音声機能の試用版を利用することができます。 利用可能な試用版とアドオンを表示するには、Microsoft 365 管理センターで [**課金** > **サービス**] に移動し、**興味を持つ可能性があるその他のカテゴリ**を選択して、 **[アドオン]** を選択します。
+ このような音声機能の試用版を使用するには、基本プランが試用版である必要はありません。 Microsoft 365 のビジネスプランまたは企業向け、行政機関向け、教育機関向け、または非営利団体向けプランを使用して、音声機能の試用版を利用することができます。 利用可能な試用版とアドオンを表示するには、Microsoft 365 管理センターで [**課金**  >  **サービス**] に移動し、**興味を持つ可能性があるその他のカテゴリ**を選択して、 **[アドオン**] を選択します。
 
   各音声と会議のオプションについては、無料の電話番号をお持ちの場合、またはユーザーが会議からダイヤルアウトする場合や、国内と国際間の PSTN 通話を行う場合に、通話料金を追加する必要がある場合は、[通信クレジット](../set-up-communications-credits-for-your-organization.md)が必要です。
 
@@ -188,7 +188,7 @@ Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお�
 
 * * *
 
-## <a name="need-help"></a>ヘルプが必要な場合
+## <a name="need-help"></a>サポートが必要な場合
 
 アドオンオプションについて誰かに相談する必要がある場合 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 

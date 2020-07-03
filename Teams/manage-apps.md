@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d4abedbd24f9f0211a66b0890fe9d3db2fc977cd
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 7884aa033d3d137ac36fe86a47a2861732b50bb5
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868484"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028093"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリを管理する
 ======================================================
@@ -86,7 +86,7 @@ Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams 
     - **サードパーティ製のアプリを許可する**: ユーザーがサードパーティ製のアプリを使えるかどうかを制御します。 この設定をオフにした場合、ユーザーはサードパーティ製のアプリをインストールまたは使用することができません。また、これらのアプリのアプリの状態は、表のブロックされた**組織全体**として表示されます。
 
         > [!NOTE]
-        > Teams の Microsoft 365 Government-GCC 展開では、[ **teams でのサードパーティ製のアプリを許可する**] 設定は既定でオフになっています。
+        > Microsoft 365 Government-GCC での Teams の展開では、[**サードパーティ製のアプリを許可する**] 設定は既定で無効になっています。
 
         許可されている**サードパーティ製のアプリ**が無効になっている場合は、[発信 web フック](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)は無効になります。つまり、ユーザーはこれらのアプリを作成することはできません。 この設定をオンにすると、ユーザーのアプリのアクセス許可ポリシーで設定をオンまたはオフにした場合でも、すべてのユーザーに対して送信 web フックが有効になります。
     - **既定でストアに公開**されている新しいサードパーティのアプリを許可します。これは、teams app store に公開された新しいサードパーティアプリが teams で自動的に使用できるようになるかどうかを制御します。 このオプションを設定するには、サードパーティ製のアプリを許可する必要があります。

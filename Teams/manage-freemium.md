@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d8d7edb5710883c7725a0784819d3a35c1c2f2f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0d8c8246ef635f860b5cc601613faf5ef1663726
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905099"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028133"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>無料版の Microsoft Teams を管理する
 ==========================================
@@ -45,10 +45,6 @@ Microsoft Teams の無料バージョンでは、組織に最初にサインア�
 
 ## <a name="get-the-right-teams-trial"></a>適切なチームの試用版を入手する
 
-Microsoft は、COVID-19 (coronavirus) の感染に対応して、従業員が家庭 (業務時間) で仕事をするために必要な増加に対応するために、Office 365 の試用ライセンス (Teams を含む) を作成します。 
-
-- [E1 試用版](e1-trial-license.md): この特典は、Microsoft アカウント担当者によって管理されている非営利団体を含む、あらゆる顧客を対象としています。
-
-- 米国政府 (GCC) については、「 [Office 365 G1 試用版](g1-trial-license.md)」をご覧ください。 
+- 無料の Teams の代わりとして、 [teams の探索](teams-exploratory.md)機能を確認します。
 
 - EDU のお客様は、無料の[Office 365 A1 ライセンス](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)を使用する必要があります。
