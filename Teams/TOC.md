@@ -259,6 +259,7 @@
 ### [通話の共有およびグループ通話ピックアップ](call-sharing-and-group-call-pickup.md)
 ### [通話ポリシー](teams-calling-policy.md)
 ### [回線共有機能](shared-line-appearance.md)
+### [ダイヤルパッドの構成](dial-pad-configuration.md)
 
 
 ## 通話プラン
@@ -780,6 +781,7 @@
 
 ## サポート対象のデバイス
 ### [Teams でのデバイスの管理](devices/device-management.md)
+### [デバイスをリモートで更新する](devices/remote-update.md)
 ### [Teams 対応の電話機](devices/phones-for-teams.md)
 ### [USB オーディオ デバイスおよびビデオ デバイス](devices/usb-devices.md)
 ### [Microsoft Teams の共同作業バーを展開する](devices/collab-bar-deploy.md)
@@ -790,8 +792,10 @@
 
 ## Teams の PowerShell
 ### [概要](teams-powershell-overview.md)
+### [Teams　の Powershell のインストール](teams-powershell-install.md)
+### [ Powershell で Teams を管理する](teams-powershell-managing-teams.md)
+### [Teams　の Powershell のリリースノート](teams-powershell-release-notes.md)
 ### [Teams のコマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [Teams PowerShell モジュールのプレリリース版をインストールする](install-prerelease-teams-powershell-module.md)
 
 ## [Teams の開発者向けドキュメント](https://docs.microsoft.com/microsoftteams/platform)
 ## [チームのヘルプを表示する](get-help-in-microsoft-teams.md)
