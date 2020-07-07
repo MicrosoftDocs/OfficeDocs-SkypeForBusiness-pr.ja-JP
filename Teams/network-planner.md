@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でネットワーク プランナーを使用する
+title: Microsoft Teams で Network Planner を使用する
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: 管理者は、ネットワーク プランナーを使用して、Microsoft Teams のネットワーク要件を特定する方法についてを知ることができます。
+description: 管理者は、Network Planner を使用して、Microsoft Teams のネットワーク要件を特定する方法についてを知ることができます。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -23,18 +23,17 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4a4676349dab9c7b587e63dcc9a538c9f0b43a80
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43904799"
 ---
-# <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft Teams でネットワーク プランナーを使用する
+# <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft Teams で Network Planner を使用する
 
-ネットワーク プランナーは、Teams 管理センターで利用できる新しいツールです。 これは、**プランナー** > ** ネットワーク プランナー**でアクセスできます。 ほんの少しの手順で、ネットワーク プランナーでは組織全体で Microsoft Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。 ネットワークの詳細と Teams の使用状況を提示すると、ネットワーク プランナーは、組織の物理的な場所で Teams とクラウドの音声を展開するためのネットワーク要件を計算します。
+Network Planner は、Teams 管理センターで利用できる新しいツールです。 これは、**プランナー**  >  **Network Planner** でアクセスできます。 ほんの少しの手順で、Network Planner では組織全体で Microsoft Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。 ネットワークの詳細と Teams の使用状況を提示すると、Network Planner は、組織の物理的な場所で Teams とクラウドの音声を展開するためのネットワーク要件を計算します。
 
-![ネットワーク プランナーのスクリーンショット](media/network-planner.png)
+![Network Planner のスクリーンショット](media/network-planner.png)
 
-ネットワーク プランナーでは次のことができます。
+Network Planner では次のことができます。
 
 - サイトと Microsoft 推奨のペルソナ (オフィス ワーカー、リモート ワーカー、Teams ルーム システム) を使用して組織の表現を作成します。
 
@@ -43,13 +42,13 @@ ms.locfileid: "43904799"
 
 - Teams の使用状況の帯域幅要件に関するレポートを作成し計算します。
 
-ネットワーク プランナーを使用するには、グローバル管理者、Teams サービス管理者、または Teams 通信管理者である必要があります。
+Network Planner を使用するには、グローバル管理者、Teams サービス管理者、または Teams 通信管理者である必要があります。
 
 ## <a name="create-a-custom-persona"></a>カスタム ペルソナを作成する
 
 カスタム レポートを作成するには、次の手順に従います。
 
-1. Microsoft Teams 管理センターのネットワーク プランナーにアクセスします。
+1. Microsoft Teams 管理センターの Network Planner にアクセスします。
 
 2. [**ペルソナ**] タブで、[**+ カスタム ペルソナ**] をクリックします。 
 
@@ -63,7 +62,7 @@ ms.locfileid: "43904799"
 
 ネットワーク プランを作成するには、次の手順を実行します。
 
-1. Microsoft Teams 管理センターのネットワーク プランナーにアクセスします。
+1. Microsoft Teams 管理センターの Network Planner にアクセスします。
 
 2. [**ネットワーク プラン**] タブで、[**ネットワーク プランの追加**] をクリックします。
 
@@ -106,4 +105,4 @@ ms.locfileid: "43904799"
 
 ## <a name="example-scenario"></a>シナリオ例
 
-ネットワーク プランナーを使用してネットワーク プランをセットアップし、これらの手順でレポートを生成する方法の例を見るには、[ネットワーク プランナーの使用方法に関する PowerPoint デック](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)　(英語のみ) をダウンロードしてください。
+Network Planner を使用してネットワーク プランをセットアップし、これらの手順でレポートを生成する方法の例を見るには、[Network Planner の使用方法に関する PowerPoint デック](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)　(英語のみ) をダウンロードしてください。

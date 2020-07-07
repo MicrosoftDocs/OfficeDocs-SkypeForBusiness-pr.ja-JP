@@ -18,12 +18,11 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: MT
+ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689813"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049414"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -133,6 +132,10 @@ Teams の会議アドインは継続して機能が開発されていますの�
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Outlook for Windows の Teams 会議アドインが表示されない
 
 Outlook 用の Teams 会議アドインをインストールできない場合、次のトラブルシューティングの手順をお試しください。
+
+[Microsoft サポート回復アシスタント](https://aka.ms/SaRA_Home)を[ダウンロード](https://aka.ms/SaRA-TeamsAddInScenario)して実行し、自動のトラブルシューティングの手順と修正プログラムを実行します。
+
+または、手動で次の手順を実行します。
 
 - Windows 7 ユーザーは、Teams 会議アドインを機能させるために、[Windows ユニバーサル C ランタイム更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
 - ユーザーが Teams で会議をスケジュールできる Teams アップグレード ポリシーを持っていることを確認します。 詳細については、「[Skype for Business から Teams へのアップグレード](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。

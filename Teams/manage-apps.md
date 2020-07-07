@@ -17,12 +17,11 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 7884aa033d3d137ac36fe86a47a2861732b50bb5
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
-ms.translationtype: MT
+ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028093"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042929"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリを管理する
 ======================================================
@@ -77,6 +76,9 @@ Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams 
 
 組織全体のアプリ設定を使用して、ユーザーがサードパーティ製のアプリをインストールできるかどうかを制御し、ユーザーが組織のカスタムアプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリの設定では、すべてのユーザーに対する動作が管理され、ユーザーに割り当てられている他のアプリのアクセス許可ポリシーは上書きされます。 これらを使って、悪意のあるアプリや問題のあるアプリを制御することができます。
 
+> [!NOTE]
+> Microsoft 365 Government-GCC の Teams 展開では、[**アプリの管理**] ページはまだ使用できません。  組織全体のアプリ設定を使ってサードパーティ製のアプリを有効または無効にする方法については、「 [Teams でアプリのアクセス許可ポリシーを管理](teams-app-permission-policies.md)する」を参照してください。
+
 1. [**アプリの管理**] ページで、[**組織全体のアプリの設定**] を選びます。 次に、パネルで設定を構成することができます。
 
     ![組織全体のアプリ設定のスクリーンショット](media/manage-apps-org-wide-app-settings.png)
@@ -85,15 +87,12 @@ Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams 
 
     - **サードパーティ製のアプリを許可する**: ユーザーがサードパーティ製のアプリを使えるかどうかを制御します。 この設定をオフにした場合、ユーザーはサードパーティ製のアプリをインストールまたは使用することができません。また、これらのアプリのアプリの状態は、表のブロックされた**組織全体**として表示されます。
 
-        > [!NOTE]
-        > Microsoft 365 Government-GCC での Teams の展開では、[**サードパーティ製のアプリを許可する**] 設定は既定で無効になっています。
-
         許可されている**サードパーティ製のアプリ**が無効になっている場合は、[発信 web フック](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)は無効になります。つまり、ユーザーはこれらのアプリを作成することはできません。 この設定をオンにすると、ユーザーのアプリのアクセス許可ポリシーで設定をオンまたはオフにした場合でも、すべてのユーザーに対して送信 web フックが有効になります。
     - **既定でストアに公開**されている新しいサードパーティのアプリを許可します。これは、teams app store に公開された新しいサードパーティアプリが teams で自動的に使用できるようになるかどうかを制御します。 このオプションを設定するには、サードパーティ製のアプリを許可する必要があります。
 
 3. [**カスタムアプリ**] の下で、[**カスタムアプリとの対話を許可する**] をオンまたはオフにします。 この設定は、ユーザーがカスタムアプリを操作できるかどうかを制御します。 詳細については、「 [Teams でカスタムアプリポリシーと設定を管理](teams-custom-app-policies-and-settings.md)する」を参照してください。
 4. 組織全体のアプリ設定を有効にするには、[**保存**] をクリックします。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams でのアプリの管理設定](admin-settings.md)

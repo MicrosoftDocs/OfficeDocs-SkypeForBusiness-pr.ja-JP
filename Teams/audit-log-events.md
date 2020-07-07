@@ -15,12 +15,11 @@ search.appverid: MET150
 description: 監査ログから Microsoft Teams のデータを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
-ms.translationtype: MT
+ms.openlocfilehash: 4084074d9dec08b2c254d1678fde51d0a26adfaa
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816628"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042879"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -41,7 +40,7 @@ ms.locfileid: "44816628"
 
 ## <a name="turn-on-auditing-in-teams"></a>Teams での監査をオンにする
 
-監査データを表示するには、まず[セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 監査を有効にする方法については、「[監査ログの検索を有効または無効にする](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)」を参照してください。
+監査データを表示するには、まず[セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 監査を有効にする方法については、「[監査ログの記録を有効または無効にする](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)」を参照してください。
 
 > [!IMPORTANT]
 > 監査データは、監査を有効にした時点でのみ利用可能です。
@@ -97,7 +96,7 @@ ms.locfileid: "44816628"
 
 ![大量のチーム削除のポリシーの設定を示すポリシー作成ページのスクリーンショット](media/TeamsMassDeletePolicy.png)
 
-スクリーンショットのように、このポリシーのさまざまなパラメーターを設定して、レベル、単一または繰り返しのアクション、[チームとサイトの削除に制限するパラメーター] などのチームの削除を監視することができます。 この操作は、テンプレートから独立して行うことも、組織のニーズに応じて、このポリシーを基にして設定するテンプレートを作成することもできます。
+スクリーンショットのように、このポリシーのさまざまなパラメーターを設定して、レベル、単一または繰り返しのアクション、[チームとサイトの削除に制限するパラメーター] などのチームの削除を監視することができます。 これは、組織のニーズに応じて、テンプレートとは別に実行することも、このポリシーを基盤とするテンプレートを作成することもできます。
 
 ビジネスに適したポリシーを確立したら、イベントがトリガーされたときにアクティビティログで結果を確認できます。
 
@@ -138,6 +137,7 @@ ms.locfileid: "44816628"
 |削除されたチャンネル     |ChannelDeleted         |ユーザーがチームからチャネルを削除しました。         |
 |削除されたチーム  |TeamDeleted            |チーム所有者がチームを削除します。      |
 |インストール済みのアプリ |AppInstalled         |アプリがインストールされました。   |
+|カードの操作を実行しました|実行アクション|ユーザーがチャット内のアダプティブカードで操作を実行しました。 アダプティブカードは、ほとんどの場合、お使いのチャットでの情報や操作の充実した表示を可能にするボットによって使用されます。 <br/><br/>**注:** 監査ログでは、チャット内のアダプティブカードのインライン入力アクションのみを使用できます。 たとえば、ユーザーが、投票ボットによって生成されたアダプティブカードのチャネル会話で投票の応答を送信するとします。 ダイアログを開くための "結果の表示" などのユーザー操作、またはダイアログ内のユーザー操作は監査ログでは使用できません。|
 |公開されたアプリ |AppPublishedToCatalog           |アプリがカタログに追加されました。     |
 |チームからボットが削除されました   |BotRemovedFromTeam         |ユーザーがチームからボットを削除した場合。       |
 |コネクタの削除     |コネクタを削除しました         |ユーザーがチャネルからコネクタを削除します。         |
@@ -189,6 +189,6 @@ ms.locfileid: "44816628"
 
 Office 365 Management Activity API を使用して、Teams のイベントに関する情報を取得することができます。 Teams の管理アクティビティ API スキーマの詳細については、「 [teams スキーマ](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Microsoft 365 コンプライアンスセンターで監査ログを検索する](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 

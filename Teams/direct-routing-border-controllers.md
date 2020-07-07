@@ -18,12 +18,11 @@ f1.keywords:
 - NOCSH
 description: 管理者は、ダイレクトルーティングが認定されているセッション境界コントローラー (SBCs) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c1805ec472a36389cd6b45d5d344438b41a5a32
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
-ms.translationtype: MT
+ms.openlocfilehash: b27bcc55ad2039d7e51af835c0b64c514d7dc303
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735437"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042949"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -72,10 +71,10 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[自分の自分の ado エマージェンシールーティングサービス (お持ちの場合)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[内部の ado 緊](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      サポートされている 3.20 (推奨 4.0)        |     |    |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     ペリフェラルメタ SBC        |     &#10004;   |  |      4.7      |     |    |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 Series Integrated Services ルーター用の Cisco の統合境界線要素 (立方体)        |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |     |   |  
-|                                   |     4000 Series Integrated Services ルーター用の Cisco の統合境界線要素 (立方体)        |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |     |    |  
-|                                   |     1,000 v シリーズクラウドサービスルータの Cisco の統合境界線要素 (立方体)       |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |     |    |  
-|                                 |     1000 Series Aggregation Services ルーター用の Cisco の統合境界線要素 (立方体)      |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |     |    |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 Series Integrated Services ルーター用の Cisco の統合境界線要素 (立方体)        |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[自分の自分の ado エマージェンシールーティングサービス (お持ちの場合)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[内部の ado 緊](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
+|                                   |     4000 Series Integrated Services ルーター用の Cisco の統合境界線要素 (立方体)        |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[自分の自分の ado エマージェンシールーティングサービス (お持ちの場合)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[内部の ado 緊](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
+|                                   |     1,000 v シリーズクラウドサービスルータの Cisco の統合境界線要素 (立方体)       |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[自分の自分の ado エマージェンシールーティングサービス (お持ちの場合)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[内部の ado 緊](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
+|                                 |     1000 Series Aggregation Services ルーター用の Cisco の統合境界線要素 (立方体)      |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[自分の自分の ado エマージェンシールーティングサービス (お持ちの場合)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[内部の ado 緊](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 
 次の表は、ダイレクトルーティングとアナログデバイスの相互運用性を確認するデバイスを示しています。
 

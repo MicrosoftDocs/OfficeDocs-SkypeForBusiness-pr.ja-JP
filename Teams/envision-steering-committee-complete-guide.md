@@ -16,12 +16,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: MT
+ms.openlocfilehash: a7e4e24b871ab537e336ddbd2b25c0d44408c299
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136787"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042789"
 ---
 # <a name="steering-committee"></a>運営委員会
 
@@ -88,7 +87,7 @@ ms.locfileid: "43136787"
 
 ### <a name="prepare-for-the-meeting"></a>会議の準備をする
 
-全員の時間を最大限に活用するには、会議の準備をする必要があります。 コアチームは、運営委員会会議の教材の準備を始めることができます。 [運営委員会テンプレート–サンプルの PPT テンプレートへのリンク] 運営委員会テンプレートは、準備の出発点として使うことができます。
+全員の時間を最大限に活用するには、会議の準備をする必要があります。 コアチームは、運営委員会会議の教材の準備を始めることができます。 会議の準備に役立つ PowerPoint プレゼンテーションを作成することができます。
 
 会議のプレゼンテーションデッキには、次のアセットが記入され、含まれている必要があります。
 
@@ -166,7 +165,7 @@ ms.locfileid: "43136787"
 
 7.  作成したプレゼンテーションを含む出席者のフォローアップメールを送信し、撮ったノートを追加します。 まだ出席していない人も含めてください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 運営委員会の概要を確認した後で、行動します。プロジェクトチームは、運営委員会をプロジェクトのタイムラインに実装し、定期的な運営委員会の会議を準備するための作業を開始する必要があります。 理想的には、プロジェクトが開始される前に委員会が形成され、すべてのフェーズ全体でガイダンスを提供しますが、そのような状況にならない場合は、プロジェクトチームの成果を導くための委員会を形成します。
 
