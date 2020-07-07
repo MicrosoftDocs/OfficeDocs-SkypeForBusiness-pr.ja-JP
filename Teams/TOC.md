@@ -732,8 +732,8 @@
 ## Teams のロールアウトの準備
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ### [Advisor for Teams を使用して Teams をロールアウトする](use-advisor-teams-roll-out.md)
-### [Teams のネットワーク プランナーを使用する](network-planner.md)
-### [ネットワーク プランナーのチュートリアル](tutorial-network-planner-example.yml)
+### [Teams の Network Planner を使用する](network-planner.md)
+### [Network Planner のチュートリアル](tutorial-network-planner-example.yml)
 ### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
 ### [Teams でチームを作成するときの Microsoft 365 グループの計画](plan-office-365-groups.md)
 ### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)
