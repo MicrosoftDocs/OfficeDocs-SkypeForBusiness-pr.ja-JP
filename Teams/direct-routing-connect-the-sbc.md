@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC to Phone システムのダイレクトルーティングを構成して接続する方法について説明します。
-ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691263"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077622"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>セッション境界のコントローラー (SBC) を直接ルーティングに接続する
 
@@ -40,7 +40,7 @@ ms.locfileid: "44691263"
 
 1. 左側のナビゲーションで、[**音声**の直接ルーティング] に移動し、[  >  **Direct Routing** **SBCs** ] タブをクリックします。
 2. **[追加]** をクリックします。
-3. SBC の FQDN を入力します。 <br><br>FQDN のドメイン名の部分がテナントに登録されているドメインと一致していることを確認し、その `*.onmicrosoft.com` ドメイン名が SBC FQDN ドメイン名でサポートされていないことに注意してください。 たとえば、2つのドメイン名がある場合は、 `contoso.com` `contoso.on.microsoft.com` `sbc.contoso.com` SBC 名として使用します。
+3. SBC の FQDN を入力します。 <br><br>FQDN のドメイン名の部分がテナントに登録されているドメインと一致していることを確認し、その `*.onmicrosoft.com` ドメイン名が SBC FQDN ドメイン名でサポートされていないことに注意してください。 たとえば、2つのドメイン名がある場合は、 `contoso.com` `contoso.onmicrosoft.com` `sbc.contoso.com` SBC 名として使用します。
 4. 組織のニーズに基づいて、SBC の次の設定を構成します。 各設定の詳細については、「 [SBC 設定](#sbc-settings)」を参照してください。
 
     ![Microsoft Teams 管理センターの [SBC の追加] ページのスクリーンショット](media/direct-routing-add-sbc.png)

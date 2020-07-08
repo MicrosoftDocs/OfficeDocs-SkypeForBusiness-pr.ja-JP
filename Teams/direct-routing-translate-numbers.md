@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone システムのダイレクトルーティングを構成する方法について説明します。
-ms.openlocfilehash: 2b675948153589c73fa545a95ac785b716b55265
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 545d6a77fd9b3ee0462437b5b710d1d4eb782138
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157994"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077652"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>電話番号を別の形式に変換する
 
@@ -45,12 +45,15 @@ ms.locfileid: "42157994"
 
 数値操作ルールを作成、変更、表示、削除するには、 [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule)、 [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule)、 [CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)、および[CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule)コマンドレットを使用します。
 
-SBCs で数値操作ルールを割り当て、構成、および一覧表示するには、InboundTeamsNumberTranslationRules、InboundPSTNNumberTranslationRules、OutboundTeamsNumberTranslationRules、OutboundPSTNNumberTranslationRules、InboundTeamsNumberTranslationRulesList、InboundPSTNNumberTranslationRulesList、OutboundTeamsNumberTranslationRulesList、 [CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)と共に、CSOnlinePSTNGateway コマンドレットと[Set-](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)コマンドレットを使用します。引き.
+SBCs で番号操作ルールを割り当て、構成、および一覧表示するには、InboundTeamsNumberTranslationRules、InboundPSTNNumberTranslationRules、OutboundTeamsNumberTranslationRules、OutboundPSTNNumberTranslationRules、InboundTeamsNumberTranslationRulesList、InboundPSTNNumberTranslationRulesList、OutboundTeamsNumberTranslationRulesList、OutboundPSTNNumberTranslationRulesList の各コマンドと共に、 [CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)と[Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)コマンドレットを使用します。
+
+>[!NOTE]
+> 翻訳ルールの最大数は400、翻訳パラメーター名の最大長は100シンボル、翻訳パラメーターの最大の長さは1024シンボル、翻訳パラメーターの翻訳の最大長は256記号です。
 
 
 ## <a name="example-sbc-configuration"></a>SBC 構成の例
 
-このシナリオでは、 ```New-CsOnlinePSTNGateway```コマンドレットを実行して次の SBC 構成を作成します。
+このシナリオでは、 ```New-CsOnlinePSTNGateway``` コマンドレットを実行して次の SBC 構成を作成します。
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
@@ -60,10 +63,10 @@ SBC に割り当てられている翻訳ルールは、次の表のようにま�
 
 |名前  |実線 |変換  |
 |---------|---------|---------|
-|AddPlus1     |^ (\d{10}) $          |+1$1          |
-|AddE164SeattleAreaCode      |^ (\d{4}) $          | + 1206555 $ 1         |
-|AddSeattleAreaCode    |^ (\d{4}) $          | 425555 $ 1         |
-|StripPlus1    |^ + 1 (\d{10}) $          | $1         |
+|AddPlus1     |^ (\d {10} ) $          |+1$1          |
+|AddE164SeattleAreaCode      |^ (\d {4} ) $          | + 1206555 $ 1         |
+|AddSeattleAreaCode    |^ (\d {4} ) $          | 425555 $ 1         |
+|StripPlus1    |^ + 1 (\d {10} ) $          | $1         |
 
 次の例では、Alice と Bob の2人のユーザーがいます。 アリスは、数字が + 1 206 555 0100 の Teams ユーザーです。 ボブは、番号が + 1 425 555 0100 の PSTN ユーザーです。
 
@@ -76,8 +79,8 @@ SBC は、RequestURI で2065550100を使用し、From ヘッダーではヘッ�
 |Header  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
 |---------|---------|---------|---------|
 |RequestURI  |Sip:2065550100@sbc.contoso.com を招待する|Sip:+12065550100@sbc.contoso.com を招待する|InboundTeamsNumberTranslationRulesList 'AddPlus1'|
-|宛先    |宛先: \<sip:2065550100@sbc.contoso.com>|宛先: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
-|差出人   |差出人: \<sip:4255550100@sbc.contoso.com>|差出人: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
+|宛先    |宛先：\<sip:2065550100@sbc.contoso.com>|宛先：\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
+|差出人   |差出人：\<sip:4255550100@sbc.contoso.com>|差出人：\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>例 2: 4 桁の番号への着信通話
 
@@ -88,8 +91,8 @@ SBC は、RequestURI で0100を使用し、From ヘッダーではヘッダー�
 |Header  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
 |---------|---------|---------|---------|
 |RequestURI  |Sip:0100@sbc.contoso.com を招待する          |Sip:+12065550100@sbc.contoso.com を招待する           |InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'        |
-|宛先    |宛先: \<sip:0100@sbc.contoso.com>|宛先: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
-|差出人   |差出人: \<sip:4255550100@sbc.contoso.com>|差出人: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
+|宛先    |宛先：\<sip:0100@sbc.contoso.com>|宛先：\<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
+|差出人   |差出人：\<sip:4255550100@sbc.contoso.com>|差出人：\<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
 
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>例 3:10 桁の番号を使用した発信通話
 
@@ -102,8 +105,8 @@ SBC は、Teams と PSTN の両方の10桁の10桁の番号を使用するよう
 |Header  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
 |---------|---------|---------|---------|
 |RequestURI  |Sip:+14255550100@sbc.contoso.com を招待する          |Sip:4255550100@sbc.contoso.com を招待する       |OutboundPSTNNumberTranlationRulesList 'StripPlus1'         |
-|宛先    |宛先: \<sip:+14255550100@sbc.contoso.com>|宛先: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
-|差出人   |差出人: \<sip:+12065550100@sbc.contoso.com>|差出人: \<sip:2065550100@sbc.contoso.com>|Outboundteamsnumber/Ationルールリスト ' StripPlus1 '         |
+|宛先    |宛先：\<sip:+14255550100@sbc.contoso.com>|宛先：\<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
+|差出人   |差出人：\<sip:+12065550100@sbc.contoso.com>|差出人：\<sip:2065550100@sbc.contoso.com>|Outboundteamsnumber/Ationルールリスト ' StripPlus1 '         |
 
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>例 4: 4 桁以外の番号を使用した発信通話
 
@@ -114,8 +117,8 @@ SBC は、Teams ユーザーと PSTN ユーザー用に10桁の4桁の番号を�
 |Header  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
 |---------|---------|---------|---------|
 |RequestURI  |Sip:0100@sbc.contoso.com を招待する           |Sip:4255550100@sbc.contoso.com を招待する       |InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'         |
-|宛先    |宛先: \<sip:0100@sbc.contoso.com>|宛先: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
-|差出人   |差出人: \<sip:+12065550100@sbc.contoso.com>|差出人: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
+|宛先    |宛先：\<sip:0100@sbc.contoso.com>|宛先：\<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
+|差出人   |差出人：\<sip:+12065550100@sbc.contoso.com>|差出人：\<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
 
 ## <a name="see-also"></a>関連項目
 
