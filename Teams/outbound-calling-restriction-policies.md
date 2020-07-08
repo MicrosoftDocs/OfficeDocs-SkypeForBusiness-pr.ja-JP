@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理者は、ユーザーが発信できる電話会議とエンドユーザーの PSTN 通話の種類を制御できます。
-ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: fd7c30a7561c06dd237bb72b405c8fc5b7b68dcd
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665909"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077672"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -59,7 +59,7 @@ ms.locfileid: "44665909"
 
 4. [**会議からのダイヤルアウトアクセス許可**] で、目的のダイヤルアウト制限オプションを選びます。
 
-5. **[保存]** をクリックします。 
+5. [**保存**] をクリックします。 
 
 ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
@@ -69,9 +69,9 @@ ms.locfileid: "44665909"
 
 3.    [**このユーザーの会議からのダイヤル**アウトの制限] で、目的のダイヤルアウト制限オプションを選びます。
 
-    ![ダイヤルアウトオプションの制限](media/restrictions-to-dial-outs.png)
+    ![ダイヤルアウトオプションの制限](/Skype/SfbOnline/images/restrictions-to-dial-outs.png)
 
-5. **[保存]** をクリックします。
+5. [**保存**] をクリックします。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
