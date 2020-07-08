@@ -16,12 +16,11 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
-ms.translationtype: HT
+ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637906"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028113"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -77,10 +76,7 @@ Teams は、いくつかのプログラムで無料で提供されています�
 
 **IT 担当者向け**
 
-- 一般法人の場合、従業員を Teams でセットアップするには、担当の Microsoft パートナーまたは営業担当者を通して 6 か月間の [Office 365 E1 試用版](e1-trial-license.md)のオファーにサインアップできます。
-
-> [!NOTE]
-> 同様の Teams のオファーは、[米国政府機関用クラウド](g1-trial-license.md)でも提供されています。ただし、GCC High および米国国防総省は除きます。 
+- ビジネスで働いており、Teams に従業員をセットアップしたい場合は、[Teams Exploratory](teams-exploratory.md) にサインアップできます。
 
 - 教育機関の場合、教員、生徒、事務職員を Teams でセットアップするには、教育機関に提供されている無料版の Office 365 である、Office 365 A1 を使用してください。 [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) でサインアップします。
 

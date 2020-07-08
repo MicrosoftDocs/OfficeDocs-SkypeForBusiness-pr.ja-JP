@@ -16,12 +16,11 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: HT
+ms.openlocfilehash: b582ea0b08b8748a6636440cc8ea3ec2f4296753
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691493"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028123"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -31,7 +30,7 @@ ms.locfileid: "44691493"
 
 ## <a name="it-admin-guidance"></a>IT 管理者用ガイダンス
 
-- 6 か月無料で提供される **[Office 365 E1](e1-trial-license.md)** または **[Teams のフリーミアム版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用し、すべてのユーザーが Teams にアクセスできる状態になっていることを確認します。 サポートが必要な場合は、Microsoft アカウント チームまたはパートナーにお問い合わせください。
+- [Teams を含む有料サブスクリプション](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)で、全員が Teams にアクセスできることを確認します。 または、適格な組織は **[Teams の無料版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用でき、従業員は **[Teams Exploratory](teams-exploratory.md)** エクスペリエンスのライセンス認証を行います。
 
 -  Teams が含まれているサブスクリプションが既にある場合は、**[Teams をすべてのユーザーに対して有効にします](user-access.md)**。
     
@@ -81,8 +80,6 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
    - 教育機関の場合、教員、生徒、事務職員を Teams でセットアップするには、Office 365 A1 を使用してください。 この無料版の Office 365 は、すべての教育機関でご利用いただけます。 「[学校全体で Office 365 を無料で入手する](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)」でサインアップしてください。
 
    - 「[リモート学習の開始](remote-learning-edu.md)」をぜひご覧ください。
-
-2. 無料の Teams ライセンスが必要な場合は、[Office 365 E1 試用版](e1-trial-license.md)および[無料版 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) または [Teams Exploratory](teams-exploratory.md) を使用することもできます。
 
 1. 従業員のインターネット アクセスと帯域幅が、Teams のために十分なものであることを確認します。 これを行う方法については、「[Teams 用に組織のネットワークを準備する](prepare-network.md)」のガイダンスをご覧ください。
 

@@ -658,6 +658,7 @@
 ### [現場担当者向けのクイックスタート](firstline-workers-quickstart.yml)
 ### [現場担当者のスクリプト化された展開](flw-scripted-deployment.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
+### [ウォーキー トーキー](walkie-talkie.md)
 ### [SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [小売店向けの Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
@@ -732,8 +733,8 @@
 ## Teams のロールアウトの準備
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
 ### [Advisor for Teams を使用して Teams をロールアウトする](use-advisor-teams-roll-out.md)
-### [Teams のネットワーク プランナーを使用する](network-planner.md)
-### [ネットワーク プランナーのチュートリアル](tutorial-network-planner-example.yml)
+### [Teams の Network Planner を使用する](network-planner.md)
+### [Network Planner のチュートリアル](tutorial-network-planner-example.yml)
 ### [Teams または Skype for Business Online 向けのプロキシ サーバー](proxy-servers-for-skype-for-business-online.md)
 ### [Teams でチームを作成するときの Microsoft 365 グループの計画](plan-office-365-groups.md)
 ### [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)

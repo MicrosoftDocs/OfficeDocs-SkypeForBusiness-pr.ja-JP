@@ -15,12 +15,11 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して政府組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
-ms.translationtype: HT
+ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042384"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028143"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Microsoft Teams を使用して政府機関のリモート ワーカーをサポートする
 
@@ -31,7 +30,7 @@ Office 365 for Government の一部として Microsoft Teams を実行してい�
 
 組織内で Teams を準備する方法について説明します。
 
-  - 6 か月間無料で提供される **[Office 365 G1 プラン](../g1-trial-license.md)** を使用し、すべてのユーザーが Teams にアクセスできるようにします。 サポートが必要な場合は、Microsoft アカウント チームまたはパートナーにお問い合わせください。
+  - [Teams を含む有料サブスクリプション](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)で、全員が Teams にアクセスできることを確認します。 
 
   - 既にサブスクリプションを持っている場合は、すべてのユーザーに対して **[Teams が有効になっている](../user-access.md)** ことを確認します。
 

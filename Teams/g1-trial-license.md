@@ -15,43 +15,20 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97f7e653e345c8e2448f0519087c5f6eb6b600d1
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
-ms.translationtype: HT
+ms.openlocfilehash: 38ffb22e1f1321f7aebffa2ae22bb154bef48ca5
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868543"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028103"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>米国政府機関向けの Office 365 G1 試用版を管理する 
 ==============================
 
-2020 年 3 月、Microsoft Teams を含む 6 か月無料の Office 365 G1 試用版が新たにご利用いただけるようになりました。 Microsoft では、COVID-19 (コロナウィルス) の発生により、在宅勤務 (WFH) の従業員の必要の拡大に対応できるように、この度の特別な G1 試用板ライセンスを米国政府機関向けにご用意しています。
+2020 年 7 月 1 日をもって、Office 365 E1 試用版ライセンスは利用できなくなりました。 ユーザーに Microsoft Teams のライセンスを付与する必要がある場合は、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を読んで、Teams を含む有料サブスクリプションのリストを確認してください。 
 
-G1 ライセンスで利用できる機能については、「[Microsoft 365 Government Plans (Microsoft 365 政府機関向けプラン)](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)」および「[Microsoft Teams capabilities available in the GCC Cloud (GCC クラウドで利用可能な Microsoft Teams の機能)](plan-for-government-gcc.md)」をご覧ください。
+この記事のガイダンスを使用して、[有料サブスクリプションへのアップグレード](#upgrade-users-from-the-office-365-g1-trial-license)など、既存の Office 365 G1 試用版ライセンスを管理します。 詳細については、「[Microsoft 365 政府機関向けプラン](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)」および「[GCC クラウドで利用可能な Microsoft Teams の機能](plan-for-government-gcc.md)」をご覧ください。
 
  [Teams でリモート ワーカーをサポートする](support-remote-work-with-teams.md)ためのガイダンスのすべてをお見逃しなく。
-
-## <a name="how-to-get-an-g1-trial-license"></a>G1 試用版ライセンスを取得する方法
-
-Microsoft アカウントの担当者にお問い合わせください。 担当者から G1 試用版へのサインアップに使用できるプロモーション コードをご提供します。
-
-## <a name="how-to-sign-up-for-the-g1-trial"></a>G1 試用版へのサインアップ方法
-
-アカウント担当者から送信されたメールにある手順に従ってください。
-
-## <a name="whos-eligible"></a>対象者
-
-このオファーは、GCC クラウドを利用し、Microsoft アカウントの担当者が管理する米国政府機関のお客様を対象としています。過去に他の Office 365 G1 試用版をライセンス認証したことのない組織が対象となります。
-
-G1 試用版のプロモーション コードを使い終わってからもう一度使用したり、別の G1 試用版コードでライセンス認証したりすることはできません。
-
-## <a name="who-isnt-eligible"></a>対象外
-
-  - このオファーでは、商用版、GCC High、DoD、EDU のお客様はご利用いただけません。
-
-  - 商用のお客様は、Office 365 E1 試用版を使用してください。
-
-  - EDU のお客様は、無料の Office 365 A1 ライセンスを使用する必要があります。
 
 ## <a name="manage-the-g1-trial"></a>E1 試用版を管理する
 

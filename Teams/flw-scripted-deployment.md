@@ -18,12 +18,11 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
-ms.translationtype: HT
+ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638386"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028173"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>現場担当者向けにTeams 大規模にプロビジョニングする方法
 
@@ -50,7 +49,7 @@ Microsoft Teams に多数のユーザーをすばやく登録し、作業を効�
 
 ## <a name="technical-requirements"></a>技術的要件
 
-- テナントには、Microsoft Teams を含む適切な数の使用可能なライセンスが必要です。 これらのライセンスをまだお持ちでない場合は、以下の手順に従って、[Office 365 E1 無料試用版](e1-trial-license.md)を有効にしてください。
+- テナントには、Microsoft Teams を含む適切な数の使用可能なライセンスが必要です。 これらのライセンスをまだお持ちでない場合は、無料試用版のサブスクリプションについて、[Teams Exploratory](teams-exploratory.md) をご確認ください。
 - これらの手順を実行するユーザーには、Azure AD で、グローバル管理者、ユーザー管理者、Teams サービス管理者の役割が割り当てられている必要があります。
 - ユーザーには、ローカル コンピューターにソフトウェアをインストールして構成する権限が必要です。
 
