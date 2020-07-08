@@ -658,6 +658,7 @@
 ### [現場担当者向けのクイックスタート](firstline-workers-quickstart.yml)
 ### [現場担当者のスクリプト化された展開](flw-scripted-deployment.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
+### [ウォーキー トーキー](walkie-talkie.md)
 ### [SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [小売店向けの Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
