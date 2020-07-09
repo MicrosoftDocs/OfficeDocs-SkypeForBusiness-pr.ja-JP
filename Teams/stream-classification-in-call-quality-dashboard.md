@@ -1,10 +1,10 @@
 ---
-title: 通話品質ダッシュボードでのストリーム分類
-ms.author: tonysmit
-author: tonysmit
+title: 通話品質ダッシュボード (CQD) でのストリームの分類
+ms.author: lolajacobsen
+author: lolaj
 manager: serdars
 ms.reviewer: gageames
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: ストリーム品質がMicrosoft TeamsとSkype for Business Onlineの通話品質ダッシュボードでどのように分類されているかをご覧ください。
-ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+description: Microsoft Teams と Skype for Business Online の通話品質ダッシュボード (CQD) でストリームの品質がどのように分類されるかについて説明します。
+ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160741"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085893"
 ---
-# <a name="stream-classification-in-call-quality-dashboard"></a>通話品質ダッシュボードでのストリーム分類
+# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) でのストリームの分類
 
-Microsoft Teams と Skype for Business Online の通話品質ダッシュボード (CQD) を使用すると、Microsoft Teams と Skype for business のサービスを使って発信した通話の品質を把握することができます。 このトピックでは、メディアストリームの品質分類に関する詳細情報を提供します。 CQD の詳細と有効にする方法については、「[通話品質ダッシュボードをオンにして使用](turning-on-and-using-call-quality-dashboard.md)する」を参照してください。
+Microsoft Teams と Skype for Business Online の通話品質ダッシュボード (CQD) を使用すると、Microsoft Teams と Skype for business のサービスを使って発信した通話の品質を把握することができます。 このトピックでは、メディアストリームの品質分類に関する詳細情報を提供します。 CQD の詳細とセットアップ方法については、「[通話品質ダッシュボードを設定](turning-on-and-using-call-quality-dashboard.md)する」を参照してください。
 
 ## <a name="classifier-definitions"></a>分類子の定義
 
@@ -55,7 +55,7 @@ CQD のストリームは、利用可能な主要品質指標の値に基づい�
 |手順 #|指標|シナリオ|状態 |条件が真である場合の分類 |条件が偽の場合の分類 |メトリックが利用できない場合の分類 |説明 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|分類子の固定に基づくビデオ低品質 |サーバーのペアはクライアント: サーバー|>0.246|_Poor_|_Good_|_Unclassified_|ユーザーエクスペリエンスの組み合わせに基づいて生成された 0 ~ 1 のスコア。期間の統計情報と全体的な通話エクスペリエンス |
-|両面|分類子の固定に基づくビデオ低品質 |サーバーのペアはクライアント: クライアント|>0.524|_Poor_|_Good_|_Unclassified_|ユーザーエクスペリエンスの組み合わせに基づいて生成された 0 ~ 1 のスコア。期間の統計情報と全体的な通話エクスペリエンス |
+|2|分類子の固定に基づくビデオ低品質 |サーバーのペアはクライアント: クライアント|>0.524|_Poor_|_Good_|_Unclassified_|ユーザーエクスペリエンスの組み合わせに基づいて生成された 0 ~ 1 のスコア。期間の統計情報と全体的な通話エクスペリエンス |
 |  |  |  |  |  |  |  |
 
 ### <a name="video-classifier"></a>ビデオ クラシファイアー
@@ -64,7 +64,7 @@ CQD のストリームは、利用可能な主要品質指標の値に基づい�
 |手順 #|指標|状態 |条件が真である場合の分類 |条件が偽の場合の分類 |メトリックが利用できない場合の分類 |説明 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|手順 2 に進んでください|ユーザーに対する表示でのビデオ フレームの損失の平均割合。 平均には、ネットワークの損失から回復したフレームが含まれます。|
-|両面|Video Frame Rate Avg|<7|_Poor_|_Good_|手順 3 に進んでください|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。|
+|2|Video Frame Rate Avg|<7|_Poor_|_Good_|手順 3 に進んでください|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。|
 |3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|FEC がすべてのビデオストリームとコーデックで集計された後のパケット損失率。|
 |  |  |  |  |  |  |  |
 
@@ -75,7 +75,7 @@ VBSS ストリームは、最初に利用可能なメトリックの値に基づ
 |手順 # |指標 |状態 |条件が真である場合の分類 |条件が偽の場合の分類 |メトリックが利用できない場合の分類 |説明 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|手順 2 に進んでください|ユーザーに対する表示でのビデオ フレームの損失の平均割合。 平均には、ネットワークの損失から回復したフレームが含まれます。|
-|両面|Video Frame Rate Avg|<2|_Poor_|_Good_|手順 3 に進んでください|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。|
+|2|Video Frame Rate Avg|<2|_Poor_|_Good_|手順 3 に進んでください|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。|
 |3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|FEC がすべてのビデオストリームとコーデックで集計された後のパケット損失率。|
 | |  | | | |  ||
 
@@ -115,10 +115,18 @@ _未分類_のストリームの ICE 接続に成功した場合、キースト�
 > 「パケット使用率」ディメンションおよび「平均パケット使用率」測定値を使用して、ストリームのパケットアクティビティを判断できます。
 
 ## <a name="related-topics"></a>関連項目
+[Teams の通話品質を向上させて監視する](monitor-call-quality-qos.md)
 
-[通話品質ダッシュボード (CQD) をオンにして使用する](turning-on-and-using-call-quality-dashboard.md)
+[CQD とは何ですか?](CQD-what-is-call-quality-dashboard.md)
 
-[通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[通話品質ダッシュボード (CQD) を設定する](turning-on-and-using-call-quality-dashboard.md)
 
-[通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
- 
+[テナントのアップロードとデータの構築](CQD-upload-tenant-building-data.md)
+
+[CQD データとレポート](CQD-data-and-reports.md)
+
+[CQD を使用して通話と会議の品質を管理する](quality-of-experience-review-guide.md)
+
+[CQD で使用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)

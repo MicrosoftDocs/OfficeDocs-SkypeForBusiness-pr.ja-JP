@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849b22d09c79e97c5eaaeab4dee96b1d432970cb
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944110"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085883"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Microsoft Teams PowerShell をインストールする
 
@@ -26,7 +26,7 @@ ms.locfileid: "44944110"
 
 ## <a name="requirements"></a>要件
 
-Teams PowerShell は、すべてのプラットフォームで PowerShell 6.2.4 以降で動作します。 また、Windows の PowerShell 5.1 でもサポートされています。 使用しているオペレーティングシステムに対応した[最新バージョンの PowerShell](/powershell/scripting/install/installing-powershell)をインストールします。 PowerShell 6.2.4 以降で実行する場合、Teams PowerShell には追加要件はありません。
+Teams PowerShell には、すべてのプラットフォームで PowerShell 5.1 以上が必要です。 使用しているオペレーティングシステムに対応した[最新バージョンの PowerShell](/powershell/scripting/install/installing-powershell)をインストールします。
 
 > [!WARNING]
 > PowerShell 7 と Teams PowerShell について、既知の問題があります。 最適なエクスペリエンスを実現するには、PowerShell 5.1 を使用することをお勧めします。
@@ -45,7 +45,7 @@ Install-Module MicrosoftTeams
 
 既定では、PowerShell ギャラリー (PSGallery) は、 **PowerShellGet**用の信頼できるリポジトリとして構成されていません。 初めて PSGallery を使用するときは、次のメッセージが表示されます。
 
-```output
+```console
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-応答 `Yes` `Yes to All` するか、インストールを続行します。
+**[はい]** または **[はい] を**選び、インストールを続行します。
 
 
 ## <a name="install-teams-powershell-public-preview"></a>Teams PowerShell パブリックプレビューをインストールする
@@ -71,7 +71,7 @@ PowerShell 5.1 を使用している場合は、 **PowerShellGet**モジュー�
 Install-Module PowerShellGet -Force -AllowClobber
 ```
 
-Teams Powershell パブリックプレビューをインストールするには、次の PowerShell コマンドを実行します。
+Teams PowerShell パブリックプレビューをインストールするには、次の PowerShell コマンドを実行します。
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease

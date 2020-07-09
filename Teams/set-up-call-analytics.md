@@ -1,9 +1,9 @@
 ---
-title: 通話分析をセットアップする
+title: Microsoft Teams の通話分析を設定する
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, vkorlep
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
@@ -13,88 +13,54 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
-description: Skype for Business および Microsoft Teams の通話品質の問題を特定してトラブルシューティングするために通話分析をセットアップして使用します。
-ms.openlocfilehash: 347725e77806f94e44b4c8d160736ceb23265f11
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Microsoft Teams の通話品質の問題を特定してトラブルシューティングするために、ユーザーごとの通話分析をセットアップします。
+ms.openlocfilehash: 233d91a60ea783238e10ed1baa02334494ef6e08
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029408"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085313"
 ---
-# <a name="set-up-call-analytics"></a>通話分析をセットアップする
+# <a name="set-up-call-analytics-for-microsoft-teams"></a>Microsoft Teams の通話分析を設定する
 
-チームまたは Skype for Business Online 管理者は、通話分析を使用して、Skype for Business および Microsoft Teams の通話品質と接続の問題のトラブルシューティングを行うことができます。 通話分析では、次の機能を設定すると便利です。
+Microsoft Teams の管理者は、ユーザーごとの通話分析を使用して、**個々のユーザー**に対するチームの通話品質と接続の問題のトラブルシューティングを行うことができます。 通話分析を最大限に活用するには、次のように設定します。
   
-- ヘルプデスクエージェントなどの他のユーザーが通話分析を使用して、Microsoft Teams 管理センターの他のユーザーにアクセスできないようにするアクセス許可を設定します。 
+- 特別なサポートロールを、ヘルプデスクエージェントなどのユーザーに割り当てて、ユーザーに対して通話分析を表示できるようにします。 これらのサポートロールは、Teams 管理センターの残りの部分にはアクセスできません。 
     
-- .Tsv または .csv データファイルをアップロードすることにより、建物、サイト、テナント情報を通話分析に追加します。
+- .Tsv または .csv データファイルをアップロードして、建物、サイト、テナントの情報をユーザーごとの通話分析に追加します。
     
-**通話分析は Microsoft Teams 管理センターで利用できるようになりました**。 すべての通話情報とユーザーのデータを表示するには、[**通話履歴**] タブを使用します。これを行うには、次のいずれかの操作を行って、ユーザーのプロファイルページを参照します。
-
-- ダッシュボードからユーザーを検索します。
+ユーザーごとの通話分析の使用を開始する準備ができたら、「[ユーザーごとの通話分析を使用して通話品質の低下を解決する」を](use-call-analytics-to-troubleshoot-poor-call-quality.md)参照してください。
   
-   ![ダッシュボードでのユーザー検索のスクリーンショット](media/set-up-call-analytics-image-1.png)
+## <a name="give-permission-to-support-and-helpdesk-staff"></a>サポートおよびヘルプデスクスタッフへのアクセス許可を付与する
 
--  左側のナビゲーションで [**ユーザー** ] を選択します。
+Teams の管理者は、すべてのユーザーについて分析情報を取得するための完全なアクセス権を持っています。 ユーザーがユーザーごとの通話分析にアクセスできるように、チーム管理センターの他の部分にはアクセスできないようにするために、ユーザーが1人ずつの通話分析にも割り当てることができる特別な Azure Active Directory ロールを作成しました。 ユーザーごとの通話分析 (Tier 1 サポート) の制限されたビューが必要なユーザーに**チーム通信のサポートスペシャリスト**の役割を割り当てます。 ユーザー単位の通話分析 (Tier 2 サポート) へのフルアクセスが必要なユーザーに、 **Teams 通信サポートエンジニア**の役割を割り当てます。 どちらのロールでも、Teams 管理センターの残りの部分にはアクセスできません。
 
-   ![左側のナビゲーションのスクリーンショット](media/set-up-call-analytics-image-2.png)
-  
-## <a name="set-call-analytics-permissions"></a>通話分析のアクセス許可を設定する
-<a name="BKMK_SetCAPerms"></a>
+これらの各ロールの概要については、「[各チームでサポート](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)される役割」を参照してください。
 
-管理者は、通話分析のすべての機能にフルアクセスできます。 また、サポートスタッフに Azure Active Directory ロールを割り当てることもできます。 通話分析の限定されたビューが必要なユーザーにチーム通信のサポートスペシャリストの役割を割り当てます。 通話分析の全機能にアクセスする必要があるユーザーに、Teams 通信サポートエンジニアの役割を割り当てます。 どちらの権限レベルでも、Microsoft Teams 管理センターの残りの部分にはアクセスできません。
-
-> [!NOTE]
-> 通信サポートスペシャリストの役割は、tier 1 のサポートと同等であり、通信サポートエンジニアの役割は tier 2 サポートと同等です。
-
-Teams の管理者ロールの詳細については、「 [Microsoft teams の管理者ロールを使用してチームを管理する](using-admin-roles.md)」を参照してください。 
-  
-通信サポートの専門家が、基本的な通話品質の問題を処理します。 会議の問題を調査することはありません。 代わりに、関連情報を収集し、コミュニケーションサポートエンジニアにエスカレートします。 通信サポートエンジニアは、コミュニケーションサポートスペシャリストから非表示になっている詳細な通話ログに情報を表示します。 次の表では、通話分析を使用している場合の通信サポートスペシャリストと通信サポートエンジニアが利用できる情報の概要を示します。
-
-|**処理**|**通話分析の情報**|**コミュニケーションサポートスペシャリストが表示する内容**|**通信サポートエンジニアが見ることができる内容**|
-|:-----|:-----|:-----|:-----|
-|**通話** <br/> |発信者の名前  <br/> |エージェントが検索したユーザーの名前のみ。  <br/> |ユーザー名。  <br/> |
-||受信者の名前  <br/> |内部ユーザーまたは外部ユーザーとして表示されます。  <br/> |受信者の名前。  <br/> |
-||発信者の電話番号  <br/> |最後の3桁を除くすべての電話番号は、アスタリスク記号で隠蔽されています。 たとえば、15552823 * * * とします。  <br/> |最後の3桁を除くすべての電話番号は、アスタリスク記号で隠蔽されています。 たとえば、15552823 * * * とします。  <br/> |
-||受信者の電話番号  <br/> |最後の3桁を除くすべての電話番号は、アスタリスク記号で隠蔽されています。 たとえば、15552823 * * * とします。  <br/> |最後の3桁を除くすべての電話番号は、アスタリスク記号で隠蔽されています。 たとえば、15552823 * * * とします。  <br/> |
-||**** > **[** 通話の詳細] タブ <br/> |情報は表示されません。  <br/> |デバイス名、IP アドレス、サブネットマッピングなど、すべての詳細が表示されます。  <br/> |
-||**[通話の詳細** > ] の **[詳細** > **デバッグ**] タブ <br/> |情報は表示されません。  <br/> |DNS サフィックスや SSID などのすべての詳細が表示されます。  <br/> |
-|**会議** <br/> |参加者名  <br/> |エージェントが検索したユーザーの名前のみ。 内部ユーザーまたは外部ユーザーとして識別された他の参加者。  <br/> |すべての名前が表示されます。  <br/> |
-||参加者数  <br/> |参加者の数。  <br/> |参加者の数。  <br/> |
-||セッションの詳細  <br/> |例外と共に表示されるセッションの詳細。 エージェントで検索されたユーザーの名前のみが表示されます。 内部ユーザーまたは外部ユーザーとして識別された他の参加者。 アスタリスク記号が付いた、電話番号の最後の3桁が隠蔽されています。  <br/> |セッションの詳細が表示されます。 ユーザー名とセッションの詳細が表示されます。 アスタリスク記号が付いた、電話番号の最後の3桁が隠蔽されています。  <br/> |
-||||
-   
- ### <a name="set-up-permissions-by-assigning-admin-roles"></a>管理者ロールを割り当ててアクセス許可を設定する
-<a name="BKMK_SetUpTier"> </a>
+Teams の管理者ロールの詳細については、「チーム管理[者ロールを使用してチームを管理する](using-admin-roles.md)」を参照してください。 Azure Active Directory に管理者ロールを割り当てる方法については、「 [Azure Active directory でロールを表示して割り当てる](https://docs.microsoft.com/Azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。
 
 Azure Active Directory に管理者ロールを割り当てる方法については、「 [Azure Active directory での役割の表示と割り当て](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。
 
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>.Tsv または .csv ファイルをアップロードして、建物、サイト、テナントの情報を追加する
-<a name="BKMK_UploadFiles"> </a>
 
-.Csv または .tsv ファイルをアップロードすることにより、建物、サイト、テナント情報を追加することができます。 すべての情報を使って、通話分析で IP アドレスを物理的な場所に対応付けることができます。 この情報は、お客様またはヘルプデスクの担当者が、通話の問題の傾向を見つけるのに役立ちます。 たとえば、同じ建物内の多くのユーザーが同様の通話品質の問題を抱えているのはなぜですか? 
+.Csv または .tsv ファイルをアップロードすることによって、建物、サイト、テナントの情報をユーザーごとの呼び出し分析に追加することができます。 すべての情報を使って、通話分析で IP アドレスを物理的な場所に対応付けることができます。 管理者およびヘルプデスクエージェントは、この情報を使って、通話の問題に関する傾向を見つけることができます。 たとえば、同じ建物のユーザーが同様の通話品質の問題を抱えているのはなぜですか? 
 
-チームと Skype for business の管理者である場合は、Teams & Skype for Business 通話品質ダッシュボードから既存のデータファイルを使用できます。 まず、通話品質ダッシュボードからファイルをダウンロードしてから、それをアップロードして分析を呼び出します。 
+チームまたは Skype for business の管理者である場合は、Teams または Skype for Business 通話品質ダッシュボード (CQD) から既存のテナントと建物データファイルを使用できます。 まず、CQD からファイルをダウンロードしてから、通話分析にアップロードします。 
 
-- 既存のデータファイルをダウンロードするには、 **Microsoft Teams 管理センター** > の**通話品質ダッシュボード** > **で今すぐアップロード**します。 [**マイアップロード**] ボックスの一覧で、目的のファイルの横にある [**ダウンロード**] をクリックします。
+- 既存のデータファイルをダウンロードするには、 **Microsoft Teams 管理センター**の  >  **通話品質ダッシュボード**  >  **で今すぐアップロード**します。 [**マイアップロード**] ボックスの一覧で、目的のファイルの横にある [**ダウンロード**] をクリックします。 
 
-- 新しいファイルをアップロードするには、 **Microsoft Teams 管理センター** > の**場所**に移動し、[**場所データのアップロード**] または [場所のデータの**置き換え**] を選択します。
+- 新しいファイルをアップロードするには、 **Microsoft Teams 管理センター**の場所に移動し、  >  **Locations**[**場所データのアップロード**] または [**場所のデータの置き換え**] を選択します。
   
-.Tsv または .csv ファイルを最初から作成する場合は、「[テナントデータファイルの形式と建物データファイルの構造](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile)」を参照してください。
+.Tsv または .csv ファイルを最初から作成する場合は、「[テナントと建物データをアップロード](CQD-upload-tenant-building-data.md)する」を参照してください。
   
-## <a name="related-topics"></a>関連トピック
-<a name="BKMK_UploadFiles"> </a>
+## <a name="related-topics"></a>関連項目
 
-[通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[ユーザーごとの通話分析を使用して、低品質の通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
-
-  
- 
+[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

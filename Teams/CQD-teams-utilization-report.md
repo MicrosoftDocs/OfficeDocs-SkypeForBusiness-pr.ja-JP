@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Teams 使用率の Power BI レポートを使って、組織での Microsoft Teams の利用状況を追跡します。
-ms.openlocfilehash: efca39a89eecdf9d603a81a07d8529147f87698a
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+description: Teams 使用率の Power BI レポートを使用して Microsoft Teams の通話品質ダッシュボード (CQD) データにアクセスし、組織での Microsoft Teams の利用状況を追跡します。
+ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978556"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085583"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>CQD のデータを使用して、Power BI で Microsoft Teams の使用率を表示する
 
 2020年3月に初めて、CQD のダウンロード可能な[POWER BI クエリテンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に Teams の使用状況レポートが追加されました。 
 
-この新しいチームの使用状況レポートでは、ユーザーが Microsoft Teams を使用している方法 (およびその程度) を確認できます。 これらのレポートは、管理者とビジネスリーダーの両方がこのデータにすばやくアクセスできる一元的な場所です。
+この新しいチームの使用状況レポートでは、チームの通話品質ダッシュボード (CQD) データにアクセスして、ユーザーが Microsoft Teams を使用している方法 (およびその程度) を確認できます。 これらのレポートは、管理者とビジネスリーダーの両方がこのデータにすばやくアクセスできる一元的な場所です。
 
 Teams 使用率 Power BI レポートは、2つの主要なレポートで構成されています。**[通話カウントの概要](#call-count-summary-report)** と**[音声分の概要](#audio-minutes-summary-report)**。 ユーザーがドリルダウンレポートを利用すると、次の説明に記載されているように、[日常の利用状況](#daily-usage)、[地域の音声の詳細](#regional-audio-details)、会議の[詳細](#conference-details)、[ユーザー一覧](#user-list)のレポートが再生されます。
 
@@ -51,7 +51,7 @@ Teams 使用率 Power BI レポートは、2つの主要なレポートで構成
   ![スクリーンショット: チームの使用状況レポート](media/CQD-teams-utilization-report4.png)
 
 ページの左下のセクションでは、過去1年の各メディアの種類の合計値を提供するテーブルが見つかります。 
-    ![スクリーンショット: チーム使用](media/CQD-teams-utilization-report5.png) ![状況レポートのスクリーンショット: チーム使用率レポート](media/CQD-teams-utilization-report6.png)   
+    ![スクリーンショット: チーム使用状況レポートの ](media/CQD-teams-utilization-report5.png) ![ スクリーンショット: チーム使用率レポート](media/CQD-teams-utilization-report6.png)   
 
 テーブルの右側にある棒グラフには、過去30日間に最も頻繁に使用されているクライアント (通話/ストリーム) が表示されます。
    ![スクリーンショット: チームの使用状況レポート](media/CQD-teams-utilization-report7.png)
@@ -167,4 +167,6 @@ P2P と会議の音声の違いを示すために、左下のグラフはすべ�
 [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
  

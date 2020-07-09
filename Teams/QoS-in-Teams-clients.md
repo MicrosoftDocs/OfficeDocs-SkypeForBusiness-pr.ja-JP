@@ -1,14 +1,13 @@
 ---
-title: チームクライアントでのサービス品質の実装
+title: Microsoft Teams クライアントでサービスの品質 (QoS) を実装する
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
-ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
-description: Microsoft Teams のサービスの品質 (QoS) のために、組織用のネットワークを準備する方法について説明します。
+description: Microsoft Teams デスクトップクライアントのネットワークトラフィックを最適化するために、QoS (Quality of Service) を使用する方法について説明します。
 ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
@@ -18,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c10ce415c0ed0db670a81b896289b23cb39218
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80b9257abbbb873b30367f9d430e9a8d155cda09
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904562"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085533"
 ---
-# <a name="set-qos-on-windows-clients"></a>Windows クライアントで QoS を設定する
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Microsoft Teams クライアントでサービスの品質 (QoS) を実装する
 
-グループポリシー内のポリシーベースの QoS を使用して、Teams クライアントで定義済みの DSCP 値のソースポート範囲を設定することができます。 次の表で示されているポート範囲は、各ワークロードのポリシーを作成する開始点です。
+グループポリシーでポリシーベースの QoS (Quality of Service) を使用して、Teams クライアントで事前に定義された DSCP 値のソースポート範囲を設定することができます。 次の表で示されているポート範囲は、各ワークロードのポリシーを作成する開始点です。
 
 *表1。推奨される初期ポート範囲*
 
@@ -54,7 +53,7 @@ ms.locfileid: "43904562"
 
 1. [**ポリシーベースの QoS** ] ダイアログボックスの [開く] ページで、[**名前**] ボックスに新しいポリシーの名前を入力します。 [ **DSCP 値の指定**] を選択し、値を**46**に設定します。 [**送信スロットルの比率を指定する**] をオフにして、[**次へ**] をクリックします。
 
-1. 次のページで、[**この実行可能ファイル名のアプリケーションのみ**] を選択し、 **Teams**という名前を入力して、[**次へ**] をクリックします。 この設定では、チームクライアントからの一致トラフィックのみの優先順位付けをポリシーに指示します。
+1. 次のページで、[**この実行可能ファイル名のアプリケーションのみ**] を選択して**Teams.exe**名前を入力し、[**次へ**] をクリックします。 この設定では、チームクライアントからの一致トラフィックのみの優先順位付けをポリシーに指示します。
 
 1. 3番目のページで、[**ソース ip アドレス**] と [**宛先 ip アドレス**] の両方が選択されていることを確認し、[**次へ**] をクリックします。 この2つの設定では、どのコンピューター (IP アドレス) がパケットを送信したかに関係なく、パケットを管理することができます。どのコンピューター (ip アドレス) がパケットを受信するかは関係ありません。
 
@@ -86,9 +85,9 @@ ms.locfileid: "43904562"
    gpresult /R > gp.txt
    ```
 
-   これにより、適用された Gpo のレポートが生成され、 *gp*という名前のテキストファイルに送信されます。
+   これにより、適用された Gpo のレポートが生成され、 *gp.txt*という名前のテキストファイルに送信されます。
 
-   " *Gp*" という名前の html レポートを読みやすくするには、次のコマンドを入力します。
+   *gp.html*という名前のより読みやすい HTML レポートを作成するには、次のコマンドを入力します。
 
    ```console
    gpresult /H gp.html
@@ -98,7 +97,7 @@ ms.locfileid: "43904562"
 
 1. レジストリエディターを開き、
 
-   HKEY\_ローカル\_コンピューター\\ソフトウェア\\ポリシー\\Microsoft\\Windows\\QoS
+   HKEY \_ ローカル \_ コンピューター \\ ソフトウェア \\ ポリシー \\ Microsoft \\ Windows \\ QoS
 
    表2に示されているレジストリエントリの値を確認します。
 
@@ -119,3 +118,8 @@ ms.locfileid: "43904562"
    | | | |
 
 1. 使用しているクライアントに対してアプリケーション名エントリの値が正しいことを確認し、DSCP 値とローカルポートエントリの両方にグループポリシーオブジェクトの設定が反映されていることを確認します。
+
+
+## <a name="related-topics"></a>関連項目
+
+[Teams でサービスの品質 (QoS) を実装する](QoS-in-Teams.md)

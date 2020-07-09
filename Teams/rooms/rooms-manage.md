@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams のルームシステムがユーザーに対して利用可能になるように、継続的なメンテナンスと運用を開発して実行する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905369"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085953"
 ---
 # <a name="management-overview"></a>管理の概要
 
@@ -65,7 +65,7 @@ Microsoft Operations Manager Suite を使用して、Microsoft Teams ミーテ�
 
 CQD に建物の情報をアップロードすると、建物の階ごとに通話の品質と信頼性の傾向を調査することができ、これにより建物間で比較したり、特定の問題に注目したりしやすくなります。
 
-[QoE のレビュー ガイド](https://aka.ms/qerguide)を確認して従うことにより、品質と信頼性の傾向を特定し、解決へ向けて行動計画を立てるようお勧めします。 
+品質と信頼性の傾向を特定するために、[チームの通話品質](../monitor-call-quality-qos.md)を確認して追跡し、それを解決するためのアクションプランを作成することをお勧めします。 
 
 ## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Microsoft Teams ミーティング OS と Microsoft Teams ミーティング アプリケーションの更新
 

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666279"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085973"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -156,6 +156,7 @@ IT 担当者とサポート スタッフは、[Teams IT アーキテクチャ �
 
 その他のサポート リソース:
 
+- [Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 - [Microsoft Teams のインストールと更新に関する問題のトラブルシューティング](troubleshoot-installation.md)
 - [サポート チケットを申請する (教職員が利用できます)](https://aka.ms/edusupport)
 - [Teams を使用する教職員向けのサポートとヘルプ センター](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)

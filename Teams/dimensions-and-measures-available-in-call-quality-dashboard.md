@@ -1,10 +1,10 @@
 ---
-title: サイズと測定-通話品質ダッシュボード
+title: サイズと測定-通話品質ダッシュボード (CQD)
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
-description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボードで使用される寸法と測定値に関する詳細情報を取得します。
-ms.openlocfilehash: 09beeb289b2861ff239e52a136b604bc8d58fa8f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+description: Microsoft Teams および Skype for Business Online の通話品質ダッシュボード (CQD) で使用されるディメンションと測定値に関する詳細情報を参照してください。
+ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938516"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085783"
 ---
-# <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>通話品質ダッシュボードで利用可能な寸法と測定値
+# <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) で利用可能な寸法と測定値
 
-Microsoft Teams および Skype for Business Online の通話品質ダッシュボード (CQD) を使うと、これらのサービスで行われた通話音質をより良く理解することができます。 このトピックでは、CQD によって表示されるディメンションと測定値の詳細について説明します。 CQD の詳細については、「 [Microsoft Teams および Skype For Business Online で通話品質ダッシュボードをオンにして使用](turning-on-and-using-call-quality-dashboard.md)する」を参照してください。
+Microsoft Teams および Skype for Business Online の通話品質ダッシュボード (CQD) を使うと、これらのサービスで行われた通話音質をより良く理解することができます。 このトピックでは、CQD によって表示されるディメンションと測定値の詳細について説明します。 CQD の詳細については、「 [CQD を使用して Microsoft Teams で通話と会議の品質を管理する](quality-of-experience-review-guide.md)」を参照してください。
 
 ## <a name="first-and-second-endpoint-classification"></a>第 1 と第 2 のエンドポイントの分類
 
@@ -136,8 +136,8 @@ CQD の寸法と測定の多くは、first または second というラベル�
 | First Is Server  | 列挙型 <br/>**指定可能な値:** <br/>&bull;クライアント <br/>&bull;Server  | 第1のエンドポイントが、会議サーバー (AVMCU、ASMCU)、その他のメディアサーバー (仲介サーバー) などのサーバーエンドポイントであるか、クライアントエンドポイントであるかを示します。  **値の例:** クライアント | |
 | Second Is Server  | 列挙型 <br/>**指定可能な値:** <br/>&bull;クライアント <br/>&bull;Server   | 第2のエンドポイントがサーバーエンドポイントであるか、クライアントエンドポイントであるかを示します。 <br/>  **値の例:** クライアント | |
 | First Is Caller  | ブール型  | 第1のエンドポイントがセッションを開始した呼び出し元であった場合は True。   | |
-| First Network Connection Detail  | 列挙型 <br>**指定可能な値:** <br/>&bull;ワイヤレス <br/>&bull;Wifi <br/>&bull;MobileBB <br/>&bull;トンネル <br/>&bull;他の | 第 1 のエンドポイントで使用されたネットワークの種類。  <br/> **値の例:** ワイヤレス  | &bull;データがエンドポイントによって報告されなかった  |
-| Second Network Connection Detail  | 列挙型 <br/>**指定可能な値:** <br/>&bull;ワイヤレス <br/>&bull;Wifi <br/>&bull;MobileBB <br/>&bull;トンネル <br/>&bull;他の | 第 2 のエンドポイントで使用されたネットワークの種類。  <br/> **値の例:** ワイヤレス  | &bull;データがエンドポイントによって報告されなかった  |
+| First Network Connection Detail  | 列挙型 <br>**指定可能な値:** <br/>&bull;ワイヤレス <br/>&bull;WiFi <br/>&bull;MobileBB <br/>&bull;トンネル <br/>&bull;他の | 第 1 のエンドポイントで使用されたネットワークの種類。  <br/> **値の例:** ワイヤレス  | &bull;データがエンドポイントによって報告されなかった  |
+| Second Network Connection Detail  | 列挙型 <br/>**指定可能な値:** <br/>&bull;ワイヤレス <br/>&bull;WiFi <br/>&bull;MobileBB <br/>&bull;トンネル <br/>&bull;他の | 第 2 のエンドポイントで使用されたネットワークの種類。  <br/> **値の例:** ワイヤレス  | &bull;データがエンドポイントによって報告されなかった  |
 | Stream Direction  | 列挙型 <br/>**指定可能な値:** <br/>&bull;第1対1 <br/>&bull;第1対1 <br/> | ストリームの方向を示します。 <br/>&bull;**値の例:** 第1対1 | &bull;ストリームの方向を示すデータが報告されていません |
 | Payload Description  | 文字列  | ストリームで使用された最後のコーデックの名前。 <br/> **値の例:** SILKWide | &bull;利用可能なデータがありません |
 | Audio and Video Call  | Boolean  | 通話に音声とビデオの両方のストリームがあった場合は True、そうでない場合は False    | &bull;ストリームのメディアの種類を示すデータは報告されませんでした。 |
@@ -170,7 +170,7 @@ CQD の寸法と測定の多くは、first または second というラベル�
 | First User Agent  | String  | 第 1 のエージェントのユーザー エージェント文字列。 <br/> **値の例:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;第1のエンドポイントによって報告されたユーザーエージェントはありません   |
 | Second User Agent  | String  | 第 2 のエージェントのユーザー エージェント文字列。 <br/> **値の例:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;第2のエンドポイントによってユーザーエージェントが報告されませんでした   |
 | Conference Type  | 列挙型 <br/>**指定可能な値:** <br/>&bull;conf: applicationsharing <br/>&bull;conf: オーディオビデオ <br/>&bull;conf: フォーカス | 電話会議 URI の種類。  <br/> **例値:** conf: オーディオビデオ | &bull;電話会議以外のシナリオ。   |
-| 会議 ID  | String | ストリームに関連付けられている会議 ID (または通話 ID)。 Cqd.teams.microsoft.com の通話には、個人対個人 (P2P) 通話と会議通話のどちらであるかに関係なく、すべての通話について通話 ID があります。 Cqd.lync.com では、この値は Skype for Business 電話会議でのみ使用できます。  このディメンションは、レポートでディメンションとして使用する行が多すぎる可能性があります。 代わりにフィルターを使用することができます。  <br/> **例 value (cqd.lync.com):** 0001P6GK <br/> **例 value (cqd.teams.microsoft.com):** 5a962ccf2-b9cb47 36a2-a433-f28bf5404ad8  | |
+| 会議 ID  | String | ストリームに関連付けられている会議 ID (または通話 ID)。 Cqd.teams.microsoft.com の通話には、個人対個人 (P2P) 通話と会議通話のどちらであるかに関係なく、すべての通話について通話 ID があります。 Cqd.lync.com では、この値は Skype for Business の電話会議でのみ利用できます。  このディメンションは、レポートでディメンションとして使用する行が多すぎる可能性があります。 代わりにフィルターを使用することができます。  <br/> **例 value (cqd.lync.com):** 0001P6GK <br/> **例 value (cqd.teams.microsoft.com):** 5a962ccf2-b9cb47 36a2-a433-f28bf5404ad8  | |
 | First Client App Version  | String  | Version of the application used for the first endpoint. Data is parsed from the user agent string. <br/> **例値:** 16.0.7766.2047 | &bull;バージョン文字列を解析できませんでした <br/>&bull;この値は報告されませんでした。   |
 | Second Client App Version  | 文字列  | Version of the application used for the second endpoint. Data is parsed from the user agent string. <br/> **例値:** 16.0.7766.2047 | &bull;バージョン文字列を解析できませんでした <br/>&bull;この値は報告されませんでした。 |
 |会議 Id (cqd.teams.microsoft.com) <br/> 会議 ID (cqd.lync.com) |String |会議の作成時に生成される、会議の識別子です。 <br/> **値の例 (Skype For business):** 0001P6GK  <br/> **例 value (Teams):** 19: meeting_MzB...zIw@thread v2| |
@@ -701,9 +701,18 @@ CQD で使用される文字列は、多くの場合、データファイルか�
 
 ## <a name="related-topics"></a>関連項目
 
-[Skype for Business の通話分析をセットアップする](set-up-call-analytics.md)
+[Teams の通話品質を向上させて監視する](monitor-call-quality-qos.md)
 
-[通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[CQD とは何ですか?](CQD-what-is-call-quality-dashboard.md)
 
-[通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
- 
+[通話品質ダッシュボード (CQD) を設定する](turning-on-and-using-call-quality-dashboard.md)
+
+[テナントのアップロードとデータの構築](CQD-upload-tenant-building-data.md)
+
+[CQD データとレポート](CQD-data-and-reports.md)
+
+[CQD を使用して通話と会議の品質を管理する](quality-of-experience-review-guide.md)
+
+[CQD でのストリームの分類](stream-classification-in-call-quality-dashboard.md)
+
+[Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)

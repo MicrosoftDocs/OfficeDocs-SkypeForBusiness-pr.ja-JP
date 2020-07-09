@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: CQD PSTN ダイレクトルーティングレポートを使用して、Microsoft Teams の PSTN 通話を監視およびトラブルシューティングします。
-ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Microsoft teams Call Quality Dashboard (CQD) PSTN ダイレクトルーティングレポートを使用して、Microsoft Teams の PSTN 通話を監視およびトラブルシューティングします。
+ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221751"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085343"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN ダイレクトルーティングレポートを使用する
 
-2020年3月に初めて、CQD PSTN ダイレクトルーティングレポートを、 [CQD 用のダウンロード可能な POWER BI クエリテンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に追加しました。 
+2020年3月の新機能として、Microsoft Teams の通話品質ダッシュボード (CQD) PSTN ダイレクトルーティングレポートが、 [CQD 用のダウンロード可能な POWER BI クエリテンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に追加されました。 
 
 
 CQD PSTN ダイレクトルーティングレポート (CQD PSTN Direct Routing Report) は、PSTN サービスの使用パターンと品質を理解するのに役立ちます。 このレポートを使用して、サービスの利用状況、セッション境界コントローラー (SBC) に関する情報、テレフォニーサービス、ネットワークパラメーター、およびネットワークの有効性の詳細を監視します。 この情報は、通話の中断の理由など、問題を特定するのに役立ちます。 たとえば、ボリュームが減少したときや、影響を受ける通話回数、および理由を確認できます。
@@ -146,3 +146,5 @@ Daily の場合、02/05/2020 で dip を利用している場合は、日付を�
 ## <a name="related-topics"></a>関連項目
 
 [Power BI を使用して Microsoft Teams の CQD データを分析する](CQD-PSTN-report.md)
+
+[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

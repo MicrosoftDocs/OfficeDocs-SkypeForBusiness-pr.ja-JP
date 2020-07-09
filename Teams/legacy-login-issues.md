@@ -17,12 +17,12 @@ description: 従来のシステムでのメッセージの受信や通話に関�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52038470e81b825391e4176c07af7a30f51356df
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489162"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085153"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>従来のシステムでのメッセージと通話の受信に関する問題
 ==============================================================
@@ -45,3 +45,8 @@ ms.locfileid: "44489162"
 ## <a name="skype-token-revocation"></a>Skype トークンの取り消し
 
 パスワードを変更/リセットすると、以前のクライアントでは、1時間以内にメッセージや通話を受けることができなくなります。 この問題を解決するには、アプリを再起動するか、新しいクライアントに移動します。
+
+
+## <a name="related-topics"></a>関連項目
+
+[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

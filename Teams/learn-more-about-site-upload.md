@@ -22,17 +22,20 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 1b32e9db020b3498e8185b4d38e25d1d9a1feca5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539644"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085293"
 ---
 <a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
 ============================
 
-レポートラベルは、オフィス、建物、または組織のサイトの物理的な場所を示すために、組織内で使用されます。 Microsoft Teams 管理センターの [レポートのラベル] ページでは、物理的な場所の一覧と関連するネットワークサブネットを含むテキストファイル (.csv または .tsv) を指定できます。 このファイルは、レポートを生成するために通話分析と通話品質ダッシュボードによって使用されます。 サブネットマッピングをアップロードすると、これらのサービスによって提供されるレポートにも場所名が含まれます。これにより、レポートがわかりやすくなり、問題が発生した場合にを修復するすることができます。
+レポートラベルは、オフィス、建物、または組織のサイトの物理的な場所を示すために、組織内で使用されます。 Microsoft Teams 管理センターの [レポートのラベル] ページでは、物理的な場所の一覧と関連するネットワークサブネットを含むテキストファイル (.csv または .tsv) を指定できます。 このファイルは、レポートを生成するために通話分析によって使用されます。 サブネットマッピングをアップロードすると、これらのサービスによって提供されるレポートにも場所名が含まれます。これにより、レポートがわかりやすくなり、問題が発生した場合にを修復するすることができます。
+
+> [!IMPORTANT]
+> アップロードするレポートラベルは、Office 365 の契約で*サポートデータ*として扱われます。これには、*顧客データ*や*個人データ*と見なされる情報も含まれます。 この情報は Microsoft エンジニアにサポートを提供するため、サポート*データ*として提供したくないデータは含めないでください。
 
 提供するレポートのラベルと場所のデータは1つのデータ構造です。現在、データを編集するために使用できるインターフェイスはありません。
 
@@ -57,8 +60,8 @@ ms.locfileid: "44539644"
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso&F|Office|&F|山地表示|94043|プロセッサー|FR-CA|プロセッサー|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso&F|Office|&F|山地表示|94043|プロセッサー|FR-CA|プロセッサー|1|1|
 
-データファイルの書式設定の詳細については、「[テナントデータファイルの形式と建物データファイルの構造](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)」を参照してください。
+データファイルの書式設定の詳細については、「[テナントデータファイルの形式と建物データファイルの構造](CQD-upload-tenant-building-data.md#upload-building-data-file)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[通話分析をセットアップする](set-up-call-analytics.md)
+[通話分析を設定する](set-up-call-analytics.md)

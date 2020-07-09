@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868704"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086193"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 ===========================================
@@ -48,7 +48,7 @@ ms.locfileid: "44868704"
 
     ![Teams のアーカイブ メッセージのスクリーンショット](media/teams-archive-message.png)
 
-4. チームの SharePoint サイトを読み取り専用にする場合は、チェック ボックスをオンにします。
+4. チームに関連付けられている SharePoint サイトと Wiki タブのコンテンツをユーザーが編集できないようにするには、[**チームメンバーに対して sharepoint サイトを読み取り**専用にする] を選択します。 (チームの所有者は、このコンテンツを引き続き編集できます)。
 5. [**アーカイブ**] を選択して、チームをアーカイブします。 チームの状態が [**アーカイブ済み**] に変わります。
 
 ## <a name="make-an-archived-team-active"></a>アーカイブしたチームをアクティブにする

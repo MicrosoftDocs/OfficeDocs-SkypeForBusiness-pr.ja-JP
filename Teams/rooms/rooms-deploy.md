@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: この記事では、展開フェーズなど、Microsoft Teams のルームを展開する方法について説明します。
-ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905409"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085963"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -119,7 +119,7 @@ PowerShell を使用して、構成情報の取得や設定など、多くのリ
 
 Microsoft Teams の各ルームデバイスには、専用の固有のリソースアカウントが必要です。このアカウントは、Microsoft Teams と Skype for Business および Exchange の両方で有効にする必要があります。 このアカウントには、Exchange でホストされている room メールボックスが必要です。また、Teams または Skype for Business の展開で会議室として有効にする必要があります。 Exchange 側では、デバイスが着信した会議出席依頼を自動的に受け入れるように、予定表の処理が構成されている必要があります。 これらのアカウントの作成方法の詳細については、「 [Microsoft Teams のルームのアカウントを構成する](rooms-configure-accounts.md)」を参照してください。 
 
-**Pro ヒント**: これらのアカウントの表示名をわかりやすくわかりやすいものにします。 これらは、Microsoft Teams のルームシステムを検索して会議に追加するときにユーザーに表示される名前です。 組織によっては、*サイト*-*ルーム名*(*最大会議*室)-rs などの規則を使用しているため、たとえば、curie では、たとえば、London の12人の会議室で表示名が LON-curie (12) になります。 
+**Pro ヒント**: これらのアカウントの表示名をわかりやすくわかりやすいものにします。 これらは、Microsoft Teams のルームシステムを検索して会議に追加するときにユーザーに表示される名前です。 組織によっては、*サイト* - *ルーム名*(*最大会議*室)-rs などの規則を使用しているため、たとえば、curie では、たとえば、London の12人の会議室で表示名が LON-curie (12) になります。 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ Microsoft Teams のルームの展開を計画するときに、必要なソフ�
 | 50を超える Microsoft Teams を展開することで、複数のベンダーからデバイスを展開したり、展開の一部として組織固有のエージェントを要求したりすることができます。 | [Microsoft Endpoint Configuration Manager](rooms-scale.md)などの、タスク sequencer ベースのソフトウェアのビルドと配布プラットフォームを使用します。  |
 
 
-**Pro ヒント**-Microsoft Teams の各ルームには、ネットワーク上に有効で一意のコンピューター名が必要です。 多くの監視および警告システムでは、コンピューター名がキー識別子として表示されるため、サポート担当者は、操作が必要であるとマークされている Microsoft Teams のルームを簡単に見つけることができるようにすることが重要です。 例としては、MTR*サイト*-*ルーム名*のパターン (MTR-LON-curie) が使用されている場合があります。 
+**Pro ヒント**-Microsoft Teams の各ルームには、ネットワーク上に有効で一意のコンピューター名が必要です。 多くの監視および警告システムでは、コンピューター名がキー識別子として表示されるため、サポート担当者は、操作が必要であるとマークされている Microsoft Teams のルームを簡単に見つけることができるようにすることが重要です。 例としては、MTR*サイト* - *ルーム名*のパターン (MTR-LON-curie) が使用されている場合があります。 
 
 展開の一環として、Microsoft Teams のルームアプリケーションインストーラーによって作成される[ローカルアカウント](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)を管理および構成するための戦略も検討する必要があります。
 
@@ -188,7 +188,7 @@ XML 構成ファイルの使用方法の詳細については、「 [Microsoft T
 
 Microsoft Teams の会議室のシステムが展開されたら、それをテストする必要があります。 [Microsoft Teams のルーム](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に表示される機能が、展開されたデバイスで機能していることを確認します。 Microsoft Teams のルームが Microsoft Operations Management Suite (使用されている場合) にログに記録されることを展開チームが確認することを強くお勧めします。 また、さまざまなテスト通話と会議を行って品質をチェックすることも重要です。 詳細については、この[便利な展開チェックリスト](console.md#microsoft-teams-rooms-deployment-checklist)を参照してください。
 
-一般的なチームまたは Skype for Business のロールアウトの一環として、通話品質ダッシュボードの構築ファイル (CQD) を構成し、品質の傾向を監視して、エクスペリエンスレビュープロセスに参加することをお勧めします。 詳細については、「[エクスペリエンスの品質レビューガイド](https://aka.ms/qerguide)」を参照してください。 
+一般的なチームまたは Skype for Business のロールアウトの一環として、通話品質ダッシュボードの構築ファイル (CQD) を構成し、品質の傾向を監視して、エクスペリエンスレビュープロセスに参加することをお勧めします。 詳細については、「 [Teams の通話品質の向上と監視](../monitor-call-quality-qos.md)」を参照してください。 
 
 ### <a name="asset-management"></a>資産管理
 

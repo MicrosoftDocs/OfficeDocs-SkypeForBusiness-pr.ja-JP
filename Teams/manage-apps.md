@@ -17,11 +17,12 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042929"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086214"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリを管理する
 ======================================================
@@ -31,6 +32,9 @@ ms.locfileid: "45042929"
 **[アプリの管理]** ページでは、テナント カタログ内の使用可能なすべてのアプリを確認することができます。また、組織全体で許可またはブロックするアプリを決定するために必要な情報を提供します。 また、[アプリのアクセス許可ポリシー](teams-app-permission-policies.md)、[アプリのセットアップ ポリシー](teams-app-setup-policies.md)、[カスタム アプリ ポリシーと設定](teams-custom-app-policies-and-settings.md)を使って、組織内の特定のユーザーに対してアプリ エクスペリエンスの構成を行うことができます。
 
 Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**の管理] に移動  >  **Manage apps**します。 ページにアクセスするには、グローバル管理者または Teams サービス管理者である必要があります。
+
+> [!NOTE]
+> Microsoft 365 Government Community Cloud (Office の GCC) 展開では、[**アプリの管理**] ページはまだ利用できません。
 
 ## <a name="view-apps-in-your-tenant-app-catalog"></a>テナントアプリカタログのアプリを表示する
 
@@ -77,7 +81,7 @@ Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams 
 組織全体のアプリ設定を使用して、ユーザーがサードパーティ製のアプリをインストールできるかどうかを制御し、ユーザーが組織のカスタムアプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリの設定では、すべてのユーザーに対する動作が管理され、ユーザーに割り当てられている他のアプリのアクセス許可ポリシーは上書きされます。 これらを使って、悪意のあるアプリや問題のあるアプリを制御することができます。
 
 > [!NOTE]
-> Microsoft 365 Government-GCC の Teams 展開では、[**アプリの管理**] ページはまだ使用できません。  組織全体のアプリ設定を使ってサードパーティ製のアプリを有効または無効にする方法については、「 [Teams でアプリのアクセス許可ポリシーを管理](teams-app-permission-policies.md)する」を参照してください。
+> Teams の Microsoft 365 Government-GCC 展開で組織全体のアプリ設定を使用する方法については、「 [teams でアプリのアクセス許可ポリシーを管理](teams-app-permission-policies.md)する」を参照してください。
 
 1. [**アプリの管理**] ページで、[**組織全体のアプリの設定**] を選びます。 次に、パネルで設定を構成することができます。
 
@@ -93,6 +97,6 @@ Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams 
 3. [**カスタムアプリ**] の下で、[**カスタムアプリとの対話を許可する**] をオンまたはオフにします。 この設定は、ユーザーがカスタムアプリを操作できるかどうかを制御します。 詳細については、「 [Teams でカスタムアプリポリシーと設定を管理](teams-custom-app-policies-and-settings.md)する」を参照してください。
 4. 組織全体のアプリ設定を有効にするには、[**保存**] をクリックします。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams でのアプリの管理設定](admin-settings.md)

@@ -1,12 +1,12 @@
 ---
-title: QoS の実装と通話分析の監視
-author: dstrome
-ms.author: dstrome
+title: Microsoft Teams の通話品質を監視および向上させる
+author: lolajacobsen
+ms.author: lolaj
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: vkorlep, siunies
 description: '[QoS (Quality of Service)] の設定を使用して、Microsoft Teams で分析と通話品質ダッシュボードを呼び出します。'
 localization_priority: Normal
 search.appverid: MET150
@@ -17,43 +17,56 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2157ea9ec536e644440161fb321c7a60bb8d396e
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2d5db11bbd9608aebb1eb2b73ebacc9793629e44
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638616"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085944"
 ---
-# <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Microsoft Teams で QoS を実装して通話品質を監視する
+# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>Microsoft Teams の通話品質を監視および向上させる
 
-## <a name="get-started"></a>はじめに
+この記事では、Microsoft Teams の通話品質を監視、トラブルシューティング、管理、向上させるために使用できる3つの主要ツールについて説明します。 
 
-ユーザーが Teams を使って電話をかけたり会議を開催したりするときに、発信者の声が出たり、通話または会議を chopping したりする場合があります。 共有ビデオは、フリーズまたは pixelate、または完全に失敗することがあります。 これは、ネットワークの輻輳を示す音声とビデオのトラフィックを示す IP パケットによって、順番が正しく表示されない、またはまったく表示されないためです。 このような問題を特定するには、主にサービス品質 (QoS) の利益を防ぐための方法があります。
+- **通話品質ダッシュボード (CQD)**: 組織全体の傾向や問題を分析して、パフォーマンスを向上させる
 
-**QoS (Quality Of Service** ) は、ネットワークの遅延に敏感なトラフィック (音声やビデオストリームなど) を使用して、機密性の低いトラフィック (新しいアプリをダウンロードするなど) を使用して、重要度の低いネットワークトラフィック (ダウンロードするための追加機能は大きなものではありません) を可能にする方法です。 QoS は、Windows グループポリシーオブジェクトと、ポートベースのアクセス制御リストと呼ばれるルーティング機能を使用して、リアルタイムストリーム内のすべてのパケットを識別してマークします。これにより、ネットワークでは、音声、ビデオ、画面の共有をネットワーク帯域幅の専用部分で転送することができます。
+- **通話分析**: 個々のユーザーの通話と会議の品質を分析する
 
- ここでは、メールを使用して手紙を送信する場合と同じように、郵送料金を送信した場合は、すぐにご利用いただけます。また、最初のクラスを送信した場合は、より高速になり、優先度の高いメールを送信すると、2日以内に送信されます。 もちろん、ネットワークはメールよりも高速で実行されますが、一部のアプリケーションでは速度が重要であり、他のユーザーにとって重要ではないこともあります。 この主題は、最初は理解しにくいものですが、ユーザーエクスペリエンスに大きな違いがあるため、時間と労力を事前に費やす価値があります。 詳細については、「 [Microsoft Teams でサービスの品質 (QoS) を実装する」](QoS-in-Teams.md)を参照してください。
+- **QoS (Quality Of Service)**: 重要なネットワークトラフィックの優先順位付け
 
-理想的には、内部ネットワークで Teams をセットアップするときに、QoS を実装することをお勧めしますが、小さなサイズの場合はオプションでもかまいません。 これにより、遅延に敏感な音声とビデオのトラフィックが、他のトラフィックの優先順位を取得できます。 この優先順位付けは、 [Microsoft Teams 管理センター](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)のすべての[クライアントデバイス](QoS-in-Teams-clients.md)、およびネットワーク内のスイッチとルーターに対して行います。
 
-[**通話分析と通話品質ダッシュボード**](difference-between-call-analytics-and-call-quality-dashboard.md)を使用して、進行中の操作中に発生する問題の検出とトラブルシューティングを行うことができます。  
 
-[**通話分析**] には、Microsoft Teams または Skype for business アカウントの各ユーザーの***特定の通話と会議***に関連するデバイス、ネットワーク、接続に関する詳細情報が表示されます。 Microsoft 365 または Office 365 の管理者である場合は、通話分析を使用して、特定の通話で発生した通話品質や接続の問題のトラブルシューティングを行うことができます。 これは、問題を特定して解決するのに役立ちます。
+## <a name="monitor-and-troubleshoot-call-quality"></a>通話品質の監視とトラブルシューティング
+ユーザーごとの**通話分析**と**通話品質ダッシュボード**を使用して、進行中の操作中に発生する可能性のある通話品質の問題を検出し、トラブルシューティングします。 これにより、ネットワーク全体のパフォーマンスを向上させることができます。 これらのツールはどちらも Teams 管理センターにあります。
 
-**通話品質ダッシュボード (CQD)** は、管理者とネットワークエンジニアが1回の通話の分析とトラブルシューティングを行わずに、***ネットワーク***を最適化するために設計されています。 CQD は、特定のユーザーからフォーカスを移動して、組織全体の集計情報を確認します。 これは、問題を特定して解決するのにも役立ちます。
+ - [**通話分析**] には、チーム内の各ユーザーの特定の***通話と会議***に関連するデバイス、ネットワーク、接続に関する詳細情報が表示されます。 チーム管理者およびヘルプデスク担当者はこの情報を使って、特定の通話での通話品質と接続の問題のトラブルシューティングを行います。 詳細については、「通話[分析を設定](set-up-call-analytics.md)する」および「[通話分析を使用して通話品質の低下を解決する」を](use-call-analytics-to-troubleshoot-poor-call-quality.md)参照してください。
+ 
+ - **通話品質ダッシュボード (CQD)** を使用すると、組織全体の通話品質を***ネットワーク全体で確認***できます。 CQD 情報を使用して、問題の特定と解決に役立ちます。 まず、 [CQD を設定](turning-on-and-using-call-quality-dashboard.md)します。 次に、「 [Teams で通話と会議の品質を管理する」](quality-of-experience-review-guide.md)を参照してください。
+
+ 通話分析と CQD は並列で実行され、個別に、または一緒に使うことができます。 たとえば、通信サポート担当者が、ユーザーの通話の問題のトラブルシューティングにさらに詳しいヘルプが必要であると判断した場合は、通話に関する追加情報にアクセスできる通信サポートエンジニアに通話がエスカレートされます。 さらに、通信サポートエンジニアが、通話分析で検出されたサイト関連の問題についてネットワークエンジニアに警告します。 ネットワークエンジニアは、CQD をチェックして、サイトに関連する全体的な問題がユーザーの通話の問題の原因になっている可能性があるかどうかを確認します。
+
+
+## <a name="prioritize-important-network-traffic-using-qos"></a>QoS を使用して重要なネットワークトラフィックの優先順位を付ける
+ユーザーが通話と会議に Teams の使用を開始すると、発信者の声が出たり、通話や会議の途中で切断されたりする場合があります。 共有ビデオは、フリーズまたは pixelate、または完全に失敗することがあります。 これは、ネットワークの輻輳を示す音声とビデオのトラフィックを示す IP パケットによって、順番が正しく表示されない、またはまったく表示されないためです。 この問題が発生した場合は (または最初の場所で行われないようにするために)、 **Quality Of Service (QoS)** を使用します。 
+
+QoS では、遅延が発生する可能性のあるネットワークトラフィック (音声やビデオのストリームなど) の優先順位を付けて、機密性の低いトラフィック (たとえば、新しいアプリをダウンロードして、もう1つ目のダウンロードがあまり重要でない場合) に優先順位を付けることができます。 QoS では、Windows のグループポリシーオブジェクトと、ポートベースのアクセス制御リストと呼ばれるルーティング機能を使用して、リアルタイムストリーム内のすべてのパケットを識別してマークします。これは、ネットワークに対して、独自の専用ネットワーク帯域幅で音声、ビデオ、画面を共有するように指示します。
+
+理想的には、社内ネットワークに QoS を実装して、Teams をロールアウトする準備をしていますが、いつでも行うことができます。 容量が十分でない場合は、QoS を必要としない可能性があります。
+
+準備ができたら、「 [Microsoft Teams でサービスの品質 (QoS) を実装する (QoS)」](QoS-in-Teams.md)を参照してください。
+
+QoS を使って会議トラフィックを管理するには、「 [Teams 会議のリアルタイムメディアトラフィックを処理する方法を設定](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)する」を参照してください。
+
 
 ## <a name="related-topics"></a>関連項目
 
-[Microsoft Teams でサービスの品質 (QoS) を実装する](QoS-in-Teams.md)
-
-[ビデオ: 通話品質の概要](https://aka.ms/teams-quality)
-
-[通話分析をセットアップする](set-up-call-analytics.md)
+[通話分析を設定する](set-up-call-analytics.md)
 
 [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[通話品質ダッシュボードをオンにして使用する](turning-on-and-using-call-quality-dashboard.md)
+[CQD を設定する](turning-on-and-using-call-quality-dashboard.md)
 
-[通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Teams で通話と会議の品質を管理する](quality-of-experience-review-guide.md)
 
-[通話品質ダッシュボードでのストリームの分類](stream-classification-in-call-quality-dashboard.md)
+[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+

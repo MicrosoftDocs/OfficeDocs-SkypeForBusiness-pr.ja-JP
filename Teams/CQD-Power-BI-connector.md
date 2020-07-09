@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: Power BI Connector をインストールして通話品質ダッシュボード (CQD) クエリテンプレートを使用する
+ms.openlocfilehash: d474ad6e3f10b0aefaafcd06bb17a5959b65846d
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690933"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085573"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
-CQD (.PBIX ファイル) 用の Power BI クエリテンプレートを使用するには、Microsoft CQD の Power BI Connector をインストールする必要があります。これには、[ダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に含まれている microsoft の power bi*のファイルを*使用します。 
+Microsoft Teams の通話品質ダッシュボード (CQD) に対して Power BI クエリテンプレート (.PBIX ファイル) を使うには、Microsoft CQD の Power BI Connector をインストールする必要があります。これには、[ダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に含まれている office*コールの品質*のファイルを使用します。 
 
 これらのテンプレートについては、「 [POWER BI を使用してチームの CQD データを分析](CQD-Power-BI-query-templates.md)する」を参照してください。
 

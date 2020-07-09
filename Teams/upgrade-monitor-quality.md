@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b356d171ee8c1a66de2f69b0b0525c24220755
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 843acff0dafc7cd5ad2b3fd63ccc009c64716b03
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522560"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085923"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
@@ -33,7 +33,9 @@ ms.locfileid: "44522560"
 
 この記事は、Skype for Business から Teams へのアップグレードが完了したらすぐに、アップグレードの過程のオペレーショナルエクセレンスステージの一部です。
 
-[品質経験レビューガイド](https://aka.ms/qerguide)には、以下に示すように、ユーザーエクスペリエンスを向上させるための最も大きな影響を受ける主要な領域の一連のアクティビティが含まれています。
+## <a name="improve-and-monitor-call-quality"></a>通話品質の向上と監視
+
+[チームの通話品質の向上と監視](monitor-call-quality-qos.md)。以下に示すように、ユーザーエクスペリエンスを向上させるための大きな影響を受ける主要な領域の一連のアクティビティが含まれています。
 
 ![レビュー中に確認する主要な領域の図。](media/plan-my-service-management-image2.png "音質のレビュー中に、音声、信頼性、ユーザー調査の結果について調べる主要な領域。")
 
@@ -51,8 +53,8 @@ ms.locfileid: "44522560"
 
 - 問題のあるサブネットまたはネットワーク デバイス
 
-品質評価ガイドで提供されているガイダンスでは、通話品質ダッシュボード (CQD) をオンラインで使用して、説明されている各領域のレポートと調査を行うことができます。これには、オーディオに焦点を当てて、導入とインパクトを最大限に活用します。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
+[チームの通話品質の向上と監視](monitor-call-quality-qos.md)に関するガイダンスでは、説明されている各領域を報告して調査するための主要なツールとして、通話品質ダッシュボード (CQD) をオンラインで使用することに重点を置いています。音声に重点を置いて、導入と影響を最大限に高めます。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
-品質チャンピオンをいち早く紹介することを強くお勧めします。 推薦されたら、[経験レビューガイド](https://aka.ms/qerguide)のコンテンツについて理解しておく必要があります。
+品質チャンピオンをいち早く紹介することを強くお勧めします。 推薦されたユーザーは、[チームの通話品質を向上させる](monitor-call-quality-qos.md)ために、コンテンツの理解を深めていく必要があります。
 
 <!--ENDOFSECTION-->

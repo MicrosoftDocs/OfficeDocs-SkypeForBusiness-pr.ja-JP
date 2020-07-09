@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: rafarhi, jhreddy
 audience: admin
 description: Microsoft Endpoint Configuration Manager を使用して、Microsoft Teams を一括展開してユーザーまたはコンピューターを選択します。
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4d29790994ba155984077ea9046fc6cf097302
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902812"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45088195"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -85,8 +85,8 @@ VDI に Teams デスクトップ アプリを展開する方法の詳細なガ�
 > 次の手順には、レジストリの変更方法についての情報が含まれています。 レジストリを変更する前に必ずバックアップし、問題が発生した場合にレジストリを復元する方法について確認してください。 レジストリのバックアップ、復元、変更の詳細については、「[上級ユーザー向けの Windows レジストリ情報](https://support.microsoft.com/help/256986)」を参照してください。
 
 1. 各ユーザープロファイルにインストールされている Teams アプリをアンインストールします。 詳細については、「 [Microsoft Teams をアンインストール](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)する」を参照してください。
-2. ディレクトリを再帰的に`%localappdata%\Microsoft\Teams\`削除します。
-3. レジストリ値`HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`を削除します。
+2. ディレクトリを再帰的に削除 `%localappdata%\Microsoft\Teams\` します。
+3. `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`レジストリ値を削除します。
 4. MSI パッケージをその特定のコンピューターに再展開します。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>インストール後に Teams が自動的に起動しないようにする

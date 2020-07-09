@@ -16,12 +16,12 @@ description: この記事では、Microsoft Teams の情報障壁の概要と、
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: ce71f0c0f2621253698cd250372624ded638dcec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021828"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083187"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -143,10 +143,6 @@ Enrico は、グループチャットにメッセージを送信することは�
     ![グループチャットを示すスクリーンショット](media/information-barriers-people-picker.png)
     
 - **[アクティビティ] タブ**-ユーザーがブロックしたユーザーの [**アクティビティ**] タブにアクセスした場合、投稿は表示されません。 ([**アクティビティ**] タブには、チャネルの投稿のみが表示され、2人のユーザーに共通のチャネルはありません)。
-
-    [アクティビティ] タブビューの例を次に示します。
-
-    ![[アクティビティ] タブを示すスクリーンショット](media/ib-before-activity-tab-policy.png)
 
     ブロックされている [アクティビティ] タブビューの例を次に示します。
 

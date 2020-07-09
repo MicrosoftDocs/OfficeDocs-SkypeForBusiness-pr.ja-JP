@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2439a2fd23566c93fb60772112da098cff315760
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665169"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085173"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 を有効にする
  
@@ -36,4 +36,4 @@ ms.locfileid: "44665169"
 | 7  | テナント管理者を確認する | セキュリティチームと協力して、Microsoft 365 または Office 365 の管理モデルを開発します。 <br/><br/>すべてのテナントとサービス管理者を特定して文書化してください。 | | [Microsoft 365 または Office 365 の管理者ロールについて](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 個  | テナントの管理者ロールを実装する | 管理モデルが組織のニーズを満たしていることを検証し、Microsoft 365 または Office 365 の管理者の役割を管理者に割り当てます。 | | [Microsoft 365 または一般法人向け Office 365 で管理者ロールを割り当てる](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
 | ファイブ  | 通話品質ダッシュボード (CQD) にサインインして、建物情報をアップロードします。 | すべてのチーム展開では、CQD を活用して、Teams を使用するすべての通話の品質と信頼性を把握する必要があります。 <br><br>このツールを最大限に活用するには、[**追加情報**] 列に表示されている CQD のガイダンスを使用します。 | | [サービス管理と品質の計画](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[品質エクスペリエンスのレビュー ガイド](https://aka.ms/qerguide) <br/><br/>[品質エクスペリエンスレビューテンプレート](https://aka.ms/qertemplates) <br/><br/>[Microsoft Teams および Skype for Business Online で通話品質ダッシュボードをオンにして使用する](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[建物情報のアップロード](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
-| 常用  | 建物情報が処理されていることを確認し、通話品質ダッシュボード (CQD) をテナントに対して操作することができます。 | | | [通話品質ダッシュボード](https://cqd.lync.com) |
+| 常用  | 建物情報が処理されていることを確認し、通話品質ダッシュボード (CQD) をテナントに対して操作することができます。 | | | [通話品質ダッシュボード](https://cqd.teams.microsoft.com) |
