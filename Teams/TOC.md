@@ -382,7 +382,6 @@
 #### [英国での電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [米国での電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
-
 ### 無料電話ダイヤルの制限事項と制約事項
 #### [概要](toll-free-dialing-limitations-and-restrictions.md)
 #### [アルゼンチン](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -518,7 +517,6 @@
 #### [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [ユーザー パイロットを計画する](pilot-essentials.md)
 
-
 ### Teams 向けの環境を準備する
 #### [技術準備の概要](upgrade-prepare-environment.md)
 #### [Teams に向けて IT スタッフを準備する](upgrade-prepare-IT-pros.md)
@@ -531,12 +529,10 @@
 #### [組織的な変更の準備状況を評価する](upgrade-org-change-readiness.md)
 #### [ユーザーの研修計画を準備する](upgrade-user-readiness.md)
 
-
 ## アップグレードを実装する
 ### [概要](upgrade-to-Teams.md)
 ### [Skype for Business Online から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Skype for Business オンプレミスから Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## 運用、導入、および最適化
 ### [運用計画の概要](continue-journey.md)
@@ -553,7 +549,6 @@
 ### [Skype for Business と共存する](coexistence-chat-calls-presence.md)
 ### [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [会議優先](meetings-first.md)
 
@@ -686,6 +681,7 @@
 ## コンプライアンス
 ### [情報障壁](information-barriers-in-teams.md)
 ### [保持ポリシー](retention-policies.md)
+### [Communicatoin コンプライアンス](communication-compliance.md)
 ### [通話と会議のためのポリシー ベースの録音](teams-recording-policy.md)
 ### [データ損失防止](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 電子情報開示
@@ -767,7 +763,6 @@
 ### [メッセージング ポリシーのライセンス](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 電話システム - 仮想ユーザー ライセンス](teams-add-on-licensing/virtual-user.md)
 
-
 ## Microsoft 365 や Office 365 との相互運用性
 
 ### [Microsoft 365 グループと Teams](office-365-groups.md)
@@ -779,7 +774,6 @@
 ### [Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
 ### [Microsoft 365 または Office 365 複数地域対応テナントでの Teams のエクスペリエンス](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## サポート対象のデバイス
 ### [Teams でのデバイスの管理](devices/device-management.md)
 ### [デバイスをリモートで更新する](devices/remote-update.md)
@@ -789,7 +783,6 @@
 ### [会議室のデバイスとソリューション](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Microsoft Teams 認定 IP 電話](devices/teams-ip-phones.md)
 ### [Skype for Business Online 対応の電話機](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
 
 ## Teams の PowerShell
 ### [概要](teams-powershell-overview.md)
