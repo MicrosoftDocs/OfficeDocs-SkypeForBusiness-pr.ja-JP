@@ -16,15 +16,15 @@ metadata:
   ms.collection:
   - M365-collaboration
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 5148415363ac62c68140982d03235b8bfa8835ac
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: 04e3c6ea65a010d995c109819b7e4a58384344f4
+  ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43904512"
+  ms.lasthandoff: 07/09/2020
+  ms.locfileid: "45086133"
 items:
 - durationInMinutes: 2
-  content: "\nネットワークプランナーツールは、Teams 管理センターで利用できます。 組織のネットワーク要件を特定するのに役立ちます。 この例のシナリオでは、Contoso という会社のためにこのツールを使用して、サイト、ペルソナ、レポートを実行する方法について説明します。 \n\n## <a name=\"before-you-begin\"></a>始める前に\n\nTeams 管理センターについて既に知っていることを前提としています。また、Teams のネットワークを準備するために必要な作業について理解していることを前提としています。 この記事がネットワークプランナーで初めて表示された場合は、最初に次の記事を参照することをお勧めします。\n\n- [Teams 用に組織のネットワークを準備する](prepare-network.md)\n- [Microsoft Teams のネットワークプランナーを使用する](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso ネットワークの概要\n\nContoso には、次の3つの場所があります。\n\n- **シアトル本社:** これは Contoso の主要な場所です。 1000従業員と25人のユーザーが通話を発信します。 サイトがインターネットに接続されていて、ローカル電話接続 (PSTN) がある。 Contoso には直接ルーティングが設定されていて、Teams でのローカル電話接続を使用できるようになりました。 \n- **Kirkland Office:** この支店の支社には400人と10人の社員が勤務しています。 サイトでは、本社との接続がインターネットと電話 (PSTN) の両方のトラフィックに使用されます。 この office は、WAN 接続を使用してシアトル本社に接続されています。\n- **Denver Office:** この office には250の従業員と50の通話のみが含まれています。 サイトには独自のローカルインターネット接続がありますが、直通電話接続 (PSTN) がありません。\n\nでは、始めましょう。\n"
+  content: "\nネットワークプランナーツールは、Teams 管理センターで利用できます。 組織のネットワーク要件を特定するのに役立ちます。 この例のシナリオでは、Contoso という会社のためにこのツールを使用して、サイト、ペルソナ、レポートを実行する方法について説明します。 \n\n## <a name=\"before-you-begin\"></a>始める前に\n\nTeams 管理センターについて既に知っていることを前提としています。また、Teams のネットワークを準備するために必要な作業について理解していることを前提としています。 この記事がネットワークプランナーで初めて表示された場合は、最初に次の記事を参照することをお勧めします。\n\n- [Teams 用に組織のネットワークを準備する](prepare-network.md)\n- [Microsoft Teams で Network Planner を使用する](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso ネットワークの概要\n\nContoso には、次の3つの場所があります。\n\n- **シアトル本社:** これは Contoso の主要な場所です。 1000従業員と25人のユーザーが通話を発信します。 サイトがインターネットに接続されていて、ローカル電話接続 (PSTN) がある。 Contoso には直接ルーティングが設定されていて、Teams でのローカル電話接続を使用できるようになりました。 \n- **Kirkland Office:** この支店の支社には400人と10人の社員が勤務しています。 サイトでは、本社との接続がインターネットと電話 (PSTN) の両方のトラフィックに使用されます。 この office は、WAN 接続を使用してシアトル本社に接続されています。\n- **Denver Office:** この office には250の従業員と50の通話のみが含まれています。 サイトには独自のローカルインターネット接続がありますが、直通電話接続 (PSTN) がありません。\n\nでは、始めましょう。\n"
 - title: ネットワーク計画を追加する
   durationInMinutes: 2
   content: "\nTeams 管理センターで、[**組織全体の設定**] を展開し、[**ネットワークプランナー**] を選びます。 まず、ネットワーク計画を作成する必要があります。 \n\n1. [**ネットワークプランの追加] をクリックする** \n2. [**新しいネットワーク計画**] ウィンドウで、ネットワーク計画の名前と説明を追加します。 この例では、 *Contoso1*をプラン名として使用し、 *Contoso のネットワーク計画*を説明として使用します。\n3. [**保存**] をクリック\n\n![新しいネットワーク計画を追加する](media/network-planner-new-network-plan.png)\n\nネットワーク計画を保存すると、ネットワーク計画の一覧に表示されます。 \n\n![ネットワーク計画の一覧](media/network-planner-network-plans.png)\n"
@@ -42,4 +42,4 @@ items:
   content: "\nレポートを生成すると、全体的な帯域幅とモダリティ固有の値の両方の帯域幅要件を示す画面が表示されます。 既定では、許可される帯域幅は30% に設定されています。 この値を変更して [**レポートの実行**] をクリックすると、ネットワークの帯域幅への影響を確認できます。 帯域幅が必要な領域は赤で強調表示されます。\n\n![レポート分析](media/network-planner-report-output.png)\n\nまた、ネットワークプランナーは、ネットワーク上のチームの予想される影響に基づいて推奨事項を提供します。 [おすすめの表示] アイコンをクリックすると、各サイトのおすすめ候補が表示されます (存在する場合)。 次の図は、推奨されるサンプルの表示を示しています。\n\n![おすすめ候補ビュー](media/network-planner-recommendation-view.png)\n\nここでは、チームの最高のパフォーマンスを実現するために、現在、Kirkland サイトの帯域幅を増やす必要があることを確認できます。 \n"
 - title: その他のリソース
   durationInMinutes: 1
-  content: "\nこれで、ネットワークプランナーのシナリオの例を完了します。 組織で Teams を使用できるようにする方法について詳しくは、 [「ネットワークプランナー」の記事を参照](network-planner.md)するか、次のリソースをご覧ください。\n\n - [Microsoft Teams 用に組織のネットワークを準備する](prepare-network.md)\n - [QoE のレビュー ガイド](quality-of-experience-review-guide.md)\n - [Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)"
+  content: "\nこれで、ネットワークプランナーのシナリオの例を完了します。 組織で Teams を使用できるようにする方法について詳しくは、 [「ネットワークプランナー」の記事を参照](network-planner.md)するか、次のリソースをご覧ください。\n\n - [Microsoft Teams 用に組織のネットワークを準備する](prepare-network.md)\n - [Teams の通話品質を向上させて監視する](monitor-call-quality-qos.md)\n - [Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)"
