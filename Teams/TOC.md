@@ -694,21 +694,29 @@
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
-## [通話品質を監視および管理する](monitor-call-quality-qos.md)
-### [QoE のレビュー ガイド](quality-of-experience-review-guide.md)
-### [Teams の QoS をセットアップする](QoS-in-Teams.md)
+## 通話品質を監視および管理する
+### [通話品質を監視および改善する](monitor-call-quality-qos.md)
+### 通話品質ダッシュボード (CQD)
+#### [CQD とは何ですか ?](CQD-what-is-call-quality-dashboard.md)
+#### [ CQDをセットアップする](turning-on-and-using-call-quality-dashboard.md)
+#### [テナントとビルのデータをアップロードする](CQD-upload-tenant-building-data.md)
+#### [CQD のデータとレポート](CQD-data-and-reports.md)
+#### [CQD を使用して通話と会議の品質を管理する](quality-of-experience-review-guide.md)
+#### [よく寄せられる質問](CQD-frequently-asked-questions.md)
+#### [CQD で利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [CQD のストリーム分類](stream-classification-in-call-quality-dashboard.md)
+#### [ビルディングマップを作成する](CQD-building-mapping.md)
+#### Power BI を使用して CQD データを分析する
+##### [Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)
+##### [Power BI コネクタをインストールして CQD クエリ テンプレートを使用する](CQD-Power-BI-connector.md)
+##### [Teams の使用率に関する CQD データを取得する](CQD-teams-utilization-report.md)
+##### [CQD PSTN ダイレクト ルーティング レポートを使用する](CQD-PSTN-report.md)
+### 通話分析
+#### [通話分析をセットアップする](set-up-call-analytics.md)
+#### [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### サービスの品質 (QoS)
+#### [Teams の QoS をセットアップする](QoS-in-Teams.md)
 #### [Windows クライアントで QoS を設定する](QoS-in-Teams-clients.md)
-### [通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [通話分析をセットアップする](set-up-call-analytics.md)
-### [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [通話品質ダッシュボードをオンにして使用する](turning-on-and-using-call-quality-dashboard.md)
-### Power BI を使用して CQD データを分析する
-#### [Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)
-#### [Power BI コネクタをインストールして CQD クエリ テンプレートを使用する](CQD-Power-BI-connector.md)
-#### [Teams の使用率に関する CQD データを取得する](CQD-teams-utilization-report.md)
-#### [CQD PSTN ダイレクト ルーティング レポートを使用する](CQD-PSTN-report.md)
-### [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [通話品質ダッシュボードでのストリームの分類](stream-classification-in-call-quality-dashboard.md)
 ## [Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [インストールと更新に関する問題のトラブルシューティング](troubleshoot-installation.md)
 ## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
@@ -717,6 +725,7 @@
 ## [よくあるご質問 (FAQ): リモートの従業員をサポートする](FAQ-support-remote-workforce.md)
 ## [Teams のサービス正常性を確認する](service-health.md)
 ## [ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
