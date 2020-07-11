@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でフロントエンドサーバーを管理する
+title: Skype for Business Server でのフロントエンドサーバーの管理
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,73 +11,76 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: '概要: Skype for Business Server でフロントエンドサーバーを追加、削除、更新、または更新する方法について説明します。'
-ms.openlocfilehash: bc97faaf3ac36ff5cb74d6286aa7e75facbd98cb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server でフロントエンドサーバーを追加、削除、修正、または更新する方法について説明します。'
+ms.openlocfilehash: 3d2298711e707ed897b26939fd383dbedcfb3957
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817263"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098415"
 ---
-# <a name="manage-front-end-servers-in-skype-for-business-server"></a>Skype for Business Server でフロントエンドサーバーを管理する
+# <a name="manage-front-end-servers-in-skype-for-business-server"></a>Skype for Business Server でのフロントエンドサーバーの管理
  
-この記事では、フロントエンドサーバーを追加または削除する方法と、フロントエンドサーバーにアップグレードまたは更新プログラムを適用する方法について説明します。
+この記事では、フロントエンドサーバーを追加または削除する方法と、フロントエンドサーバーにアップグレードまたはパッチを適用する方法について説明します。
 
-## <a name="add-or-remove-front-end-servers"></a>フロントエンドサーバーを追加または削除する
+  > [!NOTE]
+> Skype for Business Server 2019 は、2台のフロントエンドサーバーを持つ Enterprise Edition フロントエンドプールをサポートしていません。このシナリオでは、トポロジを公開することはできません。
+
+## <a name="add-or-remove-front-end-servers"></a>フロントエンドサーバーの追加または削除
   
-フロントエンドサーバーをプールに追加する場合、またはプールからフロントエンドサーバーを削除する場合は、プールを再起動する必要があります。 
+フロントエンド サーバーをプールに追加したり、フロントエンド サーバーをプールから削除した場合は、プールを再起動する必要があります。 
   
 > [!IMPORTANT]
-> トポロジ内のプールにサーバーを追加、またはそこから削除し、更新したトポロジを公開すると、プール内のすべてのサーバーが同時に再起動します。サーバーが再起動する間、プールはオフラインです。プールに接続しているユーザーに対するサービスは中断されます。ユーザーへのサービスの中断を防ぐため、プール内で新しいサーバーを設定したトポロジは、営業時間外に公開するように計画します。 
+> トポロジ内のプールにサーバーを追加または削除し、更新されたトポロジを公開すると、プール内のすべてのサーバーが同時に再起動されます。 サーバーが再起動している間はプールがオフラインになり、そのプールに接続しているユーザーのサービスが中断されます。 ユーザーにサービスが中断されないようにするには、営業時間外にプール内の新しいサーバーでトポロジを公開するように計画します。 
   
-フロントエンドサーバーを追加または削除するときには、次の手順を使用できます。
+フロントエンドサーバーを追加または削除する際には、次の手順を使用できます。
   
 > [!NOTE]
-> プールに新しいサーバーを追加する場合、累積的な更新プログラムがプール内の既存のサーバーと同じレベルになるように、新しいプール サーバーを更新します。 
+> プールに新しいサーバーを追加している場合は、プール内の既存のサーバーと同じ累積更新レベルになるように、新しいプールサーバーを更新します。 
   
 ### <a name="to-add-or-remove-front-end-servers"></a>フロントエンドサーバーを追加または削除するには
 
-1. フロントエンドサーバーを削除する場合は、まず、それらのサーバーへの新しい接続を停止します。 これを実行するには、次のコマンドレットを使用できます。
+1. If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:
     
    ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
-2. トポロジビルダーを開き、必要なサーバーを追加または削除します。 
+2. トポロジ ビルダーを開き、必要なサーバーを追加または削除します。 
     
 3. トポロジを公開します。
     
     > [!IMPORTANT]
-    > トポロジ内のプールにサーバーを追加、またはそこから削除し、更新したトポロジを公開すると、プール内のすべてのサーバーが同時に再起動します。サーバーが再起動する間、プールはオフラインです。プールに接続しているユーザーに対するサービスは中断されます。ユーザーへのサービスの中断を防ぐため、プール内で新しいサーバーを設定したトポロジは、営業時間外に公開するように計画します。 
+    > トポロジ内のプールにサーバーを追加または削除し、更新されたトポロジを公開すると、プール内のすべてのサーバーが同時に再起動されます。 サーバーが再起動している間はプールがオフラインになり、そのプールに接続しているユーザーのサービスが中断されます。 ユーザーにサービスが中断されないようにするには、営業時間外にプール内の新しいサーバーでトポロジを公開するように計画します。 
   
   > [!NOTE]
-> また、プールにサーバーを追加または削除する場合は、追加または削除された各コンピューターで Skype for Business Server 展開ウィザードを実行する必要があります。詳細については、「[トポロジのサーバーに skype for Business server をインストール](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)する」を参照してください。
+> また、プールにサーバーを追加または削除する場合は、追加または削除した各コンピューターで Skype for business Server 展開ウィザードを実行する必要があります。詳細については、「 [Install skype For Business server on server on トポロジ」](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)を参照してください。
   
-4. フロントエンドプール内のサーバーの数を次のいずれかの方法で変更した場合は、次のコマンドレットを入力してプールをリセットします。 CsPoolRegistrarState-ResetType FullReset-PoolFqdn 
+4. フロントエンドプール内のサーバーの数を次のいずれかの方法で変更した場合は、次のコマンドレットを入力して、プールをリセットします。 Reset-cspoolregistrarstate-ResetType FullReset-PoolFqdn 
     
    ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
-     - 2 台から任意の数
+     - 2から任意
     
-     - 任意の数から 2 台
+     - 任意の2
     
-     - 3 台から任意の数
+     - 3から任意の
     
-     - 任意の数から 3 台
+     - 任意の3
     
-5. 以下のコマンドレットを入力してプールを再起動します。
+5. 次のコマンドレットを入力して、プールを再起動します。
     
    ```PowerShell
    Start-CsPool
    ```
 
-## <a name="patch-or-update-front-end-servers"></a>フロントエンド サーバーのパッチまたは更新
+## <a name="patch-or-update-front-end-servers"></a>フロントエンドサーバーのパッチまたは更新
 
-フロントエンドプールにサーバーを修正する場合は、一度に1つのサーバーを実行します。 
+フロントエンドプール内のサーバーに修正プログラムを適用する場合は、一度に1台のサーバーを使用します。 
   
-### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>プール内のフロントエンド サーバーにアップグレードを適用する
+### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>プール内のフロントエンドサーバーにアップグレードを適用するには
 
 1. 次のコマンドレットを入力します。
     
@@ -85,13 +88,13 @@ ms.locfileid: "41817263"
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
-     このコマンドレットで不足しているレプリカが示された場合は、次のコマンドレットでプールを復元してから、パッチを適用してください。
+     このコマンドレットで不足しているレプリカが表示された場合は、次のコマンドレットを実行して、更新プログラムを適用する前にプールを回復します。
     
    ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
-2. パッチを適用する最初のサーバーで、次のコマンドレットを実行します。
+2. 最初に修正プログラムを適用するサーバーで、次のコマンドレットを実行します。
     
    ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
@@ -101,13 +104,13 @@ ms.locfileid: "41817263"
     
 3. このサーバーにアップグレードまたはパッチを適用します。
     
-4. アップグレードしたサーバーで、次のコマンドレットを実行します。
+4. アップグレードされたサーバーで、次のコマンドレットを実行します。
     
    ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 
-    サーバーがサービスに復帰します。
+    サーバーがサービスに返されます。
     
-5. アップグレードが必要なサーバーごとに、手順 2 ～ 4 を繰り返します。
+5. アップグレードが必要な各サーバーについて、手順2-4 を繰り返します。
     

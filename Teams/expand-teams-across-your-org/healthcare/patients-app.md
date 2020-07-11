@@ -18,18 +18,16 @@ appliesto:
 ms.reviewer: anach
 description: FHIR Api を使用して、電子医療記録を Microsoft Teams の患者アプリに統合する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f981b2fc68aa52f8ea5a48fab18977197ac813c8
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905519"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098425"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>電子医療記録を Microsoft Teams に統合する
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
-プライベートプレビューに参加するには、「[プライベートプレビューに登録](#enroll-in-the-private-preview)する」を参照してください。
 
 この記事は、医療情報システム上で FHIR Api を使用して Microsoft Teams に接続することに関心を持っている一般的なヘルスケアの IT 開発者を対象としています。 これにより、医療機関のニーズに合ったケアの調整シナリオが可能になります。
 
@@ -53,7 +51,6 @@ ms.locfileid: "43905519"
 - パフォーマンスと信頼性に関する期待
 - 患者アプリでサポートされる FHIR リソースに対する期待
 - 統合のプロセスと想定される契約モデル
-- 患者アプリのプライベートプレビューで自分と顧客を登録する方法
 - FHIR の使用を開始する方法と、患者アプリで直面する一般的な課題
 - 患者アプリの次回のイテレーションに関する将来の要件
 
@@ -80,7 +77,7 @@ ms.locfileid: "43905519"
     {"resourceType": "CapabilityStatement"。
         .
         .
-        "rest": [{"mode": "server"、"security": {"extension": [{"extension": [{"url": "トークン", "valueuri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"url": "承認", "valueuri"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize: ""} "の" url "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris:" "}", "" {":"https://hl7.org/fhir/ValueSet/restful-security-service"," "{": "", "code": [{]
+        "rest": [{"mode": "server"、"security": {"extension": [{"extension": [{"url": "トークン", "valueUri": " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token "}, {"url": "承認", "valueUri": ""} "の" url ":" "}", "" {":" "," "{": " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris https://hl7.org/fhir/ValueSet/restful-security-service ", "code": [{]
                 .
                 .
             } ] }
@@ -145,26 +142,4 @@ AAD テナントをプロバイダーエンドポイントにマッピングす�
 
 FHIR を初めて使用して、Microsoft Teams の EHR 統合インターフェイスに公開できる FHIR サーバーに簡単にアクセスする必要がある場合は、Microsoft によって、すべての開発者が使用できるオープンソース FHIR サーバーが用意されています。 Microsoft から提供されているオープンソース FHIR サーバーの詳細については、「 [Azure 用 FHIR サーバーとは](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server)」の記事を参照してください。
 
-HSPC オープンサンドボックス EHR 環境を使用して、オープンな FHIR サーバーもサポートしている EHR を作成し、これを使って患者のアプリでプレイすることもできます。 [Hspc サンドボックスのドキュメント](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)をご覧になることをお勧めします。 サンドボックスは、簡単で UI 指向であり、患者の作成、追加、編集を行うためのわかりやすい方法を提供するだけでなく、使用を開始するためのサンプルもいくつか提供しています。  
-
-## <a name="enroll-in-the-private-preview"></a>プライベートプレビューに登録する
-
-オープンソース FHIR サーバーを作成した後は、次の手順に従って、テナント内の患者アプリに簡単に接続できます。
-
-1. 以下の最初の詳細をご確認[ください](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview)。  
-    - お名前 *
-    - 自分の位置
-    - 代表する会社または組織
-    - EHR との統合のための患者アプリに関心を持っている理由
-
-    さらに多くの質問がある場合は、すぐにお客様にご連絡いたします。また、プライベートプレビュー用にセットアップする手順についてもご案内します。
-
-2. 患者のアプリを試すテナントで、カスタムアプリのサイドローディングが有効になっていることを確認します。 この機能を Teams 管理センターからお客様のテナントに対して有効にする方法については、「[アプリのアクセス許可ポリシー](../../admin-settings.md) 」を参照してください。
-
-3. サイドローディングは、ケアと患者の丸めのシナリオで使用されるテナント内のチームに、Microsoft から取得する患者のアプリマニフェストを示しています (メールを処理した後)。 アプリのサイドロードの詳細な手順については、「[アプリパッケージを Microsoft Teams にアップロード](/microsoftteams/platform/concepts/apps/apps-upload)する」をご覧ください。
-
-4. チーム所有者として [全般] チャネルに移動し、[患者] タブをクリックします。次に、EHR モードと手動モードの2つのオプションが表示される最初の実行環境が表示されます。 [EHR]**モード**を選び、Fhir サーバーのエンドポイント (前述の仕様に含まれているすべての必要なデータとリソースが前に設定されています) を Link フィールドにコピーして、その接続に FHIR サーバーを表す名前を付けてください。 [接続] をクリックすると、すべての機能を使い始めることができます。
-
-    ![患者のアプリのサーバー設定のスクリーンショット](../../media/patients-server.png)
-
-5. このアプリを使って FHIR サーバー/EHR から患者を検索し、それをリストに追加して、問題が解決しない場合は[フィードバック](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)を送信してください。 また、完全に認証されたバージョンの患者 > アプリを確立するには、「医療製品エンジニアリング用の Microsoft Teams を使用したオンライン操作」を参照してください。先に説明したメール要求に従って、要件を明確化するためには、上で説明した認証要件に従って、この設定を有効にします。  
+HSPC オープンサンドボックス EHR 環境を使用して、オープンな FHIR サーバーもサポートしている EHR を作成し、これを使って患者のアプリでプレイすることもできます。 [Hspc サンドボックスのドキュメント](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)をご覧になることをお勧めします。 サンドボックスは、簡単で UI 指向であり、患者の作成、追加、編集を行うためのわかりやすい方法を提供するだけでなく、使用を開始するためのサンプルもいくつか提供しています。 
