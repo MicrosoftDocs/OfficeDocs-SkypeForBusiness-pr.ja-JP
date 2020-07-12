@@ -697,7 +697,7 @@
 ## 通話品質を監視および管理する
 ### [通話品質を監視および改善する](monitor-call-quality-qos.md)
 ### 通話品質ダッシュボード (CQD)
-#### [CQD とは何ですか ?](CQD-what-is-call-quality-dashboard.md)
+#### [CQD とは?](CQD-what-is-call-quality-dashboard.md)
 #### [ CQDをセットアップする](turning-on-and-using-call-quality-dashboard.md)
 #### [テナントとビルのデータをアップロードする](CQD-upload-tenant-building-data.md)
 #### [CQD のデータとレポート](CQD-data-and-reports.md)
@@ -705,7 +705,7 @@
 #### [よく寄せられる質問](CQD-frequently-asked-questions.md)
 #### [CQD で利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [CQD のストリーム分類](stream-classification-in-call-quality-dashboard.md)
-#### [ビルディングマップを作成する](CQD-building-mapping.md)
+#### [ビルディング マップを作成する](CQD-building-mapping.md)
 #### Power BI を使用して CQD データを分析する
 ##### [Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)
 ##### [Power BI コネクタをインストールして CQD クエリ テンプレートを使用する](CQD-Power-BI-connector.md)
