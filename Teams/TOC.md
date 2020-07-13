@@ -255,6 +255,7 @@
 #### [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
 #### [自動応答および呼び出しキューの通話に Teams から直接応答する](answer-auto-attendant-and-call-queue-calls.md)
 
+### [受信通話をブロックする](block-inbound-calls.md)
 ### [コール パークおよび取得](call-park-and-retrieve.md)
 ### [通話の共有およびグループ通話ピックアップ](call-sharing-and-group-call-pickup.md)
 ### [通話ポリシー](teams-calling-policy.md)
