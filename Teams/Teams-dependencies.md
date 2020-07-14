@@ -18,12 +18,12 @@ f1.keywords:
 description: Microsoft Teams のゲスト アクセス機能を 4 つの異なる承認レベルで管理します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fe067e88fe6e73b16e4296b611e87eb94d7e060c
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689803"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098365"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセスを承認する
 ===========================================
@@ -104,7 +104,7 @@ Microsoft 365 グループから、自分の組織内のすべての Microsoft 3
 
 上記の設定は、テナント レベルで適用され、Microsoft 365 グループおよび Teams でのゲストのエクスペリエンスを制御します。
 
-グループのゲスト アクセスの詳細については、「[ゲストを Microsoft 365 グループに追加する](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」を参照してください。ゲスト アクセスの仕組み、ゲスト アクセスの管理方法、よくある質問への回答が記載されています。
+グループのゲスト アクセスの詳細については、[「Microsoft 365 グループのゲスト アクセスを管理する」](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#manage-groups-guest-access) および [「ゲストを Microsoft 365 グループに追加する」](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) を参照してください。ゲスト アクセスの仕組み、ゲスト アクセスの管理方法、よくある質問への回答が記載されています。
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online と OneDrive for Business へのゲスト アクセスを管理する
 
