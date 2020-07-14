@@ -1,12 +1,12 @@
 ---
 title: Microsoft Teams のセキュリティ ガイド
-author: MicrosoftHeidi
+author: MSFTTracyP
 ms.author: tracyp
-manager: serdars
+manager: dansimp
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: pawa
 description: Microsoft Teams のインストール、構成、保守に関する IT 管理者向けのセキュリティについてのアドバイスを取り上げ、説明します。
 localization_priority: Priority
 search.appverid: MET150
@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6762bd49bbe22b1e80c1b97f37048ee0a944e0a1
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761445"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121637"
 ---
 # <a name="security-and-microsoft-teams"></a>セキュリティと Microsoft Teams
 

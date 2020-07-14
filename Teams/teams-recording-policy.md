@@ -1,8 +1,8 @@
 ---
 title: 会議への & 会議を発信するためのチームポリシーベースのレコーディングの概要
-author: microsoftheidi
-ms.author: heidip
-manager: serdars
+author: cabailey
+ms.author: cabailey
+manager: laurawi
 ms.date: 05/11/2020
 audience: Admin
 ms.topic: conceptual
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00727602aed5eee205a01b01e1ab01218c5b2352
-ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
+ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44804681"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121647"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話 & 会議用の Teams ポリシーベースのレコーディングの概要
 
@@ -222,6 +222,6 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 認定プログラムに参加しようとしているベンダーの場合は、メール<a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>してください。

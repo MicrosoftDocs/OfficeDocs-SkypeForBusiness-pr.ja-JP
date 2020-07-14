@@ -1,15 +1,15 @@
 ---
 title: Microsoft Teams のコンテンツ検索を使用する
-author: LolaJacobsen
-ms.author: lolaj
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Microsoft Teams のコンテンツ検索を使用して、Exchange、SharePoint Online、OneDrive for Business、OneNote から Microsoft Teams の情報を照会する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d05d815a74fc395c06763920014b7de453847bec
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690443"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121527"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams のコンテンツ検索を使用する
 =====================================
