@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Teams 管理センターを使用して、リモートで Microsoft Teams の電話とコラボレーションバーを更新する
-ms.openlocfilehash: 7e47c9394eddfa73b8b55279b68ae59ff7b6de3d
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944107"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125950"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Microsoft Teams デバイスをリモートで更新する
 
@@ -32,7 +32,7 @@ Microsoft Teams 管理センターを使用すると、スマートフォンや�
 デバイスのファームウェアの更新は、自動で適用するか、または将来の日付と時刻に対してスケジュールすることができます。 利用可能なその他のデバイス更新プログラムは自動的には適用されませんが、手動で適用することも、将来の日付と時刻に対してスケジュールすることもできます。
 
 > [!NOTE]
-> デバイスのファームウェアの更新をスケジュール設定することはできますが、スケジュールされた日付と時刻が、構成されている30または90日の遅延後に発生した場合は、最大遅延に達するとファームウェアの更新が適用されます。 スケジュールされた日付と時刻は無視されます。
+> デバイスのファームウェアの更新をスケジュール設定することはできますが、スケジュールされた日付と時刻が、構成されている30または90日の遅延後に発生した場合は、最大遅延に達するとファームウェアの更新が適用されます。 スケジュールされた日付と時刻は無視されます。 さらに、Microsoft Teams デバイスのリモート更新は、米国政府のクラウドテナント (GCC-高) でまだ利用できない機能です。
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>自動デバイスファームウェア更新動作を選ぶ
 

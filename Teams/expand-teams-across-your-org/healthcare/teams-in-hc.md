@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 医療の調整、セキュリティで保護されたメッセージング、テレケア、EHR 統合、firstline worker システムの統合など、医療機関向けの機能について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938366"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138107"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療関係組織のためのTeamsを始めましょう
 
@@ -89,9 +89,25 @@ Microsoft Teams を使用すると、医師、clinicians、看護師、および
 
 「[電子医療レコードを Microsoft Teams に統合](patients-app.md)して実装の詳細を確認する」を参照してください。
 
-## <a name="templates"></a>Templates
+## <a name="teams-templates"></a>Teams テンプレート
 
 Teams を作成するための新しいテンプレートは、病院の設定に適用するために開発されたもので、近日中に対応する予定です。 これにより、医療員がさまざまな部署または wards の患者の注意を調整するために使用するチームの作成が容易になります。 「[医療機関向けのチームテンプレートの概要](healthcare-templates.md)」を参照してください。 Cardiology、またはケア wards などの社内部署向けにチームを開始したり、その他のテンプレートを開発中に追加したりすることができます。
+
+## <a name="lists-app"></a>リストアプリ
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+Teams のリストアプリは、チームが情報を追跡し、作業を整理するのに役立ちます。 アプリは、すべての Teams ユーザー用にプレインストールされており、すべてのチームおよびチャネルのタブとして使用できます。 リストは、あらかじめ定義されたテンプレートから、または Excel にデータをインポートすることで、一から作成することができます。
+
+ケアチームは、患者のテンプレートを使って作業を始めることができます。 リストを作成して、患者のニーズと状態を追跡することができます。 Excel スプレッドシート上の既存の患者データを表示して、Teams でリストを作成することができます。 これらのリストは、ラウンドと患者のモニタリングなどの状況で、注意を調整するために使用できます。
+
+たとえば、無料の看護師によって、チーム内にすべてのケアチームメンバーが含まれる患者リストが作成されます。 ラウンドチームは、丸めの際に、モバイルデバイスのチームにアクセスし、リスト内の患者情報を更新します。これは、チームの全員が同期状態を維持するために表示することができます。医療チームが収集して主要な正常性パフォーマンス指標を評価して、患者が適切なグライドパスになっていることを確認して、患者が確実に放出されるようにするには、大きな表示画面で Teams を使ってこの情報を共有することができます。 サイトを使用していないケアチームメンバーがリモートで参加することができます。
+
+患者の丸め用に設定されたリストの例を次に示します。
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="患者の丸めの例の一覧のスクリーンショット":::
+
+詳細については、「 [Teams で組織のリストアプリを管理](../../manage-lists-app.md)する」を参照してください。
 
 ## <a name="secure-messaging"></a>セキュリティで保護されたメッセージング
 

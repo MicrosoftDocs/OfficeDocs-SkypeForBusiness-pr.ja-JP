@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: すべての機能を活用できるように、Microsoft Teams 室を展開するためのインフラストラクチャを準備する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
+ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735427"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125960"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -36,8 +36,8 @@ ms.locfileid: "44735427"
    - HTTP:80
    - プロキシを介してネットワークが動作している場合は、プロキシのアドレスまたはスクリプトの情報も必要です。
     
-     > [!NOTE]
-     > Microsoft Teams Rooms は、HDMI インジェストの機能 (ビデオ、オーディオ) に関する問題を引き起こすことが確認されている、HDCP 入力をサポートしていません。 Microsoft Teams Rooms に接続されたスイッチの HDCP オプションがオフになっていることを必ず確認してください。
+     > [!IMPORTANT]
+     > Microsoft Teams room は、会議室の通常の操作に影響を与える可能性があるため、プロキシ認証をサポートしていません。 運用に入る前に、Microsoft Teams の会議室がプロキシ認証から除外されていることを確認します。
   
 3. エクスペリエンスを向上させるために、Microsoft ではデータを収集します。 Microsoft にデータの収集を許可するには、次のサイトをホワイトリストに登録します。
 

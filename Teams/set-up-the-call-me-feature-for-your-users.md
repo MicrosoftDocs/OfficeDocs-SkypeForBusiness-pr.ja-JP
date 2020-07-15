@@ -17,19 +17,23 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2343ce76e404ce2462cdbfc443130058112dcc4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d29a517b8df194fe19b9e16554f7c57964177c90
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140860"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138017"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>ユーザーの [電話する] 機能をセットアップする
 
-Microsoft Teams の [**折り返し**] 機能を使用すると、ユーザーは電話で会議のオーディオ部分に参加することができます。 これは、オーディオ用のコンピューターを使うことができない場合に便利です。 ユーザーは、会議のオーディオ部分を、携帯電話または陸上線と、会議の他の参加者&mdash;が自分の画面を共有したり、コンピューターでビデオ&mdash;を再生したりする場合に、会議のコンテンツ部分を取得します。
+Microsoft Teams の [**折り返し**] 機能を使用すると、ユーザーは電話で会議のオーディオ部分に参加することができます。 これは、オーディオ用のコンピューターを使うことができない場合に便利です。 ユーザーは、会議のオーディオ部分を、携帯電話または土地ラインと、会議の &mdash; 他の参加者が自分の画面を共有したり、コンピューターでビデオを再生したりする場合など、会議のコンテンツ部分を取得し &mdash; ます。
 
 > [!IMPORTANT]
-> COVID-19 の感染期間中は、PSTN 会議の電話番号を使用するか、または [**折り返し**</strong>先] を使って、[ **Teams 会議への参加**] ボタンをクリックして、ユーザーが会議に参加することをお勧めします。 これは主に、COVID-19 によって影響を受ける国のテレフォニーインフラストラクチャの輻輳が原因です。 PSTN 通話を回避することで、音質が向上する可能性があります。 
+> 
+> 会議の高いボリューム (COVID-19 の感染と連携しています) 中に、PSTN 電話番号を使用するか、または [<strong>折り返し</strong>先] を使用して、[ <strong>Teams 会議への参加</strong>] ボタンをクリックして会議に参加することをお勧めします。 これにより、会議の大規模が PSTN ネットワーク上の輻輳の原因となっている場合に、品質のオーディオを確保することができます。 
+
+> [!IMPORTANT]
+> 新型コロナウイルス感染症 (COVID-19) の発生が起こっている間、PSTN 会議番号を使用または **[折り返し先]** を使用してダイヤルインするのではなく、**[Teams 会議に参加]** ボタンをクリックして、ユーザーが会議に参加することをお勧めします</strong>。 これは主に、COVID-19 の影響を受ける国のテレフォニー インフラストラクチャが混雑するためです。 PSTN 通話を回避することによって、音質が向上します。 
 
 ## <a name="the-user-experience"></a>ユーザーエクスペリエンス
 
