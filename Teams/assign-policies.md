@@ -18,11 +18,12 @@ description: Microsoft Teams でユーザーにポリシーを割り当てるさ
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049444"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143848"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにライセンスを割り当てる
 
@@ -295,7 +296,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 **この機能はまだリリースされていません。これは発表され、近日公開予定です。**
 
 > [!NOTE]
-> 現時点では、Microsoft Teams 管理センターを使用したグループへのポリシーの割り当ては、Teams の通話ポリシー、Teams の会議ポリシー、および Teams のメッセージングポリシーでのみ利用できます。 その他のポリシーの種類については、PowerShell を使用します。
+> 現時点では、Microsoft Teams 管理センターを使用したグループへのポリシーの割り当ては、Teams の通話ポリシー、Teams の通話パークポリシー、チームポリシー、Teams live イベントポリシー、teams 会議ポリシー、および Teams のメッセージングポリシーでのみ利用できます。 その他のポリシーの種類については、PowerShell を使用します。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ポリシーの種類] ページに移動します。 たとえば、[会議の**Meetings**  >  **ポリシー**] に移動します。
 2. [**グループポリシーの割り当て**] タブを選択します。
@@ -481,6 +482,6 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 詳細については、「 [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)」を参照してください。 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams での PowerShell の概要](teams-powershell-overview.md)

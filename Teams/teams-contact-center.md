@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams のサービス (CCaaS) ソリューションとしての統合された連絡先センターの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aceca495760670846a869a8dcca9734a5cf7daa1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756828"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143838"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams の連絡先センターの統合
 
@@ -49,6 +49,7 @@ Microsoft Teams では、チャット、ビデオ会議、通話などの通信�
 | Enghouse Interactive | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
+| Landis テクノロジ | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | 便利な連絡先 | https://www.niceincontact.com/microsoft-teams                                                            |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
@@ -214,6 +215,6 @@ Microsoft Teams でサポートされている統合モデルの概要につい�
 </tbody>
 </table>
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 認定プログラムへの参加を求めるベンダーの場合は、メールでお問い合わせください <Teamscategorypartner@microsoft.com> 。
