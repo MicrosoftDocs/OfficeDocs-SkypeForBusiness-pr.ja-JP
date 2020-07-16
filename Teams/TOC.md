@@ -672,17 +672,17 @@
 
 # セキュリティ、プライバシー、コンプライアンス
 ## [概要](security-compliance-overview.md)
-## セキュリティとプライバシー
+## セキュリティ
 ### [セキュリティ ガイド](teams-security-guide.md)
+### [Azure Sentinel と Teams](teams-sentinel-guide.md)
 ### [ID モデルと認証](identify-models-authentication.md)
 ### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
 ### [Teams の安全なリンク](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [プライバシーと Microsoft Teams](teams-privacy.md)
-### [Teams のデータの場所](location-of-data-in-teams.md)
+### [AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
 ## コンプライアンス
 ### [情報障壁](information-barriers-in-teams.md)
 ### [保持ポリシー](retention-policies.md)
-### [Communicatoin コンプライアンス](communication-compliance.md)
+### [通信コンプライアンス](communication-compliance.md)
 ### [通話と会議のためのポリシー ベースの録音](teams-recording-policy.md)
 ### [データ損失防止](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 電子情報開示
@@ -691,7 +691,9 @@
 ### コンテンツ検索
 #### [コンテンツ検索を使う](content-search.md)
 #### [イベントの監査ログを検索する](audit-log-events.md)
-### [AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
+## プライバシー
+### [プライバシーと Microsoft Teams](teams-privacy.md)
+### [Teams のデータの場所](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
