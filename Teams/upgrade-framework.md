@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 実績のある成功フレームワークを使用して、組織のアップグレードを Skype for Business から Teams に進めることができます。
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab92190b95c081f1b82d27970972c77bcf726f05
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b49d1d20e31a9c3051a89f62e7238eac73595a26
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139656"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158655"
 ---
 # <a name="about-the-upgrade-framework"></a>アップグレードのフレームワークについて
 
@@ -42,16 +42,16 @@ ms.locfileid: "43139656"
 変更の計画を開始すると、アップグレードの過程が開始されます。 このガイドラインとして成功フレームワークを利用することで、アップグレード前のフェーズから、アップグレードの計画と準備を行うためのサンプルタイムラインと、アップグレード後の運用フェーズに移動して、結果を維持および向上させることができます。 
 
 > [!NOTE]
-> チームへの旅には、複数の [モード](https://aka.ms/skypetoteams-coexist) の活用、さまざまなタイミングでのユーザーのグループのアップグレードが含まれていることがわかっています。これにより、チームとの勢いを維持しながら、ユーザーのアップグレードエクスペリエンスを制御することができます。  
+> チームへの旅には、複数の [モード](https://aka.ms/skypetoteams-coexist)の活用、   さまざまなタイミングでのユーザーのグループのアップグレードが含まれていることがわかっています。これにより、チームとの勢いを維持しながら、ユーザーのアップグレードエクスペリエンスを制御することができます。  
 
-アップグレード過程がどのように展開されるかを示すために、次のサンプル計画を用意しています。これにより、Skype for Business Online から部門間のモードへの移動が定義されています。 さらに、サンプルの計画では、ユーザーを4つのアップグレードグループまたは cohorts に分類した組織の概要を示します。 これをテンプレートとして使用して、チームへの具体的な旅をカバーし、使用しているさまざまな [モード](https://aka.ms/skypetoteams-coexist) とユーザーのセグメント化を行うアップグレードグループの数を組み込み、プランをカスタマイズします。 
+アップグレード過程がどのように展開されるかを示すために、次のサンプル計画を用意しています。これにより、Skype for Business Online から部門間のモードへの移動が定義されています。 さらに、サンプルの計画では、ユーザーを4つのアップグレードグループまたは cohorts に分類した組織の概要を示します。 これをテンプレートとして使用して、チームへの具体的な旅をカバーし、使用しているさまざまな [モード](https://aka.ms/skypetoteams-coexist)   とユーザーのセグメント化を行うアップグレードグループの数を組み込み、プランをカスタマイズします。 
 
 ## <a name="pre-upgrade"></a>アップグレード前
 
 **チームの組織を準備**します。 チームへのアップグレードを成功させるためには、準備のために十分な時間を割り当てることが重要です。 組織が Teams の価値をすぐに実感できるだけでなく、チームの準備が整うとすぐに Skype for Business からアップグレードを迅速に開始できるようになります。 Skype for Business と共にチームを既に有効にしている場合は、これらのアップグレード前のアクティビティをチェックポイントとして使用して、ユーザーをチームにアップグレードする前に、組織の準備ができていることを確認します。 
 
 > [!TIP]
-> サンプルアップグレードプロジェクト計画とパイロットテスト計画に加えて、コミュニケーションやユーザーアンケートなどのテンプレートのユーザー準備資料の [アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) をダウンロードします。 このキットで利用できるアイテムには、以下のリストでアスタリスク (*) が付いています。
+>  [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)   サンプルアップグレードプロジェクト計画とパイロットテスト計画に加えて、コミュニケーションやユーザーアンケートなどのテンプレートのユーザー準備資料のアップグレード成功キットをダウンロードします。 このキットで利用できるアイテムには、以下のリストでアスタリスク (*) が付いています。
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>計画: 組織が長期間の成功を確実に設定できるようにアップグレード計画を作成する
 
@@ -62,7 +62,7 @@ ms.locfileid: "43139656"
 | **3** | **プロジェクトの目標を定義する** | 進捗状況とプロジェクトの成功率の測定を可能にするターゲット目標を設定します。 | [プロジェクトの目標](upgrade-define-project-scope.md#project-goals) |
 | **4** | **リスクと軽減計画を特定する** | リスク軽減計画を確立して、プロジェクトをすぐに把握できるようにします。 | [リスクと軽減](upgrade-define-project-scope.md#risks-and-mitigation) |
 | **5** | **タイムラインを定義する** | タイムラインと主要なマイルストーンを設定して、プロジェクトを予算内に維持することができます。 | [時間](upgrade-define-project-scope.md#timeline) <br><br> [アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **適切な Skype for Business および Teams のアップグレードと共存戦略を定義する** | Skype for Business から組織のチームへの最適なパスを確保するために、自分の旅を地図にします。 | [Microsoft Teams と Skype for Business の共存と相互運用性を理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **6** | **適切な Skype for Business および Teams のアップグレードと共存戦略を定義する** | Skype for Business から組織のチームへの最適なパスを確保するために、自分の旅を地図にします。 | [Microsoft Teams と Skype for Business の共存と相互運用性を理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br>[電話システムと PSTN の接続オプションについて](cloud-voice-landing-page.md)<br><br>  [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>準備: Teams に対する組織の準備を評価する
@@ -92,7 +92,7 @@ ms.locfileid: "43139656"
 | ステップ |  | 概要 | 設備 |
 |------|--|---------|----------|
 | **1** | **Teams の公式リリースを発表する** | Teams の準備ができたときに、正式な立ち上げのお知らせを送信して、興奮と勢いを生み出します。 | [アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) |
-| **2** | **ユーザーに適切な共存モードを有効にする** | 組織に適した [共存] モードを設定するには、次の手順を実行します。 | [共存およびアップグレードを設定する](setting-your-coexistence-and-upgrade-settings.md) |
+| **2** | **アップグレードを実装する** | 実行する手順は、Skype for Business の現在の展開によって異なります。 | [アップグレードを実装する](upgrade-to-teams.md) |
 | **3** | **チームロードマップについて常に情報を受け取る** | チームロードマップを監視して、組織が Teams に移行するための適切な時間を特定します。 | [Teams のロードマップ](https://aka.ms/teamsroadmap) |
 | **4** | **追加の通信を送信し、チームのエキスパートと協力して、チームの興奮と導入を推進する** | 継続的なコミュニケーションとチャンピオンを利用して、チームの魅力をお勧めします。 | [Microsoft 365 のチャンピオンプログラム](https://aka.ms/O365Champions) |
 
@@ -106,7 +106,7 @@ ms.locfileid: "43139656"
 |------|--|---------|----------|
 | **1** | **上記で説明したアップグレード前のアクティビティを完了したことを確認します。** | すべての計画および準備アクティビティの完了を確認して、アップグレードの成功を確認します。 | 上記すべて |
 | **2** | **最初のアップグレードグループのユーザーとの通信を開始する** | アップグレードが開始されたことをユーザーに通知し、プロセス全体を通じて通知された状態を維持します。 | [ユーザーの研修計画を準備する](upgrade-user-readiness.md) <br><br> [アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **最初のアップグレードグループのユーザーに対してのみ、共存モードをチームに有効にする** | Skype for Business 環境に適した手順に従って、ユーザーの技術的な移行を実行します。 | [Skype for Business Online から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Skype for Business のハイブリッド環境またはオンプレミス環境から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **3** | **最初のアップグレードグループのユーザーに対してのみ、共存モードをチームに有効にする** | Skype for Business 環境に適した手順に従って、ユーザーの技術的な移行を実行します。 | [Skype for Business Online から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Skype for Business オンプレミスから Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
 | **4** | **ローリングサイクルで残りのアップグレードグループについて、上記のアップグレードアクティビティを繰り返す** | 引き続き継続的な通信計画を推進し、プランに基づいてユーザーグループをアップグレードします。 | |
 | **5** | **アップグレード後のフィードバックアンケートをすべてのユーザーに送信する** | フィードバックアンケートを使用して、ユーザーからフィードバックや洞察を得ることができます。 | [アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) |
 

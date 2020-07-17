@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cd9b38f09d4936d2db895f3ae8861bcf65b8a4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 17420c93c883054d36c4ae2e1b323be9e589a2c2
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666029"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158675"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Skype for Business オンプレミスから Teams にアップグレードする
 
@@ -69,14 +69,24 @@ Teams に移行する組織にとって、最終的にはすべてのユーザ�
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>手順 3: ユーザーを Skype for Business オンプレミスから TeamsOnly に移動する
 
-最終的には、ユーザーを TeamsOnly モードに移動します。 現在のオンプレミス環境によっては、追加の手順がいくつか必要になる場合があります。  
+最終的には、ユーザーを TeamsOnly モードに移動します。 これには、オンプレミス環境に応じて、1つまたは2つの手順が含まれている場合があります。  
 
 詳細については、「 [オンプレミスとクラウドの間でユーザーを移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)」と「[オンプレミスから Teams にユーザーを移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)」を参照してください。 
 
+## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>手順 4: ハイブリッドを無効にしてクラウドへの移行を完了する
+
+オンプレミスからクラウドにすべてのユーザーを移行した後で、オンプレミスの Skype for Business 展開を解除することができます。 詳細については、「ハイブリッドを無効にする」を参照して[クラウドへの移行を完了](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)してください。
 
 
-## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
+## <a name="phone-system-and-pstn-connectivity-options"></a>電話システムと PSTN の接続オプション
 
-Skype for Business の展開を通話プランを備えた電話システムに移行する場合、Microsoft は公衆交換電話網 (PSTN) プロバイダーになります。 電話番号の移植を完了したことを前提としています。ユーザーを Teams にアップグレードすると、着信 PSTN 通話が Teams に自動的に移行されます。
+ユーザーが TeamsOnly モードになった後、Teams での電話システムはサポートされています。 (ユーザーが諸島モードの場合、電話システムは Skype for Business でのみサポートされています)。 
 
-Skype for Business の展開を電話システムに移行しているが、通話プランを使用していない場合は、エンタープライズ VoIP 展開を Microsoft 電話システムのダイレクト ルーティングに移行する必要があります。 詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
+### <a name="pstn-connectivity-options"></a>PSTN 接続オプション
+
+公衆交換電話網 (PSTN) の接続オプションを検討するときは、次の2つのシナリオがあります。
+
+- エンタープライズ VoIP を使用している Skype for Business オンプレミスのユーザーのうち、オンラインに移行して、Microsoft 通話プランを使用するユーザー。 このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行を A) Microsoft 通話プランへのユーザーの電話番号のポートに合わせて調整するか、B) 利用可能な地域から新しいサブスクライバー番号を割り当てる必要があります。  詳細については、「 [Skype For Business Server on on-premises、エンタープライズ voip、Microsoft 通話プラン」を](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)参照してください。
+
+- エンタープライズ VoIP を使用している Skype for Business オンプレミスのユーザーのうち、オンラインに移行して、オンプレミスの PSTN 接続を維持するユーザー。 このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行をそのユーザーのダイレクト ルーティングへの移行に合わせて調整する必要があります。 詳細については、「 [Skype For Business Server のオンプレミスのエンタープライズ Voip から直接ルーティングする](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)」を参照してください。
+

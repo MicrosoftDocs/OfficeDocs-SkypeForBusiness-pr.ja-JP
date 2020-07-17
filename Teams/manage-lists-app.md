@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b7e237ffd041c2207516b714147d555b3a1b9043
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138402"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158695"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のリストアプリを管理する
 
@@ -46,7 +46,7 @@ Teams では、ユーザーはリストをチャネル内のタブとしてア�
 
 - 問題を追跡して、問題追跡テンプレートを使用して、問題を解決します。
 - すべてのイベントの詳細をイベント旅程テンプレートで整理します。
-- 患者のテンプレートを使用して、患者のニーズと状態を記録し、医療機関の治療チームがお客さまの治療を監視および調整できるようにします。
+- 患者のテンプレートを使用して、医療機関の治療チームが患者のニーズと状態を記録し、ケアを監視および調整できるようにします。
 - ローン申請の状態をローンテンプレートで追跡します。
 
 ## <a name="example-scenario"></a>シナリオ例

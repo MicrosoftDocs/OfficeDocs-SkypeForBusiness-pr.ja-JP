@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666069"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158735"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Teams の前提条件と環境上の依存関係
 
@@ -48,12 +48,16 @@ Teams は、複数の Microsoft 365 と Office 365 サービスを組み合わ�
 
 - 組織で id が Azure Active Directory に同期されていない場合は、「 [Microsoft Teams の id モデルと認証](identify-models-authentication.md)」を参照してください。
 
-- 組織に Exchange Online が含まれて<sup>いない場合</sup>は、「 [Exchange と Microsoft Teams の相互作用](Exchange-Teams-interact.md)」を参照してください。
+- 組織に Exchange Online がインストールされていない場合は、「 [exchange と Microsoft Teams の相互作用](Exchange-Teams-interact.md)」を参照してください。
 
 - 組織に SharePoint Online がインストールされていない場合は、「 [Sharepoint online と OneDrive For business が Microsoft Teams とどのように連携するかについ](SharePoint-OneDrive-interact.md)て」を参照してください。
 
-- [Microsoft 365 グループおよび Microsoft Teams](Office-365-groups.md)がどのようにやり取りするかについて説明します。
+- [Microsoft 365 グループおよび Microsoft Teams の相互作用](Office-365-groups.md)について説明します。
 
-- 組織が教育機関であり、学生の情報システムを使用している場合は、Microsoft Teams を展開する前に[School Data Sync を展開](https://docs.microsoft.com/schooldatasync)してください。
+- 組織が教育機関であり、学生の情報システムを使用している場合は、「microsoft Teams を展開する前に[Microsoft School Data Sync へようこそ](https://docs.microsoft.com/schooldatasync)」を参照してください。
+
+- 公衆交換電話網 (PSTN) の通話オプションを組織で検討している場合は、「[ボイスフォンシステムと pstn 接続](cloud-voice-landing-page.md)」を参照してください。[通話プランは適切](calling-plan-landing-page.md)であり、[電話システムによる直接ルーティング](direct-routing-landing-page.md)が必要です。
+
+- チームをロールアウトする前にすべてのネットワーク要件を満たしていることを確認するには、「 [Microsoft teams 用に組織のネットワークを準備](prepare-network.md)する」を参照してください。
 
 環境が該当するすべての前提条件を満たしていることを確認したら、[チームの現在の環境を評価](upgrade-plan-journey-evaluate-environment.md)します。

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be512ac7726defdd2879114eb47ed3e66a229e30
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751539"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158505"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft Teams を効果的に使用する方法
 
@@ -37,10 +37,10 @@ ms.locfileid: "44751539"
 
 ## <a name="monitor-for-network-health-and-quality"></a>ネットワークの健全性と品質の監視
 
-ネットワークの状態は、ユーザーエクスペリエンスに影響します。ユーザーが低品質 (会議に参加するときの通話の時間、ラグタイムなど) を使用している場合、これはテクノロジ自体に関連しているため、テクノロジが機能せず、サポートされていないアプリのドアを開くことができます。ネットワークの正常性を監視および緩和するための計画を実装することで、サポートデスクへの通話を減らすだけでなく、ユーザーエクスペリエンスを向上させることができます。詳細については、次の記事を参照してください。
+ネットワークの状態は、ユーザーエクスペリエンスに影響します。ユーザーが低品質 (会議に参加するときの通話の時間、ラグタイムなど) を使用している場合、これはテクノロジ自体に関連しているため、テクノロジが機能せず、サポートされていないアプリのドアを開くことができます。ネットワークの正常性を監視および緩和するための計画を実装することで、サポートデスクへの通話を減らすだけでなく、ユーザーエクスペリエンスを向上させることができます。詳細については、以下を参照してください。
 
 - [サービスを運用する](upgrade-operate-my-service.md)
-- [品質を監視する](upgrade-monitor-quality.md)
+- [通話品質の監視と改善](monitor-call-quality-qos.md)
 - [サービスを強化する](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>ユーザーの機運と導入を促進する

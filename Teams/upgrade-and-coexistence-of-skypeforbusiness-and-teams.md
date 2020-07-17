@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665419"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158605"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード手順を選択する
 
@@ -56,6 +56,9 @@ ms.locfileid: "44665419"
 お客様の組織を Teams に移行するために正式に準備するためには、最終的に組織が Teams を唯一のコミュニケーションとコラボレーションのソリューションとして完全に受け入れられるようになるアップグレード シナリオ計画を開始する必要があります。
 
 Skype for Business から Teams へのアップグレードに関連した、さまざまなモードや、コンセプトや、用語についての知識を深めることは、意思決定プロセスのガイドとして役に立ちます。 詳細については、「 [Microsoft Teams と Skype For business の共存と相互運用性](https://aka.ms/SkypeToTeams-Coexist)」を参照してください。
+
+> [!NOTE]
+> また、音声移行シナリオも検討する必要があります。 電話システムは、microsoft 365 または Office 365 クラウドでの通話管理および構内交換 (PBX) 機能を有効にするための Microsoft のテクノロジです。 電話システムを公衆交換電話網 (PSTN) へ接続してユーザーが世界中に電話をかけることができるようにする場合、ビジネス ニーズに応じた選択肢があります。 電話システムと PSTN の接続オプションの詳細については、「[ボイスフォンシステムと pstn 接続](cloud-voice-landing-page.md)」を参照してください。
 
 Teams に移行されたユーザーは、Skype for Business で開催される会議に参加する目的以外には Skype for Business クライアントを使用しません。 送信者が Teams または Skype for Business を使用しているかどうかに関係なく、ユーザーのチームクライアントですべての着信チャットと通話ができます。 アップグレード済みのユーザーによって開催される新しい会議は、Teams 会議としてスケジュールされます。 ユーザーが Skype for Business クライアントを使用しようとすると、チャットと通話の開始がブロックされます。<sup>1</sup> ただし、招待された会議に参加するには、ユーザーは Skype for Business クライアントを引き続き使用できます (使用する必要があります)。
 
@@ -105,9 +108,9 @@ TeamsOnly ユーザーの視点からの新しい会話の場合、チャット�
 
 | Teams エクスペリエンス | アイランド モードの場合 | TeamsOnly モードの場合 |
 |:------------------ | :------------------- | :------------------ |
-| 受信チャットと通話の配信先:|  Teams または Skype for Business | Teams |
-| PSTN 通話の配信先: | Skype for Business <br>(Teams での PSTN 機能の使用は、アイランド モードではサポートされていません。)     | Teams |   
- |プレゼンス    | Skype for Business と Teams のプレゼンスは独立しています。 同一のアイランド ユーザーの状態が他のユーザーに表示される際は、使用するクライアントによって、異なる状態が表示される可能性あります。 | プレゼンスは、Teams でのユーザーのアクティビティにのみ基づいています。 他のすべてのユーザーには、使用するクライアントに関係なく、そのプレゼンスが表示されます。 | 
+| 着信したチャットと通話の配信先:|  Teams または Skype for Business | Teams |
+| PSTN 通話の配信先: | Skype for Business <br>(Teams での PSTN 機能の使用は、アイランド モードではサポートされていません)。     | Teams |   
+ |プレゼンス    | Skype for Business と Teams のプレゼンスは独立しています。 他のユーザーが使用するクライアントによって、同一のアイランド ユーザーであっても異なる状態が表示される可能性があります。 | プレゼンスは、Teams でのユーザーのアクティビティにのみ基づいています。 他のすべてのユーザーには、使用するクライアントに関係なく、そのプレゼンスが表示されます。 | 
  | 会議のスケジュール    | ユーザーは、Teams または Skype for Business のいずれでも会議をスケジュールできます。 既定では、Outlook に両方のアドインが表示されます。 Teams 会議ポリシーを設定して、ユーザーが Teams 会議アドインのみを使用できるか、Teams 会議と Skype for Business の両方の会議アドインのどちらを使用するかを制御することができます。詳細については、「[島々 (孤島) モードでユーザーの会議プロバイダーを設定](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)する」を参照してください。 |     会議のスケジュールは、Teams のみで行います。 Outlook では、Teams アドインのみを使用できます。 | 
 
 次の表は、組織を Teams へ移行させるために重複機能方式を使用する場合のメリットとデメリットをまとめたものです。

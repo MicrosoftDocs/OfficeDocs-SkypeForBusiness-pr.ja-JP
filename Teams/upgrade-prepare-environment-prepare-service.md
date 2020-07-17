@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666059"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158685"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Teams にアップグレードするためのサービスを準備する
 
@@ -40,9 +40,9 @@ ms.locfileid: "44666059"
 
 この記事では、チームで共同作業およびクラウドの音声サービスを利用できるように組織を準備するための要件の概要を示します。 適切に準備したら、これらの機能を組織に提供する準備ができていることを確認します。
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトのオンボードチェックリスト
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトに関するオンボードチェックリストとランディングページ
 
-次のチェックリストは、組織に Microsoft Teams を展開するための手順について説明します。
+次のチェックリストとランディングページでは、組織に Microsoft Teams を展開するための手順について説明します。
 
 - [Microsoft 365 または Office 365 をチーム用に準備する](onboarding-checklist-enable-office-365.md)
 
@@ -50,9 +50,12 @@ ms.locfileid: "44666059"
 
 - [ネットワークを準備する](prepare-network.md)
 
-- [Teams でクラウド音声のワークロードを構成する](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [チャット、チーム、チャネルおよびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [Teams で直接ルーティングを構成する](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [会議と電話会議](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [電話システムと PSTN の接続オプション](cloud-voice-landing-page.md)
+
 
 これらのチェックリストのタスクとアクティビティは、チームとのコラボレーションと音声機能のすべての展開に適用される "to do" のコア項目です。 このチェックリストをカスタマイズして、自分のチームの旅に固有のアクティビティとタスクを含めることができます。
 

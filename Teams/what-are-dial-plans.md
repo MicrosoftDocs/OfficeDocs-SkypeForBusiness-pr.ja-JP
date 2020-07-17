@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Teams で利用できるダイヤル通話プランの種類 (PSTN 通話ダイヤルプラン) と、組織に合わせて選ぶ方法について説明します。  '
-ms.openlocfilehash: 3ca0848094e94ff302cfcdeaa80ddd72a3b86698
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ddd2de412d0ddd00135f9b095eb2d14c8fc4c922
+ms.sourcegitcommit: 91f6db3cdb4f2b7761d2b21f0f4eef405edacd5f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836687"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45153579"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -57,6 +57,9 @@ Teams のダイヤルプランの継承モデルを次に示します。
  **テナントのユーザーサービス国**テナントのユーザーダイヤルプランが定義され、ユーザーに割り当てられている場合、プロビジョニングされたユーザーには、結合されたテナントのユーザーダイヤルプランと、その使用場所に関連付けられたサービス国のダイヤルプランで構成される有効なダイヤルプランが取得されます。
 
 テナントのダイヤル プランを作成する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
+
+> [!NOTE]
+> ダイヤルプランの正規化ルールがダイヤル番号に適用されていない場合でも、ダイヤルされた文字列は "+ CC" の先頭に正規化されます。これは、ダイヤルユーザーの使用場所の国コードです。 これは、通話プラン、ダイレクトルーティング、PSTN 会議のダイヤルアウトシナリオに適用されます。
 
 ## <a name="planning-for-tenant-dial-plans"></a>テナント ダイヤル プランの計画
 
@@ -105,7 +108,7 @@ Teams のダイヤルプランの継承モデルを次に示します。
 テナントのダイヤルプランは、特定のユーザーのサービス国のダイヤルプランに実質的に統合される可能性があるため、どのテナントダイヤルプランの正規化ルールが必要かを判断するために、サービス国のダイヤルプランの正規化ルールを評価する必要があります。 この目的で **Get-CsEffectiveTenantDialPlan** コマンドレットを使用できます。 コマンドレットは入力パラメータとしてユーザー ID を必要とし、ユーザーに適用可能なすべての正規化ルールを返します。
 
 ### <a name="creating-normalization-rules"></a>正規化ルールの作成
-<a name="createrule"> </a> <a name="regularexpression"> </a>
+<a name="createrule"> </a>
 
 正規化ルールは、.NET Framework の正規表現を使って、サーバーがダイヤル文字列を E.i 形式に変換するために使用する数値一致パターンを指定します。 正規化ルールは、一致に対する正規表現と、一致が見つかったときに行う変換を指定することで作成できます。 作業が完了したら、テスト番号を入力して、正規化ルールが正常に機能することを確認できます。
 
@@ -117,11 +120,11 @@ Teams のダイヤルプランの継承モデルを次に示します。
 
 次の表に, .NET Framework の正規表現として記述される正規化ルールのサンプルを示します。これらのサンプルは例示するためのもので、独自の正規化ルールを作成する際の規定リファレンスとして提示するものではありません。
 
- **.NET Framework の正規表現を使用した正規化ルール**<a name="#regularexpression"> </a>
+<a name="regularexpression"> </a> 
+ **.Net Framework の正規表現を使用した正規化ルール**
 
-||||||
+| ルール名<br/> | 説明<br/> | 番号のパターン<br/> | 変換<br/> | 例<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**ルール名** <br/> |**説明** <br/> |**番号パターン** <br/> |**変換** <br/> |**例** <br/> |
 |4digitExtension  <br/> |4 桁の内線番号を変換します。  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 は +14255550100 に変換されます  <br/> |
 |5digitExtension  <br/> |5 桁の内線番号を変換します。  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 は +14255550100 に変換されます  <br/> |
 |7digitcallingRedmond  <br/> |7 桁の番号をレドモンドの電話番号に変換します。  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 は +14255550100 に変換されます  <br/>|
@@ -135,18 +138,17 @@ Teams のダイヤルプランの継承モデルを次に示します。
 
  次の表に、前の表に示される正規化ルールに基づく、レドモンド、ワシントン、米国のサンプル ダイヤル プランを示します。
 
-| |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **レドモンドのダイヤル プラン** <br/>                                                                                                                              |
-| 5digitExtension <br/>                                                                                                                                    |
-| 7digitcallingRedmond <br/>                                                                                                                               |
-| RedmondSitePrefix <br/>                                                                                                                                  |
-| RedmondOperator <br/>                                                                                                                                    |
+| レドモンドのダイヤル プラン<br/> |
+|:-----------------------|                                                                                                                      
+| 5digitExtension <br/> |                                                                                                                                    
+| 7digitcallingRedmond <br/> |
+| RedmondSitePrefix <br/> |
+| RedmondOperator <br/> |
 
 > [!NOTE]
 > 上の表に示した正規化ルール名にスペースは含まれていませんが、これは選択肢の1つです。 たとえば、表に最初に示されている名前は、「5 digit extension」と「5-digit Extension」のどちらの形式で記述しても有効になります。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 

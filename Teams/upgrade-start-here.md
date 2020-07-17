@@ -28,12 +28,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f113f617ece465c3f18a0e9facacabc7bd776eb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fae61030e7ee8b2695fa518b194999a974ed0d8d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523000"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158635"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Microsoft Teams へのアップグレードを開始する
 
@@ -52,6 +52,14 @@ Skype for Business Online は 2021 年 7 月 31 日に廃止される予定で�
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Teams の準備やアップグレードを実行しているときに、引き続き Skype for Business Online を使用することはできますか?
 
 はい。Microsoft では、Skype for Business Online と Teams を一緒に実行するためのオプションをいくつか用意しています。 現在、この共存モードを使用すると、Teams 単独へのアップグレードを加速させながら、ユーザーは Teams に慣れ親しむことができます。 詳細については、[https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)を参照してください。
+
+## <a name="is-phone-system-available-for-teams-users"></a>電話システムは Teams ユーザーに対して利用できますか?
+
+はい。 電話システムは、Teams Sonly モードに移行した後は、すべての Teams ユーザーが利用できます。  また、公衆交換電話網 (PSTN) に接続するためのオプションも用意されているため、ユーザーは世界中のどこからでも電話をかけることができます。 詳細については、「[ボイスフォンシステムと PSTN 接続](cloud-voice-landing-page.md)」を参照してください。
+
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>オンプレミスのテレフォニーインフラストラクチャを引き続き使用できますか?
+
+はい。 電話システムによる直接ルーティングでは、ほとんどすべてのテレフォニーキャリアで電話システムを使うことができます。 直接ルーティングでは、独自のセッションボーダーコントローラー (SBC) を直接電話システムに接続します。 詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Microsoft は顧客に対しどのように Teams へのアップグレードをサポートしていますか? 
 

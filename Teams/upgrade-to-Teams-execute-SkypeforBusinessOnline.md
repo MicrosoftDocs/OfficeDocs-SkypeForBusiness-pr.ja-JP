@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523170"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158665"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Skype for Business Online から Teams にアップグレードする
 
@@ -99,8 +99,16 @@ Microsoft Teams 管理センターを使用している場合は、一度に最�
 チーム専用モードへのアップグレードを検証し、展開する準備ができたら、上記の手順を繰り返して、他のユーザーにのみ TeamsOnly を適用します。  
 
 
-## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
+## <a name="phone-system-and-pstn-connectivity-options"></a>電話システムと PSTN の接続オプション
 
-Skype for Business Online の展開に通話プランを含む電話システムが含まれていて、Microsoft が公衆交換電話網 (PSTN) プロバイダーである場合、ユーザーを Teams にアップグレードすると、着信する PSTN 通話は Teams に自動的に移行されます。
+ユーザーが TeamsOnly モードになった後、Teams での電話システムはサポートされています。 (ユーザーが諸島モードの場合、電話システムは Skype for Business でのみサポートされています)。  
 
-Skype for Business Online の展開にクラウドコネクタエディションの電話システムが含まれている場合は、「[電話システムのダイレクトルーティングに関するその他の考慮事項](2-envision-make-my-service-decisions-direct-routing.md)」を参照してください。
+### <a name="pstn-connectivity-options"></a>PSTN 接続オプション
+
+公衆交換電話網 (PSTN) の接続オプションを検討する場合、Skype for Business Online から TeamsOnly モードに移行すると、次の2つのシナリオが考えられます。
+
+- Microsoft 通話プランを使用している Skype for Business Online のユーザー。 アップグレードすると、このユーザーは Microsoft 通話プランを引き続き使用します。 これは、わずかな手順しか必要としない最も簡単なシナリオです。 詳細については、「 [Skype For Business Online から Microsoft の通話プランを使用](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans)する」を参照してください。
+
+- Skype for business のオンプレミスまたはクラウドコネクタエディションによるオンプレミス音声機能を備えた Skype for Business Online のユーザー。 このユーザーの Teams へのアップグレードは、その TeamsOnly ユーザーが確実に PSTN 機能を持てるようにするため、ユーザーのダイレクト ルーティングへの移行に合わせた調整が必要になります。  詳細については、「 [Skype For Business Online からオンプレミス音声を使用](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice)する」を参照してください。
+
+
