@@ -41,6 +41,7 @@
 ## [Teams の機密度ラベル](sensitivity-labels.md)
 ## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
 ## [Teams でチャネルのモデレートを設定する](manage-channel-moderation-in-teams.md)
+## [Teams でファイルを共有する](sharing-files-in-teams.md)
 ## [Teams と Outlook のメールの統合](teams-outlook-email-integration.md)
 ## [メッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 ## [Teams でのユーザーのプレゼンス](presence-admins.md)
@@ -65,6 +66,7 @@
 ### [自分のカスタム アプリを管理する](manage-your-custom-apps.md)
 ### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Teams で組織のリストアプリを管理する](manage-lists-app.md)
 ### [組織のタスク アプリを管理する](manage-tasks-app.md)
 ### [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
@@ -255,6 +257,7 @@
 #### [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
 #### [自動応答および呼び出しキューの通話に Teams から直接応答する](answer-auto-attendant-and-call-queue-calls.md)
 
+### [受信通話をブロックする](block-inbound-calls.md)
 ### [コール パークおよび取得](call-park-and-retrieve.md)
 ### [通話の共有およびグループ通話ピックアップ](call-sharing-and-group-call-pickup.md)
 ### [通話ポリシー](teams-calling-policy.md)
@@ -642,6 +645,7 @@
 ### [Teams EDU ポリシーおよびポリシー パッケージ](policy-packages-edu.md)
 ### [多数のユーザー セットにポリシーを割り当てる](batch-policy-assignment-edu.md)
 ### [教育機関管理者向けの低帯域幅ガイダンス](edu-remote-low-bandwidth.md)
+### [クラスインサイト](class-insights.md)
 ### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
 ### [教育機関管理者向けの Teams のリソース](resources-teams-edu.md)
 ### [Microsoft Education のガバナンスに関するよくある質問 (管理者向け)](plan-teams-governance-edu.md)
@@ -671,17 +675,17 @@
 
 # セキュリティ、プライバシー、コンプライアンス
 ## [概要](security-compliance-overview.md)
-## セキュリティとプライバシー
+## セキュリティ
 ### [セキュリティ ガイド](teams-security-guide.md)
+### [Azure Sentinel と Teams](teams-sentinel-guide.md)
 ### [ID モデルと認証](identify-models-authentication.md)
 ### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
 ### [Teams の安全なリンク](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [プライバシーと Microsoft Teams](teams-privacy.md)
-### [Teams のデータの場所](location-of-data-in-teams.md)
+### [AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
 ## コンプライアンス
 ### [情報障壁](information-barriers-in-teams.md)
 ### [保持ポリシー](retention-policies.md)
-### [Communicatoin コンプライアンス](communication-compliance.md)
+### [通信コンプライアンス](communication-compliance.md)
 ### [通話と会議のためのポリシー ベースの録音](teams-recording-policy.md)
 ### [データ損失防止](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 電子情報開示
@@ -690,7 +694,9 @@
 ### コンテンツ検索
 #### [コンテンツ検索を使う](content-search.md)
 #### [イベントの監査ログを検索する](audit-log-events.md)
-### [AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
+## プライバシー
+### [プライバシーと Microsoft Teams](teams-privacy.md)
+### [Teams のデータの場所](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
