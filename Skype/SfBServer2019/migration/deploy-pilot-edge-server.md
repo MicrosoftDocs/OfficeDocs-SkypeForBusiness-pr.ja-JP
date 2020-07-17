@@ -23,7 +23,7 @@ ms.locfileid: "44752869"
 このトピックでは、Skype for Business Server 2019 エッジサーバーを展開する前に知っておく必要がある構成設定について説明します。 Skype for Business Server 2019 の展開および構成プロセスは、Skype for business Server 2015 によく似ています。 このセクションで説明するのは、パイロット プールの展開の際に考慮が必要となる主なポイントのみです。 <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
+**新しいエッジ プールの定義**ウィザードでは、以下の手順に示すキー構成の設定を確認してください。ただし、**新しいエッジ プールの定義**ウィザードのごく一部のページのみが示されています。 
   
 ### <a name="to-define-an-edge-pool"></a>エッジプールを定義するには
 

@@ -20,6 +20,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: e9356ae3dc9ed5bb7375f90cad18e13a83b8f5e8
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45042799"
@@ -153,7 +154,7 @@ Outlook での Teams のプレゼンスは、Outlook 2013 デスクトップ版�
 
 ## <a name="storage"></a>ストレージ
 
-Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
+Microsoft Teams の各チームには SharePoint Online にチーム サイトがあり、チーム内の各チャネルには既定のチーム サイト ドキュメント ライブラリが作成されます。会話内で共有したファイルはドキュメント ライブラリに自動的に格納されます。SharePoint で設定した権限やファイル セキュリティ オプションは Teams 内で自動的に反映されます。
 
 > [!NOTE]
 > 各 [プライベート チャネル](https://docs.microsoft.com/microsoftteams/private-channels) には、独自の SharePoint サイト コレクションがあります。

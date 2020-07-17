@@ -40,7 +40,7 @@ ms.locfileid: "45098415"
   
 ### <a name="to-add-or-remove-front-end-servers"></a>フロントエンドサーバーを追加または削除するには
 
-1. If you are removing any Front End Servers, first stop new connections to those servers. To do so, you can use the following cmdlet:
+1. フロントエンド サーバーを削除する場合、最初にこれらのサーバーへの新しい接続を停止します。これを実行するには、次のコマンドレットを使用できます。
     
    ```PowerShell
    Stop-CsWindowsService -Graceful

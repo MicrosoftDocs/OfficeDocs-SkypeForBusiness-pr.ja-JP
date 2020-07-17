@@ -48,7 +48,7 @@ _**トピックの最終更新日:** 2012-10-06_
 
   - Office Communications Server 2007 R2 グループチャットプール。これは、Office Communications Server 2007 R2 プールに所属している必要があります。
 
-These deployments can exist side by side. However the categories, rooms, and add-ins in one deployment do not interact with those in the accompanying deployment.
+これらの展開は共存できますが、カテゴリ、ルーム、およびアドイン間のやり取りはできません。
 
 手動構成を使用すると、従来のクライアント (グループチャットクライアント) は、Office Communications Server 2007 R2、Lync Server 2010、グループチャット、または Lync Server 2013 に対して、一度に1つのプールに接続できます。
 

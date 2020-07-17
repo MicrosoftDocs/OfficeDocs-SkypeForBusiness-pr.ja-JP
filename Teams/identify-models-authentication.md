@@ -14,7 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: Learn about the different identity models in Microsoft Teams such as Cloud, Synchronized, and Federated. Also learn about multi-factor authentication.
+description: クラウド、同期済み、フェデレーションなど、Microsoft Teams のさまざまな ID モデルを紹介します。また、多要素認証についても紹介します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -32,9 +32,9 @@ Microsoft Teams では、Microsoft 365 および Office 365 で利用できる�
 
 -   **クラウド id**: このモデルでは、ユーザーが Microsoft 365 または Office 365 で作成および管理され、Azure active directory に保存されて、パスワードが Azure active directory によって確認されます。
 
--   **Synchronized Identity**: In this model, the user identity is managed in an on-premises server, and the accounts and password hashes are synchronized to the cloud. The user enters the same password on-premises as they do in the cloud, and at sign-in the password is verified by Azure Active Directory. This model uses the Microsoft Azure Active Directory Connect Tool.
+-   **同期された ID**: このモデルでは、ユーザー ID はオンプレミス サーバーで管理され、アカウントとパスワードのハッシュはクラウドに同期されます。ユーザーは、クラウドの場合と同様にオンプレミスで同じパスワードを入力し、サインイン時にパスワードが Azure Active Directory によって確認されます。このモデルでは、Microsoft Azure Active Directory Connect ツールが使用されます。
 
--   **Federated Identity**: This model requires a synchronized identity with the user password is verified by the on-premises identity provider. With this model, the password hash does not need to be synchronized to Azure AD, and Active Directory Federation Services (ADFS) or a third-party identity provider is used to authenticate users against the on-premises Active Directory.
+-   **フェデレーション ID**: このモデルでは、ユーザー パスワードと同期済みの ID がオンプレミスの ID プロバイダーにより確認されることが要求されます。このモデルを使用する場合、パスワードのハッシュは Azure AD に同期される必要はなく、Active Directory フェデレーション サービス (ADFS) またはサードパーティの ID プロバイダーを使用してオンプレミスの Active Directory に対するユーザー認証が行われます。
 
 <a name="configurations"></a>設定
 --------------

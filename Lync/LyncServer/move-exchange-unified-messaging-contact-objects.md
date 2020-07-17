@@ -47,7 +47,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 
 > [!NOTE]  
-> In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.
+> <STRONG>Get-CsExUmContact</STRONG> および <STRONG>Move-CsExUmContact</STRONG> コマンドレットを使用するには、RTCUniversalUserAdmins グループのメンバーであり、連絡先オブジェクトを格納する組織単位 (OU) に対する OU アクセス許可を持っている必要があります。OU アクセス許可は <STRONG>Grant-OUPermission</STRONG> コマンドレットを使用して付与できます。
 
 
 

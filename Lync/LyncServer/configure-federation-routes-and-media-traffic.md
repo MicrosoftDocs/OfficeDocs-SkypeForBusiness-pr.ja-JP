@@ -269,7 +269,7 @@ _**トピックの最終更新日:** 2012-10-15_
     
 
     > [!NOTE]  
-    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.
+    > ハードウェア ロード バランサーがない場合は、フェデレーションの DNS A レコードを更新して、新しい Lync Server アクセス エッジ サーバーに解決する必要があります。混乱を最小限に抑えながらこれを実行するには、外部 Lync Server アクセス エッジ FQDN の TLL 値を減らして、DNS が新しい Lync Server アクセス エッジを指すように更新されたらフェデレーションとリモート アクセスが迅速に更新されるようにします。
 
     
     </div>

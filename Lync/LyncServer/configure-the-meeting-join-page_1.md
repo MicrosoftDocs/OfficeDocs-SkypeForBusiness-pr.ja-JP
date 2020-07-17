@@ -62,7 +62,7 @@ _**トピックの最終更新日:** 2012-12-14_
 </tr>
 <tr class="even">
 <td><p>Showalternatejoinoptionsexpan</p></td>
-<td><p>When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users. When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</p></td>
+<td><p>True に設定した場合、オンライン会議に参加するための別のオプション (Office Communicator 2007 R2 など) が自動的に展開され、ユーザーに表示されます。False (既定値) に設定されている場合、これらのオプションは使用可能ですが、ユーザーが自分でオプションの一覧を表示する必要があります。</p></td>
 </tr>
 </tbody>
 </table>

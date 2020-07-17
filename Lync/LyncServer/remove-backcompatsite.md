@@ -49,7 +49,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 3.  [**次へ**] をクリックして続行します。
 
-4.  On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty. If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.
+4.  [**レガシ エッジの指定**] ページで、エッジ サーバーの一覧が空になっていることを確認します。一覧が空でない場合は、[**削除**] ボタンを使用してすべてのレガシ エッジ サーバーを削除し、[**次へ**] をクリックします。
     
     ![トポロジのマージウィザード、[エッジセットアップの指定] ページ](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "トポロジのマージウィザード、[エッジセットアップの指定] ページ")  
 

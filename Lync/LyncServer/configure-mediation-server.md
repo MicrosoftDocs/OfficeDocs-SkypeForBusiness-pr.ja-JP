@@ -39,7 +39,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 この手順では、従来の Office Communications Server 2007 R2 仲介サーバーではなく、lync server 2013 仲介サーバーを使用するように Lync Server 2013 プールを構成する手順について説明します。
 
-To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
+サーバーの役割を追加または削除する際に、トポロジを正常に公開したり、有効または無効にするには、RTCUniversalServerAdmins グループおよび Domain Admins グループのメンバーであるユーザーとしてログインしている必要があります。サーバーの役割を追加するための適切な管理者権限およびアクセス許可を委任することもできます。詳細については、Standard Edition サーバーまたは Enterprise Edition サーバーの「展開」のドキュメントの「セットアップのアクセス許可の委任」を参照してください。他の構成変更の場合は、RTCUniversalServerAdmins グループのメンバーシップのみが必要です。
 
 <div>
 
@@ -63,7 +63,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 4.  [**新しい IP/PSTN ゲートウェイの定義**] ページに、次の情報を入力します。
     
-      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
+      - ゲートウェイの FQDN または IP アドレスを入力します。ゲートウェイが TLS プロトコルを使用する場合は、ゲートウェイの FQDN が必要です。
     
       - [**IP/PSTN ゲートウェイのリッスン ポート**] の既定値をそのまま使用するか、変更されている場合は新しいリッスン ポートを入力します。
     

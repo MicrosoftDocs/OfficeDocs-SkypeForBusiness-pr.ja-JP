@@ -66,7 +66,7 @@ ms.locfileid: "44867974"
 
 ## <a name="understand-the-limitations-for-guests"></a>ゲストに対する制限事項を理解する
 
-The guest experience has limitations by design. Make sure you understand the guest experience so you don't try to fix something that isn't a problem. For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:
+ゲスト エクスペリエンスでは、デザインによる制限があります。問題ではないものを修正しようとしないために、必ずゲスト エクスペリエンスを理解してください。たとえば、Microsoft Teams のゲストが利用できない一部の機能を以下にリストします。
 
 - OneDrive for Business
 - Teams 外部のユーザーの検索

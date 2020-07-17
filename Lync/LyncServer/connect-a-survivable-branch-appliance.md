@@ -69,7 +69,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 7.  **[次へ]** をクリックし、次のいずれかを実行します。
     
-    1.  If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
+    1.  このサイトで Lync 2010 存続可能ブランチ アプライアンスまたは Lync 2010 存続可能ブランチ サーバーを使用している場合は、**[このウィザードが閉じたら新しい存続可能ウィザードを開く]** オプションのチェック ボックスをオフにします。**[完了]** をクリックします。
 
 8.  従来の Lync Server 2010 SBA を Lync Server 2013 フロントエンドプールに関連付けるには、次のようにします。
     

@@ -37,7 +37,7 @@ ms.locfileid: "44757188"
 
 _**トピックの最終更新日:** 2012-10-02_
 
-The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites.
+MonitoredUserSiteLink テーブルはサポート テーブルです。各レコードは、2 つのユーザー サイト間の 1 つのリンクを表します。
 
 
 <table>

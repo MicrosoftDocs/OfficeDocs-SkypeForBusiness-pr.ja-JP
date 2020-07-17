@@ -69,9 +69,9 @@ _**トピックの最終更新日:** 2013-02-22_
 
 カテゴリの **AllowedMembers** と **Creators** を定義すると、次の利点が得られます。
 
-  - All chat rooms in this category are bound by the restrictions set at the category level. You can use this to segregate chat rooms based on business need and access policies.
+  - カテゴリ内のすべてのチャット ルームがカテゴリ レベルの制限のセットにバインドされます。これにより、業務ニーズとアクセス ポリシーに基づいてチャット ルームを分離できます。
 
-  - A user who is in the **Creators** list can create new chat rooms in that category. If you want to implement a system where a restricted number of personnel in the organization can create chat rooms, this control can be used to meet that requirement.
+  - **Creators** の一覧に含まれるユーザーが、カテゴリ内に新しいチャット ルームを作成できます。チャット ルームを作成できる組織内の担当者の数が制限されているシステムを実装する場合は、この制御を使用して要件を満たすことができます。
 
 </div>
 
@@ -81,7 +81,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 カテゴリの**Allowedmembers**には、このカテゴリの常設チャットルームを使用するすべてのユーザーが含まれている必要があります。 業務データを保護し、適切なレベルのアクセスを確保するための要件に応じて、ルームの検索およびルームへの参加が可能なユーザーを指定する 1 つ以上のカテゴリの定義が必要な場合があります。 ルームの作成を特定のユーザー グループ (中央のヘルプデスク、またはフルタイム勤務の従業員のみ) にのみ許可する場合は、要件を満たすカテゴリの **Creators** を絞り込むことができます。
 
-Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
+また、カテゴリを使用して倫理的境界を作成することもできます。倫理的境界を使用すると、組織内における利害の対立を避けることができます。たとえば、管理者は、トレーダー専用のカテゴリやアナリスト専用のカテゴリにチャット ルームを作成できます。
 
 <div>
 

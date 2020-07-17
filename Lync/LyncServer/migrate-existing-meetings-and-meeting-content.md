@@ -39,13 +39,13 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ユーザーアカウントが Lync Server 2010 から Lync Server 2013 サーバーに移動されると、そのユーザーアカウントを使用して次の情報が移動されます。
 
-  - **Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.
+  - **そのユーザーがスケジュールした会議**。電話会議ディレクトリおよび電話会議データも移動されます。
 
-  - **User’s personal identification number (PIN)**. The user’s current PIN continues to work until it expires or the user requests a new PIN.
+  - **ユーザーの暗証番号 (PIN)**。ユーザーの現在の PIN は、有効期限が切れるか、またはユーザーが新しい PIN を要求するまでの間、引き続き有効です。
 
 次に示すユーザー アカウント情報は、新しいサーバーに移動されません。
 
-  - **Meeting content**. In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.
+  - **会議コンテンツ**。PowerPoint、ホワイトボード、添付ファイル、投票データなどの会議中に共有されるコンテンツを移動するには、**-MoveConferenceData** パラメーターを指定して **Move-CsUser** コマンドレットを実行する必要があります。
 
 </div>
 

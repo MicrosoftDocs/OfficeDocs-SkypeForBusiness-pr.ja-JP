@@ -47,7 +47,7 @@ _**トピックの最終更新日:** 2012-10-09_
 
 **グループ化されたアドレス帳のエントリ**
 
-If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
+アドレス帳を OU ごとに作成するために **PartitionbyOU** WMI プロパティを True に設定した場合、アドレス帳のエントリを引き続きグループ化するには、ユーザーおよび連絡先で Active Directory の **msRTCSIP-GroupingId** 属性を設定する必要があります。アドレス帳のエントリのグループ化は、アドレス帳の検索範囲を制限するときなどに行うとよいでしょう。**msRTCSIP-GroupingId** 属性を使用する場合は、この属性を必要な所に設定するスクリプトを書き、グループ化する全ユーザーに同じ値をまとめて設定するようにします。たとえば、特定の OU の全ユーザーに同じ値を設定します。
 
 **アドレス帳の正規化ルール**
 
@@ -57,7 +57,7 @@ Lync Server 2010 環境でアドレス帳の正規化ルールをカスタマイ
 
 
 > [!NOTE]  
-> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
+> 組織でリモート通話コントロールを使用していて、アドレス帳の正規化ルールをカスタマイズした場合は、リモート通話コントロールを使う前に、このトピックの手順を遂行しなければなりません。この手順では、RTCUniversalServerAdmins グループのメンバーシップまたはそれに相当する権限が必要です。
 
 
 
@@ -86,7 +86,7 @@ Lync Server 2010 環境でアドレス帳の正規化ルールをカスタマイ
 
 3.  特定の種類のエントリは、Lync Server 2013 では正しく動作しません。 このファイルに目を通して、このステップで説明しているような種類のエントリがあれば、必要に応じてそれを編修し、パイロット プール内のアドレス帳共有フォルダーに変更後のファイルを保存します。
     
-    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
+    必要な空白文字や区切り文字が文字列に含まれていると、正規化ルールが正常に機能しなくなります。これらの文字は、正規化ルールに入力される文字列から取り除かれるためです。必要な空白文字や区切り文字が含まれる文字列を使用する場合は、文字列を編集する必要があります。たとえば、次の文字列を使用すると、正規化ルールが正常に機能しません。
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     

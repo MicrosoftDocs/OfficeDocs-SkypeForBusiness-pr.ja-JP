@@ -49,7 +49,7 @@ _**トピックの最終更新日:** 2012-10-04_
     
         Get-CsConferenceDirectory
     
-    Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission. For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:
+    このコマンドレットでは、組織のすべての会議ディレクトリが返されるので、使用停止にするプールのみに結果を絞り込んだ方がよい場合があります。たとえば、pool01.contoso.net という完全修飾ドメイン名 (FQDN) のプールを使用停止にする場合は、次のコマンドを実行します。
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     

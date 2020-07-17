@@ -34,9 +34,9 @@ ms.locfileid: "45085753"
 
 -   デスクトップ ログ
 
-When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request will allow Microsoft to quickly start troubleshooting the problem. Media or desktop logs are only required if requested by Microsoft.
+Microsoft サポートでサポート リクエストを作成する際、サポート エンジニアによってデバッグ ログが要求されます。サポート リクエストを作成する前にこのログを手元に用意しておくと、Microsoft はすばやく問題解決を開始することができます。メディア ログやデスクトップ ログは Microsoft によって要求された場合のみ必要です。
 
-The following table outlines the various clients, and their associated logs. Log files are stored in locations specific to the client and operating system.
+次の表にクライアントとそれに関連付けられたログの概要を示します。ログ ファイルの格納場所は、クライアントとオペレーティング システムによって異なります。
 
 
 |クライアント |デバッグ|デスクトップ|メディア|
@@ -90,7 +90,7 @@ The following table outlines the various clients, and their associated logs. Log
 <a name="media-logs"></a>メディア ログ
 ---------------------------
 
-Media logs contain diagnostic data about audio, video and screen sharing. They are required for support cases only upon request and can only be inspected by Microsoft. The following table outlines the log location.
+メディア ログには、音声、ビデオ、画面共有に関する診断データが含まれます。このログは要求があった場合にのみサポート ケースで必要とされ、Microsoft のみが検査できます。次の表にログの場所を示します。
 
 
 |クライアント |場所 |
@@ -108,7 +108,7 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 <a name="desktop-logs"></a>デスクトップ ログ
 ---------------------
 
-Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.
+bootstrapper ログとも呼ばれるデスクトップ ログには、デスクトップ クライアントとブラウザー間で発生するログ データが含まれます。メディア ログと同様に、このログは Microsoft から要求された場合にのみ必要です。テキスト ベースのログで、任意のテキストベース エディタを使用して上から下の形式で読み取ることができます。
 
 Windows:
 

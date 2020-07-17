@@ -101,7 +101,7 @@ MMS がトリガーされた時点では、通常、ユーザーの会議が移�
 - ユーザーを新しい電話会議ブリッジに移行する場合
 - 電話会議ブリッジの電話番号が割り当てられていない場合。 これは、追加の手順が必要な複雑なシナリオです。 詳細については、「[電話会議ブリッジの電話番号を変更](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)する」を参照してください。
 
-Not all changes to a user's audio conferencing settings trigger MMS. Specifically, the following two changes won't result in MMS updating meetings:
+ユーザーの電話会議の設定に対する変更の一部は、MMS をトリガーしません。特に、次の 2 つの変更では、MMS によって会議が更新されません。
 
 - 会議の開催者の SIP アドレスを変更する場合 (SIP ユーザー名または SIP ドメインのいずれか)
 - コマンドを使用して組織の会議 URL を変更した場合 `Update-CsTenantMeetingUrl` 。

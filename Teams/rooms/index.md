@@ -37,7 +37,7 @@ Microsoft のパートナー (Yealink、Logitech、Crestron、Polycom、Lenovo�
 <br>
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.  <br><br>Lync Server 2013 のような以前のプラットフォームでは、Microsoft Teams ミーティングの使用は想定されていません。
+> Microsoft Teams ミーティングは、Microsoft Teams、Skype for Business Online、Skype for Business Server 2019、または Skype for Business Server 2015 と一緒に使用することを意図しています。<br><br>Lync Server 2013 のような以前のプラットフォームでは、Microsoft Teams ミーティングの使用は想定されていません。
 
 これらの記事は、該当デバイスの計画、展開、管理に携わるユーザーを対象としており、本システムのユーザー向けではありません。 ユーザー向けの Microsoft Teams ミーティング [オンライン ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) をご覧ください。
 

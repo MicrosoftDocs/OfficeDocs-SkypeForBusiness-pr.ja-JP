@@ -47,13 +47,13 @@ _**トピックの最終更新日:** 2012-10-02_
     
     ![トポロジのマージウィザード、[エッジセットアップの指定] ページ](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "トポロジのマージウィザード、[エッジセットアップの指定] ページ")  
 
-5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
+5.  [**エッジの種類の指定**] で、エッジ サーバー構成の種類を入力し、[**次へ**] をクリックします。この例では [**単一エッジ サーバー**] オプションを使用します。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
+    > <STRONG>拡張エッジ展開</STRONG>の構成はサポートされていません。まず、<STRONG>拡張エッジ サーバー</STRONG>を<STRONG>単一エッジ サーバー</STRONG>または<STRONG>負荷分散された統合エッジ</STRONG> サーバーに変換する必要があります。
 
     
     </div>
@@ -68,7 +68,7 @@ _**トピックの最終更新日:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
+    > [<STRONG>次へ</STRONG>] をクリックする前に、この手順の次のステップを行います。このステップを必ず行うことが非常に重要です。
 
     
     </div>
