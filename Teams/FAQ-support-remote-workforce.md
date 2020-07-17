@@ -16,11 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 9335f890f3d466ed467025c5ab7b828e2db516b9
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028113"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138007"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -102,6 +103,10 @@ Microsoft では、Education (EDU) テナントに対して、学校の生徒情
 
 初めてユーザーにライセンスを付与する、または有効にするが、Microsoft 365 はしばらく使用してきたという場合は、組織の [Teams を有効にする](Office-365-set-up.md)必要がある場合があります。 この記事上で、「[Microsoft 365 を持っていますが、Teams を使っていません。Teams の試用版ライセンスは提供されていますか?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)」をご確認ください。
 
+### <a name="in-meetings-attendees-are-having-trouble-joining-by-dialing-in---calls-arent-getting-through"></a>会議で、ダイヤルインによる参加に問題が生じて出席者が通話できません。
+
+(新型コロナウイルス感染症の発生で) 会議の数が多い間は、ユーザーは PSTN 会議番号を使用または<strong>[折り返し先]</strong>を使用してダイヤルインするのではなく、<strong>[Teams 会議に参加]</strong>ボタンをクリックして会議に参加することをお勧めします。 これにより、会議の数が多いことが PSTN ネットワークの混雑の原因となっているときに、音質を高められます。 
+
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Microsoft が提供している Office 365 E1 試用版で電話プランを使用できますか? 社内のユーザーに電話番号を割り当てることは可能ですか? 料金を教えてください。
 
 アプリ間での音声とビデオ通話は、すべてのバージョンの Teams で行えます。 電話番号を社員に割り当てるには、[電話システム](what-is-phone-system-in-office-365.md)が必要です。 入手と展開に関しては、担当の Microsoft パートナーまたは営業担当者を通して行うことをお勧めします。 詳細については、「[Teams での音声通話とビデオ通話](https://products.office.com/microsoft-teams/voice-calling)」を参照してください。
@@ -118,4 +123,6 @@ IT 管理者 / IT 担当者向け: 「[Teams を使用してリモート ワー�
 
 ### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>新型コロナウイルス感染症の発生時に Microsoft は自社の従業員をサポートするために何を行っていますか?
 
-Microsoft の社長 Brad Smith 氏の 2020 年 3 月 5 日のブログを読んでください: [公衆衛生の守りに取り組むに当たり、キャンパスを支える時給労働者の収入も守る必要があります。](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+Microsoft の社長 Brad Smith 氏の 2020 年 3 月 5 日のブログを読んでください: [公衆衛生の守りに取り組むに当たり、キャンパスを支える時給労働者の収入も守る必要があります](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)。
+
+また、Microsoft.com より [新型コロナウイルス感染症に共に対応する](https://news.microsoft.com/covid-19-response/?icid=mscom_marcom) も必ずご覧ください。
