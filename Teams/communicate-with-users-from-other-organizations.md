@@ -17,12 +17,12 @@ description: 外部アクセス (フェデレーション) とゲスト アク�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 61cbaf6b869ffb0ff377615081953d16a6a63aea
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785279"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125970"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams の別の組織のユーザーと通信する
 ======================================================
@@ -47,7 +47,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 **ゲスト アクセス**を使用して (ドメインに関係なく) 個々のユーザーをチームに追加し、Word、Excel または PowerPoint などの Microsoft 365 アプリまたは Office 365 アプリを使用して、チャット、通話、会議、組織ファイル (SharePoint または OneDrive for Business に保存されている) での共同作業を行うことができます。 ゲスト ユーザーには、ネイティブ チーム メンバーとほぼ同じ Teams 機能を付与できます。 詳細については、「[Teams でのゲスト アクセス](guest-access.md)」をご覧ください。
 
 - ゲストは組織の Active Directory に追加されます。
-- ゲストと通信するには、ゲストはゲスト アカウントを使用して Teams にサインインする必要があります。 つまり、ゲストは Teams アカウントにサインインするために、自分の Teams アカウントからサイン アウトする必要がある場合があります。
+- ゲストと通信するには、ゲストはゲスト アカウントを使用して Teams にサインインする必要があります。 つまり、Teams アカウントにサインインするか、同じアカウントではない場合組織を変更するために、自分の Teams アカウントからサイン アウトしなければならない場合があります。
 - ゲスト ユーザーは、外部アクセス (フェデレーション) ユーザーよりも多くの Teams (ファイル、チーム、チャネルなど) のリソースにアクセスできます。
 - Teams 管理者は、ゲストが Teams 管理センターでできること (またはできないこと) をすべて制御します。 詳細については、「[ゲスト アクセスを管理する](manage-guests.md)」をご覧ください。
 
