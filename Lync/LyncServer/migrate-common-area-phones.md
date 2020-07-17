@@ -25,7 +25,7 @@ ms.locfileid: "44756998"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-common-area-phones"></a><span data-ttu-id="6c98b-102">共通領域電話の移行</span><span class="sxs-lookup"><span data-stu-id="6c98b-102">Migrate Common Area Phones</span></span>
+# <a name="migrate-common-area-phones"></a><span data-ttu-id="065a6-102">共通領域電話の移行</span><span class="sxs-lookup"><span data-stu-id="065a6-102">Migrate Common Area Phones</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "44756998"
 
 <span> </span>
 
-<span data-ttu-id="6c98b-103">_**トピックの最終更新日:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="6c98b-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="065a6-103">_**トピックの最終更新日:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="065a6-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="6c98b-104">共通領域電話は、ロビー、調理場、または工場の作業場のような、共有ワークスペースまたは共用エリアによく設置されている IP 電話です。</span><span class="sxs-lookup"><span data-stu-id="6c98b-104">Common Area Phones are IP phones that most often reside in a shared workspace or common area, like a lobby, kitchen, or factory floor.</span></span> <span data-ttu-id="6c98b-105">一般的なエリア電話は、Lync Server の UC 機能を提供するためにコンピューターに接続する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="6c98b-105">Common Area Phones do not need to be connected to a computer to provide Lync Server UC functionality.</span></span> <span data-ttu-id="6c98b-106">Lync server 2010 の展開を Lync Server 2013 に移行した後、従来の共通領域電話に関連付けられている連絡先オブジェクトも移行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6c98b-106">After migrating an Lync Server 2010 deployment to Lync Server 2013, you must also migrate the contact objects associated with the legacy Common Area Phone.</span></span> <span data-ttu-id="6c98b-107">Lync Server 管理シェルを使用して、まず、Lync Server 2010 共通領域電話に関連付けられているすべての連絡先オブジェクトを取得し、そのオブジェクトを Lync Server 2013 プールに移動します。</span><span class="sxs-lookup"><span data-stu-id="6c98b-107">Using Lync Server Management Shell you will first retrieve all contact objects associated with the Lync Server 2010 Common Area Phones, and then move those objects to the Lync Server 2013 pool.</span></span>
+<span data-ttu-id="065a6-104">共通領域電話は、ロビー、調理場、または工場の作業場のような、共有ワークスペースまたは共用エリアによく設置されている IP 電話です。</span><span class="sxs-lookup"><span data-stu-id="065a6-104">Common Area Phones are IP phones that most often reside in a shared workspace or common area, like a lobby, kitchen, or factory floor.</span></span> <span data-ttu-id="065a6-105">一般的なエリア電話は、Lync Server の UC 機能を提供するためにコンピューターに接続する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="065a6-105">Common Area Phones do not need to be connected to a computer to provide Lync Server UC functionality.</span></span> <span data-ttu-id="065a6-106">Lync server 2010 の展開を Lync Server 2013 に移行した後、従来の共通領域電話に関連付けられている連絡先オブジェクトも移行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="065a6-106">After migrating an Lync Server 2010 deployment to Lync Server 2013, you must also migrate the contact objects associated with the legacy Common Area Phone.</span></span> <span data-ttu-id="065a6-107">Lync Server 管理シェルを使用して、まず、Lync Server 2010 共通領域電話に関連付けられているすべての連絡先オブジェクトを取得し、そのオブジェクトを Lync Server 2013 プールに移動します。</span><span class="sxs-lookup"><span data-stu-id="065a6-107">Using Lync Server Management Shell you will first retrieve all contact objects associated with the Lync Server 2010 Common Area Phones, and then move those objects to the Lync Server 2013 pool.</span></span>
 
-<span data-ttu-id="6c98b-108">**共通領域電話の移行**</span><span class="sxs-lookup"><span data-stu-id="6c98b-108">**Migrate Common Area Phones**</span></span>
+<span data-ttu-id="065a6-108">**共通領域電話の移行**</span><span class="sxs-lookup"><span data-stu-id="065a6-108">**Migrate Common Area Phones**</span></span>
 
-1.  <span data-ttu-id="6c98b-109">Lync Server 2013 フロントエンドサーバーから、Lync Server 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="6c98b-109">From the Lync Server 2013 Front End server, open Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="065a6-109">Lync Server 2013 フロントエンドサーバーから、Lync Server 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="065a6-109">From the Lync Server 2013 Front End server, open Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="6c98b-110">コマンド ラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="6c98b-110">From the command line, type the following:</span></span>
+2.  <span data-ttu-id="065a6-110">コマンド ラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="065a6-110">From the command line, type the following:</span></span>
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
 
-3.  <span data-ttu-id="6c98b-111">すべての連絡先オブジェクトが Lync Server 2013 プールに移動されたことを確認するには、Lync Server 管理シェルから次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="6c98b-111">To verify all contact objects have been moved to the Lync Server 2013 pool, from the Lync Server Management Shell type the following:</span></span>
+3.  <span data-ttu-id="065a6-111">すべての連絡先オブジェクトが Lync Server 2013 プールに移動されたことを確認するには、Lync Server 管理シェルから次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="065a6-111">To verify all contact objects have been moved to the Lync Server 2013 pool, from the Lync Server Management Shell type the following:</span></span>
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
     
-    <span data-ttu-id="6c98b-112">すべての連絡先オブジェクトが Lync Server 2013 プールに関連付けられていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="6c98b-112">Verify all contact objects are now associated with the Lync Server 2013 pool.</span></span>
+    <span data-ttu-id="065a6-112">すべての連絡先オブジェクトが Lync Server 2013 プールに関連付けられていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="065a6-112">Verify all contact objects are now associated with the Lync Server 2013 pool.</span></span>
 
 </div>
 

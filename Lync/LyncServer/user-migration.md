@@ -25,7 +25,7 @@ ms.locfileid: "44755651"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a><span data-ttu-id="db2bd-102">ユーザーの移行</span><span class="sxs-lookup"><span data-stu-id="db2bd-102">User migration</span></span>
+# <a name="user-migration"></a><span data-ttu-id="5e9dd-102">ユーザーの移行</span><span class="sxs-lookup"><span data-stu-id="5e9dd-102">User migration</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "44755651"
 
 <span> </span>
 
-<span data-ttu-id="db2bd-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="db2bd-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="5e9dd-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="5e9dd-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="db2bd-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span><span class="sxs-lookup"><span data-stu-id="db2bd-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span></span> <span data-ttu-id="db2bd-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span><span class="sxs-lookup"><span data-stu-id="db2bd-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span></span> <span data-ttu-id="db2bd-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span><span class="sxs-lookup"><span data-stu-id="db2bd-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
+<span data-ttu-id="5e9dd-p101">移行をスムーズに行うための最善の方法として一般的によく行われているのが、複数のテスト用ユーザーを作成し、それらを使用してシステムをテストすることです。テスト用アカウントの移動とテストが正常に終了したら、実働ユーザーのパイロット グループを特定し、そのアカウントを移動して、検証テストを行う必要があります。その結果に問題がなければ、残りのユーザーを新しい展開に移動できます。</span><span class="sxs-lookup"><span data-stu-id="5e9dd-p101">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
 
-<span data-ttu-id="db2bd-107">Lync Server 2013 でユーザーを有効にする方法の詳細については、「2013 Lync server の展開」のドキュメントの「 [Lync server 2013 のユーザーアカウントの無効化または再有効化](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="db2bd-107">For additional information on enabling users for Lync Server 2013, see the topic [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in the Deploying Lync Server 2013 documentation.</span></span>
+<span data-ttu-id="5e9dd-107">Lync Server 2013 でユーザーを有効にする方法の詳細については、「2013 Lync server の展開」のドキュメントの「 [Lync server 2013 のユーザーアカウントの無効化または再有効化](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5e9dd-107">For additional information on enabling users for Lync Server 2013, see the topic [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in the Deploying Lync Server 2013 documentation.</span></span>
 
 </div>
 

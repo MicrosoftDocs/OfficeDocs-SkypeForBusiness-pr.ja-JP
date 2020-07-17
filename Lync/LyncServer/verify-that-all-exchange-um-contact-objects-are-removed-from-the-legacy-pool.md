@@ -25,7 +25,7 @@ ms.locfileid: "44755551"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="b55b7-102">すべての Exchange UM 連絡先オブジェクトが従来のプールから削除されていることを確認する</span><span class="sxs-lookup"><span data-stu-id="b55b7-102">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
+# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a><span data-ttu-id="92c5a-102">すべての Exchange UM 連絡先オブジェクトが従来のプールから削除されていることを確認する</span><span class="sxs-lookup"><span data-stu-id="92c5a-102">Verify that all Exchange UM Contact objects are removed from the legacy pool</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "44755551"
 
 <span> </span>
 
-<span data-ttu-id="b55b7-103">_**トピックの最終更新日:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="b55b7-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="92c5a-103">_**トピックの最終更新日:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="92c5a-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="b55b7-104">**Ocsumutil**ツールまたは**Get-csexumcontact**コマンドレットを使用して、Exchange UM 連絡先オブジェクトが従来の Office Communications Server 2007 R2 プールから削除されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="b55b7-104">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="b55b7-105">**OCSUmUtil** は次のフォルダーにあります。</span><span class="sxs-lookup"><span data-stu-id="b55b7-105">**OCSUmUtil** is located in the following folder:</span></span>
+<span data-ttu-id="92c5a-104">**Ocsumutil**ツールまたは**Get-csexumcontact**コマンドレットを使用して、Exchange UM 連絡先オブジェクトが従来の Office Communications Server 2007 R2 プールから削除されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="92c5a-104">Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify that Exchange UM contact objects have been removed from the legacy Office Communications Server 2007 R2 pool.</span></span> <span data-ttu-id="92c5a-105">**OCSUmUtil** は次のフォルダーにあります。</span><span class="sxs-lookup"><span data-stu-id="92c5a-105">**OCSUmUtil** is located in the following folder:</span></span>
 
-<span data-ttu-id="b55b7-106">% Program Files% \\ Common Files \\ Lync Server 2013 \\ サポート \\OcsUMUtil.exe</span><span class="sxs-lookup"><span data-stu-id="b55b7-106">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
+<span data-ttu-id="92c5a-106">% Program Files% \\ Common Files \\ Lync Server 2013 \\ サポート \\OcsUMUtil.exe</span><span class="sxs-lookup"><span data-stu-id="92c5a-106">%Program Files%\\Common Files\\Lync Server 2013\\Support\\OcsUMUtil.exe</span></span>
 
-<span data-ttu-id="b55b7-107">**OCSUmUtil** は、次の条件を満たすユーザー アカウントから実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="b55b7-107">**OCSUmUtil** must be run from a user account that has:</span></span>
+<span data-ttu-id="92c5a-107">**OCSUmUtil** は、次の条件を満たすユーザー アカウントから実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="92c5a-107">**OCSUmUtil** must be run from a user account that has:</span></span>
 
-  - <span data-ttu-id="b55b7-108">RTCUniversalServerAdmins および RTCUniversalUserAdmins グループ (Exchange Server ユニファイド メッセージングの設定を読み取る権利が割り当てられている) に属している</span><span class="sxs-lookup"><span data-stu-id="b55b7-108">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
+  - <span data-ttu-id="92c5a-108">RTCUniversalServerAdmins および RTCUniversalUserAdmins グループ (Exchange Server ユニファイド メッセージングの設定を読み取る権利が割り当てられている) に属している</span><span class="sxs-lookup"><span data-stu-id="92c5a-108">Membership in the RTCUniversalServerAdmins and RTCUniversalUserAdmins group (which includes rights to read Exchange Server Unified Messaging settings)</span></span>
 
-  - <span data-ttu-id="b55b7-109">指定された組織単位 (OU) コンテナーに連絡先オブジェクトを作成するドメイン権限</span><span class="sxs-lookup"><span data-stu-id="b55b7-109">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
+  - <span data-ttu-id="92c5a-109">指定された組織単位 (OU) コンテナーに連絡先オブジェクトを作成するドメイン権限</span><span class="sxs-lookup"><span data-stu-id="92c5a-109">Domain rights to create contact objects in the specified organizational unit (OU) container</span></span>
 
-<span data-ttu-id="b55b7-110">**Get-help**コマンドレットの使用の詳細については、「Lync Server Management Shell」のドキュメントの「[取得-csexumcontact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b55b7-110">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="92c5a-110">**Get-help**コマンドレットの使用の詳細については、「Lync Server Management Shell」のドキュメントの「[取得-csexumcontact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="92c5a-110">For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.</span></span>
 
 </div>
 

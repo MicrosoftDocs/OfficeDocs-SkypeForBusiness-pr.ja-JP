@@ -25,7 +25,7 @@ ms.locfileid: "44755621"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="49d70-102">構成設定のレプリケーションを検証する</span><span class="sxs-lookup"><span data-stu-id="49d70-102">Validate replication of configuration settings</span></span>
+# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="d81a4-102">構成設定のレプリケーションを検証する</span><span class="sxs-lookup"><span data-stu-id="d81a4-102">Validate replication of configuration settings</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "44755621"
 
 <span> </span>
 
-<span data-ttu-id="49d70-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="49d70-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="d81a4-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="d81a4-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="49d70-104">中央管理ストアが配置されている内部コンピューターまたは Lync Server 2013 コアコンポーネントがインストールされているドメインに参加しているコンピューターで、 **get-csmanagementstorereplicationstatus**コマンドレットを2013実行することで、構成情報のエッジサーバーへのレプリケーションを検証することができます。</span><span class="sxs-lookup"><span data-stu-id="49d70-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
+<span data-ttu-id="d81a4-104">中央管理ストアが配置されている内部コンピューターまたは Lync Server 2013 コアコンポーネントがインストールされているドメインに参加しているコンピューターで、 **get-csmanagementstorereplicationstatus**コマンドレットを2013実行することで、構成情報のエッジサーバーへのレプリケーションを検証することができます。</span><span class="sxs-lookup"><span data-stu-id="d81a4-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
 
-<span data-ttu-id="49d70-105">最初の結果では、レプリケーションに関する状態が "True" ではなく "False" と示される場合があります。</span><span class="sxs-lookup"><span data-stu-id="49d70-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="49d70-106">その場合は、**Invoke-CsManagementStoreReplication** コマンドレットを実行し、レプリケーションが完了するのを待ってから、もう一度 **Get-CsManagementStoreReplicationStatus** コマンドレットを実行してください。</span><span class="sxs-lookup"><span data-stu-id="49d70-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
+<span data-ttu-id="d81a4-105">最初の結果では、レプリケーションに関する状態が "True" ではなく "False" と示される場合があります。</span><span class="sxs-lookup"><span data-stu-id="d81a4-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="d81a4-106">その場合は、**Invoke-CsManagementStoreReplication** コマンドレットを実行し、レプリケーションが完了するのを待ってから、もう一度 **Get-CsManagementStoreReplicationStatus** コマンドレットを実行してください。</span><span class="sxs-lookup"><span data-stu-id="d81a4-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
 
 </div>
 

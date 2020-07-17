@@ -25,7 +25,7 @@ ms.locfileid: "44757218"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-move-test-users-to-the-pilot-pool"></a><span data-ttu-id="804a8-102">フェーズ 4: テストユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="804a8-102">Phase 4: Move test users to the pilot pool</span></span>
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a><span data-ttu-id="77cd4-102">フェーズ 4: テストユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="77cd4-102">Phase 4: Move test users to the pilot pool</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "44757218"
 
 <span> </span>
 
-<span data-ttu-id="804a8-103">_**トピックの最終更新日:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="804a8-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="77cd4-103">_**トピックの最終更新日:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="77cd4-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="804a8-104">単一のユーザーまたはユーザーのグループを、次の2つの方法 (Lync server コントロールパネルおよび Lync Server 管理シェル) を使用して、新しい Microsoft Lync Server 2013 展開に移動することができます。</span><span class="sxs-lookup"><span data-stu-id="804a8-104">You can move a single user or groups of users to your new Microsoft Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="804a8-105">このセクションのトピックでは、パイロット展開で Lync Server 2013 の展開を運用レベル展開に移行する前に、パイロット展開時に完了させる必要があるタスクについて説明します。</span><span class="sxs-lookup"><span data-stu-id="804a8-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="77cd4-104">単一のユーザーまたはユーザーのグループを、次の2つの方法 (Lync server コントロールパネルおよび Lync Server 管理シェル) を使用して、新しい Microsoft Lync Server 2013 展開に移動することができます。</span><span class="sxs-lookup"><span data-stu-id="77cd4-104">You can move a single user or groups of users to your new Microsoft Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="77cd4-105">このセクションのトピックでは、パイロット展開で Lync Server 2013 の展開を運用レベル展開に移行する前に、パイロット展開時に完了させる必要があるタスクについて説明します。</span><span class="sxs-lookup"><span data-stu-id="77cd4-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="804a8-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="804a8-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="77cd4-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="77cd4-106">In This Section</span></span>
 
-  - [<span data-ttu-id="804a8-107">Lync Server 2010 プールの現在のユーザーを表示する</span><span class="sxs-lookup"><span data-stu-id="804a8-107">View current users in Lync Server 2010 pool</span></span>](view-current-users-in-lync-server-2010-pool.md)
+  - [<span data-ttu-id="77cd4-107">Lync Server 2010 プールの現在のユーザーを表示する</span><span class="sxs-lookup"><span data-stu-id="77cd4-107">View current users in Lync Server 2010 pool</span></span>](view-current-users-in-lync-server-2010-pool.md)
 
-  - [<span data-ttu-id="804a8-108">ユーザー レプリケーションの完了の確認</span><span class="sxs-lookup"><span data-stu-id="804a8-108">Verify user replication has completed</span></span>](verify-user-replication-has-completed.md)
+  - [<span data-ttu-id="77cd4-108">ユーザー レプリケーションの完了の確認</span><span class="sxs-lookup"><span data-stu-id="77cd4-108">Verify user replication has completed</span></span>](verify-user-replication-has-completed.md)
 
-  - [<span data-ttu-id="804a8-109">1人のユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="804a8-109">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool.md)
+  - [<span data-ttu-id="77cd4-109">1人のユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="77cd4-109">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool.md)
 
-  - [<span data-ttu-id="804a8-110">複数のユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="804a8-110">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool.md)
+  - [<span data-ttu-id="77cd4-110">複数のユーザーをパイロットプールに移動する</span><span class="sxs-lookup"><span data-stu-id="77cd4-110">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 

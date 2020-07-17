@@ -25,7 +25,7 @@ ms.locfileid: "44756858"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a><span data-ttu-id="2a595-102">セットアップ</span><span class="sxs-lookup"><span data-stu-id="2a595-102">Setup</span></span>
+# <a name="setup"></a><span data-ttu-id="e80b9-102">セットアップ</span><span class="sxs-lookup"><span data-stu-id="e80b9-102">Setup</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "44756858"
 
 <span> </span>
 
-<span data-ttu-id="2a595-103">_**トピックの最終更新日:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="2a595-103">_**Topic Last Modified:** 2014-04-22_</span></span>
+<span data-ttu-id="e80b9-103">_**トピックの最終更新日:** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="e80b9-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-<span data-ttu-id="2a595-104">Lync Server 2013 ストレスおよびパフォーマンスツールの一部として提供されているツールをインストールするには、次の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="2a595-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
+<span data-ttu-id="e80b9-104">Lync Server 2013 ストレスおよびパフォーマンスツールの一部として提供されているツールをインストールするには、次の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="e80b9-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="2a595-105">ストレスとパフォーマンスツールのインストール</span><span class="sxs-lookup"><span data-stu-id="2a595-105">Installing the Stress and Performance Tool</span></span>
+## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="e80b9-105">ストレスとパフォーマンスツールのインストール</span><span class="sxs-lookup"><span data-stu-id="e80b9-105">Installing the Stress and Performance Tool</span></span>
 
-<span data-ttu-id="2a595-106">ユーザートラフィックのシミュレーションに使用する各クライアントコンピューターで、Windows インストーラーファイル**CapacityPlanningTool.msi**を実行します。</span><span class="sxs-lookup"><span data-stu-id="2a595-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="2a595-107">これらのクライアントコンピューターは、Lync Server コンポーネントを実行していてはなりません。</span><span class="sxs-lookup"><span data-stu-id="2a595-107">These client computers must not be running any Lync Server components.</span></span>
+<span data-ttu-id="e80b9-106">ユーザートラフィックのシミュレーションに使用する各クライアントコンピューターで、Windows インストーラーファイル**CapacityPlanningTool.msi**を実行します。</span><span class="sxs-lookup"><span data-stu-id="e80b9-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="e80b9-107">これらのクライアントコンピューターは、Lync Server コンポーネントを実行していてはなりません。</span><span class="sxs-lookup"><span data-stu-id="e80b9-107">These client computers must not be running any Lync Server components.</span></span>
 
 </div>
 

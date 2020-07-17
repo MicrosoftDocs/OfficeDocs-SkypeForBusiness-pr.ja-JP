@@ -25,7 +25,7 @@ ms.locfileid: "44755461"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction"></a><span data-ttu-id="18869-102">概要</span><span class="sxs-lookup"><span data-stu-id="18869-102">Introduction</span></span>
+# <a name="introduction"></a><span data-ttu-id="1de8c-102">概要</span><span class="sxs-lookup"><span data-stu-id="1de8c-102">Introduction</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "44755461"
 
 <span> </span>
 
-<span data-ttu-id="18869-103">_**トピックの最終更新日:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="18869-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="1de8c-103">_**トピックの最終更新日:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="1de8c-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="18869-104">Lync Server 2013 ストレスおよびパフォーマンスツール (LyncPerfTool と呼ばれます) は、次の種類のユーザーロードをシミュレートできます。</span><span class="sxs-lookup"><span data-stu-id="18869-104">The Lync Server 2013 Stress and Performance Tool (referred to as LyncPerfTool) can simulate user load of the following types:</span></span>
+<span data-ttu-id="1de8c-104">Lync Server 2013 ストレスおよびパフォーマンスツール (LyncPerfTool と呼ばれます) は、次の種類のユーザーロードをシミュレートできます。</span><span class="sxs-lookup"><span data-stu-id="1de8c-104">The Lync Server 2013 Stress and Performance Tool (referred to as LyncPerfTool) can simulate user load of the following types:</span></span>
 
 
 <table>
@@ -47,28 +47,28 @@ ms.locfileid: "44755461"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="18869-105">インスタント メッセージング (IM) およびプレゼンス</span><span class="sxs-lookup"><span data-stu-id="18869-105">Instant messaging (IM) and presence</span></span></p></td>
-<td><p><span data-ttu-id="18869-106">電話会議</span><span class="sxs-lookup"><span data-stu-id="18869-106">Audio conferencing</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-105">インスタント メッセージング (IM) およびプレゼンス</span><span class="sxs-lookup"><span data-stu-id="1de8c-105">Instant messaging (IM) and presence</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-106">電話会議</span><span class="sxs-lookup"><span data-stu-id="1de8c-106">Audio conferencing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18869-107">アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="18869-107">Application sharing</span></span></p></td>
-<td><p><span data-ttu-id="18869-108">公衆交換電話網 (PSTN) シミュレーションを含むボイスオーバー IP (VoIP)</span><span class="sxs-lookup"><span data-stu-id="18869-108">Voice over IP (VoIP), including public switched telephone network (PSTN) simulation</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-107">アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="1de8c-107">Application sharing</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-108">公衆交換電話網 (PSTN) シミュレーションを含むボイスオーバー IP (VoIP)</span><span class="sxs-lookup"><span data-stu-id="1de8c-108">Voice over IP (VoIP), including public switched telephone network (PSTN) simulation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="18869-109">Web Access クライアント会議</span><span class="sxs-lookup"><span data-stu-id="18869-109">Web Access Client conferencing</span></span></p></td>
-<td><p><span data-ttu-id="18869-110">Microsoft Lync 2013 アテンダント</span><span class="sxs-lookup"><span data-stu-id="18869-110">Microsoft Lync 2013 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-109">Web Access クライアント会議</span><span class="sxs-lookup"><span data-stu-id="1de8c-109">Web Access Client conferencing</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-110">Microsoft Lync 2013 アテンダント</span><span class="sxs-lookup"><span data-stu-id="1de8c-110">Microsoft Lync 2013 Attendant</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18869-111">応答グループ</span><span class="sxs-lookup"><span data-stu-id="18869-111">Response Groups</span></span></p></td>
-<td><p><span data-ttu-id="18869-112">配布リストの展開</span><span class="sxs-lookup"><span data-stu-id="18869-112">Distribution list expansion</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-111">応答グループ</span><span class="sxs-lookup"><span data-stu-id="1de8c-111">Response Groups</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-112">配布リストの展開</span><span class="sxs-lookup"><span data-stu-id="1de8c-112">Distribution list expansion</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="18869-113">アドレス帳のダウンロードとアドレス帳のクエリ</span><span class="sxs-lookup"><span data-stu-id="18869-113">Address book download and address book query</span></span></p></td>
-<td><p><span data-ttu-id="18869-114">拡張 9-1-1 (E9-1-1) 通話と場所プロファイル (ダイヤルプラン)</span><span class="sxs-lookup"><span data-stu-id="18869-114">Enhanced 9-1-1 (E9-1-1) calls and location profile (dial plan)</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-113">アドレス帳のダウンロードとアドレス帳のクエリ</span><span class="sxs-lookup"><span data-stu-id="1de8c-113">Address book download and address book query</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-114">拡張 9-1-1 (E9-1-1) 通話と場所プロファイル (ダイヤルプラン)</span><span class="sxs-lookup"><span data-stu-id="1de8c-114">Enhanced 9-1-1 (E9-1-1) calls and location profile (dial plan)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18869-115">マルチビュー</span><span class="sxs-lookup"><span data-stu-id="18869-115">MultiView</span></span></p></td>
-<td><p><span data-ttu-id="18869-116">会議から複数のストリームを表示する</span><span class="sxs-lookup"><span data-stu-id="18869-116">Viewing multiple streams from a conference</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-115">マルチビュー</span><span class="sxs-lookup"><span data-stu-id="1de8c-115">MultiView</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-116">会議から複数のストリームを表示する</span><span class="sxs-lookup"><span data-stu-id="1de8c-116">Viewing multiple streams from a conference</span></span></p></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -78,25 +78,25 @@ ms.locfileid: "44755461"
 </table>
 
 
-<span data-ttu-id="18869-117">Lync Server 2013 ストレスおよびパフォーマンスツールは、高度な構成のみを通じて、クロスプールの負荷生成とフェデレーションをサポートします。</span><span class="sxs-lookup"><span data-stu-id="18869-117">The Lync Server 2013 Stress and Performance Tool supports cross-pool load generation and federation through advanced configuration only.</span></span>
+<span data-ttu-id="1de8c-117">Lync Server 2013 ストレスおよびパフォーマンスツールは、高度な構成のみを通じて、クロスプールの負荷生成とフェデレーションをサポートします。</span><span class="sxs-lookup"><span data-stu-id="1de8c-117">The Lync Server 2013 Stress and Performance Tool supports cross-pool load generation and federation through advanced configuration only.</span></span>
 
-<span data-ttu-id="18869-118">このツールでは、次のクライアントのユーザー負荷もシミュレートされません。</span><span class="sxs-lookup"><span data-stu-id="18869-118">The tool also does not simulate user load for the following clients:</span></span>
+<span data-ttu-id="1de8c-118">このツールでは、次のクライアントのユーザー負荷もシミュレートされません。</span><span class="sxs-lookup"><span data-stu-id="1de8c-118">The tool also does not simulate user load for the following clients:</span></span>
 
-  - <span data-ttu-id="18869-119">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="18869-119">Office Live Meeting 2007</span></span>
+  - <span data-ttu-id="1de8c-119">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="1de8c-119">Office Live Meeting 2007</span></span>
 
-  - <span data-ttu-id="18869-120">Lync 2013 常設チャット</span><span class="sxs-lookup"><span data-stu-id="18869-120">Lync 2013 Persistent Chat</span></span>
+  - <span data-ttu-id="1de8c-120">Lync 2013 常設チャット</span><span class="sxs-lookup"><span data-stu-id="1de8c-120">Lync 2013 Persistent Chat</span></span>
 
-<span data-ttu-id="18869-121">そのため、Lync Server 2013 ストレスおよびパフォーマンスツールでは、次のコンポーネントのテストはサポートされません。</span><span class="sxs-lookup"><span data-stu-id="18869-121">As a result, the Lync Server 2013 Stress and Performance Tool will not support testing the following components:</span></span>
+<span data-ttu-id="1de8c-121">そのため、Lync Server 2013 ストレスおよびパフォーマンスツールでは、次のコンポーネントのテストはサポートされません。</span><span class="sxs-lookup"><span data-stu-id="1de8c-121">As a result, the Lync Server 2013 Stress and Performance Tool will not support testing the following components:</span></span>
 
-  - <span data-ttu-id="18869-122">Lync 2013 常設チャット</span><span class="sxs-lookup"><span data-stu-id="18869-122">Lync 2013 Persistent Chat</span></span>
+  - <span data-ttu-id="1de8c-122">Lync 2013 常設チャット</span><span class="sxs-lookup"><span data-stu-id="1de8c-122">Lync 2013 Persistent Chat</span></span>
 
-  - <span data-ttu-id="18869-123">Exchange 統合のシナリオ</span><span class="sxs-lookup"><span data-stu-id="18869-123">Exchange integration scenarios</span></span>
+  - <span data-ttu-id="1de8c-123">Exchange 統合のシナリオ</span><span class="sxs-lookup"><span data-stu-id="1de8c-123">Exchange integration scenarios</span></span>
 
 <div>
 
-## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="18869-124">Lync Server 2013 ストレスおよびパフォーマンスツールに含まれているアプリケーションとファイル</span><span class="sxs-lookup"><span data-stu-id="18869-124">Applications and Files Included with the Lync Server 2013 Stress and Performance Tool</span></span>
+## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="1de8c-124">Lync Server 2013 ストレスおよびパフォーマンスツールに含まれているアプリケーションとファイル</span><span class="sxs-lookup"><span data-stu-id="1de8c-124">Applications and Files Included with the Lync Server 2013 Stress and Performance Tool</span></span>
 
-<span data-ttu-id="18869-125">Lync Server 2013 のストレスおよびパフォーマンスツールには、次のアプリケーションが含まれています。</span><span class="sxs-lookup"><span data-stu-id="18869-125">The following applications are included in the Lync Server 2013 Stress and Performance Tool:</span></span>
+<span data-ttu-id="1de8c-125">Lync Server 2013 のストレスおよびパフォーマンスツールには、次のアプリケーションが含まれています。</span><span class="sxs-lookup"><span data-stu-id="1de8c-125">The following applications are included in the Lync Server 2013 Stress and Performance Tool:</span></span>
 
 
 <table>
@@ -106,30 +106,30 @@ ms.locfileid: "44755461"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="18869-126">ツール</span><span class="sxs-lookup"><span data-stu-id="18869-126">Tool</span></span></th>
-<th><span data-ttu-id="18869-127">説明</span><span class="sxs-lookup"><span data-stu-id="18869-127">Description</span></span></th>
+<th><span data-ttu-id="1de8c-126">ツール</span><span class="sxs-lookup"><span data-stu-id="1de8c-126">Tool</span></span></th>
+<th><span data-ttu-id="1de8c-127">説明</span><span class="sxs-lookup"><span data-stu-id="1de8c-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="18869-128">UserProvisioningTool.exe</span><span class="sxs-lookup"><span data-stu-id="18869-128">UserProvisioningTool.exe</span></span></p></td>
-<td><p><span data-ttu-id="18869-129">Lync Server 2013 ユーザープロビジョニングツール。</span><span class="sxs-lookup"><span data-stu-id="18869-129">The Lync Server 2013 User Provisioning tool.</span></span> <span data-ttu-id="18869-130">このツールは、ユーザーと連絡先を作成するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="18869-130">This tool is used to create users and contacts.</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-128">UserProvisioningTool.exe</span><span class="sxs-lookup"><span data-stu-id="1de8c-128">UserProvisioningTool.exe</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-129">Lync Server 2013 ユーザープロビジョニングツール。</span><span class="sxs-lookup"><span data-stu-id="1de8c-129">The Lync Server 2013 User Provisioning tool.</span></span> <span data-ttu-id="1de8c-130">このツールは、ユーザーと連絡先を作成するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="1de8c-130">This tool is used to create users and contacts.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18869-131">UserProfileGenerator.exe</span><span class="sxs-lookup"><span data-stu-id="18869-131">UserProfileGenerator.exe</span></span></p></td>
-<td><p><span data-ttu-id="18869-132">Lync Server 2013 Load 構成ツール。</span><span class="sxs-lookup"><span data-stu-id="18869-132">The Lync Server 2013 Load Configuration Tool.</span></span> <span data-ttu-id="18869-133">このツールは、シミュレートするユーザーロードの特性を構成するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="18869-133">This tool is used to configure the characteristics of the user load to simulate.</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-131">UserProfileGenerator.exe</span><span class="sxs-lookup"><span data-stu-id="1de8c-131">UserProfileGenerator.exe</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-132">Lync Server 2013 Load 構成ツール。</span><span class="sxs-lookup"><span data-stu-id="1de8c-132">The Lync Server 2013 Load Configuration Tool.</span></span> <span data-ttu-id="1de8c-133">このツールは、シミュレートするユーザーロードの特性を構成するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="1de8c-133">This tool is used to configure the characteristics of the user load to simulate.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="18869-134">LyncPerfTool.exe</span><span class="sxs-lookup"><span data-stu-id="18869-134">LyncPerfTool.exe</span></span></p></td>
-<td><p><span data-ttu-id="18869-135">Lync Server 2013 ストレスおよびパフォーマンスツール。</span><span class="sxs-lookup"><span data-stu-id="18869-135">The Lync Server 2013 Stress and Performance Tool.</span></span> <span data-ttu-id="18869-136">LyncPerfTool は、ユーザー負荷をシミュレートするツールです。</span><span class="sxs-lookup"><span data-stu-id="18869-136">LyncPerfTool is the tool that simulates the user load.</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-134">LyncPerfTool.exe</span><span class="sxs-lookup"><span data-stu-id="1de8c-134">LyncPerfTool.exe</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-135">Lync Server 2013 ストレスおよびパフォーマンスツール。</span><span class="sxs-lookup"><span data-stu-id="1de8c-135">The Lync Server 2013 Stress and Performance Tool.</span></span> <span data-ttu-id="1de8c-136">LyncPerfTool は、ユーザー負荷をシミュレートするツールです。</span><span class="sxs-lookup"><span data-stu-id="1de8c-136">LyncPerfTool is the tool that simulates the user load.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18869-137">Tmx</span><span class="sxs-lookup"><span data-stu-id="18869-137">Default.tmx</span></span></p></td>
-<td><p><span data-ttu-id="18869-138">Lync Server 2013 ログツールを使用するには、tmx が必要です。</span><span class="sxs-lookup"><span data-stu-id="18869-138">Default.tmx is required to use the Lync Server 2013 Logging Tool.</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-137">Tmx</span><span class="sxs-lookup"><span data-stu-id="1de8c-137">Default.tmx</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-138">Lync Server 2013 ログツールを使用するには、tmx が必要です。</span><span class="sxs-lookup"><span data-stu-id="1de8c-138">Default.tmx is required to use the Lync Server 2013 Logging Tool.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="18869-139">プロビジョニングスクリプトの例</span><span class="sxs-lookup"><span data-stu-id="18869-139">Example provisioning scripts</span></span></p></td>
-<td><p><span data-ttu-id="18869-140">これらの例は、特定のシナリオに基づいて、ロードテストを実行するためのトポロジを構成するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="18869-140">These examples are used to configure the topology for running load tests, based on specific scenarios</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-139">プロビジョニングスクリプトの例</span><span class="sxs-lookup"><span data-stu-id="1de8c-139">Example provisioning scripts</span></span></p></td>
+<td><p><span data-ttu-id="1de8c-140">これらの例は、特定のシナリオに基づいて、ロードテストを実行するためのトポロジを構成するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="1de8c-140">These examples are used to configure the topology for running load tests, based on specific scenarios</span></span></p></td>
 </tr>
 </tbody>
 </table>

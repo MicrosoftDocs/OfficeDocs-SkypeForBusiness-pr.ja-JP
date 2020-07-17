@@ -25,7 +25,7 @@ ms.locfileid: "44755731"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="standard-migration-scenario---high-level"></a><span data-ttu-id="61570-102">標準移行シナリオ-高レベル</span><span class="sxs-lookup"><span data-stu-id="61570-102">Standard migration scenario - high-level</span></span>
+# <a name="standard-migration-scenario---high-level"></a><span data-ttu-id="b04c5-102">標準移行シナリオ-高レベル</span><span class="sxs-lookup"><span data-stu-id="b04c5-102">Standard migration scenario - high-level</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "44755731"
 
 <span> </span>
 
-<span data-ttu-id="61570-103">_**トピックの最終更新日:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="61570-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="b04c5-103">_**トピックの最終更新日:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="b04c5-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="61570-104">Lync Server 2010、グループチャットまたは Office Communications Server 2007 R2 グループチャットから Lync Server 2013、常設チャットサーバーへの移行時には、次の項目を開始点として使用します。</span><span class="sxs-lookup"><span data-stu-id="61570-104">Use the following items as a starting point when migrating Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server.</span></span> <span data-ttu-id="61570-105">Lync Server 2013 の標準の移行パスは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="61570-105">The standard Lync Server 2013 migration path is as follows:</span></span>
+<span data-ttu-id="b04c5-104">Lync Server 2010、グループチャットまたは Office Communications Server 2007 R2 グループチャットから Lync Server 2013、常設チャットサーバーへの移行時には、次の項目を開始点として使用します。</span><span class="sxs-lookup"><span data-stu-id="b04c5-104">Use the following items as a starting point when migrating Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server.</span></span> <span data-ttu-id="b04c5-105">Lync Server 2013 の標準の移行パスは次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="b04c5-105">The standard Lync Server 2013 migration path is as follows:</span></span>
 
-  - <span data-ttu-id="61570-106">組織が以前に Lync Server 2010、グループチャットまたは Office Communications Server 2007 R2 グループチャットを展開していて、Lync Server 2013、常設チャットサーバーを展開している。</span><span class="sxs-lookup"><span data-stu-id="61570-106">Your organization has previously deployed Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat, and you want to deploy Lync Server 2013, Persistent Chat Server.</span></span>
+  - <span data-ttu-id="b04c5-106">組織が以前に Lync Server 2010、グループチャットまたは Office Communications Server 2007 R2 グループチャットを展開していて、Lync Server 2013、常設チャットサーバーを展開している。</span><span class="sxs-lookup"><span data-stu-id="b04c5-106">Your organization has previously deployed Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat, and you want to deploy Lync Server 2013, Persistent Chat Server.</span></span>
 
-  - <span data-ttu-id="61570-107">Lync Server 2013 を展開し、次に常設チャットサーバープールを展開します。</span><span class="sxs-lookup"><span data-stu-id="61570-107">Deploy Lync Server 2013, and then deploy Persistent Chat Server pool(s).</span></span>
+  - <span data-ttu-id="b04c5-107">Lync Server 2013 を展開し、次に常設チャットサーバープールを展開します。</span><span class="sxs-lookup"><span data-stu-id="b04c5-107">Deploy Lync Server 2013, and then deploy Persistent Chat Server pool(s).</span></span>
 
-  - <span data-ttu-id="61570-108">常設チャットルームの移行の準備と計画を行い、移行のためにシステムをシャットダウンするための適切な時間を決定します。</span><span class="sxs-lookup"><span data-stu-id="61570-108">Prepare and plan for migration of your Persistent Chat rooms, and determine an appropriate time to shut down the system for migration.</span></span>
+  - <span data-ttu-id="b04c5-108">常設チャットルームの移行の準備と計画を行い、移行のためにシステムをシャットダウンするための適切な時間を決定します。</span><span class="sxs-lookup"><span data-stu-id="b04c5-108">Prepare and plan for migration of your Persistent Chat rooms, and determine an appropriate time to shut down the system for migration.</span></span>
 
-  - <span data-ttu-id="61570-109">移行用の Windows PowerShell コマンドレット (**export-cspersistentchatdata**および**export-cspersistentchatdata**) を実行して、コンテンツを常設チャットサーバーに移動します。</span><span class="sxs-lookup"><span data-stu-id="61570-109">Run the Windows PowerShell cmdlets for migration (**Export-CsPersistentChatData** and **Import-CsPersistentChatData**) to move content to Persistent Chat Server.</span></span>
+  - <span data-ttu-id="b04c5-109">移行用の Windows PowerShell コマンドレット (**export-cspersistentchatdata**および**export-cspersistentchatdata**) を実行して、コンテンツを常設チャットサーバーに移動します。</span><span class="sxs-lookup"><span data-stu-id="b04c5-109">Run the Windows PowerShell cmdlets for migration (**Export-CsPersistentChatData** and **Import-CsPersistentChatData**) to move content to Persistent Chat Server.</span></span>
 
-  - <span data-ttu-id="61570-110">移行が成功したことを確認します。</span><span class="sxs-lookup"><span data-stu-id="61570-110">Verify that migration has succeeded.</span></span>
+  - <span data-ttu-id="b04c5-110">移行が成功したことを確認します。</span><span class="sxs-lookup"><span data-stu-id="b04c5-110">Verify that migration has succeeded.</span></span>
 
-  - <span data-ttu-id="61570-111">従来の展開を使用停止にします。</span><span class="sxs-lookup"><span data-stu-id="61570-111">Decommission your legacy deployment.</span></span>
+  - <span data-ttu-id="b04c5-111">従来の展開を使用停止にします。</span><span class="sxs-lookup"><span data-stu-id="b04c5-111">Decommission your legacy deployment.</span></span>
 
-  - <span data-ttu-id="61570-112">従来のクライアントが Lync Server 2013 の常設チャットサーバーに接続できるように常設チャットサーバーを構成します。</span><span class="sxs-lookup"><span data-stu-id="61570-112">Configure Persistent Chat Server so that legacy clients can connect to Lync Server 2013, Persistent Chat Server.</span></span> <span data-ttu-id="61570-113">新しいクライアントの展開には時間がかかるので、従来のクライアントのユーザーがチャット ルームに可能な限り早急にアクセスできるようにするには、この操作が必要になります。</span><span class="sxs-lookup"><span data-stu-id="61570-113">This is necessary because it takes time to deploy new clients, and you want to enable existing users with legacy clients to have access to their chat rooms as soon as possible.</span></span>
+  - <span data-ttu-id="b04c5-112">従来のクライアントが Lync Server 2013 の常設チャットサーバーに接続できるように常設チャットサーバーを構成します。</span><span class="sxs-lookup"><span data-stu-id="b04c5-112">Configure Persistent Chat Server so that legacy clients can connect to Lync Server 2013, Persistent Chat Server.</span></span> <span data-ttu-id="b04c5-113">新しいクライアントの展開には時間がかかるので、従来のクライアントのユーザーがチャット ルームに可能な限り早急にアクセスできるようにするには、この操作が必要になります。</span><span class="sxs-lookup"><span data-stu-id="b04c5-113">This is necessary because it takes time to deploy new clients, and you want to enable existing users with legacy clients to have access to their chat rooms as soon as possible.</span></span>
 
-  - <span data-ttu-id="61570-114">新しいクライアントを展開する一方で、従来のグループチャット (クライアント) を使用しているワーカーが自分のチャットルームにアクセスできるようにします。</span><span class="sxs-lookup"><span data-stu-id="61570-114">Deploy new clients, while continuing to help ensure that workers with legacy Group Chat (clients) can get to their chat rooms.</span></span>
+  - <span data-ttu-id="b04c5-114">新しいクライアントを展開する一方で、従来のグループチャット (クライアント) を使用しているワーカーが自分のチャットルームにアクセスできるようにします。</span><span class="sxs-lookup"><span data-stu-id="b04c5-114">Deploy new clients, while continuing to help ensure that workers with legacy Group Chat (clients) can get to their chat rooms.</span></span>
 
 </div>
 

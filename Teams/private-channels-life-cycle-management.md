@@ -25,18 +25,18 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 07/01/2020
 ms.locfileid: "45012293"
 ---
-# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a><span data-ttu-id="2616c-103">Microsoft Teams でプライベートチャネルのライフサイクルを管理する</span><span class="sxs-lookup"><span data-stu-id="2616c-103">Manage the life cycle of private channels in Microsoft Teams</span></span>
+# <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a><span data-ttu-id="c1962-103">Microsoft Teams でプライベートチャネルのライフサイクルを管理する</span><span class="sxs-lookup"><span data-stu-id="c1962-103">Manage the life cycle of private channels in Microsoft Teams</span></span>
 
-<span data-ttu-id="2616c-104">ここでは、組織内の[プライベートチャネル](private-channels.md)のライフサイクルを管理するために必要なガイダンスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="2616c-104">Here you'll find the guidance you need to manage the life cycle of [private channels](private-channels.md) in your organization.</span></span>
+<span data-ttu-id="c1962-104">ここでは、組織内の[プライベートチャネル](private-channels.md)のライフサイクルを管理するために必要なガイダンスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="c1962-104">Here you'll find the guidance you need to manage the life cycle of [private channels](private-channels.md) in your organization.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="2616c-105">この記事の PowerShell の手順を使用してプライベートチャネルを管理している場合は、 [Powershell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams/)から Teams PowerShell パブリックプレビューモジュールをインストールして使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2616c-105">If you're using the PowerShell steps in this article to manage private channels, you must install and use the Teams PowerShell public preview module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/).</span></span> <span data-ttu-id="2616c-106">モジュールをインストールする手順については、「 [Microsoft Teams PowerShell をインストール](teams-powershell-install.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2616c-106">For steps on how to install the module, see [Install Microsoft Teams PowerShell](teams-powershell-install.md).</span></span> <span data-ttu-id="2616c-107">最新の一般的な可用性 Teams PowerShell モジュールでは、プライベートチャネルの管理をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="2616c-107">The latest General Availability Teams PowerShell module doesn't support managing private channels.</span></span>
+> <span data-ttu-id="c1962-105">この記事の PowerShell の手順を使用してプライベートチャネルを管理している場合は、 [Powershell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams/)から Teams PowerShell パブリックプレビューモジュールをインストールして使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c1962-105">If you're using the PowerShell steps in this article to manage private channels, you must install and use the Teams PowerShell public preview module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams/).</span></span> <span data-ttu-id="c1962-106">モジュールをインストールする手順については、「 [Microsoft Teams PowerShell をインストール](teams-powershell-install.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c1962-106">For steps on how to install the module, see [Install Microsoft Teams PowerShell](teams-powershell-install.md).</span></span> <span data-ttu-id="c1962-107">最新の一般的な可用性 Teams PowerShell モジュールでは、プライベートチャネルの管理をサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="c1962-107">The latest General Availability Teams PowerShell module doesn't support managing private channels.</span></span>
 
-## <a name="set-whether-team-members-can-create-private-channels"></a><span data-ttu-id="2616c-108">チームメンバーがプライベートチャネルを作成できるかどうかを設定する</span><span class="sxs-lookup"><span data-stu-id="2616c-108">Set whether team members can create private channels</span></span>
+## <a name="set-whether-team-members-can-create-private-channels"></a><span data-ttu-id="c1962-108">チームメンバーがプライベートチャネルを作成できるかどうかを設定する</span><span class="sxs-lookup"><span data-stu-id="c1962-108">Set whether team members can create private channels</span></span>
 
-<span data-ttu-id="2616c-109">チーム所有者は、メンバーがチーム設定でプライベートチャネルを作成できるようにする機能を有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="2616c-109">Team owners can turn off or turn on the ability for members to create private channels in team settings.</span></span> <span data-ttu-id="2616c-110">これを行うには、チームの [**設定**] タブで、[**メンバーにプライベートチャネルの作成を許可する**] をオンまたはオフにします。</span><span class="sxs-lookup"><span data-stu-id="2616c-110">To do this, on the **Settings** tab for the team, turn off or turn on **Allow members to create private channels**.</span></span>
+<span data-ttu-id="c1962-109">チーム所有者は、メンバーがチーム設定でプライベートチャネルを作成できるようにする機能を有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="c1962-109">Team owners can turn off or turn on the ability for members to create private channels in team settings.</span></span> <span data-ttu-id="c1962-110">これを行うには、チームの [**設定**] タブで、[**メンバーにプライベートチャネルの作成を許可する**] をオンまたはオフにします。</span><span class="sxs-lookup"><span data-stu-id="c1962-110">To do this, on the **Settings** tab for the team, turn off or turn on **Allow members to create private channels**.</span></span>
 
-<span data-ttu-id="2616c-111">管理者は、Graph API を使って、メンバーが特定のチームでプライベートチャネルを作成できるかどうかを制御できます。</span><span class="sxs-lookup"><span data-stu-id="2616c-111">As an admin, you can use Graph API to control whether members can create private channels in specific teams.</span></span> <span data-ttu-id="2616c-112">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="2616c-112">Here's an example.</span></span>
+<span data-ttu-id="c1962-111">管理者は、Graph API を使って、メンバーが特定のチームでプライベートチャネルを作成できるかどうかを制御できます。</span><span class="sxs-lookup"><span data-stu-id="c1962-111">As an admin, you can use Graph API to control whether members can create private channels in specific teams.</span></span> <span data-ttu-id="c1962-112">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="c1962-112">Here's an example.</span></span>
 
 ```Graph API
 PATCH /teams/<team_id>
@@ -47,31 +47,31 @@ PATCH /teams/<team_id>
 }
 ```
 
-## <a name="set-whether-users-in-your-organization-can-create-private-channels"></a><span data-ttu-id="2616c-113">組織内のユーザーがプライベートチャネルを作成できるかどうかを設定する</span><span class="sxs-lookup"><span data-stu-id="2616c-113">Set whether users in your organization can create private channels</span></span>
+## <a name="set-whether-users-in-your-organization-can-create-private-channels"></a><span data-ttu-id="c1962-113">組織内のユーザーがプライベートチャネルを作成できるかどうかを設定する</span><span class="sxs-lookup"><span data-stu-id="c1962-113">Set whether users in your organization can create private channels</span></span>
 
-<span data-ttu-id="2616c-114">管理者は、Microsoft Teams 管理センターまたは PowerShell を使用して、プライベートチャネルを作成できる組織内のユーザーを管理することにより、ポリシーを設定することができます。</span><span class="sxs-lookup"><span data-stu-id="2616c-114">As an admin, you can set policies by using the Microsoft Teams admin center or PowerShell to control which users in your organization are allowed to create private channels.</span></span>
+<span data-ttu-id="c1962-114">管理者は、Microsoft Teams 管理センターまたは PowerShell を使用して、プライベートチャネルを作成できる組織内のユーザーを管理することにより、ポリシーを設定することができます。</span><span class="sxs-lookup"><span data-stu-id="c1962-114">As an admin, you can set policies by using the Microsoft Teams admin center or PowerShell to control which users in your organization are allowed to create private channels.</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="2616c-115">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="2616c-115">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="c1962-115">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="c1962-115">Using the Microsoft Teams admin center</span></span>
 
-<span data-ttu-id="2616c-116">チームポリシーを使用して、組織内のどのユーザーにプライベートチャネルの作成を許可するかを設定します。</span><span class="sxs-lookup"><span data-stu-id="2616c-116">Use teams policies to set which users in your organization are allowed to create private channels.</span></span> <span data-ttu-id="2616c-117">詳細については、「 [teams のチームポリシーを管理](teams-policies.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2616c-117">To learn more, see [Manage teams policies in Teams](teams-policies.md).</span></span>
+<span data-ttu-id="c1962-116">チームポリシーを使用して、組織内のどのユーザーにプライベートチャネルの作成を許可するかを設定します。</span><span class="sxs-lookup"><span data-stu-id="c1962-116">Use teams policies to set which users in your organization are allowed to create private channels.</span></span> <span data-ttu-id="c1962-117">詳細については、「 [teams のチームポリシーを管理](teams-policies.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c1962-117">To learn more, see [Manage teams policies in Teams](teams-policies.md).</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="2616c-118">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="2616c-118">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="c1962-118">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="c1962-118">Using PowerShell</span></span>
 
-<span data-ttu-id="2616c-119">**CsTeamsChannelsPolicy**を使用して、組織内のどのユーザーにプライベートチャネルの作成を許可するかを設定します。</span><span class="sxs-lookup"><span data-stu-id="2616c-119">Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels.</span></span> <span data-ttu-id="2616c-120">ポリシーを割り当てられたユーザーがプライベートチャネルを作成できるようにするには、 **AllowPrivateChannelCreation**パラメーターを**true**に設定します。</span><span class="sxs-lookup"><span data-stu-id="2616c-120">Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels.</span></span> <span data-ttu-id="2616c-121">このパラメーターを**false**に設定すると、ポリシーが割り当てられているユーザーに対してプライベートチャネルを作成する機能が無効になります。</span><span class="sxs-lookup"><span data-stu-id="2616c-121">Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy.</span></span>
+<span data-ttu-id="c1962-119">**CsTeamsChannelsPolicy**を使用して、組織内のどのユーザーにプライベートチャネルの作成を許可するかを設定します。</span><span class="sxs-lookup"><span data-stu-id="c1962-119">Use **CsTeamsChannelsPolicy** to set which users in your organization are allowed to create private channels.</span></span> <span data-ttu-id="c1962-120">ポリシーを割り当てられたユーザーがプライベートチャネルを作成できるようにするには、 **AllowPrivateChannelCreation**パラメーターを**true**に設定します。</span><span class="sxs-lookup"><span data-stu-id="c1962-120">Set the **AllowPrivateChannelCreation** parameter to **true** to allow users who are assigned the policy to create private channels.</span></span> <span data-ttu-id="c1962-121">このパラメーターを**false**に設定すると、ポリシーが割り当てられているユーザーに対してプライベートチャネルを作成する機能が無効になります。</span><span class="sxs-lookup"><span data-stu-id="c1962-121">Setting the parameter to **false** turns off the ability to create private channels for users who are assigned the policy.</span></span>
 
-<span data-ttu-id="2616c-122">詳細については、「 [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2616c-122">To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).</span></span>
+<span data-ttu-id="c1962-122">詳細については、「 [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c1962-122">To learn more, see [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps).</span></span>
 
-## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a><span data-ttu-id="2616c-123">チーム所有者の代わりにプライベートチャネルを作成する</span><span class="sxs-lookup"><span data-stu-id="2616c-123">Create a private channel on behalf of a team owner</span></span>
+## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a><span data-ttu-id="c1962-123">チーム所有者の代わりにプライベートチャネルを作成する</span><span class="sxs-lookup"><span data-stu-id="c1962-123">Create a private channel on behalf of a team owner</span></span>
 
-<span data-ttu-id="2616c-124">管理者は、PowerShell または Graph API を使用して、チーム所有者の代わりにプライベートチャネルを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="2616c-124">As an admin, you can use PowerShell or Graph API to create a private channel on behalf of a team owner.</span></span> <span data-ttu-id="2616c-125">たとえば、組織でプライベートチャネルの作成を一元化する場合は、これを行うことができます。</span><span class="sxs-lookup"><span data-stu-id="2616c-125">For example, you may want to do this if your organization wants to centralize creation of private channels.</span></span>
+<span data-ttu-id="c1962-124">管理者は、PowerShell または Graph API を使用して、チーム所有者の代わりにプライベートチャネルを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="c1962-124">As an admin, you can use PowerShell or Graph API to create a private channel on behalf of a team owner.</span></span> <span data-ttu-id="c1962-125">たとえば、組織でプライベートチャネルの作成を一元化する場合は、これを行うことができます。</span><span class="sxs-lookup"><span data-stu-id="c1962-125">For example, you may want to do this if your organization wants to centralize creation of private channels.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="2616c-126">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="2616c-126">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="c1962-126">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="c1962-126">Using PowerShell</span></span>
 
 ```PowerShell
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
 ```
 
-### <a name="using-graph-api"></a><span data-ttu-id="2616c-127">Graph API を使用する</span><span class="sxs-lookup"><span data-stu-id="2616c-127">Using Graph API</span></span>
+### <a name="using-graph-api"></a><span data-ttu-id="c1962-127">Graph API を使用する</span><span class="sxs-lookup"><span data-stu-id="c1962-127">Using Graph API</span></span>
 
 ```Graph API
 POST /teams/{id}/channels
@@ -84,25 +84,25 @@ POST /teams/{id}/channels
             }]
 ```
 
-## <a name="get-a-list-of-all-private-channel-messages"></a><span data-ttu-id="2616c-128">すべてのプライベートチャネルメッセージの一覧を取得する</span><span class="sxs-lookup"><span data-stu-id="2616c-128">Get a list of all private channel messages</span></span>
+## <a name="get-a-list-of-all-private-channel-messages"></a><span data-ttu-id="c1962-128">すべてのプライベートチャネルメッセージの一覧を取得する</span><span class="sxs-lookup"><span data-stu-id="c1962-128">Get a list of all private channel messages</span></span>
 
-<span data-ttu-id="2616c-129">プライベートチャネルで投稿されたすべてのメッセージと返信の一覧を取得して、アーカイブおよび監査を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="2616c-129">You may want to get a list of all messages and replies posted in a private channel for archiving and auditing purposes.</span></span>  <span data-ttu-id="2616c-130">Graph API を使ってこれを行う方法を次に示します。</span><span class="sxs-lookup"><span data-stu-id="2616c-130">Here's how to use Graph API to do this.</span></span>
+<span data-ttu-id="c1962-129">プライベートチャネルで投稿されたすべてのメッセージと返信の一覧を取得して、アーカイブおよび監査を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="c1962-129">You may want to get a list of all messages and replies posted in a private channel for archiving and auditing purposes.</span></span>  <span data-ttu-id="c1962-130">Graph API を使ってこれを行う方法を次に示します。</span><span class="sxs-lookup"><span data-stu-id="c1962-130">Here's how to use Graph API to do this.</span></span>
 
 ```Graph API
 GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
 
-## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a><span data-ttu-id="2616c-131">チーム内のすべてのプライベートチャネルの SharePoint Url を検索する</span><span class="sxs-lookup"><span data-stu-id="2616c-131">Find SharePoint URLs for all private channels in a team</span></span>
+## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a><span data-ttu-id="c1962-131">チーム内のすべてのプライベートチャネルの SharePoint Url を検索する</span><span class="sxs-lookup"><span data-stu-id="c1962-131">Find SharePoint URLs for all private channels in a team</span></span>
 
-<span data-ttu-id="2616c-132">プライベートチャネルのファイルに対して電子情報開示または法的保持を実行することを検討している場合、または特定のプライベートチャネルにファイルを配置するカスタムアプリを構築する場合は、プライベートチャネルごとに作成された固有の SharePoint サイトコレクションを照会する方法が必要になります。</span><span class="sxs-lookup"><span data-stu-id="2616c-132">Whether you're looking to perform eDiscovery or legal hold on files in a private channel or looking to build a custom app that places files in specific private channels, you'll want a way to query the unique SharePoint site collections that are created for each private channel.</span></span>
+<span data-ttu-id="c1962-132">プライベートチャネルのファイルに対して電子情報開示または法的保持を実行することを検討している場合、または特定のプライベートチャネルにファイルを配置するカスタムアプリを構築する場合は、プライベートチャネルごとに作成された固有の SharePoint サイトコレクションを照会する方法が必要になります。</span><span class="sxs-lookup"><span data-stu-id="c1962-132">Whether you're looking to perform eDiscovery or legal hold on files in a private channel or looking to build a custom app that places files in specific private channels, you'll want a way to query the unique SharePoint site collections that are created for each private channel.</span></span>
 
-<span data-ttu-id="2616c-133">管理者として、PowerShell または Graph Api コマンドを使って、これらの Url を照会することができます。</span><span class="sxs-lookup"><span data-stu-id="2616c-133">As an admin, you can use PowerShell or Graph APIs commands to query these URLs.</span></span>
+<span data-ttu-id="c1962-133">管理者として、PowerShell または Graph Api コマンドを使って、これらの Url を照会することができます。</span><span class="sxs-lookup"><span data-stu-id="c1962-133">As an admin, you can use PowerShell or Graph APIs commands to query these URLs.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="2616c-134">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="2616c-134">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="c1962-134">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="c1962-134">Using PowerShell</span></span>
 
-1. <span data-ttu-id="2616c-135">管理者アカウントを使用して、 [SharePoint Online 管理シェル](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)をインストールして接続します。</span><span class="sxs-lookup"><span data-stu-id="2616c-135">Install and connect to the [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) with your admin account.</span></span>
-2. <span data-ttu-id="2616c-136">&lt;Group_id &gt; がチームのグループ id である場合は、次のように実行します。</span><span class="sxs-lookup"><span data-stu-id="2616c-136">Run the following, where &lt;group_id&gt; is the Group ID of the team.</span></span> <span data-ttu-id="2616c-137">(チームへのリンクでグループ ID を簡単に見つけることができます。)</span><span class="sxs-lookup"><span data-stu-id="2616c-137">(You can easily find the Group ID in the link to the team.)</span></span>
+1. <span data-ttu-id="c1962-135">管理者アカウントを使用して、 [SharePoint Online 管理シェル](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)をインストールして接続します。</span><span class="sxs-lookup"><span data-stu-id="c1962-135">Install and connect to the [SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) with your admin account.</span></span>
+2. <span data-ttu-id="c1962-136">&lt;Group_id &gt; がチームのグループ id である場合は、次のように実行します。</span><span class="sxs-lookup"><span data-stu-id="c1962-136">Run the following, where &lt;group_id&gt; is the Group ID of the team.</span></span> <span data-ttu-id="c1962-137">(チームへのリンクでグループ ID を簡単に見つけることができます。)</span><span class="sxs-lookup"><span data-stu-id="c1962-137">(You can easily find the Group ID in the link to the team.)</span></span>
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -112,19 +112,19 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     {$x.RelatedGroupId;$x.url}}
     ```
 
-### <a name="using-graph-api"></a><span data-ttu-id="2616c-138">Graph API を使用する</span><span class="sxs-lookup"><span data-stu-id="2616c-138">Using Graph API</span></span>
+### <a name="using-graph-api"></a><span data-ttu-id="c1962-138">Graph API を使用する</span><span class="sxs-lookup"><span data-stu-id="c1962-138">Using Graph API</span></span>
 
-<span data-ttu-id="2616c-139">これらのコマンドは、 [Graph エクスプローラ](https://developer.microsoft.com/graph/graph-explorer)から試すことができます。</span><span class="sxs-lookup"><span data-stu-id="2616c-139">You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).</span></span>
+<span data-ttu-id="c1962-139">これらのコマンドは、 [Graph エクスプローラ](https://developer.microsoft.com/graph/graph-explorer)から試すことができます。</span><span class="sxs-lookup"><span data-stu-id="c1962-139">You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).</span></span>
 
-1. <span data-ttu-id="2616c-140">以下を使用して、特定のチームのプライベートチャネル Id の一覧を取得します。ここで <group_id> はチームのグループ ID です。</span><span class="sxs-lookup"><span data-stu-id="2616c-140">Use the following to get the list of private channel IDs for a given team, where <group_id> is the group ID of the team.</span></span> <span data-ttu-id="2616c-141">以降の通話では、この機能が必要になります。</span><span class="sxs-lookup"><span data-stu-id="2616c-141">You'll need this in subsequent calls.</span></span> <span data-ttu-id="2616c-142">(チームへのリンクからグループ ID を簡単に見つけることができます)。</span><span class="sxs-lookup"><span data-stu-id="2616c-142">(You can easily find the group ID in the link to the team).</span></span>
+1. <span data-ttu-id="c1962-140">以下を使用して、特定のチームのプライベートチャネル Id の一覧を取得します。ここで <group_id> はチームのグループ ID です。</span><span class="sxs-lookup"><span data-stu-id="c1962-140">Use the following to get the list of private channel IDs for a given team, where <group_id> is the group ID of the team.</span></span> <span data-ttu-id="c1962-141">以降の通話では、この機能が必要になります。</span><span class="sxs-lookup"><span data-stu-id="c1962-141">You'll need this in subsequent calls.</span></span> <span data-ttu-id="c1962-142">(チームへのリンクからグループ ID を簡単に見つけることができます)。</span><span class="sxs-lookup"><span data-stu-id="c1962-142">(You can easily find the group ID in the link to the team).</span></span>
 
-    <span data-ttu-id="2616c-143">**要求**</span><span class="sxs-lookup"><span data-stu-id="2616c-143">**Request**</span></span>
+    <span data-ttu-id="c1962-143">**要求**</span><span class="sxs-lookup"><span data-stu-id="c1962-143">**Request**</span></span>
 
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
-    <span data-ttu-id="2616c-144">**応答**</span><span class="sxs-lookup"><span data-stu-id="2616c-144">**Response**</span></span>
+    <span data-ttu-id="c1962-144">**応答**</span><span class="sxs-lookup"><span data-stu-id="c1962-144">**Response**</span></span>
 
     ```Graph API
     HTTP/1.1 200 OK
@@ -146,15 +146,15 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. <span data-ttu-id="2616c-145">SharePoint URL を取得するプライベートチャネルごとに、次のように要求し &lt; ます。ここで channel_id &gt; はチャネル id です。</span><span class="sxs-lookup"><span data-stu-id="2616c-145">For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel ID.</span></span>
+2. <span data-ttu-id="c1962-145">SharePoint URL を取得するプライベートチャネルごとに、次のように要求し &lt; ます。ここで channel_id &gt; はチャネル id です。</span><span class="sxs-lookup"><span data-stu-id="c1962-145">For each private channel which you want to get the SharePoint URL, make the following request, where &lt;channel_id&gt; is the channel ID.</span></span>
 
-    <span data-ttu-id="2616c-146">**要求**</span><span class="sxs-lookup"><span data-stu-id="2616c-146">**Request**</span></span>
+    <span data-ttu-id="c1962-146">**要求**</span><span class="sxs-lookup"><span data-stu-id="c1962-146">**Request**</span></span>
 
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
-    <span data-ttu-id="2616c-147">**応答**</span><span class="sxs-lookup"><span data-stu-id="2616c-147">**Response**</span></span>
+    <span data-ttu-id="c1962-147">**応答**</span><span class="sxs-lookup"><span data-stu-id="c1962-147">**Response**</span></span>
 
     ```Graph API
     HTTP/1.1 200 OK
@@ -176,43 +176,43 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-## <a name="list-and-update-roles-of-owners-and-members-in-a-private-channel"></a><span data-ttu-id="2616c-148">プライベートチャネルの所有者とメンバーの役割をリストして更新する</span><span class="sxs-lookup"><span data-stu-id="2616c-148">List and update roles of owners and members in a private channel</span></span>
+## <a name="list-and-update-roles-of-owners-and-members-in-a-private-channel"></a><span data-ttu-id="c1962-148">プライベートチャネルの所有者とメンバーの役割をリストして更新する</span><span class="sxs-lookup"><span data-stu-id="c1962-148">List and update roles of owners and members in a private channel</span></span>
 
-<span data-ttu-id="2616c-149">プライベートチャネルの所有者とメンバーの一覧を表示して、プライベートチャネルの特定のメンバーを所有者に昇格させる必要があるかどうかを判断することができます。</span><span class="sxs-lookup"><span data-stu-id="2616c-149">You may want to list out the owners and members of a private channel to decide whether you need to promote certain members of the private channel to an owner.</span></span> <span data-ttu-id="2616c-150">この問題は、プライベートチャネルの所有者が組織を離れていて、プライベートチャネルでチャネルの所有権を要求するために管理者のヘルプが必要な場合に発生します。</span><span class="sxs-lookup"><span data-stu-id="2616c-150">This can happen when you have owners of private channels who have left the organization and the private channel requires admin help to claim ownership of the channel.</span></span>
+<span data-ttu-id="c1962-149">プライベートチャネルの所有者とメンバーの一覧を表示して、プライベートチャネルの特定のメンバーを所有者に昇格させる必要があるかどうかを判断することができます。</span><span class="sxs-lookup"><span data-stu-id="c1962-149">You may want to list out the owners and members of a private channel to decide whether you need to promote certain members of the private channel to an owner.</span></span> <span data-ttu-id="c1962-150">この問題は、プライベートチャネルの所有者が組織を離れていて、プライベートチャネルでチャネルの所有権を要求するために管理者のヘルプが必要な場合に発生します。</span><span class="sxs-lookup"><span data-stu-id="c1962-150">This can happen when you have owners of private channels who have left the organization and the private channel requires admin help to claim ownership of the channel.</span></span>
 
-<span data-ttu-id="2616c-151">管理者は、Microsoft Teams 管理センター、PowerShell、または Graph API を使って、これらの操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="2616c-151">As an admin, you can use the Microsoft Teams admin center, PowerShell, or Graph API to perform these actions.</span></span>
+<span data-ttu-id="c1962-151">管理者は、Microsoft Teams 管理センター、PowerShell、または Graph API を使って、これらの操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="c1962-151">As an admin, you can use the Microsoft Teams admin center, PowerShell, or Graph API to perform these actions.</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="2616c-152">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="2616c-152">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="c1962-152">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="c1962-152">Using the Microsoft Teams admin center</span></span>
 
-<span data-ttu-id="2616c-153">Microsoft Teams 管理センターを使用してチームメンバーを管理する方法については、「 [Microsoft teams 管理センターで](manage-teams-in-modern-portal.md)チームを管理する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2616c-153">To learn how to manage team members using the Microsoft Teams admin center, see [Manage teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md).</span></span>
+<span data-ttu-id="c1962-153">Microsoft Teams 管理センターを使用してチームメンバーを管理する方法については、「 [Microsoft teams 管理センターで](manage-teams-in-modern-portal.md)チームを管理する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c1962-153">To learn how to manage team members using the Microsoft Teams admin center, see [Manage teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md).</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="2616c-154">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="2616c-154">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="c1962-154">PowerShell を使用する場合</span><span class="sxs-lookup"><span data-stu-id="c1962-154">Using PowerShell</span></span>
 
-1. <span data-ttu-id="2616c-155">次を実行し &lt; ます。ここでは、group_id &gt; がチームのグループ id で &lt; あり、channel_name &gt; がチャネル名であることを示します。</span><span class="sxs-lookup"><span data-stu-id="2616c-155">Run the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_name&gt; is the channel name.</span></span>
+1. <span data-ttu-id="c1962-155">次を実行し &lt; ます。ここでは、group_id &gt; がチームのグループ id で &lt; あり、channel_name &gt; がチャネル名であることを示します。</span><span class="sxs-lookup"><span data-stu-id="c1962-155">Run the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_name&gt; is the channel name.</span></span>
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" 
     ```
 
-2. <span data-ttu-id="2616c-156">メンバーを所有者に昇格させます。</span><span class="sxs-lookup"><span data-stu-id="2616c-156">Promote a member to an owner.</span></span>
+2. <span data-ttu-id="c1962-156">メンバーを所有者に昇格させます。</span><span class="sxs-lookup"><span data-stu-id="c1962-156">Promote a member to an owner.</span></span>
 
     ```PowerShell
     Add-TeamChannelUser -GroupId <group_id> -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
-### <a name="using-graph-api"></a><span data-ttu-id="2616c-157">Graph API を使用する</span><span class="sxs-lookup"><span data-stu-id="2616c-157">Using Graph API</span></span>
+### <a name="using-graph-api"></a><span data-ttu-id="c1962-157">Graph API を使用する</span><span class="sxs-lookup"><span data-stu-id="c1962-157">Using Graph API</span></span>
 
-<span data-ttu-id="2616c-158">これらのコマンドは、 [Graph エクスプローラ](https://developer.microsoft.com/graph/graph-explorer)から試すことができます。</span><span class="sxs-lookup"><span data-stu-id="2616c-158">You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).</span></span>
+<span data-ttu-id="c1962-158">これらのコマンドは、 [Graph エクスプローラ](https://developer.microsoft.com/graph/graph-explorer)から試すことができます。</span><span class="sxs-lookup"><span data-stu-id="c1962-158">You can try these commands through [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).</span></span>
 
-1. <span data-ttu-id="2616c-159">以下を使用します。ここでは、 &lt; group_id &gt; がチームのグループ id で &lt; あり、CHANNEL_ID &gt; がチャネル id です。</span><span class="sxs-lookup"><span data-stu-id="2616c-159">Use the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_id&gt; is the channel ID.</span></span>
+1. <span data-ttu-id="c1962-159">以下を使用します。ここでは、 &lt; group_id &gt; がチームのグループ id で &lt; あり、CHANNEL_ID &gt; がチャネル id です。</span><span class="sxs-lookup"><span data-stu-id="c1962-159">Use the following, where &lt;group_id&gt; is the group ID of the team and &lt;channel_id&gt; is the channel ID.</span></span>
 
-    <span data-ttu-id="2616c-160">**要求**</span><span class="sxs-lookup"><span data-stu-id="2616c-160">**Request**</span></span>
+    <span data-ttu-id="c1962-160">**要求**</span><span class="sxs-lookup"><span data-stu-id="c1962-160">**Request**</span></span>
 
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
     
-    <span data-ttu-id="2616c-161">**応答**</span><span class="sxs-lookup"><span data-stu-id="2616c-161">**Response**</span></span>
+    <span data-ttu-id="c1962-161">**応答**</span><span class="sxs-lookup"><span data-stu-id="c1962-161">**Response**</span></span>
 
     ```Graph API
     HTTP/1.1 200 OK Content-type: application/json
@@ -240,9 +240,9 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
           ]
     }
     ```    
-2. <span data-ttu-id="2616c-162">メンバーを所有者に昇格させるには、次のようにし &lt; &gt; &lt; ます。 group_id、channel_id &gt; 、 &lt; id &gt; は前の呼び出しから返されます。</span><span class="sxs-lookup"><span data-stu-id="2616c-162">Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call.</span></span> <span data-ttu-id="2616c-163">ただし、 &lt; &gt; &lt; &gt; 前の通話から返された id と userId は同じではないため、互換性がありません。</span><span class="sxs-lookup"><span data-stu-id="2616c-163">Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable.</span></span> <span data-ttu-id="2616c-164">Id を使用していることを確認してください &lt; &gt; 。</span><span class="sxs-lookup"><span data-stu-id="2616c-164">Make sure you use &lt;id&gt;.</span></span>
+2. <span data-ttu-id="c1962-162">メンバーを所有者に昇格させるには、次のようにし &lt; &gt; &lt; ます。 group_id、channel_id &gt; 、 &lt; id &gt; は前の呼び出しから返されます。</span><span class="sxs-lookup"><span data-stu-id="c1962-162">Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call.</span></span> <span data-ttu-id="c1962-163">ただし、 &lt; &gt; &lt; &gt; 前の通話から返された id と userId は同じではないため、互換性がありません。</span><span class="sxs-lookup"><span data-stu-id="c1962-163">Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable.</span></span> <span data-ttu-id="c1962-164">Id を使用していることを確認してください &lt; &gt; 。</span><span class="sxs-lookup"><span data-stu-id="c1962-164">Make sure you use &lt;id&gt;.</span></span>
 
-    <span data-ttu-id="2616c-165">**要求**</span><span class="sxs-lookup"><span data-stu-id="2616c-165">**Request**</span></span>
+    <span data-ttu-id="c1962-165">**要求**</span><span class="sxs-lookup"><span data-stu-id="c1962-165">**Request**</span></span>
 
     ```Graph API
     PATCH 
@@ -254,7 +254,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-    <span data-ttu-id="2616c-166">**応答**</span><span class="sxs-lookup"><span data-stu-id="2616c-166">**Response**</span></span>
+    <span data-ttu-id="c1962-166">**応答**</span><span class="sxs-lookup"><span data-stu-id="c1962-166">**Response**</span></span>
 
     ```Graph API
     HTTP/1.1 200 OK
@@ -271,12 +271,12 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
      }
     ```
 
-## <a name="related-topics"></a><span data-ttu-id="2616c-167">関連項目</span><span class="sxs-lookup"><span data-stu-id="2616c-167">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c1962-167">関連項目</span><span class="sxs-lookup"><span data-stu-id="c1962-167">Related topics</span></span>
 
-- [<span data-ttu-id="2616c-168">Teams での PowerShell の概要</span><span class="sxs-lookup"><span data-stu-id="2616c-168">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
-- [<span data-ttu-id="2616c-169">Microsoft Graph API を使用して Teams で作業する</span><span class="sxs-lookup"><span data-stu-id="2616c-169">Use the Microsoft Graph API to work with Teams</span></span>](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
-    - [<span data-ttu-id="2616c-170">リストチャネル</span><span class="sxs-lookup"><span data-stu-id="2616c-170">List channels</span></span>](https://docs.microsoft.com/graph/api/channel-list)
-    - [<span data-ttu-id="2616c-171">チャネルを作成する</span><span class="sxs-lookup"><span data-stu-id="2616c-171">Create channel</span></span>](https://docs.microsoft.com/graph/api/channel-post)
-    - [<span data-ttu-id="2616c-172">チャネルにメンバーを追加する</span><span class="sxs-lookup"><span data-stu-id="2616c-172">Add member to channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-add)
-    - [<span data-ttu-id="2616c-173">チャンネルのメンバーの更新</span><span class="sxs-lookup"><span data-stu-id="2616c-173">Update member in channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-update)
-    - [<span data-ttu-id="2616c-174">チャネルからメンバーを削除する</span><span class="sxs-lookup"><span data-stu-id="2616c-174">Remove member from channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-delete)
+- [<span data-ttu-id="c1962-168">Teams での PowerShell の概要</span><span class="sxs-lookup"><span data-stu-id="c1962-168">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
+- [<span data-ttu-id="c1962-169">Microsoft Graph API を使用して Teams で作業する</span><span class="sxs-lookup"><span data-stu-id="c1962-169">Use the Microsoft Graph API to work with Teams</span></span>](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+    - [<span data-ttu-id="c1962-170">リストチャネル</span><span class="sxs-lookup"><span data-stu-id="c1962-170">List channels</span></span>](https://docs.microsoft.com/graph/api/channel-list)
+    - [<span data-ttu-id="c1962-171">チャネルを作成する</span><span class="sxs-lookup"><span data-stu-id="c1962-171">Create channel</span></span>](https://docs.microsoft.com/graph/api/channel-post)
+    - [<span data-ttu-id="c1962-172">チャネルにメンバーを追加する</span><span class="sxs-lookup"><span data-stu-id="c1962-172">Add member to channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-add)
+    - [<span data-ttu-id="c1962-173">チャンネルのメンバーの更新</span><span class="sxs-lookup"><span data-stu-id="c1962-173">Update member in channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-update)
+    - [<span data-ttu-id="c1962-174">チャネルからメンバーを削除する</span><span class="sxs-lookup"><span data-stu-id="c1962-174">Remove member from channel</span></span>](https://docs.microsoft.com/graph/api/conversationmember-delete)

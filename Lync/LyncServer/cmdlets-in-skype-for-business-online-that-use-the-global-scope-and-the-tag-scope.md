@@ -20,58 +20,58 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44755077"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a><span data-ttu-id="adc5c-102">グローバルスコープとタグスコープを使用する Skype for Business Online のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="adc5c-102">Cmdlets in Skype for Business Online that use the global scope and the tag scope</span></span>
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a><span data-ttu-id="cf9e3-102">グローバルスコープとタグスコープを使用する Skype for Business Online のコマンドレット</span><span class="sxs-lookup"><span data-stu-id="cf9e3-102">Cmdlets in Skype for Business Online that use the global scope and the tag scope</span></span>
 
  
 
 
-<span data-ttu-id="adc5c-103">Skype for Business Online では、ポリシーは、*グローバルスコープ*または*タグの範囲*(または*ユーザーごとのスコープ*) のいずれかで構成できます。</span><span class="sxs-lookup"><span data-stu-id="adc5c-103">In Skype for Business Online, policies can be configured at either the *global scope* or at the *tag scope* (or *per-user scope*).</span></span> <span data-ttu-id="adc5c-104">**Get-Cs**コマンドレットを使用する場合、スコープまたは id を指定する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="adc5c-104">When using the **Get-Cs** cmdlets, you do not have to specify a scope or identity.</span></span> <span data-ttu-id="adc5c-105">パラメーターを指定せずにこれらのコマンドレットのいずれかを呼び出すと、関連するすべての項目が返されます。</span><span class="sxs-lookup"><span data-stu-id="adc5c-105">If you call one of these cmdlets without any parameters, then all the relevant items will be returned.</span></span> <span data-ttu-id="adc5c-106">たとえば、次のコマンドを実行すると、すべての外部アクセスポリシーに関する情報が戻されます。</span><span class="sxs-lookup"><span data-stu-id="adc5c-106">For example, this command returns information about all your external access policies:</span></span>
+<span data-ttu-id="cf9e3-103">Skype for Business Online では、ポリシーは、*グローバルスコープ*または*タグの範囲*(または*ユーザーごとのスコープ*) のいずれかで構成できます。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-103">In Skype for Business Online, policies can be configured at either the *global scope* or at the *tag scope* (or *per-user scope*).</span></span> <span data-ttu-id="cf9e3-104">**Get-Cs**コマンドレットを使用する場合、スコープまたは id を指定する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-104">When using the **Get-Cs** cmdlets, you do not have to specify a scope or identity.</span></span> <span data-ttu-id="cf9e3-105">パラメーターを指定せずにこれらのコマンドレットのいずれかを呼び出すと、関連するすべての項目が返されます。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-105">If you call one of these cmdlets without any parameters, then all the relevant items will be returned.</span></span> <span data-ttu-id="cf9e3-106">たとえば、次のコマンドを実行すると、すべての外部アクセスポリシーに関する情報が戻されます。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-106">For example, this command returns information about all your external access policies:</span></span>
 
     Get-CsExternalAccessPolicy
 
-<span data-ttu-id="adc5c-107">返されるデータを制限する場合は、Identity パラメーターまたは Filter パラメーターのみを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="adc5c-107">You need to include only the Identity parameter or the Filter parameter if you want to limit the returned data.</span></span> <span data-ttu-id="adc5c-108">たとえば、グローバルポリシーのみを返すには、次のコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="adc5c-108">For example, to return only the global policy, use this command:</span></span>
+<span data-ttu-id="cf9e3-107">返されるデータを制限する場合は、Identity パラメーターまたは Filter パラメーターのみを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-107">You need to include only the Identity parameter or the Filter parameter if you want to limit the returned data.</span></span> <span data-ttu-id="cf9e3-108">たとえば、グローバルポリシーのみを返すには、次のコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-108">For example, to return only the global policy, use this command:</span></span>
 
     Get-CsExternalAccessPolicy -Identity "global"
 
-<span data-ttu-id="adc5c-109">Id が "RedmondAccessPolicy" のユーザーごとのポリシーを返すには、次のコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="adc5c-109">To return a per-user policy that has the Identity “RedmondAccessPolicy”, use this command:</span></span>
+<span data-ttu-id="cf9e3-109">Id が "RedmondAccessPolicy" のユーザーごとのポリシーを返すには、次のコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-109">To return a per-user policy that has the Identity “RedmondAccessPolicy”, use this command:</span></span>
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
 
 > [!NOTE]  
-> <span data-ttu-id="adc5c-110">ユーザーごとのポリシーを参照する場合、タグ<STRONG>プリフィックス</STRONG>はオプションです。</span><span class="sxs-lookup"><span data-stu-id="adc5c-110">When referencing a per-user policy, the tag <STRONG>prefix</STRONG> is optional.</span></span> <span data-ttu-id="adc5c-111">この構文は、プレフィックスを含むので、次のようにも有効です。</span><span class="sxs-lookup"><span data-stu-id="adc5c-111">This syntax, which includes the prefix, is also valid:</span></span><BR><span data-ttu-id="adc5c-112">Get-csexternalaccesspolicy – Identity "タグ: RedmondAccessPolicy"</span><span class="sxs-lookup"><span data-stu-id="adc5c-112">Get-CsExternalAccessPolicy –Identity "tag:RedmondAccessPolicy"</span></span>
+> <span data-ttu-id="cf9e3-110">ユーザーごとのポリシーを参照する場合、タグ<STRONG>プリフィックス</STRONG>はオプションです。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-110">When referencing a per-user policy, the tag <STRONG>prefix</STRONG> is optional.</span></span> <span data-ttu-id="cf9e3-111">この構文は、プレフィックスを含むので、次のようにも有効です。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-111">This syntax, which includes the prefix, is also valid:</span></span><BR><span data-ttu-id="cf9e3-112">Get-csexternalaccesspolicy – Identity "タグ: RedmondAccessPolicy"</span><span class="sxs-lookup"><span data-stu-id="cf9e3-112">Get-CsExternalAccessPolicy –Identity "tag:RedmondAccessPolicy"</span></span>
 
 
 
-<span data-ttu-id="adc5c-113">グローバルポリシー (つまり、すべてのユーザーごとのポリシー) を除くすべてのポリシーを戻すには、次のコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="adc5c-113">To return all policies except the global policies (that is, all the per-user policies), use this command:</span></span>
+<span data-ttu-id="cf9e3-113">グローバルポリシー (つまり、すべてのユーザーごとのポリシー) を除くすべてのポリシーを戻すには、次のコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-113">To return all policies except the global policies (that is, all the per-user policies), use this command:</span></span>
 
     Get-CsExternalAccessPolicy -Filter "tag:*"
 
-<span data-ttu-id="adc5c-114">次のコマンドレットは、グローバルスコープとユーザーごと (タグ) スコープの両方に対して動作します。</span><span class="sxs-lookup"><span data-stu-id="adc5c-114">The following cmdlets operate against both the global scope and the per-user (tag) scope:</span></span>
+<span data-ttu-id="cf9e3-114">次のコマンドレットは、グローバルスコープとユーザーごと (タグ) スコープの両方に対して動作します。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-114">The following cmdlets operate against both the global scope and the per-user (tag) scope:</span></span>
 
-  - <span data-ttu-id="adc5c-115">[Get-CsClientPolicy](https://technet.microsoft.com/library/gg398830\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="adc5c-115">[Get-CsClientPolicy](https://technet.microsoft.com/library/gg398830\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="cf9e3-115">[Get-CsClientPolicy](https://technet.microsoft.com/library/gg398830\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="cf9e3-115">[Get-CsClientPolicy](https://technet.microsoft.com/library/gg398830\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="adc5c-116">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/gg398293\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="adc5c-116">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/gg398293\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="cf9e3-116">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/gg398293\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="cf9e3-116">[Get-CsConferencingPolicy](https://technet.microsoft.com/library/gg398293\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="adc5c-117">[Get-CsDialPlan](https://technet.microsoft.com/library/gg413043\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="adc5c-117">[Get-CsDialPlan](https://technet.microsoft.com/library/gg413043\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="cf9e3-117">[Get-CsDialPlan](https://technet.microsoft.com/library/gg413043\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="cf9e3-117">[Get-CsDialPlan](https://technet.microsoft.com/library/gg413043\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="adc5c-118">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/gg425805\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="adc5c-118">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/gg425805\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="cf9e3-118">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/gg425805\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="cf9e3-118">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/library/gg425805\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="adc5c-119">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/gg398348\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="adc5c-119">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/gg398348\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="cf9e3-119">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/gg398348\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="cf9e3-119">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/gg398348\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="adc5c-120">[Get-CsPresencePolicy](https://technet.microsoft.com/library/gg398463\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="adc5c-120">[Get-CsPresencePolicy](https://technet.microsoft.com/library/gg398463\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="cf9e3-120">[Get-CsPresencePolicy](https://technet.microsoft.com/library/gg398463\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="cf9e3-120">[Get-CsPresencePolicy](https://technet.microsoft.com/library/gg398463\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="adc5c-121">[Get-CsVoicePolicy](https://technet.microsoft.com/library/gg398101\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="adc5c-121">[Get-CsVoicePolicy](https://technet.microsoft.com/library/gg398101\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="cf9e3-121">[Get-CsVoicePolicy](https://technet.microsoft.com/library/gg398101\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="cf9e3-121">[Get-CsVoicePolicy](https://technet.microsoft.com/library/gg398101\(v=ocs.15\))</span></span>
 
 
 > [!NOTE]  
-> <span data-ttu-id="adc5c-122">名前にかかわらず、ダイヤルプランは、機能的には、ポリシーになります。</span><span class="sxs-lookup"><span data-stu-id="adc5c-122">Despite the name, dial plans are, functionally speaking, policies.</span></span> <span data-ttu-id="adc5c-123">以前のバージョンの Lync Server で使用されていた用語を保持するために、ダイヤルポリシーなどの代わりに、"<EM>ダイヤルプラン</EM>" という用語を使用します。</span><span class="sxs-lookup"><span data-stu-id="adc5c-123">The term <EM>dial plan</EM> is used instead of, for example, dialing policy, in order to preserve the terminology used with previous versions of Lync Server.</span></span>
+> <span data-ttu-id="cf9e3-122">名前にかかわらず、ダイヤルプランは、機能的には、ポリシーになります。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-122">Despite the name, dial plans are, functionally speaking, policies.</span></span> <span data-ttu-id="cf9e3-123">以前のバージョンの Lync Server で使用されていた用語を保持するために、ダイヤルポリシーなどの代わりに、"<EM>ダイヤルプラン</EM>" という用語を使用します。</span><span class="sxs-lookup"><span data-stu-id="cf9e3-123">The term <EM>dial plan</EM> is used instead of, for example, dialing policy, in order to preserve the terminology used with previous versions of Lync Server.</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="adc5c-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="adc5c-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cf9e3-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="cf9e3-124">See Also</span></span>
 
 
-[<span data-ttu-id="adc5c-125">Skype for Business Online の id、スコープ、およびテナント</span><span class="sxs-lookup"><span data-stu-id="adc5c-125">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-<span data-ttu-id="adc5c-126">[Skype for Business Online のコマンドレット](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="adc5c-126">[The Skype for Business Online cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span></span>
+[<span data-ttu-id="cf9e3-125">Skype for Business Online の id、スコープ、およびテナント</span><span class="sxs-lookup"><span data-stu-id="cf9e3-125">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="cf9e3-126">[Skype for Business Online のコマンドレット](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="cf9e3-126">[The Skype for Business Online cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))</span></span>
 

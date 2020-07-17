@@ -25,7 +25,7 @@ ms.locfileid: "44757228"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-merge-topologies"></a><span data-ttu-id="dfd85-102">フェーズ 4: トポロジを結合する</span><span class="sxs-lookup"><span data-stu-id="dfd85-102">Phase 4: Merge topologies</span></span>
+# <a name="phase-4-merge-topologies"></a><span data-ttu-id="80744-102">フェーズ 4: トポロジを結合する</span><span class="sxs-lookup"><span data-stu-id="80744-102">Phase 4: Merge topologies</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "44757228"
 
 <span> </span>
 
-<span data-ttu-id="dfd85-103">_**トピックの最終更新日:** 2012-03-29_</span><span class="sxs-lookup"><span data-stu-id="dfd85-103">_**Topic Last Modified:** 2012-03-29_</span></span>
+<span data-ttu-id="80744-103">_**トピックの最終更新日:** 2012-03-29_</span><span class="sxs-lookup"><span data-stu-id="80744-103">_**Topic Last Modified:** 2012-03-29_</span></span>
 
-<span data-ttu-id="dfd85-104">次のトピックでは、Microsoft Office Communications Server 2007 R2 プールを Microsoft Lync Server 2013 プールにマージするために必要な手順の概要を説明します。</span><span class="sxs-lookup"><span data-stu-id="dfd85-104">The following topics outline the steps needed to merge your Microsoft Office Communications Server 2007 R2 pools to Microsoft Lync Server 2013 pools.</span></span> <span data-ttu-id="dfd85-105">最初に、トポロジ ビルダー結合ウィザードを使用して、トポロジ情報を結合します。</span><span class="sxs-lookup"><span data-stu-id="dfd85-105">First, you use the Topology Builder Merge wizard to merge topology information.</span></span> <span data-ttu-id="dfd85-106">このツールは、エッジサーバー情報を含む Office Communications Server 2007 R2 環境に関する情報を収集し、その情報を Lync Server 2013 と共有するデータベースに公開します。</span><span class="sxs-lookup"><span data-stu-id="dfd85-106">This tool collects information about your Office Communications Server 2007 R2 environment, including Edge Server information, and publishes that information to a database shared with Lync Server 2013.</span></span> <span data-ttu-id="dfd85-107">マージされたトポロジを公開した後は、トポロジビルダーを使用して、Office Communications Server 2007 R2 のトポロジ情報と、新しく展開した Lync Server 2013 トポロジに関する情報を表示します。</span><span class="sxs-lookup"><span data-stu-id="dfd85-107">After you publish the merged topology, Topology Builder is used to view the Office Communications Server 2007 R2 topology information and information about the newly deployed Lync Server 2013 topology.</span></span> <span data-ttu-id="dfd85-108">最後に、Lync Server 管理シェル コマンドレットを使用して、ポリシーと構成設定をインポートします。</span><span class="sxs-lookup"><span data-stu-id="dfd85-108">Finally, you use Lync Server Management Shell cmdlets to import policies and configuration settings.</span></span>
+<span data-ttu-id="80744-104">次のトピックでは、Microsoft Office Communications Server 2007 R2 プールを Microsoft Lync Server 2013 プールにマージするために必要な手順の概要を説明します。</span><span class="sxs-lookup"><span data-stu-id="80744-104">The following topics outline the steps needed to merge your Microsoft Office Communications Server 2007 R2 pools to Microsoft Lync Server 2013 pools.</span></span> <span data-ttu-id="80744-105">最初に、トポロジ ビルダー結合ウィザードを使用して、トポロジ情報を結合します。</span><span class="sxs-lookup"><span data-stu-id="80744-105">First, you use the Topology Builder Merge wizard to merge topology information.</span></span> <span data-ttu-id="80744-106">このツールは、エッジサーバー情報を含む Office Communications Server 2007 R2 環境に関する情報を収集し、その情報を Lync Server 2013 と共有するデータベースに公開します。</span><span class="sxs-lookup"><span data-stu-id="80744-106">This tool collects information about your Office Communications Server 2007 R2 environment, including Edge Server information, and publishes that information to a database shared with Lync Server 2013.</span></span> <span data-ttu-id="80744-107">マージされたトポロジを公開した後は、トポロジビルダーを使用して、Office Communications Server 2007 R2 のトポロジ情報と、新しく展開した Lync Server 2013 トポロジに関する情報を表示します。</span><span class="sxs-lookup"><span data-stu-id="80744-107">After you publish the merged topology, Topology Builder is used to view the Office Communications Server 2007 R2 topology information and information about the newly deployed Lync Server 2013 topology.</span></span> <span data-ttu-id="80744-108">最後に、Lync Server 管理シェル コマンドレットを使用して、ポリシーと構成設定をインポートします。</span><span class="sxs-lookup"><span data-stu-id="80744-108">Finally, you use Lync Server Management Shell cmdlets to import policies and configuration settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="dfd85-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="dfd85-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="80744-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="80744-109">In This Section</span></span>
 
-  - [<span data-ttu-id="dfd85-110">WMI 下位互換パッケージをインストールする</span><span class="sxs-lookup"><span data-stu-id="dfd85-110">Install WMI Backward Compatibility package</span></span>](install-wmi-backward-compatibility-package.md)
+  - [<span data-ttu-id="80744-110">WMI 下位互換パッケージをインストールする</span><span class="sxs-lookup"><span data-stu-id="80744-110">Install WMI Backward Compatibility package</span></span>](install-wmi-backward-compatibility-package.md)
 
-  - [<span data-ttu-id="dfd85-111">トポロジビルダーマージウィザードを使用したマージ</span><span class="sxs-lookup"><span data-stu-id="dfd85-111">Merge using Topology Builder Merge wizard</span></span>](merge-using-topology-builder-merge-wizard.md)
+  - [<span data-ttu-id="80744-111">トポロジビルダーマージウィザードを使用したマージ</span><span class="sxs-lookup"><span data-stu-id="80744-111">Merge using Topology Builder Merge wizard</span></span>](merge-using-topology-builder-merge-wizard.md)
 
-  - [<span data-ttu-id="dfd85-112">ポリシーと設定をインポートする</span><span class="sxs-lookup"><span data-stu-id="dfd85-112">Import policies and settings</span></span>](import-policies-and-settings.md)
+  - [<span data-ttu-id="80744-112">ポリシーと設定をインポートする</span><span class="sxs-lookup"><span data-stu-id="80744-112">Import policies and settings</span></span>](import-policies-and-settings.md)
 
-  - [<span data-ttu-id="dfd85-113">トポロジの情報を確認する</span><span class="sxs-lookup"><span data-stu-id="dfd85-113">Verify topology information</span></span>](verify-topology-information.md)
+  - [<span data-ttu-id="80744-113">トポロジの情報を確認する</span><span class="sxs-lookup"><span data-stu-id="80744-113">Verify topology information</span></span>](verify-topology-information.md)
 
 </div>
 

@@ -19,8 +19,8 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44752989"
 ---
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="fff6c-104">システムとデータをバックアップする</span><span class="sxs-lookup"><span data-stu-id="fff6c-104">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="73840-104">システムとデータをバックアップする</span><span class="sxs-lookup"><span data-stu-id="73840-104">Back up systems and data</span></span>
 
-<span data-ttu-id="fff6c-105">移行を開始する前に、システムの完全バックアップを実行し、各プールに所属しているユーザーアカウントのインベントリを含む既存システムのドキュメントを作成して、必要になった場合にロールバックできるようにします。</span><span class="sxs-lookup"><span data-stu-id="fff6c-105">Before you begin the migration, perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back if it becomes necessary.</span></span> <span data-ttu-id="fff6c-106">データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。</span><span class="sxs-lookup"><span data-stu-id="fff6c-106">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
+<span data-ttu-id="73840-105">移行を開始する前に、システムの完全バックアップを実行し、各プールに所属しているユーザーアカウントのインベントリを含む既存システムのドキュメントを作成して、必要になった場合にロールバックできるようにします。</span><span class="sxs-lookup"><span data-stu-id="73840-105">Before you begin the migration, perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back if it becomes necessary.</span></span> <span data-ttu-id="73840-106">データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。</span><span class="sxs-lookup"><span data-stu-id="73840-106">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
 
-<span data-ttu-id="fff6c-107">詳細と手順については、「お使いのバージョンのバックアップと復元の手順」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fff6c-107">For details and procedures, see backup and restore procedures for your version.</span></span> 
+<span data-ttu-id="73840-107">詳細と手順については、「お使いのバージョンのバックアップと復元の手順」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="73840-107">For details and procedures, see backup and restore procedures for your version.</span></span> 
