@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021735"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166755"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -53,8 +53,8 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 | Lenovo ThinkSmart View                 | CD-18781Y                                                                                                                                                                                                                       | 2020年4月                   |
 | Poly 3 つ C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020年4月                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020 年 1 月                 |
-| Poly CCX600                            | 5.9.12.1111                                                                                                                                                                                                                                | 2020 年 1 月                 |
-| Poly CCX500                            | 5.9.12.1111                                                                                                                                                                                                                                | 2019 年 12 月                |
+| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 年 1 月                 |
+| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 年 12 月                |
 | Poly Trio 8500/8800 (共有モードのみ) | 5.9.0.10869                                                                                                                                                                                                                                | 2019 年 6 月                    |
 | Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | 2020 年 3 月                   |
 | Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | 2019 年 6 月                    |
@@ -91,6 +91,7 @@ Microsoft Teams では、次のコラボレーションバーが認定されて�
 
 | デバイスモデル        | ファームウェアのバージョン     | 含まれている製品のリリース |
 |:--------------------|:---------------------|:-------------------------|
+| AudioCodes の C448HD   | C450HD_TEAMS_1 4.208 | 更新 #4                |
 | AudioCodes の C450HD   | C450HD_TEAMS_1 4.208 | 更新 #4                |
 | Poly CCX400         | 1.0.1.0054           | 更新 #3                |
 | Poly CCX500/CCX600  | 5.9.13.0306          | 更新 #3                |

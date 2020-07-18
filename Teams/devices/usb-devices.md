@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: ヘッドセット、スピーカーフォン、web カメラ、モニターなどの USB 周辺機器とデバイスは、Microsoft Teams で認定されています。
-ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666109"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166745"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams で認定された USB オーディオデバイスおよびビデオデバイス
 
@@ -74,10 +74,11 @@ Teams での通話コントロールのサポートについて詳しくは、�
 
 ## <a name="certified-devices"></a>認定済みデバイス
 
-*更新されたテーブル2020*
+*2020年7月に更新された表*
 
 | [製造元]        | モデリング                                                     | 識別      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Bose                 |NC 700 ヘッドセット                                             |6/8/2020        |Microsoft Teams について認定済み|
 |Jabra evolve              | Jabra Link 370 USB ドングルを使って、750のスピーカーフォンを話す       | 5/21/2020 | Microsoft Teams について認定済み|
 | EPOS                | Sennheiser 660 のヘッドセットの調整                              | 5/15/2020      | Microsoft Teams について認定済み                          |
 | EPOS                | Sennheiser 560 のヘッドセットの調整                              | 5/15/2020      | Microsoft Teams について認定済み                          |
@@ -134,5 +135,5 @@ Teams での通話コントロールのサポートについて詳しくは、�
 | Polycom             | Elara                                                     | 11/06/2019     | Microsoft Teams について認定済み                          |
 | Polycom             | Studio のサウンドバー                                           | 10/18/2019     | Microsoft Teams について認定済み                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | Microsoft Teams について認定済み                          |
-| Jabra evolve               | PanaCast                                                  | 08/14/2019     | Microsoft に対して認定済み                                |
+| Jabra evolve               | PanaCast                                                  | 08/14/2019     | Microsoft Teams について認定済み                          |
 

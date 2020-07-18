@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell での最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5859aeb74e8966138b91d16e206cbd9d00cf0587
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 09014d3e7deba2797b46031efee81f537d2d6538
+ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077682"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170626"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell リリースノート
 
@@ -51,7 +51,7 @@ ms.locfileid: "45077682"
 | [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) | はい | はい |
 | [Disconnect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | はい | はい |
 | [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | はい | はい |
-| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | はい | はい |
+| [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | はい | **いいえ** |
 | [Get-Csonline Powershellendpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | はい | **いいえ** |
 | [Get-CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | はい | はい |
 | [CsUserPolicyAssignment を取得する](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | はい | はい |
@@ -59,10 +59,10 @@ ms.locfileid: "45077682"
 | [Get-CsUserPolicyPackageRecommendation](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicypackagerecommendation?view=teams-ps) | はい | はい |
 | [Get-Team](https://docs.microsoft.com/powershell/module/teams/get-team?view=teams-ps) | はい | はい |
 | [Get-TeamChannel](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | はい | はい|
-| [ユーザーの取得-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/get-teamchanneluser?view=teams-ps) | はい | はい|
+| [ユーザーの取得-TeamChannelUser](https://docs.microsoft.com/powershell/module/teams/get-teamchanneluser?view=teams-ps) | はい | **いいえ** |
 | [Get-TeamUser](https://docs.microsoft.com/powershell/module/teams/get-teamuser?view=teams-ps) | はい | はい |
 | [チームの取得アプリ](https://docs.microsoft.com/powershell/module/teams/get-teamsapp?view=teams-ps) | はい | はい |
-| [Get-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/get-teamsappinstallation?view=teams-ps) | はい | はい |
+| [Get-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/get-teamsappinstallation?view=teams-ps) | はい | **いいえ** |
 | [Grant-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/grant-csuserpolicypackage?view=teams-ps) | はい | はい |
 | [新規-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | はい | はい |
 | [新しい CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | はい | はい |
@@ -74,12 +74,12 @@ ms.locfileid: "45077682"
 | [CsGroupPolicyAssignment の削除](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment?view=teams-ps) | はい | はい |
 | [Remove-Team](https://docs.microsoft.com/powershell/module/teams/remove-team?view=teams-ps) | はい | はい |
 | [Remove-TeamChannel](https://docs.microsoft.com/powershell/module/teams/remove-teamchannel?view=teams-ps) | はい | はい |
-| [TeamChannelUser の削除](https://docs.microsoft.com/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | はい | はい |
+| [TeamChannelUser の削除](https://docs.microsoft.com/powershell/module/teams/remove-teamchanneluser?view=teams-ps) | はい | **いいえ** |
 | [-TeamsApp の削除](https://docs.microsoft.com/powershell/module/teams/remove-teamsapp?view=teams-ps) | はい | はい |
 | [Remove-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/remove-teamsappinstallation?view=teams-ps) | はい | **いいえ** |
 | [-TeamTargetingHierarchy を削除します](https://docs.microsoft.com/powershell/module/teams/remove-teamtargetinghierarchy?view=teams-ps) | はい | **いいえ**|
 | [Remove-TeamUser](https://docs.microsoft.com/powershell/module/teams/remove-teamuser?view=teams-ps) | はい | はい |
-| [設定-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | はい | はい |
+| [設定-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment?view=teams-ps) | はい | **いいえ** |
 | [Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps) | はい | はい |
 | [Set-TeamArchivedState](https://docs.microsoft.com/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | はい | はい |
 | [Set-TeamChannel](https://docs.microsoft.com/powershell/module/teams/set-teamchannel?view=teams-ps) | はい | はい |
