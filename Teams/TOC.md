@@ -227,7 +227,7 @@
 <!-- ============================================================ -->
 
 
-# クラウド ボイス 
+# 音声 - 電話システムと PSTN 接続 
 
 ## [展開の計画](cloud-voice-landing-page.md)
 
@@ -517,6 +517,7 @@
 #### [プロジェクト関係者に協力を求める](upgrade-enlist-stakeholders.md)
 #### [プロジェクトの対象範囲を定義する](upgrade-define-project-scope.md)
 #### [共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [電話システムと PSTN 接続のオプションを理解する](cloud-voice-landing-page.md)
 #### [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [ユーザー パイロットを計画する](pilot-essentials.md)
 
@@ -537,11 +538,7 @@
 ### [Skype for Business Online から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Skype for Business オンプレミスから Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## 運用、導入、および最適化
-### [運用計画の概要](continue-journey.md)
-### [サービスを運用する](upgrade-operate-my-service.md)
-### [品質を監視する](upgrade-monitor-quality.md)
-### [サービスを強化する](upgrade-enhance-my-service.md)
+## [運用、導入、および最適化](continue-journey.md)
 
 ## [Skype for Business Online のサポート終了](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
@@ -700,6 +697,8 @@
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
+## [サービスを運用する](upgrade-operate-my-service.md)
+## [サービスを強化する](upgrade-enhance-my-service.md)
 ## 通話品質を監視および管理する
 ### [通話品質を監視および改善する](monitor-call-quality-qos.md)
 ### 通話品質ダッシュボード (CQD)
@@ -723,6 +722,9 @@
 ### サービスの品質 (QoS)
 #### [Teams の QoS をセットアップする](QoS-in-Teams.md)
 #### [Windows クライアントで QoS を設定する](QoS-in-Teams-clients.md)
+
+
+
 ## [Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [インストールと更新に関する問題のトラブルシューティング](troubleshoot-installation.md)
 ## [Teams クライアントの接続性の問題をトラブルシューティングする](connectivity-issues.md)
@@ -934,5 +936,7 @@
 ### [Microsoft 365 の通話プラン: 英国での実施基準](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Microsoft 365 の通話プラン: 英国での苦情処理基準](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
+
+## [探索アンケートをアップグレードする](upgrade-plan-journey-discovery-questionnaire.md)
 
 ## [Teams 管理者機能のリリースノート](release-notes/release-notes.md)

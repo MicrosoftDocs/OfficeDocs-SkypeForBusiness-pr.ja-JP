@@ -17,18 +17,22 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice の概要と、中小企業がより効果的にコミュニケーションを行えるようにする方法。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e4798a8e449bf3ee9128938305795f617099af1
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c0c05df37c54fb63b885c4e67fda36a1f000b92f
+ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690823"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170616"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice とは
 
 Microsoft 365 Business Voice を使用すると、中小企業の組織は Microsoft Teams を強力で柔軟な電話システムに簡単に変更できます。 これは、管理が困難で費用がかかる可能性がある従来の電話プロバイダーや社内電話システムの代わりになります。 有料番号とフリーダイヤル番号の両方を設定できます。また、発信者が正しい部署に連絡できるようにする通話メニュー、音声会議を設定して、誰とでも会議を開催できます。 ユーザーが直接電話を発信できるように、各自に電話番号を与えることさえできます。
 
 Business Voice は、Microsoft 365 電話システムの機能を 1 つの管理しやすいバンドルにまとめることで、すべてを実現します。 適切なプランや機能の選択を心配する必要はありません。それらはすべて揃っており、セットアップされています。 電話システムは Teams の一部であるため、PC、Mac、またはモバイル デバイスを Business Voice の電話番号を使用できる電話に変更することができます。
+
+Business Voice の概要 (2:13 分) については、次の短いビデオをご覧ください。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M]
 
 組織の人数が 300 人以下で、次の Microsoft 365 サブスクリプションのいずれかを利用している場合は、Business Voice が最適です。
 
@@ -38,12 +42,12 @@ Business Voice は、Microsoft 365 電話システムの機能を 1 つの管理
 - Microsoft 365 F1
 - Microsoft 365 F3
 - Office 365 F3
-- Microsoft と Office 365 Enterprise E1、E3、E5
-- Microsoft 365 と Office 365 Education A1、A3、A5
-- Microsoft 365 と Office 365 Government G1、G3、G5 (GCC のみ)
+- Microsoft と Office 365 Enterprise E1 または E3
+- Microsoft 365 と Office 365 Education A1 または A3
+- Microsoft 365 と Office 365 Government G1 または G3
 - Microsoft 365 Nonprofit Business Basic
 - Microsoft 365 Nonprofit Business Standard
-- Microsoft 365 と Office 365 Nonprofit E1、E3、E5
+- Microsoft 365 と Office 365 Nonprofit E1 または E3
 
 Business Voice は 70 以上の国と地域で利用できます。 Business Voice を自分でセットアップできるかどうか、電話番号を Microsoft 365 に転送できるかどうか、および Microsoft 365 で電話番号を管理できるかどうかは、Microsoft 365 テナントが存在する国または地域によって異なります。 詳細については、「[Business Voice を利用できる国と地域](country-region-availability.md)」をご覧ください。
 

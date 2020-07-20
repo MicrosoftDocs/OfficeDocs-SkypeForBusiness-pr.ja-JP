@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9356ae3dc9ed5bb7375f90cad18e13a83b8f5e8
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042799"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146073"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -69,7 +69,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |添付ファイルの数 <sup>2</sup>  |10     |
 |チャットのサイズ | 投稿ごとに約 28 KB<sup>3</sup> |
 
-<sup>1</sup> チャットに 20 人以上いる場合、次のチャット機能は無効になります。Outlook の自動応答と Teams 状態メッセージ、入力インジケーター、ビデオおよび音声通話、共有、開封確認。
+<sup>1</sup> チャットに 20 人以上いる場合、次のチャット機能は無効になります。Outlook の自動応答と Teams 状態メッセージ、入力インジケーター、ビデオおよび音声通話、共有、開封確認。 プライベート グループのチャットに 20 を超えるメンバーが含まれている場合は、「配信オプションの設定」 (!) ボタンも削除されます。
 
 <sup>2</sup> 添付ファイルの数がこの制限を超えると、エラー メッセージが表示されます。
 
@@ -111,7 +111,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 |機能     | 上限 |
 |------------|---------------|
-|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 300 <br><br>**注:** 政府機関用の Teams (GCC、GCC High、DoD) の場合、制限は 250 のままです。 政府機関のクラウド制限が 250 から 300 に増加したときに、この記事を更新します。   |
+|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 300 |
 |ビデオまたは音声通話でチャットに参加できるユーザーの数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
@@ -125,6 +125,9 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |終了時刻のある標準     |終了時刻 + 60 日         |60 日         |
 |終了時刻のない定期     |開始時刻 + 60 日         |60 日         |
 |終了時刻のある定期     |最後の発生の終了時刻 + 60 日         |60 日         |
+
+> [!NOTE]
+> Microsoft Teams 会議には、24 時間の時間制限があります。 
 
 ## <a name="teams-live-events"></a>Teams のライブ イベント
 
