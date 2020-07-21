@@ -2,11 +2,9 @@
 title: 採用を推進するためのツール
 ms.reviewer: karuanag
 description: 以下の導入リソースを使用して、Microsoft Teams およびその他の Microsoft 365 または Office 365 サービスの導入を促進します。
-ms.topic: landing-page
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-layout: LandingPage
 ms.date: 11/20/2018
 audience: admin
 ms.service: msteams
@@ -19,133 +17,21 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5e721db22f14ed04a207f4655b745a25e0bc358b
+ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756506"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189189"
 ---
 # <a name="tools-for-driving-adoption"></a>導入を推進するためのツール 
 
 以下のツールを使用して、サービス導入計画の各フェーズをサポートします。  
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>プロジェクト計画を導入する</h3>
-                        <p>導入計画ファイルを使用して計画を作成する</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Chat" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>ペルソナと作業スタイルの例</h3>
-                        <p>これらのテンプレートを使って、社員にとって重要なことをマップする<p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>このテンプレートを使用して、主要なチームメンバーにワークストリームを割り当て、関係者と通信します。</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Best practices" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>従業員にこの日をすばやく対応させる</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://aka.ms/CoffeeintheCloud">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Training" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>エキスパートと It プロフェッショナル向けの組み込みのビデオリソース</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf
-?raw=true">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="Checklist" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Microsoft Teams のヘルプデスクを準備する</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li></ul>
+|               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px">| [プロジェクト計画を導入する](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" width="40 px" height="40 px">| [ペルソナと作業スタイルの例](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [このテンプレートを使用して、主要なチームメンバーにワークストリームを割り当て、関係者と通信します。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
+| <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px">| [従業員にこの日をすばやく対応させる](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px">| [エキスパートと It プロフェッショナル向けの組み込みのビデオリソース](https://aka.ms/CoffeeintheCloud) | <img src="https://docs.microsoft.com/office/media/icons/success.svg" width="40 px" height="40 px">| [Microsoft Teams のヘルプデスクを準備する](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
 
 
 ### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 または Office 365 チャンピオンプログラム

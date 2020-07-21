@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Skype for Business Server 2019 ドキュメント
+summary: Skype for Business Server 2019 を実装する方法について説明します。
+metadata:
+  title: Skype for Business Server 2019 ドキュメント
+  description: Skype for Business Server 2019 を実装する方法について説明します。
+  ms.service: skype-for-business-online
+  ms.topic: landing-page
+  audience: ITPro
+  author: LanaChin
+  ms.author: v-lanac
+  ms.date: 06/23/2020
+  ms.openlocfilehash: 4aa8036644cf6d38e150d458c7ca1645e3d6822e
+  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.translationtype: MT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 07/21/2020
+  ms.locfileid: "45189349"
+landingContent:
+- title: Skype for business Server 2019 について
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: 新機能
+      url: /skypeforbusiness/whats-new
+  - linkListType: overview
+    links:
+    - text: システム要件
+      url: /skypeforbusiness/plan/system-requirements
+    - text: ネットワーク要件
+      url: /skypeforbusiness/plan-your-deployment/network-requirements/network-requirements
+  - linkListType: download
+    links:
+    - text: 今すぐダウンロードする
+      url: https://www.microsoft.com/en-us/evalcenter/evaluate-skype-business-server-2019
+- title: プラン
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: トポロジの基本
+      url: /skypeforbusiness/plan-your-deployment/topology-basics/topology-basics
+    - text: ハイブリッド接続のプラン
+      url: /skypeforbusiness/hybrid/plan-hybrid-connectivity
+    - text: エンタープライズ Voip の計画
+      url: /skypeforbusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice
+- title: をインストールして管理する
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Skype for Business Server のインストール
+      url: /skypeforbusiness/deploy/install/install
+    - text: Skype for Business 2019 への移行
+      url: /skypeforbusiness/migration/migration-to-skype-for-business-server-2019
+    - text: エンタープライズ VoIP の展開
+      url: /skypeforbusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+  - linkListType: how-to-guide
+    links:
+    - text: トポロジを管理する
+      url: /skypeforbusiness/manage/topology/topology
+- title: その他のリソース
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Skype for Business Server 2015 ドキュメント
+      url: /SkypeForBusiness/skype-for-business-server-2015
+    - text: Lync Server 2013 ドキュメント
+      url: /lyncserver/microsoft-lync-server-2013

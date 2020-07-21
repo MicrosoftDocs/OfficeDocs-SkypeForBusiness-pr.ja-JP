@@ -1,0 +1,76 @@
+### YamlMime:Landing
+title: Skype for Business Server 2015 ドキュメント
+summary: Skype for Business Server 2015 を実装する方法について説明します。
+metadata:
+  title: Skype for Business Server 2015 ドキュメント
+  description: Skype for Business Server 2015 を実装する方法について説明します。
+  ms.service: skype-for-business-online
+  audience: ITPro
+  ms.topic: landing-page
+  ms.collection: collection
+  author: lanachin
+  ms.author: v-lanac
+  ms.date: 06/23/2020
+  ms.openlocfilehash: ec8397ba718cf31a5b92f9b4ce8c26f6e5b709be
+  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.translationtype: MT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 07/21/2020
+  ms.locfileid: "45189352"
+landingContent:
+- title: Skype for business Server 2015 について
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 環境要件
+      url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
+    - text: ネットワーク要件
+      url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
+    - text: Skype 会議メディア
+      url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
+    - text: 技術ダイアグラム
+      url: /SkypeForBusiness/technical-diagrams
+  - linkListType: download
+    links:
+    - text: 今すぐダウンロードする
+      url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
+- title: プラン
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 展開を計画する
+      url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
+    - text: ハイブリッド接続のプラン
+      url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
+    - text: クライアントとデバイスの計画
+      url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
+    - text: エンタープライズ Voip ソリューションを計画する
+      url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
+- title: をインストールして管理する
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Skype for Business Server を展開する
+      url: /SkypeForBusiness/deploy/deploy
+    - text: Skype for Business Server のインストール
+      url: /SkypeForBusiness/deploy/install/install
+    - text: Skype for Business Server へのアップグレード
+      url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
+    - text: エンタープライズ VoIP の展開
+      url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
+    - text: Skype 会議ブロードキャスト用にオンプレミス展開を構成する
+      url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
+  - linkListType: how-to-guide
+    links:
+    - text: Skype for Business Server の管理
+      url: /SkypeForBusiness/manage/manage
+- title: その他のリソース
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Skype for Business の準備状況のシリーズ
+      url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
+    - text: Skype for Business Server 2019 ドキュメント
+      url: /SkypeForBusiness/skype-for-business-server-2019
+    - text: Lync Server 2013 ドキュメント
+      url: /lyncserver/microsoft-lync-server-2013

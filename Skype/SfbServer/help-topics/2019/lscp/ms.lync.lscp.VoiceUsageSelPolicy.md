@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server コントロールパネルを使って実行できるさまざまな手順の詳細については、「Skype for business Server を管理する」を参照してください。
-ms.openlocfilehash: 781d00911c0d4d1ea1fb197bbc67fd8b80909b6c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business Server の管理」を参照してください。
+ms.openlocfilehash: 075068b924c009df1d142c4c16253d38826f974a
+ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797428"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189199"
 ---
 # <a name="voice-usage-policy"></a>音声使用ポリシー
  
-Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2019](../../../../SfBServer2019/skype-for-business-server-2019.md)の記事を管理する」を参照してください。
+Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Manage 記事 in [skype for Business server 2019](../../../../SfBServer2019/skype-for-business-server-2019.yml)」を参照してください。
   
 
