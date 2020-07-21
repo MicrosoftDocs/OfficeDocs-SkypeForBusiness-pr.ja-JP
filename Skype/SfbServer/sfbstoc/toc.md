@@ -1,7 +1,7 @@
 
   
 
-# [Skype for Business Server 2015](../skype-for-business-server-2015.md)
+# [Skype for Business Server 2015](../skype-for-business-server-2015.yml)
 ## [技術ダイアグラム](../technical-diagrams.md)
 ## [Skype for Business Server の新機能](../what-s-new-in-skype-for-business-server.md)
 
