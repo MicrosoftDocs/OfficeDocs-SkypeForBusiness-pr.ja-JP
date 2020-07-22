@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft Teams 室のデバイスで使用される既定の設定のリモート管理。カスタムテーマの適用や、マスター設定ファイルの作成などが含まれます。
-ms.openlocfilehash: 77fc064157d57a2584e4a527148a143680010832
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842018"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201251"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams ミーティング のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
@@ -49,6 +49,10 @@ ms.locfileid: "44842018"
     <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+    <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
+    <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
+    <CustomDisplayNameForThirdPartyMeetings>Rainier Conference Room</CustomDisplayNameForThirdPartyMeetings>
+    <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
@@ -94,6 +98,10 @@ ms.locfileid: "44842018"
 | \<ConfigureDomain\>  |文字列 &#x2778;  ||複数のドメインをコンマで区切ってリスト表示することができます。 |
 |\<TeamsMeetingsEnabled\> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 <br/> <br/> この XML ファイルは、両方とも無効になっている場合には形式が不適切であると見なされ \<SkypeMeetingsEnabled\> \<TeamsMeetingsEnabled\> ますが、両方の設定を同時に有効にすることもできます。 |
 |\<IsTeamsDefaultClient> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 |
+|\<WebExMeetingsEnabled\> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効です。 <br/> <br/> True の場合は、Cisco Webex 会議の直接ゲスト参加エクスペリエンスを有効にします。|
+|\<UseCustomInfoForThirdPartyMeetings\> |ブール型 &#x2777;  |第1の &#x2776;  |既定では無効になっており、会議室のアカウント情報を使用して、サードパーティの会議に参加しています。 <br/> <br/> この値が true に設定されている場合は、両方を指定する必要があります。指定する必要があり \<CustomDisplayNameForThirdPartyMeetings\> \<CustomDisplayEmailForThirdPartyMeetings\> ます。|
+|\<CustomDisplayNameForThirdPartyMeetings\> |文字列 &#x2778;  |第1の &#x2776;  |サードパーティの会議に参加するために使用するゲスト名を指定します。 このデータは、サードパーティサービスによって表示され、サービスに保存される可能性があります。|
+|\<CustomDisplayEmailForThirdPartyMeetings\> |文字列 &#x2778;  |第1の &#x2776;  |サードパーティの会議に参加するために使用するゲストメールを指定します。 このデータは、サードパーティサービスによって表示され、サービスに保存される可能性があります。|
 |\<BluetoothAdvertisementEnabled> |ブール型 &#x2777;  |第1の &#x2776;  |既定では有効です。 |
 |\<AutoAcceptProximateMeetingInvitations> |ブール型 &#x2777;  |第1の &#x2776;  |True の場合、近接通信ベースの会議が自動的に受け入れられます。 既定では無効です。 |
 |\<DualScreenMode\>  |ブール型 &#x2777;  |第1の &#x2776;  |True の場合、デュアルスクリーンモードが有効になります。 それ以外の場合は、デバイスでシングルスクリーンモードが使用されます。 |

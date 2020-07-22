@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 583fdf2ba821437d1877036ddafe5cce0a460269
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637296"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201051"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams のゲスト アクセスのチェックリスト
 =========================================
@@ -78,7 +78,7 @@ ms.locfileid: "44637296"
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>手順 3: Microsoft 365 グループを構成する
 
-1. Microsoft 365 管理センターで、[**設定**  >  の**設定**] に移動し、[**サービス**] をクリックして、[ **microsoft 365 グループ**] を選択します。
+1. Microsoft 365 管理センターで、[**設定**  >  の**組織設定**] に移動し、[**サービス**] をクリックして、[ **microsoft 365 グループ**] を選択します。
 
      ![スクリーンショットは Microsoft 365 グループの設定を示しています。](media/guest-access-checklist-services-settings.png)
 2. **[組織外のグループ メンバーがグループ コンテンツにアクセスできるようにします]** のチェックボックスがオンになっていることを確認します。 この設定がオフになっていると、ゲストはどのグループ コンテンツにもアクセスすることはできません。
@@ -92,7 +92,7 @@ ms.locfileid: "44637296"
 
 ユーザーがゲストを追加できることを確認します。 次の操作を実行してください。
 
-1. Microsoft 365 管理センターの **[設定]** > **[設定]** に移動し、**[セキュリティとプライバシー]** をクリックし、**[共有]** を選択します。
+1. Microsoft 365 管理センターで、[**設定**  >  ] の [**組織の設定**] に移動し、[ **& セキュリティ**] をクリックして、[**共有**] を選択します。
 
      ![サービスの設定の例を示すスクリーンショット](media/guest-access-checklist-security-privacy-settings.png)
  

@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: dc05c885b3b2eb5ef4991a6580ebcb0751c87f39
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: e2346c8bae770671150edc19416676f38bc1d126
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44874273"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202937"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -94,7 +94,7 @@ ms.locfileid: "44874273"
 <tbody>
 <tr class="odd">
 <td>ネットワークプランナー</td>
-<td><p>組織の物理的な場所での帯域幅の計算やネットワーク要件など、ネットワークの評価について詳しくは、「 <a href="https://docs.microsoft.com/microsoftteams/network-planner">Network Planner</a> <a href="https://admin.teams.microsoft.com">ツール」をご覧ください。</a> ネットワークの詳細とチームの利用状況を入力すると、ネットワーク Planner によって、組織の物理的な場所でチームとクラウドボイスを展開するためのネットワーク要件が計算されます。</p>
+<td><p>組織の物理的な場所での帯域幅の計算やネットワーク要件など、ネットワークの評価について詳しくは、「 <a href="https://docs.microsoft.com/microsoftteams/network-planner">Network Planner</a> <a href="https://admin.teams.microsoft.com">ツール」をご覧ください。</a> ネットワークの詳細と Teams の使用状況を提示すると、Network Planner は、組織の物理的な場所で Teams とクラウドの音声を展開するためのネットワーク要件を計算します。</p>
 <p>シナリオの例については、「<a href="https://docs.microsoft.com/microsoftteams/tutorial-network-planner-example">ネットワークプランナーの使用例のシナリオ</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
@@ -173,3 +173,4 @@ Teams は、ネットワークの状況に関係なく、最適なオーディ�
 
 [Teams の展開方法](How-to-roll-out-teams.md)
 
+[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

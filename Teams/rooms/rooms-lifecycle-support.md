@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: 動的サポートの構造とそのフェーズを含む、Microsoft Teams のルームのライフサイクルのサポートについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 196f4e7e6384ffa0f0d59478e1a0cb326bf4b984
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691193"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201191"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams ミーティング アプリ バージョンのサポート
  
@@ -54,8 +54,8 @@ Microsoft Teams ミーティング デバイスでは、Windows 10 機能更新�
 |バージョン  |提供日   |Microsoft Teams ミーティングのサポート状況   |Microsoft Teams ミーティングの最小アプリケーション バージョン | 推奨 OS ビルド  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 2004 |2020-05-27 |[検証] で、 <br/>推奨されない|&#x2014; |19041.264 |
-| 1909 |2019-11-12 |検証が完了しました。 <br/>既知の問題はありません。|近日対応予定 |18363.418  |
-| 1903 |2019-05-21 |サポートされ <br/>推奨  |4.2.4.0 |18362.356 |
+| 1909 |2019-11-12 |サポートされ <br/>推奨 |4.5.33.0 |18363.418  |
+| 1903 |2019-05-21 |サポート  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |スキップ、 <br/>推奨されない &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |サポート                             |4.1.22.0 |17134.191|
 | 1709 |2018-01-18 |非サポート                         |&#x2014; |&#x2014; |

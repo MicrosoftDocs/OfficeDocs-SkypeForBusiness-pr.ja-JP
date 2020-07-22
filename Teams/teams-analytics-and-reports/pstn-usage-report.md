@@ -17,18 +17,21 @@ description: Microsoft Teams 管理センターで Teams の PSTN 使用状況�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 18fce1d70308fcdc58441bb1a5cad8a446131e0e
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918575"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201201"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams の PSTN 使用状況レポート
 
 Microsoft Teams 管理センターのチーム PSTN 使用状況レポートでは、組織内での通話と電話会議のアクティビティの概要が示されます。 Microsoft をテレフォニーキャリアとして使用していて、独自のテレフォニーキャリアを使用している場合は、通話プランの詳細な通話アクティビティを表示できます。
 
 [**通話プラン**] タブには、ユーザーが着信と発信の PSTN 通話に費やした時間 (分)、およびこれらの通話の料金が表示されます。 [ **Direct Routing** ] タブには、SIP アドレスと通話の開始時刻と終了時刻などの情報が表示されます。 このレポートの情報を使用して、組織の PSTN の使用状況を把握し、ビジネス上の意思決定を調査、計画、決定するのに役立ちます。
+
+> [!NOTE]
+> Telstra または Softbank 通話プランをお持ちの場合は、PSTN 使用状況レポートに通話の詳細レコードは表示されません。 レポートのニーズについては、Telstra または Softbank にお問い合わせください。 
 
 ## <a name="view-the-pstn-usage-report"></a>PSTN 使用状況レポートを表示する
 
@@ -39,7 +42,7 @@ Microsoft Teams 管理センターのチーム PSTN 使用状況レポートで�
 
 ### <a name="calling-plans"></a>通話プラン
 
-![管理センターの通話プランの PSTN 使用状況レポートレポートのスクリーンショット](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "番号付きの吹き出しが含まれる Microsoft Teams 管理センターの PSTN 使用状況レポートのスクリーンショット")
+[![管理センターの通話プランの PSTN 使用状況レポートレポートのスクリーンショット](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "番号付きの吹き出しが含まれる Microsoft Teams 管理センターの PSTN 使用状況レポートのスクリーンショット")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Callout |説明  |
 |--------|-------------|
@@ -54,7 +57,7 @@ Microsoft Teams 管理センターのチーム PSTN 使用状況レポートで�
 
 ### <a name="direct-routing"></a>ダイレクト ルーティング
 
-![管理センターの PSTN 利用状況レポートのダイレクトルーティングレポートのスクリーンショット](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "番号付き吹き出しが含まれる Microsoft Teams 管理センターの [ダイレクトルーティング] PSTN 使用状況レポートのスクリーンショット")
+[![管理センターの PSTN 利用状況レポートのダイレクトルーティングレポートのスクリーンショット](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "番号付き吹き出しが含まれる Microsoft Teams 管理センターの [ダイレクトルーティング] PSTN 使用状況レポートのスクリーンショット")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Callout |説明  |
 |--------|-------------|
@@ -90,11 +93,11 @@ Microsoft Teams 管理センターのチーム PSTN 使用状況レポートで�
 
 これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 エクスポートされたファイルには、オンラインレポートでは使用できない追加のフィールドが含まれています。 これらは、トラブルシューティングや自動化されたワークフローに使用できます。
 
- "**発着信"`[identifier]`という名前の zip ファイルが送信されます。zip**"。識別子は、トラブルシューティングに使用できる一意のエクスポートの ID です。
+ "発着信" という名前の zip ファイルが送信され**ます。 `[identifier]`zip**"。識別子は、トラブルシューティングに使用できる一意のエクスポートの ID です。
 
-通話プランと直接ルーティングの両方を使用している場合、エクスポートされたファイルには両方の製品のデータが含まれている可能性があります。 PSTN 使用状況レポートファイルのファイル名は "**pstn.`[UTC date]`..csv**"と直接ルーティング"**DirectRouting.`[UTC date]`..csv**"。
+通話プランと直接ルーティングの両方を使用している場合、エクスポートされたファイルには両方の製品のデータが含まれている可能性があります。 PSTN 使用状況レポートファイルのファイル名は "**pstn. `[UTC date]` ..csv**"と直接ルーティング"**DirectRouting... `[UTC date]`csv**"。
 
- PSTN とダイレクトルーティングファイルに加えて、アーカイブには、エクスポート時間の範囲と機能が選択されたファイル "**parameters. json**" が含まれています。
+ PSTN とダイレクトルーティングファイルに加えて、アーカイブにはファイル "**parameters.js**" が含まれています。このファイルには、エクスポートの時間範囲と機能が選択されています。
 
 エクスポートされたファイルは、 [RFC 4180](https://tools.ietf.org/html/rfc4180)標準に準拠したコンマ区切り値 (CSV) 形式になっています。 ファイルは、変換を必要とせずに、Excel または他の標準規格に準拠したエディターで開くことができます。
 

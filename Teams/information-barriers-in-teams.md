@@ -16,12 +16,12 @@ description: この記事では、Microsoft Teams の情報障壁の概要と、
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc9bbd3f3ff190eee3aa0b44ba68dfd8eb9aab6a
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121707"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202913"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -31,7 +31,7 @@ ms.locfileid: "45121707"
 > - 情報バリアグループはテナント全体で作成できません。
 > - ユーザーの追加にボットを使用することは、バージョン1ではサポートされていません。
 > - プライベートチャネルは、構成する情報バリアーポリシーに準拠しています。
-> - 新規: Teams に接続された SharePoint サイトの情報バリアのサポートは、現在プライベートプレビューになっています。 プライベートプレビューに参加するには、[ここ](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)をクリックします。
+> - 新規: Teams に接続された SharePoint サイトの障壁のサポートについて[は、ここ](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)をクリックしてください。
 
 情報バリアポリシーによって、検索と検出を防ぐこともできます。 つまり、通信しない相手と通信しようとしても、そのユーザーは [連絡先] 選択画面に表示されません。
 
@@ -171,6 +171,8 @@ Enrico は、グループチャットにメッセージを送信することは�
 
 たとえば、Contoso Bank corporation では、ユーザー ' Sesha@contosobank.onmicrosoft.com ' は投資銀行取引セグメントに属し、ユーザー ' Nikita@contosobank.onmicrosoft.com ' はセグメント勧告に属しています。 この2つのセグメント間の通信とコラボレーションは、組織の IB ポリシーによってブロックされます。
 ユーザーが、投資銀行取引先のチームを作成すると、そのチームとそれをバックアップした SharePoint サイトにアクセスできるのは、投資銀行セグメントのユーザーのみになります。 ユーザー Nikita は、サイトリンクを持っている場合でも、そのサイトにアクセスすることはできません。
+
+詳細について[は、ここ](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)をクリックしてください。
 
 ## <a name="required-licenses-and-permissions"></a>必要なライセンスと権限
 
