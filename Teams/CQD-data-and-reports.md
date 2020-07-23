@@ -22,20 +22,17 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 通話品質ダッシュボード (CQD) で利用できるデータとレポートについて説明します。
-ms.openlocfilehash: 02acff8cd423901c8959e94af664ffe4d43c0e51
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086050"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372166"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のデータとレポート
 
 Microsoft 通話品質ダッシュボード (CQD) は、near リアルタイム (NRT) データフィードを使用します。 通話記録は、通話の終了後30分以内に CQD で利用できます。 NRT パイプラインからの通話レコードは、データセットから削除されるまで数ヶ月分しか使用できません。 
 
-
-> [!NOTE]
-> Advanced CQD (11 2019 月の新機能) では、Advanced CQD pipeline の NRT データを使って、古い CQD パイプライン (約24時間で利用可能) のデータを結合します。 アーカイブ期間のデータに対する古いポータルとアドバンストポータルのクエリでは、同じ結果が得られます。 NRT データと NRT データの両方のポータル上のクエリと EUII の期間は異なっています。
 
 ## <a name="many-ways-to-access-cqd-data"></a>CQD データにアクセスするさまざまな方法
 

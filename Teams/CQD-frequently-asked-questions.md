@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: よく寄せられる質問 (FAQ) と、Microsoft Teams の通話品質ダッシュボード (CQD) に関する回答を参照してください。
-ms.openlocfilehash: f33d66d9c8abb465c6680bacbbd2ff200cf930c6
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086173"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372126"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
 
@@ -35,8 +35,6 @@ ms.locfileid: "45086173"
 [1人以上の会議の出席者が不適切なエクスペリエンスをした場合、CQD は "Good" として通話をマークするのはなぜですか?](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
 [メジャーの通話回数とユーザー数の値に0.2% の差が表示されるのはなぜですか。また、正確なボリュームを取得するにはどうすればよいですか?](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
-
-[CQD v2 のレポートデータが CQD v3 のレポートデータと異なるのはなぜですか?](#why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data)
 
 [Skype for Business からの CQD データが Teams の CQD データと異なっているのはなぜですか?](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
@@ -73,66 +71,17 @@ CQD で詳細なレポートを作成し、会議 ID にフィルターを適用
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>メジャーの通話回数とユーザー数の値に0.2% の差が表示されるのはなぜですか。また、正確なボリュームを取得するにはどうすればよいですか? 
 通話カウントとユーザーカウントのメジャーを計算するために、個別の countif 操作が、データセット内の呼び出しまたはユーザー id に対して実行されます。 大きなデータセットでは、個別の countif 操作に固有の最大0.2% のエラーがあります。 最も正確なボリュームの場合は、この個別の countif 操作に依存しないため、ストリームカウントのメジャーに依存している必要があります。 データの量を減らすためにフィルター処理を行うと、エラーが発生する可能性がありますが、個別の通話とユーザーカウントでこのエラーの原因が解消されない場合があります。 メジャーに影響を与える[通話品質ダッシュボードで利用可能な寸法と測定値](dimensions-and-measures-available-in-call-quality-dashboard.md)を参照してください。
 
-### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>CQD v2 のレポートデータが CQD v3 のレポートデータと異なるのはなぜですか? 
-
-CQD v2 と v3 のデータの違いが表示される場合は、データの比較または検証が、集計レベルではなく、"りんごからりんご" と "幅" レベルで行われていることを確認してください。 たとえば、"建物 30" の WiFi Teams のデスクトップクライアントデータの両方のレポートをフィルター処理する場合、低品質の割合は、v2 と v3 で同じである必要があります。
-
-CQDv2 の呼び出しセットアップエラーは、"オーディオ" のモダリティでのみ考慮され、CQDv3 では、すべてのモダリティ (オーディオ、ビデオ、Appsharing) に対してこの分類が発生し、各モダリティストリームで表されます。 
-
-Teams の場合、CQDv2 はすべてのモダリティ CQDv3 に同じユーザーフィードバックを適用し、Teams のモダリティにフィードバックベースを適用します。
-
-CQD V3 の内容 
-1. Skype for Business Server の2019通話 
-2. Skype ボット通話 (自動応答、通話キュー、会議アナウンスメントサービスなど) 
-3. 仮想デスクトップインターフェイス、
-4. 会議ビデオの相互運用機能、
-3. ライブイベントの発行元と発表者の通話 
-4. PSTN 通話。 
-
-これらの Power BI テンプレートを使用して CQD データを分析して報告する方法については、「 [POWER bi FOR CQD レポートを使用](cqd-power-bi-query-templates.md)する」を参照してください。
-
 
 ### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>Skype for Business からの CQD データが Teams の CQD データと異なっているのはなぜですか? 
 
 
 > [!IMPORTANT]
-> 2020年7月1日以降、古い CQD は最新の CQD のデータにアクセスします。 古い CQD データは利用できなくなり、文書の作成やレポートのデータをエクスポートすることはできません。
+> 2020年7月1日の時点では、古い CQD (CQD.lync.com) は最新の CQD (CQD のデータを使用しています。Teams.microsoft.com)。 古い CQD データは利用できなくなり、文書の作成やレポートのデータをエクスポートすることはできません。 引き続き CQD.lync.com (Skype for Business 管理センターから利用可能) は使用できますが、CQD.lync.com へのアクセスはすぐにオフにするため、CQD に移動する必要があります。まだインストールしていない場合は、Teams.microsoft.com します。
 
 
 以前の CQD と Skype for Business の従来のポータル (cqd.lync.com) と最新の CQD の間でデータを比較しようとしている場合は、データが一致していないことがすぐにわかります。 これは、最新の CQD で多くの追加の通話シナリオが報告されるためです。 以前の CQD のレポートを引き続き使用している場合は、この記事を参照してください。これらのレポートは、 [Skype For Business Server の通話品質ダッシュボード](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)を使って解釈することができます。
 
 
-
-次に、CQD v2 と CQD v3 のデータを比較するために特定のフィルターを適用する例を示します。
-
-1. 使用可能な QoE レコード = True
-
-2. [追加] は、サーバーペアフィルターの値: Client: client and Client: Server。 ほとんどのテナントでは、サーバー呼び出しを除外します。
-
-3. ユーザーエージェントカテゴリのフィルターを追加し、自動アテンダント、通話キュー、ボット、Room system、MediationServer、会議アナウンスメントサービス、VDI などのフィルターを追加します。
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="CQD v3 での特定のフィルターの適用のスクリーンショット":::
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="CQD v2 での特定のフィルターの適用のスクリーンショット":::
-
-#### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>CQD v2 と CQD v3 とのその他の予想される違い
-
-以前の CQD と最新のバージョンの違いの詳細については、 [「Advanced Call Quality ダッシュボードの](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586)ブログを2019年11月5日から紹介する」を参照してください。
-
-
-> [!IMPORTANT]
-> 2020年7月1日以降、古い CQD は最新の CQD のデータにアクセスします。 古い CQD データは利用できなくなり、文書の作成やレポートのデータをエクスポートすることはできません。
-
-以前のバージョンと新しい CQD のレポートでは、集計または概要レベルでより多くのデータの相違が表示される可能性があります。 データをより細かいレベルで比較すると、"リンゴからりんご" の比較が表示されます。 たとえば、個々の建物のデータを見ている場合、低品質のパーセンテージは、以前の CQD レポートと新しいレポートの両方で同じである必要があります。
-
-- 会社の有線接続、Windows デスクトップ、または1つの地域や建物など、集中するシナリオを選択します。
-- Teams の [MR]、[TR]、または [MP] の IP 範囲を確認します。 Teams の範囲は、Skype for Business Online よりも新しいものであり、ファイアウォールに関する接続の問題が発生する可能性があります。
-- サマリーまたはトップレベルの数値を比較しないでください。 これらの比較を行うことで、企業の有線接続での Skype for Business Online 通話の大きな通話音量と、LTE またはプライベートネットワーク上での少人数のチーム通話との比較を行うことができます。
-- 位置のバイアスと母集団の相違点に注意してください。多すぎては、次のような違いがあります。
-  - NOAM: APAC
-  - NY: Goa
-  - 有線 : WiFi
-  - 企業ネットワーク: ホームネットワーク
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>CQD で EUII が表示されるのはなぜですか?
 
@@ -175,4 +124,4 @@ CQDv2 と CQDv3 は、CQDv2 にはない新しいシナリオが用意されて�
 
 [Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)
 
-[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

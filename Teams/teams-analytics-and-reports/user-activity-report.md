@@ -17,12 +17,12 @@ description: 組織内のユーザーの Teams の使用状況を把握するた
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19f1ef23e29805e53d819752e3f6313c4989d295
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903872"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372156"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams ユーザー アクティビティ レポート
 
@@ -30,7 +30,9 @@ Teams ユーザー アクティビティ レポートは、Teams で組織内の
 
 ## <a name="view-the-user-activity-report"></a>ユーザーアクティビティレポートを表示する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析およびレポート]** > **[使用状況レポート]** をクリックします。 **[レポートの表示]** タブの **[レポート]** で、**[Teams ユーザーの利用状況]** を選択します。
+これらの変更を行うには、Teams サービス管理者である必要があります。 「[チーム管理者ロールを使用してチームを管理する](https://docs.microsoft.com/microsoftteams/using-admin-roles)」を参照して、「管理者ロールと権限の取得」を参照してください。
+
+1. 管理センターの左のナビゲーションで、[**分析 & レポート**の  >  **利用状況レポート**] をクリックします。 **[レポートの表示]** タブの **[レポート]** で、**[Teams ユーザーの利用状況]** を選択します。
 2. **[日付の範囲]** の下で、範囲を選択して、**[レポートの実行]** をクリックします。
 
     ![Teams 管理センターの Teams ユーザー アクティビティ レポートのスクリーンショット (吹き出し付き)](../media/teams-reports-user-activity-with-callouts.png "Teams 管理センターの Teams ユーザー アクティビティ レポートのスクリーンショット (吹き出し付き)")

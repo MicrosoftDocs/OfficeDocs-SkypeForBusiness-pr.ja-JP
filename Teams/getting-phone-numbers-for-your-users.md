@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'チームに新しい番号を取得する方法、既存の番号を移行する方法、ユーザーへの変更を表示する方法について説明します。 '
-ms.openlocfilehash: 45c0b87d8e208913b9be0d231a8e2ae2e0ebfd5a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ccc0baa1f4793967daa9520de1c9aaa9b56175ba
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691433"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372076"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -34,7 +34,7 @@ ms.locfileid: "44691433"
 ユーザー番号を取得するには、次の3つの方法があります。
 
 - **Microsoft Teams 管理センターを使用します。** 一部の国と地域では、Microsoft Teams 管理センターを使用して、ユーザーの電話番号を取得できます。 「[ユーザー用に新しい電話番号を取得する」を](#get-new-phone-numbers-for-your-users)参照してください。
-    
+
 - **既存の番号を移行する。** 現在のサービスプロバイダーまたは電話会社から既存の番号を移行または転送することができます。 この方法の詳細については、「[Teams に電話番号を移行](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
 - **新しい番号には申請書を使用します。** 場合によっては (お住まいの国または地域によっては)、Microsoft Teams 管理センターを使用して新しい電話番号を取得することはできません。または、特定の電話番号または市外局番が必要です。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
@@ -46,14 +46,16 @@ ms.locfileid: "44691433"
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
-1. Microsoft Teams 管理センターに移動 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> します。 
+これらの変更を行うには、Teams サービス管理者である必要があります。 「[チーム管理者ロールを使用してチームを管理する](https://docs.microsoft.com/microsoftteams/using-admin-roles)」を参照して、「管理者ロールと権限の取得」を参照してください。
+
+1. Microsoft Teams 管理センターに移動します。
 2. 左側のナビゲーションで、 **Voice**  >  [**電話番号**] に移動し、[**追加**] をクリックします。
 3. 注文の名前を入力し、説明を追加します。
 4. [場所と数量] ページで、次の操作を行います。
     1. [**国または地域**] で、国または地域を選択します。
     2. [**番号の種類**] で、[**ユーザー (サブスクライバー)**] を選びます。
     3. [**場所**] で、場所を選択します。 新しい場所を作成する必要がある場合は、[**場所の追加**] をクリックします。
-    4. [**市外局番**] で、市外局番を選択します。 
+    4. [**市外局番**] で、市外局番を選択します。
     5. [**数量**] の下で、組織に必要な数値の数を入力し、[**次へ**] をクリックして番号を選択します。
 5. 目的の番号を選択します。 電話番号を選択して注文するには、10分間かかります。 10分以上経過すると、電話番号は番号のプールに戻されます。
 6. 注文する準備ができたら、[**注文**] をクリックします。
@@ -69,9 +71,9 @@ ms.locfileid: "44691433"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する** 
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>の左のナビゲーションで、[電話番号 **] に移動**し  >  **Phone numbers**て、所在地、番号の種類、状態など、組織の番号を表示します。
+管理センターの左のナビゲーションで、[電話番号 **] に移動**し  >  **Phone numbers**て、所在地、番号の種類、状態など、組織の番号を表示します。
   
 ## <a name="assign-phone-numbers-to-users"></a>ユーザーに電話番号を割り当てる
 

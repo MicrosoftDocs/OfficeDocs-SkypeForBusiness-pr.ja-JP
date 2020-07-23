@@ -22,24 +22,22 @@ ms.reviewer: islubin
 description: 管理者ロールを使用して、チームを管理するために異なるレベルのアクセスを必要とする管理者を指定する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665209"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229043"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Microsoft Teams の管理者ロールを使用してチームを管理する
 
-Azure Active Directory (Azure AD) を使用して、Microsoft Teams を管理するために必要な、異なるレベルのアクセス権限を持つ管理者を指定することができます。 管理者は Teams 全体のワークロードを管理できる場合もあれば、通話品質の問題のトラブルシューティングや組織のテレフォニーのニーズを管理するために委任されたアクセス許可を持つ場合もあります。 
+Azure Active Directory (Azure AD) を使用して、Microsoft Teams を管理するために必要な、異なるレベルのアクセス権限を持つ管理者を指定することができます。 管理者は Teams 全体のワークロードを管理できる場合もあれば、通話品質の問題のトラブルシューティングや組織のテレフォニーのニーズを管理するために委任されたアクセス許可を持つ場合もあります。
 
 ## <a name="teams-roles-and-capabilities"></a>Teams でのロールと能力
 
 利用できる Teams の管理者ロールには 4 種類あり、Teams サービス管理者、Teams 通信管理者、Teams 通信サポート スペシャリスト、および Teams 通信サポート エンジニアが含まれます。 次の表を確認し、それぞれのロールに許可されている操作および、管理者が Microsoft Teams 管理センターや PowerShell で使用できるツールについて理解してください。
 
-フォローするには、の管理センターに移動し <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ます。
-
-
+フォローするには、管理者である必要があります。権限を取得する手順は、この記事に記載されています。
 
 <!-- add Global admin role? -->
 

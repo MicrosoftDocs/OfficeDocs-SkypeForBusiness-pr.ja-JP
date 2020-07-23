@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft Teams 会議に参加するための既定の電話番号を作成するには、次の手順に従います。
-ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 7dd59950403543074d8428d35270ab963ca824e3
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021765"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372186"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
@@ -36,7 +36,7 @@ Microsoft 365 および Office 365 の電話会議では、組織内のユーザ
 会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
   
 > [!NOTE]
-> 会議主催者の会議出席依頼には、1 つの有料電話番号と 1 つの無料電話番号を含めることができますが、会議出席依頼の下部に、会議に参加するために使用できるダイヤルイン電話番号のすべての一覧を表示するリンクも記載されています。 
+> 会議主催者の会議出席依頼には、1 つの有料電話番号と 1 つの無料電話番号を含めることができますが、会議出席依頼の下部に、会議に参加するために使用できるダイヤルイン電話番号のすべての一覧を表示するリンクも記載されています。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -53,7 +53,7 @@ Microsoft 365 および Office 365 の電話会議では、組織内のユーザ
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
-これらの変更を行うには、管理者である必要があります。
+これらの変更を行うには、Teams サービス管理者である必要があります。 「[チーム管理者ロールを使用してチームを管理する](https://docs.microsoft.com/microsoftteams/using-admin-roles)」を参照して、「管理者ロールと権限の取得」を参照してください。
 
 1. Microsoft Teams 管理センターにログインします。
 
@@ -63,27 +63,25 @@ Microsoft 365 および Office 365 の電話会議では、組織内のユーザ
 
 3. 使用可能なユーザーのリストからユーザー名をクリックします。
 
-4. [**電話会議**] の横の [**編集**] をクリックします。 
-    
+4. [**電話会議**] の横の [**編集**] をクリックします。
+
     ![電話会議の横にある [編集] をクリックする](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. [**有料**電話番号] または [無料**電話番号**] フィールドを使用して、ユーザーの番号を入力します。
 
-
 > [!IMPORTANT]
-> ユーザーの電話会議の設定を変更すると、定期的な Microsoft Teams の会議を更新して出席者に送信する必要があります。 
+> ユーザーの電話会議の設定を変更すると、定期的な Microsoft Teams の会議を更新して出席者に送信する必要があります。
 
-## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
+## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する
 
 Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常的な作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
-    
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。 
+
+- [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+- [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
   
-    
 ## <a name="related-topics"></a>関連トピック
 
 [Microsoft 365 または Office 365 で電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

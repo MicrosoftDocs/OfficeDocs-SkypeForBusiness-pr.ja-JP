@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f800b92a0663b5c4318022c00cbb9ba022f2e8c3
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7ae1776cf57368ea0f18cb6b0e46e5a11dffe447
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085683"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228903"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams でのアプリの管理設定
 ==========================================
@@ -34,7 +34,7 @@ ms.locfileid: "45085683"
 
 アプリは、組織が Teams を活用できるよう最先端のツールを提供しています。 このアプリは、Microsoft が提供する、サードパーティがまたは組織の開発者が開発したタブ、メッセージング拡張機能、コネクタ、ボットの機能を組み合わせたものです。
 
-管理[センター](https://admin.teams.microsoft.com/)の**Teams アプリ**で組織のアプリを管理します。 たとえば、組織レベルでアプリを許可またはブロックしたり、Teams ユーザーが使用できるアプリを制御するポリシーを設定したり、Teams のカスタマイズとしてユーザーにとって最も重要なアプリをピン留めしたりすることができます。
+管理センターの**Teams アプリ**で組織のアプリを管理します。 (「[チーム管理者ロールを使用](https://docs.microsoft.com/microsoftteams/using-admin-roles)してチームを管理し、管理者ロールと権限を取得する」を参照してください。)たとえば、組織レベルでアプリを許可またはブロックしたり、チームユーザーが利用できるアプリを制御するポリシーを設定したり、ユーザーにとって最も重要なアプリを固定することで、チームをカスタマイズしたりすることができます。
 
 Microsoft では、Teams でのアプリ エクスペリエンスの継続的な改善と、機能の追加を行うための取り組みを行っています。 後日、アプリの管理機能が追加されますので、アプリ ポリシーの最新情報をご確認ください。
 

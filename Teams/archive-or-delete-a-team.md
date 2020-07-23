@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e17f27cdbaaca9070d87714b58906df96539e12e
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086193"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372196"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 ===========================================
@@ -40,9 +40,9 @@ ms.locfileid: "45086193"
 
 ## <a name="archive-a-team"></a>チームをアーカイブする
 
-チームをアーカイブするには、次の手順に従います。
+チームをアーカイブするには、次の手順に従います。 これらの変更を行うには、Teams サービス管理者である必要があります。 「[チーム管理者ロールを使用してチームを管理する](https://docs.microsoft.com/microsoftteams/using-admin-roles)」を参照して、「管理者ロールと権限の取得」を参照してください。
 
-1. の管理センターで <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 、[ **Teams**] を選択します。
+1. 管理センターで、[**チーム**] を選択します。
 2. チーム名をクリックして、チームを選びます。
 3. [**アーカイブ**] を選びます。 次のメッセージが表示されます。
 
@@ -55,7 +55,7 @@ ms.locfileid: "45086193"
 
 次の手順に従って、アーカイブされているチームを再度アクティブにします。
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>で、[**チーム**] を選択します。
+1. 管理センターで、[**チーム**] を選択します。
 2. チーム名をクリックして、チームを選びます。
 3. [**アーカイブ解除**] を選択します。 チームの状態が [**アクティブ**] に変わります。
 
@@ -63,7 +63,7 @@ ms.locfileid: "45086193"
 
 今後チームが必要にならない場合、アーカイブではなく、削除することができます。 チームを削除するには、次の手順に従います。
 
-1.  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>で、[**チーム**] を選択します。
+1.  管理センターで、[**チーム**] を選択します。
 2.  チーム名をクリックして、チームを選びます。
 3.  [**削除**] を選びます。 確認メッセージが表示されます。
 4.  チームを完全に削除するには、[**削除**] を選択します。
@@ -79,7 +79,7 @@ ms.locfileid: "45086193"
 1. 管理者として Windows PowerShell を開きます。
 2. 以前のバージョンの AzureADPreview モジュールがインストールされているか、AzureAD モジュールがインストールされている場合は、次のいずれかを実行してアンインストールします。
 
-    ```PowerShell 
+    ```PowerShell
     Uninstall-Module AzureADPreview
     ```
 
@@ -90,7 +90,7 @@ ms.locfileid: "45086193"
 
     ```PowerShell
     Install-Module AzureADPreview
-    ```    
+    ```
 
 ### <a name="restore-the-deleted-microsoft-365-group"></a>削除された Microsoft 365 グループを復元する
 
@@ -102,7 +102,7 @@ ms.locfileid: "45086193"
 2. 次を実行して、30日の保持期間内のすべてのソフト削除された Microsoft 365 グループの一覧を表示します。 多数のグループがある場合は、**-All $True** パラメーターを使用します。
     ```PowerShell
     Get-AzureADMSDeletedGroup
-    ``` 
+    ```
 3. 復元するグループを見つけて、ID をメモします。
 4. グループを復元するには、次のようにします。[Id] はグループ ID です。
     ```PowerShell

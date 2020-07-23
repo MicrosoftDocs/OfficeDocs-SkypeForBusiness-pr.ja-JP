@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201051"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372006"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams のゲスト アクセスのチェックリスト
 =========================================
@@ -31,7 +31,7 @@ ms.locfileid: "45201051"
 このチェックリストは、Microsoft Teams のゲスト アクセスを有効にして、構成するのに役立ちます。 これらの変更を行うには、グローバル管理者または Teams の管理者である必要があります。
 
 > [!IMPORTANT]
-> 変更が反映されるまでに数時間かかる場合があります。 
+> 変更が反映されるまでに数時間かかる場合があります。
 
 この短いビデオ (5 分 31 秒) で、Teams を含む、Microsoft 365 全体でゲスト アクセスを有効する方法について説明します。
 
@@ -39,7 +39,7 @@ ms.locfileid: "45201051"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>手順 1: Teams の組織全体レベルでゲスト アクセスを有効にする
 
-ゲストアクセスを有効にするには、の管理センターに移動 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> します。 
+これらの変更を行うには、Teams サービス管理者である必要があります。 「[チーム管理者ロールを使用してチームを管理する](https://docs.microsoft.com/microsoftteams/using-admin-roles)」を参照して、「管理者ロールと権限の取得」を参照してください。
 
 1. Teams 管理センターで、**[組織全体の設定]** > **[ゲスト アクセス]** を選択します。
 2. **[Microsoft Teams でのゲスト アクセスを許可]** のスイッチを **[オン]** に設定します。
@@ -73,7 +73,7 @@ ms.locfileid: "45201051"
      - **[コラボレーションの制限]**: 特定のドメインへの招待の許可またはブロックの詳細については、「[B2B ユーザーに対する特定組織からの招待を許可またはブロックする](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)」を参照してください。
         > [!NOTE]
         > コラボレーションの制限については、「[B2B の外部コラボレーションを有効にしてゲストを招待できるユーザー管理する](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)」を参照してください。
-      
+
     ゲストを招待できるユーザーの管理方法の詳細については、「[Azure Active Directory B2B コラボレーションの招待の委任](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)」を参照してください。
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>手順 3: Microsoft 365 グループを構成する
@@ -88,18 +88,18 @@ ms.locfileid: "45201051"
 
 これらの設定を構成する詳細な手順については、「 [microsoft 365 グループでゲストアクセスを管理](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)する」および「 [microsoft 365 グループのゲストアクセスを制御](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups)する」を参照してください。
 
-## <a name="step-4-configure-sharing-in-microsoft-365"></a>手順 4: Microsoft 365 で共有を構成する 
+## <a name="step-4-configure-sharing-in-microsoft-365"></a>手順 4: Microsoft 365 で共有を構成する
 
 ユーザーがゲストを追加できることを確認します。 次の操作を実行してください。
 
 1. Microsoft 365 管理センターで、[**設定**  >  ] の [**組織の設定**] に移動し、[ **& セキュリティ**] をクリックして、[**共有**] を選択します。
 
      ![サービスの設定の例を示すスクリーンショット](media/guest-access-checklist-security-privacy-settings.png)
- 
+
 2. **[ユーザーがこの組織に新しいゲストを追加できるようにする]** のチェックボックスをオンにし、**[変更の保存]** をクリックします。
 
      ![共有設定の切り替えの例を示すスクリーンショット](media/guest-access-checklist-sharing-setting.png)
- 
+
     > [!NOTE]
     > この設定は、Azure AD の **[ユーザー設定]** > **[外部ユーザー]** の **[メンバーは招待ができる]** 設定と同等です。  
 

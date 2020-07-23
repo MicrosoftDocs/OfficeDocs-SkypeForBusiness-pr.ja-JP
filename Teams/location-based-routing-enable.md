@@ -17,16 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: e4cadbfb700c7478cb77c62f4597c9ae00164b0c
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412644"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372046"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 この記事の手順を実行する前に、「位置[情報](location-based-routing-plan.md)に基づくルーティングのための[ネットワーク設定を構成](location-based-routing-configure-network-settings.md)する」の手順を参照していることを確認してください。
 
@@ -66,7 +64,7 @@ PSTN への通話をルーティングする PSTN ゲートウェイへの通話
 2. SBC を選択し、[**編集**] をクリックします。 
 3. [**場所に基づくルーティングとメディアの最適化**] で、[**場所に基づくルーティングを有効にする**] をオンにします。
 4. ゲートウェイのサイト ID を指定し、バイパスモードを設定します。
-5. **[保存]** をクリックします。
+5. [**保存**] をクリックします。
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーで位置情報に基づくルーティングを有効にする
 

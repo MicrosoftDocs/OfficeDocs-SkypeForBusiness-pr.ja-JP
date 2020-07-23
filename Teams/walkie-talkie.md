@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9369cf56a32142d6527fcb86271d8d0fa56718ec
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043012"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229053"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams での ie トランシーバーアプリの解説
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Teams のトランシーバー Ie のアプリでは、チームのインスタントプッシュツートーク (PTT) コミュニケーションが提供されます。これは、Android のパブリックプレビューで間もなく利用可能になります。 トランシーバー ie では、ユーザーは、メンバーである基になるチャネルを使ってチームと接続できます。 チャネルで、トランシーバーに接続しているユーザーのみが、チャネルで参加者になり、プッシュツートークを使って互いに通信できます。
+Teams のトランシーバー Ie のアプリでは、チームのインスタントプッシュトーク (PTT) コミュニケーションが提供され、Android のパブリックプレビューで利用できます。 トランシーバー ie では、ユーザーは、メンバーである基になるチャネルを使ってチームと接続できます。 チャネルで、トランシーバーに接続しているユーザーのみが、チャネルで参加者になり、プッシュツートークを使って互いに通信できます。
 
 Teams でトランシーバー Ie の機能を使用することで、firstline worker は、非常に強い無線を伝送することなく、使い慣れた PTT エクスペリエンスと安全に通信できるようになりました。また、WiFi または携帯電話のインターネット接続があればどこでも Ie トランシーバーが動作します。
 
@@ -73,9 +73,9 @@ Latency (RTT) < 300ms |ジッター < 30ms |パケット損失 < 1%
 
 FirstLine worker は、多くの場合、電話がロックされているときでも、聞く Ie トランシーバーの通話を発信したり、受信したりする必要があります。 この操作は、専用の PTT ボタンを持つ専用デバイスから実行できます。
 
-- 既存の電話
-  - 有線ヘッドセット ([Klein エレクトロニクス](https://www.kleinelectronics.com/))
-  - ワイヤレスヘッドセット ([Jabra BlueParrott](https://www.blueparrott.com/))
+- ヘッドホン
+  - 有線ヘッドセット ([Klein エレクトロニクス](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - ワイヤレスヘッドセット ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - 丈夫の携帯電話
   - Samsung Galaxy XCover Pro
     - [さらに詳しい情報](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)があります。
