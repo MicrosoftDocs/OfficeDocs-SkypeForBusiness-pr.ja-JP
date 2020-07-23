@@ -132,6 +132,38 @@
 # ミーティングと会議
 ## [クイック スタート - 会議とライブ イベント](quick-start-meetings-live-events.md)
 ## [展開の計画](deploy-meetings-microsoft-teams-landing-page.md)
+## Microsoft Teams ミーティング
+### [概要](rooms/index.md)
+### 計画
+#### [Microsoft Teams ルームの計画の概要](rooms/rooms-plan.md)
+#### [バージョンのサポート](rooms/rooms-lifecycle-support.md)
+#### [リリース ノート](rooms/rooms-release-note.md)
+#### [環境を準備する](rooms/rooms-prep.md)
+#### [要件](rooms/requirements.md)
+#### [オンライン ライセンス](rooms/rooms-licensing.md)
+#### [Azure Monitor による管理の計画](rooms/azure-monitor-plan.md)
+#### [Microsoft Teams ルーム プレミアムを使用したプラン管理](rooms/microsoft-teams-rooms-premium.md)
+### 展開
+#### [展開の概要](rooms/rooms-deploy.md)
+#### [アカウントを構成する](rooms/rooms-configure-accounts.md)
+#### [Office 365 の場合](rooms/with-office-365.md)
+#### [Skype for Business Server の場合](rooms/with-skype-for-business-server-2015.md)
+#### [Exchange Online の場合 (ハイブリッド)](rooms/with-exchange-online.md)
+#### [オンプレミスの Exchange の場合 (ハイブリッド)](rooms/with-exchange-on-premises.md)
+#### [コンソールを構成する](rooms/console.md)
+#### [認証を構成する](rooms/rooms-authentication.md)
+#### [Microsoft Endpoint Configuration Manager を使用する](rooms/rooms-scale.md)
+#### [Azure Monitor による管理](rooms/azure-monitor-deploy.md)
+#### [SRS v1 または LRS の移行](rooms/lrs-migration.md)
+#### [コンテンツ カメラ](rooms/content-camera.md)
+### 管理
+#### [管理の概要](rooms/rooms-manage.md)
+#### [メンテナンスと運用](rooms/rooms-operations.md)
+#### [組織で Teams をサポートする](rooms/known-issues.md)
+#### [Azure Monitor でのデバイス](rooms/azure-monitor-manage.md)
+#### [XML を使用した設定](rooms/xml-config-file.md)
+#### [回復ツールの使用](rooms/recovery-tool.md)
+
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
 ## [会議ポリシーを管理する](meeting-policies-in-teams.md)
 ## [会議の設定を管理する](meeting-settings-in-teams.md)
@@ -147,7 +179,6 @@
 ## [ユーザーの [電話する] 機能をセットアップする](set-up-the-call-me-feature-for-your-users.md)
 ## [会議出席レポートを入手する](teams-analytics-and-reports/meeting-attendance-report.md)
 ## [Meeting Migration Service (MMS) のセットアップ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Microsoft Teams ミーティング](rooms/index.md)
 ## [Teams でホワイトボードを管理する](manage-whiteboard.md)
 
 
