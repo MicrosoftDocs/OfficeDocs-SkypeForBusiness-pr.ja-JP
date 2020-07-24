@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをバーレーンで利用できるようにする方法について説明します。
-ms.openlocfilehash: 5d3dbac85646384eb2491c05797235d212450382
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 2b87e6545d8c24215f9d61c6b2f75ade95fa3266
+ms.sourcegitcommit: ca2faa1cd2b078e8d0389b5d2f49bfe6ddbcb9f6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231216"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391625"
 ---
 # <a name="availability-in-bahrain"></a>バーレーンでの利用可能性
 
@@ -71,7 +71,7 @@ ms.locfileid: "44231216"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |マナーマ  <br/> |
-|有料電話番号は使用できますか?  <br/> |はい  <br/> |
+|有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
 |無料電話番号は使用できますか?  <br/> |いいえ  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
@@ -84,7 +84,7 @@ ms.locfileid: "44231216"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

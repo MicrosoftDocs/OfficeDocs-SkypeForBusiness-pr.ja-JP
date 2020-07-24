@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、microsoft teams ルームのリリースノートを読むことができます。これにより、Microsoft Teams のルームでの累積的な改善点が一覧表示されます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 2975d384fd0d09b36e18802dbede4e8ec7dc721b
+ms.sourcegitcommit: f1834bb47452007480269b5a5cdad20037c32ef6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201181"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45390117"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -29,7 +29,7 @@ ms.locfileid: "45201181"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
-|4.5.33.0 |07/20/2020 |
+|4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -66,20 +66,25 @@ ms.locfileid: "45201181"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams ミーティング機能の概要と問題の解決
 
-### <a name="45330-07202020"></a>4.5.33.0 (07/20/2020)
+### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
+
 この更新プログラムで導入されるもの:
-- 直接ゲスト参加を使用してチームルームから Cisco Webex 会議に参加する
+
+- 直接ゲスト参加を使用してチームルームから Cisco WebEx 会議に参加する
 - Teams 管理センターの有効化と自動登録
 - Windows 10 1909 リリースサポート
 - コンテンツが存在する場合でも、ビデオギャラリーのレイアウトに切り替える
 - [仮想] は、発表者向けの参加者とコントロールの手によるサポートを高める
 - 会議と既定のスピーカーの調整可能な既定の音量設定
 - Teams ルームからフェデレーションされたユーザー (テナント) を検索して呼び出す
-    
+
+> [!IMPORTANT]
+> バージョン4.5 は、Windows 10 バージョン1803をサポートするための最新のリリースです。今後のリリースは、Windows 10 バージョン1803のシステムには提供されません。 Windows バージョンのサポートについて詳しくは、「 [windows 10 リリースサポート](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)」をご覧ください。
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
 この更新プログラムで導入されるもの:
+
 - 品質と信頼性の修正
 - "4.4.41.0 の更新後にアプリケーションが起動しない" という問題を解決する
 
@@ -89,6 +94,7 @@ ms.locfileid: "45201181"
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 
 この更新プログラムで導入されるもの:
+
 - Windows 10 キオスクでのアプリケーションの起動に関する信頼性の修正
 
 ### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)
