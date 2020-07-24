@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: e447c05fc19766d3e67d510af6fbd424dc4173e7
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868154"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201211"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -53,7 +53,7 @@ Teams のアドバイザーを初めて使用する場合、Teams で展開チ�
 
 ## <a name="available-advisor-for-teams-plans"></a>Teams のアドバイザーの利用可能なプラン
 
-Teams のアドバイザーはパブリック プレビュー中ですが、以下 2 つのプランを提供しています。
+Teams のアドバイザーはパブリック プレビュー中ですが、以下のプランを提供しています。
 
 1. チャット、チーム、チャネルおよびアプリ
     - テナントの評価
