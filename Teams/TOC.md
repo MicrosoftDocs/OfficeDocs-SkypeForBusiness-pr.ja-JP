@@ -152,6 +152,7 @@
 #### [オンプレミスの Exchange の場合 (ハイブリッド)](rooms/with-exchange-on-premises.md)
 #### [コンソールを構成する](rooms/console.md)
 #### [認証を構成する](rooms/rooms-authentication.md)
+#### [サードパーティ製の会議に参加する](rooms/third-party-join.md)
 #### [Microsoft Endpoint Configuration Manager を使用する](rooms/rooms-scale.md)
 #### [Azure Monitor による管理](rooms/azure-monitor-deploy.md)
 #### [SRS v1 または LRS の移行](rooms/lrs-migration.md)
