@@ -19,7 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
 ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/30/2020
 ms.locfileid: "44938506"
@@ -41,17 +41,17 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 ライブ イベント ポリシーを使用して、ライブ イベントの主催が許可される組織内のユーザーと、それらのユーザーが作成するイベントで有効にする機能を制御します。 既定のポリシーを使用することも、1 つ以上のカスタム ライブ イベント ポリシーを作成することもできます。 カスタム ポリシーを作成したら、それを組織内のユーザーまたはユーザーのグループに割り当てます。
 
 > [!NOTE]
-> 組織内のユーザーは、カスタムポリシーを作成して割り当てる場合を除き、グローバルな (組織全体の既定の) ポリシーを取得します。 グローバル ポリシーの既定では、Teams ユーザーにはライブ イベントのスケジュールが有効にされ、ライブ キャプションと字幕 (文字起こし) は無効にされます。また、組織内のすべてのユーザーがライブ イベントに参加でき、録画設定は [常に録画] に設定されます。
+> カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル (組織全体の既定) ポリシーが適用されます。 グローバル ポリシーの既定では、Teams ユーザーにはライブ イベントのスケジュールが有効にされ、ライブ キャプションと字幕 (文字起こし) は無効にされます。また、組織内のすべてのユーザーがライブ イベントに参加でき、録画設定は [常に録画] に設定されます。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>ライブ イベント ポリシーを作成または編集する
 
 <a name="bkcreatepolicy"> </a>
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**会議**  >  **ライブイベントのポリシー**] に移動します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[**会議**]  >  [**ライブイベントポリシー**]に移動します。
 2. 次のいずれかの操作を行います。
 
     - 既存の既定のポリシーを編集する場合は、**[グローバル (組織全体の既定値)]** を選択します。
-    - 新しいカスタムポリシーを作成する場合は、[**追加**] を選びます。
+    - 新しいカスタム ポリシーを作成する場合は、[**追加**]を選択します。
     - カスタム ポリシーを編集する場合は、対象のポリシーを選択してから **[編集]** を選択します。
 
     組織のニーズに応じて変更できる設定は次のとおりです。
@@ -79,7 +79,7 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
 1. 組織内のユーザーに対して Microsoft Stream を有効にします。 Stream は、対象となる Microsoft 365 または Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして使用できます。 Stream は Business Essentials プランや Business Premium プランには含まれません。 詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。
 
-      ユーザーがストリームにアクセスできるように、[ユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法について説明します。 Stream がそのユーザーに対してブロックされていないことを、[この記事](https://docs.microsoft.com/stream/disable-user-organization)の定義に従って確認します。
+      ユーザーが Stream にアクセスできるよう、[ユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法をご確認ください。 Stream がそのユーザーに対してブロックされていないことを、[この記事](https://docs.microsoft.com/stream/disable-user-organization)の定義に従って確認します。
 
 2. Stream で、ユーザーにライブ イベント作成の許可が割り当てられるようにします。 既定では、管理者は外部アプリまたはデバイスでイベントを作成できます。 Stream 管理者は、Stream で[ライブ イベントの作成を許可する他のユーザーを追加](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)できます。  
 
