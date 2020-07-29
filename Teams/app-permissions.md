@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611016"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429369"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -59,7 +59,7 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 
 - アプリは、使用するデータと、利用規約およびプライバシーポリシーへのリンクでデータがどのように使用されているかを公開する必要があります。
 
-- [リソース固有の同意](resource-specific-consent.md)は、アプリのインストール画面に表示される、アプリが要求できる一連のアクセス許可を提供します。 リソース固有の同意権限の詳細については、「 [Graph 権限リファレンス](https://docs.microsoft.com/graph/permissions-reference)」を参照してください。
+- [リソース固有の同意](resource-specific-consent.md)は、アプリのインストール画面に表示される、アプリが要求できる一連のアクセス許可を提供します。 リソース固有の同意権限の詳細については、「 [Graph 権限リファレンス](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)」を参照してください。
 
 - アプリでは、リソース固有の同意権限以外の権限が必要になる場合もあります。 アプリがインストールされると、アプリは同意プロンプトを通じてグラフのアクセス許可を要求できます。 詳細については、「 [AZURE AD アプリケーションの同意のエクスペリエンスについ](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)て」を参照してください。 Azure ポータルで API の権限と承認を構成できます。 詳細については、「 [Azure Active Directory の承認フレームワーク](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)」を参照してください。
 
@@ -117,7 +117,7 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 
 <sup>1</sup>一部のボットはメッセージのみを送信します (POST_MESSAGE_USER)。 "通知のみ" と呼ばれますが、ボットが許可されているものや、許可されていないものを指しているわけではないことを意味します。 このフィールドは、通常は有効になる UI の機能を無効にするために使用されます。このボットは、会話体験を公開しているボットと比較した場合に制限されていません。
 
-<sup>2</sup>は、アプリの manifest.xml ファイルの bot オブジェクトの Supportsfiles ブールプロパティによって制御されます。
+<sup>2</sup>アプリの manifest.jsファイルの bot オブジェクトの Supportsfiles ブールプロパティによって制御されます。
 
 > [!NOTE]
 > ボットに独自のサインインがある場合は、ユーザーが初めてサインインするときに、2つの方法があります。

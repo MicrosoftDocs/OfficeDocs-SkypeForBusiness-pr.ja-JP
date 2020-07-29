@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54a0565f5126c899ed5fbf9527aa30f83c3bee3b
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 1ed13f1f85b0c7eccead3737c4549931f016284c
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256601"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429379"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams でのリソース固有の同意
 
@@ -95,6 +95,7 @@ Azure AD の設定に加えて、[アプリ[の管理]](manage-apps.md#allow-and
 
 ## <a name="related-topics"></a>関連項目
 
+- [利用可能な RSC 権限](https://aka.ms/teams-rsc)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
 - [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
