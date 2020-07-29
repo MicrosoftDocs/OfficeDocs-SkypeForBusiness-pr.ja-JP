@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e8b8e8605b5e4f916389109cb611996aa90a895
-ms.sourcegitcommit: 34a30c2c9a8e32bfcb382c3e6e7237f277ec361d
+ms.openlocfilehash: e85ef79247bdf35c3c116504af23728a0d268ca5
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45206767"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429329"
 ---
 # <a name="recommended-methods-and-best-practices-for-creating-class-teams"></a>クラスチームを作成するための推奨方法とベストプラクティス
 
@@ -60,17 +60,17 @@ Microsoft Teams for Education は、教育機関向けに  [特別なチーム
 
 ### <a name="considerations"></a>考慮事項
 
-SDS は2つのステップでチームを作成します。 最初のステップでは、Azure Active Directory （Azure AD）に Microsoft 365 グループを作成し、2 番目のステップでは、そのグループを自動的にチームに変換します。 チームを作成する2番目のステップは、SDS ではオプションです。 管理者は、導入時間と結果として生じる可能性のある未使用のチームの数によっては、チームを自動作成したがらない可能性があります。 500,000以上のチームを持つ機関には、SDS でチームの自動作成トグルをオフにし、[教師主導のチーム作成方法](#teacher-led-team-creation-from-office-365-class-groups)を使用するようお勧めします。  
+SDS は2つのステップでチームを作成します。 最初のステップでは、Azure Active Directory （Azure AD）に Microsoft 365 グループを作成し、2 番目のステップでは、そのグループを自動的にチームに変換します。 チームを作成する2番目のステップは、SDS ではオプションです。 管理者は、導入時間と結果として生じる可能性のある未使用のチームの数によっては、チームを自動作成したがらない可能性があります。 500,000 以上のチームを持つ機関には、SDS でチームの自動作成トグルをオフにし、[教師主導のチーム作成方法](#educator-led-team-creation-from-office-365-class-groups)を使用するようお勧めします。  
 
 ### <a name="get-started"></a>はじめに
 
 まず、[School Data Sync（SDS）](https://docs.microsoft.com/SchoolDataSync)にアクセスし、[https://aka.ms/sdssupport](https://aka.ms/sdssupport)導入アシスタンスにご連絡ください。  
 
-## <a name="teacher-led-team-creation-from-office-365-class-groups"></a>Office 365 クラスグループからの教師主導のチーム作成
+## <a name="educator-led-team-creation-from-office-365-class-groups"></a>Office 365 クラスグループからの教師主導のチーム作成
 
 **この機能は、2020年8月中旬までに、登場します。**
 
-必要なクラスを教師がすばやく簡単に作成する方法として、教師主導のチーム作成は導入オプションとして優れています。 500,000以上のチームを持つ機関には、無関係に作成されるチームの数を最小限に抑えることができるためこの方法をお勧めします。  
+教師主導のチーム作成は、教師が必要なクラスをすばやく簡単に作成したい場合、導入オプションとして優れています。 500,000以上のチームを持つ機関には、無関係に作成されるチームの数を最小限に抑えることができるためこの方法をお勧めします。  
 
 このハイブリッドアプローチでは、SDS を使用して各クラスのグループを作成するか（推奨）、または[Graph API ](https://docs.microsoft.com/graph/api/educationroot-post-classes)を使用して独自にグループを作成できます。 クラスグループの準備ができましたら、教育者は、[**推奨クラス**]アイコンを使用してグループをチームに変換できます。
 
@@ -108,7 +108,7 @@ SDS メソッドではまず、[学校データ同期（SDS）](https://docs.mic
 Graph API メソッドの利用方法は、「[Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-1.0&tabs=http)」および「[クラスチームを作成する](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http)」を参照してください。  
 
 > [!NOTE]
-> SDS でこの方法を使用するには、SDS プロファイルで自動チーム作成トグルをオフにしなければなりません。 また、2 つの SDS プロファイルを使用して、必須およびオプションのクラスチームに対して、自動作成および教師主導のチーム作成を組み合わせて使用することもできます。
+> SDS でこの方法を使用するには、SDS プロファイルで自動チーム作成トグルをオフにしなければなりません。 2 つの SDS プロファイルを使用して、必須およびオプションのクラスチームに対して、自動作成と教師主導のチーム作成を組み合わせて使用することもできます。
 
 ## <a name="powershell-script-using-graph-apis"></a>Graph API を使用した PowerShell スクリプト
 
@@ -147,6 +147,6 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 ## <a name="recommended-best-practices"></a>推奨されるベストプラクティス
 
 - 早期導入！ 早期に導入して、すべてが確実に機能し、初日の準備ができるようにします。 SDS を使用する場合、SDS の導入には完全な学生メンバーシップは必要ありません。 学生メンバーシップ情報が SIS で利用可能になると、生徒が同期されます。
-- 500,000以上のチームを持つ場合は、[教師主導のチーム作成方法](#teacher-led-team-creation-from-office-365-class-groups)をお勧めします。 関連性があり必要なクラスチームのみを作成することで、未使用のチームと混乱を減らします。  
-- SDSの自動チーム作成に問題があり（クラスが不足するなど）、教師がチームをすぐに必要とする場合は、[教師主導のチーム作成方法](#teacher-led-team-creation-from-office-365-class-groups)を使用して再試行できます。 [チームの手動作成](#manual-team-creation)は別のソリューションですが、チームメンバーシップを更新し続けることはできません。  
+- チームが 500,000 以上ある場合、[教師主導のチーム作成方法](#educator-led-team-creation-from-office-365-class-groups)を使用することをお勧めします。 関連性があり必要なクラスチームのみを作成することで、未使用のチームと混乱を減らします。  
+- SDSの自動チーム作成に問題があり（クラスが不足するなど）、教師がチームをすぐに必要とする場合は、[教師主導のチーム作成方法](#educator-led-team-creation-from-office-365-class-groups)を使用して再試行できます。 [チームの手動作成](#manual-team-creation)は別のソリューションですが、チームメンバーシップを更新し続けることはできません。  
 - テナントチームの上限は500,000チームです。 したがって、管理者は未使用のチームの数を積極的に減らして、制限に達したり、セットアップ時間を延長する必要がないようにしないようにしなければなりません。 制限の詳細については、「[Microsoft Teams の制限事項と仕様](limits-specifications-teams.md)」を参照してください。  
