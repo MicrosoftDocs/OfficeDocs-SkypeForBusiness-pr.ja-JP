@@ -6,7 +6,7 @@
 
 # [リモート ワーカーのサポート (WFH)](support-remote-work-with-teams.md)
 
-# トレーニング 
+# トレーニング
 ## [概要](training-microsoft-teams-landing-page.md)
 ## [Teams のインストラクターによるトレーニング](instructor-led-training-teams-landing-page.md)
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
@@ -50,7 +50,7 @@
 ## [Teams の有効期限と更新](team-expiration-renewal.md)
 ## [チームをアーカイブまたは削除する](archive-or-delete-a-team.md)
 ## [Slack から Teams に移行する](migrate-slack-to-teams.md)
-## [中小企業向けの Teams のテンプレート](smb-templates.md)
+## [Graph に内蔵された中小企業向けTeams テンプレート](smb-templates.md)
 
 
 
@@ -649,7 +649,7 @@
 
 # 業界および政府機関向けのガイダンス
 ## [概要](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
+## [Microsoft Graph を使用して、Teams テンプレートの使用を開始する](get-started-with-teams-templates.md)
 ## [予約アプリと仮想訪問](bookings-app-admin.md)
 ## [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHubは廃止されました](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
