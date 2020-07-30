@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI Connector をインストールして通話品質ダッシュボード (CQD) クエリテンプレートを使用する
-ms.openlocfilehash: 1647497cf2551a125e28d5a3920625bee15eca9f
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138066"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506170"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>CQD クエリテンプレートを使用するために Power BI コネクタをインストールする
 
@@ -124,7 +124,7 @@ Power BI を使用しているにもかかわらず、Power BI 機能はすべ�
 
 6. **行政機関向けコミュニティクラウド (GCC) のサポート-** GCC 環境のお客様の場合、Power BI デスクトップを使用すると、CQD Power BI コネクタが機能します。 CQD Power BI connector は、現在、GCC のお客様の Power BI サービスに対応していません。
 
-コネクタはプレビュー版ですが、これらの制限は、コネクタの最終リリースによって変更されることはありませんのでご注意ください。 これらの問題のほとんどは、Power BI での DirectQuery コネクタの設計への制限、または CQD データモデルの設計に対する基本事項です。
+これらの問題のほとんどは、Power BI での DirectQuery コネクタの設計への制限、または CQD データモデルの設計に対する基本事項です。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 

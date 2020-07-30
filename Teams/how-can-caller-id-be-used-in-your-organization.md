@@ -22,18 +22,22 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 5c20f439d156997c89ca54c2a3bf39e9c3a42ae4
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638897"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506200"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
   
 発信者番号機能は、PSTN 接続にかかわらず、すべての電話システムユーザーが利用できます。
+
+- Microsoft 通話プラン 
+
+- 電話システムのダイレクト ルーティング 
   
 - オンラインの PSTN 接続
     
@@ -74,8 +78,8 @@ EnableUserOverride 属性を使うと、1人または複数のユーザーがそ
 |クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |はい  <br/> |
 |クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |はい  <br/> |
 |クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |はい  <br/> |
-|MSI  <br/> |Skype for Business  <br/> |X  <br/> |
-|Mac  <br/> |Skype for Business  <br/> |X  <br/> |
+|MSI  <br/> |Skype for Business  <br/> |いいえ  <br/> |
+|Mac  <br/> |Skype for Business  <br/> |いいえ  <br/> |
    
 ## <a name="inbound-caller-id"></a>着信の発信者番号
 

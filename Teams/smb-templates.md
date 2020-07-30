@@ -1,5 +1,5 @@
 ---
-title: 中小規模企業向けの Teams テンプレート
+title: Microsoft Graph で構築されている中小企業向けの Teams テンプレート
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -15,16 +15,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Microsoft Teams の事前定義されたテンプレートを使用して、中小規模企業のチームをすばやく簡単に作成できます。
+description: Microsoft Graph に組み込まれている Microsoft Teams の組み込みテンプレートを使用して、中小規模企業向けのチームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 9807e7f3694731af398abd83189698420ec36b8a
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944030"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506150"
 ---
-# <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>中小企業向けの Teams テンプレートを使ってみる
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>中小規模企業向け Microsoft Graph で構築されたチームテンプレート
 
 Microsoft Teams のテンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 
