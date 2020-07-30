@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams のアドオンライセンスと各ライセンスで入手できる機能について説明します。
-ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028183"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522464"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams のアドオンライセンス
 
@@ -41,7 +41,7 @@ ms.locfileid: "45028183"
 |:-----|:-----|:-----|:-----|
 |**機能** <br/> |**説明** <br/> |**Small business (<300 ユーザー)**|**大規模ビジネス (>300 ユーザー)**|
 **Microsoft 365 企業向け音声** <br/> | [ビジネス voip](../business-voice/whats-business-voice.md)は、電話システム、電話会議、国内通話プランなど、300ユーザーの中小企業向けに設計されたテレフォニーソリューションです。 電話システム機能には、ボイスメール、発信者番号通知、コールパーク、着信の転送、自動応答、通話キューなどがあります。 <br> お客様の国または地域でビジネスボイスが利用可能かどうかを確認するには、「[ビジネス用の国と地域の空き時間](../business-voice/country-region-availability.md)情報」を参照してください。 価格情報については、「[ビジネス用の価格につい](https://go.microsoft.com/fwlink/?linkid=2127221)て」を参照してください。 <br/> |&#x2713;||
-|**電話会議** <br/> |組織内のユーザーが、自分のコンピューターではなく、チーム会議へのコールインに電話を使用する必要がある場合があります。 会議をスケジュールまたは開催するユーザーのために[電話会議](../audio-conferencing-in-office-365.md)をセットアップします。 <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 料金については、「[電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)」をご覧ください。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**電話会議** <br/> |組織内のユーザーが、自分のコンピューターではなく、チーム会議へのコールインに電話を使用する必要がある場合があります。 会議をスケジュールまたは開催するユーザーのために[電話会議](../audio-conferencing-in-office-365.md)をセットアップします。 <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 料金については、「[電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)」をご覧ください。  <br/> |&#x2713;|&#x2713;|
 |**無料電話番号** |電話会議、自動応答、または通話キューの無料電話番号が必要な場合は、[通信クレジットを設定](../set-up-communications-credits-for-your-organization.md)する必要があります。 <br/> |&#x2713;|&#x2713;|
 |**電話システム** <br/> |[電話システム](../what-is-phone-system-in-office-365.md)は、公衆交換電話網 (PSTN) に接続するためのオプションを備えた、発信コントロールと構内交換機 (PBX) 機能を提供するホスト型電話サービスです。 電話システムの機能には、クラウドボイスメール、発信者番号通知、コールパーク、着信の転送、自動応答、通話キュー、通話転送、発信者番号などがあります。 <br>詳細については、「[電話システムで利用できる機能](../here-s-what-you-get-with-phone-system.md)」を参照してください。 価格情報については、「[電話システムの価格](https://go.microsoft.com/fwlink/?linkid=799763)を確認する」を参照してください。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**通話プラン** <br/> |ユーザーが組織外の電話番号に通話を発信できるようにする場合は、[通話プラン](../calling-plans-for-office-365.md)を取得します。 国内通話プランと国内および国際通話プランがあります。 価格情報については、「[通話プランの価格](https://go.microsoft.com/fwlink/?linkid=799761 )」をご覧ください。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|

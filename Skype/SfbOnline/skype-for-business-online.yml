@@ -1,0 +1,124 @@
+### YamlMime:Landing
+title: Skype for Business Online の管理
+summary: Skype for Business Online は、2021年7月31日に廃止されます。これにより、サービスへのアクセスが終了します。 Microsoft Teams (Microsoft 365 でのチームワークのハブ) へのアップグレードを開始することをお勧めします。
+metadata:
+  title: Skype for Business Online の管理
+  description: 組織のために Skype for Business Online を管理する方法を理解します。
+  services: skype-for-business-online-admin
+  ms.service: skype-for-business-online-admin
+  ms.topic: landing-page
+  search.appverid: MET150
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  author: tonysmit
+  ms.author: tonysmit
+  f1.keywords:
+  - CSH
+  ms.custom:
+  - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+  ms.date: 06/24/2020
+  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
+  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.translationtype: MT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 07/29/2020
+  ms.locfileid: "46522965"
+landingContent:
+- title: Skype for Business Online について
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Skype for Business Online は2021で廃止される予定です
+      url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
+  - linkListType: get-started
+    links:
+    - text: はじめに
+      url: https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994
+  - linkListType: overview
+    links:
+    - text: 役立つ情報が提供されます。
+      url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+    - text: Skype for Business のサインインのヘルプ
+      url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
+    - text: Skype for Business に関する問題をトラブルシューティングする
+      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+    - text: Skype for Business から Teams への移行
+      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+- title: 新機能
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 組織内の電話システムの設定
+      url: /microsoftteams/setting-up-your-phone-system
+    - text: 電話会議とのサードパーティの統合
+      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+    - text: 電話会議をセットアップする
+      url: /microsoftteams/audio-conferencing-in-office-365
+  - linkListType: overview
+    links:
+    - text: カナダでの通話プラン (一般提供 (GA))
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
+    - text: オーストラリアでの通話プラン (プレビューのみ)
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
+- title: 電話会議
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 電話会議に関するよくある質問
+      url: /MicrosoftTeams/audio-conferencing-common-questions
+    - text: 自分の国や地域で電話会議や PTSN 会議が使用できるかを確認する
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: 組織の電話会議の設定を管理する
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+    - text: 電話会議プロバイダーを比較する
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
+- title: セットアップ
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Skype for Business Online のセットアップ
+      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
+      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: Skype for Business ユーザーが Skype 連絡先を追加できるようにする
+      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+- title: アドオン ライセンス
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Skype for Business と Microsoft Teams のアドオン ライセンス
+      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+    - text: 通信クレジットについて
+      url: /MicrosoftTeams/what-are-communications-credits
+- title: 通話プラン
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 通話プランとは何ですか?
+      url: /MicrosoftTeams/calling-plan-landing-page
+    - text: 自分の国や地域で通話プランが使用できるかを確認する
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: 通話プランの設定
+      url: /MicrosoftTeams/set-up-calling-plans
+- title: 電話システム
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 電話システムとは何ですか?
+      url: /MicrosoftTeams/what-is-phone-system-in-office-365
+    - text: 電話システムで利用できる機能
+      url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
+- title: 通話とビデオの品質を改善する
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Skype for Business の接続の問題のトラブルシューティング
+      url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
+    - text: Skype for Business の音声とビデオのトラブルシューティング
+      url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
+    - text: Skype for Business Online のパフォーマンスのチューニング
+      url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802

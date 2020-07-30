@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams のルーム Premium について説明します。
 f1keywords: ''
-ms.openlocfilehash: 01486e66f13af34fb14264c3a14dc414e0d5eb4f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201281"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521982"
 ---
 # <a name="microsoft-teams-rooms-premium"></a>Microsoft Teams の会議室 Premium
 
-Microsoft Teams のルーム Premium は、クラウドベースの IT 管理と監視サービスであり、Microsoft Teams のデバイスとその周辺機器を最新の状態に維持し、事前に監視して、優れたユーザーエクスペリエンスを実現するために最適化された環境をサポートします。
+Microsoft Teams のルーム Premium には、クラウドベースの IT 管理と監視サービスが含まれており、Microsoft Teams のデバイスとその周辺機器は最新の状態に維持され、事前に監視されているため、優れたユーザーエクスペリエンスを実現するために最適化された環境をサポートします。
 
 Microsoft Teams room Premium は、Microsoft Teams room デバイスの予防的な管理を提供することにより、会議室のエクスペリエンスを向上させ、フットプリントをすばやく調整する組織に適しています。 このサービスを利用することにより、組織は時間とコストを節約し、「自分で自分を作る」という部屋の管理に費やすことができます。  
 
@@ -62,8 +62,6 @@ Microsoft Teams の会議室プレミアムサービスは、Microsoft の専門
 |**洞察と推奨事項**   |使用状況、インシデント、正常性、および全体的なレポート (履歴ビュー)         |
 
 ## <a name="service-prerequisites"></a>サービスの前提条件
-
-Microsoft Teams room Premium サービスは、room ライセンスごとのアドオンです。 Microsoft Teams のルームには、個別のユーザーまたは Microsoft Teams Room ライセンスが必要です。
 
 Microsoft Teams の room Premium がサービスの品質を維持するためには、登録されたルームが[Microsoft teams room でサポートさ](requirements.md#hardware-requirements)れているデバイスである必要があります。また、[必要なすべての Office 365 url と IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)が会議室のデバイスによって許可され、接続可能である必要があります。 詳細については、「Microsoft Teams ルームドキュメントの[環境を準備](rooms-prep.md)する」を参照してください。
 

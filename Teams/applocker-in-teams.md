@@ -16,24 +16,24 @@ description: AppLocker アプリケーション制御ポリシーを使って Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cbccede3ca2d114b7bffa81b669a06a519f6b4e6
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 4e70fc4502851137494c316db9eff7faefc140d1
+ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121667"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526693"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft Teams の AppLocker アプリケーション制御ポリシー
 
 この記事では、AppLocker アプリケーション制御ポリシーを使って Teams デスクトップクライアントアプリを有効にする方法について説明します。 AppLocker の使用は、管理者以外のユーザーによるプログラムとスクリプトの実行を制限するように設計されています。 AppLocker の詳細とガイダンスについては、「 [applocker とは](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)」をご覧ください。
 
-AppLocker を使用してチームを有効化するプロセスでは、AppLocker ベースの空白のポリシーを作成する必要があります。 ポリシーは、グループポリシー管理ソフトウェアまたは AppLocker の Windows PowerShell コマンドレットを使用して作成されます (詳細については、「 [applocker のテクニカルリファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)」を参照してください)。 AppLocker ポリシーは XML 形式で保存され、任意のテキストエディターまたは XML エディターで編集できます。
+AppLocker を使用してチームを有効化するプロセスでは、AppLocker ベースの許可一覧のポリシーを作成する必要があります。 ポリシーは、グループポリシー管理ソフトウェアまたは AppLocker の Windows PowerShell コマンドレットを使用して作成されます (詳細については、「 [applocker のテクニカルリファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)」を参照してください)。 AppLocker ポリシーは XML 形式で保存され、任意のテキストエディターまたは XML エディターで編集できます。
 
-## <a name="teams-whitelisting-with-applocker"></a>AppLocker を使ったチームの空白の置き換え
+## <a name="teams-allow-list-with-applocker"></a>AppLocker を使ったチームの許可リスト
 
 AppLocker ルールは、ルールのコレクションに整理されます。 AppLocker の規則はターゲットアプリに適用され、AppLocker ポリシーを構成するコンポーネントです。  
 
-チームのホワイトリストを作成するには、すべての Teams アプリファイルがデジタル署名されているため、 [publisher の条件ルール](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)を使用することをお勧めします。
+チームを許可するには、すべての Teams アプリファイルがデジタル署名されているため、 [publisher の条件ルール](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)を使用することをお勧めします。
   
 Teams のインストールディレクトリはユーザーが書き込み可能であるため、パスルールを使用することはお勧めしません。 また、ルールは Teams クライアントアプリが更新されるたびに更新される必要があるため、ハッシュ規則を使用することはお勧めしません。
 
