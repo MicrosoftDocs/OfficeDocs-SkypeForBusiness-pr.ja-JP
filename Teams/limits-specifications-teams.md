@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: c31a368c33c1e88cb97a67fb7fd2001e0168bf73
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146073"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506130"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -108,6 +108,9 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 チャネル名は、アンダースコア (_) またはピリオド (。) で始まったり終わったりすることもできません。
 
 ## <a name="meetings-and-calls"></a>会議と通話
+
+> [!IMPORTANT]
+> 4月に、弊社は、お客様のサポートを改善するために、7月1日まで、Microsoft 365 ライブ イベントの一時的な既定の制限値の引き上げをすることを[発表](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929)しました。 引き続きお客様のニーズに対応するために、2020 年 10 月 1 日まで一時的に既定の制限を延長します。 Teams、Stream、Yammer でホストされるライブイベントは、最大 20,000 人の参加者、16 時間のイ弁時間、および同時に発生する50 のイベントを一時的にサポートし続けます。 また、お客様は、[Microsoft ライブ イベント アシスタンス プログラム](https://resources.techcommunity.microsoft.com/live-events/assistance/)でイベントを予定された場合は、最大 100,000 人の参加者のために Stream でライブイベントをホストできます。
 
 |機能     | 上限 |
 |------------|---------------|

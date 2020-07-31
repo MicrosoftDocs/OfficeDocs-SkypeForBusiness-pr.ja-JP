@@ -1,5 +1,5 @@
 
-# [Skype for Business Online 管理者](../skype-for-business-online.md)
+# [Skype for Business Online 管理者](../skype-for-business-online.yml)
 
 ## [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [アルゼンチン](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

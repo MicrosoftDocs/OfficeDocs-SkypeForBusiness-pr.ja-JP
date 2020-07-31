@@ -53,7 +53,6 @@
 ## [Graph に内蔵された中小企業向けTeams テンプレート](smb-templates.md)
 
 
-
 ## アプリ、ボット、コネクタ
 
 ### [概要](deploy-apps-microsoft-teams-landing-page.md)
