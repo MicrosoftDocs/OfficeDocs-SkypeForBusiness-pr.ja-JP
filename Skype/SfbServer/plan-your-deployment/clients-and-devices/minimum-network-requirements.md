@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: '概要: Microsoft 365 または Office 365 を使用しておらず、組織によってホストされている会議にアクセスする必要がある組織に関する情報。'
-ms.openlocfilehash: 656f8fa52f4a1080cca0b8464becf77c8c2a0ef0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: bcb8cfa74067ec6aa3e895f757c71d075888f447
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219727"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529190"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 会議アプリの最小ネットワーク要件
  
 **概要:** Microsoft 365 または Office 365 を使用しておらず、組織によってホストされている会議にアクセスする必要がある組織の情報。 この記事は、これらのアプリのユーザーを対象としたものではありません。
   
-ユーザーが skype for Business Online でホストされている会議に参加するために Skype 会議アプリを使用できるようにするには、Microsoft 365 または Office 365 を使用していない組織のネットワーク管理者は、以下に記載されている Fqdn、Ip、およびポートをホワイトリストするか、それ以外の方法で使用できます。
+ユーザーが skype for Business Online でホストされている会議に参加するために Skype 会議アプリを使用できるようにするには、Microsoft 365 または Office 365 を使用していない組織のネットワーク管理者が、以下に示す Fqdn、Ip、およびポートを許可またはその他の方法で使用できるようにする必要があります。
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Skype 会議アプリの接続の要件
 

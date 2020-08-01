@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 318a430f6f59cbb28ffeda4336c36ae07533615b
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938196"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533742"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 
@@ -38,7 +38,6 @@ ms.locfileid: "44938196"
 [Skype For Business Online PowerShell モジュール](https://www.microsoft.com/download/details.aspx?id=39366)をダウンロードしてインストールし、メッセージが表示されたら、コンピューターを再起動します。
 
 詳細については、「 [Office 365 PowerShell を使って Skype For Business Online を管理](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)する」を参照してください。
-
 
 ## <a name="sample-script"></a>サンプル スクリプト
 
@@ -62,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> また、バッチポリシーの割り当てまたはユーザーがメンバーになっているグループによって、メッセージングポリシーをユーザーに直接割り当てることもできます。 詳細については、「[学校の多数のユーザーにポリシーを割り当て](../batch-policy-assignment-edu.md)、 [Teams のユーザーにポリシーを割り当てる](../assign-policies.md)」を参照してください。
+> また、バッチポリシーの割り当てまたはユーザーがメンバーになっているグループによって、メッセージングポリシーをユーザーに直接割り当てることもできます。 詳細については、「[学校の多数のユーザーにポリシーを割り当て](../batch-group-policy-assignment-edu.md)、 [Teams のユーザーにポリシーを割り当てる](../assign-policies.md)」を参照してください。

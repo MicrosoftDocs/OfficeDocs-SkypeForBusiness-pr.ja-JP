@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 教育機関におけるポリシーや EDU 設定、および Microsoft Teams でポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021885"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533904"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>境域機関向け Teams ポリシーおよびポリシー パッケージ
 
@@ -100,7 +100,7 @@ Teams 管理センターにログインすると、Teams 管理センターの�
 また、[ユーザー] に移動し、ポリシーを更新するユーザーを選択し、[ポリシー] を選択してから [編集] を選択することにより、ユーザーにポリシーを割り当てることができます。 ここから、各機能領域に対してユーザーに割り当てるポリシー定義を選択できます。
 
 > [!IMPORTANT]
-> お客様が大規模な教育機関の一員である場合、Microsoft Teams 管理ポータルを使用して各ユーザーのポリシーを設定するのが難しい場合があります。 このような場合は、PowerShell を使用してポリシーを一括で割り当てる方が適切です。 [教育機関の大規模なユーザーにポリシーを割り当てる](batch-policy-assignment-edu.md)方法については、EDU に固有の情報があります。この情報を必要とする場合は、ポリシー パッケージの以下のセクションをご確認ください。これは、ユーザーの大規模グループに対してポリシーや設定を管理するための別な優れた方法です。
+> お客様が大規模な教育機関の一員である場合、Microsoft Teams 管理ポータルを使用して各ユーザーのポリシーを設定するのが難しい場合があります。 このような場合は、PowerShell を使用してポリシーを一括で割り当てる方が適切です。 [教育機関の大規模なユーザーにポリシーを割り当てる](batch-group-policy-assignment-edu.md)方法については、EDU に固有の情報があります。この情報を必要とする場合は、ポリシー パッケージの以下のセクションをご確認ください。これは、ユーザーの大規模グループに対してポリシーや設定を管理するための別な優れた方法です。
 
 ![[割り当てられているポリシー] ページの右側にある [ユーザー ポリシーの編集] ウィンドウ。](media/edu-edit-user-policies-pane.png)
 

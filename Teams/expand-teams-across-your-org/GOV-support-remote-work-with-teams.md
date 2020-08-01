@@ -15,12 +15,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して政府組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: ae7580b9fd58be66296ab4c9c5e6723aa1a3db91
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028143"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533752"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Microsoft Teams を使用して政府機関のリモート ワーカーをサポートする
 
@@ -65,7 +65,7 @@ Teams をユーザーに展開するための準備として、 **[政府機関�
 
   - ライブ形式の一連の**[対話型トレーニング](https://aka.ms/TeamsLiveTraining)** を利用して、Teams の使用を開始できます。このトレーニングは、お客様の組織が Teams を導入して運用できるように設計されています。
 
-  - **[オンライン クラス](../instructor-led-training-teams-landing-page.md)** に参加すると、Teams の実際の操作の様子を見たり、質問をして回答を得たりすることができます。
+  - **[オンライン クラス](../instructor-led-training-teams-landing-page.yml)** に参加すると、Teams の実際の操作の様子を見たり、質問をして回答を得たりすることができます。
 
   - 詳細を知りたいユーザーと**[詳細なトレーニング ビデオ](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** を共有できます。
 

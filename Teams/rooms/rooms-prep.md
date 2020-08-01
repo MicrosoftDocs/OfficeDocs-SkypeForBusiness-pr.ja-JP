@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: すべての機能を活用できるように、Microsoft Teams 室を展開するためのインフラストラクチャを準備する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d565cd500f22f86c19e38b531511eb25a5e1227a
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526703"
+ms.locfileid: "46529180"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -39,7 +39,7 @@ ms.locfileid: "46526703"
      > [!IMPORTANT]
      > Microsoft Teams room は、会議室の通常の操作に影響を与える可能性があるため、プロキシ認証をサポートしていません。 運用に入る前に、Microsoft Teams の会議室がプロキシ認証から除外されていることを確認します。
   
-3. エクスペリエンスを向上させるために、Microsoft ではデータを収集します。 データの収集を許可するには、次のサイトを許可します。
+3. エクスペリエンスを向上させるために、Microsoft ではデータを収集します。 Microsoft にデータ収集を許可するには、次のサイトを許可します。
 
    - テレメトリ クライアント エンドポイント: https://vortex.data.microsoft.com/
    - テレメトリ設定エンドポイント: https://settings.data.microsoft.com/

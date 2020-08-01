@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7ce21fb620f37479a051b7ed4467dcc3cd9f6f19
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691523"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533844"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online のサポート終了
 
@@ -48,6 +48,6 @@ Teams への移行に関するすべての利点については、移行に時�
 - **チームと Skype コンシューマーの相互運用機能**。 Teams と Skype コンシューマー間の相互運用機能により、2つのサービスのユーザーはチャットと通話の両方を使って通信することができます。  Teams および Skype コンシューマーの相互運用機能は、暦年2020の第1四半期の Teams で利用可能になります。
 - **連絡先センターの統合とコンプライアンスの記録**。 今月は、今月前に、Five9、Genesys、および優れた機能を利用して、パートナーとのパートナーシップについて説明しました。これは、コンプライアンスの記録を提供するための、ASC、NICE、および Verint によって実現されています。   また、他の Skype for Business Online 認定パートナーと協力して、他の連絡先センターとコンプライアンスの記録ソリューションをチームの市場に提供しています。
  
-初めて使用する準備ができたら、実証済みの成功フレームワーク、ベストプラクティス、ドキュメントの計画、[無料のインストラクター](instructor-led-training-teams-landing-page.md)付きのトレーニング、さらに有効なサブスクリプションのオンボードアシスタンスを[管理](https://www.microsoft.com/FastTrack)する、一連[の技術ガイダンスと計画リソース](https://aka.ms/SkypeToTeams)を提供します。
+初めて使用する準備ができたら、実証済みの成功フレームワーク、ベストプラクティス、ドキュメントの計画、[無料のインストラクター](instructor-led-training-teams-landing-page.yml)付きのトレーニング、さらに有効なサブスクリプションのオンボードアシスタンスを[管理](https://www.microsoft.com/FastTrack)する、一連[の技術ガイダンスと計画リソース](https://aka.ms/SkypeToTeams)を提供します。
  
 2014での導入以来、Skype for Business は世界中の何百万ものユーザーにとって有益なツールとなっています。  インスタントメッセージング、通話、ビデオを1つのアプリにまとめることで、この製品ではビジネス向けの魅力的なコミュニケーションが確立されました。 Microsoft Teams はそのビジョンの次の章であり、今日のニュースでは Skype for Business Online サービスの廃止をお知らせするだけでなく、Teams でも自信をお伝えしています。  市場の3年以上の間、チームは最も要求の厳しいお客様を対象としていますので、ご満足いただけます。  Skype for Business Online の現在のお客様の場合は、今すぐ移行の計画を開始してください。  お客様のすべてのステップを支援することに取り組んでおり、新しい作業方法が体験できるようになるまで待つことはできません。 

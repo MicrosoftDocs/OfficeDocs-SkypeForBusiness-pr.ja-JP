@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b582ea0b08b8748a6636440cc8ea3ec2f4296753
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 8d28d88a9669391f582dd1532c7f74f052fae727
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028123"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533834"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -115,7 +115,7 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
 
    - 中規模の組織 (ユーザー数 500 から 5,000) の場合、Teams の使用を開始するにあたり、ライブの[インタラクティブ ワークショップ](teams-in-30-workshops.md)を利用できます。
 
-   - [オンライン クラス](instructor-led-training-teams-landing-page.md)に参加すると、Teams の実際の操作の様子を見たり、質問をして回答を得たりすることができます。
+   - [オンライン クラス](instructor-led-training-teams-landing-page.yml)に参加すると、Teams の実際の操作の様子を見たり、質問をして回答を得たりすることができます。
 
    - 詳細を知りたいユーザーと[詳細なトレーニング ビデオ](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)を共有してください。
 

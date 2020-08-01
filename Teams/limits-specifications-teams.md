@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 178dc23403a637e15bb8c01b18e03fb5c86477dc
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: c207834a2975afcb5aa6e9576c56d2129ff248ff
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522344"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533534"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -114,7 +114,6 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 |機能     | 上限 |
 |------------|---------------|
-|会議に参加できるユーザー数 (チャットして電話をかけることができる)  |300。 <br><br>**注:** 政府機関用の Teams (GCC、GCC High、DoD) の場合、制限は 250 のままです。 政府期間のクラウド制限が 250 から 300 に増加し、会議のオーバーフローがサポートされたら、この記事を更新します。   |
 |会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 300 |
 |ビデオまたは音声通話でチャットに参加できるユーザーの数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2GB|

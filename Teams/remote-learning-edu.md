@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085973"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533762"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -98,7 +98,7 @@ Teams の作成方法のチュートリアルついては、「[Create a class t
 > [!IMPORTANT]
 > ユーザーに割り当てられている会議ポリシーについては、[参加を自動的に許可する] を [組織内のすべてのユーザー] に設定することをお勧めします。 この設定によって、認証されていないユーザーは、Teams 会議に参加する前にロビーからの許可が必要となります。 詳細については、「[Teams での会議ポリシーを管理する](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)」を参照してください。
 
-**小学校の教職員**には、生徒に対しては制限されている、主要な機能を付与するポリシーを適用する必要があります。 プライベート チャットの作成および会議をスケジュール (新しいポリシーの既定の設定項目) を許可する新しいポリシーを作成します。 [これらのポリシーを一括ポリシー割り当てを使用して教職員に一括して割り当てます](batch-policy-assignment-edu.md)。
+**小学校の教職員**には、生徒に対しては制限されている、主要な機能を付与するポリシーを適用する必要があります。 プライベート チャットの作成および会議をスケジュール (新しいポリシーの既定の設定項目) を許可する新しいポリシーを作成します。 [これらのポリシーを教職員に一括して割り当てます](batch-group-policy-assignment-edu.md)。
 
 ## <a name="start-using-teams"></a>Teams の使用を開始する
 

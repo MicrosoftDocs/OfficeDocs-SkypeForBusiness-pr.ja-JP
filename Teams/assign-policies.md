@@ -18,18 +18,14 @@ description: Microsoft Teams でユーザーにポリシーを割り当てるさ
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.openlocfilehash: 9d6253645e674d680f86d0b6f89a62968e6c21ba
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143848"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533944"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにライセンスを割り当てる
-
-> [!NOTE]
-> この記事で説明する機能の1つとして、 [Microsoft Teams 管理センターを使用したグループへのポリシーの割り当て](#using-the-microsoft-teams-admin-center-3)はまだリリースされていません。 これは発表され、近日公開予定です。
-> この機能のリリース状況を把握するには、 [Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)を確認してください。
 
 管理者は、ポリシーを使って、組織内のユーザーが利用できる Teams 機能を制御することができます。 たとえば、通話ポリシー、会議ポリシー、メッセージポリシーなどは、ほんの少しだけ名前にします。
 
@@ -70,7 +66,7 @@ ms.locfileid: "45143848"
 |[個々のユーザーにポリシーを割り当てる](#assign-a-policy-to-individual-users)    | チームを初めて使い始めたり、少数のユーザーに1つまたはいくつかのポリシーを割り当てる必要があります。 |Skype for Business Online PowerShell モジュールの Microsoft Teams 管理センターまたは PowerShell コマンドレット
 | [ポリシーパッケージを割り当てる](#assign-a-policy-package)   | 同じロールまたは類似のロールを持つ組織内の特定のユーザーのセットに、複数のポリシーを割り当てる必要があります。 たとえば、学校の教師に教育 (教師) ポリシーパッケージを割り当てることで、チャット、通話、会議、および教育 (第2章) ポリシーパッケージへのフルアクセスを学生に許可し、プライベート通話のような特定の機能を制限することができます。  |Teams PowerShell モジュールの Microsoft Teams 管理センターまたは PowerShell コマンドレット|
 |[ユーザーのバッチにポリシーを割り当てる](#assign-a-policy-to-a-batch-of-users)   | 多数のユーザーにポリシーを割り当てる必要があります。 たとえば、組織内の数百または数千のユーザーに一度にポリシーを割り当てる必要があるとします。  |Teams PowerShell モジュールの Microsoft Teams 管理センターまたは PowerShell コマンドレット|
-|[グループにポリシーを割り当てる](#assign-a-policy-to-a-group) |ユーザーのグループメンバーシップに基づいてポリシーを割り当てる必要があります。 たとえば、セキュリティグループまたは組織単位のすべてのユーザーにポリシーを割り当てる必要があるとします。| Teams PowerShell モジュールの Microsoft Teams 管理センター (近日公開予定) または PowerShell コマンドレット|
+|[グループにポリシーを割り当てる](#assign-a-policy-to-a-group) |ユーザーのグループメンバーシップに基づいてポリシーを割り当てる必要があります。 たとえば、セキュリティグループまたは配布リストのすべてのユーザーにポリシーを割り当てる必要があるとします。| Teams PowerShell モジュールの Microsoft Teams 管理センターまたは PowerShell コマンドレット|
 | [ユーザーのバッチにポリシーパッケージを割り当てる](#assign-a-policy-package-to-a-batch-of-users)|同じロールまたは類似のロールを持つ組織内のユーザーのバッチに複数のポリシーを割り当てる必要があります。 たとえば、バッチの割り当てを使用して学校のすべての教師に教育 (教師) ポリシーパッケージを割り当てることで、チャット、通話、会議へのフルアクセスを許可したり、教育機関 (第1の学生) ポリシーパッケージを第2の学生に割り当てることができます。|Teams PowerShell モジュールの PowerShell コマンドレット|
 | グループにポリシーパッケージを割り当てる (近日公開)   | ||
 
@@ -256,7 +252,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="assign-a-policy-to-a-group"></a>グループにポリシーを割り当てる
 
-グループにポリシーを割り当てると、セキュリティグループや組織単位などのユーザーグループにポリシーを割り当てることができます。 ポリシーの割り当ては、優先順位の規則に従ってグループのメンバーに伝達されます。 メンバーがグループに追加またはグループから削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
+グループにポリシーを割り当てると、セキュリティグループまたは配布リストなどのユーザーグループにポリシーを割り当てることができます。 ポリシーの割り当ては、優先順位の規則に従ってグループのメンバーに伝達されます。 メンバーがグループに追加またはグループから削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
 
 グループへのポリシーの割り当ては、最大5万ユーザーのグループに推奨されますが、大規模なグループでも動作します。
 
@@ -289,11 +285,9 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 |ストアマネージャー   |ストアマネージャーの通話ポリシー         |1|
 |従業員の保存    |従業員の通話ポリシーの保存      |2|
 
-ランクを指定しない場合、ポリシーの割り当てには最も優先順位が設定されます。
+ランクを指定しない場合、ポリシーの割り当てには最も優先順位が設定されます。 
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
-
-**この機能はまだリリースされていません。これは発表され、近日公開予定です。**
 
 > [!NOTE]
 > 現時点では、Microsoft Teams 管理センターを使用したグループへのポリシーの割り当ては、Teams の通話ポリシー、Teams の通話パークポリシー、チームポリシー、Teams live イベントポリシー、teams 会議ポリシー、および Teams のメッセージングポリシーでのみ利用できます。 その他のポリシーの種類については、PowerShell を使用します。
@@ -426,7 +420,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-この操作を行うには、Teams Powershell モジュールの次のコマンドレットを使用します。これには、指定したユーザーの一覧が $users バッチポリシーの割り当てによって行われます。
+この操作を行うには、Teams PowerShell モジュールの次のコマンドレットを使用します。これには、指定したユーザーの一覧が $users バッチポリシーの割り当てによって行われます。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
