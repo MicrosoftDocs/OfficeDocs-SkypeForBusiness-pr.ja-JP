@@ -8,7 +8,7 @@
 
 # トレーニング
 ## [概要](training-microsoft-teams-landing-page.md)
-## [Teams のインストラクターによるトレーニング](instructor-led-training-teams-landing-page.md)
+## [Teams のインストラクターによるトレーニング](instructor-led-training-teams-landing-page.yml)
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
 ## [Teams のエンド ユーザー トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -670,7 +670,8 @@
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
 ### [リモート学習の開始](remote-learning-edu.md)
 ### [Teams EDU ポリシーおよびポリシー パッケージ](policy-packages-edu.md)
-### [多数のユーザー セットにポリシーを割り当てる](batch-policy-assignment-edu.md)
+### [多数のユーザー セットにポリシーを割り当てる](batch-group-policy-assignment-edu.md)
+### [教育者と学生のためのセキュリティ グループを作成する PowerShell スクリプト](scripts/powershell-script-security-groups-edu.md)
 ### [教育機関管理者向けの低帯域幅ガイダンス](edu-remote-low-bandwidth.md)
 ### [クラスインサイト](class-insights.md)
 ### [教育機関向けの Teams の課題 ](expand-teams-across-your-org/assignments-in-teams.md)
