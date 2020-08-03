@@ -105,7 +105,7 @@ ms.locfileid: "46533534"
 |<span data-ttu-id="a2aec-187">この範囲内の文字</span><span class="sxs-lookup"><span data-stu-id="a2aec-187">Characters in these ranges</span></span>    | <span data-ttu-id="a2aec-188">0 ~ 1F</span><span class="sxs-lookup"><span data-stu-id="a2aec-188">0 to 1F</span></span><br><span data-ttu-id="a2aec-189">80 ~ 9F</span><span class="sxs-lookup"><span data-stu-id="a2aec-189">80 to 9F</span></span>        |
 |<span data-ttu-id="a2aec-190">単語</span><span class="sxs-lookup"><span data-stu-id="a2aec-190">Words</span></span>     | <span data-ttu-id="a2aec-191">フォーム、CON、CONIN$、CONOUT$、PRN、AUX、NUL、COM1 ~ COM9、LPT1 ~  LPT9、desktop.ini、&#95;vti&#95;</span><span class="sxs-lookup"><span data-stu-id="a2aec-191">forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;</span></span>|
 
-<span data-ttu-id="a2aec-192">チャンネ名は、アンダースコア (_) またはピリオド (.) で開始したり、ピリオド (.) で終了したりすることもできません。</span><span class="sxs-lookup"><span data-stu-id="a2aec-192">Channel names also can't start with an underscore (_) or period (.), or end with a period (.).</span></span>
+<span data-ttu-id="a2aec-192">チャンネ名は、アンダースコア (\_) またはピリオド (.) で開始したり、ピリオド (.) で終了したりすることもできません。</span><span class="sxs-lookup"><span data-stu-id="a2aec-192">Channel names also can't start with an underscore (_) or period (.), or end with a period (.).</span></span>
 
 ## <a name="meetings-and-calls"></a><span data-ttu-id="a2aec-193">会議と通話</span><span class="sxs-lookup"><span data-stu-id="a2aec-193">Meetings and calls</span></span>
 
