@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams のアドオンライセンスと各ライセンスで入手できる機能について説明します。
-ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 05df369636687d84235dffbfe5ba494213e5374f
+ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522464"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "46542858"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams のアドオンライセンス
 
@@ -46,6 +46,7 @@ ms.locfileid: "46522464"
 |**電話システム** <br/> |[電話システム](../what-is-phone-system-in-office-365.md)は、公衆交換電話網 (PSTN) に接続するためのオプションを備えた、発信コントロールと構内交換機 (PBX) 機能を提供するホスト型電話サービスです。 電話システムの機能には、クラウドボイスメール、発信者番号通知、コールパーク、着信の転送、自動応答、通話キュー、通話転送、発信者番号などがあります。 <br>詳細については、「[電話システムで利用できる機能](../here-s-what-you-get-with-phone-system.md)」を参照してください。 価格情報については、「[電話システムの価格](https://go.microsoft.com/fwlink/?linkid=799763)を確認する」を参照してください。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**通話プラン** <br/> |ユーザーが組織外の電話番号に通話を発信できるようにする場合は、[通話プラン](../calling-plans-for-office-365.md)を取得します。 国内通話プランと国内および国際通話プランがあります。 価格情報については、「[通話プランの価格](https://go.microsoft.com/fwlink/?linkid=799761 )」をご覧ください。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Microsoft Teams ルーム** <br/> |[Microsoft Teams のルーム](../rooms/index.md)はアドオンではありませんが、ビデオ、オーディオ、コンテンツを会議室に共有するための機能です。 「 [Teams 会議室のライセンス](../rooms/rooms-licensing.md)」をご覧ください。  <br/> |&#x2713;|&#x2713;|
+|**高度なコミュニケーション** <br/> |[高度なコミュニケーション](advanced-communications.md)には、大規模な会議、会議のカスタマイズ、通信統合、通信管理のための高度なツールなど、強化された通話と会議機能が含まれています。 最大2万人のライブイベント、および1000の参加者向けのインタラクティブな会議で、より多くの対象ユーザーに連絡を取ることができます。 その他の機能には、会議を調整するためのカスタムブランドの会議ロビー、会議やワークフローへの通話の統合機能、ユーザーとデバイスのデータを監視、追跡、分析するためのツールが含まれます。   |&#x2713;|&#x2713;|
 
 <sup>1</sup>組織が、Microsoft 365 Enterprise プランを持っている中小企業の場合でも、これらの音声機能のアドオンライセンスを購入することができます。ただし、 [Microsoft 365 のビジネス](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2)プランと[ビジネス用ボイス](https://www.microsoft.com/microsoft-365/business/business-voice)の使用を検討することをお勧めします。
 
