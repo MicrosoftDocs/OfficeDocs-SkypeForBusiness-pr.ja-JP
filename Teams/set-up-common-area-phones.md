@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'ロビー、受付領域、会議室の一般的なエリア電話を設定する方法について説明します。 '
-ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d9d77765451f98028f808028822ec42e6e51fdc7
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125990"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552305"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 > [!NOTE]
 > 一般的なエリア電話ではボイスメールはサポートされません。
 
-通常、一般的なエリアの電話は、ロビーや、多くの参加者が通話を発信するために利用できる別の領域に配置されます。たとえば、受付領域、ロビー、会議電話などです。 一般的なエリア携帯電話は、ユーザーではなくデバイスとして設定されるため、ネットワークに自動的にサインインすることができます。
+通常、一般的なエリアの電話は、ロビーや、多くの参加者が通話を発信するために利用できる別の領域に配置されます。たとえば、受付領域、ロビー、会議電話などです。 一般的な市外電話ライセンスに関連付けられたアカウントを使って、共通のエリア電話にサインインします。 また、TeamsIPPhone ポリシーは、電話が一般的なエリアユーザーエクスペリエンスを持つように適切に設定されている必要があります。
 
 以下の手順では、組織の一般的なエリア電話を展開するために電話システムのアカウントをセットアップする方法について説明します。 電話会議など、会議室の完全なエクスペリエンスを実現するには、会議室のデバイスを使用して、専用の会議室ライセンスを購入することを検討してください。 
 

@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928812619ff0f3f5c0194f75bdc93ced2f84c79b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: d19e7b997a5972d3b3eb9b28d89b3e1b06359889
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139130"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552345"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -40,7 +40,7 @@ Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モ�
 > [!TIP]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションです。また、[エンタープライズ向けの microsoft 365 アプリでも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は、32ビットバージョンと64ビットバージョンの Windows (8.1 以降)、および Windows Server (2012 R2 以降)、および macOS と Linux (in `.deb`と`.rpm`形式) で利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
+Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションです。また、[エンタープライズ向けの microsoft 365 アプリでも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は、32ビットバージョンと64ビットバージョンの Windows (8.1 以降)、および Windows Server (2012 R2 以降)、および macOS と Linux (in と形式) で利用でき `.deb` `.rpm` ます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
@@ -125,7 +125,7 @@ DEB または RPM パッケージをインストールすると、パッケー�
     - 適切なパッケージ管理ツールを開き、Linux アプリのセルフガイド インストール プロセスを実行します。
     - ターミナルから実行する場合は、「`sudo apt install **teams download file**`」と入力します。
 
-Teams は、アクティビティから起動することも、ターミナルから「`Teams`」と入力して起動することもできます。 
+Teams は、アクティビティから起動することも、ターミナルから「`teams`」と入力して起動することもできます。 
 
 #### <a name="install-teams-using-rpm-package"></a>RPM パッケージを使用して Teams をインストールする
 
@@ -134,12 +134,13 @@ Teams は、アクティビティから起動することも、ターミナル�
     - 適切なパッケージ管理ツールを開き、Linux アプリのセルフガイド インストール プロセスを実行します。
     - ターミナルから実行する場合は、「`sudo yum install **teams download file**`」と入力します。
 
-Teams は、アクティビティから起動することも、ターミナルから「`Teams`」と入力して起動することもできます。
+Teams は、アクティビティから起動することも、ターミナルから「`teams`」と入力して起動することもできます。
 
 #### <a name="install-manually-from-the-command-line"></a>コマンド ラインから手動でインストールする
 
 Debian や Ubuntu のディストリビューションには、次のようにして手動でインストールします。
-```
+
+```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
@@ -149,7 +150,8 @@ sudo apt install teams
 ```
 
 RHEL、Fedora、CentOS ベースのディストリビューションには、次のようにして手動でインストールします。
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
@@ -159,13 +161,15 @@ sudo dnf install teams
 ```
 
 dnf の代わりに yum を使用する場合は、次のようにします。
-```
+
+```bash
 yum check-update
 sudo yum install teams
 ```
 
 openSUSE ベースのディストリビューションには、次のようにして手動でインストールします。
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'

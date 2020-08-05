@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 4305f8f03f806be1a453e037620c6e16e71ac4dc
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372006"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552265"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams のゲスト アクセスのチェックリスト
 =========================================
@@ -123,6 +123,16 @@ Teams アプリケーションで、個人のチーム レベルにおいて、�
 ![チーム/チャネルの設定の切り替えの例を示すスクリーンショット](media/guest-access-checklist-TeamsSettings2.png)
 
 ゲスト アクセスの詳細については、「[Microsoft Teams でのゲスト アクセス](guest-access.md)」、または、「[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)」を参照してください。
+
+## <a name="step-7-turn-on-anonymous-users-can-join-a-meeting-if-you-want-guests-to-join-meetings"></a>手順 7: ゲストが会議に参加できるようにする場合は、[匿名ユーザーが会議に参加することを可能にする] をオンにします。
+
+ゲストが会議に参加できるようにする場合は、Microsoft Teams 管理センターの [**匿名ユーザーが会議に参加できるよう**にする] 設定をオンにします。 
+
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**会議**の会議の設定] に移動し  >  **Meeting settings**ます。
+
+2. [**参加者**] の下で、[**匿名ユーザーが会議に参加できます**] をオンにします。
+
+詳細については、「 [Teams で会議の設定を管理](meeting-settings-in-teams.md)する」を参照してください。 
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 

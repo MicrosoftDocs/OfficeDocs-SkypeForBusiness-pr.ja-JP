@@ -19,15 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b60ea0159207c88a9aab7030a1d058a44c649eb
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 5a318d59d10b90d5335c84fbbbe6e6e8ae68966d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666009"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552719"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>無料版の Microsoft Teams をサブスクリプションバージョンにアップグレードする
-======================================================
 
 組織で Microsoft Teams の無料バージョンを使用している場合は、Microsoft 365 または Office 365 のサブスクリプションプランを購入すれば、簡単に製品版にアップグレードできます。 フルバージョンでは、スケジュール、電話会議、強化された管理、セキュリティ機能など、無料版では提供されていないその他の Teams 機能が提供されています。 Microsoft 365 と Office 365 は、使い慣れた Microsoft Office デスクトップスイートと、Exchange Online、SharePoint Online、Office などの Microsoft の次世代通信とコラボレーションサービスのクラウドベースのバージョンに統合されています。これにより、ユーザーはインターネット上のあらゆる場所から生産性を高めることができます。 チームをアップグレードしても、既存のチームデータは失われません。すべてのチーム、チャネル、チャット、ファイル、権限が追加されました。 
 

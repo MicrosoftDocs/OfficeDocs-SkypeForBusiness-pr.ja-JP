@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: クラウド自動応答の概要と、その使用方法について説明します。発信者がメニューシステムを移動して、ユーザーや部署への通話の検索、配置、転送を実行できるようにする方法について説明します。
-ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077642"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552573"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>クラウドの自動応答とは
 
@@ -109,7 +109,7 @@ ms.locfileid: "45077642"
 |担当  |完全   |Amos#   |Amos Marble の場合は 1 を押す  <br/> Amos Marcus の場合は 2 を押す |
 |姓 |完全 |Marble#  |Amos Marble の場合は 1 を押す  <br/> Mary Marble の場合は 2 を押す |
 |FirstName または LastName |部分 |Mar# |Mary Marble の場合は 1 を押す  <br/> Mary Jones の場合は 2 を押す  <br/> Amos Marcus の場合は 3 を押す |
-|FirsName + LastName |部分 |Mar0Amos# |Amos Marble の場合は 1 を押す  <br/> Amos Marcus の場合は 2 を押す |
+|FirsName + LastName |部分 |Amos0Mar# |Amos Marble の場合は 1 を押す  <br/> Amos Marcus の場合は 2 を押す |
 |LastName + FirstName |部分 |Mar0Am# |Amos Marble の場合は 1 を押す  <br/> Amos Marcus の場合は 2 を押す |
 
 電話機のキーパッドを使用してユーザーを検索するときに使われる特殊文字がいくつかあります。 たとえば、シャープキー (#) を使用するように求められますが、名前の間のゼロ (0) キーはスペースに使用されます。 アスタリスク キー (*) を押すと、特定のユーザーに一致する名前の一覧を繰り返します。
@@ -173,7 +173,7 @@ ms.locfileid: "45077642"
 |音声コマンド| 対応する |
 |:-----|:-----|
 |はい | [はい] の場合は1を押します。 |
-|X | いいえには2を押します。 |
+|いいえ | いいえには2を押します。 |
 |繰り返し |オプションの一覧を繰り返します。 キーパッドの * キーを押して、オプションの一覧を繰り返します。 |
 |オペレーター | "Operator" の場合は0を押します。 |
 |メイン メニュー  |通話者を自動応答のメイン メニューに移動させます。 |

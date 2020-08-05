@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: このトピックでは、Skype Room Systems の後継である Microsoft Teams ミーティングの管理について説明します。
-ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "43580705"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552295"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams ミーティングのメンテナンスと運用 
  
@@ -105,7 +105,8 @@ PowerShell を使用して、次の管理操作をリモートで実行できま
   
 1. Microsoft Teams ミーティングのデバイスで、管理者としてサインインします。
 2. 管理者特権で PowerShell コマンド プロンプトを開きます。
-3. 次のコマンドを入力します: Enable-PSRemoting -force
+3. 次のコマンドを入力します。`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. ローカルセキュリティポリシーを開いて、[**セキュリティ設定**] に*管理者*セキュリティグループを追加する  >  **ローカルポリシー**  >  **ユーザー権利の割り当て**  >  **ネットワークからこのコンピューターにアクセス**する。
 
 管理操作を実行するには、次のようにします。
   
@@ -113,7 +114,7 @@ PowerShell を使用して、次の管理操作をリモートで実行できま
 2. PC で通常の PowerShell コマンド プロンプトを開きます。
 3. 次の表からコマンド テキストをコピーして、プロンプトに貼り付けます。
 4. お使いの環境に応じた適切な FQDN 値で `<Device fqdn>` フィールドを置換します。
-5. *\<path\>* をマスター SkypeSettings.xml 構成ファイル (またはテーマの画像) のファイル名とローカル パスで置き換えます。
+5. *\<path\>* は、マスター SkypeSettings.xml 構成ファイルのファイル名とローカルパス (またはテーマのイメージ) で置き換えます。
     
 接続されているデバイスを取得する場合
   
@@ -173,7 +174,7 @@ Copy-Item $movefile $targetDevice
 ### <a name="to-update-using-powershell"></a>PowerShell を使用して更新する場合
 
 1. インストール [MSI](https://go.microsoft.com/fwlink/?linkid=851168) から、デバイスがアクセスできる共有先にパッケージを抽出します。
-2. Microsoft Teams ミーティングのデバイスを対象に次のスクリプトを実行します (\<share\> は、該当するデバイス共有に変更します)。
+2. 必要に応じて、次のスクリプトを実行して Microsoft Teams の会議室のデバイスをターゲットにし \<share\> ます。
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})

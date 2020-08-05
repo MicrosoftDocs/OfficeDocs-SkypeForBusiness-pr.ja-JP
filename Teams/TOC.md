@@ -62,11 +62,13 @@
 ### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ### [Microsoft 365 または Office 365 とカスタム コネクタを使用する](Office-365-custom-connectors.md)
 ### [リソース固有の同意](resource-specific-consent.md)
-### [自分のカスタム アプリを管理する](manage-your-custom-apps.md)
+### [Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
+### [アプリ パッケージをアップロードしてカスタム アプリを発行する](upload-custom-apps.md)
 ### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams で組織のリストアプリを管理する](manage-lists-app.md)
 ### [組織のタスク アプリを管理する](manage-tasks-app.md)
+### [称賛アプリを管理する](manage-praise-app.md)
 ### [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -808,6 +810,7 @@
 ### [Teams の調査エクスペリエンスを管理する](teams-exploratory.md)
 ### [Teams の無料版を管理する](manage-freemium.md)
 ### [Teams を無料で月額プラン バージョンにアップグレードする](upgrade-freemium.md)
+### [Advanced Communications](teams-add-on-licensing/advanced-communications.md)
 ### [メッセージング ポリシーのライセンス](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 電話システム - 仮想ユーザー ライセンス](teams-add-on-licensing/virtual-user.md)
 

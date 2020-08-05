@@ -17,22 +17,19 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で Teams アプリ申請 API を使って送信されたカスタムアプリを承認する方法について説明します。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4c3563dc028c8566d29906e4e42a2002a197e71d
-ms.sourcegitcommit: 8812db47b45d171d47e71f87e84ab1828590392d
+ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46523697"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552603"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams アプリ申請 API を通じて送信されたカスタムアプリを公開する
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview"></a>概要
 
 > [!NOTE]
-> カスタム Teams アプリを公開すると、組織のアプリストア内のユーザーがそのアプリを利用できるようになります。 カスタムアプリを公開する方法は2つあります。また、アプリの入手方法によって異なります。 **この記事では、開発者が Teams アプリ申請 API を通じて提出するカスタムアプリを承認および公開する方法について説明**します。 その他の方法として、カスタムアプリをアップロードすることは、開発者が .zip 形式でアプリパッケージを送信するときに使用されます。 このメソッドの詳細については、「[アプリパッケージをアップロードしてカスタムアプリを公開](manage-your-custom-apps.md)する」を参照してください。
+> カスタム Teams アプリを公開すると、組織のアプリストア内のユーザーがそのアプリを利用できるようになります。 カスタムアプリを公開する方法は2つあります。また、アプリの入手方法によって異なります。 **この記事では、開発者が Teams アプリ申請 API を通じて提出するカスタムアプリを承認および公開する方法について説明**します。 その他の方法として、カスタムアプリをアップロードすることは、開発者が .zip 形式でアプリパッケージを送信するときに使用されます。 このメソッドの詳細については、「<a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">アプリパッケージをアップロードしてカスタムアプリを公開</a>する」を参照してください。
  
 この記事では、チームアプリを開発から展開に移動する方法についてのエンドツーエンドのガイダンスについて説明します。 チームがアプリのライフサイクルを通じて提供する接続されたエクスペリエンスの概要について説明します。これにより、組織のアプリストアでカスタムアプリを開発、展開、管理する方法が効率化されます。
 
@@ -142,6 +139,7 @@ Microsoft Teams 管理センターの [<a href="https://docs.microsoft.com/micro
 
 ## <a name="related-topics"></a>関連項目
 
+- [アプリパッケージをアップロードしてカスタムアプリを公開する](upload-custom-apps.md)
 - [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
 - [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 - [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 1つのセッション境界コントローラー (SBC) を構成して、Microsoft パートナーや PSTN キャリアの複数のテナントを処理する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689743"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552623"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -104,7 +104,7 @@ SBC は、接続を認証するために証明書を必要とします。 SBC �
 基本とサブドメインを構成するには、次に説明する手順に従ってください。 この例では、1つの顧客のベースドメイン名 (customers.adatum.biz) とサブドメイン (Woodgrove Bank テナントの sbc1.customers.adatum.biz) を構成します。
 
 > [!NOTE]
-> SbcX.customers.adatum.biz を使用して、キャリアテナントの音声を有効にします。
+> SbcX.customers.adatum.biz を使用して、キャリアテナントの音声を有効にします。 sbcX は、一意で有効な英数字のホスト名にすることができます。
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>会社のテナントにベースドメイン名を登録する
 

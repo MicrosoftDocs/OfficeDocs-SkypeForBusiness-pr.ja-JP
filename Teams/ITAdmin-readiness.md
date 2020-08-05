@@ -4,8 +4,7 @@ ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
@@ -20,75 +19,20 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f9d1e201e6b838abcfc582b0a7d4aaef90493ef
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 72b6d93ea24db094827f2b78b751ffb0e6bf907b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506748"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554617"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
-
 トレーニング リソースを使用してTeams について学び、他のユーザーに教えたりワーク ショップを行います。 頻繁にここをチェックし、新しいコンテンツを確認してください。 
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="An icon depicting a hand and an upward arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>一部のチームとチャンネルですばやく始めましょう</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="An icon depicting a check mark" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting two users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>ユーザー向けのトレーニング</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-
+|               |               |               |
+| ------------- | ------------- | ------------- |
+| ![手のアイコンと上向き矢印](media/get-started-blue-small.svg)  | [一部のチームとチャンネルですばやく始めましょう](/MicrosoftTeams/get-started-with-teams-quick-start) | ![チェックマークを示すアイコン](media/success-small.svg)  | [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![2人のユーザーを示すアイコン](media/users-people-small.svg)  | [ユーザー向けのトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
 
 <h2>テクニカルなトレーニング</h2>
 

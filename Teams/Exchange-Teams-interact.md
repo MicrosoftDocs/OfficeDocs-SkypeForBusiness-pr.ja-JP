@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752979"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552013"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -45,28 +45,26 @@ Exchange Online 専用 (レガシ) でホストされているユーザーは、
 
 **サポートされるアクション:**
 
-| ユーザーのメールボックスのホスト先: | 電子情報開示| 法的な&nbsp;保全 | 保持| チームとチャネルの管理 |Teams で会議を作成して表示する| ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール |コネクタを追加して構成する|タブを追加して構成する|ボットを追加して構成する|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|○ (<sup>8</sup> )|Yes|はい|はい <sup>7</sup>|はい|Yes|Yes|Yes|
-|**Exchange Online 専用 vNext**|はい <sup>2</sup>|はい <sup>2</sup>|Yes|Yes|Yes|○ (<sup>8</sup> )|Yes|はい|はい <sup>7</sup>|はい|Yes|Yes|はい|
-|**Exchange Online 専用 – レガシー** (Azure AD との同期が必要)|はい <sup>2</sup>|はい <sup>2、3</sup>|はい <sup>4|必要|不要|いいえ|はい|必要|いいえ|はい <sup>5|はい <sup>6|Yes|Yes|
-|**Exchange on-premises** (Azure AD との同期 & OAuth 構成が必要)|はい <sup>2</sup>| はい <sup>2</sup> |はい <sup>4|はい|はい (Exchange 2016 CU3+)|いいえ|はい|必要|いいえ|はい <sup>5|はい <sup>6|Yes|Yes|
+| ユーザーのメールボックスのホスト先:                                        | 電子情報開示       | 法的な&nbsp;保全    | 保持  | チームとチャネルの管理 | Teams で会議を作成して表示する | ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール  | コネクタを追加して構成する | タブを追加して構成する | ボットを追加して構成する |
+|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                 | ○ <sup>1</sup> | ○ <sup>1</sup>   | Yes        | Yes                   | Yes                               | ○ (<sup>7</sup> )             | Yes          | Yes             | はい<sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
+| **Exchange Online 専用 vNext**                                 | ○ <sup>1</sup> | ○ <sup>1</sup>   | Yes        | Yes                   | Yes                               | ○ (<sup>7</sup> )             | Yes          | Yes             | はい<sup>6</sup>        | Yes        | Yes                          | Yes                    | はい                    |
+| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要)  | ○ <sup>1</sup> | はい<sup>1、2</sup> | はい <sup> 3 | 必要                   | ×                                | いいえ                          | はい          | 必要             | いいえ                      | はい <sup>4 | はい <sup>5                   | はい                    | Yes                    |
+| **Exchange on-premises** (Azure AD との同期 & OAuth 構成が必要) | ○ <sup>1</sup> | ○ <sup>1</sup>   | はい <sup> 3 | はい                   | はい (Exchange 2016 CU3+)          | いいえ                          | はい          | 必要             | いいえ                      | はい <sup>4 | はい <sup>5                   | はい                    | Yes                    |
 
-<sup>1</sup> Exchange 2016 CU3 以降がサポートされています。  
+チャネルメッセージのコンプライアンスのため<sup>の電子情報</sup>開示と法的保持は、すべてのホスティングオプションでサポートされています。
 
-<sup>2</sup> チャネル メッセージのコンプライアンスに関する電子情報開示および法的な保全は、すべてのホスティング オプションでサポートされています。
+<sup>2</sup>チームプライベートチャットメッセージは、このホスティングオプションの法的保持に対してまだサポートされていません。
 
-<sup>3</sup> Teams のプライベート チャット メッセージは、このホスティングオプションの法的な保全ではまだサポートされていません。
+<sup>3</sup>保持は、オンラインユーザーがメッセージを保存するためのシャドウメールボックスを使います。
 
-<sup>4</sup> 保持には、オンラインユーザーがメッセージを保存するためのシャドウ メールボックスを使用します。 [Microsoft Teams で、Teams ユーザーの電子情報開示が Exchange ハイブリッド環境でサポートされるようになりました](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
+<sup>4</sup>オンプレミス Exchange メールボックスを使用している teams ユーザーは、Outlook でボイスメールを使用してボイスメールメッセージを受信することができます。ただし、ボイスメールメッセージは、teams クライアント内で表示または再生できません。
 
-<sup>5</sup> オンプレミスの Exchange メールボックスを使っている Teams ユーザーは、Teams でボイスメールを使用して Outlook でボイスメール メッセージを受信できますが、ボイスメール メッセージを Teams クライアント内で表示または再生することはできません。
+<sup>5</sup>チームの所有者の1人がコネクタを追加できる場合は、そのチーム内の他のすべてのユーザーがメールボックスをオンプレミスにしている場合でも、その操作を行うことができます。
 
-<sup>6</sup> チームの所有者の 1 人がコネクタを追加できる場合、そのチーム内のすべてのユーザーは、メールボックスがオンプレミスであったとしても、その操作を行うことができます。
+[既定の連絡先] フォルダーの連絡先のみ<sup>6</sup> 。 他の連絡先フォルダーまたはサブフォルダーへのアクセスはサポートされていません。
 
-<sup>7</sup> 既定の連絡先フォルダーは連絡先のみ。 他の連絡先フォルダーまたはサブフォルダーへのアクセスはサポートされていません。
-
-<sup>8</sup>チームは、テナント管理者によって構成された[web メールボックスのポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)設定を使用して、ユーザーが自分のプロファイル写真を変更できるかどうかを制御します。 ポリシーで **-setphotoenabled**設定が無効になっている場合、ユーザーはそのプロフィール画像を追加、変更、削除することはできません。 たとえば、ユーザーが組織の IT または人事部門によって承認されたプロファイル画像をアップロードした場合、操作は必要ありません。 ただし、ユーザーが不適切な画像をアップロードした場合は、組織の内部ポリシーに従って画像を変更します。
+<sup>7</sup>チームは、テナント管理者によって構成された[web メールボックスのポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)設定を使用して、ユーザーが自分のプロファイル写真を変更できるかどうかを制御します。 ポリシーで **-setphotoenabled**設定が無効になっている場合、ユーザーはそのプロフィール画像を追加、変更、削除することはできません。 たとえば、ユーザーが組織の IT または人事部門によって承認されたプロファイル画像をアップロードした場合、操作は必要ありません。 ただし、ユーザーが不適切な画像をアップロードした場合は、組織の内部ポリシーに従って画像を変更します。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 

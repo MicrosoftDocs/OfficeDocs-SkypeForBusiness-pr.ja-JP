@@ -17,14 +17,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: チームギャラリーと検索結果の提案を通じて、プライベートチームを Microsoft Teams ユーザーが検出できるかどうかを制御する方法について説明します。
-ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e06a9511d8198a069c3dccfdbbbacf3d3f1b2c42
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836517"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554697"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Microsoft Teams でプライベート チームの検索を管理する
+
+> [!IMPORTANT]
+> お客様からのフィードバックに基づき、2020年8月31日の有効な機能を無効にしています。 つまり、2020年8月31日以降、プライベートチームを検出できなくなり、既存のすべてのプライベートチームが検出されなくなります。 詳細については、 [Microsoft 365 のロードマップ](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=44370)を参照してください。
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -60,7 +63,7 @@ ms.locfileid: "41836517"
 
 ### <a name="in-team-settings"></a>チームの設定
 
-Teams で、プライベートチームに移動し、[**その他のオプション** > ] をクリックして**チームを管理**します。 [**設定**] タブで、[**チーム探索**] を展開し、[検出**を有効にする**] チェックボックスをオフまたはオンにします。
+Teams で、プライベートチームに移動し、[**その他のオプション**] をクリックして  >  **チームを管理**します。 [**設定**] タブで、[**チーム探索**] を展開し、[検出**を有効にする**] チェックボックスをオフまたはオンにします。
 
 ![既存のプライベートチームの検出設定のスクリーンショット](media/private-team-discovery-existing-team.png)
 
@@ -89,5 +92,5 @@ Teams で、プライベートチームに移動し、[**その他のオプシ�
 > [!NOTE]
 > 検出されないプライベートチームは、ポリシーの設定に関係なく、検索結果と候補には表示されません。 たとえば、プライベートチームの検出設定を無効にした場合、そのユーザーのポリシー設定で**Allowprivateteamdiscovery**パラメーターが**true**に設定されているにもかかわらず、ユーザーはチームを見つけることができません。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
