@@ -68,7 +68,6 @@
 ### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams で組織のリストアプリを管理する](manage-lists-app.md)
 ### [組織のタスク アプリを管理する](manage-tasks-app.md)
-### [称賛アプリを管理する](manage-praise-app.md)
 ### [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
 ### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
