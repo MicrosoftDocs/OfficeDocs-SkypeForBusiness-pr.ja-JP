@@ -8,12 +8,13 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Microsoft Teams 管理センターの称賛アプリでの管理設定について
-ms.openlocfilehash: a61b4236a3c1378cbe4134833ad0f3fcd5b1651c
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
+ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552875"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46564078"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで称賛アプリを管理する
 
