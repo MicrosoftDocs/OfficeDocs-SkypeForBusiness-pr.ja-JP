@@ -375,7 +375,7 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 <a name="See"> </a> 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams ミーティング ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [環境を準備する](rooms-prep.md)
 
@@ -385,4 +385,4 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 
 [Microsoft Teams ミーティングを計画する](rooms-plan.md)
 
-[Microsoft Teams Rooms を管理する](rooms-manage.md)
+[Microsoft Teams ミーティング を管理する](rooms-manage.md)

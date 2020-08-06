@@ -69,7 +69,7 @@ Windows 10 のサポートされているバージョンを使用している場
 
 ## <a name="related-topics"></a>関連項目
 
-[Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams ミーティング ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Microsoft Teams ミーティング リリース ノート](rooms-release-note.md)
 
