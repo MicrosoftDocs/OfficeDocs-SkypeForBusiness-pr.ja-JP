@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 'Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online. '
-ms.openlocfilehash: 8c5068c221c46f7be0d9d97c1c3d515ae244b316
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
+ms.openlocfilehash: 8e9441e152314fafdee8fe8292d0b62a1b17d6da
+ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085703"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46564776"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Skype for Business Online Connector モジュールをダウンロードしてインストールする
 
