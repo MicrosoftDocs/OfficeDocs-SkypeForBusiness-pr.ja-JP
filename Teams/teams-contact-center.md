@@ -1,5 +1,5 @@
 ---
-title: Teams の連絡先センター
+title: Teams コンタクト センター
 author: microsoftheidi
 ms.author: heidip
 manager: serdars
@@ -10,147 +10,147 @@ ms.reviewer: anblak
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Microsoft Teams のサービス (CCaaS) ソリューションとしての統合された連絡先センターの概要
+description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
 ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/15/2020
 ms.locfileid: "45143838"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams の連絡先センターの統合
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
-人気のある連絡先センターのソリューションを Microsoft Teams と統合することは、チームの通話機能を展開するユーザーにとって一般的なニーズです。  この記事では、microsoft teams との連絡先センターソリューションの統合方法の概要について説明します。また、Microsoft Teams が接続された連絡先センター認定プログラムに参加しているパートナーソリューションの追加情報についても説明します。
+人気のあるコンタクト センター ソリューションを Microsoft Teams と統合することは、Teams の通話機能を展開するユーザーの一般的なニーズです。  この記事では、コンタクト センター ソリューションを Microsoft Teams と統合する方法の概要を説明し、Microsoft Teams Connected Contact Center Certification プログラムに参加しているパートナーのソリューションに関する追加情報を提供します。
 
-## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams の連絡先センターの統合について教えてください。
+## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合とは
 
-今日の連絡先センターでは、サポートが大幅にサポートされています。この機能は、お客様のブランドを使用したお客様の経験に基づく、操作やフィルター処理を行う主要な車両の1つとして機能します。 今日のお客様は、世界中どこでも、電話、メール、テキスト、ソーシャルなどの広範なチャネルを使用することを希望しています。また、現在の日付の購入プロセスに関連付けられている一連の連絡量が多いため、多くの組織が、次の2つのことを実現しています。
+最新のコンタクト センターは、サポート以上のものを提供します。それらは、顧客のブランド体験における対話およびフィルタリングされていないフィードバックのための主要な手段の 1 つとして機能します。 今日の顧客は、電話、電子メール、テキスト、ソーシャルなど、さまざまなチャネルを利用することを好みます。また、購入プロセスに関連付けられたタッチポイントの量が拡大しているため、多くの組織が次の 2 つの現実を認識しています。
 
-1. 組織内のすべてのメンバーが、お客様に直接対応するために関与する可能性があります。そのため、適切なツールを用意する必要があります。
+1. 組織のすべてのメンバーは、顧客と直接関わりを持つ可能性があるため、適切なツールを用意する必要があります。
 
-2. このようにユーザー操作の範囲を拡大すると、一貫性、継続的な改善、拡大縮小を支援するツールが必要になります。
+2. この顧客との対話の範囲の拡大には、一貫性を保ち、継続的な改善、および規模の拡大に役立つツールが必要です。
 
-Microsoft Teams では、チャット、ビデオ会議、通話などの通信モードを通じて、内部および外部顧客との接続のハブとして機能することによって、顧客対話型の作業ストリームをサポートしています。 Microsoft Teams の[クラウド音声機能](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)([自動応答](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)、[通話キュー](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)など) については、それぞれのニーズに合わせて機能と構成を提供します。
+Microsoft Teams は、チャット、ビデオ会議、通話などの通信モードを通じて、内部および外部顧客との接続のハブとして機能することによって、顧客対話型の作業ストリームをサポートします。 Microsoft Teams の[クラウド音声機能](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page) ([自動応答](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)や[通話キュー](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)を含む) は、各企業のニーズに合わせて機能と構成を提供します。
 
-ビジネスツールとワークフローを使用して顧客とのやり取りを促進する統合ソリューションを望む他のお客様には、Microsoft Teams も、業界の主要な連絡先センターの一部として、サービス (CCaaS) ソリューションプロバイダーと統合されています。
+ビジネス ツールとワークフローを使用して顧客とのやり取りを促進する統合ソリューションを望む他のユーザーに対しては、Microsoft Teams は、業界の主要なサービスとしてのコンタクト センター (CCaaS) ソリューション プロバイダーと統合されます。
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 認定プログラム用の接続された連絡先センター
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams Certification プログラム用のコネクテッド コンタクト センター
 
-公開されている利用可能な Api を公開して、パートナーが CCaaS をチーム向けのソリューションとして開発し、統合できるようにしました。 Microsoft Teams 認定プログラム用の接続された連絡先センターが開発され、お客様は Microsoft のソリューションで期待される品質、互換性、および信頼性を確保することができます
+Microsoft では、パートナーが Teams の CCaaS ソリューションを開発し、統合できる一般に利用可能な API を公開することに加え、Microsoft Teams Certification プログラム用のコネクテッド コンタクト センターを開発して、参加している各パートナーのソリューションがテストおよび検証されており、Microsoft のソリューションに期待される品質、互換性、信頼性を提供していることを保証します。
 
-次のパートナーは、Microsoft Teams のソリューションを認定し、お客様を支援する準備をしています。
+次のパートナーは、Microsoft Teams 向けのソリューションの認定中であり、顧客を支援する準備が整っています。
 
-| **パートナー**                                                                                                                              | **ソリューションの web サイト**                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **パートナー**                                                                                                                              | **ソリューションの Web サイト**                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | Enghouse Interactive | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
-| Landis テクノロジ | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
+| Landis Technologies | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
-| 便利な連絡先 | https://www.niceincontact.com/microsoft-teams                                                            |
+| NICE inContact | https://www.niceincontact.com/microsoft-teams                                                            |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
-## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>Microsoft Teams での連絡先センターソリューションの動作方法を教えてください。
+## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>Microsoft Teams でのコンタクト センター ソリューションの機能
 
-Microsoft Teams には、次のようなサードパーティのボイスソリューションの開発をサポートするさまざまな機能が用意されています。
+Microsoft Teams には、次のようなサードパーティの音声ソリューションの開発をサポートするためのさまざまな機能が用意されています。
 
-1. [直接ルーティング接続](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+1. [ダイレクト ルーティング接続](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
 
-2. [Microsoft Graph Cloud Communication Api](https://docs.microsoft.com/graph/cloud-communications-get-started)
+2. [Microsoft Graph クラウド通信 API](https://docs.microsoft.com/graph/cloud-communications-get-started)
 
-3. Teams のプラットフォームと拡張性
+3. Teams のプラットフォームと機能拡張
 
-4. Teams Sdk
+4. Teams SDK
 
-これらの機能を組み合わせると、次の3つの統合モデルが実現します。
+これらの機能を組み合わせると、次の 3 つの統合モデルが実現します。
 
-  - **接続**(直接ルーティング経由)
+  - **接続** (ダイレクト ルーティング)
 
-  - **接続と拡張**(直接ルーティング、Graph Api、Teams アプリプラットフォーム)
+  - **接続と拡張** (ダイレクト ルーティング、Graph API、Teams アプリ プラットフォーム)
 
-  - **拡張とパワー**の適用 (ネイティブチームとの対話用の3P アプリへの teams sdk の埋め込み)
+  - **拡張とパワー** (Teams SDK を 3p アプリに埋め込み、ネイティブの Teams の対話を実現)
 
 ### <a name="connect"></a>接続
 
-このモデルでは、Microsoft Teams 電話システムインフラストラクチャを使用して CCaaS パートナーに接続し、強化されたルーティング、構成、システムの分析機能を有効にします。 このモデルでは、連絡先センターパートナーソリューションは、選択した番号とユーザーに対してテレフォニーサービスを提供することもできます。
+このモデルでは、Microsoft Teams 電話システムのインフラストラクチャを使用して CCaaS パートナーに接続し、強化されたルーティング、構成、システムの分析機能を有効にします。 このモデルでは、コンタクト センターのパートナー ソリューションは、選択した番号とユーザーに対してテレフォニー サービスを提供することもできます。
 
-Connect モデルに構築されたソリューションを使用するエージェントは、情報 & 洞察を収集することができます。また、必要に応じて、チームで SME のプレゼンスを活用して、可用性を確保することもできます。
+接続モデルに基づいて構築されたソリューションを使用するエージェントは、情報と洞察を収集し、必要に応じて対象の専門家に直接電話を転送して、Teams 内の SME のプレゼンスを活用して、可用性を確保できます。
 
-組織では、自動化された仮想アシスタントとスキルベースのルーティングキューを設定することによって、最適なエージェントへの通話を確実に行うことができます。
+組織は、自動化された仮想アシスタントやスキル ベースのルーティング キューを設定することで、最適なエージェントへの通話を確実に行うことができます。
 
-**機能のハイライト:**
+**主要な機能**
 
-次に示すのは、この統合モデルの機能に関する包括的な一覧ではありませんが、フォーカス領域には次のものが含まれます。
+以下は、この統合モデルの機能の包括的なリストではありませんが、フォーカス領域には次のものが含まれます。
 
-  - Office 365 authN を使用すると、エージェントは、統合された CCaaS クライアントから Microsoft テナントに接続することができます。 
+  - Office 365 authN により、エージェントは、統合された CCaaS クライアントから Microsoft テナントに接続できるようになります 
 
   - Teams ユーザーからのプレゼンス表示 
 
-  - 直接ルーティングを使用した通話フロー (テストプランで示されています) 
+  - ダイレクト ルーティングを使用した通話フロー (テスト プランに記載のとおり) 
 
   - Teams ユーザーとの転送とグループ通話のサポート 
 
-  - Teams との統合のための teams Graph Api とクラウド通信 Api 
+  - Teams との統合のための Teams Graph API とクラウド通信 API 
 
-  - 複数のお客様をパートナーの SBC でサポートするために、マルチテナント SIP トランクをサポートできるようにします。  
+  - マルチテナント SIP トランクをサポートして、複数の顧客をパートナーの SBC でサポートできるようにします。  
 
-  - [ <span class="underline">Microsoft 認定セッションボーダーコントローラー (SBC)</span>を実装するパートナー](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - [<span class="underline">Microsoft 認定セッション ボーダー コントローラー (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) を実装するパートナー 
 
 ### <a name="connect-and-extend"></a>接続と拡張
 
-このモデルでは、team [client platform](https://docs.microsoft.com/microsoftteams/platform/overview)、Teams [Graph Api](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) 、および[MICROSOFT Graph の Cloud Communications Api](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を使用して teams クライアントと統合し、コンタクトセンターのユーザーとエージェントの操作を拡張します。このモデルでは、すべての連絡先センターの通話と通話コントロールエクスペリエンスに teams 電話システムを使用しています。 このモデルでは、連絡先センターパートナーは、Microsoft 365 と共にテレフォニーキャリアとして機能します。
+このモデルでは、 [Teams クライアントプラットフォーム](https://docs.microsoft.com/microsoftteams/platform/overview)、[Teams Graph API](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)、[Microsoft Graph のクラウド通信 API ](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を使用して Teams クライアントと統合し、コンタクト センターの担当者とエージェントの操作を拡張します。このモデルでは、すべてのコンタクト センターの通話と通話コントロールの操作に Teams 電話システムを使用します。 このモデルでは、コンタクト センターのパートナーは、Microsoft 365 と共にテレフォニー キャリアとして機能します。
 
-Connect と拡張ベースのソリューションを活用することで、エージェントは、契約を開始する前に複数のシステムのデータを関連付けて、内部のコラボレーションと外部通信の両方について、チーム内でネイティブに作業することによって、コストの高いコンテキスト切り替えを回避することができます。
+接続と拡張ベースのソリューションを活用することで、エージェントは、契約を開始する前に複数のシステムのデータを関連付ける動的なコンテキスト ノートから恩恵を受け、内部のコラボレーションと外部通信の両方について、チーム内でネイティブに作業することによって、コストのかかるコンテキスト切り替えを回避することができます。
 
-組織では、個人に向けてワークフローと高度なルーティング構成を設計することで、システムとやり取りの品質を測定することができます。
+組織では、個人に向けてワークフローや高度なルーティング構成を設計し、システムとやり取りの品質を測定できます。
 
-**機能のハイライト:**
+**主要な機能**
 
-次の例は、この統合モデルの機能機能の包括的な一覧ではありませんが、主要なフォーカス領域を強調しています。
+以下は、この統合モデルの機能の包括的なリストではありませんが、主要なフォーカス領域を強調しています。
 
-  - Teams との統合のための teams Graph Api とクラウド通信 Api 
+  - Teams との統合のための Teams Graph API とクラウド通信 API 
 
-  - エージェントエクスペリエンス用の Teams ベースのアプリ 
+  - エージェント エクスペリエンス用の Teams ベースのアプリ 
 
-  - エージェントのプライマリ通話エンドポイントとしてのチーム 
+  - エージェントのプライマリ通話エンドポイントとしての Teams 
 
-  - すべての通話コントロールを対象としたチームクライアントの呼び出し
+  - すべての通話コントロールを対象とした Teams クライアントの呼び出し
 
-  - エージェントエクスペリエンスアプリは、Teams web とモバイルクライアントでも作業できるようにする必要があります。
+  - エージェント エクスペリエンス アプリは、Teams Web およびモバイル クライアントでも作業できるようにする必要があります
 
-  - チーム内の CCaaS アプリ内のエージェントに対する分析、ワークフロー管理、役割ベースのエクスペリエンス
+  - Teams 内の CCaaS アプリ内のエージェントに対する分析、ワークフロー管理、役割ベースの操作
 
-  - チームクライアントと統合されたチャットとコラボレーションのエクスペリエンス 
+  - Teams クライアントと統合されたチャットと共同作業操作 
 
-  - すべてのアプリでのチームクライアントエクスペリエンスのパフォーマンスと品質の維持  
+  - すべてのアプリでの Teams クライアント操作のパフォーマンスと品質の維持  
 
-### <a name="extend-and-power"></a>延長とパワー
+### <a name="extend-and-power"></a>拡張とパワー
 
-このモデルを使用すると、パートナーはネイティブの Azure ベースのボイスアプリケーションを作成できます。これにより、チーム呼び出しインフラストラクチャとクライアントプラットフォームを活用して、コラボレーティブな顧客とエージェント接続の先進のインテリジェントソリューションを提供できます。 拡張とパワーの目標は、開発者の創造性を stoke、顧客の生産性を向上させることです。
+このモデルを使用すると、パートナーは、Teams の通話インフラストラクチャとクライアント プラットフォームを活用して、Azure ベースのネイティブ音声アプリケーションを作成し、顧客とエージェントの接続をコラボレーションするための最新のインテリジェント ソリューションを提供できます。 拡張とパワーモデルの目標は、開発者の創造性を刺激し、顧客の生産性を高めることです。
 
-Azure で直接構築することにより、パートナーは、benefitting のストレージ、コンピューティング、分析 & 認知サービスを利用しながら、すべてのチームの地域と地域、および共有されたグローバル通信ネットワークからソリューションを迅速に展開し、プロビジョニングすることができます。
+Azure に直接構築することで、パートナーはすべてのチームのリージョンと地域にソリューションを迅速に展開してプロビジョニングでき、Azure のストレージ、コンピューティング、分析とコグニティブ サービスを利用しながら、共有されたグローバルな通信ネットワークのメリットを活用できます。
 
-拡張およびパワー統合モデルを使用することで、パートナーは、チャネル間通信のエクスペリエンスを提供しながら、参加者や他のサービスをどのように使用するかをカスタマイズすることができます。これには、[クラウド通信 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を活用しています。
+拡張とパワーモデルを使用することで、パートナーは、コンタクト センター エージェントにオムニチャネル通信を提供しながら、人工知能を組み込んで、参加者 (または他のサービス) が [Microsoft Graph のクラウド通信 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) を活用して通話に参加する方法と時期をカスタマイズできます。
 
-**機能のハイライト:**
+**主要な機能**
 
-次に示すのは、この統合モデルの機能機能の包括的な一覧ではありませんが、接続モデルと拡張モデルによって提供される領域に加えて、これらの領域を強調表示しています。
+以下は、この統合モデルの機能の包括的なリストではありませんが、接続と拡張モデルによって提供される領域に加えて、次の領域が含まれます。
 
-  - Teams SDK を使用した、正式なエージェントによる方向性チャネル通信のネイティブ有効化 
+  - 正式なエージェントでは、Teams SDK を介してオムニチャネル通信がネイティブで有効になります 
 
-  - チームコラボレーションサービスを活用して、エージェントのコラボレーションと顧客のやり取りを実現する  
+  - Teams の共同作業サービスを活用してエージェントの共同作業と顧客との対話を実現  
 
-  - クラウドサービスの迅速なプロビジョニング、どこからでも展開 
+  - クラウド サービスの迅速なプロビジョニング、どこからでも展開 
 
-  - チームでの会話中にユーザーと直接会話を制御し、対話する 
+  - Teams での会話中に、直接会話を制御し、対話することができます 
 
-### <a name="comparing-connected-contact-center-integration-models"></a>接続されている連絡先センターの統合モデルの比較
+### <a name="comparing-connected-contact-center-integration-models"></a>コネクテッド コンタクト センターの統合モデルを比較する
 
 Microsoft Teams でサポートされている統合モデルの概要については、以下の表を参照してください。
 
@@ -160,61 +160,61 @@ Microsoft Teams でサポートされている統合モデルの概要につい�
 <th></th>
 <th><strong>Teams の音声アプリ</strong></th>
 <th><strong>接続</strong></th>
-<th><strong>Connect + extend</strong></th>
-<th><strong>Extend + power</strong></th>
+<th><strong>接続 + 拡張</strong></th>
+<th><strong>拡張 + パワー</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>クラウドサービスモデル</td>
-<td>Microsoft</td>
+<td>クラウド サービス モデル</td>
+<td>Azure</td>
 <td>パートナー</td>
 <td><p>パートナー +</p>
-<p>Microsoft</p></td>
-<td>Microsoft</td>
+<p>Azure</p></td>
+<td>Azure</td>
 </tr>
 <tr class="even">
-<td>誰がこのソリューションを運営していますか?</td>
+<td>ソリューションの運用者</td>
 <td>Microsoft</td>
 <td>パートナー</td>
 <td>パートナー</td>
 <td>パートナー</td>
 </tr>
 <tr class="odd">
-<td>M365 サインイン</td>
+<td>M365 のサインイン</td>
 <td>はい</td>
 <td>はい</td>
 <td>はい</td>
 <td>はい</td>
 </tr>
 <tr class="even">
-<td>チームと通話しているユーザー</td>
+<td>Teams で通話中のユーザー</td>
 <td>非公式、SME</td>
 <td>非公式、SME</td>
-<td>非公式、SME、正式 *</td>
+<td>非公式、SME、フォーマル *</td>
 <td>非公式、SME、フォーマル</td>
 </tr>
 <tr class="odd">
-<td>IW/SME の体験</td>
+<td>IW/SME 体験</td>
 <td>Teams</td>
 <td>Teams</td>
 <td><p>Teams +</p>
-<p>extensions</p></td>
+<p>拡張機能</p></td>
 <td><p>Teams +</p>
-<p>extensions</p></td>
+<p>拡張機能</p></td>
 </tr>
 <tr class="even">
 <td>サービス接続</td>
 <td>プラットフォーム<br />
-(通話プラン + DR)</td>
-<td>直接ルーティング</td>
-<td>直接ルーティング</td>
+(通話プラン + ダイレクト ルーティング)</td>
+<td>ダイレクト ルーティング</td>
+<td>ダイレクト ルーティング</td>
 <td>プラットフォーム<br />
-(通話プラン + DR)</td>
+(通話プラン + ダイレクト ルーティング)</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="next-steps"></a>次の手順
 
-認定プログラムへの参加を求めるベンダーの場合は、メールでお問い合わせください <Teamscategorypartner@microsoft.com> 。
+認定プログラムへの参加を希望する場合は、<Teamscategorypartner@microsoft.com> にメールを送信してください。
