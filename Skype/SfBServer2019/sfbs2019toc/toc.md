@@ -15,7 +15,7 @@
 ### [トポロジの基本](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [関連トポロジ](../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### 要件 
-####[システム要件](../plan/system-requirements.md)
+#### [システム要件](../plan/system-requirements.md)
 #### [負荷分散の要件](../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [ネットワーク要件](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [IPv6](../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -97,7 +97,7 @@
 #### [勤務先から通話](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [リモート通話コントロール](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### クラウド ボイスメール
-#####[クラウド ボイスメールの計画](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+##### [クラウド ボイスメールの計画](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [クラウド ボイスメールの構成](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### クラウド自動応答
 ##### [クラウド自動応答の計画](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
