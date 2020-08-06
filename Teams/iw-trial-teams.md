@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 9f541eb0bd6970a54bad5272a26ec3a3449d2a13
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868684"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552633"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Microsoft Teams の商用クラウドの試用提供を管理する
 =======================================================
@@ -81,7 +81,7 @@ Teams 試用版は個々のエンド ユーザーが開始するためのもの�
 
 試用版のアプリとサービスをインストールするユーザー機能をオフにできます。
 
-1. [[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home) から、**[設定]** > **[設定]** に移動し、**[サービス]** を選択し、**[ユーザーが所有するアプリとサービス]** を選択します。
+1. [[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home)から **[設定]** > から **[組織の設定[** に移動し、**[サービス] **を選択し、**[ユーザー所有のアプリとサービス] **を選択します。
 
     ![管理センターの [サービス] ページのスクリーン ショット](media/iw-trial-services.png)
 
