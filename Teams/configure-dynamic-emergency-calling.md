@@ -17,12 +17,12 @@ description: Microsoft 通話プランおよび電話システムダイレクト
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083157"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576929"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -75,6 +75,9 @@ Microsoft 通話プランや電話システムのダイレクトルーティン�
 - Android クライアントと Google Play ストアのバージョン 1416/1.0.0.2019121201 以上の Teams モバイルクライアント
 - Teams 電話バージョン 1449/1.0.94.2019110802 以降
 - Teams 室のバージョン4.4.25.0
+
+> [!NOTE]
+> セキュリティデスク通知を含む動的な緊急通話は、Teams web クライアントではサポートされていません。 ユーザーが Teams の web クライアントを使って PSTN 番号に通話を発信できないようにするには、チームの通話ポリシーを設定して、[ **WEB PSTN 通話を許可**する] 設定をオフにします。 詳細については、「 [Teams の通話ポリシー](teams-calling-policy.md) 」および「 [Set csteamのポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)」を参照してください。
 
 ## <a name="assign-emergency-addresses"></a>緊急対応の住所を割り当てる
 

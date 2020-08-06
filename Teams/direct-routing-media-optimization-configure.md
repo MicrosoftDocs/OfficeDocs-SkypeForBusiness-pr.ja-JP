@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接ルーティング用のローカルメディア最適化を構成する
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53f9156b6ab6d33223c9b1d3e11a604ba0c1c31
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: ecbbb4f01267265f9f1041e7d51652d063ced353
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121607"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576989"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>直接ルーティング用のローカルメディア最適化を構成する
 
@@ -57,7 +57,7 @@ ms.locfileid: "45121607"
 ローカルメディア最適化は、次の SBC ベンダーによってサポートされています。
 
 | 仕入先 | Product |    ソフトウェアのバージョン |
-|:------------|:-------|:-------| :-------|
+|:------------|:-------|:-------|
 | [AudioCodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20 a. 256 | 
 |            |  Mediant 800 SBC |   7.20 a. 256 | 
 |            |  Mediant 2600 SBC |  7.20 a. 256 | 
@@ -71,7 +71,9 @@ ms.locfileid: "45121607"
 |            |  SBC 5400         | 8.2  |
 |            |  SBC 7000         | 8.2  |
 |            |  SBC SWe          | 8.2  |
-| [リボンの SBC エッジ](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 (ビルド 239) |
+| [リボンの SBC エッジ](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1 + |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
 |        | AP 3900 | 8.4.0.0.0 |

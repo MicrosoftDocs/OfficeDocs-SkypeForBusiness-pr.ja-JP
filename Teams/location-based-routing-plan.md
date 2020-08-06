@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552275"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572242"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -35,7 +35,7 @@ ms.locfileid: "46552275"
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 
 > [!NOTE]
-> 位置情報に基づくルーティングは、Microsoft 365 Government Community Cloud (GCC) の高度な展開では利用できません。
+> 位置情報に基づくルーティングは、Microsoft 365 Government Community Cloud (GCC) 高または DoD の展開では使用できません。
 
 位置情報に基づくルーティングは、着信または発信の PSTN 通話の時点でのポリシーとユーザーの地理的な位置に基づいて、有料のバイパスを制限できる機能です。 位置情報に基づくルーティングは、無料の通話を防止するためのメカニズムを提供することを目的としています。 これは、ユーザーの場所に基づいて PSTN 通話を動的にルーティングするメカニズムとして使用したり、予期しない結果が生じる可能性があります。
 

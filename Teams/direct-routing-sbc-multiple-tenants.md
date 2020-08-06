@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 1つのセッション境界コントローラー (SBC) を構成して、Microsoft パートナーや PSTN キャリアの複数のテナントを処理する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552623"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572362"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -60,7 +60,7 @@ SBC ホスティングシナリオでの SBCs の展開と構成の詳細な手�
 
 - **Audiocodes:** [ダイレクトルーティング構成のメモ](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)「Audiocodes の sbc から Microsoft Teams へのダイレクトルーティングホスティングモデル構成のメモ」で説明したように、sbc ホスティングシナリオの構成を確認します。 
 - **Oracle:** [直接ルーティング構成のメモ](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)「Microsoft」セクションでは、SBC ホスティングシナリオの構成について説明します。 
-- **リボンの通信:** リボンについては、「リボンの主要な一連の製品を構成する方法」および「このページのリボンを構成する[」](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)を参照してください。[ベストプラクティス-Microsoft Teams のダイレクトルーティング Sbc エッジの配送業者の構成](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **リボンの通信:** リボンについては、「リボンの主要な一連の製品を構成する方法」および「このページのリボンを構成する[」](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)を参照してください。[ベストプラクティス-Microsoft Teams のダイレクトルーティング Sbc エッジの配送業者の構成](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE システム (anynode):** 複数のテナントに対して、任意のノードの SBC を構成する方法のドキュメントと例については、[ [TE システムのコミュニティ] ページ](https://community.te-systems.de/)で登録してください。
 - **Metaswitch:** 複数のテナントに対して、他の Metaswitch のメタを有効にする方法については、こちらの[ページ](https://sso.metaswitch.com/UI/Login)で登録してください。
 

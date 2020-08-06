@@ -16,7 +16,7 @@ ms.collection:
 description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams ミーティングの展開に関連した計画時の考慮事項について説明します。
 ms.openlocfilehash: 7b954b81d13addd4b8eb0c7bb5614f9e08f24251
 ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44761465"
@@ -150,7 +150,7 @@ _お客様の組織に適した Microsoft Teams ミーティングの展開テ�
 
 多くの組織には、会議室やデバイスを管理する AV チームまたはパートナーがいます。 このチームは、パフォーマンスを監視し、ソフトウェアの更新と修正プログラムを展開するために、Microsoft Teams ミーティングのデバイスを今後誰が管理するかについて合意する必要があります。 
 
-Microsoft Teams ミーティング関連の連絡を転送するヘルプデスク キューを検討し、ヘルプデスク チームに FAQ を提供して、Microsoft Teams ミーティングの使用方法と主要なトラブルシューティング手順を理解してもらいます。 この FAQ の出発点として、[ユーザーのヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)と[既知の問題](known-issues.md)が挙げられます。
+Microsoft Teams ミーティング関連の連絡を転送するヘルプデスク キューを検討し、ヘルプデスク チームに FAQ を提供して、Microsoft Teams ミーティングの使用方法と主要なトラブルシューティング手順を理解してもらいます。 この FAQ の良い開始点は、[ユーザー ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)と[既知の問題](known-issues.md)です。
 
 |    |     |
 |-----------|------------|

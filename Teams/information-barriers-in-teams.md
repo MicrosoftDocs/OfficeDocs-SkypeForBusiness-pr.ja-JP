@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の情報障壁
 author: chrfox
-ms.author: chrfox
+ms.author: anwara
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: この記事では、Microsoft Teams の情報障壁の概要と、
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202913"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572382"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -177,6 +177,9 @@ Enrico は、グループチャットにメッセージを送信することは�
 ## <a name="required-licenses-and-permissions"></a>必要なライセンスと権限
 
 プランや価格などの詳細については、「[ライセンスガイダンス](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)」を参照してください。
+
+## <a name="known-issues"></a>既知の問題
+- **ユーザーが会議に参加できません**。 IB ポリシーが有効になっていると、会議リストのサイズが250ユーザーを超えている場合、ユーザーは会議に参加することはできません。 ルートの理由は、IB のチェックによって、ユーザーが会議チャットリストに追加できるかどうかに依存し、ユーザーが会議に参加することを許可することになります。 会議に一度参加すると、そのユーザーがリストに追加されます。そのため、定期的な会議の場合、名簿はすぐにいっぱいになります。 250のユーザー数に達すると、追加のユーザーを会議のチャットリストに追加することはできません。 IB が有効になっている場合、会議に参加することはできませんが、IB が有効になっていない場合、ユーザーは会議に参加することはできますが、会議のチャットリストには追加されません。 短期的な解決策として、新しいユーザーのためのスペースを確保するため、会議のチャットリストから非アクティブなメンバーを削除します。 ただし、後日、会議チャットの選手名簿のサイズが大きくなります。
 
 ## <a name="more-information"></a>詳細情報
 

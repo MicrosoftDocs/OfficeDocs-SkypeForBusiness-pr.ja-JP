@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 6aab0bcb24729dc1e021709563ca1c2dcda5d039
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166755"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576919"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -48,6 +48,7 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
 | Audiocodes C448HD (CAP モードのみ)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
+|Crestron UC-2                           |1.0.1.46                                                  | 2020年7月                    |
 | Crestron M100                          | この製品は廃止されました。 詳細については、「Crestron [M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T)の web サイトを参照してください。 | 5/11/2020 で廃止 |
 | Crestron Flex UC-P100-T & UC-P110-T    | この製品は廃止されました。 詳細については、「Crestron it の web サイト」の「 [UC 携帯電話](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)」を参照してください。                  | 5/11/2020 で廃止 |
 | Lenovo ThinkSmart View                 | CD-18781Y                                                                                                                                                                                                                       | 2020年4月                   |
