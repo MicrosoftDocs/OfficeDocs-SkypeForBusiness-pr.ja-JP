@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でサービスの品質 (QoS) を実施する
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef2fca810a7125c4150ff4de2c3eea8fd7970d2e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 6a83a18810268d3eb8317eb541f7eb06ff812c9c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085283"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582094"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービスの品質 (QoS) を実装する
 
@@ -177,7 +177,7 @@ QoS を有効にするには、グループポリシーオブジェクトによ�
 可能であれば、ネットワークの出口ポイントでトラフィックをキャプチャします。 スイッチまたはルータでポートミラーリングを使用して、この問題を解決することができます。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [ビデオ : ネットワーク計画](https://aka.ms/teams-networking)
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams で組み込みタブとカスタム タブを使用する
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 組み込みタブやカスタム タブを使用して会話、ファイル、地図などの機能を追加する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824695"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581358"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft Teams で組み込みタブとカスタム タブを使用する
 ==================================================

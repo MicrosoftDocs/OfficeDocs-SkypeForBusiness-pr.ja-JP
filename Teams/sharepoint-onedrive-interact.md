@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams との SharePoint Online と OneDrive for Business の連携
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a66cacf7a60b020b4b56e0824d0a275efdf704f8
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: af9981b1f3cd95d80a72a9e4fa536835d662382d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45140941"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581088"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 

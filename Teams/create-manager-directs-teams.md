@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams で people manager teams を作成する
 ms.reviewer: pbethi
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb6cd6ed74bebd0cbd729b828c152b9f04d1fc1f
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: fe57656eec61747dd0a43d475444e65d8600e222
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796225"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583676"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Microsoft Teams で people manager teams を作成する
 
@@ -30,9 +30,9 @@ ms.locfileid: "42796225"
 
 ## <a name="how-to-use-the-powershell-script"></a>PowerShell スクリプトの使い方 
 
-まず、[エクスポートマネージャーとそのリダイレクトスクリプト](scripts/powershell-script-create-teams-from-managers-export-managers.md)を実行します (これは、 [AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0)と[connect-microsoft teams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps)の PowerShell モジュールを既に実行していることを前提としています)。 *エクスポートマネージャーとそのリダイレクト*スクリプトは、タブ区切りファイル (ExportedManagerDirects) を作成して、すべての管理者に直属の部下を一覧表示します。 
+まず、[エクスポートマネージャーとそのリダイレクトスクリプト](scripts/powershell-script-create-teams-from-managers-export-managers.md)を実行します (これは、 [AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0)と[connect-microsoft teams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps)の PowerShell モジュールを既に実行していることを前提としています)。 *エクスポートマネージャーとそのリダイレクト*スクリプトは、タブ区切りのファイル (ExportedManagerDirects.txt) を作成し、すべてのマネージャーに直属の部下を表示します。 
 
-次に、[[新しい people manager teams の作成] スクリプト](scripts/powershell-script-create-teams-from-managers-new-teams.md)を実行します。 このスクリプトは、ExportedManagerDirects ファイルを読み取り、そのマネージャーの直属の部下としてメンバーとしてチームを作成します。 いずれかのマネージャーまたはダイレクトが Teams で有効になっていない場合は、スクリプトはスキップし、チームは作成されません。 (レポートを確認し、必要なユーザーのチームをオンにした後でスクリプトを再実行します。 スクリプトでは、チームが既に作成されている管理者に対して、2つ目のチームは作成されません。
+次に、[[新しい people manager teams の作成] スクリプト](scripts/powershell-script-create-teams-from-managers-new-teams.md)を実行します。 このスクリプトは、ExportedManagerDirects.txt ファイルを読み取り、そのマネージャーの直属の部下としてメンバーとしてチームを作成します。 いずれかのマネージャーまたはダイレクトが Teams で有効になっていない場合は、スクリプトはスキップし、チームは作成されません。 (レポートを確認し、必要なユーザーのチームをオンにした後でスクリプトを再実行します。 スクリプトでは、チームが既に作成されている管理者に対して、2つ目のチームは作成されません。
 
 各チームの場合、スクリプトによって一般的なチャネルと "楽しい" のチャネルが作成されます。 
 
@@ -42,8 +42,8 @@ ms.locfileid: "42796225"
 
 - 次の「2020年3月8日のブログ投稿: [Microsoft Teams + Power Platform を使った危機通信の調整](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715)」を参照して、新しい危機通信アプリを確認してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[チームを編成するためのベストプラクティス](best-practices-organizing.md)
+[チームを編成するためのベスト プラクティス](best-practices-organizing.md)
 
 [Teams で組織全体にわたるチームを作成する](create-an-org-wide-team.md)

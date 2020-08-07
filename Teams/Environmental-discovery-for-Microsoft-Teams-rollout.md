@@ -1,7 +1,7 @@
 ---
 title: 環境の互換性-Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6decfba208fd33bfd1326b4839ef77c9fc1f7558
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 43fc4728ab634efe78a0e0e129b2979096a57d60
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522680"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581118"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft Teams のロールアウトに関する環境の検出
 ===================================================
@@ -82,7 +82,7 @@ ms.locfileid: "44522680"
 > | 現在使用中の Microsoft Online 製品はどれですか? <br/>各ユーザーに対して有効になっているユーザーの数を確認する <br/>[コメント列のサービスを選びます。 | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype for Business <br/>&nbsp; &nbsp; &nbsp;オンライン <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">他の| |
 > | Skype 用に有効になっているライセンスレベル <br/>ビジネスオンラインユーザーの場合 | <input type="checkbox">E1/G1 <br/> <input type="checkbox">E2/G2 <br/> <input type="checkbox">E3/G3 <br/> <input type="checkbox">E4/G4 E5 | ユーザー数 <br/>各 SKU の場合: |
 > | 現在の Active Directory フォレストとは <br/>環境の機能レベル <br/>複数のフォレストがある場合は、詳細を確認する <br/>コメント列。 | <input type="checkbox">Windows Server 2000 <br/> <input type="checkbox">Windows Server 2003 <br/> <input type="checkbox">Windows Server 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">Windows Server 2016| |
-> | ディレクトリについて <br/>今すぐ同期していますか? |<input type="checkbox">同期なし (クラウドのみ) <br/> <input type="checkbox">Azure Active Directory <br/>&nbsp;&nbsp; &nbsp;接続 <br/> <input type="checkbox">その他 ( <br/>&nbsp;&nbsp; &nbsp;コメント列。)| |
+> | ディレクトリについて <br/>今すぐ同期していますか? |<input type="checkbox">同期なし (クラウドのみ) <br/> <input type="checkbox">Azure Active Directory <br/>&nbsp; &nbsp; &nbsp;接続 <br/> <input type="checkbox">その他 ( <br/>&nbsp;&nbsp; &nbsp;コメント列。)| |
 > | フェデレーション ID は現在展開されていますか? <br/>(Active Directory フェデレーションサービスまたは <br/>サードパーティ) | <input type="checkbox">うん <br/> <input type="checkbox">違います | |
 > | フェデレーション id を使用している場合、 <br/>フェデレーションインフラストラクチャ | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox">サードパーティのフェデレーション <br/>&nbsp;&nbsp; &nbsp; ゲートウェイ (詳細を確認する <br/>&nbsp;[ &nbsp; &nbsp; コメント] 列にあります。) | |
 > | 現在アクティブな Microsoft 365 を保持している場合<br/>または Office 365 テナントは、の SMTP/SIP ドメインです。 <br/>対象ユーザーがテナントに関連付けられていますか? | <input type="checkbox">該当なし– Microsoft 365 または<br/>&nbsp;&nbsp; &nbsp;インプレース Office 365 テナント <br/> <input type="checkbox">いいえ、ユーザーの SMTP/SIP <br/>&nbsp;&nbsp; &nbsp; ドメインが関連付けられていません <br/>&nbsp;&nbsp; &nbsp; テナントが <br/>&nbsp;&nbsp; &nbsp;Microsoft 365 または Office 365<br/> <input type="checkbox">はい、ユーザーの SMTP/SIP <br/>&nbsp;&nbsp; &nbsp; ドメインが関連付けられている <br/>&nbsp;&nbsp; &nbsp; 既存のテナントの場合 <br/>&nbsp;&nbsp; &nbsp;Microsoft 365 または Office 365 | |

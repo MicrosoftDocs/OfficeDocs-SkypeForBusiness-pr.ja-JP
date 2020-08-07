@@ -1,7 +1,7 @@
 ---
 title: 外部アクセスの管理 (フェデレーション)
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: cb7225df0503bc65ff61130702f62f26b85bc329
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0aa8cd2ac27bac7bf5159512801670270791f903
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780046"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583866"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 ======================================================

@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: よく寄せられる質問 (FAQ) と、Microsoft Teams の通話品質ダッシュボード (CQD) に関する回答を参照してください。
-ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 8ad0a1745799194ec11284f8f7aaabd76bd30d05
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372126"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584026"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
 
@@ -104,7 +104,7 @@ CQDv2 と CQDv3 は、CQDv2 にはない新しいシナリオが用意されて�
 予期しない違いがある場合は、データ全体のさまざまな内訳を確認する必要があります。  目的に合わせて比較します。  ユーザーエージェントカテゴリペア別のデータのスライスは、最初に推奨されるものの1つです。  *第1の製品*と*第2の製品*は、スライサーとしても優れています。  
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams の通話品質を向上させて監視する](monitor-call-quality-qos.md)
 

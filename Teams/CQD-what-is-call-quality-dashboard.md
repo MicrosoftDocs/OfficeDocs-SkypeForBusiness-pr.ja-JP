@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) とは何ですか?
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) について説明し、それを使用して Microsoft Teams の会議と通話の品質に関するレポートを表示する方法について説明します。
-ms.openlocfilehash: b7830d60139991b7ccc18679af798c74430e8ed1
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 9ba1956533887314a9ffa7ad994cbb4c81ffe103
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088245"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583486"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) とは何ですか?
 
@@ -66,7 +66,7 @@ CQD の現在のバージョン ( https://CQD.Teams.microsoft.com) CQD の旧バ
 
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams の通話品質を向上させて監視する](monitor-call-quality-qos.md)
 
@@ -85,4 +85,4 @@ CQD の現在のバージョン ( https://CQD.Teams.microsoft.com) CQD の旧バ
 [Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)
 
 
-[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

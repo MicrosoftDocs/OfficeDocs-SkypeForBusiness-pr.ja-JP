@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) 用の建物マップを作成する
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) でテナントと建物のデータをアップロードするために使用できる構築マップを作成する方法について説明します。
-ms.openlocfilehash: 18e88c2de64d2d63589a3cd2ebddbc9643fe4522
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 890e5e9b394cf8b600e635014c90ebb9053a1e07
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086100"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584036"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) 用の建物マップを作成する
 
@@ -42,6 +42,6 @@ CQD を使用する場合は、エンドポイントの場所と、管理でき�
 1. 重複しているかどうかを確認し、既存の建物ファイルを検証します。
 1. CQD でマッピングされていないサブネットを検索します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [CQD でテナントと建物データをアップロードする](CQD-upload-tenant-building-data.md)

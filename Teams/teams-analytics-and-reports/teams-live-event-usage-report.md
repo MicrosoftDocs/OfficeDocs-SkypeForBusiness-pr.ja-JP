@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターで Teams live イベントの利
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f9b25fa7c476c9dd3fe347af26fc13742b41d009
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904292"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583766"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams のライブイベントの使用状況レポート
 
@@ -47,6 +47,9 @@ Microsoft Teams 管理センターの [チームライブイベントの利用�
 |**4**   |表を使用すると、各ライブイベントの内訳が示されます。 <ul><li>**イベント**は、ライブイベントの表示名です。 イベント名をクリックすると、イベントの[詳細が表示](#view-event-details)されます。 </li> <li>[**開始時刻**] は、イベントの開始日時を指します。</li> <li>**イベントの状態**は、イベントが発生したかどうかを示します。  </li><li>[**開催者**名は、イベントの開催者の名前です。</li> <li>**プレゼンター**は、イベントプレゼンターの名前です。</li><li>**プロデューサー**は、イベントプロデューサーの名前です。</li><li>**ビュー**には、固有のビューの数が表示されます。</li><li>[**レコーディング**] レコーディングの設定がオンになっているかオフになっているかを表示します。</li><li>[**生産の種類**の場合、イベントがチームで生成されるか、外部アプリケーションまたはデバイスによって生成されるかが示されます。</li></li> </ul>ユーザー アカウントが Azure AD に存在しなくなった場合は、ユーザー名がテーブルに "--" として表示されます。 <br><br>表に希望する情報を表示するには、表に列を追加する必要があります。 |
 |**5**   |[**列の編集**] を選択して表で列を追加または削除します。|
 
+## <a name="notes"></a>メモ
+現在のレポートの条件に一致する最大100のライブイベントを表示します。 他のライブイベントを表示するには、日付フィルターを適用して、リストのサイズを小さくします。
+
 ## <a name="view-event-details"></a>イベントの詳細を表示する
 
 [ライブイベントの詳細] ページには、ライブイベントの詳細情報の概要が表示され、イベントに関連付けられた議事録とレコーディングを含むすべてのファイルが一覧表示されます。 ファイル名をクリックして、ファイルを表示またはダウンロードします。
@@ -55,7 +58,7 @@ Microsoft Teams 管理センターの [チームライブイベントの利用�
 
 組織で[Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) ecdn または[Kollective](https://kollective.com) ecdn が有効になっている場合は、パートナーレポートのリンクをクリックして、追加の出席者の分析を取得できます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の分析とレポート](teams-reporting-reference.md)
 - [Teams のライブ イベントについて](../teams-live-events/what-are-teams-live-events.md)

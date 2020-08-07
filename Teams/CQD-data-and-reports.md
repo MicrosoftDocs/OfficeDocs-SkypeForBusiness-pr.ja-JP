@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) のデータとレポート
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 通話品質ダッシュボード (CQD) で利用できるデータとレポートについて説明します。
-ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372166"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583094"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のデータとレポート
 
@@ -123,18 +123,18 @@ Power BI を使用して CQD データを分析する場合は、「 [POWER bi �
 |機能|概要レポート|詳細レポート|
 |:--- |:--- |:--- |
 |アプリケーション共有のメトリック | いいえ | はい |
-|顧客の建物情報のサポート | はい | Yes |
+|顧客の建物情報のサポート | はい | はい |
 |顧客エンドポイント情報のサポート | Cqd.teams.microsoft.com のみ <span><span/> | Cqd.teams.microsoft.com のみ <span><span/> |
 |ドリルダウン分析のサポート   | いいえ   | はい   |
 |メディアの信頼性のメトリック   | いいえ   | はい   |
-|ボックスのないレポート   | はい   | Yes   |
-|概要レポート   | はい   | Yes   |
+|ボックスのないレポート   | はい   | はい   |
+|概要レポート   | はい   | はい   |
 |ユーザーごとのレポートセット   | いいえ   | はい   |
 |レポートセットのカスタマイズ (レポートの追加、削除、変更)   | いいえ   | はい   |
 |ビデオベースの画面共有のメトリック   | いいえ   | はい   |
 |ビデオ指標   | いいえ   | はい   |
 |利用可能なデータの量   | 過去12か月間   | 過去12か月間   |
-|Microsoft Teams データ   | はい   | Yes   |
+|Microsoft Teams データ   | はい   | はい   |
 | | | |
 
 
@@ -408,7 +408,7 @@ PowerShell を使用して、テナント ID を見つけることもできま�
 > 2019年12月以降、古いバージョンの CQD (cqd.lync.com) にアクセスできます。ただし、従来のポータルでは、最新の CQD (cqd.teams.microsoft.com) へのリンクが提供されています。 最終的には、古いバージョンの CQD が廃止されます。 2020年7月1日以降、古いバージョンの CQD では、新しい CQD からデータにアクセス https://CQD.teams.microsoft.com) できます ()。建物やレポートのデータをエクスポートすることはできなくなりました。 2020の遅延があるときは、古い CQD を無効にします。これでアクセスできなくなります。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams の通話品質を向上させて監視する](monitor-call-quality-qos.md)
 

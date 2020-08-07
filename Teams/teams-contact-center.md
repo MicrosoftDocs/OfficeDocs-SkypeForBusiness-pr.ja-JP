@@ -13,16 +13,19 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
-ms.translationtype: HT
+ms.openlocfilehash: 3f553c29d2a18816053c28c57a6f0f78b818825a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143838"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583254"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
 人気のあるコンタクト センター ソリューションを Microsoft Teams と統合することは、Teams の通話機能を展開するユーザーの一般的なニーズです。  この記事では、コンタクト センター ソリューションを Microsoft Teams と統合する方法の概要を説明し、Microsoft Teams Connected Contact Center Certification プログラムに参加しているパートナーのソリューションに関する追加情報を提供します。
+
+> [!NOTE]
+> 連絡先センターの統合機能には、高度な通信ライセンスが必要です。 
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合とは
 
@@ -38,7 +41,7 @@ Microsoft Teams は、チャット、ビデオ会議、通話などの通信モ�
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams Certification プログラム用のコネクテッド コンタクト センター
 
-Microsoft では、パートナーが Teams の CCaaS ソリューションを開発し、統合できる一般に利用可能な API を公開することに加え、Microsoft Teams Certification プログラム用のコネクテッド コンタクト センターを開発して、参加している各パートナーのソリューションがテストおよび検証されており、Microsoft のソリューションに期待される品質、互換性、信頼性を提供していることを保証します。
+パートナーが CCaaS 開発して共同で使用できるようにする Api は、アドバンストコミュニケーションライセンスで利用できます。 また、microsoft Teams 認定プログラム用の接続された連絡先センターが開発され、お客様は、お客様が Microsoft ソリューションに期待する品質、互換性、信頼性を提供できることを保証しています。
 
 次のパートナーは、Microsoft Teams 向けのソリューションの認定中であり、顧客を支援する準備が整っています。
 

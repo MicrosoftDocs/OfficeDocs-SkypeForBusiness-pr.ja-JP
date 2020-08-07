@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams アプリの使用状況レポート
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターで Teams アプリの使用状�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 91af37ed9c19a1d3e8d32cdf296cf32e90818564
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938206"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583796"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams アプリの使用状況レポート
 
@@ -34,7 +34,7 @@ Microsoft Teams 管理センターの Teams アプリの使用状況レポート
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="[利用状況レポート] メニュー項目のスクリーンショット":::
 
-2.  **[日付の範囲]** の下で、範囲を選択して、**[レポートの実行]** をクリックします。
+2.  **[日付の範囲]** ので範囲を選択し、**[レポートの実行]** をクリックします。
 
       :::image type="content" source="media/app-usage-report2.png" alt-text="アプリの利用状況レポートのスクリーンショット":::
 
@@ -52,6 +52,6 @@ Microsoft Teams 管理センターの Teams アプリの使用状況レポート
 |**個**  |レポートを CSV ファイルにエクスポートすると、オフラインで分析できます。 **[Excel にエクスポート]** をクリックしてから、**[ダウンロード]** タブの **[ダウンロード]** をクリックして、準備のできたレポートをダウンロードします。<br>![ダウンロードページのスクリーンショット](media/app-usage-report7.png)  |
 |**ファイブ**   |Excel でレポートを表示すると、アプリ ID を表す**Id**列も表示されます。 通常、チーム ID は英数字の文字列です。 **Id**列に * * \n * * * と表示されている場合は、ユーザーが情報を削除しようとしたことを意味します。<br>![ダウンロードした Excel レポートのスクリーンショット](media/app-usage-report8.png)  |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

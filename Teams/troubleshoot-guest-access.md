@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティング
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 7e4db423d262f939362400cdec489ca065b5d5c1
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 83f762acc87a15d87bc4b57813768c9f2011bbad
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086204"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583906"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティング
 ======================================================
@@ -54,4 +54,4 @@ Teams のゲスト アクセスでは Azure Active Directory (Azure AD) ビジ�
 [Teams でのゲスト アクセス](guest-access.md)
 
 
-[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

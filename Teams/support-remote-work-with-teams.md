@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams を使用してリモート ワーカーをサポートする
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d28d88a9669391f582dd1532c7f74f052fae727
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 13cb886083b2f381c16c6b3b0acc13746f641a67
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533834"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583816"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 

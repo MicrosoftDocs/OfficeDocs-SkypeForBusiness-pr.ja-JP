@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのコール パークおよび保留解除
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 電話会議を使って、クラウドの Teams サービスで通話を保留にする方法について説明します。
-ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938536"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582654"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -69,7 +69,7 @@ ms.locfileid: "44938536"
 3. ポリシーに名前を付け、[ **call パークを有効**にする] に切り替え**ます。**
 4. **[保存]** を選択します。
 
-#### <a name="using-powershell"></a>PowerShell を使用する場合
+#### <a name="using-powershell"></a>PowerShell の使用
 
 「[新規-CsTeamsCallParkPolicy」を](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)参照してください。
 
@@ -78,9 +78,9 @@ ms.locfileid: "44938536"
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**  >  **通話パークポリシー**] に移動します。
 2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** をクリックします。
 3. [**通話パークを許可**する] を [**オフ**] または **[オン**] に切り替えます。
-4. **[保存]** をクリックします。
+4. [**保存**] をクリックします。
 
-#### <a name="using-powershell"></a>PowerShell を使用する場合
+#### <a name="using-powershell"></a>PowerShell の使用
 
 「 [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)」を参照してください。 たとえば、既定の設定を変更するには、次の操作を実行します。
 
@@ -107,7 +107,7 @@ ms.locfileid: "44938536"
 - アイランド モード – コール パークおよび保留解除は、Teams アイランド モードでは使用できません。
 - 通話は既に保留解除または終了しています。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams で通話をパークする](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 

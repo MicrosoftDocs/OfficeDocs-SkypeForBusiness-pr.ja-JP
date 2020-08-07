@@ -1,7 +1,7 @@
 ---
 title: よく寄せられる質問 - リモートの従業員をサポートする
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9335f890f3d466ed467025c5ab7b828e2db516b9
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: d1d2f627dd3373fcb4475fba2f7f4c90f6d9003e
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138007"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583476"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 

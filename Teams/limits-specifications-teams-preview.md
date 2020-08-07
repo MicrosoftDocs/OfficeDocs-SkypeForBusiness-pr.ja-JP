@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の制限事項と仕様
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7138495b3f210a7c10b61b7bb8dc1287afefb71c
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 236b11242c4f7f609fb5eab0bd772884f9452336
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522926"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583656"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -106,7 +106,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |この範囲内の文字    | 0 ~ 1F<br>80 ~ 9F        |
 |単語     | フォーム、CON、CONIN$、CONOUT$、PRN、AUX、NUL、COM1 ~ COM9、LPT1 ~  LPT9、desktop.ini、&#95;vti&#95;|
 
-チャネル名は、アンダースコア (_) またはピリオド (。) で始まったり終わったりすることもできません。
+チャンネル名は、アンダースコア (_) またはピリオド (.) で開始したり、ピリオド (.) で終了したりすることもできません。
 
 ## <a name="meetings-and-calls"></a>会議と通話
 

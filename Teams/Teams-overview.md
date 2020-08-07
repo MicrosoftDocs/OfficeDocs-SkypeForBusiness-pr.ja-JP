@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams にようこそ
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7220a7776acb796a4ca56ef28541fd821c0c0132
-ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
+ms.openlocfilehash: 11fe80ef9ee96b0eb1c4c9f4ebc1613549efc059
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773312"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582464"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。

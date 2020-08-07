@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でチームテンプレートを作成する
+title: Microsoft Teams でカスタムチームテンプレートを作成する
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft Teams でチームテンプレートを作成する方法について説明します。
+description: Microsoft Teams でカスタムチームテンプレートを作成する方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,16 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 28f85158662c1c9da2cd6411bc5c1f79523a4693
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506428"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583696"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft Teams でカスタムチームテンプレートを作成する
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**カスタムテンプレートは、EDU のユーザーに対してまだサポートされていません。**
 
 カスタムチームテンプレートは、適切な共同作業スペースをすばやく作成するために開発できる一連のチャネル、タブ、アプリを備えた定義済みのチーム構造です。 カスタムチームテンプレートでは、お好みの設定が使用されます。  
 
@@ -64,8 +66,8 @@ ms.locfileid: "46506428"
 
 新しいテンプレートが [**チームテンプレート**] の一覧に表示されます。 このテンプレートを使用して、Teams でチームを作成できます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [管理センターで teams テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
-- [既存のチームからチームを作成する](create-team-from-existing-team.md)
-- [既存のチームテンプレートからチームを作成する](modify-existing-team-template.md)
+- [管理センターでチームテンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
+- [既存のチームからテンプレートを作成する](create-template-from-existing-team.md)
+- [既存のチームテンプレートからチームテンプレートを作成する](create-template-from-existing-template.md)

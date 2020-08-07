@@ -1,7 +1,7 @@
 ---
 title: CQD PSTN ダイレクトルーティングレポートを使用する
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies, fan.fan
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Microsoft teams Call Quality Dashboard (CQD) PSTN ダイレクトルーティングレポートを使用して、Microsoft Teams の PSTN 通話を監視およびトラブルシューティングします。
-ms.openlocfilehash: 0987ae30c9bb0b428a4d46bf036c2de938c555f0
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e4662d80dbba88c1049c7ef98569dae408ca9ba0
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085343"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583104"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN ダイレクトルーティングレポートを使用する
 
@@ -143,8 +143,8 @@ Daily の場合、02/05/2020 で dip を利用している場合は、日付を�
 
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Power BI を使用して Microsoft Teams の CQD データを分析する](CQD-PSTN-report.md)
 
-[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 および Office 365 の Url と IP アドレスの範囲
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
@@ -20,17 +20,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30736a347f447d265059de1a26ded5ef690e53dc
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 94fd32cb4f68d636a6ff49ecf3b9c19689542142
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665693"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582124"
 ---
 <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 および Office 365 の Url と IP アドレスの範囲
 =======================================================
 
-Office の Url、IP アドレス、ポート、プロトコルの詳細と最新の一覧を表示するには、 [Microsoft 365 および Office 365 の url と ip アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 Microsoft は、Microsoft 365 および Office 365 サービスを継続的に改善し、新しい機能を追加しています。これは、必要なポート、Url、IP アドレスが時間の経過と共に変化する可能性があることを意味します。 お客様は、この情報が更新または変更されたときに通知を受け取れるように、[RSS で購読](https://go.microsoft.com/fwlink/p/?linkid=236301)することをお勧めします。
+Office の Url、IP アドレス、ポート、プロトコルの詳細と最新の一覧を表示するには、 [Microsoft 365 および Office 365 の url と ip アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)を参照してください。 Microsoft は、必要なポート、URL、IP アドレスが時間の経過とともに変更する可能性があることを踏まえて、継続して Microsoft 365 サービスおよび Office 365 サービスを改善し、新機能を追加します。 お客様は、この情報が更新または変更されたときに通知を受け取れるように、[RSS で購読](https://go.microsoft.com/fwlink/p/?linkid=236301)することをお勧めします。
 
 Teams は、Skype および Skype for Business でも使用されている次世代のクラウドベース インフラストラクチャに基づいて構築された通話および会議のエクスペリエンスも提供しています。 これらの技術投資には、Azure ベースのクラウド サービスを利用したメディア処理とシグナリング、H.264 ビデオ コーデック、SILK および Opus オーディオ コーデック、ネットワークの回復力、テレメトリ、および品質診断が含まれます。 したがって、Skype および Skype for Business の両方に関連付けられる可能性がある必要な URL と IP があります。
 

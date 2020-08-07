@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の通話分析を設定する
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Microsoft Teams の通話品質の問題を特定してトラブルシューティングするために、ユーザーごとの通話分析をセットアップします。
-ms.openlocfilehash: 233d91a60ea783238e10ed1baa02334494ef6e08
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f1ea46f275dfbbe5ea7f6cd40d8c06fba2b5e00f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085313"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581108"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>Microsoft Teams の通話分析を設定する
 
@@ -59,8 +59,8 @@ Azure Active Directory に管理者ロールを割り当てる方法について
   
 .Tsv または .csv ファイルを最初から作成する場合は、「[テナントと建物データをアップロード](CQD-upload-tenant-building-data.md)する」を参照してください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [ユーザーごとの通話分析を使用して、低品質の通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

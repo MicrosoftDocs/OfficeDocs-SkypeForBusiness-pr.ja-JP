@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121647"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584086"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話 & 会議用の Teams ポリシーベースのレコーディングの概要
 
@@ -40,7 +40,7 @@ Teams では、チームの通信を構成、管理、記録、保存、およ�
 
 - 既存のチーム管理者との統合、会議のツールとポリシーの統合など、コンプライアンスの記録用の新しい管理ポリシー
 
-- 個別のライセンスを持つ Teams ユーザーに対して有効
+- [高度な通信ライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)が必要です
 
 コンプライアンス記録ソリューションの統合機能も、[<span class="underline">コンプライアンス記録と Microsoft Teams セッション</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)の Ignite 2019 でレビューされています。
 
@@ -210,7 +210,7 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 以下のパートナーは、Microsoft Teams のソリューションを認定するプロセスを担当しています。  
 
-|パートナー|ソリューションの web サイト |
+|パートナー|ソリューションの Web サイト |
 |:--|:--|
 |ASC テクノロジ |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
 |AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |

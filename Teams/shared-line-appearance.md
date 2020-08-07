@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams での回線共有機能
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Microsoft Teams で電話会議情報を記載したメールをユーザーに送信する方法について説明します。
-ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: 7750f85e959f332832c24b60b4efafd784218f61
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125980"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583836"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams での回線共有機能
 
@@ -59,14 +59,14 @@ ms.locfileid: "45125980"
 
 | 機能 | Teams デスクトップ | Teams Mac アプリ | Teams Web アプリ (Edge) |Teams モバイル iOS/Android アプリ | Teams IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| 代理人を設定する | はい | Yes | 必要 | いいえ | はい |
-| 他の人の代理で通話を受信する | はい | Yes | Yes | Yes | Yes |
-| 別の電話番号に代わって電話番号に通話を発信する | はい | Yes | Yes | Yes | Yes |
-| 他のユーザーの代理として Teams ユーザーに電話をかける | はい | Yes | Yes | Yes | Yes |
-| 共有行の管理ビューを表示する | はい | Yes | 必要 | × | いいえ |
-| マネージャーの通話活動の管理ビューを表示する | はい | Yes | 必要 | × | いいえ |
-| 代理人のマネージャービューを表示する | はい | Yes | 必要 | × | いいえ |
-| 管理者またはマネージャーが保留または再開できる | はい | Yes | 必要 | × | いいえ |
+| 代理人を設定する | はい | はい | はい | いいえ | はい |
+| 他の人の代理で通話を受信する | はい | はい | はい | はい | はい |
+| 別の電話番号に代わって電話番号に通話を発信する | はい | はい | はい | はい | はい |
+| 他のユーザーの代理として Teams ユーザーに電話をかける | はい | はい | はい | はい | はい |
+| 共有行の管理ビューを表示する | はい | はい | はい | いいえ | いいえ |
+| マネージャーの通話活動の管理ビューを表示する | はい | はい | はい | いいえ | いいえ |
+| 代理人のマネージャービューを表示する | はい | はい | はい | いいえ | いいえ |
+| 管理者またはマネージャーが保留または再開できる | はい | はい | はい | いいえ | いいえ |
 
 ## <a name="limitations"></a>伴う
 

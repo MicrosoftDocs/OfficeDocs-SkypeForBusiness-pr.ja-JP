@@ -1,8 +1,8 @@
 ---
 title: Teams と連動するように Skype 会議アプリを構成する
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: Lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 6a1b4f05be530e57d11d618ae0489187b65f9e56
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825525"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581668"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Teams と連動するように Skype 会議アプリを構成する
 ===================================================

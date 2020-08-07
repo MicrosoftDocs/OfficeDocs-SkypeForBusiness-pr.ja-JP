@@ -1,7 +1,7 @@
 ---
 title: Microsoft Graph を使用して Teams テンプレートを使ってみる
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18459b8350326d1af50fa8da4046b8987dd336dd
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: d471446d4c0c05d0c13fdee81018c6287c7dda47
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506189"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583526"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Microsoft Graph を使用して Teams テンプレートを使ってみる
 
@@ -78,7 +78,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 |ヘルス<br>病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>Custodial</li><li>人事</li></li><li>薬</li></ul>\*自動お気に入りチャネル|
 |||
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [チームを作成する](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)(プレビュー中)
 - [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)

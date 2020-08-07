@@ -1,8 +1,8 @@
 ---
 title: 変更管理戦略を作成する
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -15,12 +15,12 @@ description: 主要な関係者、ビジネスの成果、成功の指標、お�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 93cc8c9b56381e656cbcfbe2c47aef0e10593e45
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690483"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581788"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Microsoft Teams の変更管理戦略を作成する
 =======================================================

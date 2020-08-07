@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams 管理センターでカスタムアプリを組織のアプリストアにアップロードする方法について説明します。
-ms.openlocfilehash: 68d7dbc16ca3aa6258fd5f976688240095226934
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d43b19f4ada3ce6f0424a324cdea6f194575325b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552851"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583646"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリパッケージをアップロードしてカスタムアプリを公開する
 
@@ -89,6 +89,12 @@ Microsoft は、<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 既定では、ユーザーがアプリを見つけるには、組織のアプリストアに移動し、それを参照または検索する必要があります。 ユーザーがアプリを簡単に利用できるようにするために、アプリを Teams のアプリバーにピン留めすることができます。 これを行うには、アプリのセットアップポリシーを作成し、ユーザーに割り当てます。 詳細については、「 <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">Teams でアプリセットアップポリシーを管理</a>する」を参照してください。
 
+### <a name="search-the-audit-log-for-teams-app-events"></a>チームアプリイベントの監査ログを検索する
+
+監査ログを検索して、組織内の Teams アプリのアクティビティを表示できます。 監査ログを検索し、監査ログに記録されている Teams アクティビティの一覧を表示する方法の詳細については、「 <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">Teams のイベントの監査ログを検索</a>する」を参照してください。
+
+監査ログを検索する前に、まず<a href="https://protection.office.com" target="_blank">セキュリティ & コンプライアンスセンター</a>で監査を有効にする必要があります。 詳細については、「<a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">監査ログの検索を有効または無効に</a>する」を参照してください。 監査データは、監査を有効にした時点でのみ利用可能であることに注意してください。
+
 ## <a name="discover-and-adopt"></a>発見と採用
 
 アプリへのアクセス許可を持つユーザーは、そのアプリを組織のアプリストアで見つけることができます。 [アプリ] ページで [ ***組織名に合わせ*て作成**済み] に移動して、組織のカスタムアプリを見つけます。
@@ -121,7 +127,7 @@ Microsoft Teams 管理センターの [アプリの管理] ページでアプリ
 
 ![アプリのアップグレードオプションのスクリーンショット](media/manage-your-custom-apps-update2.png)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams アプリ申請 API を通じて送信されたカスタムアプリを公開する](submit-approve-custom-apps.md)
 - [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)

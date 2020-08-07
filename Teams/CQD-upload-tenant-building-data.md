@@ -1,7 +1,7 @@
 ---
 title: 通話品質ダッシュボード (CQD) でテナントと建物のデータをアップロードする
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) でテナントと建物のデータをアップロードする方法について説明します。
-ms.openlocfilehash: d8a27ab45a01d1b0eccc28716bee9fa838fb8de5
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 86ff0cba51b5c1cb291f7b885cf5baadf9744d4a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086085"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584066"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) でテナントと建物のデータをアップロードする
 
@@ -211,7 +211,7 @@ EndpointName、EndpointModel、Endpointmodel、EndpointLabel1、EndpointLabel2�
 > 月単位のレポートフィルターは、現在の月に合わせて調整してください。 [**編集**] を選択し、 **month Year**レポートフィルターを調整して、新しい既定の月を保存します。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [CQD 用の建築地図を作成する](CQD-building-mapping.md)
 

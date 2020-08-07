@@ -1,7 +1,7 @@
 ---
 title: Teams 用に組織のネットワークを準備する
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e2346c8bae770671150edc19416676f38bc1d126
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: d0ce589ef972639928e4c8696f3ed23146126086
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202937"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583893"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -118,7 +118,7 @@ ms.locfileid: "45202937"
 </tr>
 <tr class="odd">
 <td>侵入検知と予防のガイダンス</td>
-<td>お客様の環境に、送信接続用のセキュリティレイヤーを追加するために展開された<a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">侵入検知</a>または防止システム (IDS/IPS) が展開されている場合は、Microsoft のすべての365または Office 365 url をホワイトリストしてください。</td>
+<td>使用している環境に、送信接続のセキュリティレイヤーを追加するために展開された<a href="https://docs.microsoft.com/azure/network-watcher/network-watcher-intrusion-detection-open-source-tools">侵入検知</a>または防止システム (IDS/IPS) が展開されている場合は、必ず Microsoft 365 または Office 365 の url をすべて許可してください。</td>
 </tr>
 <tr class="even">
 <td>分割トンネル VPN を構成する</td>

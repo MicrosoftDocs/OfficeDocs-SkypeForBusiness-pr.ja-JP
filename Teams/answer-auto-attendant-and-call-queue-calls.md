@@ -1,8 +1,8 @@
 ---
 title: 自動応答と通話キューへの通話に応答する
 ms.reviewer: waseemh
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 1ea09e005dea2a89cb23b55a8ac59eaf491df460
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190865"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582824"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 ===========================================================
@@ -65,7 +65,7 @@ Microsoft Teams で自動応答および通話キューの通話を受信する�
 
 ## <a name="related-topics"></a>関連項目
 
--    [Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
+-    [Microsoft 365 または Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
 -    [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
 -    [クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
 -    [クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
