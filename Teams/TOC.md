@@ -660,6 +660,7 @@
 ### [医療関係組織向けテンプレートでTeamsを始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [医療組織向け Secure Messaging で Teams を始めましょう](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [メッセージの委任](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [ヘルスケア向けの Teams ポリシー パッケージ](policy-packages-healthcare.md)
 ### [患者アプリの概要](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [電子医療記録を Microsoft Teams に統合する](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 インターフェイスの仕様](expand-teams-across-your-org/healthcare/dstu2-interface.md)
