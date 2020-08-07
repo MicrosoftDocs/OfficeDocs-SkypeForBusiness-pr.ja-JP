@@ -1,7 +1,7 @@
 ---
 title: 30のチーム
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 7/1/19
 ms.service: msteams
@@ -19,18 +19,18 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6d721da9e2b5a722675c5026301435c65eac5a8
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 46e108db74324deef93b2306e1d0fda8a8c69ad3
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522491"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584106"
 ---
-# <a name="teams-in-30"></a><span data-ttu-id="1e281-103">30のチーム</span><span class="sxs-lookup"><span data-stu-id="1e281-103">Teams in 30</span></span>
+# <a name="teams-in-30"></a><span data-ttu-id="c1431-103">30のチーム</span><span class="sxs-lookup"><span data-stu-id="c1431-103">Teams in 30</span></span>
 <div id="main" class="v2">
     <div class="container">
-        <p><span data-ttu-id="1e281-104">Microsoft は、30日以内に、中央の組織 (500-5000 の従業員) を作成して実行するのに役立つように設計された、30日間の<strong>チーム</strong>に招待することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="1e281-104">Microsoft is excited to invite you to <strong>Teams in 30</strong>, a series of live, interactive workshops designed to help get mid-sized organizations (500-5000 employees) up and running with Microsoft Teams in as little as 30 days.</span></span> <span data-ttu-id="1e281-105">Microsoft に連絡して、時間をテストしたガイダンスとベストプラクティスを確認し、チームの質問に対する回答を得ます。</span><span class="sxs-lookup"><span data-stu-id="1e281-105">Join us to learn time-tested guidance and best practices and get your Teams questions answered.</span></span> <span data-ttu-id="1e281-106">また、ワークショップ参加者は、Teams のエキスパートを使って、オープン・ mic のオフィス時間に対する排他的な招待状を受け取ります。</span><span class="sxs-lookup"><span data-stu-id="1e281-106">Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.</span></span>
-           <p><span data-ttu-id="1e281-107"><font color="#6264A7">ジャンプの準備はできましたか?</font></span><span class="sxs-lookup"><span data-stu-id="1e281-107"><font color="#6264A7">Ready to jump in?</font></span></span> <span data-ttu-id="1e281-108">プロジェクトチームのメンバー全員が、 <i>30 セッションの Teams の使用</i>を開始することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="1e281-108">We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session.</span></span> <span data-ttu-id="1e281-109">サインアップするには、以下のセッションタイトルをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="1e281-109">Click a session title below to sign up.</span></span>
+        <p><span data-ttu-id="c1431-104">Microsoft は、30日以内に、中央の組織 (500-5000 の従業員) を作成して実行するのに役立つように設計された、30日間の<strong>チーム</strong>に招待することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="c1431-104">Microsoft is excited to invite you to <strong>Teams in 30</strong>, a series of live, interactive workshops designed to help get mid-sized organizations (500-5000 employees) up and running with Microsoft Teams in as little as 30 days.</span></span> <span data-ttu-id="c1431-105">Microsoft に連絡して、時間をテストしたガイダンスとベストプラクティスを確認し、チームの質問に対する回答を得ます。</span><span class="sxs-lookup"><span data-stu-id="c1431-105">Join us to learn time-tested guidance and best practices and get your Teams questions answered.</span></span> <span data-ttu-id="c1431-106">また、ワークショップ参加者は、Teams のエキスパートを使って、オープン・ mic のオフィス時間に対する排他的な招待状を受け取ります。</span><span class="sxs-lookup"><span data-stu-id="c1431-106">Workshop participants will also receive an exclusive invitation for open-mic office hours with a Teams expert.</span></span>
+           <p><span data-ttu-id="c1431-107"><font color="#6264A7">ジャンプの準備はできましたか?</font></span><span class="sxs-lookup"><span data-stu-id="c1431-107"><font color="#6264A7">Ready to jump in?</font></span></span> <span data-ttu-id="c1431-108">プロジェクトチームのメンバー全員が、 <i>30 セッションの Teams の使用</i>を開始することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="c1431-108">We encourage all members of your project team to start with the <i>Get Started with Teams in 30</i> session.</span></span> <span data-ttu-id="c1431-109">サインアップするには、以下のセッションタイトルをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="c1431-109">Click a session title below to sign up.</span></span>
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -43,9 +43,9 @@ ms.locfileid: "46522491"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><span data-ttu-id="1e281-110">30年の Teams の使用を開始する (ここから開始してください)</span><span class="sxs-lookup"><span data-stu-id="1e281-110">Get started with Teams in 30 (Start here!)</span></span></h3>
-                        <P><span data-ttu-id="1e281-111">右に30回でチームの作成を開始できます。</span><span class="sxs-lookup"><span data-stu-id="1e281-111">Start your Teams in 30 journey on the right foot.</span></span> <span data-ttu-id="1e281-112">プログラム、参加するユーザー、およびその成功を確保するために使用できるリソースについて説明します。</span><span class="sxs-lookup"><span data-stu-id="1e281-112">Understand the program, who should participate, and what resources you can use to ensure your success.</span></span></P>
-                        <p><span data-ttu-id="1e281-113"><i>対象ユーザー: ビジネススポンサー、IT 管理者、導入と変更の所有者</i></span><span class="sxs-lookup"><span data-stu-id="1e281-113"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
+                        <h3><span data-ttu-id="c1431-110">30年の Teams の使用を開始する (ここから開始してください)</span><span class="sxs-lookup"><span data-stu-id="c1431-110">Get started with Teams in 30 (Start here!)</span></span></h3>
+                        <P><span data-ttu-id="c1431-111">右に30回でチームの作成を開始できます。</span><span class="sxs-lookup"><span data-stu-id="c1431-111">Start your Teams in 30 journey on the right foot.</span></span> <span data-ttu-id="c1431-112">プログラム、参加するユーザー、およびその成功を確保するために使用できるリソースについて説明します。</span><span class="sxs-lookup"><span data-stu-id="c1431-112">Understand the program, who should participate, and what resources you can use to ensure your success.</span></span></P>
+                        <p><span data-ttu-id="c1431-113"><i>対象ユーザー: ビジネススポンサー、IT 管理者、導入と変更の所有者</i></span><span class="sxs-lookup"><span data-stu-id="c1431-113"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -63,8 +63,8 @@ ms.locfileid: "46522491"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><span data-ttu-id="1e281-114">エンド ユーザーを準備させる</span><span class="sxs-lookup"><span data-stu-id="1e281-114">Ready your end users</span></span></h3>
-                    <p><span data-ttu-id="1e281-115">Readying の戦略とリソースを確認して、ユーザーのニーズを把握し、チャンピオンの条件を構築し、チームのロールアウトのコアコンポーネントとしてユーザーの承認を確保します。</span><span class="sxs-lookup"><span data-stu-id="1e281-115">Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout.</span></span></p><p><span data-ttu-id="1e281-116"><i>対象ユーザー: 所有者の選定と変更</i></span><span class="sxs-lookup"><span data-stu-id="1e281-116"><i>Audience: Adoption and change owners</i></span></span></p>
+                        <h3><span data-ttu-id="c1431-114">エンド ユーザーを準備させる</span><span class="sxs-lookup"><span data-stu-id="c1431-114">Ready your end users</span></span></h3>
+                    <p><span data-ttu-id="c1431-115">Readying の戦略とリソースを確認して、ユーザーのニーズを把握し、チャンピオンの条件を構築し、チームのロールアウトのコアコンポーネントとしてユーザーの承認を確保します。</span><span class="sxs-lookup"><span data-stu-id="c1431-115">Discover strategies and resources for readying your users, building a contingent of champions, and ensuring user acceptance as a core component of your Teams rollout.</span></span></p><p><span data-ttu-id="c1431-116"><i>対象ユーザー: 所有者の選定と変更</i></span><span class="sxs-lookup"><span data-stu-id="c1431-116"><i>Audience: Adoption and change owners</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -82,8 +82,8 @@ ms.locfileid: "46522491"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3><span data-ttu-id="1e281-117">環境の準備-パート I</span><span class="sxs-lookup"><span data-stu-id="1e281-117">Prepare your environment - Part I</span></span></h3>
-                    <p><span data-ttu-id="1e281-118">チームのロールアウトの基盤を設定します。</span><span class="sxs-lookup"><span data-stu-id="1e281-118">Set the foundation for your Teams rollout.</span></span> <span data-ttu-id="1e281-119">チームの前提条件、ネットワーキングとセキュリティのベストプラクティス、共存ポリシー、分析とレポート、クライアントの配布に関する推奨事項を特定します。</span><span class="sxs-lookup"><span data-stu-id="1e281-119">Identify Teams prerequisites, networking and security best practices, coexistence policies, analytics and reporting, and client distribution recommendations.</span></span></p><p><span data-ttu-id="1e281-120"><i>対象ユーザー: IT 管理者</i></span><span class="sxs-lookup"><span data-stu-id="1e281-120"><i>Audience: IT admins</i></span></span></p>
+                    <h3><span data-ttu-id="c1431-117">環境の準備-パート I</span><span class="sxs-lookup"><span data-stu-id="c1431-117">Prepare your environment - Part I</span></span></h3>
+                    <p><span data-ttu-id="c1431-118">チームのロールアウトの基盤を設定します。</span><span class="sxs-lookup"><span data-stu-id="c1431-118">Set the foundation for your Teams rollout.</span></span> <span data-ttu-id="c1431-119">チームの前提条件、ネットワーキングとセキュリティのベストプラクティス、共存ポリシー、分析とレポート、クライアントの配布に関する推奨事項を特定します。</span><span class="sxs-lookup"><span data-stu-id="c1431-119">Identify Teams prerequisites, networking and security best practices, coexistence policies, analytics and reporting, and client distribution recommendations.</span></span></p><p><span data-ttu-id="c1431-120"><i>対象ユーザー: IT 管理者</i></span><span class="sxs-lookup"><span data-stu-id="c1431-120"><i>Audience: IT admins</i></span></span></p>
 </div>
                 </div>
             </div>
@@ -100,8 +100,8 @@ ms.locfileid: "46522491"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><span data-ttu-id="1e281-121">環境の準備-第2部</span><span class="sxs-lookup"><span data-stu-id="1e281-121">Prepare your environment - Part II</span></span></h3>
-                    <p><span data-ttu-id="1e281-122">これで基盤が整ったので、Teams のコンプライアンス、保持、ガバナンス、電話会議を実装するためのベストプラクティスについて理解しましょう。</span><span class="sxs-lookup"><span data-stu-id="1e281-122">Now that you've got the foundation in place, understand best practices for implementing compliance, retention, governance, and audio conferencing for Teams.</span></span></p><p><span data-ttu-id="1e281-123"><i>対象ユーザー: IT 管理者</i></span><span class="sxs-lookup"><span data-stu-id="1e281-123"><i>Audience: IT admins</i></span></span></p>
+                        <h3><span data-ttu-id="c1431-121">環境の準備-第2部</span><span class="sxs-lookup"><span data-stu-id="c1431-121">Prepare your environment - Part II</span></span></h3>
+                    <p><span data-ttu-id="c1431-122">これで基盤が整ったので、Teams のコンプライアンス、保持、ガバナンス、電話会議を実装するためのベストプラクティスについて理解しましょう。</span><span class="sxs-lookup"><span data-stu-id="c1431-122">Now that you've got the foundation in place, understand best practices for implementing compliance, retention, governance, and audio conferencing for Teams.</span></span></p><p><span data-ttu-id="c1431-123"><i>対象ユーザー: IT 管理者</i></span><span class="sxs-lookup"><span data-stu-id="c1431-123"><i>Audience: IT admins</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -119,9 +119,9 @@ ms.locfileid: "46522491"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3><span data-ttu-id="1e281-124">最適化と展開</span><span class="sxs-lookup"><span data-stu-id="1e281-124">Optimize and expand</span></span></h3>
-                    <p><span data-ttu-id="1e281-125">サービスのパフォーマンスの最適化、チーム機能の拡張、新規ユーザーのオンボードなどのプランを設計します。</span><span class="sxs-lookup"><span data-stu-id="1e281-125">Design a plan that includes optimizing service performance, expanding Teams capabilities, and onboarding new users.</span></span></p>
-                    <p><span data-ttu-id="1e281-126"><i>対象ユーザー: ビジネススポンサー、IT 管理者、導入と変更の所有者</i></span><span class="sxs-lookup"><span data-stu-id="1e281-126"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
+                    <h3><span data-ttu-id="c1431-124">最適化と展開</span><span class="sxs-lookup"><span data-stu-id="c1431-124">Optimize and expand</span></span></h3>
+                    <p><span data-ttu-id="c1431-125">サービスのパフォーマンスの最適化、チーム機能の拡張、新規ユーザーのオンボードなどのプランを設計します。</span><span class="sxs-lookup"><span data-stu-id="c1431-125">Design a plan that includes optimizing service performance, expanding Teams capabilities, and onboarding new users.</span></span></p>
+                    <p><span data-ttu-id="c1431-126"><i>対象ユーザー: ビジネススポンサー、IT 管理者、導入と変更の所有者</i></span><span class="sxs-lookup"><span data-stu-id="c1431-126"><i>Audience: Business sponsors, IT admins, adoption and change owners</i></span></span></p>
                     </div>
                 </div>
             </div>
@@ -139,10 +139,10 @@ ms.locfileid: "46522491"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3><span data-ttu-id="1e281-127">Teams のチョークの話</span><span class="sxs-lookup"><span data-stu-id="1e281-127">Teams Chalk Talks</span></span></h3>
-                    <p><span data-ttu-id="1e281-128">このオンラインインタラクティブワークショップは、分野の専門家によって推進されており、チームで最も一般的なシナリオと説得力のあるシナリオを中心に、ベストプラクティスと実用的なガイダンスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="1e281-128">Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</span></span> <span data-ttu-id="1e281-129">チョークの話は、基本的なチームのロールアウトを完了したことを前提としています。</span><span class="sxs-lookup"><span data-stu-id="1e281-129">Chalk Talks assume you've completed a basic Teams rollout.</span></span></p>
-                    <p><span data-ttu-id="1e281-130"><strong>前提条件</strong>: チームが30回参加する場合、または組織全体のチームに対して既に有効になっている場合。</span><span class="sxs-lookup"><span data-stu-id="1e281-130"><strong>Prerequisite</strong>: Teams in 30 workshop attendance OR already enabled for Teams across your organization.</span></span></p>
-                    <p><span data-ttu-id="1e281-131"><i>対象ユーザー: IT 管理者</i></span><span class="sxs-lookup"><span data-stu-id="1e281-131"><i>Audience: IT admins</i></span></span></p>
+                    <h3><span data-ttu-id="c1431-127">Teams のチョークの話</span><span class="sxs-lookup"><span data-stu-id="c1431-127">Teams Chalk Talks</span></span></h3>
+                    <p><span data-ttu-id="c1431-128">このオンラインインタラクティブワークショップは、分野の専門家によって推進されており、チームで最も一般的なシナリオと説得力のあるシナリオを中心に、ベストプラクティスと実用的なガイダンスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="c1431-128">Facilitated by subject matter experts, these online interactive workshops provide a unique opportunity to learn best practices and practical guidance around some of the most popular and compelling scenarios in Teams.</span></span> <span data-ttu-id="c1431-129">チョークの話は、基本的なチームのロールアウトを完了したことを前提としています。</span><span class="sxs-lookup"><span data-stu-id="c1431-129">Chalk Talks assume you've completed a basic Teams rollout.</span></span></p>
+                    <p><span data-ttu-id="c1431-130"><strong>前提条件</strong>: チームが30回参加する場合、または組織全体のチームに対して既に有効になっている場合。</span><span class="sxs-lookup"><span data-stu-id="c1431-130"><strong>Prerequisite</strong>: Teams in 30 workshop attendance OR already enabled for Teams across your organization.</span></span></p>
+                    <p><span data-ttu-id="c1431-131"><i>対象ユーザー: IT 管理者</i></span><span class="sxs-lookup"><span data-stu-id="c1431-131"><i>Audience: IT admins</i></span></span></p>
                     </div>
                 </div>
             </div>

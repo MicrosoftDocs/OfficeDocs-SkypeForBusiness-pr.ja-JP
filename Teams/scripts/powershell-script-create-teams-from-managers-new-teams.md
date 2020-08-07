@@ -1,7 +1,7 @@
 ---
 title: PowerShell スクリプトのサンプル-新しい people manager teams を作成する
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd7f638d8023595de3f3526376e3ce46c37dcff2
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 1f17ccf2372b10d8b0a14e4259faf9db22fc72ce
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951032"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583114"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="0d380-103">PowerShell スクリプトのサンプル-新しい people manager teams を作成する</span><span class="sxs-lookup"><span data-stu-id="0d380-103">PowerShell script sample - Create new people manager teams</span></span>
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="cceb8-103">PowerShell スクリプトのサンプル-新しい people manager teams を作成する</span><span class="sxs-lookup"><span data-stu-id="cceb8-103">PowerShell script sample - Create new people manager teams</span></span>
 
-<span data-ttu-id="0d380-104">この PowerShell スクリプトを使用して、チームメンバーとしての指示を持つ、各マネージャーのチームを作成します。</span><span class="sxs-lookup"><span data-stu-id="0d380-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="0d380-105">このスクリプトを実行する前に、エクスポート[マネージャー](powershell-script-create-teams-from-managers-export-managers.md)スクリプトを実行して (Active Directory から)、組織の管理者とその指示のリストをエクスポートします。</span><span class="sxs-lookup"><span data-stu-id="0d380-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
+<span data-ttu-id="cceb8-104">この PowerShell スクリプトを使用して、チームメンバーとしての指示を持つ、各マネージャーのチームを作成します。</span><span class="sxs-lookup"><span data-stu-id="cceb8-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="cceb8-105">このスクリプトを実行する前に、エクスポート[マネージャー](powershell-script-create-teams-from-managers-export-managers.md)スクリプトを実行して (Active Directory から)、組織の管理者とその指示のリストをエクスポートします。</span><span class="sxs-lookup"><span data-stu-id="cceb8-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
 
-<span data-ttu-id="0d380-106">この PowerShell スクリプトの詳細については、「 [people manager teams を作成](../create-manager-directs-teams.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0d380-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="cceb8-106">この PowerShell スクリプトの詳細については、「 [people manager teams を作成](../create-manager-directs-teams.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cceb8-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="0d380-107">PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="0d380-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="cceb8-107">PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="cceb8-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="create-new-people-manager-teams"></a><span data-ttu-id="0d380-108">新しい people manager teams を作成する</span><span class="sxs-lookup"><span data-stu-id="0d380-108">Create new people manager teams</span></span> 
+## <a name="create-new-people-manager-teams"></a><span data-ttu-id="cceb8-108">新しい people manager teams を作成する</span><span class="sxs-lookup"><span data-stu-id="cceb8-108">Create new people manager teams</span></span> 
 
 ```powershell
 <# 

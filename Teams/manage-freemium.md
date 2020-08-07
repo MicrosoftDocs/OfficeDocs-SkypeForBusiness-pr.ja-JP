@@ -1,7 +1,7 @@
 ---
 title: 無料版の Microsoft Teams を管理する
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,32 +19,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d8c8246ef635f860b5cc601613faf5ef1663726
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 7bfd1e9ece85ff6bc5bce0791e1e82225894fdd1
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028133"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583856"
 ---
-<a name="manage-the-free-version-of-microsoft-teams"></a><span data-ttu-id="1e64f-103">無料版の Microsoft Teams を管理する</span><span class="sxs-lookup"><span data-stu-id="1e64f-103">Manage the free version of Microsoft Teams</span></span>
+<a name="manage-the-free-version-of-microsoft-teams"></a><span data-ttu-id="20551-103">無料版の Microsoft Teams を管理する</span><span class="sxs-lookup"><span data-stu-id="20551-103">Manage the free version of Microsoft Teams</span></span>
 ==========================================
 
-<span data-ttu-id="1e64f-104">Microsoft Teams の無料バージョンでは、組織に最初にサインアップしたユーザーには、制限された管理者の役割があります。</span><span class="sxs-lookup"><span data-stu-id="1e64f-104">In the free version of Microsoft Teams, the first person who signs up in your organization has a limited admin role.</span></span> <span data-ttu-id="1e64f-105">この制限された役割を持つユーザーは、チームメンバーの追加と削除、他のメンバーの招待を許可するかどうかの指定を行うことができます。このユーザーには、高度な管理機能はなく、Microsoft Teams 管理センターへのアクセスはありません。</span><span class="sxs-lookup"><span data-stu-id="1e64f-105">The person who has this limited role can add and remove team members and specify whether anyone can invite additional members, but this user has no advanced administrative capabilities and no access to the Microsoft Teams admin center.</span></span> <span data-ttu-id="1e64f-106">詳細については、「 [Teams (無料版) にユーザーを招待する](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e64f-106">To learn more, read [Invite people to Teams (free)](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463).</span></span>
+<span data-ttu-id="20551-104">Microsoft Teams の無料バージョンでは、組織に最初にサインアップしたユーザーには、制限された管理者の役割があります。</span><span class="sxs-lookup"><span data-stu-id="20551-104">In the free version of Microsoft Teams, the first person who signs up in your organization has a limited admin role.</span></span> <span data-ttu-id="20551-105">この制限された役割を持つユーザーは、チームメンバーの追加と削除、他のメンバーの招待を許可するかどうかの指定を行うことができます。このユーザーには、高度な管理機能はなく、Microsoft Teams 管理センターへのアクセスはありません。</span><span class="sxs-lookup"><span data-stu-id="20551-105">The person who has this limited role can add and remove team members and specify whether anyone can invite additional members, but this user has no advanced administrative capabilities and no access to the Microsoft Teams admin center.</span></span> <span data-ttu-id="20551-106">詳細については、「 [Teams (無料版) にユーザーを招待する](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="20551-106">To learn more, read [Invite people to Teams (free)](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463).</span></span>
 
-<span data-ttu-id="1e64f-107">強化された管理機能など、チームのすべての機能を利用するには、適切な Microsoft 365 または Office 365 のサブスクリプションプランをユーザー向けに購入して、[完全なバージョンの teams にアップグレード](upgrade-freemium.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1e64f-107">To get the full set of Teams features, including enhanced administration, you'll need to [upgrade to the full version of Teams](upgrade-freemium.md) by purchasing an appropriate Microsoft 365 or Office 365 subscription plan for your users.</span></span> 
+<span data-ttu-id="20551-107">強化された管理機能など、チームのすべての機能を利用するには、適切な Microsoft 365 または Office 365 のサブスクリプションプランをユーザー向けに購入して、[完全なバージョンの teams にアップグレード](upgrade-freemium.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="20551-107">To get the full set of Teams features, including enhanced administration, you'll need to [upgrade to the full version of Teams](upgrade-freemium.md) by purchasing an appropriate Microsoft 365 or Office 365 subscription plan for your users.</span></span> 
 
-<span data-ttu-id="1e64f-108">チームのバージョンとその機能の詳細については、「[チームの計画を比較](https://products.office.com/microsoft-teams/free)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e64f-108">To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).</span></span>
+<span data-ttu-id="20551-108">チームのバージョンとその機能の詳細については、「[チームの計画を比較](https://products.office.com/microsoft-teams/free)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="20551-108">To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).</span></span>
 
 
 
-## <a name="more-information"></a><span data-ttu-id="1e64f-109">詳細情報</span><span class="sxs-lookup"><span data-stu-id="1e64f-109">More information</span></span>
+## <a name="more-information"></a><span data-ttu-id="20551-109">詳細情報</span><span class="sxs-lookup"><span data-stu-id="20551-109">More information</span></span>
 
-- <span data-ttu-id="1e64f-110">Teams と Teams の相違点の概要については、「 [Microsoft teams と Microsoft teams の相違点](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e64f-110">For a quick summary of the differences between Teams and Teams free, see [Differences between Microsoft Teams and Microsoft Teams free](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c).</span></span> 
-- <span data-ttu-id="1e64f-111">Teams のフルバージョンへのアップグレードの詳細については、「無料の teams[から teams にアップグレード](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39)する」および「 [Microsoft teams をサブスクリプション版にアップグレードする](upgrade-freemium.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e64f-111">For more information about upgrading to the full version of Teams, see [Upgrade from Teams free to Teams](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) and [Upgrade Microsoft Teams free to subscription version](upgrade-freemium.md).</span></span>
-- <span data-ttu-id="1e64f-112">ユーザーのアップグレードに関連する追加の管理タスク (ユーザーライセンスの追加、ユーザー名の変更、一時パスワードの割り当てなど) の使用を開始するには、「[管理者がチームの無料アップグレードを有料のサブスクリプションにアップグレードする](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e64f-112">To get started with additional admin tasks associated with upgrading users, including adding user licenses, changing user names, and assigning temporary passwords, see [For admins upgrading from Teams free to a paid subscription](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52).</span></span>
+- <span data-ttu-id="20551-110">Teams と Teams の相違点の概要については、「 [Microsoft teams と Microsoft teams の相違点](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="20551-110">For a quick summary of the differences between Teams and Teams free, see [Differences between Microsoft Teams and Microsoft Teams free](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c).</span></span> 
+- <span data-ttu-id="20551-111">Teams のフルバージョンへのアップグレードの詳細については、「無料の teams[から teams にアップグレード](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39)する」および「 [Microsoft teams をサブスクリプション版にアップグレードする](upgrade-freemium.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="20551-111">For more information about upgrading to the full version of Teams, see [Upgrade from Teams free to Teams](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) and [Upgrade Microsoft Teams free to subscription version](upgrade-freemium.md).</span></span>
+- <span data-ttu-id="20551-112">ユーザーのアップグレードに関連する追加の管理タスク (ユーザーライセンスの追加、ユーザー名の変更、一時パスワードの割り当てなど) の使用を開始するには、「[管理者がチームの無料アップグレードを有料のサブスクリプションにアップグレードする](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="20551-112">To get started with additional admin tasks associated with upgrading users, including adding user licenses, changing user names, and assigning temporary passwords, see [For admins upgrading from Teams free to a paid subscription](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52).</span></span>
 
-## <a name="get-the-right-teams-trial"></a><span data-ttu-id="1e64f-113">適切なチームの試用版を入手する</span><span class="sxs-lookup"><span data-stu-id="1e64f-113">Get the right Teams trial</span></span>
+## <a name="get-the-right-teams-trial"></a><span data-ttu-id="20551-113">適切なチームの試用版を入手する</span><span class="sxs-lookup"><span data-stu-id="20551-113">Get the right Teams trial</span></span>
 
-- <span data-ttu-id="1e64f-114">無料の Teams の代わりとして、 [teams の探索](teams-exploratory.md)機能を確認します。</span><span class="sxs-lookup"><span data-stu-id="1e64f-114">As an alternative to Teams Free, check out [Teams Exploratory](teams-exploratory.md).</span></span>
+- <span data-ttu-id="20551-114">無料の Teams の代わりとして、 [teams の探索](teams-exploratory.md)機能を確認します。</span><span class="sxs-lookup"><span data-stu-id="20551-114">As an alternative to Teams Free, check out [Teams Exploratory](teams-exploratory.md).</span></span>
 
-- <span data-ttu-id="1e64f-115">EDU のお客様は、無料の[Office 365 A1 ライセンス](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1e64f-115">EDU customers should use the free [Office 365 A1 license](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).</span></span>
+- <span data-ttu-id="20551-115">EDU のお客様は、無料の[Office 365 A1 ライセンス](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)を使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="20551-115">EDU customers should use the free [Office 365 A1 license](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).</span></span>
