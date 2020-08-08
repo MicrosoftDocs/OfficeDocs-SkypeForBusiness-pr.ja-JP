@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の通信のコンプライアンス
+title: Microsoft Teams への通信のコンプライアンス
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -16,48 +16,57 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01d9906044fe0ea8472cd8bb2ba8ccf247cdbeb9
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121697"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597151"
 ---
-# <a name="communication-compliance-for-microsoft-teams"></a>Microsoft Teams の通信のコンプライアンス
+# <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams への通信のコンプライアンス
 
-通信のコンプライアンスは、Microsoft 365 で強化された新しい insider リスクソリューションの一部であり、組織内の不適切なメッセージに対する修復措置を検出、キャプチャし、解決するのに役立ちます。 チームチャネルまたは1:1 やグループチャットで不快感を持たせたり、嫌がらせをしたりすることができます。 また、ポリシーを設定して、機密情報がチームチャネルまたは1:1 とグループチャットの一部として共有されているかどうかを確認することもできます。 さまざまな種類のポリシーとその設定方法の詳細については、 [「M365 の記事](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)を参照してください。
+通信のコンプライアンスは、Microsoft 365 の insider のリスクソリューションであり、組織内の不適切なメッセージの検出、キャプチャ、および操作を支援することで、コミュニケーションのリスクを最小限に抑えることができます。
 
-## <a name="how-to-use-communication-compliance-in-teams"></a>Teams で通信のコンプライアンスを使用する方法
+Microsoft Teams では、コミュニケーションのコンプライアンスは、チームチャネルまたは1:1 およびグループチャットで[次の種類](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference)の不適切なコンテンツを特定するのに役立ちます。
 
-### <a name="identify-inappropriate-messages"></a>不適切なメッセージを特定する
+- 不快感を持つ、欠い、嫌がらせの言葉
+- アダルト、racy、gory の画像
+- 機密情報の共有
 
-Microsoft Teams で送信されたメッセージ (1:1、グループチャット、またはチャネルの会話) を特定したい場合は、ポリシーを有効にして確認することができます。また、レビュー担当者は、メッセージを確認して、トレーニング資料を送信したり、適切な措置をとるなどの必要な手順を実行することができます。
+>[!IMPORTANT]
+>プライベートな Microsoft Teams チャネルは、通信のコンプライアンスによってサポートされていません。 ゲストユーザーによって送信されたチャット通信は、不適切なコンテンツについては監視されません。
 
-### <a name="identify-sensitive-or-regulatory-information"></a>機密情報または規制情報を特定する
+通信のコンプライアンスと組織のポリシーの構成方法の詳細については、「 [Microsoft 365 での通信のコンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)」を参照してください。
 
-Microsoft Teams (1:1、グループチャット、またはチャネルでの会話) で送信されたメッセージを、機密情報や規制の種類に対してスキャンする場合は、事前に定義された機密または規制の種類をサポートするポリシーを選ぶことができます。
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Microsoft Teams で通信のコンプライアンスを使用する方法
 
-> [!NOTE]
-> プライベートチャネルは、通信のコンプライアンスによってサポートされていません。
+コミュニケーションのコンプライアンスと Microsoft Teams は密接に統合されており、組織の通信リスクを最小限に抑えることができます。 最初の通信のコンプライアンスポリシーを構成した後は、不適切な Microsoft Teams のメッセージやコンテンツが自動的に通知に表示されるように管理できます。
 
-### <a name="custom-policy"></a>カスタムポリシー
+### <a name="getting-started"></a>はじめに
 
-このテンプレートを使用して、特定の通信チャネル、個々の検出条件、組織内で監視およびレビューするコンテンツの量を構成します。
+Microsoft Teams での通信の概要については、「チームチャネルまたは1:1 およびグループで不適切なユーザーのアクティビティを特定するための事前定義済みまたはカスタムポリシーの[計画](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan)と作成」をご覧ください。 構成プロセスの一部として、一部の権限と基本的な前提条件を[構成](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure)する必要があることに注意してください。
 
-### <a name="custom-trainable-classifier"></a>Custom Trainable クラシファイア
+チーム管理者は、次のレベルで通信コンプライアンスポリシーを構成できます。
 
-Box 分類子のいずれかが目的に合わない場合は、trainable 分類子を使います。 Microsoft 365 分類子は、さまざまな種類のコンテンツを認識できるようにトレーニングするためのツールです。 分類子のトレーニングでは、最初に、ユーザーが選択してカテゴリに対してプラスのサンプルを提供する必要があります。 次に、これらのサンプルを処理した後、正と負の標本の組み合わせを指定して予測をテストします。 詳細については、このトピックの詳細については、 [M365 の記事](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier)を参照してください。
+- **ユーザーレベル**: このレベルのポリシーは、個々の teams ユーザーに適用されるか、組織内のすべての teams ユーザーに適用される可能性があります。 これらのポリシーでは、これらのユーザが1:1 またはグループチャットで送信する可能性のあるメッセージを対象としています。 ユーザーのチャットは、ユーザーがメンバーになっているすべての Microsoft Teams で自動的に監視されます。
+- **チームレベル**: このレベルのポリシーは、Microsoft チームチャネルに適用されます。 これらのポリシーには、Teams チャネルでのみ送信されたメッセージが含まれています。
 
-> [!NOTE]
-> 通信コンプライアンスが Exchange ハイブリッド展開をサポートするようになりました。
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Microsoft Teams で不適切なメッセージに対処する
 
-通信のコンプライアンスは、ポリシーに一致するすべてのメッセージの会話履歴をサポートします。 これにより、調査管理者にコンテキストが提供されます。
+ポリシーを構成して、Microsoft Teams メッセージの通信のコンプライアンス警告を受信した後は、組織のコンプライアンスレビュー担当者がこれらのメッセージに対処する時間です。 レビュー担当者は、通信コンプライアンスの警告を確認し、Microsoft Teams のビューからフラグ付きのメッセージを削除することで、組織を保護することができます。
 
-:::image type="content" source="media/communication-compliance-1.png" alt-text="Microsoft Teams での通信のコンプライアンスのための画面。":::
+![Teams でメッセージを削除する](./media/communication-compliance-remove-teams-message.png)
 
-## <a name="where-communication-policies-can-be-applied-in-teams"></a>チームで通信ポリシーを適用できる場所
+削除されたメッセージとコンテンツは、メッセージまたはコンテンツが削除されたこと、および削除に適用できるポリシーを説明する通知に置き換えられます。 削除されたメッセージまたはコンテンツの送信者は、削除の状態についても通知され、削除に関連するコンテキストについて元のメッセージコンテンツが提供されます。 また、送信者は、メッセージの削除に適用される特定のポリシー条件を表示することもできます。
 
-通信コンプライアンスポリシーをセットアップして、Teams で送信されたメッセージを次のレベルで設定することができます。
+送信者に表示されるポリシーヒントの例:
 
-- ユーザーレベル: 管理者は、個々のユーザーレベルでポリシーを設定したり、テナントのすべてのユーザーに適用したりすることができます。 これは、ユーザーが1:1 またはグループチャットで送信したメッセージのみを対象とします。
-- チームレベル: 管理者は、チームでポリシーを設定することもできます。 これにより、そのチームのチャネルで送信されたすべてのメッセージ (プライベートチャネルメッセージはサポートされません) が対象となります。
+![送信者のポリシーヒント](./media/communication-compliance-warning-1.png)
+
+送信者に表示されるポリシー条件通知の例:
+
+![送信者のポリシー条件情報](./media/communication-compliance-warning-2.png)
+
+受信者に表示されるポリシーヒントの例:
+
+![受信者のポリシーヒント](./media/communication-compliance-warning-3.png)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028163"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597117"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "45028163"
 
 仮想デスクトップ インフラストラクチャ (VDI) は、データセンターの集中サーバーでデスクトップ オペレーティング システムとアプリケーションをホストする仮想化テクノロジです。 これにより、完全に保護され、準拠し一元化されたソースとともに、ユーザーに完全に個人用に設定されたデスクトップ エクスペリエンスを提供します。
 
-仮想環境での Microsoft Teams では、チャットとコラボレーションがサポートされています。 また、Citrix プラットフォームでは、通話と会議機能もサポートされています。
+仮想環境での Microsoft Teams では、チャットとコラボレーションがサポートされています。 また、Windows 仮想デスクトップまたは Citrix プラットフォームでは、通話と会議機能もサポートされます。
 
 仮想化環境の Teams は、複数の構成をサポートしています。 これには、VDI、専用、共有、永続的、非永続的モードが含まれます。 機能は継続的に開発され、定期的に追加されます。機能は今後数か月または数年で拡張されます。
 
@@ -54,15 +54,20 @@ ms.locfileid: "45028163"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 市場プロバイダーが複数ある場合は、最小要件を満たしていることを確認するために、仮想化ソリューションプロバイダーに問い合わせることをお勧めします。
   
-現在、オーディオ/ビデオ (AV) 最適化を備えた VDI 上の Teams は、Citrix で認定されています。 このセクションの情報を確認して、Citrix と Teams の両方の要件が適切に機能することを確認します。
+現時点では、AV (音声/ビデオ (AV) 最適化による VDI 上の Teams は、Windows 仮想デスクトップと Citrix で認定されています。 このセクションの情報を確認して、適切な機能の要件をすべて満たしていることを確認します。
 
-### <a name="partners-certified-for-teams"></a>Teams 認定パートナー
+### <a name="platforms-certified-for-teams"></a>Teams で認定したプラットフォーム
 
-次のパートナーには、Teams 用の仮想デスクトップ インフラストラクチャ ソリューションがあります。
+次のプラットフォームには、Teams 向けの仮想デスクトップインフラストラクチャソリューションがあります。
 
-|パートナー|パートナー ソリューション|
+|プラットフォーム|ソリューション|
 |----|---|
-|![Citrix を表すロゴ](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
+|![Microsoft を表すロゴ](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows 仮想デスクトップ</a> |
+|![Citrix を表すロゴ](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
+
+### <a name="windows-virtual-desktop"></a>Windows 仮想デスクトップ
+
+Windows 仮想デスクトップでは、VDI 上の Teams に AV の最適化が提供されています。 詳細と要件とインストールの詳細については、「 [Windows 仮想デスクトップで Teams を使用](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)する」を参照してください。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops の要件
 
@@ -270,7 +275,7 @@ DisallowCalling の通話ポリシーと割り当てをユーザーに割り当�
 1. Microsoft Teams 管理センターの左側のナビゲーションで、割り当てるポリシーに移動します。 次に例を示します。
     - [**音声**]  >  [**通話ポリシー**] の順に移動し、[**DisallowCalling**] をクリックします。
     - [**会議**]  >  [**会議ポリシー**] の順に移動し、[**AllOff**] をクリックします。
-2. **[ユーザーを管理する]** を選択します。
+2. [**ユーザーを管理する**] を選択します。
 3. [**ユーザーを管理する**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。
 4. ユーザーの追加が完了したら、[**保存**] をクリックします。
 
@@ -360,19 +365,19 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 ### <a name="calling-and-meetings"></a>通話と会議
 
 - Skype for Business の相互運用性は音声通話に限定されます。ビデオのモダリティはありません。
-- デュアルトーンマルチ周波数 (DTMF) テレフォニーシステムとの相互操作は、現在サポートされていません。
 - 匿名ユーザーとしての Teams 会議への参加については、AV 最適化されていません。 ユーザーは会議に参加でき、最適化されていないエクスペリエンスを経験します。
 - 会議またはグループ通話では、単一の着信ビデオ ストリームのみがサポートされます。 複数のユーザーがビデオを送信する場合、常に主要な発表者のビデオのみが表示されます。
 - 受信および送信ビデオ ストリームの解像度は、720p に制限されています。 これは WebRTC の制限です。
 - 受信カメラまたは画面共有ストリームからの 1 つのビデオ ストリームのみがサポートされます。 着信画面が表示されている場合は、その画面共有が、主要なスピーカーのビデオではなく、表示されます。
 - 送信画面の共有:
-    - チャットからの画面共有はサポートされていません。
     - アプリケーションの共有はサポートされていません。
 - 制御の受け渡し:
     - 画面共有またはアプリケーション共有セッション中はサポートされていません。
     - PowerPoint 共有セッション中はサポートされます。
-- マルチモニター設定での画面共有の場合、メイン モニターのみ共有されます。
-- CWA での高 DPI スケーリングはサポートされていません。
+- Citrix のみの制限
+    - デュアルトーンマルチ周波数 (DTMF) テレフォニーシステムとの相互操作は、現在サポートされていません。
+    - マルチモニター設定での画面共有の場合、メイン モニターのみ共有されます。
+    - CWA での高 DPI スケーリングはサポートされていません。
 
 VDI に関連していない Teams の既知の問題については、「[組織のサポートチーム](Known-issues.md)」をご覧ください。
 

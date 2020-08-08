@@ -16,12 +16,12 @@ description: この記事では、Microsoft Teams の情報障壁の概要と、
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
+ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572382"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592911"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -167,12 +167,12 @@ Enrico は、グループチャットにメッセージを送信することは�
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams のポリシーと SharePoint サイト
 
-チームを作成すると、SharePoint サイトがプロビジョニングされ、ファイルエクスペリエンスのチームに関連付けられます。 この SharePoint サイトやファイルへのアクセスには、組織の IB のポリシーが適用されます。つまり、ib セグメントを持つユーザーのみがアクセスを許可します。 ファイル共有の時点でも、IB ポリシーは受け入れられます。
+チームを作成すると、SharePoint サイトがプロビジョニングされ、ファイルエクスペリエンスのために Microsoft Teams と関連付けられます。 既定では、この SharePoint サイトとファイルに関する情報バリアポリシーは無視されます。 情報バリアポリシーを有効にするには、管理者が既にフォームに入力しており、その IB ポリシーが SharePoint と OneDrive で有効になっていることを要求しています (「[情報バリア](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)」の*前提条件*セクションを参照してください)。 SharePoint と OneDrive で情報バリアポリシーが有効になっている場合は、Microsoft Teams でチームを作成したときに、そのサービスがプロビジョニングされている SharePoint サイトで、IB ポリシーが機能します。
 
-たとえば、Contoso Bank corporation では、ユーザー ' Sesha@contosobank.onmicrosoft.com ' は投資銀行取引セグメントに属し、ユーザー ' Nikita@contosobank.onmicrosoft.com ' はセグメント勧告に属しています。 この2つのセグメント間の通信とコラボレーションは、組織の IB ポリシーによってブロックされます。
+**チームの SharePoint サイト上の IB ポリシーの例**: Contoso Bank corporation では、ユーザー ' Sesha@contosobank.onmicrosoft.com ' は投資銀行取引セグメントに属し、ユーザー ' Nikita@contosobank.onmicrosoft.com ' はセグメント勧告に属しています。 この2つのセグメント間の通信とコラボレーションは、組織の IB ポリシーによってブロックされます。
 ユーザーが、投資銀行取引先のチームを作成すると、そのチームとそれをバックアップした SharePoint サイトにアクセスできるのは、投資銀行セグメントのユーザーのみになります。 ユーザー Nikita は、サイトリンクを持っている場合でも、そのサイトにアクセスすることはできません。
 
-詳細について[は、ここ](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)をクリックしてください。
+詳細については、[情報障壁](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)の記事を参照してください。
 
 ## <a name="required-licenses-and-permissions"></a>必要なライセンスと権限
 
