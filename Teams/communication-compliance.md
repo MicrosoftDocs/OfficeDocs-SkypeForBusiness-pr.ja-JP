@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の通信のコンプライアンス
+title: Microsoft Teams への通信のコンプライアンス
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -16,48 +16,57 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01d9906044fe0ea8472cd8bb2ba8ccf247cdbeb9
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121697"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597151"
 ---
-# <a name="communication-compliance-for-microsoft-teams"></a><span data-ttu-id="9c782-103">Microsoft Teams の通信のコンプライアンス</span><span class="sxs-lookup"><span data-stu-id="9c782-103">Communication compliance for Microsoft Teams</span></span>
+# <a name="communication-compliance-with-microsoft-teams"></a><span data-ttu-id="6bdb7-103">Microsoft Teams への通信のコンプライアンス</span><span class="sxs-lookup"><span data-stu-id="6bdb7-103">Communication compliance with Microsoft Teams</span></span>
 
-<span data-ttu-id="9c782-104">通信のコンプライアンスは、Microsoft 365 で強化された新しい insider リスクソリューションの一部であり、組織内の不適切なメッセージに対する修復措置を検出、キャプチャし、解決するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="9c782-104">Communication compliance is part of the new insider risk solution set in Microsoft 365 that helps minimize communication risks by helping you detect, capture, and take remediation actions for inappropriate messages in your organization.</span></span> <span data-ttu-id="9c782-105">チームチャネルまたは1:1 やグループチャットで不快感を持たせたり、嫌がらせをしたりすることができます。</span><span class="sxs-lookup"><span data-stu-id="9c782-105">It helps in identifying Offensive language and anti-harassment in Team Channels or 1:1 and Group chats.</span></span> <span data-ttu-id="9c782-106">また、ポリシーを設定して、機密情報がチームチャネルまたは1:1 とグループチャットの一部として共有されているかどうかを確認することもできます。</span><span class="sxs-lookup"><span data-stu-id="9c782-106">You can also set policies to see if any Sensitive information is being shared as part of Team channels or 1:1 and Group chats.</span></span> <span data-ttu-id="9c782-107">さまざまな種類のポリシーとその設定方法の詳細については、 [「M365 の記事](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9c782-107">For more information on different types of policies and how to set up refer to the [M365 article](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).</span></span>
+<span data-ttu-id="6bdb7-104">通信のコンプライアンスは、Microsoft 365 の insider のリスクソリューションであり、組織内の不適切なメッセージの検出、キャプチャ、および操作を支援することで、コミュニケーションのリスクを最小限に抑えることができます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-104">Communication compliance is an insider risk solution in Microsoft 365 that helps minimize communication risks by helping you detect, capture, and act on inappropriate messages in your organization.</span></span>
 
-## <a name="how-to-use-communication-compliance-in-teams"></a><span data-ttu-id="9c782-108">Teams で通信のコンプライアンスを使用する方法</span><span class="sxs-lookup"><span data-stu-id="9c782-108">How to use communication compliance in Teams</span></span>
+<span data-ttu-id="6bdb7-105">Microsoft Teams では、コミュニケーションのコンプライアンスは、チームチャネルまたは1:1 およびグループチャットで[次の種類](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference)の不適切なコンテンツを特定するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-105">For Microsoft Teams, communication compliance helps identify the [following types](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) of inappropriate content in Teams channels or in 1:1 and group chats:</span></span>
 
-### <a name="identify-inappropriate-messages"></a><span data-ttu-id="9c782-109">不適切なメッセージを特定する</span><span class="sxs-lookup"><span data-stu-id="9c782-109">Identify inappropriate messages</span></span>
+- <span data-ttu-id="6bdb7-106">不快感を持つ、欠い、嫌がらせの言葉</span><span class="sxs-lookup"><span data-stu-id="6bdb7-106">Offensive, profane, and harassing language</span></span>
+- <span data-ttu-id="6bdb7-107">アダルト、racy、gory の画像</span><span class="sxs-lookup"><span data-stu-id="6bdb7-107">Adult, racy, and gory images</span></span>
+- <span data-ttu-id="6bdb7-108">機密情報の共有</span><span class="sxs-lookup"><span data-stu-id="6bdb7-108">Sharing of sensitive information</span></span>
 
-<span data-ttu-id="9c782-110">Microsoft Teams で送信されたメッセージ (1:1、グループチャット、またはチャネルの会話) を特定したい場合は、ポリシーを有効にして確認することができます。また、レビュー担当者は、メッセージを確認して、トレーニング資料を送信したり、適切な措置をとるなどの必要な手順を実行することができます。</span><span class="sxs-lookup"><span data-stu-id="9c782-110">If you want to identify any messages that are sent in Microsoft Teams (1:1, Group Chats or Channel conversations) contain Offensive Language or anti-harassment, you can enable policies to identify this and the reviewer can look into the messages and take necessary steps like sending training material or escalate to the right authorities.</span></span>
+>[!IMPORTANT]
+><span data-ttu-id="6bdb7-109">プライベートな Microsoft Teams チャネルは、通信のコンプライアンスによってサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-109">Private Microsoft Teams channels are not supported by communication compliance.</span></span> <span data-ttu-id="6bdb7-110">ゲストユーザーによって送信されたチャット通信は、不適切なコンテンツについては監視されません。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-110">Chat communications sent by guest users to Teams users aren't monitored for inappropriate content.</span></span>
 
-### <a name="identify-sensitive-or-regulatory-information"></a><span data-ttu-id="9c782-111">機密情報または規制情報を特定する</span><span class="sxs-lookup"><span data-stu-id="9c782-111">Identify sensitive or Regulatory information</span></span>
+<span data-ttu-id="6bdb7-111">通信のコンプライアンスと組織のポリシーの構成方法の詳細については、「 [Microsoft 365 での通信のコンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-111">For more information on communication compliance and how to configure policies for your organization, see [Communication compliance in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).</span></span>
 
-<span data-ttu-id="9c782-112">Microsoft Teams (1:1、グループチャット、またはチャネルでの会話) で送信されたメッセージを、機密情報や規制の種類に対してスキャンする場合は、事前に定義された機密または規制の種類をサポートするポリシーを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="9c782-112">If you want to scan messages sent in Microsoft Teams (1:1, Group Chats or Channel conversations) for sensitive information or regulatory types, you can choose policies that support predefined sensitive or regulatory types.</span></span>
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a><span data-ttu-id="6bdb7-112">Microsoft Teams で通信のコンプライアンスを使用する方法</span><span class="sxs-lookup"><span data-stu-id="6bdb7-112">How to use communication compliance in Microsoft Teams</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="9c782-113">プライベートチャネルは、通信のコンプライアンスによってサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="9c782-113">Private channels are not supported by communication compliance.</span></span>
+<span data-ttu-id="6bdb7-113">コミュニケーションのコンプライアンスと Microsoft Teams は密接に統合されており、組織の通信リスクを最小限に抑えることができます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-113">Communication compliance and Microsoft Teams are tightly integrated and can help minimize communication risks in your organization.</span></span> <span data-ttu-id="6bdb7-114">最初の通信のコンプライアンスポリシーを構成した後は、不適切な Microsoft Teams のメッセージやコンテンツが自動的に通知に表示されるように管理できます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-114">After you've configured your first communication compliance policies, you can actively manage inappropriate Microsoft Teams messages and content that is automatically flagged in alerts.</span></span>
 
-### <a name="custom-policy"></a><span data-ttu-id="9c782-114">カスタムポリシー</span><span class="sxs-lookup"><span data-stu-id="9c782-114">Custom Policy</span></span>
+### <a name="getting-started"></a><span data-ttu-id="6bdb7-115">はじめに</span><span class="sxs-lookup"><span data-stu-id="6bdb7-115">Getting started</span></span>
 
-<span data-ttu-id="9c782-115">このテンプレートを使用して、特定の通信チャネル、個々の検出条件、組織内で監視およびレビューするコンテンツの量を構成します。</span><span class="sxs-lookup"><span data-stu-id="9c782-115">Use this template to configure specific communication channels, individual detection conditions, and the amount of content to monitor and review in your organization.</span></span>
+<span data-ttu-id="6bdb7-116">Microsoft Teams での通信の概要については、「チームチャネルまたは1:1 およびグループで不適切なユーザーのアクティビティを特定するための事前定義済みまたはカスタムポリシーの[計画](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan)と作成」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-116">Getting started with communication compliance in Microsoft Teams begins with [planning](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) and creating pre-defined or custom policies to identify inappropriate user activities in Teams channels or in 1:1 and groups.</span></span> <span data-ttu-id="6bdb7-117">構成プロセスの一部として、一部の権限と基本的な前提条件を[構成](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure)する必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-117">Keep in mind that you'll need to [configure](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) some permissions and basic prerequisites as part of the configuration process.</span></span>
 
-### <a name="custom-trainable-classifier"></a><span data-ttu-id="9c782-116">Custom Trainable クラシファイア</span><span class="sxs-lookup"><span data-stu-id="9c782-116">Custom Trainable classifier</span></span>
+<span data-ttu-id="6bdb7-118">チーム管理者は、次のレベルで通信コンプライアンスポリシーを構成できます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-118">Teams administrators can configure communication compliance policies at the following levels:</span></span>
 
-<span data-ttu-id="9c782-117">Box 分類子のいずれかが目的に合わない場合は、trainable 分類子を使います。</span><span class="sxs-lookup"><span data-stu-id="9c782-117">Use trainable classifiers when one of the out of the box classifiers won't meet your needs.</span></span> <span data-ttu-id="9c782-118">Microsoft 365 分類子は、さまざまな種類のコンテンツを認識できるようにトレーニングするためのツールです。</span><span class="sxs-lookup"><span data-stu-id="9c782-118">A Microsoft 365 classifier is a tool you can train to recognize various types of content by giving it samples to look at.</span></span> <span data-ttu-id="9c782-119">分類子のトレーニングでは、最初に、ユーザーが選択してカテゴリに対してプラスのサンプルを提供する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9c782-119">Training the classifier involves first giving it samples that are human picked and positively match the category.</span></span> <span data-ttu-id="9c782-120">次に、これらのサンプルを処理した後、正と負の標本の組み合わせを指定して予測をテストします。</span><span class="sxs-lookup"><span data-stu-id="9c782-120">Then, after it has processed those samples, you test the predictions by giving it a mix of positive and negative samples.</span></span> <span data-ttu-id="9c782-121">詳細については、このトピックの詳細については、 [M365 の記事](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9c782-121">To Lean more about this refer to the [M365 article](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier) for more on this topic.</span></span>
+- <span data-ttu-id="6bdb7-119">**ユーザーレベル**: このレベルのポリシーは、個々の teams ユーザーに適用されるか、組織内のすべての teams ユーザーに適用される可能性があります。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-119">**User level**: Policies at this level apply to an individual Teams user or may be applied to all Teams users in your organization.</span></span> <span data-ttu-id="6bdb7-120">これらのポリシーでは、これらのユーザが1:1 またはグループチャットで送信する可能性のあるメッセージを対象としています。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-120">These policies cover messages that these users may send in 1:1 or group chats.</span></span> <span data-ttu-id="6bdb7-121">ユーザーのチャットは、ユーザーがメンバーになっているすべての Microsoft Teams で自動的に監視されます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-121">Chat communications for the users are automatically monitored across all Microsoft Teams where the users are a member.</span></span>
+- <span data-ttu-id="6bdb7-122">**チームレベル**: このレベルのポリシーは、Microsoft チームチャネルに適用されます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-122">**Teams level**: Policies at this level apply to a Microsoft Team channel.</span></span> <span data-ttu-id="6bdb7-123">これらのポリシーには、Teams チャネルでのみ送信されたメッセージが含まれています。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-123">These policies cover messages sent in the Teams channel only.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="9c782-122">通信コンプライアンスが Exchange ハイブリッド展開をサポートするようになりました。</span><span class="sxs-lookup"><span data-stu-id="9c782-122">Communication compliance now supports Exchange hybrid deployments.</span></span>
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a><span data-ttu-id="6bdb7-124">Microsoft Teams で不適切なメッセージに対処する</span><span class="sxs-lookup"><span data-stu-id="6bdb7-124">Act on inappropriate messages in Microsoft Teams</span></span>
 
-<span data-ttu-id="9c782-123">通信のコンプライアンスは、ポリシーに一致するすべてのメッセージの会話履歴をサポートします。</span><span class="sxs-lookup"><span data-stu-id="9c782-123">Communication compliance supports conversation history for any messages that match the polices.</span></span> <span data-ttu-id="9c782-124">これにより、調査管理者にコンテキストが提供されます。</span><span class="sxs-lookup"><span data-stu-id="9c782-124">This provides context to the investigating admin.</span></span>
+<span data-ttu-id="6bdb7-125">ポリシーを構成して、Microsoft Teams メッセージの通信のコンプライアンス警告を受信した後は、組織のコンプライアンスレビュー担当者がこれらのメッセージに対処する時間です。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-125">After you have configured your policies and have received communication compliance alerts for Microsoft Teams messages, it's time for compliance reviewers in your organization to take action on these messages.</span></span> <span data-ttu-id="6bdb7-126">レビュー担当者は、通信コンプライアンスの警告を確認し、Microsoft Teams のビューからフラグ付きのメッセージを削除することで、組織を保護することができます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-126">Reviewers can help safeguard your organization by reviewing communication compliance alerts and removing flagged messages from view in Microsoft Teams.</span></span>
 
-:::image type="content" source="media/communication-compliance-1.png" alt-text="Microsoft Teams での通信のコンプライアンスのための画面。":::
+![Teams でメッセージを削除する](./media/communication-compliance-remove-teams-message.png)
 
-## <a name="where-communication-policies-can-be-applied-in-teams"></a><span data-ttu-id="9c782-126">チームで通信ポリシーを適用できる場所</span><span class="sxs-lookup"><span data-stu-id="9c782-126">Where communication policies can be applied in Teams</span></span>
+<span data-ttu-id="6bdb7-128">削除されたメッセージとコンテンツは、メッセージまたはコンテンツが削除されたこと、および削除に適用できるポリシーを説明する通知に置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-128">Removed messages and content are replaced with notifications for viewers explaining that the message or content has been removed and what policy is applicable to the removal.</span></span> <span data-ttu-id="6bdb7-129">削除されたメッセージまたはコンテンツの送信者は、削除の状態についても通知され、削除に関連するコンテキストについて元のメッセージコンテンツが提供されます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-129">The sender of the removed message or content is also notified of the removal status and provided with original message content for context relating to its removal.</span></span> <span data-ttu-id="6bdb7-130">また、送信者は、メッセージの削除に適用される特定のポリシー条件を表示することもできます。</span><span class="sxs-lookup"><span data-stu-id="6bdb7-130">The sender can also view the specific policy condition that applies to the message removal.</span></span>
 
-<span data-ttu-id="9c782-127">通信コンプライアンスポリシーをセットアップして、Teams で送信されたメッセージを次のレベルで設定することができます。</span><span class="sxs-lookup"><span data-stu-id="9c782-127">Communication compliance policies can be setup for messages sent in Teams at the following levels:</span></span>
+<span data-ttu-id="6bdb7-131">送信者に表示されるポリシーヒントの例:</span><span class="sxs-lookup"><span data-stu-id="6bdb7-131">Example of policy tip seen by sender:</span></span>
 
-- <span data-ttu-id="9c782-128">ユーザーレベル: 管理者は、個々のユーザーレベルでポリシーを設定したり、テナントのすべてのユーザーに適用したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="9c782-128">User level : An admin can set up policies at an individual user level or apply it to all the users on the tenant.</span></span> <span data-ttu-id="9c782-129">これは、ユーザーが1:1 またはグループチャットで送信したメッセージのみを対象とします。</span><span class="sxs-lookup"><span data-stu-id="9c782-129">This will only covers messages that a user sent in 1:1 or Group chats.</span></span>
-- <span data-ttu-id="9c782-130">チームレベル: 管理者は、チームでポリシーを設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="9c782-130">Team Level: An admin can also set up policies on a team.</span></span> <span data-ttu-id="9c782-131">これにより、そのチームのチャネルで送信されたすべてのメッセージ (プライベートチャネルメッセージはサポートされません) が対象となります。</span><span class="sxs-lookup"><span data-stu-id="9c782-131">This covers all the messages sent in the channel in that team (Private channel messages are not supported).</span></span>
+![送信者のポリシーヒント](./media/communication-compliance-warning-1.png)
+
+<span data-ttu-id="6bdb7-133">送信者に表示されるポリシー条件通知の例:</span><span class="sxs-lookup"><span data-stu-id="6bdb7-133">Example of policy condition notification seen by the sender:</span></span>
+
+![送信者のポリシー条件情報](./media/communication-compliance-warning-2.png)
+
+<span data-ttu-id="6bdb7-135">受信者に表示されるポリシーヒントの例:</span><span class="sxs-lookup"><span data-stu-id="6bdb7-135">Example of policy tip seen by recipient:</span></span>
+
+![受信者のポリシーヒント](./media/communication-compliance-warning-3.png)
