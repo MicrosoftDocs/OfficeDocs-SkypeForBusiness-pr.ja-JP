@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088195"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46606923"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -33,7 +33,6 @@ Microsoft Endpoint Configuration Manager、またはグループ ポリシー、
 
 MSI ファイルへのリンクを次に示します。
 
-
 |エンティティ  |32ビット      |64ビット      |
 |---------|---------|---------|
 |商用     | [32ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
@@ -41,13 +40,15 @@ MSI ファイルへのリンクを次に示します。
 |政府機関向け - GCC High    | [32ビット](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64ビット](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |政府機関向け - DoD     | [32ビット](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64ビット](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
-> [!NOTE]
-> 64ビット版の Teams を64ビットオペレーティングシステムにインストールします。 64ビット版の Teams を32ビットのオペレーティングシステムにインストールしようとしても、インストールが成功せず、現在エラーメッセージは表示されません。
+**展開を成功させるには、次の点に注意してください。**
 
-Teams は、enterprise 用の Microsoft 365 アプリの展開に含めることもできます。 詳細については、「 [microsoft 365 アプリで企業向けの Microsoft Teams を展開する](https://docs.microsoft.com/deployoffice/teams-install)」を参照してください。
+- 64ビット版の Teams を64ビットオペレーティングシステムにインストールします。 64ビット版の Teams を32ビットのオペレーティングシステムにインストールしようとしても、インストールが成功せず、現在エラーメッセージは表示されません。
 
-> [!Note]
-> Microsoft Endpoint Configuration Manager の詳細については、「[構成マネージャーとは](https://docs.microsoft.com/configmgr/core/understand/introduction)」を参照してください。
+- 顧客テナントが GCCH または DoD クラウド上にある場合は、レジストリの**HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams**キーに**cloudtype**値を追加して、ユーザーがレジストリの初期エンドポイントを設定する必要があります。 **Cloudtype**の型は**DWORD**と値です (0 = Unset、1 = 商業、2 = GCC、* = GCCH、4 =、4 =、4 =)。 レジストリキーを使用してエンドポイントを設定すると、チームは、チームとのサインイン時に適切なクラウドエンドポイントに接続することができます。
+
+- Teams は、enterprise 用の Microsoft 365 アプリの展開に含めることもできます。 詳細については、「 [microsoft 365 アプリで企業向けの Microsoft Teams を展開する](https://docs.microsoft.com/deployoffice/teams-install)」を参照してください。
+
+- Microsoft Endpoint Configuration Manager の詳細については、「[構成マネージャーとは](https://docs.microsoft.com/configmgr/core/understand/introduction)」を参照してください。
 
 ## <a name="deployment-procedure-recommended"></a>展開の手順 (推奨)
 

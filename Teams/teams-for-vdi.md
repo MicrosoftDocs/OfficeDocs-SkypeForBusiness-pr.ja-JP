@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597117"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46607099"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "46597117"
 
 仮想デスクトップ インフラストラクチャ (VDI) は、データセンターの集中サーバーでデスクトップ オペレーティング システムとアプリケーションをホストする仮想化テクノロジです。 これにより、完全に保護され、準拠し一元化されたソースとともに、ユーザーに完全に個人用に設定されたデスクトップ エクスペリエンスを提供します。
 
-仮想環境での Microsoft Teams では、チャットとコラボレーションがサポートされています。 また、Windows 仮想デスクトップまたは Citrix プラットフォームでは、通話と会議機能もサポートされます。
+仮想環境での Microsoft Teams では、チャットとコラボレーションがサポートされています。 また、Windows 仮想デスクトップ、Citrix、VMware の各プラットフォームでは、通話と会議機能もサポートされています。
 
 仮想化環境の Teams は、複数の構成をサポートしています。 これには、VDI、専用、共有、永続的、非永続的モードが含まれます。 機能は継続的に開発され、定期的に追加されます。機能は今後数か月または数年で拡張されます。
 
@@ -54,7 +54,7 @@ ms.locfileid: "46597117"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 市場プロバイダーが複数ある場合は、最小要件を満たしていることを確認するために、仮想化ソリューションプロバイダーに問い合わせることをお勧めします。
   
-現時点では、AV (音声/ビデオ (AV) 最適化による VDI 上の Teams は、Windows 仮想デスクトップと Citrix で認定されています。 このセクションの情報を確認して、適切な機能の要件をすべて満たしていることを確認します。
+現時点では、音声/ビデオ (AV) 最適化による VDI 上の Teams は、Windows 仮想デスクトップ、Citrix、および VMware で認定されています。 このセクションの情報を確認して、適切な機能の要件をすべて満たしていることを確認します。
 
 ### <a name="platforms-certified-for-teams"></a>Teams で認定したプラットフォーム
 
@@ -64,6 +64,7 @@ Teams デスクトップ アプリは、主要な仮想化ソリューション 
 |----|---|
 |![Microsoft を表すロゴ](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows 仮想デスクトップ</a> |
 |![Citrix を表すロゴ](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
+|![VMware を表すロゴ](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">ヴイエムウェアホライズン</a> |
 
 ### <a name="windows-virtual-desktop"></a>Windows 仮想デスクトップ
 
@@ -76,6 +77,10 @@ Citrix Virtual Apps and Desktops (以前の XenApp および XenDesktop) は、V
 Citrix の[ダウンロードサイト](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)で、Citrix の仮想アプリとデスクトップの最新バージョンをダウンロードできます。 (最初にサインインする必要があります。) 必要なコンポーネントは、デフォルトで [Citrix Workspace アプリ (CWA)](https://www.citrix.com/downloads/workspace-app/) および Virtual Delivery Agent (VDA) にバンドルされています。 CWA や VDA に追加のコンポーネントやプラグインをインストールする必要はありません。
 
 サーバーおよびクライアントの最新の要件については、[この Citrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
+
+### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware ホライズンワークスペースとデスクトップの要件
+
+ヴイエムウェアホライズンは、VDI での Teams のサポートを最適化し、仮想デスクトップ全体の生産性を向上させます。 最新バージョンの VMware ホライズンは、[ヴイエムウェアのダウンロード](https://my.vmware.com/web/vmware/downloads/#all_products)ページからダウンロードできます。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI で Teams デスクトップ アプリをインストールまたは更新する
 
@@ -197,24 +202,12 @@ Teams は、エンタープライズ向けの Microsoft 365 アプリの既存�
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>通話と会議を含む VDI 上の Teams
 
-チャットと共同作業に加えて、通話と会議のサポートを備えた VDI 上の Teams は、Citrix ベースのプラットフォームで利用できます。 サポートされる機能は、WebRTC メディア スタックおよび Citrix 固有の実装に基づいています。 次の図では、このアーキテクチャの概要を説明します。
+チャットと共同作業に加えて、通話と会議に関する VDI の Teams は、サポートされている仮想化プロバイダープラットフォームで利用できます。 サポートされている機能は、WebRTC メディアスタックと仮想化プロバイダーの実装に基づいています。 次の図では、このアーキテクチャの概要を説明します。
 
 ![VDI アーキテクチャ上の Teams を示す図](media/teams-on-vdi-architecture.png)
 
-次の通話および会議機能はサポートされていません。
-
-- 拡張緊急サービス
-- Teams アプリとデバイス間の HID ボタンと LED コントロール
-- 背景のぼかしと効果
-- ブロードキャスト/ライブ イベント
-- 場所に基づくルーティング (LBR)
-- コール パーク
-- コール キュー
-
 > [!IMPORTANT]
-> 現在、VDI で AV 最適化なしで Teams を実行しており、最適化でまだサポートされていない機能 (アプリ共有時の制御の受け渡しなど) を使用する場合、Citrix ポリシーを設定して Teams のリダイレクトを無効にする必要があります。 つまり、Teams のメディア セッションは最適化されません。 Teams のリダイレクトを無効にするポリシーを設定する方法の手順については、この [Citrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)を参照してください。
-
-現在は非 VDI 環境でのみ利用可能な通話および会議機能の追加に取り組んでいます。 これには、品質、追加の画面共有シナリオ、チームに最近追加された高度な機能など、より多くの管理者の制御が含まれる場合があります。 今後の機能の詳細については、Teams の担当者にお問い合わせください。
+> 現時点では、AV の最適化を行わずに team を実行していて、最適化のためにまだサポートされていない機能を使用している場合 (アプリの共有時に制御を行う場合など)、[仮想化プロバイダー] ポリシーを設定して、Teams のリダイレクションを無効にする必要があります。 つまり、Teams のメディア セッションは最適化されません。 Teams のリダイレクションを無効にするポリシーを設定する手順については、仮想化プロバイダーにお問い合わせください。
 
 ### <a name="network-requirements"></a>ネットワーク要件
 
@@ -243,7 +236,7 @@ Chrome ブラウザーの Teams は、AV 最適化を備えた VDI 用の Teams 
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>チャットと共同作業を備えた VDI 上の Teams
 
-組織で Teams のチャットおよび共同作業機能のみを使用する場合は、ユーザーレベル ポリシーを設定して、Teams の通話および会議機能を無効にすることができます。 この機能レベルには、Citrix Virtual Apps and Desktops は必要ありません。
+組織で Teams のチャットおよび共同作業機能のみを使用する場合は、ユーザーレベル ポリシーを設定して、Teams の通話および会議機能を無効にすることができます。 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>通話および会議機能を無効にするポリシーを設定する
 
@@ -297,9 +290,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 PowerShell を使用して会議ポリシーを管理する方法の詳細については、「[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
-## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>チャットとコラボレーションを使用する VDI 上の Teams を、通話と会議を使用する Citrix に移行します。
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>チャットとコラボレーションを使用して VDI 上のチームを移行して、チームの通話と会議を最適化する
 
-ユーザーレベル ポリシーを設定して通話および会議機能を無効にしたチャットとコラボレーションを使用する VDI 上の Teams の既存の実装があり、AV 最適化を備えた Citrix に移行する場合、VDI 上の Teams のユーザーに通話および会議機能を有効にするポリシーを設定する必要があります。
+ユーザーレベルのポリシーを設定して、通話と会議機能を無効にしている場合、また、AV 最適化を使用してチームに移行している場合は、VDI でのチームの既存の実装がある場合は、VDI ユーザーのチームの呼び出しと会議機能を有効にするようにポリシーを設定する必要があります。
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>通話および会議機能を有効にするポリシーを設定する
 
@@ -359,13 +352,28 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 
 - マシンごとのインストールでは、VDI 上の Teams は、非 VDI Teams のクライアントと同様に自動的に更新されません。 [VDI で Teams デスクトップ アプリをインストールまたは更新する](#install-or-update-the-teams-desktop-app-on-vdi)セクションの説明に従って新しい MSI をインストールし、VM イメージを更新する必要があります。 現在のバージョンをアンインストールして新しいバージョンに更新する必要があります。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
-- 現時点では、Citrix は MacOs と Linux ベースのクライアントをサポートしていません。
+- 現時点では、Windows 仮想デスクトップと VMware は MacOS と Linux ベースのクライアントをサポートしていません。
+- 現時点では、Citrix は MacOs クライアントをサポートしていません。
 - Citrix は、エンドポイントに定義された明示的な HTTP プロキシの使用をサポートしていません。
 
 ### <a name="calling-and-meetings"></a>通話と会議
 
+次の通話と会議の機能はサポートされていません。
+
+- 拡張緊急サービス
+- Teams アプリとデバイス間の HID ボタンと LED コントロール
+- 背景のぼかしと効果
+- ブロードキャスト/ライブ イベント
+- 場所に基づくルーティング (LBR)
+- コール パーク
+- コール キュー
+
+> [!NOTE]
+> 現在は非 VDI 環境でのみ利用可能な通話および会議機能の追加に取り組んでいます。 これには、品質、追加の画面共有シナリオ、チームに最近追加された高度な機能など、より多くの管理者の制御が含まれる場合があります。 今後の機能の詳細については、Teams の担当者にお問い合わせください。
+
+次に、既知の問題と通話と会議の制限事項を示します。
+
 - Skype for Business の相互運用性は音声通話に限定されます。ビデオのモダリティはありません。
-- 匿名ユーザーとしての Teams 会議への参加については、AV 最適化されていません。 ユーザーは会議に参加でき、最適化されていないエクスペリエンスを経験します。
 - 会議またはグループ通話では、単一の着信ビデオ ストリームのみがサポートされます。 複数のユーザーがビデオを送信する場合、常に主要な発表者のビデオのみが表示されます。
 - 受信および送信ビデオ ストリームの解像度は、720p に制限されています。 これは WebRTC の制限です。
 - 受信カメラまたは画面共有ストリームからの 1 つのビデオ ストリームのみがサポートされます。 着信画面が表示されている場合は、その画面共有が、主要なスピーカーのビデオではなく、表示されます。
