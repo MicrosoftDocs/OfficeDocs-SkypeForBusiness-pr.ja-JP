@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Skype of business オンライン のユーザーに会議 ID を割り当てる方法と、会議ID パラメーターのあるべき姿について学びます。 '
-ms.openlocfilehash: caa94984b06ff73d8f14acf4727870a988298974
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a8f0e64ef30e1e503a1e3b78c9823f5d115df837
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163916"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46643607"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Skype of businessオンラインのユーザーに割り当てられている会議 ID を表示させリセットしてください。
 
@@ -82,7 +82,7 @@ ms.locfileid: "44163916"
 
 2. **Skype For business**> 管理センターに移動します。
 
-3. **Skype for business 管理センター**> **電話会議** > **ユーザー**で、操作ウィンドウの [**会議 ID**] で [**リセット**] をクリックします。
+3. **Skype for business 管理センター**の >  **電話会議**  >  **ユーザー**で、操作ウィンドウの [**会議 ID**] で [**リセット**] をクリックします。
 
 4. [**会議 ID をリセットしますか?** ] ウィンドウで、[**はい**] をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -103,7 +103,7 @@ ms.locfileid: "44163916"
 
 - 会議 ID は、オーディオ会議ブリッジに設定された桁の長さを満たす必要があります。 会議 Id には、アルファベットまたは特殊文字を使うことはできません。数値のみが使用できます。
 
-- オーディオ会議のすべてのユーザーの会議 ID は、既定では、7 桁になります。桁数を変更することはできません。
+- 電話会議のすべてのユーザーの会議 ID は、既定で9桁の数字になり、数字の数を変更することはできません。
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について

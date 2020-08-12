@@ -25,7 +25,7 @@
 
 <!-- ============================================================ -->
 
-# チャット、チーム、チャネルおよびアプリ
+# 会話、チーム、チャネル
 ## [展開の計画](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Advisor for Teams を使用して Teams をロールアウトする](use-advisor-teams-roll-out.md)
 ## [チームとチャネルの概要](teams-channels-overview.md)
@@ -51,25 +51,6 @@
 ## [チームをアーカイブまたは削除する](archive-or-delete-a-team.md)
 ## [Slack から Teams に移行する](migrate-slack-to-teams.md)
 ## [Graph に内蔵された中小企業向けTeams テンプレート](smb-templates.md)
-
-
-## アプリ、ボット、コネクタ
-
-### [概要](deploy-apps-microsoft-teams-landing-page.md)
-### [アプリのアクセス許可と考慮事項](app-permissions.md)
-### [Teams 用アプリを管理する](manage-apps.md)
-### [Teams でのアプリの管理設定](admin-settings.md)
-### [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
-### [Microsoft 365 または Office 365 とカスタム コネクタを使用する](Office-365-custom-connectors.md)
-### [リソース固有の同意](resource-specific-consent.md)
-### [Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
-### [アプリ パッケージをアップロードしてカスタム アプリを発行する](upload-custom-apps.md)
-### [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Teams で組織のリストアプリを管理する](manage-lists-app.md)
-### [組織のタスク アプリを管理する](manage-tasks-app.md)
-### [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
-### [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 外部ユーザーと通信する
 ### [別の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)
@@ -129,6 +110,26 @@
 
 <!-- ============================================================ -->
 
+# アプリ、ボット、コネクタ
+
+## [概要](deploy-apps-microsoft-teams-landing-page.md)
+## [アプリのアクセス許可と考慮事項](app-permissions.md)
+## [Teams 用アプリを管理する](manage-apps.md)
+## [Teams でのアプリの管理設定](admin-settings.md)
+## [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
+## [Microsoft 365 または Office 365 とカスタム コネクタを使用する](Office-365-custom-connectors.md)
+## [リソース固有の同意](resource-specific-consent.md)
+## [Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
+## [アプリ パッケージをアップロードしてカスタム アプリを発行する](upload-custom-apps.md)
+## [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Teams で組織のリストアプリを管理する](manage-lists-app.md)
+## [組織のタスク アプリを管理する](manage-tasks-app.md)
+## [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
+## [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
+
+
+<!-- ============================================================ -->
 # ミーティングと会議
 ## [クイック スタート - 会議とライブ イベント](quick-start-meetings-live-events.md)
 ## [展開の計画](deploy-meetings-microsoft-teams-landing-page.md)
