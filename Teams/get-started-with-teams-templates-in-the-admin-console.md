@@ -1,5 +1,5 @@
 ---
-title: 管理コンソールで Teams のテンプレートを使用する
+title: チームテンプレートを使用して新しいチームを作成する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583174"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634733"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Teams の管理コンソールで Teams のテンプレートを使ってみる
 
@@ -35,7 +35,7 @@ ms.locfileid: "46583174"
 > [!NOTE]
 > Teams テンプレートは、現在、プライベートチャネルの作成をサポートしていません。 プライベートチャネルの作成は、テンプレートの定義に含まれていません。
 
-Teams テンプレートは、ビジネスニーズまたはプロジェクトに合わせて設計された、チームの構造の事前定義済みの定義です。 既成のテンプレートを使用するか、独自のテンプレートを作成します。 Teams テンプレートを使用すると、さまざまなトピックのチャネルと豊富なコラボレーションスペースをすばやく作成できます。アプリをプレインストールすることで、ミッションクリティカルなコンテンツやサービスを活用できます。 Teams テンプレートには、組織全体で一貫したチームを簡単に作成できる定義済みのチーム構造が用意されています。 現時点では、管理コンソールまたは[Microsoft Graph](get-started-with-teams-templates.md)を使用してテンプレートを使用することができます。
+Teams テンプレートは、ビジネスニーズまたはプロジェクトに合わせて設計された、チームの構造の事前定義済みの定義です。 既成のテンプレートを使用するか、独自のテンプレートを作成します。 Teams テンプレートを使用すると、さまざまなトピックのチャネルと豊富なコラボレーションスペースをすばやく作成できます。アプリをプレインストールすることで、ミッションクリティカルなコンテンツやサービスを活用できます。 Teams テンプレートには、組織全体で一貫したチームを簡単に作成できる定義済みのチーム構造が用意されています。 現在、Teams または[Microsoft Graph](get-started-with-teams-templates.md)を使用してテンプレートからチームを作成できます。
 
 この記事では、テンプレートで定義できるプロパティ、基本テンプレートの種類について説明します。また、いくつかのサンプル要求を使って、テンプレートからチームを作成する方法についても説明します。
 
@@ -89,7 +89,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 |小売課長のコラボレーション |チャネル <ul><li>一般<li>操作</li><li>意欲</li></ul> アプリ <ul><li>ウィキ</li></ul>|
 |||
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [カスタムチームテンプレートを作成する](create-a-team-template.md)
 - [既存のチームテンプレートからチームテンプレートを作成する](create-template-from-existing-template.md)

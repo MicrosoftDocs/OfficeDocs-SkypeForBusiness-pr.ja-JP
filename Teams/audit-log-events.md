@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 監査ログから Microsoft Teams のデータを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5b458dec4782794fef69b58d44430b35eccc07d
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121377"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634613"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -189,6 +189,11 @@ ms.locfileid: "45121377"
 ## <a name="office-365-management-activity-api"></a>Office 365 管理アクティビティ API
 
 Office 365 Management Activity API を使用して、Teams のイベントに関する情報を取得することができます。 Teams の管理アクティビティ API スキーマの詳細については、「 [teams スキーマ](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)」を参照してください。
+
+
+## <a name="attribution-in-teams-audit-logs"></a>Teams 監査ログの属性
+
+現時点では、Teams 監査ログと制御メッセージの属性について、既知の問題があります。所有者が誤って、ユーザーの削除または追加の属性を持つ可能性があります。 これは、Teams の外部で変更が発生した場合に発生します。 このような場合は、 [Office 365 監査ログ](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)を使用することをお勧めします。
 
 ## <a name="related-topics"></a>関連項目
 

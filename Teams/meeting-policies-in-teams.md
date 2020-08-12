@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552613"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640962"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -443,3 +443,4 @@ Teams で [**表示できるユーザー]** の既定値を指定するには、
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
 - [チームのユーザーにポリシーを割り当てる](assign-policies.md)
+- [RestrictedAnonymousAccess Teams の会議ポリシーをユーザーから削除する](meeting-policies-restricted-anonymous-access.md)

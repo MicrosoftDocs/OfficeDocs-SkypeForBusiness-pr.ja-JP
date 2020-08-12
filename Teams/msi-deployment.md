@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46606923"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640832"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -44,7 +44,7 @@ MSI ファイルへのリンクを次に示します。
 
 - 64ビット版の Teams を64ビットオペレーティングシステムにインストールします。 64ビット版の Teams を32ビットのオペレーティングシステムにインストールしようとしても、インストールが成功せず、現在エラーメッセージは表示されません。
 
-- 顧客テナントが GCCH または DoD クラウド上にある場合は、レジストリの**HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams**キーに**cloudtype**値を追加して、ユーザーがレジストリの初期エンドポイントを設定する必要があります。 **Cloudtype**の型は**DWORD**と値です (0 = Unset、1 = 商業、2 = GCC、* = GCCH、4 =、4 =、4 =)。 レジストリキーを使用してエンドポイントを設定すると、チームは、チームとのサインイン時に適切なクラウドエンドポイントに接続することができます。
+- 顧客テナントが GCCH または DoD クラウド上にある場合は、レジストリの**HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams**キーに**cloudtype**値を追加して、ユーザーがレジストリの初期エンドポイントを設定する必要があります。 **Cloudtype**の型は**DWORD**と値です (0 = Unset、1 = 商業、2 = GCC、3 = GCCH、4 = DOD)。 レジストリキーを使用してエンドポイントを設定すると、チームは、チームとのサインイン時に適切なクラウドエンドポイントに接続することができます。
 
 - Teams は、enterprise 用の Microsoft 365 アプリの展開に含めることもできます。 詳細については、「 [microsoft 365 アプリで企業向けの Microsoft Teams を展開する](https://docs.microsoft.com/deployoffice/teams-install)」を参照してください。
 

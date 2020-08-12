@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: ヘッドセット、スピーカーフォン、web カメラ、モニターなどの USB 周辺機器とデバイスは、Microsoft Teams で認定されています。
-ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572262"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640912"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams で認定された USB オーディオデバイスおよびビデオデバイス
 
@@ -80,8 +80,8 @@ Teams での通話コントロールのサポートについて詳しくは、�
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Skype for Business の認定                        |
 |ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Skype for Business の認定                        |
-|Jabra evolve                |75のヘッドセットを利用する                                          |7/31/2020       |Microsoft Teams にアップグレードした Skype for Business      |
-|Jabra evolve                |65のヘッドセットを利用する                                          |7/31/2020       |Microsoft Teams にアップグレードした Skype for Business      |
+|Jabra evolve                |75ヘッドセットの進化                                          |7/31/2020       |Microsoft Teams にアップグレードした Skype for Business      |
+|Jabra evolve                |65ヘッドセットの進化                                          |7/31/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |Jabra evolve                |50のヘッドセットを利用する                                          |7/31/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |Avocor               |WCD-AVW-6555                                              |7/30/2020       |Microsoft Teams について認定済み                           |
 |Jabra evolve                |Evolve2 85 ヘッドセット                                         |7/17/2020       |Microsoft Teams について認定済み                           |
