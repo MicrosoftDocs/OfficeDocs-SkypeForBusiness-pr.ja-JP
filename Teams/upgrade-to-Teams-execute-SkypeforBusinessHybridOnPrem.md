@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17420c93c883054d36c4ae2e1b323be9e589a2c2
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 1981640ab06d00e7895e11c0e15adf7555577908
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158675"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648608"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Skype for Business オンプレミスから Teams にアップグレードする
 
@@ -75,7 +75,7 @@ Teams に移行する組織にとって、最終的にはすべてのユーザ�
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>手順 4: ハイブリッドを無効にしてクラウドへの移行を完了する
 
-オンプレミスからクラウドにすべてのユーザーを移行した後で、オンプレミスの Skype for Business 展開を解除することができます。 詳細については、「ハイブリッドを無効にする」を参照して[クラウドへの移行を完了](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)してください。
+オンプレミスからクラウドにすべてのユーザーを移行した後で、オンプレミスの Skype for Business 展開を解除することができます。 詳細については、「ハイブリッドを無効にする」を参照して[クラウドへの移行を完了](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)してください。
 
 
 ## <a name="phone-system-and-pstn-connectivity-options"></a>電話システムと PSTN の接続オプション
@@ -89,4 +89,3 @@ Teams に移行する組織にとって、最終的にはすべてのユーザ�
 - エンタープライズ VoIP を使用している Skype for Business オンプレミスのユーザーのうち、オンラインに移行して、Microsoft 通話プランを使用するユーザー。 このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行を A) Microsoft 通話プランへのユーザーの電話番号のポートに合わせて調整するか、B) 利用可能な地域から新しいサブスクライバー番号を割り当てる必要があります。  詳細については、「 [Skype For Business Server on on-premises、エンタープライズ voip、Microsoft 通話プラン」を](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)参照してください。
 
 - エンタープライズ VoIP を使用している Skype for Business オンプレミスのユーザーのうち、オンラインに移行して、オンプレミスの PSTN 接続を維持するユーザー。 このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行をそのユーザーのダイレクト ルーティングへの移行に合わせて調整する必要があります。 詳細については、「 [Skype For Business Server のオンプレミスのエンタープライズ Voip から直接ルーティングする](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)」を参照してください。
-

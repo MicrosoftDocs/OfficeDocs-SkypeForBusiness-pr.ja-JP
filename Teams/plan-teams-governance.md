@@ -1,7 +1,7 @@
 ---
 title: Teams でのガバナンスを計画する - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665279"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656358"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
@@ -103,6 +103,34 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 - [チームをアーカイブする、または復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
 
+## <a name="group-and-team-membership-management"></a>グループとチームメンバーシップの管理
+
+Project ベースのメンバーを一貫して管理する、またはグループ化を行う必要があるチームでは、迅速なオンボードとオフボード、またはユーザーとゲストに対応する必要があります。 組織では、現在のすべてのメンバーがチーム内でビジネスの正当性を確認する必要がある場合もあります。 メンバーの管理は困難なのは、プロジェクトが終了したときやロールを変更したときに、ユーザーが自分の accord でグループを脱退できないためです。 必要に応じてユーザーがアクセスできるようにするグループメンバーシップを管理するのが最適な方法ですが、グループにアクセス権管理とアクセスレビューという2つのディストリクトプロセスが含まれていないことを確認します。
+
+利用[資格管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)では、プロジェクトマネージャーなどのユーザーに委任して、チームのメンバーシップなど、必要なすべてのリソースを1つのパッケージにまとめることができます。 また、テナント内のユーザーまたは他の接続されている組織から要求を行うことができるユーザーを定義することもできます。 プロジェクトマネージャーは、アクセス要求をメールで受け取り、MyAccess ポータルで要求を承認または拒否します。 管理者は、アクセスを更新しない限り、ユーザーまたはゲストがチームから削除されるまでの有効期限の日付または期間を含めるように、access の条件を構成できます。 管理者は、access レビューに参加するためにチームに関連付けられているグループを設定することもできます。 [Access レビュー](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)の場合、グループの所有者は、チームのメンバーを確認するための定期的なアラームを受け取ります。 Access レビューには推奨事項が含まれているため、グループの所有者は通常の構成証明プロセスを簡単に行うことができます。
+
+||||
+|:-|:-|:-|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 判断ポイント | 組織では、1つ以上のチームのメンバーシップを管理するための一貫したプロセスが必要ですか? <br> 組織には、1人または複数のチームの継続的なメンバーシップを定期的に正当化するための所有者またはメンバーが必要ですか? <br> 組織では、チーム、グループ、SharePoint サイト、アプリなどのリソースへのアクセス権を要求するユーザーとゲストの承認が必要ですか? |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 次のステップ | 各チームまたは特定のチームに対して、メンバーシップの有効期限に関する組織要件を文書化します。<br>組織で、チーム、グループ、SharePoint サイト、アプリを access パッケージでまとめる方法を計画します。<br>要求者のマネージャー、プロジェクトマネージャー、接続された組織のスポンサー、または組織内のセキュリティ担当者のスポンサーなど、アクセス要求を承認または拒否する必要があるユーザーを計画します。 |
+
+> [!TIP]
+> 次の表を使用して、組織の要件を把握します。
+
+| 機能 | 詳細 | Azure AD Premium ライセンスが必要 | Decision |
+|:-|:-|:-|:-|
+| Access レビュー | 特定のチームのメンバーシップを定期的に recertify するためのアクセスレビューを設定する | P2 | TBD |
+| 権利管理 | ユーザーおよびゲストがチームへのアクセスを要求できるように access パッケージをセットアップする | P2 | TBD |
+
+> [!NOTE]
+> 事前の計画を立てるために、[必要なライセンスの詳細についてご](https://azure.microsoft.com/pricing/details/active-directory/)確認ください。
+
+### <a name="additional-information"></a>追加情報
+
+これらの設定を実装する方法についての技術面のガイダンスは、次をご覧ください。
+
+- [権利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [Access レビュー](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Teams 機能の管理
 

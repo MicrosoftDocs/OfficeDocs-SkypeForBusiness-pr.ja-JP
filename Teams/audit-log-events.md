@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 監査ログから Microsoft Teams のデータを取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634613"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648538"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -193,7 +193,7 @@ Office 365 Management Activity API を使用して、Teams のイベントに関
 
 ## <a name="attribution-in-teams-audit-logs"></a>Teams 監査ログの属性
 
-現時点では、Teams 監査ログと制御メッセージの属性について、既知の問題があります。所有者が誤って、ユーザーの削除または追加の属性を持つ可能性があります。 これは、Teams の外部で変更が発生した場合に発生します。 このような場合は、 [Office 365 監査ログ](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)を使用することをお勧めします。
+Azure Active Directory (Azure AD) を使用して作成された Teams (ユーザーの追加や削除など) に対するメンバーシップの変更、Microsoft 365 管理ポータル、または Microsoft 365 Groups Graph API は、チームの監査メッセージおよび [全般] チャネルにあり、この操作の実際のイニシエーターには適用されません。 これらのシナリオでは、Azure AD または[Microsoft 365 グループ監査ログ](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)を参照して、関連する情報を確認してください。
 
 ## <a name="related-topics"></a>関連項目
 

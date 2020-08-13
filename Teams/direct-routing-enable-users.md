@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone システムのダイレクトルーティングを有効にする方法について説明します。
-ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691373"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656148"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする
 
@@ -53,9 +53,9 @@ Skype for business Online の展開 coexists が Skype for Business 2015 また�
 
 ライセンス要件の詳細については、「[プランダイレクトルーティング](direct-routing-plan.md)の[ライセンスとその他の要件](direct-routing-plan.md#licensing-and-other-requirements)」を参照してください。
 
-## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>ユーザーが Skype for Business Online に所属していることを確認する 
+## <a name="ensure-that-the-user-is-homed-online"></a>ユーザーがオンラインになっていることを確認する 
 
-直接ルーティングを使用するには、ユーザーが Skype for Business Online を使用している必要があります。 RegistrarPool パラメーターを確認すると、infra.lync.com ドメインで値を指定する必要があります。
+直接ルーティングでは、ユーザーがオンラインである必要があります。 RegistrarPool パラメーターを確認すると、infra.lync.com ドメインで値を指定する必要があります。
 
 1. リモート PowerShell に接続します。
 2. 次のコマンドを実行します。 

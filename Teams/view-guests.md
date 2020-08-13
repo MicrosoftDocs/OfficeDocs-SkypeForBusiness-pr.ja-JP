@@ -1,8 +1,8 @@
 ---
 title: チームのゲスト ユーザーを表示する
 ms.reviewer: ''
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 description: この記事では、管理者が Microsoft Teams のゲストユーザーに関する情報を表示する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0b3d4023db3831fe4835fb2d85be53778a363bc
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a831768f738befdab5ec9f846dc9ca41661e5a2e
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903342"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656168"
 ---
 <a name="view-guest-users-in-a-team"></a>チームのゲスト ユーザーを表示する
 ==========================
@@ -34,7 +34,7 @@ ms.locfileid: "43903342"
 ゲスト ユーザーを識別する方法は次のとおりです。
 
 1.  Microsoft 365 管理センターにサインインします。
-2.  [**管理センター** > **チーム**] を選択します。
+2.  [**管理センター**チーム] を選択し  >  **Teams**ます。
 3.  Microsoft Teams 管理センターで、[**ユーザー**] を選択します。 "**ゲスト**" という表記が、ゲスト ユーザーの表示名の後に追加されています。
   
 所有するチーム内からゲスト ユーザーを識別することもできます。  

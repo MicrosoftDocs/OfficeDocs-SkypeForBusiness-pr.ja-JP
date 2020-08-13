@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 16da525051e09f4ed1a7acaf3e9906f59b8b30af
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868524"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648588"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft Teams でのチームの期限切れと更新
 
@@ -33,7 +33,7 @@ ms.locfileid: "44868524"
 
 ![チーム設定でチームを更新するための [今すぐ更新] ボタンのスクリーンショット](media/team-expiration.png "チーム設定でチームを更新するための [今すぐ更新] ボタンのスクリーンショット")
 
-チーム所有者がチームを更新しない場合は、チームは "ソフト削除" 状態になります。つまり、この状態は、次の30日以内に復元できます。
+チーム所有者がチームを更新せずに、有効期限ポリシーが終了するまで、チームのアクティビティがそれ以上行われない場合、チームは "ソフト削除" 状態になります。つまり、これは、次の30日以内に復元できます。
 
 ## <a name="team-auto-renewal"></a>チームの自動更新
 
