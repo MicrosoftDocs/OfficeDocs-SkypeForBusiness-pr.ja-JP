@@ -1,7 +1,7 @@
 ---
-title: Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を支援する
-author: lolajacobsen
-ms.author: lolaj
+title: Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article
@@ -18,33 +18,31 @@ localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開を計画および完了します。
-ms.openlocfilehash: e447c05fc19766d3e67d510af6fbd424dc4173e7
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
+ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201211"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648598"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-Teams のアドバイザー (パブリック プレビュー) を使用して、Microsoft Teams の展開について説明します。 Microsoft 365 または Office 365 組織の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。 次に、Teams のアドバイザーは、展開する各ワークロードのチャネルを備えた展開チーム (チーム内) を作成します。展開チームの各ワークロードには、各ワークロードのすべての展開タスクを含む包括的な Planner の計画が付属しています。  この Planner プランを使用して、プロジェクト マネージャー、Teams や Microsoft 365 または Office 365 の管理者、サポート担当者、導入およびユーザー準備チームなど、展開の各フェーズの責任者にタスクを割り当てます。 各展開タスクには、タスクを正常に完了するために必要なすべてのガイダンスとリソースが含まれています。
+Teams のアドバイザーは、Microsoft Teams の展開について説明します。 Microsoft 365 組織の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。 次に、Teams のアドバイザーは、展開する各ワークロードのチャネルを備えた展開チーム (チーム内) を作成します。展開チームの各ワークロードには、各ワークロードのすべての展開タスクを含む包括的な Planner の計画が付属しています。  この Planner プランを使用して、プロジェクト マネージャー、Teams サービス管理者、サポート担当者、導入およびユーザー準備チームなど、展開の各フェーズの責任者にタスクを割り当てます。 各展開タスクには、タスクを正常に完了するために必要なすべてのガイダンスとリソースが含まれています。
 
 Teams のアドバイザーは、[Teams 管理センター](https://admin.teams.microsoft.com)の一部です。 Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic ライセンスが必要です。 Teams のアドバイザーの使用を開始するには、ダッシュボードの [**チームのワークロードの展開**] ウィジェットの [**開始**] ボタンをクリックします。 または、[**計画**] > [**Teams アドバイザー**] の順に移動します。
 
 > [!IMPORTANT]
-> Teams のアドバイザーは、Microsoft 365 Government - GCC High または DoD 展開では使用できません。
+> Teams のアドバイザーは、Microsoft 365 Government (GCC High または DoD) 展開では使用できません。
 
 Teams のアドバイザー エクスペリエンスのガイド付きの概要については、Microsoft Mechanics のビデオ「[Deploy & Configure Microsoft Teams (Microsoft Teams の展開と構成)](https://youtu.be/o2mlsUubIO4?t=50)」をご覧ください。
 
-## <a name="using-advisor-for-teams-public-preview"></a>Teams のアドバイザーを使用する (パブリック プレビュー)
+## <a name="using-advisor-for-teams"></a>Teams のアドバイザーを使用する
 
-**Teams アドバイザーを使用するには、Teams、Forms、および Planner のライセンスが必要です。** ただし、Teams アドバイザーを使用するために Teams 管理者である必要はありません。組織内の誰でも使用できます。 Teams 管理センターにあるにもかかわらず、管理者以外のユーザーが Teams のアドバイザーにアクセスできるように、特別なアクセス許可を設定しました。 テナント準備状況アセスメントを開くには、Teams 管理者、Teams サービス管理者、またはグローバル管理者である必要があります (これは、特別な非管理者ロールが評価の基となる Microsoft Graph API にアクセスできないためです)。
+**Teams アドバイザーを使用するには、Teams、Forms、および Planner のライセンスが必要です。** ただし、Teams アドバイザーを使用するために Teams 管理者である必要はありません。組織内の誰でも使用できます。 Teams 管理センターにあるにもかかわらず、管理者以外のユーザーが Teams のアドバイザーにアクセスできるように、特別なアクセス許可を設定しました。 テナント準備状況アセスメントを開くには、Teams 管理者、Teams サービス管理者、またはグローバル管理者である必要があります (これは、特別な非管理者ロールが評価の基となる Microsoft Graph API にアクセスできないためです)。 ただし、Teams アドバイザーを使用するために Teams 管理者である必要はありません。組織内の誰でも使用できます。 Teams 管理センターにあるにもかかわらず、管理者以外のユーザーが Teams のアドバイザーにアクセスできるように、特別なアクセス許可を設定しました。 テナント準備状況アセスメントを開くには、Teams 管理者、Teams サービス管理者、またはグローバル管理者である必要があります (これは、特別な非管理者ロールが評価の基となる Microsoft Graph API にアクセスできないためです)。
 
 > [!IMPORTANT]
-> **Teams アドバイザー**が Teams 管理センターの [**計画**] の下に表示されていない場合、ユーザーは Teams のライセンスを取得していません。 この動作は、今後変更されます。
+> **Teams アドバイザー**が Teams 管理センターの [**計画**] の下に表示されていない場合、ユーザーは Teams のライセンスを取得していません。
 
 Teams のアドバイザーを初めて使用する場合、Teams で展開チームが作成されます。 選択したワークロードごとにチャネルが追加されます。
 
@@ -53,7 +51,7 @@ Teams のアドバイザーを初めて使用する場合、Teams で展開チ�
 
 ## <a name="available-advisor-for-teams-plans"></a>Teams のアドバイザーの利用可能なプラン
 
-Teams のアドバイザーはパブリック プレビュー中ですが、以下のプランを提供しています。
+Teams のアドバイザーは現在、次のプランを提供しています。
 
 1. チャット、チーム、チャネルおよびアプリ
     - テナントの評価
@@ -81,7 +79,7 @@ Teams のアドバイザーはパブリック プレビュー中ですが、以�
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>オレンジ色の警告の三角形は、何らかのアクションが必要かどうかを判断するためのフォロー アップを推奨していることを意味します (たとえば、Microsoft 365 グループの有効期限ポリシーが推奨されますが、必須ではありません)。
 
 > [!IMPORTANT]
-> 管理者ロールを持つユーザーが Teams のアドバイザーを開始すると、すべてのアセスメントがバックグラウンドで実行されます。 何かを更新または修復した場合、最大 24 時間はアセスメントに反映されないことがあります。 これは一時的なものです。Teams のアドバイザーがパブリック プレビューを終了して一般公開されるとすぐに、アセスメントはほぼリアルタイムで更新されます。
+> 管理者ロールを持つユーザーが Teams のアドバイザーを開始すると、すべてのアセスメントがバックグラウンドで実行されます。 何かを更新または修復した場合、最大 24 時間はアセスメントに反映されないことがあります。
 
 以下のセクションでは、何らかの前提条件が存在するか、またはベスト プラクティスであるか、各アセスメント チェックの実行内容および理由、必要に応じた修復のガイダンスなど、各アセスメントについて説明します。
 
@@ -143,7 +141,7 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic が必要です。
 
 ### <a name="can-i-delete-the-deployment-team"></a>展開チームを削除できますか?
-Teams のアドバイザーが展開チームを作成した後、他のチームと同様にチームを管理できます。これには削除機能も含まれます。 Teams 管理センターを使用しチームを削除しない場合、Teams 管理センターはチームがまだ存在していることを表示することに注意してください。 これは一時的なものです。Teams のアドバイザーがパブリック プレビュー期間を終了し、一般公開されると修正されます。
+Teams のアドバイザーが展開チームを作成した後、他のチームと同様にチームを管理できます。これには削除機能も含まれます。 Teams 管理センターを使用しチームを削除しない場合、Teams 管理センターはチームがまだ存在していることを表示することに注意してください。
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>展開チームでチャネルを追加または削除できますか?
 はい。展開チームが作成されたら、他のチームと同じ方法でチャネルを管理できます。
@@ -181,5 +179,4 @@ Teams のアドバイザーは、非 EUII (エンド ユーザー識別情報) �
 
 [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 
-[ライセンスのための製品名とサービス プラン識別子](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-)
+[ライセンスのための製品名とサービス プラン識別子](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
