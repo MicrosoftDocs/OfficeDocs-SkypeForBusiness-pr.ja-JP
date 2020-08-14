@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会議の開催者は、Teams アプリを使ってダイヤルアウトする方法を学習し、他のユーザーが電話を使って同じ会議に参加できるようにします。
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691293"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662107"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
@@ -38,7 +38,8 @@ ms.locfileid: "44691293"
   次の点にご注意ください。
 
 - 会議に参加している場合のみ、チームを使ってダイヤルアウトできます。
-- 会議の開催者として、電話会議が有効になっています。
+- 会議の開催者が電話会議用に有効になっているか、電話会議ライセンスが割り当てられていない場合は、オンライン通話プランまたはダイレクトルーティングを使用して、公衆交換電話網に発信することができます。
+- 会議の開催者には、[電話会議からのダイヤルアウトを有効にするオンラインのダイヤルアウトポリシーが付与](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)されています。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -46,13 +47,13 @@ ms.locfileid: "44691293"
 ダイヤルアウト機能を利用するには、次の手順を実行します。
 
  **手順 1:** 会議で、[ユーザーの**Add people** ![ 追加] ボタンの [ユーザーの追加] のスクリーンショットを使用して、 ](media/add-people-button.png) 電話番号にダイヤルアウトします。
- **手順 2:**[ユーザーの招待] または [電話**番号をダイヤルする**] ボックスに、国/地域コードも含めて、すべての電話番号を入力します。
+ **手順 2:** [ユーザーの招待] または [電話 **番号をダイヤルする** ] ボックスに、国/地域コードも含めて、すべての電話番号を入力します。
   
 ![[ユーザーの招待] または [電話番号のダイヤル] ボックスのスクリーンショット](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>サポートされている国と地域
 
-ダイヤルアウトは一部の国と地域でのみ使用可能です。 詳細な一覧については、「[電話会議と通話プランの国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。
+ダイヤルアウトは一部の国と地域でのみ使用可能です。 詳細な一覧については、「 [電話会議と通話プランの国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。
 
 ## <a name="allow-users-to-dial-in"></a>ユーザーがダイヤルインできるようにする
 

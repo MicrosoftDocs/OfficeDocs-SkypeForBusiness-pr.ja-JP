@@ -16,12 +16,12 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012283"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662087"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -36,7 +36,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 
 チームユーザーの会議を記録するには、テナントに対して Microsoft Stream を有効にする必要があります。 また、会議の開催者とレコーディングを開始するユーザーの双方は、次の前提条件を満たす必要があります。
 
-- Office 365 E1、E3、E5、A1、A3、A5、M365 Business、Business Premium または Business Essentials を所有している
+- ユーザーは、Office 365 E1、E3、E5、A1、A3、A5、M365 Business Premium、M365 Business Standard、または M365 Business Basic を持っています。
 - Microsoft Stream<sup>1</sup> のライセンスが付与されている必要がある 
 - Microsoft Stream でビデオをアップロードするアクセス許可を持っている
 - 会社のガイドラインが管理者によって設定されている場合、そのガイドラインに同意している
@@ -45,7 +45,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 - その会議の匿名ユーザー、ゲスト ユーザー、フェデレーション ユーザーではない
 - ユーザーの会議に対して議事録を有効にするには、割り当てられている Teams の会議ポリシーで、-AllowTranscription 設定を true に設定する必要があります。
 
-<sup>1</sup>ユーザーは Microsoft Stream との会議をアップロード/ダウンロードするためのライセンスが必要ですが、会議を記録するためのライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
+<sup>1</sup> ユーザーは Microsoft Stream との会議をアップロード/ダウンロードするためのライセンスが必要ですが、会議を記録するためのライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
 
 > [!IMPORTANT] 
 > ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 これは、レコーディングが Microsoft Stream に保存されていないことを意味しますが、その記録は、削除される前に21日間の制限付きで Azure メディアサービス (AMS) に保存されます。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
@@ -58,7 +58,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 
 Microsoft Stream は、適格な Microsoft 365 および Office 365 サブスクリプションの一部として、またはスタンドアロンサービスとして利用できます。  詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。  Microsoft Stream は、microsoft 365 Business、Microsoft 365 Business Standard、および Microsoft 365 Business Basic に含まれるようになりました。
 
-ユーザーが Microsoft Stream にアクセスできるように、 [microsoft 365 または Office 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法について説明します。 Microsoft stream[のブロックサイン](https://docs.microsoft.com/stream/disable-user-organization)アップで定義されているように、ユーザーに対して microsoft stream がブロックされていないことを確認します。
+ユーザーが Microsoft Stream にアクセスできるように、 [microsoft 365 または Office 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 方法について説明します。 Microsoft stream [のブロックサイン](https://docs.microsoft.com/stream/disable-user-organization)アップで定義されているように、ユーザーに対して microsoft stream がブロックされていないことを確認します。
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>ユーザーが Microsoft Stream でビデオのアクセス許可をアップロードしていることを確認する
 
@@ -149,7 +149,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ### <a name="planning-for-storage"></a>ストレージの計画
 
-1 時間のレコーディングのサイズは 400 MB です。 記録されたファイルに必要な容量を理解していること、および Microsoft Stream で使用できる十分なストレージがあることを確認します。  サブスクリプションに含まれている基本記憶域と追加記憶域の購入方法を理解するには、 [「Microsoft Stream ライセンスの概要」](https://docs.microsoft.com/stream/license-overview)を参照してください。
+1 時間のレコーディングのサイズは 400 MB です。 記録されたファイルに必要な容量を理解していること、および Microsoft Stream で使用できる十分なストレージがあることを確認します。  サブスクリプションに含まれている基本記憶域と追加記憶域の購入方法を理解するには、 [「Microsoft Stream ライセンスの概要」](https://docs.microsoft.com/stream/license-overview) を参照してください。
 
 ## <a name="manage-meeting-recordings"></a>会議のレコーディングを管理する
 

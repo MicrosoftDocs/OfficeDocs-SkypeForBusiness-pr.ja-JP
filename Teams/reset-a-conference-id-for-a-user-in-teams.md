@@ -21,20 +21,19 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft Teams でユーザーの会議 ID をリセットし、会議の更新と移行ツールへのリンクを取得する手順について説明します。
-ms.openlocfilehash: fbda2d65868d9f4082ae7b3ee835d0560c609e11
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 52b547fee5bf027bcef21914e3ba3aa79b0e4e08
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666199"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662127"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの会議 ID をリセットする
 
 動的な会議 ID は、発信者が会議にコールインするのに使用できるダイヤルイン番号と一緒に、会議出席依頼の下に含まれています。 ユーザーが電話番号をダイヤルするときに、発信者が会議に参加できるように、会議の自動応答は発信者にこの会議 ID の入力を求めます。
   
 > [!NOTE]
-> 会議プロバイダーが Microsoft の場合、ユーザーの会議 ID がデフォルトで「動的のみ」に設定されます。 残念ながら、これはサポートされていないため、静的になるように変更することはできません。 電話会議 Id は、電話会議用に有効になっている Microsoft Teams ユーザーに対してのみ自動的に設定されます。 
-
+> 会議 Id は自動的に生成され、7-9 桁の数字と、ユーザーの電話会議を有効にしたときに設定されます。 **静的な会議 Id はサポートされません。** 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>ユーザーの会議 ID をリセットする
 
@@ -42,11 +41,11 @@ ms.locfileid: "44666199"
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
-2. [**編集**] をクリックします。
+2. [ **編集**] をクリックします。
 
-3. [電話**会議**] の [**会議 ID のリセット**] をクリックします。
+3. [電話 **会議** ] の [ **会議 ID のリセット**] をクリックします。
 
-2. [**電話会議 ID のリセット**] ウィンドウで、[**リセット**] をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、メールはユーザーに送信されますが、無効にすることもできます。   
+2. [ **電話会議 ID のリセット** ] ウィンドウで、[ **リセット**] をクリックします。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 既定では、メールはユーザーに送信されますが、無効にすることもできます。   
 
     
 > [!NOTE]
@@ -59,7 +58,7 @@ ms.locfileid: "44666199"
 
 - 電話会議**のセクションで**、[電話会議情報を**メールで送信**する] をクリックすると、会議 ID、ダイヤルイン電話番号など、会議のすべての情報をメールでユーザーに送信できます。 PIN は送信されません。
     
-- 会議 ID には8桁の数字が含まれており、その長さを変更することはできません。
+- 7-9 桁の会議 ID は、Teams サービスによって作成されます。 この長さを変更することはできません。
     
 - 会議 ID をリセットすると、新しい会議 ID が [ **電話会議 ID**] に一覧表示されます。
     

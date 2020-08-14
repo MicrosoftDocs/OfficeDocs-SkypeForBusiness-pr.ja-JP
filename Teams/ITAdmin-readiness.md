@@ -1,6 +1,6 @@
 ---
 title: 管理者トレーニングリソース-Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: jhwang
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -19,26 +19,26 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72b6d93ea24db094827f2b78b751ffb0e6bf907b
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 588142484cbed850f042a1f0b04b862416327eab
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46554617"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672748"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
 トレーニング リソースを使用してTeams について学び、他のユーザーに教えたりワーク ショップを行います。 頻繁にここをチェックし、新しいコンテンツを確認してください。 
 
-|               |               |               |
-| ------------- | ------------- | ------------- |
-| ![手のアイコンと上向き矢印](media/get-started-blue-small.svg)  | [一部のチームとチャンネルですばやく始めましょう](/MicrosoftTeams/get-started-with-teams-quick-start) | ![チェックマークを示すアイコン](media/success-small.svg)  | [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![2人のユーザーを示すアイコン](media/users-people-small.svg)  | [ユーザー向けのトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+|               |               |               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![手のアイコンと上向き矢印](media/get-started-blue-small.svg)  | [一部のチームとチャンネルですばやく始めましょう](/MicrosoftTeams/get-started-with-teams-quick-start) | ![チェックマークを示すアイコン](media/success-small.svg)  | [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![2人のユーザーを示すアイコン](media/users-people-small.svg)  | [ユーザー向けのトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![タスククリップボードのアイコン](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30のチーム: IT 管理者のためのトレーニングシリーズで、30日以内にチームを導入するための管理リーダーを変更します。](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>テクニカルなトレーニング</h2>
 
 | モジュール | ビデオ | PowerPoint デッキ  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft のメカニズム-IT YouTube チャネルの Teams の基礎](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: IT のための Teams の基礎](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn)(10:13 分)<br>[ビデオ: Teams を展開 & 構成する-概要](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)(8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4)(12:42 分)<br>[ビデオ: セキュリティとコンプライアンスのための Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k)(10:54 分)||
+| [Microsoft のメカニズム-IT YouTube チャネルの Teams の基礎](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: IT のための Teams の基礎](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 分)<br>[ビデオ: Teams を展開 & 構成する-概要](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4) (12:42 分)<br>[ビデオ: セキュリティとコンプライアンスのための Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 分)||
 | コア コンポーネントの基礎 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
 | ガバナンス、管理とライフサイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
@@ -50,7 +50,7 @@ ms.locfileid: "46554617"
 | 動的な緊急通話 | [ビデオ](https://aka.ms/teams-dec) |  [デッキ](https://aka.ms/teams-dec-deck) |
 | ライブ イベント | [ビデオ](https://aka.ms/teams-live-events-session) | [デッキ](https://aka.ms/teams-live-events-deck) |
 | 電話システムの概要 | [ビデオ](https://aka.ms/teams-phone-system) | [デッキ](https://aka.ms/teams-phone-system-deck) |
-| ダイレクト ルーティング | [ビデオ 1: Teams で直接ルーティングを計画する](https://aka.ms/teams-dr-plan)<br>[ビデオ 2: Teams での直接ルーティングの構成と管理](https://aka.ms/teams-dr-config)<br>[ビデオ 3: Teams でダイレクトルーティングに移行する](https://aka.ms/teams-dr-migrate)  | [デッキ](https://aka.ms/teams-direct-routing-deck) |
+| ダイレクト ルーティング | [ビデオ 1: Teams で直接ルーティングを計画する ](https://aka.ms/teams-dr-plan)<br>[ビデオ 2: Teams での直接ルーティングの構成と管理](https://aka.ms/teams-dr-config)<br>[ビデオ 3: Teams でダイレクトルーティングに移行する](https://aka.ms/teams-dr-migrate)  | [デッキ](https://aka.ms/teams-direct-routing-deck) |
 | Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードの計画](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者体験](https://aka.ms/teams-upgrade-admin) | [デッキ](https://aka.ms/teams-upgrade-deck)|
 
 <h2>クイック スタート ガイド</h2>

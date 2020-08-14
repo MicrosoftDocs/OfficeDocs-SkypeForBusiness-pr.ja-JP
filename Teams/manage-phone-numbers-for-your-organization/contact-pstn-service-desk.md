@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織の電話番号やポート (転送) 番号を取得する場合、PSTN サービスデスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: 7e259010772dd655f748f30e3de291a4a43c5cef
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: b0ba69aae5c25db788279ec4e28ad306514b1974
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597062"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662097"
 ---
 # <a name="pstn-service-desk-contact-information"></a>PSTN サービスデスクの連絡先情報
 
@@ -36,8 +36,9 @@ PSTN サービスデスクチームに問い合わせるには、次の表に記
 
 | **既存の電話番号を移行/移植する**  | **の新しい番号を注文する** |
 |:-----:|:------:|
-| **米国**または**カナダ**国内の場合は、 [ptn@microsoft.com](mailto:ptn@microsoft.com)にメールを送信**してください**。| **ベルギー、フランス、ドイツ、英国、アイルランド、オランダ、スペイン、スウェーデン、スイス**、 [ptneu@microsoft.com](mailto:ptneu@microsoft.com)にメールを送信します。|
-|**米国**または**カナダ****以外**の場合は、 [ptneu@microsoft.com](mailto:ptneu@microsoft.com)にメールを送信してください。| **残りの部分**では、 [gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)にメールを送信します。|
+| [**米国またはカナダ**国内の場合は、ptn@microsoft.com にメールでお問い合わせください。](mailto:ptn@microsoft.com)| [**ベルギー、フランス、ドイツ、英国、アイルランド、オランダ、スペイン、スウェーデン、スイス**、米国 ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
+|[**米国またはカナダ以外**のお客様は、ptneu@microsoft.com でメールを送信してください。](mailto:ptneu@microsoft.com)| [**世界中の**お客様は、gcstnmsd@microsoft.com でメールを送信](mailto:gcstnmsd@microsoft.com)|
+|着信要求に大きなスパイクがあるため、 **北アメリカの移植チーム** のバックログが発生します。 このバックログを FIFO (先入れ先出し) ベースでクリアするために取り組んでいます。その結果、 **新しい要求への返信が遅延されます。**|着信要求に大きなスパイクがあるため、 **EU の移植チーム** のバックログが発生します。 このバックログを FIFO (先入れ先出し) ベースでクリアするために取り組んでいます。その結果、 **新しい要求への返信が遅延されます。**|
 
 > [!NOTE]
 > 受信要求が大幅に増加したため、北米の応答が遅れる可能性があります。 バックログは FIFO (先入れ先出し) ベースで消去されます。
@@ -56,12 +57,12 @@ PSTN サービスデスクチームに問い合わせるには、次の表に記
 
 ## <a name="additional-resources"></a>その他のリソース
 
-- 番号の設定、構成、ライセンス、料金、または課金に関連するサポートについては、「[ビジネス製品のサポートへの問い合わせ-管理者向けヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)」を参照してください。
-- お住まいの国または地域で利用可能な通話プランの詳細については、「[電話会議と通話プランの国と地域の空き時間](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。
-- 組織の電話番号の適切な種類を選択するのに役立つ情報については、「[プランの発信に使用するさまざまな電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)」を参照してください。
-- 組織の電話番号の設定方法については、「[ビジネス製品のサポートへのお問い合わせ-管理者向けヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)」を参照してください。
+- 番号の設定、構成、ライセンス、料金、または課金に関連するサポートについては、「 [ビジネス製品のサポートへの問い合わせ-管理者向けヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)」を参照してください。
+- お住まいの国または地域で利用可能な通話プランの詳細については、「 [電話会議と通話プランの国と地域の空き時間](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)情報」を参照してください。
+- 組織の電話番号の適切な種類を選択するのに役立つ情報については、「 [プランの発信に使用するさまざまな電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)」を参照してください。
+- 組織の電話番号の設定方法については、「 [ビジネス製品のサポートへのお問い合わせ-管理者向けヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

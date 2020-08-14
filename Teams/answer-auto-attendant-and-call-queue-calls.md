@@ -1,8 +1,8 @@
 ---
 title: 自動応答と通話キューへの通話に応答する
 ms.reviewer: waseemh
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ea09e005dea2a89cb23b55a8ac59eaf491df460
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582824"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672878"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 ===========================================================

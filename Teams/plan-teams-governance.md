@@ -3,7 +3,6 @@ title: Teams でのガバナンスを計画する - Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/10/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
@@ -18,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656358"
+ms.locfileid: "46662117"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
@@ -123,7 +122,7 @@ Project ベースのメンバーを一貫して管理する、またはグルー
 | 権利管理 | ユーザーおよびゲストがチームへのアクセスを要求できるように access パッケージをセットアップする | P2 | TBD |
 
 > [!NOTE]
-> 事前の計画を立てるために、[必要なライセンスの詳細についてご](https://azure.microsoft.com/pricing/details/active-directory/)確認ください。
+> 事前の計画を立てるために、 [必要なライセンスの詳細についてご](https://azure.microsoft.com/pricing/details/active-directory/)確認ください。
 
 ### <a name="additional-information"></a>追加情報
 
@@ -153,7 +152,7 @@ Teams にはポリシーを介して、メッセージング、会議、通話�
 - [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 - [Teams のメッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 
-さらに、チャネルのモデレーションを設定し、特定のユーザーに対してモデレーター機能を提供して、チャネルの投稿を作成したり、それらに返信したりできるユーザーを制御できるようにすることができます。 詳細については[、「Microsoft Teams でチャネルのモデレーションを設定および管理](manage-channel-moderation-in-teams.md)する」を参照してください。
+さらに、チャネルのモデレーションを設定し、特定のユーザーに対してモデレーター機能を提供して、チャネルの投稿を作成したり、それらに返信したりできるユーザーを制御できるようにすることができます。 詳細については [、「Microsoft Teams でチャネルのモデレーションを設定および管理](manage-channel-moderation-in-teams.md) する」を参照してください。
 
 ## <a name="security-and-compliance"></a>セキュリティとコンプライアンス
 

@@ -17,7 +17,7 @@ description: Microsoft Teams ミーティングをサポートするための要
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 554ce35c640b97c0deb9291e6c797b9302bee50c
 ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46576939"
@@ -38,7 +38,7 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
 > [!NOTE]
 > Microsoft Teams ミーティングでは、Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015、または Skype for Business Online にサインインし、これらのサービスでホストされている会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams ミーティングではサポートしていません。 Microsoft Teams 室は、21Vianet が運営する Microsoft 365 または Office 365、または GCC-高、または DoD 環境ではサポートされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams ミーティングではサポートしていません。 Microsoft Teams ミーティングは、21Vianet、GCC-High もしくは DoD 環境で運用している Microsoft 365 または Office 365 ではサポートされません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams ミーティングでは Exchange Server 2013 SP1 以降を使用する必要があります。
 
@@ -54,25 +54,25 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
   |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
   |[Crestron Flex UC- B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
   |[Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
-  [C140-T のフレックス](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 GB |128 GB|
-  |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 GB |128 GB |
-  |[MX150-T のフレックス](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
+  [Crestron Flex UC-C140-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 GB |128 GB|
+  |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/ja-JP/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 GB |128 GB |
+  |[Crestron Flex UC-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
    [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
   |[Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready + Microsoft Teams ミーティング](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
-  |[お使いの HP Slice パートナー (Logitech タップ)]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
+  |[Logicool TAP を備えた HP スライス パートナー対応]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
-  |[Logitech タップ (Intel NUC)](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
-  |[Logitech をタップして Lenovo 思考センター M920 Tiny](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
-  |[NUC での MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
-  |[NUC での MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
-  |[NUC での MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
-  |[NUC での MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
-  |["ごみ箱" MVC 300 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 GB | 128 GB|
-  ["ごみ箱" MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 GB | 128 GB|
-  ["ごみ箱" MVC 800 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 GB | 128 GB|
-  ["ごみ箱" MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
+  |[Logicool Tap と Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
+  |[Logitech Tap と Lenovo Think Center M920 Tiny](https://www.logitech.com/ja-JP/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
+  |[Yealink MVC300 と Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
+  |[Yealink MVC500 と Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
+  |[Yealink MVC800 と Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
+  |[Yealink MVC900 と Intel NUC](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
+  |[Yealink MVC 300 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 GB | 128 GB|
+  [Yealink MVC 500 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 GB | 128 GB|
+  [Yealink MVC 800 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 GB | 128 GB|
+  [Yealink MVC 900 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
   ||||||
 
 > [!NOTE]
@@ -87,9 +87,9 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
   |Surface Pro </br>(第 5 世代) |Core i5 |8 GB または 4 GB |128 GB 以上 |
   |Surface Pro 4 |Core i5 |8 GB または 4 GB |128 GB 以上 |
 
-- Surface Pro デバイスには、次のドッキングステーションオプションのいずれかが必要です。
+- Surface Pro デバイスでは、次のドッキング ステーション オプションのいずれか 1 つが必要です:
 
-  - [ロジクール SmartDock](https://www.logitech.com/product/smartdock)
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
   - [Polycom MSR シリーズ](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
@@ -99,20 +99,20 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
 
 |Microsoft Teams ミーティングの周辺機器|認定ファームウェア バージョン | コンテンツ カメラとして使用できるカメラ|
 |:--- |:--- | :--- |
-|[Aver カム540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
+|[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
-|[Huddly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
+|[Huddly キャンバス](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Jabra Panacast カメラ](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
-|[ロジクール Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
-|[ロジクール 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
-|[ロジクール Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
-|[ロジクール MeetUp](https://www.logitech.com/product/meetup-conferencecam)   |オーディオ — 1.0.172 <br/> ビデオ — 1.0.156  |
-|[ロジクール ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
-|[ロジクール Group](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
-|[ロジクール PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
-|[ロジクール PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
+|[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
+|[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
+|[Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam)   |オーディオ — 1.0.172 <br/> ビデオ — 1.0.156  |
+|[Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
+|[Logitech Group](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
+|[Logitech PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
+|[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
 |[Poly EagleEye Cube カメラ](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
 |[Polycom EagleEye IV](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
@@ -128,13 +128,13 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[ヤマハ YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
-|[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 テーブル アレイ マイク](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
-|[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 + Intellimix シーリング アレイ マイク](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
+|[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/ja-JP/products/mixers/p300)+</br></br> [Shure MXA 310 テーブル アレイ マイク](https://www.shure.com/ja-JP/products/microphones/mxa310) | 4.1 |
+|[Shure Intellimix P300 オーディオ プロセッサ](https://www.shure.com/ja-JP/products/mixers/p300) + </br></br> [Shure MXA 910 + Intellimix シーリング アレイ マイク](https://www.shure.com/ja-JP/products/microphones/mxa910) | 4.1|
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [ゼンハイザー TeamConnect Ceiling 2 マイク](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
-|[Biamp Tesira FORTÉ AVB VT4 オーディオ DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp の天井の天井マイク](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 天井搭載のスピーカー](https://www.biamp.com/products/tesira-speakers)| Audio FW バージョン: 3.15|
-|[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[クロス TM-X (テーブルマイク)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Audio FW バージョン: 3.15|
+|[Biamp Tesira FORTÉ AVB VT4 オーディオ DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA シーリング マイク](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 天井埋め込み型スピーカー](https://www.biamp.com/products/tesira-speakers)| Audio FW バージョン: 3.15|
+|[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(テーブル マイク)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Audio FW バージョン: 3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink アンプ +</br> ゼンハイザー TCC2 シーリング マイク + </br> Bose EdgeMax EM180 天井埋め込み型スピーカー](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
-|[Bose ControlSpace: 440C DSP + </br> BOSE P2600A AmpLink アンプ + SENNHEISER TCC2 天井マイク + </br> Bose デザイン最大 DM2C-P 天井スピーカー](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
+|[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink アンプ + ゼンハイザー TCC2 シーリング マイク + </br> Bose DesignMax DM2C-P 天井埋め込み型スピーカー](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 ||||||
 
 
@@ -160,19 +160,19 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
 
 |会議室の種類|ユーザー数|推奨されるマイクとスピーカーの最大間隔|会議室の最大サイズ別デバイス|注釈|
 |:-----|:-----|:-----|:-----|:-----|
-|**フォーカス** <br/> 10' x 9'   |2 ～ 4  |1.5 m  |ロジクール Connect  |ロジクール Connect デバイスにはカメラが組み込まれているため、ローカルの会議出席者を撮影するには、(テーブルの中央ではなく) 会議室の正面に配置する必要があります。 |
+|**フォーカス** <br/> 10' x 9'   |2 ～ 4  |1.5 m  |Logitech Connect  |ロジクール Connect デバイスにはカメラが組み込まれているため、ローカルの会議出席者を撮影するには、(テーブルの中央ではなく) 会議室の正面に配置する必要があります。 |
 |**小規模** <br/> 16' x 16'  |4 ～ 6  |2.0 m  |Jabra 510 <br/> ゼンハイザー SP20  |これよりも大きい会議室では、再生音量が制限される場合があります。  |
-|**中規模** <br/> 18' x 20'  |6 ～ 12  |2.4 m  |Jabra 710 <br/> Jabra 810 <br/> ロジクール MeetUp <br/> ロジクール Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> ゼンハイザー SP 220 MS <br/> ヤマハ YVC-1000MS  |ロジクール Connect デバイスにはカメラが組み込まれているため、(ローカルの会議出席者を撮影するにはテーブルの中央ではなく) 会議室の正面に配置する必要があります。 <br/> 一般的に、長い長方形のテーブルまたは U 字型のテーブルが使用されている会議室では、サテライト マイクを使用すると役立ちます。 <br/> デイジーチェーン構成では SP 220 MS を使用する必要があります。  |
-|**大規模** <br/> 15' x 32'  |12 ～ 16  |3 m <br/> この間隔は、接続されている各サテライト マイクの対象エリアにも適用されます。  |ロジクール Group + サテライト マイク <br/> Polycom Trio+ サテライト マイク <br/> Polycom CX5100 + サテライト マイク <br/> ゼンハイザー SP 220 MS <br/> ヤマハ YVC-1000MS + サテライト マイク  |この行に記載されているすべてのオーディオ デバイスは、サテライト マイク オプションをサポートしています。 <br/> CX5100 には全方位カメラが内蔵されているため、このデバイスはテーブルの中央に配置できます。 <br/> デイジーチェーン構成では SP 220 MS を使用する必要があります。  |
+|**中規模** <br/> 18' x 20'  |6 ～ 12  |2.4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> ゼンハイザー SP 220 MS <br/> ヤマハ YVC-1000MS  |Logitech Connect デバイスにはカメラが組み込まれているため、(ローカルの会議出席者を撮影するにはテーブルの中央ではなく) 会議室の正面に配置する必要があります。 <br/> 一般的に、長い長方形のテーブルまたは U 字型のテーブルが使用されている会議室では、サテライト マイクを使用すると役立ちます。 <br/> デイジーチェーン構成では SP 220 MS を使用する必要があります。  |
+|**大規模** <br/> 15' x 32'  |12 ～ 16  |3 m <br/> この間隔は、接続されている各サテライト マイクの対象エリアにも適用されます。  |Logitech Group + サテライト マイク <br/> Polycom Trio+ サテライト マイク <br/> Polycom CX5100 + サテライト マイク <br/> ゼンハイザー SP 220 MS <br/> ヤマハ YVC-1000MS + サテライト マイク  |この行に記載されているすべてのオーディオ デバイスは、サテライト マイク オプションをサポートしています。 <br/> CX5100 には全方位カメラが内蔵されているため、このデバイスはテーブルの中央に配置できます。 <br/> デイジーチェーン構成では SP 220 MS を使用する必要があります。  |
 
 **Microsoft Teams ミーティングの認定ビデオ周辺機器**
 
 |会議室の種類|ユーザー数|最適な会議室のサイズ別デバイス|注釈|
 |:-----|:-----|:-----|:-----|
-|**フォーカス** <br/> 10' x 9'  |2 ～ 4  |ロジクール Connect <br/> ロジクール MeetUp <br/> Polycom CX5100  ||
-|**小規模** <br/> 16' x 16'  |4 ～ 6  |ロジクール C930e <br/> ロジクール MeetUp <br/> ロジクール BRIO <br/> ロジクール PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |多くの場合、ロジクール PTZ Pro はロジクール Group にバンドルされています。  |
-|**中規模** <br/> 18' x 20'  |6 ～ 12  |ロジクール MeetUp <br/> ロジクール BRIO <br/> ロジクール PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
-|**大規模** <br/> 15' x 32'  |12 ～ 16  |ロジクール PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|**フォーカス** <br/> 10' x 9'  |2 ～ 4  |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100  ||
+|**小規模** <br/> 16' x 16'  |4 ～ 6  |Logitech C930e <br/> Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |多くの場合、Logitech PTZ Pro Logitech Group にバンドルされています。  |
+|**中規模** <br/> 18' x 20'  |6 ～ 12  |Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|**大規模** <br/> 15' x 32'  |12 ～ 16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
 
  > [!NOTE]
  > 会議室正面のディスプレイの解像度は 1920x1080p 以下に設定してください。
