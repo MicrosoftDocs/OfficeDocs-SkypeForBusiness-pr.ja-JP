@@ -18,20 +18,20 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8358aaf175536ea567c6972d878466bdb004b660
-ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
+ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588271"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656338"
 ---
-# <a name="microsoft-teams-admin-training"></a>Microsoft Teams の管理者トレーニング
+# <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
 |               |               |
 | ------------- | ------------- |
 | <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | **[管理者トレーニング](/microsoftteams/itadmin-readiness)** </br> これらのチュートリアル、ビデオ、およびその他のトレーニング リソースを使用して、Teams について学習し、組織内での使用を促進します。 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[講師による指導付きトレーニング](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Teams を使いこなすための、Microsoft が主催する無料のライブ オンライン トレーニング クラス。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[エンドユーザーのトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> これらのトレーニング リソースを使用して、組織内のユーザーが Teams を最大限に活用できるようにします。 |
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams のライブ トレーニング](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Teams を使いこなすための、Microsoft が主催する無料のライブ オンライン トレーニング クラス。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams のオンライン トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 自分のペースで学習できるこれらのトレーニング リソースを使用して、ユーザーが Teams を最大限に活用できるようにします。 |
 
 ## <a name="dont-miss-this-key-training"></a>この重要なトレーニングをお見逃しなく
 
@@ -78,5 +78,4 @@ ms.locfileid: "46588271"
    :::column-end:::
 
 :::row-end:::
-
 ---
