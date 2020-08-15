@@ -125,6 +125,7 @@
 ## [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Teams で組織のリストアプリを管理する](manage-lists-app.md)
 ## [組織のタスク アプリを管理する](manage-tasks-app.md)
+## [Teams 管理センターで称賛アプリを管理する](manage-praise-app.md)
 ## [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
 ## [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -168,6 +169,7 @@
 
 ## [チュートリアル: Teams での会議](Tutorial-Meetings-in-Teams.yml)
 ## [会議ポリシーを管理する](meeting-policies-in-teams.md)
+## [ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する](meeting-policies-restricted-anonymous-access.md)
 ## [会議の設定を管理する](meeting-settings-in-teams.md)
 ## [ユーザーの設定を変更したときに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [ユーザーが会議に参加するときに名前を記録できるようにする](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -829,6 +831,7 @@
 ## サポート対象のデバイス
 ### [Teams でのデバイスの管理](devices/device-management.md)
 ### [デバイスをリモートで更新する](devices/remote-update.md)
+### [Teams デバイス タグを管理する](devices/manage-device-tags.md)
 ### [Teams 対応の電話機](devices/phones-for-teams.md)
 ### [USB オーディオ デバイスおよびビデオ デバイス](devices/usb-devices.md)
 ### [Microsoft Teams の共同作業バーを展開する](devices/collab-bar-deploy.md)
