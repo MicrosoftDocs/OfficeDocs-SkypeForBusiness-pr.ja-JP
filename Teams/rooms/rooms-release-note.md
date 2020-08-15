@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams ミーティングの累積的な改善リストである Microsoft Teams ミーティングのリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2975d384fd0d09b36e18802dbede4e8ec7dc721b
-ms.sourcegitcommit: f1834bb47452007480269b5a5cdad20037c32ef6
-ms.translationtype: HT
+ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45390117"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761323"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -29,6 +29,7 @@ ms.locfileid: "45390117"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
@@ -65,6 +66,12 @@ ms.locfileid: "45390117"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams ミーティング機能の概要と問題の解決
+
+### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
+
+この更新プログラムで導入されるもの:
+- Microsoft Teams と Surface Hub 2S の間での調和した会議 
+- [Windows 10 更新](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351)プログラム[KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709)がインストールされている場合に、Skype for business のサインインエラーを解決する KB4565351
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 

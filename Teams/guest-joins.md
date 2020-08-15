@@ -18,12 +18,12 @@ description: 組織外のユーザーを Microsoft Teams のチームにゲス�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 476640953c0b3773fde44727dede6b95e6bf676d
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 985374db5ff44d19efb26571dc7e9a0e78241002
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655918"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761233"
 ---
 <a name="how-a-guest-joins-a-team"></a>ゲストがチームに参加する方法
 ========================
@@ -31,11 +31,11 @@ ms.locfileid: "46655918"
 Microsoft Teams でのチーム所有者は、Web またはデスクトップを介してチームにゲストを追加したり、チームのゲストを管理できます。 Outlook、Gmail などの勤務先または通常のメール アカウントを持っているユーザーは、チーム チャット、会議、ファイルに完全なアクセス権を持つゲストとして Teams に参加することができます。 パートナーやコンサルタントなど組織外の人のみをゲストとして追加できます。 組織内のユーザーは通常のチーム メンバーとして参加できます。
   
 > [!NOTE]
-> 既定では、ゲスト アクセスはオフになっています。 ゲストがチームに参加するには、管理者が Teams でゲスト アクセスを事前にオンにする必要があります。 そのためには、[ゲスト アクセスのチェックリスト](guest-access-checklist.md)を使用します。 
+> 既定では、ゲスト アクセスはオフになっています。 ゲストがチームに参加するには、管理者が Teams でゲスト アクセスを事前にオンにする必要があります。 そのためには、「 [チームでゲストと共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)を行う」を参照してください。 
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>ゲストをチームのメンバーにする方法
 
-1. チーム所有者または Microsoft 365 または Office 365 管理者が、[ゲストをチームに追加](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)します。
+1. チーム所有者または Microsoft 365 または Office 365 管理者が、 [ゲストをチームに追加](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)します。
 1. Microsoft 365 または Office 365 管理者またはチーム所有者は、必要に応じてゲストの機能を管理します。たとえば、チャネルを追加または削除したり、ファイルへのアクセスを無効にしたりすることができます。
 1. ゲストが、チームに関する情報と、チームのメンバーとして要求される事項が記載されたようこそメールを、チーム所有者から受信します。 
 1. ゲストが招待を承諾します。

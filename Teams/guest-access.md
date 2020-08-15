@@ -8,8 +8,7 @@ ms.service: msteams
 ms.reviewer: sbhatta
 audience: admin
 search.appverid: MET150
-description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-localization_priority: Priority
+localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
@@ -18,28 +17,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67ddc045c04c1c3d8cb9bffa0ee15ebf71c70c2f
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
-ms.translationtype: HT
+description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
+ms.openlocfilehash: f04fce7f75df32111b2577119c12b14eadf963b9
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656108"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761243"
 ---
-<a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
-======================================
+# <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
-ゲスト アクセスを使用すると、組織外の個々のユーザーを Microsoft Teams のチームとチャネルに追加できます。 
+ゲスト アクセスにより、組織内のチームは組織外の人に Teams の既存のチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。 Microsoft 365、Outlook、Gmail などのビジネス用またはコンシューマー用のメールアカウントを持っているユーザーは、チームのチャット、会議、ファイルに完全にアクセスできるゲストとして参加することができます。 Teams の管理者は、ゲストがチームで使用できる (使用できない) 機能を制御します、「[ゲスト アクセスの管理](manage-guests.md)」をご覧ください。
 
 外部アクセス (フェデレーション) とゲスト アクセスを比較する (および使用するアクセスを決定する) には、「[Teams の他の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」をご覧ください。
 
-組織でゲスト アクセスをオンにする準備ができたら、「[ゲスト アクセスのチェックリスト](guest-access-checklist.md)」から始めます。
+ゲスト アクセスは Teams の組織全体の設定であり、既定ではオフになっています。 ( [機密ラベル](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)を使用して、個々のチームへのゲストアクセスを制御することができます。)
 
-## <a name="guest-access-overview"></a>ゲスト アクセスの概要
+ゲストを teams に招待する準備ができたら、次のいずれかを実行します。
 
-ゲスト アクセスにより、組織内のチームは組織外の人に Teams の既存のチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。 Outlook、Gmail などの勤務先または通常のメール アカウントを持っている全てのユーザーは、チーム チャット、会議、ファイルにフル アクセス権を持つゲストとして Teams に参加することができます。 Teams の管理者は、ゲストがチームで使用できる (使用できない) 機能を制御します、「[ゲスト アクセスの管理](manage-guests.md)」をご覧ください。
+- 一般に使用するために Teams のゲストアクセスを構成するには、「 [チームのゲストとの共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照してください。
+- Azure Active Directory を使用するパートナー組織と共同作業し、ゲストがチームアクセスを自己登録できるようにする方法については、「管理され [たゲストで B2B エクストラネットを作成](https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet)する」を参照してください。
 
-ゲスト アクセスは Teams の組織全体の設定であり、既定ではオフになっています。 ゲスト アクセスは Azure AD および、Microsoft 365 または Office 365 のサービス制限の対象になります。
-
+ゲスト アクセスは Azure AD および、Microsoft 365 または Office 365 のサービス制限の対象になります。
 
 > [!IMPORTANT]
 > ゲスト ユーザーは、共存アップグレード モードの Teams の組織全体の設定に従います。 これは変更できません。
@@ -58,17 +57,17 @@ ms.locfileid: "46656108"
 
 ゲストができることとできないことの詳細については、「[Microsoft Teams でゲスト アクセスを許可する](teams-dependencies.md)」をご覧ください。 または、[チーム メンバーとゲスト機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表をご覧ください。 
 
-最後に、Teams のすべてのゲストは、その他の Microsoft 365 および Office 365 と同じコンプライアンスと監査保護の対象になり、Azure AD 内で安全に管理されます。
+最後に、Teams のすべてのゲストは、他の Microsoft 365 と同じコンプライアンスおよび監査保護によってカバーされ、Azure AD 内で管理することができます。
 
 ## <a name="why-use-guest-access"></a>ゲスト アクセスを使用する理由を教えてください。
 
-ゲスト アクセスにより、Teams を使用している組織は、企業データに対する完全な制御を維持しながら、パートナーにチーム、チャネル内のドキュメント、リソース、チャット、アプリケーションへのアクセスを提供することができます。 Teams のすべてのゲストは、Microsoft 365 および Office 365 と同様のコンプライアンスと監査による保護の対象となります。また、ゲストは Azure AD 内で安全に管理されます。  
+ゲスト アクセスにより、Teams を使用している組織は、企業データに対する完全な制御を維持しながら、パートナーにチーム、チャネル内のドキュメント、リソース、チャット、アプリケーションへのアクセスを提供することができます。 
 
 ## <a name="understand-the-limitations-for-guests"></a>ゲストに対する制限事項を理解する
 
-ゲスト エクスペリエンスでは、デザインによる制限があります。問題ではないものを修正しようとしないために、必ずゲスト エクスペリエンスを理解してください。たとえば、Microsoft Teams のゲストが利用できない一部の機能を以下にリストします。
+ゲストのエクスペリエンスには、仕様上の制限がかかっています。 ゲストのエクスペリエンスを確実に理解して、実際の問題ではないことを修正する試みをしないようにしてください。 Microsoft Teams のゲストで利用できない機能の一部を次に示します。
 
-- OneDrive for Business
+- OneDrive
 - Teams 外部のユーザーの検索
 - カレンダー、予約済みの会議、会議の詳細
 - PSTN
@@ -76,13 +75,13 @@ ms.locfileid: "46656108"
 - チームの作成または修正
 - チームの参照
 - 個人対個人のチャットへのファイルのアップロード
-- 現在、Teams は、[Azure B2B で定義](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)されている状態 1 および状態 2 のゲスト ユーザーのみをサポートします。
+- 現時点では、チームは、[状態1と状態2のゲストユーザー](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)のみをサポートしています。
 
-ゲストが Teams でできることとできないことの完全なリストについては、「[チーム メンバーとゲスト機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」表をご覧ください。 Microsoft 365 および Office 365 レベルでのゲスト アクセスの詳細については、「[ゲストを Microsoft 365 グループに追加する](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)」を参照してください。
+ゲストが Teams でできることとできないことの完全なリストについては、「[チーム メンバーとゲスト機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」表をご覧ください。 Microsoft 365 レベルでのゲストアクセスの詳細については、「 [組織外の人と共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)を行う」を参照してください。
 
 
-## <a name="more-information"></a>詳細情報
+## <a name="related-topics"></a>関連トピック
 
-[ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)  
-[ゲストを Microsoft 365 グループに追加する](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
-  
+[ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
+[3つのレベルの保護を使用してチームを構成する](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)

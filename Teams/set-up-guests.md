@@ -17,17 +17,17 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6674f755c4f6a36c3877680aa0c4c4de4f27c83c
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656198"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761153"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 ===================================================
 
-既定では、ゲスト アクセスはオフになっています。 Microsoft 365 または Office 365 管理者は、管理者またはチーム所有者がゲストを追加する前に、チームのゲストアクセスを有効にする必要があります。 ゲスト アクセスをオンにするには、[ゲスト アクセスのチェックリスト](guest-access-checklist.md)を使用します。 
+既定では、ゲスト アクセスはオフになっています。 Microsoft 365 または Office 365 管理者は、管理者またはチーム所有者がゲストを追加する前に、チームのゲストアクセスを有効にする必要があります。 ゲストアクセスを有効にするには、 [チームのゲストと共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)を行います。 
 
 ゲストアクセスを有効にすると、変更が反映されるまでに数時間かかることがあります。 ユーザーがチームにゲストを追加しようとするときに "Contact your administrator (管理者にお問い合わせください)" というメッセージが表示される場合、ゲスト アクセスがオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。
 
