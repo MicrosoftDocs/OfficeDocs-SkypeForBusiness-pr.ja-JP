@@ -63,7 +63,6 @@
 
 ### ゲスト アクセス
 #### [ゲスト アクセスについて](guest-access.md)
-#### [ゲスト アクセスのチェックリスト](guest-access-checklist.md)
 #### [ゲストがチームに参加する方法](guest-joins.md)
 #### [ゲストのエクスペリエンスについて](guest-experience.md)
 #### [Teams でのゲスト アクセスを承認する](teams-dependencies.md)
@@ -148,6 +147,9 @@
 ### 展開
 #### [展開の概要](rooms/rooms-deploy.md)
 #### [アカウントを構成する](rooms/rooms-configure-accounts.md)
+#### Surface Hub
+##### [最適化された会議を設定する](rooms/coordinated-meetings.md)
+##### [Microsoft Teams 設定の管理](rooms/surface-hub-manage-config.md)
 #### [Office 365 の場合](rooms/with-office-365.md)
 #### [Skype for Business Server の場合](rooms/with-skype-for-business-server-2015.md)
 #### [Exchange Online の場合 (ハイブリッド)](rooms/with-exchange-online.md)
