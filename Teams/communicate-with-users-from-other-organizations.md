@@ -17,12 +17,12 @@ description: 外部アクセス (フェデレーション) とゲスト アク�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 28897d5d94d56a7113fc555e0547192931caf3eb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581798"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761383"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams の別の組織のユーザーと通信する
 ======================================================
@@ -51,7 +51,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 - ゲスト ユーザーは、外部アクセス (フェデレーション) ユーザーよりも多くの Teams (ファイル、チーム、チャネルなど) のリソースにアクセスできます。
 - Teams 管理者は、ゲストが Teams 管理センターでできること (またはできないこと) をすべて制御します。 詳細については、「[ゲスト アクセスを管理する](manage-guests.md)」をご覧ください。
 
-組織でゲスト アクセスをオンにする準備ができたら、「[ゲスト アクセスのチェックリスト](guest-access-checklist.md)」から始めます。
+組織でゲスト アクセスをオンにする準備ができたら、「[チームでゲストと共同で作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」から始めます。
 
 
 ## <a name="compare-external-and-guest-access"></a>外部アクセスとゲスト アクセスの比較

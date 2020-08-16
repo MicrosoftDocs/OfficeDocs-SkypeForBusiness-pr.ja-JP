@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
-ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648598"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761353"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -91,7 +91,7 @@ Teams のアドバイザーは現在、次のプランを提供しています�
 |Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが**必須です**。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。    |
 |Exchange Online ライセンス     |使用可能な Exchange Online のライセンスで有効なサブスクリプションを所有しているかどうか 基本的な Teams 機能には Exchange は必要ありませんが、Exchange との統合により、最適な Teams エクスペリエンスが可能になります。 Microsoft Graph 内を検索して、テナントに関連付けられているサブスクリプションを分析し、対象の (割り当て可能なライセンスが少なくとも 1 つはある) Exchange Online ライセンスのサブスクリプションがあるかどうかを検証します。 詳細については、「[Exchange と Teams の連携](exchange-teams-interact.md)」をご覧ください。    |
 |SharePoint Online のライセンス     |使用可能な SharePoint Online のライセンスで有効なサブスクリプションを所有しているかどうか チャットのファイル ストレージに OneDrive for Business を提供する場合、ユーザーごとに SharePoint Online ライセンスを所有することをお勧めします。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) SharePoint Online ライセンスがあるかどうかを確認します。 詳細については、[Teams との SharePoint Online と OneDrive for Business の連携](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)をご覧ください。    |
-|ゲスト アクセスの有効化     |[ゲスト アクセス](guest-access.md)が有効になっているかどうか。 ゲスト アクセスを使用すると、外部ユーザーをチームに招待できます。 [Teams のゲスト アクセスのチェックリスト](guest-access-checklist.md)を使用して、Teams でゲスト アクセスを有効にします。チェックリストには、必要な Azure AD 構成が含まれています。 |
+|ゲスト アクセスの有効化     |[ゲスト アクセス](guest-access.md)が有効になっているかどうか。 ゲスト アクセスを使用すると、外部ユーザーをチームに招待できます。 「[チームでゲストと共同で作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照して、Teams でゲスト アクセスを有効にします。チェックリストには、必要な Azure AD 構成が含まれています。 |
 |構成済み外部アクセス     |[外部アクセス](manage-external-access.md)が有効になっているかどうか。 規定では、オープン フェデレーションで有効になっています。 |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>チャット、チーム、チャンネル、アプリのアセスメント
