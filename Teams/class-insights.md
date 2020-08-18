@@ -1,5 +1,5 @@
 ---
-title: IT 管理者用 Microsoft Teams for Education のインサイト
+title: Teams for Education インサイトへの IT 管理者ガイド
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
-description: Microsoft Teams for Education 用インサイトへの IT 管理者ガイド。
+description: Teams for Education インサイトへの IT 管理者ガイド。
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -16,29 +16,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e122071a9a4173250a78468126ed576d1e560607
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581498"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778099"
 ---
-# <a name="insights-in-teams-for-education-for-it-admins"></a>IT 管理者用の Teams for Education インサイト
+# <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Teams for Education インサイトへの IT 管理者ガイド
 
-教職員は、Microsoft Teams for Education のインサイトを使って、デジタル契約、課題のワークロード、成績、コミュニケーションなどに関する分析データにアクセスできます。
+教職員やリーダーは、Microsoft Teams for Education のインサイトを使って、デジタル契約、割り当てのワークロード、成績、コミュニケーションなどに関する分析データにアクセスできます。
 
 インサイトは、Office 365 Education SKU 番号 A1、A3、A5 でアクティブになっています。
 
 > [!NOTE]
-> 教職員は、[ここで](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)インサイトの使用方法について学習します。
+> 教職員は、[ここで](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181)インサイトの使用方法について学習します。
 
 ## <a name="permissions"></a>アクセス許可
 
-教職員は、Teams アプリバーの [アプリ] に移動して [インサイト] を検索することで、クラスチーム内のパブリック チャネルにインサイトを追加できます。
+ユーザーの種類: 
+- 学生は、ライセンスによって識別され、たとえチームの所有者であったとしても、インサイト タブへのアクセスはできません。 
+- 教職者は教職員用ライセンスで識別されます。 教職員がインサイト タブで表示されるデータを追加して見ることができるようにするには、教職員用ライセンスを保持し、さらにクラスチームの所有者である必要があります。 
+- リーダーも教職員用ライセンスで識別されますが、さらに IT グローバル管理者からインサイト アプリのレポートを表示するための明示的なアクセス許可が必要です。
 
-- 学生は、ライセンスによって識別され、たとえチームの所有者であったとしても**インサイドタブへのアクセスはできません**。
-- 教職者は教職員用ライセンスで定義されます。
-- 教職員は教職員用のライセンスを持っている必要があり、クラスチームの所有者として [インサイト] タブを追加し確認します。このタブには、(チームの所有者ではない教育者を含む) 所有者以外のクラスチーム内のすべてのユーザーのアクティビティが反映されます。
+教職員やリーダーには、次のように異なるアクセス許可レベルとロジックがあります。
+- 教職員は、Teams アプリ バーの [アプリ] に移動して [インサイト] を検索することで、クラスチーム内のパブリック チャネルにインサイト アプリを追加できます。 このタブには、 所有者以外のクラスチーム内のすべてのユーザーのアクティビティが反映されます（チームの所有者ではない教職員も含む）。 
+- リーダーは、Teams アプリ バーの[アプリ] に移動して [インサイト] を検索することで、インサイト アプリを （Teams の左側メニューに表示されている） 個人用アプリとして追加できます。 
 
 ## <a name="compliance"></a>コンプライアンス
 
@@ -49,7 +52,7 @@ ms.locfileid: "46581498"
 
 ## <a name="privacy"></a>プライバシー
 
-インサイトで収集、表示される情報は、学生、子供、その他同様のプライバシーに関する規定に対して、GDPR、家庭教育の権利とプライバシーに関する法律 （FERPA） などを含む 90 以上の規制および業界標準を満たしています。 IT 管理者は、学生ごとに収集された情報がクラスのコンテキストのみで使用されることを知るのは重要なことで、それにより教職員がクラスの状況を決定できるようになります。 この情報は、クラス会議出席やメッセージ投稿、さらに級友への返信や割り当て作業、ファイル編集など、有益な学習アクティビティに対して収集されます。 たとえば、個人チャットや Teams へのログインに関する情報などを表示することはありません。
+インサイトで収集、表示される情報は、学生、子供、その他同様のプライバシーに関する規定に対して、GDPR、家庭教育の権利とプライバシーに関する法律 （FERPA） などを含む 90 以上の規制および業界標準を満たしています。 学生ごとに収集された情報がクラスのコンテキストのみで使用されることを IT 管理者が知るのは重要であり、それにより教職員とリーダーが学生の振る舞いを決定できるようになります。 この情報は、クラス会議出席やメッセージ投稿、さらに級友への返信や割り当て作業、ファイル編集など、有益な学習アクティビティに対して収集されます。 たとえば、個人チャットや Teams へのログインに関する情報などを表示することはありません。
 
 目標は、教職員が従事を理解し、学生の学習をわかりやすくすることです。 これらのクラス活動は生徒レベルのアクションに絞り込むことができますが、これらのアクションには Microsoft Teams が割り当てる正または負の値はなく、基準に基づく個々の学生の判断識別もありません。 インサイトの情報は、たとえば、学生が特定の期間中にツールでアクティブになっていない場合や、先週のすべての課題を時間内に完了したことを教職員に知らせるものです。 学生、学生の家族、または保護者と連絡を取り合って、検知されたアクティビティの原因を特定したり、アクティビティがなかったことへの原因を特定するのは、教職員の責任にとどまります。
 
@@ -102,4 +105,4 @@ School Data Sync (SDS) は、Student Information System (SIS) データをイン
 
 既定では、Education Analytics とインサイトはオンになっています。 Analytics からオプトアウトすると、[インサイト] タブ用に収集されたすべてのデータが削除されます。Analytics を再び有効にすると、有効になった時間からデータの収集が再開されます。
 
-詳細情報: [教職員用インサイト](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)
+詳細については、「[インサイトへの教職員用ガイド](https://support.microsoft.com/ja-JP/office/educator-s-guide-to-insights-in-microsoft-teams-27b56255-90c0-47aa-bac3-1c9f50157181)」を参照してください。

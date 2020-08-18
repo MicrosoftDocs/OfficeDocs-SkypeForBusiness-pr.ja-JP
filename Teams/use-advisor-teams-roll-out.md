@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
-ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761353"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788401"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -109,7 +109,7 @@ Teams のアドバイザーは現在、次のプランを提供しています�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|電話会議のライセンス    |電話会議のライセンスの有効なサブスクリプションを所有しているかどうか。 これは、電話会議ブリッジを展開する場合の前提条件です。 Microsoft Graph を照会して、(割り当て可能なライセンスが少なくとも 1 つはある) 音声会議ライセンスがあるかどうかを確認します。詳細については、「[Teams アドオンのライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。    |
+|電話会議のライセンス    |電話会議のライセンスの有効なサブスクリプションを所有しているかどうか。 これは、電話会議ブリッジを展開する場合の前提条件です。 Microsoft Graph を照会して、(割り当て可能なライセンスが少なくとも 1 つはある) 音声会議ライセンスがあるかどうかを確認します。詳細については、「[Teams アドオンのライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。    |
 |Stream のライセンス     |使用可能な Microsoft Stream のライセンスで有効なサブスクリプションを所有しているかどうか。 これは、会議の記録を有効にする場合の前提条件です。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Microsoft Stream ライセンスがあるかどうかを確認します。 Stream の詳細および有効化の方法については、「[Teams のクラウド会議の記録](cloud-recording.md)」をご覧ください。
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Skype for Business のアップグレードのアセスメント
