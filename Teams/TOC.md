@@ -143,7 +143,9 @@
 #### [要件](rooms/requirements.md)
 #### [オンライン ライセンス](rooms/rooms-licensing.md)
 #### [Azure Monitor による管理の計画](rooms/azure-monitor-plan.md)
-#### [Microsoft Teams ルーム プレミアムを使用したプラン管理](rooms/microsoft-teams-rooms-premium.md)
+#### Microsoft Teams ミーティングの管理サービス
+##### [Microsoft Teams ミーティングの管理サービスを使用して管理を計画する](rooms/microsoft-teams-rooms-premium.md)
+##### [Microsoft Teams ミーティングの管理サービスを使用したロールベースのアクセス制御](rooms/microsoft-teams-rooms-premium-rbac.md)
 ### 展開
 #### [展開の概要](rooms/rooms-deploy.md)
 #### [アカウントを構成する](rooms/rooms-configure-accounts.md)
