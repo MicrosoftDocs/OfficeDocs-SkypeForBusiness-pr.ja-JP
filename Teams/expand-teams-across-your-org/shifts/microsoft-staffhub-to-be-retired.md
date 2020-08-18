@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0841f6963f12f97bf689557fe50ff8e109897e88
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938316"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778059"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub は廃止されました
 
@@ -71,7 +71,7 @@ Teams のシフトアプリは、Firstline Worker を接続して同期させる
 
 #### <a name="how-do-i-get-shifts"></a>シフトを取得するにはどうすればよいですか? 
 
-シフトを含むプランを既にお持ちの場合は、チームの一員として今日シフトの使用を開始できます。 「[シフトの開始」を](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)ご覧ください。
+シフトを含むプランを既にお持ちの場合は、チームの一員として今日シフトの使用を開始できます。 「 [シフトの開始」を](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)ご覧ください。
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>シフトはどのデバイスまたはプラットフォームで利用できますか?
 
@@ -89,7 +89,10 @@ Teams のシフトアプリは、Firstline Worker を接続して同期させる
 
 #### <a name="what-browsers-does-shifts-work-on"></a>シフトはどのブラウザーで動作しますか?
 
-シフトは、Microsoft Edge、Internet Explorer、Google Chrome、Mozilla Firefox の最新バージョンを含む、Teams でサポートされているすべてのブラウザーで動作します。 詳細については、「[チームのクライアントを取得](../../get-clients.md)する」を参照してください。
+シフトは、Microsoft Edge、Internet Explorer、Google Chrome、Mozilla Firefox の最新バージョンを含む、Teams でサポートされているすべてのブラウザーで動作します。 詳細については、「 [チームのクライアントを取得](../../get-clients.md)する」を参照してください。
+
+> [!Note]
+> Microsoft 365 アプリとサービスは、Internet Explorer 11 (2021 年8月17日) をサポートしていません (Microsoft Teams は、年11月 2020 30 日以降、Internet Explorer 11 より前のバージョンをサポートしていません)。 [詳細については、こちらを参照してください](https://aka.ms/AA97tsw)。 Internet Explorer 11 はサポートされているブラウザーにとどまりますのでご注意ください。 Internet Explorer 11 は Windows オペレーティングシステムのコンポーネントであり、インストールされている製品の [ライフサイクルポリシーに従い](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) ます。 
 
 #### <a name="what-languages-does-shifts-support"></a>シフトはどの言語でサポートされますか?
 
@@ -99,7 +102,7 @@ Teams のシフトアプリは、Firstline Worker を接続して同期させる
 
 データのシフトは、北米と西ヨーロッパのデータセンターに Azure に保存されます。 SharePoint コンテンツは Microsoft 365 グループを活用し、同じストレージとサポートを利用します。
 
-詳細については、「[シフトしたデータの場所](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)」を参照してください。
+詳細については、「 [シフトしたデータの場所](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)」を参照してください。
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>シフトについて詳しく知るには
 
@@ -115,11 +118,11 @@ Teams のシフトアプリは、Firstline Worker を接続して同期させる
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>組織内のチームを有効にするにはどうすればよいですか?
 
-既定では、すべての組織に対して Teams が有効になっています。 チームライセンスをユーザーに割り当てて、チームへの個々のアクセスを制御します。 詳細については、「[組織のチームを有効に](../../Office-365-set-up.md)する」および「[チームへのユーザーアクセスを管理](../../user-access.md)する」を参照してください。
+既定では、すべての組織に対して Teams が有効になっています。 チームライセンスをユーザーに割り当てて、チームへの個々のアクセスを制御します。 詳細については、「 [組織のチームを有効に](../../Office-365-set-up.md) する」および「 [チームへのユーザーアクセスを管理](../../user-access.md)する」を参照してください。
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>組織で現在 Skype for Business が有効になっているが、Teams では使用できない場合はどうすればよいですか?
 
-Teams では、Skype for Business との共存がサポートされています。 詳細については、「[チームと skype for business の共存と相互運用性](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)と移行および相互運用に関する[ガイダンス](../../migration-interop-guidance-for-teams-with-skype.md)を理解する」を参照してください。
+Teams では、Skype for Business との共存がサポートされています。 詳細については、「 [チームと skype for business の共存と相互運用性](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) と移行および相互運用に関する [ガイダンス](../../migration-interop-guidance-for-teams-with-skype.md)を理解する」を参照してください。
 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>各ユーザーは Microsoft 365 または Office 365 アカウント、または Azure Active Directory (Azure AD) アカウントを持っている必要がありますか。
 
@@ -157,7 +160,7 @@ Firstline Worker は、シフトで一目で、作業のスケジュール全体
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>組織全体でシフトの利用状況を表示するためにレポートを利用できますか?
 
-シフトは Teams のアプリであるため、チームレポートで利用状況を表示できます。 詳細については、microsoft [teams の管理センター](../../teams-analytics-and-reports/teams-reporting-reference.md)にあるチームのレポートと、 [microsoft 365 管理センターの teams アクティビティレポート](../../teams-activity-reports.md)を参照してください。
+シフトは Teams のアプリであるため、チームレポートで利用状況を表示できます。 詳細については、microsoft [teams の管理センター](../../teams-analytics-and-reports/teams-reporting-reference.md) にあるチームのレポートと、 [microsoft 365 管理センターの teams アクティビティレポート](../../teams-activity-reports.md)を参照してください。
 
 #### <a name="where-can-i-provide-feedback"></a>フィードバックはどこで利用できますか?
   

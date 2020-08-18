@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f124cd09c0baa604b09345394d9a53ae254bbb6f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 16b44071e6025d0dc10c270aa2a37679eec840e4
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691243"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788371"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>組織のために通信クレジットをセットアップする
 
@@ -42,28 +42,28 @@ Skype for Business または Microsoft Teams で無料番号を使用する場�
   
 これを実行するには、 **電話会議または電話システムのライセンス** をユーザーに割り当てる必要があります。
   
-- **電話会議**ライセンスをユーザーに自分に割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
+- **電話会議**ライセンスをユーザーに自分に割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
     
     このライセンスを割り当てた後、電話会議を設定する必要があります。 詳細な手順については、「 [Microsoft 365 または Office 365 での電話会議を試用または購入](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)する」を参照してください。
     
-- **電話システム**と**国内または国内および国際**通話プランのライセンスをユーザーに割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
+- **電話システム**と**国内または国内および国際**通話プランのライセンスをユーザーに割り当てます。 「 [Microsoft Teams のアドオンライセンスを割り当てる](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
     
     > [!NOTE]
-    > 通信クレジットについては必須ではありませんが、**国内通話プラン**または**国内および国際通話プラン**のライセンスを割り当てる必要があります。
+    > 通信クレジットについては必須ではありませんが、 **国内通話プラン** または **国内および国際通話プラン** のライセンスを割り当てる必要があります。
   
     これらのライセンスを割り当てたら、組織用に電話番号を取得し、それらの番号組織内のユーザーに割り当てる必要があります。詳しい手順については、「[通話プランのセットアップ](set-up-calling-plans.md)」をご覧ください。
     
-詳細については、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+詳細については、「 [Microsoft Teams のアドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>手順 2: 組織のためにコミュニケーション クレジットをセットアップする
 
-1. 職場または学校のアカウントを使用して、 [Microsoft 365 管理センター](https://portal.office.com/Adminportal)にサインインします。
+1. 職場または学校のアカウントを使用して、 [Microsoft 365 管理センター](https://portal.office.com/Adminportal) にサインインします。
     
-2. Microsoft 365 管理センターの左のナビゲーションで、[**請求**  >  **書購入サービス**] に移動します。 下**に**スクロールして、[アドオン] を選択します。
+2. Microsoft 365 管理センターの左のナビゲーションで、[**請求**  >  **書購入サービス**] に移動します。 下 **に**スクロールして、[アドオン] を選択します。
 
-3. [**通信クレジット**] を選びます。
+3. [ **通信クレジット**] を選びます。
     
-4. [**通信クレジット**のサブスクリプション] ページで、情報を入力し、[**次へ**] をクリックします。
+4. [ **通信クレジット** のサブスクリプション] ページで、情報を入力し、[ **次へ**] をクリックします。
     
    - **預金**: アカウントに投入する金額を入力します。自動再チャージを有効にしない場合、これらの利用可能残高が使い果たされると、コミュニケーション クレジットを使用して有効になっている通話機能に支障が生じます (着信無料通話サービスなど)。残高が 0 になるたびにコミュニケーション クレジットの残高を手動で補充することを回避するには、自動再チャージ機能を有効にすることを推奨します。
     
@@ -90,13 +90,13 @@ Each organization will have a different usage of Calling Plan volume and rates t
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>手順 3: コミュニケーション クレジットのライセンスをユーザーに割り当てる
 
-1. 職場または学校のアカウントを使用して、 [Microsoft 365 管理センター](https://portal.office.com/Adminportal)にサインインします。
+1. 職場または学校のアカウントを使用して、 [Microsoft 365 管理センター](https://portal.office.com/Adminportal) にサインインします。
     
 2. Microsoft 365 管理センターの左のナビゲーションで、[ユーザーの**Users**  >  **アクティブな**ユーザー] に移動し、一覧からユーザーを選びます。
     
-3. [**ライセンスとアプリ**] を選びます。
+3. [ **ライセンスとアプリ**] を選びます。
     
-4. [**通信クレジット**] を **[オン**] に切り替えて、このライセンスを割り当ててから、[**保存**] を選択します。
+4. [ **通信クレジット** ] を **[オン** ] に切り替えて、このライセンスを割り当ててから、[ **保存**] を選択します。
     
     > [!NOTE]
     > **Enterprise E5** ライセンスが割り当てられているユーザーがいる場合でも、これを実行することをお勧めします。
@@ -116,7 +116,7 @@ Each organization will have a different usage of Calling Plan volume and rates t
     
 [Microsoft 365 管理センターにサインイン](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)して、 **[サブスクリプションの**追加] サブスクリプションに移動して、情報を表示することもでき  >  **Subscriptions**  >  **Add subscriptions**ます。
   
-各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
   
 ## <a name="related-topics"></a>関連項目
 

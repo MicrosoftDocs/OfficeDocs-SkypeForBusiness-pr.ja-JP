@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 または Office 365 の電話会議 (PSTN 会議) ライセンスを試用または購入して、ユーザーがダイヤルインできる電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a1492d7adc67be8fcac100f179514a1e9a2c948a
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021865"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788441"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft Teams の Microsoft 365 で電話会議を試用または購入する
 
@@ -40,32 +40,32 @@ ms.locfileid: "45021865"
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>手順 1: 電話会議ライセンスを購入して割り当てる
 
-これらの手順を実行するには、[グローバル管理者または課金管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)である必要があります。
+これらの手順を実行するには、 [グローバル管理者または課金管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) である必要があります。
 
-### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>ユーザーの電話会議のライセンスを購入し、割り当てる場合:
+### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>ユーザーの電話会議ライセンスを購入して割り当てるには
 
-1. お住まいの国/地域で**電話会議**が利用できるかどうかを確認します。 [電話会議および通話プランには、国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)があります。 
-    
+1. お住まいの国/地域で **電話会議** が利用できるかどうかを確認します。 [電話会議および通話プランには、国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)があります。
+
 2. **電話会議** のライセンスを取得します。 以下を希望する場合:
 
    - 購入する前に**試す**: 電話会議が含まれている Office 365 Enterprise E5 無料トライアルにサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
-   - **購入する場合は、**「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+   - **購入する場合は、**「Microsoft Teams のアドオンライセンス」 https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) を参照してください。
 
 3. 会議をスケジュールまたは開催しようとしている組織内の[ユーザーにライセンスを割り当て](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)ます。
 
-4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。
+4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「 [Microsoft Teams のアドオンライセンスを割り当てる](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
 
-### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分数ごと従量課金制電話会議ライセンスを購入し割り当てる場合:
+### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分単位の電話会議ライセンスを購入して割り当てるには
 
-ライセンス供与されている大口の顧客の場合、分数ごと従量課金制電話会議のライセンスを取得できます。 分数ごと従量課金制電話会議のライセンスの詳細については、 [分数ごと従量課金制電話会議](audio-conferencing-pay-per-minute.md)を参照してください。 
+ライセンス供与されている大口の顧客の場合、分数ごと従量課金制電話会議のライセンスを取得できます。 分数ごと従量課金制電話会議のライセンスの詳細については、 [分数ごと従量課金制電話会議](audio-conferencing-pay-per-minute.md)を参照してください。
   
-1. お住まいの国/地域で**電話会議**が利用できるかどうかを確認します。 電話[会議と通話プランでの国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 
-    
+1. お住まいの国/地域で **電話会議** が利用できるかどうかを確認します。 電話[会議と通話プランでの国と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
 2. **電話会議** のライセンスを取得します。 分数ごと従量課金ライセンスを取得するには、アカウントの担当者にお問い合わせください。
-    
+
 3. 組織のために[組織の通信クレジットを設定](set-up-communications-credits-for-your-organization.md)します。 コミュニケーション クレジットの設定については、「[コミュニケーション クレジットとは](what-are-communications-credits.md)」を参照してください 。
-    
+
     > [!IMPORTANT]
     > コミュニケーション クレジットが設定されていない場合、電話会議が分数ごと従量課金ライセンスを持つすべてのユーザーに対して機能しません。
 
@@ -76,7 +76,7 @@ ms.locfileid: "45021865"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>手順 2: 会議の主催者または計画者のために電話会議プロバイダーを設定する
 
-サードパーティの電話会議プロバイダーと統合されていない Skype for Business を使用していない組織内のユーザーに**電話会議**ライセンスを割り当てると、すべての設定が完了し、準備が整います。 (電話会議プロバイダーを設定する必要はありません。)
+サードパーティの電話会議プロバイダーと統合されていない Skype for Business を使用していない組織内のユーザーに **電話会議** ライセンスを割り当てると、すべての設定が完了し、準備が整います。 (電話会議プロバイダーを設定する必要はありません。)
 
 サードパーティの電話会議プロバイダーでユーザーを有効にしている場合は、それらのユーザーのプロバイダーを Microsoft に変更する必要があります。 ユーザーのプロバイダーを変更するには、「 [Microsoft を電話会議プロバイダーとして割り当てる](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
 
@@ -91,7 +91,6 @@ ms.locfileid: "45021865"
 3. 電話会議の自動応答が電話会議の電話番号にダイヤルインするときに発信者を挨拶メッセージするために使用する電話[会議の自動応答の言語を設定](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)します。 この手順は、Microsoft を電話会議プロバイダーとして使用している場合にのみ適用されます。
 
 4. [電話会議の PIN の長さを設定](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)します。
-
 
 > [!NOTE]
 > この機能は、21Vianet が運営する Office 365 を中国で使用しているお客様にはまだご利用いただけません。詳細については、「 [21Vianet が運営する Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)」を参照してください。

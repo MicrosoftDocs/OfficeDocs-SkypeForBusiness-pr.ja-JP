@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft では、2020年2月28日に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止しています。 この記事では、影響を受けるお客様がビジネス継続性を計画する際に知っておく必要があることを要約しています。
-ms.openlocfilehash: 3d6c30c1f6323030280fba29c6d53b89ed33c2c9
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842028"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778039"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
 > [!IMPORTANT]
 > **Exchange Online のユニファイドメッセージングサービスは、2020年2月28日の午後太平洋時間にサポートされていません。すべてのボイスメールアカウントは、Microsoft によってクラウドボイスメールサービスに移行されました。残りの自動応答トラフィックは監視されず、いつでも中断する可能性があります。**
 
-2019年2月8日の[アナウンス](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)への参照では、Microsoft は2020年2月28日に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止しています。 この記事では、影響を受けるお客様がビジネス継続性を計画する際に知っておく必要がある事項について概要を示します。
+2019年2月8日の [アナウンス](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) への参照では、Microsoft は2020年2月28日に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止しています。 この記事では、影響を受けるお客様がビジネス継続性を計画する際に知っておく必要がある事項について概要を示します。
 
 ExchUMO は、ボイスメール、自動応答、通話キュー、および fax 統合サービスのお客様によって展開されます。 Microsoft は、お客様が Skype for Business Online および Microsoft Teams で数千の顧客をサポートしている電話システムサービスへの移行を支援する計画を立てています。
 
@@ -41,7 +41,7 @@ Exchange ユニファイドメッセージングオンラインサービスの�
 > [!Note]
 > オンプレミスの Exchange Server をユニファイドメッセージングで使用しているお客様は影響を受けません。
 
-ユーザーと管理者がユーザーに及ぼす[影響](#user-experience-impact)についての詳細を確認してください。
+ユーザーと管理者がユーザーに及ぼす [影響](#user-experience-impact)についての詳細を確認してください。
 
 ## <a name="migration-plan-overview"></a>移行計画の概要
 
@@ -57,24 +57,24 @@ Microsoft は、独自の機能を使用しているさまざまな顧客展開�
 
 ### <a name="get-informed"></a>情報を入手する
 
-ユーザーにとってスムーズな移行を計画するには、[ブログのアナウンス](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)とこの記事をよくお読みください。 電話システムのボイスメール機能の詳細については、「 [Skype For business ボイスメールとオプションを確認](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8)する」を参照してください。  
+ユーザーにとってスムーズな移行を計画するには、 [ブログのアナウンス](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) とこの記事をよくお読みください。 電話システムのボイスメール機能の詳細については、「 [Skype For business ボイスメールとオプションを確認](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) する」を参照してください。  
 
 ### <a name="establish-a-skype-for-business-hybrid-topology"></a>Skype for Business ハイブリッドトポロジを確立する
 
-Skype for Business ハイブリッドトポロジが確立されていない場合は、これを実行してボイスメールユーザーをスムーズに移行できるようにする必要があります。 詳細については、「 [Skype For business ハイブリッドの構成](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md)」を参照してください。
+Skype for Business ハイブリッドトポロジが確立されていない場合は、これを実行してボイスメールユーザーをスムーズに移行できるようにする必要があります。 詳細については、「 [Skype For business ハイブリッドの構成](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) 」を参照してください。
 
 > [!Note]
 > ボイスメールサービスの移行のためにユーザーをオンラインで移行する必要はありません。 ただし、オンプレミスのユーザーが電話システムのボイスメールサービスを利用するには、ハイブリッドトポロジを確立する必要があります。
 
 ### <a name="plan-your-auto-attendant-migration"></a>自動応答の移行を計画する
 
-管理者は、いつでも、ExchUMO からクラウドの自動応答への自動応答の移行を開始できます。 詳細について[は、「クラウド自動応答をセットアップする](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)」を参照してください。
+管理者は、いつでも、ExchUMO からクラウドの自動応答への自動応答の移行を開始できます。 詳細について [は、「クラウド自動応答をセットアップする](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) 」を参照してください。
 
 Microsoft は、お客様が移行に必要と思われる追加の自動応答機能を引き続き提供しています。 管理者は、機能セットを評価し、それに応じて自動応答インスタンスを移行する必要があります。 機能リストの比較については、「 [Exchumo And Azure クラウドベースのサービス機能マトリックス](#exchumo-and-azure-cloud-based-services-feature-matrix)」を参照してください。
 
 ### <a name="plan-for-your-voicemail-post-migration-validation-and-testing"></a>移行後の検証とテストの計画
 
-ボイスメールの移行は Microsoft によって行われます。 前提条件となるハイブリッドトポロジが確立されている場合、管理者は何もする必要はありません。 Microsoft は、ユーザーのボイスメールの移行が中断されないようにするために必要な検証とテストを行います。 管理者は、自分の側でテストと検証を行うことをお勧めします。 推奨されるテスト計画については、「提案された[テスト計画」および「管理者向けの移行後の検証](#suggested-test-plan-and-post-migration-validation-for-admins)」を参照してください。
+ボイスメールの移行は Microsoft によって行われます。 前提条件となるハイブリッドトポロジが確立されている場合、管理者は何もする必要はありません。 Microsoft は、ユーザーのボイスメールの移行が中断されないようにするために必要な検証とテストを行います。 管理者は、自分の側でテストと検証を行うことをお勧めします。 推奨されるテスト計画については、「提案された [テスト計画」および「管理者向けの移行後の検証](#suggested-test-plan-and-post-migration-validation-for-admins) 」を参照してください。
 
 > [!Note]
 > Lync Server 2010 はサポートされていません。 2010サーバー展開の場合は、サーバーのアップグレードを計画するか、ユーザーを Microsoft Teams または Skype for Business Online に移行することを検討する必要があります。  
@@ -96,27 +96,27 @@ CVM への予定されたボイスメールサービスの移行を選択でき�
 
 管理された移行を選択した場合、Microsoft 365 管理ポータルメッセージセンターでは、移行前の30日間の通知を受け取ることはありません。
 
-計画された移行をオプトインするには、管理者の電子メールアドレスから、電子メール要求を[cvm@microsoft.com](mailto:cvm@microsoft.com)に送信して、次の情報を入力します。
+計画された移行をオプトインするには、管理者の電子メールアドレスから、電子メール要求を [cvm@microsoft.com](mailto:cvm@microsoft.com) に送信して、次の情報を入力します。
 
 - 推奨日 (火曜日): 移行 wave は毎週火曜日に実行されます。 12/3/2019 を超えていない火曜日の日付を選択してください。
  
-- テナント ID:32 文字この形式の番号は、0046728c-688 a-4472-a38f-098fec60ac6x です。 テナント ID は、Microsoft 365 管理ポータルの Azure AD にあるか、または次の PowerShell コマンドレットを使用して見つけることができます。`Get-CsTenant | Select ObjectId`
+- テナント ID:32 文字この形式の番号は、0046728c-688 a-4472-a38f-098fec60ac6x です。 テナント ID は、Microsoft 365 管理ポータルの Azure AD にあるか、または次の PowerShell コマンドレットを使用して見つけることができます。 `Get-CsTenant | Select ObjectId`
 
 テナントが正常に移行されると、電子メールの確認が送信されます。
 
 ## <a name="auto-attendant-migration-guidelines"></a>自動応答移行のガイドライン
 
-Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド自動応答サービスで Exchange UM Online 自動応答を再作成して、オンプレミスの電話番号を、2020年2月28日の Exchange の UMO サービスの退職前に切り替える必要があります。 新しいクラウド自動応答を移行してテストするには、このガイドラインが推奨されています。 自動応答の数が多い場合は、 [EXCHANGE UM 自動応答をクラウド自動応答移行スクリプトに](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)使用して、自動応答の一括移行を簡略化できます。
+Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド自動応答サービスで Exchange UM Online 自動応答を再作成して、オンプレミスの電話番号を、2020年2月28日の Exchange の UMO サービスの退職前に切り替える必要があります。 新しいクラウド自動応答を移行してテストするには、このガイドラインが推奨されています。 自動応答の数が多い場合は、 [EXCHANGE UM 自動応答をクラウド自動応答移行スクリプトに](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) 使用して、自動応答の一括移行を簡略化できます。
 
 ### <a name="auto-attendant-setup"></a>自動応答のセットアップ
 
-過去1分の問題を回避し、クラウド自動応答サービスの機能や経験を理解するために、新しい自動応答のセットアップを早い段階で開始することを強くお勧めします。 1つ以上のギャップ機能を必要とする自動応答では、展開の準備にギャップ機能を使用できるときに、自動応答を作成してテストすることができます。 ギャップ機能の詳細については、[付録](#appendix)を参照してください。
+過去1分の問題を回避し、クラウド自動応答サービスの機能や経験を理解するために、新しい自動応答のセットアップを早い段階で開始することを強くお勧めします。 1つ以上のギャップ機能を必要とする自動応答では、展開の準備にギャップ機能を使用できるときに、自動応答を作成してテストすることができます。 ギャップ機能の詳細については、 [付録](#appendix)を参照してください。
 
 1. Exchange UMO コマンドレットを使用して、 [Get-Umautoアテンダント](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant)を使用して既存の自動応答の構成をエクスポートします。  
-2. Exchange Online の PowerShell で、コマンドレットの[export](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt)を使用して、案内応答メディアファイル (使用されている場合) をエクスポートし、それを. mp3 形式に変換します。
-3. Microsoft Teams の管理センターまたは Powershell を使用して自動応答を作成するには、「[クラウド自動](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)応答を計画する」の手順に従って、[クラウド自動応答を設定](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)します。
+2. Exchange Online の PowerShell で、コマンドレットの [export](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt) を使用して、案内応答メディアファイル (使用されている場合) をエクスポートし、それを. mp3 形式に変換します。
+3. Microsoft Teams の管理センターまたは Powershell を使用して自動応答を作成するには、「 [クラウド自動](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) 応答を計画する」の手順に従って、 [クラウド自動応答を設定](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) します。
 4. メニューオプションが変更された場合は、案内応答を確認します。
-5. この記事の「[既知の問題](#known-issues)」の「PSTN への自動応答呼び出しの転送」回避策を使用して、応答グループへの転送を構成します。  
+5. この記事の「 [既知の問題](#known-issues) 」の「PSTN への自動応答呼び出しの転送」回避策を使用して、応答グループへの転送を構成します。  
 6. 新しい自動応答をテストするには、それらを内部で呼び出すか、テスト電話番号を割り当てます。  
 
 ### <a name="cutover"></a>一括
@@ -148,14 +148,14 @@ Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド�
 | /VM | ユーザー機能 | 個人用の案内応答の録音 (認証デバイス) |  | Y | Y    |
 | /VM | ユーザー機能 | 個人用案内応答 (PSTN) の記録-電話での再生 |  | N | Y    |
 | /VM | ユーザー機能 | 議事録を無効にするためのユーザー設定 |  | N | Y    |
-| /VM | ユーザー機能 | 表記  |  | Y | Y    |
+| /VM | ユーザー機能 | 文字起こし  |  | Y | Y    |
 | /VM | ユーザー機能 | すべてのエンドポイントのビジュアルボイスメール   | サポートされているすべてのエンドポイントでのユーザーコントロールの再生、削除、メッセージ待機インジケーター、状態の切り替え  | Y | Y    |
 | /VM | ユーザー機能 | Outlook での MP3 オーディオファイル形式    |  | Y | Y    |
 | /VM | ユーザー機能 | 可変速度の再生コントロール |  | Y | Y    |
 | /VM | ユーザー機能 | ボイスメールの転送  | 受信したボイスメールを他のユーザーに転送する | Y | Y    |
 | /VM | ユーザー機能 | ユーザーのグループへの音声メッセージの送信  |ボイスメールブロードキャスト   | N | Y   |
 | /VM | ユーザー機能 | SMS を使用したボイスメール通知    | ユーザーが新しいボイスメールを持っている場合は、SMS を受信できます。    | N | Y    |
-| /VM | ユーザー機能 | サポートされる案内応答言語 | 詳細は次のとおりです。https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| /VM | ユーザー機能 | サポートされる案内応答言語 | 詳細は次のとおりです。 https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | /VM | ユーザー機能 | 通話応答ルール |  | Y | Y    |
 | /VM | ユーザー機能 | 電話での再生 (PSTN)-メッセージを再生する | 音声メッセージを聞くためにセルに電話をかける  | N | Y    |
 | /VM | ユーザー機能 | 電話での再生 (認証)-メッセージを再生する | 認証されたデバイスでの呼び出し  | Y | Y    |
@@ -181,7 +181,7 @@ Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド�
 | ナンバー | サービス機能 | Microsoft Teams をサポートする|  | Y | N    |
 | ナンバー | サービス機能 | 名前でダイヤルする、DTMF 入力    |  | Y | Y    |
 | ナンバー | サービス機能 | 名前でダイヤル、音声入力  |  | Y | Y    |
-| ナンバー | サービス機能 | 複数言語のサポート | 言語の詳細は次のとおりです。https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| ナンバー | サービス機能 | 複数言語のサポート | 言語の詳細は次のとおりです。 https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | ナンバー | サービス機能 | オペレーター、CQ.ADD、またはユーザーへの転送 |  | Y | Y    |
 | ナンバー | サービス機能 | PSTN 番号への内部転送 (DID RNL)  |  | Y | Y    |
 | ナンバー | サービス機能 | PSTN 番号への外部への転送  |  | 下記の「既知の問題」セクションを参照してください。 | Y    |
@@ -223,19 +223,19 @@ Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド�
 |メール通知 | 変更なし<br>ボイスメールアカウントのライセンス認証と移行についてユーザーに通知する電子メールは送信されません。 |
 |以前のメッセージへのアクセス | 変更なし<br>ユーザーは、サポートされているすべてのエンドポイントの以前のボイスメールメッセージにアクセスできます。 |
 |Outlook で VM を受信する、SFB アプリ| 変更なし<br>ユーザーは、サポートされているすべてのエンドポイントで引き続きボイスメールメッセージを受信します。 |
-|表記 | 保護<br>CVM の議事録は、より高い精度率とサポートされている言語 (ExchUMO よりも) |
-|ユーザー設定 | 新しい作業<br>ユーザーは、ユーザー設定ポータル (USP) からユーザー設定を変更することができます。 ユーザーは、ボイスメールのハイパーリンクから、または SFB クライアントの [ユーザー設定] ボタンを使用して、USP にアクセスできます。https://aka.ms/vmsettings.
+|文字起こし | 保護<br>CVM の議事録は、より高い精度率とサポートされている言語 (ExchUMO よりも) |
+|ユーザー設定 | 新しい作業<br>ユーザーは、ユーザー設定ポータル (USP) からユーザー設定を変更することができます。 ユーザーは、ボイスメールのハイパーリンクから、または SFB クライアントの [ユーザー設定] ボタンを使用して、USP にアクセスできます。 https://aka.ms/vmsettings.
  |機能| 詳細については、「機能設定の比較」を参照してください。 |
 |VM メッセージの Outlook ルール | 変更なし<br>以前に作成したルールは、移行後に CVM メッセージに適用されます。
  |
 
 ### <a name="user-management-and-provisioning-in-cvm"></a>CVM でのユーザー管理とプロビジョニング
 
-新しい Skype for Business ユーザーは、作成時にクラウドボイスメール用に自動的にプロビジョニングされます。 新しいボイスメールユーザーをプロビジョニングするには、追加の管理作業またはライセンスは必要ありません。 既存および新規ユーザーのポリシー管理については、「[クラウドボイスメールをセットアップ](/microsoftteams/set-up-phone-system-voicemail)する」を参照してください。
+新しい Skype for Business ユーザーは、作成時にクラウドボイスメール用に自動的にプロビジョニングされます。 新しいボイスメールユーザーをプロビジョニングするには、追加の管理作業またはライセンスは必要ありません。 既存および新規ユーザーのポリシー管理については、「 [クラウドボイスメールをセットアップ](/microsoftteams/set-up-phone-system-voicemail) する」を参照してください。
 
 ### <a name="admin-auto-attendant-management-experience"></a>管理者自動応答管理の手順
 
-自動応答の詳細については、「[クラウド自動応答の設定](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)」を参照してください。
+自動応答の詳細については、「 [クラウド自動応答の設定](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)」を参照してください。
 
 ### <a name="known-issues"></a>既知の問題
 
@@ -245,13 +245,7 @@ Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド�
 
 #### <a name="auto-attendant-call-transfer-to-pstn"></a>PSTN への自動応答通話の転送
 
-お客様は、外部の PSTN 番号または RGS インスタンスに自動応答の呼び出しを転送するための要件を満たすために、一時的な回避策を構成することをお勧めします。
-
-品質保証の際に "PSTN 番号に転送" 機能を使用すると、問題が特定されました。これは、お客様が2020年2月28日に予定された退職日前に Exchange UMO サービスからの移行を開始する時間には固定されません。 回避策として、管理者は、自動応答の発信者を、アクティブな着信転送設定を使用してオンプレミスの仮想ユーザーに転送し、目的の PSTN 電話番号または RG 電話番号に転送することができます。 予想される動作は次のとおりです。
-
-- これは回避策であるため、管理者は仮想ユーザーにライセンスを付与する必要はありません。
-- 管理者は、必要な番号を仮想ユーザーに割り当てるか、SBC 番号の操作機能を使用することによって、PSTN レシーバーが認識する発信者番号を操作できます。
-- PSTN 発信者は、通話の転送中に遅延を発生させず、転送に成功した後も自動応答の発信者番号を引き続き確認できます。
+Skype for business server で Skype for Business Server または応答グループサービス (RG) 経由で外部 PSTN 電話番号に自動応答を転送するには、PSTN の電話番号または RG の電話番号に設定された着信転送を使用して、新しいオンプレミスのユーザーを作成します。 ユーザーはエンタープライズ Voip に対して有効であり、正しく構成されていて、音声ポリシーが割り当てられている必要があります。
 
 #### <a name="shared-mailbox-is-still-accessible"></a>共有メールボックスにまだアクセスできる
 
@@ -264,7 +258,7 @@ CVM サービスは Microsoft Teams インフラストラクチャに基づい�
   
 #### <a name="set-up-voice-mail-takes-you-to-owa"></a>「音声メールをセットアップする」で OWA に移動します。
 
-[クライアントからの**ボイスメールの設定**] をクリックすると、cvm への移行後、Skype For business Server 2015/2013 のお客様は Office Web ACCESS (OWA) ポータルページに移動し続けます。 OWA の [ボイスメール] タブからすべての設定が削除され、ユーザーを CVM ユーザー設定ポータルに移動するリダイレクトリンクが付いたバナーが表示されます。
+[クライアントからの **ボイスメールの設定** ] をクリックすると、cvm への移行後、Skype For business Server 2015/2013 のお客様は Office Web ACCESS (OWA) ポータルページに移動し続けます。 OWA の [ボイスメール] タブからすべての設定が削除され、ユーザーを CVM ユーザー設定ポータルに移動するリダイレクトリンクが付いたバナーが表示されます。
 
 #### <a name="changing-greeting-remotely"></a>あいさつ文をリモートで変更する
 

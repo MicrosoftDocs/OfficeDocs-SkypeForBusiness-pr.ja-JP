@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の会議室 Premium
+title: Microsoft Teams の会議室管理サービス
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,26 +14,26 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams のルーム Premium について説明します。
+description: Microsoft Teams の会議室管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: c7331b40f9aaf5b039da4bf76ae707734f885a82
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521982"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788331"
 ---
-# <a name="microsoft-teams-rooms-premium"></a>Microsoft Teams の会議室 Premium
+# <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams の会議室管理サービス
 
-Microsoft Teams のルーム Premium には、クラウドベースの IT 管理と監視サービスが含まれており、Microsoft Teams のデバイスとその周辺機器は最新の状態に維持され、事前に監視されているため、優れたユーザーエクスペリエンスを実現するために最適化された環境をサポートします。
+Microsoft Teams のルーム管理サービスは、クラウドベースの IT 管理と監視サービスであり、Microsoft Teams のデバイスとその周辺機器を最新の状態に維持し、予防的な監視を行い、優れたユーザーエクスペリエンスを実現するために最適化された環境をサポートします。
 
-Microsoft Teams room Premium は、Microsoft Teams room デバイスの予防的な管理を提供することにより、会議室のエクスペリエンスを向上させ、フットプリントをすばやく調整する組織に適しています。 このサービスを利用することにより、組織は時間とコストを節約し、「自分で自分を作る」という部屋の管理に費やすことができます。  
+Microsoft Teams 会議室管理サービスは、Microsoft Teams room devices の予防的な管理を提供することにより、会議室のエクスペリエンスを向上させ、フットプリントをすばやく調整することを目的としています。 このサービスを利用することにより、組織は時間とコストを節約し、「自分で自分を作る」という部屋の管理に費やすことができます。  
 
-Microsoft Teams の会議室プレミアムサービスは、Microsoft の専門知識を基盤として、エンドポイント、マシン学習、インテリジェントオートメーションのソフトウェア対応の管理に基づいて構築されています。 Microsoft Teams のルーム Premium は、組織が複数のリモートサイトで質の高いエクスペリエンスを提供するのに役立ちます。また、組織が必要とする規模の拡大に対応することもできます。
+Microsoft Teams の管理者管理サービスは、エンドポイント、マシン学習、インテリジェントオートメーションのソフトウェア対応管理に関する Microsoft の専門知識を基盤として構築されています。 Microsoft Teams の管理者として管理されるサービスにより、組織が複数のリモートサイトで高品質のエクスペリエンスを提供し、組織が必要とする可能性がある拡大のペースに対応することができます。
 
 ## <a name="service-capabilities"></a>サービス機能
 
-ここでは、Microsoft Teams の会議室プレミアムサービスの機能の概要を説明します。
+ここでは、Microsoft Teams の会議室管理サービスの機能の概要について説明します。
 
 |機能  |説明  |
 |---------|---------|
@@ -42,28 +42,28 @@ Microsoft Teams の会議室プレミアムサービスは、Microsoft の専門
 |**更新プログラムの管理**    |Room システムと、Microsoft が実施した周辺機器のアプリケーションおよびファームウェア更新プログラムの管理と配信。         |
 |**洞察と推奨事項**     |顧客の正常性、使用率、使用率、および機器の信頼性を分析します。         |
 |**コンプライアンスと認定**   |Microsoft オンラインサービスに適用されるすべての標準を満たしている。         |
-|**カスタマサポート**   |専任の Microsoft Teams ルーム Premium Service Operation Center (SOC) を通じて、24時間365日のチケットがサポートされます。 必要に応じて、他の主要ベンダーに代わってエスカレーションします。 詳細については、「[カスタマサポート](#customer-support)」を参照してください。|
+|**カスタマサポート**   |専任の Microsoft Teams ルーム管理されたサービスサービス運用センター (SOC) を通じて、24時間365日のチケットサポート。 必要に応じて、他の主要ベンダーに代わってエスカレーションします。 詳細については、「 [カスタマサポート](#customer-support)」を参照してください。|
 |**サポート対象のデバイス**    |認定された Microsoft Teams のルームシステムとその周辺機器。         |
 |**サポートされている地域**    |[サポートされている地域](#supported-regions)を参照してください。        |
 |**His**    |顧客がホストするサービスとの統合が可能になりました。         |
 
 ## <a name="service-features"></a>サービス機能
 
-ここでは、Microsoft Teams のルーム Premium サービスが上記の機能をサポートするために提供する重要な機能の概要を示します。
+ここでは、Microsoft Teams で管理されるサービスが、上記の機能をサポートするために提供する重要な機能の概要を示します。
 
 |機能  |説明  |
 |---------|---------|
 |**在庫管理**   |部屋のデバイス、周辺機器、製造、モデルを一覧にした一括エクスポートオプションを備えた、部屋の在庫管理         |
-|**会議室の登録**   |Microsoft Teams room Premium サービスへの room デバイスの自動登録を行う簡単なオンボード。          |
+|**会議室の登録**   |Microsoft Teams room managed service への room デバイスの自動登録を行う簡単なオンボード。          |
 |**会議室の管理**     |管理されたサービス機能、インサイトの管理設定、および会議室グループの管理に関する顧客ポータル。         |
-|**監視**    |アプリケーション、オペレーティングシステム、周辺機器、ファームウェアの正常性監視。 周辺機器の正常性などの問題による会議のエクスペリエンスに影響する問題に関する自動インシデント検出。 Microsoft Teams room Premium ポータルを通じて、ルームの不動産とインシデント全体の正常性の概要を説明します。|
-|**トラブルシューティングと修復**     |自動診断と自動修復 (該当する場合)。 Microsoft Teams のルームには、自動化されていないケースに対するプレミアム SOC に対応した Premium サポートがあります。 サービスが、インシデントの調整のために統合されました。         |
+|**監視**    |アプリケーション、オペレーティングシステム、周辺機器、ファームウェアの正常性監視。 周辺機器の正常性などの問題による会議のエクスペリエンスに影響する問題に関する自動インシデント検出。 Microsoft Teams 会議室管理サービスポータルを通じて、ルームの不動産とインシデント全体の正常性の概要を説明します。|
+|**トラブルシューティングと修復**     |自動診断と自動修復 (該当する場合)。 Microsoft Teams 会議室管理サービス SOC-自動化されていないケース向けのインシデントの改善。 サービスが、インシデントの調整のために統合されました。         |
 |**更新プログラムの管理**   |顧客の構成可能な展開リングに基づく自動会議アプリケーションとファームウェア更新プログラムのオーケストレーション         |
 |**洞察と推奨事項**   |使用状況、インシデント、正常性、および全体的なレポート (履歴ビュー)         |
 
 ## <a name="service-prerequisites"></a>サービスの前提条件
 
-Microsoft Teams の room Premium がサービスの品質を維持するためには、登録されたルームが[Microsoft teams room でサポートさ](requirements.md#hardware-requirements)れているデバイスである必要があります。また、[必要なすべての Office 365 url と IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)が会議室のデバイスによって許可され、接続可能である必要があります。 詳細については、「Microsoft Teams ルームドキュメントの[環境を準備](rooms-prep.md)する」を参照してください。
+Microsoft Teams の room 管理サービスでサービスの品質を維持するには、登録された会議室が [Microsoft teams room でサポートさ](requirements.md#hardware-requirements)れているデバイスである必要があります。また、 [必要なすべての Office 365 url と IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) が、会議室のデバイスによって許可されていて到達可能である必要があります。 詳細については、「Microsoft Teams ルームドキュメントの [環境を準備](rooms-prep.md) する」を参照してください。
 
 管理されたサービスのプロバイダーであるため、会議室の正常性を維持し、問題を回復するには、組織内の会議室の責任関係者と協力している必要があります。 会議室のデバイスに展開するように選択した会議室、サードパーティ、またはカスタムソフトウェアで使用されている非認定デバイスの責任を負うことになります。また、Microsoft が推奨する変更管理の実施を遵守しています。
 
@@ -71,26 +71,26 @@ Microsoft Teams の room Premium がサービスの品質を維持するため�
 
 ## <a name="customer-support"></a>カスタマサポート
 
-Microsoft Teams の会議室プレミアムサービスは、専任の Microsoft Teams ルームプレミアム SOC によってサポートされています。 Microsoft Teams の会議室 premium によるお客様へのコミュニケーションのプライマリモードは、Microsoft Teams のルーム Premium ポータルを通じて行われます。 Microsoft Teams の会議室 Premium SOC は、システムまたは組織で発生したチケットについて、最初の対応と適切なエスカレーションを提供します。
+Microsoft Teams のルーム管理サービスは、専任の Microsoft Teams 会議室管理サービス SOC を通じてサポートされます。 Microsoft Teams の会議室で管理されたサービス SOC との通信のプライマリモードは、Microsoft Teams の会議室管理サービスポータルを通じて行われます。 Microsoft Teams の会議室管理サービス SOC は、システムまたは組織で発生したチケットに対する最初の応答と適切なエスカレーションを提供します。
 
 |  |  |
 |---------|---------|
-|**スコープ**   |会議室のアプリ、会議室のデバイス、周辺機器に関連するインシデントは、Microsoft Teams room Premium サポートに含まれています。|
+|**スコープ**   |会議室のアプリ、会議室のデバイス、周辺機器に関連するインシデントは、Microsoft Teams room 管理サービスサポートに含まれています。|
 |**利用者**  |IT の操作のみ         |
 |**サポートされる言語**    |英語         |
 |**ポータルを通じての可用性のサポート**   | 24      |
-|**Microsoft Teams ルームプレミアム SOC の最初の応答時間**   |  4 時間       |
+|**Microsoft Teams 会議室管理サービス SOC の最初の応答時間**   |  4 時間       |
 |**顧客が非アクティブになった場合のチケットの自動閉包**    |顧客が開始するチケット: 3 営業日以内<br>システムで開始されるチケット:15 営業日以内</li>   </ul>      |
-|**Microsoft の幅広いサポートへのリダイレクション**   |Microsoft Teams ルーム Premium の範囲外の別の Microsoft 製品に関連する問題は、適切なサポートチームに送信されます。         |
-|**オリジナル機器メーカー (OEM) のサポートへのリダイレクション**    |Microsoft Teams の会議室 Premium SOC は、この問題を理解するのに役立ちます。また、該当する場合は、OEM とのサポートを調整します。 場合によっては、OEM と直接連絡することが必要になる場合もあります。         |
+|**Microsoft の幅広いサポートへのリダイレクション**   |Microsoft Teams の会議室管理サービスの範囲外の別の Microsoft 製品に関連する問題は、適切なサポートチームに送信されます。         |
+|**オリジナル機器メーカー (OEM) のサポートへのリダイレクション**    |Microsoft Teams の会議室管理サービス SOC は、この問題を理解し、該当する場合は、OEM とのサポートを調整します。 場合によっては、OEM と直接連絡することが必要になる場合もあります。         |
 
-また、Microsoft Teams の会議室 Premium SOC は、組織での IT 運用を支援するため、エンドユーザーのためのヘルプデスクサービスに代わるものではありません。
+また、Microsoft Teams の会議室管理サービス SOC は、組織の IT 運営を支援し、エンドユーザーのヘルプデスクサービスに代わるものではないことに注意してください。
 
-Microsoft Teams のルーム Premium のサポート範囲の詳細については、「追加[と除外のサポート](#support-inclusions-and-exclusions)」を参照してください。
+Microsoft Teams の会議室で管理されるサービスのサポート範囲の詳細については、「追加 [と除外のサポート](#support-inclusions-and-exclusions)」を参照してください。
 
 ## <a name="supported-regions"></a>サポートされている地域
 
-Microsoft Teams の会議室 Premium は、次の国と地域で利用できます。
+Microsoft Teams の会議室管理サービスは、次の国と地域で利用できます。
 
 - オーストラリア
 - オーストリア
@@ -120,7 +120,7 @@ Microsoft Teams の会議室 Premium は、次の国と地域で利用できま�
 |含まれている内容 |除外される内容 |除外されたアイテムのサポートチャネル  |
 |---------|---------|---------|
 |**サービス構成**   |         |         |
-|Microsoft teams room アプリの設定、ファーストパーティのネットワーク構成、ファーストパーティソフトウェアのセットアップ、推奨される電源設定と構成など、Microsoft Teams Room Windows 構成の調査とガイダンス。     |Microsoft Teams Room アプリに直接含まれていないサードパーティのソフトウェアの構成と調査。 また、初めての windows または Microsoft Teams Room アプリの設定以外で構成が必要な OEM 固有の構成もあります。         |サードパーティの標準サポートチャネル         |
+|Microsoft teams 室のアプリの設定、ファーストパーティのネットワーク構成、ファーストパーティのソフトウェアのセットアップ、推奨される電源設定と構成など、Microsoft Teams 室の Windows 構成の調査とガイダンス。     |Microsoft Teams Room アプリに直接含まれていないサードパーティのソフトウェアの構成と調査。 また、初めての windows または Microsoft Teams Room アプリの設定以外で構成が必要な OEM 固有の構成もあります。         |サードパーティの標準サポートチャネル         |
 |**会議室のアカウントの設定**    |         |         |
 |会議室のアカウント設定に関する利用可能なドキュメントの方向。 サインインまたはアカウント構成の問題については、最初の調査が行われます。     |推奨される修復の実行、サードパーティ認証プロバイダーの構成、個々のアカウント機能の構成に関する問題を修正します。        |Microsoft メインストリームサポートとサードパーティ認証プロバイダーのサポート         |
 |**周辺機器のサポート**    |         |         |
@@ -130,16 +130,16 @@ Microsoft Teams の会議室 Premium は、次の国と地域で利用できま�
 |**根本原因の分析**     |         |         |
 |会議室のエクスペリエンスで発生した問題の根本原因はすべて、可能な限り提供されますが、そのまま実行できます。     |サードパーティのソフトウェアに関する問題の根本原因分析は含まれていません。         |サードパーティの標準サポートチャネル         |
 |**会議エクスペリエンス**   |         |         |
-|Microsoft Teams Room アプリの会議の設定で問題を調査し、デバイスのサービス品質を適切に設定するためのガイダンスについては、要求時に提供されています。      |通話品質の問題またはネットワーク関連の問題に関する根本原因の分析または調査は、このスコープから除外されます。         |Microsoft メインストリームサポート         |
+|Microsoft Teams の会議の設定で問題を調査するアプリと、デバイスのサービス品質を適切に設定するためのガイダンスは、要求時に提供されます。      |通話品質の問題またはネットワーク関連の問題に関する根本原因の分析または調査は、このスコープから除外されます。         |Microsoft メインストリームサポート         |
 |**修復、オンボード、進行中**     |         |         |
-|ユーザーは、オンボードで Microsoft Teams の会議室 Premium によって推奨される標準に会議室を導入するためのガイダンスを受け取ります。    |社内のカスタムソフトウェアイメージ、または Microsoft Teams 会議室のおすすめのソフトウェアバージョンガイダンスに準拠していない調査は、範囲外です。          |         |
+|顧客は、オンボードでの Microsoft Teams のルーム管理サービスによって推奨される標準に会議室を導入するためのガイダンスを受け取ります。    |社内のカスタムソフトウェアイメージ、または Microsoft Teams 会議室管理サービスの推奨されるソフトウェアバージョンガイダンスのない調査は、範囲に含まれません。          |         |
 
 ## <a name="data-collection"></a>データ収集
 
-Microsoft Teams room Premium サービスは、デバイスを監視し、デバイスデータを収集して、Microsoft が room デバイスにリモートからアクセスして管理できるようにします。 Microsoft Teams の会議室プレミアムサービスでは、会議のライブコンテンツにアクセスすることはできません。
+Microsoft Teams の会議室管理サービスは、デバイスを監視し、デバイスデータを収集し、Microsoft が room デバイスにリモートアクセスして管理できるようにします。 Microsoft Teams で管理されているサービスは、会議のライブコンテンツにアクセスするわけではありません。
 
-収集されるデータは、個々のユーザーではなく、会議室のアカウントに固有のものです。 個々のユーザーへの偶発的な参照は、デバイスの使用中にアクティビティログに存在する可能性があります。 収集されたデータは、microsoft のプライバシーに関する[声明](https://aka.ms/privacy)に基づいて microsoft が処理します。  
+収集されるデータは、個々のユーザーではなく、会議室のアカウントに固有のものです。 個々のユーザーへの偶発的な参照は、デバイスの使用中にアクティビティログに存在する可能性があります。 収集されたデータは、microsoft のプライバシーに関する [声明](https://aka.ms/privacy)に基づいて microsoft が処理します。  
 
 ## <a name="related-topics"></a>関連項目
 
-- [Microsoft Teams の会議室 Premium](https://rooms.microsoft.com)
+- [Microsoft Teams の会議室管理サービス](https://rooms.microsoft.com)

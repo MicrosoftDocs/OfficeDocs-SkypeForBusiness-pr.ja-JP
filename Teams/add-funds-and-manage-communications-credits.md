@@ -29,12 +29,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Skype for Business サービスの通信クレジット (PSTN 追加機能プラン) に対する支払い方法と、継続的な電話システムへのアクセスをユーザーに許可するプランについて説明します。 '
-ms.openlocfilehash: ad8122ba0b915c669ec991d1b522b853e7b85533
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 9e7dbfea6e662828a6c79ceaec969659acf9224d
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229103"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788541"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
@@ -51,13 +51,13 @@ ms.locfileid: "45229103"
 - 月額プランの月額プランがなくなった場合は、1分あたりのダイヤルアウトと料金がかかります。
 
 > [!NOTE]
-> 料金と料金について知りたい場合は、「[通話プラン](https://go.microsoft.com/fwlink/p/?LinkId=799523)」ページで「料金表」を参照してください。
+> 料金と料金について知りたい場合は、「 [通話プラン](https://go.microsoft.com/fwlink/p/?LinkId=799523) 」ページで「料金表」を参照してください。
   
 管理者は、手動で資金を追加するか、自動再充電を設定**することができます。**
   
 自動再チャージでは、設定した金額を下回ると、自動的に最高額まで残高が追加されます。自動再チャージの使用をお勧めします。これにより、利用可能残高の手動による追加を忘れないようにする必要がなくなります。利用可能残高が設定した金額を下回ると、自動的にチャージされます。自動再チャージを選択していないと、利用可能残高がゼロを下回ってしまうことがあります。その時点で、管理者やユーザーは無料通話や国際通話を発信できなくなります。
   
-支払いオプションはいつでも更新できます。 [**サブスクリプション**] ページで、[**通信クレジット**] を選択して、更新を行います。
+支払いオプションはいつでも更新できます。 [ **サブスクリプション** ] ページで、[ **通信クレジット**] を選択して、更新を行います。
   
 サービスが使用されると、Microsoft の公開料金でクレジットが適用されます。 12ヶ月12日以内に使用していなかった資金は、有効期限が切れて forfeited されます。
   
@@ -78,7 +78,7 @@ ms.locfileid: "45229103"
 
 Microsoft 365 管理センターにサインインして、 **[サブスクリプションの**追加] サブスクリプションに移動して、情報を表示することもでき  >  **Subscriptions**  >  **Add subscriptions**ます。
   
-各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+各機能に必要なライセンスの表を表示するには、「 [Microsoft Teams のアドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
   
 ## <a name="related-topics"></a>関連項目
 

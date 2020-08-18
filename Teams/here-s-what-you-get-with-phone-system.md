@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ビジネス向けの Microsoft 電話システムの計画とセットアップ方法について説明します。 '
-ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638346"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788431"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>電話システムで利用できる機能
 
-この記事では、電話システムの機能について説明します。 PBX (構内交換機) 交換として電話システムを使用する方法、および公衆交換電話網 (PSTN) に接続するためのオプションの詳細については、「[電話システムとは](what-is-phone-system-in-office-365.md)」を参照してください。
+この記事では、電話システムの機能について説明します。 PBX (構内交換機) 交換として電話システムを使用する方法、および公衆交換電話網 (PSTN) に接続するためのオプションの詳細については、「 [電話システムとは](what-is-phone-system-in-office-365.md)」を参照してください。
 
 クライアントは PC、Mac、モバイルで利用できます。これは、タブレットや携帯電話から Pc やデスクトップの IP 電話へのデバイスの機能を提供します。 詳細については、「 [Microsoft Teams のクライアントを取得する](get-clients.md)」を参照してください。
 
@@ -45,7 +45,7 @@ ms.locfileid: "44638346"
 |**電話システムの機能** <br/> |**説明** <br/> |
 |[クラウド自動応答](what-are-phone-system-auto-attendants.md) <br/> |外部および内部の発信者が組織内の会社のユーザーや部署に通話を配置して、通話を転送できるようにするメニューシステムを作成することができます。  <br/> |
 |[クラウド通話キュー](create-a-phone-system-call-queue.md) <br/> |組織での通話キューの管理方法を構成することができます。たとえば、応答メッセージや音楽を保留にしたり、通話を処理する次の通話エージェントを検索したりできます。  <br/> |
-|保留音 | 公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。 この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 この機能は管理者が構成できますが、[現在は PowerShell 経由でのみ](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)設定できます。 PSTN 通話の提案転送でも、音楽を保留することはサポートされていません。|
+|保留音 | 公衆交換電話網 (PSTN) からの外部通話が保留になっているときに、サービスによって定義された既定の音楽を再生します。 この機能は、通話キューへの通話に加えて、1対1の PSTN 同士の通話に対応しています。 この機能は、他のプラットフォームとの保留通知のパリティを提供します。 この機能は管理者が構成できますが、 [現在は PowerShell 経由でのみ](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)設定できます。 PSTN 通話の提案転送でも、音楽を保留することはサポートされていません。|
 |Answer/initiate (名前と電話番号)  <br/> |ユーザーがタッチして着信通話に応答し、完全な電話番号にダイヤルするか、またはクライアントで名前をクリックして発信通話を発信できるようにします。  <br/> |
 |[着信の転送オプションと同時呼び出し](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |通話がどこにいても通話できるように転送ルールを設定したり、通話を同僚やボイスメールに転送したりすることができます。  <br/> |
 |[グループ通話のピックアップとグループへの転送](call-sharing-and-group-call-pickup.md) <br/> | ユーザーが着信した通話を同僚と共有できるようにすることで、ユーザーが使用できない間に発生した通話に同僚が応答できるようにします。 ユーザーは着信の共有通話の通知方法を構成できるため、他の形式の通話共有 (着信の転送、同時呼び出しなど) よりも、受信者に対する影響が少なくなります。 |
@@ -62,12 +62,12 @@ ms.locfileid: "44638346"
 |[クラウドボイスメール](set-up-phone-system-voicemail.md) <br/> | ユーザーがボイスメールを受信すると、ボイスメールが添付ファイルとしてメールとして送信されます。 ユーザーは、認定されたデスクトップ電話で、すべてのチームまたは Skype for business アプリケーションでメッセージを聞くことができます。 ボイスメール トランスクリプションに対するサポートは 2017 年 3 月時点で追加されており、すべての組織とユーザーに対して既定で有効になっています。   <br/> |
 |[クラウドボイスメールのユーザー設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | ユーザーは、不在時の応答を含め、ボイスメール応答メッセージ、通話応答ルール、およびグリーティングの言語のクライアント設定を構成できます。   |
 |[セカンダリ着信](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | PC に複数のスピーカーデバイスが接続されているユーザーは、既定のスピーカーに加えて、2台目のデバイスの着信音を設定することができます。 たとえば、PC と机のスピーカーに接続されているヘッドセットを使用しているユーザーは、着信があったときにヘッドセットと机スピーカーのどちらの輪を持っているかを選択して、通話を逃すことはありません。  |
-|[ディスティンクティブリング通知](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)(Teams のみ)<br/> |通話の種類を区別できるように、通常の通話、着信の転送、委任された通話に対して、着信音を個別に選ぶことができます。  <br/> |
+|[ディスティンクティブリング通知](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (Teams のみ)<br/> |通話の種類を区別できるように、通常の通話、着信の転送、委任された通話に対して、着信音を個別に選ぶことができます。  <br/> |
 |[回線共有機能](shared-line-appearance.md) <br/> | 他のユーザーが自分の代わりに通話を発信および受信できるように、ユーザーが電話回線を共有できるようにします。|
-|[取り込み中 (Teams](teams-calling-policy.md)のみ) <br/> | ユーザーが既に通話または会議に参加している場合や、通話が保留になっている場合に、着信通話の処理方法を構成できる通話ポリシー。 通話先が電話に入っているときは、発信者は取り込み中の信号を受け取ります。 呼び出し元は不在着信通知を取得しますが、着信呼び出しに応答することはできません。 この機能は既定では無効になっていますが、テナント管理者が有効にすることができます。 |
+|[取り込み中 (Teams](teams-calling-policy.md) のみ) <br/> | ユーザーが既に通話または会議に参加している場合や、通話が保留になっている場合に、着信通話の処理方法を構成できる通話ポリシー。 通話先が電話に入っているときは、発信者は取り込み中の信号を受け取ります。 呼び出し元は不在着信通知を取得しますが、着信呼び出しに応答することはできません。 この機能は既定では無効になっていますが、テナント管理者が有効にすることができます。 |
 |[通話ブロック](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | ユーザーが (PSTN) 電話番号をブロックされたリストに追加して、その番号からの次の着信がブロックされるのを防ぐことができます。|
 |[一般的なエリア電話](set-up-common-area-phones.md) <br/> | 通常、一般的なエリアの電話は、ロビーや電話会議室など、複数のユーザーが利用できる領域に配置されています。 一般的なエリア携帯電話は、ユーザーではなくデバイスとして設定されるため、ネットワークに自動的にサインインすることができます。|
-|[メディアバイパスのサポート](direct-routing-plan-media-bypass.md)(Teams で直接ルーティングのみ) <br/> | パフォーマンスを向上させるために、メディアは、Microsoft 電話システム経由で送信するのではなく、セッション境界コントローラー (SBC) とクライアントの間で保持されます。 |
+|[メディアバイパスのサポート](direct-routing-plan-media-bypass.md) (Teams で直接ルーティングのみ) <br/> | パフォーマンスを向上させるために、メディアは、Microsoft 電話システム経由で送信するのではなく、セッション境界コントローラー (SBC) とクライアントの間で保持されます。 |
 
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>GCC 高および DoD クラウドでの可用性
@@ -88,7 +88,7 @@ ms.locfileid: "44638346"
 - [どの通話プランが適していますか?](calling-plan-landing-page.md)
 - [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 - [通話品質を監視および管理する](monitor-call-quality-qos.md)
-- [Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams アドオン ライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [電話システムの価格](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [通話と会議で仮想化されたデスクトップインフラストラクチャのチーム](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 

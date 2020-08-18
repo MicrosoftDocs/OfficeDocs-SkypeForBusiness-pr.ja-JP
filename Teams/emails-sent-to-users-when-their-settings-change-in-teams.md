@@ -21,22 +21,22 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Microsoft Teams でダイヤルイン会議の設定が変更されたときに、メールで自動的にユーザーに送信される情報について説明します。 '
-ms.openlocfilehash: 15c35570d509ae69a41e4c6d9522a5a62d32dd59
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1cef5f0ea8865820f6f6f83e29fe5f66799b70ae
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691483"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788691"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft Teams で設定を変更したときにユーザーに送信されるメール
 
-Microsoft を電話会議プロバイダーとして使用する電話[会議用に有効になっ](set-up-audio-conferencing-in-teams.md)ているユーザーには、メールが自動的に送信されます。
+Microsoft を電話会議プロバイダーとして使用する電話 [会議用に有効になっ](set-up-audio-conferencing-in-teams.md) ているユーザーには、メールが自動的に送信されます。
 
 既定では、電話会議が有効になっているユーザーに送信されるメールには4種類のメールが用意されています。 ただし、ユーザーに送信されるメールの数を制限する場合は、オフにすることができます。 Microsoft 365 または Office 365 の電話会議では、次の場合にユーザーのメールにメールが送信されます。
 
 - **電話会議ライセンスが割り当てられているか、電話会議プロバイダーを Microsoft に変更する場合。**
 
-     このメールには、会議 ID、会議用の既定の会議電話番号、ユーザー用の電話会議の PIN、およびユーザーの既存の会議を更新するために使用される Skype for Business Online Meeting Update Tool を使用するための手順とリンクが含まれています。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」または「 [microsoft を電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
+     このメールには、会議 ID、会議用の既定の会議電話番号、ユーザー用の電話会議の PIN、およびユーザーの既存の会議を更新するために使用される Skype for Business Online Meeting Update Tool を使用するための手順とリンクが含まれています。 「 [Microsoft Teams のアドオンライセンスを割り当てる](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) 」または「 [microsoft を電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)」を参照してください。
 
     > [!NOTE]
     > 組織で動的会議 Id が有効になっている場合、スケジュールされているすべてのユーザーの会議には、固有の会議 Id が割り当てられます。 [組織内の電話会議の動的 id](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)を設定することができます。 
@@ -45,7 +45,7 @@ Microsoft を電話会議プロバイダーとして使用する電話[会議用
 
      ![Skype for Business のライセンスを確認する](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    ライセンスの詳細については、「 [Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+    ライセンスの詳細については、「 [Microsoft Teams のアドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
 
 - **会議 ID またはユーザーの既定の会議の電話番号が変更されます。**
 
@@ -65,7 +65,7 @@ Microsoft を電話会議プロバイダーとして使用する電話[会議用
   
 - **ユーザーのライセンスが削除されるか、電話会議プロバイダーが Microsoft から別のプロバイダーまたは [なし] に変更されたとき。**
 
-    この問題は、電話**会議**のライセンスがユーザーから削除された場合、または電話会議プロバイダーを **[なし**] に設定した場合に発生します。
+    この問題は、電話 **会議** のライセンスがユーザーから削除された場合、または電話会議プロバイダーを **[なし**] に設定した場合に発生します。
 
     「 [Microsoft 365 for business のライセンスの割り当てまたは削除」を](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)参照してください。
 

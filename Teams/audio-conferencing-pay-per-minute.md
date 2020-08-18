@@ -23,19 +23,19 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft ボリュームライセンスを使用する組織で電話会議機能を有効にするための [分単位の支払い] オプションについて説明します。
-ms.openlocfilehash: f153c05638f26244a9f37b69018cc22428ee99f2
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 858b0f34075e2aa81e4c34794c96f37a2d5c9d36
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021745"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788681"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
 標準の電話会議に加えて、ユーザーごとのライセンス、ボリューム、ライセンスなどの組織で電話会議機能を有効にすることもできます。
   
 
-電話会議の[国/地域がサポートされて](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)いるかどうかを確認できます。
+電話会議の [国/地域がサポートされて](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) いるかどうかを確認できます。
 
   
 > [!NOTE]
@@ -43,7 +43,7 @@ ms.locfileid: "45021745"
   
 ## <a name="need-some-details"></a>詳細情報が必要ですか?
 
-電話会議のユーザーごとの電話会議には、ダイヤルインの利用状況が含まれています。また、ダイヤルアウトの使用状況によっては、電話会議の1分あたりの料金で支払いを行うことができます。**ユーザーごとの月間ライセンスを購入**する必要はありません。 これにより、すべてのダイヤルインおよびダイヤルアウト通話は、次のような分単位で課金されます。
+電話会議のユーザーごとの電話会議には、ダイヤルインの利用状況が含まれています。また、ダイヤルアウトの使用状況によっては、電話会議の1分あたりの料金で支払いを行うことができます。 **ユーザーごとの月間ライセンスを購入**する必要はありません。 これにより、すべてのダイヤルインおよびダイヤルアウト通話は、次のような分単位で課金されます。
   
 - 組織の有料電話会議番号への着信通話。
     
@@ -54,7 +54,7 @@ ms.locfileid: "45021745"
 > [!NOTE]
 > この種の通話に関連付けられているダイヤルインとダイヤルアウトの料金は、「電話[会議](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)の**発信先の料金を確認する」** で確認できます。
   
-1分あたりの支払いには、組織が[通信クレジット](what-are-communications-credits.md)を設定する必要があります。 また、電話会議を使用するには、1分あたりのライセンスと通信クレジットライセンスの両方を各ユーザーに割り当てる必要があります。 詳細については、「組織または[Microsoft Teams のアドオンライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)[の通信クレジットをセットアップ](set-up-communications-credits-for-your-organization.md)する」を参照してください。
+1分あたりの支払いには、組織が [通信クレジット](what-are-communications-credits.md) を設定する必要があります。 また、電話会議を使用するには、1分あたりのライセンスと通信クレジットライセンスの両方を各ユーザーに割り当てる必要があります。 詳細については、「組織または[Microsoft Teams のアドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)[の通信クレジットをセットアップ](set-up-communications-credits-for-your-organization.md)する」を参照してください。
   
 組織内のユーザーに対して電話会議を1分あたりに有効にするには、「 [Microsoft office 365 または office 365 で電話会議を試す](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)、または購入する」を参照してください。
 
@@ -84,7 +84,7 @@ ms.locfileid: "45021745"
     
 ## <a name="related-topics"></a>関連項目
   
-[Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams アドオン ライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
   
  

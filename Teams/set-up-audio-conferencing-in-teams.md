@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 0ac5ac9cd3a722920a76d968848cd37388908121
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 9c86d83b1a39c5ae3623c2205a09b4e8d604ce5e
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691093"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788701"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
@@ -47,12 +47,12 @@ ms.locfileid: "44691093"
  
 ## <a name="step-2-get-and-assign-licenses"></a>手順 2: ライセンスを取得して割り当てる
  
-1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 電話会議のために購入する必要のあるライセンスの種類と必要コストについては、「[Microsoft Teams のアドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 電話会議のために購入する必要のあるライセンスの種類と必要コストについては、「[Microsoft Teams のアドオン ライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
 
     >[!NOTE] 
     > 電話会議は Office 365 Enterprise E5 ライセンスにアドオンとして含まれています。
         
-2. 電話会議ライセンスを購入した後は、それらのライセンスを、会議を計画または開催しようとしている組織内のユーザーに割り当てる必要があります。 会議をスケジュールまたは開催しようとしている組織内のユーザーに購入した、「 [Microsoft 365 または Office 365 のユーザーへのライセンスの割り当て](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。
+2. 電話会議ライセンスを購入した後は、それらのライセンスを、会議を計画または開催しようとしている組織内のユーザーに割り当てる必要があります。 会議をスケジュールまたは開催しようとしている組織内のユーザーに購入した、「 [Microsoft 365 または Office 365 のユーザーへのライセンスの割り当て](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 」を参照してください。
     
 3. また、前の手順でライセンスを割り当てた同じユーザーに、コミュニケーション クレジット ライセンス (費用はかかりません) を割り当てることをおすすめします。 コミュニケーション クレジットのセットアップ方法については、「[組織向けにコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)」を参照してください。
     

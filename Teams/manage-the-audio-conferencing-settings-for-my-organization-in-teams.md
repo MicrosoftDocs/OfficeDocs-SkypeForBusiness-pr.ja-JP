@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: 1cf51db4bd2ba4e6fb29d7301cb2ad46d4afb2f4
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8a01be430e8c3993325c5ef6759e520664a21e55
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691213"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788771"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -39,7 +39,7 @@ ms.locfileid: "44691213"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> Teams を使用してライセンスを割り当てることはできません。 Microsoft 365 管理センターを使用する必要があります。 「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。 
+> Teams を使用してライセンスを割り当てることはできません。 Microsoft 365 管理センターを使用する必要があります。 「 [Microsoft Teams のアドオンライセンスを割り当てる](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。 
   
  **ユーザーにライセンスを割り当てる**
   
@@ -52,7 +52,7 @@ ms.locfileid: "44691213"
   
 3. 操作ウィンドウの [**製品ライセンス**] で [ **編集**] をクリックします。 
     
-4. [**製品ライセンス**] ページで、[**電話会議**] を有効にし、[**保存**] をクリックします。ライセンスの詳細については、「[Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+4. [**製品ライセンス**] ページで、[**電話会議**] を有効にし、[**保存**] をクリックします。ライセンスの詳細については、「[Microsoft Teams アドオン ライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
     
    > [!NOTE]
    > ライセンスを割り当てた後は、リストの最初の電話会議プロバイダーとして Microsoft が表示されない可能性があります。この問題が発生した場合は、管理センターからログアウトするか、CTRL キーを押しながら F5 キーを押してブラウザーウィンドウを更新してください。 
@@ -146,10 +146,10 @@ ms.locfileid: "44691213"
 
     [**名前または電話番号**] を選ぶと、[**発信者に会議に参加する前に自分の名前を記録するように要求する**] を有効または無効にすることもできます。 
     > [!NOTE]
-    > 既定では、外部参加者はダイヤルイン参加者の電話番号を表示することはできません。 これらの電話番号のプライバシーを維持する場合は、[アナウンスの**種類**] の [**トーン**] を選択します (これにより、チームがこの番号を閲覧できなくなります)。
+    > 既定では、外部参加者はダイヤルイン参加者の電話番号を表示することはできません。 これらの電話番号のプライバシーを維持したい場合は、**開始/終了のお知らせの種類** の **トーン** を選びます (これにより、数字が Teams によって読み上げられません)。
 
 
-5. **[保存]** をクリックします。
+5. [**保存**] をクリックします。
 
     
 [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)を参照してください。
@@ -175,7 +175,7 @@ ms.locfileid: "44691213"
 
 3. [**ブリッジの設定**] ペインで、[**電話会議設定を変更した場合ユーザーに自動的に電子メールを送信する**] を有効または無効にします。
 
-4. **[保存]** をクリックします。 
+4. [**保存**] をクリックします。 
  
     電話会議設定をメールでユーザーに送ることもできます。その場合は、ユーザーの電話会議プロパティに移動して、[**電話会議情報を電子メールで送信する**] をクリックします。
     

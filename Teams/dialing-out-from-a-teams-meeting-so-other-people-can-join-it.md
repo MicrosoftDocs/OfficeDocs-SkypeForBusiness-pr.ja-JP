@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会議の開催者は、Teams アプリを使ってダイヤルアウトする方法を学習し、他のユーザーが電話を使って同じ会議に参加できるようにします。
-ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 575ed18bd3dbd404dba947c0c4556d52e0653200
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662107"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788761"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
@@ -63,4 +63,4 @@ ms.locfileid: "46662107"
 
 [電話会議を試用または購入する](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Microsoft Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams アドオン ライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)

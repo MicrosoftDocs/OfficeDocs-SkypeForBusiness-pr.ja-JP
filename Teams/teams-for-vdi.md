@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46607099"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778069"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -74,13 +74,13 @@ Windows 仮想デスクトップでは、VDI 上の Teams に AV の最適化が
 
 Citrix Virtual Apps and Desktops (以前の XenApp および XenDesktop) は、VDI 上の Teams に AV 最適化を提供します。 Citrix Virtual Apps and Desktops を使用すると、VDI 上の Teams はチャットと共同作業に加えて、通話および会議機能をサポートします。
 
-Citrix の[ダウンロードサイト](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)で、Citrix の仮想アプリとデスクトップの最新バージョンをダウンロードできます。 (最初にサインインする必要があります。) 必要なコンポーネントは、デフォルトで [Citrix Workspace アプリ (CWA)](https://www.citrix.com/downloads/workspace-app/) および Virtual Delivery Agent (VDA) にバンドルされています。 CWA や VDA に追加のコンポーネントやプラグインをインストールする必要はありません。
+Citrix の [ダウンロードサイト](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)で、Citrix の仮想アプリとデスクトップの最新バージョンをダウンロードできます。 (最初にサインインする必要があります。) 必要なコンポーネントは、デフォルトで [Citrix Workspace アプリ (CWA)](https://www.citrix.com/downloads/workspace-app/) および Virtual Delivery Agent (VDA) にバンドルされています。 CWA や VDA に追加のコンポーネントやプラグインをインストールする必要はありません。
 
 サーバーおよびクライアントの最新の要件については、[この Citrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware ホライズンワークスペースとデスクトップの要件
 
-ヴイエムウェアホライズンは、VDI での Teams のサポートを最適化し、仮想デスクトップ全体の生産性を向上させます。 最新バージョンの VMware ホライズンは、[ヴイエムウェアのダウンロード](https://my.vmware.com/web/vmware/downloads/#all_products)ページからダウンロードできます。
+ヴイエムウェアホライズンは、VDI での Teams のサポートを最適化し、仮想デスクトップ全体の生産性を向上させます。 最新バージョンの VMware ホライズンは、 [ヴイエムウェアのダウンロード](https://my.vmware.com/web/vmware/downloads/#all_products) ページからダウンロードできます。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI で Teams デスクトップ アプリをインストールまたは更新する
 
@@ -139,22 +139,22 @@ VDI で企業向けの Microsoft 365 アプリを使用して Teams を展開す
 
 #### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Microsoft 365 アプリを使用した、エンタープライズアップデート向けの Teams の展開
 
-Teams は、エンタープライズ向けの Microsoft 365 アプリの既存のインストールにも追加されています。 エンタープライズ用の Microsoft 365 アプリでは、ユーザーごとにチームをインストールするため、「 [VDI 上の teams デスクトップアプリをインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi)する」セクションを参照してください。
+Teams は、エンタープライズ向けの Microsoft 365 アプリの既存のインストールにも追加されています。 エンタープライズ用の Microsoft 365 アプリでは、ユーザーごとにチームをインストールするため、「 [VDI 上の teams デスクトップアプリをインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi) する」セクションを参照してください。
 
 #### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>コンピューターごとのインストールと Microsoft 365 アプリでの Teams の使用 (エンタープライズ向け)
 
-エンタープライズ向けの Microsoft 365 アプリでは、各コンピューターの Teams インストールをサポートしていません。 コンピューターごとのインストールを使用するには、enterprise 用の Microsoft 365 アプリから Teams を除外する必要があります。 「 [Teams デスクトップアプリを VM に展開](#deploy-the-teams-desktop-app-to-the-vm)する」および「[エンタープライズ向けの Microsoft 365 アプリを通じてチームの展開を除外する方法](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise)」を参照してください。
+エンタープライズ向けの Microsoft 365 アプリでは、各コンピューターの Teams インストールをサポートしていません。 コンピューターごとのインストールを使用するには、enterprise 用の Microsoft 365 アプリから Teams を除外する必要があります。 「 [Teams デスクトップアプリを VM に展開](#deploy-the-teams-desktop-app-to-the-vm) する」および「 [エンタープライズ向けの Microsoft 365 アプリを通じてチームの展開を除外する方法](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) 」を参照してください。
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>企業向けの Microsoft 365 アプリからチームの展開を除外する方法
 
-企業向けのチームおよび Microsoft 365 アプリの詳細については、「 [enterprise 用の microsoft 365 アプリの新しいインストールからチームを除外する](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)」および「[グループポリシーを使用して teams のインストールを制御](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)する方法」を参照してください。
+企業向けのチームおよび Microsoft 365 アプリの詳細については、「 [enterprise 用の microsoft 365 アプリの新しいインストールからチームを除外する](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) 」および「 [グループポリシーを使用して teams のインストールを制御](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)する方法」を参照してください。
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Teams デスクトップ アプリを VM に展開する
 
 1. 次のリンクのいずれかを使用して、VDI VM オペレーティング システムに一致する Teams MSI パッケージをダウンロードします。
 
-    - [32 ビット版](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
-    - [64 ビット版](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
+    - [32 ビット版](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
+    - [64 ビット版](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
 
     必要な Teams デスクトップアプリの最小バージョンはバージョン1.3.00.4461 です。 (以前のバージョンでは、PSTN 保留はサポートされていません)。
 
@@ -179,7 +179,7 @@ Teams は、エンタープライズ向けの Microsoft 365 アプリの既存�
         次の対話型ログオン セッションは、Teams を開始し、資格情報を要求します。
 
     > [!NOTE]
-    > これらの例では、 **ALLUSERS = 1**パラメーターも使用します。 このパラメーターを設定すると、チームのコンピューター全体のインストーラーがコントロールパネルの [プログラムと機能] に表示され、[アプリ] では、コンピューターのすべてのユーザーの Windows 設定の & 機能が表示されます。 すべてのユーザーが管理者の資格情報を持っている場合は、チームをアンインストールできます。
+    > これらの例では、 **ALLUSERS = 1** パラメーターも使用します。 このパラメーターを設定すると、チームのコンピューター全体のインストーラーがコントロールパネルの [プログラムと機能] に表示され、[アプリ] では、コンピューターのすべてのユーザーの Windows 設定の & 機能が表示されます。 すべてのユーザーが管理者の資格情報を持っている場合は、チームをアンインストールできます。
     **ALLUSERS = 1**と**alluser = 1**の違いを理解しておくことが重要です。 **ALLUSERS = 1**パラメーターは非 VDI および vdi 環境で使うことができますが、 **alluser = 1**パラメーターは vdi 環境でのみ使用され、コンピューター単位のインストールを指定します。
 
 3. VDI VM から MSI をアンインストールします。
@@ -387,7 +387,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
     - マルチモニター設定での画面共有の場合、メイン モニターのみ共有されます。
     - CWA での高 DPI スケーリングはサポートされていません。
 
-VDI に関連していない Teams の既知の問題については、「[組織のサポートチーム](Known-issues.md)」をご覧ください。
+VDI に関連していない Teams の既知の問題については、「 [組織のサポートチーム](Known-issues.md)」をご覧ください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
