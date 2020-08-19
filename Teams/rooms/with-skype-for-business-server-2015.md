@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams のルームを Skype for Business Server に展開する
+title: Skype for Business Server で Microsoft Teams Rooms を展開する
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -13,23 +13,23 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: このトピックでは、Skype for Business Server で Microsoft Teams のルームを展開する方法について説明します。
+description: このトピックでは、Skype for Business Server を使用して Microsoft Teams Rooms を展開する方法について説明します。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 9e827f4d1fc020160b59f26dffde960394c3a69e
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43905269"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Microsoft Teams のルームを Skype for Business Server に展開する
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Skype for Business Server で Microsoft Teams Rooms を展開する
   
-このトピックでは、単一フォレストのオンプレミス展開を使用しているときに、Microsoft Teams ルームのデバイスアカウントを追加する方法について説明します。
+このトピックでは、単一フォレストのオンプレミス展開がある場合に Microsoft Teams Rooms のデバイス アカウントを追加する方法を説明します。
   
-フォレストが1つのフォレスト、Exchange 2013 SP1 以降、および Skype for Business Server 2015 以降を搭載している場合は、提供されている Windows PowerShell スクリプトを使用して、デバイスアカウントを作成することができます。 複数フォレストの展開を使用している場合は、同じ結果を生成する同等のコマンドレットを使うことができます。 これらのコマンドレットについては、このセクションで説明します。
+単一つのフォレスト、Exchange 2013 SP1 以降のオンプレミス展開、および Skype for Business Server 2015 以降を使用している場合、提供されている Windows PowerShell スクリプトを使用してデバイスアカウントを作成できます。 複数のフォレストを使用している場合は、同じ結果を生成する同じコマンドレットを使用できます。 ここでは、これらのツールについて説明します。
 
   
-Microsoft Teams ルームの展開を開始する前に、関連付けられたコマンドレットを実行する適切な権限があることを確認します。
+Microsoft Teams Rooms の展開を開始する前に、関連するコマンドレットを実行するための適切な権限があることを確認します。
   
 
    ``` Powershell
@@ -43,25 +43,25 @@ Microsoft Teams ルームの展開を開始する前に、関連付けられた�
    Import-PSSession $sessLync
    ```
 
-   $StrExchangeServer は Exchange server の完全修飾ドメイン名 (FQDN) であり、$strLyncFQDN は Skype for Business Server の展開の FQDN です。
+   $strExchangeServer は Exchangeサーバー の完全修飾ドメイン名 (FQDN) で、$strLyncFQDN は Skype for Business Server展開のFQDNです。
 
-2. セッションを確立したら、新しいメールボックスを作成して、RoomMailboxAccount として有効にするか、既存の会議のメールボックスの設定を変更します。 これにより、アカウントは Microsoft Teams のルームに対して認証されます。
+2. セッションを確立したら、新しいメールボックスを作成して RoomMailboxAccount として有効にするか、既存の会議室メールボックスの設定を変更します。 これにより、アカウントは、Microsoft Teams Rooms に認証されます。
 
-    既存のリソース メールボックスを変更している場合:
+    既存のリソースメールボックスを変更する場合：
 
    ``` Powershell
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
-   新しいリソースメールボックスを作成する場合は、次の操作を行います。
+   新しいリソース メールボックスを作成している場合:
 
    ``` Powershell
    New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. デバイスアカウントのさまざまな Exchange プロパティを設定して、ユーザーの会議の操作性を向上させることができます。 設定する必要のあるプロパティは、「Exchange のプロパティ」セクションで確認できます。
+3. ユーザーの会議エクスペリエンスを改善するために、デバイス アカウントに対してさまざまなExchangeプロパティを設定することができます。 [Exchange プロパティ] セクションで設定する必要があるプロパティが表示されます。
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -69,28 +69,28 @@ Microsoft Teams ルームの展開を開始する前に、関連付けられた�
    Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. パスワードの有効期限が切れないと判断した場合は、Windows PowerShell コマンドレットを使用して設定できます。 詳細については、「パスワードの管理」を参照してください。
+4. パスワードを無期限にする場合は、Windows PowerShellコマンドレットでその設定を行うこともできます。 詳細については、「パスワードの管理」を参照してください。
 
    ``` Powershell
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. Active Directory でアカウントを有効にして、Microsoft Teams のルームに対して認証されるようにします。
+5. Active Directory でアカウントを有効にし、Microsoft Teams Rooms に対して認証できるようにします。
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Skype for business Server プールで Microsoft Teams 会議の Active Directory アカウントを有効にして、Skype for Business Server でデバイスアカウントを有効にします。
+6. Skype for Business Server のプールで、Microsoft Teams Rooms Active Directoryアカウントを有効にしてから、Skype for Business Server を使用して、でデバイスアカウントを有効にします。
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
    ```
 
-    セッション開始プロトコル (SIP) アドレスとプロジェクトのドメイン コントローラーを使用する必要があります。
+    プロジェクトのセッション開始プロトコル (SIP) アドレスとドメインコントローラーを使用する必要があります。
 
-7. **オプション。** また、アカウントのエンタープライズ Voip を有効にすることで、Microsoft Teams の会議通話の発信や受信を行うことができます。 エンタープライズ Voip は Microsoft Teams のルームでは必要ありませんが、Microsoft Teams のルームクライアントで PSTN ダイヤル機能を使用する場合は、次のようにして有効にすることができます。
+7. **オプション。** アカウントのEnterprise Voice を有効にすることで、Microsoft Teams Rooms を使用して、公衆交換電話網 (PSTN) 通話を発着信することもできます。 Enterprise Voice は、Microsoft Teams Rooms では必要ありませんが、Microsoft Teams Rooms クライアントにPSTNダイアル機能を持たせたい場合は、次のようにしてください。
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -101,7 +101,7 @@ Microsoft Teams ルームの展開を開始する前に、関連付けられた�
 
    繰り返しますが、提供されるドメイン コントローラーと電話番号の例は、実際に使用する情報に置き換える必要があります。パラメータ値 $true は同じままです。
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>サンプル: Exchange および Skype for Business Server on it での room アカウントのセットアップ
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>サンプル: Exchange およびオンプレミスの Skype for Business Serverの会議室アカウントのセットアップ
 
 ``` Powershell
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
@@ -119,12 +119,12 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## <a name="related-topics"></a>関連項目
 
-[Microsoft Teams ミーティングのアカウントを構成する](rooms-configure-accounts.md)
+[Microsoft Teams Rooms のアカウントを構成する](rooms-configure-accounts.md)
 
-[Microsoft Teams ミーティングを計画する](rooms-plan.md)
+[Microsoft Teams Rooms を計画する](rooms-plan.md)
   
-[デプロイの概要](rooms-deploy.md)
+[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)
   
-[Microsoft Teams ミーティング コンソールを構成する](console.md)
+[Microsoft Teams Rooms コンソールを構成する](console.md)
   
 [Microsoft Teams Rooms を管理する](rooms-manage.md)
