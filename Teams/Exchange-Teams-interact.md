@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 52f40e9eacc75c15720d5d908709c5840d9474b3
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552013"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803789"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -30,41 +30,38 @@ ms.locfileid: "46552013"
 
 完全なチームエクスペリエンスを実現するには、すべてのユーザーが Exchange Online、SharePoint Online、および Microsoft 365 グループの作成を有効にしている必要があります。
 
-ユーザーの Exchange メールボックスは、オンラインまたはオンプレミスでホストできます。 オンプレミスの Exchange との統合には、Exchange ハイブリッド展開が必要です。 ハイブリッド展開のセットアップの詳細については、「 [Exchange Server のハイブリッド展開](https://docs.microsoft.com/exchange/exchange-hybrid)」を参照してください。
+ユーザーの Exchange メールボックスは、オンラインまたはオンプレミスでホストできます。 オンプレミスとの統合については、従来の Exchange full のハイブリッド展開を使用することをお勧めします。 ハイブリッド展開のセットアップの詳細については、「 [Exchange Server のハイブリッド展開](https://docs.microsoft.com/exchange/exchange-hybrid)」を参照してください。
 
-Exchange Online または Exchange 専用 vNext でホストされているユーザーは、Teams のすべての機能を使用できます。 メンバーは、チームとチャネルの作成と参加、会議の作成と表示、電話とチャット、ユーザープロファイルの画像の変更 (Outlook on the web メールボックスポリシーで許可されている場合) の変更、コネクタ、タブ、ボットの追加と構成を行うことができます。
+Exchange Online または Exchange 専用 vNext でホストされているユーザーは、Teams のすべての機能を使用できます。 メンバーは、チームとチャネルの作成と参加、会議の作成と表示、電話とチャット、ユーザープロファイルの画像の変更 (Outlook on the web メールボックスポリシーで許可されている場合) の変更、コネクタ、タブ、ボットの追加と構成を行うことができます。 使用可能な機能の詳細な一覧については、以下の表を参照してください。
 
 Exchange Online 専用 (レガシ) でホストされているユーザーは、Microsoft 365 または Office 365 上の Azure Active Directory と同期する必要があります。 チームやチャネルの作成およびそれらへの参加、タブ、ボットの追加と構成、チャットや通話機能の利用が可能です。 ただし、プロフィール画像の変更、会議の管理、outlook の連絡先へのアクセス、コネクタの管理はできません。
 
-オンプレミスでホストされているメールボックスを使っているユーザーは、Azure Active Directory と同期する必要があります。 上記のシナリオのすべての機能を使うことができます。さらに、ユーザープロファイルの画像 (Outlook on the web メールボックスポリシーで許可されている場合) を変更することもできます。また、Exchange Server 2016 (累積更新プログラム 3) 以降を実行している場合は、「 [exchange と Exchange Online の間の oauth 認証の構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)」で説明されているように、oauth 構成 (Exchange ハイブリッド構成ウィザード これらのユーザーに対して予定表の委任を有効にするには、「 [Skype For Business Online と Exchange Server の間の統合と OAuth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明する手順2-3 を実行する必要があります。これらの手順では、チームのスケジュールアプリケーションに委任権限を確認するために必要な権限が与えられます。
+オンプレミスでホストされているメールボックスを使っているユーザーは、Azure Active Directory と同期する必要があります。 上記のシナリオのすべての機能を使用できるようになりましたが、さらに exchange Server 2016 (累積更新プログラム 3) 以降を使用している場合は、「exchange [と Exchange Online の間での oauth 認証の構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)」で説明されているように、oauth 構成でオンプレミスを実行している (Exchange ハイブリッド構成ウィザードで可能) これらのユーザーに対して予定表の委任を有効にするには、「 [Skype For Business Online と Exchange Server の間の統合と OAuth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明する手順2-3 を実行する必要があります。これらの手順では、チームのスケジュールアプリケーションに委任権限を確認するために必要な権限が与えられます。
 
 次の表では、Exchange 環境に基づいて、機能の可用性に関する役立つクイック リファレンスをまとめています。
-
-> [!NOTE]
-> オンプレミスの Exchange と Teams の機能の統合には、Exchange ハイブリッド展開が必要です。 この要件は、次の表のいくつかの機能で利用されているバージョン固有の要件に加えています。
 
 **サポートされるアクション:**
 
 | ユーザーのメールボックスのホスト先:                                        | 電子情報開示       | 法的な&nbsp;保全    | 保持  | チームとチャネルの管理 | Teams で会議を作成して表示する | ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール  | コネクタを追加して構成する | タブを追加して構成する | ボットを追加して構成する |
 |---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                 | ○ <sup>1</sup> | ○ <sup>1</sup>   | Yes        | Yes                   | Yes                               | ○ (<sup>7</sup> )             | Yes          | Yes             | はい<sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
-| **Exchange Online 専用 vNext**                                 | ○ <sup>1</sup> | ○ <sup>1</sup>   | Yes        | Yes                   | Yes                               | ○ (<sup>7</sup> )             | Yes          | Yes             | はい<sup>6</sup>        | Yes        | Yes                          | Yes                    | はい                    |
-| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要)  | ○ <sup>1</sup> | はい<sup>1、2</sup> | はい <sup> 3 | 必要                   | ×                                | いいえ                          | はい          | 必要             | いいえ                      | はい <sup>4 | はい <sup>5                   | はい                    | Yes                    |
-| **Exchange on-premises** (Azure AD との同期 & OAuth 構成が必要) | ○ <sup>1</sup> | ○ <sup>1</sup>   | はい <sup> 3 | はい                   | はい (Exchange 2016 CU3+)          | いいえ                          | はい          | 必要             | いいえ                      | はい <sup>4 | はい <sup>5                   | はい                    | Yes                    |
+| **Exchange Online**                                                 | ○ <sup>1</sup> | ○ <sup>1</sup>   | はい        | はい                   | はい                               | ○ (<sup>7</sup> )             | はい          | はい             | はい <sup>6</sup>        | はい        | はい                          | はい                    | はい                    |
+| **Exchange Online 専用 vNext**                                 | ○ <sup>1</sup> | ○ <sup>1</sup>   | はい        | はい                   | はい                               | ○ (<sup>7</sup> )             | はい          | はい             | はい <sup>6</sup>        | はい        | はい                          | はい                    | はい                    |
+| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要)  | ○ <sup>1</sup> | はい <sup>1、2</sup> | はい <sup> 3 | はい                   | いいえ                                | いいえ                          | はい          | はい             | いいえ                      | はい <sup>4 | はい <sup>5                   | はい                    | はい                    |
+| **Exchange on-premises** (Azure AD との同期 & OAuth 構成が必要) | ○ <sup>1</sup> | ○ <sup>1</sup>   | はい <sup> 3 | はい                   | はい (Exchange 2016 CU3+)          | いいえ                          | はい          | はい             | いいえ                      | はい <sup>4 | はい <sup>5                   | はい                    | はい                    |
 
 チャネルメッセージのコンプライアンスのため<sup>の電子情報</sup>開示と法的保持は、すべてのホスティングオプションでサポートされています。
 
-<sup>2</sup>チームプライベートチャットメッセージは、このホスティングオプションの法的保持に対してまだサポートされていません。
+<sup>2</sup> チームプライベートチャットメッセージは、このホスティングオプションの法的保持に対してまだサポートされていません。
 
-<sup>3</sup>保持は、オンラインユーザーがメッセージを保存するためのシャドウメールボックスを使います。
+<sup>3</sup> 保持は、オンラインユーザーがメッセージを保存するためのシャドウメールボックスを使います。
 
-<sup>4</sup>オンプレミス Exchange メールボックスを使用している teams ユーザーは、Outlook でボイスメールを使用してボイスメールメッセージを受信することができます。ただし、ボイスメールメッセージは、teams クライアント内で表示または再生できません。
+<sup>4</sup> オンプレミス Exchange メールボックスを使用している teams ユーザーは、Outlook でボイスメールを使用してボイスメールメッセージを受信することができます。ただし、ボイスメールメッセージは、teams クライアント内で表示または再生できません。
 
-<sup>5</sup>チームの所有者の1人がコネクタを追加できる場合は、そのチーム内の他のすべてのユーザーがメールボックスをオンプレミスにしている場合でも、その操作を行うことができます。
+<sup>5</sup> チームの所有者の1人がコネクタを追加できる場合は、そのチーム内の他のすべてのユーザーがメールボックスをオンプレミスにしている場合でも、その操作を行うことができます。
 
 [既定の連絡先] フォルダーの連絡先のみ<sup>6</sup> 。 他の連絡先フォルダーまたはサブフォルダーへのアクセスはサポートされていません。
 
-<sup>7</sup>チームは、テナント管理者によって構成された[web メールボックスのポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)設定を使用して、ユーザーが自分のプロファイル写真を変更できるかどうかを制御します。 ポリシーで **-setphotoenabled**設定が無効になっている場合、ユーザーはそのプロフィール画像を追加、変更、削除することはできません。 たとえば、ユーザーが組織の IT または人事部門によって承認されたプロファイル画像をアップロードした場合、操作は必要ありません。 ただし、ユーザーが不適切な画像をアップロードした場合は、組織の内部ポリシーに従って画像を変更します。
+<sup>7</sup> チームは、テナント管理者によって構成された [web メールボックスのポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定を使用して、ユーザーが自分のプロファイル写真を変更できるかどうかを制御します。 ポリシーで **-setphotoenabled** 設定が無効になっている場合、ユーザーはそのプロフィール画像を追加、変更、削除することはできません。 たとえば、ユーザーが組織の IT または人事部門によって承認されたプロファイル画像をアップロードした場合、操作は必要ありません。 ただし、ユーザーが不適切な画像をアップロードした場合は、組織の内部ポリシーに従って画像を変更します。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 
@@ -76,10 +73,10 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 
 - Microsoft Teams で teams を作成するには、Microsoft 365 グループの作成のためにユーザーを有効にする必要があります。
 
-- Microsoft Teams で Exchange をオンプレミスで使用できるようにするには、exchange ハイブリッドウィザードを実行することで、可能であれば新しい Exchange OAuth 認証プロトコルを構成する必要があります。詳細については、「 [exchange と Exchange Online 組織の間の OAuth 認証を構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)する」を参照してください。 Exchange のオンプレミスメールボックスを使用してユーザーが別のユーザーの代わりにチーム会議をスケジュールできるようにするには、「 [Skype For Business Online と Exchange Server の間の統合と OAuth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明されている手順2-3 を完了する必要があります。
+- Microsoft Teams で Exchange をオンプレミスで使用できるようにするには、exchange ハイブリッドウィザードを実行することで、可能であれば新しい Exchange OAuth 認証プロトコルを構成する必要があります。詳細については、「 [exchange と Exchange Online 組織の間の OAuth 認証を構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)する」を参照してください。 オンプレミスのメールボックスに対して予定表へのアクセスを行うには、自動検出と EWS の両方の Exchange のオンプレミス組織へのアクセスが必要です。また、メールボックスは Exchange 2016 CU3 以降で以降に配置されている必要があります。 Exchange のオンプレミスメールボックスを持つユーザーが、他のユーザーの代理としてチームの会議をスケジュールできるようにするには、「 [Skype For Business Online と Exchange Server の間の統合と OAuth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明されている手順2と3を実行する必要があります。
 
 > [!NOTE]
-> Outlook Teams アドインを使用して、オンプレミスの Exchange でホストされているメールボックスの Teams 会議をスケジュール設定することができます。 ただし、オンプレミスの Exchange を使用している他のユーザーに代わってチーム会議をスケジュールするには、Exchange 2013 CU9 以上と新しい Exchange OAuth 認証プロトコルが必要です。 代理人と委任者は両方とも Exchange on/オンプレミスのメールボックスを持っている必要があります。
+> Outlook Teams アドインを使用して、オンプレミスの Exchange でホストされているメールボックスの Teams 会議をスケジュール設定することができます。 ただし、オンプレミスの Exchange を使用している他のユーザーに代わってチーム会議をスケジュールするには、Exchange 2016 CU3 以降で以上と新しい Exchange OAuth 認証プロトコルが必要です。 代理人と委任者は両方とも Exchange on/オンプレミスのメールボックスを持っている必要があります。
 
 > [!NOTE]
 > Exchange On-premises と Teams を統合するには、必要なライセンスを AAD の同期されたユーザーに割り当てる必要があります。
@@ -97,7 +94,7 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 
 - すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。
 
-- Exchange ハイブリッド展開では、チャット参加者が使用するメールボックスがクラウド ベースかオンプレミスかにかかわらず、チャット メッセージのコンテンツは検索可能です。 詳細については、「[オンプレミスユーザー向けのクラウドベースのメールボックスの検索](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)」を参照してください。 Teams でコンテンツを検索する方法については、 [Microsoft 365 コンプライアンスセンターでコンテンツ検索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)を参照してください。
+- Exchange ハイブリッド展開では、チャット参加者が使用するメールボックスがクラウド ベースかオンプレミスかにかかわらず、チャット メッセージのコンテンツは検索可能です。 詳細については、「 [オンプレミスユーザー向けのクラウドベースのメールボックスの検索](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)」を参照してください。 Teams でコンテンツを検索する方法については、 [Microsoft 365 コンプライアンスセンターでコンテンツ検索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)を参照してください。
 
 > [!TIP]
 > Azure AD Connect を使用して Azure Active Directory と同期する方法については、「[オンプレミス ID と Azure Active Directory の統合](https://go.microsoft.com/fwlink/?linkid=854600)」を参照してください。
@@ -108,11 +105,11 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 
 - 代理人と委任者は両方とも Exchange サーバー上にメールボックスを持っている必要があります。
 
-- 自動検出 (AutoD) V2 は、Teams サービスがユーザーのメールボックスの認証されていない検出を実行できるようにするために必要です。 AutoD V2 は、Exchange 2013 CU19 + でサポートされています。
+- 自動検出 (AutoD) V2 は、Teams サービスがユーザーのメールボックスの認証されていない検出を実行できるようにするために必要です。 AutoD V2 は、Exchange 2016 CU3 以降で + でサポートされています。
 
 - Exchange サーバーを EVOSTS の Auth Server で構成する必要があります。 これは、Exchange (HWA) のハイブリッドウィザードの一部として自動的に構成されます。
 
-    HWA を実行したくない場合は、次の手順に従って exchange[と Exchange Online 組織の間で OAuth 認証を構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)することにより、exchange SERVER で EVO STS の Auth サーバーを手動で作成することができます。 ただし、HWA を使用することをお勧めします。
+    HWA を実行したくない場合は、次の手順に従って exchange [と Exchange Online 組織の間で OAuth 認証を構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)することにより、exchange SERVER で EVO STS の Auth サーバーを手動で作成することができます。 ただし、HWA を使用することをお勧めします。
 
 - Exchange server には、Skype for Business online のアプリケーション ID を使って構成されたパートナーアプリケーションと **、00000004-0000-0ff1-ce00-000000000000**が含まれている必要があります。 ID は、チームスケジュールサービスと、次のプロパティを持つリンクされたユーザーアカウントによって使用されます。
 
@@ -121,3 +118,8 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
   - **Userapplication**の Exchange 管理役割の割り当て。
 
 統合を完了するには、「[オンプレミスの exchange と Exchange Online の間で OAuth 認証を構成する方法](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations)」の手順1-3 に従います。 手順2には、委任には必要ないアーカイブアプリケーションの役割の割り当てが含まれていますが、この場合は、SfB オンラインチャットを Exchange メールボックスにアーカイブする必要があります。
+
+
+## <a name="troubleshooting"></a>トラブルシューティング
+
+このトピックの完全なトラブルシューティングガイドについては、「 [Microsoft Teams および Exchange Server の相互作用の問題のトラブルシューティング](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)」を確認してください。

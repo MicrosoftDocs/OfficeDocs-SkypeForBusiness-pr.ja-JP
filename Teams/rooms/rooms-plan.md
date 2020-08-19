@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams ミーティングの計画
+title: Microsoft Teams Rooms の計画
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams ミーティングの展開に関連した計画時の考慮事項について説明します。
+description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams Rooms の展開に関連した計画時の考慮事項について説明します。
 ms.openlocfilehash: 7b954b81d13addd4b8eb0c7bb5614f9e08f24251
 ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: HT
@@ -21,27 +21,27 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44761465"
 ---
-# <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams ミーティングを計画する
+# <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams Rooms を計画する
 
-この記事では、全体的な会議および会議室戦略の一環として、Microsoft Teams ミーティングを計画、提供、および運用に関するエンドツーエンドのアプローチを紹介します。
+この記事では、全体的な会議および会議室戦略の一環として、Microsoft Teams Rooms を計画、提供、および運用に関するエンドツーエンドのアプローチを紹介します。
 
 以下の計画情報には、サポートされている技術情報に関するリンクを使用して、推奨される方法と決定する必要がある重要事項が記載されています。 まだを完全に展開している場合でも、セクションの計画、展開、管理を行うことをお勧めします。
 
-## <a name="overview-of-microsoft-teams-rooms"></a>Microsoft Teams ミーティングの概要
+## <a name="overview-of-microsoft-teams-rooms"></a>Microsoft Teams Rooms の概要
 
-Microsoft Teams ミーティングは、HD ビデオ、オーディオ、およびコンテンツ共有を、小さな会議室から大きな会議室まで、あらゆる規模の会議に提供する完全な会議環境を提供します。
+Microsoft Teams Rooms は、HD ビデオ、オーディオ、およびコンテンツ共有を、小さな会議室から大きな会議室まで、あらゆる規模の会議に提供する完全な会議環境を提供します。
 
-![会議室の壁に取り付けられたコンソール、マイク、および大画面は、Microsoft Teams ミーティングの設定例の要素を示しています。](../media/room-systems-image1.png "会議室の壁に取り付けられたコンソール、マイク、および大画面は、Microsoft Teams ミーティングの設定例の要素を示しています。")
+![会議室の壁に取り付けられたコンソール、マイク、および大画面は、Microsoft Teams Rooms の設定例の要素を示しています。](../media/room-systems-image1.png "会議室の壁に取り付けられたコンソール、マイク、および大画面は、Microsoft Teams Rooms の設定例の要素を示しています。")
 
-[Microsoft Teams ミーティングのヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)は、Microsoft Teams ミーティングの詳細と、展開の一環として価値を高める方法を知るための優れたリソースです。 また、この[概要ビデオ](https://youtu.be/tNey5KZVCl0)についても説明します。 
+[Microsoft Teams Rooms のヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)は、Microsoft Teams Roomsの詳細と、展開の一環として価値を高める方法を知るための優れたリソースです。 また、この[概要ビデオ](https://youtu.be/tNey5KZVCl0)についても説明します。 
 
-## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams ミーティングのコンポーネント
+## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams Rooms のコンポーネント
 
-Microsoft Teams ミーティングには、優れたユーザー エクスペリエンスを実現するための主要なコンポーネントが含まれています。
+Microsoft Teams Rooms には、優れたユーザー エクスペリエンスを実現するための主要なコンポーネントが含まれています。
 
 - タッチスクリーンのコントロール パネル
 - コンピューティング
-- Microsoft Teams ミーティングのアプリケーション
+- Microsoft Teams Rooms のアプリケーション
 - ドック/エクステンダー
 - 周辺機器 (カメラ、マイク、スピーカー)
 - 外部画面 (最大 2 つ)
@@ -49,16 +49,16 @@ Microsoft Teams ミーティングには、優れたユーザー エクスペリ
 
 これらのコンポーネントは、多数のベンダーからプリインストールされたバンドルとして購入できます。または、この記事に記載されている[要件](requirements.md)に従って、サポートされているコンポーネントを個別に購入できます。
 
-Surface Pro と dock の組み合わせだけでなく、タッチスクリーンのコントロール パネル、コンピューティング、ドック、および重要な周辺機器が統合された Microsoft Teams ミーティングを購入することもできます。 
+Surface Pro と dock の組み合わせだけでなく、タッチスクリーンのコントロール パネル、コンピューティング、ドック、および重要な周辺機器が統合された Microsoft Teams Rooms を購入することもできます。 
 
 通常、バンドルと統合ユニットにはプリインストールされたソフトウェアが含まれていますが、Surface Pro システム用にサポート対象のコンポーネントを個別に購入する場合は、ソフトウェアをインストールする必要があります。 手順については、[デバイスでのソフトウェアのインストールに関するこの記事](rooms-scale.md)を参照してください。 
 
-Microsoft Teams、Skype for Business Online、または Skype for Business ハイブリッドまたはオンプレミス展開で Microsoft Teams ミーティングを展開できます。  必要なライセンスの詳細については、「[Teams の会議室ライセンスの更新](rooms-licensing.md)」を参照してください。
+Microsoft Teams、Skype for Business Online、または Skype for Business ハイブリッドまたはオンプレミス展開で Microsoft Teams Rooms を展開できます。  必要なライセンスの詳細については、「[Teams の会議室ライセンスの更新](rooms-licensing.md)」を参照してください。
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams ミーティングを組織に展開しますか? </li><li>別のコンポーネントとしてバンドルされている、または統合されたユニットとして Microsoft Teams ミーティング システムを購入するにはどうすればよいですか?</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams ミーティングを展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
+|![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms を組織に展開しますか? </li><li>別のコンポーネントとしてバンドルされている、または統合されたユニットとして Microsoft Teams Rooms システムを購入するにはどうすればよいですか?</li></ul> |
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams Rooms を展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>展開全体を通して、主要な作業を引き受けるユーザーを特定する
@@ -91,12 +91,12 @@ Microsoft Teams、Skype for Business Online、または Skype for Business ハ�
 
 既存の各部屋の機器と機能のリストを作成したら、その部屋の要件がデバイス選択計画に入力され、豊富な会議ソリューションが作成されます。 各部屋に必要なモダリティ (オーディオ、ビデオ) は、部屋の規模と目的に加えて、すべて各部屋に最適なソリューションを決定する際に重要な役割を果たします。 
 
-発見の一環として、部屋の音響とレイアウトを考慮することが重要です。 たとえば、会議室にある椅子がカメラ ビューをブロックしないことを確認します。 部屋に過剰なエコーや空調がうるさくないことと、スクリーンと Microsoft Teams ミーティングに十分な電力が供給されていることを確認します。 視聴覚 (AV) チームまたはパートナーがアドバイスできる要素は数多くあります。 
+発見の一環として、部屋の音響とレイアウトを考慮することが重要です。 たとえば、会議室にある椅子がカメラ ビューをブロックしないことを確認します。 部屋に過剰なエコーや空調がうるさくないことと、スクリーンと Microsoft Teams Rooms に十分な電力が供給されていることを確認します。 視聴覚 (AV) チームまたはパートナーがアドバイスできる要素は数多くあります。 
 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>この展開にはどの部屋が対象ですか?</li><li>この展開にはどのサイトが対象ですか?</li><li>会議室のリスト化は誰が引き受けますか?</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>対象の会議室を確認し、Microsoft Teams ミーティングの構成を定義します。</li></ul>|
+| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>対象の会議室を確認し、Microsoft Teams Rooms の構成を定義します。</li></ul>|
 
 _会議のサンプルのリスト_
 
@@ -107,11 +107,11 @@ _会議のサンプルのリスト_
 
 ## <a name="device-selection"></a>デバイスの選択 
 
-必要な将来の機能に基づいて、どの Microsoft Teams ミーティング ソリューションが各部屋に最も適しているかを評価します。 会議室の規模やレイアウトに応じて、最適な AV 周辺機器を決定します。 
+必要な将来の機能に基づいて、どの Microsoft Teams Rooms ソリューションが各部屋に最も適しているかを評価します。 会議室の規模やレイアウトに応じて、最適な AV 周辺機器を決定します。 
 
-会議室の種類や規模別のシステムや周辺機器の種類に関するガイダンスについては、「[Microsoft Teams ミーティングの要件](requirements.md)」を参照してください。 
+会議室の種類や規模別のシステムや周辺機器の種類に関するガイダンスについては、「[Microsoft Teams Rooms の要件](requirements.md)」を参照してください。 
 
-希望するベンダーに基づいて、要件記事に記載されている情報を使用して、Microsoft Teams ミーティングとサポートされる周辺機器の設定を会議室の種類ごとに定義し、これを展開用のテンプレートとして使用します。 
+希望するベンダーに基づいて、要件記事に記載されている情報を使用して、Microsoft Teams Roomsとサポートされる周辺機器の設定を会議室の種類ごとに定義し、これを展開用のテンプレートとして使用します。 
 
 **Pro のヒント** – 一部の会議室の種類は、展開に適用できない場合があります。
 
@@ -120,24 +120,24 @@ _会議のサンプルのリスト_
 | ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>リストから、どの種類の会議室が展開対象ですか?</li><li>各会議室の種類ごとにどのシステムを導入しますか?</li></ul>|
 | ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>選んだシステムの重要な運用材料を収集し、調達チームと連携します。</li></ul>|
 
-_お客様の組織に適した Microsoft Teams ミーティングの展開テンプレートの例_
+_お客様の組織に適した Microsoft Teams Rooms の展開テンプレートの例_
 
-| **会議室の種類/規模** | **ユーザー数**  | **Microsoft Teams ミーティング システム** | **周辺機器**  | **表示** |
+| **会議室の種類/規模** | **ユーザー数**  | **Microsoft Teams Rooms システム** | **周辺機器**  | **表示** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
 | フォーカス 10' x 9'      | 2&ndash;4                   |                                  |                         |                 |
 | 小 16 'x 16'     | 4&ndash;6                   |                                  |                         |                 |
 | 中 18' x 20'    | 6&ndash;12                  |                                  |                         |                 |
 | 大 15' x 32'     | 12&ndash;16                 |                                  |                         |                 |
 
-**Pro のヒント –** 選択した Microsoft Teams ミーティングに関する情報の収集を開始できます。
+**Pro のヒント –** 選択した Microsoft Teams Rooms に関する情報の収集を開始できます。
 
 ## <a name="procurement"></a>調達 
 
-デバイス パートナーを介して、選択したシステムをバンドルとして、または統合ソリューションとして購入できます。 また、Surface Pro デバイスと既存の_サポート対象_の AV 周辺機器を使用して、パートナー デバイス ドックを取得し、独自の Microsoft Teams ミーティング ソリューションを準備することもできます。 
+デバイス パートナーを介して、選択したシステムをバンドルとして、または統合ソリューションとして購入できます。 また、Surface Pro デバイスと既存の_サポート対象_の AV 周辺機器を使用して、パートナー デバイス ドックを取得し、独自の Microsoft Teams Rooms ソリューションを準備することもできます。 
 
-[要件の記事](requirements.md)に記載されている多数のパートナーから、Microsoft Teams ミーティングを入手することができます。 これらのソリューションと調達オプションの詳細については、パートナーの Web サイトにアクセスしてください。 
+[要件の記事](requirements.md)に記載されている多数のパートナーから、Microsoft Teams Rooms を入手することができます。 これらのソリューションと調達オプションの詳細については、パートナーの Web サイトにアクセスしてください。 
 
-展開規模とアプローチによっては、Microsoft Teams ミーティングおよびサポート対象の周辺機器を初期設定と割り当てのために 1 つの拠点に発送することを決める場合があります。 これは、多くのサイトで段階的に展開する場合に適した方法です。 あるいは、バンドルをそのサイトに直接発送することができます。 
+展開規模とアプローチによっては、Microsoft Teams Rooms およびサポート対象の周辺機器を初期設定と割り当てのために 1 つの拠点に発送することを決める場合があります。 これは、多くのサイトで段階的に展開する場合に適した方法です。 あるいは、バンドルをそのサイトに直接発送することができます。 
 
 |    |     |
 |-----------|------------|
@@ -148,18 +148,18 @@ _お客様の組織に適した Microsoft Teams ミーティングの展開テ�
 
 組織は継続的に監視、管理、および管理タスクを実行する必要があります。また、展開の早い段階で誰がこれらのタスクを担当するかについて合意することが重要です。 
 
-多くの組織には、会議室やデバイスを管理する AV チームまたはパートナーがいます。 このチームは、パフォーマンスを監視し、ソフトウェアの更新と修正プログラムを展開するために、Microsoft Teams ミーティングのデバイスを今後誰が管理するかについて合意する必要があります。 
+多くの組織には、会議室やデバイスを管理する AV チームまたはパートナーがいます。 このチームは、パフォーマンスを監視し、ソフトウェアの更新と修正プログラムを展開するために、Microsoft Teams Rooms のデバイスを今後誰が管理するかについて合意する必要があります。 
 
-Microsoft Teams ミーティング関連の連絡を転送するヘルプデスク キューを検討し、ヘルプデスク チームに FAQ を提供して、Microsoft Teams ミーティングの使用方法と主要なトラブルシューティング手順を理解してもらいます。 この FAQ の良い開始点は、[ユーザー ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)と[既知の問題](known-issues.md)です。
+Microsoft Teams Rooms関連の連絡を転送するヘルプデスク キューを検討し、ヘルプデスク チームに FAQ を提供して、Microsoft Teams Rooms の使用方法と主要なトラブルシューティング手順を理解してもらいます。 この FAQ の良い開始点は、[ユーザー ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)と[既知の問題](known-issues.md)です。
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams ミーティングの管理者を決めます。</li><li>Microsoft Teams ミーティング関連の連絡を転送するヘルプデスク キューを決めます。</li></ul>|
+| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms の管理者を決めます。</li><li>Microsoft Teams Rooms 関連の連絡を転送するヘルプデスク キューを決めます。</li></ul>|
 | ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アカウントのホストを準備します。 </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>導入と変更の管理の計画
 
-Microsoft Teams ミーティング システムは、ユーザーに新しい機能を紹介します。 これはユーザーにとっての変化であることを認識することが重要です。新しいシステムがユーザーにもたらすメリットと、リーダーがチームと話し合うために利用できる重要なポイントを、キャンペーンで特定する必要があります。 
+Microsoft Teams Rooms システムは、ユーザーに新しい機能を紹介します。 これはユーザーにとっての変化であることを認識することが重要です。新しいシステムがユーザーにもたらすメリットと、リーダーがチームと話し合うために利用できる重要なポイントを、キャンペーンで特定する必要があります。 
 
 ユーザーに新しい機能を知らせるために、各サイトで見せたり説明したりするイベントとポスターをスケジュールすることを検討してください。 また、社内に「クイック スタート ガイド」を作成することもできます。 各サイトで、他のユーザーがデバイスを使用できるように支援できる会議のチャンピオンを探すことを検討してください。

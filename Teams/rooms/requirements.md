@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams ミーティングの要件
+title: Microsoft Teams Rooms の要件
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Microsoft Teams ミーティングをサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
+description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 554ce35c640b97c0deb9291e6c797b9302bee50c
 ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
@@ -22,25 +22,25 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46576939"
 ---
-# <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams ミーティングの要件
+# <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams ミーティングでは、会議室のサイズと用途に応じたさまざまな認定オーディオ/ビデオ周辺機器を使用して、会議室のサイズを調整します。 コアとなる適切なデバイスとコンソールを選択し、スペースに適したマイク、スピーカー、カメラ、ディスプレイを組み合わせることで、ごく小さな打ち合わせスペースから大規模な会議場や役員室まで、あらゆるサイズのスペースで Microsoft Teams ミーティングを活用できます。  Microsoft Teams ミーティングを構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams Rooms では、会議室のサイズと用途に応じたさまざまな認定オーディオ/ビデオ周辺機器を使用して、会議室のサイズを調整します。 コアとなる適切なデバイスとコンソールを選択し、スペースに適したマイク、スピーカー、カメラ、ディスプレイを組み合わせることで、ごく小さな打ち合わせスペースから大規模な会議場や役員室まで、あらゆるサイズのスペースで Microsoft Teams Rooms を活用できます。  Microsoft Teams ミーティングを構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
-この記事では、Microsoft Teams ミーティングをサポートするためのデバイスの展開と構成に関する要件をまとめます。
+この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
-展開作業では、[デプロイの概要](rooms-deploy.md)で説明している手順に従ってアカウントを作成する必要があります。また、[Microsoft Teams ミーティング コンソールを構成する](console.md)で説明している手順に従って会議用コンソールを設定する必要もあります。
+展開作業では、[デプロイの概要](rooms-deploy.md)で説明している手順に従ってアカウントを作成する必要があります。また、[Microsoft Teams Rooms コンソールを構成する](console.md)で説明している手順に従って会議用コンソールを設定する必要もあります。
 
 次のリソースも参照してください。
 
 - [Skype for Business アドオンのライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [プランに基づいたライセンス オプション: Microsoft Teams ミーティング](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [プランに基づいたライセンス オプション: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft Teams ミーティングでは、Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015、または Skype for Business Online にサインインし、これらのサービスでホストされている会議に参加できます。
+> Microsoft Teams Rooms では、Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015、または Skype for Business Online にサインインし、これらのサービスでホストされている会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams ミーティングではサポートしていません。 Microsoft Teams ミーティングは、21Vianet、GCC-High もしくは DoD 環境で運用している Microsoft 365 または Office 365 ではサポートされません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Rooms は、21Vianet、GCC-High もしくは DoD 環境で運用している Microsoft 365 または Office 365 ではサポートされません。
 >
-> オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams ミーティングでは Exchange Server 2013 SP1 以降を使用する必要があります。
+> オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
 ## <a name="hardware-requirements"></a>ハードウェアの要件
 ハードウェアを展開するには、Microsoft Teams ミーティング システムを選択し、認定オーディオ/ビデオ周辺機器およびこれらのデバイスを統合するためのケーブル接続ソリューションを組み合わせる必要があります。  ここでは、これらのオプションについて説明します。
@@ -60,7 +60,7 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
    [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
   |[Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
-  |[HP Elite Slice G2 Audio Ready + Microsoft Teams ミーティング](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
+  |[HP Elite Slice G2 Audio Ready + Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
   |[Logicool TAP を備えた HP スライス パートナー対応]( https://www.logitech.com/en-us/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Logicool Tap と Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
@@ -97,7 +97,7 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
 
 これらのデバイスは、[ミーティング システム アクセサリの製品ショーケース](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=)および [https://office.com/teamsdevices](https://office.com/teamsdevices) に用意されています。
 
-|Microsoft Teams ミーティングの周辺機器|認定ファームウェア バージョン | コンテンツ カメラとして使用できるカメラ|
+|Microsoft Teams Rooms の周辺機器|認定ファームウェア バージョン | コンテンツ カメラとして使用できるカメラ|
 |:--- |:--- | :--- |
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
@@ -152,11 +152,11 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
 > [!NOTE]
 > 屋内ディスプレイの前面として使用される消費者向け TV では、スタンバイ モードからアクティブなビデオ ソースに自動的に切り替わるように、HDMI の CEC (Consumer Electronics Control) 機能をサポート/有効にする必要があります。 この機能はすべての TV でサポートされるものではありません。
 >
-> Microsoft Teams ミーティングはキーボードを使用しません。 必要な場合は、管理者がオンスクリーン キーボードを使用する必要があります。 Microsoft Teams ミーティング デバイスのイメージングには、USB キーボードまたはマウスが必要です。
+> Microsoft Teams Rooms はキーボードを使用しません。 必要な場合は、管理者がオンスクリーン キーボードを使用する必要があります。 Microsoft Teams Rooms デバイスのイメージングには、USB キーボードまたはマウスが必要です。
 
 次の表で、会議室のサイズに基づいて推奨される周辺機器をご確認ください。
 
-**Microsoft Teams ミーティングの認定オーディオ周辺機器**
+**Microsoft Teams Rooms の認定オーディオ周辺機器**
 
 |会議室の種類|ユーザー数|推奨されるマイクとスピーカーの最大間隔|会議室の最大サイズ別デバイス|注釈|
 |:-----|:-----|:-----|:-----|:-----|
@@ -165,7 +165,7 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
 |**中規模** <br/> 18' x 20'  |6 ～ 12  |2.4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> ゼンハイザー SP 220 MS <br/> ヤマハ YVC-1000MS  |Logitech Connect デバイスにはカメラが組み込まれているため、(ローカルの会議出席者を撮影するにはテーブルの中央ではなく) 会議室の正面に配置する必要があります。 <br/> 一般的に、長い長方形のテーブルまたは U 字型のテーブルが使用されている会議室では、サテライト マイクを使用すると役立ちます。 <br/> デイジーチェーン構成では SP 220 MS を使用する必要があります。  |
 |**大規模** <br/> 15' x 32'  |12 ～ 16  |3 m <br/> この間隔は、接続されている各サテライト マイクの対象エリアにも適用されます。  |Logitech Group + サテライト マイク <br/> Polycom Trio+ サテライト マイク <br/> Polycom CX5100 + サテライト マイク <br/> ゼンハイザー SP 220 MS <br/> ヤマハ YVC-1000MS + サテライト マイク  |この行に記載されているすべてのオーディオ デバイスは、サテライト マイク オプションをサポートしています。 <br/> CX5100 には全方位カメラが内蔵されているため、このデバイスはテーブルの中央に配置できます。 <br/> デイジーチェーン構成では SP 220 MS を使用する必要があります。  |
 
-**Microsoft Teams ミーティングの認定ビデオ周辺機器**
+**Microsoft Teams Rooms の認定ビデオ周辺機器**
 
 |会議室の種類|ユーザー数|最適な会議室のサイズ別デバイス|注釈|
 |:-----|:-----|:-----|:-----|
@@ -179,23 +179,23 @@ Microsoft Teams ミーティングでは、会議室のサイズと用途に応�
 
 ## <a name="required-software-downloads"></a>必要なソフトウェア ダウンロード
 
-Microsoft Teams ミーティングのイメージをビルドするには、「[Microsoft Teams ミーティング コンソールを構成する](console.md)」で説明している手順に従ってください。 これらの手順では、インストールに必要なすべてのソフトウェアをダウンロードする方法を説明しています。
+Microsoft Teams Rooms のイメージをビルドするには、「[Microsoft Teams Rooms コンソールを構成する](console.md)」で説明している手順に従ってください。 これらの手順では、インストールに必要なすべてのソフトウェアをダウンロードする方法を説明しています。
 
 > [!NOTE]
 > IT 担当者は、ボリューム ライセンス契約を介して Windows 10 Enterprise ISO ファイルにアクセスする必要があります。
 
-必要に応じ、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) をダウンロードして、Microsoft Teams ミーティング アカウントのプロビジョニングに使用できます。
+必要に応じ、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) をダウンロードして、Microsoft Teams Rooms アカウントのプロビジョニングに使用できます。
 
 ## <a name="see-also"></a>関連項目
 
 [全バンドルを参照する](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Microsoft Teams ミーティングを計画する](rooms-plan.md)
+[Microsoft Teams Rooms を計画する](rooms-plan.md)
 
-[デプロイの概要](rooms-deploy.md)
+[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)
 
-[Microsoft Teams ミーティング コンソールを構成する](console.md)
+[Microsoft Teams Rooms コンソールを構成する](console.md)
 
-[Microsoft Teams ミーティングの管理](rooms-manage.md)
+[Microsoft Teams Rooms の管理](rooms-manage.md)
 
 [Skype for Business アドオンのライセンス](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

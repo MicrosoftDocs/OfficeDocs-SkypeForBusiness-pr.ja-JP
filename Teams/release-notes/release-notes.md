@@ -16,18 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams の管理者向け機能のリリースノート。
-ms.openlocfilehash: 36fc23d711437fbeb1976b94409054c27ffd258b
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788471"
+ms.locfileid: "46797445"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams の管理者向け機能のリリースノート
 
 これらのリリースノートでは、Microsoft Teams の新しい管理機能について説明します。
 
 ## <a name="august-17-2020"></a>2020年8月17日
+
+### <a name="group-chat-size-increase"></a>グループチャットのサイズの拡大
+
+グループチャットに250参加者を追加する機能が追加されました。
 
 ### <a name="manage-the-praise-app"></a>称賛アプリを管理する
 
@@ -59,24 +63,29 @@ Teams の cortana は、 [オンラインサービス利用規約 (OST)](https:/
 
 Teams ユーザーは、[リスト] アプリタブを使って、リストの管理、作成、管理を直接行うことができるようになりました。リストアプリは、すべてのチームクライアントで動作し、リストアイテムに関する共同作業とコミュニケーションを可能にします。
 
+## <a name="august-6-2020"></a>2020年8月6日
+
+### <a name="approve-custom-apps"></a>カスタムアプリを承認する
+
+Teams アプリ申請 API を通じて送信されたカスタムアプリを承認します。 [詳細については、こちらを参照してください](../submit-approve-custom-apps.md)。
+
 ## <a name="august-3-2020"></a>2020年8月3日
 
 ### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams のサードパーティ製アプリの購入サービス
 
 Teams アプリは無料でインストールでき、アプリの完全な機能と範囲を体験するためにサービスの購入が必要になる場合もあります。 これらのサービス月額プランは、サービス (SaaS) オファーとして提供されます。これは、アプリソースと、Microsoft Teams 管理センターを通じて購入することができます。 [詳細については、こちらを参照してください](../purchase-third-party-apps.md)。
 
-## <a name="july-31-2020"></a>2020年7月31日
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>管理者は、Firstline worker のシフトベースのプレゼンス (シフトの場合はシフト) を構成できます。
-
-管理者は、シフトベースのプレゼンス状態を使用するように Firstline ワーカーを構成できます。シフト、取り込み中 (シフト中は切り替え可能)、shift キーをオフにすることができます。
-[詳細については、こちらを参照してください](../firstline-workers-quickstart.yml)。
-
 ## <a name="july-29-2020"></a>2020年7月29日
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>デバイスタグ機能を使用した管理性の向上
 
 管理性の向上の一環として、デバイスタグ機能をリリースしています。 これにより、IT 管理者は、ユーザーによって生成されたタグを持つ特定のデバイスのセットをグループ化して、同じ操作を実行することができます。 [詳細については、こちらを参照してください](/../../manage-device-tags.md)。
+
+## <a name="july-28-2020"></a>2020年7月28日
+
+### <a name="create-your-own-teams-template"></a>独自のチームテンプレートを作成する
+
+管理コンソールからテンプレートを使用して、独自のチームテンプレートを作成したり、既存のテンプレートから Teams テンプレートを作成したりできるようになりました。 [詳細については、こちらを参照してください](../get-started-with-teams-templates-in-the-admin-console.md)。
 
 ## <a name="july-20-2020"></a>2020年7月20日
 
@@ -90,11 +99,23 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 チーム会議への NDI を有効にする機能が追加されました。 NDI Out は、会議の音声とビデオをビデオ製造ツールで利用できるようにすることを可能にします。 [詳細については、こちらを参照してください](../use-ndi-in-meetings.md)。
 
+## <a name="july-15-2020"></a>2020年7月15日
+
+### <a name="enable-suggested-replies"></a>返信の候補を有効にする
+
+チャットメッセージの返信の候補を有効にするには、この設定をオンにします。 [詳細情報](../messaging-policies-in-teams.md)
+
 ## <a name="july-9-2020"></a>2020年7月9日
 
 ### <a name="voicemail-support-in-call-queues"></a>通話キューでのボイスメールのサポート
 
 共有ボイスメールボックスを使用するために、通話キューのサポートを追加しました。 [詳細については、こちらを参照してください](../create-a-phone-system-call-queue.md)。
+
+## <a name="july-8-2020"></a>2020年7月8日
+
+### <a name="policy-packaging-batch-assignment"></a>ポリシーパッケージのバッチ割り当て
+
+PowerShell を使用して、ユーザーとグループのポリシーパッケージを割り当てることができました。
 
 ## <a name="july-7-2020"></a>2020年7月7日
 
@@ -116,7 +137,7 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 ### <a name="install-apps-on-behalf-of-others"></a>他のユーザーの代わりにアプリをインストールする
 
-ユーザーが Teams を起動したときに既定でインストールされるアプリを選択します。 [詳細情報](../teams-app-setup-policies.md)
+ユーザーが Teams を起動したときに既定でインストールされるアプリを選択します。 [詳細については、こちらを参照してください](../teams-app-setup-policies.md)。
 
 ## <a name="june-29-2020"></a>2020年6月29日
 
@@ -124,11 +145,15 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 プッシュツートークを使ったインスタント音声通信。
 
-## <a name="july-15-2020"></a>2020年7月15日
+## <a name="june-25-2020"></a>2020年6月25日
 
-### <a name="enable-suggested-replies"></a>返信の候補を有効にする
+### <a name="teams-filter-option"></a>Teams のフィルターオプション
 
-チャットメッセージの返信の候補を有効にするには、この設定をオンにします。 [詳細情報](../messaging-policies-in-teams.md)
+コマンドバーに新しいフィルターオプションを追加して、特定のチームを検索するときに特定のパラメーターを設定できるようにしました。
+
+### <a name="users-widgets"></a>ユーザーウィジェット
+
+チームおよびチャネルを追加するときに使用できる新しいユーザーの概要ウィジェットを追加しました。
 
 ## <a name="june-21-2020"></a>2020年6月21日
 

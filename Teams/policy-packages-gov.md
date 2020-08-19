@@ -1,5 +1,5 @@
 ---
-title: 医療用の Teams ポリシーパッケージ
+title: Government の Teams ポリシーパッケージ
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,15 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: 医療組織の Teams ポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
+description: 政府機関組織の Teams ポリシーパッケージを使用および管理する方法について説明します。
+ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
 ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803975"
+ms.locfileid: "46804033"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>医療用の Teams ポリシーパッケージ
+# <a name="teams-policy-packages-for-government"></a>Government の Teams ポリシーパッケージ
+
+> [!NOTE]
+> ポリシーパッケージは、現在、Microsoft 365 Government GCC 高または米国の展開では利用できません。
 
 ## <a name="overview"></a>概要
 
@@ -38,19 +41,19 @@ Microsoft Teams の [ポリシーパッケージ](manage-policy-packages.md) は
 - アプリのセットアップ
 - ライブ イベント
 
-Teams には現在、以下の医療ポリシーパッケージが含まれています。
+現在、Teams には、政府向けの次のポリシーパッケージが含まれています。
 
 |Microsoft Teams 管理センターのパッケージ名|以下の目的での使用に最適です|説明 |
 |---------|---------|---------|
-|医療診療員  |医療機関向けの臨床従業員  |登録された看護師、料金の看護師、医師、ソーシャルワーカーなどの、チャット、通話、シフト管理、および会議へのフルアクセスを可能にする、一連のポリシーとポリシー設定を作成します。 |
-|医療情報の作業者  |医療機関のインフォメーションワーカー |IT 担当者、informatics 職員、財務担当者、コンプライアンス責任者、チャット、通話、会議へのフルアクセスなどの情報を提供する一連のポリシーとポリシー設定を作成します。|
-|医療の治療室  |患者室のデバイス|医療機関の患者の会議室に適用される一連のポリシーとポリシー設定を作成します。|
+|公安責任者  |政府機関組織の公安責任者  |組織の公衆安全責任者に適用される一連のポリシーとポリシー設定を作成します。 |
+|Firstline manager  |政府機関組織の firstline Manager |一連のポリシーを作成し、組織の Firstline Manager にそれらの設定を適用します。|
+|Firstline worker  |政府機関組織の firstline 員 |一連のポリシーを作成し、それらの設定を組織の Firstline Worker に適用します。|
 
-![ヘルスケアポリシーパッケージのスクリーンショット](media/policy-packages-healthcare.png)
+![ヘルスケアポリシーパッケージのスクリーンショット](media/policy-packages-gov.png)
 
-個々のポリシーには、ポリシーパッケージの名前が割り当てられているため、ポリシーパッケージにリンクされているポリシーを簡単に識別することができます。 たとえば、医療臨床 worker ポリシーパッケージを組織内の clinicians に割り当てると、パッケージ内のポリシーごとに Healthcare_ClinicalWorker という名前のポリシーが作成されます。
+個々のポリシーには、ポリシーパッケージの名前が割り当てられているため、ポリシーパッケージにリンクされているポリシーを簡単に識別することができます。 たとえば、パブリックセーフティオフィサーポリシーパッケージを組織内のユーザーに割り当てると、PublicSafety_Officer という名前のポリシーがパッケージ内のポリシーごとに作成されます。
 
-![医療用臨床 worker パッケージのポリシーのスクリーンショット](media/policy-packages-healthcare-clinical-worker.png)
+![医療用臨床 worker パッケージのポリシーのスクリーンショット](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>ポリシー パッケージを管理する
 
@@ -72,7 +75,7 @@ Teams には現在、以下の医療ポリシーパッケージが含まれて�
 
 Microsoft Teams 管理センターまたは PowerShell を使用してポリシーパッケージを割り当てる手順については、「 [ポリシーパッケージを割り当てる](manage-policy-packages.md#assign-a-policy-package)」をご覧ください。
 
-![管理センターでポリシーパッケージを割り当てる方法のスクリーンショット](media/policy-packages-healthcare-assign.png)
+![管理センターでポリシーパッケージを割り当てる方法のスクリーンショット](media/policy-packages-gov-assign.png)
 
 ユーザーにポリシーが割り当てられていて、後で別のポリシーを割り当てると、最新の割り当てが優先されます。
 
@@ -80,4 +83,4 @@ Microsoft Teams 管理センターまたは PowerShell を使用してポリシ�
 
 [Teams でポリシー パッケージを管理する](manage-policy-packages.md)
 
-[チームのユーザーにポリシーを割り当てる](assign-policies.md)
+[チームのユーザーにポリシーを割り当てる](assign-policies.md) 

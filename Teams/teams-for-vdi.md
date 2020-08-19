@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778069"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803996"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -178,9 +178,9 @@ Teams は、エンタープライズ向けの Microsoft 365 アプリの既存�
 
         次の対話型ログオン セッションは、Teams を開始し、資格情報を要求します。
 
-    > [!NOTE]
-    > これらの例では、 **ALLUSERS = 1** パラメーターも使用します。 このパラメーターを設定すると、チームのコンピューター全体のインストーラーがコントロールパネルの [プログラムと機能] に表示され、[アプリ] では、コンピューターのすべてのユーザーの Windows 設定の & 機能が表示されます。 すべてのユーザーが管理者の資格情報を持っている場合は、チームをアンインストールできます。
-    **ALLUSERS = 1**と**alluser = 1**の違いを理解しておくことが重要です。 **ALLUSERS = 1**パラメーターは非 VDI および vdi 環境で使うことができますが、 **alluser = 1**パラメーターは vdi 環境でのみ使用され、コンピューター単位のインストールを指定します。
+        > [!NOTE]
+        > これらの例では、 **ALLUSERS = 1** パラメーターも使用します。 このパラメーターを設定すると、チームのコンピューター全体のインストーラーがコントロールパネルの [プログラムと機能] に表示され、[アプリ] では、コンピューターのすべてのユーザーの Windows 設定の & 機能が表示されます。 すべてのユーザーが管理者の資格情報を持っている場合は、チームをアンインストールできます。
+        **ALLUSERS = 1**と**alluser = 1**の違いを理解しておくことが重要です。 **ALLUSERS = 1**パラメーターは非 VDI および vdi 環境で使うことができますが、 **alluser = 1**パラメーターは vdi 環境でのみ使用され、コンピューター単位のインストールを指定します。
 
 3. VDI VM から MSI をアンインストールします。
   
@@ -346,6 +346,17 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 PowerShell を使用して会議ポリシーを管理する方法の詳細については、「[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
+## <a name="control-fallback-mode-in-teams"></a>Teams でのフォールバックモードの制御
+
+ユーザーがサポートされていないエンドポイントから接続している場合、ユーザーはフォールバックモードになっており、AV が最適化されていません。 次のレジストリ DWORD 値のいずれかを設定することによって、フォールバックモードを無効または有効にすることができます。
+
+- HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER \SOFTWARE\Microsoft\Office\Teams\DisableFallback
+
+フォールバックモードを無効にするには、値を **1**に設定します。 オーディオのみを有効にするには、値を **2**に設定します。 値が存在しない場合、または **0** (ゼロ) に設定されている場合は、フォールバックモードが有効になります。
+
+この機能は、Teams バージョン1.3.00.13565 以降で利用できます。
+
 ## <a name="known-issues-and-limitations"></a>既知の問題と制限事項
 
 ### <a name="client-deployment-installation-and-setup"></a>クライアントの展開、インストール、およびセットアップ
@@ -391,7 +402,7 @@ VDI に関連していない Teams の既知の問題については、「 [組�
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-#### <a name="troubleshoot-citrix-components"></a>Citrix コンポーネントのトラブルシューティング
+### <a name="troubleshoot-citrix-components"></a>Citrix コンポーネントのトラブルシューティング
 
 VDA および CWA の問題のトラブルシューティング方法については、[このCitrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 

@@ -145,13 +145,13 @@ Teams ではサードパーティの電話会議プロバイダー (ACP) がサ�
 現代的なワークプレースの実現に向けた Microsoft のビジョンでは、[会議室のデバイス](https://products.office.com/microsoft-teams/across-devices)が重要な役割を担います。 Teams 会議を既存の VTC システムでサポートする[クラウド ビデオの相互運用性サービス](https://docs.microsoft.com/microsoftteams/cloud-video-interop)は、パートナー企業の Pexip、Polycom、Blue Jeans を介して利用することができます。
 
 **Skype Room Systems v2 の最新世代は Teams の会議をサポートしますか?**<br>
-Skype ミーティング システムを、Microsoft Teams ミーティングにブランド変更しました。これは、Microsoft Teams の会議を完全にサポートしており、デバイス上で Teams を有効にするだけで、Skype for Business から Teams へ簡単に移行できるパスを提供しています。
+Skype ミーティング システムを、Microsoft Teams Rooms にブランド変更しました。これは、Microsoft Teams の会議を完全にサポートしており、デバイス上で Teams を有効にするだけで、Skype for Business から Teams へ簡単に移行できるパスを提供しています。
 
-近距離の検出機能を使用してユーザーが近くの Microsoft Teams ミーティングを識別する機能に加えて、シングル クリックでの Teams の会議への参加、デュアル スクリーン サポート、Microsoft Whiteboard、インテリジェント キャプチャを備えたコンテンツ カメラなどの革新的な機能を引き続き提供します。
+近距離の検出機能を使用してユーザーが近くの Microsoft Teams Rooms を識別する機能に加えて、シングル クリックでの Teams の会議への参加、デュアル スクリーン サポート、Microsoft Whiteboard、インテリジェント キャプチャを備えたコンテンツ カメラなどの革新的な機能を引き続き提供します。
 
 
 **Skype ミーティング システム V1 は Teams 会議をサポートするように更新されますか?**<br>
-Skype ミーティング システム バージョン 1 (SRS v1) ソフトウェアを搭載した Lync Room System (LRS) デバイスは、2018 年 10 月 9 日にサポート終了になりました。 これは、Skype ミーティング システム V1 ソフトウェアがもはや製品の更新プログラムや修正を取得しなくなることを意味します。 Skype ミーティング システム V1 ソフトウェアを使用している Lync Room System デバイスをお持ちのお客様には、デバイスを Microsoft Teams ミーティングにアップグレードすることをお勧めします。 詳細については、「[Lync Room System (LRS) デバイスを Microsoft Teams ミーティングに移行する](https://docs.microsoft.com/microsoftteams/rooms/lrs-migration)」を参照してください。
+Skype ミーティング システム バージョン 1 (SRS v1) ソフトウェアを搭載した Lync Room System (LRS) デバイスは、2018 年 10 月 9 日にサポート終了になりました。 これは、Skype ミーティング システム V1 ソフトウェアがもはや製品の更新プログラムや修正を取得しなくなることを意味します。 Skype ミーティング システム V1 ソフトウェアを使用している Lync Room System デバイスをお持ちのお客様には、デバイスを Microsoft Teams Rooms にアップグレードすることをお勧めします。 詳細については、「[Lync Room System (LRS) デバイスを Microsoft Teams Rooms に移行する](https://docs.microsoft.com/microsoftteams/rooms/lrs-migration)」を参照してください。
 
 **Skype 会議ブロードキャストは、Skype for Business Online と同時に廃止になりますか?**<br>
 はい。 [Teams のライブ イベント](https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events) は、Skype 会議ブロードキャストの後継ソリューションです。 

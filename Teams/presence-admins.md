@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2629ef2fd378744647aa7ed158e7128dfbaeba8a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 00ca1a2d7a00b4aa827cfb5a989e31b54b83fbeb
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581208"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803909"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -53,7 +53,7 @@ Outlook での Teams のプレゼンスは、Outlook 2013 デスクトップ版�
 || ![矢印付き紫色の丸は、外出中を示す](media/Presence_OOF.png) 外出中|
 |||
 
-アプリで構成されたプレゼンス状態は、ユーザーアクティビティ (利用可能、退席中)、Outlook の予定表の状態 (会議中)、または Teams アプリの状態 (通話中、発表中) に基づいています。 予定表に基づいてフォーカスモードになっている場合は、フォーカスは Teans 表示されますが、他の製品では [応答不可] として表示されることに注意してください。
+アプリで構成されたプレゼンス状態は、ユーザーアクティビティ (利用可能、退席中)、Outlook の予定表の状態 (会議中)、または Teams アプリの状態 (通話中、発表中) に基づいています。 予定表に基づくフォーカスモードになっている場合は、ユーザーが Teams で表示した状態で、他の製品で [応答不可] として表示されることに注意してください。
 
 コンピューターをロックするか、アイドルまたはスリープモードに入ると、現在のプレゼンス状態が「退席中」に変わります。 モバイルでは、Teams アプリがバックグラウンドにあるときは、プレゼンス状態が [退席中] に変わります。
 
