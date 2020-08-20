@@ -86,7 +86,7 @@ Meetings First を最適に活用するため、すべてのユーザーは [Exc
 
 ユーザーにライセンスを付与するときは、テナントの既定値として [**SfBOnly** または **SfBWithTeamsCollab**](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) モードを付与することをお勧めします。 これによりユーザーは、Meetings First を開始する準備が整うまでは、既定の **Islands** モードで Teams を自分で使用し始めないようにすることができます。
 
-Meetings First は、フル デスクトップ クライアント (Windows および Mac)、ブラウザー クライアント、およびモバイル クライアントでサポートされています。 これは、[Microsoft Teams ミーティング](https://docs.microsoft.com/microsoftteams/room-systems/)とも互換性があります。 Better Together には、フル デスクトップ クライアントが必要です。
+Meetings First は、フル デスクトップ クライアント (Windows および Mac)、ブラウザー クライアント、およびモバイル クライアントでサポートされています。 これは、[Microsoft Teams Rooms](https://docs.microsoft.com/microsoftteams/room-systems/)とも互換性があります。 Better Together には、フル デスクトップ クライアントが必要です。
 
 ## <a name="prepare-for-teams-meetings-in-meetings-first"></a>Meetings First で Teams 会議を準備する
 

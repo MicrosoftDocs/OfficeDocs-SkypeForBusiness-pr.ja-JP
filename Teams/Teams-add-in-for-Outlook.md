@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085243"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814103"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -65,7 +65,7 @@ iOS と Android の Outlook アプリの最新ビルドには、Teams 会議ボ�
 
 ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
-## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Outlook の Teams 会議アドインと FindTime
+## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Outlook の Teams 会議アドインと FindTime for Outlook
 
 FindTime は、Outlook 用のアドインです。これは、企業全体での会議時間に関するユーザーの合意形成を支援します。 会議の招待者が希望の時間を提示したら、FindTime はユーザーの代わりに会議出席依頼を送信します。 FindTime で [**オンライン会議**] オプションが選択されている場合、FindTime は Skype for Business または Microsoft Teams の会議をスケジュールします。 (FindTime は、既定のオンライン会議チャネルとして、組織が設定したものを使用します。)
 
@@ -120,6 +120,7 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 
 Teams の会議アドインは継続して機能が開発されていますので、次について認識しておいてください。
 
+- Teams 会議アドインを使うには、会議を主要ユーザーがスケジュールする Exchange メールボックスが必要です。 Outlook プロファイルに Exchange メールボックスが 1 つ以上構成されていることを確認し、このメールボックスを使用して、アドインと Teams 会議をスケジュールします。 Exchange の要件については、「Exchange と Teams が [どのように操作するのかを確認してください](https://docs.microsoft.com/microsoftteams/exchange-teams-interact)。
 - このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。 チャネル会議は Teams 内でスケジュール設定される必要があります。
 - 認証プロキシがユーザーの PC および Teams サービスのネットワーク パス内にある場合、アドインは機能しません。
 - ユーザーが Outlook 内でライブ イベントをスケジュールすることはできません。 Teams に移動し、ライブ イベントをスケジュールします。 詳細については、「[Microsoft Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)」を参照してください。
@@ -134,9 +135,9 @@ Teams の会議アドインは継続して機能が開発されていますの�
 
 Outlook 用の Teams 会議アドインをインストールできない場合、次のトラブルシューティングの手順をお試しください。
 
-[Microsoft サポート回復アシスタント](https://aka.ms/SaRA_Home)を[ダウンロード](https://aka.ms/SaRA-TeamsAddInScenario)して実行し、自動のトラブルシューティングの手順と修正プログラムを実行します。
+[Download](https://aka.ms/SaRA-TeamsAddInScenario)自動のトラブルシューティングの手順と修正を実行するには[、Microsoft サポート](https://aka.ms/SaRA_Home)回復アシスタントをダウンロードして実行します。
 
-または、手動で次の手順を実行します。
+または、次の手順を手動で実行します。
 
 - Windows 7 ユーザーは、Teams 会議アドインを機能させるために、[Windows ユニバーサル C ランタイム更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
 - ユーザーが Teams で会議をスケジュールできる Teams アップグレード ポリシーを持っていることを確認します。 詳細については、「[Skype for Business から Teams へのアップグレード](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
@@ -173,9 +174,9 @@ Outlook 用の Teams 会議アドインをインストールできない場合�
 
 ### <a name="delegate-scheduling-does-not-work"></a>代理人によるスケジュール設定が機能しない
 
-管理者が、[Exchange Web Server (EWS) へのアクセスを制御する](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)ように Microsoft Exchange を構成している場合、代理人は上司の代わりに Teams 会議をスケジュールできません。 この構成のソリューションは開発中で、今後リリースされる予定です。 回避策として、管理者は次の文字列を EWS 許可リストに追加することができます。 "*SchedulingService*"。 
+管理者が、[Exchange Web Server (EWS) へのアクセスを制御する](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)ように Microsoft Exchange を構成している場合、代理人は上司の代わりに Teams 会議をスケジュールできません。 この構成のソリューションは開発中で、今後リリースされる予定です。 回避策として、管理者は次の文字列を EWS 許可一覧に追加できます: "*SchedulingService*"。 
 
 
 ## <a name="related-topics"></a>関連項目
 
-[チームのトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

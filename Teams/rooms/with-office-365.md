@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 または Office 365 で Microsoft Teams ミーティングを展開する
+title: Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams ミーティングを展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
+description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams Rooms を展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
 ms.openlocfilehash: 440bf2f624bfd150f7e00f145770b0fda336deb4
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: HT
@@ -22,15 +22,15 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44756798"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Microsoft Teams ミーティングを展開する
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
 
-このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams ミーティングを展開する方法について説明します。Microsoft Teams または Skype for Business と Exchange はどちらもオンラインです。
+このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams Rooms を展開する方法について説明します。Microsoft Teams または Skype for Business と Exchange はどちらもオンラインです。
 
-ユーザー アカウントをセットアップする最も簡単な方法は、リモート Windows PowerShell を使用して構成することです。 Microsoft では、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) を提供しています。これは、新しいユーザー アカウントを作成するか、既存のリソース アカウントを検証するスクリプトであり、それらのアカウントを互換性のある Microsoft Teams ミーティングのユーザー アカウントに変換する助けとなります。 必要な場合は、次の手順に従って、Microsoft Teams ミーティングのデバイスが使用するアカウントを構成できます。
+ユーザー アカウントをセットアップする最も簡単な方法は、リモート Windows PowerShell を使用して構成することです。 Microsoft では、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) を提供しています。これは、新しいユーザー アカウントを作成するか、既存のリソース アカウントを検証するスクリプトであり、それらのアカウントを互換性のある Microsoft Teams Rooms のユーザー アカウントに変換する助けとなります。 必要な場合は、次の手順に従って、Microsoft Teams Rooms のデバイスが使用するアカウントを構成できます。
 
 ## <a name="requirements"></a>要件
 
-Microsoft Teams ミーティングを Microsoft 365 または Office 365 で展開する前に、要件を満たしていることをご確認ください。 詳細については、「[Microsoft Teams ミーティングの要件](requirements.md)」をご覧ください。
+Microsoft Teams Rooms を Microsoft 365 または Office 365 で展開する前に、要件を満たしていることをご確認ください。 詳細については、「[Microsoft Teams Rooms の要件](requirements.md)」をご覧ください。
 
 Skype for Business を有効にするには、次のものが必要です。
 
@@ -40,7 +40,7 @@ Skype for Business を有効にするには、次のものが必要です。
 
 - テナント ユーザーには Exchange メールボックスが必要です。
 
-- Microsoft Teams ミーティングのアカウントでは、少なくとも Skype for Business Online (プラン 2) のライセンスが必要ですが、Exchange Online のライセンスは必要ありません。 詳細については、「[Microsoft Teams ミーティング ライセンス](rooms-licensing.md)」を参照してください。
+- Microsoft Teams Rooms のアカウントでは、少なくとも Skype for Business Online (プラン 2) のライセンスが必要ですが、Exchange Online のライセンスは必要ありません。 詳細については、「[Microsoft Teams Rooms ライセンス](rooms-licensing.md)」を参照してください。
 
 Skype for Business Online プランの詳細については、「[Skype for Business Online サービスの説明](https://technet.microsoft.com/library/jj822172.aspx)」を参照してください。
 
@@ -172,7 +172,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
-7. 次に、Skype for Business でデバイス アカウントを有効にする必要があります。 お使いの環境が「[Microsoft Teams ミーティングの要件](requirements.md)」で定義されている要件を満たしていることを確認します。
+7. 次に、Skype for Business でデバイス アカウントを有効にする必要があります。 お使いの環境が「[Microsoft Teams Rooms の要件](requirements.md)」で定義されている要件を満たしていることを確認します。
 
    次のようにしてリモート [Windows PowerShell セッション](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を開始します (必ず[Skype for Business Online の PowerShell コンポーネントのインストール](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)を行ってください)。
 
@@ -182,7 +182,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    Import-PSSession $cssess -AllowClobber
    ```
 
-   Skype for Business Server に対して Microsoft Teams ミーティングのアカウントを有効にするには、次のコマンドを実行します。
+   Skype for Business Server に対して Microsoft Teams Rooms のアカウントを有効にするには、次のコマンドを実行します。
 
    ``` Powershell
    $rm="Rigel1@contoso.onmicrosoft.com"
@@ -205,11 +205,11 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
 2. [**ユーザーとグループ**] をクリックし、[**ユーザーの追加、パスワードのリセットなど**] をクリックします。
 
-3. Microsoft Teams ミーティング アカウントを選択してから、編集を意味するペン アイコンをクリックまたはタップします。
+3. Microsoft Teams Rooms アカウントを選択してから、編集を意味するペン アイコンをクリックまたはタップします。
 
 4. [**ライセンス**] オプションをクリックします。
 
-5. [**ライセンスの割り当て**] セクションで、使用するライセンスと、エンタープライズ VoIP の必要性に関する決定に応じて、Skype for Business Online (プラン 2) または Skype for Business Online (プラン 3) を選択する必要があります。 Microsoft Teams ミーティングでクラウド PBX を使用する場合は、プラン 3 ライセンスを使用する必要があります。 最低でも、音声接続用に CloudPBX が必要です。 次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。 詳細については、「[Microsoft Teams ミーティング ライセンス](rooms-licensing.md)」を参照してください。
+5. [**ライセンスの割り当て**] セクションで、使用するライセンスと、エンタープライズ VoIP の必要性に関する決定に応じて、Skype for Business Online (プラン 2) または Skype for Business Online (プラン 3) を選択する必要があります。 Microsoft Teams Rooms でクラウド PBX を使用する場合は、プラン 3 ライセンスを使用する必要があります。 最低でも、音声接続用に CloudPBX が必要です。 次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。 詳細については、「[Microsoft Teams Rooms ライセンス](rooms-licensing.md)」を参照してください。
 
 6. [**保存**] をクリックしてタスクを完了します。
 
@@ -257,7 +257,7 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams ミーティングのアカウントを構成する](rooms-configure-accounts.md)
+[Microsoft Teams Rooms のアカウントを構成する](rooms-configure-accounts.md)
 
 [Microsoft Teams Rooms を計画する](rooms-plan.md)
 
@@ -267,4 +267,4 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [Microsoft Teams Rooms の管理](rooms-manage.md)
 
-[Microsoft Teams ミーティング ライセンス](rooms-licensing.md)
+[Microsoft Teams Rooms ライセンス](rooms-licensing.md)

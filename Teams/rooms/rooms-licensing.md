@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams ミーティング ライセンス
+title: Microsoft Teams Rooms ライセンス
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: Microsoft Teams ミーティングの通話と会議機能の種類に応じて使用できるライセンスについて説明します。
+description: Microsoft Teams Rooms の通話と会議機能の種類に応じて使用できるライセンスについて説明します。
 ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
 ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: HT
@@ -33,7 +33,7 @@ ms.locfileid: "44416847"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有コミュニケーション デバイスのライセンス ソリューション
 
-Microsoft では、会議をライセンス化し、会議室デバイス (Microsoft Teams ミーティングや Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど) をデバイスごとに呼び出すための専用の SKU を提供しています。
+Microsoft では、会議をライセンス化し、会議室デバイス (Microsoft Teams Rooms や Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど) をデバイスごとに呼び出すための専用の SKU を提供しています。
 
 ||ミーティング ルーム SKU |  
 |:--- |:---: |
@@ -55,9 +55,9 @@ Microsoft では、会議をライセンス化し、会議室デバイス (Micro
 > 電話会議が含まれる Skype for Business プラン 2、または Office 365 電話システムと通話プランで、E1、E3、E4、E5 SKU を現在お使いの場合、これらは引き続き機能します。 ただし、現在のライセンスの有効期限が切れた後は、上の表に示した、よりシンプルなライセンス モデルへの移行をご検討いただく必要があります。
 
 > [!IMPORTANT]
-> Skype for Business プラン 2 を使用している場合、[Skype for Business のみ] のモードでのみ Microsoft Teams ミーティングをご利用いただけます。つまり、すべての会議が Skype for Business の会議になります。 Microsoft Teams のミーティングの会議室を使用できるようにするため、ミーティング ルーム ライセンスのご購入をお勧めします。 
+> Skype for Business プラン 2 を使用している場合、[Skype for Business のみ] のモードでのみ Microsoft Teams Rooms をご利用いただけます。つまり、すべての会議が Skype for Business の会議になります。 Microsoft Teams のミーティングの会議室を使用できるようにするため、ミーティング ルーム ライセンスのご購入をお勧めします。 
 
-次の表に、Microsoft Teams ミーティングで使用できる機能と、その機能を利用するために購入する必要のあるライセンスをまとめて示します。
+次の表に、Microsoft Teams Rooms で使用できる機能と、その機能を利用するために購入する必要のあるライセンスをまとめて示します。
   
 > [!NOTE]
 > セットアップされる会議室はユーザー オブジェクトで、これらのライセンスが割り当てられている必要があります。
@@ -74,4 +74,4 @@ Microsoft では、会議をライセンス化し、会議室デバイス (Micro
 > [!NOTE]
 > 既存のライセンスが会議室システムに割り当てられている場合、これらは中断されることなく機能します。 既存のライセンスの有効期限が切れた時点で、新しいミーティング ルーム SKU を使用するように移行する必要があります。  
 
- **正しいバージョンの Windows 10 を使用する**。Windows 10 イメージをデバイスに展開する場合は、「[Microsoft Teams ミーティング コンソールを構成する](https://docs.microsoft.com/microsoftteams/room-systems/console)」を参照してください。 [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。
+ **正しいバージョンの Windows 10 を使用する**。Windows 10 イメージをデバイスに展開する場合は、「[Microsoft Teams Rooms コンソールを構成する](https://docs.microsoft.com/microsoftteams/room-systems/console)」を参照してください。 [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。
