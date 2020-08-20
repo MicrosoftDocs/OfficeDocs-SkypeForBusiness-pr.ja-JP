@@ -12,7 +12,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 管理者は、Microsoft Teams ミーティングの累積的な改善リストである Microsoft Teams ミーティングのリリース ノートを参照できます。
+description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
 ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
@@ -23,7 +23,7 @@ ms.locfileid: "46761323"
 ---
 # <a name="release-notes"></a><span data-ttu-id="606fa-103">リリース ノート</span><span class="sxs-lookup"><span data-stu-id="606fa-103">Release notes</span></span>
 
-<span data-ttu-id="606fa-104">この記事では、Microsoft Teams ミーティングの累積的な改善点について説明します。</span><span class="sxs-lookup"><span data-stu-id="606fa-104">This article discusses cumulative improvements in Microsoft Teams Rooms.</span></span>
+<span data-ttu-id="606fa-104">この記事では、Microsoft Teams Rooms の累積的な改善点について説明します。</span><span class="sxs-lookup"><span data-stu-id="606fa-104">This article discusses cumulative improvements in Microsoft Teams Rooms.</span></span>
 
 ## <a name="version-history"></a><span data-ttu-id="606fa-105">バージョン履歴</span><span class="sxs-lookup"><span data-stu-id="606fa-105">Version history</span></span>
 
@@ -65,7 +65,7 @@ ms.locfileid: "46761323"
 |<span data-ttu-id="606fa-175">2.0.2.0</span><span class="sxs-lookup"><span data-stu-id="606fa-175">2.0.2.0</span></span> |<span data-ttu-id="606fa-176">03/15/2017</span><span class="sxs-lookup"><span data-stu-id="606fa-176">03/15/2017</span></span> |
 |<span data-ttu-id="606fa-177">RTM (1.0.8)</span><span class="sxs-lookup"><span data-stu-id="606fa-177">RTM (1.0.8)</span></span> |<span data-ttu-id="606fa-178">12/7/2016</span><span class="sxs-lookup"><span data-stu-id="606fa-178">12/7/2016</span></span> |
 
-## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a><span data-ttu-id="606fa-179">Microsoft Teams ミーティング機能の概要と問題の解決</span><span class="sxs-lookup"><span data-stu-id="606fa-179">Microsoft Teams Rooms feature introduction and issue resolution</span></span>
+## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a><span data-ttu-id="606fa-179">Microsoft Teams Rooms 機能の概要と問題の解決</span><span class="sxs-lookup"><span data-stu-id="606fa-179">Microsoft Teams Rooms feature introduction and issue resolution</span></span>
 
 ### <a name="45370-08142020"></a><span data-ttu-id="606fa-180">4.5.37.0 (08/14/2020)</span><span class="sxs-lookup"><span data-stu-id="606fa-180">4.5.37.0 (08/14/2020)</span></span>
 
@@ -96,7 +96,7 @@ ms.locfileid: "46761323"
 - <span data-ttu-id="606fa-198">"4.4.41.0 の更新後にアプリケーションが起動しない" という問題を解決する</span><span class="sxs-lookup"><span data-stu-id="606fa-198">Fix for "application won't launch after update to 4.4.41.0" issue</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="606fa-199">デバイスがバージョン 4.4.63.0 に自動的に更新されない場合は、次の「[4.4.41.0 バージョンへの更新後にMicrosoft Teams ミーティング アプリケーション が起動しない](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update)」の手順を実行して問題を解決してください。 </span><span class="sxs-lookup"><span data-stu-id="606fa-199">If your device doesn't automatically update to version 4.4.63.0, follow the steps in [Microsoft Teams Rooms application does not start after updating to version 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) to resolve the issue.</span></span>
+> <span data-ttu-id="606fa-199">デバイスがバージョン 4.4.63.0 に自動的に更新されない場合は、次の「[4.4.41.0 バージョンへの更新後にMicrosoft Teams Rooms アプリケーション が起動しない](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update)」の手順を実行して問題を解決してください。 </span><span class="sxs-lookup"><span data-stu-id="606fa-199">If your device doesn't automatically update to version 4.4.63.0, follow the steps in [Microsoft Teams Rooms application does not start after updating to version 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) to resolve the issue.</span></span>
 
 ### <a name="44410-05062020"></a><span data-ttu-id="606fa-200">4.4.41.0 (05/06/2020)</span><span class="sxs-lookup"><span data-stu-id="606fa-200">4.4.41.0 (05/06/2020)</span></span>
 
@@ -160,13 +160,13 @@ ms.locfileid: "46761323"
 
 <span data-ttu-id="606fa-239">この更新プログラムで導入されるもの:</span><span class="sxs-lookup"><span data-stu-id="606fa-239">Introduced in this update:</span></span>
 
-- <span data-ttu-id="606fa-240">Skype Room System ストア アプリの "Microsoft Teams ミーティング" への商標変更</span><span class="sxs-lookup"><span data-stu-id="606fa-240">Skype Room System store app rebrand to "Microsoft Teams Rooms"</span></span>
-- <span data-ttu-id="606fa-241">Microsoft Teams ミーティング コンソール ユーザー インターフェイスの Microsoft Teams への再編</span><span class="sxs-lookup"><span data-stu-id="606fa-241">Microsoft Teams Rooms console user interface realigned to Microsoft Teams</span></span>
+- <span data-ttu-id="606fa-240">Skype Room System ストア アプリの "Microsoft Teams Rooms" への商標変更</span><span class="sxs-lookup"><span data-stu-id="606fa-240">Skype Room System store app rebrand to "Microsoft Teams Rooms"</span></span>
+- <span data-ttu-id="606fa-241">Microsoft Teams Rooms コンソール ユーザー インターフェイスの Microsoft Teams への再編</span><span class="sxs-lookup"><span data-stu-id="606fa-241">Microsoft Teams Rooms console user interface realigned to Microsoft Teams</span></span>
 - <span data-ttu-id="606fa-242">テーマの更新: コンソールの背景を中間色にしてコンソール UI コントロールがはっきり見えるようにしながら、常にカスタム背景画像をフロント オブ ルーム ディスプレイ上に表示する - アクセシビリティ要件</span><span class="sxs-lookup"><span data-stu-id="606fa-242">Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast — accessibility requirements</span></span>
 - <span data-ttu-id="606fa-243">Teams 通話/会議で Microsoft Teams PC、Web、モバイル クライアントに一貫性のあるエクスペリエンスを提供するための会議中通話制御用のユニバーサル バー<sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="606fa-243">Universal bar for in-meeting call controls for Teams calls/ meetings to provide consistent experience with Microsoft Teams PC/ Web/ Mobile clients<sup>1</sup></span></span>
 - <span data-ttu-id="606fa-244">Teams 通話/会議後の通話品質フィードバックの評価<sup>1</sup></span><span class="sxs-lookup"><span data-stu-id="606fa-244">Call quality feedback rating after Teams calls/ meetings<sup>1</sup></span></span>
-- <span data-ttu-id="606fa-245">PC、Web、モバイルの Teams クライアントから共有された場合の Microsoft Teams ミーティング フロント オブ ルーム ディスプレイ上の Microsoft Whiteboard の受信/レンダリング<sup>1</sup> <sup>2</sup></span><span class="sxs-lookup"><span data-stu-id="606fa-245">Recieve/ render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup></span></span>
-- <span data-ttu-id="606fa-246">Microsoft Teams ミーティング クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。</span><span class="sxs-lookup"><span data-stu-id="606fa-246">Removed support for Windows 10 Version 1809 upgrades due to compatibility issues with Microsoft Teams Rooms client.</span></span> <span data-ttu-id="606fa-247">Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます</span><span class="sxs-lookup"><span data-stu-id="606fa-247">Windows 10 Version 19H1 support will be added in future releases</span></span>
+- <span data-ttu-id="606fa-245">PC、Web、モバイルの Teams クライアントから共有された場合の Microsoft Teams Rooms フロント オブ ルーム ディスプレイ上の Microsoft Whiteboard の受信/レンダリング<sup>1</sup> <sup>2</sup></span><span class="sxs-lookup"><span data-stu-id="606fa-245">Recieve/ render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup></span></span>
+- <span data-ttu-id="606fa-246">Microsoft Teams Rooms クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。</span><span class="sxs-lookup"><span data-stu-id="606fa-246">Removed support for Windows 10 Version 1809 upgrades due to compatibility issues with Microsoft Teams Rooms client.</span></span> <span data-ttu-id="606fa-247">Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます</span><span class="sxs-lookup"><span data-stu-id="606fa-247">Windows 10 Version 19H1 support will be added in future releases</span></span>
 
 <span data-ttu-id="606fa-248"><sup>1</sup> Microsoft Teams サービスが Teams リングを使用して提供されます。</span><span class="sxs-lookup"><span data-stu-id="606fa-248"><sup>1</sup> Microsoft Teams service rollout using Teams rings.</span></span> <span data-ttu-id="606fa-249">この機能は 4.0.105.0 クライアントの更新の前後に使用可能になります</span><span class="sxs-lookup"><span data-stu-id="606fa-249">This feature may be available earlier or later than 4.0.105.0 client update</span></span>
 
@@ -177,7 +177,7 @@ ms.locfileid: "46761323"
 <span data-ttu-id="606fa-253">この更新プログラムで導入されるもの:</span><span class="sxs-lookup"><span data-stu-id="606fa-253">Introduced in this update:</span></span>
 
 - <span data-ttu-id="606fa-254">"フィードバックの送信" 機能に伴う問題の修正</span><span class="sxs-lookup"><span data-stu-id="606fa-254">Fixes an issue with the "give feedback" feature</span></span> 
-- <span data-ttu-id="606fa-255">予定されている Microsoft Teams ミーティング デバイスの Windows 10 バージョン 1809 へのアップグレードの準備の最適化</span><span class="sxs-lookup"><span data-stu-id="606fa-255">Optimizations in preparation for the forthcoming Microsoft Teams Rooms device upgrade to Windows 10 Version 1809</span></span>
+- <span data-ttu-id="606fa-255">予定されている Microsoft Teams Rooms デバイスの Windows 10 バージョン 1809 へのアップグレードの準備の最適化</span><span class="sxs-lookup"><span data-stu-id="606fa-255">Optimizations in preparation for the forthcoming Microsoft Teams Rooms device upgrade to Windows 10 Version 1809</span></span>
 
 ### <a name="40780-03142019"></a><span data-ttu-id="606fa-256">4.0.78.0 (03/14/2019)</span><span class="sxs-lookup"><span data-stu-id="606fa-256">4.0.78.0 (03/14/2019)</span></span>
 
@@ -193,7 +193,7 @@ ms.locfileid: "46761323"
 - <span data-ttu-id="606fa-261">Microsoft Teams P2P 会議と PSTN 通話用の DTMF キーパッド。</span><span class="sxs-lookup"><span data-stu-id="606fa-261">DTMF keypad for Microsoft Teams P2P meetings and PSTN calls.</span></span> <span data-ttu-id="606fa-262">Microsoft Teams を既定の発信クライアントにするには、管理者が IsTeamsDefaultClient を true に設定する必要があります</span><span class="sxs-lookup"><span data-stu-id="606fa-262">To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true</span></span>
 - <span data-ttu-id="606fa-263">リモート参加者の着信ビデオをフロント オブ ルーム ディスプレイの全画面に固定表示。</span><span class="sxs-lookup"><span data-stu-id="606fa-263">Pin a remote participant's incoming video to full screen on front of room display.</span></span> <span data-ttu-id="606fa-264">コンソール上の参加者名簿から "Pin" コマンドを使用します</span><span class="sxs-lookup"><span data-stu-id="606fa-264">Use "Pin" command from participant roster on the console</span></span>
 - <span data-ttu-id="606fa-265">フロント オブ ルーム通知が追加されたことによるロビー通知の改善</span><span class="sxs-lookup"><span data-stu-id="606fa-265">Improvements to Lobby notifications with addition of Front of Room notification</span></span>
-- <span data-ttu-id="606fa-266">Bluetooth ビーコンが Microsoft Teams ミーティング デバイス上で有効になっていない場合のフロント オブ ルーム ディスプレイ キャスト アイコンの削除</span><span class="sxs-lookup"><span data-stu-id="606fa-266">Front of Room display casting icon removed when Bluetooth beacon is not enabled on Microsoft Teams Rooms device</span></span>
+- <span data-ttu-id="606fa-266">Bluetooth ビーコンが Microsoft Teams Rooms デバイス上で有効になっていない場合のフロント オブ ルーム ディスプレイ キャスト アイコンの削除</span><span class="sxs-lookup"><span data-stu-id="606fa-266">Front of Room display casting icon removed when Bluetooth beacon is not enabled on Microsoft Teams Rooms device</span></span>
 - <span data-ttu-id="606fa-267">Teams 会議でのボリューム コントロールの問題の修正</span><span class="sxs-lookup"><span data-stu-id="606fa-267">Fix for volume control issue in Teams meetings</span></span>
 
 
@@ -203,7 +203,7 @@ ms.locfileid: "46761323"
 
 - <span data-ttu-id="606fa-270">2 画面ルーム システム上の両方のフロント オブ ルーム (FoR) ディスプレイへのコンテンツの表示</span><span class="sxs-lookup"><span data-stu-id="606fa-270">Display content on both Front of Room (FoR) displays on dual screen room systems</span></span>
 - <span data-ttu-id="606fa-271">テーマ設定とフロント オブ ルーム ユーザー インターフェイスの改善</span><span class="sxs-lookup"><span data-stu-id="606fa-271">Theming and Front of Room user interface improvements</span></span>
-- <span data-ttu-id="606fa-272">TLS 1.2 クライアント側のサポート。</span><span class="sxs-lookup"><span data-stu-id="606fa-272">TLS 1.2 client-side support.</span></span> <span data-ttu-id="606fa-273">オンプレミスのお客様の場合は、Microsoft Teams ミーティングの TLS 1.2 経由の通信を有効にするには、Skype for Business Server 2015 累積更新プログラム 9 (CU9) または Skype for Business Server 2019 累積更新プログラム 1 (CU1) が必要です。</span><span class="sxs-lookup"><span data-stu-id="606fa-273">For on-premise customers, enabling communication over TLS 1.2 for Microsoft Teams Rooms requires Skype for Business Server 2015 Cumulative Update 9 (CU9) or Skype for Business Server 2019 Cumulative Update 1 (CU1).</span></span>
+- <span data-ttu-id="606fa-272">TLS 1.2 クライアント側のサポート。</span><span class="sxs-lookup"><span data-stu-id="606fa-272">TLS 1.2 client-side support.</span></span> <span data-ttu-id="606fa-273">オンプレミスのお客様の場合は、Microsoft Teams Rooms の TLS 1.2 経由の通信を有効にするには、Skype for Business Server 2015 累積更新プログラム 9 (CU9) または Skype for Business Server 2019 累積更新プログラム 1 (CU1) が必要です。</span><span class="sxs-lookup"><span data-stu-id="606fa-273">For on-premise customers, enabling communication over TLS 1.2 for Microsoft Teams Rooms requires Skype for Business Server 2015 Cumulative Update 9 (CU9) or Skype for Business Server 2019 Cumulative Update 1 (CU1).</span></span>
 
 ### <a name="40510-11172018"></a><span data-ttu-id="606fa-274">4.0.51.0 (11/17/2018)</span><span class="sxs-lookup"><span data-stu-id="606fa-274">4.0.51.0 (11/17/2018)</span></span>
 
@@ -221,15 +221,15 @@ ms.locfileid: "46761323"
 
 <span data-ttu-id="606fa-281">この更新プログラムで導入されるもの:</span><span class="sxs-lookup"><span data-stu-id="606fa-281">Introduced in this update:</span></span>
 
-- <span data-ttu-id="606fa-282">今後の Windows 10 バージョン 1803 アップグレード用に Microsoft Teams ミーティング アプリを準備するために必要なコードの変更</span><span class="sxs-lookup"><span data-stu-id="606fa-282">Code changes necessary to prepare the Microsoft Teams Rooms app for later Windows 10 Version 1803 upgrade</span></span>
+- <span data-ttu-id="606fa-282">今後の Windows 10 バージョン 1803 アップグレード用に Microsoft Teams Rooms アプリを準備するために必要なコードの変更</span><span class="sxs-lookup"><span data-stu-id="606fa-282">Code changes necessary to prepare the Microsoft Teams Rooms app for later Windows 10 Version 1803 upgrade</span></span>
 - <span data-ttu-id="606fa-283">EULA OOBE セットアップ ウィンドウの先に進まないようにする、ローカライズされた EULA (具体的にはノルウェー語) に伴う書式設定の問題の修正</span><span class="sxs-lookup"><span data-stu-id="606fa-283">Fix formatting issue with localized EULAs (specifically Norwegian) which prevents advancing beyond EULA OOBE setup window</span></span>
-- <span data-ttu-id="606fa-284">Microsoft Teams ミーティング アプリケーションをレガシ Lync Room System で実行するために必要なコードの変更。</span><span class="sxs-lookup"><span data-stu-id="606fa-284">Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems.</span></span> <span data-ttu-id="606fa-285">詳細については、[こちら](https://aka.ms/lrsupgrade)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="606fa-285">See more [here](https://aka.ms/lrsupgrade).</span></span>
+- <span data-ttu-id="606fa-284">Microsoft Teams Rooms アプリケーションをレガシ Lync Room System で実行するために必要なコードの変更。</span><span class="sxs-lookup"><span data-stu-id="606fa-284">Code changes required to make Microsoft Teams Rooms application run on legacy Lync Room Systems.</span></span> <span data-ttu-id="606fa-285">詳細については、[こちら](https://aka.ms/lrsupgrade)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="606fa-285">See more [here](https://aka.ms/lrsupgrade).</span></span>
 
 ### <a name="40190-8312018"></a><span data-ttu-id="606fa-286">4.0.19.0 (8/31/2018)</span><span class="sxs-lookup"><span data-stu-id="606fa-286">4.0.19.0 (8/31/2018)</span></span>
 
 <span data-ttu-id="606fa-287">この更新プログラムで導入されるもの:</span><span class="sxs-lookup"><span data-stu-id="606fa-287">Introduced in this update:</span></span>
 
-- <span data-ttu-id="606fa-288">通常は Crestron SR 上のアプリ ボタンが押されたときにアクセス可能になる、起動しない Crestron アプリケーションの修正プログラム。</span><span class="sxs-lookup"><span data-stu-id="606fa-288">Hotfix for Crestron application not launching which would normally be accessible when the app button on a Crestron SR device is pressed.</span></span> <span data-ttu-id="606fa-289">4.0.19.0 のインストール後に必要な Microsoft Teams ミーティング アプリの再起動。</span><span class="sxs-lookup"><span data-stu-id="606fa-289">Microsoft Teams Rooms app restart required after installation of 4.0.19.0.</span></span>
+- <span data-ttu-id="606fa-288">通常は Crestron SR 上のアプリ ボタンが押されたときにアクセス可能になる、起動しない Crestron アプリケーションの修正プログラム。</span><span class="sxs-lookup"><span data-stu-id="606fa-288">Hotfix for Crestron application not launching which would normally be accessible when the app button on a Crestron SR device is pressed.</span></span> <span data-ttu-id="606fa-289">4.0.19.0 のインストール後に必要な Microsoft Teams Rooms アプリの再起動。</span><span class="sxs-lookup"><span data-stu-id="606fa-289">Microsoft Teams Rooms app restart required after installation of 4.0.19.0.</span></span>
 
 ### <a name="40180-08272018"></a><span data-ttu-id="606fa-290">4.0.18.0 (08/27/2018)</span><span class="sxs-lookup"><span data-stu-id="606fa-290">4.0.18.0 (08/27/2018)</span></span>
 
@@ -322,7 +322,7 @@ Introduced in this update:
 - <span data-ttu-id="606fa-342">[Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) ドック ハードウェアのサポート</span><span class="sxs-lookup"><span data-stu-id="606fa-342">Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware</span></span>
 - <span data-ttu-id="606fa-343">環境コントロール (Crestron) の OEM サポート</span><span class="sxs-lookup"><span data-stu-id="606fa-343">OEM Support for Environment Controls (Crestron)</span></span>
 
-<span data-ttu-id="606fa-344">Windows 10 Enterprise Anniversary エディション (英語版、バージョン 1607) の 64 ビット バージョンは Microsoft Teams ミーティング リリース 3.0.12.0 (更新プログラム 3) ではサポートされなくなりました。</span><span class="sxs-lookup"><span data-stu-id="606fa-344">The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3).</span></span>
+<span data-ttu-id="606fa-344">Windows 10 Enterprise Anniversary エディション (英語版、バージョン 1607) の 64 ビット バージョンは Microsoft Teams Rooms リリース 3.0.12.0 (更新プログラム 3) ではサポートされなくなりました。</span><span class="sxs-lookup"><span data-stu-id="606fa-344">The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3).</span></span>
 
 ### <a name="3080-842017"></a><span data-ttu-id="606fa-345">3.0.8.0 (8/4/2017)</span><span class="sxs-lookup"><span data-stu-id="606fa-345">3.0.8.0 (8/4/2017)</span></span>
 
@@ -382,14 +382,14 @@ Introduced in this update:
 <span data-ttu-id="606fa-383"><a name="See"> </a></span><span class="sxs-lookup"><span data-stu-id="606fa-383"><a name="See"> </a></span></span> 
 ## <a name="see-also"></a><span data-ttu-id="606fa-384">関連項目</span><span class="sxs-lookup"><span data-stu-id="606fa-384">See also</span></span>
 
-[<span data-ttu-id="606fa-385">Microsoft Teams ミーティング ヘルプ</span><span class="sxs-lookup"><span data-stu-id="606fa-385">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[<span data-ttu-id="606fa-385">Microsoft Teams Rooms ヘルプ</span><span class="sxs-lookup"><span data-stu-id="606fa-385">Microsoft Teams Rooms help</span></span>](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [<span data-ttu-id="606fa-386">環境を準備する</span><span class="sxs-lookup"><span data-stu-id="606fa-386">Prepare your environment</span></span>](rooms-prep.md)
 
-[<span data-ttu-id="606fa-387">Microsoft Teams ミーティング Current Branch バージョンのサポート</span><span class="sxs-lookup"><span data-stu-id="606fa-387">Support for Microsoft Teams Rooms Current Branch versions</span></span>](rooms-lifecycle-support.md)
+[<span data-ttu-id="606fa-387">Microsoft Teams Rooms Current Branch バージョンのサポート</span><span class="sxs-lookup"><span data-stu-id="606fa-387">Support for Microsoft Teams Rooms Current Branch versions</span></span>](rooms-lifecycle-support.md)
 
 [<span data-ttu-id="606fa-388">既知の問題</span><span class="sxs-lookup"><span data-stu-id="606fa-388">Known issues</span></span>](known-issues.md)
 
-[<span data-ttu-id="606fa-389">Microsoft Teams ミーティングを計画する</span><span class="sxs-lookup"><span data-stu-id="606fa-389">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
+[<span data-ttu-id="606fa-389">Microsoft Teams Rooms を計画する</span><span class="sxs-lookup"><span data-stu-id="606fa-389">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
 
-[<span data-ttu-id="606fa-390">Microsoft Teams ミーティング を管理する</span><span class="sxs-lookup"><span data-stu-id="606fa-390">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
+[<span data-ttu-id="606fa-390">Microsoft Teams Rooms を管理する</span><span class="sxs-lookup"><span data-stu-id="606fa-390">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
