@@ -21,10 +21,10 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: Microsoft Teams ルームのさまざまな種類の通話と会議機能で利用可能なライセンスについて説明します。
+description: Microsoft Teams ミーティングの通話と会議機能の種類に応じて使用できるライセンスについて説明します。
 ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
 ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/29/2020
 ms.locfileid: "44416847"
@@ -33,7 +33,7 @@ ms.locfileid: "44416847"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有コミュニケーション デバイスのライセンス ソリューション
 
-Microsoft には、会議室 (microsoft Teams 室、Microsoft Surface Hub、Microsoft Teams のコラボレーションバーなど) のデバイスごとに、会議と通話のライセンスを付与する専用の SKU が用意されています。
+Microsoft では、会議をライセンス化し、会議室デバイス (Microsoft Teams ミーティングや Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど) をデバイスごとに呼び出すための専用の SKU を提供しています。
 
 ||ミーティング ルーム SKU |  
 |:--- |:---: |
@@ -67,7 +67,7 @@ Microsoft には、会議室 (microsoft Teams 室、Microsoft Surface Hub、Micr
 |スケジュールされた会議への参加  | ミーティング ルーム SKU  |Skype for Business Server Standard CAL  |
 |アドホック会議の開始 | ミーティング ルーム SKU  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |アドホック会議を開始し、会議から電話番号にダイヤル アウト |  ミーティング ルーム SKU |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|会議室に電話番号を設定し、その会議室から通話を発着信、または電話番号を使用して電話会議に参加  | 直接ルーティング: 会議室の SKU<br/>直接ルーティングなし: 国内または国際通話プラン<br/>Microsoft 365 企業向け音声  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|会議室に電話番号を設定し、その会議室から通話を発着信、または電話番号を使用して電話会議に参加  | ダイレクト ルーティング: ミーティング ルーム SKU<br/>ダイレクト ルーティングなし: 国内通話プランまたは国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
 |Microsoft Intune を使用した会議室デバイスの管理 |ミーティング ルーム SKU  |[オンプレミス MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
 | |||
 

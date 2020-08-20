@@ -14,10 +14,10 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: この記事では、Microsoft Teams 室本体とその周辺機器を設定して構成する方法について説明します。
+description: この記事では、Microsoft Teams ミーティングのコンソールとその周辺機器の設定および構成方法を説明します。
 ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43905449"
@@ -262,8 +262,8 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 
 [Microsoft Teams ミーティングを計画する](rooms-plan.md)
   
-[デプロイの概要](rooms-deploy.md)
+[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)
   
-[Microsoft Teams ミーティングのコンソールを構成する](console.md)
+[Microsoft Teams Rooms コンソールを構成する](console.md)
   
 [Microsoft Teams Rooms を管理する](rooms-manage.md)
