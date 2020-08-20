@@ -133,19 +133,19 @@
 # ミーティングと会議
 ## [クイック スタート - 会議とライブ イベント](quick-start-meetings-live-events.md)
 ## [展開の計画](deploy-meetings-microsoft-teams-landing-page.md)
-## Microsoft Teams ミーティング
+## Microsoft Teams Rooms
 ### [概要](rooms/index.md)
 ### 計画
-#### [Microsoft Teams ルームの計画の概要](rooms/rooms-plan.md)
+#### [Microsoft Teams Rooms 計画の概要](rooms/rooms-plan.md)
 #### [バージョンのサポート](rooms/rooms-lifecycle-support.md)
 #### [リリース ノート](rooms/rooms-release-note.md)
 #### [環境を準備する](rooms/rooms-prep.md)
 #### [要件](rooms/requirements.md)
 #### [オンライン ライセンス](rooms/rooms-licensing.md)
 #### [Azure Monitor による管理の計画](rooms/azure-monitor-plan.md)
-#### Microsoft Teams ミーティングの管理サービス
-##### [Microsoft Teams ミーティングの管理サービスを使用して管理を計画する](rooms/microsoft-teams-rooms-premium.md)
-##### [Microsoft Teams ミーティングの管理サービスを使用したロールベースのアクセス制御](rooms/microsoft-teams-rooms-premium-rbac.md)
+#### Microsoft Teams Rooms の管理サービス
+##### [Microsoft Teams Rooms の管理サービスを使用して管理を計画する](rooms/microsoft-teams-rooms-premium.md)
+##### [Microsoft Teams Rooms の管理サービスを使用したロールベースのアクセス制御](rooms/microsoft-teams-rooms-premium-rbac.md)
 ### 展開
 #### [展開の概要](rooms/rooms-deploy.md)
 #### [アカウントを構成する](rooms/rooms-configure-accounts.md)
@@ -707,6 +707,7 @@
 ### [Microsoft 365 Government の計画: GCC High](plan-for-government-gcc-high.md)
 ### [Microsoft 365 Government の計画: DoD](plan-for-government-dod.md)
 ### [GCC High および DoD のダイレクト ルーティングを使用する電話会議](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+### [政府機関向けの Teams ポリシー パッケージ](policy-packages-gov.md)
 
 <!-- ============================================================ -->
 

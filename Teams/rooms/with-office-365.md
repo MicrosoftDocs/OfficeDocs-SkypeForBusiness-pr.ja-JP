@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams のルームを Microsoft 365 または Office 365 と共に展開する
+title: Microsoft 365 または Office 365 で Microsoft Teams ミーティングを展開する
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,107 +14,107 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: このトピックでは、microsoft Teams のルームを Microsoft 365 または Office 365 と共に展開する方法について説明します。この情報には、Teams または Skype for Business および Exchange が両方ともオンラインになっています。
+description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams ミーティングを展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
 ms.openlocfilehash: 440bf2f624bfd150f7e00f145770b0fda336deb4
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44756798"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a><span data-ttu-id="c2b18-103">Microsoft Teams のルームを Microsoft 365 または Office 365 と共に展開する</span><span class="sxs-lookup"><span data-stu-id="c2b18-103">Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365</span></span>
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a><span data-ttu-id="5ac56-103">Microsoft 365 または Office 365 で Microsoft Teams ミーティングを展開する</span><span class="sxs-lookup"><span data-stu-id="5ac56-103">Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365</span></span>
 
-<span data-ttu-id="c2b18-104">このトピックでは、microsoft teams または Skype for Business および Exchange が両方ともオンラインで、microsoft Teams のルームを Microsoft 365 または Office 365 に展開する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-104">Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, where Microsoft Teams or Skype for Business and Exchange are both online.</span></span>
+<span data-ttu-id="5ac56-104">このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams ミーティングを展開する方法について説明します。Microsoft Teams または Skype for Business と Exchange はどちらもオンラインです。</span><span class="sxs-lookup"><span data-stu-id="5ac56-104">Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, where Microsoft Teams or Skype for Business and Exchange are both online.</span></span>
 
-<span data-ttu-id="c2b18-105">ユーザーアカウントをセットアップする最も簡単な方法は、リモートの Windows PowerShell を使用してアカウントを構成することです。</span><span class="sxs-lookup"><span data-stu-id="c2b18-105">The easiest way to set up user accounts is to configure them using remote Windows PowerShell.</span></span> <span data-ttu-id="c2b18-106">Microsoft では、新しいユーザーアカウントを作成するのに役立つスクリプト、または既存のリソースアカウントを、互換性のある Microsoft Teams の会議室のユーザーアカウントに変換するために使用している既存のリソースアカウントを検証するためのスクリプトを提供して[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)ます。</span><span class="sxs-lookup"><span data-stu-id="c2b18-106">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts.</span></span> <span data-ttu-id="c2b18-107">必要に応じて、次の手順に従って、Microsoft Teams の会議室のデバイスで使用するアカウントを構成することができます。</span><span class="sxs-lookup"><span data-stu-id="c2b18-107">If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.</span></span>
+<span data-ttu-id="5ac56-105">ユーザー アカウントをセットアップする最も簡単な方法は、リモート Windows PowerShell を使用して構成することです。</span><span class="sxs-lookup"><span data-stu-id="5ac56-105">The easiest way to set up user accounts is to configure them using remote Windows PowerShell.</span></span> <span data-ttu-id="5ac56-106">Microsoft では、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) を提供しています。これは、新しいユーザー アカウントを作成するか、既存のリソース アカウントを検証するスクリプトであり、それらのアカウントを互換性のある Microsoft Teams ミーティングのユーザー アカウントに変換する助けとなります。</span><span class="sxs-lookup"><span data-stu-id="5ac56-106">Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts.</span></span> <span data-ttu-id="5ac56-107">必要な場合は、次の手順に従って、Microsoft Teams ミーティングのデバイスが使用するアカウントを構成できます。</span><span class="sxs-lookup"><span data-stu-id="5ac56-107">If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="c2b18-108">要件</span><span class="sxs-lookup"><span data-stu-id="c2b18-108">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5ac56-108">要件</span><span class="sxs-lookup"><span data-stu-id="5ac56-108">Requirements</span></span>
 
-<span data-ttu-id="c2b18-109">Microsoft Teams のルームを Microsoft 365 または Office 365 に展開する前に、要件を満たしていることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-109">Before you deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, be sure you have met the requirements.</span></span> <span data-ttu-id="c2b18-110">詳細については、「 [Microsoft Teams の会議室の要件](requirements.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-110">For more information, see [Microsoft Teams Rooms requirements](requirements.md).</span></span>
+<span data-ttu-id="5ac56-109">Microsoft Teams ミーティングを Microsoft 365 または Office 365 で展開する前に、要件を満たしていることをご確認ください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-109">Before you deploy Microsoft Teams Rooms with Microsoft 365 or Office 365, be sure you have met the requirements.</span></span> <span data-ttu-id="5ac56-110">詳細については、「[Microsoft Teams ミーティングの要件](requirements.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-110">For more information, see [Microsoft Teams Rooms requirements](requirements.md).</span></span>
 
-<span data-ttu-id="c2b18-111">Skype for Business を有効にするには、次のものが必要です。</span><span class="sxs-lookup"><span data-stu-id="c2b18-111">To enable Skype for Business, you must have the following:</span></span>
+<span data-ttu-id="5ac56-111">Skype for Business を有効にするには、次のものが必要です。</span><span class="sxs-lookup"><span data-stu-id="5ac56-111">To enable Skype for Business, you must have the following:</span></span>
 
-- <span data-ttu-id="c2b18-112">Skype for Business Online (プラン2、またはエンタープライズベースのプラン) 以上で、Microsoft 365 または Office 365 プランに含まれています。</span><span class="sxs-lookup"><span data-stu-id="c2b18-112">Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Microsoft 365 or Office 365 plan.</span></span> <span data-ttu-id="c2b18-113">このプランでは、ダイヤルイン会議機能を許可する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c2b18-113">The plan needs to allow dial-in conferencing capabilities.</span></span>
+- <span data-ttu-id="5ac56-112">Microsoft 365 または Office 365 プランに含まれる Skype for Business Online (プラン2、エンタープライズベースのプラン) 以上。</span><span class="sxs-lookup"><span data-stu-id="5ac56-112">Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Microsoft 365 or Office 365 plan.</span></span> <span data-ttu-id="5ac56-113">プランでは、ダイヤルイン会議機能を有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="5ac56-113">The plan needs to allow dial-in conferencing capabilities.</span></span>
 
-- <span data-ttu-id="c2b18-114">会議からダイヤルイン機能が必要な場合は、電話会議と電話システムのライセンスが必要です。</span><span class="sxs-lookup"><span data-stu-id="c2b18-114">If you need dial-in capabilities from a meeting, you will need an Audio Conferencing and Phone System license.</span></span>  <span data-ttu-id="c2b18-115">会議からダイヤルアウト機能が必要な場合は、電話会議ライセンスが必要です。</span><span class="sxs-lookup"><span data-stu-id="c2b18-115">If you need dial-out capabilities from a meeting, you will need an Audio Conferencing license.</span></span>
+- <span data-ttu-id="5ac56-114">会議にダイヤルイン機能が必要な場合は、オーディオ会議および電話システムのライセンスが必要です。</span><span class="sxs-lookup"><span data-stu-id="5ac56-114">If you need dial-in capabilities from a meeting, you will need an Audio Conferencing and Phone System license.</span></span>  <span data-ttu-id="5ac56-115">会議にダイヤルアウト機能が必要な場合は、オーディオ会議のライセンスが必要です。</span><span class="sxs-lookup"><span data-stu-id="5ac56-115">If you need dial-out capabilities from a meeting, you will need an Audio Conferencing license.</span></span>
 
-- <span data-ttu-id="c2b18-116">テナントユーザーは Exchange メールボックスを持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="c2b18-116">Your tenant users must have Exchange mailboxes.</span></span>
+- <span data-ttu-id="5ac56-116">テナント ユーザーには Exchange メールボックスが必要です。</span><span class="sxs-lookup"><span data-stu-id="5ac56-116">Your tenant users must have Exchange mailboxes.</span></span>
 
-- <span data-ttu-id="c2b18-117">Microsoft Teams のルームアカウントには、少なくとも Skype for Business Online (プラン 2) ライセンスが必要ですが、Exchange Online のライセンスは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="c2b18-117">Your Microsoft Teams Rooms account does require at a minimum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license.</span></span> <span data-ttu-id="c2b18-118">詳細については、「 [Microsoft Teams ルームライセンス](rooms-licensing.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-118">See [Microsoft Teams Rooms licenses](rooms-licensing.md) for details.</span></span>
+- <span data-ttu-id="5ac56-117">Microsoft Teams ミーティングのアカウントでは、少なくとも Skype for Business Online (プラン 2) のライセンスが必要ですが、Exchange Online のライセンスは必要ありません。</span><span class="sxs-lookup"><span data-stu-id="5ac56-117">Your Microsoft Teams Rooms account does require at a minimum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license.</span></span> <span data-ttu-id="5ac56-118">詳細については、「[Microsoft Teams ミーティング ライセンス](rooms-licensing.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-118">See [Microsoft Teams Rooms licenses](rooms-licensing.md) for details.</span></span>
 
-<span data-ttu-id="c2b18-119">Skype for Business Online プランの詳細については、「 [skype For Business Online サービスの説明](https://technet.microsoft.com/library/jj822172.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-119">For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).</span></span>
+<span data-ttu-id="5ac56-119">Skype for Business Online プランの詳細については、「[Skype for Business Online サービスの説明](https://technet.microsoft.com/library/jj822172.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-119">For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).</span></span>
 
-### <a name="add-a-device-account"></a><span data-ttu-id="c2b18-120">デバイス アカウントを追加する</span><span class="sxs-lookup"><span data-stu-id="c2b18-120">Add a device account</span></span>
+### <a name="add-a-device-account"></a><span data-ttu-id="5ac56-120">デバイス アカウントを追加する</span><span class="sxs-lookup"><span data-stu-id="5ac56-120">Add a device account</span></span>
 
-1. <span data-ttu-id="c2b18-121">Exchange Online PowerShell に接続します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-121">Connect to Exchange Online PowerShell.</span></span> <span data-ttu-id="c2b18-122">手順については、「 [Exchange Online PowerShell に接続する](https://go.microsoft.com/fwlink/p/?linkid=396554)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-122">For instructions, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).</span></span>
+1. <span data-ttu-id="5ac56-121">Exchange Online PowerShell に接続します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-121">Connect to Exchange Online PowerShell.</span></span> <span data-ttu-id="5ac56-122">手順については、「[Exchange Online PowerShell に接続する](https://go.microsoft.com/fwlink/p/?linkid=396554)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-122">For instructions, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).</span></span>
 
-2. <span data-ttu-id="c2b18-123">Exchange Online PowerShell で、新しい会議室のメールボックスを作成するか、既存の会議のメールボックスを変更します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-123">In Exchange Online PowerShell, create a new room mailbox or modify an existing room mailbox.</span></span> <span data-ttu-id="c2b18-124">既定では、会議室メールボックスにはアカウントが関連付けられていないため、Skype Room Systems v2 での認証を許可する会議室メールボックスを作成または変更する場合は、アカウントを追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c2b18-124">By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create or modify a room mailbox that allows it to authenticate with Skype Room Systems v2.</span></span>
+2. <span data-ttu-id="5ac56-123">Exchange Online PowerShell で、新しい会議室メールボックスを作成するか、既存の会議室メールボックスを変更します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-123">In Exchange Online PowerShell, create a new room mailbox or modify an existing room mailbox.</span></span> <span data-ttu-id="5ac56-124">既定では、会議室メールボックスには関連付けられたアカウントが含まれていないため、会議室メールボックスを作成または変更するときにアカウントを追加する必要があります。これにより、Skype ミーティング システム v2 で認証を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="5ac56-124">By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create or modify a room mailbox that allows it to authenticate with Skype Room Systems v2.</span></span>
 
-   - <span data-ttu-id="c2b18-125">新しい会議室のメールボックスを作成するには、次の構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-125">To create a new room mailbox, use the following syntax:</span></span>
+   - <span data-ttu-id="5ac56-125">新しい会議室メールボックスを作成するには、次の構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-125">To create a new room mailbox, use the following syntax:</span></span>
 
      ``` PowerShell
      New-Mailbox -Name "<Unique Name>" -Alias <Alias> -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID <Account> -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     <span data-ttu-id="c2b18-126">この例では、次の設定で新しい会議室のメールボックスを作成します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-126">This example creates a new room mailbox with the following settings:</span></span>
+     <span data-ttu-id="5ac56-126">この例では、次の設定で新しい会議室メールボックスを作成します:</span><span class="sxs-lookup"><span data-stu-id="5ac56-126">This example creates a new room mailbox with the following settings:</span></span>
 
-     - <span data-ttu-id="c2b18-127">名前: Rigel-01</span><span class="sxs-lookup"><span data-stu-id="c2b18-127">Name: Rigel-01</span></span>
+     - <span data-ttu-id="5ac56-127">名前: Rigel-01</span><span class="sxs-lookup"><span data-stu-id="5ac56-127">Name: Rigel-01</span></span>
 
-     - <span data-ttu-id="c2b18-128">エイリアス: Rigel1</span><span class="sxs-lookup"><span data-stu-id="c2b18-128">Alias: Rigel1</span></span>
+     - <span data-ttu-id="5ac56-128">エイリアス: Rigel1</span><span class="sxs-lookup"><span data-stu-id="5ac56-128">Alias: Rigel1</span></span>
 
-     - <span data-ttu-id="c2b18-129">アカウント: Rigel1@contoso.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="c2b18-129">Account: Rigel1@contoso.onmicrosoft.com</span></span>
+     - <span data-ttu-id="5ac56-129">アカウント: Rigel1@contoso.onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="5ac56-129">Account: Rigel1@contoso.onmicrosoft.com</span></span>
 
-     - <span data-ttu-id="c2b18-130">アカウントパスワード: P@ $ $W 0rd5959</span><span class="sxs-lookup"><span data-stu-id="c2b18-130">Account password: P@$$W0rd5959</span></span>
+     - <span data-ttu-id="5ac56-130">アカウントのパスワード: P@ $ $W 0rd5959</span><span class="sxs-lookup"><span data-stu-id="5ac56-130">Account password: P@$$W0rd5959</span></span>
 
      ``` PowerShell
      New-Mailbox -Name "Rigel-01" -Alias Rigel1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
-   - <span data-ttu-id="c2b18-131">既存の会議のメールボックスを変更するには、次の構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-131">To modify an existing room mailbox, use the following syntax:</span></span>
+   - <span data-ttu-id="5ac56-131">既存の会議室メールボックスを変更するには、次の構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-131">To modify an existing room mailbox, use the following syntax:</span></span>
 
      ``` PowerShell
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     <span data-ttu-id="c2b18-132">次の例では、エイリアス値 Rigel2 を持つ既存のルームメールボックスのアカウントを有効にし、パスワードを 9898P@ $ $W 0rd に設定します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-132">This example enables the account for the existing room mailbox that has the alias value Rigel2, and sets the password to 9898P@$$W0rd.</span></span> <span data-ttu-id="c2b18-133">既存のエイリアス値が原因で、アカウントが Rigel2@contoso.onmicrosoft.com されることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-133">Note that the account will be Rigel2@contoso.onmicrosoft.com because of the existing alias value.</span></span>
+     <span data-ttu-id="5ac56-132">この例では、エイリアス値が Rigel2 である既存の会議室メールボックスのアカウントを有効にし、パスワードを 9898P@ $ $W 0rd に設定します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-132">This example enables the account for the existing room mailbox that has the alias value Rigel2, and sets the password to 9898P@$$W0rd.</span></span> <span data-ttu-id="5ac56-133">既存のエイリアス値により、アカウントが Rigel2@contoso.onmicrosoft.com であることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-133">Note that the account will be Rigel2@contoso.onmicrosoft.com because of the existing alias value.</span></span>
 
      ``` PowerShell
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   <span data-ttu-id="c2b18-134">構文とパラメーターの詳細については、「[新しいメールボックス](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox)と[設定-](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)メールボックス」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-134">For detailed syntax and parameter information, see [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).</span></span>
+   <span data-ttu-id="5ac56-134">構文とパラメーターの詳細については、「[New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox)」と「[Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-134">For detailed syntax and parameter information, see [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).</span></span>
 
 
-3. <span data-ttu-id="c2b18-135">Exchange Online PowerShell で、会議の操作性を向上させるために、会議室メールボックスで次の設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-135">In Exchange Online PowerShell, configure the following settings on the room mailbox to improve the meeting experience:</span></span>
+3. <span data-ttu-id="5ac56-135">Exchange Online PowerShell で、会議の操作性を向上させるために、次のように会議室メールボックスの設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-135">In Exchange Online PowerShell, configure the following settings on the room mailbox to improve the meeting experience:</span></span>
 
-   - <span data-ttu-id="c2b18-136">自動的な処理: 自動承諾 (会議の開催者は、手動での介入なく、会議の開催者が会議室の予約を直接受け取ります: 無料 = accept; busy = 拒否。)</span><span class="sxs-lookup"><span data-stu-id="c2b18-136">AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)</span></span>
+   - <span data-ttu-id="5ac56-136">AutomateProcessing: AutoAccept (会議の開催者は、人手を介さずに直接会議室の予約の決定を受け取ります: 利用可 = 承諾; 利用不可 = 辞退。)</span><span class="sxs-lookup"><span data-stu-id="5ac56-136">AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)</span></span>
 
-   - <span data-ttu-id="c2b18-137">Addオーガナイザー Ertosubject: $false (会議の開催者は、会議出席依頼の件名に追加されません)。</span><span class="sxs-lookup"><span data-stu-id="c2b18-137">AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)</span></span>
+   - <span data-ttu-id="5ac56-137">AddOrganizerToSubject: $false (会議の開催者は、会議出席依頼の件名に追加されません。)</span><span class="sxs-lookup"><span data-stu-id="5ac56-137">AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)</span></span>
 
-   - <span data-ttu-id="c2b18-138">DeleteComments: $false (入力した会議出席依頼のメッセージ本文に含まれるテキストを保持)</span><span class="sxs-lookup"><span data-stu-id="c2b18-138">DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)</span></span>
+   - <span data-ttu-id="5ac56-138">DeleteComments: $false (受信した会議出席依頼のメッセージ本文内のテキストを保持します。)</span><span class="sxs-lookup"><span data-stu-id="5ac56-138">DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)</span></span>
 
-   - <span data-ttu-id="c2b18-139">DeleteSubject: $false (入力した会議出席依頼の件名を保持)</span><span class="sxs-lookup"><span data-stu-id="c2b18-139">DeleteSubject: $false (Keep the subject of incoming meeting requests.)</span></span>
+   - <span data-ttu-id="5ac56-139">DeleteSubject: $false (受信した会議出席依頼の件名を保持します。)</span><span class="sxs-lookup"><span data-stu-id="5ac56-139">DeleteSubject: $false (Keep the subject of incoming meeting requests.)</span></span>
 
-   - <span data-ttu-id="c2b18-140">RemovePrivateProperty: $false (元の会議出席依頼の開催者によって送信されたプライベートフラグが指定されたままになります)。</span><span class="sxs-lookup"><span data-stu-id="c2b18-140">RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)</span></span>
+   - <span data-ttu-id="5ac56-140">RemovePrivateProperty: $false (開催者が送信した元の会議出席依頼のプライベート フラグを指定された値のままにしておきます。)</span><span class="sxs-lookup"><span data-stu-id="5ac56-140">RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)</span></span>
 
-   - <span data-ttu-id="c2b18-141">AddAdditionalResponse: $true (AdditionalResponse パラメーターで指定されたテキストが会議出席依頼に追加されます)</span><span class="sxs-lookup"><span data-stu-id="c2b18-141">AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)</span></span>
+   - <span data-ttu-id="5ac56-141">AddAdditionalResponse: $true (AdditionalResponse パラメーターで指定されたテキストが会議出席依頼に追加されます。)</span><span class="sxs-lookup"><span data-stu-id="5ac56-141">AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)</span></span>
 
-   - <span data-ttu-id="c2b18-142">AdditionalResponse: "これは Skype 会議室です。"</span><span class="sxs-lookup"><span data-stu-id="c2b18-142">AdditionalResponse: "This is a Skype Meeting room!"</span></span> <span data-ttu-id="c2b18-143">(会議出席依頼に追加する追加のテキスト)</span><span class="sxs-lookup"><span data-stu-id="c2b18-143">(The additional text to add to the meeting request.)</span></span>
+   - <span data-ttu-id="5ac56-142">AdditionalResponse: "これは Skype 会議室です。"</span><span class="sxs-lookup"><span data-stu-id="5ac56-142">AdditionalResponse: "This is a Skype Meeting room!"</span></span> <span data-ttu-id="5ac56-143">(会議出席依頼に追加するテキスト)。</span><span class="sxs-lookup"><span data-stu-id="5ac56-143">(The additional text to add to the meeting request.)</span></span>
 
-   <span data-ttu-id="c2b18-144">この例では、Rigel-01 という名前の会議室メールボックスでこれらの設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-144">This example configures these settings on the room mailbox named Rigel-01.</span></span>
+   <span data-ttu-id="5ac56-144">この例では、Rigel-01 という名前の会議室メールボックスでこれらの設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-144">This example configures these settings on the room mailbox named Rigel-01.</span></span>
 
    ``` PowerShell
    Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   <span data-ttu-id="c2b18-145">構文とパラメーターの詳細については、「 [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-145">For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).</span></span>
+   <span data-ttu-id="5ac56-145">構文とパラメーターの詳細については、「[Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-145">For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).</span></span>
 
-4. <span data-ttu-id="c2b18-146">MS Online PowerShell に接続して、powershell コマンドレットを実行して Active Directory の設定を行い `Connect-MsolService -Credential $cred` ます。</span><span class="sxs-lookup"><span data-stu-id="c2b18-146">Connect to MS Online PowerShell to make Active Directory settings by running the `Connect-MsolService -Credential $cred` powershell cmdlet.</span></span>   <span data-ttu-id="c2b18-147">Active Directory の詳細については、「 [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-147">For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).</span></span> 
+4. <span data-ttu-id="5ac56-146">Powershell コマンドレット `Connect-MsolService -Credential $cred` を実行して、MS Online PowerShell に接続し、Active Directory の設定を行います。</span><span class="sxs-lookup"><span data-stu-id="5ac56-146">Connect to MS Online PowerShell to make Active Directory settings by running the `Connect-MsolService -Credential $cred` powershell cmdlet.</span></span>   <span data-ttu-id="5ac56-147">Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-147">For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).</span></span> 
 
    > [!NOTE]
-   > <span data-ttu-id="c2b18-148">[Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="c2b18-148">[Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.</span></span> 
+   > <span data-ttu-id="5ac56-148">[Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="5ac56-148">[Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.</span></span> 
 
-5. <span data-ttu-id="c2b18-149">パスワードを無期限にする場合は、次の構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-149">If you do not want the password to expire, use the following syntax:</span></span>
+5. <span data-ttu-id="5ac56-149">パスワードの有効期限が切れないようにするには、次の構文を使用します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-149">If you do not want the password to expire, use the following syntax:</span></span>
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
@@ -124,7 +124,7 @@ ms.locfileid: "44756798"
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   <span data-ttu-id="c2b18-150">次の例では、アカウント Rigel1@contoso.onmicrosoft.com のパスワードを無期限に設定します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-150">This example sets the password for the account Rigel1@contoso.onmicrosoft.com to never expire.</span></span>
+   <span data-ttu-id="5ac56-150">この例では、アカウント Rigel1@contoso.onmicrosoft.com のパスワードを無期限に設定します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-150">This example sets the password for the account Rigel1@contoso.onmicrosoft.com to never expire.</span></span>
 
    ```PowerShell
    $acctUpn="Rigel1@contoso.onmicrosoft.com"
@@ -135,7 +135,7 @@ ms.locfileid: "44756798"
    Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
-   <span data-ttu-id="c2b18-151">次のコマンドを実行して、アカウントの電話番号を設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="c2b18-151">You can also set a phone number for the account by running the following command:</span></span>
+   <span data-ttu-id="5ac56-151">次のコマンドを実行して、アカウントの電話番号を設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="5ac56-151">You can also set a phone number for the account by running the following command:</span></span>
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
@@ -145,7 +145,7 @@ ms.locfileid: "44756798"
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. <span data-ttu-id="c2b18-152">デバイスアカウントには、有効な Microsoft 365 または Office 365 のライセンスが必要です。または、Exchange および Microsoft Teams または Skype for Business が動作しません。</span><span class="sxs-lookup"><span data-stu-id="c2b18-152">The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work.</span></span> <span data-ttu-id="c2b18-153">ライセンスを所有している場合は、使用場所をデバイスアカウントに割り当てる必要があります。これにより、アカウントで利用できるライセンス Sku が決定されます。</span><span class="sxs-lookup"><span data-stu-id="c2b18-153">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="c2b18-154">使用できる方法`Get-MsolAccountSku`</span><span class="sxs-lookup"><span data-stu-id="c2b18-154">You can use `Get-MsolAccountSku`</span></span> <!-- Get-AzureADSubscribedSku --> <span data-ttu-id="c2b18-155">Microsoft 365 または Office 365 組織で利用可能な Sku の一覧を取得するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-155">to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization as follows:</span></span>
+6. <span data-ttu-id="5ac56-152">デバイス アカウントには、有効な Microsoft 365 または Office 365 ライセンスが必要です。ライセンスがない場合は Exchange と Microsoft Teams または Skype for Business が動作しません。</span><span class="sxs-lookup"><span data-stu-id="5ac56-152">The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams or Skype for Business will not work.</span></span> <span data-ttu-id="5ac56-153">ライセンスを所有している場合は、使用場所をデバイス アカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。</span><span class="sxs-lookup"><span data-stu-id="5ac56-153">If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.</span></span> <span data-ttu-id="5ac56-154">`Get-MsolAccountSku` を使用して、</span><span class="sxs-lookup"><span data-stu-id="5ac56-154">You can use `Get-MsolAccountSku`</span></span> <!-- Get-AzureADSubscribedSku --> <span data-ttu-id="5ac56-155">次のように、Microsoft 365 または Office 365 組織で使用できる SKU の一覧を取得できます。</span><span class="sxs-lookup"><span data-stu-id="5ac56-155">to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization as follows:</span></span>
 
    ```Powershell
    Get-MsolAccountSku
@@ -155,7 +155,7 @@ ms.locfileid: "44756798"
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   <span data-ttu-id="c2b18-156">次に、次の方法を使用してライセンスを追加することができます。`Set-MsolUserLicense`</span><span class="sxs-lookup"><span data-stu-id="c2b18-156">Next, you can add a license using the `Set-MsolUserLicense`</span></span> <!--Set-AzureADUserLicense --> <span data-ttu-id="c2b18-157">コマンドレット.</span><span class="sxs-lookup"><span data-stu-id="c2b18-157">cmdlet.</span></span> <span data-ttu-id="c2b18-158">この場合、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。</span><span class="sxs-lookup"><span data-stu-id="c2b18-158">In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
+   <span data-ttu-id="5ac56-156">次に、`Set-MsolUserLicense` コマンドレットを使用してライセンスを追加 </span><span class="sxs-lookup"><span data-stu-id="5ac56-156">Next, you can add a license using the `Set-MsolUserLicense`</span></span> <!--Set-AzureADUserLicense --> <span data-ttu-id="5ac56-157">することができます。</span><span class="sxs-lookup"><span data-stu-id="5ac56-157">cmdlet.</span></span> <span data-ttu-id="5ac56-158">この例では、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。</span><span class="sxs-lookup"><span data-stu-id="5ac56-158">In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).</span></span>
 
    ```PowerShell
    $acctUpn="Rigel1@contoso.onmicrosoft.com"
@@ -170,11 +170,11 @@ ms.locfileid: "44756798"
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```   -->
 
-   <span data-ttu-id="c2b18-159">詳細な手順については、「 [Office 365 PowerShell を使用してライセンスをユーザーアカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-159">For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
+   <span data-ttu-id="5ac56-159">詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-159">For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).</span></span>
 
-7. <span data-ttu-id="c2b18-160">次に、Skype for Business でデバイスアカウントを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="c2b18-160">Next, you need to enable the device account with Skype for Business.</span></span> <span data-ttu-id="c2b18-161">環境が、 [Microsoft Teams の会議室の要件](requirements.md)で定義されている要件を満たしていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-161">Be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).</span></span>
+7. <span data-ttu-id="5ac56-160">次に、Skype for Business でデバイス アカウントを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="5ac56-160">Next, you need to enable the device account with Skype for Business.</span></span> <span data-ttu-id="5ac56-161">お使いの環境が「[Microsoft Teams ミーティングの要件](requirements.md)」で定義されている要件を満たしていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-161">Be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](requirements.md).</span></span>
 
-   <span data-ttu-id="c2b18-162">次の手順でリモート[Windows PowerShell セッション](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を開始します ( [Skype For business Online PowerShell コンポーネントをインストール](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)してください)。</span><span class="sxs-lookup"><span data-stu-id="c2b18-162">Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):</span></span>
+   <span data-ttu-id="5ac56-162">次のようにしてリモート [Windows PowerShell セッション](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を開始します (必ず[Skype for Business Online の PowerShell コンポーネントのインストール](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)を行ってください)。</span><span class="sxs-lookup"><span data-stu-id="5ac56-162">Start a remote [Windows PowerShell session](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) as follows (be sure to [install Skype for Business Online PowerShell components](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):</span></span>
 
    ``` Powershell
    Import-Module SkypeOnlineConnector  
@@ -182,14 +182,14 @@ ms.locfileid: "44756798"
    Import-PSSession $cssess -AllowClobber
    ```
 
-   <span data-ttu-id="c2b18-163">次のコマンドレットを実行して、Skype for Business Server 用の Microsoft Teams ルームアカウントを有効にします。</span><span class="sxs-lookup"><span data-stu-id="c2b18-163">Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:</span></span>
+   <span data-ttu-id="5ac56-163">Skype for Business Server に対して Microsoft Teams ミーティングのアカウントを有効にするには、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-163">Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:</span></span>
 
    ``` Powershell
    $rm="Rigel1@contoso.onmicrosoft.com"
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   <span data-ttu-id="c2b18-164">次の例に示すように、セットアップ中の新しいユーザーアカウントから RegistrarPool 情報を取得します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-164">Obtain the RegistrarPool information from the new user account being setup, as shown in this example:</span></span>
+   <span data-ttu-id="5ac56-164">次の例のように、セットアップ中の新しいユーザー アカウントの RegistrarPool 情報を取得します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-164">Obtain the RegistrarPool information from the new user account being setup, as shown in this example:</span></span>
 
     ``` Powershell
     $rm="Rigel1@contoso.onmicrosoft.com"
@@ -197,25 +197,25 @@ ms.locfileid: "44756798"
     ```
 
     > [!NOTE]
-    > <span data-ttu-id="c2b18-165">新しいユーザーアカウントが、テナント内の既存のユーザーアカウントと同じレジストラープールに作成されていない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="c2b18-165">New user accounts might not be created on the same registrar pool as existing user accounts in the tenant.</span></span> <span data-ttu-id="c2b18-166">上のコマンドを実行すると、アカウント設定のエラーがこの状況で発生することはありません。</span><span class="sxs-lookup"><span data-stu-id="c2b18-166">The command above will prevent errors in account setup due to this situation.</span></span>
+    > <span data-ttu-id="5ac56-165">テナントの既存のユーザー アカウントと同じレジストラー プールには、新しいユーザー アカウントを作成できない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="5ac56-165">New user accounts might not be created on the same registrar pool as existing user accounts in the tenant.</span></span> <span data-ttu-id="5ac56-166">上記のコマンドを実行すると、このような状況でもアカウント設定のエラーは発生しません。</span><span class="sxs-lookup"><span data-stu-id="5ac56-166">The command above will prevent errors in account setup due to this situation.</span></span>
 
-### <a name="assign-a-license-to-your-account"></a><span data-ttu-id="c2b18-167">ライセンスをアカウントに割り当てる</span><span class="sxs-lookup"><span data-stu-id="c2b18-167">Assign a license to your account</span></span>
+### <a name="assign-a-license-to-your-account"></a><span data-ttu-id="5ac56-167">アカウントにライセンスを割り当てる</span><span class="sxs-lookup"><span data-stu-id="5ac56-167">Assign a license to your account</span></span>
 
-1. <span data-ttu-id="c2b18-168">テナント管理者としてログインし、Microsoft 365 管理センターを開き、[管理者] アプリをクリックします。</span><span class="sxs-lookup"><span data-stu-id="c2b18-168">Login as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.</span></span>
+1. <span data-ttu-id="5ac56-168">テナント管理者としてログインし、Microsoft 365 管理センターを開き、Admin アプリをクリックします。</span><span class="sxs-lookup"><span data-stu-id="5ac56-168">Login as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.</span></span>
 
-2. <span data-ttu-id="c2b18-169">[**ユーザーとグループ**] をクリックしてから [**ユーザーの追加、パスワードのリセットなど**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c2b18-169">Click **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
+2. <span data-ttu-id="5ac56-169">[**ユーザーとグループ**] をクリックし、[**ユーザーの追加、パスワードのリセットなど**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5ac56-169">Click **Users and Groups** and then click **Add users, reset passwords, and more**.</span></span>
 
-3. <span data-ttu-id="c2b18-170">Microsoft Teams のルームアカウントを選択し、ペンアイコンをクリックまたはタップします。これは編集を意味します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-170">Select the Microsoft Teams Rooms account, and then click or tap the pen icon, which means edit.</span></span>
+3. <span data-ttu-id="5ac56-170">Microsoft Teams ミーティング アカウントを選択してから、編集を意味するペン アイコンをクリックまたはタップします。</span><span class="sxs-lookup"><span data-stu-id="5ac56-170">Select the Microsoft Teams Rooms account, and then click or tap the pen icon, which means edit.</span></span>
 
-4. <span data-ttu-id="c2b18-171">[**ライセンス**] オプションをクリックします。</span><span class="sxs-lookup"><span data-stu-id="c2b18-171">Click on the **Licenses** option.</span></span>
+4. <span data-ttu-id="5ac56-171">[**ライセンス**] オプションをクリックします。</span><span class="sxs-lookup"><span data-stu-id="5ac56-171">Click on the **Licenses** option.</span></span>
 
-5. <span data-ttu-id="c2b18-172">[**ライセンスの割り当て**] セクションで、ライセンスに応じて Skype For business Online (プラン 2) または Skype For business Online (プラン 3) を選択する必要があります。これは、使用しているライセンスと、エンタープライズボイスの必要条件によって決定された内容によって異なります。</span><span class="sxs-lookup"><span data-stu-id="c2b18-172">In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice.</span></span> <span data-ttu-id="c2b18-173">Microsoft Teams のルームでクラウド PBX を使用する場合は、プラン3ライセンスを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c2b18-173">You'll have to use a Plan 3 license if you want to use Cloud PBX on Microsoft Teams Rooms.</span></span> <span data-ttu-id="c2b18-174">最低でも、音声接続用に CloudPBX が必要です。</span><span class="sxs-lookup"><span data-stu-id="c2b18-174">Minimally you will need CloudPBX for voice connectivity.</span></span> <span data-ttu-id="c2b18-175">次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。</span><span class="sxs-lookup"><span data-stu-id="c2b18-175">Then configure hybrid voice or PSTN calling based on the PSTN connectivity method.</span></span> <span data-ttu-id="c2b18-176">詳細については、「 [Microsoft Teams ルームライセンス](rooms-licensing.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c2b18-176">See [Microsoft Teams Rooms licenses](rooms-licensing.md) for more details.</span></span>
+5. <span data-ttu-id="5ac56-172">[**ライセンスの割り当て**] セクションで、使用するライセンスと、エンタープライズ VoIP の必要性に関する決定に応じて、Skype for Business Online (プラン 2) または Skype for Business Online (プラン 3) を選択する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5ac56-172">In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice.</span></span> <span data-ttu-id="5ac56-173">Microsoft Teams ミーティングでクラウド PBX を使用する場合は、プラン 3 ライセンスを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5ac56-173">You'll have to use a Plan 3 license if you want to use Cloud PBX on Microsoft Teams Rooms.</span></span> <span data-ttu-id="5ac56-174">最低でも、音声接続用に CloudPBX が必要です。</span><span class="sxs-lookup"><span data-stu-id="5ac56-174">Minimally you will need CloudPBX for voice connectivity.</span></span> <span data-ttu-id="5ac56-175">次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-175">Then configure hybrid voice or PSTN calling based on the PSTN connectivity method.</span></span> <span data-ttu-id="5ac56-176">詳細については、「[Microsoft Teams ミーティング ライセンス](rooms-licensing.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5ac56-176">See [Microsoft Teams Rooms licenses](rooms-licensing.md) for more details.</span></span>
 
-6. <span data-ttu-id="c2b18-177">タスクを完了するには、**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c2b18-177">Click **Save** to complete the task.</span></span>
+6. <span data-ttu-id="5ac56-177">[**保存**] をクリックしてタスクを完了します。</span><span class="sxs-lookup"><span data-stu-id="5ac56-177">Click **Save** to complete the task.</span></span>
 
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="c2b18-178">サンプル: Exchange Online と Skype for Business Online での会議室アカウントのセットアップ</span><span class="sxs-lookup"><span data-stu-id="c2b18-178">Sample: Room account setup in Exchange Online and Skype for Business Online</span></span>
+## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a><span data-ttu-id="5ac56-178">サンプル: Exchange Online および Skype for Business Online における ミーティング アカウントのセットアップ</span><span class="sxs-lookup"><span data-stu-id="5ac56-178">Sample: Room account setup in Exchange Online and Skype for Business Online</span></span>
 
-<span data-ttu-id="c2b18-179">Exchange Online PowerShell コマンド:</span><span class="sxs-lookup"><span data-stu-id="c2b18-179">Exchange Online PowerShell commands:</span></span>
+<span data-ttu-id="5ac56-179">Exchange Online PowerShell コマンド:</span><span class="sxs-lookup"><span data-stu-id="5ac56-179">Exchange Online PowerShell commands:</span></span>
 
 ``` Powershell
 New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
@@ -224,7 +224,7 @@ Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrgan
 -AdditionalResponse "This is a Rigel room!"
 ```
 
-<span data-ttu-id="c2b18-180">Azure Active Directory PowerShell コマンド:</span><span class="sxs-lookup"><span data-stu-id="c2b18-180">Azure Active Directory PowerShell commands:</span></span>
+<span data-ttu-id="5ac56-180">Azure Active Directory PowerShell コマンド:</span><span class="sxs-lookup"><span data-stu-id="5ac56-180">Azure Active Directory PowerShell commands:</span></span>
 
 ``` PowerShell
 Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
@@ -241,7 +241,7 @@ Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLic
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```  -->
 
-<span data-ttu-id="c2b18-181">Skype for Business PowerShell コマンド:</span><span class="sxs-lookup"><span data-stu-id="c2b18-181">Skype for Business PowerShell command:</span></span>
+<span data-ttu-id="5ac56-181">Skype for Business PowerShell コマンド:</span><span class="sxs-lookup"><span data-stu-id="5ac56-181">Skype for Business PowerShell command:</span></span>
 
 ``` PowerShell
 Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
@@ -249,22 +249,22 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 ```
 
 > [!NOTE]
-> <span data-ttu-id="c2b18-182">この操作によって、CloudPBX および PSTNCallingDomesticAndInternational が追加されます。</span><span class="sxs-lookup"><span data-stu-id="c2b18-182">This adds CloudPBX and PSTNCallingDomesticAndInternational.</span></span> <span data-ttu-id="c2b18-183">さらに、管理インタフェースを使用して電話番号を割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="c2b18-183">Additionally, you will need to use the Admin interface to assign a phone number.</span></span>
+> <span data-ttu-id="5ac56-182">これで CloudPBX と PSTNCallingDomesticAndInternational が追加されます。</span><span class="sxs-lookup"><span data-stu-id="5ac56-182">This adds CloudPBX and PSTNCallingDomesticAndInternational.</span></span> <span data-ttu-id="5ac56-183">さらに、管理者インターフェイスを使用して、電話番号を割り当てる必要があります。</span><span class="sxs-lookup"><span data-stu-id="5ac56-183">Additionally, you will need to use the Admin interface to assign a phone number.</span></span>
 
-## <a name="validate"></a><span data-ttu-id="c2b18-184">有効性</span><span class="sxs-lookup"><span data-stu-id="c2b18-184">Validate</span></span>
+## <a name="validate"></a><span data-ttu-id="5ac56-184">検証</span><span class="sxs-lookup"><span data-stu-id="5ac56-184">Validate</span></span>
 
-<span data-ttu-id="c2b18-185">検証のために、Skype for Business クライアントを使って、作成したアカウントにサインインできるようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="c2b18-185">For validation, you should be able to use any Skype for Business client to sign in to the account you created.</span></span>
+<span data-ttu-id="5ac56-185">検証を行う場合は、通常、どの Skype for Business クライアントを使用しても作成したアカウントにログインできます。</span><span class="sxs-lookup"><span data-stu-id="5ac56-185">For validation, you should be able to use any Skype for Business client to sign in to the account you created.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c2b18-186">関連項目</span><span class="sxs-lookup"><span data-stu-id="c2b18-186">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5ac56-186">関連項目</span><span class="sxs-lookup"><span data-stu-id="5ac56-186">See also</span></span>
 
-[<span data-ttu-id="c2b18-187">Microsoft Teams ミーティングのアカウントを構成する</span><span class="sxs-lookup"><span data-stu-id="c2b18-187">Configure accounts for Microsoft Teams Rooms</span></span>](rooms-configure-accounts.md)
+[<span data-ttu-id="5ac56-187">Microsoft Teams ミーティングのアカウントを構成する</span><span class="sxs-lookup"><span data-stu-id="5ac56-187">Configure accounts for Microsoft Teams Rooms</span></span>](rooms-configure-accounts.md)
 
-[<span data-ttu-id="c2b18-188">Microsoft Teams ミーティングを計画する</span><span class="sxs-lookup"><span data-stu-id="c2b18-188">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
+[<span data-ttu-id="5ac56-188">Microsoft Teams Rooms を計画する</span><span class="sxs-lookup"><span data-stu-id="5ac56-188">Plan for Microsoft Teams Rooms</span></span>](rooms-plan.md)
 
-[<span data-ttu-id="c2b18-189">デプロイの概要</span><span class="sxs-lookup"><span data-stu-id="c2b18-189">Deploy Microsoft Teams Rooms</span></span>](rooms-deploy.md)
+[<span data-ttu-id="5ac56-189">Microsoft Teams Rooms をデプロイする</span><span class="sxs-lookup"><span data-stu-id="5ac56-189">Deploy Microsoft Teams Rooms</span></span>](rooms-deploy.md)
 
-[<span data-ttu-id="c2b18-190">Microsoft Teams ミーティング コンソールを構成する</span><span class="sxs-lookup"><span data-stu-id="c2b18-190">Configure a Microsoft Teams Rooms console</span></span>](console.md)
+[<span data-ttu-id="5ac56-190">Microsoft Teams Rooms コンソールを構成する</span><span class="sxs-lookup"><span data-stu-id="5ac56-190">Configure a Microsoft Teams Rooms console</span></span>](console.md)
 
-[<span data-ttu-id="c2b18-191">Microsoft Teams ミーティングの管理</span><span class="sxs-lookup"><span data-stu-id="c2b18-191">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
+[<span data-ttu-id="5ac56-191">Microsoft Teams Rooms の管理</span><span class="sxs-lookup"><span data-stu-id="5ac56-191">Manage Microsoft Teams Rooms</span></span>](rooms-manage.md)
 
-[<span data-ttu-id="c2b18-192">Microsoft Teams 会議室のライセンス</span><span class="sxs-lookup"><span data-stu-id="c2b18-192">Microsoft Teams Rooms Licensing</span></span>](rooms-licensing.md)
+[<span data-ttu-id="5ac56-192">Microsoft Teams ミーティング ライセンス</span><span class="sxs-lookup"><span data-stu-id="5ac56-192">Microsoft Teams Rooms Licensing</span></span>](rooms-licensing.md)
