@@ -24,7 +24,7 @@ ms.locfileid: "46803919"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams Rooms では、会議室のサイズと用途に応じたさまざまな認定オーディオ/ビデオ周辺機器を使用して、会議室のサイズを調整します。 コアとなる適切なデバイスとコンソールを選択し、スペースに適したマイク、スピーカー、カメラ、ディスプレイを組み合わせることで、ごく小さな打ち合わせスペースから大規模な会議場や役員室まで、あらゆるサイズのスペースで Microsoft Teams Rooms を活用できます。  Microsoft Teams ミーティングを構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams Rooms では、会議室のサイズと用途に応じたさまざまな認定オーディオ/ビデオ周辺機器を使用して、会議室のサイズを調整します。 コアとなる適切なデバイスとコンソールを選択し、スペースに適したマイク、スピーカー、カメラ、ディスプレイを組み合わせることで、ごく小さな打ち合わせスペースから大規模な会議場や役員室まで、あらゆるサイズのスペースで Microsoft Teams Rooms を活用できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
 この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
@@ -43,11 +43,11 @@ Microsoft Teams Rooms では、会議室のサイズと用途に応じたさま�
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
 ## <a name="hardware-requirements"></a>ハードウェアの要件
-ハードウェアを展開するには、Microsoft Teams ミーティング システムを選択し、認定オーディオ/ビデオ周辺機器およびこれらのデバイスを統合するためのケーブル接続ソリューションを組み合わせる必要があります。  ここでは、これらのオプションについて説明します。
+ハードウェアを展開するには、Microsoft Teams Room システムを選択し、認定オーディオ/ビデオ周辺機器およびこれらのデバイスを統合するためのケーブル接続ソリューションを組み合わせる必要があります。  ここでは、これらのオプションについて説明します。
 
-**サポートされている Microsoft Teams ミーティング システム**
+**サポートされている Microsoft Teams Room システム**
 
-現在サポートされているすべての Microsoft Teams ミーティング デバイスとバンドルは、[ミーティング システムの製品ショーケース](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)に用意されています。
+現在サポートされているすべての Microsoft Teams Room デバイスとバンドルは、[ミーティング システムの製品ショーケース](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)に用意されています。
 
   |コンソール|プロセッサ|RAM|ディスク|
   |:-----|:-----|:-----|:-----|

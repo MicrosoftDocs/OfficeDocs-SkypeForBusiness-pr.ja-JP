@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
-description: Microsoft Teams ミーティングのコンテンツ カメラを使用すると、画像処理ソフトウェアと連携して、発表者がアナログ ホワイトボードに描画することができます。
+description: Microsoft Teams Room のコンテンツ カメラを使用すると、画像処理ソフトウェアと連携して、発表者がアナログ ホワイトボードに描画することができます。
 ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: HT
@@ -23,7 +23,7 @@ ms.locfileid: "44756898"
 ---
 # <a name="content-cameras"></a>コンテンツ カメラ
 
-Microsoft Teams ミーティング システムでコンテンツ カメラを使用できるようになりました。 コンテンツ カメラは、特殊な画像処理ソフトウェアやホワイトボードと連携して、発表者がアナログ ホワイトボードに描画し、リモート参加者とそのコンテンツを共有できるようにします。
+Microsoft Teams Room システムでコンテンツ カメラを使用できるようになりました。 コンテンツ カメラは、特殊な画像処理ソフトウェアやホワイトボードと連携して、発表者がアナログ ホワイトボードに描画し、リモート参加者とそのコンテンツを共有できるようにします。
 
 コンテンツ カメラの機能の例については、次のビデオを参照してください。
 
