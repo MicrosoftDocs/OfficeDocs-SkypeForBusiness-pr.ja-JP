@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 管理者は、Microsoft Teams ミーティングの累積的な改善リストである Microsoft Teams ミーティングのリリース ノートを参照できます。
+description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
 ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/15/2020
 ms.locfileid: "46761323"
 ---
 # <a name="release-notes"></a>リリース ノート
 
-この記事では、Microsoft Teams ミーティングの累積的な改善点について説明します。
+この記事では、Microsoft Teams Rooms の累積的な改善点について説明します。
 
 ## <a name="version-history"></a>バージョン履歴
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
-|4.5.37.0 |08/14/2020 |
+|4.5.37.0 |2020/8/14 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
@@ -65,13 +65,13 @@ ms.locfileid: "46761323"
 |2.0.2.0 |03/15/2017 |
 |RTM (1.0.8) |12/7/2016 |
 
-## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams ミーティング機能の概要と問題の解決
+## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
-### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
+### <a name="45370-08142020"></a>4.5.37.0 (2020/8/14)
 
 この更新プログラムで導入されるもの:
-- Microsoft Teams と Surface Hub 2S の間での調和した会議 
-- [Windows 10 更新](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351)プログラム[KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709)がインストールされている場合に、Skype for business のサインインエラーを解決する KB4565351
+- Microsoft Teams と Surface Hub 2S 間の調整された会議 
+- [Windows 10 更新プログラム KB4565351](https://support.microsoft.com/ja-JP/help/4565351/windows-10-update-kb4565351) または [Windows 10 更新プログラム KB4571709](https://support.microsoft.com/ja-JP/help/4571709/windows-10-update-kb4571709) がインストールされている場合の Skype for Business サインイン エラーの修正
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -96,7 +96,7 @@ ms.locfileid: "46761323"
 - "4.4.41.0 の更新後にアプリケーションが起動しない" という問題を解決する
 
 > [!NOTE]
-> デバイスがバージョン 4.4.63.0 に自動的に更新されない場合は、次の「[4.4.41.0 バージョンへの更新後にMicrosoft Teams ミーティング アプリケーション が起動しない](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update)」の手順を実行して問題を解決してください。 
+> デバイスがバージョン 4.4.63.0 に自動的に更新されない場合は、次の「[4.4.41.0 バージョンへの更新後に Microsoft Teams Rooms アプリケーション が起動しない](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update)」の手順を実行して問題を解決してください。 
 
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 
@@ -160,13 +160,13 @@ ms.locfileid: "46761323"
 
 この更新プログラムで導入されるもの:
 
-- Skype Room System ストア アプリの "Microsoft Teams ミーティング" への商標変更
-- Microsoft Teams ミーティング コンソール ユーザー インターフェイスの Microsoft Teams への再編
+- Skype Room System ストア アプリの "Microsoft Teams Rooms" への商標変更
+- Microsoft Teams Rooms コンソール ユーザー インターフェイスの Microsoft Teams への再編
 - テーマの更新: コンソールの背景を中間色にしてコンソール UI コントロールがはっきり見えるようにしながら、常にカスタム背景画像をフロント オブ ルーム ディスプレイ上に表示する - アクセシビリティ要件
 - Teams 通話/会議で Microsoft Teams PC、Web、モバイル クライアントに一貫性のあるエクスペリエンスを提供するための会議中通話制御用のユニバーサル バー<sup>1</sup>
 - Teams 通話/会議後の通話品質フィードバックの評価<sup>1</sup>
-- PC、Web、モバイルの Teams クライアントから共有された場合の Microsoft Teams ミーティング フロント オブ ルーム ディスプレイ上の Microsoft Whiteboard の受信/レンダリング<sup>1</sup> <sup>2</sup>
-- Microsoft Teams ミーティング クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。 Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます
+- PC、Web、モバイルの Teams クライアントから共有された場合の Microsoft Teams Rooms フロント オブ ルーム ディスプレイ上の Microsoft Whiteboard の受信/レンダリング<sup>1</sup> <sup>2</sup>
+- Microsoft Teams Rooms クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。 Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます
 
 <sup>1</sup> Microsoft Teams サービスが Teams リングを使用して提供されます。 この機能は 4.0.105.0 クライアントの更新の前後に使用可能になります
 
@@ -177,7 +177,7 @@ ms.locfileid: "46761323"
 この更新プログラムで導入されるもの:
 
 - "フィードバックの送信" 機能に伴う問題の修正 
-- 予定されている Microsoft Teams ミーティング デバイスの Windows 10 バージョン 1809 へのアップグレードの準備の最適化
+- 予定されている Microsoft Teams Rooms デバイスの Windows 10 バージョン 1809 へのアップグレードの準備の最適化
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
@@ -193,7 +193,7 @@ ms.locfileid: "46761323"
 - Microsoft Teams P2P 会議と PSTN 通話用の DTMF キーパッド。 Microsoft Teams を既定の発信クライアントにするには、管理者が IsTeamsDefaultClient を true に設定する必要があります
 - リモート参加者の着信ビデオをフロント オブ ルーム ディスプレイの全画面に固定表示。 コンソール上の参加者名簿から "Pin" コマンドを使用します
 - フロント オブ ルーム通知が追加されたことによるロビー通知の改善
-- Bluetooth ビーコンが Microsoft Teams ミーティング デバイス上で有効になっていない場合のフロント オブ ルーム ディスプレイ キャスト アイコンの削除
+- Bluetooth ビーコンが Microsoft Teams Rooms デバイス上で有効になっていない場合のフロント オブ ルーム ディスプレイ キャスト アイコンの削除
 - Teams 会議でのボリューム コントロールの問題の修正
 
 
@@ -203,7 +203,7 @@ ms.locfileid: "46761323"
 
 - 2 画面ルーム システム上の両方のフロント オブ ルーム (FoR) ディスプレイへのコンテンツの表示
 - テーマ設定とフロント オブ ルーム ユーザー インターフェイスの改善
-- TLS 1.2 クライアント側のサポート。 オンプレミスのお客様の場合は、Microsoft Teams ミーティングの TLS 1.2 経由の通信を有効にするには、Skype for Business Server 2015 累積更新プログラム 9 (CU9) または Skype for Business Server 2019 累積更新プログラム 1 (CU1) が必要です。
+- TLS 1.2 クライアント側のサポート。 オンプレミスのお客様の場合は、Microsoft Teams Rooms の TLS 1.2 経由の通信を有効にするには、Skype for Business Server 2015 累積更新プログラム 9 (CU9) または Skype for Business Server 2019 累積更新プログラム 1 (CU1) が必要です。
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 
@@ -221,15 +221,15 @@ ms.locfileid: "46761323"
 
 この更新プログラムで導入されるもの:
 
-- 今後の Windows 10 バージョン 1803 アップグレード用に Microsoft Teams ミーティング アプリを準備するために必要なコードの変更
+- 今後の Windows 10 バージョン 1803 アップグレード用に Microsoft Teams Rooms アプリを準備するために必要なコードの変更
 - EULA OOBE セットアップ ウィンドウの先に進まないようにする、ローカライズされた EULA (具体的にはノルウェー語) に伴う書式設定の問題の修正
-- Microsoft Teams ミーティング アプリケーションをレガシ Lync Room System で実行するために必要なコードの変更。 詳細については、[こちら](https://aka.ms/lrsupgrade)を参照してください。
+- Microsoft Teams Rooms アプリケーションをレガシ Lync Room System で実行するために必要なコードの変更。 詳細については、[こちら](https://aka.ms/lrsupgrade)を参照してください。
 
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 
 この更新プログラムで導入されるもの:
 
-- 通常は Crestron SR 上のアプリ ボタンが押されたときにアクセス可能になる、起動しない Crestron アプリケーションの修正プログラム。 4.0.19.0 のインストール後に必要な Microsoft Teams ミーティング アプリの再起動。
+- 通常は Crestron SR 上のアプリ ボタンが押されたときにアクセス可能になる、起動しない Crestron アプリケーションの修正プログラム。 4.0.19.0 のインストール後に必要な Microsoft Teams Rooms アプリの再起動。
 
 ### <a name="40180-08272018"></a>4.0.18.0 (08/27/2018)
 
@@ -322,7 +322,7 @@ Introduced in this update:
 - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) ドック ハードウェアのサポート
 - 環境コントロール (Crestron) の OEM サポート
 
-Windows 10 Enterprise Anniversary エディション (英語版、バージョン 1607) の 64 ビット バージョンは Microsoft Teams ミーティング リリース 3.0.12.0 (更新プログラム 3) ではサポートされなくなりました。
+Windows 10 Enterprise Anniversary エディション (英語版、バージョン 1607) の 64 ビット バージョンは Microsoft Teams Rooms リリース 3.0.12.0 (更新プログラム 3) ではサポートされなくなりました。
 
 ### <a name="3080-842017"></a>3.0.8.0 (8/4/2017)
 
@@ -382,14 +382,14 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 <a name="See"> </a> 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft Teams ミーティング ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [環境を準備する](rooms-prep.md)
 
-[Microsoft Teams ミーティング Current Branch バージョンのサポート](rooms-lifecycle-support.md)
+[Microsoft Teams Rooms Current Branch バージョンのサポート](rooms-lifecycle-support.md)
 
 [既知の問題](known-issues.md)
 
-[Microsoft Teams ミーティングを計画する](rooms-plan.md)
+[Microsoft Teams Rooms を計画する](rooms-plan.md)
 
-[Microsoft Teams ミーティング を管理する](rooms-manage.md)
+[Microsoft Teams Rooms を管理する](rooms-manage.md)
