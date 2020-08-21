@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams ミーティングのメンテナンスと運用
+title: Microsoft Teams Rooms のメンテナンスと運用
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -12,26 +12,26 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: このトピックでは、Skype Room Systems の後継である Microsoft Teams ミーティングの管理について説明します。
+description: このトピックでは、Skype Room Systems の後継である Microsoft Teams Roomsの管理について説明します。
 ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
 ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/04/2020
 ms.locfileid: "46552295"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams ミーティングのメンテナンスと運用 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用 
  
-このトピックでは、Skype Room Systems の後継である Microsoft Teams ミーティングの管理について説明します。
+このトピックでは、Skype Room Systems の後継である Microsoft Teams Roomsの管理について説明します。
   
-Microsoft Teams ミーティングは、Microsoft の最新の会議ソリューションで、既存の会議室を機能豊富で共同作業に適したエクスペリエンスに変えられるように設計されています。 ユーザーは慣れ親しんだ Microsoft Teams または Skype for Business のインターフェイスを活用し、IT 管理者は Windows 10 Skype Meeting アプリを簡単に展開および管理することができます。 Microsoft Teams ミーティングは、簡単にインストールして Microsoft Teams または Skype for Business を会議室に導入できるように、LCD パネルなどの既存の装置を使用するように設計されています。
+Microsoft Teams Roomsは、Microsoft の最新の会議ソリューションで、既存の会議室を機能豊富で共同作業に適したエクスペリエンスに変えられるように設計されています。 ユーザーは慣れ親しんだ Microsoft Teams または Skype for Business のインターフェイスを活用し、IT 管理者は Windows 10 Skype Meeting アプリを簡単に展開および管理することができます。 Microsoft Teams Roomsは、簡単にインストールして Microsoft Teams または Skype for Business を会議室に導入できるように、LCD パネルなどの既存の装置を使用するように設計されています。
   
-「[Azure Monitor を使用して Microsoft Teams ミーティングの管理を計画する](azure-monitor-plan.md)」、「[Azure Monitor を使用して Microsoft Teams ミーティングの管理を展開する](azure-monitor-deploy.md)」、「[Azure Monitor を使用して Microsoft Teams ミーティングのデバイスを管理する](azure-monitor-deploy.md)」で説明されているように、追加の構成を行えば Microsoft Azure Monitor を使用してリモート管理を行うことが可能になります。 [XML 構成ファイルを使用して、リモートで Microsoft Teams ミーティングのコンソール設定を管理する](xml-config-file.md)こともできます。これには、カスタムの画面テーマの適用が含まれます。 
+「[Azure Monitor を使用して Microsoft Teams Roomsの管理を計画する](azure-monitor-plan.md)」、「[Azure Monitor を使用して Microsoft Teams Roomsの管理を展開する](azure-monitor-deploy.md)」、「[Azure Monitor を使用して Microsoft Teams Roomsのデバイスを管理する](azure-monitor-deploy.md)」で説明されているように、追加の構成を行えば Microsoft Azure Monitor を使用してリモート管理を行うことが可能になります。 [XML 構成ファイルを使用して、リモートで Microsoft Teams Roomsのコンソール設定を管理する](xml-config-file.md)こともできます。これには、カスタムの画面テーマの適用が含まれます。 
   
-## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams ミーティングでログを収集する
+## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams Roomsでログを収集する
 <a name="Logs"> </a>
 
-ログを収集するには、Microsoft Teams ミーティング アプリに付属のログ収集スクリプトを呼び出す必要があります。 管理者モードで、管理者特権のコマンド プロンプトを開始して、次のコマンドを発行します。
+ログを収集するには、Microsoft Teams Rooms アプリに付属のログ収集スクリプトを呼び出す必要があります。 管理者モードで、管理者特権のコマンド プロンプトを開始して、次のコマンドを発行します。
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -45,15 +45,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 会議室ディスプレイのフロントカメラを拡張モードに設定します。 この操作により、ディスプレイの電源を入れ替えたときにディスプレイ上にコンソール UI が重複しません。
   
 > [!NOTE]
-> ルームの前方ディスプレイを、ソースがスタンバイ モードから復帰したときにアクティブなビデオ ソース (MTR コンソールなど) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアで機能がサポートされている場合は、Microsoft Teams ミーティング ソフトウェアによってサポートされます。 ルームの前方ディスプレイとして使用される一般向けテレビは、HDMI の CEC (Consumer Electronics Control) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があるため、製造元のサポート ドキュメントを参照してください) に応じて、適切な動作を実現するには、Crestron 社の [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) や Extron 社の [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) などのコントローラーが必要になる場合があります。 
+> ルームの前方ディスプレイを、ソースがスタンバイ モードから復帰したときにアクティブなビデオ ソース (MTR コンソールなど) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアで機能がサポートされている場合は、Microsoft Teams Rooms ソフトウェアによってサポートされます。 ルームの前方ディスプレイとして使用される一般向けテレビは、HDMI の CEC (Consumer Electronics Control) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があるため、製造元のサポート ドキュメントを参照してください) に応じて、適切な動作を実現するには、Crestron 社の [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) や Extron 社の [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) などのコントローラーが必要になる場合があります。 
   
-## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams ミーティングのリセット (工場出荷時の復元)
+## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams Rooms のリセット (工場出荷時の復元)
 <a name="Reset"> </a>
 
-Microsoft Teams ミーティングが正常に動作していない場合は、出荷時の設定にリセットしてみてください。 これを行うには、[Microsoft Teams ミーティング回復ツール](recovery-tool.md)を使用して、工場出荷時復元の手順に従います。
+Microsoft Teams Roomsが正常に動作していない場合は、出荷時の設定にリセットしてみてください。 これを行うには、[Microsoft Teams ミーティング回復ツール](recovery-tool.md)を使用して、工場出荷時復元の手順に従います。
 
 > [!NOTE]
-> Windows を初期状態に戻すプロセス中に、**[個人用ファイルを保持する - アプリと設定を削除しますが、個人用ファイルは保持します]** オプションが選択されている場合、Microsoft Teams ミーティングが使用できなくなる可能性があるという既知の問題があります。 このオプションは使用*しない*でください。
+> Windows を初期状態に戻すプロセス中に、**[個人用ファイルを保持する - アプリと設定を削除しますが、個人用ファイルは保持します]** オプションが選択されている場合、Microsoft Teams Roomsが使用できなくなる可能性があるという既知の問題があります。 このオプションは使用*しない*でください。
   
 ## <a name="supported-remote-options"></a>サポートされているリモート オプション
 <a name="RemoteOptions"> </a>
@@ -69,22 +69,22 @@ Microsoft Teams ミーティングが正常に動作していない場合は、�
 |Skype アカウントの構成  <br/> |現在サポートされていません  <br/> |現在サポートされていません  <br/> |
 |ログへのアクセス  <br/> |現在サポートされていません  <br/> |現在サポートされていません  <br/> |
    
-## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Microsoft Teams ミーティングのグループ ポリシーを構成する
+## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Microsoft Teams Rooms のグループ ポリシーを構成する
 <a name="GroupPolicy"> </a>
 
-このセクションでは、Microsoft Teams ミーティングが正常に機能するために依存するシステム設定について説明します。 Microsoft Teams ミーティングをドメインに加えるときには、グループ ポリシーによって次の表の設定が上書きされないようにしてください。
+このセクションでは、Microsoft Teams Rooms が正常に機能するために依存するシステム設定について説明します。 Microsoft Teams Rooms をドメインに加えるときには、グループ ポリシーによって次の表の設定が上書きされないようにしてください。
   
 
 |設定|許可されること|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Microsoft Teams ミーティングの起動を有効にする  <br/> |
-|電源管理 -\> AC で、10 分後に画面をオフにする  <br/> 電源管理 -\> AC で、システムをスリープさせない  <br/> |接続されているディスプレイをオフにし、自動的にウェイク アップさせるように Microsoft Teams ミーティングを有効化する  <br/> |
-|net accounts /maxpwage:unlimited  <br/> これは、ローカル アカウントでパスワードの有効期限を無効にすることに相当します。 この操作を行わないと、最終的に Skype アカウントがログオンできなくなり、パスワードの有効期限が切れているという通知が発生します。 これは、コンピューター上のすべてのローカル アカウントに影響を与えるため、設定に失敗すると、ボックスの管理者アカウントも最終的に有効期限切れになります。  <br/> |Skype アカウントが常にログインできるようにする  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Microsoft Teams Rooms の起動を有効にする  <br/> |
+|電源管理 -\> AC で、10 分後に画面をオフにする  <br/> 電源管理 -\> AC で、システムをスリープさせない  <br/> |接続されているディスプレイをオフにし、自動的にウェイク アップさせるように Microsoft Teams Rooms を有効化する  <br/> |
+|net accounts /maxpwage:unlimited  <br/> これは、ローカル アカウントでパスワードの有効期限を無効にすることに相当します。 この操作を行わないと、最終的に Skype アカウントがログオンできなくなり、パスワードの有効期限が切れているという通知が発生します。 これは、コンピューター上のすべてのローカル アカウントに影響を与えるため、設定に失敗すると、ボックスの管理者アカウントも最終的に有効期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
 グループ ポリシーを使用してファイルを転送する方法については、「[ファイルの項目を構成する](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)」で説明しています。
 
 > [!NOTE]
-> Microsoft Teams ミーティングのデバイスが Windows 10 OS の次回のバージョンと互換性がある場合、Windows Update により、デバイスは次回のバージョンに自動的に更新されます。 Microsoft Teams ミーティングのデバイスでは、Windows 10 の次回のリリースに手動でアップグレードしたり、GPO を介して Windows Update for Business (WUFB) グループ ポリシーの [受信する更新プログラムの Windows 準備レベルを選択する] と [プレビュー ビルドと機能更新プログラムを受信するタイミングを選択する] を有効にしたりしないでください。 これらのグループ ポリシーが有効になっているデバイスでは、Microsoft Teams ミーティング アプリによる Windows 10 OS 更新プログラムの問題が発生することがわかっています。
+> Microsoft Teams Rooms のデバイスが Windows 10 OS の次回のバージョンと互換性がある場合、Windows Update により、デバイスは次回のバージョンに自動的に更新されます。 Microsoft Teams Rooms のデバイスでは、Windows 10 の次回のリリースに手動でアップグレードしたり、GPO を介して Windows Update for Business (WUFB) グループ ポリシーの [受信する更新プログラムの Windows 準備レベルを選択する] と [プレビュー ビルドと機能更新プログラムを受信するタイミングを選択する] を有効にしたりしないでください。 これらのグループ ポリシーが有効になっているデバイスでは、Microsoft Teams Rooms アプリによる Windows 10 OS 更新プログラムの問題が発生することがわかっています。
 
 ## <a name="remote-management-using-powershell"></a>PowerShell を使ったリモート管理
 <a name="RemotePS"> </a>
@@ -96,25 +96,25 @@ PowerShell を使用して、次の管理操作をリモートで実行できま
 - システム情報の取得
 - システムの再起動
 - ログの取得
-- ファイルの転送 (ドメインに参加済み Microsoft Teams ミーティングが必要)
+- ファイルの転送 (ドメインに参加済み Microsoft Teams Rooms が必要)
     
 > [!NOTE]
-> この機能は既定でオフになっています。 次に示す操作を実行するには、Microsoft Teams ミーティング システムの環境でリモート PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法の詳細については、**[Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** のドキュメントを参照してください。
+> この機能は既定でオフになっています。 次に示す操作を実行するには、Microsoft Teams Rooms システムの環境でリモート PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法の詳細については、**[Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** のドキュメントを参照してください。
   
 たとえば、次のようにしてリモート PowerShell を有効にすることができます。
   
-1. Microsoft Teams ミーティングのデバイスで、管理者としてサインインします。
+1. Microsoft Teams Rooms のデバイスで、管理者としてサインインします。
 2. 管理者特権で PowerShell コマンド プロンプトを開きます。
-3. 次のコマンドを入力します。`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. ローカルセキュリティポリシーを開いて、[**セキュリティ設定**] に*管理者*セキュリティグループを追加する  >  **ローカルポリシー**  >  **ユーザー権利の割り当て**  >  **ネットワークからこのコンピューターにアクセス**する。
+3. 次のコマンドを入力します: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. ローカル セキュリティ ポリシーを開き、*[管理者]* セキュリティ グループを **[セキュリティの設定]** > **[ローカル ポリシー]** > **[ユーザー権利の割り当て]** > **[ネットワーク経由でコンピューターへアクセス]** に追加します。
 
 管理操作を実行するには、次のようにします。
   
-1. Microsoft Teams ミーティングのデバイスで PowerShell コマンドを実行する権限を持つアカウントの資格情報を使用して PC にサインインします。
+1. Microsoft Teams Rooms のデバイスで PowerShell コマンドを実行する権限を持つアカウントの資格情報を使用して PC にサインインします。
 2. PC で通常の PowerShell コマンド プロンプトを開きます。
 3. 次の表からコマンド テキストをコピーして、プロンプトに貼り付けます。
 4. お使いの環境に応じた適切な FQDN 値で `<Device fqdn>` フィールドを置換します。
-5. *\<path\>* は、マスター SkypeSettings.xml 構成ファイルのファイル名とローカルパス (またはテーマのイメージ) で置き換えます。
+5. *\<path\>* をマスター SkypeSettings.xml 構成ファイル (またはテーマの画像) のファイル名とローカル パスで置き換えます。
     
 接続されているデバイスを取得する場合
   
@@ -165,16 +165,16 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>ソフトウェアの更新
 <a name="SWupdate"> </a>
 
-既定では、Microsoft Teams ミーティングは Windows ストアに接続して、Microsoft Teams ミーティング ソフトウェアの最新バージョンを入手しようとするため、デバイスは正常なインターネット アクセスを必要とします。 サポートの問題について Microsoft に問い合わせる前に、Microsoft Teams ミーティングのデバイスに最新バージョンのアプリが読み込まれていることを確認してください。
+既定では、Microsoft Teams Roomsは Windows ストアに接続して、Microsoft Teams Rooms ソフトウェアの最新バージョンを入手しようとするため、デバイスは正常なインターネット アクセスを必要とします。 サポートの問題について Microsoft に問い合わせる前に、Microsoft Teams Rooms のデバイスに最新バージョンのアプリが読み込まれていることを確認してください。
   
-既定では、Microsoft Teams ミーティングは Windows Update に接続してオペレーティング システムと USB 周辺機器のファームウェアの更新プログラムを取得し、設定された業務時間外にインストールします。 管理者アカウントにサインインし、設定アプリを実行して、業務時間を設定することができます。
+既定では、Microsoft Teams Rooms は Windows Update に接続してオペレーティング システムと USB 周辺機器のファームウェアの更新プログラムを取得し、設定された業務時間外にインストールします。 管理者アカウントにサインインし、設定アプリを実行して、業務時間を設定することができます。
   
-更新を手動で管理するときに、[オフライン アプリの配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)を行うために、[ビジネス向け Microsoft Store](https://businessstore.microsoft.com/store) の通常の手順を実行できない場合は、[デプロイメント キット](https://go.microsoft.com/fwlink/?linkid=851168) ([Microsoft Teams ミーティング コンソールの構成](console.md)を行うための操作指示に含まれる) から、Configuration Manager で使用できる適切な APPX ファイルと依存関係を取得できます。 デプロイメント キットのリリースは、ストアのリリースよりも後になるため、最新の入手可能な最新ビルドに必ずしも一致しない可能性があります。
+更新を手動で管理するときに、[オフライン アプリの配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)を行うために、[ビジネス向け Microsoft Store](https://businessstore.microsoft.com/store) の通常の手順を実行できない場合は、[デプロイメント キット](https://go.microsoft.com/fwlink/?linkid=851168) ([Microsoft Teams Rooms コンソールの構成](console.md)を行うための操作指示に含まれる) から、Configuration Manager で使用できる適切な APPX ファイルと依存関係を取得できます。 デプロイメント キットのリリースは、ストアのリリースよりも後になるため、最新の入手可能な最新ビルドに必ずしも一致しない可能性があります。
   
 ### <a name="to-update-using-powershell"></a>PowerShell を使用して更新する場合
 
 1. インストール [MSI](https://go.microsoft.com/fwlink/?linkid=851168) から、デバイスがアクセスできる共有先にパッケージを抽出します。
-2. 必要に応じて、次のスクリプトを実行して Microsoft Teams の会議室のデバイスをターゲットにし \<share\> ます。
+2. Microsoft Teams Rooms のデバイスを対象に次のスクリプトを実行します \<share\> は、該当するデバイス共有に変更します)。
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -185,7 +185,7 @@ Copy-Item $movefile $targetDevice
 
 プライベート CA 証明書の手動によるインストールのような一部の管理機能では、Surface Pro デバイスを管理者モードにする必要があります。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>管理者モードに切り替え、Microsoft Teams ミーティング アプリが実行されたら元に戻す
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>管理者モードに切り替え、Microsoft Teams Rooms アプリが実行されたら元に戻す
 
 1. 現在の通話を切って、ホーム画面に戻ります。
 2. 歯車アイコンをクリックすると、メニューが表示されます (オプションは、**[設定]**、**[アクセシビリティ]**、**[デバイスを再起動]** です)。
@@ -197,13 +197,13 @@ Copy-Item $movefile $targetDevice
 8. 管理者の資格情報でデスクトップにログインします。 デバイスの管理に必要な権限を持つことになります。
 9. 必要な管理タスクを実行します。
 10. 管理者アカウントからサイン アウトします。
-11. 画面の左端にある [ユーザー アカウント] アイコンを選択し、**[Skype]** を選択して、Microsoft Teams ミーティングに戻ります。
+11. 画面の左端にある [ユーザー アカウント] アイコンを選択し、**[Skype]** を選択して、Microsoft Teams Rooms に戻ります。
     
     **[Skype]** ユーザーがリストに表示されていない場合、**[他のユーザー]** を選択してからユーザー名として **.\skype** と入力し、サインインします。
     
 コンソールは通常の操作モードに戻ります。次の手順では、デバイスにキーボードが接続されていない場合は接続する必要があります。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>管理者モードに切り替え、Microsoft Teams ミーティング アプリがクラッシュしたら元に戻す
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>管理者モードに切り替え、Microsoft Teams Rooms アプリがクラッシュしたら元に戻す
 
 1. Windows キーを 5 回連続で、素早く押します。 これによって、Windows のログオン画面が開きます。 
 2. 管理者の資格情報を使用してデスクトップにログインします。
@@ -213,14 +213,14 @@ Copy-Item $movefile $targetDevice
     > [!NOTE]
     > この方法は、Skype ユーザーをログオフさせたり、アプリを正常終了させることはありませんが、アプリが応答しない場合や、その他の方法が使用できない場合にのみ使用するようにしてください。 
 
-   コンソールは通常の操作モードで再起動され、Microsoft Teams ミーティング アプリが実行されます。 この手順を実行するためにキーボードが接続されていた場合は、取り外すことができます。
+   コンソールは通常の操作モードで再起動され、Microsoft Teams Rooms アプリが実行されます。 この手順を実行するためにキーボードが接続されていた場合は、取り外すことができます。
    ## <a name="troubleshooting-tips"></a>トラブルシューティングのヒント
    <a name="TS"> </a>
 
 - 会議の招待状は、ドメイン境界 (たとえば、2 つの会社間) を越えて送信すると表示されない場合があります。 このような場合、IT 管理者は外部ユーザーに対して会議のスケジュール設定を許可するかどうか決定する必要があります。
-- Microsoft Teams ミーティングでは、Exchange 2010 経由での Exchange 自動検出リダイレクトはサポートされていません。
+- Microsoft Teams Rooms では、Exchange 2010 経由での Exchange 自動検出リダイレクトはサポートされていません。
 - 一般に、使用しないオーディオ エンドポイントを無効にするよう IT 管理者にお勧めします。
 - ルームのプレビューにミラー イメージが表示される場合、IT 管理者はカメラの電源をいったんオフにして再びオンにするか、カメラのリモート制御を使用してイメージの向きを反転させることでミラー イメージを修正できます。
-- コンソールのタッチスクリーンへのアクセスが機能しなくなる問題が発生することが知られています。 このような場合は、Microsoft Teams ミーティング システムを再起動することで問題を解決できる場合があります。
+- コンソールのタッチスクリーンへのアクセスが機能しなくなる問題が発生することが知られています。 このような場合は、Microsoft Teams Rooms システムを再起動することで問題を解決できる場合があります。
 - 有線取り込みを介して PC をコンソールに接続すると、ローカルの音声が消失する問題が発生することが知られています。 このような場合は、PC を再起動することでローカルの音声再生の問題を解決できます。
     
