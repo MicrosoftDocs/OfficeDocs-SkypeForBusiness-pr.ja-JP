@@ -112,7 +112,6 @@
 # アプリ、ボット、コネクタ
 
 ## [概要](deploy-apps-microsoft-teams-landing-page.md)
-## [アプリのアクセス許可と考慮事項](app-permissions.md)
 ## [Teams 用アプリを管理する](manage-apps.md)
 ## [Teams でのアプリの管理設定](admin-settings.md)
 ## [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
@@ -121,6 +120,8 @@
 ## [Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
 ## [アプリ パッケージをアップロードしてカスタム アプリを発行する](upload-custom-apps.md)
 ## [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [アプリのアクセス許可と考慮事項](app-permissions.md)
+## [Teams サードパーティ アプリのサービスを購入する](purchase-third-party-apps.md)
 ## [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Teams で組織のリストアプリを管理する](manage-lists-app.md)
 ## [組織のタスク アプリを管理する](manage-tasks-app.md)
