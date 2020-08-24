@@ -50,7 +50,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams Rooms のリセット (工場出荷時の復元)
 <a name="Reset"> </a>
 
-Microsoft Teams Roomsが正常に動作していない場合は、出荷時の設定にリセットしてみてください。 これを行うには、[Microsoft Teams ミーティング回復ツール](recovery-tool.md)を使用して、工場出荷時復元の手順に従います。
+Microsoft Teams Roomsが正常に動作していない場合は、出荷時の設定にリセットしてみてください。 これを行うには、[Microsoft Teams Room 回復ツール](recovery-tool.md)を使用して、工場出荷時復元の手順に従います。
 
 > [!NOTE]
 > Windows を初期状態に戻すプロセス中に、**[個人用ファイルを保持する - アプリと設定を削除しますが、個人用ファイルは保持します]** オプションが選択されている場合、Microsoft Teams Roomsが使用できなくなる可能性があるという既知の問題があります。 このオプションは使用*しない*でください。

@@ -83,7 +83,7 @@
 ### [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 ### [Microsoft Teams 管理センターで Teams を管理する](manage-teams-in-modern-portal.md)
 ### [Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md)
-### [ユーザーにライセンスを割り当てる](assign-policies.md)
+### [ユーザーにポリシーを割り当てる](assign-policies.md)
 ### [アクティビティ ログでポリシーの割り当てを表示する](activity-log.md)
 ### [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
 ### [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
