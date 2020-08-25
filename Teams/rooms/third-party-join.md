@@ -22,7 +22,7 @@ ms.locfileid: "45372216"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Teams Room デバイスでサードパーティの会議に参加できるようにする
 
-Microsoft Teams の会議室のデバイスは、サードパーティのオンライン会議に参加するためのワンタッチエクスペリエンスをサポートしています。 有効にすると、チームルームデバイスを使って、Cisco WebEx でホストされている会議に参加したり、Microsoft Teams でホストされている会議に参加したりするのと同じように簡単<sup>にズームする</sup>ことができます。
+Microsoft Teams の会議室のデバイスは、サードパーティのオンライン会議に参加するためのワンタッチエクスペリエンスをサポートしています。 有効にすると、チームルームデバイスを使って、Cisco WebEx でホストされている会議に参加したり、Microsoft Teams でホストされている会議に参加したりするのと同じように簡単<sup>にズームする</sup> ことができます。
 
 Teams 室のデバイスからサードパーティの会議に参加するには、次の手順を実行する必要があります。
 
@@ -34,9 +34,9 @@ Teams 室のデバイスからサードパーティの会議に参加するに�
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>手順 1: サードパーティの会議の予定表の招待処理を許可する
 
-チームルームデバイスからワンタッチの参加を有効にするには、まず、デバイスの Exchange Online room メールボックスの予定表処理ルールを設定します。 会議室メールボックスでは、第三者の会議に参加するために必要な URL が表示されるように、外部会議を許可し、メッセージ本文と件名を保持する必要があります。 [[カレンダーの設定](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.)] コマンドレットを使用して、会議室のメールボックスのオプションを設定するには、次の操作を行います。
+チームルームデバイスからワンタッチの参加を有効にするには、まず、デバイスの Exchange Online room メールボックスの予定表処理ルールを設定します。 会議室メールボックスでは、第三者の会議に参加するために必要な URL が表示されるように、外部会議を許可し、メッセージ本文と件名を保持する必要があります。 [ [カレンダーの設定](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) ] コマンドレットを使用して、会議室のメールボックスのオプションを設定するには、次の操作を行います。
 
-1. Exchange Online PowerShell に接続します。 詳細については、認証方法に応じて、「Basic 認証を使用して[Exchange Online powershell に接続する](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)」または「[多要素認証を使用して exchange online powershell に](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)接続する」を参照してください。
+1. Exchange Online PowerShell に接続します。 詳細については、認証方法に応じて、「Basic 認証を使用して [Exchange Online powershell に接続する](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) 」または「 [多要素認証を使用して exchange online powershell に](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)接続する」を参照してください。
 
 2. 次のコマンドを実行して、会議室のメールボックスがわからない場合は、ユーザープリンシパル名 (UPN) を取得します。
 
@@ -81,7 +81,7 @@ ATP の安全なリンクに追加する Url の完全なリストについて�
 2. [ **設定**] を選択し、デバイス管理者のユーザー名とパスワードを入力します。
 3. [ **会議**   ] タブに移動し、[ **Cisco WebEx**]、[ **Zoom**<sup>1</sup>]、または [両方] を選びます。
 4. 会議室のメールボックスに関連付けられたユーザー名とメールアドレスを使って会議に参加する場合は、[会議**室の情報を使用**して参加する] を選択します。
-5. 代替のユーザー名とメールアドレスを使って会議に参加する場合は、[**ユーザー設定情報を使用**して参加する] を選択し、使用するユーザー名とメールアドレスを入力します。
+5. 代替のユーザー名とメールアドレスを使って会議に参加する場合は、[ **ユーザー設定情報を使用** して参加する] を選択し、使用するユーザー名とメールアドレスを入力します。
 6. [ **保存して終了**] を選びます。 デバイスが再起動します。
 
 ### <a name="use-the-skypesettingsxml-configuration-file"></a>SkypeSettings.xml 構成ファイルを使用する
@@ -94,7 +94,7 @@ Cisco WebEx 会議を有効にするには、 `WebExMeetingsEnabled` 次のよ�
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-ズーム<sup>1</sup>会議を有効にするには、 `ZoomMeetingsEnabled` 次のように XML 要素を **True**に設定します。
+ズーム<sup>1</sup> 会議を有効にするには、 `ZoomMeetingsEnabled` 次のように XML 要素を **True**に設定します。
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
@@ -113,4 +113,4 @@ Cisco WebEx 会議を有効にするには、 `WebExMeetingsEnabled` 次のよ�
 > [!NOTE]
 > チームルームデバイスから Cisco WebEx 会議に参加するには、cisco WebEx web アプリケーションバージョン WBS 40.7 以降を使って、cisco の会議をホストする必要があります。
 
-<sup>1</sup>ズーム会議の参加は、現在、テクノロジアクセスプログラムを通じて Microsoft Teams のルームのユーザーを選択する場合のみ利用できます (タップ)。
+<sup>1</sup> ズーム会議の参加は、現在、テクノロジアクセスプログラムを通じて Microsoft Teams のルームのユーザーを選択する場合のみ利用できます (タップ)。

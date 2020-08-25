@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: ec48927559f5b10cbd8fec98966f1c55d0297fd2
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572242"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864581"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを計画する
 
@@ -132,7 +132,7 @@ ms.locfileid: "46572242"
 
 PSTN エンドポイントが含まれている場合、場所に基づくルーティングは、1人または両方のユーザーが位置情報によるルーティングを有効にしているかどうかを分析し、両方のエンドポイントの場所に応じて、通話を転送するか、転送する必要があるかを判断します。 
  
-着信転送では、呼び出し元のユーザーが通話を受信するには、最初の通話に応答する必要がありません。 つまり、User1 が着信通話を受信する場所にない場合でも、通話を転送することができます ( [Teams ユーザーの「着信通話を PSTN セクションから](#teams-user-receives-an-inbound-call-from-the-pstn)受信します」をご覧ください)。着信通話を受信できない場合は、通話を転送できません。 
+着信転送では、呼び出し元のユーザーが通話を受信するには、最初の通話に応答する必要がありません。 つまり、User1 が着信通話を受信する場所にない場合でも、通話を転送することができます ( [Teams ユーザーの「着信通話を PSTN セクションから](#teams-user-receives-an-inbound-call-from-the-pstn) 受信します」をご覧ください)。着信通話を受信できない場合は、通話を転送できません。 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>位置情報に基づくルーティングでユーザーが有効にされていない
 
@@ -255,13 +255,17 @@ PSTN 通話の位置情報に基づくルーティングが有効になってい
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>場所に基づくルーティングのメディアバイパスの要件
 
-インドで位置情報に基づくルーティングを展開する場合は、メディアのバイパスも構成する必要があります。 詳細については、「ダイレクト[ルーティングによるメディアのバイパスの計画](direct-routing-plan-media-bypass.md)」および「[直接ルーティング用のローカルメディアの最適化](direct-routing-media-optimization.md)」を参照してください。
+インドで位置情報に基づくルーティングを展開する場合は、メディアのバイパスも構成する必要があります。 詳細については、「ダイレクト [ルーティングによるメディアのバイパスの計画](direct-routing-plan-media-bypass.md) 」および「 [直接ルーティング用のローカルメディアの最適化](direct-routing-media-optimization.md)」を参照してください。
+
+### <a name="direct-voice-over-ip-voip"></a>ボイスオーバー IP (VoIP)
+
+VoIP のテレフォニー機器を使って、ボイスオーバー IP (VoIP) を展開することはできません。
 
 ## <a name="next-steps"></a>次の手順
 
-「[場所に基づくルーティングのネットワーク設定を構成](location-based-routing-configure-network-settings.md)する」を参照してください。
+「 [場所に基づくルーティングのネットワーク設定を構成](location-based-routing-configure-network-settings.md)する」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 - [Teams でのクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)
