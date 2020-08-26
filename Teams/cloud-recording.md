@@ -16,12 +16,12 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662087"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897806"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -105,7 +105,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>会議のレコーディングの保存場所
 
-会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 会議を記録すると、Microsoft Stream は、永久に保持されます (またはレコーディングの所有者が削除するまで)。 レコーディングがストリームにアップロードされない場合は、チームのクラウドストレージに保存され、20日間ダウンロードできます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。
+会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 記録は保持され、21日間は表示およびダウンロードできます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。 将来、Microsoft Stream がその国内のデータ所在地では利用できない場合でも、データが国内に保存されるお客様が Teams 会議のレコーディング機能をご利用いただけるようになる予定です。
+
+この変更が有効になると、会議のレコーディングは既定で地理的に最も近い Microsoft Stream のリージョンに保存されます。 Teams のデータが国内に保存されており、会議のレコーディングを国内に保存することをご希望の場合は、この機能を無効にし、Microsoft Stream がお客様の国内のデータ所在地のリージョンに展開されてから有効にすることをお勧めします。 組織内のすべてのユーザーに対してこの機能を無効にするには、Microsoft Teams 管理センターのグローバルチーム会議ポリシーで [ **クラウドレコーディングの許可** ] 設定をオフにします。
+
+この変更が有効になると、会議のレコーディングを開始した場合の動作は次のようになります。
+
+|会議のレコーディングをオンにした場合|会議のレコーディングの保存先... |
+|---|---|
+|国内のデータ常駐地域で Microsoft Stream を使用できるようにする前に |最寄りの Microsoft Stream 領域|
+|国内データ常駐地域で Microsoft Stream を利用できるようになった後 |国内のデータ常駐地域で|
+
+会議のレコーディングが開始していない新規および既存のテナントの場合、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになると、新しいレコーディングは国内に保存されます。 ただし、国内データ常駐地域で Microsoft Stream が利用可能になる前に会議レコーディングを有効にするすべてのテナントは、Microsoft Stream が国内のデータ常駐地域で利用できるようになった後でも、既存の録音および新規の記録に Microsoft stream ストレージを使い続けます。
 
 お客様の Microsoft Stream データが保存されるリージョンを確認するには、Microsoft Stream で、右上隅にある **[?]** をクリックし、 **[About Microsoft Stream](Microsoft Stream について)** をクリックして、**[Your data is stored in](データの保存場所)** をクリックします。  Microsoft Stream でデータが保存されるリージョンについて詳しくは、「[Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)」を参照してください。
 

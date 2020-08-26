@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft Teams のデータを Microsoft 365 コンプライアンスセンターの監査ログから取得する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778009"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897707"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -162,9 +162,9 @@ ms.locfileid: "46778009"
 
 |フレンドリ名  |操作  |説明  |
 |---------|---------|---------|
-|スケジュールグループが追加されました      |SchedulingGroupAdded          |ユーザーが正常に新しいスケジュールグループをスケジュールに追加しました。          |
-|編集済みのスケジュールグループ     |SchedulingGroupEdited         |ユーザーがスケジュールグループを正常に編集しました。          |
-|削除されたスケジュールグループ         |SchedulingGroupDeleted              |ユーザーがスケジュールからスケジュールグループを正常に削除しました。|
+|スケジュールグループが追加されました |ScheduleGroupAdded が追加されました          |ユーザーが正常に新しいスケジュールグループをスケジュールに追加しました。|
+|編集済みのスケジュールグループ     |スケジュールの編集         |ユーザーがスケジュールグループを正常に編集しました。          |
+|削除されたスケジュールグループ         |ScheduleGroupDeleted              |ユーザーがスケジュールからスケジュールグループを正常に削除しました。|
 |シフトの追加      |ShiftAdded          |ユーザーがシフトを正常に追加しました。           |
 |編集したシフト       |ShiftEdited       |ユーザーがシフトを正常に編集しました。        |
 |削除されたシフト          |ShiftDeleted          | ユーザーがシフトを正常に削除しました。               |
@@ -197,6 +197,6 @@ Office 365 Management Activity API を使用して、Teams のイベントに関
 
 Azure Active Directory (Azure AD) を使用して作成された Teams (ユーザーの追加や削除など) に対するメンバーシップの変更、Microsoft 365 管理ポータル、または Microsoft 365 Groups Graph API は、チームの監査メッセージおよび [全般] チャネルにあり、この操作の実際のイニシエーターには適用されません。 これらのシナリオでは、Azure AD または [Microsoft 365 グループ監査ログ](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) を参照して、関連する情報を確認してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Microsoft 365 コンプライアンスセンターで監査ログを検索する](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
