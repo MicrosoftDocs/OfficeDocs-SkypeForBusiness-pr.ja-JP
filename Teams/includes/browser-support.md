@@ -3,7 +3,7 @@ Teams では、通話および会議に対する記載の通りの例外を除�
 
 |ブラウザー  |通話 - オーディオ、ビデオ、共有  |会議 - オーディオ、ビデオ、共有 <sup>1</sup> <sup>2</sup> <sup>3</sup>  |
 |---------|---------|---------|
-|Internet Explorer 11     |非サポート         |会議は、PSTN 座標が含まれている場合にのみサポートされます。 PSTN 座標を使用せずに IE11 で会議に出席するには、Teams のデスクトップ クライアントをダウンロードしてください。<br><br>ビデオ: サポート対象外<br><br>共有: 受信共有のみ (送信なし)     |
+|Internet Explorer 11     |非サポート         |会議は、PSTN 座標が含まれている場合にのみサポートされます。 PSTN 座標を使用せずに IE11 で会議に出席するには、Teams のデスクトップ クライアントをダウンロードしてください。<br><br>ビデオ: サポート対象外<br><br>共有: 着信共有のみ (発信なし)  <br><br> Microsoft 365 のアプリとサービスは、2021 年 8 月 17 日から Internet Explorer 11 をサポートしません (Microsoft Teams は、2020 年 11 月 30 日から Internet Explorer 11 よりも前のバージョンをサポートしません)。 [詳細情報を参照してください](https://www.microsoft.com/edge/business)。 Internet Explorer 11 は、サポート対象のブラウザーとして残ることに注意してください。 Internet Explorer 11 は、Windows オペレーティング システムのコンポーネントであり、インストールされている製品の[ライフサイクルポリシーに従います](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge)。    |
 |Microsoft Edge、RS2 以降     |完全にサポートされます、送信共有を除きます<sup>4</sup>         |完全にサポートされます、送信共有を除きます         |
 |Microsoft Edge (Chromium ベース) の最新バージョンと、その前の 2 つのバージョン     | 完全にサポートされます    |完全にサポートされます         |
 |Google Chrome の最新バージョンと、その前の 2 バージョン       |完全にサポートされます |完全にサポートされます <br> <br>Chrome バージョン 72 以降では、あらゆるプラグインや拡張機能なしで、画面の共有がサポートされます。       |

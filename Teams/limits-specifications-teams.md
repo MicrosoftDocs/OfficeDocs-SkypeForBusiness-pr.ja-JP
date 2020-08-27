@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: daeacf5e5019dd8b63ef19b194b241cbdfe9d84f
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672758"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864511"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -180,6 +180,26 @@ Team は、SharePoint Online のバックエンドのファイル共有で実行
 チャンネルは、チーム用に作成された SharePoint Online サイト コレクション内のフォルダーによってバックアップされるため、チャンネル内のファイル タブは、所属するチームのストレージ制限を共有します。
 
 詳細については、「[SharePoint Online の制限](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)」を参照してください。
+
+## <a name="class-teams"></a>クラス チーム
+
+Microsoft Teams for Education には、教育機関向けの特別なシナリオ (授業教材など) 向けのテンプレートが用意されています。//Microsoft Teams for Education には、教室での授業など、独自の教育シナリオ用に設計されたテンプレートが用意されています。 クラスチームなど、チームの種類の詳細については、「[Microsoft Teams で共同作業を行うチームの種類を選択する](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)」を参照してください。
+
+クラスチームは、追加のアプリが含まれるテンプレートの種類で、チームメンバーの数に応じた制限があります。
+
+> [!NOTE]
+> クラスチームを使用するには、[Office 365 Education ライセンス](https://www.microsoft.com/education/products/office)が必要です。
+
+クラスチームの制限を次の表に示します。
+
+|機能  |上限  |
+|---------|---------|
+|チームのメンバーの数    | この記事の「[チームとチャネル](#teams-and-channels)」のセクションを参照してください        |
+|クラスチームで課題を使用するメンバーの数    | 200        |
+|クラスチームで OneNote Class Notebook を使用するためのメンバー数     |200         |
+
+クラスチームは、200を超えるメンバーをサポートできます。 ただし、チーム内でアサインメントアプリまたはクラスノートブックアプリのいずれかを使用する場合は、メンバー数を上記の上限未満に保つ必要があります。
+
 
 ## <a name="tags"></a>タグ
 

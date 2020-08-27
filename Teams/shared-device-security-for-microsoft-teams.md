@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a723a7300febde4eaa5045b9b1318a3e0cafe779
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860834"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868696"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>共有コンピューターで Microsoft Teams を安全に使用する
 
@@ -46,7 +46,7 @@ ms.locfileid: "46860834"
 
 1. オペレーティングシステムプラットフォームのセキュリティ機能を利用します。
     1. オペレーティングシステムがオペレーティングシステムプロバイダーからの自動更新をインストールするように構成されていることを確認します（Microsoft システムの場合、これは [**Windows Update**](https://support.microsoft.com/help/12373/windows-update-faq) から実行できます）。 
-    2. [**BitLocker**](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) などのデバイスの暗号化機能が有効になっており、デバイスへのアクセスに使用するキーが保護されていることを確認します。
+    2. [**BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) などのデバイスの暗号化機能が有効になっており、デバイスへのアクセスに使用するキーが保護されていることを確認します。  最近のほとんどの [**Windows 10 デバイスはbitlockerをサポートしています**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
     1. デバイスで、[**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) が提供するようなウイルス対策機能を使用します。
     1. システムのユーザーごとに[個別のユーザーアカウント](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)を使用することを強くお勧めします。
     1. 管理権限を必要としない機能（Web の閲覧、Teams の実行など）に対して管理者権限を付与または使用*しない*でください。
@@ -76,6 +76,6 @@ Windows セキュリティで Microsoft Defender Antivirus を[有効](https://d
 
 [Microsoft Defender セキュリティセンターの記事](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[Tems Web クライアント/ Teams Web アプリ](../get-clients.md#web-client)
+[Tems Web クライアント/ Teams Web アプリ](https://docs.microsoft.com/microsoftteams/get-clients#web-client)
 
 [セキュリティと Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide)

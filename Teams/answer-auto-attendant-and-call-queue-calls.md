@@ -1,5 +1,5 @@
 ---
-title: 自動応答と通話キューへの通話に応答する
+title: 自動応答と通話キューの呼び出しに応答する
 ms.reviewer: waseemh
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -21,7 +21,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
 ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46672878"
@@ -45,10 +45,10 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 
 ![着信通知のスクリーンショット](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-自動応答または通話キューの通話に応答すると、ユーザーは他の通話と同様に処理できます&#x2014。別のユーザーを追加したり、会議を行ったり、別の相手に転送したりできます。 また、自動応答の呼び出しは、ユーザーの設定に基づいて転送されます。
+自動応答または通話キューの通話に応答すると、ユーザーは他の通話と同様に処理できます&#x2014。別のユーザーを追加したり、会議を行ったり、別の相手に転送したりできます。 また、自動応答通話はユーザーの構成に基づいて転送されます。
 
 > [!NOTE] 
-> 通話キューの呼び出しは、ユーザーの構成に基づいて転送されません。 これは、エージェントが呼び出しに応答し、呼び出し元が予期せず転送されるまで、呼び出し元がキューに残るようにするためです。
+> 通話キューの呼び出しは、ユーザーの構成に基づいて転送されません。 これは、エージェントが通話に応答でき、発信者に予期しない転送がされない限り、発信者がキューに留まるようにするためです。
 
 ## <a name="supported-clients"></a>サポートされるクライアント
 
@@ -63,7 +63,7 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 
 Microsoft Teams で自動応答および通話キューの通話を受信するには、相互運用性ポリシーおよびアップグレード ポリシーを構成する必要があります。 「[Teams を Skype for Business と一緒に使用する組織の移行と相互運用性](migration-interop-guidance-for-teams-with-skype.md)」を確認してください。 自動応答や通話キューが設定されておらず、設定したい場合は、「[クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)」および「[クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 -    [Microsoft 365 または Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
 -    [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
