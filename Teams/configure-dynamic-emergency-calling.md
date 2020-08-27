@@ -17,12 +17,12 @@ description: Microsoft 通話プランおよび電話システムダイレクト
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576929"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255380"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -36,11 +36,11 @@ Microsoft 通話プランや電話システムのダイレクトルーティン�
 
 1. ネットワーク管理者がネットワーク設定と LIS を構成して、ネットワーク/緊急対応の場所マップを作成します。
 
-   直接ルーティングの場合は、緊急通話をルーティングするために追加の構成が必要になります。また、パートナー接続の場合もあります。 管理者は、緊急ルーティングサービス (管理者) プロバイダーへの接続を構成する**か**(米国)、緊急対応の位置情報識別番号 (ELIN) アプリケーションのセッションボーダーコントローラー (SBC) を構成する必要があります。
+   直接ルーティングの場合は、緊急通話をルーティングするために追加の構成が必要になります。また、パートナー接続の場合もあります。 管理者は、緊急ルーティングサービス (管理者) プロバイダーへの接続を構成する **か** (米国)、緊急対応の位置情報識別番号 (ELIN) アプリケーションのセッションボーダーコントローラー (SBC) を構成する必要があります。
 
 2. 起動時と定期的に定期的に、またはネットワーク接続が変更されると、チームクライアントはネットワーク接続情報が含まれている場所要求をネットワーク設定と LIS に送信します。
 
-   - [ネットワーク設定] サイトが表示されている場合、緊急通話のポリシーがそのサイトから Teams クライアントに返されます。 (ポリシーの詳細については、「[緊急ポリシーを構成する](#configure-emergency-policies)」を参照してください)。
+   - [ネットワーク設定] サイトが表示されている場合、緊急通話のポリシーがそのサイトから Teams クライアントに返されます。 (ポリシーの詳細については、「 [緊急ポリシーを構成する](#configure-emergency-policies)」を参照してください)。
 
    - LIS の一致がある場合は、Teams クライアントが接続されているネットワーク要素の緊急対応の場所が Teams クライアントに返されます。
 
@@ -77,11 +77,11 @@ Microsoft 通話プランや電話システムのダイレクトルーティン�
 - Teams 室のバージョン4.4.25.0
 
 > [!NOTE]
-> セキュリティデスク通知を含む動的な緊急通話は、Teams web クライアントではサポートされていません。 ユーザーが Teams の web クライアントを使って PSTN 番号に通話を発信できないようにするには、チームの通話ポリシーを設定して、[ **WEB PSTN 通話を許可**する] 設定をオフにします。 詳細については、「 [Teams の通話ポリシー](teams-calling-policy.md) 」および「 [Set csteamのポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)」を参照してください。
+> セキュリティデスク通知を含む動的な緊急通話は、Teams web クライアントではサポートされていません。 ユーザーが Teams の web クライアントを使って PSTN 番号に通話を発信できないようにするには、チームの通話ポリシーを設定して、[ **WEB PSTN 通話を許可** する] 設定をオフにします。 詳細については、「 [Teams の通話ポリシー](teams-calling-policy.md) 」および「 [Set csteamのポリシー](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)」を参照してください。
 
 ## <a name="assign-emergency-addresses"></a>緊急対応の住所を割り当てる
 
-緊急対応の住所は、通話プランのユーザーと、場所を動的に取得するために必要なネットワーク識別子の両方に割り当てることができます。 (Subnet および WiFi AP はサポートされています。イーサネットスイッチ/ポートのサポートは保留中)。
+緊急対応の住所は、通話プランのユーザーと、場所を動的に取得するために必要なネットワーク識別子の両方に割り当てることができます。 (サブネットと WiFi AP がサポートされています。 イーサネットスイッチ/ポートは、現時点では Windows 8.1 以降でサポートされています。
 
 米国内での緊急通話の自動ルーティングをサポートするには、ネットワーク識別子に割り当てられている緊急対応の場所に関連する geo コードが含まれていることを確認する必要があります。 (地理コードのない緊急対応の住所を、動的な場所に必要なネットワーク識別子に割り当てることはできません。)
 
@@ -93,7 +93,7 @@ Azure Maps は、位置ベースのサービスに使用されます。  Microso
 
 これは、通話プランユーザに割り当てるために作成された既存の緊急対応の場所が、動的な場所を目的としている場合は、その住所を再作成して geo コードを含める必要があることを意味します。 2つの場所を区別するには、別の説明を含める必要があります。 以前の場所を持っているユーザーに新しい緊急対応の場所を割り当てることができます。 完全に移行された場合、古い場所は削除できます。
 
-Microsoft Teams 管理センターまたは PowerShell を使用して、緊急対応の住所を追加して割り当てます。 詳細については、「[組織の緊急対応の場所を追加する](add-change-remove-emergency-location-organization.md)」および「[緊急対応の場所をユーザーに割り当てる](assign-change-emergency-location-user.md)」を参照してください。
+Microsoft Teams 管理センターまたは PowerShell を使用して、緊急対応の住所を追加して割り当てます。 詳細については、「 [組織の緊急対応の場所を追加する](add-change-remove-emergency-location-organization.md) 」および「 [緊急対応の場所をユーザーに割り当てる](assign-change-emergency-location-user.md)」を参照してください。
 
 ## <a name="configure-network-settings"></a>ネットワーク設定を構成する
 
@@ -104,7 +104,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、緊急�
 >[!Note]
 >サブネットは、LIS で定義することもできます。また、緊急対応の場所に関連付けることもできます。  
 
-次の定義を念頭に置いてください。 詳細については、「[クラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)」を参照してください。
+次の定義を念頭に置いてください。 詳細については、「 [クラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)」を参照してください。
 
 - 信頼された IP アドレスには、エンタープライズネットワークのインターネット外部 IP アドレスのコレクションが含まれており、ユーザーのエンドポイントが企業ネットワーク内にあるかどうかを判断するために使用されます。 動的なポリシーまたは場所を取得しようとしても、ユーザーの外部 IP アドレスが信頼された IP アドレスの IP アドレスと一致する場合にのみ行われます。 一致は、IPv4 または IPv6 の IP アドレスに対して行うことができます。また、ネットワーク設定に送信される IP パケットの形式によって異なります。  (パブリック IP アドレスに IPv4 と IPv6 の両方が含まれている場合は、両方を信頼できる IP アドレスとして追加する必要があります)。
 
@@ -114,7 +114,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、緊急�
 
 - ネットワークサブネットは、特定のネットワークサイトに関連付けられている必要があります。 クライアントの場所は、ネットワークサブネットと関連付けられたネットワークサイトに基づいて決定されます。  
 
-ネットワーク設定は、Microsoft Teams 管理センターまたは PowerShell を使用して構成します。 詳細については、「[クラウド音声機能のネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
+ネットワーク設定は、Microsoft Teams 管理センターまたは PowerShell を使用して構成します。 詳細については、「 [クラウド音声機能のネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
 
 ネットワーク設定の変更 (新しいアドレス、ネットワーク識別子など) がチームクライアントに伝達されて利用可能になるまでに少し時間がかかる場合があることに注意してください。  
 
@@ -144,17 +144,17 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、緊急�
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、 **[場所]**  >  **ネットワーク & 場所**に移動します。
-2. 追加するネットワーク識別子を示すタブをクリックします。 たとえば、[**サブネット**]、[ **wi-fi アクセスポイント**]、[**スイッチ**]、または [**ポート**] をクリックします。 [**追加**] をクリックします。
-3. フィールドに入力し、緊急対応の場所を追加して、[**適用**] をクリックします。
+2. 追加するネットワーク識別子を示すタブをクリックします。 たとえば、[ **サブネット**]、[ **wi-fi アクセスポイント**]、[ **スイッチ**]、または [ **ポート**] をクリックします。 [ **追加**] をクリックします。
+3. フィールドに入力し、緊急対応の場所を追加して、[ **適用**] をクリックします。
 
-### <a name="using-powershell"></a>PowerShell を使用する場合
+### <a name="using-powershell"></a>PowerShell の使用
 
 次のコマンドレットを使用して、ポート、スイッチ、サブネット、Wap を LIS に追加します。
 
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、 [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、 [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -csonlinのサブネット
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps)、[設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps)、[削除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps)-csonlinのスポーツ
+- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps)、 [設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps)、 [削除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -csonlinのスポーツ
 - [Get](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、 [Set](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、 [Remove](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、[設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、[削除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps)-csonlinの切り替え
+- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、 [設定](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、 [削除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -csonlinの切り替え
 
 >[!Important]
 >サブネットがネットワークサイトの一部として使われている場合は、動的な場所を表示するために、場所情報サービスでサブネットを再定義する必要があります。
@@ -163,7 +163,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、緊急�
 
 緊急通話を構成するには、次のポリシーを使用します。 これらのポリシーは、Microsoft Teams 管理センターまたは PowerShell を使用して管理できます。
 
-- **緊急通話ルーティングポリシー** –直接ルーティングにのみ適用されます。 このポリシーでは、緊急電話番号、必要に応じて番号のマスク、および電話番号ごとの PSTN ルートを構成します。  このポリシーは、ユーザー、ネットワークサイト、またはその両方に割り当てることができます。 (通話プランのチームクライアントは、Microsoft 365 または Office 365 の利用場所に基づいて、国の緊急電話番号によって自動的に有効になります)。 詳細については、「[ダイレクトルーティングの緊急通話ルーティングポリシーを管理](manage-emergency-call-routing-policies.md)する」を参照してください。
+- **緊急通話ルーティングポリシー** –直接ルーティングにのみ適用されます。 このポリシーでは、緊急電話番号、必要に応じて番号のマスク、および電話番号ごとの PSTN ルートを構成します。  このポリシーは、ユーザー、ネットワークサイト、またはその両方に割り当てることができます。 (通話プランのチームクライアントは、Microsoft 365 または Office 365 の利用場所に基づいて、国の緊急電話番号によって自動的に有効になります)。 詳細については、「 [ダイレクトルーティングの緊急通話ルーティングポリシーを管理](manage-emergency-call-routing-policies.md)する」を参照してください。
 
 - **緊急通話ポリシー** -通話プランとダイレクトルーティングに適用されます。 このポリシーは、緊急通話が行われたときのセキュリティデスクの通知を構成します。 通知する相手と通知方法を設定できます。 たとえば、組織のセキュリティデスクに通知を自動的に送信し、そのユーザーが緊急通話をリッスンするようにします。  このポリシーは、ユーザーまたはネットワークサイトまたはその両方に割り当てることができます。 詳細については、「 [Teams の緊急通話ポリシーを管理](manage-emergency-calling-policies.md)する」を参照してください。
 
@@ -208,15 +208,15 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 米国の一部の緊急ルーティングサービスプロバイダー (ERSPs) では、緊急対応のテストボットが提供されています。
 
-- **米国の通話プランユーザー**は、事前に定義されたテスト緊急電話番号933を使って、緊急通話の構成を検証できます。 この番号はボットにルーティングされます。これは、発信者番号 (発信者の電話番号)、緊急対応の住所、場所、通話が自動的に PSAP にルーティングされるか、最初に表示されるかどうかを示します。
+- **米国の通話プランユーザー** は、事前に定義されたテスト緊急電話番号933を使って、緊急通話の構成を検証できます。 この番号はボットにルーティングされます。これは、発信者番号 (発信者の電話番号)、緊急対応の住所、場所、通話が自動的に PSAP にルーティングされるか、最初に表示されるかどうかを示します。
 
-- **米国のダイレクトルーティングのお客様**は、テストサービスの ersp と連携する必要があります。
+- **米国のダイレクトルーティングのお客様** は、テストサービスの ersp と連携する必要があります。
 
- ## <a name="related-topics"></a>関連項目
+ ## <a name="related-topics"></a>関連トピック
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)
-- [緊急通話ルーティングポリシーを管理する](manage-emergency-call-routing-policies.md)
+- [緊急通話ルーティングポリシーを管理する ](manage-emergency-call-routing-policies.md)
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)
 - [ユーザーの緊急対応の場所を割り当てる、または変更する](assign-change-emergency-location-user.md)
 - [クラウド ボイス機能のネットワーク設定](cloud-voice-network-settings.md)

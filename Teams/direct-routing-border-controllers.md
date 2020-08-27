@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理者は、ダイレクトルーティングが認定されているセッション境界コントローラー (SBCs) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aa35fe23796f3ee248e2797aba86c9982aa8364
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: cf37165459d1d9f492b74cf9f0000eec45c632f2
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788721"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255370"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -78,6 +78,7 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 |                                   |     1,000 v シリーズクラウドサービスルータの Cisco の統合境界線要素 (立方体)       |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[自分の自分の ado エマージェンシールーティングサービス (お持ちの場合)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[内部の ado 緊](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     1000 Series Aggregation Services ルーター用の Cisco の統合境界線要素 (立方体)      |     &#10004;   |  |      IOS XE アムステルダム 17.2.1 r      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[自分の自分の ado エマージェンシールーティングサービス (お持ちの場合)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[内部の ado 緊](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    エンタープライズの Avaya セッションボーダーコントローラー (ASBCE)    |     &#10004;     |           |       8.1.1 のリリース       |     |    | 
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッションボーダーコントローラー    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 
 <br/>
 <br/>

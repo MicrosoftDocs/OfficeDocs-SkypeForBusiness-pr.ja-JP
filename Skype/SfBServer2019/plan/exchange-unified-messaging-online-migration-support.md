@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft では、2020年2月28日に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止しています。 この記事では、影響を受けるお客様がビジネス継続性を計画する際に知っておく必要があることを要約しています。
-ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897817"
+ms.locfileid: "47255440"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -129,7 +129,7 @@ Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO および Azure クラウドベースのサービス機能のマトリックス
 
-| サービス | 機能レベル | 機能 | メモ  | クラウド VM/AA  | ExUMO |
+| サービス | 機能レベル | 機能 | Notes  | クラウド VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | /VM  | サービス機能| サードパーティ製 PBX のサポート    | Exchange UM Online からの SIP notify メッセージを使用して、MWI (メッセージ待機インジケーター) などのサードパーティ製 PBX に提供されるすべての機能を含む | N   | Y    |
 | /VM | サービス機能  | Skype for Business Server をサポートする   |  | Y | Y    |
@@ -150,7 +150,6 @@ Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド�
 | /VM | ユーザー機能 | 議事録を無効にするためのユーザー設定 |  | N | Y    |
 | /VM | ユーザー機能 | 文字起こし  |  | Y | Y    |
 | /VM | ユーザー機能 | SIP notify メッセージを使用した MWI (メッセージ待機インジケーター) |  | N | Y    |
-| /VM | ユーザー機能 | すべてのエンドポイントのビジュアルボイスメール   | サポートされているすべてのエンドポイントでのユーザーコントロールの再生、削除、メッセージ待機通知、状態の切り替え  | Y | Y    |
 | /VM | ユーザー機能 | Outlook での MP3 オーディオファイル形式    |  | Y | Y    |
 | /VM | ユーザー機能 | 可変速度の再生コントロール |  | Y | Y    |
 | /VM | ユーザー機能 | ボイスメールの転送  | 受信したボイスメールを他のユーザーに転送する | Y | Y    |

@@ -1,7 +1,7 @@
 ---
 title: 発信回線 ID と発信者名の詳細
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 新しい電話番号のポート注文ウィザードを使用するときに、アカウントを変更できる認証済みユーザーを追加する必要がある理由について説明します。
-ms.openlocfilehash: 2e6911179b3a973b0d966867ca5186fc0e21ae8a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: db64a5d1a7e7a5969f66d67d6b056ec6947d44bb
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832657"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255400"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>発信回線 ID と発信者名の詳細
 
@@ -37,7 +37,7 @@ CallerID は、一般的に参照されているため、実際には2つのユ�
 
 CLID & CNAM 伝送は、終了キャリアが CLID & CNAM 機能をサポートしており、両方の値の最新のレコードを提供している必要があるため、終了キャリアの責任となります。 Microsoft は、発信時に CLID の値を提供していますが、中継業者または終了キャリアを通過すると、それらの値がそのまま保持されないことがあります。 残念ながら、CLID 値が変更された場合や、中継業者または終了キャリアによって省略または切り捨てられた場合、Microsoft は、このような問題を解決するために、公衆電話網の問題を修正することはほとんどありません。
 
-CNAM の不整合は、米国の場合と同様に、信頼できるデータベースの CNAM 情報を更新するときに、中間または終了キャリアで遅延が発生する可能性があります。 CNAM の権限を持つデータベースが存在しない国では、個々の運送業者の慣行によって、tact で着信した CNAM 情報に関する問題が発生することもあります。 現時点では、Microsoft は米国以外の国での CNAM 情報の送信をサポートしていません。」
+CNAM の不整合は、米国の場合と同様に、信頼できるデータベースの CNAM 情報を更新するときに、中間または終了キャリアで遅延が発生する可能性があります。 CNAM の権限を持つデータベースが存在しない国では、個々の運送業者の慣行によって、着信によってそのまま送られる CNAM 情報に関する問題が発生することもあります。 現時点では、Microsoft は米国以外の国での CNAM 情報の送信をサポートしていません。」
 
 ## <a name="related-topics"></a>関連トピック
 

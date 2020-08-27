@@ -20,12 +20,12 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b3d6eafe5f2ab5989e5b21a060901dc317332127
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: a8139c01f5e79eab451abc1eb47a97c94849147a
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897827"
+ms.locfileid: "47255420"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 ======================================================
@@ -43,7 +43,7 @@ ms.locfileid: "46897827"
 - ユーザーのメール アドレスを使用して、世界中の Teams のユーザーは誰でもそのユーザーを検索して連絡を取れるようにする場合。 
 
 > [!IMPORTANT]
-> 現在、Microsoft Teams アプリ内で Azure Active Directory (Azure AD) またはテナントのゲストでない組織外の外部ユーザーへのフェデレーションを行うには、ハイブリッド環境を正しく設定し、Skype for Business Online に移行する必要があります。 2019年2月25日時点では、チームは、SIP プロフィールのユーザが Skype for Business Online をホームにしていなくても、 **ネイティブ** フェデレーションをサポートしていません。 ハイブリッド環境でアカウントを設定した後に Teams に移行する場合の詳細については、「[Skype for Business のハイブリッド展開を Teams にアップグレードする](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)」を参照してください。
+> Teams クライアントを使って外部ユーザーと通信するには (ユーザーが Teams または Skype for Business を使用しているかどうかにかかわらず)、Teams ユーザーが Skype for Business Online を使用している必要があります。
 
 ## <a name="plan-for-external-access"></a>外部アクセスの計画
 
@@ -67,7 +67,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 
 2. **[Users can communicate with other Skype for Business and Teams users]**(ユーザーは他の Skype for Business および Teams ユーザーと通信できます) 設定をオンにします。
 
-     ![[ユーザーは他の Skype for Business および Teams ユーザーと通信できます] 設定がオンになっているスクリーンショット](media/manage-external-access-2.png)。
+     ![[ユーザーは他の Skype for Business および Teams ユーザーと通信できます] 設定がオンになっているスクリーンショット](media/manage-external-access-2.png).
 
 3. すべての Teams の組織に対して、組織内のユーザーとの通信を許可する場合は、手順 5 に進みます。
 
@@ -112,17 +112,38 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 
 ## <a name="common-external-access-scenarios"></a>一般的な外部アクセスのシナリオ
 
-|**目的**  |**操作**  |
-|---------|-----------------------|
-|組織の **Teams ユーザー**が、別の (外部) 組織の **Teams ユーザー**と通信できるようにする。|外部アクセスで、外部ドメインを [許可] リストに追加するか、開いているフェデレーションを使用します。 他の Teams 組織の管理者にも同じ操作を行うように依頼します。      |
-|組織の **Teams ユーザー**が、同じ組織の **Skype for Business Online ユーザー**と通信できるようにする。  |組織の Skype for Business ユーザーをサポートするには、共存モードを有効にするか、アイランドのアップグレード モードを選択します。   |
-|組織の **Teams ユーザー**が、別の (外部) 組織の **Skype for Business Online ユーザー**と通信できるようにする。      |外部アクセスで、外部ドメインを [許可] リストに追加するか、開いているフェデレーションを使用します。 <br><br>外部アクセスの **[Users can communicate with other Skype for Business and Teams users]**(ユーザーは他の Skype for Business および Teams ユーザーと通信できます) 設定をオンにします。 他の Teams 組織の管理者にも同じ操作を行うように依頼します。 <br><br>**注**: Skype for Business ユーザーの外部ドメインでは、その組織の Skype for Business ユーザーがサポートされるように、共存モードが有効になっているか、アイランドのアップグレード モードが選択されている必要があります。|
-|組織内の **Teams ユーザー** が、別の (外部) 組織の **Skype for business オンプレミスユーザー** と通信できるようにします。      |外部アクセスで、外部ドメインを [許可] リストに追加するか、開いているフェデレーションを使用します。 <br><br>外部アクセスの **[Users can communicate with other Skype for Business and Teams users]**(ユーザーは他の Skype for Business および Teams ユーザーと通信できます) 設定をオンにします。 次に、他の組織の管理者が Skype for Business オンプレミスサーバーを構成して、ドメインとのフェデレーションを許可します。|
-|組織の **Teams ユーザー**が、**Skype** ユーザーと通信できるようにする。<br>  |外部アクセスの **[ユーザーは Skype ユーザーと通信できます]** 設定をオンにします。 |
-|**Skype For Business Online ユーザー**が別の Microsoft 365 または Office 365 の**Teams ユーザー**と通信できるようにします。| ユーザーのアップグレード モードが、アイランド、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings のいずれかで、他の組織の Teams ユーザーが TeamsOnly モードの場合、Skype for Business Online ユーザーは他の組織の Teams ユーザーと通信することができます。 <br><br>外部アクセスの **[Users can communicate with other Skype for Business and Teams users]**(ユーザーは他の Skype for Business および Teams ユーザーと通信できます) 設定をオンにします。 他の Teams 組織の管理者にも同じ操作を行うように依頼します。|
-|Skype for **Business online ユーザー** が別の Microsoft 365 または Office 365 から **Skype for business online ユーザー** と通信できるようにします。    | ユーザーのアップグレード モードが、アイランド、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings のいずれかで、他の組織の Skype for Business Online ユーザーのアップグレード モードが、アイランド、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings のいずれかである場合、Skype for Business Online ユーザーは他の組織の Skype for Business Online ユーザーと通信することができます。<br><br>外部アクセスの **[Users can communicate with other Skype for Business and Teams users]**(ユーザーは他の Skype for Business および Teams ユーザーと通信できます) 設定をオンにします。 他の Teams 組織の管理者にも同じ操作を行うように依頼します。|
-|**Skype for Business Online ユーザー**が、オンプレミス組織の **Skype for Business ユーザー**と通信できるようにする。     |ユーザーが次のいずれかのアップグレードモード (孤島、SfBOnly、Sfbwithteams SSfBWithTeamsCollabAndMeetings Ab、) を使用している場合、Skype for Business Online ユーザーは、オンプレミスの組織から Skype for business ユーザーと通信できます。 <br><br> 外部アクセスの **[Users can communicate with other Skype for Business and Teams users]**(ユーザーは他の Skype for Business および Teams ユーザーと通信できます) 設定をオンにします。 次に、他の組織の管理者が Skype for Business オンプレミスサーバーを構成して、ドメインとのフェデレーションを許可します。|
-|**Skype for Business Online ユーザー**が、(組織内外の) **Skype ユーザー**と通信できるようにする。   |外部アクセスの **[ユーザーは Skype ユーザーと通信できます]** 設定をオンにします。|
+以下のセクションでは、一般的な外部アクセスシナリオに対してフェデレーションを有効にする方法と、TeamsUpgradePolicy での着信チャットと通話の配信を決定する方法について説明します。
+
+### <a name="enable-federation"></a>フェデレーションを有効にする
+
+組織内のユーザーが別の組織のユーザーと通信できるようにするには、両方の組織がフェデレーションを有効にする必要があります。 特定の組織に対してフェデレーションを有効にする手順は、組織が純粋にオンライン、ハイブリッド、純粋にオンプレミスのいずれであるかによって異なります。
+
+|**組織の場合** |**次のようにフェデレーションを有効にします。**  |
+|:---------|:-----------------------|
+|オンプレミスの Skype for Business がないオンライン。 これには、チームのユーザーまたは Skype for Business Online ユーザーがいる組織も含まれます。| Teams 管理センターを使用している場合: <br>-[外部アクセス] で [ **ユーザーが他の Skype For business および Teams ユーザーと通信できる** ようにする] 設定が有効になっていることを確認します。<br>-開いているフェデレーション (他のドメインとのフェデレーションを可能にする) を使用していない場合は、許可リストに外部ドメインを追加します。<br><br>PowerShell を使用している場合:<br>-テナントがフェデレーションに対して有効になっていることを確認します。 `Get-CsTenantFederationConfiguration` 表示する必要があり `AllowFederatedUsers=true` ます。 <br>-ユーザーの有効な値がにあることを確認し `CsExternalAccessPolicy` `EnableFederationAccess=true` ます。<br>-オープンフェデレーションを使用していない場合は、ターゲットドメインがに表示されていることを確認し `AllowedDomains` `CsTenantFederationConfiguration` ます。 |
+|純粋なオンプレミス | オンプレミスツールでは、次の操作を行います。 <br>-でフェデレーションが有効になっていることを確認 `CsAccessEdgeConfiguration` します。<br>- `ExternalAccessPolicy` (グローバルポリシー、サイトポリシー、またはユーザーが割り当てられたポリシーのいずれかを通じて) ユーザーのフェデレーションを有効にします。 <br> -オープンフェデレーションを使用していない場合は、ターゲットドメインがに表示されていることを確認し `AllowedDomains` ます。 |
+|一部のユーザー (Skype for Business または Teams のいずれか) とオンプレミスの一部のユーザーとのハイブリッド。 | オンラインとオンプレミスの両方の組織に対して、上記の手順を実行します。 |
+
+### <a name="delivery-of-incoming-chats-and-calls"></a>チャットと通話の着信の配信 
+
+フェデレーション組織からの着信チャットと通話は、TeamsUpgradePolicy の受信者ユーザーモードに応じて、ユーザーのチームまたは Skype for Business クライアントに表示されます。
+
+|**目的** |**手順:**  |
+|:---------|:-----------------------|
+| フェデレーションされたチャットの着信と、ユーザーのチームクライアントで通話を受信できるようにします。 | ユーザーをチームのみに設定します。
+| フェデレーションされたチャットの着信と、ユーザーの Skype for Business クライアントで通話を受信できるようにする | ユーザーは、TeamsOnly 以外のモードに設定します。 |
+
+
+### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>組織内のユーザーと Skype のコンシューマーユーザーの間のフェデレーションを有効にする
+
+組織内のユーザーと Skype のコンシューマーユーザーの間でフェデレーションを有効にするには、次の操作を行います。
+
+|**組織の場合** |**次のようにコンシューマーフェデレーションを有効にする**  |
+|:---------|:-----------------------|
+| オンプレミスの Skype for Business を使用しない純粋なオンライン。  これには、チームのユーザーまたは Skype for Business Online ユーザーがいる組織も含まれます。 | Teams 管理センターを使用している場合: <br>-ユーザが **Skype ユーザとの通信が** 外部アクセスで有効になっていることを確認します。<br><br>PowerShell を使用している場合: <br>-テナントがフェデレーションに対して有効になっていることを確認します。 `Get-CsTenantFederationConfiguration` 表示する必要があり `AllowPublicUsers=true` ます。 <br> -ユーザーの有効な値がにあることを確認し `CsExternalAccessPolicy` `EnablePublicCloudAccess=true` ます。 |
+| 純粋なオンプレミス | オンプレミスツールでは、次の操作を行います。 <br> -フェデレーションパートナーとして Skype が有効になっていることを確認します。 <br> - `EnablePublicCloudAccess=true` `ExternalAccessPolicy` (グローバルポリシー、サイトポリシー、またはユーザーによって割り当てられたポリシーを使用して) ユーザーを確認します。|
+| 一部のユーザー (Skype for Business または Teams のいずれか) とオンプレミスの一部のユーザーとのハイブリッド。| オンラインとオンプレミスの両方の組織に対して、上記の手順を実行します。
+
 
 > [!IMPORTANT]
 > Teams または Skype for Business Online ユーザーが組織内外の Skype ユーザーと通信できるようにする際、**Skype ドメイン**を許可ドメインとして追加する必要はありません。 すべての **Skype ドメイン**はホワイトリストに登録されており、これらのドメインはすべて許可されているものと見なされます。

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: a075a432f57a6634a49e9442da0bdc215b1546d9
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640962"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255505"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "46640962"
 会議ポリシーは、組織内のユーザーによってスケジュールされた会議への参加者が利用できる機能を制御するために使用されます。 自動的に作成される、またはカスタムポリシーを作成して割り当てるグローバル (組織全体の既定) ポリシーを使用できます。 会議ポリシーは、Microsoft Teams 管理センターで管理するか、[PowerShell](teams-powershell-overview.md) を使用して管理します。
 
 > [!NOTE]
-> ロールを使用して、会議の発表者と出席者の権限を管理する方法については、「 [Teams 会議のロール](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。
+> ロールを使用して、会議の発表者と出席者の権限を管理する方法については、「 [Teams 会議のロール](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。
 
 次の方法でポリシーを実装できます。これらの方法は、会議の開始前、会議中、または会議後のユーザーの会議エクスペリエンスに影響します。
 
@@ -76,7 +76,7 @@ ms.locfileid: "46640962"
 
 ## <a name="edit-a-meeting-policy"></a>会議ポリシーを編集する
 
-グローバルポリシーは、作成した任意のカスタムポリシーで編集できます。 
+グローバルポリシーは、作成した任意のカスタムポリシーで編集できます。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[**会議**]  >  [**会議ポリシー**] の順に移動します。
 2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** をクリックします。
@@ -102,7 +102,7 @@ ms.locfileid: "46640962"
 - [コンテンツの共有](#meeting-policy-settings---content-sharing)
 - [参加者とゲスト](#meeting-policy-settings---participants--guests)
 
-::: zone-end 
+::: zone-end
 
 <a name="bkgeneral"> </a>
 
@@ -130,11 +130,37 @@ ms.locfileid: "46640962"
 
 ### <a name="allow-channel-meeting-scheduling"></a>チャネルの会議スケジュールを許可する
 
-これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルで会議をスケジュールできるかどうかを制御します。  これをオフにすると、ユーザーは Teams チャネルで会議を開始するときに [**会議の予約**] オプションを使用できなくなり、Teams のユーザーに対して [**チャネルの追加**] オプションが無効になります。 既定値は True です。
+既存の Allowchannel会議スケジュールポリシーを使用して、チームチャネルの予定表で作成できるイベントの種類を制御します。 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルで会議をスケジュールできるかどうかを制御します。 既定値は True です。
 
-![Teams の [会議の予約] オプションが表示されたスクリーンショット](media/meeting-policies-schedule-a-meeting.png)
+このポリシーが無効になっている場合、ユーザーは新しいチャネル会議を作成することはできません。 ただし、既存のチャネル会議は、イベントの開催者によって編集できます。
 
-![[会議をするチャネルを選択] オプションが表示されたスクリーンショット](media/meeting-policies-select-a-channel-to-meet-in.png)
+会議のスケジュールが無効になります。
+
+![Teams の [会議の予約] オプションが表示されたスクリーンショット](media/schedule-meeting-option.png)
+
+チャネルの選択が無効になっています。
+
+![会議をスケジュールするチャネルを選択するための [予定表] オプションを示すスクリーンショット。](media/meeting-policies-select-a-channel-to-meet-in.png)
+
+[チャネルの投稿] ページでは、次の機能が無効になります。
+
+- [チャネル返信の作成] ボックスの [**会議の予約**] ボタン。
+![会議をスケジュールするチャネルを選択するための [予定表] オプションを示すスクリーンショット。](media/schedule-meeting-disabled-in-chat2.png)
+- チャネルヘッダーの [**会議の予約**] ボタン。
+![会議をスケジュールするチャネルを選択するための [予定表] オプションを示すスクリーンショット。](media/schedule-now-in-header.png)
+
+チャネルの予定表で、次の操作を行います。
+
+- チャネル予定表ヘッダーの [**新しいイベントの追加**] ボタンは無効になります。
+![会議をスケジュールするチャネルを選択するための [予定表] オプションを示すスクリーンショット。](media/add-new-event-disabled.png)
+- チャネルの会議を作成するために、ユーザーはチャネルの予定表の時間ブロックをドラッグして選択することはできません。
+- ユーザーはキーボードショートカットを使用して、チャネル予定表で会議を作成することはできません。
+
+管理センターでは、次の操作を行います。
+
+[管理者] パネルの [ **Microsoft アプリ** ] セクションに、アクセス許可ポリシーが表示されます。
+
+![Teams の管理コンソールでの Microsoft アプリのポリシーを示すスクリーンショット。](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>プライベート会議のスケジュールを許可する
 
@@ -157,7 +183,7 @@ ms.locfileid: "46640962"
 
 ### <a name="allow-transcription"></a>文字起こしを許可する
 
-これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 これをオフにすると、会議の記録の再生中に [**検索**] および [**CC**] オプションを使用できなくなります。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。 
+これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 これをオフにすると、会議の記録の再生中に [**検索**] および [**CC**] オプションを使用できなくなります。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。
 
 記録された会議の文字起こしは、現在、Teams の言語が英語に設定されているユーザー、および会議で英語が話されている場合のユーザーに対してのみサポートされていることに注意してください。
 
@@ -167,7 +193,7 @@ ms.locfileid: "46640962"
 
 これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、このユーザーの会議を記録できるかどうかを制御します。 参加者のポリシー設定が有効になっており、同じ組織の認証済みユーザーである場合、会議の開催者または別の会議参加者が記録を開始できます。
 
-フェデレーション ユーザーや匿名ユーザーなど、組織外のユーザーは記録を開始できません。 ゲスト ユーザーは記録を開始または停止できません。 
+フェデレーション ユーザーや匿名ユーザーなど、組織外のユーザーは記録を開始できません。 ゲスト ユーザーは記録を開始または停止できません。
 
 ![記録オプションが表示されたスクリーンショット](media/meeting-policies-recording.png)
 
@@ -208,7 +234,7 @@ Daniela がビデオを有効にして Amanda に電話した場合、Amanda は
 
 会議に十分な帯域幅がない場合、参加者には、ネットワークの品質低下を示すメッセージが表示されます。
 
-CEO ボード会議や Teams のライブ イベントなど、最高品質のビデオ エクスペリエンスを必要とする会議では、帯域幅を 10 Mbps に設定することをお勧めします。 最大限のエクスペリエンスが設定されている場合でも、特定のネットワーク条件が検出されると、シナリオに応じて、Teams メディア スタックは低帯域幅の条件に適応します。 
+CEO ボード会議や Teams のライブ イベントなど、最高品質のビデオ エクスペリエンスを必要とする会議では、帯域幅を 10 Mbps に設定することをお勧めします。 最大限のエクスペリエンスが設定されている場合でも、特定のネットワーク条件が検出されると、シナリオに応じて、Teams メディア スタックは低帯域幅の条件に適応します。
 
 ## <a name="meeting-policy-settings---content-sharing"></a>会議ポリシーの設定 - コンテンツの共有
 
@@ -242,9 +268,9 @@ Daniela が開催する会議では、会議の参加者が画面全体または
 
 ### <a name="allow-a-participant-to-give-or-request-control"></a>参加者に制御を渡す、または制御を要求する
 
-これは、ユーザーごとのポリシーです。 この設定は、ユーザーが他の会議参加者に共有デスクトップまたはウィンドウの制御を渡すことができるかどうかを制御します。 制御を渡すには、画面の上部にカーソルを合わせます。 
+これは、ユーザーごとのポリシーです。 この設定は、ユーザーが他の会議参加者に共有デスクトップまたはウィンドウの制御を渡すことができるかどうかを制御します。 制御を渡すには、画面の上部にカーソルを合わせます。
 
-ユーザーに対してこの設定が有効になっている場合、共有セッションの上部のバーに [**制御を渡す**] オプションが表示されます。 
+ユーザーに対してこの設定が有効になっている場合、共有セッションの上部のバーに [**制御を渡す**] オプションが表示されます。
 
 ![[制御を渡す] オプションが表示されたスクリーンショット](media/meeting-policies-give-control.png)
 
@@ -264,7 +290,7 @@ Daniela は、Babek が開催する会議の他の参加者に共有デスクト
 制御を渡したり、制御要求を受け入れたりすることができるユーザーを PowerShell を使用して制御するには、AllowParticipantGiveRequestControl コマンドレットを使用します。
 
 > [!NOTE]
-> 共有中に共有コンテンツの制御を渡したり受け取ったりするには、両者が Teams デスクトップ クライアントを使用している必要があります。 いずれかの当事者がブラウザーで Teams を実行している場合、制御はサポートされません。 これは、修正する予定の技術的制限によるものです。 
+> 共有中に共有コンテンツの制御を渡したり受け取ったりするには、両者が Teams デスクトップ クライアントを使用している必要があります。 いずれかの当事者がブラウザーで Teams を実行している場合、制御はサポートされません。 これは、修正する予定の技術的制限によるものです。
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>外部の参加者に制御を渡す、または制御を要求する
 
@@ -294,7 +320,7 @@ Amanda は、会議の開催者であっても、PowerPoint スライド セッ�
 
 ### <a name="allow-whiteboard"></a>ホワイトボードを許可する
 
-これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でホワイトボードを共有できるかどうかを制御します。 匿名ユーザー、B2B ユーザー、およびフェデレーション ユーザーを含む外部ユーザーは、会議開催者のポリシーを継承します。 
+これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でホワイトボードを共有できるかどうかを制御します。 匿名ユーザー、B2B ユーザー、およびフェデレーション ユーザーを含む外部ユーザーは、会議開催者のポリシーを継承します。
 
 次の例を見てみましょう。
 
@@ -329,24 +355,23 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 - [会議でチャットを許可する](#allow-chat-in-meetings)
 
 > [!NOTE]
->会議に参加するためのオプションは、各 Teams グループの設定および接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「[電話会議](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「[Teams での会議に参加する](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)」を参照してください。
+>会議に参加するためのオプションは、各 Teams グループの設定および接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「 [電話会議](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「[Teams での会議に参加する](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)」を参照してください。
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>匿名ユーザーが会議を開始できるようにする
 
-これは開催者単位のポリシーであり、会議の leaderless でダイヤルすることができます。 この設定は、ユーザーが会議に参加できるかどうかを制御します。 既定値は False であり、ダイヤルインユーザーは、組織から認証されたユーザーが会議に参加するまでロビーで待機することになります。 
+これは開催者単位のポリシーであり、会議の leaderless でダイヤルすることができます。 この設定は、ユーザーが会議に参加できるかどうかを制御します。 既定値は False であり、ダイヤルインユーザーは、組織から認証されたユーザーが会議に参加するまでロビーで待機することになります。
 
-**注**False で、ダイヤルインユーザーが最初に会議に参加し、ロビーに配置されている場合、組織のユーザーは、ロビーからユーザーを許可するためにチームクライアントとの会議に参加する必要があります。 ユーザーのダイヤルに使用できるロビーコントロールはありません。 
-
+**注** False で、ダイヤルインユーザーが最初に会議に参加し、ロビーに配置されている場合、組織のユーザーは、ロビーからユーザーを許可するためにチームクライアントとの会議に参加する必要があります。 ユーザーのダイヤルに使用できるロビーコントロールはありません。
 
 ### <a name="automatically-admit-people"></a>ユーザーの参加を自動的に許可する
 
-これは開催者単位のポリシーです。 この設定は、ユーザーが会議に直接参加するのか、認証ユーザーにより入室が許可されるまでロビーで待機するのかを制御します。 この設定は、ダイヤルインユーザーには適用されません。 
+これは開催者単位のポリシーです。 この設定は、ユーザーが会議に直接参加するのか、認証ユーザーにより入室が許可されるまでロビーで待機するのかを制御します。 この設定は、ダイヤルインユーザーには適用されません。
 
 ![ロビーにいるユーザーとの会議を示すスクリーンショット](media/meeting-policies-lobby.png)
 
  会議の開催者は、会議出席依頼の [**会議オプション**] をクリックして、スケジュールする会議ごとにこの設定を変更できます。
- 
- **注**会議オプションの設定には、"ロビーをバイパスできるユーザー" のラベルが表示されます。
+
+ **注** 会議オプションの設定には、"ロビーをバイパスできるユーザー" のラベルが表示されます。
   
 |値を設定する  |参加動作 |
 |---------|---------|
@@ -356,10 +381,9 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>ダイヤルイン ユーザーによるロビーのバイパスを許可する
 
-これは開催者単位のポリシーです。 この設定では、スマートフォンでダイヤル インするユーザーが会議に直接参加するのか、[**ユーザーの参加を自動的に許可する**] の設定に関わらずロビーで待機するのかを制御します。 既定値は False です。 False の場合、ユーザーは、組織のユーザーがチームクライアントと会議に参加し、そのメンバーを許可するまで、ロビーで待機します。 True の場合、組織のユーザーが会議に参加すると、ダイヤルインユーザーは自動的に会議に参加します。 
+これは開催者単位のポリシーです。 この設定では、スマートフォンでダイヤル インするユーザーが会議に直接参加するのか、[**ユーザーの参加を自動的に許可する**] の設定に関わらずロビーで待機するのかを制御します。 既定値は False です。 False の場合、ユーザーは、組織のユーザーがチームクライアントと会議に参加し、そのメンバーを許可するまで、ロビーで待機します。 True の場合、組織のユーザーが会議に参加すると、ダイヤルインユーザーは自動的に会議に参加します。
 
-**注**ダイヤルインユーザーが会議に参加する前に、組織のユーザーが会議に参加すると、組織のユーザーがチームクライアントを使って会議に参加し、それを管理するまで、そのユーザーはロビーに配置されます。 
-
+**注** ダイヤルインユーザーが会議に参加する前に、組織のユーザーが会議に参加すると、組織のユーザーがチームクライアントを使って会議に参加し、それを管理するまで、そのユーザーはロビーに配置されます。
 
 ### <a name="enable-live-captions"></a>ライブ キャプションを有効にする
 
@@ -384,50 +408,50 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 これは、ユーザーごとのポリシーです。 この設定では、Teams クライアントの [**会議オプション**] の設定を変更する**こと**ができます。 このポリシー設定は、[今すぐ会議] を含むすべての会議に影響します。
 
-[**発表者]** : 会議の開催者が会議で発表者になれるユーザーを選択できるように設定します。 詳細については、「teams 会議のチーム会議と[ロール](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)[の参加者設定を変更](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)する」を参照してください。
+[ **発表者]** : 会議の開催者が会議で発表者になれるユーザーを選択できるように設定します。 詳細については、「teams 会議のチーム会議と[ロール](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)[の参加者設定を変更](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)する」を参照してください。
 
-現時点では、このポリシー設定を構成するには PowerShell を使用する必要があります。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
+現時点では、このポリシー設定を構成するには PowerShell を使用する必要があります。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
 
-Teams で [**表示できるユーザー]** の既定値を指定するには、 **Designatedpresenterrolemode**パラメーターを次のいずれかに設定します。
+Teams で [ **表示できるユーザー]** の既定値を指定するには、 **Designatedpresenterrolemode** パラメーターを次のいずれかに設定します。
 
-- すべてのユーザーの**上書き**: すべての会議参加者を発表者にすることができます。 これは既定の値です。 このパラメーターは、Teams の [**すべてのユーザー** ] 設定に対応します。
+- すべてのユーザーの**上書き**: すべての会議参加者を発表者にすることができます。 これは既定の値です。 このパラメーターは、Teams の [ **すべてのユーザー** ] 設定に対応します。
 - すべてのユーザーの**上書き**: ゲストユーザーを含む、組織内の認証済みユーザーは発表者になることができます。 このパラメーターは、Teams の **[組織内のユーザー** ] 設定に対応します。
-- 構成内容の**上書き**: 会議の開催者のみが発表者になり、すべての会議参加者が出席者として指定されます。 このパラメーターは、Teams の [**自分のみ**] の設定に対応しています。
+- 構成内容の**上書き**: 会議の開催者のみが発表者になり、すべての会議参加者が出席者として指定されます。 このパラメーターは、Teams の [ **自分のみ** ] の設定に対応しています。
 
 既定値を設定した後でも、会議の開催者は Teams でこの設定を変更することができ、スケジュールした会議で発表できるユーザーを選択することに注意してください。
 
 ## <a name="meeting-policy-settings---meeting-attendance-report"></a>会議のポリシー設定-会議出席依頼のレポート
 
-これは、ユーザーごとのポリシーです。 この設定は、会議の開催者が[会議出席の参加者レポート](teams-analytics-and-reports/meeting-attendance-report.md)をダウンロードできるかどうかを制御します。
+これは、ユーザーごとのポリシーです。 この設定は、会議の開催者が [会議出席の参加者レポート](teams-analytics-and-reports/meeting-attendance-report.md)をダウンロードできるかどうかを制御します。
 
-現時点では、このポリシー設定を構成するには PowerShell を使用する必要があります。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
+現時点では、このポリシー設定を構成するには PowerShell を使用する必要があります。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
 
-会議の開催者が会議の出席レポートをダウンロードできるようにするには、 **AllowEngagementReport**パラメーターを [**有効**] に設定します。 有効にした場合、レポートをダウンロードするオプションが [**参加者**] ウィンドウに表示されます。
+会議の開催者が会議の出席レポートをダウンロードできるようにするには、 **AllowEngagementReport** パラメーターを [ **有効**] に設定します。 有効にした場合、レポートをダウンロードするオプションが [ **参加者** ] ウィンドウに表示されます。
 
-会議の開催者がレポートをダウンロードできないようにするには、パラメーターを [**無効**] に設定します。 既定では、この設定は無効であり、レポートをダウンロードするためのオプションは使用できません。
+会議の開催者がレポートをダウンロードできないようにするには、パラメーターを [ **無効**] に設定します。 既定では、この設定は無効であり、レポートをダウンロードするためのオプションは使用できません。
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>会議ポリシーの設定-諸島モードの会議プロバイダー
 
-これは、ユーザーごとのポリシーです。 この設定は、*孤島モードのユーザー*が使用する Outlook 会議アドインを制御します。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
+これは、ユーザーごとのポリシーです。 この設定は、 *孤島モードのユーザー*が使用する Outlook 会議アドインを制御します。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
 
 このポリシーは、アイランドモードで、Teams の会議ポリシーで **AllowOutlookAddIn** パラメーターが **True** に設定されているユーザーにのみ適用できます。
 
-現在、PowerShell を使ってこのポリシーを設定することはできません。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
+現在、PowerShell を使ってこのポリシーを設定することはできません。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーに割り当てます。
 
-ユーザーが使用できるようにする会議アドインを指定するには、次のように**PreferredMeetingProviderForIslandsMode**パラメーターを設定します。
+ユーザーが使用できるようにする会議アドインを指定するには、次のように **PreferredMeetingProviderForIslandsMode** パラメーターを設定します。
 
-- Outlook で Teams 会議アドインと Skype for Business アドインの両方を有効にするには、パラメーターを**TeamsAndSfB**に設定します。 これは既定の値です。
+- Outlook で Teams 会議アドインと Skype for Business アドインの両方を有効にするには、パラメーターを **TeamsAndSfB** に設定します。 これは既定の値です。
 - このパラメーターを [ **teams** ] に設定して、Outlook で teams 会議アドインのみを有効にします。 このポリシー設定では、今後のすべての会議に Teams の会議参加リンクを設定することができます。 既存の Skype for Business 会議の参加リンクは Teams に移行されません。 このポリシー設定は、プレゼンス、チャット、PSTN 通話、または Skype for Business のその他の機能には影響しません。つまり、ユーザーはこれらの機能に対して引き続き Skype for Business を使用することになります。
 
-  このパラメーターを**Teams**に設定してから、 **TeamsAndSfB**に戻すと、両方の会議アドインが有効になります。 ただし、既存の Teams 会議の参加リンクは Skype for Business に移行されないことに注意してください。 変更後にスケジュールされた Skype for Business 会議のみが、Skype for Business 会議の参加リンクになります。
+  このパラメーターを **Teams**に設定してから、 **TeamsAndSfB**に戻すと、両方の会議アドインが有効になります。 ただし、既存の Teams 会議の参加リンクは Skype for Business に移行されないことに注意してください。 変更後にスケジュールされた Skype for Business 会議のみが、Skype for Business 会議の参加リンクになります。
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>会議のポリシー設定-ビデオフィルターモード
 
 これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でビデオの背景をカスタマイズできるかどうかを制御します。
 
-現在、PowerShell を使ってこのポリシーを設定することはできません。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーにポリシーを割り当てます。
+現在、PowerShell を使ってこのポリシーを設定することはできません。 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)コマンドレットを使用して、既存の Teams 会議ポリシーを編集できます。 または、 [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して新しいチーム会議ポリシーを作成し、ユーザーにポリシーを割り当てます。
 
-会議中にユーザーがビデオの背景をカスタマイズできるかどうかを指定するには、次のように**Videoフィルタモード**のパラメーターを設定します。
+会議中にユーザーがビデオの背景をカスタマイズできるかどうかを指定するには、次のように **Videoフィルタモード** のパラメーターを設定します。
 
 |PowerShell での値の設定 |動作  |
 |---------|---------|

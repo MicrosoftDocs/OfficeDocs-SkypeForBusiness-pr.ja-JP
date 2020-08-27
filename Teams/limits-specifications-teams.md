@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daeacf5e5019dd8b63ef19b194b241cbdfe9d84f
-ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
+ms.openlocfilehash: 3cc7cdf9dc685e595a7efa3c0eddbf63f9ee79f1
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46864511"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897697"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -65,7 +65,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 |機能  | 上限  |
 |---------|---------|
-|プライベート チャットに参加できるユーザー数 <sup>1</sup>  | 250 人<br><br>**注:** 政府機関用の Teams (GCC、GCC High、DoD) の場合、制限は 100 のままです。 政府機関のクラウド制限が 100 から 250 に増加したときに、この記事を更新します。    |
+|プライベート チャットに参加できるユーザー数 <sup>1</sup>  | 250 人 |
 |ビデオまたは音声通話でチャットに参加できるユーザーの数 | 20 |
 |添付ファイルの数 <sup>2</sup>  |10     |
 |チャットのサイズ | 投稿ごとに約 28 KB<sup>3</sup> |

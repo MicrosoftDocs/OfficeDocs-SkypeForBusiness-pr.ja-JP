@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams で発信者番号ポリシーを管理する
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号を変更またはブロックする方法について説明します。
-ms.openlocfilehash: 41466640f33769a64ce14d5d3dc47959c876a5bc
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: c3eabc5a9e906fd514ce92864e08cad5015f6670
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938466"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255530"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号ポリシーを管理する
 
@@ -44,7 +44,7 @@ ms.locfileid: "44938466"
 4. ここで、希望する設定を選びます。
 
     - **[Block incoming caller ID](着信した発信者番号をブロックする)**: この設定をオンにすると、着信した通話の発信者番号が表示されないようにブロックされます。
-    - **発信者番号ポリシーを無効**にする: この設定を有効にすると、ユーザーがポリシーの設定を上書きして、呼び出し先の番号を表示するかどうかを指定することができます。 つまり、発信者番号を表示するかどうかをユーザー自身が選択できます。 詳細については、「[発信の発信者番号のエンドユーザーによる制御](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id)」を参照してください。
+    - **発信者番号ポリシーを無効**にする: この設定を有効にすると、ユーザーがポリシーの設定を上書きして、呼び出し先の番号を表示するかどうかを指定することができます。 つまり、発信者番号を表示するかどうかをユーザー自身が選択できます。 詳細については、「 [発信の発信者番号のエンドユーザーによる制御](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id)」を参照してください。
     - **発信者**番号認識の代わりに、次のいずれかを選択して、ユーザーに表示される発信者番号を設定します。
 
         - **[ユーザーの番号]**: ユーザーの番号を表示します。 
