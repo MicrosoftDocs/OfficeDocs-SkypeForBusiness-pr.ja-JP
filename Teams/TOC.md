@@ -73,7 +73,7 @@
 #### [ゲスト ユーザー情報を編集する](edit-guests-information.md)
 #### [PowerShell を使用してゲスト アクセスを制御する](guest-access-PowerShell.md)
 #### [ゲスト アクセスのトラブルシューティング](troubleshoot-guest-access.md)
-
+## [Teams の Cortana](cortana-in-teams.md)
 
 
 
@@ -294,6 +294,7 @@
 #### [小規模ビジネスの例 - 呼び出しキューをセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Teams のリソース アカウントを管理する](manage-resource-accounts.md)
 #### [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
+#### [休日を設定する](set-up-holidays-in-teams.md)
 #### [自動応答および呼び出しキューの通話に Teams から直接応答する](answer-auto-attendant-and-call-queue-calls.md)
 
 ### [受信通話をブロックする](block-inbound-calls.md)
