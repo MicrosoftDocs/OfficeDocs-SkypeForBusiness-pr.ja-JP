@@ -816,7 +816,6 @@
 ### [Teams アドオンのライセンス割り当て](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [Office 365 E1 試用版を管理する](e1-trial-license.md)
 ### [Office 365 G1 試用版を管理する](g1-trial-license.md)
-### [Teams の商用試用版サービスの管理](iw-trial-teams.md)
 ### [Teams の調査エクスペリエンスを管理する](teams-exploratory.md)
 ### [Teams の無料版を管理する](manage-freemium.md)
 ### [Teams を無料で月額プラン バージョンにアップグレードする](upgrade-freemium.md)
