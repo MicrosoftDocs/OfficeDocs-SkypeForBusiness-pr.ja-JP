@@ -17,12 +17,12 @@ description: Microsoft 通話プランおよび電話システムダイレクト
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255380"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321740"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -42,7 +42,11 @@ Microsoft 通話プランや電話システムのダイレクトルーティン�
 
    - [ネットワーク設定] サイトが表示されている場合、緊急通話のポリシーがそのサイトから Teams クライアントに返されます。 (ポリシーの詳細については、「 [緊急ポリシーを構成する](#configure-emergency-policies)」を参照してください)。
 
-   - LIS の一致がある場合は、Teams クライアントが接続されているネットワーク要素の緊急対応の場所が Teams クライアントに返されます。
+   - LIS の一致がある場合は、Teams クライアントが接続されているネットワーク要素の緊急対応の場所が Teams クライアントに返されます。 一致する結果は、最初に一致した結果が返され、次の順序で実行されます。
+       - WAP
+       - イーサネットスイッチ/ポート
+       - イーサネットスイッチ
+       - サブネット
 
 3. チームクライアントが緊急通報を行うと、緊急対応の場所が PSTN ネットワークに伝達されます。
 

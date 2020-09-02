@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 57b7cdcf2229f6fa0aa6b9710866545238bec98c
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640832"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47323931"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -64,7 +64,8 @@ Teams MSI はインストーラーを Program Files に配置します。 ユー
 
 更新プログラムを展開するのに MSI を使用しないでください。クライアントは、サービスから利用可能な新しいバージョンを見つけたら、自動更新します。 最新のインストーラーを再展開するには、以下に説明されている MSI の再展開のプロセスを使用します。 MSI パッケージの以前のバージョンを展開すると、クライアントはそのユーザーが可能なときに自動更新を実行します (VDI 環境を除く)。 非常に昔のバージョンが展開された場合、MSI はユーザーが Teams を使用できる状態になる前にアプリの更新をトリガーします。
 
-> [!Important]
+> [!IMPORTANT]
+> 既定の場所は、64ビットオペレーティングシステム上の C:\Program Files (x86)/Teams インストーラーと32ビットオペレーティングシステムの C:\Program Files\Teams Installer です。
 > 既定のインストール場所を変更すると、更新フローが崩れる可能性があるため、お勧めしません。 非常に昔のバージョンを利用すると、ユーザーがサービスにアクセスするのを妨げる結果になってしまいます。
 
 #### <a name="target-computer-requirements"></a>対象となるコンピューターの要件
@@ -83,7 +84,7 @@ VDI に Teams デスクトップ アプリを展開する方法の詳細なガ�
 ユーザーが自分のユーザープロファイルから Teams をアンインストールした場合、MSI installer は、ユーザーが Teams アプリをアンインストールして、そのユーザープロファイルの Teams をインストールしなくなったことを追跡します。 このユーザーのために Teams がアンインストールされた特定のコンピューター上で Teams を再展開するには、次の手順を実行します。
 
 > [!IMPORTANT]
-> 次の手順には、レジストリの変更方法についての情報が含まれています。 レジストリを変更する前に必ずバックアップし、問題が発生した場合にレジストリを復元する方法について確認してください。 レジストリのバックアップ、復元、変更の詳細については、「[上級ユーザー向けの Windows レジストリ情報](https://support.microsoft.com/help/256986)」を参照してください。
+> 次の手順には、レジストリの変更方法についての情報が含まれています。 レジストリを変更する前に必ずバックアップし、問題が発生した場合にレジストリを復元する方法について確認してください。 レジストリのバックアップ、復元、変更の詳細については、「 [上級ユーザー向けの Windows レジストリ情報](https://support.microsoft.com/help/256986)」を参照してください。
 
 1. 各ユーザープロファイルにインストールされている Teams アプリをアンインストールします。 詳細については、「 [Microsoft Teams をアンインストール](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)する」を参照してください。
 2. ディレクトリを再帰的に削除 `%localappdata%\Microsoft\Teams\` します。
@@ -123,7 +124,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 ユーザーが Windows にログインすると、Teams は MSI と一緒にインストールされ、Teams を起動するためのショートカットがユーザーのデスクトップに追加されます。 そのユーザーが手動で Teams を起動するまで Teams は起動しません。 ユーザーが手動で Teams を起動すると、そのユーザーがログインするたびに Teams は自動起動するようになります。
 
-これらの例では、 **ALLUSERS = 1**パラメーターも使用していることに注意してください。 このパラメーターを設定すると、チームのコンピューター全体のインストーラーがコントロールパネルの [プログラムと機能] に表示され、[アプリ] では、コンピューターのすべてのユーザーの Windows 設定の & 機能が表示されます。 すべてのユーザーは、コンピューターの管理者資格情報を持っている場合、Teams をアンインストールできます。
+これらの例では、 **ALLUSERS = 1** パラメーターも使用していることに注意してください。 このパラメーターを設定すると、チームのコンピューター全体のインストーラーがコントロールパネルの [プログラムと機能] に表示され、[アプリ] では、コンピューターのすべてのユーザーの Windows 設定の & 機能が表示されます。 すべてのユーザーは、コンピューターの管理者資格情報を持っている場合、Teams をアンインストールできます。
 
 > [!Note]
 > MSI を手動で実行する場合は、昇格されたアクセス許可で実行します。 管理者として実行する場合でも、管理者特権で実行しない限り、インストーラーで自動起動を無効にするオプションを構成することはできません。

@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシーパッケージを使用して管理する方法について説明します。ユーザーグループのポリシーを管理するときの一貫性を向上させるために、さまざまな方法で管理することができます。
-ms.openlocfilehash: 0bd14852a9f488bb6740a2df8219041ba0c71ebb
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: 01f32f1141ce46aa45073571ccfaabc8646fc215
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45374365"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47327259"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシーパッケージを管理する
 
@@ -82,39 +82,47 @@ Microsoft Teams 管理センターでポリシーパッケージを表示、割�
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>ポリシーパッケージ内のポリシーの設定を表示する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ポリシーパッケージ**] をクリックし、パッケージ名の左側をクリックしてポリシーパッケージを選択します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **ポリシーパッケージ**] をクリックし、パッケージ名の左側をクリックしてポリシーパッケージを選択します。
 2. 表示するポリシーをクリックします。
 
-### <a name="assign-a-policy-package"></a>ポリシーパッケージを割り当てる
+### <a name="assign-a-policy-package"></a>ポリシー パッケージを割り当てる
 
 #### <a name="assign-a-policy-package-to-one-user"></a>1人のユーザーにポリシーパッケージを割り当てる
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動してユーザーをクリックします。
-2. ユーザーのページで、[**ポリシー**] をクリックし、[**ポリシーパッケージ**] の横にある [**編集**] をクリックします。
-3. [**ポリシーパッケージの割り当て**] ウィンドウで、割り当てるパッケージを選択し、[**保存**] をクリックします。
+2. ユーザーのページで、[ **ポリシー**] をクリックし、[ **ポリシーパッケージ**] の横にある [ **編集**] をクリックします。
+3. [ **ポリシーパッケージの割り当て** ] ウィンドウで、割り当てるパッケージを選択し、[ **保存**] をクリックします。
 
 #### <a name="assign-a-policy-package-to-multiple-users"></a>ポリシーパッケージを複数のユーザーに割り当てる
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**ポリシーパッケージ**] に移動し、パッケージ名の左側をクリックして割り当てるポリシーパッケージを選択します。
-2. [**ユーザーの管理**] をクリックします。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **ポリシーパッケージ**] に移動し、パッケージ名の左側をクリックして割り当てるポリシーパッケージを選択します。
+2. [ **ユーザーの管理**] をクリックします。
 3. [**ユーザーを管理する**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] をクリックします。 追加するユーザーごとに、この手順を繰り返します。
 4. ユーザーの追加が完了したら、[**保存**] をクリックします。
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>ポリシーパッケージを大規模なユーザー (バッチ) に割り当てる
 
-バッチポリシーパッケージの割り当てを使用して、一度に多くのユーザーにポリシーパッケージを割り当てます。 [CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation)コマンドレットを使用して、ユーザーのバッチと、割り当てるポリシーパッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチに対して操作 ID が生成されます。
+バッチポリシーパッケージの割り当てを使用して、一度に多くのユーザーにポリシーパッケージを割り当てます。 [CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation)コマンドレットを使用して、ユーザーのバッチと、割り当てるポリシーパッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチの操作 ID が生成されます。
 
-バッチには最大5000ユーザーを含めることができます。 ユーザーは、オブジェクト Id、UPN、SIP アドレス、またはメールアドレスで指定できます。 詳細については、「[ユーザーのバッチにポリシーパッケージを割り当てる](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)」を参照してください。
+バッチには最大 5,000 のユーザーを含めることができます。 ユーザーは、オブジェクト Id、UPN、SIP アドレス、またはメールアドレスで指定できます。 詳細については、「 [ユーザーのバッチにポリシーパッケージを割り当てる](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)」を参照してください。
 
 ### <a name="customize-policies-in-a-policy-package"></a>ポリシーパッケージのポリシーをカスタマイズする
 
-ポリシーの設定を編集するには、[**ポリシーパッケージ**] ページを使用するか、Microsoft Teams 管理センターの [ポリシー] ページに直接移動します。
+ポリシーの設定を編集するには、[ **ポリシーパッケージ** ] ページを使用するか、Microsoft Teams 管理センターの [ポリシー] ページに直接移動します。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、次のいずれかの操作を行います。
-    - [**ポリシーパッケージ**] をクリックし、パッケージ名の左側をクリックしてポリシーパッケージを選択します。
-    - [ポリシーの種類] をクリックします。  たとえば、[**メッセージングポリシー**] をクリックします。
+    - [ **ポリシーパッケージ**] をクリックし、パッケージ名の左側をクリックしてポリシーパッケージを選択します。
+    - [ポリシーの種類] をクリックします。  たとえば、[ **メッセージングポリシー**] をクリックします。
 2. 編集するポリシーをクリックします。 ポリシーパッケージにリンクされているポリシーは、ポリシーパッケージと同じ名前になっています。
-3. 必要な変更を加えて、[**保存**] をクリックします。
+3. 必要な変更を加えて、[ **保存**] をクリックします。
+
+## <a name="supported-policy-types"></a>サポートされているポリシーの種類
+
+- Messaging
+- 会議
+- 通話
+- アプリのセットアップ
+- ライブ イベント
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
@@ -122,6 +130,6 @@ Microsoft Teams 管理センターでポリシーパッケージを表示、割�
 
 この問題は、パッケージ内の1つ以上のポリシーが正常に作成または適用されなかった場合に発生することがあります。 ポリシーパッケージをユーザーに割り当て直します。 通常、操作を再試行すると、この問題は修正されます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [EDU 管理者向けの Microsoft Teams ポリシー パッケージ](policy-packages-edu.md)
