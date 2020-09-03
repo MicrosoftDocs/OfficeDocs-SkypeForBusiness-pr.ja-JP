@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: ヘッドセット、スピーカーフォン、web カメラ、モニターなどの USB 周辺機器とデバイスは、Microsoft Teams で認定されています。
-ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640912"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331632"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams で認定された USB オーディオデバイスおよびビデオデバイス
 
@@ -31,19 +31,19 @@ Microsoft Teams でテストおよび認定されたデバイスを調査する�
 Teams での通話コントロールのサポートについて詳しくは、「 [teams でヘッドセットを使用して通話を制御](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)する」をご覧ください。
 
 > [!TIP]
-> Skype for Business を認定しているデバイスをお探しですか? Skype for Business 用に認定された[USB オーディオデバイスおよびビデオデバイス](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices)に接続します。
+> Skype for Business を認定しているデバイスをお探しですか? Skype for Business 用に認定された [USB オーディオデバイスおよびビデオデバイス](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices)に接続します。
 
 ## <a name="understanding-certification-categories"></a>認定カテゴリについて
 
 ユーザーは、Skype for Business から Teams にアップグレードするときに、以前に認定されたデバイスを置き換える必要はありません。  認定されたすべてのデバイスは、Microsoft Teams ユーザーと Skype for Business ユーザーの両方でサポートされていますが、機能にはいくつかの違いがあります。  また、特定のデバイスカテゴリについてさらに詳しく説明します。
 
-- **チームのアップグレードで認定された Skype For business**このレベルで認定されたデバイスは、最初は Skype for Business に対して認定されています。 可能な限り有効期間の値をユーザーに提供するために、Microsoft はデバイスの製造元と協力して、元のハードウェアを変更せずに、これらの既存のデバイスでできるだけ多くのチームとの統合を実現しています。 *Hookswitch*ボタンは、通話中でないときは Teams ボタンとして機能し、時間の経過に伴う追加の機能が含まれている場合があります。  このカテゴリのデバイスには、マーケティング資料の Teams 認定バッジが含まれていることがあります。
-- **Microsoft Teams について認定**済みこのレベルで認定されたデバイスは、妥協のないチームエクスペリエンスを実現するために、最新のデバイスを認定しています。 これらのデバイスは、以前の認定のすべてのメリットを提供します。また、専用のチームボタンも LED インジケーター付きで備えています。 ほとんどのフォームファクターでは、teams ボタンは Teams のロゴ付きの、見つけやすい触覚的ボタンになります。 Microsoft は、今後もデバイスの製造元と協力して、ファームウェアの更新プログラムを通じて新しい価値を提供しています。
+- **チームのアップグレードで認定された Skype For business** このレベルで認定されたデバイスは、最初は Skype for Business に対して認定されています。 可能な限り有効期間の値をユーザーに提供するために、Microsoft はデバイスの製造元と協力して、元のハードウェアを変更せずに、これらの既存のデバイスでできるだけ多くのチームとの統合を実現しています。 *Hookswitch*ボタンは、通話中でないときは Teams ボタンとして機能し、時間の経過に伴う追加の機能が含まれている場合があります。  このカテゴリのデバイスには、マーケティング資料の Teams 認定バッジが含まれていることがあります。
+- **Microsoft Teams について認定** 済みこのレベルで認定されたデバイスは、妥協のないチームエクスペリエンスを実現するために、最新のデバイスを認定しています。 これらのデバイスは、以前の認定のすべてのメリットを提供します。また、専用のチームボタンも LED インジケーター付きで備えています。 ほとんどのフォームファクターでは、teams ボタンは Teams のロゴ付きの、見つけやすい触覚的ボタンになります。 Microsoft は、今後もデバイスの製造元と協力して、ファームウェアの更新プログラムを通じて新しい価値を提供しています。
 
 ### <a name="special-usage-designations"></a>特殊な用途の表記
 
-- **Office を開くためのプレミアムマイク**すべてのヘッドセットは、明瞭な音声を実現するためにテストされていますが、開いている office やその他の雑音の多い環境では、ヘッドセットユーザーの声をはっきりと聞くことができますが、相手のサウンドは送信されません。
-- **会議室のサイズ**スピーカーフォンやカメラなどの共有デバイスには使用距離がサポートされています。また、お客様が推奨する距離は、製造元によって異なる場合があります。 お客様にガイダンスを提供するために、すべての共有デバイスは認定されたルームのサイズとノイズ環境に基づいてテストされます。
+- **Office を開くためのプレミアムマイク** すべてのヘッドセットは、明瞭な音声を実現するためにテストされていますが、開いている office やその他の雑音の多い環境では、ヘッドセットユーザーの声をはっきりと聞くことができますが、相手のサウンドは送信されません。
+- **会議室のサイズ** スピーカーフォンやカメラなどの共有デバイスには使用距離がサポートされています。また、お客様が推奨する距離は、製造元によって異なる場合があります。 お客様にガイダンスを提供するために、すべての共有デバイスは認定されたルームのサイズとノイズ環境に基づいてテストされます。
 
 [Microsoft Teams で認定済みのデバイスを](https://products.office.com/microsoft-teams/across-devices/devices)参照します。
 
@@ -70,14 +70,21 @@ Teams での通話コントロールのサポートについて詳しくは、�
 - プロビジョニングは必要ありません
 - すべてのデバイスでファームウェアの更新がサポートされ、新機能とパフォーマンスの向上が可能になりました。
 
-製造業者で、認定プログラムに参加したい場合は、「要件と利用可能なプログラムに[参加する方法](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)」を参照してください。
+製造業者で、認定プログラムに参加したい場合は、「要件と利用可能なプログラムに [参加する方法](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 」を参照してください。
 
 ## <a name="certified-devices"></a>認定済みデバイス
 
-*2020年7月に更新された表*
+*2020年8月更新された表*
 
 | [製造元]        | モデリング                                                     | 識別      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra evolve                |80ヘッドセットの進化                                          |8/23/2020       |Microsoft Teams にアップグレードした Skype for Business      |
+|Jabra evolve                |40ヘッドセットの進化                                          |8/23/2020       |Microsoft Teams にアップグレードした Skype for Business      |
+|Jabra evolve                |30 II ヘッドセットの進化                                       |8/23/2020       |Microsoft Teams にアップグレードした Skype for Business      |
+|Jabra evolve                |20ヘッドセットの進化                                          |8/23/2020       |Microsoft Teams にアップグレードした Skype for Business      |
+|EPOS/Sennheiser      |USB 経由での SC 660 への影響について                |8/20/2020       |Microsoft Teams にアップグレードした Skype for Business      |
+|EPOS/Sennheiser      |USB 経由での SC 630 への影響について                |8/20/2020       |Microsoft Teams にアップグレードした Skype for Business      |
+|EPOS/Sennheiser      |USB 経由での SC 260 への影響について                |8/20/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Skype for Business の認定                        |
 |ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Skype for Business の認定                        |
 |Jabra evolve                |75ヘッドセットの進化                                          |7/31/2020       |Microsoft Teams にアップグレードした Skype for Business      |
