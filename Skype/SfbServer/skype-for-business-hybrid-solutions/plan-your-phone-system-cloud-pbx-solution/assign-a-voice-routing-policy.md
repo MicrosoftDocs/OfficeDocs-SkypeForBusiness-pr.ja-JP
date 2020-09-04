@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: '概要: このトピックでは、オンプレミスの PSTN 接続を使用する電話システムを使用するユーザーに音声ポリシーを割り当てる方法について説明します。'
-ms.openlocfilehash: 141d3cca560201df921fb4195db55ac60103a3d6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5d56d4f88e30b605276296b35cd9f316348342ca
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221861"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359323"
 ---
 # <a name="assign-a-voice-routing-policy"></a>音声ルーティング ポリシーの割り当て
  
+> [!Important]
+> Skype for Business Online は、2021年7月31日に廃止されます。その後、サービスにアクセスできなくなります。  さらに、Skype for Business Server または Cloud Connector Edition と Skype for Business Online のどちらを使用しても、オンプレミス環境との間の PSTN 接続がサポートされなくなります。  [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを Teams に接続する方法について説明します。
+
 **概要:** このトピックでは、オンプレミスの PSTN 接続を備えた電話システムを使用するユーザーに音声ポリシーを割り当てる方法について説明します。 
   
 ユーザーが Skype for Business Online を使用していて、オンプレミスの PSTN 接続を備えた電話システムを使用すると、2つの音声ポリシーが適用されます。 1つはオンプレミスで割り当てられる社内音声ルーティングポリシーです。 このポリシーは、グローバルまたはユーザー固有のものであり、ユーザーに関連付けられている PSTN 使用法レコードを定義します。 このトピックでは、このポリシーを割り当てる方法について説明します。
@@ -49,7 +52,7 @@ ms.locfileid: "44221861"
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. Skype for Business Server 管理シェルを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **skype for business 2015**] の順にクリックし、[ **skype for business server 管理シェル**] をクリックします。
+2. Skype for Business Server 管理シェルを起動します。 [ **スタート**]、[ **すべてのプログラム**]、[ **skype for business 2015**] の順にクリックし、[ **skype for business server 管理シェル**] をクリックします。
     
 3. PSTN 使用法レコードをポリシーに追加します。
     
@@ -57,7 +60,7 @@ ms.locfileid: "44221861"
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    次に例を示します。
+    例:
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
@@ -69,7 +72,7 @@ ms.locfileid: "44221861"
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. Skype for Business Server 管理シェルを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **skype for business 2015**] の順にクリックし、[ **skype for business server 管理シェル**] をクリックします。
+2. Skype for Business Server 管理シェルを起動します。 [ **スタート**]、[ **すべてのプログラム**]、[ **skype for business 2015**] の順にクリックし、[ **skype for business server 管理シェル**] をクリックします。
     
 3. 新しい音声ルーティングポリシーを作成します。
     
@@ -77,7 +80,7 @@ ms.locfileid: "44221861"
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    次に例を示します。
+    例:
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
@@ -93,7 +96,7 @@ ms.locfileid: "44221861"
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. Skype for Business Server 管理シェルを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **skype for business 2015**] の順にクリックし、[ **skype for business server 管理シェル**] をクリックします。
+2. Skype for Business Server 管理シェルを起動します。 [ **スタート**]、[ **すべてのプログラム**]、[ **skype for business 2015**] の順にクリックし、[ **skype for business server 管理シェル**] をクリックします。
     
 3. 既存の音声ポリシーをユーザーに割り当てる:
     
@@ -101,7 +104,7 @@ ms.locfileid: "44221861"
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    次に例を示します。
+    例:
     
    ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Skype for Business Online および Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。
-ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691363"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359423"
 ---
 # <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 
@@ -95,6 +95,9 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 > グローバル CsVoiceRoutingPolicy が構成されている場合は、このグローバルポリシーに関連付けられている PSTN 使用状況を削除することをお勧めします。 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>クラウド コネクタ エディション経由のオンプレミス PSTN 接続による Office 365 電話システムからの移行 
+
+> [!Important]
+> Cloud Connector Edition は、Skype for Business Online と共に2021年7月31日に廃止されます。 組織が Teams にアップグレードされると、 [ダイレクトルーティング](direct-routing-landing-page.md)を使用してオンプレミスのテレフォニーネットワークを teams に接続する方法について説明します。
 
 クラウド コネクタ エディション経由のオンプレミス PSTN 接続による電話システムからの移行の詳細については、次を参照してください。
 

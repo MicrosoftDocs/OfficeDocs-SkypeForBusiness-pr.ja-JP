@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Cloud Connector エディションに単一の PSTN サイトを展開する方法について説明します。
-ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220537"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358933"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Cloud Connector での単一サイトの展開
  
+> [!Important]
+> Cloud Connector エディションは、2021年7月31日、Skype for Business Online と共に廃止されます。 組織が Teams にアップグレードされたら、 [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを teams に接続する方法について説明します。
+
 Cloud Connector エディションに単一の PSTN サイトを展開する方法について説明します。
   
 高可用性 (HA) のサポートがあるかどうかにかかわらず、Skype for Business Cloud Connector エディションを展開できます。 HA を有効にする場合は、1つのサイト内に複数のアプライアンスを展開する必要があります。 また、既存のアプライアンスを、展開後に HA をサポートするように変換することもできます。

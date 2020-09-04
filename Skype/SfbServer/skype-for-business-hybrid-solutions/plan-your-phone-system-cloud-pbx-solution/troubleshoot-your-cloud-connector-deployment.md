@@ -16,14 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Cloud Connector エディションの展開のトラブルシューティングを行います。
-ms.openlocfilehash: 97ece0ee1bcc11c22fd55709d025169ed95b16ff
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7a1caea67c5b5899c2dc0909ef771a57c7c50389
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220227"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359333"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Cloud Connector 展開のトラブルシューティング
+
+> [!Important]
+> Cloud Connector エディションは、2021年7月31日、Skype for Business Online と共に廃止されます。 組織が Teams にアップグレードされたら、 [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを teams に接続する方法について説明します。
  
 Cloud Connector エディションの展開のトラブルシューティングを行います。
   
@@ -145,7 +148,7 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
     
 - **問題: Active Directory サーバーのインストール時に Windows Update に関する警告メッセージが表示されます。 "Windows 自動更新が有効になっていません。"新しくインストールした役割または機能が自動的に更新されるようにするには、[Windows Update] を有効にします。**
     
-    **解決策:** Skype for Business テナント管理者の資格情報を使用してテナントのリモート PowerShell セッションを起動し、次のコマンドレットを実行して、サイトの_Enableautoupdate_の構成を確認します。
+    **解決策:** Skype for Business テナント管理者の資格情報を使用してテナントのリモート PowerShell セッションを起動し、次のコマンドレットを実行して、サイトの _Enableautoupdate_ の構成を確認します。
     
   ```powershell
   Get-CsHybridPSTNSite
@@ -159,13 +162,13 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
 
     別の方法として、更新プログラムを手動で確認してインストールすることもできます。 次のセクションを参照してください。
     
-- **問題: エラーメッセージ: 現在の入力/構成サイト名またはサーバー名または仲介サーバーの \< \> \< \> \< \> \< IP アドレスが \> 既存のアプライアンスと競合しているため、アプライアンスを登録できません。競合するアプライアンスを削除するか、入力/構成情報を更新してから、もう一度登録します。' Register → CcAppliance を実行して、現在のアプライアンスをオンラインに登録します。**
+- **問題: エラーメッセージが表示される: 現在の入力/構成 \<SiteName\> または既存の \<ApplianceName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> アプライアンスと競合しているため、アプライアンスを登録できません。競合するアプライアンスを削除するか、入力/構成情報を更新してから、もう一度登録します。' Register → CcAppliance を実行して、現在のアプライアンスをオンラインに登録します。**
     
-    **解決策:** この値は、 \< 一意で \> 、 \< \> \< \> 1 つのアプライアンス登録にのみ使用する必要があります。 既定では、 \< アプライアンス \> 名はホスト名によって決まります。 \<\> \< \> 構成 ini ファイルで定義されている仲介サーバーの FQDN と仲介サーバーの IP アドレス。
+    **解決策:** の値は \<ApplianceName\> で \<Mediation Server FQDN\> 、 \<Mediation Server IP Address\> 一意であり、1つのアプライアンス登録でのみ使用される必要があります。 既定では、 \<ApplianceName\> ホスト名から取得されます。 \<Mediation Server FQDN\>\<Mediation Server IP Address\>構成 ini ファイルで定義されています。
     
     たとえば、(アプライアンス名を使用している場合は) を使用します。 (ただし、登録されているアプライアンスがある場合には、登録済みのアプライアンス (アプライアンス名 Ename = Myserver、仲介サーバーの FQDN = マックス、仲介サーバーの IP アドレス = 10.10.10.10) がある場合は、この競合が発生します。
     
-    最初に、ApplianceRoot directory セクションで CloudConnector .ini ファイルを確認してください。 この \< ファイルには、SiteName \> 、 \< 仲介サーバーの FQDN、 \> および \< 仲介サーバーの IP アドレス \> の値が表示されます。 \<この \> ホストサーバー名を指定します。
+    最初に、ApplianceRoot directory セクションの CloudConnector.ini ファイルを確認してください。 ファイル内の値が取得され \<SiteName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> ます。 \<ApplianceName\> は、ホストサーバー名です。
     
     2番目に、Skype for Business テナント管理者の資格情報を使用してテナントのリモート PowerShell を起動し、次のコマンドレットを実行して、登録されているアプライアンスを確認します。
     
@@ -173,7 +176,7 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
   Get-CsHybridPSTNAppliance
   ```
 
-    競合を特定したら、登録済みのアプライアンスと一致する情報を使用して CloudConnector の .ini ファイルを更新するか、既存のアプライアンスの登録を解除して競合を解決することができます。
+    競合を特定したら、登録されているアプライアンスと一致する情報を使用して CloudConnector.ini ファイルを更新するか、既存のアプライアンスの登録を解除して競合を解決することができます。
     
   ```powershell
   Unregister-CsHybridPSTNAppliance -Force
@@ -182,13 +185,13 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
     
 - **問題: ホスト上で実行されている展開済みのアプライアンスがある場合、Get-CcRunningVersion コマンドレットは空の値を返します。**
     
-  **解決策:** これは、1.3.4 または1.3.8 から1.4.1 にアップグレードしたときに発生する可能性があります。 バージョン1.4.1 を .msi と共にインストールした後、 `Register-CcAppliance` 他のコマンドレットを実行する前に、を実行する必要があります。 `Register-CcAppliance`%UserProfile%\CloudConnector から%ProgramData%\CloudConnector. にモジュール .ini ファイルを移行します。 不在の場合は、%ProgramData%\CloudConnector フォルダーに新しい system.ini が作成され、1.3.4 または1.3.8 の実行/バックアップバージョン情報が置き換えられます。
+  **解決策:** これは、1.3.4 または1.3.8 から1.4.1 にアップグレードしたときに発生する可能性があります。 バージョン1.4.1 を .msi と共にインストールした後、 `Register-CcAppliance` 他のコマンドレットを実行する前に、を実行する必要があります。 `Register-CcAppliance` module.ini ファイルを%UserProfile%\CloudConnector から%ProgramData%\CloudConnector. に移行します。 不在の場合は、新しい module.ini が%ProgramData%\CloudConnector フォルダーに作成され、1.3.4 または1.3.8 の実行/バックアップバージョン情報が置き換えられます。
     
-  %UserProfile%\CloudConnector および%ProgramData%\CloudConnector フォルダー内のモジュール .ini ファイルを比較します。 相違点がある場合は、%ProgramData%\CloudConnector でモジュール .ini ファイルを削除して、再度実行 `Register-CcAppliance` します。 また、適切な実行およびバックアップバージョンにファイルを手動で変更することもできます。
+  %UserProfile%\CloudConnector および%ProgramData%\CloudConnector フォルダー内のファイル module.ini 比較します。 相違点がある場合は、%ProgramData%\CloudConnector の module.ini ファイルを削除して、再度実行  `Register-CcAppliance` します。 また、適切な実行およびバックアップバージョンにファイルを手動で変更することもできます。
     
 - **問題: スイッチ-CcVersion コマンドレットを実行して、現在のスクリプトバージョンとは異なる古いバージョンに切り替えた場合、古いバージョンでは高可用性がサポートされません。**
     
-    **解決策:** たとえば、1.4.1 から1.4.2 にアップグレードしたとします。 現在のスクリプトバージョンは、を実行することによって決定され、実行中の `Get-CcVersion` バージョンは、両方が1.4.2 であることを確認でき `Get-CcRunningVersion` ます。 現時点で、実行 `Switch-CcVersion` 中のバージョンを1.4.1 に戻すために実行した場合、古いバージョンでは高可用性がサポートされません。
+    **解決策:** たとえば、1.4.1 から1.4.2 にアップグレードしたとします。 現在のスクリプトバージョンは、を実行することによって決定され、実行中の `Get-CcVersion` バージョンは、両方が1.4.2 であることを確認でき  `Get-CcRunningVersion` ます。 現時点で、実行 `Switch-CcVersion` 中のバージョンを1.4.1 に戻すために実行した場合、古いバージョンでは高可用性がサポートされません。
     
     完全な高可用性サポートを取得するには、1.4.2 に切り替えて、実行中のバージョンとスクリプトバージョンが同じであることを確認してください。 1.4.2 展開で問題が発生している場合は、できるだけ早くアンインストールして再インストールしてください。
     
@@ -242,11 +245,11 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
    ```
 
 
-    **証明機関の証明書が侵害され、サイトに複数のアプライアンスが存在する場合**は、サイト内の各アプライアンスで次の順次手順を実行します。
+    **証明機関の証明書が侵害され、サイトに複数のアプライアンスが存在する場合** は、サイト内の各アプライアンスで次の順次手順を実行します。
     
     Microsoft では、ピーク時以外の時間帯にこれらの手順を実行することをお勧めします。
     
-1. 最初のアプライアンスで、Remove-cccertificationauthorityfile コマンドレットを実行して、siteroot ディレクトリ内の CA バックアップファイルをクリーンアップし \< \> ます。
+1. 最初のアプライアンスで、Remove-cccertificationauthorityfile コマンドレットを実行して、ディレクトリ内の CA バックアップファイルをクリーンアップし \<SiteRoot\> ます。
 
      ```powershell
      Remove-CcCertificationAuthorityFile
@@ -276,7 +279,7 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
      Remove-CcLegacyServerCertificate 
      ```
 
-4. 最初のアプライアンスで、次のコマンドレットを実行して、CA ファイルを \< siteroot フォルダーにバックアップし \> ます。
+4. 最初のアプライアンスで、次のコマンドレットを実行して CA ファイルをフォルダーにバックアップし \<SiteRoot\> ます。
     
      ```powershell
      Backup-CcCertificationAuthority
@@ -303,7 +306,7 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
      ```
     
     
-- **問題: Cloud Connector Management Service のログに "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log" というエラーメッセージが表示されます。 CceService Error: 0: 状態をオンラインに報告しているときに、予期しない例外が発生しました。 CmdletInvocationException: ユーザーの \< グローバルテナント管理者にログオンできませんでした \> 。新しい資格情報オブジェクトを作成してください。正しいユーザー名とパスワードを使用していることを確認してください。---\>**
+- **問題: Cloud Connector Management Service ログに "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log" というエラーメッセージが表示されます。 CceService Error: 0: 状態をオンラインに報告しているときに、予期しない例外が発生しました。 CmdletInvocationException: ユーザーのログオンに失敗しました \<Global Tenant Admin\> 。新しい資格情報オブジェクトを作成してください。正しいユーザー名とパスワードを使用していることを確認してください。---\>**
     
     **解決策:** Cloud Connector アプライアンスが登録されてから、Microsoft 365 または Office 365 グローバルテナント管理者の資格情報が変更されました。 Cloud Connector アプライアンスでローカルに格納されている資格情報を更新するには、ホストアプライアンスの管理者 PowerShell から次を実行します。
     
@@ -313,21 +316,21 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
 
 - **問題: 展開に使用したホストサーバーアカウントのパスワードを変更すると、次のエラーメッセージが表示されます。 "Convertto-securestring-System.security.securestring: キーが指定した状態で使用できません。" というエラーメッセージが表示されます。%ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log または Get-CcCredential コマンドレットを実行しています。**
     
-    **解決策:** すべての Cloud Connector 資格情報は、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> ホストサーバーのパスワードが変更された場合は、ローカルに格納されている資格情報を更新する必要があります。
+    **解決策:** すべての Cloud Connector 資格情報は、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。 ホストサーバーのパスワードが変更された場合は、ローカルに格納されている資格情報を更新する必要があります。
     
-    **Cloud connector バージョン1.4.2 を実行**している場合は、次の手順に従って、すべての cloud connector パスワードを再生成します。
+    **Cloud connector バージョン1.4.2 を実行** している場合は、次の手順に従って、すべての cloud connector パスワードを再生成します。
     
   1. ホストサーバーを再起動します。
     
-  2. 次のファイルを削除します。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \>
+  2. 次のファイルを \<CurrentUser\> 削除します。 "%SystemDrive%\Programdata\Cloudconnector\credentials.xml "。
     
   3. 管理者として PowerShell コンソールを起動してから、説明に従ってパスワードを再入力するには、「Register-CcAppliance-Local」を実行します。 Cloud Connector を展開する前に入力したのと同じパスワードを入力します。
     
-     **Cloud connector バージョン2.0 以降を実行**している場合は、次の手順に従って、すべての cloud connector パスワードを再生成します。
+     **Cloud connector バージョン2.0 以降を実行** している場合は、次の手順に従って、すべての cloud connector パスワードを再生成します。
     
   4. ホストサーバーを再起動します。
     
-  5. 次のファイルを削除します。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \>
+  5. 次のファイルを \<CurrentUser\> 削除します。 "%SystemDrive%\Programdata\Cloudconnector\credentials.xml "。
     
   6. 管理者として PowerShell コンソールを起動してから、説明に従ってパスワードを再入力するには、「Register-CcAppliance-Local」を実行します。 
     
@@ -361,9 +364,9 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
 
 - **問題: Cloud Connector エディション2.1 で、インストール-CcAppliance を実行すると、"新しいインスタンスをインストールできませんでした:" というエラーメッセージが表示されます。これは、文字列のみを値として使用して XmlNode のプロパティを設定することができるため、"状態を設定できません" です。**
 
-   **解決策:** Cloudconnector の [Common] セクションで、以下のように「State」 config を追加してください。 CountryCode = US State = WA City = Redmond
+   **解決策:** Cloudconnector.ini の [Common] セクションで、次のように「State」 config を追加してください。 CountryCode = US State = WA City = Redmond
 
-   "State" 行に値を設定することは必須ではありません。ただし、"State" 行を Cloudconnector の .ini ファイルから削除することはできません。
+   "State" 行に値を設定することは必須ではありませんが、"State" 行を Cloudconnector.ini ファイルから削除することはできません。
 
 - **問題: "WindowsImage: WindowsImage に失敗しました" というエラーメッセージが表示されます。Cloud Connector エディションをインストールまたはアップグレードするときに、エラーコード = 0xc1550115 "が返されます。**
     
@@ -391,7 +394,7 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
     
    Windows 更新プログラムを手動で確認してインストールする必要がある場合は、展開の種類に該当するこのセクションの手順を実行します。 更新に必要なダウンタイムを最小限に抑えるために、ホストサーバーと仮想マシンの両方を同時に更新することを計画する必要があります。
     
-   必要に応じて、Windows Server Update Services (WSUS) サーバーを使用して、Cloud Connector サーバーに更新を提供することができます。 Windows Update を自動的にインストールし**ない**ように構成してください。
+   必要に応じて、Windows Server Update Services (WSUS) サーバーを使用して、Cloud Connector サーバーに更新を提供することができます。 Windows Update を自動的にインストールし **ない** ように構成してください。
     
    Cloud Connector の展開を手動で更新する方法については、次のセクションを参照してください。
     
@@ -405,7 +408,7 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
  
 -   **問題: "Stop-CsWindowsService ' という用語は、コマンドレット、関数、スクリプトファイル、または実行可能なプログラムの名前として認識されません。" というメッセージが返されます。**
 
-    **解決策:**$HOME \AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache ファイルを削除します。
+    **解決策:** $HOME \AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache ファイルを削除します。
 このファイルは、PowerShell によって検出されたモジュールのコマンドレットのキャッシュとして作成されるので、実際に処理が遅くなるように毎回すべてのモジュールを再分析する必要はありません。 多くの場合、キャッシュから戻ってきたときに、誤って PowerShell に結果を提供するファイルの破損が発生しました。
 
 -   **問題: "インポート-モジュール CloudConnector" でエラー "Import-モジュールが生成されました" が、モジュールディレクトリに有効なモジュールファイルが見つからないため、読み込まれませんでした "**
@@ -424,9 +427,9 @@ Cloud Connector には、いくつかの問題を自動的に解決するため�
 
 環境で自動更新を使用しない場合は、次の手順に従って、Windows 更新プログラムを手動で確認して適用します。 Windows 更新プログラムを確認してインストールするには、サーバーの再起動が必要になることがあります。 ホストサーバーを再起動すると、ユーザーはクラウドコネクタを使用して通話を発信または受信できなくなります。 更新プログラムが実行されるタイミングを制御する更新プログラムを手動で確認してインストールし、必要に応じて、サービスの中断を回避するためにコンピューターを再起動することができます。
   
-更新プログラムを手動で確認するには、各ホストサーバーに接続し、[**コントロールパネル]** を開きます。 [**システムとセキュリティ] [ \> Windows Update**] を選択し、環境に合わせて更新プログラムとサーバーの再起動を管理します。
+更新プログラムを手動で確認するには、各ホストサーバーに接続し、[ **コントロールパネル]** を開きます。 [ **システムとセキュリティ] [ \> Windows Update**] を選択し、環境に合わせて更新プログラムとサーバーの再起動を管理します。
   
-- サイトにアプライアンスが1つしかない場合は、各仮想マシンに接続して [**コントロールパネル]** を開きます。 [**システムとセキュリティ] [ \> Windows Update**] を選択し、必要に応じて更新プログラムとサーバーの再起動を構成します。
+- サイトにアプライアンスが1つしかない場合は、各仮想マシンに接続して [ **コントロールパネル]** を開きます。 [ **システムとセキュリティ] [ \> Windows Update**] を選択し、必要に応じて更新プログラムとサーバーの再起動を構成します。
     
 - サイト内に複数のアプライアンスが存在する場合、更新中に更新中または再起動されているインスタンスはユーザーがアクセスできません。 更新が完了した後、すべての仮想マシンとすべての Skype for Business サービスが仮想マシンで開始されるまで、ユーザーは展開内の他のインスタンスに接続します。 サービスの中断を回避するには、更新プログラムを適用している間に、そのインスタンスを HA から削除して、完了した時点で復元することができます。 これを行うには、以下のようにします:
     
@@ -466,4 +469,4 @@ Cloud Connector ホストコンピューターにウイルス対策ソフトウ�
     
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
-- プロセスの管理を実行します。
+- プロセス Microsoft.Rtc.CCE.ManagementService.exe。

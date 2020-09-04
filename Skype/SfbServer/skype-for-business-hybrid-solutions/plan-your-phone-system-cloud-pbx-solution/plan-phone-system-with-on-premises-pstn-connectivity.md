@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でオンプレミスの PSTN 接続を使用する電話システムを計画する
+title: Skype for Business Server でオンプレミス PSTN 接続を使用して電話システムを計画する
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: オンプレミスの PSTN 接続を使用する電話システム (クラウド PBX) の計画に関する考慮事項について説明します。
-ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f8baab67191f32013a9d7a01ddc12f1b04b62c03
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220238"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358813"
 ---
-# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype for Business Server でオンプレミスの PSTN 接続を使用する電話システムを計画する
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype for Business Server でオンプレミス PSTN 接続を使用して電話システムを計画する
+
+> [!Important]
+> Skype for Business Online は、2021年7月31日に廃止されます。その後、サービスにアクセスできなくなります。  さらに、Skype for Business Server または Cloud Connector Edition と Skype for Business Online のどちらを使用しても、オンプレミス環境との間の PSTN 接続がサポートされなくなります。  [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを Teams に接続する方法について説明します。
 
 オンプレミスの PSTN 接続を使用する電話システム (クラウド PBX) の計画に関する考慮事項について説明します。
 
@@ -46,7 +49,7 @@ ms.locfileid: "44220238"
 
 ## <a name="feature-comparison"></a>機能の比較
 
-オンプレミスの PSTN 接続を備えたクラウド PBX は、完全な社内エンタープライズ Voip ソリューションと同じ機能セットを提供しません。 オンプレミスの PSTN 接続を使用するクラウド PBX が組織に適切な機能セットを提供するかどうかを判断するには、[クラウド pbx で利用できるもの](https://go.microsoft.com/fwlink/?LinkId=715517)を参照してください。
+オンプレミスの PSTN 接続を備えたクラウド PBX は、完全な社内エンタープライズ Voip ソリューションと同じ機能セットを提供しません。 オンプレミスの PSTN 接続を使用するクラウド PBX が組織に適切な機能セットを提供するかどうかを判断するには、 [クラウド pbx で利用できるもの](https://go.microsoft.com/fwlink/?LinkId=715517)を参照してください。
 
 ## <a name="benefits-and-planning-considerations"></a>利点と計画に関する考慮事項
 
@@ -59,17 +62,17 @@ ms.locfileid: "44220238"
 
 コールセンターなど、従来の PBX にカスタム機能または主要なアドオンがある場合があります。 カスタム機能が電話システムで現時点では使用できない場合は、そのカスタム機能を必要とするユーザーを従来の PBX と共存させておく必要があります。また、カスタム機能にアクセスする必要のないユーザーを、オンプレミスの PSTN 接続を使用して電話システムに移植する必要はありません。
 
-Skype for Business Server 2015 と直接相互運用する従来の Pbx の一覧については、「 [Microsoft Lync 用のインフラストラクチャ認定](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)」を参照してください。 PBX がこのリストに含まれていない場合は、セッションボーダーコントローラーを使用して、Skype for Business Online の電話システムに PBX を接続することができます。
+Skype for Business Server 2015 と直接相互運用する従来の Pbx の一覧については、「  [Microsoft Lync 用のインフラストラクチャ認定](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway)」を参照してください。 PBX がこのリストに含まれていない場合は、セッションボーダーコントローラーを使用して、Skype for Business Online の電話システムに PBX を接続することができます。
 
 ### <a name="network-considerations-for-quality-and-performance"></a>ネットワークの品質とパフォーマンスに関する考慮事項
 
 オンプレミスの PSTN 接続を備えた電話システムなどのクラウドにホストされるサービスを展開する場合は、次の点に注意してください。 純粋なオンプレミスの Skype for Business Server 2015 エンタープライズ Voip の展開では、すべてのインフラストラクチャとクライアントが企業独自のネットワーク上に配置されています。 このネットワークの品質とパフォーマンスは、高品質のオーディオおよびビデオにとって重要であり、エンタープライズスタッフの直接的な制御下にあります。 オンプレミスの PSTN 接続を備えた電話システムでは、次の3つのネットワークが関係しています。そのうち2つは、お客様が責任を負いますが、そのうちの1つはエンタープライズスタッフが直接制御しています。
 
-- **Microsoft のグローバルメディア配信ネットワーク**Microsoft のグローバルクラウドネットワークとインフラストラクチャ。 電話システムサーバーとトラフィックがこのネットワークをスキャンします。
+- **Microsoft のグローバルメディア配信ネットワーク** Microsoft のグローバルクラウドネットワークとインフラストラクチャ。 電話システムサーバーとトラフィックがこのネットワークをスキャンします。
 
-- **エンタープライズ/クラウド PSTN 相互接続**これは、企業をクラウドに接続するネットワークです。 これは、一般的なインターネット接続と同じであるとは限りません。
+- **エンタープライズ/クラウド PSTN 相互接続** これは、企業をクラウドに接続するネットワークです。 これは、一般的なインターネット接続と同じであるとは限りません。
 
-- **企業の独自のネットワーク**リアルタイムメディアの品質は、自分のネットワークに大きく依存します。特に、WiFi ネットワークと、クラウドに到達するために使用される相互接続の品質です。
+- **企業の独自のネットワーク** リアルタイムメディアの品質は、自分のネットワークに大きく依存します。特に、WiFi ネットワークと、クラウドに到達するために使用される相互接続の品質です。
 
 > [!NOTE]
 > Skype for business Online でのパフォーマンスのチューニングの詳細については、「 [skype for Business online のパフォーマンス](https://support.office.com/article/Tune-Skype-for-Business-Online-performance-beec23c2-c5d6-4e84-a8af-e82aefca7802?ui=en-US&amp;rs=en-US&amp;ad=US)をチューニングする」を参照してください。 
@@ -103,12 +106,12 @@ Skype for Business Server 2015 と直接相互運用する従来の Pbx の一�
 
     Lync Server 2013 を使用している場合は、「 [Planning For Enterprise voice In Lync server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) 」および「 [lync Server 2013 でエンタープライズ voip を展開](https://technet.microsoft.com/library/gg412876%28v=ocs.15%29.aspx)する」を参照してください。
 
-- **Active Directory の同期**Azure AD Connect を使用して Active Directory の同期を構成する必要があります。 詳細については、「 [AZURE AD Connect の管理](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/)」を参照してください。
+- **Active Directory の同期** Azure AD Connect を使用して Active Directory の同期を構成する必要があります。 詳細については、「 [AZURE AD Connect の管理](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/)」を参照してください。
 
     > [!NOTE]
     > 使用する AAD Connect のバージョンは、バージョン1.0.9125.0 以降以降である必要があります。 以前のバージョンの AAD Connect ツールまたは DirSync を使用している場合は、サポートされているバージョンにアップグレードしてください。 現在のインストールをアップグレードして、環境で定義したカスタムルールを維持することができます。 
 
-- **ハイブリッド展開を構成する**すべての Skype for Business ユーザーが現在オンラインまたはオンプレミスに所属しているかどうか、または現在混在している場合は、skype for business [server と Office 365 の間のハイブリッド接続の展開](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)に関する説明に従って、Skype For business server または Lync Server 2013 のハイブリッド展開を構成する手順を完了する必要があります。 ハイブリッド展開の詳細については、「 [Skype For Business Server と Office 365 の間のハイブリッド接続を計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)する」を参照してください。 
+- **ハイブリッド展開を構成する** すべての Skype for Business ユーザーが現在オンラインまたはオンプレミスに所属しているかどうか、または現在混在している場合は、skype for business [server と Office 365 の間のハイブリッド接続の展開](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)に関する説明に従って、Skype For business server または Lync Server 2013 のハイブリッド展開を構成する手順を完了する必要があります。 ハイブリッド展開の詳細については、「 [Skype For Business Server と Office 365 の間のハイブリッド接続を計画](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)する」を参照してください。 
 
     Lync Server 2013 を使用している場合は、「 [Lync server 2013 hybrid](https://technet.microsoft.com/library/jj204805%28v=ocs.15%29.aspx)」を参照してください。
 

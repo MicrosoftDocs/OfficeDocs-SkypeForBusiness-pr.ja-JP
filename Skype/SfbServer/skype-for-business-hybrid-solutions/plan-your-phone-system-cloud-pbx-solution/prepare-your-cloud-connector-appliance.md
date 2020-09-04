@@ -16,14 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: クラウドコネクタアプライアンスを展開するための準備方法と、電話システム (クラウド PBX) での使用方法について説明します。
-ms.openlocfilehash: d00002719ed8aaac7d0f0fb0e5ceb5722acc289c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 74c4885a25b4176f4d5eb3ac27926bd9528387c6
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220067"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358943"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Cloud Connector アプライアンスの準備
+
+> [!Important]
+> Cloud Connector エディションは、2021年7月31日、Skype for Business Online と共に廃止されます。 組織が Teams にアップグレードされたら、 [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを teams に接続する方法について説明します。
 
 クラウドコネクタアプライアンスを展開するための準備方法と、電話システム (クラウド PBX) での使用方法について説明します。
 
@@ -62,9 +65,9 @@ ms.locfileid: "44220067"
 
     このコマンドを実行すると、Skype for Business Cloud Connector エディションのコマンドレットの一覧が返されます。
 
-2. Vhd、SfBBits、および VersionInfo の各ファイルは、**サイトディレクトリ**に格納されます。
+2. Vhd、SfBBits、および VersionInfo の各ファイルは、 **サイトディレクトリ**に格納されます。
 
-    次のコマンドレットを使用して、**サイトディレクトリ**の場所を見つけることができます。
+    次のコマンドレットを使用して、 **サイトディレクトリ** の場所を見つけることができます。
 
    ```powershell
    Get-CcSiteDirectory
@@ -84,9 +87,9 @@ ms.locfileid: "44220067"
    Set-CcSiteDirectory <UNC File path>
    ```
 
-    サイトの高可用性 (HA) を展開する場合は、コマンドレットを実行して、サイト内の各ホストサーバー上の同じ場所に**サイトディレクトリ**を設定してください。
+    サイトの高可用性 (HA) を展開する場合は、コマンドレットを実行して、サイト内の各ホストサーバー上の同じ場所に **サイトディレクトリ** を設定してください。
 
-    ログオンしてサイト内の各アプライアンスを展開するときに、現在のログオンアカウントが**サイトディレクトリ**に対して適切なアクセス権を持っていることを確認してください。
+    ログオンしてサイト内の各アプライアンスを展開するときに、現在のログオンアカウントが **サイトディレクトリ**に対して適切なアクセス権を持っていることを確認してください。
 
 3. **アプライアンスディレクトリ**は、Skype For Business Cloud Connector エディションのローカルの作業ルートディレクトリであり、外部の証明書、インスタンス、およびログが保存される場所です。 既定の場所は次のとおりです。%USERPROFILE%\CloudConnector\ApplianceRoot.
 
@@ -102,7 +105,7 @@ ms.locfileid: "44220067"
    Set-CcApplianceDirectory <File path>
    ```
 
-    アプライアンスのディレクトリは、アプライアンスのローカルフォルダーに設定する必要があります。 Skype for Business Cloud Connector エディションの展開を開始する前に、**アプライアンスディレクトリ**のみを設定する必要があります。 展開後に変更する場合は、ホストサーバーを再展開する必要があります。
+    アプライアンスのディレクトリは、アプライアンスのローカルフォルダーに設定する必要があります。 Skype for Business Cloud Connector エディションの展開を開始する前に、 **アプライアンスディレクトリ** のみを設定する必要があります。 展開後に変更する場合は、ホストサーバーを再展開する必要があります。
 
     > [!IMPORTANT]
     > **アプライアンスディレクトリ**へのパスにスペースを含めることはできません。
@@ -118,7 +121,7 @@ ms.locfileid: "44220067"
     > [!NOTE]
     > -Target パラメーターはバージョン1.4.2 以降に固有のものであることに注意してください。 
 
-    ファイル名を含む、外部証明書への完全パスを指定します。 証明書は、ローカルまたはファイル共有に保存できます。 証明書が共有フォルダーに格納されている場合は、共有フォルダーを各サイトの最初のアプライアンスに作成し、同じサイトに属する他のアプライアンスからアクセスできるようにする必要があります。 このコマンドレットは、外部証明書を**アプライアンスディレクトリ**にコピーします。
+    ファイル名を含む、外部証明書への完全パスを指定します。 証明書は、ローカルまたはファイル共有に保存できます。 証明書が共有フォルダーに格納されている場合は、共有フォルダーを各サイトの最初のアプライアンスに作成し、同じサイトに属する他のアプライアンスからアクセスできるようにする必要があります。 このコマンドレットは、外部証明書を **アプライアンスディレクトリ**にコピーします。
 
     > [!IMPORTANT]
     > **Cloud Connector バージョン1.4.2 以降に更新**した場合は、準備した外部証明書に秘密キーと、ルート ca 証明書と中間 CA 証明書を含む完全な証明書チェーンが含まれていることを確認してください。 **Cloud Connector バージョン1.4.2 にまだ更新していない場合は**、準備した外部証明書に秘密キーが含まれていることを確認してください。 この外部証明書は、既定で Windows によって信頼されている証明機関によって発行される必要があります。
@@ -140,50 +143,50 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 2. 外部仮想スイッチを作成し、それを内部ネットワークドメインに接続されている物理ネットワークアダプターにバインドします。
 
-    この仮想スイッチに対して [**管理オペレーティングシステムによるこのネットワークアダプターの共有を許可する**] を選択します。
+    この仮想スイッチに対して [ **管理オペレーティングシステムによるこのネットワークアダプターの共有を許可する** ] を選択します。
 
 3. 外部仮想スイッチを作成し、それをインターネットにルーティングされる物理ネットワークアダプターにバインドします。
 
-    この仮想スイッチに対して [**管理オペレーティングシステムによるこのネットワークアダプターの共有を許可する**] を選択解除します。
+    この仮想スイッチに対して [ **管理オペレーティングシステムによるこのネットワークアダプターの共有を許可する** ] を選択解除します。
 
-4. 境界ネットワークを内部ネットワークドメインの**Sfb**の企業向けスイッチに接続するスイッチの名前を設定します。
+4. 境界ネットワークを内部ネットワークドメインの **Sfb**の企業向けスイッチに接続するスイッチの名前を設定します。
 
     境界ネットワークをインターネットに接続するスイッチの名前を、 **Sfb CCE Internet switch**に設定します。
 
-## <a name="update-the-cloudconnectorini-configuration-file"></a>CloudConnector の .ini 構成ファイルを更新する
+## <a name="update-the-cloudconnectorini-configuration-file"></a>CloudConnector.ini 構成ファイルを更新する
 
-「 [Plan For Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) 」の「[展開パラメーターの決定](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)」で収集した情報を使用して、cloudconnector の .ini ファイルを準備します。
+「 [Plan For Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) 」の「[展開パラメーターの決定](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)」で収集した情報を使用して、CloudConnector.ini ファイルを準備します。
 
-ファイルを更新するには、最初に次のコマンドレットを実行して、サンプルテンプレート (CloudConnector. サンプル) を取得します。
+ファイルを更新するには、最初に次のコマンドレットを実行して、サンプルテンプレート (CloudConnector.Sample.ini) を取得します。
 
 ```powershell
 Export-CcConfigurationSampleFile
 ```
 
-サンプルテンプレートは**アプライアンスディレクトリ**に保存されます。
+サンプルテンプレートは **アプライアンスディレクトリ**に保存されます。
 
-使用している環境の値で更新した後、ファイルを CloudConnector .ini として**アプライアンスディレクトリ**に保存します。 **Set-ccappliancedirectory**を実行して、**アプライアンスディレクトリ**へのパスを確認できます。
+使用している環境の値で更新した後、ファイルを CloudConnector.ini として **アプライアンスディレクトリ**に保存します。 **Set-ccappliancedirectory**を実行して、**アプライアンスディレクトリ**へのパスを確認できます。
 
 .Ini ファイルを更新するときは、次の点を考慮してください。
 
 > [!NOTE]
 > このセクションでは .ini ファイルのすべての値について説明していませんが、特別な考慮事項のあるものだけをここで説明します。 完全なリストについては、「 [Plan For Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) 」の「[展開パラメーターの決定](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)」セクションを参照してください。 追加のアプライアンスまたは新しいサイトで変更する必要がある値の詳細については、「[複数のサイトをクラウドコネクタに展開](deploy-multiple-sites-in-cloud-connector.md)する」のトピックの「[単一サイトと高可用性 (HA)](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) 」を参照してください。 
 
-- **SiteName:** 既定値は**Site1**です。 既存または新規のサイトにアプライアンスを登録するために**register**を実行すると、コマンドレットは**SiteName**を使用して登録するサイトを決定するため、Cloud Connector を展開する前に更新する必要があります。
+- **SiteName:** 既定値は **Site1**です。 既存または新規のサイトにアプライアンスを登録するために **register** を実行すると、コマンドレットは **SiteName** を使用して登録するサイトを決定するため、Cloud Connector を展開する前に更新する必要があります。
 
-     アプライアンスを新しいサイトに登録する場合は、 **SiteName**の値が一意で、既存のサイトとは異なるものである必要があります。 アプライアンスを既存のサイトに登録する場合は、.ini ファイル内の**SiteName**の値は、Microsoft 365 または Office 365 組織の構成で定義されている名前と一致している必要があります。 構成ファイルをあるサイトから別のサイトにコピーする場合は、各サイトの**SiteName**の値を適宜更新してください。
+     アプライアンスを新しいサイトに登録する場合は、 **SiteName** の値が一意で、既存のサイトとは異なるものである必要があります。 アプライアンスを既存のサイトに登録する場合は、.ini ファイル内の **SiteName** の値は、Microsoft 365 または Office 365 組織の構成で定義されている名前と一致している必要があります。 構成ファイルをあるサイトから別のサイトにコピーする場合は、各サイトの **SiteName** の値を適宜更新してください。
 
 - **ServerName:** サーバー名にドメイン名を含めることはできず、15文字に制限する必要があります。
 
-- **ハードウェアの種類:** 値を設定しない場合、または null 値のままにした場合は、既定値の**Normal**が使用されます。 「 [Plan For Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)」に記載されているように、ホストマシンごとに500の同時通話をサポートするために、より大規模な Cloud connector の展開を計画している場合は、 **Normal**を使用します。 50の同時通話をサポートする小規模な展開には、**最小値**を使用します。
+- **ハードウェアの種類:** 値を設定しない場合、または null 値のままにした場合は、既定値の **Normal** が使用されます。 「 [Plan For Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)」に記載されているように、ホストマシンごとに500の同時通話をサポートするために、より大規模な Cloud connector の展開を計画している場合は、 **Normal**を使用します。 50の同時通話をサポートする小規模な展開には、 **最小値** を使用します。
 
 - **インターネット/社内/管理仮想スイッチ:**: 作成した仮想スイッチの名前を追加します。 管理仮想スイッチの場合は、既定値のままにします。 展開スクリプトは、展開の開始時に管理仮想スイッチを作成し、展開が終了したら削除します。
 
-- **Managementipprefix:**[ネットワーク] セクションの ManagementIPPrefix は、他の内部 Ip とは異なるサブネットである必要があります。 たとえば、既定値が示すように、ManagementIPPrefix は192.168.213.0 ですが、AD IPAddress は192.168.0.238 です。
+- **Managementipprefix:** [ネットワーク] セクションの ManagementIPPrefix は、他の内部 Ip とは異なるサブネットである必要があります。 たとえば、既定値が示すように、ManagementIPPrefix は192.168.213.0 ですが、AD IPAddress は192.168.0.238 です。
 
     展開スクリプトは、各仮想マシンに管理ネットワークアダプターを作成し、管理 IP を割り当てて、それを管理仮想スイッチに接続します。 これにより、ホストサーバーは、この管理ネットワークを介して各仮想マシンに接続して管理できるようになります。 管理仮想スイッチは、展開が完了した時点で削除されます。
 
-- **ベース VM 固有の構成:** このセクションの設定は、 **Convert-CcIsoToVhdx**コマンドレット用に構成する必要があります。
+- **ベース VM 固有の構成:** このセクションの設定は、 **Convert-CcIsoToVhdx** コマンドレット用に構成する必要があります。
 
     ベース vm イメージの準備中に、ベース VM は内部ネットワークスイッチに接続されます。 次の設定は、VM がインターネットにアクセスできるようにするために重要です。
 
@@ -227,7 +230,7 @@ Export-CcConfigurationSampleFile
 
 ## <a name="download-the-bits-to-the-site-directory"></a>サイトディレクトリにビットをダウンロードする
 
-次のコマンドレットを実行して、bits およびバージョン情報ファイルを**サイトディレクトリ**にダウンロードします。
+次のコマンドレットを実行して、bits およびバージョン情報ファイルを **サイトディレクトリ**にダウンロードします。
 
 ```powershell
 Start-CcDownload
@@ -243,7 +246,7 @@ Start-CcDownload
 > [!NOTE]
 > 最初のアプライアンスのみに対してこの手順を実行する必要があります。 
 
-この手順を進める前に、企業ネットワークスイッチが作成されていることを確認してください。 また、次の設定が CloudConnector .ini ファイルで正しく構成されていることを確認してください。
+この手順を進める前に、企業ネットワークスイッチが作成されていることを確認してください。 また、次の設定が CloudConnector.ini ファイルに正しく構成されていることを確認してください。
 
 - LanCorpnetSwitchName
 
@@ -263,7 +266,7 @@ Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 
 ISO イメージの完全パス (ファイル名を含む) を指定します。 たとえば、次のように入力します。
 
-作成された VHD ファイルは、**サイトディレクトリ**\ bit\ vhd フォルダーに格納されます。 **取得-CcSiteDirectory**を実行することにより、**サイトディレクトリ**へのパスを取得することができます。
+作成された VHD ファイルは、 **サイトディレクトリ** \ bit\ vhd フォルダーに格納されます。 **取得-CcSiteDirectory**を実行することにより、**サイトディレクトリ**へのパスを取得することができます。
 
 > [!IMPORTANT]
 > 既定では、ベース VM でプロキシ設定が構成されていません。 Windows Update を介して VM を更新するためにネットワーク環境でプロキシが必要な場合は、"Convert-CcIsoToVhdx" を実行するときに-PauseBeforeUpdate スイッチを追加する必要があります。 このスクリプトは、Windows Update の前に一時停止し、VM でプロキシを手動でセットアップする機会があります。 プロキシがセットアップされ、VM がインターネットにアクセスできるようになったら、スクリプトを再開して残りの手順を完了できます。 
@@ -274,7 +277,7 @@ ISO イメージの完全パス (ファイル名を含む) を指定します。
 
 複数サイト展開を展開する場合は、各サイトの ISO を VHD に変換する必要はありません。 最初のサイト用に作成された VHDX を、2番目のサイトのホストサーバーにコピーできます。
 
- 別のサイトのホストサーバー上で、同じファイルの場所 (**サイトディレクトリ**\ ビット \ VHD フォルダー) に同じファイル名を使用してファイルをコピーします。
+ 別のサイトのホストサーバー上で、同じファイルの場所 ( **サイトディレクトリ** \ ビット \ VHD フォルダー) に同じファイル名を使用してファイルをコピーします。
 
 ## <a name="set-the-powershell-execution-policy-to-remotesigned"></a>PowerShell 実行ポリシーを RemoteSigned に設定します。
 
@@ -295,15 +298,15 @@ Set-ExecutionPolicy RemoteSigned
 > [!NOTE]
 > このタスクは、Cloud Connector バージョン1.4.2 以降では必要ありません。 
 
-CceService アカウントは、Skype for Business Cloud Connector エディションの展開時に作成されます。 Cloud Connector Management Service を実行し、cloudconnector をアンインストールするためのアクセス許可を必要とします。 ユーザーがログオフしたときにユーザーのレジストリをアンロードしないように指定するには、Cloud Connector ホストコンピューターのグループポリシー設定を変更する必要があります。 次の手順を実行します。
+CceService アカウントは、Skype for Business Cloud Connector エディションの展開時に作成されます。 これは、Cloud Connector Management Service を実行し、cloudconnector.msi をアンインストールするためのアクセス許可を必要とします。 ユーザーがログオフしたときにユーザーのレジストリをアンロードしないように指定するには、Cloud Connector ホストコンピューターのグループポリシー設定を変更する必要があります。 次の手順を実行します。
 
 ### <a name="to-change-the-group-policy-setting"></a>グループポリシー設定を変更するには
 
-1. Gpedit.msc を実行して**グループポリシーエディター**を開きます。
+1. Gpedit.msc を実行して **グループポリシーエディター** を開きます。
 
 2. **グループポリシーエディター**で、[管理用テンプレート > System > > UserProfile] に移動します。ユーザーのログオフ時に強制的にユーザーレジストリをアンロードしないようにします。 
 
-3. その値を**有効**に設定します。
+3. その値を **有効**に設定します。
 
 ## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>Microsoft 365 または Office 365 組織をセットアップする
 

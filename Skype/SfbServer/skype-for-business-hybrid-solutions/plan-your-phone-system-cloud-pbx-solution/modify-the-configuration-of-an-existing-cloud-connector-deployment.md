@@ -16,21 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 既存の Skype for Business Cloud Connector エディション1.4.1 以降の展開の構成を変更するには、このトピックの手順に従います。
-ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 2d70dfa9e25a0c89a31e25699e67a21f14e4f097
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220297"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359113"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>既存の Cloud Connector の展開構成の変更
- 
+
+> [!Important]
+> Cloud Connector エディションは、2021年7月31日、Skype for Business Online と共に廃止されます。 組織が Teams にアップグレードされたら、 [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを teams に接続する方法について説明します。
+
 既存の Skype for Business Cloud Connector エディション1.4.1 以降の展開の構成を変更するには、このトピックの手順に従います。 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>1つのサイトの構成を変更する
 <a name="BKMK_SIngleSite"> </a>
 
-サイト内にアプライアンスが1つしかない場合は、アプライアンスの展開後に構成設定を変更するときに、CloudConnector の .ini ファイルを変更して展開を再度開始することができます。
+サイトにアプライアンスが1つしかない場合は、アプライアンスを展開した後で構成設定を変更するときに、CloudConnector.ini ファイルを変更して展開を再度開始することができます。
   
 1. 次のコマンドレットを実行して、ホストサーバー上の既存の仮想マシンをすべてアンインストールします。 
     
@@ -44,7 +47,7 @@ ms.locfileid: "44220297"
    Unregister-CcAppliance
    ```
 
-3. アプライアンスディレクトリで CloudConnector .ini ファイルを更新します。
+3. アプライアンスディレクトリの CloudConnector.ini ファイルを更新します。
     
 4. 次のコマンドレットを実行して構成を更新します。 (この手順はバージョン2にのみ適用されます。以前のバージョンでは、次の手順に進んでください。)
     
@@ -64,7 +67,7 @@ ms.locfileid: "44220297"
    Install-CcAppliance
    ```
 
-サイト内に複数のアプライアンスがある場合は、次の手順に従って、CloudConnector の .ini ファイルを変更し、各アプライアンスを1つずつ再展開する必要があります。
+サイト内に複数のアプライアンスがある場合は、次の手順を実行して、CloudConnector.ini ファイルを変更し、各アプライアンスを1つずつ再展開する必要があります。
   
 1. 次のコマンドレットを実行して、現在のアプライアンス上にある既存の仮想マシンをすべてアンインストールします。 
     
@@ -78,7 +81,7 @@ ms.locfileid: "44220297"
    Unregister-CcAppliance
    ```
 
-3. アプライアンスディレクトリで CloudConnector .ini ファイルを更新します。
+3. アプライアンスディレクトリの CloudConnector.ini ファイルを更新します。
     
 4. 次のコマンドレットを実行して構成を更新します。 (この手順はバージョン2にのみ適用されます。以前のバージョンでは、次の手順に進んでください。)
     
@@ -175,9 +178,9 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > このセクションは、Cloud Connector バージョン2.0 以降に適用されます。 
   
-すべての Cloud Connector 資格情報は、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> ホストサーバーのパスワードが変更された場合は、ローカルに格納されている資格情報を更新する必要があります。
+すべての Cloud Connector 資格情報は、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。 ホストサーバーのパスワードが変更された場合は、ローカルに格納されている資格情報を更新する必要があります。
   
-Cloud Connector アプライアンスでローカルに格納されている資格情報を更新するには、 [Get](get-cccredential.md) [と cccredential の各コマンドレット](set-cccredential.md)を使用して、次の手順を実行します。
+Cloud Connector アプライアンスでローカルに格納されている資格情報を更新するには、 [Get](get-cccredential.md) [と cccredential の各コマンドレット](set-cccredential.md) を使用して、次の手順を実行します。
   
 1. 後で必要になるパスワードを取得するには、次のコマンドを実行します。 
     
@@ -191,7 +194,7 @@ Cloud Connector アプライアンスでローカルに格納されている資�
     
 3. ホストサーバーを再起動します。
     
-4. 次のファイルを削除します。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \>
+4. 次のファイルを \<CurrentUser\> 削除します。 "%SystemDrive%\Programdata\Cloudconnector\credentials.xml "。
     
 5. 管理者として PowerShell コンソールを起動してから、説明に従ってパスワードを再入力するには、「Register-CcAppliance-Local」を実行します。 Cloud Connector の展開の前に入力したのと同じパスワードを入力してください。
     
@@ -215,9 +218,9 @@ Cloud Connector アプライアンスでローカルに格納されている資�
 > [!NOTE]
 > このセクションは、Cloud Connector バージョン2.0.1 以降に適用されます。 
   
-Cloud Connector service は、Cloud Connector Management service を実行します。 CceService アカウントは、Cloud Connector Edition の展開時に作成され、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser \> "および"%SystemDrive%\Programdata\Cloudconnector\credentials..CceService "。
+Cloud Connector service は、Cloud Connector Management service を実行します。 CceService アカウントは、Cloud Connector Edition の展開時に作成され、次のファイルに格納されます。 "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "および"% SystemDrive% \Programdata\Cloudconnector\credentials..CceService.xml "です。
   
-すべてのアプライアンスがサイトディレクトリ共有にアクセスできるようにするには、CceService アカウントのパスワードが、サイト内に展開されているすべてのアプライアンスで同じである必要があります。 以下の点にご注意ください。
+すべてのアプライアンスがサイトディレクトリ共有にアクセスできるようにするには、CceService アカウントのパスワードが、サイト内に展開されているすべてのアプライアンスで同じである必要があります。 以下の点に注意します。
   
 - 既定では、CceService アカウントは、[パスワードを無期限にする] として構成されています。 パスワードを更新するときは、この構成を維持することをお勧めします。
     
@@ -271,11 +274,11 @@ Cloud Connector service は、Cloud Connector Management service を実行しま
     
     - CcLockFile
     
-    - Site_ \< エッジ外部 Sip プールの fqdn\>
+    - Site_\<Edge External Sip Pool fqdn\>
     
-    - Tenant_ \< エッジ外部 Sip プールの fqdn\>
+    - Tenant_\<Edge External Sip Pool fqdn\>
     
-    - TenantConfigLock_ \< エッジ外部 Sip プールの fqdn\>
+    - TenantConfigLock_\<Edge External Sip Pool fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>新しい SIP ドメインを追加する
 <a name="BKMK_UpdatePassword"> </a>
@@ -296,7 +299,7 @@ Cloud Connector service は、Cloud Connector Management service を実行しま
 
 5. 
     
-    指示に従って、 [1 つのサイトの構成を変更](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite)するか、[複数のサイトの構成を変更](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites)します。
+    指示に従って、 [1 つのサイトの構成を変更](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_SIngleSite) するか、 [複数のサイトの構成を変更](modify-the-configuration-of-an-existing-cloud-connector-deployment.md#BKMK_MultipleSites)します。
     
 ## <a name="modify-the-primary-sip-domain"></a>プライマリ SIP ドメインを変更する
 <a name="BKMK_UpdatePassword"> </a>

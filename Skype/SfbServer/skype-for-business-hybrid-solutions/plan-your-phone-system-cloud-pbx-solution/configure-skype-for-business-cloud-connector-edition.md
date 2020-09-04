@@ -20,15 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Skype for business Cloud Connector エディションを構成する方法について説明します。これには、オンプレミス音声インフラストラクチャと、Skype for Business Online の電話システム (クラウド PBX) の音声サービスとの統合を可能にするための最小限のオンプレミストポロジがあります。
-ms.openlocfilehash: a7c157836497383d89055f8ab986aa15f7e11870
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: e30fcb4cad44bffed495f1191e5e5cae73bb18cc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219517"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358793"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector エディションを構成および管理する
  
+> [!Important]
+> Cloud Connector エディションは、2021年7月31日、Skype for Business Online と共に廃止されます。 組織が Teams にアップグレードされたら、 [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを teams に接続する方法について説明します。
+
 Skype for business Cloud Connector エディションを構成する方法について説明します。これには、オンプレミス音声インフラストラクチャと、Skype for Business Online の電話システム (クラウド PBX) の音声サービスとの統合を可能にするための最小限のオンプレミストポロジがあります。 
   
 開始する前に、「 [Plan For Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)」の前提条件を確認してください。

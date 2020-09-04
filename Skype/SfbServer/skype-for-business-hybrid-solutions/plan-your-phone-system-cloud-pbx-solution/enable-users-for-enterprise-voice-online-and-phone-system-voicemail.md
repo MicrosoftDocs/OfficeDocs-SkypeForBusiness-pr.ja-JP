@@ -1,5 +1,5 @@
 ---
-title: エンタープライズ Voip オンラインおよび電話システムのボイスメールでユーザーを有効にする
+title: エンタープライズ VoIP オンラインおよび電話システムのボイスメールでユーザーを有効にする
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Skype for Business ユーザーの電話システム音声サービスを有効にする方法について説明します。
-ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221107"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359183"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>エンタープライズ Voip オンラインおよび電話システムのボイスメールでユーザーを有効にする
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>エンタープライズ VoIP オンラインおよび電話システムのボイスメールでユーザーを有効にする
  
+> [!Important]
+> Skype for Business Online は、2021年7月31日に廃止されます。その後、サービスにアクセスできなくなります。  さらに、Skype for Business Server または Cloud Connector Edition と Skype for Business Online のどちらを使用しても、オンプレミス環境との間の PSTN 接続がサポートされなくなります。  [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを Teams に接続する方法について説明します。
+
 Skype for Business ユーザーの電話システム音声サービスを有効にする方法について説明します。
   
 オンプレミスの PSTN 接続を備えた電話システムを展開するための最後の手順は、ユーザーが電話システムとボイスメールを使用できるようにすることです。 これらの機能を有効にするには、グローバル管理者の役割を持つユーザーである必要があり、リモート PowerShell を実行できる必要があります。 Skype for Business Online でエンタープライズ Voip が有効になっていないすべてのユーザーアカウントについて、このトピックの手順を実行する必要があります。
@@ -38,7 +41,7 @@ Skype for Business ユーザーの電話システム音声サービスを有効�
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>ユーザーが電話システムの音声とボイスメールを有効にするには
 
-1. 開始する前に、Skype for Business Online Connector (Windows PowerShell モジュール) がフロントエンドサーバーに展開されていることを確認してください。 そうでない場合は、[ダウンロードセンター](https://www.microsoft.com/download/details.aspx?id=39366)からダウンロードできます。 このモジュールの使用の詳細については[、「Skype For Business Online 管理用のコンピューターの構成](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)」を参照してください。
+1. 開始する前に、Skype for Business Online Connector (Windows PowerShell モジュール) がフロントエンドサーバーに展開されていることを確認してください。 そうでない場合は、 [ダウンロードセンター](https://www.microsoft.com/download/details.aspx?id=39366)からダウンロードできます。 このモジュールの使用の詳細については [、「Skype For Business Online 管理用のコンピューターの構成](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)」を参照してください。
     
 2. 管理者として Windows PowerShell を開始します。
     
@@ -78,7 +81,7 @@ Skype for Business ユーザーの電話システム音声サービスを有効�
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    次に例を示します。
+    例:
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -106,15 +109,15 @@ Skype for Business ユーザーの電話システム音声サービスを有効�
     
 5. 表で、回線 URI を変更する Skype for Business ユーザーアカウントをクリックします。
     
-6. [**回線 URI**] をクリックし、正規化された一意の電話番号 (たとえば、tel: + 14255550200) を入力します。 [**確定**] をクリックします。
+6. [ **回線 URI**] をクリックし、正規化された一意の電話番号 (たとえば、tel: + 14255550200) を入力します。 [ **確定**] をクリックします。
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>オンプレミスの Windows PowerShell コマンドレットを使用してダイヤルプランを更新する
 
-Windows PowerShell と[get-csdialplan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットを使用して、ユーザーごとのダイヤルプランを割り当てることができます。 このコマンドレットは、Skype for Business Server 2015 または Windows PowerShell のリモートセッションから実行できます。
+Windows PowerShell と [get-csdialplan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) コマンドレットを使用して、ユーザーごとのダイヤルプランを割り当てることができます。 このコマンドレットは、Skype for Business Server 2015 または Windows PowerShell のリモートセッションから実行できます。
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>ユーザー単位のダイヤルプランを1人のユーザーに割り当てるには
 
-- ユーザーごとのダイヤルプラン RedmondDialPlan をユーザー Ken Myer に割り当てるには、 [get-csdialplan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットを使用します。
+- ユーザーごとのダイヤルプラン RedmondDialPlan をユーザー Ken Myer に割り当てるには、 [get-csdialplan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) コマンドレットを使用します。
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
@@ -122,7 +125,7 @@ Windows PowerShell と[get-csdialplan](https://docs.microsoft.com/powershell/mod
 
 ### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>複数のユーザーにユーザー単位のダイヤルプランを割り当てるには
 
-- 次のコマンドは、Redmond の市区町村で働くすべてのユーザーに、ユーザーごとのダイヤルプラン RedmondDialPlan を割り当てます。 このコマンドで使用されている LdapFilter パラメーターの詳細については、「 [Get-help user](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)コマンドレットのドキュメント」を参照してください。
+- 次のコマンドは、Redmond の市区町村で働くすべてのユーザーに、ユーザーごとのダイヤルプラン RedmondDialPlan を割り当てます。 このコマンドで使用されている LdapFilter パラメーターの詳細については、「 [Get-help user](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) コマンドレットのドキュメント」を参照してください。
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
@@ -133,7 +136,7 @@ Windows PowerShell と[get-csdialplan](https://docs.microsoft.com/powershell/mod
   
 ### <a name="to-unassign-a-per-user-dial-plan"></a>ユーザーごとのダイヤルプランの割り当てを解除するには
 
-- 以前に Ken Myer に割り当てられたユーザーごとのダイヤルプランの割り当てを解除するには、 [get-csdialplan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps)コマンドレットを使用します。 ユーザーごとのダイヤルプランの割り当てが解除されると、Ken Myer は、そのレジストラーまたは PSTN ゲートウェイに割り当てられたグローバルダイヤルプランまたはサービススコープのダイヤルプランを使用して、自動的に管理されます。 サービススコープのダイヤルプランは、グローバルダイヤルプランより優先されます。
+- 以前に Ken Myer に割り当てられたユーザーごとのダイヤルプランの割り当てを解除するには、 [get-csdialplan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) コマンドレットを使用します。 ユーザーごとのダイヤルプランの割り当てが解除されると、Ken Myer は、そのレジストラーまたは PSTN ゲートウェイに割り当てられたグローバルダイヤルプランまたはサービススコープのダイヤルプランを使用して、自動的に管理されます。 サービススコープのダイヤルプランは、グローバルダイヤルプランより優先されます。
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -150,7 +153,7 @@ Windows PowerShell と[get-csdialplan](https://docs.microsoft.com/powershell/mod
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>ユーザー単位の音声ルーティングポリシーを単一のユーザーに割り当てるには
 
-- ユーザーごとの音声ルーティングポリシー RedmondVoiceRoutingPolicy をユーザー Ken Myer に割り当てるには、 [grant-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps)コマンドレットを使用します。
+- ユーザーごとの音声ルーティングポリシー RedmondVoiceRoutingPolicy をユーザー Ken Myer に割り当てるには、 [grant-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) コマンドレットを使用します。
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
