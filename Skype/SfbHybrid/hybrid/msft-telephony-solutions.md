@@ -1,5 +1,5 @@
 ---
-title: Microsoft テレフォニーソリューション
+title: Microsoft テレフォニー ソリューション
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,14 +18,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Microsoft テレフォニーソリューションについて説明します。
-ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221327"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359103"
 ---
-# <a name="microsoft-telephony-solutions"></a>Microsoft テレフォニーソリューション
+# <a name="microsoft-telephony-solutions"></a>Microsoft テレフォニー ソリューション
 
 Microsoft は、Microsoft クラウドでの Teams への移行を開始する際に、いくつかのオプションをサポートしています。 この記事では、組織内のユーザーに適切な Microsoft テレフォニーソリューション (クラウドまたはエンタープライズボイスオンプレミスの電話システム) を決定し、組織が公衆交換電話網 (PSTN) に接続する方法を決定するのに役立つ情報を示します。 
 
@@ -126,7 +126,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 | サードパーティ製の電話会社との契約が必要      | いいえ   |
 | Skype for Business Server または Cloud Connector エディションの展開と保守が必要 | いいえ |
 
-\*通話プランが利用可能な国の詳細については、「[国および地域の利用可能な電話会議と通話プラン](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。
+\* 通話プランが利用可能な国の詳細については、「 [国および地域の利用可能な電話会議と通話プラン](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。
 
 
 次の質問に対して [はい] を選択した場合は、次の方法が適しています。
@@ -137,7 +137,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 - セッションボーダーコントローラーを独自に管理しない場合。
 - Teams または Skype for Business Online には、組織が必要とするすべての機能が含まれています。
 
-詳細については、「 [microsoft 365 の電話システムに](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)ついて」365および「 [microsoft 365 または Office 365 の通話プラン](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)」を参照してください。
+詳細については、「 [microsoft 365 の電話システムに](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) ついて」365および「 [microsoft 365 または Office 365 の通話プラン](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)」を参照してください。
 
 ## <a name="phone-system-with-own-carrier-via-direct-routing"></a>直接ルーティング経由で carrier を備えた電話システム
 
@@ -158,7 +158,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 | サードパーティ製の電話会社との契約が必要 *      | はい   |
 | Skype for Business Server または Cloud Connector エディションの展開と保守が必要 | いいえ |
 
-\*通話プランが設定された電話システムのユーザーのために、サードパーティの PBX、アナログデバイス、またはその他のテレフォニー機器への接続を提供するオプションとして展開されている場合を除きます。
+\* 通話プランが設定された電話システムのユーザーのために、サードパーティの PBX、アナログデバイス、またはその他のテレフォニー機器への接続を提供するオプションとして展開されている場合を除きます。
 
 次の質問に対して [はい] を選択した場合は、次の方法が適しています。
 
@@ -168,10 +168,13 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 - サードパーティの Pbx や機器との相互運用が必要なのは、microsoft が提供するオーバーヘッドポケットベル、アナログデバイス
 - Teams には、組織に必要なすべての機能が用意されています。
 
-詳細については、「 [Microsoft 365 の電話システムと Office 365 に](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)ついて」と「 [Direct Routing を計画](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)する」を参照してください。
+詳細については、「 [Microsoft 365 の電話システムと Office 365 に](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) ついて」と「 [Direct Routing を計画](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)する」を参照してください。
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Skype for Business Server または Cloud Connector エディションを使用した独自のキャリアを備えた電話システム
+
+> [!Important]
+> Skype for Business Online は、2021年7月31日に廃止されます。その後、サービスにアクセスできなくなります。  さらに、Skype for Business Server または Cloud Connector Edition と Skype for Business Online のどちらを使用しても、オンプレミス環境との間の PSTN 接続がサポートされなくなります。  [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを Teams に接続する方法について説明します。
 
 このオプションでは、Skype for Business Online ユーザーのオンプレミスのテレフォニーネットワークへの接続を備えた、クラウド内の Microsoft 電話システムが提供されます。
 

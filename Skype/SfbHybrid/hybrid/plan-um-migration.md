@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server および Exchange Server の移行を計画する
+title: Skype for Business Server と Exchange Server の移行の計画
 ms.reviewer: ''
 author: dstrome
 ms.author: dstrome
@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: このトピックでは、既存の Skype for Business Server または Exchange Server の展開を最新バージョンまたは Skype for Business Online または Exchange Online に移行する場合に考慮する必要がある事項について説明します。
-ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cb6d58cf839b6260bc8889817ea568528e4832f4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221267"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359043"
 ---
-# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Skype for Business Server および Exchange Server の移行を計画する
+# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Skype for Business Server と Exchange Server の移行の計画
 
-このトピックでは、既存の Skype for Business Server または Exchange Server の展開を最新バージョンまたは Skype for Business Online または Exchange Online に移行する場合に考慮する必要がある事項について説明します。 移行できる対象は、組織内で既にセットアップされているものによって大きく異なります。
+このトピックでは、既存の Skype for Business Server または Exchange Server の展開を Exchange Online に移行する場合に考慮する必要がある事項について説明します。 移行できる対象は、組織内で既にセットアップされているものによって大きく異なります。
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Exchange 2019 および Skype for Business Server 2019 での機能の変更点
 
@@ -73,7 +73,7 @@ Skype for Business Server 2019 では、Exchange Online UM からクラウドボ
 Skype for Business Server 2019 および Exchange 2019 への移行を開始する前に、次の点に注意してください。
 
 - クラウドボイスメールは、GA 時に組織の自動応答をサポートしません。 クラウドボイスメールに移動されたメールボックスを引き続き自動応答で利用できるようにする場合は、UM の役割またはサービスを実行している Exchange 2013 または Exchange 2016 サーバーを少なくとも1つ保持する必要があります。
-- Exchange 2019 にメールボックスを移動する前に、少なくとも1つの Skype for Business 2019 server をセットアップ**し、** ユーザーをそのサーバーに移動する必要があります。 そうしないと、それらのメールボックスはボイスメールメッセージを受信できなくなります。
+- Exchange 2019 にメールボックスを移動する前に、少なくとも1つの Skype for Business 2019 server をセットアップ **し、** ユーザーをそのサーバーに移動する必要があります。 そうしないと、それらのメールボックスはボイスメールメッセージを受信できなくなります。
 - ボイスメールに送信された通話は、記録されるクラウドボイスメールに転送されます。 通話が終了すると、ボイスメールメッセージは社内 Exchange 2019 サーバー上の受信者のメールボックスに送信されます。 クラウドボイスメールをサポートするのにインターネット接続が十分であるかどうかを判断するには、この音声トラフィックを考慮する必要があります。
 
 この移行を完了するための大まかな手順は次のとおりです。

@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この記事では、Microsoft クラウドボイスメールサービスを実装するための利点、計画に関する考慮事項、および要件について説明します。 クラウドボイスメールの構成の詳細については、「Cloud 留守番電話を構成する」を参照してください。
-ms.openlocfilehash: b78608f3fd1e60421ad0edc4318b2b44217851c2
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: d95d3674eb9119be07e8b588ec3fe0e619fb5f1c
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472256"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359133"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>オンプレミスユーザー用にクラウドボイスメールサービスを計画する
 
 ## <a name="overview"></a>概要
 
-この記事では、オンプレミスのユーザー用に Microsoft クラウドボイスメールサービスを実装するための利点、計画に関する考慮事項、および要件について説明します。 クラウドボイスメールの構成の詳細については、「[クラウドボイスメールサービスを構成する](configure-cloud-voicemail.md)」を参照してください。
+この記事では、オンプレミスのユーザー用に Microsoft クラウドボイスメールサービスを実装するための利点、計画に関する考慮事項、および要件について説明します。 クラウドボイスメールの構成の詳細については、「 [クラウドボイスメールサービスを構成する](configure-cloud-voicemail.md)」を参照してください。
 
 クラウドボイスメールは、exchange ユニファイドメッセージング (UM) の代わりに、Exchange Server 2019 または Exchange Online にメールボックスを持つ Skype for Business 2019 音声ユーザーの音声メッセージング機能を提供します。 クラウドボイスメールには、オンプレミスのユーザーとオンラインユーザーの両方に対して次のような利点があります。
 
@@ -37,6 +37,9 @@ ms.locfileid: "44472256"
 
 - Exchange Online ユニファイドメッセージングからの既存のユーザー案内応答の活用
 
+> [!Important]
+> Skype for Business Online は2021年7月31日に廃止されます。これは、ユーザーが Skype for Business Online クライアントを介して Exchange メールボックス内のボイスメールにアクセスできなくなります。
+
 機能の比較の詳細については、「 [Plan For Skype for Business server And Exchange server migration](plan-um-migration.md)」を参照してください。
 
 Skype for Business Server 2019 は、メールボックスが以前のバージョンの Exchange Server (2013, 2016) にあるユーザーに対して Exchange UM を引き続き使用します。  Exchange Server および Skype for Business Server のバージョンに基づいてどのボイスメールソリューションを使用するかを理解することは、Skype for Business Server 2019 または Exchange Server 2019 に移行するための計画において重要な部分です。 移行と相互運用性の詳細については、「 [Plan For Skype for Business server And Exchange server migration](plan-um-migration.md)」を参照してください。
@@ -46,7 +49,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 - Exchange UM の役割を構成する必要はありません。
 - クラウドボイスメールのセットアップタスクの方が簡単です。
 - ボイスメール機能への更新はクラウドに直接配信されるため、ユーザーは常に最新の機能と更新プログラムにアクセスでき、累積的な更新プログラム (Cu) への依存度は低くなります。
-- オンプレミスとオンラインの両方の Exchange メールボックスに対して同じコントロールセットがあります。 これらのコントロールの詳細については、「[電話システムボイスメールをセットアップ](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d)する」を参照してください。
+- オンプレミスとオンラインの両方の Exchange メールボックスに対して同じコントロールセットがあります。 これらのコントロールの詳細については、「 [電話システムボイスメールをセットアップ](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d)する」を参照してください。
 
 次の図は、ハイブリッド展開でのクラウドボイスメールを示しています。
 
@@ -59,13 +62,13 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 3. その後、メールボックスがオンプレミスかオンラインかにかかわらず、ユーザーの Exchange メールボックスにボイスメールがデポジットされます。  
 4. ユーザーは、Skype for Business または Outlook クライアントから、ボイスメールにアクセスできます。
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要件
 
 次の要件は、サポートされているトポロジで Skype for Business Server を既に展開していることを前提としています。  要件は、シナリオによって異なります。
 
-- 既に Exchange UM online を使用していて、Skype for Business 2019 にアップグレードする場合は、ホスト型ボイスメールポリシーを変更し、ホスティングプロバイダーが正しく設定されていることを確認する必要があります。 詳細については、「[クラウドボイスメールサービスを構成する](configure-cloud-voicemail.md)」を参照してください。
+- 既に Exchange UM online を使用していて、Skype for Business 2019 にアップグレードする場合は、ホスト型ボイスメールポリシーを変更し、ホスティングプロバイダーが正しく設定されていることを確認する必要があります。 詳細については、「 [クラウドボイスメールサービスを構成する](configure-cloud-voicemail.md)」を参照してください。
 
-- Exchange UM を社内で使用している場合、または Exchange UM online とオンプレミスを使用しているユーザーが混在している場合は、ホスト型ボイスメールポリシーとホスティングプロバイダーの両方を変更する必要があります。  詳細については、「[クラウドボイスメールサービスを構成する](configure-cloud-voicemail.md)」を参照してください。
+- Exchange UM を社内で使用している場合、または Exchange UM online とオンプレミスを使用しているユーザーが混在している場合は、ホスト型ボイスメールポリシーとホスティングプロバイダーの両方を変更する必要があります。  詳細については、「 [クラウドボイスメールサービスを構成する](configure-cloud-voicemail.md)」を参照してください。
 
 - クラウドボイスメールの新しい構成を行うには、「 [Configure Cloud ボイスメールサービス](configure-cloud-voicemail.md)」に記載されている手順に従ってください。
 
@@ -73,7 +76,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 
 - ハイブリッド接続。 Skype for Business Server を既に展開しており、オンプレミスのユーザーに対してクラウドボイスメールを有効にする場合は、オンプレミスの環境とオンライン環境の間でハイブリッド接続が設定されていることを確認する必要があります。 これは、分割ドメイン構成と呼ばれることがあります。
 
-   詳細については、「Skype for business [server と Microsoft 365 または office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md)する」および「 [Skype for Business server と office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
+   詳細については、「Skype for business [server と Microsoft 365 または office 365 の間のハイブリッド接続を計画](plan-hybrid-connectivity.md) する」および「 [Skype for Business server と office 365 の間のハイブリッド接続を構成する](configure-hybrid-connectivity.md)」を参照してください。
 
 - オンプレミスのユーザーは、Skype for Business Server のエンタープライズ Voip およびホストボイスメールに対して有効にする必要があります。
 
@@ -83,7 +86,7 @@ Skype for Business Server 2019 は、メールボックスが以前のバージ�
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 
-Skype for Business Server 2019 または Exchange Server 2019 の展開を計画している場合は、ボイスメッセージングのサービスを継続するために、慎重に移行を計画する必要があります。 以下の点にご注意ください。
+Skype for Business Server 2019 または Exchange Server 2019 の展開を計画している場合は、ボイスメッセージングのサービスを継続するために、慎重に移行を計画する必要があります。 以下の点に注意します。
 
 - Exchange Server 2019 が Exchange UM 機能を提供しなくなった
 - Skype for Business Server 2019 が Exchange Online UM と統合されなくなりました
