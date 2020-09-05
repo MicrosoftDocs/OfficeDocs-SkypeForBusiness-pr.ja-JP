@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft Teams の米国 (プエルトリコを含む) で電話番号を取得および管理する方法については、次の表を参照してください。
-ms.openlocfilehash: 665d17ac8df753c3c11e149518b8a2eb686bc91e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 81ec9a76a7040b702fdb3d77ba2750dc52ff3c2f
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904382"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399502"
 ---
 # <a name="phone-number-management-for-the-us"></a>米国での電話番号の管理
 
@@ -35,12 +35,11 @@ Microsoft Teams の米国 (プエルトリコを含む) で電話番号を取得
 
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
-|**実行する操作**|**これらの手順を実行して正しいフォームをダウンロードする**|
+| 実行する操作 | これらの手順を実行して正しいフォームをダウンロードする |
 |:-----|:-----|
 |Microsoft Teams 管理センターに表示されていない新しいユーザーの電話番号を取得します。  <br/> |「[英国での新しい電話番号の申請 (ユーザー番号) (v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf?raw=true)」をダウンロードして記入し、[マイクロソフトに送信します](mailto:gcstnmsd@microsoft.com)。  <br/> |
-|Microsoft Teams 管理センターに表示されていない新しいサービス電話番号を取得します。 <br/> |米国内のサービス番号の場合は、[このフォームをダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true)して入力し、[送信](mailto:gcstnmsd@microsoft.com)してください。
-|お客さまの電話番号をお送りします。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [米国 (ユーザーおよびサービス番号) の認証の文字 (LOA) (ja-jp) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/>
-            [米国 (無料の電話番号) 用の承認状 (LOA) (v.3.2) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**注:** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとする場合は、承認状 (LOA) を記入して送信する必要があります。 詳細については、「[チームに電話番号を転送する](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」を参照してください。          <br/>  <br/>   記入し、[マイクロソフトに送信します](mailto:ptn@microsoft.com)。  <br/> |
+|Microsoft Teams 管理センターに表示されていない新しいサービス電話番号を取得します。 <br/> |米国内のサービス番号の場合は、 [このフォームをダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true)して入力し、 [送信](mailto:gcstnmsd@microsoft.com)してください。
+|お客さまの電話番号をお送りします。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [米国 (ユーザーとサービスの電話番号) の承認 (LOA) (米国) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/>[米国 (無料電話番号) (米国) (en-us) の承認状 (LOA) (ja-jp)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**注:** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとする場合は、承認状 (LOA) を記入して送信する必要があります。 詳細については、「 [チームに電話番号を転送する](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 」を参照してください。          <br/>  <br/>   記入し、[マイクロソフトに送信します](mailto:ptn@microsoft.com)。  <br/> |
 |ユーザーの電話番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストと PIN を[マイクロソフトに送信](mailto:ptn@microsoft.com)します。 PIN をセットアップする方法については、[こちら](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)をご覧ください。  <br/> |
 |1つの Microsoft 365 または Office 365 から別の番号に番号を転送します。  <br/> |移行するユーザー (サブスクライバー) の電話番号のリストを、番号の転送元の組織の PIN とともに、[マイクロソフトに送信](mailto:ptn@microsoft.com)します。 PIN をセットアップする方法については、[こちら](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)をご覧ください。  <br/> |
 |||

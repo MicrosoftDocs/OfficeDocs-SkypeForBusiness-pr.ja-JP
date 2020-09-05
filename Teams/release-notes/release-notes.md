@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams の管理者向け機能のリリースノート。
-ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
-ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
+ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797445"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399512"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams の管理者向け機能のリリースノート
 
 これらのリリースノートでは、Microsoft Teams の新しい管理機能について説明します。
+
+## <a name="september-3-2020"></a>2020年9月3日
+
+### <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft Teams のカスタムアプリストア
+
+これで、ロゴ、カスタム背景、ユーザー設定のテキストの色を追加して、組織のブランドを持つ Teams アプリストアをカスタマイズして、エンドユーザーに招待することができます。 [詳細情報](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+
+## <a name="september-1-2020"></a>2020年9月1日
+
+### <a name="on-demand-translation-in-android"></a>Android でのオンデマンド翻訳
+
+インラインメッセージの翻訳は、ユーザーがチームのメッセージを個人の言語設定で指定された言語に翻訳できる Microsoft Teams の機能です。 翻訳設定は既定で **オンに** なっています。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams)。
 
 ## <a name="august-17-2020"></a>2020年8月17日
 
@@ -35,15 +47,15 @@ ms.locfileid: "46797445"
 
 ### <a name="manage-the-praise-app"></a>称賛アプリを管理する
 
-Microsoft Teams の称賛アプリを使用すると、ユーザーは組織または教室のメンバーに対する感謝を示すことができます。 選択して、独自のバッジを作成するためのオプションを選ぶと、称賛は、チームユーザーが作成するさまざまな作業について、教育者から最初のラインワーカーまでの労力を認識できるように設計されています。 [詳細については、こちらを参照してください](../manage-praise-app.md)。
+Microsoft Teams の称賛アプリを使用すると、ユーザーは組織または教室のメンバーに対する感謝を示すことができます。 選択して、独自のバッジを作成するためのオプションを選ぶと、称賛は、チームユーザーが作成するさまざまな作業について、教育者から最初のラインワーカーまでの労力を認識できるように設計されています。 [詳細情報を参照してください](../manage-praise-app.md)。
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams のルームと Surface Hub でコーディネートされた会議をセットアップする
 
-会議室に1つ以上の Microsoft Teams ルームデバイスまたは Surface Hub がある場合は、調和のとれた会議を設定することができます。 コーディネートされた会議では、チームルームデバイスと Surface Hub をセットアップして、1つのデバイスで会議に参加するときに、その他のデバイスも同じ会議に参加するようにすることができます。 [詳細については、こちらを参照してください](../rooms/coordinated-meetings.md)。
+会議室に1つ以上の Microsoft Teams ルームデバイスまたは Surface Hub がある場合は、調和のとれた会議を設定することができます。 コーディネートされた会議では、チームルームデバイスと Surface Hub をセットアップして、1つのデバイスで会議に参加するときに、その他のデバイスも同じ会議に参加するようにすることができます。 [詳細情報を参照してください](../rooms/coordinated-meetings.md)。
 
 ### <a name="tagging-by-shift"></a>Shift でのタグ付け
 
-この機能を使用すると、チーム内のシフトアプリのスケジュールとシフトグループ名に一致するタグが自動的に割り当てられます。 [詳細については、こちらを参照してください](../manage-tags.md)。
+この機能を使用すると、チーム内のシフトアプリのスケジュールとシフトグループ名に一致するタグが自動的に割り当てられます。 [詳細情報を参照してください](../manage-tags.md)。
 
 ## <a name="august-14-2020"></a>2020年8月14日
 
@@ -55,7 +67,7 @@ Teams の cortana は、 [オンラインサービス利用規約 (OST)](https:/
 
 ### <a name="teams-devices-administrator"></a>Teams デバイス管理者
 
-この役割を持つユーザーは、teams 管理センターからチームの認定済みデバイスを管理できます。 サインインしたアカウントや、デバイスのメーカーとモデルなど、各デバイスの詳細情報を確認できます。 デバイスの設定を変更したり、ソフトウェアを更新したり、デバイスをリモートで再起動したりすることができます。 [詳細については、こちらを参照してください](../using-admin-roles.md)。
+この役割を持つユーザーは、teams 管理センターからチームの認定済みデバイスを管理できます。 サインインしたアカウントや、デバイスのメーカーとモデルなど、各デバイスの詳細情報を確認できます。 デバイスの設定を変更したり、ソフトウェアを更新したり、デバイスをリモートで再起動したりすることができます。 [詳細情報を参照してください](../using-admin-roles.md)。
 
 ## <a name="august-12-2020"></a>2020年8月12日
 
@@ -67,37 +79,47 @@ Teams ユーザーは、[リスト] アプリタブを使って、リストの�
 
 ### <a name="approve-custom-apps"></a>カスタムアプリを承認する
 
-Teams アプリ申請 API を通じて送信されたカスタムアプリを承認します。 [詳細については、こちらを参照してください](../submit-approve-custom-apps.md)。
+Teams アプリ申請 API を通じて送信されたカスタムアプリを承認します。 [詳細情報を参照してください](../submit-approve-custom-apps.md)。
 
 ## <a name="august-3-2020"></a>2020年8月3日
 
 ### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams のサードパーティ製アプリの購入サービス
 
-Teams アプリは無料でインストールでき、アプリの完全な機能と範囲を体験するためにサービスの購入が必要になる場合もあります。 これらのサービス月額プランは、サービス (SaaS) オファーとして提供されます。これは、アプリソースと、Microsoft Teams 管理センターを通じて購入することができます。 [詳細については、こちらを参照してください](../purchase-third-party-apps.md)。
+Teams アプリは無料でインストールでき、アプリの完全な機能と範囲を体験するためにサービスの購入が必要になる場合もあります。 これらのサービス月額プランは、サービス (SaaS) オファーとして提供されます。これは、アプリソースと、Microsoft Teams 管理センターを通じて購入することができます。 [詳細情報を参照してください](../purchase-third-party-apps.md)。
+
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams アプリ申請 API を通じて送信されたカスタムアプリを公開する
+
+開発者は、Teams App submit API を使って、管理者がレビューおよび承認できるように、Microsoft Teams 管理センターにカスタムアプリを直接送信できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps)。
+
+## <a name="july-31-2020"></a>2020年7月31日
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>管理者は、Firstline worker のシフトベースのプレゼンス (シフトの場合はシフト) を構成できます。
+
+管理者は、シフトベースのプレゼンス状態を使用するように firstline ワーカーを構成できます。シフト、取り込み中 (シフト中は切り替え可能)、shift キーをオフにすることができます。
 
 ## <a name="july-29-2020"></a>2020年7月29日
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>デバイスタグ機能を使用した管理性の向上
 
-管理性の向上の一環として、デバイスタグ機能をリリースしています。 これにより、IT 管理者は、ユーザーによって生成されたタグを持つ特定のデバイスのセットをグループ化して、同じ操作を実行することができます。 [詳細については、こちらを参照してください](/../../manage-device-tags.md)。
+管理性の向上の一環として、デバイスタグ機能をリリースしています。 これにより、IT 管理者は、ユーザーによって生成されたタグを持つ特定のデバイスのセットをグループ化して、同じ操作を実行することができます。 [詳細情報を参照してください](/../../manage-device-tags.md)。
 
 ## <a name="july-28-2020"></a>2020年7月28日
 
 ### <a name="create-your-own-teams-template"></a>独自のチームテンプレートを作成する
 
-管理コンソールからテンプレートを使用して、独自のチームテンプレートを作成したり、既存のテンプレートから Teams テンプレートを作成したりできるようになりました。 [詳細については、こちらを参照してください](../get-started-with-teams-templates-in-the-admin-console.md)。
+管理コンソールからテンプレートを使用して、独自のチームテンプレートを作成したり、既存のテンプレートから Teams テンプレートを作成したりできるようになりました。 [詳細情報を参照してください](../get-started-with-teams-templates-in-the-admin-console.md)。
 
 ## <a name="july-20-2020"></a>2020年7月20日
 
 ### <a name="admins-can-control-outgoing-webhooks-at-the-user-level"></a>管理者は、発信 web フックをユーザーレベルで制御できます。
 
-管理者は、アプリのアクセス許可ポリシーで送信 Web フックアプリを許可またはブロックすることにより、ユーザーレベルで送信 web フックを制御できます。 [詳細については、こちらを参照してください](../manage-apps.md)。
+管理者は、アプリのアクセス許可ポリシーで送信 Web フックアプリを許可またはブロックすることにより、ユーザーレベルで送信 web フックを制御できます。 [詳細情報を参照してください](../manage-apps.md)。
 
 ## <a name="july-17-2020"></a>2020年7月17日
 
 ### <a name="ndi-out-for-teams-meetings"></a>Teams 会議用の NDI
 
-チーム会議への NDI を有効にする機能が追加されました。 NDI Out は、会議の音声とビデオをビデオ製造ツールで利用できるようにすることを可能にします。 [詳細については、こちらを参照してください](../use-ndi-in-meetings.md)。
+チーム会議への NDI を有効にする機能が追加されました。 NDI Out は、会議の音声とビデオをビデオ製造ツールで利用できるようにすることを可能にします。 [詳細情報を参照してください](../use-ndi-in-meetings.md)。
 
 ## <a name="july-15-2020"></a>2020年7月15日
 
@@ -109,7 +131,7 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 ### <a name="voicemail-support-in-call-queues"></a>通話キューでのボイスメールのサポート
 
-共有ボイスメールボックスを使用するために、通話キューのサポートを追加しました。 [詳細については、こちらを参照してください](../create-a-phone-system-call-queue.md)。
+共有ボイスメールボックスを使用するために、通話キューのサポートを追加しました。 [詳細情報を参照してください](../create-a-phone-system-call-queue.md)。
 
 ## <a name="july-8-2020"></a>2020年7月8日
 
@@ -121,23 +143,27 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="sensitivity-labels-for-teams"></a>Teams の機密度ラベル
 
-機密ラベルを使用すると、チームの管理者はチーム内で共同作業を行って作成された機密組織のコンテンツへのアクセスを規制できます。 [詳細については、こちらを参照してください](../sensitivity-labels.md)。
+機密ラベルを使用すると、チームの管理者はチーム内で共同作業を行って作成された機密組織のコンテンツへのアクセスを規制できます。 [詳細情報を参照してください](../sensitivity-labels.md)。
 
 ## <a name="july-2-2020"></a>2020年7月2日
 
 ### <a name="suggested-replies"></a>返信の候補
 
-チームユーザーが自分の会話に対して提案された返信を持つ機能を追加しました。 この候補は、チャットメッセージが有効になっている場合に、そのメッセージの下部に表示されます。 メッセージにすばやく簡単に返信することができます。 [詳細については、こちらを参照してください](../messaging-policies-in-teams.md#messaging-policy-settings)。
+チームユーザーが自分の会話に対して提案された返信を持つ機能を追加しました。 この候補は、チャットメッセージが有効になっている場合に、そのメッセージの下部に表示されます。 メッセージにすばやく簡単に返信することができます。 [詳細情報を参照してください](../messaging-policies-in-teams.md#messaging-policy-settings)。
 
 ### <a name="transferring-incoming-calls"></a>着信通話の転送
 
-自動応答と通話キューの着信通話を外部 PSTN 電話番号に転送する機能が追加されました。  [詳細については、こちらを参照してください](../business-voice/set-up-auto-attendants.md)。
+自動応答と通話キューの着信通話を外部 PSTN 電話番号に転送する機能が追加されました。  [詳細情報を参照してください](../business-voice/set-up-auto-attendants.md)。
 
 ## <a name="june-30-2020"></a>2020年6月30日
 
 ### <a name="install-apps-on-behalf-of-others"></a>他のユーザーの代わりにアプリをインストールする
 
-ユーザーが Teams を起動したときに既定でインストールされるアプリを選択します。 [詳細については、こちらを参照してください](../teams-app-setup-policies.md)。
+ユーザーが Teams を起動したときに既定でインストールされるアプリを選択します。 [詳細情報を参照してください](../teams-app-setup-policies.md)。
+
+### <a name="screen-sharing-on-behalf-of-others"></a>他のユーザーの代わりに表示される画面共有
+
+多くの IT 管理者は、AllowPrivateCalling ポリシーを無効にすると、従業員の画面をチャットから共有できないという苦情を受けています。 この機能によって、AllowPrivateCalling ポリシーからの映像共有を開始する機能が切り離されますが、AllowPrivateCalling ポリシーが無効になっている場合は、ユーザーがスクリーン共有セッションに音声/ビデオを追加することはブロックされます。
 
 ## <a name="june-29-2020"></a>2020年6月29日
 
@@ -159,25 +185,31 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Android および iOS ユーザー向けのサインイン制限
 
-ユーザーが他の場所で Microsoft 365 アカウントにサインインしていない場合は、組織がモバイル サインイン ポリシー用に構成した内容に応じて、単一要素認証または多要素認証 (SFA または MFA) を提供するように求められます。 [詳細については、こちらを参照してください](../sign-in-teams.md)。
+ユーザーが他の場所で Microsoft 365 アカウントにサインインしていない場合は、組織がモバイル サインイン ポリシー用に構成した内容に応じて、単一要素認証または多要素認証 (SFA または MFA) を提供するように求められます。 [詳細情報を参照してください](../sign-in-teams.md)。
+
+## <a name="june-15-2020"></a>2020年6月15日
+
+### <a name="monitor-shifts-with-audit-logs"></a>監査ログでシフトを監視する
+
+監査ログを検索して、組織内のシフトアクティビティを表示できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/audit-log-events)。
 
 ## <a name="june-11-2020"></a>2020年6月11日
 
 ### <a name="call-queues---presence-based-routing"></a>通話キュー-プレゼンスベースのルーティング
 
-オフにすると、ログイン状態に関係なく通話を受信するように設定したエージェントに、通話がルーティングされます。 オンにした場合、オプトインされたエージェントは、プレゼンス状態が利用可能な場合にのみ、通話を受信します。 [詳細については、こちらを参照してください](../create-a-phone-system-call-queue.md)。
+オフにすると、ログイン状態に関係なく通話を受信するように設定したエージェントに、通話がルーティングされます。 オンにした場合、オプトインされたエージェントは、プレゼンス状態が利用可能な場合にのみ、通話を受信します。 [詳細情報を参照してください](../create-a-phone-system-call-queue.md)。
 
 ## <a name="june-10-2020"></a>2020年6月10日
 
 ### <a name="call-queues---longest-idle-routing"></a>通話キュー-最長アイドルルーティング
 
-このオプションを選ぶと、最長時間の間、着信に応答していない通話エージェントに着信が転送されます。 [詳細については、こちらを参照してください](../create-a-phone-system-call-queue.md)。
+このオプションを選ぶと、最長時間の間、着信に応答していない通話エージェントに着信が転送されます。 [詳細情報を参照してください](../create-a-phone-system-call-queue.md)。
 
 ## <a name="june-1-2020"></a>2020年6月1日
 
 ### <a name="raise-hand-in-meetings"></a>会議で手を上げる
 
-ユーザーが会議で仮想手を上げることができるようになりました。 他の参加者には、会議ステージの自分の名前の横にある、または名簿で自分の名前の横に、発生した針が表示されます。 [詳細については、こちらを参照してください](../raise-hand-meetings.md)。
+ユーザーが会議で仮想手を上げることができるようになりました。 他の参加者には、会議ステージの自分の名前の横にある、または名簿で自分の名前の横に、発生した針が表示されます。 [詳細情報を参照してください](../raise-hand-meetings.md)。
 
 ## <a name="may-15-2020"></a>2020年5月15
 
@@ -193,7 +225,7 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="download-a-participant-report-in-a-teams-meeting"></a>Teams 会議で参加者レポートをダウンロードする
 
-会議の開催者、特に教師は、チーム会議に参加したユーザーを知っている必要があります。 間もなく参加者への参加と休暇を含む、リストビューに表示された参加者レポートをダウンロードできます。 [リスト] ビューでは、会議の開催者は開催者の表示中に参加したユーザーを含むレポートをダウンロードできます。 この機能は、会議がアクティブな間のみ会議で使用できます。 デスクトップ (Windows と Mac) と web で利用できます。 [詳細については、こちらを参照してください](../teams-analytics-and-reports/meeting-attendance-report.md)。
+会議の開催者、特に教師は、チーム会議に参加したユーザーを知っている必要があります。 間もなく参加者への参加と休暇を含む、リストビューに表示された参加者レポートをダウンロードできます。 [リスト] ビューでは、会議の開催者は開催者の表示中に参加したユーザーを含むレポートをダウンロードできます。 この機能は、会議がアクティブな間のみ会議で使用できます。 デスクトップ (Windows と Mac) と web で利用できます。 [詳細情報を参照してください](../teams-analytics-and-reports/meeting-attendance-report.md)。
 
 ## <a name="april-26-2020"></a>2020年4月26日
 
@@ -205,7 +237,7 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="team-and-channel-analytics"></a>チームとチャネルの分析
 
-また、チームの分析に加えて、チャネルレベルのメトリックと分析を表示することもできます。 また、期間が90日に拡張され、長期間のデータ分析が可能になりました。 このリリースには、チームまたはチャネルの投稿、返信、会議の数に関する新しい指標とグラフも含まれています。 [詳細については、こちらを参照してください](../teams-analytics-and-reports/view-analytics.md)。
+また、チームの分析に加えて、チャネルレベルのメトリックと分析を表示することもできます。 また、期間が90日に拡張され、長期間のデータ分析が可能になりました。 このリリースには、チームまたはチャネルの投稿、返信、会議の数に関する新しい指標とグラフも含まれています。 [詳細情報を参照してください](../teams-analytics-and-reports/view-analytics.md)。
 
 ## <a name="april-20-2020"></a>2020年4月20日
 
@@ -217,19 +249,19 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="customize-meeting-video-backgrounds"></a>会議のビデオの背景をカスタマイズする
 
-ビデオを使って会議しているときに、使用する静的な背景画像を選択できるようになりました。 これにより、この画像が表示され、実際の操作を行っているときの背景として表示されなくなります。 [詳細については、こちらを参照してください](../meeting-policies-in-teams.md)。
+ビデオを使って会議しているときに、使用する静的な背景画像を選択できるようになりました。 これにより、この画像が表示され、実際の操作を行っているときの背景として表示されなくなります。 [詳細情報を参照してください](../meeting-policies-in-teams.md)。
 
 ## <a name="april-1-2020"></a>2020年4月1日
 
 ### <a name="teams-for-realwear"></a>リアルな磨耗のチーム
 
-Microsoft Teams クライアントでは、realwear の ruggedized ヘッドマウントされたウェアラブル機器を使用して、チームのビデオ通話を使用して専門家からリモートアシスタンスを利用できるようにすること100ができます。 [詳細については、こちらを参照してください](../flw-realwear.md)。
+Microsoft Teams クライアントでは、realwear の ruggedized ヘッドマウントされたウェアラブル機器を使用して、チームのビデオ通話を使用して専門家からリモートアシスタンスを利用できるようにすること100ができます。 [詳細情報を参照してください](../flw-realwear.md)。
 
 ## <a name="march-31-2020"></a>2020年3月31日
 
 ### <a name="tag-youre-it"></a>タグが表示されている
 
-グループ、役割、部門などの @mention できるように、タグを作成してユーザーをそのユーザーに割り当てることができます。チームの所有者は、長らくにお試しください。 チームに移動し、[**その他のオプション**] の [タグの管理] を選択し  >  **Manage tags**ます。 [詳細については、こちらを参照してください](../manage-tags.md)。
+グループ、役割、部門などの @mention できるように、タグを作成してユーザーをそのユーザーに割り当てることができます。チームの所有者は、長らくにお試しください。 チームに移動し、[**その他のオプション**] の [タグの管理] を選択し  >  **Manage tags**ます。 [詳細情報を参照してください](../manage-tags.md)。
 
 ## <a name="march-30-2020"></a>2020年3月30日
 
