@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: a2d10048cf668c15060147b8426c5226e98fdaa4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868696"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359383"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>共有コンピューターで Microsoft Teams を安全に使用する
 
@@ -46,18 +46,20 @@ ms.locfileid: "46868696"
 
 1. オペレーティングシステムプラットフォームのセキュリティ機能を利用します。
     1. オペレーティングシステムがオペレーティングシステムプロバイダーからの自動更新をインストールするように構成されていることを確認します（Microsoft システムの場合、これは [**Windows Update**](https://support.microsoft.com/help/12373/windows-update-faq) から実行できます）。 
-    2. [**BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) などのデバイスの暗号化機能が有効になっており、デバイスへのアクセスに使用するキーが保護されていることを確認します。  最近のほとんどの [**Windows 10 デバイスはbitlockerをサポートしています**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
+    1. [**BitLocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) などのデバイスの暗号化機能が有効になっており、デバイスへのアクセスに使用するキーが保護されていることを確認します。  最近のほとんどの [**Windows 10 デバイスはbitlockerをサポートしています**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
     1. デバイスで、[**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) が提供するようなウイルス対策機能を使用します。
     1. システムのユーザーごとに[個別のユーザーアカウント](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)を使用することを強くお勧めします。
     1. 管理権限を必要としない機能（Web の閲覧、Teams の実行など）に対して管理者権限を付与または使用*しない*でください。
 
-2. ブラウザのセキュリティ機能を活用します。
+上記のガイダンスが満たされていない場合は、追加のブラウザーセキュリティのベストプラクティスを利用することをお勧めします。
+
+1. ブラウザのセキュリティ機能を活用します。
     1. プライベートブラウズセッションを使用して、ディスクに残るデータや履歴を最小限に抑えます。 たとえば、[Microsoft Edge での inPrivate ブラウズ](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)、[Google Chrome でのシークレットブラウズ](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)、または特定のブラウザでのプライベートブラウズ機能を使用します。 
     1. *既定で*プライベートブラウズを行うようにシステムの動作を変更しておくことをお勧めします。 
 
-3. ダウンロード可能な Teams クライアントではなく、[Teams Web アプリ](https://teams.microsoft.com)（*Web* クライアントとも呼ばれます）を閲覧して使用します。
+2. ダウンロード可能な Teams クライアントではなく、[Teams Web アプリ](https://teams.microsoft.com)（*Web* クライアントとも呼ばれます）を閲覧して使用します。
 
-4. 共有システムの使用が終了したら、次のことを行う必要があります。 
+3. 共有システムの使用が終了したら、次のことを行う必要があります。 
     1. [Teams からサインアウトする](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487)。
     1. ブラウザーのすべてのタブおよびウィンドウを閉じる。
     1. デバイスからサインアウトする。
