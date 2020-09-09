@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell での最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09014d3e7deba2797b46031efee81f537d2d6538
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170626"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405814"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell リリースノート
 
@@ -31,7 +31,8 @@ ms.locfileid: "45170626"
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
-| 2020年7月 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>追加された[グループポリシーの割り当てコマンドレット](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
+| 2020年9月 | [1.1.5-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype for Business Online のコネクタの統合</li> |
+| 2020年7月 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>追加された [グループポリシーの割り当てコマンドレット](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
 | 2020年6月 | [1.1.3-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype for Business Online のコネクタの統合<li>取得-チームの最適化<li>信頼性の向上</li> |
 | 2020年6月 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>コマンドレットのプリロードを追加しました<li>.Net Framework の最適化</li>   |
 | 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode とアセンブリの署名<li>Get-CsPolicyPackage を追加しました<li>Get-CsUserPolicyPackage を追加しました<li>Get-CsUserPolicyPackageRecommendation を追加しました<li>Grant-CsUserPolicyPackage を追加しました<li>新しく追加されました-CsBatchPolicyPackageAssignmentOperation<li>Set-TeamArchivedState を追加しました<li>追加された設定-TeamPicture<li>Teams のヘルプを削除しました</li>  |
@@ -41,7 +42,7 @@ ms.locfileid: "45170626"
 ### <a name="cmdlet-availability"></a>コマンドレットの可用性
 
 > [!NOTE]
-> 以下の表に示す一覧には、Teams PowerShell モジュールのネイティブ部分のコマンドレットのみが含まれています。 S[Kype Business Online Connector モジュール](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)の Teams コマンドレットは表示されません。 ただし、これらのコマンドレットは、チーム PowerShell にネイティブに移行されるため、このテーブルに追加します。
+> 以下の表に示す一覧には、Teams PowerShell モジュールのネイティブ部分のコマンドレットのみが含まれています。 S[Kype Business Online Connector モジュール](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) の Teams コマンドレットは表示されません。 ただし、これらのコマンドレットは、チーム PowerShell にネイティブに移行されるため、このテーブルに追加します。
 
 | コマンドレット | パブリックプレビューで利用可能 | GA で利用可能 |
 | -| -- | --|
@@ -88,9 +89,9 @@ ms.locfileid: "45170626"
 | [Set-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | はい | **いいえ** |
 | [更新-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamappinstallation?view=teams-ps) | はい | **いいえ** |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[Teams での PowerShell の概要](teams-powershell-overview.md)
+[Teams PowerShell の概要](teams-powershell-overview.md)
 
 [Teams PowerShell のインストール](teams-powershell-install.md)
 

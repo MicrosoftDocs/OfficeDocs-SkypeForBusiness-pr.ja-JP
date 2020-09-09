@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Microsoft Teams Rooms の展開に関連する計画の考慮事項と、システムを展開および管理する方法について説明します。
-ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
-ms.translationtype: HT
+ms.openlocfilehash: 4474d5f7c5e273fccc52e077907017c073e3a7b5
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521992"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405804"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
 :::row:::
     :::column span="2":::
-       使いやすく展開や管理が容易な、リッチで協力的な Teams エクスペリエンスで、ちょっとした打ち合せ場所から大規模な会議室まで会議スペースを変更します。 <br> 
+       使いやすく展開や管理が容易な、リッチで協力的な Teams エクスペリエンスで、ちょっとした打ち合せ場所から大規模な会議室まで会議スペースを変更します。<br> 
        ワンタッチ参加で会議を時間どおりに開始し、即座に会議室内ディスプレイに表示し、リモート参加者と共有できます。<br> 
        Microsoft のパートナー (Yealink、Logitech、Crestron、Polycom、Lenovo、HP) から、適切なシステムやオーディオ ビデオ周辺機器を選択してください。
     :::column-end:::
@@ -33,9 +33,9 @@ ms.locfileid: "46521992"
     :::column-end:::
 :::row-end:::
 
-|               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![リストの記号](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[計画](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![展開のシンボル](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[展開](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![ツール / レンチ](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[管理](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|               |               |               |
+| ------------- | ------------- | ------------- |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> **[計画](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> **[展開](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> **[管理](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 
