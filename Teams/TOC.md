@@ -499,21 +499,8 @@
 
 ### [Microsoft Teams 通話のフロー](microsoft-teams-online-call-flows.md)
 
-## 大規模組織の実践的なガイダンス
 ### [チュートリアル: Teams での通話](Tutorial-calling-in-teams.yml)
-### [クラウド ボイスのガイダンス](cloud-voice-landing-page.md)
-#### [成功を定義する](1-envision-define-my-success-cloud-voice.md)
-#### [サービスに関する決定事項: 通話プランが設定された電話システム](calling-plan-landing-page.md)
-#### [サービスに関する決定事項: 電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
-#### [環境を評価する](3-envision-evaluate-my-environment.md)
-#### [サービス管理を計画する](4-envision-plan-my-service-management.md)
 #### [ユーザーのエクスぺリエンスを計画する](5-envision-plan-my-users-experience.md)
-#### [成功計画を文書化する](6-envision-document-my-success-plan.md)
-#### [サービスを準備する](1-onboard-prepare-my-service.md)
-#### [ユーザーを準備する](2-onboard-prepare-my-users.md)
-#### [サービスを展開する](3-onboard-deploy-my-service.md)
-#### [サービスを運用する](1-drive-value-operate-my-service.md)
-#### [サービスを強化する](2-drive-value-enhance-my-service.md)
 <!-- ============================================================ -->
 
 
