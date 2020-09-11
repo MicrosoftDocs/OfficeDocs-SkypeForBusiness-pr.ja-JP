@@ -773,7 +773,6 @@
 
 ## [Teams の制限と仕様](limits-specifications-teams.md)
 ## [Teams のデータの場所](location-of-data-in-teams.md)
-## [データの収集プラクティス](data-collection-practices.md)
 
 ## Teams のロールアウトの準備
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
