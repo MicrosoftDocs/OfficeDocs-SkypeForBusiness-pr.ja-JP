@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '概要: skype for business で使用する Skype for Business Web App と Skype 会議アプリを展開します。'
-ms.openlocfilehash: 7f6bebbc9950a7eb5da202c3b818b1288c811f17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a2a28bf634524d6f61ba579652a6dddfd06de3
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029048"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429423"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Skype for Business Server で Web ダウンロード可能なクライアントを展開する
 
@@ -33,7 +33,7 @@ Skype for Business Web App の音声、ビデオ、および共有機能には�
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Skype for Business Web App で多要素認証を有効にする
 <a name="MFA"> </a>
 
-Skype for Business Web App、Skype 会議アプリ、および Skype for business for Mac では、多要素認証がサポートされています。 ユーザー名とパスワードに加えて、スマートカードや Pin などの追加の認証方法を要求して、外部ネットワークから参加しているユーザーが Skype for Business の会議にサインインしたときに認証を受けることができます。 Active Directory フェデレーションサービス (AD FS) フェデレーションサーバーを展開し、Skype for Business Server でパッシブ認証を有効にすることによって、多要素認証を有効にすることができます。 AD FS を構成した後、Skype for Business 会議に参加しようとする外部ユーザーには、ユーザー名とパスワードのチャレンジと追加の認証方法を含む AD FS 多要素認証 web ページが表示されます。構成されている。
+Skype for Business Web App、Skype 会議アプリ、および Skype for business for Mac では、多要素認証がサポートされています。 ユーザー名とパスワードに加えて、スマートカードや Pin などの追加の認証方法を要求して、外部ネットワークから参加しているユーザーが Skype for Business の会議にサインインしたときに認証を受けることができます。 Active Directory フェデレーションサービス (AD FS) フェデレーションサーバーを展開し、Skype for Business Server でパッシブ認証を有効にすることによって、多要素認証を有効にすることができます。 AD FS を構成した後、Skype for Business 会議に参加しようとする外部ユーザーには、ユーザー名とパスワードのチャレンジと、構成した追加の認証方法を含む AD FS 多要素認証 web ページが表示されます。
 
 > [!IMPORTANT]
 > 多要素認証の AD FS を構成する場合の重要な考慮事項を次に示します。
@@ -50,7 +50,7 @@ Skype for Business Web App、Skype 会議アプリ、および Skype for busines
 
 1. AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「 [Active Directory フェデレーションサービス2.0 展開ガイド](https://go.microsoft.com/fwlink/p/?linkid=267511)」を参照してください。
 
-2. AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開する」の「[フェデレーションサーバー証明書」](https://go.microsoft.com/fwlink/p/?LinkId=285376)セクションを参照してください。シングルサインオンのトピックを参照してください。
+2. AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開する」の「 [フェデレーションサーバー証明書」](https://go.microsoft.com/fwlink/p/?LinkId=285376) セクションを参照してください。シングルサインオンのトピックを参照してください。
 
 3. Windows PowerShell コマンドラインインターフェイスで、次のコマンドを実行します。
 
@@ -135,7 +135,7 @@ Windows Server 2008 R2 を実行しているコンピューターでプラグイ
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Microsoft に送信される情報は、 [Skype For business のデータ収集方法](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices)に厳密に準拠しています。
+    Microsoft に送信される情報は [、プライバシーおよび Microsoft Teams](../../../../Teams/teams-privacy.md)に対して厳密に準拠しています。
 
 3. CDN を使用できない場合は、ローカルにホストされている Skype for Business Web App 環境に戻す前にタイムアウトを設定します。 既定値は6秒です。 この値が0に設定されている場合は、タイムアウトはありません。
 
@@ -150,7 +150,7 @@ Windows Server 2008 R2 を実行しているコンピューターでプラグイ
 ## <a name="see-also"></a>関連項目
 <a name="SMA_Enable"> </a>
 
-[会議クライアントを計画する (Web アプリと会議アプリ)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
+[会議クライアント用の計画 (Web アプリおよび会議アプリ)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
 
 [Skype for Business Server での会議参加ページの構成](../../manage/conferencing/meeting-join-page.md)
 
