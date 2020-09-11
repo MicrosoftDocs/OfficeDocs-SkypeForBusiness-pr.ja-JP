@@ -18,12 +18,12 @@ description: 管理者は、Microsoft Teams デスクトップ、Web クライ�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baac3c7c7e83547672b8baeb0915081523e5bfe8
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: a67fd7ed111c1020eaf133e96e26ae03d4250637
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761283"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405714"
 ---
 <a name="add-a-guest-to-a-team"></a>チームにゲストを追加する
 =====================
@@ -35,10 +35,9 @@ Outlook、Gmail などの勤務先または通常のメール アカウントを
 管理者は、新しいゲスト ユーザーを複数の方法で組織に追加できます。
 - グローバル管理者または Teams 管理者とチーム所有者は、Teams クライアントまたは Teams 管理センターでチームにゲストを追加できます。 詳細については、「[ゲストをチームに追加する](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)」を参照してください。 ゲスト アクセスをまだ設定していない場合は、「[チームでゲストと共同で作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」の手順を実行してください。
 
-> [!NOTE] 
-> [**管理者とゲスト招待元ロールのユーザーは招待ができる**] が有効な場合には、これは適用されません。 ゲスト招待元ロールは Teams ではサポートされていないためです。
-
 - Azure Active Directory (Azure AD) B2B コラボレーションを使用して組織にゲストを追加する。 Azure AD B2B コラボレーションを使用すると、グローバル管理者は、2,000 行以下のカンマ区切り (CSV) ファイルを B2B コラボレーション ポータルにアップロードすることで、複数の外部ユーザーを招待、承認できます。 詳細については、「[Azure Active Directory B2B コラボレーション](https://go.microsoft.com/fwlink/p/?linkid=826383)」をご覧ください。
+
+管理者は、"ゲスト招待元" ロールを割り当てることで、組織内の他のユーザーにゲストを追加する権限を委任することもできます。 詳細については、「[B2B の外部コラボレーションを有効にしてゲストを招待できるユーザー管理する](https://docs.microsoft.com/azure/active-directory/external-identities/delegate-invitations)」を参照してください。
 
 Azure AD B2B コラボレーションを使用すると、組織は B2B ユーザーに対して条件付きアクセスと多要素認証 (MFA) ポリシーを適用できます。 これらのポリシーは、組織のフルタイムの従業員とメンバーに対して有効にするのと同じ方法で、テナント レベル、アプリ レベル、または個々のユーザー レベルで適用できます。 こうしたポリシーはリソース組織で実施します。 詳細については、「[B2B コラボレーション ユーザーの条件付きアクセス](https://go.microsoft.com/fwlink/?linkid=857454)」をご覧ください。 個別にゲスト ユーザーを拒否することはできません。
 
