@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell での最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405814"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814416"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell リリースノート
 
@@ -31,6 +31,7 @@ ms.locfileid: "47405814"
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
+| 2020年9月 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype for Business Online のコネクタの統合</li> |
 | 2020年9月 | [1.1.5-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype for Business Online のコネクタの統合</li> |
 | 2020年7月 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>追加された [グループポリシーの割り当てコマンドレット](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
 | 2020年6月 | [1.1.3-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype for Business Online のコネクタの統合<li>取得-チームの最適化<li>信頼性の向上</li> |
@@ -53,7 +54,7 @@ ms.locfileid: "47405814"
 | [Disconnect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | はい | はい |
 | [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | はい | はい |
 | [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | はい | **いいえ** |
-| [Get-Csonline Powershellendpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | はい | **いいえ** |
+| [Get-Csonline Powershellendpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | はい | はい |
 | [Get-CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | はい | はい |
 | [CsUserPolicyAssignment を取得する](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | はい | はい |
 | [Get-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicypackage?view=teams-ps) | はい | はい |
@@ -68,7 +69,7 @@ ms.locfileid: "47405814"
 | [新規-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | はい | はい |
 | [新しい CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | はい | はい |
 | [新規-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | はい | はい |
-| [新しい Csonline セッション](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | はい | **いいえ** |
+| [新しい Csonline セッション](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | はい | はい |
 | [New-Team](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | はい | はい |
 | [New-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | はい | はい |
 | [新しい-TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | はい | はい |

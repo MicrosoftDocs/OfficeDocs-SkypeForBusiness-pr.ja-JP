@@ -17,12 +17,12 @@ description: PowerShell を使用して、Microsoft Teams のすべてのチー�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7e2833d1afedb975edf2532fb69c4fdbbdb31d4
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 0c8a2e23f5c03420c4b0ce644a80e0733f9f69a5
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655908"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814336"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>PowerShell を使用してチームへのゲスト アクセスを制御する
 ================================================
@@ -48,8 +48,13 @@ PowerShell を使用して、ドメインに基づいてゲスト ユーザー�
  
 2.  PowerShell セッションを Skype for Business Online エンドポイントに接続します。
 
+> [!NOTE]
+> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
+>
+> 最新の [Teams PowerShell パブリックリリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
+
     ```powershell
-    Import-Module SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $Cred = Get-Credential
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession

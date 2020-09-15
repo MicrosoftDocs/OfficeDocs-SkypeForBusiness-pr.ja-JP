@@ -18,12 +18,12 @@ description: Microsoft Teams でユーザーにポリシーを割り当てる方
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d6253645e674d680f86d0b6f89a62968e6c21ba
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
-ms.translationtype: HT
+ms.openlocfilehash: eaca3bdebc25e511ecc8f461c47b2d39a6332afa
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533944"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814897"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにポリシーを割り当てる
 
@@ -138,10 +138,15 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 各ポリシー タイプには、それを管理するための独自のコマンドレットのセットがあります。 特定のポリシー タイプに ```Grant-``` コマンドレットを使用して、ポリシーを割り当てます。 たとえば、```Grant-CsTeamsMeetingPolicy``` コマンドレットを使用して、Teams 会議ポリシーをユーザーに割り当てます。 これらのコマンドレットは、Skype for Business Online PowerShell モジュールに含まれており、[Skype for Business コマンドレットのリファレンス](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) に記載されています。
 
- (まだインストールされていない場合は) [Skype for Business Online PowerShell モジュール](https://www.microsoft.com/en-us/download/details.aspx?id=39366) をダウンロードしてインストールし、次のコマンドを実行して Skype for Business Online に接続しセッションを開始します。
+ (まだインストールされていない場合は) [Skype for Business Online PowerShell モジュール](https://www.microsoft.com/download/details.aspx?id=39366) をダウンロードしてインストールし、次のコマンドを実行して Skype for Business Online に接続しセッションを開始します。
+
+> [!NOTE]
+> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
+>
+> 最新の [Teams PowerShell パブリックリリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
 
 ```powershell
-Import-Module SkypeOnlineConnector
+Import-Module -Name MicrosoftTeams
 $Cred = Get-Credential
 $CSSession = New-CsOnlineSession -Credential $Cred
 Import-PSSession -Session $CSSession

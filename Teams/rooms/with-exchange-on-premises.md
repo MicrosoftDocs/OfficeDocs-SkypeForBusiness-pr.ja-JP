@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: このトピックでは、オンプレミスの Exchange が搭載されたハイブリッド環境に Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: d017706a0e512a4945eaccd69c0e11a7962ca518
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
-ms.translationtype: HT
+ms.openlocfilehash: 71b1ab2ba641b25764f5c546343a3c7a597f121a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666159"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814536"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams Rooms を展開する
 
@@ -139,9 +139,13 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
 Skype for Business Online PowerShell は、Microsoft Teams および Skype for Business Online のサービスの管理に使用されます。
 
 1. PC からリモートの Windows PowerShell セッションを作成するには、次のようにします。
+> [!NOTE]
+> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
+>
+> 最新の [Teams PowerShell パブリックリリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
 
    ``` Powershell
-   Import-Module SkypeOnlineConnector  
+   Import-Module -Name MicrosoftTeams  
    $cssess=New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
    ```

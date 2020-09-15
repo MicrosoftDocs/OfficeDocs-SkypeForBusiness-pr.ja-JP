@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015/2019 と Lync 2013 の更新プログラムを1か所で検索して管理します。 このページのリンクを使用して、更新プログラムに関する詳細情報を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326574"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814316"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
@@ -32,6 +32,7 @@ KB 4470124 は、公開されているすべての累積的な更新プログラ
 
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 累積的な更新プログラム3の修正プログラム1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 7 月 |
 |Skype for Business Server 2019 累積更新プログラム3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 3 月 |
 |Skype for Business Server 2019 累積更新プログラム2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 12 月 |
 |Skype for Business Server 2019 累積的な更新プログラム1の修正プログラム1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 9 月 |
@@ -42,7 +43,7 @@ KB 4470124 は、公開されているすべての累積的な更新プログラ
 
 |パッケージ名/リンク|リリース日|
 |:--- |:--- |
-|[UCMA 6.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019 年 6 月       |
+|[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019 年 6 月       |
 |[統合コミュニケーションマネージ API 5.0 ランタイム](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | 2018 年 6 月        |
 |[Skype for Business Server 2019、管理パック](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | 2018 年 6 月        |
 |||
@@ -50,10 +51,11 @@ KB 4470124 は、公開されているすべての累積的な更新プログラ
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Skype for Business Server 2015 の更新履歴
 
-[KB 3061064](https://support.microsoft.com/kb/3061064)リリースされたすべての累積的な更新プログラムが含まれています。 
+[KB 3061064](https://support.microsoft.com/kb/3061064) リリースされたすべての累積的な更新プログラムが含まれています。 
 
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015 累積更新プログラム11修正プログラム1 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 7 月 14 日 |
 |Skype for Business Server 2015 累積更新プログラム11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020年5月13日 |
 |Skype for Business Server 2015 累積更新プログラム10修正プログラム1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
 |Skype for Business Server 2015 累積更新プログラム10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 7 月 |
@@ -77,17 +79,18 @@ KB 4470124 は、公開されているすべての累積的な更新プログラ
 
 |パッケージ名/リンク|リリース日|
 |:--- |:--- |
-|[UCMA 5.0 SDK](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015 年 5 月       |
+|[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015 年 5 月       |
 |[統合コミュニケーションマネージ API 5.0 ランタイム](https://www.microsoft.com/download/details.aspx?id=47344)     |   2015 年 5 月      |
 |[Skype for Business Server 2015、管理パック](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  2019 年 6 月       |
 |||
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 の更新履歴
 
-[KB 2809243](https://support.microsoft.com/kb/2809243)リリースされたすべての累積的な更新プログラムが含まれています。
+[KB 2809243](https://support.microsoft.com/kb/2809243) リリースされたすべての累積的な更新プログラムが含まれています。
 
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
+|Lync Server 2013 累積更新プログラム10修正プログラム4 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2020 年 6 月|
 |Lync Server 2013 累積更新プログラム10修正プログラム3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019 年 9 月|
 |Lync Server 2013 累積更新プログラム10修正プログラム2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 年 6 月|
 |Lync Server 2013 累積更新プログラム10修正プログラム1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 年 1 月|
@@ -169,7 +172,7 @@ KB 4470124 は、公開されているすべての累積的な更新プログラ
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 の更新履歴
 
-[KB 2493736](https://support.microsoft.com/kb/2493736)リリースされたすべての累積的な更新プログラムが含まれています。
+[KB 2493736](https://support.microsoft.com/kb/2493736) リリースされたすべての累積的な更新プログラムが含まれています。
 
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
@@ -266,4 +269,4 @@ KB 4470124 は、公開されているすべての累積的な更新プログラ
 
 - [Skype for Business Server 2015 のインストール](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
 - [Skype for Business Server 2015 へのアップグレード](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
-- [Windows インストーラー (MSI) を使用する Skype for Business の最新バージョンの更新プログラム](sfb-client-updates.md)
+- [Windows インストーラー (MSI) を使用しているバージョンの Skype for Business の最新の更新プログラム](sfb-client-updates.md)

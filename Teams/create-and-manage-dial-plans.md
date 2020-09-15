@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft Teams 管理センターまたは Windows PowerShell を使用して、ダイヤルプラン (PSTN 通話ダイヤルプラン) を作成および管理する方法について説明します。
-ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0655f81df9c8ce25368a281a7f5b3392f7fe6ec3
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938236"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814786"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -37,34 +37,34 @@ ms.locfileid: "44938236"
 ### <a name="create-a-dial-plan"></a>ダイヤルプランを作成する
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **ダイヤルプラン**] に移動します。
-2. [**追加**] をクリックして、ダイヤルプランの名前と説明を入力します。
+2. [ **追加**] をクリックして、ダイヤルプランの名前と説明を入力します。
     ![ダイヤルプランを作成するための [追加] ページを示すスクリーンショット](media/create-dial-plan.png)
-3. [**ダイヤルプランの詳細**] で、ユーザーが1つまたは複数の追加の先頭の数字 (9 など) をダイヤルする必要がある場合は、外部ダイヤルのプレフィックスを指定します。 その手順は次のとおりです。
-    1. [外線**発信**番号] ボックスに、外線発信番号を入力します。 プレフィックスは、最大4文字 (#、*、0-9) にすることができます。
-    2. 最適化された**デバイスダイヤル**をオンにします。 外線発信番号を指定する場合は、組織外に通話を発信できるようにプレフィックスを適用するには、この設定を有効にする必要もあります。
-4. [**正規化ルール**] で、ダイヤルプランに1つまたは複数の[正規化ルール](what-are-dial-plans.md#normalization-rules)を構成して関連付けます。 各ダイヤルプランには、少なくとも1つの正規化ルールが関連付けられている必要があります。  この操作を行うには、次の操作のいずれか、または複数の操作を行います。
-    - 新しい正規化ルールを作成してダイヤルプランに関連付けるには、[**追加**] をクリックして、ルールを定義します。
-    - 既にダイヤルプランに関連付けられている正規化ルールを編集するには、ルール名の左側をクリックしてルールを選択し、[**編集**] をクリックします。 必要な変更を加えて、[**保存**] をクリックします。
-    - ダイヤルプランから正規化ルールを削除するには、ルール名の左側をクリックしてルールを選択し、[**削除**] をクリックします。
-5. 目的の順序で正規化ルールを配置します。 一覧のルールの位置を変更するには、[**上へ移動**] または [**下**へ移動] をクリックします。
+3. [ **ダイヤルプランの詳細**] で、ユーザーが1つまたは複数の追加の先頭の数字 (9 など) をダイヤルする必要がある場合は、外部ダイヤルのプレフィックスを指定します。 その手順は次のとおりです。
+    1. [外線 **発信** 番号] ボックスに、外線発信番号を入力します。 プレフィックスは、最大4文字 (#、*、0-9) にすることができます。
+    2. 最適化された **デバイスダイヤル**をオンにします。 外線発信番号を指定する場合は、組織外に通話を発信できるようにプレフィックスを適用するには、この設定を有効にする必要もあります。
+4. [ **正規化ルール**] で、ダイヤルプランに1つまたは複数の [正規化ルール](what-are-dial-plans.md#normalization-rules) を構成して関連付けます。 各ダイヤルプランには、少なくとも1つの正規化ルールが関連付けられている必要があります。  この操作を行うには、次の操作のいずれか、または複数の操作を行います。
+    - 新しい正規化ルールを作成してダイヤルプランに関連付けるには、[ **追加**] をクリックして、ルールを定義します。
+    - 既にダイヤルプランに関連付けられている正規化ルールを編集するには、ルール名の左側をクリックしてルールを選択し、[ **編集**] をクリックします。 必要な変更を加えて、[ **保存**] をクリックします。
+    - ダイヤルプランから正規化ルールを削除するには、ルール名の左側をクリックしてルールを選択し、[ **削除**] をクリックします。
+5. 目的の順序で正規化ルールを配置します。 一覧のルールの位置を変更するには、[ **上へ移動** ] または [ **下** へ移動] をクリックします。
 
     > [!NOTE]
     > チームは正規化ルールの一覧を上から下に移動し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤルプランを設定して、ダイヤルした番号が複数の正規化ルールと一致するようにする場合は、制限の少ない制限を超えて、より制限されたルールが並べ替えられるようにします。
 
-6. **[保存]** をクリックします。
-7. ダイヤルプランをテストするには、[**ダイヤルプランのテスト**] で電話番号を入力し、[**テスト**] をクリックします。
+6. [**保存**] をクリックします。
+7. ダイヤルプランをテストするには、[ **ダイヤルプランのテスト**] で電話番号を入力し、[ **テスト**] をクリックします。
 
 ### <a name="edit-a-dial-plan"></a>ダイヤルプランを編集する
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **ダイヤルプラン**] に移動します。
-2. ダイヤルプラン名の左側をクリックして、[**編集**] をクリックして、ダイヤルプランを選択します。
-3. 必要な変更を加えて、[**保存**] をクリックします。
+2. ダイヤルプラン名の左側をクリックして、[ **編集**] をクリックして、ダイヤルプランを選択します。
+3. 必要な変更を加えて、[ **保存**] をクリックします。
 
 ### <a name="assign-a-dial-plan-to-users"></a>ユーザーにダイヤルプランを割り当てる
 
 ダイヤルプランは、ポリシーを割り当てる方法と同じ方法で割り当てることができます。 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="using-powershell"></a>PowerShell を使用する場合
+## <a name="using-powershell"></a>PowerShell の使用
   
 ### <a name="verify-and-start-remote-powershell"></a>リモート PowerShell を確認して開始する
 
@@ -78,7 +78,7 @@ ms.locfileid: "44938236"
     
 4. また、skype for business online に接続するリモート Windows PowerShell セッションを作成できるようにする、Skype for Business Online 用の Windows PowerShell モジュールをインストールする必要もあります。 このモジュールは、64ビットのコンピューターでのみサポートされていますが、 [Skype For Business Online 用の Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)でダウンロードできます。 メッセージが表示されたら、コンピューターを再起動します。
     
-詳細については、「[単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」を参照してください。
+詳細については、「 [単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続する](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)」を参照してください。
   
  **Windows PowerShell セッションを開始する**
   
@@ -86,12 +86,14 @@ ms.locfileid: "44938236"
     
 2. **Windows PowerShell**ウィンドウで、次を実行して Microsoft 365 または Office 365 に接続します。
     
+ 
     > [!NOTE]
-    > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
-  
+    > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
+    >
+    > 最新の [Teams PowerShell パブリックリリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
 
     ```PowerShell
-    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
@@ -237,7 +239,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [ダイヤル プランについて](what-are-dial-plans.md)
 - [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)

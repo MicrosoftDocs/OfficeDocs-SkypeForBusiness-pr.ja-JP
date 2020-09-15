@@ -21,18 +21,21 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 1747075caecdbc4bcd0c83eb037682b023701799
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326764"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814776"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
 割り当ては、学生またはチームメンバーに対して、調査の一環として、クラス内で割り当てられているタスクまたは作業単位数です。 Teams クラス内で課題を作成することができます。
 
 [割り当てについて](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+
+ > [!Note]
+ > 詳細については、「 [プラットフォームごとのチーム機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 」を参照してください。
 
 ## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの課題
 
@@ -49,11 +52,11 @@ Microsoft Teams 管理センターの管理設定を使用すると、組織内�
 ### <a name="makecode"></a>MakeCode
 Microsoft MakeCode はブロックベースのコーディングプラットフォームであり、すべての学生に対してコンピューターの科学を実現します。 
 
-MakeCode は、Microsoft[利用規約](https://go.microsoft.com/fwlink/?LinkID=206977)および[プライバシー](https://go.microsoft.com/fwlink/?LinkId=521839)ポリシーの適用対象となる microsoft 製品です。
+MakeCode は、Microsoft [利用規約](https://go.microsoft.com/fwlink/?LinkID=206977) および [プライバシー](https://go.microsoft.com/fwlink/?LinkId=521839) ポリシーの適用対象となる microsoft 製品です。
 
-この設定は、既定ではオフになっています。 Teams で MakeCode の割り当てを有効にするには、 **Teams 管理センター**で、[**課題**] セクションに移動し、MakeCode トグルオプションを **[オン**] にします。 [**保存**] をクリックして、これらの設定が有効になるまで数時間待ちます。
+この設定は、既定ではオフになっています。 Teams で MakeCode の割り当てを有効にするには、 **Teams 管理センター**で、[ **課題** ] セクションに移動し、MakeCode トグルオプションを **[オン**] にします。 [ **保存** ] をクリックして、これらの設定が有効になるまで数時間待ちます。
 
-この機能のしくみについて詳しくは、この[ビデオデモ](https://makecode.com/blog/teams/teams-assignments)をご覧ください。
+この機能のしくみについて詳しくは、この [ビデオデモ](https://makecode.com/blog/teams/teams-assignments)をご覧ください。
 
 [MakeCode について、詳細はこちらをご覧ください](https://aka.ms/makecode)
 
@@ -76,12 +79,12 @@ TurnitinApiUrl は、管理コンソールのホストアドレスです。
 
 管理コンソールでは、統合と関連付けられた API キーを作成できます。
 
-サイド**メニューから [統合] を選択**し、[**統合の追加**] を選択して、統合の名前を指定します。
+サイド **メニューから [統合] を選択** し、[ **統合の追加** ] を選択して、統合の名前を指定します。
 ![新しい統合の追加を示すスクリーンショット](./educationImages/Assignments_mopo_turnitin2.png)
 
 プロンプトが表示された後、TurnitinApiKey が提供されます。 API キーをコピーして、Microsoft Teams 管理センターに貼り付けます。  これは、キーを表示できる唯一の時間です。
 ![API キーのコピーを示すスクリーンショット](./educationImages/Assignments_mopo_turnitin3.png)
 
-この設定のために管理センターで [**保存**] ボタンをクリックしたときに、これらの設定が有効になるまで、数時間許可してください。
+この設定のために管理センターで [ **保存** ] ボタンをクリックしたときに、これらの設定が有効になるまで、数時間許可してください。
 
 Teams で Turnitin 統合の使用を開始する準備ができましたか? [以前のアクセスプログラム](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)にサインアップします。

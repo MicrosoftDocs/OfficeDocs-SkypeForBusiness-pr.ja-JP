@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c41c4435877860a2193e6b50f45f714c8c85cb2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938356"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814736"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -39,6 +39,9 @@ Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続さ�
 
 シフトでは現在、ゲスト ユーザーはサポートされていませんのでご注意ください。 つまり、Teams でゲスト アクセスがオンになっていると、チームのゲストをシフト スケジュールに追加することも、チームのゲストがシフト スケジュールを使用することもできません。 
 
+ > [!Note]
+ > 詳細については、「 [プラットフォームごとのチーム機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 」を参照してください。
+
 ## <a name="availability-of-shifts"></a>シフトの可用性
 
 シフトは、Teams が利用できるすべての Enterprise Sku で利用できます。
@@ -51,17 +54,17 @@ Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続さ�
 
 ### <a name="enable-or-disable-shifts-in-your-organization"></a>組織のシフトを有効または無効にする
 
-シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft Teams 管理センターの [[アプリの管理](../../manage-apps.md)] ページで、組織レベルでアプリをオンまたはオフにすることができます。
+シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft Teams 管理センターの [ [アプリの管理](../../manage-apps.md) ] ページで、組織レベルでアプリをオンまたはオフにすることができます。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**の管理] に移動  >  **Manage apps**します。
 2. アプリの一覧で、次のいずれかの操作を行います。
 
-    - 組織のシフトをオフにするには、[シフト] アプリを検索して選択し、[**ブロック**] をクリックします。
-    - 組織のシフトを有効にするには、[シフト] アプリを検索して選択し、[**許可**] をクリックします。
+    - 組織のシフトをオフにするには、[シフト] アプリを検索して選択し、[ **ブロック**] をクリックします。
+    - 組織のシフトを有効にするには、[シフト] アプリを検索して選択し、[ **許可**] をクリックします。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>組織内の特定のユーザーのシフトを有効または無効にする
 
-組織内の特定のユーザーによるシフトの使用を許可またはブロックするには、[[アプリの管理](../../manage-apps.md)] ページで組織のシフトが有効になっていることを確認してから、カスタムのアプリのアクセス許可ポリシーを作成して、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理](../../teams-app-permission-policies.md)する」を参照してください。
+組織内の特定のユーザーによるシフトの使用を許可またはブロックするには、[ [アプリの管理](../../manage-apps.md) ] ページで組織のシフトが有効になっていることを確認してから、カスタムのアプリのアクセス許可ポリシーを作成して、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理](../../teams-app-permission-policies.md)する」を参照してください。
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstlineWorker アプリのセットアップポリシーを使用して、チームにシフトをピン留めする
 
@@ -81,11 +84,11 @@ Firstlineworker ポリシーを表示するには、Microsoft Teams 管理セン
 
 **(プレビュー段階)**
 
-監査ログを検索して、組織内のシフトアクティビティを表示できます。  監査ログを検索し、監査ログに記録されている[シフトアクティビティ](../../audit-log-events.md#shifts-in-teams-activities)の一覧を表示する方法の詳細については、「 [Teams のイベントの監査ログを検索](../../audit-log-events.md)する」を参照してください。
+監査ログを検索して、組織内のシフトアクティビティを表示できます。  監査ログを検索し、監査ログに記録されている [シフトアクティビティ](../../audit-log-events.md#shifts-in-teams-activities) の一覧を表示する方法の詳細については、「 [Teams のイベントの監査ログを検索](../../audit-log-events.md)する」を参照してください。
 
-監査ログを検索する前に、まず[セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 詳細については、「[監査ログの検索を有効または無効に](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)する」を参照してください。 監査データは、監査を有効にした時点でのみ利用可能であることに注意してください。
+監査ログを検索する前に、まず [セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 詳細については、「 [監査ログの検索を有効または無効に](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)する」を参照してください。 監査データは、監査を有効にした時点でのみ利用可能であることに注意してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Firstline Worker のヘルプをシフトする](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [チームのユーザーにポリシーを割り当てる](../../assign-policies.md)

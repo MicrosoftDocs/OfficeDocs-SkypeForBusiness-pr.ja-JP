@@ -19,18 +19,18 @@ f1.keywords:
 ms.custom:
 - Setup
 description: クライアント ポリシーはユーザーが利用できる Skype for Business Online の機能を決めるのに役立ちます。たとえば、一部のユーザーにファイルを転送する権限を与えて、他のユーザーに対してはその権限を与えないようにする場合が考えられます。
-ms.openlocfilehash: b3682b3be9f0820f1e99fdb84f7f7e5155e52df2
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 3a7dd7a2840a4e94abe88c472e6dc5b0e1720704
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164066"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814356"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>組織のクライアント ポリシーをセットアップする
 
 [] クライアント ポリシーはユーザーが利用できる Skype for Business Online の機能を決めるのに役立ちます。たとえば、一部のユーザーにファイルを転送する権限を与えて、他のユーザーに対してはその権限を与えないようにする場合が考えられます。
   
-クライアントポリシー設定はポリシーが作成されるときに構成することができます。また、 **Set-CsClientPolicy**コマンドレットを使用して、既存のポリシーの設定を変更することもできます。
+クライアントポリシー設定はポリシーが作成されるときに構成することができます。また、 **Set-CsClientPolicy** コマンドレットを使用して、既存のポリシーの設定を変更することもできます。
   
 ## <a name="set-your-client-policies"></a>クライアント ポリシーを設定する
 
@@ -47,9 +47,9 @@ ms.locfileid: "44164066"
         
     3. バージョン 3.0 以降を使用していない場合は、Windows PowerShell の更新プログラムをダウンロードおよびインストールする必要があります。 Windows PowerShell をバージョン4.0 にダウンロードして更新するには、「 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 」を参照してください。 メッセージが表示されたら、コンピューターを再起動します。
         
-    4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
+    4. また、Skype for Business Online に接続するリモート Windows PowerShell セッションを作成できるようにする、Teams 用の Windows PowerShell モジュールをインストールする必要があります。 
     
-    詳細については、「[単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
+    詳細については、「 [単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
     
 - **Windows PowerShell セッションを開始する**
     
@@ -57,16 +57,18 @@ ms.locfileid: "44164066"
         
     2. **Windows PowerShell**ウィンドウで、次を実行して Microsoft 365 または Office 365 に接続します。
     
-        > [!NOTE]
-        > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
+    > [!NOTE]
+    > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
+    >
+    > 最新の [Teams PowerShell パブリックリリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
 
        ```powershell
-        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        Import-Module -Name MicrosoftTeams
         $credential = Get-Credential
         $session = New-CsOnlineSession -Credential $credential
         Import-PSSession $session 
        ```
-Windows PowerShell の起動の詳細については、「 [1 つの Windows powershell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続](https://technet.microsoft.com/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
+Windows PowerShell の起動の詳細については、「 [1 つの Windows powershell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続](https://technet.microsoft.com/library/dn568015.aspx) する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>絵文字、プレゼンスの通知を無効にして、インスタントメッセージ (IM) の保存を防止する
 
@@ -77,7 +79,7 @@ Windows PowerShell の起動の詳細については、「 [1 つの Windows pow
    New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
    ```
 
-  詳細については、「[新しい-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx)コマンドレット」を参照してください。
+  詳細については、「 [新しい-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) コマンドレット」を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
     
@@ -86,9 +88,9 @@ Windows PowerShell の起動の詳細については、「 [1 つの Windows pow
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
    ```
 
-  詳細については、「 [Grant Clientpolicy](https://technet.microsoft.com/library/mt779152.aspx)コマンドレット」を参照してください。
+  詳細については、「 [Grant Clientpolicy](https://technet.microsoft.com/library/mt779152.aspx) コマンドレット」を参照してください。
     
-既にポリシーを作成している場合は、 [Set-csclientpolicy](https://technet.microsoft.com/library/mt779153.aspx)コマンドレットを使用して既存のポリシーに変更を加え、[[権限の付与] クライアントポリシー](https://technet.microsoft.com/library/mt779152.aspx)コマンドレットを使用して、ユーザーに設定を適用することができます。
+既にポリシーを作成している場合は、 [Set-csclientpolicy](https://technet.microsoft.com/library/mt779153.aspx) コマンドレットを使用して既存のポリシーに変更を加え、[ [権限の付与] クライアントポリシー](https://technet.microsoft.com/library/mt779152.aspx) コマンドレットを使用して、ユーザーに設定を適用することができます。
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>URL またはハイパーリンクを有効にしてインスタントメッセージ (IM) でクリックできる状態にする
 
@@ -99,7 +101,7 @@ Windows PowerShell の起動の詳細については、「 [1 つの Windows pow
    New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
    ```
 
-  詳細については、「[新しい-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx)コマンドレット」を参照してください。
+  詳細については、「 [新しい-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) コマンドレット」を参照してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
     
@@ -108,9 +110,9 @@ Windows PowerShell の起動の詳細については、「 [1 つの Windows pow
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
    ```
 
-  詳細については、「 [Grant Clientpolicy](https://technet.microsoft.com/library/mt779152.aspx)コマンドレット」を参照してください。
+  詳細については、「 [Grant Clientpolicy](https://technet.microsoft.com/library/mt779152.aspx) コマンドレット」を参照してください。
     
-既にポリシーを作成している場合は、 [Set-csclientpolicy](https://technet.microsoft.com/library/mt779153.aspx)コマンドレットを使用して既存のポリシーに変更を加え、[[権限の付与] クライアントポリシー](https://technet.microsoft.com/library/mt779152.aspx)コマンドレットを使用して、ユーザーに設定を適用することができます。
+既にポリシーを作成している場合は、 [Set-csclientpolicy](https://technet.microsoft.com/library/mt779153.aspx) コマンドレットを使用して既存のポリシーに変更を加え、[ [権限の付与] クライアントポリシー](https://technet.microsoft.com/library/mt779152.aspx) コマンドレットを使用して、ユーザーに設定を適用することができます。
   
 ### <a name="prevent-showing-recent-contacts"></a>最近の連絡先を表示しないようにする
 
@@ -120,7 +122,7 @@ Windows PowerShell の起動の詳細については、「 [1 つの Windows pow
    New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
    ```
 
-  詳細については、「[新しい-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx)コマンドレット」を参照してください。
+  詳細については、「 [新しい-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) コマンドレット」を参照してください。
     
 - Amos Marble に作成した新しいポリシーを付与するには、次を実行します。
    
@@ -128,9 +130,9 @@ Windows PowerShell の起動の詳細については、「 [1 つの Windows pow
    Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
    ```
 
-  詳細については、「 [Grant Clientpolicy](https://technet.microsoft.com/library/mt779152.aspx)コマンドレット」を参照してください。
+  詳細については、「 [Grant Clientpolicy](https://technet.microsoft.com/library/mt779152.aspx) コマンドレット」を参照してください。
     
-  既にポリシーを作成している場合は、 [Set-csclientpolicy](https://technet.microsoft.com/library/mt779153.aspx)コマンドレットを使用して既存のポリシーに変更を加え、[[権限の付与] クライアントポリシー](https://technet.microsoft.com/library/mt779152.aspx)コマンドレットを使用して、ユーザーに設定を適用することができます。
+  既にポリシーを作成している場合は、 [Set-csclientpolicy](https://technet.microsoft.com/library/mt779153.aspx) コマンドレットを使用して既存のポリシーに変更を加え、[ [権限の付与] クライアントポリシー](https://technet.microsoft.com/library/mt779152.aspx) コマンドレットを使用して、ユーザーに設定を適用することができます。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
@@ -148,7 +150,7 @@ Windows PowerShell の起動の詳細については、「 [1 つの Windows pow
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
 
 [ポイントツーポイントファイル転送をブロックする](block-point-to-point-file-transfers.md)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: fc59616cb882897447dac35f33cf197e6e8fe143
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766921"
+ms.locfileid: "47814376"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -38,6 +38,9 @@ ms.locfileid: "47766921"
 仮想環境で Teams を使用することは、仮想化されていない環境での Teams の使用とは多少異なる場合があります。 たとえば、一部の高度な機能は仮想化された環境では使用できない場合があり、ビデオの解像度が異なる場合があります。
 
 最適なユーザー エクスペリエンスを確保するには、この記事のガイダンスに従ってください。
+
+ > [!Note]
+ > 詳細については、「 [プラットフォームごとのチーム機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 」を参照してください。
 
 ## <a name="teams-on-vdi-components"></a>VDI 上の Teams のコンポーネント
 

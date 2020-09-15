@@ -19,19 +19,19 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: bee2d4094e1a85db39514e0757e58092544653a1
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 079d0642158aa6d28b3c92a63e77afa0a0024d94
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164086"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814586"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Outlook 会議で使用するコンテンツ プリロードの有効化と無効化
 
 ユーザーは、Outlook 会議出席依頼に添付されているコンテンツ、ファイル、または添付ファイルを Skype for Business Online の会議にプリロードできますが、オンとオフを切り替えることができます。 Skype for Business Online を使用しているすべての組織に対して、既定でオンになっています。 [Skype For business 会議の添付ファイルをプリロード](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)する方法について説明します。
   
 > [!NOTE]
-> 現時点では、 _Maxcontentstoragemb 枠_と_Maxcontentstoragemb_のオンライン値を設定または表示するために、Skype for business Online で利用可能なコマンドレットはありません。 これは、オンプレミス環境でのみ使用できます。 添付されたコンテンツが_Maxuploadfilesizemb 枠_を超えている場合、または_Maxcontentstorag飾り_枠の制限に達している場合は、コンテンツが会議にアップロードされないことを知っておくことが重要です。
+> 現時点では、  _Maxcontentstoragemb 枠_ と _Maxcontentstoragemb_のオンライン値を設定または表示するために、Skype for business Online で利用可能なコマンドレットはありません。 これは、オンプレミス環境でのみ使用できます。 添付されたコンテンツが  _Maxuploadfilesizemb 枠_ を超えている場合、または _Maxcontentstorag飾り_ 枠の制限に達している場合は、コンテンツが会議にアップロードされないことを知っておくことが重要です。
   
 ## <a name="to-get-you-started"></a>使用するには、次のようにします。
 
@@ -47,7 +47,7 @@ ms.locfileid: "44164086"
     
 4. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
     
-詳細については、「[単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
+詳細については、「 [単一の Windows PowerShell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続する](https://technet.microsoft.com/library/dn568015.aspx)」を参照してください。
   
 ### 
 
@@ -57,17 +57,19 @@ ms.locfileid: "44164086"
     
 2. **Windows PowerShell**ウィンドウで、次を実行して Microsoft 365 または Office 365 に接続します。
     
-    > [!NOTE]
-    > Skype for Business Online Windows PowerShell モジュールを初めて使用するときに、 **Import-Module** コマンドを実行するだけです。
+> [!NOTE]
+> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
+>
+> 最新の [Teams PowerShell パブリックリリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
   
 ```PowerShell
-Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+Import-Module -Name MicrosoftTeams
 $credential = Get-Credential
 $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Windows PowerShell の起動の詳細については、「 [1 つの Windows powershell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続](https://technet.microsoft.com/library/dn568015.aspx)する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
+Windows PowerShell の起動の詳細については、「 [1 つの Windows powershell ウィンドウですべての Microsoft 365 または Office 365 サービスに接続](https://technet.microsoft.com/library/dn568015.aspx) する」または「 [windows powershell 用のコンピューターをセットアップ](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)する」を参照してください。
   
 ## <a name="turning-it-on-or-off"></a>機能の有効化と無効化
 
@@ -104,7 +106,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

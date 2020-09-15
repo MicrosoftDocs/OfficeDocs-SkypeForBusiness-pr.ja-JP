@@ -16,24 +16,24 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone システムのダイレクトルーティングを有効にする方法について説明します。
-ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656148"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814546"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする
 
 この記事では、ユーザーが電話システムのダイレクトルーティングを有効にする方法について説明します。  これは、次の手順の手順2で、直接ルーティングを構成します。
 
 - 手順1 [SBC と Microsoft 電話システムを接続して接続を検証する](direct-routing-connect-the-sbc.md) 
-- **手順2ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする**(この記事)
+- **手順2ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする**   (この記事)
 - 手順3 [音声ルーティングを構成する](direct-routing-voice-routing.md)
 - 手順4。 [数値を別の形式に変換する](direct-routing-translate-numbers.md) 
 
 
-直接ルーティングを設定するために必要なすべての手順については、「[直接ルーティングを構成する](direct-routing-configure.md)」を参照してください。
+直接ルーティングを設定するために必要なすべての手順については、「 [直接ルーティングを構成する](direct-routing-configure.md)」を参照してください。
 
 ユーザーに対して直接ルーティングを有効にする準備ができたら、次の手順を実行します。 
 
@@ -46,23 +46,39 @@ ms.locfileid: "46656148"
 
 Microsoft 365 または Office 365 で新規ユーザーを作成するには、2つのオプションがあります。 ただし、Microsoft は、ルーティングの問題を回避するためのオプションを組織で選ぶことをお勧めします。 
 
-- オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドと同期します。 「[オンプレミスディレクトリと Azure Active Directory の統合」を](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)参照してください。
+- オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドと同期します。 「 [オンプレミスディレクトリと Azure Active Directory の統合」を](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)参照してください。
 - Microsoft 365 管理センターで直接ユーザーを作成します。 「 [Microsoft 365 または Office 365 にユーザーを個別に、または一括して追加する」を](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)参照してください。 
 
 Skype for business Online の展開 coexists が Skype for Business 2015 または Lync 2010 または2013オンプレミスの場合、サポートされているオプションは、オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドに同期することだけです (オプション 1)。 
 
 ライセンス要件の詳細については、「[プランダイレクトルーティング](direct-routing-plan.md)の[ライセンスとその他の要件](direct-routing-plan.md#licensing-and-other-requirements)」を参照してください。
 
-## <a name="ensure-that-the-user-is-homed-online"></a>ユーザーがオンラインになっていることを確認する 
+## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>ユーザーがオンラインになっていて、電話番号がオンプレミスから同期されていないことを確認します (Skype for Business Server Enterprise Voice を有効にしたユーザーには、チームダイレクトルーティングに移行されます)。
 
-直接ルーティングでは、ユーザーがオンラインである必要があります。 RegistrarPool パラメーターを確認すると、infra.lync.com ドメインで値を指定する必要があります。
+直接ルーティングでは、ユーザーがオンラインである必要があります。 RegistrarPool パラメーターを確認すると、infra.lync.com ドメインで値を指定する必要があります。 Onpremlineurimanuます。また、Set パラメーターも True に設定する必要があります。 これは、Skype for Business Online PowerShell を使用して電話番号を設定し、エンタープライズボイスとボイスメールを有効にすることで実現されます。
 
-1. リモート PowerShell に接続します。
+1. Skype for Business Online PowerShell セッションに接続します。
+
 2. 次のコマンドを実行します。 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
+    OnPremLineUriManuallySet が False に設定され、LineUri に <E.i 電話> 番号が設定されている場合は、Skype for Business Online PowerShell を使用して電話番号を構成する前に、オンプレミスの Skype for Business の管理シェルを使ってパラメーターを削除してください。 
+
+1. Skype for Business の管理シェルから次のコマンドを実行します。 
+
+   ```PowerShell
+   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+    ``` 
+   変更が Office 365 に同期された後、の予想される出力は次のようになり `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` ます。
+
+   ```console
+   RegistrarPool                        : pool.infra.lync.com
+   OnPremLineURIManuallySet             : True
+   OnPremLineURI                        : 
+   LineURI                              : 
+   ```
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>電話番号を設定し、エンタープライズボイスとボイスメールを有効にする 
 
@@ -70,13 +86,14 @@ Skype for business Online の展開 coexists が Skype for Business 2015 また�
 
 電話番号を追加してボイスメールを有効にするには:
  
-1. リモート PowerShell セッションに接続します。 
-2. コマンドを入力します。 
+1. Skype for Business Online PowerShell セッションに接続します。 
+
+2. 次のコマンドを実行します。 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
-
+    
     たとえば、"Spencer Low" というユーザーの電話番号を追加するには、次のように入力します。 
 
     ```PowerShell
@@ -85,8 +102,8 @@ Skype for business Online の展開 coexists が Skype for Business 2015 また�
 
     使用される電話番号は、国コードを含む完全な電子電話番号として構成する必要があります。 
 
-      > [!NOTE]
-      > ユーザーの電話番号がオンプレミスで管理されている場合は、オンプレミスの Skype for Business 管理シェルまたはコントロールパネルを使用して、ユーザーの電話番号を構成します。 
+    > [!NOTE]
+    > ユーザーの電話番号がオンプレミスで管理されている場合は、オンプレミスの Skype for Business 管理シェルまたはコントロールパネルを使用して、ユーザーの電話番号を構成します。 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>ボイスメールに直接通話を送信するように設定する

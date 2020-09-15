@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c963e88d33928add9c7f5c611f44919250b847
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583154"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814556"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 ==========================================
@@ -58,7 +58,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 - **プライバシー** -バッキング Microsoft 365 グループの可視性/AccessType。
 - **状態** - このチームの状態がアーカイブ済みかアクティブか。 チームのアーカイブに関する詳細については、「[チームをアーカイブまたは復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」を参照してください。
 - [ **Description** ]-バッキング Microsoft 365 グループの説明。
-- **分類**: バッキング Microsoft 365 グループに割り当てられている (組織で使用されている場合)。 分類の詳細については、「[組織の Office グループに対する分類を作成する](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)」を参照してください。
+- **分類** : バッキング Microsoft 365 グループに割り当てられている (組織で使用されている場合)。 分類の詳細については、「[組織の Office グループに対する分類を作成する](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)」を参照してください。
 - **Groupid** -バッキング Microsoft 365 グループの固有の groupid。
 
 > [!NOTE]
@@ -67,6 +67,9 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 ### <a name="add"></a>追加
 
 新しいチームを追加するには、**[追加]** をクリックします。 **[新しいチームの追加]** ウィンドウで、チームの名前と説明を入力し、プライベート チームかパブリック チームのどちらにするかを決定し、分類を設定します。
+
+> [!NOTE]
+> 新しく作成されたチームは、Outlook などの他のクライアントの操作とは異なり、Teams 管理センターですぐに管理できます。
 
 ### <a name="edit"></a>編集
 
@@ -78,7 +81,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ### <a name="delete"></a>削除
 
-チームを削除すると、チームと対応する Microsoft 365 グループのソフト削除となります。 誤って削除されたチームを復元するには、「[削除されたグループを復元](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)する」の手順に従います。
+チームを削除すると、チームと対応する Microsoft 365 グループのソフト削除となります。 誤って削除されたチームを復元するには、「 [削除されたグループを復元](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)する」の手順に従います。
 
 ### <a name="search"></a>検索
 
@@ -103,7 +106,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 - **チーム名**
 - **説明**
 - **プライバシー** - チームをパブリックかプライベートに設定します。
-- **分類**-これは Microsoft 365 グループの分類によってサポートされます。 **[社外秘]**、**[非常に機密性の高い社外秘]**、または **[一般]** を選択します。
+- **分類** -これは Microsoft 365 グループの分類によってサポートされます。 **[社外秘]**、**[非常に機密性の高い社外秘]**、または **[一般]** を選択します。
 - **会話の設定** - 送信されたメッセージをメンバーが編集および削除できるかどうかを設定します。
 - **チャネルの設定** - メンバーが新しいチャネルを作成したり、既存のチャネルを編集したりできるかどうかを設定します。また、タブ、コネクタ、アプリの追加、編集、削除も行えます。
 
