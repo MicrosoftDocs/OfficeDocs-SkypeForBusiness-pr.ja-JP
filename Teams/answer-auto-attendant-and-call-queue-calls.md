@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
-ms.translationtype: HT
+ms.openlocfilehash: 95719bc95cc752888964a5f404e6f8050ebf3fa4
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672878"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766861"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 ===========================================================
@@ -62,6 +62,11 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams の自動応答と通話キューのサポートを構成する
 
 Microsoft Teams で自動応答および通話キューの通話を受信するには、相互運用性ポリシーおよびアップグレード ポリシーを構成する必要があります。 「[Teams を Skype for Business と一緒に使用する組織の移行と相互運用性](migration-interop-guidance-for-teams-with-skype.md)」を確認してください。 自動応答や通話キューが設定されておらず、設定したい場合は、「[クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)」および「[クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)」を参照してください。
+
+## <a name="known-issues"></a>既知の問題
+
+通話キューエージェントがモバイルデバイスで通話を受信したときに、デバイスがロックされていると、通話が保留になることがあります。 ユーザーは最初にデバイスのロックを解除し、通話に応答する必要があります。
+
 
 ## <a name="related-topics"></a>関連トピック
 
