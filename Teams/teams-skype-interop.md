@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 組織内の Teams ユーザーと Skype (コンシューマー) ユーザーとの相互運用性機能について説明します。
 localization_priority: Normal
-ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
-ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
+ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
+ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47395366"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47651206"
 ---
 # <a name="teams-and-skype-interoperability"></a>チームと Skype の相互運用性
 
@@ -28,7 +28,10 @@ ms.locfileid: "47395366"
 - Teams ユーザーは、1対1のテキストのみの会話、または Skype ユーザーとの音声/ビデオ通話を検索して開始することができます。
 - Skype ユーザは、1対1のテキストのみの会話、または Teams ユーザとの音声/ビデオ通話を検索して開始することができます。
 
-これは、Teams と Skype の両方のデスクトップ、web、モバイル (Android および iOS) クライアントで利用できます。 最適なエクスペリエンスを実現するには、Skype バージョン8.58 以降をお勧めします。
+これらの機能は、Teams と Skype の両方のデスクトップ、web、モバイル (Android および iOS) クライアントで利用できます。 最適なエクスペリエンスを実現するには、Skype バージョン8.58 以降をお勧めします。
+
+> [!NOTE]
+> この記事で説明されているチームおよび Skype 相互運用機能は、GCC、GCC 高、または DOD の展開やプライベートクラウド環境では使用できません。
 
 ## <a name="chat-and-calling-experience"></a>チャットと通話のエクスペリエンス
 
@@ -42,7 +45,7 @@ Skype ユーザは、検索結果に表示されないように選択できま�
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype ユーザが Teams ユーザとチャットまたは通話を開始
 
-Skype ユーザは、自分のメールアドレスを使って、チームユーザとのチャットを検索して開始することができます。 Teams ユーザには、Skype ユーザからの新しいメッセージがあることが通知され、最初にメッセージを受信しないと返信できません。
+Skype ユーザは、自分のメールアドレスを使って、チームユーザとのチャットを検索して開始することができます。 チームユーザには、Skype ユーザからの新しいメッセージがあることが通知されます。 チームユーザーは、最初にメッセージを受信してから返信する必要があります。
 
 - Teams ユーザーが [ **承諾**] を選択すると、会話が承諾され、両方のユーザーがチャットして通話を発信できるようになります。
 - Teams ユーザーが **ブロック**を選択した場合、会話はブロックされ、その後の Skype ユーザからのメッセージや通話はブロックされます。
@@ -53,7 +56,7 @@ Skype ユーザは、自分のメールアドレスを使って、チームユ�
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Teams ユーザーが Skype ユーザーをブロックまたはブロック解除する
 
-チームのユーザーが Skype ユーザーからの最初の会話要求を承諾またはブロックした後は、そのユーザーは、会話内で、または Teams のプライバシー設定で、いつでもブロックまたはブロック解除することができます。 Skype ユーザは、ブロックされていることを認識できません。
+チームのユーザーが Skype ユーザーからの最初の会話要求を承諾またはブロックした後は、そのユーザーはいつでもブロックまたはブロック解除することができます。 この操作は、会話または Teams のプライバシー設定で行うことができます。 Skype ユーザは、ブロックされていることを認識できません。
 
 ブロックされた Skype ユーザーと、他のユーザー、および Teams ユーザーがブロックした公衆交換電話網 (PSTN) 電話番号は、チームのユーザーのブロックされた連絡先リストに一覧表示されます。
 
@@ -80,7 +83,7 @@ Microsoft Teams 管理センターで、[**組織全体の設定**] の [外部�
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-パラメーターと共に [CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) コマンドレットを使用して、 ```EnablePublicCloudAccess``` Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 ```true```チームユーザーが Skype ユーザーと通信できるようにパラメーターを設定します。 このパラメーターを ```EnablePublicCloudAudioVideoAccess``` 使って、音声/ビデオ通話を有効または無効にすることができます。
+パラメーターと共に [CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) コマンドレットを使用して、 ```EnablePublicCloudAccess``` Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 ```true```チームユーザーが Skype ユーザーと通信できるようにパラメーターを設定します。 このパラメーターを使って、 ```EnablePublicCloudAudioVideoAccess``` 音声/ビデオ通話を有効または無効にすることができます。
 
 ## <a name="related-topics"></a>関連トピック
 
