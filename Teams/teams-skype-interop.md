@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 組織内の Teams ユーザーと Skype (コンシューマー) ユーザーとの相互運用性機能について説明します。
 localization_priority: Normal
-ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
-ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
+ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651206"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766901"
 ---
 # <a name="teams-and-skype-interoperability"></a>チームと Skype の相互運用性
 
@@ -45,7 +45,7 @@ Skype ユーザは、検索結果に表示されないように選択できま�
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype ユーザが Teams ユーザとチャットまたは通話を開始
 
-Skype ユーザは、自分のメールアドレスを使って、チームユーザとのチャットを検索して開始することができます。 チームユーザには、Skype ユーザからの新しいメッセージがあることが通知されます。 チームユーザーは、最初にメッセージを受信してから返信する必要があります。
+Skype ユーザは、自分のメールアドレスを使って、チームユーザとのチャットを検索して開始することができます。 チームユーザには、Skype ユーザからの新しいメッセージがあることが通知され、最初にメッセージを受信しないと返信できません。
 
 - Teams ユーザーが [ **承諾**] を選択すると、会話が承諾され、両方のユーザーがチャットして通話を発信できるようになります。
 - Teams ユーザーが **ブロック**を選択した場合、会話はブロックされ、その後の Skype ユーザからのメッセージや通話はブロックされます。

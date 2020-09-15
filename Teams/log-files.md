@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f13acc1a401a6753b335c17fe0cd8a7984849216
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582114"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766761"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -81,7 +81,7 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 
 -   Windows: %userprofile%\\Downloads
 
--   Mac OSX: Downloads
+-   Mac OSX: ~/ダウンロード
 
 -   Linux: ~/ダウンロード
 
@@ -90,8 +90,11 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 <a name="media-logs"></a>メディア ログ
 ---------------------------
 
-メディア ログには、音声、ビデオ、画面共有に関する診断データが含まれます。このログは要求があった場合にのみサポート ケースで必要とされ、Microsoft のみが検査できます。次の表にログの場所を示します。
+メディアログには、Teams 会議でのオーディオ、ビデオ、画面共有に関する診断データが含まれています。 サポートケースは、要求された場合にのみ必要です。また、Microsoft によってのみ検査できます。 
 
+メディアログは既定で無効になっています。 Teams 会議の診断データをログに記録するには、ユーザーは Teams クライアントでオプションをオンにする必要があります。 [**設定**全般] に移動し、[  >  **General****会議の診断のためのログを有効にする (チームの再起動が必要**)] チェックボックスをオンにして、teams を再起動します。
+
+次の表に、ログの場所の概要を示します。
 
 |クライアント |場所 |
 |---------|---------|
@@ -103,7 +106,15 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 |Linux       |~/.config/Microsoft/Microsoft Teams/media-stack/*. ブログ         |
 |            |~/.config/Microsoft/Microsoft Teams/skylib/*. ブログ         |
 
+生成されるログファイルとそれらに含まれる情報の一覧を次に示します。
 
+|ログファイル名  |説明  |
+|---------|---------|
+|Teams. msrtc-0-s1039525249     | メディアスタックに関連する情報が含まれています。 これには、解像度、デコーダー、使用されるエンコーダー、送受信されたフレーム数、カメラおよびビデオベースの画面共有 (VBSS) セッション状態などのチャネル状態が含まれます。         |
+|rtmcontrol. msrtc-0-2415069487      |コントロールが指定されているときのタイムスタンプやマウスポインター情報など、リモートコントロールの操作に関連する情報を記録します。          |
+|-2-U-xr-U の Teams_MediaStackETW      |メディアスタックトレースイベントを記録します。         |
+|Debug-0-s2790420889    | レンダリング品質など、メディアエージェントに関連する情報が含まれています。          |
+|tscalling-0-2061129496   |Ts API のイベントを記録します。       |
 
 <a name="desktop-logs"></a>デスクトップ ログ
 ---------------------

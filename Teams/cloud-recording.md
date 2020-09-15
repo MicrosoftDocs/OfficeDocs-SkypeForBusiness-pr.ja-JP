@@ -16,12 +16,12 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897806"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766911"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -36,8 +36,8 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 
 チームユーザーの会議を記録するには、テナントに対して Microsoft Stream を有効にする必要があります。 また、会議の開催者とレコーディングを開始するユーザーの双方は、次の前提条件を満たす必要があります。
 
-- ユーザーは、Office 365 E1、E3、E5、A1、A3、A5、M365 Business Premium、M365 Business Standard、または M365 Business Basic を持っています。
-- Microsoft Stream<sup>1</sup> のライセンスが付与されている必要がある 
+- ユーザーは、Office 365 E1、E3、E5、A1、A3、A5、Microsoft 365 Business Premium、ビジネス標準、またはビジネス Basic<sup>1</sup>を持っています。
+- ユーザーに Microsoft Stream<sup>2</sup>のライセンスが必要です 
 - Microsoft Stream でビデオをアップロードするアクセス許可を持っている
 - 会社のガイドラインが管理者によって設定されている場合、そのガイドラインに同意している
 - レコーディングを保存するのに十分なストレージを Microsoft Stream に確保している
@@ -45,7 +45,9 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 - その会議の匿名ユーザー、ゲスト ユーザー、フェデレーション ユーザーではない
 - ユーザーの会議に対して議事録を有効にするには、割り当てられている Teams の会議ポリシーで、-AllowTranscription 設定を true に設定する必要があります。
 
-<sup>1</sup> ユーザーは Microsoft Stream との会議をアップロード/ダウンロードするためのライセンスが必要ですが、会議を記録するためのライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
+<sup>1</sup> 2020 年8月20日の間、会議レコーディングファイルへのアクセスは21日が経過すると、A1 を使用しているユーザーの有効期限が切れます。 詳細については、「 [Microsoft Teams の会議レコーディングをストリーミングにアップロードする](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording)」を参照してください。
+
+<sup>2</sup> Microsoft Stream との会議をアップロード/ダウンロードするには、ライセンスが必要ですが、会議を記録するためのライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
 
 > [!IMPORTANT] 
 > ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 これは、レコーディングが Microsoft Stream に保存されていないことを意味しますが、その記録は、削除される前に21日間の制限付きで Azure メディアサービス (AMS) に保存されます。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
@@ -126,7 +128,8 @@ Microsoft 365 または Office 365 のサービス間でデータが保存され
 
 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 これをオフにすると、会議の記録の再生中に [**検索**] および [**CC**] オプションを使用できなくなります。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。
 
-記録された会議の議事録は、現時点では、Teams の言語が英語に設定され**ているユーザー** 、および英語が会議で話されている場合にのみサポートされます。
+> [!NOTE]
+> 記録された会議のための議事録は、現在のところ、Teams の言語が英語に設定され、会議で英語が話されているユーザーのみがサポートしています。 Microsoft Stream クラウドストレージの会議のレコーディングと共に保存されます。
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、レコーディングを開始するユーザーが会議のレコーディングを文字起こしする機能を選択できるかどうかを制御できます。
 

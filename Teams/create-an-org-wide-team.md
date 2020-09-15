@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1950c395c61bd1f6d70741e3d9a8a26553f3445a
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 84f34ee9af678613580beefeb52b08e9ce924be3
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405794"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766871"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -32,7 +32,7 @@ ms.locfileid: "47405794"
 
 ![組織全体のチームを作成するための [組織全体] オプションのスクリーンショット](media/create-org-wide-team.png "組織全体のチームを作成するための [組織全体] オプションのスクリーンショット")
 
-組織全体のチームが作成されると、すべてのグローバル管理者がチームの所有者として追加され、すべてのアクティブなユーザーがチーム メンバーとして追加されます。 ライセンス未付与のユーザーもチームに追加されます。 ライセンス未付与のユーザーが初めて Teams にサインインしたとき、ユーザーには Microsoft Teams の探索用ライセンスが割り当てられます。 探索ライセンスの詳細については、「 [Microsoft Teams の探索ライセンスを管理](teams-exploratory.md)する」を参照してください。 
+組織全体のチームを作成すると、すべてのグローバル管理者と Teams サービスの管理者がチーム所有者として追加され、アクティブなすべてのユーザーがチームメンバーとして追加されます。 ライセンス未付与のユーザーもチームに追加されます。 ライセンス未付与のユーザーが初めて Teams にサインインしたとき、ユーザーには Microsoft Teams の探索用ライセンスが割り当てられます。 探索ライセンスの詳細については、「 [Microsoft Teams の探索ライセンスを管理](teams-exploratory.md)する」を参照してください。 
 
 これらの種類のアカウントは、組織全体のチームには追加されません。
 

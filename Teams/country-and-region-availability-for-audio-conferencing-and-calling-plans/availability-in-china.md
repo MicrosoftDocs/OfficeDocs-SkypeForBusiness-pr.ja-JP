@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを中国で利用できるようにする方法について説明します。
-ms.openlocfilehash: d0629cfe16e5e917a358c55d0b6ec6b78bfbcf29
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8db46e038ff817844f738fbaea630089970908e7
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230575"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766891"
 ---
 # <a name="availability-in-china"></a>中国での利用可能性
 
@@ -42,16 +42,16 @@ ms.locfileid: "44230575"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |いいえ  <br/> |
+|電話会議は購入できますか?  <br/> |はい。中国外のユーザーが使用します。 詳細については、アカウントチームにお問い合わせください。  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> | 地理的以外の場合。 電話番号が特定の都市や地域に関連していません。 <br/>  専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |連絡可能  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> | ○ (中国からサービスを購入したお客様を除く) 中国からサービスを購入したお客様の場合、ダイヤルアウト機能は無効になります。   <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |連絡可能  <br/> |
+| 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |連絡可能  <br/> |
    
@@ -63,7 +63,7 @@ ms.locfileid: "44230575"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
+通話プランを購入できない場合は、 [電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -71,7 +71,7 @@ ms.locfileid: "44230575"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |北京  <br/> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|無料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) 中国からサービスを購入したお客様を除きます。 中国からサービスを購入したお客様は、無料番号を利用できません。 <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
   
@@ -81,9 +81,8 @@ ms.locfileid: "44230575"
 |:-----|:-----|
 |コミュニケーション クレジットは利用できますか?  <br/> |いいえ  <br/> |
    
-この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 

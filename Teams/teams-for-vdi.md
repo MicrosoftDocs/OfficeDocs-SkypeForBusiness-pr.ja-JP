@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803996"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766921"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -80,7 +80,11 @@ Citrix の [ダウンロードサイト](https://www.citrix.com/downloads/citrix
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware ホライズンワークスペースとデスクトップの要件
 
-ヴイエムウェアホライズンは、VDI での Teams のサポートを最適化し、仮想デスクトップ全体の生産性を向上させます。 最新バージョンの VMware ホライズンは、 [ヴイエムウェアのダウンロード](https://my.vmware.com/web/vmware/downloads/#all_products) ページからダウンロードできます。
+VMware ホライズンは、ハイブリッドクラウドで仮想デスクトップとアプリを安全に配信するための先進プラットフォームです。 ヴイエムウェアホライズンは、優れたエンドユーザーエクスペリエンスを提供するために、Teams のメディア最適化を提供します。 この最適化によって、仮想デスクトップとアプリ全体の生産性が向上し、Teams を使用した通話と会議のユーザーエクスペリエンスが強化されます。
+
+最新バージョンの VMware ホライズンは、 [ヴイエムウェアのダウンロード](https://my.vmware.com/web/vmware/downloads/#all_products) ページからダウンロードできます。 必要なメディア最適化コンポーネントは、既定ではホライズンエージェントとホライズンクライアントに含まれており、Teams の最適化機能を使用するために追加のプラグインをインストールする必要はありません。
+
+Teams でメディア最適化を構成する方法についての最新の要件と手順については、「 [この VMware の web サイト](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)」を参照してください。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>VDI で Teams デスクトップ アプリをインストールまたは更新する
 
@@ -374,10 +378,12 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 - 拡張緊急サービス
 - Teams アプリとデバイス間の HID ボタンと LED コントロール
 - 背景のぼかしと効果
-- ブロードキャスト/ライブ イベント
+- ブロードキャストおよびライブイベントプロデューサーと発表者の役割
 - 場所に基づくルーティング (LBR)
 - コール パーク
 - コール キュー
+- 共有システムオーディオ/コンピューターのサウンド
+- ダイレクト ルーティングのメディア バイパス
 
 > [!NOTE]
 > 現在は非 VDI 環境でのみ利用可能な通話および会議機能の追加に取り組んでいます。 これには、品質、追加の画面共有シナリオ、チームに最近追加された高度な機能など、より多くの管理者の制御が含まれる場合があります。 今後の機能の詳細については、Teams の担当者にお問い合わせください。
