@@ -20,12 +20,12 @@ search.appverid: MET150
 description: クラウドボイス機能についての詳細を確認して、必要な展開の意思決定について理解してください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5a05ba72f52d4131229b28072a615bf12f6b5930
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814877"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820501"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>ボイスフォンシステムと PSTN 接続オプション
 
@@ -39,7 +39,7 @@ Voice は、構内交換機 (PBX) 機能と、公衆交換電話網 (PSTN) に�
 中心的な部分についてはすべての組織が実行し、残りの内容は、組織に追加の要件がある場合に確認するようお勧めします。
 
  > [!Note]
- > 詳細については、「 [プラットフォームごとのチーム機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 」を参照してください。
+> さまざまなプラットフォームの電話システム機能の詳細については、「 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
 
 ## <a name="learn-more-about-voice"></a>音声についての詳細はこちら
 

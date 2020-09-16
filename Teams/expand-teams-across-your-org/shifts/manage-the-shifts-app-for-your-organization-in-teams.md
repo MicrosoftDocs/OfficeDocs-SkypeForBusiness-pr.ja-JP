@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c41c4435877860a2193e6b50f45f714c8c85cb2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 405c918dfe71fce02ab19f3ccf49cc124877da41
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814736"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820471"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -39,8 +39,8 @@ Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続さ�
 
 シフトでは現在、ゲスト ユーザーはサポートされていませんのでご注意ください。 つまり、Teams でゲスト アクセスがオンになっていると、チームのゲストをシフト スケジュールに追加することも、チームのゲストがシフト スケジュールを使用することもできません。 
 
- > [!Note]
- > 詳細については、「 [プラットフォームごとのチーム機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 」を参照してください。
+> [!Note]
+> さまざまなプラットフォームのシフト機能について詳しくは、「 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」をご覧ください。
 
 ## <a name="availability-of-shifts"></a>シフトの可用性
 

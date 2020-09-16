@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ビジネス向けの Microsoft 電話システムの計画とセットアップ方法について説明します。 '
-ms.openlocfilehash: 5ed14740f5521bdd70d2fda7f50ffb940ccac485
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 32c094860ee5ff102a541062616e038cf2f37be6
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814887"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820571"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>電話システムで利用できる機能
 
@@ -36,7 +36,7 @@ ms.locfileid: "47814887"
 クライアントは PC、Mac、モバイルで利用できます。これは、タブレットや携帯電話から Pc やデスクトップの IP 電話へのデバイスの機能を提供します。 詳細については、「 [Microsoft Teams のクライアントを取得する](get-clients.md)」を参照してください。
 
  > [!Note]
- > 詳細については、「 [プラットフォームごとのチーム機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 」を参照してください。
+> さまざまなプラットフォームの Teams 電話システムについて詳しくは、「 [プラットフォームごとの teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」をご覧ください。
   
 ## <a name="phone-system-features"></a>電話システムの機能
 

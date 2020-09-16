@@ -21,12 +21,12 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1747075caecdbc4bcd0c83eb037682b023701799
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: fd2cef56b4b59461ea1eeb5028c6c77a92e20500
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814776"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820631"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
@@ -34,8 +34,8 @@ ms.locfileid: "47814776"
 
 [割り当てについて](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
- > [!Note]
- > 詳細については、「 [プラットフォームごとのチーム機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 」を参照してください。
+> [!Note]
+> さまざまなプラットフォームでの Teams の割り当てについて詳しくは、「 [プラットフォームごとの teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」をご覧ください。
 
 ## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの課題
 

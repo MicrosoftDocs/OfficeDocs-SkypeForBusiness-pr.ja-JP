@@ -18,17 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1db2aa6eae0dadbd2043198a167daa5cc6fe098
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581678"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820331"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
+Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モバイル (Android および iOS) で利用できるクライアントがあります。 これらのクライアントすべてにアクティブなインターネット接続が必要で、オフライン モードはサポートされていません。 
 
-Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モバイル (Android および iOS) で利用できるクライアントがあります。 これらのクライアントすべてにアクティブなインターネット接続が必要で、オフライン モードはサポートされていません。
+> [!Note]
+> さまざまなプラットフォームの各クライアント機能について詳しくは、「 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」をご覧ください。
 
 > [!NOTE]
 > 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 代わりに、Windows 10 S モードを実行しているデバイスに、Teams デスクトップ クライアントをダウンロードしてインストールできるようになりました。 デスクトップ クライアントをダウンロードするには、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) にアクセスしてください。 Teams デスクトップ クライアントの MSI ビルドは、Windows 10 S モードを実行しているデバイスではまだ利用できません。
@@ -40,7 +42,7 @@ Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モ�
 > [!TIP]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションです。また、[エンタープライズ向けの microsoft 365 アプリでも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は、32ビットバージョンと64ビットバージョンの Windows (8.1 以降)、および Windows Server (2012 R2 以降)、および macOS と Linux (in と形式) で利用でき `.deb` `.rpm` ます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
+Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションです。また、 [エンタープライズ向けの microsoft 365 アプリでも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は、32ビットバージョンと64ビットバージョンの Windows (8.1 以降)、および Windows Server (2012 R2 以降)、および macOS と Linux (in と形式) で利用でき `.deb` `.rpm` ます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
@@ -78,7 +80,7 @@ Windows クライアントは、ユーザーのプロファイルの AppData フ
 > [!NOTE]
 > Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関するブロック アクションで、teams.exe に関する2 つの着信ルールが作成されます。
 
-ユーザーが Teams から最初の通話を行ったときに、ユーザーがファイアウォールルールを作成することをユーザーに要求しないようにするには、次の[PowerShell スクリプトのサンプル](#sample-powershell-script---inbound-firewall-rule)を使用します。 
+ユーザーが Teams から最初の通話を行ったときに、ユーザーがファイアウォールルールを作成することをユーザーに要求しないようにするには、次の [PowerShell スクリプトのサンプル](#sample-powershell-script---inbound-firewall-rule) を使用します。 
 
 ### <a name="mac"></a>Mac
 
@@ -115,7 +117,7 @@ DEB または RPM パッケージをインストールすると、パッケー�
 システムのパッケージ マネージャーを使用して自動更新を有効にするための署名キーが自動的にインストールされます。 ただし、これは (https://packages.microsoft.com/keys/microsoft.asc) にもあります。 Microsoft Teams は毎月更新されており、リポジトリが正常にインストールされていれば、システム上の他のパッケージと同様に、システム パッケージ マネージャーによって自動更新が処理されます。
 
 > [!NOTE] 
-> バグが見つかった場合は、クライアント内から `Report a Problem` を使用してご報告ください。 既知の問題については、「[組織のサポートチーム](Known-issues.md)」を参照してください。
+> バグが見つかった場合は、クライアント内から `Report a Problem` を使用してご報告ください。 既知の問題については、「 [組織のサポートチーム](Known-issues.md)」を参照してください。
 > Linux 向けの Teams のサポートについては、[Microsoft Q&A の Linux フォーラム サポート チャネル](https://docs.microsoft.com/answers/topics/teams.html) をご利用いただけます。 質問を投稿するときは、必ず `teams-linux` タグを使用してください。 
 
 #### <a name="install-teams-using-deb-package"></a>DEB パッケージを使用して Teams をインストールする

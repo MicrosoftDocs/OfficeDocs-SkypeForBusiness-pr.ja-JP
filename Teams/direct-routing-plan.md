@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359403"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820641"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -230,7 +230,7 @@ Fqdn – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.m
 - 52.114.16.74
 - 52.114.20.29
 
-シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip-all.pstnhub.microsoft.com はこれらのすべての IP アドレスに解決されます。 
+シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN **sip-all.pstnhub.microsoft.com** はこれらのすべての IP アドレスに解決されます。 
 
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
@@ -257,7 +257,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP アドレ
 - 52.127.88.59
 - 52.127.92.64
 
-シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。
+シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。 ファイアウォールで DNS 名がサポートされている場合、FQDN **sip-all.pstnhub.gov.teams.microsoft.us** はこれらのすべての IP アドレスに解決されます。 この FQDN は、着信呼び出しの分類のフェデレーション FQDN として使うこともできます。
 
 ## <a name="sip-signaling-ports"></a>SIP シグナリング: ポート
 
