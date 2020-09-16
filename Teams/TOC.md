@@ -63,6 +63,7 @@
 
 ### ゲスト アクセス
 #### [ゲスト アクセスについて](guest-access.md)
+#### [ゲスト アクセスのチェックリスト](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
 #### [ゲストがチームに参加する方法](guest-joins.md)
 #### [ゲストのエクスペリエンスについて](guest-experience.md)
 #### [Teams でのゲスト アクセスを承認する](teams-dependencies.md)
@@ -773,6 +774,7 @@
 
 ## [Teams の制限と仕様](limits-specifications-teams.md)
 ## [Teams のデータの場所](location-of-data-in-teams.md)
+## [データの収集プラクティス](data-collection-practices.md)
 
 ## Teams のロールアウトの準備
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
