@@ -18,16 +18,33 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: e36c23c9c462a70a42b92046b5f7d91c9f8c49f9
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6add221744234d8169b7b602d3fb46dff91a093
+ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656078"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950833"
 ---
-<a name="edit-guest-user-information"></a>ゲスト ユーザー情報の編集
-===========================
+# <a name="edit-guest-user-information"></a>ゲスト ユーザー情報の編集
 
-ゲスト アカウントを編集するには (表示名やプロフィール写真など)、Azure Active Directory ポータルに移動します。 詳細については、「 [id と Azure Active Directory につい](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)て」を参照してください。
+ゲスト情報は、Microsoft 365 管理センターまたは Azure ディレクトリポータルから編集できます。
 
-現時点では、Microsoft Teams 管理センター、Microsoft 365 管理センター、または Exchange 管理センターからゲスト情報を編集することはできません。
+## <a name="guest-users-in-the-microsoft-365-admin"></a>Microsoft 365 管理者のゲストユーザー
+
+1. Microsoft 365 管理センターからゲスト情報を編集するには、[**ユーザー**の  >  **ゲストユーザー**] を選択します。
+
+   ![編集中のゲストユーザー情報](media/access-guest-user.png)
+
+2. **ゲストユーザー**からユーザーを選択します。
+
+3. [ゲストユーザー情報] で、[ **連絡先情報の管理**] を選択します。
+
+   ![連絡先情報を管理する ](media/guest-user-data1.png)
+
+4. [**連絡先情報の管理**] の [**表示名**] 以外の任意のフィールドを編集して、[**変更の保存**] を選択します。
+
+   ![ゲストユーザーの連絡先情報を編集する](media/manage-guest-contact.png)
+
+## <a name="guest-users-in-the-azure-active-directory"></a>Azure Active Directory のゲストユーザー
+
+オプションとして、Azure Active Directory ポータルからゲストユーザーを編集することができます。 詳細については、「 [id と Azure Active Directory につい](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)て」を参照してください。

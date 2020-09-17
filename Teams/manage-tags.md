@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams での組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: 9295d03aecb6c0bc6a4f667214869fe698d4eaab
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 965de27b2671106bed4e5c877f26a7132bf61040
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324018"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940527"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
@@ -94,11 +94,11 @@ Microsoft Teams のタグを使用すると、チーム内のユーザーのサ�
 
 ### <a name="create-and-assign-custom-tags"></a>カスタムタグを作成して割り当てる
 
-カスタムタグを作成して割り当てるには、アプリの左側にある [ **チーム** ] を選択し、リストからチームを見つけます。 [ **その他のオプション**] を選択し、[ **タグの管理**] を選択します。 ここでは、タグを作成して、チームのメンバーに割り当てることができます。
+カスタムタグを作成して割り当てるには、アプリの左側にある [ **チーム** ] を選択し、リストからチームを見つけます。 [ **̇̇̇その他のオプション**] を選択し、[ **タグの管理**] を選択します。 ここでは、タグを作成して、チームのメンバーに割り当てることができます。
 
 ![Teams クライアントでタグを適用する方法を示すスクリーンショット ](media/manage-tags-teams.png)
 
-タグを削除するには、ノートシールに関連付けられているすべてのチームメンバーを削除します。
+タグを削除するには、タグの横にある [ **̇̇̇ More] オプション** を選択し、[ **ノートシールの削除**] を選択します。
 
 ### <a name="set-up-tagging-by-shift-coming-soon"></a>シフトでタグを設定する (近日公開)
 

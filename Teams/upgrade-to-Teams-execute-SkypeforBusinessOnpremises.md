@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: f88d3ee5fb4d953fb1516fc19d559d2ad9c5e36a
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666019"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940477"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Skype for Business オンプレミスの展開から Teams にアップグレードする
 
@@ -58,7 +58,7 @@ ms.locfileid: "44666019"
 
 詳細については、以下を参照してください。
 
-- [TeamsUpgradePolicy: 移行と共存を管理](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)します。
+- [TeamsUpgradePolicy: 移行と共存を管理](upgrade-to-teams-on-prem-tools.md)します。
 
 - [オンプレミスから Skype For Business Online にユーザーを移動](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)します。
 
@@ -68,4 +68,4 @@ ms.locfileid: "44666019"
 
 通話プランを使用していない場合は、チームへのアップグレードの一環として、エンタープライズ voip 展開から電話システムへの直接ルーティングに切り替える必要があります。
 
-詳細については、「[電話システムのダイレクトルーティングに関するその他の考慮事項](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)」を参照してください。 通話プランの使用を計画している場合は、お客さまの[電話番号を Teams に移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)するためのガイダンスを参照してください。
+詳細については、「 [電話システムのダイレクトルーティングに関するその他の考慮事項](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)」を参照してください。 通話プランの使用を計画している場合は、お客さまの [電話番号を Teams に移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)するためのガイダンスを参照してください。
