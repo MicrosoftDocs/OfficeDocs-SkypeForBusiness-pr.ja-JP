@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf5dea8846815f052099193f03f4f90aaf951de6
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583966"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814766"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -43,6 +43,9 @@ ms.locfileid: "46583966"
 *2020 年 4 月の新機能*: 会議の開催者は、会議中に、会議のコントロールの **[会議を終了する]** をクリックすることで、Teams 内のすべての参加者に対して会議を終了できます。  
 
 *2019 年 11 月の新機能*: [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams を展開できる](use-advisor-teams-roll-out.md)ようになりました。 Teams のアドバイザー (プレビュー) を使用して、会議など、Teams の展開について説明します。 Office 365 環境を評価し、Teams で会議を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。
+
+ > [!Note]
+ > 詳細については、「[プラットフォーム別のチームの機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>ミーティングと会議の展開に関する決定事項
 

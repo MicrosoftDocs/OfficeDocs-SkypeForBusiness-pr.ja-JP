@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02588d7aa53561993237bd51c0bb5764c2e6ac2b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581148"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814397"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
@@ -44,6 +44,8 @@ Microsoft Teams での会議には、会議とライブ イベントの 2 つの
 >
 > <sup>2</sup>  会議で[**連絡先電話**番号](set-up-the-call-me-feature-for-your-users.md)にダイヤルアウトするには、主催者は E5 または[電話会議アドイン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を必要とします。 [ダイヤル プラン](what-are-dial-plans.md)が必要となる場合もあります。 
 
+ > [!Note]
+ > 詳細については、「[プラットフォーム別のチームの機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
 
 ライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」をお読みください。 
 

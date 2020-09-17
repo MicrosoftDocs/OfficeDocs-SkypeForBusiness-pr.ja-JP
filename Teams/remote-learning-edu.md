@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b72a2000b17f5e910b98f907b00fa9742cf9d72
-ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
+ms.openlocfilehash: 781828d8a94595a6b686fdaa729c3480d2712581
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46818176"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814346"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -32,6 +32,9 @@ ms.locfileid: "46818176"
 教職員や学生のリモート学習を支援するためのリソースは、「[Office 365 Education のリモート教育と学習](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)」で利用することができます。
 
 この記事では、教育機関がリモート学習の設定を行うための実際の手順について説明します。
+
+ > [!Note]
+ > 詳細については、「[プラットフォーム別のチームの機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
 
 > [!NOTE]
 > 教師、教育指導者、または IT 担当者の方々には、次のリソースが役立ちます。
