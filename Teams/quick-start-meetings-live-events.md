@@ -17,16 +17,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814397"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820621"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
 Microsoft Teams での会議には、会議とライブ イベントの 2 つの方法があります。 この記事を使用して、組織の会議とライブイ ベントをすばやく展開して構成します。 
+
+> [!Note]
+> 別のプラットフォームで Teams の会議とイベントをすばやく構成する方法についての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。
 
  - Teams の**会議** には、最大 300 人用の音声、ビデオ、画面共有が含まれます。 Teams で共同作業を行うための重要な方法の 1 つです。 また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません) 。コールインの手順については、出席依頼に記載されています。 
 
@@ -43,9 +46,6 @@ Microsoft Teams での会議には、会議とライブ イベントの 2 つの
 > <sup>1</sup> 会議の主催者が、ダイヤルイン会議を含む招待を送信するには、[電話会議アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)が必要です。
 >
 > <sup>2</sup>  会議で[**連絡先電話**番号](set-up-the-call-me-feature-for-your-users.md)にダイヤルアウトするには、主催者は E5 または[電話会議アドイン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を必要とします。 [ダイヤル プラン](what-are-dial-plans.md)が必要となる場合もあります。 
-
- > [!Note]
- > 詳細については、「[プラットフォーム別のチームの機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
 
 ライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」をお読みください。 
 
