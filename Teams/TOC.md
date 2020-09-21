@@ -76,8 +76,6 @@
 #### [ゲスト アクセスのトラブルシューティング](troubleshoot-guest-access.md)
 ## [Teams の Cortana](cortana-in-teams.md)
 
-
-
 ## Teams の管理
 ### [管理者ロール](using-admin-roles.md)
 ### [組織のMicrosoft Teams の設定を管理します](enable-features-office-365.md)
@@ -87,6 +85,7 @@
 ### [ユーザーにポリシーを割り当てる](assign-policies.md)
 ### [アクティビティ ログでポリシーの割り当てを表示する](activity-log.md)
 ### [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
+### [特定のユーザーの SharePoint へのアクセスをブロックする](block-access-sharepoint.md)
 ### [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
 ### [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 ### [Teams でフィードバック ポリシーを管理する](manage-feedback-policies-in-teams.md)
@@ -719,6 +718,7 @@
 ### [先進認証を使用して Teams にサインインする](sign-in-teams.md)
 ### [Teams の安全なリンク](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [AppLocker アプリケーション コントロール ポリシー](applocker-in-teams.md)
+### [SharePoint へのアクセスをブロックする](block-access-sharepoint.md)
 ## コンプライアンス
 ### [情報障壁](information-barriers-in-teams.md)
 ### [保持ポリシー](retention-policies.md)

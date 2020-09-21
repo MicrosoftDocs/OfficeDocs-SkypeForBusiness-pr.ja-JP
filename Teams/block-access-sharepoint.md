@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 特定のユーザーの SharePoint へのアクセスをブロックする方法について説明します。
-ms.openlocfilehash: 959de8c06e26d2d12c3a3698375b11d373392447
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47956038"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135931"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>特定のユーザーの SharePoint へのアクセスをブロックする
 
-SharePoint Online (SPO) での条件付きアクセス (CA) ポリシーの適用は、Teams にも適用されます。 ただし、一部の組織では、SharePoint ファイルへのアクセス (アップロード、ダウンロード、表示、編集、作成) を禁止していますが、従業員は、管理されていないデバイスで Teams のデスクトップ、モバイル、web クライアントを使用することを許可しています。 CA ポリシールールの下にある SPO をブロックすると、チームもブロックされます。 この記事では、SPO に保存されているファイルへのアクセスを完全にブロックしながら、この制限を回避し、従業員がチームを引き続き使用できるようにする方法について説明します。
+Microsoft 365 の SharePoint で、条件付きアクセス (CA) ポリシーを適用することは、Teams にも適用されます。 ただし、一部の組織では、SharePoint ファイルへのアクセス (アップロード、ダウンロード、表示、編集、作成) を禁止していますが、従業員は、管理されていないデバイスで Teams のデスクトップ、モバイル、web クライアントを使用することを許可しています。 CA ポリシールールの下では、Sharepoint をブロックすると、チームもブロックされます。 この記事では、SharePoint に保存されているファイルへのアクセスを完全にブロックしながら、この制限を回避し、従業員がチームを引き続き使用できるようにする方法について説明します。
 
 > [!Note]
-> 非管理対象デバイスでアクセスをブロックまたは制限することは、Azure AD の条件付きアクセスポリシーに依存します。 [AZURE AD ライセンス](https://azure.microsoft.com/pricing/details/active-directory/)について説明します。 Azure AD での条件付きアクセスの概要については、「 [Azure Active Directory の条件付きアクセス](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)」を参照してください。 推奨される SharePoint アクセスポリシーの詳細については、「 [sharepoint サイトとファイルをセキュリティで保護するためのポリシー推奨事項](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)」を参照してください。 管理対象外のデバイスでアクセスを制限する場合、管理対象デバイス上のユーザーは、 [サポートされている OS とブラウザーの組み合わせ](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)のいずれかを使用する必要があります。また、アクセスも制限されます。
+> 非管理対象デバイスでアクセスをブロックまたは制限することは、Azure AD の条件付きアクセスポリシーに依存します。 [AZURE AD ライセンス](https://azure.microsoft.com/pricing/details/active-directory/)について説明します。 Azure AD での条件付きアクセスの概要については、「 [Azure Active Directory の条件付きアクセス](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)」を参照してください。 推奨される SharePoint Online access ポリシーの詳細については、「 [sharepoint サイトとファイルをセキュリティで保護するためのポリシー推奨事項](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)」を参照してください。 管理対象外のデバイスでアクセスを制限する場合、管理対象デバイス上のユーザーは、 [サポートされている OS とブラウザーの組み合わせ](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)のいずれかを使用する必要があります。また、アクセスも制限されます。
 
 次の場合に、アクセスをブロックまたは制限することができます。
 
@@ -61,9 +61,9 @@ SharePoint Online (SPO) での条件付きアクセス (CA) ポリシーの適�
   > [!Note]
 > このポリシーを設定すると、SharePoint 管理ポータルへのアクセスが切断されます。 除外ポリシーを構成して、グローバルと SharePoint の管理者を選択することをお勧めします。
 
-6. SharePoint Online がターゲットクラウドアプリとしてのみ選択されていることを確認する
+6. ターゲットクラウドアプリとして SharePoint が選択されていることを確認する
 
-    ![Sharepoint online はターゲットアプリとして選択されています。](media/no-sharepoint-access3.png)
+    ![ターゲットアプリとして Sharepoint が選択されます。](media/no-sharepoint-access3.png)
 
 7. **条件**を更新して、デスクトップクライアントを含めることもできます。
 
@@ -79,11 +79,11 @@ SharePoint Online (SPO) での条件付きアクセス (CA) ポリシーの適�
 
     ![アプリで適用された制限が有効になっている。](media/no-sharepoint-access6.png)
 
-ポリシーをテストするには、Teams デスクトップアプリや OneDrive 同期クライアントなどの任意のクライアントからサインアウトし、もう一度サインインして、ポリシーが機能していることを確認する必要があります。 アクセスがブロックされている場合は、アイテムが存在しない可能性があるというメッセージが Teams に表示されます。
+ポリシーをテストするには、Teams デスクトップアプリや OneDrive for Business 同期クライアントなどの任意のクライアントからサインアウトし、もう一度サインインして、ポリシーが機能していることを確認する必要があります。 アクセスがブロックされている場合は、アイテムが存在しない可能性があるというメッセージが Teams に表示されます。
 
  !["アイテムは見つかりませんでした" というメッセージ。](media/access-denied-sharepoint.png)
 
-Sharepoint では、アクセス拒否メッセージが表示されます。 
+Sharepoint では、アクセス拒否メッセージが表示されます。
 
 ![アクセス拒否メッセージ。](media/blocked-access-warning.png)
 
