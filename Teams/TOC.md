@@ -311,6 +311,7 @@
 ## 通話プラン
 ### [どの通話プランが適していますか?](calling-plan-landing-page.md)
 ### [通話プランを購入する方法](calling-plans-for-office-365.md)
+### [米国とカナダの拡張ダイヤルアウト分数](dial-out-minutes-canada-us.md)
 ### [組織の通話プランをセットアップする](set-up-calling-plans.md)
 ### [クイック スタート ガイド: 通話プランの構成](configuring-teams-calling-quickstartguide.md)
 ### [国および地域ごとの通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -573,13 +574,19 @@
 ## [Skype for Business Online のサポート終了](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## テクニカル ライブラリ
-### [IT 管​​理者向けのアップグレード ガイダンス](upgrade-to-teams-on-prem-overview.md)
-### [Skype for Business の移行と相互運用性](migration-interop-guidance-for-teams-with-skype.md)
-### [Skype for Business と共存する](coexistence-chat-calls-presence.md)
-### [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
+## テクニカル ライブラリ 
+### IT 管​​理者向けのアップグレード ガイダンス
+#### [概要](upgrade-to-teams-on-prem-overview.md)
+#### [アップグレード方法](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [アップグレードの管理ツール](upgrade-to-teams-on-prem-tools.md)
+#### [Skype for Business オンプレミスを使用している組織に関する考慮事項](upgrade-to-teams-on-prem-considerations.md)
+#### [アップグレードを実装する](upgrade-to-teams-on-prem-implement.md)
+#### [Teams と Skype for Business の共存](upgrade-to-teams-on-prem-coexistence.md)
+#### [PSTN に関する考慮事項](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [共存モード - リファレンス](migration-interop-guidance-for-teams-with-skype.md)
+#### [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
 ### [会議優先](meetings-first.md)
 
 

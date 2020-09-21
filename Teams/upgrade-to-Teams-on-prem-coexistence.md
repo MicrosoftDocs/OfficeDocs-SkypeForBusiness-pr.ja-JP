@@ -1,29 +1,29 @@
 ---
-title: Skype for Business オンプレミス展開から Teams へのアップグレード - Microsoft Teams
+title: Microsoft Teams と Skype for Business を共存させる
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Skype for Business から Teams へのアップグレード
+description: Skype for Business から Teams にアップグレードする-共存
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11252c916224393c19ebc11c4c40faceab02342c
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 2c5993611a383ee9b7040dfa4b74dae1b392253f
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940719"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955964"
 ---
 # <a name="coexistence-with-teams-and-skype-for-business"></a>Teams と Skype for Business の共存
 

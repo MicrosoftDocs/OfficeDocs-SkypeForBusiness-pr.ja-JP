@@ -3,7 +3,7 @@ title: Skype for Business オンプレミス展開から Teams へのアップ�
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,18 +12,18 @@ description: Skype for Business から Teams へのアップグレード
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a7071cf6adbfa423e4c0fa12ac21a5bc777268
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 2a6c4fb2e2f6433b21972a3c5e5c324d0c3d78f3
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940690"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955943"
 ---
 # <a name="upgrade-methods-mdash-for-it-administrators"></a>&mdash;IT 管理者向けのアップグレード方法
 
@@ -45,7 +45,7 @@ ms.locfileid: "47940690"
 
 ## <a name="upgrade-methods"></a>アップグレード方法
 
-既存の組織を Skype for Business (オンラインまたはオンプレミス) から Teams にアップグレードするには、重複機能のメソッドと Select capabilities メソッドの2つの方法があります。  この記事では、お客様の組織に適した方式を選択していただく助けとして、両方の方式について概観し、それぞれの長所と短所を説明します。 
+既存の組織を Skype for Business (オンラインまたはオンプレミス) から Teams にアップグレードするには、重複機能のメソッドと Select capabilities メソッドの2つの方法があります。 この記事では、お客様の組織に適した方式を選択していただく助けとして、両方の方式について概観し、それぞれの長所と短所を説明します。 
 
 - [重複機能方式 (アイランド モードを使用)](#overlapping-capabilities-method-using-islands-mode)
 
@@ -78,11 +78,11 @@ ms.locfileid: "47940690"
 - 他のユーザーが Teams を使用している場合、ユーザー A の Teams でのアクティビティに基づくプレゼンスが表示されます。 
 - 他のユーザーが Skype for Business を使用している場合、ユーザー A の Skype for Business でのアクティビティに基づくプレゼンスが表示されます。 
 
-つまり、他のユーザーには、使用しているクライアントによって、ユーザー A の異なるプレゼンス状態が表示される可能性があります。 詳細については、「[プレゼンス](upgrade-to-teams-on-prem-coexistence.md#presence)」を参照してください。
+つまり、他のユーザーには、使用しているクライアントによって、ユーザー A の異なるプレゼンス状態が表示される可能性があります。 詳細については、「 [プレゼンス](upgrade-to-teams-on-prem-coexistence.md#presence)」を参照してください。
 
-ユーザーを TeamsOnly モードにアップグレードする準備ができたら、ユーザーを個別にアップグレードすることも、テナント全体のポリシーを使用してテナント全体を一度にアップグレードすることもできます。 ユーザーが TeamsOnly モードにアップグレードされると、そのユーザーは着信したすべてのチャットと通話を Teams で受け取ります。 (Skype for Business 会議から Teams 会議への移行は、個別のユーザーに TeamsUpgradePolicy を適用した場合にのみトリガーされます。テナント単位に適用してもトリガーされません。 詳細については、「[会議の移行](upgrade-to-teams-on-prem-tools.md#meeting-migration)」を参照してください)。
+ユーザーを TeamsOnly モードにアップグレードする準備ができたら、ユーザーを個別にアップグレードするか、テナント全体のポリシーを使用してテナント全体を一度にアップグレードすることができます。 ユーザーが TeamsOnly モードにアップグレードされると、そのユーザーは着信したすべてのチャットと通話を Teams で受け取ります。 (Skype for Business 会議から Teams 会議への移行は、個別のユーザーに TeamsUpgradePolicy を適用した場合にのみトリガーされます。テナント単位に適用してもトリガーされません。 詳細については、「[会議の移行](upgrade-to-teams-on-prem-tools.md#meeting-migration)」を参照してください)。
 
-ただし、アイランド モードに設定されているアップグレード済みでない受信者の場合、TeamsOnly ユーザーからのチャットと通話は、引き続き Skype for Business クライアントまたは Teams クライアントのいずれでも受信できます。  これは、Teams クライアントでは、"Teams から Teams" の通信と "Teams から Skype for Business" の通信について、たとえ同一のユーザーのものであっても、個別の会話スレッドが維持されることによります。  (「[Teams の会話 - 相互運用スレッドとネイティブ スレッド](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)」を参照してください)。たとえば、アイランド ユーザー A が Teams を使用して TeamsOnly ユーザー B にメッセージを送信するとします。ユーザー B がそのチャットに返信すると、その通信はユーザー A の Teams クライアントに配信されます。 今度は、ユーザー A が自分の Skype for Business クライアントを使用して TeamsOnly ユーザー B にメッセージを送信するとします。ユーザー B は Teams でそのチャットを受信しますが、このメッセージは、もう 1 つの会話と比べて、ユーザー B の Teams クライアントでは別個の会話になります。 ユーザー B がユーザー A とのこの会話に返信すると、その返信はユーザー A の Skype for Business クライアントに配信されます。 
+ただし、アイランド モードに設定されているアップグレード済みでない受信者の場合、TeamsOnly ユーザーからのチャットと通話は、引き続き Skype for Business クライアントまたは Teams クライアントのいずれでも受信できます。  これは、Teams クライアントでは、"Teams から Teams" の通信と "Teams から Skype for Business" の通信について、たとえ同一のユーザーのものであっても、個別の会話スレッドが維持されることによります。  (「[Teams の会話 - 相互運用スレッドとネイティブ スレッド](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)」を参照してください)。たとえば、アイランド ユーザー A が Teams を使用して TeamsOnly ユーザー B にメッセージを送信するとします。ユーザー B がそのチャットに返信すると、その通信はユーザー A の Teams クライアントに配信されます。 ユーザー A が Skype for Business クライアントを使用して、ユーザー B にメッセージを送信することを前提としています。ユーザー B は Teams でチャットを受け取りますが、これは、他の会話と比較して、ユーザー b のチームクライアントで個別の会話となります。 ユーザー B がユーザー A とのこの会話に返信すると、その返信はユーザー A の Skype for Business クライアントに配信されます。 
 
 次の表に、アイランド モードと TeamsOnly モードの両方について Teams エクスペリエンスをまとめて示します。  
 
@@ -97,8 +97,8 @@ ms.locfileid: "47940690"
 
 | メリット     |       デメリット |
 | :------------------ | :---------------- |
-| 組織内での迅速な導入が可能になります。| この 2 つのクライアントの機能は似通っている一方、ユーザー インターフェイスが異なるため、エンド ユーザーが混乱する可能性があります。 また、着信したチャットや通話の配信先クライアントをユーザーは制御できません。 |
-| Skype for Business へアクセスを 100% 維持しつつ、Teams の学習と理解を深めることができます。 | ユーザーが両方のクライアントを実行していない場合、受け取れなかったメッセージが原因でエンド ユーザーが不満に感じる可能性があります。 メッセージが届かないという苦情がユーザーから寄せられる可能性があります。|
+| 組織内での迅速な導入が可能になります。| 類似した機能を持つクライアントが2つあり、ユーザーインターフェイスが異なる場合は、エンドユーザーが混乱する可能性があります。 また、着信したチャットや通話の配信先クライアントをユーザーは制御できません。 |
+| Skype for Business へアクセスを 100% 維持しつつ、Teams の学習と理解を深めることができます。 | ユーザーが両方のクライアントを実行していない場合に、メッセージが見つからないという理由でエンドユーザーの不満が発生する可能性があります。 メッセージが届かないという苦情がユーザーから寄せられる可能性があります。|
 | 最小限の管理作業で Teams の使用を開始できます。 | 組織内のすべてのユーザーが Teams を使用していない場合、特に、すべてのユーザーが Teams でアクティブではない場合は、アイランド モードから TeamsOnly モードに移行するのが困難な場合があります。 たとえば、ユーザーの一部が TeamsOnly モードにアップグレードされると、それらのユーザーは Teams でのみ送信します。 アイランド モードの他のユーザーには、それらのメッセージは常に Teams に配信されます。 しかし、ユーザーの一部が Teams を実行していない場合、それらのメッセージは受け取れていないものとして認識されます。 |
 |  | Teams を使用する場合、Skype for Business Server のオンプレミス アカウントを持つユーザーには、相互運用性やフェデレーションのサポートはありません。  このため、アイランド ユーザーの中に Skype for Business Online に所属しているユーザーと Skype for Business オンプレミスに所属しているユーザーが混在している場合、混乱を生じる可能性があります。   |
 
@@ -106,9 +106,9 @@ ms.locfileid: "47940690"
 
 一部の組織では、組織を Skype for Business から Teams に移行する際に、シンプルで予測がより容易なエクスペリエンスをエンド ユーザーに提供することを優先する場合があります。 このモデルでは、IT 管理者は TeamsUpgradePolicy 内の Skype for Business モードのいずれかを使用して、TeamsOnly モードに移行する前に Skype for Business に残るユーザーを明示的に指定します。 管理者は、選択したユーザーを TeamsOnly モードに移行する準備ができたら、これらのユーザーのモードを TeamsOnly に更新します。 展開が進行するにつれて、Skype for Business から TeamsOnly モードへと徐々にユーザーが移行されます。  この移行中の動作は次のようになります。
 
-- Skype for Business をまだ使用しているユーザーの場合、通信の発信元が相手側ユーザーの Teams クライアントであっても Skype for Business クライアントであっても、着信したすべてのチャットと通話は Skype for Business クライアントで受け取ります。 また、これらの Skype for Business ユーザーに対しては、エンド ユーザーの混乱を防ぎ、適切なルーティングを確保するために、Teams クライアントでの通話とチャットの機能は無効になっています。 
+- Skype for Business をまだ使用しているユーザーの場合、通信の発信元が相手側ユーザーの Teams クライアントであっても Skype for Business クライアントであっても、着信したすべてのチャットと通話は Skype for Business クライアントで受け取ります。 また、これらの Skype for Business ユーザーの場合、Teams クライアントでの通話とチャット機能は無効になり、ユーザーの混乱を防ぎ、適切なルーティングを確実に行うことができます。 
 
-- 通信の発信元が Teams、Skype for Business、またはいかなる種類のフェデレーション ユーザーであった場合も、TeamsOnly モードのユーザーは着信したすべてのチャットと通話を Teams クライアントで受信します。 
+- チーム内のユーザーは、チーム、Skype for Business、または任意のフェデレーションユーザーの通信の種類に関係なく、すべての着信チャットと通話をチームクライアントで受信します。 
 
 孤島メソッドとは異なり、select capabilities メソッドでは、Skype for Business のユーザーとチームが互いに連絡を取ることができます。 Skype for Business ユーザーと Teams ユーザーの間の通信は、相互運用性と呼ばれます。 相互運用通信は、Skype for Business のユーザーと Teams 内の別のユーザーとの間でチャットや通話を行うために、1対1の通信として使用できます。ただし、一部の高度な機能は利用できない場合があります。 (「 [相互運用性](upgrade-to-teams-on-prem-coexistence.md#interoperability)」をご覧ください。)また、招待されたユーザーはいつでも Skype for Business 会議または Teams 会議に参加できます。ただし、会議の種類に対応したクライアントを使用する必要があります。 詳細については、「[会議](upgrade-to-teams-on-prem-coexistence.md#meetings)」を参照してください。
 
@@ -130,7 +130,7 @@ ms.locfileid: "47940690"
 | メリット     |       デメリット |
 | :------------------ | :---------------- |
 | エンド ユーザーにとって予測可能なルーティングです。  すべての通話とチャットは、管理者の選択に基づき、Skype for Business または Teams のいずれかに配信されます。  | 相互運用会話では、リッチ テキスト、ファイル共有、画面共有はサポートされていません。  これはオンデマンド会議で回避できますが、同じほどシームレスではありません。  |
-| 各機能は 1 つのクライアントでのみ使用可能であるため、エンド ユーザーの混乱を排除できます。  | 同じ機能セットについて、ユーザーは両方のクライアントを並べて試すことはできません。 これは特に、Skype for Business から Teams への移行をパラダイムの大きな変更であるとユーザーが感じている場合、考慮すべき要素となる可能性があります。 |
+| 特定の機能が1つのクライアントでのみ利用可能であるため、エンドユーザーの混乱を回避します。  | 同じ機能セットについて、ユーザーは両方のクライアントを並べて試すことはできません。 これは特に、Skype for Business から Teams への移行をパラダイムの大きな変更であるとユーザーが感じている場合、考慮すべき要素となる可能性があります。 |
 | Teams の段階的な導入が可能です。  |  | |
 | 管理者は、Skype for Business から Teams への移行を完全に制御できます。 |  | | 
 | 組織を TeamsOnly モードへ完全に移行する準備ができていない場合でも、組織は会議のために Teams を使用できます。 |  | |

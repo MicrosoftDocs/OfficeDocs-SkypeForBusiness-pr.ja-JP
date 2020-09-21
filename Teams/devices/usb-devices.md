@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: ヘッドセット、スピーカーフォン、web カメラ、モニターなどの USB 周辺機器とデバイスは、Microsoft Teams で認定されています。
-ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: 90c97ffb98fafa8908c2e746487d5ffca7412282
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331632"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962918"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams で認定された USB オーディオデバイスおよびビデオデバイス
 
@@ -85,8 +85,6 @@ Teams での通話コントロールのサポートについて詳しくは、�
 |EPOS/Sennheiser      |USB 経由での SC 660 への影響について                |8/20/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |EPOS/Sennheiser      |USB 経由での SC 630 への影響について                |8/20/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |EPOS/Sennheiser      |USB 経由での SC 260 への影響について                |8/20/2020       |Microsoft Teams にアップグレードした Skype for Business      |
-|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Skype for Business の認定                        |
-|ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Skype for Business の認定                        |
 |Jabra evolve                |75ヘッドセットの進化                                          |7/31/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |Jabra evolve                |65ヘッドセットの進化                                          |7/31/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |Jabra evolve                |50のヘッドセットを利用する                                          |7/31/2020       |Microsoft Teams にアップグレードした Skype for Business      |

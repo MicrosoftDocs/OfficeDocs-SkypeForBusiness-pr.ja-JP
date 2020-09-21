@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d471446d4c0c05d0c13fdee81018c6287c7dda47
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7878c6dc4e4b632668a0db298a9dc086cf554429
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583526"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135841"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Microsoft Graph を使用して Teams テンプレートを使ってみる
 
@@ -64,24 +64,25 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 
 ベーステンプレートの種類が定義されると、これらの特殊なテンプレートを追加または上書きして、追加のプロパティを指定することができます。 ただし、一部の基本テンプレートの種類には、オーバーライドできないプロパティが含まれています。
 
-既定では、基本テンプレートは [**標準**] に設定されています。これには、追加の固有のアプリや特別なプロパティは含まれていません。 次に示すのは、使用可能な基本テンプレートの種類の一覧です。
+既定では、基本テンプレートは [ **標準** ] に設定されています。これには、追加の固有のアプリや特別なプロパティは含まれていません。 次に示すのは、使用可能な基本テンプレートの種類の一覧です。
 
 | ベーステンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 追加のアプリとプロパティはありません |
-| Education<br>クラスチーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | アプリ<ul><li>OneNote Class Notebook ( **[全般**] タブに固定されています) </li><li>課題アプリ ( **[全般**] タブに固定されています)</li></ul> チームのプロパティ:<ul><li>チームの表示が**HiddenMembership**に設定されている (上書きできない)</li></ul> |
-| Education<br>スタッフチーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | アプリ<ul><li>OneNote スタッフノートブック ( **[全般**] タブに固定されています)</li></ul> |
-|Education<br>PLC チーム |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | アプリ<ul><li>OneNote PLC ノートブック ( **[全般**] タブに固定されています)</ul></li>|
+| Education<br>クラスチーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | アプリ<ul><li>OneNote Class Notebook ( **[全般** ] タブに固定されています) </li><li>課題アプリ ( **[全般** ] タブに固定されています)</li></ul> チームのプロパティ:<ul><li>チームの表示が **HiddenMembership** に設定されている (上書きできない)</li></ul> |
+| Education<br>スタッフチーム | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | アプリ<ul><li>OneNote スタッフノートブック ( **[全般** ] タブに固定されています)</li></ul> |
+|Education<br>PLC チーム |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | アプリ<ul><li>OneNote PLC ノートブック ( **[全般** ] タブに固定されています)</ul></li>|
 | 向け<br>ストア | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | チャネル<ul><li>シフトハンド</li><li>意欲</li></ul>チームのプロパティ<ul><li>チームの表示がパブリックに設定</li></ul>メンバーの権限<ul><li>メンバーがチャネルを作成、更新、または削除できないようにする</li><li>メンバーがアプリを追加または削除できないようにする</li><li>メンバーがコネクタを作成、更新、または削除できないようにする</li></ul> |
 | 向け<br>上司との共同作業 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | チャネル<ul><li>シフトハンド</li><li>意欲</li></ul>チームのプロパティ:<ul><li>チームの表示はプライベートに設定</li></ul>メンバーの権限:<ul><li>メンバーがチャネルを作成、更新、または削除できないようにする</li><li>メンバーがアプリを追加または削除できないようにする</li><li>メンバーがコネクタを作成、更新、または削除できないようにする</li></ul>|
 | ヘルス<br>ワード |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |チャネル <ul><li>お知らせ\*</li><li>Huddles\*</li><li>切り下げ</li><li>割り当てる\*</li><li>トレーニング\*</li></ul>\*自動お気に入りチャネル |
 |ヘルス<br>病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>Custodial</li><li>人事</li></li><li>薬</li></ul>\*自動お気に入りチャネル|
 |||
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-- [チームを作成する](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)(プレビュー中)
+- [チームを作成する](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (プレビュー中)
 - [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams の管理者トレーニング](itadmin-readiness.md)
 - [小売店向けテンプレートでTeamsを始めましょう](get-started-with-retail-teams-templates.md)
 - [医療関係組織向けテンプレートでTeamsを始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [管理コンソールで Teams のテンプレートを使ってみる](get-started-with-teams-templates-in-the-admin-console.md)

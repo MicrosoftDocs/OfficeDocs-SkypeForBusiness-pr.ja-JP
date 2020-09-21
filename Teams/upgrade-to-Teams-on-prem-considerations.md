@@ -3,7 +3,7 @@ title: Skype for Business オンプレミス展開から Teams へのアップ�
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,18 +12,18 @@ description: Skype for Business から Teams へのアップグレード
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7156c02dff45e170efde9314c15b5688fd43058
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: e16e651004148645789f5e8e55df6fbbfa1dea9c
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940679"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955914"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>&mdash;IT 管理者向けの Skype For Business Server がオンプレミスの組織のアップグレードに関する考慮事項
 
