@@ -1,0 +1,88 @@
+---
+title: Microsoft Teams 管理センターでの Power Platform アプリの管理
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.reviewer: joglocke
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+audience: Admin
+ms.collection:
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+f1.keywords:
+- NOCSH
+localization_priority: Normal
+search.appverid: MET150
+description: Microsoft Teams 管理センターで Power Platform アプリへのアクセスを管理する方法について説明します。
+ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171453"
+---
+# <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="4e7ee-103">Microsoft Teams 管理センターでの Power Platform アプリの管理</span><span class="sxs-lookup"><span data-stu-id="4e7ee-103">Manage Power Platform apps in the Microsoft Teams admin center</span></span>
+
+## <a name="power-platform-apps-in-teams"></a><span data-ttu-id="4e7ee-104">Teams の Power Platform アプリ</span><span class="sxs-lookup"><span data-stu-id="4e7ee-104">Power Platform apps in Teams</span></span>
+
+<span data-ttu-id="4e7ee-105">この記事では、Microsoft Teams 管理センターで Teams に追加された [Power Platform](https://powerplatform.microsoft.com/) アプリを管理する方法の概要について説明します。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-105">This article gives you an overview of how to manage [Power Platform](https://powerplatform.microsoft.com/) apps added to Teams in the Microsoft Teams admin center.</span></span>
+
+<span data-ttu-id="4e7ee-106">[Power Apps](https://powerapps.microsoft.com) は、組織内の開発者が、ビジネスデータに接続するカスタムアプリを構築するために使用できる低コード/コードなしのアプリケーション開発環境です。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-106">[Power Apps](https://powerapps.microsoft.com) is a low-code/no-code application development environment that makers in your organization can use to build custom apps that connect to your business data.</span></span> <span data-ttu-id="4e7ee-107">[Power Virtual agent](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) は、開発者が強力なボットを作成するためのコードなしボット構築環境です。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-107">[Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) is a no-code bot building environment for makers to create powerful bots.</span></span> <span data-ttu-id="4e7ee-108">Power Platform アプリを Teams に統合することで、組織はビジネスプロセスを合理化し、変化するビジネスニーズに迅速に対応してコラボレーションを強化し、ユーザー設定のソリューションを作成および共有して生産性を高めることができます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-108">With the integration of Power Platform apps into Teams, organizations can streamline business processes, respond to changing business needs more rapidly to drive greater collaboration, and create and share custom solutions to be more productive.</span></span>  
+
+<span data-ttu-id="4e7ee-109">組織内のメーカーによって作成された Power Platform アプリは、Teams に自動的に追加されます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-109">Power Platform apps created by makers in your organization are automatically added to Teams.</span></span> <span data-ttu-id="4e7ee-110">メーカーは、 [Power Apps の共有機能](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) と、 [power Virtual agent の共有機能](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)を使用して、アプリにアクセスできるユーザーを制御できます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-110">Makers can control who can access their app by using the [sharing feature in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) and the [sharing feature in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/admin-share-bots).</span></span> 
+
+<span data-ttu-id="4e7ee-111">Power Platform アプリを作成または共有すると、ユーザーは、同僚によって作成された***組織名に合わせ*** て [アプリ] ページで表示およびインストールすることができ  >  **Built by your colleagues**ます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-111">When a Power Platform app is created or shared, users can view and install it on the Apps page by going to **Built for *Your Organization Name*** > **Built by your colleagues**.</span></span> <span data-ttu-id="4e7ee-112">アプリを作成または共有した後で、アプリがここに表示されるまでに数分かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-112">(It might take a few minutes after an app is created or shared for the app to appear here.)</span></span>
+
+:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="同僚が作成した Power Platform アプリが表示されている [アプリ] ページのスクリーンショット":::
+
+<span data-ttu-id="4e7ee-114">アプリが次のいずれかの条件を満たしている場合、ユーザーには、 **同僚が作成** した Power Platform アプリが表示されます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-114">A user will see a Power Platform app in **Built by your colleagues** if the app meets one of the following conditions.</span></span>
+
+|<span data-ttu-id="4e7ee-115">Power Apps</span><span class="sxs-lookup"><span data-stu-id="4e7ee-115">Power Apps</span></span> |<span data-ttu-id="4e7ee-116">Power Virtual Agent</span><span class="sxs-lookup"><span data-stu-id="4e7ee-116">Power Virtual Agents</span></span>  |
+|---------|---------|
+|<ul><li><span data-ttu-id="4e7ee-117">ユーザーがアプリを作成しました。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-117">The user created the app.</span></span></li><li><span data-ttu-id="4e7ee-118">アプリはユーザーと直接共有されました。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-118">The app was shared directly with the user.</span></span></li><li><span data-ttu-id="4e7ee-119">ユーザーが最近アプリを使用しました。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-119">The user recently used the app.</span></span> </li></ul>| <ul><li><span data-ttu-id="4e7ee-120">ユーザーがボットを作成しました。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-120">The user created the bot.</span></span></li><li><span data-ttu-id="4e7ee-121">ボットは、ユーザーが所属するチームによって所有されています。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-121">The bot is owned by a team the user is a member of.</span></span> </li></ul>        |
+
+<span data-ttu-id="4e7ee-122">ユーザーは、他の Teams アプリをインストールする場合と同じ方法で、Power Platform アプリをインストールします。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-122">Users install Power Platform apps in the same way they install any other Teams app.</span></span> <span data-ttu-id="4e7ee-123">ユーザーは、アクセス許可が与えられているコンテキスト (自分が所有するチーム、所属しているチャット、個人のスコープなど) にのみアプリをインストールできることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-123">Keep in mind that users can only install  apps to the context to which they have permissions, for example, a team they own, a chat that they're a part of, or their personal scope.</span></span>
+
+## <a name="manage-access-to-power-platform-apps-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="4e7ee-124">Microsoft Teams 管理センターで Power Platform アプリへのアクセスを管理する</span><span class="sxs-lookup"><span data-stu-id="4e7ee-124">Manage access to Power Platform apps in the Microsoft Teams admin center</span></span>
+
+<span data-ttu-id="4e7ee-125">管理者は、Teams の [アプリ] ページで Power Platform アプリが [ **同僚によって作成** された] のリストに表示されるかどうかを制御できます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-125">As an admin, you can control whether Power Platform apps are listed in **Built by your colleagues** on the Apps page in Teams.</span></span> <span data-ttu-id="4e7ee-126">[ [アプリの管理](manage-apps.md) ] ページの組織レベルで、または [アプリのアクセス許可ポリシー](teams-app-permission-policies.md)を使用する特定のユーザーに対して、Power Apps または power Virtual agent で作成されたすべてのアプリを、一括ブロックまたは許可することができます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-126">You can collectively block or allow all apps created in Power Apps or all apps created in Power Virtual Agents at the org level on the [Manage apps](manage-apps.md) page or for specific users using [app permission policies](teams-app-permission-policies.md).</span></span>
+
+<span data-ttu-id="4e7ee-127">組織のアプリストアで共有されている **Power apps** アプリと **Power Virtual Agent アプリ** アプリは、その特定のプラットフォームで作成されたすべてのアプリを表します。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-127">The **Shared Power Apps** and **Shared Power Virtual Agent Apps** apps in your organization's app store represent all apps created on that particular platform.</span></span> <span data-ttu-id="4e7ee-128">これらのアプリを組織レベルでブロックするか、または特定のユーザーに対してブロックすると、それらのユーザーは、 **同僚によって構築** されているプラットフォームのアプリを表示することはできません。これらのアプリを Teams にインストールすることはできません。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-128">If you block one or both these apps at the org level or for specific users, those users can't see any apps from those platforms in **Built by your colleagues** and can't install them in Teams.</span></span>  
+
+<span data-ttu-id="4e7ee-129">Power Apps と Power Virtual Agent で作成されたすべてのアプリへのアクセスを制御することはできますが、個々のアプリを許可またはブロックすることはできません。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-129">Keep in mind that you can control access to all apps created in Power Apps and Power Virtual Agents but you can't allow or block individual apps.</span></span> <span data-ttu-id="4e7ee-130">メーカーは、Power Apps と Power Virtual Agent 内の共有機能を通じて作成されたアプリにだれがアクセスできるかを決定します。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-130">Makers decide who can access the apps they create through the sharing feature from within Power Apps and Power Virtual Agents.</span></span> <span data-ttu-id="4e7ee-131">メーカーが、Power Virtual Agent でユーザーと共に作成されたアプリを共有している場合、そのユーザーに対して **共有の Power Virtual Agent アプリ** をブロックすると、そのユーザーはチーム内のそのプラットフォームのアプリを表示したりインストールしたりすることはできなくなります。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-131">If a maker shared an app they created in Power Virtual Agents with a user and you blocked **Shared Power Virtual Agents Apps** for that user, the user won't be able to see or install any apps from that platform in Teams.</span></span>
+
+<span data-ttu-id="4e7ee-132">ユーザーが Power Apps または Power Virtual Agent からアプリにアクセスすることを許可されている場合、一方または両方のプラットフォームからユーザーがアプリにアクセスするのをブロックすると、ユーザーは、アプリをブロックする前にインストールした Power App アプリにアクセスして使用することができます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-132">If a user is allowed to access apps from Power Apps or Power Virtual Agents, and you then block the user from accessing apps from one or both these platforms, the user can still access and use the Power Platforms apps that they installed before you blocked the app or apps.</span></span> <span data-ttu-id="4e7ee-133">ただし、ユーザーは、 **同僚によって構築**されたこれらのプラットフォームのアプリを表示したりインストールしたりすることはできなくなります。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-133">However, the user can no longer see or install any apps from those platforms in **Built by your colleagues**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="4e7ee-134">[[アプリの管理](manage-apps.md)] ページの [**カスタムアプリでの操作を許可する**] は、組織内のすべてのユーザーに適用され、ユーザーがカスタムアプリを操作できるかどうかを制御します。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-134">The **Allow interaction with custom apps** org-wide app setting on the [Manage apps](manage-apps.md) page applies to everyone in your organization and governs whether they can interact with custom apps.</span></span> <span data-ttu-id="4e7ee-135">組織全体のアプリの設定では、すべてのユーザーに対する動作が管理され、ユーザーに割り当てられている他のアプリのアクセス許可ポリシーは上書きされます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-135">Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users.</span></span> <span data-ttu-id="4e7ee-136">既定では、この設定はオンになっています。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-136">By default, this setting is turned on.</span></span> <span data-ttu-id="4e7ee-137">この設定を無効にすると、組織のユーザーは、Power Platform アプリなどのカスタムアプリを表示したりインストールしたりすることはできなくなります。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-137">If this setting is turned off, users in your organization can't see or install any custom apps, including Power Platform apps.</span></span> <span data-ttu-id="4e7ee-138">詳細については、「 [組織全体のアプリ設定を管理](manage-apps.md#manage-org-wide-app-settings)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-138">To learn  more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings).</span></span>
+
+### <a name="allow-or-block-power-platform-apps-for-your-organization"></a><span data-ttu-id="4e7ee-139">組織の Power Platform アプリを許可またはブロックする</span><span class="sxs-lookup"><span data-stu-id="4e7ee-139">Allow or block Power Platform apps for your organization</span></span>
+
+<span data-ttu-id="4e7ee-140">既定では、組織内のすべての Teams ユーザーに対して、 **共有の Power Apps** **アプリと共有 power Agent アプリ** が許可されています。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-140">By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** are allowed for all Teams users in your organization.</span></span> <span data-ttu-id="4e7ee-141">Microsoft Teams 管理センターの [ [アプリの管理](manage-apps.md) ] ページでは、組織レベルでそれらのユーザーをブロックまたは許可することができます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-141">You can block or allow them at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.</span></span>  
+
+1. <span data-ttu-id="4e7ee-142">Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**の管理] に移動  >  **Manage apps**します。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-142">In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.</span></span> <span data-ttu-id="4e7ee-143">ページにアクセスするには、グローバル管理者または Teams サービス管理者である必要があります。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-143">You must be a global admin or Teams service admin to access the page.</span></span>
+2. <span data-ttu-id="4e7ee-144">アプリの一覧で、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-144">In the list of apps, do one of the following.</span></span>
+
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="共有の Power Platform アプリが表示された [アプリの管理] ページのスクリーンショット":::
+
+    - <span data-ttu-id="4e7ee-146">組織内のすべてのユーザーに対して、Power Apps または Power Virtual agent で作成されたアプリをブロックするには、 **共有の Power apps** または **共有の Power virtual Agent アプリ**を検索して選択し、[ **ブロック**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-146">To block apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or **Shared Power Virtual Agent Apps**, select it, and then click **Block**.</span></span>
+    - <span data-ttu-id="4e7ee-147">組織内のすべてのユーザーに対して、Power Apps または Power Virtual Agent で作成されたアプリを許可するには、 **共有の Power apps** または **共有の Power virtual Agent アプリ**を検索して選択し、[ **許可**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-147">To allow apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or **Shared Power Virtual Agent Apps**, select it, and then click **Allow**.</span></span>
+
+### <a name="allow-or-block-power-platform-apps-for-specific-users"></a><span data-ttu-id="4e7ee-148">特定のユーザーに対して Power Platform アプリを許可またはブロックする</span><span class="sxs-lookup"><span data-stu-id="4e7ee-148">Allow or block Power Platform apps for specific users</span></span>
+
+<span data-ttu-id="4e7ee-149">組織内の特定のユーザーが、Power Apps または Power Virtual Agent で作成されたアプリにアクセスすることを許可または禁止するには、1つ以上のカスタム [アプリのアクセス許可ポリシー](teams-app-permission-policies.md)を作成して割り当てます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-149">To allow or block specific users in your organization from accessing apps created in Power Apps or Power Virtual Agents, create and assign one or more custom [app permission policies](teams-app-permission-policies.md).</span></span> 
+
+<span data-ttu-id="4e7ee-150">たとえば、特定のユーザーが Power Apps で作成されたアプリにアクセスするのをブロックするには、共有された **Power apps**をブロックするカスタムアプリのアクセス許可ポリシーを作成し、そのユーザーにポリシーを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="4e7ee-150">For example, to block specific users from accessing apps created in Power Apps, create a custom app permission policy to block **Shared Power Apps**, and then assign the policy to those users.</span></span>
+
+:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="共有の Power Apps がブロックされたカスタムアプリのアクセス許可ポリシーの例のスクリーンショット":::
+
+## <a name="related-topics"></a><span data-ttu-id="4e7ee-152">関連項目</span><span class="sxs-lookup"><span data-stu-id="4e7ee-152">Related topics</span></span>
+
+- [<span data-ttu-id="4e7ee-153">Power Apps で canvas アプリを共有する</span><span class="sxs-lookup"><span data-stu-id="4e7ee-153">Share a canvas app in Power Apps</span></span>](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app)
+- [<span data-ttu-id="4e7ee-154">ボットを他のユーザーと共有する</span><span class="sxs-lookup"><span data-stu-id="4e7ee-154">Share your bot with other users</span></span>](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)
+- [<span data-ttu-id="4e7ee-155">Microsoft Teams 管理センターでアプリを管理する</span><span class="sxs-lookup"><span data-stu-id="4e7ee-155">Manage apps in the Microsoft Teams admin center</span></span>](manage-apps.md)
+- [<span data-ttu-id="4e7ee-156">Teams のアプリのアクセス許可ポリシーを管理する</span><span class="sxs-lookup"><span data-stu-id="4e7ee-156">Manage app permission policies in Teams</span></span>](teams-app-permission-policies.md)
+- [<span data-ttu-id="4e7ee-157">Teams アプリ申請 API を通じて送信されたカスタムアプリを公開する</span><span class="sxs-lookup"><span data-stu-id="4e7ee-157">Publish a custom app submitted through the Teams App Submission API</span></span>](submit-approve-custom-apps.md)
