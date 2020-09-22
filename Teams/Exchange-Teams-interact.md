@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 689b2fcad408f0fe18651ada1a5ed03467bea345
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 35c020d981fba9827f10753a04b9b5629a9939df
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255240"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177207"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -37,9 +37,9 @@ Exchange Online または Exchange 専用 vNext でホストされているユ�
 Exchange Online 専用 (レガシ) でホストされているユーザーは、Microsoft 365 または Office 365 上の Azure Active Directory と同期する必要があります。 チームやチャネルの作成およびそれらへの参加、タブ、ボットの追加と構成、チャットや通話機能の利用が可能です。 ただし、プロファイル画像の変更、会議の管理、outlook の連絡先へのアクセス、コネクタの管理はできません。
 
 > [!IMPORTANT]
-> オンプレミスとの統合については、以下の要件を満たすために exchange Server 2016 以降を使用した Exchange の完全な従来のハイブリッド展開をお勧めします。 ハイブリッド展開のセットアップの詳細については、「 [Exchange Server のハイブリッド展開](https://docs.microsoft.com/exchange/exchange-hybrid)」を参照してください。
+> オンプレミスとの統合を実現するには、exchange Server 2016 以降を搭載した Exchange の完全な従来のハイブリッド展開を使用することを強くお勧めします。 モダンなハイブリッドサポートは空き時間情報に制限されています。たとえば、Teams から社内のメールボックスへの予定表の統合は提供されません。 ハイブリッド展開のセットアップの詳細については、「 [Exchange Server のハイブリッド展開](https://docs.microsoft.com/exchange/exchange-hybrid)」を参照してください。
 
-オンプレミスでホストされているメールボックスを使っているユーザーは、Azure Active Directory と同期する必要があります。 上記のシナリオではすべての機能を使用できますが、オンプレミスセクションでホストされている [メールボックスの要件](#requirements-for-mailboxes-hosted-on-premises) について記載されている要件が満たされている場合は、会議を管理することもできます。
+オンプレミスでホストされているメールボックスを使っているユーザーは、Azure Active Directory と同期する必要があります。 上記のシナリオではすべての機能を使用できますが、オンプレミスセクションでホストされている [メールボックスの要件](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) について記載されている要件が満たされている場合は、会議を管理することもできます。
 
 次の表では、Exchange 環境に基づいて、機能の可用性に関する役立つクイック リファレンスをまとめています。
 
@@ -66,7 +66,7 @@ Exchange Online 専用 (レガシ) でホストされているユーザーは、
 
 <sup>7</sup> チームは、テナント管理者によって構成された [web メールボックスのポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定を使用して、ユーザーが自分のプロファイル写真を変更できるかどうかを制御します。 ポリシーで **-setphotoenabled** 設定を無効にした場合、ユーザーはそのプロフィール画像を追加、変更、削除することはできません。 たとえば、ユーザーが組織の IT または人事部門によって承認されたプロファイル画像をアップロードした場合、操作は必要ありません。 ただし、ユーザーが不適切な画像をアップロードした場合は、組織の内部ポリシーに従って変更します。
 
-<sup>8</sup> [メールボックスがオンプレミスでホスト](#requirements-for-mailboxes-hosted-on-premises) されている場合の要件については、以下の要件を満たしている必要があります。
+<sup>8</sup> [メールボックスがオンプレミスでホストされているメールボックスの会議を作成して表示するため](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) の要件を満たしている必要があります。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 
@@ -83,9 +83,9 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 > [!IMPORTANT]
 > ユーザーを **[Teams のみ]** モードにした後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなる場合があります。 プレゼンスは Teams では正常に機能します。 この問題を解決するには、Microsoft Teams の右上隅にあるプロフィール画像を選択し、**[設定]** を選択します。 **[アプリケーション]** の下にある **[一般]** タブの、**[Teams を Office 用のチャット アプリとして登録します (Office アプリケーションを再起動する必要があります)]** を選択します。 このオプションを選択したら、Outlook を含むすべての Office アプリを閉じて、もう一度開きます。 Outlook を開くと、プレゼンス情報が表示されます。
 
-## <a name="requirements-for-mailboxes-hosted-on-premises"></a>オンプレミスでホストされるメールボックスの要件
+## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>オンプレミスでホストされているメールボックスの会議を作成して表示するための要件
 
-オンプレミスの Exchange Server を使用して Teams の会議をスケジュールする機能がユーザーに必要な場合は、次の要件を満たしている必要があります。
+メールボックスがオンプレミスでホストされている場合、会議を作成して表示するには、次の要件を満たす必要があります。
 
 - Azure Active Directory の同期されたユーザーに必要なチームライセンスを割り当てる必要があります。
 
@@ -94,14 +94,11 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 - メールボックスは Exchange Server 2016 累積更新プログラム3以降でホストされています。
 
 - 自動検出と Exchange Web サービスは外部で公開されます。
- 
-> [!NOTE]
-> ユーザーのメールボックスの認証されていない検出を Teams サービスが実行できるようにするには、自動検出 (AutoD) V2 が必要です。 AutoD V2 は、Exchange 2016 CU3 以降で以降でサポートされています。
 
 - OAuth 認証は、完全なハイブリッド構成 (クラシックまたはモダン) を実行している Exchange ハイブリッド構成ウィザードで可能であることが推奨されます。 ハイブリッド構成ウィザードを使用できない場合は、「 [exchange と Exchange Online 組織の間での oauth 認証の構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)」の説明に従って oauth を構成します。
 
-> [!NOTE]
-> Exchange は EvoSTS と呼ばれる Teams サービスからの OAuth トークンを信頼します。 手順1で十分ですが、EvoSTS だけです。ACS は、予定表の空き時間情報を参照するために使用されます。
+ > [!NOTE]
+ > Exchange は EvoSTS と呼ばれる Teams サービスからの OAuth トークンを信頼します。 手順1で十分ですが、EvoSTS だけです。ACS は、予定表の空き時間情報を参照するために使用されます。
 
 - Azure AD Connect の Exchange ハイブリッド展開機能のチェックボックスが設定されています。
 
@@ -109,13 +106,12 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 
 次のユーザーに対して予定表の委任を有効にするには:
 
-
-- 代理人と委任者は両方とも Exchange サーバー上にメールボックスを持っている必要があります。
-
 - また、「 [Skype For Business Online と Exchange Server の間の統合と OAuth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明する手順2-3 を実行する必要があります。これらの手順では、チームのスケジュールアプリケーションに委任権限を確認するために必要な権限が与えられます。
  
-> [!NOTE]
-> 手順2には、委任に必要ないアーカイブアプリケーションの役割の割り当てが含まれています。
+ > [!NOTE]
+ > 手順2には、委任に必要ないアーカイブアプリケーションの役割の割り当てが含まれています。
+
+- 他のユーザーの代わりに会議をスケジュールする場合の、Outlook 用の Teams のスケジュール設定 Exchange 2013 CU19 以降が必要です。 これは、サービスによるメールボックスの認証されていない検出をサポートし、委任者メールボックスに対する代理人のアクセス許可を確認することです。 代理人と委任者の場所は Exchange 2013 以降、または Exchange online ですが、自動検出は Exchange 2013 CU19 以降に解決する必要があります。
 
 ## <a name="additional-considerations"></a>その他の考慮事項
 

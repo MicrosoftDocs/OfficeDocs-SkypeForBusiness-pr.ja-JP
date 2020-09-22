@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dbe4e3ad6f527545fbf691905ce5d70c5b7dbe
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581818"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177399"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -61,6 +61,7 @@ Office 365 には、サードパーティ製のアプリケーションを Share
 |![Polycom RealConnect を示すロゴ](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a> |
 |![Pexip Infinity を示すロゴ](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
 |![BlueJeans Gateway を示すロゴ](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
+|![Cisco CVI を表すロゴ](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Microsoft Teams 向けの Cisco Webex ビデオ統合</a>|
 
 ### <a name="cloud-video-interop-overview"></a>クラウド ビデオ相互運用性の概要
 
@@ -91,7 +92,7 @@ CVI 展開用に選択したパートナーは、組織内で正常に展開す�
 
 ### <a name="provision"></a>プロビジョニング  
 
-プロビジョニング フェーズでは、パートナーから提供された構成ガイドに従って、適切なユーザーにライセンスを割り当てます。 また、パートナーが Teams 環境にアクセスできるようにするには、Azure 同意プロセスも実行する必要があります。 Azure の同意プロセスの詳細については[、Microsoft identity platform エンドポイントの権限と同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)を参照してください。
+プロビジョニング フェーズでは、パートナーから提供された構成ガイドに従って、適切なユーザーにライセンスを割り当てます。 また、パートナーが Teams 環境にアクセスできるようにするには、Azure 同意プロセスも実行する必要があります。 Azure の同意プロセスの詳細については [、Microsoft identity platform エンドポイントの権限と同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) を参照してください。
 
 ### <a name="schedule"></a>スケジュール
 

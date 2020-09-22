@@ -17,17 +17,17 @@ description: コネクタにより、頻繁に使用するサービスからコ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e704dd6a9a796be4f9e361972cd2e6b38e48ce51
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3b7847ce2aba9a155622e83a6c0449cc1b6b1a39
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582474"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177217"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft Teams で Microsoft 365 とカスタムコネクタを使用する
 =======================================================
 
-コネクタは、頻繁に使用されるコンテンツとサービスの更新をチャネルに直接配信することで、チームを最新の状態に維持します。 コネクタを使用すると、Microsoft Teams ユーザーは、Twitter、Trello、Wunderlist、GitHub、Azure DevOps サービスなどの一般的なサービスからの更新情報を、チームのチャットストリームで受け取ることができます。
+コネクタは、頻繁に使用されるコンテンツとサービスの更新をチャネルに直接配信することで、チームを最新の状態に維持します。 コネクタを使用すると、Microsoft Teams ユーザーは、Trello、Wunderlist、GitHub、Azure DevOps サービスなどの一般的なサービスからの更新情報を、チームのチャットストリームで受け取ることができます。
 
 チームの権限が許可されていて、すべてのチームメンバーがそのサービスのアクティビティについて通知する場合は、チームのメンバー全員がそのコネクタを使用して、チームの主要なクラウドサービスに接続できます。 コネクタを最初に設定したメンバーが残っている場合でも、コネクタは引き続き機能します。 権限を持つすべてのチームメンバーは、他のメンバーによるコネクタの設定を変更できます。
 
@@ -36,23 +36,27 @@ Microsoft 365 コネクタは、Microsoft Teams と Microsoft 365 グループ�
 <a name="add-a-connector-to-a-channel"></a>チャネルにコネクタを追加する
 ----------------------------
 
-現時点では、Microsoft Teams のデスクトップと web クライアントを使用してコネクタを追加できます。 ただし、これらのコネクタによって投稿された情報は、mobile を含む**すべてのクライアント**で表示できます。
+現時点では、Microsoft Teams のデスクトップと web クライアントを使用してコネクタを追加できます。 ただし、これらのコネクタによって投稿された情報は、mobile を含む **すべてのクライアント** で表示できます。
 
-1. チャネルにコネクタを追加するには、チャネル名の右にある**省略記号 (...)** をクリックし、[**コネクタ**] をクリックします。
+1. チャネルにコネクタを追加するには、チャネル名の右にある **省略記号 (...)** をクリックし、[ **コネクタ**] をクリックします。
 
-    ![[コネクタ] オプションが選択されている Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    > [!div class="mx-imgBorder"]
+    > ![[コネクタ] オプションが選択されている Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
-2. さまざまなコネクタから選んで、[**追加**] をクリックします。
+2. さまざまなコネクタから選んで、[ **追加**] をクリックします。
 
-    ![使用可能なコネクタが表示されている [コネクタ] ダイアログのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    > [!div class="mx-imgBorder"]
+    > ![使用可能なコネクタが表示されている [コネクタ] ダイアログのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3. 選択したコネクタについて必須情報を入力し、[**保存**] をクリックします。各コネクタは、正常に機能するためにさまざまな必須情報を要求します。一部のコネクタでは、コネクタの構成ページに掲載されるリンクを使用してサービスにサインインする必要があります。
 
-    ![RSS コネクタの [構成] ページのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    > [!div class="mx-imgBorder"]
+    > ![RSS コネクタの [構成] ページのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4. コネクタによって提供されるデータはチャネルに自動的に投稿されます。
 
-    ![チャネル内の会話を示す Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    > [!div class="mx-imgBorder"]
+    > ![チャネル内の会話を示す Teams インターフェイスのスクリーンショット。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>カスタム コネクタを開発する
 ----------------------------

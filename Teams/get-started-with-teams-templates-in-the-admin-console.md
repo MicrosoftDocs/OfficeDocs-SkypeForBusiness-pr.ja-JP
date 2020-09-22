@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135871"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171101"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理コンソールで Teams のテンプレートを使ってみる
 
@@ -74,7 +74,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 | ベーステンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------ |----|----------------------------------------------------- |
 | Office 365 を導入する |`com.microsoft.teams.template.AdoptOffice365`|  チャネル <ul><li>一般</li> <li>お知らせ</li> <li>チャンピオンのコーナー</li> <li>チームフォーム</li></ul> アプリ <ul><li>ウィキ</li>  <li>カレンダー</li> |
-| プロジェクトを管理する |`com.microsoft.teams.template.ManageAnEvent`| チャネル <ul><li>一般</li> <li>お知らせ</li> <li>参照</li> <li>計画</li></ul> アプリ<ul><li>ウィキ</li><li>OneNote</li></ul> |
+| プロジェクトを管理する |`com.microsoft.teams.template.ManageAProject`| チャネル <ul><li>一般</li> <li>お知らせ</li> <li>参照</li> <li>計画</li></ul> アプリ<ul><li>ウィキ</li><li>OneNote</li></ul> |
 | イベントを管理する|`com.microsoft.teams.template.ManageAnEvent` | チャネル <ul><li>一般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ<ul><li>ウィキ</li><li>当</li> <li>YouTube</li> <li>プランナー</li> <li>OneNote</li></ul> |
 |オンボード従業員|`com.microsoft.teams.template.OnboardEmployees` | チャネル <ul><li>一般</li> <li>お知らせ</li> <li>従業員チャット</li> <li>トレーニング</li></ul>アプリ<ul><li>ウィキ</li><li>お気に入り</li></ul>|
 |ヘルプデスクを整理する| `com.microsoft.teams.template.OrganizeHelpDesk`|チャネル<ul><li>一般</li><li>お知らせ</li><li>FAQ</li></ul>アプリ<ul><li>ウィキ</li><li>OneNote</li></ul> |

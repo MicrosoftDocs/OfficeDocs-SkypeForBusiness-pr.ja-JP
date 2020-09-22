@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820331"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177227"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -78,7 +78,7 @@ Windows クライアントは、ユーザーのプロファイルの AppData フ
 ![[Windows セキュリティの重要な警告] ダイアログのスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関するブロック アクションで、teams.exe に関する2 つの着信ルールが作成されます。
+> Windows ファイアウォール構成は、[キャンセル] を選択することによって、プロンプトが閉じられた場合でも変更されます。 teams.exe の受信ルールは、TCP と UDP の両方のプロトコルの Allow アクションを使って作成されます。
 
 ユーザーが Teams から最初の通話を行ったときに、ユーザーがファイアウォールルールを作成することをユーザーに要求しないようにするには、次の [PowerShell スクリプトのサンプル](#sample-powershell-script---inbound-firewall-rule) を使用します。 
 

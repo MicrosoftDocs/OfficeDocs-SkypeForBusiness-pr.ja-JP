@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a7cdac4b64f8a6fb10f3b36544e3361b6c413ad7
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8b72fe7b1f101278d206d49f06203fe9841ba25f
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136087"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171081"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>管理コンソールで Teams リテールテンプレートを使用する
 
@@ -45,7 +45,7 @@ Teams のテンプレートには、小売業者のニーズに合わせて設�
 
 1つの中央のエクスペリエンスで小売従業員をまとめて、タスクの管理、ドキュメントの共有、顧客の問題の解決を行うことができます。 他のアプリケーションを統合して、shift キーを使い始める & プロセスを効率化します。
 
-| ベーステンプレートの種類| | この基本テンプレートに含まれるプロパティ |
+| ベーステンプレートの種類 |baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------|-- |----------------------------------------------------- |
 |ストアを整理する| `retailStore`|チャネル <ul><li>一般<li>シフトハンド</li><li>意欲</li></ul> アプリ <ul><li>ウィキ</li></ul>|
 ||||
@@ -54,8 +54,7 @@ Teams のテンプレートには、小売業者のニーズに合わせて設�
 
 マネージャーコラボレーションテンプレートは、ストアや地域で共同作業するためのチームを作成するのに適しています。たとえば、組織に地域がある場合は、カリフォルニア地域のマネージャーコラボレーションチームを作成し、その地域のすべてのストアマネージャーとその地域の地域マネージャーを含めることができます。
 
-| ベーステンプレートの種類|  | この基本テンプレートに含まれるプロパティ |
+| ベーステンプレートの種類| baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------|- |----------------------------------------------------- |
 |小売課長のコラボレーション|`retailManagerCollaboration` |チャネル <ul><li>一般<li>操作</li><li>意欲</li></ul> アプリ <ul><li>ウィキ</li></ul>|
 ||||
-

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135971"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177407"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -116,7 +116,7 @@ ms.locfileid: "48135971"
 
 ### <a name="allow-meet-now-in-channels"></a>チャネルで "今すぐ会議" を許可する
 
-これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 これをオンにすると、ユーザーが Teams チャネルにメッセージを投稿するときに、ユーザーは作成ボックスの下の [**今すぐ会議**] をクリックして、チャネルでアドホック会議を開始できます。 既定値は True です。
+これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 この機能を有効にすると、ユーザーは [ **会議** ] ボタンをクリックして臨時の会議を開始したり、チャネルで会議のスケジュールを設定したりできます。 既定値は True です。
 
 [![メッセージ ](media/meeting-policies-meet-now.png) の下に [今すぐ会議] アイコンが表示されたスクリーンショット](media/meeting-policies-meet-now.png#lightbox)
 
@@ -407,7 +407,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 ### <a name="allow-chat-in-meetings"></a>会議でチャットを許可する
 
-これは開催者単位のポリシーです。 この設定は、ユーザーの会議で会議チャットを許可するかどうかを制御します。
+これは、参加者ごとの設定です。 この設定は、ユーザーの会議で会議チャットを許可するかどうかを制御します。
 
 <a name="bkparticipantsandguests"> </a>
 

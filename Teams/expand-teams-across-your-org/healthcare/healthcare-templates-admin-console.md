@@ -19,12 +19,12 @@ ms.reviewer: ''
 description: 管理コンソールで Microsoft Teams テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 25d9fb2d59eb272220813de8ae7749f9911b8da6
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136090"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171091"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>管理コンソールで Teams の医療テンプレートを使用する
 
@@ -40,7 +40,6 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
  ワード、ポッド、または部門内での医療通信と共同作業を合理化します。 このテンプレートを使用すると、患者の管理や、補助の運用ニーズを簡単に行うことができます。
 
-
 | ベーステンプレートの種類 |baseTemplateId| この基本テンプレートに含まれるプロパティ |
 | ------------------ |---|----------------------------------------------------- |
 | 治療での共同作業 |`healthcareWard` | チャネル<ul><li>一般</li><li>お知らせ</li><li>Huddles</li><li>切り下げ</li><li>割り当てる</li><li>トレーニング</li></ul> アプリ <ul><li>ウィキ</li>|
@@ -52,7 +51,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 | ベーステンプレートの種類 |baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------|-- |----------------------------------------------------- |
-|病院|` healthcareHospital`|チャネル <ul><li>一般<li>お知らせ</li><li>コンプライアンス</li><li>Custodial</li><li>人事</li><li>薬</li></ul> アプリ <ul><li>ウィキ</li></ul>|
+|病院|`healthcareHospital`|チャネル <ul><li>一般<li>お知らせ</li><li>コンプライアンス</li><li>Custodial</li><li>人事</li><li>薬</li></ul> アプリ <ul><li>ウィキ</li></ul>|
 ||||
 
 ## <a name="related-topics"></a>関連項目

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft では、2020年2月28日に Exchange ユニファイドメッセージング Online (ExchUMO) サービスを廃止しています。 この記事では、影響を受けるお客様がビジネス継続性を計画する際に知っておく必要があることを要約しています。
-ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 5ee0cb6329f03c5306d14603ab9beedfd8ed55da
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359303"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177427"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -129,7 +129,7 @@ Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO および Azure クラウドベースのサービス機能のマトリックス
 
-| サービス | 機能レベル | 機能 | Notes  | クラウド VM/AA  | ExUMO |
+| サービス | 機能レベル | 機能 | メモ  | クラウド VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | /VM  | サービス機能| サードパーティ製 PBX のサポート    | Exchange UM Online からの SIP notify メッセージを使用して、MWI (メッセージ待機インジケーター) などのサードパーティ製 PBX に提供されるすべての機能を含む | ×   | Y    |
 | /VM | サービス機能  | Skype for Business Server をサポートする   |  | Y | Y    |
@@ -158,20 +158,20 @@ Microsoft 365 および Office 365 組織管理者は、Microsoft クラウド�
 | /VM | ユーザー機能 | サポートされる案内応答言語 | 詳細は次のとおりです。 https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | /VM | ユーザー機能 | 通話応答ルール |  | Y | Y    |
 | /VM | ユーザー機能 | 電話での再生 (PSTN)-メッセージを再生する | 音声メッセージを聞くためにセルに電話をかける  | × | Y    |
-| /VM | ユーザー機能 | 電話での再生 (認証)-メッセージを再生する | 認証されたデバイスでの呼び出し  | Y | Y    |
+| /VM | ユーザー機能 | 電話での再生 (認証)-メッセージを再生する | 認証されたデバイスでの呼び出し  | × | Y    |
 | /VM | ユーザー機能 | 複数のユーザー間の共有メールボックス |  | Y | Y    |
 | /VM | 発信者の機能  | 発信者の利便性—保護されたボイスメール | 発信者は、録音済みのメッセージを保護されたものとしてマークするオプションを選択できます。| × | Y    |
 | /VM | 発信者の機能  | 発信者の利便性-プライベートボイスメール | 発信者は、記録されたメッセージを親展としてマークするオプションを選択できます。  | × | Y    |
 | /VM | 発信者の機能  | 無音検出   |  | × | Y    |
 | /VM | テナント-管理機能 | サーバーレベルで保護されたボイスメール    | テナント管理者は、受信ボイスメールを保護としてマークするようにサービスレベルのルールを構成できます。 | Y | Y    |
 | /VM | テナント-管理機能 | レコーディングの時間制限を変更する  |     | Y | Y    |
-| /VM | テナント-管理機能 | 無音検出のタイムアウトを変更する    |  | 該当なし    | Y    |
+| /VM | テナント-管理機能 | 無音検出のタイムアウトを変更する    |  | N/A    | Y    |
 | /VM | テナント-管理機能 | 入力エラーの数を変更する | CVM: 3 にハードコーディングされている | × | Y    |
 | /VM | テナント-管理機能 | 既定の言語を変更する |  | Y | Y    |
 | /VM | テナント-管理機能 | 議事録の無効化/有効化 |  | Y | Y    |
 | /VM | テナント-管理機能 | 不在着信通知を無効または有効にする |  | × | Y    |
 | /VM | テナント-管理機能 | ボイスメールプレビューの改善にご協力ください    |  | Y | Y    |
-| /VM | テナント-管理機能 | 有効なユーザーのテキストメッセージをカスタマイズする|  | 該当なし    | Y    |
+| /VM | テナント-管理機能 | 有効なユーザーのテキストメッセージをカスタマイズする|  | N/A    | Y    |
 | /VM | テナント-管理機能 | 用語のプロファニティマスクの議事録|  | Y | ×    |
 | /VM | テナント-管理機能 | ボイスメールポリシー    |   | Y | Y    |
 | /VM | テナント-管理機能 | Web ポータルの管理   |  | CY19   | Y    |
