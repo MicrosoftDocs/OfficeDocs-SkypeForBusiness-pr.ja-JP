@@ -19,78 +19,81 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87c891d29bcfafa0275f3a500eb8c5db85311a0
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: a0e949b2773baa2cc819629133396020dee7d7d7
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962858"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203950"
 ---
-# <a name="configure-live-event-settings-in-microsoft-teams"></a><span data-ttu-id="c466c-103">Microsoft Teams でライブ イベント設定を構成する</span><span class="sxs-lookup"><span data-stu-id="c466c-103">Configure live event settings in Microsoft Teams</span></span>
+# <a name="configure-live-event-settings-in-microsoft-teams"></a><span data-ttu-id="3ab7d-103">Microsoft Teams でライブ イベント設定を構成する</span><span class="sxs-lookup"><span data-stu-id="3ab7d-103">Configure live event settings in Microsoft Teams</span></span>
 
-<span data-ttu-id="c466c-104">Teams のライブ イベント設定を使用して、組織で保持されているライブ イベントの設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="c466c-104">Use Teams live events settings to configure settings for live events that are held in your organization.</span></span> <span data-ttu-id="c466c-105">サポート URL を設定して、サード パーティ製のビデオ配信プロバイダーを設定できます。</span><span class="sxs-lookup"><span data-stu-id="c466c-105">You can set up a support URL and configure a third-party video distribution provider.</span></span> <span data-ttu-id="c466c-106">この設定は、組織で作成したすべてのライブ イベントに適用します。</span><span class="sxs-lookup"><span data-stu-id="c466c-106">These settings apply to all live events that are created in your organization.</span></span>
+<span data-ttu-id="3ab7d-104">Teams のライブ イベント設定を使用して、組織で保持されているライブ イベントの設定を構成します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-104">Use Teams live events settings to configure settings for live events that are held in your organization.</span></span> <span data-ttu-id="3ab7d-105">サポート URL を設定して、サード パーティ製のビデオ配信プロバイダーを設定できます。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-105">You can set up a support URL and configure a third-party video distribution provider.</span></span> <span data-ttu-id="3ab7d-106">この設定は、組織で作成したすべてのライブ イベントに適用します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-106">These settings apply to all live events that are created in your organization.</span></span>
 
-<span data-ttu-id="c466c-107">Microsoft Teams 管理センターでこの設定を簡単にできます。</span><span class="sxs-lookup"><span data-stu-id="c466c-107">You can easily manage these settings in the Microsoft Teams admin center.</span></span> <span data-ttu-id="c466c-108">左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="c466c-108">In the left navigation, go to **Meetings** > **Live events settings**.</span></span>
+<span data-ttu-id="3ab7d-107">Microsoft Teams 管理センターでこの設定を簡単にできます。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-107">You can easily manage these settings in the Microsoft Teams admin center.</span></span> <span data-ttu-id="3ab7d-108">左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-108">In the left navigation, go to **Meetings** > **Live events settings**.</span></span>
 
-<span data-ttu-id="c466c-109">![Teams ライブイベント設定のスクリーンショット](../media/teams-live-events-settings.png "Microsoft Teams 管理センターで構成できる Teams ライブイベント設定のスクリーンショット")</span><span class="sxs-lookup"><span data-stu-id="c466c-109">![Screen shot of Teams live events settings](../media/teams-live-events-settings.png "Screen shot of Teams live events settings that you can configure in the Microsoft Teams admin center")</span></span>
+<span data-ttu-id="3ab7d-109">![Teams ライブイベント設定のスクリーンショット](../media/teams-live-events-settings.png "Microsoft Teams 管理センターで構成できる Teams ライブイベント設定のスクリーンショット")</span><span class="sxs-lookup"><span data-stu-id="3ab7d-109">![Screen shot of Teams live events settings](../media/teams-live-events-settings.png "Screen shot of Teams live events settings that you can configure in the Microsoft Teams admin center")</span></span>
 
-## <a name="set-up-event-support-url"></a><span data-ttu-id="c466c-110">イベントのサポート URL を設定する</span><span class="sxs-lookup"><span data-stu-id="c466c-110">Set up event support URL</span></span>
+## <a name="set-up-event-support-url"></a><span data-ttu-id="3ab7d-110">イベントのサポート URL を設定する</span><span class="sxs-lookup"><span data-stu-id="3ab7d-110">Set up event support URL</span></span>
 
-<span data-ttu-id="c466c-111">この URL は、ライブ イベントの参加者に表示されます。</span><span class="sxs-lookup"><span data-stu-id="c466c-111">This URL is shown to live event attendees.</span></span> <span data-ttu-id="c466c-112">ライブ イベント中にサポートへの連絡方法を参加者に提供する組織のサポートの URL を追加します。</span><span class="sxs-lookup"><span data-stu-id="c466c-112">Add the support URL for your organization to give attendees a way to contact support during a live event.</span></span>
+<span data-ttu-id="3ab7d-111">この URL は、ライブ イベントの参加者に表示されます。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-111">This URL is shown to live event attendees.</span></span> <span data-ttu-id="3ab7d-112">ライブ イベント中にサポートへの連絡方法を参加者に提供する組織のサポートの URL を追加します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-112">Add the support URL for your organization to give attendees a way to contact support during a live event.</span></span>
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](../media/teams-logo-30x30.png) <span data-ttu-id="c466c-114">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="c466c-114">Using the Microsoft Teams admin center</span></span>
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](../media/teams-logo-30x30.png) <span data-ttu-id="3ab7d-114">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="3ab7d-114">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="c466c-115">左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="c466c-115">In the left navigation, go to **Meetings** > **Live event settings**.</span></span>
-2. <span data-ttu-id="c466c-116">[**サポート URL**] で組織のサポート URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="c466c-116">Under **Support URL**, enter your organization's support URL.</span></span>
+1. <span data-ttu-id="3ab7d-115">左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-115">In the left navigation, go to **Meetings** > **Live event settings**.</span></span>
+2. <span data-ttu-id="3ab7d-116">[**サポート URL**] で組織のサポート URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-116">Under **Support URL**, enter your organization's support URL.</span></span>
 
-    <span data-ttu-id="c466c-117">![管理センターでのライブイベントのサポート URL 設定](../media/teams-live-events-settings-supporturl.png "Teams ライブイベントのサポート URL 設定のスクリーンショット")</span><span class="sxs-lookup"><span data-stu-id="c466c-117">![Support URL setting for live events in the admin center](../media/teams-live-events-settings-supporturl.png "Screen shot of support URL setting for Teams live events")</span></span>
+    <span data-ttu-id="3ab7d-117">![管理センターでのライブイベントのサポート URL 設定](../media/teams-live-events-settings-supporturl.png "Teams ライブイベントのサポート URL 設定のスクリーンショット")</span><span class="sxs-lookup"><span data-stu-id="3ab7d-117">![Support URL setting for live events in the admin center](../media/teams-live-events-settings-supporturl.png "Screen shot of support URL setting for Teams live events")</span></span>
 
-### <a name="using-windows-powershell"></a><span data-ttu-id="c466c-118">Windows PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="c466c-118">Using Windows PowerShell</span></span>
+### <a name="using-windows-powershell"></a><span data-ttu-id="3ab7d-118">Windows PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="3ab7d-118">Using Windows PowerShell</span></span>
 
-<span data-ttu-id="c466c-119">次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="c466c-119">Run the following:</span></span>
+<span data-ttu-id="3ab7d-119">次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-119">Run the following:</span></span>
 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-<span data-ttu-id="c466c-120">詳細については、[CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c466c-120">For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).</span></span>
-## <a name="configure-a-third-party-video-distribution-provider"></a><span data-ttu-id="c466c-121">サード パーティ製のビデオ配信プロバイダーを設定する</span><span class="sxs-lookup"><span data-stu-id="c466c-121">Configure a third-party video distribution provider</span></span> 
+<span data-ttu-id="3ab7d-120">詳細については、[CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-120">For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).</span></span>
+## <a name="configure-a-third-party-video-distribution-provider"></a><span data-ttu-id="3ab7d-121">サード パーティ製のビデオ配信プロバイダーを設定する</span><span class="sxs-lookup"><span data-stu-id="3ab7d-121">Configure a third-party video distribution provider</span></span> 
 
-<span data-ttu-id="c466c-122">Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネットワーク (SDN) ソリューションまたはエンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを購入してセット アップした場合は、Teams でライブ イベント プロバイダーを構成します。</span><span class="sxs-lookup"><span data-stu-id="c466c-122">If you purchased and set up a software defined network (SDN) solution or enterprise content delivery network (eCDN) solution through a Microsoft video delivery partner, configure the provider for live events in Teams.</span></span> 
+<span data-ttu-id="3ab7d-122">Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネットワーク (SDN) ソリューションまたはエンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを購入してセット アップした場合は、Teams でライブ イベント プロバイダーを構成します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-122">If you purchased and set up a software defined network (SDN) solution or enterprise content delivery network (eCDN) solution through a Microsoft video delivery partner, configure the provider for live events in Teams.</span></span> 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](../media/teams-logo-30x30.png) <span data-ttu-id="c466c-124">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="c466c-124">Using the Microsoft Teams admin center</span></span>
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](../media/teams-logo-30x30.png) <span data-ttu-id="3ab7d-124">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="3ab7d-124">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="c466c-125">左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="c466c-125">In the left navigation, go to **Meetings** > **Live event settings**.</span></span>
-2. <span data-ttu-id="c466c-126">[**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。</span><span class="sxs-lookup"><span data-stu-id="c466c-126">Under **Third-party video distribution providers**, complete the following:</span></span> 
+1. <span data-ttu-id="3ab7d-125">左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-125">In the left navigation, go to **Meetings** > **Live event settings**.</span></span>
+2. <span data-ttu-id="3ab7d-126">[**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-126">Under **Third-party video distribution providers**, complete the following:</span></span> 
 
-    <span data-ttu-id="c466c-127">![管理センターでのサードパーティのビデオ配布プロバイダの設定](../media/teams-live-events-settings-distribution-provider.png "ライブイベントのサードパーティのビデオ配布プロバイダー設定のスクリーンショット")</span><span class="sxs-lookup"><span data-stu-id="c466c-127">![Third-party video distribution provider settings in the admin center](../media/teams-live-events-settings-distribution-provider.png "Screen shot of the third-party video distribution provider settings for live events")</span></span>
+    <span data-ttu-id="3ab7d-127">![管理センターでのサードパーティのビデオ配布プロバイダの設定](../media/teams-live-events-settings-distribution-provider.png "ライブイベントのサードパーティのビデオ配布プロバイダー設定のスクリーンショット")</span><span class="sxs-lookup"><span data-stu-id="3ab7d-127">![Third-party video distribution provider settings in the admin center](../media/teams-live-events-settings-distribution-provider.png "Screen shot of the third-party video distribution provider settings for live events")</span></span>
 
-    - <span data-ttu-id="c466c-128">**サード パーティ製配信プロバイダーを使用する** これを選択してサード パーティ製ビデオ配信プロバイダーを有効にします。</span><span class="sxs-lookup"><span data-stu-id="c466c-128">**Use a third-party distribution provider** Turn this on to enable the third-party video distribution provider.</span></span>
-    - <span data-ttu-id="c466c-129">**SDN プロバイダー名** お使いのプロバイダーを選択します。</span><span class="sxs-lookup"><span data-stu-id="c466c-129">**SDN provider name** Choose the provider you're using.</span></span>
-    - <span data-ttu-id="c466c-130">**プロバイダー ライセンス キー** プロバイダーの連絡先から取得したライセンス ID を入力します。</span><span class="sxs-lookup"><span data-stu-id="c466c-130">**Provider license key** Enter the license ID that you got from your provider contact.</span></span>
-    - <span data-ttu-id="c466c-131">**SDN API テンプレート URL** プロバイダーの連絡先から取得した API のテンプレート URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="c466c-131">**SDN API template URL** Enter the API template URL that you got from your provider contact.</span></span>
+    - <span data-ttu-id="3ab7d-128">**サード パーティ製配信プロバイダーを使用する** これを選択してサード パーティ製ビデオ配信プロバイダーを有効にします。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-128">**Use a third-party distribution provider** Turn this on to enable the third-party video distribution provider.</span></span>
+    - <span data-ttu-id="3ab7d-129">**SDN プロバイダー名** お使いのプロバイダーを選択します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-129">**SDN provider name** Choose the provider you're using.</span></span>
+    - <span data-ttu-id="3ab7d-130">**プロバイダー ライセンス キー** プロバイダーの連絡先から取得したライセンス ID を入力します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-130">**Provider license key** Enter the license ID that you got from your provider contact.</span></span>
+    - <span data-ttu-id="3ab7d-131">**SDN API テンプレート URL** プロバイダーの連絡先から取得した API のテンプレート URL を入力します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-131">**SDN API template URL** Enter the API template URL that you got from your provider contact.</span></span>
 
-### <a name="using-windows-powershell"></a><span data-ttu-id="c466c-132">Windows PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="c466c-132">Using Windows PowerShell</span></span>
-<span data-ttu-id="c466c-133">プロバイダーの連絡先からのライセンス ID または API トークンと API テンプレートを取得し、お使いのプロバイダーに合わせて次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="c466c-133">Get the license ID or API token and API template from your provider contact, and then run one of the following, depending on the provider you're using:</span></span>
+### <a name="using-windows-powershell"></a><span data-ttu-id="3ab7d-132">Windows PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="3ab7d-132">Using Windows PowerShell</span></span>
+<span data-ttu-id="3ab7d-133">プロバイダーの連絡先からのライセンス ID または API トークンと API テンプレートを取得し、お使いのプロバイダーに合わせて次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-133">Get the license ID or API token and API template from your provider contact, and then run one of the following, depending on the provider you're using:</span></span>
 
-<span data-ttu-id="c466c-134">**Hive**</span><span class="sxs-lookup"><span data-stu-id="c466c-134">**Hive**</span></span> 
+<span data-ttu-id="3ab7d-134">**Hive**</span><span class="sxs-lookup"><span data-stu-id="3ab7d-134">**Hive**</span></span> 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
-<span data-ttu-id="c466c-135">**Kollective**</span><span class="sxs-lookup"><span data-stu-id="c466c-135">**Kollective**</span></span> 
+<span data-ttu-id="3ab7d-135">**Kollective**</span><span class="sxs-lookup"><span data-stu-id="3ab7d-135">**Kollective**</span></span> 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
-<span data-ttu-id="c466c-136">**Riverbed**</span><span class="sxs-lookup"><span data-stu-id="c466c-136">**Riverbed**</span></span> 
+<span data-ttu-id="3ab7d-136">**Riverbed**</span><span class="sxs-lookup"><span data-stu-id="3ab7d-136">**Riverbed**</span></span> 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
 
-<span data-ttu-id="c466c-137">詳細については、[CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c466c-137">For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).</span></span>
+<span data-ttu-id="3ab7d-137">詳細については、[CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-137">For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c466c-138">外部アプリまたはデバイスを使ってライブイベントを作成する予定の場合は、 [Microsoft Stream を使用して eCDN プロバイダーを構成](https://docs.microsoft.com/stream/network-caching)する必要もあります。</span><span class="sxs-lookup"><span data-stu-id="c466c-138">If you plan to create live events using an external app or device, you'll also need to [configure your eCDN provider with Microsoft Stream](https://docs.microsoft.com/stream/network-caching).</span></span> 
+> <span data-ttu-id="3ab7d-138">外部アプリまたはデバイスを使ってライブイベントを作成する予定の場合は、 [Microsoft Stream を使用して eCDN プロバイダーを構成](https://docs.microsoft.com/stream/network-caching)する必要もあります。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-138">If you plan to create live events using an external app or device, you'll also need to [configure your eCDN provider with Microsoft Stream](https://docs.microsoft.com/stream/network-caching).</span></span> 
 
-### <a name="related-topics"></a><span data-ttu-id="c466c-139">関連項目</span><span class="sxs-lookup"><span data-stu-id="c466c-139">Related topics</span></span>
-- [<span data-ttu-id="c466c-140">Teams のライブ イベントについて</span><span class="sxs-lookup"><span data-stu-id="c466c-140">What are Teams live events?</span></span>](what-are-teams-live-events.md)
-- [<span data-ttu-id="c466c-141">Teams のライブ イベントの計画</span><span class="sxs-lookup"><span data-stu-id="c466c-141">Plan for Teams live events</span></span>](plan-for-teams-live-events.md)
-- [<span data-ttu-id="c466c-142">Teams のライブ イベントをセットアップする</span><span class="sxs-lookup"><span data-stu-id="c466c-142">Set up for Teams live events</span></span>](set-up-for-teams-live-events.md)
+>[!Note]
+> <span data-ttu-id="3ab7d-139">[会議の記録用](../tmr-meeting-recording-change.md)に Microsoft Stream を使用して OneDrive for Business と SharePoint を使用するように変更した場合は、段階的なアプローチとなります。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-139">The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach.</span></span> <span data-ttu-id="3ab7d-140">起動時には、この機能を有効にすることができます。11月2021以降、Stream の使用を継続する場合は、すべてのユーザーが OneDrive for Business と SharePoint を使用して新しい会議のレコーディングを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3ab7d-140">At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.</span></span>
+
+### <a name="related-topics"></a><span data-ttu-id="3ab7d-141">関連項目</span><span class="sxs-lookup"><span data-stu-id="3ab7d-141">Related topics</span></span>
+- [<span data-ttu-id="3ab7d-142">Teams のライブ イベントについて</span><span class="sxs-lookup"><span data-stu-id="3ab7d-142">What are Teams live events?</span></span>](what-are-teams-live-events.md)
+- [<span data-ttu-id="3ab7d-143">Teams のライブ イベントの計画</span><span class="sxs-lookup"><span data-stu-id="3ab7d-143">Plan for Teams live events</span></span>](plan-for-teams-live-events.md)
+- [<span data-ttu-id="3ab7d-144">Teams のライブ イベントをセットアップする</span><span class="sxs-lookup"><span data-stu-id="3ab7d-144">Set up for Teams live events</span></span>](set-up-for-teams-live-events.md)
