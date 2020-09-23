@@ -23,13 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
+ROBOTS: NOINDEX, NOFOLLOW
 description: クラウド自動応答の概要と、その使用方法について説明します。発信者がメニューシステムを移動して、ユーザーや部署への通話の検索、配置、転送を実行できるようにする方法について説明します。
-ms.openlocfilehash: 88b1a67c1438efb5ef1113999feeffd9735f293f
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: c4bfbd8e56a64105fe1ee00409cf016976c8bb81
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672838"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48209496"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>クラウドの自動応答とは
 
@@ -240,7 +241,7 @@ ms.locfileid: "46672838"
 > [!NOTE]
 > 米国外の場合は、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。 その方法については [、「組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) する」を参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 

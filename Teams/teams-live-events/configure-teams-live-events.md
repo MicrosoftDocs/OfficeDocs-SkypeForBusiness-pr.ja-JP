@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87c891d29bcfafa0275f3a500eb8c5db85311a0
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: a0e949b2773baa2cc819629133396020dee7d7d7
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962858"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203950"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -89,6 +89,9 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 
 > [!NOTE]
 > 外部アプリまたはデバイスを使ってライブイベントを作成する予定の場合は、 [Microsoft Stream を使用して eCDN プロバイダーを構成](https://docs.microsoft.com/stream/network-caching)する必要もあります。 
+
+>[!Note]
+> [会議の記録用](../tmr-meeting-recording-change.md)に Microsoft Stream を使用して OneDrive for Business と SharePoint を使用するように変更した場合は、段階的なアプローチとなります。 起動時には、この機能を有効にすることができます。11月2021以降、Stream の使用を継続する場合は、すべてのユーザーが OneDrive for Business と SharePoint を使用して新しい会議のレコーディングを使用する必要があります。
 
 ### <a name="related-topics"></a>関連項目
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)

@@ -1,5 +1,5 @@
 ---
-title: PSTN ゲートウェイ設定エキスパンダー
+title: PSTN ゲートウェイ設定の展開
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,21 +8,21 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PstnGatewaySettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: PSTN (公衆交換電話網) ゲートウェイの設定を編集または変更するには、次のフィールドを変更します。
-ms.openlocfilehash: 1fa72dfc91f75994be4afadfea1d6f526af5607f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 10669d4355acc8d2ea1a8546275116660c1ac7a7
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819419"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216588"
 ---
-# <a name="pstn-gateway-settings-expander"></a>PSTN ゲートウェイ設定エキスパンダー
+# <a name="pstn-gateway-settings-expander"></a>PSTN ゲートウェイ設定の展開
  
 PSTN (公衆交換電話網) ゲートウェイの設定を編集または変更するには、次のフィールドを変更します。
   
@@ -32,6 +32,6 @@ SIP トランスポート プロトコルは、伝送制御プロトコル (TCP)
   
 ゲートウェイで IPv4 および IPv6 を有効にするかどうかを選択します。
   
-**代替メディアの ip アドレス**は、展開された PSTN ゲートウェイが、既定で構成されている ip アドレス (通常は SIP トラフィック専用) とは異なる ip アドレスを持つ仲介サーバーの定義です。 このパラメーターを定義すると、PSTN ゲートウェイで、異なるネットワーク インターフェイス、つまりメディアのパスがサポートされます。 このアドレスを空白にすると、PSTN ゲートウェイではメディアの代替パスはサポートされません。
+**代替メディア IP アドレス**は、展開されている PSTN ゲートウェイがメディア トラフィック用に、通常は SIP トラフィック専用の既定の構成済みの IP アドレスである、異なる IP アドレスを持っている仲介サーバー用の定義です。このパラメーターを定義すると、PSTN ゲートウェイで、異なるネットワーク インターフェイス、つまりメディアのパスがサポートされます。このアドレスを空白にすると、PSTN ゲートウェイではメディアの代替パスはサポートされません。
   
 

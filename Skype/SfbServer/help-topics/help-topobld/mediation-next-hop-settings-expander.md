@@ -8,24 +8,24 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
-description: 定義済みの Enterprise Edition のフロントエンドプールまたは標準エディションのフロントエンドサーバーをドロップダウンリストから選ぶことにより、仲介サーバープールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクタープールが、仲介サーバープールまたは仲介サーバーの次ホップの有効な選択ではないため、一覧に表示されません。 [OK] をクリックして、変更を承諾して保存します。 変更を破棄してプロパティ ページを終了するには、[キャンセル] をクリックします。
-ms.openlocfilehash: 3e43838e2857f1a284156909204504ee8e7b110c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ドロップダウン リストから定義済みの Enterprise Edition フロント エンド プールまたは Standard Edition フロント エンド サーバーを選択して、仲介サーバー プールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクター プールは仲介サーバー プールまたは仲介サーバー次ホップの有効な選択肢ではないため、一覧には表示されません。 [OK] をクリックして変更を受け入れ、保存します。 変更を破棄してプロパティ ページを終了するには、[キャンセル] をクリックします。
+ms.openlocfilehash: 051da6720724ceb4194c27cbd30cb043d6820ca0
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819629"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215298"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>仲介の次ホップ設定エキスパンダー
  
-定義済みの Enterprise Edition のフロントエンドプールまたは標準エディションのフロントエンドサーバーをドロップダウンリストから選ぶことにより、仲介サーバープールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクタープールが、仲介サーバープールまたは仲介サーバーの次ホップの有効な選択ではないため、一覧に表示されません。 [ **OK]** をクリックして、変更を承諾して保存します。 変更を破棄してプロパティ ページを終了するには、[**キャンセル**] をクリックします。
+ドロップダウン リストから定義済みの Enterprise Edition フロント エンド プールまたは Standard Edition フロント エンド サーバーを選択して、仲介サーバー プールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクター プールは仲介サーバー プールまたは仲介サーバー次ホップの有効な選択肢ではないため、一覧には表示されません。 [ **OK]** をクリックして変更を受け入れ、保存します。 変更を破棄してプロパティ ページを終了するには、**[キャンセル]** をクリックします。
   
-仲介サーバープールまたは仲介サーバーの設定の詳細については、展開ドキュメントの「 [Skype For Business server 2015 のトポロジビルダーに仲介サーバーを展開する](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)」を参照してください。
+仲介サーバープールまたは仲介サーバーの設定の詳細については、「展開」のドキュメントの「Deployment [Builder In Topology Builder In Skype For Business server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) 」を参照してください。
   
 

@@ -8,19 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FrontEndServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: '[Enterprise Edition フロントエンドのプール] ノードには、このサイトのフロントエンドのプールが一覧表示され、[Standard Edition フロントエンド サーバー] ノードには、このサイトの Standard Edition サーバーが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: a21b1a1e041e33d415ce0fa46f9b0bad4649b466
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 5db7cf65849ad4e1747b0f6eb87fc5750275ea76
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819859"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215368"
 ---
 # <a name="front-end-servers-scope-node"></a>フロントエンド サーバー スコープ ノード
  
@@ -30,9 +30,9 @@ ms.locfileid: "41819859"
     
 また、次の一般的なタスクを実行できます。
   
-- **トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジを定義したり、既存のトポロジを開いたり、現在のトポロジをダウンロードしたり、トポロジのコピーを保存したり、トポロジを公開したり、データベースをインストールしたり、以前のバージョンのコンポーネントをマージしたり、展開を削除したりすることができます。
     
-- **表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。
+- **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     

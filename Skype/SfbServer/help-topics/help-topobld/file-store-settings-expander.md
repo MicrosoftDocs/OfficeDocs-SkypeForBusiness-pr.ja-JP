@@ -8,27 +8,27 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FileStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
-description: 定義済みのファイルストアのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: 5ead5f238d2d36236b97351eea75702a4de8426e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 定義済みのファイル ストアのプロパティを編集するには、以下の操作を行います。
+ms.openlocfilehash: 9d1fac1183f84b7f214606d941693e3f602dad7a
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819929"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215528"
 ---
 # <a name="file-store-settings-expander"></a>ファイル ストア設定の展開
  
-定義済みのファイルストアのプロパティを編集するには、次の操作を行います。
+定義済みのファイル ストアのプロパティを編集するには、以下の操作を行います。
   
-ファイル共有名には、新しい共有の名前を定義できます。 次に、ファイルサーバーの完全修飾ドメイン名 (FQDN) プロパティで指定されたサーバー上に共有を作成する必要があります。
+[ファイル共有名] では、新しい共有の名前を定義できます。その後、[ファイル サーバーの完全修飾ドメイン名 (FQDN)] プロパティで名前を指定したサーバーで共有を作成する必要があります。
   
 > [!NOTE]
-> ファイルサーバーの FQDN プロパティで指定されているサーバーの FQDN を変更することはできません。 ファイルストアのファイル共有を別のサーバー上に配置する必要がある場合は、新しいファイルストアエントリを作成します。 
+> [ファイル サーバーの FQDN] プロパティで指定したサーバーの FQDN は変更できません。別のサーバーにファイル ストアのファイル共有を配置する必要がある場合は、新しいファイル ストア エントリを作成します。 
   
 

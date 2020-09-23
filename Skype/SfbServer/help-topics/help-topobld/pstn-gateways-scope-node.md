@@ -8,31 +8,31 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PstnGatewaysScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: '[PSTN ゲートウェイ] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: 2a95efef9a9e9809b026efca79f13900af7ae7ba
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b3ab796accbf4a51f958c41096c485db8c7c0f58
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819409"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216558"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN ゲートウェイ スコープ ノード
  
 [**PSTN ゲートウェイ**] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。以下のアクションを実行できます。
   
-- **新しい IP/PSTN ゲートウェイ**。トポロジに新しい PSTN ゲートウェイを追加する場合に使用する、[**新しい IP/PSTN ゲートウェイの定義**] ウィザードを起動します。
+- **新しい IP/PSTN ゲートウェイ**。トポロジに新しい PSTN ゲートウェイを追加する際に使用する、[**新しい IP/PSTN ゲートウェイの定義**] ウィザードを起動します。
     
 PSTN ゲートウェイ オプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジを定義したり、既存のトポロジを開いたり、現在のトポロジをダウンロードしたり、トポロジのコピーを保存したり、トポロジを公開したり、データベースをインストールしたり、以前のバージョンのコンポーネントをマージしたり、展開を削除したりすることができます。
     
-- **表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。
+- **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     

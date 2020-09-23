@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171121"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216698"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>管理コンソールで一般的な Teams テンプレートを使用する
 
@@ -39,7 +39,7 @@ Teams テンプレートには、財務ニーズに合わせて設計された�
 
 この記事は、お客様が財務組織全体の複数のチームの計画、展開、管理を担当している場合に適しています。 組織に Teams サービスを既に展開していることを前提としています。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
 
-チームテンプレートの詳細については、「 [チームテンプレートの使用を開始](get-started-with-teams-templates-in-the-admin-console.md)する」を参照してください。
+チームテンプレート全般の詳細については、「 [チームテンプレートの概要](get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
 
 ## <a name="global-crisis-or-event"></a>グローバルな危機またはイベント
 

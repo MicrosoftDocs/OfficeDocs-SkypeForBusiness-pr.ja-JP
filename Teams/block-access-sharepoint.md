@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 特定のユーザーの SharePoint へのアクセスをブロックする方法について説明します。
-ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135931"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203840"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>特定のユーザーの SharePoint へのアクセスをブロックする
 
@@ -40,7 +40,7 @@ Microsoft 365 の SharePoint で、条件付きアクセス (CA) ポリシーを
 
 アクセスがブロックされると、ユーザーにエラーメッセージが表示されます。 アクセスをブロックすると、セキュリティが確保され、安全なデータを保護できます。 アクセスがブロックされると、ユーザーにエラーメッセージが表示されます。
 
-1. SharePoint [管理センター](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)を開きます。
+1. SharePoint 管理センターを開きます。
 
 2. [**ポリシー**  >  **アクセスポリシー**] を展開します。
 

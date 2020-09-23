@@ -16,18 +16,21 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766911"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203970"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
 Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記録して、音声、ビデオ、および画面共有のアクティビティをキャプチャできます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 レコーディングはクラウドで実行され、[Microsoft Stream](https://docs.microsoft.com/stream/) に保存されるため、ユーザーは組織全体で安全にそのレコーディングを共有できます。
 
 関連: [Teams 会議のレコーディングに関するエンド ユーザー向けドキュメント](https://aka.ms/recordmeeting)
+
+>[!Note]
+> [会議の記録用](tmr-meeting-recording-change.md)に Microsoft Stream を使用して OneDrive for Business と SharePoint を使用するように変更した場合は、段階的なアプローチとなります。 起動時には、この機能を有効にすることができます。11月以降、Stream の使用を継続する場合は、すべて2021のお客様に OneDrive for Business と SharePoint の会議のレコーディングを依頼する必要があります。
 
 > [!NOTE]
 > Teams 会議での役割の使用について、およびユーザーの役割を変更する方法については、「 [teams 会議の役割](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。

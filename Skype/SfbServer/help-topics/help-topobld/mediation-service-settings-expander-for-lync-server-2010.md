@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2010 用の仲介サービス設定エキスパンダー
+title: Lync Server 2010 用の仲介サービス設定の展開
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,21 +8,21 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 次のプロパティを定義して、仲介サービスのプロパティを編集します。
-ms.openlocfilehash: d5f46fb269925ace53a317caec4d9b75b3c4bbe4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 51fbd889d7e9d673fb75b1062a70ae55a9f8585c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819569"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215108"
 ---
-# <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用の仲介サービス設定エキスパンダー
+# <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用の仲介サービス設定の展開
  
 次のプロパティを定義して、仲介サービスのプロパティを編集します。
   

@@ -1,5 +1,5 @@
 ---
-title: フロントエンドと監視の関連付け
+title: フロントエンドを監視と関連付ける
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
-description: 各フロントエンドプールと Survivable Branch Appliance には、1つの監視サーバーしか関連付けることができません。 サイトの監視が有効になっている場合、監視サーバーによって、通話の詳細記録 (CDR) と Quality of Experience (QoE) データの収集とレポートが提供されます。
-ms.openlocfilehash: 6773d419fa5f38e7f3f2faada9f1d533493c1133
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: フロント エンド プールと存続可能ブランチ アプライアンスのそれぞれには、監視サーバーを 1 つだけ関連付けることができます。サイトの監視が有効になっている場合、監視サーバーは通話詳細記録 (CDR) データと QoE (Quality of Experience) データの収集と報告を行います。
+ms.openlocfilehash: e40ab549a207a78e11979e84c0da1338f4a72c26
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820389"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216308"
 ---
-# <a name="associate-front-end-with-monitoring"></a>フロントエンドと監視の関連付け
+# <a name="associate-front-end-with-monitoring"></a>フロントエンドを監視と関連付ける
  
-各フロントエンドプールと Survivable Branch Appliance には、1つの監視サーバーしか関連付けることができません。 サイトの監視が有効になっている場合、監視サーバーによって、通話の詳細記録 (CDR) と Quality of Experience (QoE) データの収集とレポートが提供されます。
+フロントエンド プールと存続可能ブランチ アプライアンスのそれぞれには、監視サーバーを 1 つだけ関連付けることができます。サイトの監視が有効になっている場合、監視サーバーは通話詳細記録 (CDR) データと QoE (Quality of Experience) データの収集と報告を行います。
   
-使用頻度が監視サーバーの容量を超えていない場合、サイトのすべてのプールと複数のセントラルサイトのプールは同じ監視サーバーを使用できます。 
+1 つのサイトのすべてのプールと複数のセントラル サイトのプールでは、使用量が監視サーバーの処理能力を超えないのであれば、同じ監視サーバーを使用できます。 
   
 

@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc89e8997f274148411b9606d7ae096536d9f9b
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 90801c09a9dda27923fba49a3e8cbc2ef4f65e4e
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788731"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177347"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の導入方法
 
@@ -44,7 +44,7 @@ Teams の電話会議を展開する前に、次の事項について検討し�
 |確認事項|アクション |
 |------------|-------|
 |自分の国/地域で電話会議が使用できるか?|自分の国/地域で電話会議が使用できるかどうかを調べるには、「[電話会議および通話プランを利用可能な国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。|
-|ユーザーは Teams の電話会議に対応したライセンスを所持しているか?|電話会議のライセンスは、 Microsoft 365 E5 または Office 365 E5 サブスクリプションの一部として入手できます。また、Microsoft 365 Business Standard、E1、または E3 サブスクリプションのアドオン サービスとしても入手できます。 <ul><li>ライセンスを取得して割り当てる場合は、「[Microsoft 365 または Office 365 の電話会議を試用または購入する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)」および「[Microsoft 365 Apps for business　のライセンスを割り当てまたは削除する](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。</li><li> 詳細は、[Microsoft Teamsアドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)をご覧ください。 </li><li>それぞれのプランに含まれているクラウド機能を確認するには、「[プランに応じたライセンス オプション](teams-add-on-licensing/office-365-business-premium.md)」を参照してください。</li></ul>|
+|ユーザーは Teams の電話会議に対応したライセンスを所持しているか?|電話会議のライセンスは、 Microsoft 365 または Office 365 E5 サブスクリプションの一部として入手できます。また、Microsoft 365 Business Standard、E1、または E3 サブスクリプションのアドオン サービスとしても入手できます。 <ul><li>ライセンスを取得して割り当てる場合は、「[Microsoft 365 または Office 365 の電話会議を試用または購入する](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)」および「[Microsoft 365 Apps for business　のライセンスを割り当てまたは削除する](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)」を参照してください。</li><li> 詳細は、[Microsoft Teamsアドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)をご覧ください。 </li><li>それぞれのプランに含まれているクラウド機能を確認するには、「[プランに応じたライセンス オプション](teams-add-on-licensing/office-365-business-premium.md)」を参照してください。</li></ul>|
 |電話会議のライセンスを割り当てたユーザーにコミュニケーション クレジットを購入する必要があるか?|詳細については、「[コミュニケーション クレジットについて](what-are-communications-credits.md)」を参照してから、この後のセクション「[コミュニケーション クレジット](#communications-credits)」を確認してください。|
 |||
 

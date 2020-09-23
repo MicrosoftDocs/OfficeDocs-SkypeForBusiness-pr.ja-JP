@@ -8,31 +8,31 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
-description: 展開の定義に簡単な url を追加するには、新しい単純な URL の URL を指定します。
-ms.openlocfilehash: 66d7599d0686c4c78536f4d166cd2d7b1a60a1dc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 展開の定義に簡単な url を追加するには、新しい簡易 URL の URL を指定します。
+ms.openlocfilehash: 243dae47571286e60deb4ecdfc61beb7f175eb95
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820639"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216388"
 ---
 # <a name="add-simple-url"></a>簡易 URL の追加
  
-展開の定義に簡単な url を追加するには、新しい単純な URL の URL を指定します。 URL の形式は、 _http://\<simple url 型\>です。\<ドメイン名\> _また_は\<http://ドメイン\>/\<名の単純\>な url の種類_。ここでは、単純な url の種類は次のいずれかです。
+展開の定義に簡単な url を追加するには、新しい簡易 URL の URL を指定します。 URL の形式は http://です_ \<simple URL type\> 。 \<domain name\> _ また_は \<domain name\> / \<simple URL type\> http://_ で、簡単な URL の種類は次のいずれかになります。
   
-- 即時
+- 満たせ
     
 - ダイヤルイン
     
 > [!IMPORTANT]
-> 簡単な URL であれば1つのダイヤルで簡単な URL を有効にすることができます。 新しい単純な URL を追加してアクティブな URL にすると、以降のすべての要求に新しい単純な URL を使用するように設定されます。 古い単純 URL がアクティブになったときに行われた会議やその他の要求を処理するには、active URL を無効のままにします。 
+> いつでも、1 つのダイヤルイン簡易 URL と 1 つの会議の簡易 URL をアクティブにすることができます。新しい簡易 URL を追加してアクティブな URL にすると、それ以後の要求すべてで新しい簡易 URL を使用するように設定されます。非アクティブの簡易 URL は残しておき、古い簡易 URL がアクティブであったときに行われた会議および他の要求を処理します。 
   
-単純な URL の追加の詳細については、「 [Skype For Business Server 2015 の単純な url の DNS 要件](../../plan-your-deployment/network-requirements/simple-urls.md)」を参照してください。
+簡単な URL の追加の詳細については、「 [Skype For Business Server 2015 の簡易 url の DNS 要件](../../plan-your-deployment/network-requirements/simple-urls.md)」を参照してください。
   
 

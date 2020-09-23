@@ -17,12 +17,12 @@ description: Teams でイベントのライブをセットアップします。�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 0e2d35152ae8a840a6e0c0943144380e7169fe8b
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820531"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203940"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -79,7 +79,10 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
 1. 組織内のユーザーに対して Microsoft Stream を有効にします。 Stream は、対象となる Microsoft 365 または Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして使用できます。 Stream は Business Essentials プランや Business Premium プランには含まれません。 詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。
 
-      ユーザーが Stream にアクセスできるよう、[ユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)方法をご確認ください。 Stream がそのユーザーに対してブロックされていないことを、[この記事](https://docs.microsoft.com/stream/disable-user-organization)の定義に従って確認します。
+>[!Note]
+> [会議の記録用](../tmr-meeting-recording-change.md)に Microsoft Stream を使用して OneDrive for Business と SharePoint を使用するように変更した場合は、段階的なアプローチとなります。 起動時には、この機能を有効にすることができます。11月2021以降、Stream の使用を継続する場合は、すべてのユーザーが OneDrive for Business と SharePoint を使用して新しい会議のレコーディングを使用する必要があります。
+
+      Learn more about how you can [assign licenses to users](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
 2. Stream で、ユーザーにライブ イベント作成の許可が割り当てられるようにします。 既定では、管理者は外部アプリまたはデバイスでイベントを作成できます。 Stream 管理者は、Stream で[ライブ イベントの作成を許可する他のユーザーを追加](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)できます。  
 

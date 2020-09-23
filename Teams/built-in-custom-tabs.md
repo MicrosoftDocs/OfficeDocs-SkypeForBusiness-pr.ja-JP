@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 組み込みタブやカスタム タブを使用して会話、ファイル、地図などの機能を追加する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581358"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203720"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Microsoft Teams で組み込みタブとカスタム タブを使用する
 ==================================================
@@ -31,6 +31,9 @@ ms.locfileid: "46581358"
 所有者とチーム メンバーは、チャネル、プライベート チャット、およびグループ チャットにタブを追加して、クラウド サービスの統合に役立てることができます。 タブは、ユーザーにとって必要なデータや頻繁に操作するデータへのアクセスと管理を簡単にするために追加できます。 これは、Power BI レポート、ダッシュボード、またはトレーニング ビデオを公開する [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) ビデオ チャネルです。
 
 ![タブにある色々なコンテンツの 3 つのスクリーンショット](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+
+>[!Note]
+> [会議の記録用](tmr-meeting-recording-change.md)に Microsoft Stream を使用して OneDrive for Business と SharePoint を使用するように変更した場合は、段階的なアプローチとなります。 起動時には、この機能を有効にすることができます。11月2021以降、Stream の使用を継続する場合は、すべてのユーザーが OneDrive for Business と SharePoint を使用して新しい会議のレコーディングを使用する必要があります。
 
 ## <a name="work-with-tabs"></a>タブを操作する
 
