@@ -1,5 +1,5 @@
 ---
-title: エッジ コンピューターの NAT IP の追加 (2010)
+title: エッジ コンピューターの NAT IP を追加する (2010)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeMachineNatIpPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 592496a5-4e03-496e-9b54-2ce3e4ce6733
-description: このエッジプールのパブリック IP アドレスがネットワークアドレス変換 (NAT) で変換される場合は、翻訳するパブリック IP アドレスを指定する必要があります。 これは、A/V Edge サービスの外部 IP アドレスである必要があります。
-ms.openlocfilehash: 293bbba7d327ede3216aaf3b73563c2af8fac12b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このエッジ プールのパブリック IP アドレスをネットワーク アドレス変換 (NAT) によって変換する場合は、変換されるパブリック IP アドレスを指定する必要があります。これは、音声ビデオ エッジ サービスの外部 IP アドレスです。
+ms.openlocfilehash: 0c7fc50970e5b0a28de723abae7bad5e08c29722
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821119"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219318"
 ---
-# <a name="add-edge-machine-nat-ip-2010"></a>エッジ コンピューターの NAT IP の追加 (2010)
+# <a name="add-edge-machine-nat-ip-2010"></a>エッジ コンピューターの NAT IP を追加する (2010)
  
-このエッジプールのパブリック IP アドレスがネットワークアドレス変換 (NAT) で変換される場合は、翻訳するパブリック IP アドレスを指定する必要があります。 これは、A/V Edge サービスの外部 IP アドレスである必要があります。
+このエッジ プールのパブリック IP アドレスをネットワーク アドレス変換 (NAT) によって変換する場合は、変換されるパブリック IP アドレスを指定する必要があります。これは、音声ビデオ エッジ サービスの外部 IP アドレスです。
   
-エッジプールで NAT 翻訳を使うかどうかを変更するには、Edge プールの名前を右クリックし、[**プロパティの編集**] をクリックします。
+エッジ プールで NAT 変換を使用するかどうかを変更するには、エッジ プールの名前を右クリックして、[**プロパティの編集**] をクリックします。
   
 

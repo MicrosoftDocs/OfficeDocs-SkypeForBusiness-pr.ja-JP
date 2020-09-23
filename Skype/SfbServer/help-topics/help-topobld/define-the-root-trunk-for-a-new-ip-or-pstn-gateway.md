@@ -1,5 +1,5 @@
 ---
-title: 新しい IP または PSTN ゲートウェイのルート トランクの定義
+title: 新しい IP または PSTN ゲートウェイのルート トランクを定義する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,38 +8,38 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
-description: IP または公衆交換電話網 (PSTN) のルートトランクを定義するには、次のように設定します。
-ms.openlocfilehash: d55edbabb43320215c932041549e7ef6a0aed2b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: IP または公衆交換電話網 (PSTN) 用のルート トランクを定義するには、次の項目を構成します。
+ms.openlocfilehash: 3789024ce5099645eca7c14576b586bc1c349683
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820159"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219078"
 ---
-# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>新しい IP または PSTN ゲートウェイのルート トランクの定義
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>新しい IP または PSTN ゲートウェイのルート トランクを定義する
 
-IP または公衆交換電話網 (PSTN) のルートトランクを定義するには、次のように設定します。
+IP または公衆交換電話網 (PSTN) 用のルート トランクを定義するには、次の項目を構成します。
 
-- **トランク名**: トランクに関連付けられている完全修飾ドメイン名を定義する
+- [**トランク名**]: トランクに関連付けられた完全修飾ドメイン名を定義します。
 
-- **IP/PSTN ゲートウェイのリスニングポート**: このトランクがリッスンするポートを定義する
+- [**IP/PSTN ゲートウェイのリッスン ポート**]: このトランクがリッスンするポートを定義します。
 
-- **SIP トランスポートプロトコル**: トランクの要件に基づいて、 **TCP**または**TLS**のいずれかのリストから選択します。
+- [**SIP 転送プロトコル**]: トランク要件に基づき、リストから **TCP** または **TLS** のどちらかを選択します。
 
-- **関連付けられている仲介サーバー**: 展開で利用可能な仲介サーバーの一覧から選択します。
+- [**関連付けられている仲介サーバー**]: 展開で利用可能な仲介サーバーの一覧から選択します。
 
-- **関連付けられている仲介サーバーのポート**: 選択した仲介サーバーがリッスンしているポートを定義します
+- **関連付けられている仲介サーバーのポート**: 選択した仲介サーバーがリッスンしているポートを定義します。
 
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server 2015 でメディア バイパスを有効にしてトランクを構成する](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[Skype for Business Server 2015 でメディアバイパスを使用してトランクを構成する](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[Skype for Business Server でメディア バイパスを無効にしてトランクを構成する](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[Skype for Business Server 2015 でメディアバイパスを使用せずにトランクを構成する](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
 [SIP トランキングのサポート](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
