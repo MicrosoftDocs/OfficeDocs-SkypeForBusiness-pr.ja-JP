@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820601"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171111"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -87,7 +87,7 @@ Teams の作成方法のチュートリアルついては、「[Create a class t
 ### <a name="2-configure-user-experiences-using-policies"></a>2. ポリシーを使用してユーザー エクスペリエンスを構成する
 
 > [!IMPORTANT]
-> 会議中に学生を保護する方法についての詳細情報は、「[遠隔学習で Teams の会議を使用している間、学生の安全を確保する](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)」を参照してください。 管理職員向けの EDU ポリシーに関する推奨事項の詳細は、[教育用 Teams ポリシーおよびポリシー パッケージ](policy-packages-edu.md)に記載されています。
+> 学生を保護する方法についての詳細は、「[遠隔学習用に Teams を使用して学生の安全を確保する](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)」をご確認ください。 管理職員向けの EDU ポリシーに関する推奨事項の詳細は、[教育用 Teams ポリシーおよびポリシー パッケージ](policy-packages-edu.md)に記載されています。
 
 [Teams ポリシー](teams-policies.md)により、特定のユーザーまたはユーザーのグループが使用できるオプションを制限する機能が提供されています。 ポリシーを適用することにより、プライベート チャット、プライベート通話、会議のスケジュール設定、共有可能なコンテンツの種類などを使用または設定できるユーザーを定義することができます。
 
