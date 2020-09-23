@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 教育機関におけるポリシーや EDU 設定、および Microsoft Teams でポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: 9abf734894e716b6d7840d448cb513d083fe02b3
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868706"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135881"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>境域機関向け Teams ポリシーおよびポリシー パッケージ
 
@@ -147,7 +147,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>学生の安全を確保するために割り当てるべきポリシー
 
-### <a name="meeting-policies"></a>会議ポリシー
+### <a name="meeting-policies-for-students"></a>学生向けの会議ポリシー
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>会議を作成および開始する機能をオフにする
 
@@ -216,7 +216,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="リモート学習における学生教育 (ビデオ オプションと共に表示)。":::
 
-### <a name="live-events-policies"></a>ライブ イベント ポリシー
+### <a name="live-events-policies-for-students"></a>学生向けのライブ イベント ポリシー
 
 #### <a name="turn-off-the-ability-to-create-and-start-live-events"></a>ライブ イベントを作成および開始する機能をオフにする
 
@@ -224,7 +224,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="リモート学習における学生教育 (スケジュール許可オプションを無効にした状態)。":::
 
-### <a name="calling-policies"></a>通話ポリシー
+### <a name="calling-policies-for-students"></a>学生向けの通話ポリシー
 
 #### <a name="turn-off-the-ability-to-make-private-calls"></a>プライベート通話を行う機能を無効にする
 
@@ -232,7 +232,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="リモート学習における学生教育 ([プライベート通話をする] をオフに設定した状態)。":::
 
-### <a name="messaging-policies"></a>メッセージング ポリシー
+### <a name="messaging-policies-for-students"></a>学生向けのメッセージング ポリシー
 
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>送信したメッセージを削除または編集する機能を無効にする
 
@@ -276,7 +276,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 ![リモート学習における学生教育 ([グループ チャットからユーザーを削除する] オプションを [オフ] に設定した状態)。](media/edu-remove-users-from-chat-for-students.png)
 
-### <a name="teams-policies"></a>Teams ポリシー
+### <a name="teams-policies-for-students"></a>学生向けの Teams ポリシー
 
 #### <a name="turn-off-the-ability-to-discover-and-create-private-channels"></a>プライベート チャネルを検出して作成する機能を無効にする
 
@@ -287,7 +287,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 > [!IMPORTANT]
 > また、学生に Microsoft Teams で新しいチームを作成する機能がないことを確認することが必要となる場合があります。 これは実際には M365 グループの設定です。詳細については、「[Microsoft 365 グループを作成できるユーザーを管理する](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)」をお読みください。
 
-### <a name="app-permission-policies"></a>アプリのアクセス許可ポリシー
+### <a name="app-permission-policies-for-students"></a>学生向けのアプリ許可ポリシー
 
 #### <a name="control-whether-students-can-add-apps-within-teams"></a>学生が Teams 内にアプリを追加できるかどうかを制御する
 
@@ -309,7 +309,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 > [!NOTE]
 > 学生向けポリシーの推奨事項には、以下に示す教師向けセクションよりも多くの情報が含まれます。 教育機関独自のポリシーおよび手順に準拠してポリシー設定を行うこともできますが、ここで説明する推奨事項は、学生の安全とセキュリティに関してのみ関連します。
 
-### <a name="meeting-policies"></a>会議ポリシー
+### <a name="meeting-policies-for-educators"></a>教職員向けの会議ポリシー
 
 これらの設定により、教師は会議に対するアクセスを制御できます。
 
