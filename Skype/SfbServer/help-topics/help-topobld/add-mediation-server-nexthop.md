@@ -1,5 +1,5 @@
 ---
-title: 仲介サーバーの次ホップの追加
+title: 仲介サーバーの次ホップを追加する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,22 +8,22 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddMediationServerNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
-description: 定義している仲介サーバーの次ホップを定義するには、次ホッププールのドロップダウンリストから、仲介サーバーの次ホップとして機能する Enterprise Edition server または Standard Edition server を選びます。 [次へ] をクリックして続行します。
-ms.openlocfilehash: 4db480c2f5dbbd064c545d81dee92e96a8385cca
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 定義する仲介サーバーの次ホップを定義するには、[次ホッププール] ドロップダウンリストから、仲介サーバーの次ホップとして機能する Enterprise Edition サーバーまたは Standard Edition サーバーを選択します。 続行するには、[次へ] をクリックします。
+ms.openlocfilehash: d4517030d0f9f6adfc7fc048a4356bbb04be3e17
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820769"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218758"
 ---
-# <a name="add-mediation-server-nexthop"></a>仲介サーバーの次ホップの追加
+# <a name="add-mediation-server-nexthop"></a>仲介サーバーの次ホップを追加する
  
-定義している仲介サーバーの次ホップを定義するには、次ホップ**プール**のドロップダウンリストから、仲介サーバーの次ホップとして機能する Enterprise edition server または Standard Edition server を選びます。 [**次へ**] をクリックして続行します。
+定義する仲介サーバーの次ホップを定義するには、[ **次ホッププール** ] ドロップダウンリストから、仲介サーバーの次ホップとして機能する Enterprise Edition サーバーまたは Standard Edition サーバーを選択します。 [**次へ**] をクリックして続行します。
   
 

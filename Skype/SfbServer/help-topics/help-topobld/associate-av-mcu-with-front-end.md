@@ -1,5 +1,5 @@
 ---
-title: AV MCU とフロントエンドの関連付け
+title: AV MCU をフロントエンドと関連付ける
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateAvMcuWithFrontEndPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
-description: 会議が有効になっているすべての Enterprise Edition のフロントエンドプールには、A/V 会議サービスが含まれているか、スタンドアロンの A/V 会議プールを使用している必要があります。 現在、A/V 会議サービスが含まれている既存の Enterprise Edition のフロントエンドプールは、この新しいスタンドアロンの A/V 会議プールを使用するように選択されている可能性があります。
-ms.openlocfilehash: 3344d256977d1031aa170cc17edec4d9d998e2bf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 会議が有効になっているすべての Enterprise Edition フロントエンド プールで、音声ビデオ会議サービスを併置しているか、スタンドアロンの音声ビデオ会議プールを使用している必要があります。現在音声ビデオ会議サービスを併置している既存の Enterprise Edition フロントエンド プールを選択して、代わりにこの新しいスタンドアロンの音声ビデオ会議プールを使用できます。
+ms.openlocfilehash: b7f3a856096388d03ddf7f1669576eedfabaa718
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820459"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216808"
 ---
-# <a name="associate-av-mcu-with-front-end"></a>AV MCU とフロントエンドの関連付け
+# <a name="associate-av-mcu-with-front-end"></a>AV MCU をフロントエンドと関連付ける
  
-会議が有効になっているすべての Enterprise Edition のフロントエンドプールには、A/V 会議サービスが含まれているか、スタンドアロンの A/V 会議プールを使用している必要があります。 現在、A/V 会議サービスが含まれている既存の Enterprise Edition のフロントエンドプールは、この新しいスタンドアロンの A/V 会議プールを使用するように選択されている可能性があります。
+会議が有効になっているすべての Enterprise Edition フロントエンド プールで、音声ビデオ会議サービスを併置しているか、スタンドアロンの音声ビデオ会議プールを使用している必要があります。現在音声ビデオ会議サービスを併置している既存の Enterprise Edition フロントエンド プールを選択して、代わりにこの新しいスタンドアロンの音声ビデオ会議プールを使用できます。
   
 

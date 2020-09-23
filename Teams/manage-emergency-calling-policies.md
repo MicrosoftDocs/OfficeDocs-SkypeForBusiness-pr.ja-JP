@@ -10,25 +10,28 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
-f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で緊急通話ポリシーを使用して管理する方法について説明します。この方法では、組織内の Teams ユーザーが緊急通報を行ったときの動作を定義します。
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12d2e114a53c47e6c938c6c2cb4bf3cb83c81180
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.custom:
+- seo-marvel-apr2020
+- ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+ms.openlocfilehash: ac2c06e9ba93e650909ee776383f1cebd9da1a9d
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938436"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217668"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ポリシーを管理する
 
-組織で[通話プラン](set-up-calling-plans.md)を使用している場合、または[電話システムダイレクトルーティング](direct-routing-landing-page.md)を展開している場合は、Microsoft teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通報を行ったときの動作を定義できます。 ポリシーを割り当てられたユーザーが緊急サービスを呼び出すときの通知方法と通知方法を設定することができます。 たとえば、ポリシー設定を構成して、組織のセキュリティデスクに自動的に通知し、緊急通話で聞くことができます。  
+組織で [通話プラン](set-up-calling-plans.md) を使用している場合、または [電話システムダイレクトルーティング](direct-routing-landing-page.md)を展開している場合は、Microsoft teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通報を行ったときの動作を定義できます。 ポリシーを割り当てられたユーザーが緊急サービスを呼び出すときの通知方法と通知方法を設定することができます。 たとえば、ポリシー設定を構成して、組織のセキュリティデスクに自動的に通知し、緊急通話で聞くことができます。  
 
-緊急通話のポリシーを管理するに**Voice**  >  は、Microsoft Teams 管理センターのボイス**緊急ポリシー**または Windows PowerShell を使用します。 ポリシーは、ユーザーと[ネットワークサイト](cloud-voice-network-settings.md)に割り当てることができます。
+緊急通話のポリシーを管理するに**Voice**  >  は、Microsoft Teams 管理センターのボイス**緊急ポリシー**または Windows PowerShell を使用します。 ポリシーは、ユーザーと [ネットワークサイト](cloud-voice-network-settings.md)に割り当てることができます。
 
 ユーザーの場合は、グローバル (組織全体の既定) ポリシーを使用するか、カスタムポリシーを作成して割り当てることができます。 カスタムポリシーを作成して割り当てる場合を除き、ユーザーはグローバルポリシーを自動的に取得します。 グローバルポリシーの設定は編集できますが、名前の変更や削除はできないことに注意してください。 ネットワークサイトの場合は、カスタムポリシーを作成して割り当てる必要があります。
 
@@ -41,17 +44,17 @@ ms.locfileid: "44938436"
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **緊急ポリシー**] に移動し、[**通話ポリシー** ] タブをクリックします。
 2. **[追加]** をクリックします。
 3. ポリシーの名前と説明を入力します。
-4. 緊急通報が行われたときに、組織内のユーザーに通知する方法 (通常はセキュリティデスク) を設定します。 これを行うには、[**通知モード**] で、次のいずれかを選択します。
+4. 緊急通報が行われたときに、組織内のユーザーに通知する方法 (通常はセキュリティデスク) を設定します。 これを行うには、[ **通知モード**] で、次のいずれかを選択します。
     - **通知のみ送信**: チームチャットメッセージは、指定したユーザーとグループに送信されます。
     - **Conferenced がミュートになっている**場合: チームチャットメッセージは、指定したユーザーとグループに送信され、発信者と psap 演算子の間の会話に参加することはできますが、参加することはできません。
     - **Conferenced in and is ミュート** **(近**日公開): チームチャットメッセージは指定したユーザーとグループに送信され、ミュートを解除して、発信者と psap 演算子の間の会話に参加することができます。
-5.  Conferenced を選択した**が**、[**緊急通話にダイヤルする番号**] がオンになっている場合は、ユーザーまたはグループの PSTN 電話番号を入力して、通話を発信し、緊急通話に参加することができます。 たとえば、組織のセキュリティデスクの番号を入力すると、緊急通話の発信時に通話を受けられ、通話を聞くことができます。
+5.  Conferenced を選択した **が** 、[ **緊急通話にダイヤルする番号** ] がオンになっている場合は、ユーザーまたはグループの PSTN 電話番号を入力して、通話を発信し、緊急通話に参加することができます。 たとえば、組織のセキュリティデスクの番号を入力すると、緊急通話の発信時に通話を受けられ、通話を聞くことができます。
 6. 緊急通報が行われたときに通知するために、1人以上のユーザーまたはグループ (組織のセキュリティデスクなど) を検索して選択します。  通知は、ユーザー、配布グループ、セキュリティグループのメールアドレスに送信できます。 通知できるユーザーの最大数は50です。
 7. [**適用**] をクリックします。
 
-### <a name="using-powershell"></a>PowerShell を使用する場合
+### <a name="using-powershell"></a>PowerShell の使用
 
-「[新規-CsTeamsEmergencyCallingPolicy」を](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallingpolicy)参照してください。
+「 [新規-CsTeamsEmergencyCallingPolicy」を](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallingpolicy)参照してください。
 
 ## <a name="edit-an-emergency-calling-policy"></a>緊急通話のポリシーを編集する
 
@@ -61,9 +64,9 @@ ms.locfileid: "44938436"
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**ボイス**  >  **緊急ポリシー**] に移動し、[**通話ポリシー** ] タブをクリックします。
 2. ポリシー名の左側をクリックしてポリシーを選び、**[編集]** をクリックします。
-3. 必要な変更を加えて、[**適用**] をクリックします。
+3. 必要な変更を加えて、[ **適用**] をクリックします。
 
-### <a name="using-powershell"></a>PowerShell を使用する場合
+### <a name="using-powershell"></a>PowerShell の使用
 
 「 [Set-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallingpolicy)」を参照してください。
 

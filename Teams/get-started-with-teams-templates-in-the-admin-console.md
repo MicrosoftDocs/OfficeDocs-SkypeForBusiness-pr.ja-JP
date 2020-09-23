@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171101"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218578"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理コンソールで Teams のテンプレートを使ってみる
 
@@ -37,7 +37,7 @@ ms.locfileid: "48171101"
 
 Teams テンプレートは、ビジネスニーズまたはプロジェクトに合わせて設計された、チームの構造の事前定義済みの定義です。 既成のテンプレートを使用するか、独自のテンプレートを作成します。 Teams テンプレートを使用すると、さまざまなトピックのチャネルと豊富なコラボレーションスペースをすばやく作成できます。アプリをプレインストールすることで、ミッションクリティカルなコンテンツやサービスを活用できます。 Teams テンプレートには、組織全体で一貫したチームを簡単に作成できる定義済みのチーム構造が用意されています。 現在、Teams または [Microsoft Graph](get-started-with-teams-templates.md)を使用してテンプレートからチームを作成できます。
 
-この記事では、テンプレートで定義できるプロパティ、基本テンプレートの種類について説明します。また、いくつかのサンプル要求を使って、テンプレートからチームを作成する方法についても説明します。
+この記事では、テンプレートで定義できるプロパティ、基本テンプレートの種類の概要、いくつかのサンプル要求を使用して、テンプレートからチームを作成する方法について説明します。
 
 この記事は、次のような場合に適しています。
 
@@ -88,7 +88,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 |小売課長のコラボレーション| `retailManagerCollaboration` |チャネル <ul><li>一般<li>操作</li><li>意欲</li></ul> アプリ <ul><li>ウィキ</li></ul>|
 ||||
 
-テンプレートカテゴリの詳細については、以下を参照してください。
+テンプレートカテゴリの詳細については、次のカテゴリを参照してください。
 
 - [財務テンプレート](financial-teams-templates-in-the-admin-console.md)
 - [一般的なテンプレート](general-teams-templates-in-the-admin-console.md)

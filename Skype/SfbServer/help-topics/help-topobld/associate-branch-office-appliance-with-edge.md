@@ -1,5 +1,5 @@
 ---
-title: ブランチ オフィス アプライアンスとエッジを関連付ける
+title: ブランチ オフィス アプライアンスとエッジの関連付け
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,25 +8,25 @@ ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
-description: エッジサーバーが展開されており、外部使用のためにメディアサービスを提供する必要がある場合は、ドロップダウンリストで Survivable Branch Appliance または Survivable Branch Server に関連付けるエッジサーバーまたはプールを選択します。 [次へ] をクリックして続行します。
-ms.openlocfilehash: ae187a7a501d2d5e658a4aa0ab95a3d2ce48d79d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: エッジサーバーを展開していて、メディアサービスを外部で使用できるようにする必要がある場合は、ドロップダウンリストで存続可能 Branch Appliance または存続可能ブランチサーバーに関連付けるエッジサーバーまたはプールを選択します。 続行するには、[次へ] をクリックします。
+ms.openlocfilehash: f9a2461c8b45e10f0dfc8d700b4689361699ac1f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820449"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216828"
 ---
-# <a name="associate-branch-office-appliance-with-edge"></a>ブランチ オフィス アプライアンスとエッジを関連付ける
+# <a name="associate-branch-office-appliance-with-edge"></a>ブランチ オフィス アプライアンスとエッジの関連付け
  
-エッジサーバーが展開されており、外部使用のためにメディアサービスを提供する必要がある場合は、ドロップダウンリストで Survivable Branch Appliance または Survivable Branch Server に関連付けるエッジサーバーまたはプールを選択します。 [**次へ**] をクリックして続行します。
+エッジサーバーを展開していて、メディアサービスを外部で使用できるようにする必要がある場合は、ドロップダウンリストで存続可能 Branch Appliance または存続可能ブランチサーバーに関連付けるエッジサーバーまたはプールを選択します。 続行するには、**[次へ]** をクリックします。
   
 > [!NOTE]
-> トポロジでエッジサーバーまたはエッジサーバープールが定義されていない場合は、この手順をスキップできます。 新しいエッジサーバーまたはエッジサーバープールを定義するとき、または Survivable Branch Appliance または Survivable のプロパティページを編集するときに、Survivable Branch Appliance または Survivable Branch Server をエッジサーバーまたはエッジサーバープールに関連付けることができます。トポロジでエッジサーバーまたはエッジサーバープールが定義された後のブランチサーバー。 
+> トポロジでエッジサーバーまたはエッジサーバープールが定義されていない場合は、この手順を省略できます。 新しいエッジサーバーまたはエッジサーバープールを定義するとき、またはトポロジでエッジサーバーまたはエッジサーバープールを定義した後に、存続可能 Branch Appliance または存続可能ブランチサーバーのプロパティページを編集するときに、存続可能 Branch Appliance サーバーまたは存続可能ブランチサーバーをエッジサーバーまたはエッジサーバープールに関連付けることができます。 
   
 

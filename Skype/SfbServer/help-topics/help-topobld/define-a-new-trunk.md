@@ -1,5 +1,5 @@
 ---
-title: 新しいトランクの定義
+title: 新しいトランクを定義する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,38 +8,38 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
-description: 新しいセッション開始プロトコル (SIP) トランクを定義するには、次の情報を指定します。
-ms.openlocfilehash: 9b3d42500c57723b13d9c74668b3c4ad7159301b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 以下の情報を指定することにより、新しいセッション開始プロトコル (SIP) トランクを定義します。
+ms.openlocfilehash: 4addcfbdb854de223f7942f55e2e2180136f9bbc
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820219"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218558"
 ---
-# <a name="define-a-new-trunk"></a>新しいトランクの定義
+# <a name="define-a-new-trunk"></a>新しいトランクを定義する
 
-新しいセッション開始プロトコル (SIP) トランクを定義するには、次の情報を指定します。
+以下の情報を指定することにより、新しいセッション開始プロトコル (SIP) トランクを定義します。
 
-- **トランク名**: このトランクを識別するトポロジの一意の名前
+- [**トランク名**]: トポロジ内でこのトランクを識別する一意の名前。
 
-- **関連付けられている Pstn ゲートウェイ**: 展開済みの pstn ゲートウェイを一覧から選びます。
+- [**PSTN ゲートウェイの関連付け**]: 展開内の展開済みで構成済みの PSTN ゲートウェイをリストから選択します。
 
-- **Ip/pstn ゲートウェイのリスニングポート**: ip PBX または pstn ゲートウェイがリッスンするポート。 展開で構成されている他のすべてのトランクリッスンポートから一意である必要があります
+- [**IP/PSTN ゲートウェイのリッスン ポート**]: IP-PBX または PSTN ゲートウェイがリッスンするポート。展開内で構成されている他のすべてのトランク リッスン ポートと異なるものであることが必要です。
 
-- **SIP トランスポートプロトコル**: TCP または TLS の一覧から選択します。
+- [**SIP 転送プロトコル**]: リストから TCP または TLS を選択します。
 
-- **関連付けられている仲介サーバー**: 展開で展開され構成されている仲介サーバーを一覧から選びます。
+- [**関連付けられている仲介サーバー**]: 展開で展開および構成されている仲介サーバーを一覧から選択します。
 
-- **関連付けられている仲介サーバーポート**: この SIP トランクで使用する仲介サーバーの TCP または TLS ポートの値としてポート値を設定します
+- **関連付けられている仲介サーバーのポート**: この SIP トランクが使用する仲介サーバーの TCP ポート値または TLS ポート値と等しいポート値を設定します。
 
 ## <a name="see-also"></a>関連項目
 
 [Skype for Business Server 2015 の M:N トランク](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[SIP トランキングの実装方法を教えてください。](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[SIP トランキングの実装方法](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)

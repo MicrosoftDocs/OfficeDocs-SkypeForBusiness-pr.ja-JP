@@ -8,19 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: このノードには、このエッジ プールの完全修飾ドメイン名 (FQDN) およびその他の基本設定が表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: d96f3ee328ae60b95ad1bbdca2a9d1b517a5357c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 57f0be0c525dbecf12f786d5863dfc99622bb4d2
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820039"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218198"
 ---
 # <a name="edge-server-scope-node"></a>エッジ サーバー スコープ ノード
  

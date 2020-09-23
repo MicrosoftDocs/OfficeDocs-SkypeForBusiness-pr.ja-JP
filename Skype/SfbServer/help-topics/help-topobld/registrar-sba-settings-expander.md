@@ -8,32 +8,32 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RegistrarSBASettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
-description: 回復性の設定を編集し、次のプロパティを構成します。
-ms.openlocfilehash: b5c5982dc0a49d1d2002465f4f7a2c6381dd5370
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[復元] の設定を編集し、以下のプロパティを構成します。'
+ms.openlocfilehash: 6424b43ea7c56760bb8d58ee35d9804c49c435dd
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819349"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217218"
 ---
 # <a name="registrar-sba-settings-expander"></a>レジストラー SBA 設定エキスパンダー
 
-**回復性**の設定を編集し、次のプロパティを構成します。
+[**復元**] の設定を編集し、以下のプロパティを構成します。
 
-- リストから**関連付けられているユーザーサービスとバックアップレジストラープール**を選択します。
+- 一覧から [**関連付けられているユーザー サービスとバックアップ レジストラー プール**] を選択します。
 
-    必要に応じて、[**自動フェールオーバーと音声のフェールバック**] チェックボックスをオンにします。
+    必要に応じて、[**音声に対する自動フェールオーバーとフェールバック**] チェック ボックスをオンにします。
 
-    **ボイスエラー検出間隔 (sec)** と**ボイスバックの間隔 (秒)** を構成します。 既定では、音声の障害検出と240秒のボイスバックの間隔は120秒です。
+    [**音声のエラー検出間隔 (秒)**] と [**音声のフェールバック間隔 (秒)**] を構成します。既定では、音声エラー検出の間隔は 120 秒、音声フェールバックの間隔は 240 秒です。
 
     > [!CAUTION]
-    > フェールオーバーとフェールバックの間隔に対して定義した秒数は、回復性が期待どおりに動作することを確認するために慎重にテストする必要があります。 間隔を低 (つまり、120秒未満) に設定した場合、またはフェールオーバーとフェールバックがあまりにも設定されていない場合は、実際のフェールオーバーが予期したとおりに機能しないことがあります。
+    > 復元が意図したとおりに動作するように、フェールオーバーおよびフェールバックの間隔に対して定義する秒数を慎重にテストする必要があります。間隔の設定が短すぎる場合 (120 秒未満) またはフェールオーバーとフェールバックの設定の差が小さすぎる場合は、実際のフェールオーバーおよびフェールバックが意図したとおりに動作しない可能性があります。
 
   [**OK**]: ダイアログでの変更を受け入れて確定します。
 
@@ -43,4 +43,4 @@ ms.locfileid: "41819349"
 
 ## <a name="see-also"></a>関連項目
 
-[エンタープライズボイスの回復性の計画](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[エンタープライズ VoIP の復旧の計画](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

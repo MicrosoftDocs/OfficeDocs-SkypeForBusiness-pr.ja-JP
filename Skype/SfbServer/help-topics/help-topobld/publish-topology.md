@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
-description: 発行プロセスを開始すると、[トポロジの発行] ページが表示されます。 続行する前に、一覧表示されているタスクが完了していることを確認してください。 続行する準備ができたら、[次へ] をクリックします。 公開プロセスを終了する必要がある場合は、[キャンセル] をクリックします。
-ms.openlocfilehash: 0fb9e626988ff83b7e01974d4af3201f0b8cff9f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[トポロジの公開] ページは、公開プロセスを開始すると表示されます。 処理を進める前に、一覧表示されるタスクを読んで、それらのタスクが完了していることを確認します。 処理を進める準備ができたら、[次へ] をクリックします。 公開プロセスを終了する必要がある場合は、[キャンセル] をクリックします。'
+ms.openlocfilehash: d8e9244e8259a3966f2dd1ef8200993ee04b2b99
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819359"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217228"
 ---
 # <a name="publish-topology"></a>トポロジの公開
  
-発行プロセスを開始すると、[**トポロジの発行**] ページが表示されます。 続行する前に、一覧表示されているタスクが完了していることを確認してください。 続行する準備ができたら、[**次へ**] をクリックします。 公開プロセスを終了する必要がある場合は、[**キャンセル**] をクリックします。
+**[トポロジの公開]** ページは、公開プロセスを開始すると表示されます。処理を進める前に、一覧表示されるタスクを読んで、それらのタスクが完了していることを確認します。処理を進める準備ができたら、[**次へ**] をクリックします。公開プロセスを終了する必要がある場合は、[**キャンセル**] をクリックします。
   
 

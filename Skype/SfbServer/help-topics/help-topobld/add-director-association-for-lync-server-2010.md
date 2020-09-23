@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddDirectorAssociationPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
-description: ディレクターとディレクターのどちらのプールにも、監視サーバーが関連付けられているかどうかを定義します。 監視サーバーをディレクターまたはディレクタープールに関連付けるには、このチェックボックスをオンにします。
-ms.openlocfilehash: f7d298e18925e373401ed1ae6f005b58b5789cdb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ディレクターまたはディレクタープールに、監視サーバーが関連付けられているかどうかを定義します。 監視サーバーをディレクターまたはディレクタープールと関連付けるには、このチェックボックスをオンにします。
+ms.openlocfilehash: 31eedd38d4ef63019d2e333759ec2195c9e6ebc9
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821239"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217308"
 ---
 # <a name="add-director-association-for-lync-server-2010"></a>Lync Server 2010 のディレクターの関連付けを追加する
  
-ディレクターとディレクターのどちらのプールにも、監視サーバーが関連付けられているかどうかを定義します。 監視サーバーをディレクターまたはディレクタープールに関連付けるには、このチェックボックスをオンにします。
+ディレクターまたはディレクタープールに、監視サーバーが関連付けられているかどうかを定義します。 監視サーバーをディレクターまたはディレクタープールと関連付けるには、このチェックボックスをオンにします。
   
 > [!TIP]
-> 監視サーバーデータベース (および省略可能なインスタンス) をまだ作成していない場合は、このチェックボックスをオンにして監視サーバーをディレクターまたはディレクタープールに関連付けると、後から作成する機会が与えられます。 
+> 監視サーバーデータベース (およびオプションのインスタンス) をまだ作成していない場合は、このチェックボックスをオンにして監視サーバーをディレクターまたはディレクタープールに関連付けると、後で作成する機会が得られます。 
   
 

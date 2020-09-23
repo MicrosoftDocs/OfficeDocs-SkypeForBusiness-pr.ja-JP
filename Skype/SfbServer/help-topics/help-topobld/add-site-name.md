@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddSiteNamePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a996f35-96e0-4370-ac28-869631611e03
-description: 展開で最初のサイトを定義するには、最初のサイトの名前を指定します。 必要に応じて、最初のサイトの説明を指定できます。
-ms.openlocfilehash: 10419d42eeb2e683b20cba1c01ff7947347a6b72
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 展開の最初のサイトを定義するには、その最初のサイトの名前を指定します。必要に応じて、最初のサイトの説明を指定することができます。
+ms.openlocfilehash: 5fd807a641821b62be40a0b7c50848c90c86e778
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820619"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217118"
 ---
 # <a name="add-site-name"></a>サイト名の追加
  
-展開で最初のサイトを定義するには、最初のサイトの名前を指定します。 必要に応じて、最初のサイトの説明を指定できます。
+展開の最初のサイトを定義するには、その最初のサイトの名前を指定します。必要に応じて、最初のサイトの説明を指定することができます。
   
 

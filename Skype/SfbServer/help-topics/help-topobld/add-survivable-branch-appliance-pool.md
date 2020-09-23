@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
-description: Survivable Branch Appliance FQDN を定義するには、[FQDN] テキストボックスに、Survivable Branch Appliance または Survivable Branch Server の完全修飾ドメイン名 (FQDN) を入力します。 [次へ] をクリックして続行します。
-ms.openlocfilehash: 28c7bac72aeb8e89930ad6c3a642363fcebbc384
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 存続可能 Branch Appliance の FQDN を定義するには、[FQDN] テキストボックスに、存続可能 Branch Appliance または存続可能 Branch Server のドメインネームシステム (DNS) で定義されている完全修飾ドメイン名 (FQDN) を入力します。 続行するには、[次へ] をクリックします。
+ms.openlocfilehash: f5654e8713f98f3a5cbbb23fea46651826c2242c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820599"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217098"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>存続可能ブランチ アプライアンス プールの追加
  
-**Survivable Branch APPLIANCE fqdn を定義**するには、[ **fqdn** ] テキストボックスに、Survivable Branch Appliance または Survivable branch Server の完全修飾ドメイン名 (fqdn) を入力します。 [**次へ**] をクリックして続行します。
+**存続可能 Branch appliance の fqdn を定義**するには、[ **fqdn** ] テキストボックスに、存続可能 Branch Appliance または存続可能 Branch Server のドメインネームシステム (DNS) で定義されている完全修飾ドメイン名 (fqdn) を入力します。 続行するには、**[次へ]** をクリックします。
   
 > [!NOTE]
-> 特に指定されていない場合は、Survivable Branch Appliance または Survivable ブランチサーバーの定義は同じ手順となります。 
+> 特に明記されていない限り、存続可能 Branch Appliance または存続可能ブランチサーバーの定義は同じ手順です。 
   
 
