@@ -3,7 +3,7 @@ title: 呼び出しキューを作成する
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: phans, wasseemh
+ms.reviewer: colongma
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -22,406 +22,180 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: このページでは、Microsoft Teams で電話システムをセットアップする方法について説明します。これにより、あいさつメッセージの送信、音楽の保留、リダイレクト、その他の機能を行うことができます。
-ms.openlocfilehash: be43c2dc378b985b63c47b9322b336eeadfeecb6
-ms.sourcegitcommit: 515f6cf7c16c0ab6ea7acbbd59084ac89b57dfb8
+description: Microsoft Teams で通話キューの電話システムをセットアップする方法について説明します。これにより、グリーティングメッセージの送信、音楽の保留、リダイレクト、その他の機能を行うことができます。
+ms.openlocfilehash: 8365761f25ff981cd13770f23a27f4ef8a589b25
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47295291"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48220229"
 ---
-# <a name="create-a-cloud-call-queue"></a><span data-ttu-id="7a2c0-103">クラウドの通話キューを作成する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-103">Create a Cloud call queue</span></span>
+# <a name="create-a-call-queue"></a><span data-ttu-id="1152f-103">呼び出しキューを作成する</span><span class="sxs-lookup"><span data-stu-id="1152f-103">Create a call queue</span></span>
 
-<span data-ttu-id="7a2c0-104">クラウド通話キューでは次の情報を提供できます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-104">Cloud call queues can provide:</span></span>
+<span data-ttu-id="1152f-104">通話キューには、特定の問題や質問について支援できる組織内のユーザーに、発信者をルーティングする方法が用意されています。</span><span class="sxs-lookup"><span data-stu-id="1152f-104">Call queues provide a method of routing callers to people in your organization who can help with with a particular issue or question.</span></span> <span data-ttu-id="1152f-105">通話は、キュー内のユーザー ( *エージェント*と呼ばれます) に一度に1つずつ配布されます。</span><span class="sxs-lookup"><span data-stu-id="1152f-105">Calls are distributed one at a time to the people in the queue (who are known as *agents*).</span></span> 
 
-- <span data-ttu-id="7a2c0-105">あいさつメッセージ。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-105">A greeting message.</span></span>
+<span data-ttu-id="1152f-106">通話キューでは次の情報を提供します。</span><span class="sxs-lookup"><span data-stu-id="1152f-106">Call queues provide:</span></span>
 
-- <span data-ttu-id="7a2c0-106">通話の保留中に再生される保留音。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-106">Music while people are waiting on hold.</span></span>
+- <span data-ttu-id="1152f-107">あいさつメッセージ。</span><span class="sxs-lookup"><span data-stu-id="1152f-107">A greeting message.</span></span>
 
-- <span data-ttu-id="7a2c0-107">メール対応配布リストとセキュリティ グループを使用した、コール エージェントへの通話のリダイレクト。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-107">Redirecting calls to call agents in mail-enabled distribution lists and security groups.</span></span>
+- <span data-ttu-id="1152f-108">通話の保留中に再生される保留音。</span><span class="sxs-lookup"><span data-stu-id="1152f-108">Music while people are waiting on hold.</span></span>
 
-- <span data-ttu-id="7a2c0-108">キューの最大サイズ、タイムアウト、通話処理オプションなどのさまざまなパラメーターを設定します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-108">Setting different parameters such as queue maximum size, timeout, and call handling options.</span></span>
+- <span data-ttu-id="1152f-109">*まず、* ルーティング先 (FIFO) の順に呼び出します。</span><span class="sxs-lookup"><span data-stu-id="1152f-109">Call routing - in *First In, First Out* (FIFO) order - to agents.</span></span>
 
-- <span data-ttu-id="7a2c0-109">発信者が組織のメッセージを残すための共有ボイスメール。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-109">Shared voicemail for callers to leave a message for an organization.</span></span>
+- <span data-ttu-id="1152f-110">キューのオーバーフローとタイムアウトのオプション。</span><span class="sxs-lookup"><span data-stu-id="1152f-110">Handling options for queue overflow and timeout.</span></span>
 
-<span data-ttu-id="7a2c0-110">電話番号を通話キューに直接関連付けないでください。電話番号は [リソースアカウント](manage-resource-accounts.md)に関連付けられています。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-110">You don't directly associate a phone number to a call queue, instead the phone number is associated to a [resource account](manage-resource-accounts.md).</span></span> <span data-ttu-id="7a2c0-111">通話キューには、自動応答の選択によって直接ダイヤルするか、アクセスすることができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-111">A call queue can be dialed directly or accessed by a selection on an auto attendant.</span></span>
+<span data-ttu-id="1152f-111">この記事に記載されている手順を実行する前に、「 [Teams の自動応答と通話キューのプラン](plan-auto-attendant-call-queue.md) 」を参照し、 [作業の開始の手順](plan-auto-attendant-call-queue.md#getting-started) に従っていることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="1152f-111">Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this articles.</span></span>
 
-<span data-ttu-id="7a2c0-112">発信者は、保留中の音楽を聞くことができます。通話は、 *先入れ先出し* (FIFO) の順序で通話エージェントに接続します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-112">The caller hears music while they are on hold, and the call connects to the call agents in *First In, First Out* (FIFO) order.</span></span>
+<span data-ttu-id="1152f-112">通話キューを設定するには、Teams 管理センターで、[ **音声**]、[ **通話キュー**] の順に展開し、[ **追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1152f-112">To set up a call queue, in the Teams admin center, expand **Voice**, click **Call queues**, and then click **Add**.</span></span>
 
-<span data-ttu-id="7a2c0-113">キュー内のすべての通話は、次のいずれかの方法でエージェントに送信されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-113">All calls in the queue are sent to agents by one of the following methods:</span></span>
+## <a name="resource-account-and-language"></a><span data-ttu-id="1152f-113">リソースアカウントと言語</span><span class="sxs-lookup"><span data-stu-id="1152f-113">Resource account and language</span></span>
 
-- <span data-ttu-id="7a2c0-114">アテンダントルーティングを使用すると、キューの最初の呼び出しですべてのエージェントが同時に呼び出されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-114">With attendant routing, the first call in the queue rings all agents at the same time.</span></span>
+![](media/call-queue-name-language.png)
 
-- <span data-ttu-id="7a2c0-115">シリアルルーティングでは、キューにある最初の呼び出しによって、すべてのコールエージェントが1つずつリングされます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-115">With serial routing, the first call in the queue rings all call agents one by one.</span></span>
+1. <span data-ttu-id="1152f-114">通話キューの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="1152f-114">Type a name for the call queue.</span></span> <span data-ttu-id="1152f-115">キューからの着信通話を受信すると、エージェントはこの名前を表示します。</span><span class="sxs-lookup"><span data-stu-id="1152f-115">Agents will see this name when they receive an incoming call from the queue.</span></span>
 
-- <span data-ttu-id="7a2c0-116">アイドル状態のルーティングが最長でアイドル状態になると、アイドル状態になった通話エージェントは、次に使用可能な通話を受け取ります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-116">With longest idle routing, the call agent whose has been idle the longest time receives the next available call.</span></span> <span data-ttu-id="7a2c0-117">アイドル時間は、通話のときに、通話エージェントのプレゼンス状態が [ **利用可能** ] または [ **退席** 中] (10 分未満) に設定されている時間の長さとして定義されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-117">The idle time is defined as the length of time a call agent's presence state is set to **Available** or **Away** (if less than 10 minutes), at the time of the call.</span></span> <span data-ttu-id="7a2c0-118">通話エージェントのプレゼンスが10分以上 **退席** 中の場合は、アイドルタイマーがリセットされます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-118">If a call agent's presence is **Away** for more than 10 minutes, the idle timer resets.</span></span>
+2. <span data-ttu-id="1152f-116">[ **アカウントの追加**] をクリックし、この通話キューで使用するリソースアカウントを検索して、[ **追加**]、[ **追加**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="1152f-116">Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**.</span></span>
 
-- <span data-ttu-id="7a2c0-119">ラウンドロビンでは、着信のルーティングが分散され、各通話エージェントがキューから同じ数の通話を取得できるようになります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-119">With round robin, routing of incoming calls is balanced so that each call agent gets the same number of calls from the queue.</span></span>
+3. <span data-ttu-id="1152f-117">言語を選択します。</span><span class="sxs-lookup"><span data-stu-id="1152f-117">Choose a language.</span></span> <span data-ttu-id="1152f-118">この言語は、システムによって生成される音声プロンプトとボイスメール (有効にしている場合) に使用されます。</span><span class="sxs-lookup"><span data-stu-id="1152f-118">This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).</span></span>
 
-<span data-ttu-id="7a2c0-120">上のいずれかの方法を使用して、エージェントのオプトイン/オプトアウト、プレゼンスベースのルーティング、通話待ち時間、通話タイムアウトオプションなどの通話処理オプションを設定できます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-120">You can set call handling options, such as agent opt-in/opt-out, presence-based routing, call wait time, and call time-out options with any of the above methods.</span></span>
+## <a name="greetings-and--hold-music"></a><span data-ttu-id="1152f-119">グリーティングと音楽の保留</span><span class="sxs-lookup"><span data-stu-id="1152f-119">Greetings and  hold music</span></span>
 
-<span data-ttu-id="7a2c0-121">一度に1つの着信通知 (キューの先頭にある通話用) のみが通話エージェントに送信されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-121">Only one incoming call notification (for the call at the head of the queue) at a time goes to the call agents.</span></span> <span data-ttu-id="7a2c0-122">コール エージェントが通話を受けると、キューにある次の着信がコール エージェントを呼び出します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-122">After a call agent accepts the call, the next incoming call in the queue will start ringing call agents.</span></span>
+<span data-ttu-id="1152f-120">キューに到着したときに応答メッセージを再生するかどうかを指定します。</span><span class="sxs-lookup"><span data-stu-id="1152f-120">Specify if you want to play a greeting to callers when they arrive in the queue.</span></span> <span data-ttu-id="1152f-121">再生する応答メッセージが含まれている MP3、WAV、または WMA ファイルをアップロードする必要があります。</span><span class="sxs-lookup"><span data-stu-id="1152f-121">You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="7a2c0-123">この記事は、Microsoft Teams と Skype for Business Online の両方に適用されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-123">This article applies to both Microsoft Teams and Skype for Business Online.</span></span>
-
-## <a name="step-1--get-started"></a><span data-ttu-id="7a2c0-124">手順 1-はじめに</span><span class="sxs-lookup"><span data-stu-id="7a2c0-124">Step 1 — Get started</span></span>
-
-<span data-ttu-id="7a2c0-125">通話キューを使用する場合は、次の重要な点について留意してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-125">To get started using call queues, it's important to remember a few things:</span></span>
-
-- <span data-ttu-id="7a2c0-126">通話キューには、関連するリソースアカウントが必要です。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-126">A call queue is required to have an associated resource account.</span></span> <span data-ttu-id="7a2c0-127">リソースアカウントの詳細については、「 [チームのリソースアカウントを管理](manage-resource-accounts.md) する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-127">See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.</span></span>
-
-- <span data-ttu-id="7a2c0-128">リソースアカウントに電話番号を割り当てると、無料電話システムの [仮想ユーザーライセンス](teams-add-on-licensing/virtual-user.md)を使用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-128">When you assign a phone number to a resource account, you can now use the cost-free Phone System [Virtual User license](teams-add-on-licensing/virtual-user.md).</span></span> <span data-ttu-id="7a2c0-129">電話システムでは、低コストの自動応答と通話キューサービスを使用するために、組織レベルで電話番号を使うことができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-129">Phone System allows phone numbers at the organizational level for use with low-cost auto attendant and call queue services.</span></span>
-
-  > [!NOTE]
-  > <span data-ttu-id="7a2c0-130">通話キューの直接ルーティングサービス番号は、Microsoft Teams ユーザーとエージェントに対してのみサポートされています。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-130">Direct Routing service numbers for call queues are supported for Microsoft Teams users and agents only.</span></span>
-
-  > [!NOTE]
-  > <span data-ttu-id="7a2c0-131">インターネットに接続している組織内のユーザーに通話をリダイレクトするには、 **電話システム** のライセンスが必要です。また、エンタープライズボイスに対して有効になっているか、Microsoft 365 または Office 365 の通話プランを使用している必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-131">To redirect calls to people in your organization who are online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Microsoft 365 or Office 365 Calling Plans.</span></span> <span data-ttu-id="7a2c0-132">「 [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-132">See [Assign Microsoft Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md).</span></span> <span data-ttu-id="7a2c0-133">エンタープライズ VoIP を有効にするには、Windows PowerShell を使用できます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-133">To enable them for Enterprise Voice, you can use Windows PowerShell.</span></span> <span data-ttu-id="7a2c0-134">たとえば、次のように実行します。「Set-CsUser-identity "Amos 大理石"-EnterpriseVoiceEnabled $true。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-134">For example, run: \`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true.</span></span>
-
-- <span data-ttu-id="7a2c0-135">通話プランの詳細については、「 [電話システムと通話プラン](calling-plan-landing-page.md) 」および「 [Microsoft 365 または Office 365 の通話](calling-plans-for-office-365.md)プラン」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-135">To learn more about Calling Plans, see [Phone System and Calling Plans](calling-plan-landing-page.md) and [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md).</span></span>
-
-- <span data-ttu-id="7a2c0-136">クラウド通話キューを割り当てることができるのは、 **Microsoft Teams 管理センター** で取得した、または別のサービスプロバイダーから転送された有料またはフリーダイヤルのサービス電話番号だけです。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-136">You can only assign Cloud call queues toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider.</span></span> <span data-ttu-id="7a2c0-137">無料サービス番号には、通信クレジットが必要です。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-137">Communications Credits are required for toll-free service numbers.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="7a2c0-138">ユーザー (購読者) の電話番号を通話キューに割り当てることはできません。サービスの有料電話番号または無料電話番号のみを使用できます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-138">User (subscriber) phone numbers can't be assigned to call queues - only service toll or toll-free phone numbers can be used.</span></span>
-
-- <span data-ttu-id="7a2c0-139">クラウドの通話キューに関連付けられた通話エージェントは、次のクライアントでサポートされます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-139">The following clients are supported for call agents associated to a Cloud call queue:</span></span>
-
-  - <span data-ttu-id="7a2c0-140">Skype for Business デスクトップクライアント 2016 (32 ビットバージョンと64ビットバージョン)</span><span class="sxs-lookup"><span data-stu-id="7a2c0-140">Skype for Business desktop client 2016 (32-bit and 64-bit versions)</span></span>
-  - <span data-ttu-id="7a2c0-141">Lync デスクトップクライアント 2013 (32 ビットバージョンと64ビットバージョン)</span><span class="sxs-lookup"><span data-stu-id="7a2c0-141">Lync desktop client 2013 (32-bit and 64-bit versions)</span></span>
-  - <span data-ttu-id="7a2c0-142">Microsoft Teams でサポートされているすべての IP 電話モデル。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-142">All IP phone models supported for Microsoft Teams.</span></span> <span data-ttu-id="7a2c0-143">「 [Skype For Business Online の電話を取得する」を](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-143">See [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).</span></span>
-  - <span data-ttu-id="7a2c0-144">Mac版  Skype for Business クライアント (バージョン 16.8.196 以降)</span><span class="sxs-lookup"><span data-stu-id="7a2c0-144">Mac Skype for Business Client (version 16.8.196 and later)</span></span>
-  - <span data-ttu-id="7a2c0-145">Aandroid Skype for Business クライアント (バージョン 6.16.0.9 以降)</span><span class="sxs-lookup"><span data-stu-id="7a2c0-145">Android Skype for Business Client (version 6.16.0.9 and later)</span></span>
-  - <span data-ttu-id="7a2c0-146">iPhone Skype for Business Client クライアント(バージョン 6.16.0 以降)</span><span class="sxs-lookup"><span data-stu-id="7a2c0-146">iPhone Skype for Business Client (version 6.16.0 and later)</span></span>
-  - <span data-ttu-id="7a2c0-147">Mac版  Skype for Business クライアント (バージョン 6.16.0 以降)</span><span class="sxs-lookup"><span data-stu-id="7a2c0-147">iPad Skype for Business Client (version 6.16.0 and later)</span></span>
-  - <span data-ttu-id="7a2c0-148">Microsoft Teams Windows クライアント (32 ビット版と64ビット版)</span><span class="sxs-lookup"><span data-stu-id="7a2c0-148">Microsoft Teams Windows client (32-bit and 64-bit versions)</span></span>
-  - <span data-ttu-id="7a2c0-149">Microsoft Teams Mac クライアント</span><span class="sxs-lookup"><span data-stu-id="7a2c0-149">Microsoft Teams Mac client</span></span>
-  - <span data-ttu-id="7a2c0-150">Microsoft Teams iPhone アプリ</span><span class="sxs-lookup"><span data-stu-id="7a2c0-150">Microsoft Teams iPhone app</span></span>
-  - <span data-ttu-id="7a2c0-151">Microsoft Teams Android アプリ</span><span class="sxs-lookup"><span data-stu-id="7a2c0-151">Microsoft Teams Android app</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="7a2c0-152">直接ルーティング番号が割り当てられている通話キューは、Skype for Business クライアント、Lync クライアント、または Skype for Business の IP 電話をエージェントとしてサポートしません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-152">Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents.</span></span>
-
-## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a><span data-ttu-id="7a2c0-153">手順 2-有料または無料のサービス電話番号を取得または移行する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-153">Step 2 — Get or transfer toll or toll-free service phone numbers</span></span>
-
-<span data-ttu-id="7a2c0-154">通話キューを作成して設定する前に、既存の有料または無料のサービス番号を取得または移行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-154">Before you can create and set up your call queues, you need to get or transfer your existing toll or toll-free service numbers.</span></span> <span data-ttu-id="7a2c0-155">サービス番号を取得するには、「 [サービスの電話番号を取得](getting-service-phone-numbers.md) する」または「既存のサービス番号を移行する」を参照してください。「 [チームに電話番号を移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-155">To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).</span></span> <span data-ttu-id="7a2c0-156">有料またはフリーダイヤルのサービス電話番号を取得すると、 **Microsoft Teams 管理センター**の  >  **ボイス**  >  **電話番号**に表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-156">After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**.</span></span> <span data-ttu-id="7a2c0-157">無料電話番号には、無料の電話 **番号** が付い **ています**。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-157">Toll free numbers will be listed with a **Number type** of **Service — Toll-Free**.</span></span>
+<span data-ttu-id="1152f-122">チームは、保留中の発信者に既定の音楽を提供します。</span><span class="sxs-lookup"><span data-stu-id="1152f-122">Teams provides default music to callers while they are on hold.</span></span> <span data-ttu-id="1152f-123">特定のオーディオファイルを再生する場合は、[ **オーディオファイルの再生** ] を選択し、MP3、WAV、または WMA ファイルをアップロードします。</span><span class="sxs-lookup"><span data-stu-id="1152f-123">If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7a2c0-158">米国外の場合は、Microsoft Teams 管理センターを使用してサービス番号を取得することはできません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-158">If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers.</span></span> <span data-ttu-id="7a2c0-159">「 [組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) する」に移動して、米国以外の地域での実行方法を確認します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-159">Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.</span></span>
+> <span data-ttu-id="1152f-124">アップロードされたレコーディングのサイズは、5 MB 以下でなければなりません。</span><span class="sxs-lookup"><span data-stu-id="1152f-124">The uploaded recording can be no larger than 5 MB..</span></span>
 
-<span data-ttu-id="7a2c0-160">複数の自動応答を設定する場合、通常は、メインの自動応答のリソースアカウントに電話番号を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-160">When you set up multiple auto attendants, you would usually assign a phone number to the main auto attendant's resource account.</span></span> <span data-ttu-id="7a2c0-161">入れ子になった自動応答または通話キューに関連付けられているリソースアカウントには、電話番号は必要ありません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-161">Resource accounts associated to nested auto attendants or call queues often don't need phone numbers.</span></span> <span data-ttu-id="7a2c0-162">この自動応答では、電話番号がない場合でも、通話キューまたはネストされた自動応答に発信者を誘導することができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-162">That auto attendant can direct callers to your call queues or nested auto attendants even if they don't have a phone number.</span></span> <span data-ttu-id="7a2c0-163">このような場合は、ダイヤルパッドオプションを割り当てずに、システムですべての自動応答と通話キューを作成し、後で設定を編集することができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-163">In those situations, you can create all auto attendants and call queues in your system without assigning dialpad options, and then edit the settings later.</span></span> <span data-ttu-id="7a2c0-164">メニューオプションとして設定するには、通話キューまたは自動応答が存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-164">A call queue or auto attendant must exist to set it as a menu option.</span></span>
+## <a name="call-agents"></a><span data-ttu-id="1152f-125">通話エージェント</span><span class="sxs-lookup"><span data-stu-id="1152f-125">Call agents</span></span>
 
-## <a name="step-3--create-a-call-queue"></a><span data-ttu-id="7a2c0-165">手順3—通話キューを作成する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-165">Step 3 — Create a call queue</span></span>
+<span data-ttu-id="1152f-126">選択されているコールエージェントは、次のいずれかである必要があります。</span><span class="sxs-lookup"><span data-stu-id="1152f-126">Call agents selected must be one of the following:</span></span> 
 
-[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
+- <span data-ttu-id="1152f-127">電話システムのライセンスを持つオンラインユーザーとエンタープライズ Voip が有効になっている</span><span class="sxs-lookup"><span data-stu-id="1152f-127">Online users with a Phone System license and Enterprise Voice enabled</span></span>
+- <span data-ttu-id="1152f-128">通話プランを使用するオンラインユーザー</span><span class="sxs-lookup"><span data-stu-id="1152f-128">Online users with a Calling Plan</span></span>
+- <span data-ttu-id="1152f-129">オンプレミスの Skype for Business Server ユーザー</span><span class="sxs-lookup"><span data-stu-id="1152f-129">On-premises Skype for Business Server users</span></span>
+- <span data-ttu-id="1152f-130">使用しているエージェントで、Microsoft Teams アプリを呼び出しキューとして使用している場合は、そのモードである必要があります。</span><span class="sxs-lookup"><span data-stu-id="1152f-130">If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="7a2c0-166">すべての通話キューには、 [リソースアカウント](manage-resource-accounts.md)が関連付けられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-166">Every call queue is required to have an associated [resource account](manage-resource-accounts.md).</span></span> <span data-ttu-id="7a2c0-167">最初にリソースアカウントを作成してから、それを通話キューに関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-167">You must create the resource account first, then you can associate it to the call queue.</span></span>
+![](media/call-queue-users-groups.png)
 
-### <a name="use-the-microsoft-teams-admin-center"></a><span data-ttu-id="7a2c0-168">Microsoft Teams 管理センターを使用する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-168">Use the Microsoft Teams admin center</span></span>
+<span data-ttu-id="1152f-131">最大20個のエージェントを個別に追加したり、グループを使用して最大で200のエージェントを追加したりできます。</span><span class="sxs-lookup"><span data-stu-id="1152f-131">You can add up to 20 agents individually and up to 200 agents via groups.</span></span>
 
-<span data-ttu-id="7a2c0-169">**Microsoft Teams 管理センター**の [**音声**  >  **通話キュー**] で、[ **+ Add new**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-169">In the **Microsoft Teams admin center**, **Voice** > **Call queues**, then click **+ Add new**:</span></span>
+<span data-ttu-id="1152f-132">キューにユーザーを追加するには、[ **ユーザーの追加**] をクリックし、ユーザーを検索して [ **追加**] をクリックし、[ **追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1152f-132">To add a user to the queue, click **Add users**, search for the user, click **Add**, and then click **Add**.</span></span>
 
-### <a name="set-the-display-name-and-resource-account"></a><span data-ttu-id="7a2c0-170">表示名とリソースアカウントを設定する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-170">Set the display name and resource account</span></span>
-
-![番号付き吹き出しが含まれる新しい通話キューのスクリーンショット](media/37ecc300-a108-4294-8463-fce570dfce72.png)
-
-* * *
-
-<span data-ttu-id="7a2c0-172">![数字1のアイコン: 前のスクリーンショット名の吹き出しを参照し ](media/teamscallout1.png)
- **Name**ます。通話キューのわかりやすい表示名を入力します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-172">![Icon of the number 1, references a callout in the previous screenshot](media/teamscallout1.png)
-**Name** Enter a descriptive display name for the call queue.</span></span> <span data-ttu-id="7a2c0-173">この名前は必須であり、スペースなどの最大64文字を含めることができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-173">This name is required and can contain up to 64 characters, including spaces.</span></span>
-
- <span data-ttu-id="7a2c0-174">この名前は、着信通話の通知に表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-174">This name is displayed in the notification for the incoming call.</span></span>
-
-* * *
-
-<span data-ttu-id="7a2c0-175">![数字2のアイコン: 前のスクリーンショットで吹き出しを参照している ](media/teamscallout2.png)
- **アカウントを追加**するリソースアカウントを選択します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-175">![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
-**Add Accounts** Select a resource account.</span></span> <span data-ttu-id="7a2c0-176">すべての通話キューには、リソースアカウントが必要です。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-176">All call queues are required to have a resource account.</span></span> <span data-ttu-id="7a2c0-177">リソースアカウントには、有料または無料の電話番号が必要です。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-177">Resource accounts aren't required to have a service toll or toll-free phone number.</span></span>
-
-<span data-ttu-id="7a2c0-178">リストが表示されない場合は、前に説明したように、通話キューを作成する前に、サービス番号を取得してリソースアカウントに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-178">If there aren't any listed,  get service numbers and assign them to a Resource account before you create the call queue, as described earlier.</span></span> <span data-ttu-id="7a2c0-179">サービス番号を取得するには、「 [サービスの電話番号を取得](getting-service-phone-numbers.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-179">To get your service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).</span></span> <span data-ttu-id="7a2c0-180">電話番号の割り当て方法の詳細については、「 [Teams のリソースアカウントを管理](manage-resource-accounts.md) する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-180">See [Manage resource accounts in Teams](manage-resource-accounts.md) for specifics on how to assign a phone number.</span></span>
+<span data-ttu-id="1152f-133">キューにグループを追加するには、[ **グループの追加**] をクリックし、グループを検索して [ **追加**] をクリックし、[ **追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1152f-133">To add a group to the queue, click **Add groups**, search for the group, click **Add**, and then click **Add**.</span></span> <span data-ttu-id="1152f-134">配布リスト、セキュリティグループ、Microsoft 365 グループ、または Microsoft Teams teams を使用できます。</span><span class="sxs-lookup"><span data-stu-id="1152f-134">You can use distribution lists, security groups, and Microsoft 365 groups or Microsoft Teams teams.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7a2c0-181">必要に応じて、またはドメインを割り当てる必要がある場合は、その **ドメイン** を通話キューのリソースアカウントに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-181">If you want or need to assign a **Domain** you would  assign it to the resource account for the call queue.</span></span>
+> <span data-ttu-id="1152f-135">グループに追加された新規ユーザーは、最初の通話が到着するまでに最大8時間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="1152f-135">New users added to a group can take up to eight hours for their first call to arrive.</span></span>
 
-### <a name="set-the-greeting-and-music-played-while-on-hold"></a><span data-ttu-id="7a2c0-182">応答メッセージおよび保留中の保留音を設定する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-182">Set the greeting and music played while on hold</span></span>
+## <a name="call-routing"></a><span data-ttu-id="1152f-136">通話ルーティング</span><span class="sxs-lookup"><span data-stu-id="1152f-136">Call routing</span></span>
 
-![[応答メッセージ] と [音楽] オプションのスクリーンショット。番号付き吹き出し](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
+![](media/call-queue-conference-mode-routing-method.png)
 
-* * *
+<span data-ttu-id="1152f-137">**会議モード** では、エージェントが通話を受け入れた後に、発信者がエージェントに接続するのにかかる時間が大幅に短縮されます。</span><span class="sxs-lookup"><span data-stu-id="1152f-137">**Conference mode** significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call.</span></span> <span data-ttu-id="1152f-138">会議モードで機能するには、通話キュー内のエージェントで次のいずれかのクライアントを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1152f-138">For conference mode to work, agents in the call queue must use one of the following clients:</span></span>
 
-<span data-ttu-id="7a2c0-184">![数字1のアイコン: 前のスクリーンショットの吹き出しを参照して ](media/teamscallout1.png)
- います通話キューの番号を呼び出すユーザーに対して、オプションの応答**メッセージを**表示します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-184">![Icon of the number 1, references a callout in the previous screenshot](media/teamscallout1.png)
-**Greeting** the optional greeting played for people who call the call queue number.</span></span>
-
-<span data-ttu-id="7a2c0-185">オーディオファイル (.wav、.mp3、または .wma 形式) をアップロードできます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-185">You can upload an audio file (.wav, .mp3, or .wma formats).</span></span>
-
-<span data-ttu-id="7a2c0-186">![数字2のアイコン: 前のスクリーンショットの音楽の中で吹き出しを参照 ](media/teamscallout2.png)
- **Music on hold**する通話キューで提供される既定の音楽を保留にすることができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-186">![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
-**Music on hold** You can use the default Music on Hold provided with the call queue.</span></span> <span data-ttu-id="7a2c0-187">.Wav、mp3、または .wma 形式のオーディオファイルをアップロードして、カスタム音楽として保留にすることもできます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-187">You can also upload an audio file in .wav, mp3, or .wma formats to use as your custom Music on hold.</span></span>
-
-* * *
-
-### <a name="select-the-call-answering-options"></a><span data-ttu-id="7a2c0-188">通話応答のオプションを選択する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-188">Select the call answering options</span></span>
-
-![通話応答オプションのスクリーンショット](media/teams-cq-call-answering-options.png)
-
-<span data-ttu-id="7a2c0-190">![数字1のアイコン: 前のスクリーンショットの ](media/teamscallout1.png)
- **コールエージェントとグループ**の吹き出しを参照して、個々のエージェントをグループに追加してから、[**ユーザーの追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-190">![Icon of the number 1, references a callout in the previous screenshot](media/teamscallout1.png)
-**Call agents and groups** To add individual agents directly, without adding them to a group, click **Add users**.</span></span> <span data-ttu-id="7a2c0-191">通話を受ける順序に個々のエージェントを追加します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-191">Put individual agents in the order in which you want them to receive the call.</span></span> <span data-ttu-id="7a2c0-192">最大20の個別のエージェントを追加できます (20 を超える場合は、1つのグループにまとめることができます)。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-192">You can add up to 20 individual agents (to add more than 20, put them in a group).</span></span>
-
-<span data-ttu-id="7a2c0-193">通話は最初に個々のエージェントにルーティングされ、その後、グループ内のエージェントに送信されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-193">Calls are routed first to individual agents, then to the agents in groups.</span></span> 
-
-<span data-ttu-id="7a2c0-194">以下のメーリングリストまたはグループのいずれかに属する、最大200の通話エージェントを選択できます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-194">You can select up to 200 call agents who belong to any of the following mailing lists or groups:</span></span>
-
-- <span data-ttu-id="7a2c0-195">Microsoft 365 グループ</span><span class="sxs-lookup"><span data-stu-id="7a2c0-195">Microsoft 365 group</span></span>
-- <span data-ttu-id="7a2c0-196">セキュリティグループ</span><span class="sxs-lookup"><span data-stu-id="7a2c0-196">Security group</span></span>
-- <span data-ttu-id="7a2c0-197">配布リスト</span><span class="sxs-lookup"><span data-stu-id="7a2c0-197">Distribution list</span></span>
-
-<span data-ttu-id="7a2c0-198">選択されているコールエージェントは、次のいずれかである必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-198">Call agents selected must be one of the following:</span></span> 
-
-- <span data-ttu-id="7a2c0-199">電話システムのライセンスを持つオンラインユーザーとエンタープライズ Voip が有効になっている</span><span class="sxs-lookup"><span data-stu-id="7a2c0-199">Online users with a Phone System license and Enterprise Voice enabled</span></span>
-- <span data-ttu-id="7a2c0-200">通話プランを使用するオンラインユーザー</span><span class="sxs-lookup"><span data-stu-id="7a2c0-200">Online users with a Calling Plan</span></span>
-- <span data-ttu-id="7a2c0-201">オンプレミスの Skype for Business Server ユーザー</span><span class="sxs-lookup"><span data-stu-id="7a2c0-201">On-premises Skype for Business Server users</span></span>
-
-  > [!NOTE]
-  > <span data-ttu-id="7a2c0-202">これは、オンラインの組織内のユーザーに通話をリダイレクトする場合にも該当します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-202">This also applies if you want to redirect calls to people in your organization who are online.</span></span> <span data-ttu-id="7a2c0-203">これらの個人は、電話システムのライセンスとエンタープライズボイスを有効にしている *か* 、通話プランを利用している必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-203">These individuals must have a Phone System license and Enterprise Voice enabled *or* have a Calling Plan.</span></span> <span data-ttu-id="7a2c0-204">詳細については、「 [Skype For business ライセンスの割り当て](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)、 [Microsoft Teams ライセンスの割り当て](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)、または[適切な通話プラン](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-204">For more information, see [Assign Skype for Business licenses](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [Assign Microsoft Teams licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses), or [Which Calling Plan is right for you?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)</span></span>
-
-   <span data-ttu-id="7a2c0-205">エンタープライズ Voip のエージェントを有効にするには、Windows PowerShell を使用します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-205">To enable an agent for Enterprise Voice, you can use Windows PowerShell.</span></span> <span data-ttu-id="7a2c0-206">たとえば、次を実行します。 `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span><span class="sxs-lookup"><span data-stu-id="7a2c0-206">For example, run: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span></span>
-
-- <span data-ttu-id="7a2c0-207">電話システムのライセンスを持っているか、Microsoft 365 グループ、メールが有効な配布リスト、またはセキュリティグループに追加された通話プランを持っているユーザー。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-207">Users with a Phone System license or a Calling Plan that are added to a Microsoft 365 Group, a mail-enabled distribution list, or a security group.</span></span> <span data-ttu-id="7a2c0-208">配布リストまたはセキュリティグループのエージェントを呼び出しキューエージェントとして追加する場合、最初の呼び出しが到着するまでに最大3時間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-208">When you add an agent in a distribution list or a security group as a call queue agent, it can take up to three hours for the first call to arrive.</span></span> <span data-ttu-id="7a2c0-209">新しく作成した分配リストまたはセキュリティ グループでは、通話キューで使用可能になるまで最大で48時間を要する場合があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-209">A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues.</span></span> <span data-ttu-id="7a2c0-210">新しく作成された Microsoft 365 グループは、ほぼ瞬時に利用できます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-210">Newly created Microsoft 365 Groups are available almost immediately.</span></span>
-
-- <span data-ttu-id="7a2c0-211">使用しているエージェントで、Microsoft Teams アプリを呼び出しキューとして使用している場合は、そのモードである必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-211">If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.</span></span>
-
-<span data-ttu-id="7a2c0-212">![数字2のアイコン: 前のスクリーンショットで吹き出しを参照し ](media/teamscallout2.png)
- ます。**会議モード**の会議モードでは、エージェントが通話を受け入れた後に、発信者がエージェントに接続するのにかかる時間が大幅に短縮されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-212">![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
-**Conference mode** Conference mode significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call.</span></span> <span data-ttu-id="7a2c0-213">複数の通話キューがある場合は、一部またはすべての通話キューで会議モードを有効にすることができます。1つの通話キューで会議モードを有効または無効にしても、他の通話キューに影響はありません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-213">If you have more than one call queue, you can enable conference mode on some or all of your call queues; enabling or disabling conference mode on one call queue doesn't impact any other call queues.</span></span>
-
-<span data-ttu-id="7a2c0-214">会議モードは既定で無効になっていますが、次の要件が満たされている場合はいつでも有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-214">Conference mode is disabled by default but can be enabled at any time if the following requirements are met:</span></span>
-
-- <span data-ttu-id="7a2c0-215">通話キューに追加されたエージェントは、次のいずれかのクライアントを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-215">Agents added to the call queue need to use one of the following clients:</span></span>
-
-  - <span data-ttu-id="7a2c0-216">最新バージョンの Microsoft Teams デスクトップクライアント、Android アプリ、または iOS アプリ</span><span class="sxs-lookup"><span data-stu-id="7a2c0-216">The latest version of the Microsoft Teams desktop client, Android app, or iOS app</span></span>
-  - <span data-ttu-id="7a2c0-217">Microsoft Teams phone バージョン 1449/1.0.94.2020051601 以降</span><span class="sxs-lookup"><span data-stu-id="7a2c0-217">Microsoft Teams phone version 1449/1.0.94.2020051601 or later</span></span>
+  - <span data-ttu-id="1152f-139">最新バージョンの Microsoft Teams デスクトップクライアント、Android アプリ、または iOS アプリ</span><span class="sxs-lookup"><span data-stu-id="1152f-139">The latest version of the Microsoft Teams desktop client, Android app, or iOS app</span></span>
+  - <span data-ttu-id="1152f-140">Microsoft Teams phone バージョン 1449/1.0.94.2020051601 以降</span><span class="sxs-lookup"><span data-stu-id="1152f-140">Microsoft Teams phone version 1449/1.0.94.2020051601 or later</span></span>
   
-- <span data-ttu-id="7a2c0-218">エージェントの Teams アカウントをチーム専用モードに設定する必要がある</span><span class="sxs-lookup"><span data-stu-id="7a2c0-218">Agents' Teams accounts need to be set to Teams-only mode</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="7a2c0-219">上記のエージェント要件が満たされておらず、通話キューで会議モードが有効になっている場合、要件を満たしていないエージェントは通話ルーティングリストに含まれません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-219">If the agent requirements above aren't met and conference mode is enabled on a call queue, agents who don't meet the requirements aren't included in the call routing list.</span></span> <span data-ttu-id="7a2c0-220">通話ルーティングリストに含まれていないエージェントは、通話を受信できません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-220">Agents who aren't in the call routing list won't receive calls.</span></span> <span data-ttu-id="7a2c0-221">上記のエージェント要件を満たしていないエージェントがある場合は、通話キューで会議モードを有効にしないようにします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-221">If you have agents who don't meet the agent requirements above, don't enable conference mode on the call queue.</span></span>
-
-<span data-ttu-id="7a2c0-222">通話キューで電話会議モードが有効になると、次のいずれかの方法で通話を受信すると、接続時間が短縮されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-222">After conference mode is enabled on a call queue, calls will benefit from the faster connection time if they're received via one of the following methods:</span></span>
-
-- <span data-ttu-id="7a2c0-223">他の Microsoft Teams デスクトップクライアントからの VoIP 通話</span><span class="sxs-lookup"><span data-stu-id="7a2c0-223">VoIP calls from another Microsoft Teams desktop client</span></span>
-- <span data-ttu-id="7a2c0-224">通話プラン PSTN 通話</span><span class="sxs-lookup"><span data-stu-id="7a2c0-224">Calling Plan PSTN calls</span></span>
-- <span data-ttu-id="7a2c0-225">PSTN 通話のダイレクトルーティング</span><span class="sxs-lookup"><span data-stu-id="7a2c0-225">Direct Routing PSTN calls</span></span>
-
-<span data-ttu-id="7a2c0-226">通話の大半は、上記のいずれかの方法で受信します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-226">The majority of calls are received via one of the methods listed above.</span></span> <span data-ttu-id="7a2c0-227">別の方法 (Skype for Business クライアントからの VoIP 通話など) 経由で通話を受信した場合でも、通話は通話キューに追加されますが、接続時間が短縮されることはありません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-227">If a call is received via another method (such as a VoIP call from a Skype for Business client), the call will still be added to the call queue, however, it won't benefit from the faster connection time.</span></span>
+<span data-ttu-id="1152f-141">エージェントの Teams アカウントは、チーム専用モードに設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1152f-141">Agents' Teams accounts need to be set to Teams-only mode.</span></span> <span data-ttu-id="1152f-142">要件を満たしていないエージェントは、通話ルーティングリストに含まれません。</span><span class="sxs-lookup"><span data-stu-id="1152f-142">Agents who don't meet the requirements aren't included in the call routing list.</span></span> <span data-ttu-id="1152f-143">すべてのエージェントが互換性のあるクライアントを使用している場合は、通話キューの会議モードを有効にすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="1152f-143">We recommend enabling conference mode for your call queues if your agents are all using compatible clients.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7a2c0-228">Busy がビジー状態であるため、会議モードでサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-228">Busy on Busy is not supported by conference mode.</span></span> <span data-ttu-id="7a2c0-229">プレゼンスベースのルーティングが有効になっていない場合は、着信キュー以外の通話に含まれているエージェントでも、通話キューの呼び出しと共に表示されることがあります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-229">Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.</span></span>
+> <span data-ttu-id="1152f-144">Busy がビジー状態であるため、会議モードでサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="1152f-144">Busy on Busy is not supported by conference mode.</span></span> <span data-ttu-id="1152f-145">プレゼンスベースのルーティングが有効になっていない場合は、着信キュー以外の通話に含まれているエージェントでも、通話キューの呼び出しと共に表示されることがあります。</span><span class="sxs-lookup"><span data-stu-id="1152f-145">Agents on non-call queue calls may still be presented with a call queue call if presence-based routing is not enabled.</span></span>
+
+<span data-ttu-id="1152f-146">**ルーティングメソッド** は、エージェントがキューから呼び出しを受け取る順序を決定します。</span><span class="sxs-lookup"><span data-stu-id="1152f-146">**Routing method** determines the order in which agents receive calls from the queue.</span></span> <span data-ttu-id="1152f-147">以下のオプションから選択します。</span><span class="sxs-lookup"><span data-stu-id="1152f-147">Choose from these options:</span></span>
+
+- <span data-ttu-id="1152f-148">**応答ルーティング** は、キュー内のすべてのエージェントを同時に呼び出します。</span><span class="sxs-lookup"><span data-stu-id="1152f-148">**Attendant routing** rings all agents in the queue at the same time.</span></span> <span data-ttu-id="1152f-149">通話を受ける最初のコールエージェントは、通話を受け取ります。</span><span class="sxs-lookup"><span data-stu-id="1152f-149">The first call agent to pick up the call gets the call.</span></span>
+
+- <span data-ttu-id="1152f-150">**シリアルルーティング** は **、通話エージェントリストで** 指定された順序で、すべての通話エージェントを1つずつ呼び出します。</span><span class="sxs-lookup"><span data-stu-id="1152f-150">**Serial routing** rings all call agents one by one in the order specified in the **Call agents** list.</span></span> <span data-ttu-id="1152f-151">エージェントが終了した場合、または通話を受信しなかった場合、通話は次のエージェントを呼び出し、それが処理されるかタイムアウトするまで、すべてのエージェントを試します。</span><span class="sxs-lookup"><span data-stu-id="1152f-151">If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.</span></span>
+
+- <span data-ttu-id="1152f-152">**ラウンドロビン** は、着信呼び出しのルーティングを保留して、各通話エージェントがキューから同じ回数の通話を取得できるようにします。</span><span class="sxs-lookup"><span data-stu-id="1152f-152">**Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue.</span></span> <span data-ttu-id="1152f-153">これは、すべての通話エージェントで同一の営業案件を確保するために、着信の販売環境で望ましい場合があります。</span><span class="sxs-lookup"><span data-stu-id="1152f-153">This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.</span></span>
+
+- <span data-ttu-id="1152f-154">[**最長アイドル**時間 (idle) を選びます。通話は、アイドル状態になっているエージェントへの通話ごとに最も長い時間がかかる。</span><span class="sxs-lookup"><span data-stu-id="1152f-154">**Longest idle** routes each call to the agent who has been idle the longest time.</span></span> <span data-ttu-id="1152f-155">エージェントは、プレゼンス状態が利用可能な場合、またはプレゼンス状態が10分未満に退席中の場合に、アイドルと見なされます。</span><span class="sxs-lookup"><span data-stu-id="1152f-155">An agent is considered idle if their presence state is Available or if their presence state has been Away for less than 10 minutes.</span></span> <span data-ttu-id="1152f-156">10分以上放置されているプレゼンス状態を持つエージェントは、アイドルと見なされず、通話を受信可能に変更するまで、着信を受けることはできません。</span><span class="sxs-lookup"><span data-stu-id="1152f-156">Agents whose presence state has been Away for more than 10 minutes are not considered idle and will not be eligible to receive calls until they change their presence to Available.</span></span> 
+
+![](media/call-queue-presence-agents-time.png)
 
 
-<span data-ttu-id="7a2c0-230">![数値3のアイコンは、前のスクリーンショットルーティングメソッドで吹き出しを参照し ](media/teamscallout3.png)
- **Routing method**ています。これは、配布方法として、**アテンダント**、**シリアル**、**アイドル**、または**ラウンドロビン**のいずれかを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-230">![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
-**Routing method** You can choose either **Attendant**, **Serial**, **Longest idle**, or **Round Robin** as the distribution method.</span></span> <span data-ttu-id="7a2c0-231">すべての新規および既存の通話キューには、既定で [アテンダントルーティング] が選択されています。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-231">All new and existing call queues have attendant routing selected by default.</span></span> <span data-ttu-id="7a2c0-232">アテンダントルーティングを使うと、キューの最初の呼び出しによって、すべてのコールエージェントが同時に呼び出されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-232">When attendant routing is used, the first call in the queue rings all call agents at the same time.</span></span> <span data-ttu-id="7a2c0-233">通話を受ける最初のコールエージェントは、通話を受け取ります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-233">The first call agent to pick up the call gets the call.</span></span>
+<span data-ttu-id="1152f-157">**プレゼンスベースのルーティング** では、選択したルーティングメソッドの呼び出しルーティングリストにエージェントを含める必要があるかどうかを判断するために、通話エージェントの状態が使用可能になります。</span><span class="sxs-lookup"><span data-stu-id="1152f-157">**Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method.</span></span> <span data-ttu-id="1152f-158">連絡可能状態が [ **利用可能** ] に設定されている通話エージェントは、通話ルーティングリストに含まれており、着信を受け取ることができます。</span><span class="sxs-lookup"><span data-stu-id="1152f-158">Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls.</span></span> <span data-ttu-id="1152f-159">可用性の状態が「その他」の状態に設定されているエージェントは、通話ルーティングリストから除外され、その状態が [連絡 **可能**] に戻るまでは通話を受信しません。</span><span class="sxs-lookup"><span data-stu-id="1152f-159">Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.</span></span> 
 
-- <span data-ttu-id="7a2c0-234">**アテンダントルーティング** を行うと、キュー内の最初の呼び出しがすべてのコールエージェントを同時に呼び出します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-234">**Attendant routing** causes the first call in the queue to ring all call agents at the same time.</span></span> <span data-ttu-id="7a2c0-235">通話を受ける最初のコールエージェントは、通話を受け取ります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-235">The first call agent to pick up the call gets the call.</span></span>
-- <span data-ttu-id="7a2c0-236">**シリアルルーティング** 着信エージェントリストの先頭から、すべての通話エージェントを1つずつ呼び出します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-236">**Serial routing** incoming calls ring all call agents one by one, from the beginning of the call agent list.</span></span> <span data-ttu-id="7a2c0-237">通話エージェントの一覧内では、エージェントを注文することはできません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-237">Agents can't be ordered within the call agent list.</span></span> <span data-ttu-id="7a2c0-238">エージェントが終了した場合、または通話を受信しなかった場合、通話は次のエージェントを呼び出し、それが処理されるかタイムアウトするまで、すべてのエージェントを試します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-238">If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.</span></span>
-- <span data-ttu-id="7a2c0-239">[**最長アイドル**] は、アイドル状態になっている通話エージェントへの次の使用可能な通話をルーティングします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-239">**Longest idle** routes the next available call to the call agent whose has been idle the longest time.</span></span> <span data-ttu-id="7a2c0-240">アイドル時間は、通話のときに、通話エージェントのプレゼンス状態が [ **利用可能** ] または [ **退席** 中] (10 分未満) に設定されている時間の長さとして定義されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-240">The idle time is defined as the length of time a call agent's presence state is set to **Available** or **Away** (if less than 10 minutes), at the time of the call.</span></span> <span data-ttu-id="7a2c0-241">10分以上経過すると、通話エージェントのプレゼンスが [ **退席** 中] に設定されていると、アイドルタイマーがリセットされます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-241">If a call agent's presence is set to **Away** for more than 10 minutes, the idle timer resets.</span></span> <span data-ttu-id="7a2c0-242">ユーザーのプレゼンス状態は、1分ごとに照会されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-242">Presence states of users are queried every minute.</span></span>
+<span data-ttu-id="1152f-160">任意のルーティング方法を使って、プレゼンスベースの通話ルーティングを有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="1152f-160">You can enable presence-based call routing with any of the routing methods.</span></span>
 
-    <span data-ttu-id="7a2c0-243">この設定を有効にすると、 **プレゼンスベースのルーティング** も有効になることを知っておくことが重要です。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-243">It's important to know that enabling this setting forces **Presence-based routing** to also be enabled.</span></span>
+<span data-ttu-id="1152f-161">エージェントによって通話が発信されない場合、その状態がどのように設定されているかにかかわらず、通話ルーティングリストに含まれません。</span><span class="sxs-lookup"><span data-stu-id="1152f-161">If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.</span></span> 
 
-    > [!IMPORTANT]
-    > <span data-ttu-id="7a2c0-244">Skype for Business クライアントを使用するエージェントは、最長アイドル設定が有効になっていると、通話を受信できません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-244">Agents who use the Skype for Business client won't receive calls when the longest idle setting is enabled.</span></span> <span data-ttu-id="7a2c0-245">担当者が Skype または Business を使用している場合は、この設定を有効にしないでください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-245">If you have agents who use Skype or Business, don't enable this setting.</span></span>
-- <span data-ttu-id="7a2c0-246">**ラウンドロビン** は、着信呼び出しのルーティングを分散し、各呼び出しエージェントがキューから同じ数の通話を取得できるようにします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-246">**Round robin** balances routing of incoming calls so that each call agent gets the same number of calls from the queue.</span></span> <span data-ttu-id="7a2c0-247">これは、すべての通話エージェントで同一の営業案件を確保するために、着信の販売環境で望ましい場合があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-247">This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.</span></span>
+> [!NOTE]
+> <span data-ttu-id="1152f-162">プレゼンスベースのルーティングが有効になっている場合、Skype for Business クライアントを使用するエージェントは、通話ルーティングリストに含まれません。</span><span class="sxs-lookup"><span data-stu-id="1152f-162">Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled.</span></span> <span data-ttu-id="1152f-163">Skype for Business を使用するエージェントがある場合は、プレゼンスベースの通話ルーティングを有効にしないでください。</span><span class="sxs-lookup"><span data-stu-id="1152f-163">If you have agents who use Skype for Business, don't enable presence-based call routing.</span></span>
 
-<span data-ttu-id="7a2c0-248">![数字4のアイコン: 前のスクリーンショットのプレゼンスに基づくルーティングのプレゼンスに基づくルーティングのプレゼンスを使って、 ](media/teamscallout4.png)
- **Presence-based routing**選択したルーティングメソッドの呼び出しルーティングリストにエージェントを含める必要があるかどうかを特定します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-248">![Icon of the number 4, references a callout in the previous screenshot](media/teamscallout4.png)
-**Presence-based routing** Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method.</span></span> <span data-ttu-id="7a2c0-249">連絡可能状態が [ **利用可能** ] に設定されている通話エージェントは、通話ルーティングリストに含まれており、着信を受け取ることができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-249">Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls.</span></span> <span data-ttu-id="7a2c0-250">可用性の状態が「その他」の状態に設定されているエージェントは、通話ルーティングリストから除外され、その状態が [連絡 **可能**] に戻るまでは通話を受信しません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-250">Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**.</span></span>  
+<span data-ttu-id="1152f-164">[**エージェントの通知時間**] は、エージェントの電話が次のエージェントへの呼び出しをリダイレクトするまでの、エージェントの電話が着信するまでの時間を指定します。</span><span class="sxs-lookup"><span data-stu-id="1152f-164">**Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.</span></span>
 
-<span data-ttu-id="7a2c0-251">任意のルーティング方法を使って、プレゼンスベースの通話ルーティングを有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-251">You can enable presence-based call routing with any of the routing methods.</span></span>
+<span data-ttu-id="1152f-165">高ボリュームキューの場合は、次の設定をお勧めします。</span><span class="sxs-lookup"><span data-stu-id="1152f-165">For high volume queues, we recommend the following settings:</span></span>
 
-<span data-ttu-id="7a2c0-252">エージェントによって通話が発信されない場合、その状態がどのように設定されているかにかかわらず、通話ルーティングリストに含まれません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-252">If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to.</span></span> 
+- <span data-ttu-id="1152f-166">**自動\*\*\*\*会議モード**</span><span class="sxs-lookup"><span data-stu-id="1152f-166">**Conference mode** to **Auto**</span></span>
+- <span data-ttu-id="1152f-167">**ルーティングメソッド** と **アテンダントルーティング**</span><span class="sxs-lookup"><span data-stu-id="1152f-167">**Routing method** to **Attendant routing**</span></span>
+- <span data-ttu-id="1152f-168">**オン**になった**プレゼンスベースのルーティング**</span><span class="sxs-lookup"><span data-stu-id="1152f-168">**Presence-based routing** to **On**</span></span>
+- <span data-ttu-id="1152f-169">**エージェントの通知時間:** **20 秒**</span><span class="sxs-lookup"><span data-stu-id="1152f-169">**Agent alert time:** to **20 seconds**</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="7a2c0-253">Skype for Business クライアントを使用するエージェントは、可用性の状態に関係なく、プレゼンスベースのルーティングが有効になっている場合、通話ルーティングリストに含まれません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-253">Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled, regardless of their availability status.</span></span> <span data-ttu-id="7a2c0-254">通話ルーティングリストに含まれていないエージェントは、通話を受信できません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-254">Agents who aren't in the call routing list won't receive calls.</span></span> <span data-ttu-id="7a2c0-255">Skype for Business を使用するエージェントがある場合は、プレゼンスベースの通話ルーティングを有効にしないでください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-255">If you have agents who use Skype for Business, don't enable presence-based call routing.</span></span>
+## <a name="call-overflow-handling"></a><span data-ttu-id="1152f-170">通話オーバーフロー処理</span><span class="sxs-lookup"><span data-stu-id="1152f-170">Call overflow handling</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="7a2c0-256">高音量の通話キューの場合は、次の設定が推奨されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-256">For high volume calls queues the recommended settings are:</span></span>
->
-> <span data-ttu-id="7a2c0-257">会議モード: 自動</span><span class="sxs-lookup"><span data-stu-id="7a2c0-257">Conference mode: Auto</span></span><br>
-> <span data-ttu-id="7a2c0-258">ルーティング方法: アテンダントルーティング</span><span class="sxs-lookup"><span data-stu-id="7a2c0-258">Routing method: Attendant routing</span></span><br>
-> <span data-ttu-id="7a2c0-259">プレゼンスベースのルーティング: オン</span><span class="sxs-lookup"><span data-stu-id="7a2c0-259">Presence-based routing: On</span></span><br>
-> <span data-ttu-id="7a2c0-260">エージェントアラートの時間:20 秒</span><span class="sxs-lookup"><span data-stu-id="7a2c0-260">Agent alert time: 20 seconds</span></span>
+![](media/call-queue-overflow-handling.png)
 
+<span data-ttu-id="1152f-171">**キュー内の最大の通話** キューで待機できる通話の最大数を指定します。</span><span class="sxs-lookup"><span data-stu-id="1152f-171">**Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time.</span></span> <span data-ttu-id="1152f-172">既定値は50ですが、0 ~ 200 の範囲で指定できます。</span><span class="sxs-lookup"><span data-stu-id="1152f-172">The default is 50, but it can range from 0 to 200.</span></span> <span data-ttu-id="1152f-173">この制限に達すると、通話 **の最大数に達したとき** にによって指定された呼び出しが処理されます。</span><span class="sxs-lookup"><span data-stu-id="1152f-173">When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.</span></span>
 
-### <a name="select-an-agent-opt-out-option"></a><span data-ttu-id="7a2c0-261">エージェントのオプトアウトオプションを選択する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-261">Select an agent opt-out option</span></span>
+<span data-ttu-id="1152f-174">通話を切断するか、いずれかの通話ルーティング先にリダイレクトするかを選択できます。</span><span class="sxs-lookup"><span data-stu-id="1152f-174">You can choose to disconnect the call or redirect it to one of the call routing destinations.</span></span> <span data-ttu-id="1152f-175">たとえば、キュー内のエージェントのボイスメールを発信者が退出させている場合があります。</span><span class="sxs-lookup"><span data-stu-id="1152f-175">For example, you might have the caller leave a voicemail for the agents in the queue.</span></span>
 
-![番号付き吹き出しが含まれる、エージェントのオプトアウトオプションのスクリーンショット](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
+> [!NOTE]
+> <span data-ttu-id="1152f-176">通話の最大数が0に設定されている場合、グリーティングメッセージは再生されません。</span><span class="sxs-lookup"><span data-stu-id="1152f-176">If the maximum number of calls is set to 0 then the greeting message will not play.</span></span>
 
-* * *
+## <a name="call-timeout-handling"></a><span data-ttu-id="1152f-177">通話タイムアウト処理</span><span class="sxs-lookup"><span data-stu-id="1152f-177">Call timeout handling</span></span>
 
-<span data-ttu-id="7a2c0-263">![番号1のアイコン、前のスクリーンショットエージェントの吹き出しを参照している場合は、このオプションを有効にすることで、特定のキューからの呼び出しを許可しないようにすることができ ](media/teamscallout1.png)
- **Agent can opt out of getting calls**ます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-263">![Icon of the number 1, references a callout in the previous screenshot](media/teamscallout1.png)
-**Agent can opt out of getting calls** You can choose to allow call queue agents to opt-out of taking calls from a particular queue by enabling this option.</span></span>
+![](media/call-queue-timeout-handling.png)
 
-<span data-ttu-id="7a2c0-264">このオプションを有効にすると、このキュー内のすべてのエージェントは、この通話キューからの着信の受信を開始または停止することができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-264">Enabling this option allows all agents in this queue to start or stop receiving calls from this call queue at will.</span></span> <span data-ttu-id="7a2c0-265">チェックボックスの削除することによっていつでもオプトアウトの取消しが可能で、オプトアウトされたエージェントはこの通話キューへ自動的にもう一度オプトインされます。 (すべてのエージェントの初期設定)</span><span class="sxs-lookup"><span data-stu-id="7a2c0-265">You can revoke the agent opt-out privilege at any time by clearing the check box, causing agents to become automatically opted in for this queue again (the default setting for all agents).</span></span>
+<span data-ttu-id="1152f-178">**通話タイムアウト: 待ち時間** の最大値を指定すると、通話がリダイレクトされるか切断されるまでの間、キュー内で通話を保留できます。</span><span class="sxs-lookup"><span data-stu-id="1152f-178">**Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected.</span></span> <span data-ttu-id="1152f-179">15秒から45分までの値を指定できます。</span><span class="sxs-lookup"><span data-stu-id="1152f-179">You can specify a value from 15 seconds to 45 minutes.</span></span>
 
-<span data-ttu-id="7a2c0-266">脱退オプションにアクセスするには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-266">To access the opt-out option, agents can:</span></span>
+<span data-ttu-id="1152f-180">通話を切断するか、いずれかの通話ルーティング先にリダイレクトするかを選択できます。</span><span class="sxs-lookup"><span data-stu-id="1152f-180">You can choose to disconnect the call or redirect it to one of the call routing destinations.</span></span> <span data-ttu-id="1152f-181">たとえば、キュー内のエージェントのボイスメールを発信者が退出させている場合があります。</span><span class="sxs-lookup"><span data-stu-id="1152f-181">For example, you might have the caller leave a voicemail for the agents in the queue.</span></span>
 
- 1. <span data-ttu-id="7a2c0-267">Skype for Business クライアントデスクトップで、 **オプション** を開きます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-267">Open **Options** in their desktop Skype for Business client.</span></span>
- 2. <span data-ttu-id="7a2c0-268">**[通話転送]** タブで、 **[オンライン編集の設定]** リンクをクリックします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-268">On the **Call Forwarding** tab, click the **Edit settings online** link.</span></span>
- 3. <span data-ttu-id="7a2c0-269">[ユーザー設定] ページで、[ **通話キュー**] をクリックし、[キューの停止] チェックボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-269">On the user settings page, click **Call Queues**, and then clear the check boxes to opt-out of queues.</span></span>
+<span data-ttu-id="1152f-182">通話タイムアウトオプションを選んだら、[ **保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1152f-182">When you have selected your call timeout options, click **Save**.</span></span>
+
+## <a name="caller-id-for-outbound-calls"></a><span data-ttu-id="1152f-183">発信通話の発信者番号</span><span class="sxs-lookup"><span data-stu-id="1152f-183">Caller ID for outbound calls</span></span>
+
+<span data-ttu-id="1152f-184">通話キュー内のエージェントは、顧客からの通話を返すためにダイヤルアウトする可能性があるため、通話キューのメンバーの発信者番号を適切な自動応答のサービス番号に設定することを検討してください。</span><span class="sxs-lookup"><span data-stu-id="1152f-184">Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for members of a call queue to the service number of an appropriate auto attendant.</span></span> <span data-ttu-id="1152f-185">詳細については、「 [Microsoft Teams で発信者番号通知ポリシーを管理](caller-id-policies.md) する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1152f-185">See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.</span></span>
+
+## <a name="supported-clients"></a><span data-ttu-id="1152f-186">サポートされるクライアント</span><span class="sxs-lookup"><span data-stu-id="1152f-186">Supported clients</span></span>
+
+- <span data-ttu-id="1152f-187">通話キューのコールエージェントでは、次のクライアントがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="1152f-187">The following clients are supported for call agents in a call queue:</span></span>
+
+  - <span data-ttu-id="1152f-188">Skype for Business デスクトップクライアント 2016 (32 ビットバージョンと64ビットバージョン)</span><span class="sxs-lookup"><span data-stu-id="1152f-188">Skype for Business desktop client 2016 (32-bit and 64-bit versions)</span></span>
+  - <span data-ttu-id="1152f-189">Lync デスクトップクライアント 2013 (32 ビットバージョンと64ビットバージョン)</span><span class="sxs-lookup"><span data-stu-id="1152f-189">Lync desktop client 2013 (32-bit and 64-bit versions)</span></span>
+  - <span data-ttu-id="1152f-190">Microsoft Teams でサポートされているすべての IP 電話モデル。</span><span class="sxs-lookup"><span data-stu-id="1152f-190">All IP phone models supported for Microsoft Teams.</span></span> <span data-ttu-id="1152f-191">「 [Skype For Business Online の電話を取得する」を](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)参照してください。</span><span class="sxs-lookup"><span data-stu-id="1152f-191">See [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).</span></span>
+  - <span data-ttu-id="1152f-192">Mac版  Skype for Business クライアント (バージョン 16.8.196 以降)</span><span class="sxs-lookup"><span data-stu-id="1152f-192">Mac Skype for Business Client (version 16.8.196 and later)</span></span>
+  - <span data-ttu-id="1152f-193">Aandroid Skype for Business クライアント (バージョン 6.16.0.9 以降)</span><span class="sxs-lookup"><span data-stu-id="1152f-193">Android Skype for Business Client (version 6.16.0.9 and later)</span></span>
+  - <span data-ttu-id="1152f-194">iPhone Skype for Business Client クライアント(バージョン 6.16.0 以降)</span><span class="sxs-lookup"><span data-stu-id="1152f-194">iPhone Skype for Business Client (version 6.16.0 and later)</span></span>
+  - <span data-ttu-id="1152f-195">Mac版  Skype for Business クライアント (バージョン 6.16.0 以降)</span><span class="sxs-lookup"><span data-stu-id="1152f-195">iPad Skype for Business Client (version 6.16.0 and later)</span></span>
+  - <span data-ttu-id="1152f-196">Microsoft Teams Windows クライアント (32 ビット版と64ビット版)</span><span class="sxs-lookup"><span data-stu-id="1152f-196">Microsoft Teams Windows client (32-bit and 64-bit versions)</span></span>
+  - <span data-ttu-id="1152f-197">Microsoft Teams Mac クライアント</span><span class="sxs-lookup"><span data-stu-id="1152f-197">Microsoft Teams Mac client</span></span>
+  - <span data-ttu-id="1152f-198">Microsoft Teams iPhone アプリ</span><span class="sxs-lookup"><span data-stu-id="1152f-198">Microsoft Teams iPhone app</span></span>
+  - <span data-ttu-id="1152f-199">Microsoft Teams Android アプリ</span><span class="sxs-lookup"><span data-stu-id="1152f-199">Microsoft Teams Android app</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="7a2c0-270">Skype for Business デスクトップ以外のアプリまたはエンドポイントを使用するエージェントは、ユーザー設定ポータルから脱退オプションにアクセスでき [https://aka.ms/cqsettings](https://aka.ms/cqsettings) ます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-270">Agents using apps or endpoints other than Skype for Business Desktop can access the opt-out option from the user settings portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings).</span></span>
-    >
-    > <span data-ttu-id="7a2c0-271">エージェントが Microsoft Teams のデスクトップクライアントにある場合は、通話設定を使用してそのエージェントを除外することができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-271">If the agents are in Microsoft Teams desktop clients, then they can opt-out by using the Call Settings.</span></span> 
+    > <span data-ttu-id="1152f-200">直接ルーティング番号が割り当てられている通話キューは、Skype for Business クライアント、Lync クライアント、または Skype for Business の IP 電話をエージェントとしてサポートしません。</span><span class="sxs-lookup"><span data-stu-id="1152f-200">Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents.</span></span>
 
-<span data-ttu-id="7a2c0-272">![数字2のアイコン: 前のスクリーンショットの ](media/teamscallout2.png)
- **通知設定**で吹き出しを参照します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-272">![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
-**Agent Alert setting**</span></span>
+## <a name="call-queue-cmdlets"></a><span data-ttu-id="1152f-201">通話キューのコマンドレット</span><span class="sxs-lookup"><span data-stu-id="1152f-201">Call queue cmdlets</span></span>
 
-<span data-ttu-id="7a2c0-273">これは、シリアルまたはラウンドロビンルーティングメソッドが次のエージェントに移動する前に、通話の通知を受けるエージェントの期間を定義します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-273">This defines the duration of an agent being notified of a call before the Serial or Round Robin routing methods move to the next agent.</span></span>
+<span data-ttu-id="1152f-202">Windows PowerShell を使用して通話キューを作成し、設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="1152f-202">You can also use Windows PowerShell to create and set up call queues.</span></span> <span data-ttu-id="1152f-203">通話キューを管理するために使用するコマンドレットを以下に示します。</span><span class="sxs-lookup"><span data-stu-id="1152f-203">Here are the cmdlets that you use to manage a call queue.</span></span>
 
-<span data-ttu-id="7a2c0-274">既定の設定は30秒ですが、最大3分に設定することができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-274">The default setting is 30 seconds, but it can be set for up to 3 minutes.</span></span>
+- [<span data-ttu-id="1152f-204">新規-CsCallQueue</span><span class="sxs-lookup"><span data-stu-id="1152f-204">New-CsCallQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 
-* * *
+- [<span data-ttu-id="1152f-205">Set-CsCallQueue</span><span class="sxs-lookup"><span data-stu-id="1152f-205">Set-CsCallQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
 
-### <a name="set-the-call-overflow-and-timeout-handling-options"></a><span data-ttu-id="7a2c0-275">通話のオーバーフローとタイムアウト処理のオプションを設定する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-275">Set the call overflow and timeout handling options</span></span>
+- [<span data-ttu-id="1152f-206">Get-CsCallQueue</span><span class="sxs-lookup"><span data-stu-id="1152f-206">Get-CsCallQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
 
-![番号付き吹き出しが含まれるオーバーフロー処理オプションのスクリーンショット](media/3f018734-16fe-458b-827d-71fc25155cde.png)
+- [<span data-ttu-id="1152f-207">Remove-CsCallQueue</span><span class="sxs-lookup"><span data-stu-id="1152f-207">Remove-CsCallQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
 
-* * *
+## <a name="related-topics"></a><span data-ttu-id="1152f-208">関連項目</span><span class="sxs-lookup"><span data-stu-id="1152f-208">Related topics</span></span>
 
-<span data-ttu-id="7a2c0-277">![数値1のアイコン: 前のスクリーンショットで吹き出しを参照します ](media/teamscallout1.png)
- 。**キュー内の最大の呼び出し**は、同時にキュー内で待機できる最大呼び出しを設定するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-277">![Icon of the number 1, references a callout in the previous screenshot](media/teamscallout1.png)
-**Maximum calls in the queue** Use this to set the maximum calls that can wait in the queue at the same time.</span></span> <span data-ttu-id="7a2c0-278">既定値は50ですが、0 ~ 200 の範囲で指定できます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-278">The default is 50, but it can range from 0 to 200.</span></span> <span data-ttu-id="7a2c0-279">この制限に達すると、通話は以下の [ **通話の最大数に達した場合** ] 設定で設定した方法で処理されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-279">When this limit is reached, the call is handled in the way you set on the **When the maximum number of calls is reached** setting below.</span></span>
+[<span data-ttu-id="1152f-209">電話システムで利用できる機能</span><span class="sxs-lookup"><span data-stu-id="1152f-209">Here's what you get with Phone System</span></span>](here-s-what-you-get-with-phone-system.md)
 
-* * *
+[<span data-ttu-id="1152f-210">サービス電話番号を取得する</span><span class="sxs-lookup"><span data-stu-id="1152f-210">Getting service phone numbers</span></span>](getting-service-phone-numbers.md)
 
-<span data-ttu-id="7a2c0-280">![番号2のアイコンは、 ](media/teamscallout2.png)
- 通話キューが最大サイズ (キュー設定の**最大呼び出し**を使用して設定されている場合) で**の通話の最大数に達し**たときに、前のスクリーンショットの吹き出しを参照しているため、新しい着信呼び出しに何が起こるかを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-280">![Icon of the number 2, references a callout in the previous screenshot](media/teamscallout2.png)
-**When the maximum number of calls is reached** When the call queue reaches its maximum size (set using the **Maximum calls in the queue** setting), you can choose what happens to new incoming calls.</span></span>
+[<span data-ttu-id="1152f-211">国および地域ごとの電話会議および通話プランの利用可能性</span><span class="sxs-lookup"><span data-stu-id="1152f-211">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-- <span data-ttu-id="7a2c0-281">**切断** 通話が切断されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-281">**Disconnect** The call is disconnected.</span></span>
+[<span data-ttu-id="1152f-212">新しい Csonline Applicationinstance</span><span class="sxs-lookup"><span data-stu-id="1152f-212">New-CsOnlineApplicationInstance</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-- <span data-ttu-id="7a2c0-282">**リダイレクト先** 選択する場合は、次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-282">**Redirect to** When you choose this, select one of the following:</span></span>
-
-  - <span data-ttu-id="7a2c0-283">**組織内のユーザー** 電話システムのライセンスを持ち、エンタープライズ Voip が有効になっている、または通話プランが設定されているオンラインユーザー。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-283">**Person in organization** An online user with a Phone System license and is enabled for Enterprise Voice or has a Calling Plan.</span></span>
-
-  - <span data-ttu-id="7a2c0-284">**音声アプリ** 既に作成されている通話キューまたは自動応答に関連付けられているリソースアカウントの名前を選択します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-284">**Voice app** Select the name of a resource account associated to either a call queue or auto attendant that has already been created.</span></span>
-
-  - <span data-ttu-id="7a2c0-285">**外部電話番号** 発信者を指定した外部電話番号に転送するには、このオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-285">**External phone number** Choose this to transfer the caller to an external phone number that you specify.</span></span> <span data-ttu-id="7a2c0-286">次の点に注意してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-286">Note the following:</span></span>
-
-    - <span data-ttu-id="7a2c0-287">PSTN 転送を行うアプリケーションに関連付けられているリソースアカウントには、電話番号が必要です。また、仮想電話システムのライセンスが割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-287">The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license.</span></span> <span data-ttu-id="7a2c0-288">電話システムのライセンスはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-288">Phone System licenses aren't supported.</span></span> <span data-ttu-id="7a2c0-289">さらに、リソースアカウントには、次のいずれかが含まれている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-289">Additionally, the resource account must have one of the following:</span></span>
-        - <span data-ttu-id="7a2c0-290">通話プラン番号を持つリソースアカウントの場合は、 [通話プラン](calling-plans-for-office-365.md) ライセンスを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-290">For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.</span></span>
-        - <span data-ttu-id="7a2c0-291">直接ルーティング番号を持つリソースアカウントの場合は、 [オンラインボイスルーティングポリシー](manage-voice-routing-policies.md)を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-291">For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).</span></span>
-    - <span data-ttu-id="7a2c0-292">表示される発信電話番号は、次のように決定されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-292">The outbound phone number that's displayed is determined as follows:</span></span>
-        - <span data-ttu-id="7a2c0-293">プラン番号を呼び出すには、元の発信者の電話番号が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-293">For Calling Plan numbers, the original caller's phone number is displayed.</span></span>
-        - <span data-ttu-id="7a2c0-294">直接ルーティング番号の場合、送信された番号は、次のように、SBC の P (PAI) 設定に基づいています。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-294">For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:</span></span>
-            - <span data-ttu-id="7a2c0-295">[無効] に設定すると、元の発信者の電話番号が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-295">If set to Disabled, the original caller's phone number is displayed.</span></span> <span data-ttu-id="7a2c0-296">これは既定の推奨設定です。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-296">This is the default and recommended setting.</span></span>
-            - <span data-ttu-id="7a2c0-297">[有効] に設定されている場合は、リソースアカウントの電話番号が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-297">If set to Enabled, the resource account phone number is displayed.</span></span>
-    - <span data-ttu-id="7a2c0-298">通話プラン trunks と直接ルーティング trunks の間の転送はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-298">Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.</span></span>
-    
-  - <span data-ttu-id="7a2c0-299">**ボイスメール** この通話キューによって受信されたボイスメールにアクセスする必要がある、組織内のユーザーを含む Microsoft 365 グループを選び、次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-299">**Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:</span></span>
-      - <span data-ttu-id="7a2c0-300">**オーディオファイルを再生する** このオプションを選択した場合は、[ **ファイルのアップロード** ] を選択して、記録されたグリーティングメッセージをアップロードします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-300">**Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message.</span></span> <span data-ttu-id="7a2c0-301">記録は 5 MB 以下でなければなりません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-301">The recording can be no larger than 5 MB.</span></span> 
-      - <span data-ttu-id="7a2c0-302">**あいさつ文を入力する** このオプションを選択した場合は、システムで読み取るテキスト (最大1000文字) を入力します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-302">**Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters).</span></span> <span data-ttu-id="7a2c0-303">たとえば、「申し訳ございません。通話を発信できません。」と入力します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-303">For example, you can type "Sorry that we can't take your call at this time.</span></span> <span data-ttu-id="7a2c0-304">ビープ音の後に、お客さまの名前、電話番号、通話の理由を入力してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-304">Please leave your name, phone number, and reason for your call after the beep."</span></span>
-
-      <span data-ttu-id="7a2c0-305">ボイスメールメッセージの音声からテキストへの書き起こしを有効にするには、[議事録] をオンにします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-305">Turn on transcription if you want to enable voice-to-text transcription of voicemail messages.</span></span>
-
-      <span data-ttu-id="7a2c0-306">ボイスメールメッセージは、指定した Microsoft 365 グループに送信されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-306">Voicemail messages are sent to the Microsoft 365 group you specify.</span></span> <span data-ttu-id="7a2c0-307">ボイスメールメッセージにアクセスするには、Outlook のグループに移動することで、グループのメンバーがそのメッセージを開くことができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-307">To access voicemail messages, members of the group can open them by navigating to the group in Outlook.</span></span>
-
-* * *
-
-<span data-ttu-id="7a2c0-308">![数値3のアイコンは、前のスクリーンショットで吹き出しを参照してい ](media/teamscallout3.png)
- **ます。通話タイムアウト: 最長待機時間**は、通話がタイムアウトになり、リダイレクトまたは切断する必要がある時間を決定することもできます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-308">![Icon of the number 3, references a callout in the previous screenshot](media/teamscallout3.png)
-**Call Timeout: maximum wait time** You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected.</span></span> <span data-ttu-id="7a2c0-309">リダイレクトされる場所は、 **通話** のタイムアウト設定を設定する方法に基づいています。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-309">Where it is redirected is based on how you set the **When a call times out** setting.</span></span> <span data-ttu-id="7a2c0-310">0 から 45 分に設定できます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-310">You can set a time from 0 to 45 minutes.</span></span>
-
-<span data-ttu-id="7a2c0-311">タイムアウト値は秒単位で、 15 秒間隔で設定することができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-311">The timeout value can be set in seconds, at 15-second intervals.</span></span> <span data-ttu-id="7a2c0-312">これにより、通話フローを細かく操作することができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-312">This allows you to manipulate the call flow with finer granularity.</span></span> <span data-ttu-id="7a2c0-313">たとえば、エージェントによって応答されないすべての通話を30秒以内に指定して、ディレクトリ検索の自動応答に移動することができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-313">For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search auto attendant.</span></span>
-
-<span data-ttu-id="7a2c0-314">![数字4のアイコンは、通話がキュー設定での通話の待機時間に設定した制限値に達したときに、前のスクリーンショットの吹き出しを参照している ](media/teamscallout4.png)
- **When call times out**ため、通話に対する処理を選択できます。 **How long a call can wait in the queue**</span><span class="sxs-lookup"><span data-stu-id="7a2c0-314">![Icon of the number 4, references a callout in the previous screenshot](media/teamscallout4.png)
-**When call times out** When the call reaches the limit you set on the **How long a call can wait in the queue** setting, you can choose what happens to the call:</span></span>
-
-- <span data-ttu-id="7a2c0-315">**切断** 通話が切断されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-315">**Disconnect** The call is disconnected.</span></span>
-
-- <span data-ttu-id="7a2c0-316">**この通話のリダイレクト先** このオプションを選択すると、次のオプションが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-316">**Redirect this call to** When you choose this, you have these options:</span></span>
-
-  - <span data-ttu-id="7a2c0-317">**組織内のユーザー** 電話システムのライセンスを持ち、エンタープライズ Voip 用に有効になっているオンラインユーザー、または通話プランが必要です。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-317">**Person in organization** An online user with a Phone System license and enabled for Enterprise Voice or have Calling Plans.</span></span>
-
-  - <span data-ttu-id="7a2c0-318">**音声アプリ** 既に作成した通話キューまたは自動応答のいずれかに関連付けられているリソースアカウントの名前を選択します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-318">**Voice app** Select the name of a resource account associated with either a call queue or auto attendant that you already created.</span></span>
-
-  - <span data-ttu-id="7a2c0-319">**外部電話番号** 発信者を指定した外部電話番号に転送するには、このオプションを選択します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-319">**External phone number** Choose this to transfer the caller to an external phone number that you specify.</span></span> <span data-ttu-id="7a2c0-320">次の点に注意してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-320">Note the following:</span></span>
-
-    - <span data-ttu-id="7a2c0-321">PSTN 転送を行うアプリケーションに関連付けられているリソースアカウントには、電話番号が必要です。また、仮想電話システムのライセンスが割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-321">The resource account associated with the application making the PSTN transfer out must have a phone number and be assigned a Virtual Phone System license.</span></span> <span data-ttu-id="7a2c0-322">電話システムのライセンスはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-322">Phone System licenses aren't supported.</span></span> <span data-ttu-id="7a2c0-323">さらに、リソースアカウントには、次のいずれかが含まれている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-323">Additionally, the resource account must have one of the following:</span></span>
-        - <span data-ttu-id="7a2c0-324">通話プラン番号を持つリソースアカウントの場合は、 [通話プラン](calling-plans-for-office-365.md) ライセンスを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-324">For a resource account with a Calling Plan number, assign a [Calling Plan](calling-plans-for-office-365.md) license.</span></span>
-        - <span data-ttu-id="7a2c0-325">直接ルーティング番号を持つリソースアカウントの場合は、 [オンラインボイスルーティングポリシー](manage-voice-routing-policies.md)を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-325">For a resource account with a Direct Routing number, assign an [online voice routing policy](manage-voice-routing-policies.md).</span></span>
-    - <span data-ttu-id="7a2c0-326">表示される発信電話番号は、次のように決定されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-326">The outbound phone number that's displayed is determined as follows:</span></span>
-        - <span data-ttu-id="7a2c0-327">プラン番号を呼び出すには、元の発信者の電話番号が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-327">For Calling Plan numbers, the original caller's phone number is displayed.</span></span>
-        - <span data-ttu-id="7a2c0-328">直接ルーティング番号の場合、送信された番号は、次のように、SBC の P (PAI) 設定に基づいています。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-328">For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:</span></span>
-            - <span data-ttu-id="7a2c0-329">[無効] に設定すると、元の発信者の電話番号が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-329">If set to Disabled, the original caller's phone number is displayed.</span></span> <span data-ttu-id="7a2c0-330">これは既定の推奨設定です。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-330">This is the default and recommended setting.</span></span>
-            - <span data-ttu-id="7a2c0-331">[有効] に設定されている場合は、リソースアカウントの電話番号が表示されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-331">If set to Enabled, the resource account phone number is displayed.</span></span>
-    - <span data-ttu-id="7a2c0-332">通話プラン trunks と直接ルーティング trunks の間の転送はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-332">Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.</span></span>
-    - <span data-ttu-id="7a2c0-333">**ボイスメール** この通話キューによって受信されたボイスメールにアクセスする必要がある、組織内のユーザーを含む Microsoft 365 グループを選び、次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-333">**Voicemail** Select the Microsoft 365 group that contains the users in your organization that need to access voicemail received by this call queue, and then select one of the following:</span></span>
-      - <span data-ttu-id="7a2c0-334">**オーディオファイルを再生する** このオプションを選択した場合は、[ **ファイルのアップロード** ] を選択して、記録されたグリーティングメッセージをアップロードします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-334">**Play an audio file** If you choose this option, select **Upload file** to upload a recorded greeting message.</span></span> <span data-ttu-id="7a2c0-335">記録は 5 MB 以下でなければなりません。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-335">The recording can be no larger than 5 MB.</span></span>
-      
-      - <span data-ttu-id="7a2c0-336">**あいさつ文を入力する** このオプションを選択した場合は、システムで読み取るテキスト (最大1000文字) を入力します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-336">**Type in a greeting message** If you choose this option, enter text you want the system to read (up to 1000 characters).</span></span> <span data-ttu-id="7a2c0-337">たとえば、「申し訳ございません。通話を発信できません。」と入力します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-337">For example, you can type "Sorry that we can't take your call at this time.</span></span> <span data-ttu-id="7a2c0-338">ビープ音の後に、お客さまの名前、電話番号、通話の理由を入力してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-338">Please leave your name, phone number, and reason for your call after the beep."</span></span>
-
-      <span data-ttu-id="7a2c0-339">ボイスメールメッセージの音声からテキストへの書き起こしを有効にするには、[議事録] をオンにします。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-339">Turn on transcription if you want to enable voice-to-text transcription of voicemail messages.</span></span>
-
-      <span data-ttu-id="7a2c0-340">ボイスメールメッセージは、指定した Microsoft 365 グループに送信されます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-340">Voicemail messages are sent to the Microsoft 365 group you specify.</span></span> <span data-ttu-id="7a2c0-341">ボイスメールメッセージにアクセスするには、Outlook のグループに移動することで、グループのメンバーがそのメッセージを開くことができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-341">To access voicemail messages, members of the group can open them by navigating to the group in Outlook.</span></span>
-
-## <a name="change-caller-id-for-outbound-calls"></a><span data-ttu-id="7a2c0-342">発信通話の発信者番号認識を変更する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-342">Change Caller ID for outbound calls</span></span>
-
-<span data-ttu-id="7a2c0-343">通話エージェントの id を保護するには、次の例のように、 **CsCallingLineIdentity** コマンドレットを使用して、発信通話の発信者番号を、通話キュー、自動応答、または任意のサービス番号に変更します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-343">To protect a call agent's identity, change their caller ID for outbound calls to a call queue, auto attendant, or any service number with the **New-CsCallingLineIdentity** cmdlet as in the following example:</span></span>
-
-```powershell
-New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
-```
-
-<span data-ttu-id="7a2c0-344">次の例のように、 **、callinglineidentity** コマンドレットを使用してユーザーにポリシーを適用します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-344">Then apply the policy to the user with the **Grant-CallingLineIdentity** cmdlet as in the following example:</span></span> 
-
-```powershell
-Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
-```
-
-<span data-ttu-id="7a2c0-345">詳細については、「 [組織での発信者番号の使用方法](/microsoftteams/how-can-caller-id-be-used-in-your-organization)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-345">For more information, see [How can caller ID be used in your organization](/microsoftteams/how-can-caller-id-be-used-in-your-organization).</span></span>
-
-## <a name="call-queue-cmdlets"></a><span data-ttu-id="7a2c0-346">通話キューのコマンドレット</span><span class="sxs-lookup"><span data-stu-id="7a2c0-346">Call queue cmdlets</span></span>
-
-<span data-ttu-id="7a2c0-347">Windows PowerShell を使用して通話キューを作成し、設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-347">You can also use Windows PowerShell to create and set up call queues.</span></span> <span data-ttu-id="7a2c0-348">通話キューを管理するために使用するコマンドレットを以下に示します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-348">Here are the cmdlets that you use to manage a call queue.</span></span>
-
-- [<span data-ttu-id="7a2c0-349">新規-CsCallQueue</span><span class="sxs-lookup"><span data-stu-id="7a2c0-349">New-CsCallQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
-
-- [<span data-ttu-id="7a2c0-350">Set-CsCallQueue</span><span class="sxs-lookup"><span data-stu-id="7a2c0-350">Set-CsCallQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
-
-- [<span data-ttu-id="7a2c0-351">Get-CsCallQueue</span><span class="sxs-lookup"><span data-stu-id="7a2c0-351">Get-CsCallQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
-
-- [<span data-ttu-id="7a2c0-352">Remove-CsCallQueue</span><span class="sxs-lookup"><span data-stu-id="7a2c0-352">Remove-CsCallQueue</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
-
-### <a name="more-about-windows-powershell"></a><span data-ttu-id="7a2c0-353">Windows PowerShell の詳細について</span><span class="sxs-lookup"><span data-stu-id="7a2c0-353">More about Windows PowerShell</span></span>
-
-- <span data-ttu-id="7a2c0-354">Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-354">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="7a2c0-355">Windows PowerShell を使用すると、1つの管理ポイントで Microsoft 365 または Office 365 および Microsoft Teams を管理することができます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-355">With Windows PowerShell, you can manage Microsoft 365 or Office 365 and Microsoft Teams with a single point of administration.</span></span> <span data-ttu-id="7a2c0-356">複数のタスクがある場合は、日常業務を簡素化できます。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-356">It can simplify your daily work, when you have multiple tasks to do.</span></span> <span data-ttu-id="7a2c0-357">Windows PowerShell の使用を開始するには、次のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-357">To get started with Windows PowerShell, see these topics:</span></span>
-
-  - [<span data-ttu-id="7a2c0-358">Windows PowerShell と Skype for Business Online の概要</span><span class="sxs-lookup"><span data-stu-id="7a2c0-358">An introduction to Windows PowerShell and Skype for Business Online</span></span>](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-  - [<span data-ttu-id="7a2c0-359">Office 365 PowerShell を使用する必要がある理由</span><span class="sxs-lookup"><span data-stu-id="7a2c0-359">Why you need to use Office 365 PowerShell</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
-
-- <span data-ttu-id="7a2c0-360">複数のユーザーに対して同時に変更を加える場合、Windows PowerShell では、Microsoft Teams 管理センターでの速度、シンプルさ、生産性の向上について多くの利点があります。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-360">Windows PowerShell has many advantages in speed, simplicity, and productivity over the Microsoft Teams admin center when you make changes for many users at once.</span></span> <span data-ttu-id="7a2c0-361">次のトピックでこれらの利点について説明します。</span><span class="sxs-lookup"><span data-stu-id="7a2c0-361">Learn about these advantages in the following topics:</span></span>
-
-  - [<span data-ttu-id="7a2c0-362">Windows PowerShell を使用して Microsoft 365 または Office 365 を管理する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-362">Manage Microsoft 365 or Office 365 with Windows PowerShell</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
-
-  - [<span data-ttu-id="7a2c0-363">Windows PowerShell 用にコンピューターをセットアップする</span><span class="sxs-lookup"><span data-stu-id="7a2c0-363">Set up your computer for Windows PowerShell</span></span>](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-## <a name="related-topics"></a><span data-ttu-id="7a2c0-364">関連トピック</span><span class="sxs-lookup"><span data-stu-id="7a2c0-364">Related topics</span></span>
-
-[<span data-ttu-id="7a2c0-365">電話システムで利用できる機能</span><span class="sxs-lookup"><span data-stu-id="7a2c0-365">Here's what you get with Phone System</span></span>](here-s-what-you-get-with-phone-system.md)
-
-[<span data-ttu-id="7a2c0-366">サービス電話番号を取得する</span><span class="sxs-lookup"><span data-stu-id="7a2c0-366">Getting service phone numbers</span></span>](getting-service-phone-numbers.md)
-
-[<span data-ttu-id="7a2c0-367">国および地域ごとの電話会議および通話プランの利用可能性</span><span class="sxs-lookup"><span data-stu-id="7a2c0-367">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[<span data-ttu-id="7a2c0-368">新しい Csonline Applicationinstance</span><span class="sxs-lookup"><span data-stu-id="7a2c0-368">New-CsOnlineApplicationInstance</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[<span data-ttu-id="1152f-213">Windows PowerShell と Skype for Business Online の概要</span><span class="sxs-lookup"><span data-stu-id="1152f-213">An introduction to Windows PowerShell and Skype for Business Online</span></span>](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

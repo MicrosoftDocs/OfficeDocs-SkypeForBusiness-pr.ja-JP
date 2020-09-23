@@ -8,43 +8,43 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
-description: エッジサーバーのプールにあるサーバーのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: 93d8169eaaa6c0ca69b9210addea37ac21a8c5b7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: エッジ サーバーのプール内にあるサーバーのプロパティを編集するには、次の操作を行います。
+ms.openlocfilehash: e62cfa000379ed7318c5780bf91ac40035e6beee
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820089"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218918"
 ---
-# <a name="edge-machine-settings-expander"></a><span data-ttu-id="38d58-103">エッジ コンピューター設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="38d58-103">Edge Machine Settings Expander</span></span>
+# <a name="edge-machine-settings-expander"></a><span data-ttu-id="67034-103">エッジ コンピューター設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="67034-103">Edge Machine Settings Expander</span></span>
  
-<span data-ttu-id="38d58-104">エッジサーバーのプールにあるサーバーのプロパティを編集するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="38d58-104">To edit the properties for a server in a pool of Edge Servers, do the following:</span></span>
+<span data-ttu-id="67034-104">エッジ サーバーのプール内にあるサーバーのプロパティを編集するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="67034-104">To edit the properties for a server in a pool of Edge Servers, do the following:</span></span>
   
-<span data-ttu-id="38d58-105">**内部名または fqdn**は、完全修飾ドメイン名 (fqdn) を編集することで変更できます。</span><span class="sxs-lookup"><span data-stu-id="38d58-105">The **Internal name or FQDN** can be changed by editing the fully qualified domain name (FQDN).</span></span> <span data-ttu-id="38d58-106">FQDN は、ドメインネームシステム (DNS) host (A) レコードと、内部エッジネットワークインターフェイスに対してサーバーに割り当てられている証明書のサブジェクト名と一致する必要があります。</span><span class="sxs-lookup"><span data-stu-id="38d58-106">The FQDN must match the Domain Name System (DNS) host (A) record, and the subject name of the certificate assigned to the server for the internal Edge network interface.</span></span> <span data-ttu-id="38d58-107">[**内部 ip アドレス**] の値は、境界ネットワーク設計を基準とした内部ネットワークとして定義されるネットワークインターフェイスに割り当てられている ip アドレスを定義します。</span><span class="sxs-lookup"><span data-stu-id="38d58-107">The value of **Internal IP address** defines the IP address that is assigned the network interface that is defined as an internal network, relative to the perimeter network design.</span></span>
+<span data-ttu-id="67034-p101">[**内部名または FQDN**] を変更するには、完全修飾ドメイン名 (FQDN) を編集します。FQDN が、ドメイン ネーム システム (DNS) ホスト (A) レコード、および内部エッジ ネットワーク インターフェイスのサーバーに割り当てられている証明書のサブジェクト名と一致している必要があります。[**内部 IP アドレス**] の値で、境界ネットワーク設定に関連して、内部ネットワークとして定義されたネットワーク インターフェイスに割り当てられる IP アドレスを定義します。</span><span class="sxs-lookup"><span data-stu-id="67034-p101">The **Internal name or FQDN** can be changed by editing the fully qualified domain name (FQDN). The FQDN must match the Domain Name System (DNS) host (A) record, and the subject name of the certificate assigned to the server for the internal Edge network interface. The value of **Internal IP address** defines the IP address that is assigned the network interface that is defined as an internal network, relative to the perimeter network design.</span></span>
   
-<span data-ttu-id="38d58-108">ダイアログの次の3つのセクションでは、このエッジサーバーの外部構成の IP アドレスを定義しています。</span><span class="sxs-lookup"><span data-stu-id="38d58-108">The next three sections of the dialog define the IP addresses for the external configuration of this Edge Server.</span></span> <span data-ttu-id="38d58-109">IP アドレスを変更できるかどうかは、この設定によって、エッジサーバープールレベルのプロパティ設定で、[ **web 会議に個別の FQDN と IP アドレスを有効にする] と [A/V** ] を設定することによって変わります。</span><span class="sxs-lookup"><span data-stu-id="38d58-109">The ability to change the IP addresses is affected by the setting **Enable separate FQDN and IP address for web conferencing and A/V** on the Properties settings at the Edge Server pool level.</span></span>
+<span data-ttu-id="67034-p102">ダイアログの次の 3 つのセクションで、このエッジ サーバーの外部構成の IP アドレスを定義します。IP アドレスを変更できるかどうかは、エッジ サーバーのプール レベルでの [プロパティ] 設定の [**Web 会議と音声ビデオに対する別々の FQDN および IP アドレス設定の有効化**] の設定の影響を受けます。</span><span class="sxs-lookup"><span data-stu-id="67034-p102">The next three sections of the dialog define the IP addresses for the external configuration of this Edge Server. The ability to change the IP addresses is affected by the setting **Enable separate FQDN and IP address for web conferencing and A/V** on the Properties settings at the Edge Server pool level.</span></span>
   
-## <a name="sip-access"></a><span data-ttu-id="38d58-110">SIP アクセス</span><span class="sxs-lookup"><span data-stu-id="38d58-110">SIP Access</span></span>
+## <a name="sip-access"></a><span data-ttu-id="67034-110">SIP アクセス</span><span class="sxs-lookup"><span data-stu-id="67034-110">SIP Access</span></span>
 
-<span data-ttu-id="38d58-111">ネットワークインターフェイスに割り当てられている外部 IP アドレスをセッション開始プロトコル (SIP) アクセス用に編集します。</span><span class="sxs-lookup"><span data-stu-id="38d58-111">Edit the external IP address that is assigned to the network interface for Session Initiation Protocol (SIP) access.</span></span> <span data-ttu-id="38d58-112">この IP アドレスは、パブリック IP アドレスまたはプライベート IP アドレス範囲内のアドレスのいずれかになります。</span><span class="sxs-lookup"><span data-stu-id="38d58-112">This IP address can either be a public IP address or an address in the private IP address range.</span></span>
+<span data-ttu-id="67034-p103">セッション開始プロトコル (SIP) アクセスのネットワーク インターフェイスに割り当てられている外部 IP アドレスを編集します。この IP アドレスは、パブリック IP アドレスまたはプライベート IP アドレス範囲内のアドレスのどちらにすることもできます。</span><span class="sxs-lookup"><span data-stu-id="67034-p103">Edit the external IP address that is assigned to the network interface for Session Initiation Protocol (SIP) access. This IP address can either be a public IP address or an address in the private IP address range.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="38d58-113">[ **Web 会議のために個別の FQDN と ip アドレスを有効にする] と**[プール設定] ページで [A/V] を有効にした場合、SIP アクセスの ip アドレスのみが編集可能になります。</span><span class="sxs-lookup"><span data-stu-id="38d58-113">If the setting **Enable separate FQDN and IP address for web conferencing and A/V** on the pool settings page is enabled, only the IP address for SIP access will be available for editing.</span></span>
+> <span data-ttu-id="67034-113">プール設定ページの [**Web 会議と音声ビデオに個別の FQDN と IP アドレスを有効にする**] が有効になっている場合、SIP アクセスの IP アドレスのみ編集できます。</span><span class="sxs-lookup"><span data-stu-id="67034-113">If the setting **Enable separate FQDN and IP address for web conferencing and A/V** on the pool settings page is enabled, only the IP address for SIP access will be available for editing.</span></span>
   
-## <a name="web-conferencing"></a><span data-ttu-id="38d58-114">Web 会議</span><span class="sxs-lookup"><span data-stu-id="38d58-114">Web Conferencing</span></span>
+## <a name="web-conferencing"></a><span data-ttu-id="67034-114">Web 会議</span><span class="sxs-lookup"><span data-stu-id="67034-114">Web Conferencing</span></span>
 
-<span data-ttu-id="38d58-115">Web 会議用のネットワークインターフェイスに割り当てられている外部 IP アドレスを編集します。</span><span class="sxs-lookup"><span data-stu-id="38d58-115">Edit the external IP address that is assigned to the network interface for web conferencing.</span></span> <span data-ttu-id="38d58-116">この IP アドレスには、パブリック IP アドレス、またはプライベート IP アドレス範囲内のアドレスのいずれかを使うことができます。</span><span class="sxs-lookup"><span data-stu-id="38d58-116">This IP address can be either a public IP address or an address in the private IP address range.</span></span>
+<span data-ttu-id="67034-p104">Web 会議のネットワーク インターフェイスに割り当てられている外部 IP アドレスを編集します。この IP アドレスは、パブリック IP アドレスまたはプライベート IP アドレス範囲内のアドレスのどちらにすることもできます。</span><span class="sxs-lookup"><span data-stu-id="67034-p104">Edit the external IP address that is assigned to the network interface for web conferencing. This IP address can be either a public IP address or an address in the private IP address range.</span></span>
   
-## <a name="audiovideo"></a><span data-ttu-id="38d58-117">音声/ビデオ</span><span class="sxs-lookup"><span data-stu-id="38d58-117">Audio/Video</span></span>
+## <a name="audiovideo"></a><span data-ttu-id="67034-117">オーディオ/ビデオ</span><span class="sxs-lookup"><span data-stu-id="67034-117">Audio/Video</span></span>
 
-<span data-ttu-id="38d58-118">音声/ビデオ用のネットワークインターフェイス (A/V) に割り当てられている外部 IP アドレスを編集します。</span><span class="sxs-lookup"><span data-stu-id="38d58-118">Edit the external IP address that is assigned to the network interface for audio/video (A/V).</span></span> <span data-ttu-id="38d58-119">この IP アドレスには、パブリック IP アドレス、またはプライベート IP アドレス範囲内のアドレスのいずれかを使うことができます。</span><span class="sxs-lookup"><span data-stu-id="38d58-119">This IP address can be either a public IP address or an address in the private IP address range.</span></span>
+<span data-ttu-id="67034-p105">音声ビデオ (A/V) のネットワーク インターフェイスに割り当てられている外部 IP アドレスを編集します。この IP アドレスは、パブリック IP アドレスまたはプライベート IP アドレス範囲内のアドレスのどちらにすることもできます。</span><span class="sxs-lookup"><span data-stu-id="67034-p105">Edit the external IP address that is assigned to the network interface for audio/video (A/V). This IP address can be either a public IP address or an address in the private IP address range.</span></span>
   
-<span data-ttu-id="38d58-120">[NAT を**有効にするパブリック IP アドレス**] の設定は、一般に、A/V ネットワークインターフェイスまたはエッジサーバーの外部インターフェイスで使用されるパブリックアドレスです。</span><span class="sxs-lookup"><span data-stu-id="38d58-120">The setting for **NAT enabled public IP address used** is the public address used by the external interface for either the A/V network interface or the Edge Server in general.</span></span> <span data-ttu-id="38d58-121">この設定で**web 会議で個別の FQDN と IP アドレスを有効にし、A/V**を有効にした場合、このパブリック IP アドレスがすべての3つの外部インターフェイスで使用されます。</span><span class="sxs-lookup"><span data-stu-id="38d58-121">If the setting **Enable separate FQDN and IP address for web conferencing and A/V** is enabled, this public IP address is used for all three external interfaces.</span></span>
+<span data-ttu-id="67034-p106">通常、[**NAT が有効な使用中のパブリック IP アドレス**] の設定は、音声ビデオ ネットワーク インターフェイスまたはエッジ サーバーの外部インターフェイスで使用されるパブリック アドレスです。[**Web 会議と音声ビデオに個別の FQDN と IP アドレスを有効にする**] が有効になっている場合、このパブリック IP アドレスが 3 つのすべての外部インターフェイスに使用されます。</span><span class="sxs-lookup"><span data-stu-id="67034-p106">The setting for **NAT enabled public IP address used** is the public address used by the external interface for either the A/V network interface or the Edge Server in general. If the setting **Enable separate FQDN and IP address for web conferencing and A/V** is enabled, this public IP address is used for all three external interfaces.</span></span>
   
 
