@@ -8,43 +8,43 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
-description: '[外部設定] のプロパティを定義するには、次のように構成します。'
-ms.openlocfilehash: 95e55625ec698d8762832e812a79547daf4d2bcf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[外部設定] の下でプロパティを定義するには、次のものを構成します。'
+ms.openlocfilehash: 2de4b562d5b6a8b8ef9707d603fe5f4667893ba4
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820059"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218248"
 ---
-# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a><span data-ttu-id="707a5-103">Lync Server 2010 用のエッジ サーバー FQDN 設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="707a5-103">Edge Server FQDN Settings Expander for Lync Server 2010</span></span>
+# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a><span data-ttu-id="a4de4-103">Lync Server 2010 用のエッジ サーバー FQDN 設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="a4de4-103">Edge Server FQDN Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="707a5-104">[**外部設定**] のプロパティを定義するには、次のように構成します。</span><span class="sxs-lookup"><span data-stu-id="707a5-104">To define the properties under **External settings**, configure the following:</span></span>
+<span data-ttu-id="a4de4-104">[**外部設定**] の下でプロパティを定義するには、次のものを構成します。</span><span class="sxs-lookup"><span data-stu-id="a4de4-104">To define the properties under **External settings**, configure the following:</span></span>
   
-<span data-ttu-id="707a5-105">Web 会議や音声/ビデオ用のプールの FQDN と IP アドレスを個別に定義する場合は、[ **web 会議と ip アドレスを別々に使用**する] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="707a5-105">Select the **Enable separate FQDN and IP address for web conferencing and A/V** check box if you want to define distinct Pool FQDN and IP addresses for web conferencing and audio/video.</span></span>
+<span data-ttu-id="a4de4-105">Web 会議と音声ビデオに対して別々のプールの FQDN と IP アドレスを定義する場合は、[**Web 会議と音声ビデオに対する別々の FQDN および IP アドレス設定の有効化**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="a4de4-105">Select the **Enable separate FQDN and IP address for web conferencing and A/V** check box if you want to define distinct Pool FQDN and IP addresses for web conferencing and audio/video.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="707a5-106">独立した FQDN と IP アドレスのチェックボックスをオンにしない場合は、エッジサーバーによって提供される3つのサービスごとに個別のポートを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="707a5-106">If you choose to not select the check box for separate FQDN and IP addresses, you must provide distinct ports for each of the three services provided by the Edge Server.</span></span> <span data-ttu-id="707a5-107">構成する完全修飾ドメイン名は、アクセスエッジサービスに関連付けられている FQDN です。</span><span class="sxs-lookup"><span data-stu-id="707a5-107">The only fully qualified domain name that is to configure is the FQDN associated with the Access Edge service.</span></span> 
+> <span data-ttu-id="a4de4-106">別々の FQDN と IP アドレスのチェックボックスをオンにしない場合は、エッジサーバーによって提供される3つのサービスごとに個別のポートを指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a4de4-106">If you choose to not select the check box for separate FQDN and IP addresses, you must provide distinct ports for each of the three services provided by the Edge Server.</span></span> <span data-ttu-id="a4de4-107">構成する完全修飾ドメイン名は、アクセスエッジサービスに関連付けられている FQDN です。</span><span class="sxs-lookup"><span data-stu-id="a4de4-107">The only fully qualified domain name that is to configure is the FQDN associated with the Access Edge service.</span></span> 
   
-<span data-ttu-id="707a5-108">A/v Edge サービスでネットワークアドレス変換 (NAT) IP アドレスと構成を使用する場合は、[ **a/v edge サービスは nat を有効**にする] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="707a5-108">Select the **A/V Edge service is NAT enabled** check box if you want the A/V Edge service to use a network address translation (NAT) IP address and configuration.</span></span>
+<span data-ttu-id="a4de4-108">音声ビデオエッジサービスでネットワークアドレス変換 (NAT) IP アドレスと構成を使用する場合は、[ **音声ビデオエッジサービスの nat を有効** にする] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="a4de4-108">Select the **A/V Edge service is NAT enabled** check box if you want the A/V Edge service to use a network address translation (NAT) IP address and configuration.</span></span>
   
-<span data-ttu-id="707a5-109">有効なエッジサービスの場合、[**ポート**] に**プールの FQDN**とポートを入力します。</span><span class="sxs-lookup"><span data-stu-id="707a5-109">For the enabled Edge services, you type a **Pool FQDN** and a port under **Ports**</span></span>
+<span data-ttu-id="a4de4-109">有効なエッジ サービスに対して、**プールの FQDN** とポートを [**ポート**] の下に入力します。</span><span class="sxs-lookup"><span data-stu-id="a4de4-109">For the enabled Edge services, you type a **Pool FQDN** and a port under **Ports**</span></span>
   
-- <span data-ttu-id="707a5-110">**アクセスエッジサービス**プールの FQDN と、サービスを一意に識別するポートを定義します。</span><span class="sxs-lookup"><span data-stu-id="707a5-110">Define the **Access Edge service** Pool FQDN and a port that uniquely identifies the service.</span></span>
+- <span data-ttu-id="a4de4-110">**アクセス エッジ サービス**のプール FQDN とそのサービスを一意に識別するポートを定義します。</span><span class="sxs-lookup"><span data-stu-id="a4de4-110">Define the **Access Edge service** Pool FQDN and a port that uniquely identifies the service.</span></span>
     
-- <span data-ttu-id="707a5-111">**Web 会議エッジサービス**プールの FQDN を定義します ([web 会議用に個別の FQDN と IP アドレスを有効にし、A/V が選択されていない場合)。また、サービスを一意に識別するポート。</span><span class="sxs-lookup"><span data-stu-id="707a5-111">Define the **Web Conferencing Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
+- <span data-ttu-id="a4de4-111">**Web 会議エッジ サービス**のプール FQDN ([Web 会議と音声ビデオに対する別々の FQDN および IP アドレス設定の有効化] を選択していない場合) とそのサービスを一意に識別するポートを定義します。</span><span class="sxs-lookup"><span data-stu-id="a4de4-111">Define the **Web Conferencing Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
     
-- <span data-ttu-id="707a5-112">**A/v Edge サービス**プールの FQDN を定義します ([web 会議のために別々の FQDN と IP アドレスを有効にし、a/v が選択されていない場合)。また、サービスを一意に識別するポート。</span><span class="sxs-lookup"><span data-stu-id="707a5-112">Define the **A/V Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
+- <span data-ttu-id="a4de4-112">**音声ビデオ エッジ サービス**のプール FQDN ([Web 会議と音声ビデオに対する別々の FQDN および IP アドレス設定の有効化] を選択していない場合) とそのサービスを一意に識別するポートを定義します。</span><span class="sxs-lookup"><span data-stu-id="a4de4-112">Define the **A/V Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
     
-  <span data-ttu-id="707a5-113">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="707a5-113">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="a4de4-113">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="a4de4-113">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="707a5-114">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="707a5-114">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="a4de4-114">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="a4de4-114">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="707a5-115">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="707a5-115">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="a4de4-115">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="a4de4-115">**Help** Displays this help screen.</span></span>
   
 

@@ -8,27 +8,27 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
-description: サーバーの役割をフロントエンド プールに今すぐ関連付けて、他のサーバーの展開に必要な特定の機能のサポートを有効にできます。後でサーバーの役割をフロントエンド プールに関連付けることもできます。フロントエンド プールに関連付けることができるサーバーの役割には、次のものがあります。
-ms.openlocfilehash: b34ea46b708727056f3e8f3779555df63f4d7e06
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: サーバーの役割をフロントエンドプールに関連付けることによって、他のサーバーの展開を必要とする特定の機能のサポートを有効にすることができます。 後でサーバーの役割をフロントエンドプールに関連付けることもできます。 フロントエンドプールに関連付けることができるサーバーの役割には、次のものがあります。
+ms.openlocfilehash: 13d796bd5c33b0f56ebc43ba11f82a188cce0c76
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820909"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218388"
 ---
-# <a name="add-front-end-associations"></a><span data-ttu-id="74175-105">フロントエンドの関連付けの追加</span><span class="sxs-lookup"><span data-stu-id="74175-105">Add Front End Associations</span></span>
+# <a name="add-front-end-associations"></a><span data-ttu-id="f51fe-105">フロントエンドの関連付けの追加</span><span class="sxs-lookup"><span data-stu-id="f51fe-105">Add Front End Associations</span></span>
 
-<span data-ttu-id="74175-p102">サーバーの役割をフロントエンド プールに今すぐ関連付けて、他のサーバーの展開に必要な特定の機能のサポートを有効にできます。後でサーバーの役割をフロントエンド プールに関連付けることもできます。フロントエンド プールに関連付けることができるサーバーの役割には、次のものがあります。</span><span class="sxs-lookup"><span data-stu-id="74175-p102">You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool now. You can also associate server roles with the Front End pool at a later time. The server roles that can be associated with a Front End pool include the following:</span></span>
+<span data-ttu-id="f51fe-106">サーバーの役割をフロントエンドプールに関連付けることによって、他のサーバーの展開を必要とする特定の機能のサポートを有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="f51fe-106">You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool now.</span></span> <span data-ttu-id="f51fe-107">後でサーバーの役割をフロントエンドプールに関連付けることもできます。</span><span class="sxs-lookup"><span data-stu-id="f51fe-107">You can also associate server roles with the Front End pool at a later time.</span></span> <span data-ttu-id="f51fe-108">フロントエンドプールに関連付けることができるサーバーの役割には、次のものがあります。</span><span class="sxs-lookup"><span data-stu-id="f51fe-108">The server roles that can be associated with a Front End pool include the following:</span></span>
 
-- <span data-ttu-id="74175-p103">音声ビデオ エッジ サーバー。音声ビデオ エッジ サーバーの実装の詳細については、「計画」のドキュメントの「[Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="74175-p103">A/V Edge Server. For details about the implementation of an A/V Edge Server, see [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in the Planning documentation.</span></span>
+- <span data-ttu-id="f51fe-109">音声ビデオエッジサーバー。</span><span class="sxs-lookup"><span data-stu-id="f51fe-109">A/V Edge Server.</span></span> <span data-ttu-id="f51fe-110">音声ビデオエッジサーバーの実装の詳細については、「計画」のドキュメントの「 [planning For 会議](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f51fe-110">For details about the implementation of an A/V Edge Server, see [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in the Planning documentation.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="74175-p104">これらのいずれかの機能のサポートを今すぐ有効にする場合、公開するトポロジ設計に、選択した各機能を実装するために必要なサーバー コンポーネントが含まれます。トポロジの公開をエラーなしに正常に実行するためには、ドメインに物理コンピューターが参加している必要があります。たとえば、アーカイブのサポートを今すぐ有効にする場合、組織で通信のアーカイブを開始する前に、アーカイブ サーバーを展開して、適切なアーカイブ オプションを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="74175-p104">If you enable support for any of these features now, the topology design that you publish will include the server components that are required to implement each selected feature. For the publishing of a topology to succeed without error, you must have the physical computers joined to the domain. For example, if you enable support for archiving now, you must then deploy an Archiving Server and configure the appropriate archiving options before you start archiving communications for your organization.</span></span>
+> <span data-ttu-id="f51fe-111">これらの機能のいずれかのサポートを現時点で有効にした場合、公開するトポロジ設計には、選択した各機能を実装するために必要なサーバーコンポーネントが含まれます。</span><span class="sxs-lookup"><span data-stu-id="f51fe-111">If you enable support for any of these features now, the topology design that you publish will include the server components that are required to implement each selected feature.</span></span> <span data-ttu-id="f51fe-112">エラーが発生しない状態でトポロジの公開を成功させるには、物理コンピューターがドメインに参加している必要があります。</span><span class="sxs-lookup"><span data-stu-id="f51fe-112">For the publishing of a topology to succeed without error, you must have the physical computers joined to the domain.</span></span> <span data-ttu-id="f51fe-113">たとえば、アーカイブのサポートを今すぐ有効にする場合は、組織の通信のアーカイブを開始する前に、アーカイブサーバーを展開し、適切なアーカイブオプションを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f51fe-113">For example, if you enable support for archiving now, you must then deploy an Archiving Server and configure the appropriate archiving options before you start archiving communications for your organization.</span></span>
 
 

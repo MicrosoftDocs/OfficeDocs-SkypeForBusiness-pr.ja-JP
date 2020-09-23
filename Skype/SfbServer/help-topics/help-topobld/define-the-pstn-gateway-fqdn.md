@@ -1,5 +1,5 @@
 ---
-title: PSTN ゲートウェイの FQDN の定義
+title: PSTN ゲートウェイの FQDN を定義する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,26 +8,26 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPstnGatewayFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
-description: エンタープライズボイスコンポーネントを PSTN またはプライベートブランチ exchange (PBX) に接続する、公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。
-ms.openlocfilehash: b3555b8e018d355894f3926cbfb5a827f7f72701
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: エンタープライズ Voip コンポーネントを PSTN または構内交換機 (PBX) に接続する公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。
+ms.openlocfilehash: 52fe8eabfc41e8acc183f7dc3d02a7233734f275
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820169"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218308"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="4cfd1-103">PSTN ゲートウェイの FQDN の定義</span><span class="sxs-lookup"><span data-stu-id="4cfd1-103">Define the PSTN Gateway FQDN</span></span>
+# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="a7853-103">PSTN ゲートウェイの FQDN を定義する</span><span class="sxs-lookup"><span data-stu-id="a7853-103">Define the PSTN Gateway FQDN</span></span>
 
-<span data-ttu-id="4cfd1-104">エンタープライズボイスコンポーネントを PSTN またはプライベートブランチ exchange (PBX) に接続する、公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。</span><span class="sxs-lookup"><span data-stu-id="4cfd1-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
+<span data-ttu-id="a7853-104">エンタープライズ Voip コンポーネントを PSTN または構内交換機 (PBX) に接続する公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。</span><span class="sxs-lookup"><span data-stu-id="a7853-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
 
-<span data-ttu-id="4cfd1-105">詳細については、「 [Skype For Business Server の PSTN 接続コンポーネント 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4cfd1-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
+<span data-ttu-id="a7853-105">詳細については、「 [PSTN connectivity components In Skype For Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a7853-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4cfd1-106">関連項目</span><span class="sxs-lookup"><span data-stu-id="4cfd1-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a7853-106">関連項目</span><span class="sxs-lookup"><span data-stu-id="a7853-106">See also</span></span>
 
-[<span data-ttu-id="4cfd1-107">PSTN ゲートウェイの展開オプション</span><span class="sxs-lookup"><span data-stu-id="4cfd1-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[<span data-ttu-id="a7853-107">PSTN ゲートウェイの展開オプション</span><span class="sxs-lookup"><span data-stu-id="a7853-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

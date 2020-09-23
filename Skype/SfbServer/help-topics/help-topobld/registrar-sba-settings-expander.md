@@ -8,39 +8,39 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RegistrarSBASettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
-description: 回復性の設定を編集し、次のプロパティを構成します。
-ms.openlocfilehash: b5c5982dc0a49d1d2002465f4f7a2c6381dd5370
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[復元] の設定を編集し、以下のプロパティを構成します。'
+ms.openlocfilehash: 6424b43ea7c56760bb8d58ee35d9804c49c435dd
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819349"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217218"
 ---
-# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="316a9-103">レジストラー SBA 設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="316a9-103">Registrar SBA Settings Expander</span></span>
+# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="8b334-103">レジストラー SBA 設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="8b334-103">Registrar SBA Settings Expander</span></span>
 
-<span data-ttu-id="316a9-104">**回復性**の設定を編集し、次のプロパティを構成します。</span><span class="sxs-lookup"><span data-stu-id="316a9-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+<span data-ttu-id="8b334-104">[**復元**] の設定を編集し、以下のプロパティを構成します。</span><span class="sxs-lookup"><span data-stu-id="8b334-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
 
-- <span data-ttu-id="316a9-105">リストから**関連付けられているユーザーサービスとバックアップレジストラープール**を選択します。</span><span class="sxs-lookup"><span data-stu-id="316a9-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
+- <span data-ttu-id="8b334-105">一覧から [**関連付けられているユーザー サービスとバックアップ レジストラー プール**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="8b334-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
 
-    <span data-ttu-id="316a9-106">必要に応じて、[**自動フェールオーバーと音声のフェールバック**] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="316a9-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+    <span data-ttu-id="8b334-106">必要に応じて、[**音声に対する自動フェールオーバーとフェールバック**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="8b334-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
 
-    <span data-ttu-id="316a9-107">**ボイスエラー検出間隔 (sec)** と**ボイスバックの間隔 (秒)** を構成します。</span><span class="sxs-lookup"><span data-stu-id="316a9-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="316a9-108">既定では、音声の障害検出と240秒のボイスバックの間隔は120秒です。</span><span class="sxs-lookup"><span data-stu-id="316a9-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+    <span data-ttu-id="8b334-p101">[**音声のエラー検出間隔 (秒)**] と [**音声のフェールバック間隔 (秒)**] を構成します。既定では、音声エラー検出の間隔は 120 秒、音声フェールバックの間隔は 240 秒です。</span><span class="sxs-lookup"><span data-stu-id="8b334-p101">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**. By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
 
     > [!CAUTION]
-    > <span data-ttu-id="316a9-109">フェールオーバーとフェールバックの間隔に対して定義した秒数は、回復性が期待どおりに動作することを確認するために慎重にテストする必要があります。</span><span class="sxs-lookup"><span data-stu-id="316a9-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="316a9-110">間隔を低 (つまり、120秒未満) に設定した場合、またはフェールオーバーとフェールバックがあまりにも設定されていない場合は、実際のフェールオーバーが予期したとおりに機能しないことがあります。</span><span class="sxs-lookup"><span data-stu-id="316a9-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span>
+    > <span data-ttu-id="8b334-p102">復元が意図したとおりに動作するように、フェールオーバーおよびフェールバックの間隔に対して定義する秒数を慎重にテストする必要があります。間隔の設定が短すぎる場合 (120 秒未満) またはフェールオーバーとフェールバックの設定の差が小さすぎる場合は、実際のフェールオーバーおよびフェールバックが意図したとおりに動作しない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="8b334-p102">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span>
 
-  <span data-ttu-id="316a9-111">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="316a9-111">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="8b334-111">[**OK**]: ダイアログでの変更を受け入れて確定します。</span><span class="sxs-lookup"><span data-stu-id="8b334-111">**OK** Accepts and commits changes to the dialog.</span></span>
 
-  <span data-ttu-id="316a9-112">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="316a9-112">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="8b334-112">[**キャンセル**]: 変更を破棄してダイアログを閉じます。</span><span class="sxs-lookup"><span data-stu-id="8b334-112">**Cancel** Discards changes and closes the dialog.</span></span>
 
-  <span data-ttu-id="316a9-113">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="316a9-113">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="8b334-113">[**ヘルプ**]: このヘルプ画面を表示します。</span><span class="sxs-lookup"><span data-stu-id="8b334-113">**Help** Displays this help screen.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="316a9-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="316a9-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8b334-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="8b334-114">See also</span></span>
 
-[<span data-ttu-id="316a9-115">エンタープライズボイスの回復性の計画</span><span class="sxs-lookup"><span data-stu-id="316a9-115">Planning for Enterprise Voice Resiliency</span></span>](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[<span data-ttu-id="8b334-115">エンタープライズ VoIP の復旧の計画</span><span class="sxs-lookup"><span data-stu-id="8b334-115">Planning for Enterprise Voice Resiliency</span></span>](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
