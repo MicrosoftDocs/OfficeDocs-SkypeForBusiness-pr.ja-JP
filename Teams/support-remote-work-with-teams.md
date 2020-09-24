@@ -16,22 +16,22 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cb886083b2f381c16c6b3b0acc13746f641a67
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583816"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235825"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
-組織がリモートまたは自宅で作業するユーザーをサポートするために、Microsoft Teams を使用を始めたいとお考えですか ? この記事のガイダンスを使用してすぐに起動し、実行してください。
+ユーザーの組織は、リモートまたは自宅で作業するユーザーをサポートするために、Microsoft Teams を使用を始めたいと考えていますか ? この記事のガイダンスを使用してすぐに起動し、実行してください。
 
 中小企業のお客様は、「[リモートワークで小規模ビジネスを強化する](https://aka.ms/remote-business)」をお見逃しなく。
 
 ## <a name="it-admin-guidance"></a>IT 管理者用ガイダンス
 
-- [Teams を含む有料サブスクリプション](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)で、全員が Teams にアクセスできることを確認します。 または、適格な組織は **[Teams の無料版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用でき、従業員は **[Teams Exploratory](teams-exploratory.md)** エクスペリエンスのライセンス認証を行います。
+- [Teams を含む有料サブスクリプション](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)で、全員が Teams にアクセスできることを確認します。 または、適格な組織は **[Teams の無料版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用でき、従業員は **[Teams Exploratory](teams-exploratory.md)** エクスペリエンスのアクティブ認証を行えます。
 
 -  Teams が含まれているサブスクリプションが既にある場合は、**[Teams をすべてのユーザーに対して有効にします](user-access.md)**。
     
@@ -40,9 +40,9 @@ ms.locfileid: "46583816"
 詳細については、以下の「[リモート ワーカーをサポートするためのその他のリソース](#additional-resources-for-supporting-remote-workers)」を参照してください。
 
 
-## <a name="end-user-communications"></a>エンド ユーザー コミュニケーション
+## <a name="end-user-communications"></a>エンドユーザーとのコミュニケーション
 
-Teams をユーザーへと展開するための準備 **[カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)** を入手します。これには、次の便利なメール テンプレートが含まれています。
+Teams をユーザーに展開するための準備として、 **[カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)** を入手します。これには、次の便利なメール テンプレートが含まれています。
 
 - **お知らせメール**は、Teams が利用できることをユーザーに伝える際に使用できます。
 
@@ -74,7 +74,7 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
    - [Microsoft Teams によって Microsoft 社員のリモート作業が実現している方法](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
    - [Teams により中小規模企業でのリモート作業をサポートする](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT が社員のリモート作業を実現した 9 つの方法](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT が社員のリモート勤務を実現した 9 つの方法](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 教育機関用 Teams 
@@ -82,7 +82,7 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
 
    - 「[リモート学習の開始](remote-learning-edu.md)」をぜひご覧ください。
 
-1. 従業員のインターネット アクセスと帯域幅が、Teams のために十分なものであることを確認します。 これを行う方法については、「[Teams 用に組織のネットワークを準備する](prepare-network.md)」のガイダンスをご覧ください。
+1. 従業員のインターネット アクセスと帯域幅が、Teams のために十分なものであることを確認します。 十分な帯域幅を確保する方法については、「[Teams 用に組織のネットワークを準備する](prepare-network.md)」のガイダンスをご覧ください。
 
    - 帯域幅が十分でない場合、Teams 会議の音質に影響を与える可能性があります。 低帯域幅の条件下での会議エクスペリエンスを最良なものにするために、ビデオの使用を控え、通話と会議の音声に公衆交換電話網 (PSTN) を使用することをユーザーに推奨します。 
 
@@ -128,13 +128,13 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
       
       - [Teams を使用してリモートで作業する](https://products.office.com/microsoft-teams/work-remotely)
 
-      - Teams ブログ (2020 年 2 月 28 日): [Microsoft Teams を使用して在宅勤務するための 4 つのヒント](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
+      - Teams ブログ (2020 年 2 月 28 日): [Microsoft Teams を使用して在宅勤務をするための 4 つのヒント](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Microsoft 365 または Office 365 を使用して共同作業を行う](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [Microsoft 365 または Office 365 を使用してリモートで作業する](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
-      - [オンラインで作業する場合の 9 つのヒント](https://www.microsoft.com/tips/home/working-remotely)
+      - [リモートで作業する場合の 9 つのヒント](https://www.microsoft.com/tips/home/working-remotely)
 
       - [Teams を使ったリモート ワーク](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1)についての Satya Nadella と Teams 製品マーケティング マネージャーの Aya Tange によるビデオ (2020 年 3 月 20 日)
 
@@ -150,7 +150,7 @@ Teams をユーザーへと展開するための準備 **[カスタマー サク
     
    - 組織の在宅勤務および健康と安全に関するポリシーに関する情報を送信します。
     
-   - 全社的な会議および活動には、[ライブ イベント](teams-live-events/what-are-teams-live-events.md)を使用します。 参加者が 250 人以上の会議は、ライブ イベントにします。 [会議](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)と[ライブ イベント](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)のライブ キャプションをオンにします。 また、ライブ イベントで字幕をオンにします。 これらの機能により、受け入れの幅が広がり、生産性やわかりやすさも向上します。 
+   - 全社的な会議および活動には、[ライブ イベント](teams-live-events/what-are-teams-live-events.md)を使用します。 会議がTeams の通常の会議の[制限と仕様](limits-specifications-teams.md)に達した場合は、ライブイベントにします。 [会議](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)と[ライブ イベント](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)のライブ キャプションをオンにします。 ライブ イベントで字幕をオンにします。 これらの機能により、受け入れの幅が広がり、生産性やわかりやすさも向上します。 
 
 4.  ユーザーの問い合わせに対応するために [ヘルプ デスク](troubleshoot-installation.md)の人員を増やします。
 
