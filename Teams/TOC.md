@@ -8,9 +8,11 @@
 
 # トレーニング
 ## [概要](training-microsoft-teams-landing-page.md)
-## [Teams のインストラクターによるトレーニング](instructor-led-training-teams-landing-page.yml)
 ## [Teams の管理者トレーニング](itadmin-readiness.md)
 ## [Teams のエンド ユーザー トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Ignite 2020 のTeamsセッション](ignite-2020-landing-page.md)
+## [Teams のライブ トレーニング](instructor-led-training-teams-landing-page.yml)
+## [Teams のオンライン トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Teams の展開方法](How-to-roll-out-teams.md)
@@ -85,7 +87,6 @@
 ### [ユーザーにポリシーを割り当てる](assign-policies.md)
 ### [アクティビティ ログでポリシーの割り当てを表示する](activity-log.md)
 ### [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
-### [特定のユーザーの SharePoint へのアクセスをブロックする](block-access-sharepoint.md)
 ### [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
 ### [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 ### [Teams でフィードバック ポリシーを管理する](manage-feedback-policies-in-teams.md)
@@ -112,21 +113,24 @@
 # アプリ、ボット、コネクタ
 
 ## [概要](deploy-apps-microsoft-teams-landing-page.md)
+## [Power Platform との統合](teams-power-platfom-integration.md)
 ## [Teams 用アプリを管理する](manage-apps.md)
 ## [Teams でのアプリの管理設定](admin-settings.md)
 ## [組み込みタブとカスタム タブの使用](built-in-custom-tabs.md)
 ## [Microsoft 365 または Office 365 とカスタム コネクタを使用する](Office-365-custom-connectors.md)
 ## [リソース固有の同意](resource-specific-consent.md)
-## [Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
-## [アプリ パッケージをアップロードしてカスタム アプリを発行する](upload-custom-apps.md)
+## カスタム アプリ
+### [Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
+### [Microsoft Teams 管理センターで電源プラットフォームアプリを管理する](manage-power-platform-apps.md)
+### [アプリ パッケージをアップロードしてカスタム アプリを発行する](upload-custom-apps.md)
 ## [アプリ証明書](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [アプリのアクセス許可と考慮事項](app-permissions.md)
 ## [Teams サードパーティ アプリのサービスを購入する](purchase-third-party-apps.md)
 ## [Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Teams で組織のリストアプリを管理する](manage-lists-app.md)
 ## [組織のタスク アプリを管理する](manage-tasks-app.md)
-## [Teams 管理センターで称賛アプリを管理する](manage-praise-app.md)
 ## [チーム対象の階層を設定する](set-up-your-team-hierarchy.md)
+## [Teams 管理センターで称賛アプリを管理する](manage-praise-app.md)
 ## [Teams と連動するように Skype 会議アプリを構成する](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -183,6 +187,7 @@
 ## [サポートされていないブラウザーでの Teams 会議](unsupported-browsers.md)
 ## [Teams でのデスクトップ共有を構成する](configure-desktop-sharing.md)
 ## [Teams のクラウド会議の記録](cloud-recording.md)
+## [OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う](tmr-meeting-recording-change.md)
 ## [コンタクト センターの統合](teams-contact-center.md)
 ## [Outlook で Teams の会議アドインを使用する](teams-add-in-for-outlook.md)
 ## [ユーザーの [電話する] 機能をセットアップする](set-up-the-call-me-feature-for-your-users.md)
@@ -255,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [クラウド ビデオ相互運用性](cloud-video-interop.md)
 
 ## ライブ イベント
@@ -290,14 +294,15 @@
 #### [発信回線 ID と発信者名の詳細](more-about-calling-line-id-and-calling-party-name.md)
 
 ### 自動応答と呼び出しキュー 
-#### [クラウド自動応答とは](what-are-phone-system-auto-attendants.md)
-#### [クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
+#### [計画](plan-auto-attendant-call-queue.md)
+#### [Auto attendantのセットアップ](create-a-phone-system-auto-attendant.md)
+#### [通話キューの設定](create-a-phone-system-call-queue.md)
 #### [小規模ビジネスの例: 自動応答をセットアップする](tutorial-org-aa.yml)
 #### [小規模ビジネスの例 - 呼び出しキューをセットアップする](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Teams のリソース アカウントを管理する](manage-resource-accounts.md)
-#### [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
 #### [休日を設定する](set-up-holidays-in-teams.md)
 #### [自動応答および呼び出しキューの通話に Teams から直接応答する](answer-auto-attendant-and-call-queue-calls.md)
+#### [ダイヤルおよび音声参照](dial-voice-reference.md)
 
 ### [受信通話をブロックする](block-inbound-calls.md)
 ### [コール パークおよび取得](call-park-and-retrieve.md)
@@ -733,7 +738,12 @@
 #### [イベントの監査ログを検索する](audit-log-events.md)
 ## プライバシー
 ### [プライバシーと Microsoft Teams](teams-privacy.md)
+### [データの収集プラクティス](data-collection-practices.md)
 ### [Teams のデータの場所](location-of-data-in-teams.md)
+### [特定のユーザーの Sharepoint Online へのアクセスをブロックする](block-access-sharepoint.md)
+### [ポリシー制御の概要](policy-control-overview.md)
+### [モバイル診断データ](policy-control-diagnostic-data-mobile.md)
+### [デスクトップ クライアントの診断データ](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
@@ -780,8 +790,6 @@
 # リファレンス
 
 ## [Teams の制限と仕様](limits-specifications-teams.md)
-## [Teams のデータの場所](location-of-data-in-teams.md)
-## [データの収集プラクティス](data-collection-practices.md)
 
 ## Teams のロールアウトの準備
 ### [Teams 用に組織のネットワークを準備する](prepare-network.md)
@@ -979,5 +987,5 @@
 ### [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)
 
 ## [探索アンケートをアップグレードする](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [Microsoft Teams エクスポート API を使ってコンテンツをエクスポートする](export-teams-content.md)
 ## [Teams 管理者機能のリリースノート](release-notes/release-notes.md)
