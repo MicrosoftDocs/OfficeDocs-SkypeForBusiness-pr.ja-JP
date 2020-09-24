@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3cc7cdf9dc685e595a7efa3c0eddbf63f9ee79f1
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 82140caa97d8e754d6264429b7fbbd07d1877f0a
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897697"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203730"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -119,6 +119,9 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |ビデオまたは音声通話でチャットに参加できるユーザーの数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
+
+>[!Note]
+> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 ### <a name="meeting-expiration"></a>会議の有効期限
 

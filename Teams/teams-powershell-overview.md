@@ -15,53 +15,53 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
 ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/15/2020
 ms.locfileid: "47814366"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell の概要
 
-Microsoft Teams PowerShell は、PowerShell コマンドラインから直接 Teams を管理するためのコマンドレットのセットです。 作成された .NET Standard では、Teams PowerShell は、Azure Shell を含むすべてのプラットフォームで PowerShell 5.1 x 以降で動作します。
+Microsoft Teams PowerShell は、PowerShell コマンド ラインから直接 Teams を管理するための一連のコマンドレットです。 .NET Standard で記述された Teams PowerShell は、Windows 上の PowerShell 5.1、PowerShell 6.x 以降、Azure Shell を含むすべてのプラットフォームで動作します。
 
-PowerShell の使用を開始する前に、 [インストール](teams-powershell-install.md)する必要があります。 
+PowerShell の使用を開始する前に、[それをインストール](teams-powershell-install.md)する必要があります。 
 
 > [!WARNING]
-> PowerShell 7 と Teams PowerShell について、既知の問題があります。 問題が解決されるまで、PowerShell 5.1 を使うことをお勧めします。
+> PowerShell 7 および Teams PowerShell には、既知の問題があります。 問題が解決されるまで PowerShell 5.1 の使用をお勧めします。
 
-## <a name="releases"></a>日本語
-
-
-Teams PowerShell は、2種類のリリースで [PowerShell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams) で利用できます。
-
-- **一般的な可用性 (GA)**: プロダクション対応のコマンドレット、毎月更新されます。
-
-- **パブリックプレビュー**: 機能への早期アクセス。 GA よりも頻繁に更新される可能性があります。
-
-両方のリリースの機能の追加と改善の詳細については、 [Teams PowerShell のリリースノート](teams-powershell-release-notes.md)を参照してください。
+## <a name="releases"></a>リリース
 
 
-## <a name="manage-teams-with-powershell"></a>PowerShell を使用してチームを管理する
+Teams PowerShell は、2 つのリリース タイプで [PowerShell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams)を利用できます。
 
-Teams PowerShell モジュールを使用して Teams を完全に管理します。
+- **一般提供 (GA)**: 本番対応のコマンドレットであり、毎月更新されます。
 
-- [Microsoft Teams powershell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): teams powershell モジュールには、チーム、チャット、チャネルを管理するためのコマンドレットが含まれています。
+- **パブリック プレビュー**: 機能にいち早くアクセスします。 GA よりも頻繁に更新される場合があります。
+
+両方のリリースでの機能の追加と改善の詳細については、「[Teams PowerShell リリース ノート](teams-powershell-release-notes.md)」をご覧ください。
+
+
+## <a name="manage-teams-with-powershell"></a>PowerShell で Teams を管理する
+
+Teams PowerShell モジュールを使用して、Teams を完全に管理します。
+
+- [Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): Teams PowerShell モジュールには、チーム、チャット、およびチャネルを管理するためのコマンドレットが含まれています。
 
 > [!NOTE]
-> 最新の [Teams powershell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) は、Skype For Business Online Connector と統合されており、teams powershell 管理用の1つのモジュールを提供しています。
+> 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)は Skype for Business Online コネクタと統合され、Teams PowerShell 管理用の単一モジュールを提供します。
 
-- [Skype For Business Powershell connector](https://www.microsoft.com/download/details.aspx?id=39366): skype For business powershell コネクタは、Teams PowerShell モジュールの一部になりました。
+- [Skype for Business PowerShell コネクタ](https://www.microsoft.com/download/details.aspx?id=39366): Skype for Business PowerShell コネクタは、Teams PowerShell モジュールの一部になりました。
 
-これらのモジュールを使用してチームを管理する方法の詳細については、「 [Teams PowerShell を](teams-powershell-managing-teams.md)使用してチームを管理する」を参照してください。
+これらのモジュールを使用して Teams を管理するための完全なガイドについては、「[Teams PowerShell で Teams を管理する](teams-powershell-managing-teams.md)」をご覧ください。
 
 
 ## <a name="related-topics"></a>関連トピック
 
-[Teams PowerShell のインストール](teams-powershell-install.md)
+[Teams Powershell のインストール](teams-powershell-install.md)
 
-[Teams PowerShell を使用してチームを管理する](teams-powershell-managing-teams.md)
+[Teams PowerShell での Teams の管理](teams-powershell-managing-teams.md)
 
-[Teams PowerShell リリースノート](teams-powershell-release-notes.md)
+[Teams PowerShell のリリース ノート](teams-powershell-release-notes.md)
 
 [Microsoft Teams コマンドレット リファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 

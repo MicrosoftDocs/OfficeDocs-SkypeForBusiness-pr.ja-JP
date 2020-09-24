@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7849892870f54f43f0fda16564ad472426d46cd2
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 2932488128ccf6f0bff12f3aad39181ed56c1cd0
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171445"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235815"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams のエクスポート Api を使用してコンテンツをエクスポートする
 
@@ -31,8 +31,8 @@ Teams のエクスポート Api を使用すると、Microsoft Teams から1:1 �
 
 これらのエクスポート Api の使用方法については、次の例をご覧ください。
 
-- **例 1**: 組織内で microsoft teams を有効にしており、特定のユーザーのデータ範囲を渡すことによって、microsoft teams のすべてのメッセージを日付にエクスポートする必要がある場合。
-- **例 2**: データ範囲を指定して、すべてのユーザーメッセージを日常的にプログラムでエクスポートする場合は、次の操作を行います。 エクスポート Api は、指定した日付範囲内に作成または更新されたすべてのメッセージを取得できます。
+- **例 1**: 組織内で microsoft teams を有効にしていて、特定のユーザーの日付範囲を渡すことによって、microsoft teams のすべてのメッセージを最新の日付にエクスポートする必要がある場合。
+- **例 2**: 日付範囲を指定して、すべてのユーザーメッセージを日常的にプログラムでエクスポートする場合は、次の操作を行います。 エクスポート Api は、指定した日付範囲内に作成または更新されたすべてのメッセージを取得できます。
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Teams のエクスポート Api でサポートされている機能
 
@@ -50,13 +50,13 @@ Teams のエクスポート Api を使用すると、Microsoft Teams から1:1 �
 - **例 1** は、フィルターを使わずに、ユーザーのすべてのメッセージを取得する単純なクエリです。
 
     ```HTTP
-    GET [https://graph.microsoft.com/beta/users/{id}/chats/allMessages](https://graph.microsoft.com/beta/users/%7bid%7d/chats/allMessages)
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
     ```
 
 - **例 2** は、日付時刻フィルターと上位の50メッセージを指定して、ユーザーのすべてのメッセージを取得するサンプルクエリです。
 
     ```HTTP
-    https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 
 >[!NOTE]
@@ -64,7 +64,7 @@ Teams のエクスポート Api を使用すると、Microsoft Teams から1:1 �
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>Teams のエクスポート Api にアクセスするための前提条件 
 
-- Teams のエクスポート Api は、現在、Microsoft Api 利用規約の対象となるプレビューに含まれています。  この機能は、必要なライセンスを持っているユーザーとテナントでのみ利用可能です。 適切なライセンスを持たない Api にアクセスしようとすると、403エラーが発生します。
+- Teams のエクスポート Api は現在プレビューに含まれています。 この機能は、Api に [必要なライセンス](https://aka.ms/teams-changenotification-licenses) を持つユーザーとテナントでのみ利用可能です。 今後、Microsoft は、API を介してアクセスするデータ量に基づいて追加の料金を支払うことをユーザーに要求する場合があります。
 - 機密データにアクセスする microsoft Graph の microsoft Teams Api は、保護された Api と見なされます。 エクスポート Api を使用するには、権限と同意を超えた追加の検証が必要です。 これらの保護された Api へのアクセスを要求するには、 [要求フォーム](https://aka.ms/teamsgraph/requestaccess)に入力します。
 - アプリケーションのアクセス許可は、サインインしたユーザーが存在しない状態で実行されるアプリで使われます。アプリケーションのアクセス許可は、管理者のみが各人することができます。 次の権限が必要です。
 

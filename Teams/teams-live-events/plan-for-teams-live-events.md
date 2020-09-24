@@ -18,12 +18,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61f929452f26bd83b5d4deea93113f9edac29e26
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: bb3bd06ff936f0c26e34cf72fb9519b53896cf2f
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962818"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203920"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -45,6 +45,9 @@ Teams ライブ イベントを作成または表示するために割り当て�
 - コンテンツを外部のアプリまたはデバイスと共有する場合は、Microsoft Stream のライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。 
 
   ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream に保存されず、削除されるまでの 30 日間の制限付きで Azure Media Services (AMS) に保存されます。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
+
+>[!Note]
+> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 > [!NOTE]
 > 現時点では、Teams ライブ イベントの作成と開催に使用できる Microsoft 365 Small Business プランはありません。
