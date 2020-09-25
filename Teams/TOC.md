@@ -8,9 +8,8 @@
 
 # トレーニング
 ## [概要](training-microsoft-teams-landing-page.md)
-## [Teams の管理者トレーニング](itadmin-readiness.md)
-## [Teams のエンド ユーザー トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-## [Ignite 2020 のTeamsセッション](ignite-2020-landing-page.md)
+## [Teams 用の管理者トレーニング](itadmin-readiness.md)
+## [Ignite 2020 の Teams セッション](ignite-2020-landing-page.md)
 ## [Teams のライブ トレーニング](instructor-led-training-teams-landing-page.yml)
 ## [Teams のオンライン トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -367,7 +366,6 @@
 ##### [定義と RFC 標準](direct-routing-protocols.md)
 ##### [SIP プロトコル](direct-routing-protocols-SIP.md)
 ##### [メディア プロトコル](direct-routing-protocols-media.md)
-#### [呼び戻しボットをセットアップする](direct-routing-ringback-bot.md)
 #### [音声ルーティング ポリシーを管理する](manage-voice-routing-policies.md)
 
 
