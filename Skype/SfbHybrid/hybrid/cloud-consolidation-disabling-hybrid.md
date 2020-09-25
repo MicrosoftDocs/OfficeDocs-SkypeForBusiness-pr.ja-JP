@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この付録には、Teams と Skype for Business のクラウド統合の一部としてハイブリッドを無効にするための詳細な手順が含まれています。
-ms.openlocfilehash: a049491550ed26c61c587824034035a4c3a40a07
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221501"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269661"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>ハイブリッドを無効にしてクラウドへの移行を完了する
 
@@ -39,6 +39,8 @@ ms.locfileid: "44221501"
 3. オンプレミスの Microsoft 365 または Office 365 との通信機能を無効にします。
 
 これらの手順は、1つの単位として一緒に実行する必要があります。 詳細については、以下を参照してください。 また、オンプレミスの展開が切断されると、移行されたユーザーの電話番号を管理するためのガイドラインが提供されます。
+
+これらの手順が完了すると、オンプレミスの Skype for Business サーバーは使用されなくなり、それらのサーバーを再イメージ化することができます。
 
 > [!Important] 
 >Azure ad Connect into Azure AD を使用して、Active Directory 同期の msRTCSIP 属性を引き続き使用する必要があります。  サポートからの指示がない限り、これらの属性はクリアしないでください。  オンプレミス環境では、Disable-CsUser を実行しないでください。 ユーザーの SIP アドレスを変更する必要がある場合は、オンプレミスの Active Directory でこれを実行し、以下に説明するように Azure AD Connect を使用して azure AD にこの変更を同期させます。 同様に、電話番号を変更する必要があり、ユーザーの LineURI が既にオンプレミスで定義されている場合は、オンプレミスの Active Directory でこれを変更する必要があります。
@@ -53,8 +55,8 @@ ms.locfileid: "44221501"
 
     |レコードの種類|名前|TTL|Value|
     |---|---|---|---|
-    |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed。 <span>com|
-    |SRV|_sip _tls|3600|100 1 443 sipdir。 <span>com|
+    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed。 <span>com|
+    |SRV|_sip._tls|3600|100 1 443 sipdir。 <span>com|
     |CNAME| lyncdiscover|   3600|   webdir <span> 。com|
     |CNAME| sip|    3600|   sipdir。 <span>com|
     |CNAME| 満たせ|   3600|   webdir <span> 。com|

@@ -16,12 +16,12 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 04ddae49ae16db6c85f67a078f5f5cc1b59c60e8
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203970"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262464"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -30,7 +30,7 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 関連: [Teams 会議のレコーディングに関するエンド ユーザー向けドキュメント](https://aka.ms/recordmeeting)
 
 >[!Note]
-> [会議の記録用](tmr-meeting-recording-change.md)に Microsoft Stream を使用して OneDrive for Business と SharePoint を使用するように変更した場合は、段階的なアプローチとなります。 起動時には、この機能を有効にすることができます。11月以降、Stream の使用を継続する場合は、すべて2021のお客様に OneDrive for Business と SharePoint の会議のレコーディングを依頼する必要があります。
+> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 > [!NOTE]
 > Teams 会議での役割の使用について、およびユーザーの役割を変更する方法については、「 [teams 会議の役割](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。
@@ -112,7 +112,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 記録は保持され、21日間は表示およびダウンロードできます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。 将来、Microsoft Stream がその国内のデータ所在地では利用できない場合でも、データが国内に保存されるお客様が Teams 会議のレコーディング機能をご利用いただけるようになる予定です。
 
-この変更が有効になると、会議のレコーディングは既定で地理的に最も近い Microsoft Stream のリージョンに保存されます。 Teams のデータが国内に保存されており、会議のレコーディングを国内に保存することをご希望の場合は、この機能を無効にし、Microsoft Stream がお客様の国内のデータ所在地のリージョンに展開されてから有効にすることをお勧めします。 組織内のすべてのユーザーに対してこの機能を無効にするには、Microsoft Teams 管理センターのグローバルチーム会議ポリシーで [ **クラウドレコーディングの許可** ] 設定をオフにします。
+この変更が有効になると、会議のレコーディングは既定で地理的に最も近い Microsoft Stream のリージョンに保存されます。 Teams のデータが国内に保存されており、会議のレコーディングを国内に保存することをご希望の場合は、この機能を無効にし、Microsoft Stream がお客様の国内のデータ所在地のリージョンに展開されてから有効にすることをお勧めします。 組織内のすべてのユーザーに対してこの機能を無効にするには、Microsoft Teams 管理センターのグローバルチーム会議ポリシーで [ **クラウドレコーディングの許可** ] 設定をオフにします。 ただし、記録を Microsoft Stream の最も近い地理的地域に保存することをまだ許可している場合は、この変更が発生する前に、[ **クラウドの記録を許可** する] と [外部の領域を越えて **記録** する] の両方を有効にする必要があります。
+
+グローバルポリシーの地域でのレコーディングを有効にするには、次のコマンドレットを使用します。
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
+
 
 この変更が有効になると、会議のレコーディングを開始した場合の動作は次のようになります。
 

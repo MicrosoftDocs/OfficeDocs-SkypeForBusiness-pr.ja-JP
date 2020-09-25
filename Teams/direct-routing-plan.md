@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820641"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262534"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -189,7 +189,9 @@ Microsoft は、認定署名要求 (CSR) を生成して、SBC の証明書を�
 - T-Systems International GmbH (ドイツのテレ・ Om)
 - QuoVadis
 
-
+Office 365 GCC DoD 環境でのダイレクトルーティングの場合、証明書は次のルート証明機関のいずれかによって生成される必要があります。
+- DigiCert グローバルルート CA
+- DigiCert 高保証 EV ルート CA
 
 > [!NOTE]
 > * SBC で Teams 接続の相互 TLS (MTLS) のサポートが有効になっている場合は、Teams TLS コンテキストの SBC 信頼されたルートストアにボルチモア CyberTrust ルート証明書をインストールする必要があります。 (これは、Microsoft サービス証明書がボルチモアルート証明書を使用するためです)。ボルチモアルート証明書をダウンロードするには、「 [Office 365 の暗号化チェーン](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains)」を参照してください。

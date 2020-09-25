@@ -17,12 +17,12 @@ description: Microsoft 通話プランおよび電話システムダイレクト
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321740"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269651"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -141,7 +141,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、緊急�
 
 ## <a name="configure-location-information-service"></a>位置情報サービスを構成する
 
-チームクライアントは、異なるネットワーク識別子に関連付けられている場所から緊急対応の住所を取得します。 サブネットとワイヤレスアクセスポイント (Wap) はどちらもサポートされています。 (イーサネットスイッチ/ポートのサポートは保留中です)。
+チームクライアントは、異なるネットワーク識別子に関連付けられている場所から緊急対応の住所を取得します。 サブネットとワイヤレスアクセスポイント (Wap) はどちらもサポートされています。 イーサネットスイッチ/ポートは、現時点では Windows 8.1 以降でサポートされています。
 
 クライアントが場所を取得するには、ネットワーク識別子 (サブネット、Wap、スイッチ、ポート) と緊急対応の場所で LIS を設定する必要があります。 これは、Microsoft Teams 管理センターまたは PowerShell を使用して行うことができます。
 
