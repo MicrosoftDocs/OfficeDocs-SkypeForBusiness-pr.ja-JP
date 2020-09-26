@@ -15,20 +15,27 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 2b61f7a923d863086b09d240230a0eb8e5ca897b
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350181"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277239"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者アプリの監査ログ
+
+> [!IMPORTANT]
+> **2020年9月30日の有効な患者アプリは廃止され、ユーザーは Teams app store からインストールできなくなります。今すぐ Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) を使い始めることをお勧めします。**
+>
+>患者のアプリデータは、チームをバックアップする Office 365 グループのグループメールボックスに格納されます。 患者のアプリが廃止されると、そのアプリに関連付けられたデータはすべてこのグループに保持されますが、ユーザーインターフェイスを使ってアクセスすることはできなくなります。 現在のユーザーは、 [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)を使ってリストを再作成できます。
+>
+>[リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)は、すべての Teams ユーザー用にプレインストールされており、すべてのチームとチャネルでタブとして使用できます。 リストを使用すると、ケアチームは、組み込みの [患者] テンプレートを使用して、最初から、または Excel にデータをインポートして、患者リストを作成できます。 組織でのリストアプリの管理方法の詳細については、「 [リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
 
 患者のアプリアクティビティの監査ログでは、インシデント対応のチームが、患者の電子医療記録 (EMR) または患者の医療情報 (PHI) に加えられた変更を確認し、生産性ツールの PHI access の変更または改善を行う必要があるかどうかを判断します。 監査ログイベントは、患者のアプリのユーザーインターフェイスを通じて実行される操作をカバーします。
 
 ## <a name="meet-hipaa-requirements"></a>HIPAA の要件を満たす
 
-HIPAA のガイドラインに従って、医療機関は PHI へのすべてのアクセス記録を保持する必要があります。そのため、変更内容を監査することができます。 Microsoft は、Microsoft Teams を使用して企業のお客様を対象としており、HIPAA の要件と制御に対応しています。 患者のアプリから PHI へのアクセスは完全に管理されており、「[監査ログの検索機能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」の記事に記載されているように、Microsoft 365 コンプライアンスセンターでログを入手できます。
+HIPAA のガイドラインに従って、医療機関は PHI へのすべてのアクセス記録を保持する必要があります。そのため、変更内容を監査することができます。 Microsoft は、Microsoft Teams を使用して企業のお客様を対象としており、HIPAA の要件と制御に対応しています。 患者のアプリから PHI へのアクセスは完全に管理されており、「 [監査ログの検索機能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 」の記事に記載されているように、Microsoft 365 コンプライアンスセンターでログを入手できます。
 
 > [!IMPORTANT]
 > 患者のプライバシーを維持する負担は、法律によって医療機関に適用されます。 法律では、患者は患者のプライバシーを保護する必要があります。また、IT 管理者または HIPAA のコントローラーが、どの看護師、clinician、またはソーシャルワーカーのアクセスまたは変更されたかを簡単に判断する必要があります。 PHI アクセス違反の最も一般的な例の1つは、VIP 患者へのアクセスです。 監査ログ機能は、PHI アクセス違反の調査を実施し、HIPAA の要件を満たすために必要です。
@@ -39,8 +46,8 @@ HIPAA のガイドラインに従って、医療機関は PHI へのすべての
 
 監査は、いくつかの以前の構成に依存します。
 
-1. 管理者は、自分の FHIR サービスプロバイダーと協力して、患者アプリで使用されている形式で EMR を利用できるようにする必要があります。 「[電子医療記録を Microsoft Teams に統合](patients-app.md)する」を参照してください。
-2. 医療機関管理者は、Teams 管理センターで患者アプリを有効にする必要があります。 詳細については、「 [Microsoft Teams でアプリセットアップポリシーを管理](../../teams-app-setup-policies.md)する」を参照してください。
+1. 管理者は、自分の FHIR サービスプロバイダーと協力して、患者アプリで使用されている形式で EMR を利用できるようにする必要があります。 「 [電子医療記録を Microsoft Teams に統合](patients-app.md)する」を参照してください。
+2. 医療機関管理者は、Teams 管理センターで患者アプリを有効にする必要があります。 詳細については、「 [Microsoft Teams でアプリセットアップポリシーを管理](../../teams-app-setup-policies.md) する」を参照してください。
 3. [監査ログの検索](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)を開始して有効にする[前](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)に説明したように、管理者はアクティビティの監査を有効にする必要があります。 監査ログがすでにオンになっている場合は、患者アプリに特別な情報は必要ありません。 医療機関がチーム内でアプリをインストールして実行するたびに、監査ログには PHI アクティビティが記録されます。
 4. その後、管理者は、患者アプリの利用可能状況を知らせる必要があります。また、ヘルスケア担当者は、監査に含めるアクティビティの生成を開始する必要があります。
 
@@ -48,7 +55,7 @@ HIPAA のガイドラインに従って、医療機関は PHI へのすべての
 
 ## <a name="run-an-audit"></a>監査を実行する
 
-アクティビティログの検索を実行する方法については、「[監査ログを検索](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)する」を参照してください。
+アクティビティログの検索を実行する方法については、「 [監査ログを検索](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)する」を参照してください。
 
 ## <a name="logged-activities-for-patients-app"></a>患者アプリのログに記録されたアクティビティ
 
@@ -78,7 +85,7 @@ HIPAA のガイドラインに従って、医療機関は PHI へのすべての
 
 一般的な Microsoft Teams のログに記録されたアクティビティについては、「 [Microsoft teams のアクティビティ](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [監査ログを検索する](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 

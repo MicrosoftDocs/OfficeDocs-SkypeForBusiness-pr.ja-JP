@@ -18,14 +18,21 @@ appliesto:
 ms.reviewer: anach
 description: 電子医療記録を Microsoft Teams の患者アプリと STU3 インターフェイス仕様に統合する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e101f6ca50a76b4b8bb9d3dd33d35fd7706a81f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bcae5b6fae3da469aaaa35b3a0494273fa8d29ba
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905749"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277211"
 ---
 # <a name="stu3-interface-specification"></a>STU3 インターフェイスの仕様
+
+> [!IMPORTANT]
+> **2020年9月30日の有効な患者アプリは廃止され、ユーザーは Teams app store からインストールできなくなります。今すぐ Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) を使い始めることをお勧めします。**
+>
+>患者のアプリデータは、チームをバックアップする Office 365 グループのグループメールボックスに格納されます。 患者のアプリが廃止されると、そのアプリに関連付けられたデータはすべてこのグループに保持されますが、ユーザーインターフェイスを使ってアクセスすることはできなくなります。 現在のユーザーは、 [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)を使ってリストを再作成できます。
+>
+>[リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)は、すべての Teams ユーザー用にプレインストールされており、すべてのチームとチャネルでタブとして使用できます。 リストを使用すると、ケアチームは、組み込みの [患者] テンプレートを使用して、最初から、または Excel にデータをインポートして、患者リストを作成できます。 組織でのリストアプリの管理方法の詳細については、「 [リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -37,13 +44,13 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 - [状況](#encounter)
 - [Allergy Intolerance](#allergyintolerance)
 - [サポート](#coverage)
-- [投薬ステートメント](#medication-request)(PATIENTSAPP の DSTU2 バージョンの MedicationOrder を置き換えます)
+- [投薬ステートメント](#medication-request) (PATIENTSAPP の DSTU2 バージョンの MedicationOrder を置き換えます)
 - 場所 (このリソースから必要な情報は、発生する可能性があります)
 
 > [!NOTE]
 > 患者のリソースは唯一の必須リソースです (アプリがまったく読み込まれなくなります)。ただし、Microsoft Teams の患者アプリを使用して、最も優れたエンドユーザーエクスペリエンスを実現するために、以下に記載されている仕様ごとに、上記のすべてのリソースのサポートを実装することをお勧めします。
 
-複数のリソースの Microsoft Teams の患者アプリからのクエリは、FHIR サーバーの URL に対する要求のバンドル (バッチ) を投稿するものとします。 サーバーは各要求を処理し、各要求によって一致したリソースのバンドルを返します。 詳細と例については[https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction)、「」を参照してください。
+複数のリソースの Microsoft Teams の患者アプリからのクエリは、FHIR サーバーの URL に対する要求のバンドル (バッチ) を投稿するものとします。 サーバーは各要求を処理し、各要求によって一致したリソースのバンドルを返します。 詳細と例については、「」を参照してください [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) 。
 
 ## <a name="capability-statement"></a>機能ステートメント
 
@@ -56,7 +63,7 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
    4. セキュリティ: [OAuth uri 用の拡張子](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (コードは、どのバージョンをピボットするかを理解するために必要です。)
 
-この[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)フィールドセットのその他の詳細については、を参照してください。
+[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)このフィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="patient"></a>診療
 
@@ -78,10 +85,10 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 1. id
 2. family = (ファミリ名に値が含まれているすべての患者を検索)
-3. 指定さ\<れた = substring>
+3. 指定 =\<substring>
 4. 生年月日 = (完全一致)
 5. 性別 = (いずれかの管理者の性別の値)
-6. \_count (返される結果の最大数) <br> 応答には、返されるレコードの数を制限するために、検索と\_カウントの結果として返されるレコードの合計数が含まれている必要があります。
+6. \_count (返される結果の最大数) <br> 応答には、 \_ 返されるレコードの数を制限するために、検索とカウントの結果として返されるレコードの合計数が含まれている必要があります。
 7. 識別子 =\<mrn>
 
 目標は、次のようにして患者の検索とフィルター処理を行うことができるようにすることです。
@@ -97,18 +104,18 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
     要求: <fhir-server>/Patient/_search 要求本文: 指定 = ruth&ファミリ = 黒
     
-    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"メタ": {"lastUpdated": "2019-01-14T23: 45.052 + 00:00"}, "種類": "searchset", "total": [{"relation": [{"relation": "/patient/_search"} "," entry ":):" @ "" {":" self ":> <[{" fullUrl ": <fhir-server>/Patient/<患者 id>", "リソース": {"resourceType": "<"、"id": ">" という、"" という "、" meta ": {" versionId ":" 1 "、" 最終更新 ":" 2017-10-18T18:32: 37.000 + 00:00 "}," テキスト ": {" 状態 ":" 生成された "," div ":"<div>i        <p>Ruth ブラック</p>i      </div>"}," 識別子 ": [{" use ":" 通常 "と入力します。 {" コード ": [{" システム ":"https://hl7.org/fhir/v2/0203"," code ":" "," code ":" "," Display "userselected": false} "," text ":" 医療記録番号 "}," system ":"http://hospital.smarthealthit.org"" "値": "1234567"}], "Ruth": "{" use ":" "{" use ":" "{" use ":" "{" use ":" '
+    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"メタ": {"lastUpdated": "2019-01-14T23: 45.052 + 00:00"}, "種類": "searchset", "total": [{"relation": [{"relation": "/patient/_search"} "," entry ":):" @ "" {":" self ":> <[{" fullUrl ": <fhir-server>/Patient/<患者 id>", "リソース": {"resourceType": "<"、"id": ">" という、"" という "、" meta ": {" versionId ":" 1 "、" 最終更新 ":" 2017-10-18T18:32: 37.000 + 00:00 "}," テキスト ": {" 状態 ":" 生成された "," div ":"<div>i        <p>Ruth ブラック</p>i      </div>"}," 識別子 ": [{" use ":" 通常 "と入力します。 {" コード ": [{" システム ":" "," code ":" "," code ":" "," https://hl7.org/fhir/v2/0203 display "userSelected": false} "," text ":" 医療記録番号 "}," system ":" "" "値": "1234567"}], "Ruth": "{" use ":" "{" use ":" "{" use ":" "{" use ":" ' http://hospital.smarthealthit.org
     ]}]、"電気通信": [{"システム": "電話"、"値": "800-599-2739"、"use": "home"}、"ruth.black@example.com": "800-808-7785"、"値": ""、"使用": ""、"次の値:" "、" 次の値 ":" "、" "、" 女性 "," 生年月日 ":" 1951-08-23 "、" 住所 ": [{" use ":" home "," line ": [" ""、"市": ""、"市区町村" "," 都道府県 ":" OK "," 郵便番号 ":" 74066 "," 国名 ":" USA "}]}," 検索 ": {" mode ":" match "}}}}}
 
 * * *
 
     要求: <fhir-server>/Patient/<患者 id> を取得する
     
-    応答: {"resourceType": "患者"、"id": "<患者の>", "識別子": [{"use": "{" use ":" 通常 "、" type ": {" コード ": [{https://hl7.org/fhir/v2/0203" system ":" "、" code ":" MR "、}"、"text": "医学レコード番号"}, "値": "1234567"}], "Adams" "{" use ":" "{" use ":" "{" use "" "": "' ]}], "性別": "男性", "生年月日": "1925-12-23",}
+    応答: {"resourceType": "患者"、"id": "<患者の>", "識別子": [{"use": "{" use ":" 通常 "、" type ": {" コード ": [{" system ":" https://hl7.org/fhir/v2/0203 "、" code ":" MR "、}"、"text": "医学レコード番号"}, "値": "1234567"}], "Adams" "{" use ":" "{" use ":" "{" use "" "": "' ]}], "性別": "男性", "生年月日": "1925-12-23",}
 
 * * *
 
-この[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)フィールドセットのその他の詳細については、を参照してください。
+[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)このフィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="observation"></a>観察
 
@@ -125,7 +132,7 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者 id の>
+1. 患者 =\<patient id>
 2. _sort =-date
 3. category ("カテゴリ = バイタル-記号") を照会して、重要な記号の一覧を取得します。
 
@@ -135,14 +142,14 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
     要求: fhir-server>/監視? 患者 =<患者-id>&カテゴリ = バイバイ <
     
-    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"type" と入力します。検索セット "," 集計 ":" {"リソース": {"resourceType": "観測"、"id": "<リソース id>", "分類": [{"システム": [{"]" という値: [{"https://hl7.org/fhir/observation-categoryシステム": "{" "コード": "" {")" コード ": {" コード ": [{" system ":"http://loinc.org"," code ":" 8867-4 "、" 表示 ":" heart_rate "}]}、" effectiveDateTime ":" 2009-04-08t00:00:00-06:00 "," valuvaluアンチ ty ": {" value ": 72.0," unit ":" {拍}/最小 "," システム ":"http://unitsofmeasure.org",}}},
+    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"type" と入力します。検索セット "," 集計 ":" {"リソース": {"resourceType": "観測"、"id": "<リソース id>", "分類": [{"システム": [{"]" という値: [{"システム": "{" "コード": "" {" https://hl7.org/fhir/observation-category )" コード ": {" コード ": [{" system ":" "," code ":" http://loinc.org 8867-4 "、" 表示 ":" heart_rate "}]}、" effectiveDateTime ":" 2009-04-08T00:00:00-06:00 "," Valuvaluアンチ ty ": {" value ": 72.0," unit ":" {拍}/最小 "," システム ":" http://unitsofmeasure.org ",}}},
         .
         .
       ] }
 
 * * *
 
-この[https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html)フィールドセットのその他の詳細については、を参照してください。
+[https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html)このフィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="condition"></a>状態
 
@@ -157,8 +164,8 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者 id の>
-2. _count =\<最大結果>
+1. 患者 =\<patient id>
+2. _count =\<max results>
 
 この通話の次の例を参照してください。
 
@@ -166,13 +173,13 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
     要求: fhir-server>/条件? 患者 =<患者 id>&_count = 10 を取得 <
     
-    応答: {"resourceType": "バンドル", "id": "<バンドル id>"、"種類"、"searchset"、"集計": [{"リソース": {"resourceType": [{"リソース": {"resourceType": "id": "id": "<リソース id>"、"コード": ""http://snomed.info/sct, "コード": "185903001", "表示": "influenza immunization"、"}"、"severity": {"assertedDate": ""http://snomed.info/sct、"code": ""、"code": "24484000"、"表示": "", "表示": "" "" 2018-04-04
+    応答: {"resourceType": "バンドル", "id": "<バンドル id>"、"種類"、"searchset"、"集計": [{"リソース": {"resourceType": [{"リソース": {"resourceType": "id": "id": "<リソース id>"、"コード": "" http://snomed.info/sct , "コード": "185903001", "表示": "influenza immunization"、"}"、"severity": {"assertedDate": "" http://snomed.info/sct 、"code": ""、"code": "24484000"、"表示": "", "表示": "" "" 2018-04-04
         .
         .
       ] }
 
 * * *
-この[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)フィールドセットのその他の詳細については、を参照してください。
+[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)このフィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="encounter"></a>状況
 
@@ -188,13 +195,13 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者 id の>
-2. _sort: desc =\<フィールド ex 日付>
-3. _count =\<最大結果>
+1. 患者 =\<patient id>
+2. _sort: desc =\<field ex. date>
+3. _count =\<max results>
 
 目標は、患者の最後の既知の場所を取得できるようにすることです。 各検出は、位置情報リソースを参照します。 参照には、場所の表示フィールドも含まれます。
 
-この[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)フィールドセットのその他の詳細については、を参照してください。
+[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)このフィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
@@ -214,7 +221,7 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 = \<患者 id の>
+1. 患者 =  \<patient id>
 
 次の通話の例を参照してください。 
 
@@ -222,11 +229,11 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
     要求: <fhir-server>/AllergyIntolerance? 患者 =<患者 id を取得>
     
-    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"種類": "searchset"、"合計": 1, "エントリ": [{"リソース": "AllergyIntolerance"、"id": "<リソース id>"、"verificationStatus": "clinicalStatus": ""、"": "確認"、"コード": "http://rxnav.nlm.nih.gov/REST/Ndfrt"、"": "", "code": "" N0000175503 "," display ":" sulfonamide antibacterial "," sulfonamide antibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00:00:00:00 "," 反応 ": [{" 影響 ": [{" コード ": [{" system ":"http://snomed.info/sct"," code ":" 271807003 "," 表示 ":" "," 表示 ":" "," 表示 ":" "{rash",}], "テキスト": "スキン rash"} "
+    応答: {"resourceType": "バンドル"、"id": "<バンドル id>"、"種類": "searchset"、"合計": 1, "エントリ": [{"リソース": "AllergyIntolerance"、"id": "<リソース id>"、"verificationStatus": "clinicalStatus": ""、"": "確認"、"コード": ""、"": " http://rxnav.nlm.nih.gov/REST/Ndfrt ", "code": "" N0000175503 "," display ":" sulfonamide antibacterial "," sulfonamide antibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00:00:00:00 "," 反応 ": [{" 影響 ": [{" コード ": [{" system ":" http://snomed.info/sct "," code ":" 271807003 "," 表示 ":" "," 表示 ":" "," 表示 ":" "{rash",}], "テキスト": "スキン rash"} "
 
 * * *
 
-この[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)フィールドセットのその他の詳細については、を参照してください。
+[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)このフィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="medication-request"></a>投薬要求
 
@@ -244,10 +251,10 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 =\<患者 id の>
-2. _count =\<最大結果>
+1. 患者 =\<patient id>
+2. _count =\<max results>
 
-この[https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html)フィールドセットのその他の詳細については、を参照してください。
+[https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html)このフィールドセットのその他の詳細については、を参照してください。
 
 ## <a name="coverage"></a>サポート
 
@@ -261,6 +268,6 @@ Microsoft Teams の患者と連携するように FHIR サーバーを設定ま�
 
 リソース検索では、GET メソッドと次のパラメーターを使います。
 
-1. 患者 = \<患者 id の>
+1. 患者 = \<patient id>
 
-この[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)フィールドセットのその他の詳細については、を参照してください。
+[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)このフィールドセットのその他の詳細については、を参照してください。

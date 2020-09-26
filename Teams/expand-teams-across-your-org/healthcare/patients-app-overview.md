@@ -17,21 +17,28 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Teams 管理者用の患者アプリ
-ms.openlocfilehash: 8424defb7d9fa6359600a99c3c19fdf0b8c4dd28
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: c377ce2db985b19fa576df9519ebd602b56814eb
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350151"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277250"
 ---
 # <a name="patients-app-overview"></a>患者アプリの概要
+
+> [!IMPORTANT]
+> **2020年9月30日の有効な患者アプリは廃止され、ユーザーは Teams app store からインストールできなくなります。今すぐ Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) を使い始めることをお勧めします。**
+>
+>患者のアプリデータは、チームをバックアップする Office 365 グループのグループメールボックスに格納されます。 患者のアプリが廃止されると、そのアプリに関連付けられたデータはすべてこのグループに保持されますが、ユーザーインターフェイスを使ってアクセスすることはできなくなります。 現在のユーザーは、 [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)を使ってリストを再作成できます。
+>
+>[リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)は、すべての Teams ユーザー用にプレインストールされており、すべてのチームとチャネルでタブとして使用できます。 リストを使用すると、ケアチームは、組み込みの [患者] テンプレートを使用して、最初から、または Excel にデータをインポートして、患者リストを作成できます。 組織でのリストアプリの管理方法の詳細については、「 [リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
 
 患者アプリケーションは、Microsoft Teams ストアアプリで、すべての Teams ユーザーが利用できます。 このアプリを使用すると、患者の治療チーム (看護師、医師、社会員など) が患者の一覧を表示して、ラウンドやアプリの会議から一般的な患者の監視まで、患者のリストを確認できます。
 
 このアプリには、次の2つのモードがあります。
 
-- Emr から FHIR に接続する EMR 接続モード。 EMR 接続モードのアプリはプライベートプレビューのままで、お客様または管理者は、microsoft 365 組織に関する情報を含む[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)に microsoft メールをドロップして、アプリへのアクセスを要求することがあります。
-- 治療チームが患者情報を手動で追加/取り込みできる手動モード。 アプリケーションは、Teams app store で利用可能で、エンドユーザーはプライベートプレビューでダウンロードすることができます。 アプリは、Teams の[アプリセットアップポリシー](../../teams-app-setup-policies.md)を使用して、ユーザーの特定のセクションに制限することができます。 アプリへのアクセスを取得するには、テナントがテクノロジ導入プログラムに含まれている必要があります (タップ)。 [Teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)でメールを削除して、アクセス権を要求するプロセスを開始してください。
+- Emr から FHIR に接続する EMR 接続モード。 EMR 接続モードのアプリはプライベートプレビューのままで、お客様または管理者は、microsoft 365 組織に関する情報を含む [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) に microsoft メールをドロップして、アプリへのアクセスを要求することがあります。
+- 治療チームが患者情報を手動で追加/取り込みできる手動モード。 アプリケーションは、Teams app store で利用可能で、エンドユーザーはプライベートプレビューでダウンロードすることができます。 アプリは、Teams の [アプリセットアップポリシー](../../teams-app-setup-policies.md) を使用して、ユーザーの特定のセクションに制限することができます。 アプリへのアクセスを取得するには、テナントがテクノロジ導入プログラムに含まれている必要があります (タップ)。 [Teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)でメールを削除して、アクセス権を要求するプロセスを開始してください。
 
 ## <a name="usage-example"></a>使用例
 
@@ -39,7 +46,7 @@ ms.locfileid: "44350151"
 
 ## <a name="configure-patients-app"></a>患者のアプリを設定する
 
-EMR モードの患者アプリを使用するように環境を準備する方法について詳しくは、「 [Microsoft Teams への電子医療記録の統合](patients-app.md)」をご覧ください。 また、組織で患者のアプリを有効にするには、「 [Microsoft Teams でアプリセットアップポリシーを管理](../../teams-app-setup-policies.md)する」を参照する必要があります。
+EMR モードの患者アプリを使用するように環境を準備する方法について詳しくは、「 [Microsoft Teams への電子医療記録の統合](patients-app.md)」をご覧ください。 また、組織で患者のアプリを有効にするには、「 [Microsoft Teams でアプリセットアップポリシーを管理](../../teams-app-setup-policies.md) する」を参照する必要があります。
 
 エンドユーザーが患者アプリにアクセスして自分が所有または管理しているチームにインストールする方法については、「 [Microsoft Teams の患者の概要](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)」を参照してください。
 
@@ -66,8 +73,8 @@ EMR モードの患者アプリを使用するように環境を準備する方�
 
 **このアプリは PHI に対応しているため、不正アクセスや規制への準拠を防ぐ監査もありますか?**
 
-はい、あります。 患者のアプリで Microsoft Teams ユーザーによって実行されるすべての UI 操作が監査され、セキュリティ/コンプライアンスセンターで利用可能になります。 詳細については、「[患者アプリの監査ログ](patients-audit.md)」で説明します。
+はい、あります。 患者のアプリで Microsoft Teams ユーザーによって実行されるすべての UI 操作が監査され、セキュリティ/コンプライアンスセンターで利用可能になります。 詳細については、「 [患者アプリの監査ログ](patients-audit.md)」で説明します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電子医療記録を Microsoft Teams に統合する](patients-app.md)

@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 医療の調整、セキュリティで保護されたメッセージング、テレケア、EHR 統合、firstline worker システムの統合など、医療機関向けの機能について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 2257c82d602146210b217e396d65ebb1fdcb90f6
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138107"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277279"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療関係組織のためのTeamsを始めましょう
 
@@ -39,13 +39,20 @@ Microsoft Teams には、病院およびその他の医療機関向けの便利�
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>ケアの調整-Microsoft Teams の患者アプリ
 
+> [!IMPORTANT]
+> **2020年9月30日の有効な患者アプリは廃止され、ユーザーは Teams app store からインストールできなくなります。今すぐ Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) を使い始めることをお勧めします。**
+>
+>患者のアプリデータは、チームをバックアップする Office 365 グループのグループメールボックスに格納されます。 患者のアプリが廃止されると、そのアプリに関連付けられたデータはすべてこのグループに保持されますが、ユーザーインターフェイスを使ってアクセスすることはできなくなります。 現在のユーザーは、 [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)を使ってリストを再作成できます。
+>
+>[リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)は、すべての Teams ユーザー用にプレインストールされており、すべてのチームとチャネルでタブとして使用できます。 リストを使用すると、ケアチームは、組み込みの [患者] テンプレートを使用して、最初から、または Excel にデータをインポートして、患者リストを作成できます。 組織でのリストアプリの管理方法の詳細については、「 [リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
+
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft Teams には、医療機関向けの優れた調整ソリューションが用意されました。これにより、患者の治療を最大限に活用できるようになります。 治療の調整ソリューションの crux である Microsoft Teams の患者アプリは、医療のコラボレーションとコミュニケーションを可能にするために、Microsoft Teams に重要な医療情報を提供するための、ファーストパーティのタブアプリ ([Fhir](https://www.hl7.org/fhir/)) インターフェイスを使用します。  
 
 治療の調整ソリューションは、HL7v2 や FHIR などの既存の正常性データ標準を使用して、患者のアプリを EHR システムに接続できる、主要な独立系ソフトウェアベンダー (Isv) とのインターフェイスを作成できます。 Microsoft パートナーは、次の業界のリーダーと協力して、チームとの電子的医療記録の統合を確立しています。
 
-- Datica ( [CMI](https://datica.com/compliant-managed-integration/)サービス経由)
+- Datica ( [CMI](https://datica.com/compliant-managed-integration/) サービス経由)
 - Infor Cloverleaf ( [Infor FHIR ブリッジ](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)経由)
 - Redox ( [r ^ FHIR サーバ](https://www.redoxengine.com/fhir/)を経由)
 - Dapasoft (の場合は、 [FHIR の](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)場合)
@@ -87,11 +94,11 @@ Microsoft Teams を使用すると、医師、clinicians、看護師、および
 
 ![デスクトップデバイスとモバイルデバイスの患者アプリのスクリーンショット](../../media/ehr-2.png)
 
-「[電子医療レコードを Microsoft Teams に統合](patients-app.md)して実装の詳細を確認する」を参照してください。
+「 [電子医療レコードを Microsoft Teams に統合](patients-app.md) して実装の詳細を確認する」を参照してください。
 
 ## <a name="teams-templates"></a>Teams テンプレート
 
-Teams を作成するための新しいテンプレートは、病院の設定に適用するために開発されたもので、近日中に対応する予定です。 これにより、医療員がさまざまな部署または wards の患者の注意を調整するために使用するチームの作成が容易になります。 「[医療機関向けのチームテンプレートの概要](healthcare-templates.md)」を参照してください。 Cardiology、またはケア wards などの社内部署向けにチームを開始したり、その他のテンプレートを開発中に追加したりすることができます。
+Teams を作成するための新しいテンプレートは、病院の設定に適用するために開発されたもので、近日中に対応する予定です。 これにより、医療員がさまざまな部署または wards の患者の注意を調整するために使用するチームの作成が容易になります。 「 [医療機関向けのチームテンプレートの概要](healthcare-templates.md)」を参照してください。 Cardiology、またはケア wards などの社内部署向けにチームを開始したり、その他のテンプレートを開発中に追加したりすることができます。
 
 ## <a name="lists-app"></a>リストアプリ
 
@@ -119,7 +126,7 @@ Teams のリストアプリは、チームが情報を追跡し、作業を整�
 
 これらの機能を組み合わせて使用すると、メッセージの受信と開封による信頼性が向上します。 これらの機能を使用する新しいケアチームは、患者ごとに作成することができます。 これらの機能はポリシーベースであり、個人またはチーム全体に割り当てることができます。
 
-詳細については、「[医療機関向けのセキュリティで保護されたメッセージングポリシーの概要](messaging-policies-hc.md)」を参照してください。
+詳細については、「 [医療機関向けのセキュリティで保護されたメッセージングポリシーの概要](messaging-policies-hc.md) 」を参照してください。
 
 また、セキュリティで保護されたメッセージングに関連して、医療機関が他のテナントをフェデレーションし、豊富なテナント間通信を実現することができます。 (「 [Microsoft Teams で外部アクセス (フェデレーション) を管理](../../manage-external-access.md)する」を参照してください)。
 

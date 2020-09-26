@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d47361cd075fd5165e6f7e66fd76ad4ce1eb11
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b0d7d20c9faa8dd214c73e1ea759d32c931c7442
+ms.sourcegitcommit: 4f7870f0958a3c73bbf57ad4d4f6b228f8dead73
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820611"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "48286113"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -413,7 +413,13 @@ VDI に関連していない Teams の既知の問題については、「 [組�
 
 ### <a name="troubleshoot-citrix-components"></a>Citrix コンポーネントのトラブルシューティング
 
-VDA および CWA の問題のトラブルシューティング方法については、[このCitrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
+#### <a name="teams-crashes-or-the-teams-sign-in-screen-is-blank"></a>チームがクラッシュするか、Teams のサインイン画面が空白になる
+
+これは、Citrix VDA バージョン1906と1909の既知の問題です。 この問題を回避するには、次のレジストリ DWORD 値を追加し、それを 204 (16 進数) に設定します。
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
+
+次に、VDA を再起動します。 詳細については、「Citrix のサポート記事、 [Teams の HDX の最適化に関するトラブルシューティング](https://support.citrix.com/article/CTX253754)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

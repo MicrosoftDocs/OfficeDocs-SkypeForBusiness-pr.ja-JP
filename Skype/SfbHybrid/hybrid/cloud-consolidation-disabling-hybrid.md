@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この付録には、Teams と Skype for Business のクラウド統合の一部としてハイブリッドを無効にするための詳細な手順が含まれています。
-ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 93aad1ea230d9edbb81673a3ddabc7088b06d422
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269661"
+ms.locfileid: "48277255"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>ハイブリッドを無効にしてクラウドへの移行を完了する
 
@@ -46,9 +46,6 @@ ms.locfileid: "48269661"
 >Azure ad Connect into Azure AD を使用して、Active Directory 同期の msRTCSIP 属性を引き続き使用する必要があります。  サポートからの指示がない限り、これらの属性はクリアしないでください。  オンプレミス環境では、Disable-CsUser を実行しないでください。 ユーザーの SIP アドレスを変更する必要がある場合は、オンプレミスの Active Directory でこれを実行し、以下に説明するように Azure AD Connect を使用して azure AD にこの変更を同期させます。 同様に、電話番号を変更する必要があり、ユーザーの LineURI が既にオンプレミスで定義されている場合は、オンプレミスの Active Directory でこれを変更する必要があります。
 >オンプレミスから移行した後でオンプレミスの msRTCSIP 属性をオフにすると、ユーザーのサービスが失われる可能性があります。
 
-> [!Note] 
-> まれなケースとして、組織の 365 365 DNS を変更することによって、他の組織のフェデレーションが、他の組織のフェデレーション構成を更新するまで停止する可能性があります。<ul><li>
-以前の直接フェデレーションモデル (許可されたパートナーサーバーとも呼ばれる) を使用しているフェデレーション組織は、組織がプロキシ FQDN を削除するために許可されているドメインエントリを更新する必要があります。 この従来のフェデレーションモデルは DNS SRV レコードに基づくものではないため、組織がクラウドに移行すると、このような構成は古くなります。 </li><li>Sipfed <span> のホスティングプロバイダーが有効になっていないフェデレーション組織。com は、を有効にするために、構成を更新する必要があります。 この状況は、フェデレーション組織が純粋にオンプレミスにあり、ハイブリッドまたはオンラインテナントとのフェデレーションが行われていない場合にのみ可能です。 このような場合、これらの組織とのフェデレーションは、ホスティングプロバイダーを有効にするまでは機能しません。</li></ul>フェデレーションパートナーのいずれかが直接フェデレーションを使用しているか、またはすべてのオンラインまたはハイブリッド組織とフェデレーションされている可能性がある場合は、クラウドへの移行を完了するための準備として、これに関する連絡をお勧めします。
 
 1.  *Microsoft 365 または Office 365 を指すように DNS を更新します。*
 社内の組織の外部 DNS を更新して、Skype for Business レコードがオンプレミス展開ではなく Microsoft 365 または Office 365 をポイントするようにする必要があります。 具体的には次のとおりです。

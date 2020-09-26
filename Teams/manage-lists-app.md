@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 339f914ee1802fd4c9307e2a2f3e7faf20ac8eb4
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158695"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277282"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のリストアプリを管理する
 
@@ -67,7 +67,7 @@ Huddle は、メールキャリアがメールを受け取り、配信ルート�
 
 リストデータは、SharePoint Online チームサイトに保存されます。 SharePoint Online と Teams の相互作用の詳細については、「 [Sharepoint online と OneDrive For business が teams を操作する方法](SharePoint-OneDrive-interact.md)」を参照してください。
 
-SharePoint で設定した権限は、リストアプリで作成されたリストに適用されます。 既定では、リストは、所属するサイトから権限を継承します。 これらのアクセス許可は、リストを作成または編集できるかどうかなど、ユーザーが実行できる操作の種類を制御します。 詳細については、「sharepoint[のアクセス許可レベル](https://docs.microsoft.com/sharepoint/understanding-permission-levels)」および「 [sharepoint Server でのユーザーのアクセス許可レベル](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels)」を参照してください。
+SharePoint で設定した権限は、リストアプリで作成されたリストに適用されます。 既定では、リストは、所属するサイトから権限を継承します。 これらのアクセス許可は、リストを作成または編集できるかどうかなど、ユーザーが実行できる操作の種類を制御します。 詳細については、「sharepoint [のアクセス許可レベル](https://docs.microsoft.com/sharepoint/understanding-permission-levels) 」および「 [sharepoint Server でのユーザーのアクセス許可レベル](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels)」を参照してください。
 
 特定のシナリオでは、ユーザーがリストで実行できる操作を制限することができます。 たとえば、チームのユーザーがリストビューを編集して、すべてのチームメンバーに対してそれを変更し、チーム所有者または特定のチームメンバーのみがリストビューを編集できるようにします。 詳細については、「 [SharePoint リストまたはライブラリの権限をカスタマイズ](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)する」を参照してください。
 
@@ -78,7 +78,7 @@ SharePoint で設定した権限は、リストアプリで作成されたリス
 
 リストを使用すると、ユーザーはデスクトップ、web、モバイル環境を利用できます。 ユーザーは、チームのモバイルクライアントのリストを使って、新しいリストを作成したり、既存のリストをピン留めしたりすることはできないことを知っておくことが重要です。 Teams モバイルクライアントでリストを表示または編集するには、まず Teams のデスクトップまたは web クライアントのリストを使用してリストを作成または追加する必要があります。
 
-[プライベートチャネル](private-channels.md)のゲストは、リストを作成または削除したり、リストアイテムに関する新しい会話を開始したりすることはできません。 リストアイテムを既存のリストに追加したり、リストアイテムに関する既存の会話に返信したりすることができます。 これらの制限は、プライベートチャネルにのみ適用されることに注意してください。
+ゲストは、リストを作成したり、削除したりすることはできません。 リストアイテムを既存のリストに追加したり、リストアイテムに関する新しい会話を開始したり、リストアイテムに関する既存の会話に返信したりすることができます。
 
 ### <a name="lists-and-the-sharepoint-app"></a>リストと SharePoint アプリ
 
@@ -88,30 +88,34 @@ SharePoint で設定した権限は、リストアプリで作成されたリス
 
 ### <a name="enable-or-disable-lists-in-your-organization"></a>組織内のリストを有効または無効にする
 
-リストは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft Teams 管理センターの [[アプリの管理](manage-apps.md)] ページで、組織レベルでアプリをオンまたはオフにすることができます。
+リストは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft Teams 管理センターの [ [アプリの管理](manage-apps.md) ] ページで、組織レベルでアプリをオンまたはオフにすることができます。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**の管理] に移動  >  **Manage apps**します。
 2. 次のいずれかの操作を行います。
 
-    - 組織のリストをオフにするには、リストアプリを検索して選択し、[**ブロック**] をクリックします。
-    - 組織のリストを有効にするには、リストアプリを検索して選択し、[**許可**] をクリックします。
+    - 組織のリストをオフにするには、リストアプリを検索して選択し、[ **ブロック**] をクリックします。
+    - 組織のリストを有効にするには、リストアプリを検索して選択し、[ **許可**] をクリックします。
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>組織内の特定のユーザーのリストを有効または無効にする
 
-組織内の特定のユーザーによるリストの使用を許可またはブロックするには、[[アプリの管理](manage-apps.md)] ページで組織のリストが有効になっていることを確認してから、カスタムのアプリのアクセス許可ポリシーを作成して、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理](teams-app-permission-policies.md)する」を参照してください。
+組織内の特定のユーザーによるリストの使用を許可またはブロックするには、[ [アプリの管理](manage-apps.md) ] ページで組織のリストが有効になっていることを確認してから、カスタムのアプリのアクセス許可ポリシーを作成して、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理](teams-app-permission-policies.md)する」を参照してください。
 
 ## <a name="search-the-audit-log-for-list-events"></a>監査ログでリストイベントを検索する
 
-エンタープライズレベルの監査ではリストが有効になっているため、セキュリティ & コンプライアンスセンターの監査ログでリストとリストアイテムのイベントを検索することができます。 詳細については、「[セキュリティ & コンプライアンスセンターで監査ログを検索](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)する」を参照してください。
+エンタープライズレベルの監査ではリストが有効になっているため、セキュリティ & コンプライアンスセンターの監査ログでリストとリストアイテムのイベントを検索することができます。 詳細については、「 [セキュリティ & コンプライアンスセンターで監査ログを検索](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)する」を参照してください。
 
 Teams のリストアプリに関連する監査イベントの一覧については、「 [SharePoint リストアクティビティ](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)」をご覧ください。
 
-監査ログを検索する前に、まず[セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 監査データは、監査を有効にした時点でのみ利用可能であることに注意してください。
+監査ログを検索する前に、まず [セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 監査データは、監査を有効にした時点でのみ利用可能であることに注意してください。
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power オートメーション、Power Apps、Graph API
 
-リストフォームのワークフローと[Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)の[power オートメーション](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint)をサポートしています。 開発者は、 [LISTS API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest)を使用して、リストデータをソースとして Microsoft Graph で接続できます。
+リストフォームのワークフローと[Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)の[power オートメーション](https://preview.flow.microsoft.comconnectors/shared_sharepointonline/?slug=sharepoint)をサポートしています。 開発者は、 [LISTS API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) を使用して、リストデータをソースとして Microsoft Graph で接続できます。
 
 ## <a name="give-feedback-or-report-an-issue"></a>フィードバックを送信する、または問題を報告する
   
-フィードバックを送信したり、問題を報告したりするには、Teams の左側のナビゲーションの下部にある [**ヘルプ**] をクリックして、[**問題の報告**] を選択します。 [**リスト**] を選択し、お客様のフィードバックまたは発生した問題に関する詳細情報を入力します。
+フィードバックを送信したり、問題を報告したりするには、Teams の左側のナビゲーションの下部にある [ **ヘルプ** ] をクリックして、[ **問題の報告**] を選択します。 [ **リスト**] を選択し、お客様のフィードバックまたは発生した問題に関する詳細情報を入力します。
+
+## <a name="related-topics"></a>関連項目
+
+- [ヘルプドキュメントを一覧表示する](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
