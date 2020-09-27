@@ -18,28 +18,21 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ec30e455a79ee37a107509e7c179dd859732b1e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d72007a4bde0db2890a889580ee92c8dab72ad1e
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780576"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262514"
 ---
 # <a name="microsoft-teams-for-realwear"></a>RealWear 用 Microsoft Teams
-
-> [!NOTE]
-> これはプレビューまたは先行リリースの機能です。
 
 この記事では、RealWear ヘッドマウント ウェアラブルを使うための Microsoft Teams クライアントについて説明します。 RealWear の HMT-1 や HMT-1Z1 を使う第一線の作業員が、Teams のビデオ通話を使って遠隔地にいるエキスパートと共同作業ができるようになりました。 RealWear 用 Teams では、音声制御のユーザー インターフェイスにより現場作業員が100% ハンズフリーの状態を維持し、これにより騒音があり危険な環境でも状況認識を確保することができます。 現場作業員が見ている光景をリアルタイムで見せることによって、問題解決までの時間を短縮し、コストのかかるダウンタイムのリスクを軽減することができます。
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>RealWear 用 Microsoft Teams の展開方法
 
-RealWear 用 Microsoft Teams クライアントは現在、パブリック プレビュー中です。 このプレビューに参加するには、次のものが必要です。
-
-リリース 10.5.0 以降に更新された RealWear デバイス。 詳細情報については、[こちら](https://realwear.com/knowledge-center/configure-on-release-10/wireless-update/)を参照してください。
-
-> [!IMPORTANT]
-> [こちら](https://www.realwear.com/solutions/microsoft-teams/#C1)で登録すると、「[RealWear の展望](https://cloud.realwear.com/)」で RealWear クライアント向けの Teams にアクセスすることができます。
+- リリース 11.2 以降に更新された RealWear デバイス。 詳細情報については、[こちら](https://realwear.com/knowledge-center/configure-on-release-10/wireless-update/) を参照してください。
+- Realwear 用 Microsoft Teams クライアントを配布するための [RealWear Foresight](https://cloud.realwear.com/) へのアクセス。
 
 ## <a name="required-licenses"></a>必要なライセンス
 
