@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 管理コンソールを使用して、定義済みの設定、チャネル、プリインストールされたアプリを提供することで、チームテンプレートを使用して、財務上のニーズに合わせて設計されたチーム構造を作成する方法について説明します。
+description: 使い方については、こちらを参照してください。 管理コンソールを使用して、事前に定義された設定、チャネル、プリインストール済みのアプリを提供することで、財務上のニーズに合わせて設計されたチーム構造を作成する Teams テンプレート。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,27 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 270e03d58a89cf35132f254d2dd1af55d894e8d0
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8273e63213b6a0c3d99d6ef66cb778a2541c0327
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136051"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294413"
 ---
 # <a name="use-teams-financial-templates-in-the-admin-console"></a>管理コンソールで Teams の財務テンプレートを使用する
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Teams テンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 
 Teams テンプレートには、財務ニーズに合わせて設計されたチーム構造の事前定義が含まれています。 また、チームテンプレートを拡張して、特定の組織のニーズに合わせてカスタマイズされたチームを作成することもできます。
 
-この記事では、各チームテンプレートを紹介し、その使用をお勧めする方法について説明します。
+この記事では、各チームテンプレートを紹介し、その使用方法をお勧めします。
 
-この記事は、お客様が財務組織全体の複数のチームの計画、展開、管理を担当している場合に適しています。 組織に Teams サービスを既に展開していることを前提としています。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
+この記事は、お客様が財務組織全体の複数のチームの計画、展開、管理を担当している場合に適しています。 組織に Teams サービスを既に展開している。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
 
-チームテンプレートの詳細については、「 [チームテンプレートの使用を開始](get-started-with-teams-templates-in-the-admin-console.md)する」を参照してください。
+チームテンプレート全般の詳細については、「 [チームテンプレートの概要](get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
 
 ## <a name="global-crisis-or-event"></a>グローバルな危機またはイベント
 

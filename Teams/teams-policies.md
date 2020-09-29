@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 9ed0bd3aadcde76835bb3d435429785ceaf562a2
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ad7dadc60b1fb53a518ec5cab340739a89f6b044
+ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938146"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "48297375"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams でチーム ポリシーを管理する
 
-管理者は、Microsoft Teams でチーム ポリシーを使用して、チームやチャネルで組織のユーザーが実行できる操作を制御できます。 たとえば、ユーザーが検索結果とチーム ギャラリーでプライベートのチームを検出できるかどうか、およびユーザーがプライベートのチャネルを作成できるかどうかを設定できます。
+管理者は、Microsoft Teams でチーム ポリシーを使用して、チームやチャネルで組織のユーザーが実行できる操作を制御できます。 たとえば、プライベートチャネルを作成することをユーザーに許可するかどうかを設定できます。
 
 チーム ポリシーを管理するには、Microsoft Teams 管理センターで **[Teams]** > **[チーム ポリシー]** の順に移動します。 グローバル (組織全体の既定) ポリシーを使用するか、カスタムポリシーを作成して割り当てることができます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。
 
@@ -46,10 +46,7 @@ ms.locfileid: "44938146"
 3. ポリシーの名前と説明を入力します。
 
     ![チーム ポリシー設定のスクリーンショット](media/teams-policies.png)
-4. 希望する設定を選びます。
-
-- プライベート**チームを見つける**(プライベートプレビュー):<a name="discoverteams"> </a>この設定を有効にすると、ユーザーは検索結果とチームギャラリーでプライベートチームを見つけられるようになります。
-- **プライベート チャネルの作成**: <a name="createchannels"> </a>この設定をオンにすると、ユーザーがプライベート チャネルを作成できるようになります。
+4. プライベートチャネルの作成を許可するかどう<a name="createchannels"> </a>かに応じて、**プライベートチャネルの作成**をオンまたはオフにします。
 
 5. **[保存]** をクリックします。
 
@@ -66,8 +63,6 @@ ms.locfileid: "44938146"
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="related-topics"></a>関連項目
-
-[Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
 
 [Teams のプライベート チャネル](private-channels.md)
 

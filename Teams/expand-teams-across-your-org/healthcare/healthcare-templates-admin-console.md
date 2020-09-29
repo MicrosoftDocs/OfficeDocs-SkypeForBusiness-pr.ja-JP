@@ -18,17 +18,14 @@ appliesto:
 ms.reviewer: ''
 description: 管理コンソールで Microsoft Teams テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171091"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294583"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>管理コンソールで Teams の医療テンプレートを使用する
-
-[!INCLUDE [template](../../includes/preview-feature.md)]
 
 Microsoft Teams のテンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 
@@ -38,7 +35,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 ## <a name="collaborate-on-patient-care"></a>治療での共同作業
 
- ワード、ポッド、または部門内での医療通信と共同作業を合理化します。 このテンプレートを使用すると、患者の管理や、補助の運用ニーズを簡単に行うことができます。
+ ワード、ポッド、または部門内での医療通信と共同作業を合理化します。 このテンプレートを使用すると、患者の管理や操作上のニーズを容易にすることができます。
 
 | ベーステンプレートの種類 |baseTemplateId| この基本テンプレートに含まれるプロパティ |
 | ------------------ |---|----------------------------------------------------- |
@@ -47,7 +44,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 ## <a name="hospital"></a>病院
 
-病院内の複数の wards、ポッド、部門間のコミュニケーションとコラボレーションを合理化します。 このテンプレートには、病院の操作のための基本チャネルのセットが含まれています。また、特別な機能を追加して、専門分野を含めることもできます。
+病院内の複数の wards、ポッド、部門間のコミュニケーションとコラボレーションを合理化します。 このテンプレートには、病院の操作に使用する基本チャネルのセットが含まれており、それを自己拡張して専門分野や臨時のものを含めることができます。
 
 | ベーステンプレートの種類 |baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------|-- |----------------------------------------------------- |

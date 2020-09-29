@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 管理コンソールを使用して、定義済みの設定、チャネル、事前にインストールされたアプリを提供することで、チームテンプレートを使用して製造ニーズに合わせて設計されたチーム構造を作成する方法について説明します。
+description: 使い方については、こちらを参照してください。 管理コンソールを使用して、事前に定義された設定、チャネル、プリインストール済みのアプリを提供することで、製造ニーズに合わせて設計されたチーム構造を作成する Teams テンプレート。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,27 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 919bfc1bc3e13985ac90484cd203bf93201babd2
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 3ebbf765373699d07f96d11fff66e9677213bdb8
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171031"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294439"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>管理コンソールで Teams 製造テンプレートを使用する
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Teams テンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 
 チームテンプレートには、製造ニーズに合わせて設計されたチーム構造の事前定義が用意されています。 また、チームテンプレートを拡張して、特定の組織のニーズに合わせてカスタマイズされたチームを作成することもできます。
 
-この記事では、各チームテンプレートを紹介し、その使用をお勧めする方法について説明します。
+この記事では、各チームテンプレートを紹介し、その使い方をお勧めします。
 
-この記事は、製造組織全体で複数のチームの計画、展開、管理を担当している場合に使います。 組織に Teams サービスを既に展開していることを前提としています。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
+この記事は、製造組織全体で複数のチームの計画、展開、管理を担当している場合に使います。 組織に Teams サービスを既に展開している。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
 
-チームテンプレートの詳細については、「 [チームテンプレートの使用を開始](get-started-with-teams-templates-in-the-admin-console.md)する」を参照してください。
+チームテンプレート全般の詳細については、「 [チームテンプレートの概要](get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
 
 ## <a name="quality-and-safety"></a>品質と安全性
 

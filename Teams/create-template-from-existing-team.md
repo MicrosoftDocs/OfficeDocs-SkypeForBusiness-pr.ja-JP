@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ba02a1d1777f03f58d5d064090ebefb1a5546e6
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: f386531772a9debddca5d3be2dad8c3c778d69b6
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219128"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294573"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Microsoft Teams で既存のチームからテンプレートを作成する
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **カスタムテンプレートは、EDU のユーザーに対してまだサポートされていません。**
 
@@ -63,6 +60,9 @@ Microsoft Teams を使用すると、特定の組織のニーズに合わせて�
 8. [ **送信** ] を選択して変更内容を保存します。
 
 新しいテンプレートが [ **チームテンプレート** ] の一覧に表示されます。 このテンプレートを使用して、Teams でチームを作成できます。
+
+> [!Note]
+> Teams ユーザーがギャラリーでカスタムテンプレートを表示するのに最大24時間かかることがあります。
 
 ## <a name="related-articles"></a>関連記事
 

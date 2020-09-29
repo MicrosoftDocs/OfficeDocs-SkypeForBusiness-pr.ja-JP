@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216698"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294453"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>管理コンソールで一般的な Teams テンプレートを使用する
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Teams テンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 
 Teams テンプレートには、財務ニーズに合わせて設計されたチーム構造の事前定義が含まれています。 また、チームテンプレートを拡張して、特定の組織のニーズに合わせてカスタマイズされたチームを作成することもできます。
 
-この記事では、各チームテンプレートを紹介し、その使用をお勧めする方法について説明します。
+この記事では、各チームテンプレートを紹介し、その使い方をお勧めします。
 
-この記事は、お客様が財務組織全体の複数のチームの計画、展開、管理を担当している場合に適しています。 組織に Teams サービスを既に展開していることを前提としています。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
+この記事は、お客様が財務組織全体の複数のチームの計画、展開、管理を担当している場合に適しています。 組織に Teams サービスを既に展開している。 チームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
 
 チームテンプレート全般の詳細については、「 [チームテンプレートの概要](get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
 
