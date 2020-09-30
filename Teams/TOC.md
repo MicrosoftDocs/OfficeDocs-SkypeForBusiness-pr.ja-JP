@@ -51,7 +51,15 @@
 ## [Teams の有効期限と更新](team-expiration-renewal.md)
 ## [チームをアーカイブまたは削除する](archive-or-delete-a-team.md)
 ## [Slack から Teams に移行する](migrate-slack-to-teams.md)
-## [Graph に内蔵された中小企業向けTeams テンプレート](smb-templates.md)
+## Teams テンプレートを使う
+### [管理コンソールで Teams テンプレートを使用する](get-started-with-teams-templates-in-the-admin-console.md)
+### [Graph に内蔵された中小企業向け Teams テンプレート](smb-templates.md)
+### [カスタムの Teams テンプレートを作成する](create-a-team-template.md)
+### [既存のチームからテンプレートを作成する](create-template-from-existing-team.md)
+### [既存のチームからテンプレートをビルドする](create-template-from-existing-template.md)
+### [財務カテゴリの Teams テンプレート](financial-teams-templates-in-the-admin-console.md)
+### [全般カテゴリの Teams テンプレート](general-teams-templates-in-the-admin-console.md)
+### [製造カテゴリの Teams テンプレート](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## 外部ユーザーと通信する
 ### [別の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)
@@ -665,6 +673,7 @@
 
 ## 医療関係向けのTeams
 ### [医療関係組織のためのTeamsを始めましょう](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [管理コンソールで医療関係組織向けの Teams テンプレートを使い始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [医療関係組織向けテンプレートでTeamsを始めましょう](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [医療組織向け Secure Messaging で Teams を始めましょう](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [メッセージの委任](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -699,10 +708,12 @@
 ### [SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [小売店向けの Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [管理コンソールで小売店向け Teams テンプレートを使い始めましょう](retail-teams-templates-in-the-admin-console.md)
 ### [小売店向けテンプレートでTeamsを始めましょう](get-started-with-retail-teams-templates.md)
 
 ## [政府機関用の Teams ](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [リモート ワーカーのサポート (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [政府向け Teams テンプレートを使い始めましょう](government-teams-templates-in-the-admin-console.md)
 ### [Office 365 G1 試用版を管理する](g1-trial-license.md)
 ### [Microsoft 365 Government の計画: GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 Government の計画: GCC High](plan-for-government-gcc-high.md)

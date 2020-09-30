@@ -16,56 +16,58 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f386531772a9debddca5d3be2dad8c3c778d69b6
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 96d1d2192335367023544b7a30bc36bf69c02a19
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294573"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308120"
 ---
-# <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a><span data-ttu-id="c70e3-103">Microsoft Teams で既存のチームからテンプレートを作成する</span><span class="sxs-lookup"><span data-stu-id="c70e3-103">Create a template from an existing team in Microsoft Teams</span></span>
+# <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a><span data-ttu-id="07351-103">Microsoft Teams で既存のチームからテンプレートを作成する</span><span class="sxs-lookup"><span data-stu-id="07351-103">Create a template from an existing team in Microsoft Teams</span></span>
 
-<span data-ttu-id="c70e3-104">**カスタムテンプレートは、EDU のユーザーに対してまだサポートされていません。**</span><span class="sxs-lookup"><span data-stu-id="c70e3-104">**Custom templates are not yet supported for EDU customers.**</span></span>
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-<span data-ttu-id="c70e3-105">Microsoft Teams を使用すると、特定の組織のニーズに合わせて保存したり変更したりできる既存のチームからテンプレートを作成できます。</span><span class="sxs-lookup"><span data-stu-id="c70e3-105">Microsoft Teams lets you create a template from an existing team that can be saved and modified to meet your particular organizational needs.</span></span>
+<span data-ttu-id="07351-104">**カスタムテンプレートは、EDU のユーザーに対してまだサポートされていません。**</span><span class="sxs-lookup"><span data-stu-id="07351-104">**Custom templates are not yet supported for EDU customers.**</span></span>
 
-1. <span data-ttu-id="c70e3-106">Teams 管理センターにサインインします。</span><span class="sxs-lookup"><span data-stu-id="c70e3-106">Sign in to the Teams admin center.</span></span>
+<span data-ttu-id="07351-105">Microsoft Teams を使用すると、特定の組織のニーズに合わせて保存したり変更したりできる既存のチームからテンプレートを作成できます。</span><span class="sxs-lookup"><span data-stu-id="07351-105">Microsoft Teams lets you create a template from an existing team that can be saved and modified to meet your particular organizational needs.</span></span>
 
-2. <span data-ttu-id="c70e3-107">左側のナビゲーションで、[**チーム**  >  **チームテンプレート**] を展開します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-107">In the left navigation, expand **Teams** > **Team templates**.</span></span>
+1. <span data-ttu-id="07351-106">Teams 管理センターにサインインします。</span><span class="sxs-lookup"><span data-stu-id="07351-106">Sign in to the Teams admin center.</span></span>
 
-3. <span data-ttu-id="c70e3-108">[ **追加**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="c70e3-108">Select **Add**.</span></span>
+2. <span data-ttu-id="07351-107">左側のナビゲーションで、[**チーム**  >  **チームテンプレート**] を展開します。</span><span class="sxs-lookup"><span data-stu-id="07351-107">In the left navigation, expand **Teams** > **Team templates**.</span></span>
 
-4. <span data-ttu-id="c70e3-109">[ **既存のチームをテンプレートとして使用する**] を選択し、[ **次へ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-109">Select **Use an existing team as a template**, and select **Next**.</span></span>
+3. <span data-ttu-id="07351-108">[ **追加**] を選びます。</span><span class="sxs-lookup"><span data-stu-id="07351-108">Select **Add**.</span></span>
+
+4. <span data-ttu-id="07351-109">[ **既存のチームをテンプレートとして使用する**] を選択し、[ **次へ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="07351-109">Select **Use an existing team as a template**, and select **Next**.</span></span>
 
  ![[既存のチームをテンプレートとして使用する] が強調表示された [チームテンプレートの開始位置] 画面の画像。](media/team-existing-team-as-template.png)
 
-5. <span data-ttu-id="c70e3-111">開始点として使用するチームを選択するには、チーム名の横にあるを選択し、[ **次へ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-111">Select a team to use as a starting point by selecting next to the team name, and then select **Next**.</span></span>
+5. <span data-ttu-id="07351-111">開始点として使用するチームを選択するには、チーム名の横にあるを選択し、[ **次へ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="07351-111">Select a team to use as a starting point by selecting next to the team name, and then select **Next**.</span></span>
 
 ![1つのチームが強調表示されたチームの一覧の画像。](media/team-existing-team-selection.png)
 
-6. <span data-ttu-id="c70e3-113">[ **テンプレートの設定** ] セクションで、次のフィールドに情報を入力し、[ **次へ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-113">In the **Template settings** section, complete the following fields and then select **Next**:</span></span>
-    - <span data-ttu-id="c70e3-114">テンプレート名</span><span class="sxs-lookup"><span data-stu-id="c70e3-114">Template name</span></span>
-    - <span data-ttu-id="c70e3-115">テンプレートの短い説明と長い説明</span><span class="sxs-lookup"><span data-stu-id="c70e3-115">Template short and long descriptions</span></span>
-    - <span data-ttu-id="c70e3-116">ロケールの表示</span><span class="sxs-lookup"><span data-stu-id="c70e3-116">Locale visibility</span></span>  
+6. <span data-ttu-id="07351-113">[ **テンプレートの設定** ] セクションで、次のフィールドに情報を入力し、[ **次へ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="07351-113">In the **Template settings** section, complete the following fields and then select **Next**:</span></span>
+    - <span data-ttu-id="07351-114">テンプレート名</span><span class="sxs-lookup"><span data-stu-id="07351-114">Template name</span></span>
+    - <span data-ttu-id="07351-115">テンプレートの短い説明と長い説明</span><span class="sxs-lookup"><span data-stu-id="07351-115">Template short and long descriptions</span></span>
+    - <span data-ttu-id="07351-116">ロケールの表示</span><span class="sxs-lookup"><span data-stu-id="07351-116">Locale visibility</span></span>  
   
-7. <span data-ttu-id="c70e3-117">[ **チャネル]、[タブ]、[アプリ** ] セクションで、チームに必要なチャネルとアプリを追加します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-117">In the **channels, tabs, and apps** section, add any channels and apps that your team needs.</span></span>
+7. <span data-ttu-id="07351-117">[ **チャネル]、[タブ]、[アプリ** ] セクションで、チームに必要なチャネルとアプリを追加します。</span><span class="sxs-lookup"><span data-stu-id="07351-117">In the **channels, tabs, and apps** section, add any channels and apps that your team needs.</span></span>
 
-    1. <span data-ttu-id="c70e3-118">[ **チャネル** ] セクションで、[ **追加**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-118">In the **Channels** section, select **Add**.</span></span>
-    2. <span data-ttu-id="c70e3-119">[ **追加** ] ダイアログで、チャネルの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-119">In the **Add** dialog, name the channel.</span></span>
-    3. <span data-ttu-id="c70e3-120">説明を追加します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-120">Add a description.</span></span>
-    4. <span data-ttu-id="c70e3-121">チャネルを既定で表示するかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-121">Decide if the channel should be shown by default.</span></span>
-    5. <span data-ttu-id="c70e3-122">チャネルに追加するアプリ名を検索します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-122">Search for an app name that you want to add to the channel.</span></span>
-    6. <span data-ttu-id="c70e3-123">完了したら [ **適用** ] を選択します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-123">Select **Apply** when finished.</span></span>
+    1. <span data-ttu-id="07351-118">[ **チャネル** ] セクションで、[ **追加**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="07351-118">In the **Channels** section, select **Add**.</span></span>
+    2. <span data-ttu-id="07351-119">[ **追加** ] ダイアログで、チャネルの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="07351-119">In the **Add** dialog, name the channel.</span></span>
+    3. <span data-ttu-id="07351-120">説明を追加します。</span><span class="sxs-lookup"><span data-stu-id="07351-120">Add a description.</span></span>
+    4. <span data-ttu-id="07351-121">チャネルを既定で表示するかどうかを決定します。</span><span class="sxs-lookup"><span data-stu-id="07351-121">Decide if the channel should be shown by default.</span></span>
+    5. <span data-ttu-id="07351-122">チャネルに追加するアプリ名を検索します。</span><span class="sxs-lookup"><span data-stu-id="07351-122">Search for an app name that you want to add to the channel.</span></span>
+    6. <span data-ttu-id="07351-123">完了したら [ **適用** ] を選択します。</span><span class="sxs-lookup"><span data-stu-id="07351-123">Select **Apply** when finished.</span></span>
 
-8. <span data-ttu-id="c70e3-124">[ **送信** ] を選択して変更内容を保存します。</span><span class="sxs-lookup"><span data-stu-id="c70e3-124">Select **Submit** to save your changes.</span></span>
+8. <span data-ttu-id="07351-124">[ **送信** ] を選択して変更内容を保存します。</span><span class="sxs-lookup"><span data-stu-id="07351-124">Select **Submit** to save your changes.</span></span>
 
-<span data-ttu-id="c70e3-125">新しいテンプレートが [ **チームテンプレート** ] の一覧に表示されます。</span><span class="sxs-lookup"><span data-stu-id="c70e3-125">Your new template is displayed in the **Team templates** list.</span></span> <span data-ttu-id="c70e3-126">このテンプレートを使用して、Teams でチームを作成できます。</span><span class="sxs-lookup"><span data-stu-id="c70e3-126">The template can be used to create a team in Teams.</span></span>
+<span data-ttu-id="07351-125">新しいテンプレートが [ **チームテンプレート** ] の一覧に表示されます。</span><span class="sxs-lookup"><span data-stu-id="07351-125">Your new template is displayed in the **Team templates** list.</span></span> <span data-ttu-id="07351-126">このテンプレートを使用して、Teams でチームを作成できます。</span><span class="sxs-lookup"><span data-stu-id="07351-126">The template can be used to create a team in Teams.</span></span>
 
 > [!Note]
-> <span data-ttu-id="c70e3-127">Teams ユーザーがギャラリーでカスタムテンプレートを表示するのに最大24時間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="c70e3-127">It can take up to 24 hours for teams users to see a custom template in the gallery.</span></span>
+> <span data-ttu-id="07351-127">Teams ユーザーがギャラリーでカスタムテンプレートを表示するのに最大24時間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="07351-127">It can take up to 24 hours for teams users to see a custom template in the gallery.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="c70e3-128">関連記事</span><span class="sxs-lookup"><span data-stu-id="c70e3-128">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="07351-128">関連記事</span><span class="sxs-lookup"><span data-stu-id="07351-128">Related articles</span></span>
 
-- [<span data-ttu-id="c70e3-129">管理センターでチームテンプレートの使用を開始する</span><span class="sxs-lookup"><span data-stu-id="c70e3-129">Get started with team templates in the admin center</span></span>](get-started-with-teams-templates-in-the-admin-console.md)
-- [<span data-ttu-id="c70e3-130">既存のチームテンプレートからテンプレートを作成する</span><span class="sxs-lookup"><span data-stu-id="c70e3-130">Create a template from an existing team template</span></span>](create-template-from-existing-template.md)
-- [<span data-ttu-id="c70e3-131">チームテンプレートを作成する</span><span class="sxs-lookup"><span data-stu-id="c70e3-131">Create a team template</span></span>](create-a-team-template.md)
+- [<span data-ttu-id="07351-129">管理センターでチームテンプレートの使用を開始する</span><span class="sxs-lookup"><span data-stu-id="07351-129">Get started with team templates in the admin center</span></span>](get-started-with-teams-templates-in-the-admin-console.md)
+- [<span data-ttu-id="07351-130">既存のチームテンプレートからテンプレートを作成する</span><span class="sxs-lookup"><span data-stu-id="07351-130">Create a template from an existing team template</span></span>](create-template-from-existing-template.md)
+- [<span data-ttu-id="07351-131">チームテンプレートを作成する</span><span class="sxs-lookup"><span data-stu-id="07351-131">Create a team template</span></span>](create-a-team-template.md)
