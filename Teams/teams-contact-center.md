@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 533c407646fd3ce690a50296e2e7447330121e88
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: fa1ac16a488144e431e613126f63ddbf10861ab4
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177377"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308390"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
@@ -195,7 +195,7 @@ Microsoft Teams でサポートされている統合モデルの概要につい�
 <td>Teams で通話中のユーザー</td>
 <td>非公式、SME</td>
 <td>非公式、SME</td>
-<td>非公式、SME、フォーマル *</td>
+<td>非公式、SME、フォーマル</td>
 <td>非公式、SME、フォーマル</td>
 </tr>
 <tr class="odd">

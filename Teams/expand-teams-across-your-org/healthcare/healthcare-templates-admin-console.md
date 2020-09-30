@@ -18,14 +18,16 @@ appliesto:
 ms.reviewer: ''
 description: 管理コンソールで Microsoft Teams テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294583"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308280"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>管理コンソールで Teams の医療テンプレートを使用する
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft Teams のテンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 

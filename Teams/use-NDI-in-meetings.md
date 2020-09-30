@@ -17,22 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323991"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308170"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Microsoft Teams で NDI®テクノロジを使用する
 
-[!INCLUDE [template](includes/preview-feature.md)]
+ NewTek NDI® (Network Device Interface) テクノロジは、メディアデバイス (スタジオカメラやミキサーなど) に接続するための最新のソリューションです。 NDI®テクノロジを使用する代わりに、ローカルコンピューター上など、ローカルイントラネット経由での接続を可能にします。
 
- NDI® (Network Device Interface) テクノロジは、メディアデバイス (スタジオカメラやミキサーなど) に接続するための最新のソリューションです。 NDI®テクノロジを使用する代わりに、ローカルコンピューター上など、ローカルイントラネット経由での接続を可能にします。
+NDI®テクノロジは、ストリームのライブコンテンツを生成するための標準的な業界ソリューションとなっており、プロフェッショナルなブロードキャスト世界で深刻な認知度と導入を実現しています。
 
-NewTek NDI®テクノロジは、ストリームのライブコンテンツを生成するための標準的な業界ソリューションとなっており、プロフェッショナルなブロードキャスト世界で深刻な認知度と導入を実現しています。
-
-Skype では、2018遅刻の Skype に NDI®機能が追加されました。 Microsoft Teams はこの機能を活用して、会議の操作性を向上させています。
+Skype では、2018遅刻の Skype に NDI®機能が追加されました。 Microsoft Teams では、この機能を使用して、会議の操作性を向上させています。
 
 NDI®テクノロジはローカルネットワークに限定され、ブロードキャストソリューションではなく、運用ワークフローの一部と見なされる必要があります。
 

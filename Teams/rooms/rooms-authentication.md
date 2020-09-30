@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams ルームの先進認証の構成方法について説明します
-ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506182"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308260"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams のルームでの認証
 
@@ -90,6 +90,7 @@ Exchange Online で基本認証を無効にする方法の詳細については�
 - Exchange Server 2016 CU8 以降、または Exchange Server 2019 CU1 以降がインストールされている必要があります。
 - Skype for Business Server 2015 CU5 以降以降、または Skype for Business Server 2019 以降がインストールされている必要があります。
 - 使用しているトポロジに関係なく MFA はサポートされません。
+- Microsoft Teams ルームでは、SIP と UPN の不一致はサポートされていません。 同じ UPN と SIP を使用して Microsoft Teams ルームアカウントを作成する必要があります。
 - Azure AD でサポートされているサードパーティ認証プロバイダーを使用している場合は、WS-TRUST 経由のアクティブな認証フローをサポートする必要があります。
 - アプリケーションで構成されているリソースアカウントに対して、デバイスレベルの条件付きアクセスポリシーは使用しないでください。 この操作を行うと、サインインエラーが発生します。 代わりに、Microsoft Intune にデバイスを登録し、[ [Intune とのチーム会議室の管理](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)] で公開されているガイダンスを使用して、コンプライアンスポリシーを適用します。
 

@@ -19,14 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7e0949360ce72dce7a2e587c5621070d70e1a0e
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 623a80bbe85e0345a9b5812377290db04f4b817b
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294623"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308140"
 ---
 # <a name="use-teams-government-templates-in-the-admin-console"></a>管理コンソールで Teams government テンプレートを使用する
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Teams テンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 
