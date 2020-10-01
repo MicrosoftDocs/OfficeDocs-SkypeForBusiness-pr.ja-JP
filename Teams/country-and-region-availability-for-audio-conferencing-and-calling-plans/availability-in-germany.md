@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをドイツで利用できます。
-ms.openlocfilehash: 9a8c6675ec7116fb8e358c394fb54d169a56c432
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: ba3389abd0555db7ff269ec969e216bd40d22bdf
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231166"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321890"
 ---
 # <a name="availability-in-germany"></a>ドイツでの利用可能性
 
@@ -44,14 +44,14 @@ ms.locfileid: "44231166"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> ミュンヘン</ul>専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |連絡可能  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |連絡可能  <br/> |
+| 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |連絡可能  <br/> |
    
@@ -60,7 +60,7 @@ ms.locfileid: "44231166"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランの利用可能な時間 (分)。 |カレンダーの月ごとに、次の4つのプランオプションを利用できます。 <ul><li>120分国内通話プラン </li><li>240分国内通話プラン</li></li><li>1200分国内通話プラン </li></li><li>国内および国際通話プラン: 1200 分国内通話または600分間通話 (予定表の月内で最初に到達した方)</li></li> 
+|通話プランの利用可能な時間 (分)。 |カレンダーの月ごとに、次の4つのプランオプションを利用できます。 <ul><li>120分国内通話プラン </li><li>240分国内通話プラン</li></li><li>1200分国内通話プラン </li></li><li>国内および国際通話プラン: 1200 分国内通話または600分間通話 (予定表の月内で最初に到達した方)</li></li>|
 |有料番号への通話発信は可能ですか? <br/> | この時点ではサポートされていません。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    

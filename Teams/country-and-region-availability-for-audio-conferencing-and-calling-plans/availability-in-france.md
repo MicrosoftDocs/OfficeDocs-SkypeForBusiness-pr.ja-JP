@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをフランスで利用できるようにする方法について説明します。
-ms.openlocfilehash: fff316dfaa0292a5afc1cc02304f09772c211d32
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 68ad6be38dd7755b9bfeb69da4605826b017bcd5
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230916"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322296"
 ---
 # <a name="availability-in-france"></a>フランスでの利用可能性
 
@@ -44,14 +44,14 @@ ms.locfileid: "44230916"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> パリ</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |連絡可能  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |連絡可能  <br/> |
+| 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |連絡可能  <br/> |
    
@@ -60,7 +60,7 @@ ms.locfileid: "44230916"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランの利用可能な時間 (分)。 |カレンダーの月ごとに、次の4つのプランオプションを利用できます。 <ul><li>120分国内通話プラン </li><li>240分国内通話プラン</li></li><li>1200分国内通話プラン </li></li><li>国内および国際通話プラン: 1200 分 (600 国内通話 (予定表の月の最初に到達した方)</li></li> 
+|通話プランの利用可能な時間 (分)。 |カレンダーの月ごとに、次の4つのプランオプションを利用できます。 <ul><li>120分国内通話プラン </li><li>240分国内通話プラン</li></li><li>1200分国内通話プラン </li></li><li>国内および国際通話プラン: 1200 分 (600 国内通話 (予定表の月の最初に到達した方)</li></li> |
 |フランスの有料電話番号を発信することはできますか? <br/> | はい、通信クレジットを使って分単位の支払いを行う場合に完全にサポートされます。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    

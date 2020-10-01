@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e146394b5f000ce984d7bfaff5e6674c2c091b98
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8030f1504e56fb6bd9aee528e7969c9d66bf8c96
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955892"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328236"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Skype for Business から Teams へのアップグレード &mdash; IT 管理者向け
 
@@ -52,6 +52,9 @@ Skype for Business から Teams にアップグレードする場合、一部の
 作業を開始する前に、チームに移行されたユーザーが skype for business クライアントを使用しなくなったことに注意してください。ただし、Skype for Business でホストされている会議に参加することはありません。  着信したチャットや通話すべては、送信者が Teams と Skype for Business のいずれを使用しているかに関わらず、ユーザーの Teams クライアントに配信されます。 移行済みユーザーによって開催される新しい会議は、Teams 会議としてスケジュールされます。 ユーザーが Skype for Business クライアントを使用しようとすると、チャットと通話の開始がブロックされます。  ただし、ユーザーは引き続き Skype for business クライアントを使用して、招待された Skype for Business 会議に参加することができます。 (2017 年より前に出荷された以前の Skype for Business クライアントでは、TeamsUpgradePolicy は優先されません。 最新の Skype for Business クライアントを使用していることをご確認ください)。
  
 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)のプロパティである[モード](migration-interop-guidance-for-teams-with-skype.md)の概念を使って、チームへのユーザーの移行を管理します。 上で説明したように、Teams に移行されたユーザーは、"TeamsOnly" モードになります。  Teams に移行する組織の最終的な目標は、すべてのユーザーを TeamsOnly モードに移行することです。
+
+>[!NOTE]
+>Skype for Business オンプレミスアカウントを持っているユーザーは、teams のみにすることはできません。 これらのユーザーは、 [孤島モードでチームを使用](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)できますが、この方法では、Teams の唯一のモードで利用できる teams 機能一式は提供されません。 これらのユーザーをチームで使用できるようにするには、 `Move-CsUser` オンプレミスの Skype For Business Server ツールを使用してクラウドに移動する必要があります。
 
 わかりました。 では、始めましょう。  最初のステップでは、 [利用可能なアップグレード方法](upgrade-to-teams-on-prem-upgrade-methods.md)を理解しています。
 

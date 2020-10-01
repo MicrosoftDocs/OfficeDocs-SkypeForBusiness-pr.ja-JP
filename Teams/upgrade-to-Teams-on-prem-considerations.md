@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e16e651004148645789f5e8e55df6fbbfa1dea9c
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8c359b39707b57a653f35e75497672d306209ccd
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955914"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328216"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>&mdash;IT 管理者向けの Skype For Business Server がオンプレミスの組織のアップグレードに関する考慮事項
 
@@ -52,7 +52,7 @@ ms.locfileid: "47955914"
 
 - オンプレミスの Skype for Business アカウントを所有している Teams ユーザー (つまり、Move-CsUser を使用してクラウドにまだ移行していないユーザー) は、Skype for Business ユーザーとの相互運用や、外部ユーザーとのフェデレーションを行うことができません。 この機能は、そのユーザーがクラウドに移行した場合 (アイランド モードか TeamsOnly ユーザーとして) にのみ利用できます。 
 
-- Skype for Business アカウントを使用しているユーザーがいる場合は、オンプレミスの Skype for Business アカウントを持つすべてのユーザーに、他のモードを明示的に割り当てない限り、チームのテナントレベルで teams Sonly モードを割り当てないでください。 
+- オンプレミスの Skype for Business アカウントを使用しているユーザーがいる場合は、テナントレベルで teams Sonly モードを割り当てることはできません。 まず、オンプレミスの Skype for Business アカウントを使用しているすべてのユーザーをクラウドに移行する必要があり `Move-CsUser` ます。その後、ハイブリッドを無効にして [クラウドへの移行を完了](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)します。  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` Office 365 以外の場所を参照する lyncdiscover DNS レコードが検出された場合は、テナントレベルでは動作しません。
 
 - ユーザーが適切な Skype for Business 属性を使用して Azure AD に正しく同期されていることを確認する必要があります。 これらの属性すべてには、プレフィックスとして msRTCSIP- が付きます。 ユーザーが Azure AD に正しく同期されていない場合、Teams の管理ツールでそのユーザーを管理できなくなります。 (たとえば、これらの属性を正しく同期していない場合は、オンプレミスのユーザーに Teams ポリシーを割り当てることはできません)。詳細については、「 [Teams および Skype For business 用に AZURE AD Connect を構成する](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)」を参照してください。
 
@@ -64,12 +64,6 @@ ms.locfileid: "47955914"
 
 >[!NOTE]
 > 9月3日以降に作成されたすべての新しいテナントは、組織に Skype for Business Server のオンプレミス展開が含まれていない限り2019、TeamsOnly テナントとして作成されます。 Microsoft は DNS レコードを使って、オンプレミスの Skype for Business Server 組織を特定します。 組織にパブリック DNS エントリのないオンプレミスの Skype for Business サーバーがある場合は、Microsoft サポートに連絡して、新しいテナントをダウングレードする必要があります。 
-
-
-
-
-
-
 
 
 

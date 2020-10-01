@@ -16,25 +16,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: bb9400778b8e000a438343e74bc6b030087ff297
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597151"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328256"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams への通信のコンプライアンス
 
 通信のコンプライアンスは、Microsoft 365 の insider のリスクソリューションであり、組織内の不適切なメッセージの検出、キャプチャ、および操作を支援することで、コミュニケーションのリスクを最小限に抑えることができます。
 
-Microsoft Teams では、コミュニケーションのコンプライアンスは、チームチャネルまたは1:1 およびグループチャットで[次の種類](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference)の不適切なコンテンツを特定するのに役立ちます。
+Microsoft Teams では、コミュニケーションのコンプライアンスは、チームチャネルまたは1:1 およびグループチャットで [次の種類](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) の不適切なコンテンツを特定するのに役立ちます。
 
 - 不快感を持つ、欠い、嫌がらせの言葉
 - アダルト、racy、gory の画像
 - 機密情報の共有
-
->[!IMPORTANT]
->プライベートな Microsoft Teams チャネルは、通信のコンプライアンスによってサポートされていません。 ゲストユーザーによって送信されたチャット通信は、不適切なコンテンツについては監視されません。
 
 通信のコンプライアンスと組織のポリシーの構成方法の詳細については、「 [Microsoft 365 での通信のコンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)」を参照してください。
 
@@ -44,7 +41,7 @@ Microsoft Teams では、コミュニケーションのコンプライアンス�
 
 ### <a name="getting-started"></a>はじめに
 
-Microsoft Teams での通信の概要については、「チームチャネルまたは1:1 およびグループで不適切なユーザーのアクティビティを特定するための事前定義済みまたはカスタムポリシーの[計画](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan)と作成」をご覧ください。 構成プロセスの一部として、一部の権限と基本的な前提条件を[構成](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure)する必要があることに注意してください。
+Microsoft Teams での通信の概要については、「チームチャネルまたは1:1 およびグループで不適切なユーザーのアクティビティを特定するための事前定義済みまたはカスタムポリシーの [計画](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) と作成」をご覧ください。 構成プロセスの一部として、一部の権限と基本的な前提条件を [構成](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) する必要があることに注意してください。
 
 チーム管理者は、次のレベルで通信コンプライアンスポリシーを構成できます。
 

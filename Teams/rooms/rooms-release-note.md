@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
-ms.translationtype: HT
+ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761323"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328226"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -29,6 +29,7 @@ ms.locfileid: "46761323"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.6.20.0 |09/30/2020 |
 |4.5.37.0 |2020/8/14 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
@@ -67,11 +68,18 @@ ms.locfileid: "46761323"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
+
+この更新プログラムで導入されるもの:
+- 3 ~ 3 のビデオギャラリーで、ルームの前面に表示されるその他のビデオ  
+- MTR からローカルのライブクローズドキャプションを開始する 
+- 直接ゲスト参加を使用してチームルームからズーム会議に参加する (プレビュー)
+
 ### <a name="45370-08142020"></a>4.5.37.0 (2020/8/14)
 
 この更新プログラムで導入されるもの:
 - Microsoft Teams と Surface Hub 2S 間の調整された会議 
-- [Windows 10 更新プログラム KB4565351](https://support.microsoft.com/ja-JP/help/4565351/windows-10-update-kb4565351) または [Windows 10 更新プログラム KB4571709](https://support.microsoft.com/ja-JP/help/4571709/windows-10-update-kb4571709) がインストールされている場合の Skype for Business サインイン エラーの修正
+- [Windows 10 更新プログラム KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) または [Windows 10 更新プログラム KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709) がインストールされている場合の Skype for Business サインイン エラーの修正
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
