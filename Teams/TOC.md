@@ -281,7 +281,7 @@
 
 # 音声 - 電話システムと PSTN 接続 
 
-## [展開の計画](cloud-voice-landing-page.md)
+## [Teams の音声ソリューションを計画する](cloud-voice-landing-page.md)
 
 ## 電話システム
 ### [電話システムとは](what-is-phone-system-in-office-365.md)
