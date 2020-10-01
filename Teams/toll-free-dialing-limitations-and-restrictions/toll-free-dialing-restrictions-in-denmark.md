@@ -1,11 +1,10 @@
 ---
 title: デンマークでのフリーダイヤル制限
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -22,35 +21,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: 中国では、可用性、有線/固定回線、携帯ネットワークの可用性、制限を含む、無料の電話番号にダイヤルする方法について説明します。
-ms.openlocfilehash: b8dc3b6382b5b74a80bba1a8702d1a40bee5eaf0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
+ms.openlocfilehash: c3db94798c56ca35886992d8d4c3496b45b258a7
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140446"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320772"
 ---
-# <a name="toll-free-dialing-restrictions-in-denmark"></a><span data-ttu-id="df50c-103">デンマークでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="df50c-103">Toll-free dialing restrictions in Denmark</span></span>
+# <a name="toll-free-dialing-restrictions-in-denmark"></a><span data-ttu-id="24fc0-105">デンマークでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="24fc0-105">Toll-free dialing restrictions in Denmark</span></span>
 
-<span data-ttu-id="df50c-104">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="df50c-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="24fc0-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="24fc0-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="df50c-105">**詳細**</span><span class="sxs-lookup"><span data-stu-id="df50c-105">**Details**</span></span>|<span data-ttu-id="df50c-106">**説明**</span><span class="sxs-lookup"><span data-stu-id="df50c-106">**Description**</span></span>|
+|<span data-ttu-id="24fc0-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="24fc0-107">**Details**</span></span>|<span data-ttu-id="24fc0-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="24fc0-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="df50c-107">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="df50c-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="df50c-108">はい</span><span class="sxs-lookup"><span data-stu-id="df50c-108">Yes</span></span>  <br/> |
-|<span data-ttu-id="df50c-109">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="df50c-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="df50c-110">808 8XXXX</span><span class="sxs-lookup"><span data-stu-id="df50c-110">808 8XXXX</span></span> <br/>  <span data-ttu-id="df50c-111">808 2XXXX</span><span class="sxs-lookup"><span data-stu-id="df50c-111">808 2XXXX</span></span> <br/>  <span data-ttu-id="df50c-112">802 5XXXX</span><span class="sxs-lookup"><span data-stu-id="df50c-112">802 5XXXX</span></span> <br/> |
-|<span data-ttu-id="df50c-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="df50c-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="df50c-114">DK</span><span class="sxs-lookup"><span data-stu-id="df50c-114">DK</span></span>  <br/> |
-|<span data-ttu-id="df50c-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="df50c-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="df50c-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="df50c-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="df50c-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="df50c-117">Island/territory not covered</span></span>  <br/> | <span data-ttu-id="df50c-118">フェロー諸島とグリーンランドからはアクセス不可。</span><span class="sxs-lookup"><span data-stu-id="df50c-118">No access from Faroe Islands or Greenland.</span></span> <br/> |
-|<span data-ttu-id="df50c-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="df50c-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="df50c-120">はい</span><span class="sxs-lookup"><span data-stu-id="df50c-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="df50c-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="df50c-121">Mobile network availability</span></span>  <br/> | <span data-ttu-id="df50c-p101">○ 有料サービス料金で使用可能。</span><span class="sxs-lookup"><span data-stu-id="df50c-p101">Yes. Available at premium rate.</span></span> <br/> |
-|<span data-ttu-id="df50c-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="df50c-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="df50c-125">なし</span><span class="sxs-lookup"><span data-stu-id="df50c-125">None</span></span>  <br/> |
+|<span data-ttu-id="24fc0-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="24fc0-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="24fc0-110">はい</span><span class="sxs-lookup"><span data-stu-id="24fc0-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="24fc0-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="24fc0-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="24fc0-112">801</span><span class="sxs-lookup"><span data-stu-id="24fc0-112">801</span></span><br/>  <span data-ttu-id="24fc0-113">802</span><span class="sxs-lookup"><span data-stu-id="24fc0-113">802</span></span><br/>  <span data-ttu-id="24fc0-114">803</span><span class="sxs-lookup"><span data-stu-id="24fc0-114">803</span></span><br/><span data-ttu-id="24fc0-115">804</span><span class="sxs-lookup"><span data-stu-id="24fc0-115">804</span></span><br/><span data-ttu-id="24fc0-116">8060</span><span class="sxs-lookup"><span data-stu-id="24fc0-116">8060</span></span><br/><span data-ttu-id="24fc0-117">8061</span><span class="sxs-lookup"><span data-stu-id="24fc0-117">8061</span></span><br/><span data-ttu-id="24fc0-118">8062</span><span class="sxs-lookup"><span data-stu-id="24fc0-118">8062</span></span><br/><span data-ttu-id="24fc0-119">8063</span><span class="sxs-lookup"><span data-stu-id="24fc0-119">8063</span></span><br/><span data-ttu-id="24fc0-120">807</span><span class="sxs-lookup"><span data-stu-id="24fc0-120">807</span></span><br/><span data-ttu-id="24fc0-121">808</span><span class="sxs-lookup"><span data-stu-id="24fc0-121">808</span></span><br/><span data-ttu-id="24fc0-122">809</span><span class="sxs-lookup"><span data-stu-id="24fc0-122">809</span></span><br/> |
+|<span data-ttu-id="24fc0-123">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="24fc0-123">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="24fc0-124">DK</span><span class="sxs-lookup"><span data-stu-id="24fc0-124">DK</span></span>  <br/> |
+|<span data-ttu-id="24fc0-125">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="24fc0-125">Island/territory covered</span></span>  <br/> |<span data-ttu-id="24fc0-126">該当なし</span><span class="sxs-lookup"><span data-stu-id="24fc0-126">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="24fc0-127">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="24fc0-127">Island/territory not covered</span></span>  <br/> | <span data-ttu-id="24fc0-128">フェロー諸島とグリーンランドからはアクセス不可。</span><span class="sxs-lookup"><span data-stu-id="24fc0-128">No access from Faroe Islands or Greenland.</span></span> <br/> |
+|<span data-ttu-id="24fc0-129">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="24fc0-129">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="24fc0-130">はい</span><span class="sxs-lookup"><span data-stu-id="24fc0-130">Yes</span></span>  <br/> |
+|<span data-ttu-id="24fc0-131">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="24fc0-131">Mobile network availability</span></span>  <br/> | <span data-ttu-id="24fc0-p102">○ 有料サービス料金で使用可能。</span><span class="sxs-lookup"><span data-stu-id="24fc0-p102">Yes. Available at premium rate.</span></span> <br/> |
+|<span data-ttu-id="24fc0-134">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="24fc0-134">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="24fc0-135">なし</span><span class="sxs-lookup"><span data-stu-id="24fc0-135">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="df50c-126">関連項目</span><span class="sxs-lookup"><span data-stu-id="df50c-126">Related topics</span></span>
-[<span data-ttu-id="df50c-127">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="df50c-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="24fc0-136">関連項目</span><span class="sxs-lookup"><span data-stu-id="24fc0-136">Related topics</span></span>
+[<span data-ttu-id="24fc0-137">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="24fc0-137">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="df50c-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="df50c-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="24fc0-138">サービス電話番号の取得 ss</span><span class="sxs-lookup"><span data-stu-id="24fc0-138">Getting service phone numberss</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  

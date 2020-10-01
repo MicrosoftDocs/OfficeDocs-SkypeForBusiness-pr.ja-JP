@@ -1,11 +1,10 @@
 ---
 title: ポルトガルでのフリーダイヤル制限
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: d2672637-c5ce-4310-a2d9-6050a87a1a98
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -22,35 +21,35 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 513a503f7e3d32b2a7b0a7a636837ac64bfb9179
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
+ms.openlocfilehash: 11b3664f0b25967143dc029e65a11f80117595b8
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693392"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322266"
 ---
-# <a name="toll-free-dialing-restrictions-in-portugal"></a><span data-ttu-id="5fbba-105">ポルトガルでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="5fbba-105">Toll-free dialing restrictions in Portugal</span></span>
+# <a name="toll-free-dialing-restrictions-in-portugal"></a><span data-ttu-id="63ef8-105">ポルトガルでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="63ef8-105">Toll-free dialing restrictions in Portugal</span></span>
 
-<span data-ttu-id="5fbba-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。</span><span class="sxs-lookup"><span data-stu-id="5fbba-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="63ef8-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="63ef8-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="5fbba-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="5fbba-107">**Details**</span></span>|<span data-ttu-id="5fbba-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="5fbba-108">**Description**</span></span>|
+|<span data-ttu-id="63ef8-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="63ef8-107">**Details**</span></span>|<span data-ttu-id="63ef8-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="63ef8-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="5fbba-109">無料通話を利用できますか?</span><span class="sxs-lookup"><span data-stu-id="5fbba-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="5fbba-110">はい</span><span class="sxs-lookup"><span data-stu-id="5fbba-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="5fbba-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="5fbba-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="5fbba-112">800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="5fbba-112">800 XXX XXX</span></span>  <br/> |
-|<span data-ttu-id="5fbba-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="5fbba-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="5fbba-114">PT</span><span class="sxs-lookup"><span data-stu-id="5fbba-114">PT</span></span>  <br/> |
-|<span data-ttu-id="5fbba-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="5fbba-115">Island/territory covered</span></span>  <br/> | <span data-ttu-id="5fbba-116">アゾレス諸島、マデイラ諸島</span><span class="sxs-lookup"><span data-stu-id="5fbba-116">Azores, Madeira</span></span> <br/> |
-|<span data-ttu-id="5fbba-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="5fbba-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="5fbba-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="5fbba-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="5fbba-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="5fbba-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="5fbba-120">あり</span><span class="sxs-lookup"><span data-stu-id="5fbba-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="5fbba-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="5fbba-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="5fbba-p102">○ 有料サービス料金で使用可能。</span><span class="sxs-lookup"><span data-stu-id="5fbba-p102">Yes. Available at premium rate.</span></span>  <br/> |
-|<span data-ttu-id="5fbba-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="5fbba-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="5fbba-125">なし</span><span class="sxs-lookup"><span data-stu-id="5fbba-125">None</span></span>  <br/> |
+|<span data-ttu-id="63ef8-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="63ef8-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="63ef8-110">はい</span><span class="sxs-lookup"><span data-stu-id="63ef8-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="63ef8-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="63ef8-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="63ef8-112">8000</span><span class="sxs-lookup"><span data-stu-id="63ef8-112">8000</span></span><br/> <span data-ttu-id="63ef8-113">8001</span><span class="sxs-lookup"><span data-stu-id="63ef8-113">8001</span></span><br/> <span data-ttu-id="63ef8-114">8002</span><span class="sxs-lookup"><span data-stu-id="63ef8-114">8002</span></span><br/> <span data-ttu-id="63ef8-115">8003</span><span class="sxs-lookup"><span data-stu-id="63ef8-115">8003</span></span><br/> <span data-ttu-id="63ef8-116">8004</span><span class="sxs-lookup"><span data-stu-id="63ef8-116">8004</span></span><br/> <span data-ttu-id="63ef8-117">8005</span><span class="sxs-lookup"><span data-stu-id="63ef8-117">8005</span></span><br/> <span data-ttu-id="63ef8-118">8006</span><span class="sxs-lookup"><span data-stu-id="63ef8-118">8006</span></span><br/> <span data-ttu-id="63ef8-119">8007</span><span class="sxs-lookup"><span data-stu-id="63ef8-119">8007</span></span><br/> <span data-ttu-id="63ef8-120">8008</span><span class="sxs-lookup"><span data-stu-id="63ef8-120">8008</span></span><br/> <span data-ttu-id="63ef8-121">8009</span><span class="sxs-lookup"><span data-stu-id="63ef8-121">8009</span></span><br/>  <span data-ttu-id="63ef8-122">802</span><span class="sxs-lookup"><span data-stu-id="63ef8-122">802</span></span><br/> |
+|<span data-ttu-id="63ef8-123">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="63ef8-123">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="63ef8-124">PT</span><span class="sxs-lookup"><span data-stu-id="63ef8-124">PT</span></span>  <br/> |
+|<span data-ttu-id="63ef8-125">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="63ef8-125">Island/territory covered</span></span>  <br/> | <span data-ttu-id="63ef8-126">アゾレス諸島、マデイラ諸島</span><span class="sxs-lookup"><span data-stu-id="63ef8-126">Azores, Madeira</span></span> <br/> |
+|<span data-ttu-id="63ef8-127">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="63ef8-127">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="63ef8-128">該当なし</span><span class="sxs-lookup"><span data-stu-id="63ef8-128">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="63ef8-129">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="63ef8-129">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="63ef8-130">はい</span><span class="sxs-lookup"><span data-stu-id="63ef8-130">Yes</span></span>  <br/> |
+|<span data-ttu-id="63ef8-131">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="63ef8-131">Mobile network availability</span></span>  <br/> |<span data-ttu-id="63ef8-p102">○ 有料サービス料金で使用可能。</span><span class="sxs-lookup"><span data-stu-id="63ef8-p102">Yes. Available at premium rate.</span></span>  <br/> |
+|<span data-ttu-id="63ef8-134">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="63ef8-134">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="63ef8-135">なし</span><span class="sxs-lookup"><span data-stu-id="63ef8-135">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="5fbba-126">関連トピック</span><span class="sxs-lookup"><span data-stu-id="5fbba-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="63ef8-136">関連項目</span><span class="sxs-lookup"><span data-stu-id="63ef8-136">Related topics</span></span>
 
-[<span data-ttu-id="5fbba-127">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="5fbba-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="63ef8-137">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="63ef8-137">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="5fbba-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="5fbba-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="63ef8-138">サービス電話番号を取得する</span><span class="sxs-lookup"><span data-stu-id="63ef8-138">Getting service phone numbers</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  
