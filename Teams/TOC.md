@@ -215,8 +215,8 @@
 ### [電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット](audio-conferencing-subscription-dial-out.md)
 
 
-### [Microsoft Teams の電話会議を設定する](set-up-audio-conferencing-in-teams.md)
-
+### [電話会議をセットアップする](set-up-audio-conferencing-in-teams.md)
+### [電話会議をセットアップする - 中小企業向けのクイックスタート](audio-conferencing-smb.md)
 ### [Microsoft を電話会議プロバイダーとして割り当てる](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### 電話会議ブリッジの管理
@@ -426,16 +426,23 @@
 
 
 ## リファレンス
-### 国別電話番号の管理 
+### 国別電話番号の管理
 #### [オーストラリアでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [オーストリアでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md)
 #### [ベルギーでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [カナダでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
+#### [デンマークでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md)
 #### [フランスでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [ドイツでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [アイルランドでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
+#### [イタリアでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md)
 #### [日本での電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md)
+#### [ポルトガルでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md)
 #### [スペインでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
 #### [オランダでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
+
+#### [スウェーデンでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md)
+#### [スイスでの電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md)
 #### [英国での電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [米国での電話番号の管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
@@ -443,7 +450,8 @@
 #### [概要](toll-free-dialing-limitations-and-restrictions.md)
 #### [アルゼンチン](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [オーストラリア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
-#### [ベラルーシ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+#### [Austria](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md)
+#### [Belarus (Белару́сь)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 #### [Belgium](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [ベリーズ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 #### [ボスニア・ヘルツェゴビナ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
@@ -470,6 +478,7 @@
 #### [Indonesia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 #### [アイルランド](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 #### [イスラエル](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
+#### [イタリア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md)
 #### [日本](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
 #### [ケニア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 #### [ルクセンブルク](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
@@ -493,8 +502,9 @@
 #### [スロベニア](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 #### [南アフリカ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 #### [韓国](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
-#### [スペイン]](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
+#### [スペイン](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 #### [スウェーデン](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
+#### [Switzerland](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 #### [台湾](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 #### [タイ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 #### [トルコ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
