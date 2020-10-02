@@ -17,24 +17,21 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761153"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333247"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
-===================================================
+# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 
-既定では、ゲスト アクセスはオフになっています。 Microsoft 365 または Office 365 管理者は、管理者またはチーム所有者がゲストを追加する前に、チームのゲストアクセスを有効にする必要があります。 ゲストアクセスを有効にするには、 [チームのゲストと共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)を行います。 
+既定では、ゲスト アクセスはオフになっています。 Microsoft 365 または Office 365 管理者は、管理者またはチーム所有者がゲストを追加する前に、チームのゲストアクセスを有効にする必要があります。
 
 ゲストアクセスを有効にすると、変更が反映されるまでに数時間かかることがあります。 ユーザーがチームにゲストを追加しようとするときに "Contact your administrator (管理者にお問い合わせください)" というメッセージが表示される場合、ゲスト アクセスがオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。
 
 > [!IMPORTANT]
-> ゲストアクセスを有効にするかどうかは、Azure Active Directory、Microsoft 365、Office 365、SharePoint Online、Teams の設定によって異なります。 詳細については、「[Microsoft Teams でのゲスト アクセスを承認する](Teams-dependencies.md)」を参照してください。
-
-
+> ゲストアクセスを有効にするかどうかは、Azure Active Directory、Microsoft 365、SharePoint、および Teams の設定によって異なります。 詳細については、「 [チームでゲストと共同作業](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)を行う」を参照してください。
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 管理センターでゲスト アクセスを構成する
 
@@ -66,12 +63,14 @@ ms.locfileid: "46761153"
       - **会話でミームを使用する** – この設定を **[オン]** にすると、ゲストが会話でミームを使用することができるようになります。
       - **会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。 
 
-5. **[保存]** をクリックします。
-
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>PowerShell を使用してゲスト アクセスをオンまたはオフにする
-
-「 [PowerShell を使用してゲストアクセスを有効または無効にする」を](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)参照してください。
+5. [**保存**] をクリックします。
 
 ## <a name="external-access-federation-vs-guest-access"></a>外部アクセス (フェデレーション) とゲスト アクセス
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="see-also"></a>関連項目
+
+[特定のチームからのゲストユーザーをブロックする](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+
+[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)

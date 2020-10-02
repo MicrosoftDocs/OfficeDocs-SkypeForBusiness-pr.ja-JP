@@ -16,13 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308170"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337016"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Microsoft Teams で NDI®テクノロジを使用する
 
@@ -50,7 +49,7 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 次の画像は、Teams 会議でユーザーに表示されるバナーメッセージを示しています。
 
-![Teams 会議に表示される NDI®技術バナーの画像。](media/NDI-disclosure.png)
+![チーム会議に表示される®技術バナー。](media/NDI-disclosure.png)
 
 バナーには [Microsoft のプライバシーポリシー](https://aka.ms/teamsprivacy)へのリンクが含まれています。
 
@@ -60,7 +59,7 @@ NDI®テクノロジは、すべてのロケールでサポートされていま
 
 - テナント間–発信/テナント/ユーザー Id に基づいて提供される完全なサポート (会議ポリシーによって制御されます)
 - フェデレーション–ストリームアクセスなし (NDI®テクノロジを使用していても)<sup>1</sup>
-- 目につき-ストリームアクセスなし
+- Premium-ストリームにアクセスできません
 - 匿名–ストリームにアクセスできません。
 - ゲスト–ストリームへのアクセスはありません。  
 

@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: ダイナミック サポートの構造とそのフェーズを含めた Microsoft Teams Rooms のライフサイクル サポートの詳細について。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 196f4e7e6384ffa0f0d59478e1a0cb326bf4b984
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
-ms.translationtype: HT
+ms.openlocfilehash: bd4640df6b4512b5f5b4707a1423c78ae6deea49
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201191"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336985"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams Rooms アプリ バージョンのサポート
  
@@ -56,8 +56,8 @@ Microsoft Teams Rooms デバイスでは、Windows 10 機能更新プログラ�
 | 2004 |2020-05-27 |検証の下で、 <br/>非推奨|&#x2014; |19041.264 |
 | 1909 |2019-11-12 |サポート済み、 <br/>推奨 |4.5.33.0 |18363.418  |
 | 1903 |2019-05-21 |サポート済み  |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |スキップ、 <br/>非推奨 &#x2780;|&#x2014; |&#x2014; |
-| 1803 |2018-07-10 |サポート                             |4.1.22.0 |17134.191|
+| 1809 |2019-03-28 |サポートされていません。 <br/>既知の互換性の問題 &#x2780;|&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |非サポート                             |&#x2014;  |&#x2014; |
 | 1709 |2018-01-18 |非サポート                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |非サポート                         |&#x2014; |&#x2014; |
 

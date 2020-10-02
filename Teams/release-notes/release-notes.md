@@ -16,22 +16,75 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams の管理者向け機能のリリースノート。
-ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
-ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
+ms.openlocfilehash: 5e3abb22f3ac5e8cd830ea367ab259422d88e8a6
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399512"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336996"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams の管理者向け機能のリリースノート
 
 これらのリリースノートでは、Microsoft Teams の新しい管理機能について説明します。
 
+## <a name="october-1-2020"></a>2020年10月1日
+
+### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を与える
+
+チーム管理センターでは、グローバル管理者は、チームに保存されている情報の読み取り、またはユーザーの代理としてのメールの送信など、アプリが要求している権限について、Azure Active Directory に登録されている Graph API のアクセス許可に対する同意を確認して付与することができます。 これで IT 管理者は、Teams 管理センター内のアプリのリソース固有の同意 (RSC) 権限を確認できるようになります。 これにより、管理者は、組織で既に確認および承認されているサードパーティ製アプリのユーザーのブロックを解除できるようになります。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
+## <a name="september-29-2020"></a>2020年9月29日
+
+### <a name="meeting-policy-settings"></a>会議ポリシーの設定
+
+Teams 会議ポリシーで IP オーディオと IP ビデオの2つのポリシー設定を追加する: ip オーディオと ip ビデオ用モードのモード。 Teams 会議のポリシーで、着信と発信の IP オーディオと IP ビデオを設定できるようになりました。 [詳細情報を参照してください](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
+
+## <a name="september-27-2020"></a>2020年9月27日
+
+### <a name="simplified-notification-setting"></a>簡単な通知設定
+
+ユーザーは、強化された機能を使用して、より簡単な方法で通知設定を管理できるようになりました。
+
+## <a name="september-24-2020"></a>2020年9月24日
+
+### <a name="teams-integration-with-android-contacts"></a>Android の連絡先とのチームとの統合
+
+Android の電話帳から直接 Teams を使って通話を発信できます。
+
+## <a name="september-21-2020"></a>2020年9月21日
+
+### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する
+
+管理者は、Teams の [アプリ] ページで、ユーザーが自分の同僚によって構築された Microsoft Power Platform アプリを表示してインストールできるかどうかを制御できます。 [ [アプリの管理](../manage-apps.md) ] ページの組織レベルで、または [アプリのアクセス許可ポリシー](../teams-app-permission-policies.md)を使用する特定のユーザーに対して、Power Apps または power Virtual agent で作成されたすべてのアプリを、一括ブロックまたは許可することができます。 [詳細情報を参照してください](../manage-power-platform-apps.md)。
+
+## <a name="september-19-2020"></a>2020年9月19日
+
+### <a name="sharing-files-in-microsoft-teams"></a>Microsoft Teams でのファイル共有
+
+Microsoft Teams では、ユーザーは組織内外の他の Teams ユーザーとコンテンツを共有できます。 Teams での共有は、SharePoint と OneDrive で構成されている設定に基づいているため、SharePoint と OneDrive のどちらを設定しても、Teams での共有が制御されます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)。
+
+## <a name="september-16-2020"></a>2020年9月16日
+
+### <a name="new-third-party-video-provider-riverbed"></a>サードパーティのビデオプロバイダの新製品
+
+Teams のライブ イベント設定を使用して、組織で保持されているライブ イベントの設定を構成します。 サポート URL を設定して、サード パーティ製のビデオ配信プロバイダーを設定できます。 この設定は、組織で作成したすべてのライブ イベントに適用します。 Riverbed は、新しいサードパーティのプロバイダーです。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)。
+
+## <a name="september-15-2020"></a>2020年9月15日
+
+### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>Teams PowerShell モジュールに統合された Skype for Business Online Connector
+
+最新の Teams PowerShell パブリック リリースは Skype for Business Online コネクタと統合され、Teams PowerShell 管理用の単一モジュールを提供します。 [詳細情報を参照してください](../teams-powershell-overview.md#manage-teams-with-powershell)。
+
+## <a name="september-8-2020"></a>2020年9月8日
+
+### <a name="porting-pin"></a>ピンの移植
+
+電話番号の移植または転送に使用する PIN をセットアップして管理する機能が追加されました。 Microsoft からサービスプロバイダに番号を発信する場合は、PSTN サービスデスクにこの PIN を提供します。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。
+
 ## <a name="september-3-2020"></a>2020年9月3日
 
 ### <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft Teams のカスタムアプリストア
 
-これで、ロゴ、カスタム背景、ユーザー設定のテキストの色を追加して、組織のブランドを持つ Teams アプリストアをカスタマイズして、エンドユーザーに招待することができます。 [詳細情報](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+これで、ロゴ、カスタム背景、ユーザー設定のテキストの色を追加して、組織のブランドを持つ Teams アプリストアをカスタマイズして、エンドユーザーに招待することができます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)。
 
 ## <a name="september-1-2020"></a>2020年9月1日
 
@@ -43,11 +96,11 @@ ms.locfileid: "47399512"
 
 ### <a name="group-chat-size-increase"></a>グループチャットのサイズの拡大
 
-グループチャットに250参加者を追加する機能が追加されました。
+グループチャットに250参加者を追加する機能が追加されました。 [詳細情報を参照してください](../limits-specifications-teams.md)。
 
 ### <a name="manage-the-praise-app"></a>称賛アプリを管理する
 
-Microsoft Teams の称賛アプリを使用すると、ユーザーは組織または教室のメンバーに対する感謝を示すことができます。 選択して、独自のバッジを作成するためのオプションを選ぶと、称賛は、チームユーザーが作成するさまざまな作業について、教育者から最初のラインワーカーまでの労力を認識できるように設計されています。 [詳細情報を参照してください](../manage-praise-app.md)。
+Microsoft Teams の称賛アプリを使用すると、ユーザーは組織または教室のメンバーに対する感謝を示すことができます。 称賛アプリでは、選択できるバッジセットが選択されており、独自のバッジを作成するオプションが用意されています。 称賛は、チームユーザーが担当するさまざまな作業について、教育者から Firstline 員まで、さまざまな作業を認識できるように設計されています。 [詳細情報を参照してください](../manage-praise-app.md)。
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams のルームと Surface Hub でコーディネートされた会議をセットアップする
 
@@ -61,7 +114,7 @@ Microsoft Teams の称賛アプリを使用すると、ユーザーは組織ま�
 
 ### <a name="cortana-voice-skills-in-teams"></a>Teams での Cortana の音声スキル
 
-Teams のモバイルアプリで Cortana の音声スキルを利用すると、ユーザーは音声自然言語を使って会議、コミュニケーション、共同作業を行うことができます。 ユーザーは、Teams アプリの [マイク] ボタンをクリックして、"通話 Megan" または "次の会議にメッセージを送信" のような要求を行うことができます。これには、仕事の最中や、外出先でも、他のユーザーと連絡を取る必要がある場合があります。 ユーザーが会議に参加するには、"次の会議に参加する" というメッセージが表示されるか、または自分の予定表を確認します。 会議または通話中に、会議ステージのオーバーフローメニューから Cortana を呼び出し、名前または番号でのユーザーの追加、デッキプレゼンテーション (「四半期のレビューデッキの開催」)、スライドへの移動などの一般的な会議のタスクを実行することができます (「付録のスライドに移動する」を参照してください)。 この機能でサポートされているその他の機能は、Teams アプリ内でのファイルの検索と共有、検索、一般的な移動です (「John とチャットを開く」では、「自分の未読アクティビティ」に移動して、「自分のメンションなど」にアクセスします)。
+Teams のモバイルアプリで Cortana の音声スキルを利用すれば、会話、コミュニケーション、共同作業などの作業を簡単に自然な言語で実行できるようになります。 ユーザーは、Teams アプリの [マイク] ボタンをクリックして、"通話 Megan" または "次の会議にメッセージを送信" のような要求を行うことができます。これには、仕事の最中や、外出先でも、他のユーザーと連絡を取る必要がある場合があります。 ユーザーが会議に参加するには、"次の会議に参加する" というメッセージが表示されるか、または自分の予定表を確認します。 会議または通話中に、会議ステージのオーバーフローメニューから Cortana を呼び出し、名前または番号でのユーザーの追加、デッキプレゼンテーション (「四半期のレビューデッキの開催」)、スライドへの移動などの一般的な会議のタスクを実行することができます (「付録のスライドに移動する」を参照してください)。 この機能でサポートされているその他の機能は、Teams アプリ内でのファイルの検索、共有、検索、移動です (「John とチャットを開く」の「私の未読アクティビティに移動する」を参照してください)。
 
 Teams の cortana は、 [オンラインサービス利用規約 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)に反映された、cortana enterprise サービスのエンタープライズレベルのプライバシー、セキュリティ、コンプライアンスに関する約束を満たしています。
 
@@ -73,7 +126,7 @@ Teams の cortana は、 [オンラインサービス利用規約 (OST)](https:/
 
 ### <a name="lists-app-in-teams"></a>Teams でのアプリの一覧
 
-Teams ユーザーは、[リスト] アプリタブを使って、リストの管理、作成、管理を直接行うことができるようになりました。リストアプリは、すべてのチームクライアントで動作し、リストアイテムに関する共同作業とコミュニケーションを可能にします。
+Teams ユーザーは、[リスト] アプリタブを使って、リストの管理、作成、管理を直接行うことができるようになりました。リストアプリは、すべてのチームクライアントで動作し、リストアイテムに関する共同作業とコミュニケーションを可能にします。 リストアプリの管理方法の詳細については、「 [組織のリストアプリを管理](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)する」を参照してください。
 
 ## <a name="august-6-2020"></a>2020年8月6日
 
@@ -93,7 +146,7 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 ## <a name="july-31-2020"></a>2020年7月31日
 
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>管理者は、Firstline worker のシフトベースのプレゼンス (シフトの場合はシフト) を構成できます。
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>管理者は、Firstline Worker のシフトベースのプレゼンス (シフトの場合はシフト) を構成できます。
 
 管理者は、シフトベースのプレゼンス状態を使用するように firstline ワーカーを構成できます。シフト、取り込み中 (シフト中は切り替え可能)、shift キーをオフにすることができます。
 
@@ -101,7 +154,11 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>デバイスタグ機能を使用した管理性の向上
 
-管理性の向上の一環として、デバイスタグ機能をリリースしています。 これにより、IT 管理者は、ユーザーによって生成されたタグを持つ特定のデバイスのセットをグループ化して、同じ操作を実行することができます。 [詳細情報を参照してください](/../../manage-device-tags.md)。
+管理性の向上の一環として、デバイスタグ機能をリリースしています。 これにより、IT 管理者は、ユーザーによって生成されたタグを持つグループ固有のデバイスのセットに対して、同じ操作を実行できます。 [詳細情報を参照してください](/../../manage-device-tags.md)。
+
+### <a name="view-only-in-meetings"></a>会議でのみ表示する
+
+[表示のみ] では、2万のリッスン専用参加者が、上級通信アドオン SKU のライセンスを持っている会議に参加することができます。1これは、プレビュー版または初期リリースの機能です。 [詳細情報](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
 
 ## <a name="july-28-2020"></a>2020年7月28日
 
@@ -163,7 +220,7 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>他のユーザーの代わりに表示される画面共有
 
-多くの IT 管理者は、AllowPrivateCalling ポリシーを無効にすると、従業員の画面をチャットから共有できないという苦情を受けています。 この機能によって、AllowPrivateCalling ポリシーからの映像共有を開始する機能が切り離されますが、AllowPrivateCalling ポリシーが無効になっている場合は、ユーザーがスクリーン共有セッションに音声/ビデオを追加することはブロックされます。
+多くの IT 管理者は、AllowPrivateCalling ポリシーを無効にするときに、チャットから従業員の画面共有を行うことができないと訴えています。 この機能は、AllowPrivateCalling ポリシーからのチャットから画面を開始する機能を分離していますが、AllowPrivateCalling のポリシーが無効になっている場合は、ユーザーが音声/ビデオを画面共有セッションに追加するのをブロックします。
 
 ## <a name="june-29-2020"></a>2020年6月29日
 
@@ -185,13 +242,13 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Android および iOS ユーザー向けのサインイン制限
 
-ユーザーが他の場所で Microsoft 365 アカウントにサインインしていない場合は、組織がモバイル サインイン ポリシー用に構成した内容に応じて、単一要素認証または多要素認証 (SFA または MFA) を提供するように求められます。 [詳細情報を参照してください](../sign-in-teams.md)。
+ユーザーが Microsoft 365 アカウントにサインインしていない場合は、組織でのモバイルサインインポリシーの設定に応じて、単一要素認証または多要素認証 (SFA または MFA) を提供するように求められます。 [詳細情報を参照してください](../sign-in-teams.md)。
 
 ## <a name="june-15-2020"></a>2020年6月15日
 
 ### <a name="monitor-shifts-with-audit-logs"></a>監査ログでシフトを監視する
 
-監査ログを検索して、組織内のシフトアクティビティを表示できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/audit-log-events)。
+監査ログを検索して、組織内のシフトアクティビティを表示できます。 [詳細情報](<https://docs.microsoft.com/microsoftteams/audit-log-events>.
 
 ## <a name="june-11-2020"></a>2020年6月11日
 
