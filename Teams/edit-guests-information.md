@@ -9,21 +9,22 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: この記事では、管理者が Azure Active Directory ポータルでゲストユーザーに関する情報を編集する方法について説明します。
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: c6add221744234d8169b7b602d3fb46dff91a093
-ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
+ms.openlocfilehash: a53bf13747a34ccf8c8af29794a21c8f603cab9c
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950833"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346158"
 ---
 # <a name="edit-guest-user-information"></a>ゲスト ユーザー情報の編集
 
@@ -31,7 +32,7 @@ ms.locfileid: "47950833"
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Microsoft 365 管理者のゲストユーザー
 
-1. Microsoft 365 管理センターからゲスト情報を編集するには、[**ユーザー**の  >  **ゲストユーザー**] を選択します。
+1. [Microsoft 365 管理センター](https://admin.microsoft.com)でゲスト情報を編集するには、[**ユーザー**の  >  **ゲストユーザー**] を選択します。
 
    ![編集中のゲストユーザー情報](media/access-guest-user.png)
 
@@ -45,6 +46,4 @@ ms.locfileid: "47950833"
 
    ![ゲストユーザーの連絡先情報を編集する](media/manage-guest-contact.png)
 
-## <a name="guest-users-in-the-azure-active-directory"></a>Azure Active Directory のゲストユーザー
-
-オプションとして、Azure Active Directory ポータルからゲストユーザーを編集することができます。 詳細については、「 [id と Azure Active Directory につい](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)て」を参照してください。
+また、 [Azure Active Directory ポータル](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)からゲストユーザーを編集することもできます。
