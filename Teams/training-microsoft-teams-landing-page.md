@@ -3,8 +3,8 @@ title: Microsoft Teams の管理者トレーニング
 ms.reviewer: ''
 description: これらのエンド ユーザー、管理者、および講師による指導付きトレーニングのリソースを使用して、組織内の Microsoft Teams を最大限に活用できるようにします。
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656338"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336976"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
@@ -33,7 +33,7 @@ ms.locfileid: "46656338"
 | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams のライブ トレーニング](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Teams を使いこなすための、Microsoft が主催する無料のライブ オンライン トレーニング クラス。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams のオンライン トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 自分のペースで学習できるこれらのトレーニング リソースを使用して、ユーザーが Teams を最大限に活用できるようにします。 |
 
-## <a name="dont-miss-this-key-training"></a>この重要なトレーニングをお見逃しなく
+## <a name="dont-miss-these-key-training-offerings"></a>これらの主要なトレーニングサービスをお見逃しなく
 
 定期的にチェックしてください - このリストは継続して更新されるため、常に最新で優れた、最も重要な Teams トレーニングに関する情報を得ることができます。
 
@@ -51,7 +51,7 @@ ms.locfileid: "46656338"
    :::column-end:::
 
    :::column:::
-   **[チームワーク](https://aka.ms/edx-cld267x-about)** </br>
+   **[チームワーク](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    コース: Teams でチームワークを有効にする
 
    :::column-end:::

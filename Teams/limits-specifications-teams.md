@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a95606786b59718e99adedb9a33ad31c1903f75
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308200"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333267"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -119,7 +119,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 >- Teams テナントごとに最大 50 の同時イベント
 >- ブロードキャストあたり最大 16 時間
 >
-> さらに、最大 10 万人の参加者がいるライブイベントを、MIcrosoft のライブイベント支援プログラムを通じて計画できます。 [詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日以降、これらの制限の引き上げが必要なお客様は、[Advanced Communications](teams-add-on-licensing/advanced-communications.md) アドオンを購入する必要があります。**
+> さらに、Microsoft 365 支援プログラムを通じて、最大 10 万人が参加するライブイベントを計画できます。 チームは各要求を評価し、お客様と協力して利用可能なオプションを決定します。 [詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日以降、これらの制限の引き上げが必要なお客様は、[Advanced Communications](teams-add-on-licensing/advanced-communications.md) アドオンを購入する必要があります。**
 
 
 |機能     | 上限 |
