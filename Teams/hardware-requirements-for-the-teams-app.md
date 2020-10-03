@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55d683c25ec0a5d83bbcf87a2e6df5031ec822f9
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: ff7a65127d94882c73b6bf85ff2a01e168f2da4a
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333257"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341011"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -57,7 +57,7 @@ ms.locfileid: "48333257"
 |オペレーティング システム  |    最新バージョンの macOS のうちの1つ。 最新バージョンの macOS は [こちらで](https://support.apple.com/en-us/HT201260)ご覧いただけます。 たとえば、macOS の新しいバージョンがリリースされると、新しいバージョンとその直前の2つがサポートされているバージョンになります。      |
 |ビデオ  |    互換性のある Web カメラ     |
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
-|ビデオ通話と会議 | <ul><li>2コアプロセッサが必要です。 より高度なビデオ/画面共有の解像度とフレームレートについては、4コアプロセッサ以上をお勧めします。 </li><li>Microsoft Teams の Room での類似性検出を使用した会議への参加は、macOS では利用できません。</li></ul>
+|ビデオ通話と会議 | <ul><li>2コアプロセッサが必要です。 ビデオ/画面共有の解像度とフレームレートを高くするには、4コアプロセッサ以上をお勧めします。 </li><li>Microsoft Teams の Room での類似性検出を使用した会議への参加は、macOS では利用できません。</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux での Teams のハードウェア要件

@@ -1,14 +1,13 @@
 ---
-title: ゲストのエクスペリエンスについて
+title: Microsoft Teams のゲストエクスペリエンス
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: この記事では、ゲスト ユーザーが利用できる Microsoft Teams の機能について説明し、これに関連する最も一般的な FAQ に回答します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,34 +17,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 591cd6447f9430905fce1e84f22708d19adf70c5
-ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
+description: この記事では、ゲストユーザーが利用できる Microsoft Teams の機能について説明します。
+ms.openlocfilehash: 95d0fec7a1af8f735c66cc76fc27ecd3cf8bf956
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845579"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346208"
 ---
-<a name="what-the-guest-experience-is-like"></a>ゲストのエクスペリエンスについて
-=================================
+# <a name="guest-experience-in-teams"></a>Teams でのゲストエクスペリエンス
 
 ゲストがチームに参加するように招待されると、「ようこそ」メール メッセージが届きます。 このメッセージには、チームに関するいくつかの情報と、メンバーとして想定されることが記載されています。 ゲストは、チームとそのチャネルにアクセスする前に、メール メッセージで **[Microsoft Teams を開く]** を選択して、招待を承諾する必要があります。
     
-![ウェルカップ メール メッセージの例を示すスクリーンショット](media/guest-experience-image1.png)
+![ようこそメールメッセージの例を示すスクリーンショット](media/guest-experience-image1.png)
     
-すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 チャネル スレッドの右上隅にタグは、チームのゲスト数を示し、 **各ゲストの名前の横に (ゲスト)** ラベルが表示されます。
+すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 チャネルスレッドの右上隅にあるタグは、チームのゲストの数と、各ゲストの名前の横に **(ゲスト)** ラベルが表示されることを示します。
 
-![チームのゲスト数を示すタグを示すスクリーンショット](media/guest-experience-image2.png)
+![チームのゲストの数を示すタグが表示されたスクリーンショット](media/guest-experience-image2.png)
 
-Teams のゲスト エクスペリエンスに関するビデオをご覧ください。
+Teams のゲストエクスペリエンスについては、次のビデオをご覧ください。
 - [ゲストとしてチームに参加する](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [ゲストとの Teams 会議に参加する](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
-
-> [!NOTE]
-> Microsoft 365 と Office 365 の管理者は、ゲストが利用できる機能を制御します。
+- [ゲストとのチーム会議に参加する](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>チーム メンバーとゲスト機能の比較
 
-次の表は、組織のチーム メンバーが利用できる Teams の機能と、ゲストが利用できる Teams の機能を比較したものです。
+次の表は、組織のチーム メンバーが利用できる Teams の機能と、ゲストが利用できる Teams の機能を比較したものです。 Teams の管理者はゲストが利用できる機能を制御します。
 
 |**Teams の機能**|**組織の Teams ユーザー**|**ゲスト ユーザー**|
 |:-----|:-----|:-----|
@@ -54,12 +50,16 @@ Teams のゲスト エクスペリエンスに関するビデオをご覧くだ�
 |チャネルの会話に参加する  <br/> |&#x2713;|&#x2713;|
 |メッセージを投稿、削除、編集する  <br/> |&#x2713;|&#x2713;|
 |チャネル ファイルを共有する  <br/> |&#x2713;|&#x2713;|
+|Access SharePoint ファイル<br/> |&#x2713;|&#x2713;|
+|ファイルを添付する<br/> |&#x2713;|&#x2713;|
+|プライベートチャットファイルをダウンロードする<br/> |&#x2713;|&#x2713;|
+|ファイル内を検索する<br/> |&#x2713;||
 |チャット ファイルを共有する  <br/> |&#x2713;||
 |アプリ (タブ、ボット、コネクタ) を追加する  <br/> |&#x2713;||
 |会議を作成またはスケジュールにアクセスする  <br/> |&#x2713;||
 |OneDrive for Business ストレージにアクセスする  <br/> |&#x2713;||
 |テナント全体およびチーム/チャネルのゲスト アクセス ポリシーを作成する  <br/> |&#x2713;||
-|Microsoft 365 または組織のドメインOffice 365 の外部のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |&#x2713;||
+|Microsoft 365 または Office 365 組織のドメイン以外のユーザーを招待する <br/>  *この機能はチーム所有者によって制御されます。*  <br/> <br/> |&#x2713;||
 |チームを作成する  <br/> |&#x2713;||
 |パブリック チームを検出して参加する  <br/> |&#x2713;||
 |組織図を表示する  <br/> |&#x2713;||
@@ -99,43 +99,13 @@ Teams のゲスト エクスペリエンスに関するビデオをご覧くだ�
 <sup>1</sup> この機能は近日中に利用できるようになります。
 
 > [!NOTE]
-> Azure **Guest user access restrictions** Active Directory (Azure AD) のゲスト ユーザー アクセス制限ポリシーによって、ディレクトリ内のゲストに対するアクセス許可が決定されます。 ポリシー オプションは 3 つあります。
->  - ゲ **スト ユーザーはメンバー (ほとんどのものを含む)** 設定と同じアクセス権を持つことは、ゲストはディレクトリの通常のユーザーと同じアクセス権を持つことです。
->  - ゲ **スト ユーザーは、** ディレクトリ オブジェクト設定のプロパティやメンバーシップに制限されているため、ゲストには、Microsoft Graph を使用してユーザー、グループ、またはその他のディレクトリ リソースの列挙などの特定のディレクトリ タスクにアクセス許可がありません。
->  - ゲスト ユーザー アクセスは、独自のディレクトリ オブジェクト **のプロパティとメンバー** シップ (最も制限) 設定に制限されるので、ゲストは独自のディレクトリ オブジェクトにのみアクセスできます。
+> Azure Active Directory (Azure AD) での **ゲストユーザーのアクセス制限** ポリシーによって、ディレクトリ内のゲストへのアクセス許可が決定されます。 3 つのポリシー オプションがあります。
+>  - **ゲスト ユーザーは、メンバーと同じアクセス権が与えられています (最も包括的)** 設定とは、ディレクトリ内の通常のユーザーと同様にディレクトリ データへのアクセス権があることを意味します。
+>  - **ゲストユーザーが、ディレクトリ オブジェクトのプロパティとメンバーシップに制限付きアクセスがある** 設定は、ユーザー、グループ、または Microsoft Graph を使用して他のディレクトリリソースを列挙するなど、特定のディレクトリタスクのアクセス許可がゲストに与えられていないことを意味します。
+>  - **Guest ユーザーのアクセスは、自分のディレクトリ オブジェクトのプロパティとメンバーシップ に制限がある (最も制限の厳しい) ** 設定は、ゲスト自身のディレクトリ オブジェクトにのみアクセスできます。
 >
->詳細については [、Azure Active Directory の既定のユーザー権限とは](https://go.microsoft.com/fwlink/?linkid=2135493)
+>詳細については、[「Azure Active Directory でのユーザーの既定のアクセス許可とは」](https://go.microsoft.com/fwlink/?linkid=2135493)を参照してください。
 
-## <a name="frequently-asked-questions"></a>よく寄せられる質問
+## <a name="related-topics"></a>関連項目
 
-### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>招待された組織から脱退するにはどうすればよいですか?
-
-ゲストになりたくない組織から招待されている場合は、その組織から脱退することができます。 詳細については、「[ゲスト ユーザーとして組織を脱退する](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)」を参照してください。 あるいは、組織の管理者にテナントから自分を削除するように依頼することもできます。 いずれの場合も、今後、組織にアクセスするには、再度テナントに招待してもらう必要があります。
-
-### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>ゲストはチーム メンバーと同じ機能を利用できますか?
-
-いいえ。 ゲストが実行できることと実行できないことの詳細については、この記事の「[チーム メンバーとゲスト機能の比較](#comparison-of-team-member-and-guest-capabilities)」を参照してください。
-
-### <a name="do-guests-have-access-to-onedrive-for-business"></a>ゲストは OneDrive for Business にアクセスできますか?
-
-いいえ。
-
-### <a name="do-guests-have-access-to-sharepoint-files"></a>ゲストは SharePoint ファイルにアクセスできますか?
-
-はい。
-
-### <a name="can-guests-search-within-files"></a>ゲストがファイル内で検索を行うことができますか?
-
-いいえ。
-
-### <a name="can-guests-attach-files"></a>ゲストがファイルを添付することはできますか?
-
-はい。ゲストは次の 2 つの方法でファイルを添付することができます。
-
-  - 左側のウィンドウの **[ファイル]** を選択し、ファイルの場所を参照する。
-  - コンピューターからファイルをアップロードする。
-
-### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>ゲストはプライベート チャットでファイルをダウンロードできますか?
-
-はい、ゲストはプライベート チャットでメンバーからファイルを受け取り、自分のデスクトップにダウンロードすることができます。
-
+[組織をゲストユーザーとして脱退する](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

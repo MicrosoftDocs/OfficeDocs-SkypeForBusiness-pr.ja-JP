@@ -9,24 +9,25 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: Office 365 管理者として Microsoft Teams のゲストアクセス機能を有効または無効にする方法について説明します。
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+localization_priority: Normal
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+description: Office 365 管理者として Microsoft Teams のゲストアクセス機能を有効または無効にする方法について説明します。
+ms.openlocfilehash: aa4530979054efc5a1aeb2c8fe0afa622b893f9d
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333247"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346328"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 
-既定では、ゲスト アクセスはオフになっています。 Microsoft 365 または Office 365 管理者は、管理者またはチーム所有者がゲストを追加する前に、チームのゲストアクセスを有効にする必要があります。
+既定では、ゲスト アクセスはオフになっています。 管理者またはチーム所有者がゲストを追加する前に、チームのゲストアクセスを有効にする必要があります。
 
 ゲストアクセスを有効にすると、変更が反映されるまでに数時間かかることがあります。 ユーザーがチームにゲストを追加しようとするときに "Contact your administrator (管理者にお問い合わせください)" というメッセージが表示される場合、ゲスト アクセスがオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。
 
@@ -35,7 +36,7 @@ ms.locfileid: "48333247"
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 管理センターでゲスト アクセスを構成する
 
-1. Microsoft Teams 管理センターにサインインする。
+1. [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)にサインインします。
 
 2. [**組織全体の設定**] > [**ゲスト アクセス**] を選択します。
 
@@ -63,13 +64,17 @@ ms.locfileid: "48333247"
       - **会話でミームを使用する** – この設定を **[オン]** にすると、ゲストが会話でミームを使用することができるようになります。
       - **会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。 
 
-5. [**保存**] をクリックします。
+    ![Teams でのゲストのアクセス権の設定](media/manage-guest-access-image1.png)
+
+5. **[保存]** をクリックします。
 
 ## <a name="external-access-federation-vs-guest-access"></a>外部アクセス (フェデレーション) とゲスト アクセス
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="see-also"></a>関連項目
+
+[Microsoft 365 とのセキュリティで保護されたコラボレーションを設定する](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
 [特定のチームからのゲストユーザーをブロックする](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 

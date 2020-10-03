@@ -19,20 +19,21 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 714e15b16f72085f4261dd9dc961f8a26060b82f
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48170961"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346198"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
 トレーニング リソースを使用してTeams について学び、他のユーザーに教えたりワーク ショップを行います。 頻繁にここをチェックし、新しいコンテンツを確認してください。
 
-|               |               |               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![手のアイコンと上向き矢印](media/get-started-blue-small.svg)  | [一部のチームとチャンネルですばやく始めましょう](/MicrosoftTeams/get-started-with-teams-quick-start) | ![チェックマークを示すアイコン](media/success-small.svg)  | [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![2人のユーザーを示すアイコン](media/users-people-small.svg)  | [ユーザー向けのトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![タスククリップボードのアイコン](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30のチーム: IT 管理者のためのトレーニングシリーズで、30日以内にチームを導入するための管理リーダーを変更します。](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+| ![手のアイコンと上向き矢印](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [一部のチームとチャンネルですばやく始めましょう](/MicrosoftTeams/get-started-with-teams-quick-start) | ![2人のユーザーを示すアイコン](https://docs.microsoft.com/office/media/icons/users-people.png) | [ユーザー向けのトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![チェックマークを示すアイコン](https://docs.microsoft.com/office/media/icons/success-teams.png) | [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![タスククリップボードのアイコン](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30のチーム: IT 管理者のためのトレーニングシリーズで、30日以内にチームを導入するための管理リーダーを変更します。](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>テクニカルなトレーニング</h2>
 
@@ -73,7 +74,7 @@ ms.locfileid: "48170961"
 
 | タイトル                                                                       | 抽象                                                                                                                                                                                                               |  ガイドへのリンク                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Id、アクセス管理 & Teams の脅威保護                   | Microsoft 管理センターと PowersShell を使用してアクセスと id のポリシーを構成し、Office 365 Advanced Threat Protection を有効にする方法について説明します。                                                            | [Teams セキュリティガイド](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Id、アクセス管理 & Teams の脅威保護                   | Microsoft 管理センターと PowerShell を使用してアクセスおよび id ポリシーを構成し、Office 365 Advanced Threat Protection を有効にする方法について説明します。                                                            | [Teams セキュリティガイド](https://aka.ms/teamsesecurityinteractiveguide)         |
 | Teams でのコンプライアンスの管理                                                | Microsoft 365 セキュリティ、Microsoft 365 コンプライアンス、Microsoft Teams 管理センター、および Windows PowerShell を使用して、Office 365 組織の Microsoft Teams のポリシーと設定を管理および構成します。 | [Teams ガイドでのコンプライアンスの管理](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Advisor: Microsoft Teams でチャット、チーム、チャネル、アプリを展開する | Teams advisor を活用して、お客様の環境を評価し、チャット、チーム、チャネル、アプリの展開計画を作成する方法について説明します。                                                                                         |  [Teams Advisor ガイド](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell と動的グループを使用したチーム管理の合理化        | Office 365 グループを静的メンバーシップから動的に変換し、Windows PowerShell を使用して、新しいアプリのアクセス許可ポリシーをすべてのメンバーに割り当てることができます。                                                                         |  [Teams 管理ガイドの合理化](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -83,7 +84,7 @@ ms.locfileid: "48170961"
 | Microsoft Teams でガバナンスを構成する                                     | 組織のチームメッセージングアイテム保持ポリシーを作成する方法と、個々のチームをアーカイブ、削除、復元する方法について説明します。                                                                                   |  [Microsoft Teams ガイドでガバナンスを構成する](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Microsoft Teams 会議の構成と展開                          | Microsoft Teams の会議ワークロードの展開プロセスについて説明します。                                                                                                                                       |  [Microsoft Teams 会議ガイドの構成と展開](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Microsoft Teams の電話会議を構成する                            | Teams での電話会議の機能を確認して、会議ブリッジとダイヤルイン電話番号を割り当てる方法について説明します。                                                                                          |  [Microsoft Teams 向け電話会議ガイドの構成](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Fisrtline Worker 向けの Microsoft Teams の構成                           | Firstline の従業員向けに適切な Microsoft Teams 環境を構成し、展開する方法について説明します。                                                                                                                  | [Microsoft Teams for Firstline Worker guide の構成](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Microsoft Teams for Firstline Worker の構成                           | Firstline の従業員向けに適切な Microsoft Teams 環境を構成し、展開する方法について説明します。                                                                                                                  | [Microsoft Teams for Firstline Worker guide の構成](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>クイック スタート ガイド</h2>
 
@@ -98,5 +99,5 @@ ms.locfileid: "48170961"
 
 <h2>コース</h2>
 
-- [Microsoft Teamsでチームワークを可能に](https://aka.ms/edx-cld267x-about)
+- [Microsoft Teamsでチームワークを可能に](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
 - [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
