@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc99ac35344ff0628ec16c474d849320cf931afe
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597002"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320902"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -167,14 +167,8 @@ Skype for Business 管理コンソールと同様に、Microsoft 365 管理セ�
 **Teams を Surface Hub で使用できますか?**<br>
 Teams 会議は、Surface Hub の通話と会議のエクスペリエンスで利用できるようになりました。 詳細については、「[Surface Hub の Microsoft Teams を展開する](https://docs.microsoft.com/microsoftteams/teams-surface-hub)」をご覧ください。
 
-**現在のサード パーティ製の IP (3PIP) 電話は、Microsoft Teams で引き続き動作しますか? 動作するなら、どれくらいの期間ですか?**<br>
-2021 年 7 月 31 日の Skype for Business Online サポート終了日以降、Teams に移行された 3PIP デバイスを持つお客様は、2023 年 7 月 31 日まで、限られた機能セットで 3PIP デバイスを引き続きご使用になれます。
+**現在のサード パーティ製の IP (3PIP) 電話は、Microsoft Teams で引き続き動作しますか?サードパーティの SIP 電話はどうですか?**<br>
+既存のハードウェアを使用できると、新しい電話システムに移行するときに大幅なコスト削減が可能になります。 Microsoft は Skype for Business (3PIP) 電話のサポートを 2023 年以降に延長しているため、Teams に移行しても既存の Skype for Business 電話を引き続き使用できます。 さらに、2021 年前半から、Teams は Cisco、Yealink、Polycom などの SIP 電話機の基本通話機能をサポートする予定です。
 
 **認定済み Skype for Business Online 電話機は Teams で正常に機能しますか?**<br>
 電話機の互換性に関する質問については、「[Certified Skype for Business Online Phones and what this means for Teams (Skype for Business Online の認定済みの電話機とそれらの Teams での意味)](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309)」をご覧ください。
-
-
-
-
-
-
