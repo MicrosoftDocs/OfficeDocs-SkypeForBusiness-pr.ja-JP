@@ -16,15 +16,15 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: チームギャラリーと検索結果の提案を通じて、プライベートチームを Microsoft Teams ユーザーが検出できるかどうかを制御する方法について説明します。
+description: チーム ギャラリーと検索結果の提案を通じて、Microsoft Teams ユーザーがプライベート チームを検出できるかどうかを制御する方法について説明します。
 ms.openlocfilehash: abbdd379c496c5d5653a7650b040b9a6a0f28e90
 ms.sourcegitcommit: 6f4928e9e7e67fe65320131ae9e7348b948d86ea
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/29/2020
 ms.locfileid: "48297362"
 ---
-# <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a><span data-ttu-id="aac9f-103">Microsoft Teams でプライベート チームの検索を管理する</span><span class="sxs-lookup"><span data-stu-id="aac9f-103">Manage discovery of private teams in Microsoft Teams</span></span>
+# <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a><span data-ttu-id="59575-103">Microsoft Teams でプライベート チームの検索を管理する</span><span class="sxs-lookup"><span data-stu-id="59575-103">Manage discovery of private teams in Microsoft Teams</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="aac9f-104">2020年8月31日、この機能は利用できなくなりました。</span><span class="sxs-lookup"><span data-stu-id="aac9f-104">Effective August 31, 2020, this feature is no longer available.</span></span> <span data-ttu-id="aac9f-105">つまり、2020年8月31日以降、プライベートなチームを検出して、既存のすべてのプライベートチームを自動的に検出不能として設定することはできなくなります。</span><span class="sxs-lookup"><span data-stu-id="aac9f-105">This means that after August 31, 2020, you can no longer set private teams to be discoverable and all existing and new private teams are automatically set to be non-discoverable.</span></span>
+> <span data-ttu-id="59575-104">2020 年 8 月 31 日より、この機能はご利用いただけなくなりました。</span><span class="sxs-lookup"><span data-stu-id="59575-104">Effective August 31, 2020, this feature is no longer available.</span></span> <span data-ttu-id="59575-105">つまり、2020 年 8 月 31 日以降、プライベート チームを検出可能に設定できなくなり、既存および新規のすべてのプライベート チームが自動的に検出不能に設定されます。</span><span class="sxs-lookup"><span data-stu-id="59575-105">This means that after August 31, 2020, you can no longer set private teams to be discoverable and all existing and new private teams are automatically set to be non-discoverable.</span></span>
