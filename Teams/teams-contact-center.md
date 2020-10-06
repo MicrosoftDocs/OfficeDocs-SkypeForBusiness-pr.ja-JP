@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 906af5df0e4ec7c4f4b658210e127b5ad0ef0044
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322286"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361467"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
@@ -38,7 +38,7 @@ Microsoft Teams は、チャット、ビデオ会議、通話などの通信モ�
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams Certification プログラム用のコネクテッド コンタクト センター
 
-パートナーが CCaaS 開発して共同で使用できるようにする Api は、アドバンストコミュニケーションライセンスで利用できます。 また、microsoft Teams 認定プログラム用の接続された連絡先センターが開発され、お客様は、お客様が Microsoft ソリューションに期待する品質、互換性、信頼性を提供できることを保証しています。
+Api を使用すると、パートナーは、チームの CCaaS の開発と統合を行うことができます。 また、microsoft Teams 認定プログラム用の接続された連絡先センターが開発され、お客様は、お客様が Microsoft ソリューションに期待する品質、互換性、信頼性を提供できることを保証しています。
 
 次のパートナーは、Microsoft Teams 向けのソリューションの認定中であり、顧客を支援する準備が整っています。
 

@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
+ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209486"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357605"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 での Teams セッション
 
@@ -40,9 +40,9 @@ ms.locfileid: "48209486"
 |---|----------|---|---|---|
 |[チーム会議およびインテリジェンス機能を備えたデバイスの革新](https://aka.ms/PR104) |Microsoft は、継続的な会議の革新と再イメージングを行っています。 Skype に参加して、会議におけるインテリジェンスを継続的にもたらす方法と、インテリジェンスを実現するデバイスでの最新の革新についてご確認ください。  |200|Shalendra Chhabra|
 |[高度な通話機能](https://aka.ms/OD265)|新しい通話環境、e911、場所に基づくルーティング、その他の機能について詳しく説明しています。 会社の規模にかかわらず、高度なシナリオに対する通話の準備ができた方法について説明します。 |200|Alan Xie、Roy Kuntz|
-|[共有スペース用の Microsoft Teams デバイス](https://aka.ms/OD261) |Microsoft Teams デバイスは、チームの力を最大限に活用し、リモートと共有のワークスペースの間のギャップを埋めるために設計されています。 チーム会議機能、顧客中心の室内エクスペリエンス、および業界トップのハードウェアを組み合わせることで、ユーザーはリモートからでも、会議室でも参加しているかどうかにかかわらず、低摩擦、包括的、対話型の会議を活用できます。 Microsoft Teams ルーム、コラボレーションバー、Surface Hub などの共有スペースデバイスを使用して、チームのつながりを維持し、ハイブリッドワークスペースで共同作業できるようにする方法について説明します。|200|Greg Baribault、Kendra、Sandhya Shahdeo|
+|[共有スペース用の Microsoft Teams デバイス](https://aka.ms/OD261) |Microsoft Teams デバイスは、チームの力を最大限に活用し、リモートと共有のワークスペースの間のギャップを埋めるために設計されています。 チーム会議機能、顧客中心の室内エクスペリエンス、および業界トップのハードウェアを組み合わせることで、ユーザーはリモートからでも、会議室でも参加しているかどうかにかかわらず、低摩擦、包括的、対話型の会議を活用できます。 Microsoft Teams ルーム、コラボレーションバー、Surface Hub などの共有スペースデバイスを使用して、チームのつながりを維持し、ハイブリッドワークスペースで共同作業できるようにする方法について説明します。|200|Greg Baribault、Kendra、Sandhya Rao|
 |[Skype for Business の場合Microsoft Teams へのパスを設計する](https://aka.ms/OD251)|このセッションに参加して、現在の Skype for Business の実装とビジネス目標に基づいて最適なアプローチを学習し、決定します。 Skype for Business Online とサーバーのどちらのお客様でも、Microsoft Teams を利用するためのベストプラクティス、リソース、ガイダンスを共有します。 |200|リサ McKee、Laszlo Somi
-|[チームパーソナルデバイスでの先進の革新](https://aka.ms/PR108)  |お客様は、チームに適したパーソナルデバイスを探しています。特に、多くの従業員がリモートで作業している場合。 チームのパーソナルデバイスでの新技術革新、機能および認定されたデバイスの推進力、リモート作業に関するベストプラクティスについて、ご意見をお寄せください。 |200|Sandhya Rao、Arash Ghanaje-Sichanie|
+|[チームパーソナルデバイスでの先進の革新](https://aka.ms/PR108)  |お客様は、チームに適したパーソナルデバイスを探しています。特に、多くの従業員がリモートで作業している場合。 チームのパーソナルデバイスでの新技術革新、機能および認定されたデバイスの推進力、リモート作業に関するベストプラクティスについて、ご意見をお寄せください。 |200|Sandhya Rao、Arash Ghanaie-Sichanie、Kruthika Ponnusamy|
 |[Microsoft Teams 会議のマスター仮想ブレークアウトルーム](https://aka.ms/PR109) |チーム内の仮想のブレークダウン会議室による最新の革新については、こちらをご覧ください。 このセッションでは、仮想のブレークダウン室を使った小規模グループのアイデア、ブレインストーミング、学習、ディスカッションを容易にするための、ユースケースとベストプラクティスについて説明します。 |200|James Skay、Nakul Madaan|
 |[会議やビデオ会議のコントロールを使用して、チーム会議を安全に行う](https://aka.ms/PR110) |このセッションに参加すると、すべての出席者をハードミュートする機能や、機能の読み上げとブレークアウトルームの設定など、会議の安全性、セキュリティ、モデレーションについての情報を入手できます。 また、会議の効率化に役立つ反応や発生手などの機能についても説明します。|200|Nakul Madaan、Rajiv Ramaiah|
 |[プラットフォームとしての Microsoft Teams の通話と会議](https://aka.ms/PR111) |Microsoft Graph Cloud Communications Api、連絡先センター、コンプライアンス記録、およびその他のプラットフォームエクスペリエンスでの今後のニュースの更新に関するチームの呼び出しと会議のプラットフォーム機能について説明します。 |200|Srividhya Chandrasekaran、Mansoor または Mん k|

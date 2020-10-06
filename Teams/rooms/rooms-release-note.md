@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328226"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361497"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -74,6 +74,10 @@ ms.locfileid: "48328226"
 - 3 ~ 3 のビデオギャラリーで、ルームの前面に表示されるその他のビデオ  
 - MTR からローカルのライブクローズドキャプションを開始する 
 - 直接ゲスト参加を使用してチームルームからズーム会議に参加する (プレビュー)
+
+> [!NOTE]
+> 3 x 3 のビデオギャラリーとローカルライブクローズドキャプションは、Microsoft Teams サービスを通じて提供されます。 これらの機能は、アプリケーションバージョン4.5.37.0 以降のすべての Teams ルームで利用できます。 
+
 
 ### <a name="45370-08142020"></a>4.5.37.0 (2020/8/14)
 

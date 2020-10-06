@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f34ee9af678613580beefeb52b08e9ce924be3
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 3d0534d4c0a62573bd3ac649c39b3d0f17a235f6
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766871"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361437"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -38,7 +38,7 @@ ms.locfileid: "47766871"
 
 - サインインがブロックされるアカウントの種類
 - ゲスト ユーザー
-- サービス アカウント
+- リソースまたはサービスアカウント (たとえば、自動応答に関連付けられているアカウント、通話キューなど)
 - 会議室または備品用のアカウント
 - 共有メール ボックスでサポートされているアカウント
 

@@ -277,3 +277,112 @@
 | 9/25/2020 | [Microsoft Teams の id モデルと認証](/MicrosoftTeams/identify-models-authentication) | 更新日時 |
 | 9/25/2020 | [組織のリストアプリを管理する](/MicrosoftTeams/manage-lists-app) | 更新日時 |
 | 9/25/2020 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
+
+
+## <a name="week-of-september-28-2020"></a>2020年9月28日
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 9/28/2020 | [Microsoft Teams でカスタムチームテンプレートを作成する](/MicrosoftTeams/create-a-team-template) | 更新日時 |
+| 9/28/2020 | [Microsoft Teams で既存のチームからテンプレートを作成する](/MicrosoftTeams/create-template-from-existing-team) | 更新日時 |
+| 9/28/2020 | [Microsoft Teams で既存のチームテンプレートから新しいテンプレートを作成する](/MicrosoftTeams/create-template-from-existing-template) | 更新日時 |
+| 9/28/2020 | [管理コンソールで Teams の医療テンプレートを使用する](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 更新日時 |
+| 9/28/2020 | [医療機関向けのテンプレート](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 更新日時 |
+| 9/28/2020 | [管理コンソールを使用して Teams の財務テンプレートを使ってみる](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/28/2020 | [管理コンソールで一般的な Teams テンプレートを使用する](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/28/2020 | [小売業の Teams テンプレートの使用を開始する](/MicrosoftTeams/get-started-with-retail-teams-templates) | 更新日時 |
+| 9/28/2020 | [チームテンプレートを使用して新しいチームを作成する](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/28/2020 | [Microsoft Graph を使用して Teams テンプレートを使ってみる](/MicrosoftTeams/get-started-with-teams-templates) | 更新日時 |
+| 9/28/2020 | [管理コンソールで Teams government テンプレートを使用する](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/28/2020 | [管理コンソールで Teams 製造テンプレートの使用を開始する](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/28/2020 | [管理コンソールで Teams リテールテンプレートを使用する](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/28/2020 | [共通の市外局番のライセンスを設定する](/MicrosoftTeams/set-up-common-area-phones) | 更新日時 |
+| 9/28/2020 | [Microsoft Graph で構築されている中小企業向けの Teams テンプレート](/MicrosoftTeams/smb-templates) | 更新日時 |
+| 9/28/2020 | [Microsoft Teams でプライベート チームの検索を管理する](/MicrosoftTeams/manage-discovery-of-private-teams) | 更新日時 |
+| 9/28/2020 | [Microsoft Teams でチーム ポリシーを管理する](/MicrosoftTeams/teams-policies) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams でクラウド音声機能のネットワークトポロジを管理する](/MicrosoftTeams/manage-your-network-topology) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams の音声](/MicrosoftTeams/cloud-voice-landing-page) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams でカスタムチームテンプレートを作成する](/MicrosoftTeams/create-a-team-template) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams で既存のチームからテンプレートを作成する](/MicrosoftTeams/create-template-from-existing-team) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams で既存のチームテンプレートから新しいテンプレートを作成する](/MicrosoftTeams/create-template-from-existing-template) | 更新日時 |
+| 9/29/2020 | [管理コンソールで Teams の医療テンプレートを使用する](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 更新日時 |
+| 9/29/2020 | [管理コンソールで一般的な Teams テンプレートを使用する](/MicrosoftTeams/general-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/29/2020 | [チームテンプレートを使用して新しいチームを作成する](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/29/2020 | [管理コンソールで Teams government テンプレートを使用する](/MicrosoftTeams/government-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams 管理者向けドキュメント # < 60 文字](/MicrosoftTeams/index) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 9/29/2020 | [管理コンソールで Teams 製造テンプレートの使用を開始する](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/29/2020 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
+| 9/29/2020 | [管理コンソールで Teams リテールテンプレートを使用する](/MicrosoftTeams/retail-teams-templates-in-the-admin-console) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams のルームでの認証](/MicrosoftTeams/rooms/rooms-authentication) | 更新日時 |
+| 9/29/2020 | [Teams コンタクト センター](/MicrosoftTeams/teams-contact-center) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新日時 |
+| 9/29/2020 | [Microsoft Teams で NDI を使用する](/MicrosoftTeams/use-ndi-in-meetings) | 更新日時 |
+| 9/30/2020 | [Skype for Business から Teams へのアップグレードに関する FAQ](/MicrosoftTeams/faq-journey) | 更新日時 |
+| 9/30/2020 | [オーストリアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria) | 更新日時 |
+| 9/30/2020 | [ベルギーでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium) | 更新日時 |
+| 9/30/2020 | [デンマークでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark) | 更新日時 |
+| 9/30/2020 | [フランスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | 更新日時 |
+| 9/30/2020 | [ドイツでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | 更新日時 |
+| 9/30/2020 | [イタリアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | 更新日時 |
+| 9/30/2020 | [ポルトガルでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal) | 更新日時 |
+| 9/30/2020 | [スウェーデンでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden) | 更新日時 |
+| 9/30/2020 | [スイスでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | 更新日時 |
+| 9/30/2020 | [国/地域の可用性-電話会議、通話プラン](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 更新日時 |
+| 9/30/2020 | [組織の電話番号を管理する](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 更新日時 |
+| 9/30/2020 | [オーストラリアでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 更新日時 |
+| 9/30/2020 | [ベルギーでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 更新日時 |
+| 9/30/2020 | [カナダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 更新日時 |
+| 9/30/2020 | [フランスでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 更新 |
+| 9/30/2020 | [ドイツでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 更新日時 |
+| 9/30/2020 | [アイルランドでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 更新 |
+| 9/30/2020 | [日本での電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | 更新日時 |
+| 9/30/2020 | [スペインでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 更新 |
+| 9/30/2020 | [オランダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 更新日時 |
+| 9/30/2020 | [英国の電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 更新日時 |
+| 9/30/2020 | [米国の電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 更新日時 |
+| 9/30/2020 | [Microsoft Teams 向けの Advanced Communications のアドオン](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 更新日時 |
+| 9/30/2020 | [Teams コンタクト センター](/MicrosoftTeams/teams-contact-center) | 更新日時 |
+| 9/30/2020 | [PowerShell を使用してライブイベントのポリシーを設定する](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 更新日時 |
+| 9/30/2020 | [会議への & 会議を発信するためのチームポリシーベースのレコーディングの概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 9/30/2020 | [無料電話ダイヤルの制限事項](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 更新日時 |
+| 9/30/2020 | [デンマークでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark) | 更新日時 |
+| 9/30/2020 | [ポルトガルでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal) | 更新 |
+| 9/30/2020 | [スウェーデンでのフリーダイヤル制限](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden) | 更新日時 |
+| 9/30/2020 | [Microsoft Teams への通信のコンプライアンス](/MicrosoftTeams/communication-compliance) | 更新日時 |
+| 9/30/2020 | [Teams 管理センターで称賛アプリを管理する](/MicrosoftTeams/manage-praise-app) | 更新日時 |
+| 9/30/2020 | [リリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
+| 9/30/2020 | [Microsoft Teams のアドオンライセンス](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 更新日時 |
+| 9/30/2020 | [Skype for Business オンプレミス展開から Teams へのアップグレード - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-considerations) | 更新日時 |
+| 9/30/2020 | [Skype for Business オンプレミス展開から Teams へのアップグレード - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 更新日時 |
+| 9/30/2020 | [Skype for Business オンプレミス展開から Teams へのアップグレード - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams のエクスポート Api を使用してコンテンツをエクスポートする](/MicrosoftTeams/export-teams-content) | 更新日時 |
+| 10/1/2020 | PowerShell を使用してチームへのゲスト アクセスを制御する | 削除されました |
+| 10/1/2020 | [Microsoft Teams のハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams へのゲスト アクセスをオンまたはオフにする](/MicrosoftTeams/set-up-guests) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を与える](/MicrosoftTeams/app-permissions-admin-center) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams 管理センターでアプリを管理する](/MicrosoftTeams/manage-apps) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams のリリース ノート](/MicrosoftTeams/release-notes/release-notes) | 更新日時 |
+| 10/1/2020 | [バージョンのサポート](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/training-microsoft-teams-landing-page) | 更新日時 |
+| 10/1/2020 | [Microsoft Teams で NDI を使用する](/MicrosoftTeams/use-ndi-in-meetings) | 更新日時 |
+| 10/2/2020 | [管理者トレーニングリソース-Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 更新日時 |
+| 10/2/2020 | [Microsoft Teams のハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 更新日時 |
+| 10/2/2020 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
+| 10/2/2020 | [コミュニケーション クレジットについて](/MicrosoftTeams/what-are-communications-credits) | 更新日時 |
+| 10/2/2020 | [Microsoft Teams でゲスト アクセスを許可する](/MicrosoftTeams/teams-dependencies) | 更新日時 |
+| 10/2/2020 | [チームにゲストを追加する](/MicrosoftTeams/add-guests) | 更新日時 |
+| 10/2/2020 | [ゲスト ユーザー情報を編集する](/MicrosoftTeams/edit-guests-information) | 更新日時 |
+| 10/2/2020 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
+| 10/2/2020 | [Microsoft Teams のゲストエクスペリエンス](/MicrosoftTeams/guest-experience) | 更新日時 |
+| 10/2/2020 | ゲストがチームに参加する方法 | 削除されました |
+| 10/2/2020 | Microsoft Teams でのゲスト アクセスを管理する | 削除されました |
+| 10/2/2020 | [ベルギーでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 更新日時 |
+| 10/2/2020 | [Microsoft Teams へのゲスト アクセスをオンまたはオフにする](/MicrosoftTeams/set-up-guests) | 更新日時 |
+| 10/2/2020 | [会議の記録に OneDrive と SharePoint を使用する](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
+| 10/2/2020 | [Microsoft Teams のゲスト アクセスのトラブルシューティング](/MicrosoftTeams/troubleshoot-guest-access) | 更新日時 |
+| 10/2/2020 | [チームのゲスト ユーザーを表示する](/MicrosoftTeams/view-guests) | 更新 |

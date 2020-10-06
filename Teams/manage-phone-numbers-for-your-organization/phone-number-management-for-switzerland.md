@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表は、Microsoft Teams のスイスで電話番号を取得および管理する方法について説明します。
-ms.openlocfilehash: feab44e6a6a6cc733ad0c13f2fc7c7c1133abe0f
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: e1fcc1de08256d0bc1ab0a8da95ebf9bc0f1450d
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324103"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361537"
 ---
 # <a name="phone-number-management-for-switzerland"></a>スイスの電話番号の管理
 
@@ -34,7 +34,7 @@ ms.locfileid: "48324103"
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|Microsoft Teams 管理センターに表示されていない新しいユーザーまたはサービスの電話番号を取得します。   <br/> |次のいずれかのフォームをダウンロードします。 <br/>  [スイス (v.) の新しい電話番号の要求 (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[スイス (fr-ca) の新しい電話番号要求 (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[スイスの新しい電話番号のリクエスト (it it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/><br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。|
+|Microsoft Teams 管理センターに表示されていない新しいユーザーまたはサービスの電話番号を取得します。   <br/> |次のいずれかのフォームをダウンロードします。 <br/>  [スイス (v.) の新しい電話番号の要求 (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(de-de).pdf?raw=true) <br/>[スイス (fr-ca) の新しい電話番号要求 (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(fr-fr).pdf?raw=true) <br/>[スイスの新しい電話番号のリクエスト (it it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(it-it).pdf?raw=true)<br/>  [スイス (米国) の新しい電話番号要求 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-switzerland-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。|
 |お客さまの電話番号をお送りします。  <br/> | 次のいずれかのフォームをダウンロードします。 <br/>[スイスの承認状 (LOA) (すべての数値) (v) (ch)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(de-ch).pdf?raw=true)<br/>[スイスの承認状 (LOA) (すべての数値) (fr-ca) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(fr-ch).pdf?raw=true)<br/>[スイスの承認状 (LOA) (すべての数値) (v) (it-ch)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-switzerland-(all-numbers)-(v.5.0)-(it-ch).pdf?raw=true) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/> |
 |国内電話ディレクトリの電話番号を公開/非公開にします。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
 |ユーザーの電話番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
