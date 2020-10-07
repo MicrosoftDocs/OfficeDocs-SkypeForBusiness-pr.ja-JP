@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシーパッケージを使用して管理する方法について説明します。ユーザーグループのポリシーを管理するときの一貫性を向上させるために、さまざまな方法で管理することができます。
-ms.openlocfilehash: bdbfed095cf522702f55963ba7e46d79b765d59c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48220085"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48370551"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシーパッケージを管理する
 
@@ -34,7 +34,7 @@ ms.locfileid: "48220085"
 
 Microsoft Teams のポリシーパッケージは、組織内で同様の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザーグループのポリシーを管理する際の一貫性を高めるために、ポリシーパッケージを作成しました。  
 
-[Teams に含まれているポリシーパッケージ](#policy-packages-included-in-teams)を使用することも、[独自のカスタムポリシーパッケージを作成](#custom-policy-packages)することもできます (プライベートプレビューの準備ができています)。
+[チームに含まれているポリシーパッケージ](#policy-packages-included-in-teams)を使用するか、[独自のカスタムポリシーパッケージ](#custom-policy-packages)(プライベートプレビュー) を作成することができます。
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理センターの [ポリシーパッケージ] ページのスクリーンショット":::
 
@@ -83,7 +83,7 @@ Microsoft Teams のポリシーパッケージは、組織内で同様の役割�
 
 ## <a name="custom-policy-packages"></a>カスタムポリシーパッケージ
 
-**この機能は、プライベートプレビューに近い時点で提供されています**
+**この機能はプライベートプレビュー**
 
 カスタムポリシーパッケージを使用すると、組織内で同様の役割を持つユーザーに独自のポリシーセットをバンドルすることができます。 必要なポリシーの種類とポリシーを追加して、独自のポリシーパッケージを作成します。
 

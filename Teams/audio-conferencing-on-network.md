@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下では、電話会議のネットワーク上での、オープンなプレビュー機能について説明します。
-ms.openlocfilehash: 3b33c67cc79f79d36cf2a11213dc934103b026fb
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321805"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369182"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>電話会議のネットワーク上の会議のプレビューを開く
 
@@ -38,7 +38,7 @@ ms.locfileid: "47321805"
 
 ネットワーク上の会議を構成する前に、組織が次の前提条件を満たしていることを確認してください。 
 
-- 電話会議を有効にしている、または有効にする組織内のすべてのユーザーが、[チームのみ] モードであることを確認します。 ネットワーク会議経由での着信通話と outboud 電話会議のルーティングは、Teams 会議でのみサポートされます。
+- 電話会議を有効にしている、または有効にする組織内のすべてのユーザーが、[チームのみ] モードであることを確認します。 ネットワーク会議経由での着信通話と発信電話会議のルーティングは、Teams 会議でのみサポートされます。
 
 - ネットワーク上の会議を使用するすべてのユーザーに電話会議のライセンスを割り当てます。
 
@@ -56,6 +56,8 @@ ms.locfileid: "47321805"
 
 [ **会議-> 会議ブリッジ** ] または [Skype For Business Online PowerShell コマンドレット get-csonlinedialinconferencingbridge を使用して、Teams 管理センターでサービス番号を見つけることができます。 詳細については、 [Microsoft Teams の電話会議番号](see-a-list-of-audio-conferencing-numbers-in-teams.md)の一覧を参照してください。
 
+> [!NOTE]
+> この機能は、1分あたりの有料電話会議ライセンスをお持ちのユーザーは利用できません。
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>直接ルーティングを使用して、Teams 会議のダイヤルアウト通話のルーティングを有効にする
 
@@ -162,6 +164,6 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 

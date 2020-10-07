@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: この記事では、Microsoft Phone システムのダイレクトルーティングでアナログデバイスを使用する方法について説明します。
-ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 0c6531a29e23e736a84db9bf8571abab2e13942a
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558517"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369192"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>電話システムのダイレクトルーティングでアナログデバイスを使用する方法
 
@@ -29,9 +29,10 @@ ms.locfileid: "42558517"
 
 ユーザーがアナログデバイスから通話を発信すると、アナログテレフォニーアダプター (ATA) 経由での信号送信およびメディアフローが SBC に転送されます。  SBC は、内部ルーティングテーブルに基づいて、通話を Microsoft Teams のエンドポイントに、または PSTN (公衆交換電話網) に送ります。  デバイスが通話を発信すると、デバイスに対して作成されたルーティングポリシーによって、ルーティングが行われます。
 
-次の図では、2つのチームが + 1425 4XX XX XX と + 1425 5XX XX xx の間の番号を呼び出し、かつ、+ 1425 4XX xx xx とその他の数字との間にある任意の数の PSTN 通話を受け取るように、ダイレクトルーティングが構成されています。 数値の範囲 + 1425 5XX XX XX は、青色のルート (実線) を受け取る必要があります。 
+次の図では、1つのチームが + 1425 4XX XX XX と + 1425 5XX XX xx の間の数字と、+ 1425 4XX xx xx の間の番号との間で、またはその他の番号との間で、番号範囲 + 1425 5XX XX XX の間の任意の数の PSTN 通話を設定して、青色のルート (実線) 
 
-![ダイレクトルーティング構成を示す図](media/direct-routing-analog-device.png)
+> [!div class="mx-imgBorder"]
+> ![ダイレクトルーティング構成を示す図](media/direct-routing-analog-device.png)
 
 ## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>例: ダイレクトルーティングでアナログデバイスの使用を構成する方法
 
@@ -48,7 +49,9 @@ ms.locfileid: "42558517"
 7. アナログデバイスのボイスルートを作成します。
 
 ATA に ATA を接続して SBC を構成する方法については、「SBC 製造元構成ガイド」を参照してください。
+
 - [AudioCodes 構成の文書化](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+
 - [リボン構成のドキュメント](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>手順1  SBC をダイレクトルーティングに接続する
@@ -61,7 +64,7 @@ ATA に ATA を接続して SBC を構成する方法については、「SBC �
 - SBC に転送された通話履歴情報
 - 呼び出しと共に転送される P-Id (PAI) ヘッダー 
 
-```
+```powershell
 PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -ForwardCallHistory $true -ForwardPAI $true -MediaBypass $true -Enabled $true 
 ```
 
@@ -69,7 +72,7 @@ PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -Fo
 
 次のコマンドでは、空の PSTN の使用状況が作成されます。 オンラインの PSTN 使用状況は、通話承認に使用される文字列値です。 オンラインの PSTN 使用により、オンラインボイスポリシーがルートにリンクされます。 この例では、使用できる PSTN の現在のリストに "Interop" という文字列を追加します。 
 
-```
+```powershell
 PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"} 
 ```
 
@@ -77,15 +80,15 @@ PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"}
 
 このコマンドは、番号範囲 + 1425 XXX XX XX の id "アナログ相互運用" を使って、新しいオンラインボイスルートを作成します。  この音声ルートは、オンラインゲートウェイのリストに適用され、オンラインの PSTN 使用状況 "Interop" と関連付けられます。 sbc.contoso.com ボイスルートには、特定のボイスルートを通じてルーティングされる電話番号を特定する正規表現が含まれています。
 
-```
-PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "
+```powershell
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>手順 4: ボイスルートを PSTN 使用量に割り当てる:
 
 このコマンドは、Id が "AnalogInteropPolicy" のオンラインのユーザーごとのボイスルーティングポリシーを新規作成します。 このポリシーには、"Interop" という1つのオンライン PSTN 使用法が割り当てられています。
 
-```
+```powershell
 PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
 ```
 
@@ -93,7 +96,7 @@ PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "An
 
 このコマンドは、Id exampleuser@contoso.com を持つユーザーアカウントを変更します。 この場合、アカウントが変更され、有効になっているボイスメールを使用して、このユーザーに番号 + 142億5500万が割り当てられます。  このコマンドは、会社のテナントの各 Teams ユーザー (ATA デバイスユーザーを除く) に対して実行する必要があります。
 
-```
+```powershell
 PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"
 ```
 
@@ -101,7 +104,7 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 
 このコマンドは、ユーザーごとのオンラインボイスルーティングポリシー AnalogInteropPolicy を id exampleuser@contoso.com のユーザーに割り当てます。  このコマンドは、会社のテナントの各 Teams ユーザー (ATA デバイスユーザーを除く) に対して実行する必要があります。
 
-```
+```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
@@ -109,13 +112,14 @@ PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -Po
 
 このコマンドを実行すると、番号1425範囲が "アナログ-相互運用" という id のオンラインボイスルーティングが作成され、オンラインゲートウェイ sbc.contoso.com のリストにも適用され、オンラインの PSTN 使用状況 "Interop" と関連付けられます。  このコマンドは、適切な電話番号パターンを持つ各アナログデバイスに対して実行する必要があります。 または、前の手順のいずれかを実行しているときに、オンラインボイスルーティングを構成するときに、アナログデバイス用の適切な番号パターンを使用できます。
 
-```
+```powershell
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6}])$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="considerations"></a>考慮事項
 
 - 特に注記がない限り、アナログデバイスは、通話を発信するために DTMF 数字を送信できるデバイスです。 たとえば、アナログ電話、ファックス機器、オーバーヘッドのポケットベルなどがあります。
+
 - ATA に接続されたアナログ電話は、Teams から検索することはできません。 チームユーザーは、デバイスに関連付けられている電話番号を手動で入力して、そのデバイスに通話を発信する必要があります。  
  
 
