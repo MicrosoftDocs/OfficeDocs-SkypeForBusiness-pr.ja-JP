@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361647"
+ms.locfileid: "48367567"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -42,7 +42,7 @@ ms.locfileid: "48361647"
 |グローバル管理者を作成できるチームの数        |  500,000   |
 |Microsoft 365 または Office 365 組織が持てるチームの数    | 500,000&sup2;     |
 |チームごとのチャネル数    | 200 (削除されたチャネルを含む) &sup3;         |
-|チームごとのプライベート チャネル数    |30|
+|チームごとのプライベート チャネル数    |30| (削除されたチャネルを含む) &sup3;
 |プライベート チャネルのメンバー数    |250 人|
 |チームに変換できる Office 365 グループのメンバーの最大数    |10,000|
 |チャネル会話の投稿サイズ | 投稿ごとに約 28 KB<sup>4</sup> |
@@ -51,7 +51,7 @@ ms.locfileid: "48361647"
 
 <sup>2</sup> この制限には、アーカイブ済みのチームが含まれます。 最大数の上限を超える場合は、Microsoft サポートにお問い合わせください。
 
-<sup>3</sup> 削除したチャネルは、30 日以内であれば復元できます。 この 30 日間、削除されたチャンネルはチームごとの制限である 200 チャンネルとしてカウントされ続けます。 30 日を経過すると、削除されたチャネルとそのコンテンツは完全に削除され、チャンネルはチームごとの制限である 200 チャンネルとしてカウントされなくなります。
+<sup>3</sup> 削除したチャネルは、30 日以内であれば復元できます。 この 30 日間、削除されたチャンネルはチームごとの制限である 200 チャンネルまたは30のプライベートチャンネルとしてカウントされ続けます。 30 日を経過すると、削除されたチャネルとそのコンテンツは完全に削除され、チャンネルはチームごとの制限内のチャンネルとしてカウントされなくなります。
 
 <sup>4</sup> 28 KBは、メッセージ自体 （テキスト、画像リンクなど）、@メンション、コネクタの数、およびリアクションを含むため、おおよその制限です。
 
@@ -94,7 +94,9 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 詳細については、「[ Exchange Online の制限](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)」をご覧ください。
 
 > [!NOTE]
-> メッセージ サイズ、添付ファイル、およびインライン イメージの制限は、すべての Microsoft 365 および Office 365 ライセンスで同じです。
+> メッセージ サイズ、添付ファイル、およびインライン イメージの制限は、すべての Microsoft 365 および Office 365 ライセンスで同じです。 Office の GCC/GCCH/DOD 組織用Teams では、チャネルにメールを送信することはできません。
+
+
 
 ## <a name="channel-names"></a>チャネル名
 

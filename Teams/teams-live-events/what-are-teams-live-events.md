@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 877dcef8848c7e1bf05ed19c05ede5b5304bd4c8
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203960"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367677"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -67,7 +67,7 @@ Teams では、主催者は適切な参加者アクセス許可でイベント�
     ![外部アプリまたはデバイスを使用して作成されたライブ イベントを示すスクリーンショット](../media/teams-live-events-external-encoder.png "外部アプリまたはデバイスの作成方法を使用して作成されたライブ イベントを示すスクリーンショット")
 
 >[!Note]
-> [会議の記録用](../tmr-meeting-recording-change.md)に Microsoft Stream を使用して OneDrive for Business と SharePoint を使用するように変更した場合は、段階的なアプローチとなります。 起動時には、この機能を有効にすることができます。11月2021以降、Stream の使用を継続する場合は、すべてのユーザーが OneDrive for Business と SharePoint を使用して新しい会議のレコーディングを使用する必要があります。
+> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 ### <a name="streaming-platform"></a>ストリーミング プラットフォーム
 ライブ イベントのストリーミング プラットフォームは、次の要素で構成されます。
@@ -80,6 +80,7 @@ eCDN の目的は、インターネットからビデオ コンテンツを取�
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
+- [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 ### <a name="attendee-experience"></a>参加者の体験 
 参加者の体験はライブ イベントの最も重要な側面であり、参加者が問題なくライブ イベントに参加できることが重要です。 参加者の体験は、Stream Player (Teams で作成されたイベント) と Azure Media Player (外部アプリまたはデバイスで作成されたイベント) を使用し、デスクトップ、ブラウザー、モバイル (iOS、Android) で動作します。 Microsoft 365 と Office 365 は、Yammer と Teams を 2 つの共同作業ハブとして提供し、ライブ参加者の体験はこれらの共同作業ツールに統合されています。 
