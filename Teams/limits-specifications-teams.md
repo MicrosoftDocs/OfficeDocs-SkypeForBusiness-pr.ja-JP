@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333267"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361647"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -34,7 +34,7 @@ ms.locfileid: "48333267"
 |機能    | 上限 |
 |-----------|---------------|
 |ユーザーが作成できるチームの数 | オブジェクト制限 250、&sup1;         |
-|ユーザーがメンバーの一員になることができるチームの数|1,000|
+|ユーザーがメンバーの一員になることができるチームの数|1,000&sup2;|
 |チームのメンバーの数 | 10,000       |
 |チーム 1 つあたりの所有者数 | 100   |
 |テナントで許可されている組織全体のチームの数 | 5     |
@@ -49,7 +49,7 @@ ms.locfileid: "48333267"
 
 <sup>1</sup> Azure Active Directory のすべてのディレクトリ オブジェクトはこの制限にカウントされます。 グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
 
-<sup>2</sup> この制限には、アーカイブ済みのチームが含まれます。
+<sup>2</sup> この制限には、アーカイブ済みのチームが含まれます。 最大数の上限を超える場合は、Microsoft サポートにお問い合わせください。
 
 <sup>3</sup> 削除したチャネルは、30 日以内であれば復元できます。 この 30 日間、削除されたチャンネルはチームごとの制限である 200 チャンネルとしてカウントされ続けます。 30 日を経過すると、削除されたチャネルとそのコンテンツは完全に削除され、チャンネルはチームごとの制限である 200 チャンネルとしてカウントされなくなります。
 
