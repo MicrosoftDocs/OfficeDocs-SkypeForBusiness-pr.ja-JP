@@ -18,13 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: 74b5c53e3440afc2dc30632549ea35d31207ba03
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
+ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706532"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48376560"
 ---
 # <a name="set-up-policies-in-your-organization"></a>組織内のポリシーをセットアップする
 
+ポリシーは、ユーザーが利用できる Skype for Business Online の機能を決定するのに役立ちます。 詳細については、次の記事を参照してください。
 
+- [ポイントツーポイントファイル転送をブロックする](block-point-to-point-file-transfers.md)
+- [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
+- [会議に添付された大きいファイルを保持する](retaining-large-files-attached-to-a-meeting.md)
+- [組織の電話会議ポリシーをセットアップする](set-up-conferencing-policies-for-your-organization.md)
+- [組織のモバイル ポリシーをセットアップする](set-up-mobile-policies-for-your-organization.md)
+- [組織のクライアント ポリシーをセットアップする](set-up-client-policies-for-your-organization.md)
