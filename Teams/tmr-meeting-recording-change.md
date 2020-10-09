@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369172"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389935"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と、会議の記録に SharePoint または Stream を使用する
 
 > [!Note]
 > Microsoft Stream の使用から 会議の記録用の OneDrive for Business および SharePoint への変更は段階的なアプローチになります。 テナント管理者は、起動時にこの新しいワークフローオプションを今すぐ選ぶことができます。また、2020年10月に OneDrive for Business と SharePoint に自動アップロードされます。 11月では、Stream の使用を続けたい場合と、2021の初期段階では、すべてのユーザーが OneDrive for Business と SharePoint を使って新しい会議のレコーディングを使用する必要があります。
 
-Microsoft Teams には、会議の記録を保存するための新しい方法が用意されています。 ストリームからの出発として、このメソッドは microsoft 365 の Microsoft OneDrive と SharePoint を使用し、多くの利点を提供します。
+Microsoft Teams には、会議の記録を保存するための新しい方法が用意されています。 従来の Microsoft Stream から [新しいストリーム](https://docs.microsoft.com/stream/streamnew/new-stream)への移行の最初のフェーズとして、このメソッドは microsoft 365 の microsoft OneDrive と SharePoint 上にレコーディングを保存し、多くの利点を提供します。
 
 OneDrive for Business と SharePoint を使ったレコーディングの保存には、次のような利点があります。
 
@@ -61,7 +61,7 @@ OneDrive for Business と SharePoint を使ったレコーディングの保存�
 
 1. Skype For Business Online PowerShell 管理コンソールをインストールします。
 
-    a. [Skype For Business Online Powershell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide)をダウンロードします。
+    a. [Skype For Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide)をダウンロードします。
 
     b. 指示に従ってインストールします。
 
@@ -102,6 +102,10 @@ OneDrive for Business と SharePoint を使ったレコーディングの保存�
 - チャネル会議の場合、レコーディングは [ **レコーディング**] という名前のフォルダーにある Teams サイトのドキュメントライブラリに格納されます。 例:
 
   <i>Teams 名-チャネル名</i> /**ドキュメント** /**レコーディング**
+
+**元従業員のレコーディングを処理する方法を教えてください。**
+
+ビデオは、OneDrive や SharePoint の他のファイルと同様に、従業員が退職した後の所有と保持は、通常の [onedrive と sharepoint のプロセス]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)に従います。
 
 **会議のレコーディングを表示する権限を持つユーザー**
 

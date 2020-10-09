@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 429dd2c7e5b5fe8048bdac52e07dfb0577121540
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177227"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389875"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
 
@@ -42,7 +42,7 @@ Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モ�
 > [!TIP]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションです。また、 [エンタープライズ向けの microsoft 365 アプリでも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は、32ビットバージョンと64ビットバージョンの Windows (8.1 以降)、および Windows Server (2012 R2 以降)、および macOS と Linux (in と形式) で利用でき `.deb` `.rpm` ます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
+Microsoft Teams デスクトップクライアントは、スタンドアロンアプリケーションです。また、 [エンタープライズ向けの microsoft 365 アプリでも利用でき](https://docs.microsoft.com/deployoffice/teams-install)ます。 Teams は、32ビットバージョンと64ビットバージョンの Windows (8.1 以降)、ARM 上の Windows 10 の ARM64、および Windows Server (2012 R2 以降)、および macOS と Linux (in および format) で利用でき `.deb` `.rpm` ます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
