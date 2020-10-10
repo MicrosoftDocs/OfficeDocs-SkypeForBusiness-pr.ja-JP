@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0555296da359a916b512bde878d5c87207a6e549
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389885"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416862"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -54,7 +54,7 @@ ms.locfileid: "48389885"
 |メモリ     |   4.0 GB の RAM      |
 |ハード ディスク    |   1.5 GB の空きディスク容量      |
 |ディスプレイ    | 1280 x 800 以上の解像度のモニター    |
-|オペレーティング システム  |    最新バージョンの macOS のうちの1つ。 最新バージョンの macOS は [こちらで](https://support.apple.com/en-us/HT201260)ご覧いただけます。 たとえば、macOS の新しいバージョンがリリースされると、新しいバージョンとその直前の2つがサポートされているバージョンになります。      |
+|オペレーティング システム  |    最新バージョンの macOS のうちの1つ。 最新の macOS バージョンについての情報や、macOS のバージョンをアップグレードする方法については、 [こちら](https://support.apple.com/en-us/HT201260)を参照してください。 たとえば、macOS の新しいバージョンがリリースされると、新しいバージョンとその直前の2つがサポートされているバージョンになります。      |
 |ビデオ  |    互換性のある Web カメラ     |
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
 |ビデオ通話と会議 | <ul><li>2コアプロセッサが必要です。 ビデオ/画面共有の解像度とフレームレートを高くするには、4コアプロセッサ以上をお勧めします。 </li><li>Microsoft Teams の Room での類似性検出を使用した会議への参加は、macOS では利用できません。</li></ul>

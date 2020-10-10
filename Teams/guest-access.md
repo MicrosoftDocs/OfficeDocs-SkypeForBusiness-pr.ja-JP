@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: 388fb68196a6e68c13066b7b94a1b24a31834b37
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: 6efaa942b3818d8fb5aaca7a07b9300f1c731dca
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346168"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416852"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
@@ -33,7 +33,7 @@ ms.locfileid: "48346168"
 
 Teams の管理者は、 [ゲストが teams で使用できる (または使用できない) 機能を制御](manage-guests.md)します。 Teams のゲストは、他の Microsoft 365 と同じコンプライアンスおよび監査保護によってカバーされ、Azure AD 内で管理することができます。 ゲスト アクセスは Azure AD および、Microsoft 365 または Office 365 のサービス制限の対象になります。
 
-ゲストのエクスペリエンスには、仕様上の制限がかかっています。 チームでゲストができることとできないことの詳細については、「[チームメンバーとゲストの機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」を参照してください。
+ゲストのエクスペリエンスには、仕様上の制限がかかっています。 チームでゲストができることとできないことの詳細については、「 [チームメンバーとゲストの機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」を参照してください。
 
 > [!IMPORTANT]
 > ゲスト ユーザーは、共存アップグレード モードの Teams の組織全体の設定に従います。 これは変更できません。
@@ -66,7 +66,7 @@ Teams では、ゲストは明確に特定されます。 ゲスト ユーザー
 
 ## <a name="licensing-for-guest-access"></a>ゲスト アクセスのライセンス
 
-ゲストアクセスは、すべての Microsoft 365 ビジネス標準、Microsoft 365 Enterprise、および Microsoft 365 エデュケーションサブスクリプションに含まれています。 追加の Microsoft 365 ライセンスは必要ありません。 Teams では追加することができるゲストの数に制限はありません。 ただし、テナントに追加できるゲストの総数は、Azure AD の有料機能によって制限される場合があります。 詳細については、「[Azure AD B2B コラボレーションのライセンス](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)」に関するページを参照してください。
+ゲストアクセスは、すべての Microsoft 365 ビジネス標準、Microsoft 365 Enterprise、および Microsoft 365 エデュケーションサブスクリプションに含まれています。 追加の Microsoft 365 ライセンスは必要ありません。 Teams では追加することができるゲストの数に制限はありません。 ただし、テナントに追加できるゲストの総数は、Azure AD の有料機能によって制限される場合があります。 詳細については、「 [AZURE AD の外部 id の課金モデル](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)」を参照してください。
 
 > [!NOTE]
 > Exchange Online Plan 2 などのスタンドアロンの Microsoft 365 サブスクリプションプランのみを使用している組織内のユーザーは、これらのユーザーが同じ組織に属していると見なされるため、組織のゲストとして招待することはできません。 これらのユーザーが Teams を使用する場合は、Microsoft 365 Business Standard、Office 365 Enterprise、または Office 365 Education サブスクリプションが割り当てられる必要があります。 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 2180c819491b3067225ada993aec60ec052bc69f
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662117"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416907"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
@@ -33,14 +33,14 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>グループおよびチームの作成、名前付け、分類、およびゲスト アクセス
 
-自分の組織において、チームの命名や分類について、ゲストがチーム メンバーとして追加することができるかどうかについて、チームを作成できるユーザーが誰であるかについて、厳密な制御の実施が必要な場合があります。この各領域は Azure Active Directory (Azure AD) を使って設定できます。 
+自分の組織において、チームの命名や分類について、ゲストがチーム メンバーとして追加することができるかどうかについて、およびチームを作成することができるユーザーが誰であるかについて、厳密な制御を実施する必要がある可能性があります。 これらの領域を構成するには、Azure Active Directory (Azure AD) と秘密度ラベルを使用します。 
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |判断ポイント|<ul><li>自分の組織において、チームについての特定の名前付け規則はありますか?</li><li>チーム作成者は組織固有の分類をチームに割り当てる機能を必要としていますか?</li><li>チームにゲストを追加する機能を、チーム単位で制限する必要はありますか?</li><li>自分の組織において、チームを作成可能なユーザーを制限する必要はありますか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|次の手順|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|次のステップ|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 > [!TIP]
 > 次の表を使用して、組織の要件を把握します。
@@ -52,6 +52,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 |チームのゲスト アクセス |ゲストがチームに追加されるのを許可または禁止します。 |いいえ |TBD |
 |チームの作成 |チームの作成を管理者に限定します。 |いいえ |TBD|
 |チームの作成 |チームの作成をセキュリティ グループのメンバーに限定します。 |P1 |TBD|
+|機密ラベル|プライバシーとゲストの共有を構成する|いいえ|TBD|
 
 > [!NOTE]
 > 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
@@ -64,16 +65,19 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 要件の決定後、Azure AD のコントロールを使用してその要件を実装できます。これらの設定を実装する方法に関する技術面のガイダンスは、次をご覧ください。
 
-- [グループ設定を構成するための Azure Active Directory コマンドレット](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
+- [グループ設定を構成するための Azure Active Directory コマンドレット](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Azure Active Directory で Microsoft 365 グループの名前付けポリシーを適用](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)します。
+- [Azure Active Directory で Microsoft 365 グループの名前付けポリシーを適用する](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Microsoft 365 グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
+- [Microsoft 365 グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
+- [機密ラベルを使用して Microsoft Teams、Microsoft 365 グループ、SharePoint サイトのコンテンツを保護する](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+
+- [グループ、チーム、Yammer のライフサイクルの終了オプション](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>グループとチームの有効期限、保持、およびアーカイブ化
 
-組織には、有効期限、保持、チームとチームデータ (チャネル メッセージとチャネル ファイル) のアーカイブに関するポリシーの設定に追加の要件がある場合があります。グループの有効期限ポリシーを設定すると、自動でグループポリシーと保持ポリシーを管理して、必要に応じて情報を保存または削除できます。チーム (読み取り専用モードに設定) をアーカイブし、アクティブでなくなったチームのその時のビューを保存します。
+自分の組織で、有効期限、保持、チームおよびチームのデータ (チャネルのメッセージとチャネルのファイル) をアーカイブ化することについてのポリシーを設定するための追加の要件がある可能性があります。 グループの有効期限ポリシーを構成して、グループのライフサイクルや、必要に応じて情報の保存や削除を行うための保持ポリシーを自動的に管理することができます。また、チームをアーカイブ化して (読み取り専用モードに設定して)、アクティブでなくなったチームについて特定の時点の表示を保存することができます。 アーカイブされたチームは、引き続き有効期限ポリシーを適用したままであり、除外または更新しない限り削除される可能性があることに注意してください。
 
 |           |            |
 |-----------|------------|
@@ -149,8 +153,10 @@ Teams にはポリシーを介して、メッセージング、会議、通話�
 
 - [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md)
 - [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
+- [Microsoft Teams のプライベート チャネル](private-channels.md)
 - [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 - [Teams のメッセージング ポリシーを管理する](messaging-policies-in-teams.md)
+- [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
 
 さらに、チャネルのモデレーションを設定し、特定のユーザーに対してモデレーター機能を提供して、チャネルの投稿を作成したり、それらに返信したりできるユーザーを制御できるようにすることができます。 詳細については [、「Microsoft Teams でチャネルのモデレーションを設定および管理](manage-channel-moderation-in-teams.md) する」を参照してください。
 

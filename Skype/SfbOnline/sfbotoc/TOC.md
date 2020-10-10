@@ -257,6 +257,7 @@
 ### [ビデオ: Skype for Business Online の外部通信](../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
 ## 組織のポリシーをセットアップする 
+### [組織内のポリシーをセットアップする: 概要](../set-up-policies-in-your-organization/set-up-policies-in-your-organization.md)
 ### [ポイント ツー ポイントのファイル転送を禁止する](../set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
 ### [カスタム外部アクセス ポリシーを作成する](../set-up-policies-in-your-organization/create-custom-external-access-policies.md)
 ### [会議に添付された大きいファイルを保持する](../set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)
@@ -305,7 +306,7 @@
 ### [無料のダイヤルアウト期間](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [英国向けの実施規約](/microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [英国向けの苦情処理規約](/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [データ収集方法](/microsoftteams/teams-privacy?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [データ収集方法](/microsoftteams/data-collection-practices?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [緊急通報のラベル](/microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Skype for Business のサードパーティとの電話会議への統合用プログラムの提供終了](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
