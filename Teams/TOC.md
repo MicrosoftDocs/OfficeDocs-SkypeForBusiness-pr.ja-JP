@@ -693,6 +693,14 @@
 ### Teams の Shifts
 #### [Teams の Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Shifts アプリを管理する](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### 患者アプリ
+#### [患者アプリの概要](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### 電子医療記録を患者アプリに統合する
+##### [FHIR API を使用して電子医療記録を患者アプリに統合する](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [患者アプリの DSTU2 インターフェイスの仕様](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [患者アプリの STU3 インターフェイスの仕様](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [患者アプリを Azure API for FHIR に接続する](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
+#### [患者アプリの監査ログ](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
