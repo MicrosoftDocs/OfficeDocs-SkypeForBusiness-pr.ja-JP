@@ -18,19 +18,19 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 4cae6ee3f4a335cc1be1636917a5b200d279d374
+ms.sourcegitcommit: 5571e27276d89df97edbce72a42638921c235311
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333515"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408150"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
-組織で大規模な会議を開催するために Teams のライブイベントを計画している場合、そのイベントを立ち上げる前にいくつかの要素を考慮する必要があります。
+組織で大規模な会議を開催するために Teams のライブ イベントを計画している場合、そのイベントを立ち上げる前にいくつかの要素を考慮する必要があります。
 
  > [!Note]
-> 別のプラットフォームでの Teams のライブ イベントについての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。 チームのライブイベントの帯域幅要件については、[組織を準備する](../prepare-network.md)を参照してください。 
+> 別のプラットフォームでの Teams のライブ イベントについての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。 チームのライブイベントの帯域幅要件については、[組織を準備する](../prepare-network.md)を参照してください。
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>ライブ イベントに参加、およびライブ イベントを作成、スケジュールできるのは誰か。
 
@@ -40,11 +40,11 @@ ms.locfileid: "48333515"
 
 Teams ライブ イベントを作成または表示するために割り当てる必要があるライセンスは次のとおりです。  
 
-- Microsoft 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 Education A3 または A5 ライセンスがある。
-- Microsoft Teams のライセンス。 - これは上記のライセンスに含まれています。 
-- コンテンツを外部のアプリまたはデバイスと共有する場合は、Microsoft Stream のライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。 
+- Microsoft または Office 365 Enterprise E1、E3、または E5 のいずれかのライセンス、または Office 365 Education A3 または A5 ライセンス。 この要件の例外は、[ゲスト ユーザー](plan-for-teams-live-events.md#guest-to-present)の他の条件が満たされている場合は、ゲスト ユーザーがライセンスなしで表示されることがあります。 
+- Microsoft Teams ライセンス-これは最初の箇条書きに記載されているライセンスに含まれています。
+- コンテンツを外部のアプリまたはデバイスと共有する場合は、Microsoft Stream のライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。
 
-  ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream に保存されず、削除されるまでの 30 日間の制限付きで Azure Media Services (AMS) に保存されます。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
+  ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream に保存されず、削除されるまでの 30 日間の制限付きで Azure Media Services (AMS) に保存されます。 現時点では、削除機能を含めるように管理者が制御または管理できるものではありません。
 
 >[!Note]
 > Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
@@ -74,13 +74,15 @@ Teams ライブ イベントを作成または表示するために割り当て�
 > [!IMPORTANT]
 > 認証されていない匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。
 
+### <a name="guest-to-present"></a>[表示するゲスト](#guest-to-present)
+
 ゲストがライブイベントに表示されるようにするには、次の操作を行います:
 
 1. [ユーザーをゲストとしてチームに追加します](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
 2. ユーザーにゲストの招待を承諾してチームに参加してもらいます。
 3. [ライブイベントをスケジュールし、ゲストをイベントグループに追加します](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-ベストプラクティスとして、ライブイベントのプロデューサーと発表者がイベントの前にチャットして情報を共有できるように、チャネルを作成することをお勧めします。 Microsoft 365 の資格情報を持たないゲストには、Teams の予定表は表示されません。 簡単にイベントに参加できるように、プロデューサーはイベントリンクをチャネルに投稿できます。 発表者は、Teams を開いてチャネルに移動し、リンクをクリックしてイベントに参加できます。 
+ベストプラクティスとして、ライブイベントのプロデューサーと発表者がイベントの前にチャットして情報を共有できるように、チャネルを作成することをお勧めします。 Microsoft 365 の資格情報を持たないゲストには、Teams の予定表は表示されません。 簡単にイベントに参加できるように、プロデューサーはイベントリンクをチャネルに投稿できます。 発表者は、Teams を開いてチャネルに移動し、リンクをクリックしてイベントに参加できます。
 
 ## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか。
 
@@ -158,6 +160,7 @@ Teams ライブ イベントを作成または表示するために割り当て�
 - ヨーロッパ/アフリカ
 
 **これらの国/地域のデータの場所 (サポートされている)**
+
 - オーストラリア
 - カナダ
 - インド
@@ -165,6 +168,7 @@ Teams ライブ イベントを作成または表示するために割り当て�
 - 英国
 
 **これらの国/地域およびクラウドはサポートされていません**
+
 - ドイツ
 - フランス
 - ノルウェー
