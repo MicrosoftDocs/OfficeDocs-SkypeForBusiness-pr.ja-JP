@@ -14,7 +14,7 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: この記事では、Microsoft Teams でのライブ イベントを立ち上げる前に考慮すべき要素について説明します。
+description: この記事では、Microsoft Teams でのライブ イベントを立ち上げる前に考慮すべき事項について説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -27,10 +27,10 @@ ms.locfileid: "48408150"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
-組織で大規模な会議を開催するために Teams のライブ イベントを計画している場合、そのイベントを立ち上げる前にいくつかの要素を考慮する必要があります。
+組織で大規模な会議を開催するために Teams のライブ イベントを計画している場合、そのイベントを立ち上げる前に考慮すべき事項がいくつかあります。
 
  > [!Note]
-> 別のプラットフォームでの Teams のライブ イベントについての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。 チームのライブイベントの帯域幅要件については、[組織を準備する](../prepare-network.md)を参照してください。
+> 別のプラットフォームでの Teams のライブ イベントについての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。 チームのライブイベントの帯域幅要件については、[組織を準備する](../prepare-network.md)を参照してください。
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>ライブ イベントに参加、およびライブ イベントを作成、スケジュールできるのは誰か。
 
@@ -40,11 +40,11 @@ ms.locfileid: "48408150"
 
 Teams ライブ イベントを作成または表示するために割り当てる必要があるライセンスは次のとおりです。  
 
-- Microsoft または Office 365 Enterprise E1、E3、または E5 のいずれかのライセンス、または Office 365 Education A3 または A5 ライセンス。 この要件の例外は、[ゲスト ユーザー](plan-for-teams-live-events.md#guest-to-present)の他の条件が満たされている場合は、ゲスト ユーザーがライセンスなしで表示されることがあります。 
-- Microsoft Teams ライセンス-これは最初の箇条書きに記載されているライセンスに含まれています。
-- コンテンツを外部のアプリまたはデバイスと共有する場合は、Microsoft Stream のライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。
+- Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 Education A3 または A5 ライセンス。 この要件の例外は、[ゲスト ユーザー](plan-for-teams-live-events.md#guest-to-present)の他の条件が満たされている場合は、ゲスト ユーザーがライセンスなしで発表できることです。 
+- Microsoft Teams ライセンス - これは 1 つ目の項目に記載されているライセンスに含まれています。
+- Microsoft Stream のライセンス - コンテンツを外部のアプリまたはデバイスと共有する場合はこのライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。
 
-  ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream に保存されず、削除されるまでの 30 日間の制限付きで Azure Media Services (AMS) に保存されます。 現時点では、削除機能を含めるように管理者が制御または管理できるものではありません。
+  ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream には保存されず、30 日間の期限付きで Azure Media Services (AMS) に保存され、その後削除されます。 現時点では、削除機能を含めるように管理者が制御または管理できるものではありません。
 
 >[!Note]
 > Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
@@ -74,9 +74,9 @@ Teams ライブ イベントを作成または表示するために割り当て�
 > [!IMPORTANT]
 > 認証されていない匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。
 
-### <a name="guest-to-present"></a>[表示するゲスト](#guest-to-present)
+### <a name="guest-to-present"></a>[発表を行うゲスト](#guest-to-present)
 
-ゲストがライブイベントに表示されるようにするには、次の操作を行います:
+ゲストがライブ イベントで発表するようにするには、次の操作を行います:
 
 1. [ユーザーをゲストとしてチームに追加します](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
 2. ユーザーにゲストの招待を承諾してチームに参加してもらいます。
