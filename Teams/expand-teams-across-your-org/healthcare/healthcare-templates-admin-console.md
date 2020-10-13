@@ -1,5 +1,5 @@
 ---
-title: 管理コンソールで Teams の医療テンプレートを使用する
+title: 管理センターで Teams の医療テンプレートを使用する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 管理コンソールで Microsoft Teams テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
+description: 管理センターで Microsoft Teams テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d030d19cbd3c11283649ffb7fa02124854bfce23
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308280"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424737"
 ---
-# <a name="use-teams-healthcare-templates-in-the-admin-console"></a>管理コンソールで Teams の医療テンプレートを使用する
+# <a name="use-teams-healthcare-templates-in-the-admin-center"></a>管理センターで Teams の医療テンプレートを使用する
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -33,7 +33,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 医療機関の場合、テンプレートは、ユーザーが効率的にチームを効果的に活用できるようにするための構造を提供するため、特に強力です。 テンプレートを使用すると、管理者は組織全体で一貫したチームを展開することができます。 この記事は、医療組織全体で複数のチームの計画、展開、管理を担当している場合に使います。
 
-現時点では、さまざまな状況に応じて利用できる、2つのファーストパーティの医療用テンプレートが提供されています。 チームテンプレート全般の詳細については、「 [管理コンソールで Teams テンプレートの概要](../../get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
+現時点では、さまざまな状況に応じて利用できる、2つのファーストパーティの医療用テンプレートが提供されています。 チームテンプレート全般の詳細については、「 [管理センターでチームテンプレートの概要](../../get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
 
 ## <a name="collaborate-on-patient-care"></a>治療での共同作業
 
@@ -53,6 +53,6 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 |病院|`healthcareHospital`|チャネル <ul><li>一般<li>お知らせ</li><li>コンプライアンス</li><li>Custodial</li><li>人事</li><li>薬</li></ul> アプリ <ul><li>ウィキ</li></ul>|
 ||||
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams のテンプレートの使用を開始する](../../get-started-with-teams-templates-in-the-admin-console.md)

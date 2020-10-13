@@ -18,14 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e65fd33ed47b54d220925353bdb350557fc81bcb
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308190"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424657"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理コンソールで Teams のテンプレートを使ってみる
+# <a name="get-started-with-teams-templates-in-the-admin-center"></a>管理センターで Teams テンプレートの使用を開始する
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -109,7 +109,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 
 詳細については [、「Teams の制限と仕様](limits-specifications-teams.md) 」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [カスタムチームテンプレートを作成する](create-a-team-template.md)
 - [既存のチームテンプレートからチームテンプレートを作成する](create-template-from-existing-template.md)

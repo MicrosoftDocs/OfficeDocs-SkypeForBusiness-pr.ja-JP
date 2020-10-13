@@ -386,3 +386,65 @@
 | 10/2/2020 | [会議の記録に OneDrive と SharePoint を使用する](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
 | 10/2/2020 | [Microsoft Teams のゲスト アクセスのトラブルシューティング](/MicrosoftTeams/troubleshoot-guest-access) | 更新日時 |
 | 10/2/2020 | [チームのゲスト ユーザーを表示する](/MicrosoftTeams/view-guests) | 更新 |
+
+
+## <a name="week-of-october-05-2020"></a>2020年10月5日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 10/5/2020 | [Ignite 2020 での Teams セッション](/MicrosoftTeams/ignite-2020-landing-page) | 更新日時 |
+| 10/5/2020 | [Microsoft Teams の管理者ロールを使用してチームを管理する](/MicrosoftTeams/using-admin-roles) | 更新日時 |
+| 10/5/2020 | [Microsoft Teams で組織全体にわたるチームを作成する](/MicrosoftTeams/create-an-org-wide-team) | 更新日時 |
+| 10/5/2020 | [患者のアプリと EHR の統合 DSTU2 インターフェイス](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 更新日時 |
+| 10/5/2020 | [患者アプリを FHIR の Azure API に接続する](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 更新日時 |
+| 10/5/2020 | [Teams 管理者用の患者アプリ ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 更新日時 |
+| 10/5/2020 | [Patients アプリの概要](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 更新日時 |
+| 10/5/2020 | [Teams IT とコンプライアンス管理者のための患者アプリの監査 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 更新日時 |
+| 10/5/2020 | [患者のアプリと EHR の統合 STU3 インターフェイス](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 更新日時 |
+| 10/5/2020 | [医療関係組織のためのTeamsを始めましょう](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 更新日時 |
+| 10/5/2020 | [Microsoft Graph を使用して Teams テンプレートを使ってみる](/MicrosoftTeams/get-started-with-teams-templates) | 更新日時 |
+| 10/5/2020 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 10/5/2020 | [オーストリアの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | 更新日時 |
+| 10/5/2020 | [ベルギーでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 更新日時 |
+| 10/5/2020 | [デンマークの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | 更新日時 |
+| 10/5/2020 | [フランスでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 更新 |
+| 10/5/2020 | [ドイツでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 更新日時 |
+| 10/5/2020 | [アイルランドでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 更新 |
+| 10/5/2020 | [イタリアの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 更新日時 |
+| 10/5/2020 | [ポルトガルの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | 更新日時 |
+| 10/5/2020 | [スペインでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 更新 |
+| 10/5/2020 | [スウェーデンの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | 更新日時 |
+| 10/5/2020 | [スイスの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 更新日時 |
+| 10/5/2020 | [オランダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 更新日時 |
+| 10/5/2020 | [リリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
+| 10/5/2020 | [Teams コンタクト センター](/MicrosoftTeams/teams-contact-center) | 更新日時 |
+| 10/5/2020 | [会議の記録に OneDrive と SharePoint を使用する](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
+| 10/6/2020 | [Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を与える](/MicrosoftTeams/app-permissions-admin-center) | 更新日時 |
+| 10/6/2020 | [患者のアプリと EHR の統合 DSTU2 インターフェイス](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 更新日時 |
+| 10/6/2020 | [患者アプリを FHIR の Azure API に接続する](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 更新日時 |
+| 10/6/2020 | [Teams 管理者用の患者アプリ ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 更新日時 |
+| 10/6/2020 | [Patients アプリの概要](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 更新日時 |
+| 10/6/2020 | [Teams IT とコンプライアンス管理者のための患者アプリの監査 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 更新日時 |
+| 10/6/2020 | [患者のアプリと EHR の統合 STU3 インターフェイス](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 更新日時 |
+| 10/6/2020 | [医療関係組織のためのTeamsを始めましょう](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 更新日時 |
+| 10/6/2020 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 10/6/2020 | [Microsoft Teams でポリシーパッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 10/6/2020 | [Microsoft Teams のライブ イベントについて](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 更新日時 |
+| 10/6/2020 | [電話会議のネットワーク上会議](/MicrosoftTeams/audio-conferencing-on-network) | 更新日時 |
+| 10/6/2020 | [直接ルーティング-アナログデバイスの接続](/MicrosoftTeams/direct-routing-analog-devices) | 更新日時 |
+| 10/6/2020 | [電話番号を直接ルーティング用に翻訳する](/MicrosoftTeams/direct-routing-translate-numbers) | 更新日時 |
+| 10/6/2020 | [Teams でのユーザーのプレゼンス](/MicrosoftTeams/presence-admins) | 更新日時 |
+| 10/6/2020 | [PowerShell を使用してライブイベントのポリシーを設定する](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 更新日時 |
+| 10/6/2020 | [会議の記録に OneDrive と SharePoint を使用する](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
+| 10/6/2020 | [Microsoft Teams の要件\| サービスの向上](/MicrosoftTeams/upgrade-enhance-my-service) | 更新 |
+| 10/8/2020 | [中小規模企業向けの電話会議をセットアップする](/MicrosoftTeams/audio-conferencing-smb) | 更新日時 |
+| 10/8/2020 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 更新日時 |
+| 10/8/2020 | [Microsoft Teams のハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 更新日時 |
+| 10/8/2020 | [会議の記録に OneDrive と SharePoint を使用する](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
+| 10/8/2020 | [直接ルーティングが認定済みのセッション境界コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 10/9/2020 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新日時 |
+| 10/9/2020 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
+| 10/9/2020 | [Microsoft Teams のハードウェア要件](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 更新日時 |
+| 10/9/2020 | [Teams でのガバナンスを計画する - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 更新日時 |
+| 10/9/2020 | [ライフサイクル管理を計画する](/MicrosoftTeams/plan-teams-lifecycle) | 更新日時 |

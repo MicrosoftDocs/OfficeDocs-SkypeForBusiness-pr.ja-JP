@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 医療組織の Teams ポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: e55102e07f7ffc77dc67c5d6697cb754c398cc40
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803975"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427172"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>医療用の Teams ポリシーパッケージ
 
@@ -52,6 +52,16 @@ Teams には現在、以下の医療ポリシーパッケージが含まれて�
 
 ![医療用臨床 worker パッケージのポリシーのスクリーンショット](media/policy-packages-healthcare-clinical-worker.png)
 
+## <a name="get-started-with-policy-packages"></a>ポリシーパッケージの概要
+
+医療ポリシーパッケージの概要については、Microsoft 管理センターのオンボードハブで、[ **医療の基本**] を選択し、[ **役割別にポリシー設定を割り当てる**] を選択します。 作業を開始する準備ができたら、組織内の個人を割り当てるポリシーパッケージを決定します。
+
+[ **ポリシーの詳細の表示** ] を選択して、パッケージ内の特定のポリシーとその設定を詳しく確認します。 これらは、Teams 管理センターで割り当て後に [カスタマイズすることができ](manage-policy-packages.md#customize-policies-in-a-policy-package) ます。
+
+割り当てるパッケージを1つまたは複数選択して、[ **次へ**] をクリックします。 ポリシーパッケージにユーザーを検索して追加することで、その役割に最適です。 1人のユーザーを一度に複数のポリシーパッケージに割り当てることはできません。
+
+適切なポリシーパッケージにユーザーを追加したら、 **[完了** ] で選択内容が終了します。 引き続き、Microsoft Teams 管理センターでポリシーパッケージのカスタマイズと管理を行うことができます。
+
 ## <a name="manage-policy-packages"></a>ポリシー パッケージを管理する
 
 ### <a name="view"></a>表示
@@ -76,7 +86,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用してポリシ�
 
 ユーザーにポリシーが割り当てられていて、後で別のポリシーを割り当てると、最新の割り当てが優先されます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams でポリシー パッケージを管理する](manage-policy-packages.md)
 

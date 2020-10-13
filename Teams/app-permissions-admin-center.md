@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 50a9abbd7e5872229c09d7d80c00c5d432723da1
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367597"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433050"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を与える
 
@@ -88,11 +88,12 @@ RSC のアクセス許可は、Azure AD ではなく、アプリマニフェス�
 
 現時点では、アクセス許可を確認したり許可を付与したりする機能は、Azure AD に登録されているすべてのサードパーティアプリで、アクセス許可を要求することはできません。 [詳細の **表示** ] リンクの代わりに、[ **--** **権限** ] 列に表示されます。 弊社では、Isv と協力して、アプリのこの機能を有効にしています。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
 - [Microsoft identity platform エンドポイントでの権限と承認](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 - [Teams でのリソース固有の同意](resource-specific-consent.md)
 - [リソース固有の同意 (RSC)](https://docs.microsoft.com/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+- [Teams アプリのライフサイクル](https://aka.ms/PR132) (Ignite 2020 セッション) に移動する
 
 

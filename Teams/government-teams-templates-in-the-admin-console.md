@@ -1,5 +1,5 @@
 ---
-title: 管理コンソールで Teams government テンプレートを使用する
+title: 管理センターで Teams government テンプレートを使用する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 使い方については、こちらを参照してください。 管理コンソールを使用して事前に定義された設定、チャネル、プリインストール済みのアプリを提供することで、行政機関向けに設計されたチーム構造を作成する Teams テンプレート。
+description: 使い方については、こちらを参照してください。 管理センターを使って、事前に定義された設定、チャネル、プリインストール済みのアプリを提供することで、行政機関向けに設計されたチーム構造を作成する Teams テンプレート。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 623a80bbe85e0345a9b5812377290db04f4b817b
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308140"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424717"
 ---
-# <a name="use-teams-government-templates-in-the-admin-console"></a>管理コンソールで Teams government テンプレートを使用する
+# <a name="use-teams-government-templates-in-the-admin-center"></a>管理センターで Teams government テンプレートを使用する
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

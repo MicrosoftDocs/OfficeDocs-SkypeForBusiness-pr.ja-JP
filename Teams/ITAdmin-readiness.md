@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346198"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48426932"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -56,9 +56,9 @@ ms.locfileid: "48346198"
 
 <h2>IT のチームルームの基礎 & AV の専門家</h2>
 
-<p>次の表には、PowerPoint のさまざまなビデオトレーニングへのリンクが含まれています。 PowerPoint デッキは Microsoft Teams のルームにあります。  
+<p>次の表には、Microsoft Teams のルームの PowerPoint デッキ (PDF 形式) と共に、包括的なビデオトレーニングへのリンクが含まれています。  
 
-| モジュール | ビデオ | PowerPoint デッキ  |
+| モジュール | ビデオ | PowerPoint デッキ (PDF)  |
 | ------------ | -------------------- | -------------------- |
 | モジュール 1: Microsoft Teams ルームの概要 (18:29 分) | [ビデオ](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | モジュール 2: Microsoft Teams のネットワーキング (34:10 分) | [ビデオ](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |

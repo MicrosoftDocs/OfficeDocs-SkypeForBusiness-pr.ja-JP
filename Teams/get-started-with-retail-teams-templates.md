@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33be31797833152aea9dd477698be56884a5aa0b
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 5f226b60bfc3a054166eb48596c505ccd7fa5ac9
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294633"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424637"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>小売業の Teams テンプレートの使用を開始する
 
@@ -90,4 +90,4 @@ Teams のテンプレートには、小売業者のニーズに合わせて設�
 ```
 ## <a name="relate-topic"></a>トピックの関連付け
 
-[管理コンソールで Teams のテンプレートを使ってみる](get-started-with-teams-templates-in-the-admin-console.md)
+[管理センターで Teams テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
