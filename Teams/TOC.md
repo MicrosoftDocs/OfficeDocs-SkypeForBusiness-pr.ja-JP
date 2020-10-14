@@ -52,7 +52,7 @@
 ## [チームをアーカイブまたは削除する](archive-or-delete-a-team.md)
 ## [Slack から Teams に移行する](migrate-slack-to-teams.md)
 ## Teams テンプレートを使う
-### [管理コンソールで Teams テンプレートを使用する](get-started-with-teams-templates-in-the-admin-console.md)
+### [管理センターで Teams テンプレートを使用する](get-started-with-teams-templates-in-the-admin-console.md)
 ### [Graph に内蔵された中小企業向け Teams テンプレート](smb-templates.md)
 ### [カスタムの Teams テンプレートを作成する](create-a-team-template.md)
 ### [既存のチームからテンプレートを作成する](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [医療関係組織向けの安全なメッセージング](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [メッセージの委任](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### 医療関係組織向けの Teams テンプレート
-#### [管理コンソールで医療関係組織向けの Teams テンプレートを使用する](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [管理センターで医療関係組織向けの Teams テンプレートを使用する](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [医療関係組織向けの Teams テンプレートで使用を開始する](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [リスト アプリを管理する](manage-lists-app.md)
 ### Teams の Shifts
@@ -725,7 +725,7 @@
 ### [SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [小売店向けの Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [管理コンソールで小売店向け Teams テンプレートを使い始めましょう](retail-teams-templates-in-the-admin-console.md)
+### [管理センターで小売店向け Teams テンプレートを使い始めましょう](retail-teams-templates-in-the-admin-console.md)
 ### [小売店向けテンプレートでTeamsを始めましょう](get-started-with-retail-teams-templates.md)
 
 ## [政府機関用の Teams ](expand-teams-across-your-org/teams-for-government-landing-page.md)
