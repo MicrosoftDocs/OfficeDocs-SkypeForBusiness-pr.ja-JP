@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下では、電話会議のネットワーク上での、オープンなプレビュー機能について説明します。
-ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369182"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444213"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>電話会議のネットワーク上の会議のプレビューを開く
 
@@ -38,7 +38,7 @@ ms.locfileid: "48369182"
 
 ネットワーク上の会議を構成する前に、組織が次の前提条件を満たしていることを確認してください。 
 
-- 電話会議を有効にしている、または有効にする組織内のすべてのユーザーが、[チームのみ] モードであることを確認します。 ネットワーク会議経由での着信通話と発信電話会議のルーティングは、Teams 会議でのみサポートされます。
+- 電話会議について、有効になっている、または有効にする組織内のすべてのユーザーが、すべての会議に対して Teams を使用していることを確認します。 ネットワーク会議経由での着信通話と発信電話会議のルーティングは、Teams 会議でのみサポートされます。
 
 - ネットワーク上の会議を使用するすべてのユーザーに電話会議のライセンスを割り当てます。
 
@@ -67,7 +67,7 @@ ms.locfileid: "48369182"
 
 OnlineAudioConferencingRoutingPolicy ポリシーは、ダイレクトルーティングによる1:1 の PSTN 通話の CsOnlineVoiceRoutingPolicy と同じです。 OnlineAudioConferencingRoutingPolicy ポリシーは、次のコマンドレットを使用して管理できます。
 
--   新規-CsOnlineAudioConferencingRoutingPolicy
+-   New-CsOnlineAudioConferencingRoutingPolicy
 - Set-CsOnlineAudioConferencingRoutingPolicy
 - Get-CsOnlineAudioConferencingRoutingPolicy
 - Grant-CsOnlineAudioConferencingRoutingPolicy
@@ -101,7 +101,7 @@ PSTN 使用量は、ボイスルートのコレクションです。 特定の�
 
 PSTN の使用状況を作成するには、"CsOnlinePstnUsage" コマンドレットを使用します。 次に例を示します。
 
-```
+```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
@@ -111,7 +111,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 "CsOnlineVoiceRoute" コマンドレットを使用して、ボイスルートを作成し、その音声ルートに関連付ける regex とゲートウェイを定義できます。 次に例を示します。
 
-```
+```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
@@ -121,7 +121,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7}
 
 "New-CsOnlineAudioConferencingRoutingPolicy" コマンドレットを使用して、電話会議の音声ルーティングポリシーを作成できます。 次に例を示します。
 
-```
+```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -133,14 +133,14 @@ New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and 
 
 "Grant-CsOnlineAudioConferencingRoutingPolicy" コマンドレットを使用して、電話会議の音声ルーティングポリシーをユーザーに割り当てることができます。 次に例を示します。
 
-```
+```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
 
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>組織のテレフォニー機器でルーティングを構成する
 
-組織のテレフォニー機器で、直接ルーティング経由でルーティングされた会議のダイヤルアウト通話が、意図した宛先にルーティングされることを確認する必要があります。
+組織のテレフォニー機器で、直接ルーティングによってルーティングされた会議のダイヤルアウト通話が、ネットワーク上の目的の場所にルーティングされるようにする必要があります。
 
 
 ### <a name="optional-configure-a-dial-plan"></a>省略ダイヤルプランを設定する
