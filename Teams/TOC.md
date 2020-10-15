@@ -770,6 +770,7 @@
 ### [ポリシー制御の概要](policy-control-overview.md)
 ### [モバイル診断データ](policy-control-diagnostic-data-mobile.md)
 ### [デスクトップ クライアントの診断データ](policy-control-diagnostic-data-desktop.md)
+### [Microsoft Teamsでのオプションの接続エクスペリエンスについての概要](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
@@ -861,7 +862,7 @@
 ### [既存の Microsoft 365 グループを Teams で強化する](enhance-office-365-groups.md)
 ### [Exchange と Teams の連携](exchange-teams-interact.md)
 #### [Teams で使用する Exchange ハイブリッド展開の組織を構成する](exchange-hybrid-organization.md)
-#### [Teams SMTP ドメインを承認済みドメインとして Exchange Online に追加する](smtp-accepted-domain.md)
+#### [Exchange のメール フロー ルールを使用する](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)
 ### [Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
 ### [Microsoft 365 または Office 365 複数地域対応テナントでの Teams のエクスペリエンス](teams-experience-o365odb-spo-multi-geo.md)
 
