@@ -770,7 +770,7 @@
 ### [ポリシー制御の概要](policy-control-overview.md)
 ### [モバイル診断データ](policy-control-diagnostic-data-mobile.md)
 ### [デスクトップ クライアントの診断データ](policy-control-diagnostic-data-desktop.md)
-### [Microsoft Teamsでのオプションの接続エクスペリエンスについての概要](teams-privacy-oce-overview.md)
+### [オプションの接続エクスペリエンス](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # 監視、保守、およびトラブルシューティング
@@ -882,8 +882,8 @@
 ### [Teams　の Powershell のインストール](teams-powershell-install.md)
 ### [ Powershell で Teams を管理する](teams-powershell-managing-teams.md)
 ### [Teams　の Powershell のリリースノート](teams-powershell-release-notes.md)
+### [Skype for Business Online Connector から Teams PowerShell モジュールに移動する](teams-powershell-move-from-sfbo.md)
 ### [Teams のコマンドレット リファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
 ## [Teams の開発者向けドキュメント](https://docs.microsoft.com/microsoftteams/platform)
 ## [チームのヘルプを表示する](get-help-in-microsoft-teams.md)
 ## [Teams のコンテンツ アップデート](teams-updates.md)
