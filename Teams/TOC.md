@@ -678,7 +678,6 @@
 ### [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Teams で組織の Shifts アプリを管理する](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## 医療関係向けのTeams
 ### [医療関係組織のためのTeamsを始めましょう](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [予約アプリと仮想訪問](bookings-app-admin.md)
@@ -720,6 +719,7 @@
 ## 現場担当者向けの Teams
 ### [現場担当者向けのクイックスタート](firstline-workers-quickstart.yml)
 ### [現場担当者のスクリプト化された展開](flw-scripted-deployment.md)
+### [FirstLine Worker のシフトベースのアクセスを管理する](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
 ### [ウォーキー トーキー](walkie-talkie.md)
 ### [SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する](teams-standalone-static-tabs-using-spo-sites.md)
