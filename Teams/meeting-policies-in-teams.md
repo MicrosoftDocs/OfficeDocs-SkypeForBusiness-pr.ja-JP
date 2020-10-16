@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理し、ユーザーによってスケジュールされた会議の参加者に対して利用できる機能を制御するために使用する方法について説明します。
-ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308430"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486822"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -161,9 +161,9 @@ ms.locfileid: "48308430"
 
 管理センターでは、次の操作を行います。
 
-[管理者] パネルの [ **Microsoft アプリ** ] セクションに、アクセス許可ポリシーが表示されます。
+チャネルカレンダーアプリは、[アプリのアクセス許可ポリシー] ページの [ **Microsoft アプリ** ] セクションに表示されます。
 
-![Teams の管理コンソールでの Microsoft アプリのポリシーを示すスクリーンショット。](media/manage-microsoft-apps-policy.png)
+![Teams 管理センターのアプリのアクセス許可ポリシーを示すスクリーンショット。](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>プライベート会議のスケジュールを許可する
 
@@ -227,6 +227,8 @@ Daniela が開催する会議は記録されず、ポリシー設定が有効に
 
 この設定は、1:1 の通話には適用されません。 1:1 通話を制限するには、チームの [通話ポリシー](teams-calling-policy.md) を構成し、[ **プライベート通話** にする] 設定をオフにします。 この設定は、Surface Hub や Microsoft Teams 室デバイスなどの会議室デバイスにも適用されません。
 
+この設定は、Microsoft 365 Government Community Cloud (GCC)、GCC 高、または国防総省 (DoD) 環境ではまだ利用できません。
+
 詳細については、「 [会議の参加者の音声とビデオを管理](#manage-audiovideo-for-meeting-participants)する」を参照してください。
 
 ### <a name="mode-for-ip-video"></a>IP ビデオのモード
@@ -240,10 +242,14 @@ Daniela が開催する会議は記録されず、ポリシー設定が有効に
 
 ユーザーに対して [ **無効** ] に設定した場合、ユーザーはビデオをオンにすることも、他の会議参加者が共有したビデオを表示することもできません。 (たとえば、匿名の参加者などの) ポリシーが割り当てられていない会議の参加者は、この設定を **[送信および受信ビデオ** を既定で有効にする] に設定します。
 
-この設定は、Surface Hub や Microsoft Teams room デバイスなどの会議室デバイスには適用されません。
+この設定は、Surface Hub や Microsoft Teams room デバイスなどの会議室デバイスには適用されません。 
+
+この設定は、Microsoft 365 Government Community Cloud (GCC)、GCC 高、または国防総省 (DoD) 環境ではまだ利用できません。
 
 > [!NOTE]
 > この設定では送信ビデオと着信ビデオの両方が制御されるため、[ **IP ビデオの許可** ] 設定では送信ビデオが制御されます。 詳細については、「 [どの IP ビデオポリシー設定が優先](#which-ip-video-policy-setting-takes-precedence) されますか」を参照してください。 [会議の参加者の音声/ビデオを管理](#manage-audiovideo-for-meeting-participants)します。
+
+詳細については、「 [会議の参加者の音声とビデオを管理](#manage-audiovideo-for-meeting-participants)する」を参照してください。
 
 ### <a name="allow-ip-video"></a>IP ビデオを許可する
 
@@ -258,7 +264,6 @@ Daniela が開催する会議は記録されず、ポリシー設定が有効に
 |:-------:|:-------:|
 |![デスクトップの音声/ビデオ設定での会議参加を示すスクリーンショット](media/meeting-policies-audio-video-settings.png)    |![モバイルで音声/ビデオ設定を使用して会議の参加を示すスクリーンショット](media/meeting-policies-mobile-join.png)          |
 
-
 次の例を見てみましょう。
 
 |ユーザー |会議ポリシー  |IP ビデオを許可する |
@@ -271,6 +276,8 @@ Daniela が開催する会議では、ビデオを有効にすることができ
 Amanda が主催する会議では、割り当てられたビデオ ポリシーに関係なく、誰もビデオを有効にできません。 これは、Daniela Amanda の会議でビデオを有効にできないことを意味します。  
 
 Daniela がビデオを有効にして Amanda に電話した場合、Amanda はオーディオのみで電話に出ることができます。  通話が接続されている場合、Amanda は Daniela のビデオを見ることはできますが、ビデオを有効にすることはできません。 Amanda が Daniela に電話すると、Daniela はビデオとオーディオで電話に出ることができます。 通話が接続されると、Daniela は必要に応じてビデオを有効または無効にできます。
+
+詳細については、「 [会議の参加者の音声とビデオを管理](#manage-audiovideo-for-meeting-participants)する」を参照してください。
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>どの IP ビデオポリシー設定が優先されますか?
 

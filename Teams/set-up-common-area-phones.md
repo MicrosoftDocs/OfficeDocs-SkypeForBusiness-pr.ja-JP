@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'ロビー、受付領域、会議室の一般的なエリア電話を設定する方法について説明します。 '
-ms.openlocfilehash: dfde8c601c0a52dc56a3d76903b788400a5b299a
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: f940ea7c14ad55c8cd3842e9830eb82da0d8867f
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294463"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476712"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 > [!NOTE]
@@ -67,7 +67,7 @@ ms.locfileid: "48294463"
 |Microsoft Teams |   &#x2714; |
 |電話システム |    &#x2714; |
 |電話会議 |       &#x2718; &sup1;  |
-|Microsoft Intune |    &#x2714; |
+|Microsoft Intune |    &#x2718; |
 |世界的な可用性 |       &#x2718; &sup2;  |
 |チャネルの可用性 |    EA、EAS、CSP、GCC、EES、Web ダイレクト  |
 |      |         |

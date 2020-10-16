@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で機密ラベルを定義して使用する方法について説明します。
-ms.openlocfilehash: 4f1bdc4715fd1375cff637604c93962e2f30c258
-ms.sourcegitcommit: d7f49f8c28cba32d3715ea1965c736e6ba574bda
+ms.openlocfilehash: 21d70bf48448ccef5555078e4aba65bb10d5d6a2
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45091270"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476722"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams の機密ラベル
 
@@ -40,7 +40,7 @@ ms.locfileid: "45091270"
 Teams の機密ラベルを有効にし、作成して発行する方法については、「 [Microsoft 365 グループの Azure Active Directory の分類と機密ラベル](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)」を参照してください。
 
 >[!IMPORTANT]
->機密ラベルの作成、更新、削除には、ユーザーにラベルを発行するための順序を慎重に付ける必要があります。 順序を逸脱すると、すべてのユーザーに対して永続的なチーム作成エラーが発生する可能性があります。 したがって、<a href="#createpublishlabels">ラベルの作成と発行</a>、発行された<a href="#modifydeletelabels">ラベルの変更と削除</a>、<a href="#manageerrors">チーム作成エラーの管理</a>を行う場合は、次の操作を実行することが重要です。
+>機密ラベルの作成、更新、削除には、ユーザーにラベルを発行するための順序を慎重に付ける必要があります。 順序を逸脱すると、すべてのユーザーに対して永続的なチーム作成エラーが発生する可能性があります。 したがって、 <a href="#createpublishlabels">ラベルの作成と発行</a>、発行された <a href="#modifydeletelabels">ラベルの変更と削除</a>、 <a href="#manageerrors">チーム作成エラーの管理</a>を行う場合は、次の操作を実行することが重要です。
 
 <a name="createpublishlabels"> </a> **ラベルを作成して発行する**
 
@@ -63,7 +63,7 @@ Teams の機密ラベルを有効にし、作成して発行する方法につ�
 
 パブリックプレビューの途中でチームの作成が失敗する場合は、次の2つのオプションがあります。
  - チームを作成するときに、すべてのユーザーが秘密度のラベルを必須にしないようにします。
- - 「[このプレビューを有効にする](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)」のスクリプトを使用して、機密ラベルをオフにします。
+ - 「 [このプレビューを有効にする](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)」のスクリプトを使用して、機密ラベルをオフにします。
 
 EnableMIPLabels の設定は、次のように false に設定する必要があることに注意してください。
 
@@ -79,11 +79,11 @@ $setting["EnableMIPLabels"] = "False"
 
 チームの作成時に適用される機密ラベルを作成して、ユーザーが特定のプライバシー (パブリックまたはプライベート) 設定を使用してチームを作成できるようにすることができます。
 
-たとえば、セキュリティ & コンプライアンスセンターで "社外秘" という名前のラベルを作成し、このラベルを使って作成されたチームがプライベートチームでなければならないようにチームを構成します。 ユーザーが新しいチームを作成して、**機密**ラベルを選択した場合、ユーザーが使用できるプライバシーオプションのみが**非公開**になります。 パブリックや組織全体など、その他のプライバシーオプションは、ユーザーに対して無効になります。
+たとえば、セキュリティ & コンプライアンスセンターで "社外秘" という名前のラベルを作成し、このラベルを使って作成されたチームがプライベートチームでなければならないようにチームを構成します。 ユーザーが新しいチームを作成して、 **機密** ラベルを選択した場合、ユーザーが使用できるプライバシーオプションのみが **非公開**になります。 パブリックや組織全体など、その他のプライバシーオプションは、ユーザーに対して無効になります。
 
 ![秘密度のラベルのスクリーンショット](media/sensitivity-labels-confidential-example.png)
 
-同様に、ユーザーが新しいチームを作成するときに **[一般**] を選択した場合、パブリックまたは組織全体のチームのみを作成できます。
+同様に、ユーザーが新しいチームを作成するときに **[一般** ] を選択した場合、パブリックまたは組織全体のチームのみを作成できます。
 
 ![一般的な秘密度ラベルのスクリーンショット](media/sensitivity-labels-general-example.png)
 
@@ -91,7 +91,7 @@ $setting["EnableMIPLabels"] = "False"
 
 ![チームチャネルの秘密度ラベルのスクリーンショット](media/sensitivity-labels-channel.png)
 
-チーム所有者は、チームに移動し、[**チームの編集**] をクリックして、いつでもチームの機密ラベルとプライバシー設定を変更することができます。
+チーム所有者は、チームに移動し、[ **チームの編集**] をクリックして、いつでもチームの機密ラベルとプライバシー設定を変更することができます。
 
 ![チームチャネルの秘密度ラベルのスクリーンショット](media/sensitivity-labels-edit-team.png)
 
@@ -101,13 +101,9 @@ $setting["EnableMIPLabels"] = "False"
 
 ### <a name="sensitivity-labels-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの機密ラベル
 
-Microsoft Teams 管理センターでチームを作成または編集するときに、機密ラベルを設定することができます。 機密ラベルは、チームのプロパティと、Microsoft Teams 管理センターの [チームの管理] ページの [**分類**] 列にも表示されます。
+Microsoft Teams 管理センターでチームを作成または編集するときに、機密ラベルを設定することができます。 機密ラベルは、チームのプロパティと、Microsoft Teams 管理センターの [チームの管理] ページの [ **分類** ] 列にも表示されます。
 
 ## <a name="known-issues"></a>既知の問題
-
-**チームの作成時に子の既定のラベルが表示されない**
-
-現時点では、Teams の既定のラベルとして設定された子ラベルは、チーム作成モデルの [感度ラベル] ドロップダウンリストの一番上には表示されません。 ただし、チームの作成者は、回避策として子ラベルを適用するためにドロップダウンを使用することができます。
 
 **Teams Graph Api、Powershell コマンドレット、テンプレートでの機密ラベルのサポート**
 

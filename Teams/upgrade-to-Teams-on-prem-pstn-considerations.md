@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8a6df112d0ea8359e3fe7db07bd644b0b90404f0
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486762"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>IT 管理者の Teams にアップグレードするときの PSTN の考慮事項 &mdash;
 
@@ -44,7 +44,8 @@ ms.locfileid: "47955890"
 
 
  > [!NOTE]
- > Teams での電話システムの使用は、ユーザーが TeamsOnly モードになっている場合にのみサポートされます。  ユーザーがアイランド モードの場合、電話システムは Skype for Business でのみサポートされます。 
+ > - Teams での電話システムの使用は、ユーザーが TeamsOnly モードになっている場合にのみサポートされます。  ユーザーがアイランド モードの場合、電話システムは Skype for Business でのみサポートされます。 
+ > - Skype for Business からの着信の転送と委任の設定は移行されず、Teams に再作成する必要があります。
 
 
 ## <a name="pstn-calling-scenarios"></a>PSTN 通話のシナリオ

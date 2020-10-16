@@ -17,17 +17,17 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d75664a6d3884529936f8adcb69a928bdd238b3d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 226bd98c741a84a2d7f26c1808a4c8d7e9a6bb53
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336959"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486782"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリを管理する
 ======================================================
 
-管理者として、Microsoft Teams 管理センターの [アプリの管理] ページでは、組織のすべての Teams アプリを表示して管理できます。 ここでは、アプリの組織レベルの状態とプロパティの表示、新しいカスタムアプリの承認やアップロードを組織のアプリストアに対して行うことができます。また、組織レベルでのアプリのブロックまたは許可、アプリからのアプリの追加、アプリに関するアクセス許可の表示、アプリに対する管理者の同意の付与、組織全体のアプリ設定の
+管理者として、Microsoft Teams 管理センターの [アプリの管理] ページでは、組織のすべての Teams アプリを表示して管理できます。 ここでは、アプリの組織レベルの状態とプロパティの表示、新しいカスタムアプリの承認やアップロードを組織のアプリストアに対して行うことができます。組織レベルでのアプリの追加、チームへのアプリの追加、アプリに対するアプリの追加、アプリへのアクセス許可の表示、組織全体のアプリ設定の管理を行うことができます
 
 [アプリの管理] ページでは、利用可能なすべてのアプリを表示して、組織全体で許可または禁止するアプリを決定するために必要な情報を提供します。 また、[アプリのアクセス許可ポリシー](teams-app-permission-policies.md)、[アプリのセットアップ ポリシー](teams-app-setup-policies.md)、[カスタム アプリ ポリシーと設定](teams-custom-app-policies-and-settings.md)を使って、組織内の特定のユーザーに対してアプリ エクスペリエンスの構成を行うことができます。
 
@@ -108,8 +108,6 @@ Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams 
  > アプリをアンインストールするには、アプリを右クリックし、[ **アンインストール** ] をクリックするか、左側にある [ **その他のアプリ** ] メニューを使用します。
 
 ## <a name="add-an-app-to-a-team"></a>アプリをチームに追加する
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 アプリをチームにインストールするには、[ **チームに追加** ] ボタンを使います。 これは、チームのスコープにインストールできるアプリのみを対象としています。 [ **チームに追加** ] ボタンは、パーソナルスコープでのみインストールできるアプリでは使用できません。
 

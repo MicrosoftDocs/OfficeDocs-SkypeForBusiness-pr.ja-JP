@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: 472436eb4dd9f27d6e170ed723c243c002115d9b
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416862"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476652"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -43,7 +43,7 @@ ms.locfileid: "48416862"
 |.NET のバージョン    |  NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    |
-|ビデオ通話と会議|<ul><li>2コアプロセッサが必要です。 ビデオ/画面共有の解像度とフレームレートを高くするには、4コアプロセッサ以上をお勧めします。</li> <li>サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams Room の類似性検出を使用して会議に参加するには、Bluetooth LE が必要です。これには、クライアントデバイスで Bluetooth を有効にする必要があります。また、Windows クライアントの場合は、64ビットの Teams クライアントも必要です。 この機能は、32ビット版の Teams クライアントでは使用できません。</li></ul> |
+|ビデオ通話と会議|<ul><li>2コアプロセッサが必要です。 ビデオ/画面共有の解像度とフレームレートを高くするには、4コアプロセッサ以上をお勧めします。</li> <li>背景のビデオ効果には、Windows 10 または AVX2 の命令を設定するプロセッサが必要です。</li> <li>サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams Room の類似性検出を使用して会議に参加するには、Bluetooth LE が必要です。これには、クライアントデバイスで Bluetooth を有効にする必要があります。また、Windows クライアントの場合は、64ビットの Teams クライアントも必要です。 この機能は、32ビット版の Teams クライアントでは使用できません。</li></ul> |
 |Teams のライブ イベント | Teams live のイベントを生成する場合は、コア i5 Kaby Lake processor、4.0 GB RAM (以上)、ハードウェアエンコーダーが搭載されたコンピューターを使うことをお勧めします。 サポートされて**いない**デコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac での Teams のハードウェア要件
