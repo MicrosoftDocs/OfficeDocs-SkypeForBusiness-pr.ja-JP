@@ -1,5 +1,6 @@
 ---
 title: ベストプラクティスアナライザーによって識別された問題の分析と解決
+description: ベストプラクティスアナライザーによって識別された問題の分析と解決。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3603240aeac91c841dec0a9df6a74e3589e5af7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: eed35acd9a56e278fb043cff48fc6d4eb759181e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531714"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561903"
 ---
 # <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でのベストプラクティスアナライザーによって識別された問題の分析と解決
 

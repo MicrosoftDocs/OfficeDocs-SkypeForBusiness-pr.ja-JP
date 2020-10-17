@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 通話診断レポート (ユーザーごと)'
+description: 'Lync Server 2013: 通話診断レポート (ユーザーごと)。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41f4dab3cef81cc29fc300d42fb0a46193a04b43
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f71b7e62122c8da094002b4b17bc790c1b944a42
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502724"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561743"
 ---
 # <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a>Lync Server 2013 の通話診断レポート (ユーザーごと)
 
