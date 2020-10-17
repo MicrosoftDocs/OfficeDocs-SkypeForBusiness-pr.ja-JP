@@ -12,20 +12,22 @@ ms:contentKeyID: 49733706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d11eb22315b68b9027ee23e02053036cb49ebabd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 56edb712dfc4ad51a1f95b09f4d6117cb6907280
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185400"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524874"
 ---
+# <a name="managing-user-pins-in-lync-server-2013"></a><span data-ttu-id="69999-102">Lync Server 2013 でのユーザー Pin の管理</span><span class="sxs-lookup"><span data-stu-id="69999-102">Managing user PINs in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-user-pins-in-lync-server-2013"></a><span data-ttu-id="cbc3d-102">Lync Server 2013 でのユーザー Pin の管理</span><span class="sxs-lookup"><span data-stu-id="cbc3d-102">Managing user PINs in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,28 +37,28 @@ ms.locfileid: "42185400"
 
 <span> </span>
 
-<span data-ttu-id="cbc3d-103">_**トピックの最終更新日:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="cbc3d-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="69999-103">_**トピックの最終更新日:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="69999-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="cbc3d-104">Lync Server 2013 コントロールパネルの [**ユーザー** ] セクションからユーザーのダイヤルイン会議の pin を管理するには、以下の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="cbc3d-104">Use the following procedures to manage users’ dial-in conferencing PINs from the **Users** section of Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="69999-104">Lync Server 2013 コントロールパネルの [ **ユーザー** ] セクションからユーザーのダイヤルイン会議の pin を管理するには、以下の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="69999-104">Use the following procedures to manage users’ dial-in conferencing PINs from the **Users** section of Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cbc3d-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="cbc3d-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="69999-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="69999-105">In This Section</span></span>
 
-  - [<span data-ttu-id="cbc3d-106">Lync Server 2013 でユーザーのダイヤルイン会議の PIN を設定する</span><span class="sxs-lookup"><span data-stu-id="cbc3d-106">Set a user's dial-in conferencing PIN in Lync Server 2013</span></span>](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
+  - [<span data-ttu-id="69999-106">Lync Server 2013 でユーザーのダイヤルイン会議の PIN を設定する</span><span class="sxs-lookup"><span data-stu-id="69999-106">Set a user's dial-in conferencing PIN in Lync Server 2013</span></span>](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
 
-  - [<span data-ttu-id="cbc3d-107">Lync Server 2013 でユーザー PIN 情報を表示する</span><span class="sxs-lookup"><span data-stu-id="cbc3d-107">View user PIN information in Lync Server 2013</span></span>](lync-server-2013-view-user-pin-information.md)
+  - [<span data-ttu-id="69999-107">Lync Server 2013 でユーザー PIN 情報を表示する</span><span class="sxs-lookup"><span data-stu-id="69999-107">View user PIN information in Lync Server 2013</span></span>](lync-server-2013-view-user-pin-information.md)
 
-  - [<span data-ttu-id="cbc3d-108">Lync Server 2013 でのユーザー PIN のロックまたはロック解除</span><span class="sxs-lookup"><span data-stu-id="cbc3d-108">Lock or unlock a user PIN in Lync Server 2013</span></span>](lync-server-2013-lock-or-unlock-a-user-pin.md)
+  - [<span data-ttu-id="69999-108">Lync Server 2013 でのユーザー PIN のロックまたはロック解除</span><span class="sxs-lookup"><span data-stu-id="69999-108">Lock or unlock a user PIN in Lync Server 2013</span></span>](lync-server-2013-lock-or-unlock-a-user-pin.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cbc3d-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="cbc3d-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="69999-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="69999-109">See Also</span></span>
 
 
-[<span data-ttu-id="cbc3d-110">Lync Server 2013 でユーザー単位の PIN ポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="cbc3d-110">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)  
+[<span data-ttu-id="69999-110">Lync Server 2013 でユーザー単位の PIN ポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="69999-110">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)  
   
 
 </div>
