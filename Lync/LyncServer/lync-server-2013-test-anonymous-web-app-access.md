@@ -12,20 +12,22 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98878c2e0d0e50c385448dceec5df5643e92aa53
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a3d90d3de8624f9965b04990ad996d9c04a954f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194680"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519314"
 ---
+# <a name="test-anonymous-web-app-access-in-lync-server-2013"></a><span data-ttu-id="1cfe2-102">Lync Server 2013 で匿名 Web アプリのアクセスをテストする</span><span class="sxs-lookup"><span data-stu-id="1cfe2-102">Test anonymous Web App access in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-anonymous-web-app-access-in-lync-server-2013"></a><span data-ttu-id="7568a-102">Lync Server 2013 で匿名 Web アプリのアクセスをテストする</span><span class="sxs-lookup"><span data-stu-id="7568a-102">Test anonymous Web App access in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42194680"
 
 <span> </span>
 
-<span data-ttu-id="7568a-103">_**トピックの最終更新日:** 2014-06-07_</span><span class="sxs-lookup"><span data-stu-id="7568a-103">_**Topic Last Modified:** 2014-06-07_</span></span>
+<span data-ttu-id="1cfe2-103">_**トピックの最終更新日:** 2014-06-07_</span><span class="sxs-lookup"><span data-stu-id="1cfe2-103">_**Topic Last Modified:** 2014-06-07_</span></span>
 
 
 <table>
@@ -45,17 +47,17 @@ ms.locfileid: "42194680"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7568a-104">検証スケジュール</span><span class="sxs-lookup"><span data-stu-id="7568a-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="7568a-105">毎月</span><span class="sxs-lookup"><span data-stu-id="7568a-105">Monthly</span></span></p></td>
+<td><p><span data-ttu-id="1cfe2-104">検証スケジュール</span><span class="sxs-lookup"><span data-stu-id="1cfe2-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="1cfe2-105">毎月</span><span class="sxs-lookup"><span data-stu-id="1cfe2-105">Monthly</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7568a-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="7568a-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="7568a-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="7568a-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="1cfe2-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="1cfe2-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="1cfe2-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="1cfe2-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7568a-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="7568a-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="7568a-109">Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="7568a-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="7568a-110">Windows PowerShell のリモートインスタンスを使用して実行する場合は、Test-cswebappanonymous コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7568a-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsWebAppAnonymous cmdlet.</span></span> <span data-ttu-id="7568a-111">このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="7568a-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="1cfe2-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="1cfe2-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="1cfe2-109">Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="1cfe2-110">Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsWebAppAnonymous コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsWebAppAnonymous cmdlet.</span></span> <span data-ttu-id="1cfe2-111">このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebAppAnonymous&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,83 +66,83 @@ ms.locfileid: "42194680"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="7568a-112">説明</span><span class="sxs-lookup"><span data-stu-id="7568a-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="1cfe2-112">説明</span><span class="sxs-lookup"><span data-stu-id="1cfe2-112">Description</span></span>
 
-<span data-ttu-id="7568a-113">Test-cswebappanonymous コマンドレットでは、匿名ユーザーが Lync Web App を使用して Lync Server 会議に参加できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7568a-113">The Test-CsWebAppAnonymous cmdlet verifies that an anonymous user can join Lync Server conferences by using the Lync Web App.</span></span> <span data-ttu-id="7568a-114">コマンドレットを実行すると、Test-cswebappanonymous は Web チケットサービスに接続して、匿名ユーザーの web チケットを取得します。</span><span class="sxs-lookup"><span data-stu-id="7568a-114">When you run the cmdlet, Test-CsWebAppAnonymous contacts the Web Ticket service to obtain a web ticket for the anonymous user.</span></span> <span data-ttu-id="7568a-115">コマンドレットがこのチケットの取得に成功すると、Test-cswebappanonymous は Lync Server に接続して、インスタントメッセージング、アプリケーション共有、およびデータコラボレーションのための個別の会議を確立しようとします。</span><span class="sxs-lookup"><span data-stu-id="7568a-115">If the cmdlet succeeds in obtaining this ticket, Test-CsWebAppAnonymous will then contact Lync Server and attempt to establish separate conferences for instant messaging, application sharing, and data collaboration.</span></span>
+<span data-ttu-id="1cfe2-113">Test-CsWebAppAnonymous コマンドレットは、匿名ユーザーが Lync Web App を使用して Lync Server 会議に参加できるかどうかを検証します。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-113">The Test-CsWebAppAnonymous cmdlet verifies that an anonymous user can join Lync Server conferences by using the Lync Web App.</span></span> <span data-ttu-id="1cfe2-114">コマンドレットを実行すると、Test-CsWebAppAnonymous は Web チケットサービスに接続して、匿名ユーザーの web チケットを取得します。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-114">When you run the cmdlet, Test-CsWebAppAnonymous contacts the Web Ticket service to obtain a web ticket for the anonymous user.</span></span> <span data-ttu-id="1cfe2-115">コマンドレットがこのチケットを取得しようとすると、Test-CsWebAppAnonymous は Lync Server に接続して、インスタントメッセージング、アプリケーション共有、およびデータコラボレーションのための個別の会議を確立しようとします。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-115">If the cmdlet succeeds in obtaining this ticket, Test-CsWebAppAnonymous will then contact Lync Server and attempt to establish separate conferences for instant messaging, application sharing, and data collaboration.</span></span>
 
-<span data-ttu-id="7568a-116">Test-cswebappanonymous は、これらの会議を作成するために使用された Api と接続のみを検証することに注意してください。</span><span class="sxs-lookup"><span data-stu-id="7568a-116">Note that Test-CsWebAppAnonymous only verifies the APIs and connections used to create these conferences.</span></span> <span data-ttu-id="7568a-117">コマンドレットは、実際には会議を作成して実施しません。</span><span class="sxs-lookup"><span data-stu-id="7568a-117">The cmdlet does not actually create and conduct any conferences.</span></span>
+<span data-ttu-id="1cfe2-116">Test-CsWebAppAnonymous は、これらの会議を作成するために使用された Api と接続のみを検証することに注意してください。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-116">Note that Test-CsWebAppAnonymous only verifies the APIs and connections used to create these conferences.</span></span> <span data-ttu-id="1cfe2-117">コマンドレットは、実際には会議を作成して実施しません。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-117">The cmdlet does not actually create and conduct any conferences.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="7568a-118">テストの実行</span><span class="sxs-lookup"><span data-stu-id="7568a-118">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="1cfe2-118">テストの実行</span><span class="sxs-lookup"><span data-stu-id="1cfe2-118">Running the test</span></span>
 
-<span data-ttu-id="7568a-119">Test-cswebappanonymous コマンドレットは、構成済みのテストアカウントのペア、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。</span><span class="sxs-lookup"><span data-stu-id="7568a-119">The Test-CsWebAppAnonymous cmdlet can be run using either a pair of preconfigured test accounts or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="7568a-120">このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名を指定するだけで済みます。</span><span class="sxs-lookup"><span data-stu-id="7568a-120">To run this check using test accounts, you just have to specify the fully qualified domain name of the Lync Server pool being tested.</span></span> <span data-ttu-id="7568a-121">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="7568a-121">For example:</span></span>
+<span data-ttu-id="1cfe2-119">Test-CsWebAppAnonymous コマンドレットは、構成済みのテストアカウントのペア、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-119">The Test-CsWebAppAnonymous cmdlet can be run using either a pair of preconfigured test accounts or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="1cfe2-120">このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名を指定するだけで済みます。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-120">To run this check using test accounts, you just have to specify the fully qualified domain name of the Lync Server pool being tested.</span></span> <span data-ttu-id="1cfe2-121">以下に例を示します。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-121">For example:</span></span>
 
     Test-CsWebAppAnonymous -TargetFqdn atl-cs-001.litwareinc.com
 
-<span data-ttu-id="7568a-122">実際のユーザーアカウントを使用してこのチェックを実行するには、Lync Server 管理シェルの資格情報オブジェクト (アカウント名とパスワードを含むオブジェクト) を、各アカウントに2つ作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7568a-122">To run this check using actual user accounts, you must create two Lync Server Management Shell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="7568a-123">次に、Test-cswebappanonymous を呼び出すときに、これらの資格情報オブジェクトと2つのアカウントの SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="7568a-123">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsWebAppAnonymous:</span></span>
+<span data-ttu-id="1cfe2-122">実際のユーザーアカウントを使用してこのチェックを実行するには、Lync Server 管理シェルの資格情報オブジェクト (アカウント名とパスワードを含むオブジェクト) を、各アカウントに2つ作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-122">To run this check using actual user accounts, you must create two Lync Server Management Shell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="1cfe2-123">次に、Test-cswebappanonymous を呼び出すときに、これらの資格情報オブジェクトと2つのアカウントの SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-123">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsWebAppAnonymous:</span></span>
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1
 
-<span data-ttu-id="7568a-124">詳細については、Test-cswebappanonymous コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7568a-124">For more information, see the help topic for the Test-CsWebAppAnonymous cmdlet.</span></span> <span data-ttu-id="7568a-125">Test-cswebappanonymous は、Lync Server 2013 で使用する場合は推奨されていないことに注意してください。</span><span class="sxs-lookup"><span data-stu-id="7568a-125">Note that Test-CsWebAppAnonymous is deprecated for use on Lync Server 2013.</span></span>
+<span data-ttu-id="1cfe2-124">詳細については、Test-CsWebAppAnonymous コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-124">For more information, see the help topic for the Test-CsWebAppAnonymous cmdlet.</span></span> <span data-ttu-id="1cfe2-125">Test-CsWebAppAnonymous は、Lync Server 2013 で使用する場合は推奨されていないことに注意してください。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-125">Note that Test-CsWebAppAnonymous is deprecated for use on Lync Server 2013.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="7568a-126">成功または失敗を判断する</span><span class="sxs-lookup"><span data-stu-id="7568a-126">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="1cfe2-126">成功または失敗を判断する</span><span class="sxs-lookup"><span data-stu-id="1cfe2-126">Determining success or failure</span></span>
 
-<span data-ttu-id="7568a-127">Test-cswebappanonymous が匿名ユーザーを自分の会議に参加できる場合、コマンドレットはテスト結果の成功を返します。</span><span class="sxs-lookup"><span data-stu-id="7568a-127">If Test-CsWebAppAnonymous can join the anonymous user to his or her conferences, the cmdlet will return the test result Success:</span></span>
+<span data-ttu-id="1cfe2-127">Test-CsWebAppAnonymous が匿名ユーザーを会議に参加させることができる場合、コマンドレットはテスト結果の成功を返します。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-127">If Test-CsWebAppAnonymous can join the anonymous user to his or her conferences, the cmdlet will return the test result Success:</span></span>
 
-<span data-ttu-id="7568a-128">ターゲット Fqdn:</span><span class="sxs-lookup"><span data-stu-id="7568a-128">Target Fqdn :</span></span>
+<span data-ttu-id="1cfe2-128">ターゲット Fqdn:</span><span class="sxs-lookup"><span data-stu-id="1cfe2-128">Target Fqdn :</span></span>
 
-<span data-ttu-id="7568a-129">結果: 成功</span><span class="sxs-lookup"><span data-stu-id="7568a-129">Result : Success</span></span>
+<span data-ttu-id="1cfe2-129">結果: 成功</span><span class="sxs-lookup"><span data-stu-id="1cfe2-129">Result : Success</span></span>
 
-<span data-ttu-id="7568a-130">待機時間: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="7568a-130">Latency : 00:00:00</span></span>
+<span data-ttu-id="1cfe2-130">待機時間: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="1cfe2-130">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="7568a-131">エラーメッセージ:</span><span class="sxs-lookup"><span data-stu-id="7568a-131">Error Message :</span></span>
+<span data-ttu-id="1cfe2-131">エラーメッセージ:</span><span class="sxs-lookup"><span data-stu-id="1cfe2-131">Error Message :</span></span>
 
-<span data-ttu-id="7568a-132">分析</span><span class="sxs-lookup"><span data-stu-id="7568a-132">Diagnosis :</span></span>
+<span data-ttu-id="1cfe2-132">分析</span><span class="sxs-lookup"><span data-stu-id="1cfe2-132">Diagnosis :</span></span>
 
-<span data-ttu-id="7568a-133">匿名ユーザーが必要な電話会議に参加できない場合は、テスト結果が [失敗] としてマークされます。</span><span class="sxs-lookup"><span data-stu-id="7568a-133">If the anonymous user can't join the necessary conferences then the test result will be marked as Failure.</span></span> <span data-ttu-id="7568a-134">通常、Test-cswebappanonymous は、詳細なエラーメッセージと診断にも報告します。</span><span class="sxs-lookup"><span data-stu-id="7568a-134">Typically Test-CsWebAppAnonymous will also report back a detailed error message and diagnosis:</span></span>
+<span data-ttu-id="1cfe2-133">匿名ユーザーが必要な電話会議に参加できない場合は、テスト結果が [失敗] としてマークされます。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-133">If the anonymous user can't join the necessary conferences then the test result will be marked as Failure.</span></span> <span data-ttu-id="1cfe2-134">通常 Test-CsWebAppAnonymous は、詳細なエラーメッセージと診断にも報告します。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-134">Typically Test-CsWebAppAnonymous will also report back a detailed error message and diagnosis:</span></span>
 
-<span data-ttu-id="7568a-135">ターゲット Fqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="7568a-135">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="1cfe2-135">ターゲット Fqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="1cfe2-135">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="7568a-136">結果: エラー</span><span class="sxs-lookup"><span data-stu-id="7568a-136">Result : Failure</span></span>
+<span data-ttu-id="1cfe2-136">結果: エラー</span><span class="sxs-lookup"><span data-stu-id="1cfe2-136">Result : Failure</span></span>
 
-<span data-ttu-id="7568a-137">待機時間:00:00: 05.9746266</span><span class="sxs-lookup"><span data-stu-id="7568a-137">Latency : 00:00:05.9746266</span></span>
+<span data-ttu-id="1cfe2-137">待機時間:00:00: 05.9746266</span><span class="sxs-lookup"><span data-stu-id="1cfe2-137">Latency : 00:00:05.9746266</span></span>
 
-<span data-ttu-id="7568a-138">エラーメッセージ: Web チケットサービスの応答が受信されていません</span><span class="sxs-lookup"><span data-stu-id="7568a-138">Error Message : No response received for Web-Ticket service</span></span>
+<span data-ttu-id="1cfe2-138">エラーメッセージ: Web-Ticket サービスの応答が受信されませんでした</span><span class="sxs-lookup"><span data-stu-id="1cfe2-138">Error Message : No response received for Web-Ticket service</span></span>
 
-<span data-ttu-id="7568a-139">診断: HTTP 要求はクライアントによって承認されていません</span><span class="sxs-lookup"><span data-stu-id="7568a-139">Diagnosis : The HTTP request is unauthorized with client</span></span>
+<span data-ttu-id="1cfe2-139">診断: HTTP 要求はクライアントによって承認されていません</span><span class="sxs-lookup"><span data-stu-id="1cfe2-139">Diagnosis : The HTTP request is unauthorized with client</span></span>
 
-<span data-ttu-id="7568a-140">認証スキーム ' Ntlm '。</span><span class="sxs-lookup"><span data-stu-id="7568a-140">authentication scheme 'Ntlm'.</span></span> <span data-ttu-id="7568a-141">認証</span><span class="sxs-lookup"><span data-stu-id="7568a-141">The authentication</span></span>
+<span data-ttu-id="1cfe2-140">認証スキーム ' Ntlm '。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-140">authentication scheme 'Ntlm'.</span></span> <span data-ttu-id="1cfe2-141">認証</span><span class="sxs-lookup"><span data-stu-id="1cfe2-141">The authentication</span></span>
 
-<span data-ttu-id="7568a-142">サーバーから送信されたヘッダーは ' Negotiate, NTLM ' でした。</span><span class="sxs-lookup"><span data-stu-id="7568a-142">header received from the server was 'Negotiate,NTLM'.</span></span>
+<span data-ttu-id="1cfe2-142">サーバーから送信されたヘッダーは ' Negotiate, NTLM ' でした。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-142">header received from the server was 'Negotiate,NTLM'.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="7568a-143">テストが失敗した理由</span><span class="sxs-lookup"><span data-stu-id="7568a-143">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="1cfe2-143">テストが失敗した理由</span><span class="sxs-lookup"><span data-stu-id="1cfe2-143">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="7568a-144">Test-cswebappanonymous の失敗は通常、ユーザー認証エラーを中心にしています。コマンドレットが Lync Server に接続する匿名ユーザーの機能をチェックしている場合でも、有効なユーザーアカウントを使用してテストを実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7568a-144">Test-CsWebAppAnonymous failures usually revolve around user authentication errors: you must run the test using a valid user account even though the cmdlet is checking the ability of an anonymous user to connect to Lync Server.</span></span> <span data-ttu-id="7568a-145">Test-cswebappanonymous が失敗した場合は、指定されたユーザーの Lync Server ユーザーアカウントが有効であることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7568a-145">If Test-CsWebAppAnonymous fails, you should verify that the specified user has valid a Lync Server user account.</span></span> <span data-ttu-id="7568a-146">Lync Server アカウント情報を取得するには、次のようなコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="7568a-146">You can retrieve Lync Server account information by using a command similar to this:</span></span>
+<span data-ttu-id="1cfe2-144">通常、Test-CsWebAppAnonymous エラーは、ユーザー認証エラーを中心にしています。コマンドレットが Lync Server に接続する匿名ユーザーの機能をチェックしている場合でも、有効なユーザーアカウントを使用してテストを実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-144">Test-CsWebAppAnonymous failures usually revolve around user authentication errors: you must run the test using a valid user account even though the cmdlet is checking the ability of an anonymous user to connect to Lync Server.</span></span> <span data-ttu-id="1cfe2-145">Test-CsWebAppAnonymous が失敗した場合は、指定されたユーザーの Lync Server ユーザーアカウントが有効であることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-145">If Test-CsWebAppAnonymous fails, you should verify that the specified user has valid a Lync Server user account.</span></span> <span data-ttu-id="1cfe2-146">Lync Server アカウント情報を取得するには、次のようなコマンドを使用します。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-146">You can retrieve Lync Server account information by using a command similar to this:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-<span data-ttu-id="7568a-147">Enabled プロパティが True と一致しない場合、またはコマンドが失敗した場合は、ユーザーが有効な Lync Server アカウントを持っていないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="7568a-147">If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.</span></span>
+<span data-ttu-id="1cfe2-147">Enabled プロパティが True と一致しない場合、またはコマンドが失敗した場合は、ユーザーが有効な Lync Server アカウントを持っていないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-147">If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.</span></span>
 
-<span data-ttu-id="7568a-148">また、コマンドレットを実行するときに指定したパスワードが有効なパスワードであることも確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7568a-148">You should also verify that the password that you supplied when you run the cmdlet is a valid password.</span></span>
+<span data-ttu-id="1cfe2-148">また、コマンドレットを実行するときに指定したパスワードが有効なパスワードであることも確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-148">You should also verify that the password that you supplied when you run the cmdlet is a valid password.</span></span>
 
-<span data-ttu-id="7568a-149">Office Web Apps サーバーの構成の問題によっても、Test-cswebappanonymous が失敗することがあります。これは、次のような診断を受け取った場合によく当てはまります。</span><span class="sxs-lookup"><span data-stu-id="7568a-149">Configuration problems with Office Web Apps Server can also cause Test-CsWebAppAnonymous to fail; that will often be the case if you receive the following diagnosis:</span></span>
+<span data-ttu-id="1cfe2-149">Office Web Apps サーバーの構成に関する問題も Test-CsWebAppAnonymous が失敗する可能性があります。これは、次のような診断を受け取った場合によく当てはまります。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-149">Configuration problems with Office Web Apps Server can also cause Test-CsWebAppAnonymous to fail; that will often be the case if you receive the following diagnosis:</span></span>
 
-<span data-ttu-id="7568a-150">HTTP 要求は、クライアント認証スキーム ' Ntlm ' では許可されていません。</span><span class="sxs-lookup"><span data-stu-id="7568a-150">The HTTP request is unauthorized with client authentication scheme 'Ntlm'.</span></span> <span data-ttu-id="7568a-151">サーバーから受信した認証ヘッダーは ' Negotiate, NTLM ' でした。</span><span class="sxs-lookup"><span data-stu-id="7568a-151">The authentication header received from the server was 'Negotiate,NTLM'.</span></span>
+<span data-ttu-id="1cfe2-150">HTTP 要求は、クライアント認証スキーム ' Ntlm ' では許可されていません。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-150">The HTTP request is unauthorized with client authentication scheme 'Ntlm'.</span></span> <span data-ttu-id="1cfe2-151">サーバーから受信した認証ヘッダーは ' Negotiate, NTLM ' でした。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-151">The authentication header received from the server was 'Negotiate,NTLM'.</span></span>
 
-<span data-ttu-id="7568a-152">Office Web Apps サーバーの問題の診断と解決の詳細については、「ブログ投稿の Office Web Apps サーバー2013」を参照してください。[コンピューターは常に異常として報告され](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy)ます。</span><span class="sxs-lookup"><span data-stu-id="7568a-152">For more information on diagnosing and resolving Office Web Apps Server problems see the blog post [Office Web Apps Server 2013 - machines are always reported as Unhealthy](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).</span></span>
+<span data-ttu-id="1cfe2-152">Office Web Apps サーバーの問題の診断と解決の詳細については、「ブログ投稿の Office Web Apps サーバー2013」を参照してください。 [コンピューターは常に異常として報告され](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy)ます。</span><span class="sxs-lookup"><span data-stu-id="1cfe2-152">For more information on diagnosing and resolving Office Web Apps Server problems see the blog post [Office Web Apps Server 2013 - machines are always reported as Unhealthy](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).</span></span>
 
 </div>
 

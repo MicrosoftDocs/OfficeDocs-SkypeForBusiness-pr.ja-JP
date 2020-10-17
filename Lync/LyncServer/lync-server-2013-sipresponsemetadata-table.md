@@ -12,20 +12,22 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0143bdd74b955f2cba5f68540be7c969f748aa47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2418851ed66500937dab92f2820c36a8d1afac3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181800"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519634"
 ---
+# <a name="sipresponsemetadata-table-in-lync-server-2013"></a><span data-ttu-id="64699-102">Lync Server 2013 の SIPResponseMetaData テーブル</span><span class="sxs-lookup"><span data-stu-id="64699-102">SIPResponseMetaData table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sipresponsemetadata-table-in-lync-server-2013"></a><span data-ttu-id="bc3c0-102">Lync Server 2013 の SIPResponseMetaData テーブル</span><span class="sxs-lookup"><span data-stu-id="bc3c0-102">SIPResponseMetaData table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42181800"
 
 <span> </span>
 
-<span data-ttu-id="bc3c0-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="bc3c0-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="64699-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="64699-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="bc3c0-p101">SIPResponseMetaDataTable には、SIP 応答コードと、各コードの分類と定義の一覧が含まれます。これらのコードは SIP デバイスおよび SIP 通信セッションに影響を与えるイベントへの応答して生成されます。たとえば、応答コード 403 は、SIP デバイスが要求を行い、サーバーがその要求の実行を拒否したときに生成されます。</span><span class="sxs-lookup"><span data-stu-id="bc3c0-p101">The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes. These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.</span></span>
+<span data-ttu-id="64699-p101">SIPResponseMetaDataTable には、SIP 応答コードと、各コードの分類と定義の一覧が含まれます。これらのコードは SIP デバイスおよび SIP 通信セッションに影響を与えるイベントへの応答して生成されます。たとえば、応答コード 403 は、SIP デバイスが要求を行い、サーバーがその要求の実行を拒否したときに生成されます。</span><span class="sxs-lookup"><span data-stu-id="64699-p101">The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes. These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.</span></span>
 
-<span data-ttu-id="bc3c0-106">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="bc3c0-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="64699-106">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="64699-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -51,39 +53,39 @@ ms.locfileid: "42181800"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bc3c0-107">列</span><span class="sxs-lookup"><span data-stu-id="bc3c0-107">Column</span></span></th>
-<th><span data-ttu-id="bc3c0-108">データ型</span><span class="sxs-lookup"><span data-stu-id="bc3c0-108">Data Type</span></span></th>
-<th><span data-ttu-id="bc3c0-109">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="bc3c0-109">Key/Index</span></span></th>
-<th><span data-ttu-id="bc3c0-110">詳細</span><span class="sxs-lookup"><span data-stu-id="bc3c0-110">Details</span></span></th>
+<th><span data-ttu-id="64699-107">Column</span><span class="sxs-lookup"><span data-stu-id="64699-107">Column</span></span></th>
+<th><span data-ttu-id="64699-108">データ型</span><span class="sxs-lookup"><span data-stu-id="64699-108">Data Type</span></span></th>
+<th><span data-ttu-id="64699-109">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="64699-109">Key/Index</span></span></th>
+<th><span data-ttu-id="64699-110">詳細</span><span class="sxs-lookup"><span data-stu-id="64699-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bc3c0-111"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="bc3c0-111"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc3c0-112">int</span><span class="sxs-lookup"><span data-stu-id="bc3c0-112">int</span></span></p></td>
-<td><p><span data-ttu-id="bc3c0-113">Primary</span><span class="sxs-lookup"><span data-stu-id="bc3c0-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="bc3c0-114">SIP 応答コードを表す数値。</span><span class="sxs-lookup"><span data-stu-id="bc3c0-114">Numeric value that represents the SIP response code.</span></span></p></td>
+<td><p><span data-ttu-id="64699-111"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="64699-111"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="64699-112">int</span><span class="sxs-lookup"><span data-stu-id="64699-112">int</span></span></p></td>
+<td><p><span data-ttu-id="64699-113">Primary</span><span class="sxs-lookup"><span data-stu-id="64699-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="64699-114">SIP 応答コードを表す数値。</span><span class="sxs-lookup"><span data-stu-id="64699-114">Numeric value that represents the SIP response code.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc3c0-115"><strong>クラス</strong></span><span class="sxs-lookup"><span data-stu-id="bc3c0-115"><strong>Class</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc3c0-116">int</span><span class="sxs-lookup"><span data-stu-id="bc3c0-116">int</span></span></p></td>
+<td><p><span data-ttu-id="64699-115"><strong>Class</strong></span><span class="sxs-lookup"><span data-stu-id="64699-115"><strong>Class</strong></span></span></p></td>
+<td><p><span data-ttu-id="64699-116">int</span><span class="sxs-lookup"><span data-stu-id="64699-116">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bc3c0-p102">応答コードの一般的な分類。以下の分類があります。</span><span class="sxs-lookup"><span data-stu-id="bc3c0-p102">General classification for the response code. Classifications include:</span></span></p>
+<td><p><span data-ttu-id="64699-p102">応答コードの一般的な分類。以下の分類があります。</span><span class="sxs-lookup"><span data-stu-id="64699-p102">General classification for the response code. Classifications include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="bc3c0-119">1 – 情報応答</span><span class="sxs-lookup"><span data-stu-id="bc3c0-119">1 – Informational Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc3c0-120">2 – 正常応答</span><span class="sxs-lookup"><span data-stu-id="bc3c0-120">2 – Successful Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc3c0-121">3 – リダイレクト応答</span><span class="sxs-lookup"><span data-stu-id="bc3c0-121">3 – Redirection Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc3c0-122">4 – クライアント エラー応答</span><span class="sxs-lookup"><span data-stu-id="bc3c0-122">4 – Client Failure Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc3c0-123">5--サーバーエラー応答</span><span class="sxs-lookup"><span data-stu-id="bc3c0-123">5 -- Server Failure Responses</span></span></p></li>
-<li><p><span data-ttu-id="bc3c0-124">6 – グローバル エラー応答</span><span class="sxs-lookup"><span data-stu-id="bc3c0-124">6 – Global Failure Response</span></span></p></li>
+<li><p><span data-ttu-id="64699-119">1 – 情報応答</span><span class="sxs-lookup"><span data-stu-id="64699-119">1 – Informational Responses</span></span></p></li>
+<li><p><span data-ttu-id="64699-120">2 – 正常応答</span><span class="sxs-lookup"><span data-stu-id="64699-120">2 – Successful Responses</span></span></p></li>
+<li><p><span data-ttu-id="64699-121">3 – リダイレクト応答</span><span class="sxs-lookup"><span data-stu-id="64699-121">3 – Redirection Responses</span></span></p></li>
+<li><p><span data-ttu-id="64699-122">4 – クライアント エラー応答</span><span class="sxs-lookup"><span data-stu-id="64699-122">4 – Client Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="64699-123">5--サーバーエラー応答</span><span class="sxs-lookup"><span data-stu-id="64699-123">5 -- Server Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="64699-124">6 – グローバル エラー応答</span><span class="sxs-lookup"><span data-stu-id="64699-124">6 – Global Failure Response</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc3c0-125"><strong>説明</strong></span><span class="sxs-lookup"><span data-stu-id="bc3c0-125"><strong>Description</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc3c0-126">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="bc3c0-126">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="64699-125"><strong>説明</strong></span><span class="sxs-lookup"><span data-stu-id="64699-125"><strong>Description</strong></span></span></p></td>
+<td><p><span data-ttu-id="64699-126">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="64699-126">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bc3c0-p103">SIP 応答コードの説明。たとえば、コード 181 には以下の説明があります。</span><span class="sxs-lookup"><span data-stu-id="bc3c0-p103">Description of the SIP response code. For example, response code 181 has the following description:</span></span></p>
-<p><span data-ttu-id="bc3c0-129">Call Is Being Forwarded (呼び出しを転送中)</span><span class="sxs-lookup"><span data-stu-id="bc3c0-129">Call Is Being Forwarded</span></span></p></td>
+<td><p><span data-ttu-id="64699-p103">SIP 応答コードの説明。たとえば、コード 181 には以下の説明があります。</span><span class="sxs-lookup"><span data-stu-id="64699-p103">Description of the SIP response code. For example, response code 181 has the following description:</span></span></p>
+<p><span data-ttu-id="64699-129">Call Is Being Forwarded (呼び出しを転送中)</span><span class="sxs-lookup"><span data-stu-id="64699-129">Call Is Being Forwarded</span></span></p></td>
 </tr>
 </tbody>
 </table>

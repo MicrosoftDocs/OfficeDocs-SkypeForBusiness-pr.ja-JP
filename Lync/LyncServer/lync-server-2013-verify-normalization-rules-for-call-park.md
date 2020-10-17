@@ -12,20 +12,22 @@ ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fcde0adac292b8773a81c759c72765f832ce745
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 627832870de3a8306912d07134bb92caeee3076e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211783"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518624"
 ---
+# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a><span data-ttu-id="c4b37-102">Lync Server 2013 でのコールパークの正規化ルールの確認</span><span class="sxs-lookup"><span data-stu-id="c4b37-102">Verify normalization rules for Call Park in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a><span data-ttu-id="ac869-102">Lync Server 2013 でのコールパークの正規化ルールの確認</span><span class="sxs-lookup"><span data-stu-id="ac869-102">Verify normalization rules for Call Park in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42211783"
 
 <span> </span>
 
-<span data-ttu-id="ac869-103">_**トピックの最終更新日:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="ac869-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+<span data-ttu-id="c4b37-103">_**トピックの最終更新日:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="c4b37-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-<span data-ttu-id="ac869-104">コールパークオービットを正規化することはできません。</span><span class="sxs-lookup"><span data-stu-id="ac869-104">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="ac869-105">オービット番号が正規化されていないことを確認するには、ダイヤルプランを確認してください。</span><span class="sxs-lookup"><span data-stu-id="ac869-105">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="ac869-106">オービットが正規化されないようにするために追加の正規化ルールを作成する必要がある場合は、「 [create a dial plan In Lync Server 2013](lync-server-2013-create-a-dial-plan.md) 」の手順に従って新しい正規化ルールを定義します。これにより、**一致するパターン**でオービット範囲と**変換パターン**が **$1**になります。</span><span class="sxs-lookup"><span data-stu-id="ac869-106">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="ac869-107">たとえば、コールパークオービット範囲が7000–7999の場合、**照合するパターン**は **^ (\\7 d{3}) $** 、**変換パターン**は **$1**になります。</span><span class="sxs-lookup"><span data-stu-id="ac869-107">For example, if your Call Park orbit range is 7000 – 7999, the **Pattern to match** is **^(7\\d{3})$** and **Translation pattern** is **$1**.</span></span>
+<span data-ttu-id="c4b37-104">コールパークオービットを正規化することはできません。</span><span class="sxs-lookup"><span data-stu-id="c4b37-104">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="c4b37-105">オービット番号が正規化されていないことを確認するには、ダイヤルプランを確認してください。</span><span class="sxs-lookup"><span data-stu-id="c4b37-105">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="c4b37-106">オービットが正規化されないようにするために追加の正規化ルールを作成する必要がある場合は、「 [create a dial plan In Lync Server 2013](lync-server-2013-create-a-dial-plan.md) 」の手順に従って新しい正規化ルールを定義します。これにより、 **一致するパターン** でオービット範囲と **変換パターン** が **$1**になります。</span><span class="sxs-lookup"><span data-stu-id="c4b37-106">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="c4b37-107">たとえば、コールパークオービット範囲が7000–7999の場合、 **照合するパターン** は **^ (7 \\ d {3} ) $** 、 **変換パターン** は **$1**になります。</span><span class="sxs-lookup"><span data-stu-id="c4b37-107">For example, if your Call Park orbit range is 7000 – 7999, the **Pattern to match** is **^(7\\d{3})$** and **Translation pattern** is **$1**.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="ac869-108">ダイヤルプランの既定の正規化ルールに<STRONG>^ (\d \*)</STRONG>が含まれていないことを確認してください。</span><span class="sxs-lookup"><span data-stu-id="ac869-108">Be sure that the default normalization rule in your dial plans does not contain <STRONG>^(\d\*)</STRONG>.</span></span> <span data-ttu-id="ac869-109">それ以外の場合、コールパーク正規化ルールは実行されません。</span><span class="sxs-lookup"><span data-stu-id="ac869-109">Otherwise, your Call Park normalization rule will never run.</span></span>
+> <span data-ttu-id="c4b37-108">ダイヤルプランの既定の正規化ルールに <STRONG>^ (\d \*)</STRONG>が含まれていないことを確認してください。</span><span class="sxs-lookup"><span data-stu-id="c4b37-108">Be sure that the default normalization rule in your dial plans does not contain <STRONG>^(\d\*)</STRONG>.</span></span> <span data-ttu-id="c4b37-109">それ以外の場合、コールパーク正規化ルールは実行されません。</span><span class="sxs-lookup"><span data-stu-id="c4b37-109">Otherwise, your Call Park normalization rule will never run.</span></span>
 
 
 
@@ -51,10 +53,10 @@ ms.locfileid: "42211783"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ac869-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="ac869-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c4b37-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="c4b37-110">See Also</span></span>
 
 
-[<span data-ttu-id="ac869-111">Lync Server 2013 でダイヤルプランを作成する</span><span class="sxs-lookup"><span data-stu-id="ac869-111">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
+[<span data-ttu-id="c4b37-111">Lync Server 2013 でダイヤルプランを作成する</span><span class="sxs-lookup"><span data-stu-id="c4b37-111">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
   
 
 </div>

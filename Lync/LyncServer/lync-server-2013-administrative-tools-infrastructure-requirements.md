@@ -12,20 +12,22 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fa081247a4d3932bfe7b83268a250324b17af4d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f35433b8becdf0574866f7c327abc2ac0a579e5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179914"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518014"
 ---
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a><span data-ttu-id="3a1d1-102">Lync Server 2013 の管理ツールのインフラストラクチャ要件</span><span class="sxs-lookup"><span data-stu-id="3a1d1-102">Administrative tools infrastructure requirements in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a><span data-ttu-id="cf9e7-102">Lync Server 2013 の管理ツールのインフラストラクチャ要件</span><span class="sxs-lookup"><span data-stu-id="cf9e7-102">Administrative tools infrastructure requirements in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,44 +37,44 @@ ms.locfileid: "42179914"
 
 <span> </span>
 
-<span data-ttu-id="cf9e7-103">_**トピックの最終更新日:** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="cf9e7-103">_**Topic Last Modified:** 2012-09-27_</span></span>
+<span data-ttu-id="3a1d1-103">_**トピックの最終更新日:** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="3a1d1-103">_**Topic Last Modified:** 2012-09-27_</span></span>
 
-<span data-ttu-id="cf9e7-104">Microsoft Lync Server 2013 管理ツールをインストールしたり、これらのツールを使用してほとんどの管理タスクを実行したりするための追加のインフラストラクチャ要件はありません。</span><span class="sxs-lookup"><span data-stu-id="cf9e7-104">There are no additional infrastructure requirements for you to install Microsoft Lync Server 2013 administrative tools or perform most management tasks using these tools.</span></span> <span data-ttu-id="cf9e7-105">特定のシナリオでのインフラストラクチャ要件については、このセクションのトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="cf9e7-105">For infrastructure requirements for specific scenarios, see the topics in this section.</span></span>
+<span data-ttu-id="3a1d1-104">Microsoft Lync Server 2013 管理ツールをインストールしたり、これらのツールを使用してほとんどの管理タスクを実行したりするための追加のインフラストラクチャ要件はありません。</span><span class="sxs-lookup"><span data-stu-id="3a1d1-104">There are no additional infrastructure requirements for you to install Microsoft Lync Server 2013 administrative tools or perform most management tasks using these tools.</span></span> <span data-ttu-id="3a1d1-105">特定のシナリオでのインフラストラクチャ要件については、このセクションのトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="3a1d1-105">For infrastructure requirements for specific scenarios, see the topics in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cf9e7-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="cf9e7-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3a1d1-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="3a1d1-106">In This Section</span></span>
 
-  - [<span data-ttu-id="cf9e7-107">Lync Server 2013 でトポロジを公開するための要件</span><span class="sxs-lookup"><span data-stu-id="cf9e7-107">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
+  - [<span data-ttu-id="3a1d1-107">Lync Server 2013 でトポロジを公開するための要件</span><span class="sxs-lookup"><span data-stu-id="3a1d1-107">Requirements to publish a topology in Lync Server 2013</span></span>](lync-server-2013-requirements-to-publish-a-topology.md)
 
-  - [<span data-ttu-id="cf9e7-108">Lync Server 2013 での簡単な Url の計画</span><span class="sxs-lookup"><span data-stu-id="cf9e7-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)
+  - [<span data-ttu-id="3a1d1-108">Lync Server 2013 での簡単な Url の計画</span><span class="sxs-lookup"><span data-stu-id="3a1d1-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)
 
-  - [<span data-ttu-id="cf9e7-109">Lync Server 2013 の簡易 Url の DNS 要件</span><span class="sxs-lookup"><span data-stu-id="cf9e7-109">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)
+  - [<span data-ttu-id="3a1d1-109">Lync Server 2013 の簡易 Url の DNS 要件</span><span class="sxs-lookup"><span data-stu-id="3a1d1-109">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-  - [<span data-ttu-id="cf9e7-110">Lync Server 2013 での簡易 Url の編集または構成</span><span class="sxs-lookup"><span data-stu-id="cf9e7-110">Edit or configure simple URLs in Lync Server 2013</span></span>](lync-server-2013-edit-or-configure-simple-urls.md)
+  - [<span data-ttu-id="3a1d1-110">Lync Server 2013 での簡易 Url の編集または構成</span><span class="sxs-lookup"><span data-stu-id="3a1d1-110">Edit or configure simple URLs in Lync Server 2013</span></span>](lync-server-2013-edit-or-configure-simple-urls.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="cf9e7-111">関連情報</span><span class="sxs-lookup"><span data-stu-id="cf9e7-111">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="3a1d1-111">関連情報</span><span class="sxs-lookup"><span data-stu-id="3a1d1-111">Related Sections</span></span>
 
-  - [<span data-ttu-id="cf9e7-112">Lync Server 2013 管理シェル</span><span class="sxs-lookup"><span data-stu-id="cf9e7-112">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)
+  - [<span data-ttu-id="3a1d1-112">Lync Server 2013 管理シェル</span><span class="sxs-lookup"><span data-stu-id="3a1d1-112">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cf9e7-113">関連項目</span><span class="sxs-lookup"><span data-stu-id="cf9e7-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a1d1-113">関連項目</span><span class="sxs-lookup"><span data-stu-id="3a1d1-113">See Also</span></span>
 
 
-[<span data-ttu-id="cf9e7-114">Lync Server 2013 管理ツールのインストール</span><span class="sxs-lookup"><span data-stu-id="cf9e7-114">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
+[<span data-ttu-id="3a1d1-114">Lync Server 2013 管理ツールのインストール</span><span class="sxs-lookup"><span data-stu-id="3a1d1-114">Install Lync Server 2013 administrative tools</span></span>](lync-server-2013-install-lync-server-administrative-tools.md)  
 
 
-[<span data-ttu-id="cf9e7-115">Lync Server 2013 の管理ツールソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="cf9e7-115">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)  
+[<span data-ttu-id="3a1d1-115">Lync Server 2013 の管理ツールソフトウェア要件</span><span class="sxs-lookup"><span data-stu-id="3a1d1-115">Administrative tools software requirements in Lync Server 2013</span></span>](lync-server-2013-administrative-tools-software-requirements.md)  
 
 
-[<span data-ttu-id="cf9e7-116">Lync Server 2013 のセットアップと管理に必要な管理者権限およびアクセス許可</span><span class="sxs-lookup"><span data-stu-id="cf9e7-116">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+[<span data-ttu-id="3a1d1-116">Lync Server 2013 のセットアップと管理に必要な管理者権限およびアクセス許可</span><span class="sxs-lookup"><span data-stu-id="3a1d1-116">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
   
 
 </div>

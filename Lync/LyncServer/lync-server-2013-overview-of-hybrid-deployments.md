@@ -12,20 +12,22 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d5b3b276d93fc0f09ad42be9448dc87eb1ba049
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 52a54a44b862cb067639e20ab59446e4b9cb24a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221541"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519864"
 ---
+# <a name="overview-of-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="de544-102">Lync Server 2013 ハイブリッド展開の概要</span><span class="sxs-lookup"><span data-stu-id="de544-102">Overview of Lync Server 2013 hybrid deployments</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="d25f3-102">Lync Server 2013 ハイブリッド展開の概要</span><span class="sxs-lookup"><span data-stu-id="d25f3-102">Overview of Lync Server 2013 hybrid deployments</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "44221541"
 
 <span> </span>
 
-<span data-ttu-id="d25f3-103">_**トピックの最終更新日:** 2016-05-25_</span><span class="sxs-lookup"><span data-stu-id="d25f3-103">_**Topic Last Modified:** 2016-05-25_</span></span>
+<span data-ttu-id="de544-103">_**トピックの最終更新日:** 2016-05-25_</span><span class="sxs-lookup"><span data-stu-id="de544-103">_**Topic Last Modified:** 2016-05-25_</span></span>
 
-<span data-ttu-id="d25f3-104">Lync Server ハイブリッド展開は、contoso.com などのドメインのユーザーが、オンプレミスの Lync Server と Microsoft Lync Online の間で分割されている展開です。</span><span class="sxs-lookup"><span data-stu-id="d25f3-104">A Lync Server hybrid deployment is a deployment where users of a domain, such as contoso.com, are split between using Lync Server on-premises and Microsoft Lync Online.</span></span> <span data-ttu-id="d25f3-105">一部のドメインユーザーはオンプレミスの Lync Server に所属しており、一部のユーザーは Skype for Business Online に所属しています。</span><span class="sxs-lookup"><span data-stu-id="d25f3-105">Some of the domain users are homed on the on-premises Lync Server, and some users are homed in Skype for Business Online.</span></span>
+<span data-ttu-id="de544-104">Lync Server ハイブリッド展開は、contoso.com などのドメインのユーザーが、オンプレミスの Lync Server と Microsoft Lync Online の間で分割されている展開です。</span><span class="sxs-lookup"><span data-stu-id="de544-104">A Lync Server hybrid deployment is a deployment where users of a domain, such as contoso.com, are split between using Lync Server on-premises and Microsoft Lync Online.</span></span> <span data-ttu-id="de544-105">一部のドメインユーザーはオンプレミスの Lync Server に所属しており、一部のユーザーは Skype for Business Online に所属しています。</span><span class="sxs-lookup"><span data-stu-id="de544-105">Some of the domain users are homed on the on-premises Lync Server, and some users are homed in Skype for Business Online.</span></span>
 
-<span data-ttu-id="d25f3-106">Skype for Business Online でハイブリッド用にオンプレミスの Lync 展開を構成し、Active Directory 同期を使用してオンプレミスのユーザーとオンラインユーザーの同期を維持することができます。</span><span class="sxs-lookup"><span data-stu-id="d25f3-106">You can configure your on-premises Lync deployment for hybrid with Skype for Business Online and use Active Directory Synchronization to keep your on-premises and online users synchronized.</span></span> <span data-ttu-id="d25f3-107">また、オンプレミスの Exchange および SharePoint との統合、または Microsoft 365 および Office 365 アプリケーション (Exchange Online や SharePoint Online など) との統合のためのハイブリッド展開を構成することもできます。</span><span class="sxs-lookup"><span data-stu-id="d25f3-107">You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft 365 and Office 365 applications, including Exchange Online and SharePoint Online.</span></span>
+<span data-ttu-id="de544-106">Skype for Business Online でハイブリッド用にオンプレミスの Lync 展開を構成し、Active Directory 同期を使用してオンプレミスのユーザーとオンラインユーザーの同期を維持することができます。</span><span class="sxs-lookup"><span data-stu-id="de544-106">You can configure your on-premises Lync deployment for hybrid with Skype for Business Online and use Active Directory Synchronization to keep your on-premises and online users synchronized.</span></span> <span data-ttu-id="de544-107">また、オンプレミスの Exchange および SharePoint との統合、または Microsoft 365 および Office 365 アプリケーション (Exchange Online や SharePoint Online など) との統合のためのハイブリッド展開を構成することもできます。</span><span class="sxs-lookup"><span data-stu-id="de544-107">You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft 365 and Office 365 applications, including Exchange Online and SharePoint Online.</span></span>
 
-<span data-ttu-id="d25f3-108">このセクションでは、Lync Server ハイブリッド展開に必要なアプリケーションの展開と、Lync Server オンプレミスと Skype for Business Online との間でユーザーを管理するように展開を構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="d25f3-108">This section guides you through deploying the applications required for a Lync Server hybrid deployment, and then configuring your deployment to manage users between Lync Server on-premises and Skype for Business Online.</span></span>
+<span data-ttu-id="de544-108">このセクションでは、Lync Server ハイブリッド展開に必要なアプリケーションの展開と、Lync Server オンプレミスと Skype for Business Online との間でユーザーを管理するように展開を構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="de544-108">This section guides you through deploying the applications required for a Lync Server hybrid deployment, and then configuring your deployment to manage users between Lync Server on-premises and Skype for Business Online.</span></span>
 
-<span data-ttu-id="d25f3-109">Skype for Business Online を使用したハイブリッド用にオンプレミスの Lync Server 展開を構成する方法については、以下のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="d25f3-109">For information about configuring your on-premises Lync Server deployment for hybrid with Skype for Business Online see the following topics:</span></span>
+<span data-ttu-id="de544-109">Skype for Business Online を使用したハイブリッド用にオンプレミスの Lync Server 展開を構成する方法については、以下のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="de544-109">For information about configuring your on-premises Lync Server deployment for hybrid with Skype for Business Online see the following topics:</span></span>
 
-  - [<span data-ttu-id="d25f3-110">Lync Server 2013 ハイブリッド展開の計画</span><span class="sxs-lookup"><span data-stu-id="d25f3-110">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
+  - [<span data-ttu-id="de544-110">Lync Server 2013 ハイブリッド展開の計画</span><span class="sxs-lookup"><span data-stu-id="de544-110">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
 
-  - [<span data-ttu-id="d25f3-111">Lync Server 2013 ハイブリッド展開の構成</span><span class="sxs-lookup"><span data-stu-id="d25f3-111">Configuring Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-configuring-hybrid-deployments.md)
+  - [<span data-ttu-id="de544-111">Lync Server 2013 ハイブリッド展開の構成</span><span class="sxs-lookup"><span data-stu-id="de544-111">Configuring Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-configuring-hybrid-deployments.md)
 
-<span data-ttu-id="d25f3-112">Skype for Business Online の詳細については、「 [Lync online](https://go.microsoft.com/fwlink/p/?linkid=282396)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d25f3-112">For more information about Skype for Business Online, see [Lync Online](https://go.microsoft.com/fwlink/p/?linkid=282396).</span></span>
+<span data-ttu-id="de544-112">Skype for Business Online の詳細については、「 [Lync online](https://go.microsoft.com/fwlink/p/?linkid=282396)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="de544-112">For more information about Skype for Business Online, see [Lync Online](https://go.microsoft.com/fwlink/p/?linkid=282396).</span></span>
 
 </div>
 
