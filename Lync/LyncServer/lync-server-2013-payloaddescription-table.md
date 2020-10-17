@@ -12,20 +12,22 @@ ms:contentKeyID: 48185353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5be1cf7f086e6466176071f6ec061fe225a0250d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b0dfab1a848e711a5010400f323d9caef189266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215773"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515984"
 ---
+# <a name="payloaddescription-table-in-lync-server-2013"></a><span data-ttu-id="c058f-102">Lync Server 2013 の PayloadDescription テーブル</span><span class="sxs-lookup"><span data-stu-id="c058f-102">PayloadDescription table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="payloaddescription-table-in-lync-server-2013"></a><span data-ttu-id="b4868-102">Lync Server 2013 の PayloadDescription テーブル</span><span class="sxs-lookup"><span data-stu-id="b4868-102">PayloadDescription table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42215773"
 
 <span> </span>
 
-<span data-ttu-id="b4868-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="b4868-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="c058f-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="c058f-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="b4868-p101">PayloadDescription テーブルは、サポート テーブルです。各レコードが、音声セッションまたはビデオ セッションで使用される 1 つのコーデックを表します。</span><span class="sxs-lookup"><span data-stu-id="b4868-p101">The PayloadDescription table is a supporting table. Each record represents one Codec, which is used in an audio or video session.</span></span>
+<span data-ttu-id="c058f-p101">PayloadDescription テーブルは、サポート テーブルです。各レコードが、音声セッションまたはビデオ セッションで使用される 1 つのコーデックを表します。</span><span class="sxs-lookup"><span data-stu-id="c058f-p101">The PayloadDescription table is a supporting table. Each record represents one Codec, which is used in an audio or video session.</span></span>
 
 
 <table>
@@ -49,24 +51,24 @@ ms.locfileid: "42215773"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b4868-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="b4868-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="b4868-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="b4868-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="b4868-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="b4868-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="b4868-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="b4868-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="c058f-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="c058f-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="c058f-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="c058f-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="c058f-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="c058f-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="c058f-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="c058f-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b4868-110"><strong>PayloadDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="b4868-110"><strong>PayloadDescriptionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="b4868-111">int</span><span class="sxs-lookup"><span data-stu-id="b4868-111">int</span></span></p></td>
-<td><p><span data-ttu-id="b4868-112">Primary</span><span class="sxs-lookup"><span data-stu-id="b4868-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="b4868-113">コーデックを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="b4868-113">Unique number identifying the Codec.</span></span></p></td>
+<td><p><span data-ttu-id="c058f-110"><strong>PayloadDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="c058f-110"><strong>PayloadDescriptionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="c058f-111">int</span><span class="sxs-lookup"><span data-stu-id="c058f-111">int</span></span></p></td>
+<td><p><span data-ttu-id="c058f-112">Primary</span><span class="sxs-lookup"><span data-stu-id="c058f-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="c058f-113">コーデックを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="c058f-113">Unique number identifying the Codec.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b4868-114"><strong>PayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="b4868-114"><strong>PayloadDescription</strong></span></span></p></td>
-<td><p><span data-ttu-id="b4868-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="b4868-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="b4868-116">一意</span><span class="sxs-lookup"><span data-stu-id="b4868-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="b4868-117">コーデック名。</span><span class="sxs-lookup"><span data-stu-id="b4868-117">Codec name.</span></span></p></td>
+<td><p><span data-ttu-id="c058f-114"><strong>PayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="c058f-114"><strong>PayloadDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="c058f-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="c058f-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="c058f-116">一意</span><span class="sxs-lookup"><span data-stu-id="c058f-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="c058f-117">コーデック名。</span><span class="sxs-lookup"><span data-stu-id="c058f-117">Codec name.</span></span></p></td>
 </tr>
 </tbody>
 </table>
