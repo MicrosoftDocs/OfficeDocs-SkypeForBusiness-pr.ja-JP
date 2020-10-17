@@ -12,20 +12,22 @@ ms:contentKeyID: 51541528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff6e72d13ddfb80369a0a522abc14a1de459536
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 249993e68930db1eb5dd5159633a73f80cef8c05
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202993"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520054"
 ---
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Lync Server 2013 での自動検出用の DNS の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Lync Server 2013 での自動検出用の DNS の構成
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync クライアントの自動検出をサポートするには、次のドメ
 
 内部 DNS レコードと外部 DNS レコードは SIP ドメインごとに作成する必要があります。
 
-追加のサブジェクト代替名 (SAN) を使用して新しい証明書を作成する機能に基づいて、DNS レコードを (ホスト) レコードまたは CNAME レコードのいずれかにすることができます。 Lyncdiscover を使用して新しい外部 (パブリック) 証明書を要求および展開できない場合。\<ドメイン名\> SAN で、HTTP/TCP ポート80を使用するための手順を使用します。 次の手順では、内部および外部 DNS レコードを作成する方法を説明します。
+追加のサブジェクト代替名 (SAN) を使用して新しい証明書を作成する機能に基づいて、DNS レコードを (ホスト) レコードまたは CNAME レコードのいずれかにすることができます。 Lyncdiscover を使用して新しい外部 (パブリック) 証明書を要求および展開できない場合。\<domain name\> SAN では、HTTP/TCP ポート80を使用するための手順を使用します。 次の手順では、内部および外部 DNS レコードを作成する方法を説明します。
 
 <div>
 
@@ -67,7 +69,7 @@ Lync クライアントの自動検出をサポートするには、次のドメ
         
 
         > [!NOTE]  
-        > このドメインは、Lync Server 2013&nbsp;ディレクタープールおよびフロントエンドプールがインストールされている Active Directory ドメインです。
+        > このドメインは、Lync Server 2013 &nbsp; ディレクタープールおよびフロントエンドプールがインストールされている Active Directory ドメインです。
 
         
         </div>
@@ -151,7 +153,7 @@ Lync クライアントの自動検出をサポートするには、次のドメ
         
 
         > [!NOTE]  
-        > このドメインは、Lync Server 2013&nbsp;ディレクタープールおよびフロントエンドプールがインストールされている Active Directory ドメインです。
+        > このドメインは、Lync Server 2013 &nbsp; ディレクタープールおよびフロントエンドプールがインストールされている Active Directory ドメインです。
 
         
         </div>

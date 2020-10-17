@@ -12,20 +12,22 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417b304825da6a611ccfdaf3521b2d9571cd4756
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9663f7ee8b57ceba27e1a1892c30bb92a1c86ffc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216283"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521004"
 ---
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Lync Server 2013 の IP アドレスの種類の概要
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Lync Server 2013 の IP アドレスの種類の概要
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42216283"
 
 _**トピックの最終更新日:** 2013-01-29_
 
-Lync Server 2013 で IP アドレスを構成する場合、3つのオプションがあります。 Lync Server 2013 は、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ (*デュアルスタック*とも呼ばれます) をサポートするように構成できます。 各構成には、いくつか考慮すべき問題があります。
+Lync Server 2013 で IP アドレスを構成する場合、3つのオプションがあります。 Lync Server 2013 は、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ ( *デュアルスタック*とも呼ばれます) をサポートするように構成できます。 各構成には、いくつか考慮すべき問題があります。
 
-  - **Ipv4 のみ**   IPv6 が作成されています。世界では ipv4 アドレスが不足しています。 最終的には、IPv6 は完全にサポートされていますが、現時点では、企業が通信する必要がある多くの企業やデバイスが IPv6 をサポートしていない場合があります。 IPv4 のみの構成は、Lync Server の実装が、ほとんどの既存のデバイスと通信できるようにするのに役立ちます。
+  - **IPv4 のみ**    世界で IPv4 アドレスが不足しているため、IPv6 が作成されました。 最終的には、IPv6 は完全にサポートされていますが、現時点では、企業が通信する必要がある多くの企業やデバイスが IPv6 をサポートしていない場合があります。 IPv4 のみの構成は、Lync Server の実装が、ほとんどの既存のデバイスと通信できるようにするのに役立ちます。
 
-  - **Ipv6 のみ**   反対に、現時点で完全な ipv6 実装では、多くの既存デバイスとの通信が除外されます。
+  - **IPv6 のみ**    反対に、完全な IPv6 実装では、この時点で、多くの既存のデバイスとの通信が除外されます。
 
-  - **デュアルスタック**   デュアルスタックは、IPv4 と IPv6 の両方のアドレスが有効になっているネットワークです。 この構成は、Lync Server 2013 でサポートされています。ほとんどの場合、フル-IPv4 からフル-IPv6 への移行は数年かかります。
+  - **デュアルスタック**    デュアルスタックは、IPv4 と IPv6 の両方のアドレスが有効になっているネットワークです。 この構成は、Lync Server 2013 でサポートされています。ほとんどの場合、フル-IPv4 からフル-IPv6 への移行は数年かかります。
 
 次のセクションでは、Lync Server のさまざまな機能について、これらの3つの構成の互換性について概説します。
 
@@ -246,7 +248,7 @@ Lync Server 2013 は、トラフィックが IPv6 インターフェイスを経
 </table>
 
 
-\*プライマリインターフェイスは、Lync Server コンポーネントと通信するインターフェイスです。
+\* プライマリインターフェイスは、Lync Server コンポーネントと通信するインターフェイスです。
 
 </div>
 
@@ -320,13 +322,13 @@ Lync Server 2013 は、トラフィックが IPv6 インターフェイスを経
 <tr class="even">
 <td><p><strong>フロントエンド プール: IPv4</strong></p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>フロントエンド プール: デュアル スタック</strong></p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
@@ -339,7 +341,7 @@ Lync Server 2013 は、トラフィックが IPv6 インターフェイスを経
 </table>
 
 
-\*この組み合わせは、ラボ環境でのみ使用します。
+\* この組み合わせは、ラボ環境でのみ使用します。
 
 次のテーブルは、内部エッジ インターフェイスと外部エッジ インターフェイスの組み合わせのサポート マトリックスです。
 
@@ -362,7 +364,7 @@ Lync Server 2013 は、トラフィックが IPv6 インターフェイスを経
 <tr class="even">
 <td><p><strong>エッジ プール (内部エッジ): IPv4</strong></p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="odd">
@@ -381,7 +383,7 @@ Lync Server 2013 は、トラフィックが IPv6 インターフェイスを経
 </table>
 
 
-\*この組み合わせは、ラボ環境でのみ使用します。
+\* この組み合わせは、ラボ環境でのみ使用します。
 
 </div>
 

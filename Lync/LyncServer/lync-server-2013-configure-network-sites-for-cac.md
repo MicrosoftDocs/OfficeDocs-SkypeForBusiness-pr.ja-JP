@@ -12,20 +12,22 @@ ms:contentKeyID: 48185144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2c956eb4f50a0a5e7ce1bafe955b5cea092cd2c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e24932b23b1a9168ed64279f98db125f06ad0e2e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205273"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520524"
 ---
+# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a>Lync Server 2013 で CAC のネットワークサイトを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a>Lync Server 2013 で CAC のネットワークサイトを構成する
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2012-09-05_
 
 CAC の展開の例では、北アメリカ地域に 6 つのサイトがあります。 そのうち Reno、Portland、および Albuquerque の 3 つのサイトは、WAN の帯域幅の制約があります。 その他次の 3 つのサイトでは、WAN の帯域幅の制約が*ありません*: ニューヨーク、シカゴ、およびデトロイト。 その他のネットワークサイトを作成または変更する方法の例については、「 [Lync Server 2013 でネットワークサイトを作成または変更](lync-server-2013-create-or-modify-a-network-site.md)する」を参照してください。
 
-ネットワークトポロジの例を表示するには、「計画」のドキュメントの「[例: Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
+ネットワークトポロジの例を表示するには、「計画」のドキュメントの「 [例: Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) 」を参照してください。
 
 <div class=" ">
 

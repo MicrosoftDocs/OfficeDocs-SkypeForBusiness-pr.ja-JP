@@ -12,20 +12,22 @@ ms:contentKeyID: 48185481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46cca998a35a7519675cd787f5887f2a65d491c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37799ed65cca468ea7bac18956ed08783c9b6a1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190500"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520134"
 ---
+# <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>Lync Server 2013 用に web ファーム Fqdn を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>Lync Server 2013 用に web ファーム Fqdn を構成する
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2013-03-29_
 
 1.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-2.  トポロジビルダーで、[ **Standard Edition フロントエンド**]、[ **Enterprise Edition フロントエンド**]、および [**ディレクター**] の下にあるコンソールツリーで、編集する必要があるプール名を右クリックし、[**プロパティの編集**] をクリックします。
+2.  トポロジビルダーで、[ **Standard Edition フロントエンド**]、[ **Enterprise Edition フロントエンド**]、および [ **ディレクター**] の下にあるコンソールツリーで、編集する必要があるプール名を右クリックし、[ **プロパティの編集**] をクリックします。
 
 3.  [**Web サービス**] セクションで、[**外部 Web サービスの FQDN**] を追加または編集します。
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2013-03-29_
 
 5.  追加および更新が終了したら、[**OK**] をクリックして続行します。
 
-6.  [ **Lync Server 2013**] を右クリックし、[**発行**] をクリックします。
+6.  [ **Lync Server 2013**] を右クリックし、[ **発行**] をクリックします。
     
     <div>
     

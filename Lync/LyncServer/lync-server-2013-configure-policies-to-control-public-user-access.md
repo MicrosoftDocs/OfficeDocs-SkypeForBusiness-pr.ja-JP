@@ -12,20 +12,22 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54c92e1da5ea1ea54ae8386cdcdce5054d76609e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a967f186d924a199b007ceba8390bf968253ec72
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213263"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520414"
 ---
+# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Lync Server 2013 でのパブリックユーザーアクセスを制御するポリシーの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Lync Server 2013 でのパブリックユーザーアクセスを制御するポリシーの構成
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213263"
 
 _**トピックの最終更新日:** 2013-10-07_
 
-パブリックインスタントメッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、インターネットサービス、Yahoo\!、AOL の Windows Live ネットワークを含む、パブリック im サービスプロバイダーが提供する im サービスのユーザーと通信することができます。 1つ以上の外部ユーザーアクセスポリシーを構成して、パブリックユーザーが内部の Lync Server ユーザーと共同作業できるかどうかを制御します。 パブリック インスタント メッセージング接続は、展開およびユーザーの構成に依存する追加機能です。 この機能は、パブリック IM プロバイダーでのサービスのプロビジョニングにも依存します。 公開プロバイダーを使用するように展開を準備する方法については、「Microsoft Lync Server、Office Communications Server、Live Communications Server のパブリック IM 接続プロビジョニングガイド:」を参照してください。[https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
+パブリックインスタントメッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、インターネットサービス、Yahoo、AOL の Windows Live ネットワークを含む、パブリック IM サービスプロバイダーが提供する IM サービスのユーザーと通信することができ \! ます。 1つ以上の外部ユーザーアクセスポリシーを構成して、パブリックユーザーが内部の Lync Server ユーザーと共同作業できるかどうかを制御します。 パブリック インスタント メッセージング接続は、展開およびユーザーの構成に依存する追加機能です。 この機能は、パブリック IM プロバイダーでのサービスのプロビジョニングにも依存します。 公開プロバイダーを使用するように展開を準備する方法については、「Microsoft Lync Server、Office Communications Server、Live Communications Server のパブリック IM 接続プロビジョニングガイド:」を参照してください。 [https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
 
 <div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2013-10-07_
 
 </div>
 
-Microsoft Lync Server パブリック IM 接続プロビジョニングサイトにアクセスするには、次のリンクを使用します。[https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
+Microsoft Lync Server パブリック IM 接続プロビジョニングサイトにアクセスするには、次のリンクを使用します。 [https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
 
 パブリック ユーザー アクセスを制御するには、グローバル レベル、サイト レベル、およびユーザー レベルでポリシーを構成できます。 構成できるポリシーの種類の詳細については、「展開」のドキュメントまたは「計画」のドキュメントの「configure [support for external user access In Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) 」を参照してください。 あるポリシー レベルで適用されている Lync Server ポリシー設定が、他のポリシー レベルで適用されている設定によって無効になることがあります。 Lync Server ポリシーの優先順位は、ユーザー ポリシーが最も高く、サイト ポリシー、グローバル ポリシー (優先度が最も低い) と続きます。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
 
@@ -65,7 +67,7 @@ IM の招待の場合は、クライアント ソフトウェアによって応�
 
 
 > [!NOTE]  
-> 組織でフェデレーションを有効にしていなくても、パブリック ユーザー アクセスを制御するポリシーを構成できます。 ただし構成するポリシーは、組織でフェデレーションを有効にした場合にのみ有効となります。 フェデレーションを有効にする方法の詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Lync Server 2013 でリモートユーザーアクセスを有効または無効</A>にする」を参照してください。 また、パブリックユーザーアクセスを制御するユーザーポリシーを指定した場合、このポリシーは、Lync Server が有効になっていて、そのポリシーを使用するように構成されているユーザーにのみ適用されます。 Lync Server にサインインできるパブリックユーザーの指定の詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「lync <A href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">server 2013 で lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て</A>」を参照してください。
+> 組織でフェデレーションを有効にしていなくても、パブリック ユーザー アクセスを制御するポリシーを構成できます。 ただし構成するポリシーは、組織でフェデレーションを有効にした場合にのみ有効となります。 フェデレーションを有効にする方法の詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Lync Server 2013 でリモートユーザーアクセスを有効または無効</A> にする」を参照してください。 また、パブリックユーザーアクセスを制御するユーザーポリシーを指定した場合、このポリシーは、Lync Server が有効になっていて、そのポリシーを使用するように構成されているユーザーにのみ適用されます。 Lync Server にサインインできるパブリックユーザーの指定の詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「lync <A href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">server 2013 で lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て</A> 」を参照してください。
 
 
 

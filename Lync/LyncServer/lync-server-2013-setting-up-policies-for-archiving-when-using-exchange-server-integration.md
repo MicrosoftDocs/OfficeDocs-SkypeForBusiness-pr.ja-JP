@@ -12,20 +12,22 @@ ms:contentKeyID: 48184742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44716284313f9b23bb0bceb8485637ed67bda5fc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a63392507579a64aede11adb2bf327d0d6d56aa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182010"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521864"
 ---
+# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a>Exchange Server 統合を使用する場合の Lync Server 2013 でのアーカイブポリシーの設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a>Exchange Server 統合を使用する場合の Lync Server 2013 でのアーカイブポリシーの設定
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42182010"
 
 _**トピックの最終更新日:** 2012-10-09_
 
-Exchange 2013 に所属するユーザーがメールボックスをインプレース保持に配置している場合、Exchange のインプレース保持ポリシーによって、それらのユーザーのアーカイブが制御されます。 展開に Microsoft Exchange 統合を使用している場合、exchange 2013 に所属しているユーザーの Lync Server アーカイブポリシーは Exchange 2013 のポリシーによって上書きされます。 Exchange アーカイブポリシーの構成の詳細については、Exchange 2013 のドキュメントを参照してください。 Lync Server 2013 に所属するユーザーのユーザーポリシーの設定の詳細については、「展開」のドキュメントの「 [setting up user policies In Lync server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) 」を参照してください。 ポリシーのしくみの詳細については、「計画」のドキュメント、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md)」を参照してください。
+Exchange 2013 に所属するユーザーがメールボックスを In-Place ホールドに設定している場合、Exchange In-Place ホールドポリシーによってそれらのユーザーのアーカイブが制御されます。 展開に Microsoft Exchange 統合を使用している場合、exchange 2013 に所属しているユーザーの Lync Server アーカイブポリシーは Exchange 2013 のポリシーによって上書きされます。 Exchange アーカイブポリシーの構成の詳細については、Exchange 2013 のドキュメントを参照してください。 Lync Server 2013 に所属するユーザーのユーザーポリシーの設定の詳細については、「展開」のドキュメントの「 [setting up user policies In Lync server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) 」を参照してください。 ポリシーのしくみの詳細については、「計画」のドキュメント、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md) 」を参照してください。
 
 <div>
 
 
 > [!NOTE]
-> Exchange 2013 と Lync Server 2013 を同じフォレストに展開する場合、Exchange 2013 のインプレース保持ポリシーによってアーカイブが制御されます。 Exchange 2013 と Lync Server 2013 を別のフォレストに展開する場合は、「 <A href="lync-server-2013-deployment-checklist-for-archiving.md">Lync server 2013 でのアーカイブの展開チェックリスト</A>」の「異なるフォレストへの lync Server と Microsoft Exchange の展開」を参照してください。
+> Exchange 2013 と Lync Server 2013 を同じフォレストに展開する場合、Exchange 2013 In-Place は、アーカイブを制御するポリシーを保持します。 Exchange 2013 と Lync Server 2013 を別のフォレストに展開する場合は、「 <A href="lync-server-2013-deployment-checklist-for-archiving.md">Lync server 2013 でのアーカイブの展開チェックリスト</A>」の「異なるフォレストへの lync Server と Microsoft Exchange の展開」を参照してください。
 
 
 

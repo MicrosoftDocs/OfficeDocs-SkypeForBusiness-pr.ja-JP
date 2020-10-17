@@ -12,20 +12,22 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4ff853e3f31804e4bca55bd6a4576e25702b6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 640d8e97cf8b7a31e11cb2dc8f1b1394e4b1aae3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521814"
 ---
+# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Lync Server 2013 用のリバースプロキシサーバーのセットアップ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Lync Server 2013 用のリバースプロキシサーバーのセットアップ
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42182000"
 
 _**トピックの最終更新日:** 2014-05-08_
 
-Microsoft Lync Server 2013 エッジサーバー展開の場合、外部クライアントがディレクターおよびユーザーのホームプールで Lync Server 2013 Web サービス (Office Communications Server の*Web コンポーネント*と呼ばれます) にアクセスするには、境界ネットワーク内の HTTPS リバースプロキシが必要です。 リバース プロキシ経由の外部アクセスが必要な機能には、次のようなものがあります。
+Microsoft Lync Server 2013 エッジサーバー展開の場合、外部クライアントがディレクターおよびユーザーのホームプールで Lync Server 2013 Web サービス (Office Communications Server の *Web コンポーネント* と呼ばれます) にアクセスするには、境界ネットワーク内の HTTPS リバースプロキシが必要です。 リバース プロキシ経由の外部アクセスが必要な機能には、次のようなものがあります。
 
   - 外部ユーザーが会議の会議コンテンツをダウンロードできるようにする。
 
@@ -55,7 +57,7 @@ Microsoft Lync Server 2013 エッジサーバー展開の場合、外部クラ�
 
   - Lync 2013 クライアント、Lync Windows ストアアプリ、Lync 2013 Mobile クライアントを有効にして、Lync discovery (自動検出) Url を検索し、統合コミュニケーション Web API (UCWA) を使用します。
 
-HTTP リバース プロキシは、すべてのプールのすべての Web サービスを公開するように設定することをお勧めします。 Https://ExternalFQDN の発行\* /プールのすべての IIS 仮想ディレクトリを公開します。 組織内の Standard Edition サーバー、フロントエンド プール、またはディレクターやディレクター プールごとに、公開ルールが 1 つずつ必要です。
+HTTP リバース プロキシは、すべてのプールのすべての Web サービスを公開するように設定することをお勧めします。 Https://ExternalFQDN の発行/ \* プールのすべての IIS 仮想ディレクトリを公開します。 組織内の Standard Edition サーバー、フロントエンド プール、またはディレクターやディレクター プールごとに、公開ルールが 1 つずつ必要です。
 
 さらに、簡単な Url を公開する必要があります。 組織にディレクターまたはディレクタープールがある場合、HTTP リバースプロキシは簡単な Url に対する HTTP/HTTPS 要求をリッスンし、ディレクターまたはディレクタープールの外部 Web サービス仮想ディレクトリにプロキシを送信します。 ディレクターを展開していない場合は、簡易 Url への要求を処理するプールを1つ指定する必要があります。 (これがユーザーのホームプールでない場合は、ユーザーのホームプールの Web サービスにリダイレクトされます)。 簡易 Url は専用の web 公開ルールによって処理されることも、ディレクターの web 公開ルールのパブリック名に追加することもできます。 外部自動検出サービスの URL も公開する必要があります。
 

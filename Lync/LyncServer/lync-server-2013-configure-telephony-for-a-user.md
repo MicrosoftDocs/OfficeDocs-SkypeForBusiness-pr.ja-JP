@@ -12,20 +12,22 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3fe22d70f442eed0cda1bbf56e79fb0e0e21f8a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 86eade8f7a2ac1db627668ca78b8fb7869e6da71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520374"
 ---
+# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Lync Server 2013 でユーザーのテレフォニーを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Lync Server 2013 でユーザーのテレフォニーを構成する
+
 
 </div>
 
@@ -41,15 +43,15 @@ _**トピックの最終更新日:** 2012-11-01_
 
 Lync Server ユーザーテレフォニーオプションは次のとおりです。
 
-  - **音声ビデオを無効**   にするユーザーは、音声とビデオで通話できません。
+  - **音声/ビデオが無効**    ユーザーは、音声とビデオで電話をかけることができません。
 
-  - **Pc 間のみ**   pc 間の音声通話またはビデオ通話を行うことができます。
+  - **Pc 間のみ**    ユーザーは PC 間の音声通話またはビデオ通話のみを行うことができます。
 
-  - **エンタープライズ voip**   ユーザーは、Lync Server 2013 インフラストラクチャを使用して、すべての着信および発信通話をルーティングできます。 また、PC 間の通話も可能です。
+  - **エンタープライズ voip**    ユーザーは、Lync Server 2013 インフラストラクチャを使用して、すべての着信および発信通話をルーティングできます。 また、PC 間の通話も可能です。
 
-  - **リモート通話コントロール**   ユーザーは Lync Server 2013 を使用して、デスクトップ電話を制御することができ、pc から pc への通話を行うこともできます。
+  - **リモート通話コントロール**    ユーザーは、Lync Server 2013 を使用してデスクトップ電話を制御でき、PC から PC への通話を行うこともできます。
 
-組織のテレフォニーの構成の詳細については、「展開」のドキュメントの「 [Configure telephony for a lync server 2013](lync-server-2013-configure-telephony-for-a-user.md) 」および「 [lync server 2013 でのエンタープライズ voip の展開](lync-server-2013-deploying-enterprise-voice.md)」を参照してください。
+組織のテレフォニーの構成の詳細については、「展開」のドキュメントの「 [Configure telephony for a lync server 2013](lync-server-2013-configure-telephony-for-a-user.md) 」および「 [lync server 2013 でのエンタープライズ voip の展開](lync-server-2013-deploying-enterprise-voice.md) 」を参照してください。
 
 <div>
 
@@ -73,9 +75,9 @@ Lync Server ユーザーテレフォニーオプションは次のとおりで�
     
       - ユーザーの PC 間の音声通信を有効にするが、リモート通話コントロールやエンタープライズ VoIP は有効にしない場合は、[**PC 間のみ**] をクリックします。 ユーザーが PC 間の音声通信に使用する電話の [**回線 URI**] の値を指定します。
     
-      - PC 間の音声通信を含む、サービスポリシーのクラスに従って Lync Server 2010 インフラストラクチャを使用してユーザーの電話をルーティングするには、[**エンタープライズ voip**] をクリックします。 [**回線 URI**] でエンタープライズ VoIP の電話番号を指定します。 [**ダイヤル プラン ポリシー**] と [**音声ポリシー**] で、ユーザーの適切なポリシーを指定します。 ユーザーのダイヤルした電話番号を E.164 形式に変換するための正規化ルールを指定するには、[**場所のポリシー**] で適切な場所のプロファイルを選択します。
+      - PC 間の音声通信を含む、サービスポリシーのクラスに従って Lync Server 2010 インフラストラクチャを使用してユーザーの電話をルーティングするには、[ **エンタープライズ voip**] をクリックします。 [**回線 URI**] でエンタープライズ VoIP の電話番号を指定します。 [**ダイヤル プラン ポリシー**] と [**音声ポリシー**] で、ユーザーの適切なポリシーを指定します。 ユーザーのダイヤルした電話番号を E.164 形式に変換するための正規化ルールを指定するには、[**場所のポリシー**] で適切な場所のプロファイルを選択します。
     
-      - リモート通話コントロールを有効にするには、ユーザーが Lync Server 2013 のデスクトップ電話回線を制御して、PC 間通話と PC 間通話を行うことができるようにします。そのためには、[**リモート通話コントロール**] をクリックします。 [**回線 URI**] でリモート通話コントロールの電話番号を指定します。 通話ルーティングを行うには、ユーザーがデスクトップ電話と構内交換機 (PBX) を持っている必要があります。
+      - リモート通話コントロールを有効にするには、ユーザーが Lync Server 2013 のデスクトップ電話回線を制御して、PC 間通話と PC 間通話を行うことができるようにします。そのためには、[ **リモート通話コントロール**] をクリックします。 [**回線 URI**] でリモート通話コントロールの電話番号を指定します。 通話ルーティングを行うには、ユーザーがデスクトップ電話と構内交換機 (PBX) を持っている必要があります。
 
 </div>
 

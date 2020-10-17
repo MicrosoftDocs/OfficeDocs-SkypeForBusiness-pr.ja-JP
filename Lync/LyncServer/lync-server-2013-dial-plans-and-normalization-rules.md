@@ -12,20 +12,22 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edd44cbb1e54e811fc646a99362b18a284376953
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6195baf2cdff30cad74dfddc31337d9d429c5d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213423"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520024"
 ---
+# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013 のダイヤルプランと正規化ルール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013 のダイヤルプランと正規化ルール
+
 
 </div>
 
@@ -93,7 +95,7 @@ _**トピックの最終更新日:** 2012-09-21_
     
     組織が複数の場所で単一のダイヤルプランを保有している場合は、構内交換機 (PBX) から移行していて、既存の内線番号を保持する必要があるエンタープライズ Voip ユーザー向けに、別のダイヤルプランを作成する必要があります。
 
-  - ユーザーごとのダイヤルプランが必要かどうかを決定します。 たとえば、中央サイトに登録されているブランチサイトにユーザーがいる場合、または存続可能 Branch アプライアンスに登録されているユーザーがいる場合は、ユーザーごとのダイヤルプランや正規化ルールを使用して、そのようなユーザーに対して特別なダイヤルシナリオを検討できます。. 詳細については、「 [Lync Server 2013 のブランチサイトの復元要件](lync-server-2013-branch-site-resiliency-requirements.md)」を参照してください。
+  - ユーザーごとのダイヤルプランが必要かどうかを決定します。 たとえば、中央サイトに登録されているブランチサイトにユーザーがいる場合、または存続可能ブランチアプライアンスに登録されているユーザーがいる場合は、ユーザーごとのダイヤルプランや正規化ルールを使用して、そのようなユーザーに特別なダイヤルシナリオを検討できます。 詳細については、「 [Lync Server 2013 のブランチサイトの復元要件](lync-server-2013-branch-site-resiliency-requirements.md)」を参照してください。
 
   - ダイヤルプランのスコープを決定します (このトピックで前述したとおり)。
 
@@ -129,7 +131,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 ## <a name="external-access-prefix"></a>外部アクセス プレフィックス
 
-外部の行を取得するためにユーザーが1つまた\#は\*複数の追加の数字 (9 など) をダイヤルする必要がある場合は、最大4文字 (,, および 0-9) の外部アクセスプレフィックスを指定できます。
+\# \* 外部の行を取得するためにユーザーが1つまたは複数の追加の数字 (9 など) をダイヤルする必要がある場合は、最大4文字 (,, および 0-9) の外部アクセスプレフィックスを指定できます。
 
 <div>
 
@@ -173,9 +175,9 @@ _**トピックの最終更新日:** 2012-09-21_
 
 ## <a name="creating-normalization-rules"></a>正規化ルールの作成
 
-正規化ルールは、.NET Framework 正規表現を使用して、逆引き番号検索を実行するために、サーバーがダイヤル文字列を e.164 形式に変換するために使用する数値一致パターンを指定します。 Lync Server コントロールパネルで正規化ルールを作成するには、式を手動で入力するか、一致するダイヤル文字列の先頭の数字と長さを入力して、Lync Server コントロールパネルで対応する正規表現。 完了したら、テスト番号を入力して、正規化ルールが期待どおりに動作するかどうかを確認できます。
+正規化ルールは、.NET Framework 正規表現を使用して、逆引き番号検索を実行するために、サーバーがダイヤル文字列を e.164 形式に変換するために使用する数値一致パターンを指定します。 Lync Server コントロールパネルで正規化ルールを作成するには、式を手動で入力するか、照合するダイヤル文字列の先頭の数字と長さを入力し、Lync Server コントロールパネルで対応する正規表現を生成します。 完了したら、テスト番号を入力して、正規化ルールが期待どおりに動作するかどうかを確認できます。
 
-.NET Framework の正規表現の使用の詳細については、「」の[https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)「.Net Framework 正規表現」を参照してください。
+.NET Framework の正規表現の使用の詳細については、「」の「.NET Framework 正規表現」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) 。
 
 </div>
 
@@ -202,7 +204,7 @@ _**トピックの最終更新日:** 2012-09-21_
 <th>ルール名</th>
 <th>説明</th>
 <th>番号のパターン</th>
-<th>翻訳</th>
+<th>変換</th>
 <th>例</th>
 </tr>
 </thead>
@@ -210,42 +212,42 @@ _**トピックの最終更新日:** 2012-09-21_
 <tr class="odd">
 <td><p>4digitExtension</p></td>
 <td><p>4 桁の内線番号を変換します。</p></td>
-<td><p>^ (\d{4}) $</p></td>
+<td><p>^(\d{4})$</p></td>
 <td><p>+ 1425555 $ 1</p></td>
 <td><p>0100 が +14255550100 に変換されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>5digitExtension</p></td>
 <td><p>5 桁の内線番号を変換します。</p></td>
-<td><p>^ 5 (\d{4}) $</p></td>
+<td><p>^ 5 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $ 1</p></td>
 <td><p>50100 が +14255550100 に変換されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>7digitcallingRedmond</p></td>
 <td><p>7 桁の番号を Redmond の電話番号に変換します。</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^(\d{7})$</p></td>
 <td><p>+ 1425 $ 1</p></td>
 <td><p>5550100 が +14255550100 に変換されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>7digitcallingDallas</p></td>
 <td><p>7 桁の番号を Dallas の電話番号に変換します。</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^(\d{7})$</p></td>
 <td><p>+ 1972 $ 1</p></td>
 <td><p>5550100 が +19725550100 に変換されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>10digitcallingUS</p></td>
 <td><p>米国の 10 桁の番号を変換します。</p></td>
-<td><p>^ (\d{10}) $</p></td>
-<td><p>+ 1 $ 1</p></td>
+<td><p>^(\d{10})$</p></td>
+<td><p>+1$1</p></td>
 <td><p>2065550100 が +12065550100 に変換されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>LDCallingUS</p></td>
 <td><p>米国の長距離プレフィックス付きの番号を変換します。</p></td>
-<td><p>^ 1 (\d{10}) $</p></td>
+<td><p>^ 1 (\d {10} ) $</p></td>
 <td><p>+ $1</p></td>
 <td><p>12145550100 が +2145550100 に変換されます。</p></td>
 </tr>
@@ -266,21 +268,21 @@ _**トピックの最終更新日:** 2012-09-21_
 <tr class="odd">
 <td><p>RedmondSitePrefix</p></td>
 <td><p>ネットワーク内プレフィックス (6) および Redmond のサイト コード (222) 付きの番号を変換します。</p></td>
-<td><p>^ 6222 (\d{4}) $</p></td>
+<td><p>^ 6222 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $ 1</p></td>
 <td><p>62220100 が +14255550100 に変換されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>NYSitePrefix</p></td>
 <td><p>ネットワーク内プレフィックス (6) および NY のサイト コード (333) 付きの番号を変換します。</p></td>
-<td><p>^ 6333 (\d{4}) $</p></td>
+<td><p>^ 6333 (\d {4} ) $</p></td>
 <td><p>+ 1202555 $ 1</p></td>
 <td><p>63330100 が +12025550100 に変換されます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>DallasSitePrefix</p></td>
 <td><p>ネットワーク内プレフィックス (6) および Dallas のサイト コード (444) 付きの番号を変換します。</p></td>
-<td><p>^ 6444 (\d{4}) $</p></td>
+<td><p>^ 6444 (\d {4} ) $</p></td>
 <td><p>+ 1972555 $ 1</p></td>
 <td><p>64440100 が +19725550100 に変換されます。</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d05939f9d15f992d350a6bb756fe3c6b9839c37b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b39c10a3fb590acc99771663f5f6e23e3c3095e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188590"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520224"
 ---
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Lync Server 2013 の Microsoft Exchange でのユニファイドメッセージングの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Lync Server 2013 の Microsoft Exchange でのユニファイドメッセージングの構成
+
 
 </div>
 
@@ -53,13 +55,13 @@ _**トピックの最終更新日:** 2013-02-24_
 
 ## <a name="to-configure-a-server-running-exchange-server-um"></a>Exchange Server UM を実行しているサーバーを構成するには
 
-1.  エンタープライズ Voip の場所のプロファイルごとに、UM セッション開始プロトコル (SIP) の URI (Uniform Resource Identifier) ダイヤルプランを作成します。 Exchange 管理コンソールを使用する場合は、セキュリティ設定をセキュリティで**保護 (推奨)** した新しいダイヤルプランを作成します。
+1.  エンタープライズ Voip の場所のプロファイルごとに、UM セッション開始プロトコル (SIP) の URI (Uniform Resource Identifier) ダイヤルプランを作成します。 Exchange 管理コンソールを使用する場合は、セキュリティ設定をセキュリティで **保護 (推奨)** した新しいダイヤルプランを作成します。
     
     <div>
     
 
     > [!WARNING]  
-    > セキュリティ設定の値を sip に対してセキュリティで<STRONG>保護</STRONG>された sip に設定した場合は、事前に推奨されているように、フロントエンドプールが暗号化を要求するように構成されている場合は、ダイヤルプランのこのセキュリティ設定が不十分であることに注意してください。 ダイヤルプランおよびプールのセキュリティ設定に互換性がない場合、フロントエンドプールからの Exchange UM へのすべての呼び出しが失敗し、"互換性のないセキュリティ設定" があることを示すエラーが発生します。
+    > セキュリティ設定の値を sip に対してセキュリティで <STRONG>保護</STRONG> された sip に設定した場合は、事前に推奨されているように、フロントエンドプールが暗号化を要求するように構成されている場合は、ダイヤルプランのこのセキュリティ設定が不十分であることに注意してください。 ダイヤルプランおよびプールのセキュリティ設定に互換性がない場合、フロントエンドプールからの Exchange UM へのすべての呼び出しが失敗し、"互換性のないセキュリティ設定" があることを示すエラーが発生します。
 
     
     </div>
@@ -70,17 +72,17 @@ _**トピックの最終更新日:** 2013-02-24_
     ```
     詳細については、以下を参照してください。
     
-      - Office Communications Server 2007 については、「ユニファイドメッセージング SIP URI ダイヤルプランを作成する[https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632)方法」および「Set-umdialplan: Exchange 2007 Help」 ( [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666)) を参照してください。
+      - Office Communications Server 2007 については、「ユニファイドメッセージング SIP URI ダイヤルプランを作成する方法」 [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) および「set-umdialplan: Exchange 2007 Help」 () を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666) 。
     
-      - Exchange 2010 については、「UM ダイヤルプランを作成[https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674)する」および「Set-umdialplan: Exchange 2010 Help」 ( [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680)) を参照してください。
+      - Exchange 2010 については、「UM ダイヤルプランを作成する」 [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) および「set-umdialplan: Exchange 2010 Help」 () を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680) 。
     
-      - Exchange 2013 については、「」の[https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)「ユニファイドメッセージング」を参照してください。
+      - Exchange 2013 については、「」の「ユニファイドメッセージング」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) 。
     
     <div>
     
 
     > [!NOTE]  
-    > <STRONG>SIPSecured</STRONG>のセキュリティレベルを選択するか、セキュリティで<STRONG>保護</STRONG>するかは、メディア暗号化に対してセキュリティで保護されたリアルタイム転送プロトコル (srtp) をアクティブ化または非アクティブ化するかによって決まります。 Lync Server 2010 と Exchange UM との統合については、これは Lync Server メディア構成の暗号化レベルに対応している必要があります。 Lync Server メディア構成は、 <STRONG>get-csmediaconfiguration</STRONG>コマンドレットを実行すると表示できます。 詳細については、「Lync Server Management Shell」のドキュメントの「Get-csmediaconfiguration」を参照してください。<BR>適切な VoIP セキュリティ設定の選択の詳細については、「<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するための展開プロセス</A>」を参照してください。
+    > <STRONG>SIPSecured</STRONG>のセキュリティレベルを選択するか、セキュリティで<STRONG>保護</STRONG>するかは、メディア暗号化に対してセキュリティで保護されたリアルタイム転送プロトコル (srtp) をアクティブ化または非アクティブ化するかによって決まります。 Lync Server 2010 と Exchange UM との統合については、これは Lync Server メディア構成の暗号化レベルに対応している必要があります。 Lync Server メディア構成は、 <STRONG>get-csmediaconfiguration</STRONG> コマンドレットを実行すると表示できます。 詳細については、「Lync Server Management Shell」のドキュメントの「Get-CsMediaConfiguration」を参照してください。<BR>適切な VoIP セキュリティ設定の選択の詳細については、「 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するための展開プロセス</A>」を参照してください。
 
     
     </div>
@@ -93,11 +95,11 @@ _**トピックの最終更新日:** 2013-02-24_
     
     詳細については、以下を参照してください。
     
-      - Exchange 2007 については、「Set-umdialplan: Exchange 2007 Help」を[https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678)参照してください。
+      - Exchange 2007 については、「Set-umdialplan: Exchange 2007 Help」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678) 。
     
-      - Exchange 2010 については、「Set-umdialplan: Exchange 2010 Help」を[https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679)参照してください。
+      - Exchange 2010 については、「Set-umdialplan: Exchange 2010 Help」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679) 。
     
-      - Exchange 2013 については、「」の[https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)「ユニファイドメッセージング」を参照してください。
+      - Exchange 2013 については、「」の「ユニファイドメッセージング」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) 。
 
 3.  各 UM ダイヤルプランのダイヤルプラン名を記録します。 ご使用の Exchange Server のバージョンによっては、ダイヤルプランの名前が一致するように、各ダイヤルプラン名の FQDN を、各 UM ダイヤルプランの対応する Lync Server ダイヤルプランの名前として後で使用する必要がある場合があります。
     
@@ -105,7 +107,7 @@ _**トピックの最終更新日:** 2013-02-24_
     
 
     > [!NOTE]  
-    > Lync Server ダイヤルプラン名は、UM ダイヤルプランが Exchange 2010 SP1 より<EM>前</EM>のバージョンの exchange 上で実行されている場合にのみ、um ダイヤルプラン名と一致する必要があります。
+    > Lync Server ダイヤルプラン名は、UM ダイヤルプランが Exchange 2010 SP1 より <EM>前</EM> のバージョンの exchange 上で実行されている場合にのみ、um ダイヤルプラン名と一致する必要があります。
 
     
     </div>
@@ -114,11 +116,11 @@ _**トピックの最終更新日:** 2013-02-24_
     
       - Exchange 管理コンソールを使用することを選択した場合は、サーバーのプロパティシートからダイヤルプランを追加できます。 具体的な手順については、Exchange Server 製品のドキュメントを参照してください。
         
-        Exchange 2007 については、「」の「ユニファイドメッセージングサーバーをダイヤルプラン[https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681)に追加する方法」を参照してください。
+        Exchange 2007 については、「」の「ユニファイドメッセージングサーバーをダイヤルプランに追加する方法」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681) 。
         
-        Exchange 2010 については、「」の「UM サーバーのプロパティを表示[https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682)または構成する」を参照してください。
+        Exchange 2010 については、「」の「UM サーバーのプロパティを表示または構成する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682) 。
         
-        Exchange 2013 については、「」の[https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)「ユニファイドメッセージング」を参照してください。
+        Exchange 2013 については、「」の「ユニファイドメッセージング」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) 。
     
       - Exchange 管理シェルを使用する場合は、それぞれの Exchange UM サーバーに対して次のように実行します。
         ```powershell
@@ -131,12 +133,12 @@ _**トピックの最終更新日:** 2013-02-24_
     
 
     > [!NOTE]  
-    > 次の手順を実行する前に、すべてのエンタープライズ Voip ユーザーが Exchange Server メールボックスで構成されていることを確認してください。<BR>Exchange 2007 については、Exchange Server 2007 TechNet ライブラリ<A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A>の「」を参照してください。<BR>Exchange 2010 については、Exchange Server 2010 TechNet ライブラリ<A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A>の「」を参照してください。<BR>手順1で作成した各ダイヤルプランのメールボックスポリシーを指定する場合は、既定のポリシーまたは作成したポリシーのいずれかを選択します。
+    > 次の手順を実行する前に、すべてのエンタープライズ Voip ユーザーが Exchange Server メールボックスで構成されていることを確認してください。<BR>Exchange 2007 については、Exchange Server 2007 TechNet ライブラリの「」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A> 。<BR>Exchange 2010 については、Exchange Server 2010 TechNet ライブラリの「」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A> 。<BR>手順1で作成した各ダイヤルプランのメールボックスポリシーを指定する場合は、既定のポリシーまたは作成したポリシーのいずれかを選択します。
 
     
     </div>
 
-5.  Exchange の\<インストールディレクトリ\>\\スクリプトに移動し、exchange が単一のフォレストに展開されている場合は、次のように入力します。
+5.  \<Exchange installation directory\> \\ [スクリプト] に移動し、Exchange が単一のフォレストに展開されている場合は、次のように入力します。
     ```console
     exchucutil.ps1
     ```
@@ -181,11 +183,11 @@ _**トピックの最終更新日:** 2013-02-24_
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        Exchange 2007 については、「Set-UMIPGateway: Exchange 2007 Help [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687)」を参照してください。
+        Exchange 2007 については、「Set-UMIPGateway: Exchange 2007 Help」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687) 。
         
-        Exchange 2010 については、「Set-UMIPGateway: Exchange 2010 Help [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688)」を参照してください。
+        Exchange 2010 については、「Set-UMIPGateway: Exchange 2010 Help」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688) 。
     
-      - Exchange 管理コンソールを使用する場合は、[**この IP ゲートウェイ経由の送信呼び出しを許可**する] チェックボックスをオフにします。
+      - Exchange 管理コンソールを使用する場合は、[ **この IP ゲートウェイ経由の送信呼び出しを許可** する] チェックボックスをオフにします。
     
     <div>
     
@@ -212,9 +214,9 @@ _**トピックの最終更新日:** 2013-02-24_
     ```
     詳細については、以下を参照してください。
     
-      - Exchange 2007 については、「New-UMAutoAttendant: Exchange 2007 Help [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689)」を参照してください。
+      - Exchange 2007 については、「New-UMAutoAttendant: Exchange 2007 Help」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689) 。
     
-      - Exchange 2010 については、「New-UMAutoAttendant: Exchange 2010 Help [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690)」を参照してください。
+      - Exchange 2010 については、「New-UMAutoAttendant: Exchange 2010 Help」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690) 。
     
     Lync Server ユーザーのエンタープライズ Voip を有効にし、その SIP Uri を認識した後、各ユーザーに対して次の手順を実行する必要があります。
 
@@ -224,7 +226,7 @@ _**トピックの最終更新日:** 2013-02-24_
     
 
     > [!NOTE]  
-    > 次の例の<STRONG>SIPResourceIdentifier</STRONG>は、Lync Server ユーザーの SIP アドレスである必要があります。
+    > 次の例の <STRONG>SIPResourceIdentifier</STRONG> は、Lync Server ユーザーの SIP アドレスである必要があります。
 
     
     </div>
@@ -234,9 +236,9 @@ _**トピックの最終更新日:** 2013-02-24_
     ```
     詳細については、以下を参照してください。
     
-      - Exchange 2007 については、「Enable-UMMailbox: Exchange 2007 Help [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691)」 () を参照してください。
+      - Exchange 2007 については、「Enable-UMMailbox: Exchange 2007 Help」 () を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691) 。
     
-      - Exchange 2010 については、「Enable-UMMailbox: Exchange 2010 Help [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692)」 () を参照してください。
+      - Exchange 2010 については、「Enable-UMMailbox: Exchange 2010 Help」 () を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692) 。
 
 </div>
 

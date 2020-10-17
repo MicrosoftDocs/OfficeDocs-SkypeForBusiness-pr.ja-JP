@@ -12,20 +12,22 @@ ms:contentKeyID: 48185836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93fe9bb93ad32c0871dd51d3818d2ca788327dc5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6153be57ec60e58b404370ece2c2214ae33083c1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179924"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520646"
 ---
+# <a name="configure-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でメディアバイパスを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でメディアバイパスを構成する
+
 
 </div>
 
@@ -45,13 +47,13 @@ _**トピックの最終更新日:** 2013-02-24_
 
 
 > [!NOTE]  
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーで PSTN ゲートウェイと sbc のセットをテストしており、Cisco IP-PBX でいくつかのテストを行いました。 メディアバイパスがサポートされるのは、統合コミュニケーションのオープン相互運用性プログラム– Lync Server at <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>の製品およびバージョンのみです。
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーで PSTN ゲートウェイと sbc のセットをテストしており、Cisco IP-PBX でいくつかのテストを行いました。 メディアバイパスがサポートされるのは、統合コミュニケーションのオープン相互運用性プログラム– Lync Server at の製品およびバージョンのみです <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A> 。
 
 
 
 </div>
 
-このセクションでは、メディアバイパスを有効にして仲介サーバーに必要な処理を減らす方法について説明します。 メディアバイパスを有効にする前に、「計画」のドキュメントの「 [planning for media バイパス In Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) 」で説明されているように、環境がメディアバイパスをサポートするために必要な条件を満たしていることを確認してください。 また、「 [Lync server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)」に記載されている情報を使用して、仲介サーバーをバイパスするか、仲介サーバーをバイパスするかどうかを決定する際にサイトと地域の情報を使用するように、メディアバイパスのグローバル設定を有効にするかどうかを決定してください。
+このセクションでは、メディアバイパスを有効にして仲介サーバーに必要な処理を減らす方法について説明します。 メディアバイパスを有効にする前に、「計画」のドキュメントの「 [planning for media バイパス In Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) 」で説明されているように、環境がメディアバイパスをサポートするために必要な条件を満たしていることを確認してください。 また、「 [Lync server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md) 」に記載されている情報を使用して、仲介サーバーをバイパスするか、仲介サーバーをバイパスするかどうかを決定する際にサイトと地域の情報を使用するように、メディアバイパスのグローバル設定を有効にするかどうかを決定してください。
 
 もう 1 つの高度なエンタープライズ VoIP 機能に当たる、オプションの通話受付管理 (CAC) の構成が済んでいる場合は、通話受付管理が実行する帯域幅の予約がメディア バイパスを採用する通話に適用されないようにしてください。 メディア バイパスが採用されているかどうかの検証は最初に行われます。採用されている場合は、その通話に対しては通話受付管理は使用されません。通話受付管理に対するチェックは、メディア バイパスのチェックが不合格の場合にのみ行われます。 このため、PSTN にルーティングされる特定の通話に対して 2 つの機能がともに適用されることはありません。 メディア バイパスは、通話のメディア エンドポイント間に帯域幅の制約がないことを前提にしているため、2 つの機能が両立しないという論理的結論にたどり着きます。メディア バイパスは、帯域幅制限のあるリンク上では実行できません。 このことから、PSTN の通話には次のいずれかが適用されます。 a) 仲介サーバーをメディア バイパスし、通話受付管理は通話に対して帯域幅を予約しない。または b) 通話受付管理が通話に帯域幅の予約を適用し、メディアはその通話に関わる仲介サーバーで処理される。
 

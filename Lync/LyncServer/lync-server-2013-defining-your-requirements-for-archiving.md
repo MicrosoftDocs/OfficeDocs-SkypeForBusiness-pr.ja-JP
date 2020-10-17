@@ -12,20 +12,22 @@ ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21f7d374d3c4263f2341386d2c4471f50e4b719d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a5f789f390e1cf104a0dc1b3a10a4116ba38c03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198340"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521664"
 ---
+# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ要件の定義
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ要件の定義
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198340"
 
 _**トピックの最終更新日:** 2012-10-09_
 
-組織が法令遵守規制に従う必要がある場合は、Lync Server 2013 インスタントメッセージング (IM) および電話会議 (会議) のアーカイブサポートを有効にするためのアーカイブを展開できます。 アーカイブできるコンテンツの種類の詳細については、「計画」のドキュメントの「 [Lync Server 2013 のアーカイブの概要](lync-server-2013-overview-of-archiving.md)」を参照してください。
+組織が法令遵守規制に従う必要がある場合は、Lync Server 2013 インスタントメッセージング (IM) および電話会議 (会議) のアーカイブサポートを有効にするためのアーカイブを展開できます。 アーカイブできるコンテンツの種類の詳細については、「計画」のドキュメントの「 [Lync Server 2013 のアーカイブの概要](lync-server-2013-overview-of-archiving.md) 」を参照してください。
 
 アーカイブ機能を実装するには、最初にアーカイブに対する組織の要件を満たす方法を決定する必要があります。 次のことを決定する必要があります。
 
@@ -64,7 +66,7 @@ _**トピックの最終更新日:** 2012-10-09_
     
     このオプションは、グローバル、サイト、およびプールのレベルで構成できます。既定では、クリティカル モードは無効です。
 
-  - **Microsoft Exchange 統合を使用するかどうか**。 このオプションを使用すると、アーカイブストレージが Exchange 2013 ストレージと統合されるため、Lync Server のアーカイブデータと Exchange 2013 アーカイブデータが Exchange にまとめて格納されます。 メールボックスがインプレース保持されている場合、Exchange 2013 に所属しているユーザーに対して、Microsoft Exchange 統合を使用してアーカイブデータを保存することができます。 Exchange 2013 を展開していない場合、または統合しない場合、または Exchange 2013 に所属していない Lync ユーザーがいる場合は、SQL Server を使用して Lync コミュニケーションからアーカイブされたデータを格納することによって、別のアーカイブデータベースを展開できます。 Microsoft Exchange 統合オプションは、グローバルレベル、サイトレベル、およびプールレベルで構成できます。 既定では、Microsoft Exchange 統合は有効になっていません。
+  - **Microsoft Exchange 統合を使用するかどうか**。 このオプションを使用すると、アーカイブストレージが Exchange 2013 ストレージと統合されるため、Lync Server のアーカイブデータと Exchange 2013 アーカイブデータが Exchange にまとめて格納されます。 メールボックスが In-Place ホールドに設定されている場合、Exchange 2013 に所属しているユーザーに対して、Microsoft Exchange 統合を使用してアーカイブデータを保存することができます。 Exchange 2013 を展開していない場合、または統合しない場合、または Exchange 2013 に所属していない Lync ユーザーがいる場合は、SQL Server を使用して Lync コミュニケーションからアーカイブされたデータを格納することによって、別のアーカイブデータベースを展開できます。 Microsoft Exchange 統合オプションは、グローバルレベル、サイトレベル、およびプールレベルで構成できます。 既定では、Microsoft Exchange 統合は有効になっていません。
 
   - **アーカイブされたデータの管理方法**。 アーカイブデータベースは、長期間の保存を対象としたものではなく、Lync Server 2013 はアーカイブされたデータに対して電子情報開示 (検索) ソリューションを提供しないため、データを他のストレージに移動する必要があります。 Lync Server は、アーカイブされたデータのエクスポートに使用できるセッションエクスポートツールを提供します。また、アーカイブされたデータの検索可能なトランスクリプトを作成します。 グローバルポリシーで、作成するサイトおよびユーザーポリシーごとに、データの削除を有効にし、次のいずれかのオプションを指定できます。
     
@@ -97,7 +99,7 @@ _**トピックの最終更新日:** 2012-10-09_
 
 
 > [!NOTE]  
-> 組織のセキュリティ標準を維持しながら管理タスクの委任を有効にするため&nbsp;に、Lync Server 2013 は役割ベースのアクセス制御 (RBAC) を使用します。 RBAC を使用すると、定義済みの管理者の役割にユーザーを割り当てることにより、管理者特権が付与されます。 Lync のアーカイブ ポリシーおよびアーカイブ構成を構成するには、ユーザーを CsArchivingAdministrator の役割に割り当てる必要があります (別のコンピューターからのリモートではなく、アーカイブ機能が展開されるサーバー上で構成を直接行うのでない限り)。 RBAC の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</A>」を参照してください。 アーカイブ展開に必要なユーザー権限、アクセス許可、および役割の一覧については、「計画」のドキュメントと「展開」のドキュメントの両方で利用できる「 <A href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 のアーカイブの展開チェックリスト</A>」を参照してください。<BR>Microsoft Exchange 統合を使用する場合、Exchange ポリシーを構成するには、適切な管理者権限とアクセス許可が必要です。 詳細については、Exchange 2013 のドキュメントを参照してください。
+> 組織のセキュリティ標準を維持しながら管理タスクの委任を有効にするために、Lync Server 2013 &nbsp; は役割ベースのアクセス制御 (RBAC) を使用します。 RBAC を使用すると、定義済みの管理者の役割にユーザーを割り当てることにより、管理者特権が付与されます。 Lync のアーカイブ ポリシーおよびアーカイブ構成を構成するには、ユーザーを CsArchivingAdministrator の役割に割り当てる必要があります (別のコンピューターからのリモートではなく、アーカイブ機能が展開されるサーバー上で構成を直接行うのでない限り)。 RBAC の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</A> 」を参照してください。 アーカイブ展開に必要なユーザー権限、アクセス許可、および役割の一覧については、「計画」のドキュメントと「展開」のドキュメントの両方で利用できる「 <A href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 のアーカイブの展開チェックリスト</A>」を参照してください。<BR>Microsoft Exchange 統合を使用する場合、Exchange ポリシーを構成するには、適切な管理者権限とアクセス許可が必要です。 詳細については、Exchange 2013 のドキュメントを参照してください。
 
 
 

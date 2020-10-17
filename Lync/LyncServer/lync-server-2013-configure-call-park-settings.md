@@ -12,20 +12,22 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b99bc06f22490013dd14dc8527bd3eb88938380
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72d3f60747f9b3456a6999358b0cf318b5e6d91d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205143"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521164"
 ---
+# <a name="configure-call-park-settings-in-lync-server-2013"></a>Lync Server 2013 でコールパーク設定を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-call-park-settings-in-lync-server-2013"></a>Lync Server 2013 でコールパーク設定を構成する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205143"
 
 _**トピックの最終更新日:** 2012-11-01_
 
-既定のコールパーク設定を使用しない場合は、それらをカスタマイズできます。 コールパークアプリケーションをインストールすると、既定でグローバル設定が構成されます。 グローバル設定を変更したり、サイト固有の設定を指定したりすることもできます。 新しいサイト固有の設定を作成するには、 **new-cscpsconfiguration**コマンドレットを使用します。 既存の設定を変更するには、 **new-cscpsconfiguration**コマンドレットを使用します。
+既定のコールパーク設定を使用しない場合は、それらをカスタマイズできます。 コールパークアプリケーションをインストールすると、既定でグローバル設定が構成されます。 グローバル設定を変更したり、サイト固有の設定を指定したりすることもできます。 新しいサイト固有の設定を作成するには、 **new-cscpsconfiguration** コマンドレットを使用します。 既存の設定を変更するには、 **new-cscpsconfiguration** コマンドレットを使用します。
 
 <div>
 

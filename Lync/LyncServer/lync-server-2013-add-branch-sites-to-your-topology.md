@@ -12,20 +12,22 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4e024ed5cdb29bb8a8a4170b89399f955254bf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fec919491872df8dc2ab0f843be84d4d0de1c280
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181390"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521574"
 ---
+# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>Lync Server 2013 でのトポロジへのブランチサイトの追加
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a>Lync Server 2013 でのトポロジへのブランチサイトの追加
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**トピックの最終更新日:** 2012-10-05_
 
 7.  **[次へ]** をクリックし、次のいずれかを実行します。
     
-      - このサイトで存続可能ブランチアプライアンスまたはサーバーを使用している場合は、[**このウィザードを閉じるときに新しい存続可能ウィザードを開く**] チェックボックスがオンになっていることを確認し、[**完了**] をクリックして、表示されるウィザードの指示に従います。 ウィザード項目の詳細については、「 [Define a 存続可能 Branch Appliance Or Server In Lync server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)」を参照してください。
+      - このサイトで存続可能ブランチアプライアンスまたはサーバーを使用している場合は、[ **このウィザードを閉じるときに新しい存続可能ウィザードを開く** ] チェックボックスがオンになっていることを確認し、[ **完了**] をクリックして、表示されるウィザードの指示に従います。 ウィザード項目の詳細については、「 [Define a 存続可能 Branch Appliance Or Server In Lync server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)」を参照してください。
     
       - このサイトで存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーを使用していない場合は、**[このウィザードが閉じたら新しい存続可能ウィザードを開く]** チェック ボックスをオフにして、**[完了]** をクリックします。
 

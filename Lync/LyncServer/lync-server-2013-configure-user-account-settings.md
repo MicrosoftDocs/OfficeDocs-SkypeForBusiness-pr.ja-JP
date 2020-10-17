@@ -12,20 +12,22 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b3c8ea077b6dee724d131ea117aa7bf304e114
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 71628f056298965f4033dc6bbecbe75b47b678a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520204"
 ---
+# <a name="configure-user-account-settings-in-lync-server-2013"></a>Lync Server 2013 でユーザーアカウント設定を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-account-settings-in-lync-server-2013"></a>Lync Server 2013 でユーザーアカウント設定を構成する
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42196890"
 
 _**トピックの最終更新日:** 2012-10-05_
 
-ダイヤルイン ユーザーは各自の電話番号または内線番号、それに PIN を入力し、認証されたユーザーとして会議に参加します。 Lync Server ユーザーアカウントで指定されたテレフォニー**回線 URI**は、認証に必要です。
+ダイヤルイン ユーザーは各自の電話番号または内線番号、それに PIN を入力し、認証されたユーザーとして会議に参加します。 Lync Server ユーザーアカウントで指定されたテレフォニー **回線 URI** は、認証に必要です。
 
-このトピックの手順は、**[回線 URI]** を 1 つのユーザー アカウントに対して割り当てる方法について説明します。 **[回線 URI]** を複数のユーザー アカウントに対して割り当てる必要がある場合は、**Set-CsUser** コマンドレットを使用するスクリプトを作成できます。 サンプルスクリプトを使用して複数のユーザーアカウントに**回線 uri**を割り当てる方法の詳細については、「」の[https://go.microsoft.com/fwlink/p/?linkId=196945](https://go.microsoft.com/fwlink/p/?linkid=196945)「複数のユーザーに回線 uri を割り当てる」を参照してください。
+このトピックの手順は、**[回線 URI]** を 1 つのユーザー アカウントに対して割り当てる方法について説明します。 **[回線 URI]** を複数のユーザー アカウントに対して割り当てる必要がある場合は、**Set-CsUser** コマンドレットを使用するスクリプトを作成できます。 サンプルスクリプトを使用して複数のユーザーアカウントに **回線 uri** を割り当てる方法の詳細については、「」の「複数のユーザーに回線 Uri を割り当てる」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=196945](https://go.microsoft.com/fwlink/p/?linkid=196945) 。
 
 <div>
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2012-10-05_
 
 4.  検索フィールドで、ダイヤルイン会議の構成を行うユーザーの名前を入力するか、**[フィルターの追加]** をクリックして検索フィールドを指定し、次に **[検索]** をクリックします。
 
-5.  ユーザー名をダブルクリックして、[ **Lync Server ユーザーの編集**] ダイアログボックスを開きます。
+5.  ユーザー名をダブルクリックして、[ **Lync Server ユーザーの編集** ] ダイアログボックスを開きます。
 
 6.  **[テレフォニー]** の下の **"回線 URI"** フィールドで、正規化された一意の電話番号 (たとえば、tel:+14255550200) を入力します。
     
@@ -61,7 +63,7 @@ _**トピックの最終更新日:** 2012-10-05_
     
 
     > [!NOTE]  
-    > [<STRONG>回線 URI</STRONG> ] を指定できるのは、[<STRONG>テレフォニー</STRONG> ] が [ <STRONG>pc 間のみ</STRONG>]、[<STRONG>エンタープライズ voip</STRONG>]、[<STRONG>リモート通話コントロール</STRONG>]、または [<STRONG>リモート通話コントロールのみ</STRONG>] に設定されている場合のみです。
+    > [ <STRONG>回線 URI</STRONG> ] を指定できるのは、[ <STRONG>テレフォニー</STRONG> ] が [ <STRONG>pc 間のみ</STRONG>]、[ <STRONG>エンタープライズ voip</STRONG>]、[ <STRONG>リモート通話コントロール</STRONG> ]、または [ <STRONG>リモート通話コントロールのみ</STRONG>] に設定されている場合のみです。
 
     
     </div>

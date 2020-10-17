@@ -12,20 +12,22 @@ ms:contentKeyID: 49733592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f90df8b71123a613624980b4ee63e1a17f23a769
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54ca98f168b694c67ac8e19dff1fc51896a14f6d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191470"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521494"
 ---
+# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>Lync Server 2010 存続可能 Branch Appliance ブランチサイトをトポロジに追加する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a>Lync Server 2010 存続可能 Branch Appliance ブランチサイトをトポロジに追加する
+
 
 </div>
 
@@ -50,7 +52,7 @@ Microsoft Lync Server 2010 存続可能 Branch アプライアンス (SBA) は�
 [Lync Server 2013 でメディアバイパスを使用せずにトランクを構成する](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
 
 
-[存続可能ブランチアプライアンスの接続](connect-a-survivable-branch-appliance.md)  
+[存続可能ブランチ アプライアンスの接続](connect-a-survivable-branch-appliance.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c5fef23ca24d9a09d326b75ec2ad2e30704852f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e257d62e761b33dad737f9d37da5f561703183ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205097"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521054"
 ---
+# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a>Lync Server 2013 でディレクターの証明書を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a>Lync Server 2013 でディレクターの証明書を構成する
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2012-09-08_
 
 </div>
 
-各ディレクターは既定の証明書、Web 内部証明書、および Web 外部証明書を必要とします。 ディレクターの証明書要件の詳細については、「計画」のドキュメントの「 [Lync Server 2013 の内部サーバーの証明書要件](lync-server-2013-certificate-requirements-for-internal-servers.md)」を参照してください。
+各ディレクターは既定の証明書、Web 内部証明書、および Web 外部証明書を必要とします。 ディレクターの証明書要件の詳細については、「計画」のドキュメントの「 [Lync Server 2013 の内部サーバーの証明書要件](lync-server-2013-certificate-requirements-for-internal-servers.md) 」を参照してください。
 
 ディレクターの証明書を構成するには、次の手順を使用します。 各ディレクターでこの手順を繰り返します。 この手順のステップは、組織によって展開される内部エンタープライズ ルート証明機関 (CA) からの、オフライン要求処理で発行された証明書の構成方法について説明するものです。 外部 CA から証明書の取得の詳細については、サポート チームにお問い合わせください。
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2012-09-08_
 
 ## <a name="to-configure-certificates-for-the-director-or-director-pool"></a>ディレクターまたはディレクター プールの証明書を構成するには
 
-1.  Lync Server 展開ウィザードで、[**ステップ 3: 証明書の要求、インストール、または割り当て**] の横にある [**実行**] をクリックします。
+1.  Lync Server 展開ウィザードで、[ **ステップ 3: 証明書の要求、インストール、または割り当て**] の横にある [ **実行**] をクリックします。
 
 2.  **証明書ウィザード**のページで **[要求]** をクリックします。
 

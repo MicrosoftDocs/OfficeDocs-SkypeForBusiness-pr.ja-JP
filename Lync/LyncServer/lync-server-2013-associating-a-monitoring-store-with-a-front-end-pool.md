@@ -12,20 +12,22 @@ ms:contentKeyID: 48185439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfdff8863c0e629c99d0e64aca0b7f84dcb63a43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e80c6f7482787d448709beaf98e796519860d22c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205453"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520650"
 ---
+# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールへの監視ストアの関連付け
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールへの監視ストアの関連付け
+
 
 </div>
 
@@ -41,7 +43,7 @@ Microsoft Lync Server 2013 の監視データは、監視ストアに関連付�
 
 この他に、以下の手順を行うことにより既存のフロントエンド プールを新しいまたは別の監視ストアに関連付けることもできます。
 
-1.  [**スタート**]、[**すべてのプログラム**]、[ **Microsoft lync Server 2013**]、[ **lync server トポロジビルダー**] の順にクリックします。
+1.  [ **スタート**]、[ **すべてのプログラム**]、[ **Microsoft lync Server 2013**]、[ **lync server トポロジビルダー**] の順にクリックします。
 
 2.  [**トポロジ ビルダー**] ダイアログ ボックスで、[**既存の展開からトポロジをダウンロードする**] を選択して [**OK**] をクリックします。
 
@@ -69,9 +71,9 @@ Microsoft Lync Server 2013 の監視データは、監視ストアに関連付�
 
     Install-CsDatabase -LocalDatabases
 
-上記のコマンドを実行すると、現在の Lync Server トポロジが読み込まれ、ローカルコンピューターにインストールする必要があるデータベースが決定された後、各データベースを自動的にインストールして構成します。
+上記のコマンドを実行すると、Install-CsDatabase は現在の Lync Server トポロジを読み取り、ローカルコンピューターにインストールする必要があるデータベースを決定してから、各データベースを自動的にインストールして構成します。
 
-データベースをリモート コンピューター (管理シェルを実行するコンピューターとは別のコンピューター) にインストールする場合は、少なくとも 2 つのパラメーター (ConfiguredDatabases パラメーターと、SqlServerFqdn パラメーター) を含める必要があります。 これらのパラメーターは、Lync Server トポロジを取得して、SqlServerFqdn パラメーターで指定されたコンピューターに必要なデータベースをインストールして構成するために、インストール-CsDatabase コマンドレットを指示します。 SqlServerFqdn パラメーターには、データベースのインストール先となるコンピューターの完全修飾ドメイン名を表すパラメーター値を使用する必要があります。
+データベースをリモート コンピューター (管理シェルを実行するコンピューターとは別のコンピューター) にインストールする場合は、少なくとも 2 つのパラメーター (ConfiguredDatabases パラメーターと、SqlServerFqdn パラメーター) を含める必要があります。 これらのパラメーターは Install-CsDatabase コマンドレットに対して Lync Server トポロジを取得し、SqlServerFqdn パラメーターで指定されたコンピューターに必要なデータベースをインストールして構成するように指示します。 SqlServerFqdn パラメーターには、データベースのインストール先となるコンピューターの完全修飾ドメイン名を表すパラメーター値を使用する必要があります。
 
 たとえば、次のコマンドは監視データベースを atl-sql-001.litwareinc.com というコンピューターにインストールします。
 
@@ -79,7 +81,7 @@ Microsoft Lync Server 2013 の監視データは、監視ストアに関連付�
 
 または、監視ストアをホストするコンピューターで Lync Server 展開ウィザードを実行して、監視データベースをインストールすることもできます。 このためには、該当のコンピューターにログオンし、以下の手順を行います。
 
-1.  [**スタート**]、[**すべてのプログラム**]、[ **Microsoft lync Server 2013**]、[ **lync server 展開ウィザード**] の順にクリックします。
+1.  [ **スタート**]、[ **すべてのプログラム**]、[ **Microsoft lync Server 2013**]、[ **lync server 展開ウィザード**] の順にクリックします。
 
 2.  展開ウィザードで、[**Lync Server システムのインストールまたは更新**] をクリックします。
 
@@ -87,7 +89,7 @@ Microsoft Lync Server 2013 の監視データは、監視ストアに関連付�
 
 4.  Lync Server コンポーネントのセットアップ ウィザードの [**Lync Server コンポーネントのセットアップ**] ページで、[**次へ**] をクリックします。
 
-5.  [ **Msi へのパスの指定**] ページで、ファイル ocscore .Msi (Lync Server インストールメディアに含まれているファイル) へのパスを入力し、[**次へ**] をクリックします。
+5.  [ **Msi へのパスの指定** ] ページで、Ocscore.msi ファイルへのパス (Lync Server インストールメディアに含まれているファイル) を入力し、[ **次へ**] をクリックします。
 
 6.  **[コマンドを実行しています]** ページで、**[完了]** をクリックします。
 

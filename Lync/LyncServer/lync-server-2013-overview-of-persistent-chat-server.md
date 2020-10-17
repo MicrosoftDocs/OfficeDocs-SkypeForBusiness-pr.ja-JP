@@ -12,20 +12,22 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38188067f5320c7e9fc6aa7ccef60812d5a42023
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e5fcc87635f302f58606703b57631c71bc907efe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520864"
 ---
+# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーの概要
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーの概要
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013、常設チャットサーバーを使用すると、ユーザ�
 
   - 重要な知識と情報の分散を促進します。 会話の中にドキュメントとリンクを含めて、チーム全体がアクセスできるようにします。 幅広い範囲のチームに質問を投げかけることで、ユーザーは、問題の領域の専門家から回答を得ることができます。 その他の情報システムとの統合により、重要な組織データを大きなグループに簡単に伝達できるようになります。
 
-Lync Server 2013 でチャットルームを有効にするには、「Lync Server 2013 常設チャット」を展開します。 チャットルームの有効化の詳細については、の常設<https://go.microsoft.com/fwlink/p/?linkid=270945>チャットのヘルプを参照してください。 ユーザーが Lync Server に対して有効になっており、Lync Server のサポートが展開されている場合、ユーザーは Lync 2013 常設チャットをインストールして使用してチャットルームサポートを提供できます。
+Lync Server 2013 でチャットルームを有効にするには、「Lync Server 2013 常設チャット」を展開します。 チャットルームの有効化の詳細については、の常設チャットのヘルプを参照してください <https://go.microsoft.com/fwlink/p/?linkid=270945> 。 ユーザーが Lync Server に対して有効になっており、Lync Server のサポートが展開されている場合、ユーザーは Lync 2013 常設チャットをインストールして使用してチャットルームサポートを提供できます。
 
 組織が法令遵守規制に従う必要がある場合は、オプションで常設チャットコンプライアンスサービスを展開できます。
 

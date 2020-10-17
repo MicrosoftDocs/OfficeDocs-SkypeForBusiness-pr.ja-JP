@@ -12,20 +12,22 @@ ms:contentKeyID: 63969634
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 358d869f212ac3acef91e28ddb8d08322133970f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8c12d687d6c23c7c7bdc2bf2d8046038154c871
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194340"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520744"
 ---
+# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a>Lync Server 2013 でグループ拡張を採用するためのテスト能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a>Lync Server 2013 でグループ拡張を採用するためのテスト能力
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト用の CsGroupExpansion コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsGroupExpansion コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupExpansion&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -68,9 +70,9 @@ _**トピックの最終更新日:** 2014-06-05_
 
 Test-CsGroupExpansion コマンドレットを使用すると、グループ拡張が組織内で動作しているかどうかを判断できます。 グループ拡張が有効になっている場合、ユーザーは配布グループを連絡先として構成します。 つまり、それらのユーザーは、そのグループの個々のメンバーではなく、グループにメッセージをアドレス指定することによって、すべてのグループメンバーに同じインスタントメッセージを送信できます。 グループ拡張を使用すると、すべてのグループメンバーとその現在の状態をすばやく簡単に表示できます。
 
-Test-CsGroupExpansion コマンドレットを使用して、グループの電子メールアドレスを使用して Active Directory 配布グループを指定します。 次に、グループ拡張を使用してグループメンバーシップを取得し、取得したリストを、指定したグループ電子メールアドレスのメンバーシップと比較します。 2つのリストが一致する場合は、グループ拡張が正しく機能しています。 グループ拡張のテストは、サービス自体をテストする方法と、関連付けられた web サービスをテストする方法の2つで確認できます。
+Test-CsGroupExpansion コマンドレットを使用して、グループの電子メールアドレスを使用して Active Directory 配布グループを指定します。 次に Test-CsGroupExpansion グループ拡張を使用してグループメンバーシップを取得し、取得したリストを、指定したグループ電子メールアドレスのメンバーシップと比較します。 2つのリストが一致する場合は、グループ拡張が正しく機能しています。 グループ拡張のテストは、サービス自体をテストする方法と、関連付けられた web サービスをテストする方法の2つで確認できます。
 
-詳細については、「 [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -78,7 +80,7 @@ Test-CsGroupExpansion コマンドレットを使用して、グループの電�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsGroupExpansion コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テスト対象の Lync Server プールの FQDN と、有効な配布グループの電子メールアドレスを指定する必要があります。 次に例を示します。
+Test-CsGroupExpansion コマンドレットを実行するには、事前に構成されたテストアカウントを使用するか (「Lync Server テストを実行するためのテストアカウントの設定」を参照してください)、Lync Server が有効になっているユーザーのアカウントを使用します。 このチェックをテストアカウントを使用して実行するには、テスト対象の Lync Server プールの FQDN と、有効な配布グループの電子メールアドレスを指定する必要があります。 以下に例を示します。
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com"
 
@@ -87,7 +89,7 @@ Test-CsGroupExpansion コマンドレットは、事前構成されたテスト�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「 [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -95,9 +97,9 @@ Test-CsGroupExpansion コマンドレットは、事前構成されたテスト�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーがグループ拡張を使用できる場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
+指定したユーザーがグループ拡張を使用できる場合は、次のような出力が得られ、Result プロパティは Success としてマークされ **ます。**
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -111,7 +113,7 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 指定したユーザーがグループ拡張を使用できない場合、結果は失敗として表示され、追加情報が Error および診断プロパティに記録されます。
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -123,21 +125,21 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 分析
 
-テスト-CsGroupExpansion: エンドポイントを登録できませんでした。 具体的な理由については、「ErrorCode」を参照してください。
+Test-CsGroupExpansion: エンドポイントを登録できませんでした。 具体的な理由については、「ErrorCode」を参照してください。
 
 前の出力には、指定したユーザーが Lync Server に登録できなかったためにテストが失敗したことが示されます。 これは通常、テストアカウントが存在しないか、Lync Server に対して有効になっていない場合に発生します。 アカウントが存在するかどうかを確認し、次のようなコマンドを実行することによって、そのアカウントが有効になっているかどうかを確認できます。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-Test-CsGroupExpansion に失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsGroupExpansion が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -Verbose
 
-Verbose パラメーターが指定されている場合は、指定したユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各操作のステップごとのアカウントが返されます。 たとえば、次の出力は、指定された配布グループが見つからなかったことを示しています。
+Verbose パラメーターが含まれている場合 Test-CsGroupExpansion は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各アクションのステップバイステップのアカウントを返します。 たとえば、次の出力は、指定された配布グループが見つからなかったことを示しています。
 
 Web チケットを取得しようとしています。
 
-Web サービス url:https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc
+Web サービス url: https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc
 
 NTLM/Kerb 認証を使用します。
 
@@ -155,7 +157,7 @@ DLX Web サービス応答ステータスは: NotFound です。
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、Test-CsGroupExpansion が失敗する主な理由を示します。
+Test-CsGroupExpansion が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効なユーザーアカウントが指定されています。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     

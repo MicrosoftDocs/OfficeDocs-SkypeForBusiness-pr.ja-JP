@@ -12,20 +12,22 @@ ms:contentKeyID: 48184464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e91ef78b2aedb3985ef1ab350de43261e4885d87
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4c06a4daac2fe78ba8d631890ab1f02ca5efe932
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520394"
 ---
+# <a name="configure-security-settings-for-lync-phone-edition-in-lync-server-2013"></a>Lync Server 2013 で Lync Phone Edition のセキュリティ設定を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-security-settings-for-lync-phone-edition-in-lync-server-2013"></a>Lync Server 2013 で Lync Phone Edition のセキュリティ設定を構成する
+
 
 </div>
 
@@ -70,7 +72,7 @@ SIP セキュリティ設定および電話ロック設定を使用して、Lync
 
 ## <a name="configuring-security-settings-for-lync-phone-edition-phones-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して Lync Phone Edition 電話のセキュリティ設定を構成する
 
-セキュリティ設定は、Lync Server 管理シェルと**get-csucphoneconfiguration**コマンドレットを使用して管理できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+セキュリティ設定は、Lync Server 管理シェルと **get-csucphoneconfiguration** コマンドレットを使用して管理できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

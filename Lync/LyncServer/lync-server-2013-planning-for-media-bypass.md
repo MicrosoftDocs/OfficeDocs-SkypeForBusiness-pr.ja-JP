@@ -12,20 +12,22 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de3d5132d7307f48de905f5bb6d28e53cbec14a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b5d9687069e82cde803f7a01873db482ea2afa2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521994"
 ---
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でのメディアバイパスの計画
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でのメディアバイパスの計画
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 メディア バイパスにより、遅延、不要な変換、パケット損失の可能性、および潜在的な障害点の数を低減して、音声品質を向上できます。 バイパスされた通話のメディア処理がなくなり、仲介サーバーの負荷が軽減されるため、拡張性を向上できます。 負荷の削減により、仲介サーバーが複数のゲートウェイを制御する機能が補完されます。
 
-仲介サーバーのないブランチサイトが、帯域幅が制限された1つまたは複数の WAN リンクによって中央サイトに接続されている場合、メディアバイパスにより、ブランチサイトのクライアントからのメディアをローカルゲートウェイに直接流すことができるため、帯域幅の要件が減少します。最初に、WAN リンクを中央サイトの仲介サーバーに転送し、バックアップする必要があります。
+仲介サーバーのないブランチサイトが1つ以上の WAN リンクによって中央サイトに接続されている場合は、メディアのバイパスによって、ブランチサイトのクライアントから中央サイトの仲介サーバーへの直接移動を必要とせずに、そのローカルゲートウェイに直接移動できるようにすることで帯域幅の要件が減少します。
 
 メディア処理から仲介サーバーを減らすことで、メディアバイパスがエンタープライズ Voip インフラストラクチャに必要な仲介サーバーの数を減らすこともあります。
 

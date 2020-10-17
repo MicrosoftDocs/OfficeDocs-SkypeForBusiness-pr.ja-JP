@@ -12,20 +12,22 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6377824a7d96e6bb7b0ae6c60c79f3ee4c05b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 738f745d4f91458b95e95e5cc5770c34ed4e8c88
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203333"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521354"
 ---
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Lync Server 2013 での Lync メニューへのコマンドの追加
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Lync Server 2013 での Lync メニューへのコマンドの追加
+
 
 </div>
 
@@ -69,9 +71,9 @@ _**トピックの最終更新日:** 2016-04-11_
 
 メニューにコマンドを追加するには、次の表のレジストリ設定を使用します。 これらのエントリは、次のいずれかの場所にあるレジストリに格納されます。
 
-  - 32ビット OS の場合\_:\_HKEY\\ローカル\\コンピューター\\ソフトウェア\\Microsoft\\Office\\15.0\\Lync SessionManager アプリ
+  - 32ビット OS の場合: HKEY \_ ローカル \_ コンピューター \\ ソフトウェア \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ アプリ
 
-  - 64ビット OS の場合\_:\_HKEY\\ローカル\\コンピューター\\ソフトウェア\\Wow6432Node\\Microsoft\\Office\\15.0\\Lync SessionManager アプリ
+  - 64ビット OS の場合: HKEY \_ ローカル \_ コンピューター \\ ソフトウェア \\ Wow6432Node \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ アプリ
 
 ### <a name="custom-command-registry-entries"></a>カスタム コマンドのレジストリ エントリ
 
@@ -166,13 +168,13 @@ _**トピックの最終更新日:** 2016-04-11_
 
 カスタムコマンドにアクセスするには、定義した ExtensibleMenu の値に応じて、次のいずれかの操作を行います。
 
-  - **Mainwindowactions**   Lync のメインウィンドウで、[**ツール**] をクリックし、カスタムコマンドをクリックします。
+  - **Mainwindowactions**    Lync のメインウィンドウで、[**ツール**] をクリックし、カスタムコマンドをクリックします。
 
-  - **Mainwindowrightclick**   Lync のメインウィンドウで、連絡先を右クリックし、カスタムコマンドをクリックします。
+  - **Mainwindowrightclick**    Lync のメインウィンドウで、連絡先を右クリックし、カスタムコマンドをクリックします。
 
-  - **Conversationwindowactions [**   [会話] ウィンドウで、[**その他のオプション**] アイコンをクリックし、カスタムコマンドをクリックします。
+  - **Conversationwindowactions [**    [会話] ウィンドウで、[**その他のオプション**] アイコンをクリックし、カスタムコマンドをクリックします。
 
-  - **Conversationwindowrightclick [**   [会話] ウィンドウで、連絡先の名前を右クリックし、カスタムコマンドをクリックします。
+  - **Conversationwindowrightclick [**    [会話] ウィンドウで、連絡先の名前を右クリックし、カスタムコマンドをクリックします。
 
 </div>
 

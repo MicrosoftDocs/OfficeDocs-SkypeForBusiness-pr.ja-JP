@@ -12,20 +12,22 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72d08d786f41dc606b419f9452970d683b8da37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a5f7a6a30e510bdcdb57d9f8a2f5a15fe8a7f37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188660"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521194"
 ---
+# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳サービスの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳サービスの管理
+
 
 </div>
 
@@ -63,7 +65,7 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 
 ## <a name="user-replicator-and-address-book-server"></a>ユーザー レプリケーターとアドレス帳サーバー
 
-アドレス帳サーバーは、ユーザー レプリケーターが提供するデータを使用して、グローバル アドレス一覧 (GAL) から最初に取得する情報を更新します。 ユーザーレプリケーターは、各ユーザー、連絡先、およびグループの Active Directory ドメインサービスの属性をデータベースの AbUserEntry テーブルに書き込み、アドレス帳サーバーは、データベースのユーザーデータをアドレス帳サーバーのファイルストア内のファイルに同期し、アドレス帳データベース RTCab に入ります。 AbUserEntry テーブルのスキーマは、**UserGuid** および **UserData** の 2 つの列を使用します。 **Userguid**はインデックス列で、Active Directory オブジェクトの16バイトの GUID を含みます。 **UserData**は、その連絡先に対して前述した Active Directory ドメインサービスのすべての属性を含む image 列です。
+アドレス帳サーバーは、ユーザー レプリケーターが提供するデータを使用して、グローバル アドレス一覧 (GAL) から最初に取得する情報を更新します。 ユーザーレプリケーターは、各ユーザー、連絡先、およびグループの Active Directory ドメインサービスの属性をデータベースの AbUserEntry テーブルに書き込み、アドレス帳サーバーは、データベースのユーザーデータをアドレス帳サーバーのファイルストア内のファイルに、アドレス帳データベースの RTCab に同期します。 AbUserEntry テーブルのスキーマは、**UserGuid** および **UserData** の 2 つの列を使用します。 **Userguid** はインデックス列で、Active Directory オブジェクトの16バイトの GUID を含みます。 **UserData** は、その連絡先に対して前述した Active Directory ドメインサービスのすべての属性を含む image 列です。
 
 ユーザーレプリケーターは、AbUserEntry テーブルと同じ SQL Server ベースのインスタンスにある構成テーブルを読み取ることによって、どの Active Directory 属性を書き込むかを決定します。 AbAttribute テーブルには、**ID**、**名前**、**フラグ**、**有効** の 4 つの列があります。 このテーブルはデータベースのセットアップ中に作成されます。 AbAttribute テーブルが空の場合、ユーザー レプリケーターはその AbUserEntry テーブル処理ロジックをスキップします。 アドレス帳サーバーの属性は動的で、AbAttribute テーブルから取得され、アドレス帳サーバーがアクティブ化される際、アドレス帳サーバーによって最初に書き込まれます。
 
@@ -100,12 +102,12 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>2/4</p></td>
+<td><p>4 </p></td>
 <td><p>タイトル</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
@@ -130,22 +132,22 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 <td><p>0x09022800</p></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>homePhone</p></td>
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>11 </p></td>
+<td><p>#</p></td>
 <td><p>Mobile</p></td>
 <td><p>0x0B622800</p></td>
 </tr>
 <tr class="even">
-<td><p>12</p></td>
+<td><p>12 </p></td>
 <td><p>otherTelephone</p></td>
 <td><p>0x0C302000</p></td>
 </tr>
 <tr class="odd">
-<td><p>スリー</p></td>
+<td><p>13 </p></td>
 <td><p>ipPhone</p></td>
 <td><p>0x0D302000</p></td>
 </tr>
@@ -161,7 +163,7 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 </tr>
 <tr class="even">
 <td><p>16 </p></td>
-<td><p>部署</p></td>
+<td><p>部門</p></td>
 <td><p>0x10000000</p></td>
 </tr>
 <tr class="odd">
@@ -218,7 +220,7 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 </tr>
 <tr class="odd">
 <td><p>0x2</p></td>
-<td><p>文字列属性ですが、属性値が&quot;tel:&quot;から始まる場合にのみ含まれます。 これは、主に複数値の文字列属性 (具体的には<strong>proxyAddresses</strong>です。 この場合、アドレス帳サーバーは、tel: &quot;&quot;から始まる<strong>proxyAddresses</strong>エントリのみに注目します。 そのため、領域を節約するために、ユーザーレプリケーターには、tel: &quot;&quot;から始まるエントリのみが格納されます。</p></td>
+<td><p>文字列属性ですが、属性値が tel: から始まる場合にのみ含まれ &quot; &quot; ます。 これは、主に複数値の文字列属性 (具体的には <strong>proxyAddresses</strong>です。 この場合、アドレス帳サーバーは、tel: から始まる <strong>proxyAddresses</strong> エントリのみに注目し &quot; &quot; ます。 そのため、領域を節約するために、ユーザーレプリケーターには、tel: から始まるエントリのみが格納され &quot; &quot; ます。</p></td>
 </tr>
 <tr class="even">
 <td><p>0x3</p></td>
@@ -226,11 +228,11 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 </tr>
 <tr class="odd">
 <td><p>0x4</p></td>
-<td><p>文字列&quot;属性。ただし、属性値が smtp&quot;で始まる場合にのみ含まれます。この&quot; @ &quot;記号が含まれています。</p></td>
+<td><p>文字列属性。ただし、属性値が smtp で始まる場合にのみ含まれます。この &quot; &quot; 記号が含まれてい &quot; @ &quot; ます。</p></td>
 </tr>
 <tr class="even">
 <td><p>0x5</p></td>
-<td><p>文字列属性。ただし、 &quot;属性値が tel:&quot;または&quot;smtp:&quot;で始まる場合にのみ含まれ、 &quot; @ &quot;記号を含みます。</p></td>
+<td><p>文字列属性。ただし、属性値が &quot; tel: &quot; または smtp: で始まる場合にのみ含まれ、 &quot; &quot; 記号を含み &quot; @ &quot; ます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x100</p></td>
@@ -278,7 +280,7 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 
 
 > [!NOTE]  
-> 既定では、Lync Server ユーザーレプリケーターは5分ごとに自動的に実行されます。 この間隔は、ReplicationCycleInterval &lt; &gt;を使用して構成できます。
+> 既定では、Lync Server ユーザーレプリケーターは5分ごとに自動的に実行されます。 この間隔は、ReplicationCycleInterval を使用して構成でき &lt; &gt; ます。
 
 
 
@@ -347,7 +349,7 @@ Lync Server には、標準化された RFC 3966/e.164 電話番号が必要で�
 
 アドレス帳をフィルターして特定のユーザーのみを含めることができますが、エントリを制限すると、他のユーザーがフィルターされたユーザーへ連絡したり、プレゼンス状態を参照したりできる範囲が制限されます。ユーザーは、ユーザーの完全なサインイン名を入力することで、アドレス帳にないユーザーに対する検索、インスタント メッセージの手動送信、手動での通話の開始をいつでも実行できます。また、ユーザーの連絡先情報は、Outlook でも検索できます。
 
-アドレス帳ファイルに完全な連絡先レコードがある場合でも、Lync Server を使用して、セッションの開始を行うように構成されていないユーザーとの電子メール、電話、またはエンタープライズの音声通話 (サーバーでエンタープライズ Voip が有効になっている場合) を開始することができます。Protocol (SIP)、一部の組織では、アドレス帳サーバーのエントリに SIP が有効なユーザーのみを含めることを希望しています。 次の必須属性 ( **mailNickname**、 **telephoneNumber**、 **homePhone**、および**mobile**) の**Flags**列で0X800 ビットをクリアすることによって、アドレス帳にフィルターを適用して、SIP が有効なユーザーのみを含めることができます。 **MsRTCSIP-PrimaryUserAddress**属性の**Flags**列に 0x8000 (include 属性) を設定して、SIP が有効なユーザーのみを含めるようにアドレス帳にフィルターを適用することもできます。 これにより、アドレス帳ファイルからサービスアカウントを除外することもできます。
+アドレス帳ファイルに連絡先レコードを完全に格納すると、セッション開始プロトコル (SIP) 用に構成されていないユーザーとの間で Lync Server を使用して電子メール、電話、またはエンタープライズの音声通話 (サーバーでエンタープライズ Voip が有効になっている場合) を開始することができます。 次の必須属性 ( **mailNickname**、 **telephoneNumber**、 **homePhone**、および**mobile**) の**Flags**列で0X800 ビットをクリアすることによって、アドレス帳にフィルターを適用して、SIP が有効なユーザーのみを含めることができます。 **MsRTCSIP-PrimaryUserAddress**属性の**Flags**列に 0x8000 (include 属性) を設定して、SIP が有効なユーザーのみを含めるようにアドレス帳にフィルターを適用することもできます。 これにより、アドレス帳ファイルからサービスアカウントを除外することもできます。
 
 AbAttribute テーブルを変更した後、コマンドレット **Update-CsUserDatabase** のコマンドを実行し、AbUserEntry テーブルのデータを更新できます。 UR のレプリケーションが完了した後、コマンドレット **UpdateCsAddressBook** のコマンドを手動で実行し、アドレス帳サーバー ファイル ストアのファイルを更新できます。
 

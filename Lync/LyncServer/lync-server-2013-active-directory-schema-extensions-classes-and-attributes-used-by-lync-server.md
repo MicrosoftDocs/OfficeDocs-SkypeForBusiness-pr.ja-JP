@@ -12,20 +12,22 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ed67522a2f47466bbf01efdd3a548c3e3637321
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4cf2b157dcd039f11d38ef56d6da07a6921e1c9c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191640"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521594"
 ---
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Lync Server 2013 で使用される Active Directory スキーマの拡張、クラス、属性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Lync Server 2013 で使用される Active Directory スキーマの拡張、クラス、属性
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**トピックの最終更新日:** 2012-06-19_
 
   - ドメインの準備中にドメイン ルートおよび組み込みコンテナーに作成されたアクセス制御エントリ (ACE)
 
-  - Active Directory の組織単位 (OU) に対して、cssetuppermission コマンド\_レットの付与によって加えられた変更。
+  - Active Directory の組織単位 (OU) に対して、 \_ cssetuppermission コマンドレットの付与によって加えられた変更。
 
-  - Active Directory OU に対して、csoupermission コマンドレット\_の付与によって加えられた変更。
+  - Active Directory OU に対して、 \_ csoupermission コマンドレットの付与によって加えられた変更。
 
 <div>
 
@@ -73,9 +75,9 @@ _**トピックの最終更新日:** 2012-06-19_
 
   - [Lync Server 2013 のドメインの準備によって加えられた変更](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Lync Server 2013 で付与-CsSetupPermission によって加えられた変更](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [Lync Server 2013 での Grant-CsSetupPermission による変更](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Lync Server 2013 での付与-CsOUPermission による変更](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [Lync Server 2013 での Grant-CsOUPermission による変更](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 
