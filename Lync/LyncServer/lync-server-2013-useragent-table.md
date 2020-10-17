@@ -12,20 +12,22 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b9abca1aaaff164759f195f8f60de335e279335
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 32586ddbe4dd6fac410a859fa00a1710bbaa2b47
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530134"
 ---
+# <a name="useragent-table-in-lync-server-2013"></a><span data-ttu-id="b82d9-102">Lync Server 2013 の UserAgent テーブル</span><span class="sxs-lookup"><span data-stu-id="b82d9-102">UserAgent table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="useragent-table-in-lync-server-2013"></a><span data-ttu-id="1fbf9-102">Lync Server 2013 の UserAgent テーブル</span><span class="sxs-lookup"><span data-stu-id="1fbf9-102">UserAgent table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42212973"
 
 <span> </span>
 
-<span data-ttu-id="1fbf9-103">_**トピックの最終更新日:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="1fbf9-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="b82d9-103">_**トピックの最終更新日:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="b82d9-103">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="1fbf9-104">UserAgent テーブルは、データベースに記録されたセッションに参加しているさまざまなユーザーエージェントのリストを格納するサポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-104">The UserAgent table is a supporting table that stores a list of the various user agents that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="1fbf9-105">テーブル内の各レコードは、1つのユーザーエージェントを表します。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-105">Each record in the table represents one user agent</span></span>
+<span data-ttu-id="b82d9-104">UserAgent テーブルは、データベースに記録されたセッションに参加しているさまざまなユーザーエージェントのリストを格納するサポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="b82d9-104">The UserAgent table is a supporting table that stores a list of the various user agents that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="b82d9-105">テーブル内の各レコードは、1つのユーザーエージェントを表します。</span><span class="sxs-lookup"><span data-stu-id="b82d9-105">Each record in the table represents one user agent</span></span>
 
 
 <table>
@@ -49,41 +51,41 @@ ms.locfileid: "42212973"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1fbf9-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="1fbf9-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="1fbf9-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="1fbf9-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="1fbf9-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="1fbf9-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="1fbf9-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="1fbf9-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="b82d9-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="b82d9-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="b82d9-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="b82d9-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="b82d9-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="b82d9-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="b82d9-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="b82d9-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1fbf9-110"><strong>UserAgentKey</strong></span><span class="sxs-lookup"><span data-stu-id="1fbf9-110"><strong>UserAgentKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="1fbf9-111">int</span><span class="sxs-lookup"><span data-stu-id="1fbf9-111">int</span></span></p></td>
-<td><p><span data-ttu-id="1fbf9-112">Primary</span><span class="sxs-lookup"><span data-stu-id="1fbf9-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="1fbf9-113">このユーザーエージェントを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-113">Unique number identifying this user agent.</span></span></p></td>
+<td><p><span data-ttu-id="b82d9-110"><strong>UserAgentKey</strong></span><span class="sxs-lookup"><span data-stu-id="b82d9-110"><strong>UserAgentKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="b82d9-111">int</span><span class="sxs-lookup"><span data-stu-id="b82d9-111">int</span></span></p></td>
+<td><p><span data-ttu-id="b82d9-112">Primary</span><span class="sxs-lookup"><span data-stu-id="b82d9-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="b82d9-113">このユーザーエージェントを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="b82d9-113">Unique number identifying this user agent.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1fbf9-114"><strong>UserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="1fbf9-114"><strong>UserAgent</strong></span></span></p></td>
-<td><p><span data-ttu-id="1fbf9-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="1fbf9-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="1fbf9-116">一意</span><span class="sxs-lookup"><span data-stu-id="1fbf9-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="1fbf9-117">ユーザーエージェント文字列。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-117">User Agent string.</span></span></p></td>
+<td><p><span data-ttu-id="b82d9-114"><strong>UserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="b82d9-114"><strong>UserAgent</strong></span></span></p></td>
+<td><p><span data-ttu-id="b82d9-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="b82d9-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="b82d9-116">一意</span><span class="sxs-lookup"><span data-stu-id="b82d9-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="b82d9-117">ユーザーエージェント文字列。</span><span class="sxs-lookup"><span data-stu-id="b82d9-117">User Agent string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1fbf9-118"><strong>UAType</strong></span><span class="sxs-lookup"><span data-stu-id="1fbf9-118"><strong>UAType</strong></span></span></p></td>
-<td><p><span data-ttu-id="1fbf9-119">smallint</span><span class="sxs-lookup"><span data-stu-id="1fbf9-119">smallint</span></span></p></td>
+<td><p><span data-ttu-id="b82d9-118"><strong>UAType</strong></span><span class="sxs-lookup"><span data-stu-id="b82d9-118"><strong>UAType</strong></span></span></p></td>
+<td><p><span data-ttu-id="b82d9-119">smallint</span><span class="sxs-lookup"><span data-stu-id="b82d9-119">smallint</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="1fbf9-120">1は仲介サーバーです。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-120">1 is Mediation Server.</span></span></p>
-<p><span data-ttu-id="1fbf9-121">2は音声ビデオ会議サーバーです。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-121">2 is A/V Conferencing Server.</span></span></p>
-<p><span data-ttu-id="1fbf9-122">4は Lync です。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-122">4 is Lync.</span></span></p>
-<p><span data-ttu-id="1fbf9-123">8は IP 電話です。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-123">8 is IP Phone.</span></span></p>
-<p><span data-ttu-id="1fbf9-124">16は Live Meeting コンソールです。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-124">16 is Live Meeting Console.</span></span></p>
-<p><span data-ttu-id="1fbf9-125">32は展開検証ツール (DVT) です。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-125">32 is Deployment Validation Tool (DVT).</span></span></p>
-<p><span data-ttu-id="1fbf9-126">64は、Macintosh コンピューターの Lync です。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-126">64 is Lync on Macintosh computers.</span></span></p>
-<p><span data-ttu-id="1fbf9-127">128は、Office Communications Server 2007 R2 アテンダントです。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-127">128 is Office Communications Server 2007 R2 Attendant.</span></span></p>
-<p><span data-ttu-id="1fbf9-128">256は会議アナウンスサービスです。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-128">256 is Conferencing Announcement service.</span></span></p>
-<p><span data-ttu-id="1fbf9-129">512は、会議自動応答です。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-129">512 is Conferencing Auto Attendant.</span></span></p>
-<p><span data-ttu-id="1fbf9-130">1024は応答グループアプリケーションです。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-130">1024 is Response Group application.</span></span></p>
-<p><span data-ttu-id="1fbf9-131">2048は外部音声コントロールです。</span><span class="sxs-lookup"><span data-stu-id="1fbf9-131">2048 is Outside Voice Control.</span></span></p></td>
+<td><p><span data-ttu-id="b82d9-120">1は仲介サーバーです。</span><span class="sxs-lookup"><span data-stu-id="b82d9-120">1 is Mediation Server.</span></span></p>
+<p><span data-ttu-id="b82d9-121">2は音声ビデオ会議サーバーです。</span><span class="sxs-lookup"><span data-stu-id="b82d9-121">2 is A/V Conferencing Server.</span></span></p>
+<p><span data-ttu-id="b82d9-122">4は Lync です。</span><span class="sxs-lookup"><span data-stu-id="b82d9-122">4 is Lync.</span></span></p>
+<p><span data-ttu-id="b82d9-123">8は IP 電話です。</span><span class="sxs-lookup"><span data-stu-id="b82d9-123">8 is IP Phone.</span></span></p>
+<p><span data-ttu-id="b82d9-124">16は Live Meeting コンソールです。</span><span class="sxs-lookup"><span data-stu-id="b82d9-124">16 is Live Meeting Console.</span></span></p>
+<p><span data-ttu-id="b82d9-125">32は展開検証ツール (DVT) です。</span><span class="sxs-lookup"><span data-stu-id="b82d9-125">32 is Deployment Validation Tool (DVT).</span></span></p>
+<p><span data-ttu-id="b82d9-126">64は、Macintosh コンピューターの Lync です。</span><span class="sxs-lookup"><span data-stu-id="b82d9-126">64 is Lync on Macintosh computers.</span></span></p>
+<p><span data-ttu-id="b82d9-127">128は、Office Communications Server 2007 R2 アテンダントです。</span><span class="sxs-lookup"><span data-stu-id="b82d9-127">128 is Office Communications Server 2007 R2 Attendant.</span></span></p>
+<p><span data-ttu-id="b82d9-128">256は会議アナウンスサービスです。</span><span class="sxs-lookup"><span data-stu-id="b82d9-128">256 is Conferencing Announcement service.</span></span></p>
+<p><span data-ttu-id="b82d9-129">512は、会議自動応答です。</span><span class="sxs-lookup"><span data-stu-id="b82d9-129">512 is Conferencing Auto Attendant.</span></span></p>
+<p><span data-ttu-id="b82d9-130">1024は応答グループアプリケーションです。</span><span class="sxs-lookup"><span data-stu-id="b82d9-130">1024 is Response Group application.</span></span></p>
+<p><span data-ttu-id="b82d9-131">2048は外部音声コントロールです。</span><span class="sxs-lookup"><span data-stu-id="b82d9-131">2048 is Outside Voice Control.</span></span></p></td>
 </tr>
 </tbody>
 </table>
