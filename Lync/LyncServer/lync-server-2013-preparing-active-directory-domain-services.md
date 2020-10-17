@@ -12,20 +12,22 @@ ms:contentKeyID: 48184620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4deedc7a3913a33ad6524a8eab4dd3f66ba961b3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc8b5f4a5efc60456d874276b025ff7ca9806028
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513314"
 ---
+# <a name="preparing-active-directory-domain-services-for-lync-server-2013"></a><span data-ttu-id="dc8cd-102">Lync Server 2013 用の Active Directory ドメイン サービスの準備</span><span class="sxs-lookup"><span data-stu-id="dc8cd-102">Preparing Active Directory Domain Services for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-active-directory-domain-services-for-lync-server-2013"></a><span data-ttu-id="a5a41-102">Lync Server 2013 用の Active Directory ドメイン サービスの準備</span><span class="sxs-lookup"><span data-stu-id="a5a41-102">Preparing Active Directory Domain Services for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42208803"
 
 <span> </span>
 
-<span data-ttu-id="a5a41-103">_**トピックの最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="a5a41-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="dc8cd-103">_**トピックの最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="dc8cd-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="a5a41-104">Lync Server 2013 を展開して運用する前に、スキーマを拡張してからオブジェクトを作成および構成して、Active Directory ドメインサービスを準備する必要があります。</span><span class="sxs-lookup"><span data-stu-id="a5a41-104">Before you deploy and operate Lync Server 2013, you must prepare Active Directory Domain Services by extending the schema and then creating and configuring objects.</span></span> <span data-ttu-id="a5a41-105">スキーマの拡張によって、Lync Server が必要とする Active Directory クラスと属性が追加されます。</span><span class="sxs-lookup"><span data-stu-id="a5a41-105">The schema extensions add the Active Directory classes and attributes that are required by Lync Server.</span></span>
+<span data-ttu-id="dc8cd-104">Lync Server 2013 を展開して運用する前に、スキーマを拡張してからオブジェクトを作成および構成して、Active Directory ドメインサービスを準備する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dc8cd-104">Before you deploy and operate Lync Server 2013, you must prepare Active Directory Domain Services by extending the schema and then creating and configuring objects.</span></span> <span data-ttu-id="dc8cd-105">スキーマの拡張によって、Lync Server が必要とする Active Directory クラスと属性が追加されます。</span><span class="sxs-lookup"><span data-stu-id="dc8cd-105">The schema extensions add the Active Directory classes and attributes that are required by Lync Server.</span></span>
 
-<span data-ttu-id="a5a41-106">このセクションのトピックでは、Lync Server を展開するための AD DS の準備方法と、セットアップおよび組織単位 (OU) のアクセス許可を割り当てる方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="a5a41-106">The topics in this section describe how to prepare AD DS for deploying Lync Server and how to assign setup and organizational unit (OU) permissions.</span></span> <span data-ttu-id="a5a41-107">Lync Server に必要なスキーマ変更の詳細については、「 [Active Directory スキーマ拡張、クラス、および Lync server 2013 で使用される属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a5a41-107">For details about the schema changes required for Lync Server, see [Active Directory schema extensions, classes, and attributes used by Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md).</span></span>
+<span data-ttu-id="dc8cd-106">このセクションのトピックでは、Lync Server を展開するための AD DS の準備方法と、セットアップおよび組織単位 (OU) のアクセス許可を割り当てる方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="dc8cd-106">The topics in this section describe how to prepare AD DS for deploying Lync Server and how to assign setup and organizational unit (OU) permissions.</span></span> <span data-ttu-id="dc8cd-107">Lync Server に必要なスキーマ変更の詳細については、「 [Active Directory スキーマ拡張、クラス、および Lync server 2013 で使用される属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dc8cd-107">For details about the schema changes required for Lync Server, see [Active Directory schema extensions, classes, and attributes used by Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md).</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a5a41-108">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="a5a41-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dc8cd-108">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="dc8cd-108">In This Section</span></span>
 
-  - [<span data-ttu-id="a5a41-109">Lync Server 2013 の Active Directory インフラストラクチャの要件</span><span class="sxs-lookup"><span data-stu-id="a5a41-109">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [<span data-ttu-id="dc8cd-109">Lync Server 2013 の Active Directory インフラストラクチャの要件</span><span class="sxs-lookup"><span data-stu-id="dc8cd-109">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
 
-  - [<span data-ttu-id="a5a41-110">Lync Server 2013 での Active Directory ドメインサービスの準備の概要</span><span class="sxs-lookup"><span data-stu-id="a5a41-110">Overview of Active Directory Domain Services preparation in Lync Server 2013</span></span>](lync-server-2013-overview-of-active-directory-domain-services-preparation.md)
+  - [<span data-ttu-id="dc8cd-110">Lync Server 2013 での Active Directory ドメインサービスの準備の概要</span><span class="sxs-lookup"><span data-stu-id="dc8cd-110">Overview of Active Directory Domain Services preparation in Lync Server 2013</span></span>](lync-server-2013-overview-of-active-directory-domain-services-preparation.md)
 
-  - [<span data-ttu-id="a5a41-111">Lync Server 2013 での Active Directory ドメインサービスの準備</span><span class="sxs-lookup"><span data-stu-id="a5a41-111">Preparing Active Directory Domain Services in Lync Server 2013</span></span>](lync-server-2013-preparing-active-directory-domain-services_1.md)
+  - [<span data-ttu-id="dc8cd-111">Lync Server 2013 での Active Directory ドメインサービスの準備</span><span class="sxs-lookup"><span data-stu-id="dc8cd-111">Preparing Active Directory Domain Services in Lync Server 2013</span></span>](lync-server-2013-preparing-active-directory-domain-services_1.md)
 
-  - [<span data-ttu-id="a5a41-112">Lync Server 2013 のロックダウンされた Active Directory ドメインサービスの準備</span><span class="sxs-lookup"><span data-stu-id="a5a41-112">Preparing a locked-down Active Directory Domain Services in Lync Server 2013</span></span>](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)
+  - [<span data-ttu-id="dc8cd-112">Lync Server 2013 のロックダウンされた Active Directory ドメインサービスの準備</span><span class="sxs-lookup"><span data-stu-id="dc8cd-112">Preparing a locked-down Active Directory Domain Services in Lync Server 2013</span></span>](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)
 
-  - [<span data-ttu-id="a5a41-113">Lync Server 2013 でのアクセス許可の付与</span><span class="sxs-lookup"><span data-stu-id="a5a41-113">Granting permissions in Lync Server 2013</span></span>](lync-server-2013-granting-permissions.md)
+  - [<span data-ttu-id="dc8cd-113">Lync Server 2013 でのアクセス許可の付与</span><span class="sxs-lookup"><span data-stu-id="dc8cd-113">Granting permissions in Lync Server 2013</span></span>](lync-server-2013-granting-permissions.md)
 
 </div>
 

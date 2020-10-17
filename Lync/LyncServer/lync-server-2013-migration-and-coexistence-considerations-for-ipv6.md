@@ -12,20 +12,22 @@ ms:contentKeyID: 48184751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbf7e062a7a96f6f7aca642298471b0a8cf8adaa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1f091b12b12913af107991c86b87d1d738bf88bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185103"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513614"
 ---
+# <a name="migration-and-coexistence-considerations-for-ipv6-in-lync-server-2013"></a><span data-ttu-id="384a0-102">Lync Server 2013 での IPv6 の移行と共存の考慮事項</span><span class="sxs-lookup"><span data-stu-id="384a0-102">Migration and coexistence considerations for IPv6 in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-and-coexistence-considerations-for-ipv6-in-lync-server-2013"></a><span data-ttu-id="eb8bd-102">Lync Server 2013 での IPv6 の移行と共存の考慮事項</span><span class="sxs-lookup"><span data-stu-id="eb8bd-102">Migration and coexistence considerations for IPv6 in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42185103"
 
 <span> </span>
 
-<span data-ttu-id="eb8bd-103">_**トピックの最終更新日:** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="eb8bd-103">_**Topic Last Modified:** 2012-06-14_</span></span>
+<span data-ttu-id="384a0-103">_**トピックの最終更新日:** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="384a0-103">_**Topic Last Modified:** 2012-06-14_</span></span>
 
-<span data-ttu-id="eb8bd-104">IP version 6 (IPv6) は、Lync Server 2010 または Office Communications Server ではサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="eb8bd-104">IP version 6 (IPv6) is not supported on Lync Server 2010 or Office Communications Server.</span></span> <span data-ttu-id="eb8bd-105">パイロット目的で、Lync Server 2010 と Lync Server 2013 のデュアルスタック共存をテストできます。</span><span class="sxs-lookup"><span data-stu-id="eb8bd-105">For piloting purposes, you can test Lync Server 2010 and Lync Server 2013 dual-stack coexistence.</span></span> <span data-ttu-id="eb8bd-106">任意のプールに対して IPv6 (デュアルスタックネットワーク) を有効にする前に、特定の中央サイトのすべてのプールを Lync Server 2013 にアップグレードすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="eb8bd-106">We recommend that all pools for a given central site are upgraded to Lync Server 2013 before you enable IPv6 (dual-stack network) for any of the pools.</span></span> <span data-ttu-id="eb8bd-107">IPv6 に対応したプールのみを構成する必要がある場合は、テスト用のラボ環境に IPv6 専用のプールを設定することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="eb8bd-107">If you need to configure a pool for IPv6 only, we recommend that you set up an IPv6-only pool in your lab environment for testing.</span></span>
+<span data-ttu-id="384a0-104">IP version 6 (IPv6) は、Lync Server 2010 または Office Communications Server ではサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="384a0-104">IP version 6 (IPv6) is not supported on Lync Server 2010 or Office Communications Server.</span></span> <span data-ttu-id="384a0-105">パイロット目的で、Lync Server 2010 と Lync Server 2013 のデュアルスタック共存をテストできます。</span><span class="sxs-lookup"><span data-stu-id="384a0-105">For piloting purposes, you can test Lync Server 2010 and Lync Server 2013 dual-stack coexistence.</span></span> <span data-ttu-id="384a0-106">任意のプールに対して IPv6 (デュアルスタックネットワーク) を有効にする前に、特定の中央サイトのすべてのプールを Lync Server 2013 にアップグレードすることをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="384a0-106">We recommend that all pools for a given central site are upgraded to Lync Server 2013 before you enable IPv6 (dual-stack network) for any of the pools.</span></span> <span data-ttu-id="384a0-107">IPv6 に対応したプールのみを構成する必要がある場合は、テスト用のラボ環境に IPv6 専用のプールを設定することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="384a0-107">If you need to configure a pool for IPv6 only, we recommend that you set up an IPv6-only pool in your lab environment for testing.</span></span>
 
-<span data-ttu-id="eb8bd-108">次のシナリオは、移行と共存でサポートされます。</span><span class="sxs-lookup"><span data-stu-id="eb8bd-108">The following scenarios are supported during migration and coexistence:</span></span>
+<span data-ttu-id="384a0-108">次のシナリオは、移行と共存でサポートされます。</span><span class="sxs-lookup"><span data-stu-id="384a0-108">The following scenarios are supported during migration and coexistence:</span></span>
 
-  - <span data-ttu-id="eb8bd-109">Lync server 2013、Lync Server 2010、および Office Communications Server 2007 R2 プールを IPv4 モードで使用すると、デュアルスタックモードで Lync Server 2013 と共存させることができます。</span><span class="sxs-lookup"><span data-stu-id="eb8bd-109">Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2 pools in IPv4 mode, coexisting with Lync Server 2013 in dual-stack mode.</span></span>
+  - <span data-ttu-id="384a0-109">Lync server 2013、Lync Server 2010、および Office Communications Server 2007 R2 プールを IPv4 モードで使用すると、デュアルスタックモードで Lync Server 2013 と共存させることができます。</span><span class="sxs-lookup"><span data-stu-id="384a0-109">Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2 pools in IPv4 mode, coexisting with Lync Server 2013 in dual-stack mode.</span></span>
 
-  - <span data-ttu-id="eb8bd-110">Ipv6 専用のプールが孤立している場合は、Lync Server 2013 プールを IPv6 専用モードにします。</span><span class="sxs-lookup"><span data-stu-id="eb8bd-110">Lync Server 2013 pool in IPv6-only mode, if the IPv6-only pool is siloed.</span></span>
+  - <span data-ttu-id="384a0-110">Ipv6 専用のプールが孤立している場合は、Lync Server 2013 プールを IPv6 専用モードにします。</span><span class="sxs-lookup"><span data-stu-id="384a0-110">Lync Server 2013 pool in IPv6-only mode, if the IPv6-only pool is siloed.</span></span>
 
 </div>
 
