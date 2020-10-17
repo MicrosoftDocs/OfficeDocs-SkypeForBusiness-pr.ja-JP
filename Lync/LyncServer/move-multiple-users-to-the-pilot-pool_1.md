@@ -12,20 +12,22 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41c663566605529b25d9890bb31cba462364c813
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ffd0fbebffea5553cc461f71cf67843dae0a8ae6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756466"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500224"
 ---
+# <a name="move-multiple-users-to-the-pilot-pool"></a>複数のユーザーをパイロットプールに移動する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-multiple-users-to-the-pilot-pool"></a>複数のユーザーをパイロットプールに移動する
+
 
 </div>
 
@@ -51,7 +53,7 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シ
 
 4.  [**Office Communications Server ユーザー**] が [**True**] のフィルターを作成します。
 
-5.  [**検索**] をクリックして、従来の Office Communications Server 2007 R2 ユーザーを検索します。
+5.  [ **検索** ] をクリックして、従来の Office Communications Server 2007 R2 ユーザーを検索します。
 
 6.  Lync Server 2013 プールに移動する2人のユーザーを選択します。 この例では、Chen Yang および Claus Hansen というユーザーを移動します。
     
@@ -65,7 +67,7 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シ
     
     ![[ユーザーの移動]、[宛先レジストラープール] ダイアログボックス](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "[ユーザーの移動]、[宛先レジストラープール] ダイアログボックス")  
 
-10. ユーザーの [**レジストラープール**] 列に Lync Server 2013 プールが含まれるようになっていることを確認します。これは、ユーザーが正常に移動されたことを示します。
+10. ユーザーの [ **レジストラープール** ] 列に Lync Server 2013 プールが含まれるようになっていることを確認します。これは、ユーザーが正常に移動されたことを示します。
 
 </div>
 
@@ -75,7 +77,7 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シ
 
 1.  Lync Server 2013 管理シェルを開きます。
 
-2.  コマンドラインで、次のように入力し、 **User1**と**User2**を特定のユーザー名に置き換えて、**プールの \_ FQDN**を移行先のプールの名前に置き換えます。 この例では、ユーザーが Hao Chen と Katie ヨルダンを移動します。
+2.  コマンドラインで、次のように入力し、 **User1** と **User2** を特定のユーザー名に置き換えて、 **プールの \_ FQDN** を移行先のプールの名前に置き換えます。 この例では、ユーザーが Hao Chen と Katie ヨルダンを移動します。
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
@@ -85,9 +87,9 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シ
     
         Get-CsUser -Identity "User1"
 
-4.  **レジストラープール**id は、前の手順で**プールの \_ FQDN**として指定したプールを指すようになります。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。 手順を繰り返して、 **User2**が移動されたことを確認します。
+4.  **レジストラープール**id は、前の手順で**プールの \_ FQDN**として指定したプールを指すようになります。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。 手順を繰り返して、 **User2** が移動されたことを確認します。
     
-    ![PowerShell の Get-UsUser-Identity コマンドレットの出力](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell の Get-UsUser-Identity コマンドレットの出力")  
+    ![PowerShell Get-UsUser コマンドレットの出力](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell Get-UsUser コマンドレットの出力")  
 
 </div>
 
@@ -109,7 +111,7 @@ Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シ
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  各ユーザーの**レジストラープール**id は、前の手順で "プール FQDN" として指定したプールを指すようになりました \_ 。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。
+4.  各ユーザーの **レジストラープール** id は、前の手順で "プール FQDN" として指定したプールを指すようになりました \_ 。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。
 
 5.  さらに、Lync Server 2013 コントロールパネルでユーザーの一覧を表示し、レジストラープールの値が Lync Server 2013 プールを指すようになっていることを確認することができます。
     

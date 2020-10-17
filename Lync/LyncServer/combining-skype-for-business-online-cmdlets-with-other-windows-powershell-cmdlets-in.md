@@ -13,20 +13,22 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd4f08370e5aeab6688fdbf2ce13a3e5ccb11a37
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: eb395820f9f90060ac24b737fab08c7d615727c2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755023"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499614"
 ---
+# <a name="combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in"></a>Skype for Business Online コマンドレットと他の Windows PowerShell コマンドレットの組み合わせ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in"></a>Skype for Business Online コマンドレットと他の Windows PowerShell コマンドレットの組み合わせ
+
 
 </div>
 
@@ -40,17 +42,17 @@ _**トピックの最終更新日:** 2013-07-05_
 
 Windows PowerShell を使用して Skype for Business Online に接続すると、約40の Skype for Business Online コマンドレットを使用できるようになります。 ただし、Skype for Business Online を管理する場合は、これらの40コマンドレットのみを使用することに制限はありません。 Skype for Business Online のコマンドレットに加えて、コンピューターにインストールされている他の Windows PowerShell コマンドレットを使用することもできます。 (Windows PowerShell 3.0 をインストールすると、数百種類の Windows PowerShell コマンドレットもインストールされます。)コマンドでは、Skype for Business Online コマンドレットと、コンピューターで使用可能なその他のコマンドレットを混在させることができます。
 
-Windows PowerShell 3.0 の完全なコースはこの記事の範囲を超えていますが、コマンドレットを組み合わせて使用する必要がある理由を示すいくつかの例を以下に示します。 最初に、Skype for Business Online コマンドレットには印刷コマンドは含まれていません。また、Windows PowerShell コンソールでこのコマンドは見つかりません。 では、コマンドレットによって取得された情報の印刷結果を取得するにはどうすればよいですか。 1つの方法として、情報を取得し、その情報を**プリンター**コマンドレットに送信する方法があります。
+Windows PowerShell 3.0 の完全なコースはこの記事の範囲を超えていますが、コマンドレットを組み合わせて使用する必要がある理由を示すいくつかの例を以下に示します。 最初に、Skype for Business Online コマンドレットには印刷コマンドは含まれていません。また、Windows PowerShell コンソールでこのコマンドは見つかりません。 では、コマンドレットによって取得された情報の印刷結果を取得するにはどうすればよいですか。 1つの方法として、情報を取得し、その情報を **プリンター** コマンドレットに送信する方法があります。
 
     Get-CsTenant | Out-Printer
 
-追加のパラメーターは含まれていないため、**出力**コマンドレットによって返されるすべての情報が既定のプリンターに出力されます。
+追加のパラメーターは含まれていないため、 **出力** コマンドレットによって返されるすべての情報が既定のプリンターに出力されます。
 
-同様に、Skype for Business Online のコマンドレットには、データをファイルに保存するためのパラメーターが含まれていません。 しかし、このコマンドは次の**コマンドレットを使用して**、返された情報をテキストファイル C: \\ Logs \\Tenants.txt に保存します。
+同様に、Skype for Business Online のコマンドレットには、データをファイルに保存するためのパラメーターが含まれていません。 しかし、このコマンドは次の **コマンドレットを使用して** 、返された情報をテキストファイル C: \\ Logs \\Tenants.txt に保存します。
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 
-このコマンドは、**オブジェクトの選択**コマンドレットを使用して、返され、画面に表示されるデータを制限します。 この例[では、](https://technet.microsoft.com/library/JJ994026(v=OCS.15))すべての Skype For business Online ユーザーの情報を取得し、次に**オブジェクトの選択**コマンドレットを使用して、表示されるデータをユーザーの id 値とそのアーカイブポリシーに制限します。
+このコマンドは、 **オブジェクトの選択** コマンドレットを使用して、返され、画面に表示されるデータを制限します。 この例 [では、](https://technet.microsoft.com/library/JJ994026(v=OCS.15)) すべての Skype For business Online ユーザーの情報を取得し、次に **オブジェクトの選択** コマンドレットを使用して、表示されるデータをユーザーの id 値とそのアーカイブポリシーに制限します。
 
     Get-CsOnlineUser | Select-Object Identity, ArchivingPolicy
 
@@ -65,11 +67,11 @@ Windows PowerShell 3.0 の完全なコースはこの記事の範囲を超えて
     Manifest   Microsoft.PowerS...  {Add-Computer, Add-Content, A...}
     Script     tmp_5astd3uh.m5v     {Disable-CsMeetingRoom, Enabl...}
 
-ModuleType スクリプトを持つモジュールは、Skype for Business Online のコマンドレットを含むモジュールです。 これらのコマンドレットの一覧を取得するには、モジュール名としてスクリプトモジュールの名前を使用して、**コマンド**レットを実行します。
+ModuleType スクリプトを持つモジュールは、Skype for Business Online のコマンドレットを含むモジュールです。 これらのコマンドレットの一覧を取得するには、モジュール名としてスクリプトモジュールの名前を使用して、 **コマンド** レットを実行します。
 
     Get-Command -Module tmp_5astd3uh.m5v
 
-ModuleType がスクリプトと等しい複数のモジュールを持つことができます。 その場合は、次のコマンドを実行して、 **get-cstenant**コマンドレットが含まれているモジュールを調べることができます。
+ModuleType がスクリプトと等しい複数のモジュールを持つことができます。 その場合は、次のコマンドを実行して、 **get-cstenant** コマンドレットが含まれているモジュールを調べることができます。
 
     Get-Command Get-CsTenant
 

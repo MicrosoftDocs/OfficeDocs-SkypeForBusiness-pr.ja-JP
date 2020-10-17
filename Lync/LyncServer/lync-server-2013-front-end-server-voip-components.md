@@ -12,20 +12,22 @@ ms:contentKeyID: 48183765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 762b7a43343e10fe4d6bec601954474ba3a44b90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 62261a4d4651e38941f5068b58636b82d0151965
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206493"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500704"
 ---
+# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Lync Server 2013 のフロントエンドサーバーの VoIP コンポーネント
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Lync Server 2013 のフロントエンドサーバーの VoIP コンポーネント
+
 
 </div>
 
@@ -93,7 +95,7 @@ Exchange um ルーティングコンポーネントは、Exchange UM サーバ�
 
 ボイスメールの再ルーティングを有効にするには、Exchange 管理者が Exchange UM 自動応答 (AA) を構成してメッセージのみを受け入れるようにすることをお勧めします。
 
-これらの機能の詳細については、「lync server [2013 での Exchange ユニファイドメッセージング統合の計画](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)」および「 [lync server 2013 でのエンタープライズ voip の復元の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)」を参照してください。
+これらの機能の詳細については、「lync server [2013 での Exchange ユニファイドメッセージング統合の計画](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) 」および「 [lync server 2013 でのエンタープライズ voip の復元の計画](lync-server-2013-planning-for-enterprise-voice-resiliency.md)」を参照してください。
 
 </div>
 

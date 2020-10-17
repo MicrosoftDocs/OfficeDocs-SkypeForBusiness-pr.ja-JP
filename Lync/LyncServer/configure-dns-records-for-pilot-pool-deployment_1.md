@@ -13,20 +13,22 @@ ms:contentKeyID: 49733666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3388fb148b4d4f4825432e6168b657405e337c35
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 63348a4e092953beede96a10d109ee5ba23daba4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499534"
 ---
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a>パイロット プール展開の DNS レコードの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-for-pilot-pool-deployment"></a>パイロット プール展開の DNS レコードの構成
+
 
 </div>
 
@@ -44,7 +46,7 @@ Lync Server 2013 パイロットプールを展開する前に、DNS ホスト�
 
 1.  ドメイン ネーム システム (DNS) サーバーで、[**スタート**]、[**管理ツール**]、および [**DNS**] の順にクリックします。
 
-2.  ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされるドメインを右クリックします。
+2.  ドメインのコンソールツリーで、[ **前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされるドメインを右クリックします。
 
 3.  [**新しいホスト (A または AAAA)**] をクリックします。
 

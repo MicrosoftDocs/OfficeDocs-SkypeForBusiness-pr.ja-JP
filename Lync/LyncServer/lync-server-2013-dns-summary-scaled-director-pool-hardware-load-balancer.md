@@ -12,20 +12,22 @@ ms:contentKeyID: 48183340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10c742d8d58392b06bc563cd0a947d46243703d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7755acc815da690312d2f60c2348076b2231cc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192920"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501264"
 ---
+# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 の拡張ディレクタープール、ハードウェアロードバランサー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 の拡張ディレクタープール、ハードウェアロードバランサー
+
 
 </div>
 

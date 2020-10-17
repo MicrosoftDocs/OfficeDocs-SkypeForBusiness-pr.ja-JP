@@ -13,20 +13,22 @@ ms:contentKeyID: 48184883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 099194c7232aadb89d1254057ca7bf15def31a8b
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5c96945faf25e28f57bc7f1a0a211f79fb1ecebb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499844"
 ---
+# <a name="administering-servers-after-migration"></a>移行後のサーバーの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a>移行後のサーバーの管理
+
 
 </div>
 
@@ -38,7 +40,7 @@ ms.locfileid: "44755159"
 
 _**トピックの最終更新日:** 2012-09-29_
 
-通常は、管理するサーバー バージョンに対応した管理ツールを使用する必要があります。 Lync Server 2013 および Office Communications Server 2007 R2 管理ツールを同じコンピューターにインストールすることはできません。 また、Lync Server 2013 コントロールパネルは、各サーバーに自動的にはインストールされません。 Lync Server 2013 コントロールパネルをインストールするには、「展開」のドキュメントの「 [Install Lync server 2013 管理ツール](lync-server-2013-install-lync-server-administrative-tools.md)」のトピック内の手順に従います。
+通常は、管理するサーバー バージョンに対応した管理ツールを使用する必要があります。 Lync Server 2013 および Office Communications Server 2007 R2 管理ツールを同じコンピューターにインストールすることはできません。 また、Lync Server 2013 コントロールパネルは、各サーバーに自動的にはインストールされません。 Lync Server 2013 コントロールパネルをインストールするには、「展開」のドキュメントの「 [Install Lync server 2013 管理ツール](lync-server-2013-install-lync-server-administrative-tools.md) 」のトピック内の手順に従います。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ef9df56c094bb5d7a3972a7c062905cbc4a844a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0cfcd96d0663ca977c83cc90b56bcafd9359a038
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757158"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500164"
 ---
+# <a name="remove-a-front-end-server-from-a-pool"></a>プールからのフロントエンド サーバーの削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-front-end-server-from-a-pool"></a>プールからのフロントエンド サーバーの削除
+
 
 </div>
 
@@ -49,7 +51,7 @@ Microsoft Lync Server 2010 Enterprise Edition フロントエンドサーバー�
 
 2.  [Lync Server 2010 ノードに移動します。
 
-3.  [ **Enterprise Edition フロントエンドプール**] を展開し、削除するフロントエンドサーバーのフロントエンドプールを展開して、削除するフロントエンドサーバーを右クリックし、[**削除**] をクリックします。
+3.  [ **Enterprise Edition フロントエンドプール**] を展開し、削除するフロントエンドサーバーのフロントエンドプールを展開して、削除するフロントエンドサーバーを右クリックし、[ **削除**] をクリックします。
 
 </div>
 

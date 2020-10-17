@@ -12,20 +12,22 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72e52927b8c84f5ad9cb869cd680f057e1618f8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc30b787d938825f229f28b10d54907ad26a4d35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199900"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501324"
 ---
+# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 での自動検出
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---autodiscover-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 での自動検出
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42199900"
 
 _**トピックの最終更新日:** 2013-02-13_
 
-自動検出は、HTTP または HTTPS を経由した通信を受け付ける、柔軟なサービスです。 これを実現するには、ドメインネームシステム (DNS) と自動検出サービスをホストするサーバーで使用される証明書が正しく構成されている必要があります。 証明書の要件は[、「証明書の概要-Lync Server 2013 での自動検出](lync-server-2013-certificate-summary-autodiscover.md)」で説明されています。
+自動検出は、HTTP または HTTPS を経由した通信を受け付ける、柔軟なサービスです。 これを実現するには、ドメインネームシステム (DNS) と自動検出サービスをホストするサーバーで使用される証明書が正しく構成されている必要があります。 証明書の要件は [、「証明書の概要-Lync Server 2013 での自動検出](lync-server-2013-certificate-summary-autodiscover.md)」で説明されています。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server クライアントの DNS 参照ロジックでは、特定の順序で解決されます。 常に lyncdiscoverinternal を含める必要があります。&lt;ドメイン&gt;および lyncdiscover。&lt;DNS&gt;のドメイン。 Lyncdiscoverinternal を除外します。&lt;ドメイン&gt;レコードを使用すると、内部クライアントは、目的のサービスへの接続を失敗させたり、誤った自動検出応答を受信したりします。
+> Lync Server クライアントの DNS 参照ロジックでは、特定の順序で解決されます。 常に lyncdiscoverinternal を含める必要があります。 &lt;ドメイン &gt; および lyncdiscover。 &lt;&gt;DNS のドメイン。 Lyncdiscoverinternal を除外します。 &lt;ドメインレコードを使用すると &gt; 、内部クライアントは、目的のサービスへの接続を失敗させたり、誤った自動検出応答を受信したりします。
 
 
 
@@ -67,12 +69,12 @@ _**トピックの最終更新日:** 2013-02-13_
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>Lyncdiscoverinternal.&lt;内部ドメイン名&gt;</p></td>
+<td><p>Lyncdiscoverinternal。 &lt;内部ドメイン名&gt;</p></td>
 <td><p>ディレクターを所有していない場合は、ディレクタープールの内部 Web サービスの FQDN、またはディレクターを持っていない場合はフロントエンドプール用。</p></td>
 </tr>
 <tr class="even">
 <td><p>A (IPv6 の場合は host、AAAA の場合)</p></td>
-<td><p>lyncdiscoverinternal.&lt;内部ドメイン名&gt;</p></td>
+<td><p>lyncdiscoverinternal。 &lt;内部ドメイン名&gt;</p></td>
 <td><p>ディレクタープールがある場合、ディレクタープールの内部 Web サービス IP アドレス (ロードバランサーを使用する場合は仮想 IP (VIP) アドレス) (ディレクターを持っていない場合は、フロントエンドプールがある場合)。</p></td>
 </tr>
 </tbody>
@@ -99,12 +101,12 @@ _**トピックの最終更新日:** 2013-02-13_
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover.&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 <td><p>ディレクターが存在しない場合は、ディレクタープールの外部 Web サービスの FQDN、またはディレクターを持っていない場合はフロントエンドプール。</p></td>
 </tr>
 <tr class="even">
 <td><p>A (IPv6 の場合は host、AAAA の場合)</p></td>
-<td><p>lyncdiscover.&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 <td><p>リバースプロキシの外部またはパブリック IP アドレス。</p></td>
 </tr>
 </tbody>

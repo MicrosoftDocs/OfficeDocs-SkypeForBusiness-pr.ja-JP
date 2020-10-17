@@ -12,20 +12,22 @@ ms:contentKeyID: 49733689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e01f5b0fb07477437de9af2acd7ad58e946e6c32
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 966182705fd3f18bfa10d1d6042e1c3c94204e9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500214"
 ---
+# <a name="move-remaining-users-to-lync-server-2013"></a>残りのユーザーを Lync Server 2013 に移動する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-remaining-users-to-lync-server-2013"></a>残りのユーザーを Lync Server 2013 に移動する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42189790"
 
 _**トピックの最終更新日:** 2012-09-29_
 
-Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、ユーザーを新しい Lync Server 2013 展開に移動することができます。 Lync Server 2013 にスムーズに移行できるようにするには、いくつかの要件を満たす必要があります。 このトピックの手順を完了するための前提条件の詳細については、「 [Configure clients for migration](configure-clients-for-migration.md)」を参照してください。 ユーザーの移動の詳細な手順については、「[フェーズ 4: テストユーザーをパイロットプールに移動する](phase-4-move-test-users-to-the-pilot-pool.md)」を参照してください。
+Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、ユーザーを新しい Lync Server 2013 展開に移動することができます。 Lync Server 2013 にスムーズに移行できるようにするには、いくつかの要件を満たす必要があります。 このトピックの手順を完了するための前提条件の詳細については、「 [Configure clients for migration](configure-clients-for-migration.md)」を参照してください。 ユーザーの移動の詳細な手順については、「 [フェーズ 4: テストユーザーをパイロットプールに移動する](phase-4-move-test-users-to-the-pilot-pool.md)」を参照してください。
 
 <div>
 
@@ -55,7 +57,7 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 
 > [!IMPORTANT]  
-> これには、レガシ ユーザーによって作成されたアクティブな会議が含まれます。 たとえば、従来のユーザーが<STRONG>会議</STRONG>の会議を構成している場合は、ユーザーが移動された後も、新しい Lync Server 2013 プールでその会議を利用できます。 会議へのアクセスに使用する<STRONG>会議 URL と電話会議 ID</STRONG> も同じです。 唯一の違いは、会議が lync server 2010 プールではなく Lync Server 2013 プールでホストされるようになったことです。
+> これには、レガシ ユーザーによって作成されたアクティブな会議が含まれます。 たとえば、従来のユーザーが <STRONG>会議</STRONG> の会議を構成している場合は、ユーザーが移動された後も、新しい Lync Server 2013 プールでその会議を利用できます。 会議へのアクセスに使用する<STRONG>会議 URL と電話会議 ID</STRONG> も同じです。 唯一の違いは、会議が lync server 2010 プールではなく Lync Server 2013 プールでホストされるようになったことです。
 
 
 

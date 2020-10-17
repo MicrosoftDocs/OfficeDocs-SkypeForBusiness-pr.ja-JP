@@ -12,20 +12,22 @@ ms:contentKeyID: 48183852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34f3ea8a5b25a4eaa3345249c8c7847dd4a3f2bd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b729112aa0fb064a518c50212a6a041a6661be3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204713"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499504"
 ---
+# <a name="appsharingstream-table-in-lync-server-2013"></a>Lync Server 2013 の AppSharingStream テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appsharingstream-table-in-lync-server-2013"></a>Lync Server 2013 の AppSharingStream テーブル
+
 
 </div>
 
@@ -90,13 +92,13 @@ AppSharingStream テーブルには、アプリケーション共有のストリ
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。 (ジッターは、通話の&quot;過&quot;の測定値です)。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</p></td>
+<td><p>RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。 (ジッターは、通話の過の測定値です &quot; &quot; )。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>RTP パケットの着信間に検出された最大ジッター (ジッターとは、通話の "揺れ" の測定値です)。 (ジッターは、通話の&quot;過&quot;の測定値です)。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</p></td>
+<td><p>RTP パケットの着信間に検出された最大ジッター (ジッターとは、通話の "揺れ" の測定値です)。 (ジッターは、通話の過の測定値です &quot; &quot; )。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>要し</strong></p></td>
@@ -653,7 +655,7 @@ AppSharingStream テーブルには、アプリケーション共有のストリ
 <td><p>着信の平均フレーム レート (フレーム/秒)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>送信</strong></p></td>
+<td><p><strong>向き</strong></p></td>
 <td><p>若干</p></td>
 <td></td>
 <td><p>発信の平均フレーム レート (フレーム/秒)。</p></td>

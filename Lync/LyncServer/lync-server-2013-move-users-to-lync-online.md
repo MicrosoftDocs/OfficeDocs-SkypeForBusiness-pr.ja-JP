@@ -12,20 +12,22 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dcc72c0f9934aebf28838cfd79899e1ce7aa2bc
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 189bf46da6c6bdaa6749f899d2a672967680cc45
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221207"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500574"
 ---
+# <a name="move-users-to-lync-online-in-lync-server-2013"></a>Lync Server 2013 でユーザーを Lync Online に移動する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-users-to-lync-online-in-lync-server-2013"></a>Lync Server 2013 でユーザーを Lync Online に移動する
+
 
 </div>
 
@@ -63,7 +65,7 @@ Lync Online へのユーザーの移動を開始する前に、いくつかの�
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-**HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、Hosted Migration service が実行されているプールへの url である必要があります。 HTTPS:// \< pool FQDN \> /hostedmigration/hostedmigrationservice.svc
+**HostedMigrationOverrideUrl**パラメーターに指定する url の形式は、次の形式で、Hosted Migration service が実行されているプールへの url である必要があります。 Https:// \<Pool FQDN\> /hostedmigration/hostedmigrationservice.svc
 
 ホストされている移行サービスへの URL を確認するには、Microsoft 365 または Office 365 組織アカウントの Lync Online コントロールパネルの URL を表示します。
 
@@ -77,13 +79,13 @@ Lync Online へのユーザーの移動を開始する前に、いくつかの�
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  URL 内の**webdir**を**管理者**に置き換えます。結果は次のようになります。
+4.  URL 内の **webdir** を **管理者**に置き換えます。結果は次のようになります。
     
     `https://admin0a.online.lync.com`
 
 5.  次の文字列を URL: **/HostedMigration/hostedmigrationservice.svc**に追加します。
     
-    生成される URL は**HostedMigrationOverrideUrl**の値で、次のようになります。
+    生成される URL は **HostedMigrationOverrideUrl**の値で、次のようになります。
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 
@@ -93,7 +95,7 @@ Lync Online へのユーザーの移動を開始する前に、いくつかの�
 
 ## <a name="moving-users-to-lync-online"></a>Lync Online へのユーザーの移動
 
--Filter パラメーターを指定して RegistrarPool[コマンドレット](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)を使用して、ユーザーアカウントに割り当てられた特定のプロパティを持つユーザーを選択することで、複数のユーザーを移動することができます。 その後、次の例に示すように、返されたユーザーを[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)コマンドレットにパイプ処理できます。
+-Filter パラメーターを指定して RegistrarPool [コマンドレット](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) を使用して、ユーザーアカウントに割り当てられた特定のプロパティを持つユーザーを選択することで、複数のユーザーを移動することができます。 その後、次の例に示すように、返されたユーザーを [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) コマンドレットにパイプ処理できます。
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

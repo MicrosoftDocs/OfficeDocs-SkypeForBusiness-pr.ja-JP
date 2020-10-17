@@ -12,20 +12,22 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 049472022a26d7a3a6e8e78e20a20ccaa46ff5fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d1a080f7183bbab62cae679c911c76261694406
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500274"
 ---
+# <a name="move-conference-directories"></a>会議ディレクトリの移動
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-conference-directories"></a>会議ディレクトリの移動
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**トピックの最終更新日:** 2014-05-28_
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-Lync 2010 プールを使用停止にするための包括的な手順については、「Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)Server 2010 のアンインストールとサーバーの役割の削除」を参照してください。
+[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)Lync 2010 プールを使用停止にするための包括的な手順については、「Microsoft Lync Server 2010 のアンインストールとサーバーの役割の削除」を参照してください。
 
 会議ディレクトリを移動すると、次のエラーが発生する場合があります。
 

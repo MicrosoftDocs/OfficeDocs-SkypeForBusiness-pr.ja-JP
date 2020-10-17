@@ -12,20 +12,22 @@ ms:contentKeyID: 48185800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d954fcd121bff2dbc77f390b5cdad1116bb7e7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d03f47cbe637e2c6fe6a0466b73a3588b842d6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501044"
 ---
+# <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 のエンタープライズ Voip でユーザーを有効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 のエンタープライズ Voip でユーザーを有効にする
+
 
 </div>
 
@@ -101,13 +103,13 @@ _**トピックの最終更新日:** 2012-11-01_
     
         Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
     
-    次に例を示します。
+    次にその例を示します。
     
         Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
     
     この例では、表示名が Bob 友野のユーザーには、 **voicepolicyjapan という**という名前の音声ポリシーが割り当てられます。
 
-ユーザー固有の音声ポリシーの割り当て、または**set-csvoicepolicy**コマンドレットの実行の詳細については、「 [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) 」のドキュメントを参照してください。
+ユーザー固有の音声ポリシーの割り当て、または **set-csvoicepolicy** コマンドレットの実行の詳細については、「 [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) 」のドキュメントを参照してください。
 
 </div>
 
@@ -137,9 +139,9 @@ _**トピックの最終更新日:** 2012-11-01_
     
         Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
     
-    この例では、表示名が Bob 友野のユーザーには、ダイヤルプラン**日本**という名前のユーザーダイヤルプランが割り当てられます。
+    この例では、表示名が Bob 友野のユーザーには、ダイヤルプラン **日本**という名前のユーザーダイヤルプランが割り当てられます。
 
-ユーザーダイヤルプランの割り当て、または**get-csdialplan**コマンドレットの実行に関する詳細については、「 [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) 」のドキュメントを参照してください。
+ユーザーダイヤルプランの割り当て、または **get-csdialplan** コマンドレットの実行に関する詳細については、「 [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md) 」のドキュメントを参照してください。
 
 </div>
 

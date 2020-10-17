@@ -12,20 +12,22 @@ ms:contentKeyID: 48184177
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd64239460d76d63b28bb3a3abeb8c5cc8bb97d9
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1bad444821c352991c1befd184d91920dcd5d147
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757138"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500104"
 ---
+# <a name="remove-an-authorized-host-entry"></a>承認済みホストエントリを削除する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-an-authorized-host-entry"></a>承認済みホストエントリを削除する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44757138"
 
 _**トピックの最終更新日:** 2012-09-26_
 
-このトピックでは、従来の承認済みホストエントリ (Lync Server 2013 の [*信頼されたアプリケーションエントリ*] と呼ばれる) を削除する方法について説明します。 リモート通話コントロールを Lync Server 2013 展開に移行する場合は、Office Communications Server 2007 R2 展開で SIP/CSTA ゲートウェイの既存の承認済みホストエントリを削除する必要があります。 既存の承認済みホストエントリを削除するには、Office Communications Server 2007 R2 に含まれている管理ツールを使用する必要があります。
+このトピックでは、従来の承認済みホストエントリ (Lync Server 2013 の [ *信頼されたアプリケーションエントリ* ] と呼ばれる) を削除する方法について説明します。 リモート通話コントロールを Lync Server 2013 展開に移行する場合は、Office Communications Server 2007 R2 展開で SIP/CSTA ゲートウェイの既存の承認済みホストエントリを削除する必要があります。 既存の承認済みホストエントリを削除するには、Office Communications Server 2007 R2 に含まれている管理ツールを使用する必要があります。
 
 <div>
 

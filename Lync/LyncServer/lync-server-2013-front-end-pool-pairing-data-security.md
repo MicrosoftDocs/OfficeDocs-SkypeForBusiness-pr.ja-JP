@@ -12,20 +12,22 @@ ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 503a5a02d4412fe2bbbf5f1882e3d7d117640576
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d86f60e81e053a1ba07878728dd9c7273bd7feeb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500724"
 ---
+# <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドプールのペアリングデータのセキュリティ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドプールのペアリングデータのセキュリティ
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-10-07_
 
 ## <a name="mitigating-security-risks"></a>セキュリティ リスクの軽減
 
-バックアップサービストラフィックのセキュリティ保護を強化する方法は多数あります。つまり、データセンターへのアクセスを制限して、2つのデータセンター間で WAN トランスポートを保護することができます。 ほとんどの場合、Lync Server 2013 を展開する企業には、必要なセキュリティインフラストラクチャが既に配置されている場合があります。 ガイダンスを探している企業では、セキュリティで保護された IT インフラストラクチャを構築する方法の例として、Microsoft がソリューションを提供しています。 ただし、これは、唯一の解決策であるとは言えません。また、これが Lync Server にとって推奨されるソリューションであるという意味でもありません。 企業のお客様は、IT セキュリティインフラストラクチャと要件に基づいて、特定のニーズに適合するソリューションを選択することをお勧めします。Microsoft ソリューションの例では、サーバーとドメインの分離に IPSec およびグループポリシーを採用しています。 詳細について[https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?linkid=268544)は、「」を参照してください。 質問とコメントについては、secwish@microsoft.com にお問い合わせください。
+バックアップサービストラフィックのセキュリティ保護を強化する方法は多数あります。つまり、データセンターへのアクセスを制限して、2つのデータセンター間で WAN トランスポートを保護することができます。 ほとんどの場合、Lync Server 2013 を展開する企業には、必要なセキュリティインフラストラクチャが既に配置されている場合があります。 ガイダンスを探している企業では、セキュリティで保護された IT インフラストラクチャを構築する方法の例として、Microsoft がソリューションを提供しています。 ただし、これは、唯一の解決策であるとは言えません。また、これが Lync Server にとって推奨されるソリューションであるという意味でもありません。 企業のお客様は、IT セキュリティインフラストラクチャと要件に基づいて、特定のニーズに適合するソリューションを選択することをお勧めします。Microsoft ソリューションの例では、サーバーとドメインの分離に IPSec およびグループポリシーを採用しています。 詳細については、「」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?linkid=268544) 。 質問とコメントについては、secwish@microsoft.com にお問い合わせください。
 
 別の方法として、IPSec を使用してバックアップサービス自体によって送信されたデータをセキュリティで保護することもできます。 この方法を選択する場合は、次のサーバーの SMB プロトコルの IPSec ルールを構成する必要があります。ここで、プール A とプール B は2つのフロントエンドプールとペアになります。
 

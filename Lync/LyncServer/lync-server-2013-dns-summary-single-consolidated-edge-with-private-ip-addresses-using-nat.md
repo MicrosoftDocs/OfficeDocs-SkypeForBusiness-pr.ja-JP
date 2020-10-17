@@ -12,20 +12,22 @@ ms:contentKeyID: 48185025
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce9737824248ea9f7d11803be14f1c008cc51261
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f97c44b0d199ec257b6e8b8e1d5f4c6d7fa307b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192880"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501244"
 ---
+# <a name="dns-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 で NAT を使用するプライベート IP アドレスを持つ単一統合エッジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 で NAT を使用するプライベート IP アドレスを持つ単一統合エッジ
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server 2013 へのリモートアクセスの DNS レコードの要件は�
 
 Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 要件を決定](lync-server-2013-determine-dns-requirements.md)する」を参照してください。
 
-スプリットブレイン DNS が構成されていない場合に、Lync 2013 を実行しているクライアントの自動構成の詳細については、「 [Lync Server 2013 の DNS 要件を決定する](lync-server-2013-determine-dns-requirements.md)」の「スプリットブレイン dns なしの自動構成」を参照してください。
+スプリットブレイン DNS が構成されていない場合に、Lync 2013 を実行しているクライアントの自動構成の詳細については、「 [Lync Server 2013 の dns 要件を決定する](lync-server-2013-determine-dns-requirements.md)」の「Split-Brain dns を使用しない自動構成」を参照してください。
 
 次の表に、単一統合エッジ トポロジの図に示される単一統合エッジ トポロジのサポートに必要な DNS レコードの概要を示します。 特定の DNS レコードは、Lync 2013 および Lync 2010 クライアントの自動構成にのみ必要であることに注意してください。 グループポリシーオブジェクト (Gpo) を使用して Lync クライアントを構成することを計画している場合は、関連付けられている自動構成レコードは必要ありません。
 
@@ -49,7 +51,7 @@ Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 
 
 ## <a name="important-edge-server-network-adapter-requirements"></a>重要: エッジサーバーのネットワークアダプターの要件
 
-ルーティングに関する問題を回避するには、エッジサーバーに少なくとも2つのネットワークアダプターがあり、既定のゲートウェイが、外部インターフェイスに関連付けられているネットワークアダプター上でのみ設定されていることを確認します。 たとえば、単一の統合エッジトポロジ図に、[プライベート IP アドレスと、Lync Server 2013 の NAT を含む単一統合エッジ](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)の場合は、既定のゲートウェイが外部ファイアウォール (10.45.16.1) を指します。
+ルーティングに関する問題を回避するには、エッジサーバーに少なくとも2つのネットワークアダプターがあり、既定のゲートウェイが、外部インターフェイスに関連付けられているネットワークアダプター上でのみ設定されていることを確認します。 たとえば、単一の統合エッジトポロジ図に、 [プライベート IP アドレスと、Lync Server 2013 の NAT を含む単一統合エッジ](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)の場合は、既定のゲートウェイが外部ファイアウォール (10.45.16.1) を指します。
 
 エッジ サーバーの 2 つのネットワーク アダプターは、次のように構成できます。
 
@@ -126,13 +128,13 @@ Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 
 </tr>
 <tr class="even">
 <td><p>外部 DNS/SRV/443</p></td>
-<td><p>_sip の _tls</p></td>
+<td><p>_sip _sip._tls</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>アクセス エッジ外部インターフェイス。 Lync 2013 および Lync 2010 クライアントを外部で動作するように自動構成するために必要です。 必要に応じて、Lync が有効なユーザーのいるすべての SIP ドメインに対して繰り返します。</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls の _tcp</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>SIP アクセス エッジ外部インターフェイス。"許可済み SIP ドメイン" (以前のリリースでは拡張フェデレーション) と呼ばれるフェデレーション パートナーの自動 DNS 検出で必要です。必要に応じて、Lync が有効なユーザーのいるすべての SIP ドメインに対して繰り返します。</p></td>
 </tr>
@@ -150,7 +152,7 @@ Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 
 
 
 > [!IMPORTANT]
-> 前の表に記載されているレコードは、 <EM>.net</EM>内線番号または<EM>.com</EM>拡張子のどちらかを使用して表示され、スプリットブレイン DNS を使用していない場合にどの領域を含める必要があるかを強調表示します。 スプリットブレイン DNS を使用している場合は、すべてのレコードが同じ<EM>.com</EM>ゾーンに存在することになります。これは、内部または外部 DNS ゾーンのバージョンであるかどうかによってのみ区別されます。 詳細については、「 <A href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013 の DNS 要件を決定する</A>」の「スプリットブレイン dns」を参照してください。
+> 前の表に記載されているレコードは、 <EM>.net</EM> 内線番号または <EM>.com</EM> 拡張子のどちらかを使用して表示され、スプリットブレイン DNS を使用していない場合にどの領域を含める必要があるかを強調表示します。 スプリットブレイン DNS を使用している場合は、すべてのレコードが同じ <EM>.com</EM> ゾーンに存在することになります。これは、内部または外部 DNS ゾーンのバージョンであるかどうかによってのみ区別されます。 詳細については、「 <A href="lync-server-2013-determine-dns-requirements.md">Lync Server 2013 の DNS 要件を決定する</A>」の「スプリットブレイン dns」を参照してください。
 
 
 
@@ -181,7 +183,7 @@ Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls の _tcp</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>他の潜在的フェデレーション パートナーによるフェデレーションの自動 DNS 検出に必要な SIP アクセス エッジ外部インターフェイス。"許可済み SIP ドメイン" (以前のリリースでは拡張フェデレーションと呼ばれていました) と呼ばれます。すべての SIP ドメインと Lync が有効なユーザーについて必要なだけ繰り返します。</p>
 
@@ -221,9 +223,9 @@ Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-サーバーの _tcp</p></td>
+<td><p>_xmpp-server._tcp</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>アクセスエッジサービスまたはエッジプール上の XMPP プロキシの外部インターフェイス。すべての内部 SIP ドメインについて必要に応じて、グローバルポリシー、ユーザーが配置されているサイトポリシー、またはユーザーポリシーを使用して、外部アクセスポリシーを構成することにより、Lync が有効なユーザー。 許可されている XMPP ドメインは、XMPP フェデレーションパートナーポリシーでも構成する必要があります。 詳細については、 <strong>「</strong>関連項目」を参照してください。</p></td>
+<td><p>アクセスエッジサービスまたはエッジプール上の XMPP プロキシの外部インターフェイス。必要に応じて、Lync が有効になっているすべての内部 SIP ドメインについて、グローバルポリシー、ユーザーが配置されているサイトポリシー、Lync が有効なユーザーに適用されているユーザーポリシーを使用して、外部アクセスポリシーの構成を通じて、外部アクセスポリシーの構成を通じて実行できます。 許可されている XMPP ドメインは、XMPP フェデレーションパートナーポリシーでも構成する必要があります。 詳細については、 <strong>「</strong> 関連項目」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>

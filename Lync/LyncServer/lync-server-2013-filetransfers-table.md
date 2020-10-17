@@ -12,20 +12,22 @@ ms:contentKeyID: 48184118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f98cb2ecafbc67bc4a2c231717d18a728363fe0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cacd637caec827a87008c3a6554750b7e5b61719
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500924"
 ---
+# <a name="filetransfers-table-in-lync-server-2013"></a>Lync Server 2013 の FileTransfers テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="filetransfers-table-in-lync-server-2013"></a>Lync Server 2013 の FileTransfers テーブル
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2012-09-28_
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>
@@ -60,13 +62,13 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>日付型</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>セッション要求の時刻。 セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッション要求の時刻。 セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために <strong>SessionIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために <strong>SessionIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>File Name</strong></p></td>

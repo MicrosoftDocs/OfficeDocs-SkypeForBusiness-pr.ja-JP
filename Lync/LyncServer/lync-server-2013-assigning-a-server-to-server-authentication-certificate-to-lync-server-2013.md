@@ -12,20 +12,22 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 952f4c1b14ce7260d4b320ea7feacddb9a85a8f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec8ac614cdc829ab2b1efd7d6ff9179c33d5a33e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203303"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499474"
 ---
+# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>サーバー間認証証明書を Microsoft Lync Server 2013 に割り当てる
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>サーバー間認証証明書を Microsoft Lync Server 2013 に割り当てる
+
 
 </div>
 
@@ -56,7 +58,7 @@ _**トピックの最終更新日:** 2013-10-24_
 
 1 つ目のコマンドでは、取得された証明書がグローバルなサーバー対サーバーの認証の証明書として機能するように構成されます。つまり、その証明書はすべてのフロントエンド サーバーにレプリケートされ、使用されます。この場合も、このコマンドはいずれかのフロントエンド サーバーで 1 回だけ実行します。すべてのフロントエンド サーバーで同じ証明書を使用する必要がありますが、各フロントエンド サーバーで OAuthTokenIssuer 証明書を構成する必要はありません。そうではなく、証明書を 1 回構成し、Lync Server のレプリケーション サーバーに各サーバーに対して証明書をコピーさせます。
 
-この証明書を対象とする証明書を取得し、その証明書を現在の OAuthTokenIssuer 証明書として機能するように直ちに設定します。 (Lync Server 2013 は、証明書の種類が現在の証明書と以前の証明書という2つのコピーを保持します。)新しい証明書を OAuthTokenIssuer 証明書としてすぐに機能させる必要がある場合は、コマンドレットを使用する必要があります。
+Set-CsCertificate コマンドレットは、該当する証明書を取得し、その証明書を現在の OAuthTokenIssuer 証明書として機能するように直ちに構成します。 (Lync Server 2013 は、証明書の種類が現在の証明書と以前の証明書という2つのコピーを保持します。)新しい証明書を OAuthTokenIssuer 証明書として直接操作する必要がある場合は、Set-CsCertificate コマンドレットを使用する必要があります。
 
 Set-CsCertificate コマンドレットを使用して、新しい証明書を "ロール" することもできます。証明書の "ロール" とは、指定した時点から新しい証明書を現在の OAuthTokenIssuer 証明書にするように構成することを意味します。たとえば、次のコマンドを実行すると、既定の証明書が取得してから、2012 年 7 月 1 日付けでその証明書が現在の OAuthTokenIssuer 証明書になるように構成します。
 
@@ -83,7 +85,7 @@ Windows PowerShell を使用したくない場合は、証明書 MMC コンソ�
 
 2.  展開ウィザードで、[**Lync Server システムのインストールまたは更新**] をクリックします。
 
-3.  [Microsoft Lync Server 2013] ページで、[**ステップ 3: 証明書の要求、インストール、または割り当て**] の下にある [**実行**] ボタンをクリックします。 (メモ: このコンピューターに既に証明書をインストールしている場合は、[**実行**] ボタンに [**再実行**] と表示されます。)
+3.  [Microsoft Lync Server 2013] ページで、[**ステップ 3: 証明書の要求、インストール、または割り当て**] の下にある [**実行**] ボタンをクリックします。 (メモ: このコンピューターに既に証明書をインストールしている場合は、[ **実行** ] ボタンに [ **再実行**] と表示されます。)
 
 4.  証明書ウィザードで、**OAuthTokenIssuer** 証明書を選択してから [**割り当て**] をクリックします。
 

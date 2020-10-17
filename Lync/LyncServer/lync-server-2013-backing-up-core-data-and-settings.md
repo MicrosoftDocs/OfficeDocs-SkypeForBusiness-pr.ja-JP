@@ -12,20 +12,22 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 403a32798f84d2be6d045564e3a3e3803240f4a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e871b0bcd29d3a29a2a3a038529a530bc75e2a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205863"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499384"
 ---
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Lync Server 2013 でのコアデータと設定のバックアップ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Lync Server 2013 でのコアデータと設定のバックアップ
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**トピックの最終更新日:** 2014-04-23_
     
         Export-CsConfiguration -FileName <path and file name for backup>
     
-    例:
+    次に例を示します。
     
         Export-CsConfiguration -FileName "C:\Config.zip"
     
@@ -78,7 +80,7 @@ _**トピックの最終更新日:** 2014-04-23_
     
     </div>
 
-5.  バックアップした中央管理ストア構成ファイルを $Backup\\にコピーします。
+5.  バックアップした中央管理ストア構成ファイルを $Backup にコピーし \\ ます。
 
 6.  場所情報サービスのデータをバックアップします。コマンド ラインで、次のように入力します。
     
@@ -88,17 +90,17 @@ _**トピックの最終更新日:** 2014-04-23_
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  バックアップした場所情報サービス構成ファイルを $Backup\\にコピーします。
+7.  バックアップした場所情報サービス構成ファイルを $Backup にコピーし \\ ます。
 
 8.  フロントエンドプールおよびすべての Standard Edition サーバーのすべてのバックエンドデータベースについて、ユーザーデータをバックアップします。 コマンドラインで、次のように入力します。
     
         Export-CsUserData -PoolFQDN <Fqdn> -FileName <String>
     
-    例:
+    次に例を示します。
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  バックアップしたユーザーファイルを $Backup\\にコピーします。
+9.  バックアップしたユーザーファイルを $Backup にコピーし \\ ます。
 
 10. 応答グループアプリケーションが実行されているすべてのプールで、応答グループ構成をバックアップします。 次の操作を実行してください。
     
@@ -110,7 +112,7 @@ _**トピックの最終更新日:** 2014-04-23_
         
             Export-CsRgsConfiguration -Source ApplicationServer:pool01.contoso.com -FileName C:\RgsConfiguration.zip
 
-11. バックアップされた応答グループ構成ファイルを $Backup\\にコピーします。
+11. バックアップされた応答グループ構成ファイルを $Backup にコピーし \\ ます。
 
 </div>
 

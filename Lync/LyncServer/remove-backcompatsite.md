@@ -12,20 +12,22 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 792fcf29033a7495a7da340decb561e25084612d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ba13ec0bf942298748b18ac1c94418275c728949
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757128"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500094"
 ---
+# <a name="remove-backcompatsite"></a>BackCompatSite の削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-backcompatsite"></a>BackCompatSite の削除
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 5.  [**内部 SIP ポートの指定**] ページで、[**次へ**] をクリックします。
 
-6.  [**概要**] ページで、[**次**へ] をクリックして、従来のサイトを削除するためのトポロジのマージを開始します。
+6.  [ **概要** ] ページで、[ **次** へ] をクリックして、従来のサイトを削除するためのトポロジのマージを開始します。
 
 7.  [**状態**] 列の値が "**成功**" になっていることを確認し、[**完了**] をクリックしてウィザードを閉じます。
 

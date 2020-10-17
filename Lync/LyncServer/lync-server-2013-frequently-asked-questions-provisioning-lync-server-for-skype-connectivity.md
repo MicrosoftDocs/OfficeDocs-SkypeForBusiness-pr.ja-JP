@@ -12,20 +12,22 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0315104e4bbbd2d8741d5bc011455be2d28191dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500814"
 ---
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>よく寄せられる質問: Lync Server 2013 を Skype 接続用にプロビジョニングする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>よく寄せられる質問: Lync Server 2013 を Skype 接続用にプロビジョニングする
+
 
 </div>
 
@@ -116,15 +118,15 @@ _**トピックの最終更新日:** 2019-03-22_
 
   - 連絡先情報。 指定した各 SIP ドメインの管理者の電子メールアドレスを指定します。
 
-**Q: 分割ドメインシナリオで Lync-Skype 接続を有効にするにはどうすればよいですか?**
+**Q: 分割ドメインシナリオで Lync-Skype 接続を有効にする方法を教えてください。**
 
-**A:** Lync Online 2013 および Lync Server のオンプレミスの分割ドメインシナリオがあり、(同じ SIP ドメインを使用してオンラインとオンプレミスの両方でユーザーがいる場合)、次の2つの手順を実行して Lync-Skype 接続を有効にします。
+**A:** Lync Online 2013 と Lync Server のオンプレミスの分割ドメインシナリオがある場合 (同じ SIP ドメインを使用してオンラインとオンプレミスの両方でユーザーがいる場合) は、次の順序で2つの手順を実行して、Lync-Skype 接続を有効にします。
 
 1.  「PIC プロビジョニングガイド」で説明されているように、オンプレミスの Lync-Skype 接続をセットアップします。
 
 2.  ドメインが Microsoft によってプロビジョニングされたことを確認するメッセージが表示されるまで待機します。
 
-3.  確認が表示されたら、Lync 管理センターを使用して "外部通信" を有効にします。 詳細については、[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  確認が表示されたら、Lync 管理センターを使用して "外部通信" を有効にします。 詳細については、 [https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 この順序は重要です。Lync Online で通信を有効にする前に、オンプレミス接続をセットアップする必要があります。 順序を逆にした場合、でオンプレミスで入力された情報 <https://pic.lync.com> は通過しません。 このドメインとの外部通信に既に Lync Online をセットアップしている場合は、これをオフにし、24時間待機してから、もう一度開始します。最初に、オンプレミス情報を入力してから、 <https://pic.lync.com> Lync Online の外部通信を有効にしてください。
 
@@ -134,11 +136,11 @@ _**トピックの最終更新日:** 2019-03-22_
 
 **Q: プロビジョニングを要求している組織に対して見つかった Microsoft アカウントの電子メールアドレスの一覧を取得できますか。**
 
-**A:** 違います。 これらのアドレスは個人を特定できる情報と見なされ、共有されません。
+**A:** いいえ。 これらのアドレスは個人を特定できる情報と見なされ、共有されません。
 
 **Q: Windows Live でサポートされているドメイン以外のドメインを含む ID を持つ Windows Live Messenger の連絡先を追加するにはどうすればよいですか?**
 
-**A:** Windows live 以外のドメインを持つアカウントまたは ID を使用して Windows Live Messenger ユーザーを追加する場合は、アドレスを次の形式で入力します。 \< ユーザー名 \> ( \< ドメイン名 \> ) @msn .com。 \< ドメイン名 \> は、ユーザーの電子メールアドレスのドメイン名です。 たとえば、ted@contoso.com を追加する必要がある場合は、次の形式を使用します。 ted () @msn .com。 Windows Live によって管理されるドメインの一覧については、「Live Communications Server Service Pack 1 をインストールした後のパブリックインスタントメッセージングに関する既知の問題」の「サポートされるドメイン」セクションを参照してください https://support.microsoft.com/?kbid=897567 。
+**A:** Windows live 以外のドメインを持つアカウントまたは ID を使用して Windows Live Messenger ユーザーを追加する場合は、アドレスを次の形式で入力します。 \<user name\> ( \<domain name\> ) @msn .com。ここで、 \<domain name\> はユーザーの電子メールアドレスのドメイン名です。 たとえば、ted@contoso.com を追加する必要がある場合は、次の形式を使用します。 ted () @msn .com。 Windows Live によって管理されるドメインの一覧については、「Live Communications Server Service Pack 1 をインストールした後のパブリックインスタントメッセージングに関する既知の問題」の「サポートされるドメイン」セクションを参照してください https://support.microsoft.com/?kbid=897567 。
 
 **Q: プロビジョニングプロセスにはどのくらいの時間がかかりますか?**
 

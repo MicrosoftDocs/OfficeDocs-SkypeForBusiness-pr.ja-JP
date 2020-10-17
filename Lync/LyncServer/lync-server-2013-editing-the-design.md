@@ -12,20 +12,22 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1f6fa93dbb7ab1ad33b8972b8f09a025dec58c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 68a1a4257279f786d35c89153e0cf2154b39a6b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501114"
 ---
+# <a name="editing-the-design-in-lync-server-2013"></a>Lync Server 2013 での設計の編集
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="editing-the-design-in-lync-server-2013"></a>Lync Server 2013 での設計の編集
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2013-02-21_
     
     ![エッジ管理レポートページ](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "エッジ管理レポートページ")  
     
-      - 概要レポート – エッジ ネットワーク構成の設定に関する一般的なレポート。 [**エッジネットワーク図**] ページの値を、実際の展開で使用されるトポロジの TCP/IP および FQDN 値に編集すると、それらのアドレスと名前がここに表示されます。 それ以外の場合は、既定のテキストが表示されます。
+      - 概要レポート – エッジ ネットワーク構成の設定に関する一般的なレポート。 [ **エッジネットワーク図** ] ページの値を、実際の展開で使用されるトポロジの TCP/IP および FQDN 値に編集すると、それらのアドレスと名前がここに表示されます。 それ以外の場合は、既定のテキストが表示されます。
     
       - 証明書レポート – トポロジで必要な証明書のサブジェクト名とサブジェクトの別名が表示されます。
     
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2013-02-21_
     
       - DNS レポート– dns レポートには、作成する必要がある DNS エントリの関連情報が一覧表示されます。 正しい動作に必要なレコードの種類、FQDN、IP アドレス、およびコメントが含まれています。
 
-  - サイトの概要: サイトの概要は、最初のインタビューの質問に回答するか、または**設計サイト**の値を入力することによって、選択した選択の概要を示します。 容量情報も記載されています。
+  - サイトの概要: サイトの概要は、最初のインタビューの質問に回答するか、または **設計サイト**の値を入力することによって、選択した選択の概要を示します。 容量情報も記載されています。
     
     <div>
     

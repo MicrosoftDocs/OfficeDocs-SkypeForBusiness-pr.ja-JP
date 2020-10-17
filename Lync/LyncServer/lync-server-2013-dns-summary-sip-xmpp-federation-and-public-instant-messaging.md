@@ -12,20 +12,22 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c2ccaab6d1d3bcb1cf597bef076601544f47aad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8c7b36448f2aa8eb895aebeeaddc6187c1831ca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501194"
 ---
+# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Lync Server 2013 の DNS の概要-SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Lync Server 2013 の DNS の概要-SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42192790"
 
 _**トピックの最終更新日:** 2017-03-09_
 
-Office Communications Server または Lync Server パートナーとのフェデレーションを定義するために必要となるドメインネームシステム (DNS) レコードは、他の組織のドメインの自動 DNS 検出を許可するかどうかを決定します。 Sipfederationtls を\_発行する場合。\_tcp。 *SIP ドメイン名\> \<* SRV レコード。他の SIP フェデレーションドメインは、フェデレーションを "検出" することができます。 Lync server コントロールパネルで [ドメインとブロックされたドメインを許可する] の設定を使用するか、Lync Server 管理シェルと**Get**、 **Set**、 **New**、 **Remove-csalloweddomain**および **-get-csblockeddomain** PowerShell コマンドレットを使用して、許可または禁止ドメイン構成を設定することによって、どのフェデレーションドメインが自分と通信できるかを制御できます。 これらの設定の構成方法および PowerShell コマンドレットの使用の詳細については、このトピックの最後にある**関連トピック**を参照してください。
+Office Communications Server または Lync Server パートナーとのフェデレーションを定義するために必要となるドメインネームシステム (DNS) レコードは、他の組織のドメインの自動 DNS 検出を許可するかどうかを決定します。 Sipfederationtls を発行する場合 \_ 。 \_プロトコル. *\<SIP domain name\>* SRV レコード。他の SIP フェデレーションドメインは、フェデレーションを "検出" することができます。 Lync server コントロールパネルで [ドメインとブロックされたドメインを許可する] の設定を使用するか、Lync Server 管理シェルと **Get**、 **Set**、 **New**、 **Remove-csalloweddomain** および **-get-csblockeddomain** PowerShell コマンドレットを使用して、許可または禁止ドメイン構成を設定することによって、どのフェデレーションドメインが自分と通信できるかを制御できます。 これらの設定の構成方法および PowerShell コマンドレットの使用の詳細については、このトピックの最後にある**関連トピック**を参照してください。
 
-DNS レコードの概要の表には、開いている、つまり検出可能なフェデレーションに必要なエントリが示されています。 フェデレーション検出を実装しない場合は、 \_sipfederationtls を構成しないことを決定できます。\_tcp。 *SIP ドメイン名\>レコード。 \<*
+DNS レコードの概要の表には、開いている、つまり検出可能なフェデレーションに必要なエントリが示されています。 フェデレーション検出を実装しない場合は、sipfederationtls を構成しないことを決定でき \_ ます。 \_プロトコル. *\<SIP domain name\>* レコード.
 
 <div>
 
 
 > [!IMPORTANT]
-> _Sipfederationtls を使用する必要がある特定のシナリオがあります。 _tcp。 <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコード。ただし、検出可能なフェデレーションを使用したくありません。 このようなインスタンスの1つとして、ユーザーのモビリティを展開した場所があります。 モビリティープッシュ通知クリアリングハウス (PNCH) は特別な種類のフェデレーションで、lync 2010 モバイルクライアントまたは lync 2013 モバイルクライアント2010を使用して、Lync モバイルクライアントまたは Windows Phone を使用している Apple iPhone または iPad の Microsoft Lync Mobile クライアントに使用されます。 _Sipfederationtls _tcp。 <EM>SIP ドメイン名&gt; &lt;</EM>SRV レコードは、モビリティおよびプッシュ通知の場合に使用されます。 この問題を軽減して、発見性を制御するには、[<STRONG>パートナードメインの検出を有効</STRONG>にする] の設定をクリアして、検出をオフにします。
+> _Sipfederationtls を使用する必要がある特定のシナリオがあります。 <EM> &lt; SIP ドメイン名 &gt; </EM> SRV レコードですが、検出可能なフェデレーションを使用したくありません。 このようなインスタンスの1つとして、ユーザーのモビリティを展開した場所があります。 モビリティープッシュ通知クリアリングハウス (PNCH) は特別な種類のフェデレーションで、lync 2010 モバイルクライアントまたは lync 2013 モバイルクライアント2010を使用して、Lync モバイルクライアントまたは Windows Phone を使用している Apple iPhone または iPad の Microsoft Lync Mobile クライアントに使用されます。 _Sipfederationtls。 _tcp。 <EM> &lt; SIP ドメイン名 &gt; </EM> SRV レコードは、モビリティおよびプッシュ通知の場合に使用されます。 この問題を軽減して、発見性を制御するには、[ <STRONG>パートナードメインの検出を有効</STRONG> にする] の設定をクリアして、検出をオフにします。
 
 
 
@@ -78,7 +80,7 @@ DNS レコードの概要の表には、開いている、つまり検出可能�
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls の _tcp</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>他の潜在的フェデレーションパートナーへのフェデレーションの自動 DNS 検出に必要なアクセスエッジサービスの外部インターフェイス (以前のリリースでは拡張フェデレーションと呼ばれます) と呼ばれる、"許可された SIP ドメイン" と呼ばれるものです。Lync が有効なユーザーを持つすべての SIP ドメインについて必要に応じて繰り返します。</p>
 
@@ -118,9 +120,9 @@ DNS レコードの概要の表には、開いている、つまり検出可能�
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-サーバーの _tcp</p></td>
+<td><p>_xmpp-server._tcp</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>アクセスエッジサービスまたはエッジプール上の XMPP プロキシの外部インターフェイス。すべての内部 SIP ドメインについて必要に応じて、グローバルポリシー、ユーザーが配置されているサイトポリシー、またはユーザーポリシーを使用して、外部アクセスポリシーを構成することにより、Lync が有効なユーザー。 許可されている XMPP ドメインは、XMPP フェデレーションパートナーポリシーでも構成する必要があります。 詳細については、 <strong>「</strong>関連項目」を参照してください。</p></td>
+<td><p>アクセスエッジサービスまたはエッジプール上の XMPP プロキシの外部インターフェイス。必要に応じて、Lync が有効になっているすべての内部 SIP ドメインについて、グローバルポリシー、ユーザーが配置されているサイトポリシー、Lync が有効なユーザーに適用されているユーザーポリシーを使用して、外部アクセスポリシーの構成を通じて、外部アクセスポリシーの構成を通じて実行できます。 許可されている XMPP ドメインは、XMPP フェデレーションパートナーポリシーでも構成する必要があります。 詳細については、 <strong>「</strong> 関連項目」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>

@@ -13,20 +13,22 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a8f8cfcab36c1bfa47eb8ee4a24ebe683398707
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 99a0b7bfead8f74e27d8539038cf768b1a85b72e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755003"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499564"
 ---
+# <a name="configure-clients-for-migration"></a>移行用にクライアントを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a>移行用にクライアントを構成する
+
 
 </div>
 
@@ -54,7 +56,7 @@ _**トピックの最終更新日:** 2013-11-21_
 
 2.  Office Communications Server 2007 R2 では、クライアントバージョンフィルターを使用して、Office Communications Server 2007 R2 クライアントのみに最新の更新プログラムをインストールしてサインインできるようにします。
 
-3.  Office Communications Server 2007 R2 では、クライアントバージョンフィルタリングを使用して Lync Server 2013 クライアントのサインインをブロックします。 次の表に記載されているバージョンフィルターを追加するには、「**クライアントバージョンフィルター**をで構成する」で説明されている手順に従い [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) ます。 各バージョン フィルターで、[**ブロック**] のアクションを割り当てます。
+3.  Office Communications Server 2007 R2 では、クライアントバージョンフィルタリングを使用して Lync Server 2013 クライアントのサインインをブロックします。 次の表に記載されているバージョンフィルターを追加するには、「 **クライアントバージョンフィルター** をで構成する」で説明されている手順に従い [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) ます。 各バージョン フィルターで、[**ブロック**] のアクションを割り当てます。
     
     
     <table>

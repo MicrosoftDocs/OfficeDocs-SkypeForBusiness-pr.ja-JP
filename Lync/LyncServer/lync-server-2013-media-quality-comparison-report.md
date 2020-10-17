@@ -12,20 +12,22 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3be8be9c600fced3087f20fe70d137d759fb9d29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05b157be6cc94f0b01dbefadfd89041118b944e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217673"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500664"
 ---
+# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Lync Server 2013 のメディア品質比較レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Lync Server 2013 のメディア品質比較レポート
+
 
 </div>
 
@@ -75,12 +77,12 @@ _**トピックの最終更新日:** 2014-04-22_
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
 <p>7/3/2012</p>
-<p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
+<p>週は、常に日曜日から土曜日までです。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
@@ -91,8 +93,8 @@ _**トピックの最終更新日:** 2014-04-22_
 <td><p><strong>通話</strong></p></td>
 <td><p>メインの比較項目として使用する通話の種類。有効な値は次のとおりです。</p>
 <ul>
-<li><p>いずれ</p></li>
-<li><p>External</p></li>
+<li><p>[All]</p></li>
+<li><p>外部</p></li>
 <li><p>内部</p></li>
 <li><p>VPN</p></li>
 <li><p>非 VPN</p></li>
@@ -110,8 +112,8 @@ _**トピックの最終更新日:** 2014-04-22_
 <td><p>[<strong>通話との比較</strong>]</p></td>
 <td><p>2 番目の比較項目として使用する通話の種類。有効な値は次のとおりです。</p>
 <ul>
-<li><p>いずれ</p></li>
-<li><p>External</p></li>
+<li><p>[All]</p></li>
+<li><p>外部</p></li>
 <li><p>内部</p></li>
 <li><p>VPN</p></li>
 <li><p>非 VPN</p></li>
@@ -193,7 +195,7 @@ _**トピックの最終更新日:** 2014-04-22_
 <tr class="even">
 <td><p>[<strong>ジッター (ミリ秒)</strong>]</p></td>
 <td><p>いいえ</p></td>
-<td><p>RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。 (ジッターは、通話の&quot;過&quot;の測定値です)。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</p></td>
+<td><p>RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。 (ジッターは、通話の過の測定値です &quot; &quot; )。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>[<strong>ヒーラー隠し比率</strong>]</p></td>

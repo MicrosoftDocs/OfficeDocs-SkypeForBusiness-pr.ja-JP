@@ -12,20 +12,22 @@ ms:contentKeyID: 49733872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 076cfd8b787c85ba94d3538c5510d7c12ca11b22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f58ab7d0f3d47da8bae3df94c3c83b1eae0059e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197190"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501084"
 ---
+# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a>Lync Server 2013 で匿名ユーザーアクセスを有効または無効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a>Lync Server 2013 で匿名ユーザーアクセスを有効または無効にする
+
 
 </div>
 
@@ -65,9 +67,9 @@ _**トピックの最終更新日:** 2013-02-23_
 
 5.  [**アクセス エッジ構成の編集**] で、次のいずれかの操作を行います。
     
-      - 組織で匿名ユーザーアクセスを有効にするには、[**匿名ユーザーとの通信を有効**にする] チェックボックスをオンにします。
+      - 組織で匿名ユーザーアクセスを有効にするには、[ **匿名ユーザーとの通信を有効** にする] チェックボックスをオンにします。
     
-      - 組織の匿名ユーザーアクセスを無効にするには、[**匿名ユーザーとの通信を有効に**する] チェックボックスをオフにします。
+      - 組織の匿名ユーザーアクセスを無効にするには、[ **匿名ユーザーとの通信を有効に** する] チェックボックスをオフにします。
 
 6.  [**確定**] をクリックします。
 
@@ -77,13 +79,13 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して匿名ユーザーアクセスを有効または無効にする
 
-匿名ユーザーアクセスを管理するには、Windows PowerShell と**set-csaccessedgeconfiguration**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+匿名ユーザーアクセスを管理するには、Windows PowerShell と **set-csaccessedgeconfiguration** コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
 ## <a name="to-enable-anonymous-user-access"></a>匿名ユーザーアクセスを有効にするには
 
-  - 匿名ユーザーアクセスを有効にするには、 **AllowAnonymousUsers**プロパティの値を True ($True) に設定します。
+  - 匿名ユーザーアクセスを有効にするには、 **AllowAnonymousUsers** プロパティの値を True ($True) に設定します。
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
@@ -93,7 +95,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="to-disable-anonymous-user-access"></a>匿名ユーザーアクセスを無効にするには
 
-  - 匿名ユーザーアクセスを無効にするには、 **AllowAnonymousUsers**プロパティの値を False ($False) に設定します。
+  - 匿名ユーザーアクセスを無効にするには、 **AllowAnonymousUsers** プロパティの値を False ($False) に設定します。
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90af32fce28d87b211a0829c5c863c9277129c86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53251e03c55d6d61ae360d7b0739c07ac44dccdc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500134"
 ---
+# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>Lync Server 2010 Central Management サーバーを Lync Server 2013 に移動する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>Lync Server 2010 Central Management サーバーを Lync Server 2013 に移動する
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**トピックの最終更新日:** 2013-11-25_
 
 Lync server 2010 から Lync Server 2013 に移行した後、lync server 2010 Central Management サーバーを Lync Server の2013フロントエンドサーバーまたはプールに移動してから、従来の Lync 2010 Server のサーバーを使用しているサーバーを削除する必要があります。
 
-中央管理サーバーは、中央管理サーバーを含むフロントエンドサーバーによって、データベースの読み取り/書き込みコピーが保持されている単一のマスター/マルチレプリカシステムです。 トポロジ内の各コンピューター (中央管理サーバーを含むフロントエンドサーバーを含む) には、セットアップ時にコンピューターにインストールされている SQL Server データベース内の中央管理ストアのデータの読み取り専用コピーがあります (既定では RTCLOCAL という名前が付いています)。展開. ローカルデータベースは、すべてのコンピューターでサービスとして実行される Lync Server Replica Replicator エージェントを経由して、レプリカの更新を受信します。 中央管理サーバーとローカルレプリカの実際のデータベースの名前は XDS で、このファイルは xds ファイルと xds ファイルで構成されています。 Master データベースの場所は、Active Directory ドメインサービスのサービスコントロールポイント (SCP) によって参照されます。 中央管理サーバーを使用して Lync Server を管理および構成するすべてのツール SCP を使用して、中央管理ストアを特定します。
+中央管理サーバーは、中央管理サーバーを含むフロントエンドサーバーによって、データベースの読み取り/書き込みコピーが保持されている単一のマスター/マルチレプリカシステムです。 トポロジ内の各コンピューター (中央管理サーバーを含むフロントエンドサーバーを含む) には、セットアップと展開時にコンピューターにインストールされた SQL Server データベース内の中央管理ストアデータの読み取り専用コピーがあります (既定では RTCLOCAL という名前が付いています)。 ローカルデータベースは、すべてのコンピューターでサービスとして実行される Lync Server Replica Replicator エージェントを経由して、レプリカの更新を受信します。 中央管理サーバーとローカルレプリカの実際のデータベースの名前は XDS で、このファイルは xds ファイルと xds ファイルで構成されています。 Master データベースの場所は、Active Directory ドメインサービスのサービスコントロールポイント (SCP) によって参照されます。 中央管理サーバーを使用して Lync Server を管理および構成するすべてのツール SCP を使用して、中央管理ストアを特定します。
 
-中央管理サーバーを正常に移動したら、元のフロントエンドサーバーから中央管理サーバーデータベースを削除する必要があります。 中央管理サーバーデータベースの削除の詳細については、「[フロントエンドプールの SQL Server データベースを削除](remove-the-sql-server-database-for-a-front-end-pool.md)する」を参照してください。
+中央管理サーバーを正常に移動したら、元のフロントエンドサーバーから中央管理サーバーデータベースを削除する必要があります。 中央管理サーバーデータベースの削除の詳細については、「 [フロントエンドプールの SQL Server データベースを削除](remove-the-sql-server-database-for-a-front-end-pool.md)する」を参照してください。
 
-Lync server 管理シェルで**move-csmanagementserver**コマンドレットを使用して、lync SERVER 2010 sql server データベースから lync SERVER 2013 sql server データベースにデータベースを移動した後、lync Server 2013 中央管理サーバーの場所を指すように SCP を更新します。
+Lync server 管理シェルで **move-csmanagementserver** コマンドレットを使用して、lync SERVER 2010 sql server データベースから lync SERVER 2013 sql server データベースにデータベースを移動した後、lync Server 2013 中央管理サーバーの場所を指すように SCP を更新します。
 
 <div>
 
@@ -55,7 +57,7 @@ Lync Server 2010 Central Management サーバーを移動する前に、この�
 
 ## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>Enterprise Edition フロントエンドプールを準備するには
 
-1.  中央管理サーバーを再配置する Lync Server 2013 Enterprise Edition フロントエンドプールで、 **RTCUniversalServerAdmins**グループのメンバーとして Lync Server 管理シェルがインストールされているコンピューターにログオンします。 また、中央管理ストアをインストールするデータベースに対して、SQL Server データベース sysadmin のユーザー権限とアクセス許可も持っている必要があります。
+1.  中央管理サーバーを再配置する Lync Server 2013 Enterprise Edition フロントエンドプールで、 **RTCUniversalServerAdmins** グループのメンバーとして Lync Server 管理シェルがインストールされているコンピューターにログオンします。 また、中央管理ストアをインストールするデータベースに対して、SQL Server データベース sysadmin のユーザー権限とアクセス許可も持っている必要があります。
 
 2.  Lync Server 管理シェルを開きます。
 
@@ -71,13 +73,13 @@ Lync Server 2010 Central Management サーバーを移動する前に、この�
 
 ## <a name="to-prepare-a-standard-edition-front-end-server"></a>Standard Edition フロントエンドサーバーを準備するには
 
-1.  中央管理サーバーを再配置する Lync Server 2013 Standard Edition フロントエンドサーバーで、 **RTCUniversalServerAdmins**グループのメンバーとして Lync Server 管理シェルがインストールされているコンピューターにログオンします。
+1.  中央管理サーバーを再配置する Lync Server 2013 Standard Edition フロントエンドサーバーで、 **RTCUniversalServerAdmins** グループのメンバーとして Lync Server 管理シェルがインストールされているコンピューターにログオンします。
 
 2.  [Lync Server 展開ウィザード] を開きます。
 
-3.  Lync Server 展開ウィザードで、[**最初の Standard Edition サーバーの準備**] をクリックします。
+3.  Lync Server 展開ウィザードで、[ **最初の Standard Edition サーバーの準備**] をクリックします。
 
-4.  [**コマンドの実行**] ページで、中央管理サーバーとして SQL Server Express がインストールされます。 必要なファイアウォール規則が作成されます。 データベースと必要なソフトウェアのインストールが完了したら、[**完了**] をクリックします。
+4.  [ **コマンドの実行** ] ページで、中央管理サーバーとして SQL Server Express がインストールされます。 必要なファイアウォール規則が作成されます。 データベースと必要なソフトウェアのインストールが完了したら、[**完了**] をクリックします。
     
     <div>
     
@@ -102,7 +104,7 @@ Lync Server 2010 Central Management サーバーを移動する前に、この�
 
 ## <a name="to-move-the-lync-server-2010central-management-server-to-lync-server-2013"></a>Lync Server 2010 Central Management サーバーを Lync Server 2013 に移動するには
 
-1.  中央管理サーバーとなる Lync Server 2013 サーバー上で、Lync Server 管理シェルがインストールされているコンピューターに**RTCUniversalServerAdmins**グループのメンバーとしてログオンします。 また、SQL Server データベース管理者のユーザー権限とアクセス許可を持っている必要があります。
+1.  中央管理サーバーとなる Lync Server 2013 サーバー上で、Lync Server 管理シェルがインストールされているコンピューターに **RTCUniversalServerAdmins** グループのメンバーとしてログオンします。 また、SQL Server データベース管理者のユーザー権限とアクセス許可を持っている必要があります。
 
 2.  Lync Server 管理シェルを開きます。
 
@@ -114,7 +116,7 @@ Lync Server 2010 Central Management サーバーを移動する前に、この�
     
 
     > [!WARNING]  
-    > 成功<CODE>Enable-CsTopology</CODE>しない場合は、続行する前に、コマンドの完了を妨げている問題を解決してください。 <STRONG>Enable-CsTopology テクノロジ</STRONG>が成功しなかった場合、移動は失敗し、中央管理ストアがない状態で、トポロジがそのまま残る場合があります。
+    > <CODE>Enable-CsTopology</CODE>成功しない場合は、続行する前に、コマンドの完了を妨げている問題を解決してください。 <STRONG>Enable-CsTopology テクノロジ</STRONG>が成功しなかった場合、移動は失敗し、中央管理ストアがない状態で、トポロジがそのまま残る場合があります。
 
     
     </div>
@@ -129,11 +131,11 @@ Lync Server 2010 Central Management サーバーを移動する前に、この�
 
 7.  Lync Server 2013 サーバーで、[Lync Server 展開ウィザード] を開きます。
 
-8.  Lync Server 展開ウィザードで、[ **Lync Server システムのインストールまたは更新**] をクリックし、[**ステップ 2: lync Server コンポーネントのセットアップまたは削除**] をクリックし、[**次へ**] をクリックして概要を確認し、[**完了**] をクリックします。
+8.  Lync Server 展開ウィザードで、[ **Lync Server システムのインストールまたは更新**] をクリックし、[ **ステップ 2: lync Server コンポーネントのセットアップまたは削除**] をクリックし、[ **次へ**] をクリックして概要を確認し、[ **完了**] をクリックします。
 
 9.  Lync Server 2010 サーバーで、[Lync Server 展開ウィザード] を開きます。
 
-10. Lync Server 展開ウィザードで、[ **Lync Server システムのインストールまたは更新**] をクリックし、[**ステップ 2: lync Server コンポーネントのセットアップまたは削除**] をクリックし、[**次へ**] をクリックして概要を確認し、[**完了**] をクリックします。
+10. Lync Server 展開ウィザードで、[ **Lync Server システムのインストールまたは更新**] をクリックし、[ **ステップ 2: lync Server コンポーネントのセットアップまたは削除**] をクリックし、[ **次へ**] をクリックして概要を確認し、[ **完了**] をクリックします。
 
 11. Lync Server 2013 サーバーを再起動します。 これは、グループメンバーシップの変更によって中央管理サーバーデータベースにアクセスするために必要です。
 
@@ -156,7 +158,7 @@ Lync Server 2010 Central Management サーバーを移動する前に、この�
 
 ## <a name="to-remove-lync-server-2010central-management-store-files-after-a-move"></a>移行後に Lync Server 2010 Central Management store ファイルを削除するには
 
-1.  Lync server 2010 サーバー上で、Lync Server 管理シェルがインストールされているコンピューターに**RTCUniversalServerAdmins**グループのメンバーとしてログオンします。 また、SQL Server データベース管理者のユーザー権限とアクセス許可を持っている必要があります。
+1.  Lync server 2010 サーバー上で、Lync Server 管理シェルがインストールされているコンピューターに **RTCUniversalServerAdmins** グループのメンバーとしてログオンします。 また、SQL Server データベース管理者のユーザー権限とアクセス許可を持っている必要があります。
 
 2.  Lync Server 管理シェルを開く
     
@@ -173,11 +175,11 @@ Lync Server 2010 Central Management サーバーを移動する前に、この�
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
     
-    次に例を示します。
+    以下に例を示します。
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
     
-    SQL Server \<\>の FQDN は、Enterprise Edition 展開の Lync Server 2010 バックエンドサーバー、または STANDARD Edition サーバーの fqdn のいずれかです。
+    は、 \<FQDN of SQL Server\> Enterprise Edition 展開の Lync Server 2010 バックエンドサーバー、または Standard Edition サーバーの FQDN のいずれかです。
 
 </div>
 

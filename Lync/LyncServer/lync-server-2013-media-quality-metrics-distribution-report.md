@@ -12,20 +12,22 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48ee62d2eee4ab6e18b3c0c07b46f79b779bcce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3823f65d5bc565f01b55b08259a4482c97bbd43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217683"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500654"
 ---
+# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Lync Server 2013 のメディア品質メトリック分布レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Lync Server 2013 のメディア品質メトリック分布レポート
+
 
 </div>
 
@@ -65,11 +67,11 @@ _**トピックの最終更新日:** 2012-06-06_
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2/4</p></td>
+<td><p>4 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
@@ -89,7 +91,7 @@ _**トピックの最終更新日:** 2012-06-06_
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>50</p></td>
 </tr>
 </tbody>
@@ -135,7 +137,7 @@ _**トピックの最終更新日:** 2012-06-06_
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
@@ -154,16 +156,16 @@ _**トピックの最終更新日:** 2012-06-06_
 <td><p>[<strong>アクセスの種類</strong>]</p></td>
 <td><p>クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
+<li><p>[All]</p></li>
 <li><p>内部</p></li>
-<li><p>External</p></li>
+<li><p>外部</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>VPN</strong></p></td>
 <td><p>通話時に外部クライアントが仮想プライベート ネットワーク (VPN) 接続を使用したかどうかを示します。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
+<li><p>[All]</p></li>
 <li><p>VPN</p></li>
 <li><p>非 VPN</p></li>
 </ul></td>
@@ -172,7 +174,7 @@ _**トピックの最終更新日:** 2012-06-06_
 <td><p>[<strong>ネットワークの種類</strong>]</p></td>
 <td><p>通話時にクライアントが接続したネットワークの種類を示します。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
+<li><p>[All]</p></li>
 <li><p>有線</p></li>
 <li><p>通信</p></li>
 </ul></td>

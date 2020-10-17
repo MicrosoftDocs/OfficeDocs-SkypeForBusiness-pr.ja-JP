@@ -13,20 +13,22 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c9f46944e80c5eb7a2d81de6f164d19aab64d29
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 029fe44d33d41b410d23068551203b1532893354
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755327"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499694"
 ---
+# <a name="change-simple-urls-after-migration"></a>移行後の簡易 URL の変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-simple-urls-after-migration"></a>移行後の簡易 URL の変更
+
 
 </div>
 
@@ -40,11 +42,11 @@ _**トピックの最終更新日:** 2012-09-22_
 
 Lync Server は、次の3つの簡単な Url をサポートします。
 
-  - **Meet**は、サイトまたは組織内のすべての電話会議のベース URL として使用されます。 簡単な会議 URL を使用すると、会議に参加するためのリンクが覚えやすくなり、通知も配布も簡単になります。
+  - **Meet** は、サイトまたは組織内のすべての電話会議のベース URL として使用されます。 簡単な会議 URL を使用すると、会議に参加するためのリンクが覚えやすくなり、通知も配布も簡単になります。
 
-  - **ダイヤル**インは、ダイヤルイン会議設定 web ページへのアクセスを有効にします。 ダイヤルインの簡易 URL は、すべての会議出席依頼に含まれているため、会議にダイヤルインするユーザーは必要な電話番号と PIN 情報にアクセスできます。
+  - **ダイヤル** インは、ダイヤルイン会議設定 web ページへのアクセスを有効にします。 ダイヤルインの簡易 URL は、すべての会議出席依頼に含まれているため、会議にダイヤルインするユーザーは必要な電話番号と PIN 情報にアクセスできます。
 
-  - **管理者**は、Lync Server コントロールパネルにすばやくアクセスできます。 簡単な管理 URL は、組織内部の URL です。
+  - **管理者** は、Lync Server コントロールパネルにすばやくアクセスできます。 簡単な管理 URL は、組織内部の URL です。
 
 Lync Server 2013 に移行した後、変更によって簡単な Url の DNS レコードと証明書に与える影響に注意する必要があります。 従来の Lync Server 2010 ディレクターがトポロジで使用されている場合は、簡易 Url を変更する必要はありません。 移行後に Lync Server 2010 ディレクターがトポロジから削除された場合は、簡単な URL の DNS レコードを更新して、Lync Server 2013 プールの1つをポイントする必要があります。 ただし、簡易 URL 名を変更する場合は必ず、各ディレクターおよびフロントエンド サーバーで Enable-CsComputer を実行して変更を登録する必要があります。
 
@@ -54,17 +56,17 @@ Lync Server 2013 に移行した後、変更によって簡単な Url の DNS �
 
 **簡単な会議 URL を更新するには**
 
-1.  トポロジビルダーで、最上位ノードの [ **Lync Server**] を右クリックし、[**プロパティの編集**] をクリックします。
+1.  トポロジビルダーで、最上位ノードの [ **Lync Server**] を右クリックし、[ **プロパティの編集**] をクリックします。
 
-2.  左側のウィンドウで [**簡易 url** ] を選択し、[**会議の url:** ] の下の [url の**編集**] をクリックします。
+2.  左側のウィンドウで [ **簡易 url** ] を選択し、[ **会議の url:** ] の下の [url の **編集**] をクリックします。
 
 3.  URL を目的の値に更新し、[**OK**] をクリックして編集した URL を保存します。
 
 **管理者の簡易 URL を更新するには**
 
-1.  トポロジビルダーで、最上位ノードの [ **Lync Server**] を右クリックし、[**プロパティの編集**] をクリックします。
+1.  トポロジビルダーで、最上位ノードの [ **Lync Server**] を右クリックし、[ **プロパティの編集**] をクリックします。
 
-2.  [**簡易 url**の選択] 左側のウィンドウで、[**管理アクセス url** ] ボックスに、Lync Server 2013 コントロールパネルへの管理アクセスに使用する簡易 url を入力し、[ **OK**] をクリックします。
+2.  [ **簡易 url** の選択] 左側のウィンドウで、[ **管理アクセス url** ] ボックスに、Lync Server 2013 コントロールパネルへの管理アクセスに使用する簡易 url を入力し、[ **OK**] をクリックします。
     
     <div>
     

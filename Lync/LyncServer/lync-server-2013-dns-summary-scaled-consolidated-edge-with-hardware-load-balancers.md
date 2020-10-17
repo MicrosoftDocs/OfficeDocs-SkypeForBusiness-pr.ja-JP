@@ -12,20 +12,22 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5625aa9d6211c703853b110b3fec439113cfa48d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f5847a43c6d07cf188c97cd8de6a47dfb83e1468
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206280"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501284"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 でのハードウェアロードバランサーを使用した拡張統合エッジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 でのハードウェアロードバランサーを使用した拡張統合エッジ
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 
 
 ## <a name="important-edge-server-network-adapter-requirements"></a>重要: エッジサーバーのネットワークアダプターの要件
 
-ルーティングに関する問題を回避するには、エッジサーバーに少なくとも2つのネットワークアダプターがあり、既定のゲートウェイが、外部インターフェイスに関連付けられているネットワークアダプター上でのみ設定されていることを確認します。 たとえば、スケール統合エッジシナリオの図のように、「[拡張統合エッジ」と「ハードウェアロードバランサーを使用する Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)」のように、既定のゲートウェイは外部ファイアウォールを指しています。
+ルーティングに関する問題を回避するには、エッジサーバーに少なくとも2つのネットワークアダプターがあり、既定のゲートウェイが、外部インターフェイスに関連付けられているネットワークアダプター上でのみ設定されていることを確認します。 たとえば、スケール統合エッジシナリオの図のように、「 [拡張統合エッジ」と「ハードウェアロードバランサーを使用する Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)」のように、既定のゲートウェイは外部ファイアウォールを指しています。
 
 各エッジサーバーでは、2つのネットワークアダプターを次のように構成できます。
 
@@ -126,13 +128,13 @@ Lync 2013 DNS の要件の詳細については、「 [Lync Server 2013 の dns 
 </tr>
 <tr class="even">
 <td><p>外部 DNS/SRV/443</p></td>
-<td><p>_sip の _tls</p></td>
+<td><p>_sip _sip._tls</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>アクセスエッジサービスの外部インターフェイス。 Lync 2013 および Lync 2010 クライアントを外部で動作するように自動構成するために必要です。 必要に応じて、Lync が有効なユーザーのいるすべての SIP ドメインに対して繰り返します。</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls の _tcp</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>"許可済み SIP ドメイン" (以前のリリースでは拡張フェデレーションと呼ばれました) と呼ばれるフェデレーションパートナーの自動 DNS 検出に必要な、SIP アクセスエッジサービスの外部インターフェイス。 プッシュ通知サービスまたは Apple プッシュ通知サービスのいずれかを使用する Lync が有効なユーザーと Microsoft Lync モバイルクライアントを含むすべての SIP ドメインについて、必要に応じて繰り返します。</p></td>
 </tr>

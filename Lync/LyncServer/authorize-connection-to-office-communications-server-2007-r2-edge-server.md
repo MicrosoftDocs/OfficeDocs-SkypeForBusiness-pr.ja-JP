@@ -13,20 +13,22 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f66f53b5c1aa25324dbd316ad2d72e7d04c42e0f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6181f3d42facaf49b84b7c07776dc8717e88b271
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755139"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499764"
 ---
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Office Communications Server 2007 R2 エッジサーバーへの接続を承認する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Office Communications Server 2007 R2 エッジサーバーへの接続を承認する
+
 
 </div>
 
@@ -44,7 +46,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 ## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Office Communications Server 2007 R2 エッジサーバーへの接続を承認するには
 
-1.  Office Communications Server 2007 R2 エッジサーバーから、[**管理ツール**] グループから [コンピューターの**管理**] スナップインを開きます。
+1.  Office Communications Server 2007 R2 エッジサーバーから、[ **管理ツール** ] グループから [コンピューターの **管理** ] スナップインを開きます。
 
 2.  コンソール ツリーで [**サービスとアプリケーション**] を展開します。
 
@@ -60,7 +62,7 @@ _**トピックの最終更新日:** 2012-09-28_
     
       - 次ホップコンピューターを FQDN で指定する静的ルートをプールに構成した場合は、Lync Server 2013 ディレクターの FQDN を指定します。
 
-7.  各 Lync Server 2013、フロントエンドサーバー、Standard Edition サーバー、プール、およびディレクターのエントリを追加した後、[**適用**] をクリックし、[ **OK** ] をクリックして [プロパティ] ページを閉じます。
+7.  各 Lync Server 2013、フロントエンドサーバー、Standard Edition サーバー、プール、およびディレクターのエントリを追加した後、[ **適用** ] をクリックし、[ **OK** ] をクリックして [プロパティ] ページを閉じます。
 
 </div>
 

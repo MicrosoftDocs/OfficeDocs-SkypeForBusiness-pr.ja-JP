@@ -12,20 +12,22 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 810a49a35f9b2597e8a84427e513217ff35efefb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 145a2849d8b87f0f19559583e94edb5e895f89db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194280"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500494"
 ---
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Lync Server 2013 で2人のユーザー間の IM のテスト機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Lync Server 2013 で2人のユーザー間の IM のテスト機能
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsIM コマンドレットを実行するためのアクセス許可を持つ RBAC の役割を割り当てる必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsIM コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Test-CsIM コマンドレットは、テストユーザーのペアがインスタントメッセージを交換できることを確認します。 このコマンドレットを呼び出すと、テストユーザーのペアを Lync Server にログオンしようとして、テスト用の CsIM コマンドレットが開始されます。 2回のログオンが成功すると、コマンドレットは2つのテストユーザー間で IM セッションを開始します。 (ユーザー1がユーザー2を IM セッションに招待し、ユーザー2が招待を受け入れます)。2人のユーザーの間でメッセージを交換できることを確認した後、テスト-CsIM は IM セッションを終了し、両方のユーザーをシステムからログオフします。
+Test-CsIM コマンドレットは、テストユーザーのペアがインスタントメッセージを交換できるかどうかを確認します。 呼び出された場合、Test-CsIM コマンドレットは、一連のテストユーザーを Lync Server にログオンすることで開始します。 2回のログオンが成功すると、コマンドレットは2つのテストユーザー間で IM セッションを開始します。 (ユーザー1がユーザー2を IM セッションに招待し、ユーザー2が招待を受け入れます)。2人のユーザーの間でメッセージを交換できることを確認した後 Test-CsIM、IM セッションを終了し、両方のユーザーをシステムからログオフします。
 
-詳細については、「 [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -76,7 +78,7 @@ Test-CsIM コマンドレットは、テストユーザーのペアがインス�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsIM コマンドレットを実行するには、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照してください)、または Lync Server が有効になっている任意の2人のアカウントのいずれかを使用します。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 次に例を示します。
+Test-CsIM コマンドレットを実行するには、事前に構成された一連のテストアカウントを使用します (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照してください)。または、Lync Server が有効になっている2人のユーザーのアカウント。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 以下に例を示します。
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -86,7 +88,7 @@ Test-CsIM コマンドレットを実行するには、事前に構成された�
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-詳細については、「 [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -94,7 +96,7 @@ Test-CsIM コマンドレットを実行するには、事前に構成された�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-2人のユーザーがインスタントメッセージングセッションを完了できる場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい**ます。**
+2人のユーザーがインスタントメッセージングセッションを完了できる場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -126,11 +128,11 @@ DiagnosticHeader ()
 
     Get-CsUser "Ken Myer" | Select-Object SipAddress, Enabled
 
-テスト-CsIM が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsIM が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose パラメーターが指定されている場合、テスト-CsIM は、2つのテストユーザーが IM セッションに参加できるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントを返します。 たとえば、次のサンプル出力は、誤ったユーザー資格情報のセット (この場合は間違ったパスワード) がテスト用に提供されたときに発生します。
+Verbose パラメーターが指定されている場合、Test-CsIM は、2つのテストユーザーが IM セッションに参加できるかどうかを確認したときに実行された各アクションのステップバイステップのアカウントを返します。 たとえば、次のサンプル出力は、誤ったユーザー資格情報のセット (この場合は間違ったパスワード) がテスト用に提供されたときに発生します。
 
 登録要求の送信:
 
@@ -154,7 +156,7 @@ Sip/atl-ws-01 に対する登録ヒット。 litwareinc
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-テスト-CsIM が失敗する主な理由を次に示します。
+Test-CsIM が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     

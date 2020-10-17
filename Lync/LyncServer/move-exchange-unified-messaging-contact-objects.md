@@ -12,20 +12,22 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 42abb209eaf59be66c8516401616dcac4f1c94ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756616"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500294"
 ---
+# <a name="move-exchange-unified-messaging-contact-objects"></a>Exchange ユニファイドメッセージング連絡先オブジェクトの移動
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-exchange-unified-messaging-contact-objects"></a>Exchange ユニファイドメッセージング連絡先オブジェクトの移動
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756616"
 
 _**トピックの最終更新日:** 2012-10-19_
 
-自動応答 (AA) およびサブスクライバーアクセス (SA) の連絡先オブジェクトを新しい Lync Server 2013 展開に移行するには、まず、従来の Office Communications Server 2007 R2 展開から新しい Lync Server 2013 展開にオブジェクトを移動するには、まず、 **Get-csexumcontact**および**Move-csexumcontact**コマンドレットを使用します。 Exchange サーバーでは、次のように、 **Exchucutil** Windows PowerShell スクリプトを実行して、新しく展開された Lync プールに対して次の操作を行います。
+自動応答 (AA) およびサブスクライバーアクセス (SA) の連絡先オブジェクトを新しい Lync Server 2013 展開に移行するには、まず、従来の Office Communications Server 2007 R2 展開から新しい Lync Server 2013 展開にオブジェクトを移動するには、まず、 **Get-csexumcontact** および **Move-csexumcontact** コマンドレットを使用します。 Exchange サーバーでは、次のように、 **Exchucutil** Windows PowerShell スクリプトを実行して、新しく展開された Lync プールに対して次の操作を行います。
 
   - ユニファイド メッセージング IP ゲートウェイに追加します。
 
