@@ -12,20 +12,22 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 42abb209eaf59be66c8516401616dcac4f1c94ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756616"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500294"
 ---
+# <a name="move-exchange-unified-messaging-contact-objects"></a><span data-ttu-id="208ee-102">Exchange ユニファイドメッセージング連絡先オブジェクトの移動</span><span class="sxs-lookup"><span data-stu-id="208ee-102">Move Exchange Unified Messaging Contact objects</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-exchange-unified-messaging-contact-objects"></a><span data-ttu-id="0faf1-102">Exchange ユニファイドメッセージング連絡先オブジェクトの移動</span><span class="sxs-lookup"><span data-stu-id="0faf1-102">Move Exchange Unified Messaging Contact objects</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "44756616"
 
 <span> </span>
 
-<span data-ttu-id="0faf1-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="0faf1-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="208ee-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="208ee-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="0faf1-104">自動応答 (AA) およびサブスクライバーアクセス (SA) の連絡先オブジェクトを新しい Lync Server 2013 展開に移行するには、まず、従来の Office Communications Server 2007 R2 展開から新しい Lync Server 2013 展開にオブジェクトを移動するには、まず、 **Get-csexumcontact**および**Move-csexumcontact**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="0faf1-104">To migrate Auto Attendant (AA) and Subscriber Access (SA) contact objects to the new Lync Server 2013 deployment, you first move the objects from the legacy Office Communications Server 2007 R2 deployment to the new the Lync Server 2013 deployment using the **Get-CsExUmContact** and **Move-CsExUmContact** cmdlets.</span></span> <span data-ttu-id="0faf1-105">Exchange サーバーでは、次のように、 **Exchucutil** Windows PowerShell スクリプトを実行して、新しく展開された Lync プールに対して次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="0faf1-105">On the Exchange Server, you then run the **ExchUCUtil** Windows PowerShell script to do the following for the newly deployed Lync pool:</span></span>
+<span data-ttu-id="208ee-104">自動応答 (AA) およびサブスクライバーアクセス (SA) の連絡先オブジェクトを新しい Lync Server 2013 展開に移行するには、まず、従来の Office Communications Server 2007 R2 展開から新しい Lync Server 2013 展開にオブジェクトを移動するには、まず、 **Get-csexumcontact** および **Move-csexumcontact** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="208ee-104">To migrate Auto Attendant (AA) and Subscriber Access (SA) contact objects to the new Lync Server 2013 deployment, you first move the objects from the legacy Office Communications Server 2007 R2 deployment to the new the Lync Server 2013 deployment using the **Get-CsExUmContact** and **Move-CsExUmContact** cmdlets.</span></span> <span data-ttu-id="208ee-105">Exchange サーバーでは、次のように、 **Exchucutil** Windows PowerShell スクリプトを実行して、新しく展開された Lync プールに対して次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="208ee-105">On the Exchange Server, you then run the **ExchUCUtil** Windows PowerShell script to do the following for the newly deployed Lync pool:</span></span>
 
-  - <span data-ttu-id="0faf1-106">ユニファイド メッセージング IP ゲートウェイに追加します。</span><span class="sxs-lookup"><span data-stu-id="0faf1-106">Add it to the Unified Messaging IP gateways.</span></span>
+  - <span data-ttu-id="208ee-106">ユニファイド メッセージング IP ゲートウェイに追加します。</span><span class="sxs-lookup"><span data-stu-id="208ee-106">Add it to the Unified Messaging IP gateways.</span></span>
 
-  - <span data-ttu-id="0faf1-107">ユニファイド メッセージング ハント グループに追加します。</span><span class="sxs-lookup"><span data-stu-id="0faf1-107">Add it to the Unified Messaging hunt groups.</span></span>
+  - <span data-ttu-id="208ee-107">ユニファイド メッセージング ハント グループに追加します。</span><span class="sxs-lookup"><span data-stu-id="208ee-107">Add it to the Unified Messaging hunt groups.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0faf1-p102"><STRONG>Get-CsExUmContact</STRONG> および <STRONG>Move-CsExUmContact</STRONG> コマンドレットを使用するには、RTCUniversalUserAdmins グループのメンバーであり、連絡先オブジェクトを格納する組織単位 (OU) に対する OU アクセス許可を持っている必要があります。OU アクセス許可は <STRONG>Grant-OUPermission</STRONG> コマンドレットを使用して付与できます。</span><span class="sxs-lookup"><span data-stu-id="0faf1-p102">In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.</span></span>
+> <span data-ttu-id="208ee-p102"><STRONG>Get-CsExUmContact</STRONG> および <STRONG>Move-CsExUmContact</STRONG> コマンドレットを使用するには、RTCUniversalUserAdmins グループのメンバーであり、連絡先オブジェクトを格納する組織単位 (OU) に対する OU アクセス許可を持っている必要があります。OU アクセス許可は <STRONG>Grant-OUPermission</STRONG> コマンドレットを使用して付与できます。</span><span class="sxs-lookup"><span data-stu-id="208ee-p102">In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.</span></span>
 
 
 
@@ -55,45 +57,45 @@ ms.locfileid: "44756616"
 
 <div>
 
-## <a name="to-move-contact-objects-by-using-the-lync-server-management-shell"></a><span data-ttu-id="0faf1-110">Lync Server 管理シェルを使用して連絡先オブジェクトを移動するには</span><span class="sxs-lookup"><span data-stu-id="0faf1-110">To move contact objects by using the Lync Server Management Shell</span></span>
+## <a name="to-move-contact-objects-by-using-the-lync-server-management-shell"></a><span data-ttu-id="208ee-110">Lync Server 管理シェルを使用して連絡先オブジェクトを移動するには</span><span class="sxs-lookup"><span data-stu-id="208ee-110">To move contact objects by using the Lync Server Management Shell</span></span>
 
-1.  <span data-ttu-id="0faf1-111">Lync Server 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="0faf1-111">Open the Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="208ee-111">Lync Server 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="208ee-111">Open the Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="0faf1-112">コマンドラインで、Exchange UM に登録されている各プール (pool1.contoso.net は、Office Communications Server 2007 R2 展開からのプールで、pool2.contoso.net は Lync Server 2013 展開からのプールである) に対して、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="0faf1-112">For each pool registered with Exchange UM (where pool1.contoso.net is a pool from the Office Communications Server 2007 R2 deployment and pool2.contoso.net is the pool from the Lync Server 2013 deployment) at the command line, type the following:</span></span>
+2.  <span data-ttu-id="208ee-112">コマンドラインで、Exchange UM に登録されている各プール (pool1.contoso.net は、Office Communications Server 2007 R2 展開からのプールで、pool2.contoso.net は Lync Server 2013 展開からのプールである) に対して、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="208ee-112">For each pool registered with Exchange UM (where pool1.contoso.net is a pool from the Office Communications Server 2007 R2 deployment and pool2.contoso.net is the pool from the Lync Server 2013 deployment) at the command line, type the following:</span></span>
     
         Get-CsExUmContact -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsExUmContact -Target pool02.contoso.net
     
-    <span data-ttu-id="0faf1-113">連絡先オブジェクトが移動されたことを確認するには、**Get-CsExumContact** コマンドレットを実行し、**RegistrarPool** が新しいプールを参照していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="0faf1-113">To verify that the contact objects are moved, run the **Get-CsExumContact** cmdlet and confirm that **RegistrarPool** is now pointing to the new pool.</span></span>
+    <span data-ttu-id="208ee-113">連絡先オブジェクトが移動されたことを確認するには、**Get-CsExumContact** コマンドレットを実行し、**RegistrarPool** が新しいプールを参照していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="208ee-113">To verify that the contact objects are moved, run the **Get-CsExumContact** cmdlet and confirm that **RegistrarPool** is now pointing to the new pool.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-run-the-exchucutil-windows-powershell-script"></a><span data-ttu-id="0faf1-114">Windows PowerShell の ExchUCUtil スクリプトを実行するには</span><span class="sxs-lookup"><span data-stu-id="0faf1-114">To run the ExchUCUtil Windows PowerShell script</span></span>
+## <a name="to-run-the-exchucutil-windows-powershell-script"></a><span data-ttu-id="208ee-114">Windows PowerShell の ExchUCUtil スクリプトを実行するには</span><span class="sxs-lookup"><span data-stu-id="208ee-114">To run the ExchUCUtil Windows PowerShell script</span></span>
 
-1.  <span data-ttu-id="0faf1-115">Exchange 組織管理者特権のあるユーザーとして Exchange UM Server にログオンします。</span><span class="sxs-lookup"><span data-stu-id="0faf1-115">Log on to the Exchange UM Server as a user with Exchange Organization Administrator privileges.</span></span>
+1.  <span data-ttu-id="208ee-115">Exchange 組織管理者特権のあるユーザーとして Exchange UM Server にログオンします。</span><span class="sxs-lookup"><span data-stu-id="208ee-115">Log on to the Exchange UM Server as a user with Exchange Organization Administrator privileges.</span></span>
 
-2.  <span data-ttu-id="0faf1-116">ExchUCUtil Windows PowerShell スクリプトに移動します。</span><span class="sxs-lookup"><span data-stu-id="0faf1-116">Navigate to the ExchUCUtil Windows PowerShell script.</span></span>
+2.  <span data-ttu-id="208ee-116">ExchUCUtil Windows PowerShell スクリプトに移動します。</span><span class="sxs-lookup"><span data-stu-id="208ee-116">Navigate to the ExchUCUtil Windows PowerShell script.</span></span>
     
-    <span data-ttu-id="0faf1-117">Exchange 2007 では、ExchUCUtil.ps1 は次の場所にあります。 **% Program Files% \\ Microsoft \\ Exchange Server \\ Scripts \\ExchUCUtil.ps1**</span><span class="sxs-lookup"><span data-stu-id="0faf1-117">In Exchange 2007, ExchUCUtil.ps1 is located at: **%Program Files%\\Microsoft\\Exchange Server\\Scripts\\ExchUCUtil.ps1**</span></span>
+    <span data-ttu-id="208ee-117">Exchange 2007 では、ExchUCUtil.ps1 は次の場所にあります。 **% Program Files% \\ Microsoft \\ Exchange Server \\ Scripts \\ExchUCUtil.ps1**</span><span class="sxs-lookup"><span data-stu-id="208ee-117">In Exchange 2007, ExchUCUtil.ps1 is located at: **%Program Files%\\Microsoft\\Exchange Server\\Scripts\\ExchUCUtil.ps1**</span></span>
     
-    <span data-ttu-id="0faf1-118">Exchange 2010 では、ExchUCUtil.ps1 は次の場所にあります。 **% Program Files% \\ Microsoft \\ Exchange Server \\ V14 \\ Scripts \\ExchUCUtil.ps1**</span><span class="sxs-lookup"><span data-stu-id="0faf1-118">In Exchange 2010, ExchUCUtil.ps1 is located at: **%Program Files%\\Microsoft\\Exchange Server\\V14\\Scripts\\ExchUCUtil.ps1**</span></span>
+    <span data-ttu-id="208ee-118">Exchange 2010 では、ExchUCUtil.ps1 は次の場所にあります。 **% Program Files% \\ Microsoft \\ Exchange Server \\ V14 \\ Scripts \\ExchUCUtil.ps1**</span><span class="sxs-lookup"><span data-stu-id="208ee-118">In Exchange 2010, ExchUCUtil.ps1 is located at: **%Program Files%\\Microsoft\\Exchange Server\\V14\\Scripts\\ExchUCUtil.ps1**</span></span>
 
-3.  <span data-ttu-id="0faf1-119">Exchange が単一のフォレストに展開されている場合は、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="0faf1-119">If Exchange is deployed in a single forest, type:</span></span>
+3.  <span data-ttu-id="208ee-119">Exchange が単一のフォレストに展開されている場合は、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="208ee-119">If Exchange is deployed in a single forest, type:</span></span>
     
         exchucutil.ps1
     
-    <span data-ttu-id="0faf1-120">Exchange が複数のフォレストに展開されている場合は、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="0faf1-120">Or, if Exchange is deployed in multiple forests, type:</span></span>
+    <span data-ttu-id="208ee-120">Exchange が複数のフォレストに展開されている場合は、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="208ee-120">Or, if Exchange is deployed in multiple forests, type:</span></span>
     
         exchucutil.ps1 -Forest:" <forest FQDN>"
     
-    <span data-ttu-id="0faf1-121">フォレスト FQDN には、Lync Server 2013 が展開されているフォレストを指定します。</span><span class="sxs-lookup"><span data-stu-id="0faf1-121">where forest FQDN specifies the forest in which Lync Server 2013 is deployed.</span></span>
+    <span data-ttu-id="208ee-121">フォレスト FQDN には、Lync Server 2013 が展開されているフォレストを指定します。</span><span class="sxs-lookup"><span data-stu-id="208ee-121">where forest FQDN specifies the forest in which Lync Server 2013 is deployed.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="0faf1-122">exchucutil.ps1 を実行した<EM></EM>後で、<STRONG>Lync サーバー フロントエンド</STRONG> サービス (rtcsrv.exe) を再起動してください。</span><span class="sxs-lookup"><span data-stu-id="0faf1-122">Be sure to restart the <STRONG>Lync Server Front-End</STRONG> service (rtcsrv.exe) <EM>after</EM> you run exchucutil.ps1.</span></span> <span data-ttu-id="0faf1-123">それ以外の場合、Lync Server 2013 は、トポロジ内のユニファイドメッセージングを検出しません。</span><span class="sxs-lookup"><span data-stu-id="0faf1-123">Otherwise, Lync Server 2013 will not detect Unified Messaging in the topology.</span></span>
+    > <span data-ttu-id="208ee-122">exchucutil.ps1 を実行した<EM></EM>後で、<STRONG>Lync サーバー フロントエンド</STRONG> サービス (rtcsrv.exe) を再起動してください。</span><span class="sxs-lookup"><span data-stu-id="208ee-122">Be sure to restart the <STRONG>Lync Server Front-End</STRONG> service (rtcsrv.exe) <EM>after</EM> you run exchucutil.ps1.</span></span> <span data-ttu-id="208ee-123">それ以外の場合、Lync Server 2013 は、トポロジ内のユニファイドメッセージングを検出しません。</span><span class="sxs-lookup"><span data-stu-id="208ee-123">Otherwise, Lync Server 2013 will not detect Unified Messaging in the topology.</span></span>
 
     
     </div>

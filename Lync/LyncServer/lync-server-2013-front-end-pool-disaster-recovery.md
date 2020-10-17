@@ -12,20 +12,22 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51992ee84aa5f7cf5699ed8942ae7df95ce6b8d3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1702ed7adc91c2e1745a12f6f81f355d8c25c561
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500794"
 ---
+# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="f1994-102">Lync Server 2013 のフロントエンドプールの障害復旧</span><span class="sxs-lookup"><span data-stu-id="f1994-102">Front End pool disaster recovery in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="00b45-102">Lync Server 2013 のフロントエンドプールの障害復旧</span><span class="sxs-lookup"><span data-stu-id="00b45-102">Front End pool disaster recovery in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42206543"
 
 <span> </span>
 
-<span data-ttu-id="00b45-103">_**トピックの最終更新日:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="00b45-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="f1994-103">_**トピックの最終更新日:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="f1994-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="00b45-104">このセクションのトピックでは、Lync Server 2013 の高可用性と障害復旧機能のフロントエンドプールについて説明します。</span><span class="sxs-lookup"><span data-stu-id="00b45-104">The topics in this section explain the high availability and disaster recovery abilities Front End pools in Lync Server 2013.</span></span>
+<span data-ttu-id="f1994-104">このセクションのトピックでは、Lync Server 2013 の高可用性と障害復旧機能のフロントエンドプールについて説明します。</span><span class="sxs-lookup"><span data-stu-id="f1994-104">The topics in this section explain the high availability and disaster recovery abilities Front End pools in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="00b45-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="00b45-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f1994-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="f1994-105">In This Section</span></span>
 
-  - [<span data-ttu-id="00b45-106">Lync Server 2013 でのフロントエンドプールのペアリングの計画</span><span class="sxs-lookup"><span data-stu-id="00b45-106">Planning for Front End pool pairing in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-pool-pairing.md)
+  - [<span data-ttu-id="f1994-106">Lync Server 2013 でのフロントエンドプールのペアリングの計画</span><span class="sxs-lookup"><span data-stu-id="f1994-106">Planning for Front End pool pairing in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-pool-pairing.md)
 
-  - [<span data-ttu-id="00b45-107">Lync Server 2013 でのプール障害時のユーザー環境</span><span class="sxs-lookup"><span data-stu-id="00b45-107">User experience during pool failure in Lync Server 2013</span></span>](lync-server-2013-user-experience-during-pool-failure.md)
+  - [<span data-ttu-id="f1994-107">Lync Server 2013 でのプール障害時のユーザー環境</span><span class="sxs-lookup"><span data-stu-id="f1994-107">User experience during pool failure in Lync Server 2013</span></span>](lync-server-2013-user-experience-during-pool-failure.md)
 
-  - [<span data-ttu-id="00b45-108">Lync Server 2013 のバックエンドサーバーの高可用性</span><span class="sxs-lookup"><span data-stu-id="00b45-108">Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-back-end-server-high-availability.md)
+  - [<span data-ttu-id="f1994-108">Lync Server 2013 のバックエンドサーバーの高可用性</span><span class="sxs-lookup"><span data-stu-id="f1994-108">Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-back-end-server-high-availability.md)
 
-  - [<span data-ttu-id="00b45-109">Lync Server 2013 でのファイル共有の高可用性</span><span class="sxs-lookup"><span data-stu-id="00b45-109">File sharing high availability in Lync Server 2013</span></span>](lync-server-2013-file-sharing-high-availability.md)
+  - [<span data-ttu-id="f1994-109">Lync Server 2013 でのファイル共有の高可用性</span><span class="sxs-lookup"><span data-stu-id="f1994-109">File sharing high availability in Lync Server 2013</span></span>](lync-server-2013-file-sharing-high-availability.md)
 
 </div>
 
