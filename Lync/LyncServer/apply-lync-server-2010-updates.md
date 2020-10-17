@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2010 の更新プログラムの適用
+description: Lync Server 2010 の更新プログラムを適用します。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,14 +14,14 @@ ms:contentKeyID: 48183571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd534cfab7e118172ade7a0efb23721cc3af0c65
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5a686e59fcf42fdf6f9649fe0bc71a9445c428e1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499804"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545853"
 ---
-# <a name="apply-lync-server-2010-updates"></a><span data-ttu-id="06690-102">Lync Server 2010 の更新プログラムの適用</span><span class="sxs-lookup"><span data-stu-id="06690-102">Apply Lync Server 2010 updates</span></span>
+# <a name="apply-lync-server-2010-updates"></a><span data-ttu-id="db925-103">Lync Server 2010 の更新プログラムの適用</span><span class="sxs-lookup"><span data-stu-id="db925-103">Apply Lync Server 2010 updates</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,11 +39,11 @@ ms.locfileid: "48499804"
 
 <span> </span>
 
-<span data-ttu-id="06690-103">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="06690-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="db925-104">_**トピックの最終更新日:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="db925-104">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="06690-104">Lync Server 2013 に移行する前に、Lync Server 2010 環境に更新プログラムを適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="06690-104">Before you migrate to Lync Server 2013, updates must be applied to your Lync Server 2010 environment.</span></span> <span data-ttu-id="06690-105">Lync Server 2010 に関する最新情報については、「 **lync のリソースセンターを更新する** 」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=232630> 。</span><span class="sxs-lookup"><span data-stu-id="06690-105">For the most up-to-date information about Lync Server 2010, see **Updates Resource Center for Lync** at <https://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
+<span data-ttu-id="db925-105">Lync Server 2013 に移行する前に、Lync Server 2010 環境に更新プログラムを適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="db925-105">Before you migrate to Lync Server 2013, updates must be applied to your Lync Server 2010 environment.</span></span> <span data-ttu-id="db925-106">Lync Server 2010 に関する最新情報については、「 **lync のリソースセンターを更新する** 」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=232630> 。</span><span class="sxs-lookup"><span data-stu-id="db925-106">For the most up-to-date information about Lync Server 2010, see **Updates Resource Center for Lync** at <https://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
 
-<span data-ttu-id="06690-106">Lync Server 2010 の更新プログラムをインストールするには、Microsoft サポート技術情報の記事「Lync Server 2010 の更新プログラム ()」に記載されている **方法1の累積的なサーバー更新インストーラー** の手順に従うことをお勧めし [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736) ます。</span><span class="sxs-lookup"><span data-stu-id="06690-106">To install updates for Lync Server 2010, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in the Microsoft Knowledge Base article, "Updates for Lync Server 2010," at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736).</span></span>
+<span data-ttu-id="db925-107">Lync Server 2010 の更新プログラムをインストールするには、Microsoft サポート技術情報の記事「Lync Server 2010 の更新プログラム ()」に記載されている **方法1の累積的なサーバー更新インストーラー** の手順に従うことをお勧めし [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736) ます。</span><span class="sxs-lookup"><span data-stu-id="db925-107">To install updates for Lync Server 2010, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in the Microsoft Knowledge Base article, "Updates for Lync Server 2010," at [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736).</span></span>
 
 </div>
 

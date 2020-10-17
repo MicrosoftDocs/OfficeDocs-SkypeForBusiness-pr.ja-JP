@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 匿名ユーザーアクセスの有効化または無効化'
+description: 'Lync Server 2013: 匿名ユーザーアクセスを有効または無効にします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f58ab7d0f3d47da8bae3df94c3c83b1eae0059e6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4ca36cffc25cd31d057b00c22cb299c56cfd7b3c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501084"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544773"
 ---
-# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a><span data-ttu-id="76a08-102">Lync Server 2013 で匿名ユーザーアクセスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="76a08-102">Enable or disable anonymous user access in Lync Server 2013</span></span>
+# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a><span data-ttu-id="c50ac-103">Lync Server 2013 で匿名ユーザーアクセスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="c50ac-103">Enable or disable anonymous user access in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48501084"
 
 <span> </span>
 
-<span data-ttu-id="76a08-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="76a08-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="c50ac-104">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="c50ac-104">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="76a08-104">匿名ユーザーは、組織の Active Directory ドメインサービスまたはサポートされているフェデレーションドメインにユーザーアカウントを持たないユーザーですが、社内の会議にリモートで参加するよう招待することができます。</span><span class="sxs-lookup"><span data-stu-id="76a08-104">Anonymous users are users who do not have a user account in your organization's Active Directory Domain Services or in a supported federated domain, but can be invited to participate remotely in an on-premises conference.</span></span> <span data-ttu-id="76a08-105">会議への匿名参加を許可することにより、匿名ユーザー (つまり、会議キーまたは会議キーで本人のみが確認されるユーザー) が会議に参加できるようになります。</span><span class="sxs-lookup"><span data-stu-id="76a08-105">By allowing anonymous participation in meetings you enable anonymous users (that is, users whose identity is verified through the meeting or conference key only) to join meetings.</span></span> <span data-ttu-id="76a08-106">匿名参加を許可するには、組織に対して有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="76a08-106">Allowing anonymous participation requires enabling it for your organization.</span></span>
+<span data-ttu-id="c50ac-105">匿名ユーザーは、組織の Active Directory ドメインサービスまたはサポートされているフェデレーションドメインにユーザーアカウントを持たないユーザーですが、社内の会議にリモートで参加するよう招待することができます。</span><span class="sxs-lookup"><span data-stu-id="c50ac-105">Anonymous users are users who do not have a user account in your organization's Active Directory Domain Services or in a supported federated domain, but can be invited to participate remotely in an on-premises conference.</span></span> <span data-ttu-id="c50ac-106">会議への匿名参加を許可することにより、匿名ユーザー (つまり、会議キーまたは会議キーで本人のみが確認されるユーザー) が会議に参加できるようになります。</span><span class="sxs-lookup"><span data-stu-id="c50ac-106">By allowing anonymous participation in meetings you enable anonymous users (that is, users whose identity is verified through the meeting or conference key only) to join meetings.</span></span> <span data-ttu-id="c50ac-107">匿名参加を許可するには、組織に対して有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="c50ac-107">Allowing anonymous participation requires enabling it for your organization.</span></span>
 
-<span data-ttu-id="76a08-107">後で匿名ユーザーによるアクセスを一時的または完全に禁止する場合は、組織に対して無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="76a08-107">If you later want to temporarily or permanently prevent access by anonymous users, you can disable it for your organization.</span></span> <span data-ttu-id="76a08-108">このセクションの手順を使用して、組織の匿名ユーザーアクセスを有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="76a08-108">Use the procedure in this section to enable or disable anonymous user access for your organization.</span></span>
+<span data-ttu-id="c50ac-108">後で匿名ユーザーによるアクセスを一時的または完全に禁止する場合は、組織に対して無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="c50ac-108">If you later want to temporarily or permanently prevent access by anonymous users, you can disable it for your organization.</span></span> <span data-ttu-id="c50ac-109">このセクションの手順を使用して、組織の匿名ユーザーアクセスを有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="c50ac-109">Use the procedure in this section to enable or disable anonymous user access for your organization.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="76a08-109">組織で匿名ユーザーアクセスを有効にすることで、アクセスエッジサービスを実行しているサーバーが匿名ユーザーによるアクセスをサポートすることを指定するだけです。</span><span class="sxs-lookup"><span data-stu-id="76a08-109">By enabling anonymous user access for your organization you are only specifying that your servers running the Access Edge service support access by anonymous users.</span></span> <span data-ttu-id="76a08-110">匿名ユーザーは、少なくとも1つの会議ポリシーを構成して、1人以上のユーザーまたはユーザーグループに適用するまでは、組織内のすべての会議に参加できません。</span><span class="sxs-lookup"><span data-stu-id="76a08-110">Anonymous users cannot participate in any meetings in your organization until you also configure at least one conferencing policy and apply it to one or more users or user groups.</span></span> <span data-ttu-id="76a08-111">匿名ユーザーを会議に招待できるユーザーは、匿名ユーザーをサポートするように構成された会議ポリシーが割り当てられているユーザーのみです。</span><span class="sxs-lookup"><span data-stu-id="76a08-111">The only users that can invite anonymous users to meetings are those users that are assigned a conferencing policy that is configured to support anonymous users.</span></span> <span data-ttu-id="76a08-112">匿名ユーザーの招待をサポートするための会議ポリシーの構成の詳細については、「 <A href="lync-server-2013-conferencing-policies.md">Lync Server 2013 の会議ポリシー</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="76a08-112">For details about configuring conferencing policies to support inviting anonymous users, see <A href="lync-server-2013-conferencing-policies.md">Conferencing policies in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="c50ac-110">組織で匿名ユーザーアクセスを有効にすることで、アクセスエッジサービスを実行しているサーバーが匿名ユーザーによるアクセスをサポートすることを指定するだけです。</span><span class="sxs-lookup"><span data-stu-id="c50ac-110">By enabling anonymous user access for your organization you are only specifying that your servers running the Access Edge service support access by anonymous users.</span></span> <span data-ttu-id="c50ac-111">匿名ユーザーは、少なくとも1つの会議ポリシーを構成して、1人以上のユーザーまたはユーザーグループに適用するまでは、組織内のすべての会議に参加できません。</span><span class="sxs-lookup"><span data-stu-id="c50ac-111">Anonymous users cannot participate in any meetings in your organization until you also configure at least one conferencing policy and apply it to one or more users or user groups.</span></span> <span data-ttu-id="c50ac-112">匿名ユーザーを会議に招待できるユーザーは、匿名ユーザーをサポートするように構成された会議ポリシーが割り当てられているユーザーのみです。</span><span class="sxs-lookup"><span data-stu-id="c50ac-112">The only users that can invite anonymous users to meetings are those users that are assigned a conferencing policy that is configured to support anonymous users.</span></span> <span data-ttu-id="c50ac-113">匿名ユーザーの招待をサポートするための会議ポリシーの構成の詳細については、「 <A href="lync-server-2013-conferencing-policies.md">Lync Server 2013 の会議ポリシー</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c50ac-113">For details about configuring conferencing policies to support inviting anonymous users, see <A href="lync-server-2013-conferencing-policies.md">Conferencing policies in Lync Server 2013</A>.</span></span>
 
 
 
@@ -55,37 +56,37 @@ ms.locfileid: "48501084"
 
 <div>
 
-## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a><span data-ttu-id="76a08-113">組織の匿名ユーザーアクセスを有効または無効にするには</span><span class="sxs-lookup"><span data-stu-id="76a08-113">To enable or disable anonymous user access for your organization</span></span>
+## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a><span data-ttu-id="c50ac-114">組織の匿名ユーザーアクセスを有効または無効にするには</span><span class="sxs-lookup"><span data-stu-id="c50ac-114">To enable or disable anonymous user access for your organization</span></span>
 
-1.  <span data-ttu-id="76a08-114">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="76a08-114">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="c50ac-115">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="c50ac-115">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="76a08-115">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="76a08-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="76a08-116">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="76a08-116">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="c50ac-116">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="c50ac-116">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="c50ac-117">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c50ac-117">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="76a08-117">左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックし、[**アクセス エッジ構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="76a08-117">In the left navigation bar, click **External User Access**, and then click **Access Edge Configuration**.</span></span>
+3.  <span data-ttu-id="c50ac-118">左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックし、[**アクセス エッジ構成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c50ac-118">In the left navigation bar, click **External User Access**, and then click **Access Edge Configuration**.</span></span>
 
-4.  <span data-ttu-id="76a08-118">[**アクセス エッジ構成**] ページで、[**グローバル**]、[**編集**]、[**詳細の表示**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="76a08-118">On the **Access Edge Configuration** page, click **Global**, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="c50ac-119">[**アクセス エッジ構成**] ページで、[**グローバル**]、[**編集**]、[**詳細の表示**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="c50ac-119">On the **Access Edge Configuration** page, click **Global**, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="76a08-119">[**アクセス エッジ構成の編集**] で、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="76a08-119">In **Edit Access Edge Configuration**, do one of the following:</span></span>
+5.  <span data-ttu-id="c50ac-120">[**アクセス エッジ構成の編集**] で、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="c50ac-120">In **Edit Access Edge Configuration**, do one of the following:</span></span>
     
-      - <span data-ttu-id="76a08-120">組織で匿名ユーザーアクセスを有効にするには、[ **匿名ユーザーとの通信を有効** にする] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="76a08-120">To enable anonymous user access for your organization, select the **Enable communications with anonymous users** check box.</span></span>
+      - <span data-ttu-id="c50ac-121">組織で匿名ユーザーアクセスを有効にするには、[ **匿名ユーザーとの通信を有効** にする] チェックボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="c50ac-121">To enable anonymous user access for your organization, select the **Enable communications with anonymous users** check box.</span></span>
     
-      - <span data-ttu-id="76a08-121">組織の匿名ユーザーアクセスを無効にするには、[ **匿名ユーザーとの通信を有効に** する] チェックボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="76a08-121">To disable anonymous user access for your organization, clear the **Enable communications with anonymous users** check box.</span></span>
+      - <span data-ttu-id="c50ac-122">組織の匿名ユーザーアクセスを無効にするには、[ **匿名ユーザーとの通信を有効に** する] チェックボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="c50ac-122">To disable anonymous user access for your organization, clear the **Enable communications with anonymous users** check box.</span></span>
 
-6.  <span data-ttu-id="76a08-122">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="76a08-122">Click **Commit**.</span></span>
+6.  <span data-ttu-id="c50ac-123">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c50ac-123">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="76a08-123">Windows PowerShell コマンドレットを使用して匿名ユーザーアクセスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="76a08-123">Enabling or Disabling Anonymous User Access by Using Windows PowerShell Cmdlets</span></span>
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="c50ac-124">Windows PowerShell コマンドレットを使用して匿名ユーザーアクセスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="c50ac-124">Enabling or Disabling Anonymous User Access by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="76a08-124">匿名ユーザーアクセスを管理するには、Windows PowerShell と **set-csaccessedgeconfiguration** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="76a08-124">You can manage anonymous user access by using Windows PowerShell and the **Set-CsAccessEdgeConfiguration** cmdlet.</span></span> <span data-ttu-id="76a08-125">このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="76a08-125">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="76a08-126">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="76a08-126">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="c50ac-125">匿名ユーザーアクセスを管理するには、Windows PowerShell と **set-csaccessedgeconfiguration** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="c50ac-125">You can manage anonymous user access by using Windows PowerShell and the **Set-CsAccessEdgeConfiguration** cmdlet.</span></span> <span data-ttu-id="c50ac-126">このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="c50ac-126">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="c50ac-127">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="c50ac-127">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-enable-anonymous-user-access"></a><span data-ttu-id="76a08-127">匿名ユーザーアクセスを有効にするには</span><span class="sxs-lookup"><span data-stu-id="76a08-127">To enable anonymous user access</span></span>
+## <a name="to-enable-anonymous-user-access"></a><span data-ttu-id="c50ac-128">匿名ユーザーアクセスを有効にするには</span><span class="sxs-lookup"><span data-stu-id="c50ac-128">To enable anonymous user access</span></span>
 
-  - <span data-ttu-id="76a08-128">匿名ユーザーアクセスを有効にするには、 **AllowAnonymousUsers** プロパティの値を True ($True) に設定します。</span><span class="sxs-lookup"><span data-stu-id="76a08-128">To enable anonymous user access, set the value of the **AllowAnonymousUsers** property to True ($True):</span></span>
+  - <span data-ttu-id="c50ac-129">匿名ユーザーアクセスを有効にするには、 **AllowAnonymousUsers** プロパティの値を True ($True) に設定します。</span><span class="sxs-lookup"><span data-stu-id="c50ac-129">To enable anonymous user access, set the value of the **AllowAnonymousUsers** property to True ($True):</span></span>
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
@@ -93,9 +94,9 @@ ms.locfileid: "48501084"
 
 <div>
 
-## <a name="to-disable-anonymous-user-access"></a><span data-ttu-id="76a08-129">匿名ユーザーアクセスを無効にするには</span><span class="sxs-lookup"><span data-stu-id="76a08-129">To disable anonymous user access</span></span>
+## <a name="to-disable-anonymous-user-access"></a><span data-ttu-id="c50ac-130">匿名ユーザーアクセスを無効にするには</span><span class="sxs-lookup"><span data-stu-id="c50ac-130">To disable anonymous user access</span></span>
 
-  - <span data-ttu-id="76a08-130">匿名ユーザーアクセスを無効にするには、 **AllowAnonymousUsers** プロパティの値を False ($False) に設定します。</span><span class="sxs-lookup"><span data-stu-id="76a08-130">To disable anonymous user access, set the value of the **AllowAnonymousUsers** property to False ($False):</span></span>
+  - <span data-ttu-id="c50ac-131">匿名ユーザーアクセスを無効にするには、 **AllowAnonymousUsers** プロパティの値を False ($False) に設定します。</span><span class="sxs-lookup"><span data-stu-id="c50ac-131">To disable anonymous user access, set the value of the **AllowAnonymousUsers** property to False ($False):</span></span>
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
@@ -105,10 +106,10 @@ ms.locfileid: "48501084"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="76a08-131">関連項目</span><span class="sxs-lookup"><span data-stu-id="76a08-131">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c50ac-132">関連項目</span><span class="sxs-lookup"><span data-stu-id="c50ac-132">See Also</span></span>
 
 
-[<span data-ttu-id="76a08-132">Lync Server 2013 の会議ポリシー設定のリファレンス</span><span class="sxs-lookup"><span data-stu-id="76a08-132">Conferencing policy settings reference for Lync Server 2013</span></span>](lync-server-2013-conferencing-policy-settings-reference.md)  
+[<span data-ttu-id="c50ac-133">Lync Server 2013 の会議ポリシー設定のリファレンス</span><span class="sxs-lookup"><span data-stu-id="c50ac-133">Conferencing policy settings reference for Lync Server 2013</span></span>](lync-server-2013-conferencing-policy-settings-reference.md)  
   
 
 </div>

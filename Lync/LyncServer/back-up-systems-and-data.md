@@ -1,5 +1,6 @@
 ---
 title: システムとデータをバックアップする
+description: システムとデータをバックアップします。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,14 +14,14 @@ ms:contentKeyID: 48185550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3181c64fd8c113e155fb4596441cbd6ce63c0342
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 32d65f3cada4cda49cc49de449f2c71b0990373e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499754"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545823"
 ---
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="0fb87-102">システムとデータをバックアップする</span><span class="sxs-lookup"><span data-stu-id="0fb87-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="68d30-103">システムとデータをバックアップする</span><span class="sxs-lookup"><span data-stu-id="68d30-103">Back up systems and data</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,11 +39,11 @@ ms.locfileid: "48499754"
 
 <span> </span>
 
-<span data-ttu-id="0fb87-103">_**トピックの最終更新日:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="0fb87-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="68d30-104">_**トピックの最終更新日:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="68d30-104">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="0fb87-104">Lync Server 2013 への移行を開始する前に、システムの完全バックアップを実行し、各プールに所属しているユーザーアカウントのインベントリを含む既存システムのドキュメントを作成し、必要に応じて Lync Server 2010 にロールバックできるようにすることを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="0fb87-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="0fb87-105">データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。</span><span class="sxs-lookup"><span data-stu-id="0fb87-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
+<span data-ttu-id="68d30-105">Lync Server 2013 への移行を開始する前に、システムの完全バックアップを実行し、各プールに所属しているユーザーアカウントのインベントリを含む既存システムのドキュメントを作成し、必要に応じて Lync Server 2010 にロールバックできるようにすることを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="68d30-105">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="68d30-106">データ、設定、およびシステムのバックアップと復元には、複数のツールおよびプログラムを使用できます。</span><span class="sxs-lookup"><span data-stu-id="68d30-106">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
 
-<span data-ttu-id="0fb87-106">詳細と手順については、「 [Lync Server 2010 のバックアップと復元](https://go.microsoft.com/fwlink/p/?linkid=265417) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0fb87-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
+<span data-ttu-id="68d30-107">詳細と手順については、「 [Lync Server 2010 のバックアップと復元](https://go.microsoft.com/fwlink/p/?linkid=265417) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="68d30-107">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: セッションビュー'
+description: 'Lync Server 2013: セッションビュー。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30183ffde7380b5029ac458f102eaf81ecee914b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ff4bc4abbd55e073006693d28f092f077698ef75
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510094"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545013"
 ---
-# <a name="session-view-in-lync-server-2013"></a><span data-ttu-id="a7f77-102">Lync Server 2013 のセッションビュー</span><span class="sxs-lookup"><span data-stu-id="a7f77-102">Session view in Lync Server 2013</span></span>
+# <a name="session-view-in-lync-server-2013"></a><span data-ttu-id="0762d-103">Lync Server 2013 のセッションビュー</span><span class="sxs-lookup"><span data-stu-id="0762d-103">Session view in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48510094"
 
 <span> </span>
 
-<span data-ttu-id="a7f77-103">_**トピックの最終更新日:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="a7f77-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="0762d-104">_**トピックの最終更新日:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="0762d-104">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="a7f77-104">セッション ビューには、データベースにレコードがあるセッションに関する情報が保存されます。</span><span class="sxs-lookup"><span data-stu-id="a7f77-104">The Session View stores information about sessions that have records in the database.</span></span> <span data-ttu-id="a7f77-105">このビューは Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="a7f77-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="0762d-105">セッション ビューには、データベースにレコードがあるセッションに関する情報が保存されます。</span><span class="sxs-lookup"><span data-stu-id="0762d-105">The Session View stores information about sessions that have records in the database.</span></span> <span data-ttu-id="0762d-106">このビューは Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="0762d-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -50,127 +51,127 @@ ms.locfileid: "48510094"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a7f77-106">Column</span><span class="sxs-lookup"><span data-stu-id="a7f77-106">Column</span></span></th>
-<th><span data-ttu-id="a7f77-107">データ型</span><span class="sxs-lookup"><span data-stu-id="a7f77-107">Data Type</span></span></th>
-<th><span data-ttu-id="a7f77-108">詳細</span><span class="sxs-lookup"><span data-stu-id="a7f77-108">Details</span></span></th>
+<th><span data-ttu-id="0762d-107">Column</span><span class="sxs-lookup"><span data-stu-id="0762d-107">Column</span></span></th>
+<th><span data-ttu-id="0762d-108">データ型</span><span class="sxs-lookup"><span data-stu-id="0762d-108">Data Type</span></span></th>
+<th><span data-ttu-id="0762d-109">詳細</span><span class="sxs-lookup"><span data-stu-id="0762d-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-109">ConferenceDateTime</span><span class="sxs-lookup"><span data-stu-id="a7f77-109">ConferenceDateTime</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-110">日付型</span><span class="sxs-lookup"><span data-stu-id="a7f77-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-111">MediaLine テーブルから参照されます。</span><span class="sxs-lookup"><span data-stu-id="a7f77-111">Referenced from the MediaLine Table.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-110">ConferenceDateTime</span><span class="sxs-lookup"><span data-stu-id="0762d-110">ConferenceDateTime</span></span></p></td>
+<td><p><span data-ttu-id="0762d-111">日付型</span><span class="sxs-lookup"><span data-stu-id="0762d-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="0762d-112">MediaLine テーブルから参照されます。</span><span class="sxs-lookup"><span data-stu-id="0762d-112">Referenced from the MediaLine Table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-112">ConferenceURI</span><span class="sxs-lookup"><span data-stu-id="a7f77-112">ConferenceURI</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-113">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="a7f77-113">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-114">これが会議の場合は会議 URI、ピアツーピア セッションの場合は DialogID です。</span><span class="sxs-lookup"><span data-stu-id="a7f77-114">Conference URI if this is a conference, or DialogID if this is a peer-to-peer session.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-113">ConferenceURI</span><span class="sxs-lookup"><span data-stu-id="0762d-113">ConferenceURI</span></span></p></td>
+<td><p><span data-ttu-id="0762d-114">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="0762d-114">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-115">これが会議の場合は会議 URI、ピアツーピア セッションの場合は DialogID です。</span><span class="sxs-lookup"><span data-stu-id="0762d-115">Conference URI if this is a conference, or DialogID if this is a peer-to-peer session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-115">関連付け</span><span class="sxs-lookup"><span data-stu-id="a7f77-115">Correlation</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-116">varchar (max)</span><span class="sxs-lookup"><span data-stu-id="a7f77-116">varchar(max)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-117">セッションの関連付け ID。</span><span class="sxs-lookup"><span data-stu-id="a7f77-117">Correlation ID of the session.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-116">関連付け</span><span class="sxs-lookup"><span data-stu-id="0762d-116">Correlation</span></span></p></td>
+<td><p><span data-ttu-id="0762d-117">varchar (max)</span><span class="sxs-lookup"><span data-stu-id="0762d-117">varchar(max)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-118">セッションの関連付け ID。</span><span class="sxs-lookup"><span data-stu-id="0762d-118">Correlation ID of the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-118">' このカテゴリ</span><span class="sxs-lookup"><span data-stu-id="a7f77-118">DialogCategory</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-119">若干</span><span class="sxs-lookup"><span data-stu-id="a7f77-119">bit</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-120">ダイアログのカテゴリ。0は Lync Server から仲介サーバーまでです。1は仲介サーバーから PSTN ゲートウェイレグになります。</span><span class="sxs-lookup"><span data-stu-id="a7f77-120">Dialog category; 0 is Lync Server to Mediation Server leg; 1 is Mediation Server to PSTN gateway leg.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-119">' このカテゴリ</span><span class="sxs-lookup"><span data-stu-id="0762d-119">DialogCategory</span></span></p></td>
+<td><p><span data-ttu-id="0762d-120">若干</span><span class="sxs-lookup"><span data-stu-id="0762d-120">bit</span></span></p></td>
+<td><p><span data-ttu-id="0762d-121">ダイアログのカテゴリ。0は Lync Server から仲介サーバーまでです。1は仲介サーバーから PSTN ゲートウェイレグになります。</span><span class="sxs-lookup"><span data-stu-id="0762d-121">Dialog category; 0 is Lync Server to Mediation Server leg; 1 is Mediation Server to PSTN gateway leg.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-121">MediationServerBypassFlag</span><span class="sxs-lookup"><span data-stu-id="a7f77-121">MediationServerBypassFlag</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-122">若干</span><span class="sxs-lookup"><span data-stu-id="a7f77-122">bit</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-123">通話がバイパスされたかどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="a7f77-123">Indicates whether or not the call was bypassed.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-122">MediationServerBypassFlag</span><span class="sxs-lookup"><span data-stu-id="0762d-122">MediationServerBypassFlag</span></span></p></td>
+<td><p><span data-ttu-id="0762d-123">若干</span><span class="sxs-lookup"><span data-stu-id="0762d-123">bit</span></span></p></td>
+<td><p><span data-ttu-id="0762d-124">通話がバイパスされたかどうかを示します。</span><span class="sxs-lookup"><span data-stu-id="0762d-124">Indicates whether or not the call was bypassed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-124">Mediabypasswarnings フラグ</span><span class="sxs-lookup"><span data-stu-id="a7f77-124">MediaBypassWarningFlag</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-125">int</span><span class="sxs-lookup"><span data-stu-id="a7f77-125">int</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-126">このフィールドは、(存在する場合) バイパス ID が一致したのに通話がバイパスされなかった理由を示します。</span><span class="sxs-lookup"><span data-stu-id="a7f77-126">This field, if present, indicates why a call was not bypassed even if the bypass IDs matched.</span></span> <span data-ttu-id="a7f77-127">Lync Server の場合は、1つの値のみが定義されます。</span><span class="sxs-lookup"><span data-stu-id="a7f77-127">For Lync Server, only one value is defined:</span></span></p>
-<p><span data-ttu-id="a7f77-128">0x0001 - 既定のネットワーク アダプターのバイパス ID が不明です。</span><span class="sxs-lookup"><span data-stu-id="a7f77-128">0x0001 – Unknown bypass ID for Default network adapter</span></span></p></td>
+<td><p><span data-ttu-id="0762d-125">Mediabypasswarnings フラグ</span><span class="sxs-lookup"><span data-stu-id="0762d-125">MediaBypassWarningFlag</span></span></p></td>
+<td><p><span data-ttu-id="0762d-126">int</span><span class="sxs-lookup"><span data-stu-id="0762d-126">int</span></span></p></td>
+<td><p><span data-ttu-id="0762d-127">このフィールドは、(存在する場合) バイパス ID が一致したのに通話がバイパスされなかった理由を示します。</span><span class="sxs-lookup"><span data-stu-id="0762d-127">This field, if present, indicates why a call was not bypassed even if the bypass IDs matched.</span></span> <span data-ttu-id="0762d-128">Lync Server の場合は、1つの値のみが定義されます。</span><span class="sxs-lookup"><span data-stu-id="0762d-128">For Lync Server, only one value is defined:</span></span></p>
+<p><span data-ttu-id="0762d-129">0x0001 - 既定のネットワーク アダプターのバイパス ID が不明です。</span><span class="sxs-lookup"><span data-stu-id="0762d-129">0x0001 – Unknown bypass ID for Default network adapter</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-129">StartTime</span><span class="sxs-lookup"><span data-stu-id="a7f77-129">StartTime</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-130">日付型</span><span class="sxs-lookup"><span data-stu-id="a7f77-130">datetime</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-131">通話の開始時刻。</span><span class="sxs-lookup"><span data-stu-id="a7f77-131">Call start time.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-130">StartTime</span><span class="sxs-lookup"><span data-stu-id="0762d-130">StartTime</span></span></p></td>
+<td><p><span data-ttu-id="0762d-131">日付型</span><span class="sxs-lookup"><span data-stu-id="0762d-131">datetime</span></span></p></td>
+<td><p><span data-ttu-id="0762d-132">通話の開始時刻。</span><span class="sxs-lookup"><span data-stu-id="0762d-132">Call start time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-132">EndTime</span><span class="sxs-lookup"><span data-stu-id="a7f77-132">EndTime</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-133">日付型</span><span class="sxs-lookup"><span data-stu-id="a7f77-133">datetime</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-134">通話の終了時刻。</span><span class="sxs-lookup"><span data-stu-id="a7f77-134">Call end time.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-133">EndTime</span><span class="sxs-lookup"><span data-stu-id="0762d-133">EndTime</span></span></p></td>
+<td><p><span data-ttu-id="0762d-134">日付型</span><span class="sxs-lookup"><span data-stu-id="0762d-134">datetime</span></span></p></td>
+<td><p><span data-ttu-id="0762d-135">通話の終了時刻。</span><span class="sxs-lookup"><span data-stu-id="0762d-135">Call end time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-135">CallerPool</span><span class="sxs-lookup"><span data-stu-id="a7f77-135">CallerPool</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-136">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="a7f77-136">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-137">発信者プールの FQDN。</span><span class="sxs-lookup"><span data-stu-id="a7f77-137">Caller pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-136">CallerPool</span><span class="sxs-lookup"><span data-stu-id="0762d-136">CallerPool</span></span></p></td>
+<td><p><span data-ttu-id="0762d-137">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0762d-137">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-138">発信者プールの FQDN。</span><span class="sxs-lookup"><span data-stu-id="0762d-138">Caller pool FQDN.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-138">CalleePool</span><span class="sxs-lookup"><span data-stu-id="a7f77-138">CalleePool</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-139">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="a7f77-139">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-140">呼び出し先プールの FQDN。</span><span class="sxs-lookup"><span data-stu-id="a7f77-140">Callee pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-139">CalleePool</span><span class="sxs-lookup"><span data-stu-id="0762d-139">CalleePool</span></span></p></td>
+<td><p><span data-ttu-id="0762d-140">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0762d-140">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-141">呼び出し先プールの FQDN。</span><span class="sxs-lookup"><span data-stu-id="0762d-141">Callee pool FQDN.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-141">CallerPAI</span><span class="sxs-lookup"><span data-stu-id="a7f77-141">CallerPAI</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-142">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="a7f77-142">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-143">発信者の P-Asserted-Identity (PAI) URI。</span><span class="sxs-lookup"><span data-stu-id="a7f77-143">Caller’s p-asserted identity URI.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-142">CallerPAI</span><span class="sxs-lookup"><span data-stu-id="0762d-142">CallerPAI</span></span></p></td>
+<td><p><span data-ttu-id="0762d-143">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="0762d-143">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-144">発信者の P-Asserted-Identity (PAI) URI。</span><span class="sxs-lookup"><span data-stu-id="0762d-144">Caller’s p-asserted identity URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-144">CalleePAI</span><span class="sxs-lookup"><span data-stu-id="a7f77-144">CalleePAI</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-145">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="a7f77-145">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-146">呼び出し先の P-Asserted-Identity (PAI) URI。</span><span class="sxs-lookup"><span data-stu-id="a7f77-146">Callee’s p-asserted identity URI.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-145">CalleePAI</span><span class="sxs-lookup"><span data-stu-id="0762d-145">CalleePAI</span></span></p></td>
+<td><p><span data-ttu-id="0762d-146">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="0762d-146">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-147">呼び出し先の P-Asserted-Identity (PAI) URI。</span><span class="sxs-lookup"><span data-stu-id="0762d-147">Callee’s p-asserted identity URI.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-147">CallerEndpoint</span><span class="sxs-lookup"><span data-stu-id="a7f77-147">CallerEndpoint</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-148">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="a7f77-148">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-149">発信者のエンドポイント名。</span><span class="sxs-lookup"><span data-stu-id="a7f77-149">Caller’s endpoint name.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-148">CallerEndpoint</span><span class="sxs-lookup"><span data-stu-id="0762d-148">CallerEndpoint</span></span></p></td>
+<td><p><span data-ttu-id="0762d-149">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0762d-149">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-150">発信者のエンドポイント名。</span><span class="sxs-lookup"><span data-stu-id="0762d-150">Caller’s endpoint name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-150">CalleeEndpoint</span><span class="sxs-lookup"><span data-stu-id="a7f77-150">CalleeEndpoint</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-151">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="a7f77-151">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-152">発信者のエンドポイント名。</span><span class="sxs-lookup"><span data-stu-id="a7f77-152">Caller’s endpoint name.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-151">CalleeEndpoint</span><span class="sxs-lookup"><span data-stu-id="0762d-151">CalleeEndpoint</span></span></p></td>
+<td><p><span data-ttu-id="0762d-152">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0762d-152">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-153">発信者のエンドポイント名。</span><span class="sxs-lookup"><span data-stu-id="0762d-153">Caller’s endpoint name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-153">CallerUserAgent</span><span class="sxs-lookup"><span data-stu-id="a7f77-153">CallerUserAgent</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-154">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="a7f77-154">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-155">発信者のユーザー エージェント文字列。</span><span class="sxs-lookup"><span data-stu-id="a7f77-155">Caller’s user agent string.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-154">CallerUserAgent</span><span class="sxs-lookup"><span data-stu-id="0762d-154">CallerUserAgent</span></span></p></td>
+<td><p><span data-ttu-id="0762d-155">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0762d-155">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-156">発信者のユーザー エージェント文字列。</span><span class="sxs-lookup"><span data-stu-id="0762d-156">Caller’s user agent string.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-156">CallerUserAgentType</span><span class="sxs-lookup"><span data-stu-id="a7f77-156">CallerUserAgentType</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-157">smallint</span><span class="sxs-lookup"><span data-stu-id="a7f77-157">smallint</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-158">発信者のユーザー エージェントの種類。</span><span class="sxs-lookup"><span data-stu-id="a7f77-158">Type of caller’s user agent.</span></span> <span data-ttu-id="a7f77-159">詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a7f77-159">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for details.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-157">CallerUserAgentType</span><span class="sxs-lookup"><span data-stu-id="0762d-157">CallerUserAgentType</span></span></p></td>
+<td><p><span data-ttu-id="0762d-158">smallint</span><span class="sxs-lookup"><span data-stu-id="0762d-158">smallint</span></span></p></td>
+<td><p><span data-ttu-id="0762d-159">発信者のユーザー エージェントの種類。</span><span class="sxs-lookup"><span data-stu-id="0762d-159">Type of caller’s user agent.</span></span> <span data-ttu-id="0762d-160">詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0762d-160">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-160">CallerUserAgentCategory</span><span class="sxs-lookup"><span data-stu-id="a7f77-160">CallerUserAgentCategory</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-161">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="a7f77-161">nvarchar (64)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-162">発信者のユーザー エージェントのカテゴリ。</span><span class="sxs-lookup"><span data-stu-id="a7f77-162">Category of caller’s user agent.</span></span> <span data-ttu-id="a7f77-163">詳細については、「 <a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 の Useragentdef テーブル (QoE)</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a7f77-163">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for details.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-161">CallerUserAgentCategory</span><span class="sxs-lookup"><span data-stu-id="0762d-161">CallerUserAgentCategory</span></span></p></td>
+<td><p><span data-ttu-id="0762d-162">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="0762d-162">nvarchar (64)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-163">発信者のユーザー エージェントのカテゴリ。</span><span class="sxs-lookup"><span data-stu-id="0762d-163">Category of caller’s user agent.</span></span> <span data-ttu-id="0762d-164">詳細については、「 <a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 の Useragentdef テーブル (QoE)</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0762d-164">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-164">CalleeUserAgent</span><span class="sxs-lookup"><span data-stu-id="a7f77-164">CalleeUserAgent</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-165">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="a7f77-165">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-166">呼び出し先のユーザー エージェント文字列。</span><span class="sxs-lookup"><span data-stu-id="a7f77-166">Callee’s user agent string.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-165">CalleeUserAgent</span><span class="sxs-lookup"><span data-stu-id="0762d-165">CalleeUserAgent</span></span></p></td>
+<td><p><span data-ttu-id="0762d-166">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0762d-166">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-167">呼び出し先のユーザー エージェント文字列。</span><span class="sxs-lookup"><span data-stu-id="0762d-167">Callee’s user agent string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-167">CalleeUserAgentType</span><span class="sxs-lookup"><span data-stu-id="a7f77-167">CalleeUserAgentType</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-168">smallint</span><span class="sxs-lookup"><span data-stu-id="a7f77-168">smallint</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-169">呼び出し先のユーザー エージェント タイプ。</span><span class="sxs-lookup"><span data-stu-id="a7f77-169">Type of user agent for the callee.</span></span> <span data-ttu-id="a7f77-170">詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a7f77-170">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for details.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-168">CalleeUserAgentType</span><span class="sxs-lookup"><span data-stu-id="0762d-168">CalleeUserAgentType</span></span></p></td>
+<td><p><span data-ttu-id="0762d-169">smallint</span><span class="sxs-lookup"><span data-stu-id="0762d-169">smallint</span></span></p></td>
+<td><p><span data-ttu-id="0762d-170">呼び出し先のユーザー エージェント タイプ。</span><span class="sxs-lookup"><span data-stu-id="0762d-170">Type of user agent for the callee.</span></span> <span data-ttu-id="0762d-171">詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0762d-171">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-171">CalleeUserAgentCategory</span><span class="sxs-lookup"><span data-stu-id="a7f77-171">CalleeUserAgentCategory</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-172">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="a7f77-172">nvarchar (64)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-173">呼び出し先のユーザー エージェントのカテゴリ。</span><span class="sxs-lookup"><span data-stu-id="a7f77-173">User agent category for the callee.</span></span> <span data-ttu-id="a7f77-174">詳細については、「 <a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 の Useragentdef テーブル (QoE)</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a7f77-174">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for details.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-172">CalleeUserAgentCategory</span><span class="sxs-lookup"><span data-stu-id="0762d-172">CalleeUserAgentCategory</span></span></p></td>
+<td><p><span data-ttu-id="0762d-173">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="0762d-173">nvarchar (64)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-174">呼び出し先のユーザー エージェントのカテゴリ。</span><span class="sxs-lookup"><span data-stu-id="0762d-174">User agent category for the callee.</span></span> <span data-ttu-id="0762d-175">詳細については、「 <a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 の Useragentdef テーブル (QoE)</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0762d-175">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-175">CallerURI</span><span class="sxs-lookup"><span data-stu-id="a7f77-175">CallerURI</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-176">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="a7f77-176">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-177">発信者の URI。</span><span class="sxs-lookup"><span data-stu-id="a7f77-177">Caller’s URI.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-176">CallerURI</span><span class="sxs-lookup"><span data-stu-id="0762d-176">CallerURI</span></span></p></td>
+<td><p><span data-ttu-id="0762d-177">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="0762d-177">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-178">発信者の URI。</span><span class="sxs-lookup"><span data-stu-id="0762d-178">Caller’s URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a7f77-178">CalleeURI</span><span class="sxs-lookup"><span data-stu-id="a7f77-178">CalleeURI</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-179">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="a7f77-179">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-180">呼び出し先の URI。</span><span class="sxs-lookup"><span data-stu-id="a7f77-180">Callee’s URI.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-179">CalleeURI</span><span class="sxs-lookup"><span data-stu-id="0762d-179">CalleeURI</span></span></p></td>
+<td><p><span data-ttu-id="0762d-180">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="0762d-180">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="0762d-181">呼び出し先の URI。</span><span class="sxs-lookup"><span data-stu-id="0762d-181">Callee’s URI.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a7f77-181">CallPrioirty</span><span class="sxs-lookup"><span data-stu-id="a7f77-181">CallPrioirty</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-182">int</span><span class="sxs-lookup"><span data-stu-id="a7f77-182">int</span></span></p></td>
-<td><p><span data-ttu-id="a7f77-183">通話の優先順位。</span><span class="sxs-lookup"><span data-stu-id="a7f77-183">Priority of the call.</span></span></p></td>
+<td><p><span data-ttu-id="0762d-182">CallPrioirty</span><span class="sxs-lookup"><span data-stu-id="0762d-182">CallPrioirty</span></span></p></td>
+<td><p><span data-ttu-id="0762d-183">int</span><span class="sxs-lookup"><span data-stu-id="0762d-183">int</span></span></p></td>
+<td><p><span data-ttu-id="0762d-184">通話の優先順位。</span><span class="sxs-lookup"><span data-stu-id="0762d-184">Priority of the call.</span></span></p></td>
 </tr>
 </tbody>
 </table>

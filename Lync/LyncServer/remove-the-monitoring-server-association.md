@@ -1,5 +1,6 @@
 ---
 title: 監視サーバーの関連付けの削除
+description: 監視サーバーの関連付けを削除します。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733810
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0381f65ee233abcac60268b9c8e491b31e88c24f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 852ea72f814d33022012bf565af9bc5f73e06956
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529874"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545863"
 ---
-# <a name="remove-the-monitoring-server-association"></a><span data-ttu-id="37ece-102">監視サーバーの関連付けの削除</span><span class="sxs-lookup"><span data-stu-id="37ece-102">Remove the Monitoring server association</span></span>
+# <a name="remove-the-monitoring-server-association"></a><span data-ttu-id="b2ddc-103">監視サーバーの関連付けの削除</span><span class="sxs-lookup"><span data-stu-id="b2ddc-103">Remove the Monitoring server association</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,42 +38,42 @@ ms.locfileid: "48529874"
 
 <span> </span>
 
-<span data-ttu-id="37ece-103">_**トピックの最終更新日:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="37ece-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="b2ddc-104">_**トピックの最終更新日:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="b2ddc-104">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="37ece-104">監視サーバーを削除するには、関連付けられているフロントエンドプール、フロントエンドサーバー、存続可能ブランチアプライアンス、および存続可能ブランチサーバーの依存関係を変更またはクリアする必要があります。</span><span class="sxs-lookup"><span data-stu-id="37ece-104">To remove the Monitoring Server, you need to change or clear the dependency on the associated Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server.</span></span> <span data-ttu-id="37ece-105">依存関係を削除するには、フロントエンドプール、フロントエンドサーバー、存続可能 Branch Appliance、存続可能 Branch Server の各プロパティを編集します。</span><span class="sxs-lookup"><span data-stu-id="37ece-105">You edit the properties of the Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server to remove the dependency.</span></span> <span data-ttu-id="37ece-106">トポロジビルダーで依存関係をクリアし、サーバーを削除すると、トポロジビルダー内の関連付けられたデータベースストアオブジェクトも削除されることが通知されます。</span><span class="sxs-lookup"><span data-stu-id="37ece-106">After you clear the dependency and delete the server in Topology Builder, you are notified that the associated database store object in Topology Builder will also be deleted.</span></span>
+<span data-ttu-id="b2ddc-105">監視サーバーを削除するには、関連付けられているフロントエンドプール、フロントエンドサーバー、存続可能ブランチアプライアンス、および存続可能ブランチサーバーの依存関係を変更またはクリアする必要があります。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-105">To remove the Monitoring Server, you need to change or clear the dependency on the associated Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server.</span></span> <span data-ttu-id="b2ddc-106">依存関係を削除するには、フロントエンドプール、フロントエンドサーバー、存続可能 Branch Appliance、存続可能 Branch Server の各プロパティを編集します。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-106">You edit the properties of the Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server to remove the dependency.</span></span> <span data-ttu-id="b2ddc-107">トポロジビルダーで依存関係をクリアし、サーバーを削除すると、トポロジビルダー内の関連付けられたデータベースストアオブジェクトも削除されることが通知されます。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-107">After you clear the dependency and delete the server in Topology Builder, you are notified that the associated database store object in Topology Builder will also be deleted.</span></span>
 
 <div>
 
-## <a name="to-remove-the-monitoring-server-association"></a><span data-ttu-id="37ece-107">監視サーバーの関連付けを削除するには</span><span class="sxs-lookup"><span data-stu-id="37ece-107">To remove the Monitoring Server association</span></span>
+## <a name="to-remove-the-monitoring-server-association"></a><span data-ttu-id="b2ddc-108">監視サーバーの関連付けを削除するには</span><span class="sxs-lookup"><span data-stu-id="b2ddc-108">To remove the Monitoring Server association</span></span>
 
-1.  <span data-ttu-id="37ece-108">Lync Server 2013 フロントエンドサーバーを開き、トポロジビルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="37ece-108">Open the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
+1.  <span data-ttu-id="b2ddc-109">Lync Server 2013 フロントエンドサーバーを開き、トポロジビルダーを開きます。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-109">Open the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="37ece-109">[Lync Server 2010 ノードに移動します。</span><span class="sxs-lookup"><span data-stu-id="37ece-109">Navigate to the Lync Server 2010 node.</span></span>
+2.  <span data-ttu-id="b2ddc-110">[Lync Server 2010 ノードに移動します。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-110">Navigate to the Lync Server 2010 node.</span></span>
 
-3.  <span data-ttu-id="37ece-110">トポロジビルダーで、監視サーバーが定義されている場所に基づいて、 **Enterprise Edition フロントエンドプール**、 **Standard Edition フロントエンドサーバー**、または **ブランチサイト**を展開します。</span><span class="sxs-lookup"><span data-stu-id="37ece-110">In Topology Builder, expand **Enterprise Edition Front End pools**, **Standard Edition Front End Servers**, or **Branch sites**, based on where the Monitoring Server is defined.</span></span>
+3.  <span data-ttu-id="b2ddc-111">トポロジビルダーで、監視サーバーが定義されている場所に基づいて、 **Enterprise Edition フロントエンドプール**、 **Standard Edition フロントエンドサーバー**、または **ブランチサイト**を展開します。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-111">In Topology Builder, expand **Enterprise Edition Front End pools**, **Standard Edition Front End Servers**, or **Branch sites**, based on where the Monitoring Server is defined.</span></span>
 
-4.  <span data-ttu-id="37ece-111">存続可能 Branch Server が関連付けられている場合は、[ **ブランチサイト**] を展開し、[ブランチサイト] を展開して、[ **存続可能ブランチアプライアンス**] を展開します。</span><span class="sxs-lookup"><span data-stu-id="37ece-111">If you have Survivable Branch Server associated, expand **Branch sites**, expand the branch site name, and then expand **Survivable Branch Appliances**.</span></span>
+4.  <span data-ttu-id="b2ddc-112">存続可能 Branch Server が関連付けられている場合は、[ **ブランチサイト**] を展開し、[ブランチサイト] を展開して、[ **存続可能ブランチアプライアンス**] を展開します。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-112">If you have Survivable Branch Server associated, expand **Branch sites**, expand the branch site name, and then expand **Survivable Branch Appliances**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="37ece-112">ユーザーインターフェイスの<STRONG>存続可能 Branch アプライアンス</STRONG>は、存続可能 branch Server と存続可能 branch Appliance の両方に適用されます。</span><span class="sxs-lookup"><span data-stu-id="37ece-112"><STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.</span></span>
+    > <span data-ttu-id="b2ddc-113">ユーザーインターフェイスの<STRONG>存続可能 Branch アプライアンス</STRONG>は、存続可能 branch Server と存続可能 branch Appliance の両方に適用されます。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-113"><STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="37ece-113">監視サーバーに関連付けられているプール、サーバー、またはデバイスを右クリックし、[ **プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="37ece-113">Right-click the pool, server, or device that is associated with the Monitoring Server, and then click **Edit Properties**.</span></span>
+5.  <span data-ttu-id="b2ddc-114">監視サーバーに関連付けられているプール、サーバー、またはデバイスを右クリックし、[ **プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-114">Right-click the pool, server, or device that is associated with the Monitoring Server, and then click **Edit Properties**.</span></span>
 
-6.  <span data-ttu-id="37ece-114">[**プロパティの編集**] の [**全般**] で、[**関連付け**] の [**監視サーバーの関連付け**] チェック ボックスをオフにして、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="37ece-114">In **Edit Properties**, under **General**, under **Associations**, clear the **Associate Monitoring Server** check box, and then click **OK**.</span></span>
+6.  <span data-ttu-id="b2ddc-115">[**プロパティの編集**] の [**全般**] で、[**関連付け**] の [**監視サーバーの関連付け**] チェック ボックスをオフにして、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-115">In **Edit Properties**, under **General**, under **Associations**, clear the **Associate Monitoring Server** check box, and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="37ece-115">監視サーバーに関連付けられているその他のプール、サーバー、またはデバイスに対して、前の手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="37ece-115">Repeat the previous step for any other pool, server or device associated with the Monitoring Server.</span></span>
+7.  <span data-ttu-id="b2ddc-116">監視サーバーに関連付けられているその他のプール、サーバー、またはデバイスに対して、前の手順を繰り返します。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-116">Repeat the previous step for any other pool, server or device associated with the Monitoring Server.</span></span>
 
-8.  <span data-ttu-id="37ece-116">監視サーバーを右クリックし、[ **削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="37ece-116">Right-click the Monitoring Server, and then click **Delete**.</span></span>
+8.  <span data-ttu-id="b2ddc-117">監視サーバーを右クリックし、[ **削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-117">Right-click the Monitoring Server, and then click **Delete**.</span></span>
 
-9.  <span data-ttu-id="37ece-117">[**依存ストアの削除**] で、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="37ece-117">On **Delete Dependent Stores**, click **OK**.</span></span>
+9.  <span data-ttu-id="b2ddc-118">[**依存ストアの削除**] で、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-118">On **Delete Dependent Stores**, click **OK**.</span></span>
 
-10. <span data-ttu-id="37ece-118">トポロジを公開し、レプリケーションの状態を確認し、必要に応じて Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="37ece-118">Publish the topology, check replication status, and run the Lync Server Deployment Wizard as needed.</span></span>
+10. <span data-ttu-id="b2ddc-119">トポロジを公開し、レプリケーションの状態を確認し、必要に応じて Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="b2ddc-119">Publish the topology, check replication status, and run the Lync Server Deployment Wizard as needed.</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 常設チャットサーバーのテーブルの詳細'
+description: 'Lync Server 2013: 常設チャットサーバーテーブルの詳細。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cde75ceb141a81af1b6a093742edd23b4adf1716
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6a27feaaccf861d537127f06920cf903be5ae000
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524224"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545133"
 ---
-# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a><span data-ttu-id="444d8-102">Lync Server 2013 の常設チャットサーバーテーブルの詳細</span><span class="sxs-lookup"><span data-stu-id="444d8-102">Persistent Chat Server table details in Lync Server 2013</span></span>
+# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a><span data-ttu-id="9fac6-103">Lync Server 2013 の常設チャットサーバーテーブルの詳細</span><span class="sxs-lookup"><span data-stu-id="9fac6-103">Persistent Chat Server table details in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,75 +38,75 @@ ms.locfileid: "48524224"
 
 <span> </span>
 
-<span data-ttu-id="444d8-103">_**トピックの最終更新日:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="444d8-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="9fac6-104">_**トピックの最終更新日:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="9fac6-104">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="444d8-104">次のトピックでは、各常設チャットデータベーススキーマテーブルの列について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="444d8-104">The following topics detail the columns in each of the Persistent Chat database schema tables.</span></span>
+<span data-ttu-id="9fac6-105">次のトピックでは、各常設チャットデータベーススキーマテーブルの列について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="9fac6-105">The following topics detail the columns in each of the Persistent Chat database schema tables.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="444d8-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="444d8-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9fac6-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="9fac6-106">In This Section</span></span>
 
-  - [<span data-ttu-id="444d8-106">Lync Server 2013 の tblADCookie</span><span class="sxs-lookup"><span data-stu-id="444d8-106">tblADCookie in Lync Server 2013</span></span>](lync-server-2013-tbladcookie.md)
+  - [<span data-ttu-id="9fac6-107">Lync Server 2013 の tblADCookie</span><span class="sxs-lookup"><span data-stu-id="9fac6-107">tblADCookie in Lync Server 2013</span></span>](lync-server-2013-tbladcookie.md)
 
-  - [<span data-ttu-id="444d8-107">Lync Server 2013 の tblPrincipalMemberDifference</span><span class="sxs-lookup"><span data-stu-id="444d8-107">tblPrincipalMemberDifference in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmemberdifference.md)
+  - [<span data-ttu-id="9fac6-108">Lync Server 2013 の tblPrincipalMemberDifference</span><span class="sxs-lookup"><span data-stu-id="9fac6-108">tblPrincipalMemberDifference in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmemberdifference.md)
 
-  - [<span data-ttu-id="444d8-108">Lync Server 2013 の tblADUpdates</span><span class="sxs-lookup"><span data-stu-id="444d8-108">tblADUpdates in Lync Server 2013</span></span>](lync-server-2013-tbladupdates.md)
+  - [<span data-ttu-id="9fac6-109">Lync Server 2013 の tblADUpdates</span><span class="sxs-lookup"><span data-stu-id="9fac6-109">tblADUpdates in Lync Server 2013</span></span>](lync-server-2013-tbladupdates.md)
 
-  - [<span data-ttu-id="444d8-109">Lync Server 2013 の tblPrincipalMembers</span><span class="sxs-lookup"><span data-stu-id="444d8-109">tblPrincipalMembers in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmembers.md)
+  - [<span data-ttu-id="9fac6-110">Lync Server 2013 の tblPrincipalMembers</span><span class="sxs-lookup"><span data-stu-id="9fac6-110">tblPrincipalMembers in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmembers.md)
 
-  - [<span data-ttu-id="444d8-110">Lync Server 2013 の tblPrincipalMeta</span><span class="sxs-lookup"><span data-stu-id="444d8-110">tblPrincipalMeta in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmeta.md)
+  - [<span data-ttu-id="9fac6-111">Lync Server 2013 の tblPrincipalMeta</span><span class="sxs-lookup"><span data-stu-id="9fac6-111">tblPrincipalMeta in Lync Server 2013</span></span>](lync-server-2013-tblprincipalmeta.md)
 
-  - [<span data-ttu-id="444d8-111">Lync Server 2013 の tblSkippedAffiliations</span><span class="sxs-lookup"><span data-stu-id="444d8-111">tblSkippedAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblskippedaffiliations.md)
+  - [<span data-ttu-id="9fac6-112">Lync Server 2013 の tblSkippedAffiliations</span><span class="sxs-lookup"><span data-stu-id="9fac6-112">tblSkippedAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblskippedaffiliations.md)
 
-  - [<span data-ttu-id="444d8-112">Lync Server 2013 の tblPrincipalType</span><span class="sxs-lookup"><span data-stu-id="444d8-112">tblPrincipalType in Lync Server 2013</span></span>](lync-server-2013-tblprincipaltype.md)
+  - [<span data-ttu-id="9fac6-113">Lync Server 2013 の tblPrincipalType</span><span class="sxs-lookup"><span data-stu-id="9fac6-113">tblPrincipalType in Lync Server 2013</span></span>](lync-server-2013-tblprincipaltype.md)
 
-  - [<span data-ttu-id="444d8-113">Lync Server 2013 の tblPrincipal</span><span class="sxs-lookup"><span data-stu-id="444d8-113">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)
+  - [<span data-ttu-id="9fac6-114">Lync Server 2013 の tblPrincipal</span><span class="sxs-lookup"><span data-stu-id="9fac6-114">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)
 
-  - [<span data-ttu-id="444d8-114">Lync Server 2013 の tblPrincipalAffiliations</span><span class="sxs-lookup"><span data-stu-id="444d8-114">tblPrincipalAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblprincipalaffiliations.md)
+  - [<span data-ttu-id="9fac6-115">Lync Server 2013 の tblPrincipalAffiliations</span><span class="sxs-lookup"><span data-stu-id="9fac6-115">tblPrincipalAffiliations in Lync Server 2013</span></span>](lync-server-2013-tblprincipalaffiliations.md)
 
-  - [<span data-ttu-id="444d8-115">Lync Server 2013 の tblNode</span><span class="sxs-lookup"><span data-stu-id="444d8-115">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)
+  - [<span data-ttu-id="9fac6-116">Lync Server 2013 の tblNode</span><span class="sxs-lookup"><span data-stu-id="9fac6-116">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)
 
-  - [<span data-ttu-id="444d8-116">Lync Server 2013 の tblRoleType</span><span class="sxs-lookup"><span data-stu-id="444d8-116">tblRoleType in Lync Server 2013</span></span>](lync-server-2013-tblroletype.md)
+  - [<span data-ttu-id="9fac6-117">Lync Server 2013 の tblRoleType</span><span class="sxs-lookup"><span data-stu-id="9fac6-117">tblRoleType in Lync Server 2013</span></span>](lync-server-2013-tblroletype.md)
 
-  - [<span data-ttu-id="444d8-117">Lync Server 2013 の tblScopePrincipal</span><span class="sxs-lookup"><span data-stu-id="444d8-117">tblScopePrincipal in Lync Server 2013</span></span>](lync-server-2013-tblscopeprincipal.md)
+  - [<span data-ttu-id="9fac6-118">Lync Server 2013 の tblScopePrincipal</span><span class="sxs-lookup"><span data-stu-id="9fac6-118">tblScopePrincipal in Lync Server 2013</span></span>](lync-server-2013-tblscopeprincipal.md)
 
-  - [<span data-ttu-id="444d8-118">Lync Server 2013 のに tblprincipalrole</span><span class="sxs-lookup"><span data-stu-id="444d8-118">tblPrincipalRole in Lync Server 2013</span></span>](lync-server-2013-tblprincipalrole.md)
+  - [<span data-ttu-id="9fac6-119">Lync Server 2013 のに tblprincipalrole</span><span class="sxs-lookup"><span data-stu-id="9fac6-119">tblPrincipalRole in Lync Server 2013</span></span>](lync-server-2013-tblprincipalrole.md)
 
-  - [<span data-ttu-id="444d8-119">Lync Server 2013 の tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="444d8-119">tblSiopWhiteList in Lync Server 2013</span></span>](lync-server-2013-tblsiopwhitelist.md)
+  - [<span data-ttu-id="9fac6-120">Lync Server 2013 の tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="9fac6-120">tblSiopWhiteList in Lync Server 2013</span></span>](lync-server-2013-tblsiopwhitelist.md)
 
-  - [<span data-ttu-id="444d8-120">Lync Server 2013 の tblEnumAttribute</span><span class="sxs-lookup"><span data-stu-id="444d8-120">tblEnumAttribute in Lync Server 2013</span></span>](lync-server-2013-tblenumattribute.md)
+  - [<span data-ttu-id="9fac6-121">Lync Server 2013 の tblEnumAttribute</span><span class="sxs-lookup"><span data-stu-id="9fac6-121">tblEnumAttribute in Lync Server 2013</span></span>](lync-server-2013-tblenumattribute.md)
 
-  - [<span data-ttu-id="444d8-121">Lync Server 2013 の tblEnumValue</span><span class="sxs-lookup"><span data-stu-id="444d8-121">tblEnumValue in Lync Server 2013</span></span>](lync-server-2013-tblenumvalue.md)
+  - [<span data-ttu-id="9fac6-122">Lync Server 2013 の tblEnumValue</span><span class="sxs-lookup"><span data-stu-id="9fac6-122">tblEnumValue in Lync Server 2013</span></span>](lync-server-2013-tblenumvalue.md)
 
-  - [<span data-ttu-id="444d8-122">Lync Server 2013 のそして tblprincipalinvites</span><span class="sxs-lookup"><span data-stu-id="444d8-122">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)
+  - [<span data-ttu-id="9fac6-123">Lync Server 2013 のそして tblprincipalinvites</span><span class="sxs-lookup"><span data-stu-id="9fac6-123">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)
 
-  - [<span data-ttu-id="444d8-123">Lync Server 2013 の tblChat</span><span class="sxs-lookup"><span data-stu-id="444d8-123">tblChat in Lync Server 2013</span></span>](lync-server-2013-tblchat.md)
+  - [<span data-ttu-id="9fac6-124">Lync Server 2013 の tblChat</span><span class="sxs-lookup"><span data-stu-id="9fac6-124">tblChat in Lync Server 2013</span></span>](lync-server-2013-tblchat.md)
 
-  - [<span data-ttu-id="444d8-124">Lync Server 2013 の tblLastInviteId</span><span class="sxs-lookup"><span data-stu-id="444d8-124">tblLastInviteId in Lync Server 2013</span></span>](lync-server-2013-tbllastinviteid.md)
+  - [<span data-ttu-id="9fac6-125">Lync Server 2013 の tblLastInviteId</span><span class="sxs-lookup"><span data-stu-id="9fac6-125">tblLastInviteId in Lync Server 2013</span></span>](lync-server-2013-tbllastinviteid.md)
 
-  - [<span data-ttu-id="444d8-125">Lync Server 2013 の tblLastChatId</span><span class="sxs-lookup"><span data-stu-id="444d8-125">tblLastChatId in Lync Server 2013</span></span>](lync-server-2013-tbllastchatid.md)
+  - [<span data-ttu-id="9fac6-126">Lync Server 2013 の tblLastChatId</span><span class="sxs-lookup"><span data-stu-id="9fac6-126">tblLastChatId in Lync Server 2013</span></span>](lync-server-2013-tbllastchatid.md)
 
-  - [<span data-ttu-id="444d8-126">Lync Server 2013 の tblPreference</span><span class="sxs-lookup"><span data-stu-id="444d8-126">tblPreference in Lync Server 2013</span></span>](lync-server-2013-tblpreference.md)
+  - [<span data-ttu-id="9fac6-127">Lync Server 2013 の tblPreference</span><span class="sxs-lookup"><span data-stu-id="9fac6-127">tblPreference in Lync Server 2013</span></span>](lync-server-2013-tblpreference.md)
 
-  - [<span data-ttu-id="444d8-127">Lync Server 2013 の tblFileToken</span><span class="sxs-lookup"><span data-stu-id="444d8-127">tblFileToken in Lync Server 2013</span></span>](lync-server-2013-tblfiletoken.md)
+  - [<span data-ttu-id="9fac6-128">Lync Server 2013 の tblFileToken</span><span class="sxs-lookup"><span data-stu-id="9fac6-128">tblFileToken in Lync Server 2013</span></span>](lync-server-2013-tblfiletoken.md)
 
-  - [<span data-ttu-id="444d8-128">Lync Server 2013 の tblServerIdentity</span><span class="sxs-lookup"><span data-stu-id="444d8-128">tblServerIdentity in Lync Server 2013</span></span>](lync-server-2013-tblserveridentity.md)
+  - [<span data-ttu-id="9fac6-129">Lync Server 2013 の tblServerIdentity</span><span class="sxs-lookup"><span data-stu-id="9fac6-129">tblServerIdentity in Lync Server 2013</span></span>](lync-server-2013-tblserveridentity.md)
 
-  - [<span data-ttu-id="444d8-129">Lync Server 2013 の tblAdminLock</span><span class="sxs-lookup"><span data-stu-id="444d8-129">tblAdminLock in Lync Server 2013</span></span>](lync-server-2013-tbladminlock.md)
+  - [<span data-ttu-id="9fac6-130">Lync Server 2013 の tblAdminLock</span><span class="sxs-lookup"><span data-stu-id="9fac6-130">tblAdminLock in Lync Server 2013</span></span>](lync-server-2013-tbladminlock.md)
 
-  - [<span data-ttu-id="444d8-130">Lync Server 2013 の tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="444d8-130">tblSystemRevision in Lync Server 2013</span></span>](lync-server-2013-tblsystemrevision.md)
+  - [<span data-ttu-id="9fac6-131">Lync Server 2013 の tblSystemRevision</span><span class="sxs-lookup"><span data-stu-id="9fac6-131">tblSystemRevision in Lync Server 2013</span></span>](lync-server-2013-tblsystemrevision.md)
 
-  - [<span data-ttu-id="444d8-131">Lync Server 2013 の tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="444d8-131">tblActivePeers in Lync Server 2013</span></span>](lync-server-2013-tblactivepeers.md)
+  - [<span data-ttu-id="9fac6-132">Lync Server 2013 の tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="9fac6-132">tblActivePeers in Lync Server 2013</span></span>](lync-server-2013-tblactivepeers.md)
 
-  - [<span data-ttu-id="444d8-132">Lync Server 2013 の tblConfig</span><span class="sxs-lookup"><span data-stu-id="444d8-132">tblConfig in Lync Server 2013</span></span>](lync-server-2013-tblconfig.md)
+  - [<span data-ttu-id="9fac6-133">Lync Server 2013 の tblConfig</span><span class="sxs-lookup"><span data-stu-id="9fac6-133">tblConfig in Lync Server 2013</span></span>](lync-server-2013-tblconfig.md)
 
-  - [<span data-ttu-id="444d8-133">Lync Server 2013 の tblComplianceData</span><span class="sxs-lookup"><span data-stu-id="444d8-133">tblComplianceData in Lync Server 2013</span></span>](lync-server-2013-tblcompliancedata.md)
+  - [<span data-ttu-id="9fac6-134">Lync Server 2013 の tblComplianceData</span><span class="sxs-lookup"><span data-stu-id="9fac6-134">tblComplianceData in Lync Server 2013</span></span>](lync-server-2013-tblcompliancedata.md)
 
-  - [<span data-ttu-id="444d8-134">Lync Server 2013 の tblComplianceFanout</span><span class="sxs-lookup"><span data-stu-id="444d8-134">tblComplianceFanout in Lync Server 2013</span></span>](lync-server-2013-tblcompliancefanout.md)
+  - [<span data-ttu-id="9fac6-135">Lync Server 2013 の tblComplianceFanout</span><span class="sxs-lookup"><span data-stu-id="9fac6-135">tblComplianceFanout in Lync Server 2013</span></span>](lync-server-2013-tblcompliancefanout.md)
 
-  - [<span data-ttu-id="444d8-135">Lync Server 2013 の tblComplianceParticipant</span><span class="sxs-lookup"><span data-stu-id="444d8-135">tblComplianceParticipant in Lync Server 2013</span></span>](lync-server-2013-tblcomplianceparticipant.md)
+  - [<span data-ttu-id="9fac6-136">Lync Server 2013 の tblComplianceParticipant</span><span class="sxs-lookup"><span data-stu-id="9fac6-136">tblComplianceParticipant in Lync Server 2013</span></span>](lync-server-2013-tblcomplianceparticipant.md)
 
-  - [<span data-ttu-id="444d8-136">Lync Server 2013 の tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="444d8-136">tblComplianceState in Lync Server 2013</span></span>](lync-server-2013-tblcompliancestate.md)
+  - [<span data-ttu-id="9fac6-137">Lync Server 2013 の tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="9fac6-137">tblComplianceState in Lync Server 2013</span></span>](lync-server-2013-tblcompliancestate.md)
 
 </div>
 
