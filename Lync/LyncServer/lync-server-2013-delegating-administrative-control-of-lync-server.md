@@ -12,20 +12,22 @@ ms:contentKeyID: 48183418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e93985818c62b195227323f4c0f6d5030db1f16f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5bd0776468b4b5dbbca4c8d2c98f6be02491b6d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190886"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516344"
 ---
+# <a name="delegating-administrative-control-of-lync-server-2013"></a>Lync Server 2013 の管理制御の委任
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegating-administrative-control-of-lync-server-2013"></a>Lync Server 2013 の管理制御の委任
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190886"
 
 _**トピックの最終更新日:** 2013-02-22_
 
-Lync Server 2013 では、新しい役割ベースのアクセス制御 (RBAC) 機能を使用して、管理タスクがユーザーに委任されます。 Lync Server をインストールすると、いくつかの RBAC の役割が作成されます。 これらの役割は、Active Directory ドメインサービスのユニバーサルセキュリティグループに対応します。 たとえば、RBAC 役割 CsHelpDesk は、Active Directory ドメインサービスの Users コンテナーにある CsHelpDesk グループに対応します。 さらに、各 RBAC の役割は、Lync Server Windows PowerShell コマンドレットのセットに関連付けられています。 これらのコマンドレットは、特定の RBAC の役割が割り当てられているユーザーが実行できるタスクを表します。 たとえば、CsHelpDesk の役割には、UnlockCsClientPin コマンドレットおよびコマンドレットが割り当てられています。 これは、CsHelpDesk の役割が割り当てられているユーザーが、ユーザーの PIN 番号をロックおよびロック解除できることを意味します。 ただし、CsHelpDesk の役割には Set-csvoicepolicy コマンドレットは割り当てられていません。 これは、CsHelpDesk 役割が割り当てられているユーザーが新しい音声ポリシーを作成できないことを意味します。
+Lync Server 2013 では、新しい役割ベースのアクセス制御 (RBAC) 機能を使用して、管理タスクがユーザーに委任されます。 Lync Server をインストールすると、いくつかの RBAC の役割が作成されます。 これらの役割は、Active Directory ドメインサービスのユニバーサルセキュリティグループに対応します。 たとえば、RBAC 役割 CsHelpDesk は、Active Directory ドメインサービスの Users コンテナーにある CsHelpDesk グループに対応します。 さらに、各 RBAC の役割は、Lync Server Windows PowerShell コマンドレットのセットに関連付けられています。 これらのコマンドレットは、特定の RBAC の役割が割り当てられているユーザーが実行できるタスクを表します。 たとえば、CsHelpDesk 役割には Lock-CsClientPin コマンドレットと UnlockCsClientPin コマンドレットが割り当てられています。 これは、CsHelpDesk の役割が割り当てられているユーザーが、ユーザーの PIN 番号をロックおよびロック解除できることを意味します。 ただし、CsHelpDesk の役割には New-CsVoicePolicy コマンドレットが割り当てられていません。 これは、CsHelpDesk 役割が割り当てられているユーザーが新しい音声ポリシーを作成できないことを意味します。
 
 <div>
 
@@ -77,7 +79,7 @@ RBAC の役割をユーザーに割り当てるには、そのユーザーを適
 
 7.  [**プロパティ**] ダイアログ ボックスで [**OK**] をクリックします。
 
-RBAC の役割が割り当てられていることを確認するには、ユーザーの SamAccountName (Active Directory ログオン名) をコマンドレットに渡して、 [Get-help Adminroleassignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment)コマンドレットを使用します。 たとえば、Lync Server 管理シェルで次のコマンドを実行します。
+RBAC の役割が割り当てられていることを確認するには、ユーザーの SamAccountName (Active Directory ログオン名) をコマンドレットに渡して、 [Get-help Adminroleassignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) コマンドレットを使用します。 たとえば、Lync Server 管理シェルで次のコマンドを実行します。
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

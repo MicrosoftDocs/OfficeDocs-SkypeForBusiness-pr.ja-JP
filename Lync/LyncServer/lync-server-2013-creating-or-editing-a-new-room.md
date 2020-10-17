@@ -12,20 +12,22 @@ ms:contentKeyID: 48706008
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5c6292b38bbc02eb2230b8746ec331b7bd1e6ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6f0abaf45034918873a17adc8a0f396ddc5d6fb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516844"
 ---
+# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>Lync Server 2013 での新しい会議室の作成または編集
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>Lync Server 2013 での新しい会議室の作成または編集
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42213213"
 
 _**トピックの最終更新日:** 2015-03-19_
 
-常設チャットルームの構成は、通常、ユーザーによって処理されます。通常、常設チャット管理者はチャットルームの構成や管理は行いません。 ルームを管理するための Windows PowerShell コマンドレットは、 **CsPersistentChatAdministrator**管理者のみが利用できます。
+常設チャットルームの構成は、通常、ユーザーによって処理されます。通常、常設チャット管理者はチャットルームの構成や管理は行いません。 ルームを管理するための Windows PowerShell コマンドレットは、 **CsPersistentChatAdministrator** 管理者のみが利用できます。
 
-特定のカテゴリの作成**者である**ユーザーは、Lync クライアントを使用して会議室を作成および管理できます。 特定のチャット ルームのマネージャーとして指定されているユーザーは、ルームのプロパティまたはメンバーシップの編集など、チャット ルームの継続的な管理を実行することもできます。
+特定のカテゴリの作成 **者である** ユーザーは、Lync クライアントを使用して会議室を作成および管理できます。 特定のチャット ルームのマネージャーとして指定されているユーザーは、ルームのプロパティまたはメンバーシップの編集など、チャット ルームの継続的な管理を実行することもできます。
 
 <div>
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2015-03-19_
 
 必要に応じて、常設チャット管理者は、Windows PowerShell コマンドレットを使用する代わりに、ユーザーインターフェイスを使用してチャットルームを作成および管理できます。 これを行うには、常設チャットサーバーの管理者を SIP で有効にしてから、Lync クライアントを使用してチャットルームを作成して管理します。
 
-ユーザーに対してカスタムの会議室管理ワークフローを作成する場合は、常設チャットサーバー構成の**RoomManagementUrl**プロパティを設定して、ユーザーを Lync クライアントからカスタムソリューションにリダイレクトすることができます。
+ユーザーに対してカスタムの会議室管理ワークフローを作成する場合は、常設チャットサーバー構成の **RoomManagementUrl** プロパティを設定して、ユーザーを Lync クライアントからカスタムソリューションにリダイレクトすることができます。
 
 Windows PowerShell コマンドラインインターフェイスを使用したチャットルームの構成の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「Room Management」を参照してください。
 

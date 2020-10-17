@@ -12,20 +12,22 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cffed0c856577a60a9782850006b82f2c9d45374
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbb7421f204ded840dc627354b0d66627840c594
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517534"
 ---
+# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Lync Server 2013 で Lync Online 顧客のフェデレーションサポートを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Lync Server 2013 で Lync Online 顧客のフェデレーションサポートを構成する
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**トピックの最終更新日:** 2012-11-01_
 
 次のいずれかの方法で、組織のユーザーに通信サービスを提供できます。
 
-  - 組織で Lync Server 2013 を展開する (*オンプレミスのサービス*とも呼ばれます)。また、組織で lync 2013 ユーザーアカウントをセットアップします。
+  - 組織で Lync Server 2013 を展開する ( *オンプレミスのサービス*とも呼ばれます)。また、組織で lync 2013 ユーザーアカウントをセットアップします。
 
-  - ホスティングプロバイダーを使用して Microsoft Lync Online 2010 の顧客アカウントを設定し、ホスティングプロバイダーでユーザーアカウントをセットアップする (*オンラインサービス*とも呼ばれます)。
+  - ホスティングプロバイダーを使用して Microsoft Lync Online 2010 の顧客アカウントを設定し、ホスティングプロバイダーでユーザーアカウントをセットアップする ( *オンラインサービス*とも呼ばれます)。
 
 組織で Lync 2013 を展開する場合、1人以上の Microsoft Lync Online 2010 ユーザーのドメインとフェデレーションを行うことができます。 オンプレミスの Lync 2013 展開のユーザーと Lync Online 2010 お客様のユーザーとの間のフェデレーションを有効にするには、Lync Online 顧客のドメインとユーザーのサポートを構成する必要があります。
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 
 > [!NOTE]  
-> このドキュメントでは、Lync Online 2010 顧客とのフェデレーションをサポートするように組織を構成する手順についてのみ説明します。 このドキュメントでは、フェデレーションをサポートするように Lync Online 2010 お客様を構成する手順については説明しません。 Lync Online サービスの詳細については、「 <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>lync online at」を参照してください。
+> このドキュメントでは、Lync Online 2010 顧客とのフェデレーションをサポートするように組織を構成する手順についてのみ説明します。 このドキュメントでは、フェデレーションをサポートするように Lync Online 2010 お客様を構成する手順については説明しません。 Lync Online サービスの詳細については、「Lync Online at」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A> 。
 
 
 

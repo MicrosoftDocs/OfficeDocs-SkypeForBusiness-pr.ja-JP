@@ -12,20 +12,22 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16c37644e07fd0dfd192867d7d8372d3630d13fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7290a6d4e80c522d29c886b49723cca51d19e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187390"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516504"
 ---
+# <a name="database-software-support-in-lync-server-2013"></a>Lync Server 2013 でのデータベースソフトウェアのサポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-software-support-in-lync-server-2013"></a>Lync Server 2013 でのデータベースソフトウェアのサポート
+
 
 </div>
 
@@ -53,7 +55,7 @@ Lync Server 2013 では、次のデータベース管理システムがサポー
     
       - Microsoft SQL Server 2012 Express (64 ビット版)。 また、最新のサービスパックを実行することをお勧めします。
         
-        フロントエンドサーバーおよび Standard Edition サーバー上での Microsoft SQL Server のパッチとアップグレードをサポートしています。 ただし、フロントエンドサーバーで任意の種類のアップグレードまたはパッチを作成する場合は、クォーラム要件を考慮する必要があります。 詳細については、「lync [server 2013 でのフロントエンドサーバーのアップグレードまたは更新](lync-server-2013-upgrade-or-update-front-end-servers.md)」および「 [lync server 2013 でのフロントエンドサーバー、インスタントメッセージング、プレゼンスのトポロジとコンポーネント](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)」を参照してください。
+        フロントエンドサーバーおよび Standard Edition サーバー上での Microsoft SQL Server のパッチとアップグレードをサポートしています。 ただし、フロントエンドサーバーで任意の種類のアップグレードまたはパッチを作成する場合は、クォーラム要件を考慮する必要があります。 詳細については、「lync [server 2013 でのフロントエンドサーバーのアップグレードまたは更新](lync-server-2013-upgrade-or-update-front-end-servers.md) 」および「 [lync server 2013 でのフロントエンドサーバー、インスタントメッセージング、プレゼンスのトポロジとコンポーネント](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)」を参照してください。
     
     <div>
     
@@ -120,7 +122,7 @@ SQL クラスタリングは、アクティブ/パッシブ構成でサポート
 
 SQL ミラーリングの詳細については、「 [Lync server 2013 のバックエンドサーバーの高可用性](lync-server-2013-back-end-server-high-availability.md)」を参照してください。 SQL クラスタリングを展開する方法の詳細については、「 [CONFIGURE Sql Server クラスタリング For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)」を参照してください。
 
-SQL Server 2012 のフェールオーバークラスタリングの詳細とベストプラクティスについて<https://technet.microsoft.com/library/hh231721.aspx>は、「」を参照してください。 SQL Server 2008 のフェールオーバークラスタリングについ<https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>ては、「」を参照してください。
+SQL Server 2012 のフェールオーバークラスタリングの詳細とベストプラクティスについては、「」を参照してください <https://technet.microsoft.com/library/hh231721.aspx> 。 SQL Server 2008 のフェールオーバークラスタリングについては、「」を参照してください <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx> 。
 
 </div>
 

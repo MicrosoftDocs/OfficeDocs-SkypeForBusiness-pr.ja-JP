@@ -12,20 +12,22 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3d90f738741c2815d01041a7d2293e978cd2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 462252b1826802ec424c6684e3a6347754095508
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195680"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517054"
 ---
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Lync Server 2013 で動作するように Microsoft Exchange Server でユニファイドメッセージングを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Lync Server 2013 で動作するように Microsoft Exchange Server でユニファイドメッセージングを構成する
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2012-10-11_
 
 
 > [!IMPORTANT]  
-> Exchange ユニファイドメッセージング (UM) を使用して、エンタープライズ Voip ユーザーの通話応答、Outlook Voice Access、または自動応答サービスを提供する場合は、「計画」のドキュメントの「 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013 での Exchange ユニファイドメッセージング統合の計画</A>」を読んで、このセクションの指示に従います。
+> Exchange ユニファイドメッセージング (UM) を使用して、エンタープライズ Voip ユーザーの通話応答、Outlook Voice Access、または自動応答サービスを提供する場合は、「計画」のドキュメントの「 <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Lync Server 2013 での Exchange ユニファイドメッセージング統合の計画</A> 」を読んで、このセクションの指示に従います。
 
 
 
@@ -62,7 +64,7 @@ _**トピックの最終更新日:** 2012-10-11_
 
   - 必要に応じて、1つまたは複数の UM SIP URI ダイヤルプランと、サブスクライバーアクセス用の電話番号を作成し、対応する Lync Server のダイヤルプランを作成します。
 
-  - 次のように、 **exchucutil. ps1**スクリプトを使用します。
+  - **exchucutil.ps1**スクリプトを使用して、次のことを行います。
     
       - UM IP ゲートウェイを作成します。
     
@@ -82,7 +84,7 @@ _**トピックの最終更新日:** 2012-10-11_
 
 開始する前に、このセクションのドキュメントでは、次の Exchange 2013 の役割 (クライアントアクセスとメールボックス) を展開していることを前提としています。 Microsoft Exchange Server 2013 では、Exchange UM はこれらのサーバー上でサービスとして実行されます。
 
-Exchange 2013 の展開の詳細については、「」の「Exchange 2013 TechNet ライブラリ」を参照してください。[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
+Exchange 2013 の展開の詳細については、「」の「Exchange 2013 TechNet ライブラリ」を参照してください。 [https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 以下の点にも注意してください。
 
@@ -94,7 +96,7 @@ Exchange 2013 の展開の詳細については、「」の「Exchange 2013 Tech
     
 
     > [!NOTE]  
-    > どのサーバーに対してどの統合手順が実行されるか、および管理者の役割がどのようになるかを確認するには、「<A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するための展開プロセス</A>」を参照してください。
+    > どのサーバーに対してどの統合手順が実行されるか、および管理者の役割がどのようになるかを確認するには、「 <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するための展開プロセス</A>」を参照してください。
 
     
     </div>

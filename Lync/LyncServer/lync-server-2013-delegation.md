@@ -12,20 +12,22 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57de37ff1ef0b43a8a6ea9c03b715d3ebe570a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b31224228a4f2fbdad879e43bab61292852e009c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516310"
 ---
+# <a name="delegation-in-lync-server-2013"></a>Lync Server 2013 での委任
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegation-in-lync-server-2013"></a>Lync Server 2013 での委任
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42190910"
 
 _**トピックの最終更新日:** 2013-03-09_
 
-Lync の委任機能は、次の方法で場所に基づくルーティングによって影響を受けます。
+Lync の委任機能は、次の方法で Location-Based ルーティングによって影響を受けます。
 
-  - 場所に基づくルーティングを有効にした代理人が上司に代わって呼び出しを行う場合は、代理人の音声ポリシーを使用して通話を承認し、代理人のサイトの音声ルーティングポリシーを使用して通話をルーティングします。
+  - Location-Based ルーティングが有効になっている代理人が上司の代わりに通話を行う場合は、代理人の音声ポリシーを使用して通話を承認し、代理人のサイトの音声ルーティングポリシーを使用して通話をルーティングします。
 
   - マネージャーへの PSTN 通話の着信の場合、通話の転送と同時呼び出しの場合と同じ規則が、「通話の転送と転送と同時呼び出し」のトピックで説明しているとおりに適用されます。
 
@@ -52,7 +54,7 @@ Lync の委任機能は、次の方法で場所に基づくルーティングに
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013 での Location-Based ルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

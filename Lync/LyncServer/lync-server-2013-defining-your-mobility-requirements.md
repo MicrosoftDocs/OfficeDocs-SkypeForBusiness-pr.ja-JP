@@ -12,20 +12,22 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2da630e422aaf7068a4252333d5221f552bce525
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f560df21555bf15c1a51c055861898860ff8dc6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516334"
 ---
+# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Lync Server 2013 のモビリティ要件の定義
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Lync Server 2013 のモビリティ要件の定義
+
 
 </div>
 
@@ -45,13 +47,13 @@ Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用してい
 
   - **Lync モバイル クライアントで、自動検出を使用しますか。**
     
-    自動検出をサポートする必要がある場合は、新しい内部および外部のドメインネームシステム (DNS) レコードを作成し、フロントエンドサーバー、ディレクター、リバースプロキシの証明書にサブジェクトの別名を追加して、既存の公開ルールを変更する必要があります。リバースプロキシで。 詳細については、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」を参照してください。 自動検出を使用すると、ユーザーは、モバイルデバイスの設定に Url を入力することなく、企業ネットワークの内外にある任意の場所から Lync Server 2013 Web サービスを自動的に検索できます。
+    自動検出をサポートする必要がある場合は、新しい内部および外部のドメインネームシステム (DNS) レコードを作成し、フロントエンドサーバー、ディレクター、リバースプロキシの証明書にサブジェクトの別名を追加して、リバースプロキシの既存の公開ルールを変更する必要があります。 詳細については、「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」を参照してください。 自動検出を使用すると、ユーザーは、モバイルデバイスの設定に Url を入力することなく、企業ネットワークの内外にある任意の場所から Lync Server 2013 Web サービスを自動的に検索できます。
     
     自動検出の代わりに手動設定を使用する場合、モバイルユーザーはモバイルデバイスに以下の Url を手動で入力する必要があります。
     
-      - 外部\<アクセス用の\>Https://extpoolfqdn/autodiscover/autodiscoverservice.svc/root (
+      - \<ExtPoolFQDN\>外部アクセス用の Https:///autodiscover/autodiscoverservice.svc/root (
     
-      - https://\<intpoolfqdn\>/AutoDiscover/autodiscoverservice 内部アクセス用のルート
+      - \<IntPoolFQDN\>内部アクセス用の Https:///AutoDiscover/autodiscoverservice
     
     自動検出を使用することを強くお勧めします。手動設定を使用するのは、主にトラブルシューティングを行う場合です。
 
@@ -65,7 +67,7 @@ Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用してい
     
     既定の構成では、モバイル クライアントのトラフィックが外部サイトを経由することを許可していますが、モバイル クライアントのトラフィックを内部企業ネットワークに制限することができます。 トラフィックを内部ネットワークに制限すると、モバイル デバイスが企業ネットワーク内に存在する場合に限り、ユーザーはそのモバイル デバイス上で Lync モバイル アプリケーションを使用できます。
     
-    Mcx mobility service と Lync 2010 Mobile を使用したモビリティをサポートする展開では、 **Set-CsMcxConfiguration**コマンドレットを実行します。 内部使用のみのモビリティを設定するには、次のようなコマンドを使用します。
+    Mcx mobility service と Lync 2010 Mobile を使用したモビリティをサポートする展開では、 **Set-CsMcxConfiguration** コマンドレットを実行します。 内部使用のみのモビリティを設定するには、次のようなコマンドを使用します。
     
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
@@ -82,7 +84,7 @@ Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用してい
     
 
     > [!IMPORTANT]  
-    > Lync server 2013&nbsp;フロントエンドサーバーまたはフロントエンドプールを使用していて、lync server&nbsp;2010 フロントエンドサーバーまたはフロントエンドプールを使用して<STRONG>いない</STRONG>場合は、 <STRONG>cookie ベースの永続化の要件はありません</STRONG>。 Lync Server 2010&nbsp;のフロントエンドサーバーまたはフロントエンドプールを保持する必要がある場合は、引き続き、cookie ベースの永続化のために lync server 2010 の場合と同じルールが適用されます。
+    > Lync server 2013 フロントエンドサーバーまたはフロントエンドプールを使用していて、 &nbsp; Lync server 2010 フロントエンドサーバーまたはフロントエンドプールを使用して <STRONG>いない</STRONG> 場合 &nbsp; <STRONG>は、cookie ベースの永続化の要件はありません</STRONG>。 Lync Server 2010 &nbsp; のフロントエンドサーバーまたはフロントエンドプールを保持する必要がある場合は、引き続き、cookie ベースの永続化のために Lync server 2010 の場合と同じルールが適用されます。
 
     
     </div>
@@ -91,7 +93,7 @@ Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用してい
     
     プッシュ通知をサポートすると、サポートされている Apple iOS デバイスと Windows Phone は、モバイル アプリケーションが非アクティブな場合に発生するイベントの通知を受け取ります。 Lync Online データセンターにあるクラウドベースの Lync Server プッシュ通知サービスとのフェデレーション関係を持つようにエッジサーバーを構成し、コマンドレットを実行してプッシュ通知を有効にする必要があります。
     
-    Wi-fi ネットワーク経由のプッシュ通知をサポートする必要がある場合は、モバイルデバイスプロバイダーの3G またはデータネットワークでプッシュ通知をサポートすることに加えて、エンタープライズ Wi-fi ネットワーク上でポート5223アウトを開く必要があります。 Wi-Fi ネットワークでプッシュ通知をサポートすると、Wi-Fi のみを使用するモバイル デバイスと室内での受信が弱いモバイル デバイスがサポートされます。
+    モバイルデバイスプロバイダーの3G またはデータネットワーク経由でプッシュ通知をサポートするのに加えて、Wi-Fi ネットワーク経由でプッシュ通知をサポートする場合は、エンタープライズ Wi-Fi ネットワーク上でポート5223を送信する必要があります。 Wi-Fi ネットワークでプッシュ通知をサポートすると、Wi-Fi のみを使用するモバイル デバイスと室内での受信が弱いモバイル デバイスがサポートされます。
     
     <div>
     
@@ -134,7 +136,7 @@ Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用してい
     <tbody>
     <tr class="odd">
     <td><p>モビリティを有効にする</p>
-    <p>パラメーター名:<code>EnableMobility</code></p>
+    <p>パラメーター名: <code>EnableMobility</code></p>
     <p>範囲: グローバル/サイト/ユーザー</p></td>
     <td><p>管理者設定 Lync Mobile がインストールされている特定のスコープ内のユーザーを制御するには、ポリシーが False に設定されている場合、ユーザーはクライアントにサインインできません。</p>
     <p>既定値は True です。</p></td>
@@ -142,7 +144,7 @@ Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用してい
     </tr>
     <tr class="even">
     <td><p>外部音声を有効にする</p>
-    <p>パラメーター名:<code>EnableOutsideVoice</code></p>
+    <p>パラメーター名: <code>EnableOutsideVoice</code></p>
     <p>範囲: グローバル/サイト/ユーザー</p></td>
     <td><p>ユーザーが携帯電話番号ではなく勤務先番号を使用して通話を発信または受信できるようにする機能を、勤務先から通話を使用できるように制御します。 False に設定されている場合、ユーザーはモバイルデバイスから自分の勤務先番号を使用して通話を発信または受信できません。</p>
     <p>既定値は True です。</p></td>
@@ -150,7 +152,7 @@ Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用してい
     </tr>
     <tr class="odd">
     <td><p>IP オーディオおよびビデオを有効にする</p>
-    <p>パラメーター名:<code>EnableIPAudioVideo</code></p>
+    <p>パラメーター名: <code>EnableIPAudioVideo</code></p>
     <p>範囲: グローバル/サイト/ユーザー</p></td>
     <td><p>ユーザーが VoIP を使用して、モバイルデバイスで音声またはビデオ通話を発信または受信できるようにするかどうかを制御します。 False に設定されている場合、ユーザーはデバイス上で VoIP またはビデオ通話を発信または受信できません。</p>
     <p>既定値は True です。</p></td>
@@ -158,7 +160,7 @@ Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用してい
     </tr>
     <tr class="even">
     <td><p>IP オーディオに WiFi が必要</p>
-    <p>パラメーター名:<code>RequireWiFiForIPAudio</code></p>
+    <p>パラメーター名: <code>RequireWiFiForIPAudio</code></p>
     <p>範囲: グローバル/サイト/ユーザー</p></td>
     <td><p>この設定では、携帯データネットワークではなく、Wi-fi で VoIP 経由の通話を発信および受信するためにクライアントが必要かどうかを定義します。 True に設定すると、ユーザーは WiFi ネットワークに接続されている場合にのみ VoIP 通話を発信および受信できるようになります。</p>
     <p>既定値は False です。</p></td>
@@ -166,9 +168,9 @@ Lync 2010 Mobile および Lync 2013 Mobile クライアントを使用してい
     </tr>
     <tr class="odd">
     <td><p>IP ビデオに WiFi が必要</p>
-    <p>パラメーター名:<code>RequireWiFiForIPVideo</code></p>
+    <p>パラメーター名: <code>RequireWiFiForIPVideo</code></p>
     <p>範囲: グローバル/サイト/ユーザー</p></td>
-    <td><p>この設定では、携帯データネットワークではなく、Wi-fi でビデオ通話を発信および受信するためにクライアントが必要かどうかを定義します。 True に設定すると、ユーザーは Wi-fi ネットワークに接続されている場合にのみ、ビデオ通話を発信および受信できます。</p>
+    <td><p>この設定では、携帯データネットワークではなく Wi-Fi でビデオ通話を発信および受信するためにクライアントが必要かどうかを定義します。 True に設定すると、ユーザーは Wi-Fi ネットワークに接続されている場合にのみビデオ通話を発信および受信できます。</p>
     <p>既定値は False です。</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>

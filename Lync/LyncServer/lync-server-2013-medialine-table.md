@@ -12,20 +12,22 @@ ms:contentKeyID: 48183956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84aa652a51934a8b513392869a0875f60689f759
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 03f967b50c2fa9eae4f2599ce96dc9c592a57006
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516144"
 ---
+# <a name="medialine-table-in-lync-server-2013"></a>Lync Server 2013 の MediaLine テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="medialine-table-in-lync-server-2013"></a>Lync Server 2013 の MediaLine テーブル
+
 
 </div>
 
@@ -108,7 +110,7 @@ _**トピックの最終更新日:** 2014-02-21_
 <td><p><strong>CallerIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>発信者の IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>発信者の IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerPort</strong></p></td>
@@ -120,7 +122,7 @@ _**トピックの最終更新日:** 2014-02-21_
 <td><p><strong>CallerSubnet</strong></p></td>
 <td><p>int</p></td>
 <td><p> 外部</p></td>
-<td><p>発信者のサブネット。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>発信者のサブネット。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerInside</strong></p></td>
@@ -138,7 +140,7 @@ _**トピックの最終更新日:** 2014-02-21_
 <td><p><strong>CallerRelayIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>発信者が使用する Lync Server の音声ビデオエッジサービスの IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>発信者が使用する Lync Server の音声ビデオエッジサービスの IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRelayPort</strong></p></td>
@@ -198,7 +200,7 @@ _**トピックの最終更新日:** 2014-02-21_
 <td><p><strong>CalleeIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話受信者の IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>通話受信者の IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleePort</strong></p></td>
@@ -210,7 +212,7 @@ _**トピックの最終更新日:** 2014-02-21_
 <td><p><strong>CalleeSubnet</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>呼び出し先のサブネット。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>呼び出し先のサブネット。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeInside</strong></p></td>
@@ -228,7 +230,7 @@ _**トピックの最終更新日:** 2014-02-21_
 <td><p><strong>CalleeRelayIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話受信者が使用する音声ビデオエッジサービスの IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>通話受信者が使用する音声ビデオエッジサービスの IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRelayPort</strong></p></td>

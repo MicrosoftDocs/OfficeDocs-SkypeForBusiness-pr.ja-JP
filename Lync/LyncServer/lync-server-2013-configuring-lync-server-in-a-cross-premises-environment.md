@@ -12,20 +12,22 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dcbdb7ac12dcb8fc768a1f9e537622d01191b8f
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6f6399185e045afb56231550abc33ab514db0d04
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517390"
 ---
+# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>クロスプレミス環境での Microsoft Lync Server 2013 の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>クロスプレミス環境での Microsoft Lync Server 2013 の構成
+
 
 </div>
 
@@ -87,7 +89,7 @@ _**トピックの最終更新日:** 2017-02-21_
 
 
 > [!NOTE]  
-> Microsoft Online Services コマンドレットをインストールしていない場合は、先に進む前に 2 つの作業を行う必要があります。 最初に、64 ビット バージョンの Microsoft Online Services サインイン アシスタントをダウンロードしてインストールします。 インストールが完了したら、Windows PowerShell 用 Microsoft Online Services モジュールの64ビット版をダウンロードしてインストールします。 Microsoft Online Services モジュールのインストールおよび使用方法の詳細については、「Microsoft 365 または Office 365 web サイト」を参照してください。 これらの手順では、Microsoft 365 または Office 36 と Active Directory との間でシングルサインオン、フェデレーション、および同期を構成する方法についても説明します。<BR>これらのコマンドレットをインストールしていない場合、Get-cstenant コマンドレットは使用できないため、スクリプトは失敗します。
+> Microsoft Online Services コマンドレットをインストールしていない場合は、先に進む前に 2 つの作業を行う必要があります。 最初に、64 ビット バージョンの Microsoft Online Services サインイン アシスタントをダウンロードしてインストールします。 インストールが完了したら、Windows PowerShell 用 Microsoft Online Services モジュールの64ビット版をダウンロードしてインストールします。 Microsoft Online Services モジュールのインストールおよび使用方法の詳細については、「Microsoft 365 または Office 365 web サイト」を参照してください。 これらの手順では、Microsoft 365 または Office 36 と Active Directory との間でシングルサインオン、フェデレーション、および同期を構成する方法についても説明します。<BR>これらのコマンドレットをインストールしていない場合、Get-CsTenant コマンドレットを使用できないため、スクリプトは失敗します。
 
 
 
@@ -95,7 +97,7 @@ _**トピックの最終更新日:** 2017-02-21_
 
 Microsoft 365 を構成した後、Lync Server 2013 および Exchange 2013 に対して Microsoft 365 または Office 365 サービスプリンシパルを作成した後、これらのサービスプリンシパルで資格情報を登録する必要があります。 これを行うには、最初に .CER ファイルとして保存されている X.509 Base64 を入手する必要があります。 この証明書は、Microsoft 365 または Office 365 のサービスプリンシパルに適用されます。
 
-X.509 証明書を取得したら、Microsoft Online Services モジュールを起動します ([**スタート**]、[**すべてのプログラム**]、[ **microsoft Online Services**]、[ **microsoft online services モジュール for Windows PowerShell**] の順にクリックします)。 サービスモジュールが開いたら、次のコマンドを入力して、サービスプリンシパルの管理に使用できるコマンドレットを含む Microsoft Online Windows PowerShell モジュールをインポートします。
+X.509 証明書を取得したら、Microsoft Online Services モジュールを起動します ([ **スタート**]、[ **すべてのプログラム**]、[ **microsoft Online Services**]、[ **microsoft online services モジュール for Windows PowerShell**] の順にクリックします)。 サービスモジュールが開いたら、次のコマンドを入力して、サービスプリンシパルの管理に使用できるコマンドレットを含む Microsoft Online Windows PowerShell モジュールをインポートします。
 
     Import-Module MSOnlineExtended
 
@@ -127,7 +129,7 @@ Microsoft 365 に接続した直後に、次のコマンドを実行してサー
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-証明書をインポートしてエンコードした後、証明書を Microsoft 365 サービスプリンシパルに割り当てることができます。 これを行うには、まず、New-msolserviceprincipal を使用して、Lync Server と Microsoft Exchange サービスプリンシパルの AppPrincipalId プロパティの値を取得します。AppPrincipalId プロパティの値は、証明書を割り当てられているサービスプリンシパルを識別するために使用されます。 Lync Server 2013 の AppPrincipalId プロパティの値を使用して、次のコマンドを使用して、Microsoft 365 バージョンの Lync Server に証明書を割り当てます (StartDate プロパティと EndDate プロパティは、証明書の有効期間に対応している必要があります)。
+証明書をインポートしてエンコードした後、証明書を Microsoft 365 サービスプリンシパルに割り当てることができます。 そのためには、まず、Get-MsolServicePrincipal を使用して、Lync Server と Microsoft Exchange サービスプリンシパルの AppPrincipalId プロパティの値を取得します。AppPrincipalId プロパティの値は、証明書を割り当てられているサービスプリンシパルを識別するために使用されます。 Lync Server 2013 の AppPrincipalId プロパティの値を使用して、次のコマンドを使用して、Microsoft 365 バージョンの Lync Server に証明書を割り当てます (StartDate プロパティと EndDate プロパティは、証明書の有効期間に対応している必要があります)。
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 

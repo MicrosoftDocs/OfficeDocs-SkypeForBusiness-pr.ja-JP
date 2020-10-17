@@ -12,20 +12,22 @@ ms:contentKeyID: 48184419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e198158c60b7605ee78179e4a4e74c86791dfa1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 580a17a52a194840e897942ba416fc0d7f984af4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217400"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516124"
 ---
+# <a name="modify-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a>Lync Server 2013 での音声ポリシーの変更と PSTN 使用法レコードの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a>Lync Server 2013 での音声ポリシーの変更と PSTN 使用法レコードの構成
+
 
 </div>
 
@@ -143,7 +145,7 @@ _**トピックの最終更新日:** 2012-11-01_
             
               - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。 詳細については、「 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)」を参照してください。
         
-        4.  **[OK]** をクリックします。
+        4.  [**OK**] をクリックします。
     
       - この音声ポリシーに既に関連付けられている PSTN 使用法レコードを編集するには、次の操作を実行します。
         
@@ -159,7 +161,7 @@ _**トピックの最終更新日:** 2012-11-01_
             
               - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。 詳細については、「 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)」を参照してください。
         
-        3.  **[OK]** をクリックします。
+        3.  [**OK**] をクリックします。
 
 8.  最適なパフォーマンスを得るために、PSTN 使用法レコードを並べ替えます。 一覧内でのレコードの位置を変更するには、レコードの名前を選択状態にして、上矢印または下矢印をクリックします。
     
@@ -176,7 +178,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
       - この音声ポリシーと同じ PSTN 使用法レコードを着信の転送と同時呼び出しに使用する場合は、ドロップダウン メニューから [**呼び出し PSTN 使用法を使用したルーティング**] を選択します。
     
-      - 内部 Lync ユーザーのみに着信の転送および同時呼び出しを許可するには、ドロップダウンメニューから [**内部 lync ユーザーにのみルーティング**] を選択します。 通話は外部の PSTN 番号には転送されません。
+      - 内部 Lync ユーザーのみに着信の転送および同時呼び出しを許可するには、ドロップダウンメニューから [ **内部 lync ユーザーにのみルーティング** ] を選択します。 通話は外部の PSTN 番号には転送されません。
     
       - この音声ポリシーに使用されているのとは別の PTSN 使用法レコードを着信の転送と同時呼び出しに指定する場合は、ドロップダウン メニューから [**カスタムの PSTN 使用法を使用したルーティング**] を選択します。このオプションを選択するとコントロールが表示され、着信の転送と同時呼び出しに対して、既存の PSTN 使用法レコードを選択するかまたは新しい PSTN 使用法レコードを作成できます。
         
@@ -209,7 +211,7 @@ _**トピックの最終更新日:** 2012-11-01_
                 
                   - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。 詳細については、「 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)」を参照してください。
             
-            4.  **[OK]** をクリックします。
+            4.  [**OK**] をクリックします。
         
           - この音声ポリシーに既に関連付けられている PSTN 使用法レコードを編集するには、次の操作を実行します。
             
@@ -225,7 +227,7 @@ _**トピックの最終更新日:** 2012-11-01_
                 
                   - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。 詳細については、「 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)」を参照してください。
             
-            3.  **[OK]** をクリックします。
+            3.  [**OK**] をクリックします。
 
 10. (オプション) 音声ポリシーをテストする番号を入力して、[**実行**] をクリックします。テスト結果は、[**テストする変換後の番号**] の下に表示されます。
     
@@ -246,7 +248,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
 
     > [!NOTE]  
-    > 音声ポリシーを作成または変更したときは常に、[<STRONG>すべて確定</STRONG>] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A>」を参照してください。
+    > 音声ポリシーを作成または変更したときは常に、[<STRONG>すべて確定</STRONG>] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A> 」を参照してください。
 
     
     </div>

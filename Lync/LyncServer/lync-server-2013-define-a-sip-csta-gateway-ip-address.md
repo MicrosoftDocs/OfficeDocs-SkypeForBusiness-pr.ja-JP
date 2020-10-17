@@ -12,20 +12,22 @@ ms:contentKeyID: 48185073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f59b2d236cc9a261f07b2f2e9dc26102efff908f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3a88aa2209617a93b0feebf7c1cc6d8cccd0cf7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205993"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516384"
 ---
+# <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a>Lync Server 2013 での SIP/CSTA ゲートウェイの IP アドレスの定義
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-a-sipcsta-gateway-ip-address-in-lync-server-2013"></a>Lync Server 2013 での SIP/CSTA ゲートウェイの IP アドレスの定義
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 4.  [**信頼されたアプリケーション サーバー**] ノードを展開します。
 
-5.  「 [Lync Server 2013 のリモート通話コントロールの信頼済みアプリケーションエントリを構成](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)する」の説明に従って、作成した信頼されたアプリケーションプールを右クリックし、[**プロパティの編集**] をクリックします。
+5.  「 [Lync Server 2013 のリモート通話コントロールの信頼済みアプリケーションエントリを構成](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)する」の説明に従って、作成した信頼されたアプリケーションプールを右クリックし、[ **プロパティの編集**] をクリックします。
 
 6.  [**このプールへの構成データのレプリケーションを有効にする**] チェック ボックスをオフにします。
 

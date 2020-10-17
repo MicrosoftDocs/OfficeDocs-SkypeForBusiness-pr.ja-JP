@@ -12,20 +12,22 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cad247f2643261e02e475c459e703db843f18fbe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3faf28bdd85f32de1560d35aaf35392fef9746
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195570"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516954"
 ---
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Lync Server 2013 でのボイスメールエスケープの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Lync Server 2013 でのボイスメールエスケープの構成
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42195570"
 
 _**トピックの最終更新日:** 2013-02-22_
 
-ユーザーが携帯電話に同時呼び出しを構成すると、携帯電話がオフになっている場合、バッテリ電源が切れている場合、または範囲外にある場合、通常、発信者はユーザーの個人ボイスメールにルーティングされます。 Lync Server 2013 を使用すると、ユーザーは会社のボイスメールシステムにビジネス関連の通話をルーティングすることを選択できます。 具体的には、タイマーを構成することができ、定義された時間範囲内の電話会社のボイスメールによって通話が応答されると、Lync Server は、その電話会社のボイスメールシステム (およびユーザーの個人用ボイスメール) から切断され、ユーザーの残りの企業システムのエンドポイントは、呼び出しを続行します。 これにより、発信者は自動的にユーザーの会社のボイス メールにルーティングされます。
+ユーザーが携帯電話に同時呼び出しを構成すると、携帯電話がオフになっている場合、バッテリ電源が切れている場合、または範囲外にある場合、通常、発信者はユーザーの個人ボイスメールにルーティングされます。 Lync Server 2013 を使用すると、ユーザーは会社のボイスメールシステムにビジネス関連の通話をルーティングすることを選択できます。 具体的には、タイマーを構成することができ、定義された時間内に電話会社のボイスメールによって通話に応答した場合、Lync Server は電話会社のボイスメールシステム (およびユーザーの個人用ボイスメール) から切断されますが、企業システムの残りのエンドポイントは引き続き鳴ります。 これにより、発信者は自動的にユーザーの会社のボイス メールにルーティングされます。
 
-この構成は、Lync Server 管理シェルコマンドレット Set-csvoicepolicy を使用して、音声ポリシーレベルで次のパラメーターを**設定**して実行します。
+この構成は、Lync Server 管理シェルコマンドレット Set-csvoicepolicy を使用して、音声ポリシーレベルで次のパラメーターを **設定**して実行します。
 
 <div>
 

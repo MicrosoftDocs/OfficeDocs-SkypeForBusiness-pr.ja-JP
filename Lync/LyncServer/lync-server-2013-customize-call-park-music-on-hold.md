@@ -12,20 +12,22 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ec182619bca0cf6e52093a28a72f1f8bca077d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18f7ac9793c8275caa20725d2d303c5fca7f534f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200146"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516714"
 ---
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Lync Server 2013 でコールパーク保留音をカスタマイズする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Lync Server 2013 でコールパーク保留音をカスタマイズする
+
 
 </div>
 
@@ -65,7 +67,7 @@ Lync Server 2013 に同梱されている既定の音楽ファイルではなく
     
 
     > [!TIP]  
-    > サービスを識別するには、<STRONG>Get-CsService</STRONG> コマンドレットを使用します。 詳細については、「<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">取得-CsService</A>」を参照してください。
+    > サービスを識別するには、<STRONG>Get-CsService</STRONG> コマンドレットを使用します。 詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">取得-CsService</A>」を参照してください。
 
     
     </div>

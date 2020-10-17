@@ -12,20 +12,22 @@ ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c534aa912e2564f8a8934aafa75bc52b76600795
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3eecf3d55ba3bb8e8629d41a9a924c65ac7a4c0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217473"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516134"
 ---
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Lync Server 2013 のモビリティ機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Lync Server 2013 のモビリティ機能
+
 
 </div>
 
@@ -83,7 +85,7 @@ Lync Server 2013 の累積的な更新プログラムで導入されたモビリ
 
 </div>
 
-Apple iPad ユーザーは強化機能を利用できるようになります。 音声通話を使用して会議に参加した後、iPad ユーザーは、会議内でアップロードされた Microsoft PowerPoint プレゼンテーションを表示したり、アプリケーションやデスクトップを共有したり、会議参加者リストを表示したり、その他のコンテンツタイプの通知を受信したりできます。が会議内で共有されている。
+Apple iPad ユーザーは強化機能を利用できるようになります。 音声通話を使用して会議に参加すると、iPad ユーザーは会議内でアップロードされた Microsoft PowerPoint プレゼンテーションを表示できるようになり、アプリケーションやデスクトップを共有したり、会議参加者リストを表示したり、会議内で共有されている他のコンテンツタイプの通知を受信したりすることができます。
 
 <div>
 
@@ -99,7 +101,7 @@ Apple iPad ユーザーは強化機能を利用できるようになります。
 
 
 > [!NOTE]  
-> すべてのモバイル デバイスですべての機能がまったく同じように動作するとは限りません。 モバイルデバイスでサポートされている機能の詳細については、 <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A>「」のモバイルクライアントの比較表を参照してください。 サポートされているデバイスとオペレーティングシステムの詳細については、「 <A href="lync-server-2013-planning-for-mobile-clients.md">Planning for mobile clients In Lync Server 2013</A>」の「要件」のトピックを参照してください。
+> すべてのモバイル デバイスですべての機能がまったく同じように動作するとは限りません。 モバイルデバイスでサポートされている機能の詳細については、「」のモバイルクライアントの比較表を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A> 。 サポートされているデバイスとオペレーティングシステムの詳細については、「 <A href="lync-server-2013-planning-for-mobile-clients.md">Planning for mobile clients In Lync Server 2013</A>」の「要件」のトピックを参照してください。
 
 
 

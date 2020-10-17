@@ -12,20 +12,22 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad1967bea18e0a03ac3a34bf187c1248ec5a1ab2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f68cafcfcc616bd6e467514704416f134de3665
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197799"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517494"
 ---
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Lync Server 2013 でのプッシュ通知の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Lync Server 2013 でのプッシュ通知の構成
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197799"
 
 _**トピックの最終更新日:** 2013-02-12_
 
-プッシュ通知は、バッジ、アイコン、または通知の形式で、モバイルアプリケーションが非アクティブな場合でもモバイルデバイスに送信できます。 プッシュ通知は、ユーザーに、新規または不在着信の IM 招待状、ボイス メールなどのイベントを通知します。 Lync Server 2013 Mobility Service は、クラウドベースの Lync Server プッシュ通知サービスに通知を送信します。これにより、Apple プッシュ通知サービス (APNS) (Lync 2010 モバイルクライアントを実行している Apple デバイスの場合) に通知が送信されます。Microsoft プッシュ通知サービス (MPNS) (Lync 2010 Mobile または Lync 2013 モバイルクライアントを実行している Windows Phone デバイス用)。
+プッシュ通知は、バッジ、アイコン、または通知の形式で、モバイルアプリケーションが非アクティブな場合でもモバイルデバイスに送信できます。 プッシュ通知は、ユーザーに、新規または不在着信の IM 招待状、ボイス メールなどのイベントを通知します。 Lync Server 2013 Mobility Service は、クラウドベースの Lync Server プッシュ通知サービスに通知を送信します。これにより、Apple Push Notification Service (APNS)、または Microsoft プッシュ通知サービス (MPNS) (Lync 2010 Mobile または Lync 2013 モバイルクライアントを実行している Windows Phone デバイスの場合) に通知が送信2010されます。
 
 <div>
 
@@ -64,7 +66,7 @@ _**トピックの最終更新日:** 2013-02-12_
     
     </div>
 
-  - プッシュ通知を有効にするには、 **Set-Cspの設定**コマンドレットを実行する必要があります。 既定では、プッシュ通知はオフになっています。
+  - プッシュ通知を有効にするには、 **Set-Cspの設定** コマンドレットを実行する必要があります。 既定では、プッシュ通知はオフになっています。
 
   - フェデレーション構成とプッシュ通知をテストします。
 
@@ -105,17 +107,17 @@ _**トピックの最終更新日:** 2013-02-12_
 
 1.  RtcUniversalServerAdmins グループのメンバーとしてエッジサーバーにログオンします。
 
-2.  [**スタート**]、[**すべてのプログラム**]、[**管理ツール**]、[**コンピューターの管理**] の順にクリックします。
+2.  [ **スタート**]、[ **すべてのプログラム**]、[ **管理ツール**]、[ **コンピューターの管理**] の順にクリックします。
 
-3.  コンソールツリーで、[**サービスとアプリケーション**] を展開し、[ **Microsoft Office Communications Server 2007 R2**] を右クリックし、[**プロパティ**] をクリックします。
+3.  コンソールツリーで、[ **サービスとアプリケーション**] を展開し、[ **Microsoft Office Communications Server 2007 R2**] を右クリックし、[ **プロパティ**] をクリックします。
 
-4.  [**許可**] タブで、[**追加**] をクリックします。
+4.  [ **許可** ] タブで、[ **追加**] をクリックします。
 
-5.  [**フェデレーションパートナーの追加**] ダイアログボックスで、次の操作を行います。
+5.  [ **フェデレーションパートナーの追加** ] ダイアログボックスで、次の操作を行います。
     
-      - [**フェデレーションパートナーのドメイン名**] に、「 **push.lync.com**」と入力します。
+      - [ **フェデレーションパートナーのドメイン名**] に、「 **push.lync.com**」と入力します。
     
-      - [**フェデレーションパートナーのアクセスエッジサーバー**] で、「 **sipfed.online.lync.com**」と入力します。
+      - [ **フェデレーションパートナーのアクセスエッジサーバー**] で、「 **sipfed.online.lync.com**」と入力します。
     
       - **[OK]** をクリックします。
 

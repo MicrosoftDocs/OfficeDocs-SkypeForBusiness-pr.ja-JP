@@ -12,20 +12,22 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9daaec9cbe32f031c7ee99731b1d7c7c9ec10ac1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac26f7ec2be8390ee913c810928cc99c4e20d53c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195720"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517654"
 ---
+# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Lync Server 2013 用の Active Directory フェデレーションサービス (AD FS 2.0) の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Lync Server 2013 用の Active Directory フェデレーションサービス (AD FS 2.0) の構成
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42195720"
 
 _**トピックの最終更新日:** 2013-07-03_
 
-次のセクションでは、多要素認証をサポートするように Active Directory フェデレーションサービス (AD FS 2.0) を構成する方法について説明します。 AD FS 2.0 をインストールする方法の詳細については、「AD FS 2.0 のステップバイステップ」および[https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374)「ガイドについて」を参照してください。
+次のセクションでは、多要素認証をサポートするように Active Directory フェデレーションサービス (AD FS 2.0) を構成する方法について説明します。 AD FS 2.0 をインストールする方法の詳細については、「AD FS 2.0 のステップバイステップ」および「ガイドについて」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374) 。
 
 <div class="">
 
 
 > [!NOTE]  
-> AD FS 2.0 をインストールするときは、Windows Server マネージャーを使用して Active Directory フェデレーションサービスの役割を追加しないでください。 代わりに、Active Directory フェデレーションサービス 2.0 RTW パッケージをダウンロードしてインストール<A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>します。
+> AD FS 2.0 をインストールするときは、Windows Server マネージャーを使用して Active Directory フェデレーションサービスの役割を追加しないでください。 代わりに、Active Directory フェデレーションサービス 2.0 RTW パッケージをダウンロードしてインストールし <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A> ます。
 
 
 
@@ -62,13 +64,13 @@ _**トピックの最終更新日:** 2013-07-03_
     ```powershell
     add-pssnapin Microsoft.Adfs.PowerShell
     ```
-4.  Lync Server 2013 の累積的な更新プログラムと共に、各 Lync Server 2013 とのパートナーシップを確立します。これは、次のコマンドを実行して、パッシブ認証が有効になる7月の2013ディレクター、エンタープライズプール、Standard Edition サーバーと、展開に固有のサーバー名:
+4.  Lync Server 2013 の累積的な更新プログラムと共に、各 Lync Server 2013 とのパートナーシップを確立し2013ます。これは、次のコマンドを実行して、展開に固有のサーバー名を置き換えて、次のコマンドを実行することによって、パッシブ認証を有効にします。
     ```powershell
     Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
      ```
 5.  [管理ツール] メニューから、AD FS 2.0 管理コンソールを起動します。
 
-6.  [**信頼関係** \> ] [**証明書利用者信頼**] を展開します。
+6.  [ **信頼関係**] [ \> **証明書利用者信頼**] を展開します。
 
 7.  Lync Server 2013 の累積的な更新プログラム (2013 エンタープライズプールまたは Standard Edition サーバー) について、Lync Server 2013 の新しい信頼が作成されたことを確認します。
 
@@ -93,11 +95,11 @@ _**トピックの最終更新日:** 2013-07-03_
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 
-10. AD FS 2.0 管理コンソールで、証明書利用者信頼を右クリックして、[**要求規則の編集**] を選択します。
+10. AD FS 2.0 管理コンソールで、証明書利用者信頼を右クリックして、[ **要求規則の編集**] を選択します。
 
-11. [**発行承認規則**] タブを選択し、新しい承認ルールが正常に作成されたことを確認します。
+11. [ **発行承認規則** ] タブを選択し、新しい承認ルールが正常に作成されたことを確認します。
 
-12. [**発行変換規則**] タブを選択し、新しい変換ルールが正常に作成されたことを確認します。
+12. [ **発行変換規則** ] タブを選択し、新しい変換ルールが正常に作成されたことを確認します。
 
 </div>
 

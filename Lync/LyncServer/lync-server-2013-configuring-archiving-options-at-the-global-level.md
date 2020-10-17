@@ -12,20 +12,22 @@ ms:contentKeyID: 48185303
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3798d64ba8a2252058756b04b51481e90bdf95c5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 939928b99c4372f3dafe9536365481fb737478a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188570"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517544"
 ---
+# <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>Lync Server 2013 のグローバルレベルでのアーカイブオプションの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>Lync Server 2013 のグローバルレベルでのアーカイブオプションの構成
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-10_
 
 トポロジにアーカイブを追加してトポロジを公開すると、Lync Server はアーカイブ用のグローバル構成を作成します。 既定では、グローバル構成で有効になっているアーカイブ オプションはありません。 グローバル構成より優先されるサイト構成またはプール構成を設定しない限り、グローバル構成は、展開全体に対して有効化されるオプションを制御します。
 
-グローバル構成、サイト構成、およびプール構成の階層など、アーカイブ構成のしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md)」を参照してください。
+グローバル構成、サイト構成、およびプール構成の階層など、アーカイブ構成のしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md) 」を参照してください。
 
 <div>
 
@@ -75,7 +77,7 @@ _**トピックの最終更新日:** 2012-10-10_
     
       - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-      - Microsoft Exchange Server を使用してアーカイブデータを保存するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
+      - Microsoft Exchange Server を使用してアーカイブデータを保存するには、[ **Microsoft exchange 統合** ] チェックボックスをオンにします。
     
       - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
         

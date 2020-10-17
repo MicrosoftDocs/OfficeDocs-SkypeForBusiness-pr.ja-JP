@@ -12,20 +12,22 @@ ms:contentKeyID: 48184036
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a0c03c286b5d9ad57f1422478bed6b7c3048a73
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f23ef91f7f0a6f1205f5f95326b8ebe58b66df4b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516494"
 ---
+# <a name="define-a-gateway-in-topology-builder-in-lync-server-2013"></a>Lync Server 2013 のトポロジビルダーでゲートウェイを定義する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-a-gateway-in-topology-builder-in-lync-server-2013"></a>Lync Server 2013 のトポロジビルダーでゲートウェイを定義する
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42196210"
 
 _**トピックの最終更新日:** 2012-10-04_
 
-次の手順に従って、トポロジビルダーを使用して、エンタープライズ Voip が有効なユーザーの公衆交換電話網 (PSTN) への接続を提供するための仲介サーバーを関連付けることができる*ピア*を定義します。 仲介サーバーへのピアとは、PSTN ゲートウェイ、ip-pbx、または SIP トランクを構成して接続するインターネットテレフォニーサービスプロバイダー (ITSP) のセッションボーダーコントローラー (SBC) のことです。
+次の手順に従って、トポロジビルダーを使用して、エンタープライズ Voip が有効なユーザーの公衆交換電話網 (PSTN) への接続を提供するための仲介サーバーを関連付けることができる *ピア* を定義します。 仲介サーバーへのピアとは、PSTN ゲートウェイ、ip-pbx、または SIP トランクを構成して接続するインターネットテレフォニーサービスプロバイダー (ITSP) のセッションボーダーコントローラー (SBC) のことです。
 
 <div>
 
 
 > [!NOTE]  
-> このトピックでは、「展開」のドキュメントの「 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Define and configure a Front end pool Or Standard edition 2013 2013 server</A> 」で説明されているように、少なくとも1つの中央サイトに、またはスタンドアロンの仲介サーバーを使用<A href="lync-server-2013-publish-the-topology.md"></A>して少なくとも1つの中央サイトに内部フロントエンドプールまたは standard edition サーバーをセットアップしていることを前提 また、このトピックでは、インフラストラクチャが lync server 2013 の「<A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">エンタープライズ voip の前提</A>条件」および「セキュリティと構成の前提条件」で説明されている前提条件を満たしていることを前提としています ( <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">lync Server 2013 のエンタープライズ voip の</A>場合)。
+> このトピックでは、「展開」のドキュメントの「 <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Define and configure a Front end pool Or Standard edition 2013 2013 server</A> 」で説明されているように、少なくとも1つの中央サイトに、またはスタンドアロンの仲介サーバーを使用<A href="lync-server-2013-publish-the-topology.md">Publish the topology in Lync Server 2013</A>して少なくとも1つの中央サイトに内部フロントエンドプールまたは standard edition サーバーをセットアップしていることを前提 また、このトピックでは、インフラストラクチャが lync server 2013 の「 <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">エンタープライズ voip の前提</A> 条件」および「セキュリティと構成の前提条件」で説明されている前提条件を満たしていることを前提としています ( <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">lync Server 2013 のエンタープライズ voip の</A>場合)。
 
 
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2012-10-04_
 
 1.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-2.  [Lync Server 2013] の下で、サイト名、[共有コンポーネント] の順にクリックし、[ **pstn**ゲートウェイ] ノードを右クリックして、[**新しい pstn ゲートウェイ**] をクリックします。
+2.  [Lync Server 2013] の下で、サイト名、[共有コンポーネント] の順にクリックし、[ **pstn** ゲートウェイ] ノードを右クリックして、[ **新しい pstn ゲートウェイ**] をクリックします。
     
     ![d898c3c1-8798-4b74-8f02-b994ef3db4c1](images/Gg425945.d898c3c1-8798-4b74-8f02-b994ef3db4c1(OCS.15).png "d898c3c1-8798-4b74-8f02-b994ef3db4c1")
 
@@ -99,15 +101,15 @@ _**トピックの最終更新日:** 2012-10-04_
     
     </div>
 
-8.  [**関連付けられている仲介サーバー**] で、この PSTN ゲートウェイのルートトランクに関連付ける仲介サーバープールを選択します。
+8.  [ **関連付けられている仲介サーバー**] で、この PSTN ゲートウェイのルートトランクに関連付ける仲介サーバープールを選択します。
 
-9.  [**関連付けられている仲介サーバーのポート**] で、仲介サーバーがゲートウェイからの SIP メッセージに使用するリスニングポートを入力します。
+9.  [ **関連付けられている仲介サーバーのポート**] で、仲介サーバーがゲートウェイからの SIP メッセージに使用するリスニングポートを入力します。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 で複数のトランクがサポートされている場合、複数の PSTN ゲートウェイとの通信に使用するために、複数の SIP シグナリングポートを仲介サーバーに対して定義できます。 トランクを定義する場合、<STRONG>関連する仲介サーバーのポート</STRONG>は、仲介サーバーによって許可されている各プロトコルのリッスンポートの範囲内にする必要があります。 このポート範囲は、「Lync Server 2013 および仲介プール」で定義されています。 目的の仲介サーバープールを右クリックし、[<STRONG>プロパティの編集</STRONG>] を選択します。 [<STRONG>リッスン ポート</STRONG>] フィールドでポート範囲を指定します。
+    > Lync Server 2013 で複数のトランクがサポートされている場合、複数の PSTN ゲートウェイとの通信に使用するために、複数の SIP シグナリングポートを仲介サーバーに対して定義できます。 トランクを定義する場合、 <STRONG>関連する仲介サーバーのポート</STRONG> は、仲介サーバーによって許可されている各プロトコルのリッスンポートの範囲内にする必要があります。 このポート範囲は、「Lync Server 2013 および仲介プール」で定義されています。 目的の仲介サーバープールを右クリックし、[ <STRONG>プロパティの編集</STRONG>] を選択します。 [<STRONG>リッスン ポート</STRONG>] フィールドでポート範囲を指定します。
 
     
     </div>

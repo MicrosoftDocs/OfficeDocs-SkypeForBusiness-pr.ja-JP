@@ -12,20 +12,22 @@ ms:contentKeyID: 48184455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b7cadad0e914104a8392d1f6b36167780a2b759
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ce2f822bb1fc42d385cec762b86c5a674d50c872
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214003"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516324"
 ---
+# <a name="delete-a-site-or-user-policy-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 で外部ユーザーアクセスのサイトポリシーまたはユーザーポリシーを削除する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-site-or-user-policy-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 で外部ユーザーアクセスのサイトポリシーまたはユーザーポリシーを削除する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214003"
 
 _**トピックの最終更新日:** 2013-02-22_
 
-[**外部アクセスポリシー** ] ページの [Lync Server コントロールパネル] に表示されているすべてのサイトポリシーまたはユーザーポリシーを削除することができます。 グローバル ポリシーを削除すると、実際には削除されず、外部ユーザー アクセス オプションのサポートが含まれていない既定の設定にリセットされるだけです。 グローバルポリシーのリセットの詳細については、「 [Lync Server 2013 での外部ユーザーアクセスに関するグローバルポリシーのリセット](lync-server-2013-reset-the-global-policy-for-external-user-access.md)」を参照してください。
+[ **外部アクセスポリシー** ] ページの [Lync Server コントロールパネル] に表示されているすべてのサイトポリシーまたはユーザーポリシーを削除することができます。 グローバル ポリシーを削除すると、実際には削除されず、外部ユーザー アクセス オプションのサポートが含まれていない既定の設定にリセットされるだけです。 グローバルポリシーのリセットの詳細については、「 [Lync Server 2013 での外部ユーザーアクセスに関するグローバルポリシーのリセット](lync-server-2013-reset-the-global-policy-for-external-user-access.md)」を参照してください。
 
 <div>
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して PIN ポリシーを削除する
 
-外部アクセスポリシーは、Windows PowerShell と Get-csexternalaccesspolicy コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+外部アクセスポリシーは、Windows PowerShell と Remove-CsExternalAccessPolicy コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -91,7 +93,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 </div>
 
-詳細については、 [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

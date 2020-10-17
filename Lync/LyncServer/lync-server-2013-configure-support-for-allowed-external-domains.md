@@ -12,20 +12,22 @@ ms:contentKeyID: 48183943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33ca4ebfd56407bfd162bd7df76be98c890e2fbf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2eaa9da579561464c46776662cacaca80dafe016
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517687"
 ---
+# <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a>Lync Server 2013 で許可された外部ドメインのサポートを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-support-for-allowed-external-domains-in-lync-server-2013"></a>Lync Server 2013 で許可された外部ドメインのサポートを構成する
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 
 > [!NOTE]  
-> この手順では、特定のドメインのサポートを構成する方法について説明しますが、フェデレーションユーザーのサポートを実装するには、組織のフェデレーションユーザーのサポートを有効にし、ポリシーを構成して適用して、どのユーザーが操作できるかを制御する必要もあります。フェデレーションユーザーと共同作業を行います。 フェデレーションユーザーのサポートの有効化の詳細については、「 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Lync Server 2013 でのリモートユーザーアクセスの有効化または無効化</A>」を参照してください。 フェデレーションを制御するポリシーの構成の詳細については、「 <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Lync Server 2013 でフェデレーションユーザーアクセスを制御するようにポリシーを構成する</A>」を参照してください。
+> この手順では、特定のドメインのサポートを構成する方法について説明しますが、フェデレーションユーザーのサポートを実装するには、組織のフェデレーションユーザーのサポートを有効にし、ポリシーを構成および適用して、フェデレーションユーザーと共同作業できるユーザーを制御する必要もあります。 フェデレーションユーザーのサポートの有効化の詳細については、「 <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Lync Server 2013 でのリモートユーザーアクセスの有効化または無効化</A>」を参照してください。 フェデレーションを制御するポリシーの構成の詳細については、「 <A href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Lync Server 2013 でフェデレーションユーザーアクセスを制御するようにポリシーを構成する</A>」を参照してください。
 
 
 
@@ -57,13 +59,13 @@ _**トピックの最終更新日:** 2012-10-19_
 
 2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**外部ユーザーアクセス**] をクリックし、[**フェデレーションドメイン**] をクリックします。
+3.  左側のナビゲーションバーで [ **外部ユーザーアクセス**] をクリックし、[ **フェデレーションドメイン**] をクリックします。
 
-4.  [**フェデレーションドメイン**] ページで、[**新規**] をクリックし、[**許可さ**れたドメイン] をクリックします。
+4.  [ **フェデレーションドメイン** ] ページで、[ **新規**] をクリックし、[ **許可さ**れたドメイン] をクリックします。
 
 5.  [**新規フェデレーション ドメイン**] で、次の操作を実行します。
     
-      - [**ドメイン名 (または FQDN)**] で、フェデレーションパートナードメインの名前を入力します。
+      - [ **ドメイン名 (または FQDN)**] で、フェデレーションパートナードメインの名前を入力します。
         
         <div>
         
@@ -76,7 +78,7 @@ _**トピックの最終更新日:** 2012-10-19_
     
       - アクセスエッジサービスを実行している特定のサーバーのユーザーに対して、このフェデレーションドメインのアクセスを制限する場合は、アクセスエッジサービス **(fqdn)** で、アクセスエッジサービスを実行しているフェデレーションドメインのサーバーの fqdn を入力します。
     
-      - 追加情報を提供する場合は、[**コメント**] に、この構成について他のシステム管理者と共有する情報を入力します。
+      - 追加情報を提供する場合は、[ **コメント**] に、この構成について他のシステム管理者と共有する情報を入力します。
 
 6.  [**確定**] をクリックします。
 

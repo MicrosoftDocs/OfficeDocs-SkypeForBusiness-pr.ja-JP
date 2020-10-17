@@ -12,20 +12,22 @@ ms:contentKeyID: 48184540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c5f3cdd8000892886b3273fbb33fc1b1f668e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0cdc05978b6fb8d81c81995d7b089d14ed4bec3b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196240"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516744"
 ---
+# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域ルートの作成または変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域ルートの作成または変更
+
 
 </div>
 
@@ -62,9 +64,9 @@ _**トピックの最終更新日:** 2012-10-08_
     
     </div>
 
-6.  [**ネットワーク地域\#1** ] ドロップダウンリストから、このルートによって接続する2つの地域のいずれかを選択します。
+6.  [ **ネットワーク地域 \# 1** ] ドロップダウンリストから、このルートによって接続する2つの地域のいずれかを選択します。
 
-7.  [**ネットワーク地域\#2** ] ドロップダウンリストから、このルートの他の地域を選択します。 この地域は、[ネットワーク地域\#1 に選択した地域とは別のものにする必要があります。
+7.  [ **ネットワーク地域 \# 2** ] ドロップダウンリストから、このルートの他の地域を選択します。 この地域は、[ネットワーク地域1に選択した地域とは別のものにする必要があり \# ます。
 
 8.  [**ネットワーク地域リンク**] リスト ボックスを使用して、地域リンクをルートに追加します。 [**追加**] ボタンをクリックし、[**地域リンク**] ページを表示します。 このルートに追加する地域リンクをクリックして、[**OK**] をクリックします。
     

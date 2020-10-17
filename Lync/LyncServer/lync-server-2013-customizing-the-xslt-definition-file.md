@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191700"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516634"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Lync Server 2013 での XSLT 定義ファイルのカスタマイズ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Lync Server 2013 での XSLT 定義ファイルのカスタマイズ
+
 
 </div>
 
@@ -112,12 +114,12 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 <tr class="even">
 <td><p>コンテンツ</p></td>
 <td><p>メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。</p></td>
-<td><p>オプション</p></td>
+<td><p>省略可能</p></td>
 </tr>
 <tr class="odd">
 <td><p>ID</p></td>
 <td><p>コンテンツの一意の ID を指定します。この属性は、Type が Chat であるメッセージでのみ使用されます。</p></td>
-<td><p>オプション</p></td>
+<td><p>省略可能</p></td>
 </tr>
 </tbody>
 </table>
@@ -144,7 +146,7 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 <tr class="odd">
 <td><p>ユーザー名</p></td>
 <td><p>送信者の名前。</p></td>
-<td><p>オプション</p></td>
+<td><p>省略可能</p></td>
 </tr>
 <tr class="even">
 <td><p>ID</p></td>
@@ -154,12 +156,12 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 <tr class="odd">
 <td><p>メール</p></td>
 <td><p>送信者の電子メール アドレス。</p></td>
-<td><p>オプション</p></td>
+<td><p>省略可能</p></td>
 </tr>
 <tr class="even">
 <td><p>内部</p></td>
 <td><p>ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを決定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。</p></td>
-<td><p>オプション</p></td>
+<td><p>省略可能</p></td>
 </tr>
 <tr class="odd">
 <td><p>Uri</p></td>
@@ -197,7 +199,7 @@ Message 要素には、2 つの要素 (Sender および DateTimeUTC) と 3 つ�
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>指定項目</p></td>
+<td><p>パーツ</p></td>
 <td><p>ユーザーがチャット ルームから退出しました。</p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 

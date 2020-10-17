@@ -12,20 +12,22 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8272dc0097205749ca3c0e5d613bc3da853fc7ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1478e2b2153c1b6834629ab41ccd6cde5b272430
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191980"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517704"
 ---
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>Lync Server 2013 の監視ノードを構成して、信頼されたサーバー認証を使用する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>Lync Server 2013 の監視ノードを構成して、信頼されたサーバー認証を使用する
+
 
 </div>
 
@@ -87,7 +89,7 @@ Enable-CsTopology の実行後は、コンピューターを再起動するこ�
 
 **既定の証明書を割り当てるには**
 
-1.  [**スタート**]、[**すべてのプログラム**]、[ **Lync Server**]、[ **lync server 展開ウィザード**] の順にクリックします。
+1.  [ **スタート**]、[ **すべてのプログラム**]、[ **Lync Server**]、[ **lync server 展開ウィザード**] の順にクリックします。
 
 2.  Lync Server 展開ウィザードで、[ **Lync Server システムのインストールまたは更新**] をクリックし、[**要求]、[インストール]、または [証明書の割り当て**] の [**実行**] をクリックします。
     
@@ -112,11 +114,11 @@ Enable-CsTopology の実行後は、コンピューターを再起動するこ�
 
 ## <a name="installing-and-configuring-a-watcher-node"></a>監視ノードをインストールおよび構成する
 
-監視ノードコンピューターを再起動し、証明書を構成したら、Watchernode.msi ファイルを実行する必要があります。 (Operations Manager エージェントファイルと Lync Server 2013 コアコンポーネントの両方がインストールされているコンピューターで Watchernode.msi を実行する必要があります)。
+監視ノードコンピューターを再起動し、証明書を構成した後、ファイル Watchernode.msi を実行する必要があります。 (Operations Manager エージェントファイルと Lync Server 2013 コアコンポーネントの両方がインストールされているコンピューターで Watchernode.msi を実行する必要があります)。
 
 **監視ノードをインストールおよび構成するには**
 
-1.  [**スタート**]、[**すべてのプログラム**]、[ **Lync server**]、[ **lync server 管理シェル**] の順にクリックして、Lync server 管理シェルを開きます。
+1.  [ **スタート**]、[ **すべてのプログラム**]、[ **Lync server**]、[ **lync server 管理シェル**] の順にクリックして、Lync server 管理シェルを開きます。
 
 2.  Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します (Watchernode.msi のコピーへの実際のパスを指定します)。
     
@@ -133,7 +135,7 @@ Enable-CsTopology の実行後は、コンピューターを再起動するこ�
 
 上記のコマンドの名前/値ペア Authentication=TrustedServer は大文字と小文字が区別されるので、ここで示すとおりに正確に入力する必要があります。次のコマンドは、大文字と小文字が正しく使用されていないので失敗します。
 
-C:\\Tools\\watchernode.msi authentication = trustedserver
+C: \\ ツール \\Watchernode.msi 認証 = trustedserver
 
 TrustedServer モードは、境界ネットワーク内のコンピューターでのみ使用できます。監視ノードが TrustedServer モードで実行されている場合は、管理者が、コンピューター上のテスト ユーザー パスワードを管理する必要はありません。
 

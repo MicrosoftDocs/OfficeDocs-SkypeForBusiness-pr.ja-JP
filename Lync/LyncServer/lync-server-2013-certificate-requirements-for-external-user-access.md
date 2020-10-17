@@ -12,20 +12,22 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dda45706b8c55bf99120ec3776702060998a6921
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37494b3f8389709681ffc92a17d388b71baddd70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517954"
 ---
+# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 での外部ユーザーアクセスの証明書要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 での外部ユーザーアクセスの証明書要件
+
 
 </div>
 
@@ -41,11 +43,11 @@ Microsoft Lync Server 2013 communications software は、アクセスおよび w
 
 以下に、アクセスおよび Web 会議のエッジ外部インターフェイスで使用されるパブリック証明書、および音声ビデオ認証サービスの要件を示します。
 
-  - 証明書は、サブジェクトの別名をサポートする承認されたパブリック CA によって発行される必要があります。 詳細については、Microsoft サポート技術情報の記事929395「Exchange Server と通信サーバーのための統合コミュニケーション証明[https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)書パートナー」 () を参照してください。
+  - 証明書は、サブジェクトの別名をサポートする承認されたパブリック CA によって発行される必要があります。 詳細については、Microsoft サポート技術情報の記事929395「Exchange Server と通信サーバーのための統合コミュニケーション証明書パートナー」 () を参照してください [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) 。
 
   - 証明書をエッジ プールで使用する場合は、エッジ プール内の各エッジ サーバーで使用される同じ証明書を使用して、エクスポート可能として作成する必要があります。エクスポート可能な秘密キーの要件は音声ビデオ認証サービスのためのもので、プール内のすべてのエッジ サーバーで同じ秘密キーを使用する必要があります。
 
-  - 音声ビデオサービスの稼働時間を最大にする場合は、分離された音声ビデオエッジサービス証明書を実装するための証明書の要件を確認します (つまり、他の外部エッジ証明書の目的からの個別の音声ビデオエッジサービス証明書)。 詳細については、「[変更2013点](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)」を参照してください。エッジサーバーの計画、「lync server [2013 でのエッジサーバー証明書の計画](lync-server-2013-plan-for-edge-server-certificates.md)」、および「Lync server [2013 のステージングの AV および OAuth 証明書を使用した設定-cscertificate」](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)を参照してください。
+  - 音声ビデオサービスの稼働時間を最大にする場合は、分離された音声ビデオエッジサービス証明書を実装するための証明書の要件を確認します (つまり、他の外部エッジ証明書の目的からの個別の音声ビデオエッジサービス証明書)。 詳細については、「 [変更2013点](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)」を参照してください。エッジサーバーの計画、「lync server [2013 でのエッジサーバー証明書の計画](lync-server-2013-plan-for-edge-server-certificates.md) 」、および「Lync server [2013 のステージングの AV および OAuth 証明書を使用した設定-cscertificate」](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)を参照してください。
 
   - 証明書のサブジェクト名は、アクセスエッジサービスの外部インターフェイスの完全修飾ドメイン名 (FQDN) またはハードウェアロードバランサーの VIP (たとえば、access.contoso.com) です。 ). サブジェクト名にワイルドカード文字を使用することはできません。明示的な名前である必要があります。
     
@@ -112,7 +114,7 @@ Microsoft Lync Server 2013 communications software は、アクセスおよび w
 
   - デバイス更新サービスおよび更新の取得への外部デバイス アクセス
 
-リバース プロキシは、内部サーバーの Web コンポーネント URL を発行します。 Web コンポーネントの Url は、トポロジビルダーの**外部 Web サービス**として、ディレクター、フロントエンドサーバー、またはフロントエンドプールで定義されます。
+リバース プロキシは、内部サーバーの Web コンポーネント URL を発行します。 Web コンポーネントの Url は、トポロジビルダーの **外部 Web サービス** として、ディレクター、フロントエンドサーバー、またはフロントエンドプールで定義されます。
 
 リバース プロキシに割り当てられている証明書のサブジェクトの別名フィールドでは、ワイルドカードの入力がサポートされています。 リバースプロキシの証明書要求を構成する方法の詳細については、「 [Lync Server 2013 のリバース HTTP プロキシの証明書を要求および構成](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md)する」を参照してください。
 

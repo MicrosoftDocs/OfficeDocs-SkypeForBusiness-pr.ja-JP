@@ -12,20 +12,22 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e907a8f0c31555763f6563622c4f3916e4a54ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 95f425a461d628ccf7da6021c20b578f639fe605
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202773"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516194"
 ---
+# <a name="delete-an-announcement-in-lync-server-2013"></a>Lync Server 2013 でのアナウンスの削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-announcement-in-lync-server-2013"></a>Lync Server 2013 でのアナウンスの削除
+
 
 </div>
 
@@ -63,7 +65,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
 
     > [!NOTE]  
-    > その他のオプションの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-help アナウンスメント</A>」および「 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-csannouncement</A>」を参照してください。
+    > その他のオプションの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-help アナウンスメント</A> 」および「 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-csannouncement</A>」を参照してください。
 
     
     </div>

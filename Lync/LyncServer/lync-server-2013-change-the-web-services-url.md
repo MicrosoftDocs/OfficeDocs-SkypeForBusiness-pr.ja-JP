@@ -12,20 +12,22 @@ ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94424edc38cf1cc0eacac2638a4ed30a18f06779
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9eb2922913ee95bad11273b2e943812850da4402
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181460"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517820"
 ---
+# <a name="change-the-web-services-url-in-lync-server-2013"></a>Lync Server 2013 で Web サービスの URL を変更する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-the-web-services-url-in-lync-server-2013"></a>Lync Server 2013 で Web サービスの URL を変更する
+
 
 </div>
 
@@ -59,15 +61,15 @@ _**トピックの最終更新日:** 2015-11-16_
 
 2.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-3.  トポロジビルダーのコンソールツリーで、[ **Standard Edition フロントエンドサーバー**]、[ **Enterprise Edition フロントエンドプール**]、[**ディレクトリプール**] の順にクリックし、プール名を選択します。 名前を右クリックし、[**プロパティの編集**]、[ **Web サービス**] の順にクリックします。
+3.  トポロジビルダーのコンソールツリーで、[ **Standard Edition フロントエンドサーバー**]、[ **Enterprise Edition フロントエンドプール**]、[ **ディレクトリプール**] の順にクリックし、プール名を選択します。 名前を右クリックし、[ **プロパティの編集**]、[ **Web サービス**] の順にクリックします。
 
-4.  [**外部 Web サービスの FQDN**] を追加または編集し、[ **OK**] をクリックします。
+4.  [ **外部 Web サービスの FQDN**] を追加または編集し、[ **OK**] をクリックします。
     
     <div>
     
 
     > [!WARNING]  
-    > フロントエンドプールまたはフロントエンドサーバーが複数ある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンドサーバーの外部 Web サービスの FQDN を<STRONG>pool01.contoso.com</STRONG>として定義した場合、別のフロントエンドプールまたはフロントエンドサーバーに<STRONG>pool01.contoso.com</STRONG>を使用することはできません。 ディレクターを展開している場合は、ディレクターまたはディレクタープールに対して定義されている外部 Web サービスの FQDN が、他のすべてのディレクターまたはディレクタープールと、フロントエンドプールまたはフロントエンドサーバーとも一意である必要があります。
+    > フロントエンドプールまたはフロントエンドサーバーが複数ある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンドサーバーの外部 Web サービスの FQDN を <STRONG>pool01.contoso.com</STRONG>として定義した場合、別のフロントエンドプールまたはフロントエンドサーバーに <STRONG>pool01.contoso.com</STRONG> を使用することはできません。 ディレクターを展開している場合は、ディレクターまたはディレクタープールに対して定義されている外部 Web サービスの FQDN が、他のすべてのディレクターまたはディレクタープールと、フロントエンドプールまたはフロントエンドサーバーとも一意である必要があります。
 
     
     </div>
@@ -76,7 +78,7 @@ _**トピックの最終更新日:** 2015-11-16_
 
 6.  環境内のすべての Standard Edition サーバー、フロントエンドプール、およびディレクタープールに対して、これらの手順を繰り返します。
 
-7.  コンソールツリーで、[ **Lync Server 2013**] をクリックし、[**操作**] ウィンドウで [**トポロジの公開**] をクリックします。
+7.  コンソールツリーで、[ **Lync Server 2013**] をクリックし、[ **操作** ] ウィンドウで [ **トポロジの公開**] をクリックします。
 
 リッスンポートと発行ポートを構成する際には、いくつかの要件を認識する必要があります。
 
@@ -97,7 +99,7 @@ _**トピックの最終更新日:** 2015-11-16_
 
   - 公開ポートは、リバースプロキシまたはハードウェアロードバランサー上で、リッスンポートとして構成する必要があります。
 
-  - フロントエンドプール (例には示されていません) の場合、web トラフィックはハードウェアロードバランサーを通過し、送信される内部 SIP プールのトラフィックは DNS ロードバランサーを経由するため、内部 SIP プールの FQDN は内部 web サービスの FQDN とは別のものにする必要があります。. この要件を満たす必要があります。
+  - フロントエンドプール (例には示されていません) の場合、web トラフィックはハードウェアロードバランサーを通過し、内部 SIP プールトラフィックは DNS ロードバランサーを経由するため、内部 SIP プールの FQDN は内部 web サービスの FQDN とは別のものにする必要があります。 この要件を満たす必要があります。
 
   - Lync Server Standard Edition の展開では、このサーバーの負荷分散ができないため、内部 web サービスの FQDN を上書きする必要はありません。
 

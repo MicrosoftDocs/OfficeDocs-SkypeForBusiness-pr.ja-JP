@@ -12,20 +12,22 @@ ms:contentKeyID: 49733822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82520ea030dcfacdea1a5eb13608df8b827fe27a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb7f5df9a734fc248afbe0bf21739b95ecfba285
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190456"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516904"
 ---
+# <a name="create-or-modify-a-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 で会議の構成設定のコレクションを作成または変更する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 で会議の構成設定のコレクションを作成または変更する
+
 
 </div>
 
@@ -102,7 +104,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 3.  左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。
 
-4.  会議の構成の一覧で、変更する構成をクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
+4.  会議の構成の一覧で、変更する構成をクリックし、[ **編集**] をクリックして、[ **詳細の表示**] をクリックします。
 
 5.  [**会議の構成の編集**] で、構成名以外の設定を変更します (構成名は変更不可です)。
 
@@ -114,7 +116,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="creating-new-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して新しい会議構成設定を作成する
 
-会議の構成設定は、Windows PowerShell と新しい-Csの会議構成コマンドレットを使用して、(サイトスコープでのみ) 作成できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+会議の構成設定は、Windows PowerShell と New-CsMeetingConfiguration コマンドレットを使用して、(サイトスコープでのみ) 作成できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -148,7 +150,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 </div>
 
-詳細につい[ては、](https://technet.microsoft.com/library/Gg398065(v=OCS.15)) 「」のヘルプトピックを参照してください。
+詳細につい [ては、](https://technet.microsoft.com/library/Gg398065(v=OCS.15)) 「」のヘルプトピックを参照してください。
 
 </div>
 

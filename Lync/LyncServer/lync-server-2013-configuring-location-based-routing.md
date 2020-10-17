@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 場所に基づくルーティングの構成'
+title: 'Lync Server 2013: Location-Based ルーティングの構成'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b88df8bf0b8362a09ea2e5b779b7fa9d789a0a48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b703aa084204a2c103e02ebff5f913a6647ae94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206363"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517420"
 ---
+# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 での Location-Based ルーティングの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 での場所に基づくルーティングの構成
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42206363"
 
 _**トピックの最終更新日:** 2013-03-12_
 
-Lync Server 2013 CU1、場所に基づくルーティングはエンタープライズ Voip の機能です。 場所に基づくルーティングは、通話が Lync Server 2013 CU1 によってルーティングされる方法を制御する通話管理機能です。 Lync の発信者の場所に基づいて通話を PBX または PSTN の宛先にルーティングできるかどうかに関する制限を適用します。 場所に基づくルーティングでは、発信者のネットワークの場所に基づいて通話の承認ルールが PSTN 通話に適用されます。 発信者の場所は、発信者が接続されているネットワークサブネットに関連付けられているネットワークサイトに基づいて決定されます。 場所に基づくルーティングを構成するには、最初にエンタープライズ Voip を展開してから、ネットワーク地域、サイト、およびサブネットを構成する必要があります。 これにより、場所に基づくルーティングを有効にするための基盤が設定されます。
+Lync Server 2013 CU1、Location-Based ルーティングはエンタープライズ Voip の機能です。 Location-Based ルーティングは、Lync Server 2013 CU1 が通話をルーティングする方法を制御する通話管理機能です。 Lync の発信者の場所に基づいて通話を PBX または PSTN の宛先にルーティングできるかどうかに関する制限を適用します。 Location-Based ルーティングは、発信者のネットワークの場所に基づいて通話承認ルールを PSTN 通話に適用します。 発信者の場所は、発信者が接続されているネットワークサブネットに関連付けられているネットワークサイトに基づいて決定されます。 Location-Based ルーティングを構成するには、最初にエンタープライズ Voip を展開してから、ネットワーク地域、サイト、およびサブネットを構成する必要があります。 これにより Location-Based ルーティングを有効にするための基盤が設定されます。
 
-場所に基づくルーティングを展開する前に、まずエンタープライズ Voip を展開し、ネットワーク地域、サイトを構成して、ネットワークサブネットをネットワークサイトに関連付ける必要があります。 完了したら、場所に基づくルーティングを構成できます。 ネットワーク地域、サイト、およびサブネットを構成する手順については、「 [Lync Server 2013 での高度なエンタープライズ voip 機能の展開](lync-server-2013-deploying-advanced-enterprise-voice-features.md)」を参照してください。
+Location-Based ルーティングを展開する前に、まずエンタープライズ Voip を展開し、ネットワーク地域、サイトを構成し、ネットワークサブネットをネットワークサイトに関連付ける必要があります。 完了したら、Location-Based ルーティングを構成できます。 ネットワーク地域、サイト、およびサブネットを構成する手順については、「 [Lync Server 2013 での高度なエンタープライズ voip 機能の展開](lync-server-2013-deploying-advanced-enterprise-voice-features.md)」を参照してください。
 
-このセクションでは、次の例を使用して、場所に基づくルーティングを構成する手順を説明します。
+このセクションでは、次の例を使用して Location-Based ルーティングを構成する手順を説明します。
 
 ![エンタープライズ Voip の場所に基づくルーティングの例](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "エンタープライズ Voip の場所に基づくルーティングの例")
 
@@ -117,12 +119,12 @@ Lync Server 2013 CU1、場所に基づくルーティングはエンタープラ
 <tbody>
 <tr class="odd">
 <td><p>Lync Server 2013 CU1 プール</p></td>
-<td><p>any</p></td>
+<td><p>任意</p></td>
 <td><p>LS-PL1</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2013 CU1、仲介サーバー</p></td>
-<td><p>any</p></td>
+<td><p>任意</p></td>
 <td><p>PL1</p></td>
 </tr>
 <tr class="odd">
@@ -157,7 +159,7 @@ Lync Server 2013 CU1、場所に基づくルーティングはエンタープラ
 
   - [Lync Server 2013 でのネットワーク地域、サイト、およびサブネットの展開](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
 
-  - [Lync Server 2013 での場所に基づくルーティングの有効化](lync-server-2013-enabling-location-based-routing.md)
+  - [Lync Server 2013 での Location-Based ルーティングの有効化](lync-server-2013-enabling-location-based-routing.md)
 
 </div>
 

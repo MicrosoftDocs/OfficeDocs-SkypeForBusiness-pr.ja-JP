@@ -12,20 +12,22 @@ ms:contentKeyID: 48184453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 007d6b21ab37aee16ae8c98b202bd3900f4dab45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31c2d15b8a50a67b70b320afc8da5dfdc83d2cc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215863"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516094"
 ---
+# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Lync Server 2013 の応答グループアプリケーションの概要
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Lync Server 2013 の応答グループアプリケーションの概要
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**トピックの最終更新日:** 2012-09-11_
 
 Lync Server 2013 では、応答グループを管理するために2つの管理役割を使用できます。応答グループマネージャーと応答グループの管理者。 応答グループ管理者は、応答グループのすべての側面を管理できます。 応答グループマネージャーは、特定の側面のみを管理でき、自分が所有する応答グループに対してのみ管理できます。 エンタープライズ Voip が有効になっているすべてのユーザーに特定の応答グループの制限された責任を委任できるため、新しい管理者の役割によって管理コストを削減することができます。
 
-新しい管理者の役割に対応するために、Lync Server 2013 応答グループアプリケーションでは、管理または非管理の**ワークフローの種類**が導入されています。 次の表では、管理対象の応答グループと非管理対象の応答グループについて説明します。
+新しい管理者の役割に対応するために、Lync Server 2013 応答グループアプリケーションでは、管理または非管理の **ワークフローの種類** が導入されています。 次の表では、管理対象の応答グループと非管理対象の応答グループについて説明します。
 
 ### <a name="managed-and-unmanaged-response-groups"></a>管理対象の応答グループと非管理対象の応答グループ
 
@@ -86,7 +88,7 @@ Lync Server 2013 では、応答グループを管理するために2つの管�
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>マネージ型</p></td>
+<td><p>管理対象</p></td>
 <td><ul>
 <li><p>応答グループ管理者は、管理された応答グループのあらゆる側面を構成できます。</p></li>
 <li><p>応答グループマネージャーは、明示的に割り当てられていない応答グループを表示または変更できません。</p></li>
@@ -118,7 +120,7 @@ Lync Server 2013 では、応答グループを管理するために2つの管�
 <tbody>
 <tr class="odd">
 <td><ul>
-<li><p>エージェント</p></li>
+<li><p>Agents</p></li>
 <li><p>ウェルカム メッセージ</p></li>
 <li><p>応答グループ名</p></li>
 <li><p>説明</p></li>

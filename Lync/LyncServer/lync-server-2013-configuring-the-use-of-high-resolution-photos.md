@@ -12,20 +12,22 @@ ms:contentKeyID: 49733753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a49618cd4039163f22d44f358c29a802037b8b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e817e86d6f05291192593e2345b9e4bc1c0b6db3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209313"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517360"
 ---
+# <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013 で高解像度写真の使用を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-use-of-high-resolution-photos-in-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013 で高解像度写真の使用を構成する
+
 
 </div>
 
@@ -63,13 +65,13 @@ Exchange Web サービスを使用してアクセスされる高解像度写真�
     Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Confirm:$False
     Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 
-前の例の最初のコマンドでは、取得したコマンドレットを使用してファイル C:\\Photos\\の内容を読み取り、そのデータを $photo という名前の変数に格納します。 2番目のコマンドでは、Exchange コマンドレットの設定-UserPhoto を使用して写真をアップロードし、その写真を Ken Myer のユーザーアカウントに添付します。
+前の例の最初のコマンドでは Get-Content コマンドレットを使用して、ファイル C: PhotosKenmyer.jpg の内容を読み取り、 \\ \\ そのデータを $photo という名前の変数に格納します。 2番目のコマンドでは、Exchange コマンドレット Set-UserPhoto を使用して写真をアップロードし、その写真を Ken Myer のユーザーアカウントに添付します。
 
 <div>
 
 
 > [!NOTE]  
-> この例では、Ken Myer の Active Directory 表示名がユーザー アカウントの ID として使用されています。 また、その他の識別子 (ユーザーの SMTP アドレスやユーザー プリンシパル名など) を使用してユーザー アカウントを参照することもできます。 詳細<A href="https://go.microsoft.com/fwlink/p/?linkid=268536">https://go.microsoft.com/fwlink/p/?LinkId=268536</A>については、このコマンドレットのドキュメントを参照してください。
+> この例では、Ken Myer の Active Directory 表示名がユーザー アカウントの ID として使用されています。 また、その他の識別子 (ユーザーの SMTP アドレスやユーザー プリンシパル名など) を使用してユーザー アカウントを参照することもできます。 詳細については、Set-UserPhoto コマンドレットのドキュメントを参照してください。 <A href="https://go.microsoft.com/fwlink/p/?linkid=268536">https://go.microsoft.com/fwlink/p/?LinkId=268536</A>
 
 
 
@@ -79,13 +81,13 @@ Exchange Web サービスを使用してアクセスされる高解像度写真�
 
     Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 
-新しい写真がユーザーアカウントに割り当てられていることを確認するには、Ken Myer が Lync 2013 にログオンし、[**オプション**] を選択して、[**マイピクチャ**] を選択します。 新しくアップロードされた写真が Ken の個人用の写真として表示されるはずです。 また、管理者が Internet Explorer を起動し、次のような URL にアクセスしてユーザーの写真を確認することもできます。
+新しい写真がユーザーアカウントに割り当てられていることを確認するには、Ken Myer が Lync 2013 にログオンし、[ **オプション**] を選択して、[ **マイピクチャ**] を選択します。 新しくアップロードされた写真が Ken の個人用の写真として表示されるはずです。 また、管理者が Internet Explorer を起動し、次のような URL にアクセスしてユーザーの写真を確認することもできます。
 
     https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 
 管理者が Internet Explorer を使用して写真を表示でき、ユーザーが Lync 2013 で写真を表示できない場合は、通常、Exchange Web サービスまたは Exchange 自動検出サービスとの接続の問題が発生しています。
 
-また、Lync 2013 でこの写真を利用できるようにするために、追加の構成は不要です。 その代わりに、アップロードされた写真がすぐに使用可能になり、ユーザーの設定-UserPhoto コマンドレットが実行されます。
+また、Lync 2013 でこの写真を利用できるようにするために、追加の構成は不要です。 その代わりに、アップロードされた写真はすぐに使用可能になり、Set-UserPhoto コマンドレットが実行されます。
 
 </div>
 

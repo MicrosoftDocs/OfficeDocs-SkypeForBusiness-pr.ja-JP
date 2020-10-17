@@ -12,20 +12,22 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87653490036c55a5f8b60925c988775c881a7326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 777d0fdfc8857022c0a54fcb1cd237b90f68d9d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209147"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516644"
 ---
+# <a name="daily-tasks-in-lync-server-2013"></a>Lync Server 2013 の毎日のタスク
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="daily-tasks-in-lync-server-2013"></a>Lync Server 2013 の毎日のタスク
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42209147"
 
 _**トピックの最終更新日:** 2015-01-26_
 
-Lync Server 2013 の展開の可用性と信頼性を確保するために、日常的な日常モニターの一部として、またはシステムの機能にとって非常に重要なテスト要素を使用する必要があります。これには、物理プラットフォーム、オペレーティングシステム、およびすべての重要な Lync Server 2013 サービス。 予防的なメンテナンスと予防的な監視は、Lync Server 2013 の展開に悪影響を及ぼす可能性のある潜在的なエラーや問題を特定するのに役立ちます。
+Lync Server 2013 の展開の可用性と信頼性を確保するために、日常的な日常モニターの一部として、またはシステムの機能にとって非常に重要なテスト要素を使用する必要があります。これには、物理プラットフォーム、オペレーティングシステム、およびすべての重要な Lync Server 2013 サービスが含まれます。 予防的なメンテナンスと予防的な監視は、Lync Server 2013 の展開に悪影響を及ぼす可能性のある潜在的なエラーや問題を特定するのに役立ちます。
 
 Lync Server 2013 の展開の監視では、接続、サービス、サーバーリソース、およびシステムリソースの問題をチェックする必要があります。 Windows Server オペレーティングシステムと System Center Operations Manager、および Lync Server は、Lync Server 組織が円滑に稼働していることを確認するために、多くの監視ツールとサービスを提供します。 これらのテクノロジが一緒に実装されている場合、管理者は問題が発生する前に通知を受け取ることができます。
 
@@ -51,7 +53,7 @@ Lync Server 2013 の展開の監視では、接続、サービス、サーバー
 
 毎日のメンテナンスタスクは、管理チームが組織内の通常のシステム操作の基準または基準を定義または確立したり、異常な動作を検出したりするのを支援します。 管理チームが Lync Server 2013 のインフラストラクチャに関するデータを取得して管理できるようにするには、これらの毎日のメンテナンスタスクを実装することが重要です。
 
-毎日のタスクのパフォーマンスを整理するには、[日単位のタスクチェックリスト](lync-server-2013-operations-checklists.md)を使用します。
+毎日のタスクのパフォーマンスを整理するには、 [日単位のタスクチェックリスト](lync-server-2013-operations-checklists.md)を使用します。
 
 <div>
 

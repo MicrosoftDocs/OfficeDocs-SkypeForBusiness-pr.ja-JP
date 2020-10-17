@@ -12,20 +12,22 @@ ms:contentKeyID: 48184378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2903bd2701ac860232dd73342ed280688feac34b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc006a73e6fcb7036d0085d9c5dcba4d3e21e133
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517834"
 ---
+# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>エッジサーバーの計画に影響する Lync Server 2013 の変更点
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>エッジサーバーの計画に影響する Lync Server 2013 の変更点
+
 
 </div>
 
@@ -115,7 +117,7 @@ Lync Server 2013 における cookie ベースのアフィニティの詳細に�
 
 ## <a name="autodiscover-enhancements"></a>自動検出の拡張
 
-Lync Server 2013 の自動検出機能を使用すると、クライアントは通信に使用できるその他の機能を検索できます。 自動検出は、Lync Server 2010 用の累積的な更新プログラム (2011 年11月、モビリティと Microsoft Lync 2010 Mobile) で初めて導入されました。 自動検出機能 (DNS レコード名 LyncDiscover および LyncDiscoverInternal によっても知られています) を使用すると、クライアントはモビリティサービス (Microsoft Lync 2010 モバイルクライアントの場合)、Microsoft Lync Web App、および Lync Web スケジューラを検索して使用することができます。およびMicrosoft Exchange Server および SharePoint Server との通信。 自動検出は、インフラストラクチャおよび Lync Server 2013 サーバーのセットアップと展開の通常の一部としてインストールされます。 トポロジビルダーおよび Lync Server 展開ウィザードは、Lync Server 2010 の累積的な更新プログラム (11 月 2011) で必要だった構成タスクの大部分を排除します。
+Lync Server 2013 の自動検出機能を使用すると、クライアントは通信に使用できるその他の機能を検索できます。 自動検出は、Lync Server 2010 用の累積的な更新プログラム (2011 年11月、モビリティと Microsoft Lync 2010 Mobile) で初めて導入されました。 自動検出機能 (DNS レコード名 LyncDiscover および LyncDiscoverInternal にも含まれる) を使用すると、クライアントは、mobility services (Microsoft Lync 2010 モバイルクライアントの場合)、Microsoft Lync Web App、および Lync Web スケジューラを検索して使用したり、Microsoft Exchange Server と SharePoint Server との通信を使用したりすることができます。 自動検出は、インフラストラクチャおよび Lync Server 2013 サーバーのセットアップと展開の通常の一部としてインストールされます。 トポロジビルダーおよび Lync Server 展開ウィザードは、Lync Server 2010 の累積的な更新プログラム (11 月 2011) で必要だった構成タスクの大部分を排除します。
 
 </div>
 
@@ -123,7 +125,7 @@ Lync Server 2013 の自動検出機能を使用すると、クライアントは
 
 ## <a name="services-for-mobile-clients"></a>モバイル クライアントに対するサービス
 
-Lync Server 2010 の累積的な更新プログラム (2011 年11月) で導入されました。 lync Server 2013 のモビリティサービスを使用すると、サポートされている Apple iOS、Android、Windows Phone、または Nokia のモバイルデバイスを使用して、Lync Mobile およびタブレットデバイスを実行している携帯電話を利用できます。インスタントメッセージの送受信、連絡先の表示、プレゼンスの表示などのアクティビティ。 また、クリックして会議に参加、勤務先から通話、同一番号接続、ボイス メール、不在着信など、いくつかのエンタープライズ VoIP 機能もサポートされます。
+Lync server 2010 の累積的な更新プログラム (2011 年11月) で導入されました。 lync Mobile およびタブレットデバイスを使用して2013、サポートされている Apple iOS、Android、Windows Phone、または Nokia のモバイルデバイスを使用して、インスタントメッセージの送受信、連絡先の表示、プレゼンスの表示などのアクティビティを実行します。 また、クリックして会議に参加、勤務先から通話、同一番号接続、ボイス メール、不在着信など、いくつかのエンタープライズ VoIP 機能もサポートされます。
 
 <div>
 

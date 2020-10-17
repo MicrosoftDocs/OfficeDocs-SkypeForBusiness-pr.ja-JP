@@ -12,20 +12,22 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58cfee7b89d2e7e66bd39b28a6d3361b4521cdc2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34b6cd21d781f26ca734effd0c574c016aec3266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207573"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517584"
 ---
+# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013 用のオンプレミスパートナーアプリケーションの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Microsoft Lync Server 2013 用のオンプレミスパートナーアプリケーションの構成
+
 
 </div>
 
@@ -85,7 +87,7 @@ OAuthTokenIssuer 証明書を割り当てたら、Microsoft Lync Server 2013 パ
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-コードをコピーした後、を使用してスクリプトを保存します。PS1 ファイルの拡張子 (たとえば、C:\\Scripts\\servertoserverauth. ps1)。 このスクリプトを実行する前に、メタデータ Url https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1とhttp://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx 、Exchange 2013 サーバーおよび SharePoint サーバーで使用されるメタデータ url をそれぞれ置き換える必要があります。 各製品のメタデータ URL を特定する方法については、「Exchange 2013 と SharePoint の製品ドキュメント」を参照してください。
+コードをコピーした後、を使用してスクリプトを保存します。PS1 ファイル拡張子 (たとえば、C: \\ Scripts \\ServerToServerAuth.ps1)。 このスクリプトを実行する前に、メタデータ Url https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 と、 http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx Exchange 2013 サーバーおよび SharePoint サーバーで使用されるメタデータ url をそれぞれ置き換える必要があります。 各製品のメタデータ URL を特定する方法については、「Exchange 2013 と SharePoint の製品ドキュメント」を参照してください。
 
 このスクリプトの最後の行で、Set-CsOAuthConfiguration コマンドレットが次の構文で呼び出されます。
 
@@ -95,7 +97,7 @@ Set-CsOAuthConfiguration を呼び出すときに Realm パラメーターが使
 
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 
-これらの変更を行った後、スクリプトを実行して、Exchange 2013 と SharePoint の両方をパートナーアプリケーションとして構成できるようにするには、Lync Server 2013 管理シェル内からスクリプトファイルを実行します。 次に例を示します。
+これらの変更を行った後、スクリプトを実行して、Exchange 2013 と SharePoint の両方をパートナーアプリケーションとして構成できるようにするには、Lync Server 2013 管理シェル内からスクリプトファイルを実行します。 以下に例を示します。
 
     C:\Scripts\ServerToServerAuth.ps1
 
@@ -107,7 +109,7 @@ Set-CsOAuthConfiguration を呼び出すときに Realm パラメーターが使
 
 このエラー メッセージは、通常は次の 2 つのどちらかを意味します。1) スクリプトに指定されたいずれかの URL が無効である (いずれかのメタデータ URL が実際のメタデータ URL ではない)。または、2) いずれかのメタデータ URL に接続できない。これが発生した場合は、URL が正しいこと、およびアクセス可能であることを確認し、スクリプトを再実行します。
 
-Lync Server 2013 のパートナーアプリケーションを作成した後、Lync Server を Exchange 2013 のパートナーアプリケーションとして構成する必要があります。 スクリプト Configure-EnterprisePartnerApplication を実行して、Exchange 2013 のパートナーアプリケーションを構成できます。必要なのは、Lync Server のメタデータ URL を指定し、Lync Server が新しいパートナーアプリケーションであることを示すことだけです。
+Lync Server 2013 のパートナーアプリケーションを作成した後、Lync Server を Exchange 2013 のパートナーアプリケーションとして構成する必要があります。 スクリプト Configure-EnterprisePartnerApplication.ps1 を実行することによって、Exchange 2013 のパートナーアプリケーションを構成できます。必要なのは、Lync Server のメタデータ URL を指定し、Lync Server が新しいパートナーアプリケーションであることを示すことだけです。
 
 Exchange のパートナーアプリケーションとして Lync Server を構成するには、Exchange 管理シェルを開き、次のようなコマンドを実行します。
 

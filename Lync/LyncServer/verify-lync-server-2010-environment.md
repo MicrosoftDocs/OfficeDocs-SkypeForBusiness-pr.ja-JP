@@ -12,20 +12,22 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72b04170df1a616aec595f72dce74cd15e8059b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a98bdaa5b97193ad20a78939560190a413a87161
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188950"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515974"
 ---
+# <a name="verify-lync-server-2010-environment"></a>Lync Server 2010 環境の確認
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-lync-server-2010-environment"></a>Lync Server 2010 環境の確認
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync server 2010 を使用して Lync Server 2013 を共存状態に展開する
 
 **Lync Server 2010 サービスが開始されていることを確認する**
 
-1.  Lync Server 2010 フロントエンドサーバーから、[管理ツール\\] [サービス] アプレットに移動します。
+1.  Lync Server 2010 フロントエンドサーバーから、[管理ツール] [サービス] アプレットに移動し \\ ます。
 
 2.  次のサービスがフロントエンド サーバーで実行されていることを確認します。
     
@@ -71,7 +73,7 @@ Lync server 2010 を使用して Lync Server 2013 を共存状態に展開する
 
 2.  [**ユーザー**]、[**検索**] の順にクリックします。
 
-3.  [**レジストラープール**] 列が、表示されている各ユーザーの Lync Server 2010 プールを指していることを確認します。
+3.  [ **レジストラープール** ] 列が、表示されている各ユーザーの Lync Server 2010 プールを指していることを確認します。
     
     ![Lync Server 2010 コントロールパネルのユーザー一覧](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010 コントロールパネルのユーザー一覧")
 
@@ -99,7 +101,7 @@ Lync server 2010 を使用して Lync Server 2013 を共存状態に展開する
 
 **レガシ XMPP フェデレーション パートナーの構成を確認する**
 
-1.  従来の XMPP サーバーから、[管理ツール\\] [サービス] アプレットに移動します。
+1.  従来の XMPP サーバーから、[管理ツール] [サービス] アプレットに移動し \\ ます。
 
 2.  Office Communications Server XMPP Gateway サービスが開始されていることを確認します。
     

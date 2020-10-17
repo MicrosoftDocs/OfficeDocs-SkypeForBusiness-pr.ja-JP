@@ -12,20 +12,22 @@ ms:contentKeyID: 48185670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a71d4d2a2ca22ec0852fb09bdfe011c5d934ab3d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46ec34da45e22386d1b6b45528818725b60790f2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214013"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516284"
 ---
+# <a name="delete-an-agent-group-in-lync-server-2013"></a>Lync Server 2013 でエージェントグループを削除する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-agent-group-in-lync-server-2013"></a>Lync Server 2013 でエージェントグループを削除する
+
 
 </div>
 
@@ -49,9 +51,9 @@ _**トピックの最終更新日:** 2012-11-01_
 
 3.  左側のナビゲーション バーで、[**応答グループ**] をクリックし、[**グループ**] をクリックします。
 
-4.  [**応答グループ**] ページで、検索フィールドに削除するエージェントグループの名前の全体または一部を入力します。
+4.  [ **応答グループ** ] ページで、検索フィールドに削除するエージェントグループの名前の全体または一部を入力します。
 
-5.  結果の一覧で、削除するグループをクリックし、[**編集**] をクリックして、[**削除**] をクリックします。
+5.  結果の一覧で、削除するグループをクリックし、[ **編集**] をクリックして、[ **削除**] をクリックします。
 
 6.  **[OK]** をクリックします。
 

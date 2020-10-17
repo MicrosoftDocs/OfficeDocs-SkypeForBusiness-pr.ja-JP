@@ -12,20 +12,22 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5f4e622d71175ec393706af39ce470c5030216a
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f31a765d6b682e504839aa24962356f5524801d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221801"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516524"
 ---
+# <a name="deciding-how-to-deploy-lync-server-2013"></a>Lync Server 2013 の展開方法を決定する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deciding-how-to-deploy-lync-server-2013"></a>Lync Server 2013 の展開方法を決定する
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**トピックの最終更新日:** 2012-10-03_
 
 Lync を計画する場合、最初の主要な決定は、Microsoft Lync の展開方法 (Lync Server 2013 オンプレミス)、またはクラウド内の Lync Online を Microsoft 365 または Office 365 と共に展開することです。
 
-  - **Lync Server 2013 オンプレミス**: これにより、lync のすべての機能セットが提供され、展開の構成、カスタマイズ、および運用を極めて柔軟に行うことができます。 すべてのサーバーはオンサイトでインストールされ、組織によって保守されます。 オンプレミスの展開では、Lync Server のすべての機能が提供されます。
+  - **Lync Server 2013 オンプレミス** : これにより、lync のすべての機能セットが提供され、展開の構成、カスタマイズ、および運用を極めて柔軟に行うことができます。 すべてのサーバーはオンサイトでインストールされ、組織によって保守されます。 オンプレミスの展開では、Lync Server のすべての機能が提供されます。
 
-  - **クラウド内の Lync Online**Lync Online は、Lync Server のビジネスクラス機能を犠牲にせずに、クラウドベースのインスタントメッセージング、プレゼンス、および会議のコストとアジリティのメリットを必要とする組織向けに設計されています。 Lync Online では、Microsoft によって必要なサーバーインフラストラクチャが展開および維持され、継続的なメンテナンス、パッチ、およびアップグレードが処理されます。 オンプレミスの展開で使用できる一部の機能は、Lync Online では使用できません。
+  - **クラウド内の Lync Online** Lync Online は、Lync Server のビジネスクラス機能を犠牲にせずに、クラウドベースのインスタントメッセージング、プレゼンス、および会議のコストとアジリティのメリットを必要とする組織向けに設計されています。 Lync Online では、Microsoft によって必要なサーバーインフラストラクチャが展開および維持され、継続的なメンテナンス、パッチ、およびアップグレードが処理されます。 オンプレミスの展開で使用できる一部の機能は、Lync Online では使用できません。
 
 どちらの種類の展開が最も適しているかは、展開する負荷と、組織の地理的状況およびビジネスの状況によって異なります。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2043c974654ba2a65b3d831cd65fef420e4b5708
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fd362d42dd3d2927b15ff567343c116209a67e7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517364"
 ---
+# <a name="configuring-lync-server-2013-to-work-with-office-web-apps-server"></a>Office Web Apps サーバーで動作するように Lync Server 2013 を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-office-web-apps-server"></a>Office Web Apps サーバーで動作するように Lync Server 2013 を構成する
+
 
 </div>
 
@@ -41,19 +43,19 @@ Office Web Apps サーバーを使用するように Lync Server 2013 を構成�
 
 Office Web Apps サーバーが正常にインストールされ、Web ファームが正しく構成された後、新しいサーバーと通信するように Lync Server を構成する必要があります。これを行うには、Office Web Apps サーバーの検出 URL を Lync Server トポロジに追加します。 Office Web Apps サーバーをトポロジに追加するには、次の手順を実行します。
 
-1.  [**スタート**]、[**すべてのプログラム**]、[ **Microsoft lync Server 2013**]、[ **lync server トポロジビルダー**] の順にクリックします。
+1.  [ **スタート**]、[ **すべてのプログラム**]、[ **Microsoft lync Server 2013**]、[ **lync server トポロジビルダー**] の順にクリックします。
 
 2.  [**トポロジ ビルダー**] ダイアログ ボックスで、[**既存の展開環境からトポロジをダウンロードする**] をクリックし、[**OK**] をクリックします。
 
 3.  [**トポロジに名前を付けて保存**] ダイアログ ボックスで、トポロジ ドキュメントの名前 (例: **PreWebAppsServerTopology**) を [**ファイル名**] ボックスに入力し、[**保存**] をクリックします。新しいトポロジで問題が発生した場合、後でこのトポロジを取得して再発行できます。
 
-4.  トポロジビルダーで、[ **Lync Server 2013**] を展開し、サイトの名前を展開します。次に、[ **Enterprise Edition フロントエンドプール**] を展開して、プールの名前を右クリックし、[**プロパティの編集**] をクリックします。
+4.  トポロジビルダーで、[ **Lync Server 2013**] を展開し、サイトの名前を展開します。次に、[ **Enterprise Edition フロントエンドプール**] を展開して、プールの名前を右クリックし、[ **プロパティの編集**] をクリックします。
 
 5.  [**プロパティの編集**] ダイアログ ボックスの [**全般**] タブで、[**Office Web Apps サーバーの関連付け**] という見出しを探し、[**新規作成**] をクリックします (または、ドロップダウン リストから既存の Office Web Apps サーバーを選択します)。
 
 6.  [**新しい Office Web Apps サーバーの定義**] ダイアログ ボックスで、Office Web Apps サーバー コンピューターの完全修飾ドメイン名 (FQDN) を [**Office Web Apps サーバーの FQDN**] ボックスに入力します。これを行うと、Office Web Apps サーバー検出の URL が [**Office Web Apps サーバー検出の URL**] ボックスに自動的に入力されます。
     
-    Office Web Apps サーバーがオンプレミスでインストールされており、Lync Server 2013 と同じネットワークゾーンにある場合、オプションの**Office Web Apps サーバーは外部ネットワーク (境界/インターネット) に展開**されている必要があります。
+    Office Web Apps サーバーがオンプレミスでインストールされており、Lync Server 2013 と同じネットワークゾーンにある場合、オプションの **Office Web Apps サーバーは外部ネットワーク (境界/インターネット) に展開** されている必要があります。
     
     Office Web Apps サーバーを内部ファイアウォールの外側に展開する場合は、[**Office Web Apps サーバーは外部ネットワークで展開 (境界ネットワークまたはインターネット)**] オプションを選択します。
 

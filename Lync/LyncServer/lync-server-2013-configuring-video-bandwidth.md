@@ -12,20 +12,22 @@ ms:contentKeyID: 48183984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8995f47ff1059921c324d71cbaca26fa47c50ca0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e3e1c4b0dab165c43e873c49039896f0af80f7f3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195650"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516984"
 ---
+# <a name="configuring-video-bandwidth-in-lync-server-2013"></a>Lync Server 2013 でのビデオ帯域幅の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-video-bandwidth-in-lync-server-2013"></a>Lync Server 2013 でのビデオ帯域幅の構成
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 には、2者間通話とマルチパーティ会議のビデ�
 
 会議ポリシーの次の設定を確認します。
 
-  - **VideoBitRateKb**   この設定は、ユーザーによって送信されるビデオに対して使用されるビデオの最大ビットレート (キロビット/秒 (kbps)) を指定します。 既定値は 50000 kbps です。 有効な値は 0 から 50000 です。
+  - **VideoBitRateKb**    この設定では、ユーザーによって送信されるビデオに対して使用されるビデオの最大ビットレート (キロビット/秒 (kbps)) を指定します。 既定値は 50000 kbps です。 有効な値は 0 から 50000 です。
     
     この設定は、メイン ビデオと	パノラマ ビデオに別々に適用されます。
     
@@ -64,7 +66,7 @@ Lync Server 2013 には、2者間通話とマルチパーティ会議のビデ�
     
     </div>
 
-  - **TotalReceiveVideoBitRateKb**   この設定は、Lync Server 2013 で新しく追加されたもので、クライアントが受信するすべてのビデオストリームに対して許可される最大のビットレート (1 秒あたりのビット数) を指定します。 つまり、クライアントが受信できる全ビデオ ストリーム (パノラマ ビデオ ストリームは除く) の合計値を指定します。 たとえば 1500 kbps を指定すると、クライアントは複数のビデオ ストリームまたは単一のビデオ ストリームから構成される最大 1500 kbps のビデオを受信できます。 この設定は、Lync Server 2013 クライアントにのみ適用されます。
+  - **TotalReceiveVideoBitRateKb**    この設定は、Lync Server 2013 で新しく追加されたもので、クライアントが受信するすべてのビデオストリームの最大許容ビットレート (1 秒あたりのキロビット) を指定します。 つまり、クライアントが受信できる全ビデオ ストリーム (パノラマ ビデオ ストリームは除く) の合計値を指定します。 たとえば 1500 kbps を指定すると、クライアントは複数のビデオ ストリームまたは単一のビデオ ストリームから構成される最大 1500 kbps のビデオを受信できます。 この設定は、Lync Server 2013 クライアントにのみ適用されます。
     
     **TotalReceiveVideoBitRateKb** の既定値は 50000 kbps です。ギャラリー ビューの **EnableMultiviewJoin** 設定が True に設定されている場合、**TotalReceiveVideoBitRateKb** を 420 kbps 未満に設定しないようにします。ギャラリー ビューの **EnableMultiviewJoin** 設定が False に設定されている場合、**TotalReceiveVideoBitRateKb** を 100 kbps 未満に設定しないようにします。**EnableMultiviewJoin** が True に設定されており、値を 420 kbps 未満に設定した場合は、既定では、値はしきい値に設定されます。このしきい値によって、ユーザー エクスペリエンスの低下の原因となる予想外の構成ミスを防ぐことができます。
     
@@ -77,7 +79,7 @@ Lync Server 2013 には、2者間通話とマルチパーティ会議のビデ�
     
     </div>
 
-  - **MaxVideoConferencingResolution**   このパラメーターは、lync server 2013 会議の lync server 2013 クライアントでは使用されなくなりました。 Lync Server 2013 会議では、このセクションで前述したビットレートコントロールを使用します。 この設定は、Lync Server 2013 会議に参加しているレガシクライアントでも使用されます。 このパラメーターは、Lync Server 2013 に所属するユーザーが開催する、電話会議のレガシクライアントに許可される最大解像度を指定します。 つまり、従来のクライアントは、以前のバージョンの Lync Server または Office Communications Server と同じように処理されます。
+  - **MaxVideoConferencingResolution**    このパラメーターは、Lync server 2013 会議の Lync Server 2013 クライアントでは使用されなくなりました。 Lync Server 2013 会議では、このセクションで前述したビットレートコントロールを使用します。 この設定は、Lync Server 2013 会議に参加しているレガシクライアントでも使用されます。 このパラメーターは、Lync Server 2013 に所属するユーザーが開催する、電話会議のレガシクライアントに許可される最大解像度を指定します。 つまり、従来のクライアントは、以前のバージョンの Lync Server または Office Communications Server と同じように処理されます。
 
 ユーザーに適用される会議ポリシー設定のほかに、メディア構成設定を評価します。これらの設定を表示または変更するときは、次のコマンドレットの 1 つを使用します。
 
@@ -89,7 +91,7 @@ Lync Server 2013 には、2者間通話とマルチパーティ会議のビデ�
 
 次の設定を確認します。
 
-  - **MaxVideoRateAllowed**   このプール設定では、クライアントエンドポイントでビデオ信号を転送する最大速度を指定します。 これは、以前のバージョンの Lync Server クライアントにのみ適用されます。
+  - **MaxVideoRateAllowed**    このプールごとの設定では、クライアントエンドポイントでビデオ信号を転送する最大速度を指定します。 これは、以前のバージョンの Lync Server クライアントにのみ適用されます。
     
     <div>
     
