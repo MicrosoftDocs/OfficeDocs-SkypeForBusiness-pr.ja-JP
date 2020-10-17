@@ -12,20 +12,22 @@ ms:contentKeyID: 48184304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52815327d185355c6c5762252e4ad9b34e77ea85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8cf9f63fbe5340b3a241fc60b8623f54906dd8cc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515764"
 ---
+# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>Lync Server 2013 で認証済みユーザーのアクセス許可が削除される
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>Lync Server 2013 で認証済みユーザーのアクセス許可が削除される
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197000"
 
 _**トピックの最終更新日:** 2013-02-21_
 
-ロックダウンされた Active Directory 環境では、認証されたユーザーアクセス制御エントリ (Ace) は、ユーザー、構成、システム、および組織単位 (Ou) (ユーザーとコンピューター) を含む既定の Active Directory コンテナーから削除されます。オブジェクトが格納されます。 認証済みユーザー Ace を削除すると、Active Directory 情報への読み取りアクセスが禁止されます。 ただし、Ace を削除すると、ユーザーがドメインの準備を実行できるようにするために、これらのコンテナーに対する読み取りアクセス許可に依存するため、Lync Server 2013 の問題が発生します。
+ロックダウンされた Active Directory 環境では、認証されたユーザーアクセス制御エントリ (Ace) は、ユーザー、構成、システム、およびユーザーとコンピューターオブジェクトが格納される組織単位 (Ou) を含む、既定の Active Directory コンテナーから削除されます。 認証済みユーザー Ace を削除すると、Active Directory 情報への読み取りアクセスが禁止されます。 ただし、Ace を削除すると、ユーザーがドメインの準備を実行できるようにするために、これらのコンテナーに対する読み取りアクセス許可に依存するため、Lync Server 2013 の問題が発生します。
 
 この状況では、ドメインの準備、サーバーのアクティブ化、およびプールの作成を実行するのに必要な Domain Admins グループのメンバーシップに対して、既定のコンテナーに格納されている Active Directory 情報への読み取りアクセスが許可されません。前提条件となるフォレストの準備の手順が完了したかどうかを確認するには、フォレストのルート ドメイン内のさまざまなコンテナーに対する読み取りアクセス許可を手動で与える必要があります。
 
@@ -71,7 +73,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 6.  [**アクセス許可**] タブで [**追加**] をクリックします。
 
-7.  次の形式`domain\account name`を使用して、アクセス許可を受け取るユーザーまたはグループの名前を入力し、[ **OK]** をクリックします。
+7.  次の形式を使用して、アクセス許可を受け取るユーザーまたはグループの名前を入力し、 `domain\account name` [ **OK]** をクリックします。
 
 8.  [**オブジェクト**] タブの [**適用先**] で [**このオブジェクトのみ**] をクリックします。
 

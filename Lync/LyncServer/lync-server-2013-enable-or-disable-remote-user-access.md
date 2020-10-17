@@ -12,20 +12,22 @@ ms:contentKeyID: 48185660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73381280b2d87ff73daa79162571f1f729086b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f02281bdb47fc043d372f5b6e3842a70fe39316
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515554"
 ---
+# <a name="enable-or-disable-remote-user-access-in-lync-server-2013"></a>Lync Server 2013 でのリモートユーザーアクセスを有効または無効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-remote-user-access-in-lync-server-2013"></a>Lync Server 2013 でのリモートユーザーアクセスを有効または無効にする
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 6.  [**確定**] をクリックします。
 
-リモートユーザーが Lync Server を実行しているサーバーにサインインできるようにするには、リモートユーザーアクセスをサポートするために少なくとも1つの外部アクセスポリシーを構成する必要があります。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync Server 2013 でリモートユーザーアクセスを制御するようにポリシーを構成する](lync-server-2013-configure-policies-to-control-remote-user-access.md)」を参照してください。
+リモートユーザーが Lync Server を実行しているサーバーにサインインできるようにするには、リモートユーザーアクセスをサポートするために少なくとも1つの外部アクセスポリシーを構成する必要があります。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync Server 2013 でリモートユーザーアクセスを制御するようにポリシーを構成する](lync-server-2013-configure-policies-to-control-remote-user-access.md) 」を参照してください。
 
 </div>
 
@@ -79,7 +81,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してリモートユーザーアクセスを有効または無効にする
 
-リモートユーザーアクセスを管理するには、Windows PowerShell と Set-csaccessedgeconfiguration コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+リモートユーザーアクセスを管理するには、Windows PowerShell と Set-CsAccessEdgeConfiguration コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

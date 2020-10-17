@@ -12,20 +12,22 @@ ms:contentKeyID: 49733614
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f80192db366f5a691724078ba8f8c6948b3472f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9bd2dd62116f0d48a2a3169c91d8d04486c86418
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202683"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514674"
 ---
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 の SIP トランク構成設定の既存コレクションの削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 の SIP トランク構成設定の既存コレクションの削除
+
 
 </div>
 
@@ -45,7 +47,7 @@ SIP トランクの構成では、仲介サーバーと、公衆交換電話網 
 
   - 各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化を要求するか。
 
-Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。 この設定のグローバル コレクションは削除できません。 ただし、Lync Server コントロールパネルまたは[get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15))コマンドレットを使用して、グローバルコレクションのプロパティを既定値に "リセット" することができます。 たとえば、Enable3pccRefer プロパティを True に設定した場合、グローバル コレクションをリセットすると、Enable3pccRefer プロパティは既定値である False に戻ります。
+Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。 この設定のグローバル コレクションは削除できません。 ただし、Lync Server コントロールパネルまたは [get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) コマンドレットを使用して、グローバルコレクションのプロパティを既定値に "リセット" することができます。 たとえば、Enable3pccRefer プロパティを True に設定した場合、グローバル コレクションをリセットすると、Enable3pccRefer プロパティは既定値である False に戻ります。
 
 管理者がサイト スコープまたはサービス スコープでカスタム トランク構成設定を作成することもできます (個別の PSTN ゲートウェイの場合)。これらのカスタム設定は削除できます。カスタム設定を削除するときは、次の点に注意してください。
 
@@ -57,7 +59,7 @@ Microsoft Lync Server 2013 をインストールすると、SIP トランク構�
 
 ## <a name="to-remove-trunk-configuration-settings-with-lync-server-control-panel"></a>Lync Server コントロールパネルを使用してトランク構成設定を削除するには
 
-1.  Lync Server コントロールパネルで、[**音声のルーティング**] をクリックし、[**トランク構成**] をクリックします。
+1.  Lync Server コントロールパネルで、[ **音声のルーティング** ] をクリックし、[ **トランク構成**] をクリックします。
 
 2.  [**トランク構成**] タブで、削除する SIP トランク構成設定のコレクションを選択し、[**編集**]、[**削除**] の順にクリックします。同じ操作で複数のコレクションを削除するには、削除する最初のコレクションをクリックし、Ctrl キーを押しながら、削除するその他のコレクションをクリックします。
 
@@ -75,7 +77,7 @@ Microsoft Lync Server 2013 をインストールすると、SIP トランク構�
 
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してトランク構成設定を削除する
 
-トランク構成設定は、Windows PowerShell と**get-cstrunkconfiguration**コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+トランク構成設定は、Windows PowerShell と **get-cstrunkconfiguration** コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -107,7 +109,7 @@ Microsoft Lync Server 2013 をインストールすると、SIP トランク構�
 
 </div>
 
-詳細については、 [get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15))コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

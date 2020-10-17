@@ -12,20 +12,22 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91d8f26e0ae1b0777823380ca4888cad4c13ee90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 42d83536b3fac3f4050ce76015ce69a6a28522a9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197020"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514194"
 ---
+# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Lync Server 2013 で Lync for iPhone および iPad をインストールする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Lync Server 2013 で Lync for iPhone および iPad をインストールする
+
 
 </div>
 
@@ -45,9 +47,9 @@ Lync 2013 for iPhone および Lync 2013 for iPad は、ユーザーがインス
 
 ユーザーに対して、Lync 2013 for iPhone および Lync 2013 for iPad をデバイスからアプリストアに送信するように指示することができます。 各デバイスの App Store もオンラインで利用できます。
 
-  - Lync for iPhone は、 \< h<span></span>ttp://www.apple.com/iphone/from-the-app-store/のアプリストアで利用でき >
+  - Lync for iPhone は、ttp://www.apple.com/iphone/from-the-app-store/のアプリストアで利用でき \< h<span> </span> >
 
-  - Lync for iPad は、 \< ht<span></span>tp://www.apple.com/ipad/from-the-app-store/のアプリストアで利用でき >
+  - Lync for iPad は、tp://www.apple.com/ipad/from-the-app-store/のアプリストアで利用でき \< ht<span> </span> >
 
 <div>
 
@@ -56,7 +58,7 @@ Lync 2013 for iPhone および Lync 2013 for iPad は、ユーザーがインス
 > Lync 2013 アプリをインストールしていない場合や、会議出席依頼から Lync 会議に参加しようとしている場合、iPhone のユーザーは [参加ツール] ページにリダイレクトされます。 このページには、Lync 2013 アプリをインストールするためのリンクが含まれています。 ただし、このリンクを指定すると、ユーザーはアプリストアに誘導されるのではなく、空の Safari ブラウザーページが開きます。 ユーザーは、この問題を回避するために、次の2つのことを行うことができます。 
 > <UL>
 > <LI>
-> <P>[<STRONG>ホーム</STRONG>] ボタンを使用して safari ページをバックグラウンドに送信し、再び safari を開きます。 通知 "このページをアプリストアで開く" というメッセージが表示されたら、[<STRONG>開く</STRONG>] をタップして、アプリストアで Lync 2013 download に転送されるようにします。</P>
+> <P>[ <STRONG>ホーム</STRONG> ] ボタンを使用して safari ページをバックグラウンドに送信し、再び safari を開きます。 通知 "このページをアプリストアで開く" というメッセージが表示されたら、[ <STRONG>開く</STRONG> ] をタップして、アプリストアで Lync 2013 download に転送されるようにします。</P>
 > <LI>
 > <P>アプリストアを手動で開き、「Lync 2013」を検索して、アプリをダウンロードします。</P></LI></UL>
 

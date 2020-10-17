@@ -12,20 +12,22 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a65dd081cacd9952ce1b9a7f0917209532a28cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e281b85879063cacb9538d03fe221a4bf96b6bc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204793"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514214"
 ---
+# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元の戦略の確立
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元の戦略の確立
+
 
 </div>
 
@@ -69,15 +71,15 @@ Lync Server のバックアップと復元の計画を作成する前に、組�
 
 ビジネスの優先度とサービスレベル契約によって、Lync Server のバックアップと復元に関する組織の要件を決定することができます。 以下についての要件を特定し、文書化します。
 
-  - **バックアップの頻度バックアップの**   頻度のベストプラクティスの詳細については、「 [Lync Server 2013 のバックアップと復元のベストプラクティス](lync-server-2013-best-practices-for-backup-and-restoration.md)」を参照してください。
+  - **バックアップ**     の頻度バックアップの頻度に関するベストプラクティスの詳細については、「 [Lync Server 2013 のバックアップと復元のベストプラクティス](lync-server-2013-best-practices-for-backup-and-restoration.md)」を参照してください。
 
-  - **バックアップと復元のツール**   には、ツールを使用するユーザーと、どのコンピューターを使用するかが含まれます。 このトピックで説明されているツールおよび必要なアクセス許可の詳細については、「 [Lync Server 2013 のバックアップと復元の要件](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)」を参照してください。ツールとアクセス許可。
+  - **バックアップと復元のツール**    ツールを使用するユーザーと、どのコンピューターを使用するかを含めます。 このトピックで説明されているツールおよび必要なアクセス許可の詳細については、「 [Lync Server 2013 のバックアップと復元の要件](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)」を参照してください。ツールとアクセス許可。
 
-  - **[バックアップの場所**   ] バックアップがローカルで保持されるかリモートで保持されるかを特定し、セキュリティとアクセシビリティを考慮に入れます。 バックアップに使用するメディアを指定します。
+  - **バックアップの場所**    バックアップがローカルまたはリモートのどちらで保持されているかを特定し、セキュリティとアクセシビリティを考慮に入れます。 バックアップに使用するメディアを指定します。
 
-  - **ハードウェア要件およびソフトウェア要件**   バックアップと復元をサポートするために必要な、特定のコンポーネントおよびソフトウェアとネットワーク接続のバックアップの保存と復元のハードウェアなど、特定のハードウェア要件およびソフトウェア要件を特定し、文書化します。 ハードウェアとソフトウェアの要件を開発する際には、次に示すさまざまな復元シナリオを念頭に置いてください。
+  - **ハードウェアとソフトウェアの要件**    バックアップの保存や、バックアップと復元をサポートするために必要なソフトウェアとネットワーク接続のハードウェアなど、特定のハードウェアおよびソフトウェア要件を特定し、文書化します。 ハードウェアとソフトウェアの要件を開発する際には、次に示すさまざまな復元シナリオを念頭に置いてください。
 
-  - **復元シナリオ**   次のシナリオの復元プロセスを示します。
+  - **復元シナリオ**    ここでは、以下のシナリオの復元プロセスについて説明します。
     
       - Lync Server プールで障害が発生します。 このシナリオでは、プール内の各サーバーを構築し直す必要があります。
     

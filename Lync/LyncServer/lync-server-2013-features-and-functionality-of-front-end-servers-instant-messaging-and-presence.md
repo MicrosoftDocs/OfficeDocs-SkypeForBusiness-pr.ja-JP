@@ -12,20 +12,22 @@ ms:contentKeyID: 48183294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab1b2285b80098ec6acf1faad64f21a78472c0b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26f80eb823af5ec50c18390fe2ebca2b25498874
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179654"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515374"
 ---
+# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドサーバー、インスタントメッセージング、およびプレゼンスの特徴と機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドサーバー、インスタントメッセージング、およびプレゼンスの特徴と機能
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179654"
 
 _**トピックの最終更新日:** 2013-03-17_
 
-フロントエンドサーバーは、ほとんどの Lync Server 機能を提供します。 次の2つのエディションがあります。 Lync Server Enterprise Edition は、主に大規模な組織向けに設計されており、主に小規模の組織向けに設計されており、小規模のハードウェア investement を必要とします。高可用性が必要です。 両方のエディションは、IM、プレゼンス、会議、エンタープライズ Voip などのすべての Lync Server ワークロードをサポートしています。
+フロントエンドサーバーは、ほとんどの Lync Server 機能を提供します。 次の2つのエディションがあります。 Lync Server Enterprise Edition は、主に大規模な組織向けに設計されており、主に小規模な組織向けに設計されており、高可用性を必要としない小規模な組織向けに設計されています。 両方のエディションは、IM、プレゼンス、会議、エンタープライズ Voip などのすべての Lync Server ワークロードをサポートしています。
 
 インスタント メッセージング (IM) を使用すると、ユーザーは各自のコンピューターでテキスト ベースのメッセージを使用して、リアルタイムで相互通信を行うことができます。 2 パーティとマルチパーティの両方の IM セッションがサポートされています。 2 パーティの IM 会話の参加者は、3 番目の参加者をいつでも会話に追加できます。 この際には、会議機能をサポートするように会話ウィンドウが変更されます。
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2013-03-17_
 
 </div>
 
-プレゼンス** は、ネットワーク上の他のユーザーの状態に関する情報をユーザーに提供します。 ユーザーのプレゼンス状態からは、他のユーザーがそのユーザーに連絡してもよいかどうかや、連絡する場合にインスタント メッセージング、電話、および電子メールのどれを使用するかを判断するのに役立つ情報を得ることができます。 プレゼンスにより、可能な場合は即時に通信しやすくなりますが、ユーザーが会議中であるかどうかや、外出のために応答できない状況なのかに関する情報も提供されます。 このプレゼンス状態は、Lync などのプレゼンスアイコンとして表示されます。これには、Microsoft Outlook メッセージングおよびコラボレーションクライアント、Microsoft SharePoint テクノロジ、microsoft Word、microsoft Excel スプレッドシートなどのその他のプレゼンスを認識するアプリケーションがあります。ソフトウェア. プレゼンス アイコンからは、そのユーザーの現在の状態と、連絡してもよいかどうかを判別できます。
+プレゼンス** は、ネットワーク上の他のユーザーの状態に関する情報をユーザーに提供します。 ユーザーのプレゼンス状態からは、他のユーザーがそのユーザーに連絡してもよいかどうかや、連絡する場合にインスタント メッセージング、電話、および電子メールのどれを使用するかを判断するのに役立つ情報を得ることができます。 プレゼンスにより、可能な場合は即時に通信しやすくなりますが、ユーザーが会議中であるかどうかや、外出のために応答できない状況なのかに関する情報も提供されます。 このプレゼンス状態は、Lync などのプレゼンスアイコンとして表示されます。これには、Microsoft Outlook メッセージングおよびコラボレーションクライアント、Microsoft SharePoint テクノロジ、microsoft Word、Microsoft Excel スプレッドシートソフトウェアなどの他のプレゼンスを認識するアプリケーションがあります。 プレゼンス アイコンからは、そのユーザーの現在の状態と、連絡してもよいかどうかを判別できます。
 
 </div>
 

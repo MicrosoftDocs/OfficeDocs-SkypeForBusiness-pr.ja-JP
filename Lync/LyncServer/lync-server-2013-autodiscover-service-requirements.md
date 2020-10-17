@@ -12,20 +12,22 @@ ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec6c3ada06312f816a75f5539593336addc8d2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cf4a26c9f0b36cd239daabbc2538716e2bcd3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196980"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515774"
 ---
+# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Lync Server 2013 の自動検出サービスの要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Lync Server 2013 の自動検出サービスの要件
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**トピックの最終更新日:** 2013-02-25_
 
 Microsoft Lync Server 2013 自動検出サービスは、ディレクターおよびフロントエンドプールサーバー上で実行され、DNS で公開されると、Lync Mobile を実行しているモバイルデバイスでモビリティサービスを検索するために使用できます。 Lync Mobile を実行しているモバイルデバイスが自動検出を利用できるようにするには、自動検出を利用する前に、自動検出サービスを実行しているすべてのディレクターおよびフロントエンドサーバーで証明書のサブジェクトの別名の一覧を変更する必要があります。 さらに、リバースプロキシの外部 web サービス公開ルールに使用される証明書のサブジェクトの別名の一覧を変更する必要がある場合があります。
 
-ディレクター、フロントエンドサーバー、およびリバースプロキシに必要なサブジェクトの別名エントリの詳細については、「Planning for Mobility」の「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」を参照してください。
+ディレクター、フロントエンドサーバー、およびリバースプロキシに必要なサブジェクトの別名エントリの詳細については、「Planning for Mobility」の「 [Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md) 」を参照してください。
 
 リバース プロキシでのサブジェクトの別名リストの使用については、自動検出サービスをポート 80 またはポート 443 のどちらで公開するかに基づいて決定します。
 
-  - **ポート 80**   で公開された自動検出サービスへの最初のクエリがポート80経由で行われる場合、証明書の変更は必要ありません。 これは、Lync を実行しているモバイルデバイスがポート80のリバースプロキシに外部でアクセスし、内部でポート8080のディレクターまたはフロントエンドサーバーにリダイレクトされるためです。 詳細については、このトピックの後半の「ポート80を使用した最初の自動検出プロセス」を参照してください。
+  - **ポート 80**     で公開自動検出サービスへの最初のクエリがポート80で行われる場合、証明書の変更は必要ありません。 これは、Lync を実行しているモバイルデバイスがポート80のリバースプロキシに外部でアクセスし、内部でポート8080のディレクターまたはフロントエンドサーバーにリダイレクトされるためです。 詳細については、このトピックの後半の「ポート80を使用した最初の自動検出プロセス」を参照してください。
 
-  - **ポート 443**   で公開されました。外部 web サービス公開ルールで使用される証明書のサブジェクトの別名リストには、lyncdiscover が含まれている必要があり*ます。\<組織\> *内の各 SIP ドメインの microsoft.rtc.management.xds.sipdomain エントリ。
+  - **ポート 443**     で公開外部 web サービス公開ルールで使用される証明書のサブジェクトの別名リストには、lyncdiscover が含まれている必要があり*ます。 \<sipdomain\> * 組織内の各 SIP ドメインのエントリ。
 
 内部証明機関を使用した証明書の再発行は通常、単純なプロセスですが、web サービス公開ルールで使用されるパブリック証明書については、複数のサブジェクトの別名エントリを追加するとコストがかかる場合があります。 この問題を回避するために、ポート80経由の最初の自動検出接続をサポートします。その後、ディレクターまたはフロントエンドサーバーのポート8080にリダイレクトされます。
 
@@ -59,7 +61,7 @@ Microsoft Lync Server 2013 自動検出サービスは、ディレクターお�
 
 2.  外部 DNS は、外部 web サービスの IP アドレスをクライアントに返します。
 
-3.  Lync Mobile を実行しているhttp://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.comモバイルデバイスがリバースプロキシに要求を送信する
+3.  Lync Mobile を実行しているモバイルデバイスが http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com リバースプロキシに要求を送信する
 
 4.  Web 公開ルールは、ポート80からの要求を内部でポート8080にブリッジし、ディレクターまたはフロントエンドサーバーのいずれかにルーティングします。
     
@@ -77,7 +79,7 @@ Microsoft Lync Server 2013 自動検出サービスは、ディレクターお�
     
 
     > [!NOTE]  
-    > 対象の Web サーバーに含まれる証明書に、サブジェクトの別名リストの値として、lyncdiscover.contoso.com に一致する値が含まれない場合:<BR>&nbsp;は、"サーバー Hello" で応答し、証明書を返しませ&nbsp;&nbsp;ん。<BR>b. Lync&nbsp;&nbsp;&nbsp;mobile を実行しているモバイルデバイスは、すぐにセッションを終了します。<BR>対象の Web サーバーに含まれる証明書に、サブジェクトの別名リストの値として、lyncdiscover.contoso.com が含まれる場合:<BR>Web サーバー&nbsp;&nbsp;&nbsp;は、"サーバー hello" と "証明書" で応答します。<BR>b. Lync mobile を実行している&nbsp;モバイルデバイスが証明書を検証し、ハンドシェイクを完了します。&nbsp;&nbsp;
+    > 対象の Web サーバーに含まれる証明書に、サブジェクトの別名リストの値として、lyncdiscover.contoso.com に一致する値が含まれない場合:<BR>a。 &nbsp; &nbsp; &nbsp;Web サーバーは "サーバー Hello" で応答し、証明書は応答しません。<BR>b。 &nbsp; &nbsp; &nbsp;Lync Mobile を実行しているモバイルデバイスは、すぐにセッションを終了します。<BR>対象の Web サーバーに含まれる証明書に、サブジェクトの別名リストの値として、lyncdiscover.contoso.com が含まれる場合:<BR>a。 &nbsp; &nbsp; &nbsp;Web サーバーは、"サーバー hello" と "証明書" で応答します。<BR>b。 &nbsp; &nbsp; &nbsp;Lync Mobile を実行しているモバイルデバイスは、証明書を検証してハンドシェイクを完了します。
 
     
     </div>
@@ -100,7 +102,7 @@ Microsoft Lync Server 2013 自動検出サービスは、ディレクターお�
 
 ## <a name="mobility-for-the-split-domain-deployment"></a>分割ドメイン展開でのモビリティ
 
-共有済みの SIP アドレス スペースは、"分割ドメイン"** または "ハイブリッド展開"** とも呼ばれる構成で、ユーザーは社内展開とオンライン展開をまたいで展開されます。 この構成では、ホーム サーバーの設置場所 (社内またはオンラインのどちらであるか) に関係なく、展開にログインしたユーザーは、そのホーム サーバーの設置場所にリダイレクトされることが望まれます。 これを実現するために、Microsoft Lync Server 2013 の自動検出機能を使用して、オンラインユーザーをオンライントポロジにリダイレクトします。 これを行うには、Lync Server 管理シェルを使用して自動検出の URL (uniform resource locator) を構成し、コマンドレットに **-cshostingprovider**および**Set-cshostingprovider**を使用します。
+共有済みの SIP アドレス スペースは、"分割ドメイン"** または "ハイブリッド展開"** とも呼ばれる構成で、ユーザーは社内展開とオンライン展開をまたいで展開されます。 この構成では、ホーム サーバーの設置場所 (社内またはオンラインのどちらであるか) に関係なく、展開にログインしたユーザーは、そのホーム サーバーの設置場所にリダイレクトされることが望まれます。 これを実現するために、Microsoft Lync Server 2013 の自動検出機能を使用して、オンラインユーザーをオンライントポロジにリダイレクトします。 これを行うには、Lync Server 管理シェルを使用して自動検出の URL (uniform resource locator) を構成し、コマンドレットに **-cshostingprovider** および **Set-cshostingprovider**を使用します。
 
 次の展開属性を収集して記録する必要があります。
 

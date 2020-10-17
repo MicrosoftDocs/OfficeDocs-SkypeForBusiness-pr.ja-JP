@@ -12,20 +12,22 @@ ms:contentKeyID: 48185148
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae7024aa0a9f5c5734762ed0accb6e1dc723f2b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 55c8523fe86cfee7b9e2332e459959b096831abb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205603"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515594"
 ---
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Lync Server 2013 でのネットワークサイト間ポリシーの作成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Lync Server 2013 でのネットワークサイト間ポリシーの作成
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 </div>
 
-North America 地域のトポロジの例では、Reno と Albuquerque のサイト間に直接リンクがあります。 この 2 つのサイトでは、適切な帯域幅ポリシー プロファイルを適用するサイト間ポリシーが必要です。 次の例では、\_20 mb のリンクプロファイルを適用します。
+North America 地域のトポロジの例では、Reno と Albuquerque のサイト間に直接リンクがあります。 この 2 つのサイトでは、適切な帯域幅ポリシー プロファイルを適用するサイト間ポリシーが必要です。 次の例では、20 Mb のリンクプロファイルを適用し \_ ます。
 
 <div>
 

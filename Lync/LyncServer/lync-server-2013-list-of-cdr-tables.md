@@ -12,20 +12,22 @@ ms:contentKeyID: 48183254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ca9fd0b05eba812730c926685fedb244d60a29e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fbcd509d0abd05c12bd3443fe35fdd8c3f8a8885
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186630"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513974"
 ---
+# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Lync Server 2013 の CDR テーブルの一覧
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Lync Server 2013 の CDR テーブルの一覧
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2012-10-18_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-deregistertype-table.md">Lync Server 2013 の DeRegisterType テーブル</a></p></td>
-<td><p>ユーザー &quot;が開始した、&quot; &quot;登録期限切れ&quot; &quot;、クライアントクラッシュなど、ユーザーに対して発生する可能性の&quot;ある登録解除の理由の一覧を格納します。</p></td>
+<td><p>ユーザーが開始した &quot; 、 &quot; &quot; 登録期限切れ、クライアントクラッシュなど、ユーザーに対して発生する可能性のある登録解除の理由の一覧を格納 &quot; &quot; &quot; します。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-medialist-table.md">Lync Server 2013 の MediaList テーブル</a></p></td>
@@ -309,7 +311,7 @@ _**トピックの最終更新日:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Lync Server 2013 の VoipDetails テーブル</a></p></td>
-<td><p>各 2 パーティ VoIP/PSTN 通話について、通話に関する情報を格納します (VoIP 電話の電話 ID、使用されたゲートウェイ、切断したパーティなど)。 通話の開始/終了時刻と応答コードのための<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 の Sessiondetails テーブル</a>を参照します。</p>
+<td><p>各 2 パーティ VoIP/PSTN 通話について、通話に関する情報を格納します (VoIP 電話の電話 ID、使用されたゲートウェイ、切断したパーティなど)。 通話の開始/終了時刻と応答コードのための <a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 の Sessiondetails テーブル</a> を参照します。</p>
 <div>
 
 > [!NOTE]  
@@ -343,7 +345,7 @@ _**トピックの最終更新日:** 2012-10-18_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Lync Server 2013 の場所テーブル</a></p></td>
-<td><p>Enhanced 9-1-1 (E9-1-1) 呼び出しなどの緊急呼び出しごとに、通話に関する場所情報を格納します。 通話の開始/終了時刻と応答コードのための<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 の Sessiondetails テーブル</a>を参照します。</p>
+<td><p>Enhanced 9-1-1 (E9-1-1) 呼び出しなどの緊急呼び出しごとに、通話に関する場所情報を格納します。 通話の開始/終了時刻と応答コードのための <a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 の Sessiondetails テーブル</a> を参照します。</p>
 <div>
 
 > [!NOTE]  

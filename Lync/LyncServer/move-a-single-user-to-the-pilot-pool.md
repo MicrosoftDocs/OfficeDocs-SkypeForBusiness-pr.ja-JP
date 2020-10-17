@@ -12,20 +12,22 @@ ms:contentKeyID: 48185905
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f3bd233f610d340c1854cf18337183e5f988426
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: af6c9892b717b43d3f19804b640245bc8d183b76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514984"
 ---
+# <a name="move-a-single-user-to-the-pilot-pool"></a>1人のユーザーをパイロットプールに移動する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-single-user-to-the-pilot-pool"></a>1人のユーザーをパイロットプールに移動する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755841"
 
 _**トピックの最終更新日:** 2012-09-26_
 
-Lync server 2013 コントロールパネルまたは Lync Server 2013 管理シェルを使用して、ユーザーを lync server 2010 プールから Lync Server 2013 パイロットプールに移動することができます。 次の例では、レジストラープール列の**pool01.contoso.net**は Lync Server 2010 プールで、これらのユーザーの6つすべてがこのプールに接続されています。 Lync Server 2013 コントロールパネルおよび Lync Server 管理シェルを使用して、ユーザーを Lync Server 2013 プールに移動するには、次の手順を使用します。
+Lync server 2013 コントロールパネルまたは Lync Server 2013 管理シェルを使用して、ユーザーを lync server 2010 プールから Lync Server 2013 パイロットプールに移動することができます。 次の例では、レジストラープール列の **pool01.contoso.net** は Lync Server 2010 プールで、これらのユーザーの6つすべてがこのプールに接続されています。 Lync Server 2013 コントロールパネルおよび Lync Server 管理シェルを使用して、ユーザーを Lync Server 2013 プールに移動するには、次の手順を使用します。
 
 <div>
 
@@ -63,7 +65,7 @@ Lync server 2013 コントロールパネルまたは Lync Server 2013 管理シ
     
     ![[ユーザーの移動]、[宛先レジストラープール] ダイアログボックス](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "[ユーザーの移動]、[宛先レジストラープール] ダイアログボックス")  
 
-8.  ユーザーの [**レジストラープール**] 列に Lync Server 2013 プールが含まれるようになっていることを確認します。これは、ユーザーが正常に移動されたことを示します。
+8.  ユーザーの [ **レジストラープール** ] 列に Lync Server 2013 プールが含まれるようになっていることを確認します。これは、ユーザーが正常に移動されたことを示します。
 
 </div>
 
@@ -83,7 +85,7 @@ Lync server 2013 コントロールパネルまたは Lync Server 2013 管理シ
 
 4.  **RegistrarPool** identity は、Lync Server 2013 プールを指すようになります。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。
     
-    ![Id フィルターを使用した、CsUser コマンドレットからの出力](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Id フィルターを使用した、CsUser コマンドレットからの出力")  
+    ![Id フィルターを使用した Get-CsUser コマンドレットからの出力](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Id フィルターを使用した Get-CsUser コマンドレットからの出力")  
     
     <div>
     

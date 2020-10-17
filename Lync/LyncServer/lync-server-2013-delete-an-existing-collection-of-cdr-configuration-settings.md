@@ -12,20 +12,22 @@ ms:contentKeyID: 49733726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1fdfe0829f33061b9af25a6478435964545570d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ebf7ce01e435a0a47d3468509485e96fa669192a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514644"
 ---
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での CDR 構成設定の既存コレクションの削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での CDR 構成設定の既存コレクションの削除
+
 
 </div>
 
@@ -43,13 +45,13 @@ Microsoft Lync Server 2013 をインストールすると、CDR 構成設定の�
 
 なお、"削除" はグローバル設定に対しても実行できます。ただし、グローバル設定は実際には削除されません。代わりに、そのコレクションのすべてのプロパティが既定値にリセットされます。たとえば、既定では CDR 構成設定のコレクションでパージが有効になります。パージが無効になるようにグローバル コレクションを変更すると想定します。後でグローバル設定を削除した場合、すべてのプロパティが既定値にリセットされます。この場合、パージが再び有効になります。
 
-CDR 構成設定は、Lync Server コントロールパネルまたは[set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration)コマンドレットを使用して削除できます。
+CDR 構成設定は、Lync Server コントロールパネルまたは [set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) コマンドレットを使用して削除できます。
 
 <div>
 
 ## <a name="to-remove-cdr-configuration-settings-with-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して CDR 構成設定を削除するには
 
-1.  Lync Server コントロールパネルで、[**監視とアーカイブ**] をクリックします。
+1.  Lync Server コントロールパネルで、[ **監視とアーカイブ**] をクリックします。
 
 2.  [**通話詳細記録**] タブで、削除する CDR 設定のコレクションを 1 つまたは複数選択します。複数のコレクションを選択するには、最初のコレクションをクリックし、Ctrl キーを押しながら他のコレクションをクリックします。
 
@@ -63,7 +65,7 @@ CDR 構成設定は、Lync Server コントロールパネルまたは[set-cscdr
 
 ## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して CDR 構成設定を削除する
 
-通話詳細記録の構成設定は、Windows PowerShell と**set-cscdrconfiguration**コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+通話詳細記録の構成設定は、Windows PowerShell と **set-cscdrconfiguration** コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -95,7 +97,7 @@ CDR 構成設定は、Lync Server コントロールパネルまたは[set-cscdr
 
 </div>
 
-詳細については、 [set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

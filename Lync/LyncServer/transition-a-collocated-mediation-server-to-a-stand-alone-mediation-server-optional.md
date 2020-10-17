@@ -12,20 +12,22 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ce0228edacba502161c4d44a6a94b38cede6655
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 20397cf75b5f1f33004865b7c3ac364b45ed2c66
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755691"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514934"
 ---
+# <a name="transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional"></a>併置された仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional"></a>併置された仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 8.  [**完了**] をクリックして、**新しい仲介プールの定義**ウィザードを閉じます。
 
-9.  [**トポロジビルダー**] で、最上位ノードの [ **Lync Server 2013**] を選択します。
+9.  [ **トポロジビルダー**] で、最上位ノードの [ **Lync Server 2013**] を選択します。
 
 10. [**操作**] ウィンドウで、[**トポロジの公開**] を選択してウィザードを完了します。
 
@@ -71,7 +73,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 14. [**仲介サーバー**] で、[**併置された仲介サーバーが有効**] チェック ボックスをオフにし、[**OK**] をクリックします。
 
-15. [**トポロジビルダー**] で、最上位ノードの [ **Lync Server 2013**] を選択します。
+15. [ **トポロジビルダー**] で、最上位ノードの [ **Lync Server 2013**] を選択します。
 
 16. [**操作**] メニューで、[**トポロジの公開**] を選択してウィザードを完了します。
 

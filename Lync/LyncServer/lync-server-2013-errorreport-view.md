@@ -12,20 +12,22 @@ ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e635cd289f0224a7f8d4106cecc3d8b047e9bb92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8792154c88c74049a785ddfb9ebbca55a52bc26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207534"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514454"
 ---
+# <a name="errorreport-view-in-lync-server-2013"></a>Lync Server 2013 の ErrorReport ビュー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorreport-view-in-lync-server-2013"></a>Lync Server 2013 の ErrorReport ビュー
+
 
 </div>
 
@@ -48,7 +50,7 @@ ErrorReport ビューは、報告されたエラーに関する情報を格納�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>詳細</th>
 </tr>
@@ -77,12 +79,12 @@ ErrorReport ビューは、報告されたエラーに関する情報を格納�
 <tr class="odd">
 <td><p><strong>Fromuritoff</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>エラーを発生させたユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>エラーを発生させたユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromTenant</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>エラーを発生させたユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a>」を参照してください。</p></td>
+<td><p>エラーを発生させたユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToUri</strong></p></td>
@@ -97,7 +99,7 @@ ErrorReport ビューは、報告されたエラーに関する情報を格納�
 <tr class="odd">
 <td><p><strong>すべての Ant</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>エラーレポートを対象とするユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a>」を参照してください。</p></td>
+<td><p>エラーレポートを対象とするユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUri</strong></p></td>
@@ -107,17 +109,17 @@ ErrorReport ビューは、報告されたエラーに関する情報を格納�
 <tr class="odd">
 <td><p><strong>ConferenceUriType</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>エラーレポートのターゲットであった会議の URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>エラーレポートのターゲットであった会議の URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>日付型</p></td>
-<td><p>エラーレポートを生成したセッション要求の時刻。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>エラーレポートを生成したセッション要求の時刻。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
-<td><p>エラーレポートを生成したセッション要求を識別する ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>エラーレポートを生成したセッション要求を識別する ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogId</strong></p></td>
@@ -135,7 +137,7 @@ ErrorReport ビューは、報告されたエラーに関する情報を格納�
 <tr class="even">
 <td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>エラーを発生させたユーザーが使用しているクライアント。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a>」を参照してください。</p></td>
+<td><p>エラーを発生させたユーザーが使用しているクライアント。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientCategory</strong></p></td>
@@ -148,7 +150,7 @@ ErrorReport ビューは、報告されたエラーに関する情報を格納�
 <td><p>エラーを発生させたサーバーの名前 (サーバー コンポーネントからレポートが送信された場合)。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>アプリケーション</strong></p></td>
+<td><p><strong>Application</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>エラーを発生させたアプリケーションの名前 (サーバー コンポーネントからレポートが送信された場合)。</p></td>
 </tr>
@@ -170,7 +172,7 @@ ErrorReport ビューは、報告されたエラーに関する情報を格納�
 <tr class="odd">
 <td><p><strong>CallType</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>セッションの種類。 詳細については、「 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 の CallType テーブル</a>」を参照してください。</p></td>
+<td><p>セッションの種類。 詳細については、「 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 の CallType テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TelemetryId</strong></p></td>
@@ -198,7 +200,7 @@ ErrorReport ビューは、報告されたエラーに関する情報を格納�
 <td><p>エラーに関する追加情報。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Fea-frontend-server-role</strong></p></td>
+<td><p><strong>FrontEnd</strong></p></td>
 <td><p>nvarchar</p></td>
 <td><p>レポートを送信したフロントエンドサーバーの完全修飾ドメイン名。</p></td>
 </tr>

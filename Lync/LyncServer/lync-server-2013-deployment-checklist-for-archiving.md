@@ -12,20 +12,22 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df74bda74f1b9af01e1c4e73fa2f21b7119363f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ccec3917e892d1ba6c3e1841773c77e8c2d015d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514530"
 ---
+# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブの展開チェックリスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブの展開チェックリスト
+
 
 </div>
 
@@ -45,9 +47,9 @@ _**トピックの最終更新日:** 2012-10-18_
 
 アーカイブのセットアップ方法は、選択するストレージ オプションによって異なります。
 
-  - 展開内のすべてのユーザーに対して Microsoft Exchange 統合を使用する場合は、Lync Server 2013 アーカイブポリシーをユーザーに対して構成する必要はありません。 代わりに、exchange 2013 に所属するユーザーのアーカイブをサポートするように Exchange のインプレース保持ポリシーを構成します。メールボックスはインプレース保持に配置されています。 これらのポリシーの構成の詳細については、「Exchange 2013 製品のドキュメント」を参照してください。
+  - 展開内のすべてのユーザーに対して Microsoft Exchange 統合を使用する場合は、Lync Server 2013 アーカイブポリシーをユーザーに対して構成する必要はありません。 代わりに、exchange 2013 に所属するユーザーのアーカイブをサポートするように Exchange In-Place 保持ポリシーを構成します。メールボックスは In-Place 保持に配置されています。 これらのポリシーの構成の詳細については、「Exchange 2013 製品のドキュメント」を参照してください。
 
-  - 展開内のすべてのユーザーに対して Microsoft Exchange 統合を使用しない場合は、Lync Server アーカイブデータベース (SQL Server データベース) をトポロジに追加してから発行し、ユーザーのポリシーと設定を構成する必要があります。その前に、これらのユーザーのデータをアーカイブします。 アーカイブデータベースは、初期トポロジを展開するとき、または少なくとも1つのフロントエンドプールまたは Standard Edition サーバーを展開した後に展開できます。 このドキュメントでは、アーカイブデータベースを既存の展開に追加して展開する方法について説明します。
+  - 展開内のすべてのユーザーに対して Microsoft Exchange 統合を使用しない場合は、Lync Server アーカイブデータベース (SQL Server データベース) をトポロジに追加してから発行し、ユーザーのポリシーと設定を構成してから、それらのユーザーのデータをアーカイブする必要があります。 アーカイブデータベースは、初期トポロジを展開するとき、または少なくとも1つのフロントエンドプールまたは Standard Edition サーバーを展開した後に展開できます。 このドキュメントでは、アーカイブデータベースを既存の展開に追加して展開する方法について説明します。
 
 1 つのフロントエンド プールまたは Standard Edition サーバーでアーカイブを有効にする場合、展開内の他のすべてのフロントエンド プールおよび Standard Edition サーバーに対してアーカイブを有効にする必要があります。これは、通信をアーカイブする必要があるユーザーは、別のプールでホストされるグループ IM 会話やミーティングに招待される可能性があるためです。会話やミーティングがホストされているプールでアーカイブが有効になっていない場合は、完全なセッションをアーカイブすることはできません。このような場合、アーカイブが有効なユーザーの IM はアーカイブできますが、会議コンテンツ ファイルおよび会議参加または退出イベントはアーカイブできません。
 
@@ -115,14 +117,14 @@ _**トピックの最終更新日:** 2012-10-18_
 </tr>
 <tr class="odd">
 <td><p><strong>サーバー間認証を構成する (Microsoft Exchange 統合を使用する場合のみ)</strong></p></td>
-<td><p>Lync Server 2013 と Exchange 2013 の間の認証を有効にするようにサーバーを構成します。 アーカイブを有効にする前に、Exchange アーカイブストレージの接続を検証するには、 <strong>CsExchangeStorageConnectivity testuser_sipUri-フォルダー収集</strong>を実行することをお勧めします。</p></td>
+<td><p>Lync Server 2013 と Exchange 2013 の間の認証を有効にするようにサーバーを構成します。 アーカイブを有効にする前に、Exchange アーカイブストレージの接続を検証するには、 <strong>CsExchangeStorageConnectivity testuser_sipUri-フォルダー収集</strong> を実行することをお勧めします。</p></td>
 <td><p>サーバーで証明書を管理するための適切なアクセス許可のあるアカウント。</p></td>
 <td><p>「展開」のドキュメントまたは「操作」のドキュメントの<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">「Lync server 2013 でのサーバー間認証 (OAuth) およびパートナーアプリケーションの管理」</a>を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>アーカイブ ポリシーと設定の構成</strong></p></td>
-<td><p>アーカイブを構成する (Microsoft Exchange 統合を使用するかどうか、グローバルポリシーとサイトポリシーおよびユーザーポリシーを (すべてのデータ記憶域に対して Microsoft Exchange 統合を使用しない場合)、および特定のアーカイブオプション (重要なモードやデータなど) を含む)。エクスポートと削除。</p>
-<p>Microsoft Exchange 統合を使用する場合は、必要に応じて Exchange のインプレース保持ポリシーを構成します。</p></td>
+<td><p>Microsoft Exchange 統合を使用するかどうか、グローバルポリシーとサイトポリシーおよびユーザーポリシー (すべてのデータ記憶域に対して Microsoft Exchange 統合を使用しない場合)、および特定のアーカイブオプション (重要モード、データエクスポート、削除など) を含め、アーカイブを構成します。</p>
+<p>Microsoft Exchange 統合を使用する場合は、必要に応じて Exchange In-Place 保持ポリシーを構成します。</p></td>
 <td><p>RTCUniversalServerAdmins グループ (Windows PowerShell のみ)。あるいは、CSArchivingAdministrator の役割または CSAdministrator の役割にユーザーを割り当てます。</p></td>
 <td><p>「展開」のドキュメントの「 <a href="lync-server-2013-configuring-support-for-archiving.md">Lync Server 2013 でのアーカイブのサポートの構成</a>」を参照してください。</p>
 <p>Exchange 製品ドキュメント (Microsoft Exchange 統合を使用している場合)。</p></td>

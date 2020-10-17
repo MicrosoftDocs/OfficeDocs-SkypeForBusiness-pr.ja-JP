@@ -12,20 +12,22 @@ ms:contentKeyID: 49733703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5eb0d3d535a4ba5b3e8ffd9a9c712edd601fbbbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 356c418c620cbbf38a97da2df652b5767f9fced9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184900"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515324"
 ---
+# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での SIP トランク構成設定の変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での SIP トランク構成設定の変更
+
 
 </div>
 
@@ -82,7 +84,7 @@ Lync Server コントロールパネルを使用して SIP トランク構成設
 <tr class="even">
 <td><p>暗号化サポート レベル</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は、 <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">get-csmediaconfiguration</a>コマンドレットおよび<a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">get-csmediaconfiguration</a>コマンドレットを使用して設定します。</p>
+<td><p>仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は、 <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">get-csmediaconfiguration</a> コマンドレットおよび <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">get-csmediaconfiguration</a> コマンドレットを使用して設定します。</p>
 <p>有効な値は次のとおりです。</p>
 <ul>
 <li><p>Required: SRTP 暗号化を使用する必要があります。</p></li>
@@ -96,7 +98,7 @@ Lync Server コントロールパネルを使用して SIP トランク構成設
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
 <td><p>[<strong>ゲートウェイへの参照の送信を有効にする</strong>] に設定した場合、トランクが仲介サーバーからの REFER 要求の受信をサポートすることを示します。</p>
-<p>[<strong>サードパーティ通話コントロールを使用する参照を有効にする</strong>] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。 3pcc は、サードパーティ&quot;のコントロールとも&quot;呼ばれ、サードパーティが1組の呼び出し元を接続するために使用される場合 (たとえば、ユーザー a からユーザー B に電話をかけるオペレーターなど) に発生します。</p></td>
+<p>[<strong>サードパーティ通話コントロールを使用する参照を有効にする</strong>] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。 3pcc は、サードパーティのコントロールとも呼ばれ &quot; 、 &quot; サードパーティが1組の呼び出し元を接続するために使用される場合 (たとえば、ユーザー a からユーザー B に電話をかけるオペレーターなど) に発生します。</p></td>
 </tr>
 <tr class="even">
 <td><p>メディアのバイパスを有効にする</p></td>
@@ -171,7 +173,7 @@ Lync Server コントロールパネルを使用して SIP トランク構成設
 
 
 > [!NOTE]  
-> Lync Server Get-cstrunkconfiguration コマンドレットでは、Lync Server コントロールパネルに表示されない追加のプロパティをサポートしています。 詳細については、 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">get-cstrunkconfiguration</A>コマンドレットのヘルプトピックを参照してください。
+> Lync Server Get-cstrunkconfiguration コマンドレットでは、Lync Server コントロールパネルに表示されない追加のプロパティをサポートしています。 詳細については、 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">get-cstrunkconfiguration</A> コマンドレットのヘルプトピックを参照してください。
 
 
 
@@ -181,11 +183,11 @@ Lync Server コントロールパネルを使用して SIP トランク構成設
 
 ## <a name="to-modify-sip-trunk-configuration-settings-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して SIP トランク構成設定を変更するには
 
-1.  Lync Server コントロールパネルで、[**音声ルーティング**] をクリックし、[**トランク構成**] をクリックします。
+1.  Lync Server コントロールパネルで、[ **音声ルーティング**] をクリックし、[ **トランク構成**] をクリックします。
 
 2.  [**トランク構成**] タブで、変更するトランク構成の設定をダブルクリックします。編集できる設定のコレクションは一度に 1 つだけです。複数のコレクションで同じ変更を行う場合は、Windows PowerShell を使用してください。
 
-3.  [**トランク構成の編集**] ダイアログで、適切な選択を行って [ **OK]** をクリックします。
+3.  [ **トランク構成の編集** ] ダイアログで、適切な選択を行って [ **OK]** をクリックします。
 
 4.  コレクションの [**状態**] プロパティが [**コミットされていません**] に更新されます。変更をコミットし、コレクションを削除するには、[**コミット**]、[**すべてコミット**] の順にクリックします。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30fece45c4b13bd9cd2c9243dd21cdac1d779733
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69b9beb119ebd7189c31f9e239ac45409758ba00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204393"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515694"
 ---
+# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオエッジサーバーの Qos (Quality of Service) ポリシーの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオエッジサーバーの Qos (Quality of Service) ポリシーの構成
+
 
 </div>
 
@@ -97,7 +99,7 @@ Active Directory ベースのポリシーを作成する場合は、グループ
 
 2.  [**ファイル名を指定して実行**] ダイアログ ボックスで「**regedit**」と入力し、Enter キーを押します。
 
-3.  レジストリエディターで、[ **HKEY\_LOCAL\_MACHINE**] を展開し、[**システム**] を展開し、[ **CurrentControlSet**] を展開し、[**サービス**] を展開して、[ **Tcpip**] を展開します。
+3.  レジストリエディターで、[ **HKEY \_ LOCAL \_ MACHINE**] を展開し、[ **システム**] を展開し、[ **CurrentControlSet**] を展開し、[ **サービス**] を展開して、[ **Tcpip**] を展開します。
 
 4.  [**Tcpip**] を右クリックし、[**新規**] をポイントして [**キー**] をクリックします。新しいレジストリ キーを作成した後、「**QoS**」と入力して Enter キーを押し、キーの名前を変更します。
 

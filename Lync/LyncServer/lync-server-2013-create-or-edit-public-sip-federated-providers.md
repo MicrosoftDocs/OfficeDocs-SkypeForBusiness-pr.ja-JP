@@ -12,20 +12,22 @@ ms:contentKeyID: 48184167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8a8da9937e31f0544dd93b1994745dc3a9eb10b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 58b0ffdc009d48ef82d1bdf3ba8662cd4072ea1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180174"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514854"
 ---
+# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Lync Server 2013 でのパブリック SIP フェデレーションプロバイダーの作成または編集
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Lync Server 2013 でのパブリック SIP フェデレーションプロバイダーの作成または編集
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180174"
 
 _**トピックの最終更新日:** 2012-10-19_
 
-パブリックインスタントメッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、パブリック IM サービスプロバイダーが提供する IM サービス (Windows Live Messenger\!、YAHOO、AOL など) のユーザーと通信することができます。
+パブリックインスタントメッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、パブリック IM サービスプロバイダーが提供する IM サービス (Windows Live Messenger、Yahoo、AOL など) のユーザーと通信することができ \! ます。
 
 Lync Server 2013 には、America Online、Windows Live、Yahoo 用のパブリックプロバイダー構成があります。\! の各インスタント メッセージングのパブリック プロバイダー構成が含まれています。 各パブリック プロバイダーは、そのプロバイダーのエッジ サーバーの完全修飾ドメイン名と、既定の確認レベルである [**Allow users to communicate only with people on their Contacts list who use this provider**] を指定して構成されています。
 
@@ -61,13 +63,13 @@ Lync Server 2013 には、America Online、Windows Live、Yahoo 用のパブリ�
 
 6.  [**編集 SIP フェデレーション プロバイダー**] ページでは、次の設定を入力または編集できます。
     
-      - **[このプロバイダー**   との通信を有効にする] この設定を選択すると、このプロバイダーのユーザーとの IM が有効になります。
+      - **このプロバイダー**     との通信を有効にするこの設定を選択すると、このプロバイダーのユーザーとの IM が有効になります。
     
-      - **プロバイダー名:**   必要なプロパティ。プロバイダーの名前を入力します。これは、SIP フェデレーションプロバイダーの一覧に反映されます。
+      - **プロバイダー名:**    必要なプロパティ。プロバイダーの名前を入力します。これは、SIP フェデレーションプロバイダーの一覧に反映されます。
     
-      - **アクセスエッジサービス (FQDN):**   必要なプロパティ。構成するプロバイダーのアクセスエッジサービスの完全修飾ドメイン名を入力します。 この情報は既定のアイテムとして提供され、パブリックプロバイダがパブリックプロバイダのアクセスエッジサービスの FQDN に変更を加える場合にのみ変更する必要があります。
+      - **アクセスエッジサービス (FQDN):**    必要なプロパティ。構成するプロバイダーのアクセスエッジサービスの完全修飾ドメイン名を入力します。 この情報は既定のアイテムとして提供され、パブリックプロバイダがパブリックプロバイダのアクセスエッジサービスの FQDN に変更を加える場合にのみ変更する必要があります。
     
-      - **既定の検証レベル:**   既定の設定では、**このプロバイダーを使用するユーザーが連絡先リストにあるユーザーとの通信を許可**します。このプロバイダーを使用すると、承諾した連絡先リストに含まれる連絡先への通信が制限されます。
+      - **既定の確認レベル:**    既定の設定では、**このプロバイダーを使用するユーザーが連絡先リストにあるユーザーとの通信を許可すること**で、承諾した連絡先リストに含まれる連絡先へのコミュニケーションを制限します。
         
         [**Allow users to communicate with everyone using this provider**] を選択すると、連絡先からの招待を受け取って承認しておく必要があるという制限がなくなります。この設定では、パブリック プロバイダーのネットワークからユーザーに連絡できる相手先は制限されません。
 

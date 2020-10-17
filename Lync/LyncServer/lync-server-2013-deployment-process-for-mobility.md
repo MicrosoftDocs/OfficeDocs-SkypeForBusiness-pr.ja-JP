@@ -12,20 +12,22 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c36f8d3ee6e26c00e7686a72e1b68139c1b5ec29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7d0e78cd4a8705178b3704a716846755d5c46f3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514484"
 ---
+# <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Lync Server 2013 でのモビリティの展開プロセス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Lync Server 2013 でのモビリティの展開プロセス
+
 
 </div>
 
@@ -114,9 +116,9 @@ _**トピックの最終更新日:** 2013-02-19_
 <li><p>Lync Server 2013 エッジサーバーの場合は、Lync Server online ホスティングプロバイダーを追加し、ホスティングプロバイダーフェデレーションを構成します。</p></li>
 <li><p>Lync Server 2010 エッジサーバーの場合は、Lync Server online ホスティングプロバイダーを追加し、ホスティングプロバイダーフェデレーションを構成します。</p></li>
 <li><p>Office Communications Server 2007 R2 エッジサーバーの場合は、フェデレーションパートナーを追加します。</p></li>
-<li><p>Wi-fi ネットワーク経由のプッシュ通知をサポートする場合は、TCP ポート5223に対する送信ファイアウォールルールを構成します。</p></li>
-<li><p>Apple Push Notification Service (APNS) および Microsoft プッシュ通知サービス (MPNS) へのプッシュ通知を有効にするには、 <strong>Set-Cspの Notificationconfiguration</strong>コマンドレットを使用します。 既定では、この機能は無効になっています。</p></li>
-<li><p>プッシュ通知をテストするには、 <strong>test-csfederatedpartner</strong>コマンドレットを使用してフェデレーション構成をテストし、 <strong>CsMCXPushNotification</strong>コマンドレットをテストします。</p>
+<li><p>Wi-Fi ネットワーク経由のプッシュ通知をサポートする場合は、TCP ポート5223に対する送信ファイアウォールルールを構成します。</p></li>
+<li><p>Apple Push Notification Service (APNS) および Microsoft プッシュ通知サービス (MPNS) へのプッシュ通知を有効にするには、 <strong>Set-Cspの Notificationconfiguration</strong> コマンドレットを使用します。 既定では、この機能は無効になっています。</p></li>
+<li><p>プッシュ通知をテストするには、 <strong>test-csfederatedpartner</strong> コマンドレットを使用してフェデレーション構成をテストし、 <strong>CsMCXPushNotification</strong> コマンドレットをテストします。</p>
 <div>
 
 > [!NOTE]  

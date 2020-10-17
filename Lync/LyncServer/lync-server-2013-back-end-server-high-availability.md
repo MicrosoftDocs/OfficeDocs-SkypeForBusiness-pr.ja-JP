@@ -12,20 +12,22 @@ ms:contentKeyID: 48185358
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335f7680a98eb53414a8b438975d79327b515946
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f5b2fe64b4f32a43ff1462ab27daef04694c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196970"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515754"
 ---
+# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013 のバックエンドサーバーの高可用性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013 のバックエンドサーバーの高可用性
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2013-08-12_
 
 障害復旧用の別のフロントエンドプールとペアになっているプールで SQL ミラーリングまたは SQL クラスタリングのいずれかを使用する場合は、両方のプールで同じバックエンド高可用性ソリューションを使用する必要があります。 SQL クラスタリングを使用して、プールと SQL ミラーリングを使用してプールをペアにすることはできません。
 
-SQL ミラーリングを展開すると、プール内のすべての Lync Server データベースがミラーリングされます。これには、中央管理ストア (このプールに配置されている場合)、応答グループアプリケーションデータベースおよびコールパークアプリケーションデータベース (それらのアプリケーションの場合) などがあります。がプールで実行されている。
+SQL ミラーリングを展開すると、プール内のすべての Lync Server データベースがミラーリングされます。これには、中央管理ストア (このプールに配置されている場合)、応答グループアプリケーションデータベースおよびコールパークアプリケーションデータベース (それらのアプリケーションがプールで実行されている場合) などがあります。
 
 SQL ミラーリングでは、サーバーに対して共有ストレージを使用する必要はありません。各サーバーは、データベースのコピーをローカル ストレージに保持しします。
 

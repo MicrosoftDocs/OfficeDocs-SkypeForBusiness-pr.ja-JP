@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 場所に基づくルーティングとコンサルティング呼び出しの転送'
+title: 'Lync Server 2013: ルーティングとコンサルティング呼び出しの転送を Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dff8b723889be65f26e2c04d7f6a594515bfd09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 75284736af1307aff4e9c51c8118cf64dbd08568
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186560"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513814"
 ---
+# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Lync Server 2013 でのルーティングおよびコンサルティング呼び出しの転送の Location-Based
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Lync Server 2013 での場所に基づくルーティングおよびコンサルティング呼び出しの転送
+
 
 </div>
 
@@ -37,19 +39,19 @@ ms.locfileid: "42186560"
 
 _**トピックの最終更新日:** 2013-07-31_
 
-場所に基づくルーティングを Lync 会議に適用することに加えて、場所に基づくルーティング会議アプリケーションは、PSTN エンドポイントに出てくるコンサルティング呼び出しの転送に対して、場所に基づくルーティング制限を適用します。 コンサルティング着信転送とは、当事者の一方が新しいユーザーに通話を転送する2つの当事者間で確立された通話のことです。 たとえば、PSTN エンドポイントはユーザー A (Lync 呼び出し先) を呼び出します。 ユーザー A は、PSTN ユーザーが user B (Lync user) に転送される必要があることを決定します。 ユーザー A は、PSTN ユーザーに通話を保留し、ユーザー B を呼び出します。ユーザー B は、PSTN ユーザーに連絡することに同意します。 ユーザー A が通話を保留にして、ユーザー B に転送します。
+Location-Based が Lync 会議にルーティングされるようにすることに加えて、Location-Based ルーティング会議アプリケーションは、PSTN エンドポイントに出てくるコンサルティング呼び出し転送に対して Location-Based ルーティング制限を適用します。 コンサルティング着信転送とは、当事者の一方が新しいユーザーに通話を転送する2つの当事者間で確立された通話のことです。 たとえば、PSTN エンドポイントはユーザー A (Lync 呼び出し先) を呼び出します。 ユーザー A は、PSTN ユーザーが user B (Lync user) に転送される必要があることを決定します。 ユーザー A は、PSTN ユーザーに通話を保留し、ユーザー B を呼び出します。ユーザー B は、PSTN ユーザーに連絡することに同意します。 ユーザー A が通話を保留にして、ユーザー B に転送します。
 
 **コンサルティング呼び出し転送の通話フロー**
 
 ![会議図の場所に基づくルーティング](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "会議図の場所に基づくルーティング")
 
-場所に基づくルーティングが有効になっているユーザーが PSTN エンドポイントのコンサルティング呼び出し転送を開始すると (前の図に示すように)、これにより、2つのアクティブな通話、PSTN ユーザーと Lync ユーザー A の間の1回の呼び出し、および Lync ユーザー A と Lync ユーザー B 間の他の通話が作成されます。場所に基づくルーティング会議アプリケーションによって、次の動作が適用されます。
+Location-Based ルーティングが有効になっているユーザーが PSTN エンドポイントのコンサルティング呼び出し転送を開始すると (前の図に示すように)、これに Location-Based より、2つのアクティブな通話、PSTN ユーザーと Lync ユーザー A の間の通話、および Lync ユーザー A と Lync ユーザー B 間の他の呼び出しが行われます
 
   - PSTN 通話をルーティングする SIP トランクが、Lync ユーザー B (つまり転送先) が配置されているネットワークサイトへの PSTN 通話の再ルーティングを承認されている場合は、呼び出し転送が許可されます。それ以外の場合は、コンサルティング呼び出しの転送がブロックされます。 この認証は、PSTN エンドポイントへのアクティブな通話をルーティングしている SIP トランクと同じネットワークサイトにある、転送先のパーティの場所に基づいて実行されます。
 
-  - 着信 PSTN 通話をルーティングする SIP トランクが、転送先 (Lync ユーザー B) が存在するか、転送先が不明なネットワークサイトに配置されているネットワークサイトへの通話のルーティングを承認されていない場合は、PSTN へのコンサルティングコール転送エンドポイント (つまり、着信転送先) はブロックされます。
+  - 着信 PSTN 通話をルーティングする SIP トランクが、転送先 (Lync ユーザー B) がある、または転送先が不明なネットワークサイトにあるネットワークサイトへの呼び出しをルーティングすることを許可されていない場合は、PSTN エンドポイントへのコンサルティング呼び出し転送 (つまり、通話転送ターゲット) はブロックされます。
 
-次の表に、場所に基づくルーティングの制限が、コンサルティング呼び出しの転送用の場所に基づくルーティング会議アプリケーションによってどのように適用されるかを示します。 PBX エンドポイントはネットワークサイトに直接関連付けられていませんが、PBX に接続されている SIP トランクにはネットワークサイトを割り当てることができます。 そのため、PBX エンドポイントは、ネットワークサイトに間接的に関連付けることができます。
+次の表では、Location-Based ルーティングの制限が、提案型の通話の転送に対して Location-Based ルーティング会議アプリケーションによって適用される方法について説明します。 PBX エンドポイントはネットワークサイトに直接関連付けられていませんが、PBX に接続されている SIP トランクにはネットワークサイトを割り当てることができます。 そのため、PBX エンドポイントは、ネットワークサイトに間接的に関連付けることができます。
 
 
 <table>

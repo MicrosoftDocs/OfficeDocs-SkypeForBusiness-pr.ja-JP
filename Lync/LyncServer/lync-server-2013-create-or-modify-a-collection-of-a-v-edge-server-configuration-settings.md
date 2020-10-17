@@ -12,20 +12,22 @@ ms:contentKeyID: 49733630
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2890dd69b8b5fdff58ed2b047b642456657eb0d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ec601a9c51e1b8d5785e91bae1f1f82c13bf245
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180134"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514774"
 ---
+# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオエッジサーバー構成設定のコレクションの作成または変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオエッジサーバー構成設定のコレクションの作成または変更
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 音声ビデオ エッジ サービスにより、内部ユーザー (組織のネットワークにログオンしているユーザー) は、外部ユーザー (組織のネットワークにログオンしていないユーザー) と音声とビデオを共有することができます。音声ビデオ エッジ サービスは、主に音声ビデオ エッジ構成設定を使用して管理されます。音声ビデオ エッジ構成設定は、サイト スコープまたはサービス スコープで (つまり音声ビデオ エッジ サーバーごとに) 設定できます。
 
-Lync Server をインストールすると、音声ビデオエッジ構成設定のグローバルコレクションが作成されます。 また、Windows PowerShell と Get-csavedgeconfiguration コマンドレットを使用して、サイトスコープまたはサービススコープ (つまり、個々の音声ビデオエッジサーバーの場合) で新しい設定を作成することもできます。 新しい設定を作成する場合は、次のことに留意してください。
+Lync Server をインストールすると、音声ビデオエッジ構成設定のグローバルコレクションが作成されます。 これに加えて、Windows PowerShell と New-CsAVEdgeConfiguration コマンドレットを使用して、サイトスコープまたはサービススコープ (つまり、個々の音声ビデオエッジサーバー) で新しい設定を作成することもできます。 新しい設定を作成する場合は、次のことに留意してください。
 
   - サービス スコープで (つまり個々のサーバーに) 構成された設定は、すべてに優先されます。
 
@@ -47,7 +49,7 @@ Lync Server をインストールすると、音声ビデオエッジ構成設�
 
   - 個々のサーバーでサービス設定が構成されていない場合、およびサーバーが配置されているサイトにサイト設定が存在しない場合に限り、グローバル スコープの設定が使用されます。
 
-すべての設定は、Set-CsAVEdgeConfiguration コマンドレットを使用して変更できます。 詳細については、 [get-csavedgeconfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))および[get-csavedgeconfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))コマンドレットのヘルプトピックを参照してください。
+すべての設定は、Set-CsAVEdgeConfiguration コマンドレットを使用して変更できます。 詳細については、 [get-csavedgeconfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15)) および [get-csavedgeconfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15)) コマンドレットのヘルプトピックを参照してください。
 
 <div>
 

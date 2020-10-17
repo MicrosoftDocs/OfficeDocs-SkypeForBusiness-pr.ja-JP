@@ -12,20 +12,22 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1af9c2d6b651fd127986d89d521e99745e1af384
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72e8c3d0fd254ba780b91d554402ca38d30f7073
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515564"
 ---
+# <a name="create-network-region-links-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域リンクの作成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-region-links-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域リンクの作成
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
   - [-CsNetworkRegionLink の削除](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
 
-トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 これらの地域リンクは、「計画」のドキュメントの「地域リンクの帯域幅情報の表」に記載されているように、WAN 帯域幅によって制限されます。「計画」のドキュメントの「 [Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
+トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 これらの地域リンクは、「計画」のドキュメントの「地域リンクの帯域幅情報の表」に記載されているように、WAN 帯域幅によって制限されます。「計画」のドキュメントの「 [Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) 」を参照してください。
 
 <div>
 
@@ -83,9 +85,9 @@ _**トピックの最終更新日:** 2012-10-19_
 
 5.  [**新しい地域リンク**] ページで、[**名前**] をクリックし、ネットワーク地域リンクの名前を入力します。
 
-6.  [**ネットワーク地域\#1**] をクリックし、一覧でネットワーク地域\#2 にリンクするネットワーク地域をクリックします。
+6.  [ **ネットワーク地域 \# 1**] をクリックし、一覧でネットワーク地域2にリンクするネットワーク地域をクリックし \# ます。
 
-7.  [**ネットワーク地域\#2**] をクリックし、一覧でネットワーク地域\#1 にリンクするネットワーク地域をクリックします。
+7.  [ **ネットワーク地域 \# 2**] をクリックし、一覧でネットワーク地域1にリンクするネットワーク地域をクリックし \# ます。
 
 8.  オプションで、[**帯域幅ポリシー**] をクリックし、ネットワーク地域リンクに適用する帯域幅ポリシーのプロファイルを選択します。
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541499
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b08b2588ea7510bf2a6ac2de544d0dce7b0fe134
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 64d9842ccb9d83fb7ce81c326008e36722e45764
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514224"
 ---
+# <a name="establishing-a-backup-and-restoration-plan-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元の計画を立てる
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="establishing-a-backup-and-restoration-plan-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元の計画を立てる
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2013-02-17_
 
 ## <a name="developing-a-backup-and-restoration-plan"></a>バックアップと復元の計画を作成する
 
-Lync Server のバックアップと復元の戦略を作成したら、それを使用して詳細なバックアップと復元の計画を文書化します。 プランでは、データと設定のバックアップに関する優先順位と要件を明確に伝える必要があります。 「Lync server [2013 のバックアップと](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)復元の戦略の確立」および「 [lync Server 2013 のバックアップと復元](lync-server-2013-backup-and-restoration-worksheets.md)のワークシート」の情報を使用して、戦略のドキュメントを容易に確認できます。 プランには、サービスをいつどのように復元するかを決定するための基準も含める必要があります。
+Lync Server のバックアップと復元の戦略を作成したら、それを使用して詳細なバックアップと復元の計画を文書化します。 プランでは、データと設定のバックアップに関する優先順位と要件を明確に伝える必要があります。 「Lync server [2013 のバックアップと](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) 復元の戦略の確立」および「 [lync Server 2013 のバックアップと復元](lync-server-2013-backup-and-restoration-worksheets.md) のワークシート」の情報を使用して、戦略のドキュメントを容易に確認できます。 プランには、サービスをいつどのように復元するかを決定するための基準も含める必要があります。
 
 計画を策定する際には、次のことを考慮し、考慮する必要があります。
 
@@ -129,7 +131,7 @@ Lync Server のバックアップと復元の戦略を作成したら、それ�
 
 バックアップと復元の計画には、サービスの復元に必要なすべての情報を含める必要があります。1つまたは複数のサーバーで障害が発生し、サービスを利用できない場合があります。 チームのメンバーに伝達される主要な情報には、以下が含まれます。
 
-  - サービスの復元が必要かどうかを決定するチームまたは担当者 (個人または役割として指定されたもの) と、サービスの復元に使用する手順、および各の手順を実装するチームまたは担当者。復元シナリオ。
+  - サービスの復元が必要かどうかを決定するチームまたは担当者 (個人または役割として指定されたもの) と、サービスの復元に使用する手順、および各復元シナリオの手順を実装するチームまたは担当者。
 
   - 特定の状況に最も適した復元手順を決定するための条件です。
 
@@ -137,7 +139,7 @@ Lync Server のバックアップと復元の戦略を作成したら、それ�
 
   - 使用する復元手順 (各手順を完了するために必要なツールを含む)。
 
-  - データと設定を復元するために必要な情報。 ワークシートについては[、「Lync Server 2013 のバックアップと復元のワークシート](lync-server-2013-backup-and-restoration-worksheets.md)」をご用意しています。
+  - データと設定を復元するために必要な情報。 ワークシートについては [、「Lync Server 2013 のバックアップと復元のワークシート](lync-server-2013-backup-and-restoration-worksheets.md)」をご用意しています。
 
 </div>
 
@@ -153,7 +155,7 @@ Lync Server のバックアップと復元の戦略を作成したら、それ�
 
   - 復元手順は、バックアップと復元の計画で指定された RTO (目標復旧時間) の期間内に実行でき、結果はすべてのビジネス要件を満たします。
 
-  - バックアップワークシートが完成し、確認されており、安全な場所に格納されています。 これらのワークシートは[、Lync Server 2013 のバックアップと復元のワークシート](lync-server-2013-backup-and-restoration-worksheets.md)に用意されています。
+  - バックアップワークシートが完成し、確認されており、安全な場所に格納されています。 これらのワークシートは [、Lync Server 2013 のバックアップと復元のワークシート](lync-server-2013-backup-and-restoration-worksheets.md)に用意されています。
 
   - バックアップと復元の計画で指定されているように、復元手順はテスト済みで、予想どおりに動作することが確認されています。
 

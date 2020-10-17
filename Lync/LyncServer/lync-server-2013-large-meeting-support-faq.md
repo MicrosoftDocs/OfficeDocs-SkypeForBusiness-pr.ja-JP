@@ -12,20 +12,22 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bcb5e8ecf3843a8997daa818ed75b33162cfb70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28d25c317aa672b56f244fafefc8d96b0c31bc33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186700"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514004"
 ---
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Lync Server 2013 の大規模会議のサポートに関する FAQ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Lync Server 2013 の大規模会議のサポートに関する FAQ
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-10-22_
 
 ## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a>Q: 大規模な会議には、最大何名のユーザーが参加できますか?
 
-Lync Server ユーザーモデルでは、共有プールのユーザー数が250の場合、または大規模な会議専用のプールでは1000ユーザーの制限が指定されていますが、これらの番号は、テストで使用した特定のハードウェアセットに対してのみ、テストしたユーザーの数のみを表します。 テストに基づいて、これらの制限を最大サイズにすることをお勧めします。 ただし、Lync Server 管理シェルで Windows PowerShell コマンドレットを使用して構成するか、Lync Server を使用して構成する会議ポリシーを構成することによって、組織内の会議に許可される実際の参加者数を制御します。コントロールパネル)。 電話会議ポリシーで指定する番号は、1から4294967295までの任意の32ビットの整数にすることができますが、推奨サイズは 2 ~ 250 の参加者を含みます。既定値は250です。
+Lync Server ユーザーモデルでは、共有プールのユーザー数が250の場合、または大規模な会議専用のプールでは1000ユーザーの制限が指定されていますが、これらの番号は、テストで使用した特定のハードウェアセットに対してのみ、テストしたユーザーの数のみを表します。 テストに基づいて、これらの制限を最大サイズにすることをお勧めします。 ただし、1つ以上の会議ポリシーを構成することによって、組織内の会議で許可される実際の参加者数を制御できます (Lync Server 管理シェルで Windows PowerShell コマンドレットを使用して構成するか、Lync Server コントロールパネルを使用します)。 電話会議ポリシーで指定する番号は、1から4294967295までの任意の32ビットの整数にすることができますが、推奨サイズは 2 ~ 250 の参加者を含みます。既定値は250です。
 
 </div>
 
@@ -75,7 +77,7 @@ Lync Server ユーザーモデルでは、共有プールのユーザー数が25
 
 ## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a>Q: 大規模な会議でグループインスタント メッセージング (IM) を使用できますか?
 
-はい。 しかし、多数のインスタント メッセージが (特に、多数の会議の参加者によって) 送信されたとき、IM ウィンドウですばやくテキストをスクロールする際に問題が発生し、ユーザー エクスペリエンスに悪影響を及ぼすことがあります。 また、最大 1000 ユーザーが大量のインスタント メッセージを送信すると、サーバーに大きな負荷がかかり、パフォーマンスに悪影響を及ぼすことがあります。 一般的に、IM は質問と回答にのみ必要です\&(Q As)。
+はい。 しかし、多数のインスタント メッセージが (特に、多数の会議の参加者によって) 送信されたとき、IM ウィンドウですばやくテキストをスクロールする際に問題が発生し、ユーザー エクスペリエンスに悪影響を及ぼすことがあります。 また、最大 1000 ユーザーが大量のインスタント メッセージを送信すると、サーバーに大きな負荷がかかり、パフォーマンスに悪影響を及ぼすことがあります。 一般的に、IM は質問と回答にのみ必要です (Q \& As)。
 
 </div>
 

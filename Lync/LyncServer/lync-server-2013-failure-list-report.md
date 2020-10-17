@@ -12,20 +12,22 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 010e8314eb7d2cbb33354461bdc2a1eb2c5b2cf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 467dbfe14cbcbe7a032439fd437d3ce2c58c6d46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515384"
 ---
+# <a name="failure-list-report-in-lync-server-2013"></a>Lync Server 2013 のエラーリストレポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a>Lync Server 2013 のエラーリストレポート
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**トピックの最終更新日:** 2012-07-02_
 
   - [送信元ユーザー エージェント] (セッション)
 
-エラーリストレポートでは、ピアツーピアセッションのセッション詳細指標をクリックすることによって、 [Lync Server 2013 のピアツーピアセッション詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md)にアクセスできます。 また、電話会議の電話会議の指標をクリックすると、会議詳細レポートにもアクセスできます。
+エラーリストレポートでは、ピアツーピアセッションのセッション詳細指標をクリックすることによって、 [Lync Server 2013 のピアツーピアセッション詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md) にアクセスできます。 また、電話会議の電話会議の指標をクリックすると、会議詳細レポートにもアクセスできます。
 
 </div>
 
@@ -73,7 +75,7 @@ _**トピックの最終更新日:** 2012-07-02_
 
 Internal server error creating media for user. (ユーザーのメディアの作成中に内部サーバー エラーが発生しました。)
 
-エラーリストレポートには、少なくとも1つの失敗したセッションに参加したすべてのユーザーの一覧を直接取得する簡単な方法が提供されているわけではないことに注意してください。また、最も多く使用して失敗したユーザーを特定する方法も提供していません。セッション. (1 つは、エラーリストレポートにはフィルター機能がありません)。ただし、データをエクスポートしてからコンマ区切り値ファイルに変換する場合は、Windows PowerShell を使用して、これらの質問に対する答えを見つけることができます。 たとえば、データをに保存するとします。C:\\データ\\エラー\_リスト .csv という名前の csv ファイル。 このコマンドは、そのファイルに保存されているデータに基づいて、少なくとも1つの失敗したセッションに参加したすべてのユーザーを一覧表示します。
+エラーリストレポートには、少なくとも1つの失敗したセッションに参加したすべてのユーザーの一覧を直接取得する簡単な方法が用意されているわけではありません。また、失敗したセッションに最も多く使用されているユーザーを特定することもできない点に注意する必要があります。 (1 つは、エラーリストレポートにはフィルター機能がありません)。ただし、データをエクスポートしてからコンマ区切り値ファイルに変換する場合は、Windows PowerShell を使用して、これらの質問に対する答えを見つけることができます。 たとえば、データをに保存するとします。C: \\ データエラーList.csv という名前の CSV ファイル \\ \_ 。 このコマンドは、そのファイルに保存されているデータに基づいて、少なくとも1つの失敗したセッションに参加したすべてのユーザーを一覧表示します。
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
@@ -151,7 +153,7 @@ Internal server error creating media for user. (ユーザーのメディアの�
 <td><p>会議にエラーが発生したときに送信された SIP 応答コードです。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>診断 ID</strong></p></td>
+<td><p>[<strong>診断 ID</strong>]</p></td>
 <td><p>いいえ</p></td>
 <td><p>エラーのトラブルシューティングに役立つ情報を得られることが多い、SIP メッセージに添付された一意の識別子です (ms-diagnostics ヘッダーの形式)。</p></td>
 </tr>

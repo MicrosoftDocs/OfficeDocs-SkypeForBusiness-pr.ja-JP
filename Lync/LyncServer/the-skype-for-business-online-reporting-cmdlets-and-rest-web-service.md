@@ -12,20 +12,22 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f40d394ba69cf017c11d4eb6cd57246a9d425c0f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f92f2be5987ad6ffc76d19e7ccad81da4115487a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755701"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514954"
 ---
+# <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a>Skype for Business Online のレポートコマンドレットと REST web サービス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a>Skype for Business Online のレポートコマンドレットと REST web サービス
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2014-09-05_
 
 ほとんどの管理者は、Microsoft 365 管理センターで利用可能なレポートを使用します。これらのレポートは自動生成されるだけでなく、レポート作成コマンドレットによって返される生の数値よりも簡単に解釈できるデータをグラフィカルに表示します。 ただし、Windows PowerShell を使い慣れている管理者は、レポート作成コマンドレットを使用して、Lync Online レポートからすぐに利用できないデータを返すことができます。 たとえば、レポートコマンドレットは、セッション時間 (各セッションが持続する時間) に関する情報を返します。 各セッション期間は、Lync Online レポートを使用して使用することはできません。 同様に、毎日表示される Lync Online レポートには、過去14日間の情報のみが表示されます。 日単位の合計 (たとえば、4か月前の日付) を確認したい場合は、レポート作成コマンドレットを使用します。
 
-また、管理者は[excel を使用して office 365 レポートデータを取得](https://msdn.microsoft.com/library/dn781442.aspx)することもできます。この記事では、Microsoft Excel の OData データ照会機能を使用してカスタムの office 365 レポートを作成する方法について説明します。 カスタムレポートを使用すると、Office 365 reporting service から返されるデータ (およびデータ量) を指定できます。 また、カスタムレポートを使用すると、データの並べ替えやグループ化の方法を指定したり、管理センターに表示されていない情報へのアクセスを提供したりすることもできます。
+また、管理者は [excel を使用して office 365 レポートデータを取得](https://msdn.microsoft.com/library/dn781442.aspx)することもできます。この記事では、Microsoft Excel の OData データ照会機能を使用してカスタムの office 365 レポートを作成する方法について説明します。 カスタムレポートを使用すると、Office 365 reporting service から返されるデータ (およびデータ量) を指定できます。 また、カスタムレポートを使用すると、データの並べ替えやグループ化の方法を指定したり、管理センターに表示されていない情報へのアクセスを提供したりすることもできます。
 
 開発のバックグラウンドを備えた管理者は、REST web サービスを使用して、Skype for Business Online 管理センターに表示されていない情報を取得することができます。 REST サービスは SOAP サービスに似ていますが、各テクノロジでクライアントとサーバーの間で XML データを転送する方法が提供されています。 ただし、REST サービスには、SOAP サービスよりも少なくとも2つの利点があります。 1つの場合、REST は ATOM シンジケーション形式という標準形式を使用して XML データ転送を実行します。 対照的に、データを転送するときに、非標準形式を使用する SOAP。 また、REST は、GET と POST 以外の HTTP 動詞をブロックするネットワーク間でデータを転送することができます。
 

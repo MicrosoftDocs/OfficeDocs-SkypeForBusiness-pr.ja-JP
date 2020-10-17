@@ -12,20 +12,22 @@ ms:contentKeyID: 51803949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 685b3e34c0f2bd5392f71899564d0738e814b616
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 576daa823dfd5bb8e6e7eb8c6bedeaa689780dbe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514464"
 ---
+# <a name="delete-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新ログファイルの削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新ログファイルの削除
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 3.  **[デバイス ログ構成]** ページで、変更する構成をダブルクリックします。
 
-4.  [**ログ設定の編集**] ダイアログボックスの [**ログファイルを保持する日数 (1-365)**] で、日数を指定します。
+4.  [ **ログ設定の編集** ] ダイアログボックスの [ **ログファイルを保持する日数 (1-365)**] で、日数を指定します。
 
 5.  [**確定**] をクリックします。 指定した日数を超えるまでサーバー上に存在していたすべてのファイルが削除されます。 この設定は、変更するまでこの構成に適用されます。
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="clearing-the-device-update-log-by-using-the-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してデバイス更新ログをクリアする
 
-Windows PowerShell を使用してデバイス更新ログをクリアすることができます。また、 **CsDeviceUpdateLog**コマンドレットを使用することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+Windows PowerShell を使用してデバイス更新ログをクリアすることができます。また、 **CsDeviceUpdateLog** コマンドレットを使用することもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -91,7 +93,7 @@ Windows PowerShell を使用してデバイス更新ログをクリアするこ�
 
 </div>
 
-詳細につい[ては、](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog) 「」のヘルプトピックを参照してください。
+詳細につい [ては、](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog) 「」のヘルプトピックを参照してください。
 
 </div>
 

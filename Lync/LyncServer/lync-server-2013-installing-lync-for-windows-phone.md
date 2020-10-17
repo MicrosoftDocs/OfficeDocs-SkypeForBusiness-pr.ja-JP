@@ -12,20 +12,22 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de018fee2d4e9906c8eee3bd59ff360ce1db94a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ac77a8402a62929bcb043ebd165a41605b17351
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514184"
 ---
+# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a>Lync Server 2013 での Lync for Windows Phone のインストール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a>Lync Server 2013 での Lync for Windows Phone のインストール
+
 
 </div>
 
@@ -43,7 +45,7 @@ Windows phone 用 Lync 2013 は、ユーザーがインストールできるア�
 
 ## <a name="installing-lync-for-windows-mobile"></a>Lync for Windows Mobile のインストール
 
-ユーザーに対して、Lync 2013 for Windows Phone をデバイスにインストールするように指示するには、を使用<https://go.microsoft.com/fwlink/p/?linkid=231901>します。
+ユーザーに対して、Lync 2013 for Windows Phone をデバイスにインストールするように指示するには、を使用 <https://go.microsoft.com/fwlink/p/?linkid=231901> します。
 
 </div>
 
@@ -51,7 +53,7 @@ Windows phone 用 Lync 2013 は、ユーザーがインストールできるア�
 
 ## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>DNS SRV レコードを使用して Exchange Web サービスを公開する場合
 
-Lync クライアントに対して Exchange 統合を有効にするために、一部の組織では、DNS SRV レコードを使用して Exchange Web サービスの URL を公開しています。 「Microsoft ダウンロードセンター」に記載されている「Exchange 統合について[https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095)理解し、トラブルシューティングを行う」では、これが必要になるシナリオについて説明しています。 ただし、windows phone プラットフォームでは SRV 参照がサポートされていないため、Windows Phone ユーザーの Exchange 統合はこのシナリオでは機能しません。 電話でサーバーを自動的に検出するのではなく、Windows Phone のユーザーに Exchange Web サービスの URL を指定するように指示する必要があります。
+Lync クライアントに対して Exchange 統合を有効にするために、一部の組織では、DNS SRV レコードを使用して Exchange Web サービスの URL を公開しています。 「Microsoft ダウンロードセンター」に記載されている「Exchange 統合について理解し、トラブルシューティングを行う」では [https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095) 、これが必要になるシナリオについて説明しています。 ただし、windows phone プラットフォームでは SRV 参照がサポートされていないため、Windows Phone ユーザーの Exchange 統合はこのシナリオでは機能しません。 電話でサーバーを自動的に検出するのではなく、Windows Phone のユーザーに Exchange Web サービスの URL を指定するように指示する必要があります。
 
 ユーザーに、Windows Phone で Lync の設定を次のように構成するように指示します。
 
@@ -82,7 +84,7 @@ Lync クライアントに対して Exchange 統合を有効にするために�
 
 **会社のディレクトリにある連絡先の検索**
 
-1.  連絡先一覧で、下部にある [**検索**] をタップします。
+1.  連絡先一覧で、下部にある [ **検索** ] をタップします。
 
 2.  グローバルアドレス一覧にのみ存在する連絡先を検索します。
 

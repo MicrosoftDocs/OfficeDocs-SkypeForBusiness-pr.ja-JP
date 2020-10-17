@@ -12,20 +12,22 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65560cd792fe4132cf20f3b32824b2c828ae757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da3069fdd039cb394308f3901ae9805b9023e15d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513884"
 ---
+# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーのテーブルの一覧
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーのテーブルの一覧
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbladupdates.md">Lync Server 2013 の tblADUpdates</a></p></td>
-<td><p>Active directory の同期手順でまだ処理されていない Active Directory ドメインサービスへの変更が含まれています。これは、Active Directory の最初の手順で使用される一時テーブル (tblPrincipalMemberDifference テーブルと共に) の1つです。頻度.</p>
+<td><p>Active directory の同期手順でまだ処理されていない Active Directory ドメインサービスへの変更が含まれており、Active Directory 同期の最初の手順で使用される一時テーブル (tblPrincipalMemberDifference テーブルと共に) の1つです。</p>
 <p>Active Directory への変更は、tblPrincipal テーブルに既に一覧表示されているプリンシパルに対してのみ保存、処理、またはその両方になります。</p></td>
 </tr>
 <tr class="even">
@@ -114,7 +116,7 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="even">
 <td><p><a href="lync-server-2013-tblprincipal.md">Lync Server 2013 の tblPrincipal</a></p></td>
 <td><p>すべてのプリンシパル (ユーザー、フォルダー、グループなど) が格納されます。 常設チャットサーバーは、これをフラットな異種リストとして処理します。 さまざまな列は、各プリンシパルの種類に基づきます。</p>
-<p>これらのプリンシパルのほとんどは、Active Directory に格納されているオブジェクトのキャッシュコピーです。 これらの Active Directory オブジェクトのプリンシパルテーブルにキャッシュコピーを作成することを、<em>プロビジョニング</em>と呼びます。</p>
+<p>これらのプリンシパルのほとんどは、Active Directory に格納されているオブジェクトのキャッシュコピーです。 これらの Active Directory オブジェクトのプリンシパルテーブルにキャッシュコピーを作成することを、 <em>プロビジョニング</em>と呼びます。</p>
 <p>一部のプリンシパルは他のプリンシパルよりも積極的に作成され、一部の Active Directory オブジェクトは完全に無視されます。</p></td>
 </tr>
 <tr class="odd">
@@ -143,11 +145,11 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblenumattribute.md">Lync Server 2013 の tblEnumAttribute</a></p></td>
-<td><p>TblNode テーブルで使用&quot;さ&quot;れる&quot;ハード&quot;コーディングされた可視性属性と動作属性のみを含みます。</p></td>
+<td><p>&quot; &quot; &quot; &quot; TblNode テーブルで使用されるハードコーディングされた可視性属性と動作属性のみを含みます。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblenumvalue.md">Lync Server 2013 の tblEnumValue</a></p></td>
-<td><p>TblNode テーブルで使用される&quot;、ハードコーディングされ&quot;た可視性 "および" 動作属性の値を格納します。</p></td>
+<td><p>&quot; &quot; TblNode テーブルで使用される、ハードコーディングされた可視性 "および" 動作属性の値を格納します。</p></td>
 </tr>
 </tbody>
 </table>

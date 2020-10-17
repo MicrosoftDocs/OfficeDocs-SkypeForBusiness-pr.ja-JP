@@ -12,20 +12,22 @@ ms:contentKeyID: 48185143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e04f3a46d283139e745f1430f835222f25d4d912
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6e2a3f255a77d7773d24d654c5c207b59b887bc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184950"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515344"
 ---
+# <a name="modify-a-voice-route-in-lync-server-2013"></a>Lync Server 2013 での音声ルートの変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-voice-route-in-lync-server-2013"></a>Lync Server 2013 での音声ルートの変更
+
 
 </div>
 
@@ -65,13 +67,13 @@ _**トピックの最終更新日:** 2012-11-01_
         
           - **許可する番号の先頭の数字:** このルートが対応する必要があるプレフィックス値を入力します (必要に応じて、先頭に + を含めます)。 たとえば、「**+425**」と入力して、**[追加]** をクリックします。 このルートに含める各プレフィックス値について、この手順を繰り返します。
         
-          - **例外:** プレフィックス値に対して1つ以上の例外を指定する場合は、プレフィックスを強調表示して [**例外**] をクリックします。 このルートが対応*しない*一致パターンの値を 1 つまたは複数入力します。 たとえば、ルートから + 425237 で始まる番号を除外するには、[**例外**] フィールドに **+ 425237**の値を入力し、[ **OK**] をクリックします。
+          - **例外:** プレフィックス値に対して1つ以上の例外を指定する場合は、プレフィックスを強調表示して [ **例外**] をクリックします。 このルートが対応*しない*一致パターンの値を 1 つまたは複数入力します。 たとえば、ルートから + 425237 で始まる番号を除外するには、[**例外**] フィールドに **+ 425237**の値を入力し、[ **OK**] をクリックします。
     
-      - 一致パターンを手動で定義するには、**一致パターン構築**ツールの **[編集]** をクリックし、.NET Framework 正規表現を入力して、ルートが適用される相手電話番号の一致パターンを指定します。 正規表現を記述する方法については、「」の「.NET Framework [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)正規表現」を参照してください。
+      - 一致パターンを手動で定義するには、**一致パターン構築**ツールの **[編集]** をクリックし、.NET Framework 正規表現を入力して、ルートが適用される相手電話番号の一致パターンを指定します。 正規表現を記述する方法については、「」の「.NET Framework 正規表現」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) 。
 
-8.  発信通話を発信する電話の ID を呼び出し先に表示しない場合は、[**発信者 id の非**表示] を選択します。 このオプションを選択した場合、呼び出し先の発信者 ID 表示に表示される、**[代替発信者 ID]** を指定する必要があります。
+8.  発信通話を発信する電話の ID を呼び出し先に表示しない場合は、[ **発信者 id の非** 表示] を選択します。 このオプションを選択した場合、呼び出し先の発信者 ID 表示に表示される、**[代替発信者 ID]** を指定する必要があります。
 
-9.  1つまたは複数の公衆交換電話網 (PSTN) トランクを音声ルートに関連付けるには、[**追加**] をクリックして、一覧からトランクを選択します。
+9.  1つまたは複数の公衆交換電話網 (PSTN) トランクを音声ルートに関連付けるには、[ **追加**] をクリックして、一覧からトランクを選択します。
     
     <div>
     
@@ -82,7 +84,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
     </div>
 
-10. 1つまたは複数の PSTN 使用法を音声ルートに関連付けるには、[**選択**] をクリックして、エンタープライズ voip 展開に対して定義されている pstn 使用法レコードの一覧からレコードを選択します。
+10. 1つまたは複数の PSTN 使用法を音声ルートに関連付けるには、[ **選択** ] をクリックして、エンタープライズ voip 展開に対して定義されている pstn 使用法レコードの一覧からレコードを選択します。
     
     <div>
     
@@ -123,7 +125,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
 
     > [!NOTE]  
-    > 音声ルートを作成または変更するときは常に、[<STRONG>すべて確定</STRONG>] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A>」を参照してください。
+    > 音声ルートを作成または変更するときは常に、[ <STRONG>すべて確定</STRONG> ] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A> 」を参照してください。
 
     
     </div>
