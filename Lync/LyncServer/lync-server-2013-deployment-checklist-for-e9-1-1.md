@@ -12,20 +12,22 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a8bc7072cb1faa197f733d01eb545a964ed6612
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 52920c81e2055b5151280bbd65e9b2b6a90c0b73
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522804"
 ---
+# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 の E9-1-1 の展開チェックリスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 の E9-1-1 の展開チェックリスト
+
 
 </div>
 
@@ -104,7 +106,7 @@ E9-1-1 を展開する前に、中央管理ストア、フロントエンドプ�
 <td><p>場所データベースを構成する</p></td>
 <td><ol>
 <li><p>ネットワーク要素と場所のマッピングをデータベースに設定します。</p></li>
-<li><p>ELIN ゲートウェイの場合は、[ &lt;CompanyName&gt; ] 列に elins を追加します。</p></li>
+<li><p>ELIN ゲートウェイの場合は、[CompanyName] 列に ELINs を追加し &lt; &gt; ます。</p></li>
 <li><p>アドレスを確認するために、E9-1-1 サービス プロバイダーへの接続を構成します。</p></li>
 <li><p>E9-1-1  サービス プロバイダーでアドレスを確認します。</p></li>
 <li><p>更新したデータベースを公開します。</p></li>

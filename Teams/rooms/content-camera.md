@@ -12,14 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-mar2020
 description: Microsoft Teams Room のコンテンツ カメラを使用すると、画像処理ソフトウェアと連携して、発表者がアナログ ホワイトボードに描画することができます。
-ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
-ms.translationtype: HT
+ms.openlocfilehash: ced0a65c0c1fab25bd1b244aea7301d654c44a9e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756898"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508314"
 ---
 # <a name="content-cameras"></a>コンテンツ カメラ
 

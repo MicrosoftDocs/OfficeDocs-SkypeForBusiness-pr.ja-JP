@@ -12,20 +12,22 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afcbfec56f4cfee3def2a0ef6deb82934534dbb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4e627dfdc161093d07243e6598807f3ad91cab1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213821"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522714"
 ---
+# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 の仲介サーバーの展開ガイドライン
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 の仲介サーバーの展開ガイドライン
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2012-10-12_
 
 計画時には、メディアバイパスを使用するように構成されていない PSTN 通話と音声ビデオ会議のためのメディア処理要件と、サポートする必要のある時間外呼び出しの数に対するシグナリング通信を処理するために必要な処理を考慮してください。 CPU が十分でない場合は、仲介サーバーのスタンドアロンプールを展開する必要があります。および PSTN ゲートウェイ、IP-PBX、および sbc は、1つのプール内の併置された仲介サーバーによって制御されるサブセット、または1つまたは複数のスタンドアロンプールにあるスタンドアロン仲介サーバーによって制御されるサブセットに分割する必要があります。
 
-PSTN ゲートウェイ、IP-PBX、またはセッションボーダーコントローラー (sbc) を展開した場合は、次に示すように、仲介サーバーのプールを操作するための適切な機能がサポートされていない場合は、次のものを含むスタンドアロンプールに関連付けられている必要があります。単一の仲介サーバーの場合:
+PSTN ゲートウェイ、IP-PBX、またはセッションボーダーコントローラー (sbc) を展開した場合は、次に示すように、仲介サーバーのプールを操作するための適切な機能がサポートされていない場合は、1つの仲介サーバーから成るスタンドアロンプールに関連付けられている必要があります。
 
   - プール内の仲介サーバーでネットワーク層のドメインネームシステム (DNS) 負荷分散を実行する (または、プール内のすべての仲介サーバーにトラフィックを均等にルーティングする)
 
@@ -73,7 +75,7 @@ Microsoft Lync Server 2013、計画ツールを使用して、仲介サーバー
 
 
 > [!NOTE]  
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーで PSTN ゲートウェイと sbc のセットをテストしており、Cisco IP-PBX でいくつかのテストを行いました。 メディアバイパスがサポートされるのは、統合コミュニケーションのオープン相互運用性プログラム– Lync Server at <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A>の製品およびバージョンのみです。
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーで PSTN ゲートウェイと sbc のセットをテストしており、Cisco IP-PBX でいくつかのテストを行いました。 メディアバイパスがサポートされるのは、統合コミュニケーションのオープン相互運用性プログラム– Lync Server at の製品およびバージョンのみです <A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A> 。
 
 
 
@@ -89,7 +91,7 @@ Ip-pbx との対話の場合、ip-pbx が、複数の初期ダイアログと RF
 
 
 > [!NOTE]  
-> スタンドアロンの仲介サーバーのメディアパフォーマンスを向上させるには、これらのサーバーのネットワークアダプターで受信側スケーリング (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「」の「Windows Server の受信側<A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A>スケーリングの拡張機能」を参照してください。 RSS を有効にする方法の詳細については、ネットワークアダプターのドキュメントを参照してください。
+> スタンドアロンの仲介サーバーのメディアパフォーマンスを向上させるには、これらのサーバーのネットワークアダプターで受信側スケーリング (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については、「」の「Windows Server の受信側スケーリングの拡張機能」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A> 。 RSS を有効にする方法の詳細については、ネットワークアダプターのドキュメントを参照してください。
 
 
 

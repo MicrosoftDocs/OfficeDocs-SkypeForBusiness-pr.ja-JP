@@ -12,20 +12,22 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc219e06e0d9bb6f7d76d4d08aef991c525b3aaf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d20aa4cfc8ab86dfe12458fbd9ce04e11fc4442e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207881"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522394"
 ---
+# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>Lync Server 2013 と Exchange ストレージの統合を有効または無効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>Lync Server 2013 と Exchange ストレージの統合を有効または無効にする
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server 2013 コントロールパネルでは、アーカイブ構成を使
 
   - 特定のサイトまたはプールに対するアーカイブの実装方法を指定するために作成して使用できる、オプションのサイトレベルおよびプールレベルのポリシー。
 
-指定できるオプションやアーカイブ構成の階層など、アーカイブ構成の実装方法の詳細については、「計画」のドキュメント、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md)」を参照してください。
+指定できるオプションやアーカイブ構成の階層など、アーカイブ構成の実装方法の詳細については、「計画」のドキュメント、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md) 」を参照してください。
 
 <div>
 
@@ -57,9 +59,9 @@ Lync Server 2013 コントロールパネルでは、アーカイブ構成を使
 
 4.  アーカイブ構成一覧で、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、[**編集**]、[**詳細の表示**] の順にクリックして、次の操作を実行します。
     
-      - Exchange 2013 ストレージとの統合を有効にするには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
+      - Exchange 2013 ストレージとの統合を有効にするには、[ **Microsoft exchange 統合** ] チェックボックスをオンにします。
     
-      - Exchange 2013 ストレージとの統合を無効にするには、[ **Microsoft exchange 統合**] チェックボックスをオフにします。
+      - Exchange 2013 ストレージとの統合を無効にするには、[ **Microsoft exchange 統合** ] チェックボックスをオフにします。
 
 5.  [**確定**] をクリックします。
 

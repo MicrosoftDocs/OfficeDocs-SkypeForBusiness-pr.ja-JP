@@ -12,20 +12,22 @@ ms:contentKeyID: 48184333
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 167fe5c772e765c5f78ac2253c23d66550e0e712
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de154fca02470003fdedd0ff29cc8c879d1865aa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523194"
 ---
+# <a name="assign-conferencing-policies-to-support-anonymous-users-in-lync-server-2013"></a>Lync Server 2013 で匿名ユーザーをサポートするための会議ポリシーの割り当て
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assign-conferencing-policies-to-support-anonymous-users-in-lync-server-2013"></a>Lync Server 2013 で匿名ユーザーをサポートするための会議ポリシーの割り当て
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42203343"
 
 _**トピックの最終更新日:** 2012-10-19_
 
-既定では、どのユーザーも匿名ユーザーを会議に招待することはできません。 匿名ユーザーをサポートするよう会議ポリシーを構成し、この会議ポリシーを特定のユーザーに適用することで、匿名ユーザーを招待できるユーザーを制御します。 匿名ユーザーをサポートするように会議ポリシーを構成する方法の詳細については、「 [Lync server 2013 で会議ポリシーを作成または変更](lync-server-2013-create-or-modify-a-conferencing-policy.md)する」および「 [lync server 2013 へのフェデレーションと外部アクセスを管理](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)する」を参照してください。
+既定では、どのユーザーも匿名ユーザーを会議に招待することはできません。 匿名ユーザーをサポートするよう会議ポリシーを構成し、この会議ポリシーを特定のユーザーに適用することで、匿名ユーザーを招待できるユーザーを制御します。 匿名ユーザーをサポートするように会議ポリシーを構成する方法の詳細については、「 [Lync server 2013 で会議ポリシーを作成または変更](lync-server-2013-create-or-modify-a-conferencing-policy.md) する」および「 [lync server 2013 へのフェデレーションと外部アクセスを管理](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)する」を参照してください。
 
 このセクションの手順を使用して、既に作成した会議ポリシーを、1 人以上のユーザーまたは 1 つ以上のユーザー グループに適用します。
 
@@ -79,12 +81,12 @@ _**トピックの最終更新日:** 2012-10-19_
     
 
     > [!NOTE]  
-    > [ <STRONG> &lt;自動&gt; </STRONG> ] 設定は、既定のサーバーインストール設定を適用し、サーバーによって自動的に適用されます。
+    > [ <STRONG> &lt; 自動 &gt; </STRONG> ] 設定は、既定のサーバーインストール設定を適用し、サーバーによって自動的に適用されます。
 
     
     </div>
 
-ユーザーが匿名ユーザーを会議に招待できるようにするには、組織で匿名ユーザーのサポートも有効にしておく必要があります。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Configure policies to control The Lync Server 2013」](lync-server-2013-configure-policies-to-control-public-user-access.md)を参照してください。
+ユーザーが匿名ユーザーを会議に招待できるようにするには、組織で匿名ユーザーのサポートも有効にしておく必要があります。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Configure policies to control The Lync Server 2013」](lync-server-2013-configure-policies-to-control-public-user-access.md) を参照してください。
 
 </div>
 

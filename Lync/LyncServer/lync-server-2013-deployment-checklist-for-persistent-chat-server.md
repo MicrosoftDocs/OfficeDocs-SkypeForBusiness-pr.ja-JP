@@ -12,20 +12,22 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a01d38cec8d03a75d5f295c61f6e591da43f4a61
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2399d6ce6fc17a802c8f6bc39730370948ef0253
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213819"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522744"
 ---
+# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーの展開チェックリスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーの展開チェックリスト
+
 
 </div>
 
@@ -107,13 +109,13 @@ Lync Server 2013 を展開する場合は、常設チャットサーバーを正
 <li><p>[常設チャットサーバープールの定義] チェックボックスをオンにして、コンプライアンスを有効にします。</p></li>
 <li><p>トポロジを公開する。</p></li>
 </ul>
-<p>Standard Edition に常設チャットサーバーをインストールする場合は、常設チャットサーバープールの完全修飾ドメイン名 (FQDN) が Standard Edition サーバーと一致している必要があります。また、SQL Server データベースは標準の SQL Server Express インスタンスに併置されています。Edition サーバー</p></td>
+<p>Standard Edition に常設チャットサーバーをインストールする場合は、常設チャットサーバープールの完全修飾ドメイン名 (FQDN) が Standard Edition サーバーと一致している必要があります。また、SQL Server データベースは、Standard Edition サーバー上の SQL Server Express インスタンスに併置されます。</p></td>
 <td><p>トポロジを定義するには、ローカルの Users グループのメンバーであるアカウント。</p>
 <p>トポロジを公開するには、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーであり、ユーザーは、常設チャットサーバーファイル用の Lync ファイルストアに対するフルコントロールのアクセス許可 (読み取り/書き込み/変更) を所有している必要があります (これにより、トポロジビルダーは必要な Dacl を構成できます)。</p></td>
 <td><p>展開のドキュメントの「 <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013 での展開への常設チャットサーバーの追加」</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>常設チャットサーバーの展開</strong></p></td>
+<td><p><strong>常設チャット サーバーの展開</strong></p></td>
 <td><p>常設チャットサーバーを実行しているすべてのコンピューターで Lync Server セットアップを実行します。 常設チャットサーバーのセットアップは、Lync Server 2013 展開ウィザードに統合され、次の手順を提供します。</p>
 <ul>
 <li><p>ローカル管理ストアを展開する。</p></li>
@@ -125,7 +127,7 @@ Lync Server 2013 を展開する場合は、常設チャットサーバーを正
 <td><p>展開のドキュメントの「 <a href="lync-server-2013-deploying-persistent-chat-server.md">Lync server 2013 での常設チャットサーバーの展開</a>」</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>常設チャット管理者を作成する</strong></p></td>
+<td><p><strong>常設チャット管理者の作成</strong></p></td>
 <td><p>ユーザーを CsPersistentChatAdministrator セキュリティ グループに追加します。</p></td>
 <td><p>ドメイン管理者のメンバーであるユーザー。</p></td>
 <td><p>「展開」のドキュメントの「 <a href="lync-server-2013-adding-a-persistent-chat-administrator.md">Lync Server 2013 での常設チャット管理者の追加」</a></p></td>

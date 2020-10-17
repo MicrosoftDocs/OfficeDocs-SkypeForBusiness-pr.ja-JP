@@ -12,20 +12,22 @@ ms:contentKeyID: 48185355
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63be6e13448428a40a407971b2dc9285414d1f83
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b7cd7e9698ef19147c20ef04afbe1a158ad5c397
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522334"
 ---
+# <a name="new-video-features-in-lync-server-2013"></a>Lync Server 2013 の新しいビデオ機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-video-features-in-lync-server-2013"></a>Lync Server 2013 の新しいビデオ機能
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**トピックの最終更新日:** 2012-08-16_
 
 Lync Server 2013 には、次の新しいビデオ機能が導入されています。
 
-  - **Hd ビデオ**   ユーザーは、2者間の通話とマルチパーティの電話会議で最大 hd 1080p の解像度を使用できます。
+  - **HD ビデオ**    ユーザーは、2者間の通話とマルチパーティの電話会議で最大 HD 1080P の解像度を使用できます。
 
-  - **ギャラリービュー**   ビデオ会議に3人以上のユーザーがいる場合、ユーザーは会議の参加者のビデオを見ることができます。 会議の参加者が 6 人以上の場合は、最もアクティブな参加者のビデオだけが最上部の行に表示され、その他の参加者については写真が表示されます。
+  - **ギャラリービュー**    3人以上のユーザーがいるビデオ会議では、ユーザーは会議の参加者のビデオを見ることができます。 会議の参加者が 6 人以上の場合は、最もアクティブな参加者のビデオだけが最上部の行に表示され、その他の参加者については写真が表示されます。
 
-  - **(264**   ビデオ) Lync 2013 クライアントのビデオをエンコードするための既定値として、264ビデオコーデックが使用されるようになりました。 H.264 ビデオは、より広範な解像度とフレーム レートをサポートし、ビデオののスケーラビリティを向上させます。
+  - **.H ビデオ**    Lync 2013 クライアントでは、ビデオをエンコードするための既定値として、264ビデオコーデックが現在使用されています。 H.264 ビデオは、より広範な解像度とフレーム レートをサポートし、ビデオののスケーラビリティを向上させます。
 
 <div>
 

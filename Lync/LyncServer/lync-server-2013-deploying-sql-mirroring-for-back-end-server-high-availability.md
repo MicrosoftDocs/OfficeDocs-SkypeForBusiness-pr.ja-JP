@@ -12,20 +12,22 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 577d6bb312ae2b31f96fed5f3e5b02e84844adf6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 085b7c10416fddefa8b869bbb617160f03b1e89a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188190"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522944"
 ---
+# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013 でバックエンドサーバーの高可用性を実現するための SQL ミラーリングの展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013 でバックエンドサーバーの高可用性を実現するための SQL ミラーリングの展開
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188190"
 
 _**トピックの最終更新日:** 2014-01-08_
 
-SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細について[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921)は、「」を参照してください。
+SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「」を参照してください [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921) 。
 
 一般に、2 つのバックエンド サーバー間での SQL ミラーリングを設定するには、以下の要件を満たしている必要があります。
 
@@ -47,19 +49,19 @@ SQL ミラーリングを展開できるようにするには、サーバーで�
 
   - プライマリおよびミラーの各 SQL Server が同一エディションである (ミラーリング監視のエディションは異なっていても構いません)。
 
-ミラーリング監視の役割でサポートされる SQL のバージョンに関する SQL のベストプラクティスについては、MSDN ライブラリの「データベースミラーリング[https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345)監視」を参照してください。
+ミラーリング監視の役割でサポートされる SQL のバージョンに関する SQL のベストプラクティスについては、MSDN ライブラリの「データベースミラーリング監視」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345) 。
 
 SQL ミラーリングを展開するには、トポロジビルダーを使用します。 トポロジビルダーでデータベースをミラー化するオプションを選択すると、トポロジビルダーは、トポロジを公開するときに、ミラーリング (必要な場合は、監視の設定を含む) を設定します。 ミラーリング監視は、ミラーの設定または削除と同時に設定または削除します。 ミラーリング監視のみ展開または削除する独立したコマンドはありません。
 
-サーバー ミラーリングを構成するには、最初に SQL データベース アクセス許可を正しく設定する必要があります。 詳細については、「」の「データベースミラーリングまたは AlwaysOn 可用性グループのログインアカウントをセットアップ[https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454)する (SQL Server)」を参照してください。
+サーバー ミラーリングを構成するには、最初に SQL データベース アクセス許可を正しく設定する必要があります。 詳細については、「」の「データベースミラーリングまたは AlwaysOn 可用性グループのログインアカウントをセットアップする (SQL Server)」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454) 。
 
 SQL ミラーリングでは、データベース復旧モードは常に [**完全**] に設定されます。これは、トランザクション ログ サイズを綿密に監視し、トランザクション ログを定期的にバックアップしてバックエンド サーバー上のディスク容量の不足を回避する必要があることを意味します。トランザクション ログのバックアップ頻度は、ログの増加率によって決まります。ログの増加率は、フロントエンド プールのユーザー アクティビティによるデータベース トランザクションによって決まります。Lync 展開ワークロードに対して予想されるトランザクション ログの増加を判断し、それに応じて計画することをお勧めします。次の記事では、SQL バックアップおよびログ管理に関する追加情報を提供しています。
 
-  - データベース回復モデル: "復旧モデル (SQL Server)"[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
+  - データベース回復モデル: "復旧モデル (SQL Server)" [https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - バックアップの概要: 「バックアップの概要 (SQL Server)」[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
+  - バックアップの概要: 「バックアップの概要 (SQL Server)」 [https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - バックアップトランザクションログ: "トランザクションログのバックアップ (SQL Server)"[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
+  - バックアップトランザクションログ: "トランザクションログのバックアップ (SQL Server)" [https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 SQL ミラーリングでは、ミラーリングのトポロジの構成を、プールの作成時、またはプールが既に作成された後のどちらでも行うことができます。
 
@@ -86,7 +88,7 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 
 
 > [!NOTE]
-> ミラーファイルに書き込むためのファイル共有を作成する必要があります。また、SQL Server と SQL エージェントが実行しているサービスには、読み取り/書き込みアクセス権が必要です。 SQL Server サービスがネットワークサービスのコンテキストで実行されている場合は、 &lt;ドメイン&gt;&#92;&lt;Sqlservername&gt;$ のプリンシパルとミラーの両方の sql サーバーを共有のアクセス許可に追加できます。 $ は、これがコンピューターアカウントであることを識別するために重要です。
+> ミラーファイルに書き込むためのファイル共有を作成する必要があります。また、SQL Server と SQL エージェントが実行しているサービスには、読み取り/書き込みアクセス権が必要です。 SQL Server サービスがネットワークサービスのコンテキストで実行されている場合は、 &lt; ドメイン &gt;&#92;&lt; Sqlservername &gt; $ のプリンシパルとミラーの両方の sql サーバーを共有のアクセス許可に追加できます。 $ は、これがコンピューターアカウントであることを識別するために重要です。
 
 
 <div>
@@ -123,7 +125,7 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 
 ## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>トポロジビルダーで既存のフロントエンドプールに SQL ミラーリングを追加するには
 
-1.  トポロジビルダーで、プールを右クリックし、[**プロパティの編集**] をクリックします。
+1.  トポロジビルダーで、プールを右クリックし、[ **プロパティの編集**] をクリックします。
 
 2.  [**SQL ストアのミラーリングを有効にする**] を選択し、[**ミラーリング SQL ストア**] の横にある [**新規作成**] をクリックします。
 
@@ -151,9 +153,9 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
 
   - 同じサーバー上の他のアプリケーションに既に割り当てられたポート (他の SQL インスタンス用のポートを含みます) は、ここでインストールする SQL インスタンスでは使用しないでください。これは、複数の SQL インスタンスを同じサーバー上にインストールしている場合、それらのインスタンスは同じポートをミラーリングに使用してはならないことを意味します。詳細については、以下の記事を参照してください。
     
-      - MSDN ライブラリの「サーバーネットワークアドレス (データベースミラーリング) を指定する」[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
+      - MSDN ライブラリの「サーバーネットワークアドレス (データベースミラーリング) を指定する」 [https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - "データベースミラーリングエンドポイント (SQL Server)"[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
+      - "データベースミラーリングエンドポイント (SQL Server)" [https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 
@@ -249,13 +251,13 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
 
 2.  次のことを確認します。
     
-      - プライマリ SQL Server e04-ocs\_\\で Windows ファイアウォールが有効になっている場合は、ポート5022がファイアウォール経由でアクセス可能です。
+      - プライマリ SQL Server e04-ocs で Windows ファイアウォールが有効になっている場合は、ポート5022がファイアウォール経由でアクセス可能 \_ です。 \\
     
-      - ミラー SQL Server K16-ocs\_\\で Windows ファイアウォールが有効になっている場合は、ファイアウォール経由でポート5022にアクセスできます。
+      - ミラー SQL Server K16-ocs で Windows ファイアウォールが有効になっている場合は、ファイアウォール経由でポート5022にアクセスでき \_ ます。 \\
     
-      - ミラーリング監視 SQL Server AB14-lct\_\\で Windows ファイアウォールが有効になっている場合は、ファイアウォール経由でポート7022にアクセスできます。
+      - ミラーリング監視 SQL Server AB14-lct で Windows ファイアウォールが有効になっている場合は、ファイアウォール経由でポート7022にアクセスでき \_ ます。 \\
     
-      - すべてのプライマリおよびミラー sql サーバーで sql server を実行しているアカウントには、ファイル共有\\ \\E04\\cs に対する読み取り/書き込みアクセス許可が付与されます。
+      - すべてのプライマリおよびミラー SQL サーバーで SQL Server を実行しているアカウントには、ファイル共有 \\ \\ E04 \\ cs に対する読み取り/書き込みアクセス許可が付与されます。
     
       - これらすべてのサーバーで、Windows Management Instrumentation (WMI) プロバイダーが実行されている。コマンドレットでは、このプロバイダーを使用して、すべてのプライマリ サーバー、ミラー サーバー、およびミラーリング監視サーバーで実行されている SQL Server サービスのアカウント情報が検索されます。
     
@@ -267,7 +269,7 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
     
     ミラーリングの構成が行われます。
 
-**Install-csmirrordatabase**は、ミラーをインストールし、プライマリ SQL ストアに存在するすべてのデータベースのミラーリングを構成します。 特定のデータベースに対してのみミラーリングを構成する場合は、-DatabaseType オプションを使用できます。また、少数を除くすべてのデータベースのミラーリングを構成する場合は、-ExcludeDatabaseList オプションを使用できます。また、データベースの一覧はコンマで区切られています。除外する名前。
+**Install-csmirrordatabase** は、ミラーをインストールし、プライマリ SQL ストアに存在するすべてのデータベースのミラーリングを構成します。 特定のデータベースに対してのみミラーリングを構成する場合は、-DatabaseType オプションを使用できます。また、一部のデータベースでミラーリングを構成する場合は、-ExcludeDatabaseList オプションを使用して、除外するデータベース名のコンマ区切りリストを使用することもできます。
 
 たとえば、次のオプションを **Install-CsMirrorDatabase** に追加した場合は、rtcab と rtcxds を除くすべてのデータベースがミラーリングされます。
 
@@ -291,7 +293,7 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
 
     Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 
-この`-DropExistingDatabasesOnMirror`オプションを指定すると、影響を受けるデータベースがミラーから削除されます。
+この `-DropExistingDatabasesOnMirror` オプションを指定すると、影響を受けるデータベースがミラーから削除されます。
 
 次に、トポロジからミラーを削除するには、次の操作を行います。
 
@@ -319,9 +321,9 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
     
         Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
     
-    ただし、その手順を実行するのではなく、 `Uninstall-CsMirrorDatabase`ミラーリング構成全体をアンインストールするのではなく、と入力してください。
+    ただし、その手順を実行するのではなく、 `Uninstall-CsMirrorDatabase` ミラーリング構成全体をアンインストールするのではなく、と入力してください。
 
-4.  SQL Server 構成からミラーリング監視のみを削除するには、「データベースミラーリングセッション (SQL Server) からのミラーリング監視を削除する」の[https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456)手順に従ってください。
+4.  SQL Server 構成からミラーリング監視のみを削除するには、「データベースミラーリングセッション (SQL Server) からのミラーリング監視を削除する」の手順に従って [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456) ください。
 
 </div>
 

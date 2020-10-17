@@ -12,20 +12,22 @@ ms:contentKeyID: 48184987
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 084686c33482e4828378db76c2a5ca1c834bacf3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a81a4baee7062936144d0a6d066d59cf0a8ef1e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205853"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522794"
 ---
+# <a name="deployment-checklist-for-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルイン会議の展開チェックリスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルイン会議の展開チェックリスト
+
 
 </div>
 
@@ -88,7 +90,7 @@ _**トピックの最終更新日:** 2014-10-03_
 <p>管理者</p></td>
 <td><ul>
 <li><p><a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開 </a></p></li>
-<li><p>スタンドアロンの仲介サーバープールを作成するには:<a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">仲介サーバーの展開と Lync server 2013 でのピアの定義</a></p></li>
+<li><p>スタンドアロンの仲介サーバープールを作成するには: <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">仲介サーバーの展開と Lync server 2013 でのピアの定義</a></p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -116,7 +118,7 @@ _**トピックの最終更新日:** 2014-10-03_
 </tr>
 <tr class="even">
 <td><p><strong>(オプション) ユーザーの暗証番号 (PIN) 要件を確認または変更する</strong></p></td>
-<td><p>Lync Server 2013 コントロールパネルまたは Lync Server 管理シェルを使用して、会議<strong>PIN ポリシー</strong>を表示または変更します。 最小 PIN サイズ、最大ログオン試行回数、PIN の有効期限、およびよくあるパターンを許可するかどうかを指定できます。</p></td>
+<td><p>Lync Server 2013 コントロールパネルまたは Lync Server 管理シェルを使用して、会議 <strong>PIN ポリシー</strong>を表示または変更します。 最小 PIN サイズ、最大ログオン試行回数、PIN の有効期限、およびよくあるパターンを許可するかどうかを指定できます。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
@@ -124,7 +126,7 @@ _**トピックの最終更新日:** 2014-10-03_
 </tr>
 <tr class="odd">
 <td><p><strong>ダイヤルイン会議をサポートするように会議ポリシーを構成する</strong></p></td>
-<td><p>Lync Server 2013 コントロールパネルまたは Lync Server 管理シェルを使用して、<strong>会議ポリシー</strong>の設定を構成します。 次のことを指定します。</p>
+<td><p>Lync Server 2013 コントロールパネルまたは Lync Server 管理シェルを使用して、 <strong>会議ポリシー</strong> の設定を構成します。 次のことを指定します。</p>
 <ul>
 <li><p>PSTN 会議ダイヤルインを有効にするかどうか。</p></li>
 <li><p>ユーザーが匿名参加者を招待できるようにするかどうか。</p></li>
@@ -141,7 +143,7 @@ _**トピックの最終更新日:** 2014-10-03_
 <div>
 
 > [!NOTE]  
-> ダイヤルインアクセス番号を作成した後は、 <STRONG>get-csdialinconferencingaccessnumber</STRONG>コマンドレットを使用して、Active Directory 連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を容易に識別できるようにすることができます。
+> ダイヤルインアクセス番号を作成した後は、 <STRONG>get-csdialinconferencingaccessnumber</STRONG> コマンドレットを使用して、Active Directory 連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を容易に識別できるようにすることができます。
 
 
 </div></td>
@@ -192,7 +194,7 @@ _**トピックの最終更新日:** 2014-10-03_
 </tr>
 <tr class="even">
 <td><p><strong>ユーザー アカウント設定の構成</strong></p></td>
-<td><p>Lync Server 2013 コントロールパネルまたは Lync Server 管理シェルを使用して、テレフォニー<strong>回線 URI</strong>を正規化された一意の電話番号 (たとえば、tel: + 14255550200) として構成します。</p></td>
+<td><p>Lync Server 2013 コントロールパネルまたは Lync Server 管理シェルを使用して、テレフォニー <strong>回線 URI</strong> を正規化された一意の電話番号 (たとえば、tel: + 14255550200) として構成します。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsAdministrator</p>
 <p>CsUserAdministrator</p></td>

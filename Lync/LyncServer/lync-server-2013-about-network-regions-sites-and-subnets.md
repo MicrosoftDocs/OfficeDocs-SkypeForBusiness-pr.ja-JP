@@ -12,20 +12,22 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8e4ee7d3f5a8976f8a4eee972be2d995f89c36c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4fe7b93f00ce7af6354fa8a1bc94c104f3af14f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523214"
 ---
+# <a name="about-network-regions-sites-and-subnets-in-lync-server-2013"></a>Lync Server 2013 のネットワーク地域、サイト、およびサブネットについて
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="about-network-regions-sites-and-subnets-in-lync-server-2013"></a>Lync Server 2013 のネットワーク地域、サイト、およびサブネットについて
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2013-02-24_
 
 
 > [!IMPORTANT]  
-> 通話受付管理、E9-1-1、またはメディアバイパスのネットワーク構成を開始する前に、「計画」のドキュメントの「 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ voip 機能のネットワーク</A>設定に関するその他の情報を確認してください。 通話受付管理に関する基本的なネットワーク構成の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Lync Server 2013 での通話受付管理の要件の定義</A>」を参照してください。
+> 通話受付管理、E9-1-1、またはメディアバイパスのネットワーク構成を開始する前に、「計画」のドキュメントの「 <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ voip 機能のネットワーク</A> 設定に関するその他の情報を確認してください。 通話受付管理に関する基本的なネットワーク構成の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Lync Server 2013 での通話受付管理の要件の定義</A> 」を参照してください。
 
 
 
@@ -51,9 +53,9 @@ _**トピックの最終更新日:** 2013-02-24_
 
 通話受付管理および E9-1-1 には、ネットワーク サイトの追加構成要件があります。
 
-  - 通話受付管理では、WAN の帯域幅が制限されているサイトごとに*帯域幅ポリシー プロファイル*を指定する必要があります。 通話受付管理を展開することを計画している場合は、ネットワークサイトを構成する前に、 [Lync Server 2013 で帯域幅ポリシープロファイルを作成](lync-server-2013-create-bandwidth-policy-profiles.md)する必要があります。
+  - 通話受付管理では、WAN の帯域幅が制限されているサイトごとに*帯域幅ポリシー プロファイル*を指定する必要があります。 通話受付管理を展開することを計画している場合は、ネットワークサイトを構成する前に、 [Lync Server 2013 で帯域幅ポリシープロファイルを作成](lync-server-2013-create-bandwidth-policy-profiles.md) する必要があります。
 
-  - E9-1-1 では、サイトごとに*場所のポリシー*を指定する必要があります。 E9-1-1 の展開を計画している場合は、ネットワークサイトを構成する前に、 [Lync Server 2013 で場所のポリシーを作成](lync-server-2013-create-location-policies.md)する必要があります。
+  - E9-1-1 では、サイトごとに*場所のポリシー*を指定する必要があります。 E9-1-1 の展開を計画している場合は、ネットワークサイトを構成する前に、 [Lync Server 2013 で場所のポリシーを作成](lync-server-2013-create-location-policies.md) する必要があります。
 
 <div>
 

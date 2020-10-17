@@ -3,7 +3,7 @@ title: 30のチーム
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.date: 7/1/19
+ms.date: 07/01/2019
 ms.service: msteams
 audience: admin
 ms.collection:
@@ -19,18 +19,18 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e108db74324deef93b2306e1d0fda8a8c69ad3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f87375db770db8ef6df85989dd228a4ccb376b02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584106"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515874"
 ---
 # <a name="teams-in-30"></a>30のチーム
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft は、30日以内に、中央の組織 (500-5000 の従業員) を作成して実行するのに役立つように設計された、30日間の<strong>チーム</strong>に招待することをお勧めします。 Microsoft に連絡して、時間をテストしたガイダンスとベストプラクティスを確認し、チームの質問に対する回答を得ます。 また、ワークショップ参加者は、Teams のエキスパートを使って、オープン・ mic のオフィス時間に対する排他的な招待状を受け取ります。
-           <p><font color="#6264A7">ジャンプの準備はできましたか?</font> プロジェクトチームのメンバー全員が、 <i>30 セッションの Teams の使用</i>を開始することをお勧めします。 サインアップするには、以下のセッションタイトルをクリックしてください。
+        <p>Microsoft は、30日以内に、中央の組織 (500-5000 の従業員) を作成して実行するのに役立つように設計された、30日間の <strong>チーム</strong>に招待することをお勧めします。 Microsoft に連絡して、時間をテストしたガイダンスとベストプラクティスを確認し、チームの質問に対する回答を得ます。 また、ワークショップ参加者は、Teams のエキスパートを使って、オープン・ mic のオフィス時間に対する排他的な招待状を受け取ります。
+           <p><font color="#6264A7">ジャンプの準備はできましたか?</font> プロジェクトチームのメンバー全員が、 <i>30 セッションの Teams の使用</i> を開始することをお勧めします。 サインアップするには、以下のセッションタイトルをクリックしてください。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">

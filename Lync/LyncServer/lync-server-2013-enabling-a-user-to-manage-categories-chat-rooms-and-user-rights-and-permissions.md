@@ -12,20 +12,22 @@ ms:contentKeyID: 48706002
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c387d00f457005eb7c40a9b921051a988ee6f044
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0fab4c354be95a5cb5864944412c973030b7e6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522419"
 ---
+# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>ユーザーが Lync Server 2013 でカテゴリ、チャットルーム、およびユーザー権限とアクセス許可を管理できるようにする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>ユーザーが Lync Server 2013 でカテゴリ、チャットルーム、およびユーザー権限とアクセス許可を管理できるようにする
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
   - 常設チャットサーバープールの構成設定を設定して管理します。
 
-詳細については、「展開」のドキュメントの「 [Lync Server 2013 での常設チャット管理者の追加](lync-server-2013-adding-a-persistent-chat-administrator.md)」を参照してください。
+詳細については、「展開」のドキュメントの「 [Lync Server 2013 での常設チャット管理者の追加](lync-server-2013-adding-a-persistent-chat-administrator.md) 」を参照してください。
 
 </div>
 

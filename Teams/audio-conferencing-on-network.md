@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下では、電話会議のネットワーク上での、オープンなプレビュー機能について説明します。
-ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444213"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503474"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>電話会議のネットワーク上の会議のプレビューを開く
 
@@ -63,7 +63,7 @@ ms.locfileid: "48444213"
 
 チーム会議のダイヤルアウト通話は、組織内の会議内から、PSTN 番号への通話 (コールイン通話、通話など) に対して開始され、新しい参加者を会議に追加します。 
 
-直接ルーティングを使用してチーム会議のダイヤルアウトルーティングを有効にするには、"OnlineAudioConferencingRoutingPolicy" と呼ばれる電話会議ルーティングポリシーを作成して割り当てる必要があります。 
+ネットワーク上のユーザーへの直接ルーティングを通じてチーム会議のダイヤルアウトルーティングを有効にするには、"OnlineAudioConferencingRoutingPolicy" と呼ばれる電話会議ルーティングポリシーを作成して割り当てる必要があります。 
 
 OnlineAudioConferencingRoutingPolicy ポリシーは、ダイレクトルーティングによる1:1 の PSTN 通話の CsOnlineVoiceRoutingPolicy と同じです。 OnlineAudioConferencingRoutingPolicy ポリシーは、次のコマンドレットを使用して管理できます。
 

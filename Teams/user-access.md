@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-f1.keywords:
-- CSH
 ms.reviewer: ritikag
 search.appverid: MET150
 description: 組織内のユーザーに Teams のライセンスを割り当てまたは削除して、チームへのユーザーアクセスを管理する方法について説明します。
+f1.keywords:
+- CSH
+- ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32ab8f68ef1c37fbb5cb724b322b4db0ee757b84
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042274"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521384"
 ---
 # <a name="manage-user-access-to-teams"></a>Teams へのユーザー アクセスを管理する
 
@@ -31,6 +32,7 @@ Microsoft Teams 製品ライセンスを割り当てたり、削除したりし�
 
 既定では、ライセンス計画 (Microsoft 365 Enterprise E3 や Microsoft 365 Business Premium など) がユーザーに割り当てられている場合、Teams ライセンスが自動的に割り当てられ、ユーザーはチームに対して有効になります。 ライセンスを削除するか、いつでも割り当てて、ユーザーに対して Teams を有効または無効にすることができます。
 
+Teams <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理センター</a>から管理されるメッセージポリシーを使用して、teams のユーザーが利用できるチャットおよびチャネルメッセージング機能を制御します。 組織内のユーザーに対して、既定のポリシーを使用するか、1つ以上のカスタムメッセージポリシーを作成することができます。 詳細については、「 [Teams のメッセージングポリシーを管理する」](messaging-policies-in-teams.md)を参照してください。
 Teams のライセンスは、Microsoft 365 管理センターまたは PowerShell を使用して管理します。 ライセンスを管理するには、グローバル管理者またはユーザー管理者である必要があります。
 
 > [!NOTE]
@@ -38,13 +40,17 @@ Teams のライセンスは、Microsoft 365 管理センターまたは PowerShe
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターを使用する
 
-Microsoft 365 管理センターを使用して、個々のユーザーまたは少数のユーザーの Teams ライセンスを一度に管理します。 Teams のライセンスは、[**ライセンス**] ページ (同時に最大20人のユーザーの場合) または [**アクティブなユーザー** ] ページで管理できます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザーライセンスを管理するかによって異なります。
+Teams のユーザーレベルのライセンスは、Microsoft 365 管理センターのユーザー管理インターフェイスを使用して直接管理されます。 管理者は、新しいユーザーアカウントが作成されたとき、または既存のアカウントを持つユーザーに対して、新しいユーザーにライセンスを割り当てることができます。 
+
+> [!IMPORTANT]
+> 管理者は、Microsoft Teams ライセンスを管理するためのグローバル管理者またはユーザー管理者の権限を持っている必要があります。
+Microsoft 365 管理センターを使用して、個々のユーザーまたは少数のユーザーの Teams ライセンスを一度に管理します。 Teams のライセンスは、[ **ライセンス** ] ページ (同時に最大20人のユーザーの場合) または [ **アクティブなユーザー** ] ページで管理できます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザーライセンスを管理するかによって異なります。
 
 数百または数千のユーザーなど、多数のユーザーの Teams ライセンスを管理する必要がある場合は、 [Azure Active Directory (AZURE AD) で](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)Powershell またはグループベースのライセンスを[使用](#using-powershell)します。 
 
 ### <a name="assign-a-teams-license"></a>Teams ライセンスを割り当てる
 
-この手順は、[**ライセンス**] ページまたは [**アクティブなユーザー** ] ページのどちらを使用するかによって異なります。  詳細な手順については、「[ユーザーにライセンスを割り当てる](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)」を参照してください。
+この手順は、[ **ライセンス** ] ページまたは [ **アクティブなユーザー** ] ページのどちらを使用するかによって異なります。  詳細な手順については、「 [ユーザーにライセンスを割り当てる](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)」を参照してください。
 
 |||
 |---------|---------|
@@ -52,13 +58,13 @@ Microsoft 365 管理センターを使用して、個々のユーザーまたは
 
 ### <a name="remove-a-teams-license"></a>Teams ライセンスを削除する
 
-ユーザーからチームライセンスを削除すると、そのユーザーに対してチームが無効になり、アプリ起動ツールまたはホームページで teams が表示されなくなります。 詳細な手順については、「[ユーザーからライセンスの割り当てを解除](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)する」をご覧ください。
+ユーザーからチームライセンスを削除すると、そのユーザーに対してチームが無効になり、アプリ起動ツールまたはホームページで teams が表示されなくなります。 詳細な手順については、「 [ユーザーからライセンスの割り当てを解除](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)する」をご覧ください。
 
 |||
 |---------|---------|
 |![ユーザーが無効にした Teams ライセンスのスクリーンショット](media/remove-teams-licenses-1.png)    | ![ユーザーが無効にした Teams ライセンスのスクリーンショット](media/remove-teams-licenses-2.png)        |
 
-## <a name="using-powershell"></a>PowerShell を使用する場合
+## <a name="using-powershell"></a>PowerShell の使用
 
 PowerShell を使用して、ユーザーの Teams ライセンスを一括で管理します。 他のサービスプランライセンスの場合と同様に、PowerShell を使用して Teams を有効または無効にします。 Teams のサービスプランの識別子が必要です。次のようになります。
 
@@ -72,20 +78,20 @@ PowerShell を使用して、ユーザーの Teams ライセンスを一括で�
 
 ### <a name="remove-teams-licenses-in-bulk"></a>Teams ライセンスを一括で削除する
 
-詳細な手順については、「 [PowerShell を使ったサービスへのアクセスを無効に](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)する」および「[ユーザーライセンスの割り当て中にサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)にする」を参照
+詳細な手順については、「 [PowerShell を使ったサービスへのアクセスを無効に](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) する」および「 [ユーザーライセンスの割り当て中にサービスへのアクセスを無効](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)にする」を参照
 
 #### <a name="example"></a>例 
 
-次の例は、 [MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions)と[set-msoluserlicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense)コマンドレットを使用して、特定のライセンス計画を持っているユーザーのチームを無効にする方法を示しています。 たとえば、次の手順に従って、特定のライセンス計画を持っているすべてのユーザーに対して Teams の使用を無効にします。 次に、Teams にアクセスする必要がある個々のユーザーに対して Teams を有効にします。
+次の例は、 [MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) と [set-msoluserlicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) コマンドレットを使用して、特定のライセンス計画を持っているユーザーのチームを無効にする方法を示しています。 たとえば、次の手順に従って、特定のライセンス計画を持っているすべてのユーザーに対して Teams の使用を無効にします。 次に、Teams にアクセスする必要がある個々のユーザーに対して Teams を有効にします。
 
 > [!IMPORTANT]
-> カスタムスクリプトで明示的に指定されていない限り、 [MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions)コマンドレットによって、以前に無効になっていたすべてのサービスが有効になります。 たとえば、チームを無効にしている間も Exchange と Sway の両方を無効のままにしておく必要がある場合は、これをスクリプトに含めるか、または Exchange と Sway の両方を有効にして、特定のユーザーに対して有効にする必要があります。
+> カスタムスクリプトで明示的に指定されていない限り、 [MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) コマンドレットによって、以前に無効になっていたすべてのサービスが有効になります。 たとえば、チームを無効にしている間も Exchange と Sway の両方を無効のままにしておく必要がある場合は、これをスクリプトに含めるか、または Exchange と Sway の両方を有効にして、特定のユーザーに対して有効にする必要があります。
 
 次のコマンドを実行して、組織内で利用可能なすべてのライセンスプランを表示します。 詳細については、「 [PowerShell でライセンスとサービスを表示](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)する」を参照してください。
 
       Get-MsolAccountSku
 
-次のコマンドを実行し\<ます。ここで、"CompanyName: ライセンス>" は、組織名と、前の手順で取得したライセンスプランの識別子です。 たとえば、ContosoSchool: ENTERPRISEPACK_STUDENT とします。
+次のコマンドを実行し \<CompanyName:License> ます。ここでは、組織名と、前の手順で取得したライセンスプランの識別子を指定します。 たとえば、ContosoSchool: ENTERPRISEPACK_STUDENT とします。
 
       $acctSKU="<CompanyName:License>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"

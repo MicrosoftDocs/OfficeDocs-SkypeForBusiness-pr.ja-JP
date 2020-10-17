@@ -12,20 +12,22 @@ ms:contentKeyID: 48185586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfd58efd994e7034253fd3314e66d956e3259bcb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 68ae12ee384a78acd8c5c390715b05791b7a0df8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213523"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522594"
 ---
+# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>ホストされた Exchange UM と Lync Server 2013 を統合するための展開プロセス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>ホストされた Exchange UM と Lync Server 2013 を統合するための展開プロセス
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2012-09-25_
 
 ## <a name="integration-process"></a>統合プロセス
 
-次の表は、ホストされた Exchange UM 統合プロセスの概要を示しています。 展開手順の詳細については、「展開」のドキュメントの「 [Lync Server 2013 ユーザーのボイスメールをホストされた EXCHANGE UM に提供](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)する」を参照してください。
+次の表は、ホストされた Exchange UM 統合プロセスの概要を示しています。 展開手順の詳細については、「展開」のドキュメントの「 [Lync Server 2013 ユーザーのボイスメールをホストされた EXCHANGE UM に提供](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) する」を参照してください。
 
 
 <table>
@@ -87,8 +89,8 @@ _**トピックの最終更新日:** 2012-09-25_
 <tr class="even">
 <td><p>ホストボイスメールポリシーを構成します。</p></td>
 <td><ol>
-<li><p>グローバルホストボイスメールポリシーを変更するか、サイトまたはユーザーごとのスコープを使用して新しいホストボイスメールポリシーを作成します。</p></li>
-<li><p>ユーザー単位のスコープを持つポリシーの場合は、ポリシーをユーザーまたはグループに割り当てます。</p></li>
+<li><p>グローバルホストボイスメールポリシーを変更するか、サイトまたは Per-User のスコープを使用して新しいホストボイスメールポリシーを作成します。</p></li>
+<li><p>Per-User スコープを持つポリシーでは、ポリシーをユーザーまたはグループに割り当てます。</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Lync Server 2013 でホストボイスメールポリシーを管理する</a></p></td>
@@ -111,7 +113,7 @@ _**トピックの最終更新日:** 2012-09-25_
 <div>
 
 > [!NOTE]  
-> 連絡先オブジェクトを作成、変更、または削除するには、新しい連絡先オブジェクトが格納されている Active Directory 組織単位への適切なアクセス許可を、新しい-CsExUmContact コマンドを実行しているユーザーが持っている必要があります。 このアクセス許可は、Grant-CsOUPermission コマンドレットを実行することで付与されます。 詳細については、Lync Server 管理シェルのドキュメントを参照してください。
+> 連絡先オブジェクトを作成、変更、または削除するには、Set-CsExUmContact または Remove-CsExUmContact コマンドレットを実行するユーザーが、新しい連絡先オブジェクトが格納されている Active Directory 組織単位に対して適切なアクセス許可を持っている必要があります。 このアクセス許可は、Grant-CsOUPermission コマンドレットを実行することで付与されます。 詳細については、Lync Server 管理シェルのドキュメントを参照してください。
 
 
 </div></td>

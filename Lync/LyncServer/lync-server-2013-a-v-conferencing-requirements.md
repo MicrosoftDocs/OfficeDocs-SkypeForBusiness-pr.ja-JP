@@ -12,20 +12,22 @@ ms:contentKeyID: 49733883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baf920b546891d3678086820f95c43bed887b3ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c98e608a4cc555bd2a62c4a495b8ce994c4de6c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198840"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523244"
 ---
+# <a name="av-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオ会議の要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="av-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオ会議の要件
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198840"
 
 _**トピックの最終更新日:** 2012-09-30_
 
-Lync Server 2013 会議のインフラストラクチャ要件は、Lync Server 2013 の展開の場合と同じです。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 のインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md)」を参照してください。
+Lync Server 2013 会議のインフラストラクチャ要件は、Lync Server 2013 の展開の場合と同じです。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 のインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md) 」を参照してください。
 
 会議で生成されるメディアトラフィックを処理するために必要なメディア帯域幅があることが重要です。 必要な帯域幅の計算に使用できる詳細については、「 [Lync Server 2013 のメディアトラフィックのネットワーク帯域幅要件](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)」を参照してください。 帯域幅の制限の詳細については、「 [Lync Server 2013 での帯域幅ポリシープロファイルの作成または変更](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)」を参照してください。 インフラストラクチャ要件の詳細については、「 [Lync Server 2013 のネットワークインフラストラクチャ要件](lync-server-2013-network-infrastructure-requirements.md)」を参照してください。
 

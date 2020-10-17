@@ -9,30 +9,31 @@ manager: serdars
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.adoption
-- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.adoption
+- seo-marvel-apr2020
+- Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d6e00077b3d3d563ab35358ab93942db4fa5aa4
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 14738e22293dfb543cf49019a5df6a4539c8e251
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503484"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
 > [!NOTE]
 > リモート学習への移行の概要と開始に役立つリソースについては、「[Remote Learning home page (リモート学習のホーム ページ)](https://www.microsoft.com/education/remote-learning)」を参照してください。
 
-小規模ビジネスの場合、またはチャット、teams & チャネル、会議などで開始するチームをロールアウトする場合は、この[ガイド](get-started-with-teams-quick-start.md)を使用して、すぐに作業を開始できるように設計されています。 ハイブリッドまたはオンプレミスの Skype for Business の構成を使用している大規模な組織の場合、または音声機能 (Microsoft 365 または Office 365 の通話プランや電話システムなど) を展開する場合は、「はじめ[に」の](https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=pr-en-us-5567#deeper-adoption-guidance)ガイダンスに従って、次の追加のガイダンスをご覧ください。
+小規模ビジネスの場合、またはチャット、teams & チャネル、会議などで開始するチームをロールアウトする場合は、この [ガイド](get-started-with-teams-quick-start.md)を使用して、すぐに作業を開始できるように設計されています。 ハイブリッドまたはオンプレミスの Skype for Business の構成を使用している大規模な組織の場合、または音声機能 (Microsoft 365 または Office 365 の通話プランや電話システムなど) を展開する場合は、「はじめ [に」の](https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=pr-en-us-5567#deeper-adoption-guidance)ガイダンスに従って、次の追加のガイダンスをご覧ください。
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

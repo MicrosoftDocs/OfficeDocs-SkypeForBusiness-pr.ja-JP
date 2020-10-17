@@ -12,20 +12,22 @@ ms:contentKeyID: 48184005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cac927798aa42106b7bee2643eaf316100f2e709
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 221a1dde45ba8554eee9978bff8f3d277902517e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209743"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523474"
 ---
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>フェーズ 3: Lync Server 2013 パイロットプールを展開する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>フェーズ 3: Lync Server 2013 パイロットプールを展開する
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2012-08-28_
 
   - [Lync Server 2013 パイロットプールの展開](deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [パイロットプールとレガシプールの共存を確認する](verify-pilot-pool-coexistence-with-legacy-pool_1.md)
+  - [パイロット プールとレガシ プールの共存の確認](verify-pilot-pool-coexistence-with-legacy-pool_1.md)
 
 </div>
 

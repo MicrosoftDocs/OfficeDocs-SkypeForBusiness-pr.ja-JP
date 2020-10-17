@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01180f95766412b82d9df7986c3667298f24d5b4
-ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
+ms.openlocfilehash: 9ec470422e402da07171bef627d1592c73d6c12f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "48486877"
+ms.locfileid: "48514134"
 ---
 # <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>Teams での Firstline Worker のシフトベースのアクセスを管理する
 
@@ -114,7 +114,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 ```
 
 > [!NOTE]
-> **ShiftNoticeMessageType**パラメーターを使用して、表示するメッセージを設定します。 このパラメーターに対して選ぶことができる定義済みメッセージの一覧を表示するには、「New-TeamsShiftPolicy」を参照してください。
+> **ShiftNoticeMessageType**パラメーターを使用して、表示するメッセージを設定します。 このパラメーターに対して選ぶことができる定義済みメッセージの一覧を表示するには、「 [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)」を参照してください。
 
 ### <a name="example-4"></a>例 4
 

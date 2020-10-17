@@ -12,20 +12,22 @@ ms:contentKeyID: 49733801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 075deabdbc57bd809fce4bf3e4635309f367d69c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 58602a2fed6faa03c7dd573b95345a0ee57aa607
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211243"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523544"
 ---
+# <a name="viewing-information-about-push-notification-settings-in-lync-server-2013"></a>Lync Server 2013 のプッシュ通知設定に関する情報の表示
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-information-about-push-notification-settings-in-lync-server-2013"></a>Lync Server 2013 のプッシュ通知設定に関する情報の表示
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 3.  左側のナビゲーション バーで [**クライアント**] をクリックし、[**プッシュ通知構成**] ナビゲーション ボタンをクリックします。
 
-4.  [**プッシュ通知の構成**] ページで、表示するサイトをクリックし、[**編集**] メニューをクリックして、[**詳細の表示**] をクリックします。
+4.  [ **プッシュ通知の構成** ] ページで、表示するサイトをクリックし、[ **編集** ] メニューをクリックして、[ **詳細の表示**] をクリックします。
 
 </div>
 
@@ -57,7 +59,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="viewing-push-notification-information-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してプッシュ通知情報を表示する
 
-プッシュ通知の構成設定を表示するには、Windows PowerShell と、コマンドレットの**取得**を使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+プッシュ通知の構成設定を表示するには、Windows PowerShell と、コマンドレットの **取得** を使用します。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -75,7 +77,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 </div>
 
-詳細については、「Get-help」と[いう](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration)コマンドレットのヘルプトピックを参照してください。
+詳細については、「Get-help」と [いう](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

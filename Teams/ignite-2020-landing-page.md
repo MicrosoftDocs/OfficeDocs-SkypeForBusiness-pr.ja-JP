@@ -4,13 +4,16 @@ description: 利用可能なすべてのビジネス用ラーニングを検索�
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
-ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
-ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
+audience: admin
+manager: serdars
+ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357605"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514944"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 での Teams セッション
 
@@ -85,7 +88,7 @@ ms.locfileid: "48357605"
 |[低コード機能を備えた Microsoft Teams のカスタムアプリ、ボット、オートメーションを構築する](https://aka.ms/PR134)|Teams のカスタムソリューションを構築する方法について説明します。  Teams + Power Platform との統合について詳しく説明します。ユーザーがカスタムデジタルツールを作成する方法については、開発者エクスペリエンスがない場合でも説明します。|300|Pete Daderko、Geneve Estrada|
 |[Teams とアダプティブカードを使ってユーザーエクスペリエンスを引き上げる](https://aka.ms/PR135)|アダプティブカードを搭載した teams プラットフォームでは、Teams で美しくの統合されたユーザーエクスペリエンスを構築できます。 このセッションでは、開発者が新機能を活用して、チーム内での共同作業を促進するコンテキストおよび準拠したエクスペリエンスを構築する方法について説明します。|300|Suryamanohar Mallela, Shubham Chauhan|
 |[ヒントとテクニック: Microsoft Teams アプリを構築するときのベストプラクティスと一般的な課題](https://aka.ms/PR136) |チームアプリを構築するときに、開発者が行う一般的な問題について説明します。 開発者は、チームアプリの開発を続けているときに使用できるヒントと洞察をこのセッションから脱退します。|400|(の Erin Bailie|
-|[摩擦を備えたアプリを構築して、承認および認証機能と Microsoft Graph を使用したシームレスな導入 & 実現](https://aka.ms/PR137)|シングルサインオン (SSO)、リソース固有の同意 (RSC)、細かいアクセス許可、IT 管理者が、Graph Api を活用してアプリのライフサイクルと管理を自動化する方法など、強力な機能を備えたアプリを開発できます。|400|ニックネーム|
+|[摩擦を備えたアプリを構築して、承認および認証機能と Microsoft Graph を使用したシームレスな導入 & 実現](https://aka.ms/PR137)|1つの Sign-On (SSO)、Resource-Specific 同意 (RSC)、細かい権限、IT 管理者が、Graph Api を活用してアプリのライフサイクルと管理を自動化する方法など、優れた機能を備えたアプリを開発できます。|400|ニックネーム|
 ||||||
 
 ### <a name="industry"></a>初

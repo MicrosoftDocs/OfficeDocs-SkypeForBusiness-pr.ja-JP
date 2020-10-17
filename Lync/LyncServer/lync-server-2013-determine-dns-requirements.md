@@ -12,20 +12,22 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3f1bc8cd839b986a4830ad32f797835c56e9ebd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d00f86eb437f673e83e2ea2e610ad9b35dbea082
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198130"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522604"
 ---
+# <a name="determine-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 の DNS 要件を決定する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="determine-dns-requirements-for-lync-server-2013"></a>Lync Server 2013 の DNS 要件を決定する
+
 
 </div>
 
@@ -67,31 +69,31 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## <a name="how-lync-clients-locate-services"></a>Lync クライアントがサービスを検索する方法
 
-Microsoft Lync 2010、Lync 2013、Lync Mobile は、クライアントが Lync Server 2013 でサービスを検索してアクセスする方法に似ています。 注目すべき例外として、異なるサービスの場所のプロセスを使用する Lync Windows ストアアプリがあります。 このセクションでは、クライアントがサービスを検索する方法、最初に一連の SRV およびホストレコードを使用する従来の方法、さらには自動検出サービスレコードのみを使用して、2つのシナリオについて説明します。 デスクトップクライアントへの累積的な更新プログラムを適用すると、すべてのクライアントに対して Lync Server 2010 から DNS の場所のプロセスが変更されます。クエリが正常に返されるか、または使用可能な DNS レコードの一覧が表示されなくなるまで、DNS クエリプロセスは続行され、最後のエラーが返されます。クライアント。
+Microsoft Lync 2010、Lync 2013、Lync Mobile は、クライアントが Lync Server 2013 でサービスを検索してアクセスする方法に似ています。 注目すべき例外として、異なるサービスの場所のプロセスを使用する Lync Windows ストアアプリがあります。 このセクションでは、クライアントがサービスを検索する方法、最初に一連の SRV およびホストレコードを使用する従来の方法、さらには自動検出サービスレコードのみを使用して、2つのシナリオについて説明します。 デスクトップクライアントへの累積的な更新プログラムを適用すると、すべてのクライアントに対して Lync Server 2010 から DNS の場所のプロセスが変更されます。 DNS クエリプロセスは、クエリが正常に返されるか、または使用可能な DNS レコードの一覧が使い果たされるまで続行され、最終的なエラーがクライアントに返されます。
 
-DNS 参照中に Lync Windows ストアアプリを**除く**すべてのクライアントについて、SRV レコードが照会され、次の順序でクライアントに返されます。
+DNS 参照中に Lync Windows ストアアプリを **除く** すべてのクライアントについて、SRV レコードが照会され、次の順序でクライアントに返されます。
 
-1.  lyncdiscoverinternal.\<内部\> Web サービスの自動検出サービスのドメイン A (ホスト) レコード
+1.  lyncdiscoverinternal。 \<domain\>    内部 Web サービスの自動検出サービスの A (ホスト) レコード
 
-2.  lyncdiscover.\<外部\> Web サービスの自動検出サービスのドメイン A (ホスト) レコード
+2.  lyncdiscover。 \<domain\>    外部 Web サービス上の自動検出サービスの A (ホスト) レコード
 
-3.  \_sipinternaltls.\_tcp。\<内部\> TLS 接続のドメイン SRV (サービスロケーター) レコード
+3.  \_sipinternaltls。 \_tcp。 \<domain\>    内部 TLS 接続用の SRV (サービスロケーター) レコード
 
-4.  \_sipinternal.\_tcp。\<内部\> tcp 接続のドメイン SRV (サービスロケーター) レコード (tcp が許可されている場合にのみ実行)
+4.  \_sipinternal。 \_tcp。 \<domain\>    内部 TCP 接続の SRV (サービスロケーター) レコード (TCP が許可されている場合にのみ実行)
 
-5.  \_sip.\_tls。\<外部\> TLS 接続のドメイン SRV (サービスロケーター) レコード
+5.  \_sip。 \_tls。 \<domain\>    外部 TLS 接続用の SRV (サービスロケーター) レコード
 
-6.  sipinternal.\<フロント\>エンドプールまたはディレクターのドメイン A (ホスト) レコード (内部ネットワーク上でのみ解決可能)
+6.  sipinternal。 \<domain\>    フロントエンドプールまたはディレクターの A (ホスト) レコード (内部ネットワーク上でのみ解決可能)
 
-7.  sip.\<内部\>ネットワーク上のフロントエンドプールまたはディレクターのドメイン A (ホスト) レコード、またはクライアントが外部にある場合はアクセスエッジサービス
+7.  sip。 \<domain\>    内部ネットワーク上のフロントエンドプールまたはディレクターの (ホスト) レコード、またはクライアントが外部にある場合はアクセスエッジサービス
 
-8.  sipexternal.\<クライアント\>が外部にいる場合のアクセスエッジサービスのドメイン A (ホスト) レコード
+8.  sipexternal。 \<domain\>    クライアントが外部にいる場合のアクセスエッジサービスの A (ホスト) レコード
 
 Lync Windows ストアアプリは、2つのレコードを使用するので、プロセスが完全に変更されます。
 
-1.  lyncdiscoverinternal.\<内部\> Web サービスの自動検出サービスのドメイン A (ホスト) レコード
+1.  lyncdiscoverinternal。 \<domain\>    内部 Web サービスの自動検出サービスの A (ホスト) レコード
 
-2.  lyncdiscover.\<外部\> Web サービスの自動検出サービスのドメイン A (ホスト) レコード
+2.  lyncdiscover。 \<domain\>    外部 Web サービス上の自動検出サービスの A (ホスト) レコード
 
 他のレコードの種類へのフォールバックはありません。
 
@@ -115,7 +117,7 @@ Lync Server 2013 の累積的な更新プログラム (2 月 11 2013 日) がイ
 
 
 > [!TIP]  
-> 既定の構成では、すべてのモバイルクライアントトラフィックを外部サイト経由で転送します。 要件に適している場合は、設定を変更して内部 URL のみを返すようにできます。 この構成では、ユーザーは企業ネットワークの内部にいる場合にのみ、モバイルデバイスで Lync mobile アプリケーションを使用できます。 この構成を定義するには、 <STRONG>Set-CsMcxConfiguration</STRONG>コマンドレットを使用します。
+> 既定の構成では、すべてのモバイルクライアントトラフィックを外部サイト経由で転送します。 要件に適している場合は、設定を変更して内部 URL のみを返すようにできます。 この構成では、ユーザーは企業ネットワークの内部にいる場合にのみ、モバイルデバイスで Lync mobile アプリケーションを使用できます。 この構成を定義するには、 <STRONG>Set-CsMcxConfiguration</STRONG> コマンドレットを使用します。
 
 
 
@@ -133,9 +135,9 @@ Lync Server 2013 の累積的な更新プログラム (2 月 11 2013 日) がイ
 
 モバイルデバイスは、サービスの手動検出をサポートしています。 この場合、各ユーザーは、次のように、完全な内部および外部の自動検出サービス Uri (プロトコルとパスを含む) でモバイルデバイスの設定を構成する必要があります。
 
-  - 外部\<アクセス用の\>Https://extpoolfqdn/autodiscover/autodiscoverservice.svc/root (
+  - \<ExtPoolFQDN\>外部アクセス用の Https:///autodiscover/autodiscoverservice.svc/root (
 
-  - 内部\<アクセス用の\>Https://intpoolfqdn/AutoDiscover/AutoDiscover.svc/Root
+  - \<IntPoolFQDN\>内部アクセス用の Https:///AutoDiscover/AutoDiscover.svc/Root
 
 手動検出ではなく、自動検出を使用することをお勧めします。 ただし、手動の設定は、モバイルデバイスの接続の問題のトラブルシューティングに役立ちます。
 
@@ -143,7 +145,7 @@ Lync Server 2013 の累積的な更新プログラム (2 月 11 2013 日) がイ
 
 <div>
 
-## <a name="configuring-split-brain-dns-with-lync-server"></a>Lync Server でのスプリットブレイン DNS の構成
+## <a name="configuring-split-brain-dns-with-lync-server"></a>Lync Server を使用して Split-Brain DNS を構成する
 
 スプリットブレイン DNS は、分割 DNS またはスプリットホライズン DNS など、さまざまな名前で認識されます。 単純に、同じ名前空間を持つ2つの DNS ゾーンがあり、DNS ゾーンサービスの内部のみの要求、およびその他の DNS ゾーンサービスの外部専用要求がある DNS 構成について説明します。 ただし、内部 DNS に含まれる DNS SRV および A レコードの多くは、外部 DNS には含まれず、逆の場合も同様です。 内部および外部 DNS の両方に同じ DNS レコードが存在する場合 (たとえば、www.contoso.com)、返される IP アドレスは、クエリが開始された場所 (内部または外部) によって異なります。
 
@@ -151,7 +153,7 @@ Lync Server 2013 の累積的な更新プログラム (2 月 11 2013 日) がイ
 
 
 > [!IMPORTANT]  
-> 現時点では、LyncDiscover および LyncDiscoverInternal DNS レコードに対して、スプリットブレイン DNS はサポートされていません。 LyncDiscover は、外部 DNS サーバーで定義されている必要があり、LyncDiscoverInternal は内部 DNS サーバーで定義されている必要があります。
+> Split-Brain 現時点では、LyncDiscover および LyncDiscoverInternal DNS レコードは、モビリティに対してはサポートされていません。 LyncDiscover は、外部 DNS サーバーで定義されている必要があり、LyncDiscoverInternal は内部 DNS サーバーで定義されている必要があります。
 
 
 
@@ -179,7 +181,7 @@ Lync Server 2013 の累積的な更新プログラム (2 月 11 2013 日) がイ
     
       - 境界ネットワーク内のすべての Lync Server 2013 エッジサーバー内部エッジインターフェイスは、contoso.com へのクエリを解決するために内部 DNS ゾーンを使用します。
     
-      - 企業ネットワーク内の Lync Server 2013 を実行2013しているすべてのサーバーは、内部 DNS サーバーを参照して contoso.com へのクエリを解決するか、各エッジサーバーで HOSTS ファイルを使用し、リスト A と AAAA (IPv6 アドレス指定を使用している場合) レコードを参照します。次ホップサーバー、特にディレクターまたはディレクター VIP、フロントエンドプール VIP、または Standard Edition サーバー
+      - 企業ネットワーク内の Lync Server 2013 を実行2013しているすべてのサーバーは、contoso.com に対するクエリを解決するための内部 DNS サーバーを指しているか、各エッジサーバーで HOSTS ファイルを使用しています。また、各エッジサーバーで HOSTS ファイルを使用します。、または Standard Edition サーバー
 
 **外部 DNS:**
 
@@ -199,27 +201,27 @@ Lync Server 2013 の累積的な更新プログラム (2 月 11 2013 日) がイ
 
 <div>
 
-## <a name="automatic-configuration-without-split-brain-dns"></a>スプリットブレイン DNS なしの自動構成
+## <a name="automatic-configuration-without-split-brain-dns"></a>Split-Brain DNS を使用しない自動構成
 
-内部 DNS ゾーンに\_sipinternaltls が含まれている場合は、スプリットブレイン DNS を使用して内部にサインインする Lync Server 2013 ユーザーが自動構成を利用できます。\_使用中の各 SIP ドメインの tcp SRV レコード。 ただし、スプリットブレイン DNS を使用しない場合は、このセクションで後述する回避策のいずれかが実装されていなければ、Lync を実行しているクライアントの内部自動構成は機能しません。 これは、Lync Server 2013 では、ユーザーの SIP URI が自動構成用に指定されたフロントエンドプールのドメインと一致する必要があるためです。 これは、以前のバージョンの Communicator の場合と同じです。
+内部 DNS ゾーンに sipinternaltls が含まれている場合は、スプリットブレイン DNS を使用して内部にサインインする Lync Server 2013 ユーザーが自動構成を利用できます \_ 。 \_使用中の各 SIP ドメインの tcp SRV レコード。 ただし、スプリットブレイン DNS を使用しない場合は、このセクションで後述する回避策のいずれかが実装されていなければ、Lync を実行しているクライアントの内部自動構成は機能しません。 これは、Lync Server 2013 では、ユーザーの SIP URI が自動構成用に指定されたフロントエンドプールのドメインと一致する必要があるためです。 これは、以前のバージョンの Communicator の場合と同じです。
 
 たとえば、2つの SIP ドメインが使用されている場合、次の DNS サービス (SRV) レコードが必要になります。
 
   - ユーザーが bob@contoso.com としてサインインすると、ユーザーの SIP ドメイン (contoso.com) が自動構成フロントエンドプールのドメインと一致するため、次の SRV レコードが自動構成に対して機能します。
     
-     \_sipinternaltls.\_tcp.contoso.com。 SRV 0 0 5061 pool01.contoso.com の86400
+     \_sipinternaltls。 \_tcp.contoso.com。 SRV 0 0 5061 pool01.contoso.com の86400
 
   - ユーザーが alice@fabrikam.com としてサインインしている場合、次の DNS SRV レコードは、2番目の SIP ドメインの自動構成に使用できます。
     
-     \_sipinternaltls.\_tcp.fabrikam.com。 SRV 0 0 5061 pool01.fabrikam.com の86400
+     \_sipinternaltls。 \_tcp.fabrikam.com。 SRV 0 0 5061 pool01.fabrikam.com の86400
 
 比較のために、ユーザーが tim@litwareinc.com としてサインインする場合、次の DNS SRV レコードは自動構成では機能しません。クライアントの SIP ドメイン (litwareinc.com) は、プールが存在するドメイン (fabrikam.com) と一致しないためです。
 
- \_sipinternaltls.\_tcp.litwareinc.com。 SRV 0 0 5061 pool01.fabrikam.com の86400
+ \_sipinternaltls。 \_tcp.litwareinc.com。 SRV 0 0 5061 pool01.fabrikam.com の86400
 
 Lync を実行しているクライアントに対して自動構成が必要な場合は、次のいずれかのオプションを選択します。
 
-  - **グループポリシーオブジェクト**   はグループポリシーオブジェクト (gpo) を使用して、適切なサーバーの値を設定します。
+  - **グループポリシーオブジェクト**    グループポリシーオブジェクト (Gpo) を使用して、適切なサーバーの値を設定します。
     
     <div>
     
@@ -230,9 +232,9 @@ Lync を実行しているクライアントに対して自動構成が必要な
     
     </div>
 
-  - **[内部ゾーン**   の一致] 外部 dns ゾーンに一致する内部 dns (contoso.com など) にゾーンを作成し、自動構成に使用される Lync Server 2013 プールに対応する DNS a および AAAA (IPv6 アドレスを使用している場合) のレコードを作成します。 たとえば、ユーザーが pool01.contoso.net に所属しているが、bob@contoso.com として Lync にサインインしている場合は、pool01.contoso.com の DNS A および AAAA (IPv6 アドレスを使用する場合) レコードを作成します。
+  - **内部ゾーン**     の一致内部 DNS で、外部 DNS ゾーンに一致するゾーンを作成し (たとえば、contoso.com)、自動構成に使用される Lync Server 2013 プールに対応する DNS A および AAAA (IPv6 アドレスを使用している場合) を作成します。 たとえば、ユーザーが pool01.contoso.net に所属しているが、bob@contoso.com として Lync にサインインしている場合は、pool01.contoso.com の DNS A および AAAA (IPv6 アドレスを使用する場合) レコードを作成します。
 
-  - **ピンポイント内部ゾーン**   内部 DNS でゾーン全体を作成するのではない場合、自動構成に必要な SRV レコードに対応する pin ポイント (つまり専用) のゾーンを作成し、それらのゾーンに dnscmd を使用して設定することができます。 DNS ユーザーインターフェイスはピンポイントゾーンの作成をサポートしていないため、Dnscmd は必要です。 たとえば、SIP ドメインが contoso.com、2台のフロントエンドサーバーを含む pool01 というフロントエンドプールがある場合は、次のピンポイントゾーンと内部 DNS 内のレコードが必要です。
+  - **ピンポイントの内部ゾーン**    内部 DNS でゾーン全体を作成するのではなく、自動構成に必要な SRV レコードに対応する pin ポイント (つまり専用) の領域を作成し、それらの領域に dnscmd.exe を使用して設定することができます。 DNS ユーザーインターフェイスがピンポイントゾーンの作成をサポートしていないため、Dnscmd.exe が必要です。 たとえば、SIP ドメインが contoso.com、2台のフロントエンドサーバーを含む pool01 というフロントエンドプールがある場合は、次のピンポイントゾーンと内部 DNS 内のレコードが必要です。
     
         dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
         dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
@@ -262,7 +264,7 @@ Lync を実行しているクライアントに対して自動構成が必要な
 
 </div>
 
-詳細については、「DMTF のブログ記事、「Communicator 自動構成」、および「スプリット[https://go.microsoft.com/fwlink/p/?linkId=200707](https://go.microsoft.com/fwlink/p/?linkid=200707)ブレイン DNS」 () を参照してください。
+詳細については、「DMTF のブログ記事、「Communicator Automatic Configuration and Split-Brain DNS,」 () を参照してください [https://go.microsoft.com/fwlink/p/?linkId=200707](https://go.microsoft.com/fwlink/p/?linkid=200707) 。
 
 <div>
 
@@ -427,7 +429,7 @@ DNS 負荷分散は、次のような場合には使用できません。
 
 DNS 負荷分散とフェデレーショントラフィック:
 
-DNS SRV クエリによって複数の DNS レコードが返される場合、アクセスエッジサービスは常に、最も低い数値の優先度と最大の数値を持つ DNS SRV レコードを選択します。 「サービスの場所を指定するための DNS RR」というインターネット技術標準化のタスク強制ドキュメント<http://www.ietf.org/rfc/rfc2782.txt> 。複数の dns srv レコードが定義されている場合、優先度が最初に使用され、次に重みが設定されることを指定します。 たとえば、DNS SRV レコード A の重みは20で、優先度は40、DNS SRV レコード B の重みは10、優先度は50です。 優先度40の DNS SRV レコード A が選択されます。 DNS SRV レコードの選択には、次のルールが適用されます。
+DNS SRV クエリによって複数の DNS レコードが返される場合、アクセスエッジサービスは常に、最も低い数値の優先度と最大の数値を持つ DNS SRV レコードを選択します。 「サービスの場所を指定するための DNS RR」というインターネット技術標準化のタスク強制ドキュメント。 <http://www.ietf.org/rfc/rfc2782.txt> 複数の DNS srv レコードが定義されている場合、優先度が最初に使用され、次に重みが設定されることを指定します。 たとえば、DNS SRV レコード A の重みは20で、優先度は40、DNS SRV レコード B の重みは10、優先度は50です。 優先度40の DNS SRV レコード A が選択されます。 DNS SRV レコードの選択には、次のルールが適用されます。
 
   - 優先度が最初に考慮されます。 クライアントは、DNS SRV レコードによって定義されているターゲットホストに、到達可能な最小番号の優先度を持つ接続を試みる必要があります。 同じ優先度を持つターゲットは、weight フィールドで定義された順序で試行する必要があります。
 

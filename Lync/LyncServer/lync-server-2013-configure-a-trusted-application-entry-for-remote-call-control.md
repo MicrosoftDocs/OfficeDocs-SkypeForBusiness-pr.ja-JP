@@ -12,20 +12,22 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0135d26f0483b10752c8a823fdbda15ab9ba37b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f8175a351d13675c048efce7a2f831af7ab2c31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523064"
 ---
+# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013 でのリモート通話コントロールの信頼済みアプリケーションエントリを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013 でのリモート通話コントロールの信頼済みアプリケーションエントリを構成する
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server が通話をルーティングするために静的ルートを適�
 
 
 > [!IMPORTANT]
-> 以前のバージョンの Lync Server 展開からユーザーを移行する場合は、このトピックの手順を実行する前に、SIP/CSTA ゲートウェイ用に作成したすべての既存の信頼済みアプリケーションエントリ (以前の承認済みホストエントリ) を削除しておく必要があります。 詳細については、「 <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Lync Server で従来の承認済みホストを削除する 2013 (オプション)</A>」を参照してください。<BR>伝送制御プロトコル (TCP) 接続を使用して新しいリモート通話コントロールを展開する場合は、新しい信頼されたアプリケーションに対して同じ TCP ポートを使用する場合は、[<STRONG>選択した IP アドレスへのサービスの使用量を制限</STRONG>する] を [既存の信頼されたアプリケーションとプール] に設定する必要があります。
+> 以前のバージョンの Lync Server 展開からユーザーを移行する場合は、このトピックの手順を実行する前に、SIP/CSTA ゲートウェイ用に作成したすべての既存の信頼済みアプリケーションエントリ (以前の承認済みホストエントリ) を削除しておく必要があります。 詳細については、「 <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Lync Server で従来の承認済みホストを削除する 2013 (オプション)</A>」を参照してください。<BR>伝送制御プロトコル (TCP) 接続を使用して新しいリモート通話コントロールを展開する場合は、新しい信頼されたアプリケーションに対して同じ TCP ポートを使用する場合は、[ <STRONG>選択した IP アドレスへのサービスの使用量を制限</STRONG> する] を [既存の信頼されたアプリケーションとプール] に設定する必要があります。
 
 
 
@@ -53,7 +55,7 @@ Lync Server が通話をルーティングするために静的ルートを適�
 
 ## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a>SIP/CSTA ゲートウェイの信頼されたアプリケーション エントリを構成するには
 
-1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループまたは **「new-cstrustedapplicationpool**コマンドレットを割り当てた役割ベースのアクセス制御 (RBAC) の役割のメンバーとしてログオンします。
+1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループまたは **「new-cstrustedapplicationpool** コマンドレットを割り当てた役割ベースのアクセス制御 (RBAC) の役割のメンバーとしてログオンします。
 
 2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
@@ -63,7 +65,7 @@ Lync Server が通話をルーティングするために静的ルートを適�
         
             New-CsTrustedApplicationPool -Identity <FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
-        次に例を示します。
+        次にその例を示します。
         
             New-CsTrustedApplicationPool -Identity rccgateway.contoso.net -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
     
@@ -71,7 +73,7 @@ Lync Server が通話をルーティングするために静的ルートを適�
         
             New-CsTrustedApplicationPool -Identity <IP address or FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
-        次に例を示します。
+        次にその例を示します。
         
             New-CsTrustedApplicationPool -Identity 192.168.0.240 -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
 
@@ -81,7 +83,7 @@ Lync Server が通話をルーティングするために静的ルートを適�
         
             New-CsTrustedApplication -ApplicationID <application name> -TrustedApplicationPoolFqdn <FQDN of the SIP/CSTA gateway> -Port <SIP listening port on the gateway>
         
-        次に例を示します。
+        次にその例を示します。
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn rccgateway.contoso.net -Port 5065
     

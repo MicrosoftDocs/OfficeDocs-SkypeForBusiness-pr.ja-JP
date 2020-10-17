@@ -12,20 +12,22 @@ ms:contentKeyID: 48185443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4698484c240322623760f1fd308398192bfb928f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fde04364faf306983f5008539c2ccc6f248955bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216443"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522254"
 ---
+# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>オプションLync Server 2013 でのダイヤルイン会議へのユーザーのようこそ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-welcome-users-to-dial-in-conferencing-in-lync-server-2013"></a>オプションLync Server 2013 でのダイヤルイン会議へのユーザーのようこそ
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216443"
 
 _**トピックの最終更新日:** 2012-09-30_
 
-ダイヤルイン会議を構成し、正常に機能することを確認した後、ユーザーの初期の暗証番号 (Pin) を設定して、機能の可用性についてユーザーに通知する必要があります。これについては、概要説明など最初の PIN として、およびダイヤルイン会議の設定の web ページへのリンク。 この手順は省略できます。 通常**は、この**トピックの手順を使用して pin をリセットします。ただし、情報を含むウェルカムメールを送信する場合は、このトピックの手順を初めて使用することもできます。 メールを送信しない場合は、代わりに**Set-CsClientPin**を使用できます。
+ダイヤルイン会議を構成し、正常に機能することを確認した後、ユーザーの初期の暗証番号 (Pin) を設定し、初期 PIN やダイヤルイン会議設定 web ページへのリンクなどの概要の手順を含む、機能の利用状況についてユーザーに通知する必要があります。 この手順は省略できます。 通常 **は、この** トピックの手順を使用して pin をリセットします。ただし、情報を含むウェルカムメールを送信する場合は、このトピックの手順を初めて使用することもできます。 メールを送信しない場合は、代わりに **Set-CsClientPin** を使用できます。
 
 PIN を設定し、1 人のユーザーにようこそメールを送信する場合は、**Set-CsPinSendCAWelcomeMail** スクリプトを使用できます。 既定で、このスクリプトを実行しても、値が既に設定されている場合には PIN をリセットしませんが、**Force** パラメーターを使用すれば PIN のリセットを強制できます。 電子メール メッセージは、SMTP (Simple Mail Transfer Protocol) を使用して送信されます。
 
@@ -64,9 +66,9 @@ PIN を設定し、1 人のユーザーにようこそメールを送信する�
         [-Pin <new numeric PIN>] [-Force] `
         [-Credential <SMTP server credentials used to send email with the specified From address>]
     
-    **Smtpserver**   既定では、このパラメーターには予約された環境変数 **$PSEmailServer**の値が使用されます。 **$PSEmailServer**変数が設定されていない場合は、このパラメーターを指定する必要があります。
+    **Smtpserver**    既定では、このパラメーターには予約された環境変数 **$PSEmailServer**の値が使用されます。 **$PSEmailServer**変数が設定されていない場合は、このパラメーターを指定する必要があります。
     
-    **Credential**   既定では、このスクリプトは現在のユーザーの資格情報を使用します。 現在のユーザーが、指定された差出人のアドレスに代わって電子メールを送信するためのアクセス許可を持っていない場合は、このパラメーターを指定する必要があります。 一般的なルールとして、電子メールアドレスを差出人アドレスとして指定しない場合は、このパラメーターを指定します。
+    **資格情報**    既定では、このスクリプトは現在のユーザーの資格情報を使用します。 現在のユーザーが、指定された差出人のアドレスに代わって電子メールを送信するためのアクセス許可を持っていない場合は、このパラメーターを指定する必要があります。 一般的なルールとして、電子メールアドレスを差出人アドレスとして指定しない場合は、このパラメーターを指定します。
     
     次にその例を示します。
     

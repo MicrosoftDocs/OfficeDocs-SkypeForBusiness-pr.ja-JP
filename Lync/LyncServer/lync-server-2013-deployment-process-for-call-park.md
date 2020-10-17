@@ -12,20 +12,22 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6e11f85cb929cdd3dbddcab23caaffcf434f303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 997097da30db000df82cba020b043748a1a5f62d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522634"
 ---
+# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Lync Server 2013 でのコールパークの展開プロセス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-call-park-in-lync-server-2013"></a>Lync Server 2013 でのコールパークの展開プロセス
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2013-02-25_
 <tbody>
 <tr class="odd">
 <td><p>オービット テーブルでコール パーク オービット範囲を構成する</p></td>
-<td><p>Lync Server コントロールパネルまたは<strong>get-cscallparkorbit</strong>コマンドレットを使用して、コールパークオービットテーブルにオービット範囲を作成し、コールパークアプリケーションをホストするアプリケーションサービスに関連付けます。</p>
+<td><p>Lync Server コントロールパネルまたは <strong>get-cscallparkorbit</strong> コマンドレットを使用して、コールパークオービットテーブルにオービット範囲を作成し、コールパークアプリケーションをホストするアプリケーションサービスに関連付けます。</p>
 <div>
 
 > [!NOTE]  
@@ -74,8 +76,8 @@ _**トピックの最終更新日:** 2013-02-25_
 <td><p><a href="lync-server-2013-create-or-modify-a-call-park-orbit-range.md">Lync Server 2013 でのコールパークオービット範囲の作成または変更</a></p></td>
 </tr>
 <tr class="even">
-<td><p>コールパーク設定の構成</p></td>
-<td><p>コールパーク設定を構成するには、 <strong>new-cscpsconfiguration</strong>コマンドレットを使用します。 少なくとも、[ <strong>Ontimeouturi</strong> ] オプションを構成して、保留中の通話がタイムアウトしたときに使用するフォールバック先を構成することをお勧めします。次の設定を構成することもできます。</p>
+<td><p>コール パーク設定の構成</p></td>
+<td><p>コールパーク設定を構成するには、 <strong>new-cscpsconfiguration</strong> コマンドレットを使用します。 少なくとも、[ <strong>Ontimeouturi</strong> ] オプションを構成して、保留中の通話がタイムアウトしたときに使用するフォールバック先を構成することをお勧めします。次の設定を構成することもできます。</p>
 <ul>
 <li><p>(オプション) <strong>EnableMusicOnHold</strong> を構成して保留音を有効または無効にします。</p></li>
 <li><p>(オプション) <strong>MaxCallPickupAttempts</strong> を構成して、パークされた通話が、代替 Uniform Resource Identifier (URI) に転送されるまでに、応答した電話にかけ直す回数を決定します。</p></li>
@@ -98,7 +100,7 @@ _**トピックの最終更新日:** 2013-02-25_
 </tr>
 <tr class="even">
 <td><p>音声ポリシーを構成してユーザーのコールパークを有効にする</p></td>
-<td><p>Lync Server コントロールパネルまたは<strong>set-csvoicepolicy</strong>コマンドレットを<strong>Enablecallpark</strong>オプションを指定して使用して、音声ポリシーでユーザーのコールパークを有効にします。</p>
+<td><p>Lync Server コントロールパネルまたは <strong>set-csvoicepolicy</strong> コマンドレットを <strong>Enablecallpark</strong> オプションを指定して使用して、音声ポリシーでユーザーのコールパークを有効にします。</p>
 <div>
 
 > [!NOTE]  
@@ -120,7 +122,7 @@ _**トピックの最終更新日:** 2013-02-25_
 <td><p><a href="lync-server-2013-enable-call-park-for-users.md">Lync Server 2013 でユーザーのコールパークを有効にする</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>コールパークの正規化ルールの確認</p></td>
+<td><p>コール パーク正規化ルールの確認</p></td>
 <td><p>コール パーク オービットを正規化することはできません。 正規化ルールにオービット範囲が含まれていないのを確認します。 必要に応じて、オービットが正規化されるのを防ぐため、追加の正規化ルールを作成します。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>

@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e9a1d50469490e3e68163cf7b51a0fc6cac9af7
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: ff315ba578d74939e533912f696da6b6eb7abf34
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158755"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515894"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
@@ -56,7 +58,7 @@ Teams では、共同作業の機能だけでなく、チャット、通話、�
 
 既定では、ユーザーは、プレゼンス、チャット、通話、会議などの類似した重なり合う機能を提供する 2 つの別個のソリューションとして、Teams と Skype for Business を並列で実行できます。 チームユーザーは、チームやチャネルなどの新しいコラボレーション機能、Microsoft 365 または Office 365 のファイルへのアクセス、およびアプリケーションを利用することもできます。
 
-「**アイランド**」と呼ばれるこの共存モードでは、各クライアント アプリケーションが別個のアイランド (島) として動作します。 Skype for Business は Skype for Business とやり取りし、Teams は Teams とやり取りします。 ユーザーは、両方のクライアントを常時実行することが想定されており、コミュニケーションを開始したクライアントでネイティブにコミュニケーションできます。 このように、**孤島**モードでの相互運用性は不要です。
+「**アイランド**」と呼ばれるこの共存モードでは、各クライアント アプリケーションが別個のアイランド (島) として動作します。 Skype for Business は Skype for Business とやり取りし、Teams は Teams とやり取りします。 ユーザーは、両方のクライアントを常時実行することが想定されており、コミュニケーションを開始したクライアントでネイティブにコミュニケーションできます。 このように、 **孤島** モードでの相互運用性は不要です。
 
 Skype for Business エクスペリエンスが複雑化または低下することを回避するため、外部 (フェデレーション) コミュニケーション、PSTN 音声サービスと音声アプリケーション、Office の統合、USB デバイスの HID 制御、その他のいくつかの統合は引き続き Skype for Business で処理され、[**アイランド**] モードの Teams では利用できません。 Teams では、電話システムは [**アイランド**] モードではサポートされません。このモードで使用できる唯一のエンタープライズ VoIP クライアントは、Skype for Business です。
 
@@ -164,7 +166,7 @@ Skype for Business ユーザーと Teams ユーザーは 1 対 1 の音声通話
 
 相互運用エスカレーションは、ネイティブ相互運用機能を、会議への管理されたエスカレーションを使用して補完したものです。 会議では、ユーザーが所有しているクライアントに関係なく、だれもが豊富な機能を利用できます。
 
-Teams ユーザーにより相互運用エスカレーションがトリガーされると、Teams 会議が作成されます。 それをトリガーしたのが Skype for Business ユーザーであった場合は、Skype for Business 会議が作成されます。 どちらの場合も、作成された会議は now 会議に**なり**、ユーザーの予定表には反映されません。
+Teams ユーザーにより相互運用エスカレーションがトリガーされると、Teams 会議が作成されます。 それをトリガーしたのが Skype for Business ユーザーであった場合は、Skype for Business 会議が作成されます。 どちらの場合も、作成された会議は now 会議に **なり** 、ユーザーの予定表には反映されません。
  
 相手のユーザーは、相互運用チャットで会議参加リンクを受け取り、そのリンクをクリックすると参加できます。 Skype for Business ユーザーが Teams アカウントを持っていて Teams ユーザーによって招待されると、認証された状態で会議に参加します。 それ以外の場合は、匿名の参加者として参加します。 反対に、ほとんどの Teams ユーザーには必ず Skype for Business アカウントと、Skype for Business 会議に認証された参加者として使用できる Skype for Business クライアントがありますが、Skype 会議アプリを使用する場合など匿名の参加者として参加することもできます。
 

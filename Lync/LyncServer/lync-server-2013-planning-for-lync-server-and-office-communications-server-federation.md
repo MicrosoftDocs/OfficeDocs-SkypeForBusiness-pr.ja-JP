@@ -12,20 +12,22 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dad03a196b6909d2657b7dbc8463653bb004a310
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 801237e4390cd81ac634a928f4963be1c930d01e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522024"
 ---
+# <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>Lync Server 2013 および Office Communications Server のフェデレーションの計画
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-lync-server-2013-and-office-communications-server-federation"></a>Lync Server 2013 および Office Communications Server のフェデレーションの計画
+
 
 </div>
 
@@ -68,7 +70,7 @@ Microsoft Lync Server 2013、Lync Server 2010、および Office Communications 
   - フェデレーションされたドメインの検出に対する要件を決定します。
     
       - <span></span>  
-        フェデレーションを手動で構成するには、パートナーのエッジサーバーとドメイン名の完全修飾ドメイン名 (FQDN)、または Lync Server コントロールパネル、**フェデレーションと外部アクセス**、 **SIP フェデレーションドメイン**に入力されたオンラインドメイン名を持っている必要があります。 **新しい**ポリシーを作成するか、既存のポリシーを**編集**して、ドメインを FQDN で許可またはブロックします。
+        フェデレーションを手動で構成するには、パートナーのエッジサーバーとドメイン名の完全修飾ドメイン名 (FQDN)、または Lync Server コントロールパネル、 **フェデレーションと外部アクセス**、 **SIP フェデレーションドメイン**に入力されたオンラインドメイン名を持っている必要があります。 **新しい**ポリシーを作成するか、既存のポリシーを**編集**して、ドメインを FQDN で許可またはブロックします。
         
         <div>
         
@@ -95,7 +97,7 @@ Microsoft Lync Server 2013、Lync Server 2010、および Office Communications 
         
 
         > [!IMPORTANT]
-        > Windows Phone または Apple iPhone、iPad、またはその他の Apple デバイスで Microsoft Lync Mobile クライアントをサポートしていて、プッシュ通知サービスまたはプッシュ通知サービスを使用している場合は、_sipfederationtls の _tcp を計画する必要があります。 &lt;&gt;Lync Mobile クライアントを所有している各 sip ドメインの sip ドメイン SRV レコード。 Android および Nokia Symbian Lync Mobile では、プッシュ通知を使用しないでください。この要件の対象にはなりません。
+        > Windows Phone または Apple iPhone、iPad、またはその他の Apple デバイスで Microsoft Lync Mobile クライアントをサポートしていて、プッシュ通知サービスまたはプッシュ通知サービスを使用している場合は、_sipfederationtls を計画する必要があります。 &lt;&gt;Lync Mobile クライアントを所有している各 sip ドメインの sip ドメイン SRV レコード。 Android および Nokia Symbian Lync Mobile では、プッシュ通知を使用しないでください。この要件の対象にはなりません。
 
         
         </div>

@@ -3,10 +3,10 @@ title: 教育機関管理者向け Microsoft Teams のリソース
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: olbesede
 ms.topic: reference
 ms.service: msteams
 audience: admin
+ms.reviewer: olbesede
 description: 教育管理者は、リモート学習を可能にするために Microsoft Teams で利用可能なリソースについて知ることができます。
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3c34fa27053e83b9c9d05f9ab4f6e8fb4222cd7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9af89101620902c86ba52dfb986f54a8637ce097
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905509"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518034"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向け Microsoft Teams のリソース
 ==============================================
@@ -35,19 +35,19 @@ ms.locfileid: "43905509"
 
 Microsoft Teams について、メール、ポスター、配布資料など、今すぐ使用できる他のリソースについて説明します。 また、新しいデジタルツールキットをバナー、Gif、およびビデオで入力して、オンラインまたはキャンパス間で学生に連絡することもできます。 今すぐ始めましょう!
 
-これらの資料を使用[する前に、条件を](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true)お読みください。
+これらの資料を使用 [する前に、条件を](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) お読みください。
 
 ### <a name="physical-assets"></a>現物資産
 
 | |  |
 |---------|---------|
-|ポスター-[カスタマイズ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)および[印刷可能](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![ポスターのスクリーンショット](media/edu-adoption-posters.png)     |[配布](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![配布資料のスクリーンショット](media/edu-adoption-handouts.png)|
+|ポスター- [カスタマイズ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) および [印刷可能](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![ポスターのスクリーンショット](media/edu-adoption-posters.png)     |[配布](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![配布資料のスクリーンショット](media/edu-adoption-handouts.png)|
 |[物件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![チラシのスクリーンショット](media/edu-adoption-flyers.png)   |[Book 広告](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![書籍の広告のスクリーンショット](media/edu-adoption-book-adverts.png)         |
 |[ヒントとトリックの小冊子](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![とる](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>デジタルアセット
 
-チームを最大限に活用するには、必ず[デジタルツールキットのガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)を確認してください。 
+チームを最大限に活用するには、必ず [デジタルツールキットのガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) を確認してください。 
 
 |  |  |
 |---------|---------|
@@ -57,7 +57,7 @@ Microsoft Teams について、メール、ポスター、配布資料など、�
 
 ## <a name="call-to-action"></a>実施すべき内容
 
-- トレーニング、ビデオ、対話型デモについては、「[教育機関向けのチーム」ページ](https://www.microsoft.com/en-us/education/products/teams/default.aspx)を参照してください。
+- トレーニング、ビデオ、対話型デモについては、「 [教育機関向けのチーム」ページ](https://www.microsoft.com/en-us/education/products/teams/default.aspx) を参照してください。
 - [Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)で Teams を有効にする (Office 365 管理者としてサインインする)
 - Teams クライアントをダウンロードする: [すべてのデバイスで Teams をオンにする](https://teams.microsoft.com/downloads)
 - [Education ヘルプ センター](https://support.office.com/education)で Office 365 for Education について学ぶ

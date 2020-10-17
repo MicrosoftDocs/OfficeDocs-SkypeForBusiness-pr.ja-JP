@@ -12,20 +12,22 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6786d22d81f6b78d1e551d05f3d908876ca3068
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c802141adfecf53b70709ad90cc098004eacda1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522464"
 ---
+# <a name="device-hardware-support-in-lync-server-2013"></a>Lync Server 2013 でのデバイスハードウェアのサポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-hardware-support-in-lync-server-2013"></a>Lync Server 2013 でのデバイスハードウェアのサポート
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-12-14_
 
 IP 電話およびアナログ デバイスを展開する前に、特定のハードウェア構成を設定する必要があります。
 
-Lync Phone Edition を実行している IP 電話サポート Link Layer Discovery Protocol-Media Endpoint Discovery (LLDP-MED) および Power over Ethernet (PoE)。LLDP-MED を利用するには、スイッチが IEEE802.1AB および ANSI/TIA-1057 をサポートする必要があります。 PoE を利用するには、スイッチが PoE802.3AF または 802.3at をサポートする必要があります。
+Lync Phone Edition を実行している IP 電話は、リンク層検出 Protocol-Media エンドポイント検出 (LLDP-MED) および Power over Ethernet (PoE) をサポートします。LLDP-MED を利用するには、スイッチが IEEE802.1AB および ANSI/TIA-1057 をサポートする必要があります。 PoE を利用するには、スイッチが PoE802.3AF または 802.3at をサポートする必要があります。
 
 LLDP-MED を有効にするには、管理者がスイッチ コンソール ウィンドウを使用して LLDP を有効にし、LLDP-MED ネットワーク ポリシーに適切な音声 VLAN ID を設定する必要があります。
 
@@ -53,7 +55,7 @@ LLDP-MED を有効にするには、管理者がスイッチ コンソール ウ
 
   - ATA と通信する PSTN ゲートウェイを含む存続可能ブランチ アプライアンス
 
-アナログゲートウェイを構成する方法については、Lync Server 2010 TechNet ライブラリの「 [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537)アナログデバイスの展開を計画する」を参照してください。 (Lync server 2010 の場合と同じように、アナログデバイスは Lync Server 2013 でも同様に動作します)。
+アナログゲートウェイを構成する方法については、 [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) Lync Server 2010 TechNet ライブラリの「アナログデバイスの展開を計画する」を参照してください。 (Lync server 2010 の場合と同じように、アナログデバイスは Lync Server 2013 でも同様に動作します)。
 
 <div>
 

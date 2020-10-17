@@ -12,20 +12,22 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f2897434eb275b82ef9ab4ef78e32e99e8d0a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 010d4437f2eb90d596ace15cc392690dba5544d6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213913"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522774"
 ---
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 での外部ユーザーアクセスの展開チェックリスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 での外部ユーザーアクセスの展開チェックリスト
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42213913"
 
 _**トピックの最終更新日:** 2014-02-04_
 
-境界ネットワークを展開し、外部ユーザーのサポートを実装する前に、フロントエンドプールまたは Standard Edition サーバーを含む、Microsoft Lync Server 2013 の内部サーバーを展開しておく必要があります。 オプションのディレクターを内部ネットワークに展開することを計画している場合は、エッジサーバーを展開する前にも展開する必要があります。 ディレクターの展開プロセスの詳細については、「計画」のドキュメントの「 [Lync Server 2013 のディレクターのシナリオ](lync-server-2013-scenarios-for-the-director.md)」を参照してください。
+境界ネットワークを展開し、外部ユーザーのサポートを実装する前に、フロントエンドプールまたは Standard Edition サーバーを含む、Microsoft Lync Server 2013 の内部サーバーを展開しておく必要があります。 オプションのディレクターを内部ネットワークに展開することを計画している場合は、エッジサーバーを展開する前にも展開する必要があります。 ディレクターの展開プロセスの詳細については、「計画」のドキュメントの「 [Lync Server 2013 のディレクターのシナリオ](lync-server-2013-scenarios-for-the-director.md) 」を参照してください。
 
 Microsoft Lync Server 2013 には、内部サーバーとエッジサーバーの両方の計画と展開を容易にするためのツールが含まれています。 トポロジが完成したら、作成したトポロジ定義を運用環境に公開します。 これを行うためには、**Domain Admins** グループと **RTCUniversalServerAdmins** グループのメンバーである必要があります。
 
-  - **Planning tool**   Office Communications Server 2007 R2 には、計画ツールとエッジ計画ツールが含まれており、これを使用してトポロジ設計をガイドすることができます。 Lync Server 2010 では、これら2つのツールは、計画されたユーザー数の収集、音声の要件、外部ユーザーアクセスの種類、フェデレーションオプションなどの追加機能を備えた単一の計画ツールに統合されました。 さらに、IP アドレス、ロードバランサーの種類、その他の境界ネットワークに関する考慮事項など、インフラストラクチャのネットワークパラメーターを計画することができます。
+  - **計画ツール**    Office Communications Server 2007 R2 には、計画ツールとエッジ計画ツールが含まれており、これを使用してトポロジ設計をガイドすることができます。 Lync Server 2010 では、これら2つのツールは、計画されたユーザー数の収集、音声の要件、外部ユーザーアクセスの種類、フェデレーションオプションなどの追加機能を備えた単一の計画ツールに統合されました。 さらに、IP アドレス、ロードバランサーの種類、その他の境界ネットワークに関する考慮事項など、インフラストラクチャのネットワークパラメーターを計画することができます。
 
-  - **トポロジビルダー**   Lync Server 2013 トポロジビルダーを使用して、トポロジとコンポーネントを定義できます。 トポロジビルダーは、Lync Server 2013 を実行しているサーバーを展開するために不可欠です。 トポロジビルダーは、組織内の Lync Server 2013 を実行しているすべてのサーバーを構成するために使用される中央管理ストアに結果を発行します。 トポロジビルダーを使用せずに、サーバーに Lync Server 2013 をインストールすることはできません。
+  - **トポロジビルダー**    Lync Server 2013 トポロジビルダーを使用して、トポロジとコンポーネントを定義できます。 トポロジビルダーは、Lync Server 2013 を実行しているサーバーを展開するために不可欠です。 トポロジビルダーは、組織内の Lync Server 2013 を実行しているすべてのサーバーを構成するために使用される中央管理ストアに結果を発行します。 トポロジビルダーを使用せずに、サーバーに Lync Server 2013 をインストールすることはできません。
 
 トポロジビルダーを実行してエッジトポロジを定義するなど、計画プロセス中にエッジトポロジを設計した場合は、その結果を使用してエッジサーバーの展開を開始できます。 以前にエッジトポロジの作成を終了していない場合、または以前に指定した情報を変更する場合は、他の展開手順を続行する前に、トポロジビルダーの実行を終了する必要があります。 トポロジを構築する方法の詳細については、「 [Lync Server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」を参照してください。
 
-計画ツールとトポロジビルダーの詳細については、「計画」のドキュメントの「 [Lync Server 2013 の計画プロセスの開始](lync-server-2013-beginning-the-planning-process.md)」を参照してください。
+計画ツールとトポロジビルダーの詳細については、「計画」のドキュメントの「 [Lync Server 2013 の計画プロセスの開始](lync-server-2013-beginning-the-planning-process.md) 」を参照してください。
 
 次の表に、エッジ サーバーの展開プロセスの概要を示します。 外部ユーザーアクセスを展開する前に実行する必要のある計画の決定事項を確認するには、「 [Lync Server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」を参照してください。
 
@@ -95,7 +97,7 @@ Microsoft Lync Server 2013 には、内部サーバーとエッジサーバー�
 <td><ul>
 <li><p>トポロジビルダーを実行して、エッジサーバーの設定を構成し、トポロジを作成および公開した後、Lync Server 管理シェルを使用してトポロジ構成ファイルをエクスポートします。</p></li>
 </ul></td>
-<td><p><strong>Domain admins</strong>グループおよび<strong>RTCUniversalServerAdmins</strong>または<strong>csadmins</strong>グループ</p>
+<td><p><strong>Domain admins</strong> グループおよび <strong>RTCUniversalServerAdmins</strong> または <strong>csadmins</strong> グループ</p>
 <div>
 
 > [!NOTE]  
@@ -135,7 +137,7 @@ Microsoft Lync Server 2013 には、内部サーバーとエッジサーバー�
 <tr class="odd">
 <td><p>リバース プロキシの設定。</p></td>
 <td><ul>
-<li><p>境界ネットワークでリバースプロキシ (Microsoft Forefront Threat Management Gateway 2010 または Microsoft Internet Security and 促進 (ISA) Server Service Pack 1) を設定し、必要なパブリック証明書を取得して構成します。リバースプロキシサーバー上の web 公開ルール。</p>
+<li><p>境界ネットワークでリバースプロキシ (Microsoft Forefront Threat Management Gateway 2010 または Microsoft インターネットセキュリティとアクセラレータ (ISA) Server Service Pack 1) を設定し、必要なパブリック証明書を取得して、リバースプロキシサーバーで web 公開ルールを構成します。</p>
 <p>モビリティの計画を行っており、フロントエンド プールまたは Standard Edition サーバーに Mobility Service を展開する場合は、Mobility Service 用のリバース プロキシを準備します。</p></li>
 </ul></td>
 <td><p><strong>Administrators</strong> グループまたはリバース プロキシの管理者</p></td>
@@ -185,7 +187,7 @@ Microsoft Lync Server 2013 には、内部サーバーとエッジサーバー�
 <td><ol>
 <li><p>内部サーバーからのサーバー接続および構成データのレプリケーションを確認します。</p></li>
 <li><p>外部ユーザー (リモート ユーザー、フェデレーション ドメイン内のユーザー、パブリック IM ユーザー、および匿名ユーザーなど) が、必要に応じて展開に接続できることを確認します。</p></li>
-<li><p>Lync Server リモート接続アナライザーを使用して構成と通信を確認する<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
+<li><p>Lync Server リモート接続アナライザーを使用して構成と通信を確認する <a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
 <li><p>構成および通信の問題のトラブルシューティングを行います。</p></li>
 </ol></td>
 <td><p>レプリケーションの確認の場合は、<strong>RTCUniversalServerAdmins</strong> グループ、または <strong>CSAdministrator</strong> の役割に割り当てられているユーザー アカウント</p>
