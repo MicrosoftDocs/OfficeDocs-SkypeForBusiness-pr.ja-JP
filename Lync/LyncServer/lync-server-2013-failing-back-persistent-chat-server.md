@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 常設チャットサーバーのフェールバック'
+description: 'Lync Server 2013: 常設チャットサーバーのフェールバック。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2132af73fec67ace0bffd6db1836071cb8fc2d06
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2fa36562b3892c0e22960677ffcba4b862e708c4
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531004"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567733"
 ---
 # <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 での常設チャットサーバーのフェールバック
 

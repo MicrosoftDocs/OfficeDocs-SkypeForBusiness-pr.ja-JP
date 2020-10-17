@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: エンタープライズ Voip のユーザーの無効化'
+description: 'Lync Server 2013: エンタープライズ Voip に対してユーザーを無効にします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aaa5058d820fc399d7f6b915407a62fc1031fa99
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4d99916444e2b1c984e251f6e6289d88e31a538a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529044"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568213"
 ---
 # <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip のユーザーの無効化
 
