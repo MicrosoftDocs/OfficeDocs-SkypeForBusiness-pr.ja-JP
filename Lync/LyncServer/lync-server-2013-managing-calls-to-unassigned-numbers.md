@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 割り当てられていない番号への通話の管理'
+description: 'Lync Server 2013: 割り当てられていない番号への通話の管理。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b09be36c372473fc6700669f069646ca3f6054d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a91c1ec30ea1e942fa3ea27fbcd369572884a52a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505894"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569153"
 ---
 # <a name="managing-calls-to-unassigned-numbers-in-lync-server-2013"></a>Lync Server 2013 で割り当てられていない番号への通話を管理する
 

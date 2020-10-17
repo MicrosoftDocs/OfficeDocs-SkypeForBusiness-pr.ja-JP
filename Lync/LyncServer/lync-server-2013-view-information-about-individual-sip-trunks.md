@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 個別の SIP トランクに関する情報の表示'
+description: 'Lync Server 2013: 個々の SIP トランクに関する情報を表示します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d01a56ca0365c041ae9469dee2d328f81acd3e65
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 55c2f9fb1df4e916615cf7f95f95ae167d7216ab
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523584"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569613"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>Lync Server 2013 の個々の SIP トランクに関する情報を表示する
 

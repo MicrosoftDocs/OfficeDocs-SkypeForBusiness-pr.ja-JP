@@ -1,5 +1,6 @@
 ---
 title: Office Communications Server 2007 R2 から Lync Server 2013 への移行
+description: Office Communications Server 2007 R2 から Lync Server 2013 への移行。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a71ac7e0e1291dedfa45e4e358b5b3495d8a623b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d0afdc754ae691bc674c200addb9fb97c1eb4199
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527254"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569593"
 ---
 # <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>Office Communications Server 2007 R2 から Lync Server 2013 への移行
 
@@ -77,15 +78,15 @@ _**トピックの最終更新日:** 2012-10-19_
 
 ## <a name="in-this-section"></a>このセクション中
 
-  - [移行を始める前に](before-you-begin-the-migration_1.md)
+  - [移行を始める前に](before-you-begin-the-migration.md)
 
-  - [移行のフェーズ](migration-phases_1.md)
+  - [移行のフェーズ](migration-phases.md)
 
   - [フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [フェーズ 2: 移行の準備](phase-2-prepare-for-migration_1.md)
+  - [フェーズ 2: 移行の準備](phase-2-prepare-for-migration.md)
 
-  - [フェーズ 3: Lync Server 2013 パイロットプールを展開する](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [フェーズ 3: Lync Server 2013 パイロットプールを展開する](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
   - [フェーズ 4: トポロジを結合する](phase-4-merge-topologies.md)
 

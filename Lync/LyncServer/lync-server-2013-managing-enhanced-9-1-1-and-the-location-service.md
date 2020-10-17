@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 拡張9-1-1 および場所サービスの管理'
+description: 'Lync Server 2013: 拡張9-1-1 および場所サービスの管理。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aea9d60c26eed872ce59c7dbac012c93f8ab7564
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 942d7780a54d7e61052469410a1c03943babd56f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505804"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570343"
 ---
 # <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a>Lync Server 2013 での拡張9-1-1 と場所サービスの管理
 

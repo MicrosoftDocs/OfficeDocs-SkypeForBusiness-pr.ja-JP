@@ -1,5 +1,6 @@
 ---
 title: 応答グループを移行する
+description: 応答グループを移行します。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b51fd9bd16da2f6cf135332d68c70c4b4714cdd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 19da4d39b6f11931bffb5a6e422c2826e7351d69
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527504"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570323"
 ---
 # <a name="migrate-response-groups"></a>応答グループを移行する
 
