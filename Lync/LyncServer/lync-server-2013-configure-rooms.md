@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ルームの構成'
+description: 'Lync Server 2013: ルームの構成。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184750
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e857bfce6bfbf9736039fc37c3cf57581a9c056
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e9f5b2ece8cf436fe69c000da73871cb92686d82
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529154"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542773"
 ---
-# <a name="configure-rooms-in-lync-server-2013"></a><span data-ttu-id="f56a1-102">Lync Server 2013 での会議室の構成</span><span class="sxs-lookup"><span data-stu-id="f56a1-102">Configure rooms in Lync Server 2013</span></span>
+# <a name="configure-rooms-in-lync-server-2013"></a><span data-ttu-id="b2854-103">Lync Server 2013 での会議室の構成</span><span class="sxs-lookup"><span data-stu-id="b2854-103">Configure rooms in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,31 +38,31 @@ ms.locfileid: "48529154"
 
 <span> </span>
 
-<span data-ttu-id="f56a1-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f56a1-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="b2854-104">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="b2854-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="f56a1-104">常設チャットルームの構成は、通常、Windows PowerShell コマンドラインインターフェイスを使用して、ユーザーまたは他の中央のチームによって処理されます。通常、管理者はチャットルームを管理しません。</span><span class="sxs-lookup"><span data-stu-id="f56a1-104">Configuring Persistent Chat rooms is commonly handled by users or other central teams by using Windows PowerShell command-line interface; an administrator typically does not manage chat rooms.</span></span> <span data-ttu-id="f56a1-105">ただし、チャットルームを作成して管理する必要がある場合は、Windows PowerShell コマンドラインインターフェイスを使用するか、自分をメンバーとしてチャットルームに追加して、Lync 2013 クライアントを使用することができます。</span><span class="sxs-lookup"><span data-stu-id="f56a1-105">However, if you have to create and manage chat rooms, you can use the Windows PowerShell command-line interface, or add yourself as a member to a chat room and use the Lync 2013 client.</span></span>
+<span data-ttu-id="b2854-105">常設チャットルームの構成は、通常、Windows PowerShell コマンドラインインターフェイスを使用して、ユーザーまたは他の中央のチームによって処理されます。通常、管理者はチャットルームを管理しません。</span><span class="sxs-lookup"><span data-stu-id="b2854-105">Configuring Persistent Chat rooms is commonly handled by users or other central teams by using Windows PowerShell command-line interface; an administrator typically does not manage chat rooms.</span></span> <span data-ttu-id="b2854-106">ただし、チャットルームを作成して管理する必要がある場合は、Windows PowerShell コマンドラインインターフェイスを使用するか、自分をメンバーとしてチャットルームに追加して、Lync 2013 クライアントを使用することができます。</span><span class="sxs-lookup"><span data-stu-id="b2854-106">However, if you have to create and manage chat rooms, you can use the Windows PowerShell command-line interface, or add yourself as a member to a chat room and use the Lync 2013 client.</span></span>
 
-<span data-ttu-id="f56a1-106">Windows PowerShell コマンドラインインターフェイスを使用したチャットルームの構成の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「Room Management」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f56a1-106">For details about configuring chat rooms by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span>
+<span data-ttu-id="b2854-107">Windows PowerShell コマンドラインインターフェイスを使用したチャットルームの構成の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)する」の「Room Management」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b2854-107">For details about configuring chat rooms by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span>
 
 <div>
 
-## <a name="managing-data-in-chat-rooms"></a><span data-ttu-id="f56a1-107">チャット ルームのデータの管理</span><span class="sxs-lookup"><span data-stu-id="f56a1-107">Managing Data in Chat Rooms</span></span>
+## <a name="managing-data-in-chat-rooms"></a><span data-ttu-id="b2854-108">チャット ルームのデータの管理</span><span class="sxs-lookup"><span data-stu-id="b2854-108">Managing Data in Chat Rooms</span></span>
 
-<span data-ttu-id="f56a1-108">常設チャットサーバーを使用すると、ユーザーは永続的なチャットルームにメッセージを投稿して共同作業を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="f56a1-108">Persistent Chat Server lets users collaborate by posting messages into Persistent Chat rooms.</span></span> <span data-ttu-id="f56a1-109">データはサーバーに保持され、チャット ルームのメンバーは、履歴データなどのデータにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="f56a1-109">The data is persisted on the server, and members of the room can have access to the data, including historical data.</span></span> <span data-ttu-id="f56a1-110">ただし、次に示すように、アクセスできる永続的なデータは、ユーザーの役割によって異なります。</span><span class="sxs-lookup"><span data-stu-id="f56a1-110">However, users with different roles have different access to the persisted data, as outlined in the following list.</span></span>
+<span data-ttu-id="b2854-109">常設チャットサーバーを使用すると、ユーザーは永続的なチャットルームにメッセージを投稿して共同作業を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="b2854-109">Persistent Chat Server lets users collaborate by posting messages into Persistent Chat rooms.</span></span> <span data-ttu-id="b2854-110">データはサーバーに保持され、チャット ルームのメンバーは、履歴データなどのデータにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="b2854-110">The data is persisted on the server, and members of the room can have access to the data, including historical data.</span></span> <span data-ttu-id="b2854-111">ただし、次に示すように、アクセスできる永続的なデータは、ユーザーの役割によって異なります。</span><span class="sxs-lookup"><span data-stu-id="b2854-111">However, users with different roles have different access to the persisted data, as outlined in the following list.</span></span>
 
-  - <span data-ttu-id="f56a1-p103">管理者は、データベースが大きくなりすぎないようにチャット ルームから古いコンテンツ (たとえば、特定の日付より前に投稿されたコンテンツ) を削除できます。また、管理者は、特定のチャット ルームにとって不適切と判断されるメッセージを削除または置換することもできます。</span><span class="sxs-lookup"><span data-stu-id="f56a1-p103">Administrators can delete earlier content (for example, content that was posted before a certain date) from any chat room to keep the database from growing too large. Or, they can remove or replace messages that are considered inappropriate for a particular chat room.</span></span>
+  - <span data-ttu-id="b2854-p103">管理者は、データベースが大きくなりすぎないようにチャット ルームから古いコンテンツ (たとえば、特定の日付より前に投稿されたコンテンツ) を削除できます。また、管理者は、特定のチャット ルームにとって不適切と判断されるメッセージを削除または置換することもできます。</span><span class="sxs-lookup"><span data-stu-id="b2854-p103">Administrators can delete earlier content (for example, content that was posted before a certain date) from any chat room to keep the database from growing too large. Or, they can remove or replace messages that are considered inappropriate for a particular chat room.</span></span>
 
-  - <span data-ttu-id="f56a1-113">エンドユーザー (メッセージの作成者を含む) は、チャット ルームのコンテンツを削除できません。</span><span class="sxs-lookup"><span data-stu-id="f56a1-113">End users, including message authors, cannot delete content from any chat room.</span></span>
+  - <span data-ttu-id="b2854-114">エンドユーザー (メッセージの作成者を含む) は、チャット ルームのコンテンツを削除できません。</span><span class="sxs-lookup"><span data-stu-id="b2854-114">End users, including message authors, cannot delete content from any chat room.</span></span>
 
-  - <span data-ttu-id="f56a1-p104">チャット ルームの管理者は、チャット ルームを無効にできますが、チャット ルームを削除することはできません。チャット ルームを削除できるのは管理者のみです。</span><span class="sxs-lookup"><span data-stu-id="f56a1-p104">Chat room managers can disable rooms, but cannot delete rooms. Only administrators can delete a chat room after it has been created.</span></span>
+  - <span data-ttu-id="b2854-p104">チャット ルームの管理者は、チャット ルームを無効にできますが、チャット ルームを削除することはできません。チャット ルームを削除できるのは管理者のみです。</span><span class="sxs-lookup"><span data-stu-id="b2854-p104">Chat room managers can disable rooms, but cannot delete rooms. Only administrators can delete a chat room after it has been created.</span></span>
 
-<span data-ttu-id="f56a1-116">メッセージを削除しても、アクションを元に戻すことはできません。</span><span class="sxs-lookup"><span data-stu-id="f56a1-116">When a message is deleted, you cannot undo the action.</span></span> <span data-ttu-id="f56a1-117">ただし、バックアップがある場合は、削除されたメッセージを復元できます。</span><span class="sxs-lookup"><span data-stu-id="f56a1-117">However, deleted messages can be restored if there is a backup.</span></span> <span data-ttu-id="f56a1-118">常設チャットコンプライアンスサーバーが有効になっている場合、古いメッセージはコンプライアンスデータベースに保持されます。</span><span class="sxs-lookup"><span data-stu-id="f56a1-118">If a Persistent Chat Compliance server is enabled, old messages are persisted in the compliance database.</span></span>
+<span data-ttu-id="b2854-117">メッセージを削除しても、アクションを元に戻すことはできません。</span><span class="sxs-lookup"><span data-stu-id="b2854-117">When a message is deleted, you cannot undo the action.</span></span> <span data-ttu-id="b2854-118">ただし、バックアップがある場合は、削除されたメッセージを復元できます。</span><span class="sxs-lookup"><span data-stu-id="b2854-118">However, deleted messages can be restored if there is a backup.</span></span> <span data-ttu-id="b2854-119">常設チャットコンプライアンスサーバーが有効になっている場合、古いメッセージはコンプライアンスデータベースに保持されます。</span><span class="sxs-lookup"><span data-stu-id="b2854-119">If a Persistent Chat Compliance server is enabled, old messages are persisted in the compliance database.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="f56a1-119">このチャットルームのデータ使用法は、管理者の役割が関与している場合を除き、Lync Server 2013、常設チャットサーバー API アプリケーションに適用されます。</span><span class="sxs-lookup"><span data-stu-id="f56a1-119">This chat room data usage applies to the Lync Server 2013, Persistent Chat Server API application, except for the case when the administrator role is involved.</span></span> <span data-ttu-id="f56a1-120">常設チャットサーバー API を使用して、管理者の操作を実行することはできません。</span><span class="sxs-lookup"><span data-stu-id="f56a1-120">The Persistent Chat Server API cannot be used to do any of the administrator’s operations.</span></span> <span data-ttu-id="f56a1-121">これらの操作は、Lync Server 管理シェルで実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f56a1-121">You must perform these operations in the Lync Server Management Shell.</span></span>
+> <span data-ttu-id="b2854-120">このチャットルームのデータ使用法は、管理者の役割が関与している場合を除き、Lync Server 2013、常設チャットサーバー API アプリケーションに適用されます。</span><span class="sxs-lookup"><span data-stu-id="b2854-120">This chat room data usage applies to the Lync Server 2013, Persistent Chat Server API application, except for the case when the administrator role is involved.</span></span> <span data-ttu-id="b2854-121">常設チャットサーバー API を使用して、管理者の操作を実行することはできません。</span><span class="sxs-lookup"><span data-stu-id="b2854-121">The Persistent Chat Server API cannot be used to do any of the administrator’s operations.</span></span> <span data-ttu-id="b2854-122">これらの操作は、Lync Server 管理シェルで実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="b2854-122">You must perform these operations in the Lync Server Management Shell.</span></span>
 
 
 
