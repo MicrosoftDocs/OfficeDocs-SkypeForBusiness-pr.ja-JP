@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 信頼されたアプリケーションの管理'
+description: 'Lync Server 2013: 信頼されたアプリケーションを管理します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b859faeb66cae59e9f8f05ad49f861653779c24
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1da05851c23456457d0d580f222f4ca52b804b84
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524864"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556683"
 ---
 # <a name="managing-trusted-applications-in-lync-server-2013"></a>Lync Server 2013 で信頼されたアプリケーションを管理する
 

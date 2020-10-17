@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 高可用性および障害復旧の管理'
+description: 'Lync Server 2013: 高可用性と障害復旧を管理する。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c41b3369946af757f03585c18e5f5c22ba09304
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 71cf2053d9365351401b36b7e5b56bb8796f2988
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498294"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557563"
 ---
 # <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での高可用性および障害復旧の管理
 

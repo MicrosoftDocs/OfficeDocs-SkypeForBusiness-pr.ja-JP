@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ワークフロー作成シナリオの概要'
+description: 'Lync Server 2013: ワークフロー作成シナリオの概要。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 996aec239a2aa94aaa6930fc0ff5edaeca1f102b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a38627e7abb058be2050c0db0b46fa06dfd75287
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516054"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48557413"
 ---
 # <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a>Lync Server 2013 でのワークフロー作成シナリオの概要
 
