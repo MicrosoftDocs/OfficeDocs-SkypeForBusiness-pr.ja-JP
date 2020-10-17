@@ -12,20 +12,22 @@ ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 597f331ba95ee563155fdabc6b95d35367d12080
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0aa4a2c12771adf41972fc0c69222935d6935570
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209171"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504604"
 ---
+# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Lync Server 2013 のトポロジビルダーでのトポロジの定義と構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a>Lync Server 2013 のトポロジビルダーでのトポロジの定義と構成
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 1.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-2.  [トポロジビルダー] で、[**新しいトポロジ**] を選択します。 トポロジを保存する場所とファイル名を指定するように求められます。 トポロジ ファイルにわかりやすい名前を付け、既定の拡張子 .tbxml をそのまま使用します。 [**OK**] をクリックします。
+2.  [トポロジビルダー] で、[ **新しいトポロジ**] を選択します。 トポロジを保存する場所とファイル名を指定するように求められます。 トポロジ ファイルにわかりやすい名前を付け、既定の拡張子 .tbxml をそのまま使用します。 [**OK**] をクリックします。
 
 3.  新しいトポロジ XML ファイルを保存する場所に移動してファイル名を入力し、[**保存**] をクリックします。
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 7.  [**サイト詳細の指定**] ページで、サイトの場所情報を入力し、[**次へ**] をクリックします。
 
-8.  [**新しいトポロジが正常に定義されました**] ページで、[**このウィザードを閉じるときに新しいフロントエンドウィザードを開く**] チェックボックスがオンになっていることを確認し、[**完了**] をクリックします。
+8.  [ **新しいトポロジが正常に定義されました** ] ページで、[ **このウィザードを閉じるときに新しいフロントエンドウィザードを開く** ] チェックボックスがオンになっていることを確認し、[ **完了**] をクリックします。
 
 トポロジを定義して保存した後、新しいフロントエンドウィザードを使用して、サイトのフロントエンドプールまたは Standard Edition サーバーを定義します。 詳細については、「 [Lync server 2013 でのフロントエンドプールまたは Standard Edition サーバーの定義と構成](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)」を参照してください。
 

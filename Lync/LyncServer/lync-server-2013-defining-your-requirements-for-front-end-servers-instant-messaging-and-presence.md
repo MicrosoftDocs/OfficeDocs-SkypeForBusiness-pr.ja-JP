@@ -12,20 +12,22 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9be82373d33dafba7a5cf3e967b162ab5d33b01e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54629a270fcba5f6237deaaa1146108e16bafef7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213722"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504334"
 ---
+# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドサーバー、インスタントメッセージング、およびプレゼンスの要件の定義
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドサーバー、インスタントメッセージング、およびプレゼンスの要件の定義
+
 
 </div>
 
@@ -45,11 +47,11 @@ _**トピックの最終更新日:** 2013-10-07_
 
 ユーザーが外部ユーザーと通信できるようにすることで、Lync Server に対する投資のメリットを大幅に向上させることができます。 外部ユーザーには次のユーザーが含まれます。
 
-  - **リモートユーザー**   ファイアウォールの外側で作業し、ラップトップやその他の Lync Server デバイスを使用している場合は、組織のユーザーを所有します。
+  - **リモートユーザー**    自分の組織のユーザーで、ファイアウォールの外側で作業し、ラップトップやその他の Lync Server デバイスを使用している場合。
 
-  - ****   Lync Server を実行しているユーザーと共同で作業する企業のフェデレーションユーザー。 こちら側のユーザーがこれらのユーザーに容易にコンタクトできるようにするには、これらの企業とフェデレーション関係を作成する必要があります。
+  - **フェデレーションユーザー**    Lync Server を実行しているユーザーと共同で作業する企業のユーザー。 こちら側のユーザーがこれらのユーザーに容易にコンタクトできるようにするには、これらの企業とフェデレーション関係を作成する必要があります。
 
-  - **パブリックユーザー**   インターネットサービス、Yahoo\!、AOL の Windows Live ネットワークによって提供される im サービスなどのパブリック im サービスのユーザー、および Google Talk などの拡張可能なメッセージングとプレゼンスプロトコル (xmpp) を使用するプロバイダーおよびサーバーのユーザー。
+  - **パブリックユーザー**    インターネットサービス、Yahoo、AOL の Windows Live ネットワークによって提供される IM サービスなどのパブリック IM サービスのユーザー、 \! および Google Talk などの拡張可能なメッセージングとプレゼンスプロトコル (XMPP) を使用するプロバイダーおよびサーバーのユーザー。
     
     <div>
     

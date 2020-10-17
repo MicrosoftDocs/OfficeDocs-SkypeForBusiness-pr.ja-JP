@@ -12,20 +12,22 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd30591d651e6af587322a5d86cef9d5079f4ce6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4812f36d19f9645f926eb1aa4f017d70befa47a7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503894"
 ---
+# <a name="testing-user-connection-to-exchange-um-voicemail-in-lync-server-2013"></a>Lync Server 2013 での Exchange UM ボイスメールへのユーザー接続のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-connection-to-exchange-um-voicemail-in-lync-server-2013"></a>Lync Server 2013 での Exchange UM ボイスメールへのユーザー接続のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-11-01_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、<strong>テスト-CsExUMVoiceMail メール</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>テスト-CsExUMVoiceMail メール</strong> コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMVoiceMail&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -78,15 +80,15 @@ _**トピックの最終更新日:** 2014-11-01_
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" 
 
-次の例に示すコマンドは、ユーザー litwareinc\\Kenmyer の Exchange ユニファイドメッセージングボイスメール接続をテストします。 これを行うには、この例の最初のコマンド**は、litwareinc コマンドレットを**使用して、user\\kenmyer の Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 有効な資格情報オブジェクトを作成するには、このアカウントのパスワードを指定する必要があります。また、 **Test-CsExUMVoiceMail メール**コマンドレットでチェックを実行できることに注意してください。
+次の例に示すコマンドは、ユーザー litwareinc kenmyer の Exchange ユニファイドメッセージングボイスメール接続をテストし \\ ます。 これを行うには、この例の最初のコマンド **は、litwareinc コマンドレットを** 使用して、user Kenmyer の Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成し \\ ます。 有効な資格情報オブジェクトを作成するには、このアカウントのパスワードを指定する必要があります。また、 **Test-CsExUMVoiceMail メール** コマンドレットでチェックを実行できることに注意してください。
 
-この例の2番目のコマンドでは、指定された credentials オブジェクト ($x) とユーザー\\litwareinc KENMYER の SIP アドレスを使用して、このユーザーが Exchange ユニファイドメッセージングボイスメールに接続できるかどうかを判断します。
+この例の2番目のコマンドでは、指定された credentials オブジェクト ($x) とユーザー litwareinc kenmyer の SIP アドレスを使用して、 \\ このユーザーが Exchange ユニファイドメッセージングボイスメールに接続できるかどうかを判断します。
 
     $credential = Get-Credential "litwareinc\pilar" 
     
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential 
 
-次の例に示すコマンドは、例1に示すコマンドのバリエーションです。この例では、OutLoggerVariable パラメーターが含まれています。このパラメーターは、**テスト-CsExUMVoiceMail メール**レットによって実行されたすべてのステップの詳細ログを生成し、それらの各ステップの成功または失敗を生成します。 これを行うには、パラメーター値 ExumText の横に OutLoggerVariable パラメーターを追加します。これにより、詳細なログ情報が $ExumTest という名前の変数に格納されます。 この例の最後のコマンドでは、ToXML () メソッドを使用して、ログ情報を XML 形式に変換します。 その XML データは、VoicemailTest コマンドレットを使用して C:\\Logs\\という名前のファイルに書き込まれます。
+次の例に示すコマンドは、例1に示すコマンドのバリエーションです。この例では、OutLoggerVariable パラメーターが含まれています。このパラメーターは、 **テスト-CsExUMVoiceMail メール** レットによって実行されたすべてのステップの詳細ログを生成し、それらの各ステップの成功または失敗を生成します。 これを行うには、パラメーター値 ExumText の横に OutLoggerVariable パラメーターを追加します。これにより、詳細なログ情報が $ExumTest という名前の変数に格納されます。 この例の最後のコマンドでは、ToXML () メソッドを使用して、ログ情報を XML 形式に変換します。 その XML データは、 \\ \\ Out-File コマンドレットを使用して、C: LogsVoicemailTest.xml という名前のファイルに書き込まれます。
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -OutLoggerVariable VoicemailTest 
      
@@ -98,7 +100,7 @@ _**トピックの最終更新日:** 2014-11-01_
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Exchange の統合が正しく構成されている場合は、次のような出力が得られ、Result プロパティは**Success**としてマークされます。
+Exchange の統合が正しく構成されている場合は、次のような出力が得られ、Result プロパティは **Success**としてマークされます。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -110,7 +112,7 @@ Exchange の統合が正しく構成されている場合は、次のような�
 
 分析
 
-指定したユーザーがボイスメールに接続できない場合、結果は**失敗**として表示され、エラーと診断のプロパティに追加情報が記録されます。
+指定したユーザーがボイスメールに接続できない場合、結果は **失敗**として表示され、エラーと診断のプロパティに追加情報が記録されます。
 
 警告: 指定された完全修飾のレジストラーポート番号を読み取ることができませんでした
 

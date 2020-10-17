@@ -12,20 +12,22 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea5283f588315d06387ed2d441f138538cd13ca3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a8522a1f3a8aedd44a6d39faa0ba6f59ba773677
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193970"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504084"
 ---
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Lync Server 2013 でのピアからピアへの音声/ビデオ通話のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a>Lync Server 2013 でのピアからピアへの音声/ビデオ通話のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Test-csp2pav コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsP2PAV コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,11 +68,11 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Test-csp2pav は、テストユーザーのペアがピアツーピアの音声ビデオ会話に参加できるかどうかを判断するために使用されます。 このシナリオをテストするために、このコマンドレットは、Lync Server に2人のユーザーをログオンすることで開始します。 2 つのログオンが正常に行われたら、最初のユーザーが 2 人目のユーザーを A/V 通話に参加するように招待します。 2 人目のユーザーが通話を受諾すると、2 人のユーザー間の接続がテストされ、通話が終了した後、テスト ユーザーはシステムからログオフされます。
+Test-CsP2PAV は、テストユーザーのペアがピアツーピアの音声ビデオ会話に参加できるかどうかを判断するために使用されます。 このシナリオをテストするために、このコマンドレットは、Lync Server に2人のユーザーをログオンすることで開始します。 2 つのログオンが正常に行われたら、最初のユーザーが 2 人目のユーザーを A/V 通話に参加するように招待します。 2 人目のユーザーが通話を受諾すると、2 人のユーザー間の接続がテストされ、通話が終了した後、テスト ユーザーはシステムからログオフされます。
 
-Test-csp2pav では、実際には音声ビデオ通話を行いません。 マルチメディア情報は、テストユーザー間で交換されません。 代わりに、このコマンドレットは単に適切な接続が確立されていることを確認し、2人のユーザーがそのような呼び出しを行えるようにします。
+Test-CsP2PAV は、実際には音声ビデオ通話を行いません。 マルチメディア情報は、テストユーザー間で交換されません。 代わりに、このコマンドレットは単に適切な接続が確立されていることを確認し、2人のユーザーがそのような呼び出しを行えるようにします。
 
-詳細については、 [test-csp2pav](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV)コマンドレットのヘルプドキュメントを参照してください。
+詳細については、 [test-csp2pav](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -78,7 +80,7 @@ Test-csp2pav では、実際には音声ビデオ通話を行いません。 マ
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-csp2pav コマンドレットを実行するには、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントの設定」を参照してください)、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用します。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 次に例を示します。
+Test-CsP2PAV コマンドレットを実行するには、事前に構成された一連のテストアカウントを使用します (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照してください)。または、Lync Server が有効になっている2人のユーザーのアカウント。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 以下に例を示します。
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -94,7 +96,7 @@ Test-csp2pav コマンドレットを実行するには、事前に構成され�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-2つのテストユーザーがピアツーピアの音声ビデオ呼び出しを完了できる場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
+2つのテストユーザーがピアツーピアの音声ビデオ呼び出しを完了できる場合は、次のような出力が得られ、Result プロパティは Success としてマークされ **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -124,15 +126,15 @@ DiagnosticHeader ()
 
 たとえば、Microsoft Exchange Server に接続できなかったため、テストが失敗したことが前の出力に示されています。 このエラーメッセージは、通常、Exchange ユニファイドメッセージングの構成に問題があることを示します。
 
-Test-csp2pav に障害が発生した場合は、次のように詳細パラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsP2PAV が失敗した場合は、次のように詳細パラメーターを含めて、テストを再実行することをお勧めします。
 
-Test-csp2pav-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
+Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-Verbose パラメーターが含まれている場合、Test-csp2pav は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントを返します。 たとえば、次の診断によってテストが失敗したとします。
+Verbose パラメーターが含まれている場合、Test-CsP2PAV は、指定されたユーザーが Lync Server にログオンする機能をチェックしたときに実行された各操作のステップごとのアカウントを返します。 たとえば、次の診断によってテストが失敗したとします。
 
 ErrorCode = 6003, Source = litwareinc, Reason = サポートされていないダイアログの要求
 
-Test-csp2pav を再実行し、Verbose パラメーターを含めると、次のような出力が得られます。
+Test-CsP2PAV を再実行して Verbose パラメーターを含めると、次のような出力が得られます。
 
 VERBOSE: ' Register ' アクティビティが開始されました。
 
@@ -156,11 +158,11 @@ VERBOSE: ' Register ' アクティビティが開始されました。
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-Test-csp2pav が失敗する可能性のある一般的な原因を次に示します。
+Test-CsP2PAV が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     
-    取得-CsUser "sip:kenmyer@litwareinc.com"
+    Get-CsUser "sip:kenmyer@litwareinc.com"
 
   - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。
     

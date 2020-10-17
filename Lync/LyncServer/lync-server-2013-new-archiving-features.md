@@ -12,20 +12,22 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89a8969924acdf8268f059ae3b3660b70ca1dca7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3150d56bbd4935d6139c8584fcd69d721056317e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217058"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505384"
 ---
+# <a name="new-archiving-features-in-lync-server-2013"></a>Lync Server 2013 の新しいアーカイブ機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-archiving-features-in-lync-server-2013"></a>Lync Server 2013 の新しいアーカイブ機能
+
 
 </div>
 
@@ -47,13 +49,13 @@ Lync Server 2013 のアーカイブでは、次の種類のコンテンツをア
 
 さらに、Lync Server 2013 のアーカイブには、展開と運用の効率を向上させる新機能が用意されています。 これらの新機能には、次のものがあります。
 
-  - **フロントエンドサーバー上のアーカイブの併置。**   Lync server 2013 には、別のアーカイブサーバーの役割がありません。 アーカイブは、Enterprise Edition 展開のすべてのフロントエンド サーバーおよび Standard Edition サーバーにインストールできるオプションの機能であり、プールまたはサイトに対する構成として実装できます。
+  - **フロントエンドサーバー上のアーカイブの併置。**    Lync Server 2013 には、別のアーカイブサーバーの役割がありません。 アーカイブは、Enterprise Edition 展開のすべてのフロントエンド サーバーおよび Standard Edition サーバーにインストールできるオプションの機能であり、プールまたはサイトに対する構成として実装できます。
 
-  - **Microsoft Exchange 統合。**   アーカイブを展開するときに、exchange 2013 に所属していてメールボックスがインプレース保持されているすべてのユーザーに対して、既存の exchange 2013 ストレージとのアーカイブ用のデータストレージを統合することができます。したがって、個別の SQL Server データベースを展開して Lync データをアーカイブする必要はありません。 Exchange 2013 を展開していない場合、または統合しない場合、または Exchange 2013 に所属していない Lync 2013 ユーザーがメールボックスをインプレース保持に設定している場合は、SQL Server を使用して個別のアーカイブデータベースを管理することができます。Lync communications からアーカイブされたデータ。 Microsoft exchange 統合と Lync Server 2013 アーカイブデータベースの両方を使用することができますが、展開内の一部のユーザーに対して Microsoft Exchange 統合を使用する必要があります。 インプレース保持の詳細については、「」の「インプレースホールド」 [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500)を参照してください。
+  - **Microsoft Exchange 統合。**    アーカイブを展開するときに、Exchange 2013 に所属しているすべてのユーザーに対して既存の Exchange 2013 ストレージとのアーカイブ用のデータストレージを統合し、メールボックスを In-Place 保持に配置することができます。したがって、個別の SQL Server データベースを展開して Lync データをアーカイブする必要はありません。 Exchange 2013 の展開を行っていない場合、または統合しない場合、または Exchange 2013 に所属していない Lync 2013 ユーザーがメールボックスを In-Place 保持している場合は、SQL Server を使用して Lync コミュニケーションからアーカイブされたデータを格納することで、別のアーカイブデータベースを展開できます。 Microsoft exchange 統合と Lync Server 2013 アーカイブデータベースの両方を使用することができますが、展開内の一部のユーザーに対して Microsoft Exchange 統合を使用する必要があります。 In-Place ホールドの詳細については、「」の「インプレースホールド」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500) 。
 
-  - **SQL ストアのミラーリング。**   アーカイブを展開するときに、アーカイブデータベースに対して SQL Server データベースのミラーリングを有効にすることができます。
+  - **SQL ストアのミラーリング。**    アーカイブを展開するときに、アーカイブデータベースに対して SQL Server データベースのミラーリングを有効にすることができます。
 
-  - **ホワイトボードと投票のアーカイブ。**   アーカイブされた会議コンテンツに、会議中に共有されるホワイトボードと投票が含まれるようになりました。
+  - **ホワイトボードと投票のアーカイブ。**    アーカイブされた会議コンテンツに、会議中に共有されるホワイトボードと投票が含まれるようになりました。
 
 次の種類のコンテンツはアーカイブされません。
 

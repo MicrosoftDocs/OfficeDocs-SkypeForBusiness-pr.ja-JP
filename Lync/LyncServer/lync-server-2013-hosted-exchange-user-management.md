@@ -12,20 +12,22 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cceaeaa869d1e058251a62d237c563143a4ae4c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e4a54c4a7a3833fdd31999d7613659f9a35f9732
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198620"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504204"
 ---
+# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Lync Server 2013 での Hosted Exchange ユーザー管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Lync Server 2013 での Hosted Exchange ユーザー管理
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2012-10-18_
 
 Lync Server 2013 は、 **msExchUCVoiceMailSettings**という名前の新しいユーザー属性を導入しています。これは、lync Server 2013 Active Directory スキーマの準備の一部として作成されます。 この複数値属性は、Lync Server 2013 と hosted Exchange サービスで共有されるボイスメール設定を保持します。
 
-Hosted Exchange サービスでは、Exchange UM の有効化プロセス、または Hosted Exchange Server へのメールボックスの転送プロセス中に、msExchUCVoiceMailSettings 属性の値が設定されることがあります。 この属性が Exchange によって設定されていない場合、Lync Server 2013 管理者は、このトピックで前述したように、Set-CsUser コマンドレットを実行して設定する必要があります。
+Hosted Exchange サービスでは、Exchange UM の有効化プロセス、または Hosted Exchange Server へのメールボックスの転送プロセス中に、msExchUCVoiceMailSettings 属性の値が設定されることがあります。 この属性が Exchange によって設定されていない場合は、このトピックで前述したように、Lync Server 2013 管理者が Set-CsUser コマンドレットを実行して設定する必要があります。
 
 次の表では、属性のキー/値ペアとその設定元について説明します。
 

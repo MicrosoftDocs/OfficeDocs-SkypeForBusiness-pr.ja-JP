@@ -12,20 +12,22 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4abe15d3884bc24d4facb26e2fc0c2df9e31bdcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 103d03920df57023ae7dbb953beb0c426d0a43df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193590"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503754"
 ---
+# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドサーバー、インスタントメッセージング、およびプレゼンスのトポロジとコンポーネント
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドサーバー、インスタントメッセージング、およびプレゼンスのトポロジとコンポーネント
+
 
 </div>
 
@@ -99,20 +101,20 @@ Lync Server 2013 では、フロントエンドプールのアーキテクチャ
 <td><p>1/3</p></td>
 </tr>
 <tr class="odd">
-<td><p>2/4</p></td>
+<td><p>4 </p></td>
 <td><p>1/3</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>2/4</p></td>
+<td><p>5 </p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>7 </p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="odd">
 <td><p>8 </p></td>
@@ -123,28 +125,28 @@ Lync Server 2013 では、フロントエンドプールのアーキテクチャ
 <td><p>7 </p></td>
 </tr>
 <tr class="odd">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>8 </p></td>
 </tr>
 <tr class="even">
-<td><p>11 </p></td>
+<td><p>#</p></td>
 <td><p>9 </p></td>
 </tr>
 <tr class="odd">
-<td><p>12</p></td>
-<td><p>10 </p></td>
+<td><p>12 </p></td>
+<td><p>10  </p></td>
 </tr>
 </tbody>
 </table>
 
 
-今後プールが起動されるたびに、サーバーの85% が開始されます (前の表に示すように)。 この数のサーバーを開始できない (ただし、プールレベルのクォーラム損失が発生しないように、十分な数のサーバーを開始できる) 場合は、 **reset-cspoolregistrarstate – ResetType QuorumLossRecovery**コマンドレットを使用して、このルーティンググループレベルのクォーラム損失から回復できるようにプールを有効にし、進行状況を確認できます。 このコマンドレットの使用方法の詳細については、「 [reset-cspoolregistrarstate](https://docs.microsoft.com/powershell/module/skype/Reset-CsPoolRegistrarState)」を参照してください。
+今後プールが起動されるたびに、サーバーの85% が開始されます (前の表に示すように)。 この数のサーバーを開始できない (ただし、プールレベルのクォーラム損失が発生しないように、十分な数のサーバーを開始できる) 場合は、 **reset-cspoolregistrarstate – ResetType QuorumLossRecovery** コマンドレットを使用して、このルーティンググループレベルのクォーラム損失から回復できるようにプールを有効にし、進行状況を確認できます。 このコマンドレットの使用方法の詳細については、「 [reset-cspoolregistrarstate](https://docs.microsoft.com/powershell/module/skype/Reset-CsPoolRegistrarState)」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server はプライマリ SQL データベースをミラーリング監視として使用しているため、プライマリデータベースをシャットダウンして、ミラーコピーに切り替え、十分な数のフロントエンドサーバーをシャットダウンして、前の表に従って十分でない場合は、プール全体がダウンします。 詳細については、「<A href="https://go.microsoft.com/fwlink/?linkid=393672">データベースミラーリング監視</A>」を参照してください。
+> Lync Server はプライマリ SQL データベースをミラーリング監視として使用しているため、プライマリデータベースをシャットダウンして、ミラーコピーに切り替え、十分な数のフロントエンドサーバーをシャットダウンして、前の表に従って十分でない場合は、プール全体がダウンします。 詳細については、「 <A href="https://go.microsoft.com/fwlink/?linkid=393672">データベースミラーリング監視</A>」を参照してください。
 
 
 
@@ -199,7 +201,7 @@ Lync Server 2013 では、フロントエンドプールのアーキテクチャ
 </table>
 
 
-上記の表では、最初にプールが開始されたときに、最初に開始されたサーバーが "最初のサーバー" です。 これらのサーバーを決定するには、 **-** **poolfqdn**オプションを指定して、コマンドレットを使用できます。 このコマンドレットでは、トポロジに表示される順序でサーバーが表示され、一覧の一番上にあるサーバーが最初のサーバーになります。
+上記の表では、最初にプールが開始されたときに、最初に開始されたサーバーが "最初のサーバー" です。 これらのサーバーを決定するには、 **-** **poolfqdn** オプションを指定して、コマンドレットを使用できます。 このコマンドレットでは、トポロジに表示される順序でサーバーが表示され、一覧の一番上にあるサーバーが最初のサーバーになります。
 
 </div>
 
@@ -231,7 +233,7 @@ Lync Server 2013 では、フロントエンドプールのアーキテクチャ
 
   - ユーザーをプールに初めて移動するときは、少なくとも3台のフロントエンドサーバーが稼働していることを確認してください。
 
-  - このプールと障害復旧のために別のプールとの間にペアリング関係を確立した場合は、その関係を確立した後に、このプールに、同時に実行されている3台のフロントエンドサーバーが存在することを確認する必要があります。バックアッププールを使用したデータ。 プールのペアリングと障害復旧機能の詳細については、「 [Lync Server 2013 での高可用性と障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。
+  - このプールと障害復旧のために別のプールとの間にペアリング関係を確立している場合は、その関係を確立した後で、その関係を確立した後、データをバックアッププールと同期するために、同時に3台のフロントエンドサーバーがこのプールに存在することを確認する必要があります。 プールのペアリングと障害復旧機能の詳細については、「 [Lync Server 2013 での高可用性と障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。
 
 </div>
 
@@ -243,11 +245,11 @@ Lync Server 2013 では、フロントエンドプールのアーキテクチャ
 
 フロントエンドプール内のサーバーをアップグレードまたは更新する必要がある場合は、「 [Lync Server 2013 でのフロントエンドサーバーのアップグレードまたは更新](lync-server-2013-upgrade-or-update-front-end-servers.md)」に示されているワークフローに従って、次のガイドラインを参照してください。
 
-  - アップグレードドメイン間を移行するために ([アップグレード時または Lync Server 2013 でのフロントエンドサーバーの更新](lync-server-2013-upgrade-or-update-front-end-servers.md)時にワークフローに従って) 別のアップグレードドメインに移動する場合は、 **get-cspoolupgradereadinessstate 戻し**コマンドレットを使用して、レディ状態をチェックします。 「Ready」に達した後、各アップグレードドメインの間に20分間の待ち時間を追加すると、アップグレードの信頼性が向上します。 この20分間の準備ができ**ない状態**になった場合は、20分のタイマーを再起動します。 また、20分間隔を開始する前と後に**get-cspoolfabricstate**コマンドレットを実行して、ルーティンググループのプライマリとセカンダリが変更されていないことを確認することもできます。
+  - アップグレードドメイン間を移行するために ( [アップグレード時または Lync Server 2013 でのフロントエンドサーバーの更新](lync-server-2013-upgrade-or-update-front-end-servers.md)時にワークフローに従って) 別のアップグレードドメインに移動する場合は、 **get-cspoolupgradereadinessstate 戻し** コマンドレットを使用して、レディ状態をチェックします。 「Ready」に達した後、各アップグレードドメインの間に20分間の待ち時間を追加すると、アップグレードの信頼性が向上します。 この20分間の準備ができ **ない状態** になった場合は、20分のタイマーを再起動します。 また、20分間隔を開始する前と後に **get-cspoolfabricstate** コマンドレットを実行して、ルーティンググループのプライマリとセカンダリが変更されていないことを確認することもできます。
 
   - 最後にパッチが適用されたアップグレードドメイン内のサーバーが停止または再起動しない場合は、次のアップグレードドメインに移動しないでください。 これは、アップグレード中のいずれかのサーバーが開始できない場合にも適用されます。 **Get-cspoolfabricstate**を実行して、すべてのルーティンググループにプライマリおよび少なくとも1つのセカンダリがあることを確認します。これにより、すべてのユーザーがサービスを利用できるかどうかが確認されます。
 
-  - 一部のユーザーがサービスを所有していて、他のユーザーがいない場合は、-Verbose オプションを指定して**get-cspoolfabricstate**を実行し、レプリカがないルーティンググループを確認します。 最初のトラブルシューティング手順として、プール全体を再起動しないでください。 このコマンドレットの詳細については、「 [get-cspoolfabricstate](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState)」を参照してください。
+  - 一部のユーザーがサービスを所有していて、他のユーザーがいない場合は、-Verbose オプションを指定して **get-cspoolfabricstate** を実行し、レプリカがないルーティンググループを確認します。 最初のトラブルシューティング手順として、プール全体を再起動しないでください。 このコマンドレットの詳細については、「 [get-cspoolfabricstate](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState)」を参照してください。
 
   - Windows fabric のインストール/アンインストールの際に、イベントビューアまたはパフォーマンスモニターウィンドウのすべてのインスタンスが閉じていることを確認してください。
 

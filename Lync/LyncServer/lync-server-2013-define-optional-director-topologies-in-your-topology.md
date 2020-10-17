@@ -12,20 +12,22 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0448ddfdb9988b791ff14dff89ab4c122df1d38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e53512d2d3c0bd99c4d5b23d20f21859ec974415
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504574"
 ---
+# <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>Lync Server 2013 のトポロジにオプションのディレクタートポロジを定義する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-optional-director-topologies-in-your-topology-for-lync-server-2013"></a>Lync Server 2013 のトポロジにオプションのディレクタートポロジを定義する
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-08_
 
 Lync Server 2013 のディレクターは、単一インスタンスサーバーにすることも、高可用性と容量を実現するために複数のディレクターの負荷分散プールとしてインストールすることもできます。 ハードウェア負荷分散とドメインネームシステム (DNS) 負荷分散の両方がサポートされています。 このトピックでは、ディレクタープールの DNS 負荷分散を構成する方法について説明します。
 
-サーバーの役割を追加または削除するときに、トポロジを適切に公開、有効化、または無効化するには、[**RTCUniversalServerAdmins**] グループと [**Domain Admins**] グループのメンバーであるユーザーとしてログオンしている必要があります。 サーバーの役割を追加するための適切な管理者権限とアクセス許可を委任することもできます。 詳細については、「Standard Edition サーバーまたは Enterprise Edition server 展開ドキュメント」の「 [Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md)」を参照してください。 その他の構成変更の場合は、**RTCUniversalServerAdmins** グループのメンバーシップのみが必要となります。
+サーバーの役割を追加または削除するときに、トポロジを適切に公開、有効化、または無効化するには、[**RTCUniversalServerAdmins**] グループと [**Domain Admins**] グループのメンバーであるユーザーとしてログオンしている必要があります。 サーバーの役割を追加するための適切な管理者権限とアクセス許可を委任することもできます。 詳細については、「Standard Edition サーバーまたは Enterprise Edition server 展開ドキュメント」の「 [Lync Server 2013 でのセットアップのアクセス許可の委任](lync-server-2013-delegate-setup-permissions.md) 」を参照してください。 その他の構成変更の場合は、**RTCUniversalServerAdmins** グループのメンバーシップのみが必要となります。
 
 このトピックでは、2つのディレクタートポロジのトポロジを定義および公開する手順について説明します。
 
@@ -61,7 +63,7 @@ Lync Server 2013 のディレクターは、単一インスタンスサーバー
 
 5.  [**ディレクター プールの FQDN を定義する**] ダイアログ ボックスで、次の操作を行います。
     
-      - **[プールの FQDN]** に、ディレクター プールの FQDN を入力します。
+      - [**プールの FQDN**] に、ディレクター プールの FQDN を入力します。
     
       - [**単一コンピューターのプール**] をクリックし、[**次へ**] をクリックします。
 
@@ -95,7 +97,7 @@ Lync Server 2013 のディレクターは、単一インスタンスサーバー
     
 
     > [!WARNING]  
-    > フロントエンドプールまたはフロントエンドサーバーが複数ある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンドサーバーの外部 Web サービスの FQDN を<STRONG>pool01.contoso.com</STRONG>として定義した場合、別のフロントエンドプールまたはフロントエンドサーバーに<STRONG>pool01.contoso.com</STRONG>を使用することはできません。 ディレクターを展開している場合は、ディレクターまたはディレクタープールに対して定義されている外部 Web サービスの FQDN が、他のすべてのディレクターまたはディレクタープールと、フロントエンドプールまたはフロントエンドサーバーとも一意である必要があります。 内部 web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンドプール、ディレクター、またはディレクタープールとは一意である必要があります。
+    > フロントエンドプールまたはフロントエンドサーバーが複数ある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンドサーバーの外部 Web サービスの FQDN を <STRONG>pool01.contoso.com</STRONG>として定義した場合、別のフロントエンドプールまたはフロントエンドサーバーに <STRONG>pool01.contoso.com</STRONG> を使用することはできません。 ディレクターを展開している場合は、ディレクターまたはディレクタープールに対して定義されている外部 Web サービスの FQDN が、他のすべてのディレクターまたはディレクタープールと、フロントエンドプールまたはフロントエンドサーバーとも一意である必要があります。 内部 web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンドプール、ディレクター、またはディレクタープールとは一意である必要があります。
 
     
     </div>
@@ -158,7 +160,7 @@ Lync Server 2013 のディレクターは、単一インスタンスサーバー
     
 
     > [!WARNING]  
-    > フロントエンドプールまたはフロントエンドサーバーが複数ある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンドサーバーの外部 Web サービスの FQDN を<STRONG>pool01.contoso.com</STRONG>として定義した場合、別のフロントエンドプールまたはフロントエンドサーバーに<STRONG>pool01.contoso.com</STRONG>を使用することはできません。 ディレクターを展開している場合は、ディレクターまたはディレクタープールに対して定義されている外部 Web サービスの FQDN が、他のすべてのディレクターまたはディレクタープールと、フロントエンドプールまたはフロントエンドサーバーとも一意である必要があります。 内部 web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンドプール、ディレクター、またはディレクタープールとは一意である必要があります。
+    > フロントエンドプールまたはフロントエンドサーバーが複数ある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンドサーバーの外部 Web サービスの FQDN を <STRONG>pool01.contoso.com</STRONG>として定義した場合、別のフロントエンドプールまたはフロントエンドサーバーに <STRONG>pool01.contoso.com</STRONG> を使用することはできません。 ディレクターを展開している場合は、ディレクターまたはディレクタープールに対して定義されている外部 Web サービスの FQDN が、他のすべてのディレクターまたはディレクタープールと、フロントエンドプールまたはフロントエンドサーバーとも一意である必要があります。 内部 web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンドプール、ディレクター、またはディレクタープールとは一意である必要があります。
 
     
     </div>

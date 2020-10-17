@@ -12,20 +12,22 @@ ms:contentKeyID: 48184255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19f70df743e03494c0c54e180e2f23f960a752a1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9572317dc88d354f7df815be5dcb3cae4ffeba6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213802"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504374"
 ---
+# <a name="defining-your-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 での会議の要件の定義
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 での会議の要件の定義
+
 
 </div>
 
@@ -76,7 +78,7 @@ _**トピックの最終更新日:** 2012-09-30_
     
     また、エッジ サーバーを展開していれば、顧客やベンダーなどの他の組織とフェデレーション関係を築くことができ、これらの組織のユーザーは、こちらのユーザーとより容易に共同作業を行うことができます。
     
-    エッジサーバーの展開の詳細については、「 [lync server 2013 での外部ユーザーアクセスの計画](lync-server-2013-planning-for-external-user-access.md)」および「 [lync server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。 Office Web Apps サーバーの外部アクセスを有効にする方法の詳細については、「 [Office Web Apps サーバーを、リバースプロキシサーバーを使用して Lync server 2013 で公開](lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md)する」を参照してください。
+    エッジサーバーの展開の詳細については、「 [lync server 2013 での外部ユーザーアクセスの計画](lync-server-2013-planning-for-external-user-access.md) 」および「 [lync server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。 Office Web Apps サーバーの外部アクセスを有効にする方法の詳細については、「 [Office Web Apps サーバーを、リバースプロキシサーバーを使用して Lync server 2013 で公開](lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md)する」を参照してください。
 
   - **Lync Server 2013 会議に参加できるクライアントを制御しますか。**
     

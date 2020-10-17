@@ -12,20 +12,22 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6654c084be4915d48c4148c90b3888295c887f08
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: bc96ef027d63c5d2020bd52d55f378fcf7dacf51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503524"
 ---
+# <a name="migrate-dial-in-access-numbers"></a>ダイヤルイン アクセス番号を移行する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a>ダイヤルイン アクセス番号を移行する
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**トピックの最終更新日:** 2012-09-26_
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  Office Communications Server 2007 R2 管理ツールの [**アクセスの電話番号**] タブで、移行元の Office communications Server 2007 R2 プールのダイヤルインアクセス番号が残っていないことを確認します。
+7.  Office Communications Server 2007 R2 管理ツールの [ **アクセスの電話番号** ] タブで、移行元の Office communications Server 2007 R2 プールのダイヤルインアクセス番号が残っていないことを確認します。
 
 </div>
 

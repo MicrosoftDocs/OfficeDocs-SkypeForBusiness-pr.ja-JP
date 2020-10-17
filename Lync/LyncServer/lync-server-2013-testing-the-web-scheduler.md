@@ -12,20 +12,22 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83f9eb59a14fc0ede5cc5d61f0c9f8dff0e1e445
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b385184486cdbf8e2ee18956df1546d09335e6c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193770"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503944"
 ---
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Lync Server 2013 での Web スケジューラのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Lync Server 2013 での Web スケジューラのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-11-03_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsWebScheduler</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsWebScheduler</strong> コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebScheduler&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -92,9 +94,9 @@ _**トピックの最終更新日:** 2014-11-03_
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-次の例に示すコマンドは、特定のユーザー (litwareinc\\kenmeyer) が Web スケジューラを使用してオンライン会議をスケジュールする機能をテストします。 これを行うには、例の最初のコマンドは、**資格情報**コマンドレットを使用して、ユーザー Ken Meyer の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc\\kenmeyer がパラメーターとして含まれているため、Windows PowerShell の [資格情報の要求] ダイアログボックスでは、管理者のみが Ken Meyer アカウントのパスワードを入力する必要があります。)その後、結果として得られる資格情報オブジェクトは $cred 1 という名前の変数に格納されます。
+次の例に示すコマンドは、特定のユーザー (litwareinc \\ kenmeyer) が Web スケジューラを使用してオンライン会議をスケジュールする機能をテストします。 これを行うには、例の最初のコマンドは、 **資格情報** コマンドレットを使用して、ユーザー Ken Meyer の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc \\ kenmeyer がパラメーターとして含まれているため、Windows PowerShell の [資格情報の要求] ダイアログボックスでは、管理者のみが Ken Meyer アカウントのパスワードを入力する必要があります。)その後、結果として得られる資格情報オブジェクトは $cred 1 という名前の変数に格納されます。
 
-2番目のコマンドは、このユーザーがプール atl-cs-001.litwareinc.com にログオンし、オンライン会議をスケジュールすることができるかどうかをチェックします。 このタスクを実行するには、次の3つのパラメーターと共に、 **Test-CsWebScheduler**コマンドレットを呼び出します。 Targetfqdn (レジストラープールの FQDN)。UserCredential (Pilar Ackerman のユーザー資格情報を含む Windows PowerShell オブジェクト)。UserSipAddress (指定されたユーザー資格情報に対応する SIP アドレス)。
+2番目のコマンドは、このユーザーがプール atl-cs-001.litwareinc.com にログオンし、オンライン会議をスケジュールすることができるかどうかをチェックします。 このタスクを実行するには、次の3つのパラメーターと共に、 **Test-CsWebScheduler** コマンドレットを呼び出します。 Targetfqdn (レジストラープールの FQDN)。UserCredential (Pilar Ackerman のユーザー資格情報を含む Windows PowerShell オブジェクト)。UserSipAddress (指定されたユーザー資格情報に対応する SIP アドレス)。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -106,7 +108,7 @@ _**トピックの最終更新日:** 2014-11-03_
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Web スケジューラが正しく構成されている場合は、次のような出力が得られ、Result プロパティは**Success**とマークされます。
+Web スケジューラが正しく構成されている場合は、次のような出力が得られ、Result プロパティは **Success**とマークされます。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -122,7 +124,7 @@ litwareinc.com:443/Scheduler
 
 分析
 
-Web スケジューラが正しく構成されていない場合は、結果が**エラーとして**表示され、追加情報が Error および診断プロパティに記録されます。
+Web スケジューラが正しく構成されていない場合は、結果が **エラーとして**表示され、追加情報が Error および診断プロパティに記録されます。
 
 警告: 指定された完全修飾のレジストラーポート番号を読み取ることができませんでした
 
@@ -154,7 +156,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に **、Test-CsWebScheduler**が失敗する可能性のある一般的な理由を示します。
+次に **、Test-CsWebScheduler** が失敗する可能性のある一般的な理由を示します。
 
   - 指定されたパラメーター値が正しくありません。 省略可能なパラメーターが使用されている場合、オプションのパラメーターが正しく構成されている必要があります。テストは失敗します。 オプションのパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 

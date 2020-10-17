@@ -12,20 +12,22 @@ ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 383fed15e2b67013ddd85356eb141a4c5dcf64e6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a6401d847c2e0993632ad655fb43f07b0a2731ef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503554"
 ---
+# <a name="migrate-dial-in-access-numbers"></a>ダイヤルイン アクセス番号を移行する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a>ダイヤルイン アクセス番号を移行する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44756988"
 
 _**トピックの最終更新日:** 2012-10-19_
 
-Lync Server 2010 から Lync Server 2013 へのダイヤルインアクセス番号の移行では、contact オブジェクトを移行するために、 **Move-CsApplicationEndpoint**コマンドレットを実行する必要があります。 Lync server 2010 および Lync Server 2013 の共存期間の間、lync server 2013 で作成したダイヤルインアクセス番号は、このセクションで説明するように、Lync Server 2010 で作成したダイヤルインアクセス番号と同じように動作します。
+Lync Server 2010 から Lync Server 2013 へのダイヤルインアクセス番号の移行では、contact オブジェクトを移行するために、 **Move-CsApplicationEndpoint** コマンドレットを実行する必要があります。 Lync server 2010 および Lync Server 2013 の共存期間の間、lync server 2013 で作成したダイヤルインアクセス番号は、このセクションで説明するように、Lync Server 2010 で作成したダイヤルインアクセス番号と同じように動作します。
 
 Lync server 2010 で作成したが、Lync Server 2013 に移動した、または移行中または移行後に lync server 2013 で作成したダイヤルインアクセス番号は、次の特徴があります。
 
@@ -89,7 +91,7 @@ Lync server 2010 プールを使用停止にする前に、Lync Server 2010 プ�
 
 4.  左側のナビゲーション バーで **[会議]** をクリックします。
 
-5.  [**ダイヤルインアクセス番号**] タブをクリックします。
+5.  [ **ダイヤルインアクセス番号** ] タブをクリックします。
 
 6.  移行元の Lync Server 2010 プールに対して、ダイヤルインアクセス番号が残っていないことを確認します。
     
@@ -110,7 +112,7 @@ Lync server 2010 プールを使用停止にする前に、Lync Server 2010 プ�
 
 3.  左側のナビゲーション バーで **[会議]** をクリックします。
 
-4.  [**ダイヤルインアクセス番号**] タブをクリックします。
+4.  [ **ダイヤルインアクセス番号** ] タブをクリックします。
 
 5.  すべてのダイヤルインアクセス番号が、Lync Server 2013 でホストされているプールに移行されることを確認します。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969573
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cf7189df06549a3008fd86b9395617c6aea3e98
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 87b6fd59ed0efb3a775017af1effd7bd022071fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503874"
 ---
+# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Lync Server 2013 での Exchange UM へのユーザー接続のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-user-connection-to-exchange-um-in-lync-server-2013"></a>Lync Server 2013 での Exchange UM へのユーザー接続のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-11-01_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsExUMConnectivity</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsExUMConnectivity</strong> コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMConnectivity&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2014-11-01_
 
 ## <a name="description"></a>説明
 
-**Test-CsExUMConnectivity**コマンドレットは、指定されたユーザーが Microsoft Exchange Server 2013 ユニファイドメッセージングサービスに接続できることを確認します。 このコマンドレットでは、サービスに接続できることを確認するだけであることに注意してください。 サービス自体はテストされません。 ユニファイドメッセージングサービス (ユーザーのメールボックスにボイスメールメッセージを実際に残している代理トランザクションコマンドレットを実行する) をテストするには、テスト-CsExUMVoiceMail コマンドレットを使用します。
+**Test-CsExUMConnectivity**コマンドレットは、指定されたユーザーが Microsoft Exchange Server 2013 ユニファイドメッセージングサービスに接続できることを確認します。 このコマンドレットでは、サービスに接続できることを確認するだけであることに注意してください。 サービス自体はテストされません。 ユニファイドメッセージングサービス (ユーザーのメールボックスにボイスメールメッセージを実際に残している代理トランザクションコマンドレットを実行する) をテストするには、Test-CsExUMVoiceMail コマンドレットを使用します。
 
 </div>
 
@@ -78,14 +80,14 @@ _**トピックの最終更新日:** 2014-11-01_
 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-次の例に示すコマンドは、ユーザー litwareinc\\Kenmyer の Exchange ユニファイドメッセージング接続をテストします。 これを行うには、この例の最初のコマンド**は、litwareinc コマンドレットを**使用して、user\\kenmyer の Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 有効な資格情報オブジェクトを作成するには、このアカウントのパスワードを指定する必要があり、**テスト CsExUMConnectivity**コマンドレットでチェックを実行できることに注意してください。
+次の例に示すコマンドは、ユーザー litwareinc kenmyer の Exchange ユニファイドメッセージング接続をテストし \\ ます。 これを行うには、この例の最初のコマンド **は、litwareinc コマンドレットを** 使用して、user Kenmyer の Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成し \\ ます。 有効な資格情報オブジェクトを作成するには、このアカウントのパスワードを指定する必要があり、 **テスト CsExUMConnectivity** コマンドレットでチェックを実行できることに注意してください。
 
-この例の2番目のコマンドでは、指定された credentials オブジェクト ($x) とユーザー\\litwareinc KENMYER の SIP アドレスを使用して、このユーザーが Exchange ユニファイドメッセージングに接続できるかどうかを判断します。
+この例の2番目のコマンドでは、指定された credentials オブジェクト ($x) とユーザー litwareinc kenmyer の SIP アドレスを使用して、 \\ このユーザーが Exchange ユニファイドメッセージングに接続できるかどうかを判断します。
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-次の例に示すコマンドは、表示されているコマンドのバリエーションです。 この例では、OutLoggerVariable パラメーターが含まれています。このパラメーターは、**テスト用**に作成されたすべてのステップの詳細ログを生成するためのもので、これらの各ステップの成功または失敗を生成します。 これを行うには、OutLoggerVariable パラメーターをパラメーター値 ExumText と共に追加します。これにより、詳細なログ情報が $ExumTest という名前の変数に格納されます。 この例の最後のコマンドでは、ToXML () メソッドを使用して、ログ情報を XML 形式に変換します。 その後、その XML データは C:\\という名前のファイルに\\書き込まれます。このコマンドレットを使用して exumtest をログに記録します。
+次の例に示すコマンドは、表示されているコマンドのバリエーションです。 この例では、OutLoggerVariable パラメーターが含まれています。このパラメーターは、 **テスト用** に作成されたすべてのステップの詳細ログを生成するためのもので、これらの各ステップの成功または失敗を生成します。 これを行うには、OutLoggerVariable パラメーターをパラメーター値 ExumText と共に追加します。これにより、詳細なログ情報が $ExumTest という名前の変数に格納されます。 この例の最後のコマンドでは、ToXML () メソッドを使用して、ログ情報を XML 形式に変換します。 その XML データは、 \\ \\ Out-File コマンドレットを使用して、C: LogsExumTest.xml という名前のファイルに書き込まれます。
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -OutLoggerVariable ExumTest 
@@ -97,7 +99,7 @@ _**トピックの最終更新日:** 2014-11-01_
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Exchange の統合が正しく構成されている場合は、次のような出力が得られ、Result プロパティは**Success**としてマークされます。
+Exchange の統合が正しく構成されている場合は、次のような出力が得られ、Result プロパティは **Success**としてマークされます。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -109,7 +111,7 @@ Exchange の統合が正しく構成されている場合は、次のような�
 
 分析
 
-指定したユーザーが通知を受信できない場合は、結果**がエラーとして**表示され、追加情報が Error および診断プロパティに記録されます。
+指定したユーザーが通知を受信できない場合は、結果 **がエラーとして**表示され、追加情報が Error および診断プロパティに記録されます。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de4a1a82dbefb5a7f55a4c5872a6702933af08c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5aa98f8935a692f06b78db523e4e109e8cba9ddf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184582"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505434"
 ---
+# <a name="new-and-changed-settings-for-lync-2013"></a>Lync 2013 の新しい設定と変更された設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-and-changed-settings-for-lync-2013"></a>Lync 2013 の新しい設定と変更された設定
+
 
 </div>
 
@@ -52,7 +54,7 @@ _**トピックの最終更新日:** 2014-12-05_
 </colgroup>
 <thead>
 <tr class="header">
-<th>新</th>
+<th>新規</th>
 <th>Lync Server 管理シェルコマンドレット</th>
 <th>説明</th>
 </tr>
@@ -61,7 +63,7 @@ _**トピックの最終更新日:** 2014-12-05_
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>Set-csclientpolicy</p></td>
-<td><p>True に設定すると、Lync でソフトウェアトレースが有効になります。False に設定されている場合、ソフトウェアトレースは無効になります。 ソフトウェアトレースには、プログラムが実行しているすべて (追跡 API 呼び出しを含む) の詳細な記録が保存されます。 トレースは、開発者やアプリケーションサポート担当者にとって主に役立ちます。この設定は、Communications Server 2007 R2 のグループポリシー設定&quot;と同等です。 Communicator のトレースをオンにします。&quot;設定値は次のとおりです。</p>
+<td><p>True に設定すると、Lync でソフトウェアトレースが有効になります。False に設定されている場合、ソフトウェアトレースは無効になります。 ソフトウェアトレースには、プログラムが実行しているすべて (追跡 API 呼び出しを含む) の詳細な記録が保存されます。 トレースは、開発者やアプリケーションサポート担当者にとって主に役立ちます。この設定は、Communications Server 2007 R2 のグループポリシー設定と同等です &quot; 。 Communicator のトレースをオンにします。 &quot; 設定値は次のとおりです。</p>
 <ul>
 <li><p>Off = トレースは無効になっており、ユーザーはこの設定を変更できません。</p></li>
 <li><p>Light = 最小のトレースが実行され、ユーザーはこの設定を変更できません。</p></li>
@@ -77,7 +79,7 @@ _**トピックの最終更新日:** 2014-12-05_
 <tr class="odd">
 <td><p>AllowLargeMeetings</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>True に設定すると、すべての Lync 会議が&quot;大規模な会議として扱われます。&quot;大規模な会議では、既定で送信される会議名簿のサイズに加えて、参加者に送信される通知の数に制限が適用されます。</p></td>
+<td><p>True に設定すると、すべての Lync 会議が大規模な会議として扱われ &quot; ます。 &quot; 大規模な会議では、既定で送信される会議名簿のサイズに加えて、参加者に送信される通知の数に制限が適用されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>DisablePowerPointAnnotations</p></td>
@@ -150,8 +152,8 @@ _**トピックの最終更新日:** 2014-12-05_
 <tr class="odd">
 <td><p>EnableSQMData</p></td>
 <td><p>Set-csclientpolicy</p></td>
-<td><p>EnableSQMData コマンドレットのパラメーターが Lync Server 2013 で削除されました。 代わりに、Software Quality Management (SQM) データの共有グループポリシー設定を使用して、Lync クライアントの [全般オプション] ページの [カスタマーエクスペリエンス向上オプション] のユーザーインターフェイスを決定することができます。</p>
-<p>HKEY_CURRENT_USER \Software\Policies\Microsoft\Office\Common\QMEnable</p>
+<td><p>Set-CSClientPolicy コマンドレットの EnableSQMData パラメーターが、Lync Server 2013 で削除されました。 代わりに、Software Quality Management (SQM) データの共有グループポリシー設定を使用して、Lync クライアントの [全般オプション] ページの [カスタマーエクスペリエンス向上オプション] のユーザーインターフェイスを決定することができます。</p>
+<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
 <p>数値</p>
 <p>1 = チェックボックスを表示および選択します (ユーザーはチェックボックスをオフにできます)</p>
 <p>0 = チェックボックスをオフにし、無効にします (ユーザーは上書きできません)</p>
@@ -160,7 +162,7 @@ _**トピックの最終更新日:** 2014-12-05_
 <tr class="even">
 <td><p>AllowExchangeContactStore</p></td>
 <td><p>Set-csclientpolicy</p></td>
-<td><p>このパラメーターは削除されました。 その代わりに、Lync Server 2013 を展開してトポロジを公開すると、すべてのユーザーに対して統合連絡先ストアが既定で有効になります。 これは、すべてのユーザーの連絡先が Exchange に保持され、Lync、Outlook、および Outlook Web Access で使用できることを意味します。 このコマンドレットを使用して、統合連絡先ストアを使用できるユーザーをカスタマイズできます。 ユーザーをグローバルに、サイト、テナント、または個人または個人のグループごとに有効にすることができます。 詳細については、「 <a href="lync-server-2013-enable-users-for-unified-contact-store.md">Lync Server 2013 の統合連絡先ストアでユーザーを有効にする</a>」を参照してください。</p></td>
+<td><p>このパラメーターは削除されました。 その代わりに、Lync Server 2013 を展開してトポロジを公開すると、すべてのユーザーに対して統合連絡先ストアが既定で有効になります。 これは、すべてのユーザーの連絡先が Exchange に保持され、Lync、Outlook、および Outlook Web Access で使用できることを意味します。 Set-CsUserServicesPolicy コマンドレットを使用して、統合連絡先ストアを使用できるユーザーをカスタマイズできます。 ユーザーをグローバルに、サイト、テナント、または個人または個人のグループごとに有効にすることができます。 詳細については、「 <a href="lync-server-2013-enable-users-for-unified-contact-store.md">Lync Server 2013 の統合連絡先ストアでユーザーを有効にする</a>」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>MAPIPollInterval</p></td>

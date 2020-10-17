@@ -12,20 +12,22 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d5b73b0c56aa2f1ce4a0db2925354dd658ec2f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a52b251f238b8d79602e5fe1bf2803902cbae23f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193690"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503814"
 ---
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Lync Server 2013 での監視ノード構成のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Lync Server 2013 での監視ノード構成のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-11-03_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>set-cswatchernodeconfiguration</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>set-cswatchernodeconfiguration</strong> コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot; Test-CsWatcherNodeConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2014-11-03_
 
 ## <a name="description"></a>説明
 
-Microsoft System Center Operations Manager を使用して Lync Server 2013 を監視している場合は、「監視ノード」を設定することもできます。コンピューターが定期的かつ自動的に実行している場合は、Lync Server が次のものとして動作していることを確認するために、代理トランザクションを実行します。れる. 監視ノードはプールに割り当てられ、 **set-cswatchernodeconfiguration**コマンドレットを使用して管理されます。 System Center Operations Manager を使用している場合は、監視ノードをインストールする必要はないことに注意してください。 監視ノードを使用せずにシステムを監視することもできます。 唯一の違いは、実行する代理トランザクションは、Operations Manager によって自動的に呼び出されるのではなく、手動で起動する必要があることです。
+Microsoft System Center Operations Manager を使用して Lync Server 2013 を監視している場合は、「監視ノード」を設定することもできます。定期的に、自動的に実行されるコンピューターは、Lync Server が期待どおりに動作していることを確認するために、代理トランザクションを実行します。 監視ノードはプールに割り当てられ、 **set-cswatchernodeconfiguration** コマンドレットを使用して管理されます。 System Center Operations Manager を使用している場合は、監視ノードをインストールする必要はないことに注意してください。 監視ノードを使用せずにシステムを監視することもできます。 唯一の違いは、実行する代理トランザクションは、Operations Manager によって自動的に呼び出されるのではなく、手動で起動する必要があることです。
 
 **Set-cswatchernodeconfiguration**コマンドレットを使用すると、監視ノードが正しく構成されており、有効な Lync Server 2013 プールに割り当てられていることを確認できます。 **Set-cswatchernodeconfiguration**コマンドレットは監視ノード自体で実行する必要があることに注意してください。 リモートコンピューターに対してコマンドレットを実行することはできません。
 
@@ -122,9 +124,9 @@ Microsoft System Center Operations Manager を使用して Lync Server 2013 を�
 
 なかっ. エラーが検出された場合は、出力されます。
 
-Set-cswatchernodeconfiguration: で正常性レジストリキーが見つかりません
+Test-CsWatcherNodeConfiguration: で正常性レジストリキーが見つかりません
 
-ソフトウェア\\Microsoft\\のリアルタイムコミュニケーション。 監視ノード .msi がであることを確認してください。
+ソフトウェア \\ Microsoft \\ のリアルタイムコミュニケーション。 監視ノード .msi がであることを確認してください。
 
 正しくインストールされている。
 

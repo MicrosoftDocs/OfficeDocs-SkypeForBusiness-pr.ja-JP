@@ -12,20 +12,22 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c9c0b0441ea31e2419101aba188c33b0bbfd70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abc46703118d27533ac2afd2b4b448ad9516bdd6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503974"
 ---
+# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Lync Server 2013 での PSTN 通話のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Lync Server 2013 での PSTN 通話のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト用の登録コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsRegistration コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnOutboundCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -68,7 +70,7 @@ _**トピックの最終更新日:** 2014-06-05_
 
 Test-CsPstnOutboundCall コマンドレットは、ユーザーが PSTN にある電話番号に電話をかけることができるかどうかをテストします。 テスト-CsPstnOutboundCall を実行すると、コマンドレットはまず、テストユーザーを Lync Server にログインしようとします。 ログオンに成功すると、コマンドレットは PSTN ゲートウェイを経由して電話をかけることになります。 この通話は、ダイヤルプラン、音声ポリシー、およびテストアカウントに割り当てられたその他のポリシーと設定を使用して行われます。 呼び出しに応答すると、コマンドレットはネットワーク経由でデュアルトーン多重周波数 (DTMF) コードを送信して、メディア接続を確認します。
 
-テストを実行するときは、テスト-CsPstnOutboundCall が実際の電話を発信します。対象の電話は着信し、テストが成功するには応答する必要があります。 この呼び出しは、管理者が手動で終了する必要もあります。
+テストを実行すると、Test-CsPstnOutboundCall は実際の電話をかけることになります。ターゲットの電話は着信し、テストが成功するには応答する必要があります。 この呼び出しは、管理者が手動で終了する必要もあります。
 
 </div>
 
@@ -76,7 +78,7 @@ Test-CsPstnOutboundCall コマンドレットは、ユーザーが PSTN にあ�
 
 ## <a name="running-the-test"></a>テストの実行
 
-テスト-CsPstnOutboundCall コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テスト対象の Lync Server プールの FQDN と、着信される PSTN 電話番号を指定する必要があります。 次に例を示します。
+Test-CsPstnOutboundCall コマンドレットを実行するには、事前に構成されたテストアカウントを使用するか (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照)、Lync Server が有効になっているすべてのユーザーのアカウントを使用します。 このチェックをテストアカウントを使用して実行するには、テスト対象の Lync Server プールの FQDN と、着信される PSTN 電話番号を指定する必要があります。 以下に例を示します。
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219"
 
@@ -85,7 +87,7 @@ Test-CsPstnOutboundCall コマンドレットは、ユーザーが PSTN にあ�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「 [Test-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -93,7 +95,7 @@ Test-CsPstnOutboundCall コマンドレットは、ユーザーが PSTN にあ�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーが通話を行うことができ、応答がある場合は次のような出力が返され、Result プロパティは Success とマークされ**ます。**
+指定したユーザーが通話を行うことができ、応答がある場合は次のような出力が返され、Result プロパティは Success とマークされ **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -121,11 +123,11 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 指定したユーザーに割り当てられている音声ポリシーに電話の使用法が含まれていないため、テストが失敗したことが前の出力に示されています。 (電話使用法は音声ポリシーを音声ルートに関連付けます。 音声ポリシーと対応する音声ルートの両方を使用しない場合、PSTN を介して通話を行うことはできません。
 
-テスト-CsPstnOutboundCall に失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsPstnOutboundCall が失敗した場合は、次のように詳細パラメーターを含めて、テストを再実行することをお勧めします。
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -Verbose
 
-Verbose パラメーターが含まれている場合、テスト-CsPstnOutboundCall は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントを返します。 たとえば、次の出力は、ネットワークの問題によって PSTN との接続が妨げられていることを示しています。
+Verbose パラメーターが含まれている場合、Test-CsPstnOutboundCall は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各アクションのステップバイステップのアカウントを返します。 たとえば、次の出力は、ネットワークの問題によって PSTN との接続が妨げられていることを示しています。
 
 音声ビデオ通話を ' sip: + 12065551219@litwareinc .com; ユーザー = 電話 ' に設定します。
 
@@ -137,7 +139,7 @@ Verbose パラメーターが含まれている場合、テスト-CsPstnOutbound
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-テスト-CsPstnOutboundCall が失敗する主な理由を次に示します。
+Test-CsPstnOutboundCall が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効なユーザーアカウントが指定されています。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     

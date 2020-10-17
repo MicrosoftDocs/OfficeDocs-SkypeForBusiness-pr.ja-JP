@@ -12,20 +12,22 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28d9b55dff41e0013852b52eee97eb26fef3997e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ecd89ce28f1565e44c92ba543ccf992bb2a3c811
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204552"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504144"
 ---
+# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 で SIP トランキングを実装するにはどうすればよいですか?
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 で SIP トランキングを実装するにはどうすればよいですか?
+
 
 </div>
 
@@ -57,9 +59,9 @@ SIP トランキングを実装するには、必要に応じて、Lync Server 2
 
 ## <a name="centralized-vs-distributed-sip-trunking"></a>集中型と分散型 SIP トランキングの比較
 
-*一元*SIP トランキングは、ブランチサイトトラフィックを含むすべてのボイスオーバーインターネットプロトコル (VoIP) トラフィックを中央サイト経由でルーティングします。 一元展開モデルはシンプルで費用対効果があり、通常は、Lync Server 2013 を使用して SIP トランクを実装するために推奨される方法です。
+*一元* SIP トランキングは、ブランチサイトトラフィックを含むすべてのボイスオーバーインターネットプロトコル (VoIP) トラフィックを中央サイト経由でルーティングします。 一元展開モデルはシンプルで費用対効果があり、通常は、Lync Server 2013 を使用して SIP トランクを実装するために推奨される方法です。
 
-*Distributed*SIP トランキングは、1つ以上のブランチサイトにローカル SIP トランクを実装する展開モデルです。 その後、VoIP トラフィックは、中央サイトを経由することなく、ブランチサイトから直接サービスプロバイダーにルーティングされます。
+*Distributed* SIP トランキングは、1つ以上のブランチサイトにローカル SIP トランクを実装する展開モデルです。 その後、VoIP トラフィックは、中央サイトを経由することなく、ブランチサイトから直接サービスプロバイダーにルーティングされます。
 
 分散型 SIP トランキングが必要なのは、次のケースだけです。
 

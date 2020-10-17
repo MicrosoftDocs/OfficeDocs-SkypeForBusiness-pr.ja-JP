@@ -12,20 +12,22 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2177e4fce4d32bb2dc6c82e1f3fecae367eb2543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c1980d66649ff465ad251d5b95a9642e5bcd43c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504074"
 ---
+# <a name="testing-persistent-chat-in-lync-server-2013"></a>Lync Server 2013 での常設チャットのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-persistent-chat-in-lync-server-2013"></a>Lync Server 2013 での常設チャットのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-11-03_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>test-cspersistentchatmessage</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>test-cspersistentchatmessage</strong> コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPersistentChatMessage&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -74,9 +76,9 @@ _**トピックの最終更新日:** 2014-11-03_
 
 ## <a name="running-the-test"></a>テストの実行
 
-次の例に示すコマンドは、ユーザーのペア (litwareinc\\pilar と litwareinc\\Kenmyer) が Lync Server 2013 にログオンし、常設チャットサービスを使用してメッセージを交換できるかどうかをテストします。 これを行うには、例の最初のコマンドは、**資格情報**コマンドレットを使用して、User Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc\\pilar がパラメーターとして含まれているため、[Windows PowerShell 資格情報の要求] ダイアログボックスでは、管理者のみが Pilar Ackerman アカウントのパスワードを入力する必要があります)。その後、結果の資格情報オブジェクトは $cred 1 という名前の変数に格納されます。 2番目のコマンドは同じことを行いますが、今度は Ken Myer アカウントの credential オブジェクトを返します。
+次の例に示すコマンドは、ユーザーのペア (litwareinc \\ pilar と litwareinc \\ kenmyer) が Lync Server 2013 にログオンし、常設チャットサービスを使用してメッセージを交換できるかどうかをテストします。 これを行うには、例の最初のコマンドは、 **資格情報** コマンドレットを使用して、User Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc pilar がパラメーターとして含まれているため、[ \\ Windows PowerShell 資格情報の要求] ダイアログボックスでは、管理者のみが Pilar Ackerman アカウントのパスワードを入力する必要があります)。その後、結果の資格情報オブジェクトは $cred 1 という名前の変数に格納されます。 2番目のコマンドは同じことを行いますが、今度は Ken Myer アカウントの credential オブジェクトを返します。
 
-資格情報オブジェクトが手元にある場合、3番目のコマンドは、これら2人のユーザーが Lync Server 2013 にログオンして、常設チャットを使用して exchange メッセージにログオンできるかどうかを判断します。 このタスクを実行するには、次のパラメーターを使用して**test-cspersistentchatmessage**コマンドレットを呼び出します。 targetfqdn (レジストラープールの FQDN)。SenderSipAddress (最初のテストユーザーの SIP アドレス)。SenderCredential (同じユーザーの資格情報を含む Windows PowerShell オブジェクト)。ReceiverSipAddress (他のテストユーザーの SIP アドレス)。と ReceiverCredential (他のテストユーザーの資格情報を含む Windows PowerShell オブジェクト)。
+資格情報オブジェクトが手元にある場合、3番目のコマンドは、これら2人のユーザーが Lync Server 2013 にログオンして、常設チャットを使用して exchange メッセージにログオンできるかどうかを判断します。 このタスクを実行するには、次のパラメーターを使用して **test-cspersistentchatmessage** コマンドレットを呼び出します。 targetfqdn (レジストラープールの FQDN)。SenderSipAddress (最初のテストユーザーの SIP アドレス)。SenderCredential (同じユーザーの資格情報を含む Windows PowerShell オブジェクト)。ReceiverSipAddress (他のテストユーザーの SIP アドレス)。と ReceiverCredential (他のテストユーザーの資格情報を含む Windows PowerShell オブジェクト)。
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
@@ -89,7 +91,7 @@ _**トピックの最終更新日:** 2014-11-03_
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーに有効な場所ポリシーがある場合は、次のような出力が得られ、Result プロパティは**Success**としてマークされます。
+指定したユーザーに有効な場所ポリシーがある場合は、次のような出力が得られ、Result プロパティは **Success**としてマークされます。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -101,7 +103,7 @@ _**トピックの最終更新日:** 2014-11-03_
 
 分析
 
-指定したユーザーが常設チャットサービスを使用してメッセージを交換できない場合は、結果**がエラーとして**表示され、追加情報が Error および診断プロパティに記録されます。
+指定したユーザーが常設チャットサービスを使用してメッセージを交換できない場合は、結果 **がエラーとして**表示され、追加情報が Error および診断プロパティに記録されます。
 
 警告: 指定された完全修飾のレジストラーポート番号を読み取ることができませんでした
 
@@ -127,7 +129,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 接続されたホストの接続に失敗しました。
 
-2001年に\[応答できませんでした: 4898: e8: f39e: 5c9a: ad83:\]81b3: 9944: 5061
+2001年に応答できませんでした \[ : 4898: e8: f39e: 5c9a: ad83: 81b3: 9944 \] : 5061
 
 内部例外: 接続の試行が失敗しました。
 
@@ -137,7 +139,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 応答に失敗した
 
-\[2001年: 4898: e8: f39e: 5c9a: ad83: 81b3:\]9944: 5061
+\[2001年: 4898: e8: f39e: 5c9a: ad83: 81b3: 9944 \] : 5061
 
 分析
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7cc958e5f643a18c45989d5835fd786c001899db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ff0560c3647374433949fe547a5419c5f788714e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504704"
 ---
+# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a>Lync Server 2013 でのブランチユーザーの VoIP ルーティングポリシーの作成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a>Lync Server 2013 でのブランチユーザーの VoIP ルーティングポリシーの作成
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**トピックの最終更新日:** 2012-09-23_
 
 ## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a>ブランチ ユーザーの VoIP ルーティング ポリシーを構成するには
 
-1.  ユーザーレベルのダイヤルプランを作成して、ブランチユーザーに割り当てます。 (「操作」のドキュメントの「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md)する」を参照してください)。
+1.  ユーザーレベルのダイヤルプランを作成して、ブランチユーザーに割り当てます。 (「操作」のドキュメントの「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md) する」を参照してください)。
 
-2.  そのサイトのユーザーのダイヤル傾向に対応する正規化ルールを割り当てます。 存続可能 Branch Appliance または存続可能 Branch Server ユーザーがセントラルサイトのバックアップレジストラープールにフェールオーバーすると、同じダイヤルプランが有効になります。 (「操作」のドキュメントの「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md)する」を参照してください)。
+2.  そのサイトのユーザーのダイヤル傾向に対応する正規化ルールを割り当てます。 存続可能 Branch Appliance または存続可能 Branch Server ユーザーがセントラルサイトのバックアップレジストラープールにフェールオーバーすると、同じダイヤルプランが有効になります。 (「操作」のドキュメントの「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md) する」を参照してください)。
 
 3.  存続可能 Branch Appliance gateway または存続可能ブランチサーバーの外部ゲートウェイから egresses する音声ルートを構成します。 (「操作」のドキュメントの「 [Create a voice route In Lync Server 2013](lync-server-2013-create-a-voice-route.md) 」を参照してください)。
 

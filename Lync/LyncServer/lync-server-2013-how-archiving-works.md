@@ -12,20 +12,22 @@ ms:contentKeyID: 48184174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bc6266cdf81f4462adf82c5878bcc47a6060fdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2e982884e0e73a5315f0c6281876be225ccab6f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504164"
 ---
+# <a name="how-archiving-works-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブのしくみ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="how-archiving-works-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブのしくみ
+
 
 </div>
 
@@ -67,7 +69,7 @@ Lync Server 2013 アーカイブは、コンプライアンス要件を満たす
 
   - ピアツーピアのインスタント メッセージおよび会議のデスクトップ/アプリケーション共有
 
-また、Lync Server は常設チャットの会話をアーカイブしません。 常設チャットの会話をアーカイブするには、コンプライアンスサービスを有効にして構成する必要があります。これは、Microsoft Lync Server 2013、常設チャットサーバーと共に展開できるコンポーネントです。 詳細については、「計画」のドキュメントの「 [Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)」を参照してください。
+また、Lync Server は常設チャットの会話をアーカイブしません。 常設チャットの会話をアーカイブするには、コンプライアンスサービスを有効にして構成する必要があります。これは、Microsoft Lync Server 2013、常設チャットサーバーと共に展開できるコンポーネントです。 詳細については、「計画」のドキュメントの「 [Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md) 」を参照してください。
 
 </div>
 
@@ -77,15 +79,15 @@ Lync Server 2013 アーカイブは、コンプライアンス要件を満たす
 
 フロントエンド サーバーを展開すると、各サーバーにアーカイブ機能が自動的にインストールされます。ただし、アーカイブは構成するまで有効にはなりません。アーカイブを構成する方法は、アーカイブを展開する方法によって決まります。
 
-  - **Microsoft Exchange 統合を使用したアーカイブ。** Exchange 2013 に所属していて、メールボックスがインプレース保持されているユーザーがいる場合は、Lync Server 2013 ストレージと Exchange 記憶域を統合するためのオプションを選択できます。 [Microsoft Exchange 統合] オプションを選択する場合は、Exchange 2013 のポリシーと構成を使用して、これらのユーザーの Lync Server 2013 データのアーカイブを制御します。
+  - **Microsoft Exchange 統合を使用したアーカイブ。** Exchange 2013 に所属していて、メールボックスが In-Place 保留になっているユーザーがいる場合は、Lync Server 2013 ストレージと Exchange 記憶域を統合するためのオプションを選択できます。 [Microsoft Exchange 統合] オプションを選択する場合は、Exchange 2013 のポリシーと構成を使用して、これらのユーザーの Lync Server 2013 データのアーカイブを制御します。
 
-  - **Lync Server アーカイブデータベースを使用したアーカイブ。** Exchange 2013 に所属していないユーザー、またはメールボックスがインプレース保持に配置されていないユーザー、または展開内のすべてのユーザーに対して Microsoft Exchange 統合を使用しない場合は、SQL Server を使用して Lync Server アーカイブデータベースを展開できます。 これらのユーザーのアーカイブデータを格納する。 この場合、Lync Server 2013 のアーカイブポリシーと構成は、アーカイブが有効になっているかどうか、およびその実装方法を決定します。 Lync Server 2013 を使用するには、適切な SQL Server データベースをトポロジに追加し、トポロジを公開する必要があります。
+  - **Lync Server アーカイブデータベースを使用したアーカイブ。** Exchange 2013 に所属していないユーザー、またはメールボックスが In-Place 保留になっていないユーザーがいる場合、または展開内の一部またはすべてのユーザーに対して Microsoft Exchange 統合を使用しない場合は、SQL Server を使用して Lync Server アーカイブデータベースを展開し、それらのユーザーのアーカイブデータを格納できます。 この場合、Lync Server 2013 のアーカイブポリシーと構成は、アーカイブが有効になっているかどうか、およびその実装方法を決定します。 Lync Server 2013 を使用するには、適切な SQL Server データベースをトポロジに追加し、トポロジを公開する必要があります。
 
 <div>
 
 ## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>Microsoft Exchange 統合を使用する場合のアーカイブのセットアップ
 
-ユーザーが Exchange 2013 に所属しており、メールボックスがインプレース保持されている場合は、 **Microsoft Exchange 統合**オプション (このセクションで後述) を選択して、これらのユーザーの lync server 2013 をアーカイブし、次の項目を制御するために、Exchange のインプレース保持ポリシーと設定を指定して、これらのユーザーのアーカイブを制御します。
+ユーザーが Exchange 2013 に所属しており、メールボックスが In-Place 保持されている場合は、 **Microsoft Exchange 統合** オプション (このセクションで後述) を選択して、これらのユーザーの lync server 2013 をアーカイブし、次の項目を制御するために、Exchange In-Place ホールドポリシーと設定を指定し、lync server の構成を使用することができます。
 
   - IM、電話会議、またはこの両方をアーカイブするかどうか
 
@@ -93,7 +95,7 @@ Lync Server 2013 アーカイブは、コンプライアンス要件を満たす
 
   - Exchange 2013 を使用してアーカイブされたデータを保存するための Microsoft Exchange 統合オプションの選択。
 
-これらの Lync Server 2013 アーカイブ構成オプションについては、このセクションで後述します。 アーカイブをサポートするように Exchange のインプレース保持ポリシーと設定を構成する方法については、Exchange 2013 製品のドキュメントを参照してください。
+これらの Lync Server 2013 アーカイブ構成オプションについては、このセクションで後述します。 アーカイブをサポートするように Exchange In-Place ホールドポリシーと設定を構成する方法については、Exchange 2013 製品のドキュメントを参照してください。
 
 </div>
 
@@ -117,13 +119,13 @@ Lync Server 2013 のアーカイブポリシーには、以下のものが含ま
 
   - **ユーザー アーカイブ ポリシー:** 必要に応じて、指定したユーザーおよびユーザー グループを対象とするユーザーレベルのアーカイブ ポリシーを作成して構成し、適用することによって、1 人以上の特定のユーザーや 1 つ以上のユーザー グループに対してアーカイブを有効または無効にできます。ユーザーレベルのアーカイブ ポリシーを作成した場合、既定ではアーカイブは無効になっています。作成したユーザーレベルのアーカイブ ポリシーは削除できます。また、アーカイブ ポリシーを適用するユーザーおよびユーザー グループを変更することもできます。ユーザーレベルのアーカイブ ポリシーは、グローバル ポリシーおよびすべてのサイト ポリシーよりも優先されますが、そのポリシーが適用されたユーザーおよびユーザー グループだけが対象となります。たとえば、グローバル ポリシーで内部通信と外部通信のアーカイブを無効にし、内部通信と外部通信のアーカイブを有効にするサイトレベルのポリシーを作成して、外部通信のアーカイブを無効にするユーザーレベルのポリシーを作成した場合、すべてのサイト ユーザーに対して外部通信と内部通信の両方がアーカイブされます。ただし、ユーザーレベルのポリシーを適用したユーザーについては、内部通信だけがアーカイブされます。
 
-アーカイブを展開するときに初期アーカイブポリシーをセットアップする方法の詳細については、「展開」のドキュメントの「 [Lync Server 2013 でのアーカイブポリシーの構成と割り当て](lync-server-2013-configuring-and-assigning-archiving-policies.md)」を参照してください。 展開後に通信を有効または無効にするためのアーカイブポリシーの使用の詳細については、「操作」のドキュメントの「 [Lync Server 2013 での内部および外部通信のアーカイブの管理](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)」を参照してください。
+アーカイブを展開するときに初期アーカイブポリシーをセットアップする方法の詳細については、「展開」のドキュメントの「 [Lync Server 2013 でのアーカイブポリシーの構成と割り当て](lync-server-2013-configuring-and-assigning-archiving-policies.md) 」を参照してください。 展開後に通信を有効または無効にするためのアーカイブポリシーの使用の詳細については、「操作」のドキュメントの「 [Lync Server 2013 での内部および外部通信のアーカイブの管理](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) 」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 両方の Lync Server 2013 アーカイブデータベースを実装し、Microsoft Exchange 統合を有効にした場合、Exchange 2013 のポリシーは Lync Server アーカイブポリシーより優先されますが、exchange 2013 に所属しており、メールボックスがインプレース保持されていたユーザーに対してのみ有効です。. Lync アーカイブは、Microsoft Exchange のインプレース保持ポリシーのみに依存します。
+> 両方の Lync Server 2013 アーカイブデータベースを実装して、Microsoft Exchange 統合を有効にすると、Exchange 2013 ポリシーは Lync Server アーカイブポリシーより優先されますが、exchange 2013 に所属していて、メールボックスが In-Place ホールドに置かれているユーザーに対してのみ適用されます。 Lync アーカイブは、Microsoft Exchange In-Place ホールドポリシーのみに依存します。
 
 
 
@@ -167,7 +169,7 @@ Lync Server 2013 のアーカイブポリシーには、以下のものが含ま
     
 
     > [!NOTE]  
-    > Microsoft Exchange 統合を有効にした場合、Exchange 2013 に所属するユーザーとメールボックスがインプレース保持になっているユーザーの削除は、Exchange によって制御されます。 唯一の資格は、Lync Server ファイル共有に格納されている会議ファイル用です。 これらのファイルは、アーカイブ データがエクスポートされた後でデータを削除するオプションを選択した場合はファイルがエクスポートされた後 (Exchange にアップロードされた後)、保持する最大日数を指定した場合は指定した最大日数経過後にのみファイル共有から削除されます。
+    > Microsoft Exchange 統合を有効にした場合、Exchange 2013 に所属するユーザーとメールボックスが In-Place ホールドになっているユーザーの削除は、Exchange によって制御されます。 唯一の資格は、Lync Server ファイル共有に格納されている会議ファイル用です。 これらのファイルは、アーカイブ データがエクスポートされた後でデータを削除するオプションを選択した場合はファイルがエクスポートされた後 (Exchange にアップロードされた後)、保持する最大日数を指定した場合は指定した最大日数経過後にのみファイル共有から削除されます。
 
     
     </div>
@@ -182,7 +184,7 @@ Lync Server 2013 のアーカイブポリシーには、以下のものが含ま
 
   - **プール アーカイブ構成**。個別のプールに対してプールレベルの構成を作成および構成することによって、1 つ以上の特定のプールに対してアーカイブ設定を指定できます。プールレベルのアーカイブ構成は、作成した場合にのみ存在します。任意のプールレベルのアーカイブ構成を変更および削除できます。プールレベルのアーカイブ構成は、グローバル構成、および作成した任意のサイト アーカイブ構成よりも優先されます。たとえば、グローバル構成で IM のアーカイブのみを有効にし、サイトに対して IM と会議の両方のアーカイブを有効にするサイトレベルの構成を作成して、IM のアーカイブのみを有効にするプールレベルのアーカイブ構成を作成した場合、プールレベルの構成で指定されたプールに所属するユーザーを除いて、サイトのすべてのユーザーでは IM と会議の両方の通信がアーカイブされます。組織内のすべての他のユーザーでは、IM のアーカイブのみが有効になります。
 
-アーカイブを展開するときに初期アーカイブ構成をセットアップする方法の詳細については、「展開」のドキュメントの「 [Lync Server 2013 のアーカイブオプションの構成](lync-server-2013-configuring-archiving-options.md)」を参照してください。 展開後に通信を有効または無効にするためのアーカイブポリシーの使用の詳細については、「操作」のドキュメントの「 [Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)」を参照してください。
+アーカイブを展開するときに初期アーカイブ構成をセットアップする方法の詳細については、「展開」のドキュメントの「 [Lync Server 2013 のアーカイブオプションの構成](lync-server-2013-configuring-archiving-options.md) 」を参照してください。 展開後に通信を有効または無効にするためのアーカイブポリシーの使用の詳細については、「操作」のドキュメントの「 [Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md) 」を参照してください。
 
 </div>
 
@@ -208,11 +210,11 @@ Lync Server 2013 管理シェルを使用すると、コマンドレットを使
 
 アーカイブされたデータへのアクセス方法は、データの保管場所に応じて異なります。
 
-  - **Microsoft Exchange ストレージ** Exchange 統合オプションを選択した場合、Lync Server は exchange 2013 に所属しているすべてのユーザーに対して Exchange 2013 ストア内のアーカイブコンテンツをデポジットし、メールボックスがインプレース保持されているすべてのユーザーを対象としています。 アーカイブされたデータはユーザーのメールボックスの回復可能なアイテムフォルダーに格納されます。これは通常、ユーザーには表示されず、Exchange の**検出管理**の役割を持つユーザーのみが検索できます。 Exchange では、展開されている場合は SharePoint と共にフェデレーション検索と検出が有効になります。 Exchange に格納されているデータの記憶域、保持、および検出の詳細については、「Exchange 2013 および SharePoint のドキュメント」を参照してください。
+  - **Microsoft Exchange ストレージ** [Exchange 統合] オプションを選択した場合、Lync Server は exchange 2013 に所属しているすべてのユーザーについて Exchange 2013 ストア内のアーカイブコンテンツをデポジットし、メールボックスが In-Place ホールドに配置されています。 アーカイブされたデータはユーザーのメールボックスの回復可能なアイテムフォルダーに格納されます。これは通常、ユーザーには表示されず、Exchange の **検出管理** の役割を持つユーザーのみが検索できます。 Exchange では、展開されている場合は SharePoint と共にフェデレーション検索と検出が有効になります。 Exchange に格納されているデータの記憶域、保持、および検出の詳細については、「Exchange 2013 および SharePoint のドキュメント」を参照してください。
 
-  - **Lync Server ストレージ**。 Lync server データのストレージ用に Lync Server 2013 アーカイブデータベースを設定すると、Lync server は、Exchange 2013 に所属していないユーザーの Lync Server アーカイブデータベース (SQL Server データベース) にあるアーカイブコンテンツをデポジットし、メールボックスが配置されていないユーザーを対象としています。インプレースホールド。 このデータは検索できませんが、他のツールを使用して検索可能な形式にエクスポートできます。 アーカイブデータベースに格納されているデータのエクスポートの詳細については、「操作」のドキュメントの「 [Lync Server 2013 からアーカイブデータをエクスポート](lync-server-2013-exporting-archived-data.md)する」を参照してください。
+  - **Lync Server ストレージ**。 Lync server データの保存用に Lync Server 2013 アーカイブデータベースを設定すると、Lync server は、Exchange 2013 に所属していないユーザーの Lync Server アーカイブデータベース (SQL Server データベース) にあるアーカイブコンテンツをデポジットします。また、メールボックスが In-Place ホールドに配置されていないユーザーを対象としています。 このデータは検索できませんが、他のツールを使用して検索可能な形式にエクスポートできます。 アーカイブデータベースに格納されているデータのエクスポートの詳細については、「操作」のドキュメントの「 [Lync Server 2013 からアーカイブデータをエクスポート](lync-server-2013-exporting-archived-data.md) する」を参照してください。
 
-Lync Server 2013 と Exchange 2013 の連携の詳細については、「サポート」のドキュメントの「 [Lync server 2013 での Exchange Server と SharePoint の統合のサポート](lync-server-2013-exchange-and-sharepoint-integration-support.md)」を参照してください。
+Lync Server 2013 と Exchange 2013 の連携の詳細については、「サポート」のドキュメントの「 [Lync server 2013 での Exchange Server と SharePoint の統合のサポート](lync-server-2013-exchange-and-sharepoint-integration-support.md) 」を参照してください。
 
 </div>
 

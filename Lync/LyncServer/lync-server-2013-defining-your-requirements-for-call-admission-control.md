@@ -12,20 +12,22 @@ ms:contentKeyID: 48184104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6de02e10f884bf35c87ec8147c66bb720ad39c89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 13a06cfc55481fcfada5782fcbedbac52e6a7660
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504424"
 ---
+# <a name="defining-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理の要件の定義
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理の要件の定義
+
 
 </div>
 
@@ -74,7 +76,7 @@ _**トピックの最終更新日:** 2013-10-28_
 
 </div>
 
-このトポロジ例の各コンポーネントについて、以下のセクションで説明します。 このトポロジがどのように計画されたかの詳細については、「[例: Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
+このトポロジ例の各コンポーネントについて、以下のセクションで説明します。 このトポロジがどのように計画されたかの詳細については、「 [例: Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
 
 <div>
 

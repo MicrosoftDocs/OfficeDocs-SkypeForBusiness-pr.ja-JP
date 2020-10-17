@@ -12,20 +12,22 @@ ms:contentKeyID: 48184088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d71330ce67715ba9beb22cce25c13faa63ddbbea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 16381bbe3372fe0b343e61eb56513e7871745300
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755651"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503504"
 ---
+# <a name="user-migration"></a>ユーザーの移行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a>ユーザーの移行
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 移行をスムーズに行うための最善の方法として一般的によく行われているのが、複数のテスト用ユーザーを作成し、それらを使用してシステムをテストすることです。テスト用アカウントの移動とテストが正常に終了したら、実働ユーザーのパイロット グループを特定し、そのアカウントを移動して、検証テストを行う必要があります。その結果に問題がなければ、残りのユーザーを新しい展開に移動できます。
 
-Lync Server 2013 でユーザーを有効にする方法の詳細については、「2013 Lync server の展開」のドキュメントの「 [Lync server 2013 のユーザーアカウントの無効化または再有効化](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)」を参照してください。
+Lync Server 2013 でユーザーを有効にする方法の詳細については、「2013 Lync server の展開」のドキュメントの「 [Lync server 2013 のユーザーアカウントの無効化または再有効化](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) 」を参照してください。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5857e979b48dd3fee5f19016a7109eb15584b83f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33aa0447c90ea9c76a1956cb817f0e61ce0d626e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193950"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504044"
 ---
+# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Lync Server 2013 での PSTN ピアツーピア通話のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Lync Server 2013 での PSTN ピアツーピア通話のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsPstnPeerToPeerCall コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsPstnPeerToPeerCall コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnPeerToPeerCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Test-CsPstnPeerToPeerCall コマンドレットは、ユーザーのペアが公衆交換電話網 (PSTN) ゲートウェイ経由でピアツーピア通話を行うことができるかどうかを検証します。 テスト-CsPstnPeerToPeerCall を呼び出すと、コマンドレットは最初に2つのテストユーザーを Lync Server にログオンしようとします。 ログオンが成功した場合、コマンドレットはユーザー1に PSTN ゲートウェイ経由のユーザー2の呼び出しを試行します。 テスト-CsPstnPeerToPeerCall は、ダイヤルプラン、音声ポリシー、およびテストユーザーに割り当てられたその他のポリシーと構成設定を使用してこの呼び出しを行います。 テストが計画どおりに行われた場合、コマンドレットは、ユーザー2が通話に応答できたことを確認してから、両方のテストアカウントをシステムからログオフします。
+Test-CsPstnPeerToPeerCall コマンドレットは、ユーザーのペアが公衆交換電話網 (PSTN) ゲートウェイ経由でピアツーピア通話を行うことができるかどうかを検証します。 テスト-CsPstnPeerToPeerCall を呼び出すと、コマンドレットは最初に2つのテストユーザーを Lync Server にログオンしようとします。 ログオンが成功した場合、コマンドレットはユーザー1に PSTN ゲートウェイ経由のユーザー2の呼び出しを試行します。 Test-CsPstnPeerToPeerCall は、ダイヤルプラン、音声ポリシー、およびテストユーザーに割り当てられたその他のポリシーと構成設定を使用してこの呼び出しを行います。 テストが計画どおりに行われた場合、コマンドレットは、ユーザー2が通話に応答できたことを確認してから、両方のテストアカウントをシステムからログオフします。
 
-Test-CsPstnPeerToPeerCall は、接続が可能であることを確認し、ネットワークを介して DTMF コードを送信して、接続を介してメディアを送信できるかどうかを判断する実際の電話を行います。 この呼び出しはコマンドレット自体によって応答され、呼び出しを手動で終了する必要はありません。 (つまり、電話をかけて通話を停止する必要はありません)。
+Test-CsPstnPeerToPeerCall は、接続を確立できるかどうかを確認し、ネットワーク上で DTMF コードを送信して、接続を介してメディアを送信できるかどうかを判断するために、実際の電話を行います。 この呼び出しはコマンドレット自体によって応答され、呼び出しを手動で終了する必要はありません。 (つまり、電話をかけて通話を停止する必要はありません)。
 
 </div>
 
@@ -76,7 +78,7 @@ Test-CsPstnPeerToPeerCall は、接続が可能であることを確認し、ネ
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsPstnPeerToPeerCall コマンドレットは、構成済みのテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントの設定」を参照してください)、または Lync Server が有効になっている任意の2人のアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 次に例を示します。
+Test-CsPstnPeerToPeerCall コマンドレットを実行するには、事前に構成された一連のテストアカウントを使用します (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照してください)。または、Lync Server が有効になっている2人のユーザーのアカウント。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 以下に例を示します。
 
 `Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com"`
 
@@ -86,7 +88,7 @@ Test-CsPstnPeerToPeerCall コマンドレットは、構成済みのテストア
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-詳細については、「 [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -94,7 +96,7 @@ Test-CsPstnPeerToPeerCall コマンドレットは、構成済みのテストア
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーがピアツーピア呼び出しを完了できる場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい**ます。**
+指定したユーザーがピアツーピア呼び出しを完了できる場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -122,11 +124,11 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 指定したユーザーの少なくとも1人に割り当てられた音声ポリシーに電話の使用法が含まれていないためにテストが失敗したことを、上記の出力に記載しています。 (電話使用法は音声ポリシーを音声ルートに関連付けます。 音声ポリシーとそれに対応する音声ルートの両方を使用しない場合、PSTN を介して通話を行うことはできません。
 
-テスト-CsPstnPeerToPeerCall が失敗した場合は、次のように詳細パラメーターを含むテストを再実行することをお勧めします。
+Test-CsPstnPeerToPeerCall が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose パラメーターが含まれている場合、テスト-CsPstnPeerToPeerCall は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各アクションのステップバイステップのアカウントを返します。 たとえば、次の出力は、ネットワークの問題によって PSTN との接続が妨げられていることを示しています。
+Verbose パラメーターが含まれている場合、Test-CsPstnPeerToPeerCall は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各アクションのステップバイステップのアカウントを返します。 たとえば、次の出力は、ネットワークの問題によって PSTN との接続が妨げられていることを示しています。
 
 音声ビデオ通話を ' sip: + 12065551219@litwareinc .com; ユーザー = 電話 ' に設定します。
 
@@ -138,7 +140,7 @@ Verbose パラメーターが含まれている場合、テスト-CsPstnPeerToPe
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-テスト-CsPstnPeerToPeerCall が失敗する主な理由を次に示します。
+Test-CsPstnPeerToPeerCall が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     

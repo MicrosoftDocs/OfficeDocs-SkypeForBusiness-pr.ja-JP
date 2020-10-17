@@ -12,20 +12,22 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb206930dae08d0c2fcf5fa6a26b427b28c03e1b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f0bfeef1abcf7b5859c365b7c64b4fcc84f49ae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212603"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503704"
 ---
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオ会議の検証
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Lync Server 2013 での音声ビデオ会議の検証
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="even">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsAVConference コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsAVConference コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,11 +72,11 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-テスト CsAVConference コマンドレットは、2つのテストユーザーが音声ビデオ (A/V) 会議に参加できるかどうかをチェックします。 コマンドレットを実行すると、2人のユーザーがシステムにログオンします。 正常にログオンした後、最初のユーザーが音声ビデオ会議を作成し、2番目のユーザーがその会議に参加するのを待ちます。 データを簡単に交換した後、会議が削除され、2つのテストユーザーがログオフします。
+Test-CsAVConference コマンドレットは、2つのテストユーザーが音声ビデオ (A/V) 会議に参加できるかどうかをチェックします。 コマンドレットを実行すると、2人のユーザーがシステムにログオンします。 正常にログオンした後、最初のユーザーが音声ビデオ会議を作成し、2番目のユーザーがその会議に参加するのを待ちます。 データを簡単に交換した後、会議が削除され、2つのテストユーザーがログオフします。
 
-テスト-CsAVConference 会議では、2つのテストユーザー間で実際の音声ビデオ会議が行われないことに注意してください。 代わりに、このコマンドレットは、2人のユーザーがそのような会議を行うために必要なすべての接続を確立できることを確認します。
+Test-CsAVConference では、2つのテストユーザー間で実際の音声ビデオ会議が行われないことに注意してください。 代わりに、このコマンドレットは、2人のユーザーがそのような会議を行うために必要なすべての接続を確立できることを確認します。
 
-このコマンドのその他の例については[、「テスト-CsAVConference 会議](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)」を参照してください。
+このコマンドのその他の例については [、「テスト-CsAVConference 会議](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)」を参照してください。
 
 </div>
 
@@ -82,7 +84,7 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="running-the-test"></a>テストの実行
 
-テスト CsAVConference コマンドレットは、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっている任意の2人のアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 次に例を示します。
+Test-CsAVConference コマンドレットを実行するには、事前に構成された一連のテストアカウントを使用します (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照してください)。または、Lync Server が有効になっている2人のユーザーのアカウント。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 以下に例を示します。
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -92,7 +94,7 @@ _**トピックの最終更新日:** 2014-06-05_
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-詳細については、「 [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -100,7 +102,7 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーが音声ビデオ会議を正常に完了できた場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい**ます。**
+指定したユーザーが音声ビデオ会議を正常に完了できた場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -134,11 +136,11 @@ DiagnosticHeader ()
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-テスト-CsAVConference が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsAVConference が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose パラメーターが Test に含まれている場合、指定されたユーザーが AV 電話会議に参加できるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントが返されます。 たとえば、テストが失敗し、次の診断が表示されるとします。
+Verbose パラメーターが含まれている場合 Test-CsAVConference は、指定されたユーザーが AV 電話会議に参加できるかどうかを確認したときに実行された各アクションのステップバイステップのアカウントを返します。 たとえば、テストが失敗し、次の診断が表示されるとします。
 
 ErrorCode = 1008, Source = accessproxy, Reason = DNS SRV レコードを解決できません
 
@@ -178,7 +180,7 @@ VERBOSE: ' Register ' アクティビティが開始されました。
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、テスト-CsAVConference が失敗する主な理由を示します。
+Test-CsAVConference が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     

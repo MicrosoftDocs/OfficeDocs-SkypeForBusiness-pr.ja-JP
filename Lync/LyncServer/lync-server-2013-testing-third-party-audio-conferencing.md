@@ -12,20 +12,22 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e55661d2d28052f7672798059d458563ab5c8d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51f728bfb5617185bdd9a1ef3b5f21b3e12ca61f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503934"
 ---
+# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Lync Server 2013 でのサードパーティの電話会議のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Lync Server 2013 でのサードパーティの電話会議のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-11-01_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Test-csaudioconferencingprovider コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsAudioConferencingProvider コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAudioConferencingProvider&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -68,9 +70,9 @@ _**トピックの最終更新日:** 2014-11-01_
 
 電話会議プロバイダーとは、電話会議サービスを組織に提供するサード パーティの企業です。電話会議プロバイダーの主な機能は、社外にいて企業ネットワークまたはインターネットに接続されていないユーザーが、電話会議または会議のオーディオ部分に参加できるようにすることです。電話会議プロバイダーは多くの場合、リアルタイム通訳、トランスクリプション、オペレーターによる各電話会議のリアルタイム サポートなど、高度なサービスを提供します。
 
-**Test-csaudioconferencingprovider**コマンドレットは、ユーザーが自分の電話会議プロバイダーに接続できることを確認するために使用されます。 このコマンドレットは、次の2つの方法のどちらかで実行できることに注意してください。 多くの管理者は、CsHealthMonitoringConfiguration コマンドレットを使用して、テスト ユーザーを各レジストラー プールに設定します。 これらのテストユーザーは、代理トランザクションで使用するために事前に構成されたユーザーアカウントのペアを表します。 (通常、これらはテストアカウントであり、実際のユーザーに属するアカウントではありません)。テストユーザーがプールに対して構成されている場合、管理者は、テストに関係するユーザーアカウント (および資格情報) を指定せずに、そのプールに対して**test-csaudioconferencingprovider**コマンドレットを実行できます。
+**Test-csaudioconferencingprovider**コマンドレットは、ユーザーが自分の電話会議プロバイダーに接続できることを確認するために使用されます。 このコマンドレットは、次の2つの方法のどちらかで実行できることに注意してください。 多くの管理者は、CsHealthMonitoringConfiguration コマンドレットを使用して、テスト ユーザーを各レジストラー プールに設定します。 これらのテストユーザーは、代理トランザクションで使用するために事前に構成されたユーザーアカウントのペアを表します。 (通常、これらはテストアカウントであり、実際のユーザーに属するアカウントではありません)。テストユーザーがプールに対して構成されている場合、管理者は、テストに関係するユーザーアカウント (および資格情報) を指定せずに、そのプールに対して **test-csaudioconferencingprovider** コマンドレットを実行できます。
 
-または、管理者は実際のユーザーアカウントを使用して**test-csaudioconferencingprovider**コマンドレットを実行できます。 実際のユーザー アカウントを使用してテストを実行する場合は、そのアカウントのログオン名とパスワードを入力する必要があります。
+または、管理者は実際のユーザーアカウントを使用して **test-csaudioconferencingprovider** コマンドレットを実行できます。 実際のユーザー アカウントを使用してテストを実行する場合は、そのアカウントのログオン名とパスワードを入力する必要があります。
 
 </div>
 
@@ -78,13 +80,13 @@ _**トピックの最終更新日:** 2014-11-01_
 
 ## <a name="running-the-test"></a>テストの実行
 
-例1では、プール atl-cs-001.litwareinc.com に対して定義されたテストユーザーが自分の電話会議プロバイダーに接続できるかどうかを確認します。 このコマンドでは、プールに対して少なくとも1つのテストユーザーを定義する必要があります。 Atl-cs-001.litwareinc.com に対してテストユーザーが定義されていない場合、コマンドは失敗します。これは、 **test-csaudioconferencingprovider**コマンドレットはテストに使用するユーザーを認識しないためです。 プールに対してテストユーザーが定義されていない場合は、電話会議プロバイダーとの接続を確認するときに、コマンドが使用する必要があるユーザーアカウントの UserSipAddress パラメーターと資格情報を含める必要があります。
+例1では、プール atl-cs-001.litwareinc.com に対して定義されたテストユーザーが自分の電話会議プロバイダーに接続できるかどうかを確認します。 このコマンドでは、プールに対して少なくとも1つのテストユーザーを定義する必要があります。 Atl-cs-001.litwareinc.com に対してテストユーザーが定義されていない場合、コマンドは失敗します。これは、 **test-csaudioconferencingprovider** コマンドレットはテストに使用するユーザーを認識しないためです。 プールに対してテストユーザーが定義されていない場合は、電話会議プロバイダーとの接続を確認するときに、コマンドが使用する必要があるユーザーアカウントの UserSipAddress パラメーターと資格情報を含める必要があります。
 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com 
 
-例2に示すコマンドは、特定のユーザー (litwareinc\\kenmyer) が自分の電話会議プロバイダーに接続できるかどうかをテストします。 これを行うには、例の最初のコマンドは、資格情報コマンドレットを使用して、ユーザー Ken Myer の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc\\kenmyer がパラメーターとして含まれているため、Windows PowerShell の [資格情報の要求] ダイアログボックスでは、管理者のみが Ken Myer アカウントのパスワードを入力する必要があります)。結果の資格情報オブジェクトは、$credential という名前の変数に格納されます。
+例2に示すコマンドは、特定のユーザー (litwareinc \\ kenmyer) が自分の電話会議プロバイダーに接続できるかどうかをテストします。 これを行うには、例の最初のコマンドは Get-Credential コマンドレットを使用して、ユーザー Ken Myer の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc \\ kenmyer がパラメーターとして含まれているため、Windows PowerShell の [資格情報の要求] ダイアログボックスでは、管理者のみが Ken Myer アカウントのパスワードを入力する必要があります)。結果の資格情報オブジェクトは、$credential という名前の変数に格納されます。
 
-次に、2 番目のコマンドでは、このユーザーが電話会議プロバイダーに接続できるかを確認します。 このタスクを実行するために、Test-csaudioconferencingprovider コマンドレットがとともに、TargetFqdn (レジストラープールの FQDN) という3つのパラメーターと共に呼び出されます。UserCredential (Ken Myer のユーザー資格情報を含む Windows PowerShell オブジェクト)。UserSipAddress (指定されたユーザー資格情報に対応する SIP アドレス)。
+次に、2 番目のコマンドでは、このユーザーが電話会議プロバイダーに接続できるかを確認します。 このタスクを実行するために、Test-CsAudioConferencingProvider コマンドレットと共に、TargetFqdn (レジストラープールの FQDN) という3つのパラメーターを呼び出します。UserCredential (Ken Myer のユーザー資格情報を含む Windows PowerShell オブジェクト)。UserSipAddress (指定されたユーザー資格情報に対応する SIP アドレス)。
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -95,7 +97,7 @@ _**トピックの最終更新日:** 2014-11-01_
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-電話会議プロバイダーが正しく構成されている場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
+電話会議プロバイダーが正しく構成されている場合は、次のような出力が得られ、Result プロパティは Success としてマークされ **ます。**
 
 ターゲット Fqdn: atl-sql-001.litwareinc.com
 
@@ -107,7 +109,7 @@ _**トピックの最終更新日:** 2014-11-01_
 
 分析
 
-指定したユーザーがログオンまたはログオフできない場合は、結果**がエラーと**して表示され、エラーと診断のプロパティに追加情報が記録されます。
+指定したユーザーがログオンまたはログオフできない場合は、結果 **がエラーと**して表示され、エラーと診断のプロパティに追加情報が記録されます。
 
 ターゲット Fqdn: atl-sql-001.litwareinc.com
 
@@ -121,7 +123,7 @@ _**トピックの最終更新日:** 2014-11-01_
 
 接続されたホストの接続に失敗しました。
 
-2001年に\[応答できませんでした: 4898: e8: f39e: 5c9a: ad83:\]81b3: 9944: 5061
+2001年に応答できませんでした \[ : 4898: e8: f39e: 5c9a: ad83: 81b3: 9944 \] : 5061
 
 内部例外: 接続の試行が失敗しました。
 
@@ -131,7 +133,7 @@ _**トピックの最終更新日:** 2014-11-01_
 
 応答に失敗した
 
-\[2001年: 4898: e8: f39e: 5c9a: ad83: 81b3:\]9944: 5061
+\[2001年: 4898: e8: f39e: 5c9a: ad83: 81b3: 9944 \] : 5061
 
 分析
 

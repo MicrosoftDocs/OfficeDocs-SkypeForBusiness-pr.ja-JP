@@ -12,20 +12,22 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a608f84c3c302c503450bfe1c763aebacc269e96
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 08477e9902a1410a98516a79fe5fdd01c5e94214
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504124"
 ---
+# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Lync Server 2013 のサイトに割り当てられた Kerberos アカウントの構成をテストする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Lync Server 2013 のサイトに割り当てられた Kerberos アカウントの構成をテストする
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Get-cskerberosaccountassignment コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsKerberosAccountAssignment コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsKerberosAccountAssignment&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Get-cskerberosaccountassignment コマンドレットを使用すると、Kerberos アカウントが特定のサイトに関連付けられていること、このアカウントが正しく構成されていること、およびアカウントが期待どおりに動作していることを確認できます。 Kerberos アカウントは、インターネットインフォメーションサービス (IIS) を実行しているサイト内のすべてのコンピューターの認証プリンシパルとして機能するコンピューターアカウントです。 これらのアカウントは kerberos 認証プロトコルを使用するため、アカウントは Kerberos アカウントと呼ばれ、新しい認証プロセスは Kerberos web 認証と呼ばれます。 これにより、1つのアカウントを使用してすべての IIS サーバーを管理できるようになります。
+Test-CsKerberosAccountAssignment コマンドレットを使用すると、Kerberos アカウントが特定のサイトに関連付けられていること、このアカウントが正しく構成されていること、およびアカウントが期待どおりに動作していることを確認できます。 Kerberos アカウントは、インターネットインフォメーションサービス (IIS) を実行しているサイト内のすべてのコンピューターの認証プリンシパルとして機能するコンピューターアカウントです。 これらのアカウントは kerberos 認証プロトコルを使用するため、アカウントは Kerberos アカウントと呼ばれ、新しい認証プロセスは Kerberos web 認証と呼ばれます。 これにより、1つのアカウントを使用してすべての IIS サーバーを管理できるようになります。
 
-詳細については、 [get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))コマンドレットのヘルプドキュメントを参照してください。
+詳細については、 [get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -76,15 +78,15 @@ Get-cskerberosaccountassignment コマンドレットを使用すると、Kerber
 
 ## <a name="running-the-test"></a>テストの実行
 
-既定では、Get-cskerberosaccountassignment では、画面に表示される出力はほとんどありません。 代わりに、コマンドレットによって返される情報は、HTML ファイルに書き込まれます。 そのため、Get-cskerberosaccountassignment を実行するたびに Verbose パラメーターと Report パラメーターを含めることをお勧めします。 Verbose パラメーターは、コマンドレットの実行中に画面により詳細な出力を提供します。 Report パラメーターを使用すると、Get-cskerberosaccountassignment によって生成された HTML ファイルのファイルパスとファイル名を指定できます。 Report パラメーターを指定しない場合は、HTML ファイルは自動的にユーザーのフォルダーに保存され、次のような名前が付けられます。 ce84964a-c4da-c4da-4622 2-ad34-c54ff3ed361f .html。
+既定では、Test-CsKerberosAccountAssignment 画面に表示される出力はほとんどありません。 代わりに、コマンドレットによって返される情報は、HTML ファイルに書き込まれます。 そのため、Get-cskerberosaccountassignment を実行するたびに Verbose パラメーターと Report パラメーターを含めることをお勧めします。 Verbose パラメーターは、コマンドレットの実行中に画面により詳細な出力を提供します。 Report パラメーターを使用すると、Get-cskerberosaccountassignment によって生成された HTML ファイルのファイルパスとファイル名を指定できます。 Report パラメーターを指定しない場合、HTML ファイルは自動的にユーザーのフォルダーに保存され、次のような名前が付けられます。 ce84964a-c4da-4622-ad34-c54ff3ed361f.html。
 
 Get-cskerberosaccountassignment を実行するときに、サイト Id も指定する必要があります。 Kerberos アカウントは、サイトスコープで割り当てられます。
 
-次のコマンドは、Get-cskerberosaccountassignment を実行し、出力を C:\\Logs\\KerberosTest という名前のファイルに保存します。
+次のコマンドは Test-CsKerberosAccountAssignment を実行し、出力を C: LogsKerberosTest.html という名前のファイルに保存し \\ \\ ます。
 
     Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "C:\Logs\KerberosTest.html" -Verbose
 
-詳細については、 [get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))コマンドレットのヘルプドキュメントを参照してください。
+詳細については、 [get-cskerberosaccountassignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -92,7 +94,7 @@ Get-cskerberosaccountassignment を実行するときに、サイト Id も指�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Get-cskerberosaccountassignment コマンドレットは、成功または失敗の簡単な通知を返しません。 代わりに、生成された HTML ファイルを Internet Explorer を使用して表示する必要があります。
+Test-CsKerberosAccountAssignment コマンドレットは、成功または失敗の簡単な指示を返しません。 代わりに、生成された HTML ファイルを Internet Explorer を使用して表示する必要があります。
 
 </div>
 
@@ -100,7 +102,7 @@ Get-cskerberosaccountassignment コマンドレットは、成功または失敗
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-Get-cskerberosaccountassignment が失敗する可能性のある一般的な原因を次に示します。
+Test-CsKerberosAccountAssignment が失敗する可能性のある一般的な理由を次に示します。
 
   - 正しくないサイト Id が指定されている可能性があります。 有効なサイト Id の一覧を返すには、次のコマンドを使用します。
     
@@ -118,9 +120,9 @@ Get-cskerberosaccountassignment が失敗する可能性のある一般的な原
     
     InvalidKerberosConfiguration: Kerberos 構成が無効です。
     
-    InvalidKerberosConfiguration: atl-cs001.litwareinc.com 上の Kerberos 構成が無効です。 必要な割り当て済みアカウントが\\litwareinc kerberostest である。 アカウントの有効期限が切れていないこと、およびコンピューター上の構成されたパスワードがアカウントの Active Directory パスワードと一致することを確認します。
+    InvalidKerberosConfiguration: atl-cs001.litwareinc.com 上の Kerberos 構成が無効です。 必要な割り当て済みアカウントが litwareinc kerberostest である \\ 。 アカウントの有効期限が切れていないこと、およびコンピューター上の構成されたパスワードがアカウントの Active Directory パスワードと一致することを確認します。
     
-    パスワードを設定するには、 [set-Cskerの Osaccountpassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))コマンドレットを使用します。
+    パスワードを設定するには、 [set-Cskerの Osaccountpassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15)) コマンドレットを使用します。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969600
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cae11cce4d4214f0392304823710fe1f02a36f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e30d0b8c0e570605c8c6556d42224a205741a821
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503964"
 ---
+# <a name="testing-the-replica-service-in-lync-server-2013"></a>Lync Server 2013 でのレプリカサービスのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-replica-service-in-lync-server-2013"></a>Lync Server 2013 でのレプリカサービスのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-11-03_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsReplica</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsReplica</strong> コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsReplica&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ _**トピックの最終更新日:** 2014-11-03_
 
   - 必要な Active Directory およびローカルコンピューターのセキュリティグループが存在することを確認します。
 
-このコマンドレットはローカルで実行する必要があることに注意してください。 つまり、これは、レプリカサービスが実行されているのと同じコンピューター上で実行する必要があります。 リモートサーバーに対して**Test-CsReplica**コマンドレットを実行するためのオプションはありません。
+このコマンドレットはローカルで実行する必要があることに注意してください。 つまり、これは、レプリカサービスが実行されているのと同じコンピューター上で実行する必要があります。 リモートサーバーに対して **Test-CsReplica** コマンドレットを実行するためのオプションはありません。
 
 </div>
 
@@ -88,7 +90,7 @@ _**トピックの最終更新日:** 2014-11-03_
 
 例 2 は、例 1 に示したコマンドの変化形です。 この例では、Report パラメーターは、テストによって生成されるレポートのフォルダーパスと名前を指定するために含まれています。 レポートのパスを指定しない場合、レポートには次のような自動生成された名前が与えられます。
 
-C:\\ユーザー\\管理者.\\Litwareinc\\AppData\\ローカル\\一時\\1 テスト-3db40ee0-4b5d-4f58-8d3d-b1e61253129e
+C: \\ ユーザー \\ 管理者. Litwareinc \\ AppData \\ ローカル \\ Temp \\ 1 \\Test-Cs-Replica-3db40ee0-4b5d-4f58-8d3d-b1e61253129e.html
 
     Test-CsReplica -Verbose -Report C:\Logs\ReplicaTest.html
 
@@ -100,55 +102,55 @@ C:\\ユーザー\\管理者.\\Litwareinc\\AppData\\ローカル\\一時\\1 テ�
 
 ここにセクション本文を挿入します。
 
-VERBOSE: 新しいログファイルを作成して\\い\\ます\\"\\C\\:\\ユーザーが AppData ローカル一時テスト-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c をテストしています。
+VERBOSE: 新しいログファイルを作成しています "C: \\ ユーザーが \\ \\ AppData \\ ローカル \\ 一時 \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml をテストしています。
 
-VERBOSE: 新しいログファイルを作成して\\い\\ます\\"\\C\\:\\ユーザーが AppData ローカル一時テスト-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c をテストしています。
+VERBOSE: 新しいログファイルを作成しています "C: \\ ユーザーが \\ \\ AppData \\ ローカル \\ 一時 \\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml をテストしています。
 
 VERBOSE: "Test-CsReplica" 処理は正常に完了しました。
 
-VERBOSE: 詳細な結果は、「C\\: ユーザー\\が AppData\\\\ローカル\\一時\\テスト-csreplica-3cb066b3-dd23-411a-8932-99f01c0f940c をテストする」に記載されています。
+VERBOSE: 詳細な結果は、「C: \\ ユーザーが \\ \\ AppData \\ ローカル \\ 一時Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c.xml をテスト \\ する」に記載されています。
 
 VERBOSE: 新しいログファイルを作成しています
 
-"C:\\ユーザー\\が\\AppData\\ローカル\\一時\\2\\テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e をテストします。
+"C: \\ ユーザー \\ が \\ AppData \\ ローカル \\ 一時 \\ 2 \\ テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e をテストします。
 
-d3bd0e4a083 "。
+d3bd0e4a083.xml "です。
 
 VERBOSE: 新しいログファイルを作成しています
 
-"C:\\ユーザー\\が\\AppData\\ローカル\\一時\\2\\テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e をテストします。
+"C: \\ ユーザー \\ が \\ AppData \\ ローカル \\ 一時 \\ 2 \\ テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e をテストします。
 
-d3bd0e4a083 "。
+d3bd0e4a083.html "
 
-警告: Test-CsReplica が失敗しました。
+警告: Test-CsReplica 失敗しました。
 
 警告: 詳細な結果は次の場所にあります。
 
-"C:\\ユーザー\\が\\AppData\\ローカル\\一時\\2\\テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e をテストします。
+"C: \\ ユーザー \\ が \\ AppData \\ ローカル \\ 一時 \\ 2 \\ テスト-csreplica-29fddb35-f56e-4e3c-8f4c-e をテストします。
 
-d3bd0e4a083 "。
+d3bd0e4a083.html "
 
-テスト-CsReplica: コマンドの実行に失敗しました。要求されたレジストリアクセスがありません
+Test-CsReplica: コマンドの実行に失敗しました。要求されたレジストリアクセスがありません
 
 れる.
 
 行: 1 char: 1
 
-\+テスト-CsReplica-Verbose
+\+ Test-CsReplica-詳細
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~
 
-\+カテゴリ情報: InvalidOperation: (:)\[テスト-csreplica\]、セキュリティ
+\+ カテゴリ情報: InvalidOperation: (:) \[テスト-CsReplica \] 、セキュリティ
 
 Exception
 
-\+FullyQualifiedErrorId: ProcessingFailed、Microsoft. 管理
+\+ FullyQualifiedErrorId: ProcessingFailed、Microsoft. 管理
 
 予約.TestReplicaCmdlet
 
-PS C:\\ユーザー\\のテスト\>
+PS C: \\ ユーザーの \\ テスト\>
 
-PS C:\\Test-csucwaconference\\-\> targetfqdn "LyncTest" をテストします。
+PS C: \\ ユーザー \\ \> によるテスト Test-CsUcwaConference-Targetfqdn "LyncTest
 
 icrosoft.com "
 
@@ -164,21 +166,21 @@ TryRetri を SipSyntheticTransaction していることを示します。
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Test-csucwaconference: に対してテストユーザーが割り当てられていません
+Test-CsUcwaConference: に対してテストユーザーが割り当てられていません
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]。 テストユーザーの構成を確認します。
+\[LyncTest.SelfHost.Corp.Microsoft.com \] 。 テストユーザーの構成を確認します。
 
 行: 1 char: 1
 
-\+Test-csucwaconference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+ Test-CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+カテゴリ情報: ResourceUnavailable 不可: (:)\[Test-csucwaconference\]
+\+ カテゴリ情報: ResourceUnavailable 不可: (:) \[Test-csucwaconference\]
 
 、System.invalidoperationexception
 
-\+FullyQualifiedErrorId: Notていない Testusers、Microsoft Rtc.
+\+ FullyQualifiedErrorId: Notていない Testusers、Microsoft Rtc.
 
 TestUcwaConferenceCmdlet
 
@@ -188,7 +190,7 @@ TestUcwaConferenceCmdlet
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-以下に **、テスト用のレプリカ**が失敗する主な理由を示します。
+以下に **、テスト用のレプリカ** が失敗する主な理由を示します。
 
   - レプリケーターエージェントサービスと集中ログエージェントサービスでは、さらに問題が発生する可能性があります。
 

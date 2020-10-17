@@ -12,20 +12,22 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69dea9e2b75125740729f658e1c370838bb5d8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1d57659c93aa42392f5408721157df1d14b56b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504104"
 ---
+# <a name="testing-database-configuration-in-lync-server-2013"></a>Lync Server 2013 でのデータベース構成のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-database-configuration-in-lync-server-2013"></a>Lync Server 2013 でのデータベース構成のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2016-07-07_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があり、SQL Server の管理者権限を持っている必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsDatabase</strong>コマンドレットを実行する権限を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsDatabase</strong> コマンドレットを実行する権限を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2016-07-07_
 
 ## <a name="description"></a>説明
 
-**Test-CsDatabase**コマンドレットは、1つまたは複数の Lync Server 2013 データベースへの接続を確認します。 このコマンドを実行すると、Lync Server トポロジが読み取られ、関連するデータベースへの接続が試行**された**後、試行の成功または失敗が報告されます。 接続されると、コマンドレットは、データベース名、SQL Server バージョン情報、およびインストールされたミラー データベースの場所のような情報のレポートを戻します。
+**Test-CsDatabase**コマンドレットは、1つまたは複数の Lync Server 2013 データベースへの接続を確認します。 このコマンドを実行すると、Lync Server トポロジが読み取られ、関連するデータベースへの接続が試行 **された** 後、試行の成功または失敗が報告されます。 接続されると、コマンドレットは、データベース名、SQL Server バージョン情報、およびインストールされたミラー データベースの場所のような情報のレポートを戻します。
 
 </div>
 
@@ -96,7 +98,7 @@ _**トピックの最終更新日:** 2016-07-07_
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-データベース接続が正しく構成されていると、次のような出力が得られます。これは、Succeed プロパティが**True**として設定されています。
+データベース接続が正しく構成されていると、次のような出力が得られます。これは、Succeed プロパティが **True**として設定されています。
 
 SqlServerFqdn: atl-sql-001.litwareinc.com
 
@@ -138,7 +140,7 @@ ExpectedVersion: 3.1.1
 
 成功: True
 
-データベースが正しく構成されていても利用可能な場合は、[成功] フィールドが**False**と表示され、追加の警告と情報が提供されます。
+データベースが正しく構成されていても利用可能な場合は、[成功] フィールドが **False**と表示され、追加の警告と情報が提供されます。
 
 SqlServerFqdn: atl-sql-001.litwareinc.com
 
@@ -180,7 +182,7 @@ ExpectedVersion: 3.1.1
 
 成功: False
 
-警告: Test-CsDatabase でエラーが発生しました。 ログファイルを参照してください。
+警告: Test-CsDatabase にエラーが発生しました。 ログファイルを参照してください。
 
 詳細な分析を行い、すべてのエラー (2) と警告 (0) が解決されていることを確認する
 
@@ -188,9 +190,9 @@ ExpectedVersion: 3.1.1
 
 警告: 詳細な結果は次の場所にあります。
 
-「C:\\ユーザー\\が\\AppData\\ローカル\\一時\\2\\Test をテストする-csdatabase-b18d488a-8044-4679-bbf2-
+「C: \\ ユーザー \\ が \\ AppData \\ ローカル \\ 一時 \\ 2 \\ Test をテストする-csdatabase-b18d488a-8044-4679-bbf2-
 
-04d593cce8e6 "。
+04d593cce8e6.html "
 
 </div>
 

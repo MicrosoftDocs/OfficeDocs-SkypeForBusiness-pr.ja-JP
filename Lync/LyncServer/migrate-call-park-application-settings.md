@@ -12,20 +12,22 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2789a8a83c8f3ee831fb91c85999d936ea54dd8b
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f63b91c6a742310d14031bdadc28cbc6ca57e115
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757008"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503564"
 ---
+# <a name="migrate-call-park-application-settings"></a>コール パーク アプリケーション設定の移行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-call-park-application-settings"></a>コール パーク アプリケーション設定の移行
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44757008"
 
 _**トピックの最終更新日:** 2012-10-19_
 
-Lync server 2010 から Lync Server 2013 へのコールパークアプリケーションの移行には、lync server 2010 にアップロードされたカスタム音楽保留ファイルを含む Lync Server 2013 プールのプロビジョニング、サービスレベル設定の復元、および Lync Server 2013 プールへのコールパークオービットの retargeting が含まれます。 カスタマイズした保留中のファイルが Lync Server 2010 プールに構成されている場合は、これらのファイルを新しい Lync Server 2013 プールにコピーする必要があります。 また、コールパーク用にアップロードされたカスタマイズされた保留音ファイルのバックアップコピーを別に保持するために、コールパークのカスタマイズされた保留音のファイルを Lync Server 2010 から別の送信先にバックアップすることをお勧めします。 コール パーク アプリケーションのカスタマイズされた保留音ファイルは、プールのファイル ストアに格納されています。 Lync Server 2010 プールファイルストアから Lync Server 2013 ファイルストアにオーディオファイルをコピーするには、 **Xcopy**コマンドを次のパラメーターと共に使用します。
+Lync server 2010 から Lync Server 2013 へのコールパークアプリケーションの移行には、lync server 2010 にアップロードされたカスタム音楽保留ファイルを含む Lync Server 2013 プールのプロビジョニング、サービスレベル設定の復元、および Lync Server 2013 プールへのコールパークオービットの retargeting が含まれます。 カスタマイズした保留中のファイルが Lync Server 2010 プールに構成されている場合は、これらのファイルを新しい Lync Server 2013 プールにコピーする必要があります。 また、コールパーク用にアップロードされたカスタマイズされた保留音ファイルのバックアップコピーを別に保持するために、コールパークのカスタマイズされた保留音のファイルを Lync Server 2010 から別の送信先にバックアップすることをお勧めします。 コール パーク アプリケーションのカスタマイズされた保留音ファイルは、プールのファイル ストアに格納されています。 Lync Server 2010 プールファイルストアから Lync Server 2013 ファイルストアにオーディオファイルをコピーするには、 **Xcopy** コマンドを次のパラメーターと共に使用します。
 
    ```console
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
@@ -66,7 +68,7 @@ Lync server 2010 から Lync Server 2013 へのコールパークアプリケー
     
     </div>
     ```powershell
-        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold" "- <LS2010 CPS TimeSpan> enablemusiconhold" "- <LS2010 CPS value> maxcallpickupattempts" <LS2010 CPS pickup attempts> "-ontimeouturi" <LS2010 CPS timeout URI> "```
+        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold" "- <LS2010 CPS TimeSpan> enablemusiconhold" "- <LS2010 CPS value> maxcallpickupattempts" <LS2010 CPS pickup attempts> "-ontimeouturi" <LS2010 CPS timeout URI> " ```
 
 すべてのコールパークオービット範囲を Lync server 2010 プールから Lync Server 2013 プールに再割り当てするには、Lync Server コントロールパネルまたは Lync Server 管理シェルのいずれかを使用できます。
 
@@ -78,7 +80,7 @@ Lync server 2010 から Lync Server 2013 へのコールパークアプリケー
 
 3.  [**コール パーク**] タブを選択します。
 
-4.  Lync Server 2010 プールに割り当てられている各コールパークオービット範囲に対して、[**宛先サーバーの FQDN** ] 設定を編集し、コールパーク要求を処理する lync Server 2013 プールを選択します。
+4.  Lync Server 2010 プールに割り当てられている各コールパークオービット範囲に対して、[ **宛先サーバーの FQDN** ] 設定を編集し、コールパーク要求を処理する lync Server 2013 プールを選択します。
 
 5.  [**コミット**] を選択して変更を保存します。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34dbf6ede9f58b39df1722e742511ee0844c41f7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5552c03ac18ddd373385674da03d872ce89eb585
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218293"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503904"
 ---
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Lync Server 2013 での統合連絡先ストアアクセスのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Lync Server 2013 での統合連絡先ストアアクセスのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2015-05-15_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>test-csunifiedcontactstore</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、 <strong>test-csunifiedcontactstore</strong> コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUnifiedContactStore&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,7 +72,7 @@ Lync Server 2013 で導入された統合連絡先ストアによって、管理
 
 **Test-csunifiedcontactstore**コマンドレットを実行して、ユーザーの連絡先が統合連絡先ストアに移動されたかどうかを判断できます。 **Test-csunifiedcontactstore**コマンドレットは、指定されたユーザーアカウントを取得し、統合連絡先ストアに接続して、ユーザーの連絡先を取得しようとします。 連絡先を取得できない場合、コマンドは "ユーザーの連絡先は受信されていません" というメッセージと共に失敗します。 ユーザーの連絡先が存在することを確認します。
 
-ユーザーが統合連絡先ストアに正常に移行されたが、連絡先リストに連絡先が存在しない場合、 **test-csunifiedcontactstore**コマンドレットは失敗します。 **Test-csunifiedcontactstore**コマンドレットを正常に完了するには、指定されたユーザーが少なくとも1つの連絡先を持っている必要があります。
+ユーザーが統合連絡先ストアに正常に移行されたが、連絡先リストに連絡先が存在しない場合、 **test-csunifiedcontactstore** コマンドレットは失敗します。 **Test-csunifiedcontactstore**コマンドレットを正常に完了するには、指定されたユーザーが少なくとも1つの連絡先を持っている必要があります。
 
 </div>
 
@@ -78,9 +80,9 @@ Lync Server 2013 で導入された統合連絡先ストアによって、管理
 
 ## <a name="running-the-test"></a>テストの実行
 
-次の例に示すコマンドは、ユーザー litwareinc\\kenmyer の連絡先が統合連絡先ストアにあるかどうかを判断します。 これを行うには、この例の最初のコマンド**は、litwareinc コマンドレットを**使用して、user\\kenmyer の Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 有効な資格情報オブジェクトを作成し、 **test-csunifiedcontactstore**コマンドレットでチェックを実行できることを確認するには、このアカウントのパスワードを指定する必要があることに注意してください。
+次の例に示すコマンドは、ユーザー litwareinc kenmyer の連絡先が統合連絡先ストアにあるかどうかを判断し \\ ます。 これを行うには、この例の最初のコマンド **は、litwareinc コマンドレットを** 使用して、user Kenmyer の Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成し \\ ます。 有効な資格情報オブジェクトを作成し、 **test-csunifiedcontactstore** コマンドレットでチェックを実行できることを確認するには、このアカウントのパスワードを指定する必要があることに注意してください。
 
-この例の2番目のコマンドでは、指定された credentials オブジェクト ($x) とユーザー\\litwareinc KENMYER の SIP アドレスを使用して、その連絡先が統合連絡先ストアに存在するかどうかを判断します。
+この例の2番目のコマンドでは、指定された credentials オブジェクト ($x) とユーザー litwareinc kenmyer の SIP アドレスを使用して、その \\ 連絡先が統合連絡先ストアに存在するかどうかを判断します。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -92,7 +94,7 @@ Lync Server 2013 で導入された統合連絡先ストアによって、管理
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-連絡先ストアへのアクセスが正しく構成されている場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
+連絡先ストアへのアクセスが正しく構成されている場合は、次のような出力が得られ、Result プロパティは Success としてマークされ **ます。**
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -104,7 +106,7 @@ Lync Server 2013 で導入された統合連絡先ストアによって、管理
 
 分析
 
-連絡先ストアへのアクセスが正しく構成されていない場合、結果は**失敗**として表示され、追加情報が Error および診断プロパティに記録されます。
+連絡先ストアへのアクセスが正しく構成されていない場合、結果は **失敗**として表示され、追加情報が Error および診断プロパティに記録されます。
 
 警告: 指定された完全修飾のレジストラーポート番号を読み取ることができませんでした
 
