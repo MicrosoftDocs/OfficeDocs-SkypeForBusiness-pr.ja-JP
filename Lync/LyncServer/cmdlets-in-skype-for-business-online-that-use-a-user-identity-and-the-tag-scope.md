@@ -1,5 +1,6 @@
 ---
 title: ユーザー id とタグスコープを使用する Skype for Business Online のコマンドレット
+description: ユーザー id とタグスコープを使用する Skype for Business Online のコマンドレット。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9adf86a6ec6d2bd859411005dcc67b0dcbe09c7f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 3e2ddbcc9c90096cea5fad4cb680f4ea1797ce48
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755119"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545613"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>ユーザー id とタグスコープを使用する Skype for Business Online のコマンドレット
 
@@ -37,11 +38,11 @@ ms.locfileid: "44755119"
 
 
 > [!NOTE]  
-> ユーザーが以前ユーザーごとのポリシーを割り当てていて、そのポリシーの割り当てを解除して、代わりにグローバルポリシーでユーザーを管理する場合は、どうなりますか。 その場合は、まず、次の構文を使用します。これは、ユーザーごとのポリシーを割り当てないようにするために、そのユーザーに null ポリシーを付与します。<BR>Set-csvoicepolicy – Identity "Ken Myer" – PolicyName $Null
+> ユーザーが以前ユーザーごとのポリシーを割り当てていて、そのポリシーの割り当てを解除して、代わりにグローバルポリシーでユーザーを管理する場合は、どうなりますか。 その場合は、まず、次の構文を使用します。これは、ユーザーごとのポリシーを割り当てないようにするために、そのユーザーに null ポリシーを付与します。<BR>Grant-CsVoicePolicy – Identity "Ken Myer" – PolicyName $Null
 
 
 
-2番目に、ユーザーごとのポリシーがタグスコープで作成されることに注意してください。 ただし、ポリシー名を指定するときは、タグ**プレフィックス**を省略できます。 これらの2つのコマンドは同じです。
+2番目に、ユーザーごとのポリシーがタグスコープで作成されることに注意してください。 ただし、ポリシー名を指定するときは、タグ **プレフィックス** を省略できます。 これらの2つのコマンドは同じです。
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "tag:RedmondVoicePolicy"
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"

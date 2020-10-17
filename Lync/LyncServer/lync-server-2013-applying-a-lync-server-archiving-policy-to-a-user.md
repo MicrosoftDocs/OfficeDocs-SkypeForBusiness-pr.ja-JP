@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server アーカイブポリシーのユーザーへの適用'
+description: 'Lync Server 2013: Lync Server アーカイブポリシーをユーザーに適用します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185024
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cad9784eb2c50662bfedc460cb0dbc8c892206c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 69dcca5601185d65735b963673322a0630af6ebd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504934"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48544993"
 ---
 # <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Lync server 2013 のユーザーへの Lync Server アーカイブポリシーの適用
 

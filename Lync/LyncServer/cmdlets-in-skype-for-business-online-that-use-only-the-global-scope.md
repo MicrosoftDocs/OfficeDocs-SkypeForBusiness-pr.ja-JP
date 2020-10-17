@@ -1,5 +1,6 @@
 ---
 title: グローバルスコープのみを使用する Skype for Business Online のコマンドレット
+description: グローバルスコープのみを使用する Skype for Business Online のコマンドレット。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,19 +14,19 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b97f3c8d9ca7dda0b96db211192350184cbf27b1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a2f59806128ceea825a4cdd966e85852b98079b0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755099"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545603"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>グローバルスコープのみを使用する Skype for Business Online のコマンドレット
 
  
 
 
-いくつかの Skype for Business Online の設定は、*グローバルスコープ*でのみ利用できます。 これは、そのテナントに割り当てられているすべてのユーザーに適用される設定の単一のコレクションが存在することを意味します。 (各テナントには、グローバル設定の固有のコレクションがあります)。グローバルスコープに制限されているコマンドレットを使用している場合、Identity パラメーターは省略可能です。 たとえば、会議の構成設定を取得するには、次のコマンドを使用します。
+いくつかの Skype for Business Online の設定は、 *グローバルスコープ*でのみ利用できます。 これは、そのテナントに割り当てられているすべてのユーザーに適用される設定の単一のコレクションが存在することを意味します。 (各テナントには、グローバル設定の固有のコレクションがあります)。グローバルスコープに制限されているコマンドレットを使用している場合、Identity パラメーターは省略可能です。 たとえば、会議の構成設定を取得するには、次のコマンドを使用します。
 
     Get-CsMeetingConfiguration -Identity "global"
 
@@ -33,7 +34,7 @@ ms.locfileid: "44755099"
 
     Get-CsMeetingConfiguration
 
-会議構成設定のグローバルコレクションは1つだけなので、2つのコマンドはまったく同じ情報を返します。 また、Identity パラメーターは、いずれか**のコマンドレット**を使用する場合には省略できます。 これらの2つのコマンドは同じです。
+会議構成設定のグローバルコレクションは1つだけなので、2つのコマンドはまったく同じ情報を返します。 また、Identity パラメーターは、いずれか **のコマンドレット** を使用する場合には省略できます。 これらの2つのコマンドは同じです。
 
     Set-CsMeetingConfiguration -Identity "global" -AdmitAnonymousUsersByDefault $False
     Set-CsMeetingConfiguration -AdmitAnonymousUsersByDefault $False
@@ -66,7 +67,7 @@ Identity パラメーターが指定されていない場合、既定では、Wi
 
     Remove-CsVoicePolicy -Identity "global"
 
-2番目に、 **set-csvoicepolicy**コマンドレットでは、グローバル音声ポリシーが実際に削除されることはありません。Skype for Business Online では、グローバルポリシーや構成設定を削除することはできません。 このコマンドレットを実行すると、グローバル音声ポリシーのすべてのプロパティを既定値にリセットすることができます。 たとえば、既定では、AllowCallForwarding プロパティは False に設定されています。 ただし、AllowCallForwarding が変更されていて、値が True に設定されている可能性があります。 **Set-csvoicepolicy**コマンドレットを実行すると、AllowCallForwarding プロパティは既定値の "False" に戻ります。 次の表に、このシナリオの概要を示します。
+2番目に、 **set-csvoicepolicy** コマンドレットでは、グローバル音声ポリシーが実際に削除されることはありません。Skype for Business Online では、グローバルポリシーや構成設定を削除することはできません。 このコマンドレットを実行すると、グローバル音声ポリシーのすべてのプロパティを既定値にリセットすることができます。 たとえば、既定では、AllowCallForwarding プロパティは False に設定されています。 ただし、AllowCallForwarding が変更されていて、値が True に設定されている可能性があります。 **Set-csvoicepolicy**コマンドレットを実行すると、AllowCallForwarding プロパティは既定値の "False" に戻ります。 次の表に、このシナリオの概要を示します。
 
 
 <table>
@@ -86,7 +87,7 @@ Identity パラメーターが指定されていない場合、既定では、Wi
 <td><p>既定値</p></td>
 </tr>
 <tr class="even">
-<td><p>True</p></td>
+<td><p>正</p></td>
 <td><p>グローバルポリシーが変更された後</p></td>
 </tr>
 <tr class="odd">

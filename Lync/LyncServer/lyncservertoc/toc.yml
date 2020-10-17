@@ -88,7 +88,7 @@
               href: ../lync-server-2013-what-s-new-for-clients.md
             - name: デバイスの新機能
               href: ../lync-server-2013-what-s-new-for-devices.md
-        - name: ノートをリリースする
+        - name: リリース ノート
           href: ../lync-server-2013-release-notes.md
         - name: Lync の更新プログラム
           href: ../lync-2013-updates-for-client-and-server.md
@@ -204,7 +204,7 @@
               href: ../lync-server-2013-initial-planning-decisions.md
             - name: Lync Server のクライアント
               href: ../lync-server-2013-clients.md
-            - name: 参照トポロジ
+            - name: 関連トポロジ
               href: ../lync-server-2013-reference-topologies.md
               items:
                 - name: 小規模な組織のための参照トポロジ
@@ -347,7 +347,7 @@
               href: ../lync-server-2013-network-bandwidth-requirements-for-media-traffic.md
             - name: サービスの品質 (QoS) の管理
               href: ../lync-server-2013-managing-quality-of-service-qos.md
-        - name: 容量計画
+        - name: キャパシティ プランニング
           href: ../lync-server-2013-capacity-planning.md
           items:
             - name: ユーザーモデルを使用した処理能力の計画
@@ -743,7 +743,7 @@
               href: ../lync-server-2013-estimating-voice-usage-and-traffic.md
             - name: 高度なエンタープライズ Voip 機能のネットワーク設定
               href: ../lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md
-            - name: エンタープライズ Voip に必要なコンポーネント
+            - name: エンタープライズ VoIP に必要なコンポーネント
               href: ../lync-server-2013-components-required-for-enterprise-voice.md
               items:
                 - name: フロントエンドサーバーの VoIP コンポーネント
@@ -913,19 +913,19 @@
                   href: ../lync-server-2013-technical-requirements-for-media-bypass.md
             - name: プライベート電話回線の計画
               href: ../lync-server-2013-planning-for-private-telephone-lines.md
-            - name: 場所に基づくルーティングの計画
+            - name: Location-Based ルーティングの計画
               href: ../lync-server-2013-planning-for-location-based-routing.md
               items:
-                - name: 場所に基づくルーティングの概要
+                - name: Location-Based ルーティングの概要
                   href: ../lync-server-2013-overview-of-location-based-routing.md
-                - name: 場所に基づくルーティングのガイダンス
+                - name: Location-Based ルーティングのガイダンス
                   href: ../lync-server-2013-guidance-for-location-based-routing.md
                   items:
                     - name: ユーザーの場所
                       href: ../lync-server-2013-user-s-location.md
                     - name: PSTN ゲートウェイの場所
                       href: ../lync-server-2013-pstn-gateway-s-location.md
-                - name: 場所に基づくルーティングのシナリオ
+                - name: Location-Based ルーティングのシナリオ
                   href: ../lync-server-2013-scenarios-for-location-based-routing.md
                   items:
                     - name: 送信通話
@@ -940,24 +940,24 @@
                       href: ../lync-server-2013-delegation.md
                     - name: チーム通話
                       href: ../lync-server-2013-team-calling-with-location-based-routing.md
-                - name: 場所に基づくルーティングに関する技術的考慮事項
+                - name: Location-Based ルーティングに関する技術的考慮事項
                   href: ../lync-server-2013-technical-considerations-for-location-based-routing.md
-                - name: 場所に基づくルーティングに対するクライアントとサーバーのサポート
+                - name: Location-Based ルーティングのクライアントとサーバーのサポート
                   href: ../lync-server-2013-client-and-server-support-for-location-based-routing.md
-                - name: 場所に基づくルーティングでサポートされていない機能
+                - name: Location-Based ルーティングでサポートされていない機能
                   href: ../lync-server-2013-capabilities-not-supported-by-location-based-routing.md
-                - name: 場所に基づくルーティングの展開プロセス
+                - name: Location-Based ルーティングの展開プロセス
                   href: ../lync-server-2013-deployment-process-for-location-based-routing.md
-                - name: 会議の場所に基づくルーティング
+                - name: 電話会議の Location-Based ルーティング
                   href: ../lync-server-2013-location-based-routing-for-conferencing.md
                   items:
-                    - name: 会議の場所に基づくルーティングの概要
+                    - name: 会議の Location-Based ルーティングの概要
                       href: ../lync-server-2013-overview-of-location-based-routing-for-conferencing.md
-                    - name: 場所に基づくルーティングとコンサルティング呼び出しの転送
+                    - name: Location-Based ルーティングとコンサルティング呼び出しの転送
                       href: ../lync-server-2013-location-based-routing-and-consultative-call-transfers.md
-                    - name: 会議の場所に基づくルーティングの要件
+                    - name: 会議の Location-Based ルーティングの要件
                       href: ../lync-server-2013-requirements-for-location-based-routing-for-conferencing.md
-                    - name: 会議の場所に基づくルーティングの構成
+                    - name: 会議の Location-Based ルーティングの構成
                       href: ../lync-server-2013-configuration-of-location-based-routing-for-conferencing.md
             - name: 通話管理機能の計画
               href: ../lync-server-2013-planning-for-call-management-features.md
@@ -975,7 +975,7 @@
                       href: ../lync-server-2013-clients-supported-for-call-park.md
                     - name: コールパークの処理能力計画
                       href: ../lync-server-2013-capacity-planning-for-call-park.md
-                    - name: コールパークの展開プロセス
+                    - name: コール パークの展開プロセス
                       href: ../lync-server-2013-deployment-process-for-call-park.md
                 - name: グループ通話ピックアップの計画
                   href: ../lync-server-2013-planning-for-group-call-pickup.md
@@ -1016,7 +1016,7 @@
                       href: ../lync-server-2013-components-used-by-the-announcement-application.md
                     - name: アナウンスアプリケーションの技術要件
                       href: ../lync-server-2013-technical-requirements-for-the-announcement-application.md
-                    - name: アナウンスアプリケーションの展開プロセス
+                    - name: アナウンス アプリケーションの展開プロセス
                       href: ../lync-server-2013-deployment-process-for-the-announcement-application.md
             - name: エンタープライズ Voip の復元の計画
               href: ../lync-server-2013-planning-for-enterprise-voice-resiliency.md
@@ -1346,7 +1346,7 @@
                     - name: Active Directory ドメインサービスの準備の概要
                       href: ../lync-server-2013-overview-of-active-directory-domain-services-preparation.md
                     - name: Active Directory ドメイン サービスの準備
-                      href: ../lync-server-2013-preparing-active-directory-domain-services_1.md
+                      href: ../lync-server-2013-preparing-active-directory-domain-services.md
                       items:
                         - name: Active Directory スキーマの準備
                           href: ../lync-server-2013-preparing-the-active-directory-schema.md
@@ -1561,7 +1561,7 @@
                   href: ../lync-server-2013-start-services-on-the-director.md
                 - name: ディレクターをテストする
                   href: ../lync-server-2013-test-the-director.md
-                - name: ディレクターを使用するように自動クライアントサインインを構成する
+                - name: ディレクターを使用するようにクライアントの自動 Sign-In を構成する
                   href: ../lync-server-2013-configure-automatic-client-sign-in-to-use-the-director.md
             - name: エッジサーバーの設定
               href: ../lync-server-2013-setting-up-edge-servers.md
@@ -1605,11 +1605,11 @@
             - name: 外部ユーザーアクセスのサポートの構成
               href: ../lync-server-2013-configuring-support-for-external-user-access.md
               items:
-                - name: リモートユーザーアクセスを制御するポリシーの構成
+                - name: リモート ユーザー アクセスを制御するポリシーの構成
                   href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                - name: リモートユーザーアクセスを有効または無効にする
+                - name: リモート ユーザー アクセスの有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-remote-user-access.md
-                - name: 匿名ユーザーアクセスを有効または無効にする
+                - name: 匿名ユーザー アクセスの有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-anonymous-user-access.md
                 - name: 匿名ユーザーをサポートするための会議ポリシーの割り当て
                   href: ../lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md
@@ -1626,16 +1626,16 @@
                   href: ../lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md
             - name: リバースプロキシサーバーを使用して Office Web Apps サーバーを公開する
               href: ../lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md
-            - name: Lync と Skype の接続のプロビジョニングガイド
+            - name: Lync-Skype 接続のプロビジョニングガイド
               href: ../lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md
               items:
-                - name: Lync Online の Lync と Skype の接続に関する注意事項
+                - name: Lync Online の Lync-Skype 接続に関する注意事項
                   href: ../lync-server-2013-note-about-lync-skype-connectivity-for-lync-on.md
                 - name: Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス
                   href: ../lync-server-2013-accessing-the-lync-server-public-im-connectivity-provisioning-site.md
-                - name: Lync と Skype の接続の有効化
+                - name: Lync-Skype 接続の有効化
                   href: ../lync-server-2013-enabling-lync-skype-connectivity.md
-                - name: エンドユーザーとしての Lync と Skype の接続の使用
+                - name: エンドユーザーとしての Lync-Skype 接続の使用
                   href: ../lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md
                 - name: 'よく寄せられる質問: Skype 接続用の Lync Server のプロビジョニング'
                   href: ../lync-server-2013-frequently-asked-questions-provisioning-lync-server-for-skype-connectivity.md
@@ -1645,14 +1645,14 @@
                 - name: Lync フェデレーションのセットアップ
                   href: ../lync-server-2013-setting-up-lync-federation.md
                   items:
-                    - name: フェデレーションユーザーアクセスを制御するポリシーの構成
+                    - name: フェデレーション ユーザー アクセスを制御するポリシーの構成
                       href: ../lync-server-2013-configure-policies-to-control-federated-user-access.md
                 - name: パブリックインスタントメッセージング接続の設定
                   href: ../lync-server-2013-setting-up-public-instant-messaging-connectivity.md
                   items:
                     - name: パブリックプロバイダーのメディア暗号化を構成する
                       href: ../lync-server-2013-configure-media-encryption-for-public-providers.md
-                    - name: パブリックユーザーアクセスを制御するポリシーの構成
+                    - name: パブリック ユーザー アクセスを制御するポリシーの構成
                       href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                 - name: XMPP フェデレーションのセットアップ
                   href: ../lync-server-2013-setting-up-xmpp-federation.md
@@ -1766,7 +1766,7 @@
                 - name: 発信通話用のボイスルートの構成
                   href: ../lync-server-2013-configuring-voice-routes-for-outbound-calls.md
                   items:
-                    - name: 音声ルートを作成する
+                    - name: 音声経路を作成する
                       href: ../lync-server-2013-create-a-voice-route.md
                     - name: 音声ルートを変更する
                       href: ../lync-server-2013-modify-a-voice-route.md
@@ -1847,7 +1847,7 @@
                   items:
                     - name: CAC のネットワーク地域を構成する
                       href: ../lync-server-2013-configure-network-regions-for-cac.md
-                    - name: 帯域幅ポリシープロファイルを作成する
+                    - name: 帯域幅ポリシー プロファイルの作成
                       href: ../lync-server-2013-create-bandwidth-policy-profiles.md
                     - name: CAC のネットワークサイトを構成する
                       href: ../lync-server-2013-configure-network-sites-for-cac.md
@@ -1857,23 +1857,23 @@
                       href: ../lync-server-2013-create-network-region-links.md
                     - name: ネットワーク地域間ルートを作成する
                       href: ../lync-server-2013;-create-network-interregion-routes.md
-                    - name: ネットワークサイト間ポリシーを作成する
+                    - name: ネットワーク サイト間ポリシーの作成
                       href: ../lync-server-2013-create-network-intersite-policies.md
-                    - name: 通話受付管理を有効にする
+                    - name: 通話受付管理の有効化
                       href: ../lync-server-2013-enable-call-admission-control.md
                     - name: 通話受付管理の展開チェックリスト
                       href: ../lync-server-2013-call-admission-control-deployment-checklist.md
                 - name: Enhanced 9-1-1 の構成
                   href: ../lync-server-2013-configure-enhanced-9-1-1.md
                   items:
-                    - name: E9-1-1 ボイスルートを構成する
+                    - name: E9-1-1 音声ルートの構成
                       href: ../lync-server-2013-configure-an-e9-1-1-voice-route.md
-                    - name: 場所のポリシーを作成する
+                    - name: 場所ポリシーの作成
                       href: ../lync-server-2013-create-location-policies.md
                     - name: E9-1-1 のサイト情報を構成する
                       href: ../lync-server-2013-configure-site-information-for-e9-1-1.md
                       items:
-                        - name: 場所のポリシーをネットワークサイトに追加する
+                        - name: ネットワーク サイトへの場所ポリシーの追加
                           href: ../lync-server-2013-add-a-location-policy-to-a-network-site.md
                         - name: E9-1-1 のネットワークサイトにサブネットを関連付ける
                           href: ../lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md
@@ -1889,7 +1889,7 @@
                     - name: 高度な E9-1-1 機能の構成
                       href: ../lync-server-2013-configure-advanced-e9-1-1-features.md
                       items:
-                        - name: SNMP アプリケーションを構成する
+                        - name: SNMP アプリケーションの構成
                           href: ../lync-server-2013-configure-an-snmp-application.md
                         - name: セカンダリ場所情報サービスを構成する
                           href: ../lync-server-2013-configure-a-secondary-location-information-service.md
@@ -1916,14 +1916,14 @@
                           items:
                             - name: メディアバイパスのためにサブネットをネットワークサイトに関連付ける
                               href: ../lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md
-                - name: 場所に基づくルーティングの構成
+                - name: Location-Based ルーティングの構成
                   href: ../lync-server-2013-configuring-location-based-routing.md
                   items:
                     - name: エンタープライズ Voip の構成
                       href: ../lync-server-2013-configuring-enterprise-voice.md
                     - name: ネットワーク地域、サイト、およびサブネットの展開
                       href: ../lync-server-2013-deploying-network-regions-sites-and-subnets.md
-                    - name: 場所に基づくルーティングを有効にする
+                    - name: Location-Based ルーティングを有効にする
                       href: ../lync-server-2013-enabling-location-based-routing.md
             - name: 通話管理機能の展開
               href: ../lync-server-2013-deploying-call-management-features.md
@@ -1933,22 +1933,22 @@
                   items:
                     - name: コールパーク構成の前提条件とユーザー権限
                       href: ../lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md
-                    - name: コールパークの展開プロセス
+                    - name: コール パークの展開プロセス
                       href: ../lync-server-2013-deployment-process-for-call-park.md
                     - name: コールパークオービットテーブルを構成する
                       href: ../lync-server-2013-configure-the-call-park-orbit-table.md
                       items:
-                        - name: コールパークオービット範囲の作成または変更
+                        - name: コール パーク オービット範囲の作成または変更
                           href: ../lync-server-2013-create-or-modify-a-call-park-orbit-range.md
-                    - name: コールパーク設定の構成
+                    - name: コール パーク設定の構成
                       href: ../lync-server-2013-configure-call-park-settings.md
-                    - name: コールパーク保留音のカスタマイズ
+                    - name: コール パーク保留音のカスタマイズ
                       href: ../lync-server-2013-customize-call-park-music-on-hold.md
-                    - name: ユーザーのコールパークを有効にする
+                    - name: ユーザーに対するコール パークの有効化
                       href: ../lync-server-2013-enable-call-park-for-users.md
-                    - name: コールパークの正規化ルールの確認
+                    - name: コール パーク正規化ルールの確認
                       href: ../lync-server-2013-verify-normalization-rules-for-call-park.md
-                    - name: オプションコールパーク展開の確認
+                    - name: (オプション) コール パーク展開の確認
                       href: ../lync-server-2013-optional-verify-call-park-deployment.md
                 - name: グループ通話ピックアップの構成
                   href: ../lync-server-2013-configuring-group-call-pickup.md
@@ -1957,14 +1957,14 @@
                       href: ../lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md
                     - name: グループ通話ピックアップの展開プロセス
                       href: ../lync-server-2013-deployment-process-for-group-call-pickup.md
-                    - name: SEFAUtil ツールを展開する
+                    - name: SEFAUtil ツールの展開
                       href: ../lync-server-2013-deploy-the-sefautil-tool.md
                     - name: 通話ピックアップグループ番号を構成する
                       href: ../lync-server-2013-configure-call-pickup-group-numbers.md
                       items:
-                        - name: グループ通話ピックアップ番号の範囲を作成または変更する
+                        - name: グループ通話ピックアップ番号の範囲の作成または変更
                           href: ../lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md
-                    - name: ユーザーのグループ通話ピックアップの有効化とグループ番号の割り当て
+                    - name: ユーザーに対するグループ通話ピックアップの有効化とグループ番号の割り当て
                       href: ../lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md
                     - name: グループ通話ピックアップの割り当てをユーザーに伝達する
                       href: ../lync-server-2013-communicate-group-call-pickup-assignment-to-users.md
@@ -1982,16 +1982,16 @@
                     - name: 応答グループエージェントグループを作成する
                       href: ../lync-server-2013-create-response-group-agent-groups.md
                       items:
-                        - name: エージェントグループを作成または変更する
+                        - name: エージェント グループの作成または変更
                           href: ../lync-server-2013-create-or-modify-an-agent-group.md
                     - name: 応答グループのキューの作成
                       href: ../lync-server-2013-create-response-group-queues.md
                       items:
-                        - name: キューを作成または変更する
+                        - name: キューの作成または変更
                           href: ../lync-server-2013-create-or-modify-a-queue.md
-                    - name: オプション応答グループの営業時間の定義
+                    - name: (オプション) 応答グループの営業時間の定義
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: オプション応答グループ休日セットの定義
+                    - name: (オプション) 応答グループ休日セットの定義
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: 応答グループのワークフローを作成する
                       href: ../lync-server-2013-create-response-group-workflows.md
@@ -2002,29 +2002,29 @@
                           href: ../lync-server-2013-design-interactive-voice-response-call-flows.md
                         - name: 対話ワークフローを作成または変更する
                           href: ../lync-server-2013-create-or-modify-an-interactive-workflow.md
-                    - name: アプリケーションレベルの応答グループ設定の管理
+                    - name: アプリケーション レベルの応答グループ設定の管理
                       href: ../lync-server-2013-managing-application-level-response-group-settings.md
-                    - name: オプション応答グループの展開の確認
+                    - name: (オプション) 応答グループの展開の確認
                       href: ../lync-server-2013-optional-verify-response-group-deployment.md
                 - name: 割り当てられていない番号のアナウンスの構成
                   href: ../lync-server-2013-configuring-announcements-for-unassigned-numbers.md
                   items:
                     - name: アナウンスの構成の前提条件と役割
                       href: ../lync-server-2013-announcement-configuration-prerequisites-and-roles.md
-                    - name: アナウンスアプリケーションの展開プロセス
+                    - name: アナウンス アプリケーションの展開プロセス
                       href: ../lync-server-2013-deployment-process-for-the-announcement-application.md
-                    - name: アナウンスを作成する
+                    - name: アナウンスの作成
                       href: ../lync-server-2013-create-an-announcement.md
                     - name: 割り当てられていない番号の表を構成する
                       href: ../lync-server-2013-configure-the-unassigned-number-table.md
                       items:
-                        - name: 割り当てられていない番号範囲を作成または変更する
+                        - name: 割り当てられていない番号範囲の作成または変更
                           href: ../lync-server-2013-create-or-modify-an-unassigned-number-range.md
-                    - name: オプションアナウンスの展開の確認
+                    - name: (オプション) アナウンスの展開の確認
                       href: ../lync-server-2013-optional-verify-announcement-deployment.md
             - name: ユーザーをエンタープライズ VoIP に対して有効にする
               href: ../lync-server-2013-enable-users-for-enterprise-voice.md
-            - name: 共有線の外観を展開する
+            - name: 回線共有機能の展開
               href: ../lync-server-2013-deploy-shared-line-appearance.md
         - name: 会議の展開
           href: ../lync-server-2013-deploying-conferencing.md
@@ -2177,7 +2177,7 @@
                               href: ../lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md
                         - name: Exchange Server 統合を使用する場合のアーカイブのポリシーの設定
                           href: ../lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md
-                - name: フェデレーションパートナーへのアーカイブ免責事項の送信を有効または無効にする
+                - name: フェデレーション パートナーに対するアーカイブ免責事項の送信の有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
         - name: ビデオの計画と展開
           href: ../lync-server-2013-planning-and-deploying-video.md
@@ -2381,7 +2381,7 @@
                   href: ../lync-server-2013-configuring-supported-client-versions.md
                 - name: 拡張プレゼンスプライバシーモードの構成
                   href: ../lync-server-2013-configuring-enhanced-presence-privacy-mode.md
-            - name: クライアント環境を構成する
+            - name: クライアント エクスペリエンスの構成
               href: ../configure-the-skype-for-business-client-in-lync-server-2013.md
             - name: Lync VDI プラグインの展開
               href: ../lync-server-2013-deploying-the-lync-vdi-plug-in.md
@@ -2626,7 +2626,7 @@
                   items:
                     - name: Skype for Business Online Connector モジュールをダウンロードしてインストールする
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: Microsoft Online Services サインインアシスタントをダウンロードしてインストールする
+                    - name: Microsoft Online Services Sign-In アシスタントのダウンロードとインストール
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: Windows PowerShell 3.0 をダウンロードしてインストールする
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2711,9 +2711,9 @@
                 - name: Skype for Business Online での接続の問題の診断と解決
                   href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                   items:
-                    - name: インポート-モジュールエラーが原因で Windows PowerShell 実行ポリシーが発生しました
+                    - name: Windows PowerShell 実行ポリシーによるエラーの Import-Module
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
-                    - name: インポート-Windows PowerShell のバージョンが正しくないために発生したモジュールエラー
+                    - name: Windows PowerShell のバージョンが正しくないために発生したエラー Import-Module
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
                     - name: Live ID サーバーへの接続に失敗しました
                       href: 'https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell'
@@ -2737,7 +2737,7 @@
         - name: Lync Server 2010 から Lync Server 2013 への移行
           href: ../migration-from-lync-server-2010-to-lync-server-2013.md
           items:
-            - name: 移行を開始する前に
+            - name: 移行を始める前に
               href: ../before-you-begin-the-migration.md
               items:
                 - name: 移行のプロセス
@@ -2749,7 +2749,7 @@
               items:
                 - name: ユーザーの移行
                   href: ../user-migration.md
-                - name: アーカイブサーバーと監視サーバーの移行
+                - name: アーカイブ サーバーと監視サーバーの移行
                   href: ../migrating-archiving-and-monitoring-servers.md
                 - name: グループチャットサーバーの移行
                   href: ../migrating-group-chat-servers.md
@@ -2759,12 +2759,12 @@
                   href: ../migrating-multiple-sites-and-pools.md
                 - name: XMPP フェデレーションの移行
                   href: ../migrating-xmpp-federation.md
-            - name: 'フェーズ 2: 移行の準備をする'
+            - name: 'フェーズ 2: 移行の準備'
               href: ../phase-2-prepare-for-migration.md
               items:
                 - name: Lync Server 2010 の更新プログラムの適用
                   href: ../apply-lync-server-2010-updates.md
-                - name: パイロットプール展開の DNS レコードを構成する
+                - name: パイロット プール展開の DNS レコードの構成
                   href: ../configure-dns-records-for-pilot-pool-deployment.md
                 - name: ベスト プラクティス アナライザーの実行
                   href: ../run-best-practices-analyzer.md
@@ -2783,18 +2783,18 @@
                   href: ../download-topology-from-existing-deployment.md
                 - name: Lync Server 2013 パイロットプールの展開
                   href: ../deploy-lync-server-2013-pilot-pool.md
-                - name: パイロットプールとレガシプールの共存を確認する
+                - name: パイロット プールとレガシ プールの共存の確認
                   href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
-                - name: パイロットプールを従来のエッジサーバーに接続する
+                - name: パイロット プールのレガシ エッジ サーバーへの接続
                   href: ../connect-pilot-pool-to-legacy-edge-servers.md
-                - name: XMPP ゲートウェイアクセスポリシーと証明書を構成する
+                - name: XMPP ゲートウェイ アクセス ポリシーおよび証明書の構成
                   href: ../configure-xmpp-gateway-access-policies-and-certificates.md
             - name: 'フェーズ 4: テストユーザーをパイロットプールに移動する'
               href: ../phase-4-move-test-users-to-the-pilot-pool.md
               items:
                 - name: Lync Server 2010 プールの現在のユーザーを表示する
                   href: ../view-current-users-in-lync-server-2010-pool.md
-                - name: ユーザーのレプリケーションが完了したことを確認する
+                - name: ユーザー レプリケーションの完了の確認
                   href: ../verify-user-replication-has-completed.md
                 - name: 1人のユーザーをパイロットプールに移動する
                   href: ../move-a-single-user-to-the-pilot-pool.md
@@ -2807,132 +2807,132 @@
                   href: ../deploy-pilot-edge-server.md
                 - name: 構成の設定を確認する
                   href: ../verify-configuration-settings.md
-            - name: 'フェーズ 6: パイロット展開から運用への移行'
+            - name: 'フェーズ 6: パイロット展開から運用展開への移行'
               href: ../phase-6-move-from-pilot-deployment-into-production.md
               items:
                 - name: フェデレーション ルートとメディア トラフィックを構成する
                   href: ../configure-federation-routes-and-media-traffic.md
                 - name: 外部ユーザーのフェデレーションとリモート アクセスを確認する
                   href: ../verify-federation-and-remote-access-for-external-users.md
-                - name: 移行後に簡単な Url を変更する
+                - name: 移行後の簡易 URL の変更
                   href: ../change-simple-urls-after-migration.md
                 - name: 残りのユーザーを Lync Server 2013 に移動する
                   href: ../move-remaining-users-to-lync-server-2013.md
                 - name: Lync Server 2013 で XMPP ゲートウェイを構成する
                   href: ../configure-xmpp-gateway-on-lync-server-2013.md
-            - name: 'フェーズ 7: 移行後のタスクを完了する'
+            - name: 'フェーズ 7: 移行後のタスクの実行'
               href: ../phase-7-complete-post-migration-tasks.md
               items:
-                - name: 既存の会議と会議コンテンツを移行する
+                - name: 既存の会議および会議コンテンツの移行
                   href: ../migrate-existing-meetings-and-meeting-content.md
                 - name: ダイヤルイン アクセス番号を移行する
                   href: ../migrate-dial-in-access-numbers.md
-                - name: コールパークアプリケーション設定の移行
+                - name: コール パーク アプリケーション設定の移行
                   href: ../migrate-call-park-application-settings.md
                 - name: 応答グループを移行する
                   href: ../migrate-response-groups.md
                 - name: アドレス帳を移行する
                   href: ../migrate-address-book.md
-                - name: ミーティング参加ページを構成する
+                - name: 会議参加ページの構成
                   href: ../configure-the-meeting-join-page.md
-                - name: 従来のアーカイブサーバーおよび監視サーバーを削除する
+                - name: 従来のアーカイブ サーバーおよび監視サーバーの削除
                   href: ../remove-legacy-archiving-and-monitoring-servers.md
                 - name: 信頼されたアプリケーション サーバーを構成する
                   href: ../configure-trusted-application-servers.md
                 - name: Lync Server 2013 クライアントを展開する
                   href: ../deploy-lync-server-2013-clients.md
-                - name: 存続可能ブランチアプライアンスの接続
+                - name: 存続可能ブランチ アプライアンスの接続
                   href: ../connect-a-survivable-branch-appliance.md
-                - name: SCOM 監視を構成する
+                - name: SCOM 監視の構成
                   href: ../configure-scom-monitoring.md
                 - name: 共通領域電話の移行
                   href: ../migrate-common-area-phones.md
-                - name: アナログデバイスを移行する
+                - name: アナログ デバイスの移行
                   href: ../migrate-analog-devices.md
-            - name: 'フェーズ 8: 従来のプールを使用停止にする'
+            - name: 'フェーズ 8: レガシ プールの使用停止'
               href: ../phase-8-decommission-legacy-pools.md
               items:
-                - name: DNS SRV レコードを更新する
+                - name: DNS SRV レコードの更新
                   href: ../update-dns-srv-records.md
                 - name: Lync Server 2010 Central Management サーバーを Lync Server 2013 に移動する
                   href: ../move-the-lync-server-2010-central-management-server-to-lync-server-2013.md
                 - name: 会議ディレクトリの移動
                   href: ../move-lync-server-2010-conference-directories-to-lync-server-2013.md
-                - name: アーカイブサーバーの関連付けを削除する
+                - name: アーカイブ サーバーの関連付けの削除
                   href: ../remove-the-archiving-server-association.md
-                - name: 監視サーバーの関連付けを削除する
+                - name: 監視サーバーの関連付けの削除
                   href: ../remove-the-monitoring-server-association.md
                 - name: Enterprise Edition フロントエンドサーバーまたは Standard Edition フロントエンドサーバーを削除する
                   href: ../remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md
                   items:
                     - name: 通話受付管理のリセット
                       href: ../reset-call-admission-control.md
-                    - name: サービスのセッションを禁止する
+                    - name: サービスのセッションの禁止
                       href: ../prevent-sessions-for-services.md
                     - name: Lync Server 2010 サービスを停止する
                       href: ../stop-lync-server-2010-services.md
-                    - name: プールからのフロントエンドサーバーの削除
+                    - name: プールからのフロントエンド サーバーの削除
                       href: ../remove-a-front-end-server-from-a-pool.md
-                    - name: フロントエンドプールまたは Standard Edition サーバーの削除
+                    - name: フロントエンド プールまたは Standard Edition サーバーの削除
                       href: ../remove-front-end-pool-or-standard-edition-server.md
-                - name: バックエンドサーバー上の SQL Server インスタンスとデータベースを削除する
+                - name: バックエンド サーバー上の SQL Server インスタンスとデータベースの削除
                   href: ../remove-sql-server-instances-and-databases-on-the-back-end-server.md
                   items:
-                    - name: フロントエンドプールの SQL Server データベースを削除する
+                    - name: フロントエンド プール用の SQL Server データベースの削除
                       href: ../remove-the-sql-server-database-for-a-front-end-pool.md
-                    - name: 監視サーバーの SQL Server データベースを削除する
+                    - name: 監視サーバー用の SQL Server データベースの削除
                       href: ../remove-the-sql-server-database-for-a-monitoring-server.md
-                    - name: アーカイブサーバーの SQL Server データベースを削除する
+                    - name: アーカイブ サーバー用の SQL Server データベースの削除
                       href: ../remove-the-sql-server-database-for-an-archiving-server.md
         - name: Office Communications Server 2007 R2 から Lync Server 2013 への移行
           href: ../migration-from-office-communications-server-2007-r2-to-lync-server-2013.md
           items:
-            - name: 移行を開始する前に
-              href: ../before-you-begin-the-migration_1.md
+            - name: 移行を始める前に
+              href: ../before-you-begin-the-migration.md
               items:
                 - name: 移行のプロセス
-                  href: ../migration-process_1.md
+                  href: ../migration-process.md
                 - name: 移行フェーズ
-                  href: ../migration-phases_1.md
+                  href: ../migration-phases.md
             - name: 'フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する'
               href: ../phase-1-plan-your-migration-from-office-communications-server-2007-r2.md
               items:
                 - name: ユーザーの移行
-                  href: ../user-migration_1.md
-                - name: アーカイブサーバーと監視サーバーの移行
-                  href: ../migrating-archiving-and-monitoring-servers_1.md
+                  href: ../user-migration.md
+                - name: アーカイブ サーバーと監視サーバーの移行
+                  href: ../migrating-archiving-and-monitoring-servers.md
                 - name: 移行後のサーバーの管理
-                  href: ../administering-servers-after-migration_1.md
+                  href: ../administering-servers-after-migration.md
                 - name: 複数のサイトとプールの移行
-                  href: ../migrating-multiple-sites-and-pools_1.md
+                  href: ../migrating-multiple-sites-and-pools.md
                 - name: XMPP フェデレーションの移行
-                  href: ../migrating-xmpp-federation_1.md
-            - name: 'フェーズ 2: 移行の準備をする'
-              href: ../phase-2-prepare-for-migration_1.md
+                  href: ../migrating-xmpp-federation.md
+            - name: 'フェーズ 2: 移行の準備'
+              href: ../phase-2-prepare-for-migration.md
               items:
                 - name: Office Communications Server 2007 R2 の更新プログラムを適用する
                   href: ../apply-office-communications-server-2007-r2-updates.md
-                - name: パイロットプール展開の DNS レコードを構成する
-                  href: ../configure-dns-records-for-pilot-pool-deployment_1.md
+                - name: パイロット プール展開の DNS レコードの構成
+                  href: ../configure-dns-records-for-pilot-pool-deployment.md
                 - name: ベスト プラクティス アナライザーの実行
-                  href: ../run-best-practices-analyzer_1.md
+                  href: ../run-best-practices-analyzer.md
                 - name: システムとデータをバックアップする
-                  href: ../back-up-systems-and-data_1.md
+                  href: ../back-up-systems-and-data.md
                 - name: 移行用にクライアントを構成する
-                  href: ../configure-clients-for-migration_1.md
+                  href: ../configure-clients-for-migration.md
                 - name: Office Communications Server 2007 R2 環境の確認
                   href: ../verify-office-communications-server-2007-r2-environment.md
             - name: 'フェーズ 3: Lync Server 2013 パイロットプールを展開する'
-              href: ../phase-3-deploy-lync-server-2013-pilot-pool_1.md
+              href: ../phase-3-deploy-lync-server-2013-pilot-pool.md
               items:
                 - name: Lync Server 2013 の Active Directory の準備
                   href: ../prepare-active-directory-for-lync-server-2013.md
                 - name: Lync Server 管理ツールのインストール
                   href: ../install-lync-server-administration-tools.md
                 - name: Lync Server 2013 パイロットプールの展開
-                  href: ../deploy-lync-server-2013-pilot-pool_1.md
-                - name: パイロットプールとレガシプールの共存を確認する
-                  href: ../verify-pilot-pool-coexistence-with-legacy-pool_1.md
+                  href: ../deploy-lync-server-2013-pilot-pool.md
+                - name: パイロット プールとレガシ プールの共存の確認
+                  href: ../verify-pilot-pool-coexistence-with-legacy-pool.md
             - name: 'フェーズ 4: トポロジを結合する'
               href: ../phase-4-merge-topologies.md
               items:
@@ -2947,57 +2947,57 @@
             - name: 'フェーズ 5: パイロットプールを構成する'
               href: ../phase-5-configure-the-pilot-pool.md
               items:
-                - name: パイロットプールを従来のエッジサーバーに接続する
-                  href: ../connect-pilot-pool-to-legacy-edge-servers_1.md
+                - name: パイロット プールのレガシ エッジ サーバーへの接続
+                  href: ../connect-pilot-pool-to-legacy-edge-servers.md
                 - name: Office Communications Server 2007 R2 エッジサーバーへの接続を承認する
                   href: ../authorize-connection-to-office-communications-server-2007-r2-edge-server.md
                 - name: 構成の設定を確認する
-                  href: ../verify-configuration-settings_1.md
-                - name: XMPP ゲートウェイアクセスポリシーと証明書を構成する
-                  href: ../configure-xmpp-gateway-access-policies-and-certificates_1.md
+                  href: ../verify-configuration-settings.md
+                - name: XMPP ゲートウェイ アクセス ポリシーおよび証明書の構成
+                  href: ../configure-xmpp-gateway-access-policies-and-certificates.md
             - name: 'フェーズ 6: ユーザーをパイロットプールに移動する'
               href: ../phase-6-move-users-to-the-pilot-pool.md
               items:
-                - name: ユーザーのレプリケーションが完了したことを確認する
-                  href: ../verify-user-replication-has-completed_1.md
+                - name: ユーザー レプリケーションの完了の確認
+                  href: ../verify-user-replication-has-completed.md
                 - name: 1人のユーザーをパイロットプールに移動する
-                  href: ../move-a-single-user-to-the-pilot-pool_1.md
+                  href: ../move-a-single-user-to-the-pilot-pool.md
                 - name: 複数のユーザーをパイロットプールに移動する
-                  href: ../move-multiple-users-to-the-pilot-pool_1.md
+                  href: ../move-multiple-users-to-the-pilot-pool.md
             - name: 'フェーズ 7: Lync Server 2013 エッジサーバーをパイロットプールに追加する'
               href: ../phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md
               items:
                 - name: パイロット エッジ サーバーを展開する
-                  href: ../deploy-pilot-edge-server_1.md
+                  href: ../deploy-pilot-edge-server.md
                 - name: 構成設定のレプリケーションを検証する
                   href: ../validate-replication-of-configuration-settings.md
             - name: 'フェーズ 8: パイロット展開から運用への移行'
               href: ../phase-8-move-from-pilot-deployment-into-production.md
               items:
                 - name: フェデレーション ルートとメディア トラフィックを構成する
-                  href: ../configure-federation-routes-and-media-traffic_1.md
+                  href: ../configure-federation-routes-and-media-traffic.md
                 - name: 残りのユーザーを Lync Server 2013 に移動する
-                  href: ../move-remaining-users-to-lync-server-2013_1.md
+                  href: ../move-remaining-users-to-lync-server-2013.md
                 - name: Lync Server 2013 で XMPP ゲートウェイを構成する
-                  href: ../configure-xmpp-gateway-on-lync-server-2013_1.md
+                  href: ../configure-xmpp-gateway-on-lync-server-2013.md
             - name: 'フェーズ 9: 移行後のタスクを完了する'
               href: ../phase-9-complete-post-migration-tasks.md
               items:
                 - name: 応答グループを移行する
-                  href: ../migrate-response-groups_1.md
+                  href: ../migrate-response-groups.md
                 - name: ダイヤルイン アクセス番号を移行する
-                  href: ../migrate-dial-in-access-numbers_1.md
+                  href: ../migrate-dial-in-access-numbers.md
                 - name: Exchange 2013 の Outlook Web App および IM 統合を有効にする
                   href: ../enable-exchange-2013-outlook-web-app-and-im-integration.md
                 - name: アドレス帳を移行する
-                  href: ../migrate-address-book_1.md
+                  href: ../migrate-address-book.md
                 - name: リモート通話コントロールを有効にする
                   href: ../enable-remote-call-control.md
                   items:
                     - name: 承認済みホストエントリを削除する
                       href: ../remove-an-authorized-host-entry.md
-                - name: 従来のアーカイブサーバーおよび監視サーバーを削除する
-                  href: ../remove-legacy-archiving-and-monitoring-servers_1.md
+                - name: 従来のアーカイブ サーバーおよび監視サーバーの削除
+                  href: ../remove-legacy-archiving-and-monitoring-servers.md
                 - name: 仲介サーバーの移行
                   href: ../migrate-mediation-server.md
                   items:
@@ -3008,11 +3008,11 @@
                     - name: 併置された仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)
                       href: ../transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md
                 - name: 信頼されたアプリケーション サーバーを構成する
-                  href: ../configure-trusted-application-servers_1.md
-                - name: ミーティング参加ページを構成する
-                  href: ../configure-the-meeting-join-page_1.md
+                  href: ../configure-trusted-application-servers.md
+                - name: 会議参加ページの構成
+                  href: ../configure-the-meeting-join-page.md
                 - name: Lync Server 2013 クライアントを展開する
-                  href: ../deploy-lync-server-2013-clients_1.md
+                  href: ../deploy-lync-server-2013-clients.md
                 - name: Exchange ユニファイドメッセージング連絡先オブジェクトの移動
                   href: ../move-exchange-unified-messaging-contact-objects.md
                 - name: すべての Exchange UM 連絡先オブジェクトが従来のプールから削除されていることを確認する
@@ -3022,8 +3022,8 @@
               items:
                 - name: 会議ディレクトリを移動する
                   href: ../move-conference-directories.md
-                - name: DNS SRV レコードを更新する
-                  href: ../update-dns-srv-records_1.md
+                - name: DNS SRV レコードの更新
+                  href: ../update-dns-srv-records.md
                 - name: サーバーとプールの使用停止
                   href: ../decommissioning-servers-and-pools.md
                 - name: BackCompatSite の削除
@@ -3037,7 +3037,7 @@
               href: ../migration-process-details.md
             - name: 共存の考慮事項
               href: ../coexistence-considerations.md
-    - name: 業務
+    - name: 操作
       href: ../lync-server-2013-operations.md
       items:
         - name: 運用ガイド
@@ -3319,25 +3319,25 @@
                       href: ../lync-server-2013-configure-telephony-for-a-user.md
                     - name: ユーザーを別のプールに移動する
                       href: ../lync-server-2013-move-users-to-another-pool.md
-                - name: 組織の外部アクセスポリシーを管理する
+                - name: 組織の外部アクセス ポリシーの管理
                   href: ../lync-server-2013-manage-external-access-policy-for-your-organization.md
                   items:
-                    - name: フェデレーションユーザーアクセスを制御するポリシーの構成
+                    - name: フェデレーション ユーザー アクセスを制御するポリシーの構成
                       href: ../lync-server-2013-configure-policies-to-control-federated-user-access.md
                     - name: XMPP フェデレーションユーザーアクセスを制御するポリシーの構成
                       href: ../lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md
-                    - name: リモートユーザーアクセスを制御するポリシーの構成
+                    - name: リモート ユーザー アクセスを制御するポリシーの構成
                       href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                    - name: パブリックユーザーアクセスを制御するポリシーの構成
+                    - name: パブリック ユーザー アクセスを制御するポリシーの構成
                       href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                     - name: Lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て
                       href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
                     - name: 外部ユーザーアクセスポリシーのリセットまたは削除
                       href: ../lync-server-2013-resetting-or-deleting-external-user-access-policies.md
                       items:
-                        - name: 外部ユーザーアクセスのサイトポリシーまたはユーザーポリシーを削除する
+                        - name: 外部ユーザー アクセスに関するサイト ポリシーまたはユーザー ポリシーの削除
                           href: ../lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md
-                        - name: 外部ユーザーアクセスに関するグローバルポリシーのリセット
+                        - name: 外部ユーザー アクセスに関するグローバル ポリシーのリセット
                           href: ../lync-server-2013-reset-the-global-policy-for-external-user-access.md
                 - name: ユーザーごとのポリシーの割り当て
                   href: ../lync-server-2013-assigning-per-user-policies.md
@@ -3346,7 +3346,7 @@
                       href: ../lync-server-2013-assign-a-per-user-conferencing-policy.md
                     - name: ユーザーごとのクライアントバージョンポリシーを割り当てる
                       href: ../lync-server-2013-assign-a-per-user-client-version-policy.md
-                    - name: ユーザー単位の PIN ポリシーを割り当てる
+                    - name: ユーザー単位の PIN ポリシーの割り当て
                       href: ../lync-server-2013-assign-a-per-user-pin-policy.md
                     - name: Lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て
                       href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
@@ -3373,7 +3373,7 @@
               href: ../lync-server-2013-view-details-about-a-service.md
             - name: Lync Server 2013 サービスを開始または停止する
               href: ../lync-server-2013-start-or-stop-lync-server-services.md
-            - name: サービスのセッションを禁止する
+            - name: サービスのセッションの禁止
               href: ../lync-server-2013-prevent-sessions-for-services.md
             - name: フロントエンドサーバーのアップグレードまたは更新
               href: ../lync-server-2013-upgrade-or-update-front-end-servers.md
@@ -3542,7 +3542,7 @@
                 - name: 発信通話用のボイスルートの構成
                   href: ../lync-server-2013-configuring-voice-routes-for-outbound-calls.md
                   items:
-                    - name: 音声ルートを作成する
+                    - name: 音声経路を作成する
                       href: ../lync-server-2013-create-a-voice-route.md
                     - name: 音声ルートを変更する
                       href: ../lync-server-2013-modify-a-voice-route.md
@@ -3589,13 +3589,13 @@
                 - name: パーキング呼び出しの電話番号内線を構成する
                   href: ../lync-server-2013-configure-phone-number-extensions-for-parking-calls.md
                   items:
-                    - name: コールパークオービット範囲の作成または変更
+                    - name: コール パーク オービット範囲の作成または変更
                       href: ../lync-server-2013-create-or-modify-a-call-park-orbit-range.md
                     - name: コールパークオービット範囲の削除
                       href: ../lync-server-2013-delete-a-call-park-orbit-range.md
-                - name: コールパーク設定の構成
+                - name: コール パーク設定の構成
                   href: ../lync-server-2013-configure-call-park-settings.md
-                - name: コールパーク保留音のカスタマイズ
+                - name: コール パーク保留音のカスタマイズ
                   href: ../lync-server-2013-customize-call-park-music-on-hold.md
                 - name: 障害復旧時のコールパークの管理
                   href: ../lync-server-2013-manage-call-park-during-disaster-recovery.md
@@ -3610,7 +3610,7 @@
                 - name: グループ通話ピックアップ番号の範囲を構成する
                   href: ../lync-server-2013-configure-group-call-pickup-number-ranges.md
                   items:
-                    - name: グループ通話ピックアップ番号の範囲を作成または変更する
+                    - name: グループ通話ピックアップ番号の範囲の作成または変更
                       href: ../lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md
                     - name: グループ通話ピックアップ番号の範囲を削除する
                       href: ../lync-server-2013-delete-a-group-call-pickup-number-range.md
@@ -3631,14 +3631,14 @@
                 - name: 応答グループエージェントグループの管理
                   href: ../lync-server-2013-managing-response-group-agent-groups.md
                   items:
-                    - name: エージェントグループを作成または変更する
+                    - name: エージェント グループの作成または変更
                       href: ../lync-server-2013-create-or-modify-an-agent-group.md
                     - name: エージェント グループの削除
                       href: ../lync-server-2013-delete-an-agent-group.md
                 - name: 応答グループキューの管理
                   href: ../lync-server-2013-managing-response-group-queues.md
                   items:
-                    - name: キューを作成または変更する
+                    - name: キューの作成または変更
                       href: ../lync-server-2013-create-or-modify-a-queue.md
                     - name: 応答グループキューを削除する
                       href: ../lync-server-2013-delete-a-response-group-queue.md
@@ -3647,9 +3647,9 @@
                   items:
                     - name: 対話型音声応答通話フローの設計
                       href: ../lync-server-2013-design-interactive-voice-response-call-flows.md
-                    - name: オプション応答グループの営業時間の定義
+                    - name: (オプション) 応答グループの営業時間の定義
                       href: ../lync-server-2013-optional-define-response-group-business-hours.md
-                    - name: オプション応答グループ休日セットの定義
+                    - name: (オプション) 応答グループ休日セットの定義
                       href: ../lync-server-2013-optional-define-response-group-holiday-sets.md
                     - name: ワークフローを作成または変更する
                       href: ../lync-server-2013-create-or-modify-a-workflow.md
@@ -3660,7 +3660,7 @@
                           href: ../lync-server-2013-create-or-modify-an-interactive-workflow.md
                     - name: ワークフローを削除する
                       href: ../lync-server-2013-delete-a-workflow.md
-                - name: アプリケーションレベルの応答グループ設定の管理
+                - name: アプリケーション レベルの応答グループ設定の管理
                   href: ../lync-server-2013-managing-application-level-response-group-settings.md
                 - name: 応答グループを新しいプールに移動する
                   href: ../lync-server-2013-moving-response-groups-to-a-new-pool.md
@@ -3679,14 +3679,14 @@
                 - name: アナウンスを構成する
                   href: ../lync-server-2013-configure-announcements.md
                   items:
-                    - name: アナウンスを作成する
+                    - name: アナウンスの作成
                       href: ../lync-server-2013-create-an-announcement.md
                     - name: アナウンスを削除する
                       href: ../lync-server-2013-delete-an-announcement.md
                 - name: 割り当てられていない電話番号の構成
                   href: ../lync-server-2013-configure-unassigned-phone-numbers.md
                   items:
-                    - name: 割り当てられていない番号範囲を作成または変更する
+                    - name: 割り当てられていない番号範囲の作成または変更
                       href: ../lync-server-2013-create-or-modify-an-unassigned-number-range.md
                     - name: 未使用の番号範囲を削除する
                       href: ../lync-server-2013-delete-an-unassigned-number-range.md
@@ -3881,49 +3881,49 @@
         - name: Lync Server 2013 へのフェデレーションおよび外部アクセスの管理
           href: ../lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md
           items:
-            - name: 組織の外部アクセスポリシーを管理する
+            - name: 組織の外部アクセス ポリシーの管理
               href: ../lync-server-2013-manage-external-access-policy-for-your-organization.md
               items:
-                - name: フェデレーションユーザーアクセスを制御するポリシーの構成
+                - name: フェデレーション ユーザー アクセスを制御するポリシーの構成
                   href: ../lync-server-2013-configure-policies-to-control-federated-user-access.md
                 - name: XMPP フェデレーションユーザーアクセスを制御するポリシーの構成
                   href: ../lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md
-                - name: リモートユーザーアクセスを制御するポリシーの構成
+                - name: リモート ユーザー アクセスを制御するポリシーの構成
                   href: ../lync-server-2013-configure-policies-to-control-remote-user-access.md
-                - name: パブリックユーザーアクセスを制御するポリシーの構成
+                - name: パブリック ユーザー アクセスを制御するポリシーの構成
                   href: ../lync-server-2013-configure-policies-to-control-public-user-access.md
                 - name: Lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て
                   href: ../lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md
                 - name: 外部ユーザーアクセスポリシーのリセットまたは削除
                   href: ../lync-server-2013-resetting-or-deleting-external-user-access-policies.md
                   items:
-                    - name: 外部ユーザーアクセスのサイトポリシーまたはユーザーポリシーを削除する
+                    - name: 外部ユーザー アクセスに関するサイト ポリシーまたはユーザー ポリシーの削除
                       href: ../lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md
-                    - name: 外部ユーザーアクセスに関するグローバルポリシーのリセット
+                    - name: 外部ユーザー アクセスに関するグローバル ポリシーのリセット
                       href: ../lync-server-2013-reset-the-global-policy-for-external-user-access.md
-            - name: 組織のアクセスエッジ構成を管理する
+            - name: 組織のアクセス エッジ構成の管理
               href: ../lync-server-2013-manage-access-edge-configuration-for-your-organization.md
               items:
-                - name: フェデレーションとパブリック IM 接続を有効または無効にする
+                - name: フェデレーションおよびパブリック IM 接続の有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md
-                - name: フェデレーションパートナーの検出を有効または無効にする
+                - name: フェデレーション パートナーの検出の有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-discovery-of-federation-partners.md
-                - name: フェデレーションパートナーへのアーカイブ免責事項の送信を有効または無効にする
+                - name: フェデレーション パートナーに対するアーカイブ免責事項の送信の有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
-                - name: リモートユーザーアクセスを有効または無効にする
+                - name: リモート ユーザー アクセスの有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-remote-user-access.md
-                - name: 匿名ユーザーアクセスを有効または無効にする
+                - name: 匿名ユーザー アクセスの有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-anonymous-user-access.md
                 - name: 匿名ユーザーをサポートするための会議ポリシーの割り当て
                   href: ../lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md
-            - name: 組織の SIP フェデレーションドメインの管理
+            - name: 組織の SIP フェデレーション ドメインの管理
               href: ../lync-server-2013-manage-sip-federated-domains-for-your-organization.md
               items:
                 - name: 許可された外部ドメインのサポートを構成する
                   href: ../lync-server-2013-configure-support-for-allowed-external-domains.md
                 - name: ブロックされた外部ドメインのサポートを構成する
                   href: ../lync-server-2013-configure-support-for-blocked-external-domains.md
-            - name: 組織の SIP フェデレーションプロバイダーの管理
+            - name: 組織の SIP フェデレーション プロバイダーの管理
               href: ../lync-server-2013-manage-sip-federated-providers-for-your-organization.md
               items:
                 - name: パブリック SIP フェデレーションプロバイダーの作成または編集
@@ -3979,7 +3979,7 @@
                   href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
                 - name: アーカイブが失敗した場合に IM および web 会議セッションを禁止または許可するための重要モードの有効化または無効化
                   href: ../lync-server-2013-enable-disable-critical-mode.md
-                - name: フェデレーションパートナーへのアーカイブ免責事項の送信を有効または無効にする
+                - name: フェデレーション パートナーに対するアーカイブ免責事項の送信の有効化または無効化
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
                 - name: Exchange ストレージとの統合の有効化または無効化
                   href: ../lync-server-2013-enabling-or-disabling-integration-with-exchange-storage.md
@@ -3995,7 +3995,7 @@
             - name: 運用プロセスの証明書の管理
               href: ../lync-server-2013-managing-certificates-for-operational-processes.md
               items:
-                - name: セットを使用して AV および OAuth 証明書をステージングする-CsCertificate
+                - name: '-Roll を使用した AV および OAuth 証明書のステージング Set-CsCertificate'
                   href: 'https://technet.microsoft.com/library/Gg398518(v=OCS.15)'
             - name: サーバー間認証 (OAuth) およびパートナーアプリケーションの管理
               href: ../lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
@@ -4029,18 +4029,18 @@
                   items:
                     - name: PIN ポリシーの情報の表示を表示する
                       href: ../lync-server-2013-view-pin-policy-inforrmation.md
-                    - name: 新しい PIN ポリシーを作成する
+                    - name: 新しい PIN ポリシーの作成
                       href: ../lync-server-2013-create-a-new-pin-policy.md
-                    - name: 既存の PIN ポリシーを変更する
+                    - name: 既存の PIN ポリシーの変更
                       href: ../lync-server-2013-modify-an-existing-pin-policy.md
-                    - name: PIN ポリシーを削除する
+                    - name: PIN ポリシーの削除
                       href: ../lync-server-2013-delete-a-pin-policy.md
-                    - name: ユーザー単位の PIN ポリシーを割り当てる
+                    - name: ユーザー単位の PIN ポリシーの割り当て
                       href: ../lync-server-2013-assign-a-per-user-pin-policy.md
                 - name: ユーザー Pin の管理
                   href: ../lync-server-2013-managing-user-pins.md
                   items:
-                    - name: ユーザーのダイヤルイン会議の PIN を設定する
+                    - name: ユーザーのダイヤルイン会議 PIN の設定
                       href: ../lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md
                     - name: ユーザー PIN 情報の表示
                       href: ../lync-server-2013-view-user-pin-information.md
@@ -4186,33 +4186,33 @@
                 - name: アドレス帳管理用の Windows PowerShell コマンドレット
                   href: ../lync-server-2013-windows-powershell-cmdlets-for-address-book-management.md
                   items:
-                    - name: アドレス帳管理のための新しい-CsAddressBookConfiguration
+                    - name: アドレス帳管理の New-CsAddressBookConfiguration
                       href: ../lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md
-                    - name: アドレス帳管理のための設定-CsAddressBookConfiguration
+                    - name: アドレス帳管理の Set-CsAddressBookConfiguration
                       href: ../lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md
-                    - name: アドレス帳管理のための-CsAddressBookConfiguration
+                    - name: アドレス帳管理の Get-CsAddressBookConfiguration
                       href: ../lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md
-                    - name: アドレス帳管理のための-CsAddressBookConfiguration の削除
+                    - name: アドレス帳管理の Remove-CsAddressBookConfiguration
                       href: ../lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md
-                    - name: アドレス帳管理用のテスト-CsAddressBookService
+                    - name: アドレス帳管理の Test-CsAddressBookService
                       href: ../lync-server-2013-test-csaddressbookservice-for-address-book-management.md
-                    - name: アドレス帳管理用のテスト-CsAddressBookWebQuery
+                    - name: アドレス帳管理の Test-CsAddressBookWebQuery
                       href: ../lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md
-                    - name: アドレス帳管理の Update-csaddressbook
+                    - name: アドレス帳管理の Update-CsAddressBook
                       href: ../lync-server-2013-update-csaddressbook-for-address-book-management.md
-                    - name: アドレス帳管理用の新しい CsClientPolicy
+                    - name: アドレス帳管理の New-CsClientPolicy
                       href: ../lync-server-2013-new-csclientpolicy-for-address-book-management.md
-                    - name: アドレス帳管理用の設定-CsClientPolicy
+                    - name: アドレス帳管理の Set-CsClientPolicy
                       href: ../lync-server-2013-set-csclientpolicy-for-address-book-management.md
-                    - name: アドレス帳管理のための CsService
+                    - name: アドレス帳管理の Get-CsService
                       href: ../lync-server-2013-get-csservice-for-address-book-management.md
-                    - name: アドレス帳管理の Set-cswebserviceconfiguration
+                    - name: アドレス帳管理の New-CsWebServiceConfiguration
                       href: ../lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md
-                    - name: アドレス帳管理の Set-cswebserviceconfiguration
+                    - name: アドレス帳管理の Get-CsWebServiceConfiguration
                       href: ../lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md
-                    - name: アドレス帳管理用の Set-cswebserviceconfiguration
+                    - name: アドレス帳管理の Set-CsWebServiceConfiguration
                       href: ../lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md
-                    - name: Set-cswebserviceconfiguration のアドレス帳管理
+                    - name: アドレス帳管理の Remove-CsWebServiceConfiguration
                       href: ../lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md
             - name: Web サービスの URL を変更する
               href: ../lync-server-2013-change-the-web-services-url.md
@@ -4234,7 +4234,7 @@
         - name: Lync Server 2013 の障害復旧、高可用性、およびバックアップサービスの管理
           href: ../lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md
           items:
-            - name: バックアップサービスの構成と監視
+            - name: バックアップ サービスの構成と監視
               href: ../lync-server-2013-configuring-and-monitoring-the-backup-service.md
             - name: プールのフェールオーバー
               href: ../lync-server-2013-failing-over-a-pool.md
@@ -4340,7 +4340,7 @@
                   href: ../lync-server-2013-enable-call-detail-recording.md
                 - name: CDR データの保持期間の指定
                   href: ../lync-server-2013-specifying-retention-of-cdr-data.md
-                - name: CDR 構成設定のコレクションを作成または変更する
+                - name: CDR 構成設定のコレクションの作成または変更
                   href: ../lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md
                 - name: CDR 構成設定の既存コレクションの削除
                   href: ../lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md
@@ -4454,7 +4454,7 @@
                       href: ../lync-server-2013-location-report.md
                     - name: デバイス レポート
                       href: ../lync-server-2013-device-report.md
-                    - name: 通話リストレポート
+                    - name: 通話リスト レポート
                       href: ../lync-server-2013-call-list-report.md
                     - name: 通話の詳細レポート
                       href: ../lync-server-2013-call-detail-report.md
@@ -4505,10 +4505,10 @@
     - name: スキーマ リファレンス
       href: ../lync-server-2013-schema-reference.md
       items:
-        - name: 通話詳細記録 (CDR) データベーススキーマ
+        - name: 通話詳細記録 (CDR) データベース スキーマ
           href: ../lync-server-2013-call-detail-recording-cdr-database-schema.md
           items:
-            - name: CDR テーブルの一覧
+            - name: CDR テーブルのリスト
               href: ../lync-server-2013-list-of-cdr-tables.md
             - name: CDR テーブルの詳細
               href: ../lync-server-2013-cdr-table-details.md
@@ -4646,10 +4646,10 @@
                   href: ../lync-server-2013-user-view.md
                 - name: VoIPDetails ビュー
                   href: ../lync-server-2013-voipdetails-view.md
-        - name: QoE (Quality of Experience) データベーススキーマ
+        - name: Quality of Experience (QoE) データベース スキーマ
           href: ../lync-server-2013-quality-of-experience-qoe-database-schema.md
           items:
-            - name: QoE テーブルの一覧
+            - name: QoE テーブルのリスト
               href: ../lync-server-2013-list-of-qoe-tables.md
             - name: QoE テーブルの詳細
               href: ../lync-server-2013-qoe-table-details.md
@@ -4739,16 +4739,16 @@
                   href: ../lync-server-2013-useragent-view.md
                 - name: VideoStreamDetail ビュー
                   href: ../lync-server-2013-videostreamdetail-view.md
-            - name: QoE データベースクエリのサンプル
+            - name: QoE データベース クエリのサンプル
               href: ../lync-server-2013-sample-qoe-database-queries.md
-        - name: 常設チャットデータベースのスキーマ
+        - name: 常設チャット データベースのスキーマ
           href: ../lync-server-2013-persistent-chat-database-schema.md
           items:
-            - name: 常設チャットサーバーテーブルの一覧
+            - name: 常設チャット サーバーのテーブルのリスト
               href: ../lync-server-2013-list-of-persistent-chat-server-tables.md
-            - name: 常設チャットサーバーのコンプライアンステーブルのリスト
+            - name: 常設チャット サーバーのコンプライアンス テーブルのリスト
               href: ../lync-server-2013-list-of-persistent-chat-server-compliance-tables.md
-            - name: 常設チャットサーバーのテーブルの詳細
+            - name: 常設チャット サーバー テーブルの詳細
               href: ../lync-server-2013-persistent-chat-server-table-details.md
               items:
                 - name: tblADCookie
@@ -4775,7 +4775,7 @@
                   href: ../lync-server-2013-tblroletype.md
                 - name: tblScopePrincipal
                   href: ../lync-server-2013-tblscopeprincipal.md
-                - name: に tblprincipalrole
+                - name: tblPrincipalRole
                   href: ../lync-server-2013-tblprincipalrole.md
                 - name: tblSiopWhiteList
                   href: ../lync-server-2013-tblsiopwhitelist.md
@@ -4783,7 +4783,7 @@
                   href: ../lync-server-2013-tblenumattribute.md
                 - name: tblEnumValue
                   href: ../lync-server-2013-tblenumvalue.md
-                - name: そして tblprincipalinvites
+                - name: tblPrincipalInvites
                   href: ../lync-server-2013-tblprincipalinvites.md
                 - name: tblChat
                   href: ../lync-server-2013-tblchat.md
@@ -4813,7 +4813,7 @@
                   href: ../lync-server-2013-tblcomplianceparticipant.md
                 - name: tblComplianceState
                   href: ../lync-server-2013-tblcompliancestate.md
-            - name: 常設チャットデータベースのクエリの例
+            - name: 常設チャット データベースのクエリのサンプル
               href: ../lync-server-2013-sample-persistent-chat-database-queries.md
         - name: Lync Server 2013 で使用される Active Directory スキーマの拡張、クラス、属性
           href: ../lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md
@@ -4826,13 +4826,13 @@
               href: ../lync-server-2013-schema-attributes-by-class.md
             - name: スキーマの属性と説明
               href: ../lync-server-2013-schema-attributes-and-descriptions.md
-            - name: フォレストの準備によって加えられた変更
+            - name: フォレストの準備による変更
               href: ../lync-server-2013-changes-made-by-forest-preparation.md
-            - name: ドメインの準備によって加えられた変更
+            - name: ドメインの準備によって加えられる変更
               href: ../lync-server-2013-changes-made-by-domain-preparation.md
-            - name: 付与-CsSetupPermission によって行われた変更
+            - name: Grant-CsSetupPermission によって行われる変更
               href: 'https://technet.microsoft.com/library/Gg398569(v=OCS.15)'
-            - name: 付与-CsOUPermission によって行われた変更
+            - name: Grant-CsOUPermission によって行われる変更
               href: 'https://technet.microsoft.com/library/Gg425739(v=OCS.15)'
     - name: Lync Server 管理シェル
       href: ../lync-server-2013-lync-server-management-shell.md

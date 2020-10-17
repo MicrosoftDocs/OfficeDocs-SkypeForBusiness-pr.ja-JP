@@ -1,5 +1,6 @@
 ---
 title: 電話会議プロバイダーの id を使用する Skype for Business Online のコマンドレット
+description: 電話会議プロバイダーの id を使用する Skype for Business Online のコマンドレット。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,19 +14,19 @@ ms:contentKeyID: 56558858
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: accaad94f5e29863ac948ea64d061d23b811105f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 61ab4fb410878ca73314b73737948d9961462c87
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755129"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48545733"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a>電話会議プロバイダーの id を使用する Skype for Business Online のコマンドレット
 
  
 
 
-組織で契約しているすべての電話会議プロバイダーに関する情報を戻すには、パラメーターを指定せずに[test-csaudioconferencingprovider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))コマンドレットを呼び出すだけで済みます。
+組織で契約しているすべての電話会議プロバイダーに関する情報を戻すには、パラメーターを指定せずに [test-csaudioconferencingprovider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\)) コマンドレットを呼び出すだけで済みます。
 
     Get-CsAudioConferencingProvider
 
