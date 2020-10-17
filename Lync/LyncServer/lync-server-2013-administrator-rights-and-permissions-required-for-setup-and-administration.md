@@ -1,5 +1,6 @@
 ---
 title: セットアップと管理に必要な管理者権限とアクセス許可
+description: セットアップと管理に必要な管理者権限とアクセス許可。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185329
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f42f26df15cae3a4b9d77ccc3d602920457539f5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2b1ad87d0370211d22a4e0563289c824a62ad2ee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509014"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552953"
 ---
 # <a name="administrator-rights-and-permissions-required-for-setup-and-administration-of-lync-server-2013"></a>Lync Server 2013 のセットアップと管理に必要な管理者権限およびアクセス許可
 

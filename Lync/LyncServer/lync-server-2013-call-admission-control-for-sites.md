@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: サイトの通話受付管理'
+description: 'Lync Server 2013: サイトの通話受付管理。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c42ccca677aba50fda3768847fcd59843ef7720
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6bbc73e8c594c1113ee7c239097e5a95149a73c5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48537234"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552943"
 ---
 # <a name="call-admission-control-for-sites-in-lync-server-2013"></a>Lync Server 2013 のサイトの通話受付管理
 

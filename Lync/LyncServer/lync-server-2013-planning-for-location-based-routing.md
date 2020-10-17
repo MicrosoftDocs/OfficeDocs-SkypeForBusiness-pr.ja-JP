@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Location-Based ルーティングの計画'
+description: 'Lync Server 2013: Location-Based ルーティングの計画。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 114f92d0963e8d61c4b0854862ff7ebd59a12b64
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 894a596e998fe07b97ad7911441eced670ba85b2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522044"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553083"
 ---
 # <a name="planning-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 での Location-Based ルーティングの計画
 

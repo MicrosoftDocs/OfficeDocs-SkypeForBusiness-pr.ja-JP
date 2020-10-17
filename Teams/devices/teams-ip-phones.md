@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: d19f3382fd64d48c4fa1067c0a8e6c8749a84596
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: 922ca79f5f3083dd57dc1bae6941a1d4dff0e2ad
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331642"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552733"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -83,9 +83,10 @@ Microsoft Teams では、次のコラボレーションバーが認定されて�
 
 | 製品リリース | リリース日  | Microsoft Teams アプリのバージョン | 会社ポータルのバージョン | 管理エージェントのバージョン |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| 更新 #5       | 2020年8月31日 | 1449/1.0.94.2020071702    | 5.0.4867.0            | 1.0.0.202006290446 のバージョンコード: 216|
+| 更新 #6       | 2020年10月12日|1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446 (216) |
+| 更新 #5       | 2020年8月31日 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446 (216) |
 | 更新 #4       | 2020年6月30日 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| 更新 #3       | 2020年5月13日  | 040801                     | 4715                  | 1.210               |
+| 更新 #3       | 2020年5月13日  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
 
 #### <a name="firmware-versions"></a>ファームウェアのバージョン
 
@@ -93,16 +94,16 @@ Microsoft Teams では、次のコラボレーションバーが認定されて�
 
 | デバイスモデル        | ファームウェアのバージョン     | 含まれている製品のリリース |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes の C448HD   | C450HD_TEAMS_1 5.203 | 更新 #5                |
-| AudioCodes の C450HD   | C450HD_TEAMS_1 5.203 | 更新 #5                |
-|Lenovo ThinkSmart View|CD-18781Y |更新 #5                 |
+| AudioCodes の C448HD   | C450HD_TEAMS_1 7.9   | 更新 #6                |
+| AudioCodes の C450HD   | C450HD_TEAMS_1 7.9   | 更新 #6                |
+|Lenovo ThinkSmart View|CD-18781Y | 更新 #6                |
 | Poly CCX400         | 6.2.21.1198          | 更新 #5                |
 | Poly CCX500/CCX600  | 6.2.21.1198          | 更新 #5                |
 | Poly 3 つ C60       | 5.9.5.2686           | 更新 #5                |
-| T55/T56/T58 | 58.15.0.110          | 更新 #5                |
-| Yealink MP56        | 122.15.0.13          | 更新 #5                |
-| Yealink VP59        | 91.15.0.44           | 更新 #5                |
-| ごみ箱 CP960       | 73.15.0.105          | 更新 #5                |
+| T55/T56/T58 | 58.15.0.116          | 更新 #6                |
+| Yealink MP56        | 122.15.0.23          | 更新 #6                |
+| Yealink VP59        | 91.15.0.48           | 更新 #6                |
+| ごみ箱 CP960       | 73.15.0.109          | 更新 #6                |
 
 ### <a name="product-release-information-for-collaboration-bars"></a>グループ作業バーの製品リリース情報
 

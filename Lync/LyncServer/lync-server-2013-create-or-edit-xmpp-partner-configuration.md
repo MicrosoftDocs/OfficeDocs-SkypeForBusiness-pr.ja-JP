@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: XMPP パートナー構成の作成または編集'
+description: 'Lync Server 2013: XMPP パートナー構成を作成または編集します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1517ef4a7515a46b9237b1788c457c3aee10953d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 19289df1920287984f104bb1bdfa214d6f83f5cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514804"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553873"
 ---
 # <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Lync Server 2013 での XMPP パートナー構成の作成または編集
 

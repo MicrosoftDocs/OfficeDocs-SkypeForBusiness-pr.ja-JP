@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: パブリック SIP フェデレーションプロバイダーの作成または編集'
+description: 'Lync Server 2013: パブリック SIP フェデレーションプロバイダーを作成または編集します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58b0ffdc009d48ef82d1bdf3ba8662cd4072ea1c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c0ef5850b5e8016e0bd90512db45c2917c16a104
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514854"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48553863"
 ---
 # <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Lync Server 2013 でのパブリック SIP フェデレーションプロバイダーの作成または編集
 

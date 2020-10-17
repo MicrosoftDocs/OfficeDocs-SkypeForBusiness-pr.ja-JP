@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ディレクターのハードウェアおよびソフトウェア要件'
+description: 'Lync Server 2013: ディレクターのハードウェアおよびソフトウェア要件。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b00e294291bcafb859cc900ca71463f1315cdfe8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6dd868a3a566f1d89b4ada5a16695f8eb02b3b21
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536864"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552933"
 ---
 # <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a>Lync Server 2013 のディレクターのハードウェアおよびソフトウェア要件
 
