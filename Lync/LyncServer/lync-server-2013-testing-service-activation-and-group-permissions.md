@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: サービスのアクティブ化とグループのアクセス許可のテスト'
+description: 'Lync Server 2013: サービスのアクティブ化とグループのアクセス許可のテスト。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969594
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92e29cafcfac7a74e43617841a174653f6072c5a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 116cf939f3110616ce395eb14c7945890bdb89b7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530524"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556263"
 ---
-# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a><span data-ttu-id="11bd8-102">Lync Server 2013 でのサービスのアクティブ化とグループのアクセス許可のテスト</span><span class="sxs-lookup"><span data-stu-id="11bd8-102">Testing service activation and group permissions in Lync Server 2013</span></span>
+# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a><span data-ttu-id="a9e30-103">Lync Server 2013 でのサービスのアクティブ化とグループのアクセス許可のテスト</span><span class="sxs-lookup"><span data-stu-id="a9e30-103">Testing service activation and group permissions in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +38,7 @@ ms.locfileid: "48530524"
 
 <span> </span>
 
-<span data-ttu-id="11bd8-103">_**トピックの最終更新日:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="11bd8-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="a9e30-104">_**トピックの最終更新日:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="a9e30-104">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -47,17 +48,17 @@ ms.locfileid: "48530524"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="11bd8-104">検証スケジュール</span><span class="sxs-lookup"><span data-stu-id="11bd8-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="11bd8-105">毎日</span><span class="sxs-lookup"><span data-stu-id="11bd8-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="a9e30-105">検証スケジュール</span><span class="sxs-lookup"><span data-stu-id="a9e30-105">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="a9e30-106">毎日</span><span class="sxs-lookup"><span data-stu-id="a9e30-106">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="11bd8-106">テストツール</span><span class="sxs-lookup"><span data-stu-id="11bd8-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="11bd8-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="11bd8-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="a9e30-107">テストツール</span><span class="sxs-lookup"><span data-stu-id="a9e30-107">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="a9e30-108">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a9e30-108">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="11bd8-108">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="11bd8-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="11bd8-109">Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="11bd8-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="11bd8-110">Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsTopology コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="11bd8-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsTopology cmdlet.</span></span> <span data-ttu-id="11bd8-111">このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="11bd8-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="a9e30-109">必要なアクセス許可</span><span class="sxs-lookup"><span data-stu-id="a9e30-109">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="a9e30-110">Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</span><span class="sxs-lookup"><span data-stu-id="a9e30-110">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="a9e30-111">Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsTopology コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。</span><span class="sxs-lookup"><span data-stu-id="a9e30-111">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsTopology cmdlet.</span></span> <span data-ttu-id="a9e30-112">このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="a9e30-112">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTopology&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,11 +67,11 @@ ms.locfileid: "48530524"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="11bd8-112">説明</span><span class="sxs-lookup"><span data-stu-id="11bd8-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="a9e30-113">説明</span><span class="sxs-lookup"><span data-stu-id="a9e30-113">Description</span></span>
 
-<span data-ttu-id="11bd8-113">Test-CsTopology コマンドレットを使用すると、Lync Server 2013 がグローバルスコープで正常に機能していることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="11bd8-113">The Test-CsTopology cmdlet enables you to verify that Lync Server 2013 is functioning correctly at a global scope.</span></span> <span data-ttu-id="11bd8-114">既定では、このコマンドレットは Lync Server インフラストラクチャ全体をチェックし、必要なサービスが実行されていること、およびこれらのサービスと、Lync Server のインストール時に作成されたユニバーサルセキュリティグループに対して適切なアクセス許可が設定されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="11bd8-114">By default, the cmdlet checks your whole Lync Server infrastructure, verifying that the required services are running and that the appropriate permissions are set for these services and for the universal security groups that are created when you install Lync Server.</span></span>
+<span data-ttu-id="a9e30-114">Test-CsTopology コマンドレットを使用すると、Lync Server 2013 がグローバルスコープで正常に機能していることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="a9e30-114">The Test-CsTopology cmdlet enables you to verify that Lync Server 2013 is functioning correctly at a global scope.</span></span> <span data-ttu-id="a9e30-115">既定では、このコマンドレットは Lync Server インフラストラクチャ全体をチェックし、必要なサービスが実行されていること、およびこれらのサービスと、Lync Server のインストール時に作成されたユニバーサルセキュリティグループに対して適切なアクセス許可が設定されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="a9e30-115">By default, the cmdlet checks your whole Lync Server infrastructure, verifying that the required services are running and that the appropriate permissions are set for these services and for the universal security groups that are created when you install Lync Server.</span></span>
 
-<span data-ttu-id="11bd8-115">Lync Server のインストールの有効性を検証することに加えて、Test-CsTopology 特定のサービスの有効性を確認することもできます。</span><span class="sxs-lookup"><span data-stu-id="11bd8-115">In addition to verifying the validity of the Lync Server installation, Test-CsTopology also lets you check the validity of a specific service.</span></span> <span data-ttu-id="11bd8-116">たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com 上の音声ビデオ会議サーバーの状態をチェックします。</span><span class="sxs-lookup"><span data-stu-id="11bd8-116">For example, this command checks the state of the A/V Conferencing Server on the pool atl-cs-001.litwareinc.com:</span></span>
+<span data-ttu-id="a9e30-116">Lync Server のインストールの有効性を検証することに加えて、Test-CsTopology 特定のサービスの有効性を確認することもできます。</span><span class="sxs-lookup"><span data-stu-id="a9e30-116">In addition to verifying the validity of the Lync Server installation, Test-CsTopology also lets you check the validity of a specific service.</span></span> <span data-ttu-id="a9e30-117">たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com 上の音声ビデオ会議サーバーの状態をチェックします。</span><span class="sxs-lookup"><span data-stu-id="a9e30-117">For example, this command checks the state of the A/V Conferencing Server on the pool atl-cs-001.litwareinc.com:</span></span>
 
     Test-CsTopology -Service "ConferencingServer:atl-cs-001.litwareinc.com"
 
@@ -78,41 +79,41 @@ ms.locfileid: "48530524"
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="11bd8-117">テストの実行</span><span class="sxs-lookup"><span data-stu-id="11bd8-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="a9e30-118">テストの実行</span><span class="sxs-lookup"><span data-stu-id="a9e30-118">Running the test</span></span>
 
-<span data-ttu-id="11bd8-118">既定では、Test-CsTopology 画面に表示される出力はほとんどありません。</span><span class="sxs-lookup"><span data-stu-id="11bd8-118">By default, Test-CsTopology displays very little output on-screen.</span></span> <span data-ttu-id="11bd8-119">代わりに、コマンドレットによって返される情報は、HTML ファイルに書き込まれます。</span><span class="sxs-lookup"><span data-stu-id="11bd8-119">Instead, information returned by the cmdlet is written to an HTML file.</span></span> <span data-ttu-id="11bd8-120">Report パラメーターを使用すると、テスト用の HTML ファイルのファイルパスとファイル名を指定できます。</span><span class="sxs-lookup"><span data-stu-id="11bd8-120">The Report parameter allows you to specify a file path and file name for the HTML file generated by Test-CsTopology.</span></span> <span data-ttu-id="11bd8-121">Report パラメーターを指定しない場合、HTML ファイルは自動的にユーザーのフォルダーに保存され、次のような名前が付けられます。 ce84964a-c4da-4622-ad34-c54ff3ed361f.html。</span><span class="sxs-lookup"><span data-stu-id="11bd8-121">If you do not include the Report parameter the HTML file will automatically be saved to your Users folder and be given a name similar to this: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.</span></span>
+<span data-ttu-id="a9e30-119">既定では、Test-CsTopology 画面に表示される出力はほとんどありません。</span><span class="sxs-lookup"><span data-stu-id="a9e30-119">By default, Test-CsTopology displays very little output on-screen.</span></span> <span data-ttu-id="a9e30-120">代わりに、コマンドレットによって返される情報は、HTML ファイルに書き込まれます。</span><span class="sxs-lookup"><span data-stu-id="a9e30-120">Instead, information returned by the cmdlet is written to an HTML file.</span></span> <span data-ttu-id="a9e30-121">Report パラメーターを使用すると、テスト用の HTML ファイルのファイルパスとファイル名を指定できます。</span><span class="sxs-lookup"><span data-stu-id="a9e30-121">The Report parameter allows you to specify a file path and file name for the HTML file generated by Test-CsTopology.</span></span> <span data-ttu-id="a9e30-122">Report パラメーターを指定しない場合、HTML ファイルは自動的にユーザーのフォルダーに保存され、次のような名前が付けられます。 ce84964a-c4da-4622-ad34-c54ff3ed361f.html。</span><span class="sxs-lookup"><span data-stu-id="a9e30-122">If you do not include the Report parameter the HTML file will automatically be saved to your Users folder and be given a name similar to this: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.</span></span>
 
-<span data-ttu-id="11bd8-122">次のサンプルコマンドは Test-CsTopology を実行し、出力を C: LogsComputerTest.html という名前のファイルに保存し \\ \\ ます。</span><span class="sxs-lookup"><span data-stu-id="11bd8-122">The following sample command runs Test-CsTopology and saves the output to a file that is named C:\\Logs\\ComputerTest.html:</span></span>
+<span data-ttu-id="a9e30-123">次のサンプルコマンドは Test-CsTopology を実行し、出力を C: LogsComputerTest.html という名前のファイルに保存し \\ \\ ます。</span><span class="sxs-lookup"><span data-stu-id="a9e30-123">The following sample command runs Test-CsTopology and saves the output to a file that is named C:\\Logs\\ComputerTest.html:</span></span>
 
     Test-CsTopology -Report "C:\Logs\ComputerTest.html" -Verbose
 
-<span data-ttu-id="11bd8-123">詳細については、 [テスト](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) 用のヘルプドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="11bd8-123">For more information, see the Help documentation for the [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) cmdlet.</span></span>
+<span data-ttu-id="a9e30-124">詳細については、 [テスト](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) 用のヘルプドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="a9e30-124">For more information, see the Help documentation for the [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="11bd8-124">成功または失敗を判断する</span><span class="sxs-lookup"><span data-stu-id="11bd8-124">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="a9e30-125">成功または失敗を判断する</span><span class="sxs-lookup"><span data-stu-id="a9e30-125">Determining success or failure</span></span>
 
-<span data-ttu-id="11bd8-125">ほとんどのテストコマンドレットとは異なり、Test-CsTopology は、成功または失敗の報告を返します。</span><span class="sxs-lookup"><span data-stu-id="11bd8-125">Unlike most of the test cmdlets, Test-CsTopology does report back Success or Failure.</span></span> <span data-ttu-id="11bd8-126">これは、コマンドレットが実行されるたびに実行する必要のある多くの検証チェックが行われるためです。</span><span class="sxs-lookup"><span data-stu-id="11bd8-126">In part, that’s due to the large number of verification checks that the cmdlet must make every time that it runs.</span></span> <span data-ttu-id="11bd8-127">代わりに、Internet Explorer を使用して表示できる HTML レポートにデータが保存されます。</span><span class="sxs-lookup"><span data-stu-id="11bd8-127">Instead, data is saved to an HTML report that can then be viewed by using Internet Explorer.</span></span>
+<span data-ttu-id="a9e30-126">ほとんどのテストコマンドレットとは異なり、Test-CsTopology は、成功または失敗の報告を返します。</span><span class="sxs-lookup"><span data-stu-id="a9e30-126">Unlike most of the test cmdlets, Test-CsTopology does report back Success or Failure.</span></span> <span data-ttu-id="a9e30-127">これは、コマンドレットが実行されるたびに実行する必要のある多くの検証チェックが行われるためです。</span><span class="sxs-lookup"><span data-stu-id="a9e30-127">In part, that’s due to the large number of verification checks that the cmdlet must make every time that it runs.</span></span> <span data-ttu-id="a9e30-128">代わりに、Internet Explorer を使用して表示できる HTML レポートにデータが保存されます。</span><span class="sxs-lookup"><span data-stu-id="a9e30-128">Instead, data is saved to an HTML report that can then be viewed by using Internet Explorer.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="11bd8-128">テストが失敗した理由</span><span class="sxs-lookup"><span data-stu-id="11bd8-128">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="a9e30-129">テストが失敗した理由</span><span class="sxs-lookup"><span data-stu-id="a9e30-129">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="11bd8-129">Test-CsTopology が失敗する可能性のある一般的な理由を次に示します。</span><span class="sxs-lookup"><span data-stu-id="11bd8-129">Here are some common reasons why Test-CsTopology might fail:</span></span>
+<span data-ttu-id="a9e30-130">Test-CsTopology が失敗する可能性のある一般的な理由を次に示します。</span><span class="sxs-lookup"><span data-stu-id="a9e30-130">Here are some common reasons why Test-CsTopology might fail:</span></span>
 
-  - <span data-ttu-id="11bd8-130">テストコンピューターでレプリケーションが最新の状態ではない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="11bd8-130">Replication might not be up-to-date on the test computer.</span></span> <span data-ttu-id="11bd8-131">Get-CsManagementStoreReplicationStatus コマンドレットを実行して、コンピューターの現在のレプリケーションの状態を確認できます。</span><span class="sxs-lookup"><span data-stu-id="11bd8-131">You can check the current replication status for a computer by running the Get-CsManagementStoreReplicationStatus cmdlet:</span></span>
+  - <span data-ttu-id="a9e30-131">テストコンピューターでレプリケーションが最新の状態ではない可能性があります。</span><span class="sxs-lookup"><span data-stu-id="a9e30-131">Replication might not be up-to-date on the test computer.</span></span> <span data-ttu-id="a9e30-132">Get-CsManagementStoreReplicationStatus コマンドレットを実行して、コンピューターの現在のレプリケーションの状態を確認できます。</span><span class="sxs-lookup"><span data-stu-id="a9e30-132">You can check the current replication status for a computer by running the Get-CsManagementStoreReplicationStatus cmdlet:</span></span>
     
         Get-CsManagementStoreReplicationStatus -ReplicaFqdn "atl-cs-001.litwareinc.com"
     
-    <span data-ttu-id="11bd8-132">レプリケーションの状態が最新ではない場合は、次のようなコマンドを使用して、レプリケーションを手動で強制的に実行できます。</span><span class="sxs-lookup"><span data-stu-id="11bd8-132">If the replication status is not up-to-date, you can manually force replication to occur by using a command similar to this:</span></span>
+    <span data-ttu-id="a9e30-133">レプリケーションの状態が最新ではない場合は、次のようなコマンドを使用して、レプリケーションを手動で強制的に実行できます。</span><span class="sxs-lookup"><span data-stu-id="a9e30-133">If the replication status is not up-to-date, you can manually force replication to occur by using a command similar to this:</span></span>
     
         Invoke-CsManagementStoreReplication -ReplicaFqdn "atl-cs-001.litwareinc.com"
 
-  - <span data-ttu-id="11bd8-133">トポロジを有効にする必要がある場合があります。</span><span class="sxs-lookup"><span data-stu-id="11bd8-133">The topology might have to be enabled.</span></span> <span data-ttu-id="11bd8-134">Lync Server トポロジ (ローカルコンピューターに影響する可能性がある変更) を変更する場合は、新しいトポロジを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="11bd8-134">If you change the Lync Server topology (changes that might affect the local computer), then you must enable the new topology.</span></span> <span data-ttu-id="11bd8-135">次のコマンドを実行することによって、いつでもトポロジを有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="11bd8-135">You can enable the topology at any time by running this command:</span></span>
+  - <span data-ttu-id="a9e30-134">トポロジを有効にする必要がある場合があります。</span><span class="sxs-lookup"><span data-stu-id="a9e30-134">The topology might have to be enabled.</span></span> <span data-ttu-id="a9e30-135">Lync Server トポロジ (ローカルコンピューターに影響する可能性がある変更) を変更する場合は、新しいトポロジを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="a9e30-135">If you change the Lync Server topology (changes that might affect the local computer), then you must enable the new topology.</span></span> <span data-ttu-id="a9e30-136">次のコマンドを実行することによって、いつでもトポロジを有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="a9e30-136">You can enable the topology at any time by running this command:</span></span>
     
         Enable-CsTopology
 

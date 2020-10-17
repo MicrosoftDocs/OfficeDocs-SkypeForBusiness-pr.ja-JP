@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 常設チャットサーバーのフェールオーバーとフェールバック'
+description: 'Lync Server 2013: 常設チャットサーバーのフェールオーバーとフェールバック。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bc7e8638b395cf233786e45c177d63b1b9a0d95
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a86a9f809a853d48103a8c50a04773e4625a2b8a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530934"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554973"
 ---
-# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="6ed25-102">Lync Server 2013 での常設チャットサーバーのフェールオーバーとフェールバック</span><span class="sxs-lookup"><span data-stu-id="6ed25-102">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="85110-103">Lync Server 2013 での常設チャットサーバーのフェールオーバーとフェールバック</span><span class="sxs-lookup"><span data-stu-id="85110-103">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48530934"
 
 <span> </span>
 
-<span data-ttu-id="6ed25-103">_**トピックの最終更新日:** 2012-08-03_</span><span class="sxs-lookup"><span data-stu-id="6ed25-103">_**Topic Last Modified:** 2012-08-03_</span></span>
+<span data-ttu-id="85110-104">_**トピックの最終更新日:** 2012-08-03_</span><span class="sxs-lookup"><span data-stu-id="85110-104">_**Topic Last Modified:** 2012-08-03_</span></span>
 
-<span data-ttu-id="6ed25-104">Lync Server 2013 の常設チャットサーバーをフェールオーバーおよびフェールバックするには、Microsoft SQL Server 2008 R2 以降のレプリケーションとフェールオーバーのプロセスについて理解している必要があります。</span><span class="sxs-lookup"><span data-stu-id="6ed25-104">To fail over and fail back Lync Server 2013, Persistent Chat Server, you should be familiar with replication and failover processes for Microsoft SQL Server 2008 R2 and later.</span></span> <span data-ttu-id="6ed25-105">また、常設チャットサーバーサービスについても理解しておく必要があります。</span><span class="sxs-lookup"><span data-stu-id="6ed25-105">You should also be familiar with the Persistent Chat Server services.</span></span>
+<span data-ttu-id="85110-105">Lync Server 2013 の常設チャットサーバーをフェールオーバーおよびフェールバックするには、Microsoft SQL Server 2008 R2 以降のレプリケーションとフェールオーバーのプロセスについて理解している必要があります。</span><span class="sxs-lookup"><span data-stu-id="85110-105">To fail over and fail back Lync Server 2013, Persistent Chat Server, you should be familiar with replication and failover processes for Microsoft SQL Server 2008 R2 and later.</span></span> <span data-ttu-id="85110-106">また、常設チャットサーバーサービスについても理解しておく必要があります。</span><span class="sxs-lookup"><span data-stu-id="85110-106">You should also be familiar with the Persistent Chat Server services.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6ed25-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="6ed25-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="85110-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="85110-107">In This Section</span></span>
 
-  - [<span data-ttu-id="6ed25-107">Lync Server 2013 での常設チャットサーバーのフェールオーバー</span><span class="sxs-lookup"><span data-stu-id="6ed25-107">Failing over Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-persistent-chat-server.md)
+  - [<span data-ttu-id="85110-108">Lync Server 2013 での常設チャットサーバーのフェールオーバー</span><span class="sxs-lookup"><span data-stu-id="85110-108">Failing over Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-persistent-chat-server.md)
 
-  - [<span data-ttu-id="6ed25-108">Lync Server 2013 での常設チャットサーバーのフェールバック</span><span class="sxs-lookup"><span data-stu-id="6ed25-108">Failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-back-persistent-chat-server.md)
+  - [<span data-ttu-id="85110-109">Lync Server 2013 での常設チャットサーバーのフェールバック</span><span class="sxs-lookup"><span data-stu-id="85110-109">Failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-back-persistent-chat-server.md)
 
 </div>
 

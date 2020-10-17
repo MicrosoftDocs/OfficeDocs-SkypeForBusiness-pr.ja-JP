@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: バックアップサービスを使用した会議コンテンツの復元'
+description: 'Lync Server 2013: バックアップサービスを使用して会議コンテンツを復元します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 252cdf6713db7fcb3c4658cc4adb0eb51905c1ff
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a3a0037af711948c008e74c5444373ed995f0e6e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511454"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555183"
 ---
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="41be1-102">Lync Server 2013 でのバックアップサービスを使用した会議コンテンツの復元</span><span class="sxs-lookup"><span data-stu-id="41be1-102">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="f3cd7-103">Lync Server 2013 でのバックアップサービスを使用した会議コンテンツの復元</span><span class="sxs-lookup"><span data-stu-id="f3cd7-103">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48511454"
 
 <span> </span>
 
-<span data-ttu-id="41be1-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="41be1-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="f3cd7-104">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f3cd7-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="41be1-p101">フロントエンド プールのファイル ストアに格納されている会議情報が使用できなくなった場合は、この情報を復元する必要があります。これにより、プールのユーザーが会議データを保持できます。会議データを失ったフロントエンド プールと他のフロントエンド プールがペアになっている場合は、バックアップ サービスを使用してデータを復元できます。</span><span class="sxs-lookup"><span data-stu-id="41be1-p101">If the conference information stored in the file store of a Front End pool becomes unavailable. you must restore this information so that users homed on the pool retain their conference data. If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
+<span data-ttu-id="f3cd7-p101">フロントエンド プールのファイル ストアに格納されている会議情報が使用できなくなった場合は、この情報を復元する必要があります。これにより、プールのユーザーが会議データを保持できます。会議データを失ったフロントエンド プールと他のフロントエンド プールがペアになっている場合は、バックアップ サービスを使用してデータを復元できます。</span><span class="sxs-lookup"><span data-stu-id="f3cd7-p101">If the conference information stored in the file store of a Front End pool becomes unavailable. you must restore this information so that users homed on the pool retain their conference data. If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
 
-<span data-ttu-id="41be1-p102">プール全体で障害が発生し、ユーザーをバックアップ プールにフェールオーバーする必要がある場合も、このタスクを実行します。これらのユーザーが元のプールにフェールオーバーされるときに、この手順を使用して、会議コンテンツも元のプールにコピーする必要があります。</span><span class="sxs-lookup"><span data-stu-id="41be1-p102">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool. When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
+<span data-ttu-id="f3cd7-p102">プール全体で障害が発生し、ユーザーをバックアップ プールにフェールオーバーする必要がある場合も、このタスクを実行します。これらのユーザーが元のプールにフェールオーバーされるときに、この手順を使用して、会議コンテンツも元のプールにコピーする必要があります。</span><span class="sxs-lookup"><span data-stu-id="f3cd7-p102">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool. When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
 
-<span data-ttu-id="41be1-109">Pool1 と Pool2 がペアで、Pool1 の会議データが失われたとします。</span><span class="sxs-lookup"><span data-stu-id="41be1-109">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="41be1-110">次のコマンドレットを使用して、バックアップサービスを呼び出してコンテンツを復元できます。</span><span class="sxs-lookup"><span data-stu-id="41be1-110">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
+<span data-ttu-id="f3cd7-110">Pool1 と Pool2 がペアで、Pool1 の会議データが失われたとします。</span><span class="sxs-lookup"><span data-stu-id="f3cd7-110">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="f3cd7-111">次のコマンドレットを使用して、バックアップサービスを呼び出してコンテンツを復元できます。</span><span class="sxs-lookup"><span data-stu-id="f3cd7-111">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="41be1-p104">会議コンテンツのサイズによっては、コンテンツを復元するのに時間がかかる場合があります。次のコマンドレットを使用すると、プロセスの状態を確認できます。</span><span class="sxs-lookup"><span data-stu-id="41be1-p104">Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:</span></span>
+<span data-ttu-id="f3cd7-p104">会議コンテンツのサイズによっては、コンテンツを復元するのに時間がかかる場合があります。次のコマンドレットを使用すると、プロセスの状態を確認できます。</span><span class="sxs-lookup"><span data-stu-id="f3cd7-p104">Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:</span></span>
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="41be1-113">このコマンドレットがデータ会議モジュールに対して安定状態の値を返すと、プロセスは完了です。</span><span class="sxs-lookup"><span data-stu-id="41be1-113">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
+<span data-ttu-id="f3cd7-114">このコマンドレットがデータ会議モジュールに対して安定状態の値を返すと、プロセスは完了です。</span><span class="sxs-lookup"><span data-stu-id="f3cd7-114">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
 
 </div>
 

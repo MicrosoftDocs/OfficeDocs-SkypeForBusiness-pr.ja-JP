@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 特定のサイト用の新しいファイル送信フィルターの作成'
+description: 'Lync Server 2013: 特定のサイト用の新しいファイル送信フィルターを作成します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10e33523c18f323c34ed129616f0e6012a4ebf11
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d3b5003711c2f2e74b726809fba5da6d9fd0aa57
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501934"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554703"
 ---
-# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a><span data-ttu-id="4e299-102">Lync Server 2013 で特定のサイトに対して新しいファイル転送フィルターを作成する</span><span class="sxs-lookup"><span data-stu-id="4e299-102">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>
+# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a><span data-ttu-id="62b76-103">Lync Server 2013 で特定のサイトに対して新しいファイル転送フィルターを作成する</span><span class="sxs-lookup"><span data-stu-id="62b76-103">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,55 +38,55 @@ ms.locfileid: "48501934"
 
 <span> </span>
 
-<span data-ttu-id="4e299-103">_**トピックの最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="4e299-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="62b76-104">_**トピックの最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="62b76-104">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="4e299-104">グローバルファイル転送フィルターを変更するだけでなく、Lync Server 2013 展開内の特定のサイトに対してカスタムファイル転送フィルターを構成できます。</span><span class="sxs-lookup"><span data-stu-id="4e299-104">In addition to modifying the global file transfer filter, you can configure custom file transfer filters for specific sites within your Lync Server 2013 deployment.</span></span> <span data-ttu-id="4e299-105">ファイル転送フィルターの詳細については、「 [Lync Server 2013 でインスタントメッセージング (IM) のファイル転送と URL フィルターを構成する](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4e299-105">For details about file transfer filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
+<span data-ttu-id="62b76-105">グローバルファイル転送フィルターを変更するだけでなく、Lync Server 2013 展開内の特定のサイトに対してカスタムファイル転送フィルターを構成できます。</span><span class="sxs-lookup"><span data-stu-id="62b76-105">In addition to modifying the global file transfer filter, you can configure custom file transfer filters for specific sites within your Lync Server 2013 deployment.</span></span> <span data-ttu-id="62b76-106">ファイル転送フィルターの詳細については、「 [Lync Server 2013 でインスタントメッセージング (IM) のファイル転送と URL フィルターを構成する](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="62b76-106">For details about file transfer filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-file-transfer-filter-for-a-specific-site"></a><span data-ttu-id="4e299-106">特定のサイトに対してファイル送信フィルタを作成するには</span><span class="sxs-lookup"><span data-stu-id="4e299-106">To create a file transfer filter for a specific site</span></span>
+## <a name="to-create-a-file-transfer-filter-for-a-specific-site"></a><span data-ttu-id="62b76-107">特定のサイトに対してファイル送信フィルタを作成するには</span><span class="sxs-lookup"><span data-stu-id="62b76-107">To create a file transfer filter for a specific site</span></span>
 
-1.  <span data-ttu-id="4e299-107">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="4e299-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="62b76-108">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="62b76-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="4e299-108">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="4e299-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="4e299-109">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4e299-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="62b76-109">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="62b76-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="62b76-110">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="62b76-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="4e299-110">左側のナビゲーション バーで [**IM とプレゼンス**] をクリックし、[**ファイル フィルター**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4e299-110">In the left navigation bar, click **IM and Presence** and then click **File Filter**.</span></span>
+3.  <span data-ttu-id="62b76-111">左側のナビゲーション バーで [**IM とプレゼンス**] をクリックし、[**ファイル フィルター**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="62b76-111">In the left navigation bar, click **IM and Presence** and then click **File Filter**.</span></span>
 
-4.  <span data-ttu-id="4e299-111">[**ファイル フィルタ**] ページで [**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4e299-111">On the **File Filter** page, click **New**.</span></span>
+4.  <span data-ttu-id="62b76-112">[**ファイル フィルタ**] ページで [**新規**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="62b76-112">On the **File Filter** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="4e299-112">[**サイトの選択**] ダイアログ ボックスで、ファイル送信フィルタを作成するサイトをクリックしてから、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4e299-112">In the **Select a Site** dialog box, click the site for which you want to create the file transfer filter, and then click **OK**.</span></span>
+5.  <span data-ttu-id="62b76-113">[**サイトの選択**] ダイアログ ボックスで、ファイル送信フィルタを作成するサイトをクリックしてから、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="62b76-113">In the **Select a Site** dialog box, click the site for which you want to create the file transfer filter, and then click **OK**.</span></span>
 
-6.  <span data-ttu-id="4e299-113">[**新しいファイル フィルタ**] で、[**ファイル フィルタを有効にする**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="4e299-113">In **New File Filter**, click the **Enable file filter** check box.</span></span>
+6.  <span data-ttu-id="62b76-114">[**新しいファイル フィルタ**] で、[**ファイル フィルタを有効にする**] チェック ボックスをオンにします。</span><span class="sxs-lookup"><span data-stu-id="62b76-114">In **New File Filter**, click the **Enable file filter** check box.</span></span>
 
-7.  <span data-ttu-id="4e299-114">[**ファイル送信**] ドロップダウン リスト ボックスで、[**すべて禁止**] または [**特定の種類のファイルを禁止**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4e299-114">In **File transfer** drop-down list box, click **Block All** or **Block specific file types**.</span></span>
+7.  <span data-ttu-id="62b76-115">[**ファイル送信**] ドロップダウン リスト ボックスで、[**すべて禁止**] または [**特定の種類のファイルを禁止**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="62b76-115">In **File transfer** drop-down list box, click **Block All** or **Block specific file types**.</span></span>
 
-8.  <span data-ttu-id="4e299-115">[**すべて禁止**] をクリックした場合は、ステップ 10 へ進みます。</span><span class="sxs-lookup"><span data-stu-id="4e299-115">If you clicked **Block All**, skip to step 10.</span></span>
+8.  <span data-ttu-id="62b76-116">[**すべて禁止**] をクリックした場合は、ステップ 10 へ進みます。</span><span class="sxs-lookup"><span data-stu-id="62b76-116">If you clicked **Block All**, skip to step 10.</span></span>
 
-9.  <span data-ttu-id="4e299-116">[**特定の種類のファイルを禁止する**] をクリックした場合は、次の操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="4e299-116">If you clicked **Block specific file types**, do the following:</span></span>
+9.  <span data-ttu-id="62b76-117">[**特定の種類のファイルを禁止する**] をクリックした場合は、次の操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="62b76-117">If you clicked **Block specific file types**, do the following:</span></span>
     
-    1.  <span data-ttu-id="4e299-117">[**選択**] をクリックして、禁止する種類のファイル拡張子の既定の一覧を変更します。</span><span class="sxs-lookup"><span data-stu-id="4e299-117">Click **Select** to modify the default list of file type extensions that you want to block.</span></span>
+    1.  <span data-ttu-id="62b76-118">[**選択**] をクリックして、禁止する種類のファイル拡張子の既定の一覧を変更します。</span><span class="sxs-lookup"><span data-stu-id="62b76-118">Click **Select** to modify the default list of file type extensions that you want to block.</span></span>
     
-    2.  <span data-ttu-id="4e299-118">[**ファイルの種類を選択**] ダイアログ ボックスで、[**ファイル拡張子**] の下のカテゴリから拡張子を追加するか削除して、禁止または許可するファイルの種類を選択します。</span><span class="sxs-lookup"><span data-stu-id="4e299-118">In the **Select File Type** dialog box, select the file types that you want to block or allow by adding or removing their extensions from the categories under **File type extensions**.</span></span>
+    2.  <span data-ttu-id="62b76-119">[**ファイルの種類を選択**] ダイアログ ボックスで、[**ファイル拡張子**] の下のカテゴリから拡張子を追加するか削除して、禁止または許可するファイルの種類を選択します。</span><span class="sxs-lookup"><span data-stu-id="62b76-119">In the **Select File Type** dialog box, select the file types that you want to block or allow by adding or removing their extensions from the categories under **File type extensions**.</span></span>
     
-    3.  <span data-ttu-id="4e299-119">禁止する種類のファイルの拡張子が見当たらない場合は、[**ファイルの拡張子を一覧に追加**] のテキスト ボックスに拡張子を入力して、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4e299-119">If you do not see the extension for a file type that you want to block, type the extension in the text box under **Add file type extensions to the list**, and then click **Add**.</span></span>
+    3.  <span data-ttu-id="62b76-120">禁止する種類のファイルの拡張子が見当たらない場合は、[**ファイルの拡張子を一覧に追加**] のテキスト ボックスに拡張子を入力して、[**追加**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="62b76-120">If you do not see the extension for a file type that you want to block, type the extension in the text box under **Add file type extensions to the list**, and then click **Add**.</span></span>
     
-    4.  <span data-ttu-id="4e299-120">[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4e299-120">Click **OK**.</span></span>
+    4.  <span data-ttu-id="62b76-121">[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="62b76-121">Click **OK**.</span></span>
 
-10. <span data-ttu-id="4e299-121">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4e299-121">Click **Commit**.</span></span>
+10. <span data-ttu-id="62b76-122">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="62b76-122">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4e299-122">関連項目</span><span class="sxs-lookup"><span data-stu-id="4e299-122">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="62b76-123">関連項目</span><span class="sxs-lookup"><span data-stu-id="62b76-123">See Also</span></span>
 
 
-[<span data-ttu-id="4e299-123">Lync Server 2013 でインスタントメッセージング (IM) 用のファイル転送および URL フィルターを構成する</span><span class="sxs-lookup"><span data-stu-id="4e299-123">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[<span data-ttu-id="4e299-124">IM 会話でのハイパーリンクを処理するために Lync Server 2013 で新しい URL フィルターを作成する</span><span class="sxs-lookup"><span data-stu-id="4e299-124">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
-[<span data-ttu-id="4e299-125">Lync Server 2013 での既定のファイル送信フィルターの変更</span><span class="sxs-lookup"><span data-stu-id="4e299-125">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+[<span data-ttu-id="62b76-124">Lync Server 2013 でインスタントメッセージング (IM) 用のファイル転送および URL フィルターを構成する</span><span class="sxs-lookup"><span data-stu-id="62b76-124">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[<span data-ttu-id="62b76-125">IM 会話でのハイパーリンクを処理するために Lync Server 2013 で新しい URL フィルターを作成する</span><span class="sxs-lookup"><span data-stu-id="62b76-125">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[<span data-ttu-id="62b76-126">Lync Server 2013 での既定のファイル送信フィルターの変更</span><span class="sxs-lookup"><span data-stu-id="62b76-126">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
 
 
-[<span data-ttu-id="4e299-126">Lync Server 2013 で既定の URL フィルターを変更する</span><span class="sxs-lookup"><span data-stu-id="4e299-126">Modify the default URL filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-url-filter.md)  
+[<span data-ttu-id="62b76-127">Lync Server 2013 で既定の URL フィルターを変更する</span><span class="sxs-lookup"><span data-stu-id="62b76-127">Modify the default URL filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-url-filter.md)  
   
 
 </div>

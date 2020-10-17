@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: チャットルームまたはカテゴリの削除'
+description: 'Lync Server 2013: チャットルームまたはカテゴリの削除。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48706009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e395507984b0f9e6987212e1352e3232ea4394e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3ef89802171a1eeca7de18ff0a4eb8eb3895f1b9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525524"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555373"
 ---
-# <a name="deleting-a-chat-room-or-category-in-lync-server-2013"></a><span data-ttu-id="cee17-102">Lync Server 2013 でのチャットルームまたはカテゴリの削除</span><span class="sxs-lookup"><span data-stu-id="cee17-102">Deleting a chat room or category in Lync Server 2013</span></span>
+# <a name="deleting-a-chat-room-or-category-in-lync-server-2013"></a><span data-ttu-id="4ff37-103">Lync Server 2013 でのチャットルームまたはカテゴリの削除</span><span class="sxs-lookup"><span data-stu-id="4ff37-103">Deleting a chat room or category in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48525524"
 
 <span> </span>
 
-<span data-ttu-id="cee17-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="cee17-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="4ff37-104">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="4ff37-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="cee17-104">常設チャットルームを削除できます。</span><span class="sxs-lookup"><span data-stu-id="cee17-104">Persistent Chat rooms can be deleted.</span></span> <span data-ttu-id="cee17-105">使用しなくなったチャット ルームは、無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="cee17-105">If you have a chat room that is no longer being used, you can disable it.</span></span> <span data-ttu-id="cee17-106">詳細について [は、「Lync Server 2013 でチャットルームの無効化または有効化](lync-server-2013-disabling-or-enabling-a-chat-room.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cee17-106">For details, see [Disabling or enabling a chat room in Lync Server 2013](lync-server-2013-disabling-or-enabling-a-chat-room.md).</span></span>
+<span data-ttu-id="4ff37-105">常設チャットルームを削除できます。</span><span class="sxs-lookup"><span data-stu-id="4ff37-105">Persistent Chat rooms can be deleted.</span></span> <span data-ttu-id="4ff37-106">使用しなくなったチャット ルームは、無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="4ff37-106">If you have a chat room that is no longer being used, you can disable it.</span></span> <span data-ttu-id="4ff37-107">詳細について [は、「Lync Server 2013 でチャットルームの無効化または有効化](lync-server-2013-disabling-or-enabling-a-chat-room.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4ff37-107">For details, see [Disabling or enabling a chat room in Lync Server 2013](lync-server-2013-disabling-or-enabling-a-chat-room.md).</span></span>
 
-<span data-ttu-id="cee17-107">常設チャット管理者は、Windows PowerShell コマンドレットを使用して、無効にされたチャットルームに対してクエリを実行し、チャットルームを定期的に削除して完全に削除することができます。 **clear-cspersistentchatroom**を使用します。</span><span class="sxs-lookup"><span data-stu-id="cee17-107">A Persistent Chat administrator can query for disabled chat rooms, and can periodically purge and permanently delete the chat rooms, by using the Windows PowerShell cmdlet, **Remove-CsPersistentChatRoom**.</span></span>
+<span data-ttu-id="4ff37-108">常設チャット管理者は、Windows PowerShell コマンドレットを使用して、無効にされたチャットルームに対してクエリを実行し、チャットルームを定期的に削除して完全に削除することができます。 **clear-cspersistentchatroom**を使用します。</span><span class="sxs-lookup"><span data-stu-id="4ff37-108">A Persistent Chat administrator can query for disabled chat rooms, and can periodically purge and permanently delete the chat rooms, by using the Windows PowerShell cmdlet, **Remove-CsPersistentChatRoom**.</span></span>
 
-<span data-ttu-id="cee17-108">カテゴリは削除できます。</span><span class="sxs-lookup"><span data-stu-id="cee17-108">Categories can be deleted.</span></span> <span data-ttu-id="cee17-109">ただし、カテゴリを削除するには、まずその下にあるすべてのチャットルームを削除するか、または新しいカテゴリにチャットルームを移動して、削除のために空のカテゴリを残す必要があります。</span><span class="sxs-lookup"><span data-stu-id="cee17-109">However, to delete a category, you must first either delete all chat rooms under it or move the chat rooms to a new category, leaving an empty category for deletion.</span></span> <span data-ttu-id="cee17-110">常設チャットサーバーでは、チャットルームを含むカテゴリを削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="cee17-110">Persistent Chat Server does not allow you to delete a category that contains chat rooms.</span></span> <span data-ttu-id="cee17-111">詳細については、「 [Lync Server 2013 の1つのカテゴリから別のカテゴリへのチャットルームの移動](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cee17-111">For details, see [Moving a chat room from one category to another in Lync Server 2013](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md).</span></span>
+<span data-ttu-id="4ff37-109">カテゴリは削除できます。</span><span class="sxs-lookup"><span data-stu-id="4ff37-109">Categories can be deleted.</span></span> <span data-ttu-id="4ff37-110">ただし、カテゴリを削除するには、まずその下にあるすべてのチャットルームを削除するか、または新しいカテゴリにチャットルームを移動して、削除のために空のカテゴリを残す必要があります。</span><span class="sxs-lookup"><span data-stu-id="4ff37-110">However, to delete a category, you must first either delete all chat rooms under it or move the chat rooms to a new category, leaving an empty category for deletion.</span></span> <span data-ttu-id="4ff37-111">常設チャットサーバーでは、チャットルームを含むカテゴリを削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="4ff37-111">Persistent Chat Server does not allow you to delete a category that contains chat rooms.</span></span> <span data-ttu-id="4ff37-112">詳細については、「 [Lync Server 2013 の1つのカテゴリから別のカテゴリへのチャットルームの移動](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4ff37-112">For details, see [Moving a chat room from one category to another in Lync Server 2013](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md).</span></span>
 
-<span data-ttu-id="cee17-112">Windows PowerShell コマンドラインインターフェイスを使用して空のカテゴリを削除する方法の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成する](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)」の「Room Management」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cee17-112">For details about deleting empty categories by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span>
+<span data-ttu-id="4ff37-113">Windows PowerShell コマンドラインインターフェイスを使用して空のカテゴリを削除する方法の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成する](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)」の「Room Management」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4ff37-113">For details about deleting empty categories by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span>
 
-<span data-ttu-id="cee17-113">チャットルームおよびカテゴリの詳細については、「展開」のドキュメントの「 [configure 部屋 In lync server 2013](lync-server-2013-configure-rooms.md) 」および「 [Configure Categories in lync server 2013](lync-server-2013-configure-categories.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cee17-113">For details about chat rooms and categories, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) and [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="4ff37-114">チャットルームおよびカテゴリの詳細については、「展開」のドキュメントの「 [configure 部屋 In lync server 2013](lync-server-2013-configure-rooms.md) 」および「 [Configure Categories in lync server 2013](lync-server-2013-configure-categories.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4ff37-114">For details about chat rooms and categories, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) and [Configure categories in Lync Server 2013](lync-server-2013-configure-categories.md) in the Deployment documentation.</span></span>
 
 </div>
 

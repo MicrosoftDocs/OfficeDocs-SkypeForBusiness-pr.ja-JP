@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server ユーザーに hosted Exchange UM のボイスメールを提供する'
+description: 'Lync Server 2013: Lync Server ユーザーに、ホストされた Exchange UM でのボイスメールを提供します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0905fad737fe7da1cbc8ac36334700eb91409df7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: be4048e7fc2bd30a4ab670259a1871bd1b59483a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513184"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555863"
 ---
-# <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a><span data-ttu-id="2116b-102">Lync Server 2013 ユーザーに hosted Exchange UM のボイスメールを提供する</span><span class="sxs-lookup"><span data-stu-id="2116b-102">Providing Lync Server 2013 users voice mail on hosted Exchange UM</span></span>
+# <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a><span data-ttu-id="a6582-103">Lync Server 2013 ユーザーに hosted Exchange UM のボイスメールを提供する</span><span class="sxs-lookup"><span data-stu-id="a6582-103">Providing Lync Server 2013 users voice mail on hosted Exchange UM</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48513184"
 
 <span> </span>
 
-<span data-ttu-id="2116b-103">_**トピックの最終更新日:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="2116b-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="a6582-104">_**トピックの最終更新日:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="a6582-104">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="2116b-104">このセクションでは、ホストされた Exchange ユニファイドメッセージング (UM) サービスで、ボイスメールを使用して、オンプレミスの Lync Server 2013 展開にユーザーを提供するプロセスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="2116b-104">This section guides you through the process of providing users in an on-premises Lync Server 2013 deployment with voice mail on a hosted Exchange Unified Messaging (UM) service.</span></span>
+<span data-ttu-id="a6582-105">このセクションでは、ホストされた Exchange ユニファイドメッセージング (UM) サービスで、ボイスメールを使用して、オンプレミスの Lync Server 2013 展開にユーザーを提供するプロセスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="a6582-105">This section guides you through the process of providing users in an on-premises Lync Server 2013 deployment with voice mail on a hosted Exchange Unified Messaging (UM) service.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2116b-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="2116b-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a6582-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="a6582-106">In This Section</span></span>
 
-  - [<span data-ttu-id="2116b-106">Hosted Exchange UM との統合のための DNS SRV レコードを作成する</span><span class="sxs-lookup"><span data-stu-id="2116b-106">Create a DNS SRV record for integration with hosted Exchange UM</span></span>](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
+  - [<span data-ttu-id="a6582-107">Hosted Exchange UM との統合のための DNS SRV レコードを作成する</span><span class="sxs-lookup"><span data-stu-id="a6582-107">Create a DNS SRV record for integration with hosted Exchange UM</span></span>](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
 
-  - [<span data-ttu-id="2116b-107">ホストされた Exchange UM との統合のためにエッジサーバーを構成する</span><span class="sxs-lookup"><span data-stu-id="2116b-107">Configure the Edge Server for integration with hosted Exchange UM</span></span>](lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md)
+  - [<span data-ttu-id="a6582-108">ホストされた Exchange UM との統合のためにエッジサーバーを構成する</span><span class="sxs-lookup"><span data-stu-id="a6582-108">Configure the Edge Server for integration with hosted Exchange UM</span></span>](lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md)
 
-  - [<span data-ttu-id="2116b-108">Lync Server 2013 でホストボイスメールポリシーを管理する</span><span class="sxs-lookup"><span data-stu-id="2116b-108">Manage hosted voice mail policies in Lync Server 2013</span></span>](lync-server-2013-manage-hosted-voice-mail-policies.md)
+  - [<span data-ttu-id="a6582-109">Lync Server 2013 でホストボイスメールポリシーを管理する</span><span class="sxs-lookup"><span data-stu-id="a6582-109">Manage hosted voice mail policies in Lync Server 2013</span></span>](lync-server-2013-manage-hosted-voice-mail-policies.md)
 
-  - [<span data-ttu-id="2116b-109">Lync Server 2013 でホストボイスメールに対してユーザーを有効にする</span><span class="sxs-lookup"><span data-stu-id="2116b-109">Enable users for hosted voice mail in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-hosted-voice-mail.md)
+  - [<span data-ttu-id="a6582-110">Lync Server 2013 でホストボイスメールに対してユーザーを有効にする</span><span class="sxs-lookup"><span data-stu-id="a6582-110">Enable users for hosted voice mail in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-hosted-voice-mail.md)
 
-  - [<span data-ttu-id="2116b-110">Lync Server 2013 で hosted Exchange UM の連絡先オブジェクトを作成する</span><span class="sxs-lookup"><span data-stu-id="2116b-110">Create contact objects for hosted Exchange UM in Lync Server 2013</span></span>](lync-server-2013-create-contact-objects-for-hosted-exchange-um.md)
+  - [<span data-ttu-id="a6582-111">Lync Server 2013 で hosted Exchange UM の連絡先オブジェクトを作成する</span><span class="sxs-lookup"><span data-stu-id="a6582-111">Create contact objects for hosted Exchange UM in Lync Server 2013</span></span>](lync-server-2013-create-contact-objects-for-hosted-exchange-um.md)
 
 </div>
 
