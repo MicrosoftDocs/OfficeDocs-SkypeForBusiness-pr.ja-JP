@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ユーザーのグループ通話ピックアップを有効または無効にする'
+description: 'Lync Server 2013: ユーザーのグループ通話ピックアップを有効または無効にします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 756f2da13f083f4592e8553b974bd7540a48f494
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f9972ad5c10d298d0e1051816581433d0809f6c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501054"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48552449"
 ---
-# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="ff7ca-102">Lync Server 2013 でユーザーのグループ通話ピックアップを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="ff7ca-102">Enable or disable Group Call Pickup for users in Lync Server 2013</span></span>
+# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="9a6d6-103">Lync Server 2013 でユーザーのグループ通話ピックアップを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="9a6d6-103">Enable or disable Group Call Pickup for users in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48501054"
 
 <span> </span>
 
-<span data-ttu-id="ff7ca-103">_**トピックの最終更新日:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="ff7ca-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="9a6d6-104">_**トピックの最終更新日:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="9a6d6-104">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="ff7ca-104">グループ通話ピックアップ範囲がコールパークオービットテーブルに追加されると、ユーザーのグループ通話ピックアップを必要に応じて有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="ff7ca-104">When a Group Call Pickup range is added to the call park orbit table, you can enable and disable Group Call Pickup for the user as necessary.</span></span> <span data-ttu-id="ff7ca-105">このセクションでは、SEFAUtil リソースキットツールを使用してユーザーのグループ通話ピックアップを有効または無効にする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="ff7ca-105">This section describes how to use the SEFAUtil resource kit tool to enable and disable Group Call Pickup for users.</span></span>
+<span data-ttu-id="9a6d6-105">グループ通話ピックアップ範囲がコールパークオービットテーブルに追加されると、ユーザーのグループ通話ピックアップを必要に応じて有効または無効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="9a6d6-105">When a Group Call Pickup range is added to the call park orbit table, you can enable and disable Group Call Pickup for the user as necessary.</span></span> <span data-ttu-id="9a6d6-106">このセクションでは、SEFAUtil リソースキットツールを使用してユーザーのグループ通話ピックアップを有効または無効にする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="9a6d6-106">This section describes how to use the SEFAUtil resource kit tool to enable and disable Group Call Pickup for users.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="ff7ca-106">SEFAUtil パラメーター、または enablegrouppickup を使用すると、グループ通話ピックアップが有効になり、グループ番号が割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="ff7ca-106">The SEFAUtil parameter, /enablegrouppickup, enables Group Call Pickup and assigns the group number.</span></span>
+> <span data-ttu-id="9a6d6-107">SEFAUtil パラメーター、または enablegrouppickup を使用すると、グループ通話ピックアップが有効になり、グループ番号が割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="9a6d6-107">The SEFAUtil parameter, /enablegrouppickup, enables Group Call Pickup and assigns the group number.</span></span>
 
 
 
@@ -53,11 +54,11 @@ ms.locfileid: "48501054"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ff7ca-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="ff7ca-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9a6d6-108">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="9a6d6-108">In This Section</span></span>
 
-  - [<span data-ttu-id="ff7ca-108">Lync Server 2013 でユーザーのグループ通話ピックアップを有効にする</span><span class="sxs-lookup"><span data-stu-id="ff7ca-108">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)
+  - [<span data-ttu-id="9a6d6-109">Lync Server 2013 でユーザーのグループ通話ピックアップを有効にする</span><span class="sxs-lookup"><span data-stu-id="9a6d6-109">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)
 
-  - [<span data-ttu-id="ff7ca-109">Lync Server 2013 でユーザーのグループ通話ピックアップを無効にする</span><span class="sxs-lookup"><span data-stu-id="ff7ca-109">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)
+  - [<span data-ttu-id="9a6d6-110">Lync Server 2013 でユーザーのグループ通話ピックアップを無効にする</span><span class="sxs-lookup"><span data-stu-id="9a6d6-110">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)
 
 </div>
 
