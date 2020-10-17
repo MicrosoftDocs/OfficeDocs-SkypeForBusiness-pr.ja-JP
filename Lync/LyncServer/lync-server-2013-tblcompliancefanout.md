@@ -12,20 +12,22 @@ ms:contentKeyID: 48185828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bb9ab36bbbec83ea706231d2a3fa6dd890fb1e7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3df687926940aa98f3bf803f9a991527f19fa58f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207393"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509444"
 ---
+# <a name="tblcompliancefanout-in-lync-server-2013"></a><span data-ttu-id="dbcf1-102">Lync Server 2013 の tblComplianceFanout</span><span class="sxs-lookup"><span data-stu-id="dbcf1-102">tblComplianceFanout in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblcompliancefanout-in-lync-server-2013"></a><span data-ttu-id="9c779-102">Lync Server 2013 の tblComplianceFanout</span><span class="sxs-lookup"><span data-stu-id="9c779-102">tblComplianceFanout in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42207393"
 
 <span> </span>
 
-<span data-ttu-id="9c779-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="9c779-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="dbcf1-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="dbcf1-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="9c779-104">tblComplianceFanout には、コンプライアンスイベントを処理したすべてのサーバーが含まれています。</span><span class="sxs-lookup"><span data-stu-id="9c779-104">tblComplianceFanout contains all servers that processed a compliance event.</span></span>
+<span data-ttu-id="dbcf1-104">tblComplianceFanout には、コンプライアンスイベントを処理したすべてのサーバーが含まれています。</span><span class="sxs-lookup"><span data-stu-id="dbcf1-104">tblComplianceFanout contains all servers that processed a compliance event.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="9c779-105">Columns</span><span class="sxs-lookup"><span data-stu-id="9c779-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="dbcf1-105">段組み</span><span class="sxs-lookup"><span data-stu-id="dbcf1-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,27 +51,27 @@ ms.locfileid: "42207393"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9c779-106">列</span><span class="sxs-lookup"><span data-stu-id="9c779-106">Column</span></span></th>
-<th><span data-ttu-id="9c779-107">種類</span><span class="sxs-lookup"><span data-stu-id="9c779-107">Type</span></span></th>
-<th><span data-ttu-id="9c779-108">説明</span><span class="sxs-lookup"><span data-stu-id="9c779-108">Description</span></span></th>
+<th><span data-ttu-id="dbcf1-106">Column</span><span class="sxs-lookup"><span data-stu-id="dbcf1-106">Column</span></span></th>
+<th><span data-ttu-id="dbcf1-107">種類</span><span class="sxs-lookup"><span data-stu-id="dbcf1-107">Type</span></span></th>
+<th><span data-ttu-id="dbcf1-108">説明</span><span class="sxs-lookup"><span data-stu-id="dbcf1-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9c779-109">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="9c779-109">fanoutEventID</span></span></p></td>
-<td><p><span data-ttu-id="9c779-110">int</span><span class="sxs-lookup"><span data-stu-id="9c779-110">int</span></span></p></td>
-<td><p><span data-ttu-id="9c779-111">イベント ID。</span><span class="sxs-lookup"><span data-stu-id="9c779-111">Event ID.</span></span></p></td>
+<td><p><span data-ttu-id="dbcf1-109">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="dbcf1-109">fanoutEventID</span></span></p></td>
+<td><p><span data-ttu-id="dbcf1-110">int</span><span class="sxs-lookup"><span data-stu-id="dbcf1-110">int</span></span></p></td>
+<td><p><span data-ttu-id="dbcf1-111">イベント ID。</span><span class="sxs-lookup"><span data-stu-id="dbcf1-111">Event ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c779-112">fanoutServerID</span><span class="sxs-lookup"><span data-stu-id="9c779-112">fanoutServerID</span></span></p></td>
-<td><p><span data-ttu-id="9c779-113">int</span><span class="sxs-lookup"><span data-stu-id="9c779-113">int</span></span></p></td>
-<td><p><span data-ttu-id="9c779-114">サーバー id (tblServerIdentity テーブルに対応)。</span><span class="sxs-lookup"><span data-stu-id="9c779-114">Server identity (corresponding to tblServerIdentity.serverID table).</span></span></p></td>
+<td><p><span data-ttu-id="dbcf1-112">fanoutServerID</span><span class="sxs-lookup"><span data-stu-id="dbcf1-112">fanoutServerID</span></span></p></td>
+<td><p><span data-ttu-id="dbcf1-113">int</span><span class="sxs-lookup"><span data-stu-id="dbcf1-113">int</span></span></p></td>
+<td><p><span data-ttu-id="dbcf1-114">サーバー id (tblServerIdentity テーブルに対応)。</span><span class="sxs-lookup"><span data-stu-id="dbcf1-114">Server identity (corresponding to tblServerIdentity.serverID table).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="9c779-115">キー</span><span class="sxs-lookup"><span data-stu-id="9c779-115">Key</span></span>
+### <a name="key"></a><span data-ttu-id="dbcf1-115">キー</span><span class="sxs-lookup"><span data-stu-id="dbcf1-115">Key</span></span>
 
 <table>
 <colgroup>
@@ -78,14 +80,14 @@ ms.locfileid: "42207393"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9c779-116">列</span><span class="sxs-lookup"><span data-stu-id="9c779-116">Column</span></span></th>
-<th><span data-ttu-id="9c779-117">説明</span><span class="sxs-lookup"><span data-stu-id="9c779-117">Description</span></span></th>
+<th><span data-ttu-id="dbcf1-116">列</span><span class="sxs-lookup"><span data-stu-id="dbcf1-116">Column</span></span></th>
+<th><span data-ttu-id="dbcf1-117">説明</span><span class="sxs-lookup"><span data-stu-id="dbcf1-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9c779-118">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="9c779-118">fanoutEventID</span></span></p></td>
-<td><p><span data-ttu-id="9c779-119">TblComplianceData の参照が含まれている外部キー。</span><span class="sxs-lookup"><span data-stu-id="9c779-119">Foreign key with lookup in tblComplianceData.cmplEventID table.</span></span></p></td>
+<td><p><span data-ttu-id="dbcf1-118">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="dbcf1-118">fanoutEventID</span></span></p></td>
+<td><p><span data-ttu-id="dbcf1-119">TblComplianceData の参照が含まれている外部キー。</span><span class="sxs-lookup"><span data-stu-id="dbcf1-119">Foreign key with lookup in tblComplianceData.cmplEventID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

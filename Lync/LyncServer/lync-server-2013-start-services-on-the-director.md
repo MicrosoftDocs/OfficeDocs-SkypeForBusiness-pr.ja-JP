@@ -12,20 +12,22 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da0b18e6c5c64d7aee14eb955c9a3d3757f06835
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1958ce00884bcb60318598f8088fe60aae69ac3f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181710"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509584"
 ---
+# <a name="start-services-on-the-director-in-lync-server-2013"></a><span data-ttu-id="09ad0-102">Lync Server 2013 でディレクターのサービスを開始する</span><span class="sxs-lookup"><span data-stu-id="09ad0-102">Start services on the Director in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-services-on-the-director-in-lync-server-2013"></a><span data-ttu-id="4a641-102">Lync Server 2013 でディレクターのサービスを開始する</span><span class="sxs-lookup"><span data-stu-id="4a641-102">Start services on the Director in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42181710"
 
 <span> </span>
 
-<span data-ttu-id="4a641-103">_**トピックの最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="4a641-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="09ad0-103">_**トピックの最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="09ad0-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="4a641-104">ローカル構成ストアをインストールし、Lync Server コンポーネントをインストールして、ディレクターで証明書を構成した後、サーバー上で Lync Server サービスを開始する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4a641-104">After you install the Local Configuration Store, install the Lync Server Components, and configure certificates on a Director, you must start the Lync Server services on the server.</span></span> <span data-ttu-id="4a641-105">以下の手順を使用して、展開内の各ディレクターでサービスを開始できます。</span><span class="sxs-lookup"><span data-stu-id="4a641-105">You can use the following procedure to start services on each Director in your deployment.</span></span>
+<span data-ttu-id="09ad0-104">ローカル構成ストアをインストールし、Lync Server コンポーネントをインストールして、ディレクターで証明書を構成した後、サーバー上で Lync Server サービスを開始する必要があります。</span><span class="sxs-lookup"><span data-stu-id="09ad0-104">After you install the Local Configuration Store, install the Lync Server Components, and configure certificates on a Director, you must start the Lync Server services on the server.</span></span> <span data-ttu-id="09ad0-105">以下の手順を使用して、展開内の各ディレクターでサービスを開始できます。</span><span class="sxs-lookup"><span data-stu-id="09ad0-105">You can use the following procedure to start services on each Director in your deployment.</span></span>
 
 <div>
 
-## <a name="to-start-services-on-a-director"></a><span data-ttu-id="4a641-106">ディレクターでサービスを開始するには</span><span class="sxs-lookup"><span data-stu-id="4a641-106">To start services on a Director</span></span>
+## <a name="to-start-services-on-a-director"></a><span data-ttu-id="09ad0-106">ディレクターでサービスを開始するには</span><span class="sxs-lookup"><span data-stu-id="09ad0-106">To start services on a Director</span></span>
 
-1.  <span data-ttu-id="4a641-107">Lync Server 展開ウィザードの [ **Lync server 2013** ] ページで、[**ステップ 4: サービスの開始**] の横にある [**実行**] ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="4a641-107">In the Lync Server Deployment Wizard, on the **Lync Server 2013** page, click the **Run** button next to **Step 4: Start Services**.</span></span>
+1.  <span data-ttu-id="09ad0-107">Lync Server 展開ウィザードの [ **Lync server 2013** ] ページで、[**ステップ 4: サービスの開始**] の横にある [**実行**] ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="09ad0-107">In the Lync Server Deployment Wizard, on the **Lync Server 2013** page, click the **Run** button next to **Step 4: Start Services**.</span></span>
 
-2.  <span data-ttu-id="4a641-108">[**サービスの開始**] ページで、[**次**へ] をクリックして、サーバー上の Lync Server サービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="4a641-108">On the **Start Services** page, click **Next** to start the Lync Server services on the server.</span></span>
+2.  <span data-ttu-id="09ad0-108">[ **サービスの開始** ] ページで、[ **次** へ] をクリックして、サーバー上の Lync Server サービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="09ad0-108">On the **Start Services** page, click **Next** to start the Lync Server services on the server.</span></span>
 
-3.  <span data-ttu-id="4a641-109">すべてのサービスが正常に開始されたら、[**コマンドの実行**] ページで [**終了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4a641-109">On the **Executing Commands** page, after all services have started successfully, click **Finish**.</span></span>
+3.  <span data-ttu-id="09ad0-109">すべてのサービスが正常に開始されたら、[**コマンドの実行**] ページで [**終了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="09ad0-109">On the **Executing Commands** page, after all services have started successfully, click **Finish**.</span></span>
 
-4.  <span data-ttu-id="4a641-110">[**ステップ 4: サービスの開始**] の下にある [**サービスの状態 (オプション)**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="4a641-110">Below **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
+4.  <span data-ttu-id="09ad0-110">[**ステップ 4: サービスの開始**] の下にある [**サービスの状態 (オプション)**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="09ad0-110">Below **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
 
-5.  <span data-ttu-id="4a641-111">サーバーの**サービス**Microsoft 管理コンソール (MMC) で、すべての Lync server 2013 サービスが実行されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="4a641-111">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
+5.  <span data-ttu-id="09ad0-111">サーバーの **サービス** Microsoft 管理コンソール (MMC) で、すべての Lync server 2013 サービスが実行されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="09ad0-111">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
 
 </div>
 

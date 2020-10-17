@@ -12,20 +12,22 @@ ms:contentKeyID: 48184483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 612b872e0071e2ad3fa2d4d064048805a4e65953
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d7b1f9436695c5bd455c376d9c75add996be28f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198550"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508944"
 ---
+# <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a><span data-ttu-id="91aef-102">Lync Server 2013 での Lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て</span><span class="sxs-lookup"><span data-stu-id="91aef-102">Assign an external user access policy to a Lync enabled user in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a><span data-ttu-id="de7d9-102">Lync Server 2013 での Lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て</span><span class="sxs-lookup"><span data-stu-id="de7d9-102">Assign an external user access policy to a Lync enabled user in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,41 +37,41 @@ ms.locfileid: "42198550"
 
 <span> </span>
 
-<span data-ttu-id="de7d9-103">_**トピックの最終更新日:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="de7d9-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="91aef-103">_**トピックの最終更新日:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="91aef-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="de7d9-104">ユーザーが Lync Server に対して有効になっている場合は、特定のユーザーに適切なポリシーを適用することによって、Lync Server コントロールパネルで SIP フェデレーション、XMPP フェデレーション、リモートユーザーアクセス、およびパブリックインスタントメッセージング (IM) 接続を構成できます。</span><span class="sxs-lookup"><span data-stu-id="de7d9-104">If a user has been enabled for Lync Server, you can configure SIP federation, XMPP federation, remote user access, and public instant messaging (IM) connectivity in the Lync Server Control Panel by applying the appropriate policies to specific users.</span></span> <span data-ttu-id="de7d9-105">たとえば、リモートユーザーアクセスをサポートするポリシーを作成した場合、ユーザーがリモートの場所から Lync Server に接続して、リモートの場所から内部ユーザーと共同で作業できるようにするには、そのポリシーをユーザーに適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="de7d9-105">For example, if you created a policy to support remote user access, you must apply it to the user before the user can connect to Lync Server from a remote location and collaborate with internal users from the remote location.</span></span>
+<span data-ttu-id="91aef-104">ユーザーが Lync Server に対して有効になっている場合は、特定のユーザーに適切なポリシーを適用することによって、Lync Server コントロールパネルで SIP フェデレーション、XMPP フェデレーション、リモートユーザーアクセス、およびパブリックインスタントメッセージング (IM) 接続を構成できます。</span><span class="sxs-lookup"><span data-stu-id="91aef-104">If a user has been enabled for Lync Server, you can configure SIP federation, XMPP federation, remote user access, and public instant messaging (IM) connectivity in the Lync Server Control Panel by applying the appropriate policies to specific users.</span></span> <span data-ttu-id="91aef-105">たとえば、リモートユーザーアクセスをサポートするポリシーを作成した場合、ユーザーがリモートの場所から Lync Server に接続して、リモートの場所から内部ユーザーと共同で作業できるようにするには、そのポリシーをユーザーに適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="91aef-105">For example, if you created a policy to support remote user access, you must apply it to the user before the user can connect to Lync Server from a remote location and collaborate with internal users from the remote location.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="de7d9-106">外部ユーザー アクセスをサポートするには、サポートする各種類の外部ユーザー アクセスのサポートを有効にし、適切なポリシーとその他の使用制御オプションを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="de7d9-106">To support external user access, you must enable support for each type of external user access you want to support, and configure the appropriate policies and other options to control its use.</span></span> <span data-ttu-id="de7d9-107">詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-support-for-external-user-access.md">Lync server 2013 での外部ユーザーアクセスのサポートの構成</A>」または「操作」のドキュメントの「 <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">lync server 2013 へのフェデレーションと外部アクセスの管理</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="de7d9-107">For details, see <A href="lync-server-2013-configuring-support-for-external-user-access.md">Configuring support for external user access in Lync Server 2013</A> in the Deployment documentation or <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Managing federation and external access to Lync Server 2013</A> in the Operations documentation.</span></span>
+> <span data-ttu-id="91aef-106">外部ユーザー アクセスをサポートするには、サポートする各種類の外部ユーザー アクセスのサポートを有効にし、適切なポリシーとその他の使用制御オプションを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="91aef-106">To support external user access, you must enable support for each type of external user access you want to support, and configure the appropriate policies and other options to control its use.</span></span> <span data-ttu-id="91aef-107">詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-support-for-external-user-access.md">Lync server 2013 での外部ユーザーアクセスのサポートの構成</A> 」または「操作」のドキュメントの「 <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">lync server 2013 へのフェデレーションと外部アクセスの管理</A> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="91aef-107">For details, see <A href="lync-server-2013-configuring-support-for-external-user-access.md">Configuring support for external user access in Lync Server 2013</A> in the Deployment documentation or <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Managing federation and external access to Lync Server 2013</A> in the Operations documentation.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="de7d9-108">このトピックの手順を使用して、あらかじめ作成した外部ユーザー アクセス ポリシーを、1 つまたは複数のユーザー アカウントに適用します。</span><span class="sxs-lookup"><span data-stu-id="de7d9-108">Use the procedure in this topic to apply a previously created external user access policy to one or more user accounts.</span></span>
+<span data-ttu-id="91aef-108">このトピックの手順を使用して、あらかじめ作成した外部ユーザー アクセス ポリシーを、1 つまたは複数のユーザー アカウントに適用します。</span><span class="sxs-lookup"><span data-stu-id="91aef-108">Use the procedure in this topic to apply a previously created external user access policy to one or more user accounts.</span></span>
 
 <div>
 
-## <a name="to-apply-an-external-user-policy-to-a-user-account"></a><span data-ttu-id="de7d9-109">外部ユーザー ポリシーをユーザー アカウントに適用するには</span><span class="sxs-lookup"><span data-stu-id="de7d9-109">To apply an external user policy to a user account</span></span>
+## <a name="to-apply-an-external-user-policy-to-a-user-account"></a><span data-ttu-id="91aef-109">外部ユーザー ポリシーをユーザー アカウントに適用するには</span><span class="sxs-lookup"><span data-stu-id="91aef-109">To apply an external user policy to a user account</span></span>
 
-1.  <span data-ttu-id="de7d9-110">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="de7d9-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="91aef-110">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="91aef-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="de7d9-111">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="de7d9-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="de7d9-112">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="de7d9-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="91aef-111">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="91aef-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="91aef-112">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="91aef-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="de7d9-113">左側のナビゲーション バーで [**ユーザー**] をクリックし、構成するユーザー アカウントを検索します。</span><span class="sxs-lookup"><span data-stu-id="de7d9-113">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
+3.  <span data-ttu-id="91aef-113">左側のナビゲーション バーで [**ユーザー**] をクリックし、構成するユーザー アカウントを検索します。</span><span class="sxs-lookup"><span data-stu-id="91aef-113">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
 
-4.  <span data-ttu-id="de7d9-114">検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="de7d9-114">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="91aef-114">検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="91aef-114">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="de7d9-115">[**Lync Server ユーザーの編集**] の [**外部アクセス ポリシー**] で、適用するユーザー ポリシーを選択します。</span><span class="sxs-lookup"><span data-stu-id="de7d9-115">In **Edit Lync Server User** under **External access policy**, select the user policy that you want to apply.</span></span>
+5.  <span data-ttu-id="91aef-115">[**Lync Server ユーザーの編集**] の [**外部アクセス ポリシー**] で、適用するユーザー ポリシーを選択します。</span><span class="sxs-lookup"><span data-stu-id="91aef-115">In **Edit Lync Server User** under **External access policy**, select the user policy that you want to apply.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="de7d9-116">[ <STRONG> &lt;自動&gt; </STRONG> ] 設定では、既定のサーバーまたはグローバルポリシーの設定が適用されます。</span><span class="sxs-lookup"><span data-stu-id="de7d9-116">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server or global policy settings.</span></span>
+    > <span data-ttu-id="91aef-116">[ <STRONG> &lt; 自動 &gt; </STRONG> ] 設定では、既定のサーバーまたはグローバルポリシーの設定が適用されます。</span><span class="sxs-lookup"><span data-stu-id="91aef-116">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server or global policy settings.</span></span>
 
     
     </div>
@@ -78,15 +80,15 @@ ms.locfileid: "42198550"
 
 <div>
 
-## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="de7d9-117">Windows PowerShell コマンドレットを使用したユーザー単位の外部アクセスポリシーの割り当て</span><span class="sxs-lookup"><span data-stu-id="de7d9-117">Assigning Per-User External Access Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="91aef-117">Windows PowerShell コマンドレットを使用した Per-User 外部アクセスポリシーの割り当て</span><span class="sxs-lookup"><span data-stu-id="91aef-117">Assigning Per-User External Access Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="de7d9-118">ユーザー単位の外部アクセスポリシーは、Windows PowerShell と Get-csexternalaccesspolicy コマンドレットを使用して割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="de7d9-118">Per-user external access policies can be assigned by using Windows PowerShell and the Grant-CsExternalAccessPolicy cmdlet.</span></span> <span data-ttu-id="de7d9-119">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="de7d9-119">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="de7d9-120">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="de7d9-120">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="91aef-118">ユーザー単位の外部アクセスポリシーは、Windows PowerShell と Grant-CsExternalAccessPolicy コマンドレットを使用して割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="91aef-118">Per-user external access policies can be assigned by using Windows PowerShell and the Grant-CsExternalAccessPolicy cmdlet.</span></span> <span data-ttu-id="91aef-119">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="91aef-119">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="91aef-120">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="91aef-120">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a><span data-ttu-id="de7d9-121">ユーザーごとの外部アクセスポリシーを単一のユーザーに割り当てるには</span><span class="sxs-lookup"><span data-stu-id="de7d9-121">To assign a per-user external access policy to a single user</span></span>
+## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a><span data-ttu-id="91aef-121">ユーザーごとの外部アクセスポリシーを単一のユーザーに割り当てるには</span><span class="sxs-lookup"><span data-stu-id="91aef-121">To assign a per-user external access policy to a single user</span></span>
 
-  - <span data-ttu-id="de7d9-122">次のコマンドは、ユーザーごとの外部アクセス ポリシー RedmondExternalAccessPolicy をユーザー Ken Myer に割り当てます。</span><span class="sxs-lookup"><span data-stu-id="de7d9-122">This command assigns the per-user external access policy RedmondExternalAccessPolicy to the user Ken Myer.</span></span>
+  - <span data-ttu-id="91aef-122">次のコマンドは、ユーザーごとの外部アクセス ポリシー RedmondExternalAccessPolicy をユーザー Ken Myer に割り当てます。</span><span class="sxs-lookup"><span data-stu-id="91aef-122">This command assigns the per-user external access policy RedmondExternalAccessPolicy to the user Ken Myer.</span></span>
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
 
@@ -94,9 +96,9 @@ ms.locfileid: "42198550"
 
 <div>
 
-## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a><span data-ttu-id="de7d9-123">ユーザーごとの外部アクセスポリシーを複数のユーザーに割り当てるには</span><span class="sxs-lookup"><span data-stu-id="de7d9-123">To assign a per-user external access policy to multiple users</span></span>
+## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a><span data-ttu-id="91aef-123">ユーザーごとの外部アクセスポリシーを複数のユーザーに割り当てるには</span><span class="sxs-lookup"><span data-stu-id="91aef-123">To assign a per-user external access policy to multiple users</span></span>
 
-  - <span data-ttu-id="de7d9-124">次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="de7d9-124">This command assigns the per-user external access policy USAExternalAccessPolicy to all the users who have accounts in the UnitedStates OU in Active Directory.</span></span> <span data-ttu-id="de7d9-125">このコマンドで使用されている OU パラメーターの詳細については、「 [Get-help user](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)コマンドレットのドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="de7d9-125">For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet.</span></span>
+  - <span data-ttu-id="91aef-124">次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="91aef-124">This command assigns the per-user external access policy USAExternalAccessPolicy to all the users who have accounts in the UnitedStates OU in Active Directory.</span></span> <span data-ttu-id="91aef-125">このコマンドで使用されている OU パラメーターの詳細については、「 [Get-help user](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) コマンドレットのドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="91aef-125">For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet.</span></span>
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -104,15 +106,15 @@ ms.locfileid: "42198550"
 
 <div>
 
-## <a name="to-unassign-a-per-user-external-access-policy"></a><span data-ttu-id="de7d9-126">ユーザーごとの外部アクセスポリシーの割り当てを解除するには</span><span class="sxs-lookup"><span data-stu-id="de7d9-126">To unassign a per-user external access policy</span></span>
+## <a name="to-unassign-a-per-user-external-access-policy"></a><span data-ttu-id="91aef-126">ユーザーごとの外部アクセスポリシーの割り当てを解除するには</span><span class="sxs-lookup"><span data-stu-id="91aef-126">To unassign a per-user external access policy</span></span>
 
-  - <span data-ttu-id="de7d9-p106">次のコマンドは、以前に Ken Myer に割り当てたユーザーごとの外部アクセス ポリシーのすべての割り当てを解除します。ユーザーごとのポリシーの割り当てを解除された後の Ken Myer は、グローバル ポリシーまたは存在する場合はローカル サイト ポリシーを使用して、自動的に管理されます。サイト ポリシーの方がグローバル ポリシーより優先されます。</span><span class="sxs-lookup"><span data-stu-id="de7d9-p106">This command unassigns any per-user external access policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.</span></span>
+  - <span data-ttu-id="91aef-p106">次のコマンドは、以前に Ken Myer に割り当てたユーザーごとの外部アクセス ポリシーのすべての割り当てを解除します。ユーザーごとのポリシーの割り当てを解除された後の Ken Myer は、グローバル ポリシーまたは存在する場合はローカル サイト ポリシーを使用して、自動的に管理されます。サイト ポリシーの方がグローバル ポリシーより優先されます。</span><span class="sxs-lookup"><span data-stu-id="91aef-p106">This command unassigns any per-user external access policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.</span></span>
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
 </div>
 
-<span data-ttu-id="de7d9-130">詳細については、 [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="de7d9-130">For more information, see the help topic for the [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) cmdlet.</span></span>
+<span data-ttu-id="91aef-130">詳細については、 [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) コマンドレットのヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="91aef-130">For more information, see the help topic for the [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) cmdlet.</span></span>
 
 </div>
 

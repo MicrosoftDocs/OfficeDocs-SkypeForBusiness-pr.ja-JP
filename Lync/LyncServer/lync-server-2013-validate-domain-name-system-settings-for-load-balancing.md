@@ -12,20 +12,22 @@ ms:contentKeyID: 63969625
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9e45a007fd617ebefc6702a9be7da2e7d0a368f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc346dba48de1914f9aa5684d114e2f3466396f9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212633"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508614"
 ---
+# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a><span data-ttu-id="2b253-102">Lync Server 2013 での負荷分散のドメインネームシステム設定の検証</span><span class="sxs-lookup"><span data-stu-id="2b253-102">Validate Domain Name System settings for load balancing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a><span data-ttu-id="90780-102">Lync Server 2013 での負荷分散のドメインネームシステム設定の検証</span><span class="sxs-lookup"><span data-stu-id="90780-102">Validate Domain Name System settings for load balancing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42212633"
 
 <span> </span>
 
-<span data-ttu-id="90780-103">_**トピックの最終更新日:** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="90780-103">_**Topic Last Modified:** 2014-05-02_</span></span>
+<span data-ttu-id="2b253-103">_**トピックの最終更新日:** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="2b253-103">_**Topic Last Modified:** 2014-05-02_</span></span>
 
-<span data-ttu-id="90780-p101">DNS 負荷分散で使用される FQDN をサポートするには、プールの FQDN (pool01.contoso.com など) をプール内のすべてのサーバーの IP アドレス (192.168.1.1、192.168.1.2 など) に解決するように DNS をプロビジョニングする必要があります。現在展開されているサーバーの IP アドレスのみ含めるようにしてください。</span><span class="sxs-lookup"><span data-stu-id="90780-p101">To support the FQDN used by DNS load balancing, you must provision DNS to resolve the pool FQDN (such as pool01.contoso.com) to the IP addresses of all the servers in the pool (for example, 192.168.1.1, 192.168.1.2, and so on). You should include only the IP addresses of servers that are currently deployed.</span></span>
+<span data-ttu-id="2b253-p101">DNS 負荷分散で使用される FQDN をサポートするには、プールの FQDN (pool01.contoso.com など) をプール内のすべてのサーバーの IP アドレス (192.168.1.1、192.168.1.2 など) に解決するように DNS をプロビジョニングする必要があります。現在展開されているサーバーの IP アドレスのみ含めるようにしてください。</span><span class="sxs-lookup"><span data-stu-id="2b253-p101">To support the FQDN used by DNS load balancing, you must provision DNS to resolve the pool FQDN (such as pool01.contoso.com) to the IP addresses of all the servers in the pool (for example, 192.168.1.1, 192.168.1.2, and so on). You should include only the IP addresses of servers that are currently deployed.</span></span>
 
-<span data-ttu-id="90780-106">また、エッジプールに DNS 負荷分散を使用している場合は、次の DNS エントリが必要です。</span><span class="sxs-lookup"><span data-stu-id="90780-106">Additionally if you are using DNS load balancing for the Edge pools the following DNS entries are required:</span></span>
+<span data-ttu-id="2b253-106">また、エッジプールに DNS 負荷分散を使用している場合は、次の DNS エントリが必要です。</span><span class="sxs-lookup"><span data-stu-id="2b253-106">Additionally if you are using DNS load balancing for the Edge pools the following DNS entries are required:</span></span>
 
-  - <span data-ttu-id="90780-107">Lync Server アクセスエッジサービスの場合は、プール内のサーバーごとに1つのエントリが必要です。</span><span class="sxs-lookup"><span data-stu-id="90780-107">For the Lync Server Access Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="90780-108">各エントリは、Lync Server アクセスエッジサービス (たとえば、sip.contoso.com) の FQDN を、プール内のいずれかのエッジサーバー上の Lync Server アクセスエッジサービスの IP アドレスに解決する必要があります。</span><span class="sxs-lookup"><span data-stu-id="90780-108">Each entry must resolve the FQDN of the Lync Server Access Edge service (for example, sip.contoso.com) to the IP address of the Lync Server Access Edge service on one of the Edge Servers in the pool.</span></span>
+  - <span data-ttu-id="2b253-107">Lync Server アクセスエッジサービスの場合は、プール内のサーバーごとに1つのエントリが必要です。</span><span class="sxs-lookup"><span data-stu-id="2b253-107">For the Lync Server Access Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="2b253-108">各エントリは、Lync Server アクセスエッジサービス (たとえば、sip.contoso.com) の FQDN を、プール内のいずれかのエッジサーバー上の Lync Server アクセスエッジサービスの IP アドレスに解決する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2b253-108">Each entry must resolve the FQDN of the Lync Server Access Edge service (for example, sip.contoso.com) to the IP address of the Lync Server Access Edge service on one of the Edge Servers in the pool.</span></span>
 
-  - <span data-ttu-id="90780-109">Lync Server Web 会議エッジサービスでは、プール内のサーバーごとに1つのエントリが必要です。</span><span class="sxs-lookup"><span data-stu-id="90780-109">For the Lync Server Web Conferencing Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="90780-110">各エントリは、Lync Server Web 会議エッジサービスの FQDN (webconf.contoso.com など) を、プール内のいずれかのエッジサーバー上の Lync Server Web 会議エッジサービスの IP アドレスに解決する必要があります。</span><span class="sxs-lookup"><span data-stu-id="90780-110">Each entry must resolve the FQDN of the Lync Server Web Conferencing Edge service (for example, webconf.contoso.com) to the IP address of the Lync Server Web Conferencing Edge service on one of the Edge Servers in the pool.</span></span>
+  - <span data-ttu-id="2b253-109">Lync Server Web 会議エッジサービスでは、プール内のサーバーごとに1つのエントリが必要です。</span><span class="sxs-lookup"><span data-stu-id="2b253-109">For the Lync Server Web Conferencing Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="2b253-110">各エントリは、Lync Server Web 会議エッジサービスの FQDN (webconf.contoso.com など) を、プール内のいずれかのエッジサーバー上の Lync Server Web 会議エッジサービスの IP アドレスに解決する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2b253-110">Each entry must resolve the FQDN of the Lync Server Web Conferencing Edge service (for example, webconf.contoso.com) to the IP address of the Lync Server Web Conferencing Edge service on one of the Edge Servers in the pool.</span></span>
 
-  - <span data-ttu-id="90780-111">Lync Server 音声ビデオエッジサービスの場合は、プール内のサーバーごとに1つのエントリが必要です。</span><span class="sxs-lookup"><span data-stu-id="90780-111">For the Lync Server Audio/Video Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="90780-112">各エントリは、Lync Server 音声ビデオエッジサービス (たとえば、av.contoso.com) の FQDN を、プール内のいずれかのエッジサーバー上の Lync Server 音声ビデオエッジサービスの IP アドレスに解決する必要があります。</span><span class="sxs-lookup"><span data-stu-id="90780-112">Each entry must resolve the FQDN of the Lync Server Audio/Video Edge service (for example, av.contoso.com) to the IP address of the Lync Server Audio/Video Edge service on one of the Edge Servers in the pool.</span></span>
+  - <span data-ttu-id="2b253-111">Lync Server 音声ビデオエッジサービスの場合は、プール内のサーバーごとに1つのエントリが必要です。</span><span class="sxs-lookup"><span data-stu-id="2b253-111">For the Lync Server Audio/Video Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="2b253-112">各エントリは、Lync Server 音声ビデオエッジサービス (たとえば、av.contoso.com) の FQDN を、プール内のいずれかのエッジサーバー上の Lync Server 音声ビデオエッジサービスの IP アドレスに解決する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2b253-112">Each entry must resolve the FQDN of the Lync Server Audio/Video Edge service (for example, av.contoso.com) to the IP address of the Lync Server Audio/Video Edge service on one of the Edge Servers in the pool.</span></span>
 
-  - <span data-ttu-id="90780-113">エッジプールの内部インターフェイスで DNS 負荷分散を使用する場合は、1つの DNS レコードを追加する必要があります。これにより、エッジプールの内部 FQDN がプール内の各サーバーの IP アドレスに解決されます。</span><span class="sxs-lookup"><span data-stu-id="90780-113">If you want to use DNS load balancing on the internal interface of the Edge pool, you must add one DNS record, which resolves the internal FQDN of the Edge pool to the IP address of each server in the pool.</span></span>
+  - <span data-ttu-id="2b253-113">エッジプールの内部インターフェイスで DNS 負荷分散を使用する場合は、1つの DNS レコードを追加する必要があります。これにより、エッジプールの内部 FQDN がプール内の各サーバーの IP アドレスに解決されます。</span><span class="sxs-lookup"><span data-stu-id="2b253-113">If you want to use DNS load balancing on the internal interface of the Edge pool, you must add one DNS record, which resolves the internal FQDN of the Edge pool to the IP address of each server in the pool.</span></span>
 
-<span data-ttu-id="90780-114">DNS が DNS 負荷分散の正しい値を返すことを確認するには、nslookup ツールを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="90780-114">To verify that DNS is returning the correct values for DNS load balancing you should use the nslookup tool.</span></span> <span data-ttu-id="90780-115">Nslookup を使用して DNS レコードのすべての値を返すには、次のコマンドを実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="90780-115">To return all values for a DNS record with nslookup you should run the command:</span></span>
+<span data-ttu-id="2b253-114">DNS が DNS 負荷分散の正しい値を返すことを確認するには、nslookup ツールを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2b253-114">To verify that DNS is returning the correct values for DNS load balancing you should use the nslookup tool.</span></span> <span data-ttu-id="2b253-115">Nslookup を使用して DNS レコードのすべての値を返すには、次のコマンドを実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2b253-115">To return all values for a DNS record with nslookup you should run the command:</span></span>
 
 `nslookup <FQDN >`
 
-<span data-ttu-id="90780-116">Dns 負荷分散構成で使用されているすべての FQDN に対してこのコマンドを実行し、DNS 負荷分散のすべてのレコードセットが正しいエントリをすべて返すようにします。</span><span class="sxs-lookup"><span data-stu-id="90780-116">You would run this command for every FQDN used in DNS load balancing configuration to verify that every record set for DNS load balancing returned all of the correct entries.</span></span>
+<span data-ttu-id="2b253-116">Dns 負荷分散構成で使用されているすべての FQDN に対してこのコマンドを実行し、DNS 負荷分散のすべてのレコードセットが正しいエントリをすべて返すようにします。</span><span class="sxs-lookup"><span data-stu-id="2b253-116">You would run this command for every FQDN used in DNS load balancing configuration to verify that every record set for DNS load balancing returned all of the correct entries.</span></span>
 
 </div>
 
