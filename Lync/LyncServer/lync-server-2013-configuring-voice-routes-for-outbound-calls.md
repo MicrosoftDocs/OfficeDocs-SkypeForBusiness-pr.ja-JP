@@ -12,20 +12,22 @@ ms:contentKeyID: 48183875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a697dae1be3d59692746303f230968782db4f38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2e3f8fed51dd671a3012f5488569b2e38232be5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195550"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536964"
 ---
+# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a><span data-ttu-id="40eab-102">Lync Server 2013 での発信通話の音声ルートの構成</span><span class="sxs-lookup"><span data-stu-id="40eab-102">Configuring voice routes for outbound calls in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a><span data-ttu-id="59b0c-102">Lync Server 2013 での発信通話の音声ルートの構成</span><span class="sxs-lookup"><span data-stu-id="59b0c-102">Configuring voice routes for outbound calls in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,38 +37,38 @@ ms.locfileid: "42195550"
 
 <span> </span>
 
-<span data-ttu-id="59b0c-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="59b0c-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="40eab-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="40eab-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="59b0c-104">Lync Server 2013 voice route は、宛先の電話番号を1つまたは複数の公衆交換電話網 (PSTN) ゲートウェイまたは SIP トランクおよび1つ以上の PSTN 使用法レコードに関連付けます。</span><span class="sxs-lookup"><span data-stu-id="59b0c-104">A Lync Server 2013 voice route associates destination phone numbers with one or more public switched telephone network (PSTN) gateways or SIP trunks and one or more PSTN usage records.</span></span>
+<span data-ttu-id="40eab-104">Lync Server 2013 voice route は、宛先の電話番号を1つまたは複数の公衆交換電話網 (PSTN) ゲートウェイまたは SIP トランクおよび1つ以上の PSTN 使用法レコードに関連付けます。</span><span class="sxs-lookup"><span data-stu-id="40eab-104">A Lync Server 2013 voice route associates destination phone numbers with one or more public switched telephone network (PSTN) gateways or SIP trunks and one or more PSTN usage records.</span></span>
 
-<span data-ttu-id="59b0c-105">**Lync Server コントロールパネルを使用して音声ルートを表示するには**</span><span class="sxs-lookup"><span data-stu-id="59b0c-105">**To view voice routes by using Lync Server Control Panel**</span></span>
+<span data-ttu-id="40eab-105">**Lync Server コントロールパネルを使用して音声ルートを表示するには**</span><span class="sxs-lookup"><span data-stu-id="40eab-105">**To view voice routes by using Lync Server Control Panel**</span></span>
 
-1.  <span data-ttu-id="59b0c-106">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="59b0c-106">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="59b0c-107">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="59b0c-107">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+1.  <span data-ttu-id="40eab-106">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="40eab-106">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="40eab-107">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="40eab-107">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  <span data-ttu-id="59b0c-108">[**音声のルーティング**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="59b0c-108">Click **Voice Routing**.</span></span>
+2.  <span data-ttu-id="40eab-108">[**音声のルーティング**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="40eab-108">Click **Voice Routing**.</span></span>
 
-3.  <span data-ttu-id="59b0c-109">[**ルート**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="59b0c-109">Click **Route**.</span></span>
+3.  <span data-ttu-id="40eab-109">[**ルート**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="40eab-109">Click **Route**.</span></span>
 
-4.  <span data-ttu-id="59b0c-p102">音声ルートをダブルクリックし、音声ルートの一覧から追加のプロパティを表示するか、ルートを選択し、[**編集**] をクリックします。次に、[**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="59b0c-p102">Double-click a voice route to view additional properties from the list of voice routes, or select the route and click **Edit**. Then click **Show details**.</span></span>
+4.  <span data-ttu-id="40eab-p102">音声ルートをダブルクリックし、音声ルートの一覧から追加のプロパティを表示するか、ルートを選択し、[**編集**] をクリックします。次に、[**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="40eab-p102">Double-click a voice route to view additional properties from the list of voice routes, or select the route and click **Edit**. Then click **Show details**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="59b0c-112">一度に 1 つのルートの詳細情報しか表示できません。</span><span class="sxs-lookup"><span data-stu-id="59b0c-112">You can only view detailed information for a single route at a time.</span></span>
+    > <span data-ttu-id="40eab-112">一度に 1 つのルートの詳細情報しか表示できません。</span><span class="sxs-lookup"><span data-stu-id="40eab-112">You can only view detailed information for a single route at a time.</span></span>
 
     
     </div>
 
-<span data-ttu-id="59b0c-113">**Windows PowerShell を使用して音声ルートを表示するには**</span><span class="sxs-lookup"><span data-stu-id="59b0c-113">**To view voice routes by using Windows PowerShell**</span></span>
+<span data-ttu-id="40eab-113">**Windows PowerShell を使用して音声ルートを表示するには**</span><span class="sxs-lookup"><span data-stu-id="40eab-113">**To view voice routes by using Windows PowerShell**</span></span>
 
-  - <span data-ttu-id="59b0c-114">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="59b0c-114">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span> <span data-ttu-id="59b0c-115">音声ルートは、Windows PowerShell と**get-csvoiceroute**コマンドレットを使用して表示できます。</span><span class="sxs-lookup"><span data-stu-id="59b0c-115">Voice routes can be viewed by using Windows PowerShell and the **Get-CsVoiceRoute** cmdlet.</span></span> <span data-ttu-id="59b0c-116">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="59b0c-116">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="59b0c-117">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="59b0c-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+  - <span data-ttu-id="40eab-114">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="40eab-114">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span> <span data-ttu-id="40eab-115">音声ルートは、Windows PowerShell と **get-csvoiceroute** コマンドレットを使用して表示できます。</span><span class="sxs-lookup"><span data-stu-id="40eab-115">Voice routes can be viewed by using Windows PowerShell and the **Get-CsVoiceRoute** cmdlet.</span></span> <span data-ttu-id="40eab-116">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="40eab-116">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="40eab-117">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="40eab-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
     
-    <span data-ttu-id="59b0c-118">すべての音声ルートに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、ENTER キーを押します。</span><span class="sxs-lookup"><span data-stu-id="59b0c-118">To view information about all of your voice routes, type the following command in the Lync Server Management Shell, and then press ENTER:</span></span>
+    <span data-ttu-id="40eab-118">すべての音声ルートに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、ENTER キーを押します。</span><span class="sxs-lookup"><span data-stu-id="40eab-118">To view information about all of your voice routes, type the following command in the Lync Server Management Shell, and then press ENTER:</span></span>
     
         Get-CsVoiceRoute
     
-    <span data-ttu-id="59b0c-119">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="59b0c-119">That will return information similar to this:</span></span>
+    <span data-ttu-id="40eab-119">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="40eab-119">That will return information similar to this:</span></span>
     
         Identity          : global
         Priority          : -1
@@ -82,7 +84,7 @@ ms.locfileid: "42195550"
 
 
 > [!NOTE]  
-> <span data-ttu-id="59b0c-120">詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-voice-routes.md">Voice 回送 In Lync Server 2013</A> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="59b0c-120">For details, see <A href="lync-server-2013-voice-routes.md">Voice routes in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="40eab-120">詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-voice-routes.md">Voice 回送 In Lync Server 2013</A> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="40eab-120">For details, see <A href="lync-server-2013-voice-routes.md">Voice routes in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -90,20 +92,20 @@ ms.locfileid: "42195550"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="59b0c-121">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="59b0c-121">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="40eab-121">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="40eab-121">In This Section</span></span>
 
-  - [<span data-ttu-id="59b0c-122">Lync Server 2013 での音声ルートの作成</span><span class="sxs-lookup"><span data-stu-id="59b0c-122">Create a voice route in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-route.md)
+  - [<span data-ttu-id="40eab-122">Lync Server 2013 での音声ルートの作成</span><span class="sxs-lookup"><span data-stu-id="40eab-122">Create a voice route in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-route.md)
 
-  - [<span data-ttu-id="59b0c-123">Lync Server 2013 での音声ルートの変更</span><span class="sxs-lookup"><span data-stu-id="59b0c-123">Modify a voice route in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-route.md)
+  - [<span data-ttu-id="40eab-123">Lync Server 2013 での音声ルートの変更</span><span class="sxs-lookup"><span data-stu-id="40eab-123">Modify a voice route in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-route.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="59b0c-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="59b0c-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="40eab-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="40eab-124">See Also</span></span>
 
 
-[<span data-ttu-id="59b0c-125">Lync Server 2013 での音声ルーティングの管理</span><span class="sxs-lookup"><span data-stu-id="59b0c-125">Managing voice routing in Lync Server 2013</span></span>](lync-server-2013-managing-voice-routing.md)  
+[<span data-ttu-id="40eab-125">Lync Server 2013 での音声ルーティングの管理</span><span class="sxs-lookup"><span data-stu-id="40eab-125">Managing voice routing in Lync Server 2013</span></span>](lync-server-2013-managing-voice-routing.md)  
   
 
 </div>

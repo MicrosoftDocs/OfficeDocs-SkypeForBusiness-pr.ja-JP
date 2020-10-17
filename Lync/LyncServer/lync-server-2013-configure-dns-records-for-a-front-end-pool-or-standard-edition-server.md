@@ -12,20 +12,22 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5943bb1a813396f3435235d6fcbd3bcacd0aa4b4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5048763ba239e161825d1250446ac60853499223
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204503"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537124"
 ---
+# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a><span data-ttu-id="9aeac-102">フロントエンドプールまたは Standard Edition サーバーの Lync Server 2013 で DNS レコードを構成する</span><span class="sxs-lookup"><span data-stu-id="9aeac-102">Configure DNS records in Lync Server 2013 for a Front End pool or Standard Edition server</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a><span data-ttu-id="45bff-102">フロントエンドプールまたは Standard Edition サーバーの Lync Server 2013 で DNS レコードを構成する</span><span class="sxs-lookup"><span data-stu-id="45bff-102">Configure DNS records in Lync Server 2013 for a Front End pool or Standard Edition server</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42204503"
 
 <span> </span>
 
-<span data-ttu-id="45bff-103">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="45bff-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="9aeac-103">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="9aeac-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="45bff-104">Lync Server 2013 は、ドメインネームシステム (DNS) を使用して、適切なドメイン名と IP アドレス解決のレコードを登録し、管理します。</span><span class="sxs-lookup"><span data-stu-id="45bff-104">Lync Server 2013 uses the Domain Name System (DNS) to register and maintain records for proper domain name to IP address resolution.</span></span> <span data-ttu-id="45bff-105">Standard Edition サーバーまたはフロントエンドプールを運用する前に、展開に必要な DNS レコードを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="45bff-105">You need to configure required DNS records for your deployment prior to operating the Standard Edition server or Front End pool.</span></span> <span data-ttu-id="45bff-106">次のリンクは、Lync Server 2013 の適切な運用を可能にするために作成する必要があるレコードについてのガイダンスを提供します。</span><span class="sxs-lookup"><span data-stu-id="45bff-106">The following links will provide guidance on what records need to be created to allow for the proper operation of Lync Server 2013.</span></span>
+<span data-ttu-id="9aeac-104">Lync Server 2013 は、ドメインネームシステム (DNS) を使用して、適切なドメイン名と IP アドレス解決のレコードを登録し、管理します。</span><span class="sxs-lookup"><span data-stu-id="9aeac-104">Lync Server 2013 uses the Domain Name System (DNS) to register and maintain records for proper domain name to IP address resolution.</span></span> <span data-ttu-id="9aeac-105">Standard Edition サーバーまたはフロントエンドプールを運用する前に、展開に必要な DNS レコードを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9aeac-105">You need to configure required DNS records for your deployment prior to operating the Standard Edition server or Front End pool.</span></span> <span data-ttu-id="9aeac-106">次のリンクは、Lync Server 2013 の適切な運用を可能にするために作成する必要があるレコードについてのガイダンスを提供します。</span><span class="sxs-lookup"><span data-stu-id="9aeac-106">The following links will provide guidance on what records need to be created to allow for the proper operation of Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="45bff-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="45bff-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9aeac-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="9aeac-107">In This Section</span></span>
 
-  - [<span data-ttu-id="45bff-108">Lync Server 2013 での負荷分散の DNS の構成</span><span class="sxs-lookup"><span data-stu-id="45bff-108">Configure DNS for load balancing in Lync Server 2013</span></span>](lync-server-2013-configure-dns-for-load-balancing.md)
+  - [<span data-ttu-id="9aeac-108">Lync Server 2013 での負荷分散の DNS の構成</span><span class="sxs-lookup"><span data-stu-id="9aeac-108">Configure DNS for load balancing in Lync Server 2013</span></span>](lync-server-2013-configure-dns-for-load-balancing.md)
 
-  - [<span data-ttu-id="45bff-109">Lync Server 2013 の DNS ホストレコードの構成</span><span class="sxs-lookup"><span data-stu-id="45bff-109">Configure DNS Host records for Lync Server 2013</span></span>](lync-server-2013-configure-dns-host-records.md)
+  - [<span data-ttu-id="9aeac-109">Lync Server 2013 の DNS ホストレコードの構成</span><span class="sxs-lookup"><span data-stu-id="9aeac-109">Configure DNS Host records for Lync Server 2013</span></span>](lync-server-2013-configure-dns-host-records.md)
 
-  - [<span data-ttu-id="45bff-110">Lync Server 2013 で DNS SRV レコードを作成および確認する</span><span class="sxs-lookup"><span data-stu-id="45bff-110">Create and verify DNS SRV records in Lync Server 2013</span></span>](lync-server-2013-create-and-verify-dns-srv-records.md)
+  - [<span data-ttu-id="9aeac-110">Lync Server 2013 で DNS SRV レコードを作成および確認する</span><span class="sxs-lookup"><span data-stu-id="9aeac-110">Create and verify DNS SRV records in Lync Server 2013</span></span>](lync-server-2013-create-and-verify-dns-srv-records.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 障害回復のための拡張型の常設チャット サーバー プールの使用
+title: 障害復旧用に拡張常設チャットサーバープールを使用する
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2d5091623e381191d23ae0c8a62835577a1f66a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c09231abfae7bbcc32083d7db72d8a4be79ecff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744247"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535924"
 ---
+# <a name="using-a-stretched-persistent-chat-server-pool-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="f9c16-102">Lync Server 2013 での障害復旧のための拡張された常設チャットサーバープールの使用</span><span class="sxs-lookup"><span data-stu-id="f9c16-102">Using a stretched Persistent Chat Server pool for disaster recovery in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-a-stretched-persistent-chat-server-pool-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="fa174-102">Lync Server 2013 における障害回復のための拡張型の常設チャット サーバー プールの使用</span><span class="sxs-lookup"><span data-stu-id="fa174-102">Using a stretched Persistent Chat Server pool for disaster recovery in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "41744247"
 
 <span> </span>
 
-<span data-ttu-id="fa174-103">_**最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="fa174-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="f9c16-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="f9c16-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="fa174-104">常設チャットサーバーの障害回復ソリューションは、拡張された常設チャットサーバープールを基盤としています。</span><span class="sxs-lookup"><span data-stu-id="fa174-104">The disaster recovery solution for Persistent Chat Server is built on a stretched Persistent Chat Server pool.</span></span> <span data-ttu-id="fa174-105">これは、Lync Server 2010 のメトロポリタンサイトの回復性に似ています。ただし、ストレッチ仮想ローカルエリアネットワーク (VLAN) を使用する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="fa174-105">This is similar to metropolitan site resiliency in Lync Server 2010; however, there is no requirement for a stretched virtual local area network (VLAN).</span></span> <span data-ttu-id="fa174-106">常設チャットサーバープールを拡大することで、基本的にトポロジの1つのプールを論理的に構成することができますが、プール内にはサーバーを物理的に2つの異なるデータセンターに配置します。</span><span class="sxs-lookup"><span data-stu-id="fa174-106">By stretching Persistent Chat Server pool, you essentially configure one pool in the topology logically, but you physically place the servers in the pool in two different data centers.</span></span> <span data-ttu-id="fa174-107">データベースの SQL Server ミラーリングを同じように構成し、同じデータセンターにデータベースとミラーを展開します。</span><span class="sxs-lookup"><span data-stu-id="fa174-107">Configure SQL Server mirroring for the database in the same way, and deploy the database and the mirror in the same data center.</span></span> <span data-ttu-id="fa174-108">セカンダリ データ センターでは、(障害復旧時に高可用性を提供するためにオプションのミラーを使用して) バックアップ データベースを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fa174-108">You need to configure a backup database in the secondary data center (with an optional mirror to provide high availability during disaster recovery).</span></span> <span data-ttu-id="fa174-109">これは、障害復旧時にフェールオーバー用に使用されるバックアップ データベースです。</span><span class="sxs-lookup"><span data-stu-id="fa174-109">This is the backup database used for failover during disaster recovery.</span></span>
+<span data-ttu-id="f9c16-104">常設チャットサーバーの障害復旧ソリューションは、拡張された常設チャットサーバープール上に構築されています。</span><span class="sxs-lookup"><span data-stu-id="f9c16-104">The disaster recovery solution for Persistent Chat Server is built on a stretched Persistent Chat Server pool.</span></span> <span data-ttu-id="f9c16-105">これは、Lync Server 2010 の大都市サイト復元に似ています。ただし、拡張された仮想ローカルエリアネットワーク (VLAN) は必要ありません。</span><span class="sxs-lookup"><span data-stu-id="f9c16-105">This is similar to metropolitan site resiliency in Lync Server 2010; however, there is no requirement for a stretched virtual local area network (VLAN).</span></span> <span data-ttu-id="f9c16-106">常設チャットサーバープールをストレッチすることで、トポロジ内に論理的に1つのプールを構成することができますが、物理的には2つの異なるデータセンターにサーバーをプールに配置します。</span><span class="sxs-lookup"><span data-stu-id="f9c16-106">By stretching Persistent Chat Server pool, you essentially configure one pool in the topology logically, but you physically place the servers in the pool in two different data centers.</span></span> <span data-ttu-id="f9c16-107">データベースの SQL Server ミラーリングを同じ方法で構成し、データベースとミラーを同じデータセンターに展開します。</span><span class="sxs-lookup"><span data-stu-id="f9c16-107">Configure SQL Server mirroring for the database in the same way, and deploy the database and the mirror in the same data center.</span></span> <span data-ttu-id="f9c16-108">セカンダリデータセンターでバックアップデータベースを構成する必要があります (障害復旧時の高可用性を実現するためのオプションのミラーを備えています)。</span><span class="sxs-lookup"><span data-stu-id="f9c16-108">You need to configure a backup database in the secondary data center (with an optional mirror to provide high availability during disaster recovery).</span></span> <span data-ttu-id="f9c16-109">これは、障害復旧時のフェールオーバーに使用されるバックアップデータベースです。</span><span class="sxs-lookup"><span data-stu-id="f9c16-109">This is the backup database used for failover during disaster recovery.</span></span>
 
-<span data-ttu-id="fa174-110">高可用性のために SQL Server ミラーリングを構成する方法の詳細については、「 [Lync server 2013 での Sql server のミラーリング](lync-server-2013-sql-server-mirroring.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fa174-110">For details about how to configure SQL Server mirroring for high availability, see [SQL Server mirroring in Lync Server 2013](lync-server-2013-sql-server-mirroring.md).</span></span> <span data-ttu-id="fa174-111">障害回復のためのデータベースのフェイルオーバーについて詳しくは、「 [Lync server 2013 での常設チャットサーバーのプライマリデータベースの sql Server ログの配布の設定](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md)」と「 [lync server 2013 のプライマリミラーとログ配布のセカンダリデータベースの間での Sql Server のログ配布](lync-server-2013-set-up-log-shipping-secondary-database.md)のセットアップ」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="fa174-111">For details about failing over the database for disaster recovery, see [Setting up SQL Server Log Shipping in Lync Server 2013 for the Persistent Chat Server primary database](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md) and [Setting up SQL Server Log Shipping between the primary mirror and the Log Shipping secondary database in Lync Server 2013](lync-server-2013-set-up-log-shipping-secondary-database.md).</span></span>
+<span data-ttu-id="f9c16-110">高可用性を確保するために SQL Server ミラーリングを構成する方法の詳細については、「 [Lync server 2013 の Sql server ミラーリング](lync-server-2013-sql-server-mirroring.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f9c16-110">For details about how to configure SQL Server mirroring for high availability, see [SQL Server mirroring in Lync Server 2013](lync-server-2013-sql-server-mirroring.md).</span></span> <span data-ttu-id="f9c16-111">障害復旧のためにデータベースをフェールオーバーする詳細については、「 [Lync server 2013 での常設チャットサーバーのプライマリデータベースの Sql Server ログ配布の設定](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md) 」と「 [プライマリミラーとログ配布のセカンダリデータベース間での Sql server ログ配布のセットアップ (lync server 2013](lync-server-2013-set-up-log-shipping-secondary-database.md))」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f9c16-111">For details about failing over the database for disaster recovery, see [Setting up SQL Server Log Shipping in Lync Server 2013 for the Persistent Chat Server primary database](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md) and [Setting up SQL Server Log Shipping between the primary mirror and the Log Shipping secondary database in Lync Server 2013](lync-server-2013-set-up-log-shipping-secondary-database.md).</span></span>
 
 </div>
 

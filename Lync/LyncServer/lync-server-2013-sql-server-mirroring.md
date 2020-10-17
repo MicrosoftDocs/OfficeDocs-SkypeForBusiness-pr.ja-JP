@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: SQL Server ミラーリング'
+description: 'Lync Server 2013: SQL Server ミラーリング。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c9ae36e27a9e247ca65b65af6d910f6eec23908b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7ac80ef326ad63e21c1277abc553d1296ba61867
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509614"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541783"
 ---
-# <a name="sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="22666-102">Lync Server 2013 での SQL Server のミラーリング</span><span class="sxs-lookup"><span data-stu-id="22666-102">SQL Server mirroring in Lync Server 2013</span></span>
+# <a name="sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="8fd1b-103">Lync Server 2013 での SQL Server のミラーリング</span><span class="sxs-lookup"><span data-stu-id="8fd1b-103">SQL Server mirroring in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48509614"
 
 <span> </span>
 
-<span data-ttu-id="22666-103">_**トピックの最終更新日:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="22666-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="8fd1b-104">_**トピックの最終更新日:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="8fd1b-104">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="22666-104">プライマリ常設チャットデータベースとそのミラー間の SQL Server ミラーリングセッションを確立します。</span><span class="sxs-lookup"><span data-stu-id="22666-104">Establish the SQL Server mirroring session between the primary Persistent Chat database and its mirror.</span></span> <span data-ttu-id="22666-105">SQL Server ミラーリングを展開する方法については、「 [Lync Server 2013 でのバックエンドサーバーの高可用性の sql ミラーリングの展開](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="22666-105">For information about how to deploy SQL Server mirroring, see [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
+<span data-ttu-id="8fd1b-105">プライマリ常設チャットデータベースとそのミラー間の SQL Server ミラーリングセッションを確立します。</span><span class="sxs-lookup"><span data-stu-id="8fd1b-105">Establish the SQL Server mirroring session between the primary Persistent Chat database and its mirror.</span></span> <span data-ttu-id="8fd1b-106">SQL Server ミラーリングを展開する方法については、「 [Lync Server 2013 でのバックエンドサーバーの高可用性の sql ミラーリングの展開](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8fd1b-106">For information about how to deploy SQL Server mirroring, see [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
 
 </div>
 

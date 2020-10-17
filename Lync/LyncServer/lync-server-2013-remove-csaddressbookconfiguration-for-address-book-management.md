@@ -1,5 +1,5 @@
 ---
-title: アドレス帳管理のための-CsAddressBookConfiguration の削除
+title: アドレス帳管理の Remove-CsAddressBookConfiguration
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48184258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8337234f6798a9e178ae03065097b873a53a0c85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fbb16b55191d115047208cd74f3276815f49b1d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201473"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536504"
 ---
+# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="2f599-102">Lync Server 2013 でのアドレス帳管理の Remove-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="2f599-102">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="4a577-102">Lync Server 2013 でのアドレス帳管理用の-CsAddressBookConfiguration の削除</span><span class="sxs-lookup"><span data-stu-id="4a577-102">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,24 +37,24 @@ ms.locfileid: "42201473"
 
 <span> </span>
 
-<span data-ttu-id="4a577-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="4a577-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="2f599-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="2f599-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="4a577-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーは Remove-CsAddressBookConfiguration コマンドレットのローカルでの実行を承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="4a577-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Remove-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="2f599-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーは Remove-CsAddressBookConfiguration コマンドレットのローカルでの実行を承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="2f599-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Remove-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Remove-CsAddressBookConfiguration"}
 
-<span data-ttu-id="4a577-106">名前が示すとおり、Remove-CsAddressBookConfiguration は定義済みのサイト ID に基づく構成を削除します。</span><span class="sxs-lookup"><span data-stu-id="4a577-106">As the name implies, Remove-CsAddressBookConfiguration will remove the configuration based on the defined Site Identity.</span></span>
+<span data-ttu-id="2f599-106">名前が示すとおり、Remove-CsAddressBookConfiguration は定義済みのサイト ID に基づく構成を削除します。</span><span class="sxs-lookup"><span data-stu-id="2f599-106">As the name implies, Remove-CsAddressBookConfiguration will remove the configuration based on the defined Site Identity.</span></span>
 
-<span data-ttu-id="4a577-107">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="4a577-107">For example:</span></span>
+<span data-ttu-id="2f599-107">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="2f599-107">For example:</span></span>
 
     Remove-CsAddressBookConfiguration -Identity site:Redmond
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4a577-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="4a577-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f599-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="2f599-108">See Also</span></span>
 
 
-<span data-ttu-id="4a577-109">[-CsAddressBookConfiguration の削除](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4a577-109">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span></span>  
+<span data-ttu-id="2f599-109">[-CsAddressBookConfiguration の削除](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2f599-109">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span></span>  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184125
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d6de094f9786cc5d6bb3b25635cc54a290851e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 206efe412712d2acb311b951bd0554bed3c9f650
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195140"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536234"
 ---
+# <a name="tblserveridentity-in-lync-server-2013"></a><span data-ttu-id="34a43-102">Lync Server 2013 の tblServerIdentity</span><span class="sxs-lookup"><span data-stu-id="34a43-102">tblServerIdentity in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblserveridentity-in-lync-server-2013"></a><span data-ttu-id="22298-102">Lync Server 2013 の tblServerIdentity</span><span class="sxs-lookup"><span data-stu-id="22298-102">tblServerIdentity in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42195140"
 
 <span> </span>
 
-<span data-ttu-id="22298-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="22298-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="34a43-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="34a43-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="22298-104">tblServerIdentity には、常設チャットサーバープール内のアクティブなチャットサーバーが含まれています。</span><span class="sxs-lookup"><span data-stu-id="22298-104">tblServerIdentity contains the active chat servers in the Persistent Chat Server pool.</span></span>
+<span data-ttu-id="34a43-104">tblServerIdentity には、常設チャットサーバープール内のアクティブなチャットサーバーが含まれています。</span><span class="sxs-lookup"><span data-stu-id="34a43-104">tblServerIdentity contains the active chat servers in the Persistent Chat Server pool.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="22298-105">Columns</span><span class="sxs-lookup"><span data-stu-id="22298-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="34a43-105">段組み</span><span class="sxs-lookup"><span data-stu-id="34a43-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,32 +51,32 @@ ms.locfileid: "42195140"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="22298-106">列</span><span class="sxs-lookup"><span data-stu-id="22298-106">Column</span></span></th>
-<th><span data-ttu-id="22298-107">種類</span><span class="sxs-lookup"><span data-stu-id="22298-107">Type</span></span></th>
-<th><span data-ttu-id="22298-108">説明</span><span class="sxs-lookup"><span data-stu-id="22298-108">Description</span></span></th>
+<th><span data-ttu-id="34a43-106">Column</span><span class="sxs-lookup"><span data-stu-id="34a43-106">Column</span></span></th>
+<th><span data-ttu-id="34a43-107">種類</span><span class="sxs-lookup"><span data-stu-id="34a43-107">Type</span></span></th>
+<th><span data-ttu-id="34a43-108">説明</span><span class="sxs-lookup"><span data-stu-id="34a43-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="22298-109">serverID</span><span class="sxs-lookup"><span data-stu-id="22298-109">serverID</span></span></p></td>
-<td><p><span data-ttu-id="22298-110">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="22298-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="22298-111">サーバー ID。</span><span class="sxs-lookup"><span data-stu-id="22298-111">Server ID.</span></span> <span data-ttu-id="22298-112">中央管理ストアのインスタンス ID に対応します。</span><span class="sxs-lookup"><span data-stu-id="22298-112">Corresponds to the instance ID from Central Management store.</span></span></p></td>
+<td><p><span data-ttu-id="34a43-109">serverID</span><span class="sxs-lookup"><span data-stu-id="34a43-109">serverID</span></span></p></td>
+<td><p><span data-ttu-id="34a43-110">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="34a43-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="34a43-111">サーバー ID。</span><span class="sxs-lookup"><span data-stu-id="34a43-111">Server ID.</span></span> <span data-ttu-id="34a43-112">中央管理ストアのインスタンス ID に対応します。</span><span class="sxs-lookup"><span data-stu-id="34a43-112">Corresponds to the instance ID from Central Management store.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="22298-113">serverAddress</span><span class="sxs-lookup"><span data-stu-id="22298-113">serverAddress</span></span></p></td>
-<td><p><span data-ttu-id="22298-114">NULL でない nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="22298-114">nvarchar (256), not null</span></span></p></td>
-<td><p><span data-ttu-id="22298-115">Windows Communication Foundation アドレスを使用したサーバー アドレス。</span><span class="sxs-lookup"><span data-stu-id="22298-115">Server address using the Windows Communication Foundation address.</span></span></p></td>
+<td><p><span data-ttu-id="34a43-113">serverAddress</span><span class="sxs-lookup"><span data-stu-id="34a43-113">serverAddress</span></span></p></td>
+<td><p><span data-ttu-id="34a43-114">NULL でない nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="34a43-114">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="34a43-115">Windows Communication Foundation アドレスを使用したサーバー アドレス。</span><span class="sxs-lookup"><span data-stu-id="34a43-115">Server address using the Windows Communication Foundation address.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="22298-116">Serverlastping Time</span><span class="sxs-lookup"><span data-stu-id="22298-116">serverLastPingTime</span></span></p></td>
-<td><p><span data-ttu-id="22298-117">日付型</span><span class="sxs-lookup"><span data-stu-id="22298-117">datetime</span></span></p></td>
-<td><p><span data-ttu-id="22298-118">チャネル サーバーが、実行中であることを示すためにこの行を更新した最新時刻。</span><span class="sxs-lookup"><span data-stu-id="22298-118">The latest time that the Channel Server updated this row to give evidence that it is running.</span></span></p></td>
+<td><p><span data-ttu-id="34a43-116">Serverlastping Time</span><span class="sxs-lookup"><span data-stu-id="34a43-116">serverLastPingTime</span></span></p></td>
+<td><p><span data-ttu-id="34a43-117">日付型</span><span class="sxs-lookup"><span data-stu-id="34a43-117">datetime</span></span></p></td>
+<td><p><span data-ttu-id="34a43-118">チャネル サーバーが、実行中であることを示すためにこの行を更新した最新時刻。</span><span class="sxs-lookup"><span data-stu-id="34a43-118">The latest time that the Channel Server updated this row to give evidence that it is running.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="22298-119">キー</span><span class="sxs-lookup"><span data-stu-id="22298-119">Key</span></span>
+### <a name="key"></a><span data-ttu-id="34a43-119">キー</span><span class="sxs-lookup"><span data-stu-id="34a43-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -83,14 +85,14 @@ ms.locfileid: "42195140"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="22298-120">列</span><span class="sxs-lookup"><span data-stu-id="22298-120">Column</span></span></th>
-<th><span data-ttu-id="22298-121">説明</span><span class="sxs-lookup"><span data-stu-id="22298-121">Description</span></span></th>
+<th><span data-ttu-id="34a43-120">列</span><span class="sxs-lookup"><span data-stu-id="34a43-120">Column</span></span></th>
+<th><span data-ttu-id="34a43-121">説明</span><span class="sxs-lookup"><span data-stu-id="34a43-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="22298-122">serverID</span><span class="sxs-lookup"><span data-stu-id="22298-122">serverID</span></span></p></td>
-<td><p><span data-ttu-id="22298-123">主キー。</span><span class="sxs-lookup"><span data-stu-id="22298-123">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="34a43-122">serverID</span><span class="sxs-lookup"><span data-stu-id="34a43-122">serverID</span></span></p></td>
+<td><p><span data-ttu-id="34a43-123">主キー。</span><span class="sxs-lookup"><span data-stu-id="34a43-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
