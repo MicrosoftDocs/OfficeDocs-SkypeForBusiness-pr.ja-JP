@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: クライアントインストールのカスタマイズ'
+description: 'Lync Server 2013: クライアントインストールのカスタマイズ。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 755a53b6afc089093f5efbfd2a90699e12e66b8f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8dd1942c298ccbc8b6a2950baf4f24cc2f797a92
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516694"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561143"
 ---
-# <a name="customizing-client-installation-in-lync-server-2013"></a><span data-ttu-id="9f591-102">Lync Server 2013 でのクライアントインストールのカスタマイズ</span><span class="sxs-lookup"><span data-stu-id="9f591-102">Customizing client installation in Lync Server 2013</span></span>
+# <a name="customizing-client-installation-in-lync-server-2013"></a><span data-ttu-id="c6184-103">Lync Server 2013 でのクライアントインストールのカスタマイズ</span><span class="sxs-lookup"><span data-stu-id="c6184-103">Customizing client installation in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48516694"
 
 <span> </span>
 
-<span data-ttu-id="9f591-103">_**トピックの最終更新日:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="9f591-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="c6184-104">_**トピックの最終更新日:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="c6184-104">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="9f591-104">エンタープライズ管理者は、このセクションで説明する方法を使用して、Office 2013 Windows インストーラーベース (.msi) のインストールをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="9f591-104">Enterprise administrators can customize the Office 2013 Windows Installer-based (.msi) installation by using the methods discussed in this section.</span></span> <span data-ttu-id="9f591-105">すべてのカスタマイズオプションを提供する単一のツールはないため、Lync 2013 の展開でこれらの方法を組み合わせて使用する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="9f591-105">Because no single tool provides all customization options, you’ll likely use a combination of these methods in your Lync 2013 deployment.</span></span> <span data-ttu-id="9f591-106">少なくとも、次のセクションで説明するツールを使用できます。</span><span class="sxs-lookup"><span data-stu-id="9f591-106">At a minimum, you might use the tools described in the following sections:</span></span>
+<span data-ttu-id="c6184-105">エンタープライズ管理者は、このセクションで説明する方法を使用して、Office 2013 Windows インストーラーベース (.msi) のインストールをカスタマイズできます。</span><span class="sxs-lookup"><span data-stu-id="c6184-105">Enterprise administrators can customize the Office 2013 Windows Installer-based (.msi) installation by using the methods discussed in this section.</span></span> <span data-ttu-id="c6184-106">すべてのカスタマイズオプションを提供する単一のツールはないため、Lync 2013 の展開でこれらの方法を組み合わせて使用する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="c6184-106">Because no single tool provides all customization options, you’ll likely use a combination of these methods in your Lync 2013 deployment.</span></span> <span data-ttu-id="c6184-107">少なくとも、次のセクションで説明するツールを使用できます。</span><span class="sxs-lookup"><span data-stu-id="c6184-107">At a minimum, you might use the tools described in the following sections:</span></span>
 
-  - <span data-ttu-id="9f591-107">Lync [Server 2013 で Office カスタマイズツール (OCT) を使用して、](lync-server-2013-using-the-office-customization-tool-oct.md) lync およびその他の Office プログラムのセットアップオプションと機能をカスタマイズします。</span><span class="sxs-lookup"><span data-stu-id="9f591-107">[Using the Office Customization Tool (OCT) in Lync Server 2013](lync-server-2013-using-the-office-customization-tool-oct.md) to customize setup options and features for Lync and other Office programs.</span></span>
+  - <span data-ttu-id="c6184-108">Lync [Server 2013 で Office カスタマイズツール (OCT) を使用して、](lync-server-2013-using-the-office-customization-tool-oct.md) lync およびその他の Office プログラムのセットアップオプションと機能をカスタマイズします。</span><span class="sxs-lookup"><span data-stu-id="c6184-108">[Using the Office Customization Tool (OCT) in Lync Server 2013](lync-server-2013-using-the-office-customization-tool-oct.md) to customize setup options and features for Lync and other Office programs.</span></span>
 
-  - <span data-ttu-id="9f591-108">[Config.xml を使用して Lync Server 2013 のインストールタスクを実行](lync-server-2013-using-config-xml-to-perform-installation-tasks.md) し、ネットワークインストールポイントのパスを指定し、サイレントインストールを実行します。</span><span class="sxs-lookup"><span data-stu-id="9f591-108">[Using Config.xml to perform installation tasks in Lync Server 2013](lync-server-2013-using-config-xml-to-perform-installation-tasks.md) to specify the path of the network installation point and perform silent installation.</span></span>
+  - <span data-ttu-id="c6184-109">[Config.xml を使用して Lync Server 2013 のインストールタスクを実行](lync-server-2013-using-config-xml-to-perform-installation-tasks.md) し、ネットワークインストールポイントのパスを指定し、サイレントインストールを実行します。</span><span class="sxs-lookup"><span data-stu-id="c6184-109">[Using Config.xml to perform installation tasks in Lync Server 2013](lync-server-2013-using-config-xml-to-perform-installation-tasks.md) to specify the path of the network installation point and perform silent installation.</span></span>
 
-  - <span data-ttu-id="9f591-109">[Lync Server 2013 のセットアップコマンドラインオプションを使用して](lync-server-2013-using-setup-command-line-options.md) 、インストール時に使用する Config.xml ファイルを指定します。</span><span class="sxs-lookup"><span data-stu-id="9f591-109">[Using Setup command-line options in Lync Server 2013](lync-server-2013-using-setup-command-line-options.md) to specify the Config.xml file to use during installation.</span></span>
+  - <span data-ttu-id="c6184-110">[Lync Server 2013 のセットアップコマンドラインオプションを使用して](lync-server-2013-using-setup-command-line-options.md) 、インストール時に使用する Config.xml ファイルを指定します。</span><span class="sxs-lookup"><span data-stu-id="c6184-110">[Using Setup command-line options in Lync Server 2013](lync-server-2013-using-setup-command-line-options.md) to specify the Config.xml file to use during installation.</span></span>
 
-  - <span data-ttu-id="9f591-110">グループポリシーオブジェクトエディター MMC スナップインを使用して[Lync Server 2013 でクライアントブートストラップポリシーを構成](lync-server-2013-configuring-client-bootstrapping-policies.md)します。</span><span class="sxs-lookup"><span data-stu-id="9f591-110">[Configuring client bootstrapping policies in Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) by using the Group Policy Object Editor MMC snap-in.</span></span>
+  - <span data-ttu-id="c6184-111">グループポリシーオブジェクトエディター MMC スナップインを使用して[Lync Server 2013 でクライアントブートストラップポリシーを構成](lync-server-2013-configuring-client-bootstrapping-policies.md)します。</span><span class="sxs-lookup"><span data-stu-id="c6184-111">[Configuring client bootstrapping policies in Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) by using the Group Policy Object Editor MMC snap-in.</span></span>
 
-<span data-ttu-id="9f591-p102">製品の Office スイートを展開するときに構成するオプションが他にある場合もあります。このセクションのトピックでは、これらのカスタマイズ ツールの概要を示し、Lync 固有の考慮事項について説明します。各ツールの詳細な Office ヘルプへのリンクもあります。</span><span class="sxs-lookup"><span data-stu-id="9f591-p102">There will probably be other options you’ll want to configure as you deploy the Office suite of products. The topics in this section give an overview of these customization tools and discuss Lync-specific considerations. Included are links to detailed Office help for each tool.</span></span>
+<span data-ttu-id="c6184-p102">製品の Office スイートを展開するときに構成するオプションが他にある場合もあります。このセクションのトピックでは、これらのカスタマイズ ツールの概要を示し、Lync 固有の考慮事項について説明します。各ツールの詳細な Office ヘルプへのリンクもあります。</span><span class="sxs-lookup"><span data-stu-id="c6184-p102">There will probably be other options you’ll want to configure as you deploy the Office suite of products. The topics in this section give an overview of these customization tools and discuss Lync-specific considerations. Included are links to detailed Office help for each tool.</span></span>
 
 </div>
 

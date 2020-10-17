@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 新しい通話機能'
+description: 'Lync Server 2013: 新しい通話機能。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48c11645cfe624d2dd877023784d105d636d6b04
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 174be5821098b63e837918b844fcf6c2b7b53fac
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505374"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561283"
 ---
-# <a name="new-call-features-in-lync-server-2013"></a><span data-ttu-id="c8161-102">Lync Server 2013 の新しい通話機能</span><span class="sxs-lookup"><span data-stu-id="c8161-102">New call features in Lync Server 2013</span></span>
+# <a name="new-call-features-in-lync-server-2013"></a><span data-ttu-id="6c3a4-103">Lync Server 2013 の新しい通話機能</span><span class="sxs-lookup"><span data-stu-id="6c3a4-103">New call features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,18 +38,18 @@ ms.locfileid: "48505374"
 
 <span> </span>
 
-<span data-ttu-id="c8161-103">_**トピックの最終更新日:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="c8161-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="6c3a4-104">_**トピックの最終更新日:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="6c3a4-104">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="c8161-104">Lync Server 2013 は、着信の転送と同時呼び出しについて、非常に広範な構成オプションを提供します。</span><span class="sxs-lookup"><span data-stu-id="c8161-104">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding and simultaneous ringing.</span></span> <span data-ttu-id="c8161-105">たとえば、組織が着信を公衆交換電話網 (PSTN) に外部転送したくない場合、管理者は特殊な音声ポリシーを適用して、この制限を展開することができます。</span><span class="sxs-lookup"><span data-stu-id="c8161-105">For example, if an organization does not want incoming calls to be forwarded externally to the public switched telephone network (PSTN), an administrator can apply a special voice policy to deploy this restriction.</span></span>
+<span data-ttu-id="6c3a4-105">Lync Server 2013 は、着信の転送と同時呼び出しについて、非常に広範な構成オプションを提供します。</span><span class="sxs-lookup"><span data-stu-id="6c3a4-105">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding and simultaneous ringing.</span></span> <span data-ttu-id="6c3a4-106">たとえば、組織が着信を公衆交換電話網 (PSTN) に外部転送したくない場合、管理者は特殊な音声ポリシーを適用して、この制限を展開することができます。</span><span class="sxs-lookup"><span data-stu-id="6c3a4-106">For example, if an organization does not want incoming calls to be forwarded externally to the public switched telephone network (PSTN), an administrator can apply a special voice policy to deploy this restriction.</span></span>
 
-<span data-ttu-id="c8161-p102">また、マネージャーへの着信に対して、代理人が自分のモバイル デバイスへの同時呼び出しを設定できるようになりました。代理人はさらなる柔軟性が得られ、マネージャーの代わりに通話に応答できるようになるため、常に机の電話の近くにいる必要がなくなります。</span><span class="sxs-lookup"><span data-stu-id="c8161-p102">Additionally, delegates can now set up simultaneous ringing to their mobile devices for incoming calls to their managers. This provides delegates with more flexibility, enabling them to answer calls on behalf of their manager without being tied to a desk phone.</span></span>
+<span data-ttu-id="6c3a4-p102">また、マネージャーへの着信に対して、代理人が自分のモバイル デバイスへの同時呼び出しを設定できるようになりました。代理人はさらなる柔軟性が得られ、マネージャーの代わりに通話に応答できるようになるため、常に机の電話の近くにいる必要がなくなります。</span><span class="sxs-lookup"><span data-stu-id="6c3a4-p102">Additionally, delegates can now set up simultaneous ringing to their mobile devices for incoming calls to their managers. This provides delegates with more flexibility, enabling them to answer calls on behalf of their manager without being tied to a desk phone.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c8161-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="c8161-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6c3a4-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="6c3a4-109">See Also</span></span>
 
 
-[<span data-ttu-id="c8161-109">Lync Server 2013 の新しいエンタープライズ Voip 機能</span><span class="sxs-lookup"><span data-stu-id="c8161-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="6c3a4-110">Lync Server 2013 の新しいエンタープライズ Voip 機能</span><span class="sxs-lookup"><span data-stu-id="6c3a4-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

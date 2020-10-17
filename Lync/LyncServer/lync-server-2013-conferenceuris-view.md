@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ConferenceUris ビュー'
+description: 'Lync Server 2013: ConferenceUris ビュー。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733750
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5c2ff93d4c3230991f4b9d0d4d746754a42ac44
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cba643a1992462d501800b4b2fc36b93a2740e72
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507844"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561193"
 ---
-# <a name="conferenceuris-view-in-lync-server-2013"></a><span data-ttu-id="68781-102">Lync Server 2013 の ConferenceUris ビュー</span><span class="sxs-lookup"><span data-stu-id="68781-102">ConferenceUris view in Lync Server 2013</span></span>
+# <a name="conferenceuris-view-in-lync-server-2013"></a><span data-ttu-id="003bf-103">Lync Server 2013 の ConferenceUris ビュー</span><span class="sxs-lookup"><span data-stu-id="003bf-103">ConferenceUris view in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48507844"
 
 <span> </span>
 
-<span data-ttu-id="68781-103">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="68781-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="003bf-104">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="003bf-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="68781-104">ConfernceUris ビューは、会議セッションに参加した URI に関する情報を格納します。</span><span class="sxs-lookup"><span data-stu-id="68781-104">The ConfernceUris view stores information about the URIs that have participated in conference sessions.</span></span> <span data-ttu-id="68781-105">このビューは Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="68781-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="003bf-105">ConfernceUris ビューは、会議セッションに参加した URI に関する情報を格納します。</span><span class="sxs-lookup"><span data-stu-id="003bf-105">The ConfernceUris view stores information about the URIs that have participated in conference sessions.</span></span> <span data-ttu-id="003bf-106">このビューは Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="003bf-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -50,26 +51,26 @@ ms.locfileid: "48507844"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="68781-106">Column</span><span class="sxs-lookup"><span data-stu-id="68781-106">Column</span></span></th>
-<th><span data-ttu-id="68781-107">データ型</span><span class="sxs-lookup"><span data-stu-id="68781-107">Data Type</span></span></th>
-<th><span data-ttu-id="68781-108">詳細</span><span class="sxs-lookup"><span data-stu-id="68781-108">Details</span></span></th>
+<th><span data-ttu-id="003bf-107">Column</span><span class="sxs-lookup"><span data-stu-id="003bf-107">Column</span></span></th>
+<th><span data-ttu-id="003bf-108">データ型</span><span class="sxs-lookup"><span data-stu-id="003bf-108">Data Type</span></span></th>
+<th><span data-ttu-id="003bf-109">詳細</span><span class="sxs-lookup"><span data-stu-id="003bf-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="68781-109">ConferenceUriId</span><span class="sxs-lookup"><span data-stu-id="68781-109">ConferenceUriId</span></span></p></td>
-<td><p><span data-ttu-id="68781-110">int</span><span class="sxs-lookup"><span data-stu-id="68781-110">int</span></span></p></td>
-<td><p><span data-ttu-id="68781-111">会議 URI を識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="68781-111">Unique number identifying the conference URI.</span></span></p></td>
+<td><p><span data-ttu-id="003bf-110">ConferenceUriId</span><span class="sxs-lookup"><span data-stu-id="003bf-110">ConferenceUriId</span></span></p></td>
+<td><p><span data-ttu-id="003bf-111">int</span><span class="sxs-lookup"><span data-stu-id="003bf-111">int</span></span></p></td>
+<td><p><span data-ttu-id="003bf-112">会議 URI を識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="003bf-112">Unique number identifying the conference URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="68781-112">ConferenceUri</span><span class="sxs-lookup"><span data-stu-id="68781-112">ConferenceUri</span></span></p></td>
-<td><p><span data-ttu-id="68781-113">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="68781-113">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="68781-114">電話会議の URI。</span><span class="sxs-lookup"><span data-stu-id="68781-114">URI of the conference.</span></span></p></td>
+<td><p><span data-ttu-id="003bf-113">ConferenceUri</span><span class="sxs-lookup"><span data-stu-id="003bf-113">ConferenceUri</span></span></p></td>
+<td><p><span data-ttu-id="003bf-114">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="003bf-114">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="003bf-115">電話会議の URI。</span><span class="sxs-lookup"><span data-stu-id="003bf-115">URI of the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="68781-115">ConferenceUriType</span><span class="sxs-lookup"><span data-stu-id="68781-115">ConferenceUriType</span></span></p></td>
-<td><p><span data-ttu-id="68781-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="68781-116">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="68781-117">電話会議の URI の種類。</span><span class="sxs-lookup"><span data-stu-id="68781-117">Type of conference URI.</span></span> <span data-ttu-id="68781-118">詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="68781-118">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="003bf-116">ConferenceUriType</span><span class="sxs-lookup"><span data-stu-id="003bf-116">ConferenceUriType</span></span></p></td>
+<td><p><span data-ttu-id="003bf-117">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="003bf-117">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="003bf-118">電話会議の URI の種類。</span><span class="sxs-lookup"><span data-stu-id="003bf-118">Type of conference URI.</span></span> <span data-ttu-id="003bf-119">詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a> 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="003bf-119">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>
