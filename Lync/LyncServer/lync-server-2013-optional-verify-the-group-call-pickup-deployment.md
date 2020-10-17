@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (オプション) グループ通話ピックアップの展開を確認する'
+description: 'Lync Server 2013: (オプション) グループ通話ピックアップの展開を確認します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 307a5423da17c6882c580daf786554a81461b3c9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 94a0f920be72fc6effb55019adceaf710654e2d2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530734"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565703"
 ---
-# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="a793e-102">オプションLync Server 2013 でのグループ通話ピックアップの展開の確認</span><span class="sxs-lookup"><span data-stu-id="a793e-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
+# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="8617f-103">オプションLync Server 2013 でのグループ通話ピックアップの展開の確認</span><span class="sxs-lookup"><span data-stu-id="8617f-103">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48530734"
 
 <span> </span>
 
-<span data-ttu-id="a793e-103">_**トピックの最終更新日:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="a793e-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="8617f-104">_**トピックの最終更新日:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="8617f-104">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="a793e-104">ユーザーのグループ通話ピックアップを有効にした後、構成が想定どおりに動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="a793e-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="a793e-105">少なくとも、以下のことを確認してください。</span><span class="sxs-lookup"><span data-stu-id="a793e-105">At a minimum, verify the following:</span></span>
+<span data-ttu-id="8617f-105">ユーザーのグループ通話ピックアップを有効にした後、構成が想定どおりに動作することを確認します。</span><span class="sxs-lookup"><span data-stu-id="8617f-105">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="8617f-106">少なくとも、以下のことを確認してください。</span><span class="sxs-lookup"><span data-stu-id="8617f-106">At a minimum, verify the following:</span></span>
 
-  - <span data-ttu-id="a793e-106">グループ通話ピックアップが有効になっているユーザーを呼び出し、別のユーザーが通話を取得するようにします。</span><span class="sxs-lookup"><span data-stu-id="a793e-106">Call a user who is enabled for Group Call Pickup and have another user retrieve the call.</span></span> <span data-ttu-id="a793e-107">他のユーザーは、同じグループ内、別のグループ内、またはグループ通話ピックアップが有効になっていない場合があります。</span><span class="sxs-lookup"><span data-stu-id="a793e-107">The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
+  - <span data-ttu-id="8617f-107">グループ通話ピックアップが有効になっているユーザーを呼び出し、別のユーザーが通話を取得するようにします。</span><span class="sxs-lookup"><span data-stu-id="8617f-107">Call a user who is enabled for Group Call Pickup and have another user retrieve the call.</span></span> <span data-ttu-id="8617f-108">他のユーザーは、同じグループ内、別のグループ内、またはグループ通話ピックアップが有効になっていない場合があります。</span><span class="sxs-lookup"><span data-stu-id="8617f-108">The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
 
-  - <span data-ttu-id="a793e-108">グループ通話ピックアップが有効になっていて、通話に応答しないユーザーを呼び出します。</span><span class="sxs-lookup"><span data-stu-id="a793e-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
+  - <span data-ttu-id="8617f-109">グループ通話ピックアップが有効になっていて、通話に応答しないユーザーを呼び出します。</span><span class="sxs-lookup"><span data-stu-id="8617f-109">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
 
 </div>
 
