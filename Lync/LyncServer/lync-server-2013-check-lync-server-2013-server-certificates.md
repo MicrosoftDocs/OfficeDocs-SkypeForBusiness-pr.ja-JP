@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server 2013 サーバー証明書の確認'
+description: 'Lync Server 2013: Lync Server 2013 サーバー証明書を確認します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f5e8465ce7f0343bea96ee6f0613b8725d0e540
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 641651cb425b4fe8bd820bcebfa277084233bb1d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502704"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543593"
 ---
 # <a name="check-lync-server-2013-server-certificates"></a>Lync Server 2013 のサーバー証明書を確認する
 
