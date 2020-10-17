@@ -12,20 +12,22 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98878c2e0d0e50c385448dceec5df5643e92aa53
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a3d90d3de8624f9965b04990ad996d9c04a954f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194680"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519314"
 ---
+# <a name="test-anonymous-web-app-access-in-lync-server-2013"></a>Lync Server 2013 で匿名 Web アプリのアクセスをテストする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-anonymous-web-app-access-in-lync-server-2013"></a>Lync Server 2013 で匿名 Web アプリのアクセスをテストする
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-07_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Test-cswebappanonymous コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsWebAppAnonymous コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebAppAnonymous&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**トピックの最終更新日:** 2014-06-07_
 
 ## <a name="description"></a>説明
 
-Test-cswebappanonymous コマンドレットでは、匿名ユーザーが Lync Web App を使用して Lync Server 会議に参加できることを確認します。 コマンドレットを実行すると、Test-cswebappanonymous は Web チケットサービスに接続して、匿名ユーザーの web チケットを取得します。 コマンドレットがこのチケットの取得に成功すると、Test-cswebappanonymous は Lync Server に接続して、インスタントメッセージング、アプリケーション共有、およびデータコラボレーションのための個別の会議を確立しようとします。
+Test-CsWebAppAnonymous コマンドレットは、匿名ユーザーが Lync Web App を使用して Lync Server 会議に参加できるかどうかを検証します。 コマンドレットを実行すると、Test-CsWebAppAnonymous は Web チケットサービスに接続して、匿名ユーザーの web チケットを取得します。 コマンドレットがこのチケットを取得しようとすると、Test-CsWebAppAnonymous は Lync Server に接続して、インスタントメッセージング、アプリケーション共有、およびデータコラボレーションのための個別の会議を確立しようとします。
 
-Test-cswebappanonymous は、これらの会議を作成するために使用された Api と接続のみを検証することに注意してください。 コマンドレットは、実際には会議を作成して実施しません。
+Test-CsWebAppAnonymous は、これらの会議を作成するために使用された Api と接続のみを検証することに注意してください。 コマンドレットは、実際には会議を作成して実施しません。
 
 </div>
 
@@ -76,7 +78,7 @@ Test-cswebappanonymous は、これらの会議を作成するために使用さ
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-cswebappanonymous コマンドレットは、構成済みのテストアカウントのペア、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名を指定するだけで済みます。 次に例を示します。
+Test-CsWebAppAnonymous コマンドレットは、構成済みのテストアカウントのペア、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名を指定するだけで済みます。 以下に例を示します。
 
     Test-CsWebAppAnonymous -TargetFqdn atl-cs-001.litwareinc.com
 
@@ -86,7 +88,7 @@ Test-cswebappanonymous コマンドレットは、構成済みのテストアカ
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1
 
-詳細については、Test-cswebappanonymous コマンドレットのヘルプトピックを参照してください。 Test-cswebappanonymous は、Lync Server 2013 で使用する場合は推奨されていないことに注意してください。
+詳細については、Test-CsWebAppAnonymous コマンドレットのヘルプトピックを参照してください。 Test-CsWebAppAnonymous は、Lync Server 2013 で使用する場合は推奨されていないことに注意してください。
 
 </div>
 
@@ -94,7 +96,7 @@ Test-cswebappanonymous コマンドレットは、構成済みのテストアカ
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Test-cswebappanonymous が匿名ユーザーを自分の会議に参加できる場合、コマンドレットはテスト結果の成功を返します。
+Test-CsWebAppAnonymous が匿名ユーザーを会議に参加させることができる場合、コマンドレットはテスト結果の成功を返します。
 
 ターゲット Fqdn:
 
@@ -106,7 +108,7 @@ Test-cswebappanonymous が匿名ユーザーを自分の会議に参加できる
 
 分析
 
-匿名ユーザーが必要な電話会議に参加できない場合は、テスト結果が [失敗] としてマークされます。 通常、Test-cswebappanonymous は、詳細なエラーメッセージと診断にも報告します。
+匿名ユーザーが必要な電話会議に参加できない場合は、テスト結果が [失敗] としてマークされます。 通常 Test-CsWebAppAnonymous は、詳細なエラーメッセージと診断にも報告します。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -114,7 +116,7 @@ Test-cswebappanonymous が匿名ユーザーを自分の会議に参加できる
 
 待機時間:00:00: 05.9746266
 
-エラーメッセージ: Web チケットサービスの応答が受信されていません
+エラーメッセージ: Web-Ticket サービスの応答が受信されませんでした
 
 診断: HTTP 要求はクライアントによって承認されていません
 
@@ -128,7 +130,7 @@ Test-cswebappanonymous が匿名ユーザーを自分の会議に参加できる
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-Test-cswebappanonymous の失敗は通常、ユーザー認証エラーを中心にしています。コマンドレットが Lync Server に接続する匿名ユーザーの機能をチェックしている場合でも、有効なユーザーアカウントを使用してテストを実行する必要があります。 Test-cswebappanonymous が失敗した場合は、指定されたユーザーの Lync Server ユーザーアカウントが有効であることを確認する必要があります。 Lync Server アカウント情報を取得するには、次のようなコマンドを使用します。
+通常、Test-CsWebAppAnonymous エラーは、ユーザー認証エラーを中心にしています。コマンドレットが Lync Server に接続する匿名ユーザーの機能をチェックしている場合でも、有効なユーザーアカウントを使用してテストを実行する必要があります。 Test-CsWebAppAnonymous が失敗した場合は、指定されたユーザーの Lync Server ユーザーアカウントが有効であることを確認する必要があります。 Lync Server アカウント情報を取得するには、次のようなコマンドを使用します。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
@@ -136,11 +138,11 @@ Enabled プロパティが True と一致しない場合、またはコマンド
 
 また、コマンドレットを実行するときに指定したパスワードが有効なパスワードであることも確認する必要があります。
 
-Office Web Apps サーバーの構成の問題によっても、Test-cswebappanonymous が失敗することがあります。これは、次のような診断を受け取った場合によく当てはまります。
+Office Web Apps サーバーの構成に関する問題も Test-CsWebAppAnonymous が失敗する可能性があります。これは、次のような診断を受け取った場合によく当てはまります。
 
 HTTP 要求は、クライアント認証スキーム ' Ntlm ' では許可されていません。 サーバーから受信した認証ヘッダーは ' Negotiate, NTLM ' でした。
 
-Office Web Apps サーバーの問題の診断と解決の詳細については、「ブログ投稿の Office Web Apps サーバー2013」を参照してください。[コンピューターは常に異常として報告され](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy)ます。
+Office Web Apps サーバーの問題の診断と解決の詳細については、「ブログ投稿の Office Web Apps サーバー2013」を参照してください。 [コンピューターは常に異常として報告され](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy)ます。
 
 </div>
 

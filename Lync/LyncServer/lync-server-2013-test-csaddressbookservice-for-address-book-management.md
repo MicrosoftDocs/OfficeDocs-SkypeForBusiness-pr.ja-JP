@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アドレス帳管理用のテスト-CsAddressBookService'
+title: 'Lync Server 2013: アドレス帳管理の Test-CsAddressBookService'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185206
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83499d42dee053b7ee26d9ea5302c7b4eaab550c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 04ca485e8a17a5017537b9d568ec948de170a323
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194660"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519264"
 ---
+# <a name="test-csaddressbookservice-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理の Test-CsAddressBookService
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-csaddressbookservice-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理用のテスト-CsAddressBookService
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-Lync Server 2013 には、固有の機能が正しく動作していることを確認するために、合成コマンドを開始する多数のコマンドレットが含まれています。 Test-CsAddressBookService は、定義済みのユーザーがアドレス帳 Web サービスからローカルファイルに接続して要求できることを確認します。
+Lync Server 2013 には、固有の機能が正しく動作していることを確認するために、合成コマンドを開始する多数のコマンドレットが含まれています。 Test-CsAddressBookService は、定義されたユーザーがアドレス帳 Web サービスから接続して、ローカルファイルを要求できることを確認します。
 
 次にその例を示します。
 

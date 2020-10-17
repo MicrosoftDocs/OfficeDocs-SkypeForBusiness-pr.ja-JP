@@ -12,20 +12,22 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1e7acf5fa315e566094728066bbc798267f029ed
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780176"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519454"
 ---
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Lync Server 2013 ハイブリッド環境を準備および展開するための手順
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Lync Server 2013 ハイブリッド環境を準備および展開するための手順
+
 
 </div>
 
@@ -58,20 +60,20 @@ _**トピックの最終更新日:** 2016-12-08_
 <td></td>
 <td><p>Office 365 のテナントアカウントを作成して Lync Online を有効にする</p></td>
 <td><p>Office 365 および Lync Online ( <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">office 365</a>) について説明します。</p>
-<p>環境で Office 365 の準備が整っていることを確認するには、<a href="https://go.microsoft.com/fwlink/p/?linkid=401408">システム要件</a>を参照してください。</p>
-<p>Office 365 のセットアップの詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">365 office を使い始める</a>」および「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254979">office 365</a>をセットアップする」を参照してください。</p></td>
+<p>環境で Office 365 の準備が整っていることを確認するには、 <a href="https://go.microsoft.com/fwlink/p/?linkid=401408">システム要件</a>を参照してください。</p>
+<p>Office 365 のセットアップの詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">365 office を使い始める</a> 」および「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254979">office 365</a>をセットアップする」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><p>ドメインを追加して所有権を確認する</p></td>
-<td><p>ドメインは、<em>バニティドメイン</em>と呼ばれることもあります。 Office 365 組織にドメインを追加してから、Office 365 でドメインを検証する手順を実行する必要があります。 これは、ドメインの所有者であることを確認するためのものです。</p>
+<td><p>ドメインは、 <em>バニティドメイン</em>と呼ばれることもあります。 Office 365 組織にドメインを追加してから、Office 365 でドメインを検証する手順を実行する必要があります。 これは、ドメインの所有者であることを確認するためのものです。</p>
 <p>Office 365 組織にドメインを追加するには、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">add your domain To office 365</a>」に記載されている手順に従います。</p>
-<p>「Office 365 サービスの DNS レコードの編集」を含む&quot;、トピックの各セクションのすべての手順を完了します。&quot;</p></td>
+<p>「 &quot; Office 365 サービスの DNS レコードの編集」を含む、トピックの各セクションのすべての手順を完了します。&quot;</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><p>環境の準備状況を確認する</p></td>
-<td><p>Office 365 セットアップアシスタントを使用して、Office 365 を展開することができます。 詳細については、「<a href="https://go.microsoft.com/fwlink/p/?linkid=254985">セットアップアシスタントを使用して Office 365 の準備状況を判断する</a>」を参照してください。</p>
+<td><p>Office 365 セットアップアシスタントを使用して、Office 365 を展開することができます。 詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254985">セットアップアシスタントを使用して Office 365 の準備状況を判断する</a>」を参照してください。</p>
 <p>ツールの使用と Office 365 の展開の詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=257337">office 365 展開ガイド</a>」を参照してください。</p></td>
 </tr>
 <tr class="even">
@@ -85,12 +87,12 @@ _**トピックの最終更新日:** 2016-12-08_
 
 
 </div>
-<p>Active Directory 同期のために環境を準備するには、「シングルサインオンの設定」を含む「<a href="https://go.microsoft.com/fwlink/p/?linkid=254988">ディレクトリ同期のロードマップ</a>」で説明されている手順に従います。</p></td>
+<p>Active Directory 同期のために環境を準備するには、「シングルサインオンの設定」を含む「 <a href="https://go.microsoft.com/fwlink/p/?linkid=254988">ディレクトリ同期のロードマップ</a>」で説明されている手順に従います。</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><p>Active Directory フェデレーションサービス (AD FS) の証明書を作成する</p></td>
-<td><p>Office 365 との id フェデレーションで使用される証明書を作成する必要があります。 詳細については、「<a href="https://go.microsoft.com/fwlink/p/?linkid=285376">チェックリスト: AD fs を使用してシングルサインオンを実装および管理する</a>」の「ad Fs を計画して展開する」の「フェデレーションサーバー証明書」セクションを参照してください。</p></td>
+<td><p>Office 365 との id フェデレーションで使用される証明書を作成する必要があります。 詳細については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=285376">チェックリスト: AD fs を使用してシングルサインオンを実装および管理する</a>」の「ad Fs を計画して展開する」の「フェデレーションサーバー証明書」セクションを参照してください。</p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -106,7 +108,7 @@ _**トピックの最終更新日:** 2016-12-08_
 <tr class="even">
 <td></td>
 <td><p>ハイブリッド展開でユーザーを管理する</p></td>
-<td><p>ハイブリッド展開でユーザーを管理する方法の詳細については、「<a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">ハイブリッド Lync Server 2013 展開でユーザー</a>を管理する」を参照してください。</p></td>
+<td><p>ハイブリッド展開でユーザーを管理する方法の詳細については、「 <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">ハイブリッド Lync Server 2013 展開でユーザー</a>を管理する」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>

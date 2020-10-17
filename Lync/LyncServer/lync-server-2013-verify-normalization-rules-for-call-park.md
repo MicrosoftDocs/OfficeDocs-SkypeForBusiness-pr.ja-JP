@@ -12,20 +12,22 @@ ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fcde0adac292b8773a81c759c72765f832ce745
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 627832870de3a8306912d07134bb92caeee3076e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211783"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518624"
 ---
+# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Lync Server 2013 でのコールパークの正規化ルールの確認
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Lync Server 2013 でのコールパークの正規化ルールの確認
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42211783"
 
 _**トピックの最終更新日:** 2012-09-11_
 
-コールパークオービットを正規化することはできません。 オービット番号が正規化されていないことを確認するには、ダイヤルプランを確認してください。 オービットが正規化されないようにするために追加の正規化ルールを作成する必要がある場合は、「 [create a dial plan In Lync Server 2013](lync-server-2013-create-a-dial-plan.md) 」の手順に従って新しい正規化ルールを定義します。これにより、**一致するパターン**でオービット範囲と**変換パターン**が **$1**になります。 たとえば、コールパークオービット範囲が7000–7999の場合、**照合するパターン**は **^ (\\7 d{3}) $** 、**変換パターン**は **$1**になります。
+コールパークオービットを正規化することはできません。 オービット番号が正規化されていないことを確認するには、ダイヤルプランを確認してください。 オービットが正規化されないようにするために追加の正規化ルールを作成する必要がある場合は、「 [create a dial plan In Lync Server 2013](lync-server-2013-create-a-dial-plan.md) 」の手順に従って新しい正規化ルールを定義します。これにより、 **一致するパターン** でオービット範囲と **変換パターン** が **$1**になります。 たとえば、コールパークオービット範囲が7000–7999の場合、 **照合するパターン** は **^ (7 \\ d {3} ) $** 、 **変換パターン** は **$1**になります。
 
 <div>
 
 
 > [!IMPORTANT]  
-> ダイヤルプランの既定の正規化ルールに<STRONG>^ (\d *)</STRONG>が含まれていないことを確認してください。 それ以外の場合、コールパーク正規化ルールは実行されません。
+> ダイヤルプランの既定の正規化ルールに <STRONG>^ (\d *)</STRONG>が含まれていないことを確認してください。 それ以外の場合、コールパーク正規化ルールは実行されません。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40e049b2a8a88514b9236ee0172474a5252bfdb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d10e70615083796baa0934c6291b377dcd18005
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208313"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519514"
 ---
+# <a name="starting-lync-from-another-application"></a>別のアプリケーションからの Lync の起動
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="starting-lync-from-another-application"></a>別のアプリケーションからの Lync の起動
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync 2013 が開始時に自動的にサインインするように構成され�
 
 次の表に、使用可能なパラメーターを示します。
 
-### <a name="lync-2013-command-line-parameters"></a>Lync 2013 コマンドラインパラメーター
+### <a name="lync-2013-command-line-parameters"></a>Lync 2013 Command-Line のパラメーター
 
 <table>
 <colgroup>
@@ -57,7 +59,7 @@ Lync 2013 が開始時に自動的にサインインするように構成され�
 <tr class="header">
 <th>拡張子</th>
 <th>データ形式</th>
-<th>Action</th>
+<th>アクション</th>
 </tr>
 </thead>
 <tbody>
@@ -89,7 +91,7 @@ Lync 2013 が開始時に自動的にサインインするように構成され�
 <tr class="even">
 <td><p>メッセージング</p></td>
 <td><p>SIP URI</p></td>
-<td><p>SIP URI でインスタント メッセージング (IM) のみの [会話] ウィンドウを表示します。 山かっこ (&lt;&gt;) 内で指定した複数の SIP uri を区切り記号なしで受け入れます。</p>
+<td><p>SIP URI でインスタント メッセージング (IM) のみの [会話] ウィンドウを表示します。 山かっこ () 内で指定した複数の SIP Uri &lt; &gt; を区切り記号なしで受け入れます。</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>
@@ -107,7 +109,7 @@ Lync 2013 が開始時に自動的にサインインするように構成され�
 </colgroup>
 <thead>
 <tr class="header">
-<th>インスタンス</th>
+<th>Instance</th>
 <th>結果</th>
 </tr>
 </thead>

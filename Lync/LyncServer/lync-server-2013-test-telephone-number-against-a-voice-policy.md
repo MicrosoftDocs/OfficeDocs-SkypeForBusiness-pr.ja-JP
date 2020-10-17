@@ -12,20 +12,22 @@ ms:contentKeyID: 63969596
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d22c801c7d08c3df663f69df07a6c73a5f17f858
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2ac10938dbbc2810e5b43aae85711bf8413ad27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194527"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519164"
 ---
+# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Lync Server 2013 で音声ポリシーに対して電話番号をテストする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Lync Server 2013 で音声ポリシーに対して電話番号をテストする
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-05-20_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Set-csvoicepolicy コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsVoicePolicy コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoicePolicy&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -76,7 +78,7 @@ _**トピックの最終更新日:** 2014-05-20_
 
 PSTN 使用法は特に重要です。これは、音声ポリシーを音声ルートに接続するプロパティです。 (音声ポリシーと音声ルートは、少なくとも1つの PSTN 使用法が共通である場合に接続されていると言われています)。音声ポリシーは、PSTN 使用法を指定せずに構成できます。 その場合、そのポリシーに割り当てられたユーザーは、PSTN ネットワーク経由での発信呼び出しを行うことができません。 同様に、少なくとも1つの PSTN 使用法が指定されていない音声ルートでは、通話を PSTN ネットワークにルーティングできません。
 
-Set-csvoicepolicy コマンドレットは、指定された音声ポリシーに PSTN 使用法があり、少なくとも1つの音声ルートで使用が共有されていることを確認します。 Set-csvoicepolicy によって実行された検証が成功した場合、コマンドレットは、検出された最初の有効なボイスルートの名前と、そのポリシーをルートに接続する PSTN 使用法の名前に報告します。
+Test-CsVoicePolicy コマンドレットは、指定された音声ポリシーに PSTN 使用法があり、少なくとも1つの音声ルートで使用が共有されていることを確認します。 Test-CsVoicePolicy によって実行された検証が成功した場合、コマンドレットは、検出された最初の有効なボイスルートの名前と、そのポリシーをルートに接続する PSTN 使用法の名前に報告します。
 
 </div>
 
@@ -84,11 +86,11 @@ Set-csvoicepolicy コマンドレットは、指定された音声ポリシー�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Set-csvoicepolicy コマンドレットを実行するには、最初に Set-csvoicepolicy コマンドレットを使用して、テストする音声ポリシーのインスタンスを取得する必要があります。そのインスタンスを Set-csvoicepolicy にパイプ処理する必要があります。 次に例を示します。
+Test-CsVoicePolicy コマンドレットを実行するには、最初に Get-CsVoicePolicy コマンドレットを使用して、テストする音声ポリシーのインスタンスを取得する必要があります。そのインスタンスを Set-csvoicepolicy にパイプ処理する必要があります。 以下に例を示します。
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-このコマンドは、Set-csvoicepolicy を使用して音声ポリシーインスタンスを取得しないため、失敗します。
+なお、このコマンドは、音声ポリシーインスタンスを取得するために Get-CsVoicePolicy を使用しないので、失敗します。
 
 `Test-CsVoicePolicy -TargetNumber "+12065551219" -VoicePolicy "Global"`
 
@@ -96,9 +98,9 @@ Set-csvoicepolicy コマンドレットを実行するには、最初に Set-csv
 
 `Get-CsVoicePolicy | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 
-TargetNumber は、e.164 形式で指定する必要があることに注意してください。 Set-csvoicepolicy は、電話番号を e.164 形式に正規化または翻訳しようとしません。
+TargetNumber は、e.164 形式で指定する必要があることに注意してください。 Test-CsVoicePolicy は、電話番号を e.164 形式に正規化または翻訳しようとしません。
 
-詳細については、Set-csvoicepolicy コマンドレットのヘルプドキュメントを参照してください。
+詳細については、Test-CsVoicePolicy コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -126,7 +128,7 @@ FirstMatchingRoute MatchingUsage
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-Set-csvoicepolicy が一致するものを返さない場合は、音声ポリシーがボイスルートとの PSTN 使用法を共有していないことを意味します。 これを確認するには、次のようなコマンドレットを使用して、音声ポリシーに割り当てられている PSTN 使用法を確認します。
+Test-CsVoicePolicy が一致するものを返さない場合は、音声ポリシーがボイスルートとの PSTN 使用法を共有していないことを意味します。 これを確認するには、次のようなコマンドレットを使用して、音声ポリシーに割り当てられている PSTN 使用法を確認します。
 
 `Get-CsVoicePolicy -Identity "Global" | Select-Object PstnUsages | Format-List`
 
@@ -134,7 +136,7 @@ Set-csvoicepolicy が一致するものを返さない場合は、音声ポリ�
 
 `Get-CsVoiceRoute | Select-Object Identity, PstnUsages`
 
-一致するものがある場合 (つまり、音声ポリシーで少なくとも1つの PSTN 使用法を共有する1つまたは複数の音声ルートが表示されている場合)、Get-csvoiceroute コマンドレットを実行して、指定した電話番号をボイスルートがダイヤルできることを確認する必要があります。
+一致するものがある場合 (つまり、音声ポリシーで少なくとも1つの PSTN 使用法を共有する1つまたは複数の音声ルートが表示されている場合)、Test-CsVoiceRoute コマンドレットを実行して、指定した電話番号をボイスルートがダイヤルできることを確認する必要があります。
 
 </div>
 

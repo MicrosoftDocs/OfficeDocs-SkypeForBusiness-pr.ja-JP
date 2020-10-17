@@ -12,20 +12,22 @@ ms:contentKeyID: 49733863
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9b6cc13721ff249d9f8bd8bc0c38260c4ca7f55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3d419800842fed080efe4005e7282a25c91f29df
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211623"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518524"
 ---
+# <a name="videostreamdetail-view-in-lync-server-2013"></a>Lync Server 2013 の VideoStreamDetail ビュー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostreamdetail-view-in-lync-server-2013"></a>Lync Server 2013 の VideoStreamDetail ビュー
+
 
 </div>
 
@@ -48,7 +50,7 @@ VideoStreamDetail ビューには、データベース内の各ビデオ スト�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>説明</th>
 </tr>
@@ -117,7 +119,7 @@ VideoStreamDetail ビューには、データベース内の各ビデオ スト�
 <tr class="odd">
 <td><p>CallerUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>発信者のユーザー エージェントの種類。 詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a>」を参照してください。</p></td>
+<td><p>発信者のユーザー エージェントの種類。 詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgentCategory</p></td>
@@ -132,7 +134,7 @@ VideoStreamDetail ビューには、データベース内の各ビデオ スト�
 <tr class="even">
 <td><p>CalleeUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>呼び出し先のユーザー エージェントの種類。 詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a>」を参照してください。</p></td>
+<td><p>呼び出し先のユーザー エージェントの種類。 詳細については、「 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgentCategory</p></td>
@@ -192,17 +194,17 @@ VideoStreamDetail ビューには、データベース内の各ビデオ スト�
 <tr class="even">
 <td><p>CallerVirtualizationFlag</p></td>
 <td><p>tinyint</p></td>
-<td><p>発信者のシステムが仮想環境で実行されているかどうかを示します。 詳細については、「 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 のエンドポイントの表</a>」を参照してください。</p></td>
+<td><p>発信者のシステムが仮想環境で実行されているかどうかを示します。 詳細については、「 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 のエンドポイントの表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeVirtualizationFlag</p></td>
 <td><p>tinyint</p></td>
-<td><p>呼び出し先のシステムが仮想環境で実行されているかどうかを示します。 詳細については、「 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 のエンドポイントの表</a>」を参照してください。</p></td>
+<td><p>呼び出し先のシステムが仮想環境で実行されているかどうかを示します。 詳細については、「 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 のエンドポイントの表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>ConnectivityIce</p></td>
 <td><p>tinyint</p></td>
-<td><p>メディア パスに関する情報 (直接、リレーなど)。 詳細については、「 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a>」を参照してください。</p></td>
+<td><p>メディア パスに関する情報 (直接、リレーなど)。 詳細については、「 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerIceWarningFlags</p></td>
@@ -272,7 +274,7 @@ VideoStreamDetail ビューには、データベース内の各ビデオ スト�
 <tr class="even">
 <td><p>CallerRelayIPAddr</p></td>
 <td><p>var (50)</p></td>
-<td><p>発信者が使用する音声ビデオ エッジ サービスの IPアドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>発信者が使用する音声ビデオ エッジ サービスの IPアドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerRelayPort</p></td>
@@ -282,7 +284,7 @@ VideoStreamDetail ビューには、データベース内の各ビデオ スト�
 <tr class="even">
 <td><p>CalleeRelayIPAddr</p></td>
 <td><p>var (50)</p></td>
-<td><p>呼び出し先が使用する音声ビデオ エッジ サービスの IPアドレス キー。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>呼び出し先が使用する音声ビデオ エッジ サービスの IPアドレス キー。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>

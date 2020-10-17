@@ -12,20 +12,22 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5308d39e4edcfeddf494aa364f6b7ed43b9822dc
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: c96b2ad99ce403df32cc224d854c34160bd6c613
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518094"
 ---
+# <a name="run-backward-compatibility-for-persistent-chat-server"></a>常設チャットサーバーの下位互換性を実行する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-backward-compatibility-for-persistent-chat-server"></a>常設チャットサーバーの下位互換性を実行する
+
 
 </div>
 
@@ -69,7 +71,7 @@ Lync Server 2010 からの移行の詳細については、「グループチャ
 
     New-CsPersistentChatEndpoint -SipAddress <CO name, ex. persistentchat@contoso.com> -PersistentChatPoolFqdn <pool FQDN, like pcpool.contoso.com>
 
-次に、その SIP アドレスを連絡先オブジェクトとして使用するように常設チャットクライアントを構成します。 SIP アドレスは、特定の常設チャットサーバープール用の**new-cspersistentchatendpoint**コマンドレットを使用して作成されます。
+次に、その SIP アドレスを連絡先オブジェクトとして使用するように常設チャットクライアントを構成します。 SIP アドレスは、特定の常設チャットサーバープール用の **new-cspersistentchatendpoint** コマンドレットを使用して作成されます。
 
 Windows PowerShell コマンドラインインターフェイスを使用して常設チャットサーバーエンドポイントを追加するには、次の例を検討してください。 この例では、プールの完全修飾ドメイン名 (FQDN) が "pcpool.contoso.com" である "contoso.com" トポロジで "persistentchat" という名前の連絡先オブジェクトを構成します。
 

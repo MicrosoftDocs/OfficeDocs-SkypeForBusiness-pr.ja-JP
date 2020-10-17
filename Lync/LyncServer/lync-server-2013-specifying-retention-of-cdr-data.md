@@ -12,20 +12,22 @@ ms:contentKeyID: 48185299
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 942ccccb5a7a9224c33e3d5bdeafc10600585128
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3dc5d09e2ebb417f801ddab3f7fb8f444957e9d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208423"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519564"
 ---
+# <a name="specifying-retention-of-cdr-data-in-lync-server-2013"></a>Lync Server 2013 での CDR データの保持期間の指定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="specifying-retention-of-cdr-data-in-lync-server-2013"></a>Lync Server 2013 での CDR データの保持期間の指定
+
 
 </div>
 
@@ -99,7 +101,7 @@ Windows PowerShell と Set-CsCdrConfiguration コマンドレットを使用し�
 
 </div>
 
-詳細については、 [set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

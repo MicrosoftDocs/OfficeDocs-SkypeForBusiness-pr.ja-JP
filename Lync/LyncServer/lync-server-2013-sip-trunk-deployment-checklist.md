@@ -12,20 +12,22 @@ ms:contentKeyID: 48184891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08beaff401b8f261d311ad0d05a07f5221131864
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 09c9916be9b32eb4a1fb0a5981cc6769bafc3420
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200310"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519704"
 ---
+# <a name="sip-trunk-deployment-checklist-for-lync-server-2013"></a>Lync Server 2013 の SIP トランクの展開チェックリスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunk-deployment-checklist-for-lync-server-2013"></a>Lync Server 2013 の SIP トランクの展開チェックリスト
+
 
 </div>
 
@@ -91,7 +93,7 @@ SIP トランク接続の Lync Server 側を実装するには、次の手順を
 
 1.  Lync Server トポロジビルダーを使用して、SIP ドメイントポロジを作成し、構成します。 詳細については、「展開」のドキュメントの「 [Define and configure Topology Builder In Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) 」を参照してください。
 
-2.  Lync Server コントロールパネルを使用して、新しい SIP ドメインの音声ルーティングを構成します。 詳細については、「展開」のドキュメントの「[構成トランク In Lync Server 2013](lync-server-2013-configuring-trunks.md) 」を参照してください。
+2.  Lync Server コントロールパネルを使用して、新しい SIP ドメインの音声ルーティングを構成します。 詳細については、「展開」のドキュメントの「 [構成トランク In Lync Server 2013](lync-server-2013-configuring-trunks.md) 」を参照してください。
 
 3.  **テスト-CsPstnOutboundCall**コマンドレットを使用して、接続をテストします。 詳細については、「lync Server Management Shell」ドキュメントまたは「Lync Server 管理シェルのヘルプ」を参照してください。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06684665819e14540628e5cd45309ef2c920b227
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0e8d6198fc022c03e69e68475d77f513d577ad4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194526"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519204"
 ---
+# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Lync Server 2013 でのスマートフォンへのプッシュ通知のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-push-notifications-to-smart-phones-in-lync-server-2013"></a>Lync Server 2013 でのスマートフォンへのプッシュ通知のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2017-03-15_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsMcxPushNotification コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsMcxPushNotification コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxPushNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2017-03-15_
 
 ## <a name="description"></a>説明
 
-プッシュ通知サービス (Apple Push Notification Service および Microsoft プッシュ通知サービス) では、Lync クライアントの場合でも、新しいインスタントメッセージや新しいボイスメールなどのイベントに関する通知を、iPhones や Windows Phone などのモバイルデバイスに送信できます。これらのデバイスでは、現在バックグラウンドで中断または実行されています。 プッシュ通知サービスは、Microsoft サーバー上で実行されているクラウドベースのサービスです。 プッシュ通知を利用するには、プッシュ通知クリアリングハウスに接続して認証される必要があります。 テスト-CsMcxPushNotification コマンドレットを使用すると、管理者はプッシュ通知要求がエッジサーバーを経由してプッシュ通知クリアリングハウスにルーティングされることを確認できます。
+プッシュ通知サービス (Apple Push Notification Service および Microsoft プッシュ通知サービス) は、新しいインスタントメッセージや新しいボイスメールなどのイベントに関する通知を、そのデバイス上の Lync クライアントが現在停止しているか、またはバックグラウンドで実行している場合でも、モバイルデバイスに送信できます。 プッシュ通知サービスは、Microsoft サーバー上で実行されているクラウドベースのサービスです。 プッシュ通知を利用するには、プッシュ通知クリアリングハウスに接続して認証される必要があります。 Test-CsMcxPushNotification コマンドレットを使用すると、管理者はプッシュ通知要求がエッジサーバーを経由してプッシュ通知クリアリングハウスにルーティングされることを確認できます。
 
 </div>
 
@@ -74,11 +76,11 @@ _**トピックの最終更新日:** 2017-03-15_
 
 ## <a name="running-the-test"></a>テストの実行
 
-プッシュ通知サービスをテストするには、テスト-CsMcxPushNotification コマンドレットを呼び出します。 エッジサーバーの完全修飾ドメイン名を指定していることを確認してください。
+プッシュ通知サービスをテストするには、Test-CsMcxPushNotification コマンドレットを呼び出します。 エッジサーバーの完全修飾ドメイン名を指定していることを確認してください。
 
     Test-CsMcxPushNotification -AccessEdgeFqdn "atl-edge-001.litwareinc.com"
 
-詳細については、 [Test-CsMcxPushNotification](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [Test-CsMcxPushNotification](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 
@@ -86,7 +88,7 @@ _**トピックの最終更新日:** 2017-03-15_
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-テスト-CsMcxPushNotification が成功した場合、コマンドレットはテスト結果成功を返します。
+Test-CsMcxPushNotification に成功した場合、コマンドレットはテスト結果成功を返します。
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -98,17 +100,17 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 分析
 
-テスト-CsMcxPushNotification がプッシュ通知クリアリングハウスに接続できない場合、通常、コマンドレットは失敗のテスト結果を返しません。 その代わりに、コマンドは完全に失敗します。 次に例を示します。
+プッシュ通知クリアリングハウスに接続できない Test-CsMcxPushNotification 場合は、通常、コマンドレットは失敗のテスト結果を返しません。 その代わりに、コマンドは完全に失敗します。 以下に例を示します。
 
-テスト-CsMcxPushNotification: ネットワークから 504 (サーバータイムアウト) 応答が受信され、操作に失敗しました。 詳細については、例外の詳細を参照してください。
+Test-CsMcxPushNotification: 504 (サーバーのタイムアウト) 応答がネットワークから受信され、操作に失敗しました。 詳細については、例外の詳細を参照してください。
 
 行: 1 文字:27
 
-\+テスト-csmcxpushnotification \< \< \< \< -AccessEdgeFqdn lyncedge.mydomain.com
+\+Test-CsMcxPushNotification \< \< \< \< AccessEdgeFqdn lyncedge.mydomain.com
 
-\+カテゴリ情報: OperationStopped: (:)\[テスト-CsMcxPushNotification\]、FailureResponseException
+\+ カテゴリ情報: OperationStopped: (:) \[テスト-CsMcxPushNotification \] 、FailureResponseException
 
-\+FullyQualifiedErrorId: WorkflowNotCompleted、TestMcxPushNotificationCmdlet (TestMcxPushNotificationCmdlet)
+\+ FullyQualifiedErrorId: WorkflowNotCompleted、TestMcxPushNotificationCmdlet (TestMcxPushNotificationCmdlet)
 
 </div>
 
@@ -116,7 +118,7 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-プッシュ通知サービスが失敗した場合は、通常、エッジサーバーとの通信に関する問題、またはプッシュ通知クリアリングハウスとの通信に問題があることを示します。 テスト-CsMcxPushNotification の実行時に問題が発生した場合は、まず、エッジサーバーが正しく動作していることを確認する必要があります。 これを行う方法の1つは、Test-csavedgeconnectivity コマンドレットを使用することです。
+プッシュ通知サービスが失敗した場合は、通常、エッジサーバーとの通信に関する問題、またはプッシュ通知クリアリングハウスとの通信に問題があることを示します。 テスト-CsMcxPushNotification の実行時に問題が発生した場合は、まず、エッジサーバーが正しく動作していることを確認する必要があります。 これを行う方法の1つは Test-CsAVEdgeConnectivity コマンドレットを使用することです。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -128,27 +130,27 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
     Get-CsMcxConfiguration
 
-PushNotificationProxyUri プロパティが sip:push@push.lync.com 以外の値に設定されている場合は、この問題を修正するには、Set-McxConfiguration コマンドレットを使用します。 たとえば、次のコマンドを実行すると、組織全体に URI が正しく設定されます。
+PushNotificationProxyUri プロパティが sip:push@push.lync.com 以外の値に設定されている場合は、Set-McxConfiguration コマンドレットを使用してその問題を修正できます。 たとえば、次のコマンドを実行すると、組織全体に URI が正しく設定されます。
 
     Get-CsMcxConfiguration | Set-CsMcxConfiguration -PushNotificationProxyUri "sip:push@push.lync.com"
 
-詳細については、「 [Set-CsMcxConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMcxConfiguration)コマンドレット」のヘルプトピックを参照してください。
+詳細については、「 [Set-CsMcxConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMcxConfiguration) コマンドレット」のヘルプトピックを参照してください。
 
 URI が正しく構成されている場合は、次の手順として、SIP ドメインおよびエッジサーバーに解決する DNS SRV レコードがあることを確認する必要があります。 これらのレコードを構成する方法の詳細については、ヘルプトピック「Mobility の DNS 要件」を参照してください。 次のエラーメッセージは、通常、DNS レコードに問題があることを示しています。
 
 ネットワークからの 504 (サーバータイムアウト) 応答を受信し、操作に失敗しました。 詳細については、例外の詳細を参照してください。
 
-また、次のエラーメッセージが表示され、テスト-CsMcxConfiguration が失敗する可能性もあります。
+また、次のエラーメッセージが表示され、Test-CsMcxConfiguration が失敗する可能性もあります。
 
-テスト-CsMcxPushNotification: プッシュ通知要求が拒否されました。
+Test-CsMcxPushNotification: プッシュ通知要求が拒否されました。
 
 行: 1 文字:27
 
-\+テスト-CsMcxPushNotification\<\<\<\<
+\+ Test-CsMcxPushNotification \<\<\<\<
 
-\+カテゴリ情報: OperationStopped: (:)\[テスト-CsMcxPushNotification\]、SyntheticTransactionException
+\+ カテゴリ情報: OperationStopped: (:) \[テスト-CsMcxPushNotification \] 、SyntheticTransactionException
 
-\+FullyQualifiedErrorId: WorkflowNotCompleted、TestMcxPushNotificationCmdlet (TestMcxPushNotificationCmdlet)
+\+ FullyQualifiedErrorId: WorkflowNotCompleted、TestMcxPushNotificationCmdlet (TestMcxPushNotificationCmdlet)
 
 通常、[プッシュ通知要求は拒否されました] メッセージは、URL フィルターを有効にしていて、http: および https: プレフィックスをブロックしている場合に発生します。 次のようなコマンドを使用して、どのプレフィックスがブロックされているかを判断できます。
 

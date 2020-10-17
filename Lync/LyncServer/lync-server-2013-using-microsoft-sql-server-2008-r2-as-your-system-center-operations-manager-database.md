@@ -12,20 +12,22 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0001d70033aac6d7c6125bb9e4016143beefc80f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 51dbff3748f342bd630c33fc867a4249b386c00c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212763"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518824"
 ---
+# <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>Lync Server 2013 の System Center Operations Manager データベースとしての Microsoft SQL Server 2008 R2 の使用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>Lync Server 2013 の System Center Operations Manager データベースとしての Microsoft SQL Server 2008 R2 の使用
+
 
 </div>
 
@@ -47,11 +49,11 @@ System Center Operations Manager のインストールを開始する前に、SQ
 
 1.  [**スタート**] ボタンをクリックし、[**ファイル名を指定して実行**] をクリックします。
 
-2.  [ファイル名を指定して**実行**] ダイアログボックスで、「 **C:\\Program Files\\Microsoft\\SQL Server\\\\ \_msrs10.archinst 50** 」と入力し、enter キーを押します。
+2.  [ファイル名を指定して **実行** ] ダイアログボックスで、「 **C: \\ Program Files \\ Microsoft SQL Server \\ msrs10.archinst \_ 50 \\ \\ ** 」と入力し、enter キーを押します。
 
 3.  **ReportServer** フォルダーで、メモ帳などのテキスト エディターで **rsreportserver.config** ファイルを開きます。
 
-4.  ファイルの先頭付近に "Add Key" ノードがいくつかあります。 ** \<[キーの追加] = "secureconnectionlevel"** を開始するエントリを見つけ、値を**0**に設定します。
+4.  ファイルの先頭付近に "Add Key" ノードがいくつかあります。 ** \< [キーの追加] = "SecureConnectionLevel"** を開始するエントリを見つけ、値を**0**に設定します。
     
         <Add Key="SecureConnectionLevel" Value="0"/>
 
@@ -59,7 +61,7 @@ System Center Operations Manager のインストールを開始する前に、SQ
 
 レポート サーバーの構成ファイルを更新したら、次は、SQL Server Reporting Services に適切な証明書を割り当てる必要があります。そのためには、次の操作を行います。
 
-1.  [**スタート**]、 **[すべてのプログラム**]、[ **Microsoft SQL Server 2008 R2**]、[**構成ツール**] の順にクリックし、[ **Reporting Services 構成マネージャー**] をクリックします。
+1.  [ **スタート**]、 **[すべてのプログラム**]、[ **Microsoft SQL Server 2008 R2**]、[ **構成ツール**] の順にクリックし、[ **Reporting Services 構成マネージャー**] をクリックします。
 
 2.  [**Reporting Services 構成の接続**] ダイアログ ボックスの [**サーバー名**] ボックスに、サーバーの名前が表示されていることを確認します。 [**レポートサーバーインスタンス**] ドロップダウンリストから、Operations Manager データベースをホストする SQL Server インスタンス (たとえば、「 **arch inst**」) を選択し、[**接続**] をクリックします。
 
@@ -81,7 +83,7 @@ SQL Server 2008 R2 データベースを使用するように System Center Oper
 
 Operations Manager データベースを手動で作成するには、次の手順を実行します。
 
-1.  System Center Operations Manager 2007 R2 セットアップメディアの SupportTools\\AMD64 フォルダーで、[ **dbcreatewizard**] をダブルクリックします。
+1.  System Center Operations Manager 2007 R2 セットアップメディアの [SupportTools AMD64] フォルダーで、 \\ [ **DBCreateWizard.exe**] をダブルクリックします。
 
 2.  データベース構成ウィザードの [**データベース構成ウィザードの開始**] ページで、[**次へ**] をクリックします。
 
@@ -101,15 +103,15 @@ Operations Manager データベースを手動で作成するには、次の手�
 
 Microsoft Lync Server 2013 には、次の3つの新しい System Center Operations Manager レポートが付属しています。
 
-  - **エンドツーエンドシナリオの可用性レポート**   このレポートでは、登録やプレゼンスなど、主要な Lync Server サービスの可用性/稼働時間を詳細に説明します。
+  - **エンドツーエンドシナリオの可用性レポート**    このレポートでは、登録やプレゼンスなど、主要な Lync Server サービスの可用性/稼働時間を詳細に説明します。
 
-  - **処理能力レポート**   このレポートは、パフォーマンスカウンターの情報を使用して、メモリの可用性やプロセッサの使用率などのシステムコンポーネントの傾向を示します。
+  - **容量レポート**    このレポートは、パフォーマンスカウンターの情報を使用して、メモリの可用性やプロセッサの使用率などのシステムコンポーネントの傾向を示します。
 
-  - **コンポーネントレポート**   このレポートには、Lync Server コンポーネントによってグループ化された上位の通知ジェネレーターが一覧表示されます。
+  - **コンポーネントレポート**    このレポートには、Lync Server コンポーネントによってグループ化された上位の通知ジェネレーターが一覧表示されます。
 
 これらの新しいレポートを使用するには、System Center Operations Manager データウェアハウスをインストールする必要があります。 (データウェアハウスは、運用データの長期的な保存に使用します)。SQL Server 2008 R2 でデータウェアハウスを使用するには、SQL Server データベースをホストするコンピューターで次の手順を実行する必要があります。
 
-1.  System Center Operations Manager セットアップメディアのセットアップ\\supporttools\\AMD64 フォルダーで、[ **dbcreatewizard**] をダブルクリックします。
+1.  System Center Operations Manager セットアップメディアのセットアップ \\ supporttools AMD64 フォルダーで、 \\ [ **DBCreateWizard.exe**] をダブルクリックします。
 
 2.  データベース構成ウィザードの [**データベース構成ウィザードの開始**] ページで、[**次へ**] をクリックします。
 
@@ -127,23 +129,23 @@ Operations Manager コンソールは、System Center Operations Manager を管�
 
 System Center Operations Manager コンソールをインストールするには、次の操作を行います。
 
-1.  System Center Operations Manager セットアップメディアで、[ **setupom.exe**] をダブルクリックします。
+1.  System Center Operations Manager セットアップメディアで、[ **SetupOM.exe**] をダブルクリックします。
 
-2.  System Center Operations Manager 2007 R2 セットアップで、[**前提条件の確認**] をクリックします。
+2.  System Center Operations Manager 2007 R2 セットアップで、[ **前提条件の確認**] をクリックします。
 
-3.  System Center Operations Manager の前提条件ビューアーで、インストールする System Center コンポーネントを選択します。 (**サーバー**;**コンソール**。**PowerShell**) を選択し、[**確認**] をクリックします。 ブロックの問題が報告されていないことを確認し、[**閉じる**] をクリックします。 ブロックの問題が報告された場合は、問題を修正し、[**チェック**] をクリックして、前提条件のテストを再実行します。
+3.  System Center Operations Manager の前提条件ビューアーで、インストールする System Center コンポーネントを選択します。 (**サーバー**; **コンソール**。 **PowerShell**) を選択し、[ **確認**] をクリックします。 ブロックの問題が報告されていないことを確認し、[ **閉じる**] をクリックします。 ブロックの問題が報告された場合は、問題を修正し、[ **チェック** ] をクリックして、前提条件のテストを再実行します。
 
 4.  System Center Operations Manager セットアップで、[ **Operations manager のインストール**] をクリックします。
 
-5.  System Center Operations Manager セットアップウィザードの [ **System Center Operations Manager セットアップウィザードへようこそ**] ページで、[**次へ**] をクリックします。
+5.  System Center Operations Manager セットアップウィザードの [ **System Center Operations Manager セットアップウィザードへようこそ** ] ページで、[ **次へ**] をクリックします。
 
 6.  [**使用許諾契約書**] ページで、[**使用許諾契約書に同意します**] を選択し、[**次へ**] をクリックします。
 
-7.  [**製品登録**] ページで、[**ユーザー名**] ボックスに自分の名前を、[**組織**] ボックスに組織の名前を入力します。 [ **25 桁の CD キーを入力**してください] ボックスに System Center Operations Manager のプロダクトキーを入力し、[**次へ**] をクリックします。
+7.  [**製品登録**] ページで、[**ユーザー名**] ボックスに自分の名前を、[**組織**] ボックスに組織の名前を入力します。 [ **25 桁の CD キーを入力** してください] ボックスに System Center Operations Manager のプロダクトキーを入力し、[ **次へ**] をクリックします。
 
 8.  [**カスタム セットアップ**] ページで、インストールする System Center オプションを選択し、[**次へ**] をクリックします。インストールする**管理サーバー**、**ユーザー インターフェイス**、および **Web コンソール**を選択する必要があります。**データベース**はインストールしないので選択しないでください。
 
-9.  [ **SC データベースサーバーインスタンス**] ページで、Operations Manager データベースがインストールされているコンピューターの名前が [**システムセンターデータベースサーバー** ] ボックスに表示されていることを確認します。 [**次へ**] をクリックします。
+9.  [ **SC データベースサーバーインスタンス** ] ページで、Operations Manager データベースがインストールされているコンピューターの名前が [ **システムセンターデータベースサーバー** ] ボックスに表示されていることを確認します。 [**次へ**] をクリックします。
 
 10. [**管理サーバー アクション アカウント**] ページで、[**ドメインまたはローカル コンピューターのアカウント**] を選択し、[**ユーザー アカウント**]、[**パスワード**]、および [**ドメインまたはローカル コンピューター**] ボックスにそれぞれ適切な値を入力します。[**次へ**] をクリックします。
 
@@ -157,7 +159,7 @@ System Center Operations Manager コンソールをインストールするに�
 
 15. [**System Center Operations Manager セットアップ ウィザードを完了しています**] ページで、[**暗号化キーのバックアップ**] および [**コンソールの開始**] チェック ボックスをオフにし、[**完了**] をクリックします。
 
-16. System Center Operations Manager セットアップで、[**終了**] をクリックします。
+16. System Center Operations Manager セットアップで、[ **終了**] をクリックします。
 
 </div>
 
@@ -171,19 +173,19 @@ System Center Operations Manager コンソールをインストールして構�
 
 2.  サーバー マネージャーで、[**構成**]、[**ローカル ユーザーとグループ**] の順に展開し、[**グループ**] をクリックします。
 
-3.  次のグループを見つけます (ここで、atl-ws-01 はコンピューターの名前を表し、アーキテクチャ INST はシステムセンターデータベースの SQL Server インスタンスを表します。 **SQLServerReportServerUser $ atl-sc-001 $\_msrs10.archinst 50.**
+3.  次のグループを見つけます (ここで、atl-ws-01 はコンピューターの名前を表し、アーキテクチャ INST はシステムセンターデータベースの SQL Server インスタンスを表します。 **SQLServerReportServerUser $ atl-sc-001 $ msrs10.archinst \_ 50.**
 
-4.  このグループを右クリックし、[**名前の変更**] をクリックします。 グループ名から** \_50**を削除して、グループの名前を変更します。 次に例を示します。 **SQLServerReportServerUser $ atl-sc-001 $ msrs10.archinst。アーキテクチャ (INST**)
+4.  このグループを右クリックし、[**名前の変更**] をクリックします。 グループ名から** \_ 50**を削除して、グループの名前を変更します。 次に例を示します。 **SQLServerReportServerUser $ atl-sc-001 $ msrs10.archinst。アーキテクチャ (INST**)
 
 5.  サーバー マネージャーを閉じます。
 
 この時点で、System Center レポート サービスをインストールできます。そのためには、次の操作を行います。
 
-1.  System Center Operations Manager 2007 R2 セットアップメディアで、 **setupom.exe**をダブルクリックします。
+1.  System Center Operations Manager 2007 R2 セットアップメディアで、[ **SetupOM.exe**] をダブルクリックします。
 
 2.  System Center Operations Manager 2007 R2 セットアップで、[ **Operations Manager レポートのインストール**] をクリックします。
 
-3.  System Center Operations Manager 2007 R2 レポートセットアップウィザードの [ **Operations Manager Reporting のセットアップへようこそ**] ページで、[**次へ**] をクリックします。
+3.  System Center Operations Manager 2007 R2 レポートセットアップウィザードの [ **Operations Manager Reporting のセットアップへようこそ** ] ページで、[ **次へ**] をクリックします。
 
 4.  [**使用許諾契約書**] ページで、[**使用許諾契約書に同意します**] を選択し、[**次へ**] をクリックします。
 
@@ -209,7 +211,7 @@ System Center Operations Manager コンソールをインストールして構�
 
 15. [**Operations Manager Reporting コンポーネント セットアップ ウィザードを完了しています**] ページで、[**完了**] をクリックします。
 
-16. System Center Operations Manager 2007 R2 セットアップで、[**終了**] をクリックします。
+16. System Center Operations Manager 2007 R2 セットアップで、[ **終了**] をクリックします。
 
 System Center レポートをインストールした後、次の手順を使用して、SQL Server レポートに関連付けられているセキュリティグループの名前をリセットします。 この手順は、SQL Server を使用している場合にのみ必要になります。
 
@@ -219,7 +221,7 @@ System Center レポートをインストールした後、次の手順を使用
 
 3.  次のグループを見つけます (atl-sc-bytes はコンピューターの名前を表し、アーキテクチャ INST はアーカイブデータベースおよび監視データベースの SQL Server インスタンスを表します。 **SQLServerReportServerUser $ atl-sc-001 $ msrs10.archinst。アーキテクチャ (INST**)
 
-4.  このグループを右クリックし、[**名前の変更**] をクリックします。 グループ名の末尾に、SQL Server インスタンス名の直前に** \_50**を追加して、グループの名前を変更します。 次に例を示します。 **SQLServerReportServerUser $ atl-sc\_-001 $ msrs10.archinst 50mb**。
+4.  このグループを右クリックし、[**名前の変更**] をクリックします。 グループ名の末尾に、SQL Server インスタンス名の直前に** \_ 50**を追加して、グループの名前を変更します。 次に例を示します。 **SQLServerReportServerUser $ atl-sc-001 $ msrs10.archinst \_ 50mb**。
 
 5.  サーバー マネージャーを閉じます。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf4798c154b240a6048840a819c35d39f5ffc9d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a8d85b72572ba065f52e93ee34e6cb9324c2f647
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211773"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518644"
 ---
+# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>Lync Server 2013 での外部ユーザーの接続の確認
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>Lync Server 2013 での外部ユーザーの接続の確認
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 外部ユーザーの接続を検証するには、ユーザーからアクセス エッジ サービスのサーバーおよびポートへの接続を確認する必要があります。
 
-構成を確認し、外部ユーザーアクセスが必要とするシナリオに対して適切なメッセージを送受信する機能がリモート接続アナライザーサイト (<http://www.testocsconnectivity.com>) であることを確認するための貴重なリソースです。 サイトは、Microsoft サポートによって管理および管理されます。 リモート接続アナライザーにアクセスするには、ブラウザーでこの Web サイトを開き、指示に従ってシナリオを選択します。
+構成を確認し、外部ユーザーアクセスが必要とするシナリオに対して適切なメッセージを送受信する機能がリモート接続アナライザーサイト () であることを確認するための貴重なリソースです <http://www.testocsconnectivity.com> 。 サイトは、Microsoft サポートによって管理および管理されます。 リモート接続アナライザーにアクセスするには、ブラウザーでこの Web サイトを開き、指示に従ってシナリオを選択します。
 
 <div>
 

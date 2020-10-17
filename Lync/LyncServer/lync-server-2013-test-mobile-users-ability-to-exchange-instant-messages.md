@@ -12,20 +12,22 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3536e7bc95aced3a8bd68cab15b8994aa9e697c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7c599e2199a605b4d24a79c450d7abe2bd4473c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194556"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519224"
 ---
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>モバイルユーザーが Lync Server 2013 でインスタントメッセージを交換できるかどうかをテストする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>モバイルユーザーが Lync Server 2013 でインスタントメッセージを交換できるかどうかをテストする
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-07_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Test-csmcxp2pim コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsMcxP2PIM コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxP2PIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ Mobility Service を使用すると、モバイルデバイスのユーザーは
 
 3.  勤務先およびダイヤルアウト会議経由の通話など、Lync Server の機能を活用します。
 
-CsMxcP2PIM コマンドレットを使用すると、ユーザーがモビリティサービスを使用してインスタントメッセージを交換できることをすばやく簡単に確認できます。
+Test-CsMxcP2PIM コマンドレットを使用すると、ユーザーがモビリティサービスを使用してインスタントメッセージを交換できることを簡単に確認できます。
 
 </div>
 
@@ -89,7 +91,7 @@ CsMxcP2PIM コマンドレットを使用すると、ユーザーがモビリテ
     
     Test-CsMcxP2PIM -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -SenderSipAddres "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:packerman@litwareinc.com" -ReceiverCredential $credential2
 
-詳細については、 [test-csmcxp2pim](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [test-csmcxp2pim](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 
@@ -97,11 +99,11 @@ CsMxcP2PIM コマンドレットを使用すると、ユーザーがモビリテ
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-2つのテストユーザーが mobility service を使用してインスタントメッセージを交換できる場合、Test-csmcxp2pim はテスト結果成功を返します。
+2つのテストユーザーが mobility service を使用してインスタントメッセージを交換できる場合、Test-CsMcxP2PIM はテスト結果の成功を返します。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-ターゲット Uri:http://atl-cs-001.litwareinc.com:443/mcx
+ターゲット Uri: http://atl-cs-001.litwareinc.com:443/mcx
 
 結果: 成功
 
@@ -115,13 +117,13 @@ CsMxcP2PIM コマンドレットを使用すると、ユーザーがモビリテ
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-ターゲット Uri:https://atl-cs-001.litwareinc.com:443/mcx
+ターゲット Uri: https://atl-cs-001.litwareinc.com:443/mcx
 
 結果: エラー
 
 待機時間: 00:00:00
 
-エラーメッセージ: Web チケットサービスの応答が受信されていません。
+エラーメッセージ: Web-Ticket サービスの応答が受信されませんでした。
 
 内部例外: HHTP 要求はに許可されていません
 
@@ -139,13 +141,13 @@ CsMxcP2PIM コマンドレットを使用すると、ユーザーがモビリテ
 
 001.litwareinc.com
 
-キャッシュ制御: プライベート
+Cache-Control: private
 
 コンテンツタイプ: text/html。charset = utf-8。
 
 サーバー: Microsoft-IIS/8.5
 
-WWW-認証: Negotiate、NTLM
+WWW-Authenticate: Negotiate、NTLM
 
 X-Powered By: ASP.NET
 
@@ -161,7 +163,7 @@ X-コンテンツタイプ-オプション: nosniff
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-Test-csmcxp2pim が失敗した場合、最初の手順は mobility service が稼働していることを確認する必要があります。 これを行うには、web ブラウザーを使用して、Lync Server プールの mobility service URL にアクセスできることを確認します。 たとえば、次のコマンドを実行すると、プール atl-cs-001.litwareinc.com の URL が確認されます。
+Test-CsMcxP2PIM が失敗した場合は、mobility service が稼働していることを確認する必要があります。 これを行うには、web ブラウザーを使用して、Lync Server プールの mobility service URL にアクセスできることを確認します。 たとえば、次のコマンドを実行すると、プール atl-cs-001.litwareinc.com の URL が確認されます。
 
     https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc
 
@@ -175,11 +177,11 @@ Enabled プロパティが True と一致しない場合、またはコマンド
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-ポリシー名がわかったら、Get-csmobilitypolicy コマンドレットを使用して、対象のポリシー (RedmondMobilityPolicy など) に EnableMobility プロパティが True に設定されていることを確認します。
+ポリシー名を確認したら、Get-CsMobilityPolicy コマンドレットを使用して、対象のポリシー (たとえば、RedmondMobilityPolicy) に EnableMobility プロパティが True に設定されていることを確認します。
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-認証ヘッダーを使用してエラーメッセージが表示される場合は、有効なユーザーアカウントが指定されていないことを意味します。 ユーザー名とパスワードを確認してから、もう一度テストを実行してください。 ユーザーアカウントが有効であることを確信する場合は、Set-cswebserviceconfiguration コマンドレットを使用して、UseWindowsAuth プロパティの値を確認します。 これにより、組織内で有効になっている認証方法がわかります。Mobility service のトラブルシューティング方法に関するその他のヒントについては、ブログ投稿の「[外部 Lync モビリティ接続の問題のトラブルシューティング](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)」を参照してください。
+認証ヘッダーを使用してエラーメッセージが表示される場合は、有効なユーザーアカウントが指定されていないことを意味します。 ユーザー名とパスワードを確認してから、もう一度テストを実行してください。 ユーザーアカウントが有効であることを確信する場合は、Get-CsWebServiceConfiguration コマンドレットを使用して、UseWindowsAuth プロパティの値を確認します。 これにより、組織内で有効になっている認証方法がわかります。Mobility service のトラブルシューティング方法に関するその他のヒントについては、ブログ投稿の「 [外部 Lync モビリティ接続の問題のトラブルシューティング](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)」を参照してください。
 
 </div>
 

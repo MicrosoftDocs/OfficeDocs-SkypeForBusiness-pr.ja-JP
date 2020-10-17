@@ -12,20 +12,22 @@ ms:contentKeyID: 48183524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31bed57b6e24db0ba6f75e323fe311aa4aaf262c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: e51ff7889b97a58298256cc1a1de3a5d4f901608
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755521"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518004"
 ---
+# <a name="verify-user-replication-has-completed"></a>ユーザー レプリケーションの完了の確認
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>ユーザー レプリケーションの完了の確認
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 ## <a name="to-verify-that-user-replication-has-completed"></a>ユーザーのレプリケーションが完了していることを確認するには
 
-1.  Lync Server 2013 フロントエンドサーバーから、[**スタート**] メニューをクリックし、[**実行**] をクリックします。
+1.  Lync Server 2013 フロントエンドサーバーから、[ **スタート** ] メニューをクリックし、[ **実行**] をクリックします。
 
 2.  「**eventvwr.exe**」と入力し、[**OK**] をクリックします。
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 5.  [**イベント ソース**] ボックスの一覧の [**LS User Replicator**] をクリックします。
 
-6.  Enter キーを押して **\<All Event IDs\>** **30024**と入力し、[ **OK]** をクリックします。
+6.  Enter キーを押して **\<All Event IDs\>** **30024** と入力し、[ **OK]** をクリックします。
 
 7.  フィルターが適用されたイベントの一覧の [**全般**] タブで、ユーザーのレプリケーションが正常に完了したことを示す項目を探します。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56a030329f9d69a3748b2b76179c7a783b13cb0f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 404ce93e841bbbefd62498a1dbb3da664eb927ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518254"
 ---
+# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 での Web 会議の要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 での Web 会議の要件
+
 
 </div>
 
@@ -83,9 +85,9 @@ Lync Server 2013 では、直接接続ストレージ (DAS) またはストレ�
 
   - **ContentGracePeriod**は、 [get-csconferencingconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)に配置されているため、会議が終了した後に web 会議のコンテンツをサーバー上に保持する時間を設定します。
 
-  - **Maxcontentstoragemb**は、1 [](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)つの会議中にコンテンツの格納に使用できる最大ファイル領域を設定します。
+  - **Maxcontentstoragemb**は、1 [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)つの会議中にコンテンツの格納に使用できる最大ファイル領域を設定します。
 
-**Maxuploadfilesizemb 枠**は、Lync Web App のファイルのアップロード設定を制限しません。 Lync Web App のファイルサイズのアップロードの制限は約30MB に設定されており、IIS web.config ファイルによって制御されます。/\[Datacollabweb/Int Ext\]/ハンドラー/web¥ config。Lync Web App のファイルサイズのアップロード制限を構成するに`maxRequestLength`は`maxAllowedContentLength` 、以下に示すように、web.config ファイルを更新します。
+**Maxuploadfilesizemb 枠** は、Lync Web App のファイルのアップロード設定を制限しません。 Lync Web App のファイルサイズのアップロードの制限は約30MB に設定されており、IIS web.config ファイル:/Datacollabweb/Int \[ Ext \] /ハンドラ/web.config によって制御されます。Lync Web App のファイルサイズのアップロード制限を構成するには、 `maxRequestLength` `maxAllowedContentLength` 以下に示すように、web.config ファイルを更新します。
 
     <system.web>
         <!-- 
@@ -113,7 +115,7 @@ Lync Server 2013 では、直接接続ストレージ (DAS) またはストレ�
 
 ## <a name="office-web-apps-server"></a>Office Web Apps サーバー
 
-これらの新機能を使用するには、管理者が Office Web Apps サーバーをインストールする必要があります。また、Office Web Apps サーバーと通信するように Lync Server 2013 を構成する必要があります。 このドキュメントでは、Office Web Apps サーバーを使用するように Lync Server 2013 を構成する方法について説明します。 このドキュメントでは、Office Web Apps サーバーのインストール方法について説明します。 インストールの詳細については、「Microsoft Office Web Apps <https://go.microsoft.com/fwlink/p/?linkid=257525>展開 web サイト」を参照してください。 このガイドには、Office Web Apps サーバーの完全な前提条件に関する情報が含まれています。 Office Web Apps サーバーは、Lync Server、SQL Server、またはその他のサーバーアプリケーションを実行していないスタンドアロンのコンピューターにインストールする必要があることに注意してください。 (そのコンピューターに Office のバージョンがインストールされていない必要があります)。Office Web Apps サーバーを実行するために使用するすべてのコンピューターに、特定のソフトウェアセット (.NET Framework 4.5 および Windows PowerShell 3.0 を含む) がインストールされている必要もあります。 これらの要件と、証明書とインターネットインフォメーションサービス (IIS) の構成の詳細については、「Microsoft Office Web Apps 展開 web <https://go.microsoft.com/fwlink/p/?linkid=257525>サイト」を参照してください。
+これらの新機能を使用するには、管理者が Office Web Apps サーバーをインストールする必要があります。また、Office Web Apps サーバーと通信するように Lync Server 2013 を構成する必要があります。 このドキュメントでは、Office Web Apps サーバーを使用するように Lync Server 2013 を構成する方法について説明します。 このドキュメントでは、Office Web Apps サーバーのインストール方法について説明します。 インストールの詳細については、「Microsoft Office Web Apps 展開 web サイト」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=257525> 。 このガイドには、Office Web Apps サーバーの完全な前提条件に関する情報が含まれています。 Office Web Apps サーバーは、Lync Server、SQL Server、またはその他のサーバーアプリケーションを実行していないスタンドアロンのコンピューターにインストールする必要があることに注意してください。 (そのコンピューターに Office のバージョンがインストールされていない必要があります)。Office Web Apps サーバーを実行するために使用するすべてのコンピューターに、特定のソフトウェアセット (.NET Framework 4.5 および Windows PowerShell 3.0 を含む) がインストールされている必要もあります。 これらの要件と、証明書とインターネットインフォメーションサービス (IIS) の構成の詳細については、「Microsoft Office Web Apps 展開 web サイト」を参照して <https://go.microsoft.com/fwlink/p/?linkid=257525> ください。
 
 </div>
 

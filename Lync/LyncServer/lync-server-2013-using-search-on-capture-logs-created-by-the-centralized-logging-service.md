@@ -12,20 +12,22 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d306c17f2c399d38e406d466664a49e3e2df6ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b054f3ea8a1054be1e920fbbacbfe2e88b157ba7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212713"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518764"
 ---
+# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスによって作成されたキャプチャログでの検索の使用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスによって作成されたキャプチャログでの検索の使用
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 集中ログサービスから最大のメリットを得るには、検索を構成して、コンピューターからのトレースメッセージのみを返し、調査している問題に関連するプールログのみを取得する方法について十分に理解しておく必要があります。 問題
 
-Lync Server 管理シェルを使用して集中ログサービスの検索機能を実行するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、またはカスタムの RBAC の役割を持っている必要があります。これら2つのグループのどちらか。 このコマンドレットが割り当てられているすべての RBAC の役割 (自分で作成したカスタムの RBAC の役割を含む) の一覧を返すには、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
+Lync Server 管理シェルを使用して集中ログサービスの検索機能を実行するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、またはこれら2つのグループのどちらかを含むカスタムの RBAC の役割を持っている必要があります。 このコマンドレットが割り当てられているすべての RBAC の役割 (自分で作成したカスタムの RBAC の役割を含む) の一覧を返すには、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -75,7 +77,7 @@ Lync Server 管理シェルを使用して集中ログサービスの検索機�
     
 
     > [!NOTE]
-    > 既定では、Search-CsClsLogging は検索の結果をコンソールに送ります。 検索結果をファイルに保存する場合は、– OutputFilePath &lt;文字列の完全修飾ファイルパス&gt;を使用します。 –OutputFilePath パラメーターを定義するには、パラメーターにパスとファイル名を文字列形式で指定し、引用符で囲みます (たとえば、C:\LogFiles\SearchOutput.txt)。 この例では、ディレクトリ C:\LogFiles が存在し、フォルダー内のファイルに対して読み取りと書き込みのアクセス許可 (NTFS の場合は変更のアクセス許可) を持っている必要があります。 出力は追加され、上書きはされません。 個別のファイルが必要な場合は、検索ごとに個々のファイル名を定義します。
+    > 既定では、Search-CsClsLogging は検索の結果をコンソールに送ります。 検索結果をファイルに保存する場合は、– OutputFilePath &lt; 文字列の完全修飾ファイルパスを使用し &gt; ます。 –OutputFilePath パラメーターを定義するには、パラメーターにパスとファイル名を文字列形式で指定し、引用符で囲みます (たとえば、C:\LogFiles\SearchOutput.txt)。 この例では、ディレクトリ C:\LogFiles が存在し、フォルダー内のファイルに対して読み取りと書き込みのアクセス許可 (NTFS の場合は変更のアクセス許可) を持っている必要があります。 出力は追加され、上書きはされません。 個別のファイルが必要な場合は、検索ごとに個々のファイル名を定義します。
 
     
     </div>
@@ -124,7 +126,7 @@ Lync Server 管理シェルを使用して集中ログサービスの検索機�
 
 2.  既定では、検索の時間固有のパラメーターの開始時間は、検索を開始する時間の 30 分前です。つまり、検索を 4:00:00 PM に開始する場合、定義するコンピューターおよびプールのログは 3:30:00 PM から 4:00:00 PM まで検索されます。現在の時刻より 60 分または 3 時間前を検索する必要がある場合は、–StartTime パラメーターを使用して、検索を開始する時間を表す日時文字列を設定します。
     
-    たとえば、–StartTime および –EndTime を使用して日時の範囲を定義することにより、11/20/2012 8 AM ～ 9 AM の間のプールでの検索を定義できます。 次のように、出力パスを設定して c:\\logfile という名前のファイルに結果を書き込むことができます。
+    たとえば、–StartTime および –EndTime を使用して日時の範囲を定義することにより、11/20/2012 8 AM ～ 9 AM の間のプールでの検索を定義できます。 出力パスを設定して、次のように c:logfile.txt という名前のファイルに結果を書き込むことができ \\ ます。
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     

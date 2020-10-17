@@ -12,20 +12,22 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc8ea4abd3608863dea1bf914f5d89cc0ad43fae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6103c6cd8ae762402a94412a56eda107f43a58fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210974"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518204"
 ---
+# <a name="whats-new-for-clients-in-lync-server-2013"></a>Lync Server 2013 のクライアントの新機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-clients-in-lync-server-2013"></a>Lync Server 2013 のクライアントの新機能
+
 
 </div>
 
@@ -43,7 +45,7 @@ Microsoft Lync 2013 には、再設計されたユーザーインターフェイ
 
 
 > [!NOTE]  
-> Lync 2013 ユーザーインターフェイスの更新の図は、「Lync 2013 の新機能」を参照して<A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A>ください。
+> Lync 2013 ユーザーインターフェイスの更新の図は、「Lync 2013 の新機能」を参照してください <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A> 。
 
 
 
@@ -81,9 +83,9 @@ Outlook メッセージングおよびコラボレーションクライアント
 
 ## <a name="group-policy-deployment"></a>グループ ポリシーの展開
 
-Lync 2013 が Office セットアップに含まれるようになったため、Lync グループポリシー設定を展開する方法が変更されました。 以前のバージョンの Lync および Office Communicator では、Communicator を使用してグループポリシー設定を定義することができましたが、Lync 2013 では、Office グループポリシーと共に提供される Lync ADMX および ADML 管理テンプレートを使用できます。管理用テンプレート。
+Lync 2013 が Office セットアップに含まれるようになったため、Lync グループポリシー設定を展開する方法が変更されました。 以前のバージョンの Lync および Office Communicator では、Communicator を使用してグループポリシー設定を定義できましたが、Lync 2013 では、Office グループポリシー管理テンプレートと共に提供される Lync ADMX および ADML の管理用テンプレートを使用できます。
 
-詳細については、「[グループポリシーの設定 (Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md))」を参照してください。
+詳細については、「 [グループポリシーの設定 (Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md))」を参照してください。
 
 </div>
 
@@ -163,7 +165,7 @@ Lync 2013 は、既に Lync 2010 グループチャットで提供されてい�
 
 Lync Web App は、Lync Server 2013 会議用の Web ベースの会議クライアントです。 このリリースでは、Lync Web App へのコンピューターの音声とビデオの追加によって、Lync クライアントがローカルにインストールされていないすべてのユーザーに対して、完全な会議機能が提供されます。 会議の参加者は、すべてのコラボレーション/共有機能と発表者の会議コントロールにアクセスできます。
 
-ユーザーが会議に参加しようとしたときに、ローカルにインストールされたクライアントがない場合は、Lync Web App が開きます。 会議に参加するためのその他のオプションを許可する場合は、[ミーティング参加] ページを構成できます。「展開」のドキュメントの「 [Lync Server 2013 での会議参加ページの構成](lync-server-2013-configuring-the-meeting-join-page.md)」を参照してください。
+ユーザーが会議に参加しようとしたときに、ローカルにインストールされたクライアントがない場合は、Lync Web App が開きます。 会議に参加するためのその他のオプションを許可する場合は、[ミーティング参加] ページを構成できます。「展開」のドキュメントの「 [Lync Server 2013 での会議参加ページの構成](lync-server-2013-configuring-the-meeting-join-page.md) 」を参照してください。
 
 Lync Web App の機能強化により、Lync Server 2013 では、更新されたバージョンの出席者を使用できません。 Lync Web App は、組織外の参加者向けのクライアントです。 ローカル クライアントをインストールする必要はありませんが、初めて使用するときに音声、ビデオ、共有の各機能でプラグインをインストールする必要があります。
 
@@ -229,7 +231,7 @@ Lync は、ユーザーが共有していることを検出すると、ユーザ
 
 合理化された新しい外観に、[**今日はどんなことがありますか?**] メモ フィールド、状態セレクター、[**場所の設定**] セレクターなどの、おなじみの機能が維持されています。
 
-  - チャットルームが有効になっている場合、ユーザーには新しい**チャットルーム**のアイコンがメインの Lync ページに表示されます。 ユーザーは、[**チャット ルーム**] アイコンを使用して、チャット ルームやフィルターにすばやくアクセスできます。
+  - チャットルームが有効になっている場合、ユーザーには新しい **チャットルーム** のアイコンがメインの Lync ページに表示されます。 ユーザーは、[**チャット ルーム**] アイコンを使用して、チャット ルームやフィルターにすばやくアクセスできます。
 
   - ユーザーは、表示アイコンをクリックすることで、［**連絡先**] ビュー、[**チャット ルーム**] ビュー、[**会話**] ビュー、または [**電話**] ビューに切り替えることができます。
 
@@ -241,7 +243,7 @@ Lync は、ユーザーが共有していることを検出すると、ユーザ
 
 ## <a name="contacts-view-and-contact-card-updates"></a>連絡先ビューと連絡先カードの更新
 
-Lync 2013 を使用する**と、ユーザーは連絡先ビューで**連絡先やグループをさまざまな方法で表示できます。
+Lync 2013 を使用する **と、ユーザーは連絡先ビューで** 連絡先やグループをさまざまな方法で表示できます。
 
   - 新しい統合連絡先ストアを使用すると、ユーザーの Lync の連絡先が Exchange 2013 に移行された後、ユーザーは Lync 2013、Outlook、または Outlook Web App から連絡先にアクセスして管理できるようになり、それらのユーザーは Lync、Outlook、または Outlook Web App から連絡先を同期したままになります。 たとえば、ユーザーが Outlook のお気に入りに連絡先を追加すると、その連絡先は Lync 2013 の [お気に入り] グループに表示されます。
 

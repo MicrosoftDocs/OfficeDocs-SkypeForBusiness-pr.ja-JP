@@ -12,20 +12,22 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d61e01574945fe090d3fd9425133f9569bd111
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1c1ff2b667c0529dfb7a90291dba7ad5ab154a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199540"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517964"
 ---
+# <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理レポート
+
 
 </div>
 
@@ -113,16 +115,16 @@ _**トピックの最終更新日:** 2012-06-29_
 <td><p>[<strong>動作状況の種類</strong>]</p></td>
 <td><p>活動の種類。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
+<li><p>[All]</p></li>
 <li><p>ピアツーピア</p></li>
-<li><p>室</p></li>
+<li><p>会議</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>[<strong>通話のカテゴリ</strong>]</p></td>
 <td><p>通話に CAC が使用された理由を示します。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
+<li><p>[All]</p></li>
 <li><p>通話受付管理により通話が拒否された</p></li>
 <li><p>通話受付管理により通話が PSTN 経由で再ルーティングされた</p></li>
 </ul></td>
@@ -186,7 +188,7 @@ _**トピックの最終更新日:** 2012-06-29_
 <td><p>招待の承諾を受信した日時。</p></td>
 </tr>
 <tr class="odd">
-<td><p>[<strong>終了時刻</strong>]</p></td>
+<td><p><strong>終了時刻</strong></p></td>
 <td><p>はい</p></td>
 <td><p>セッションが終了した日時。</p></td>
 </tr>
@@ -229,7 +231,7 @@ _**トピックの最終更新日:** 2012-06-29_
 <td><p>電話会議の一意の識別子。この項目をクリックすると、個別の電話会議参加者が表示されます。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Organizer</strong></p></td>
+<td><p><strong>開催者</strong></p></td>
 <td><p>はい</p></td>
 <td><p>会議を開催したユーザーの SIP アドレス。</p></td>
 </tr>
@@ -239,12 +241,12 @@ _**トピックの最終更新日:** 2012-06-29_
 <td><p>電話会議で使用されたエッジ サーバー。</p></td>
 </tr>
 <tr class="even">
-<td><p>[<strong>開始時刻</strong>]</p></td>
+<td><p><strong>開始時刻</strong></p></td>
 <td><p>はい</p></td>
 <td><p>会議が開始した日時。</p></td>
 </tr>
 <tr class="odd">
-<td><p>[<strong>終了時刻</strong>]</p></td>
+<td><p><strong>終了時刻</strong></p></td>
 <td><p>はい</p></td>
 <td><p>会議が終了した日時。</p></td>
 </tr>
@@ -277,7 +279,7 @@ _**トピックの最終更新日:** 2012-06-29_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ロール</strong></p></td>
+<td><p><strong>役割</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>電話会議の参加者が担った役割 (発表者など)。</p></td>
 </tr>
@@ -292,7 +294,7 @@ _**トピックの最終更新日:** 2012-06-29_
 <td><p>参加者のネットワーク接続 (一般には内部送信元または外部送信元)。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>モーダル</strong></p></td>
+<td><p><strong>モダリティ</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>電話会議の種類 (音声ビデオ会議など)。</p></td>
 </tr>

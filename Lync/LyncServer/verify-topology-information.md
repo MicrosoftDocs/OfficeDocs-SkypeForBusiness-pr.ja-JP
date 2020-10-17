@@ -12,20 +12,22 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4330d31b0cdaf10a3586324711aed98ab541b6eb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7ef4c2884d9810793b6431c9d518c92bdcd1a3a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755541"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518044"
 ---
+# <a name="verify-topology-information"></a>トポロジの情報を確認する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-topology-information"></a>トポロジの情報を確認する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755541"
 
 _**トピックの最終更新日:** 2012-09-26_
 
-マージが正常に完了したことを確認するための最初の手順は、Lync Server 2013 に結合した Office Communications Server 2007 R2 のトポロジ情報を表示することです。 トポロジビルダーでは、 **BackCompatSite**ノードには、結合した各 Office Communications Server 2007 R2 プールおよびサーバーの完全修飾ドメイン名 (FQDN) が表示されます。
+マージが正常に完了したことを確認するための最初の手順は、Lync Server 2013 に結合した Office Communications Server 2007 R2 のトポロジ情報を表示することです。 トポロジビルダーでは、 **BackCompatSite** ノードには、結合した各 Office Communications Server 2007 R2 プールおよびサーバーの完全修飾ドメイン名 (FQDN) が表示されます。
 
 <div>
 
@@ -82,7 +84,7 @@ Lync Server 2013 コントロールパネルを使用して、結合したトポ
 
 
 > [!NOTE]  
-> トポロジビルダーでマージウィザードを実行した後でトポロジを公開すると、会議ディレクトリが Lync Server 2013 に統合されます。 会議ディレクトリは、 <STRONG>get-csconferencedirectory</STRONG>コマンドレットを実行して確認できます。
+> トポロジビルダーでマージウィザードを実行した後でトポロジを公開すると、会議ディレクトリが Lync Server 2013 に統合されます。 会議ディレクトリは、 <STRONG>get-csconferencedirectory</STRONG> コマンドレットを実行して確認できます。
 
 
 

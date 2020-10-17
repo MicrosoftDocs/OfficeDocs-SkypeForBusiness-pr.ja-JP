@@ -12,20 +12,22 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582554c8f744c48b3eadab58359b965f910152f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ae3182dd6129d9ce797739220faeef0cd97a3a92
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212743"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518814"
 ---
+# <a name="using-monitoring-reports-in-lync-server-2013"></a>Lync Server 2013 での監視レポートの使用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-monitoring-reports-in-lync-server-2013"></a>Lync Server 2013 での監視レポートの使用
+
 
 </div>
 
@@ -45,15 +47,15 @@ Lync Server 2013 には、Microsoft SQL Server Reporting Service によって発
 
 ## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   の監視ダッシュボードを使用すると、管理者はシステムの正常性とシステム使用率の概要をすばやく表示できます。
+  - [Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)     での監視ダッシュボードの使用管理者は、システムの正常性とシステム使用率の概要を簡単に表示できます。
 
-  - [Lync server 2013](lync-server-2013-system-usage-reports.md)   のシステム使用状況レポート lync server で収集された CDR データに基づいてシステム使用状況情報を提供します。
+  - [Lync Server 2013](lync-server-2013-system-usage-reports.md)     のシステム使用状況レポートLync Server によって収集された CDR データに基づいて、システム使用状況の情報を提供します。
 
-  - [Lync Server 2013 の通話診断レポート (ユーザーごと)](lync-server-2013-call-diagnostic-reports-per-user.md)   エラーが発生したピアツーピアセッションと電話会議セッションに関する情報をユーザー別に提供します。
+  - [Lync Server 2013 の通話診断レポート (ユーザーごと)](lync-server-2013-call-diagnostic-reports-per-user.md)    エラーが発生したピアツーピアセッションと電話会議セッションに関する情報をユーザー別に提供します。
 
-  - [通話診断レポート Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   で、失敗したピアツーピアセッションと電話会議セッションに関する概要情報と診断データが提供されます。
+  - [Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)     の通話診断レポートエラーが発生したピアツーピアセッションと電話会議セッションに関する概要情報と診断データを提供します。
 
-  - [Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   のメディア品質診断レポート通話品質に関する情報、および失敗した通話の診断およびトラブルシューティングの情報を提供します。
+  - [Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)     のメディア品質診断レポート通話品質に関する情報のほか、エラーが発生した通話の診断およびトラブルシューティングに関する情報を提供します。
 
 </div>
 

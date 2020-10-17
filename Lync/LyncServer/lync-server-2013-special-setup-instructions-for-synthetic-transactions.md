@@ -12,20 +12,22 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: defed8a0356d489a628f883b42ae658aadd6442d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3841cb8a582e44e14b9ae7c73f3b3aed6b6ded33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519574"
 ---
+# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 での代理トランザクションの特別なセットアップ手順
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 での代理トランザクションの特別なセットアップ手順
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**トピックの最終更新日:** 2015-11-16_
 
 ## <a name="dealing-with-server-timeout-errors"></a>サーバーのタイムアウトエラーを処理する
 
-場合によっては、代理トランザクションがサーバータイムアウトエラーで失敗することがあります (エラーコード 504)。 これらのエラーは、通常、ファイアウォールの問題によって発生します。 代理トランザクションが実行されると、そのトランザクションは MonitoringHost .exe プロセスの下で実行されます。その後、MonitoringHost は PowerShell プロセスのインスタンスを開始します。 MonitoringHost または PowerShell がファイアウォールによってブロックされている場合、代理トランザクションは失敗し、504エラーが生成されます。
+場合によっては、代理トランザクションがサーバータイムアウトエラーで失敗することがあります (エラーコード 504)。 これらのエラーは、通常、ファイアウォールの問題によって発生します。 代理トランザクションを実行すると、そのトランザクションは MonitoringHost.exe プロセスの下で実行されます。これにより、MonitoringHost.exe は PowerShell.exe プロセスのインスタンスを開始します。 MonitoringHost.exe または PowerShell.exe がファイアウォールによってブロックされている場合、代理トランザクションは失敗し、504エラーが生成されます。
 
-この問題を解決するには、ローカルコンピューター上の MonitoringHost と PowerShell の両方に対して、受信ファイアウォール規則を手動で作成する必要があります。 この操作は、サーバーの既存の構成に応じて、Windows ファイアウォールまたはサードパーティのローカルファイアウォールソフトウェアを使用して行うことができます。
+この問題を解決するには、ローカルコンピューター上の MonitoringHost.exe と PowerShell.exe の受信ファイアウォール規則を手動で作成する必要があります。 この操作は、サーバーの既存の構成に応じて、Windows ファイアウォールまたはサードパーティのローカルファイアウォールソフトウェアを使用して行うことができます。
 
 代理トランザクションホストマシンと、監視しようとしている Lync サーバーとの間でネットワークファイアウォールデバイスを使用する場合は、ホストをクライアントコンピューターとして扱い、 [Lync Server 2013 の内部サーバーのポートとプロトコル](lync-server-2013-ports-and-protocols-for-internal-servers.md)に関するすべてのファイアウォールポート要件をオブザーバーする必要があります。
 
@@ -86,7 +88,7 @@ Exchange ユニファイドメッセージング (UM) 代理トランザクシ�
 
 ## <a name="persistent-chat-synthetic-transactions"></a>常設チャット代理トランザクション
 
-常設チャット代理トランザクションを使用するには、管理者はまずチャネルを作成し、それを使用するためのアクセス許可をテストユーザーに付与する必要があります。 これらのテストユーザーを適切に構成するには、 [test-cspersistentchatmessage](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage)コマンドレットを使用できます。
+常設チャット代理トランザクションを使用するには、管理者はまずチャネルを作成し、それを使用するためのアクセス許可をテストユーザーに付与する必要があります。 これらのテストユーザーを適切に構成するには、 [test-cspersistentchatmessage](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage) コマンドレットを使用できます。
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -99,7 +101,7 @@ Exchange ユニファイドメッセージング (UM) 代理トランザクシ�
 
   - サーバーから実行する場合、コマンドレットを実行するユーザーは、RTCUniversalServerAdmins グループのメンバーである必要があります。
 
-上のコマンドには Setup パラメーターが含まれ、True ($True) が設定されています。 Setup パラメーターを指定すると、Test-cspersistentchatmessage は特別な常設チャットルームを作成し、そのルームにテストユーザーを設定します。 これにより、テスト目的で使用できるチャット ルームが実際に存在することが保証されます。 Setup パラメーターは、フロントエンドサーバーからのみ実行する必要があることに注意してください。
+上のコマンドには Setup パラメーターが含まれ、True ($True) が設定されています。 Setup パラメーターを指定すると、Test-CsPersistentChatMessage は特別な常設チャットルームを作成し、そのルームにテストユーザーを設定します。 これにより、テスト目的で使用できるチャット ルームが実際に存在することが保証されます。 Setup パラメーターは、フロントエンドサーバーからのみ実行する必要があることに注意してください。
 
 Test-CsPersistentChatMessage を使用して作成されたチャット ルームは、管理者のみが削除できます。
 
@@ -139,7 +141,7 @@ Test-CsPersistentChatMessage を使用して作成されたチャット ルー�
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer -Setup
 
-前述のコマンドで使用した Setup パラメーターの使用に注意してください。 Test-csunifiedcontactstore の実行中に Setup パラメーターが含まれる場合、指定されたユーザーの連絡先 (この場合は sip:kenmyer@litwareinc.com) が統合連絡先ストアに移動されます。 (もちろん、ユーザーの連絡先が既に統合連絡先ストアにある場合は、それらを移動する必要はありません)。Setup パラメーターは、通常、1回だけ使用され (初回は Test-csunifiedcontactstore が実行されます)、テストユーザーのみが使用されます。つまり、実際には Lync Server にログオンしていないユーザーアカウントを使用します。 テストユーザーが統合連絡先ストアに移行されたら、次のように、セットアップパラメーターを使用せずに Test-csunifiedcontactstore を呼び出して、ユーザーの連絡先を取得できることを確認できます。
+前述のコマンドで使用した Setup パラメーターの使用に注意してください。 Test-CsUnifiedContactStore を実行するときに Setup パラメーターが含まれている場合は、指定されたユーザーの連絡先 (この場合は sip:kenmyer@litwareinc.com) が統合連絡先ストアに移動されます。 (もちろん、ユーザーの連絡先が既に統合連絡先ストアにある場合は、それらを移動する必要はありません)。Setup パラメーターは、通常は1回だけ使用され (Test-CsUnifiedContactStore の初回実行時)、テストユーザーでのみ使用する必要があります。つまり、実際には Lync Server にログオンしていないユーザーアカウントを使用します。 テストユーザーが統合連絡先ストアに移行されたら、次のセットアップパラメーターを使用せずに Test-CsUnifiedContactStore を呼び出して、ユーザーの連絡先を取得できることを確認できます。
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer
 

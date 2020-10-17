@@ -12,20 +12,22 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03aae75cfdb3e179347d14c6f42a90ffe060fad7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0269c66ad88f7be7f34874a8e4370fb65b954ccf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211883"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518664"
 ---
+# <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Lync Server 2013 で Lync Online の顧客との通信を確認する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Lync Server 2013 で Lync Online の顧客との通信を確認する
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2012-10-08_
 
   - フェデレーションをサポートするようにユーザー アカウントを構成します。 詳細については、「lync [Server 2013 で Lync Online の顧客とのフェデレーションのユーザーアクセスを構成する](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)」を参照してください。
 
-これらの手順をすべて完了し、Lync Online 2010 お客様の管理者が組織とのフェデレーションをサポートするようにオンラインサービスのすべての構成を完了したら、内部の通信をテストして通信を確認します。組織内のユーザーと Lync Online 顧客のユーザー。 通信が成功しなかった場合は、エッジサーバーのログツールを使用して、問題のトラブルシューティングのためにログとトレースファイルをキャプチャします。 ログツールの使用の詳細については、「操作」のドキュメントの「 [Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。 ログツールの詳細については、TechNet ライブラリの Lync Server 2010 ログツールに関するドキュメント[https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)を参照してください。
+これらの手順をすべて完了し、Lync Online 2010 お客様の管理者が、組織とのフェデレーションをサポートするオンラインサービスのすべての構成を完了したら、組織内の内部ユーザーと Lync Online のユーザーの間の通信をテストして通信を確認します。 通信が成功しなかった場合は、エッジサーバーのログツールを使用して、問題のトラブルシューティングのためにログとトレースファイルをキャプチャします。 ログツールの使用の詳細については、「操作」のドキュメントの「 [Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md) 」を参照してください。 ログツールの詳細については、TechNet ライブラリの Lync Server 2010 ログツールに関するドキュメントを参照してください [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265) 。
 
 </div>
 

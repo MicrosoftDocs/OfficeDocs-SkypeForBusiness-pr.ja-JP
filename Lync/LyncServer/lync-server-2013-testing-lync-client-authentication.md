@@ -12,20 +12,22 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 490068a9c9eec3e582471d9ff228b9bbccad43bf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 308bb50e5365cd45c993875ea503b33b32617397
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194090"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519034"
 ---
+# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Lync Server 2013 での Lync クライアント認証のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Lync Server 2013 での Lync クライアント認証のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト用の CsClientAuth コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsClientAuth コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsClientAuth&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Test-CsClientAuth コマンドレットを使用すると、ユーザーがクライアント証明書を使用して Lync Server にログオンできるかどうかを判断できます。また、Test-CsClientAuth コマンドレットを実行することもできます。 Test-CsClientAuth を呼び出した後、コマンドレットは証明書プロビジョニングサービスに接続し、指定されたユーザーのクライアント証明書のコピーをダウンロードします。 クライアント証明書を検出してダウンロードできる場合は、その証明書を使用してログオンを試行します。 ログオンに成功すると、テスト-CsClientAuth はログオフし、テストが成功したことを報告します。 証明書が見つからないかダウンロードできない場合、またはダウンロードした証明書を使用してログオンできない場合、Test-CsClientAuth はテストが失敗したことを報告します。
+Test-CsClientAuth コマンドレットを使用すると、ユーザーがクライアント証明書を使用して Lync Server にログオンできるかどうかを判断できます。そのためには、Test-CsClientAuth コマンドレットを実行します。 Test-CsClientAuth を呼び出した後、コマンドレットは証明書プロビジョニングサービスに接続し、指定されたユーザーのクライアント証明書のコピーをダウンロードします。 クライアント証明書を検出してダウンロードできる場合、Test-CsClientAuth はその証明書を使用してログオンを試行します。 ログオンに成功すると、Test-CsClientAuth がログオフし、テストが成功したことを報告します。 証明書が見つからないかダウンロードできない場合、またはダウンロードした証明書を使用してログオンできない場合、Test-CsClientAuth はテストが失敗したことを報告します。
 
 </div>
 
@@ -74,12 +76,12 @@ Test-CsClientAuth コマンドレットを使用すると、ユーザーがク�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Lync Server が有効になっているすべてのユーザーのアカウントを使用して、CsClientAuth コマンドレットを実行します。 実際のユーザーアカウントを使用してこのチェックを実行するには、まず、アカウント名とパスワードを含む Windows PowerShell credentials オブジェクトを作成する必要があります。 次に、システムが Test-CsClientAuth を呼び出すときに、その資格情報オブジェクトと、そのアカウントに割り当てられた SIP アドレスを含める必要があります。
+Test-CsClientAuth コマンドレットは、Lync Server が有効になっているすべてのユーザーのアカウントを使用して実行されます。 実際のユーザーアカウントを使用してこのチェックを実行するには、まず、アカウント名とパスワードを含む Windows PowerShell credentials オブジェクトを作成する必要があります。 次に、システムが Test-CsClientAuth を呼び出すときに、その資格情報オブジェクトと、そのアカウントに割り当てられた SIP アドレスを含める必要があります。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「 [Test-CsClientAuth](https://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsClientAuth](https://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -87,7 +89,7 @@ Lync Server が有効になっているすべてのユーザーのアカウン�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーがクライアント証明書を使用して Lync Server にログオンできる場合は、次のような出力が返されます。 Result プロパティは Success とマークされてい**ます。**
+指定したユーザーがクライアント証明書を使用して Lync Server にログオンできる場合は、次のような出力が返されます。 Result プロパティは Success とマークされてい **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -117,26 +119,26 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
     Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
 
-Test-CsClientAuth に障害が発生した場合は、次のように詳細パラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsClientAuth が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-Verbose パラメーターが指定されている場合、テスト-CsClientAuth は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに試行された各アクションのステップバイステップのアカウントを返します。 次に例を示します。
+Verbose パラメーターが含まれている場合、Test-CsClientAuth は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各アクションのステップバイステップのアカウントを返します。 以下に例を示します。
 
 ユーザーの CS 証明書をダウンロードしようとしています: kenmyer@litwareinc.com endpoint: STEpid
 
-Web サービス url:https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
+Web サービス url: https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
 
 Web サービスから CS 証明書をダウンロードできませんでした。
 
 確かめ
 
-\-Web サービスの url が有効で、web サービスが機能している
+\- Web サービスの url が有効で、web サービスが機能している
 
-\-PhoneNo\\\\Pin を使用して認証する場合は、ユーザーの uri と一致していることを確認してください。
+\-PhoneNo Pin を使用して \\ \\ 認証する場合は、ユーザーの uri と一致していることを確認してください。
 
-\-NTLM\\Kerberos 認証を使用している場合は、有効な資格情報を入力してください。
+\- NTLM Kerberos 認証を使用している場合は \\ 、有効な資格情報を入力してください。
 
 </div>
 
@@ -144,7 +146,7 @@ Web サービスから CS 証明書をダウンロードできませんでした
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、Test-CsClientAuth が失敗する主な理由を示します。
+Test-CsClientAuth が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     

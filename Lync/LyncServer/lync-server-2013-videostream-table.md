@@ -12,20 +12,22 @@ ms:contentKeyID: 48184014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a313419ca4072fe4d1841ba66a9cb603671e6c56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef5c417ff391bb3ec5954cf12d00f6de3d2e6d9b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211649"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518564"
 ---
+# <a name="videostream-table-in-lync-server-2013"></a>Lync Server 2013 の VideoStream テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostream-table-in-lync-server-2013"></a>Lync Server 2013 の VideoStream テーブル
+
 
 </div>
 
@@ -84,7 +86,7 @@ _**トピックの最終更新日:** 2013-12-13_
 <td><p><strong>VideoPayloadDescription</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>外部、プライマリ</p></td>
-<td><p>ペイロードの説明。 詳細については、「 <a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 の PayloadDescription テーブル</a>」を参照してください。</p></td>
+<td><p>ペイロードの説明。 詳細については、「 <a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 の PayloadDescription テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrival</strong></p></td>
@@ -237,7 +239,7 @@ _**トピックの最終更新日:** 2013-12-13_
 <td><p>受信側のストリームデータが受信されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>送信</strong></p></td>
+<td><p><strong>向き</strong></p></td>
 <td><p>若干</p></td>
 <td><p> </p></td>
 <td><p>送信側のストリームデータが受信されます。</p></td>
@@ -386,7 +388,7 @@ _**トピックの最終更新日:** 2013-12-13_
 <td><p><strong>SendCodecTypes</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>外部</p></td>
-<td><p>送信者が使用するビデオコーデックの種類。 詳細については、「 <a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 の CodecDescription テーブル</a>」を参照してください。</p>
+<td><p>送信者が使用するビデオコーデックの種類。 詳細については、「 <a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 の CodecDescription テーブル</a> 」を参照してください。</p>
 <p>このコラムは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
@@ -434,7 +436,7 @@ _**トピックの最終更新日:** 2013-12-13_
 <td><p><strong>RecvCodecTypes</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>外部</p></td>
-<td><p>受信者が使用するビデオコード。 詳細については、「 <a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 の CodecDescription テーブル</a>」を参照してください。</p>
+<td><p>受信者が使用するビデオコード。 詳細については、「 <a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 の CodecDescription テーブル</a> 」を参照してください。</p>
 <p>このコラムは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">

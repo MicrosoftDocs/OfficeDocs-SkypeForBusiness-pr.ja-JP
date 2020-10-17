@@ -3,8 +3,8 @@ title: Skype for Business Online セキュリティ ガイド
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: ''
 ms.date: 01/22/2018
+ms.reviewer: ''
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Security
 description: Skype for Business Online セキュリティ ガイド <add description>
-ms.openlocfilehash: c10dc554cc1d07dbefb4fba84aed55ae14e9374e
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a430d2b6aa4f1992e8710c4a7105530b3dd9fc24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505194"
 ---
 # <a name="security-and-skype-for-business-online"></a>セキュリティと Skype for Business Online
 
-Skype for Business Online (SfBO) は、Microsoft 365 および Office 365 サービスの一部として、「多層防御」、「サービス内の顧客コントロール」、「セキュリティ強化」、「運用のベストプラクティス」などのセキュリティに関するベストプラクティスと手順に従います。詳細については、Microsoft セキュリティセンター (https://microsoft.com/trustcenter)」を参照してください。
+Skype for Business Online (SfBO) は、Microsoft 365 および Office 365 サービスの一部として、「多層防御」、「サービス内の顧客コントロール」、「セキュリティ強化」、「運用のベストプラクティス」などのセキュリティに関するベストプラクティスと手順に従います。詳細については、Microsoft セキュリティセンター (」を参照してください https://microsoft.com/trustcenter) 。
 
 ## <a name="trustworthy-by-design"></a>設計による高い信頼性
 Skype for Business Online は、 https://www.microsoft.com/sdl/default.aspx に記載されている、信頼できるコンピューティングのセキュリティ開発ライフサイクル (SDL) に準拠して設定および開発されています。より安全な統合コミュニケーション システムを作成する最初のステップは、脅威モデルを設計し、各機能の設計時にテストすることでした。複数のセキュリティ関連の改善点がコーディング プロセスとコーディング手法に組み込まれました。コードが最終的な製品にチェックインされる前に、ビルド時ツールにより、バッファー オーバーランおよびその他のセキュリティ脅威の可能性を検出します。もちろん、すべての未知のセキュリティ脅威を防ぐように設計することは不可能です。完全なセキュリティを保証できるシステムはありません。ただし、安全な設計の原則が、当初から製品開発に採用されているため、Skype for Business Online には、アーキテクチャの基本的な部分として業界の標準的なセキュリティ技術が組み込まれています。 
@@ -187,7 +187,7 @@ SfBO は、暗号キーの交換に FIPS (Federal Information Processing Standar
 信頼されたユーザーとは、Microsoft 365 または Office 365 で AAD によって資格情報が認証されたユーザーのことです。 
 
 認証では、ユーザーの資格情報が信頼されたサーバーまたはサービスに渡されます。SfBO では、ユーザーの状態や場所に応じて、次の認証プロトコルを使用します。
-- **先進認証**は、クライアントとサーバー間の通信に対する MICROSOFT の OAUTH 2.0 の実装です。証明書ベースの認証、多要素認証、条件付きアクセスなどのセキュリティ機能を有効にします。MA を使用するには、オンラインテナントとクライアントの両方が MA に対して有効になっている必要があります。2017年5月以降に作成された SfBO テナントは、既定で MA が有効になっています。この時点より前に作成されたテナントの場合は、次の手順に従って、有効にします。以下のクライアントはすべて、MA: Skype for business 2015 または2016クライアント、Skype for Business on Mac、Lync 2013 クライアント、3PIP IP 電話、iOS、および Android をサポートしています。 
+- **先進認証** は、クライアントとサーバー間の通信に対する MICROSOFT の OAUTH 2.0 の実装です。証明書ベースの認証、多要素認証、条件付きアクセスなどのセキュリティ機能を有効にします。MA を使用するには、オンラインテナントとクライアントの両方が MA に対して有効になっている必要があります。2017年5月以降に作成された SfBO テナントは、既定で MA が有効になっています。この時点より前に作成されたテナントの場合は、次の手順に従って、有効にします。以下のクライアントはすべて、MA: Skype for business 2015 または2016クライアント、Skype for Business on Mac、Lync 2013 クライアント、3PIP IP 電話、iOS、および Android をサポートしています。 
 - **Org ID** は、先進認証が有効ではない (または使用できない) 場合に使用されます。
 - **ダイジェスト プロトコル**: いわゆる匿名ユーザーに対して使用されます。匿名ユーザーは、有効な Active Directory の資格情報は持たないが、社内会議に招待され、有効な会議キーを持つ外部ユーザーです。ダイジェスト認証は、他のクライアント操作には使用されません。
 
@@ -275,7 +275,7 @@ SfBO では、匿名ユーザーはロビーと呼ばれる待合室に移動さ
 会議の開催者は、ロビーで待たずに参加者が会議に参加できるかどうかを制御します。各会議は、次のいずれかの方法でアクセスできるように設定できます。
 - **会議の開催者である自分のみ**&nbsp;&nbsp;開催者を除くすべての参加者は、許可されるまでロビーで待機する必要があります。
 - **会社内から招待した人**&nbsp;&nbsp;社内の誰でも、たとえ招待されていない場合でも、直接会議に参加できます。
-- **[組織**&nbsp;&nbsp;内のすべてのユーザー] Microsoft 365 または Office 365 テナントのすべての sfbo ユーザーは、ロビーで待機することなく、会議に参加することができます。これは、配布リストに含まれていないユーザーでもかまいません。すべての外部ユーザーや匿名ユーザーを含む他のすべてのユーザーは、許可されるまでロビー内で待機する必要があります。
+- 組織内の**すべてのユーザー** &nbsp; &nbsp;Microsoft 365 または Office 365 テナントのすべての SfBO ユーザーは、配布リストに含まれていないユーザーであっても、ロビーで待機することなく会議に参加できます。すべての外部ユーザーや匿名ユーザーを含む他のすべてのユーザーは、許可されるまでロビー内で待機する必要があります。
 - **すべてのユーザー**&nbsp;&nbsp; 会議リンクにアクセスできるユーザー (制限はありません) は、会議に直接参加します。開催者のみ (ロック) 以外の方法を指定した場合、会議の開催者は、電話でダイヤル インする人がロビーを迂回するように指定することもできます。 
 
 ### <a name="presenter-capabilities"></a>発表者の機能

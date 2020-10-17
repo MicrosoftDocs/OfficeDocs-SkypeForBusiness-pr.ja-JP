@@ -12,20 +12,22 @@ ms:contentKeyID: 63969633
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2f9cd0beea65cfb1718fea3bc1c0235eb7554ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d8d68dfaaca20d991aa37d1a73ae31bf88f5c31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211813"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518724"
 ---
+# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Lync Server 2013 での音声番号の正規化とルーティングの検証
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Lync Server 2013 での音声番号の正規化とルーティングの検証
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211813"
 
 _**トピックの最終更新日:** 2014-05-19_
 
-適切な番号の正規化とルーティングは、機能するエンタープライズ Voip 環境にとって非常に重要です。 特に、構内交換 (PBX) からスタンドアロンの Lync Server 環境への移行では、移行を成功させるためのキーの1つは、既存のすべてのダイヤルルールを明らかにして文書化し、適切な正規化ルール、音声ポリシー、およびを作成することです。電話の使用状況とルート。
+適切な番号の正規化とルーティングは、機能するエンタープライズ Voip 環境にとって非常に重要です。 特に、構内交換機 (PBX) からスタンドアロンの Lync Server 環境への移行では、移行を成功させるためのキーの1つは、既存のすべてのダイヤルルールを明らかにして文書化し、適切な正規化ルール、音声ポリシー、電話使用状況およびルートを作成することです。
 
 番号の正規化とルーティングを検証することは、移行時だけでなく、通常のシステムの安定した運用時においても重要です。
 

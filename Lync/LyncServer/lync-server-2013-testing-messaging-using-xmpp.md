@@ -12,20 +12,22 @@ ms:contentKeyID: 63969641
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61eb53c5c2f3cfe74087599535541cfb8286ab55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79af6165da1c8d5093912f36413ef98812226cbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193990"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518994"
 ---
+# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Lync Server 2013 での XMPP を使用したメッセージングのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Lync Server 2013 での XMPP を使用したメッセージングのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-11-03_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsXmppIM</strong>コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、 <strong>Test-CsXmppIM</strong> コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsXmppIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -80,9 +82,9 @@ XMPP (Extensible Messaging and Presence Protocol) は、インターネットで
 
     Test-CsXmppIM -TargetFqdn "atl-cs-001.litwareinc.com" -Receiver "adelany@contoso.com"
 
-次の例に示すコマンドは、特定のユーザー (litwareinc\\pilar) がログオンして、ユーザー adelaney@contoso.com に xmpp インスタントメッセージを送信する機能をテストします。 これを行うには、例の最初のコマンドは、資格情報コマンドレットを使用して、user Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc\\pilar がパラメーターとして含まれているため、Windows PowerShell の資格情報の要求] ダイアログボックスでは、管理者のみが Pilar Ackerman アカウントのパスワードを入力する必要があります。)その後、結果として得られる資格情報オブジェクトは $cred 1 という名前の変数に格納されます。
+次の例に示すコマンドは、特定のユーザー (litwareinc pilar) がログオンして、 \\ ユーザー adelaney@contoso.com に XMPP インスタントメッセージを送信する機能をテストします。 これを行うには、この例の最初のコマンドは Get-Credential コマンドレットを使用して、user Pilar Ackerman の名前とパスワードを含む Windows PowerShell コマンドラインインターフェイス資格情報オブジェクトを作成します。 (ログオン名 litwareinc \\ pilar がパラメーターとして含まれているため、Windows PowerShell の資格情報の要求] ダイアログボックスでは、管理者のみが Pilar Ackerman アカウントのパスワードを入力する必要があります。)その後、結果として得られる資格情報オブジェクトは $cred 1 という名前の変数に格納されます。
 
-2番目のコマンドは、このユーザーがプール atl-cs-001.litwareinc.com にログオンして XMPP インスタントメッセージを送信できるかどうかをチェックします。 このタスクを実行するには、次の4つのパラメーターと共に、 **Test-CsXmppIm**コマンドレットを呼び出します。 targetfqdn (レジストラープールの FQDN)。受信者 (メッセージの宛先のユーザーの SIP アドレス)。UserCredential (Pilar Ackerman のユーザー資格情報を含む Windows PowerShell オブジェクト)。UserSipAddress (指定されたユーザー資格情報に対応する SIP アドレス)。
+2番目のコマンドは、このユーザーがプール atl-cs-001.litwareinc.com にログオンして XMPP インスタントメッセージを送信できるかどうかをチェックします。 このタスクを実行するには、次の4つのパラメーターと共に、 **Test-CsXmppIm** コマンドレットを呼び出します。 targetfqdn (レジストラープールの FQDN)。受信者 (メッセージの宛先のユーザーの SIP アドレス)。UserCredential (Pilar Ackerman のユーザー資格情報を含む Windows PowerShell オブジェクト)。UserSipAddress (指定されたユーザー資格情報に対応する SIP アドレス)。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -94,7 +96,7 @@ XMPP (Extensible Messaging and Presence Protocol) は、インターネットで
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-XMPP instant messaging が正しく構成されている場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
+XMPP instant messaging が正しく構成されている場合は、次のような出力が得られ、Result プロパティは Success としてマークされ **ます。**
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -106,7 +108,7 @@ XMPP instant messaging が正しく構成されている場合は、次のよう
 
 分析
 
-指定されたユーザーが XMPP instant messaging を使用できない場合、結果は**失敗**として表示され、エラーと診断のプロパティに次のような追加情報が記録されます。
+指定されたユーザーが XMPP instant messaging を使用できない場合、結果は **失敗**として表示され、エラーと診断のプロパティに次のような追加情報が記録されます。
 
 警告: 指定された完全修飾のレジストラーポート番号を読み取ることができませんでした
 
@@ -150,7 +152,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に **、Test-CsXmppIM**が失敗する可能性がある一般的な理由を示します。
+次に **、Test-CsXmppIM** が失敗する可能性がある一般的な理由を示します。
 
   - 指定されたパラメーター値が正しくありません。 省略可能なパラメーターが使用されている場合、オプションのパラメーターが正しく構成されている必要があります。テストは失敗します。 オプションのパラメーターを指定せずにコマンドを再実行し、それが成功するかどうかを確認します。
 

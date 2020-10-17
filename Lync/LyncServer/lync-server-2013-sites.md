@@ -12,20 +12,22 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37843e85f5da250b3cb3d8e0fa4cdccdf506176d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7193d657ad1e585b1a82ba8e934e5bf99d83e65b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200270"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519614"
 ---
+# <a name="lync-server-sites-for-lync-server-2013"></a>Lync server 2013 の lync Server サイト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-sites-for-lync-server-2013"></a>Lync server 2013 の lync Server サイト
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200270"
 
 _**トピックの最終更新日:** 2012-10-16_
 
-Lync Server では、Lync Server コンポーネントを含むネットワーク上の*サイト*を定義します。 サイトとは、1 つのローカル エリア ネットワーク (LAN) または高速の光ファイバー ネットワークで接続された 2 つのネットワークのように、高速で遅延の少ないネットワークによる良好な接続が保たれているコンピューターの集合です。 Lync Server サイトは、Active Directory ドメインサービスサイトと Microsoft Exchange Server サイトとは別の概念であることに注意してください。 Lync Server サイトは、Active Directory サイトに対応する必要はありません。
+Lync Server では、Lync Server コンポーネントを含むネットワーク上の *サイト* を定義します。 サイトとは、1 つのローカル エリア ネットワーク (LAN) または高速の光ファイバー ネットワークで接続された 2 つのネットワークのように、高速で遅延の少ないネットワークによる良好な接続が保たれているコンピューターの集合です。 Lync Server サイトは、Active Directory ドメインサービスサイトと Microsoft Exchange Server サイトとは別の概念であることに注意してください。 Lync Server サイトは、Active Directory サイトに対応する必要はありません。
 
 <div>
 

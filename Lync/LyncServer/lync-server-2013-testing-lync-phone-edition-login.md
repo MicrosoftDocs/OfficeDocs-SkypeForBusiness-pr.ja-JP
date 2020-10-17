@@ -12,20 +12,22 @@ ms:contentKeyID: 63969583
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce22e6c7f5fb48132f3f67c79c33daaa568d93ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2b55ef9024caedaecb27bba3e01eb2bde5181fca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194060"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519024"
 ---
+# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a>Lync Server 2013 での Lync Phone Edition ログインのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a>Lync Server 2013 での Lync Phone Edition ログインのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsPhoneBootstrap コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsPhoneBootstrap コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPhoneBootstrap&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Test-CsPhoneBootstrap コマンドレットを使用すると、管理者は、特定のユーザー (自分に割り当てられている電話番号と PIN を使用) が Lync 2013 Phone Edition 互換デバイスからシステムにログオンできるかどうかを確認できます。 (テストを実行するために実際に必要なデバイスはありません)。
+Test-CsPhoneBootstrap コマンドレットを使用すると、管理者は、特定のユーザー (自分に割り当てられた電話番号と PIN を使用して) が Lync 2013 Phone Edition 互換デバイスからシステムにログオンできるかどうかを確認できます。 (テストを実行するために実際に必要なデバイスはありません)。
 
-Test-CsPhoneBootstrap でチェックを実行できるようにするには、テスト対象のユーザー アカウントをホストするレジストラー プールが DHCP を使用して検出できる必要があります。 この方法でレジストラーが検出可能かどうかを判断するには、コマンドレット Get-csregistrarconfiguration を使用して、EnableDHCPServer プロパティの値を確認します。 このプロパティが False に設定されている場合は、Get-csregistrarconfiguration を使用してプロパティ値を True に設定し、DHCP を使用してレジストラーを検出可能にする必要があります。 これは、エンタープライズ DHCP サーバーを使用して、Lync Server 固有のオプションを構成することによっても実行できます。
+Test-CsPhoneBootstrap でチェックを実行できるようにするには、テスト対象のユーザー アカウントをホストするレジストラー プールが DHCP を使用して検出できる必要があります。 この方法でレジストラーが検出可能かどうかを判断するには、コマンドレット Get-CsRegistrarConfiguration を使用して、EnableDHCPServer プロパティの値を確認します。 このプロパティが False に設定されている場合は、Set-CsRegistrarConfiguration を使用してプロパティ値を True に設定し、DHCP を使用してレジストラーを検出可能にする必要があります。 これは、エンタープライズ DHCP サーバーを使用して、Lync Server 固有のオプションを構成することによっても実行できます。
 
 </div>
 
@@ -84,7 +86,7 @@ Test-CsPhoneBootstrap コマンドレットを実行するには、少なくと�
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712" -UserSipAddress "sip:kenmyer@litwareinc.com"
 
-詳細については、「 [Test-CsPhoneBootstrap](https://docs.microsoft.com/powershell/module/skype/Test-CsPhoneBootstrap)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsPhoneBootstrap](https://docs.microsoft.com/powershell/module/skype/Test-CsPhoneBootstrap) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -92,9 +94,9 @@ Test-CsPhoneBootstrap コマンドレットを実行するには、少なくと�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定されたユーザーが Lync Server に接続できた場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい**ます。**
+指定されたユーザーが Lync Server に接続できた場合は、次のような出力が得られます。 Result プロパティは Success としてマークされてい **ます。**
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/CertProv/
+TargetUri https://atl-cs-001.litwareinc.com:443/CertProv/
 
 Certプロビジョニングサービス svc
 
@@ -116,7 +118,7 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 待機時間:00:00: 04.1993845
 
-エラー: Web チケットサービスの応答が受信されませんでした。
+エラー: Web-Ticket サービスの応答が受信されませんでした。
 
 分析
 
@@ -128,23 +130,23 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
     Get-CsClientPinInfo -Identity "sip:kenmyer@litwareinc.com" 
 
-テスト-CsPhoneBootstrap が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsPhoneBootstrap が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712" -Verbose
 
-Verbose パラメーターを指定すると、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各操作のステップバイステップのアカウントが返されます。 たとえば、正しくない PIN が含まれているセッションで、ログオンが失敗した場合の出力の一部を次に示します。
+Verbose パラメーターが含まれている場合、Test-CsPhoneBootstrap は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各アクションのステップバイステップのアカウントを返します。 たとえば、正しくない PIN が含まれているセッションで、ログオンが失敗した場合の出力の一部を次に示します。
 
-\\内線番号での pin 認証の使用: 12065551219 ピン: 0712
+内線番号での PIN 認証の使用 \\ : 12065551219 ピン: 0712
 
 Web チケットを取得できませんでした
 
 確かめ
 
-\-Web サービスの url が有効で、web サービスが機能している
+\- Web サービスの url が有効で、web サービスが機能している
 
-\-PhoneNo\\PIN を使用して認証する場合は、ユーザーの uri と一致していることを確認してください。
+\- PhoneNo PIN を使用して \\ 認証する場合は、ユーザーの uri と一致していることを確認してください。
 
-\-NTLM\\Kerberos 認証を使用している場合は、有効な資格情報を入力してください。
+\- NTLM Kerberos 認証を使用している場合は \\ 、有効な資格情報を入力してください。
 
 </div>
 
@@ -152,7 +154,7 @@ Web チケットを取得できませんでした
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-テスト、CsPhoneBootstrap が失敗する原因としては、次のようなものがあります。
+Test-CsPhoneBootstrap が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効な SIP アドレスを指定した可能性があります。 次のようなコマンドを使用して、SIP アドレスが正しいことを確認できます。
     
@@ -166,7 +168,7 @@ Web チケットを取得できませんでした
     
         Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object LineUri
 
-  - レジストラープールは DHCP 対応になっていません。 レジストラープールが DHCP に対して有効になっているかどうかを確認するには、Get-csregistrarconfiguration コマンドレットを実行し、EnableDHCPServer プロパティの値を確認します。 次に例を示します。
+  - レジストラープールは DHCP 対応になっていません。 レジストラープールが DHCP に対して有効になっているかどうかを確認するには、Get-CsRegistrarConfiguration コマンドレットを実行し、EnableDHCPServer プロパティの値を確認します。 次に例を示します。
     
         Get-CsRegistrarConfiguration -Identity "global"
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f31159a2d14facbdfed2f74f3567081699a7bde9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8d9bbf5ea35b6b24180f7853fd3715ad95973051
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181840"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519654"
 ---
+# <a name="sip-trunking-support-in-lync-server-2013"></a>Lync Server 2013 での SIP トランキングのサポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunking-support-in-lync-server-2013"></a>Lync Server 2013 での SIP トランキングのサポート
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42181840"
 
 _**トピックの最終更新日:** 2012-10-03_
 
-SIP トランキングでエンタープライズ Voip を使用する場合は、仲介サーバーを展開して、他のインフラストラクチャとコンポーネントが展開モデルに適したサポート要件を満たしていることを確認する必要があります。 SIP トランキングを実装するかどうかを決定する方法の詳細については、「計画」のドキュメントの「 [Lync Server 2013 の sip トランキングの概要](lync-server-2013-overview-of-sip-trunking.md)」を参照してください。
+SIP トランキングでエンタープライズ Voip を使用する場合は、仲介サーバーを展開して、他のインフラストラクチャとコンポーネントが展開モデルに適したサポート要件を満たしていることを確認する必要があります。 SIP トランキングを実装するかどうかを決定する方法の詳細については、「計画」のドキュメントの「 [Lync Server 2013 の sip トランキングの概要](lync-server-2013-overview-of-sip-trunking.md) 」を参照してください。
 
-エンタープライズテレフォニーインフラストラクチャの Microsoft ユニファイドコミュニケーションプログラムを使用して、正規の公衆交換電話網 (PSTN) ゲートウェイ、IP-Pbx、および SIP トランキングサービス (修飾 IP テレフォニーを含む) を検索できます。サービスプロバイダー。 詳細については、「Microsoft 統合コミュニケーションオープン相互運用性[https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)プログラム web サイト」を参照してください。
+エンタープライズテレフォニーインフラストラクチャの Microsoft ユニファイドコミュニケーションプログラムを使用して、正規の公衆交換電話網 (PSTN) ゲートウェイ、IP-Pbx、および SIP トランキングサービス (修飾 IP テレフォニーサービスプロバイダーを含む) を検索できます。 詳細については、「Microsoft 統合コミュニケーションオープン相互運用性プログラム web サイト」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309) 。
 
 <div>
 
@@ -55,7 +57,7 @@ SIP トランキングを実装するには、仲介サーバーを経由して�
 
 ## <a name="centralized-vs-distributed-sip-trunking"></a>集中型と分散型 SIP トランキングの比較
 
-*一元*SIP トランキングは、データセンターを介して、ブランチサイトトラフィックを含むすべてのボイスオーバー Ip (VoIP) トラフィックをルーティングします。 一元展開モデルはシンプルで費用対効果があり、通常は、Lync Server 2013 で SIP トランクを実装するために推奨される方法です。
+*一元* SIP トランキングは、データセンターを介して、ブランチサイトトラフィックを含むすべてのボイスオーバー Ip (VoIP) トラフィックをルーティングします。 一元展開モデルはシンプルで費用対効果があり、通常は、Lync Server 2013 で SIP トランクを実装するために推奨される方法です。
 
 企業での使用パターンによっては、すべてのユーザーに集中型 SIP トランクを使用したくない場合があります。 必要性を分析するために、次の質問に回答してください。
 
@@ -95,7 +97,7 @@ Lync Server 2013 は、SIP トランキングに対して次の接続の種類�
 
   - 他のトラフィックを使用しないプライベート接続は、通常、最も信頼できるセキュアな接続の種類です (専用の光ファイバー接続、T1 回線など)。 この接続の種類には、最高の通話伝送能力がありますが、通常最も費用がかかります。 VPN は必要ありません。 プライベート接続は、通話件数が多いか、セキュリティと可用性の要件が厳しい組織に適しています。
 
-  - 公共のインターネットは、最も費用のかからない接続の種類ですが、最も信頼性が低く、通話伝送能力も最低です。 インターネットテレフォニーサービスプロバイダー (ITSP) は、トランスポート層セキュリティ (TLS) とセキュアリアルタイム転送プロトコル (SRTP) をサポートして、シグナリングとメディアトラフィックを暗号化する場合に、この SIP トランク接続の種類をセキュリティで保護するために役立ちます。 TLS および SRTP を使用するようにインターネット経由の SIP トランク接続を構成できない場合は、VPN トンネルを使用していっそう安全な接続を提供することを強くお勧めします。 ITSP が TLS と SRTP のサポートを提供しているかどうかを確認するには、ITSP に問い合わせてください。
+  - 公共のインターネットは、最も費用のかからない接続の種類ですが、最も信頼性が低く、通話伝送能力も最低です。 インターネットテレフォニーサービスプロバイダー (ITSP) は、トランスポート層セキュリティ (TLS) とセキュリティで保護された Real-Time トランスポートプロトコル (SRTP) をサポートして、シグナリングとメディアトラフィックを暗号化する場合に、この SIP トランク接続の種類をセキュリティで保護するために役立ちます。 TLS および SRTP を使用するようにインターネット経由の SIP トランク接続を構成できない場合は、VPN トンネルを使用していっそう安全な接続を提供することを強くお勧めします。 ITSP が TLS と SRTP のサポートを提供しているかどうかを確認するには、ITSP に問い合わせてください。
 
 <div>
 

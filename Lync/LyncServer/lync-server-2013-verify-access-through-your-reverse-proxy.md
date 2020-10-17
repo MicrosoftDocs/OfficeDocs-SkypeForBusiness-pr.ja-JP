@@ -12,20 +12,22 @@ ms:contentKeyID: 48183753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f7d061daedcdfabf4636c78a3a6a8bbe601903a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b8c8e4c92f0cdb9eb1b7070735882b43a308080
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518714"
 ---
+# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 でリバースプロキシ経由のアクセスを確認する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 でリバースプロキシ経由のアクセスを確認する
+
 
 </div>
 
@@ -45,15 +47,15 @@ _**トピックの最終更新日:** 2013-03-29_
 
   - Web ブラウザーを開き、アドレス帳ファイルや会議用の Web サイトにアクセスする際にクライアントが使用する URL を [**アドレス**] バーに入力します。以下に例を示します。
     
-      - アドレス帳サーバーの場合は、次のような URL を**https://externalwebfarmFQDN/abs**入力します。ここで、externalwebfarmFQDN は、アドレス帳サービスをホストする外部 web サービスの外部 FQDN です。 アドレス帳サーバーフォルダーのディレクトリセキュリティが既定で Windows 認証に構成されているため、ユーザーは HTTP チャレンジを受信する必要があります。
+      - アドレス帳サーバーの場合は、次のような URL を入力します。ここで、 **https://externalwebfarmFQDN/abs** externalwebfarmFQDN は、アドレス帳サービスをホストする外部 web サービスの外部 FQDN です。 アドレス帳サーバーフォルダーのディレクトリセキュリティが既定で Windows 認証に構成されているため、ユーザーは HTTP チャレンジを受信する必要があります。
     
-      - 会議の場合は、次のような URL を**https://externalwebfarmFQDN/meet**入力します。ここで、externalwebfarmFQDN は、会議コンテンツをホストする web ファームの外部 FQDN です。 この URL には、会議のトラブルシューティングのページが表示されます。 または、会議用の簡易 URL が正常に動作することを確認します。 会議参加の簡単な URL の例を次に示します。https://meet.contoso.com
+      - 会議の場合は、次のような URL を入力します。ここで、 **https://externalwebfarmFQDN/meet** externalwebfarmFQDN は、会議コンテンツをホストする web ファームの外部 FQDN です。 この URL には、会議のトラブルシューティングのページが表示されます。 または、会議用の簡易 URL が正常に動作することを確認します。 会議参加の簡単な URL の例を次に示します。 https://meet.contoso.com
     
-      - 配布グループの展開の場合は、次のような URL **https://externalwebfarmFQDN/GroupExpansion/service.svc**を入力します。 配布グループ拡張サービスのディレクトリセキュリティが既定で Windows 認証に構成されているため、ユーザーは HTTP チャレンジを受信する必要があります。
+      - 配布グループの展開の場合は、次のような URL を入力 **https://externalwebfarmFQDN/GroupExpansion/service.svc** します。 配布グループ拡張サービスのディレクトリセキュリティが既定で Windows 認証に構成されているため、ユーザーは HTTP チャレンジを受信する必要があります。
     
-      - ダイヤルインの場合、次**https://externalwebfarmFQDN/dialin**のような簡単な URL を入力します。ここで、externalwebfarmFQDN は、ダイヤルイン会議のダイヤルインページをホストする web ファームの外部 FQDN です。 ユーザーはダイヤルインのページに進みます。 または、簡易 URL でのダイヤルインが正常に動作することを確認します。 ダイヤルインの簡単な URL の例は、次のようになります。https://dialin.contoso.com
+      - ダイヤルインの場合、次のような簡単な URL を入力し **https://externalwebfarmFQDN/dialin** ます。ここで、externalwebfarmFQDN は、ダイヤルイン会議のダイヤルインページをホストする web ファームの外部 FQDN です。 ユーザーはダイヤルインのページに進みます。 または、簡易 URL でのダイヤルインが正常に動作することを確認します。 ダイヤルインの簡単な URL の例は、次のようになります。 https://dialin.contoso.com
     
-      - 自動検出 URL が機能していることをhttps://lyncdiscover確認するには、「」と入力します。 externaldomainFQDN。 ブラウザーからファイルを開くように求めるメッセージが表示されます。 [メモ帳] を選択して開きます。 通常の応答は次のようになります。
+      - 自動検出 URL が機能していることを確認するには、「」と入力 https://lyncdiscover します。 externaldomainFQDN。 ブラウザーからファイルを開くように求めるメッセージが表示されます。 [メモ帳] を選択して開きます。 通常の応答は次のようになります。
         
             {"AccessLocation":"External","Root":{"Links":[{"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/domain","token":"Domain"},
             {"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/user","token":"User"},

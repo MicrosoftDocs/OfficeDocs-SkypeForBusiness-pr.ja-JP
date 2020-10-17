@@ -12,20 +12,22 @@ ms:contentKeyID: 63969624
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f284332507d06bf9ef55abecc894b3047965472c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 83d5be38ecddad1f9388f5e2efb33994b49e4bfd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519214"
 ---
+# <a name="test-mobile-user-access-in-lync-server-2013"></a>Lync Server 2013 でのモバイルユーザーアクセスのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-user-access-in-lync-server-2013"></a>Lync Server 2013 でのモバイルユーザーアクセスのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-07_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsMcxConference コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsMcxConference コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -80,7 +82,7 @@ Mobility Service を使用すると、モバイルデバイスのユーザーは
 
 ## <a name="running-the-test"></a>テストの実行
 
-このチェックを実行するには、3つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次の例に示されているように、テスト用の資格情報オブジェクトと2つのアカウントの SIP アドレスを指定する必要があります。
+このチェックを実行するには、3つの Windows PowerShell credentials オブジェクト (アカウント名とパスワードを含むオブジェクト) を各アカウントに作成する必要があります。 次の例に示すように、Test-CsMcxConference を呼び出すときに、これらの資格情報オブジェクトと2つのアカウントの SIP アドレスを含める必要があります。
 
     $organizerCred = Get-Credential "litwareinc\kenmyer"
     $user1Cred = Get-Credential "litwareinc\packerman"
@@ -88,7 +90,7 @@ Mobility Service を使用すると、モバイルデバイスのユーザーは
     
     Test-CsMcxConference -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -OrganizerSipAddress "sip:kenmyer@litwareinc.com" -OrganizerCredential $organizerCred -UserSipAddress "sip:pilar@litwareinc.com" -UserCredential $user1Cred -User2SipAddress "sip:adelaney@litwareinc.com" -User2Credential $user2Cred
 
-詳細については、 [Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxConference)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxConference) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 
@@ -96,11 +98,11 @@ Mobility Service を使用すると、モバイルデバイスのユーザーは
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-チェックに成功した場合、テスト-CsMcxConference は成功のテスト結果を報告します。
+チェックに成功すると、Test-CsMcxConference は成功のテスト結果を報告します。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-ターゲット Uri:http://atl-cs-001.litwareinc.com:443/mcx
+ターゲット Uri: http://atl-cs-001.litwareinc.com:443/mcx
 
 結果: 成功
 
@@ -110,17 +112,17 @@ Mobility Service を使用すると、モバイルデバイスのユーザーは
 
 分析
 
-チェックが失敗した場合は、テストに失敗したことを示すテスト結果が報告されます。 通常、このテスト結果には、詳細なエラーメッセージと診断が伴います。 次に例を示します。
+チェックが失敗した場合 Test-CsMcxConference は失敗のテスト結果を報告します。 通常、このテスト結果には、詳細なエラーメッセージと診断が伴います。 以下に例を示します。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
-ターゲット Uri:https://atl-cs-001.litwareinc.com:443/mcx
+ターゲット Uri: https://atl-cs-001.litwareinc.com:443/mcx
 
 結果: エラー
 
 待機時間: 00:00:00
 
-エラーメッセージ: Web チケットサービスの応答が受信されていません。
+エラーメッセージ: Web-Ticket サービスの応答が受信されませんでした。
 
 内部例外: HHTP 要求はクライアントによって承認されていません
 
@@ -136,13 +138,13 @@ Mobility Service を使用すると、モバイルデバイスのユーザーは
 
 内部診断: atl-cs-001.litwareinc.com--サーバー-一方向の Db:
 
-キャッシュ制御: プライベート
+Cache-Control: private
 
 コンテンツタイプ: text/html。charset = utf-8。
 
 サーバー: Microsoft-IIS/8.5
 
-WWW-認証: Negotiate、NTLM
+WWW-Authenticate: Negotiate、NTLM
 
 X-Powered By: ASP.NET
 
@@ -158,7 +160,7 @@ X-コンテンツタイプ-オプション: nosniff
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-テスト-CsMcxConference が失敗した場合は、mobility service が実行されていてアクセス可能であることを確認することから開始する必要があります。 これを行うには、web ブラウザーを使用して、Lync Server プールの mobility service URL にアクセスできることを確認します。 たとえば、次のコマンドを実行すると、プール atl-cs-001.litwareinc.com の URL が確認されます。
+Test-CsMcxConference が失敗した場合は、mobility service が実行されていてアクセス可能であることを確認することから開始する必要があります。 これを行うには、web ブラウザーを使用して、Lync Server プールの mobility service URL にアクセスできることを確認します。 たとえば、次のコマンドを実行すると、プール atl-cs-001.litwareinc.com の URL が確認されます。
 
 `https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc`
 
@@ -170,13 +172,13 @@ Enabled プロパティが True と一致しない場合、またはコマンド
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-ポリシー名がわかったら、Get-csmobilitypolicy コマンドレットを使用して、対象のポリシー (RedmondMobilityPolicy など) に EnableMobility プロパティが True に設定されていることを確認します。
+ポリシー名を確認したら、Get-CsMobilityPolicy コマンドレットを使用して、対象のポリシー (たとえば、RedmondMobilityPolicy) に EnableMobility プロパティが True に設定されていることを確認します。
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-テスト-CsMcxConference 会議の実行時に "authentication header" というエラーメッセージが表示される場合は、ユーザー名とパスワードを確認してから、もう一度テストを実行してください。 ユーザーアカウントが有効であることを確信する場合は、Set-cswebserviceconfiguration コマンドレットを使用して、UseWindowsAuth プロパティの値を確認します。 これにより、組織内で有効になっている認証方法がわかります。
+Test-CsMcxConference を実行するときに "authentication header" というエラーメッセージが表示される場合は、有効なユーザーアカウントが指定されていないことを意味する場合は、ユーザー名とパスワードを確認して、もう一度テストを実行してください。 ユーザーアカウントが有効であることを確信する場合は、Get-CsWebServiceConfiguration コマンドレットを使用して、UseWindowsAuth プロパティの値を確認します。 これにより、組織内で有効になっている認証方法がわかります。
 
-Mobility service のトラブルシューティング方法に関するその他のヒントについては、ブログ投稿の「[外部 Lync モビリティ接続の問題のトラブルシューティング](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)」を参照してください。
+Mobility service のトラブルシューティング方法に関するその他のヒントについては、ブログ投稿の「 [外部 Lync モビリティ接続の問題のトラブルシューティング](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)」を参照してください。
 
 </div>
 

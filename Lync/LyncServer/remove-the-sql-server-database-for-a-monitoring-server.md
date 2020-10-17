@@ -12,20 +12,22 @@ ms:contentKeyID: 49733781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5f899fd36a985c124d5b0bfca899592eb9b7a17
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: dda833bd188eeaa2b969e8748bffb87944c5dc59
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757269"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518114"
 ---
+# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>監視サーバー用の SQL Server データベースの削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>監視サーバー用の SQL Server データベースの削除
+
 
 </div>
 
@@ -45,7 +47,7 @@ Microsoft Lync Server 2010 監視サーバーを削除した後、サーバー�
 
 1.  Lync Server 2013 フロントエンドサーバーで、トポロジビルダーを開きます。
 
-2.  トポロジビルダーで、[**共有コンポーネント**] に移動し、[ **sql server ストア**] をクリックし、削除または再構成された監視サーバーに関連付けられている sql server インスタンスを右クリックして、[**削除**] をクリックします。
+2.  トポロジビルダーで、[ **共有コンポーネント** ] に移動し、[ **sql server ストア**] をクリックし、削除または再構成された監視サーバーに関連付けられている sql server インスタンスを右クリックして、[ **削除**] をクリックします。
 
 3.  トポロジを公開し、レプリケーションの状態を確認します。
 

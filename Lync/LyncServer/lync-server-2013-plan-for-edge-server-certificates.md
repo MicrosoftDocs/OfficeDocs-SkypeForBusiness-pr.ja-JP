@@ -12,20 +12,22 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47ac330914a0d748c366d2a6e40ac0ad9f03543d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3fc6ab9bfb6d145b324c079e4bf746354e7329f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215483"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519854"
 ---
+# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>Lync Server 2013 でエッジサーバー証明書を計画する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>Lync Server 2013 でエッジサーバー証明書を計画する
+
 
 </div>
 
@@ -77,9 +79,9 @@ Lync Server 2013 では、エッジの証明書の作成が簡略化されてい
 
   - 証明書用に割り当てられたエクスポート可能な秘密キーがあることの確認
 
-  - アクセスエッジサービス (証明書ウィザードでは、 **SIP アクセスエッジ**と呼ばれる)
+  - アクセスエッジサービス (証明書ウィザードでは、 **SIP アクセスエッジ** と呼ばれる)
 
-  - Web 会議エッジサービス (証明書ウィザードの [ **Web 会議エッジ**] と呼ばれます)
+  - Web 会議エッジサービス (証明書ウィザードの [ **Web 会議エッジ** ] と呼ばれます)
 
   - 音声ビデオ認証サービス (証明書ウィザードでは、[**音声エッジ外部**] と呼ばれます)
 
