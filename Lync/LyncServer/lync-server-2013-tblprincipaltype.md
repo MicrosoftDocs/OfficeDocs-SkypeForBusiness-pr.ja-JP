@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblPrincipalType'
+description: 'Lync Server 2013: tblPrincipalType。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60fa841f7f88e0da2c428ae68c5007fb79e6c69d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ba0f607d4499b54b16d7ecf8a4e7de603e874788
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536324"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549863"
 ---
-# <a name="tblprincipaltype-in-lync-server-2013"></a><span data-ttu-id="e75f7-102">Lync Server 2013 の tblPrincipalType</span><span class="sxs-lookup"><span data-stu-id="e75f7-102">tblPrincipalType in Lync Server 2013</span></span>
+# <a name="tblprincipaltype-in-lync-server-2013"></a><span data-ttu-id="b309d-103">Lync Server 2013 の tblPrincipalType</span><span class="sxs-lookup"><span data-stu-id="b309d-103">tblPrincipalType in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48536324"
 
 <span> </span>
 
-<span data-ttu-id="e75f7-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="e75f7-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="b309d-104">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="b309d-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="e75f7-104">tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類するプリンシパル型が含まれます。</span><span class="sxs-lookup"><span data-stu-id="e75f7-104">tblPrincipalType contains principal types to categorize what is in the tblPrincipal table.</span></span>
+<span data-ttu-id="b309d-105">tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類するプリンシパル型が含まれます。</span><span class="sxs-lookup"><span data-stu-id="b309d-105">tblPrincipalType contains principal types to categorize what is in the tblPrincipal table.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="e75f7-105">段組み</span><span class="sxs-lookup"><span data-stu-id="e75f7-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="b309d-106">段組み</span><span class="sxs-lookup"><span data-stu-id="b309d-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,37 +52,37 @@ ms.locfileid: "48536324"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e75f7-106">Column</span><span class="sxs-lookup"><span data-stu-id="e75f7-106">Column</span></span></th>
-<th><span data-ttu-id="e75f7-107">種類</span><span class="sxs-lookup"><span data-stu-id="e75f7-107">Type</span></span></th>
-<th><span data-ttu-id="e75f7-108">説明</span><span class="sxs-lookup"><span data-stu-id="e75f7-108">Description</span></span></th>
+<th><span data-ttu-id="b309d-107">Column</span><span class="sxs-lookup"><span data-stu-id="b309d-107">Column</span></span></th>
+<th><span data-ttu-id="b309d-108">種類</span><span class="sxs-lookup"><span data-stu-id="b309d-108">Type</span></span></th>
+<th><span data-ttu-id="b309d-109">説明</span><span class="sxs-lookup"><span data-stu-id="b309d-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e75f7-109">Tblprincipaltype.ptypeid</span><span class="sxs-lookup"><span data-stu-id="e75f7-109">ptypeID</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-110">NULL でない smallint</span><span class="sxs-lookup"><span data-stu-id="e75f7-110">smallint, not null</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-111">プリンシパル型 ID。</span><span class="sxs-lookup"><span data-stu-id="e75f7-111">Principal type ID.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-110">Tblprincipaltype.ptypeid</span><span class="sxs-lookup"><span data-stu-id="b309d-110">ptypeID</span></span></p></td>
+<td><p><span data-ttu-id="b309d-111">NULL でない smallint</span><span class="sxs-lookup"><span data-stu-id="b309d-111">smallint, not null</span></span></p></td>
+<td><p><span data-ttu-id="b309d-112">プリンシパル型 ID。</span><span class="sxs-lookup"><span data-stu-id="b309d-112">Principal type ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e75f7-112">ptypeDesc</span><span class="sxs-lookup"><span data-stu-id="e75f7-112">ptypeDesc</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-113">NULL でない nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="e75f7-113">nvarchar (256), not null</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-114">型の説明。</span><span class="sxs-lookup"><span data-stu-id="e75f7-114">Description of the type.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-113">ptypeDesc</span><span class="sxs-lookup"><span data-stu-id="b309d-113">ptypeDesc</span></span></p></td>
+<td><p><span data-ttu-id="b309d-114">NULL でない nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="b309d-114">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="b309d-115">型の説明。</span><span class="sxs-lookup"><span data-stu-id="b309d-115">Description of the type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e75f7-115">ptypeIsSystemUser</span><span class="sxs-lookup"><span data-stu-id="e75f7-115">ptypeIsSystemUser</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-116">NULL でない bit</span><span class="sxs-lookup"><span data-stu-id="e75f7-116">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-117">型が内部の用途で使用されるプリンシパルに対応する場合、True。</span><span class="sxs-lookup"><span data-stu-id="e75f7-117">True if the type corresponds to the principals that are used for internal purposes.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-116">ptypeIsSystemUser</span><span class="sxs-lookup"><span data-stu-id="b309d-116">ptypeIsSystemUser</span></span></p></td>
+<td><p><span data-ttu-id="b309d-117">NULL でない bit</span><span class="sxs-lookup"><span data-stu-id="b309d-117">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="b309d-118">型が内部の用途で使用されるプリンシパルに対応する場合、True。</span><span class="sxs-lookup"><span data-stu-id="b309d-118">True if the type corresponds to the principals that are used for internal purposes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e75f7-118">ptypeIsUser</span><span class="sxs-lookup"><span data-stu-id="e75f7-118">ptypeIsUser</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-119">NULL でない bit</span><span class="sxs-lookup"><span data-stu-id="e75f7-119">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-120">型がユーザー型の場合、True。</span><span class="sxs-lookup"><span data-stu-id="e75f7-120">True if the type is a user type.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-119">ptypeIsUser</span><span class="sxs-lookup"><span data-stu-id="b309d-119">ptypeIsUser</span></span></p></td>
+<td><p><span data-ttu-id="b309d-120">NULL でない bit</span><span class="sxs-lookup"><span data-stu-id="b309d-120">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="b309d-121">型がユーザー型の場合、True。</span><span class="sxs-lookup"><span data-stu-id="b309d-121">True if the type is a user type.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="e75f7-121">キー</span><span class="sxs-lookup"><span data-stu-id="e75f7-121">Key</span></span>
+### <a name="key"></a><span data-ttu-id="b309d-122">キー</span><span class="sxs-lookup"><span data-stu-id="b309d-122">Key</span></span>
 
 <table>
 <colgroup>
@@ -90,20 +91,20 @@ ms.locfileid: "48536324"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e75f7-122">列</span><span class="sxs-lookup"><span data-stu-id="e75f7-122">Column</span></span></th>
-<th><span data-ttu-id="e75f7-123">説明</span><span class="sxs-lookup"><span data-stu-id="e75f7-123">Description</span></span></th>
+<th><span data-ttu-id="b309d-123">列</span><span class="sxs-lookup"><span data-stu-id="b309d-123">Column</span></span></th>
+<th><span data-ttu-id="b309d-124">説明</span><span class="sxs-lookup"><span data-stu-id="b309d-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e75f7-124">Tblprincipaltype.ptypeid</span><span class="sxs-lookup"><span data-stu-id="e75f7-124">ptypeID</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-125">主キー。</span><span class="sxs-lookup"><span data-stu-id="e75f7-125">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-125">Tblprincipaltype.ptypeid</span><span class="sxs-lookup"><span data-stu-id="b309d-125">ptypeID</span></span></p></td>
+<td><p><span data-ttu-id="b309d-126">主キー。</span><span class="sxs-lookup"><span data-stu-id="b309d-126">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="principal-values"></a><span data-ttu-id="e75f7-126">プリンシパル値</span><span class="sxs-lookup"><span data-stu-id="e75f7-126">Principal Values</span></span>
+### <a name="principal-values"></a><span data-ttu-id="b309d-127">プリンシパル値</span><span class="sxs-lookup"><span data-stu-id="b309d-127">Principal Values</span></span>
 
 <table>
 <colgroup>
@@ -114,59 +115,59 @@ ms.locfileid: "48536324"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e75f7-127">ID</span><span class="sxs-lookup"><span data-stu-id="e75f7-127">ID</span></span></th>
-<th><span data-ttu-id="e75f7-128">Role</span><span class="sxs-lookup"><span data-stu-id="e75f7-128">Role</span></span></th>
-<th><span data-ttu-id="e75f7-129">説明</span><span class="sxs-lookup"><span data-stu-id="e75f7-129">Description</span></span></th>
-<th><span data-ttu-id="e75f7-130">User</span><span class="sxs-lookup"><span data-stu-id="e75f7-130">User</span></span></th>
+<th><span data-ttu-id="b309d-128">ID</span><span class="sxs-lookup"><span data-stu-id="b309d-128">ID</span></span></th>
+<th><span data-ttu-id="b309d-129">Role</span><span class="sxs-lookup"><span data-stu-id="b309d-129">Role</span></span></th>
+<th><span data-ttu-id="b309d-130">説明</span><span class="sxs-lookup"><span data-stu-id="b309d-130">Description</span></span></th>
+<th><span data-ttu-id="b309d-131">User</span><span class="sxs-lookup"><span data-stu-id="b309d-131">User</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e75f7-131">1-d</span><span class="sxs-lookup"><span data-stu-id="e75f7-131">1</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-132">任意</span><span class="sxs-lookup"><span data-stu-id="e75f7-132">Any</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-p101">既知の型を持たない汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</span><span class="sxs-lookup"><span data-stu-id="e75f7-p101">Generic principal with no known type. Not used in tblPrincipal table.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-132">1-d</span><span class="sxs-lookup"><span data-stu-id="b309d-132">1</span></span></p></td>
+<td><p><span data-ttu-id="b309d-133">任意</span><span class="sxs-lookup"><span data-stu-id="b309d-133">Any</span></span></p></td>
+<td><p><span data-ttu-id="b309d-p101">既知の型を持たない汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</span><span class="sxs-lookup"><span data-stu-id="b309d-p101">Generic principal with no known type. Not used in tblPrincipal table.</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e75f7-135">pbm-2</span><span class="sxs-lookup"><span data-stu-id="e75f7-135">2</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-136">AnyUser</span><span class="sxs-lookup"><span data-stu-id="e75f7-136">AnyUser</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-p102">ユーザー型の汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</span><span class="sxs-lookup"><span data-stu-id="e75f7-p102">Generic principal of user type. Not used in tblPrincipal table.</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-139">はい</span><span class="sxs-lookup"><span data-stu-id="e75f7-139">Yes</span></span></p></td>
+<td><p><span data-ttu-id="b309d-136">pbm-2</span><span class="sxs-lookup"><span data-stu-id="b309d-136">2</span></span></p></td>
+<td><p><span data-ttu-id="b309d-137">AnyUser</span><span class="sxs-lookup"><span data-stu-id="b309d-137">AnyUser</span></span></p></td>
+<td><p><span data-ttu-id="b309d-p102">ユーザー型の汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</span><span class="sxs-lookup"><span data-stu-id="b309d-p102">Generic principal of user type. Not used in tblPrincipal table.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-140">はい</span><span class="sxs-lookup"><span data-stu-id="b309d-140">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e75f7-140">1/3</span><span class="sxs-lookup"><span data-stu-id="e75f7-140">3</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-141">AnyGroup</span><span class="sxs-lookup"><span data-stu-id="e75f7-141">AnyGroup</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-p103">グループ セマンティックを持つ汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</span><span class="sxs-lookup"><span data-stu-id="e75f7-p103">Generic principal with group semantic. Not used in tblPrincipal table.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-141">1/3</span><span class="sxs-lookup"><span data-stu-id="b309d-141">3</span></span></p></td>
+<td><p><span data-ttu-id="b309d-142">AnyGroup</span><span class="sxs-lookup"><span data-stu-id="b309d-142">AnyGroup</span></span></p></td>
+<td><p><span data-ttu-id="b309d-p103">グループ セマンティックを持つ汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。</span><span class="sxs-lookup"><span data-stu-id="b309d-p103">Generic principal with group semantic. Not used in tblPrincipal table.</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e75f7-144">4 </span><span class="sxs-lookup"><span data-stu-id="e75f7-144">4</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-145">自分のもの</span><span class="sxs-lookup"><span data-stu-id="e75f7-145">SystemUser</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-146">常設チャットサーバーによって内部的に使用されるプリンシパル。</span><span class="sxs-lookup"><span data-stu-id="e75f7-146">Principal used internally by Persistent Chat Server.</span></span></p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="e75f7-147">5 </span><span class="sxs-lookup"><span data-stu-id="e75f7-147">5</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-148">User</span><span class="sxs-lookup"><span data-stu-id="e75f7-148">User</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-149">標準のユーザー</span><span class="sxs-lookup"><span data-stu-id="e75f7-149">Regular user.</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-150">はい</span><span class="sxs-lookup"><span data-stu-id="e75f7-150">Yes</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="e75f7-151">8 </span><span class="sxs-lookup"><span data-stu-id="e75f7-151">8</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-152">DC</span><span class="sxs-lookup"><span data-stu-id="e75f7-152">DC</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-153">Active Directory ドメインサービスのドメインコントローラー。</span><span class="sxs-lookup"><span data-stu-id="e75f7-153">Active Directory Domain Services domain controller.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-145">4 </span><span class="sxs-lookup"><span data-stu-id="b309d-145">4</span></span></p></td>
+<td><p><span data-ttu-id="b309d-146">自分のもの</span><span class="sxs-lookup"><span data-stu-id="b309d-146">SystemUser</span></span></p></td>
+<td><p><span data-ttu-id="b309d-147">常設チャットサーバーによって内部的に使用されるプリンシパル。</span><span class="sxs-lookup"><span data-stu-id="b309d-147">Principal used internally by Persistent Chat Server.</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e75f7-154">9 </span><span class="sxs-lookup"><span data-stu-id="e75f7-154">9</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-155">グループ</span><span class="sxs-lookup"><span data-stu-id="e75f7-155">Group</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-156">Active Directory セキュリティ グループ。</span><span class="sxs-lookup"><span data-stu-id="e75f7-156">Active Directory security group.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-148">5 </span><span class="sxs-lookup"><span data-stu-id="b309d-148">5</span></span></p></td>
+<td><p><span data-ttu-id="b309d-149">User</span><span class="sxs-lookup"><span data-stu-id="b309d-149">User</span></span></p></td>
+<td><p><span data-ttu-id="b309d-150">標準のユーザー</span><span class="sxs-lookup"><span data-stu-id="b309d-150">Regular user.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-151">はい</span><span class="sxs-lookup"><span data-stu-id="b309d-151">Yes</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b309d-152">8 </span><span class="sxs-lookup"><span data-stu-id="b309d-152">8</span></span></p></td>
+<td><p><span data-ttu-id="b309d-153">DC</span><span class="sxs-lookup"><span data-stu-id="b309d-153">DC</span></span></p></td>
+<td><p><span data-ttu-id="b309d-154">Active Directory ドメインサービスのドメインコントローラー。</span><span class="sxs-lookup"><span data-stu-id="b309d-154">Active Directory Domain Services domain controller.</span></span></p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b309d-155">9 </span><span class="sxs-lookup"><span data-stu-id="b309d-155">9</span></span></p></td>
+<td><p><span data-ttu-id="b309d-156">グループ</span><span class="sxs-lookup"><span data-stu-id="b309d-156">Group</span></span></p></td>
+<td><p><span data-ttu-id="b309d-157">Active Directory セキュリティ グループ。</span><span class="sxs-lookup"><span data-stu-id="b309d-157">Active Directory security group.</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e75f7-157">10  </span><span class="sxs-lookup"><span data-stu-id="e75f7-157">10</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-158">フォルダー</span><span class="sxs-lookup"><span data-stu-id="e75f7-158">Folder</span></span></p></td>
-<td><p><span data-ttu-id="e75f7-159">Active Directory コンテナーまたは組織単位。</span><span class="sxs-lookup"><span data-stu-id="e75f7-159">Active Directory container or organizational unit.</span></span></p></td>
+<td><p><span data-ttu-id="b309d-158">10  </span><span class="sxs-lookup"><span data-stu-id="b309d-158">10</span></span></p></td>
+<td><p><span data-ttu-id="b309d-159">フォルダー</span><span class="sxs-lookup"><span data-stu-id="b309d-159">Folder</span></span></p></td>
+<td><p><span data-ttu-id="b309d-160">Active Directory コンテナーまたは組織単位。</span><span class="sxs-lookup"><span data-stu-id="b309d-160">Active Directory container or organizational unit.</span></span></p></td>
 <td></td>
 </tr>
 </tbody>
@@ -175,10 +176,10 @@ ms.locfileid: "48536324"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e75f7-160">関連項目</span><span class="sxs-lookup"><span data-stu-id="e75f7-160">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b309d-161">関連項目</span><span class="sxs-lookup"><span data-stu-id="b309d-161">See Also</span></span>
 
 
-[<span data-ttu-id="e75f7-161">Lync Server 2013 の tblPrincipal</span><span class="sxs-lookup"><span data-stu-id="e75f7-161">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)  
+[<span data-ttu-id="b309d-162">Lync Server 2013 の tblPrincipal</span><span class="sxs-lookup"><span data-stu-id="b309d-162">tblPrincipal in Lync Server 2013</span></span>](lync-server-2013-tblprincipal.md)  
   
 
 </div>

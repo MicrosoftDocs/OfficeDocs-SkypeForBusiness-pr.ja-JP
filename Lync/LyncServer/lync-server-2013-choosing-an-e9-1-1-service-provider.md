@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: E9-1-1 サービスプロバイダーの選択'
+description: 'Lync Server 2013: E9-1-1 サービスプロバイダーの選択。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184198
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d15c3283cb775dd052843eac4a279ce4390bbd81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 01cadd501f08c17f9f0b9494de0cd6ef86ae4b2e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529374"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549663"
 ---
-# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a><span data-ttu-id="966bd-102">Lync Server 2013 の E9-1-1 サービスプロバイダーの選択</span><span class="sxs-lookup"><span data-stu-id="966bd-102">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>
+# <a name="choosing-an-e9-1-1-service-provider-for-lync-server-2013"></a><span data-ttu-id="9b2c1-103">Lync Server 2013 の E9-1-1 サービスプロバイダーの選択</span><span class="sxs-lookup"><span data-stu-id="9b2c1-103">Choosing an E9-1-1 service provider for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48529374"
 
 <span> </span>
 
-<span data-ttu-id="966bd-103">_**トピックの最終更新日:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="966bd-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="9b2c1-104">_**トピックの最終更新日:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="9b2c1-104">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="966bd-104">E9-1-1 サービスプロバイダーは、Lync Server からの緊急通話を、通話に含まれる場所情報に基づいて正しいパブリック安全応答ポイント (PSAP) にルーティングします。</span><span class="sxs-lookup"><span data-stu-id="966bd-104">The E9-1-1 service provider routes emergency calls originating from Lync Server to the correct Public Safety Answering Point (PSAP) based on the location information contained within the call.</span></span>
+<span data-ttu-id="9b2c1-105">E9-1-1 サービスプロバイダーは、Lync Server からの緊急通話を、通話に含まれる場所情報に基づいて正しいパブリック安全応答ポイント (PSAP) にルーティングします。</span><span class="sxs-lookup"><span data-stu-id="9b2c1-105">The E9-1-1 service provider routes emergency calls originating from Lync Server to the correct Public Safety Answering Point (PSAP) based on the location information contained within the call.</span></span>
 
-<span data-ttu-id="966bd-105">Lync Server 展開の一部として E9-1-1 をサポートするには、Lync Open 相互運用性プログラムの認定 E9-1-1 サービスプロバイダーから E9-1-1 ルーティングサービスを取得する必要があります。</span><span class="sxs-lookup"><span data-stu-id="966bd-105">To support E9-1-1 as part of a Lync Server deployment, you must obtain E9-1-1 routing service from a Lync Open Interoperability Program qualified E9-1-1 service provider.</span></span> <span data-ttu-id="966bd-106">組織の要件に最も適したプロバイダーを選択してください。</span><span class="sxs-lookup"><span data-stu-id="966bd-106">Choose the provider that best fits your organizational requirements.</span></span>
+<span data-ttu-id="9b2c1-106">Lync Server 展開の一部として E9-1-1 をサポートするには、Lync Open 相互運用性プログラムの認定 E9-1-1 サービスプロバイダーから E9-1-1 ルーティングサービスを取得する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9b2c1-106">To support E9-1-1 as part of a Lync Server deployment, you must obtain E9-1-1 routing service from a Lync Open Interoperability Program qualified E9-1-1 service provider.</span></span> <span data-ttu-id="9b2c1-107">組織の要件に最も適したプロバイダーを選択してください。</span><span class="sxs-lookup"><span data-stu-id="9b2c1-107">Choose the provider that best fits your organizational requirements.</span></span>
 
 </div>
 

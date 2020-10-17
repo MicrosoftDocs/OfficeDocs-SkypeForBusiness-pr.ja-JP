@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ディレクターに必要なコンポーネント'
+description: 'Lync Server 2013: ディレクターに必要なコンポーネント。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a1461e7edb0b90d7cb3bf3a7238e764a900e50b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 57f717b9ddb9557f212321cdab075713a4b85c2d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502414"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549503"
 ---
-# <a name="components-required-for-the-director-in-lync-server-2013"></a><span data-ttu-id="a9bd5-102">Lync Server 2013 のディレクターに必要なコンポーネント</span><span class="sxs-lookup"><span data-stu-id="a9bd5-102">Components required for the Director in Lync Server 2013</span></span>
+# <a name="components-required-for-the-director-in-lync-server-2013"></a><span data-ttu-id="9539b-103">Lync Server 2013 のディレクターに必要なコンポーネント</span><span class="sxs-lookup"><span data-stu-id="9539b-103">Components required for the Director in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,35 +38,35 @@ ms.locfileid: "48502414"
 
 <span> </span>
 
-<span data-ttu-id="a9bd5-103">_**トピックの最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="a9bd5-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="9539b-104">_**トピックの最終更新日:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="9539b-104">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="a9bd5-104">ディレクターを作成して構成するために必要なコンポーネントは、ディレクターサーバーの役割を展開することだけです。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-104">The only component required to create and configure a Director is to deploy the Director server role.</span></span> <span data-ttu-id="a9bd5-105">これを行うには、トポロジビルダーを使用して、ディレクタープールノードに1台のコンピュータープールまたは複数のコンピュータープールを定義します。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-105">You do this by using Topology Builder and define either a single computer pool or a multiple computer pool in the Director pool node.</span></span> <span data-ttu-id="a9bd5-106">ディレクターまたはディレクタープールを定義した後、ディレクターになるコンピューターで Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-106">After you have defined the Director or Director pool, run the Lync Server Deployment Wizard on the computer that will be a Director.</span></span> <span data-ttu-id="a9bd5-107">ディレクタープールの場合は、プールのメンバーになる各サーバーで Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-107">In the case of a Director pool, you run the Lync Server Deployment Wizard on each server that will be a member of the pool.</span></span>
+<span data-ttu-id="9539b-105">ディレクターを作成して構成するために必要なコンポーネントは、ディレクターサーバーの役割を展開することだけです。</span><span class="sxs-lookup"><span data-stu-id="9539b-105">The only component required to create and configure a Director is to deploy the Director server role.</span></span> <span data-ttu-id="9539b-106">これを行うには、トポロジビルダーを使用して、ディレクタープールノードに1台のコンピュータープールまたは複数のコンピュータープールを定義します。</span><span class="sxs-lookup"><span data-stu-id="9539b-106">You do this by using Topology Builder and define either a single computer pool or a multiple computer pool in the Director pool node.</span></span> <span data-ttu-id="9539b-107">ディレクターまたはディレクタープールを定義した後、ディレクターになるコンピューターで Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="9539b-107">After you have defined the Director or Director pool, run the Lync Server Deployment Wizard on the computer that will be a Director.</span></span> <span data-ttu-id="9539b-108">ディレクタープールの場合は、プールのメンバーになる各サーバーで Lync Server 展開ウィザードを実行します。</span><span class="sxs-lookup"><span data-stu-id="9539b-108">In the case of a Director pool, you run the Lync Server Deployment Wizard on each server that will be a member of the pool.</span></span>
 
 <div>
 
-## <a name="topologies"></a><span data-ttu-id="a9bd5-108">テクノロジ</span><span class="sxs-lookup"><span data-stu-id="a9bd5-108">Topologies</span></span>
+## <a name="topologies"></a><span data-ttu-id="9539b-109">テクノロジ</span><span class="sxs-lookup"><span data-stu-id="9539b-109">Topologies</span></span>
 
-<span data-ttu-id="a9bd5-109">単一のディレクターサーバーまたはディレクタープールを実装できます。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-109">You can implement a single Director server or a Director pool.</span></span> <span data-ttu-id="a9bd5-110">ディレクターは常に別個のサーバーまたはプールで、Lync Server 2013 の他のサーバーの役割とは併置されていません。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-110">The Director is always a separate server or pool, not collocated with any other server role in Lync Server 2013.</span></span>
+<span data-ttu-id="9539b-110">単一のディレクターサーバーまたはディレクタープールを実装できます。</span><span class="sxs-lookup"><span data-stu-id="9539b-110">You can implement a single Director server or a Director pool.</span></span> <span data-ttu-id="9539b-111">ディレクターは常に別個のサーバーまたはプールで、Lync Server 2013 の他のサーバーの役割とは併置されていません。</span><span class="sxs-lookup"><span data-stu-id="9539b-111">The Director is always a separate server or pool, not collocated with any other server role in Lync Server 2013.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="a9bd5-111">ディレクターを展開しない場合は、フロントエンドサーバーまたはフロントエンドプールがディレクターの役割を引き受けます。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-111">If you do not deploy Directors, the Front End Server or Front End pool will assume the Director role.</span></span>
+> <span data-ttu-id="9539b-112">ディレクターを展開しない場合は、フロントエンドサーバーまたはフロントエンドプールがディレクターの役割を引き受けます。</span><span class="sxs-lookup"><span data-stu-id="9539b-112">If you do not deploy Directors, the Front End Server or Front End pool will assume the Director role.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="a9bd5-112">ディレクターのプールは負荷分散されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-112">A pool of Directors must be load balanced.</span></span> <span data-ttu-id="a9bd5-113">これには次のどちらかの方法を使用します。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-113">You can do one of the following:</span></span>
+<span data-ttu-id="9539b-113">ディレクターのプールは負荷分散されている必要があります。</span><span class="sxs-lookup"><span data-stu-id="9539b-113">A pool of Directors must be load balanced.</span></span> <span data-ttu-id="9539b-114">これには次のどちらかの方法を使用します。</span><span class="sxs-lookup"><span data-stu-id="9539b-114">You can do one of the following:</span></span>
 
-  - <span data-ttu-id="a9bd5-114">Web サービスおよびドメイン ネーム システム (DNS) の負荷分散用のロード バランサー機器を他の種類のトラフィックに使用するトポロジを作成する。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-114">Create a topology that uses a hardware load balancer for web services and Domain Name System (DNS) load balancing for the other traffic types.</span></span>
+  - <span data-ttu-id="9539b-115">Web サービスおよびドメイン ネーム システム (DNS) の負荷分散用のロード バランサー機器を他の種類のトラフィックに使用するトポロジを作成する。</span><span class="sxs-lookup"><span data-stu-id="9539b-115">Create a topology that uses a hardware load balancer for web services and Domain Name System (DNS) load balancing for the other traffic types.</span></span>
     
-    [<span data-ttu-id="a9bd5-115">拡張ディレクタープール-Lync Server 2013 での DNS 負荷分散とロードバランサー機器</span><span class="sxs-lookup"><span data-stu-id="a9bd5-115">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+    [<span data-ttu-id="9539b-116">拡張ディレクタープール-Lync Server 2013 での DNS 負荷分散とロードバランサー機器</span><span class="sxs-lookup"><span data-stu-id="9539b-116">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
-  - <span data-ttu-id="a9bd5-116">ディレクタープールに必要な負荷分散のためにロードバランサー機器を使用するトポロジを作成します。</span><span class="sxs-lookup"><span data-stu-id="a9bd5-116">Create a topology that uses a hardware load balancer for load balancing needed for the Director pool.</span></span>
+  - <span data-ttu-id="9539b-117">ディレクタープールに必要な負荷分散のためにロードバランサー機器を使用するトポロジを作成します。</span><span class="sxs-lookup"><span data-stu-id="9539b-117">Create a topology that uses a hardware load balancer for load balancing needed for the Director pool.</span></span>
     
-    [<span data-ttu-id="a9bd5-117">拡張ディレクタープール-Lync Server 2013 のハードウェアロードバランサー</span><span class="sxs-lookup"><span data-stu-id="a9bd5-117">Scaled Director pool - hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+    [<span data-ttu-id="9539b-118">拡張ディレクタープール-Lync Server 2013 のハードウェアロードバランサー</span><span class="sxs-lookup"><span data-stu-id="9539b-118">Scaled Director pool - hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 
