@@ -12,20 +12,22 @@ ms:contentKeyID: 49733636
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c61c6c9c27fb6ba642a8996588dc2e4a3c3c42d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 453d66d35d02d6b0e91f0c6b82b1ccfe71f149b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211273"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535604"
 ---
+# <a name="viewing-network-subnet-information-in-lync-server-2013"></a><span data-ttu-id="14ed6-102">Lync Server 2013 でのネットワークサブネット情報の表示</span><span class="sxs-lookup"><span data-stu-id="14ed6-102">Viewing network subnet information in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-subnet-information-in-lync-server-2013"></a><span data-ttu-id="07e25-102">Lync Server 2013 でのネットワークサブネット情報の表示</span><span class="sxs-lookup"><span data-stu-id="07e25-102">Viewing network subnet information in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,50 +37,50 @@ ms.locfileid: "42211273"
 
 <span> </span>
 
-<span data-ttu-id="07e25-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="07e25-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="14ed6-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="14ed6-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="07e25-104">次の手順を使用して、ネットワーク サブネットを表示できます。</span><span class="sxs-lookup"><span data-stu-id="07e25-104">You can use the following procedure to view a network subnet.</span></span> <span data-ttu-id="07e25-105">Lync Server コントロールパネルから、ネットワークサブネットを作成、変更、または削除することができます。</span><span class="sxs-lookup"><span data-stu-id="07e25-105">From the Lync Server Control Panel, you can create, modify, or delete a network subnet.</span></span> <span data-ttu-id="07e25-106">ネットワークサブネットの作成または変更の詳細については、「 [Lync Server 2013 でネットワークサブネットを作成または変更](lync-server-2013-create-or-modify-network-subnets.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="07e25-106">For details about creating or modifying network subnets, see [Create or modify network subnets in Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).</span></span>
+<span data-ttu-id="14ed6-104">次の手順を使用して、ネットワーク サブネットを表示できます。</span><span class="sxs-lookup"><span data-stu-id="14ed6-104">You can use the following procedure to view a network subnet.</span></span> <span data-ttu-id="14ed6-105">Lync Server コントロールパネルから、ネットワークサブネットを作成、変更、または削除することができます。</span><span class="sxs-lookup"><span data-stu-id="14ed6-105">From the Lync Server Control Panel, you can create, modify, or delete a network subnet.</span></span> <span data-ttu-id="14ed6-106">ネットワークサブネットの作成または変更の詳細については、「 [Lync Server 2013 でネットワークサブネットを作成または変更](lync-server-2013-create-or-modify-network-subnets.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="14ed6-106">For details about creating or modifying network subnets, see [Create or modify network subnets in Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).</span></span>
 
 <div>
 
-## <a name="to-view-a-network-subnet"></a><span data-ttu-id="07e25-107">ネットワーク サブネットを表示するには</span><span class="sxs-lookup"><span data-stu-id="07e25-107">To view a network subnet</span></span>
+## <a name="to-view-a-network-subnet"></a><span data-ttu-id="14ed6-107">ネットワーク サブネットを表示するには</span><span class="sxs-lookup"><span data-stu-id="14ed6-107">To view a network subnet</span></span>
 
-1.  <span data-ttu-id="07e25-108">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="07e25-108">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="14ed6-108">RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="14ed6-108">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="07e25-109">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="07e25-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="07e25-110">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="07e25-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="14ed6-109">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="14ed6-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="14ed6-110">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="14ed6-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="07e25-111">左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="07e25-111">In the left navigation bar, click **Network Configuration** and then click **Subnet**.</span></span>
+3.  <span data-ttu-id="14ed6-111">左側のナビゲーション バーで [**ネットワーク構成**] をクリックし、[**サブネット**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="14ed6-111">In the left navigation bar, click **Network Configuration** and then click **Subnet**.</span></span>
 
-4.  <span data-ttu-id="07e25-112">[**サブネット**] ページで、表示するサブネットをクリックします。</span><span class="sxs-lookup"><span data-stu-id="07e25-112">On the **Subnet** page, click the subnet that you want to view.</span></span>
+4.  <span data-ttu-id="14ed6-112">[**サブネット**] ページで、表示するサブネットをクリックします。</span><span class="sxs-lookup"><span data-stu-id="14ed6-112">On the **Subnet** page, click the subnet that you want to view.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="07e25-113">一度に表示できるのは 1 つのサブネットのみです。</span><span class="sxs-lookup"><span data-stu-id="07e25-113">You can only view one subnet at a time.</span></span>
+    > <span data-ttu-id="14ed6-113">一度に表示できるのは 1 つのサブネットのみです。</span><span class="sxs-lookup"><span data-stu-id="14ed6-113">You can only view one subnet at a time.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="07e25-114">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="07e25-114">On the **Edit** menu, click **Show details…**.</span></span>
+5.  <span data-ttu-id="14ed6-114">[**編集**] メニューの [**詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="14ed6-114">On the **Edit** menu, click **Show details…**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="07e25-115">Windows PowerShell コマンドレットを使用してネットワークサブネット構成情報を表示する</span><span class="sxs-lookup"><span data-stu-id="07e25-115">Viewing Network Subnet Configuration Information by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="14ed6-115">Windows PowerShell コマンドレットを使用してネットワークサブネット構成情報を表示する</span><span class="sxs-lookup"><span data-stu-id="14ed6-115">Viewing Network Subnet Configuration Information by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="07e25-116">ネットワークサブネット情報は、Windows PowerShell と、-CsNetworkSubnet コマンドレットを使用して表示できます。</span><span class="sxs-lookup"><span data-stu-id="07e25-116">Network subnet information can be viewed by using Windows PowerShell and the Get-CsNetworkSubnet cmdlet.</span></span> <span data-ttu-id="07e25-117">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="07e25-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="07e25-118">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="07e25-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="14ed6-116">ネットワークサブネット情報は、Windows PowerShell と Get-CsNetworkSubnet コマンドレットを使用して表示できます。</span><span class="sxs-lookup"><span data-stu-id="14ed6-116">Network subnet information can be viewed by using Windows PowerShell and the Get-CsNetworkSubnet cmdlet.</span></span> <span data-ttu-id="14ed6-117">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="14ed6-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="14ed6-118">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="14ed6-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-network-subnet-information"></a><span data-ttu-id="07e25-119">ネットワークサブネット情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="07e25-119">To view network subnet information</span></span>
+## <a name="to-view-network-subnet-information"></a><span data-ttu-id="14ed6-119">ネットワークサブネット情報を表示するには</span><span class="sxs-lookup"><span data-stu-id="14ed6-119">To view network subnet information</span></span>
 
-  - <span data-ttu-id="07e25-120">すべてのネットワークサブネットに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="07e25-120">To view information about all your network subnets, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="14ed6-120">すべてのネットワークサブネットに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="14ed6-120">To view information about all your network subnets, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsNetworkSubnet
     
-    <span data-ttu-id="07e25-121">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="07e25-121">That will return information similar to this:</span></span>
+    <span data-ttu-id="14ed6-121">次のような情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="14ed6-121">That will return information similar to this:</span></span>
     
         Identity      : 172.11.15.0
         MaskBits      : 28
@@ -88,17 +90,17 @@ ms.locfileid: "42211273"
 
 </div>
 
-<span data-ttu-id="07e25-122">詳細については、[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) コマンドレットのヘルプ トピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="07e25-122">For more information, see the help topic for the [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) cmdlet.</span></span>
+<span data-ttu-id="14ed6-122">詳細については、[Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) コマンドレットのヘルプ トピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="14ed6-122">For more information, see the help topic for the [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="07e25-123">関連項目</span><span class="sxs-lookup"><span data-stu-id="07e25-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="14ed6-123">関連項目</span><span class="sxs-lookup"><span data-stu-id="14ed6-123">See Also</span></span>
 
 
-[<span data-ttu-id="07e25-124">Lync Server 2013 でのネットワークサブネットの作成または変更</span><span class="sxs-lookup"><span data-stu-id="07e25-124">Create or modify network subnets in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-network-subnets.md)  
-[<span data-ttu-id="07e25-125">Lync Server 2013 でのネットワークサブネットの削除</span><span class="sxs-lookup"><span data-stu-id="07e25-125">Deleting network subnets in Lync Server 2013</span></span>](lync-server-2013-deleting-network-subnets.md)  
+[<span data-ttu-id="14ed6-124">Lync Server 2013 でのネットワークサブネットの作成または変更</span><span class="sxs-lookup"><span data-stu-id="14ed6-124">Create or modify network subnets in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-network-subnets.md)  
+[<span data-ttu-id="14ed6-125">Lync Server 2013 でのネットワークサブネットの削除</span><span class="sxs-lookup"><span data-stu-id="14ed6-125">Deleting network subnets in Lync Server 2013</span></span>](lync-server-2013-deleting-network-subnets.md)  
   
 
 </div>

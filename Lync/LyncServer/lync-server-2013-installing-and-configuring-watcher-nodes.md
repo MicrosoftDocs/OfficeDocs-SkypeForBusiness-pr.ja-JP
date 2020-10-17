@@ -12,20 +12,22 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1765e9108619c5947eda02dd758aa764b0b407e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197060"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534944"
 ---
+# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="7c3fc-102">Lync Server 2013 での監視ノードのインストールと構成</span><span class="sxs-lookup"><span data-stu-id="7c3fc-102">Installing and configuring watcher nodes in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a><span data-ttu-id="3b140-102">Lync Server 2013 での監視ノードのインストールと構成</span><span class="sxs-lookup"><span data-stu-id="3b140-102">Installing and configuring watcher nodes in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42197060"
 
 <span> </span>
 
-<span data-ttu-id="3b140-103">_**トピックの最終更新日:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="3b140-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+<span data-ttu-id="7c3fc-103">_**トピックの最終更新日:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="7c3fc-103">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-<span data-ttu-id="3b140-104">*監視ノード*は、定期的に Lync Server 代理トランザクションを実行するコンピューターです。</span><span class="sxs-lookup"><span data-stu-id="3b140-104">*Watcher nodes* are computers that periodically run Lync Server synthetic transactions.</span></span> <span data-ttu-id="3b140-105">*代理トランザクション*は Windows PowerShell コマンドレットで、システムにサインインする機能、またはインスタントメッセージを交換できるかどうかなど、主要なエンドユーザーシナリオが想定どおりに動作していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-105">*Synthetic transactions* are Windows PowerShell cmdlets that verify that key end user scenarios—such as the ability to sign in to the system, or the ability to exchange instant messages—are working as expected.</span></span> <span data-ttu-id="3b140-106">Lync Server 2013 の場合、System Center Operations Manager は、次の表に示す代理トランザクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="3b140-106">For Lync Server 2013, System Center Operations Manager can run the synthetic transactions shown in the following table.</span></span> <span data-ttu-id="3b140-107">代理トランザクションには、表に示す 3 つの種類があります。</span><span class="sxs-lookup"><span data-stu-id="3b140-107">There are three different synthetic transaction types shown in the table:</span></span>
+<span data-ttu-id="7c3fc-104">*監視ノード* は、定期的に Lync Server 代理トランザクションを実行するコンピューターです。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-104">*Watcher nodes* are computers that periodically run Lync Server synthetic transactions.</span></span> <span data-ttu-id="7c3fc-105">*代理トランザクション* は Windows PowerShell コマンドレットで、システムにサインインする機能、またはインスタントメッセージを交換できるかどうかなど、主要なエンドユーザーシナリオが想定どおりに動作していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-105">*Synthetic transactions* are Windows PowerShell cmdlets that verify that key end user scenarios—such as the ability to sign in to the system, or the ability to exchange instant messages—are working as expected.</span></span> <span data-ttu-id="7c3fc-106">Lync Server 2013 の場合、System Center Operations Manager は、次の表に示す代理トランザクションを実行できます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-106">For Lync Server 2013, System Center Operations Manager can run the synthetic transactions shown in the following table.</span></span> <span data-ttu-id="7c3fc-107">代理トランザクションには、表に示す 3 つの種類があります。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-107">There are three different synthetic transaction types shown in the table:</span></span>
 
-  - <span data-ttu-id="3b140-108">**既定値**です。</span><span class="sxs-lookup"><span data-stu-id="3b140-108">**Default**.</span></span> <span data-ttu-id="3b140-109">既定では、監視ノードが実行する代理トランザクションです。</span><span class="sxs-lookup"><span data-stu-id="3b140-109">These are the synthetic transactions that a watcher node will run by default.</span></span> <span data-ttu-id="3b140-110">新しい監視ノードを作成するときに、そのノードが実行する代理トランザクションを指定するオプションがあります。</span><span class="sxs-lookup"><span data-stu-id="3b140-110">When you create a new watcher node, you have the option of specifying which synthetic transactions that node will run.</span></span> <span data-ttu-id="3b140-111">(これは、 **set-cswatchernodeconfiguration**コマンドレットで使用される Tests パラメーターの目的です。)監視ノードの作成時に Tests パラメーターを使用しない場合、既定の代理トランザクションがすべて自動的に実行され、既定以外の代理トランザクションは実行されません。</span><span class="sxs-lookup"><span data-stu-id="3b140-111">(That's the purpose of the Tests parameter used by the **New-CsWatcherNodeConfiguration** cmdlet.) If you do not use the Tests parameter when the watcher node is created, it will automatically run all the Default synthetic transactions and will not run any of the Non-default synthetic transactions.</span></span> <span data-ttu-id="3b140-112">これは、たとえば、監視ノードが Test-CsAddressBookService テストを実行するように構成されていますが、テスト-CsExumConnectivity テストを実行するように構成されていないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="3b140-112">That means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but will not be configured to run the Test-CsExumConnectivity test.</span></span>
+  - <span data-ttu-id="7c3fc-108">**既定値**です。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-108">**Default**.</span></span> <span data-ttu-id="7c3fc-109">既定では、監視ノードが実行する代理トランザクションです。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-109">These are the synthetic transactions that a watcher node will run by default.</span></span> <span data-ttu-id="7c3fc-110">新しい監視ノードを作成するときに、そのノードが実行する代理トランザクションを指定するオプションがあります。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-110">When you create a new watcher node, you have the option of specifying which synthetic transactions that node will run.</span></span> <span data-ttu-id="7c3fc-111">(これは、 **set-cswatchernodeconfiguration** コマンドレットで使用される Tests パラメーターの目的です。)監視ノードの作成時に Tests パラメーターを使用しない場合、既定の代理トランザクションがすべて自動的に実行され、既定以外の代理トランザクションは実行されません。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-111">(That's the purpose of the Tests parameter used by the **New-CsWatcherNodeConfiguration** cmdlet.) If you do not use the Tests parameter when the watcher node is created, it will automatically run all the Default synthetic transactions and will not run any of the Non-default synthetic transactions.</span></span> <span data-ttu-id="7c3fc-112">つまり、監視ノードは Test-CsAddressBookService テストを実行するように構成されますが、Test-CsExumConnectivity テストを実行するように構成されることはありません。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-112">That means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but will not be configured to run the Test-CsExumConnectivity test.</span></span>
 
-  - <span data-ttu-id="3b140-113">**既定値ではない**。</span><span class="sxs-lookup"><span data-stu-id="3b140-113">**Non-default**.</span></span> <span data-ttu-id="3b140-114">名前が意味するように、既定以外の代理トランザクションは、監視ノードが既定で実行しないテストです。</span><span class="sxs-lookup"><span data-stu-id="3b140-114">As the name implies, Non-default synthetic transactions are tests that watcher nodes do not run by default.</span></span> <span data-ttu-id="3b140-115">ただし、監視ノードは、任意の既定以外の代理トランザクションを実行するように設定できます。</span><span class="sxs-lookup"><span data-stu-id="3b140-115">However, the watcher node can be enabled to run any of the Non-default synthetic transactions.</span></span> <span data-ttu-id="3b140-116">これは、**New-CsWatcherNodeConfiguration** コマンドレットを使用して監視ノードを作成するとき、または作成後の任意の時点で実行できます。</span><span class="sxs-lookup"><span data-stu-id="3b140-116">You can do this when you create the watcher node (by using the **New-CsWatcherNodeConfiguration** cmdlet), or at any time after that.</span></span> <span data-ttu-id="3b140-117">既定以外の代理トランザクションの多くは、追加のセットアップ手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b140-117">Many of the Non-default synthetic transactions require extra setup steps.</span></span> <span data-ttu-id="3b140-118">詳細については、「 [Lync Server 2013 の代理トランザクションの特別なセットアップ手順](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3b140-118">For details, see [Special setup instructions for synthetic transactions in Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md).</span></span>
+  - <span data-ttu-id="7c3fc-113">**既定値ではない**。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-113">**Non-default**.</span></span> <span data-ttu-id="7c3fc-114">名前が意味するように、既定以外の代理トランザクションは、監視ノードが既定で実行しないテストです。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-114">As the name implies, Non-default synthetic transactions are tests that watcher nodes do not run by default.</span></span> <span data-ttu-id="7c3fc-115">ただし、監視ノードは、任意の既定以外の代理トランザクションを実行するように設定できます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-115">However, the watcher node can be enabled to run any of the Non-default synthetic transactions.</span></span> <span data-ttu-id="7c3fc-116">これは、**New-CsWatcherNodeConfiguration** コマンドレットを使用して監視ノードを作成するとき、または作成後の任意の時点で実行できます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-116">You can do this when you create the watcher node (by using the **New-CsWatcherNodeConfiguration** cmdlet), or at any time after that.</span></span> <span data-ttu-id="7c3fc-117">既定以外の代理トランザクションの多くは、追加のセットアップ手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-117">Many of the Non-default synthetic transactions require extra setup steps.</span></span> <span data-ttu-id="7c3fc-118">詳細については、「 [Lync Server 2013 の代理トランザクションの特別なセットアップ手順](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-118">For details, see [Special setup instructions for synthetic transactions in Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md).</span></span>
 
-  - <span data-ttu-id="3b140-119">**拡張**。</span><span class="sxs-lookup"><span data-stu-id="3b140-119">**Extended**.</span></span> <span data-ttu-id="3b140-120">拡張テストは、特別な種類の既定以外の代理トランザクションです。</span><span class="sxs-lookup"><span data-stu-id="3b140-120">Extended tests are a special type of Non-default synthetic transaction.</span></span> <span data-ttu-id="3b140-121">他の代理トランザクションとは異なり、拡張テストは、1 回のパスで複数回実行できます。</span><span class="sxs-lookup"><span data-stu-id="3b140-121">Unlike other synthetic transactions, Extended tests can be run multiple times during each pass.</span></span> <span data-ttu-id="3b140-122">これは、プールに対する複数の公衆交換電話網 (PSTN) 音声ルートなどの動作を検証するときに便利です。</span><span class="sxs-lookup"><span data-stu-id="3b140-122">This can be useful when verifying behavior such as multiple public switched telephone network (PSTN) voice routes for a pool.</span></span> <span data-ttu-id="3b140-123">これは、拡張テストの複数のインスタンスを監視ノードに追加するだけで構成できます。</span><span class="sxs-lookup"><span data-stu-id="3b140-123">This can be configured simply by adding multiple instances of an Extended test to a watcher node.</span></span>
+  - <span data-ttu-id="7c3fc-119">**拡張**。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-119">**Extended**.</span></span> <span data-ttu-id="7c3fc-120">拡張テストは、特別な種類の既定以外の代理トランザクションです。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-120">Extended tests are a special type of Non-default synthetic transaction.</span></span> <span data-ttu-id="7c3fc-121">他の代理トランザクションとは異なり、拡張テストは、1 回のパスで複数回実行できます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-121">Unlike other synthetic transactions, Extended tests can be run multiple times during each pass.</span></span> <span data-ttu-id="7c3fc-122">これは、プールに対する複数の公衆交換電話網 (PSTN) 音声ルートなどの動作を検証するときに便利です。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-122">This can be useful when verifying behavior such as multiple public switched telephone network (PSTN) voice routes for a pool.</span></span> <span data-ttu-id="7c3fc-123">これは、拡張テストの複数のインスタンスを監視ノードに追加するだけで構成できます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-123">This can be configured simply by adding multiple instances of an Extended test to a watcher node.</span></span>
 
-<span data-ttu-id="3b140-124">他の代理トランザクションを監視ノードに追加するプロセスの詳細については、「 [Lync Server 2013 の監視ノードの管理](lync-server-2013-managing-watcher-nodes.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3b140-124">For details about the process of adding other synthetic transactions to a watcher node, see [Managing watcher nodes in Lync Server 2013](lync-server-2013-managing-watcher-nodes.md).</span></span> <span data-ttu-id="3b140-125">Lync Server 管理シェルを使用して、監視ノードから代理トランザクションを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="3b140-125">You can use the Lync Server Management Shell to remove synthetic transactions from a watcher node.</span></span>
+<span data-ttu-id="7c3fc-124">他の代理トランザクションを監視ノードに追加するプロセスの詳細については、「 [Lync Server 2013 の監視ノードの管理](lync-server-2013-managing-watcher-nodes.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-124">For details about the process of adding other synthetic transactions to a watcher node, see [Managing watcher nodes in Lync Server 2013](lync-server-2013-managing-watcher-nodes.md).</span></span> <span data-ttu-id="7c3fc-125">Lync Server 管理シェルを使用して、監視ノードから代理トランザクションを削除することができます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-125">You can use the Lync Server Management Shell to remove synthetic transactions from a watcher node.</span></span>
 
-<span data-ttu-id="3b140-126">監視ノードで使用できる代理トランザクションは以下のとおりです。</span><span class="sxs-lookup"><span data-stu-id="3b140-126">The synthetic transactions available to watcher nodes include the following:</span></span>
+<span data-ttu-id="7c3fc-126">監視ノードで使用できる代理トランザクションは以下のとおりです。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-126">The synthetic transactions available to watcher nodes include the following:</span></span>
 
 
 <table>
@@ -58,149 +60,149 @@ ms.locfileid: "42197060"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3b140-127">コマンドレット名 (テスト名)</span><span class="sxs-lookup"><span data-stu-id="3b140-127">Cmdlet Name (Test Name)</span></span></th>
-<th><span data-ttu-id="3b140-128">説明</span><span class="sxs-lookup"><span data-stu-id="3b140-128">Description</span></span></th>
-<th><span data-ttu-id="3b140-129">代理トランザクションの種類</span><span class="sxs-lookup"><span data-stu-id="3b140-129">Synthetic Transaction Type</span></span></th>
+<th><span data-ttu-id="7c3fc-127">コマンドレット名 (テスト名)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-127">Cmdlet Name (Test Name)</span></span></th>
+<th><span data-ttu-id="7c3fc-128">説明</span><span class="sxs-lookup"><span data-stu-id="7c3fc-128">Description</span></span></th>
+<th><span data-ttu-id="7c3fc-129">代理トランザクションの種類</span><span class="sxs-lookup"><span data-stu-id="7c3fc-129">Synthetic Transaction Type</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-130">Test-CsAddressBookService (ABS)</span><span class="sxs-lookup"><span data-stu-id="3b140-130">Test-CsAddressBookService (ABS)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-131">ユーザーが各自の連絡先リストに含まれていないユーザーを検索できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-131">Confirms that users are able to look up users that aren’t in their contact list.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-132">既定値</span><span class="sxs-lookup"><span data-stu-id="3b140-132">Default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-130">Test-CsAddressBookService (ABS)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-130">Test-CsAddressBookService (ABS)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-131">ユーザーが各自の連絡先リストに含まれていないユーザーを検索できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-131">Confirms that users are able to look up users that aren’t in their contact list.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-132">既定値</span><span class="sxs-lookup"><span data-stu-id="7c3fc-132">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-133">Test-CsAddressBookWebQuery (ABWQ)</span><span class="sxs-lookup"><span data-stu-id="3b140-133">Test-CsAddressBookWebQuery (ABWQ)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-134">ユーザーが各自の連絡先リストに含まれていないユーザーを HTTP 経由で検索できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-134">Confirms that users are able to look up users that aren’t in their contact list via HTTP.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-135">既定値</span><span class="sxs-lookup"><span data-stu-id="3b140-135">Default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-133">Test-CsAddressBookWebQuery (ABWQ)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-133">Test-CsAddressBookWebQuery (ABWQ)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-134">ユーザーが各自の連絡先リストに含まれていないユーザーを HTTP 経由で検索できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-134">Confirms that users are able to look up users that aren’t in their contact list via HTTP.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-135">既定値</span><span class="sxs-lookup"><span data-stu-id="7c3fc-135">Default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-136">Test-CsIM (IM)</span><span class="sxs-lookup"><span data-stu-id="3b140-136">Test-CsIM (IM)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-137">ユーザーがピアツーピア インスタント メッセージを送信できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-137">Confirms that users are able to send peer-to-peer instant messages.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-138">既定値</span><span class="sxs-lookup"><span data-stu-id="3b140-138">Default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-136">Test-CsIM (IM)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-136">Test-CsIM (IM)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-137">ユーザーがピアツーピア インスタント メッセージを送信できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-137">Confirms that users are able to send peer-to-peer instant messages.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-138">既定値</span><span class="sxs-lookup"><span data-stu-id="7c3fc-138">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-139">Test-csp2pav (P2PAV)</span><span class="sxs-lookup"><span data-stu-id="3b140-139">Test-CsP2PAV (P2PAV)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-140">ユーザーがピアツーピア音声通話を開始できることを確認します (シグナリングのみ)。</span><span class="sxs-lookup"><span data-stu-id="3b140-140">Confirms that users are able to place peer-to-peer audio calls (signaling only).</span></span></p></td>
-<td><p><span data-ttu-id="3b140-141">既定値</span><span class="sxs-lookup"><span data-stu-id="3b140-141">Default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-139">Test-CsP2PAV (P2PAV)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-139">Test-CsP2PAV (P2PAV)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-140">ユーザーがピアツーピア音声通話を開始できることを確認します (シグナリングのみ)。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-140">Confirms that users are able to place peer-to-peer audio calls (signaling only).</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-141">既定値</span><span class="sxs-lookup"><span data-stu-id="7c3fc-141">Default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-142">Test-CsPresence (Presence)</span><span class="sxs-lookup"><span data-stu-id="3b140-142">Test-CsPresence (Presence)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-143">ユーザーが他のユーザーのプレゼンスを表示できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-143">Confirms that users are able to view other users’ presence.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-144">既定値</span><span class="sxs-lookup"><span data-stu-id="3b140-144">Default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-142">Test-CsPresence (Presence)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-142">Test-CsPresence (Presence)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-143">ユーザーが他のユーザーのプレゼンスを表示できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-143">Confirms that users are able to view other users’ presence.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-144">既定値</span><span class="sxs-lookup"><span data-stu-id="7c3fc-144">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-145">Test-CsRegistration (Registration)</span><span class="sxs-lookup"><span data-stu-id="3b140-145">Test-CsRegistration (Registration)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-146">ユーザーが Lync にサインインできることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-146">Confirms that users are able sign in to Lync.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-147">既定値</span><span class="sxs-lookup"><span data-stu-id="3b140-147">Default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-145">Test-CsRegistration (Registration)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-145">Test-CsRegistration (Registration)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-146">ユーザーが Lync にサインインできることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-146">Confirms that users are able sign in to Lync.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-147">既定値</span><span class="sxs-lookup"><span data-stu-id="7c3fc-147">Default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-148">Test-CsAudioConferencingProvider (ACP)</span><span class="sxs-lookup"><span data-stu-id="3b140-148">Test-CsAudioConferencingProvider (ACP)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-149">社内バージョンの Lync Server 2013 では使用されません。</span><span class="sxs-lookup"><span data-stu-id="3b140-149">Not used with the on-premises version of Lync Server 2013</span></span></p></td>
-<td><p><span data-ttu-id="3b140-150">拡張</span><span class="sxs-lookup"><span data-stu-id="3b140-150">Extended</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-148">Test-CsAudioConferencingProvider (ACP)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-148">Test-CsAudioConferencingProvider (ACP)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-149">社内バージョンの Lync Server 2013 では使用されません。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-149">Not used with the on-premises version of Lync Server 2013</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-150">拡張</span><span class="sxs-lookup"><span data-stu-id="7c3fc-150">Extended</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-151">Test-CsPstnPeerToPeerCall (PSTN)</span><span class="sxs-lookup"><span data-stu-id="3b140-151">Test-CsPstnPeerToPeerCall (PSTN)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-152">ユーザーが企業の外部のユーザー (PSTN 番号) と通話できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-152">Confirms that users are able to place and receive calls with people outside of the enterprise (PSTN numbers).</span></span></p></td>
-<td><p><span data-ttu-id="3b140-153">既定以外、拡張</span><span class="sxs-lookup"><span data-stu-id="3b140-153">Non-default, Extended</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-151">Test-CsPstnPeerToPeerCall (PSTN)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-151">Test-CsPstnPeerToPeerCall (PSTN)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-152">ユーザーが企業の外部のユーザー (PSTN 番号) と通話できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-152">Confirms that users are able to place and receive calls with people outside of the enterprise (PSTN numbers).</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-153">既定以外、拡張</span><span class="sxs-lookup"><span data-stu-id="7c3fc-153">Non-default, Extended</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-154">テスト-CsAVConference (AvConference)</span><span class="sxs-lookup"><span data-stu-id="3b140-154">Test-CsAVConference (AvConference)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-155">ユーザーが音声/ビデオ会議で作成と参加が可能なことを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-155">Confirms that users are able to create and participate in an audio/video conference.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-156">既定値</span><span class="sxs-lookup"><span data-stu-id="3b140-156">Default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-154">Test-CsAVConference (AvConference)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-154">Test-CsAVConference (AvConference)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-155">ユーザーが音声/ビデオ会議で作成と参加が可能なことを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-155">Confirms that users are able to create and participate in an audio/video conference.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-156">既定値</span><span class="sxs-lookup"><span data-stu-id="7c3fc-156">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-157">Test-csavedgeconnectivity (AVEdgeConnectivity)</span><span class="sxs-lookup"><span data-stu-id="3b140-157">Test-CsAVEdgeConnectivity (AVEdgeConnectivity)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-158">音声ビデオ エッジ サーバーがピアツーピア通話と会議通話を行うための接続を受け入れることができることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-158">Confirms that the A/V Edge servers are able to accept connections for peer-to-peer calls and conference calls.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-159">既定以外</span><span class="sxs-lookup"><span data-stu-id="3b140-159">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-157">Test-CsAVEdgeConnectivity (AVEdgeConnectivity)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-157">Test-CsAVEdgeConnectivity (AVEdgeConnectivity)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-158">音声ビデオ エッジ サーバーがピアツーピア通話と会議通話を行うための接続を受け入れることができることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-158">Confirms that the A/V Edge servers are able to accept connections for peer-to-peer calls and conference calls.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-159">既定以外</span><span class="sxs-lookup"><span data-stu-id="7c3fc-159">Non-default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-160">Test-csdataconference (DataConference)</span><span class="sxs-lookup"><span data-stu-id="3b140-160">Test-CsDataConference (DataConference)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-161">ユーザーが、データ グループ作業電話会議 (ホワイトボードや投票などのアクティビティが含まれるオンライン ミーティング) に参加できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-161">Confirms that users can participate in a data collaboration conference, an online meeting that includes activities such as whiteboards and polls.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-162">既定以外</span><span class="sxs-lookup"><span data-stu-id="3b140-162">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-160">Test-CsDataConference (DataConference)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-160">Test-CsDataConference (DataConference)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-161">ユーザーが、データ グループ作業電話会議 (ホワイトボードや投票などのアクティビティが含まれるオンライン ミーティング) に参加できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-161">Confirms that users can participate in a data collaboration conference, an online meeting that includes activities such as whiteboards and polls.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-162">既定以外</span><span class="sxs-lookup"><span data-stu-id="7c3fc-162">Non-default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-163">テスト-CsExumConnectivity (ExumConnectivity)</span><span class="sxs-lookup"><span data-stu-id="3b140-163">Test-CsExumConnectivity (ExumConnectivity)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-164">ユーザーが Exchange ユニファイドメッセージング (UM) に接続できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-164">Confirms that a user can connect to Exchange Unified Messaging (UM).</span></span></p></td>
-<td><p><span data-ttu-id="3b140-165">既定以外</span><span class="sxs-lookup"><span data-stu-id="3b140-165">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-163">Test-CsExumConnectivity (ExumConnectivity)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-163">Test-CsExumConnectivity (ExumConnectivity)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-164">ユーザーが Exchange ユニファイドメッセージング (UM) に接続できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-164">Confirms that a user can connect to Exchange Unified Messaging (UM).</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-165">既定以外</span><span class="sxs-lookup"><span data-stu-id="7c3fc-165">Non-default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-166">Test-CsGroupIM (GroupIM)</span><span class="sxs-lookup"><span data-stu-id="3b140-166">Test-CsGroupIM (GroupIM)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-167">ユーザーが会議中にインスタント メッセージを送信でき、3 人以上のユーザーとインスタント メッセージでの会話に参加できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-167">Confirms that users are able to send instant messages in conferences and participate in instant message conversations with three or more people.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-168">既定値</span><span class="sxs-lookup"><span data-stu-id="3b140-168">Default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-166">Test-CsGroupIM (GroupIM)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-166">Test-CsGroupIM (GroupIM)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-167">ユーザーが会議中にインスタント メッセージを送信でき、3 人以上のユーザーとインスタント メッセージでの会話に参加できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-167">Confirms that users are able to send instant messages in conferences and participate in instant message conversations with three or more people.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-168">既定値</span><span class="sxs-lookup"><span data-stu-id="7c3fc-168">Default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-169">Test-CsGroupIM – TestJoinLauncher (Joinラウンチャー)</span><span class="sxs-lookup"><span data-stu-id="3b140-169">Test-CsGroupIM –TestJoinLauncher (JoinLauncher)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-170">ユーザーがミーティングを作成でき、予定されたミーティングに Web アドレス リンクを介して参加できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-170">Confirms that users are able to create and join scheduled meetings via a web address link.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-171">既定以外</span><span class="sxs-lookup"><span data-stu-id="3b140-171">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-169">Test-CsGroupIM – TestJoinLauncher (Joinランチャー)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-169">Test-CsGroupIM –TestJoinLauncher (JoinLauncher)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-170">ユーザーがミーティングを作成でき、予定されたミーティングに Web アドレス リンクを介して参加できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-170">Confirms that users are able to create and join scheduled meetings via a web address link.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-171">既定以外</span><span class="sxs-lookup"><span data-stu-id="7c3fc-171">Non-default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-172">Test-csmcxp2pim (MCXP2PIM)</span><span class="sxs-lookup"><span data-stu-id="3b140-172">Test-CsMCXP2PIM (MCXP2PIM)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-173">モバイル デバイス ユーザーがインスタント メッセージの登録と送信を実行できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-173">Confirms that mobile device users are able to register and send instant messages.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-174">既定以外</span><span class="sxs-lookup"><span data-stu-id="3b140-174">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-172">Test-CsMCXP2PIM (MCXP2PIM)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-172">Test-CsMCXP2PIM (MCXP2PIM)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-173">モバイル デバイス ユーザーがインスタント メッセージの登録と送信を実行できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-173">Confirms that mobile device users are able to register and send instant messages.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-174">既定以外</span><span class="sxs-lookup"><span data-stu-id="7c3fc-174">Non-default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-175">Test-cspersistentchatmessage (PersistentChatMessage)</span><span class="sxs-lookup"><span data-stu-id="3b140-175">Test-CsPersistentChatMessage (PersistentChatMessage)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-176">ユーザーが常設チャットサービスを使用してメッセージを交換できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-176">Confirms that users can exchange messages by using the Persistent Chat service.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-177">既定以外</span><span class="sxs-lookup"><span data-stu-id="3b140-177">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-175">Test-CsPersistentChatMessage (PersistentChatMessage)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-175">Test-CsPersistentChatMessage (PersistentChatMessage)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-176">ユーザーが常設チャットサービスを使用してメッセージを交換できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-176">Confirms that users can exchange messages by using the Persistent Chat service.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-177">既定以外</span><span class="sxs-lookup"><span data-stu-id="7c3fc-177">Non-default</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-178">Test-csunifiedcontactstore (UnifiedContactStore)</span><span class="sxs-lookup"><span data-stu-id="3b140-178">Test-CsUnifiedContactStore (UnifiedContactStore)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-179">統合連絡先ストアを通じてユーザーの連絡先にアクセスできることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-179">Confirms that a user's contacts can be accessed through the unified contact store.</span></span> <span data-ttu-id="3b140-180">統合連絡先ストアは、Lync 2013、Outlook、または Outlook Web Access を使用してアクセスできる単一の連絡先セットを管理する方法をユーザーに提供します。</span><span class="sxs-lookup"><span data-stu-id="3b140-180">The unified contact store provides a way for users to maintain a single set of contacts that can be accessed by using Lync 2013, Outlook, and/or Outlook Web Access.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-181">既定以外</span><span class="sxs-lookup"><span data-stu-id="3b140-181">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-178">Test-CsUnifiedContactStore (UnifiedContactStore)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-178">Test-CsUnifiedContactStore (UnifiedContactStore)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-179">統合連絡先ストアを通じてユーザーの連絡先にアクセスできることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-179">Confirms that a user's contacts can be accessed through the unified contact store.</span></span> <span data-ttu-id="7c3fc-180">統合連絡先ストアは、Lync 2013、Outlook、または Outlook Web Access を使用してアクセスできる単一の連絡先セットを管理する方法をユーザーに提供します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-180">The unified contact store provides a way for users to maintain a single set of contacts that can be accessed by using Lync 2013, Outlook, and/or Outlook Web Access.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-181">既定以外</span><span class="sxs-lookup"><span data-stu-id="7c3fc-181">Non-default</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-182">テスト-CsXmppIM (XmppIM)</span><span class="sxs-lookup"><span data-stu-id="3b140-182">Test-CsXmppIM (XmppIM)</span></span></p></td>
-<td><p><span data-ttu-id="3b140-183">インスタント メッセージを XMPP (Extensible Messaging and Presence Protocol) ゲートウェイ経由で送信できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3b140-183">Confirms that an instant message can be sent across the XMPP (Extensible Messaging and Presence Protocol) gateway.</span></span></p></td>
-<td><p><span data-ttu-id="3b140-184">既定以外</span><span class="sxs-lookup"><span data-stu-id="3b140-184">Non-default</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-182">Test-CsXmppIM (XmppIM)</span><span class="sxs-lookup"><span data-stu-id="7c3fc-182">Test-CsXmppIM (XmppIM)</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-183">インスタント メッセージを XMPP (Extensible Messaging and Presence Protocol) ゲートウェイ経由で送信できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-183">Confirms that an instant message can be sent across the XMPP (Extensible Messaging and Presence Protocol) gateway.</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-184">既定以外</span><span class="sxs-lookup"><span data-stu-id="7c3fc-184">Non-default</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="3b140-185">System Center Operations Manager を使用するために監視ノードをインストールする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="3b140-185">You do not need to install watcher nodes in order to use System Center Operations Manager.</span></span> <span data-ttu-id="3b140-186">これらのノードをインストールしていない場合でも、問題が発生したときに Lync Server 2013 コンポーネントからリアルタイム通知を受け取ることができます。</span><span class="sxs-lookup"><span data-stu-id="3b140-186">If you do not install these nodes, you can still get real-time alerts from Lync Server 2013 components when an issue occurs.</span></span> <span data-ttu-id="3b140-187">(コンポーネントおよびユーザー管理パックでは、監視ノードは使用されません)。ただし、アクティブな監視管理パックを使用してエンドツーエンドのシナリオを監視する場合は、監視ノードが必要です。</span><span class="sxs-lookup"><span data-stu-id="3b140-187">(The Component and User Management Pack does not use watcher nodes.) However, watcher nodes are required if you want to monitor end-to-end scenarios by using the Active Monitoring Management pack.</span></span>
+<span data-ttu-id="7c3fc-185">System Center Operations Manager を使用するために監視ノードをインストールする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-185">You do not need to install watcher nodes in order to use System Center Operations Manager.</span></span> <span data-ttu-id="7c3fc-186">これらのノードをインストールしていない場合でも、問題が発生したときに Lync Server 2013 コンポーネントからリアルタイム通知を受け取ることができます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-186">If you do not install these nodes, you can still get real-time alerts from Lync Server 2013 components when an issue occurs.</span></span> <span data-ttu-id="7c3fc-187">(コンポーネントおよびユーザー管理パックでは、監視ノードは使用されません)。ただし、アクティブな監視管理パックを使用してエンドツーエンドのシナリオを監視する場合は、監視ノードが必要です。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-187">(The Component and User Management Pack does not use watcher nodes.) However, watcher nodes are required if you want to monitor end-to-end scenarios by using the Active Monitoring Management pack.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="3b140-188">管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。</span><span class="sxs-lookup"><span data-stu-id="3b140-188">Administrators can also run synthetic transactions manually, without needing to use, or install, Operations Manager.</span></span> <span data-ttu-id="3b140-189">さまざまなテスト用コマンドレットの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 コマンドレットのインデックス</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3b140-189">For details about the various Test-Cs cmdlets, see the <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlets index</A>.</span></span>
+> <span data-ttu-id="7c3fc-188">管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-188">Administrators can also run synthetic transactions manually, without needing to use, or install, Operations Manager.</span></span> <span data-ttu-id="7c3fc-189">さまざまな Test-Cs コマンドレットの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 コマンドレットのインデックス</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-189">For details about the various Test-Cs cmdlets, see the <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlets index</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="3b140-190">展開の規模によっては、代理トランザクションがコンピューター メモリを大量に使用し、プロセッサを長時間使用する場合があります。</span><span class="sxs-lookup"><span data-stu-id="3b140-190">Depending on the size of your deployment, synthetic transactions may use a large amount of computer memory and processor time.</span></span> <span data-ttu-id="3b140-191">このため、監視ノードとして動作する専用コンピューターを使用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="3b140-191">For this reason, we recommend that you use a dedicated computer as a watcher node.</span></span> <span data-ttu-id="3b140-192">たとえば、監視ノードとして動作するようにフロントエンドサーバーを構成する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="3b140-192">For example, you should not configure a Front End Server to act as a watcher node.</span></span> <span data-ttu-id="3b140-193">監視ノードは、次のハードウェア仕様を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b140-193">Watcher nodes should meet the following hardware specifications:</span></span>
+<span data-ttu-id="7c3fc-190">展開の規模によっては、代理トランザクションがコンピューター メモリを大量に使用し、プロセッサを長時間使用する場合があります。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-190">Depending on the size of your deployment, synthetic transactions may use a large amount of computer memory and processor time.</span></span> <span data-ttu-id="7c3fc-191">このため、監視ノードとして動作する専用コンピューターを使用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-191">For this reason, we recommend that you use a dedicated computer as a watcher node.</span></span> <span data-ttu-id="7c3fc-192">たとえば、監視ノードとして動作するようにフロントエンドサーバーを構成する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-192">For example, you should not configure a Front End Server to act as a watcher node.</span></span> <span data-ttu-id="7c3fc-193">監視ノードは、次のハードウェア仕様を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-193">Watcher nodes should meet the following hardware specifications:</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="3b140-194">従来の Microsoft Lync Server 2010 監視ノードを、Lync Server 2013 監視ノードと同じコンピューターに併置することはできません。</span><span class="sxs-lookup"><span data-stu-id="3b140-194">A legacy Microsoft Lync Server 2010 watcher node cannot be collocated on the same machine with a Lync Server 2013 watcher node.</span></span> <span data-ttu-id="3b140-195">これは、Lync Server 2010 および Lync Server 2013 のコアシステムファイルを同じコンピューターにインストールできないためです。</span><span class="sxs-lookup"><span data-stu-id="3b140-195">This is because the core system files for Lync Server 2010 and Lync Server 2013 cannot be installed on the same computer.</span></span><BR><span data-ttu-id="3b140-196">ただし、Lync server 2013 監視ノードは、Lync Server 2013 と Lync Server 2010 の両方を同時に監視できます。</span><span class="sxs-lookup"><span data-stu-id="3b140-196">However, Lync Server 2013 watcher nodes can simultaneously monitor both Lync Server 2013 and Lync Server 2010.</span></span> <span data-ttu-id="3b140-197">既定の代理トランザクションは、両方のバージョンの製品でサポートされます。</span><span class="sxs-lookup"><span data-stu-id="3b140-197">The Default synthetic transactions are supported on both product versions.</span></span>
+> <span data-ttu-id="7c3fc-194">従来の Microsoft Lync Server 2010 監視ノードを、Lync Server 2013 監視ノードと同じコンピューターに併置することはできません。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-194">A legacy Microsoft Lync Server 2010 watcher node cannot be collocated on the same machine with a Lync Server 2013 watcher node.</span></span> <span data-ttu-id="7c3fc-195">これは、Lync Server 2010 および Lync Server 2013 のコアシステムファイルを同じコンピューターにインストールできないためです。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-195">This is because the core system files for Lync Server 2010 and Lync Server 2013 cannot be installed on the same computer.</span></span><BR><span data-ttu-id="7c3fc-196">ただし、Lync server 2013 監視ノードは、Lync Server 2013 と Lync Server 2010 の両方を同時に監視できます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-196">However, Lync Server 2013 watcher nodes can simultaneously monitor both Lync Server 2013 and Lync Server 2010.</span></span> <span data-ttu-id="7c3fc-197">既定の代理トランザクションは、両方のバージョンの製品でサポートされます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-197">The Default synthetic transactions are supported on both product versions.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="3b140-198">Lync Server 2013 監視ノードはエンタープライズの内部または外部に展開され、次の点を確認できます。</span><span class="sxs-lookup"><span data-stu-id="3b140-198">Lync Server 2013 watcher nodes may be deployed inside or outside of an enterprise to help verify:</span></span>
+<span data-ttu-id="7c3fc-198">Lync Server 2013 監視ノードはエンタープライズの内部または外部に展開され、次の点を確認できます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-198">Lync Server 2013 watcher nodes may be deployed inside or outside of an enterprise to help verify:</span></span>
 
   - <span></span>  
-    <span data-ttu-id="3b140-199">社内ユーザー用プールへの接続。</span><span class="sxs-lookup"><span data-stu-id="3b140-199">Connectivity to pools for users inside the enterprise.</span></span>
+    <span data-ttu-id="7c3fc-199">社内ユーザー用プールへの接続。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-199">Connectivity to pools for users inside the enterprise.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="3b140-200">社外で働くリモート ユーザー用の境界ネットワーク経由の接続。</span><span class="sxs-lookup"><span data-stu-id="3b140-200">Connectivity through perimeter networks for remote users who work outside the enterprise.</span></span>
+    <span data-ttu-id="7c3fc-200">社外で働くリモート ユーザー用の境界ネットワーク経由の接続。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-200">Connectivity through perimeter networks for remote users who work outside the enterprise.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="3b140-201">ブランチ オフィス アプライアンスへの接続。</span><span class="sxs-lookup"><span data-stu-id="3b140-201">Connectivity to branch office appliances.</span></span>
+    <span data-ttu-id="7c3fc-201">ブランチ オフィス アプライアンスへの接続。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-201">Connectivity to branch office appliances.</span></span>
 
   - <span></span>  
-    <span data-ttu-id="3b140-202">企業内および境界ネットワークを介した Lync Server 2010 への接続。</span><span class="sxs-lookup"><span data-stu-id="3b140-202">Connectivity to Lync Server 2010 inside the enterprise and through perimeter networks.</span></span>
+    <span data-ttu-id="7c3fc-202">企業内および境界ネットワークを介した Lync Server 2010 への接続。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-202">Connectivity to Lync Server 2010 inside the enterprise and through perimeter networks.</span></span>
 
-<span data-ttu-id="3b140-203">管理を容易にするため、社内および社外用の異なる認証オプションがあります。</span><span class="sxs-lookup"><span data-stu-id="3b140-203">Different authentication options are available for inside and outside of the enterprise to help simplify administration.</span></span> <span data-ttu-id="3b140-204">詳細については、「 [Lync Server 2013 で代理トランザクションを実行する監視ノードの構成](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3b140-204">For details, see [Configuring a watcher node to run synthetic transactions in Lync Server 2013](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).</span></span>
+<span data-ttu-id="7c3fc-203">管理を容易にするため、社内および社外用の異なる認証オプションがあります。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-203">Different authentication options are available for inside and outside of the enterprise to help simplify administration.</span></span> <span data-ttu-id="7c3fc-204">詳細については、「 [Lync Server 2013 で代理トランザクションを実行する監視ノードの構成](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-204">For details, see [Configuring a watcher node to run synthetic transactions in Lync Server 2013](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).</span></span>
 
-<span data-ttu-id="3b140-205">監視ノードとして動作するようにコンピューターを構成するには、System Center Operations Manager をインストールして Lync Server 2013 管理パックをインポートした後、次の手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b140-205">To configure a computer to act as a watcher node, you must complete the following steps after you have installed System Center Operations Manager and imported the Lync Server 2013 management packs.</span></span>
+<span data-ttu-id="7c3fc-205">監視ノードとして動作するようにコンピューターを構成するには、System Center Operations Manager をインストールして Lync Server 2013 管理パックをインポートした後、次の手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-205">To configure a computer to act as a watcher node, you must complete the following steps after you have installed System Center Operations Manager and imported the Lync Server 2013 management packs.</span></span>
 
-<span data-ttu-id="3b140-206">Lync Server 2013 コアファイルおよび System Center エージェントファイルをインストールする前に、監視ノードコンピューターが Lync Server 2013 をインストールするための前提条件をすべて満たしていることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b140-206">Before you install the Lync Server 2013 core files and the System Center agent files, you should also make sure that the watcher node computer meets all the prerequisites for installing Lync Server 2013.</span></span> <span data-ttu-id="3b140-207">さらに、監視ノード コンピューターには、次の項目がインストールされている必要があります。</span><span class="sxs-lookup"><span data-stu-id="3b140-207">In addition, the watcher node computer should also have the following items installed:</span></span>
+<span data-ttu-id="7c3fc-206">Lync Server 2013 コアファイルおよび System Center エージェントファイルをインストールする前に、監視ノードコンピューターが Lync Server 2013 をインストールするための前提条件をすべて満たしていることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-206">Before you install the Lync Server 2013 core files and the System Center agent files, you should also make sure that the watcher node computer meets all the prerequisites for installing Lync Server 2013.</span></span> <span data-ttu-id="7c3fc-207">さらに、監視ノード コンピューターには、次の項目がインストールされている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-207">In addition, the watcher node computer should also have the following items installed:</span></span>
 
 
 <table>
@@ -210,50 +212,50 @@ ms.locfileid: "42197060"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3b140-208">ハードウェア コンポーネント</span><span class="sxs-lookup"><span data-stu-id="3b140-208">Hardware component</span></span></th>
-<th><span data-ttu-id="3b140-209">最小要件</span><span class="sxs-lookup"><span data-stu-id="3b140-209">Minimum requirement</span></span></th>
+<th><span data-ttu-id="7c3fc-208">ハードウェア コンポーネント</span><span class="sxs-lookup"><span data-stu-id="7c3fc-208">Hardware component</span></span></th>
+<th><span data-ttu-id="7c3fc-209">最小要件</span><span class="sxs-lookup"><span data-stu-id="7c3fc-209">Minimum requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-210">CPU</span><span class="sxs-lookup"><span data-stu-id="3b140-210">CPU</span></span></p></td>
-<td><p><span data-ttu-id="3b140-211">次のいずれかの要件:</span><span class="sxs-lookup"><span data-stu-id="3b140-211">One of the following:</span></span></p>
+<td><p><span data-ttu-id="7c3fc-210">CPU</span><span class="sxs-lookup"><span data-stu-id="7c3fc-210">CPU</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-211">次のいずれかの要件:</span><span class="sxs-lookup"><span data-stu-id="7c3fc-211">One of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="3b140-212">64ビットプロセッサ、クアッドコア、2.33 GHz またはそれ以上</span><span class="sxs-lookup"><span data-stu-id="3b140-212">64-bit processor, quad-core, 2.33 GHz or higher</span></span></p></li>
-<li><p><span data-ttu-id="3b140-213">64ビット2ウェイプロセッサ、デュアルコア、2.33 GHz またはそれ以上</span><span class="sxs-lookup"><span data-stu-id="3b140-213">64-bit 2-way processor, dual-core, 2.33 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="7c3fc-212">64ビットプロセッサ、クアッドコア、2.33 GHz またはそれ以上</span><span class="sxs-lookup"><span data-stu-id="7c3fc-212">64-bit processor, quad-core, 2.33 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="7c3fc-213">64ビット2ウェイプロセッサ、デュアルコア、2.33 GHz またはそれ以上</span><span class="sxs-lookup"><span data-stu-id="7c3fc-213">64-bit 2-way processor, dual-core, 2.33 GHz or higher</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3b140-214">メモリ</span><span class="sxs-lookup"><span data-stu-id="3b140-214">Memory</span></span></p></td>
-<td><p><span data-ttu-id="3b140-215">8 GB</span><span class="sxs-lookup"><span data-stu-id="3b140-215">8 GB</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-214">メモリ</span><span class="sxs-lookup"><span data-stu-id="7c3fc-214">Memory</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-215">8 GB</span><span class="sxs-lookup"><span data-stu-id="7c3fc-215">8 GB</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3b140-216">ネットワークオペレーティングシステム</span><span class="sxs-lookup"><span data-stu-id="3b140-216">Network operating system</span></span></p></td>
+<td><p><span data-ttu-id="7c3fc-216">ネットワークオペレーティングシステム</span><span class="sxs-lookup"><span data-stu-id="7c3fc-216">Network operating system</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="3b140-217">1ネットワークアダプター 1 Gbps</span><span class="sxs-lookup"><span data-stu-id="3b140-217">1 network adapter 1 Gbps</span></span></p></li>
-<li><p><span data-ttu-id="3b140-218">Windows Server 2008 R2、Windows Server 2012、または</span><span class="sxs-lookup"><span data-stu-id="3b140-218">Windows Server 2008 R2, Windows Server 2012, or</span></span></p>
-<p><span data-ttu-id="3b140-219">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="3b140-219">Windows Server 2012 R2</span></span></p></li>
+<li><p><span data-ttu-id="7c3fc-217">1ネットワークアダプター 1 Gbps</span><span class="sxs-lookup"><span data-stu-id="7c3fc-217">1 network adapter 1 Gbps</span></span></p></li>
+<li><p><span data-ttu-id="7c3fc-218">Windows Server 2008 R2、Windows Server 2012、または</span><span class="sxs-lookup"><span data-stu-id="7c3fc-218">Windows Server 2008 R2, Windows Server 2012, or</span></span></p>
+<p><span data-ttu-id="7c3fc-219">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="7c3fc-219">Windows Server 2012 R2</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-  - <span data-ttu-id="3b140-220">製品版の .NET Framework 4.5。</span><span class="sxs-lookup"><span data-stu-id="3b140-220">The full version of .NET Framework 4.5.</span></span>
+  - <span data-ttu-id="7c3fc-220">製品版の .NET Framework 4.5。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-220">The full version of .NET Framework 4.5.</span></span>
 
-  - <span data-ttu-id="3b140-221">Windows Identity Foundation。</span><span class="sxs-lookup"><span data-stu-id="3b140-221">Windows Identity Foundation.</span></span>
+  - <span data-ttu-id="7c3fc-221">Windows Identity Foundation。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-221">Windows Identity Foundation.</span></span>
 
-  - <span data-ttu-id="3b140-222">Windows PowerShell 3.0。</span><span class="sxs-lookup"><span data-stu-id="3b140-222">Windows PowerShell 3.0.</span></span>
+  - <span data-ttu-id="7c3fc-222">Windows PowerShell 3.0。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-222">Windows PowerShell 3.0.</span></span>
 
-<span data-ttu-id="3b140-223">これらの前提条件がすべて満たされた後、次を行うことで監視ノードを構成できます。</span><span class="sxs-lookup"><span data-stu-id="3b140-223">As soon as all these prerequisites have been met, you can configure the watcher node by:</span></span>
+<span data-ttu-id="7c3fc-223">これらの前提条件がすべて満たされた後、次を行うことで監視ノードを構成できます。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-223">As soon as all these prerequisites have been met, you can configure the watcher node by:</span></span>
 
-  - <span data-ttu-id="3b140-224">監視ノードコンピューターに Lync Server 2013 コアファイルをインストールします。</span><span class="sxs-lookup"><span data-stu-id="3b140-224">Installing the Lync Server 2013 core files on the watcher node computer.</span></span>
+  - <span data-ttu-id="7c3fc-224">監視ノードコンピューターに Lync Server 2013 コアファイルをインストールします。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-224">Installing the Lync Server 2013 core files on the watcher node computer.</span></span>
 
-  - <span data-ttu-id="3b140-225">監視ノードコンピューターに System Center Operations Manager エージェントをインストールしています。</span><span class="sxs-lookup"><span data-stu-id="3b140-225">Installing System Center Operations Manager agent on the watcher node computer.</span></span>
+  - <span data-ttu-id="7c3fc-225">監視ノードコンピューターに System Center Operations Manager エージェントをインストールしています。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-225">Installing System Center Operations Manager agent on the watcher node computer.</span></span>
 
-  - <span data-ttu-id="3b140-226">Watchernode.msi 実行可能ファイルの実行。</span><span class="sxs-lookup"><span data-stu-id="3b140-226">Running the Watchernode.msi executable file.</span></span>
+  - <span data-ttu-id="7c3fc-226">Watchernode.msi 実行可能ファイルの実行。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-226">Running the Watchernode.msi executable file.</span></span>
 
-  - <span data-ttu-id="3b140-227">**CsWatcherNodeConfiguration** コマンドレットによる監視ノードで使用されるテスト ユーザーの構成。</span><span class="sxs-lookup"><span data-stu-id="3b140-227">Using the **CsWatcherNodeConfiguration** cmdlets to configure test users to be employed by the watcher node.</span></span>
+  - <span data-ttu-id="7c3fc-227">**CsWatcherNodeConfiguration** コマンドレットによる監視ノードで使用されるテスト ユーザーの構成。</span><span class="sxs-lookup"><span data-stu-id="7c3fc-227">Using the **CsWatcherNodeConfiguration** cmdlets to configure test users to be employed by the watcher node.</span></span>
 
 </div>
 
