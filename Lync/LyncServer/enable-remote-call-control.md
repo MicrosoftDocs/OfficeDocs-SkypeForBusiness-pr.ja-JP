@@ -1,5 +1,6 @@
 ---
 title: リモート通話コントロールを有効にする
+description: リモート通話コントロールを有効にします。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa81c938d69aedbc599194c1d820fa4c40e3337
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8009ffc927ad3f7a4f83ad3505100f3a9d4e82d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502894"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551133"
 ---
 # <a name="enable-remote-call-control"></a>リモート通話コントロールを有効にする
 
@@ -55,7 +56,7 @@ _**トピックの最終更新日:** 2012-10-02_
 
 4.  リモート通話コントロールを有効にし、回線サーバーの URI (Uniform Resource Identifier) と行 URI を割り当てることにより、リモート通話コントロールの Lync 2013 ユーザーを構成します。 従来の展開から Lync Server 2013 にユーザーを移行すると、リモート通話コントロールの設定が他のユーザーの設定と共に移行されます。
 
-5.  従来の展開でアドレス帳の電話番号正規化ルールをカスタマイズしてある場合は、ポリシーと設定の自動移行が完了した後でいくつかの手作業を実行し、カスタマイズした正規化ルールを移行する必要があります。 正規化ルールをカスタマイズしていない場合は、アドレス帳はトポロジの他の部分と共に移行されます。 カスタマイズした正規化ルールの手動移行の詳細については、「[Migrate Address Book](migrate-address-book_1.md)」を参照してください。
+5.  従来の展開でアドレス帳の電話番号正規化ルールをカスタマイズしてある場合は、ポリシーと設定の自動移行が完了した後でいくつかの手作業を実行し、カスタマイズした正規化ルールを移行する必要があります。 正規化ルールをカスタマイズしていない場合は、アドレス帳はトポロジの他の部分と共に移行されます。 カスタマイズした正規化ルールの手動移行の詳細については、「[Migrate Address Book](migrate-address-book.md)」を参照してください。
 
 </div>
 
