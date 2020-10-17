@@ -12,20 +12,22 @@ ms:contentKeyID: 63369406
 ms.date: 11/12/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b4efe639cc1bb9e33032e4eaae9148f3b90951b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c44e3902b252931929b3d0db08896e7b5833f83
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198920"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523354"
 ---
+# <a name="updates-for-lync-2013-client-and-lync-server-2013"></a><span data-ttu-id="63c1d-102">Lync 2013 クライアントおよび Lync Server 2013 の更新プログラム</span><span class="sxs-lookup"><span data-stu-id="63c1d-102">Updates for Lync 2013 client and Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updates-for-lync-2013-client-and-lync-server-2013"></a><span data-ttu-id="5234b-102">Lync 2013 クライアントおよび Lync Server 2013 の更新プログラム</span><span class="sxs-lookup"><span data-stu-id="5234b-102">Updates for Lync 2013 client and Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,33 +37,33 @@ ms.locfileid: "42198920"
 
 <span> </span>
 
-<span data-ttu-id="5234b-103">_**トピックの最終更新日:** 2014-11-12_</span><span class="sxs-lookup"><span data-stu-id="5234b-103">_**Topic Last Modified:** 2014-11-12_</span></span>
+<span data-ttu-id="63c1d-103">_**トピックの最終更新日:** 2014-11-12_</span><span class="sxs-lookup"><span data-stu-id="63c1d-103">_**Topic Last Modified:** 2014-11-12_</span></span>
 
-<span data-ttu-id="5234b-104">最新バージョンの Lync クライアントを使用していることを確認するには、Microsoft Lync 2013 のすべてのクライアントリリースバージョンの更新された頻繁な一覧を確認してください。</span><span class="sxs-lookup"><span data-stu-id="5234b-104">To ensure that you have the latest version of Lync client, check out this frequently updated list of all client release versions for Microsoft Lync 2013.</span></span>
+<span data-ttu-id="63c1d-104">最新バージョンの Lync クライアントを使用していることを確認するには、Microsoft Lync 2013 のすべてのクライアントリリースバージョンの更新された頻繁な一覧を確認してください。</span><span class="sxs-lookup"><span data-stu-id="63c1d-104">To ensure that you have the latest version of Lync client, check out this frequently updated list of all client release versions for Microsoft Lync 2013.</span></span>
 
 <div>
 
-## <a name="determining-your-lync-desktop-client-version"></a><span data-ttu-id="5234b-105">Lync デスクトップクライアントのバージョンを確認する</span><span class="sxs-lookup"><span data-stu-id="5234b-105">Determining your Lync desktop client version</span></span>
+## <a name="determining-your-lync-desktop-client-version"></a><span data-ttu-id="63c1d-105">Lync デスクトップクライアントのバージョンを確認する</span><span class="sxs-lookup"><span data-stu-id="63c1d-105">Determining your Lync desktop client version</span></span>
 
-<span data-ttu-id="5234b-106">使用している Lync desktop クライアントのバージョンを確認するには、[オプション] アイコンをクリックして [ **About lync** ] ダイアログを開きます。</span><span class="sxs-lookup"><span data-stu-id="5234b-106">To find out which version of Lync desktop client you are using, open the **About Lync** dialog by clicking the options icon.</span></span> <span data-ttu-id="5234b-107">[**オプション**] メニューの [**ヘルプ**] をクリックし、[**バージョン情報**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="5234b-107">On the **Options** menu, select **Help** and then select **About Microsoft Lync**.</span></span> <span data-ttu-id="5234b-108">クライアントバージョン番号は、通常 [バージョン**情報**] ダイアログボックスの最初の行に表示されます。</span><span class="sxs-lookup"><span data-stu-id="5234b-108">The client version number is usually displayed in the first line on the **About Lync** dialog.</span></span>
+<span data-ttu-id="63c1d-106">使用している Lync desktop クライアントのバージョンを確認するには、[オプション] アイコンをクリックして [ **About lync** ] ダイアログを開きます。</span><span class="sxs-lookup"><span data-stu-id="63c1d-106">To find out which version of Lync desktop client you are using, open the **About Lync** dialog by clicking the options icon.</span></span> <span data-ttu-id="63c1d-107">[ **オプション** ] メニューの [ **ヘルプ** ] をクリックし、[ **バージョン情報**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="63c1d-107">On the **Options** menu, select **Help** and then select **About Microsoft Lync**.</span></span> <span data-ttu-id="63c1d-108">クライアントバージョン番号は、通常 [バージョン **情報** ] ダイアログボックスの最初の行に表示されます。</span><span class="sxs-lookup"><span data-stu-id="63c1d-108">The client version number is usually displayed in the first line on the **About Lync** dialog.</span></span>
 
 </div>
 
 <div>
 
-## <a name="lync-client-updates"></a><span data-ttu-id="5234b-109">Lync クライアントの更新プログラム</span><span class="sxs-lookup"><span data-stu-id="5234b-109">Lync client updates</span></span>
+## <a name="lync-client-updates"></a><span data-ttu-id="63c1d-109">Lync クライアントの更新プログラム</span><span class="sxs-lookup"><span data-stu-id="63c1d-109">Lync client updates</span></span>
 
-<span data-ttu-id="5234b-110">Lync クライアントの問題をトラブルシューティングする際に実行する最も一般的なチェックの1つは、最新バージョンの Lync クライアントを実行しているかどうか、およびすべてのパッチがインストールされているかどうかを判断することです。</span><span class="sxs-lookup"><span data-stu-id="5234b-110">One of the most common checks that to do when troubleshooting Lync client issues is determining whether you are running the latest version of the Lync client and if all patches are installed.</span></span> <span data-ttu-id="5234b-111">報告された Lync クライアントの問題の大部分は、製品の最新リリースまたは更新プログラムにアップグレードすることによって解決できます。</span><span class="sxs-lookup"><span data-stu-id="5234b-111">A majority of the Lync client issues that get reported are resolved by upgrading to the latest release or update of the product.</span></span> <span data-ttu-id="5234b-112">そのため、Microsoft 製品サポートに問い合わせる前に、最新バージョンの Lync クライアントを最新の更新プログラムと共にインストールすることを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="5234b-112">Thus, we highly recommended that you install the latest version of the Lync client, along with the latest updates, before you contact Microsoft Product Support.</span></span> <span data-ttu-id="5234b-113">この[記事](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates)では、正しいリリースバージョン番号を特定する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="5234b-113">This [article](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates) will help you identify the correct release version number.</span></span>
+<span data-ttu-id="63c1d-110">Lync クライアントの問題をトラブルシューティングする際に実行する最も一般的なチェックの1つは、最新バージョンの Lync クライアントを実行しているかどうか、およびすべてのパッチがインストールされているかどうかを判断することです。</span><span class="sxs-lookup"><span data-stu-id="63c1d-110">One of the most common checks that to do when troubleshooting Lync client issues is determining whether you are running the latest version of the Lync client and if all patches are installed.</span></span> <span data-ttu-id="63c1d-111">報告された Lync クライアントの問題の大部分は、製品の最新リリースまたは更新プログラムにアップグレードすることによって解決できます。</span><span class="sxs-lookup"><span data-stu-id="63c1d-111">A majority of the Lync client issues that get reported are resolved by upgrading to the latest release or update of the product.</span></span> <span data-ttu-id="63c1d-112">そのため、Microsoft 製品サポートに問い合わせる前に、最新バージョンの Lync クライアントを最新の更新プログラムと共にインストールすることを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="63c1d-112">Thus, we highly recommended that you install the latest version of the Lync client, along with the latest updates, before you contact Microsoft Product Support.</span></span> <span data-ttu-id="63c1d-113">この [記事](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates) では、正しいリリースバージョン番号を特定する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="63c1d-113">This [article](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates) will help you identify the correct release version number.</span></span>
 
-<span data-ttu-id="5234b-114">Lync クライアント用の各更新プログラムには、独自のバージョン番号があります。</span><span class="sxs-lookup"><span data-stu-id="5234b-114">Each update for Lync client has its own version number.</span></span> <span data-ttu-id="5234b-115">更新プログラムに関連付けられているバージョン番号は、次の表にリンクされているサポート技術情報の記事を参照することで確認できます。</span><span class="sxs-lookup"><span data-stu-id="5234b-115">You can determine the version number associated with an update by looking at the related KB article, linked to in the following table.</span></span>
+<span data-ttu-id="63c1d-114">Lync クライアント用の各更新プログラムには、独自のバージョン番号があります。</span><span class="sxs-lookup"><span data-stu-id="63c1d-114">Each update for Lync client has its own version number.</span></span> <span data-ttu-id="63c1d-115">更新プログラムに関連付けられているバージョン番号は、次の表にリンクされているサポート技術情報の記事を参照することで確認できます。</span><span class="sxs-lookup"><span data-stu-id="63c1d-115">You can determine the version number associated with an update by looking at the related KB article, linked to in the following table.</span></span>
 
 </div>
 
 <div>
 
-## <a name="lync-server-updates"></a><span data-ttu-id="5234b-116">Lync Server の更新プログラム</span><span class="sxs-lookup"><span data-stu-id="5234b-116">Lync Server Updates</span></span>
+## <a name="lync-server-updates"></a><span data-ttu-id="63c1d-116">Lync Server の更新プログラム</span><span class="sxs-lookup"><span data-stu-id="63c1d-116">Lync Server Updates</span></span>
 
-<span data-ttu-id="5234b-117">Lync Server 2013 の更新プログラムの詳細については、Microsoft サポート web 上の「 [Lync server 2013 の更新プログラム](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5234b-117">For information about updates for Lync Server 2013, see [Updates for Lync Server 2013](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013) on the Microsoft support web.</span></span>
+<span data-ttu-id="63c1d-117">Lync Server 2013 の更新プログラムの詳細については、Microsoft サポート web 上の「 [Lync server 2013 の更新プログラム](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="63c1d-117">For information about updates for Lync Server 2013, see [Updates for Lync Server 2013](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013) on the Microsoft support web.</span></span>
 
 </div>
 

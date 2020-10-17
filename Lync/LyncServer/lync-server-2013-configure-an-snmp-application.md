@@ -12,20 +12,22 @@ ms:contentKeyID: 48185346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 252b6ec99d19b88259aacc2fc5681b585ae1bef2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48ef29fdf87dd25365a5aae69cb4c8115e410025
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205293"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522994"
 ---
+# <a name="configure-an-snmp-application-in-lync-server-2013"></a><span data-ttu-id="92d79-102">Lync Server 2013 で SNMP アプリケーションを構成する</span><span class="sxs-lookup"><span data-stu-id="92d79-102">Configure an SNMP application in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-snmp-application-in-lync-server-2013"></a><span data-ttu-id="6567a-102">Lync Server 2013 で SNMP アプリケーションを構成する</span><span class="sxs-lookup"><span data-stu-id="6567a-102">Configure an SNMP application in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42205293"
 
 <span> </span>
 
-<span data-ttu-id="6567a-103">_**トピックの最終更新日:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="6567a-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="92d79-103">_**トピックの最終更新日:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="92d79-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="6567a-104">Lync Server 2013 には、MAC アドレスとポートおよびスイッチ情報を一致させる簡易ネットワーク管理プロトコル (SNMP) アプリケーションに場所情報サービスを接続するために使用できる標準の web サービスインターフェイスが含まれています。</span><span class="sxs-lookup"><span data-stu-id="6567a-104">Lync Server 2013 includes a standard web service interface that you can use to connect the Location Information service to Simple Network Management Protocol (SNMP) applications that match MAC addresses with port and switch information.</span></span>
+<span data-ttu-id="92d79-104">Lync Server 2013 には、MAC アドレスとポートおよびスイッチ情報を一致させる簡易ネットワーク管理プロトコル (SNMP) アプリケーションに場所情報サービスを接続するために使用できる標準の web サービスインターフェイスが含まれています。</span><span class="sxs-lookup"><span data-stu-id="92d79-104">Lync Server 2013 includes a standard web service interface that you can use to connect the Location Information service to Simple Network Management Protocol (SNMP) applications that match MAC addresses with port and switch information.</span></span>
 
-<span data-ttu-id="6567a-105">SNMP アプリケーションがインストールされていて、場所情報サービスが場所データベースで一致を見つけられない場合、場所情報サービスはクライアントによって指定された MAC アドレスを使用して、アプリケーションに対して自動的にクエリを実行します。</span><span class="sxs-lookup"><span data-stu-id="6567a-105">If an SNMP application is installed and the Location Information service fails to find a match in the location database, the Location Information service automatically queries the application by using the MAC address provided by the client.</span></span> <span data-ttu-id="6567a-106">その後、場所情報サービスは、SNMP アプリケーションによって返されるポートとスイッチの情報を使用して、場所データベースに再度クエリを実行します。</span><span class="sxs-lookup"><span data-stu-id="6567a-106">The Location Information service then uses the port and switch information returned by the SNMP application to query the location database again.</span></span>
+<span data-ttu-id="92d79-105">SNMP アプリケーションがインストールされていて、場所情報サービスが場所データベースで一致を見つけられない場合、場所情報サービスはクライアントによって指定された MAC アドレスを使用して、アプリケーションに対して自動的にクエリを実行します。</span><span class="sxs-lookup"><span data-stu-id="92d79-105">If an SNMP application is installed and the Location Information service fails to find a match in the location database, the Location Information service automatically queries the application by using the MAC address provided by the client.</span></span> <span data-ttu-id="92d79-106">その後、場所情報サービスは、SNMP アプリケーションによって返されるポートとスイッチの情報を使用して、場所データベースに再度クエリを実行します。</span><span class="sxs-lookup"><span data-stu-id="92d79-106">The Location Information service then uses the port and switch information returned by the SNMP application to query the location database again.</span></span>
 
-<span data-ttu-id="6567a-107">詳細については、「 [set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6567a-107">For details, see [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).</span></span>
+<span data-ttu-id="92d79-107">詳細については、「 [set-cswebserviceconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="92d79-107">For details, see [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6567a-108">MAC アドレスは、Windows 8 を実行しているコンピューターでは使用できません。</span><span class="sxs-lookup"><span data-stu-id="6567a-108">MAC addresses are not available on computers running Windows 8.</span></span>
+> <span data-ttu-id="92d79-108">MAC アドレスは、Windows 8 を実行しているコンピューターでは使用できません。</span><span class="sxs-lookup"><span data-stu-id="92d79-108">MAC addresses are not available on computers running Windows 8.</span></span>
 
 
 
@@ -55,11 +57,11 @@ ms.locfileid: "42205293"
 
 <div>
 
-## <a name="to-configure-the-snmp-application-url"></a><span data-ttu-id="6567a-109">SNMP アプリケーションの URL を構成するには</span><span class="sxs-lookup"><span data-stu-id="6567a-109">To configure the SNMP application URL</span></span>
+## <a name="to-configure-the-snmp-application-url"></a><span data-ttu-id="92d79-109">SNMP アプリケーションの URL を構成するには</span><span class="sxs-lookup"><span data-stu-id="92d79-109">To configure the SNMP application URL</span></span>
 
-1.  <span data-ttu-id="6567a-110">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="6567a-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="92d79-110">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="92d79-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="6567a-111">次のコマンドレットを使用して SNMP アプリケーションの URL を構成します。</span><span class="sxs-lookup"><span data-stu-id="6567a-111">Run the following cmdlet to configure the URL for the SNMP application.</span></span>
+2.  <span data-ttu-id="92d79-111">次のコマンドレットを使用して SNMP アプリケーションの URL を構成します。</span><span class="sxs-lookup"><span data-stu-id="92d79-111">Run the following cmdlet to configure the URL for the SNMP application.</span></span>
     
         Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
 

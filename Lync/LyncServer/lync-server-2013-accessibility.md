@@ -12,20 +12,22 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dab7c088e0850e455d12c2ca83e04994666269a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d3e374825b762d059cc4b56a232d8e8b518319bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199290"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523234"
 ---
+# <a name="accessibility-in-lync-server-2013"></a><span data-ttu-id="e3e5e-102">Lync Server 2013 でのアクセシビリティ</span><span class="sxs-lookup"><span data-stu-id="e3e5e-102">Accessibility in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="accessibility-in-lync-server-2013"></a><span data-ttu-id="018bb-102">Lync Server 2013 でのアクセシビリティ</span><span class="sxs-lookup"><span data-stu-id="018bb-102">Accessibility in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42199290"
 
 <span> </span>
 
-<span data-ttu-id="018bb-103">_**トピックの最終更新日:** 2014-10-09_</span><span class="sxs-lookup"><span data-stu-id="018bb-103">_**Topic Last Modified:** 2014-10-09_</span></span>
+<span data-ttu-id="e3e5e-103">_**トピックの最終更新日:** 2014-10-09_</span><span class="sxs-lookup"><span data-stu-id="e3e5e-103">_**Topic Last Modified:** 2014-10-09_</span></span>
 
-<span data-ttu-id="018bb-104">Microsoft では、すべてのユーザーにとって使いやすい製品とサービスを提供できるよう取り組んでいます。</span><span class="sxs-lookup"><span data-stu-id="018bb-104">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="018bb-105">次のセクションでは、障碍がある方のために Lync Server 2013 をより使いやすくするために役立つ機能、製品、およびサービスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="018bb-105">The following sections provide information about the features, products, and services that help make Lync Server 2013 more accessible for people with disabilities.</span></span>
+<span data-ttu-id="e3e5e-104">Microsoft では、すべてのユーザーにとって使いやすい製品とサービスを提供できるよう取り組んでいます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-104">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="e3e5e-105">次のセクションでは、障碍がある方のために Lync Server 2013 をより使いやすくするために役立つ機能、製品、およびサービスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-105">The following sections provide information about the features, products, and services that help make Lync Server 2013 more accessible for people with disabilities.</span></span>
 
 <div>
 
-## <a name="accessibility-features-of-lync-server-2013"></a><span data-ttu-id="018bb-106">Lync Server 2013 のユーザー補助機能</span><span class="sxs-lookup"><span data-stu-id="018bb-106">Accessibility features of Lync Server 2013</span></span>
+## <a name="accessibility-features-of-lync-server-2013"></a><span data-ttu-id="e3e5e-106">Lync Server 2013 のユーザー補助機能</span><span class="sxs-lookup"><span data-stu-id="e3e5e-106">Accessibility features of Lync Server 2013</span></span>
 
-<span data-ttu-id="018bb-107">Lync Server 2013 の次の機能を使用すると、障碍のある方がアクセスしやすくなります。</span><span class="sxs-lookup"><span data-stu-id="018bb-107">The following features in Lync Server 2013 help make it more accessible for people with disabilities:</span></span>
+<span data-ttu-id="e3e5e-107">Lync Server 2013 の次の機能を使用すると、障碍のある方がアクセスしやすくなります。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-107">The following features in Lync Server 2013 help make it more accessible for people with disabilities:</span></span>
 
-  - <span data-ttu-id="018bb-108">キーボード ショートカット</span><span class="sxs-lookup"><span data-stu-id="018bb-108">Keyboard Shortcuts</span></span>
+  - <span data-ttu-id="e3e5e-108">キーボード ショートカット</span><span class="sxs-lookup"><span data-stu-id="e3e5e-108">Keyboard Shortcuts</span></span>
 
-  - <span data-ttu-id="018bb-109">図の代替テキスト</span><span class="sxs-lookup"><span data-stu-id="018bb-109">Alternate text for figures</span></span>
+  - <span data-ttu-id="e3e5e-109">図の代替テキスト</span><span class="sxs-lookup"><span data-stu-id="e3e5e-109">Alternate text for figures</span></span>
 
-<span data-ttu-id="018bb-110">また、Windows のユーザー補助機能とツールの中には、Lync Server ユーザーに障害が発生する利点があります。</span><span class="sxs-lookup"><span data-stu-id="018bb-110">In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities.</span></span> <span data-ttu-id="018bb-111">Windows PowerShell のサイズと色の変更によって、Lync Server 管理シェルを使用する場合のユーザー補助オプションが提供されます。</span><span class="sxs-lookup"><span data-stu-id="018bb-111">Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell.</span></span> <span data-ttu-id="018bb-112">Windows PowerShell のユーザー補助オプションの詳細については、TechNet ライブラリの「Windows PowerShell 2.0 で[https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964)のアクセシビリティ」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="018bb-112">For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964).</span></span>
+<span data-ttu-id="e3e5e-110">また、Windows のユーザー補助機能とツールの中には、Lync Server ユーザーに障害が発生する利点があります。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-110">In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities.</span></span> <span data-ttu-id="e3e5e-111">Windows PowerShell のサイズと色の変更によって、Lync Server 管理シェルを使用する場合のユーザー補助オプションが提供されます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-111">Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell.</span></span> <span data-ttu-id="e3e5e-112">Windows PowerShell のユーザー補助オプションの詳細については、TechNet ライブラリの「Windows PowerShell 2.0 でのアクセシビリティ」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964) 。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-112">For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964).</span></span>
 
 </div>
 
@@ -57,11 +59,11 @@ ms.locfileid: "42199290"
 
 <div>
 
-## <a name="keyboard-shortcuts"></a><span data-ttu-id="018bb-113">キーボード ショートカット</span><span class="sxs-lookup"><span data-stu-id="018bb-113">Keyboard shortcuts</span></span>
+## <a name="keyboard-shortcuts"></a><span data-ttu-id="e3e5e-113">キーボード ショートカット</span><span class="sxs-lookup"><span data-stu-id="e3e5e-113">Keyboard shortcuts</span></span>
 
-<span data-ttu-id="018bb-114">Lync Server 管理ツールおよびその他の機能のユーザーインターフェイスを操作するには、キーボードショートカットを使用できます。</span><span class="sxs-lookup"><span data-stu-id="018bb-114">You can use keyboard shortcuts to interact with the user interface in Lync Server administrative tools and other features.</span></span>
+<span data-ttu-id="e3e5e-114">Lync Server 管理ツールおよびその他の機能のユーザーインターフェイスを操作するには、キーボードショートカットを使用できます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-114">You can use keyboard shortcuts to interact with the user interface in Lync Server administrative tools and other features.</span></span>
 
-<span data-ttu-id="018bb-115">キーボード ショートカットを使用することによって、次のような一般的なタスクを迅速に実行できます。</span><span class="sxs-lookup"><span data-stu-id="018bb-115">By using keyboard shortcuts, you can quickly accomplish the following common tasks.</span></span>
+<span data-ttu-id="e3e5e-115">キーボード ショートカットを使用することによって、次のような一般的なタスクを迅速に実行できます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-115">By using keyboard shortcuts, you can quickly accomplish the following common tasks.</span></span>
 
 
 <table>
@@ -71,62 +73,62 @@ ms.locfileid: "42199290"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="018bb-116">操作内容</span><span class="sxs-lookup"><span data-stu-id="018bb-116">To do this</span></span></th>
-<th><span data-ttu-id="018bb-117">使用するキーボード ショートカット</span><span class="sxs-lookup"><span data-stu-id="018bb-117">Use this keyboard shortcut</span></span></th>
+<th><span data-ttu-id="e3e5e-116">操作内容</span><span class="sxs-lookup"><span data-stu-id="e3e5e-116">To do this</span></span></th>
+<th><span data-ttu-id="e3e5e-117">使用するキーボード ショートカット</span><span class="sxs-lookup"><span data-stu-id="e3e5e-117">Use this keyboard shortcut</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="018bb-118">ユーザー インターフェイスの要素の間で切り替える</span><span class="sxs-lookup"><span data-stu-id="018bb-118">Switch between elements in the user interface.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-119">Tab</span><span class="sxs-lookup"><span data-stu-id="018bb-119">Tab</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-118">ユーザー インターフェイスの要素の間で切り替える</span><span class="sxs-lookup"><span data-stu-id="e3e5e-118">Switch between elements in the user interface.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-119">Tab</span><span class="sxs-lookup"><span data-stu-id="e3e5e-119">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="018bb-120">[<strong>すべて表示</strong>]、[<strong>すべて非表示</strong>]、ハイパーリンクのオープンなど、選択した要素に対してアクションを実行する</span><span class="sxs-lookup"><span data-stu-id="018bb-120">Perform the action for the selected element, such as <strong>Show All</strong>, <strong>Hide All</strong>, or open a hyperlink.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-121">次のように入力します</span><span class="sxs-lookup"><span data-stu-id="018bb-121">Enter</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-120">[<strong>すべて表示</strong>]、[<strong>すべて非表示</strong>]、ハイパーリンクのオープンなど、選択した要素に対してアクションを実行する</span><span class="sxs-lookup"><span data-stu-id="e3e5e-120">Perform the action for the selected element, such as <strong>Show All</strong>, <strong>Hide All</strong>, or open a hyperlink.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-121">次のように入力します</span><span class="sxs-lookup"><span data-stu-id="e3e5e-121">Enter</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="018bb-122">選択要素をページまたはメニューの次の要素に変更する</span><span class="sxs-lookup"><span data-stu-id="018bb-122">Change the selected element to the next element on the page or in a menu.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-123">Tab</span><span class="sxs-lookup"><span data-stu-id="018bb-123">Tab</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-122">選択要素をページまたはメニューの次の要素に変更する</span><span class="sxs-lookup"><span data-stu-id="e3e5e-122">Change the selected element to the next element on the page or in a menu.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-123">Tab</span><span class="sxs-lookup"><span data-stu-id="e3e5e-123">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="018bb-124">選択要素をページの前の要素に変更する</span><span class="sxs-lookup"><span data-stu-id="018bb-124">Change the selected element to the previous element on the page.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-125">Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="018bb-125">Shift+Tab</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-124">選択要素をページの前の要素に変更する</span><span class="sxs-lookup"><span data-stu-id="e3e5e-124">Change the selected element to the previous element on the page.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-125">Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="e3e5e-125">Shift+Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="018bb-126">ページまたはメニューで選択要素を上、下、左、右に変更する</span><span class="sxs-lookup"><span data-stu-id="018bb-126">Change the selected element on the page or menu up, down, left, or right.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-127">方向キー</span><span class="sxs-lookup"><span data-stu-id="018bb-127">Arrow Keys</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-126">ページまたはメニューで選択要素を上、下、左、右に変更する</span><span class="sxs-lookup"><span data-stu-id="e3e5e-126">Change the selected element on the page or menu up, down, left, or right.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-127">方向キー</span><span class="sxs-lookup"><span data-stu-id="e3e5e-127">Arrow Keys</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="018bb-128">ツリーの選択されたノードを展開する</span><span class="sxs-lookup"><span data-stu-id="018bb-128">Expand the selected node in tree.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-129">+要点</span><span class="sxs-lookup"><span data-stu-id="018bb-129">+ Key</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-128">ツリーの選択されたノードを展開する</span><span class="sxs-lookup"><span data-stu-id="e3e5e-128">Expand the selected node in tree.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-129">+ 要点</span><span class="sxs-lookup"><span data-stu-id="e3e5e-129">+ Key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="018bb-130">ツリーの選択されたノードを折りたたむ</span><span class="sxs-lookup"><span data-stu-id="018bb-130">Collapse the selected node in the tree.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-131">-要点</span><span class="sxs-lookup"><span data-stu-id="018bb-131">- Key</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-130">ツリーの選択されたノードを折りたたむ</span><span class="sxs-lookup"><span data-stu-id="e3e5e-130">Collapse the selected node in the tree.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-131">- 要点</span><span class="sxs-lookup"><span data-stu-id="e3e5e-131">- Key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="018bb-132">メニュー バーにアクセスする</span><span class="sxs-lookup"><span data-stu-id="018bb-132">Access the menu bar.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-133">Alt</span><span class="sxs-lookup"><span data-stu-id="018bb-133">Alt</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-132">メニュー バーにアクセスする</span><span class="sxs-lookup"><span data-stu-id="e3e5e-132">Access the menu bar.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-133">Alt キー</span><span class="sxs-lookup"><span data-stu-id="e3e5e-133">Alt</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="018bb-134">メニュー バー コマンドにアクセスする</span><span class="sxs-lookup"><span data-stu-id="018bb-134">Access a menu bar command.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-135">Alt + ショートカット メニューで下線の付いている文字</span><span class="sxs-lookup"><span data-stu-id="018bb-135">Alt+ the letter underlined in the shortcut menu.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-134">メニュー バー コマンドにアクセスする</span><span class="sxs-lookup"><span data-stu-id="e3e5e-134">Access a menu bar command.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-135">Alt + ショートカット メニューで下線の付いている文字</span><span class="sxs-lookup"><span data-stu-id="e3e5e-135">Alt+ the letter underlined in the shortcut menu.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="018bb-136">証明書ウィザードでドロップダウン リストを選択する</span><span class="sxs-lookup"><span data-stu-id="018bb-136">Select the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-137">Tab</span><span class="sxs-lookup"><span data-stu-id="018bb-137">Tab</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-136">証明書ウィザードでドロップダウン リストを選択する</span><span class="sxs-lookup"><span data-stu-id="e3e5e-136">Select the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-137">Tab</span><span class="sxs-lookup"><span data-stu-id="e3e5e-137">Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="018bb-138">証明書ウィザードでドロップダウン リストを開く</span><span class="sxs-lookup"><span data-stu-id="018bb-138">Open the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-139">Ctrl + Space</span><span class="sxs-lookup"><span data-stu-id="018bb-139">Ctrl+Spacebar</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-138">証明書ウィザードでドロップダウン リストを開く</span><span class="sxs-lookup"><span data-stu-id="e3e5e-138">Open the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-139">Ctrl + Space</span><span class="sxs-lookup"><span data-stu-id="e3e5e-139">Ctrl+Spacebar</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="018bb-140">証明書ウィザードでドロップダウン リストの項目を強調表示する</span><span class="sxs-lookup"><span data-stu-id="018bb-140">Highlight an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-141">Tab キーを押した後、Ctrl キーを押しながら方向キーを押して項目間を移動</span><span class="sxs-lookup"><span data-stu-id="018bb-141">Tab, and then Ctrl+Arrow keys to move between items.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-140">証明書ウィザードでドロップダウン リストの項目を強調表示する</span><span class="sxs-lookup"><span data-stu-id="e3e5e-140">Highlight an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-141">Tab キーを押した後、Ctrl キーを押しながら方向キーを押して項目間を移動</span><span class="sxs-lookup"><span data-stu-id="e3e5e-141">Tab, and then Ctrl+Arrow keys to move between items.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="018bb-142">証明書ウィザードでドロップダウン リストの項目を選択または選択解除する</span><span class="sxs-lookup"><span data-stu-id="018bb-142">Select or clear an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="018bb-143">Ctrl + Space</span><span class="sxs-lookup"><span data-stu-id="018bb-143">Ctrl+Spacebar</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-142">証明書ウィザードでドロップダウン リストの項目を選択または選択解除する</span><span class="sxs-lookup"><span data-stu-id="e3e5e-142">Select or clear an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-143">Ctrl + Space</span><span class="sxs-lookup"><span data-stu-id="e3e5e-143">Ctrl+Spacebar</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -138,9 +140,9 @@ ms.locfileid: "42199290"
 
 <div>
 
-## <a name="alternate-text-for-figures"></a><span data-ttu-id="018bb-144">図の代替テキスト</span><span class="sxs-lookup"><span data-stu-id="018bb-144">Alternate text for figures</span></span>
+## <a name="alternate-text-for-figures"></a><span data-ttu-id="e3e5e-144">図の代替テキスト</span><span class="sxs-lookup"><span data-stu-id="e3e5e-144">Alternate text for figures</span></span>
 
-<span data-ttu-id="018bb-145">Lync Server 2013 のヘルプのすべての図には、スクリーンショット、図、フローチャート、その他の図を含む代替テキストが関連付けられています。</span><span class="sxs-lookup"><span data-stu-id="018bb-145">Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow charts, and other figures, has associated alternate text.</span></span> <span data-ttu-id="018bb-146">図を見ることが困難なユーザーは、図の上にカーソルを置くと、代替テキストを読むことができます。</span><span class="sxs-lookup"><span data-stu-id="018bb-146">Users who have difficulty viewing figures can pause the cursor on the figure to read the alternate text.</span></span> <span data-ttu-id="018bb-147">代替テキストには、図の内容が説明されています。</span><span class="sxs-lookup"><span data-stu-id="018bb-147">The alternate text describes what is shown in the figure.</span></span>
+<span data-ttu-id="e3e5e-145">Lync Server 2013 のヘルプのすべての図には、スクリーンショット、図、フローチャート、その他の図を含む代替テキストが関連付けられています。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-145">Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow charts, and other figures, has associated alternate text.</span></span> <span data-ttu-id="e3e5e-146">図を見ることが困難なユーザーは、図の上にカーソルを置くと、代替テキストを読むことができます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-146">Users who have difficulty viewing figures can pause the cursor on the figure to read the alternate text.</span></span> <span data-ttu-id="e3e5e-147">代替テキストには、図の内容が説明されています。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-147">The alternate text describes what is shown in the figure.</span></span>
 
 </div>
 
@@ -148,15 +150,15 @@ ms.locfileid: "42199290"
 
 <div>
 
-## <a name="accessibility-products-and-services-from-microsoft"></a><span data-ttu-id="018bb-148">マイクロソフトが提供するユーザー補助製品およびサービス</span><span class="sxs-lookup"><span data-stu-id="018bb-148">Accessibility products and services from Microsoft</span></span>
+## <a name="accessibility-products-and-services-from-microsoft"></a><span data-ttu-id="e3e5e-148">マイクロソフトが提供するユーザー補助製品およびサービス</span><span class="sxs-lookup"><span data-stu-id="e3e5e-148">Accessibility products and services from Microsoft</span></span>
 
-<span data-ttu-id="018bb-149">次のセクションでは、障碍がある方のために Windows をより使いやすくするための機能、製品、およびサービスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="018bb-149">The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.</span></span>
+<span data-ttu-id="e3e5e-149">次のセクションでは、障碍がある方のために Windows をより使いやすくするための機能、製品、およびサービスについて説明します。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-149">The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="018bb-150">ここに記載されている情報は、米国内で Microsoft 製品のライセンスを取得しているユーザーのみが対象となります。</span><span class="sxs-lookup"><span data-stu-id="018bb-150">The information in this section applies only to users who license Microsoft products in the United States.</span></span> <span data-ttu-id="018bb-151">この製品を米国外で購入した場合は、ソフトウェアパッケージに付属の子会社情報カードを使用するか、microsoft アクセシビリティ web サイト<A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A>にアクセスして、microsoft サポートサービスの電話番号と住所の一覧を参照できます。</span><span class="sxs-lookup"><span data-stu-id="018bb-151">If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services.</span></span> <span data-ttu-id="018bb-152">ここで説明する種類の製品やサービスがお住まいの地域で利用できるかどうかについては、お近くの子会社に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="018bb-152">You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area.</span></span> <span data-ttu-id="018bb-153">マイクロソフト製品に含まれているユーザー補助機能の詳細については、Web サイト「Accessibility in Microsoft Products」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="018bb-153">You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.</span></span>
+> <span data-ttu-id="e3e5e-150">ここに記載されている情報は、米国内で Microsoft 製品のライセンスを取得しているユーザーのみが対象となります。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-150">The information in this section applies only to users who license Microsoft products in the United States.</span></span> <span data-ttu-id="e3e5e-151">この製品を米国外で購入した場合は、ソフトウェアパッケージに付属の子会社情報カードを使用するか、microsoft アクセシビリティ web サイトにアクセスして、 <A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A> microsoft サポートサービスの電話番号と住所の一覧を参照できます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-151">If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services.</span></span> <span data-ttu-id="e3e5e-152">ここで説明する種類の製品やサービスがお住まいの地域で利用できるかどうかについては、お近くの子会社に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-152">You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area.</span></span> <span data-ttu-id="e3e5e-153">マイクロソフト製品に含まれているユーザー補助機能の詳細については、Web サイト「Accessibility in Microsoft Products」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-153">You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.</span></span>
 
 
 
@@ -164,27 +166,27 @@ ms.locfileid: "42199290"
 
 <div>
 
-## <a name="accessibility-features-of-windows"></a><span data-ttu-id="018bb-154">Windows のユーザー補助機能</span><span class="sxs-lookup"><span data-stu-id="018bb-154">Accessibility features of Windows</span></span>
+## <a name="accessibility-features-of-windows"></a><span data-ttu-id="e3e5e-154">Windows のユーザー補助機能</span><span class="sxs-lookup"><span data-stu-id="e3e5e-154">Accessibility features of Windows</span></span>
 
-<span data-ttu-id="018bb-155">Windows オペレーティング システムには、キーボード入力やマウスの使用が困難な方や、視覚や聴覚に障碍がある方に役立つ、ユーザー補助機能が多数組み込まれています。</span><span class="sxs-lookup"><span data-stu-id="018bb-155">The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing.</span></span> <span data-ttu-id="018bb-156">これらの機能は、セットアップ中にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="018bb-156">The features are installed during Setup.</span></span> <span data-ttu-id="018bb-157">これらの機能の詳細については、「Windows ヘルプ[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)または Microsoft アクセシビリティ」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="018bb-157">For details about these features, see Windows Help or Microsoft Accessibility at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+<span data-ttu-id="e3e5e-155">Windows オペレーティング システムには、キーボード入力やマウスの使用が困難な方や、視覚や聴覚に障碍がある方に役立つ、ユーザー補助機能が多数組み込まれています。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-155">The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing.</span></span> <span data-ttu-id="e3e5e-156">これらの機能は、セットアップ中にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-156">The features are installed during Setup.</span></span> <span data-ttu-id="e3e5e-157">これらの機能の詳細については、「Windows ヘルプまたは Microsoft アクセシビリティ」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) 。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-157">For details about these features, see Windows Help or Microsoft Accessibility at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-  - <span data-ttu-id="018bb-158">**無料のステップバイステップチュートリアル**   Microsoft は、コンピューター上のユーザー補助のオプションと設定を調整するための詳細な手順を説明する一連のステップごとのチュートリアルを提供しています。</span><span class="sxs-lookup"><span data-stu-id="018bb-158">**Free step-by-step tutorials**   Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer.</span></span> <span data-ttu-id="018bb-159">この情報は隣り合わせに表示されるため、マウス、キーボード、またはその組み合わせの使用方法がひとめでわかります。</span><span class="sxs-lookup"><span data-stu-id="018bb-159">This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.</span></span>
+  - <span data-ttu-id="e3e5e-158">**無料のステップバイステップのチュートリアル**    Microsoft では、コンピューター上のユーザー補助のオプションと設定を調整するための詳細な手順を説明する一連のステップごとのチュートリアルが用意されています。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-158">**Free step-by-step tutorials**   Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer.</span></span> <span data-ttu-id="e3e5e-159">この情報は隣り合わせに表示されるため、マウス、キーボード、またはその組み合わせの使用方法がひとめでわかります。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-159">This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.</span></span>
     
-    <span data-ttu-id="018bb-160">Microsoft 製品のステップバイステップのチュートリアルについては、「Microsoft Accessibility [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="018bb-160">To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+    <span data-ttu-id="e3e5e-160">Microsoft 製品のステップバイステップのチュートリアルについては、「Microsoft Accessibility」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) 。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-160">To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-  - <span data-ttu-id="018bb-161">**Windows 用の支援技術製品**   には、障碍のある方のためにコンピューターを使いやすくするためのさまざまな支援技術製品が用意されています。</span><span class="sxs-lookup"><span data-stu-id="018bb-161">**Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities.</span></span> <span data-ttu-id="018bb-162">Microsoft アクセシビリティ web サイト上の Windows 上で実行されている支援技術製品のカタログ[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)は、で検索できます。</span><span class="sxs-lookup"><span data-stu-id="018bb-162">You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+  - <span data-ttu-id="e3e5e-161">Windows 用の**支援技術製品**    障碍のある方がコンピューターを使いやすくするために、さまざまな支援技術製品を利用できます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-161">**Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities.</span></span> <span data-ttu-id="e3e5e-162">Microsoft アクセシビリティ web サイト上の Windows 上で実行されている支援技術製品のカタログは、で検索でき [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) ます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-162">You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
     
-    <span data-ttu-id="018bb-163">補助テクノロジを使用する場合は、ソフトウェアまたはハードウェアをアップグレードする前に、互換性の問題がないかどうかを補助テクノロジ ベンダーにお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="018bb-163">If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.</span></span>
+    <span data-ttu-id="e3e5e-163">補助テクノロジを使用する場合は、ソフトウェアまたはハードウェアをアップグレードする前に、互換性の問題がないかどうかを補助テクノロジ ベンダーにお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-163">If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.</span></span>
 
 </div>
 
 <div>
 
-## <a name="documentation-in-alternative-formats"></a><span data-ttu-id="018bb-164">代替形式のドキュメント</span><span class="sxs-lookup"><span data-stu-id="018bb-164">Documentation in alternative formats</span></span>
+## <a name="documentation-in-alternative-formats"></a><span data-ttu-id="e3e5e-164">代替形式のドキュメント</span><span class="sxs-lookup"><span data-stu-id="e3e5e-164">Documentation in alternative formats</span></span>
 
-<span data-ttu-id="018bb-165">Microsoft 製品のドキュメントの多くは、印刷されたドキュメントが読みにくい、または扱いにくい方でも快適にご利用いただけるよう、さまざまな形態で入手できます。</span><span class="sxs-lookup"><span data-stu-id="018bb-165">If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats.</span></span> <span data-ttu-id="018bb-166">アクセス可能な製品ドキュメントのインデックスは、Microsoft アクセシビリティ web サイトのから[https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)入手できます。</span><span class="sxs-lookup"><span data-stu-id="018bb-166">You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+<span data-ttu-id="e3e5e-165">Microsoft 製品のドキュメントの多くは、印刷されたドキュメントが読みにくい、または扱いにくい方でも快適にご利用いただけるよう、さまざまな形態で入手できます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-165">If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats.</span></span> <span data-ttu-id="e3e5e-166">アクセス可能な製品ドキュメントのインデックスは、Microsoft アクセシビリティ web サイトのから入手でき [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) ます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-166">You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-<span data-ttu-id="018bb-167">さらに、ブラインド & Dyslexic (http://www.rfbd.org/http://www.rfbd.org/, Inc (RFB\&D) の記録から、その他の Microsoft の文書を入手することもできます。</span><span class="sxs-lookup"><span data-stu-id="018bb-167">In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB\&D).</span></span> <span data-ttu-id="018bb-168">RFB\&D は、これらのドキュメントを、配布サービスの登録済みの対象となるメンバーに配布します。</span><span class="sxs-lookup"><span data-stu-id="018bb-168">RFB\&D distributes these documents to registered, eligible members of their distribution service.</span></span> <span data-ttu-id="018bb-169">Microsoft プレスからの Microsoft 製品ドキュメントおよび書籍の入手については、RFB\&D を参照してください。</span><span class="sxs-lookup"><span data-stu-id="018bb-169">For information about the availability of Microsoft product documentation and books from Microsoft Press, contact RFB\&D.</span></span>
+<span data-ttu-id="e3e5e-167">さらに、ブラインド & Dyslexic (http://www.rfbd.org/http://www.rfbd.org/, Inc (RFB D) の記録から、その他の Microsoft の文書を入手することもでき \& ます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-167">In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB\&D).</span></span> <span data-ttu-id="e3e5e-168">RFB \& D は、これらのドキュメントを、配布サービスの登録済みの対象となるメンバーに配布します。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-168">RFB\&D distributes these documents to registered, eligible members of their distribution service.</span></span> <span data-ttu-id="e3e5e-169">Microsoft プレスからの Microsoft 製品ドキュメントおよび書籍の入手については、RFB D を参照してください \& 。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-169">For information about the availability of Microsoft product documentation and books from Microsoft Press, contact RFB\&D.</span></span>
 
 
 <table>
@@ -193,11 +195,11 @@ ms.locfileid: "42199290"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="018bb-170">ブラインド&amp; Dyslexic (http://www.rfbd.org/http://www.rfbd.org/, Inc のレコーディング</span><span class="sxs-lookup"><span data-stu-id="018bb-170">Recording for the Blind &amp; Dyslexic, Inc.</span></span></p>
-<p><span data-ttu-id="018bb-171">20 Roszel Road</span><span class="sxs-lookup"><span data-stu-id="018bb-171">20 Roszel Road</span></span></p>
-<p><span data-ttu-id="018bb-172">Princeton, NJ 08540</span><span class="sxs-lookup"><span data-stu-id="018bb-172">Princeton, NJ 08540</span></span></p>
-<p><span data-ttu-id="018bb-173">米国内からの電話番号: (800) 221-4792</span><span class="sxs-lookup"><span data-stu-id="018bb-173">Telephone number from within the United States: (800) 221-4792</span></span></p>
-<p><span data-ttu-id="018bb-174">Web サイト: 次の場所&amp;にあるブラインド Dyslexic (http://www.rfbd.org/http://www.rfbd.org/の記録<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span><span class="sxs-lookup"><span data-stu-id="018bb-174">Website: Recording for the Blind &amp; Dyslexic at <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span></span></p></td>
+<td><p><span data-ttu-id="e3e5e-170">ブラインド &amp; dyslexic (http://www.rfbd.org/http://www.rfbd.org/, Inc のレコーディング</span><span class="sxs-lookup"><span data-stu-id="e3e5e-170">Recording for the Blind &amp; Dyslexic, Inc.</span></span></p>
+<p><span data-ttu-id="e3e5e-171">20 Roszel Road</span><span class="sxs-lookup"><span data-stu-id="e3e5e-171">20 Roszel Road</span></span></p>
+<p><span data-ttu-id="e3e5e-172">Princeton, NJ 08540</span><span class="sxs-lookup"><span data-stu-id="e3e5e-172">Princeton, NJ 08540</span></span></p>
+<p><span data-ttu-id="e3e5e-173">米国内からの電話番号: (800) 221-4792</span><span class="sxs-lookup"><span data-stu-id="e3e5e-173">Telephone number from within the United States: (800) 221-4792</span></span></p>
+<p><span data-ttu-id="e3e5e-174">Web サイト: 次の場所にあるブラインド Dyslexic (http://www.rfbd.org/http://www.rfbd.org/の記録 &amp;<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span><span class="sxs-lookup"><span data-stu-id="e3e5e-174">Website: Recording for the Blind &amp; Dyslexic at <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -207,43 +209,43 @@ ms.locfileid: "42199290"
 
 <div>
 
-## <a name="customer-service-for-people-with-disabilities"></a><span data-ttu-id="018bb-175">障碍のある方のためのカスタマーサービス</span><span class="sxs-lookup"><span data-stu-id="018bb-175">Customer service for people with disabilities</span></span>
+## <a name="customer-service-for-people-with-disabilities"></a><span data-ttu-id="e3e5e-175">障碍のある方のためのカスタマーサービス</span><span class="sxs-lookup"><span data-stu-id="e3e5e-175">Customer service for people with disabilities</span></span>
 
-<span data-ttu-id="018bb-176">Microsoft は、障碍のある方を含むすべてのお客様に最適な経験を提供したいと考えています。</span><span class="sxs-lookup"><span data-stu-id="018bb-176">Microsoft wants to provide the best possible experience for all our customers, including people with disabilities.</span></span> <span data-ttu-id="018bb-177">サポートが必要な場合は、ユーザー補助サポートチームに連絡してください。電話または電子メールで障碍のある方のためのトレーニングを受けることができます。</span><span class="sxs-lookup"><span data-stu-id="018bb-177">If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.</span></span>
+<span data-ttu-id="e3e5e-176">Microsoft は、障碍のある方を含むすべてのお客様に最適な経験を提供したいと考えています。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-176">Microsoft wants to provide the best possible experience for all our customers, including people with disabilities.</span></span> <span data-ttu-id="e3e5e-177">サポートが必要な場合は、ユーザー補助サポートチームに連絡してください。電話または電子メールで障碍のある方のためのトレーニングを受けることができます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-177">If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.</span></span>
 
-[<span data-ttu-id="018bb-178">障碍応答デスクに連絡する</span><span class="sxs-lookup"><span data-stu-id="018bb-178">Contact the Disability Answer Desk</span></span>](https://support.microsoft.com/gp/contact-microsoft-accessibility)
+[<span data-ttu-id="e3e5e-178">障碍応答デスクに連絡する</span><span class="sxs-lookup"><span data-stu-id="e3e5e-178">Contact the Disability Answer Desk</span></span>](https://support.microsoft.com/gp/contact-microsoft-accessibility)
 
-<span data-ttu-id="018bb-179">直通電話回線: 1-800-936-5900</span><span class="sxs-lookup"><span data-stu-id="018bb-179">Direct Telephone Line: 1-800-936-5900</span></span>
+<span data-ttu-id="e3e5e-179">直通電話回線: 1-800-936-5900</span><span class="sxs-lookup"><span data-stu-id="e3e5e-179">Direct Telephone Line: 1-800-936-5900</span></span>
 
-<span data-ttu-id="018bb-180">TTY: 1-800-892-5234</span><span class="sxs-lookup"><span data-stu-id="018bb-180">TTY: 1-800-892-5234</span></span>
+<span data-ttu-id="e3e5e-180">TTY: 1-800-892-5234</span><span class="sxs-lookup"><span data-stu-id="e3e5e-180">TTY: 1-800-892-5234</span></span>
 
-<span data-ttu-id="018bb-181">平日: 午前5時</span><span class="sxs-lookup"><span data-stu-id="018bb-181">Weekdays: 5 A.M.</span></span> <span data-ttu-id="018bb-182">-9 P.M.</span><span class="sxs-lookup"><span data-stu-id="018bb-182">- 9 P.M.</span></span> <span data-ttu-id="018bb-183">(太平洋標準時)</span><span class="sxs-lookup"><span data-stu-id="018bb-183">(Pacific Time)</span></span>
+<span data-ttu-id="e3e5e-181">平日: 午前5時</span><span class="sxs-lookup"><span data-stu-id="e3e5e-181">Weekdays: 5 A.M.</span></span> <span data-ttu-id="e3e5e-182">-9 P.M.</span><span class="sxs-lookup"><span data-stu-id="e3e5e-182">- 9 P.M.</span></span> <span data-ttu-id="e3e5e-183">(太平洋標準時)</span><span class="sxs-lookup"><span data-stu-id="e3e5e-183">(Pacific Time)</span></span>
 
-<span data-ttu-id="018bb-184">週末: 午前6時</span><span class="sxs-lookup"><span data-stu-id="018bb-184">Weekends: 6 A.M.</span></span> <span data-ttu-id="018bb-185">~ 午後3時</span><span class="sxs-lookup"><span data-stu-id="018bb-185">- 3 P.M.</span></span> <span data-ttu-id="018bb-186">(太平洋標準時)</span><span class="sxs-lookup"><span data-stu-id="018bb-186">(Pacific Time)</span></span>
-
-</div>
-
-<div>
-
-## <a name="customer-service-for-people-with-hearing-impairments"></a><span data-ttu-id="018bb-187">聴覚に障碍がある方のための顧客サービス</span><span class="sxs-lookup"><span data-stu-id="018bb-187">Customer service for people with hearing impairments</span></span>
-
-<span data-ttu-id="018bb-188">聴覚に障碍がある方は、テキスト電話 (TTY/TDD) サービスをご利用いただくと、Microsoft 製品および顧客サービスにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="018bb-188">If you're deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:</span></span>
-
-  - <span data-ttu-id="018bb-p113">顧客サービスについては、祝日を除く月曜から金曜の午前 6 時 30 分から午後 5 時 30 分 (太平洋標準時) の間に Microsoft Sales Information Center (電話: (800) 892-5234) までお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="018bb-p113">For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 A.M. and 5:30 P.M. Pacific Time, Monday through Friday, excluding holidays.</span></span>
-
-  - <span data-ttu-id="018bb-p114">米国内における技術サポートについては、祝日を除く月曜から金曜の午前 6 時から午後 6 時 (太平洋標準時) の間に Microsoft Product Support Services (電話: (800) 892-5234) までお問い合わせください。カナダの場合は、祝日を除く月曜から金曜の午前 8 時から午後 8 時の間に (905) 568-9641 までお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="018bb-p114">For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 A.M. and 6:00 P.M. Pacific Time, Monday through Friday, excluding holidays. In Canada, dial (905) 568-9641 between 8:00 A.M. and 8:00 P.M. Eastern Time, Monday through Friday, excluding holidays.</span></span>
-
-<span data-ttu-id="018bb-198">Microsoft のサポート サービスには、サービス利用時の料金、条項、および条件が適用されます。</span><span class="sxs-lookup"><span data-stu-id="018bb-198">Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.</span></span> <span data-ttu-id="018bb-199">詳細については、「 [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142)Microsoft サポート」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="018bb-199">For details, see Microsoft Support at [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142).</span></span>
-
-</div>
+<span data-ttu-id="e3e5e-184">週末: 午前6時</span><span class="sxs-lookup"><span data-stu-id="e3e5e-184">Weekends: 6 A.M.</span></span> <span data-ttu-id="e3e5e-185">~ 午後3時</span><span class="sxs-lookup"><span data-stu-id="e3e5e-185">- 3 P.M.</span></span> <span data-ttu-id="e3e5e-186">(太平洋標準時)</span><span class="sxs-lookup"><span data-stu-id="e3e5e-186">(Pacific Time)</span></span>
 
 </div>
 
 <div>
 
-## <a name="for-more-information"></a><span data-ttu-id="018bb-200">関連情報</span><span class="sxs-lookup"><span data-stu-id="018bb-200">For more information</span></span>
+## <a name="customer-service-for-people-with-hearing-impairments"></a><span data-ttu-id="e3e5e-187">聴覚に障碍がある方のための顧客サービス</span><span class="sxs-lookup"><span data-stu-id="e3e5e-187">Customer service for people with hearing impairments</span></span>
 
-<span data-ttu-id="018bb-201">障碍のある方がコンピューターの機能を向上させる方法については、「Microsoft Accessibility」 [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="018bb-201">For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+<span data-ttu-id="e3e5e-188">聴覚に障碍がある方は、テキスト電話 (TTY/TDD) サービスをご利用いただくと、Microsoft 製品および顧客サービスにアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-188">If you're deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:</span></span>
+
+  - <span data-ttu-id="e3e5e-p113">顧客サービスについては、祝日を除く月曜から金曜の午前 6 時 30 分から午後 5 時 30 分 (太平洋標準時) の間に Microsoft Sales Information Center (電話: (800) 892-5234) までお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-p113">For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 A.M. and 5:30 P.M. Pacific Time, Monday through Friday, excluding holidays.</span></span>
+
+  - <span data-ttu-id="e3e5e-p114">米国内における技術サポートについては、祝日を除く月曜から金曜の午前 6 時から午後 6 時 (太平洋標準時) の間に Microsoft Product Support Services (電話: (800) 892-5234) までお問い合わせください。カナダの場合は、祝日を除く月曜から金曜の午前 8 時から午後 8 時の間に (905) 568-9641 までお問い合わせください。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-p114">For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 A.M. and 6:00 P.M. Pacific Time, Monday through Friday, excluding holidays. In Canada, dial (905) 568-9641 between 8:00 A.M. and 8:00 P.M. Eastern Time, Monday through Friday, excluding holidays.</span></span>
+
+<span data-ttu-id="e3e5e-198">Microsoft のサポート サービスには、サービス利用時の料金、条項、および条件が適用されます。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-198">Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.</span></span> <span data-ttu-id="e3e5e-199">詳細については、「Microsoft サポート」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142) 。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-199">For details, see Microsoft Support at [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142).</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="for-more-information"></a><span data-ttu-id="e3e5e-200">詳細情報</span><span class="sxs-lookup"><span data-stu-id="e3e5e-200">For more information</span></span>
+
+<span data-ttu-id="e3e5e-201">障碍のある方がコンピューターの機能を向上させる方法については、「Microsoft Accessibility」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139) 。</span><span class="sxs-lookup"><span data-stu-id="e3e5e-201">For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
 </div>
 
