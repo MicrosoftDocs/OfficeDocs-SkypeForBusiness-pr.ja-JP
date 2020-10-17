@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: SIP トランク構成設定のテスト'
+description: 'Lync Server 2013: SIP トランク構成設定をテストします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97257add21595770716b3310aed6c59a018ad1b6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2d44fe2ef5123bec31fafaff2d811a501e5cca4a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519184"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558273"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="6df95-102">Lync Server 2013 での SIP トランク構成設定のテスト</span><span class="sxs-lookup"><span data-stu-id="6df95-102">Test SIP trunk configuration settings in Lync Server 2013</span></span>
+# <a name="test-sip-trunk-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="e3a41-103">Lync Server 2013 での SIP トランク構成設定のテスト</span><span class="sxs-lookup"><span data-stu-id="e3a41-103">Test SIP trunk configuration settings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48519184"
 
 <span> </span>
 
-<span data-ttu-id="6df95-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6df95-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="e3a41-104">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e3a41-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="6df95-p101">SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。たとえば、次の設定ができます。</span><span class="sxs-lookup"><span data-stu-id="6df95-p101">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider. These settings do such things as specify:</span></span>
+<span data-ttu-id="e3a41-p101">SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。たとえば、次の設定ができます。</span><span class="sxs-lookup"><span data-stu-id="e3a41-p101">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider. These settings do such things as specify:</span></span>
 
-  - <span data-ttu-id="6df95-106">トランクでメディア バイパスを有効化するか。</span><span class="sxs-lookup"><span data-stu-id="6df95-106">Whether media bypass should be enabled on the trunks.</span></span>
+  - <span data-ttu-id="e3a41-107">トランクでメディア バイパスを有効化するか。</span><span class="sxs-lookup"><span data-stu-id="e3a41-107">Whether media bypass should be enabled on the trunks.</span></span>
 
-  - <span data-ttu-id="6df95-107">Real-time Transport Control Protocol (RTCP) パケットが送信される条件。</span><span class="sxs-lookup"><span data-stu-id="6df95-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
+  - <span data-ttu-id="e3a41-108">Real-time Transport Control Protocol (RTCP) パケットが送信される条件。</span><span class="sxs-lookup"><span data-stu-id="e3a41-108">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
 
-  - <span data-ttu-id="6df95-108">各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化を要求するか。</span><span class="sxs-lookup"><span data-stu-id="6df95-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
+  - <span data-ttu-id="e3a41-109">各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化を要求するか。</span><span class="sxs-lookup"><span data-stu-id="e3a41-109">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
 
-<span data-ttu-id="6df95-109">Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。</span><span class="sxs-lookup"><span data-stu-id="6df95-109">When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="6df95-110">また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="6df95-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="6df95-111">管理者は、Test-CsTrunkConfiguration コマンドレットを使用して、ユーザーがダイヤルした番号をゲートウェイで処理可能な番号にトランクが変換できるかどうかも確認できます。</span><span class="sxs-lookup"><span data-stu-id="6df95-111">Administrators can also use the Test-CsTrunkConfiguration cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
+<span data-ttu-id="e3a41-110">Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。</span><span class="sxs-lookup"><span data-stu-id="e3a41-110">When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="e3a41-111">また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="e3a41-111">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="e3a41-112">管理者は、Test-CsTrunkConfiguration コマンドレットを使用して、ユーザーがダイヤルした番号をゲートウェイで処理可能な番号にトランクが変換できるかどうかも確認できます。</span><span class="sxs-lookup"><span data-stu-id="e3a41-112">Administrators can also use the Test-CsTrunkConfiguration cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
 
-<span data-ttu-id="6df95-112">トランク構成設定は、Windows PowerShell と [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) コマンドレットを使用する方法でのみテストできます。</span><span class="sxs-lookup"><span data-stu-id="6df95-112">Trunk configuration settings can only be tested by using Windows PowerShell and the [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet.</span></span> <span data-ttu-id="6df95-113">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="6df95-113">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="6df95-114">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="6df95-114">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="e3a41-113">トランク構成設定は、Windows PowerShell と [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) コマンドレットを使用する方法でのみテストできます。</span><span class="sxs-lookup"><span data-stu-id="e3a41-113">Trunk configuration settings can only be tested by using Windows PowerShell and the [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet.</span></span> <span data-ttu-id="e3a41-114">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="e3a41-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="e3a41-115">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="e3a41-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-test-sip-trunk-configuration-settings"></a><span data-ttu-id="6df95-115">SIP トランク構成設定をテストするには</span><span class="sxs-lookup"><span data-stu-id="6df95-115">To test SIP trunk configuration settings</span></span>
+## <a name="to-test-sip-trunk-configuration-settings"></a><span data-ttu-id="e3a41-116">SIP トランク構成設定をテストするには</span><span class="sxs-lookup"><span data-stu-id="e3a41-116">To test SIP trunk configuration settings</span></span>
 
-  - <span data-ttu-id="6df95-116">このコマンドを実行すると、ダイヤルされた番号 4255551212 がレドモンド サイトのトランク構成設定によって正しく変換できることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="6df95-116">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
+  - <span data-ttu-id="e3a41-117">このコマンドを実行すると、ダイヤルされた番号 4255551212 がレドモンド サイトのトランク構成設定によって正しく変換できることを確認できます。</span><span class="sxs-lookup"><span data-stu-id="e3a41-117">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
     
         $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
         Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
