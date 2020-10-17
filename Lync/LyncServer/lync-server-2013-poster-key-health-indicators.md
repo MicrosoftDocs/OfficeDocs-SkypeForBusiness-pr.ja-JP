@@ -12,20 +12,22 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aca31ca681c75438bbcbb67b1d2dc5c0b6305cb7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6db6a701c98a44b042d9ee36d0a749bf6363bd2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513384"
 ---
+# <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 の主要な正常性インジケーター
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 の主要な正常性インジケーター
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183741"
 
 _**トピックの最終更新日:** 2014-02-10_
 
-この記事では、正常な[Lync Servers ポスターを維持するための基礎となる主要な正常性インジケーターについ](https://go.microsoft.com/fwlink/?linkid=391838)て説明します。これは、ダウンロードセンターからダウンロードできます。
+この記事では、正常な [Lync Servers ポスターを維持するための基礎となる主要な正常性インジケーターについ](https://go.microsoft.com/fwlink/?linkid=391838) て説明します。これは、ダウンロードセンターからダウンロードできます。
 
 ![KHI データを使用したトラブルシューティングについて説明するポスター](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "KHI データを使用したトラブルシューティングについて説明するポスター")
 
@@ -105,15 +107,15 @@ Lync 実装の各サーバーについては、まず、サーバーのコンポ
 
 まず、すべてのサーバーの KHI パフォーマンスデータを収集します。 各システムの役割 (このドキュメントで後述します) について、基本的なシステムコンポーネントが推奨されるターゲットを満たしているかどうかを判断します。 そうでない場合は、Lync の実装でのサーバーの役割に固有の指標を確認する前に、システムのパフォーマンスを修復し、KHI データを再度収集して、システムの正常性を確保します。 すべての役割のコンポーネントの正常性は次のように定義されます。
 
-  - CPU 使用\<率80%
+  - CPU 使用率 \< 80%
 
-  - 平均ディスク書き込み\< 10 ミリ秒
+  - 平均ディスク書き込み \< 10 ミリ秒
 
-  - 平均ディスク読み取り\< 10 ミリ秒
+  - 平均ディスク読み取り \< 10 ミリ秒
 
-  - 使用可能\>なメモリ20% システムの合計 MB
+  - 使用可能なメモリ \> 20% システムの合計 MB
 
-  - ネットワークキューの\<長さ2
+  - ネットワークキューの長さ \< 2
 
   - 破棄されたパケット (入力/出力) = 0
 
@@ -170,11 +172,11 @@ SIP スタック = Lync のコア SIP 実装が含まれています。
 <tbody>
 <tr class="odd">
 <td><p>AS/AV/IM MCU</p></td>
-<td><p>MCU 正常性&lt;状態2</p></td>
+<td><p>MCU 正常性状態 &lt; 2</p></td>
 </tr>
 <tr class="even">
-<td><p>Web コンポーネント</p></td>
-<td><p>配布リスト展開 AD タイムアウト&lt;0</p>
+<td><p>Web Components</p></td>
+<td><p>配布リスト展開 AD タイムアウト &lt; 0</p>
 <p>ABWQ の失敗 = 0</p>
 <p>LIS のエラー = 0</p>
 <p>認証エラー &lt; 1/秒</p>
@@ -182,26 +184,26 @@ SIP スタック = Lync のコア SIP 実装が含まれています。
 </tr>
 <tr class="odd">
 <td><p>SIP スタック</p></td>
-<td><p>1秒あたりの平均&lt;受信メッセージ処理</p>
-<p>着信応答ドロップ&lt;された 1/Sec &lt;受信要求ドロップ 1/秒</p>
-<p>キュー待機&lt;時間100ミリ秒</p>
-<p>ストアドプロシージャ&lt;待機時間100ミリ秒</p>
+<td><p>1秒あたりの平均受信メッセージ処理 &lt;</p>
+<p>着信応答ドロップされた &lt; 1/Sec 受信要求ドロップ &lt; 1/秒</p>
+<p>キュー待機時間 &lt; 100 ミリ秒</p>
+<p>ストアドプロシージャ待機時間 &lt; 100 ミリ秒</p>
 <p>調整される要求 = 0</p>
 <p>認証エラー &lt; 1/秒</p>
-<p>受信メッセージがタイムアウト&lt;になりました2</p>
-<p>受信メッセージの平均保持&lt;時間1秒</p>
-<p>フロー制御さ&lt;れた接続2</p>
-<p>平均アウトキュー遅延&lt; 2 秒</p></td>
+<p>受信メッセージがタイムアウトになりました &lt; 2</p>
+<p>受信メッセージの平均保持時間 &lt; 1 秒</p>
+<p>フロー制御された接続 &lt; 2</p>
+<p>平均アウトキュー遅延 &lt; 2 秒</p></td>
 </tr>
 <tr class="even">
 <td><p>LySS</p></td>
-<td><p>Storage Service DB &lt; 80 で使用される領域の割合 (%)</p>
-<p>#レプリカレプリケーションエラーの数 = 0</p>
-<p>#データ損失イベントの数 = 0</p></td>
+<td><p>Storage Service DB 80 で使用される領域の割合 (%) &lt;</p>
+<p># レプリカレプリケーションエラーの数 = 0</p>
+<p># データ損失イベントの数 = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>ページ寿命の&gt;予測300秒。</p>
+<td><p>ページ寿命 &gt; の予測300秒。</p>
 <p>Batch requests/sec &lt; 2500</p></td>
 </tr>
 </tbody>
@@ -233,7 +235,7 @@ SIP スタック = Lync のコア SIP 実装が含まれています。
 <tbody>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>ページ寿命の&gt;予測300秒。</p>
+<td><p>ページ寿命 &gt; の予測300秒。</p>
 <p>Batch requests/sec &lt; 2500</p></td>
 </tr>
 </tbody>
@@ -266,8 +268,8 @@ SIP スタック = Lync のコア SIP 実装が含まれています。
 <tr class="odd">
 <td><p>仲介サーバーサービス</p></td>
 <td><p>読み込み呼び出しエラーのインデックス = 0</p>
-<p>プロキシ&lt;10 のために失敗した通話</p>
-<p>ゲートウェイ&lt;10 が原因で失敗した通話</p>
+<p>プロキシ10のために失敗した通話 &lt;</p>
+<p>ゲートウェイ10が原因で失敗した通話 &lt;</p>
 <p>拒否された呼び出し (in または out) = 0</p>
 <p>メディア候補がありません = 0</p>
 <p>メディア接続チェックの失敗 = 0</p></td>
@@ -301,26 +303,26 @@ SIP スタック = Lync のコア SIP 実装が含まれています。
 <tbody>
 <tr class="odd">
 <td><p>AV 認証</p></td>
-<td><p>無効な&lt;要求数 20/秒</p></td>
+<td><p>無効な要求数 &lt; 20/秒</p></td>
 </tr>
 <tr class="even">
 <td><p>AV エッジ</p></td>
-<td><p>Auth. 失敗&lt;回数 20/秒</p>
-<p>割り当てエラー &lt;数 20/秒</p>
-<p>削除&lt;されたパケット数 300/秒</p></td>
+<td><p>Auth. 失敗回数 &lt; 20/秒</p>
+<p>割り当てエラー数 &lt; 20/秒</p>
+<p>削除されたパケット数 &lt; 300/秒</p></td>
 </tr>
 <tr class="odd">
 <td><p>データプロキシ</p></td>
-<td><p>サーバー接続&lt;の調整3</p>
-<p>システムが調整&lt;1</p></td>
+<td><p>サーバー接続の調整 &lt; 3</p>
+<p>システムが調整 &lt; 1</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP スタック</p></td>
-<td><p>制限を超えた&lt;接続の削除1</p>
-<p>送信タイムアウト&lt;10</p>
-<p>フロー制御さ&lt;れた接続100</p>
-<p>1/sec &lt;がドロップした着信要求</p>
-<p>平均メッセージ処理&lt;時間3秒</p></td>
+<td><p>制限を超えた接続の削除 &lt; 1</p>
+<p>送信タイムアウト &lt; 10</p>
+<p>フロー制御された接続 &lt; 100</p>
+<p>1/sec がドロップした着信要求 &lt;</p>
+<p>平均メッセージ処理時間 &lt; 3 秒</p></td>
 </tr>
 </tbody>
 </table>

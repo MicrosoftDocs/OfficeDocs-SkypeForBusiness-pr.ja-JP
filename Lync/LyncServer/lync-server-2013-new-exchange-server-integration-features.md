@@ -12,20 +12,22 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e5365675efbcc7427cc29143c21b6656a4dba7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e3ac7a336fc65b6e9b9222fc2f19e1983cb53c79
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512534"
 ---
+# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Lync Server 2013 の新しい Exchange Server 統合機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Lync Server 2013 の新しい Exchange Server 統合機能
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**トピックの最終更新日:** 2012-09-24_
 
 Lync Server 2013 では、次の一覧に示すように、Microsoft Exchange Server 2013 と共に展開すると、新機能をサポートしています。 これらの機能が動作するためには、Lync Server 2013 と Exchange 2013 の両方が展開されている必要があります。
 
-  - Lync 連絡先リストが Exchange 2013 に格納されている**統合連絡先ストア**を使用して、lync 2013、outlook 2013、および Outlook Web App で連絡先ストアを管理することができます。
+  - Lync 連絡先リストが Exchange 2013 に格納されている **統合連絡先ストア**を使用して、lync 2013、outlook 2013、および Outlook Web App で連絡先ストアを管理することができます。
 
   - 連絡先用に**高解像度の写真**を使用できます。 最大648x648 ピクセルの写真は、Exchange 2013 に格納され、Lync 2013、Outlook 2013、Microsoft Lync Web App、および Outlook Web App を含むクライアントが使用できるようになります。
 
-  - Lync アーカイブの**統合**を有効にすることができます。これにより、exchange 2013 に所属するユーザーのために lync Server 2013 アーカイブが Exchange 2013 のインプレース保持機能に統合されます。これにより、管理者は、コンプライアンスと電子情報開示に関して共通の作業を行うことができます。
+  - Lync アーカイブの **統合**を有効にできます。これにより、exchange 2013 に所属するユーザーのために lync Server 2013 アーカイブが exchange 2013 In-Place 保持機能に統合されます。これにより、管理者は、コンプライアンスと電子情報開示に関して1つの共通の作業を行うことができます。
 
 <div>
 

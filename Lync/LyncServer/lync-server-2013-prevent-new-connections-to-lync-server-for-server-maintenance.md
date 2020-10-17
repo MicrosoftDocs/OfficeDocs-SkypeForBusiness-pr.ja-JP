@@ -12,20 +12,22 @@ ms:contentKeyID: 48183625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc787dee62152e9ace76663a084fe5c1c428b1f2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dd1881050e5226df9c36d3b92194e27e1123df13
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183570"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513264"
 ---
+# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>サーバーメンテナンスのための Lync Server 2013 への新しい接続を禁止する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-new-connections-to-lync-server-2013-for-server-maintenance"></a>サーバーメンテナンスのための Lync Server 2013 への新しい接続を禁止する
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server を使用すると、ユーザーにサービスを損失するこ�
 
 フロントエンドサーバーへの新しい接続を禁止する場合、一部の Lync Server の機能およびサービスは、DNS 負荷分散を使用して正しく機能することを確認します。 プール内で DNS 負荷分散を使用していない場合、サーバーが新規接続を禁止している間、これらのサービスを介する接続はその他のサーバーに再ルーティングされない可能性があり、結果、サーバーがオフラインになる時、一部のセッションおよび通話が中断される可能性があります。 このオプションを確実に正しく動作させるために DNS 負荷分散を使用する機能は、次のとおりです。
 
-  - Um
+  - Attendant
 
   - 会議アナウンス アプリケーション
 
@@ -55,7 +57,7 @@ Lync Server を使用すると、ユーザーにサービスを損失するこ�
 
 DNS 負荷分散の詳細については、「計画」のドキュメントの「 [dns load balancing In Lync Server 2013](lync-server-2013-dns-load-balancing.md) 」を参照してください。
 
-Lync Server を実行しているサーバー上のすべてのサービスの新しい接続を禁止することに加えて、個々の Lync Server サービスの新しい接続を禁止することもできます。 たとえば、このメソッドは、サーバー全体をシャットダウンする必要がない Lync Server 更新プログラムを適用する必要がある場合に役立ちます。 1 つのサービスに対して接続を禁止する場合、Windows のサービス一覧でグループ化され、表示されるサービスを選択する必要があります。 たとえば、Lync server フロントエンドサービスと監視用のデータ収集エージェントは別個の Lync Server サービスですが、Windows サービスのリストで統合され、Lync Server フロントエンドサービスとして表示されます。 Lync Server フロントエンドサービスの新しい接続を禁止することはできますが、これら2つの基本的な Lync Server サービスの新しい接続を個別に禁止することはできません。
+Lync Server を実行しているサーバー上のすべてのサービスの新しい接続を禁止することに加えて、個々の Lync Server サービスの新しい接続を禁止することもできます。 たとえば、このメソッドは、サーバー全体をシャットダウンする必要がない Lync Server 更新プログラムを適用する必要がある場合に役立ちます。 1 つのサービスに対して接続を禁止する場合、Windows のサービス一覧でグループ化され、表示されるサービスを選択する必要があります。 たとえば、Lync server Front-End サービスと、監視用のデータ収集エージェントは別個の Lync Server サービスですが、Windows サービスのリストでは統合され、Lync Server のフロントエンドサービスとして表示されます。 Lync Server フロントエンドサービスの新しい接続を禁止することはできますが、これら2つの基本的な Lync Server サービスの新しい接続を個別に禁止することはできません。
 
 <div>
 
@@ -73,7 +75,7 @@ Lync Server を実行しているサーバー上のすべてのサービスの�
 
 1.  Administrators グループのメンバーとして、ローカル コンピューターにログオンします。
 
-2.  [サービス] スナップインコンソールを開きます。 [**スタート**] をクリックし、[**すべてのプログラム**] をポイントします。次に、[**管理ツール**] をポイントし、[**サービス**] をクリックします。
+2.  [サービス] スナップインコンソールを開きます。 [ **スタート**] をクリックし、[ **すべてのプログラム**] をポイントします。次に、[ **管理ツール**] をポイントし、[ **サービス**] をクリックします。
 
 3.  一覧で、新規接続を禁止する Lync Server Windows サービスをダブルクリックします。
 

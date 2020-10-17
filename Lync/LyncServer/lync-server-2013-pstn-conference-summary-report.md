@@ -12,20 +12,22 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b531d0e8d7d4fe5de6d1598cf557096ebff8a90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0dbb90d0776ee89fe9ab8b9f5796b182c5dc0457
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215253"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513114"
 ---
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 の PSTN 電話会議の概要レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 の PSTN 電話会議の概要レポート
+
 
 </div>
 
@@ -59,7 +61,7 @@ PSTN 電話会議の概要レポートには、監視レポートのホーム �
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
-これは以下のようなデータを戻します。
+返されるデータは次のようになります。
 
     Identity                                EnableDialInConferencing
     --------                                ------------------------
@@ -108,7 +110,7 @@ PSTN 電話会議の概要レポートには、監視レポートのホーム �
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>

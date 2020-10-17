@@ -12,20 +12,22 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74e1f773f449c139beeb1819d69ba77e92c500e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a72bfcf9facfeaa3ca943275d9cdcb3b1ac7705
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512044"
 ---
+# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>セキュリティ構成ウィザードで IIS のポートを閉じた後にサーバーを再アクティブ化する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>セキュリティ構成ウィザードで IIS のポートを閉じた後にサーバーを再アクティブ化する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183380"
 
 _**トピックの最終更新日:** 2012-10-01_
 
-一部の Lync Server 2013 の役割では、インターネットインフォメーションサービス (IIS) ポート4443で Web サービスを実行します。 Lync Server 展開ウィザード、ブートストラップを実行するか、また**はコマンドレット**を使用してファイアウォールで例外を作成し、ポートを開きます。 その後、Windows Server 2008 R2 セキュリティ構成ウィザード (またはその他の強化スクリプト) を実行すると、ポート4443がブロックされ、外部クライアントは Web サービスに接続できなくなります。 ポートを再度開くには、ファイアウォールの例外を直接変更するか、サーバーを再アクティブ化することができます。
+一部の Lync Server 2013 の役割では、インターネットインフォメーションサービス (IIS) ポート4443で Web サービスを実行します。 Lync Server 展開ウィザードの実行、Bootstrapper.exe、またはを使用し **て、ファイア** ウォールで例外を作成し、ポートを開きます。 その後、Windows Server 2008 R2 セキュリティ構成ウィザード (またはその他の強化スクリプト) を実行すると、ポート4443がブロックされ、外部クライアントは Web サービスに接続できなくなります。 ポートを再度開くには、ファイアウォールの例外を直接変更するか、サーバーを再アクティブ化することができます。
 
 <div>
 

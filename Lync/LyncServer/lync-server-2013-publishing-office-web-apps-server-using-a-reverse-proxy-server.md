@@ -12,20 +12,22 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9a2bc53d306b51bd6aa681ccb4aa6747f38eac7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb200204cc96d40d66d0546c86687fb0e1c48de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201690"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512234"
 ---
+# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Lync Server 2013 でのリバースプロキシサーバーを使用した Office Web Apps サーバーの発行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Lync Server 2013 でのリバースプロキシサーバーを使用した Office Web Apps サーバーの発行
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42201690"
 
 _**トピックの最終更新日:** 2013-02-25_
 
-外部ユーザー (つまり、組織のファイアウォールの外側からログオンしているユーザー) が Office Web Apps サーバーの PowerPoint プレゼンテーションにアクセスできるようにするには、Office Web Apps サーバーと、Microsoft Forefront などのリバースプロキシサーバーを使用する必要があります。脅威管理ゲートウェイ。 また、web サイト公開ルールを作成して構成する必要があることも意味します。このルールは、ユーザーがサーバーに接続できることを確認するのに役立ちます。 外部ユーザーへのアクセスを提供する必要がない場合は、web サイト公開ルールを構成する必要はありません。
+外部ユーザー (つまり、組織のファイアウォールの外側からログオンしているユーザー) が Office Web Apps サーバーの PowerPoint プレゼンテーションにアクセスできるようにするには、Office Web Apps サーバーと、Microsoft Forefront Threat Management Gateway などのリバースプロキシサーバーを使用する必要があります。 また、web サイト公開ルールを作成して構成する必要があることも意味します。このルールは、ユーザーがサーバーに接続できることを確認するのに役立ちます。 外部ユーザーへのアクセスを提供する必要がない場合は、web サイト公開ルールを構成する必要はありません。
 
 Forefront Threat Management Gateway に Web サイト公開ルールを構成するには、次の手順を実行します。
 
@@ -55,9 +57,9 @@ Forefront Threat Management Gateway に Web サイト公開ルールを構成す
 
 7.  [**内部公開の詳細**] ページで、[**内部サイト名**] ボックスに Office Web Apps サーバーの FQDN (たとえば、**officewebapps01.contoso.com**) を入力し、[**次へ**] をクリックします。[**内部サイト名**] ボックスに入力する名前は、Office Web Apps サーバーに割り当てられた証明書の "サブジェクト" または "サブジェクト代替名" フィールドに表示される必要があります。
 
-8.  [**内部公開の詳細**] ページで** / ** 、[**パス (省略可)** ] ボックスに入力し、[**次へ**] をクリックします。 /\*構文を使用すると、サイトのすべてのフォルダーとサブフォルダーが発行されるようにできます。
+8.  [ **内部公開の詳細** ] ページで、[ **/\*** **パス (省略可)** ] ボックスに入力し、[ **次へ**] をクリックします。 / \* 構文を使用すると、サイトのすべてのフォルダーとサブフォルダーが発行されるようにできます。
 
-9.  [**パブリック名の詳細**] ページで、[**要求の許可**] ドロップダウン リストから [**次に入力したドメイン名**] を選択し、[パブリック名] ボックスに Office Web Apps サーバーの完全修飾名を入力します。 この名前は Web サイトへのアクセスに使用される名前である必要があります。 たとえば、URL http://officewebapps01.contoso.comを使用してサイトにアクセスする場合は、[**パブリック名**] ボックスに「 **officewebapps01.contoso.com** 」と入力する必要があります。
+9.  [**パブリック名の詳細**] ページで、[**要求の許可**] ドロップダウン リストから [**次に入力したドメイン名**] を選択し、[パブリック名] ボックスに Office Web Apps サーバーの完全修飾名を入力します。 この名前は Web サイトへのアクセスに使用される名前である必要があります。 たとえば、URL を使用してサイトにアクセスする場合は、 http://officewebapps01.contoso.com [**パブリック名**] ボックスに「 **officewebapps01.contoso.com** 」と入力する必要があります。
 
 10. [**次へ**] をクリックします。
 

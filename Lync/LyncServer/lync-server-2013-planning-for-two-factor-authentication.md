@@ -12,20 +12,22 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0738cb282ad2f1f375e89526fcdd1569a6707ad0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1932164cd1236257bbb81d1503b0310c8c55526e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513454"
 ---
+# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Lync Server 2013 での2要素認証の計画
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Lync Server 2013 での2要素認証の計画
+
 
 </div>
 
@@ -106,7 +108,7 @@ Lync Server 2013 の Lync 2013 の累積的な更新プログラム: 7 月 2013 
 
 ## <a name="lync-service-discovery"></a>Lync Service の検出
 
-内部または外部のクライアントが Lync サービスを検出するために使用する DNS レコードは、2要素認証が有効になっていない Lync server に解決するように構成する必要があります。 この構成では、2要素認証が有効になっていない Lync プールのユーザーは認証のために PIN を入力する必要はありませんが、2要素認証が有効になっている Lync プールのユーザーは PIN を入力する必要があります。対し.
+内部または外部のクライアントが Lync サービスを検出するために使用する DNS レコードは、2要素認証が有効になっていない Lync server に解決するように構成する必要があります。 この構成では、2要素認証が有効になっていない Lync プールのユーザーは、認証のために PIN を入力する必要はありませんが、2要素認証が有効になっている Lync プールのユーザーは認証のために PIN を入力する必要があります。
 
 </div>
 
@@ -124,7 +126,7 @@ Microsoft Exchange の2要素認証を展開しているお客様は、Lync ク�
 
 統合連絡先ストア機能を活用するように構成された Lync ユーザーは、2要素認証を使用してサインインした後、連絡先が使用できなくなっていることを確認できます。
 
-2要素認証を有効にする前に、 **invoke-csucsrollback**コマンドレットを使用して、統合連絡先ストアから既存のユーザー連絡先を削除し、Lync Server 2013 に格納する必要があります。
+2要素認証を有効にする前に、 **invoke-csucsrollback** コマンドレットを使用して、統合連絡先ストアから既存のユーザー連絡先を削除し、Lync Server 2013 に格納する必要があります。
 
 </div>
 
@@ -146,7 +148,7 @@ Lync 環境でスキル検索機能を構成したお客様は、Lync が2要素
 
 ## <a name="deleting-saved-credentials"></a>保存された資格情報の削除
 
-デスクトップクライアントのユーザーは、Lync クライアントの [**サインイン情報の削除**] オプションを使用して、2要素認証を使用して\\初め\\て\\署名\\する前に、Microsoft Office 15.0 Lync から SIP プロファイルフォルダーを削除する必要があります。
+デスクトップクライアントのユーザーは、Lync クライアントの [ **サインイン情報の削除** ] オプションを使用して、 \\ \\ \\ \\ 2 要素認証を使用して初めて署名する前に、Microsoft Office 15.0 Lync から SIP プロファイルフォルダーを削除する必要があります。
 
 </div>
 
@@ -156,13 +158,13 @@ Lync 環境でスキル検索機能を構成したお客様は、Lync が2要素
 
 Kerberos 認証方法または NTLM 認証方式では、ユーザーの Windows 資格情報が認証に自動的に使用されます。 Kerberos または NTLM 認証が有効になっている典型的な Lync Server 2013 の展開では、ユーザーはサインインするたびに資格情報を入力する必要はありません。
 
-PIN の入力を求められる前に、ユーザーが誤って資格情報の入力を求められた場合は、クライアントコンピューターで**Disablentcredentials**レジストリキーが誤って構成されることがあります。グループポリシーを使用している可能性があります。
+PIN の入力を求められる前に、ユーザーが誤って資格情報の入力を求められた場合は、クライアントコンピューターで **Disablentcredentials** レジストリキーが誤って構成されることがあります。グループポリシーを使用している可能性があります。
 
 資格情報の追加を求めるプロンプトを表示しないようにするには、ローカルワークステーションに次のレジストリエントリを作成するか、または Lync 管理用テンプレートを使用して、グループポリシーを使用して特定のプールのすべてのユーザーに適用します。
 
-HKEY\_ローカル\_コンピューター\\ソフトウェア\\ポリシー\\Microsoft\\Office\\15.0\\Lync
+HKEY \_ ローカル \_ コンピューター \\ ソフトウェア \\ ポリシー \\ Microsoft \\ Office \\ 15.0 \\ Lync
 
-REG\_DWORD: DisableNTCredentials
+REG \_ DWORD: DisableNTCredentials
 
 値: 0x0
 
@@ -174,11 +176,11 @@ REG\_DWORD: DisableNTCredentials
 
 ユーザーが初めて Lync にサインインすると、ユーザーは自分のパスワードを保存するように求められます。 このオプションを選択すると、ユーザーのクライアント証明書を個人証明書ストアに格納し、ユーザーの Windows 資格情報をローカルコンピューターの資格情報マネージャーに保存できるようになります。
 
-Lync が2要素認証をサポートするように構成されている場合は、 **Savepassword**レジストリ設定を無効にする必要があります。 ユーザーがパスワードを保存できないようにするには、ローカルワークステーションの次のレジストリエントリを変更するか、または Lync 管理用テンプレートを使用して、グループポリシーを使用して特定のプールのすべてのユーザーに適用します。
+Lync が2要素認証をサポートするように構成されている場合は、 **Savepassword** レジストリ設定を無効にする必要があります。 ユーザーがパスワードを保存できないようにするには、ローカルワークステーションの次のレジストリエントリを変更するか、または Lync 管理用テンプレートを使用して、グループポリシーを使用して特定のプールのすべてのユーザーに適用します。
 
-HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync
+HKEY \_ CURRENT \_ USER \\ Software \\ Microsoft \\ Office \\ 15.0 \\ Lync
 
-REG\_DWORD: savepassword
+REG \_ DWORD: SavePassword
 
 値: 0x0
 
@@ -190,9 +192,9 @@ REG\_DWORD: savepassword
 
 ## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 トークンの再生
 
-AD FS 2.0 は、トークン再生検出と呼ばれる機能を提供しており、同じトークンを使用して複数のトークン要求を検出して破棄することができます。 この機能が有効になっている場合は、同じトークンが一度も使用されないようにすることによって、トークン再生の検出によって、WS-FEDERATION のパッシブプロファイルと SAML WebSSO プロファイルの両方の認証要求の整合性を保護します。
+AD FS 2.0 は、トークン再生検出と呼ばれる機能を提供しており、同じトークンを使用して複数のトークン要求を検出して破棄することができます。 この機能が有効になっている場合は、同じトークンが一度も使用されないようにすることによって、WS-Federation パッシブプロファイルおよび SAML WebSSO profile の両方で認証要求の整合性を保護します。
 
-この機能を有効にする必要があるのは、セキュリティがキオスクを使用する場合など、非常に高い問題である場合です。 トークンリプレイ検出の詳細については、「AD FS 2.0 のセキュリティで保護された[https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215)計画と展開のベストプラクティス」を参照してください。
+この機能を有効にする必要があるのは、セキュリティがキオスクを使用する場合など、非常に高い問題である場合です。 トークンリプレイ検出の詳細については、「AD FS 2.0 のセキュリティで保護された計画と展開のベストプラクティス」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215) 。
 
 </div>
 

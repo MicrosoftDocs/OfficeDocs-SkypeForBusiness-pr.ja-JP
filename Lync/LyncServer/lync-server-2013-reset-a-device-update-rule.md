@@ -12,20 +12,22 @@ ms:contentKeyID: 51803980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8aa5bd589a6368e99401f2f84d702756d595f9be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 24f80dcd0404dfc237d1b63be378f0f333dd975b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214933"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511814"
 ---
+# <a name="reset-a-device-update-rule-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新ルールのリセット
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reset-a-device-update-rule-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新ルールのリセット
+
 
 </div>
 
@@ -59,17 +61,17 @@ _**トピックの最終更新日:** 2013-02-23_
 
 2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**クライアント**] をクリックし、[**デバイスの更新**] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーションバーで [ **クライアント**] をクリックし、[ **デバイスの更新** ] ナビゲーションボタンをクリックします。
 
-4.  [**デバイスの更新**] ページで、次のいずれかの操作を行います。
+4.  [ **デバイスの更新** ] ページで、次のいずれかの操作を行います。
     
       - 1つのルールをリセットするには、リセットするルールを選択します。
     
-      - すべてのルールをリセットするには、[**編集**] メニューの [**すべて選択**] をクリックします。
+      - すべてのルールをリセットするには、[ **編集** ] メニューの [ **すべて選択**] をクリックします。
     
-      - 1つのブランドのすべてのルールをリセットするには、[**ブランド**] 列メニューを使用します。
+      - 1つのブランドのすべてのルールをリセットするには、[ **ブランド** ] 列メニューを使用します。
 
-5.  [**アクション**] をクリックし、[**保留中の更新の取り消し**] をクリックします。
+5.  [ **アクション**] をクリックし、[ **保留中の更新の取り消し**] をクリックします。
     
     <div>
     
@@ -86,7 +88,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="resetting-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してデバイス更新ルールをリセットする
 
-デバイス更新ルールは、Windows PowerShell と**get-csdeviceupdaterule**コマンドレットを使用してリセットすることもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+デバイス更新ルールは、Windows PowerShell と **get-csdeviceupdaterule** コマンドレットを使用してリセットすることもできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -128,7 +130,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 </div>
 
-詳細については、 [get-csdeviceupdaterule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-csdeviceupdaterule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18f24d99a8b22c78acd32efdb5867c92a5621fe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c6bb3c7dcd8d03ffb0a57fb165fe1dba4ee933d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191250"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512804"
 ---
+# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーの容量計画
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーの容量計画
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42191250"
 
 _**トピックの最終更新日:** 2012-10-05_
 
-常設チャットサーバーは、今後の取得と検索に備えて保持できる、複数ユーザーのリアルタイムチャットを実行できます。 ユーザーのメールボックスに保存されるグループインスタントメッセージング (IM) とは異なり、会話履歴が構成されている場合は、常設チャットサーバーセッションが開いたままになり、コンテンツがサーバーに保存されます。メッセージ、ファイル、Url、およびその他のデータは、進行中の会話。
+常設チャットサーバーは、今後の取得と検索に備えて保持できる、複数ユーザーのリアルタイムチャットを実行できます。 ユーザーのメールボックスに保存されるグループインスタントメッセージング (IM) とは異なり、会話履歴が構成されている場合は、常設チャットサーバーセッションが開いたままになり、そのコンテンツがサーバーに保存されます。メッセージ、ファイル、Url、および進行中の会話の一部であるその他のデータも保存されます。
 
 容量計画は、常設チャットサーバーを展開するための準備の重要な部分です。 このトピックでは、サポートされている常設チャットサーバートポロジと、展開に最適な構成を決定するために使用できる容量計画の表について詳しく説明します。 また、ピーク時により多くの容量を必要とする常設チャットサーバーの展開を最適に管理する方法についても説明します。
 
-常設チャットサーバーをダウンロードするには、「」の「Microsoft Lync Server 13 [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)常設チャットサーバー」を参照してください。
+常設チャットサーバーをダウンロードするには、「」の「Microsoft Lync Server 13 常設チャットサーバー」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539) 。
 
-常設チャットサーバーのインストールの詳細については、「展開」のドキュメントの「lync server [2013 での常設チャットサーバーのインストール](lync-server-2013-installing-persistent-chat-server.md)」および「 [lync server 2013 での常設チャットサーバーの構成](lync-server-2013-configuring-persistent-chat-server.md)」を参照してください。
+常設チャットサーバーのインストールの詳細については、「展開」のドキュメントの「lync server [2013 での常設チャットサーバーのインストール](lync-server-2013-installing-persistent-chat-server.md) 」および「 [lync server 2013 での常設チャットサーバーの構成](lync-server-2013-configuring-persistent-chat-server.md) 」を参照してください。
 
-Lync Server 計画ツールなどのサポート ツールは、容量計画の際に役に立ちます。 計画ツールの詳細については、「計画」のドキュメントの「 [Lync Server 2013 の計画プロセスの開始](lync-server-2013-beginning-the-planning-process.md)」を参照してください。
+Lync Server 計画ツールなどのサポート ツールは、容量計画の際に役に立ちます。 計画ツールの詳細については、「計画」のドキュメントの「 [Lync Server 2013 の計画プロセスの開始](lync-server-2013-beginning-the-planning-process.md) 」を参照してください。
 
 <div>
 
@@ -59,7 +61,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 
 
 > [!NOTE]  
-> 両方のトポロジの詳細については、「展開」のドキュメントの「lync server <A href="lync-server-2013-planning-for-persistent-chat-server.md">2013 での常設チャットサーバーの計画</A>」および「 <A href="lync-server-2013-deploying-persistent-chat-server.md">lync Server 2013 の常設チャットサーバーの展開</A>」を参照してください。
+> 両方のトポロジの詳細については、「展開」のドキュメントの「lync server <A href="lync-server-2013-planning-for-persistent-chat-server.md">2013 での常設チャットサーバーの計画</A> 」および「 <A href="lync-server-2013-deploying-persistent-chat-server.md">lync Server 2013 の常設チャットサーバーの展開</A> 」を参照してください。
 
 
 
@@ -69,7 +71,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 
 ## <a name="single-server-topology"></a>単一サーバー トポロジ
 
-常設チャットサーバーの最小構成と最も簡単な展開は、1つの常設チャットサーバーのフロントエンドサーバートポロジです。 この展開では、常設チャットサーバーを実行する単一のサーバー (オプションで、コンプライアンスが有効な場合はコンプライアンスサービスを実行します)、SQL Server データベースの両方をホストするサーバー、およびコンプライアンスが必要な場合は、それを格納する SQL Server データベースを使用する必要があります。コンプライアンスデータ。
+常設チャットサーバーの最小構成と最も簡単な展開は、1つの常設チャットサーバーのフロントエンドサーバートポロジです。 この展開では、常設チャットサーバーを実行する単一のサーバー (オプションで、コンプライアンスが有効な場合はコンプライアンスサービスを実行します)、SQL Server データベースの両方をホストするサーバー、およびコンプライアンスが必要な場合は、コンプライアンスデータを格納する SQL Server データベースを使用する必要があります。
 
 <div>
 
@@ -100,7 +102,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 
 ![複数サーバートポロジ](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "複数サーバートポロジ")
 
-4台のサーバーによる常設チャットサーバーの展開では、8万ユーザーが同時にサインインして常設チャットを使用できるようにすると、サーバーあたりの2万ユーザーに負荷が均等に分配されます。 1つのサーバーが使用できなくなった場合、そのサーバーに接続しているユーザーは、常設チャットサーバーへのアクセスを失います。 切断されたユーザーは、利用できなくなったサーバーが復元されるまでは、残りのサーバーに自動的に転送されます。 ネットワーク上の常設チャットトラフィックの量によっては、この転送に数分かかる場合があります。 残りの各サーバーが 30,000 ものユーザーをホストすることになる可能性があるので、パフォーマンスの問題を回避するために、利用できなくなったサーバーをできるだけ早く復元することをお勧めします。 それ以外の場合は、トポロジビルダーまたは Windows PowerShell コマンドレット**set-cspersistentchatactiveserver**を使用して、別の常設チャットサーバーを使用できるようにすることができます。
+4台のサーバーによる常設チャットサーバーの展開では、8万ユーザーが同時にサインインして常設チャットを使用できるようにすると、サーバーあたりの2万ユーザーに負荷が均等に分配されます。 1つのサーバーが使用できなくなった場合、そのサーバーに接続しているユーザーは、常設チャットサーバーへのアクセスを失います。 切断されたユーザーは、利用できなくなったサーバーが復元されるまでは、残りのサーバーに自動的に転送されます。 ネットワーク上の常設チャットトラフィックの量によっては、この転送に数分かかる場合があります。 残りの各サーバーが 30,000 ものユーザーをホストすることになる可能性があるので、パフォーマンスの問題を回避するために、利用できなくなったサーバーをできるだけ早く復元することをお勧めします。 それ以外の場合は、トポロジビルダーまたは Windows PowerShell コマンドレット **set-cspersistentchatactiveserver**を使用して、別の常設チャットサーバーを使用できるようにすることができます。
 
 </div>
 
@@ -191,7 +193,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 <td><p>チャット ルーム</p></td>
 <td><p>32000</p></td>
 <td><p>1067</p></td>
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>33077</p></td>
 </tr>
 <tr class="odd">
@@ -212,21 +214,21 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 <td><p>オープン ルーム数 (明示的なメンバーシップなし)</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>非オープン ルーム数 (明示的なメンバーシップがある通常のルーム)</p></td>
 <td><p>31040</p></td>
 <td><p>1.035</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>32080</p></td>
 </tr>
 <tr class="odd">
 <td><p>大会議室数 (追加の発表者エントリ)</p></td>
 <td><p>.0</p></td>
 <td><p>32</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -260,8 +262,8 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 <tr class="even">
 <td><p>各チャット ルームのメンバーシップ一覧におけるユーザー グループ数 (非オープン ルーム)</p></td>
 <td><p>1/3</p></td>
-<td><p>5</p></td>
-<td><p>10 </p></td>
+<td><p>5 </p></td>
+<td><p>10  </p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -408,7 +410,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 
 ## <a name="capacity-planning-for-managing-chat-room-access-by-invitation"></a>チャット ルームのアクセスを招待別に管理するための処理能力の計画
 
-次の容量計画の表を使用して、会議出席依頼を送信するように構成されている場合に常設チャットサーバーが作成して保存する招待の数を把握できます。 カテゴリの招待を管理するには、Lync Server コントロールパネルの [**チャットルームのカテゴリ設定**] ページを使用するか、Windows PowerShell コマンドレットを使用して**new-cspersistentchatcategory**を使用します。 チャットルームの招待を管理するには、Lync クライアントから起動されたチャットルームの**管理**ページを使用するか、または Windows PowerShell コマンドレットを使用して、 **clear-cspersistentchatroom**を行います。
+次の容量計画の表を使用して、会議出席依頼を送信するように構成されている場合に常設チャットサーバーが作成して保存する招待の数を把握できます。 カテゴリの招待を管理するには、Lync Server コントロールパネルの [ **チャットルームのカテゴリ設定** ] ページを使用するか、Windows PowerShell コマンドレットを使用して **new-cspersistentchatcategory**を使用します。 チャットルームの招待を管理するには、Lync クライアントから起動されたチャットルームの **管理** ページを使用するか、または Windows PowerShell コマンドレットを使用して、 **clear-cspersistentchatroom**を行います。
 
 次の表のサンプル データでは、[**チャット ルームの設定**] ページの [**招待**] オプションがすべてのチャット ルームの 50 パーセントで [**はい**] に設定されていることを前提としています。
 
@@ -515,7 +517,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 <tr class="odd">
 <td><p>ユーザーあたりのチャット レート (1 日あたり)</p></td>
 <td><p>15 </p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>0.1</p></td>
 <td><p>1280</p></td>
 </tr>
@@ -559,7 +561,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 </tr>
 <tr class="even">
 <td><p>常設チャットサーバーサービスインスタンスの数</p></td>
-<td><p>2/4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
 <td><p>小規模チャット ルームのサイズ</p></td>
@@ -587,7 +589,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 </tr>
 <tr class="odd">
 <td><p>大規模チャット ルームの数</p></td>
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 </tr>
 <tr class="even">
 <td><p>ユーザーあたりのチャット ルームの合計数</p></td>
@@ -595,7 +597,7 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 </tr>
 <tr class="odd">
 <td><p>ユーザーあたりの小規模チャット ルームの数</p></td>
-<td><p>12</p></td>
+<td><p>12 </p></td>
 </tr>
 <tr class="even">
 <td><p>ユーザーあたりの中規模チャット ルームの数</p></td>

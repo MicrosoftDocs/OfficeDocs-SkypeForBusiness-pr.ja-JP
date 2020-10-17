@@ -12,20 +12,22 @@ ms:contentKeyID: 48185974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86444047759c2eab605d8791a6445329651ad43f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3202bb936f7165047b968b979b49b036be574140
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183545"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512384"
 ---
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-lync-server-2013"></a>Lync Server 2013 で保留中の変更を音声ルーティング構成に公開する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-lync-server-2013"></a>Lync Server 2013 で保留中の変更を音声ルーティング構成に公開する
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-08-07_
 
 
 > [!IMPORTANT]  
-> 一度に1人のユーザーだけが音声ルーティング構成設定を変更するようにしてください。<BR>すべての保留中の変更は、[<STRONG>すべて確定</STRONG>] コマンドを実行することによって同時に公開する必要があります。 保留中の変更を選択的に発行することはできません。 保留中の変更を公開する前に、[<STRONG>未確定の変更の確認</STRONG>] コマンドを実行して、公開しない構成の変更をキャンセルします。<BR>保留中の変更をコミットする前に、<STRONG>音声ルーティング</STRONG>グループのページから移動すると、保留中の変更はすべて失われます。 ただし、現在の構成 (保留中の変更を含む) を音声構成ファイルにエクスポートして、更新された構成をインポートして公開することができます。 詳細については、「 <A href="lync-server-2013-export-a-voice-route-configuration-file.md">Lync Server 2013 で音声ルート構成ファイルをエクスポートする</A>」を参照してください。
+> 一度に1人のユーザーだけが音声ルーティング構成設定を変更するようにしてください。<BR>すべての保留中の変更は、[ <STRONG>すべて確定</STRONG> ] コマンドを実行することによって同時に公開する必要があります。 保留中の変更を選択的に発行することはできません。 保留中の変更を公開する前に、[ <STRONG>未確定の変更の確認</STRONG> ] コマンドを実行して、公開しない構成の変更をキャンセルします。<BR>保留中の変更をコミットする前に、 <STRONG>音声ルーティング</STRONG> グループのページから移動すると、保留中の変更はすべて失われます。 ただし、現在の構成 (保留中の変更を含む) を音声構成ファイルにエクスポートして、更新された構成をインポートして公開することができます。 詳細については、「 <A href="lync-server-2013-export-a-voice-route-configuration-file.md">Lync Server 2013 で音声ルート構成ファイルをエクスポートする</A>」を参照してください。
 
 
 
@@ -67,13 +69,13 @@ _**トピックの最終更新日:** 2012-08-07_
     
       - [**コミット**] メニューから [コミットされていない**変更をすべてキャンセル**] を選択します。
     
-      - 保留中の変更がある [**音声ルーティング**] ページのタブに移動して、保留中の変更があるアイテムを選択し、[**確定**] をクリックして、[**選択した変更のキャンセル**] をクリックします。
+      - 保留中の変更がある [ **音声ルーティング** ] ページのタブに移動して、保留中の変更があるアイテムを選択し、[ **確定**] をクリックして、[ **選択した変更のキャンセル**] をクリックします。
 
-7.  保留中の変更をすべて確認し、公開しない変更をすべてキャンセルしたら、[**確定**] をクリックし、[**すべて確定**] をクリックします。
+7.  保留中の変更をすべて確認し、公開しない変更をすべてキャンセルしたら、[ **確定**] をクリックし、[ **すべて確定**] をクリックします。
 
-8.  保留中の変更すべての一覧を表示する、[コミットされていない**音声構成設定**] ダイアログボックスで、[ **OK**] をクリックします。
+8.  保留中の変更すべての一覧を表示する、[コミットされていない **音声構成設定** ] ダイアログボックスで、[ **OK**] をクリックします。
     
-    Lync Server コントロールパネルが変更をコミットすると、[**音声ルーティング構成の発行に成功しまし**た] というメッセージが表示されます。
+    Lync Server コントロールパネルが変更をコミットすると、[ **音声ルーティング構成の発行に成功しまし** た] というメッセージが表示されます。
 
 </div>
 

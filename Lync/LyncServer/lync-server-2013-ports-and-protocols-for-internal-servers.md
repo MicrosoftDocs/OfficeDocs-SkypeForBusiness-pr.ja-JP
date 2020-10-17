@@ -12,20 +12,22 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f40265cf7b8fff7fd6cbf3d4f67a2fb9f558fa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ec90cf3811318cc29a902b56ac8ff31c46a22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208794"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513404"
 ---
+# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013 の内部サーバーのポートとプロトコル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013 の内部サーバーのポートとプロトコル
+
 
 </div>
 
@@ -83,7 +85,7 @@ _**トピックの最終更新日:** 2016-04-06_
 <th>サービス名</th>
 <th>ポート</th>
 <th>プロトコル</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -96,21 +98,21 @@ _**トピックの最終更新日:** 2016-04-06_
 </tr>
 <tr class="even">
 <td><p>フロント エンド サーバー</p></td>
-<td><p>Lync Server フロントエンドサービス</p></td>
+<td><p>Lync Server Front-End サービス</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>リモート通話コントロール サーバーなどの Standard Edition サーバーとフロント エンド サーバーで、信頼されたサービスへの静的ルートの場合にオプションとして使用。</p></td>
 </tr>
 <tr class="odd">
 <td><p>フロント エンド サーバー</p></td>
-<td><p>Lync Server フロントエンドサービス</p></td>
+<td><p>Lync Server Front-End サービス</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (TLS)</p></td>
 <td><p>サーバー間のすべての内部 SIP 通信 (MTLS)、サーバーとクライアントの間の SIP 通信 (TLS)、およびフロント エンド サーバーと仲介サーバーの間の SIP 通信 (MTLS) において、Standard Edition サーバーとフロント エンド プールで使用。 監視サーバーとの通信でも使用。</p></td>
 </tr>
 <tr class="even">
 <td><p>フロント エンド サーバー</p></td>
-<td><p>Lync Server フロントエンドサービス</p></td>
+<td><p>Lync Server Front-End サービス</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -119,7 +121,7 @@ _**トピックの最終更新日:** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>フロント エンド サーバー</p></td>
-<td><p>Lync Server フロントエンドサービス</p></td>
+<td><p>Lync Server Front-End サービス</p></td>
 <td><p>135</p></td>
 <td><p>DCOM およびリモート プロシージャ コール (RPC)</p></td>
 <td><p>ユーザーの移行、ユーザー レプリケーター同期、およびアドレス帳同期などの DCOM ベースの操作で使用。</p></td>
@@ -371,14 +373,14 @@ _**トピックの最終更新日:** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>レ</p></td>
-<td><p>Lync Server フロントエンドサービス</p></td>
+<td><p>Lync Server Front-End サービス</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>リモート通話コントロール サーバーなど、信頼されたサービスへの静的ルートの場合にオプションで使用。</p></td>
 </tr>
 <tr class="even">
 <td><p>レ</p></td>
-<td><p>Lync Server フロントエンドサービス</p></td>
+<td><p>Lync Server Front-End サービス</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -400,7 +402,7 @@ _**トピックの最終更新日:** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>レ</p></td>
-<td><p>Lync Server フロントエンドサービス</p></td>
+<td><p>Lync Server Front-End サービス</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 <td><p>サーバー間の内部通信とクライアント接続に使用。</p></td>
@@ -462,7 +464,7 @@ _**トピックの最終更新日:** 2016-04-06_
 
 
 > [!NOTE]  
-> リモート通話コントロールのシナリオによっては、フロントエンドサーバーまたはディレクターと PBX との間に TCP 接続が必要な場合があります。 Lync Server は TCP ポート5060を使用しなくなりましたが、リモート通話コントロールの展開時には、RCC Line サーバーの FQDN を、フロントエンドサーバーまたはディレクターが PBX システムに接続するために使用する TCP ポートに関連付ける信頼できるサーバー構成を作成します。 詳細については、「Lync Server Management Shell」のドキュメントの「 <STRONG>CsTrustedApplicationComputer</STRONG>コマンドレット」を参照してください。
+> リモート通話コントロールのシナリオによっては、フロントエンドサーバーまたはディレクターと PBX との間に TCP 接続が必要な場合があります。 Lync Server は TCP ポート5060を使用しなくなりましたが、リモート通話コントロールの展開時には、RCC Line サーバーの FQDN を、フロントエンドサーバーまたはディレクターが PBX システムに接続するために使用する TCP ポートに関連付ける信頼できるサーバー構成を作成します。 詳細については、「Lync Server Management Shell」のドキュメントの「 <STRONG>CsTrustedApplicationComputer</STRONG> コマンドレット」を参照してください。
 
 
 
@@ -661,7 +663,7 @@ DNS 負荷分散を使用するフロント エンド プールとディレク�
 <th>コンポーネント</th>
 <th>ポート</th>
 <th>プロトコル</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e02c5493f8582d401ea02df3f94cd2df57e0093
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abb3a1b13bf7357a0a2ee31180557911fc37ae0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214893"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511764"
 ---
+# <a name="response-group-call-list-report-in-lync-server-2013"></a>Lync Server 2013 の応答グループの通話リストレポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-call-list-report-in-lync-server-2013"></a>Lync Server 2013 の応答グループの通話リストレポート
+
 
 </div>
 
@@ -87,7 +89,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 3.  Windows PowerShell を使用して分析を実行します。
 
-たとえば、データを C\\: データ\\応答\_グループ\_の呼び出し\_リスト\_.csv に保存した場合、次のコマンドを使用して、レポートに一覧表示されている各ワークフローの受信呼び出しの合計数を取得できます。
+たとえば、データを C: データ応答グループの通話リストReport.csv に保存した場合、 \\ \\ \_ \_ \_ \_ 次のコマンドを使用して、レポートに一覧表示されている各ワークフローの受信呼び出しの合計数を取得できます。
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
@@ -132,12 +134,12 @@ _**トピックの最終更新日:** 2013-02-22_
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
 <p>7/3/2012</p>
-<p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
+<p>週は、常に日曜日から土曜日までです。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>

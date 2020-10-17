@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アドレス帳管理用の取得-CsService'
+title: 'Lync Server 2013: アドレス帳管理の Get-CsService'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a9e8be425a86eef0d548493e1466888d3d8728c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43c2c6ada55c1bc7db6c8593ee14028b986a2b78
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512624"
 ---
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理の Get-CsService
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理のための CsService
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-help Service は、インフラストラクチャで定義されている Web サービスの現在の構成を取得して表示するのに役立ちます。 このコマンドレットは、プールの完全修飾ドメイン名 (FQDN) および WebServer パラメーターを定義することで、アドレス帳のハンドラーおよび配布リストの拡張 URI など、サーバーが提供する Web ベースのサービスを戻します。
+Get-CsService は、インフラストラクチャで定義されている Web サービスの現在の構成を取得して表示するのに役立ちます。 このコマンドレットは、プールの完全修飾ドメイン名 (FQDN) および WebServer パラメーターを定義することで、アドレス帳のハンドラーおよび配布リストの拡張 URI など、サーバーが提供する Web ベースのサービスを戻します。
 
 次にその例を示します。
 
@@ -79,51 +81,51 @@ AppSharingPortStart: 49152
 
 AppSharingPortCount: 16383
 
-LIServiceInternalUri:https://internalweb.contoso.net/locationinformation/liservice.svc
+LIServiceInternalUri: https://internalweb.contoso.net/locationinformation/liservice.svc
 
-Abハンドラ Internaluri:https://internalweb.contoso.net/abs/handler
+Abハンドラ Internaluri: https://internalweb.contoso.net/abs/handler
 
-Abハンドラ Externaluri:https://csweb.contoso.com/abs/handler
+Abハンドラ Externaluri: https://csweb.contoso.com/abs/handler
 
-Dlのこの Uri:https://internalweb.contoso.net/groupexpansion/service.svc
+Dlのこの Uri: https://internalweb.contoso.net/groupexpansion/service.svc
 
-Dlます。 Externaluri:https://csweb.contoso.com/groupexpansion/service.svc
+Dlます。 Externaluri: https://csweb.contoso.com/groupexpansion/service.svc
 
-Caハンドラ Internaluri:https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+Caハンドラ Internaluri: https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-CAHandlerInternalAnonUri :http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+CAHandlerInternalAnonUri : http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-共に、次のようにします。https://internalweb.contoso.net/CollabContent
+共に、次のようにします。 https://internalweb.contoso.net/CollabContent
 
-共に、外部 Uri:https://csweb.contoso.com/CollabContent
+共に、外部 Uri: https://csweb.contoso.com/CollabContent
 
-Caハンドラ Externaluri:https://csweb.contoso.com/CertProv/CertProvisioningService.svc
+Caハンドラ Externaluri: https://csweb.contoso.com/CertProv/CertProvisioningService.svc
 
-DeviceUpdateDownloadInternalUri:https://internalweb.contoso.net/RequestHandler/ucdevice.upx
+DeviceUpdateDownloadInternalUri: https://internalweb.contoso.net/RequestHandler/ucdevice.upx
 
-DeviceUpdateDownloadExternalUri :https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
+DeviceUpdateDownloadExternalUri : https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
 
-DeviceUpdateStoreInternalUri:http://internalweb.contoso.net/RequestHandler/Files
+DeviceUpdateStoreInternalUri: http://internalweb.contoso.net/RequestHandler/Files
 
-DeviceUpdateStoreExternalUri:https://csweb.contoso.com/RequestHandlerExt/Files
+DeviceUpdateStoreExternalUri: https://csweb.contoso.com/RequestHandlerExt/Files
 
-RgsAgentServiceInternalUri :https://internalweb.contoso.net/RgsClients/AgentService.svc
+RgsAgentServiceInternalUri : https://internalweb.contoso.net/RgsClients/AgentService.svc
 
-RgsAgentServiceExternalUri :https://csweb.contoso.com/RgsClients/AgentService.svc
+RgsAgentServiceExternalUri : https://csweb.contoso.com/RgsClients/AgentService.svc
 
-MeetExternalUri :https://csweb.contoso.com/Meet
+MeetExternalUri : https://csweb.contoso.com/Meet
 
-ダイヤルイン Externaluri:https://csweb.contoso.com/Dialin
+ダイヤルイン Externaluri: https://csweb.contoso.com/Dialin
 
-CscpInternalUri :https://internalweb.contoso.net/Cscp
+CscpInternalUri : https://internalweb.contoso.net/Cscp
 
-ReachExternalUri :https://csweb.contoso.com/Reach
+ReachExternalUri : https://csweb.contoso.com/Reach
 
-ReachInternalUri :https://internalweb.contoso.net/Reach
+ReachInternalUri : https://internalweb.contoso.net/Reach
 
-WebTicketExternalUri :https://csweb.contoso.com/WebTicket/WebTicketService.svc
+WebTicketExternalUri : https://csweb.contoso.com/WebTicket/WebTicketService.svc
 
-WebTicketInternalUri :https://internalweb.contoso.net/WebTicket/WebTicketService.svc
+WebTicketInternalUri : https://internalweb.contoso.net/WebTicket/WebTicketService.svc
 
 ExternalFqdn: csweb.contoso.com
 

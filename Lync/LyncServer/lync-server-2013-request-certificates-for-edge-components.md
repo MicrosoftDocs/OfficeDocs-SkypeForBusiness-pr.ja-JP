@@ -12,20 +12,22 @@ ms:contentKeyID: 48184779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b023ac5c9023e6a301e490e7f081c31628195247
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1f31f257254650b930d0f3017366849132f72b7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183152"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511974"
 ---
+# <a name="request-certificates-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 のエッジコンポーネントの証明書を要求する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="request-certificates-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 のエッジコンポーネントの証明書を要求する
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2013-11-07_
 
 
 > [!NOTE]  
-> エッジサーバーをインストールする場合、セットアップには、「 <A href="lync-server-2013-set-up-edge-certificates.md">Lync server 2013 のエッジ証明書の</A>セットアップ」セクションで説明されているように、証明書の要求、割り当て、およびインストールのタスクを容易にする証明書ウィザードが含まれています。 エッジサーバーをインストールする前に証明書を要求する必要がある場合 (たとえば、エッジサーバーコンポーネントの実際の展開時に時間を節約する場合など)、証明書をエクスポートして、すべてのを含めることができる限り、内部サーバーを使用することができます。必須のサブジェクトの別名。 このドキュメントでは、内部サーバーを使用して証明書を要求する手順については説明しません。
+> エッジサーバーをインストールする場合、セットアップには、「 <A href="lync-server-2013-set-up-edge-certificates.md">Lync server 2013 のエッジ証明書の</A> セットアップ」セクションで説明されているように、証明書の要求、割り当て、およびインストールのタスクを容易にする証明書ウィザードが含まれています。 エッジサーバーをインストールする前に証明書を要求する必要がある場合 (たとえば、エッジサーバーコンポーネントの実際の展開時に時間を節約するなど)、証明書がエクスポート可能で、必要なサブジェクトの別名がすべて含まれている限り、内部サーバーを使用することができます。 このドキュメントでは、内部サーバーを使用して証明書を要求する手順については説明しません。
 
 
 

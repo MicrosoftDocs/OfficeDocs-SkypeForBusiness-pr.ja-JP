@@ -12,20 +12,22 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0807552784b69b58accfd026031af55d41c91f33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1058f48ede85067ac0aeefc3c8dab329bf042ef8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201533"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512034"
 ---
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 の集中ログサービスからキャプチャログを読み取る
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 の集中ログサービスからキャプチャログを読み取る
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42201533"
 
 _**トピックの最終更新日:** 2016-12-28_
 
-検索を実行してから、報告された問題を追跡するために使用できるファイルがある場合は、集中ログサービスの実際のメリットを実感できます。 ファイルを読み取るには、いくつかの方法があります。 出力ファイルは標準のテキスト形式であるため、メモ帳またはその他のプログラムを使用して、テキストファイルを開いて読み取ることができます。 大規模なファイルと複雑な問題については、集中ログサービスからのログ出力を読み取りおよび解析するように設計された Snooper などのツールを使用できます。 Snooper は、個別のダウンロードとして利用できる Lync Server 2013 デバッグツールに含まれています。 Lync Server 2013 デバッグツールは、次[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)の場所からダウンロードできます。 Lync Server 2013 デバッグツールをインストールしても、短いカットとメニュー項目は作成されません。 Lync Server 2013 デバッグツールをインストールした後、Windows エクスプローラー、コマンドラインウィンドウ、または Lync Server 管理シェルを開いて、ディレクトリ (既定の場所) C:\\Program Files\\Microsoft Lync Server 2013\\デバッグツールに移動します。 コマンドラインまたは Lync Server 管理シェルを使用している場合は、Snooper をダブルクリックするか、Snooper と入力し、ENTER キーを押します。
+検索を実行してから、報告された問題を追跡するために使用できるファイルがある場合は、集中ログサービスの実際のメリットを実感できます。 ファイルを読み取るには、いくつかの方法があります。 出力ファイルは標準のテキスト形式であり、Notepad.exe を使用したり、テキストファイルを開いて読み取ることができるその他のプログラムを使用したりすることができます。 大規模なファイルとより複雑な問題については、集中ログサービスからのログ出力を読み取りおよび解析するように設計された Snooper.exe のようなツールを使用できます。 Snooper は、個別のダウンロードとして利用できる Lync Server 2013 デバッグツールに含まれています。 Lync Server 2013 デバッグツールは、次の場所からダウンロードできます [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257) 。 Lync Server 2013 デバッグツールをインストールしても、短いカットとメニュー項目は作成されません。 Lync Server 2013 デバッグツールをインストールした後、Windows エクスプローラー、コマンドラインウィンドウ、または Lync Server 管理シェルを開いて、ディレクトリ (既定の場所) C: \\ Program Files \\ Microsoft Lync Server 2013 \\ デバッグツールに移動します。 コマンドラインまたは Lync Server 管理シェルを使用している場合は、[Snooper.exe] をダブルクリックするか、Snooper.exe を入力して enter キーを押します。
 
 <div>
 
 
 > [!IMPORTANT]  
-> このトピックの目的は、トラブルシューティングの手法を詳細に説明したり議論したりすることではありません。 トラブルシューティングとそれに関連するプロセスは、複雑な問題です。 基本的なトラブルシューティングと特定のワークロードのトラブルシューティングの詳細については、Microsoft <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>Lync Server 2010 リソースキットブック () を参照してください。 プロセスと手順は、引き続き Lync Server 2013 に適用されます。
+> このトピックの目的は、トラブルシューティングの手法を詳細に説明したり議論したりすることではありません。 トラブルシューティングとそれに関連するプロセスは、複雑な問題です。 基本的なトラブルシューティングと特定のワークロードのトラブルシューティングの詳細については、Microsoft Lync Server 2010 リソースキットブック () を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A> 。 プロセスと手順は、引き続き Lync Server 2013 に適用されます。
 
 
 
@@ -75,7 +77,7 @@ Lync Server 2013 には、いくつかの新機能を含む Snooper の更新バ
 
 1.  Snooper を使用してログ ファイルを開くためには、ログ ファイルへの読み取りアクセス権が必要です。Snooper を使用してログ ファイルにアクセスするためには、役割ベースのアクセス制御 (RBAC) のセキュリティ グループである CsAdministrator または CsServerAdministrator のメンバーであるか、これらの 2 グループのいずれかを含むカスタムの RBAC の役割のメンバーである必要があります。
 
-2.  Lync Server デバッグツール (LyncDebugTools) をインストールした後、Windows エクスプローラーまたはコマンドラインから Snooper の場所にディレクトリを変更します。 既定では、デバッグツールは C:\\Program Files\\Microsoft Lync Server 2013\\デバッグツールにあります。 Snooper.exe をダブルクリックするか、実行します。
+2.  Lync Server デバッグツール (LyncDebugTools.msi) をインストールした後、Windows エクスプローラーまたはコマンドラインから Snooper.exe の場所にディレクトリを変更します。 既定では、デバッグツールは C: \\ Program Files \\ Microsoft Lync Server 2013 \\ デバッグツールにあります。 Snooper.exe をダブルクリックするか、実行します。
 
 3.  Snooper を開いたら、[**ファイル**] を右クリックして [**OpenFile**] をクリックします。ログ ファイルを探し、[**開く**] ダイアログ ボックスでファイルを選択して [**開く**] をクリックします。
 

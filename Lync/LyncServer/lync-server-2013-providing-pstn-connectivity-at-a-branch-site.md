@@ -12,20 +12,22 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4998db2c00699e766b664caf79fa271af0395a6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 38c76d378db31cb8a6619a18072ec0218260843e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215283"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513174"
 ---
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Lync Server 2013 のブランチサイトでの PSTN 接続の提供
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Lync Server 2013 のブランチサイトでの PSTN 接続の提供
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2012-10-05_
 
 
 > [!NOTE]  
-> ブランチサイトの復元を提供する場合は、ブランチサイトに存続可能ブランチアプライアンス、存続可能ブランチサーバー、または Standard Edition サーバーを展開する必要があります。 詳細については、「展開」のドキュメントの「<A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">存続可能ブランチアプライアンスまたはサーバーを Lync server 2013 で展開する</A>」または「 <A href="lync-server-2013-deploying-lync-server.md">lync server 2013</A>を展開する」を参照してください。
+> ブランチサイトの復元を提供する場合は、ブランチサイトに存続可能ブランチアプライアンス、存続可能ブランチサーバー、または Standard Edition サーバーを展開する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">存続可能ブランチアプライアンスまたはサーバーを Lync server 2013 で展開する</A> 」または「 <A href="lync-server-2013-deploying-lync-server.md">lync server 2013</A>を展開する」を参照してください。
 
 
 

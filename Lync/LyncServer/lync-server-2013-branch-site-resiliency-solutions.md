@@ -12,20 +12,22 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42ede6730357f50967f13089e02e32ad1a21d8ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 25541f7681ece7b299d6e4c8076fb190382650ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512984"
 ---
+# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Lync Server 2013 のブランチサイトの復元ソリューション
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Lync Server 2013 のブランチサイトの復元ソリューション
+
 
 </div>
 
@@ -61,14 +63,14 @@ _**トピックの最終更新日:** 2014-12-10_
 <td><p>ブランチ サイトに 25 から 1000 ユーザーが所属しており、投資収益率が全面的な展開をサポートしない、またはローカル管理者がいない場合</p></td>
 <td><p>存続可能ブランチ アプライアンス</p>
 <p>存続可能 Branch Appliance は、Windows Server 2008 R2 上で Lync Server レジストラーと仲介サーバーを実行する業界標準のブレードサーバーです。 存続可能ブランチアプライアンスには、公衆交換電話網 (PSTN) ゲートウェイも搭載されています。 認定されたサードパーティ製のデバイス (存続可能 Branch Appliance (SBA) 修飾/証明プログラムで Microsoft パートナーが開発したもの) は、WAN 障害が発生した場合にも継続的な PSTN 接続を提供しますが、これらの機能は中央サイトのフロントエンドサーバーに依存しているため、回復可能なプレゼンスと会議を提供しません。</p>
-<p>存続可能ブランチアプライアンスの詳細について&quot;は、このトピックで&quot;後述する「存続可能 branch Appliance details」を参照してください。</p>
-<p><strong>注:</strong>存続可能ブランチアプライアンスで SIP トランクも使用することにした場合は、存続可能 Branch Appliance ベンダーに問い合わせて、組織に最適なサービスプロバイダーについて確認してください。</p></td>
+<p>存続可能ブランチアプライアンスの詳細については、 &quot; &quot; このトピックで後述する「存続可能 Branch Appliance details」を参照してください。</p>
+<p><strong>注:</strong> 存続可能ブランチアプライアンスで SIP トランクも使用することにした場合は、存続可能 Branch Appliance ベンダーに問い合わせて、組織に最適なサービスプロバイダーについて確認してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>ブランチサイトで1000と2000のユーザーをホストし、回復可能な WAN 接続がなく、専任の Lync Server 管理者が利用できるようになります。</p></td>
 <td><p>存続可能ブランチサーバーまたは2つの存続可能 Branch アプライアンス。</p>
 <p>存続可能ブランチサーバーは、Lync Server レジストラーおよび仲介サーバーソフトウェアがインストールされている、指定されたハードウェア要件を満たす Windows Server です。 これを、PSTN ゲートウェイ、または電話サービス プロバイダーへの SIP トランクに接続する必要があります。</p>
-<p>存続可能ブランチサーバーの詳細について&quot;は、このトピックで&quot;後述する「存続可能 branch Server details」を参照してください。</p></td>
+<p>存続可能ブランチサーバーの詳細については、 &quot; &quot; このトピックで後述する「存続可能 Branch Server details」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>最大5000ユーザーのための音声機能に加えて、プレゼンスおよび会議機能が必要な場合、および専任の Lync Server 管理者を使用できるようにする</p></td>
@@ -108,7 +110,7 @@ Lync Server 存続可能 Branch Appliance には、次のコンポーネント�
 
 存続可能ブランチアプライアンスには、PSTN トランク、アナログポート、およびイーサネットアダプターも含まれています。
 
-中央サイトへのブランチサイトの WAN 接続が使用できなくなると、内部ブランチユーザーは引き続き存続可能 Branch Appliance レジストラーに登録され、存続可能 Branch Appliance 接続を使用して中断のない音声サービスを取得します。を PSTN に。 自宅またはその他のリモートの場所から接続しているブランチ サイトのユーザーは、ブランチ サイトへの WAN リンクが使用できない場合にセントラル サイトのレジストラー サーバーに登録されることができます。 これらのユーザーはすべての統合コミュニケーション機能を使用できますが、唯一の例外は、ブランチ サイトへの着信通話がボイス メールに転送されることです。 WAN 接続が使用可能になると、ブランチ サイトのユーザーはすべての機能を再び使用できるようになります。 存続可能ブランチアプライアンスへのフェールオーバーやサービスの復元では、IT 管理者の存在は必要ありません。
+中央サイトへのブランチサイトの WAN 接続が使用できなくなった場合、内部ブランチユーザーは引き続き存続可能 Branch Appliance レジストラーに登録され、PSTN への存続可能 Branch Appliance 接続を使用して中断のない音声サービスを取得します。 自宅またはその他のリモートの場所から接続しているブランチ サイトのユーザーは、ブランチ サイトへの WAN リンクが使用できない場合にセントラル サイトのレジストラー サーバーに登録されることができます。 これらのユーザーはすべての統合コミュニケーション機能を使用できますが、唯一の例外は、ブランチ サイトへの着信通話がボイス メールに転送されることです。 WAN 接続が使用可能になると、ブランチ サイトのユーザーはすべての機能を再び使用できるようになります。 存続可能ブランチアプライアンスへのフェールオーバーやサービスの復元では、IT 管理者の存在は必要ありません。
 
 Lync Server は、ブランチサイトで最大2つの存続可能ブランチアプライアンスをサポートします。
 
@@ -128,7 +130,7 @@ Lync Server は、ブランチサイトで最大2つの存続可能ブランチ�
 
 存続可能 Branch Appliance は、Microsoft とのパートナーシップで元の機器メーカーによって製造され、付加価値のある小売業者によって開発されています。 この展開は、Lync Server が中央サイトに展開されていて、ブランチサイトへの WAN 接続が確立されており、ブランチサイトユーザーがエンタープライズ Voip に対して有効になっている場合にのみ発生します。
 
-これらのフェーズの詳細については、「展開」のドキュメントの「[存続可能ブランチアプライアンスまたはサーバーを Lync server 2013 を使用して展開する](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)」を参照してください。
+これらのフェーズの詳細については、「展開」のドキュメントの「 [存続可能ブランチアプライアンスまたはサーバーを Lync server 2013 を使用して展開する](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md) 」を参照してください。
 
 
 <table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be67190fc4c6a124cd7c7f44082d9cddf0290bc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2761473e609f8891af14387858ca76bc2a247baa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183520"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512464"
 ---
+# <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Lync Server 2013 の PSTN ゲートウェイの展開オプション
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Lync Server 2013 の PSTN ゲートウェイの展開オプション
+
 
 </div>
 
@@ -61,7 +63,7 @@ PSTN ゲートウェイの数、サイズ、および場所を決定すること
 
 ## <a name="mn-trunk-support"></a>M:N トランクのサポート
 
-仲介サーバーは、複数のゲートウェイ、インターネットテレフォニーサービスプロバイダーから提供されたセッションボーダーコントローラー (sbc)、またはその2つの組み合わせを経由して通話をルーティングできます。 さらに、プール内の複数の仲介サーバーは、複数のゲートウェイと対話できます。 仲介サーバーとゲートウェイの間で定義される論理ルートは、*トランク*と呼ばれます。 内部ユーザーが PSTN 通話を行うと、フロントエンドプールの送信ルーティングロジックによって、その特定の呼び出しについてルーティングに使用できるすべての可能な組み合わせから、どのトランクをルーティングするかが選択されます。 DNS 負荷分散では、プール内の特定の仲介サーバーに問題があるために、ゲートウェイへの通話が失敗した場合、その呼び出しはプール内の別の仲介サーバーに再試行されます。
+仲介サーバーは、複数のゲートウェイ、インターネットテレフォニーサービスプロバイダーから提供されたセッションボーダーコントローラー (sbc)、またはその2つの組み合わせを経由して通話をルーティングできます。 さらに、プール内の複数の仲介サーバーは、複数のゲートウェイと対話できます。 仲介サーバーとゲートウェイの間で定義される論理ルートは、 *トランク*と呼ばれます。 内部ユーザーが PSTN 通話を行うと、フロントエンドプールの送信ルーティングロジックによって、その特定の呼び出しについてルーティングに使用できるすべての可能な組み合わせから、どのトランクをルーティングするかが選択されます。 DNS 負荷分散では、プール内の特定の仲介サーバーに問題があるために、ゲートウェイへの通話が失敗した場合、その呼び出しはプール内の別の仲介サーバーに再試行されます。
 
 複数ゲートウェイの計画の詳細については、「 [M:N トランク In Lync Server 2013](lync-server-2013-m-n-trunk.md)」を参照してください。
 

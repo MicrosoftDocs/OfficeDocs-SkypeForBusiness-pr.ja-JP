@@ -12,20 +12,22 @@ ms:contentKeyID: 48185618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04bc27b965da5d4761e3283ea3106a8a3b90ebf8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d436da8efa7194c2a0a341f4bed7794e532446ec
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513044"
 ---
+# <a name="beginning-the-planning-process-for-lync-server-2013"></a>Lync Server 2013 の計画プロセスの開始
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="beginning-the-planning-process-for-lync-server-2013"></a>Lync Server 2013 の計画プロセスの開始
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**トピックの最終更新日:** 2012-09-24_
 
 オンプレミスのユニファイドコミュニケーションの展開を計画する際に、Lync Server には次の2つの重要なツールがあります。
 
-  - **計画ツール**は、組織、有効にする Lync Server 機能、および容量計画についての一連の質問を提供するウィザードです。 次に、回答に基づいて推奨される展開トポロジを作成し、この展開の Microsoft Visio 図面を生成します。
+  - **計画ツール** は、組織、有効にする Lync Server 機能、および容量計画についての一連の質問を提供するウィザードです。 次に、回答に基づいて推奨される展開トポロジを作成し、この展開の Microsoft Visio 図面を生成します。
 
-  - **トポロジビルダー**は、Lync Server のインストールコンポーネントです。 トポロジビルダーを使用して、計画したトポロジを作成、調整、および発行します。 また、サーバーのインストールを開始する前にトポロジを検証します。 個々のサーバーに Lync Server をインストールすると、サーバーはインストールプロセスの一環として公開されたトポロジを読み取り、インストールプログラムはトポロジ内で指示されたとおりにサーバーを展開します。
+  - **トポロジビルダー** は、Lync Server のインストールコンポーネントです。 トポロジビルダーを使用して、計画したトポロジを作成、調整、および発行します。 また、サーバーのインストールを開始する前にトポロジを検証します。 個々のサーバーに Lync Server をインストールすると、サーバーはインストールプロセスの一環として公開されたトポロジを読み取り、インストールプログラムはトポロジ内で指示されたとおりにサーバーを展開します。
 
 <div>
 
@@ -81,13 +83,13 @@ _**トピックの最終更新日:** 2012-09-24_
 
 <div>
 
-## <a name="high-level-planning-process"></a>計画プロセスの概要
+## <a name="high-level-planning-process"></a>High-Level 計画プロセス
 
 ドキュメントと計画ツールの両方を使用して Lync Server の展開を計画するには、次の一般的な手順を実行することをお勧めします。
 
-1.  以前のバージョンの Lync Server を使い慣れている場合は、lync server [2013 の新機能](lync-server-2013-new-features.md)を参照して、lync server 2013 の新機能と要件について理解してください。
+1.  以前のバージョンの Lync Server を使い慣れている場合は、lync server [2013 の新機能](lync-server-2013-new-features.md) を参照して、lync server 2013 の新機能と要件について理解してください。
 
-2.  「Lync server [2013 の計画の前に知っておく必要があるトポロジの基礎](lync-server-2013-topology-basics-you-must-know-before-planning.md)」、「lync server [2013 の参照トポロジ](lync-server-2013-reference-topologies.md)」、「[最初の lync server 2013](lync-server-2013-initial-planning-decisions.md)」、および「 [lync server 2013 のクライアント](lync-server-2013-clients.md)」のドキュメントのこのセクションの他のトピックを参照してください。 [Lync Server 2013 のリファレンストポロジ](lync-server-2013-reference-topologies.md)で示されている計画上の決定事項に注意してください。
+2.  「Lync server [2013 の計画の前に知っておく必要があるトポロジの基礎](lync-server-2013-topology-basics-you-must-know-before-planning.md)」、「lync server [2013 の参照トポロジ](lync-server-2013-reference-topologies.md)」、「 [最初の lync server 2013](lync-server-2013-initial-planning-decisions.md)」、および「 [lync server 2013 のクライアント](lync-server-2013-clients.md)」のドキュメントのこのセクションの他のトピックを参照してください。 [Lync Server 2013 のリファレンストポロジ](lync-server-2013-reference-topologies.md)で示されている計画上の決定事項に注意してください。
 
 3.  Lync Server の機能と応答する必要のある質問の種類について理解したので、計画ツールを実行し、結果のトポロジとその詳細を確認します。 トポロジが組織の固有の要件に適合していることを確認してください。
 
@@ -99,7 +101,7 @@ _**トピックの最終更新日:** 2012-09-24_
 
 6.  トポロジ計画の最終処理が完了したら、計画ツールを使用して、トポロジの Visio 図面を作成および印刷します。 トポロジビルダーを使用してトポロジを入力するときに、この印刷結果を使用することができます。
 
-7.  展開を開始する前に、「 [lync server 2013 のシステム要件を決定](lync-server-2013-determining-your-system-requirements.md)する」および「lync server [2013 のインフラストラクチャ要件を決定](lync-server-2013-determining-your-infrastructure-requirements.md)して、lync server の前提条件と必要なインフラストラクチャを理解する」をお読みください。 また、展開する予定のワークロードと機能に適用される[Lync Server 2013 の計画に関する](lync-server-2013-planning.md)すべてのセクションを必ずお読みください。
+7.  展開を開始する前に、「 [lync server 2013 のシステム要件を決定](lync-server-2013-determining-your-system-requirements.md) する」および「lync server [2013 のインフラストラクチャ要件を決定](lync-server-2013-determining-your-infrastructure-requirements.md) して、lync server の前提条件と必要なインフラストラクチャを理解する」をお読みください。 また、展開する予定のワークロードと機能に適用される [Lync Server 2013 の計画に関する](lync-server-2013-planning.md) すべてのセクションを必ずお読みください。
 
 </div>
 
@@ -107,7 +109,7 @@ _**トピックの最終更新日:** 2012-09-24_
 
 ## <a name="migrating-from-previous-versions"></a>以前のバージョンからの移行
 
-以前のバージョンから Lync Server に移行する場合は、移行と展開に関する具体的な手順については、[移行](migration.md)に関するドキュメントを参照してください。
+以前のバージョンから Lync Server に移行する場合は、移行と展開に関する具体的な手順については、 [移行](migration.md) に関するドキュメントを参照してください。
 
 </div>
 

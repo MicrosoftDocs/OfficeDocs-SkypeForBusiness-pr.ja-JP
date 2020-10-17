@@ -12,20 +12,22 @@ ms:contentKeyID: 48183866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46212fc9910885ed1d6d833ef0f4b30c3a49b7c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e94e47536c8af6ef8fd3c22dba245b03c961c575
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183410"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512364"
 ---
+# <a name="publish-the-topology-in-lync-server-2013"></a>Lync Server 2013 でトポロジを公開する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-topology-in-lync-server-2013"></a>Lync Server 2013 でトポロジを公開する
+
 
 </div>
 
@@ -69,7 +71,7 @@ _**トピックの最終更新日:** 2013-10-01_
 
 2.  ローカル ファイルからトポロジを選択して開きます。 トポロジを定義したコンピューターで作業している場合、ローカル ファイルは前の手順でトポロジを保存した場所です。 ローカル ファイルは、通常、トポロジを構成したユーザーのドキュメント フォルダーです。
 
-3.  [ **Lync Server 2013** ] ノードを右クリックし、[**トポロジの公開**] をクリックします。
+3.  [ **Lync Server 2013** ] ノードを右クリックし、[ **トポロジの公開**] をクリックします。
 
 4.  [**トポロジの公開**] ページで、[**次へ**] をクリックします。
 
@@ -92,7 +94,7 @@ _**トピックの最終更新日:** 2013-10-01_
     
     [**OK**] をクリックして、[**次へ**] をクリックします。
 
-7.  [**中央管理サーバーの選択**] ページで、フロントエンドプールを選択します。
+7.  [ **中央管理サーバーの選択** ] ページで、フロントエンドプールを選択します。
 
 8.  オプションで [**詳細設定**] をクリックします。 SQL Server の高度なデータファイル配置オプションを使用すると、次のオプションを選択できます。
     

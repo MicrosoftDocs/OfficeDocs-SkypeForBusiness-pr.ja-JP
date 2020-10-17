@@ -12,20 +12,22 @@ ms:contentKeyID: 48184203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b978d7a8d2cf05d4e9fa1b0a224bbef50e3fd7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f696b06f317ac20b98a14734f1eaf076105dbd8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201689"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512314"
 ---
+# <a name="publish-the-updated-topology-in-lync-server-2013"></a>Lync Server 2013 で更新されたトポロジを公開する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-updated-topology-in-lync-server-2013"></a>Lync Server 2013 で更新されたトポロジを公開する
+
 
 </div>
 
@@ -43,13 +45,13 @@ _**トピックの最終更新日:** 2012-10-01_
 
 ## <a name="to-publish-an-updated-topology"></a>更新されたトポロジを公開するには
 
-トポロジを公開する前に、常設チャットサーバーのデータベースをインストールします。 トポロジビルダーを使用してデータベースをインストールするには、[**アクション**] を選択して**データベースをインストール**します。
+トポロジを公開する前に、常設チャットサーバーのデータベースをインストールします。 トポロジビルダーを使用してデータベースをインストールするには、[ **アクション** ] を選択して **データベースをインストール**します。
 
-1.  Lync Server 2013 を実行しているコンピューター、または Lync Server 管理ツールがインストールされているコンピューターで、 **Domain Admins**グループと**RTCUniversalServerAdmins**グループの両方のメンバーであり、常設チャットサーバーのファイルストアに使用されるファイルストアに対するフルコントロールのアクセス許可 (つまり、読み取り、書き込み、および変更) を持つアカウントを使用してログオンします (これにより、トポロジビルダーが必要な随意アクセス制御リスト (dacl) を構成できるようになります)。
+1.  Lync Server 2013 を実行しているコンピューター、または Lync Server 管理ツールがインストールされているコンピューターで、 **Domain Admins** グループと **RTCUniversalServerAdmins** グループの両方のメンバーであり、常設チャットサーバーのファイルストアに使用されるファイルストアに対するフルコントロールのアクセス許可 (つまり、読み取り、書き込み、および変更) を持つアカウントを使用してログオンします (これにより、トポロジビルダーが必要な随意アクセス制御リスト (dacl) を構成できるようになります)。
 
 2.  トポロジ ビルダーを開始します。 [**既存の展開からトポロジをダウンロードする**] を選択するか、トポロジがローカルに保存されている場合は [**ローカル ファイルからトポロジを開く**] を選択します。
 
-3.  コンソールツリーで、[ **Lync Server 2013**] を右クリックし、[**トポロジの公開**] をクリックします。
+3.  コンソールツリーで、[ **Lync Server 2013**] を右クリックし、[ **トポロジの公開**] をクリックします。
 
 4.  [**トポロジの公開**] ページで、[**次へ**] をクリックします。
 

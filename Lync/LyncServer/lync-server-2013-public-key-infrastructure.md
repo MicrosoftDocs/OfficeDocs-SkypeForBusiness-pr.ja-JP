@@ -12,20 +12,22 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec711ad773aeb1b3b426e929b2d87d033f8d8004
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7cee633f877a34dcf2ec0fd0b98891c62faf0bad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183510"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512414"
 ---
+# <a name="public-key-infrastructure-for-lync-server-2013"></a>Lync Server 2013 の公開キー基盤
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="public-key-infrastructure-for-lync-server-2013"></a>Lync Server 2013 の公開キー基盤
+
 
 </div>
 
@@ -49,7 +51,7 @@ Microsoft Lync Server 2013 は、サーバー認証に証明書を使用し、�
 
 
 > [!NOTE]  
-> すべてのパブリック Ca が Lync Server 2013 証明書の要件に準拠しているわけではありません。 認定されているパブリック CA ベンダーの一覧を参照して、パブリック証明書のニーズに合ったベンダーを探すことをお勧めします。 詳細については、「統合コミュニケーション<A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A>証明書パートナー」を参照してください。
+> すべてのパブリック Ca が Lync Server 2013 証明書の要件に準拠しているわけではありません。 認定されているパブリック CA ベンダーの一覧を参照して、パブリック証明書のニーズに合ったベンダーを探すことをお勧めします。 詳細については、「統合コミュニケーション証明書パートナー」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A> 。
 
 
 

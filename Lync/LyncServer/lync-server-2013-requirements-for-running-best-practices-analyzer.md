@@ -12,20 +12,22 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e5ada43b271b819879b0dc0355a5dfdf5e9efd0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f097da7dc35c63cb385abd7ea233ec85df386a6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183020"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511844"
 ---
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でベストプラクティスアナライザーを実行するための要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でベストプラクティスアナライザーを実行するための要件
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183020"
 
 _**トピックの最終更新日:** 2012-09-19_
 
-Lync server 2013、ベストプラクティスアナライザーを使用して Lync Server 2013 環境をスキャンできます。 これを使用して以前の環境をスキャンすることはできませんが、以前のバージョンのツールを使用してこれらの環境をスキャンすることはできます。 Lync Server 2010 および Office Communications Server 2007 R2 バージョンのベストプラクティスアナライザーのダウンロードと使用の詳細については、「」 [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358)および「Office communications server のベストプラクティスアナライザー For Office communications server 2007 および Office communications Server 2007 R2」を参照し[https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651)て2010ください。
+Lync server 2013、ベストプラクティスアナライザーを使用して Lync Server 2013 環境をスキャンできます。 これを使用して以前の環境をスキャンすることはできませんが、以前のバージョンのツールを使用してこれらの環境をスキャンすることはできます。 Lync Server 2010 および Office Communications Server 2007 R2 バージョンのベストプラクティスアナライザーのダウンロードと使用の詳細については、「」 [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) および「Office Communications server のベストプラクティスアナライザー For Office Communications server 2007 および Office Communications server 2007 R2」を参照して2010ください [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651) 。
 
 スキャンを開始する前に、Lync Server 2013 環境内のすべてのコンポーネントが実行されていて、オンラインになっていることを確認する必要があります。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c68855f3f0ae36e0934959b820dc84a716cf2a51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c92adf48a09f83c3c3dec18f91e4aadc3a3cbd39
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183561"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513234"
 ---
+# <a name="progressreport-table-in-lync-server-2013"></a>Lync Server 2013 の進捗レポートの表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="progressreport-table-in-lync-server-2013"></a>Lync Server 2013 の進捗レポートの表
+
 
 </div>
 
@@ -51,7 +53,7 @@ ErrorTime、ErrorReportSeq、および ProgressReportSeq フィールドは、�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>
@@ -62,19 +64,19 @@ ErrorTime、ErrorReportSeq、および ProgressReportSeq フィールドは、�
 <td><p><strong>ErrorTime</strong></p></td>
 <td><p>日付型</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>この進行状況レポートを含む進行状況エラー レポートの日時。 詳細については、「 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a>」を参照してください。</p></td>
+<td><p>この進行状況レポートを含む進行状況エラー レポートの日時。 詳細については、「 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ErrorId</strong></p></td>
 <td><p>int</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>進捗レポートを一意に識別するために ErrorTime、progress Reportseq と共に使用される ID 番号。 詳細については、「 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a>」を参照してください。</p></td>
+<td><p>進捗レポートを一意に識別するために ErrorTime、progress Reportseq と共に使用される ID 番号。 詳細については、「 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Errorreportseq、</strong></p></td>
 <td><p>int</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>エラー レポートを識別する ID 番号。 ErrorReporSeq は、一意的にエラー レポートを識別する目的で ErrorTime と共に使用されます。 詳細については、「 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a>を参照してください。</p>
+<td><p>エラー レポートを識別する ID 番号。 ErrorReporSeq は、一意的にエラー レポートを識別する目的で ErrorTime と共に使用されます。 詳細については、「 <a href="lync-server-2013-errorreport-table.md">Lync Server 2013 の ErrorReport テーブル</a> を参照してください。</p>
 <p>このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="even">
@@ -94,7 +96,7 @@ ErrorTime、ErrorReportSeq、および ProgressReportSeq フィールドは、�
 <td><p><strong>SourceId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>エラーレポートを送信したサーバー (サーバーコンポーネントからレポートが送信された場合)。 詳細については、「 <a href="lync-server-2013-servers-table.md">Lync Server 2013 のサーバーの表</a>」を参照してください。このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
+<td><p>エラーレポートを送信したサーバー (サーバーコンポーネントからレポートが送信された場合)。 詳細については、「 <a href="lync-server-2013-servers-table.md">Lync Server 2013 のサーバーの表</a> 」を参照してください。このフィールドは、Microsoft Lync Server 2013 で導入されました。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ApplicationId</strong></p></td>

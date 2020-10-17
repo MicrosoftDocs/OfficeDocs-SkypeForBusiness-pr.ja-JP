@@ -12,20 +12,22 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353e0941f443e2cb971f8ebd037413232e21b827
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69caa96c6f0e49d472f13da11b34f7d199322184
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183430"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512184"
 ---
+# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013 の QoE レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013 の QoE レポート
+
 
 </div>
 
@@ -129,7 +131,7 @@ QoE パフォーマンスレポートには、仲介サーバー、音声ビデ�
 
 ## <a name="location-based-performance-report"></a>場所に基づくパフォーマンスレポート
 
-場所に基づくパフォーマンスレポートには、ネットワークの場所の一覧が表示されます。また、各場所には、事前に決められた各品質の範囲内の呼び出しの数が表示されます。 このレポートの目的は、さまざまな場所に対する組織の電話の大部分のメディア品質についての情報を提供することによって、実際には実行されていない場所を特定し、組織内のさまざまな品質のメディア品質を確認できるようにすることです。場所が異なります。
+Location-Based パフォーマンスレポートには、ネットワークの場所の一覧が表示され、それぞれの場所について、事前に決められた各品質の範囲内の呼び出しの数が表示されます。 このレポートの目的は、さまざまな場所に対する組織の電話の大部分のメディア品質についての洞察を提供することによって、組織のさまざまな場所で実行されているさまざまなメディア品質を知ることができるようにすることです。
 
 レポートを表示すると、測定基準の異なるテーブルが表示されます。組織がレポートを決定する指標ごとに1つのテーブルが表示されます。 このレポートには、次の指標を選択できます。
 
@@ -147,7 +149,7 @@ QoE パフォーマンスレポートには、仲介サーバー、音声ビデ�
 
   - ずれ
 
-  - 待機時間
+  - 遅延
 
 </div>
 
