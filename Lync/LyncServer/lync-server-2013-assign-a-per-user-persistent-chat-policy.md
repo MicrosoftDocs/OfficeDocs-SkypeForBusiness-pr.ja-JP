@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ユーザー単位の常設チャットポリシーの割り当て'
+description: 'Lync Server 2013: ユーザー単位の常設チャットポリシーを割り当てます。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e06d6c7403bd348b44c6ab36216ed7ee9a1c6d02
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 637f1947fff7f4e919e5f9c252c047b2d0e60392
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134413"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563603"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザー単位の常設チャットポリシーを割り当てる
 
@@ -69,10 +70,10 @@ ms.locfileid: "42134413"
     
 
     > [!NOTE]  
-    > [<STRONG>ポリシーの割り当て</STRONG>] ダイアログボックスを使用して複数のポリシーを構成できるので、ダイアログボックスのすべてのポリシーに対して、既定で [ <STRONG> &lt;&gt;そのまま保持</STRONG>] が選択されています。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
+    > [<STRONG>ポリシーの割り当て</STRONG>] ダイアログボックスを使用して複数のポリシーを構成できるので、ダイアログボックスのすべてのポリシーに対して、既定で [ <STRONG> &lt; その &gt; まま保持</STRONG>] が選択されています。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
 
     
-      - [ ** \<自動\> ** ] を選択すると、Lync Server 2013 でグローバルレベルのポリシーまたはサイトレベルのポリシー (定義されている場合) のいずれかを自動的に選択できるようになります。
+      - **\<Automatic\>** Lync Server 2013 でグローバルレベルのポリシーまたはサイトレベルのポリシー (定義されている場合) のいずれかを自動で選択できるようにするには、このチェックボックスをオンにします。
     
       - [**常設チャット ポリシー**] ページであらかじめ定義した、ユーザー単位の常設チャット ポリシーの名前をクリックします。
         
@@ -84,7 +85,7 @@ ms.locfileid: "42134413"
 
 8.  終了したら、[**OK**] をクリックします。
 
-## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザー単位の常設チャットポリシーを割り当てる
+## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して Per-User 常設チャットポリシーを割り当てる
 
 **Get-cspersistentchatpolicy 戻し**コマンドレットを使用して、ユーザー単位の常設チャットポリシーを割り当てることもできます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
@@ -96,7 +97,7 @@ ms.locfileid: "42134413"
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-multiple-users"></a>ユーザー単位の常設チャットポリシーを複数のユーザーに割り当てるには
 
-  - このコマンドは、ユーザー単位の常設チャット ポリシー RedmondUsersPersistentChatPolicy を、IT 部門で働くすべてのユーザーに割り当てます。 このコマンドで使用されている LdapFilter パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))コマンドレットのドキュメント」を参照してください。
+  - このコマンドは、ユーザー単位の常設チャット ポリシー RedmondUsersPersistentChatPolicy を、IT 部門で働くすべてのユーザーに割り当てます。 このコマンドで使用されている LdapFilter パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) コマンドレットのドキュメント」を参照してください。
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 
@@ -106,7 +107,7 @@ ms.locfileid: "42134413"
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、 [get-cspersistentchatpolicy 戻し](https://technet.microsoft.com/library/jj204907\(v=ocs.15\))コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-cspersistentchatpolicy 戻し](https://technet.microsoft.com/library/jj204907\(v=ocs.15\)) コマンドレットのヘルプトピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 

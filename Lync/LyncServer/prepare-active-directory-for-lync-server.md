@@ -1,5 +1,6 @@
 ---
 title: Lync Server の Active Directory の準備
+description: Lync Server の Active Directory を準備します。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 604d44eba22caf38bc55c788d67efb120a7abc3b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ff9ff2de825d68f2c7ca9d90cbecdf71e5d00d55
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509304"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563703"
 ---
 # <a name="prepare-active-directory-for-lync-server"></a>Lync Server の Active Directory の準備
 

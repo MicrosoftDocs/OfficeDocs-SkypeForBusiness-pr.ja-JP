@@ -1,5 +1,6 @@
 ---
 title: 場所に基づくルーティングを使用した Lync Server 2013 チーム通話
+description: Lync Server 2013 は、場所に基づいたルーティングを使用してチームを呼び出します。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62803597
 ms.date: 08/15/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f02bbec8e2546045e44ed7fd37f61af27af1374
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4abe734ebf4dcbdfcd3653ec08a98cd381f6d7eb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536164"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563783"
 ---
 # <a name="team-calling-with-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 での Location-Based ルーティングを使用したチーム通話
 

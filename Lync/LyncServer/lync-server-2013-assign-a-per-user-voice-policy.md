@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ユーザー単位の音声ポリシーの割り当て'
+description: 'Lync Server 2013: ユーザー単位の音声ポリシーを割り当てます。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: e7ea0b171e10302b4c466187c54324cc2548e821
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943930"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563563"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザーごとの音声ポリシーを割り当てる
 
@@ -36,7 +37,7 @@ ms.locfileid: "44943930"
 
 4.  検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  [ **Lync Server ユーザーの編集**] の [**音声ポリシー**] で、適用するユーザーポリシーを選択します。
+5.  [ **Lync Server ユーザーの編集** ] の [ **音声ポリシー**] で、適用するユーザーポリシーを選択します。
     
 
     > [!NOTE]  
@@ -46,7 +47,7 @@ ms.locfileid: "44943930"
 
 ## <a name="assign-per-user-voice-policies"></a>ユーザー単位の音声ポリシーの割り当て
 
-Windows PowerShell と**set-csvoicepolicy**コマンドレットを使用して、ユーザーごとの音声ポリシーを割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法については、この Lync Server Windows PowerShell ブログ投稿:[クイックスタート: リモート PowerShell を使用して Microsoft Lync server 2010 を管理](https://go.microsoft.com/fwlink/p/?linkId=255876)する」を参照してください。
+Windows PowerShell と **set-csvoicepolicy** コマンドレットを使用して、ユーザーごとの音声ポリシーを割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法については、この Lync Server Windows PowerShell ブログ投稿: [クイックスタート: リモート PowerShell を使用して Microsoft Lync server 2010 を管理](https://go.microsoft.com/fwlink/p/?linkId=255876)する」を参照してください。
 
 ### <a name="assign-a-per-user-voice-policy-to-a-single-user"></a>ユーザー単位の音声ポリシーを1人のユーザーに割り当てる
 
@@ -56,7 +57,7 @@ Windows PowerShell と**set-csvoicepolicy**コマンドレットを使用して�
 
 ## <a name="assign-a-per-user-voice-policy-to-multiple-users"></a>ユーザーごとの音声ポリシーを複数のユーザーに割り当てる
 
-  - このコマンドは、Active Directory 内の Finance OU にアカウントを持つすべてのユーザーに、ユーザーごとの音声ポリシー FinanceVoicePolicy を割り当てます。 このコマンドで使用されている OU パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))コマンドレットのドキュメント」を参照してください。
+  - このコマンドは、Active Directory 内の Finance OU にアカウントを持つすべてのユーザーに、ユーザーごとの音声ポリシー FinanceVoicePolicy を割り当てます。 このコマンドで使用されている OU パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) コマンドレットのドキュメント」を参照してください。
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -66,7 +67,7 @@ Windows PowerShell と**set-csvoicepolicy**コマンドレットを使用して�
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、 [set-csvoicepolicy](https://technet.microsoft.com/library/gg398828\(v=ocs.15\))コマンドレットのヘルプトピックを参照してください。
+詳細については、 [set-csvoicepolicy](https://technet.microsoft.com/library/gg398828\(v=ocs.15\)) コマンドレットのヘルプトピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 
