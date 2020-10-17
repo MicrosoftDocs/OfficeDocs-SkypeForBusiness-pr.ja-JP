@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: トポロジビルダーでのトポロジの定義と構成'
+description: 'Lync Server 2013: トポロジビルダーでトポロジを定義および構成します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0aa4a2c12771adf41972fc0c69222935d6935570
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 83a1f29ec78cf7cfd3856d3f1aa87a22dc0bbe00
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504604"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48569943"
 ---
-# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a><span data-ttu-id="9b858-102">Lync Server 2013 のトポロジビルダーでのトポロジの定義と構成</span><span class="sxs-lookup"><span data-stu-id="9b858-102">Define and configure a topology in Topology Builder for Lync Server 2013</span></span>
+# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a><span data-ttu-id="dbbbf-103">Lync Server 2013 のトポロジビルダーでのトポロジの定義と構成</span><span class="sxs-lookup"><span data-stu-id="dbbbf-103">Define and configure a topology in Topology Builder for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,33 +38,33 @@ ms.locfileid: "48504604"
 
 <span> </span>
 
-<span data-ttu-id="9b858-103">_**トピックの最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="9b858-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="dbbbf-104">_**トピックの最終更新日:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="dbbbf-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="9b858-104">トポロジビルダーを実行して新しいトポロジを定義したり、既存のトポロジを変更したりするには、ローカル管理者または特権ドメイングループのメンバーである必要はありません。</span><span class="sxs-lookup"><span data-stu-id="9b858-104">Running Topology Builder to define a new topology or to modify an existing topology does not require membership in a local administrator or privileged domain group.</span></span> <span data-ttu-id="9b858-105">トポロジビルダーは、構成要件に基づいて、Enterprise Edition フロントエンドプールまたは Standard Edition のトポロジを定義するために必要な手順を説明します。</span><span class="sxs-lookup"><span data-stu-id="9b858-105">Topology Builder guides you through the steps necessary to define your topology for an Enterprise Edition Front End pool or a Standard Edition, based on your configuration requirements.</span></span>
+<span data-ttu-id="dbbbf-105">トポロジビルダーを実行して新しいトポロジを定義したり、既存のトポロジを変更したりするには、ローカル管理者または特権ドメイングループのメンバーである必要はありません。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-105">Running Topology Builder to define a new topology or to modify an existing topology does not require membership in a local administrator or privileged domain group.</span></span> <span data-ttu-id="dbbbf-106">トポロジビルダーは、構成要件に基づいて、Enterprise Edition フロントエンドプールまたは Standard Edition のトポロジを定義するために必要な手順を説明します。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-106">Topology Builder guides you through the steps necessary to define your topology for an Enterprise Edition Front End pool or a Standard Edition, based on your configuration requirements.</span></span>
 
-<span data-ttu-id="9b858-106">サーバーに Lync Server 2013 をインストールするには、トポロジビルダーを使用してトポロジを完成させ、公開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="9b858-106">You must use Topology Builder to complete and publish the topology before you can install Lync Server 2013 on servers.</span></span> <span data-ttu-id="9b858-107">次の手順には、新しいトポロジを定義するために必要な手順も含まれています。</span><span class="sxs-lookup"><span data-stu-id="9b858-107">The following procedure includes the steps required to define a new topology.</span></span>
+<span data-ttu-id="dbbbf-107">サーバーに Lync Server 2013 をインストールするには、トポロジビルダーを使用してトポロジを完成させ、公開する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-107">You must use Topology Builder to complete and publish the topology before you can install Lync Server 2013 on servers.</span></span> <span data-ttu-id="dbbbf-108">次の手順には、新しいトポロジを定義するために必要な手順も含まれています。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-108">The following procedure includes the steps required to define a new topology.</span></span>
 
 <div>
 
-## <a name="to-define-a-topology"></a><span data-ttu-id="9b858-108">トポロジを定義するには</span><span class="sxs-lookup"><span data-stu-id="9b858-108">To define a topology</span></span>
+## <a name="to-define-a-topology"></a><span data-ttu-id="dbbbf-109">トポロジを定義するには</span><span class="sxs-lookup"><span data-stu-id="dbbbf-109">To define a topology</span></span>
 
-1.  <span data-ttu-id="9b858-109">トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b858-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="dbbbf-110">トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-110">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="9b858-110">[トポロジビルダー] で、[ **新しいトポロジ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="9b858-110">In Topology Builder, select **New Topology**.</span></span> <span data-ttu-id="9b858-111">トポロジを保存する場所とファイル名を指定するように求められます。</span><span class="sxs-lookup"><span data-stu-id="9b858-111">You are prompted for a location and file name for saving the topology.</span></span> <span data-ttu-id="9b858-112">トポロジ ファイルにわかりやすい名前を付け、既定の拡張子 .tbxml をそのまま使用します。</span><span class="sxs-lookup"><span data-stu-id="9b858-112">Give the topology file a meaningful name and accept the default extension of .tbxml.</span></span> <span data-ttu-id="9b858-113">[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b858-113">Click **OK**.</span></span>
+2.  <span data-ttu-id="dbbbf-111">[トポロジビルダー] で、[ **新しいトポロジ**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-111">In Topology Builder, select **New Topology**.</span></span> <span data-ttu-id="dbbbf-112">トポロジを保存する場所とファイル名を指定するように求められます。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-112">You are prompted for a location and file name for saving the topology.</span></span> <span data-ttu-id="dbbbf-113">トポロジ ファイルにわかりやすい名前を付け、既定の拡張子 .tbxml をそのまま使用します。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-113">Give the topology file a meaningful name and accept the default extension of .tbxml.</span></span> <span data-ttu-id="dbbbf-114">[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-114">Click **OK**.</span></span>
 
-3.  <span data-ttu-id="9b858-114">新しいトポロジ XML ファイルを保存する場所に移動してファイル名を入力し、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b858-114">Navigate to the location where you want to save the new topology XML file, enter a name for the file, and then click **Save**.</span></span>
+3.  <span data-ttu-id="dbbbf-115">新しいトポロジ XML ファイルを保存する場所に移動してファイル名を入力し、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-115">Navigate to the location where you want to save the new topology XML file, enter a name for the file, and then click **Save**.</span></span>
 
-4.  <span data-ttu-id="9b858-115">[**プライマリ ドメインの定義**] ページで、組織のプライマリ SIP ドメイン名を入力し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b858-115">On the **Define the primary domain** page, enter the name of the primary SIP domain for your organization, and then click **Next**.</span></span>
+4.  <span data-ttu-id="dbbbf-116">[**プライマリ ドメインの定義**] ページで、組織のプライマリ SIP ドメイン名を入力し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-116">On the **Define the primary domain** page, enter the name of the primary SIP domain for your organization, and then click **Next**.</span></span>
 
-5.  <span data-ttu-id="9b858-116">[**追加でサポートされるドメインの指定**] ページで、追加のドメイン名を入力し (存在する場合)、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b858-116">On the **Specify additional supported domains** page, enter the names of additional domains, if any, and then click **Next**.</span></span>
+5.  <span data-ttu-id="dbbbf-117">[**追加でサポートされるドメインの指定**] ページで、追加のドメイン名を入力し (存在する場合)、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-117">On the **Specify additional supported domains** page, enter the names of additional domains, if any, and then click **Next**.</span></span>
 
-6.  <span data-ttu-id="9b858-117">[**最初のサイトの定義**] ページで、最初のサイトの名前と説明を入力し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b858-117">On the **Define the first site** page, enter a name and a description for the first site, and then click **Next**.</span></span>
+6.  <span data-ttu-id="dbbbf-118">[**最初のサイトの定義**] ページで、最初のサイトの名前と説明を入力し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-118">On the **Define the first site** page, enter a name and a description for the first site, and then click **Next**.</span></span>
 
-7.  <span data-ttu-id="9b858-118">[**サイト詳細の指定**] ページで、サイトの場所情報を入力し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b858-118">On the **Specify site details** page, enter the location information for the site, and then click **Next**.</span></span>
+7.  <span data-ttu-id="dbbbf-119">[**サイト詳細の指定**] ページで、サイトの場所情報を入力し、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-119">On the **Specify site details** page, enter the location information for the site, and then click **Next**.</span></span>
 
-8.  <span data-ttu-id="9b858-119">[ **新しいトポロジが正常に定義されました** ] ページで、[ **このウィザードを閉じるときに新しいフロントエンドウィザードを開く** ] チェックボックスがオンになっていることを確認し、[ **完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="9b858-119">On the **New topology was successfully defined** page, make sure the **Open the New Front End Wizard when this wizard closes** check box is selected, and then click **Finish**.</span></span>
+8.  <span data-ttu-id="dbbbf-120">[ **新しいトポロジが正常に定義されました** ] ページで、[ **このウィザードを閉じるときに新しいフロントエンドウィザードを開く** ] チェックボックスがオンになっていることを確認し、[ **完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-120">On the **New topology was successfully defined** page, make sure the **Open the New Front End Wizard when this wizard closes** check box is selected, and then click **Finish**.</span></span>
 
-<span data-ttu-id="9b858-120">トポロジを定義して保存した後、新しいフロントエンドウィザードを使用して、サイトのフロントエンドプールまたは Standard Edition サーバーを定義します。</span><span class="sxs-lookup"><span data-stu-id="9b858-120">After you’ve defined and saved the topology, use the New Front End Wizard to define a Front End pool or Standard Edition server for your site.</span></span> <span data-ttu-id="9b858-121">詳細については、「 [Lync server 2013 でのフロントエンドプールまたは Standard Edition サーバーの定義と構成](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9b858-121">For details, see [Define and configure a Front End pool or Standard Edition server in Lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md).</span></span>
+<span data-ttu-id="dbbbf-121">トポロジを定義して保存した後、新しいフロントエンドウィザードを使用して、サイトのフロントエンドプールまたは Standard Edition サーバーを定義します。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-121">After you’ve defined and saved the topology, use the New Front End Wizard to define a Front End pool or Standard Edition server for your site.</span></span> <span data-ttu-id="dbbbf-122">詳細については、「 [Lync server 2013 でのフロントエンドプールまたは Standard Edition サーバーの定義と構成](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dbbbf-122">For details, see [Define and configure a Front End pool or Standard Edition server in Lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md).</span></span>
 
 </div>
 

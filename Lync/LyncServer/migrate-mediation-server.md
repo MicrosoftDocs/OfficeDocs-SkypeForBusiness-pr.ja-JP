@@ -1,5 +1,6 @@
 ---
 title: 仲介サーバーの移行
+description: 仲介サーバーを移行します。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185117
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87d1e9eaee83f4db6c1ca30cd143d62d45852988
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 31cc4c95f0e9c86b48594238218db22f3ec1a387
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527524"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570333"
 ---
-# <a name="migrate-mediation-server"></a><span data-ttu-id="d45a4-102">仲介サーバーの移行</span><span class="sxs-lookup"><span data-stu-id="d45a4-102">Migrate Mediation Server</span></span>
+# <a name="migrate-mediation-server"></a><span data-ttu-id="26ef6-103">仲介サーバーの移行</span><span class="sxs-lookup"><span data-stu-id="26ef6-103">Migrate Mediation Server</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48527524"
 
 <span> </span>
 
-<span data-ttu-id="d45a4-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="d45a4-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="26ef6-104">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="26ef6-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="d45a4-104">マージウィザードを実行すると、仲介サーバーが Lync Server 2013 パイロットトポロジに統合されます。</span><span class="sxs-lookup"><span data-stu-id="d45a4-104">Your Mediation Server is merged into your Lync Server 2013 pilot topology when you run the Merge wizard.</span></span> <span data-ttu-id="d45a4-105">ただし、Office Communications Server 2007 R2 プールは Lync Server 2013 仲介サーバーと通信できないため、すべてのユーザーを移行した後に、Lync Server 2013 仲介サーバーを構成します。</span><span class="sxs-lookup"><span data-stu-id="d45a4-105">You configure the Lync Server 2013 Mediation Server, however, after all users are migrated because an Office Communications Server 2007 R2 pool cannot communicate with a Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="d45a4-106">サイドバイサイドの移行中に、Lync Server 2013 プールは、Office Communications Server 2007 R2 仲介サーバーと通信します。</span><span class="sxs-lookup"><span data-stu-id="d45a4-106">During the side-by-side migration, the Lync Server 2013 pool communicates with the Office Communications Server 2007 R2 Mediation Server.</span></span>
+<span data-ttu-id="26ef6-105">マージウィザードを実行すると、仲介サーバーが Lync Server 2013 パイロットトポロジに統合されます。</span><span class="sxs-lookup"><span data-stu-id="26ef6-105">Your Mediation Server is merged into your Lync Server 2013 pilot topology when you run the Merge wizard.</span></span> <span data-ttu-id="26ef6-106">ただし、Office Communications Server 2007 R2 プールは Lync Server 2013 仲介サーバーと通信できないため、すべてのユーザーを移行した後に、Lync Server 2013 仲介サーバーを構成します。</span><span class="sxs-lookup"><span data-stu-id="26ef6-106">You configure the Lync Server 2013 Mediation Server, however, after all users are migrated because an Office Communications Server 2007 R2 pool cannot communicate with a Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="26ef6-107">サイドバイサイドの移行中に、Lync Server 2013 プールは、Office Communications Server 2007 R2 仲介サーバーと通信します。</span><span class="sxs-lookup"><span data-stu-id="26ef6-107">During the side-by-side migration, the Lync Server 2013 pool communicates with the Office Communications Server 2007 R2 Mediation Server.</span></span>
 
-<span data-ttu-id="d45a4-107">Lync Server 2013 仲介サーバーを構成する場合は、Office Communications Server 2007 R2 ゲートウェイもアップグレードまたは置換する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d45a4-107">When you configure your Lync Server 2013 Mediation Server, you must also upgrade or replace your Office Communications Server 2007 R2 gateways.</span></span> <span data-ttu-id="d45a4-108">Office Communications Server 2007 R2 ゲートウェイは、Lync Server 2013 仲介サーバーをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="d45a4-108">Office Communications Server 2007 R2 gateways do not support Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="d45a4-109">Lync Server 2013 に認定されているゲートウェイを展開し、Lync Server 2013 仲介サーバーに関連付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="d45a4-109">You need to deploy gateways that are certified for Lync Server 2013 and associate them with the Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="d45a4-110">Office Communications Server 2007 R2 展開を完全に使用停止にするには、この手順が必要です。</span><span class="sxs-lookup"><span data-stu-id="d45a4-110">This step is required before you can completely decommission your Office Communications Server 2007 R2 deployment.</span></span>
+<span data-ttu-id="26ef6-108">Lync Server 2013 仲介サーバーを構成する場合は、Office Communications Server 2007 R2 ゲートウェイもアップグレードまたは置換する必要があります。</span><span class="sxs-lookup"><span data-stu-id="26ef6-108">When you configure your Lync Server 2013 Mediation Server, you must also upgrade or replace your Office Communications Server 2007 R2 gateways.</span></span> <span data-ttu-id="26ef6-109">Office Communications Server 2007 R2 ゲートウェイは、Lync Server 2013 仲介サーバーをサポートしていません。</span><span class="sxs-lookup"><span data-stu-id="26ef6-109">Office Communications Server 2007 R2 gateways do not support Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="26ef6-110">Lync Server 2013 に認定されているゲートウェイを展開し、Lync Server 2013 仲介サーバーに関連付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="26ef6-110">You need to deploy gateways that are certified for Lync Server 2013 and associate them with the Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="26ef6-111">Office Communications Server 2007 R2 展開を完全に使用停止にするには、この手順が必要です。</span><span class="sxs-lookup"><span data-stu-id="26ef6-111">This step is required before you can completely decommission your Office Communications Server 2007 R2 deployment.</span></span>
 
-<span data-ttu-id="d45a4-111">このセクションのトピックでは、Lync Server 2013 仲介サーバーの移行を完了した後に実行する必要がある構成タスクについて説明します。</span><span class="sxs-lookup"><span data-stu-id="d45a4-111">The topics in this section describe configuration tasks that you need to perform after you have completed your migration of Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="d45a4-112">併置された仲介サーバーからスタンドアロンの仲介サーバーへの移行は、オプションのタスクです。</span><span class="sxs-lookup"><span data-stu-id="d45a4-112">Transitioning the collocated Mediation Server to a stand-alone Mediation Server is an optional task.</span></span>
+<span data-ttu-id="26ef6-112">このセクションのトピックでは、Lync Server 2013 仲介サーバーの移行を完了した後に実行する必要がある構成タスクについて説明します。</span><span class="sxs-lookup"><span data-stu-id="26ef6-112">The topics in this section describe configuration tasks that you need to perform after you have completed your migration of Lync Server 2013 Mediation Server.</span></span> <span data-ttu-id="26ef6-113">併置された仲介サーバーからスタンドアロンの仲介サーバーへの移行は、オプションのタスクです。</span><span class="sxs-lookup"><span data-stu-id="26ef6-113">Transitioning the collocated Mediation Server to a stand-alone Mediation Server is an optional task.</span></span>
 
-  - [<span data-ttu-id="d45a4-113">仲介サーバーの構成</span><span class="sxs-lookup"><span data-stu-id="d45a4-113">Configure Mediation Server</span></span>](configure-mediation-server.md)
+  - [<span data-ttu-id="26ef6-114">仲介サーバーの構成</span><span class="sxs-lookup"><span data-stu-id="26ef6-114">Configure Mediation Server</span></span>](configure-mediation-server.md)
 
-  - [<span data-ttu-id="d45a4-114">新しい Lync Server 2013 仲介サーバーを使用するように音声ルートを変更する</span><span class="sxs-lookup"><span data-stu-id="d45a4-114">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
+  - [<span data-ttu-id="26ef6-115">新しい Lync Server 2013 仲介サーバーを使用するように音声ルートを変更する</span><span class="sxs-lookup"><span data-stu-id="26ef6-115">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
 
-  - [<span data-ttu-id="d45a4-115">併置された仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)</span><span class="sxs-lookup"><span data-stu-id="d45a4-115">Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)</span></span>](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+  - [<span data-ttu-id="26ef6-116">併置された仲介サーバーをスタンドアロンの仲介サーバーに移行する (オプション)</span><span class="sxs-lookup"><span data-stu-id="26ef6-116">Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)</span></span>](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
 
 </div>
 
