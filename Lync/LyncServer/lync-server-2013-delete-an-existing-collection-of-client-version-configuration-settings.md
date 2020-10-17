@@ -12,20 +12,22 @@ ms:contentKeyID: 50873760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a513a4c603a062b7aa2a596921e76f9f96cce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 16a8925037643028e02975c4145e1e2593bc6608
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514654"
 ---
+# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="67811-102">Lync Server 2013 でクライアントバージョン構成設定の既存のコレクションを削除する</span><span class="sxs-lookup"><span data-stu-id="67811-102">Delete an existing collection of client version configuration settings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="0f077-102">Lync Server 2013 でクライアントバージョン構成設定の既存のコレクションを削除する</span><span class="sxs-lookup"><span data-stu-id="0f077-102">Delete an existing collection of client version configuration settings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,35 +37,35 @@ ms.locfileid: "42202721"
 
 <span> </span>
 
-<span data-ttu-id="0f077-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="0f077-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="67811-103">_**トピックの最終更新日:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="67811-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="0f077-104">以前にサイト用に構成されたクライアント構成設定を削除する場合は、Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルから設定を削除できます。</span><span class="sxs-lookup"><span data-stu-id="0f077-104">If you want to remove the client configuration settings that have been previously configured for a site, you can remove the settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="67811-104">以前にサイト用に構成されたクライアント構成設定を削除する場合は、Lync Server 2013 コントロールパネルまたは Lync Server 2013 管理シェルから設定を削除できます。</span><span class="sxs-lookup"><span data-stu-id="67811-104">If you want to remove the client configuration settings that have been previously configured for a site, you can remove the settings from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="0f077-105">Lync Server コントロールパネルを使用してクライアント構成設定を削除するには</span><span class="sxs-lookup"><span data-stu-id="0f077-105">To remove client configuration settings by using Lync Server Control Panel</span></span>
+## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="67811-105">Lync Server コントロールパネルを使用してクライアント構成設定を削除するには</span><span class="sxs-lookup"><span data-stu-id="67811-105">To remove client configuration settings by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="0f077-106">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="0f077-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="67811-106">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="67811-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="0f077-107">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="0f077-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0f077-108">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0f077-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="67811-107">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="67811-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="67811-108">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="67811-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="0f077-109">左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="0f077-109">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="67811-109">左側のナビゲーションバーで [ **クライアント**] をクリックし、[ **クライアントバージョンの構成** ] ナビゲーションボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="67811-109">In the left navigation bar, click **Clients**, and then click the **Client Version Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="0f077-110">サイトを選択し、[**編集**]、[**削除**]、[ **OK**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="0f077-110">Select the site, click **Edit**, click **Delete**, and then click **OK**.</span></span>
+4.  <span data-ttu-id="67811-110">サイトを選択し、[ **編集**]、[ **削除**]、[ **OK**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="67811-110">Select the site, click **Edit**, click **Delete**, and then click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="0f077-111">Windows PowerShell コマンドレットを使用してクライアントバージョン構成設定を削除する</span><span class="sxs-lookup"><span data-stu-id="0f077-111">Removing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="67811-111">Windows PowerShell コマンドレットを使用してクライアントバージョン構成設定を削除する</span><span class="sxs-lookup"><span data-stu-id="67811-111">Removing Client Version Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="0f077-112">クライアントバージョン構成**設定は、コマンドレット**を使用して削除できます。</span><span class="sxs-lookup"><span data-stu-id="0f077-112">You can delete client version configuration settings by using the **Remove-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="0f077-113">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="0f077-113">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="0f077-114">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="0f077-114">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="67811-112">クライアントバージョン構成 **設定は、コマンドレット** を使用して削除できます。</span><span class="sxs-lookup"><span data-stu-id="67811-112">You can delete client version configuration settings by using the **Remove-CsClientVersionConfiguration** cmdlet.</span></span> <span data-ttu-id="67811-113">このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="67811-113">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="67811-114">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。</span><span class="sxs-lookup"><span data-stu-id="67811-114">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a><span data-ttu-id="0f077-115">指定したクライアントバージョン構成設定のコレクションを削除するには</span><span class="sxs-lookup"><span data-stu-id="0f077-115">To remove a specified collection of client version configuration settings</span></span>
+## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a><span data-ttu-id="67811-115">指定したクライアントバージョン構成設定のコレクションを削除するには</span><span class="sxs-lookup"><span data-stu-id="67811-115">To remove a specified collection of client version configuration settings</span></span>
 
-  - <span data-ttu-id="0f077-116">次のコマンドは、Redmond サイトに適用されているクライアントバージョンの構成設定を削除します。</span><span class="sxs-lookup"><span data-stu-id="0f077-116">The following command removes the client version configuration settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="67811-116">次のコマンドは、Redmond サイトに適用されているクライアントバージョンの構成設定を削除します。</span><span class="sxs-lookup"><span data-stu-id="67811-116">The following command removes the client version configuration settings applied to the Redmond site:</span></span>
     
         Remove-CsClientVersionConfiguration -Identity "site:Redmond"
 
@@ -71,9 +73,9 @@ ms.locfileid: "42202721"
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="0f077-117">サイトスコープに適用されているすべてのクライアントバージョン構成設定を削除するには</span><span class="sxs-lookup"><span data-stu-id="0f077-117">To remove all the client version configuration settings applied to the site scope</span></span>
+## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="67811-117">サイトスコープに適用されているすべてのクライアントバージョン構成設定を削除するには</span><span class="sxs-lookup"><span data-stu-id="67811-117">To remove all the client version configuration settings applied to the site scope</span></span>
 
-  - <span data-ttu-id="0f077-118">このコマンドは、サイトスコープで構成されているすべてのクライアントバージョン構成設定を削除します。</span><span class="sxs-lookup"><span data-stu-id="0f077-118">This command removes all the client version configuration settings configured at the site scope:</span></span>
+  - <span data-ttu-id="67811-118">このコマンドは、サイトスコープで構成されているすべてのクライアントバージョン構成設定を削除します。</span><span class="sxs-lookup"><span data-stu-id="67811-118">This command removes all the client version configuration settings configured at the site scope:</span></span>
     
         Get-CsClientVersionConfiguration -Filter site:* | Remove-CsClientVersionConfiguration
 
@@ -81,15 +83,15 @@ ms.locfileid: "42202721"
 
 <div>
 
-## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a><span data-ttu-id="0f077-119">DefaultAction プロパティの値に基づいて、すべてのクライアントバージョン構成設定を削除するには</span><span class="sxs-lookup"><span data-stu-id="0f077-119">To remove all the client version configuration settings based on the value of the DefaultAction property</span></span>
+## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a><span data-ttu-id="67811-119">DefaultAction プロパティの値に基づいて、すべてのクライアントバージョン構成設定を削除するには</span><span class="sxs-lookup"><span data-stu-id="67811-119">To remove all the client version configuration settings based on the value of the DefaultAction property</span></span>
 
-  - <span data-ttu-id="0f077-120">次のコマンドを実行すると、既定のアクションが "ブロック" に設定されているすべてのクライアントバージョンの構成設定が削除されます。</span><span class="sxs-lookup"><span data-stu-id="0f077-120">And this command removes all the client version configuration settings where the default action has been set to "Block":</span></span>
+  - <span data-ttu-id="67811-120">次のコマンドを実行すると、既定のアクションが "ブロック" に設定されているすべてのクライアントバージョンの構成設定が削除されます。</span><span class="sxs-lookup"><span data-stu-id="67811-120">And this command removes all the client version configuration settings where the default action has been set to "Block":</span></span>
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
 </div>
 
-<span data-ttu-id="0f077-121">詳細については、「 [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15))コマンドレット」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="0f077-121">For details, see the Help topic for the [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) cmdlet.</span></span>
+<span data-ttu-id="67811-121">詳細については、「 [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) コマンドレット」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="67811-121">For details, see the Help topic for the [Remove-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg425925(v=OCS.15)) cmdlet.</span></span>
 
 </div>
 

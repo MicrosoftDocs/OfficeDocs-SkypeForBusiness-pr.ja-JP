@@ -12,20 +12,22 @@ ms:contentKeyID: 48706007
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 322b700b807f8654e96572a3c040ddd7fe0d1e5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 70d8b61b67b8c6156b3875d2a9c0d5c9b6870459
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186620"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513954"
 ---
+# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a><span data-ttu-id="2001d-102">Lync Server 2013 の常設チャットサーバーのコンプライアンステーブルのリスト</span><span class="sxs-lookup"><span data-stu-id="2001d-102">List of Persistent Chat Server compliance tables in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a><span data-ttu-id="91c97-102">Lync Server 2013 の常設チャットサーバーのコンプライアンステーブルのリスト</span><span class="sxs-lookup"><span data-stu-id="91c97-102">List of Persistent Chat Server compliance tables in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42186620"
 
 <span> </span>
 
-<span data-ttu-id="91c97-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="91c97-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="2001d-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="2001d-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="91c97-104">常設チャットコンプライアンスデータベーススキーマは、次の表で構成されています。</span><span class="sxs-lookup"><span data-stu-id="91c97-104">The Persistent Chat compliance database schema consists of the following tables.</span></span>
+<span data-ttu-id="2001d-104">常設チャットコンプライアンスデータベーススキーマは、次の表で構成されています。</span><span class="sxs-lookup"><span data-stu-id="2001d-104">The Persistent Chat compliance database schema consists of the following tables.</span></span>
 
 <div>
 
-## <a name="list-of-persistent-chat-server-compliance-tables"></a><span data-ttu-id="91c97-105">常設チャット サーバーのコンプライアンス テーブルのリスト</span><span class="sxs-lookup"><span data-stu-id="91c97-105">List of Persistent Chat Server Compliance Tables</span></span>
+## <a name="list-of-persistent-chat-server-compliance-tables"></a><span data-ttu-id="2001d-105">常設チャット サーバーのコンプライアンス テーブルのリスト</span><span class="sxs-lookup"><span data-stu-id="2001d-105">List of Persistent Chat Server Compliance Tables</span></span>
 
 
 <table>
@@ -51,28 +53,28 @@ ms.locfileid: "42186620"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="91c97-106">Table</span><span class="sxs-lookup"><span data-stu-id="91c97-106">Table</span></span></th>
-<th><span data-ttu-id="91c97-107">説明</span><span class="sxs-lookup"><span data-stu-id="91c97-107">Description</span></span></th>
+<th><span data-ttu-id="2001d-106">Table</span><span class="sxs-lookup"><span data-stu-id="2001d-106">Table</span></span></th>
+<th><span data-ttu-id="2001d-107">説明</span><span class="sxs-lookup"><span data-stu-id="2001d-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91c97-108"><a href="lync-server-2013-tblcompliancedata.md">Lync Server 2013 の tblComplianceData</a></span><span class="sxs-lookup"><span data-stu-id="91c97-108"><a href="lync-server-2013-tblcompliancedata.md">tblComplianceData in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="91c97-109">構成済みのアダプターによってまだ処理されていないコンプライアンス イベントが格納されます。</span><span class="sxs-lookup"><span data-stu-id="91c97-109">Contains the compliance events that have not yet been processed by the configured adapter.</span></span></p>
-<p><span data-ttu-id="91c97-110">この表には、チャットメッセージやファイルダウンロードなどの常設チャット関連イベントが含まれています。</span><span class="sxs-lookup"><span data-stu-id="91c97-110">This table includes Persistent Chat-related events, such as chat messages and file downloads.</span></span> <span data-ttu-id="91c97-111">(参加者のイベントは、tblComplianceParticipant テーブルによって追跡されます。)</span><span class="sxs-lookup"><span data-stu-id="91c97-111">(Participant events are tracked by the tblComplianceParticipant table.)</span></span></p>
-<p><span data-ttu-id="91c97-112">(このテーブルのイベントを処理したサーバーは、tblComplianceFanout テーブルに含まれます)</span><span class="sxs-lookup"><span data-stu-id="91c97-112">(The servers that processed the events in this table are listed in the tblComplianceFanout table.)</span></span></p></td>
+<td><p><span data-ttu-id="2001d-108"><a href="lync-server-2013-tblcompliancedata.md">Lync Server 2013 の tblComplianceData</a></span><span class="sxs-lookup"><span data-stu-id="2001d-108"><a href="lync-server-2013-tblcompliancedata.md">tblComplianceData in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="2001d-109">構成済みのアダプターによってまだ処理されていないコンプライアンス イベントが格納されます。</span><span class="sxs-lookup"><span data-stu-id="2001d-109">Contains the compliance events that have not yet been processed by the configured adapter.</span></span></p>
+<p><span data-ttu-id="2001d-110">この表には、チャットメッセージやファイルダウンロードなどの常設チャット関連イベントが含まれています。</span><span class="sxs-lookup"><span data-stu-id="2001d-110">This table includes Persistent Chat-related events, such as chat messages and file downloads.</span></span> <span data-ttu-id="2001d-111">(参加者のイベントは、tblComplianceParticipant テーブルによって追跡されます。)</span><span class="sxs-lookup"><span data-stu-id="2001d-111">(Participant events are tracked by the tblComplianceParticipant table.)</span></span></p>
+<p><span data-ttu-id="2001d-112">(このテーブルのイベントを処理したサーバーは、tblComplianceFanout テーブルに含まれます)</span><span class="sxs-lookup"><span data-stu-id="2001d-112">(The servers that processed the events in this table are listed in the tblComplianceFanout table.)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91c97-113"><a href="lync-server-2013-tblcompliancefanout.md">Lync Server 2013 の tblComplianceFanout</a></span><span class="sxs-lookup"><span data-stu-id="91c97-113"><a href="lync-server-2013-tblcompliancefanout.md">tblComplianceFanout in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="91c97-114">コンプライアンス イベントを処理したサーバーが格納されます。</span><span class="sxs-lookup"><span data-stu-id="91c97-114">Contains the servers that processed a compliance event.</span></span> <span data-ttu-id="91c97-115">このテーブルは tblComplianceData テーブルと緊密に結び付けられています。</span><span class="sxs-lookup"><span data-stu-id="91c97-115">This table is tightly coupled with the tblComplianceData table.</span></span></p></td>
+<td><p><span data-ttu-id="2001d-113"><a href="lync-server-2013-tblcompliancefanout.md">Lync Server 2013 の tblComplianceFanout</a></span><span class="sxs-lookup"><span data-stu-id="2001d-113"><a href="lync-server-2013-tblcompliancefanout.md">tblComplianceFanout in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="2001d-114">コンプライアンス イベントを処理したサーバーが格納されます。</span><span class="sxs-lookup"><span data-stu-id="2001d-114">Contains the servers that processed a compliance event.</span></span> <span data-ttu-id="2001d-115">このテーブルは tblComplianceData テーブルと緊密に結び付けられています。</span><span class="sxs-lookup"><span data-stu-id="2001d-115">This table is tightly coupled with the tblComplianceData table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91c97-116"><a href="lync-server-2013-tblcomplianceparticipant.md">Lync Server 2013 の tblComplianceParticipant</a></span><span class="sxs-lookup"><span data-stu-id="91c97-116"><a href="lync-server-2013-tblcomplianceparticipant.md">tblComplianceParticipant in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="91c97-117">チャット サービス別およびサーバー別に現在の参加者が格納されます。</span><span class="sxs-lookup"><span data-stu-id="91c97-117">Contains current participants per chat service and per server.</span></span> <span data-ttu-id="91c97-118">常設チャットサービスから受信した参加およびパーツのコンプライアンスイベントに基づいて維持されます。</span><span class="sxs-lookup"><span data-stu-id="91c97-118">It is maintained based on join and part compliance events received from the Persistent Chat service.</span></span></p></td>
+<td><p><span data-ttu-id="2001d-116"><a href="lync-server-2013-tblcomplianceparticipant.md">Lync Server 2013 の tblComplianceParticipant</a></span><span class="sxs-lookup"><span data-stu-id="2001d-116"><a href="lync-server-2013-tblcomplianceparticipant.md">tblComplianceParticipant in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="2001d-117">チャット サービス別およびサーバー別に現在の参加者が格納されます。</span><span class="sxs-lookup"><span data-stu-id="2001d-117">Contains current participants per chat service and per server.</span></span> <span data-ttu-id="2001d-118">常設チャットサービスから受信した参加およびパーツのコンプライアンスイベントに基づいて維持されます。</span><span class="sxs-lookup"><span data-stu-id="2001d-118">It is maintained based on join and part compliance events received from the Persistent Chat service.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91c97-119"><a href="lync-server-2013-tblcompliancestate.md">Lync Server 2013 の tblComplianceState</a></span><span class="sxs-lookup"><span data-stu-id="91c97-119"><a href="lync-server-2013-tblcompliancestate.md">tblComplianceState in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="91c97-120">プール全体のコンプライアンス状態情報が含まれます。</span><span class="sxs-lookup"><span data-stu-id="91c97-120">Contains pool-wide compliance state information.</span></span></p></td>
+<td><p><span data-ttu-id="2001d-119"><a href="lync-server-2013-tblcompliancestate.md">Lync Server 2013 の tblComplianceState</a></span><span class="sxs-lookup"><span data-stu-id="2001d-119"><a href="lync-server-2013-tblcompliancestate.md">tblComplianceState in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="2001d-120">プール全体のコンプライアンス状態情報が含まれます。</span><span class="sxs-lookup"><span data-stu-id="2001d-120">Contains pool-wide compliance state information.</span></span></p></td>
 </tr>
 </tbody>
 </table>
