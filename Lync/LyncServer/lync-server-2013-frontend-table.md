@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: フロントエンドテーブル'
+description: 'Lync Server 2013: フロントエンドテーブル'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01a8240a3668df79ad6c1e99997e756d87eef444
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 94c9be1c7db2693a9e33e219fa1afb57088e1a2c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500674"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567053"
 ---
-# <a name="frontend-table-in-lync-server-2013"></a><span data-ttu-id="dffa0-102">Lync Server 2013 のフロントエンドテーブル</span><span class="sxs-lookup"><span data-stu-id="dffa0-102">FrontEnd table in Lync Server 2013</span></span>
+# <a name="frontend-table-in-lync-server-2013"></a><span data-ttu-id="20db6-103">Lync Server 2013 のフロントエンドテーブル</span><span class="sxs-lookup"><span data-stu-id="20db6-103">FrontEnd table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48500674"
 
 <span> </span>
 
-<span data-ttu-id="dffa0-103">_**トピックの最終更新日:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="dffa0-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="20db6-104">_**トピックの最終更新日:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="20db6-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="dffa0-104">FrontEnd テーブルは内部専用です。</span><span class="sxs-lookup"><span data-stu-id="dffa0-104">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="dffa0-105">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="dffa0-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="20db6-105">FrontEnd テーブルは内部専用です。</span><span class="sxs-lookup"><span data-stu-id="20db6-105">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="20db6-106">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="20db6-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

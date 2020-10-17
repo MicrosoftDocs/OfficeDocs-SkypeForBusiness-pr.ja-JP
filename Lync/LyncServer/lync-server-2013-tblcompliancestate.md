@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblComplianceState'
+description: 'Lync Server 2013: tblComplianceState。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84608b7cb701fe4c394ed413539759d9469a5a4e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6eaf35eee8b4e24ec4d04e607fa77fd91b91e4e8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509414"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568083"
 ---
-# <a name="tblcompliancestate-in-lync-server-2013"></a><span data-ttu-id="e8f5d-102">Lync Server 2013 の tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="e8f5d-102">tblComplianceState in Lync Server 2013</span></span>
+# <a name="tblcompliancestate-in-lync-server-2013"></a><span data-ttu-id="39d64-103">Lync Server 2013 の tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="39d64-103">tblComplianceState in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48509414"
 
 <span> </span>
 
-<span data-ttu-id="e8f5d-103">_**トピックの最終更新日:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="e8f5d-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="39d64-104">_**トピックの最終更新日:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="39d64-104">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="e8f5d-104">tblComplianceState には、プール全体のコンプライアンス状態情報が含まれています。</span><span class="sxs-lookup"><span data-stu-id="e8f5d-104">tblComplianceState contains pool-wide compliance state information.</span></span>
+<span data-ttu-id="39d64-105">tblComplianceState には、プール全体のコンプライアンス状態情報が含まれています。</span><span class="sxs-lookup"><span data-stu-id="39d64-105">tblComplianceState contains pool-wide compliance state information.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="e8f5d-105">段組み</span><span class="sxs-lookup"><span data-stu-id="e8f5d-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="39d64-106">段組み</span><span class="sxs-lookup"><span data-stu-id="39d64-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,26 +52,26 @@ ms.locfileid: "48509414"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e8f5d-106">Column</span><span class="sxs-lookup"><span data-stu-id="e8f5d-106">Column</span></span></th>
-<th><span data-ttu-id="e8f5d-107">種類</span><span class="sxs-lookup"><span data-stu-id="e8f5d-107">Type</span></span></th>
-<th><span data-ttu-id="e8f5d-108">説明</span><span class="sxs-lookup"><span data-stu-id="e8f5d-108">Description</span></span></th>
+<th><span data-ttu-id="39d64-107">Column</span><span class="sxs-lookup"><span data-stu-id="39d64-107">Column</span></span></th>
+<th><span data-ttu-id="39d64-108">種類</span><span class="sxs-lookup"><span data-stu-id="39d64-108">Type</span></span></th>
+<th><span data-ttu-id="39d64-109">説明</span><span class="sxs-lookup"><span data-stu-id="39d64-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e8f5d-109">Lastprocesseデの Tryid</span><span class="sxs-lookup"><span data-stu-id="e8f5d-109">lastProcessedEntryID</span></span></p></td>
-<td><p><span data-ttu-id="e8f5d-110">NULL でない bigint</span><span class="sxs-lookup"><span data-stu-id="e8f5d-110">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="e8f5d-111">最後に処理されたコンプライアンスイベントの ID。</span><span class="sxs-lookup"><span data-stu-id="e8f5d-111">ID of the latest processed compliance event.</span></span></p></td>
+<td><p><span data-ttu-id="39d64-110">Lastprocesseデの Tryid</span><span class="sxs-lookup"><span data-stu-id="39d64-110">lastProcessedEntryID</span></span></p></td>
+<td><p><span data-ttu-id="39d64-111">NULL でない bigint</span><span class="sxs-lookup"><span data-stu-id="39d64-111">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="39d64-112">最後に処理されたコンプライアンスイベントの ID。</span><span class="sxs-lookup"><span data-stu-id="39d64-112">ID of the latest processed compliance event.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e8f5d-112">activeServerID</span><span class="sxs-lookup"><span data-stu-id="e8f5d-112">activeServerID</span></span></p></td>
-<td><p><span data-ttu-id="e8f5d-113">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="e8f5d-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="e8f5d-114">データベースの排他ロックを保持しているコンプライアンスサーバーの ID。存在しない場合は-1。</span><span class="sxs-lookup"><span data-stu-id="e8f5d-114">ID of the Compliance server holding the exclusive lock on the database, or -1 if none.</span></span></p></td>
+<td><p><span data-ttu-id="39d64-113">activeServerID</span><span class="sxs-lookup"><span data-stu-id="39d64-113">activeServerID</span></span></p></td>
+<td><p><span data-ttu-id="39d64-114">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="39d64-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="39d64-115">データベースの排他ロックを保持しているコンプライアンスサーバーの ID。存在しない場合は-1。</span><span class="sxs-lookup"><span data-stu-id="39d64-115">ID of the Compliance server holding the exclusive lock on the database, or -1 if none.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e8f5d-115">lockExpirationTime</span><span class="sxs-lookup"><span data-stu-id="e8f5d-115">lockExpirationTime</span></span></p></td>
-<td><p><span data-ttu-id="e8f5d-116">datetime2 (null 以外)</span><span class="sxs-lookup"><span data-stu-id="e8f5d-116">datetime2, not null</span></span></p></td>
-<td><p><span data-ttu-id="e8f5d-117">ロックの有効期限の時刻 (activeServerID が-1 でない場合)。</span><span class="sxs-lookup"><span data-stu-id="e8f5d-117">Lock expiration time (if activeServerID is not -1).</span></span></p></td>
+<td><p><span data-ttu-id="39d64-116">lockExpirationTime</span><span class="sxs-lookup"><span data-stu-id="39d64-116">lockExpirationTime</span></span></p></td>
+<td><p><span data-ttu-id="39d64-117">datetime2 (null 以外)</span><span class="sxs-lookup"><span data-stu-id="39d64-117">datetime2, not null</span></span></p></td>
+<td><p><span data-ttu-id="39d64-118">ロックの有効期限の時刻 (activeServerID が-1 でない場合)。</span><span class="sxs-lookup"><span data-stu-id="39d64-118">Lock expiration time (if activeServerID is not -1).</span></span></p></td>
 </tr>
 </tbody>
 </table>
