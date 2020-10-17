@@ -12,20 +12,22 @@ ms:contentKeyID: 48183802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c45300800ad83bbeee0d71abd1a38879f41c903d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2ed272afa7fe21a7b40004fb93dcdfa239b4caf8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209333"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520664"
 ---
+# <a name="codecdescription-table-in-lync-server-2013"></a><span data-ttu-id="40bff-102">Lync Server 2013 の CodecDescription テーブル</span><span class="sxs-lookup"><span data-stu-id="40bff-102">CodecDescription table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="codecdescription-table-in-lync-server-2013"></a><span data-ttu-id="d18bf-102">Lync Server 2013 の CodecDescription テーブル</span><span class="sxs-lookup"><span data-stu-id="d18bf-102">CodecDescription table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42209333"
 
 <span> </span>
 
-<span data-ttu-id="d18bf-103">_**トピックの最終更新日:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="d18bf-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="40bff-103">_**トピックの最終更新日:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="40bff-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="d18bf-104">CodecDescription テーブルは、対応するコーデックに一意コーデック識別子をマップします。</span><span class="sxs-lookup"><span data-stu-id="d18bf-104">The CodecDescription table maps unique codec identifiers to their corresponding codec.</span></span> <span data-ttu-id="d18bf-105">コーデックは、送受信とブロードキャスト用にデジタル信号をコード化し、再生時にそれらの信号を読み取る目的で使用されます。</span><span class="sxs-lookup"><span data-stu-id="d18bf-105">Codecs are used to encode digital signals for transmission and broadcast, and then to decode those signals for playback.</span></span> <span data-ttu-id="d18bf-106">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="d18bf-106">This table was introduced in Microsoft Lync Server 2013</span></span>
+<span data-ttu-id="40bff-104">CodecDescription テーブルは、対応するコーデックに一意コーデック識別子をマップします。</span><span class="sxs-lookup"><span data-stu-id="40bff-104">The CodecDescription table maps unique codec identifiers to their corresponding codec.</span></span> <span data-ttu-id="40bff-105">コーデックは、送受信とブロードキャスト用にデジタル信号をコード化し、再生時にそれらの信号を読み取る目的で使用されます。</span><span class="sxs-lookup"><span data-stu-id="40bff-105">Codecs are used to encode digital signals for transmission and broadcast, and then to decode those signals for playback.</span></span> <span data-ttu-id="40bff-106">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="40bff-106">This table was introduced in Microsoft Lync Server 2013</span></span>
 
 
 <table>
@@ -49,24 +51,24 @@ ms.locfileid: "42209333"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d18bf-107"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="d18bf-107"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="d18bf-108"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="d18bf-108"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="d18bf-109"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="d18bf-109"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="d18bf-110"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="d18bf-110"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="40bff-107"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="40bff-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="40bff-108"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="40bff-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="40bff-109"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="40bff-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="40bff-110"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="40bff-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d18bf-111"><strong>CodecDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="d18bf-111"><strong>CodecDescriptionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="d18bf-112">smallint</span><span class="sxs-lookup"><span data-stu-id="d18bf-112">smallint</span></span></p></td>
-<td><p><span data-ttu-id="d18bf-113">Primary</span><span class="sxs-lookup"><span data-stu-id="d18bf-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d18bf-114">新しいコーデックに割り当てる一意識別子です。</span><span class="sxs-lookup"><span data-stu-id="d18bf-114">Unique identifier assigned to the codec.</span></span></p></td>
+<td><p><span data-ttu-id="40bff-111"><strong>CodecDescriptionKey</strong></span><span class="sxs-lookup"><span data-stu-id="40bff-111"><strong>CodecDescriptionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="40bff-112">smallint</span><span class="sxs-lookup"><span data-stu-id="40bff-112">smallint</span></span></p></td>
+<td><p><span data-ttu-id="40bff-113">Primary</span><span class="sxs-lookup"><span data-stu-id="40bff-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="40bff-114">新しいコーデックに割り当てる一意識別子です。</span><span class="sxs-lookup"><span data-stu-id="40bff-114">Unique identifier assigned to the codec.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d18bf-115"><strong>CodecDescription</strong></span><span class="sxs-lookup"><span data-stu-id="d18bf-115"><strong>CodecDescription</strong></span></span></p></td>
-<td><p><span data-ttu-id="d18bf-116">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d18bf-116">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="d18bf-117">一意</span><span class="sxs-lookup"><span data-stu-id="d18bf-117">Unique</span></span></p></td>
-<td><p><span data-ttu-id="d18bf-118">CodecDescriptionKey に対応しているコーデックの一意詳細。</span><span class="sxs-lookup"><span data-stu-id="d18bf-118">Unique description of the codec corresponding to the CodecDescriptionKey.</span></span></p></td>
+<td><p><span data-ttu-id="40bff-115"><strong>CodecDescription</strong></span><span class="sxs-lookup"><span data-stu-id="40bff-115"><strong>CodecDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="40bff-116">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="40bff-116">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="40bff-117">一意</span><span class="sxs-lookup"><span data-stu-id="40bff-117">Unique</span></span></p></td>
+<td><p><span data-ttu-id="40bff-118">CodecDescriptionKey に対応しているコーデックの一意詳細。</span><span class="sxs-lookup"><span data-stu-id="40bff-118">Unique description of the codec corresponding to the CodecDescriptionKey.</span></span></p></td>
 </tr>
 </tbody>
 </table>

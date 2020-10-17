@@ -12,20 +12,22 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f92b6cd69ce8063c22f1892d34545700abaf519a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18df28fec6d7e38dd58aa2c9e9068bb2dee4b731
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217463"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519894"
 ---
+# <a name="mobility-policies-in-lync-server-2013"></a><span data-ttu-id="3f63a-102">Lync Server 2013 のモビリティポリシー</span><span class="sxs-lookup"><span data-stu-id="3f63a-102">Mobility policies in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobility-policies-in-lync-server-2013"></a><span data-ttu-id="cbafa-102">Lync Server 2013 のモビリティポリシー</span><span class="sxs-lookup"><span data-stu-id="cbafa-102">Mobility policies in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,28 +37,28 @@ ms.locfileid: "42217463"
 
 <span> </span>
 
-<span data-ttu-id="cbafa-103">_**トピックの最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="cbafa-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="3f63a-103">_**トピックの最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="3f63a-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="cbafa-104">Lync Server 2013 のモビリティポリシーを構成するには、以下の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="cbafa-104">Use the following procedures to configure mobility policies for Lync Server 2013.</span></span>
+<span data-ttu-id="3f63a-104">Lync Server 2013 のモビリティポリシーを構成するには、以下の手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="3f63a-104">Use the following procedures to configure mobility policies for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cbafa-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="cbafa-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3f63a-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="3f63a-105">In This Section</span></span>
 
-  - [<span data-ttu-id="cbafa-106">Lync Server 2013 でのモビリティポリシーの作成または変更</span><span class="sxs-lookup"><span data-stu-id="cbafa-106">Create or modify a mobility policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-mobility-policy.md)
+  - [<span data-ttu-id="3f63a-106">Lync Server 2013 でのモビリティポリシーの作成または変更</span><span class="sxs-lookup"><span data-stu-id="3f63a-106">Create or modify a mobility policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-mobility-policy.md)
 
-  - [<span data-ttu-id="cbafa-107">Lync Server 2013 でユーザー単位のモビリティポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="cbafa-107">Assign a per-user mobility policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [<span data-ttu-id="3f63a-107">Lync Server 2013 でユーザー単位のモビリティポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="3f63a-107">Assign a per-user mobility policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [<span data-ttu-id="cbafa-108">Lync Server 2013 での電話ロックの適用</span><span class="sxs-lookup"><span data-stu-id="cbafa-108">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
+  - [<span data-ttu-id="3f63a-108">Lync Server 2013 での電話ロックの適用</span><span class="sxs-lookup"><span data-stu-id="3f63a-108">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cbafa-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="cbafa-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f63a-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="3f63a-109">See Also</span></span>
 
 
-[<span data-ttu-id="cbafa-110">Lync Server 2013 でのモビリティの計画</span><span class="sxs-lookup"><span data-stu-id="cbafa-110">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)  
+[<span data-ttu-id="3f63a-110">Lync Server 2013 でのモビリティの計画</span><span class="sxs-lookup"><span data-stu-id="3f63a-110">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)  
   
 
 </div>

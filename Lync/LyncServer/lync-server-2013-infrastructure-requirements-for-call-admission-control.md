@@ -12,20 +12,22 @@ ms:contentKeyID: 48184157
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41e95443e1de200fddd5f3aeb4876132d8963c8d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ab7d857fa2fb551d1056932166c67855b67a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521034"
 ---
+# <a name="infrastructure-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="2a40c-102">Lync Server 2013 での通話受付管理のインフラストラクチャ要件</span><span class="sxs-lookup"><span data-stu-id="2a40c-102">Infrastructure requirements for call admission control in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="infrastructure-requirements-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="f6730-102">Lync Server 2013 での通話受付管理のインフラストラクチャ要件</span><span class="sxs-lookup"><span data-stu-id="f6730-102">Infrastructure requirements for call admission control in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42204204"
 
 <span> </span>
 
-<span data-ttu-id="f6730-103">_**トピックの最終更新日:** 2012-08-21_</span><span class="sxs-lookup"><span data-stu-id="f6730-103">_**Topic Last Modified:** 2012-08-21_</span></span>
+<span data-ttu-id="2a40c-103">_**トピックの最終更新日:** 2012-08-21_</span><span class="sxs-lookup"><span data-stu-id="2a40c-103">_**Topic Last Modified:** 2012-08-21_</span></span>
 
-<span data-ttu-id="f6730-104">特殊なネットワーク ルーターなどの追加のインフラストラクチャ要件は不要です。</span><span class="sxs-lookup"><span data-stu-id="f6730-104">No additional infrastructure requirements, such as special network routers, are necessary.</span></span> <span data-ttu-id="f6730-105">Lync Server 2013 を展開すると、通話受付管理 (CAC) ポリシーを強制するために使用される帯域幅ポリシーサービスが自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="f6730-105">Deploying Lync Server 2013 will automatically install the Bandwidth Policy Service used to enforce call admission control (CAC) policies.</span></span> <span data-ttu-id="f6730-106">通話受付管理は、Lync を実行しているクライアントでのみ動作します。</span><span class="sxs-lookup"><span data-stu-id="f6730-106">Call admission control works only with clients running Lync.</span></span>
+<span data-ttu-id="2a40c-104">特殊なネットワーク ルーターなどの追加のインフラストラクチャ要件は不要です。</span><span class="sxs-lookup"><span data-stu-id="2a40c-104">No additional infrastructure requirements, such as special network routers, are necessary.</span></span> <span data-ttu-id="2a40c-105">Lync Server 2013 を展開すると、通話受付管理 (CAC) ポリシーを強制するために使用される帯域幅ポリシーサービスが自動的にインストールされます。</span><span class="sxs-lookup"><span data-stu-id="2a40c-105">Deploying Lync Server 2013 will automatically install the Bandwidth Policy Service used to enforce call admission control (CAC) policies.</span></span> <span data-ttu-id="2a40c-106">通話受付管理は、Lync を実行しているクライアントでのみ動作します。</span><span class="sxs-lookup"><span data-stu-id="2a40c-106">Call admission control works only with clients running Lync.</span></span>
 
 </div>
 
