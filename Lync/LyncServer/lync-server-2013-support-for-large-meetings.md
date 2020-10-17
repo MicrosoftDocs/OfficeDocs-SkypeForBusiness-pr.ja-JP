@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 の大規模会議のサポート
+description: Lync Server 2013 の大規模会議のサポート。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f177c7555a945be4e871c53e0e49a57c1a304a7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bb37cbfb95e36b9a07604eb4fbbc548e4d7ce9a7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519414"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546263"
 ---
-# <a name="support-for-large-meetings-in-lync-server-2013"></a><span data-ttu-id="48711-102">Lync Server 2013 での大規模会議のサポート</span><span class="sxs-lookup"><span data-stu-id="48711-102">Support for large meetings in Lync Server 2013</span></span>
+# <a name="support-for-large-meetings-in-lync-server-2013"></a><span data-ttu-id="25ad0-103">Lync Server 2013 での大規模会議のサポート</span><span class="sxs-lookup"><span data-stu-id="25ad0-103">Support for large meetings in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48519414"
 
 <span> </span>
 
-<span data-ttu-id="48711-103">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="48711-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="25ad0-104">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="25ad0-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="48711-104">Lync Server 2013 は、PowerPoint プレゼンテーションの共有を含む、音声ビデオ (A/V) 会議を使用した最大1000参加者との会議をサポートできます。</span><span class="sxs-lookup"><span data-stu-id="48711-104">Lync Server 2013 can support meetings with up to 1000 participants using audio/video (A/V) conferencing, including sharing PowerPoint presentations.</span></span> <span data-ttu-id="48711-105">このサポートには、大規模な会議をサポートするように構成され、一度に 1 つの大規模な会議のみ開催するような方法で管理される専用プールが必要です。</span><span class="sxs-lookup"><span data-stu-id="48711-105">This support requires a dedicated pool configured to support large meetings and managed in a way that ensures hosting of only a single large meeting at a time.</span></span>
+<span data-ttu-id="25ad0-105">Lync Server 2013 は、PowerPoint プレゼンテーションの共有を含む、音声ビデオ (A/V) 会議を使用した最大1000参加者との会議をサポートできます。</span><span class="sxs-lookup"><span data-stu-id="25ad0-105">Lync Server 2013 can support meetings with up to 1000 participants using audio/video (A/V) conferencing, including sharing PowerPoint presentations.</span></span> <span data-ttu-id="25ad0-106">このサポートには、大規模な会議をサポートするように構成され、一度に 1 つの大規模な会議のみ開催するような方法で管理される専用プールが必要です。</span><span class="sxs-lookup"><span data-stu-id="25ad0-106">This support requires a dedicated pool configured to support large meetings and managed in a way that ensures hosting of only a single large meeting at a time.</span></span>
 
-<span data-ttu-id="48711-106">このセクションでは、専用の Lync Server 2013 プールを使用して大規模な会議をサポートする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="48711-106">This section describes how to support large meetings using a dedicated Lync Server 2013 pool.</span></span> <span data-ttu-id="48711-107">スケーラビリティの考慮事項と、トポロジ、ハードウェア、ソフトウェア、および構成の要件を含む専用プールの実装要件について説明します。</span><span class="sxs-lookup"><span data-stu-id="48711-107">It describes scalability considerations and the implementation requirements for a dedicated pool, including topology, hardware, software, and configuration requirements.</span></span> <span data-ttu-id="48711-108">また、大規模な会議のサポートに関するベストプラクティスの推奨事項、Lync Server エンジニアリングチームが実施したサーバーのスケーラビリティテストの概要、および大規模な会議のサポートに関してよく寄せられる質問への回答を提供します。</span><span class="sxs-lookup"><span data-stu-id="48711-108">It also provides a set of best practice recommendations for supporting large meetings, a summary of the test methods and results of server scalability testing conducted by the Lync Server engineering team, and the answers to frequently asked questions about support for large meetings.</span></span>
+<span data-ttu-id="25ad0-107">このセクションでは、専用の Lync Server 2013 プールを使用して大規模な会議をサポートする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="25ad0-107">This section describes how to support large meetings using a dedicated Lync Server 2013 pool.</span></span> <span data-ttu-id="25ad0-108">スケーラビリティの考慮事項と、トポロジ、ハードウェア、ソフトウェア、および構成の要件を含む専用プールの実装要件について説明します。</span><span class="sxs-lookup"><span data-stu-id="25ad0-108">It describes scalability considerations and the implementation requirements for a dedicated pool, including topology, hardware, software, and configuration requirements.</span></span> <span data-ttu-id="25ad0-109">また、大規模な会議のサポートに関するベストプラクティスの推奨事項、Lync Server エンジニアリングチームが実施したサーバーのスケーラビリティテストの概要、および大規模な会議のサポートに関してよく寄せられる質問への回答を提供します。</span><span class="sxs-lookup"><span data-stu-id="25ad0-109">It also provides a set of best practice recommendations for supporting large meetings, a summary of the test methods and results of server scalability testing conducted by the Lync Server engineering team, and the answers to frequently asked questions about support for large meetings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="48711-109">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="48711-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="25ad0-110">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="25ad0-110">In This Section</span></span>
 
-  - [<span data-ttu-id="48711-110">Lync Server 2013 での会議のスケーラビリティの概要</span><span class="sxs-lookup"><span data-stu-id="48711-110">Overview of conferencing scalability in Lync Server 2013</span></span>](lync-server-2013-conferencing-scalability-overview.md)
+  - [<span data-ttu-id="25ad0-111">Lync Server 2013 での会議のスケーラビリティの概要</span><span class="sxs-lookup"><span data-stu-id="25ad0-111">Overview of conferencing scalability in Lync Server 2013</span></span>](lync-server-2013-conferencing-scalability-overview.md)
 
-  - [<span data-ttu-id="48711-111">Lync Server 2013 を使用した大規模会議のサポート</span><span class="sxs-lookup"><span data-stu-id="48711-111">Supporting large meetings using Lync Server 2013</span></span>](lync-server-2013-supporting-large-meetings.md)
+  - [<span data-ttu-id="25ad0-112">Lync Server 2013 を使用した大規模会議のサポート</span><span class="sxs-lookup"><span data-stu-id="25ad0-112">Supporting large meetings using Lync Server 2013</span></span>](lync-server-2013-supporting-large-meetings.md)
 
-  - [<span data-ttu-id="48711-112">Lync Server 2013 の大規模会議のサポートに関する FAQ</span><span class="sxs-lookup"><span data-stu-id="48711-112">Large meeting support FAQ for Lync Server 2013</span></span>](lync-server-2013-large-meeting-support-faq.md)
+  - [<span data-ttu-id="25ad0-113">Lync Server 2013 の大規模会議のサポートに関する FAQ</span><span class="sxs-lookup"><span data-stu-id="25ad0-113">Large meeting support FAQ for Lync Server 2013</span></span>](lync-server-2013-large-meeting-support-faq.md)
 
 </div>
 

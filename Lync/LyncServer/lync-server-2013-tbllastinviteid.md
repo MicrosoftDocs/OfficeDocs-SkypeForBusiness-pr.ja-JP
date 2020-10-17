@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblLastInviteId'
+description: 'Lync Server 2013: tblLastInviteId。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a49682d5c154b154ddda6c5fd411905f5850722d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e5a13cfc7edc29ea20c95f7f4d587b0cfb84eb73
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523794"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547543"
 ---
-# <a name="tbllastinviteid-in-lync-server-2013"></a><span data-ttu-id="31f8c-102">Lync Server 2013 の tblLastInviteId</span><span class="sxs-lookup"><span data-stu-id="31f8c-102">tblLastInviteId in Lync Server 2013</span></span>
+# <a name="tbllastinviteid-in-lync-server-2013"></a><span data-ttu-id="de0e4-103">Lync Server 2013 の tblLastInviteId</span><span class="sxs-lookup"><span data-stu-id="de0e4-103">tblLastInviteId in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48523794"
 
 <span> </span>
 
-<span data-ttu-id="31f8c-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="31f8c-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="de0e4-104">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="de0e4-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="31f8c-104">tblLastInviteId には、各ユーザーに対して生成された (そして tblPrincipalInvites テーブルで使用された) 最後の招待 ID が格納されます。</span><span class="sxs-lookup"><span data-stu-id="31f8c-104">tblLastInviteId contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.</span></span>
+<span data-ttu-id="de0e4-105">tblLastInviteId には、各ユーザーに対して生成された (そして tblPrincipalInvites テーブルで使用された) 最後の招待 ID が格納されます。</span><span class="sxs-lookup"><span data-stu-id="de0e4-105">tblLastInviteId contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="31f8c-105">段組み</span><span class="sxs-lookup"><span data-stu-id="31f8c-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="de0e4-106">段組み</span><span class="sxs-lookup"><span data-stu-id="de0e4-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,27 +52,27 @@ ms.locfileid: "48523794"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="31f8c-106">Column</span><span class="sxs-lookup"><span data-stu-id="31f8c-106">Column</span></span></th>
-<th><span data-ttu-id="31f8c-107">種類</span><span class="sxs-lookup"><span data-stu-id="31f8c-107">Type</span></span></th>
-<th><span data-ttu-id="31f8c-108">説明</span><span class="sxs-lookup"><span data-stu-id="31f8c-108">Description</span></span></th>
+<th><span data-ttu-id="de0e4-107">Column</span><span class="sxs-lookup"><span data-stu-id="de0e4-107">Column</span></span></th>
+<th><span data-ttu-id="de0e4-108">種類</span><span class="sxs-lookup"><span data-stu-id="de0e4-108">Type</span></span></th>
+<th><span data-ttu-id="de0e4-109">説明</span><span class="sxs-lookup"><span data-stu-id="de0e4-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="31f8c-109">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="31f8c-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="31f8c-110">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="31f8c-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="31f8c-111">プリンシパル ID。</span><span class="sxs-lookup"><span data-stu-id="31f8c-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-110">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="de0e4-110">prinID</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-111">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="de0e4-111">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-112">プリンシパル ID。</span><span class="sxs-lookup"><span data-stu-id="de0e4-112">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="31f8c-112">lastInviteID</span><span class="sxs-lookup"><span data-stu-id="31f8c-112">lastInviteID</span></span></p></td>
-<td><p><span data-ttu-id="31f8c-113">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="31f8c-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="31f8c-114">最後に使用された招待 ID。</span><span class="sxs-lookup"><span data-stu-id="31f8c-114">Last used invite ID.</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-113">lastInviteID</span><span class="sxs-lookup"><span data-stu-id="de0e4-113">lastInviteID</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-114">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="de0e4-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-115">最後に使用された招待 ID。</span><span class="sxs-lookup"><span data-stu-id="de0e4-115">Last used invite ID.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="31f8c-115">Keys</span><span class="sxs-lookup"><span data-stu-id="31f8c-115">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="de0e4-116">Keys</span><span class="sxs-lookup"><span data-stu-id="de0e4-116">Keys</span></span>
 
 <table>
 <colgroup>
@@ -80,18 +81,18 @@ ms.locfileid: "48523794"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="31f8c-116">列</span><span class="sxs-lookup"><span data-stu-id="31f8c-116">Column</span></span></th>
-<th><span data-ttu-id="31f8c-117">説明</span><span class="sxs-lookup"><span data-stu-id="31f8c-117">Description</span></span></th>
+<th><span data-ttu-id="de0e4-117">列</span><span class="sxs-lookup"><span data-stu-id="de0e4-117">Column</span></span></th>
+<th><span data-ttu-id="de0e4-118">説明</span><span class="sxs-lookup"><span data-stu-id="de0e4-118">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="31f8c-118">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="31f8c-118">prinID</span></span></p></td>
-<td><p><span data-ttu-id="31f8c-119">主キー。</span><span class="sxs-lookup"><span data-stu-id="31f8c-119">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-119">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="de0e4-119">prinID</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-120">主キー。</span><span class="sxs-lookup"><span data-stu-id="de0e4-120">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="31f8c-120">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="31f8c-120">prinID</span></span></p></td>
-<td><p><span data-ttu-id="31f8c-121">tblPrincipal.prinID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="31f8c-121">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-121">Tblprincipal.prinid</span><span class="sxs-lookup"><span data-stu-id="de0e4-121">prinID</span></span></p></td>
+<td><p><span data-ttu-id="de0e4-122">tblPrincipal.prinID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="de0e4-122">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -99,10 +100,10 @@ ms.locfileid: "48523794"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="31f8c-122">関連項目</span><span class="sxs-lookup"><span data-stu-id="31f8c-122">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="de0e4-123">関連項目</span><span class="sxs-lookup"><span data-stu-id="de0e4-123">See Also</span></span>
 
 
-[<span data-ttu-id="31f8c-123">Lync Server 2013 のそして tblprincipalinvites</span><span class="sxs-lookup"><span data-stu-id="31f8c-123">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)  
+[<span data-ttu-id="de0e4-124">Lync Server 2013 のそして tblprincipalinvites</span><span class="sxs-lookup"><span data-stu-id="de0e4-124">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)  
   
 
 </div>

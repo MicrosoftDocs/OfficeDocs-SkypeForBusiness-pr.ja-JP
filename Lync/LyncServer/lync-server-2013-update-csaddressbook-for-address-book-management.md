@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: アドレス帳管理の Update-CsAddressBook'
+description: 'Lync Server 2013: アドレス帳管理用に Update-CsAddressBook します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fdbef7a3826a734262a77aa39fb2ce32e547463
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4adc7f94e2f31f64f6517b8cdf9bbcb0649f6c8b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527704"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546243"
 ---
-# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="71079-102">Lync Server 2013 でのアドレス帳管理の Update-CsAddressBook</span><span class="sxs-lookup"><span data-stu-id="71079-102">Update-CsAddressBook for Address Book management in Lync Server 2013</span></span>
+# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="5dde9-103">Lync Server 2013 でのアドレス帳管理の Update-CsAddressBook</span><span class="sxs-lookup"><span data-stu-id="5dde9-103">Update-CsAddressBook for Address Book management in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48527704"
 
 <span> </span>
 
-<span data-ttu-id="71079-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="71079-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="5dde9-104">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="5dde9-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="71079-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが、Update-CsAddressBook コマンドレットをローカルで実行することを承認されています。 RTCUniversalUserAdmins、RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="71079-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Update-CsAddressBook cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="5dde9-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが、Update-CsAddressBook コマンドレットをローカルで実行することを承認されています。 RTCUniversalUserAdmins、RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="5dde9-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Update-CsAddressBook cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Update-CsAddressBook"}
 
-<span data-ttu-id="71079-p102">Update-CsAddressBook コマンドレットは、Office Communications Server の **abserver.exe –syncNow** コマンドの代わりに使用されます。 このコマンドレットの目的は、スケジュールされた時間を待機することなくすぐに同期を開始することです。 最初の例のコマンドは、組織のすべてのアドレス帳を更新します。 2 番目のコマンドは、定義されたサーバーに関連付けられたアドレス帳だけを更新します。</span><span class="sxs-lookup"><span data-stu-id="71079-p102">The Update-CsAddressBook cmdlet replaces the **abserver.exe –syncNow** command from Office Communications Server. The cmdlet’s purpose is to initiate a synchronization immediately rather than waiting for the scheduled time. The first example command updates all Address Books in the organization. The second updates only the Address Book associated with the defined server.</span></span>
+<span data-ttu-id="5dde9-p102">Update-CsAddressBook コマンドレットは、Office Communications Server の **abserver.exe –syncNow** コマンドの代わりに使用されます。 このコマンドレットの目的は、スケジュールされた時間を待機することなくすぐに同期を開始することです。 最初の例のコマンドは、組織のすべてのアドレス帳を更新します。 2 番目のコマンドは、定義されたサーバーに関連付けられたアドレス帳だけを更新します。</span><span class="sxs-lookup"><span data-stu-id="5dde9-p102">The Update-CsAddressBook cmdlet replaces the **abserver.exe –syncNow** command from Office Communications Server. The cmdlet’s purpose is to initiate a synchronization immediately rather than waiting for the scheduled time. The first example command updates all Address Books in the organization. The second updates only the Address Book associated with the defined server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="71079-110">Lync Server 2013 の Lync Server ユーザーレプリケーターは、Active Directory から変更を取得し、構成された間隔に基づいて Lync Server ユーザーデータベースを更新します。</span><span class="sxs-lookup"><span data-stu-id="71079-110">In Lync Server 2013, Lync Server User Replicator will pick up the changes from Active Directory and update the Lync Server user database based on a configured interval.</span></span> <span data-ttu-id="71079-111">Lync Server ユーザーレプリケーターでは、管理者が Update-csaddressbook を実行しなくても、変更内容が RTCab データベースに迅速に伝達されます。</span><span class="sxs-lookup"><span data-stu-id="71079-111">Lync Server User Replicator will also propagate the changes to the RTCab database quickly without the administrator having to run Update-CSAddressBook.</span></span> <span data-ttu-id="71079-112">アドレス帳ファイルのダウンロードが有効になっている場合にのみ、管理者は Update-csaddressbook を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="71079-112">Administrators will only need to run Update -CSAddressBook if the Address Book file download is enabled.</span></span>
+> <span data-ttu-id="5dde9-111">Lync Server 2013 の Lync Server ユーザーレプリケーターは、Active Directory から変更を取得し、構成された間隔に基づいて Lync Server ユーザーデータベースを更新します。</span><span class="sxs-lookup"><span data-stu-id="5dde9-111">In Lync Server 2013, Lync Server User Replicator will pick up the changes from Active Directory and update the Lync Server user database based on a configured interval.</span></span> <span data-ttu-id="5dde9-112">Lync Server ユーザーレプリケーターでは、管理者が Update-csaddressbook を実行しなくても、変更内容が RTCab データベースに迅速に伝達されます。</span><span class="sxs-lookup"><span data-stu-id="5dde9-112">Lync Server User Replicator will also propagate the changes to the RTCab database quickly without the administrator having to run Update-CSAddressBook.</span></span> <span data-ttu-id="5dde9-113">アドレス帳ファイルのダウンロードが有効になっている場合にのみ、管理者は Update-csaddressbook を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5dde9-113">Administrators will only need to run Update -CSAddressBook if the Address Book file download is enabled.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="71079-113">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="71079-113">For example:</span></span>
+<span data-ttu-id="5dde9-114">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="5dde9-114">For example:</span></span>
 
    ```PowerShell
     Update-CsAddressBook
@@ -67,10 +68,10 @@ ms.locfileid: "48527704"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="71079-114">関連項目</span><span class="sxs-lookup"><span data-stu-id="71079-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5dde9-115">関連項目</span><span class="sxs-lookup"><span data-stu-id="5dde9-115">See Also</span></span>
 
 
-[<span data-ttu-id="71079-115">Update-csaddressbook</span><span class="sxs-lookup"><span data-stu-id="71079-115">Update-CsAddressBook</span></span>](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)  
+[<span data-ttu-id="5dde9-116">Update-csaddressbook</span><span class="sxs-lookup"><span data-stu-id="5dde9-116">Update-CsAddressBook</span></span>](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)  
   
 
 </div>

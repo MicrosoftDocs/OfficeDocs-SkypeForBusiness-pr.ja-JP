@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: アドレス帳管理の Test-CsAddressBookService'
+description: 'Lync Server 2013: アドレス帳管理用に Test-CsAddressBookService します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185206
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04ca485e8a17a5017537b9d568ec948de170a323
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 345886c68c814534fcbfd4debfd3be8562fae5a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519264"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547453"
 ---
-# <a name="test-csaddressbookservice-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="e8a05-102">Lync Server 2013 でのアドレス帳管理の Test-CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="e8a05-102">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>
+# <a name="test-csaddressbookservice-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="6716f-103">Lync Server 2013 でのアドレス帳管理の Test-CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="6716f-103">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,24 +38,24 @@ ms.locfileid: "48519264"
 
 <span> </span>
 
-<span data-ttu-id="e8a05-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e8a05-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="6716f-104">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6716f-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="e8a05-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが Test-CsAddressBookService コマンドレットの実行を承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="e8a05-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Test-CsAddressBookService cmdlet: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="6716f-p101">このコマンドレットを実行できる人は次のとおりです。 既定では、次のグループのメンバーが Test-CsAddressBookService コマンドレットの実行を承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="6716f-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Test-CsAddressBookService cmdlet: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-<span data-ttu-id="e8a05-106">Lync Server 2013 には、固有の機能が正しく動作していることを確認するために、合成コマンドを開始する多数のコマンドレットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="e8a05-106">Lync Server 2013 contains a number of cmdlets that initiate synthetic commands to confirm that a specific function or feature is working properly.</span></span> <span data-ttu-id="e8a05-107">Test-CsAddressBookService は、定義されたユーザーがアドレス帳 Web サービスから接続して、ローカルファイルを要求できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="e8a05-107">Test-CsAddressBookService confirms that a defined user can connect and request the local files from the Address Book Web service.</span></span>
+<span data-ttu-id="6716f-107">Lync Server 2013 には、固有の機能が正しく動作していることを確認するために、合成コマンドを開始する多数のコマンドレットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="6716f-107">Lync Server 2013 contains a number of cmdlets that initiate synthetic commands to confirm that a specific function or feature is working properly.</span></span> <span data-ttu-id="6716f-108">Test-CsAddressBookService は、定義されたユーザーがアドレス帳 Web サービスから接続して、ローカルファイルを要求できることを確認します。</span><span class="sxs-lookup"><span data-stu-id="6716f-108">Test-CsAddressBookService confirms that a defined user can connect and request the local files from the Address Book Web service.</span></span>
 
-<span data-ttu-id="e8a05-108">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="e8a05-108">For example:</span></span>
+<span data-ttu-id="6716f-109">次にその例を示します。</span><span class="sxs-lookup"><span data-stu-id="6716f-109">For example:</span></span>
 
     Test-CsAddressBookService -TargetFqdn atl-cs-001.contoso.com -UserCredential contoso\bob -UserSipAddress "sip:bob@contoso.com"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e8a05-109">関連項目</span><span class="sxs-lookup"><span data-stu-id="e8a05-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6716f-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="6716f-110">See Also</span></span>
 
 
-[<span data-ttu-id="e8a05-110">Test-CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="e8a05-110">Test-CsAddressBookService</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)  
+[<span data-ttu-id="6716f-111">Test-CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="6716f-111">Test-CsAddressBookService</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)  
   
 
 </div>

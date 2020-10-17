@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server の Windows Update'
+description: 'Lync Server 2013: Lync Server の Windows Update。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f537e8cea8f3bf4cc08afe89de21e06f1c671d52
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fe4b6d201a35584fceae5628b91631b48b30faae
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535294"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546063"
 ---
-# <a name="windows-update-for-lync-server-2013"></a><span data-ttu-id="35988-102">Lync Server 2013 の Windows Update</span><span class="sxs-lookup"><span data-stu-id="35988-102">Windows Update for Lync Server 2013</span></span>
+# <a name="windows-update-for-lync-server-2013"></a><span data-ttu-id="22439-103">Lync Server 2013 の Windows Update</span><span class="sxs-lookup"><span data-stu-id="22439-103">Windows Update for Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48535294"
 
 <span> </span>
 
-<span data-ttu-id="35988-103">_**トピックの最終更新日:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="35988-103">_**Topic Last Modified:** 2013-12-05_</span></span>
+<span data-ttu-id="22439-104">_**トピックの最終更新日:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="22439-104">_**Topic Last Modified:** 2013-12-05_</span></span>
 
-<span data-ttu-id="35988-104">Windows Update サービスを使用して、更新プログラムおよびセキュリティ更新プログラムの確認と適用を頻繁に行ってください。</span><span class="sxs-lookup"><span data-stu-id="35988-104">Frequently check for and apply updates and security updates using Windows Update Services.</span></span> <span data-ttu-id="35988-105">これにより、管理者権限を持つ Microsoft Lync Server 2013 を実行しているサーバーにアクセスでき、Lync Server 2013 を侵害する可能性がある他のシステムコンポーネントの脆弱性を防ぐことができます。</span><span class="sxs-lookup"><span data-stu-id="35988-105">Doing so helps prevents vulnerabilities in other system components that might lead to attackers being able to gain access to servers running Microsoft Lync Server 2013 with administrator rights and thereby compromise Lync Server 2013.</span></span>
+<span data-ttu-id="22439-105">Windows Update サービスを使用して、更新プログラムおよびセキュリティ更新プログラムの確認と適用を頻繁に行ってください。</span><span class="sxs-lookup"><span data-stu-id="22439-105">Frequently check for and apply updates and security updates using Windows Update Services.</span></span> <span data-ttu-id="22439-106">これにより、管理者権限を持つ Microsoft Lync Server 2013 を実行しているサーバーにアクセスでき、Lync Server 2013 を侵害する可能性がある他のシステムコンポーネントの脆弱性を防ぐことができます。</span><span class="sxs-lookup"><span data-stu-id="22439-106">Doing so helps prevents vulnerabilities in other system components that might lead to attackers being able to gain access to servers running Microsoft Lync Server 2013 with administrator rights and thereby compromise Lync Server 2013.</span></span>
 
-<span data-ttu-id="35988-106">Microsoft SQL Server 2008 Express (64 ビット版) の更新プログラムは、各 Lync Server 2013 Standard Edition サーバー (バックエンドデータベースの場合) およびその他のすべての Lync Server 2013 サーバーロール (ローカル構成ストアの場合) で実行されます (このデータベースを SQL Server の 2008 R2 Express にアップグレードしている場合を除く)。</span><span class="sxs-lookup"><span data-stu-id="35988-106">Updates for Microsoft SQL Server 2008 Express (64-bit edition) runs on each Lync Server 2013 Standard Edition server (for the back-end database) and on all other Lync Server 2013 server roles (for the Local Configuration Store), unless you have upgraded these databases to SQL Server 2008 R2 Express.</span></span> <span data-ttu-id="35988-107">このようなデータベースは、フロントエンドプールのバックエンドデータベース、監視データベース、およびアーカイブデータベースに SQL Server が必要となるように、定期的なセキュリティ更新プログラムの保守の一部として考慮する必要があります。</span><span class="sxs-lookup"><span data-stu-id="35988-107">You should consider these databases as part of routine security update maintenance, as should SQL Server on the back-end database of a Front End pool, the Monitoring database, and the Archiving database.</span></span>
+<span data-ttu-id="22439-107">Microsoft SQL Server 2008 Express (64 ビット版) の更新プログラムは、各 Lync Server 2013 Standard Edition サーバー (バックエンドデータベースの場合) およびその他のすべての Lync Server 2013 サーバーロール (ローカル構成ストアの場合) で実行されます (このデータベースを SQL Server の 2008 R2 Express にアップグレードしている場合を除く)。</span><span class="sxs-lookup"><span data-stu-id="22439-107">Updates for Microsoft SQL Server 2008 Express (64-bit edition) runs on each Lync Server 2013 Standard Edition server (for the back-end database) and on all other Lync Server 2013 server roles (for the Local Configuration Store), unless you have upgraded these databases to SQL Server 2008 R2 Express.</span></span> <span data-ttu-id="22439-108">このようなデータベースは、フロントエンドプールのバックエンドデータベース、監視データベース、およびアーカイブデータベースに SQL Server が必要となるように、定期的なセキュリティ更新プログラムの保守の一部として考慮する必要があります。</span><span class="sxs-lookup"><span data-stu-id="22439-108">You should consider these databases as part of routine security update maintenance, as should SQL Server on the back-end database of a Front End pool, the Monitoring database, and the Archiving database.</span></span>
 
 <div>
 
-## <a name="best-practice"></a><span data-ttu-id="35988-108">ベスト プラクティス</span><span class="sxs-lookup"><span data-stu-id="35988-108">Best Practice</span></span>
+## <a name="best-practice"></a><span data-ttu-id="22439-109">ベスト プラクティス</span><span class="sxs-lookup"><span data-stu-id="22439-109">Best Practice</span></span>
 
-  - <span data-ttu-id="35988-109">Windows Update を使用して、コンピューターを常に最新の状態に保ちます。</span><span class="sxs-lookup"><span data-stu-id="35988-109">Keep current with Windows Update.</span></span>
+  - <span data-ttu-id="22439-110">Windows Update を使用して、コンピューターを常に最新の状態に保ちます。</span><span class="sxs-lookup"><span data-stu-id="22439-110">Keep current with Windows Update.</span></span>
 
 </div>
 
