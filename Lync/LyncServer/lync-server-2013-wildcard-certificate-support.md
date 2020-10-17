@@ -12,20 +12,22 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998787b3f052d2271eb2323bcdb71ddc106b57f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d639ba422bde7b936bd58ff58abae47ea365bb70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210233"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508524"
 ---
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Lync Server 2013 でのワイルドカード証明書のサポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Lync Server 2013 でのワイルドカード証明書のサポート
+
 
 </div>
 
@@ -52,25 +54,25 @@ Lync Server 2013 は、証明書を使用して通信の暗号化とサーバー
 サブジェクト名 (共通名 (CN) ともいいます) としてのワイルドカード エントリは、どの役割でもサポートされません。SAN のワイルドカード エントリ使用は、次のサーバーの役割でサポートされます。
 
   - <span></span>  
-    **リバースプロキシ。**   簡単な URL (会議とダイヤルイン) 発行証明書では、ワイルドカード SAN エントリがサポートされています。
+    **リバースプロキシ。**    簡単な URL (会議とダイヤルイン) 発行証明書では、ワイルドカード SAN エントリがサポートされています。
 
   - <span></span>  
-    **リバースプロキシ。**   発行証明書の LYNCDISCOVER の san エントリでは、ワイルドカード san エントリがサポートされています。
+    **リバースプロキシ。**    発行証明書の LyncDiscover の SAN エントリでは、ワイルドカード SAN エントリがサポートされています。
 
   - <span></span>  
-    **ディレクター。**   シンプルな url (会議とダイヤルイン)、およびディレクター web コンポーネントの LyncDiscover および LYNCDISCOVERINTERNAL の san エントリに対して、ワイルドカード SAN エントリがサポートされています。
+    **ディレクター。**    シンプルな Url (会議とダイヤルイン)、およびディレクター web コンポーネントの LyncDiscover および LyncDiscoverInternal の SAN エントリに対して、ワイルドカード SAN エントリがサポートされています。
 
   - <span></span>  
     **フロントエンドサーバー (Standard Edition) およびフロントエンドプール (Enterprise Edition)。** 簡単な Url (会議とダイヤルイン)、およびフロントエンド web コンポーネントの LyncDiscover および LyncDiscoverInternal の SAN エントリに対して、ワイルドカード SAN エントリがサポートされています。
 
   - <span></span>  
-    **Exchange ユニファイドメッセージング (UM)。**   スタンドアロンサーバーとして展開されている場合、サーバーは SAN エントリを使用しません。
+    **Exchange ユニファイドメッセージング (UM)。**    スタンドアロンサーバーとして展開されている場合、サーバーは SAN エントリを使用しません。
 
   - <span></span>  
-    **Microsoft Exchange Server クライアントアクセスサーバー。**   SAN のワイルドカードエントリは、内部クライアントと外部クライアントでサポートされています。
+    **Microsoft Exchange Server クライアントアクセスサーバー。**    SAN のワイルドカードエントリは、内部クライアントと外部クライアントでサポートされています。
 
   - <span></span>  
-    **同じサーバー上の exchange ユニファイドメッセージング (UM) と Microsoft Exchange Server クライアントアクセスサーバー。**   ワイルドカード SAN エントリがサポートされています。
+    **同じサーバー上の Exchange ユニファイドメッセージング (UM) と Microsoft Exchange Server クライアントアクセスサーバー。**    ワイルドカード SAN エントリがサポートされています。
 
 次のサーバーの役割は、このトピックの対象外です。
 

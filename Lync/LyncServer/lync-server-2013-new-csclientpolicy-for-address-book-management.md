@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: アドレス帳管理用の新しい CsClientPolicy'
+title: 'Lync Server 2013: アドレス帳管理の New-CsClientPolicy'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30ee2dff06f2881906793043f1dc039f57919a67
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a253fb46dfdfe63957efa97ffa68d97ead65ed87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508824"
 ---
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理の New-CsClientPolicy
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳管理用の新しい-CsClientPolicy
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42216963"
 
 _**トピックの最終更新日:** 2012-11-01_
 
-このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーが新しい-CsClientPolicy コマンドレットを実行することを承認されています: RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
+このコマンドレットを実行できるユーザー: 既定では、次のグループのメンバーが、New-CsClientPolicy コマンドレットを実行することを承認されています。 RTCUniversalServerAdmins。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻すには、Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-コマンドレットの新しい Clientpolicy は、Lync Server 2013 で利用可能な機能のためのクライアントプロビジョニングのための多数の設定を定義します。 アドレス帳サービスの場合、関心の対象は AddressBookAvailability パラメーターです。 クライアントが利用できるオプションに直接影響するこのパラメーターには、次に示す 3 つの設定可能なオプションがあります。
+コマンドレット New-CsClientPolicy は、Lync Server 2013 で利用可能な機能のためのプロビジョニングクライアントに対して多数の設定を定義します。 アドレス帳サービスの場合、関心の対象は AddressBookAvailability パラメーターです。 クライアントが利用できるオプションに直接影響するこのパラメーターには、次に示す 3 つの設定可能なオプションがあります。
 
   - WebSearchAndFileDownload
 

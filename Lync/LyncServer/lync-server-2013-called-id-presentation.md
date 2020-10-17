@@ -12,20 +12,22 @@ ms:contentKeyID: 49733826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea49c91269c0a9c4f74a1a226462fbda26aa2af4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dddb1902422cb3efc52f4f0b3271976ab9b9950e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188010"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508224"
 ---
+# <a name="called-id-presentation-in-lync-server-2013"></a>Lync Server 2013 での ID のプレゼンテーションの呼び出し
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="called-id-presentation-in-lync-server-2013"></a>Lync Server 2013 での ID のプレゼンテーションの呼び出し
+
 
 </div>
 
@@ -51,7 +53,7 @@ Lync Server 2010 では、発信者の電話番号 (と呼ばれる電話番号)
 
 次のいずれかの方法を使用して、変換ルールを作成または変更できます。
 
-  - [**変換ルールの構築**] ツールを使用して、先頭の数字、長さ、削除する数字、追加する数字の値を指定し、Lync Server コントロールパネルで対応する一致パターンと変換ルールを生成できるようにします。
+  - [ **変換ルールの構築** ] ツールを使用して、先頭の数字、長さ、削除する数字、追加する数字の値を指定し、Lync Server コントロールパネルで対応する一致パターンと変換ルールを生成できるようにします。
 
   - 正規表現を手動で記述し、一致パターンと変換ルールを定義する。
 
@@ -59,7 +61,7 @@ Lync Server 2010 では、発信者の電話番号 (と呼ばれる電話番号)
 
 
 > [!NOTE]  
-> 正規表現を記述する方法については、「」の「.NET Framework <A href="https://go.microsoft.com/fwlink/p/?linkid=140927">https://go.microsoft.com/fwlink/p/?linkId=140927</A>正規表現」を参照してください。
+> 正規表現を記述する方法については、「」の「.NET Framework 正規表現」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=140927">https://go.microsoft.com/fwlink/p/?linkId=140927</A> 。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41e871e3023449123af76530659397e1faa6b51d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d773658b17d846409e303c23204f86ea1f0fce77
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195940"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507674"
 ---
+# <a name="configure-a-static-route-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013 でリモート通話コントロールの静的ルートを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-static-route-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013 でリモート通話コントロールの静的ルートを構成する
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-09-22_
 
 ## <a name="to-configure-a-static-route-for-remote-call-control"></a>リモート通話コントロール用の静的ルートを構成するには
 
-1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバー、または、**新しい-CsStaticRoute**コマンドレットを割り当てた役割ベースのアクセス制御 (RBAC) の役割のメンバーとしてログオンします。
+1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバー、または、 **新しい-CsStaticRoute** コマンドレットを割り当てた役割ベースのアクセス制御 (RBAC) の役割のメンバーとしてログオンします。
 
 2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 

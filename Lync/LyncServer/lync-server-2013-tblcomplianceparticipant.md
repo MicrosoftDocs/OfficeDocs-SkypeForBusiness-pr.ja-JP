@@ -12,20 +12,22 @@ ms:contentKeyID: 48184262
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38d4a47f3778e2343685a993378d97cc37c827a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d6ce992f7a36bd5ce731f26dcb5dbfac0e2acae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509434"
 ---
+# <a name="tblcomplianceparticipant-in-lync-server-2013"></a>Lync Server 2013 の tblComplianceParticipant
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblcomplianceparticipant-in-lync-server-2013"></a>Lync Server 2013 の tblComplianceParticipant
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-12_
 
 tblComplianceParticipant には、現在の参加者がチャネルおよびサーバー別に格納されます。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>段組み
 
 <table>
 <colgroup>
@@ -49,7 +51,7 @@ tblComplianceParticipant には、現在の参加者がチャネルおよびサ�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>種類</th>
 <th>説明</th>
 </tr>

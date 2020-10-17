@@ -12,20 +12,22 @@ ms:contentKeyID: 48184483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 612b872e0071e2ad3fa2d4d064048805a4e65953
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d7b1f9436695c5bd455c376d9c75add996be28f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198550"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508944"
 ---
+# <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a>Lync Server 2013 での Lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a>Lync Server 2013 での Lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 
 > [!NOTE]  
-> 外部ユーザー アクセスをサポートするには、サポートする各種類の外部ユーザー アクセスのサポートを有効にし、適切なポリシーとその他の使用制御オプションを構成する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-support-for-external-user-access.md">Lync server 2013 での外部ユーザーアクセスのサポートの構成</A>」または「操作」のドキュメントの「 <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">lync server 2013 へのフェデレーションと外部アクセスの管理</A>」を参照してください。
+> 外部ユーザー アクセスをサポートするには、サポートする各種類の外部ユーザー アクセスのサポートを有効にし、適切なポリシーとその他の使用制御オプションを構成する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-support-for-external-user-access.md">Lync server 2013 での外部ユーザーアクセスのサポートの構成</A> 」または「操作」のドキュメントの「 <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">lync server 2013 へのフェデレーションと外部アクセスの管理</A> 」を参照してください。
 
 
 
@@ -69,7 +71,7 @@ _**トピックの最終更新日:** 2013-02-22_
     
 
     > [!NOTE]  
-    > [ <STRONG> &lt;自動&gt; </STRONG> ] 設定では、既定のサーバーまたはグローバルポリシーの設定が適用されます。
+    > [ <STRONG> &lt; 自動 &gt; </STRONG> ] 設定では、既定のサーバーまたはグローバルポリシーの設定が適用されます。
 
     
     </div>
@@ -78,9 +80,9 @@ _**トピックの最終更新日:** 2013-02-22_
 
 <div>
 
-## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したユーザー単位の外部アクセスポリシーの割り当て
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した Per-User 外部アクセスポリシーの割り当て
 
-ユーザー単位の外部アクセスポリシーは、Windows PowerShell と Get-csexternalaccesspolicy コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+ユーザー単位の外部アクセスポリシーは、Windows PowerShell と Grant-CsExternalAccessPolicy コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -96,7 +98,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>ユーザーごとの外部アクセスポリシーを複数のユーザーに割り当てるには
 
-  - 次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。 このコマンドで使用されている OU パラメーターの詳細については、「 [Get-help user](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)コマンドレットのドキュメント」を参照してください。
+  - 次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。 このコマンドで使用されている OU パラメーターの詳細については、「 [Get-help user](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) コマンドレットのドキュメント」を参照してください。
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -112,7 +114,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 </div>
 
-詳細については、 [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

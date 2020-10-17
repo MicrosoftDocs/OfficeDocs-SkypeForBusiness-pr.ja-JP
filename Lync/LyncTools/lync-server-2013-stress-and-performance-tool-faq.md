@@ -12,20 +12,22 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 590453f6270ebcd2beebbb26b8035f9e33cc2cd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 445448633bc35b8071455ccd0c8e6ff93c3862b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196190"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509214"
 ---
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Lync Server 2013 ストレスおよびパフォーマンスツールの FAQ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Lync Server 2013 ストレスおよびパフォーマンスツールの FAQ
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2013-02-24_
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>LyncPerfTool を運用環境で実行できますか?
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>LyncPerfTool.exe を運用環境で実行できますか?
 
 この方法はお勧めしません。 このツールは、サーバーのパフォーマンス、セキュリティ、およびユーザーの操作に影響を与えます。
 
@@ -85,7 +87,7 @@ _**トピックの最終更新日:** 2013-02-24_
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>仮想サーバー上または Microsoft Hyper-v Server 2008/2012 上で LyncPerfTool を実行できますか。
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>仮想サーバー上または Microsoft Hyper-v Server 2008/2012 上で LyncPerfTool.exe を実行できますか。
 
 はい。
 
@@ -95,13 +97,13 @@ _**トピックの最終更新日:** 2013-02-24_
 
 ## <a name="what-does-mpop-mean"></a>MPOP の意味
 
-MPOP は、複数のプレゼンスポイントを表します。 これは、ユーザーが複数のコンピューターから Lync 2013 にログオンしているシナリオをシミュレートすることを目的としています。 LyncPerfTool では、各エンドポイントが既定のプロファイルを使用しています (つまり、プロファイルが2つのプレゼンス間で分割されていないことに注意してください)。
+MPOP は、複数のプレゼンスポイントを表します。 これは、ユーザーが複数のコンピューターから Lync 2013 にログオンしているシナリオをシミュレートすることを目的としています。 LyncPerfTool.exe では、各エンドポイントが既定のプロファイルを使用していることに注意してください (つまり、プロファイルは2つのプレゼンス間で分割されていません)。
 
 </div>
 
 <div>
 
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>LyncPerfTool を開始しましたが、何も起きていません。 どうなっているのですか。
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>LyncPerfTool.exe を開始しましたが、何も起きていません。 どうなっているのですか。
 
 ユーザーが接続しているかどうかを確認するには、クライアントの [アクティブなエンドポイントの合計数」カウンターを確認します。 ユーザーが接続していない場合は、Lync Server 2013 の構成を確認します。 通常、この問題は、サーバー名、ユーザーのプレフィックス、またはパスワードが正しくないことが原因で発生します。 外部クライアントでは、TargetServer 値としてアクセスプロキシを指定する必要があることに注意してください。 構成ファイルのポートを確認します。
 

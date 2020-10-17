@@ -12,20 +12,22 @@ ms:contentKeyID: 48184395
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfae4aef6e6f5ec0a33fe64d42ea7bfd093badee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3f536f2d67010856259abf6b98936cd9e096fc93
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208410"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509624"
 ---
+# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Lync Server 2013 の SQL Server データとログファイルの配置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a>Lync Server 2013 の SQL Server データとログファイルの配置
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208410"
 
 _**トピックの最終更新日:** 2013-02-21_
 
-Lync Server 2013 フロントエンドプールのための Microsoft SQL Server 2012 または Microsoft SQL Server 2008 R2 SP1 の計画と展開では、パフォーマンスを向上するために、データファイルとログファイルを物理ハードディスクに配置することが重要な考慮事項です。 推奨されるディスク構成は、6スピンドルを使用して 1 + 0 RAID セットを実装することです。 Lync Server を使用して、フロントエンドプールと関連付けられているサーバーの役割およびサービス (つまり、アーカイブおよび監視サーバー、Lync Server Response Group service、Lync Server Call パーク service) によって使用されるすべてのデータベースおよびログファイルを RAID ドライブセットに配置する展開ウィザードによって、良好なパフォーマンスをテストした構成が結果として得られます。 データベース ファイルとその役割の詳細を次の表に示します。
+Lync Server 2013 フロントエンドプールのための Microsoft SQL Server 2012 または Microsoft SQL Server 2008 R2 SP1 の計画と展開では、パフォーマンスを向上するために、データファイルとログファイルを物理ハードディスクに配置することが重要な考慮事項です。 推奨されるディスク構成は、6スピンドルを使用して 1 + 0 RAID セットを実装することです。 [Lync Server 展開ウィザード] を使用して、フロントエンドプールによって使用されるすべてのデータベースとログファイル、および関連するサーバーの役割とサービス (つまり、アーカイブおよび監視サーバー、Lync server Response Group service、Lync Server コールパークサービス) を RAID ドライブセットに配置すると、良好なパフォーマンスをテストした構成になります。 データベース ファイルとその役割の詳細を次の表に示します。
 
 <div>
 

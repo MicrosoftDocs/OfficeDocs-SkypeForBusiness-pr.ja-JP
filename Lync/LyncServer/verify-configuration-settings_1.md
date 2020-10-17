@@ -12,20 +12,22 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1e1ad498f25656e01507e55c41d98ff4bb9143b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755601"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508414"
 ---
+# <a name="verify-configuration-settings"></a>構成の設定を確認する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-configuration-settings"></a>構成の設定を確認する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755601"
 
 _**トピックの最終更新日:** 2012-09-28_
 
-トポロジをマージし、 **import-cslegacyconfiguration**コマンドレットを実行した後、Office Communications Server 2007 R2 のポリシーと設定が Lync Server 2013 にインポートされたことを確認します。 次の表に、確認が必要なポリシーと設定を示します。
+トポロジをマージし、 **import-cslegacyconfiguration** コマンドレットを実行した後、Office Communications Server 2007 R2 のポリシーと設定が Lync Server 2013 にインポートされたことを確認します。 次の表に、確認が必要なポリシーと設定を示します。
 
 <div>
 
@@ -99,13 +101,13 @@ _**トピックの最終更新日:** 2012-09-28_
 
 2.  Lync Server 2013 のフロントエンドサーバーで、[Lync Server コントロールパネル] を開きます。
 
-3.  インポートされた電話会議ポリシーを確認するには、左側のウィンドウで [**会議**] をクリックし、[**会議ポリシー**] をクリックして、Office Communications Server 2007 R2 環境のすべての電話会議ポリシーがリストに含まれていることを確認します。
+3.  インポートされた電話会議ポリシーを確認するには、左側のウィンドウで [ **会議**] をクリックし、[ **会議ポリシー**] をクリックして、Office Communications Server 2007 R2 環境のすべての電話会議ポリシーがリストに含まれていることを確認します。
     
     <div>
     
 
     > [!NOTE]  
-    > 以前のバージョンの Office Communications Server からの<STRONG>会議</STRONG>ポリシーは、Lync Server 2013 の会議ポリシーと呼ばれるようになりました。 さらに、以前のバージョンの Office Communications Server からの<STRONG>匿名</STRONG>の管理設定は、Lync Server 2013 の電話会議ポリシーの設定になっています。
+    > 以前のバージョンの Office Communications Server からの <STRONG>会議</STRONG> ポリシーは、Lync Server 2013 の会議ポリシーと呼ばれるようになりました。 さらに、以前のバージョンの Office Communications Server からの <STRONG>匿名</STRONG> の管理設定は、Lync Server 2013 の電話会議ポリシーの設定になっています。
 
     
     </div>
@@ -114,7 +116,7 @@ _**トピックの最終更新日:** 2012-09-28_
     
 
     > [!NOTE]  
-    > Office Communications Server 2007 R2 では、会議ポリシーが<STRONG>ユーザーごとに使用</STRONG>するように設定されていない場合は、グローバルポリシー設定のみがインポートされます。 この場合、他の会議ポリシーはインポートされません。
+    > Office Communications Server 2007 R2 では、会議ポリシーが <STRONG>ユーザーごとに使用</STRONG>するように設定されていない場合は、グローバルポリシー設定のみがインポートされます。 この場合、他の会議ポリシーはインポートされません。
 
     
     </div>
@@ -134,7 +136,7 @@ _**トピックの最終更新日:** 2012-09-28_
     
 
     > [!NOTE]  
-    > Lync Server 2013 では、<STRONG>場所のプロファイル</STRONG>が<STRONG>ダイヤルプラン</STRONG>と呼ばれるようになりました。
+    > Lync Server 2013 では、 <STRONG>場所のプロファイル</STRONG> が <STRONG>ダイヤルプラン</STRONG>と呼ばれるようになりました。
 
     
     </div>
@@ -145,7 +147,7 @@ _**トピックの最終更新日:** 2012-09-28_
     
 
     > [!NOTE]  
-    > 音声ポリシーが Office Communications Server 2007 R2 環境の<STRONG>ユーザーごとに使用</STRONG>するように設定されていない場合は、グローバルポリシー設定のみがインポートされます。 この場合、音声ポリシーはインポートされません。
+    > 音声ポリシーが Office Communications Server 2007 R2 環境の <STRONG>ユーザーごとに使用</STRONG> するように設定されていない場合は、グローバルポリシー設定のみがインポートされます。 この場合、音声ポリシーはインポートされません。
 
     
     </div>
@@ -156,7 +158,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 8.  インポートされた外部アクセス ポリシーを確認するには、[**フェデレーションと外部アクセス**] をクリックし、[**外部アクセス ポリシー**] をクリックして、Office Communicator 2007 R2 環境のすべての外部アクセス ポリシーがリストに含まれていることを確認します。
 
-9.  アーカイブポリシーを確認するには、[**監視とアーカイブ**] をクリックし、[**アーカイブポリシー**] をクリックして、Office Communications Server 2007 R2 環境のすべてのアーカイブポリシーがリストに含まれていることを確認します。
+9.  アーカイブポリシーを確認するには、[ **監視とアーカイブ**] をクリックし、[ **アーカイブポリシー**] をクリックして、Office Communications Server 2007 R2 環境のすべてのアーカイブポリシーがリストに含まれていることを確認します。
 
 10. Lync Server 管理シェルを開きます。
 

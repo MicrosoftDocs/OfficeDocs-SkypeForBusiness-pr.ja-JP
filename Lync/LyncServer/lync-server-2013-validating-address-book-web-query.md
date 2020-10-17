@@ -12,20 +12,22 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 548ec62a56de829955647a696e33578b9ab3dfd8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ae10fa68703393459a72eaab7236f214502a614
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212590"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508554"
 ---
+# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳 web クエリの検証
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Lync Server 2013 でのアドレス帳 web クエリの検証
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト-CsAddressBookWebQuery コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsAddressBookWebQuery コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookWebQuery&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Test-CsAddressBookWebQuery コマンドレットを使用すると、管理者は、ユーザーがアドレス帳 Web クエリサービスを使用して特定の連絡先を検索できることを確認できます。 コマンドレットを実行すると、最初に認証を行うために Web チケットサービスに接続されます。 認証が成功した場合、コマンドレットはアドレス帳 Web クエリサービスに接続し、指定された連絡先を検索します。 その連絡先が見つかった場合、コマンドレットはその情報をローカルコンピューターに返します。 このテストは、これらの手順をすべて完了できる場合にのみ、成功としてマークされます。
+Test-CsAddressBookWebQuery コマンドレットを使用すると、管理者は、ユーザーがアドレス帳 Web クエリサービスを使用して特定の連絡先を検索できることを確認できます。 コマンドレットを実行すると、Test-CsAddressBookWebQuery によって最初に認証される Web チケットサービスに接続されます。 認証が成功した場合、コマンドレットはアドレス帳 Web クエリサービスに接続し、指定された連絡先を検索します。 その連絡先が見つかった場合、コマンドレットはその情報をローカルコンピューターに返します。 このテストは、これらの手順をすべて完了できる場合にのみ、成功としてマークされます。
 
-詳細については、「 [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -76,7 +78,7 @@ Test-CsAddressBookWebQuery コマンドレットを使用すると、管理者�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsAddressBookWebQuery コマンドレットは、事前に構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、Lync Server プールの FQDN と、検索の対象として機能するユーザーの SIP アドレスを指定する必要があります。 次に例を示します。
+Test-CsAddressBookWebQuery コマンドレットを実行するには、事前に構成されたテストアカウントを使用するか (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照)、Lync Server が有効になっているすべてのユーザーのアカウントを使用します。 このチェックをテストアカウントを使用して実行するには、Lync Server プールの FQDN と、検索の対象として機能するユーザーの SIP アドレスを指定する必要があります。 以下に例を示します。
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com"
 
@@ -85,7 +87,7 @@ Test-CsAddressBookWebQuery コマンドレットは、事前に構成された�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「 [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -95,7 +97,7 @@ Test-CsAddressBookWebQuery コマンドレットは、事前に構成された�
 
 指定したユーザーがアドレス帳サービスに接続して、対象のユーザーアドレスを取得できる場合は、次のような出力が返されます。 Result プロパティには、Success というマークが付けられています。
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -109,7 +111,7 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 指定したユーザーが接続できない場合、またはターゲットユーザーのアドレスを取得できない場合、結果は失敗として表示され、追加情報が Error および診断プロパティに記録されます。
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -123,15 +125,15 @@ NoEntryFound。
 
 分析
 
-前の出力には、ターゲットユーザーが見つからないためにテストが失敗したことが示されます。 次のようなコマンドを実行することにより、有効な SIP アドレスが Test-CsAddressBookWebQuery に渡されたかどうかを判断できます。
+前の出力には、ターゲットユーザーが見つからないためにテストが失敗したことが示されます。 有効な SIP アドレスが Test-CsAddressBookWebQuery に渡されたかどうかを確認するには、次のようなコマンドを実行します。
 
     Get-CsUser | Where-Object {$_.SipAddress -eq "sip:davidlongmire@litwareinc.com"
 
-Test-CsAddressBookWebQuery が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsAddressBookWebQuery が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -Verbose
 
-Verbose パラメーターを指定すると、指定されたユーザーが Lync Server にログオンできるかどうかを確認している間に実行しようとした各操作のステップごとのアカウントが返されます。 たとえば、次の出力は、Test-CsAddressBookWebQuery がアドレス帳サービスに接続できたが、対象の SIP アドレスを見つけられなかったことを示しています。
+Verbose パラメーターが含まれている場合、Test-CsAddressBookWebQuery は、指定されたユーザーが Lync Server にログオンできるかどうかを確認している間に試行された各アクションのステップごとの手順を返します。 たとえば、次の出力は、Test-CsAddressBookWebQuery がアドレス帳サービスに接続できたが、対象の SIP アドレスを特定できなかったことを示しています。
 
 ' QueryAddressBookWebService ' アクティビティを開始しました。
 
@@ -147,7 +149,7 @@ https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、Test-CsAddressBookWebQuery が失敗する主な理由を示します。
+Test-CsAddressBookWebQuery が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効なユーザーアカウントが指定されています。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     

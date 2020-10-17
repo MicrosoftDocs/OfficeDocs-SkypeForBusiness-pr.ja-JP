@@ -12,20 +12,22 @@ ms:contentKeyID: 51803962
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78332e2fa24c4f718cb3cdb3cbc9dc93a03601d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4bb2be4efad0467efafca88da8e0e1e627addb21
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188030"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508244"
 ---
+# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Lync Server 2013 での通話転送と着信の転送
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Lync Server 2013 での通話転送と着信の転送
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42188030"
 
 _**トピックの最終更新日:** 2013-03-09_
 
-PSTN エンドポイントが関係している場合は、場所に基づくルーティングによって、calle のエンドポイントの場所と、呼び出しが転送または転送されるエンドポイント (移行先および転送先) が分析されます。 場所に基づくルーティングは、両方のエンドポイントの場所に応じて、通話を転送または転送するかどうかを決定します。
+PSTN エンドポイントが関係している場合、Location-Based ルーティングによって、calle のエンドポイントの場所と、呼び出しが転送または転送されるエンドポイント (移行先と転送先) が分析されます。 Location-Based ルーティングは、両方のエンドポイントの場所に応じて、通話を転送するか転送するかを決定します。
 
-次の表は、PSTN エンドポイントを使用した通話での Lync ユーザーのシナリオと、Lync ユーザーが別の Lync ユーザーに通話を転送する例を示しています。 通話のエンドポイントのネットワークサイトの場所に応じて、場所に基づくルーティングは、呼び出し転送または転送のルーティングに影響します。
+次の表は、PSTN エンドポイントを使用した通話での Lync ユーザーのシナリオと、Lync ユーザーが別の Lync ユーザーに通話を転送する例を示しています。 通話のエンドポイントのネットワークサイトの場所に応じて、Location-Based ルーティングは、通話の転送または転送のルーティングに影響します。
 
 ### <a name="initiating-call-transfer-or-forward"></a>着信転送または転送の開始
 
@@ -55,7 +57,7 @@ PSTN エンドポイントが関係している場合は、場所に基づくル
 <th>着信転送/転送を開始するユーザー</th>
 <th>ターゲットエンドポイントが、着信転送または転送を開始したユーザーと同じネットワークサイトにある</th>
 <th>転送先エンドポイントが別のネットワークサイトにある場合に、着信転送または着信転送を開始します。</th>
-<th>ターゲットエンドポイントが不明なネットワークサイトにあるか、または場所に基づくルーティングが有効になっていないネットワークサイトにある</th>
+<th>ターゲットエンドポイントが不明なネットワークサイトにあるか、または Location-Based ルーティングで有効になっていないネットワークサイトにあります</th>
 </tr>
 </thead>
 <tbody>
@@ -72,7 +74,7 @@ PSTN エンドポイントが関係している場合は、場所に基づくル
 
 たとえば、PSTN エンドポイントを使用する Lync ユーザーは、同じネットワークサイトにある別の Lync ユーザーに通話を転送します。 この場合は、通話の転送が許可されます。
 
-次の表は、別の Lync ユーザーとの通話での Lync ユーザーのシナリオと、その通話を PSTN エンドポイントに転送するユーザーの1人を示しています。 呼び出しが転送されるユーザーの場所に応じて、場所に基づくルーティングが通話にどのような影響を与えるかについて、表で詳しく説明します。
+次の表は、別の Lync ユーザーとの通話での Lync ユーザーのシナリオと、その通話を PSTN エンドポイントに転送するユーザーの1人を示しています。 呼び出しが転送されるユーザーの場所に応じて、Location-Based ルーティングが通話に与える影響についての詳細を表に示します。
 
 ### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>PSTN エンドポイントへの着信転送または転送
 
@@ -88,7 +90,7 @@ PSTN エンドポイントが関係している場合は、場所に基づくル
 <th>着信転送/転送エンドポイントのターゲット</th>
 <th>同じネットワークサイト内の Lync ユーザー</th>
 <th>異なるネットワークサイトにある Lync ユーザー</th>
-<th>不明なネットワークサイトまたはネットワークサイト内の1つまたは両方の Lync ユーザーが、場所に基づいたルーティングを有効にしていません</th>
+<th>不明なネットワークサイトまたはネットワークサイト内の1つまたは両方の Lync ユーザーが、Location-Based ルーティングに対して有効になっていません</th>
 </tr>
 </thead>
 <tbody>
@@ -96,7 +98,7 @@ PSTN エンドポイントが関係している場合は、場所に基づくル
 <td><p>PSTN エンドポイント</p></td>
 <td><p>転送されたユーザーのサイトの音声ルーティングポリシーによって許可される通話転送または転送</p></td>
 <td><p>転送されたユーザーのサイトの音声ルーティングポリシーによって許可される通話転送または転送</p></td>
-<td><p>転送されたユーザーの音声ポリシーによって許可される通話転送または転送は、場所に基づいたルーティングでトランクが有効になっていません</p></td>
+<td><p>転送されたユーザーの音声ポリシーによって許可される通話転送または転送は、Location-Based ルーティングに対してトランクが有効になっていません。</p></td>
 </tr>
 </tbody>
 </table>
@@ -109,7 +111,7 @@ PSTN エンドポイントが関係している場合は、場所に基づくル
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013 での Location-Based ルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

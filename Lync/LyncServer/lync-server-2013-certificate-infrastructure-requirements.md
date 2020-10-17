@@ -12,20 +12,22 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e8c96c6b4ad5e19abf2d1f41024932c710786cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18666f33becabcbdf61370a32900ae7a4819e0cb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191050"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508024"
 ---
+# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 の証明書インフラストラクチャ要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 の証明書インフラストラクチャ要件
+
 
 </div>
 
@@ -59,7 +61,7 @@ Lync Server では、次の一般的な要件が適用されます。
 
   - すべてのサーバー証明書に CRL 配布ポイント (CDP) を含める必要がある。
 
-  - すべての証明書は、オペレーティングシステムでサポートされている署名アルゴリズムを使用して署名する必要があります。 Lync Server 2013 では、ダイジェストサイズ (224、256、384、および512ビット) の SHA-1 および SHA-1 スイートがサポートされており、オペレーティングシステムの要件を満たしているか、それを超えています。 オペレーティングシステムのサポートについ[https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)ては、「」を参照してください。
+  - すべての証明書は、オペレーティングシステムでサポートされている署名アルゴリズムを使用して署名する必要があります。 Lync Server 2013 では、ダイジェストサイズ (224、256、384、および512ビット) の SHA-1 および SHA-1 スイートがサポートされており、オペレーティングシステムの要件を満たしているか、それを超えています。 オペレーティングシステムのサポートについては、「」を参照してください [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002) 。
     
     <div>
     
@@ -80,7 +82,7 @@ Lync Server では、次の一般的な要件が適用されます。
 
   - 1024、2048、4096の暗号化キーの長さがサポートされています。 2048以上のキーの長さは推奨されています。
 
-  - 既定のダイジェスト、つまりハッシュ署名は RSA です。 ECDH\_P256、ecdh\_P384、および ecdh\_P521 の各アルゴリズムもサポートされています。 
+  - 既定のダイジェスト、つまりハッシュ署名は RSA です。 ECDH \_ P256、ecdh \_ P384、および ecdh P521 の各 \_ アルゴリズムもサポートされています。 
 
 <div>
 

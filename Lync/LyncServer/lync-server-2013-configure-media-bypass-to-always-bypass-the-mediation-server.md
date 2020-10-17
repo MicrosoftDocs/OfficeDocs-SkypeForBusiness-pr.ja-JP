@@ -12,20 +12,22 @@ ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ae9bfa8be276cccc6f31def6fb7014e417841d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23b77f246398ab47002ddef38e804419ffa4f5bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190560"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507614"
 ---
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>Lync Server 2013 でメディアバイパスを構成して仲介サーバーを常にバイパスする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>Lync Server 2013 でメディアバイパスを構成して仲介サーバーを常にバイパスする
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2013-02-25_
 
 仲介サーバーへのピアに関連付けられた個別のトランク接続に対してメディア バイパスを有効にするのに加え、メディア バイパスのグローバル設定もまた構成する必要があります。 このトピックの手順を使用してメディアバイパスのグローバル設定を構成する場合、Lync エンドポイントと、トランク接続でメディアバイパスを構成したすべてのピアとの間の接続が良好であることを前提としています。
 
-Lync Server エンドポイントと、それぞれのトランク接続がメディアバイパスが有効になっている仲介サーバーへの接続が良好ではない場合は、次の場合にサイトと地域の情報を使用するようにグローバルメディアバイパス設定を構成する必要があります。メディアバイパスの採用。 これにより、メディアが仲介サーバーをバイパスするか判定する際に、よりよく制御できます。 そのためには、「 [Configure media バイパス global settings In Lync server 2013」](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)の手順を使用して、サイトと地域の情報を使用し、[サブネットを lync server 2013 のネットワークサイトに関連付け](lync-server-2013-associate-a-subnet-with-a-network-site.md)ます。
+Lync Server エンドポイントと、各トランク接続がメディアバイパスに対して有効になっている仲介サーバーへの接続が良好ではない場合は、メディアバイパスを使用するときにサイトと地域の情報を使用するようにグローバルメディアバイパス設定を構成する必要があります。 これにより、メディアが仲介サーバーをバイパスするか判定する際に、よりよく制御できます。 そのためには、「 [Configure media バイパス global settings In Lync server 2013」](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) の手順を使用して、サイトと地域の情報を使用し、 [サブネットを lync server 2013 のネットワークサイトに関連付け](lync-server-2013-associate-a-subnet-with-a-network-site.md) ます。
 
 <div>
 

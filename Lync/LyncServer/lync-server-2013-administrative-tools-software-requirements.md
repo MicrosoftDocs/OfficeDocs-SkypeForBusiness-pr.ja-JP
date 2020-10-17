@@ -12,20 +12,22 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d1532acc21bc788adc8e52bfd1d562509e105ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7c7b08d22933947c2f8079a2713fd134feb4629
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187360"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509044"
 ---
+# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Lync Server 2013 の管理ツールソフトウェア要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Lync Server 2013 の管理ツールソフトウェア要件
+
 
 </div>
 
@@ -61,7 +63,7 @@ Microsoft Lync Server 2013 のコンポーネントを実行するには、Windo
 
 Lync Server 2013 は、Windows インストーラーテクノロジを使用して、さまざまなサーバーの役割をインストール、アンインストール、および保守します。 Windows Installer Version 4.5 は、Windows Server オペレーティング システムの再頒布可能なコンポーネントとして入手可能です。 Windows インストーラー4.5 は、Windows Server 2012 R2、Windows Server 2012、および Windows Server 2008 R2 と共に出荷されます。これは、Lync 2013 Server を実行しているコンピューターに対してユーティリティをダウンロードする必要がないことを意味します。 (Lync Server 2013 は、Windows Server 2012 R2、Windows Server 2012、または Windows Server 2008 R2 を実行しているコンピューターにのみインストールできます。)
 
-ただし、管理者ワークステーションに Lync Server 管理シェルまたは Lync Server トポロジビルダーをインストールする場合は、Windows インストーラー4.5 をダウンロードする必要がある場合があります。 このユーティリティには、windows 7 および windows 2008 R2 が付属していますが、Windows オペレーティングシステムの以前のバージョンには同梱されていません。 Windows インストーラー4.5 は、「Microsoft ダウンロードセンター」からダウンロード<https://go.microsoft.com/fwlink/p/?linkid=197395>できます。
+ただし、管理者ワークステーションに Lync Server 管理シェルまたは Lync Server トポロジビルダーをインストールする場合は、Windows インストーラー4.5 をダウンロードする必要がある場合があります。 このユーティリティには、windows 7 および windows 2008 R2 が付属していますが、Windows オペレーティングシステムの以前のバージョンには同梱されていません。 Windows インストーラー4.5 は、「Microsoft ダウンロードセンター」からダウンロードでき <https://go.microsoft.com/fwlink/p/?linkid=197395> ます。
 
 </div>
 

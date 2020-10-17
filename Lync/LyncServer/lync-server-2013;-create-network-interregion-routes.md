@@ -13,20 +13,22 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 2890d903df512e2f7eef26e6d1c22fa5bc029839
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508534"
 ---
+# <a name="create-network-interregion-routes-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域間ルートの作成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-interregion-routes-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域間ルートの作成
+
 
 </div>
 
@@ -99,9 +101,9 @@ _**トピックの最終更新日:** 2012-10-20_
 
 5.  [**新しい地域ルート**] ページで、[**名前**] をクリックし、ネットワーク地域間ルートの名前を入力します。
 
-6.  [**ネットワーク地域 \# 1**] をクリックし、一覧でネットワーク地域2にルーティングするネットワーク地域をクリックし \# ます。
+6.  [ **ネットワーク地域 \# 1**] をクリックし、一覧でネットワーク地域2にルーティングするネットワーク地域をクリックし \# ます。
 
-7.  [**ネットワーク地域 \# 2**] をクリックし、一覧でネットワーク地域1にルーティングするネットワーク地域をクリックし \# ます。
+7.  [ **ネットワーク地域 \# 2**] をクリックし、一覧でネットワーク地域1にルーティングするネットワーク地域をクリックし \# ます。
 
 8.  [**ネットワーク地域リンク**] フィールドの横の [**追加**] をクリックし、ネットワーク地域間ルートで使用するネットワーク地域リンクを追加します。
     

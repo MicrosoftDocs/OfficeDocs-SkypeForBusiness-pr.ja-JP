@@ -12,20 +12,22 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3e08a66397e5c6e7fb5b6111fbdcf6d11d3632a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 45b1c9d320ef35555e83bbd8851d77e00a452631
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756878"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509110"
 ---
+# <a name="provisioning-the-topology-to-run-load"></a>負荷を実行するためのトポロジのプロビジョニング
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-the-topology-to-run-load"></a>負荷を実行するためのトポロジのプロビジョニング
+
 
 </div>
 
@@ -38,8 +40,6 @@ ms.locfileid: "44756878"
 _**トピックの最終更新日:** 2013-02-04_
 
 <div>
-
-## <a name="provisioning-the-topology-to-run-load"></a>負荷を実行するためのトポロジのプロビジョニング
 
 既存の設定と Lync Server 2013 の構成によっては、環境を次のように変更する必要があります。
 

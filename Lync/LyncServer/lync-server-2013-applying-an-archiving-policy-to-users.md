@@ -12,20 +12,22 @@ ms:contentKeyID: 48184290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff273b4c7afd8bf0a1280b37118eede9f95d3c76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 423eb8c4d96496f75f8702c5cf2ccf21a3b13b8b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204426"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508924"
 ---
+# <a name="applying-an-archiving-policy-to-users-in-lync-server-2013"></a>Lync Server 2013 でのユーザーへのアーカイブポリシーの適用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="applying-an-archiving-policy-to-users-in-lync-server-2013"></a>Lync Server 2013 でのユーザーへのアーカイブポリシーの適用
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 
 > [!NOTE]  
-> 展開に対して Microsoft Exchange 統合を有効にした場合、Exchange のインプレース保持ポリシーによって、Exchange 2013 に所属しているユーザーに対してアーカイブを有効にし、そのメールボックスをインプレース保持の対象にするかどうかを制御します。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。<BR>アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理</A>」を参照してください。
+> 展開に対して Microsoft Exchange 統合を有効にした場合、Exchange In-Place 保持ポリシーは、Exchange 2013 に所属しているユーザーに対してアーカイブが有効になっているかどうかを制御し、メールボックスを In-Place 保持に配置するかどうかを制御します。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。<BR>アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理</A> 」を参照してください。
 
 
 
@@ -63,13 +65,13 @@ _**トピックの最終更新日:** 2013-02-23_
 
 4.  検索結果一覧の表でユーザー アカウントをクリックし、[**編集**] をクリックして、[**詳細の表示**] をクリックします。
 
-5.  [ **Lync Server ユーザーの編集**] の [**アーカイブポリシー**] で、適用するアーカイブユーザーポリシーを選択します。
+5.  [ **Lync Server ユーザーの編集** ] の [ **アーカイブポリシー**] で、適用するアーカイブユーザーポリシーを選択します。
     
     <div>
     
 
     > [!NOTE]  
-    > [ <STRONG> &lt;自動&gt; </STRONG> ] 設定では、既定のサーバーインストールの設定が適用されます。 これらの設定はサーバーによって自動的に適用されます。
+    > [ <STRONG> &lt; 自動 &gt; </STRONG> ] 設定では、既定のサーバーインストールの設定が適用されます。 これらの設定はサーバーによって自動的に適用されます。
 
     
     </div>
@@ -80,9 +82,9 @@ _**トピックの最終更新日:** 2013-02-23_
 
 <div>
 
-## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したユーザー単位のアーカイブポリシーの割り当て
+## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用した Per-User アーカイブポリシーの割り当て
 
-ユーザー単位のアーカイブポリシーは、Windows PowerShell と**grant-csarchivingpolicy**コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+ユーザー単位のアーカイブポリシーは、Windows PowerShell と **grant-csarchivingpolicy** コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -98,7 +100,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>ユーザー単位のアーカイブポリシーを複数のユーザーに割り当てるには
 
-  - 次のコマンドは、ユーザーごとのアーカイブ ポリシーである RedmondArchivingPolicy を、レジストラー プール atl-cs-001.litwareinc.com に所属するアカウントを持つすべてのユーザーに割り当てます。 このコマンドで使用される Filter パラメーターの詳細については、「 [Get-help user](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)コマンドレットのドキュメント」を参照してください。
+  - 次のコマンドは、ユーザーごとのアーカイブ ポリシーである RedmondArchivingPolicy を、レジストラー プール atl-cs-001.litwareinc.com に所属するアカウントを持つすべてのユーザーに割り当てます。 このコマンドで使用される Filter パラメーターの詳細については、「 [Get-help user](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) コマンドレットのドキュメント」を参照してください。
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -114,7 +116,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 </div>
 
-詳細については、 [grant-csarchivingpolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsArchivingPolicy)コマンドレットのドキュメントを参照してください。
+詳細については、 [grant-csarchivingpolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsArchivingPolicy) コマンドレットのドキュメントを参照してください。
 
 </div>
 

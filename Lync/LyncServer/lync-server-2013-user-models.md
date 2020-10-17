@@ -12,20 +12,22 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389d545c18edb4a3c14fc2f0abdf5fb185fcd0ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a5f110e6b2badd5b0651a2ad32860f421fab167
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213053"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508734"
 ---
+# <a name="user-models-in-lync-server-2013"></a>Lync Server 2013 のユーザーモデル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-models-in-lync-server-2013"></a>Lync Server 2013 のユーザーモデル
+
 
 </div>
 
@@ -153,7 +155,7 @@ _**トピックの最終更新日:** 2013-10-07_
 <td><p>ピアツーピア IM セッション</p></td>
 <td><p>各ユーザーの 1 日あたりのピアツーピア IM セッション数の平均は 6。</p>
 <p>セッションあたりのインスタント メッセージ数は 10。</p>
-<p>各メッセージは2つの SIP INFO メッセージと2つの SIP 200 OK メッセージによって照合され&lt;ます&gt; ("Name が入力しています" などのステータスインジケーター用)。</p></td>
+<p>各メッセージは2つの SIP INFO メッセージと2つの SIP 200 OK メッセージによって照合されます ("Name が入力しています" などのステータスインジケーター用 &lt; &gt; )。</p></td>
 </tr>
 <tr class="even">
 <td><p>プレゼンス ポーリング</p></td>
@@ -234,7 +236,7 @@ _**トピックの最終更新日:** 2013-10-07_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>予約され&quot;た会議&quot;と Meet now ミーティング</p></td>
+<td><p>予約され &quot; た会議と Meet now &quot; ミーティング</p></td>
 <td><p>60% が予約され、40% が予約なし。</p>
 <p>予定されたミーティングのうち、80% は割り当て済みの電話会議 (定期的な電話会議の各回)、10% は 1 回限りの公開されたミーティング、8% は 1 回限りの匿名のミーティング、2% は 1 回限りの非公開ミーティングと想定します。</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f3e9afc3bd17f5cba4caa7619cb562be069942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b67f1472bbb8225bf952b5b678bcae8401d211d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187260"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508974"
 ---
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013 のウイルススキャン除外
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013 のウイルススキャン除外
+
 
 </div>
 
@@ -61,101 +63,101 @@ _**トピックの最終更新日:** 2015-11-02_
 
   - Lync Server 2013 プロセス:
     
-      - ABServer
+      - ABServer.exe
     
-      - AcpMcuSvc
+      - AcpMcuSvc.exe
     
-      - ASMCUSvc .exe
+      - ASMCUSvc.exe
     
-      - AVMCUSvc .exe
+      - AVMCUSvc.exe
     
-      - ChannelService .exe
+      - ChannelService.exe
     
-      - ClsAgent .exe
+      - ClsAgent.exe
     
-      - ComplianceService
+      - ComplianceService.exe
     
-      - DataMCUSvc
+      - DataMCUSvc.exe
     
-      - DataProxy .exe
+      - DataProxy.exe
     
-      - FileTransferAgent
+      - FileTransferAgent.exe
     
-      - IMMCUSvc .exe
+      - IMMCUSvc.exe
     
-      - LysSvc
+      - LysSvc.exe
     
-      - MasterReplicatorAgent .exe
+      - MasterReplicatorAgent.exe
     
-      - メディア Relaysvc
+      - MediaRelaySvc.exe
     
-      - MediationServerSvc
+      - MediationServerSvc.exe
     
-      - MRASSvc
+      - MRASSvc.exe
     
-      - OcsAppServerHost
+      - OcsAppServerHost.exe
     
-      - ReplicaReplicatorAgent
+      - ReplicaReplicatorAgent.exe
     
-      - ReplicationApp .exe
+      - ReplicationApp.exe
     
-      - RtcHost
+      - RtcHost.exe
     
-      - RTCSrv
+      - RTCSrv.exe
     
-      - XmppProxy .exe
+      - XmppProxy.exe
     
-      - XmppTGW. .exe
+      - XmppTGW.exe
 
   - Windows Fabric ホストサービスプロセス:
     
-      - Fabric
+      - Fabric.exe
     
-      - FabricDCA
+      - FabricDCA.exe
     
-      - FabricHost
+      - FabricHost.exe
 
   - IIS のプロセス:
     
-      - % systemroot%\\system32\\inetsrv\\
+      - % systemroot% \\ system32 \\ inetsrv \\w3wp.exe
     
-      - % systemroot%\\SysWOW64\\inetsrv\\w3wp
+      - % systemroot% \\ SysWOW64 \\ inetsrv \\w3wp.exe
 
-  - SQL Server バックエンドプロセス:
+  - SQL Server Back-End プロセス:
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。MSSQLSERVER\\MSSQL\\Binn\\sqlservr.exe
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11。MSSQLSERVER \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11。MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\reportingサービス .exe
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSRS11。MSSQLSERVER \\ Reporting Services \\ ReportServer \\ Bin \\ReportingServicesService.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11。MSSQLSERVER\\OLAP\\Bin\\msmdsrv.ini
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSAS11。MSSQLSERVER \\ OLAP \\ Bin \\MSMDSrv.exe
 
-  - SQL Server フロントエンドプロセス:
+  - SQL Server Front-End プロセス:
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。LYNCLOCAL\\MSSQL\\Binn\\sqlservr.exe
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11。LYNCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11。RTCLOCAL\\MSSQL\\Binn\\sqlservr.exe
+      - % ProgramFiles% \\ MICROSOFT SQL Server \\ MSSQL11。RTCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
 
   - ディレクトリとファイル:
     
-      - % systemroot%\\System32\\のログログ
+      - % systemroot% \\ System32 の \\ ログログ
     
-      - % systemroot%\\SysWow64\\ログログ
+      - % systemroot% \\ SysWow64 \\ ログログ
     
-      - % systemroot%\\Microsoft.NET\\assembly\\GAC\_MSIL
+      - % systemroot% \\ Microsoft.NET \\ assembly \\ GAC \_ MSIL
     
-      - % programfiles%\\Microsoft Lync Server 2013
+      - % programfiles% \\ Microsoft Lync Server 2013
     
-      - % programfiles%\\Common Files\\Microsoft Lync Server 2013\\監視ノード
+      - % programfiles% \\ Common Files \\ Microsoft Lync Server 2013 \\ 監視ノード
     
-      - % programfiles%\\Common Files\\Microsoft Lync Server 2013
+      - % programfiles% \\ Common Files \\ Microsoft Lync Server 2013
     
-      - % SystemDrive%\\RtcReplicaRoot
+      - % SystemDrive% \\ RtcReplicaRoot
     
       - ファイル共有ストア (トポロジ ビルダーで指定)。 ファイル ストアはトポロジ ビルダーで指定されています。
     
       - SQL Server のデータおよびログ ファイル (バックエンド データベース、ユーザー ストア、アーカイブ ストア、監視ストア、およびアプリケーション ストア用のものを含みます)。 データベースとログ ファイルは、トポロジ ビルダーで指定できます。 既定の名前など、各データベースのデータおよびログファイルの詳細については、「展開」のドキュメントの「 [SQL server data and log file placement For Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) 」を参照してください。
     
-      - SQL Server のデータおよびログファイル (フロントエンドデータベース、Lync ストア、および RtcDatabase store のものを含む)。 通常、% localdrive%\\csdata の下にあります。
+      - SQL Server のデータおよびログファイル (フロントエンドデータベース、Lync ストア、および RtcDatabase store のものを含む)。 通常、% localdrive% csdata の下にあり \\ ます。
 
 </div>
 

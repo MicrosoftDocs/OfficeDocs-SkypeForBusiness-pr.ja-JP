@@ -12,20 +12,22 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37462eb9f15553138dc6bb7285a5d0786dbc4b57
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ca1e1e243fe6957fdc5233b248c358d82817516
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204883"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508874"
 ---
+# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013 での会議、アプリケーション、および仲介サーバーの Qos (Quality of Service) ポリシーの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013 での会議、アプリケーション、および仲介サーバーの Qos (Quality of Service) ポリシーの構成
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2014-06-23_
 
 2.  目的のコンテナーを右クリックし、[**このドメインに GPO を作成し、このコンテナーにリンクする**] をクリックします。
 
-3.  [**新しい GPO** ] ダイアログボックスで、[**名前**] ボックスに新しいグループポリシーオブジェクトの名前 (「 **Lync Server QoS**」など) を入力し、[ **OK**] をクリックします。
+3.  [ **新しい GPO** ] ダイアログボックスで、[ **名前** ] ボックスに新しいグループポリシーオブジェクトの名前 (「 **Lync Server QoS**」など) を入力し、[ **OK**] をクリックします。
 
 4.  新規に作成したポリシーを右クリックし、[**編集**] をクリックします。
 
@@ -103,7 +105,7 @@ _**トピックの最終更新日:** 2014-06-23_
 
 2.  [**ファイル名を指定して実行**] ダイアログ ボックスで、「**regedit**」と入力し、Enter キーを押します。
 
-3.  レジストリエディターで、[**コンピューター**] を展開し、[ **\_HKEY ローカル\_コンピューター**]、[**ソフトウェア**]、[**ポリシー**]、[ **Microsoft**]、[ **Windows**] の順に展開し、[ **QoS**] をクリックします。 [**QoS**] に、作成した各 QoS ポリシーのレジストリ キーが表示されます。 たとえば、2つの新しいポリシー (Lync server Audio QoS、もう1つは Lync Server Video QoS という名前) を作成した場合は、Lync Server Audio QoS および Lync Server Video QoS のレジストリエントリを作成する必要があります。
+3.  レジストリエディターで、[ **コンピューター**] を展開し、[ **HKEY \_ ローカル \_ コンピューター**]、[ **ソフトウェア**]、[ **ポリシー**]、[ **Microsoft**]、[ **Windows**] の順に展開し、[ **QoS**] をクリックします。 [**QoS**] に、作成した各 QoS ポリシーのレジストリ キーが表示されます。 たとえば、2つの新しいポリシー (Lync server Audio QoS、もう1つは Lync Server Video QoS という名前) を作成した場合は、Lync Server Audio QoS および Lync Server Video QoS のレジストリエントリを作成する必要があります。
 
 ネットワーク パケットが適切な DSCP 値でマークされるようにするには、次の手順を実行して、各コンピューターに新しいレジストリ エントリを作成する必要もあります。
 
@@ -111,7 +113,7 @@ _**トピックの最終更新日:** 2014-06-23_
 
 2.  [**ファイル名を指定して実行**] ダイアログ ボックスで「**regedit**」と入力し、Enter キーを押します。
 
-3.  レジストリエディターで、[ **HKEY\_LOCAL\_MACHINE**] を展開し、[**システム**] を展開し、[ **CurrentControlSet**] を展開し、[**サービス**] を展開して、[ **Tcpip**] を展開します。
+3.  レジストリエディターで、[ **HKEY \_ LOCAL \_ MACHINE**] を展開し、[ **システム**] を展開し、[ **CurrentControlSet**] を展開し、[ **サービス**] を展開して、[ **Tcpip**] を展開します。
 
 4.  [**Tcpip**] を右クリックし、[**新規**] をポイントして [**キー**] をクリックします。新しいレジストリ キーを作成した後、「**QoS**」と入力して Enter キーを押し、キーの名前を変更します。
 

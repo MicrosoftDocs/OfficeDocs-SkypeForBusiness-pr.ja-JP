@@ -12,20 +12,22 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8fd24bab9596f12060c87937d98cc2a57d0c887
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7119bfd6209ac9a7d8eb2c4adfddb75c3601116d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183710"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508754"
 ---
+# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 の SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 の SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
+
 
 </div>
 
@@ -53,7 +55,7 @@ Windows Live Messenger は、Lync クライアントとの音声/ビデオ通信
 
 </div>
 
-エッジサーバーに展開された拡張メッセージングおよびプレゼンスプロトコル (XMPP) プロキシに定義されているポートとプロトコルは、XMPP フェデレーションパートナーからエッジサーバーへの通信を許可します。また、エッジサーバーから XMPP への通信も可能にします。フェデレーションパートナー。 ルールは、フロントエンドサーバーまたはフロントエンドプールからエッジサーバーまたはエッジプールへの内部接続ファイアウォール上にも定義されています。
+エッジサーバーに展開されている拡張メッセージングおよびプレゼンスプロトコル (XMPP) プロキシに対して定義されているポートとプロトコルは、XMPP フェデレーションパートナーからエッジサーバーへの通信を許可すると共に、エッジサーバーから XMPP フェデレーションパートナーへの通信を許可します。 ルールは、フロントエンドサーバーまたはフロントエンドプールからエッジサーバーまたはエッジプールへの内部接続ファイアウォール上にも定義されています。
 
 <div>
 
@@ -72,7 +74,7 @@ Windows Live Messenger は、Lync クライアントとの音声/ビデオ通信
 <th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -105,7 +107,7 @@ Windows Live Messenger は、Lync クライアントとの音声/ビデオ通信
 <th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -168,7 +170,7 @@ Windows Live Messenger は、Lync クライアントとの音声/ビデオ通信
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 (IP アドレス)</th>
 <th>宛先 (IP アドレス)</th>
-<th>コメント</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>

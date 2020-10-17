@@ -12,20 +12,22 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0dc8bc60f87b981a18f351df8ddd163d1b080be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b297a505b1a12335e545895e0203ffc0e29c7354
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197700"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507634"
 ---
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Microsoft Exchange Server でユニファイドメッセージングを使用するように Lync Server 2013 を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Microsoft Exchange Server でユニファイドメッセージングを使用するように Lync Server 2013 を構成する
+
 
 </div>
 
@@ -35,7 +37,7 @@ ms.locfileid: "42197700"
 
 _**トピックの最終更新日:** 2013-04-03_
 
-このステップを実行するには、Exchange UM 統合ユーティリティ (OcsUmUtil.exe) が必要です。 このツールは、の Lync Server 2013 サーバーにあります。\\Program Files\\Common Files\\Microsoft Lync Server 2013\\サポートフォルダ。
+このステップを実行するには、Exchange UM 統合ユーティリティ (OcsUmUtil.exe) が必要です。 このツールは、の Lync Server 2013 サーバーにあります \\ 。Program Files \\ Common Files \\ Microsoft Lync Server 2013 \\ サポートフォルダ。
 
 <div>
 
@@ -51,16 +53,16 @@ Exchange UM 統合ユーティリティを実行すると、以下のタスク�
 
   - エンタープライズ VoIP ユーザーが使用する各自動応答番号とサブスクライバー アクセス番号の連絡先オブジェクトを作成します。
 
-  - 各エンタープライズ Voip ダイヤルプランの名前が、対応するユニファイドメッセージング (UM) ダイヤルプランの電話のコンテキストに一致することを確認します。 この一致は、UM ダイヤルプランが Exchange 2010 Service Pack 1 (SP1) より*前*のバージョンの exchange 上で実行されている場合にのみ必要です。
+  - 各エンタープライズ Voip ダイヤルプランの名前が、対応するユニファイドメッセージング (UM) ダイヤルプランの電話のコンテキストに一致することを確認します。 この一致は、UM ダイヤルプランが Exchange 2010 Service Pack 1 (SP1) より *前* のバージョンの exchange 上で実行されている場合にのみ必要です。
 
 > [!IMPORTANT]
 > Exchange UM 統合ユーティリティを実行する前に、次の操作が完了していることを確認してください。
 > <ul>
 > <li><p>Exchange 製品のドキュメントで説明されているように、1つ以上の Exchange UM ダイヤルプランを作成します。</p>
-> <p>Microsoft Exchange Server 2010 について&quot;は、「UM ダイヤル&quot;プラン<a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>を作成する」を参照してください。</p>
-> <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1) について&quot;は、「How to Create a ユニファイドメッセージング&quot; SIP <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>URI ダイヤルプラン」を参照してください。</p></li>
+> <p>Microsoft Exchange Server 2010 については、「 &quot; UM ダイヤルプランを作成する」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a> 。</p>
+> <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1) については、「 &quot; How To Create a ユニファイドメッセージング SIP URI ダイヤルプラン」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a> 。</p></li>
 > <li><p>「 <a href="lync-server-2013-create-a-dial-plan.md">Lync server 2013 でダイヤルプランを作成</a>する」の説明に従って、1つ以上の対応する lync server ダイヤルプランを作成します。</p></li>
-> <ul><li>Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合は、対応する Exchange ユニファイドメッセージング (UM) SIP ダイヤルプランの完全修飾ドメイン名 (FQDN) を Lync Server 2013 ダイヤルプランの [<STRONG>簡易名</STRONG>] フィールドに入力する必要があります。 Microsoft Exchange Server 2010 SP1 または最新の service pack を使用している場合は、このダイヤルプラン名の一致は必要ありません。</li></ul>
+> <ul><li>Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合は、対応する Exchange ユニファイドメッセージング (UM) SIP ダイヤルプランの完全修飾ドメイン名 (FQDN) を Lync Server 2013 ダイヤルプランの [ <STRONG>簡易名</STRONG> ] フィールドに入力する必要があります。 Microsoft Exchange Server 2010 SP1 または最新の service pack を使用している場合は、このダイヤルプラン名の一致は必要ありません。</li></ul>
 > <li>自動応答を作成し、サブスクライバー アクセス番号と自動応答番号の両方が E.164 形式であることを確認します。</li></ul>
 
 
@@ -68,7 +70,7 @@ Exchange UM 統合ユーティリティを実行すると、以下のタスク�
 
 ## <a name="to-run-the-exchange-um-integration-utility"></a>Exchange UM 統合ユーティリティを実行するには
 
-1.  フロントエンドサーバーで、コマンドプロンプトを開き、「 **cd% CommonProgramFiles%\\Microsoft Lync Server 2013\\サポート**」と入力し、enter キーを押します。
+1.  フロントエンドサーバーで、コマンドプロンプトを開き、「 **cd% CommonProgramFiles% \\ Microsoft Lync Server 2013 \\ サポート**」と入力し、enter キーを押します。
 
 2.  「**OcsUmUtil.exe**」と入力し、Enter キーを押します。
 
@@ -109,7 +111,7 @@ Exchange UM 統合ユーティリティを実行すると、以下のタスク�
     
     </div>
 
-8.  [**サーバーまたはプール**] の一覧で、連絡先オブジェクトを有効にする Standard Edition サーバーまたはフロントエンドプールを選択します。
+8.  [ **サーバーまたはプール** ] の一覧で、連絡先オブジェクトを有効にする Standard Edition サーバーまたはフロントエンドプールを選択します。
     
     <div>
     

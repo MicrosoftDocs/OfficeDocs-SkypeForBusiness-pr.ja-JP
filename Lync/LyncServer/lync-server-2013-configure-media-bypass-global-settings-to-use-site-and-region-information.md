@@ -12,20 +12,22 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7ef0d68cc06582339ed066108efa28a7a85bb00
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e730b1e44bbe6e6fbec4d84a2c81ce474cff693
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507624"
 ---
+# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>サイトと地域の情報を使用するように Lync Server 2013 でメディアバイパスグローバル設定を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>サイトと地域の情報を使用するように Lync Server 2013 でメディアバイパスグローバル設定を構成する
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 
 > [!NOTE]
-> ここでは、仲介サーバーをバイパスするためのメディアを必要とする特定のサイトまたはサービス用に、仲介サーバーからピア (公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX、またはインターネット テレフォニー サービス プロバイダー (ITSP) でのセッション ボーダー コントローラー (SBC)) へのトランク接続用のメディア バイパスが構成済みであることを前提とします。<BR>また、このトピックでは、「lync server <A href="lync-server-2013-create-or-modify-a-network-region.md">2013 でのネットワーク地域の作成</A>または変更」、「lync server <A href="lync-server-2013-create-or-modify-a-network-site.md">2013 でのネットワークサイトの作成または変更</A>」、および「lync server 2013 でのネットワークサイトへの<A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">サブネットの関連付け</A>」の手順に従って、実行したネットワーク地域、ネットワークサイト、およびサブネット構成に一致するすべての中央サイトと 一致しない場合、メディア バイパスは成功しません。
+> ここでは、仲介サーバーをバイパスするためのメディアを必要とする特定のサイトまたはサービス用に、仲介サーバーからピア (公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX、またはインターネット テレフォニー サービス プロバイダー (ITSP) でのセッション ボーダー コントローラー (SBC)) へのトランク接続用のメディア バイパスが構成済みであることを前提とします。<BR>また、このトピックでは、「lync server <A href="lync-server-2013-create-or-modify-a-network-region.md">2013 でのネットワーク地域の作成</A>または変更」、「lync server <A href="lync-server-2013-create-or-modify-a-network-site.md">2013 でのネットワークサイトの作成または変更</A>」、および「lync server 2013 でのネットワークサイトへの <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">サブネットの関連付け</A>」の手順に従って、実行したネットワーク地域、ネットワークサイト、およびサブネット構成に一致するすべての中央サイトと 一致しない場合、メディア バイパスは成功しません。
 
 
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 ピアに関連付けられている個々のトランク接続でメディア パイパスを有効にするほか、グローバル設定も構成する必要があります。ここでのステップを使用してメディア バイパスのグローバル設定を構成する場合は、次の状況の一方または両方が構成に影響を与えることが前提となります。
 
-  - Lync Server エンドポイントと、トランク接続でメディアバイパスを構成したすべてのピアとの間の接続が良好では*ありません*。
+  - Lync Server エンドポイントと、トランク接続でメディアバイパスを構成したすべてのピアとの間の接続が良好では *ありません* 。
 
   - 帯域幅管理の通話受付管理 (CAC) が有効です。
     
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 または、バイパスを決定するためにサイトと地域の情報を使用し、通話受付管理を有効にすることを意図していない場合は、次の手順を実行します。 このような場合は、「 [Lync Server 2013 でのネットワークサイト間ポリシーの作成](lync-server-2013-create-network-intersite-policies.md)」で説明されているように、帯域幅制限リンクをネットワークサイト間ポリシーで表現する必要があります。 この例では、通話受付管理が有効になっていないため、実際の帯域幅制限は重要ではありません。 代わりに、これらのリンクを使用して、帯域幅制限を持たないサブネットを指定して、メディアバイパスを使用できるようにします。 通話受付管理とメディアバイパスが両方とも有効になっている場合は、この設定が true であることに注意してください。
 
-さらに、バイパスを適切に動作させるには、トポロジビルダーで定義されているサイトと、ネットワーク地域およびネットワークサイトを構成するときに定義されているように、サイト間で一貫性を保つ必要があります。 たとえば、PSTN ゲートウェイのみを展開するようにトポロジビルダーで定義したブランチサイトがある場合は、ブランチサイトのユーザーが pstn 通話を pstn 経由でルーティングできるようにするエンタープライズ Voip ポリシーを構成する必要があります。ブランチサイトのゲートウェイ。
+さらに、バイパスを適切に動作させるには、トポロジビルダーで定義されているサイトと、ネットワーク地域およびネットワークサイトを構成するときに定義されているように、サイト間で一貫性を保つ必要があります。 たとえば、PSTN ゲートウェイのみが展開されているトポロジビルダーで定義したブランチサイトがある場合は、ブランチサイトのユーザーが、ブランチサイトの PSTN ゲートウェイを経由して pstn 通話をルーティングできるようにするエンタープライズ Voip ポリシーを使用して、ブランチサイトを構成する必要があります。
 
 <div>
 
@@ -101,7 +103,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 
 > [!IMPORTANT]
-> ネットワーク地域とネットワーク サイトを作成していない場合は、メディア バイパスを展開する前にこれらを作成する必要があります。 詳細については、「lync <A href="lync-server-2013-create-or-modify-a-network-region.md">server 2013 でネットワーク地域を作成または変更</A>する」および「 <A href="lync-server-2013-create-or-modify-a-network-site.md">lync server 2013 でネットワークサイトを作成または変更</A>する」を参照してください。
+> ネットワーク地域とネットワーク サイトを作成していない場合は、メディア バイパスを展開する前にこれらを作成する必要があります。 詳細については、「lync <A href="lync-server-2013-create-or-modify-a-network-region.md">server 2013 でネットワーク地域を作成または変更</A> する」および「 <A href="lync-server-2013-create-or-modify-a-network-site.md">lync server 2013 でネットワークサイトを作成または変更</A>する」を参照してください。
 
 
 

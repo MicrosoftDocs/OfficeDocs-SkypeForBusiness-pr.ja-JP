@@ -12,20 +12,22 @@ ms:contentKeyID: 48185601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f2c781b01aaa1ac00793f97067f24233c1e8db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc4f354d985ed9e0fc85909e232e06e7c34dd593
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509654"
 ---
+# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Lync Server 2013 での Kerberos 認証のセットアップ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-kerberos-authentication-in-lync-server-2013"></a>Lync Server 2013 での Kerberos 認証のセットアップ
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200563"
 
 _**トピックの最終更新日:** 2013-02-21_
 
-Lync Server 2013 は、Web サービスの NTLM および Kerberos 認証をサポートしています。 Office Communications Server 2007 および Office Communications Server 2007 R2 Web サービスアプリケーションプールを実行するためのユーザーアカウントとして、既定の RTCComponentService および RTCService を使用して、サービスプリンシパル名 (SPN) をユーザーに割り当てることができます。アカウントを選択し、認証プリンシパルとして機能します。 Lync Server は NetworkService を使用して Web サービスを実行し、NetworkService に Spn を割り当てられません。
+Lync Server 2013 は、Web サービスの NTLM および Kerberos 認証をサポートしています。 Office Communications Server 2007 および Office Communications Server 2007 R2 Web サービスアプリケーションプールを実行するためのユーザーアカウントとして、既定の RTCComponentService および RTCService を使用して、サービスプリンシパル名 (SPN) をユーザーアカウントに割り当て、認証プリンシパルとして機能させることができます。 Lync Server は NetworkService を使用して Web サービスを実行し、NetworkService に Spn を割り当てられません。
 
 Active Directory オブジェクトに Spn を保持する必要がないという問題を解決するために、Lync Server コントロールパネルでこの目的のためにコンピューターアカウントオブジェクトを使用することができます。 コンピューターアカウントオブジェクトは、Spn を保持することができ、パスワードの有効期限の対象にはなりません。これは、以前のバージョンでユーザーアカウントを使用する場合の問題でした。
 
