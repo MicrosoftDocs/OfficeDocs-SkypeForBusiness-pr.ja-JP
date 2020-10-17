@@ -12,20 +12,22 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f8edade1ed4f0480d776e77eb66816c033a7e3d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53dcbeb362387c31a97ad1e26713b642f82b2390
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213513"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529124"
 ---
+# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するための展開プロセス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するための展開プロセス
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213513"
 
 _**トピックの最終更新日:** 2012-12-17_
 
-Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を統合する場合は、このトピックで説明するタスクを実行する必要があります。 また、「[オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するためのガイドライン](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)」に記載されている計画および展開のベストプラクティスを確認してください。 このトピックでは、Lync server 2013 を併置された仲介2013サーバーと共に展開し、「展開」のドキュメントの「 [Lync server 2013 でのエンタープライズ voip の展開](lync-server-2013-deploying-enterprise-voice.md)」で説明するように、エンタープライズ voip を有効にするための展開と構成の手順をすべて実行したことを前提としています。
+Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を統合する場合は、このトピックで説明するタスクを実行する必要があります。 また、「 [オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するためのガイドライン](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)」に記載されている計画および展開のベストプラクティスを確認してください。 このトピックでは、Lync server 2013 を併置された仲介2013サーバーと共に展開し、「展開」のドキュメントの「 [Lync server 2013 でのエンタープライズ voip の展開](lync-server-2013-deploying-enterprise-voice.md) 」で説明するように、エンタープライズ voip を有効にするための展開と構成の手順をすべて実行したことを前提としています。
 
 <div>
 
@@ -92,18 +94,18 @@ Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を�
 </ul>
 <p>Lync Server 2013 と Exchange ユニファイドメッセージング (UM) が異なるフォレストにインストールされている場合は、Lync Server 2013 フォレストを信頼するように各 Exchange フォレストを構成します。</p></td>
 <td><p>エンタープライズ管理者 (これが組織内で最初の Exchange Server である場合)</p>
-<p>または -</p>
+<p>または</p>
 <p>Exchange 組織管理者 (これが組織内で最初の Exchange Server ではない場合)</p></td>
 <td><p>お使いの Exchange Server のバージョンに適したドキュメントを参照してください。</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Exchange Server 2007 の展開に<a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a>関するドキュメント</p>
+<dd><p>Exchange Server <a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a> 2007 の展開に関するドキュメント</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Exchange Server 2010 または最新の service pack の<a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a>展開に関するドキュメント</p>
+<dd><p>Exchange Server 2010 または最新の service pack の <a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a> 展開に関するドキュメント</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Microsoft Exchange Server 2013 の計画と展開<a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a>」</p>
+<dd><p>Microsoft Exchange Server 2013 の計画と展開」 <a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a></p>
 </dd>
 </dl></td>
 </tr>
@@ -117,9 +119,9 @@ Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を�
 <td><p>新しい Exchange UM SIP ダイヤルプランを作成して構成します。</p></td>
 <td><p>Exchange UM サーバーで、組織の特定の展開要件に基づいて SIP ダイヤルプランを作成します。</p></td>
 <td><p>Exchange 組織管理者</p></td>
-<td><p>Exchange 2007 SP1 または最新のサービスパックに&quot;ついては、「How to Create a ユニファイ&quot;ド<a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a>メッセージング SIP URI ダイヤルプラン」を参照してください。</p>
-<p>Exchange 2010 または最新のサービスパックに&quot;ついては、「&quot; UM <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a>ダイヤルプランを作成する」を参照してください。</p>
-<p>Exchange 2013 については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>ユニファイドメッセージング」を参照してください。</p></td>
+<td><p>Exchange 2007 SP1 または最新のサービスパックについては、「 &quot; How To Create a ユニファイドメッセージング SIP URI ダイヤルプラン」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a> 。</p>
+<p>Exchange 2010 または最新のサービスパックについては、「 &quot; UM ダイヤルプランを作成する」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a> 。</p>
+<p>Exchange 2013 については、「ユニファイドメッセージング」を参照してください <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange UM SIP ダイヤルプランのセキュリティ設定を構成します。</p></td>
@@ -127,32 +129,32 @@ Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を�
 <td><p>Exchange 組織管理者</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">Lync Server 2013 の Microsoft Exchange でのユニファイドメッセージングの構成</a></p>
 <p>Exchange 2007 SP1 または最新の service pack の場合は、次の項目も参照してください。</p>
-<p>&quot;ユニファイドメッセージングダイヤルプラン&quot;でセキュリティを構成する方法<a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a>について説明します。</p>
+<p>&quot;ユニファイドメッセージングダイヤルプランでセキュリティを構成する方法について説明 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a> します。</p>
 <p>Exchange 2010 または最新 Service Pack の場合は、次のドキュメントも参照してください。</p>
-<p>&quot;UM ダイヤルプラン&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a>で VoIP セキュリティを構成します。</p>
-<p>Exchange 2013 については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>ユニファイドメッセージング」を参照してください。</p></td>
+<p>&quot;UM ダイヤルプランで VoIP セキュリティを構成 &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a> します。</p>
+<p>Exchange 2013 については、「ユニファイドメッセージング」を参照してください <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>ユニファイドメッセージングサーバーを Exchange UM SIP ダイヤルプランに追加します。</p></td>
 <td><p>新しくインストールされたユニファイド メッセージング サーバーを、着信通話に応答および着信通話を処理できるようにするには、ユニファイド メッセージング サーバーを UM ダイヤル プランに追加しなければなりません。 この場合は、Exchange UM SIP ダイヤルプランにサーバーを追加します。</p></td>
 <td><p>管理者</p>
 <p>Exchange Server 管理者</p></td>
-<td><p>Exchange 2007 SP1 または最新のサービスパックに&quot;ついては、「方法: ユニファイドメッセージング&quot;サーバー <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a>をダイヤルプランに追加する方法」を参照してください。</p>
-<p>Exchange 2010 または最新のサービスパックに&quot;ついては、「UM サーバー&quot;のプロパティを<a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a>表示または構成する」を参照してください。</p>
-<p>Exchange 2013 については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>ユニファイドメッセージング」を参照してください。</p></td>
+<td><p>Exchange 2007 SP1 または最新のサービスパックについては、「 &quot; 方法: ユニファイドメッセージングサーバーをダイヤルプランに追加する方法」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a> 。</p>
+<p>Exchange 2010 または最新のサービスパックについては、「 &quot; UM サーバーのプロパティを表示または構成する」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a> 。</p>
+<p>Exchange 2013 については、「ユニファイドメッセージング」を参照してください <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP アドレスでメールボックスを構成します。</p></td>
 <td><p>Exchange UM の機能を使用するエンタープライズ Voip ユーザーのメールボックスに SIP アドレスを割り当てます。</p></td>
 <td><p>Lync Server 2013 管理者</p>
 <p>Exchange 受信者管理者</p></td>
-<td><p>Exchange 2007 SP1 または最新のサービスパックに&quot;ついては、「UM が有効なユーザー&quot;の SIP アドレスをで<a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a>追加、削除、または変更する方法」を参照してください。</p>
-<p>Exchange 2010 または最新のサービスパックに&quot;ついては、「UM が有効なユーザー&quot;の<a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a>SIP アドレスを変更する」を参照してください。</p>
-<p>Exchange 2013 については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>ユニファイドメッセージング」を参照してください。</p></td>
+<td><p>Exchange 2007 SP1 または最新のサービスパックについては、「 &quot; How To Add、Remove、または Modify UM-Enabled User for a SIP Address in」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a> 。</p>
+<p>Exchange 2010 または最新のサービスパックについては、「 &quot; UM-Enabled ユーザーの SIP アドレスを変更する」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a> 。</p>
+<p>Exchange 2013 については、「ユニファイドメッセージング」を参照してください <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>exchucutil.ps1 スクリプトを実行します。</p></td>
-<td><p>Exchange UM サービスを実行しているサーバーで、Exchange 管理シェルを開き、次の処理を実行する exchucutil. ps1 スクリプトを実行します。</p>
+<td><p>Exchange UM サービスを実行しているサーバーで、Exchange 管理シェルを開き、exchucutil.ps1 スクリプトを実行します。このスクリプトは、次の処理を行います。</p>
 <ul>
 <li><p>Lync Server 2013 に、Exchange UM Active Directory ドメインサービスオブジェクト (特に、前のタスクで作成した SIP ダイヤルプラン) を読み取るためのアクセス許可を付与します。</p></li>
 <li><p>エンタープライズ Voip が有効になっているユーザーをホストする Lync Server 2013 Enterprise Edition プールまたは Standard Edition サーバーごとに、Active Directory 内にユニファイドメッセージング IP ゲートウェイオブジェクトを作成します。</p></li>
@@ -185,7 +187,7 @@ Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を�
 </tr>
 <tr class="odd">
 <td><p>Exchange UM 統合ツールを実行します。</p></td>
-<td><p>Lync Server 2013 で、 <strong>ocsumutil</strong>を次のように実行します。</p>
+<td><p>Lync Server 2013 で、次の <strong>ocsumutil.exe</strong>を実行します。</p>
 <ul>
 <li><p>サブスクライバー アクセスおよび自動応答連絡先オブジェクトを作成します。</p></li>
 <li><p>Exchange UM ダイヤルプランの FQDN と一致する名前のエンタープライズ Voip ダイヤルプランがあることを検証します。 Exchange 2010 SP1 以降を実行している場合は、ダイヤルプラン名を一致させる必要がないため、このツールの警告を無視することができます。</p></li>
@@ -203,7 +205,7 @@ Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を�
 
 
 > [!NOTE]
-> 連絡先オブジェクトを作成するには、ocsumutil.exe を実行するユーザーが、新しい連絡先オブジェクトが保存される Active Directory 組織単位 (OU) への適切なアクセス許可を持たなければなりません。 このアクセス許可は、 <STRONG>Grant-CsOUPermission</STRONG>コマンドレットを実行することによって付与できます。 詳細については、Lync Server 管理シェルのドキュメントを参照してください。
+> 連絡先オブジェクトを作成するには、ocsumutil.exe を実行するユーザーが、新しい連絡先オブジェクトが保存される Active Directory 組織単位 (OU) への適切なアクセス許可を持たなければなりません。 このアクセス許可は、 <STRONG>Grant-CsOUPermission</STRONG> コマンドレットを実行することによって付与できます。 詳細については、Lync Server 管理シェルのドキュメントを参照してください。
 
 </td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Microsoft Exchange Server でユニファイドメッセージングを使用するように Lync Server 2013 を構成する</a></p></td>
@@ -231,9 +233,9 @@ Exchange ユニファイドメッセージング (UM) と Lync Server 2013 を�
 <td><p>Exchange UM のエンタープライズ Voip ユーザーを有効にします。</p></td>
 <td><p>Exchange UM サーバーで、ユニファイドメッセージングメールボックスポリシーが作成されており、各ユーザーが固有の内線番号の割り当てを持っていることを確認してから、ユーザーのユニファイドメッセージングを有効にします。</p></td>
 <td><p>Exchange 受信者管理者</p></td>
-<td><p>Exchange 2007 SP1 または最新のサービスパックに&quot;ついては、「ユーザーのユニファイ&quot;ド<a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a>メッセージングを有効にする方法」を参照してください。</p>
-<p>Exchange 2010 または最新のサービスパックに&quot;ついては、「を&quot;使用<a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a>してユーザーのユニファイドメッセージングを有効にする」を参照してください。</p>
-<p>Exchange 2013 については、「 <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>ユニファイドメッセージング」を参照してください。</p></td>
+<td><p>Exchange 2007 SP1 または最新のサービスパックについては、「 &quot; ユーザーのユニファイドメッセージングを有効にする方法」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a> 。</p>
+<p>Exchange 2010 または最新のサービスパックについては、「 &quot; を使用してユーザーのユニファイドメッセージングを有効にする」を参照してください &quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a> 。</p>
+<p>Exchange 2013 については、「ユニファイドメッセージング」を参照してください <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a> 。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,22 @@ ms:contentKeyID: 51803981
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a5ed5c138d1389f0a3d4882bcdd437b5e7919e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5ebbebde30d39a95879a766280d3f34a830683e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190680"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528654"
 ---
+# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a>Lync Server 2013 で会議デバイスを有効または無効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a>Lync Server 2013 で会議デバイスを有効または無効にする
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190680"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-を有効または無効にするには、「 **enable-csコンファレンス room**コマンドレット」および「 **disable-csroom room**コマンドレット」を使用して、会議デバイスを有効または無効にします。 これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+を有効または無効にするには、「 **enable-csコンファレンス room** コマンドレット」および「 **disable-csroom room** コマンドレット」を使用して、会議デバイスを有効または無効にします。 これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -56,7 +58,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 ## <a name="enabling-a-conferencing-device"></a>会議デバイスを有効にする
 
-  - 会議デバイスを有効にするには、 **-Csroom**コマンドレットを使用します。 会議デバイスを有効にする場合は、会議デバイス id、b) 会議室のアカウントが所属するレジストラープールと、そのアカウントに割り当てる SIP アドレスを含める必要があります。
+  - 会議デバイスを有効にするには、 **-Csroom** コマンドレットを使用します。 会議デバイスを有効にする場合は、会議デバイス id、b) 会議室のアカウントが所属するレジストラープールと、そのアカウントに割り当てる SIP アドレスを含める必要があります。
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -66,13 +68,13 @@ _**トピックの最終更新日:** 2013-02-20_
 
 ## <a name="disabling-a-conferencing-device"></a>会議デバイスを無効にする
 
-  - 会議デバイスを無効にするには、 **disable-Csroom**コマンドレットを使用します。 無効にする会議デバイスの id を指定していることを確認してください。
+  - 会議デバイスを無効にするには、 **disable-Csroom** コマンドレットを使用します。 無効にする会議デバイスの id を指定していることを確認してください。
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
 </div>
 
-詳細については、「 [Enable-Csroom room](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom)コマンドレット」および「 [Disable-csroom room](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom)コマンドレット」のヘルプトピックを参照してください。
+詳細については、「 [Enable-Csroom room](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) コマンドレット」および「 [Disable-csroom room](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) コマンドレット」のヘルプトピックを参照してください。
 
 </div>
 

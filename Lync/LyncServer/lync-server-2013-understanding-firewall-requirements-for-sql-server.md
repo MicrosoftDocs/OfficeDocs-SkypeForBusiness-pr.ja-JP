@@ -12,20 +12,22 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57f32d84e4cd08c40f95a47af7c988599678c972
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f836c71023defd6c826ab763d36e395a1240d3da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527744"
 ---
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Lync Server 2013 を使用した SQL Server のファイアウォール要件について
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Lync Server 2013 を使用した SQL Server のファイアウォール要件について
+
 
 </div>
 
@@ -145,7 +147,7 @@ Lync Server 2013 をサポートするデータベース用の SQL Server 構成
 
 ## <a name="sql-server-documentation"></a>SQL Server ドキュメント
 
-Microsoft SQL Server 2012 ドキュメントは、データベースのファイアウォールアクセスを構成する方法について詳細なガイダンスを提供します。 Microsoft SQL Server 2012 の詳細については、「」の「SQL Server へのアクセスを[https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031)許可するように Windows ファイアウォールを構成する」を参照してください。
+Microsoft SQL Server 2012 ドキュメントは、データベースのファイアウォールアクセスを構成する方法について詳細なガイダンスを提供します。 Microsoft SQL Server 2012 の詳細については、「」の「SQL Server へのアクセスを許可するように Windows ファイアウォールを構成する」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031) 。
 
 </div>
 

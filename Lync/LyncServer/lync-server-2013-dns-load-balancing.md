@@ -12,20 +12,22 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47469a8b47273c077a96196b06b827ac13a0e336
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79c2bb8e5bbcb9d00fe687d6f06ac6226a2edf6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197440"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528924"
 ---
+# <a name="dns-load-balancing-in-lync-server-2013"></a>Lync Server 2013 での DNS 負荷分散
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-load-balancing-in-lync-server-2013"></a>Lync Server 2013 での DNS 負荷分散
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server は、DNS 負荷分散を有効にします。これにより、ネ�
 
 DNS 負荷分散を展開すると、ハードウェアロードバランサーの管理オーバーヘッドが最小限に抑えられます。 さらに、SIP トラフィックの負荷分散装置の構成ミスに関する問題に対応するために、複雑なトラブルシューティングを行う必要がなくなります。 サーバーをオフラインにできるようにサーバー接続を禁止することもできます。 また、DNS 負荷分散を使用して、ハードウェア ロード バランサーの問題が基本的な通話のルーティングなどの SIP トラフィックの要素に影響しないようにすることもできます。
 
-また、DNS 負荷分散を使用すると、すべての種類のトラフィックに対応するハードウェア ロード バランサーを使用していた場合よりもハードウェア ロード バランサーを低価格で購入できます。 Lync Server との相互運用性認定テストに合格したロードバランサーを使用する必要があります。 ロードバランサー相互運用性テストの詳細については、「」の「Lync Server [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)2010 ロードバランサーパートナー」を参照してください。
+また、DNS 負荷分散を使用すると、すべての種類のトラフィックに対応するハードウェア ロード バランサーを使用していた場合よりもハードウェア ロード バランサーを低価格で購入できます。 Lync Server との相互運用性認定テストに合格したロードバランサーを使用する必要があります。 ロードバランサー相互運用性テストの詳細については、「」の「Lync Server 2010 ロードバランサーパートナー」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) 。
 
 DNS 負荷分散は、フロント エンド プール、エッジ サーバー プール、ディレクター プール、およびスタンドアロンの仲介サーバー プールでサポートされます。
 
@@ -57,7 +59,7 @@ DNS 負荷分散は、フロント エンド プール、エッジ サーバー 
 
 ## <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS 負荷分散およびサポートされる以前のクライアントとサーバー
 
-DNS 負荷分散は、Lync Server 2013 または Lync Server 2010 を実行しているサーバー、および Lync 2013 および Lync 2010 クライアントに対してのみ、自動フェールオーバーをサポートします。 以前のバージョンのクライアントおよび Office Communications Server は、DNS 負荷分散を実行しているプールに接続できますが、DNS 負荷分散が参照する最初のサーバーに接続できない場合、プール内の別のサーバーにフェールオーバーすることはできません。.
+DNS 負荷分散は、Lync Server 2013 または Lync Server 2010 を実行しているサーバー、および Lync 2013 および Lync 2010 クライアントに対してのみ、自動フェールオーバーをサポートします。 以前のバージョンのクライアントおよび Office Communications Server は、DNS 負荷分散を実行しているプールに接続できますが、DNS 負荷分散が参照する最初のサーバーに接続できない場合、プール内の別のサーバーにフェールオーバーすることはできません。
 
 また、Exchange UM を使用している場合は、少なくとも Exchange 2010 SP1 を使用して Lync Server DNS 負荷分散のサポートを受ける必要があります。 以前のバージョンの Exchange を使用している場合、次の Exchange UM シナリオでは、ユーザーはフェールオーバー機能を利用できません。
 
@@ -77,7 +79,7 @@ DNS 負荷分散は、Lync Server 2013 または Lync Server 2010 を実行し�
 
   - DNS 負荷分散を使用するプールに、次の 2 つの FQDN がある必要があります。まず、DNS 負荷分散で使用される通常のプールの FQDN (pool01.contoso.com など) で、プール内のサーバーの物理 IP に解決されます。次に、プールの Web サービスの別の FQDN (web01.contoso.com など) で、プールの仮想 IP アドレスに解決されます。
     
-    トポロジビルダーで、プールの DNS 負荷分散を展開する場合は、プールの Web サービス用の追加の FQDN を作成するには、[**内部 Web サービスプールの fqdn を上書き**する] チェックボックスをオンにして、[**このプールの Web サービス url を指定**します] ページで FQDN を入力する必要があります。
+    トポロジビルダーで、プールの DNS 負荷分散を展開する場合は、プールの Web サービス用の追加の FQDN を作成するには、[ **内部 Web サービスプールの fqdn を上書き** する] チェックボックスをオンにして、[ **このプールの Web サービス url を指定** します] ページで FQDN を入力する必要があります。
 
   - DNS 負荷分散で使用される FQDN をサポートするには、プールの FQDN (pool01.contoso.com など) をプール内のすべてのサーバーの IP アドレス (192.168.1.1、192.168.1.2 など) に解決するように DNS をプロビジョニングする必要があります。現在展開されているサーバーの IP アドレスのみ含めるようにしてください。
     
@@ -85,7 +87,7 @@ DNS 負荷分散は、Lync Server 2013 または Lync Server 2010 を実行し�
     
 
     > [!WARNING]  
-    > フロントエンドプールまたはフロントエンドサーバーが複数ある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンドサーバーの外部 Web サービスの FQDN を<STRONG>pool01.contoso.com</STRONG>として定義した場合、別のフロントエンドプールまたはフロントエンドサーバーに<STRONG>pool01.contoso.com</STRONG>を使用することはできません。 ディレクターを展開している場合は、ディレクターまたはディレクタープールに対して定義されている外部 Web サービスの FQDN が、他のすべてのディレクターまたはディレクタープールと、フロントエンドプールまたはフロントエンドサーバーとも一意である必要があります。 内部 web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンドプール、ディレクター、またはディレクタープールとは一意である必要があります。
+    > フロントエンドプールまたはフロントエンドサーバーが複数ある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンドサーバーの外部 Web サービスの FQDN を <STRONG>pool01.contoso.com</STRONG>として定義した場合、別のフロントエンドプールまたはフロントエンドサーバーに <STRONG>pool01.contoso.com</STRONG> を使用することはできません。 ディレクターを展開している場合は、ディレクターまたはディレクタープールに対して定義されている外部 Web サービスの FQDN が、他のすべてのディレクターまたはディレクタープールと、フロントエンドプールまたはフロントエンドサーバーとも一意である必要があります。 内部 web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンドプール、ディレクター、またはディレクタープールとは一意である必要があります。
 
     
     </div>
@@ -104,7 +106,7 @@ DNS 負荷分散は、Lync Server 2013 または Lync Server 2010 を実行し�
 
   - Lync Server 2010 より前にリリースされたバージョンの Office Communications Server を実行している組織とのフェデレーション。
 
-  - パブリックインスタントメッセージング (IM) サービス AOLand Yahoo\!のユーザーとのインスタントメッセージ交換 (Google Talk などの xmpp ベースのプロバイダーおよびサーバーに加えて)。
+  - パブリックインスタントメッセージング (IM) サービス AOLand Yahoo のユーザーとのインスタントメッセージ交換 ( \! Google Talk などの XMPP ベースのプロバイダーおよびサーバーに加えて)。
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c56c987fbda2e67ed0f04c7280e9dfd394f9c25
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57b06362ad70bedd8edd0baafc3d512cbbf95714
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214292"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528344"
 ---
+# <a name="hardware-setup-for-lync-server-2013"></a>Lync Server 2013 のハードウェアのセットアップ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-setup-for-lync-server-2013"></a>Lync Server 2013 のハードウェアのセットアップ
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**トピックの最終更新日:** 2013-02-21_
 
 トポロジを実装するために必要なインフラストラクチャで必要なハードウェアとその他のコンポーネントを設定するには、トポロジビルダーでトポロジを公開する前に、次のことを行う必要があります。
 
-  - 必要なすべてのコンピューター (Lync Server 2013、データベースサーバー、インターネットインフォメーションサービス (IIS) を実行しているサーバーを実行しているサーバー) を含む、トポロジビルダーを使用して作成および保存した各コンポーネントのハードウェアをインストールし、必要に応じて、リバースプロキシサーバー、ネットワークアダプター、ハードウェアロードバランサー、およびストレージデバイス (ファイルサーバーなど)。 ネットワーク アダプターについて推奨される数および速度に従っていることを確認してください。 ハードウェアロードバランサーを使用する場合は、それらを構成して Lync Server 2013 で使用できるようにするための適切な情報がベンダーから得られていることを確認してください。 ファイルサーバーまたはその他のサーバーを使用して Lync Server で必要なファイル共有を格納する場合は、サーバーが利用可能であり、ファイル共有の構成の準備が整っていることを確認してください。 展開に必要なコンポーネントを指定するトポロジを定義する方法の詳細については、「 [Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md)」を参照してください。 サーバーのハードウェア要件の詳細については、「サポート」のドキュメントの「supported [hardware For Lync Server 2013](lync-server-2013-supported-hardware.md) 」を参照してください。
+  - 必要なすべてのコンピューター (Lync Server 2013、データベースサーバー、インターネットインフォメーションサービス (IIS) を実行しているサーバー、およびリバースプロキシサーバーが適切な場合)、ネットワークアダプター、ハードウェアロードバランサー、およびストレージデバイス (ファイルサーバーなど) を含む、トポロジビルダーを使用して作成して保存したトポロジ設計に、各コンポーネントのハードウェアをインストールします。 ネットワーク アダプターについて推奨される数および速度に従っていることを確認してください。 ハードウェアロードバランサーを使用する場合は、それらを構成して Lync Server 2013 で使用できるようにするための適切な情報がベンダーから得られていることを確認してください。 ファイルサーバーまたはその他のサーバーを使用して Lync Server で必要なファイル共有を格納する場合は、サーバーが利用可能であり、ファイル共有の構成の準備が整っていることを確認してください。 展開に必要なコンポーネントを指定するトポロジを定義する方法の詳細については、「 [Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md)」を参照してください。 サーバーのハードウェア要件の詳細については、「サポート」のドキュメントの「supported [hardware For Lync Server 2013](lync-server-2013-supported-hardware.md) 」を参照してください。
 
-  - ネットワークインフラストラクチャが要件を満たしていることを確認してください。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 のネットワークインフラストラクチャ要件](lync-server-2013-network-infrastructure-requirements.md)」を参照してください。
+  - ネットワークインフラストラクチャが要件を満たしていることを確認してください。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 のネットワークインフラストラクチャ要件](lync-server-2013-network-infrastructure-requirements.md) 」を参照してください。
 
-  - Active Directory ドメインサービスをセットアップします。 AD DS の設定には、AD DS の準備、AD DS に展開するすべてのコンポーネントの定義などが含まれます。 AD DS の準備の詳細については、「展開」のドキュメントの「 [Active Directory ドメインサービスの Lync Server 2013 の準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。
+  - Active Directory ドメインサービスをセットアップします。 AD DS の設定には、AD DS の準備、AD DS に展開するすべてのコンポーネントの定義などが含まれます。 AD DS の準備の詳細については、「展開」のドキュメントの「 [Active Directory ドメインサービスの Lync Server 2013 の準備](lync-server-2013-preparing-active-directory-domain-services.md) 」を参照してください。
 
   - ファイル共有の作成に必要なアクセス許可を設定します。 Lync Server 2013 でファイル共有を使用するためのアクセス許可は、トポロジを公開するときに、トポロジビルダーによって自動的に構成されます。 ただし、トポロジビルダーで必要なアクセス許可を構成するためには、トポロジの公開に使用されるユーザーアカウントに、ファイル共有のフルコントロール (読み取り/書き込み/変更) が必要です。 トポロジビルダーの公開プロセス中にファイル共有を適切に管理できるようにするには、ユーザーまたはユーザーがメンバーになっているドメイングループを、ファイル共有が配置されているコンピューターのローカルの Administrators グループのメンバーにする必要があります。 マルチドメイン シナリオでは、ドメイン A のユーザーまたはグループを、ファイル共有が配置されるドメイン B のマシン上でローカルの Administrators グループのメンバーにしてください。
     

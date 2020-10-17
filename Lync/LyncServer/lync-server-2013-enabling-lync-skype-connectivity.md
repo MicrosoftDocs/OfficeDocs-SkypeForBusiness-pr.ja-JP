@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync と Skype の接続の有効化'
+title: 'Lync Server 2013: Lync-Skype 接続の有効化'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9cac7c88b2c3d9d6bd356a5340a5d4bb746e65a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43e26e54d0704ed009af1ef528e60979b759eb69
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187690"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528584"
 ---
+# <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>Lync Server 2013 での Lync-Skype 接続の有効化
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>Lync Server 2013 での Lync と Skype の接続の有効化
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42187690"
 
 _**トピックの最終更新日:** 2014-12-16_
 
-プロビジョニング要求を送信した後で、lync Server 環境と Lync-Skype 接続を構成するために必要な管理タスクに集中することができます。 このセクションでは、Lync server 管理者が Lync Server を展開し、外部アクセスを構成したと仮定します。 Lync Server の外部アクセスの構成の詳細については、「lync server [2013 での外部ユーザーアクセスの計画](lync-server-2013-planning-for-external-user-access.md)」および「 [lync server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。
+プロビジョニング要求を送信した後は、Lync Server 環境および Lync-Skype 接続を構成するために必要な管理タスクに集中できます。 このセクションでは、Lync server 管理者が Lync Server を展開し、外部アクセスを構成したと仮定します。 Lync Server の外部アクセスの構成の詳細については、「lync server [2013 での外部ユーザーアクセスの計画](lync-server-2013-planning-for-external-user-access.md) 」および「 [lync server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。
 
-Lync server 環境で Lync と Skype の接続を準備するには、Lync Server 管理者が次の3つのタスクを完了する必要があります。
+Lync server 環境で Lync-Skype 接続を準備するには、Lync Server 管理者が次の3つのタスクを完了する必要があります。
 
 <div>
 
@@ -67,7 +69,7 @@ Skype ユーザーが組織内の Lync ユーザーと通信できるように�
 
 Lync Server コントロールパネルを使用すると、管理者は1つ以上の外部ユーザーアクセスポリシーを構成して、Skype ユーザーが内部の Lync Server ユーザーと共同作業できるかどうかを制御する必要があります。
 
-![ポリシー](images/Dn440170.8fd46ad1-9749-422c-8c47-c16ac9032cdb(OCS.15).jpg "ポリシー")
+![ポリシー](images/Dn440170.8fd46ad1-9749-422c-8c47-c16ac9032cdb(OCS.15).jpg "Policies")
 
 </div>
 
@@ -87,9 +89,9 @@ Lync Server 管理シェルを使用して、管理者は Lync クライアン�
 
 </div>
 
-1.  フェデレーションと PIC を構成するには、「」の「フェデレーションとパブリック IM 接続[https://go.microsoft.com/fwlink/p/?LinkId=306063](https://go.microsoft.com/fwlink/p/?linkid=306063)を有効または無効にする」を参照してください。
+1.  フェデレーションと PIC を構成するには、「」の「フェデレーションとパブリック IM 接続を有効または無効にする」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=306063](https://go.microsoft.com/fwlink/p/?linkid=306063) 。
 
-2.  フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成するには、「」 [https://go.microsoft.com/fwlink/p/?LinkId=306064](https://go.microsoft.com/fwlink/p/?linkid=306064)の「パブリックユーザーアクセスを制御するようにポリシーを構成する」を参照してください。
+2.  フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成するには、「」の「パブリックユーザーアクセスを制御するようにポリシーを構成する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=306064](https://go.microsoft.com/fwlink/p/?linkid=306064) 。
 
 **既存の Messenger または Skype PIC プロバイダーを編集して Skype 用に構成するには**
 
@@ -103,7 +105,7 @@ Lync Server 管理シェルを使用して、管理者は Lync クライアン�
     
 
     > [!NOTE]  
-    > 環境に PIC プロバイダがなく、新しい PIC プロバイダを作成している場合は、 <STRONG>enable-cspublicprovider</STRONG>コマンドレットを実行する必要はありません。
+    > 環境に PIC プロバイダがなく、新しい PIC プロバイダを作成している場合は、 <STRONG>enable-cspublicprovider</STRONG> コマンドレットを実行する必要はありません。
 
     
     </div>
@@ -114,18 +116,18 @@ Lync Server 管理シェルを使用して、管理者は Lync クライアン�
     
 
     > [!NOTE]  
-    > Lync Server 2013 CU5 &amp; lync desktop Client in OFFICE 2013 SP1 では、NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、lync ユーザーが skype の連絡先を追加することによって、Microsoft 以外 @msn のドメインを識別して skype 形式にルーティングする必要がある状況を改善しました ()。 これらの新しい設定では、NameDecorationRoutingDomain (msn.com に設定する必要があります) の [Skype 連絡先の追加] ダイアログボックスで、ユーザーの入力を自動的に書式設定することができます (NameDecorationExcludedDomainList 内のドメインが含まれていない場合)。現時点では、msn.com、live.com、Hotmail.com、outlook.com) をサポートできます。
+    > Lync Server 2013 CU5 &amp; lync desktop client In Office 2013 SP1 では、NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、lync ユーザーが skype の連絡先を追加することによって、Microsoft 以外 @msn のドメインを識別して skype 形式にルーティングする必要がある状況を改善しました ()。 これらの新しい設定によって、NameDecorationRoutingDomain (現在は msn.com、live.com、Hotmail.com、outlook.com) のドメインが含まれていない場合は、[Skype 連絡先の追加] ダイアログボックスの [Skype 連絡先の追加] ダイアログボックスで、ユーザーの入力を自動書式設定することができます (msn.com に設定する必要があります)。
 
     
     </div>
 
-3.  Lync クライアントから、PIC プロバイダーとして Skype を選択し、Microsoft アカウントを指定して Skype クライアントを追加できるようになりました。 また、Microsoft アカウントを使用して合併およびログインした Skype ユーザーは、Lync ユーザーに対して連絡先要求を送信できます。 Microsoft アカウントの詳細については、「 [microsoft アカウントとは](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)」を参照してください。 Lync にクライアントを追加する方法の詳細については、「lync [Server 2013 でのエンドユーザーとしての lync 接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)」を参照してください。
+3.  Lync クライアントから、PIC プロバイダーとして Skype を選択し、Microsoft アカウントを指定して Skype クライアントを追加できるようになりました。 また、Microsoft アカウントを使用して合併およびログインした Skype ユーザーは、Lync ユーザーに対して連絡先要求を送信できます。 Microsoft アカウントの詳細については、「 [microsoft アカウントとは](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)」を参照してください。 Lync にクライアントを追加する方法の詳細については、「 [Lync Server 2013 でのエンドユーザーとしての Lync-Skype 接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)」を参照してください。
     
     ![Skype 連絡先を追加する](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "Skype 連絡先を追加する")
 
-4.  ホストされるプロバイダーの変更の詳細については、「」の「ホストさ[https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065)れた SIP フェデレーションプロバイダーを作成または編集する」を参照してください。
+4.  ホストされるプロバイダーの変更の詳細については、「」の「ホストされた SIP フェデレーションプロバイダーを作成または編集する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065) 。
 
-これで、サーバー上で実行する必要のある管理タスクが完了します。 これで、Lync と Skype の接続が設定されました。
+これで、サーバー上で実行する必要のある管理タスクが完了します。 これで Lync-Skype 接続がセットアップされます。
 
 </div>
 

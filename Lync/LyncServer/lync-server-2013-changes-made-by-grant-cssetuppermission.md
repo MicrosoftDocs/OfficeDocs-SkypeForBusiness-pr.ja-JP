@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Grant-CsSetupPermission によって行われた変更'
+title: 'Lync Server 2013: Grant-CsSetupPermission によって加えられた変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98ac8f4f84280fb8980d38170fc964157b8037ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ec13a23daf0f3dae47ae0ce0dc630e64c596e7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191530"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529414"
 ---
+# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Lync Server 2013 での Grant-CsSetupPermission による変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Lync Server 2013 で付与-CsSetupPermission によって加えられた変更
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42191530"
 
 _**トピックの最終更新日:** 2012-06-20_
 
-セットアップを委任するには、特定の Active Directory 組織単位 (OU) の RTCUniversalServerAdmins ユニバーサルグループに対するアクセス許可を付与します。この 2013 OU の RTCUniversalServerAdmins グループのメンバーは、指定されたdomain Admins グループのメンバーではないドメイン。
+セットアップを委任するには、特定の Active Directory 組織単位 (OU) の RTCUniversalServerAdmins ユニバーサルグループに対するアクセス許可を付与します。この OU の RTCUniversalServerAdmins グループのメンバーは、Domain Admins グループのメンバーではなく、指定したドメインに Lync Server 2013 をインストールすることができます。
 
 **Grant-CsSetupPermission** コマンドレットは、次の表で指定されているように、RTCUniversalServerAdmins グループに OU に対するアクセス許可を付与します。
 

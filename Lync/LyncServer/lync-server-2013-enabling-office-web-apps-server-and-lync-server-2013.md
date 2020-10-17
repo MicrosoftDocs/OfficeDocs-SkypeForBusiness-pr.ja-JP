@@ -12,20 +12,22 @@ ms:contentKeyID: 48183790
 ms.date: 08/19/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5b3febefc8f6ee08f16fc958f6f12b0c32f4d08
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89ec4337bd4bc728f9737ecb75bb29075831bc09
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207873"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528544"
 ---
+# <a name="configuring-integration-with-office-web-apps-server-and-lync-server-2013"></a>Office Web Apps Server および Lync Server 2013 との統合の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-integration-with-office-web-apps-server-and-lync-server-2013"></a>Office Web Apps Server および Lync Server 2013 との統合の構成
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2016-08-19_
 
 Lync Server 2013 は、Office Web Apps サーバーを採用して PowerPoint プレゼンテーションを処理します。 このアプローチの利点については、「 [Lync Server 2013 の web 会議の概要](lync-server-2013-web-conferencing-overview.md)」を参照してください。
 
-これらの新機能を使用するには、管理者が Office Web Apps サーバーをインストールする必要があります。また、Office Web Apps サーバーと通信するように Lync Server 2013 を構成する必要があります。 このドキュメントでは、Office Web Apps サーバーを使用するように Lync Server 2013 を構成する方法について説明します。 このドキュメントでは、Office Web Apps サーバー自体をインストールする方法について説明します。その情報については、「Microsoft Office Web Apps 展開<https://go.microsoft.com/fwlink/p/?linkid=257525>web サイト」を参照してください。 このガイドには、Office Web Apps サーバーの完全な前提条件に関する情報が含まれています。Office Web Apps サーバーは、Lync Server、Microsoft SQL Server、またはその他のサーバーアプリケーションを実行していないスタンドアロンのコンピューターにインストールする必要があることに注意してください。 (そのコンピューターに Microsoft Office のバージョンがインストールされていないことが必要です。)Office Web Apps サーバーを実行するために使用するコンピューターには、(.NET Framework 4.5 および Windows PowerShell 3.0 を含む) 特定のソフトウェアセットがインストールされている必要もあります。これらの要件と、証明書およびインターネットインフォメーションサービス (IIS) の構成に関する情報については、「Microsoft Office Web Apps 展開<https://go.microsoft.com/fwlink/p/?linkid=257525>web サイト」を参照してください。
+これらの新機能を使用するには、管理者が Office Web Apps サーバーをインストールする必要があります。また、Office Web Apps サーバーと通信するように Lync Server 2013 を構成する必要があります。 このドキュメントでは、Office Web Apps サーバーを使用するように Lync Server 2013 を構成する方法について説明します。 このドキュメントでは、Office Web Apps サーバー自体をインストールする方法について説明します。その情報については、「Microsoft Office Web Apps 展開 web サイト」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=257525> 。 このガイドには、Office Web Apps サーバーの完全な前提条件に関する情報が含まれています。Office Web Apps サーバーは、Lync Server、Microsoft SQL Server、またはその他のサーバーアプリケーションを実行していないスタンドアロンのコンピューターにインストールする必要があることに注意してください。 (そのコンピューターに Microsoft Office のバージョンがインストールされていないことが必要です。)Office Web Apps サーバーを実行するために使用するコンピューターには、(.NET Framework 4.5 および Windows PowerShell 3.0 を含む) 特定のソフトウェアセットがインストールされている必要もあります。これらの要件と、証明書およびインターネットインフォメーションサービス (IIS) の構成に関する情報については、「Microsoft Office Web Apps 展開 web サイト」を参照して <https://go.microsoft.com/fwlink/p/?linkid=257525> ください。
 
 <div>
 

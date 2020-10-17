@@ -12,20 +12,22 @@ ms:contentKeyID: 49733584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ceef06ca0078b9a34c9f02e1ed3be91ab9b34aa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e0b637ea06d0255d53f73eef0385c3e929045071
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187664"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528534"
 ---
+# <a name="enabling-monitoring-in-lync-server-2013"></a>Lync Server 2013 での監視の有効化
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-monitoring-in-lync-server-2013"></a>Lync Server 2013 での監視の有効化
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-17_
 
 統合データ収集エージェントは各フロントエンドサーバーに自動的にインストールされ、アクティブ化されますが、Microsoft Lync Server 2013 のインストールが完了すると、自動的に監視データの収集が開始されるということではありません。 その代わりに、フロントエンドサーバーとフロントエンドプールを監視データベースに関連付ける必要があります。また、通話詳細記録 (CDR) および Quality of Experience (QoE) の監視をグローバルスコープまたはサイトスコープで有効にする必要があります。
 
-フロントエンドサーバーまたはフロントエンドプールを監視データベースに関連付ける詳細な手順については、「展開ガイド」の「 [Lync Server 2013 でのフロントエンドプールへの監視ストアの関連付け](lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md)」を参照してください。 これらの関連付けが終わり、新しい Lync Server トポロジを公開しても、まだ監視データを収集することはできません。 これは、既定では、Lync Server 2013 をインストールすると、CDR と QoE のデータ収集の両方が無効になるためです。
+フロントエンドサーバーまたはフロントエンドプールを監視データベースに関連付ける詳細な手順については、「展開ガイド」の「 [Lync Server 2013 でのフロントエンドプールへの監視ストアの関連付け](lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md) 」を参照してください。 これらの関連付けが終わり、新しい Lync Server トポロジを公開しても、まだ監視データを収集することはできません。 これは、既定では、Lync Server 2013 をインストールすると、CDR と QoE のデータ収集の両方が無効になるためです。
 
 データ収集を開始するには、CDR 監視と QoE 監視のどちらかまたは両方を有効にする必要があります (CDR 監視と QoE 監視を両方とも有効にする必要はありません。 (必要に応じて、1つの種類の監視を有効にして、もう一方の種類を無効のままにすることができます)。グローバルスコープで CDR 監視を有効にするには、Lync Server 管理シェルで次のコマンドを実行します。
 

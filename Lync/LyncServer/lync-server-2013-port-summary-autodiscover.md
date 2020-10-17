@@ -12,20 +12,22 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93750418bce8ea98d0cee385232bc09bb0bd63bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57397d3c2629c0f3f69ebb616c3d933c8312f7b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527954"
 ---
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 での自動検出
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 での自動検出
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42208823"
 
 _**トピックの最終更新日:** 2013-03-05_
 
-Lync Server 2013 の自動検出サービスは、ディレクターおよびフロントエンドプールのサーバー上で実行され、 `lyncdiscover.<domain>`および`lyncdiscoverinternal.<domain>`ホストレコードを使用して DNS で公開されると、クライアントが lync server の機能を検索するために使用できます。 Lync Mobile を実行しているモバイルデバイスで自動検出を使用するには、まず、自動検出サービスを実行しているすべてのディレクターおよびフロントエンドサーバーで、証明書のサブジェクトの別名の一覧を変更する必要があります。 さらに、リバースプロキシの外部 web サービス公開ルールに使用される証明書のサブジェクトの別名の一覧を変更する必要がある場合があります。
+Lync Server 2013 の自動検出サービスは、ディレクターおよびフロントエンドプールのサーバー上で実行され、およびホストレコードを使用して DNS で公開されると `lyncdiscover.<domain>` `lyncdiscoverinternal.<domain>` 、クライアントが lync server の機能を検索するために使用できます。 Lync Mobile を実行しているモバイルデバイスで自動検出を使用するには、まず、自動検出サービスを実行しているすべてのディレクターおよびフロントエンドサーバーで、証明書のサブジェクトの別名の一覧を変更する必要があります。 さらに、リバースプロキシの外部 web サービス公開ルールに使用される証明書のサブジェクトの別名の一覧を変更する必要がある場合があります。
 
 リバースプロキシでサブジェクトの別名の一覧を使用するかどうかは、自動検出サービスをポート80またはポート443に公開するかどうかに基づいて決定されます。
 
-  - **ポート 80**   で公開されているモバイルデバイスでは、自動検出サービスへの初期クエリがポート80経由で行われる場合、証明書の変更は必要ありません。 これは、Lync を実行しているモバイルデバイスがポート80のリバースプロキシに外部でアクセスし、内部でポート8080のディレクターまたはフロントエンドサーバーにリダイレクトされるためです。
+  - **ポート 80**     で公開モバイルデバイスでは、自動検出サービスへの初期クエリがポート80で行われる場合、証明書の変更は必要ありません。 これは、Lync を実行しているモバイルデバイスがポート80のリバースプロキシに外部でアクセスし、内部でポート8080のディレクターまたはフロントエンドサーバーにリダイレクトされるためです。
 
-  - **発行元ポート 443**   外部 web サービス公開ルールで使用される証明書のサブジェクトの別名リストには`lyncdiscover.<sipdomain>` 、組織内の各 SIP ドメインのエントリが含まれている必要があります。
+  - **ポート 443**     で公開外部 web サービス公開ルールで使用される証明書のサブジェクトの別名リストには、 `lyncdiscover.<sipdomain>` 組織内の各 SIP ドメインのエントリが含まれている必要があります。
     
     <div>
     
@@ -68,7 +70,7 @@ Lync Server 2013 の自動検出サービスは、ディレクターおよびフ
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -76,7 +78,7 @@ Lync Server 2013 の自動検出サービスは、ディレクターおよびフ
 <td><p>HTTP/TCP/80</p></td>
 <td><p>任意</p></td>
 <td><p>リバース プロキシのリスナー</p></td>
-<td><p>オプションユーザーが http://&lt;publishedsitefqdn&gt;を入力した場合は、HTTPS にリダイレクトします。 また、組織で外部 web サービス公開ルール証明書を変更しない場合に、Lync を実行しているモバイルデバイス用の Office Web Apps および自動検出サービスを使用する場合にも必要です。</p></td>
+<td><p>オプションユーザーが http://publishedsitefqdn を入力した場合は、HTTPS にリダイレクト &lt; &gt; します。 また、組織で外部 web サービス公開ルール証明書を変更しない場合に、Lync を実行しているモバイルデバイス用の Office Web Apps および自動検出サービスを使用する場合にも必要です。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
@@ -102,7 +104,7 @@ Lync Server 2013 の自動検出サービスは、ディレクターおよびフ
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c181c16e5480d1dc7659ed3778faf738eed70949
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c530387fa9f504120ff3a8f38128eeb07b04e615
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212703"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527644"
 ---
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Lync Server 2013 でのセットアップコマンドラインオプションの使用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Lync Server 2013 でのセットアップコマンドラインオプションの使用
+
 
 </div>
 
@@ -65,7 +67,7 @@ Office Setup.exe コマンド ラインは、次の表に示すコマンドラ�
 </tr>
 <tr class="odd">
 <td><p>/config [パス]</p></td>
-<td><p>インストール時にセットアップによって使用される Config.xml ファイルを指定します。 次の例のように、/config オプションを使用して、Lync 2013 のインストール用にカスタマイズした Config.xml ファイルを指定します。<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>インストール時にセットアップによって使用される Config.xml ファイルを指定します。 次の例のように、/config オプションを使用して、Lync 2013 のインストール用にカスタマイズした Config.xml ファイルを指定します。 <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
 <td><p>/modify Lync</p></td>
@@ -83,7 +85,7 @@ Office Setup.exe コマンド ラインは、次の表に示すコマンドラ�
 </table>
 
 
-セットアップコマンドラインオプションの使用の詳細については<https://go.microsoft.com/fwlink/p/?linkid=267515>、「」を参照してください。
+セットアップコマンドラインオプションの使用の詳細については、「」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=267515> 。
 
 </div>
 

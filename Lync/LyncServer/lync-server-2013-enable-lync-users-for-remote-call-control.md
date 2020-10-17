@@ -12,20 +12,22 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a400b5a071a3540f65c38d606724df10883931e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37d5aa0b9f13f17dee91ff48048908cde3dbc2cf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190670"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528734"
 ---
+# <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013 で Lync ユーザーのリモート通話コントロールを有効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013 で Lync ユーザーのリモート通話コントロールを有効にする
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 サーバーベースのインバンドプロビジョニングポリシーを使用して、リモート通話コントロールの Lync ユーザーを構成することができます。 インバンドプロビジョニングの設定は、Lync Server コントロールパネルまたは Lync Server 管理シェルコマンドラインインターフェイスを使用して管理できます。 これらのツールは、以前のリリースでグループポリシー設定を管理するために使用された Windows Management Instrumentation (WMI) スナップインに代わるものです。
 
-ユーザーが Lync で独自のリモート通話コントロールの設定を構成できるようにする場合は、 **Line SERVER uri**と**line uri**値を指定せずに、サーバー上のユーザーのリモート通話コントロール設定を構成できます。 適切な**回線サーバーの uri**と**回線 uri**の値をユーザーに伝えるようにして、これらの設定を構成するための指示をユーザーに提供してください。 Lync Server でリモート通話コントロールを手動で構成する手順については、Microsoft Office web サイトの<https://go.microsoft.com/fwlink/p/?linkid=210132> 「Lync クライアントドキュメント」の「電話のオプションと番号を設定する」を参照してください。
+ユーザーが Lync で独自のリモート通話コントロールの設定を構成できるようにする場合は、 **Line SERVER uri** と **line uri** 値を指定せずに、サーバー上のユーザーのリモート通話コントロール設定を構成できます。 適切な **回線サーバーの uri** と **回線 uri** の値をユーザーに伝えるようにして、これらの設定を構成するための指示をユーザーに提供してください。 Lync Server でリモート通話コントロールを手動で構成する手順については、 <https://go.microsoft.com/fwlink/p/?linkid=210132> Microsoft Office web サイトの「Lync クライアントドキュメント」の「電話のオプションと番号を設定する」を参照してください。
 
 既存の Communications Server 2007 R2 または Communications Server 2007 の展開を使用している場合、Communicator 2007 R2 および Communicator 2007 クライアントは、side-by-side 移行時にグループポリシーを引き続き使用します。 ただし、ポリシー設定が Lync クライアントに引き継がれるようにするには、対応する Lync Server のインバンドプロビジョニング設定を構成する必要があります。
 
@@ -57,7 +59,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 ## <a name="to-enable-remote-call-control-for-lync-enabled-users-by-using-management-shell"></a>管理シェルを使用して、Lync で有効になっているユーザーのリモート通話コントロールを有効にするには
 
-1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または、**設定-CsUser**コマンドレットを割り当てた役割ベースのアクセス制御の役割としてログオンします。
+1.  Lync Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または、 **設定-CsUser** コマンドレットを割り当てた役割ベースのアクセス制御の役割としてログオンします。
 
 2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
@@ -81,7 +83,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 3.  左側のナビゲーション バーで **[ユーザー]** をクリックします。
 
-4.  [**ユーザーの検索**] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) のアカウント名、SIP アドレス、または必要なユーザーアカウントの回線 Uri (Uniform resource identifier) の全体 (または最初の部分) を入力し、[**検索**] をクリックします。
+4.  [ **ユーザーの検索** ] ボックスに、表示名、名、姓、セキュリティアカウントマネージャー (SAM) のアカウント名、SIP アドレス、または必要なユーザーアカウントの回線 Uri (Uniform resource identifier) の全体 (または最初の部分) を入力し、[ **検索**] をクリックします。
 
 5.  表中の変更するユーザー アカウントをクリックします。
 
@@ -89,9 +91,9 @@ _**トピックの最終更新日:** 2012-09-21_
 
 7.  **[テレフォニー]** で、次のいずれかの操作を実行します。
     
-      - リモート通話コントロールを有効にして、ユーザーが Lync 2013 から自社の構内交換機 (PBX) 電話を制御できるようにして、PC 間の音声通話と PC 間通話を行うには、[**リモート通話コントロール**] をクリックします。 **[回線 URI]** でユーザーの電話番号を指定します。 **[回線サーバー URI]** で、SIP/CSTA ゲートウェイの SIP URI を指定します。
+      - リモート通話コントロールを有効にして、ユーザーが Lync 2013 から自社の構内交換機 (PBX) 電話を制御できるようにして、PC 間の音声通話と PC 間通話を行うには、[ **リモート通話コントロール**] をクリックします。 **[回線 URI]** でユーザーの電話番号を指定します。 **[回線サーバー URI]** で、SIP/CSTA ゲートウェイの SIP URI を指定します。
     
-      - リモート通話コントロールを有効にするが、PC 間の音声通話を無効にし、ユーザーのみが Lync 2013 からの PBX 電話を制御できるようにするには、[**リモート通話コントロールのみ**] をクリックします。 **[回線 URI]** でユーザーの電話番号を指定します。 **[回線サーバー URI]** で、SIP/CSTA ゲートウェイの SIP URI を指定します。
+      - リモート通話コントロールを有効にするが、PC 間の音声通話を無効にし、ユーザーのみが Lync 2013 からの PBX 電話を制御できるようにするには、[ **リモート通話コントロールのみ**] をクリックします。 **[回線 URI]** でユーザーの電話番号を指定します。 **[回線サーバー URI]** で、SIP/CSTA ゲートウェイの SIP URI を指定します。
 
 8.  終了したら、**[確定]** をクリックします。
 

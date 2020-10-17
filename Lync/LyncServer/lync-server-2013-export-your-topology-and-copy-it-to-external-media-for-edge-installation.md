@@ -12,20 +12,22 @@ ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52903a2e7ae1b9a3a994a1199e32d8d7c4bd1e03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5dd461e6a8ce184e5e418feddede258af68d2c25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528374"
 ---
+# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>エッジインストールのために Lync Server 2013 トポロジをエクスポートして外部メディアにコピーする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>エッジインストールのために Lync Server 2013 トポロジをエクスポートして外部メディアにコピーする
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202353"
 
 _**トピックの最終更新日:** 2012-09-08_
 
-トポロジを公開した後、Lync Server 展開ウィザードは、サーバー上で展開プロセスを開始するために、中央管理ストアのデータにアクセスする必要があります。 内部ネットワークでは、データはサーバーから直接使用できますが、内部ドメインにないエッジサーバーはデータにアクセスできません。 トポロジ構成データをエッジサーバーの展開に使用できるようにするには、Lync Server の Dep を実行する前に、トポロジデータをファイルにエクスポートして外部メディア (たとえば、エッジサーバーから使用できる USB ドライブやネットワーク共有) にコピーする必要があります。エッジサーバー上の loyment ウィザード。 展開するエッジサーバーでトポロジ構成データを使用できるようにするには、次の手順を使用します。
+トポロジを公開した後、Lync Server 展開ウィザードは、サーバー上で展開プロセスを開始するために、中央管理ストアのデータにアクセスする必要があります。 内部ネットワークでは、データはサーバーから直接使用できますが、内部ドメインにないエッジサーバーはデータにアクセスできません。 トポロジ構成データをエッジサーバーの展開に使用できるようにするには、エッジサーバーで Lync Server 展開ウィザードを実行する前に、トポロジデータをファイルにエクスポートして外部メディア (たとえば、エッジサーバーから使用できる USB ドライブやネットワーク共有) にコピーする必要があります。 展開するエッジサーバーでトポロジ構成データを使用できるようにするには、次の手順を使用します。
 
 <div>
 

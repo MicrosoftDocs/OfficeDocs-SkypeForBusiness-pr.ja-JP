@@ -12,20 +12,22 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0216cada44f2512e33a0b33b627ed9a6d6582cda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de9a5c9015dcaf83252260c89837a473a6a2291f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208813"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527974"
 ---
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Lync Server 2013 で場所データベースを設定する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="populate-the-location-database-in-lync-server-2013"></a>Lync Server 2013 で場所データベースを設定する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208813"
 
 _**トピックの最終更新日:** 2012-09-17_
 
-ネットワーク内のクライアントを自動的に検索するには、まず、場所データベースにネットワークのアドレスマップを設定します。これに*より、ネットワーク*要素は、(つまり、ストリートの) 住所にマッピングされます。 サブネット、ワイヤレスアクセスポイント、スイッチ、およびポートを使用して、wiremap を定義できます。
+ネットワーク内のクライアントを自動的に検索するには、まず、場所データベースにネットワークのアドレスマップを設定します。これに *より、ネットワーク*要素は、(つまり、ストリートの) 住所にマッピングされます。 サブネット、ワイヤレスアクセスポイント、スイッチ、およびポートを使用して、wiremap を定義できます。
 
 住所は場所データベースに個別に追加することも、次の表に示す列形式を含む CSV ファイルを使用して一括で追加することもできます。
 
@@ -58,29 +60,29 @@ _**トピックの最終更新日:** 2012-09-17_
 <tbody>
 <tr class="odd">
 <td><p><strong>ワイヤレスアクセスポイント</strong></p></td>
-<td><p>&lt;BSSID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</p>
-<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;City&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</p></td>
+<td><p>&lt;BSSID &gt; 、 &lt; Description &gt; 、 &lt; Location &gt; 、 &lt; CompanyName &gt; 、 &lt; HouseNumber &gt; 、 &lt; HouseNumberSuffix &gt; 、 &lt; predirectional &gt; ,...</p>
+<p>... &lt;StreetName &gt; 、 &lt; StreetSuffix &gt; 、 &lt; postdirectional &gt; 、 &lt; City &gt; 、 &lt; 都道府県 &gt; 、 &lt; 郵便 &gt; &lt; 番号、国&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>サブネット</strong></p></td>
-<td><p>&lt;Subnet&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</p>
-<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;City&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</p></td>
+<td><p><strong>Subnet</strong></p></td>
+<td><p>&lt;Subnet &gt; 、 &lt; Description &gt; 、 &lt; Location &gt; 、 &lt; CompanyName &gt; 、 &lt; HouseNumber &gt; 、 &lt; HouseNumberSuffix &gt; 、 &lt; predirectional &gt; ,...</p>
+<p>... &lt;StreetName &gt; 、 &lt; StreetSuffix &gt; 、 &lt; postdirectional &gt; 、 &lt; City &gt; 、 &lt; 都道府県 &gt; 、 &lt; 郵便 &gt; &lt; 番号、国&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Port</strong></p></td>
-<td><p>&lt;ChPortIDSubType sid&gt;、&lt;&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;,...</p>
-<p>...&lt;Predirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;City&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</p></td>
+<td><p>&lt;ChPortIDSubType Sid &gt; 、 &lt; &gt; 、 &lt; PortID &gt; 、 &lt; Description &gt; 、 &lt; Location &gt; 、 &lt; CompanyName &gt; 、 &lt; HouseNumber &gt; 、 &lt; HouseNumberSuffix &gt; ,...</p>
+<p>... &lt;PreDirectional &gt; 、 &lt; StreetName &gt; 、 &lt; StreetSuffix &gt; 、 &lt; postdirectional &gt; 、 &lt; City &gt; 、 &lt; 都道府県 &gt; 、 &lt; 郵便 &gt; &lt; 番号、国&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>スイッチ</strong></p></td>
-<td><p>&lt;ChHouseNumber sid&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;CompanyName&gt;、&lt;&gt;、&lt;HouseNumberSuffix&gt;、&lt;predirectional&gt;,...</p>
-<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;postdirectional&gt;、&lt;City&gt;、&lt;都道府県&gt;、&lt;郵便&gt;番号&lt;、国&gt;</p></td>
+<td><p>&lt;ChHouseNumber Sid &gt; 、 &lt; Description &gt; 、 &lt; Location &gt; 、 &lt; CompanyName &gt; 、 &lt; &gt; 、 &lt; HouseNumberSuffix &gt; 、 &lt; predirectional &gt; ,...</p>
+<p>... &lt;StreetName &gt; 、 &lt; StreetSuffix &gt; 、 &lt; postdirectional &gt; 、 &lt; City &gt; 、 &lt; 都道府県 &gt; 、 &lt; 郵便 &gt; &lt; 番号、国&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-場所データベースにデータを設定せず、場所ポリシーで**必要な場所**が **[はい]** または [**免責事項**] に設定されている場合、クライアントはユーザーに手動で場所を入力するように求めるメッセージを表示します。
+場所データベースにデータを設定せず、場所ポリシーで **必要な場所** が **[はい]** または [ **免責事項**] に設定されている場合、クライアントはユーザーに手動で場所を入力するように求めるメッセージを表示します。
 
 場所データベースの設定の詳細については、以下のコマンドレットの Lync Server Management Shell のドキュメントを参照してください。
 
@@ -88,7 +90,7 @@ _**トピックの最終更新日:** 2012-09-17_
 
   - **CsLisSubnet**
 
-  - CsLisSubnet
+  - Remove-CsLisSubnet
 
   - **CsLisWirelessAccessPoint**
 
@@ -116,11 +118,11 @@ _**トピックの最終更新日:** 2012-09-17_
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    ELIN ゲートウェイの場合は、ELIN を CompanyName フィールドに配置します。 複数の ELIN を含めることができます。 次に例を示します。
+    ELIN ゲートウェイの場合は、ELIN を CompanyName フィールドに配置します。 複数の ELIN を含めることができます。 以下に例を示します。
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    または、次のコマンドレットを実行して、"subnet. csv" という名前のファイルを使用して、サブネットの場所を一括で更新することもできます。
+    または、次のコマンドレットを実行して、"subnets.csv" という名前のファイルを使用して、サブネットの場所を一括で更新することもできます。
     
         $g = Import-Csv subnets.csv
         $g | Set-CsLisSubnet
@@ -129,7 +131,7 @@ _**トピックの最終更新日:** 2012-09-17_
     
         Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
     
-    または、次のコマンドレットを実行して、"wap" という名前のファイルを使用して、ワイヤレスの場所を一括で更新することもできます。
+    または、次のコマンドレットを実行して、"waps.csv" という名前のファイルを使用して、ワイヤレスの場所を一括で更新することもできます。
     
         $g = Import-Csv waps.csv
         $g | Set-CsLisWirelessAccessPoint
@@ -138,7 +140,7 @@ _**トピックの最終更新日:** 2012-09-17_
     
         Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    または、次のコマンドレットを実行して、スイッチの場所を一括で更新する "スイッチ" という名前のファイルを使用することもできます。
+    または、次のコマンドレットを実行して、"switches.csv" という名前のファイルを使用して、スイッチの場所を一括で更新することもできます。
     
         $g = Import-Csv switches.csv
         $g | Set-CsLisSwitch
@@ -149,7 +151,7 @@ _**トピックの最終更新日:** 2012-09-17_
     
     PortIDSubType の既定値は、割り当てられています。 InterfaceAlias または InterfaceName に設定することもできます。
     
-    または、次のコマンドレットを実行し、"ports. .csv" という名前のファイルを使用して、ポートの場所を一括で更新することもできます。
+    または、次のコマンドレットを実行して、"ports.csv" という名前のファイルを使用して、ポートの場所を一括で更新することもできます。
     
         $g = Import-Csv ports.csv
         $g | Set-CsLisPort

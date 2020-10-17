@@ -12,20 +12,22 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea97a57deba77e0bc5b7f2a77a973bb1fb8c21b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa0164a9e3003c130bc7b14a4312397a4559843c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528244"
 ---
+# <a name="health-configuration-in-lync-server-2013"></a>Lync Server 2013 の正常性構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="health-configuration-in-lync-server-2013"></a>Lync Server 2013 の正常性構成
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2012-10-22_
 
 Lync server は、ネットワーククラッシュやハードウェア障害などの多くの要因によっては、製品自体が制御できないため、lync server 2013 で問題が発生しないことを保証する方法はありません。 正常性の監視を実装することで、管理者は、実際の問題になる前に潜在的な問題を特定することができます。 たとえば、管理者は Lync Server 監視を使用して、傾向と tendencies を識別できます。 たとえば、音声ビデオ会議の数が着実に増加した場合は、システムが過負荷になる前に容量を追加する必要があります。
 
-同様の方法で、管理者は System Center Operations Manager を使用して、指定したイベントが発生したときにリアルタイムでの通知を発行したり、システムを事前にテストする代理トランザクションを実行したりすることができます。 代理トランザクションは、ユーザーがシステムへのログオン、インスタントメッセージの交換、または公衆交換電話網 (PSTN) に配置された電話機への通話の作成などの一般的なタスクを正常に完了できることを確認するために、Lync Server で使用されます。 たとえば、このようなテストを定期的に実行することで、Lync Server にログオンしているユーザーに関する潜在的な問題について警告し、ユーザーからの呼び出しによってサポートチームがあふれて、接続を確立できないという問題を解決できるようになります。 System Center Operations Manager を使用してこれらの代理トランザクションを実行することにより、管理者は毎日24時間で Lync Server の展開を継続的に監視することができます。発行されます。
+同様の方法で、管理者は System Center Operations Manager を使用して、指定したイベントが発生したときにリアルタイムでの通知を発行したり、システムを事前にテストする代理トランザクションを実行したりすることができます。 代理トランザクションは、ユーザーがシステムへのログオン、インスタントメッセージの交換、または公衆交換電話網 (PSTN) に配置された電話機への通話の作成などの一般的なタスクを正常に完了できることを確認するために、Lync Server で使用されます。 たとえば、このようなテストを定期的に実行することで、Lync Server にログオンしているユーザーに関する潜在的な問題について警告し、ユーザーからの呼び出しによってサポートチームがあふれて、接続を確立できないという問題を解決できるようになります。 System Center Operations Manager を使用してこれらの代理トランザクションを実行することにより、管理者は、発行される可能性のあるアラートに対する応答を超えることなく、毎日24時間で Lync Server の展開を継続的に監視することができます。
 
 <div>
 
@@ -55,7 +57,7 @@ Lync server は、ネットワーククラッシュやハードウェア障害�
 
 Lync Server 2013 の正常性構成は、System Center Operations Manager および Lync Server 管理パックの使用に基づいて構築されています。 これらの管理パックには、次のような新機能と機能拡張が含まれます。
 
-  - **場所を問わないシナリオの可用性。** Lync Server 2010 管理パックでは、代理トランザクションを使用したエンドユーザーシナリオの可用性を監視する概念が導入されています。 Lync Server 2013 では、これらのエージェントはより多くの代理トランザクションを持っており、企業内のさまざまな場所から、企業外の離れた場所から、ブランチオフィスアプライアンス、および Lync Server 2010 に対して実行することができます。従来のエッジ展開に範囲を追加する展開。
+  - **場所を問わないシナリオの可用性。** Lync Server 2010 管理パックでは、代理トランザクションを使用したエンドユーザーシナリオの可用性を監視する概念が導入されています。 Lync Server 2013 では、これらのエージェントは、より多くの代理トランザクションを持っており、企業の外部の地理的な場所からブランチオフィスアプライアンスおよび Lync Server 2010 展開に対して、従来のエッジ展開に適用することができます。
 
   - **代理トランザクション ログ。** 代理トランザクションが失敗したとき、管理者は HTML ログを参照して、失敗の内容を判断するのに役立てることができます。 これには、失敗したアクション、各アクションの待機時間、テストの実行に使用されたコマンド ライン、発生したエラーを把握することが含まれます。
 

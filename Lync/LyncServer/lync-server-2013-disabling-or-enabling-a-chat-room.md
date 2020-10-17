@@ -12,20 +12,22 @@ ms:contentKeyID: 48706011
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74c8c5d1bc78f41d4c1a2694e50fb99b869b9247
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 088ea4f3441716efdec748222e9aefeca9643a77
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197520"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528964"
 ---
+# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a>Lync Server 2013 でのチャットルームの無効化または有効化
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a>Lync Server 2013 でのチャットルームの無効化または有効化
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2014-02-05_
 
 常設チャットの管理者は、無効にされたチャットルームを後で有効にすることができます。 チャット ルームを無効にすると、メンバーシップ リストとその他の設定が保持されます。 会議室を再度有効にする場合は、手動で設定を再作成する必要はありません。
 
-チャットルームの履歴が残っている場合 (チャットルームの履歴の永続は、カテゴリ内のすべての会議に適用されるカテゴリのオプションの設定です。既定では、固定されていますが、カテゴリの [**チャットの有効**] を false に設定することによって無効にすることができます)、チャットルームが無効にされて ただし、チャットルームが無効の状態のままになるときには、そのコンテンツは検索に表示されません。 後でチャットルームを有効にした場合、ユーザーはチャットルームが無効になる前に投稿されたメッセージを検索できます。
+チャットルームの履歴が残っている場合 (チャットルームの履歴の永続は、カテゴリ内のすべての会議に適用されるカテゴリのオプションの設定です。既定では、固定されていますが、カテゴリの [ **チャットの有効** ] を false に設定することによって無効にすることができます)、チャットルームが無効にされて ただし、チャットルームが無効の状態のままになるときには、そのコンテンツは検索に表示されません。 後でチャットルームを有効にした場合、ユーザーはチャットルームが無効になる前に投稿されたメッセージを検索できます。
 
 Windows PowerShell コマンドラインインターフェイスを使用してチャットルームを無効および有効にする方法の詳細については、「 [Windows powershell コマンドレットを使用して常設チャットサーバーを構成する](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)」の「Room Management」を参照してください。 チャットルームを無効にするには、次のようなコマンドを使用します。
 

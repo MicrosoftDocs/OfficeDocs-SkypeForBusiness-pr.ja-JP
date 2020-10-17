@@ -12,20 +12,22 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bee58b0a35d2a3a322d799f2aadc9ba3b9c1bd9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f427486756895f1bff5330075f4c323f944afd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529634"
 ---
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013 での Active Directory ドメインサービスのサポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013 での Active Directory ドメインサービスのサポート
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 2013 は、中央管理ストアを使用して、この情報の Ac
     
       - 以前サポートされていたバージョンとの下位互換性を維持するための Lync Server 2010 および Office Communications Server 2007 R2 クラスの拡張機能
 
-  - **データ**(Lync Server 2013 の拡張スキーマおよび既存のクラスに格納されている)
+  - **データ** (Lync Server 2013 の拡張スキーマおよび既存のクラスに格納されている)
     
       - ユーザーの SIP URI と他のユーザー設定
     
@@ -57,7 +59,7 @@ Lync Server 2013 は、中央管理ストアを使用して、この情報の Ac
     
       - Kerberos 認証のアカウント (オプションのコンピューター オブジェクト)
 
-このセクションでは、Lync Server 2013 の AD DS のサポート要件について説明します。 トポロジのサポートの詳細については、「サポート」のドキュメントの「 [Lync Server 2013 でサポートされている Active Directory トポロジ](lync-server-2013-supported-active-directory-topologies.md)」を参照してください。
+このセクションでは、Lync Server 2013 の AD DS のサポート要件について説明します。 トポロジのサポートの詳細については、「サポート」のドキュメントの「 [Lync Server 2013 でサポートされている Active Directory トポロジ](lync-server-2013-supported-active-directory-topologies.md) 」を参照してください。
 
 <div>
 
@@ -103,7 +105,7 @@ Lync Server 2013 は、書き込み可能なドメインコントローラーが
 
 ## <a name="domain-names"></a>ドメイン名
 
-Lync Server は、単一ラベルのドメインをサポートしていません。 たとえば、ルート ドメイン名が **contoso.local** であるフォレストはサポートされますが、**local** という名前のルート ドメインはサポートされません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください[https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)。単一ラベル DNS 名のドメインに対する Windows の構成については、「」を参照してください。
+Lync Server は、単一ラベルのドメインをサポートしていません。 たとえば、ルート ドメイン名が **contoso.local** であるフォレストはサポートされますが、**local** という名前のルート ドメインはサポートされません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください。単一ラベル DNS 名のドメインに対する Windows の構成については、「」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752) 。
 
 <div>
 
@@ -121,7 +123,7 @@ Lync Server は、単一ラベルのドメインをサポートしていませ�
 
 ## <a name="locked-down-adds-environments"></a>ロックダウンされた AD DS 環境
 
-ロックダウンされた AD DS 環境では、アクセス許可の継承が無効になっている特定の組織単位 (Ou) にユーザーとコンピューターのオブジェクトが配置されることが多く、グループポリシーオブジェクト (Gpo) を使用して実行できるようにすることができます。セキュリティポリシー。 Lync Server 2013 は、ロックダウンされた Active Directory 環境に展開できます。 ロックダウンされた環境で Lync Server を展開するために必要な事項の詳細については、「展開」のドキュメントの「 [Lync server 2013 でのロックダウンされた Active Directory ドメインサービスの準備](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)」を参照してください。
+ロックダウンされた AD DS 環境では、アクセス許可の継承が無効になっている特定の組織単位 (Ou) にユーザーとコンピューターのオブジェクトが配置されることが多く、セキュリティポリシーを適用するために、グループポリシーオブジェクト (Gpo) の使用を有効にするために役立ちます。 Lync Server 2013 は、ロックダウンされた Active Directory 環境に展開できます。 ロックダウンされた環境で Lync Server を展開するために必要な事項の詳細については、「展開」のドキュメントの「 [Lync server 2013 でのロックダウンされた Active Directory ドメインサービスの準備](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) 」を参照してください。
 
 </div>
 

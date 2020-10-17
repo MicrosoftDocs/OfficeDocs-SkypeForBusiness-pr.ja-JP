@@ -12,20 +12,22 @@ ms:contentKeyID: 48184570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c94f58083b96948401fc9adf926064ed46365e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ae806fc50fb0d4c4936fb6fbf6f879f4d4fc2ce4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190305"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529334"
 ---
+# <a name="conferencemessagecount-table-in-lync-server-2013"></a>Lync Server 2013 の ConferenceMessageCount テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencemessagecount-table-in-lync-server-2013"></a>Lync Server 2013 の ConferenceMessageCount テーブル
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2012-09-28_
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>
@@ -60,13 +62,13 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>日付型</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>会議インスタンスの時間。 <strong>Sessionidseq</strong>と組み合わせて、電話会議のインスタンスを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a>の電話会議の表」を参照してください。</p></td>
+<td><p>会議インスタンスの時間。 <strong>Sessionidseq</strong>と組み合わせて、電話会議のインスタンスを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a> の電話会議の表」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>会議インスタンスを識別する ID 番号。 <strong>Sessionidtime</strong>と組み合わせて、電話会議のインスタンスを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a>の電話会議の表」を参照してください。</p></td>
+<td><p>会議インスタンスを識別する ID 番号。 <strong>Sessionidtime</strong>と組み合わせて、電話会議のインスタンスを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a> の電話会議の表」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>

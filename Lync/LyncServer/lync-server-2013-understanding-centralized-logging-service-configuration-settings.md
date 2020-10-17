@@ -12,20 +12,22 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4bd4403bedbf6fe3b6983e6071a162ce02c16936
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221197"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527754"
 ---
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスの構成設定について
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスの構成設定について
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2013-02-21_
     
 
     > [!TIP]
-    > 定義によって返される構成設定の範囲を絞り込んだり展開したり <CODE>-Identity</CODE> 、"site: redmond" のようにスコープを展開して、サイト Redmond の CsClsConfiguration のみを取得したりすることができます。 構成の特定の部分に関する詳細が必要な場合は、出力を別の Windows PowerShell コマンドレットにパイプ処理できます。 たとえば、"Redmond" サイトの構成で定義されているシナリオの詳細を取得するには、次のように入力します。<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > 定義によって返される構成設定の範囲を絞り込んだり展開したり <CODE>-Identity</CODE> 、"site: redmond" のようにスコープを展開して、サイト Redmond の CsClsConfiguration のみを取得したりすることができます。 構成の特定の部分に関する詳細が必要な場合は、出力を別の Windows PowerShell コマンドレットにパイプ処理できます。 たとえば、"Redmond" サイトの構成で定義されているシナリオの詳細を取得するには、次のように入力します。 <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>

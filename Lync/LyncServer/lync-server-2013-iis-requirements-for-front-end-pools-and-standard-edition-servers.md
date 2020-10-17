@@ -12,20 +12,22 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1511ea24acb058f8de7bdbcf7f831e6493b2ffd6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33c3db01f772f43ea8507cee5c309b6705c8a69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197180"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528144"
 ---
+# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールおよび Standard Edition サーバーの IIS 要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールおよび Standard Edition サーバーの IIS 要件
+
 
 </div>
 
@@ -70,7 +72,7 @@ Lync Server には、次の IIS モジュールがインストールされてい
 
 
 > [!IMPORTANT]
-> IIS およびすべての Web サービスをシステムドライブ以外のドライブに配置する必要がある組織では、[セットアップ] ダイアログボックスで Lync Server ファイルのインストール場所のパスを変更できます。 このパスに対して、OCSCore を含むセットアップファイルをインストールすると、残りの Lync Server ファイルもこのドライブに展開されます。 IIS のインストール時に Windows Server Manager によって展開された INETPUB の再<A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>配置方法の詳細については、「」を参照してください。
+> IIS およびすべての Web サービスをシステムドライブ以外のドライブに配置する必要がある組織では、[セットアップ] ダイアログボックスで Lync Server ファイルのインストール場所のパスを変更できます。 このパスにセットアップファイル (OCSCore.msi を含む) をインストールすると、その他の Lync Server ファイルもこのドライブに展開されます。 IIS のインストール時に Windows Server Manager によって展開された INETPUB の再配置方法の詳細については、「」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> 。
 
 
   - 静的コンテンツ
@@ -129,58 +131,58 @@ Lync Server には、次の IIS モジュールがインストールされてい
 <tbody>
 <tr class="odd">
 <td><p>アドレス帳サーバー</p></td>
-<td><p>https://&lt;内部 FQDN&gt;/ABS/int/Handler</p></td>
+<td><p>https:// &lt; 内部 FQDN &gt; /ABS/int/Handler</p></td>
 <td><p>内部ユーザー用のアドレス帳サーバー ダウンロード ファイルの場所。</p></td>
 </tr>
 <tr class="even">
 <td><p>自動検出サービス</p></td>
-<td><p>https://&lt;内部 FQDN&gt;/自動検出</p></td>
+<td><p>https:// &lt; 内部 FQDN &gt; /自動検出</p></td>
 <td><p>内部モバイルデバイスユーザーのモビリティリソースを検索する Lync Server 自動検出サービスの場所。</p></td>
 </tr>
 <tr class="odd">
 <td><p>クライアントの更新</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/AutoUpdate/Int</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /AutoUpdate/Int</p></td>
 <td><p>内部のコンピューターベース クライアント用の更新ファイルの場所。</p></td>
 </tr>
 <tr class="even">
 <td><p>Conf</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/conf/Int</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /Conf/Int</p></td>
 <td><p>内部ユーザー用会議リソースの場所。</p></td>
 </tr>
 <tr class="odd">
 <td><p>デバイス更新</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/DeviceUpdateFiles_Int</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /DeviceUpdateFiles_Int</p></td>
 <td><p>内部統合コミュニケーション (UC) デバイス用の UC デバイス更新ファイルの場所。</p></td>
 </tr>
 <tr class="even">
 <td><p>会議</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/etc/place/null</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /etc/place/null</p></td>
 <td><p>内部ユーザー用のミーティング コンテンツの場所。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mobility Service</p></td>
-<td><p>https://&lt;内部 FQDN&gt;/mcx</p></td>
+<td><p>https:// &lt; 内部 FQDN &gt; /mcx</p></td>
 <td><p>内部モバイル デバイス ユーザー用の Mobility Service リソースの場所。</p></td>
 </tr>
 <tr class="even">
 <td><p>グループ拡張およびアドレス帳 Web クエリ サービス</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/グループの内部 FQDN</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /グループの内部 FQDN</p></td>
 <td><p>内部ユーザーのグループ拡張を有効にする Web サービスの場所。 また、内部 Lync Mobile Microsoft Lync 2010 モバイルクライアントにグローバルアドレス一覧情報を提供する、アドレス帳 Web クエリサービスの場所についても説明します。</p></td>
 </tr>
 <tr class="odd">
 <td><p>電話会議</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/PhoneConferencing/Int</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /PhoneConferencing/Int</p></td>
 <td><p>内部ユーザー用の電話会議データの場所。</p></td>
 </tr>
 <tr class="even">
 <td><p>デバイス更新</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/RequestHandler</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /RequestHandler</p></td>
 <td><p>内部 UC デバイスによるログのアップロードと更新の確認を可能にするデバイス更新 Web サービス要求ハンドラーの場所。</p></td>
 </tr>
 <tr class="odd">
 <td><p>応答グループ アプリケーション</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/RgsConfig</p>
-<p>http://&lt;内部 FQDN&gt;/RgsClients</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /RgsConfig</p>
+<p>http:// &lt; 内部 FQDN &gt; /RgsClients</p></td>
 <td><p>応答グループ構成ツールの場所。</p></td>
 </tr>
 </tbody>

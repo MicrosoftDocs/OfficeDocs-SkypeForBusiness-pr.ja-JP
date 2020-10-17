@@ -12,20 +12,22 @@ ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d871379f9c9be161aec879b7ca8da16ac40e2b5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4f366c286c332625779a7ebf45fecfa918ea16b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202373"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528354"
 ---
+# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Lync Server 2013 での音声ルーティングテストケースのエクスポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Lync Server 2013 での音声ルーティングテストケースのエクスポート
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202373"
 
 _**トピックの最終更新日:** 2012-11-01_
 
-テストケースでは、組織内のボイスルートをテストする方法が提供されます。ダイヤルする番号、使用するダイヤルプラン、音声ポリシーなどを定義することができます。また、これらの条件が満たされた場合に、指定された番号を使用して、PSTN ネットワークに正常にルーティングされます。
+テストケースでは、組織内の音声ルートをテストする方法が提供されます。ダイヤルする番号、使用するダイヤルプラン、音声ポリシーなどを定義します。また、これらの条件が満たされた場合に、指定した番号を PSTN ネットワークにルーティングすることができます。
 
 Lync Server コントロールパネルを使用して作成できるテストケースは、通常、ケースが最初に作成されて実行されたサーバーにのみ保存されます。 ただし、これらのテスト ケースは XML ファイル (拡張子 .vtest) としてエクスポートし、他のサーバーにインポートできます。 これにより、トポロジ内のさまざまな地点にあるさまざまなコンピューターで同じテストを実行できるようになります。
 
@@ -45,7 +47,7 @@ Lync Server コントロールパネルを使用して作成できるテスト�
 
 ## <a name="to-export-a-voice-routing-test-case"></a>音声ルーティングのテスト ケースをエクスポートするには
 
-1.  Lync Server コントロールパネルで、[**音声ルーティング**] をクリックし、[**音声ルーティングのテスト**] をクリックします。
+1.  Lync Server コントロールパネルで、[ **音声ルーティング** ] をクリックし、[ **音声ルーティングのテスト**] をクリックします。
 
 2.  [**音声ルーティングのテスト**] タブで、エクスポート対象のテスト ケースを選択します。複数のテスト ケースを選択するには、エクスポートする 1 番目のケースをクリックし、Ctrl キーを押し下げたまま、エクスポートするその他のケースを選択します。
 

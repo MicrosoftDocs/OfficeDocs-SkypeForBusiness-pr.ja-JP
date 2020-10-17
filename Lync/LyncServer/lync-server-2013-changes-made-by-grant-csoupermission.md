@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Grant-CsOUPermission によって行われた変更'
+title: 'Lync Server 2013: Grant-CsOUPermission によって加えられた変更'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6143310797c7372a30665cd380d7fb07340ebaf9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0ff916c0b4e284f9c6ce4d5dbaf9c2e196ed4bc6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191570"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529434"
 ---
+# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Lync Server 2013 での Grant-CsOUPermission による変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Lync Server 2013 での付与-CsOUPermission による変更
+
 
 </div>
 
@@ -57,7 +59,7 @@ OU 上のユーザー オブジェクトに対して **Grant-CsOuPermission** �
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>グループ</th>
 <th>アクセス許可</th>
 <th>適用対象</th>
 </tr>
@@ -123,7 +125,7 @@ OU 上のコンピューター オブジェクトに対して **Grant-CsOuPermis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>グループ</th>
 <th>アクセス許可</th>
 <th>適用対象</th>
 </tr>
@@ -182,7 +184,7 @@ OU 上の連絡先オブジェクトまたは AppContact オブジェクトに�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>グループ</th>
 <th>アクセス許可</th>
 <th>適用対象</th>
 </tr>
@@ -253,7 +255,7 @@ OU 上のデバイス オブジェクトに対して **Grant-CsOuPermission** �
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>グループ</th>
 <th>アクセス許可</th>
 <th>適用対象</th>
 </tr>
@@ -294,7 +296,7 @@ OU 上のデバイス オブジェクトに対して **Grant-CsOuPermission** �
 <td><p>子の作成</p>
 <p>子の削除</p>
 <p>ツリーの削除</p></td>
-<td><p>連絡先</p></td>
+<td><p>Contact</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserAdmins</p></td>
@@ -338,7 +340,7 @@ OU 上の InetOrgPerson オブジェクトに対して **Grant-CsOuPermission** 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Group</th>
+<th>グループ</th>
 <th>アクセス許可</th>
 <th>適用対象</th>
 </tr>

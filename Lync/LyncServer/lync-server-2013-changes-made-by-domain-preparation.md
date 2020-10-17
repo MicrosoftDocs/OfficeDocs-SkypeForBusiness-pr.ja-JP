@@ -12,20 +12,22 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74fe383cf773e1cdfa645a3f8513167fd7472958
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2b1eea02c41acf748674cdd7976028a51fdb367e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181420"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529504"
 ---
+# <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>Lync Server 2013 のドメインの準備によって加えられた変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>Lync Server 2013 のドメインの準備によって加えられた変更
+
 
 </div>
 
@@ -58,22 +60,22 @@ _**トピックの最終更新日:** 2010-10-18_
 <th>RTCUniversal-UserReadOnly-グループ</th>
 <th>RTCUniversal-ServerReadOnly-グループ</th>
 <th>RTCUniversal-UserAdmins</th>
-<th>RTCHSUniversal-サービス</th>
-<th>認証されたユーザー</th>
+<th>RTCHSUniversal-Services</th>
+<th>Authenticated-Users</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>コンテナーの読み取り (継承されない)</p></td>
-<td><p><strong>はい</strong></p></td>
 <td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
 <tr class="even">
 <td><p>User-Account-Restrictions ユーザー プロパティ セットの読み取り</p></td>
-<td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
@@ -81,7 +83,7 @@ _**トピックの最終更新日:** 2010-10-18_
 </tr>
 <tr class="odd">
 <td><p>Personal-Information ユーザー プロパティ セットの読み取り</p></td>
-<td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
@@ -89,7 +91,7 @@ _**トピックの最終更新日:** 2010-10-18_
 </tr>
 <tr class="even">
 <td><p>General-Information ユーザー プロパティ セットの読み取り</p></td>
-<td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
@@ -97,7 +99,7 @@ _**トピックの最終更新日:** 2010-10-18_
 </tr>
 <tr class="odd">
 <td><p>Public-Information ユーザー プロパティ セットの読み取り</p></td>
-<td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
@@ -105,7 +107,7 @@ _**トピックの最終更新日:** 2010-10-18_
 </tr>
 <tr class="even">
 <td><p>RTCUserSearchProperty-Set ユーザー プロパティ セットの読み取り</p></td>
-<td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
@@ -113,7 +115,7 @@ _**トピックの最終更新日:** 2010-10-18_
 </tr>
 <tr class="odd">
 <td><p>RTCPropertySet ユーザー プロパティ セットの読み取り</p></td>
-<td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
@@ -123,7 +125,7 @@ _**トピックの最終更新日:** 2010-10-18_
 <td><p>Proxy-Addresses ユーザー プロパティの書き込み</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
-<td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
@@ -131,7 +133,7 @@ _**トピックの最終更新日:** 2010-10-18_
 <td><p>RTCUserSearchProperty-Set ユーザー プロパティ セットの書き込み</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
-<td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
@@ -139,7 +141,7 @@ _**トピックの最終更新日:** 2010-10-18_
 <td><p>RTCPropertySet ユーザー プロパティ セットの書き込み</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
-<td><p><strong>○</strong></p></td>
+<td><p><strong>はい</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 </tr>
@@ -148,8 +150,8 @@ _**トピックの最終更新日:** 2010-10-18_
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
-<td><p><strong>○</strong></p></td>
-<td><p>×</p></td>
+<td><p><strong>はい</strong></p></td>
+<td><p>いいえ</p></td>
 </tr>
 </tbody>
 </table>
@@ -175,7 +177,7 @@ _**トピックの最終更新日:** 2010-10-18_
 <tbody>
 <tr class="odd">
 <td><p>コンテナーの読み取り (継承されない)</p></td>
-<td><p><strong>はい</strong></p></td>
+<td><p><strong>○</strong></p></td>
 <td><p><strong>○</strong></p></td>
 </tr>
 </tbody>

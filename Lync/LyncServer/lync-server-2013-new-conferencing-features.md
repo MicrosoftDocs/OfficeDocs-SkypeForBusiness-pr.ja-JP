@@ -12,20 +12,22 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4478a68392e751ee9e641542e7764237580e781
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1e04507e0dc109b4477973a3a36b851afe81014
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528044"
 ---
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Lync Server 2013 の新しい会議機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-conferencing-features-in-lync-server-2013"></a>Lync Server 2013 の新しい会議機能
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server 2013 には、次の一覧に示すように、会議を強化する
 
   - **更新された PowerPoint 共有**
     
-    Lync Server 2013 は、Office Web Apps および Office Web Apps サーバー (以前の WAC サーバー) を使用して PowerPoint プレゼンテーションを処理するようになりました。 Office Web Apps サーバーを使用すると、より高解像度の表示が可能になり、PowerPoint の機能のサポートが向上し、より多くの種類のモバイルデバイスへのアクセス (Lync Server 2013 は標準の DHTML と JavaScript を使用して PowerPoint プレゼンテーションをブロードキャストします)、適切な権限を持つユーザーが、プレゼンテーション自体とは独立して PowerPoint プレゼンテーションをスクロールできます。
+    Lync Server 2013 は、Office Web Apps および Office Web Apps サーバー (以前の WAC サーバー) を使用して PowerPoint プレゼンテーションを処理するようになりました。 Office Web Apps サーバーを使用すると、より高解像度の表示が可能になり、PowerPoint の機能のサポートが向上します。より多くの種類のモバイルデバイス (Lync Server 2013 は標準の DHTML と JavaScript を使用して PowerPoint プレゼンテーションをブロードキャストします)、および適切な権限を持つユーザーは、プレゼンテーション自体とは別に PowerPoint プレゼンテーションをスクロールできます
 
   - **ギャラリー ビューおよび HD ビデオ会議**
     

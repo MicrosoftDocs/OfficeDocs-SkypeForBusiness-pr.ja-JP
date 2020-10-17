@@ -12,20 +12,22 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfb985d8c1432e238a813646d9f3cc5b55902a85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5768378532722556fd824b0a2fdd257666e41a99
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197320"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528774"
 ---
+# <a name="emergency-procedures-in-lync-server-2013"></a>Lync Server 2013 の緊急時の手順
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="emergency-procedures-in-lync-server-2013"></a>Lync Server 2013 の緊急時の手順
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197320"
 
 _**トピックの最終更新日:** 2014-08-18_
 
-緊急時の手順は、前に説明した標準的な手順の外にあるオンデマンドの手順であり、変更管理機能によって処理する必要があります (「change management」関数の説明については[MOF](https://go.microsoft.com/fwlink/p/?linkid=40939)を参照してください)。 通常、これらの手順は次のいずれかに関連しています。
+緊急時の手順は、前に説明した標準的な手順の外にあるオンデマンドの手順であり、変更管理機能によって処理する必要があります (「change management」関数の説明については [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) を参照してください)。 通常、これらの手順は次のいずれかに関連しています。
 
   - トラブルシューティング作業の一環として変更を実装し、特定されたシステムの問題を解決します。
 

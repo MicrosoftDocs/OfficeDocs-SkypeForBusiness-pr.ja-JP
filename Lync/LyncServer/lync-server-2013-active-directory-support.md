@@ -12,20 +12,22 @@ ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a7da4487c376ceea4c5c3e41e20a55874b27f06
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7769bd97b29d7a206edf8b1ea5878fa30b489300
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529584"
 ---
+# <a name="active-directory-support-in-lync-server-2013"></a>Lync Server 2013 での Active Directory のサポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-support-in-lync-server-2013"></a>Lync Server 2013 での Active Directory のサポート
+
 
 </div>
 
@@ -53,7 +55,7 @@ Lync Server 2013 でサポートされている Active Directory ドメインサ
 
 
 > [!NOTE]  
-> Lync Server 2013 では、単一ラベルドメインはサポートされていません。 たとえば、 <STRONG>contoso</STRONG>という名前のルートドメインを持つフォレストはサポートされていますが、 <STRONG>local</STRONG>という名前の単一ラベルルートドメインはサポートされていません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください<A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A>。単一ラベル DNS 名のドメインに対する Windows の構成については、「」を参照してください。
+> Lync Server 2013 では、単一ラベルドメインはサポートされていません。 たとえば、 <STRONG>contoso</STRONG> という名前のルートドメインを持つフォレストはサポートされていますが、 <STRONG>local</STRONG> という名前の単一ラベルルートドメインはサポートされていません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください。単一ラベル DNS 名のドメインに対する Windows の構成については、「」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A> 。
 
 
 
@@ -69,7 +71,7 @@ Lync Server 2013 でサポートされている Active Directory ドメインサ
 
 </div>
 
-オンプレミス展開でサポートされるトポロジと要件の詳細については、「計画」のドキュメントの「 [Active Directory ドメインサービスの要件、サポート、および Lync Server 2013 のトポロジ](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md)」を参照してください。
+オンプレミス展開でサポートされるトポロジと要件の詳細については、「計画」のドキュメントの「 [Active Directory ドメインサービスの要件、サポート、および Lync Server 2013 のトポロジ](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) 」を参照してください。
 
 </div>
 

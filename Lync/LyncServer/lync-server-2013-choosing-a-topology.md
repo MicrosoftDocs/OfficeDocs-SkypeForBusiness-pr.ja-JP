@@ -12,20 +12,22 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4f128c827845ac06a736b849e6fa3242e319decb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529384"
 ---
+# <a name="choosing-a-topology-in-lync-server-2013"></a>Lync Server 2013 でのトポロジの選択
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="choosing-a-topology-in-lync-server-2013"></a>Lync Server 2013 でのトポロジの選択
+
 
 </div>
 
@@ -109,22 +111,22 @@ DNS 負荷分散でサポートされているエッジフェールオーバー�
 <td><p>NAT を使用する拡張エッジ (DNS 負荷分散)</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="even">
 <td><p>パブリック IP を使用する拡張エッジ (DNS 負荷分散)</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="odd">
 <td><p>拡張エッジ (ハードウェア負荷分散)</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>いいえ (VIP ごとに 1 つの DNS A レコード)</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 </tbody>
 </table>
@@ -172,12 +174,12 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
 <td><p>6 </p></td>
 <td><p>3 (VIP ごとに 1 つ) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
+<td><p>1/3</p></td>
 <td><p>9 </p></td>
 <td><p>3 (VIP ごとに 1 つ) + 9</p></td>
 </tr>
@@ -212,13 +214,13 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>2 </p></td>
+<td><p>pbm-2</p></td>
+<td><p>pbm-2</p></td>
 <td><p>1 (VIP ごとに 1 つ) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>1/3</p></td>
+<td><p>1/3</p></td>
 <td><p>1 ( VIP ごとに 1 つ) + 3</p></td>
 </tr>
 <tr class="odd">
@@ -237,7 +239,7 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
 
 トポロジ選択を決定する上で最も優先されるポイントは、高可用性と負荷分散です。 高可用性の要件は、負荷分散の決定に影響を及ぼすことがあります。
 
-  - **高可用性**  高可用性が必要な場合は、少なくとも2台のエッジサーバーをプールに展開します。 1つのエッジプールは最大12台のエッジサーバーをサポートします。 処理能力を増やす場合は、複数のエッジ プールを展開できます。 一般には、ユーザー ベースの 10％ は、外部アクセスを必要とします。
+  - **高可用性**   高可用性が必要な場合は、少なくとも2台のエッジサーバーをプールに展開します。 1つのエッジプールは最大12台のエッジサーバーをサポートします。 処理能力を増やす場合は、複数のエッジ プールを展開できます。 一般には、ユーザー ベースの 10％ は、外部アクセスを必要とします。
     
     <div>
     
@@ -248,7 +250,7 @@ Lync Server 2013 では、単一および拡張統合エッジサーバートポ
     
     </div>
 
-  - **ハードウェア負荷分散**  エッジの外部インターフェイスに対してパブリックルーティング可能な IP アドレスを使用している場合、Lync Server 2013 エッジサーバーの負荷分散は、ハードウェア負荷分散をサポートします。 たとえば、次のいずれかのアプリケーションでフェールオーバーが必要な状況でこのアプローチを使用します。
+  - **ハードウェア負荷分散**   エッジの外部インターフェイスに対してパブリックルーティング可能な IP アドレスを使用している場合、Lync Server 2013 エッジサーバーの負荷分散は、ハードウェア負荷分散をサポートします。 たとえば、次のいずれかのアプリケーションでフェールオーバーが必要な状況でこのアプローチを使用します。
     
       - パブリック IM 接続
     

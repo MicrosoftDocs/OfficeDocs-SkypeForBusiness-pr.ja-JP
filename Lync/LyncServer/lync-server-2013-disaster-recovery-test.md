@@ -12,20 +12,22 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0b274d933fbb1c9f47b219a492403bd1c5f58d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2d36ec6ad1afb8c41c7c5f614e90e03ce4d9282
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197500"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528954"
 ---
+# <a name="disaster-recovery-test-in-lync-server-2013"></a>Lync Server 2013 での障害復旧テスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disaster-recovery-test-in-lync-server-2013"></a>Lync Server 2013 での障害復旧テスト
+
 
 </div>
 
@@ -58,11 +60,11 @@ Lync Server 2013 の運用データをバックアップするには、次のよ
 
   - サードパーティ製のバックアップアプリケーションを使用して、データをファイルまたはテープにバックアップします。
 
-  - RTC データベース全体の XML エクスポートを作成するには、エクスポート-CsUserData コマンドレットを使用します。
+  - RTC データベース全体の XML エクスポートを作成するには、Export-CsUserData コマンドレットを使用します。
 
   - ファイルシステムバックアップまたはサードパーティを使用して、会議コンテンツとコンプライアンスログをバックアップします。
 
-  - Lync Server 2013 の設定をバックアップするには、Export-CsConfiguration コマンドラインツールを使用します。
+  - Export-CsConfiguration コマンドラインツールを使用して、Lync Server 2013 の設定をバックアップします。
 
 フェールオーバー手順の最初の手順には、運用プールから障害復旧プールへのユーザーの強制移行が含まれます。
 
@@ -74,7 +76,7 @@ Lync Server 2013 の移動ユーザープロセスは、実質的には、RTC SQ
 
   - RTC データベースは、標準の SQL Server 復元プロセスを使用して、またはサードパーティのバックアップ/復元ユーティリティを使用して、運用 SQL Server から元のバックアップダンプデバイスから復元できます。
 
-  - ユーザー連絡先データは、運用 SQL Server エクスポートから作成された XML ファイルを使用して、DBIMPEXP ユーティリティを使用して復元できます。
+  - ユーザーの連絡先データは、運用 SQL Server エクスポートから作成された XML ファイルを使用して、DBIMPEXP.exe ユーティリティを使用して復元できます。
 
 このデータを復元した後は、ユーザーは効果的に Disaster Recovery Lync Server 2013 プールに接続し、通常どおりに動作させることができます。
 
@@ -82,21 +84,21 @@ Lync Server 2013 の移動ユーザープロセスは、実質的には、RTC SQ
 
 運用 Lync Server 2013 プールは、次の自動構成および DNS SRV レコードを使用してクライアントによって参照されます。
 
-  - SRV: \_sip。\_tls。\<ドメイン\> /CNAME: SIP。\<ドメイン\>
+  - SRV: \_ sip。 \_tls.\<domain\> /CNAME: SIP。\<domain\>
 
-  - CNAME: SIP。\<ドメイン\> /cvc。\<ドメイン\>
+  - CNAME: SIP。\<domain\> /cvc/pool8-1。\<domain\>
 
 フェールオーバーを容易にするために、この CNAME レコードを更新して、次のように、この CNAME レコードを参照する必要があります。
 
-  - CNAME: SIP。\<ドメイン\> /DROCSPool.\<ドメイン\>
+  - CNAME: SIP。\<domain\> /DROCSPool.\<domain\>
 
-  - Sip.\<ドメイン\>
+  - Sip.\<domain\>
 
-  - AV\<ドメイン\>
+  - AV.\<domain\>
 
-  - fea-webconf-service.\<ドメイン\>
+  - fea-webconf-service.\<domain\>
 
-  - OCSServices。\<ドメイン\>
+  - OCSServices。\<domain\>
 
 <div>
 

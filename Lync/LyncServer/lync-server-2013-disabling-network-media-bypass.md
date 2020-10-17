@@ -12,20 +12,22 @@ ms:contentKeyID: 49733741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eaad239f320f498378498f9b3e373592d487c0c8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 29508180b54ace29e1ac913dd52d06d374068bfc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197540"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528984"
 ---
+# <a name="disabling-network-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でのネットワークメディアバイパスの無効化
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disabling-network-media-bypass-in-lync-server-2013"></a>Lync Server 2013 でのネットワークメディアバイパスの無効化
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197540"
 
 _**トピックの最終更新日:** 2012-10-15_
 
-メディアバイパスの設定は、Microsoft Lync Server 2013 の展開全体でグローバルに適用されます。 メディアバイパスは、呼び出しが仲介サーバーをバイパスすることを許可します。 メディアバイパスを使用するタイミングの詳細については、「計画」セクションの「 [Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)」を参照してください。Lync Server コントロールパネルからメディアバイパスを無効にすることができます。 Medial バイパスの有効化と構成の詳細については、「 [Lync Server でのネットワークメディアバイパスの有効化 2013](lync-server-2013-enabling-network-media-bypass.md) 」を参照してください。
+メディアバイパスの設定は、Microsoft Lync Server 2013 の展開全体でグローバルに適用されます。 メディアバイパスは、呼び出しが仲介サーバーをバイパスすることを許可します。 メディアバイパスを使用するタイミングの詳細については、「計画」セクションの「 [Lync Server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md) 」を参照してください。Lync Server コントロールパネルからメディアバイパスを無効にすることができます。 Medial バイパスの有効化と構成の詳細については、「 [Lync Server でのネットワークメディアバイパスの有効化 2013](lync-server-2013-enabling-network-media-bypass.md) 」を参照してください。
 
 <div>
 

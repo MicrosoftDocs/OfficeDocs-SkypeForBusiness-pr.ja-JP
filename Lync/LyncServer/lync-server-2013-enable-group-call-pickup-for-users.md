@@ -12,20 +12,22 @@ ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5842a22d1899398b282e7305e4dd921fea86ea39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89d512eea147039a5766193f9ec2a20cf45caaa0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190700"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528724"
 ---
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013 でユーザーのグループ通話ピックアップを有効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Lync Server 2013 でユーザーのグループ通話ピックアップを有効にする
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190700"
 
 _**トピックの最終更新日:** 2013-01-30_
 
-SEFAUtil リソースキットツールを使用して、ユーザーのグループ通話ピックアップを有効にします。 グループ通話ピックアップを有効にするには、コールパークオービットテーブルで種類が GroupPickup のグループ番号がユーザーに割り当てられている必要があります。 SEFAUtil を実行するときに、/enablegrouppickup パラメーターを使用して、通話ピックアップグループ番号を割り当て、グループ通話ピックアップを同時に有効にします。
+SEFAUtil リソースキットツールを使用して、ユーザーのグループ通話ピックアップを有効にします。 グループ通話ピックアップを有効にするには、コールパークオービットテーブルで種類が GroupPickup のグループ番号がユーザーに割り当てられている必要があります。 通話ピックアップグループ番号を割り当て、グループ通話ピックアップを同時に有効にするには、SEFAUtil.exe を実行するときに、/enablegrouppickup パラメーターを使用します。
 
 <div>
 

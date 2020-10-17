@@ -12,20 +12,22 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88353019a266fbb094df8808faa4543e31bf562
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65f6411023c80a527cff31c389a8283d090dfc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201893"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528034"
 ---
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Lync Server 2013 での役割ベースのアクセス制御の計画
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Lync Server 2013 での役割ベースのアクセス制御の計画
+
 
 </div>
 
@@ -159,13 +161,13 @@ Lync Server に出荷されたすべての定義済みの役割には、グロ�
 
 ## <a name="creating-a-scoped-role"></a>スコープ付き役割の作成
 
-スコープを制限した役割 (スコープ付き役割) を作成する場合、スコープ、スコープ付き役割のベースとなる既存の役割、および役割を割り当てる Active Directory グループを指定します。 指定する Active Directory グループは事前に作成しておく必要があります。 次に、定義済みの管理役割のうちの 1 つの特権を持ち、スコープを制限した役割を作成するコマンドレットの例を示します。 という`Site01 Server Administrators`新しい役割が作成されます。 この役割には定義済みの CsServerAdministrator 役割の機能がありますが、Site01 サイトにあるサーバーのみが対象となります。 このコマンドレットが動作するには、Site01 サイトが既に定義されている必要`Site01 Server Administrators`があります。また、という名前のユニバーサルセキュリティグループが既に存在している必要があります。
+スコープを制限した役割 (スコープ付き役割) を作成する場合、スコープ、スコープ付き役割のベースとなる既存の役割、および役割を割り当てる Active Directory グループを指定します。 指定する Active Directory グループは事前に作成しておく必要があります。 次に、定義済みの管理役割のうちの 1 つの特権を持ち、スコープを制限した役割を作成するコマンドレットの例を示します。 という新しい役割が作成され `Site01 Server Administrators` ます。 この役割には定義済みの CsServerAdministrator 役割の機能がありますが、Site01 サイトにあるサーバーのみが対象となります。 このコマンドレットが動作するには、Site01 サイトが既に定義されている必要があります。また、という名前のユニバーサルセキュリティグループが既に存在している必要があり `Site01 Server Administrators` ます。
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-このコマンドレットを実行すると、 `Site01 Server Administrators`グループのメンバーであるすべてのユーザーは、Site01 のサーバーに対するサーバー管理者権限を持つことになります。 さらに、このユニバーサルセキュリティグループに後で追加されたユーザーも、この役割の権限を取得します。 役割自体と、それが割り当てられているユニバーサルセキュリティグループの両方が呼び出さ`Site01 Server Administrators`れることに注意してください。
+このコマンドレットを実行すると、グループのメンバーであるすべてのユーザー `Site01 Server Administrators` は、Site01 のサーバーに対するサーバー管理者権限を持つことになります。 さらに、このユニバーサルセキュリティグループに後で追加されたユーザーも、この役割の権限を取得します。 役割自体と、それが割り当てられているユニバーサルセキュリティグループの両方が呼び出されることに注意 `Site01 Server Administrators` してください。
 
-次の例では、サーバー スコープではなくユーザー スコープを制限しています。 Sales 組織単位`Sales Users Administrator`のユーザーアカウントを管理するための役割を作成します。 このコマンドレットが動作するように、Salesユーザー管理者ユニバーサルセキュリティグループが既に作成されている必要があります。
+次の例では、サーバー スコープではなくユーザー スコープを制限しています。 `Sales Users Administrator`Sales 組織単位のユーザーアカウントを管理するための役割を作成します。 このコマンドレットが動作するように、Salesユーザー管理者ユニバーサルセキュリティグループが既に作成されている必要があります。
 
     New-CsAdminRole -Identity "Sales Users Administrator " -Template CsUserAdministrator -UserScopes "OU:OU=Sales, OU=Lync Tenants, DC=Domain, DC=com"
 
@@ -177,13 +179,13 @@ Lync Server に出荷されたすべての定義済みの役割には、グロ�
 
 定義済みの役割に定義されていないコマンドレットのセットにアクセスする役割や、スクリプトまたはモジュールのセットにアクセスする役割を作成する場合も、定義済みの役割のいずれかをテンプレートとして使用します。役割で実行できるスクリプトおよびモジュールは、次の場所に保存しておく必要があります。
 
-  - Lync\\モジュールパス (既定で C: Program Files\\Common Files\\Microsoft lync Server 2013\\モジュール Lync\\
+  - Lync モジュールパス (既定で C: \\ Program Files \\ Common Files \\ Microsoft lync Server 2013 \\ モジュール \\ Lync
 
-  - ユーザースクリプト\\パス。既定では C: Program Files\\Common Files\\Microsoft Lync Server 2013\\adminscripts
+  - ユーザースクリプトパス。既定では C: \\ Program Files \\ Common Files \\ Microsoft Lync Server 2013 \\ adminscripts
 
 新規役割を作成するには、**New-CsAdminRole** コマンドレットを使用します。 **新しい-CsAdminRole**を実行する前に、まず、この役割に関連付けられる基礎となるユニバーサルセキュリティグループを作成する必要があります。
 
-新規役割を作成するコマンドレットの例を次に示します。 という名前`MyHelpDeskScriptRole`の新しい役割の種類を作成します。 新しい役割は、定義済みの CsHelpDesk 役割の機能を持っていますが、それに加えて "testscript" という名前のスクリプトで関数を実行することもできます。
+新規役割を作成するコマンドレットの例を次に示します。 という名前の新しい役割の種類を作成 `MyHelpDeskScriptRole` します。 新しい役割は、定義済みの CsHelpDesk 役割の機能を持っていますが、それに加えて "testscript" という名前のスクリプトで関数を実行することもできます。
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 
@@ -201,7 +203,7 @@ Lync Server に出荷されたすべての定義済みの役割には、グロ�
 
 前のセクションの例では、新しい役割を作成し、既存のユニバーサルセキュリティグループを新しい役割に割り当てています。 既存の役割を 1 人以上のユーザーに割り当てるには、役割に関連付けられているグループにそれらのユーザーを追加します。 これらのグループには、個々のユーザーとユニバーサルセキュリティグループの両方を追加できます。
 
-たとえば、 **Csadministrator**の役割は、Active Directory の**CS Administrators**ユニバーサルセキュリティグループに自動的に付与されます。 このユニバーサルセキュリティグループは、Lync Server の展開時に Active Directory 内に作成されます。 ユーザーまたはグループを **CS Administrators** グループに追加するだけでこの特権をユーザーまたはグループに付与できます。
+たとえば、 **Csadministrator** の役割は、Active Directory の **CS Administrators** ユニバーサルセキュリティグループに自動的に付与されます。 このユニバーサルセキュリティグループは、Lync Server の展開時に Active Directory 内に作成されます。 ユーザーまたはグループを **CS Administrators** グループに追加するだけでこの特権をユーザーまたはグループに付与できます。
 
 各役割に対応する基礎となる Active Directory グループにユーザーを追加することで、複数の RBAC の役割をユーザーに付与できます。
 

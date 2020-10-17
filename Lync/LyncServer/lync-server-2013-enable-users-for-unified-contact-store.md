@@ -12,20 +12,22 @@ ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f4bd8e47259f7480f32e0fa6047657464a459de
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35b4c060cfce4e45f4736abcbc0d4c9d02b1abc1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187800"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528554"
 ---
+# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013 で統合連絡先ストアに対してユーザーを有効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>Lync Server 2013 で統合連絡先ストアに対してユーザーを有効にする
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server 2013 を展開してトポロジを公開すると、既定では、
         
             New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
         
-        次に例を示します。
+        例:
         
             New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
     
@@ -63,7 +65,7 @@ Lync Server 2013 を展開してトポロジを公開すると、既定では、
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
-        次に例を示します。
+        例:
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     

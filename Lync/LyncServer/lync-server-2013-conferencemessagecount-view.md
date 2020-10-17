@@ -12,20 +12,22 @@ ms:contentKeyID: 49733727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdba6750a24e9bc46629f4a3d264893d014f68e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5708da08376a4a2bd2564bb3c6809bcfc71aeabe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190260"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529304"
 ---
+# <a name="conferencemessagecount-view-in-lync-server-2013"></a>Lync Server 2013 の ConferenceMessageCount ビュー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencemessagecount-view-in-lync-server-2013"></a>Lync Server 2013 の ConferenceMessageCount ビュー
+
 
 </div>
 
@@ -43,7 +45,7 @@ ConferenceMessageCount ビューには、ユーザーが電話会議に送信し
 
 
 > [!NOTE]  
-> ConferenceMessageCount ビューには、以下の列に加えて、 <A href="lync-server-2013-conferencesessiondetails-view.md">Lync Server 2013 の ConferenceSessionDetails ビュー</A>のすべての列が含まれています。
+> ConferenceMessageCount ビューには、以下の列に加えて、 <A href="lync-server-2013-conferencesessiondetails-view.md">Lync Server 2013 の ConferenceSessionDetails ビュー</A> のすべての列が含まれています。
 
 
 
@@ -58,7 +60,7 @@ ConferenceMessageCount ビューには、ユーザーが電話会議に送信し
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>詳細</th>
 </tr>
@@ -72,12 +74,12 @@ ConferenceMessageCount ビューには、ユーザーが電話会議に送信し
 <tr class="even">
 <td><p><strong>Useruritoff</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>メッセージを送信したユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>メッセージを送信したユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
 <td><p>識別子</p></td>
-<td><p>メッセージを送信したユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a>」を参照してください。</p></td>
+<td><p>メッセージを送信したユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserMessageCount</strong></p></td>

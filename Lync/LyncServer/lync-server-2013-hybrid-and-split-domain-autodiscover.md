@@ -12,20 +12,22 @@ ms:contentKeyID: 51541520
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fca0097f6ad0264755dd9d0a80a296e9ebf60b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0340e1226d3fb7abc475769892f0cd675c838c89
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214743"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528164"
 ---
+# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Lync Server 2013 でのハイブリッドおよびスプリットドメインの自動検出
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Lync Server 2013 でのハイブリッドおよびスプリットドメインの自動検出
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214743"
 
 _**トピックの最終更新日:** 2013-02-14_
 
-共有 SIP アドレススペース (*分割ドメイン*展開または*ハイブリッド*展開とも呼ばれる) は、ユーザーがオンプレミス展開とオンライン環境の間で展開される構成です。 必要な結果は、自分のホームサーバーが配置されている場所 (オンプレミスまたはオンライン) に関係なく、ユーザーが展開にログインして、ホームサーバーの場所にリダイレクトされることです。 これを実現するために、Lync Server 2013 の自動検出機能を使用して、オンラインユーザーをオンライントポロジにリダイレクトします。 これを行うには、Lync Server 管理シェル、 **get-help**コマンドレット、および**Set-CsHostingProvider**コマンドレットを使用して、自動検出の UNIFORM resource locator (URL) を構成します。
+共有 SIP アドレススペース ( *分割ドメイン* 展開または *ハイブリッド* 展開とも呼ばれる) は、ユーザーがオンプレミス展開とオンライン環境の間で展開される構成です。 必要な結果は、自分のホームサーバーが配置されている場所 (オンプレミスまたはオンライン) に関係なく、ユーザーが展開にログインして、ホームサーバーの場所にリダイレクトされることです。 これを実現するために、Lync Server 2013 の自動検出機能を使用して、オンラインユーザーをオンライントポロジにリダイレクトします。 これを行うには、Lync Server 管理シェル、 **get-help** コマンドレット、および **Set-CsHostingProvider** コマンドレットを使用して、自動検出の UNIFORM resource locator (URL) を構成します。
 
 <div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2013-02-14_
     
         Get-CsHostingProvider
 
-  - 結果で、属性**Proxyfqdn**を持つオンラインプロバイダーを見つけます。 たとえば、sipfed.online.lync.com のようになります。
+  - 結果で、属性 **Proxyfqdn**を持つオンラインプロバイダーを見つけます。 たとえば、sipfed.online.lync.com のようになります。
 
   - ProxyFQDN の値を記録します。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b1549cabf8163275c202075dcfc7ef081b38d20
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca000e2ba0c1802d8ec97a2a9c2f361f2c0a1b68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202383"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528384"
 ---
+# <a name="export-a-voice-route-configuration-file-in-lync-server-2013"></a>Lync Server 2013 での音声ルート構成ファイルのエクスポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-a-voice-route-configuration-file-in-lync-server-2013"></a>Lync Server 2013 での音声ルート構成ファイルのエクスポート
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202383"
 
 _**トピックの最終更新日:** 2012-11-01_
 
-音声ルーティング構成を公開せずに保存する場合は、次の手順に従って、Lync Server コントロールパネルの [構成のエクスポート] および [インポート] コマンドを使用して、音声ルーティング構成のスナップショットを保存および取得します。 音声ルーティング構成ファイル (vcfg) をインポートするときに、その間にサーバー上の音声ルーティング構成に変更が加えられた場合、Lync Server コントロールパネルの [**音声ルーティング**] グループのページには、音声ルーティングにコミットされていない変更があることが示されます。 これらの未確定の変更は、調整が必要な 2 つの構成間の相違です。
+音声ルーティング構成を公開せずに保存する場合は、次の手順に従って、Lync Server コントロールパネルの [構成のエクスポート] および [インポート] コマンドを使用して、音声ルーティング構成のスナップショットを保存および取得します。 音声ルーティング構成ファイル (vcfg) をインポートするときに、その間にサーバー上の音声ルーティング構成に変更が加えられた場合、Lync Server コントロールパネルの [ **音声ルーティング** ] グループのページには、音声ルーティングにコミットされていない変更があることが示されます。 これらの未確定の変更は、調整が必要な 2 つの構成間の相違です。
 
 グループ内の任意のページの設定に対して変更をコミットしていない場合、変更はエクスポートされた音声構成ファイル (vcfg) に保存されます。 これにより、変更を公開する前に、複数のセッションで音声ルーティング構成の変更を行うことができます。
 

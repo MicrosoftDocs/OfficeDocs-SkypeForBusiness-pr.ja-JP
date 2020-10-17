@@ -12,20 +12,22 @@ ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbf04728db30bada37e43f14b33420ede1ce9258
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b903ff4453f15bc22b6715abe27cc045381c0e5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194360"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527854"
 ---
+# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Lync Server 2013 での音声ルール、ルート、ポリシーのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-rules-routes-and-policies-in-lync-server-2013"></a>Lync Server 2013 での音声ルール、ルート、ポリシーのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-05-20_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、CsVoiceUser コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsVoiceUser コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceUser&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2014-05-20_
 
 ## <a name="description"></a>説明
 
-ユーザーが電話をかけた場合、通話が宛先に到達するのにかかるルートは、そのユーザーに割り当てられているポリシーとダイヤルプランの両方によって決まります。 ユーザーの SIP アドレスと電話番号を指定すると、CsVoiceUser コマンドレットは、その番号への呼び出しをユーザーが完了できるかどうかを確認します。 テストが成功した場合、CsVoiceUser は次の値を返します。
+ユーザーが電話をかけた場合、通話が宛先に到達するのにかかるルートは、そのユーザーに割り当てられているポリシーとダイヤルプランの両方によって決まります。 ユーザーの SIP アドレスと電話番号を指定すると、Test-CsVoiceUser コマンドレットは、その番号への呼び出しをユーザーが完了できるかどうかを確認します。 テストが成功した場合、Test-CsVoiceUser は次の値を返します。
 
   - 番号は、(ユーザーのダイヤルプランに基づいて) e.164 形式に変換されます。
 
@@ -76,7 +78,7 @@ _**トピックの最終更新日:** 2014-05-20_
 
   - ユーザーの音声ポリシーを音声ルートにリンクした電話の使用法。
 
-CsVoiceUser を使用すると、特定の電話番号が予想どおりにルーティングおよび翻訳されるかどうかを判断し、個々のユーザーが経験する通話関連の問題のトラブルシューティングに役立てることができます。
+Test-CsVoiceUser を使用すると、特定の電話番号が期待どおりにルーティングおよび翻訳されるかどうかを判断し、個々のユーザーが経験する通話関連の問題のトラブルシューティングに役立てることができます。
 
 </div>
 
@@ -84,7 +86,7 @@ CsVoiceUser を使用すると、特定の電話番号が予想どおりにル�
 
 ## <a name="running-the-test"></a>テストの実行
 
-CsVoiceUser コマンドレットを実行するときは、ダイヤルされる番号 (ダイヤル番号) とテストするユーザーアカウントの Id の2つの情報を提供する必要があります。 たとえば、次のコマンドは、SIP アドレス sip:kenmyer@litwareinc.com を持つユーザーが電話番号 + 1206555-1219 を呼び出すことができるかどうかをテストします。
+Test-CsVoiceUser コマンドレットを実行するときには、ダイヤルする番号 (ダイヤルする番号) とテストするユーザーアカウントの Id の2つの情報を提供する必要があります。 たとえば、次のコマンドは、SIP アドレス sip:kenmyer@litwareinc.com を持つユーザーが電話番号 + 1206555-1219 を呼び出すことができるかどうかをテストします。
 
 `Test-CsVoiceUser -DialedNumber "12065551219" -SipUri "sip:kenmyer@litwareinc.com"`
 
@@ -92,13 +94,13 @@ CsVoiceUser コマンドレットを実行するときは、ダイヤルされ�
 
 `-DialedNumber "2065551219"`
 
-当然のことですが、この場合、数字2065551219を Lync Server で使用されている e.164 電話形式に正しく変換できる正規化ルールがないと、テストは失敗します。 詳細については、ヘルプトピック「Get-csvoicenormalizationrule コマンドレット」を参照してください。
+当然のことですが、この場合、数字2065551219を Lync Server で使用されている e.164 電話形式に正しく変換できる正規化ルールがないと、テストは失敗します。 詳細については、ヘルプトピック「New-CsVoiceNormalizationRule コマンドレット」を参照してください。
 
 各ユーザーアカウントに対してこの同じテストを実行する場合は、次のようなコマンドを使用できます。
 
 `Get-CsUser | ForEach-Object {$_.DisplayName; Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri $_.SipAddress} | Format-List`
 
-詳細については、CsVoiceUser コマンドレットのヘルプドキュメントを参照してください。
+詳細については、Test-CsVoiceUser コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -114,7 +116,7 @@ TranslatedNumber    MatchingRule    FirstMatchingRoute    MatchingUsage
 
 \+12065551219 Descripti   LocalRoute ローカル
 
-Windows PowerShell 画面には制限があるため、返される情報 (特に一致する正規化ルールの詳細な説明) が画面に表示されない場合があります。 テストの成功または失敗のみを目的としている場合は、これは問題ではない可能性があります。 返されるデータの完全な詳細を表示する場合は、テストの実行時に出力を Format List コマンドレットにパイプ処理します。
+Windows PowerShell 画面には制限があるため、返される情報 (特に一致する正規化ルールの詳細な説明) が画面に表示されない場合があります。 テストの成功または失敗のみを目的としている場合は、これは問題ではない可能性があります。 返されるデータの詳細を表示する場合は、テストの実行時に出力を Format-List コマンドレットにパイプ処理します。
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose | Format-List`
 
@@ -122,7 +124,7 @@ Windows PowerShell 画面には制限があるため、返される情報 (特�
 
 TranslatedNumber: + 12065551219
 
-MatchingRule: Description =;Pattern = ^ (\\d{11}) $;直線移動 = + $ 1;
+MatchingRule: Description =;Pattern = ^ ( \\ d {11} ) $;直線移動 = + $ 1;
 
 Name = Prefix All、IsInternalExtension = False
 
@@ -130,7 +132,7 @@ FirsMatchingRoute: LocalRoute
 
 MatchingUsage: ローカル
 
-テストが失敗した場合、CsVoiceUser は空のプロパティ値のセットを返します。
+テストが失敗すると、Test-CsVoiceUser は空のプロパティ値のセットを返します。
 
 TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
 
@@ -142,11 +144,11 @@ TranslatedNumber MatchingRule FirstMatchingRoute MatchingUsage
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-CsVoiceUser コマンドレットが失敗する原因としては、次のようないくつかの理由が考えられます。指定された電話番号を変換できる正規化ルールがない場合があります。 音声ルートに問題がある可能性があります。 対象のユーザーに割り当てられているダイヤルプランの構成に問題がある可能性があります。 そのため、CsVoiceUser コマンドレットを実行しているときに、Verbose パラメーターを含めることをお勧めします。
+Test-CsVoiceUser コマンドレットが失敗する理由はいくつかあります。指定された電話番号を翻訳できる正規化ルールがない場合があります。 音声ルートに問題がある可能性があります。 対象のユーザーに割り当てられているダイヤルプランの構成に問題がある可能性があります。 そのため、Test-CsVoiceUser コマンドレットを実行しているときに、Verbose パラメーターを含めることをお勧めします。
 
 `Test-CsVoiceUser -DialedNumber "+12065551219" -SipUri "sip:kenmyer@litwareinc.com" -Verbose`
 
-Verbose コマンドレットが含まれている場合、CsVoiceUser は、チェックを実行するときに実行されるすべての手順の詳細なアカウントを発行します。 たとえば、次のような手順が表示されることがあります。 
+Verbose コマンドレットが含まれている場合、Test-CsVoiceUser は、チェックを実行するときに実行されるすべての手順の詳細なアカウントを発行します。 たとえば、次のような手順が表示されることがあります。 
 
 VERBOSE: id が "sip:kenmyer@litwareinc.com" のユーザーを検索しています
 

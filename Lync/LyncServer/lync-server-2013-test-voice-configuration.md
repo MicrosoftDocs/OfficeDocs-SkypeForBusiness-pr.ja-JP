@@ -12,20 +12,22 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3bd2e9b86ee0c14d8fd9e2bbe386d48398d2418
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1491aa1d28de238bcadd2a024021fabf16e9128a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194390"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527904"
 ---
+# <a name="test-voice-configuration-in-lync-server-2013"></a>Lync Server 2013 での音声構成のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-configuration-in-lync-server-2013"></a>Lync Server 2013 での音声構成のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-05-20_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Test-csvoicetestconfiguration コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsVoiceTestConfiguration コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceTestConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2014-05-20_
 
 ## <a name="description"></a>説明
 
-Lync Server には、いくつかの Windows PowerShell コマンドレット (Get-csvoiceroute、Set-csvoicepolicy、Get-cstrunkconfiguration など) が含まれています。これを使用すると、エンタープライズ Voip インフラストラクチャの個々の要素 (音声ルート、音声) を確認できます。ポリシー、SIP トランク–期待どおりに動作しています。
+Lync Server には、いくつかの Windows PowerShell コマンドレット (Test-CsVoiceRoute、Get-cstrunkconfiguration など) が含まれており、エンタープライズ Voip インフラストラクチャの個々の部分 (音声ルート、音声ポリシー、SIP トランク-) が期待どおりに動作していることを確認できます。
 
 個人のすべての要素が機能することはエンタープライズ Voip にとって重要ですが、有効な音声ルート、有効な音声ポリシー、および有効な SIP トランクを持つことができますが、ユーザーは通話を発信または受信できません。 そのため、Lync Server では音声テスト構成を作成することもできます。 音声テスト構成は、一般的なエンタープライズ Voip シナリオを表します。たとえば、音声ルート、音声ポリシー、ダイヤルプランなどを指定し、それらの各アイテムが連携して電話サービスを提供できるようにすることができます。 さらに、特定のシナリオで期待値を検証することもできます。 たとえば、ダイヤルプラン A と音声ポリシー B の組み合わせによって、呼び出しがボイスルート C を経由してルーティングされると想定しているとします。音声ルート C を ExpectedRoute として入力できます。 テストを実行すると、音声ルート C が使用されていない場合、テストは失敗したとしてマークされます。
 
@@ -76,7 +78,7 @@ Lync Server には、いくつかの Windows PowerShell コマンドレット (G
 
 ## <a name="running-the-test"></a>テストの実行
 
-Windows PowerShell を使用して音声構成コレクションをテストする前に、まず Test-csvoicetestconfiguration コマンドレットを使用してこれらの構成設定のインスタンスを取得する必要があります。 その後、そのインスタンスを Test-csvoicetestconfiguration にパイプ処理する必要があります。 次に例を示します。
+Windows PowerShell を使用して音声構成コレクションをテストする前に、まず Get-CsVoiceTestConfiguration コマンドレットを使用してこれらの構成設定のインスタンスを取得する必要があります。 その後、そのインスタンスを Test-csvoicetestconfiguration にパイプ処理する必要があります。 以下に例を示します。
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
@@ -84,7 +86,7 @@ Windows PowerShell を使用して音声構成コレクションをテストす�
 
 `Get-CsVoiceTestConfiguration | Test-CsVoiceTestConfiguration`
 
-詳細については、Test-csvoicetestconfiguration コマンドレットのヘルプドキュメントを参照してください。
+詳細については、Test-CsVoiceTestConfiguration コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -92,13 +94,13 @@ Windows PowerShell を使用して音声構成コレクションをテストす�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Test-csvoicetestconfiguration コマンドレットでは、テストが失敗したか成功したかを報告し、成功した各テストに関する追加情報を提供します。これには、タスクを完了するために使用される変換ルール、ボイスルート、および PSTN 使用法などがあります。
+Test-CsVoiceTestConfiguration コマンドレットは、テストが失敗したか成功したかを報告し、成功した各テスト (タスクを完了するために使用される変換ルール、ボイスルート、および PSTN 使用法など) に関する追加情報を提供します。
 
 結果: 成功
 
 TranslatedNumber: + 15551234
 
-MatchingRule: Description =;Pattern = ^ (\\d{4}) $;直線移動 = +\\1 d;Name = Test; IsInternalExtension = False
+MatchingRule: Description =;Pattern = ^ ( \\ d {4} ) $;直線移動 = + 1 \\ d;Name = Test; IsInternalExtension = False
 
 FirstMatchingRoute: サイト: Redmond
 
@@ -120,7 +122,7 @@ MatchingUsage:      
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-音声テスト構成テストでは、音声ポリシー、ダイヤルプラン、音声ルートなど、いくつかの異なるアイテムがテストされるため、テストに失敗する可能性があるさまざまな要因があります。 テストが失敗した場合は、最初の手順として、Test-csvoicetestconfiguration コマンドレットを使用して構成設定を確認する必要があります。
+音声テスト構成テストでは、音声ポリシー、ダイヤルプラン、音声ルートなど、いくつかの異なるアイテムがテストされるため、テストに失敗する可能性があるさまざまな要因があります。 テストが失敗した場合は、最初の手順として、Get-CsVoiceTestConfiguration コマンドレットを使用して構成設定を確認する必要があります。
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration"`
 
@@ -128,7 +130,7 @@ MatchingUsage:      
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-Verbose パラメーターは、次の例に示すように、Test-csvoicetestconfiguration によって実行される各アクションのステップバイステップのアカウントを提供します。
+Verbose パラメーターは、次の例に示すように、Test-CsVoiceTestConfiguration によって実行される各アクションのステップバイステップのアカウントを提供します。
 
 VERBOSE: ダイヤルプランの読み込み: "グローバル"
 

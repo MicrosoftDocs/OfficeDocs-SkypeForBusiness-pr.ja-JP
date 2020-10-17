@@ -12,20 +12,22 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e991f6240d9c21815299a3ef169c5824cf5ef3b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57d8e3cb0a79c8ce6a6c1c51891fbad265f045de
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213143"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529204"
 ---
+# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Lync Server 2013 の ConferenceSessionDetails テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-table-in-lync-server-2013"></a>Lync Server 2013 の ConferenceSessionDetails テーブル
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2012-09-28_
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>
@@ -60,19 +62,19 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>Datetime</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>セッション要求の時刻。<strong>Sessionidseq</strong>と組み合わせて、電話会議セッションを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッション要求の時刻。 <strong>Sessionidseq</strong> と組み合わせて、電話会議セッションを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>セッションを識別するための ID 番号。 <strong>Sessionidtime</strong>と組み合わせて、電話会議セッションを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。 *</p></td>
+<td><p>セッションを識別するための ID 番号。 <strong>Sessionidtime</strong>と組み合わせて、電話会議セッションを一意に識別するために使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。 *</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>このセッションに関連する会議 URI にフォーカスを移動します。 詳細については、「 <a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 の ConferenceUris テーブル</a>」を参照してください。 この URI は、フォーカスベースの会議 URI です。</p></td>
+<td><p>このセッションに関連する会議 URI にフォーカスを移動します。 詳細については、「 <a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 の ConferenceUris テーブル</a> 」を参照してください。 この URI は、フォーカスベースの会議 URI です。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfInstance</strong></p></td>
@@ -85,7 +87,7 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>McuConferenceUriId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>このセッションに関連する会議サーバーの会議 URI。 詳細については、「 <a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 の ConferenceUris テーブル</a>」を参照してください。 この URI は、会議サーバーベースの会議 URI です。 フォーカス会議セッションの場合、この列は null になります。</p></td>
+<td><p>このセッションに関連する会議サーバーの会議 URI。 詳細については、「 <a href="lync-server-2013-conferenceuris-table.md">Lync Server 2013 の ConferenceUris テーブル</a> 」を参照してください。 この URI は、会議サーバーベースの会議 URI です。 フォーカス会議セッションの場合、この列は null になります。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserId</strong></p></td>
@@ -127,13 +129,13 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>Edialogidtime を置換する</strong></p></td>
 <td><p>日付型</p></td>
 <td><p>外部</p></td>
-<td><p>現在のセッションで置き換えられたダイアログを識別するための ID 番号。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>現在のセッションで置き換えられたダイアログを識別するための ID 番号。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Edialogidseq を置換する</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>セッションを識別するための ID 番号。 このセッションで置き換えられたセッションを一意に識別するために <strong>ReplacesDialogIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別するための ID 番号。 このセッションで置き換えられたセッションを一意に識別するために <strong>ReplacesDialogIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsStartedByConfServer</strong></p></td>
@@ -169,13 +171,13 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>ServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>このセッションで使用されるフロントエンド サーバーの ID。 詳細については、「 <a href="lync-server-2013-servers-table.md">Lync Server 2013 のサーバーの表</a>」を参照してください。</p></td>
+<td><p>このセッションで使用されるフロントエンド サーバーの ID。 詳細については、「 <a href="lync-server-2013-servers-table.md">Lync Server 2013 のサーバーの表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>セッションが取得されたプールの ID。 詳細については、「 <a href="lync-server-2013-pools-table.md">Lync Server 2013 のプール</a>」の表を参照してください。</p></td>
+<td><p>セッションが取得されたプールの ID。 詳細については、「 <a href="lync-server-2013-pools-table.md">Lync Server 2013 のプール</a> 」の表を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediationServerId</strong></p></td>
@@ -187,19 +189,19 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>GatewayId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話が使用しているゲートウェイ。 詳細については、「 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイ表</a>」を参照してください。</p></td>
+<td><p>通話が使用しているゲートウェイ。 詳細については、「 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイ表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EdgeServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>呼び出しが使用しているエッジサーバー。 詳細については、「 <a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 の EdgeServers テーブル</a>」を参照してください。</p></td>
+<td><p>呼び出しが使用しているエッジサーバー。 詳細については、「 <a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 の EdgeServers テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>セッションで使用されるコンテンツの種類。 詳細については、「 <a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 の ContentTypes テーブル</a>」を参照してください。</p></td>
+<td><p>セッションで使用されるコンテンツの種類。 詳細については、「 <a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 の ContentTypes テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>InviteTime</strong></p></td>
@@ -248,7 +250,7 @@ _**トピックの最終更新日:** 2012-09-28_
 </table>
 
 
-\*ほとんどのセッションでは、SessionIdSeq の値は1になります。 まったく同時に複数のセッションが開始した場合、あるセッションの SessionIdSeq は 1、別のセッションは 2、などとなります。
+\* ほとんどのセッションでは、SessionIdSeq の値は1になります。 まったく同時に複数のセッションが開始した場合、あるセッションの SessionIdSeq は 1、別のセッションは 2、などとなります。
 
 </div>
 

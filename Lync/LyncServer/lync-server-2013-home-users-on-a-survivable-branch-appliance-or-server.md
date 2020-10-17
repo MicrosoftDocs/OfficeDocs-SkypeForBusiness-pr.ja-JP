@@ -12,20 +12,22 @@ ms:contentKeyID: 48185926
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f6fb176025dd7f075429833e48b53eb1f7a5b07
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: add711ca547648a6071a22fee6a0bcd0eeb0f6c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204626"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528204"
 ---
+# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Lync Server 2013 の存続可能ブランチアプライアンスまたはサーバー上のホームユーザー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Lync Server 2013 の存続可能ブランチアプライアンスまたはサーバー上のホームユーザー
+
 
 </div>
 
@@ -45,13 +47,13 @@ _**トピックの最終更新日:** 2014-12-10_
 
 1.  ユーザーを存続可能ブランチサーバーまたは存続可能ブランチサーバーに移動する前に、Lync Server 管理シェルを開き、次のすべての手順を実行します。
     
-      - コマンドレット**Test-CsPstnOutboundCall**を実行して、存続可能ブランチサーバーが実行中で、公衆交換電話網 (PSTN) 接続が構成されていることを確認します。 PSTN ゲートウェイのプロパティを変更する必要がある場合は、コマンドレット**Set-CsPstnGateway**を使用してください。
+      - コマンドレット **Test-CsPstnOutboundCall** を実行して、存続可能ブランチサーバーが実行中で、公衆交換電話網 (PSTN) 接続が構成されていることを確認します。 PSTN ゲートウェイのプロパティを変更する必要がある場合は、コマンドレット **Set-CsPstnGateway**を使用してください。
     
-      - **Set-csvoicepolicy**コマンドレットを実行して、存続可能ブランチサーバーに所属するユーザーが適切な VoIP ルーティングポリシーを持っていることを確認します。 VoIP ポリシーを変更する必要がある場合は、コマンドレット**set-csvoicepolicy**を使用します。
+      - **Set-csvoicepolicy**コマンドレットを実行して、存続可能ブランチサーバーに所属するユーザーが適切な VoIP ルーティングポリシーを持っていることを確認します。 VoIP ポリシーを変更する必要がある場合は、コマンドレット **set-csvoicepolicy**を使用します。
     
       - **Get-csvoicemailreroutingconfiguration**コマンドレットを実行して、ボイスメールの再ルーティング設定が構成されていることを確認します。 ボイスメールの再ルーティング設定を変更する必要がある場合は、 **get-csvoicemailreroutingconfiguration**コマンドレットを使用します。
 
-2.  Lync Server 管理シェルで、コマンドレットを実行して、ホームユーザーを**移動します**。
+2.  Lync Server 管理シェルで、コマンドレットを実行して、ホームユーザーを **移動します** 。
 
 <div>
 

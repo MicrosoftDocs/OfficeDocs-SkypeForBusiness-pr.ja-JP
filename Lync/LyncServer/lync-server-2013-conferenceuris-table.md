@@ -12,20 +12,22 @@ ms:contentKeyID: 48185160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4310c90bdf3381bf9a5b357d6b45c9252ab7136b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e9142be1b2d46a7d7634394970d07dfa450a22e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529174"
 ---
+# <a name="conferenceuris-table-in-lync-server-2013"></a>Lync Server 2013 の ConferenceUris テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferenceuris-table-in-lync-server-2013"></a>Lync Server 2013 の ConferenceUris テーブル
+
 
 </div>
 
@@ -49,7 +51,7 @@ ConfereneUris テーブルは、データベースに記録されている会議
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>
@@ -84,7 +86,7 @@ ConfereneUris テーブルは、データベースに記録されている会議
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>URI の種類。たとえば、「conf: IM 会議用チャット」または「conf: 音声ビデオ会議用の音声ビデオ」など。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013</a>の表の UriTypes」を参照してください。</p></td>
+<td><p>URI の種類。たとえば、「conf: IM 会議用チャット」または「conf: 音声ビデオ会議用の音声ビデオ」など。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013</a> の表の UriTypes」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>

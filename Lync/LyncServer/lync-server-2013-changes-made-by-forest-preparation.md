@@ -12,20 +12,22 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6954e8a4cd76e103516fd1f2323ef04d820dc056
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b0429eabd9a02a08918e5590043bbad9faca83
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191560"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529474"
 ---
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Lync Server 2013 でのフォレストの準備によって加えられた変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Lync Server 2013 でのフォレストの準備によって加えられた変更
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-10-30_
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory のグローバル設定とオブジェクト
 
-構成コンテナーにグローバル設定を格納する場合 (すべての新しい Lync Server 2013 展開の場合と同様)、フォレストの準備では、既存のサービスコンテナーを使用し、構成\\サービスオブジェクトの下に**RTC Service**オブジェクトを追加します。 フォレストの準備では、msRTCSIP-GlobalContainer 型の **Global Settings** オブジェクトが RTC サービス オブジェクトに追加されます。 グローバル設定オブジェクトには、Lync Server の展開に適用されるすべての設定が含まれています。 システムコンテナーにグローバル設定を格納すると、フォレストの準備では、ルートドメインシステムコンテナーの下の Microsoft コンテナーと、System\\microsoft オブジェクトの下にある RTC サービスオブジェクトが使用されます。
+構成コンテナーにグローバル設定を格納する場合 (すべての新しい Lync Server 2013 展開の場合と同様)、フォレストの準備では、既存のサービスコンテナーを使用し、構成サービスオブジェクトの下に **RTC Service** オブジェクトを追加し \\ ます。 フォレストの準備では、msRTCSIP-GlobalContainer 型の **Global Settings** オブジェクトが RTC サービス オブジェクトに追加されます。 グローバル設定オブジェクトには、Lync Server の展開に適用されるすべての設定が含まれています。 システムコンテナーにグローバル設定を格納すると、フォレストの準備では、ルートドメインシステムコンテナーの下の Microsoft コンテナーと、System microsoft オブジェクトの下にある RTC サービスオブジェクトが使用さ \\ れます。
 
 またフォレストの準備では、この手順が実行されるルート ドメインの新しい **msRTCSIP-Domain** オブジェクトが追加されます。
 
@@ -57,11 +59,11 @@ _**トピックの最終更新日:** 2012-10-30_
 
 ユニバーサル グループを使用すると、管理者はグローバル設定およびサービスにアクセスしてそれらを管理できます。フォレストの準備により、次の種類のユニバーサル グループが追加されます。
 
-  - **管理グループ**   これらのグループは、Lync Server ネットワークの管理者の役割を定義します。
+  - **管理グループ**    これらのグループは、Lync Server ネットワークの管理者の役割を定義します。
 
-  - **インフラストラクチャグループ**   これらのグループは、Lync Server インフラストラクチャの特定の領域にアクセスするためのアクセス許可を提供します。 これらは、管理グループのコンポーネントとして機能します。 これらのグループを変更したり、ユーザーを直接追加したりすることはできません。
+  - **インフラストラクチャグループ**    これらのグループは、Lync Server インフラストラクチャの特定の領域にアクセスするためのアクセス許可を提供します。 これらは、管理グループのコンポーネントとして機能します。 これらのグループを変更したり、ユーザーを直接追加したりすることはできません。
 
-  - **サービスグループ**   これらのグループは、さまざまな Lync Server サービスにアクセスするために必要なサービスアカウントです。
+  - **サービスグループ**    これらのグループは、さまざまな Lync Server サービスにアクセスするために必要なサービスアカウントです。
 
 次の表では、管理グループについて説明します。
 

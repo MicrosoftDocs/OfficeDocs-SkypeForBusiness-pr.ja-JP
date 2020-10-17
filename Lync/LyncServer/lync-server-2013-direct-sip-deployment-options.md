@@ -12,20 +12,22 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e521e1665361e15fffdf1e058731d04bc2eb9aa4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aaecb9bd7b5fc4f144236f83f85f9e1e192784f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197610"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529114"
 ---
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013 の直接 SIP 展開のオプション
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013 の直接 SIP 展開のオプション
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 <div>
 
-## <a name="lync-server-stand-alone"></a>Lync Server スタンドアロン
+## <a name="lync-server-stand-alone"></a>Lync Server Stand-Alone
 
 このセクションに記載されているいずれかの展開を組織が使用している場合は、一部またはすべての組織の単独テレフォニーソリューションとして Lync Server 2013 を使用できます。 このセクションでは、次の展開について詳細に説明します。
 
@@ -71,7 +73,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 
 > [!NOTE]  
-> Lync Server の展開を認定された直接 SIP パートナーに接続している場合は、仲介サーバーと PBX との間の公衆交換電話網 (PSTN) ゲートウェイは必要ありません。 認定された直接 SIP パートナーの一覧については、「Microsoft 統合コミュニケーション」 <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>() を参照してください。
+> Lync Server の展開を認定された直接 SIP パートナーに接続している場合は、仲介サーバーと PBX との間の公衆交換電話網 (PSTN) ゲートウェイは必要ありません。 認定された直接 SIP パートナーの一覧については、「Microsoft 統合コミュニケーション」 () を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A> 。
 
 
 
@@ -141,9 +143,9 @@ _**トピックの最終更新日:** 2012-09-21_
 
 <div>
 
-## <a name="lync-server-voip-only-deployment"></a>Lync Server VoIP のみの展開
+## <a name="lync-server-voip-only-deployment"></a>Lync Server VoIP-Only の展開
 
-エンタープライズ Voip では、新しいビジネスと既存のビジネス向けの新しい office サイトも提供しており、PBX の統合または大量の展開と保守を気にせずに、完全な機能を備えた VoIP ソリューションを実装する機会があります。ip-pbx インフラストラクチャのコスト。 このソリューションは、オンサイトワーカーとリモートワーカーの両方をサポートしています。
+エンタープライズ Voip は、新しいビジネスと既存のビジネス向けの新しい office サイトも提供しています。これにより、PBX の統合を心配することなく、または ip-pbx インフラストラクチャの展開と保守のための十分なコストをかけずに、完全な機能を備えた VoIP ソリューションを実装する機会があります。 このソリューションは、オンサイトワーカーとリモートワーカーの両方をサポートしています。
 
 この展開では、すべての呼び出しが IP ネットワークを経由してルーティングされます。 PSTN への通話は、適切な PSTN ゲートウェイにルーティングされます。 Lync 2013 または Lync Phone Edition は、softphone として機能します。 ユーザーが管理する PBX 電話がないため、リモート通話コントロールは使用できず、不要です。 ボイスメールおよび自動応答サービスは、「Exchange ユニファイドメッセージング (UM) のオプションの展開によって利用できます。
 

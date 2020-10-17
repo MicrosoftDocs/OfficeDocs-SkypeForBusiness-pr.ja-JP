@@ -12,20 +12,22 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebb2eb7695cfcc3b1ed6166f7768128dc48fb8ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c8d7f99b4a7c72b9eb039fb7447397e711caa36
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208770"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527924"
 ---
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013 でのポートの概要-拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーション
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013 でのポートの概要-拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーション
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208770"
 
 _**トピックの最終更新日:** 2012-10-20_
 
-エッジサーバーに展開された拡張メッセージングおよびプレゼンスプロトコル (XMPP) プロキシに定義されているポートとプロトコルは、XMPP フェデレーションパートナーからエッジサーバーへの通信を許可します。また、エッジサーバーから XMPP への通信も可能にします。フェデレーションパートナー。 ルールは、フロントエンドサーバーまたはフロントエンドプールからエッジサーバーまたはエッジプールへの内部接続ファイアウォール上にも定義されています。
+エッジサーバーに展開されている拡張メッセージングおよびプレゼンスプロトコル (XMPP) プロキシに対して定義されているポートとプロトコルは、XMPP フェデレーションパートナーからエッジサーバーへの通信を許可すると共に、エッジサーバーから XMPP フェデレーションパートナーへの通信を許可します。 ルールは、フロントエンドサーバーまたはフロントエンドプールからエッジサーバーまたはエッジプールへの内部接続ファイアウォール上にも定義されています。
 
 <div>
 
@@ -56,7 +58,7 @@ _**トピックの最終更新日:** 2012-10-20_
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 (IP アドレス)</th>
 <th>宛先 (IP アドレス)</th>
-<th>コメント</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eef76c8728a7b5a569efee9305505f4e19f6bceb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f33d34644f76c9773edbfd9ad5d3945c0c1974c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194320"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527824"
 ---
+# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Lync Server 2013 でグループ IM を実行するためのテスト機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Lync Server 2013 でグループ IM を実行するためのテスト機能
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsGroupIM コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsGroupIM コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -68,7 +70,7 @@ _**トピックの最終更新日:** 2014-06-05_
 
 Test-CsGroupIM コマンドレットは、組織内のユーザーがグループのインスタントメッセージングセッションを実行できるかどうかを確認します。 Test-CsGroupIM を実行すると、コマンドレットはテストユーザーのペアを Lync Server にサインインしようとします。 成功すると、Test-CsGroupIM は、最初のテスト ユーザーを使用して新しい会議を作成し、2 番目のユーザーを会議に招待します。 メッセージの交換後、両方のユーザーはシステムから切断されます。 すべてのユーザーが操作を行わなくても、実際のユーザーに影響を与えることなく、すべてが行われることに注意してください。 たとえば、テストアカウント sip:kenmyer@litwareinc.com が実際の Lync Server アカウントを持つ実際のユーザーに対応しているとします。 この場合、テストは、実際の Ken Myer の業務を中断することなく実行されます。 たとえば、Ken Myer のテスト アカウントがシステムからログオフした場合でも、Ken Myer 本人はログオン状態が保持されます。 同様に、実際の Ken Myer は会議に参加するための招待を受信しません。 その招待は、テスト アカウントに対して送信されて、テスト アカウントによって承諾されます。
 
-詳細については、「 [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -76,7 +78,7 @@ Test-CsGroupIM コマンドレットは、組織内のユーザーがグルー�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsGroupIM コマンドレットは、事前に構成されたテストアカウントのペア (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 次に例を示します。
+Test-CsGroupIM コマンドレットを実行するには、事前に構成された一連のテストアカウントを使用します (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照してください)。または、Lync Server が有効になっている2人のユーザーのアカウント。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 以下に例を示します。
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -86,7 +88,7 @@ Test-CsGroupIM コマンドレットは、事前に構成されたテストア�
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsGroupIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-詳細については、「 [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -94,7 +96,7 @@ Test-CsGroupIM コマンドレットは、事前に構成されたテストア�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-2人のユーザーがグループのインスタントメッセージングセッションを完了できた場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
+2人のユーザーがグループのインスタントメッセージングセッションを完了できた場合は、次のような出力が得られ、Result プロパティは Success としてマークされ **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -128,11 +130,11 @@ DiagnosticHeader ()
 
     "Ken Myer", "David Longmire" | Get-CsUser | Select-Object SipAddress, Enabled
 
-Test-CsGroupIM に障害が発生した場合は、次のように詳細パラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsGroupIM が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose パラメーターが指定されている場合、テスト-CsGroupIM は、指定されたユーザーがグループのインスタントメッセージングセッションに参加できるかどうかを確認したときに実行された各操作のステップバイステップのアカウントを返します。 たとえば、テストが失敗し、1つ以上のユーザーアカウントが有効でないと通知された場合は、Verbose パラメーターを使用してテストを再実行し、無効なユーザーアカウントを特定します。
+Verbose パラメーターが含まれている場合、Test-CsGroupIM は、指定されたユーザーがグループのインスタントメッセージングセッションに参加できるかどうかを確認したときに実行された各操作のステップバイステップのアカウントを返します。 たとえば、テストが失敗し、1つ以上のユーザーアカウントが有効でないと通知された場合は、Verbose パラメーターを使用してテストを再実行し、無効なユーザーアカウントを特定します。
 
 登録要求の送信:
 
@@ -154,7 +156,7 @@ Verbose パラメーターが指定されている場合、テスト-CsGroupIM �
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、Test-CsGroupIM が失敗する可能性がある一般的な理由を示します。
+Test-CsGroupIM が失敗する可能性のある一般的な理由を次に示します。
 
   - 正しくないユーザーアカウントが指定されています。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     
@@ -162,7 +164,7 @@ Verbose パラメーターが指定されている場合、テスト-CsGroupIM �
 
   - ユーザーアカウントは有効ですが、アカウントは現在 Lync Server に対して有効になっていません。 ユーザーアカウントが Lync Server に対して有効になっていることを確認するには、次のようなコマンドを実行します。
     
-    取得-CsUser "sip:kenmyer@litwareinc.com" |Select-オブジェクトが有効
+    Get-CsUser "sip:kenmyer@litwareinc.com" |Select-Object 有効
     
     Enabled プロパティが False に設定されている場合は、ユーザーが現在 Lync Server に対して有効になっていないことを意味します。
 
