@@ -12,20 +12,22 @@ ms:contentKeyID: 48183488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb449bcd0519338408eb596784707069d9a07415
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60119e137851bbaa8dc7b6735202132085bb8d34
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506124"
 ---
+# <a name="create-or-modify-a-network-site-in-lync-server-2013"></a>Lync Server 2013 でのネットワークサイトの作成または変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-network-site-in-lync-server-2013"></a>Lync Server 2013 でのネットワークサイトの作成または変更
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205583"
 
 _**トピックの最終更新日:** 2013-02-24_
 
-通話受付管理 (CAC)、E9-1-1、およびメディアバイパスの展開は、で定義され、常にネットワーク地域に関連付けられている*ネットワークサイト*の構成に依存します。 ネットワークサイトは、ブランチオフィスの場所、建物のセット、またはキャンパスを表します。 ネットワークサイトは、帯域幅が類似しているサブネットの集合を表します。
+通話受付管理 (CAC)、E9-1-1、およびメディアバイパスの展開は、で定義され、常にネットワーク地域に関連付けられている *ネットワークサイト* の構成に依存します。 ネットワークサイトは、ブランチオフィスの場所、建物のセット、またはキャンパスを表します。 ネットワークサイトは、帯域幅が類似しているサブネットの集合を表します。
 
 ネットワーク サイトを作成または変更するには、以下の手順を使用します。 たとえば、1 つの音声機能について既にネットワーク サイトを作成している場合は、新しいネットワーク サイトを作成する必要はありません。他の音声機能も既存の同じサイトを使用します。 ただし、既存のネットワーク サイトの定義を変更して機能固有の設定を適用しなければならない場合があります。 たとえば、E9-1-1 用のネットワーク サイトを作成している場合、通話受付管理の展開時にネットワーク サイトを変更して、帯域幅ポリシー プロファイルを適用する必要があります。
 
@@ -80,7 +82,7 @@ _**トピックの最終更新日:** 2013-02-24_
     
         New-CsNetworkSite -NetworkSiteID <string>
     
-    次に例を示します。
+    次にその例を示します。
     
         New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
     

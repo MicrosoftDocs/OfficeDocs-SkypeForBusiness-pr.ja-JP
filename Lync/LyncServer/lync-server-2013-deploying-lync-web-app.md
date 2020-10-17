@@ -12,20 +12,22 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8babb6bf37e3dd75f2051dd08f0b2ebf3a4f093b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2156466e0238a061f2358127c75408fa37e3b823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507534"
 ---
+# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Lync Server 2013 での Lync Web App の展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Lync Server 2013 での Lync Web App の展開
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Web App の音声、ビデオ、および共有機能には、Microsoft Act
 
 
 > [!NOTE]  
-> Lync Server 2013 エッジサーバー展開では、Lync Web App クライアントアクセスには、境界ネットワーク内の HTTPS リバースプロキシが必要です。 また、簡易 URL も公開する必要があります。 詳細については、「lync <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">server 2013 用のリバースプロキシサーバーの設定</A>」および「 <A href="lync-server-2013-planning-for-simple-urls.md">lync server 2013 での簡単な url の計画</A>」を参照してください。
+> Lync Server 2013 エッジサーバー展開では、Lync Web App クライアントアクセスには、境界ネットワーク内の HTTPS リバースプロキシが必要です。 また、簡易 URL も公開する必要があります。 詳細については、「lync <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">server 2013 用のリバースプロキシサーバーの設定</A> 」および「 <A href="lync-server-2013-planning-for-simple-urls.md">lync server 2013 での簡単な url の計画</A>」を参照してください。
 
 
 
@@ -55,7 +57,7 @@ Lync Web App の音声、ビデオ、および共有機能には、Microsoft Act
 
 ## <a name="enabling-multi-factor-authentication-for-lync-web-app"></a>Lync Web App で多要素認証を有効にする
 
-Lync Web App の Lync Server 2013 バージョンは、多要素認証をサポートしています。 ユーザー名とパスワードに加えて、スマートカードや Pin などの追加の認証方法を要求して、Lync 会議にサインインするときに外部ネットワークから参加しているユーザーを認証することができます。 Active Directory フェデレーションサービス (AD FS) フェデレーションサーバーを展開し、Lync Server 2013 でパッシブ認証を有効にすることによって、多要素認証を有効にすることができます。 AD FS を構成した後、Lync 会議に参加しようとする外部ユーザーには、ユーザー名とパスワードのチャレンジと、構成した追加の認証方法が含まれる AD FS 多要素認証 web ページが表示されます。.
+Lync Web App の Lync Server 2013 バージョンは、多要素認証をサポートしています。 ユーザー名とパスワードに加えて、スマートカードや Pin などの追加の認証方法を要求して、Lync 会議にサインインするときに外部ネットワークから参加しているユーザーを認証することができます。 Active Directory フェデレーションサービス (AD FS) フェデレーションサーバーを展開し、Lync Server 2013 でパッシブ認証を有効にすることによって、多要素認証を有効にすることができます。 AD FS を構成した後、Lync 会議に参加しようとする外部ユーザーには、ユーザー名とパスワードのチャレンジと、構成した追加の認証方法を含む AD FS 多要素認証 web ページが表示されます。
 
 <div class=" ">
 
@@ -78,9 +80,9 @@ Lync Web App の Lync Server 2013 バージョンは、多要素認証をサポ�
 
 **多要素認証を構成するには**
 
-1.  AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「Active Directory フェデレーションサービス2.0 展開ガイド」を参照してください。<https://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「Active Directory フェデレーションサービス2.0 展開ガイド」を参照してください。 <https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開するには」の「フェデレーションサーバー証明書」セクション[https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)を参照してください。シングルサインオンについては、「」を参照してください。
+2.  AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開するには」の「フェデレーションサーバー証明書」セクションを参照してください。シングルサインオンについては、「」を参照して [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) ください。
 
 3.  Windows PowerShell コマンドラインインターフェイスで、次のコマンドを実行します。
     ```powershell
@@ -113,7 +115,7 @@ Lync Web App の Lync Server 2013 バージョンは、多要素認証をサポ�
 
 Windows 7 および Windows Server 2008 R2 の BranchCache 機能は、Lync Web App web コンポーネントと競合する可能性があります。 Lync Web App ユーザーの問題が発生しないようにするには、BranchCache が有効になっていないことを確認してください。
 
-BranchCache を無効にする方法の詳細については、「BranchCache 展開ガイド」を参照してください[https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)。このガイドは、MICROSOFT ダウンロードセンターおよび HTML 形式の Windows Server 2008 R2 Technical Library () にある word 形式で利用できます。
+BranchCache を無効にする方法の詳細については、「BranchCache 展開ガイド」を参照してください。このガイドは、Microsoft ダウンロードセンター [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) および HTML 形式の Windows Server 2008 R2 Technical Library () にある word 形式で利用でき [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789) ます。
 
 </div>
 
@@ -158,9 +160,9 @@ Windows Server 2008 R2 を実行しているコンピューターでプラグイ
 
 2.  レジストリ エディターにアクセスするには、「**regedit**」と入力します。
 
-3.  \_[HKEY\_LOCAL MACHINE\\Software\\Policies\\Microsoft\\Windows\\Installer に移動します。
+3.  [HKEY \_ LOCAL \_ MACHINE \\ Software \\ Policies \\ Microsoft Windows Installer に移動 \\ \\ します。
 
-4.  REG\_DWORD 型の DisableMSI レジストリキーを編集または追加し、0に設定します。
+4.  REG DWORD 型の DisableMSI レジストリキーを編集または追加 \_ し、0に設定します。
 
 5.  会議にもう一度参加します。
 

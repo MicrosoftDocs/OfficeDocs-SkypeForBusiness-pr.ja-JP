@@ -12,20 +12,22 @@ ms:contentKeyID: 48185838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa1dbaf69aecc7977737317cccc4c6ac6bb07d2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a562331ea1672e380a095fc32eba5ea27275465
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215323"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506754"
 ---
+# <a name="prerequisites-for-federating-with-a-lync-online-customer-in-lync-server-2013"></a>Lync Server 2013 での Lync Online 顧客とのフェデレーションの前提条件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-federating-with-a-lync-online-customer-in-lync-server-2013"></a>Lync Server 2013 での Lync Online 顧客とのフェデレーションの前提条件
+
 
 </div>
 
@@ -39,15 +41,15 @@ _**トピックの最終更新日:** 2012-10-19_
 
 Lync Online 2010 お客様とフェデレーションするには、組織での Lync Server 2013 の初期展開と構成をすでに完了している必要があります。 エクスポートできるものには、次のようなものがあります。
 
-  - 少なくとも1つの Standard Edition サーバーまたは1つの Enterprise Edition フロントエンドプールを組織に展開します。 内部サーバーの展開の詳細については、「展開」のドキュメントの「[展開 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 」を参照してください。
+  - 少なくとも1つの Standard Edition サーバーまたは1つの Enterprise Edition フロントエンドプールを組織に展開します。 内部サーバーの展開の詳細については、「展開」のドキュメントの「 [展開 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 」を参照してください。
 
-  - Lync Server 2013 の内部ユーザーアカウントを有効にします。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync Server 2013 のユーザーアカウントの無効化または再有効化](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)」を参照してください。
+  - Lync Server 2013 の内部ユーザーアカウントを有効にします。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync Server 2013 のユーザーアカウントの無効化または再有効化](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) 」を参照してください。
 
-  - 少なくとも1つのエッジサーバーと、外部ユーザーアクセスをサポートするために必要なその他のコンポーネントを展開します。 詳細については、「展開」のドキュメントの「[管理フェデレーション」および「Lync Server 2013 への外部アクセス」を](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)参照してください。
+  - 少なくとも1つのエッジサーバーと、外部ユーザーアクセスをサポートするために必要なその他のコンポーネントを展開します。 詳細については、「展開」のドキュメントの「 [管理フェデレーション」および「Lync Server 2013 への外部アクセス」を](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) 参照してください。
 
-  - 組織内でフェデレーションのサポートを有効にし、フェデレーションドメインによるアクセスを制御するための適切な方法を構成します。 詳細については、「操作」のドキュメントの「 [lync server 2013 でのリモートユーザーアクセスの有効化または無効化](lync-server-2013-enable-or-disable-remote-user-access.md)」および「 [lync server 2013 での組織の SIP フェデレーションプロバイダーの管理](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)」を参照してください。
+  - 組織内でフェデレーションのサポートを有効にし、フェデレーションドメインによるアクセスを制御するための適切な方法を構成します。 詳細については、「操作」のドキュメントの「 [lync server 2013 でのリモートユーザーアクセスの有効化または無効化](lync-server-2013-enable-or-disable-remote-user-access.md) 」および「 [lync server 2013 での組織の SIP フェデレーションプロバイダーの管理](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) 」を参照してください。
 
-  - 組織内のユーザーの外部ユーザーアクセスを有効にします。 詳細については、「 [Lync Server 2013 での lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)」および「展開」のドキュメントまたは「操作」のドキュメントを参照してください。
+  - 組織内のユーザーの外部ユーザーアクセスを有効にします。 詳細については、「 [Lync Server 2013 での lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) 」および「展開」のドキュメントまたは「操作」のドキュメントを参照してください。
 
 </div>
 

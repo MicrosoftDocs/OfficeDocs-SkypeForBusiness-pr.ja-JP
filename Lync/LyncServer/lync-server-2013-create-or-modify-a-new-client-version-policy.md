@@ -12,20 +12,22 @@ ms:contentKeyID: 50873756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e95abe52883bff2c99ad02b01ea4cc1473f4626f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bfb78150097fe7bde3b72338b3d1c9c37dc2a9b6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205503"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506114"
 ---
+# <a name="create-or-modify-a-new-client-version-policy-in-lync-server-2013"></a>Lync Server 2013 で新しいクライアントバージョンポリシーを作成または変更する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-new-client-version-policy-in-lync-server-2013"></a>Lync Server 2013 で新しいクライアントバージョンポリシーを作成または変更する
+
 
 </div>
 
@@ -47,24 +49,24 @@ _**トピックの最終更新日:** 2013-02-23_
 
 2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**クライアント**] をクリックします。
+3.  左側のナビゲーションバーで [ **クライアント**] をクリックします。
     
     <div>
     
 
     > [!NOTE]  
-    > 既定では、[<STRONG>クライアントバージョンポリシー</STRONG> ] タブが選択されています。
+    > 既定では、[ <STRONG>クライアントバージョンポリシー</STRONG> ] タブが選択されています。
 
     
     </div>
 
-4.  [**クライアントバージョンポリシー** ] ページで、次のいずれかの操作を行います。
+4.  [ **クライアントバージョンポリシー** ] ページで、次のいずれかの操作を行います。
     
-      - クライアントバージョンポリシーを作成するには、[**新規**] をクリックし、[**サイトポリシー**]、[**プールポリシー**]、または [**ユーザーポリシー**] をクリックして、[ **OK**] をクリックします。
+      - クライアントバージョンポリシーを作成するには、[ **新規**] をクリックし、[ **サイトポリシー**]、[ **プールポリシー**]、または [ **ユーザーポリシー**] をクリックして、[ **OK**] をクリックします。
     
-      - グローバルポリシーまたは既存のクライアントバージョンポリシーを変更するには、ポリシーを選択し、[**編集**] をクリックしてから、[**詳細の表示**] をクリックします。
+      - グローバルポリシーまたは既存のクライアントバージョンポリシーを変更するには、ポリシーを選択し、[ **編集**] をクリックしてから、[ **詳細の表示**] をクリックします。
 
-5.  [**クライアントバージョンポリシーの編集**] ページで、「 [Lync Server 2013 の新しいクライアントバージョンポリシールールを作成または変更する](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)」の説明に従ってルールを作成または変更します。
+5.  [ **クライアントバージョンポリシーの編集** ] ページで、「 [Lync Server 2013 の新しいクライアントバージョンポリシールールを作成または変更する](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)」の説明に従ってルールを作成または変更します。
 
 </div>
 
@@ -94,7 +96,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 </div>
 
-詳細については、「 [New-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientVersionPolicy)コマンドレット」および「 [Set-csclientversionpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionPolicy)コマンドレット」のヘルプトピックを参照してください。
+詳細については、「 [New-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientVersionPolicy) コマンドレット」および「 [Set-csclientversionpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionPolicy) コマンドレット」のヘルプトピックを参照してください。
 
 </div>
 

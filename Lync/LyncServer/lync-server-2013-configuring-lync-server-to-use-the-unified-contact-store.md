@@ -12,20 +12,22 @@ ms:contentKeyID: 49733680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9875cb075f29f9f2efcb9328d1ac2d39d2f8ae89
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1f913b321d700337d1cb3649c2e1351971b6d7a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506254"
 ---
+# <a name="configuring-microsoft-lync-server-2013-to-use-the-unified-contact-store"></a>統合連絡先ストアを使用するように Microsoft Lync Server 2013 を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-to-use-the-unified-contact-store"></a>統合連絡先ストアを使用するように Microsoft Lync Server 2013 を構成する
+
 
 </div>
 
@@ -73,7 +75,7 @@ Lync Server 2013 をインストールすると、(グローバルスコープ�
 
 ポリシーに Lync Server が割り当てられると、ユーザーの連絡先が統合連絡先ストアに移行されます。 移行が完了した後、ユーザーは Lync Server ではなく Exchange に保存された自分の連絡先を取得できます。 移行が完了した時点でユーザーが Lync 2013 にログオンしている場合は、メッセージボックスが表示され、Lync からログオフするように求められ、処理を完了するために再びログオンするように求められます。 このユーザーごとのポリシーが割り当てられていないユーザーの連絡先は、統合連絡先ストアに移行されません。 これは、それらのユーザーがグローバルポリシーによって管理されており、グローバルポリシーで統合連絡先ストアの使用が無効にされているためです。
 
-Lync Server 管理シェルで[test-csunifiedcontactstore](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore)コマンドレットを実行することにより、ユーザーの連絡先が統合連絡先ストアに正常に移行されたことを確認できます。
+Lync Server 管理シェルで [test-csunifiedcontactstore](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore) コマンドレットを実行することにより、ユーザーの連絡先が統合連絡先ストアに正常に移行されたことを確認できます。
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -107,11 +109,11 @@ Test-CsUnifiedContactStore が成功すれば、統合連絡先ストアへの�
 
 統合連絡先ストアを操作する際には、"Ken の連絡先が統合連絡先ストアに移行されないようにする" という点に注意することが重要です。 単純に新しいユーザー サービス ポリシーを Ken に割り当てるだけでは、Ken の連絡先は統合連絡先ストアから移動されません。 ユーザーが Lync Server 2013 にログオンすると、システムはユーザーのユーザーサービスポリシーをチェックして、その連絡先を統合連絡先ストアに保持する必要があるかどうかを確認します。 答えが「はい」である (つまり、UcsAllowed プロパティが $True に設定されている) 場合は、連絡先が統合連絡先ストアに移行されます (連絡先がまだ統合連絡先ストアに移動されていないと仮定します)。 応答が [いいえ] の場合、Lync Server は単にユーザーの連絡先を無視し、次のタスクに進みます。 つまり、Lync Server は、UcsAllowed プロパティの値に関係なく、ユーザーの連絡先を統合連絡先ストアから自動的に移動することはありません。
 
-これはつまり、ユーザーに新しいユーザーサービスポリシーを割り当てた後に、 [invoke-csucsrollback](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback)コマンドレットを実行して、ユーザーの連絡先を Exchange 2013 から Lync Server 2013 に移行する必要があることも意味します。 たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
+これはつまり、ユーザーに新しいユーザーサービスポリシーを割り当てた後に、 [invoke-csucsrollback](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback) コマンドレットを実行して、ユーザーの連絡先を Exchange 2013 から Lync Server 2013 に移行する必要があることも意味します。 たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
 
     Invoke-CsUcsRollback -Identity "Ken Myer"
 
-ユーザーサービスポリシーを変更しても、Invoke-csucsrollback コマンドレットを実行しない場合、Ken の連絡先は統合連絡先ストアから削除されません。 Invoke-csucsrollback を実行しても Ken Myer のユーザーサービスポリシーを変更しない場合はどうなりますか? その場合、Ken の連絡先が統合連絡先ストアから一時的に削除されます。 この削除が一時的なものであることを念頭に置いておくことが重要です。 Ken の連絡先が統合連絡先ストアから削除された後、Lync Server 2013 は7日待機してから、Ken に割り当てられているユーザーサービスポリシーを確認します。 統合連絡先ストアのユーザーを有効にするポリシーが Ken にまだ割り当てられている場合、その連絡先は自動的に連絡先ストアに戻されます。 統合連絡先ストアから連絡先を完全に削除するには、Invoke-csucsrollback コマンドレットを実行することに加えて、ユーザーサービスポリシーを変更する必要があります。
+ユーザーサービスポリシーを変更しても Invoke-CsUcsRollback コマンドレットを実行しない場合、Ken の連絡先は統合連絡先ストアから削除されません。 Invoke-CsUcsRollback を実行しても Ken Myer のユーザーサービスポリシーを変更しない場合はどうなりますか? その場合、Ken の連絡先が統合連絡先ストアから一時的に削除されます。 この削除が一時的なものであることを念頭に置いておくことが重要です。 Ken の連絡先が統合連絡先ストアから削除された後、Lync Server 2013 は7日待機してから、Ken に割り当てられているユーザーサービスポリシーを確認します。 統合連絡先ストアのユーザーを有効にするポリシーが Ken にまだ割り当てられている場合、その連絡先は自動的に連絡先ストアに戻されます。 統合連絡先ストアから連絡先を完全に削除するには、Invoke-CsUcsRollback コマンドレットを実行することに加えて、ユーザーサービスポリシーを変更する必要があります。
 
 移行に影響を与える可能性がある大量の変数があるため、アカウントが統合連絡先ストアに完全に移行されるまでにかかる時間を予測するのは困難です。 ただし、一般的な規則として、少ない数の連絡先を移行する場合でも、移行が完了するまでに10分以上かかる場合があります。
 

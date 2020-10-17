@@ -12,20 +12,22 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f988b096b6f991cb52b4d1238219b67364c37ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7d019bfe7bb1dbb1322281a50f393decc8e5cc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199950"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507464"
 ---
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でのトランク構成設定の新しいコレクションの作成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でのトランク構成設定の新しいコレクションの作成
+
 
 </div>
 
@@ -82,7 +84,7 @@ Lync Server コントロールパネルを使用して SIP トランク構成設
 <tr class="even">
 <td><p>暗号化サポート レベル</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は、 <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">get-csmediaconfiguration</a>コマンドレットおよび<a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">get-csmediaconfiguration</a>コマンドレットを使用して設定します。</p>
+<td><p>仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。 メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。 メディア構成は、 <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">get-csmediaconfiguration</a> コマンドレットおよび <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">get-csmediaconfiguration</a> コマンドレットを使用して設定します。</p>
 <p>有効な値は次のとおりです。</p>
 <ul>
 <li><p>Required: SRTP 暗号化を使用する必要があります。</p></li>
@@ -96,7 +98,7 @@ Lync Server コントロールパネルを使用して SIP トランク構成設
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
 <td><p>[<strong>ゲートウェイへの参照の送信を有効にする</strong>] に設定した場合、トランクが仲介サーバーからの REFER 要求の受信をサポートすることを示します。</p>
-<p>[<strong>サードパーティ通話コントロールを使用する参照を有効にする</strong>] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。 3pcc は、サードパーティ&quot;のコントロールとも&quot;呼ばれ、サードパーティが1組の呼び出し元を接続するために使用される場合 (たとえば、ユーザー a からユーザー B に電話をかけるオペレーターなど) に発生します。</p></td>
+<p>[<strong>サードパーティ通話コントロールを使用する参照を有効にする</strong>] に設定すると、3PCC プロトコルを使用して転送される通話がホストされたサイトをバイパスできるようにすることを示します。 3pcc は、サードパーティのコントロールとも呼ばれ &quot; 、 &quot; サードパーティが1組の呼び出し元を接続するために使用される場合 (たとえば、ユーザー a からユーザー B に電話をかけるオペレーターなど) に発生します。</p></td>
 </tr>
 <tr class="even">
 <td><p>メディアのバイパスを有効にする</p></td>
@@ -171,7 +173,7 @@ Lync Server コントロールパネルを使用して SIP トランク構成設
 
 
 > [!NOTE]  
-> Lync Server Get-cstrunkconfiguration コマンドレットでは、Lync Server コントロールパネルに表示されない追加のプロパティをサポートしています。 詳細については、 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration">get-cstrunkconfiguration</A>コマンドレットのヘルプトピックを参照してください。
+> Lync Server Get-cstrunkconfiguration コマンドレットでは、Lync Server コントロールパネルに表示されない追加のプロパティをサポートしています。 詳細については、 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration">get-cstrunkconfiguration</A> コマンドレットのヘルプトピックを参照してください。
 
 
 
@@ -181,7 +183,7 @@ Lync Server コントロールパネルを使用して SIP トランク構成設
 
 ## <a name="to-create-new-trunk-configuration-settings-by-using-lync-server-control-panel"></a>Lync Server コントロールパネルを使用して新しいトランク構成設定を作成するには
 
-1.  Lync Server コントロールパネルで、[**音声ルーティング**] をクリックし、[**トランク構成**] をクリックします。
+1.  Lync Server コントロールパネルで、[ **音声ルーティング**] をクリックし、[ **トランク構成**] をクリックします。
 
 2.  [**トランク構成**] タブで [**新規作成**] をクリックします。新しい設定をサイト スコープで作成する場合は [**サイト トランク**]  をクリックし、サービス スコープで作成する場合は [**プール トランク**] をクリックします。
 

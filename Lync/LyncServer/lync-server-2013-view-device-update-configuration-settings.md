@@ -12,20 +12,22 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b5cc0ff742c81cb6480df1d4ae8cb83a686c2e8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f7f3d6ae80aa83d7edcf6d64a13c4cbda90c9ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211493"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506454"
 ---
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新の構成設定の表示
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新の構成設定の表示
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211493"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-Lync server 管理シェルと、Windows PowerShell のリモートセッションから2013実行できる Lync Server 管理シェルおよび**get-help**コマンドレットを使用して、デバイス更新サービスの構成設定を表示することができます。
+Lync server 管理シェルと、Windows PowerShell のリモートセッションから2013実行できる Lync Server 管理シェルおよび **get-help** コマンドレットを使用して、デバイス更新サービスの構成設定を表示することができます。
 
 <div>
 

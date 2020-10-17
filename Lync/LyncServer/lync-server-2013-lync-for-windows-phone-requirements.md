@@ -12,20 +12,22 @@ ms:contentKeyID: 51541514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebc0a2efb9a40d52a96acf7ccb062c7f87e3d853
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 17cdd1e8f8dc0766c79b680c994ed2b7affd85c6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506004"
 ---
+# <a name="lync-for-windows-phone-requirements-in-lync-server-2013"></a>Lync Server 2013 での lync for Windows Phone の要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-windows-phone-requirements-in-lync-server-2013"></a>Lync Server 2013 での lync for Windows Phone の要件
+
 
 </div>
 
@@ -47,7 +49,7 @@ Microsoft Lync 2013 for Windows Phone は、スマートフォンまたは Windo
 
   - Windows Phone 8、コード名 "Apollo"、または最新バージョン。
 
-  - Windows Phone デバイスには、Microsoft から入手可能な最新の更新プログラムがインストールされている必要があります。 詳細については、「Windows Phone 8 [https://go.microsoft.com/fwlink/p/?LinkID=281961](https://go.microsoft.com/fwlink/p/?linkid=281961)の更新履歴」を参照してください。
+  - Windows Phone デバイスには、Microsoft から入手可能な最新の更新プログラムがインストールされている必要があります。 詳細については、「Windows Phone 8 の更新履歴」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=281961](https://go.microsoft.com/fwlink/p/?linkid=281961) 。
 
   - デバイスには、12 MB の空き領域が必要です。
 

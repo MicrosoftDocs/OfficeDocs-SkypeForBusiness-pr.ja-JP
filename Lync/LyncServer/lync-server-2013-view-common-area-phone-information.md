@@ -12,20 +12,22 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb9b9a928925bfc3ff933e2d94d39db8b652e6ff
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2b2a3bc8191b093e589d74d9783ddb6323cf3b2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211533"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506544"
 ---
+# <a name="view-common-area-phone-information-in-lync-server-2013"></a>Lync Server 2013 で共通領域電話の情報を表示する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-common-area-phone-information-in-lync-server-2013"></a>Lync Server 2013 で共通領域電話の情報を表示する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211533"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-組織で使用するために構成されている共通領域電話の情報は、 **move-cscommonareaphone**コマンドレットを使用して確認できます。 パラメーターを指定せずにこのコマンドレットを実行すると、すべての共通領域電話に関する情報が戻されます。 オプションのパラメーターを使用すると、情報をフィルター処理する方法が異なります。 たとえば、指定された組織単位 (OU) または指定した建物にあるすべての連絡先オブジェクトを含む共通領域電話をすべて返すことができます。 **Move-cscommonareaphone**パラメーターの詳細については、「 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)」を参照してください。
+組織で使用するために構成されている共通領域電話の情報は、 **move-cscommonareaphone** コマンドレットを使用して確認できます。 パラメーターを指定せずにこのコマンドレットを実行すると、すべての共通領域電話に関する情報が戻されます。 オプションのパラメーターを使用すると、情報をフィルター処理する方法が異なります。 たとえば、指定された組織単位 (OU) または指定した建物にあるすべての連絡先オブジェクトを含む共通領域電話をすべて返すことができます。 **Move-cscommonareaphone**パラメーターの詳細については、「 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)」を参照してください。
 
 **Move-cscommonareaphone**を Lync Server 2013 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行します。
 
@@ -74,7 +76,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 </div>
 
-詳細については、 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [move-cscommonareaphone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

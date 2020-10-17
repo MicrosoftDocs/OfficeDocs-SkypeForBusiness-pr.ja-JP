@@ -12,20 +12,22 @@ ms:contentKeyID: 50675350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b43075fbd730134a9076273009714b682692994
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6a269ff6a90f95d76ddc9c230a3ce8a769977dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211543"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506554"
 ---
+# <a name="view-client-version-policy-rules-in-lync-server-2013"></a>Lync Server 2013 でクライアントバージョンポリシールールを表示する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-client-version-policy-rules-in-lync-server-2013"></a>Lync Server 2013 でクライアントバージョンポリシールールを表示する
+
 
 </div>
 
@@ -47,11 +49,11 @@ _**トピックの最終更新日:** 2013-02-23_
 
 2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーションバーで [ **クライアント**] をクリックし、[ **クライアントバージョンポリシー** ] ナビゲーションボタンをクリックします。
 
-4.  [**クライアントバージョンポリシー** ] ページで、表示するクライアントバージョンポリシーをダブルクリックします。
+4.  [ **クライアントバージョンポリシー** ] ページで、表示するクライアントバージョンポリシーをダブルクリックします。
 
-5.  ルールは [**クライアントバージョンポリシーの編集**] ページに表示されます。 ルールの詳細を表示するには、ルールを選択し、[**詳細の表示**] をクリックします。
+5.  ルールは [ **クライアントバージョンポリシーの編集** ] ページに表示されます。 ルールの詳細を表示するには、ルールを選択し、[ **詳細の表示**] をクリックします。
 
 </div>
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="viewing-client-version-policy-rules-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してクライアントバージョンポリシールールを表示する
 
-Lync Server 管理シェルと**Get-CsClientVersionPolicyRule**コマンドレットを使用して、クライアントバージョンポリシールールを表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Lync Server 管理シェルと **Get-CsClientVersionPolicyRule** コマンドレットを使用して、クライアントバージョンポリシールールを表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

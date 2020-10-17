@@ -12,20 +12,22 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65645907bf80f7177c653d9ff7ae04d3a961decf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f9281b7987bea7425589efc649c1c29a8482770
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218183"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505874"
 ---
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>Lync Server 2013 でのカテゴリ、ルーム、およびアドインの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>Lync Server 2013 でのカテゴリ、ルーム、およびアドインの管理
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42218183"
 
 _**トピックの最終更新日:** 2012-10-06_
 
-Lync Server 2013 コントロールパネル、または Windows PowerShell コマンドレットを使用すると、常設チャット管理者は**常設チャット**ページを使用してカテゴリとアドインを作成できます。常設チャットルームを管理するために、管理者は Windows PowerShell コマンドレットを使用できます。 別の方法として、常設チャット管理者も SIP を有効にしている場合は、Lync クライアントを使用して、チャットルームを作成して管理するための web ページを起動することができます。
+Lync Server 2013 コントロールパネル、または Windows PowerShell コマンドレットを使用すると、常設チャット管理者は **常設チャット** ページを使用してカテゴリとアドインを作成できます。常設チャットルームを管理するために、管理者は Windows PowerShell コマンドレットを使用できます。 別の方法として、常設チャット管理者も SIP を有効にしている場合は、Lync クライアントを使用して、チャットルームを作成して管理するための web ページを起動することができます。
 
 以下のトピックでは、カテゴリおよびチャット ルームを作成して使用する方法について説明します。
 

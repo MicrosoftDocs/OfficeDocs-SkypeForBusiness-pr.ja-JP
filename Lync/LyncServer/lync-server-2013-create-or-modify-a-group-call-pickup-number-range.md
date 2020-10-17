@@ -12,20 +12,22 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdf2ee113682ccee44d2329de68dfa87ea5824be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee394401999038c205826c99b3e6b2e35734087d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179984"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506134"
 ---
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Lync Server 2013 でグループ通話ピックアップ番号の範囲を作成または変更する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Lync Server 2013 でグループ通話ピックアップ番号の範囲を作成または変更する
+
 
 </div>
 
@@ -67,9 +69,9 @@ _**トピックの最終更新日:** 2013-01-30_
 
   - 番号範囲は一意である必要があります。この範囲が他のどの範囲とも重ならないようにしてください。
 
-  - 番号範囲が文字\*または\#で始まる場合、範囲は100より大きくなければなりません。
+  - 番号範囲が文字 \* またはで始まる場合、 \# 範囲は100より大きくなければなりません。
 
-  - 有効な値: 正規表現文字列である必要\[\\\*|\#\]が\[あります (?1-9\]\\d{0,7}) |(\[1-9\]\\d{0,8})。 つまり、値は、文字\*また\#は 1 ~ 9 の数字で始まる文字列である必要があります (最初の文字を0にすることはできません)。 最初の文字が\*または\#の場合、次の文字は 1 ~ 9 の数字である必要があります (ゼロにすることはできません)。 後続の文字には、0から9までの任意の文字を追加できます (\#たとえば、"6000\*"、"92000\*"、"95551212"、"915551212" など)。 最初の文字がまたは\*で\#はない場合、最初の文字は 1 ~ 9 の数字 (0 にはできません)、数字 0 ~ 9 (例: "915551212"、"41212"、"300") のいずれかである必要があります。
+  - 有効な値: 正規表現文字列である必要があります ( \[ \\ \* | \# \] ? \[1-9 \] \\ d {0,7} ) | ( \[1-9 \] \\ d {0,8} ) つまり、値は、文字または 1 ~ 9 の数字で始まる文字列である必要があり \* \# ます (最初の文字を0にすることはできません)。 最初の文字が \* または \# の場合、次の文字は 1 ~ 9 の数字である必要があります (ゼロにすることはできません)。 後続の文字には、0から9までの任意の文字を追加できます (たとえば、" \# 6000"、" \* 92000"、" \* 95551212"、"915551212" など)。 最初の文字が \* またはではない場合 \# 、最初の文字は 1 ~ 9 の数字 (0 にはできません)、数字 0 ~ 9 (例: "915551212"、"41212"、"300") のいずれかである必要があります。
 
 <div>
 
@@ -79,7 +81,7 @@ _**トピックの最終更新日:** 2013-01-30_
 
 2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  新しい通話ピックアップグループ番号の範囲を作成するには、 **get-cscallparkorbit**を使用します。 通話ピックアップ番号の既存の範囲を変更するには、 **get-cscallparkorbit**を使用します。
+3.  新しい通話ピックアップグループ番号の範囲を作成するには、 **get-cscallparkorbit** を使用します。 通話ピックアップ番号の既存の範囲を変更するには、 **get-cscallparkorbit** を使用します。
     
     コマンド ラインで、次のコマンドを実行します。
     

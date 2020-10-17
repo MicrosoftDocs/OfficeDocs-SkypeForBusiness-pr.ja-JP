@@ -12,20 +12,22 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155ee98a7386368d90fd549d920cdfe77c05cb6e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5853578ed55f5a5461b5fbb8c1ce3c2dda8b0e5e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221621"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505754"
 ---
+# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>Lync Server 2013 へのフェデレーションおよび外部アクセスの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-federation-and-external-access-to-lync-server-2013"></a>Lync Server 2013 へのフェデレーションおよび外部アクセスの管理
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2013-10-07_
 
 Lync Server 2013 の内部展開をインストールして構成すると、組織内の内部ユーザーは、Active Directory ドメインサービス (AD DS) に SIP アカウントを持つ他の内部ユーザーと共同作業を行うことができます。 共同作業には、インスタント メッセージの送受信、プレゼンス状態の更新、電話会議 (「会議」とも呼ばれます) への参加などがあります。 サポートされている外部ユーザーが内部の Lync Server ユーザーと共同作業できるかどうかを制御するために、外部ユーザーアクセスを有効にして構成します。 外部ユーザーには、展開のリモート ユーザー、フェデレーション ユーザー (パブリック インスタント メッセージング (IM) サービス プロバイダーのサポートされるユーザーを含む)、XMPP フェデレーション、および電話会議への匿名参加者などのユーザーがあります。
 
-展開に Lync Server 2013 エッジサーバーまたはエッジプールのインストールが含まれていた場合、考えられる通信の種類の範囲は、外部ユーザーアクセスのさまざまなオプション、他の SIP フェデレーションドメインのメンバーとの通信、SIP フェデレーションプロバイダー、および XMPP フェデレーションユーザーによって大幅に拡張されます。 エッジサーバーまたはエッジプールを設定したら、指定する外部ユーザーアクセスの種類を有効にし、外部アクセスを制御するポリシーを構成します。 Lync Server 2013 では、タスクの要件に基づいて Lync server コントロールパネル、Lync Server 管理シェル、またはその両方を使用して、外部ユーザーアクセスとポリシーを有効にし、構成します。 これらの管理ツールの詳細については、「操作」のドキュメントの「 [lync server 2013 管理ツール](lync-server-2013-lync-server-administrative-tools.md)」、「操作」のドキュメントの「lync Server [2013 management Shell](lync-server-2013-lync-server-management-shell.md) 」、および「操作」のドキュメントの「lync server [2013 管理ツールのインストール](lync-server-2013-install-lync-server-administrative-tools.md)」を参照してください。
+展開に Lync Server 2013 エッジサーバーまたはエッジプールのインストールが含まれていた場合、考えられる通信の種類の範囲は、外部ユーザーアクセスのさまざまなオプション、他の SIP フェデレーションドメインのメンバーとの通信、SIP フェデレーションプロバイダー、および XMPP フェデレーションユーザーによって大幅に拡張されます。 エッジサーバーまたはエッジプールを設定したら、指定する外部ユーザーアクセスの種類を有効にし、外部アクセスを制御するポリシーを構成します。 Lync Server 2013 では、タスクの要件に基づいて Lync server コントロールパネル、Lync Server 管理シェル、またはその両方を使用して、外部ユーザーアクセスとポリシーを有効にし、構成します。 これらの管理ツールの詳細については、「操作」のドキュメントの「 [lync server 2013 管理ツール](lync-server-2013-lync-server-administrative-tools.md) 」、「操作」のドキュメントの「lync Server [2013 management Shell](lync-server-2013-lync-server-management-shell.md) 」、および「操作」のドキュメントの「lync server [2013 管理ツールのインストール](lync-server-2013-install-lync-server-administrative-tools.md) 」を参照してください。
 
 <div>
 
@@ -77,7 +79,7 @@ Lync Server 2013 の内部展開をインストールして構成すると、組
 
 **SIP フェデレーション ドメインとの通信を有効化した場合、XMPP フェデレーション パートナーの連絡先との通信を有効化するか。**
 
-トピック「 [configure policies to CONTROL The Lync server 2013 での xmpp フェデレーションユーザーアクセスを制御する](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)」および「 [lync server 2013 で xmpp フェデレーションパートナーを管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)する」の説明のとおりに設定を構成します。
+トピック「 [configure policies to CONTROL The Lync server 2013 での xmpp フェデレーションユーザーアクセスを制御する](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md) 」および「 [lync server 2013 で xmpp フェデレーションパートナーを管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)する」の説明のとおりに設定を構成します。
 
 **SIP フェデレーションドメインとの通信を有効にしている場合は、SIP フェデレーションの自動検出を有効にしますか。**
 

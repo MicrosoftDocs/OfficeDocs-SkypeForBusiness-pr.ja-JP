@@ -12,20 +12,22 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dc0065416582dd87f1c48a2dd051c237fbd6868
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89744ec28a0c6c65615f41706b16d7053415723a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211523"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506534"
 ---
+# <a name="view-conferencing-device-information-in-lync-server-2013"></a>Lync Server 2013 での会議デバイス情報の表示
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-conferencing-device-information-in-lync-server-2013"></a>Lync Server 2013 での会議デバイス情報の表示
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211523"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-組織で使用するように構成されている会議デバイスに関する情報を表示するには、Windows PowerShell と、 **-Csroom room**コマンドレットを使用します。 Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから、 **Get-help room**コマンドレットを実行します。
+組織で使用するように構成されている会議デバイスに関する情報を表示するには、Windows PowerShell と、 **-Csroom room** コマンドレットを使用します。 Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから、 **Get-help room** コマンドレットを実行します。
 
 <div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 </div>
 
-パラメーターを指定せずに**get-help**コマンドレットを使用すると、すべての会議デバイスに関する情報が戻されます。 オプションのパラメーターを使用すると、情報をフィルター処理する方法が異なります。 詳細については、「 [Get-help room](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)」の「Parameters」セクションを参照してください。
+パラメーターを指定せずに **get-help** コマンドレットを使用すると、すべての会議デバイスに関する情報が戻されます。 オプションのパラメーターを使用すると、情報をフィルター処理する方法が異なります。 詳細については、「 [Get-help room](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)」の「Parameters」セクションを参照してください。
 
 <div>
 
@@ -88,7 +90,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 ## <a name="viewing-information-about-a-specific-conferencing-device"></a>特定の会議デバイスに関する情報の表示
 
-  - 特定の会議デバイスの情報を表示するには、Identity パラメーターに続けて、会議デバイス id (通常は Active Directory 表示名) を含めます。 次に例を示します。
+  - 特定の会議デバイスの情報を表示するには、Identity パラメーターに続けて、会議デバイス id (通常は Active Directory 表示名) を含めます。 以下に例を示します。
     
         Get-CsMeetingRoom -Identity "Room 1219"
 

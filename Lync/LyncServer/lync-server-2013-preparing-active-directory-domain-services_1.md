@@ -12,20 +12,22 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c5d83acbe32d33a235e7c2918663340a3ac7ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9b3af3ce7940b8d0fb58a74b4a8f7bb0a21c5e2d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506994"
 ---
+# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Lync Server 2013 での Active Directory ドメインサービスの準備
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Lync Server 2013 での Active Directory ドメインサービスの準備
+
 
 </div>
 
@@ -61,7 +63,7 @@ Active Directory の準備手順は、Windows Server 2012、Windows Server 2012 
 
 Active Directory の準備作業を実行するには、以下のコンポーネントが必要です。
 
-  - Lync Server コアコンポーネント (OCScore)
+  - Lync Server コアコンポーネント (OCScore.msi)
     
     <div>
     
@@ -78,7 +80,7 @@ Active Directory の準備作業を実行するには、以下のコンポーネ
     
 
     > [!NOTE]  
-    > Windows Server 2012 および Windows Server 2012 R2 では、サーバーマネージャーを使用して .NET Framework 4.5 をインストールしてアクティブ化します。 詳細については、「 <A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 の追加ソフトウェア要件</A>」の「Microsoft .net Framework 4.5」を参照してください。 Windows Server&nbsp;2008&nbsp;R2 の場合は、Microsoft Web サイトから<A href="https://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A>をダウンロードしてインストールします。
+    > Windows Server 2012 および Windows Server 2012 R2 では、サーバーマネージャーを使用して .NET Framework 4.5 をインストールしてアクティブ化します。 詳細については、「 <A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 の追加ソフトウェア要件</A>」の「Microsoft .net Framework 4.5」を参照してください。 Windows Server 2008 R2 の場合は &nbsp; &nbsp; 、Microsoft web サイトから <A href="https://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A> をダウンロードしてインストールします。
 
     
     </div>
@@ -126,7 +128,7 @@ Active Directory の準備作業を実行するには、以下のコンポーネ
 </colgroup>
 <thead>
 <tr class="header">
-<th>Procedure</th>
+<th>手順</th>
 <th>権限または役割</th>
 </tr>
 </thead>
@@ -174,7 +176,7 @@ Active Directory の準備作業を実行するには、以下のコンポーネ
 <td><p>Lcscmd /forest /action:SchemaPrep /SchemaType:Server</p></td>
 </tr>
 <tr class="even">
-<td><p>取得-CsAdServerSchema</p></td>
+<td><p>Get-CsAdServerSchema</p></td>
 <td><p>Lcscmd /forest /action:CheckSchemaPrepState</p></td>
 </tr>
 <tr class="odd">
@@ -182,11 +184,11 @@ Active Directory の準備作業を実行するには、以下のコンポーネ
 <td><p>Lcscmd /forest /action:ForestPrep</p></td>
 </tr>
 <tr class="even">
-<td><p>無効-CsAdForest</p></td>
+<td><p>Disable-CsAdForest</p></td>
 <td><p>Lcscmd /forest /action:ForestUnprep</p></td>
 </tr>
 <tr class="odd">
-<td><p>取得-CsAdForest</p></td>
+<td><p>Get-CsAdForest</p></td>
 <td><p>Lcscmd /forest /action:CheckForestPrepState</p></td>
 </tr>
 <tr class="even">
@@ -194,11 +196,11 @@ Active Directory の準備作業を実行するには、以下のコンポーネ
 <td><p>Lcscmd /domain /action:DomainPrep</p></td>
 </tr>
 <tr class="odd">
-<td><p>無効-CsAdDomain</p></td>
+<td><p>Disable-CsAdDomain</p></td>
 <td><p>Lcscmd /domain /action: DomainUnprep</p></td>
 </tr>
 <tr class="even">
-<td><p>取得-CsAdDomain</p></td>
+<td><p>Get-CsAdDomain</p></td>
 <td><p>Lcscmd /domain /action:CheckDomainPrepState</p></td>
 </tr>
 </tbody>
@@ -271,7 +273,7 @@ Ldifde.exe を使用してスキーマ マスターでないドメイン コン�
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Ldifde の使用の詳細については、Microsoft サポート技術情報の記事237677「LDIFDE を使用してディレクトリオブジェクトを Active Directory [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204)にインポートおよびエクスポートする」 () を参照してください。
+Ldifde の使用の詳細については、Microsoft サポート技術情報の記事237677「LDIFDE を使用してディレクトリオブジェクトを Active Directory にインポートおよびエクスポートする」 () を参照してください [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204) 。
 
 </div>
 

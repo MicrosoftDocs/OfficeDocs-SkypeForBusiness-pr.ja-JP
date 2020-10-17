@@ -12,20 +12,22 @@ ms:contentKeyID: 49733852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 664078db23ecba5d26852c2e1348935a3e4c60b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f2417af7b1258a1b0bd9fce1bd5aafb6c691c59
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211513"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506524"
 ---
+# <a name="view-conferencing-policy-information-in-lync-server-2013"></a>Lync Server 2013 での会議ポリシー情報の表示
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-conferencing-policy-information-in-lync-server-2013"></a>Lync Server 2013 での会議ポリシー情報の表示
+
 
 </div>
 
@@ -57,7 +59,7 @@ Lync Server 2013 コントロールパネルでは、会議ポリシーを使用
 
 5.  [**ファイル フィルターの編集**] で、[**詳細の表示**] チェック ボックスをオンにします。
     
-    [**会議ポリシーの\<編集\> ]-** 選択したポリシーの設定を表示するポリシーが開きます。 設定の構成の詳細については、「 [Lync Server 2013 で会議ポリシーを作成または変更する](lync-server-2013-create-or-modify-a-conferencing-policy.md)」を参照してください。
+    **会議ポリシーの編集 \<policy\> -** 選択したポリシーの設定を表示して開きます。 設定の構成の詳細については、「 [Lync Server 2013 で会議ポリシーを作成または変更する](lync-server-2013-create-or-modify-a-conferencing-policy.md)」を参照してください。
 
 </div>
 
@@ -65,7 +67,7 @@ Lync Server 2013 コントロールパネルでは、会議ポリシーを使用
 
 ## <a name="viewing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して会議ポリシーを表示する
 
-会議ポリシーは、Windows PowerShell と Get-csconferencingpolicy コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+会議ポリシーは、Windows PowerShell と Get-CsConferencingPolicy コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -114,7 +116,7 @@ Lync Server 2013 コントロールパネルでは、会議ポリシーを使用
 
 </div>
 
-詳細については、 [get-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

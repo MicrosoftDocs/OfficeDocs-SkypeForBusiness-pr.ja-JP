@@ -12,20 +12,22 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3571dba317998af4fe19f7d2dfd1677d3691f278
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 338e2387b08898694bd621e220d7f889a8d25e0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217113"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505544"
 ---
+# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 のネットワークインフラストラクチャ要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 のネットワークインフラストラクチャ要件
+
 
 </div>
 
@@ -51,13 +53,13 @@ Lync Server 2013 トポロジ内の各サーバーのネットワークアダプ
 
 Lync Server 展開での音声/ビデオ (A/V) のネットワーク要件には、次のようなものがあります。
 
-  - DNS 負荷分散を使用して単一のエッジサーバーまたはエッジプールを展開する場合は、外部ファイアウォールを NAT として構成できます。 内部ファイアウォールは、NAT として構成できません。 これらの要件の詳細については、「計画」のドキュメントの「 [Lync Server 2013 の外部の音声ビデオファイアウォールおよびポートの要件を決定](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)する」を参照してください。
+  - DNS 負荷分散を使用して単一のエッジサーバーまたはエッジプールを展開する場合は、外部ファイアウォールを NAT として構成できます。 内部ファイアウォールは、NAT として構成できません。 これらの要件の詳細については、「計画」のドキュメントの「 [Lync Server 2013 の外部の音声ビデオファイアウォールおよびポートの要件を決定](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) する」を参照してください。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > エッジプールがあり、ハードウェアロードバランサーを使用している場合は、各エッジサーバーでパブリック IP アドレスを使用する必要があり、nat デバイスのサーバーまたはプール (たとえば、ファイアウォール、または nat デバイスやその他のインフラストラクチャデバイス) で NAT を使用できません。nd または発信トラフィック)。 詳細については、「Planning for External User Access documentation」の「 <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port summary-拡張統合エッジ (Lync Server 2013)</A> 」を参照してください。
+    > エッジプールがあり、ハードウェアロードバランサーを使用している場合は、各エッジサーバーでパブリック IP アドレスを使用する必要があります。また、nat デバイスのサーバーまたはプール (たとえば、ファイアウォール、または受信または送信トラフィックを NAT するその他のインフラストラクチャデバイス) に NAT を使用することはできません。 詳細については、「Planning for External User Access documentation」の「 <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port summary-拡張統合エッジ (Lync Server 2013)</A> 」を参照してください。
 
     
     </div>
@@ -70,7 +72,7 @@ Lync Server 展開での音声/ビデオ (A/V) のネットワーク要件には
 
   - ストリームが有効になっている場合は、ピーク利用期間に音声ストリームにつき 65 Kbps (キロビット/秒) およびビデオ ストリームにつき 500 Kbps のスループットをサポートするようにネットワーク リンクのプロビジョニングを行います。双方向の音声またはビデオ セッションは、2 つのストリームから構成されます。
 
-  - 時間の経過とともに、このレベル以上のトラフィックに予期しないスパイクが発生し、使用率が増加した場合、Lync Server のメディアエンドポイントは、さまざまなネットワークの状態に適応し、オーディオとビデオのスループット (前の段落を参照) の3倍の負荷をサポートすることができます。許容できる品質を維持します。 ただし、その場合は、この適応性により、プロビジョニング不足のネットワークがサポートされると想定しないでください。 一部のプロビジョニングされたネットワークでは、Lync Server のメディアエンドポイントがさまざまなネットワークの状態 (たとえば、一時的な高パケット損失など) を動的に処理する機能が低下しています。
+  - 時間の経過とともに、このレベルより上のトラフィックに予期しないスパイクが発生し、使用率が増加した場合、Lync Server のメディアエンドポイントは、さまざまなネットワーク状況に適応し、音声とビデオのスループット (前を参照) の3倍の負荷をサポートする一方で、許容できる品質を維持することができます。 ただし、その場合は、この適応性により、プロビジョニング不足のネットワークがサポートされると想定しないでください。 一部のプロビジョニングされたネットワークでは、Lync Server のメディアエンドポイントがさまざまなネットワークの状態 (たとえば、一時的な高パケット損失など) を動的に処理する機能が低下しています。
 
   - プロビジョニングが非常に高価で困難なネットワークリンクの場合は、低音量のトラフィックのプロビジョニングを検討する必要があります。 このシナリオでは、Lync Server media エンドポイントの弾力性が、トラフィックボリュームとピーク時のトラフィックレベルの違いを吸収します。これにより、音声品質の一部が減少します。 また、トラフィックの急激なピークを吸収するには、ヘッドルームが減少しています。
 

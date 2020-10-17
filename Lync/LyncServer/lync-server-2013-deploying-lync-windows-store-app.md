@@ -12,20 +12,22 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aaae8df4d21e3aa766bd452c5ffd697dce30660a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507484"
 ---
+# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Lync Server 2013 での Lync Windows ストアアプリの展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Lync Server 2013 での Lync Windows ストアアプリの展開
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "43779583"
 
 _**トピックの最終更新日:** 2013-12-03_
 
-Lync Windows ストアアプリをユーザーが使用できるようにする前に、展開が[Lync Server 2013 の Lync Windows ストアのアプリ要件](lync-server-2013-lync-windows-store-app-requirements.md)を満たしていることを確認してください。 Lync Windows ストアアプリをサポートするように Lync Server 2013 を構成する方法の詳細については、「NextHop ブログの記事、「Lync Server の[https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)自動検出と Lync Windows ストアアプリ」 () を参照してください。 サーバー環境が正しく構成された後、ユーザーは「Lync」を検索して Windows ストアから Lync アプリをダウンロードすることができます。
+Lync Windows ストアアプリをユーザーが使用できるようにする前に、展開が [Lync Server 2013 の Lync Windows ストアのアプリ要件](lync-server-2013-lync-windows-store-app-requirements.md)を満たしていることを確認してください。 Lync Windows ストアアプリをサポートするように Lync Server 2013 を構成する方法の詳細については、「NextHop ブログの記事、「Lync Server の自動検出と Lync Windows ストアアプリ」 () を参照してください [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966) 。 サーバー環境が正しく構成された後、ユーザーは「Lync」を検索して Windows ストアから Lync アプリをダウンロードすることができます。
 
 <div>
 
@@ -66,9 +68,9 @@ Lync Server 2013 の累積的な更新プログラム: 2013 年6月、Lync Windo
 
 **多要素認証を構成するには**
 
-1.  AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「Active Directory フェデレーションサービス2.0 展開<https://go.microsoft.com/fwlink/p/?linkid=267511>ガイド」を参照してください。
+1.  AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「Active Directory フェデレーションサービス2.0 展開ガイド」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=267511> 。
 
-2.  AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開するには」の「フェデレーションサーバー証明書」セクション[https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)を参照してください。シングルサインオンについては、「」を参照してください。
+2.  AD FS の証明書を作成します。 詳細については、「計画と展開」の「AD FS を展開するには」の「フェデレーションサーバー証明書」セクションを参照してください。シングルサインオンについては、「」を参照して [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) ください。
 
 3.  Windows PowerShell コマンドラインインターフェイスで、次のコマンドを実行します。
     ```powershell
@@ -138,7 +140,7 @@ Office Communications Server 2007 R2 エッジサーバーを使用する Lync S
 
 ## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a>証明書名の検証に失敗したため、Lync Windows ストアアプリがサインインできない
 
-Microsoft 365 または Office 365 ユーザーが最新バージョンの Lync Windows ストアアプリを実行していない場合、サインインの問題が発生する可能性があります。 通常、この問題は複数のドメインを使用する場合に発生します (たとえば、SIP URI が**userA@domainZ.com** 、エッジサーバーが**sip.domainX.com**)。 この問題を解決するには、ユーザーは Lync Windows ストアアプリの最新バージョンをインストールする必要があります。これには、Windows 8.1 も必要です。
+Microsoft 365 または Office 365 ユーザーが最新バージョンの Lync Windows ストアアプリを実行していない場合、サインインの問題が発生する可能性があります。 通常、この問題は複数のドメインを使用する場合に発生します (たとえば、SIP URI が **userA@domainZ.com** 、エッジサーバーが **sip.domainX.com**)。 この問題を解決するには、ユーザーは Lync Windows ストアアプリの最新バージョンをインストールする必要があります。これには、Windows 8.1 も必要です。
 
 </div>
 
@@ -150,7 +152,7 @@ Microsoft 365 または Office 365 ユーザーが最新バージョンの Lync 
 
 デバイスで生成されたログを使用して、問題のトラブルシューティングを行うことができます。 ログは次のフォルダーに格納されます。
 
-% LocalAppData%\\\\LyncMX\_8wekyb3d8bbwe\\localappdata\\Tracing
+% LocalAppData% \\ \\ LyncMX \_ 8wekyb3d8bbwe \\ localappdata \\ Tracing
 
 ユーザーからログを取得する前に、ログ記録が有効になっていることを確認し、メモリに格納されているすべての情報がハードドライブ上のファイルにも保存されるように、ログを保存するようにユーザーに依頼します。
 
@@ -160,13 +162,13 @@ Microsoft 365 または Office 365 ユーザーが最新バージョンの Lync 
 
 2.  画面の右端からスワイプします。 マウスを使用している場合は、画面の右上隅をポイントし、画面の下にマウスポインターを移動します。
 
-3.  [**設定**] を選択し、[**オプション**] を選択して、**診断ログ**を **[オン**] に設定します。
+3.  [ **設定**] を選択し、[ **オプション**] を選択して、 **診断ログ** を **[オン**] に設定します。
 
-4.  以前に**診断ログ**がオフになっていた場合は、Lync を再起動する必要があります。 Lync を再起動するには、次のいずれかの手順を実行します。
+4.  以前に **診断ログ** がオフになっていた場合は、Lync を再起動する必要があります。 Lync を再起動するには、次のいずれかの手順を実行します。
     
       - デバイスを再起動します。
     
-      - Lync タスクを終了し、アプリをもう一度起動します。 タスクを終了するには、Windows タスクマネージャーを開き、[ **Lync**] を選択してから、[**タスクの終了**] をタップします。 Lync が表示されていない場合は、詳細**情報**をタップして、[**バックグラウンド処理**] の下で lync を探します。
+      - Lync タスクを終了し、アプリをもう一度起動します。 タスクを終了するには、Windows タスクマネージャーを開き、[ **Lync**] を選択してから、[ **タスクの終了**] をタップします。 Lync が表示されていない場合は、詳細 **情報** をタップして、[ **バックグラウンド処理**] の下で lync を探します。
 
 **ログを保存するには**
 
@@ -176,7 +178,7 @@ Microsoft 365 または Office 365 ユーザーが最新バージョンの Lync 
 
 3.  画面の右端からスワイプします。 マウスを使用している場合は、画面の右上隅をポイントし、画面の下にマウスポインターを移動します。
 
-4.  [**設定**] を選択し、[**バージョン情報**] を選択し、[**ログの保存**] を選択します。
+4.  [ **設定**] を選択し、[ **バージョン情報**] を選択し、[ **ログの保存**] を選択します。
 
 </div>
 

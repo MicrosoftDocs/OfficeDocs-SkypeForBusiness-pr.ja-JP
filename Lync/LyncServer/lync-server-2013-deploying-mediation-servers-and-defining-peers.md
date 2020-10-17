@@ -12,20 +12,22 @@ ms:contentKeyID: 48185077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03eca427f644d6f94ae7a52900b80320e2517ed2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5b22a232bd304d4db3faae168f42dae11cea8fc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195330"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507384"
 ---
+# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a>Lync Server 2013 での仲介サーバーの展開とピアの定義
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a>Lync Server 2013 での仲介サーバーの展開とピアの定義
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 唯一の例外は、インターネット テレフォニー サービス プロバイダーのセッション ボーダー コントローラーに接続する SIP トランクを構成する場合です。 エンタープライズ Voip インフラストラクチャを SIP トランクプロバイダーに接続するには、個別の仲介サーバーを展開する必要があります。
 
-Lync Server (フロントエンドプールまたはスタンドアロン仲介サーバー上の仲介サーバーコンポーネント) とゲートウェイとの間の接続は、*トランク*と呼ばれる論理的な関連付けとして定義されます。 このセクションのトピックでは、トランクを定義する方法と、SIP トランクに接続する場合にスタンドアロンの仲介サーバーを展開する方法について説明します。
+Lync Server (フロントエンドプールまたはスタンドアロン仲介サーバー上の仲介サーバーコンポーネント) とゲートウェイとの間の接続は、 *トランク*と呼ばれる論理的な関連付けとして定義されます。 このセクションのトピックでは、トランクを定義する方法と、SIP トランクに接続する場合にスタンドアロンの仲介サーバーを展開する方法について説明します。
 
 <div>
 

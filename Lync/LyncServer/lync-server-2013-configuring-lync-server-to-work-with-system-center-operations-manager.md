@@ -12,20 +12,22 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88eeae2c08020aacb142bbceb6c2637ae4d55b63
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 150b240fe0c2be769e407cacecd8440bd4596ae5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188370"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506234"
 ---
+# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Lync Server 2013 を System Center Operations Manager と連携するように構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Lync Server 2013 を System Center Operations Manager と連携するように構成する
+
 
 </div>
 
@@ -43,7 +45,7 @@ System Center Operations Manager と連携するように Microsoft Lync Server 
 
   - 監視する Lync Server コンピューターを特定し、構成します。 System Center Operations manager を使用して Lync Server コンピューターを監視するには、System Center Operations Manager エージェントファイルをインストールし、プロキシとして動作するように各サーバーを構成する必要があります。
 
-  - Lync Server*監視ノード*として動作するコンピューターを識別して構成します。 監視ノードは、定期的に Lync Server 代理トランザクションを実行するコンピューターです。これは、Windows PowerShell コマンドレットで、システムへのログオン機能やインスタントメッセージの交換機能などの主要な Lync Server コンポーネントを確認します。正常に動作しています。
+  - Lync Server *監視ノード*として動作するコンピューターを識別して構成します。 監視ノードは、定期的に Lync Server 代理トランザクションを実行するコンピューターです。これは、Windows PowerShell コマンドレットで、システムへのログオン、またはインスタントメッセージの交換機能などの主要な Lync Server コンポーネントが期待どおりに動作していることを確認します。
 
 このセクションのトピックでは、これらの各タスクを実行するための手順について説明しています。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb33552fde0da6dc91f21eeecaf1ea5e85d72159
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1391d57232d261edcdfcdd7c4668ee025b1420b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201763"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506844"
 ---
+# <a name="preparing-the-infrastructure-and-systems-for-lync-server-2013"></a>Lync Server 2013 のインフラストラクチャとシステムの準備
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-the-infrastructure-and-systems-for-lync-server-2013"></a>Lync Server 2013 のインフラストラクチャとシステムの準備
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**トピックの最終更新日:** 2013-02-21_
 
 Lync Server 2013 の展開では、トポロジビルダーを使用してトポロジ設計を定義して公開する必要があります。 トポロジに必要なコンポーネントを特定するには、トポロジビルダーを使用してトポロジ設計を作成し、保存します。 トポロジ ビルダーでトポロジを公開する前に、次の操作を実行します。
 
-  - 必要なすべてのコンピューター (Lync Server 2013、データベースサーバー、インターネットインフォメーションサービスを実行しているサーバーを実行しているサーバー) を含む、トポロジビルダーを使用して作成および保存した各コンポーネントのハードウェアを取得してインストールします (IIS)、リバースプロキシサーバー、必要に応じて、ネットワークアダプター、ハードウェアロードバランサー、およびストレージデバイス (ファイルサーバーなど)。 展開に必要なコンポーネントを指定するトポロジを定義する方法の詳細については、「 [Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md)」を参照してください。 サーバーのハードウェア要件の詳細については、「サポート」のドキュメントの「supported [hardware For Lync Server 2013](lync-server-2013-supported-hardware.md) 」を参照してください。
+  - 必要なすべてのコンピューター (Lync Server 2013、データベースサーバー、インターネットインフォメーションサービス (IIS) を実行しているサーバー、およびリバースプロキシサーバーが適切な場合)、ネットワークアダプター、ハードウェアロードバランサー、およびストレージデバイス (ファイルサーバーなど) など、トポロジビルダーを使用して作成して保存したトポロジ設計で、各コンポーネントのハードウェアを入手してインストールします 展開に必要なコンポーネントを指定するトポロジを定義する方法の詳細については、「 [Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md)」を参照してください。 サーバーのハードウェア要件の詳細については、「サポート」のドキュメントの「supported [hardware For Lync Server 2013](lync-server-2013-supported-hardware.md) 」を参照してください。
 
-  - ネットワークインフラストラクチャが要件を満たしていることを確認してください。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 のネットワークインフラストラクチャ要件](lync-server-2013-network-infrastructure-requirements.md)」を参照してください。
+  - ネットワークインフラストラクチャが要件を満たしていることを確認してください。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 のネットワークインフラストラクチャ要件](lync-server-2013-network-infrastructure-requirements.md) 」を参照してください。
 
   - Active Directory ドメインサービスをセットアップします。 トポロジを公開し、有効化するには、内部サーバーが AD DS のコンピューター アカウントで表される必要があります。 そのようにするには、コンピューターを AD DS に参加させます。 AD DS の準備の詳細については、「 [Lync Server 2013 用の Active Directory ドメインサービスの準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。
 

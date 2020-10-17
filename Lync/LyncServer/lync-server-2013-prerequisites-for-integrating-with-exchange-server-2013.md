@@ -12,20 +12,22 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3ea70be8c4d431b6231b1cf8e8dc252581643b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 372c4724275b18dac8db9c050a2ac03753740976
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506744"
 ---
+# <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 を統合するための前提条件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 を統合するための前提条件
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42183546"
 
 _**トピックの最終更新日:** 2014-04-22_
 
-Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 を統合するには、事前にすべての前提条件の手順が完了していることを確認する必要があります。 ご想像のとおり、Exchange 2013 と Lync Server 2013 の両方が完全にインストールされ、稼働しているまで、統合を行うことができません。 Exchange のインストールの詳細については、「Exchange 2013 の計画[https://go.microsoft.com/fwlink/p/?LinkId=268539](https://go.microsoft.com/fwlink/p/?linkid=268539)と展開に関するドキュメント」を参照してください。 Lync Server 2013 のインストールの詳細については、「計画と[https://go.microsoft.com/fwlink/p/?LinkId=254806](https://go.microsoft.com/fwlink/p/?linkid=254806)展開に関するドキュメント」を参照してください。
+Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 を統合するには、事前にすべての前提条件の手順が完了していることを確認する必要があります。 ご想像のとおり、Exchange 2013 と Lync Server 2013 の両方が完全にインストールされ、稼働しているまで、統合を行うことができません。 Exchange のインストールの詳細については、「Exchange 2013 の計画と展開に関するドキュメント」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268539](https://go.microsoft.com/fwlink/p/?linkid=268539) 。 Lync Server 2013 のインストールの詳細については、「計画と展開に関するドキュメント」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=254806](https://go.microsoft.com/fwlink/p/?linkid=254806) 。
 
-サーバーが稼働していて、サーバー間認証証明書を Lync Server 2013 と Exchange 2013 の両方に割り当てる必要があります。これらの証明書を使用すると、Lync Server と Exchange が情報を交換したり、互いに通信したりすることができます。 Exchange 2013 をインストールすると、Microsoft Exchange Server Auth 証明書という名前の自己署名証明書が自動的に作成されます。 この証明書は、ローカルコンピューターの証明書ストアにあり、Exchange 2013 上のサーバー間認証に使用する必要があります。 Exchange 2013 での証明書の割り当ての詳細については、「」の「 [https://go.microsoft.com/fwlink/p/?LinkId=268540](https://go.microsoft.com/fwlink/p/?linkid=268540)メールフローおよびクライアントアクセスを構成する」を参照してください。
+サーバーが稼働していて、サーバー間認証証明書を Lync Server 2013 と Exchange 2013 の両方に割り当てる必要があります。これらの証明書を使用すると、Lync Server と Exchange が情報を交換したり、互いに通信したりすることができます。 Exchange 2013 をインストールすると、Microsoft Exchange Server Auth 証明書という名前の自己署名証明書が自動的に作成されます。 この証明書は、ローカルコンピューターの証明書ストアにあり、Exchange 2013 上のサーバー間認証に使用する必要があります。 Exchange 2013 での証明書の割り当ての詳細については、「」の「メールフローおよびクライアントアクセスを構成する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268540](https://go.microsoft.com/fwlink/p/?linkid=268540) 。
 
 Lync Server 2013 では、既存の Lync Server 証明書をサーバー間認証証明書として使用できます。たとえば、既定の証明書を OAuthTokenIssuer 証明書として使用することもできます。 Lync Server 2013 では、次のような場合に、任意の Web サーバー証明書をサーバー間認証の証明書として使用できます。
 
@@ -49,7 +51,7 @@ Lync Server 2013 では、既存の Lync Server 証明書をサーバー間認�
 
   - 証明書の長さが 2,048 ビット以上。
 
-Microsoft Lync Server 2013 のサーバー間認証証明書の詳細については、「[サーバー間認証証明書を Microsoft Lync server 2013 に割り当てる](lync-server-2013-assigning-a-server-to-server-authentication-certificate-to-lync-server-2013.md)」を参照してください。
+Microsoft Lync Server 2013 のサーバー間認証証明書の詳細については、「 [サーバー間認証証明書を Microsoft Lync server 2013 に割り当てる](lync-server-2013-assigning-a-server-to-server-authentication-certificate-to-lync-server-2013.md)」を参照してください。
 
 証明書が割り当てられたら、Exchange 2013 で自動検出サービスを構成する必要があります。 Exchange 2013 では、自動検出サービスによってユーザープロファイルが構成され、ユーザーがシステムにログオンしたときに Exchange サービスにアクセスできるようになります。 ユーザーが autodiscover サービスに電子メール アドレスとパスワードを入力すると、このサービスからユーザーへ次の情報が提供されます。
 
@@ -73,9 +75,9 @@ autodiscover の URI は、次のようなコマンドを実行することに�
 
     Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 
-自動検出サービスの詳細については、「」の「自動[https://go.microsoft.com/fwlink/p/?LinkId=268542](https://go.microsoft.com/fwlink/p/?linkid=268542)検出サービスについて」を参照してください。
+自動検出サービスの詳細については、「」の「自動検出サービスについて」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268542](https://go.microsoft.com/fwlink/p/?linkid=268542) 。
 
-自動検出サービスを構成した後、Lync Server OAuth 構成設定を変更する必要があります。これにより、Lync Server は自動検出サービスを検出する場所を認識できます。 Lync Server 2013 で OAuth 構成設定を変更するには、Lync Server 管理シェルで次のコマンドを実行します。 このコマンドを実行する場合は、Exchange サーバー上で実行されている自動検出サービス**への URI**を指定してください。また、このサービスで使用される xml ファイルを指す、自動検出サービスの場所を指定**するには**、次のようにします。
+自動検出サービスを構成した後、Lync Server OAuth 構成設定を変更する必要があります。これにより、Lync Server は自動検出サービスを検出する場所を認識できます。 Lync Server 2013 で OAuth 構成設定を変更するには、Lync Server 管理シェルで次のコマンドを実行します。 このコマンドを実行する場合は、Exchange サーバー上で実行されている自動検出サービスへの URI を指定してください。また、 **autodiscover.xml** (サービスが使用する XML ファイルを指す) ではなく、サービスの場所を指すように**自動検出**を使用することもできます。
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"
 
@@ -83,13 +85,13 @@ autodiscover の URI は、次のようなコマンドを実行することに�
 
 
 > [!NOTE]  
-> 上記のコマンドの Identity パラメーターは省略可能です。これは、Lync Server では、OAuth 構成設定のグローバルコレクションを1つだけ持つことができるからです。 このことは、次のような簡単なコマンドを使用して自動検出 URL を構成できることを意味します。<BR>Set-CsOAuthConfiguration – ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"<BR>OAuth というテクノロジは、多くの大手 Web サイトで使用されている標準的な認証プロトコルです。OAuth では、ユーザーの資格情報とパスワードがコンピューター間で渡されることはありません。その代わりに、セキュリティ トークンの交換に基づいて認証と承認が行われます。これらのトークンによって、特定のリソースのセットに対する特定の時間のアクセスが許可されます。
+> 上記のコマンドの Identity パラメーターは省略可能です。これは、Lync Server では、OAuth 構成設定のグローバルコレクションを1つだけ持つことができるからです。 このことは、次のような簡単なコマンドを使用して自動検出 URL を構成できることを意味します。<BR>Set-CsOAuthConfiguration – ExchangeAutodiscoverUrl " https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc "<BR>OAuth というテクノロジは、多くの大手 Web サイトで使用されている標準的な認証プロトコルです。OAuth では、ユーザーの資格情報とパスワードがコンピューター間で渡されることはありません。その代わりに、セキュリティ トークンの交換に基づいて認証と承認が行われます。これらのトークンによって、特定のリソースのセットに対する特定の時間のアクセスが許可されます。
 
 
 
 </div>
 
-自動検出サービスの構成に加えて、Exchange サーバーをポイントするサービスの DNS レコードも作成する必要があります。 たとえば、自動検出サービスが autodiscover.litwareinc.com にある場合は、Exchange サーバーの完全修飾ドメイン名に解決される autodiscover.litwareinc.com 用の DNS レコードを作成する必要があります (たとえば、atl-exchange-001.litwareinc.com)
+自動検出サービスの構成に加えて、Exchange サーバーをポイントするサービスの DNS レコードも作成する必要があります。 たとえば、自動検出サービスが autodiscover.litwareinc.com にある場合は、Exchange サーバーの完全修飾ドメイン名 (たとえば、atl-exchange-001.litwareinc.com) に解決される autodiscover.litwareinc.com 用の DNS レコードを作成する必要があります。
 
 </div>
 

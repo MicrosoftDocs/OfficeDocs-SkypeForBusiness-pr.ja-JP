@@ -12,20 +12,22 @@ ms:contentKeyID: 51541502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19563b36f874bb3a13e1af897ed9ef41d31b4e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0af6d5d11494e24ecf54dd2ff06cbee9011814e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186390"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507254"
 ---
+# <a name="lync-2013-compatibility"></a>Lync 2013 の互換性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-2013-compatibility"></a>Lync 2013 の互換性
+
 
 </div>
 
@@ -112,14 +114,14 @@ _**トピックの最終更新日:** 2013-10-07_
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Outlook の "宛先" および "Cc" フィールドのプレゼンス状態</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="odd">
 <td><p>状態メニューから電話会議で返信</p></td>
@@ -133,21 +135,21 @@ _**トピックの最終更新日:** 2013-10-07_
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="odd">
 <td><p>受信した電子メールメッセージのツールバーまたはリボンから、IM または通話に返信する</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="even">
 <td><p>Outlook の "差出人" フィールドのプレゼンス状態</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="odd">
 <td><p>状態メニューから IM または音声で返信</p></td>
@@ -168,13 +170,13 @@ _**トピックの最終更新日:** 2013-10-07_
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1詳細については、「計画」のドキュメントの「 [Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 の統合](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)」を参照してください。
+1詳細については、「計画」のドキュメントの「 [Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 の統合](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md) 」を参照してください。
 
 次の機能は、Office 2010 または Office 2013 でのみ使用できます。
 
@@ -184,7 +186,7 @@ _**トピックの最終更新日:** 2013-10-07_
 
   - [メール]、[予定表]、[連絡先]、および [仕事] フォルダーの Outlook ホーム リボンからの IM または通話での返信
 
-  - Outlook To Do バーの Lync 連絡先リスト
+  - Outlook To-Do バーの Lync 連絡先リスト
 
   - Office Backstage ([ファイル] タブ) のプレゼンス状態、プログラム共有、およびファイル転送
 
@@ -261,7 +263,7 @@ Lync 2013 および Windows のサポートの詳細については、「計画�
 
 ## <a name="macintosh-and-lync-2013"></a>Macintosh および Lync 2013
 
-Lync Server 2013 は、Macintosh オペレーティングシステムを実行しているコンピューター上の特定のクライアントをサポートします。 詳細については、「計画」のドキュメントの「lync [Server 2013 での lync クライアントソフトウェアサポート](lync-server-2013-lync-client-software-support.md)」を参照してください。
+Lync Server 2013 は、Macintosh オペレーティングシステムを実行しているコンピューター上の特定のクライアントをサポートします。 詳細については、「計画」のドキュメントの「lync [Server 2013 での lync クライアントソフトウェアサポート](lync-server-2013-lync-client-software-support.md) 」を参照してください。
 
 </div>
 

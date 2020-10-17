@@ -12,20 +12,22 @@ ms:contentKeyID: 48184937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b7f20857eded55c2488582c4b228bf0a53905c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bf1bf0ce10281bf4d31fc8fdb1be9251b72caf6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202073"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507024"
 ---
+# <a name="planning-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 での会議の計画
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 での会議の計画
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server 2013 のフロントエンドサーバーを展開する場合は、
 
 
 > [!NOTE]  
-> 展開に Office Communicator 2007 R2 クライアント (Microsoft Office Outlook 用 Live Meeting コンソールまたは電話会議アドインを含む) を使用して開催された会議が含まれる場合、会議は Lync に移行された後、次の制限があります。サーバー 2013: 
+> Office Communicator 2007 R2 クライアント (Microsoft Office Outlook 用 Live Meeting コンソールまたは電話会議アドインを含む) を使用して開催された会議が展開に含まれている場合は、Lync Server 2013 に移行した後、次のような制限があります。 
 > <UL>
 > <LI>
 > <P>会議のユーザーは、ドキュメントのグループ作業、アプリケーション共有、およびデスクトップ共有などのデータコラボレーション機能を使用できません。</P>

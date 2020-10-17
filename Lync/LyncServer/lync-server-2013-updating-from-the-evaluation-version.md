@@ -12,20 +12,22 @@ ms:contentKeyID: 48184294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 787aa9f1983dc755f1ce9b35ff66320be1d5dba5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 21fa1c35cff49205a7287841ac90c5dd9f0a4510
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193130"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506694"
 ---
+# <a name="updating-from-the-evaluation-version-of-lync-server-2013"></a>Lync Server 2013 の評価版からの更新
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-from-the-evaluation-version-of-lync-server-2013"></a>Lync Server 2013 の評価版からの更新
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 の評価版からライセンス版のソフトウェアにコ
 
 1.  ローカル管理者としてコンピューターにログオンします。
 
-2.  [**スタート**]、[**すべてのプログラム**]、[ **Microsoft lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+2.  [ **スタート**]、[ **すべてのプログラム**]、[ **Microsoft lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 3.  Lync Server 管理シェルで、次のコマンドを入力し、enter キーを押します。
     

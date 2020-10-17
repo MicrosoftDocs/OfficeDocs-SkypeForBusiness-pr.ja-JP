@@ -12,20 +12,22 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59bcaca40414c9bd99e451846c0339d0af6e7bf3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6a1ddaff4813035cabc8ca6b7468f1d4d06c93e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183720"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506934"
 ---
+# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でのベストプラクティスアナライザーの準備とインストール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 でのベストプラクティスアナライザーの準備とインストール
+
 
 </div>
 
@@ -73,11 +75,11 @@ Lync Server 2013 を実行するには、ベストプラクティスアナライ
 
   - Lync Server 2013、コアコンポーネント。
 
-  - WMI 下位互換パッケージ。 詳細については、「移行」のドキュメントの「 [INSTALL WMI 下位互換パッケージをインストール](install-wmi-backward-compatibility-package.md)する」を参照してください。
+  - WMI 下位互換パッケージ。 詳細については、「移行」のドキュメントの「 [INSTALL WMI 下位互換パッケージをインストール](install-wmi-backward-compatibility-package.md) する」を参照してください。
 
-  - Windows PowerShell 3.0。 詳細については、「展開」のドキュメントの「 [Windows PowerShell 3.0 For Lync Server 2013 のインストール](lync-server-2013-installing-windows-powershell-3-0.md)」を参照してください。
+  - Windows PowerShell 3.0。 詳細については、「展開」のドキュメントの「 [Windows PowerShell 3.0 For Lync Server 2013 のインストール](lync-server-2013-installing-windows-powershell-3-0.md) 」を参照してください。
 
-ベストプラクティスアナライザーは、Lync Server 2013、コアコンポーネント、または WMI 下位互換パッケージを実行していない、サポートされているオペレーティングシステムを搭載したコンピューターにインストールできますが、これらのコンピューターでベストプラクティスアナライザーを使用しても、レポートを表示することはできません。スキャンを実行する。
+ベストプラクティスアナライザーは、Lync Server 2013、コアコンポーネント、または WMI 下位互換パッケージを実行していない、サポートされているオペレーティングシステムを搭載したコンピューターにインストールできますが、ベストプラクティスアナライザーは、スキャンを実行するのではなく、レポートを表示するためにのみ使用できます。
 
 </div>
 
@@ -93,9 +95,9 @@ Lync server 2013 管理専用のコンピューターに Lync Server 2013、ベ�
 
 ## <a name="installing-best-practices-analyzer"></a>ベスト プラクティス アナライザーのインストール
 
-Lync Server 2013 のベストプラクティスアナライザーをダウンロードすることが[https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539)できます。
+Lync Server 2013 のベストプラクティスアナライザーをダウンロードすることができ [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539) ます。
 
-ベスト プラクティス アナライザーをインストールするには、ツールをインストールするコンピューターで Microsoft インストーラー ファイル (RtcBPA.msi) を起動し、画面の指示に従います。 プログラムファイルをインストールする既定の場所は\<、システム\>\\ドライブの\\プログラムファイル Lync\\Server 2013 BPA です。
+ベスト プラクティス アナライザーをインストールするには、ツールをインストールするコンピューターで Microsoft インストーラー ファイル (RtcBPA.msi) を起動し、画面の指示に従います。 プログラムファイルの既定のインストール先は、 \<system drive\> \\ プログラムファイル \\ Lync Server 2013 \\ BPA です。
 
 </div>
 

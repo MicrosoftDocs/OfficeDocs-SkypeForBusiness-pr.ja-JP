@@ -12,20 +12,22 @@ ms:contentKeyID: 51541441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c84fe2400b3ac7ed1b8dded2ab26646c48a2c232
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b2619e204bf538963818bf48967459fe434c2db4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192566"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505634"
 ---
+# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>Lync Server 2013 の計画ツールのナビゲート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="navigating-the-planning-tool-in-lync-server-2013"></a>Lync Server 2013 の計画ツールのナビゲート
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**トピックの最終更新日:** 2013-02-21_
 
 Microsoft Lync Server 2013 の計画ツールは、ツールバー、ページ固有のボタンとリンク、およびコンテキスト固有のウィンドウを組み合わせて使用して移動します。 コンテキスト固有のウィンドウには、特定のページの選択オプションに関連する計画および容量に関する設計情報が示されます。
 
-計画ツールを開始するには、最初に、設計者が**Microsoft Lync Server 2013 の計画ツールへようこそページを**参照します。
+計画ツールを開始するには、最初に、設計者が **Microsoft Lync Server 2013 の計画ツールへようこそページを** 参照します。
 
 ![計画ツールのウェルカムページ](images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "計画ツールのウェルカムページ")
 
-[ようこそ] ページで、[**開始**]、[**デザインサイト**]、または [**表示**] が選択されます。 詳細については、「 [Create the initial topology design For Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md)」を参照してください。
+[ようこそ] ページで、[ **開始**]、[ **デザインサイト**]、または [ **表示**] が選択されます。 詳細については、「 [Create the initial topology design For Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md)」を参照してください。
 
 計画ツールの上部には、頻繁に使用する機能に簡単にアクセスできるツールバーがあります。 このツールバーは参照用に表示され、各関数については「関連項目」で説明します。
 

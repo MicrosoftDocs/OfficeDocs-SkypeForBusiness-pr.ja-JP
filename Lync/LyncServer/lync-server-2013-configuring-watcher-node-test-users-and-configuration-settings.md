@@ -12,20 +12,22 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78d52e6a7eb36ce0f000a9986480d62692d3a33d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65ecb6946bcbb7244ef3e5ef8504312063ab1bd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195530"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507524"
 ---
+# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 で監視ノードのテストユーザーと構成設定を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 で監視ノードのテストユーザーと構成設定を構成する
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2013-07-29_
 
 監視ノードとして動作するコンピューターを構成した後、次のことを行う必要があります。
 
-1.  これらの監視ノードによって使用されるテストアカウントを作成します。 Negotiate の認証方法を使用している場合は、 [set-cstestusercredential](https://technet.microsoft.com/library/JJ205341(v=OCS.15))コマンドレットを使用して、監視ノードで使用するためにこれらのテストアカウントを有効にする必要もあります。
+1.  これらの監視ノードによって使用されるテストアカウントを作成します。 Negotiate の認証方法を使用している場合は、 [set-cstestusercredential](https://technet.microsoft.com/library/JJ205341(v=OCS.15)) コマンドレットを使用して、監視ノードで使用するためにこれらのテストアカウントを有効にする必要もあります。
 
 2.  監視ノードの構成設定を更新します。
 
@@ -59,15 +61,15 @@ _**トピックの最終更新日:** 2013-07-29_
 
 ## <a name="configuring-test-user-accounts"></a>テストユーザーアカウントを構成する
 
-テストユーザーは、実際の人物を表す必要はありませんが、有効な Active Directory ドメインサービスアカウントである必要があります。さらに、これらのアカウントは Lync Server 2013 に対して有効にする必要があります。また、有効な SIP アドレスを持っている必要があります。また、エンタープライズ Voip を有効にする必要があります (テスト-CsPstnPeerToPeerCall 代理トランザクションを使用する場合)。 TrustedServer の認証方法を使用する場合は、これらのアカウントが存在し、ここで指定したとおりに構成されていることを確認するだけで済みます。 テストする各プールについて、少なくとも3つのテストユーザーを割り当てる必要があります。
+テストユーザーは、実際の人物を表す必要はありませんが、有効な Active Directory ドメインサービスアカウントである必要があります。さらに、これらのアカウントは Lync Server 2013 に対して有効にする必要があり、有効な SIP アドレスを持っている必要があり、エンタープライズ Voip (Test-CsPstnPeerToPeerCall 代理トランザクションを使用するため) を有効にする必要があります。 TrustedServer の認証方法を使用する場合は、これらのアカウントが存在し、ここで指定したとおりに構成されていることを確認するだけで済みます。 テストする各プールについて、少なくとも3つのテストユーザーを割り当てる必要があります。
 
-Negotiate の認証方法を使用している場合は、 **set-cstestusercredential**コマンドレットと Lync Server 管理シェルも使用して、これらのテストアカウントが代理トランザクションと連携できるようにする必要があります。 これを行うには、次のようなコマンドを実行します。 (これらのコマンドは、3つの Active Directory ユーザーアカウントが既に作成されており、これらのアカウントが Lync Server 2013 に対して有効になっていることを前提としています)。
+Negotiate の認証方法を使用している場合は、 **set-cstestusercredential** コマンドレットと Lync Server 管理シェルも使用して、これらのテストアカウントが代理トランザクションと連携できるようにする必要があります。 これを行うには、次のようなコマンドを実行します。 (これらのコマンドは、3つの Active Directory ユーザーアカウントが既に作成されており、これらのアカウントが Lync Server 2013 に対して有効になっていることを前提としています)。
 
     Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-SIP アドレスだけでなく、ユーザー名とパスワードも含める必要があることに注意してください。 パスワードが設定されていない場合は、Set-cstestusercredential によってその情報の入力を求められます。 ユーザー名を指定するには、上記の\\ドメイン名のユーザー名の形式を使用するか、またはユーザー name@domain 名の形式を使用します。例えば：
+SIP アドレスだけでなく、ユーザー名とパスワードも含める必要があることに注意してください。 パスワードを指定しない場合 Set-CsTestUserCredential はその情報を入力するように求められます。 ユーザー名を指定するには、上記のドメイン名のユーザー名の形式を使用する \\ か、またはユーザー name@domain 名の形式を使用します。たとえば、次のようにします。
 
     -UserName "watcher3@litwareinc.com"
 
@@ -93,7 +95,7 @@ SIP アドレスだけでなく、ユーザー名とパスワードも含める�
 
     New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
 
-このコマンドは、既定の設定を使用し、代理トランザクションの既定のセットを実行する新しい監視ノードを作成します。 新しい監視ノードは、テストユーザー watcher1@litwareinc.com、watcher2@litwareinc.com、および watcher3@litwareinc.com も使用します。 監視ノードが TrustedServer 認証を使用している場合、3つのテストアカウントは、Active Directory および Lync Server に対して有効になっている任意の有効なユーザーアカウントにすることができます。 監視ノードが Negotiate 認証方法を使用している場合は、 **set-cstestusercredential**コマンドレットを使用して、監視ノードに対してこれらのユーザーアカウントを有効にする必要もあります。
+このコマンドは、既定の設定を使用し、代理トランザクションの既定のセットを実行する新しい監視ノードを作成します。 新しい監視ノードは、テストユーザー watcher1@litwareinc.com、watcher2@litwareinc.com、および watcher3@litwareinc.com も使用します。 監視ノードが TrustedServer 認証を使用している場合、3つのテストアカウントは、Active Directory および Lync Server に対して有効になっている任意の有効なユーザーアカウントにすることができます。 監視ノードが Negotiate 認証方法を使用している場合は、 **set-cstestusercredential** コマンドレットを使用して、監視ノードに対してこれらのユーザーアカウントを有効にする必要もあります。
 
 </div>
 
@@ -107,19 +109,19 @@ SIP アドレスだけでなく、ユーザー名とパスワードも含める�
 
 このコマンドの結果は変数に格納する必要があることに注意してください。 この例では、$pstnTest という名前の変数です。
 
-この時点で、 **set-cswatchernodeconfiguration**コマンドレットを使用して、テストの種類 (変数 $pstnTest に格納されている) を Lync Server 2013 プールに関連付けることができます。 たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com の新しい監視ノード構成を作成し、以前に作成した3つのテストユーザーを追加し、さらに PSTN テストの種類も追加します。
+この時点で、 **set-cswatchernodeconfiguration** コマンドレットを使用して、テストの種類 (変数 $pstnTest に格納されている) を Lync Server 2013 プールに関連付けることができます。 たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com の新しい監視ノード構成を作成し、以前に作成した3つのテストユーザーを追加し、さらに PSTN テストの種類も追加します。
 
     New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 
 なお、監視ノードコンピューターに Lync Server コアファイルと RTCLocal データベースをインストールしていない場合は、上記のコマンドは失敗します。
 
-複数の音声ポリシーをテストするには、**新しい-Csexthe dedtest**コマンドレットを使用して、各ポリシーの拡張テストを作成する必要があります。 このテストに割り当てられているユーザーは、目的の音声ポリシーを使用して構成する必要があります。 拡張テストは、次のようなコマンドを使用して、 **set-cswatchernodeconfiguration**コマンドレットに渡されます。
+複数の音声ポリシーをテストするには、 **新しい-Csexthe dedtest** コマンドレットを使用して、各ポリシーの拡張テストを作成する必要があります。 このテストに割り当てられているユーザーは、目的の音声ポリシーを使用して構成する必要があります。 拡張テストは、次のようなコマンドを使用して、 **set-cswatchernodeconfiguration** コマンドレットに渡されます。
 
     -ExtendedTests @{Add=$pstnTest1,$pstnTest2,$pstnTest3}
 
-Set-cswatchernodeconfiguration が Tests パラメーターを使用せずに呼び出された場合は、既定の代理トランザクション (および指定された拡張代理トランザクション) だけが新しい監視ノードに対して有効になることを意味します。 これは、監視ノードが次のコンポーネントをテストすることを意味します。
+New-CsWatcherNodeConfiguration が Tests パラメーターを使用せずに呼び出された場合は、既定の代理トランザクション (および指定された拡張代理トランザクション) だけが新しい監視ノードに対して有効になることを意味します。 これは、監視ノードが次のコンポーネントをテストすることを意味します。
 
-  - レジスタ
+  - Registration
 
   - IM
 
@@ -161,11 +163,11 @@ Set-cswatchernodeconfiguration が Tests パラメーターを使用せずに呼
 
 ## <a name="adding-and-removing-synthetic-transactions"></a>代理トランザクションの追加と削除
 
-監視ノードの構成後、 **set-cswatchernodeconfiguration**コマンドレットを使用して、ノードの代理トランザクションを追加または削除できます。 たとえば、監視ノードに PersistentChatMessage テストを追加するには、Add メソッドと次のようなコマンドを使用します。
+監視ノードの構成後、 **set-cswatchernodeconfiguration** コマンドレットを使用して、ノードの代理トランザクションを追加または削除できます。 たとえば、監視ノードに PersistentChatMessage テストを追加するには、Add メソッドと次のようなコマンドを使用します。
 
     Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 
-テスト名をコンマで区切ることで、複数のテストを追加できます。 次に例を示します。
+テスト名をコンマで区切ることで、複数のテストを追加できます。 以下に例を示します。
 
     Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 
@@ -210,7 +212,7 @@ Replace メソッドを使用して、現在有効になっているすべての
 
 
 > [!TIP]
-> 代理トランザクションをアルファベット順で表示するには、代わりに次のコマンドを使用します。<BR>Set-cswatchernodeconfiguration – Identity "atl-cs-001.litwareinc.com" |Select-Object – ExpandProperty テスト |Sort-オブジェクト
+> 代理トランザクションをアルファベット順で表示するには、代わりに次のコマンドを使用します。<BR>Get-CsWatcherNodeConfiguration – Identity "atl-cs-001.litwareinc.com" |Select-Object-ExpandProperty テスト |Sort-Object
 
 
 

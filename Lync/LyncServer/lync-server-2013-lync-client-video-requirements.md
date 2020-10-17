@@ -12,20 +12,22 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c15eb698babcce1cd104dd7206c037b95d402992
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 883242824a6dfc45dbae923736a7a88bc1784d62
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506064"
 ---
+# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Lync Server 2013 の lync クライアントのビデオ要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Lync Server 2013 の lync クライアントのビデオ要件
+
 
 </div>
 
@@ -71,7 +73,7 @@ Lync 2013 では、ビデオのエンコードとデコードに関するハー�
 <div>
 
 > [!NOTE]  
-> デコードモードの詳細について<A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>は、「」を参照してください。
+> デコードモードの詳細については、「」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A> 。
 
 
 </div></td>
@@ -122,7 +124,7 @@ Lync 2013 では、ビデオのエンコードとデコードに関するハー�
 
   - Windows エクスペリエンス インデックス (WEI)
 
-Windows システム評価ツール (WinSAT) は、WEI を決定します。 WinSAT ツールを実行すると、% windir%\\Performance\\WinSAT\\DataStore ディレクトリにあるコンピューター上に、正式な評価の XML ドキュメントが生成されます。 この XML ファイルには、エンコードおよびデコード機能を決定するために特に重要な次の 2 つのスコアが含まれます。
+Windows システム評価ツール (WinSAT) は、WEI を決定します。 WinSAT ツールを実行すると、% windir% \\ Performance \\ WinSAT \\ DataStore ディレクトリにあるコンピューター上に、正式な評価の XML ドキュメントが生成されます。 この XML ファイルには、エンコードおよびデコード機能を決定するために特に重要な次の 2 つのスコアが含まれます。
 
   - VideoEncodeScore は、コンピューターのソフトウェア ベースのビデオ エンコード機能を示します。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7b4bc93f78ed72515270557e3224195df7ecd81
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3702e8976c0afeef364fdec52616bb4f4d1b8d86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193120"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506664"
 ---
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Lync Server 2013 の Outlook enable list の更新
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Lync Server 2013 の Outlook enable list の更新
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42193120"
 
 _**トピックの最終更新日:** 2013-01-07_
 
-Microsoft Lync 2013 用のオンラインミーティングアドインは、Outlook のアドイン管理リストに含まれるポリシーを作成することによって、常にユーザーが有効な状態を保つことができます。 アドイン管理リスト ポリシーは、グループ ポリシー管理コンソールの Office 管理テンプレート ファイルに含まれています。 [HKCU\\\\Software Policies\\Microsoft\\Office\\15.0\\Outlook15\\弾力性\\AddinList] の下にレジストリキーを作成します。 このキーに ucaddin の値を追加し、その値を常に有効にして、ユーザーが手動で無効にできないように ucaddin を構成することができます。
+Microsoft Lync 2013 用のオンラインミーティングアドインは、Outlook のアドイン管理リストに含まれるポリシーを作成することによって、常にユーザーが有効な状態を保つことができます。 アドイン管理リスト ポリシーは、グループ ポリシー管理コンソールの Office 管理テンプレート ファイルに含まれています。 [HKCU \\ Software \\ Policies \\ Microsoft \\ Office \\ 15.0 \\ Outlook15 \\ 弾力性 \\ AddinList] の下にレジストリキーを作成します。 このキーに ucaddin.dll の値を追加し、その値を常に有効にし、ユーザーが手動で無効にできないように ucaddin.dll 値を構成することができます。
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Outlook アドインの一覧に ucaddin を追加するには
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Outlook アドインの一覧に ucaddin.dll を追加するには
 
-  - AddinList レジストリキーに、[HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\弾力性\\AddinList] の下にある次の値を追加します。
+  - AddinList レジストリキーに、[HKCU \\ Software \\ Policies \\ Microsoft \\ Office 15.0 Outlook15 弾力性 AddinList] の下にある \\ \\ \\ \\ 次の値を追加します。
     
-      - レジストリの種類 =\_REG SZ
+      - レジストリの種類 = REG \_ SZ
     
       - 名前 = ucaddin.dll
     

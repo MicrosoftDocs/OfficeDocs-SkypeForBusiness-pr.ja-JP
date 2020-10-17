@@ -12,20 +12,22 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4eb457dbaee5e91b7b4f408018242384cd8992c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a76f3bb2a3ccc182f16e2e1416bdec00aefe3e7e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188260"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506094"
 ---
+# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 での常設チャットサーバーの展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 での常設チャットサーバーの展開
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013、常設チャットサーバーは Lync Server 2013 インフ�
 
 常設チャットサーバーは、Lync Server 2013 Enterprise Edition と別のプールとして使用できます (Enterprise Edition フロントエンドサーバーと併置されていません)。 常設チャットサーバーには、エンタープライズエディションのプールに SQL Server バックエンドサーバーが必要です。これには、チャットルームのコンテンツやその他の関連するメタデータを格納します。 **PersistentChatStore**は、専用の Sql Server バックエンドサーバーにインストールすることをお勧めします。ただし、Lync server 2013 のバックエンドサーバーと**PERSISTENTCHATSTORE**を同じ sql server インスタンスに併置することはサポートされています。
 
-常設チャットサーバーは、Lync Server 2013 Standard Edition と共に展開することもできます。 この場合、 **PersistentChatService**フロントエンドサーバーは Standard Edition コンピューターに併置され、 **PersistentChatStore**バックエンドサーバーをローカルの SQL Server Express インスタンスに展開することができます。
+常設チャットサーバーは、Lync Server 2013 Standard Edition と共に展開することもできます。 この場合、 **PersistentChatService** フロントエンドサーバーは Standard Edition コンピューターに併置され、 **PersistentChatStore** バックエンドサーバーをローカルの SQL Server Express インスタンスに展開することができます。
 
 サポートされている colocation 構成の詳細については、「 [Lync server 2013 でサポートされるサーバーの併置](lync-server-2013-supported-server-collocation.md)」を参照してください。
 
@@ -57,7 +59,7 @@ Lync Server 2013、常設チャットサーバーは Lync Server 2013 インフ�
 
 
 > [!IMPORTANT]  
-> 常設チャットサーバー&nbsp;Standard Edition では高可用性がサポートされていません。 パフォーマンスとスケーラビリティ には制限があります。 さらに、新しい常設チャットサーバー&nbsp;Standard Edition サーバーのみをサポートしています。 Lync server 2010 のグループチャットサーバーから Lync Server 2013&nbsp;常設チャットサーバー&nbsp;Standard Edition へのアップグレードはサポートされていません。
+> 常設チャットサーバー Standard Edition では高可用性がサポートされていません &nbsp; 。 パフォーマンスとスケーラビリティ には制限があります。 さらに、新しい常設チャットサーバー &nbsp; Standard Edition サーバーのみをサポートしています。 Lync server 2010 のグループチャットサーバーから Lync Server 2013 &nbsp; 常設チャットサーバー Standard Edition へのアップグレードはサポートされていません &nbsp; 。
 
 
 
@@ -69,9 +71,9 @@ Lync Server 2013、常設チャットサーバーは Lync Server 2013 インフ�
 
 トポロジビルダーを使用して、Lync Server 2013 展開に常設チャットサーバーを追加します。 トポロジビルダーを使用して、1つまたは複数の常設チャットサーバープールを追加することを選択できます。 他のプールの場合と同じように、複数の常設チャットサーバープールを展開する場合の同じ展開手順に従います。 詳細については、「展開」のドキュメントの「[Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md)」を参照してください。
 
-利用可能なトポロジの詳細、および常設チャットサーバーをインストールするための技術およびソフトウェアの要件の詳細については、「計画」の[](lync-server-2013-how-persistent-chat-server-works.md)ドキュメントの「Planning [for persistent Chat 2013 2013 server](lync-server-2013-planning-for-persistent-chat-server.md) 」、「計画」のドキュメント、「展開」のドキュメント、または「操作」のドキュメント、および「サポート」2013のドキュメントの「[サポートされるハードウェア](lync-server-2013-supported-hardware.md)」を参照
+利用可能なトポロジの詳細、および常設チャットサーバーをインストールするための技術およびソフトウェアの要件の詳細については、「計画」の[How Persistent Chat Server works in Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)ドキュメントの「Planning [for persistent Chat 2013 2013 server](lync-server-2013-planning-for-persistent-chat-server.md) 」、「計画」のドキュメント、「展開」のドキュメント、または「操作」のドキュメント、および「サポート」2013のドキュメントの「[サポートされるハードウェア](lync-server-2013-supported-hardware.md)」を参照
 
-証明書の取得、SQL Server データベースの作成、およびファイルストアの作成の詳細については、「展開」のドキュメントの「[展開 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 」を参照してください。
+証明書の取得、SQL Server データベースの作成、およびファイルストアの作成の詳細については、「展開」のドキュメントの「 [展開 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 」を参照してください。
 
 1台の常設チャットサーバーフロントエンドサーバーでは、2万アクティブユーザーをサポートできます。 合計8万の同時ユーザーをサポートする最大4台のアクティブなフロントエンドサーバーで、常設チャットサーバープールを使用することができます。
 

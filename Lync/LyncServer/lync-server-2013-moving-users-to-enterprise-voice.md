@@ -12,20 +12,22 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5554a9c7fde74b5bcf9c81c451023d0f48bbf918
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3dfd2507f57265b53beea6f84d07760d35abe6e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217143"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507054"
 ---
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip へのユーザーの移動
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip へのユーザーの移動
+
 
 </div>
 
@@ -94,7 +96,7 @@ _**トピックの最終更新日:** 2012-10-18_
 
   - Microsoft Identity Integration Server (推奨)
 
-  - Lync Server コントロールパネルの [**ユーザー** ] ページ
+  - Lync Server コントロールパネルの [ **ユーザー** ] ページ
 
 多くの電話番号を処理する必要がある場合は、組織によって開発されたカスタムスクリプトを選択することをお勧めします。 組織が Active Directory ドメイン サービスで電話番号をどのように表しているかに応じて、スクリプトで主要電話番号を **msRTCSIP-line** 属性にコピーする前に E.164 形式に正規化することが必要になる場合があります。
 
@@ -175,7 +177,7 @@ Exchange ユニファイド メッセージングへのユーザーの移動は�
 
   - 連携して動作するように Exchange ユニファイドメッセージングと Lync Server を構成します。
 
-  - Exchange ユニファイド メッセージングの通話応答と Outlook Voice Access に対してユーザーを有効にします。 Exchange ユニファイド メッセージング サーバーでこの作業を行います。 詳細については、「Exchange Server 2010 TechNet [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372)ライブラリ」を参照してください。
+  - Exchange ユニファイド メッセージングの通話応答と Outlook Voice Access に対してユーザーを有効にします。 Exchange ユニファイド メッセージング サーバーでこの作業を行います。 詳細については、「Exchange Server 2010 TechNet ライブラリ」を参照してください [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372) 。
 
 </div>
 

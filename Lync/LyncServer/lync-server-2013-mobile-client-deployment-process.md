@@ -12,20 +12,22 @@ ms:contentKeyID: 51541484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14acbf4a8be4d453fc1a0c5dc4da303136433e0c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d08cf2c6be2bef797a892dcc06798307e811bc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185030"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505674"
 ---
+# <a name="mobile-client-deployment-process-in-lync-server-2013"></a>Lync Server 2013 でのモバイルクライアントの展開プロセス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mobile-client-deployment-process-in-lync-server-2013"></a>Lync Server 2013 でのモバイルクライアントの展開プロセス
+
 
 </div>
 
@@ -105,7 +107,7 @@ Microsoft Lync Server 2013 の展開が完了した後、ユーザーは、特�
 <li><p>必要なソフトウェアをインストールします。</p></li>
 <li><p>モバイル デバイスに固有のマーケットプレースからインストールします。</p></li>
 </ol></td>
-<td><p>ユーザー</p></td>
+<td><p>User</p></td>
 <td><p><a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 でのモバイルクライアントの展開</a>でのモバイルデバイスに固有のインストール手順。</p></td>
 </tr>
 </tbody>

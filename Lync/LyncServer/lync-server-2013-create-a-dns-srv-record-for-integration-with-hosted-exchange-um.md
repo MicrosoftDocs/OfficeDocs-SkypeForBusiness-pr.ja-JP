@@ -12,20 +12,22 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c30164813619a271f2321db3ff3e8019067193c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507474"
 ---
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Hosted Exchange UM との統合のための DNS SRV レコードを作成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Hosted Exchange UM との統合のための DNS SRV レコードを作成する
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 2.  [**スタート**]、[**管理ツール**]、[**DNS**] の順にクリックします。
 
-3.  SIP ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Lync Server 2013 をインストールする SIP ドメインを選択します。
+3.  SIP ドメインのコンソールツリーで、[ **前方参照ゾーン**] を展開し、Lync Server 2013 をインストールする SIP ドメインを選択します。
     
     <div>
     
@@ -62,19 +64,19 @@ _**トピックの最終更新日:** 2013-02-20_
 
 5.  [**リソース レコードの種類**] で、[**サービス ロケーション (SRV)**]、[**レコードの作成**] の順にクリックします。
 
-6.  [**新しいリソースレコード**] で、[**サービス**] をクリックし、「 ** \_sipfederationtls**」と入力します。
+6.  [**新しいリソースレコード**] で、[**サービス**] をクリックし、「 ** \_ sipfederationtls**」と入力します。
 
-7.  [**プロトコル**] をクリックし、「 ** \_tcp**」と入力します。
+7.  [**プロトコル**] をクリックし、「 ** \_ tcp**」と入力します。
 
 8.  "**ポート番号**" フィールドをクリックし、「**5061**」と入力します。
 
-9.  [**このサービスを提供**しているホスト] をクリックし、lync Server 2013 エッジプールの完全修飾ドメイン名 (FQDN) を入力します。これにより、信頼できる外部クライアントに対して lync server 2013 システムへのアクセスが提供されます。
+9.  [ **このサービスを提供**しているホスト] をクリックし、lync Server 2013 エッジプールの完全修飾ドメイン名 (FQDN) を入力します。これにより、信頼できる外部クライアントに対して lync server 2013 システムへのアクセスが提供されます。
     
     <div>
     
 
     > [!NOTE]
-    > このドメインを、Exchange Online 設定内で権限のある承認済みドメインとしてセットアップする必要もあります。 詳細については、「の<A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>承認済みドメインを作成する」を参照してください。
+    > このドメインを、Exchange Online 設定内で権限のある承認済みドメインとしてセットアップする必要もあります。 詳細については、「の承認済みドメインを作成する」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A> 。
 
     
     </div>

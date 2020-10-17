@@ -12,20 +12,22 @@ ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21fa89b5afe53937ee515dac45053dbd84ae12ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f1b8cac172b4973f86916269585d2d9b02cdc728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505734"
 ---
+# <a name="medialine-view-in-lync-server-2013"></a>Lync Server 2013 の MediaLine ビュー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="medialine-view-in-lync-server-2013"></a>Lync Server 2013 の MediaLine ビュー
+
 
 </div>
 
@@ -48,7 +50,7 @@ _**トピックの最終更新日:** 2012-10-03_
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>詳細</th>
 </tr>
@@ -112,7 +114,7 @@ _**トピックの最終更新日:** 2012-10-03_
 <tr class="even">
 <td><p>CallerRelayIPAddr</p></td>
 <td><p>var (50)</p></td>
-<td><p>発信者が使用する音声ビデオ エッジ サービスの IPアドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>発信者が使用する音声ビデオ エッジ サービスの IPアドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>
@@ -157,7 +159,7 @@ _**トピックの最終更新日:** 2012-10-03_
 <tr class="odd">
 <td><p>CalleeNetworkConnectionDetail</p></td>
 <td><p>varchar (256)</p></td>
-<td><p>発信者のネットワーク接続の詳細。 詳細については、「 <a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 の Networkconnectiondetail テーブル</a>」を参照してください。</p></td>
+<td><p>発信者のネットワーク接続の詳細。 詳細については、「 <a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 の Networkconnectiondetail テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerBssid</p></td>
@@ -192,7 +194,7 @@ _**トピックの最終更新日:** 2012-10-03_
 <tr class="even">
 <td><p>CalleeRelayIPAddr</p></td>
 <td><p>var (50)</p></td>
-<td><p>通話受信者が使用する音声ビデオ エッジ サービスの IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a>」を参照してください。</p></td>
+<td><p>通話受信者が使用する音声ビデオ エッジ サービスの IP アドレス。 詳細については、「 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 の IPAddress テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayPort</p></td>
@@ -237,7 +239,7 @@ _**トピックの最終更新日:** 2012-10-03_
 <tr class="odd">
 <td><p>CalleeNetworkConnectionDetail</p></td>
 <td><p>varchar (256)</p></td>
-<td><p>通話受信者のネットワーク接続の詳細。 詳細については、「 <a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 の Networkconnectiondetail テーブル</a>」を参照してください。</p></td>
+<td><p>通話受信者のネットワーク接続の詳細。 詳細については、「 <a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 の Networkconnectiondetail テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeBssid</p></td>
