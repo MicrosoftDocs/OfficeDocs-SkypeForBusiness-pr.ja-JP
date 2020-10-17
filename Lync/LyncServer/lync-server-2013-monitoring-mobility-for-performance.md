@@ -12,20 +12,22 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 840ec938fdd6262468eb86a3b190e100c38bf32c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0e217e28545eea15a61bf4b4470472cc9944e9b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217273"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531824"
 ---
+# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a><span data-ttu-id="3e670-102">Lync Server 2013 でのパフォーマンスのためのモビリティの監視</span><span class="sxs-lookup"><span data-stu-id="3e670-102">Monitoring mobility for performance in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a><span data-ttu-id="e8608-102">Lync Server 2013 でのパフォーマンスのためのモビリティの監視</span><span class="sxs-lookup"><span data-stu-id="e8608-102">Monitoring mobility for performance in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,35 +37,35 @@ ms.locfileid: "42217273"
 
 <span> </span>
 
-<span data-ttu-id="e8608-103">_**トピックの最終更新日:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="e8608-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+<span data-ttu-id="3e670-103">_**トピックの最終更新日:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="3e670-103">_**Topic Last Modified:** 2013-02-14_</span></span>
 
-<span data-ttu-id="e8608-104">Lync Server Mobility Service (Mcx) と統合コミュニケーション Web API (UCWA) によって、フロントエンドサーバーおよびフロントエンドプールの負荷が増加します。</span><span class="sxs-lookup"><span data-stu-id="e8608-104">The Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA) increase the load on Front End Servers and Front End pools.</span></span> <span data-ttu-id="e8608-105">モバイルアプリケーションが最小化されている場合でも (Lync 2010 Mobile を実行している Android や Nokia デバイス、Lync 2013 Mobile を実行している Android や Apple デバイスなど)、サーバーとの接続を維持するモバイルデバイスでは、デバイスよりも高い負荷が課せられています。モバイルアプリケーションが最小化されている場合は、サーバーへの接続を終了します。</span><span class="sxs-lookup"><span data-stu-id="e8608-105">Mobile devices that maintain a connection to the server even when the mobile application is minimized, such as Android and Nokia devices running Lync 2010 Mobile, as well as Android and Apple devices running Lync 2013 Mobile, impose a greater load than devices that terminate their connection to the server when the mobile application is minimized.</span></span> <span data-ttu-id="e8608-106">モビリティの使用量が増加するにつれて、モビリティのパフォーマンスを監視して、処理能力を高める必要があるかどうかを判断する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e8608-106">As your mobility usage increases, you must monitor mobility performance to determine when you need to increase your capacity.</span></span>
+<span data-ttu-id="3e670-104">Lync Server Mobility Service (Mcx) と統合コミュニケーション Web API (UCWA) によって、フロントエンドサーバーおよびフロントエンドプールの負荷が増加します。</span><span class="sxs-lookup"><span data-stu-id="3e670-104">The Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA) increase the load on Front End Servers and Front End pools.</span></span> <span data-ttu-id="3e670-105">モバイルアプリケーションが最小化されている場合でも (Lync 2010 Mobile を実行している Android および Nokia デバイス、Lync 2013 Mobile を実行している Android や Apple デバイスなど)、モバイルアプリケーションが最小化されているときにサーバーへの接続を終了するデバイスよりも高い負荷が課せられます。</span><span class="sxs-lookup"><span data-stu-id="3e670-105">Mobile devices that maintain a connection to the server even when the mobile application is minimized, such as Android and Nokia devices running Lync 2010 Mobile, as well as Android and Apple devices running Lync 2013 Mobile, impose a greater load than devices that terminate their connection to the server when the mobile application is minimized.</span></span> <span data-ttu-id="3e670-106">モビリティの使用量が増加するにつれて、モビリティのパフォーマンスを監視して、処理能力を高める必要があるかどうかを判断する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3e670-106">As your mobility usage increases, you must monitor mobility performance to determine when you need to increase your capacity.</span></span>
 
-<span data-ttu-id="e8608-107">モビリティのパフォーマンスに影響を与えるいくつかの制限値があります。</span><span class="sxs-lookup"><span data-stu-id="e8608-107">Several limits influence mobility performance:</span></span>
+<span data-ttu-id="3e670-107">モビリティのパフォーマンスに影響を与えるいくつかの制限値があります。</span><span class="sxs-lookup"><span data-stu-id="3e670-107">Several limits influence mobility performance:</span></span>
 
-  - <span data-ttu-id="e8608-108">使用可能なメモリ</span><span class="sxs-lookup"><span data-stu-id="e8608-108">Available memory</span></span>
+  - <span data-ttu-id="3e670-108">使用可能なメモリ</span><span class="sxs-lookup"><span data-stu-id="3e670-108">Available memory</span></span>
 
-  - <span data-ttu-id="e8608-109">要求キューの制限</span><span class="sxs-lookup"><span data-stu-id="e8608-109">Request queue limit</span></span>
+  - <span data-ttu-id="3e670-109">要求キューの制限</span><span class="sxs-lookup"><span data-stu-id="3e670-109">Request queue limit</span></span>
 
-  - <span data-ttu-id="e8608-110">同時接続数</span><span class="sxs-lookup"><span data-stu-id="e8608-110">Concurrent connections</span></span>
+  - <span data-ttu-id="3e670-110">同時接続数</span><span class="sxs-lookup"><span data-stu-id="3e670-110">Concurrent connections</span></span>
 
-  - <span data-ttu-id="e8608-111">IIS キューの長さ</span><span class="sxs-lookup"><span data-stu-id="e8608-111">IIS queue length</span></span>
+  - <span data-ttu-id="3e670-111">IIS キューの長さ</span><span class="sxs-lookup"><span data-stu-id="3e670-111">IIS queue length</span></span>
 
-<span data-ttu-id="e8608-112">モビリティのパフォーマンスに影響を与える可能性があるサーバーのその他の制限は、最大12個の同時サインイン、認証、セッション更新、および終了です。</span><span class="sxs-lookup"><span data-stu-id="e8608-112">Other limits on servers that can influence mobility performance are a maximum of twelve concurrent sign-ins, authentications, session renewals, and terminations.</span></span> <span data-ttu-id="e8608-113">ただし、ほとんどの展開でこれらの最大値を変更する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="e8608-113">These maximums do not need to be modified for most deployments.</span></span>
+<span data-ttu-id="3e670-112">モビリティのパフォーマンスに影響を与える可能性があるサーバーのその他の制限は、最大12個の同時サインイン、認証、セッション更新、および終了です。</span><span class="sxs-lookup"><span data-stu-id="3e670-112">Other limits on servers that can influence mobility performance are a maximum of twelve concurrent sign-ins, authentications, session renewals, and terminations.</span></span> <span data-ttu-id="3e670-113">ただし、ほとんどの展開でこれらの最大値を変更する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="3e670-113">These maximums do not need to be modified for most deployments.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e8608-114">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="e8608-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3e670-114">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="3e670-114">In This Section</span></span>
 
-  - [<span data-ttu-id="e8608-115">Lync Server 2013 でのサーバーのメモリ容量制限の監視</span><span class="sxs-lookup"><span data-stu-id="e8608-115">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
+  - [<span data-ttu-id="3e670-115">Lync Server 2013 でのサーバーのメモリ容量制限の監視</span><span class="sxs-lookup"><span data-stu-id="3e670-115">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
 
-  - [<span data-ttu-id="e8608-116">Lync Server 2013 でのモビリティサービスおよび UCWA の使用状況の監視</span><span class="sxs-lookup"><span data-stu-id="e8608-116">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
+  - [<span data-ttu-id="3e670-116">Lync Server 2013 でのモビリティサービスおよび UCWA の使用状況の監視</span><span class="sxs-lookup"><span data-stu-id="3e670-116">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
 
-  - [<span data-ttu-id="e8608-117">Lync Server 2013 での高パフォーマンスの Mobility Service の構成</span><span class="sxs-lookup"><span data-stu-id="e8608-117">Configuring Mobility Service for high performance in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-service-for-high-performance.md)
+  - [<span data-ttu-id="3e670-117">Lync Server 2013 での高パフォーマンスの Mobility Service の構成</span><span class="sxs-lookup"><span data-stu-id="3e670-117">Configuring Mobility Service for high performance in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-service-for-high-performance.md)
 
-  - [<span data-ttu-id="e8608-118">Lync Server 2013 での IIS 要求トレースログファイルの監視</span><span class="sxs-lookup"><span data-stu-id="e8608-118">Monitoring IIS request tracing log files in Lync Server 2013</span></span>](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
+  - [<span data-ttu-id="3e670-118">Lync Server 2013 での IIS 要求トレースログファイルの監視</span><span class="sxs-lookup"><span data-stu-id="3e670-118">Monitoring IIS request tracing log files in Lync Server 2013</span></span>](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
 
-  - [<span data-ttu-id="e8608-119">Lync Server 2013 のモビリティパフォーマンスカウンター</span><span class="sxs-lookup"><span data-stu-id="e8608-119">Mobility performance counters in Lync Server 2013</span></span>](lync-server-2013-mobility-performance-counters.md)
+  - [<span data-ttu-id="3e670-119">Lync Server 2013 のモビリティパフォーマンスカウンター</span><span class="sxs-lookup"><span data-stu-id="3e670-119">Mobility performance counters in Lync Server 2013</span></span>](lync-server-2013-mobility-performance-counters.md)
 
 </div>
 

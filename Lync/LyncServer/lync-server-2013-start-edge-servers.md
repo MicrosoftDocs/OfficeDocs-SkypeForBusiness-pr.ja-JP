@@ -12,20 +12,22 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895cd0832dbf9b19c38a236b23ca02e1be39abda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6dd2f40cdcba947a560dd51c520c8da2dbc768d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208383"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532974"
 ---
+# <a name="start-edge-servers-in-lync-server-2013"></a><span data-ttu-id="17dc1-102">Lync Server 2013 でのエッジサーバーの起動</span><span class="sxs-lookup"><span data-stu-id="17dc1-102">Start Edge Servers in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-edge-servers-in-lync-server-2013"></a><span data-ttu-id="3c1ac-102">Lync Server 2013 でのエッジサーバーの起動</span><span class="sxs-lookup"><span data-stu-id="3c1ac-102">Start Edge Servers in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42208383"
 
 <span> </span>
 
-<span data-ttu-id="3c1ac-103">_**トピックの最終更新日:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="3c1ac-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="17dc1-103">_**トピックの最終更新日:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="17dc1-103">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="3c1ac-104">エッジ サーバーとロード バランサーを設定した後、各エッジ サーバーでサービスを開始する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3c1ac-104">After completing the set up of the Edge Servers and load balancers, you need to start the services on each Edge Server.</span></span>
+<span data-ttu-id="17dc1-104">エッジ サーバーとロード バランサーを設定した後、各エッジ サーバーでサービスを開始する必要があります。</span><span class="sxs-lookup"><span data-stu-id="17dc1-104">After completing the set up of the Edge Servers and load balancers, you need to start the services on each Edge Server.</span></span>
 
 <div>
 
-## <a name="to-start-the-services"></a><span data-ttu-id="3c1ac-105">サービスを開始するには</span><span class="sxs-lookup"><span data-stu-id="3c1ac-105">To start the services</span></span>
+## <a name="to-start-the-services"></a><span data-ttu-id="17dc1-105">サービスを開始するには</span><span class="sxs-lookup"><span data-stu-id="17dc1-105">To start the services</span></span>
 
-1.  <span data-ttu-id="3c1ac-106">各エッジ サーバーの展開ウィザードで、[**ステップ 4: サービスの開始**] で、[**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3c1ac-106">On each Edge Server, in the Deployment Wizard, next to **Step 4: Start Services**, click **Run**.</span></span>
+1.  <span data-ttu-id="17dc1-106">各エッジ サーバーの展開ウィザードで、[**ステップ 4: サービスの開始**] で、[**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="17dc1-106">On each Edge Server, in the Deployment Wizard, next to **Step 4: Start Services**, click **Run**.</span></span>
 
-2.  <span data-ttu-id="3c1ac-107">[**Lync Server 15 サービスの開始**] ページで、サービスの一覧を確認し、[**次へ**] をクリックしてサービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="3c1ac-107">On the **Start Lync Server 15 Services** page, review the list of services, and then click **Next** to start the services.</span></span>
+2.  <span data-ttu-id="17dc1-107">[**Lync Server 15 サービスの開始**] ページで、サービスの一覧を確認し、[**次へ**] をクリックしてサービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="17dc1-107">On the **Start Lync Server 15 Services** page, review the list of services, and then click **Next** to start the services.</span></span>
 
-3.  <span data-ttu-id="3c1ac-108">サービスが開始されたら、[**完了**] をクリックしてウィザードを閉じます。</span><span class="sxs-lookup"><span data-stu-id="3c1ac-108">After the services are started, click **Finish** to close the wizard.</span></span>
+3.  <span data-ttu-id="17dc1-108">サービスが開始されたら、[**完了**] をクリックしてウィザードを閉じます。</span><span class="sxs-lookup"><span data-stu-id="17dc1-108">After the services are started, click **Finish** to close the wizard.</span></span>
 
-4.  <span data-ttu-id="3c1ac-109">[**ステップ 4: サービスの開始**] の下にある [**サービスの状態 (オプション)**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3c1ac-109">Under **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
+4.  <span data-ttu-id="17dc1-109">[**ステップ 4: サービスの開始**] の下にある [**サービスの状態 (オプション)**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="17dc1-109">Under **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
 
-5.  <span data-ttu-id="3c1ac-110">サーバーの**サービス**Microsoft 管理コンソール (MMC) で、すべての Lync server 2013 サービスが実行されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="3c1ac-110">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
+5.  <span data-ttu-id="17dc1-110">サーバーの **サービス** Microsoft 管理コンソール (MMC) で、すべての Lync server 2013 サービスが実行されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="17dc1-110">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
 
 </div>
 

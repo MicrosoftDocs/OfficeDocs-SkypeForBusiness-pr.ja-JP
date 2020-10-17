@@ -12,20 +12,22 @@ ms:contentKeyID: 48184683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3975d91ab3dc53b7bfd240d6aa6b863360db6e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2248bbd2eea4bb9204a98b5c5805ef196cbf2015
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531800"
 ---
+# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a><span data-ttu-id="93b9f-102">Lync Server 2013 でのモビリティサービスおよび UCWA の使用状況の監視</span><span class="sxs-lookup"><span data-stu-id="93b9f-102">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a><span data-ttu-id="fcc97-102">Lync Server 2013 でのモビリティサービスおよび UCWA の使用状況の監視</span><span class="sxs-lookup"><span data-stu-id="fcc97-102">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,53 +37,53 @@ ms.locfileid: "42184740"
 
 <span> </span>
 
-<span data-ttu-id="fcc97-103">_**トピックの最終更新日:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="fcc97-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+<span data-ttu-id="93b9f-103">_**トピックの最終更新日:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="93b9f-103">_**Topic Last Modified:** 2013-02-14_</span></span>
 
-<span data-ttu-id="fcc97-104">継続的に、Lync Server Mobility Service (Mcx) および統合コミュニケーション Web API (UCWA) で使用されている CPU とメモリを監視する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fcc97-104">On an ongoing basis, you should monitor the CPU and memory that is used by the Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA).</span></span> <span data-ttu-id="fcc97-105">使用状況を監視するには、次のものを使用できます。</span><span class="sxs-lookup"><span data-stu-id="fcc97-105">To monitor usage, you can use the following:</span></span>
+<span data-ttu-id="93b9f-104">継続的に、Lync Server Mobility Service (Mcx) および統合コミュニケーション Web API (UCWA) で使用されている CPU とメモリを監視する必要があります。</span><span class="sxs-lookup"><span data-stu-id="93b9f-104">On an ongoing basis, you should monitor the CPU and memory that is used by the Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA).</span></span> <span data-ttu-id="93b9f-105">使用状況を監視するには、次のものを使用できます。</span><span class="sxs-lookup"><span data-stu-id="93b9f-105">To monitor usage, you can use the following:</span></span>
 
-<span data-ttu-id="fcc97-106">**ユニファイドコミュニケーション Web API (UCWA) の場合:**</span><span class="sxs-lookup"><span data-stu-id="fcc97-106">**For Unified Communications Web API (UCWA):**</span></span>
+<span data-ttu-id="93b9f-106">**ユニファイドコミュニケーション Web API (UCWA) の場合:**</span><span class="sxs-lookup"><span data-stu-id="93b9f-106">**For Unified Communications Web API (UCWA):**</span></span>
 
-  - <span data-ttu-id="fcc97-107">インターネットインフォメーションサービス (IIS) マネージャーの**LyncUcwa**ワーカープロセス。</span><span class="sxs-lookup"><span data-stu-id="fcc97-107">The **LyncUcwa** worker process in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="fcc97-108">[**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。</span><span class="sxs-lookup"><span data-stu-id="fcc97-108">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
+  - <span data-ttu-id="93b9f-107">インターネットインフォメーションサービス (IIS) マネージャーの **LyncUcwa** ワーカープロセス。</span><span class="sxs-lookup"><span data-stu-id="93b9f-107">The **LyncUcwa** worker process in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="93b9f-108">[**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。</span><span class="sxs-lookup"><span data-stu-id="93b9f-108">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
 
-  - <span data-ttu-id="fcc97-109">[**CPU**] および [**プロセッサ**] パフォーマンス カウンター</span><span class="sxs-lookup"><span data-stu-id="fcc97-109">The **CPU** and **Processor** performance counters.</span></span>
+  - <span data-ttu-id="93b9f-109">[**CPU**] および [**プロセッサ**] パフォーマンス カウンター</span><span class="sxs-lookup"><span data-stu-id="93b9f-109">The **CPU** and **Processor** performance counters.</span></span>
 
-<span data-ttu-id="fcc97-110">ほとんどの展開では、UCWA の CPU 使用率は平均で15% を下回っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="fcc97-110">For most deployments, UCWA CPU usage should be below 15 percent on average.</span></span> <span data-ttu-id="fcc97-111">メモリ使用量は、「 [Lync server 2013 のサーバーのメモリ容量制限の監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)」で説明されている制限の範囲内に収まる必要があります。</span><span class="sxs-lookup"><span data-stu-id="fcc97-111">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
+<span data-ttu-id="93b9f-110">ほとんどの展開では、UCWA の CPU 使用率は平均で15% を下回っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="93b9f-110">For most deployments, UCWA CPU usage should be below 15 percent on average.</span></span> <span data-ttu-id="93b9f-111">メモリ使用量は、「 [Lync server 2013 のサーバーのメモリ容量制限の監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)」で説明されている制限の範囲内に収まる必要があります。</span><span class="sxs-lookup"><span data-stu-id="93b9f-111">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
 
-<span data-ttu-id="fcc97-112">CPU およびメモリの使用状況カウンターに加えて、次のパフォーマンスカウンターを使用して、サーバーが要求で過負荷になっていないかどうかを判断するのに役立てることができます。</span><span class="sxs-lookup"><span data-stu-id="fcc97-112">In addition to CPU and memory usage counters, you can use the following performance counters to help determine when a server is overloaded with requests:</span></span>
+<span data-ttu-id="93b9f-112">CPU およびメモリの使用状況カウンターに加えて、次のパフォーマンスカウンターを使用して、サーバーが要求で過負荷になっていないかどうかを判断するのに役立てることができます。</span><span class="sxs-lookup"><span data-stu-id="93b9f-112">In addition to CPU and memory usage counters, you can use the following performance counters to help determine when a server is overloaded with requests:</span></span>
 
-  - <span data-ttu-id="fcc97-113">**LS: web-調整と認証\\web-処理中の要求の総数**。これは、サーバー上で保留中の WEB 要求の数を示します。</span><span class="sxs-lookup"><span data-stu-id="fcc97-113">**LS:WEB – Throttling and Authentication\\WEB – Total Requests in Processing**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="fcc97-114">このカウンターが1万に達すると、次の要求は失敗し、エラーメッセージ "503-サービスを使用できません。" が表示されます。</span><span class="sxs-lookup"><span data-stu-id="fcc97-114">When this counter reaches 10,000, subsequent requests will fail, with the error message, "503 - Service Unavailable."</span></span>
+  - <span data-ttu-id="93b9f-113">**LS: WEB-調整と認証 \\WEB:** サーバー上で保留中の web 要求の数を示す、処理中の要求の合計です。</span><span class="sxs-lookup"><span data-stu-id="93b9f-113">**LS:WEB – Throttling and Authentication\\WEB – Total Requests in Processing**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="93b9f-114">このカウンターが1万に達すると、次の要求は失敗し、エラーメッセージ "503-サービスを使用できません。" が表示されます。</span><span class="sxs-lookup"><span data-stu-id="93b9f-114">When this counter reaches 10,000, subsequent requests will fail, with the error message, "503 - Service Unavailable."</span></span>
 
-  - <span data-ttu-id="fcc97-115">**ASP.NET\\Requests はキューに入れら**れます (常に0である必要があります)。</span><span class="sxs-lookup"><span data-stu-id="fcc97-115">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="fcc97-116">これらの値と一致するか、それを超える場合は、Web サービスをホストしているコンピューターの CPU、コアの数、およびメモリの正確なサイジングに関する容量計画を再検討して再計算する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fcc97-116">If you meet or exceed these values, you should revisit and re-compute your capacity planning for the correct sizing of CPU, number of cores and memory for the computers hosting the Web services.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="fcc97-117">**Mobility Service (Mcx) の場合:**</span><span class="sxs-lookup"><span data-stu-id="fcc97-117">**For the Mobility Service (Mcx):**</span></span>
-
-  - <span data-ttu-id="fcc97-118">インターネットインフォメーションサービス (IIS) マネージャーの**Csintmcxapppool**および**csextmcxapppool**ワーカープロセス。</span><span class="sxs-lookup"><span data-stu-id="fcc97-118">The **CSIntMcxAppPool** and **CSExtMcxAppPool** worker processes in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="fcc97-119">[**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。</span><span class="sxs-lookup"><span data-stu-id="fcc97-119">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
-
-  - <span data-ttu-id="fcc97-120">[**CPU**] および [**プロセッサ**] パフォーマンス カウンター</span><span class="sxs-lookup"><span data-stu-id="fcc97-120">The **CPU** and **Processor** performance counters.</span></span>
-
-<span data-ttu-id="fcc97-121">ほとんどの展開では、モビリティサービスの CPU 使用率は平均で15% を下回っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="fcc97-121">For most deployments, Mobility Service CPU usage should be below 15 percent, on average.</span></span> <span data-ttu-id="fcc97-122">メモリ使用量は、「 [Lync server 2013 のサーバーのメモリ容量制限の監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)」で説明されている制限の範囲内に収まる必要があります。</span><span class="sxs-lookup"><span data-stu-id="fcc97-122">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
-
-<span data-ttu-id="fcc97-123">CPU とメモリの使用状況カウンターに加えて、以下の ASP.NET パフォーマンス カウンターを使用すると、サーバーが要求で過負荷になっていないかどうかを確認するのに役立つ場合があります。</span><span class="sxs-lookup"><span data-stu-id="fcc97-123">In addition to CPU and memory usage counters, you can use the following ASP.NET performance counters to help determine when a server is overloaded with requests:</span></span>
-
-  - <span data-ttu-id="fcc97-124">**ASP.NET v v2.0.50727\\は Current を要求**します。これは、サーバー上で保留中の web 要求の数を示します。</span><span class="sxs-lookup"><span data-stu-id="fcc97-124">**ASP.NET v2.0.50727\\Requests Current**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="fcc97-125">このカウンターが5000に達すると、以降の要求は失敗し、"503-サービスは使用できません" というエラーメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="fcc97-125">When this counter reaches 5,000, subsequent requests will fail with the error message, "503 - Service Unavailable."</span></span>
-
-  - <span data-ttu-id="fcc97-126">**ASP.NET\\Requests はキューに入れら**れます (常に0である必要があります)。</span><span class="sxs-lookup"><span data-stu-id="fcc97-126">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
+  - <span data-ttu-id="93b9f-115">**ASP.NET \\Requests** (常に0である必要があります)。</span><span class="sxs-lookup"><span data-stu-id="93b9f-115">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="fcc97-127">これらの値と一致するか、それを超えた場合は、Web サービスをホストしているコンピューターの CPU、コア数、およびメモリの正確なサイジングを行うために、容量計画を再検討して再計算する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fcc97-127">If you meet or exceed these values, you should revisit and recompute your capacity planning for the correct sizing of CPU, number of cores, and memory for the computers hosting the Web services.</span></span>
+> <span data-ttu-id="93b9f-116">これらの値と一致するか、それを超える場合は、Web サービスをホストしているコンピューターの CPU、コアの数、およびメモリの正確なサイジングに関する容量計画を再検討して再計算する必要があります。</span><span class="sxs-lookup"><span data-stu-id="93b9f-116">If you meet or exceed these values, you should revisit and re-compute your capacity planning for the correct sizing of CPU, number of cores and memory for the computers hosting the Web services.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="93b9f-117">**Mobility Service (Mcx) の場合:**</span><span class="sxs-lookup"><span data-stu-id="93b9f-117">**For the Mobility Service (Mcx):**</span></span>
+
+  - <span data-ttu-id="93b9f-118">インターネットインフォメーションサービス (IIS) マネージャーの **Csintmcxapppool** および **csextmcxapppool** ワーカープロセス。</span><span class="sxs-lookup"><span data-stu-id="93b9f-118">The **CSIntMcxAppPool** and **CSExtMcxAppPool** worker processes in Internet Information Services (IIS) Manager.</span></span> <span data-ttu-id="93b9f-119">[**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。</span><span class="sxs-lookup"><span data-stu-id="93b9f-119">In the **Worker Processes** pane, look at the **CPU %** and **Private Bytes (KB)** (memory) columns.</span></span>
+
+  - <span data-ttu-id="93b9f-120">[**CPU**] および [**プロセッサ**] パフォーマンス カウンター</span><span class="sxs-lookup"><span data-stu-id="93b9f-120">The **CPU** and **Processor** performance counters.</span></span>
+
+<span data-ttu-id="93b9f-121">ほとんどの展開では、モビリティサービスの CPU 使用率は平均で15% を下回っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="93b9f-121">For most deployments, Mobility Service CPU usage should be below 15 percent, on average.</span></span> <span data-ttu-id="93b9f-122">メモリ使用量は、「 [Lync server 2013 のサーバーのメモリ容量制限の監視](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)」で説明されている制限の範囲内に収まる必要があります。</span><span class="sxs-lookup"><span data-stu-id="93b9f-122">Memory usage should fall within the limits described in [Monitoring for server memory capacity limits in Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md).</span></span>
+
+<span data-ttu-id="93b9f-123">CPU とメモリの使用状況カウンターに加えて、以下の ASP.NET パフォーマンス カウンターを使用すると、サーバーが要求で過負荷になっていないかどうかを確認するのに役立つ場合があります。</span><span class="sxs-lookup"><span data-stu-id="93b9f-123">In addition to CPU and memory usage counters, you can use the following ASP.NET performance counters to help determine when a server is overloaded with requests:</span></span>
+
+  - <span data-ttu-id="93b9f-124">**ASP.NET v v2.0.50727 \\Current を要求**します。これは、サーバー上で保留中の web 要求の数を示します。</span><span class="sxs-lookup"><span data-stu-id="93b9f-124">**ASP.NET v2.0.50727\\Requests Current**, which indicates the number of pending web requests on the server.</span></span> <span data-ttu-id="93b9f-125">このカウンターが5000に達すると、以降の要求は失敗し、"503-サービスは使用できません" というエラーメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="93b9f-125">When this counter reaches 5,000, subsequent requests will fail with the error message, "503 - Service Unavailable."</span></span>
+
+  - <span data-ttu-id="93b9f-126">**ASP.NET \\Requests** (常に0である必要があります)。</span><span class="sxs-lookup"><span data-stu-id="93b9f-126">**ASP.NET\\Requests Queued** (should always be zero).</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="93b9f-127">これらの値と一致するか、それを超えた場合は、Web サービスをホストしているコンピューターの CPU、コア数、およびメモリの正確なサイジングを行うために、容量計画を再検討して再計算する必要があります。</span><span class="sxs-lookup"><span data-stu-id="93b9f-127">If you meet or exceed these values, you should revisit and recompute your capacity planning for the correct sizing of CPU, number of cores, and memory for the computers hosting the Web services.</span></span>
 
 
 
@@ -89,10 +91,10 @@ ms.locfileid: "42184740"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fcc97-128">関連項目</span><span class="sxs-lookup"><span data-stu-id="fcc97-128">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="93b9f-128">関連項目</span><span class="sxs-lookup"><span data-stu-id="93b9f-128">See Also</span></span>
 
 
-[<span data-ttu-id="fcc97-129">Lync Server 2013 でのサーバーのメモリ容量制限の監視</span><span class="sxs-lookup"><span data-stu-id="fcc97-129">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  
+[<span data-ttu-id="93b9f-129">Lync Server 2013 でのサーバーのメモリ容量制限の監視</span><span class="sxs-lookup"><span data-stu-id="93b9f-129">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  
   
 
 </div>

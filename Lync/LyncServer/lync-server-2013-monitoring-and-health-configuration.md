@@ -12,20 +12,22 @@ ms:contentKeyID: 48183383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e16a5408cced479b1773c3ec4532518763d82c5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 595d4d6e977e7f98422adc9a88836f14e6293d1f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531964"
 ---
+# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a><span data-ttu-id="aa616-102">Lync Server 2013 の監視および正常性構成</span><span class="sxs-lookup"><span data-stu-id="aa616-102">Monitoring and health configuration in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a><span data-ttu-id="84d80-102">Lync Server 2013 の監視および正常性構成</span><span class="sxs-lookup"><span data-stu-id="84d80-102">Monitoring and health configuration in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,30 +37,30 @@ ms.locfileid: "42184790"
 
 <span> </span>
 
-<span data-ttu-id="84d80-103">_**トピックの最終更新日:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="84d80-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="aa616-103">_**トピックの最終更新日:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="aa616-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="84d80-104">このセクションのトピックでは、Lync Server 2013 コントロールパネルおよび Lync Server 2013 管理シェルで実行できる監視および正常性構成タスクの詳細な手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="84d80-104">Topics in this section provide step-by-step procedures for monitoring and health configuration tasks you can perform in Lync Server 2013 Control Panel and Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="aa616-104">このセクションのトピックでは、Lync Server 2013 コントロールパネルおよび Lync Server 2013 管理シェルで実行できる監視および正常性構成タスクの詳細な手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="aa616-104">Topics in this section provide step-by-step procedures for monitoring and health configuration tasks you can perform in Lync Server 2013 Control Panel and Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="84d80-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="84d80-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="aa616-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="aa616-105">In This Section</span></span>
 
-  - [<span data-ttu-id="84d80-106">Lync Server 2013 での通話詳細記録 (CDR)</span><span class="sxs-lookup"><span data-stu-id="84d80-106">Call detail recording (CDR) in Lync Server 2013</span></span>](lync-server-2013-call-detail-recording-cdr.md)
+  - [<span data-ttu-id="aa616-106">Lync Server 2013 での通話詳細記録 (CDR)</span><span class="sxs-lookup"><span data-stu-id="aa616-106">Call detail recording (CDR) in Lync Server 2013</span></span>](lync-server-2013-call-detail-recording-cdr.md)
 
-  - [<span data-ttu-id="84d80-107">Lync Server 2013 の QoE (Quality of Experience)</span><span class="sxs-lookup"><span data-stu-id="84d80-107">Quality of Experience (QoE) in Lync Server 2013</span></span>](lync-server-2013-quality-of-experience-qoe.md)
+  - [<span data-ttu-id="aa616-107">Lync Server 2013 の QoE (Quality of Experience)</span><span class="sxs-lookup"><span data-stu-id="aa616-107">Quality of Experience (QoE) in Lync Server 2013</span></span>](lync-server-2013-quality-of-experience-qoe.md)
 
-  - [<span data-ttu-id="84d80-108">Lync Server 2013 でのパフォーマンスのためのモビリティの監視</span><span class="sxs-lookup"><span data-stu-id="84d80-108">Monitoring mobility for performance in Lync Server 2013</span></span>](lync-server-2013-monitoring-mobility-for-performance.md)
+  - [<span data-ttu-id="aa616-108">Lync Server 2013 でのパフォーマンスのためのモビリティの監視</span><span class="sxs-lookup"><span data-stu-id="aa616-108">Monitoring mobility for performance in Lync Server 2013</span></span>](lync-server-2013-monitoring-mobility-for-performance.md)
 
-  - [<span data-ttu-id="84d80-109">Lync Server 2013 での監視レポートの使用</span><span class="sxs-lookup"><span data-stu-id="84d80-109">Using Monitoring Reports in Lync Server 2013</span></span>](lync-server-2013-using-monitoring-reports.md)
+  - [<span data-ttu-id="aa616-109">Lync Server 2013 での監視レポートの使用</span><span class="sxs-lookup"><span data-stu-id="aa616-109">Using Monitoring Reports in Lync Server 2013</span></span>](lync-server-2013-using-monitoring-reports.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="84d80-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="84d80-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aa616-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="aa616-110">See Also</span></span>
 
 
-[<span data-ttu-id="84d80-111">Lync Server 2013 の操作</span><span class="sxs-lookup"><span data-stu-id="84d80-111">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
+[<span data-ttu-id="aa616-111">Lync Server 2013 の操作</span><span class="sxs-lookup"><span data-stu-id="aa616-111">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
   
 
 </div>
