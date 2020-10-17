@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ユーザーごとのクライアントバージョンポリシーの割り当て'
+description: 'Lync Server 2013: ユーザーごとのクライアントバージョンポリシーを割り当てます。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77b84c4550d44a09e786d09d093e64cbc1901d91
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3ec2fcbf9c005806a97dfbdceb22095fe0ff8f33
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134463"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559983"
 ---
 # <a name="assign-a-per-user-client-version-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザーごとのクライアントバージョンポリシーを割り当てる
 
@@ -75,7 +76,7 @@ ms.locfileid: "42134463"
     
 
     > [!NOTE]  
-    > [<STRONG>ポリシーの割り当て</STRONG>] ダイアログボックスを使用して複数のポリシーを構成できるので、ダイアログボックスのすべてのポリシーに対して、既定で [ <STRONG> &lt;&gt;そのまま保持</STRONG>] が選択されています。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
+    > [<STRONG>ポリシーの割り当て</STRONG>] ダイアログボックスを使用して複数のポリシーを構成できるので、ダイアログボックスのすべてのポリシーに対して、既定で [ <STRONG> &lt; その &gt; まま保持</STRONG>] が選択されています。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
 
     
       - Lync Server で、グローバルレベルのポリシーまたは定義されている場合は、サイトレベルのポリシーまたはプールレベルのポリシーのいずれかを自動的に選択できるようにします。
@@ -90,7 +91,7 @@ ms.locfileid: "42134463"
 
 8.  終了したら、[**OK**] をクリックします。
 
-## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザーごとのクライアントバージョンポリシーを割り当てる
+## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して Per-User クライアントバージョンポリシーを割り当てる
 
 Grant-CsClientVersionPolicy コマンドレットを使ってユーザーごとのクライアント バージョン ポリシーを割り当てます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
@@ -103,7 +104,7 @@ Grant-CsClientVersionPolicy コマンドレットを使ってユーザーごと�
 
 ## <a name="to-assign-a-per-user-client-version-policy-to-multiple-users"></a>複数のユーザーにユーザーごとのクライアント バージョン ポリシーを割り当てるには
 
-  - このコマンドでは、RedmondVoicePolicy という音声ポリシーを現在割り当てられているすべてのユーザーに、RedmondClientVersionPolicy というユーザーごとのクライアント バージョン ポリシーを割り当てます。 このコマンドで使用される Filter パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))コマンドレットのドキュメント」を参照してください。
+  - このコマンドでは、RedmondVoicePolicy という音声ポリシーを現在割り当てられているすべてのユーザーに、RedmondClientVersionPolicy というユーザーごとのクライアント バージョン ポリシーを割り当てます。 このコマンドで使用される Filter パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) コマンドレットのドキュメント」を参照してください。
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -113,7 +114,7 @@ Grant-CsClientVersionPolicy コマンドレットを使ってユーザーごと�
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、 [Grant-CsClientVersionPolicy](https://technet.microsoft.com/library/gg412903\(v=ocs.15\))コマンドレットのヘルプトピックを参照してください。
+詳細については、 [Grant-CsClientVersionPolicy](https://technet.microsoft.com/library/gg412903\(v=ocs.15\)) コマンドレットのヘルプトピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 

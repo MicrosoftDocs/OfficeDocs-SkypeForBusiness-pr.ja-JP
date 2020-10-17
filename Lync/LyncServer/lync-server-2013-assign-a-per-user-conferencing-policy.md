@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ユーザー単位の会議ポリシーの割り当て'
+description: 'Lync Server 2013: ユーザー単位の会議ポリシーを割り当てます。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47419dfde4bf41b0edfccb2bce23393f04c49a3d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 819d1431a2a7a921ff8c306c47c8b5f86bf5d5bb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134453"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559923"
 ---
 # <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>Lync Server 2013 でユーザー単位の会議ポリシーを割り当てる
 
@@ -77,10 +78,10 @@ ms.locfileid: "42134453"
     
 
     > [!NOTE]  
-    > [<STRONG>ポリシーの割り当て</STRONG>] で構成できるポリシーが複数あるため、ダイアログボックス内のすべてのポリシーに対して、既定で [ <STRONG> &lt;&gt;そのまま保持</STRONG>] が選択されています。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
+    > [<STRONG>ポリシーの割り当て</STRONG>] で構成できるポリシーが複数あるため、ダイアログボックス内のすべてのポリシーに対して、既定で [ <STRONG> &lt; その &gt; まま保持</STRONG>] が選択されています。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
 
     
-      - [ ** \<自動\> ** ] を選択すると、Lync Server 2013 でグローバルレベルのポリシーまたはサイトレベルのポリシー (定義されている場合) のいずれかを自動的に選択できるようになります。
+      - **\<Automatic\>** Lync Server 2013 でグローバルレベルのポリシーまたはサイトレベルのポリシー (定義されている場合) のいずれかを自動で選択できるようにするには、このチェックボックスをオンにします。
     
       - [**会議ポリシー**] ページであらかじめ定義した、ユーザー単位の会議ポリシーの名前をクリックします。
         
@@ -92,9 +93,9 @@ ms.locfileid: "42134453"
 
 8.  終了したら、[**OK**] をクリックします。
 
-## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したユーザー単位の会議ポリシーの割り当て
+## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して Per-User 電話会議ポリシーを割り当てる
 
-ユーザー単位の会議ポリシーは、Windows PowerShell と Get-csconferencingpolicy コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+ユーザー単位の会議ポリシーは、Windows PowerShell と Grant-CsConferencingPolicy コマンドレットを使用して割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>ユーザー単位の会議ポリシーを1人のユーザーに割り当てるには
 
@@ -104,7 +105,7 @@ ms.locfileid: "42134453"
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-multiple-users"></a>ユーザー単位の会議ポリシーを複数のユーザーに割り当てるには
 
-  - 次のコマンドは、ユーザー単位の会議ポリシー HRConferencingPolicy を "Human Resources/人事" 部門に勤務するすべてのユーザーに割り当てます。 このコマンドで使用されている LdapFilter パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))コマンドレットのドキュメント」を参照してください。
+  - 次のコマンドは、ユーザー単位の会議ポリシー HRConferencingPolicy を "Human Resources/人事" 部門に勤務するすべてのユーザーに割り当てます。 このコマンドで使用されている LdapFilter パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) コマンドレットのドキュメント」を参照してください。
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
@@ -114,7 +115,7 @@ ms.locfileid: "42134453"
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、 [get-csconferencingpolicy](https://technet.microsoft.com/library/gg425937\(v=ocs.15\))コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-csconferencingpolicy](https://technet.microsoft.com/library/gg425937\(v=ocs.15\)) コマンドレットのヘルプトピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 

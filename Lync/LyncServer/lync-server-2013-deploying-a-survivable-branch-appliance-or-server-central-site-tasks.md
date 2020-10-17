@@ -1,5 +1,6 @@
 ---
 title: 存続可能ブランチアプライアンスまたはサーバー-中央サイトのタスクの展開
+description: 存続可能ブランチアプライアンスまたはサーバー-中央サイトのタスクを展開する。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ebb3dd9fbeeaed69951ac11ee780bbe8d371a86
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4460ea215d6fc80ee89f1ca9bc42f08ac5d14617
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531364"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558603"
 ---
 # <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Lync Server 2013 を使用した存続可能ブランチアプライアンスまたはサーバーの展開-中央サイトのタスク
 

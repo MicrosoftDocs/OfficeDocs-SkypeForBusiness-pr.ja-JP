@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 要請していない IM の削減'
+description: 'Lync Server 2013: 一方的な IM を減らします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62625493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e6b3b720e5c05051cd556af7d32e8293e95c315
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 294c53a6b82b4dc345fbb9afcf9983d5bd35893a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512014"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559113"
 ---
 # <a name="reducing-unsolicited-im-for-lync-server-2013"></a>Lync Server 2013 の未承諾 IM の削減
 

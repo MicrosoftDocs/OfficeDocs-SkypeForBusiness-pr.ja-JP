@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS の概要-拡張統合エッジ、NAT を使用したプライベート IP アドレスを使用した DNS 負荷分散'
+description: 'Lync Server 2013: DNS の概要-拡張統合エッジ、NAT を使用したプライベート IP アドレスを使用した DNS 負荷分散。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 269d5a687baba53ed0bd60d4854b79643f23f0e0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2eef3029323c1c2f798fddc721df832a932524c8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532124"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559403"
 ---
 # <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 での NAT を使用したプライベート IP アドレスを使用した拡張統合エッジ、DNS 負荷分散
 

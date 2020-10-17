@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 共有ラインの外観の展開'
+description: 'Lync Server 2013: 共有線の外観を展開します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15d0bffd92c4c2e2448938c467eec73c9bab1a94
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c83c06bbc9b91e11cabc0abee20de28fc7281205
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531414"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558623"
 ---
 # <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Lync Server 2013 での共有線の外観の展開
 

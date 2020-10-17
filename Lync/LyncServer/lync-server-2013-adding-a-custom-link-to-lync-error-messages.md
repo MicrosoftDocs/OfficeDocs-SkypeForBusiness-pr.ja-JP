@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync エラーメッセージへのカスタムリンクの追加'
+description: 'Lync Server 2013: Lync エラーメッセージへのカスタムリンクの追加。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 619bdaaa1a1c3b7723f2df9c74e106321bdb054c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a5d333b6f27e10e5092de23fcdf1d37fd75e75a5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521454"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560033"
 ---
 # <a name="adding-a-custom-link-to-lync-error-messages-in-lync-server-2013"></a>Lync Server 2013 での Lync エラーメッセージへのカスタムリンクの追加
 

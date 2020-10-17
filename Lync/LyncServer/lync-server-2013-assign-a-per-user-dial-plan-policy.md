@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ユーザー単位のダイヤルプランポリシーの割り当て'
+description: 'Lync Server 2013: ユーザー単位のダイヤルプランポリシーを割り当てます。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bd4d46e2cd41c972258a84a1e8fb34549dc8b4e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 654c1f15ccb1efa4d1aa35d957df7a2654fa41d7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134443"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559903"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>Lync Server 2013 でのユーザー単位のダイヤルプランポリシーの割り当て
 
@@ -42,15 +43,15 @@ ms.locfileid: "42134443"
 
 7.  [**Lync Server ユーザーの編集**] ページの [**テレフォニー**] で、[**エンタープライズ VoIP**] をクリックします。
 
-8.  [**ダイヤルプランポリシー**] をクリックし、目的のダイヤルプランを選択します。
+8.  [ **ダイヤルプランポリシー**] をクリックし、目的のダイヤルプランを選択します。
 
 9.  [**確定**] をクリックします。
 
-ダイヤルプランの構成の詳細については、トピック「 [Lync Server 2013 でのダイヤルプランの構成](lync-server-2013-configuring-dial-plans.md)」を参照してください。
+ダイヤルプランの構成の詳細については、トピック「 [Lync Server 2013 でのダイヤルプランの構成](lync-server-2013-configuring-dial-plans.md) 」を参照してください。
 
-## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザーごとのダイヤルプランを割り当てる
+## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して Per-User ダイヤルプランを割り当てる
 
-Windows PowerShell と**get-csdialplan**コマンドレットを使用して、ユーザーごとのダイヤルプランを割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Windows PowerShell と **get-csdialplan** コマンドレットを使用して、ユーザーごとのダイヤルプランを割り当てることができます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 ## <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>ユーザー単位のダイヤルプランを1人のユーザーに割り当てるには
 
@@ -60,7 +61,7 @@ Windows PowerShell と**get-csdialplan**コマンドレットを使用して、�
 
 ## <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>複数のユーザーにユーザー単位のダイヤルプランを割り当てるには
 
-  - このコマンドを実行すると、ユーザーごとのダイヤルプラン RedmondDialPlan が Redmond の市区町村で働くすべてのユーザーに割り当てられます。 このコマンドで使用されている LdapFilter パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))コマンドレットのドキュメント」を参照してください。
+  - このコマンドを実行すると、ユーザーごとのダイヤルプラン RedmondDialPlan が Redmond の市区町村で働くすべてのユーザーに割り当てられます。 このコマンドで使用されている LdapFilter パラメーターの詳細については、「 [Get-help user](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) コマンドレットのドキュメント」を参照してください。
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
 
@@ -70,7 +71,7 @@ Windows PowerShell と**get-csdialplan**コマンドレットを使用して、�
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、 [get-csdialplan](https://technet.microsoft.com/library/gg398547\(v=ocs.15\))コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-csdialplan](https://technet.microsoft.com/library/gg398547\(v=ocs.15\)) コマンドレットのヘルプトピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 音声ポリシーの変更と PSTN 使用法レコードの構成'
+description: 'Lync Server 2013: 音声ポリシーを変更し、PSTN 使用法レコードを構成します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 580a17a52a194840e897942ba416fc0d7f984af4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e26d6c8654ebf758f8b5a185c21468443e0451a9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516124"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559373"
 ---
 # <a name="modify-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a>Lync Server 2013 での音声ポリシーの変更と PSTN 使用法レコードの構成
 

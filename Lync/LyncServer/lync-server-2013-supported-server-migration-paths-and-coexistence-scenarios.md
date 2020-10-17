@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: サポートされているサーバー移行パスと共存のシナリオ'
+description: 'Lync Server 2013: サポートされているサーバー移行パスと共存のシナリオ。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44d0a40ac6cc6570cf79b56dc896277c83909b5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523974"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560233"
 ---
 # <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 でサポートされているサーバー移行パスと共存のシナリオ
 
@@ -82,7 +83,7 @@ Lync Server 2013 は、Lync Server 2010 展開または Office Communications Se
 
 Lync Server 2013 データベースインスタンスでは、Microsoft SQL Server 2008 R2 または Microsoft SQL Server 2012 を実行している独立した別個のコンピューターを使用する必要があります。 Lync Server 2010 または Office Communications Server 2007 R2 フロントエンドプールに使用する Lync Server 2013 フロントエンドプールに対して、同じ SQL Server のインスタンスを使用することはできません。 既に Lync 2010 Server または Office Communications Server 2007 R2 が展開されている展開のために、トポロジビルダーで Lync Server 2013 を定義して構成した場合、トポロジビルダーでは、トポロジで既に使用されている Lync Server 2013 のインスタンスを定義することはできません。
 
-トポロジビルダーでは、次のメッセージが表示されます。この問題については、「 \[ サーバーの sql server の FQDN \] に、sql インスタンスのホストされている役割 ' ユーザーストア ' が既に含まれています。」というメッセージが表示されます。
+トポロジビルダーでは、次のメッセージが表示されます。この問題については、「 \[ サーバーの sql server の FQDN \] に、sql インスタンスのホストされている役割のユーザーストアが既に含まれています。」というメッセージが表示されます。
 
 <div>
 
