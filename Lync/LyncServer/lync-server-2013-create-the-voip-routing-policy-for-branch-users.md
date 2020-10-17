@@ -12,20 +12,22 @@ ms:contentKeyID: 48183435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7cc958e5f643a18c45989d5835fd786c001899db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ff0560c3647374433949fe547a5419c5f788714e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504704"
 ---
+# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a><span data-ttu-id="7001b-102">Lync Server 2013 でのブランチユーザーの VoIP ルーティングポリシーの作成</span><span class="sxs-lookup"><span data-stu-id="7001b-102">Create the VoIP routing policy for branch users in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a><span data-ttu-id="4ca41-102">Lync Server 2013 でのブランチユーザーの VoIP ルーティングポリシーの作成</span><span class="sxs-lookup"><span data-stu-id="4ca41-102">Create the VoIP routing policy for branch users in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,32 +37,32 @@ ms.locfileid: "42179714"
 
 <span> </span>
 
-<span data-ttu-id="4ca41-103">_**トピックの最終更新日:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="4ca41-103">_**Topic Last Modified:** 2012-09-23_</span></span>
+<span data-ttu-id="7001b-103">_**トピックの最終更新日:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="7001b-103">_**Topic Last Modified:** 2012-09-23_</span></span>
 
-<span data-ttu-id="4ca41-104">ブランチ サイトのユーザーを対象に独立したボイス オーバー IP (VoIP) ポリシーを作成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="4ca41-104">We recommend creating a separate voice over IP (VoIP) policy for users at branch sites.</span></span> <span data-ttu-id="4ca41-105">このポリシーには、存続可能 Branch Appliance gateway または存続可能ブランチサーバーの外部ゲートウェイから出口へのルートと、中央サイトのゲートウェイから出力されるバックアップルートを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="4ca41-105">This policy should contain routes to egress from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway and backup routes to egress from a gateway at the central site.</span></span> <span data-ttu-id="4ca41-106">ユーザーが登録されている場所に関係なく、存続可能 Branch Appliance または存続可能 Branch Server または中央サイトのバックアップレジストラークラスターのレジストラーでは、ユーザーの VoIP ポリシーが常に有効になります。</span><span class="sxs-lookup"><span data-stu-id="4ca41-106">Regardless of where the user is registered, either on the Registrar on the Survivable Branch Appliance or Survivable Branch Server or on the backup Registrar cluster at the central site, the user’s VoIP policy is always in effect.</span></span>
+<span data-ttu-id="7001b-104">ブランチ サイトのユーザーを対象に独立したボイス オーバー IP (VoIP) ポリシーを作成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7001b-104">We recommend creating a separate voice over IP (VoIP) policy for users at branch sites.</span></span> <span data-ttu-id="7001b-105">このポリシーには、存続可能 Branch Appliance gateway または存続可能ブランチサーバーの外部ゲートウェイから出口へのルートと、中央サイトのゲートウェイから出力されるバックアップルートを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="7001b-105">This policy should contain routes to egress from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway and backup routes to egress from a gateway at the central site.</span></span> <span data-ttu-id="7001b-106">ユーザーが登録されている場所に関係なく、存続可能 Branch Appliance または存続可能 Branch Server または中央サイトのバックアップレジストラークラスターのレジストラーでは、ユーザーの VoIP ポリシーが常に有効になります。</span><span class="sxs-lookup"><span data-stu-id="7001b-106">Regardless of where the user is registered, either on the Registrar on the Survivable Branch Appliance or Survivable Branch Server or on the backup Registrar cluster at the central site, the user’s VoIP policy is always in effect.</span></span>
 
 <div>
 
-## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a><span data-ttu-id="4ca41-107">ブランチ ユーザーの VoIP ルーティング ポリシーを構成するには</span><span class="sxs-lookup"><span data-stu-id="4ca41-107">To configure the VoIP routing policy for branch users</span></span>
+## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a><span data-ttu-id="7001b-107">ブランチ ユーザーの VoIP ルーティング ポリシーを構成するには</span><span class="sxs-lookup"><span data-stu-id="7001b-107">To configure the VoIP routing policy for branch users</span></span>
 
-1.  <span data-ttu-id="4ca41-108">ユーザーレベルのダイヤルプランを作成して、ブランチユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="4ca41-108">Create a user-level dial plan and assign it to branch users.</span></span> <span data-ttu-id="4ca41-109">(「操作」のドキュメントの「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md)する」を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="4ca41-109">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
+1.  <span data-ttu-id="7001b-108">ユーザーレベルのダイヤルプランを作成して、ブランチユーザーに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7001b-108">Create a user-level dial plan and assign it to branch users.</span></span> <span data-ttu-id="7001b-109">(「操作」のドキュメントの「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md) する」を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="7001b-109">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
 
-2.  <span data-ttu-id="4ca41-110">そのサイトのユーザーのダイヤル傾向に対応する正規化ルールを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="4ca41-110">Assign normalization rules corresponding to the dialing habits of users at that site.</span></span> <span data-ttu-id="4ca41-111">存続可能 Branch Appliance または存続可能 Branch Server ユーザーがセントラルサイトのバックアップレジストラープールにフェールオーバーすると、同じダイヤルプランが有効になります。</span><span class="sxs-lookup"><span data-stu-id="4ca41-111">If the Survivable Branch Appliance or Survivable Branch Server user fails over to the backup Registrar pool at the central site, the same dial plan will be in effect.</span></span> <span data-ttu-id="4ca41-112">(「操作」のドキュメントの「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md)する」を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="4ca41-112">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
+2.  <span data-ttu-id="7001b-110">そのサイトのユーザーのダイヤル傾向に対応する正規化ルールを割り当てます。</span><span class="sxs-lookup"><span data-stu-id="7001b-110">Assign normalization rules corresponding to the dialing habits of users at that site.</span></span> <span data-ttu-id="7001b-111">存続可能 Branch Appliance または存続可能 Branch Server ユーザーがセントラルサイトのバックアップレジストラープールにフェールオーバーすると、同じダイヤルプランが有効になります。</span><span class="sxs-lookup"><span data-stu-id="7001b-111">If the Survivable Branch Appliance or Survivable Branch Server user fails over to the backup Registrar pool at the central site, the same dial plan will be in effect.</span></span> <span data-ttu-id="7001b-112">(「操作」のドキュメントの「 [Lync Server 2013 でダイヤルプランを作成](lync-server-2013-create-a-dial-plan.md) する」を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="7001b-112">(See [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) in the Operations documentation.)</span></span>
 
-3.  <span data-ttu-id="4ca41-113">存続可能 Branch Appliance gateway または存続可能ブランチサーバーの外部ゲートウェイから egresses する音声ルートを構成します。</span><span class="sxs-lookup"><span data-stu-id="4ca41-113">Configure a voice route that egresses from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway.</span></span> <span data-ttu-id="4ca41-114">(「操作」のドキュメントの「 [Create a voice route In Lync Server 2013](lync-server-2013-create-a-voice-route.md) 」を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="4ca41-114">(See [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md) in the Operations documentation.)</span></span>
+3.  <span data-ttu-id="7001b-113">存続可能 Branch Appliance gateway または存続可能ブランチサーバーの外部ゲートウェイから egresses する音声ルートを構成します。</span><span class="sxs-lookup"><span data-stu-id="7001b-113">Configure a voice route that egresses from the Survivable Branch Appliance gateway or the Survivable Branch Server external gateway.</span></span> <span data-ttu-id="7001b-114">(「操作」のドキュメントの「 [Create a voice route In Lync Server 2013](lync-server-2013-create-a-voice-route.md) 」を参照してください)。</span><span class="sxs-lookup"><span data-stu-id="7001b-114">(See [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md) in the Operations documentation.)</span></span>
 
-4.  <span data-ttu-id="4ca41-115">中央サイトにあるバックアップレジストラープール (仲介サーバーと併置されている) を指すように、存続可能 Branch Appliance または存続可能 Branch Server gateway でバックアップ呼び出しルートを設定します。</span><span class="sxs-lookup"><span data-stu-id="4ca41-115">Set a backup call route on the Survivable Branch Appliance or Survivable Branch Server gateway to point to the backup Registrar pool (collocated with Mediation Server) at the central site.</span></span> <span data-ttu-id="4ca41-116">(存続可能 Branch Appliance または存続可能 Branch Server ベンダーのドキュメントを参照してください)。</span><span class="sxs-lookup"><span data-stu-id="4ca41-116">(See your Survivable Branch Appliance or Survivable Branch Server vendor documentation.)</span></span>
+4.  <span data-ttu-id="7001b-115">中央サイトにあるバックアップレジストラープール (仲介サーバーと併置されている) を指すように、存続可能 Branch Appliance または存続可能 Branch Server gateway でバックアップ呼び出しルートを設定します。</span><span class="sxs-lookup"><span data-stu-id="7001b-115">Set a backup call route on the Survivable Branch Appliance or Survivable Branch Server gateway to point to the backup Registrar pool (collocated with Mediation Server) at the central site.</span></span> <span data-ttu-id="7001b-116">(存続可能 Branch Appliance または存続可能 Branch Server ベンダーのドキュメントを参照してください)。</span><span class="sxs-lookup"><span data-stu-id="7001b-116">(See your Survivable Branch Appliance or Survivable Branch Server vendor documentation.)</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="4ca41-117">このバックアップ通話ルートの設定は、存続可能 Branch Appliance または存続可能ブランチサーバーが使用できない場合 (たとえば、メンテナンスのため) にブランチユーザーへの着信呼び出しが動作するようにするために使用します。</span><span class="sxs-lookup"><span data-stu-id="4ca41-117">This backup call route setup helps ensure that inbound calls to the branch user will work when the Survivable Branch Appliance or Survivable Branch Server is not available (for example, if it is down for maintenance).</span></span> <span data-ttu-id="4ca41-118">存続可能ブランチアプライアンスまたは存続可能ブランチサーバー上のレジストラーと仲介サーバーが使用できず、ユーザーがセントラルサイトのバックアップレジストラープールに登録されている場合でも、ユーザーに着信呼び出しをルーティングできます。</span><span class="sxs-lookup"><span data-stu-id="4ca41-118">If the Registrar and Mediation Server on the Survivable Branch Appliance or Survivable Branch Server are not available, and the user is registered with the backup Registrar pool at the central site, inbound calls can still be routed to the user.</span></span>
+    > <span data-ttu-id="7001b-117">このバックアップ通話ルートの設定は、存続可能 Branch Appliance または存続可能ブランチサーバーが使用できない場合 (たとえば、メンテナンスのため) にブランチユーザーへの着信呼び出しが動作するようにするために使用します。</span><span class="sxs-lookup"><span data-stu-id="7001b-117">This backup call route setup helps ensure that inbound calls to the branch user will work when the Survivable Branch Appliance or Survivable Branch Server is not available (for example, if it is down for maintenance).</span></span> <span data-ttu-id="7001b-118">存続可能ブランチアプライアンスまたは存続可能ブランチサーバー上のレジストラーと仲介サーバーが使用できず、ユーザーがセントラルサイトのバックアップレジストラープールに登録されている場合でも、ユーザーに着信呼び出しをルーティングできます。</span><span class="sxs-lookup"><span data-stu-id="7001b-118">If the Registrar and Mediation Server on the Survivable Branch Appliance or Survivable Branch Server are not available, and the user is registered with the backup Registrar pool at the central site, inbound calls can still be routed to the user.</span></span>
 
     
     </div>
 
-<span data-ttu-id="4ca41-119">**次のステップ**: [Lync Server 2013 でのボイスメール再ルーティング設定の構成](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span><span class="sxs-lookup"><span data-stu-id="4ca41-119">**Next step**: [Configure voice mail rerouting settings in Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span></span>
+<span data-ttu-id="7001b-119">**次のステップ**: [Lync Server 2013 でのボイスメール再ルーティング設定の構成](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span><span class="sxs-lookup"><span data-stu-id="7001b-119">**Next step**: [Configure voice mail rerouting settings in Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)</span></span>
 
 </div>
 
