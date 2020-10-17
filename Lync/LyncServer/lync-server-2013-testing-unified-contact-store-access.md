@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 統合連絡先ストアのアクセスのテスト'
+description: 'Lync Server 2013: 統合連絡先ストアへのアクセスをテストします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5552c03ac18ddd373385674da03d872ce89eb585
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 58238685133c51130c414e0d7a8cd761d0233f5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503904"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556083"
 ---
 # <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Lync Server 2013 での統合連絡先ストアアクセスのテスト
 

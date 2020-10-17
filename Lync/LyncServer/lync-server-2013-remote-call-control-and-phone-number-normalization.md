@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: リモート通話コントロールと電話番号の正規化'
+description: 'Lync Server 2013: リモート通話コントロールと電話番号の正規化。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183696
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 211f0f717f7c40895cdbbad75bd98ae0ff90af89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: edcb50678da7111aba066745bce5e356dd1ac7f3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536554"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555813"
 ---
 # <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a>Lync Server 2013 でのリモート通話コントロールと電話番号の正規化
 
@@ -53,7 +54,7 @@ Lync クライアントは、アドレス帳サービス (ABS) ファイルの�
 
   - Lync Server 2010 については、「移行」のドキュメントの「 [Migrate Address Book](migrate-address-book.md) 」を参照してください。
 
-  - Communications Server 2007 R2 の場合は、「移行」のドキュメントの「 [Migrate Address Book](migrate-address-book_1.md) 」を参照してください。
+  - Communications Server 2007 R2 の場合は、「移行」のドキュメントの「 [Migrate Address Book](migrate-address-book.md) 」を参照してください。
 
 </div>
 

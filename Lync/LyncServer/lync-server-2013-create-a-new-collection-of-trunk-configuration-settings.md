@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: トランク構成設定の新しいコレクションの作成'
+description: 'Lync Server 2013: トランク構成設定の新しいコレクションを作成します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7d019bfe7bb1dbb1322281a50f393decc8e5cc3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 16ef4bb6393ec2385eaf7c642734bbc803d4dff6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507464"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554713"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でのトランク構成設定の新しいコレクションの作成
 

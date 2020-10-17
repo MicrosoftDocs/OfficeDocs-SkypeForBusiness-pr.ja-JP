@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: DNS の概要-拡張ディレクタープール、ハードウェアロードバランサー'
+description: 'Lync Server 2013: DNS の概要-拡張ディレクタープール、ハードウェアロードバランサー。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7755acc815da690312d2f60c2348076b2231cc5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7198e6a97feed8ce70cb16753ad1f21d58ef246c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501264"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555883"
 ---
 # <a name="dns-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 の拡張ディレクタープール、ハードウェアロードバランサー
 

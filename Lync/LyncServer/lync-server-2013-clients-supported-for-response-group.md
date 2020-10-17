@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 応答グループに対してサポートされるクライアント'
+description: 'Lync Server 2013: 応答グループに対してサポートされているクライアント。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e7e9d1a5aca2949f6cf3364873712a7272063a2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 898f8e0d7493952a46205d919b5c6b546f14a30d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499184"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554753"
 ---
 # <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Lync Server 2013 の応答グループに対してサポートされているクライアント
 
