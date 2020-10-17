@@ -1,5 +1,6 @@
 ---
 title: 'フェーズ 1: Lync Server 2010 からの移行を計画する'
+description: 'フェーズ 1: Lync Server 2010 からの移行を計画します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fd011e39a04b048e528289daa7dc0babb5e7042
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c63d435966ab7b3cedfdac8d604333a2a6b3647b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533804"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571273"
 ---
-# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a><span data-ttu-id="4087b-102">フェーズ 1: Lync Server 2010 からの移行を計画する</span><span class="sxs-lookup"><span data-stu-id="4087b-102">Phase 1: Plan your migration from Lync Server 2010</span></span>
+# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a><span data-ttu-id="b1c86-103">フェーズ 1: Lync Server 2010 からの移行を計画する</span><span class="sxs-lookup"><span data-stu-id="b1c86-103">Phase 1: Plan your migration from Lync Server 2010</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48533804"
 
 <span> </span>
 
-<span data-ttu-id="4087b-103">_**トピックの最終更新日:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="4087b-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="b1c86-104">_**トピックの最終更新日:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="b1c86-104">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="4087b-104">このセクションでは、Lync Server 2010 から Lync Server 2013 に移行するための計画に関するトピックについて説明します。</span><span class="sxs-lookup"><span data-stu-id="4087b-104">This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013.</span></span>
+<span data-ttu-id="b1c86-105">このセクションでは、Lync Server 2010 から Lync Server 2013 に移行するための計画に関するトピックについて説明します。</span><span class="sxs-lookup"><span data-stu-id="b1c86-105">This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4087b-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="4087b-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b1c86-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="b1c86-106">In This Section</span></span>
 
-  - [<span data-ttu-id="4087b-106">ユーザーの移行</span><span class="sxs-lookup"><span data-stu-id="4087b-106">User migration</span></span>](user-migration.md)
+  - [<span data-ttu-id="b1c86-107">ユーザーの移行</span><span class="sxs-lookup"><span data-stu-id="b1c86-107">User migration</span></span>](user-migration.md)
 
-  - [<span data-ttu-id="4087b-107">アーカイブ サーバーと監視サーバーの移行</span><span class="sxs-lookup"><span data-stu-id="4087b-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers.md)
+  - [<span data-ttu-id="b1c86-108">アーカイブ サーバーと監視サーバーの移行</span><span class="sxs-lookup"><span data-stu-id="b1c86-108">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers.md)
 
-  - [<span data-ttu-id="4087b-108">グループチャットサーバーの移行</span><span class="sxs-lookup"><span data-stu-id="4087b-108">Migrating Group Chat servers</span></span>](migrating-group-chat-servers.md)
+  - [<span data-ttu-id="b1c86-109">グループチャットサーバーの移行</span><span class="sxs-lookup"><span data-stu-id="b1c86-109">Migrating Group Chat servers</span></span>](migrating-group-chat-servers.md)
 
-  - [<span data-ttu-id="4087b-109">移行後のサーバーの管理</span><span class="sxs-lookup"><span data-stu-id="4087b-109">Administering servers after migration</span></span>](administering-servers-after-migration.md)
+  - [<span data-ttu-id="b1c86-110">移行後のサーバーの管理</span><span class="sxs-lookup"><span data-stu-id="b1c86-110">Administering servers after migration</span></span>](administering-servers-after-migration.md)
 
-  - [<span data-ttu-id="4087b-110">複数のサイトとプールの移行</span><span class="sxs-lookup"><span data-stu-id="4087b-110">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools.md)
+  - [<span data-ttu-id="b1c86-111">複数のサイトとプールの移行</span><span class="sxs-lookup"><span data-stu-id="b1c86-111">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools.md)
 
-  - [<span data-ttu-id="4087b-111">XMPP フェデレーションの移行</span><span class="sxs-lookup"><span data-stu-id="4087b-111">Migrating XMPP federation</span></span>](migrating-xmpp-federation.md)
+  - [<span data-ttu-id="b1c86-112">XMPP フェデレーションの移行</span><span class="sxs-lookup"><span data-stu-id="b1c86-112">Migrating XMPP federation</span></span>](migrating-xmpp-federation.md)
 
 </div>
 

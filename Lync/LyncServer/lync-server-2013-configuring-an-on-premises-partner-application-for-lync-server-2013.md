@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 用のオンプレミスパートナーアプリケーションの構成
+description: Lync Server 2013 用のオンプレミスパートナーアプリケーションの構成。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34b6cd21d781f26ca734effd0c574c016aec3266
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f0401634c6cb7afc451652ffbaf55cdc01a7ca89
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517584"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570923"
 ---
-# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a><span data-ttu-id="5525b-102">Microsoft Lync Server 2013 用のオンプレミスパートナーアプリケーションの構成</span><span class="sxs-lookup"><span data-stu-id="5525b-102">Configuring an on-premises partner application for Microsoft Lync Server 2013</span></span>
+# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a><span data-ttu-id="fa207-103">Microsoft Lync Server 2013 用のオンプレミスパートナーアプリケーションの構成</span><span class="sxs-lookup"><span data-stu-id="fa207-103">Configuring an on-premises partner application for Microsoft Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48517584"
 
 <span> </span>
 
-<span data-ttu-id="5525b-103">_**トピックの最終更新日:** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="5525b-103">_**Topic Last Modified:** 2013-02-04_</span></span>
+<span data-ttu-id="fa207-104">_**トピックの最終更新日:** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="fa207-104">_**Topic Last Modified:** 2013-02-04_</span></span>
 
-<span data-ttu-id="5525b-104">OAuthTokenIssuer 証明書を割り当てたら、Microsoft Lync Server 2013 パートナーアプリケーションを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5525b-104">After you have assigned the OAuthTokenIssuer certificate you must then configure your Microsoft Lync Server 2013 partner applications.</span></span> <span data-ttu-id="5525b-105">(説明する手順では、Microsoft Exchange Server 2013 と Microsoft SharePoint の両方をパートナーアプリケーションとして動作するように構成します)。オンプレミスパートナーアプリケーションを構成するには、まず、次の Windows PowerShell スクリプトをコピーして、コードをメモ帳 (またはその他のテキストエディター) に貼り付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="5525b-105">(The procedure about to be discussed configures both Microsoft Exchange Server 2013 and Microsoft SharePoint to act as partner applications.) To configure an on-premises partner application, you must start by copying the following Windows PowerShell script and pasting the code into Notepad (or any other text editor):</span></span>
+<span data-ttu-id="fa207-105">OAuthTokenIssuer 証明書を割り当てたら、Microsoft Lync Server 2013 パートナーアプリケーションを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fa207-105">After you have assigned the OAuthTokenIssuer certificate you must then configure your Microsoft Lync Server 2013 partner applications.</span></span> <span data-ttu-id="fa207-106">(説明する手順では、Microsoft Exchange Server 2013 と Microsoft SharePoint の両方をパートナーアプリケーションとして動作するように構成します)。オンプレミスパートナーアプリケーションを構成するには、まず、次の Windows PowerShell スクリプトをコピーして、コードをメモ帳 (またはその他のテキストエディター) に貼り付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="fa207-106">(The procedure about to be discussed configures both Microsoft Exchange Server 2013 and Microsoft SharePoint to act as partner applications.) To configure an on-premises partner application, you must start by copying the following Windows PowerShell script and pasting the code into Notepad (or any other text editor):</span></span>
 
     if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
        {
@@ -87,31 +88,31 @@ ms.locfileid: "48517584"
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-<span data-ttu-id="5525b-106">コードをコピーした後、を使用してスクリプトを保存します。PS1 ファイル拡張子 (たとえば、C: \\ Scripts \\ServerToServerAuth.ps1)。</span><span class="sxs-lookup"><span data-stu-id="5525b-106">After copying the code, save the script using a .PS1 file extension (for example, C:\\Scripts\\ServerToServerAuth.ps1).</span></span> <span data-ttu-id="5525b-107">このスクリプトを実行する前に、メタデータ Url https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 と、 http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx Exchange 2013 サーバーおよび SharePoint サーバーで使用されるメタデータ url をそれぞれ置き換える必要があります。</span><span class="sxs-lookup"><span data-stu-id="5525b-107">Note that, before you run this script, you must replace the metadata URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 and http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx with the metadata URLs used by your Exchange 2013 and SharePoint servers, respectively.</span></span> <span data-ttu-id="5525b-108">各製品のメタデータ URL を特定する方法については、「Exchange 2013 と SharePoint の製品ドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5525b-108">See the product documentation for Exchange 2013 and SharePoint for information on how you can identify the respective product's metadata URL.</span></span>
+<span data-ttu-id="fa207-107">コードをコピーした後、を使用してスクリプトを保存します。PS1 ファイル拡張子 (たとえば、C: \\ Scripts \\ServerToServerAuth.ps1)。</span><span class="sxs-lookup"><span data-stu-id="fa207-107">After copying the code, save the script using a .PS1 file extension (for example, C:\\Scripts\\ServerToServerAuth.ps1).</span></span> <span data-ttu-id="fa207-108">このスクリプトを実行する前に、メタデータ Url https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 と、 http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx Exchange 2013 サーバーおよび SharePoint サーバーで使用されるメタデータ url をそれぞれ置き換える必要があります。</span><span class="sxs-lookup"><span data-stu-id="fa207-108">Note that, before you run this script, you must replace the metadata URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 and http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx with the metadata URLs used by your Exchange 2013 and SharePoint servers, respectively.</span></span> <span data-ttu-id="fa207-109">各製品のメタデータ URL を特定する方法については、「Exchange 2013 と SharePoint の製品ドキュメント」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fa207-109">See the product documentation for Exchange 2013 and SharePoint for information on how you can identify the respective product's metadata URL.</span></span>
 
-<span data-ttu-id="5525b-109">このスクリプトの最後の行で、Set-CsOAuthConfiguration コマンドレットが次の構文で呼び出されます。</span><span class="sxs-lookup"><span data-stu-id="5525b-109">If you look at the last line of the script you will notice that the Set-CsOAuthConfiguration cmdlet is called using this syntax:</span></span>
+<span data-ttu-id="fa207-110">このスクリプトの最後の行で、Set-CsOAuthConfiguration コマンドレットが次の構文で呼び出されます。</span><span class="sxs-lookup"><span data-stu-id="fa207-110">If you look at the last line of the script you will notice that the Set-CsOAuthConfiguration cmdlet is called using this syntax:</span></span>
 
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-<span data-ttu-id="5525b-p103">Set-CsOAuthConfiguration を呼び出すときに Realm パラメーターが使用されなかったため、領域には組織の完全修飾ドメイン名 (FQDN) が自動的に設定されます (例: litwareinc.com)。領域名が組織名と異なる場合は、次のように領域名を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5525b-p103">Because the Realm parameter was not used when calling Set-CsOAuthConfiguration the realm will automatically be set to the fully qualified domain name (FQDN) of your organization (for example, litwareinc.com). If your realm name is different from your organization name then you should include the realm name, like this:</span></span>
+<span data-ttu-id="fa207-p103">Set-CsOAuthConfiguration を呼び出すときに Realm パラメーターが使用されなかったため、領域には組織の完全修飾ドメイン名 (FQDN) が自動的に設定されます (例: litwareinc.com)。領域名が組織名と異なる場合は、次のように領域名を指定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fa207-p103">Because the Realm parameter was not used when calling Set-CsOAuthConfiguration the realm will automatically be set to the fully qualified domain name (FQDN) of your organization (for example, litwareinc.com). If your realm name is different from your organization name then you should include the realm name, like this:</span></span>
 
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 
-<span data-ttu-id="5525b-112">これらの変更を行った後、スクリプトを実行して、Exchange 2013 と SharePoint の両方をパートナーアプリケーションとして構成できるようにするには、Lync Server 2013 管理シェル内からスクリプトファイルを実行します。</span><span class="sxs-lookup"><span data-stu-id="5525b-112">After making these changes you can then execute the script, and configure both Exchange 2013 and SharePoint as partner applications, by running the script file from within the Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="5525b-113">以下に例を示します。</span><span class="sxs-lookup"><span data-stu-id="5525b-113">For example:</span></span>
+<span data-ttu-id="fa207-113">これらの変更を行った後、スクリプトを実行して、Exchange 2013 と SharePoint の両方をパートナーアプリケーションとして構成できるようにするには、Lync Server 2013 管理シェル内からスクリプトファイルを実行します。</span><span class="sxs-lookup"><span data-stu-id="fa207-113">After making these changes you can then execute the script, and configure both Exchange 2013 and SharePoint as partner applications, by running the script file from within the Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="fa207-114">以下に例を示します。</span><span class="sxs-lookup"><span data-stu-id="fa207-114">For example:</span></span>
 
     C:\Scripts\ServerToServerAuth.ps1
 
-<span data-ttu-id="5525b-114">このスクリプトは、Exchange 2013 と SharePoint Server の両方がインストールされていない場合でも実行できることに注意してください。たとえば、sharepoint Server がインストールされていない場合でも、SharePoint Server をパートナーアプリケーションとして構成しても問題はありません。</span><span class="sxs-lookup"><span data-stu-id="5525b-114">Note that you can run this script even if you do not have both Exchange 2013 and SharePoint Server installed:, no problems will occur if you, say, configure SharePoint Server as a partner application even though you do not have SharePoint Server installed.</span></span>
+<span data-ttu-id="fa207-115">このスクリプトは、Exchange 2013 と SharePoint Server の両方がインストールされていない場合でも実行できることに注意してください。たとえば、sharepoint Server がインストールされていない場合でも、SharePoint Server をパートナーアプリケーションとして構成しても問題はありません。</span><span class="sxs-lookup"><span data-stu-id="fa207-115">Note that you can run this script even if you do not have both Exchange 2013 and SharePoint Server installed:, no problems will occur if you, say, configure SharePoint Server as a partner application even though you do not have SharePoint Server installed.</span></span>
 
-<span data-ttu-id="5525b-115">このスクリプトを実行したときに、次のようなエラー メッセージが表示されることがあります。</span><span class="sxs-lookup"><span data-stu-id="5525b-115">When you run this script you might receive an error message similar to the following:</span></span>
+<span data-ttu-id="fa207-116">このスクリプトを実行したときに、次のようなエラー メッセージが表示されることがあります。</span><span class="sxs-lookup"><span data-stu-id="fa207-116">When you run this script you might receive an error message similar to the following:</span></span>
 
     New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Exception setting "MetadataUrl": "The metadata document could not be downloaded from the URL in the MetadataUrl parameter or downloaded data is not a valid metadata document."
 
-<span data-ttu-id="5525b-p105">このエラー メッセージは、通常は次の 2 つのどちらかを意味します。1) スクリプトに指定されたいずれかの URL が無効である (いずれかのメタデータ URL が実際のメタデータ URL ではない)。または、2) いずれかのメタデータ URL に接続できない。これが発生した場合は、URL が正しいこと、およびアクセス可能であることを確認し、スクリプトを再実行します。</span><span class="sxs-lookup"><span data-stu-id="5525b-p105">This error message typically means one of two things: 1) that one of the URLs specified in the script is not valid (that is, one of your metadata URLs is not an actual metadata URL); or, 2) one of the metadata URLs could not be contacted. If this happens, verify that the URLs are correct and are accessible, and the re-run the script.</span></span>
+<span data-ttu-id="fa207-p105">このエラー メッセージは、通常は次の 2 つのどちらかを意味します。1) スクリプトに指定されたいずれかの URL が無効である (いずれかのメタデータ URL が実際のメタデータ URL ではない)。または、2) いずれかのメタデータ URL に接続できない。これが発生した場合は、URL が正しいこと、およびアクセス可能であることを確認し、スクリプトを再実行します。</span><span class="sxs-lookup"><span data-stu-id="fa207-p105">This error message typically means one of two things: 1) that one of the URLs specified in the script is not valid (that is, one of your metadata URLs is not an actual metadata URL); or, 2) one of the metadata URLs could not be contacted. If this happens, verify that the URLs are correct and are accessible, and the re-run the script.</span></span>
 
-<span data-ttu-id="5525b-118">Lync Server 2013 のパートナーアプリケーションを作成した後、Lync Server を Exchange 2013 のパートナーアプリケーションとして構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5525b-118">After creating the partner application for Lync Server 2013 you must then configure Lync Server to be a partner application for Exchange 2013.</span></span> <span data-ttu-id="5525b-119">スクリプト Configure-EnterprisePartnerApplication.ps1 を実行することによって、Exchange 2013 のパートナーアプリケーションを構成できます。必要なのは、Lync Server のメタデータ URL を指定し、Lync Server が新しいパートナーアプリケーションであることを示すことだけです。</span><span class="sxs-lookup"><span data-stu-id="5525b-119">You can configure partner applications for Exchange 2013 by running the script Configure-EnterprisePartnerApplication.ps1; all you need to do is specify the metadata URL for Lync Server and indicate that Lync Server is the new partner application.</span></span>
+<span data-ttu-id="fa207-119">Lync Server 2013 のパートナーアプリケーションを作成した後、Lync Server を Exchange 2013 のパートナーアプリケーションとして構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="fa207-119">After creating the partner application for Lync Server 2013 you must then configure Lync Server to be a partner application for Exchange 2013.</span></span> <span data-ttu-id="fa207-120">スクリプト Configure-EnterprisePartnerApplication.ps1 を実行することによって、Exchange 2013 のパートナーアプリケーションを構成できます。必要なのは、Lync Server のメタデータ URL を指定し、Lync Server が新しいパートナーアプリケーションであることを示すことだけです。</span><span class="sxs-lookup"><span data-stu-id="fa207-120">You can configure partner applications for Exchange 2013 by running the script Configure-EnterprisePartnerApplication.ps1; all you need to do is specify the metadata URL for Lync Server and indicate that Lync Server is the new partner application.</span></span>
 
-<span data-ttu-id="5525b-120">Exchange のパートナーアプリケーションとして Lync Server を構成するには、Exchange 管理シェルを開き、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="5525b-120">To configure Lync Server as a partner application for Exchange, open the Exchange Management Shell and run a command similar to this</span></span>
+<span data-ttu-id="fa207-121">Exchange のパートナーアプリケーションとして Lync Server を構成するには、Exchange 管理シェルを開き、次のようなコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="fa207-121">To configure Lync Server as a partner application for Exchange, open the Exchange Management Shell and run a command similar to this</span></span>
 
     "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://lync.contoso.com/metadata/json/1" -ApplicationType "Lync"
 

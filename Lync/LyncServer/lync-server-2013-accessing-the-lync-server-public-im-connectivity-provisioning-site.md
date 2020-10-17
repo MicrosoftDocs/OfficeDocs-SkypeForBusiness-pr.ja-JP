@@ -1,5 +1,6 @@
 ---
 title: Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス
+description: Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 57793364
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e57bac3460c8feb5b3417f433aa228825d824a1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e12916b12de1ef3a3f990c6bee54c312ba6c1992
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529754"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571133"
 ---
-# <a name="accessing-the-lync-server-public-im-connectivity-provisioning-site-from-lync-server-2013"></a><span data-ttu-id="dd027-102">Lync server 2013 からの Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス</span><span class="sxs-lookup"><span data-stu-id="dd027-102">Accessing the Lync Server public IM connectivity provisioning site from Lync Server 2013</span></span>
+# <a name="accessing-the-lync-server-public-im-connectivity-provisioning-site-from-lync-server-2013"></a><span data-ttu-id="0d4aa-103">Lync server 2013 からの Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス</span><span class="sxs-lookup"><span data-stu-id="0d4aa-103">Accessing the Lync Server public IM connectivity provisioning site from Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,37 +38,11 @@ ms.locfileid: "48529754"
 
 <span> </span>
 
-<span data-ttu-id="dd027-103">_**トピックの最終更新日:** 2019-03-22_</span><span class="sxs-lookup"><span data-stu-id="dd027-103">_**Topic Last Modified:** 2019-03-22_</span></span>
+<span data-ttu-id="0d4aa-104">_**トピックの最終更新日:** 2019-03-22_</span><span class="sxs-lookup"><span data-stu-id="0d4aa-104">_**Topic Last Modified:** 2019-03-22_</span></span>
 
-<span data-ttu-id="dd027-104">以前の PIC プロビジョニング方法と比較して、Lync-Skype 接続のプロビジョニングプロセスが変更されました。</span><span class="sxs-lookup"><span data-stu-id="dd027-104">The provisioning process for Lync-Skype connectivity has changed, as compared to previous PIC provisioning methods.</span></span> <span data-ttu-id="dd027-105">このプロビジョニングプロセスは、完了するまでに最大で30日間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="dd027-105">This provisioning process can take up to thirty days to complete.</span></span> <span data-ttu-id="dd027-106">このドキュメントの残りの手順を完了する前に、このプロセスを最初に開始することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="dd027-106">We recommend that you start this process first, prior to completing the remaining steps in this document.</span></span> <span data-ttu-id="dd027-107">アカウントの Lync-Skype プロビジョニングプロセスが完了すると、アカウントがアクティブ化され、対象ユーザーのパブリック IM 接続が有効になります。</span><span class="sxs-lookup"><span data-stu-id="dd027-107">After the Lync-Skype provisioning process is completed for your account, the account is activated and your eligible users are enabled for public IM connectivity.</span></span>
+<span data-ttu-id="0d4aa-105">以前の PIC プロビジョニング方法と比較して、Lync-Skype 接続のプロビジョニングプロセスが変更されました。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-105">The provisioning process for Lync-Skype connectivity has changed, as compared to previous PIC provisioning methods.</span></span> <span data-ttu-id="0d4aa-106">このプロビジョニングプロセスは、完了するまでに最大で30日間かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-106">This provisioning process can take up to thirty days to complete.</span></span> <span data-ttu-id="0d4aa-107">このドキュメントの残りの手順を完了する前に、このプロセスを最初に開始することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-107">We recommend that you start this process first, prior to completing the remaining steps in this document.</span></span> <span data-ttu-id="0d4aa-108">アカウントの Lync-Skype プロビジョニングプロセスが完了すると、アカウントがアクティブ化され、対象ユーザーのパブリック IM 接続が有効になります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-108">After the Lync-Skype provisioning process is completed for your account, the account is activated and your eligible users are enabled for public IM connectivity.</span></span>
 
-### <a name="to-provision-lync-skype-connectivity-you-need-the-following-information"></a><span data-ttu-id="dd027-108">Lync-Skype 接続をプロビジョニングするには、次の情報が必要です。</span><span class="sxs-lookup"><span data-stu-id="dd027-108">To provision Lync-Skype connectivity, you need the following information:</span></span>
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><ol>
-<li><p><span data-ttu-id="dd027-109">Microsoft 契約番号</span><span class="sxs-lookup"><span data-stu-id="dd027-109">Microsoft Agreement Number</span></span></p></li>
-<li><p><span data-ttu-id="dd027-110">アクセスエッジサービスの完全修飾ドメイン名 (FQDN)</span><span class="sxs-lookup"><span data-stu-id="dd027-110">Access Edge service fully qualified domain name (FQDN)</span></span></p></li>
-<li><p><span data-ttu-id="dd027-111">セッション開始プロトコル (SIP) ドメイン</span><span class="sxs-lookup"><span data-stu-id="dd027-111">Session Initiation Protocol (SIP) domain(s)</span></span></p></li>
-<li><p><span data-ttu-id="dd027-112">追加のアクセスエッジサービスの Fqdn</span><span class="sxs-lookup"><span data-stu-id="dd027-112">Any additional Access Edge service FQDNs</span></span></p></li>
-<li><p><span data-ttu-id="dd027-113">連絡先情報</span><span class="sxs-lookup"><span data-stu-id="dd027-113">Contact information</span></span></p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="dd027-114">2019年4月から、pic.lync.com web サイトを介して Skype フェデレーションを準備されているお客様の連絡先情報の収集と保存を停止します。</span><span class="sxs-lookup"><span data-stu-id="dd027-114">Beginning in April 2019, we will stop the collection and retention of contact information for customers who are provisioned for Skype Federation via the pic.lync.com website.</span></span> <span data-ttu-id="dd027-115">この変更は、pic.lync.com プロビジョニングシステムが Microsoft プライバシーポリシーに準拠していることを確認するために行われます。</span><span class="sxs-lookup"><span data-stu-id="dd027-115">This change is being made to ensure that the pic.lync.com provisioning system adheres to Microsoft privacy policies.</span></span> 
-
-<span data-ttu-id="dd027-116">この変更が有効になると、保留中のプロビジョニング変更に対する電子メール更新を提供することができなくなります。</span><span class="sxs-lookup"><span data-stu-id="dd027-116">Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes.</span></span> <span data-ttu-id="dd027-117">PIC プロビジョニングの変更は、通常、入力されてから24-48 時間以内に完了します。</span><span class="sxs-lookup"><span data-stu-id="dd027-117">PIC provisioning changes typically complete within 24-48 hours after being entered.</span></span> <span data-ttu-id="dd027-118">準備要求の提出後、Skype フェデレーションの問題が依然として48時間発生している場合は、さらに詳しく調査するために Microsoft テクニカルサポートにご協力ください。</span><span class="sxs-lookup"><span data-stu-id="dd027-118">If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="dd027-119">この変更の一環として、以前に入力したすべての連絡先情報は、2019年4月の終了後にシステムから削除されます。</span><span class="sxs-lookup"><span data-stu-id="dd027-119">As part of this change, all previously entered contact information will be purged from our system by the end of April, 2019.</span></span>
-
-### <a name="to-initiate-the-provisioning-process-for-lync-skype-connectivity"></a><span data-ttu-id="dd027-120">Lync-Skype 接続のプロビジョニングプロセスを開始するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="dd027-120">To initiate the provisioning process for Lync-Skype connectivity:</span></span>
+### <a name="to-provision-lync-skype-connectivity-you-need-the-following-information"></a><span data-ttu-id="0d4aa-109">Lync-Skype 接続をプロビジョニングするには、次の情報が必要です。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-109">To provision Lync-Skype connectivity, you need the following information:</span></span>
 
 <table>
 <colgroup>
@@ -76,54 +51,80 @@ ms.locfileid: "48529754"
 <tbody>
 <tr class="odd">
 <td><ol>
-<li><p><span data-ttu-id="dd027-121"><strong>https://pic.lync.com</strong>Microsoft Windows LIVE ID を使用して、web サイトにサインインします。</span><span class="sxs-lookup"><span data-stu-id="dd027-121">Sign in to the website, <strong>https://pic.lync.com</strong>, using your Microsoft Windows Live ID.</span></span></p></li>
-<li><p><span data-ttu-id="dd027-122">[Microsoft ライセンス契約の種類] を選択します。</span><span class="sxs-lookup"><span data-stu-id="dd027-122">Select the Microsoft licensing agreement type.</span></span></p></li>
-<li><p><span data-ttu-id="dd027-123">このチェックボックスをオンにして、Lync Server の製品使用権を読んで同意していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="dd027-123">Select the check box, verifying that you have read and accept the Product Use Rights for Lync Server.</span></span></p></li>
-<li><p><span data-ttu-id="dd027-124">[ <strong>プロビジョニング要求を開始</strong> する] ページで、適切なリンクをクリックしてプロビジョニング要求を開始します。</span><span class="sxs-lookup"><span data-stu-id="dd027-124">On the <strong>Initiate a Provisioning Request</strong> page, click the appropriate link to initiate a provisioning request:</span></span></p></li>
-<li><p><span data-ttu-id="dd027-125">[ <strong>プロビジョニング情報の指定</strong> ] ページで、 <strong>アクセスエッジサービスの FQDN</strong>を入力します。</span><span class="sxs-lookup"><span data-stu-id="dd027-125">On the <strong>Specify Provisioning Information</strong> page, enter the <strong>Access Edge service FQDN</strong>.</span></span> <span data-ttu-id="dd027-126">たとえば、 <strong>sip.contoso.com</strong>のようになります。</span><span class="sxs-lookup"><span data-stu-id="dd027-126">For example, <strong>sip.contoso.com</strong>.</span></span></p>
+<li><p><span data-ttu-id="0d4aa-110">Microsoft 契約番号</span><span class="sxs-lookup"><span data-stu-id="0d4aa-110">Microsoft Agreement Number</span></span></p></li>
+<li><p><span data-ttu-id="0d4aa-111">アクセスエッジサービスの完全修飾ドメイン名 (FQDN)</span><span class="sxs-lookup"><span data-stu-id="0d4aa-111">Access Edge service fully qualified domain name (FQDN)</span></span></p></li>
+<li><p><span data-ttu-id="0d4aa-112">セッション開始プロトコル (SIP) ドメイン</span><span class="sxs-lookup"><span data-stu-id="0d4aa-112">Session Initiation Protocol (SIP) domain(s)</span></span></p></li>
+<li><p><span data-ttu-id="0d4aa-113">追加のアクセスエッジサービスの Fqdn</span><span class="sxs-lookup"><span data-stu-id="0d4aa-113">Any additional Access Edge service FQDNs</span></span></p></li>
+<li><p><span data-ttu-id="0d4aa-114">連絡先情報</span><span class="sxs-lookup"><span data-stu-id="0d4aa-114">Contact information</span></span></p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+
+<span data-ttu-id="0d4aa-115">2019年4月から、pic.lync.com web サイトを介して Skype フェデレーションを準備されているお客様の連絡先情報の収集と保存を停止します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-115">Beginning in April 2019, we will stop the collection and retention of contact information for customers who are provisioned for Skype Federation via the pic.lync.com website.</span></span> <span data-ttu-id="0d4aa-116">この変更は、pic.lync.com プロビジョニングシステムが Microsoft プライバシーポリシーに準拠していることを確認するために行われます。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-116">This change is being made to ensure that the pic.lync.com provisioning system adheres to Microsoft privacy policies.</span></span> 
+
+<span data-ttu-id="0d4aa-117">この変更が有効になると、保留中のプロビジョニング変更に対する電子メール更新を提供することができなくなります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-117">Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes.</span></span> <span data-ttu-id="0d4aa-118">PIC プロビジョニングの変更は、通常、入力されてから24-48 時間以内に完了します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-118">PIC provisioning changes typically complete within 24-48 hours after being entered.</span></span> <span data-ttu-id="0d4aa-119">準備要求の提出後、Skype フェデレーションの問題が依然として48時間発生している場合は、さらに詳しく調査するために Microsoft テクニカルサポートにご協力ください。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-119">If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="0d4aa-120">この変更の一環として、以前に入力したすべての連絡先情報は、2019年4月の終了後にシステムから削除されます。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-120">As part of this change, all previously entered contact information will be purged from our system by the end of April, 2019.</span></span>
+
+### <a name="to-initiate-the-provisioning-process-for-lync-skype-connectivity"></a><span data-ttu-id="0d4aa-121">Lync-Skype 接続のプロビジョニングプロセスを開始するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-121">To initiate the provisioning process for Lync-Skype connectivity:</span></span>
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><ol>
+<li><p><span data-ttu-id="0d4aa-122"><strong>https://pic.lync.com</strong>Microsoft Windows LIVE ID を使用して、web サイトにサインインします。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-122">Sign in to the website, <strong>https://pic.lync.com</strong>, using your Microsoft Windows Live ID.</span></span></p></li>
+<li><p><span data-ttu-id="0d4aa-123">[Microsoft ライセンス契約の種類] を選択します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-123">Select the Microsoft licensing agreement type.</span></span></p></li>
+<li><p><span data-ttu-id="0d4aa-124">このチェックボックスをオンにして、Lync Server の製品使用権を読んで同意していることを確認します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-124">Select the check box, verifying that you have read and accept the Product Use Rights for Lync Server.</span></span></p></li>
+<li><p><span data-ttu-id="0d4aa-125">[ <strong>プロビジョニング要求を開始</strong> する] ページで、適切なリンクをクリックしてプロビジョニング要求を開始します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-125">On the <strong>Initiate a Provisioning Request</strong> page, click the appropriate link to initiate a provisioning request:</span></span></p></li>
+<li><p><span data-ttu-id="0d4aa-126">[ <strong>プロビジョニング情報の指定</strong> ] ページで、 <strong>アクセスエッジサービスの FQDN</strong>を入力します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-126">On the <strong>Specify Provisioning Information</strong> page, enter the <strong>Access Edge service FQDN</strong>.</span></span> <span data-ttu-id="0d4aa-127">たとえば、 <strong>sip.contoso.com</strong>のようになります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-127">For example, <strong>sip.contoso.com</strong>.</span></span></p>
 
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="dd027-127">2017年7月1日以降、Microsoft は、パブリック IM 接続用に展開されたフェデレーション DNS SRV レコードを使用して引き続き作業を行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd027-127">After July 1st, 2017 Microsoft will additionally require customers have the Federation DNS SRV record deployed for Public IM connectivity to continue to work.</span></span>
+> <span data-ttu-id="0d4aa-128">2017年7月1日以降、Microsoft は、パブリック IM 接続用に展開されたフェデレーション DNS SRV レコードを使用して引き続き作業を行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-128">After July 1st, 2017 Microsoft will additionally require customers have the Federation DNS SRV record deployed for Public IM connectivity to continue to work.</span></span>
 
 </li>
-<li><p><span data-ttu-id="dd027-128">少なくとも1つの SIP ドメイン名を入力し、[ <strong>追加</strong>] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="dd027-128">Enter at least one or more SIP domain names, and then click <strong>Add</strong>.</span></span></p>
+<li><p><span data-ttu-id="0d4aa-129">少なくとも1つの SIP ドメイン名を入力し、[ <strong>追加</strong>] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-129">Enter at least one or more SIP domain names, and then click <strong>Add</strong>.</span></span></p>
 
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="dd027-129">プロビジョニングプロセスを完了するには、少なくとも1つのアクセスエッジサーバーと1つの SIP ドメインが必要です。</span><span class="sxs-lookup"><span data-stu-id="dd027-129">At least one Access Edge server and one SIP domain are required to complete the provisioning process.</span></span> <span data-ttu-id="dd027-130">SIP ドメインとアクセスエッジサーバーが、ネットワーク上でアクティブで、機能していて、到達可能である必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd027-130">The SIP domain and the Access Edge server must be active, functioning, and reachable on the network.</span></span>
+> <span data-ttu-id="0d4aa-130">プロビジョニングプロセスを完了するには、少なくとも1つのアクセスエッジサーバーと1つの SIP ドメインが必要です。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-130">At least one Access Edge server and one SIP domain are required to complete the provisioning process.</span></span> <span data-ttu-id="0d4aa-131">SIP ドメインとアクセスエッジサーバーが、ネットワーク上でアクティブで、機能していて、到達可能である必要があります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-131">The SIP domain and the Access Edge server must be active, functioning, and reachable on the network.</span></span>
 
 </li>
-<li><p><span data-ttu-id="dd027-131"><strong>パブリック IM サービスプロバイダー</strong>の一覧で、[ <strong>Skype]</strong>を選択し、[<strong>次</strong>へ] をクリックして連絡先情報を追加し、プロビジョニング要求を送信します。</span><span class="sxs-lookup"><span data-stu-id="dd027-131">In the list of <strong>Public IM Service providers</strong>, select <strong>Skype,</strong> and click <strong>Next</strong> to add contact information, and submit the provisioning request.</span></span></p></li>
+<li><p><span data-ttu-id="0d4aa-132"><strong>パブリック IM サービスプロバイダー</strong>の一覧で、[ <strong>Skype]</strong>を選択し、[<strong>次</strong>へ] をクリックして連絡先情報を追加し、プロビジョニング要求を送信します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-132">In the list of <strong>Public IM Service providers</strong>, select <strong>Skype,</strong> and click <strong>Next</strong> to add contact information, and submit the provisioning request.</span></span></p></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="dd027-132">プロビジョニング要求を送信した後は、アカウントがアクティブ化され、ユーザーがパブリック IM 接続を有効にするには、最大で30日かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="dd027-132">After the provisioning request has been submitted, it can take up to 30 days for the account to activate and for users to be enabled for public IM connectivity.</span></span>
+<span data-ttu-id="0d4aa-133">プロビジョニング要求を送信した後は、アカウントがアクティブ化され、ユーザーがパブリック IM 接続を有効にするには、最大で30日かかることがあります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-133">After the provisioning request has been submitted, it can take up to 30 days for the account to activate and for users to be enabled for public IM connectivity.</span></span>
 
 <div>
 
-## <a name="enabling-federation-and-public-im-connectivity-pic"></a><span data-ttu-id="dd027-133">フェデレーションとパブリック IM 接続の有効化 (PIC)</span><span class="sxs-lookup"><span data-stu-id="dd027-133">Enabling Federation and Public IM Connectivity (PIC)</span></span>
+## <a name="enabling-federation-and-public-im-connectivity-pic"></a><span data-ttu-id="0d4aa-134">フェデレーションとパブリック IM 接続の有効化 (PIC)</span><span class="sxs-lookup"><span data-stu-id="0d4aa-134">Enabling Federation and Public IM Connectivity (PIC)</span></span>
 
-<span data-ttu-id="dd027-134">プロビジョニング要求を送信した後は、Lync Server 環境および Lync-Skype 接続を構成するために必要な管理タスクに集中できます。</span><span class="sxs-lookup"><span data-stu-id="dd027-134">After you have submitted the provisioning request, you can focus on the Lync Server environment and administrative tasks required to configure Lync-Skype connectivity.</span></span> <span data-ttu-id="dd027-135">このセクションでは、Lync server 管理者が Lync Server を展開し、外部アクセスを構成したと仮定します。</span><span class="sxs-lookup"><span data-stu-id="dd027-135">In this section, we assume that the Lync Server administrator has deployed Lync Server and configured external access.</span></span> <span data-ttu-id="dd027-136">Lync Server の外部アクセスの構成の詳細については、「」の「外部ユーザーアクセスを計画する」 [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) と「外部ユーザーアクセスを展開する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378) 。</span><span class="sxs-lookup"><span data-stu-id="dd027-136">For additional information on configuring external access for Lync Server, see "Planning for External User Access" at [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) and "Deploying External User Access" at [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378).</span></span>
+<span data-ttu-id="0d4aa-135">プロビジョニング要求を送信した後は、Lync Server 環境および Lync-Skype 接続を構成するために必要な管理タスクに集中できます。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-135">After you have submitted the provisioning request, you can focus on the Lync Server environment and administrative tasks required to configure Lync-Skype connectivity.</span></span> <span data-ttu-id="0d4aa-136">このセクションでは、Lync server 管理者が Lync Server を展開し、外部アクセスを構成したと仮定します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-136">In this section, we assume that the Lync Server administrator has deployed Lync Server and configured external access.</span></span> <span data-ttu-id="0d4aa-137">Lync Server の外部アクセスの構成の詳細については、「」の「外部ユーザーアクセスを計画する」 [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) と「外部ユーザーアクセスを展開する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378) 。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-137">For additional information on configuring external access for Lync Server, see "Planning for External User Access" at [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) and "Deploying External User Access" at [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378).</span></span>
 
-<span data-ttu-id="dd027-137">Lync server 環境で Lync-Skype 接続を準備するには、Lync Server 管理者が次の3つのタスクを完了する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd027-137">To prepare the Lync Server environment for Lync-Skype connectivity, the Lync Server administrator must complete the following three tasks:</span></span>
+<span data-ttu-id="0d4aa-138">Lync server 環境で Lync-Skype 接続を準備するには、Lync Server 管理者が次の3つのタスクを完了する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-138">To prepare the Lync Server environment for Lync-Skype connectivity, the Lync Server administrator must complete the following three tasks:</span></span>
 
 <div>
 
-## <a name="1-configure-federation-and-pic"></a><span data-ttu-id="dd027-138">1\.</span><span class="sxs-lookup"><span data-stu-id="dd027-138">1\.</span></span> <span data-ttu-id="dd027-139">フェデレーションと PIC を構成する</span><span class="sxs-lookup"><span data-stu-id="dd027-139">Configure Federation and PIC</span></span>
+## <a name="1-configure-federation-and-pic"></a><span data-ttu-id="0d4aa-139">1\.</span><span class="sxs-lookup"><span data-stu-id="0d4aa-139">1\.</span></span> <span data-ttu-id="0d4aa-140">フェデレーションと PIC を構成する</span><span class="sxs-lookup"><span data-stu-id="0d4aa-140">Configure Federation and PIC</span></span>
 
-<span data-ttu-id="dd027-140">Skype ユーザーが組織内の Lync ユーザーと通信できるようにするには、フェデレーションが必要です。</span><span class="sxs-lookup"><span data-stu-id="dd027-140">Federation is required to enable Skype users to communicate with Lync users in your organization.</span></span> <span data-ttu-id="dd027-141">パブリックインスタントメッセージング接続 (PIC) はフェデレーションのクラスであり、Lync ユーザーが Skype ユーザーと通信できるように構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd027-141">Public Instant Messaging Connectivity (PIC) is a class of federation, and it must be configured to enable your Lync users to communicate with Skype users.</span></span> <span data-ttu-id="dd027-142">フェデレーションと PIC は、次に示す Lync Server コントロールパネルを使用して構成されます。</span><span class="sxs-lookup"><span data-stu-id="dd027-142">Federation and PIC are configured by using the Lync Server Control Panel, shown below.</span></span>
+<span data-ttu-id="0d4aa-141">Skype ユーザーが組織内の Lync ユーザーと通信できるようにするには、フェデレーションが必要です。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-141">Federation is required to enable Skype users to communicate with Lync users in your organization.</span></span> <span data-ttu-id="0d4aa-142">パブリックインスタントメッセージング接続 (PIC) はフェデレーションのクラスであり、Lync ユーザーが Skype ユーザーと通信できるように構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-142">Public Instant Messaging Connectivity (PIC) is a class of federation, and it must be configured to enable your Lync users to communicate with Skype users.</span></span> <span data-ttu-id="0d4aa-143">フェデレーションと PIC は、次に示す Lync Server コントロールパネルを使用して構成されます。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-143">Federation and PIC are configured by using the Lync Server Control Panel, shown below.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="dd027-143">PIC フェデレーションは、Live Communications Server 2005 SP1 または Office Communications Server 2007 ではサポートされなくなりました。</span><span class="sxs-lookup"><span data-stu-id="dd027-143">PIC federation is no longer supported by Live Communication Server 2005 SP1 or by Office Communications Server 2007.</span></span> <span data-ttu-id="dd027-144">PIC フェデレーションでサポートされているプラットフォームには、Lync Server 2013、Lync Server 2010、および Office Communications Server 2007 R2 があります。</span><span class="sxs-lookup"><span data-stu-id="dd027-144">The supported platforms for PIC federation include Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2.</span></span>
+> <span data-ttu-id="0d4aa-144">PIC フェデレーションは、Live Communications Server 2005 SP1 または Office Communications Server 2007 ではサポートされなくなりました。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-144">PIC federation is no longer supported by Live Communication Server 2005 SP1 or by Office Communications Server 2007.</span></span> <span data-ttu-id="0d4aa-145">PIC フェデレーションでサポートされているプラットフォームには、Lync Server 2013、Lync Server 2010、および Office Communications Server 2007 R2 があります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-145">The supported platforms for PIC federation include Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2.</span></span>
 
 
 
@@ -133,31 +134,31 @@ ms.locfileid: "48529754"
 
 <div>
 
-## <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a><span data-ttu-id="dd027-145">2\.</span><span class="sxs-lookup"><span data-stu-id="dd027-145">2\.</span></span> <span data-ttu-id="dd027-146">フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成する</span><span class="sxs-lookup"><span data-stu-id="dd027-146">Configure at least one policy to support federated user access</span></span>
+## <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a><span data-ttu-id="0d4aa-146">2\.</span><span class="sxs-lookup"><span data-stu-id="0d4aa-146">2\.</span></span> <span data-ttu-id="0d4aa-147">フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成する</span><span class="sxs-lookup"><span data-stu-id="0d4aa-147">Configure at least one policy to support federated user access</span></span>
 
-<span data-ttu-id="dd027-147">Lync Server コントロールパネルを使用すると、管理者は1つ以上の外部ユーザーアクセスポリシーを構成して、Skype ユーザーが内部の Lync Server ユーザーと共同作業できるかどうかを制御する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd027-147">Using the Lync Server Control Panel, an administrator must configure one or more external user access policies to control whether Skype users can collaborate with internal Lync Server users.</span></span>
+<span data-ttu-id="0d4aa-148">Lync Server コントロールパネルを使用すると、管理者は1つ以上の外部ユーザーアクセスポリシーを構成して、Skype ユーザーが内部の Lync Server ユーザーと共同作業できるかどうかを制御する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-148">Using the Lync Server Control Panel, an administrator must configure one or more external user access policies to control whether Skype users can collaborate with internal Lync Server users.</span></span>
 
 </div>
 
 <div>
 
-## <a name="3-configure-the-skype-pic-provider-setting-for-lync"></a><span data-ttu-id="dd027-148">3\.</span><span class="sxs-lookup"><span data-stu-id="dd027-148">3\.</span></span> <span data-ttu-id="dd027-149">Lync の Skype PIC プロバイダー設定を構成する</span><span class="sxs-lookup"><span data-stu-id="dd027-149">Configure the Skype PIC provider setting for Lync</span></span>
+## <a name="3-configure-the-skype-pic-provider-setting-for-lync"></a><span data-ttu-id="0d4aa-149">3\.</span><span class="sxs-lookup"><span data-stu-id="0d4aa-149">3\.</span></span> <span data-ttu-id="0d4aa-150">Lync の Skype PIC プロバイダー設定を構成する</span><span class="sxs-lookup"><span data-stu-id="0d4aa-150">Configure the Skype PIC provider setting for Lync</span></span>
 
-<span data-ttu-id="dd027-150">Lync Server 管理シェルを使用して、管理者は Lync クライアントポリシーを構成して、Skype を追加の PIC プロバイダーとして表示する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd027-150">Using the Lync Server Management Shell, an administrator must configure the Lync client policy to display Skype as an additional PIC provider.</span></span>
+<span data-ttu-id="0d4aa-151">Lync Server 管理シェルを使用して、管理者は Lync クライアントポリシーを構成して、Skype を追加の PIC プロバイダーとして表示する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-151">Using the Lync Server Management Shell, an administrator must configure the Lync client policy to display Skype as an additional PIC provider.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="dd027-151">パブリックインスタントメッセージング接続 (PIC) サービスプロバイダーのユーザーは、パブリック IM 接続をサポートするために、少なくとも1つのポリシー (この手順の手順 2) を構成するまで、組織内の IM または会議に参加できません。</span><span class="sxs-lookup"><span data-stu-id="dd027-151">Users of the Public Instant Messaging Connectivity (PIC) service providers can’t participate in IM or conferences in your organization until you also configure at least one policy (step 2, earlier in this procedure) to support public IM connectivity.</span></span><BR><span data-ttu-id="dd027-152">フェデレーションと PIC を構成するには、「」の「フェデレーションとパブリック IM 接続を有効または無効にする」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A> 。</span><span class="sxs-lookup"><span data-stu-id="dd027-152">To configure federation and PIC, see "Enable or Disable Federation and Public IM Connectivity" at <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A>.</span></span><BR><span data-ttu-id="dd027-153">フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成するには、「」の「パブリックユーザーアクセスを制御するようにポリシーを構成する」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A> 。</span><span class="sxs-lookup"><span data-stu-id="dd027-153">To configure at least one policy to support federated user access, see "Configure Policies to Control Public User Access" at <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A>.</span></span>
+> <span data-ttu-id="0d4aa-152">パブリックインスタントメッセージング接続 (PIC) サービスプロバイダーのユーザーは、パブリック IM 接続をサポートするために、少なくとも1つのポリシー (この手順の手順 2) を構成するまで、組織内の IM または会議に参加できません。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-152">Users of the Public Instant Messaging Connectivity (PIC) service providers can’t participate in IM or conferences in your organization until you also configure at least one policy (step 2, earlier in this procedure) to support public IM connectivity.</span></span><BR><span data-ttu-id="0d4aa-153">フェデレーションと PIC を構成するには、「」の「フェデレーションとパブリック IM 接続を有効または無効にする」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A> 。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-153">To configure federation and PIC, see "Enable or Disable Federation and Public IM Connectivity" at <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A>.</span></span><BR><span data-ttu-id="0d4aa-154">フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成するには、「」の「パブリックユーザーアクセスを制御するようにポリシーを構成する」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A> 。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-154">To configure at least one policy to support federated user access, see "Configure Policies to Control Public User Access" at <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A>.</span></span>
 
 
 
 </div>
 
-1.  <span data-ttu-id="dd027-154">Lync Server フロントエンドサーバーから、Lync Server 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="dd027-154">From a Lync Server Front End Server, open the Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="0d4aa-155">Lync Server フロントエンドサーバーから、Lync Server 管理シェルを開きます。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-155">From a Lync Server Front End Server, open the Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="dd027-155">次の2つのコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="dd027-155">Run the following two commands:</span></span>
+2.  <span data-ttu-id="0d4aa-156">次の2つのコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-156">Run the following two commands:</span></span>
     
       - `Remove-CsPublicProvider -Identity <identity-name>`
         
@@ -165,7 +166,7 @@ ms.locfileid: "48529754"
         
 
         > [!NOTE]
-        > <span data-ttu-id="dd027-156">環境に PIC プロバイダがなく、新しい PIC プロバイダを作成している場合は、 <STRONG>enable-cspublicprovider</STRONG> コマンドレットを実行する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="dd027-156">If you do not already have a PIC provider in your environment and are creating a new PIC provider then you do not need to run the <STRONG>Remove-CsPublicProvider</STRONG> cmdlet.</span></span>
+        > <span data-ttu-id="0d4aa-157">環境に PIC プロバイダがなく、新しい PIC プロバイダを作成している場合は、 <STRONG>enable-cspublicprovider</STRONG> コマンドレットを実行する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-157">If you do not already have a PIC provider in your environment and are creating a new PIC provider then you do not need to run the <STRONG>Remove-CsPublicProvider</STRONG> cmdlet.</span></span>
 
         
         </div>
@@ -176,16 +177,16 @@ ms.locfileid: "48529754"
         
 
         > [!NOTE]
-        > <span data-ttu-id="dd027-157">Lync Server 2013 CU5 &amp; lync desktop client In Office 2013 SP1 では、NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、lync ユーザーが skype の連絡先を追加することによって、Microsoft 以外 @msn のドメインを識別して skype 形式にルーティングする必要がある状況を改善しました ()。</span><span class="sxs-lookup"><span data-stu-id="dd027-157">Added in Lync Server 2013 CU5 &amp; Lync desktop client in Office 2013 SP1, the NameDecorationRoutingDomain and NameDecorationExcludedDomainList improve the situation where Lync users adding Skype contacts needed to “decorate” non-Microsoft domains to identify and route them to Skype (the format of: user(contoso.com)@msn.com).</span></span> <span data-ttu-id="dd027-158">これらの新しい設定によって、NameDecorationRoutingDomain (現在は msn.com、live.com、Hotmail.com、outlook.com) のドメインが含まれていない場合は、[Skype 連絡先の追加] ダイアログボックスの [Skype 連絡先の追加] ダイアログボックスで、ユーザーの入力を自動書式設定することができます (msn.com に設定する必要があります)。</span><span class="sxs-lookup"><span data-stu-id="dd027-158">These new settings will allow automatic formatting of the address user’s enter in the “Add Skype contact” dialog box with the NameDecorationRoutingDomain (which should be set to msn.com) if it does not contain the domains in the NameDecorationExcludedDomainList (we currently can support msn.com, live.com, Hotmail.com, outlook.com).</span></span>
+        > <span data-ttu-id="0d4aa-158">Lync Server 2013 CU5 &amp; lync desktop client In Office 2013 SP1 では、NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、lync ユーザーが skype の連絡先を追加することによって、Microsoft 以外 @msn のドメインを識別して skype 形式にルーティングする必要がある状況を改善しました ()。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-158">Added in Lync Server 2013 CU5 &amp; Lync desktop client in Office 2013 SP1, the NameDecorationRoutingDomain and NameDecorationExcludedDomainList improve the situation where Lync users adding Skype contacts needed to “decorate” non-Microsoft domains to identify and route them to Skype (the format of: user(contoso.com)@msn.com).</span></span> <span data-ttu-id="0d4aa-159">これらの新しい設定によって、NameDecorationRoutingDomain (現在は msn.com、live.com、Hotmail.com、outlook.com) のドメインが含まれていない場合は、[Skype 連絡先の追加] ダイアログボックスの [Skype 連絡先の追加] ダイアログボックスで、ユーザーの入力を自動書式設定することができます (msn.com に設定する必要があります)。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-159">These new settings will allow automatic formatting of the address user’s enter in the “Add Skype contact” dialog box with the NameDecorationRoutingDomain (which should be set to msn.com) if it does not contain the domains in the NameDecorationExcludedDomainList (we currently can support msn.com, live.com, Hotmail.com, outlook.com).</span></span>
 
         
         </div>
 
-3.  <span data-ttu-id="dd027-159">Lync クライアントから、PIC プロバイダーとして Skype を選択し、Microsoft アカウントを指定して Skype クライアントを追加できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="dd027-159">From a Lync client, you can now select Skype as the PIC provider, and add a Skype client by specifying their Microsoft account.</span></span> <span data-ttu-id="dd027-160">また、Microsoft アカウントを使用して合併およびログインした Skype ユーザーは、Lync ユーザーに対して連絡先要求を送信できます。</span><span class="sxs-lookup"><span data-stu-id="dd027-160">In addition, a Skype user who has merged and logged in with their Microsoft account can send contact request to Lync users.</span></span> <span data-ttu-id="dd027-161">Microsoft アカウントの詳細については、「 [microsoft アカウントとは](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dd027-161">For more information about Microsoft accounts, see [What is a Microsoft account?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account).</span></span> <span data-ttu-id="dd027-162">Lync にクライアントを追加する方法の詳細については、「 [Lync Server 2013 でのエンドユーザーとしての Lync-Skype 接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="dd027-162">For additional information on adding clients to Lync, see [Using Lync-Skype connectivity in Lync Server 2013 as an end user](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).</span></span>
+3.  <span data-ttu-id="0d4aa-160">Lync クライアントから、PIC プロバイダーとして Skype を選択し、Microsoft アカウントを指定して Skype クライアントを追加できるようになりました。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-160">From a Lync client, you can now select Skype as the PIC provider, and add a Skype client by specifying their Microsoft account.</span></span> <span data-ttu-id="0d4aa-161">また、Microsoft アカウントを使用して合併およびログインした Skype ユーザーは、Lync ユーザーに対して連絡先要求を送信できます。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-161">In addition, a Skype user who has merged and logged in with their Microsoft account can send contact request to Lync users.</span></span> <span data-ttu-id="0d4aa-162">Microsoft アカウントの詳細については、「 [microsoft アカウントとは](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-162">For more information about Microsoft accounts, see [What is a Microsoft account?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account).</span></span> <span data-ttu-id="0d4aa-163">Lync にクライアントを追加する方法の詳細については、「 [Lync Server 2013 でのエンドユーザーとしての Lync-Skype 接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-163">For additional information on adding clients to Lync, see [Using Lync-Skype connectivity in Lync Server 2013 as an end user](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).</span></span>
 
-4.  <span data-ttu-id="dd027-163">ホストされるプロバイダーの変更の詳細については、「」の「ホストされた SIP フェデレーションプロバイダーを作成または編集する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065) 。</span><span class="sxs-lookup"><span data-stu-id="dd027-163">For detailed information on modifying hosted providers, see "Create or Edit Hosted SIP Federated Providers" at [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065).</span></span>
+4.  <span data-ttu-id="0d4aa-164">ホストされるプロバイダーの変更の詳細については、「」の「ホストされた SIP フェデレーションプロバイダーを作成または編集する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065) 。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-164">For detailed information on modifying hosted providers, see "Create or Edit Hosted SIP Federated Providers" at [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065).</span></span>
 
-<span data-ttu-id="dd027-164">これで、サーバー上で実行する必要のある管理タスクが完了します。</span><span class="sxs-lookup"><span data-stu-id="dd027-164">This completes the administrative tasks that must be performed on the server.</span></span> <span data-ttu-id="dd027-165">これで Lync-Skype 接続がセットアップされます。</span><span class="sxs-lookup"><span data-stu-id="dd027-165">You are now set up for Lync-Skype connectivity.</span></span>
+<span data-ttu-id="0d4aa-165">これで、サーバー上で実行する必要のある管理タスクが完了します。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-165">This completes the administrative tasks that must be performed on the server.</span></span> <span data-ttu-id="0d4aa-166">これで Lync-Skype 接続がセットアップされます。</span><span class="sxs-lookup"><span data-stu-id="0d4aa-166">You are now set up for Lync-Skype connectivity.</span></span>
 
 </div>
 
@@ -193,11 +194,11 @@ ms.locfileid: "48529754"
 
 <div>
 
-## <a name="additional-resources"></a><span data-ttu-id="dd027-166">その他のリソース</span><span class="sxs-lookup"><span data-stu-id="dd027-166">Additional Resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0d4aa-167">その他のリソース</span><span class="sxs-lookup"><span data-stu-id="0d4aa-167">Additional Resources</span></span>
 
-[<span data-ttu-id="dd027-167">エンドユーザーとしての Lync Server 2013 での Lync-Skype 接続の使用</span><span class="sxs-lookup"><span data-stu-id="dd027-167">Using Lync-Skype connectivity in Lync Server 2013 as an end user</span></span>](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
+[<span data-ttu-id="0d4aa-168">エンドユーザーとしての Lync Server 2013 での Lync-Skype 接続の使用</span><span class="sxs-lookup"><span data-stu-id="0d4aa-168">Using Lync-Skype connectivity in Lync Server 2013 as an end user</span></span>](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
 
-[<span data-ttu-id="dd027-168">Lync Server 2013 での Lync-Skype 接続のプロビジョニングガイド</span><span class="sxs-lookup"><span data-stu-id="dd027-168">Provisioning guide for Lync-Skype connectivity in Lync Server 2013</span></span>](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+[<span data-ttu-id="0d4aa-169">Lync Server 2013 での Lync-Skype 接続のプロビジョニングガイド</span><span class="sxs-lookup"><span data-stu-id="0d4aa-169">Provisioning guide for Lync-Skype connectivity in Lync Server 2013</span></span>](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
 
 </div>
 

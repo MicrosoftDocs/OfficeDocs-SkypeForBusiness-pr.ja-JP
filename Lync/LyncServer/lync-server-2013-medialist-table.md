@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: MediaList テーブル'
+description: 'Lync Server 2013: MediaList テーブル。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a22ef9b9e0ef429fcac96a7f7d5c87093f79a02
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4e54535cd4a081657e7dcd59446cf65aaa3af7cd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505724"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572073"
 ---
-# <a name="medialist-table-in-lync-server-2013"></a><span data-ttu-id="e2d21-102">Lync Server 2013 の MediaList テーブル</span><span class="sxs-lookup"><span data-stu-id="e2d21-102">MediaList table in Lync Server 2013</span></span>
+# <a name="medialist-table-in-lync-server-2013"></a><span data-ttu-id="c8090-103">Lync Server 2013 の MediaList テーブル</span><span class="sxs-lookup"><span data-stu-id="c8090-103">MediaList table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48505724"
 
 <span> </span>
 
-<span data-ttu-id="e2d21-103">_**トピックの最終更新日:** 2016-07-12_</span><span class="sxs-lookup"><span data-stu-id="e2d21-103">_**Topic Last Modified:** 2016-07-12_</span></span>
+<span data-ttu-id="c8090-104">_**トピックの最終更新日:** 2016-07-12_</span><span class="sxs-lookup"><span data-stu-id="c8090-104">_**Topic Last Modified:** 2016-07-12_</span></span>
 
-<span data-ttu-id="e2d21-104">MediaList テーブルは、さまざまなメディアの種類の一覧を格納する静的なテーブルです。</span><span class="sxs-lookup"><span data-stu-id="e2d21-104">The MediaList table is a static table that stores the list of various media types.</span></span>
+<span data-ttu-id="c8090-105">MediaList テーブルは、さまざまなメディアの種類の一覧を格納する静的なテーブルです。</span><span class="sxs-lookup"><span data-stu-id="c8090-105">The MediaList table is a static table that stores the list of various media types.</span></span>
 
 
 <table>
@@ -51,39 +52,39 @@ ms.locfileid: "48505724"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e2d21-105">Column</span><span class="sxs-lookup"><span data-stu-id="e2d21-105">Column</span></span></th>
-<th><span data-ttu-id="e2d21-106">データ型</span><span class="sxs-lookup"><span data-stu-id="e2d21-106">Data Type</span></span></th>
-<th><span data-ttu-id="e2d21-107">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="e2d21-107">Key/Index</span></span></th>
-<th><span data-ttu-id="e2d21-108">詳細</span><span class="sxs-lookup"><span data-stu-id="e2d21-108">Details</span></span></th>
+<th><span data-ttu-id="c8090-106">Column</span><span class="sxs-lookup"><span data-stu-id="c8090-106">Column</span></span></th>
+<th><span data-ttu-id="c8090-107">データ型</span><span class="sxs-lookup"><span data-stu-id="c8090-107">Data Type</span></span></th>
+<th><span data-ttu-id="c8090-108">キー/インデックス</span><span class="sxs-lookup"><span data-stu-id="c8090-108">Key/Index</span></span></th>
+<th><span data-ttu-id="c8090-109">詳細</span><span class="sxs-lookup"><span data-stu-id="c8090-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e2d21-109"><strong>MediaId</strong></span><span class="sxs-lookup"><span data-stu-id="e2d21-109"><strong>MediaId</strong></span></span></p></td>
-<td><p><span data-ttu-id="e2d21-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="e2d21-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="e2d21-111">Primary</span><span class="sxs-lookup"><span data-stu-id="e2d21-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="e2d21-112">値: 1-7</span><span class="sxs-lookup"><span data-stu-id="e2d21-112">Values: 1-7</span></span></p></td>
+<td><p><span data-ttu-id="c8090-110"><strong>MediaId</strong></span><span class="sxs-lookup"><span data-stu-id="c8090-110"><strong>MediaId</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8090-111">tinyint</span><span class="sxs-lookup"><span data-stu-id="c8090-111">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="c8090-112">Primary</span><span class="sxs-lookup"><span data-stu-id="c8090-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="c8090-113">値: 1-7</span><span class="sxs-lookup"><span data-stu-id="c8090-113">Values: 1-7</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2d21-113"><strong>Media</strong></span><span class="sxs-lookup"><span data-stu-id="e2d21-113"><strong>Media</strong></span></span></p></td>
-<td><p><span data-ttu-id="e2d21-114">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="e2d21-114">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="c8090-114"><strong>Media</strong></span><span class="sxs-lookup"><span data-stu-id="c8090-114"><strong>Media</strong></span></span></p></td>
+<td><p><span data-ttu-id="c8090-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="c8090-115">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="e2d21-115">MediaID とメディアの値の静的マッピング:</span><span class="sxs-lookup"><span data-stu-id="e2d21-115">Static mapping of MediaID and Media values:</span></span></p>
+<td><p><span data-ttu-id="c8090-116">MediaID とメディアの値の静的マッピング:</span><span class="sxs-lookup"><span data-stu-id="c8090-116">Static mapping of MediaID and Media values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="e2d21-116">1– IM</span><span class="sxs-lookup"><span data-stu-id="e2d21-116">1 – IM</span></span></p></li>
-<li><p><span data-ttu-id="e2d21-117">2 -- ファイル転送</span><span class="sxs-lookup"><span data-stu-id="e2d21-117">2 – File Transfer</span></span></p></li>
-<li><p><span data-ttu-id="e2d21-118">3 -- リモート アシスタンス</span><span class="sxs-lookup"><span data-stu-id="e2d21-118">3 – Remote Assistance</span></span></p></li>
-<li><p><span data-ttu-id="e2d21-119">4 -- アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="e2d21-119">4 – Application Sharing</span></span></p></li>
-<li><p><span data-ttu-id="e2d21-120">5–音声</span><span class="sxs-lookup"><span data-stu-id="e2d21-120">5 – Audio</span></span></p></li>
-<li><p><span data-ttu-id="e2d21-121">6–ビデオ</span><span class="sxs-lookup"><span data-stu-id="e2d21-121">6 – Video</span></span></p></li>
-<li><p><span data-ttu-id="e2d21-122">7 -- アプリケーション招待</span><span class="sxs-lookup"><span data-stu-id="e2d21-122">7 – App Invite</span></span></p></li>
+<li><p><span data-ttu-id="c8090-117">1– IM</span><span class="sxs-lookup"><span data-stu-id="c8090-117">1 – IM</span></span></p></li>
+<li><p><span data-ttu-id="c8090-118">2 -- ファイル転送</span><span class="sxs-lookup"><span data-stu-id="c8090-118">2 – File Transfer</span></span></p></li>
+<li><p><span data-ttu-id="c8090-119">3 -- リモート アシスタンス</span><span class="sxs-lookup"><span data-stu-id="c8090-119">3 – Remote Assistance</span></span></p></li>
+<li><p><span data-ttu-id="c8090-120">4 -- アプリケーション共有</span><span class="sxs-lookup"><span data-stu-id="c8090-120">4 – Application Sharing</span></span></p></li>
+<li><p><span data-ttu-id="c8090-121">5–音声</span><span class="sxs-lookup"><span data-stu-id="c8090-121">5 – Audio</span></span></p></li>
+<li><p><span data-ttu-id="c8090-122">6–ビデオ</span><span class="sxs-lookup"><span data-stu-id="c8090-122">6 – Video</span></span></p></li>
+<li><p><span data-ttu-id="c8090-123">7 -- アプリケーション招待</span><span class="sxs-lookup"><span data-stu-id="c8090-123">7 – App Invite</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="e2d21-123">LcsCDR MediaTypes の値のモダリティの種類を決定しようとしている場合は、次の Join スニペットを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e2d21-123">If you are trying to determine the modality type for the values in LcsCDR.SessionDetailsView.MediaTypes, then you need to use the following Join snippet:</span></span>
+<span data-ttu-id="c8090-124">LcsCDR MediaTypes の値のモダリティの種類を決定しようとしている場合は、次の Join スニペットを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c8090-124">If you are trying to determine the modality type for the values in LcsCDR.SessionDetailsView.MediaTypes, then you need to use the following Join snippet:</span></span>
 
     LEFT JOIN on Media.MediaId = MediaList.MediaId
 
