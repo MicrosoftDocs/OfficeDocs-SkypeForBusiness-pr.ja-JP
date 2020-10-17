@@ -12,20 +12,22 @@ ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c9198d0551375803e0b83b2ce62d44b0d3a266c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c4aa5ea27cdf86d9c8e0c0cdf7260b20cca4478
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198150"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498964"
 ---
+# <a name="deregistertype-table-in-lync-server-2013"></a>Lync Server 2013 の DeRegisterType テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deregistertype-table-in-lync-server-2013"></a>Lync Server 2013 の DeRegisterType テーブル
+
 
 </div>
 
@@ -49,7 +51,7 @@ DeRegisterType テーブルは、使用できるユーザー登録解除の種�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>

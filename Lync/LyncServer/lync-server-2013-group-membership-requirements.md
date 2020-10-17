@@ -12,20 +12,22 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8726d471b1db95aa67cca58a77452d9faa43df4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 041bba31a4c8225a4326e3409475210a46261a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200010"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498774"
 ---
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013 のグループメンバーシップ要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-membership-requirements-for-lync-server-2013"></a>Lync Server 2013 のグループメンバーシップ要件
+
 
 </div>
 
@@ -58,7 +60,7 @@ _**トピックの最終更新日:** 2012-10-05_
 <div>
 
 > [!TIP]  
-> セットアップ アクセス許可は、メンバーシップを付与したくない、Domain Admins グループのユーザーやグループに委任することもできます。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 でのセットアップのアクセス許可の付与</A>」を参照してください。
+> セットアップ アクセス許可は、メンバーシップを付与したくない、Domain Admins グループのユーザーやグループに委任することもできます。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 でのセットアップのアクセス許可の付与</A> 」を参照してください。
 
 
 </div></td>
@@ -80,14 +82,14 @@ _**トピックの最終更新日:** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p><strong>TopologyBuilder</strong> – Lync Server 2013 のトポロジを作成、表示、調整、および検証するためのウィザードベースのユーザーインターフェイス。</p></td>
-<td><p>実行可能ファイルを実行してトポロジを表示するコンピューターでの Local Administrators グループのメンバー。 構成の設定を変更する RTCUniversalServerAdmins グループのメンバー。 RTCUniversalServerAdmins グループと Domain Admins グループのメンバー、またはトポロジを発行する RTCUniversalServerAdmins グループのメンバー (このグループに委任セットアップ アクセス許可が付与されている場合のみ)。 RTCUniversalServerAdmins グループのメンバーがドメイン管理者グループのメンバーではない状態でトポロジを公開できるようにするための、セットアップのアクセス許可の委任の詳細については、「展開」のドキュメントの「 <a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 のセットアップのアクセス許可を付与</a>する」を参照してください。</p></td>
+<td><p>実行可能ファイルを実行してトポロジを表示するコンピューターでの Local Administrators グループのメンバー。 構成の設定を変更する RTCUniversalServerAdmins グループのメンバー。 RTCUniversalServerAdmins グループと Domain Admins グループのメンバー、またはトポロジを発行する RTCUniversalServerAdmins グループのメンバー (このグループに委任セットアップ アクセス許可が付与されている場合のみ)。 RTCUniversalServerAdmins グループのメンバーがドメイン管理者グループのメンバーではない状態でトポロジを公開できるようにするための、セットアップのアクセス許可の委任の詳細については、「展開」のドキュメントの「 <a href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 のセットアップのアクセス許可を付与</a> する」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AdminUIHost</strong> – Lync Server 2013 を管理するための Web ベースのグラフィカルユーザーインターフェイス。</p></td>
 <td><p>CsAdministrator グループのメンバー、または特定の管理タスクが割り当てられる別の役割ベースのアクセス制御 (RBAC) の役割のメンバー。 Lync Server 2013 コントロールパネルは、Lync Server 2013 管理シェルコマンドレットを実行することによって、構成の変更を実装します。 定義済みの役割の一覧とコマンドレットのメンバーの実行を許可する方法については、「計画」のドキュメントの「 <a href="lync-server-2013-planning-for-role-based-access-control.md">planning for roles based access control In Lync Server 2013</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p>PowerShell: lync server <strong>2013 モジュールが読み込ま</strong>れたコマンドライン管理ツールを使用して、lync server 2013 の管理に固有のコマンドレットを実行します。</p></td>
+<td><p>Lync Server 2013 の管理に固有のコマンドレットを使用<strong>して、Lync server 2013 モジュールが読み込まれ</strong>たコマンドライン管理ツールでPowerShell.exe ます。</p></td>
 <td><p>CsAdministrator グループのメンバー、または特定のコマンドレットが割り当てられている別の RBAC の役割のメンバー。 定義済みの役割の一覧とコマンドレットのメンバーの実行を許可する方法については、「計画」のドキュメントの「 <a href="lync-server-2013-planning-for-role-based-access-control.md">planning for roles based access control In Lync Server 2013</a> 」を参照してください。</p>
 <p>または、次に示すグループのうち 1 つ以上のメンバー (コマンドレットによる):</p>
 <ul>

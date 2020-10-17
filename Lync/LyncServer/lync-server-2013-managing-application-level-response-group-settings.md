@@ -12,20 +12,22 @@ ms:contentKeyID: 49733776
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53d8b89177a69da0df49ebf42f026493742f3352
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: af64929beba67b29b4588bae12a5a45c9de64460
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185820"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498344"
 ---
+# <a name="managing-application-level-response-group-settings-in-lync-server-2013"></a>Lync Server 2013 でのアプリケーションレベルの応答グループ設定の管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-application-level-response-group-settings-in-lync-server-2013"></a>Lync Server 2013 でのアプリケーションレベルの応答グループ設定の管理
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42185820"
 
 _**トピックの最終更新日:** 2012-11-01_
 
-応答グループアプリケーションのアプリケーションレベルの設定には、既定の保留音の構成、既定の保留音のオーディオファイル、エージェントリングバックの猶予期間、呼び出しコンテキストの構成が含まれます。 プールごとにアプリケーションレベルの設定のセットを 1 つだけ定義できます。 アプリケーションレベルの設定を表示するには、 **Get-CsRgsConfiguration**コマンドレットを使用します。 アプリケーションレベルの設定を変更するには、 **Set-CsRgsConfiguration**コマンドレットを使用します。
+応答グループアプリケーションのアプリケーションレベルの設定には、既定の保留音の構成、既定の保留音のオーディオファイル、エージェントリングバックの猶予期間、呼び出しコンテキストの構成が含まれます。 プールごとにアプリケーションレベルの設定のセットを 1 つだけ定義できます。 アプリケーションレベルの設定を表示するには、 **Get-CsRgsConfiguration** コマンドレットを使用します。 アプリケーションレベルの設定を変更するには、 **Set-CsRgsConfiguration** コマンドレットを使用します。
 
 既定の保留音は、カスタム保留音が定義されていない場合にのみ、通話が保留になったときに再生されます。呼び出しコンテキストは、対話型ワークフローに割り当てられているキューでのみ使用できます。呼び出しコンテキストが有効になっている場合、エージェントは発信者の待ち時間やワークフロー質問および回答などの情報を通話の受信時に見ることができます。
 

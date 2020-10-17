@@ -12,20 +12,22 @@ ms:contentKeyID: 48184436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d088d07e5d49a916835da581af81ff7def581b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d91c455c1e4bfbb2b4fe7af827265a789c9ace68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214305"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498934"
 ---
+# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルイン会議の概要
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルイン会議の概要
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214305"
 
 _**トピックの最終更新日:** 2012-09-30_
 
-不在時に、またはコンピューターにアクセスできない Lync Server 2013 オンプレミスの会議に出席する必要があるユーザーが組織に存在する場合は、ダイヤルイン会議を展開して、公衆交換電話を使用して会議に参加できるようにすることができます。ネットワーク (PSTN) 電話
+不在時に、またはコンピューターにアクセスできない Lync Server 2013 オンプレミスの会議に出席する必要があるユーザーが組織にいる場合は、ダイヤルイン会議を展開して、公衆交換電話網 (PSTN) 電話を使用して会議に参加できるようにすることができます。
 
 ダイヤルイン会議は、Lync Server 2013 会議を展開するときに構成できるオプションの機能です。 ダイヤルイン会議では、エンタープライズ Voip で使用されているものと同じ Lync Server 2013 コンポーネントの一部を使用していますが、エンタープライズ Voip を展開しない場合でも、ダイヤルイン会議を展開できます。
 

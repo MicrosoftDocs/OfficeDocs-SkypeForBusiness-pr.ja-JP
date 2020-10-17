@@ -12,20 +12,22 @@ ms:contentKeyID: 48183930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d40e0c94733ca26768e2f72475ed0d66e37f20c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a241f67f524569a4e8bf0d61e2cb667dd018e0a8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199410"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498894"
 ---
+# <a name="glossary-for-lync-server-2013"></a>Lync Server 2013 の用語集
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="glossary-for-lync-server-2013"></a>Lync Server 2013 の用語集
+
 
 </div>
 
@@ -180,7 +182,7 @@ _**トピックの最終更新日:** 2014-02-14_
 </tr>
 <tr class="even">
 <td><p>長いメッセージ</p></td>
-<td><p>常設チャットルームにある、文字制限を超えるメッセージ。 文字数の制限を超えると、メッセージは長いメッセージ&quot;として表示されます。&quot;</p></td>
+<td><p>常設チャットルームにある、文字制限を超えるメッセージ。 文字数の制限を超えると、メッセージは長いメッセージとして表示され &quot; ます。&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2013 VDI プラグイン</p></td>

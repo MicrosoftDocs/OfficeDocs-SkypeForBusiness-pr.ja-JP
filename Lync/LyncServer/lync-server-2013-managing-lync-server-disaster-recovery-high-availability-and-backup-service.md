@@ -12,20 +12,22 @@ ms:contentKeyID: 49733876
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89c18076a2bbc34386872a7fbee92c26b8084598
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c935a27f737d8ec7fdb012f4e0c13930d20a1319
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185610"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498154"
 ---
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>Lync Server 2013 の障害復旧、高可用性、およびバックアップサービスの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>Lync Server 2013 の障害復旧、高可用性、およびバックアップサービスの管理
+
 
 </div>
 
@@ -58,7 +60,7 @@ _**トピックの最終更新日:** 2012-11-12_
 > <LI>
 > <P>フェールオーバーコマンドレットを使用して、最初に P2 に所属していたすべてのユーザーを P1 にフェールオーバーします。 この場合、PoolFQDN<EM></EM> は P2 の FQDN になります。</P>
 > <LI>
-> <P>後で管理者がこれらの P2 ユーザーを P2 にフェールバックする場合、 <EM>Poolfqdn</EM>は p2 fqdn になります。</P></LI></OL>手順1を実行してから、プールの整合性を保持する必要があることに注意してください。 手順1の前に手順2を実行すると、手順2のコマンドレットは失敗します。
+> <P>後で管理者がこれらの P2 ユーザーを P2 にフェールバックする場合、 <EM>Poolfqdn</EM> は p2 fqdn になります。</P></LI></OL>手順1を実行してから、プールの整合性を保持する必要があることに注意してください。 手順1の前に手順2を実行すると、手順2のコマンドレットは失敗します。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 605a859717736785df2d726720c2984162ff830d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9514099b3981dafdbb34911d0cedd249221c5621
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207993"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499104"
 ---
+# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 で代理トランザクションを実行する監視ノードの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 で代理トランザクションを実行する監視ノードの構成
+
 
 </div>
 
@@ -74,7 +76,7 @@ System Center エージェント ファイルがインストールされたら�
 </table>
 
 
-また、ファイアウォールには、MonitoringHost と PowerShell の両方の受信規則があることを確認する必要があります。 これらのプロセスがファイアウォールによってブロックされている場合、代理トランザクションは 504 (サーバータイムアウト) エラーで失敗します。
+また、ファイアウォールに MonitoringHost.exe と PowerShell.exe の受信規則があることも確認する必要があります。 これらのプロセスがファイアウォールによってブロックされている場合、代理トランザクションは 504 (サーバータイムアウト) エラーで失敗します。
 
 </div>
 

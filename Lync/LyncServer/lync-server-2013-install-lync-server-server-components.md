@@ -12,20 +12,22 @@ ms:contentKeyID: 48183528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8f15afbb1602f369a063826c2196387dcff819b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9237ed0b60e14383f69ff1e7ef0b0927afe49c98
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204191"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498704"
 ---
+# <a name="install-server-components-for-lync-server-2013"></a>Lync Server 2013 のサーバーコンポーネントのインストール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-server-components-for-lync-server-2013"></a>Lync Server 2013 のサーバーコンポーネントのインストール
+
 
 </div>
 
@@ -49,15 +51,15 @@ Lync server 展開ウィザードを使用して、各 Lync server の役割に�
 
 2.  [ **Lync Server システムのインストールまたは更新**] をクリックします。
 
-3.  展開ウィザードで、[**ステップ 1: ローカル構成ストアのインストール**] に緑のチェックマークが付いていることを確認します。つまり、このサーバーには、ストアのローカルコピーが正常にインストールされています。 チェックされていない場合は、ローカル構成ストアをサーバーにインストールする必要があります。 「 [Lync Server 2013 のローカル構成ストアをインストールする」](lync-server-2013-install-the-local-configuration-store.md)の手順に従って、ここに戻ってください。
+3.  展開ウィザードで、[ **ステップ 1: ローカル構成ストアのインストール** ] に緑のチェックマークが付いていることを確認します。つまり、このサーバーには、ストアのローカルコピーが正常にインストールされています。 チェックされていない場合は、ローカル構成ストアをサーバーにインストールする必要があります。 「 [Lync Server 2013 のローカル構成ストアをインストールする」](lync-server-2013-install-the-local-configuration-store.md) の手順に従って、ここに戻ってください。
 
 4.  サーバーに Lync Server 2013 コンポーネントをインストールする準備ができたら、[**手順 2: Lync Server コンポーネントのセットアップまたは削除**] の横にある [**実行**] をクリックします。
 
-5.  [ **Lync Server コンポーネント**のセットアップ] ページで、[**次へ**] をクリックして、公開したトポロジで定義されているようにコンポーネントを設定します。
+5.  [ **Lync Server コンポーネント** のセットアップ] ページで、[ **次へ** ] をクリックして、公開したトポロジで定義されているようにコンポーネントを設定します。
 
-6.  [**コマンドの実行**] ページには、セットアップが行われたときに、コマンドとインストール情報の概要が表示されます。 完了したら、一覧を使用して表示するログを選択し、[**ログの表示**] をクリックします。
+6.  [ **コマンドの実行** ] ページには、セットアップが行われたときに、コマンドとインストール情報の概要が表示されます。 完了したら、一覧を使用して表示するログを選択し、[ **ログの表示**] をクリックします。
 
-7.  Lync Server 2013 コンポーネントのセットアップが完了し、必要に応じてログを確認した後、[**完了**] をクリックして、インストールでこの手順を完了します。
+7.  Lync Server 2013 コンポーネントのセットアップが完了し、必要に応じてログを確認した後、[ **完了** ] をクリックして、インストールでこの手順を完了します。
     
     <div>
     

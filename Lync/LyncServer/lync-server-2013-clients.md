@@ -12,20 +12,22 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 265febdc2a0b13833c1db04253430306edd2a952
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0a09f55bfb423e9b2288ea879da932ee637c1caa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221831"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499194"
 ---
+# <a name="clients-for-lync-server-2013"></a>Lync Server 2013 のクライアント
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="clients-for-lync-server-2013"></a>Lync Server 2013 のクライアント
+
 
 </div>
 
@@ -71,7 +73,7 @@ Lync Web Scheduler は、Microsoft Outlook にアクセスできないユーザ�
 
 Lync Web App は、Lync Server 2013 会議用の Web ベースの会議クライアントです。 このリリースでは、Lync Web App へのコンピューターの音声とビデオの追加によって、Lync クライアントがローカルにインストールされていないすべてのユーザーに対して、完全に会議中の環境が提供されます。 会議の参加者は、すべてのコラボレーション/共有機能と発表者の会議コントロールにアクセスできます。
 
-ユーザーのコンピューターに Lync 2013 がインストールされておらず、ユーザーが会議出席依頼の会議リンクをクリックすると、Lync Web App が開きます。 また、ユーザーが以前のバージョンのクライアントを使用して会議に参加できるように、会議参加ページを構成することもできます。「展開」のドキュメントの「 [Lync Server 2013 での会議参加ページの構成](lync-server-2013-configuring-the-meeting-join-page.md)」を参照してください。
+ユーザーのコンピューターに Lync 2013 がインストールされておらず、ユーザーが会議出席依頼の会議リンクをクリックすると、Lync Web App が開きます。 また、ユーザーが以前のバージョンのクライアントを使用して会議に参加できるように、会議参加ページを構成することもできます。「展開」のドキュメントの「 [Lync Server 2013 での会議参加ページの構成](lync-server-2013-configuring-the-meeting-join-page.md) 」を参照してください。
 
 Lync Web App が拡張されたため、lync Server 2013 では、更新されたバージョンの Microsoft Lync 2010 出席者は利用できません。 Lync Web App は、組織外の参加者向けのクライアントです。 Lync Web App では、ローカルクライアントインストールは必要ありません。ただし、オーディオ、ビデオ、および共有機能では、最初の使用時にプラグインをインストールする必要があります。
 
@@ -97,7 +99,7 @@ Lync Windows ストアアプリは、Windows 8.1、Windows 8、および Windows
 
 ## <a name="lync-2013-for-mobile-devices"></a>モバイルデバイス用 Lync 2013
 
-Lync 2013 モバイルアプリには、連絡先、プレゼンス、IM 機能に加えて、ボイスオーバー IP (VoIP) およびビデオ over IP 機能が含まれるようになりました。 モバイルユーザーは、Wi-fi または携帯電話データ接続のどちらかを使用して、IM、音声通話、またはビデオ通話で他のユーザーと通信することができます。 予定表アイテムの会議リンクを1回クリックするだけで、モバイルユーザーは音声およびビデオ会議に参加できます。 Lync 2013 モバイルアプリの詳細については、「 [Lync Server 2013 でモバイルクライアントを計画する](lync-server-2013-planning-for-mobile-clients.md)」を参照してください。
+Lync 2013 モバイルアプリには、連絡先、プレゼンス、IM 機能に加えて、ボイスオーバー IP (VoIP) およびビデオ over IP 機能が含まれるようになりました。 モバイルユーザーは、Wi-Fi または携帯データ接続のどちらかを使用して、IM、音声通話、またはビデオ通話で他のユーザーと通信することができます。 予定表アイテムの会議リンクを1回クリックするだけで、モバイルユーザーは音声およびビデオ会議に参加できます。 Lync 2013 モバイルアプリの詳細については、「 [Lync Server 2013 でモバイルクライアントを計画する](lync-server-2013-planning-for-mobile-clients.md)」を参照してください。
 
 </div>
 
@@ -105,7 +107,7 @@ Lync 2013 モバイルアプリには、連絡先、プレゼンス、IM 機能�
 
 ## <a name="supported-clients-from-previous-releases"></a>以前のリリースからサポートされているクライアント
 
-Lync Server 2013 は、以前のサーバーリリースから次のクライアントをサポートしています。 ユーザーが会議に参加するときに、特定の以前のクライアントを使用できるようにすることができます。 詳細については、「展開」のドキュメントの「 [Lync Server 2013 での会議参加ページの構成](lync-server-2013-configuring-the-meeting-join-page.md)」を参照してください。
+Lync Server 2013 は、以前のサーバーリリースから次のクライアントをサポートしています。 ユーザーが会議に参加するときに、特定の以前のクライアントを使用できるようにすることができます。 詳細については、「展開」のドキュメントの「 [Lync Server 2013 での会議参加ページの構成](lync-server-2013-configuring-the-meeting-join-page.md) 」を参照してください。
 
   - **Lync 2010**    Lync 2010 には、IM、拡張プレゼンス、音声、ビデオ、共有、テレフォニーなどの完全なデスクトップ環境が用意されています。 ただし、Lync Server 2013 で導入された新機能は、ユーザーのクライアントが Lync 2013 にアップグレードされるまで使用できません。
 

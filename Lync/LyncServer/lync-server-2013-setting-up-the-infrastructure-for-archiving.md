@@ -12,20 +12,22 @@ ms:contentKeyID: 48185494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: add00a6d95fd683655849e5a45c05809399d7e84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 566e406f51a629f5c34b7fc846f878775c9886bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497494"
 ---
+# <a name="setting-up-the-infrastructure-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のインフラストラクチャのセットアップ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-the-infrastructure-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のインフラストラクチャのセットアップ
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42181960"
 
 _**トピックの最終更新日:** 2012-10-01_
 
-アーカイブのインフラストラクチャ要件は、ストレージを除き、Lync Server の展開の場合と同じです。 Exchange 2013 ストレージ、アーカイブデータベース、またはその両方を使用した記憶域の設定以外に、追加のインフラストラクチャのセットアップは必要ありません。 Lync Server 2013 のインフラストラクチャ要件の詳細については、「計画」のドキュメントの「 [Lync server 2013 のインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md)」および「展開」のドキュメントの「 [lync server 2013 のインフラストラクチャとシステムの準備](lync-server-2013-preparing-the-infrastructure-and-systems.md)」を参照してください。 アーカイブの記憶域の要件の詳細については、「計画」のドキュメントの「lync server 2013 でのアーカイブの[技術要件](lync-server-2013-technical-requirements-for-archiving.md)」、「展開」のドキュメントの「 [setting up system 2013 プラットフォーム](lync-server-2013-setting-up-system-platforms-for-archiving.md)」、および「展開」のドキュメントの「lync Server [2013 でのアーカイブ用のストレージの設定](lync-server-2013-setting-up-storage-for-archiving.md)」を参照してください。
+アーカイブのインフラストラクチャ要件は、ストレージを除き、Lync Server の展開の場合と同じです。 Exchange 2013 ストレージ、アーカイブデータベース、またはその両方を使用した記憶域の設定以外に、追加のインフラストラクチャのセットアップは必要ありません。 Lync Server 2013 のインフラストラクチャ要件の詳細については、「計画」のドキュメントの「 [Lync server 2013 のインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md) 」および「展開」のドキュメントの「 [lync server 2013 のインフラストラクチャとシステムの準備](lync-server-2013-preparing-the-infrastructure-and-systems.md) 」を参照してください。 アーカイブの記憶域の要件の詳細については、「計画」のドキュメントの「lync server 2013 でのアーカイブの [技術要件](lync-server-2013-technical-requirements-for-archiving.md) 」、「展開」のドキュメントの「 [setting up system 2013 プラットフォーム](lync-server-2013-setting-up-system-platforms-for-archiving.md) 」、および「展開」のドキュメントの「lync Server [2013 でのアーカイブ用のストレージの設定](lync-server-2013-setting-up-storage-for-archiving.md) 」を参照してください。
 
 </div>
 

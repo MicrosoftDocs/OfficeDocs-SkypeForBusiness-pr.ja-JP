@@ -12,12 +12,12 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0affd2d951d437a930bc7f210e0878e2978f8731
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 2d25be2132fdaba58024ba58081656b830ea9fe4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417582"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497334"
 ---
 # <a name="system-requirements-for-servers-running-lync-server-2013"></a>Lync Server 2013 を実行しているサーバーのシステム要件
 
@@ -75,7 +75,7 @@ Standard Edition および Enterprise Edition サーバーでは、次のいず�
 
   - Windows Server 2012 R2
 
-Standard Edition サーバーまたは Enterprise Edition フロントエンドサーバーに、オペレーティングシステムソフトウェアをインストールします。 オペレーティング システムを最新の状態にするため、そして組織の標準に沿うのに必要な更新レベルにするために、すべての変更プログラムを適用します。 操作要件の詳細については、「サポート」のドキュメントの「 [Lync server 2013 でのサーバーおよびツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
+Standard Edition サーバーまたは Enterprise Edition フロントエンドサーバーに、オペレーティングシステムソフトウェアをインストールします。 オペレーティング システムを最新の状態にするため、そして組織の標準に沿うのに必要な更新レベルにするために、すべての変更プログラムを適用します。 操作要件の詳細については、「サポート」のドキュメントの「 [Lync server 2013 でのサーバーおよびツールのオペレーティングシステムのサポート](lync-server-2013-server-and-tools-operating-system-support.md) 」を参照してください。
 
 > [!NOTE] 
 > Lync Server 2013 では、オペレーティングシステムの一括アップグレードはサポートされていません。  別のプールを展開し、ユーザーを別のオペレーティングシステムを使用して新しいプールに移行する必要があります。
@@ -84,7 +84,7 @@ Standard Edition サーバーまたは Enterprise Edition フロントエンド�
 
 
 > [!NOTE]
-> Windows Server 2012 R2 で Lync Server 2013 を動作させるには、Windows Server でレジストリキーの値を変更する必要がある場合があります。 この変更は、証明書が正常に機能し、クライアントが存続可能 Branch アプライアンスに登録するために必要になることがあります。 詳細については<A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>、「」を参照してください。
+> Windows Server 2012 R2 で Lync Server 2013 を動作させるには、Windows Server でレジストリキーの値を変更する必要がある場合があります。 この変更は、証明書が正常に機能し、クライアントが存続可能 Branch アプライアンスに登録するために必要になることがあります。 詳細については、「」を参照してください <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A> 。
 
 
 
@@ -94,7 +94,7 @@ Standard Edition サーバーまたは Enterprise Edition フロントエンド�
 
 ## <a name="additional-software-for-lync-server-2013"></a>Lync Server 2013 の追加ソフトウェア
 
-オペレーティングシステムに必要な更新プログラムに加えて、Lync Server 2013 では、オペレーティングシステムの役割、機能、およびソフトウェアを運用する必要があります。 トポロジを公開して Lync Server 2013 をインストールする前にインストールする必要がある追加ソフトウェアの詳細については、「計画」のドキュメントの「 [Lync server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md)」を参照してください。
+オペレーティングシステムに必要な更新プログラムに加えて、Lync Server 2013 では、オペレーティングシステムの役割、機能、およびソフトウェアを運用する必要があります。 トポロジを公開して Lync Server 2013 をインストールする前にインストールする必要がある追加ソフトウェアの詳細については、「計画」のドキュメントの「 [Lync server 2013 の追加ソフトウェア要件](lync-server-2013-additional-software-requirements.md) 」を参照してください。
 
 </div>
 
@@ -118,7 +118,7 @@ Lync Server 2013 では、Lync Server トポロジに参加する各コンピュ
 
 
 > [!NOTE]
-> Windows Server&nbsp;2008&nbsp;R2 SP1 では、Microsoft .net Framework 4.5 をインストールする前に、windows PowerShell コマンドラインインターフェイス3.0 をインストールすることはできません。
+> Windows Server &nbsp; 2008 &nbsp; R2 SP1 では、Microsoft .net Framework 4.5 をインストールする前に、windows PowerShell コマンドラインインターフェイス3.0 をインストールすることはできません。
 
 
 
@@ -134,15 +134,15 @@ Windows Server 2012 または Windows Server 2012 R2 上で Lync Server 2013 を
 
 **Windows Server 2012 または Windows Server 2012 R2 に .NET 4.5 HTTP ライセンス認証をインストールするには**
 
-1.  [**スタート**] メニューの [**プログラム**] をクリックし、[**管理ツール**] をクリックして、[**サーバーマネージャー**] をクリックします。
+1.  [ **スタート** ] メニューの [ **プログラム**] をクリックし、[ **管理ツール**] をクリックして、[ **サーバーマネージャー**] をクリックします。
 
-2.  サーバーマネージャーの [**機能の概要**] で、[**機能の追加**] を選択します。
+2.  サーバーマネージャーの [ **機能の概要**] で、[ **機能の追加**] を選択します。
 
 3.  [ **.Net Framework 4.5**] を展開します。
 
-4.  まだ選択されていない場合は、[ **WCF アクティブ化**] を選択します。 [ **HTTP アクティブ化**] を選択します。
+4.  まだ選択されていない場合は、[ **WCF アクティブ化** ] を選択します。 [ **HTTP アクティブ化**] を選択します。
 
-5.  [**次へ**] をクリックし、画面の指示に従ってインストールを完了します。
+5.  [ **次へ** ] をクリックし、画面の指示に従ってインストールを完了します。
 
 </div>
 

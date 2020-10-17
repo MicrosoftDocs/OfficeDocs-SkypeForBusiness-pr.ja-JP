@@ -12,20 +12,22 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7424d0c002e5b14335a6d0256fc72a3beff733cc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 196b3dacec792097a4760ef134ead91f267a53d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187480"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499314"
 ---
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>証明書の概要-Lync Server 2013 での自動検出
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>証明書の概要-Lync Server 2013 での自動検出
+
 
 </div>
 
@@ -41,9 +43,9 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 
 リバースプロキシでサブジェクトの別名の一覧を使用するかどうかは、自動検出サービスをポート80またはポート443に公開するかどうかに基づいて決定されます。
 
-  - **ポート 80**   で公開された自動検出サービスへの最初のクエリがポート80経由で行われる場合、証明書の変更は必要ありません。 これは、Lync を実行しているモバイルデバイスがポート80のリバースプロキシに外部でアクセスし、内部でポート8080のディレクターまたはフロントエンドサーバーにブリッジされるためです。 詳細については、「 [Lync Server 2013 でのモビリティの技術的な要件](lync-server-2013-technical-requirements-for-mobility.md)」セクションの「ポート80を使用した初期の自動検出プロセス」を参照してください。
+  - **ポート 80**     で公開自動検出サービスへの最初のクエリがポート80で行われる場合、証明書の変更は必要ありません。 これは、Lync を実行しているモバイルデバイスがポート80のリバースプロキシに外部でアクセスし、内部でポート8080のディレクターまたはフロントエンドサーバーにブリッジされるためです。 詳細については、「 [Lync Server 2013 でのモビリティの技術的な要件](lync-server-2013-technical-requirements-for-mobility.md)」セクションの「ポート80を使用した初期の自動検出プロセス」を参照してください。
 
-  - **ポート 443**   で公開されました。外部 web サービス公開ルールで使用される証明書のサブジェクトの別名リストには、lyncdiscover が含まれている必要があり*ます。\<組織\> *内の各 SIP ドメインの microsoft.rtc.management.xds.sipdomain エントリ。
+  - **ポート 443**     で公開外部 web サービス公開ルールで使用される証明書のサブジェクトの別名リストには、lyncdiscover が含まれている必要があり*ます。 \<sipdomain\> * 組織内の各 SIP ドメインのエントリ。
     
     <div>
     
@@ -60,7 +62,7 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 
 
 > [!NOTE]  
-> Lync Server 2013 インフラストラクチャが内部証明機関 (CA) から発行された内部証明書を使用し、ワイヤレス接続をサポートすることを計画している場合は、内部 CA からのルート証明書チェーンをインストールする必要があります。モバイルデバイスでは、または Lync Server 2013 インフラストラクチャ上のパブリック証明書に変更する必要があります。
+> Lync Server 2013 インフラストラクチャが内部証明機関 (CA) から発行された内部証明書を使用し、ワイヤレス接続をサポートすることを計画している場合は、内部 CA からのルート証明書チェーンをモバイルデバイスにインストールするか、Lync Server 2013 インフラストラクチャのパブリック証明書に変更する必要があります。
 
 
 
@@ -86,11 +88,11 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 <tbody>
 <tr class="odd">
 <td><p>内部自動検出サービス URL</p></td>
-<td><p>SAN = lyncdiscoverinternal。&lt;内部ドメイン名&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal。 &lt;内部ドメイン名&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>外部自動検出サービス URL</p></td>
-<td><p>SAN = lyncdiscover。&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +102,7 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 
 
 > [!NOTE]  
-> 新しく更新された証明書を新しい SAN エントリと共に既定の証明書に割り当てます。 または、SAN = * を使用することもできます。&lt;microsoft.rtc.management.xds.sipdomain&gt;。
+> 新しく更新された証明書を新しい SAN エントリと共に既定の証明書に割り当てます。 または、SAN = * を使用することもできます。 &lt;microsoft.rtc.management.xds.sipdomain &gt; 。
 
 
 
@@ -122,11 +124,11 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 <tbody>
 <tr class="odd">
 <td><p>内部自動検出サービス URL</p></td>
-<td><p>SAN = lyncdiscoverinternal。&lt;内部ドメイン名&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal。 &lt;内部ドメイン名&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>外部自動検出サービス URL</p></td>
-<td><p>SAN = lyncdiscover。&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,7 +138,7 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 
 
 > [!NOTE]  
-> 新しく更新された証明書を新しい SAN エントリと共に既定の証明書に割り当てます。 または、SAN = * を使用することもできます。&lt;microsoft.rtc.management.xds.sipdomain&gt;
+> 新しく更新された証明書を新しい SAN エントリと共に既定の証明書に割り当てます。 または、SAN = * を使用することもできます。 &lt;microsoft.rtc.management.xds.sipdomain&gt;
 
 
 
@@ -158,7 +160,7 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 <tbody>
 <tr class="odd">
 <td><p>外部自動検出サービス URL</p></td>
-<td><p>SAN = lyncdiscover。&lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
+<td><p>SAN = lyncdiscover。 &lt;microsoft.rtc.management.xds.sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>

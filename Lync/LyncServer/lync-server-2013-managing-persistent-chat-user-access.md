@@ -12,20 +12,22 @@ ms:contentKeyID: 48184211
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5edcd8f49df6f4b5ead870a34875e6404f1e0f37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac2f1d45bbb6fe39703085721a23bed69f75314c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217883"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497964"
 ---
+# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a>Lync Server 2013 での常設チャットのユーザーアクセスの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a>Lync Server 2013 での常設チャットのユーザーアクセスの管理
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217883"
 
 _**トピックの最終更新日:** 2012-10-06_
 
-次のトピックでは、Lync Server 2013 コントロールパネルおよび**常設チャット**ページを使用して、常設チャットでのユーザーアクセスを管理する方法について説明します。 常設チャットサーバーを管理するには、システムの常設チャット管理者の権限とアクセス許可を持っている必要があります。 常設チャットサーバーをインストールする場合は、必要な常設チャット管理者の権限とアクセス許可を持つ1人以上のユーザーを指定します。 管理者権限とアクセス許可を追加のユーザー アカウントに付与するには、**ユーザーとユーザー グループの管理**を使用します。 詳細については、「 [Lync Server 2013 でユーザーがカテゴリ、チャットルーム、およびユーザーの権限とアクセス許可を管理できるように](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)する」を参照してください。
+次のトピックでは、Lync Server 2013 コントロールパネルおよび **常設チャット** ページを使用して、常設チャットでのユーザーアクセスを管理する方法について説明します。 常設チャットサーバーを管理するには、システムの常設チャット管理者の権限とアクセス許可を持っている必要があります。 常設チャットサーバーをインストールする場合は、必要な常設チャット管理者の権限とアクセス許可を持つ1人以上のユーザーを指定します。 管理者権限とアクセス許可を追加のユーザー アカウントに付与するには、**ユーザーとユーザー グループの管理**を使用します。 詳細については、「 [Lync Server 2013 でユーザーがカテゴリ、チャットルーム、およびユーザーの権限とアクセス許可を管理できるように](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)する」を参照してください。
 
 <div>
 

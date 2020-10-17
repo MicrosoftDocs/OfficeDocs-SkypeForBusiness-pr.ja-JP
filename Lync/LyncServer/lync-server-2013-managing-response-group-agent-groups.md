@@ -12,20 +12,22 @@ ms:contentKeyID: 48183806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 015f2e6b8692dd3ea2ea47dda0510f72202c1ebf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 11e0c0c022b1925831737d70a10c2a193b9732bf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497954"
 ---
+# <a name="managing-response-group-agent-groups-in-lync-server-2013"></a>Lync Server 2013 での応答グループエージェントグループの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-agent-groups-in-lync-server-2013"></a>Lync Server 2013 での応答グループエージェントグループの管理
+
 
 </div>
 
@@ -59,9 +61,9 @@ _**トピックの最終更新日:** 2012-10-01_
 
 </div>
 
-グループにサインインまたは拒否する必要があるエージェント (Lync Server のサインイン時またはログアウト時とは異なる) は、*正式なエージェント*と呼ばれます。 公式エージェントが、グループにルーティングされた着信を受信するには、そのグループにサインインする必要があります。 これは、パートタイム ベースでグループから通話に応答するエージェントには便利な方法です。 正式なエージェント Lync 2013 のメニュー項目をクリックして、Windows Internet Explorer の Internet browser を開き、web ページコンソールを表示することによって、グループにサインインおよびサインアウトします。
+グループにサインインまたは拒否する必要があるエージェント (Lync Server のサインイン時またはログアウト時とは異なる) は、 *正式なエージェント*と呼ばれます。 公式エージェントが、グループにルーティングされた着信を受信するには、そのグループにサインインする必要があります。 これは、パートタイム ベースでグループから通話に応答するエージェントには便利な方法です。 正式なエージェント Lync 2013 のメニュー項目をクリックして、Windows Internet Explorer の Internet browser を開き、web ページコンソールを表示することによって、グループにサインインおよびサインアウトします。
 
-グループにサインインしていない、またはグループ外にいるエージェントは、*非公式なエージェント*と呼ばれます。 非公式のエージェントは、Lync Server にサインインするときにグループに自動的にサインインします。グループからサインアウトすることはできません。
+グループにサインインしていない、またはグループ外にいるエージェントは、 *非公式なエージェント*と呼ばれます。 非公式のエージェントは、Lync Server にサインインするときにグループに自動的にサインインします。グループからサインアウトすることはできません。
 
 <div>
 

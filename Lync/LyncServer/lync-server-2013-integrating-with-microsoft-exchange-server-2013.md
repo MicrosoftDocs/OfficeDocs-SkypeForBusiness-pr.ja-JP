@@ -12,20 +12,22 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489c5023ab995700762fa5e19ba361df1b49a6b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 917ffc5103617c04a989ec91043a68fcce9f0320
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214603"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498524"
 ---
+# <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 の統合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 の統合
+
 
 </div>
 
@@ -51,7 +53,7 @@ Exchange と Lync Server の統合と互換性については、長い歴史が�
 
 これらの新機能では、Lync Server 2013 と Exchange 2013 の両方を使用する必要があることに注意してください。 これに加えて、これらの新機能を十分に活用する必要があるユーザーは、Lync Server 2013 および Exchange 2013 のアカウントを持っており、最新バージョンのクライアントソフトウェア (Lync 2013 など) を使用している必要があります。 たとえば、Lync Server 2010 に所属しているユーザーは、統合連絡先ストアを使用できません。同様に、Lync 2010 に高解像度写真を表示することはできません。
 
-このドキュメントでは、Lync Server 2013 と Exchange 2013 の統合について説明します。 アーカイブ統合、統合連絡先ストアなど、新機能を有効にするための詳細な手順について説明します。 このドキュメントでは、これら2つの製品の初期セットアップと構成について説明します。 Lync Server 2013 の展開の詳細については、「Lync Server [https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127)2013 Tech Center」を参照してください。 Exchange 2013 の展開の詳細については、「Exchange [https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528)2013 の技術センター」を参照してください。
+このドキュメントでは、Lync Server 2013 と Exchange 2013 の統合について説明します。 アーカイブ統合、統合連絡先ストアなど、新機能を有効にするための詳細な手順について説明します。 このドキュメントでは、これら2つの製品の初期セットアップと構成について説明します。 Lync Server 2013 の展開の詳細については、「Lync Server 2013 Tech Center」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127) 。 Exchange 2013 の展開の詳細については、「Exchange 2013 の技術センター」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528) 。
 
 <div>
 

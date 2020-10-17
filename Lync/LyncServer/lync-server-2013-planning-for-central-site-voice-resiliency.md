@@ -12,20 +12,22 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a61a07ae14f004b406aa38ef783a1c873f2128
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e81f314fd0746b5a3d47f1b17dfa8ab9380678c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184410"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497734"
 ---
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Lync Server 2013 での中央サイトの音声の復元の計画
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Lync Server 2013 での中央サイトの音声の復元の計画
+
 
 </div>
 
@@ -102,7 +104,7 @@ Lync クライアントは、フロントエンドプールに接続した後、
 
   - 各レジストラープールは、DNS 負荷分散、ハードウェア負荷分散、またはその両方を使用して負荷分散する必要があります。 負荷分散構成の計画の詳細については、「 [Lync Server 2013 の負荷分散の要件](lync-server-2013-load-balancing-requirements.md)」を参照してください。
 
-  - 各ユーザーは、Lync Server 管理シェル**セット、CsUser**コマンドレット、または Lync Server コントロールパネルのどちらかを使用して、プライマリレジストラープールに割り当てられている必要があります。
+  - 各ユーザーは、Lync Server 管理シェル **セット、CsUser** コマンドレット、または Lync Server コントロールパネルのどちらかを使用して、プライマリレジストラープールに割り当てられている必要があります。
 
   - プライマリ レジストラー プールは、別の中央サイトに配置されたバックアップ レジストラー プールを 1 つ持つ必要があります。
 
@@ -145,7 +147,7 @@ Lync Server は、次のインフラストラクチャおよびソフトウェ�
 </tr>
 <tr class="odd">
 <td><p>DHCP オプション 120</p></td>
-<td><p>DNS SRV を使用できない場合、クライアントは DHCP オプション 120 を使用してレジストラーの検出を試みます。 これを動作させるには、DHCP サーバーを構成するか、Lync Server 2013 DHCP を有効にする必要があります。 詳細については、「 <a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 のブランチサイトの復元要件</a>」の「ハードウェア要件とソフトウェア要件」を参照してください。</p></td>
+<td><p>DNS SRV を使用できない場合、クライアントは DHCP オプション 120 を使用してレジストラーの検出を試みます。 これを動作させるには、DHCP サーバーを構成するか、Lync Server 2013 DHCP を有効にする必要があります。 詳細については、「 <a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 のブランチサイトの復元要件</a> 」の「ハードウェア Branch-Site 要件およびソフトウェア要件」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>

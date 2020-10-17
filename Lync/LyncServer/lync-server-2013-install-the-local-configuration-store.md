@@ -12,20 +12,22 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5c95399aa7cccf28ec0c236c2882b6f44794e80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e16d4edfb53511712c58cb41510559fcf69cfa9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197090"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498574"
 ---
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Lync Server 2013 でのローカル構成ストアのインストール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Lync Server 2013 でのローカル構成ストアのインストール
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 展開ウィザードを使用して操作できるようにする�
 
 
 > [!IMPORTANT]  
-> このサーバーで Lync Server 2013 セットアップを実行していない場合は、Lync Server 2013 をインストールするためのドライブとパスの入力を求められます。 これにより、システムドライブ以外のドライブにインストールすることができます。組織で必要な場合、または容量に関する懸念がある場合。 [セットアップ] ダイアログボックスで Lync Server ファイルのインストール場所のパスを新しい、利用可能なドライブに変更することができます。 このパス (OCSCore を含む) にセットアップファイルをインストールすると、残りの Lync Server 2013 ファイルも同様に展開されます。
+> このサーバーで Lync Server 2013 セットアップを実行していない場合は、Lync Server 2013 をインストールするためのドライブとパスの入力を求められます。 これにより、システムドライブ以外のドライブにインストールすることができます。組織で必要な場合、または容量に関する懸念がある場合。 [セットアップ] ダイアログボックスで Lync Server ファイルのインストール場所のパスを新しい、利用可能なドライブに変更することができます。 このパスにセットアップファイル (OCSCore.msi を含む) をインストールすると、残りの Lync Server 2013 ファイルも同様に展開されます。
 
 
 
@@ -55,21 +57,21 @@ Lync Server 展開ウィザードを使用して操作できるようにする�
 
 ## <a name="to-install-the-local-configuration-store"></a>ローカル構成ストアをインストールするには
 
-1.  インストールメディア\\から amd64\\セットアップを参照\\し、[ **OK]** をクリックします。
+1.  インストールメディアから、[setup amd64Setup.exe] を参照し、[ \\ \\ \\ **OK]** をクリックします。
 
-2.  Microsoft Visual C++ 2012 の再頒布可能パッケージをインストールするように求めるメッセージが表示されたら、[**はい**] をクリックします。
+2.  Microsoft Visual C++ 2012 の再頒布可能パッケージをインストールするように求めるメッセージが表示されたら、[ **はい**] をクリックします。
 
 3.  [**Lync Server 2013 のインストール先**] ページで、[**OK**] をクリックします。
 
-4.  [使用許諾**契約書**] ページで、ライセンス条項を確認し、[「**使用許諾契約書**」の条項に同意します] を選択し、[ **OK** ] をクリックして続行することができます。
+4.  [使用許諾 **契約書** ] ページで、ライセンス条項を確認し、[「 **使用許諾契約書**」の条項に同意します] を選択し、[ **OK** ] をクリックして続行することができます。
 
 5.  [展開ウィザード] ページで、**[Lync Server システムのインストールまたは更新]** をクリックします。
 
 6.  [**Lync Server 2013**] ページの [**ステップ 1: ローカル構成ストアのインストール**] で、[**実行**] をクリックします。
 
-7.  [**ローカル構成ストアのインストール**] ページで、[**中央管理ストアから直接取得**する] オプションがオンになっていることを確認し、[**次へ**] をクリックします。
+7.  [ **ローカル構成ストアのインストール** ] ページで、[ **中央管理ストアから直接取得** する] オプションがオンになっていることを確認し、[ **次へ**] をクリックします。
 
-8.  ローカルサーバー構成のインストールが完了したら、[**完了**] をクリックする必要があります。
+8.  ローカルサーバー構成のインストールが完了したら、[ **完了**] をクリックする必要があります。
 
 </div>
 

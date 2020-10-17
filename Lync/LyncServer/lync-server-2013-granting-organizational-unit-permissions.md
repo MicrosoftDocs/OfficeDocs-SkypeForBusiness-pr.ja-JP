@@ -12,20 +12,22 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85c43cb727b83b06d6427e2bf3b6027d78dc025e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d17715718d66530686009fdc4b2b9e2acebfceaf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199340"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498904"
 ---
+# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>Lync Server 2013 での組織単位アクセス許可の付与
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>Lync Server 2013 での組織単位アクセス許可の付与
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42199340"
 
 _**トピックの最終更新日:** 2012-05-14_
 
-**付与-CsOuPermission**コマンドレットを使用して、フォレストの準備によって作成された RTC ユニバーサルグループのメンバーが Domain Admins グループのメンバーでない場合にアクセスできるように、指定された組織単位 (ou) 内のオブジェクトにアクセス許可を付与できます。 指定された OU に追加されるアクセス許可は、ドメインの準備中に、[有効にする] **-CsAdDomain**コマンドレットによってコンピューターとユーザーコンテナーに追加されるアクセス許可と同じです。
+**付与-CsOuPermission**コマンドレットを使用して、フォレストの準備によって作成された RTC ユニバーサルグループのメンバーが Domain Admins グループのメンバーでない場合にアクセスできるように、指定された組織単位 (ou) 内のオブジェクトにアクセス許可を付与できます。 指定された OU に追加されるアクセス許可は、ドメインの準備中に、[有効にする] **-CsAdDomain** コマンドレットによってコンピューターとユーザーコンテナーに追加されるアクセス許可と同じです。
 
 Permissions **-CsOuPermission**コマンドレットを使用して、設定したアクセス許可を確認するには、 **Test-csoupermission**コマンドレットを使用します。
 

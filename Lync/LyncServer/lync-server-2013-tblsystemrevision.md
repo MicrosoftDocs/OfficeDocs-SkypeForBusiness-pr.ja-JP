@@ -12,20 +12,22 @@ ms:contentKeyID: 48184901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d82d0ff27745021e7868e3cd6c8c12eed9e0e495
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f30248bb39d24e5fd24deb5d4ee2afb938ef7c24
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195060"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497314"
 ---
+# <a name="tblsystemrevision-in-lync-server-2013"></a>Lync Server 2013 の tblSystemRevision
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblsystemrevision-in-lync-server-2013"></a>Lync Server 2013 の tblSystemRevision
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-12_
 
 tblSystemRevision には、複数の管理者クライアント間で一貫性を保つために tblAdminLock テーブルで使用されるリビジョン番号が含まれています。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>段組み
 
 <table>
 <colgroup>
@@ -49,7 +51,7 @@ tblSystemRevision には、複数の管理者クライアント間で一貫性�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>種類</th>
 <th>説明</th>
 </tr>

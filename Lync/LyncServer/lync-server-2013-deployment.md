@@ -12,20 +12,22 @@ ms:contentKeyID: 48184687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e870fb22bc8d3e183192d7ec8e94a554878fb04
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b5fcba91b3017faff29ad8d1bcce20d51a32bd1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198180"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498984"
 ---
+# <a name="deployment-of-lync-server-2013"></a>Lync Server 2013 の展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-of-lync-server-2013"></a>Lync Server 2013 の展開
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42198180"
 
 _**トピックの最終更新日:** 2012-10-18_
 
-Lync Server 2013 の通信ソフトウェアの展開には、Active Directory ドメインサービスの準備、フロントエンドサーバーとその他のコア Lync Server 2013 内部コンポーネントの展開、およびその他のサーバーの役割と機能の展開が含まれます。組織で必要になる場合があります。外部ユーザーアクセスやエンタープライズ Voip など。
+Lync Server 2013 通信ソフトウェアの展開には、Active Directory ドメインサービスの準備、フロントエンドサーバーおよびその他の主要な Lync Server 2013 内部コンポーネントの展開、および組織が必要とするその他のサーバーの役割と機能の展開 (外部ユーザーアクセスやエンタープライズ Voip など) が含まれます。
 
 このドキュメントでは、Lync Server 2013 を展開するための3つのシナリオについて説明します。
 
@@ -47,7 +49,7 @@ Lync Server 2013 の通信ソフトウェアの展開には、Active Directory �
 
   - 既存の Lync Server 2010 Standard Edition または Enterprise Edition 展開への Lync Server 2013 Standard Edition または Enterprise Edition の新しい展開
 
-既存の Microsoft Office Communications Server 2007 または Microsoft Office Communications Server 2007 R2 環境での Lync Server 2013 の展開については、[移行](migration.md)に関するドキュメントを参照してください。
+既存の Microsoft Office Communications Server 2007 または Microsoft Office Communications Server 2007 R2 環境での Lync Server 2013 の展開については、 [移行](migration.md) に関するドキュメントを参照してください。
 
 <div>
 

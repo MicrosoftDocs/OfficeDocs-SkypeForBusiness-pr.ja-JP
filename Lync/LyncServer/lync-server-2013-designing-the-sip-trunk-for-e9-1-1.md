@@ -12,20 +12,22 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c4191ed20497b4136b4e836da112054bef5a446
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35efd8571a30b3d0dd067cbfc27f292985b6ee14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204383"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498954"
 ---
+# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 での E9-1-1 の SIP トランクの設計
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 での E9-1-1 の SIP トランクの設計
+
 
 </div>
 
@@ -48,7 +50,7 @@ Lync Server は、SIP トランクを使用して、緊急電話を E9-1-1 サ�
 > <LI>
 > <P>SIP トランクプロバイダーと通信するために、外向きのパブリックにルーティングされたインターフェイスを使用する、マルチホームの仲介サーバーを使用します。</P>
 > <LI>
-> <P>仲介サーバーと SIP トランクプロバイダーのサービスとの間には、オンプレミスのセッションボーダーコントローラー (SBC) を使用して、安全な境界点を指定します。</P></LI></UL>後者の方法を選択した場合は、選択する SBC の型とモデルが認定済みであり、SIP INVITE の一部としてプレゼンス情報データ フォーマット位置オブジェクト (PIDF-LO) 場所データの通過がサポートされていることを確認します。 サポートされてない場合、緊急サービスのサービス プロバイダーに到着した通話から場所情報が除去されます。 認定さ<A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A>れた SBCs の詳細については、「」の「Microsoft Lync 向けのインフラストラクチャ認定」を参照してください。<BR>E9-1-1 サービス プロバイダーは、冗長性を確保するために SBC のペアへのアクセスを提供します。 仲介サーバートポロジと通話ルーティング構成に関していくつかの決定を行う必要があります。 たとえば、2 つの SBC を同等のピアとして扱い、SBC 間の通話にラウンドロビン ルーティングを使用するのか、または一方の SBC をプライマリ、もう一方をセカンダリとして指定するのかを決定します。
+> <P>仲介サーバーと SIP トランクプロバイダーのサービスとの間には、オンプレミスのセッションボーダーコントローラー (SBC) を使用して、安全な境界点を指定します。</P></LI></UL>後者の方法を選択した場合は、選択する SBC の型とモデルが認定済みであり、SIP INVITE の一部としてプレゼンス情報データ フォーマット位置オブジェクト (PIDF-LO) 場所データの通過がサポートされていることを確認します。 サポートされてない場合、緊急サービスのサービス プロバイダーに到着した通話から場所情報が除去されます。 認定された SBCs の詳細については、「」の「Microsoft Lync 向けのインフラストラクチャ認定」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A> 。<BR>E9-1-1 サービス プロバイダーは、冗長性を確保するために SBC のペアへのアクセスを提供します。 仲介サーバートポロジと通話ルーティング構成に関していくつかの決定を行う必要があります。 たとえば、2 つの SBC を同等のピアとして扱い、SBC 間の通話にラウンドロビン ルーティングを使用するのか、または一方の SBC をプライマリ、もう一方をセカンダリとして指定するのかを決定します。
 
 
 

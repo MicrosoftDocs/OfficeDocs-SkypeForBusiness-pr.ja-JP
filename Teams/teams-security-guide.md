@@ -3,6 +3,7 @@ title: Microsoft Teams のセキュリティ ガイド
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
+ms.date: 10/15/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -19,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761293"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486802"
 ---
 # <a name="security-and-microsoft-teams"></a>セキュリティと Microsoft Teams
 
@@ -239,7 +240,7 @@ Teams は、エンタープライズ ユーザーにリアルタイムな会議�
 また、ダイヤルイン発信者が会議の最初のユーザーになるための設定を開催者が構成することもできます。 この設定はユーザーの電話会議設定で構成し、対象ユーザーによってスケジュールされているすべての会議に適用されます。
 
 > [!NOTE]
-> Teams におけるゲスト アクセスと外部アクセスについて詳しくは、[こちらの記事](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)を参照してください。 ゲスト ユーザーまたは外部ユーザーが Teams にログインするときに表示され、使用できる機能が取り上げられています。
+> Teams におけるゲスト アクセスと外部アクセスについて詳しくは、[こちらの記事](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)を参照してください。 ゲスト ユーザーまたは外部ユーザーが Teams にログインするときに表示され、使用できる機能が取り上げられています。 <p> 会議を録画しているときに、コンテンツにアクセスするアクセス許可マトリックスを表示したい場合は、[こちらの記事](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)とそのマトリックスを参照してください。
 
 ### <a name="participant-roles"></a>参加者の役割
 
@@ -305,3 +306,5 @@ Teams では、匿名ユーザーはロビーと呼ばれる待機エリアに�
 [VPN スプリット トンネリングを使用してリモート ユーザーの Microsoft 365 または Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [VPN の分割トンネリングを実装する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
+[Teams での会議の録画、録画が保存されている場所、および録画にアクセスできるユーザー](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)

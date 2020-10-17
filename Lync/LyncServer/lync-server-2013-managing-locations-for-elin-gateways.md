@@ -12,20 +12,22 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88b27e325ba8990cf239548c689d4e021397858a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e33f05f0a05b1225f1687faa00cf48af02fa1410
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185620"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498164"
 ---
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Lync Server 2013 での ELIN ゲートウェイの場所の管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Lync Server 2013 での ELIN ゲートウェイの場所の管理
+
 
 </div>
 
@@ -51,7 +53,7 @@ Lync Server でネットワーク内のクライアントの場所を自動的�
 
 
 > [!NOTE]  
-> 中央の場所のデータベースに追加された場所は、Lync Server 管理シェルコマンドを使用して公開され、プールのローカルストアにレプリケートされるまでクライアントで使用できません。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-publish-the-location-database.md">Lync Server 2013 からの場所データベースの発行</A>」を参照してください。
+> 中央の場所のデータベースに追加された場所は、Lync Server 管理シェルコマンドを使用して公開され、プールのローカルストアにレプリケートされるまでクライアントで使用できません。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-publish-the-location-database.md">Lync Server 2013 からの場所データベースの発行</A> 」を参照してください。
 
 
 
@@ -69,11 +71,11 @@ ELIN ゲートウェイを使用する場合は、場所情報サービスデー
 
 ## <a name="planning-location-names"></a>場所名の計画
 
-場所情報サービスの**場所**フィールドは、建物内の特定の位置を保持します。最大長は20文字 (スペースを含む) です。 この制限された長さの中に、以下を含めるようにします。
+場所情報サービスの **場所** フィールドは、建物内の特定の位置を保持します。最大長は20文字 (スペースを含む) です。 この制限された長さの中に、以下を含めるようにします。
 
   - 緊急対応員が特定の住所に到着したときに緊急通報をした人の場所がすぐにわかるように、場所を具体的に特定するわかりやすい名前。この場所名には、建物の番号、階数、翼棟名、部屋番号などを含めます。従業員にしかわからないような呼称は避けます。緊急対応員がわからなければ、彼らは正しい場所に行くことができません。
 
-  - Lync クライアントが正しい場所を取得したことを、ユーザーが簡単に判別するのに役立つ場所の ID。 Lync クライアントは、検出したヘッダ内の [**Location**] フィールドと [**City**] フィールドを自動的に連結し、表示します。 建物の番地を各場所の識別子 (たとえば、"1 階\<のストリート番号\>") に追加することをお勧めします。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
+  - Lync クライアントが正しい場所を取得したことを、ユーザーが簡単に判別するのに役立つ場所の ID。 Lync クライアントは、検出したヘッダ内の [**Location**] フィールドと [**City**] フィールドを自動的に連結し、表示します。 建物の番地を各場所の識別子 (たとえば、"1 階") に追加することをお勧め \<street number\> します。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
 
   - 場所がワイヤレス アクセス ポイントで決定されるために近似値となる場合は、「Near」という単語を追加することができます (たとえば、「Near 1 階 1234」など)。
 
@@ -144,7 +146,7 @@ ELIN ゲートウェイを使用する場合は、場所情報サービスデー
   - **場所のマッピング情報がすでに格納されているサードパーティのデータベースを定義するのか。**  
     Lync Server のセカンダリの場所情報サービスオプションを使用してサードパーティのデータベースに接続することにより、オフラインプラットフォームを使用して場所をグループ化および管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 これは、場所情報サービスが、セカンダリ場所情報サービスから Lync Server クライアントに送信された複数のアドレスを返すことができることを意味します。 その後、ユーザーは最適な場所を選択できます。
     
-    場所情報サービスと統合するには、サードパーティのデータベースが Lync Server の場所の要求/応答スキーマに従う必要があります。 詳細について<https://go.microsoft.com/fwlink/p/?linkid=213819>は、「」を参照してください。 セカンダリ場所情報サービスの展開の詳細については、「展開」のドキュメントの「 [Configure a Secondary Location information service In Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) 」を参照してください。
+    場所情報サービスと統合するには、サードパーティのデータベースが Lync Server の場所の要求/応答スキーマに従う必要があります。 詳細については、「」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=213819> 。 セカンダリ場所情報サービスの展開の詳細については、「展開」のドキュメントの「 [Configure a Secondary Location information service In Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) 」を参照してください。
 
 場所データベースの設定の詳細については、「展開」のドキュメントの「 [Configure the location database In Lync Server 2013](lync-server-2013-configure-the-location-database.md) 」を参照してください。
 

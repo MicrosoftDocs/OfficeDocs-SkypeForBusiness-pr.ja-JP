@@ -12,20 +12,22 @@ ms:contentKeyID: 48184969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6847c0e96da546d2387a66b9215e5c64b4743241
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 944aaf06ce81e5ba326841f6abe91614cdffd134
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213433"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48498914"
 ---
+# <a name="dial-in-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルイン会議の要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルイン会議の要件
+
 
 </div>
 
@@ -65,7 +67,7 @@ PSTN ゲートウェイは、中央サイトまたはブランチ サイトに�
 
 </div>
 
-ダイヤルイン会議のための仲介サーバーと PSTN ゲートウェイの構成の計画の詳細については、「計画」のドキュメントの「 [Lync server 2013 の仲介サーバーのコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-mediation-server.md)」を参照してください。
+ダイヤルイン会議のための仲介サーバーと PSTN ゲートウェイの構成の計画の詳細については、「計画」のドキュメントの「 [Lync server 2013 の仲介サーバーのコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-mediation-server.md) 」を参照してください。
 
 </div>
 

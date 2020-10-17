@@ -12,20 +12,22 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a52254b4367f0a51b8061e71b841ae19c6598589
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e7e9d1a5aca2949f6cf3364873712a7272063a2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204749"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499184"
 ---
+# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Lync Server 2013 の応答グループに対してサポートされているクライアント
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Lync Server 2013 の応答グループに対してサポートされているクライアント
+
 
 </div>
 
@@ -59,15 +61,15 @@ _**トピックの最終更新日:** 2014-03-28_
 
 </div>
 
-新機能の詳細については、「はじめに」のドキュメントの「 [Lync Server 2013 の新しい応答グループアプリケーション機能](lync-server-2013-new-response-group-application-features.md)」を参照してください。
+新機能の詳細については、「はじめに」のドキュメントの「 [Lync Server 2013 の新しい応答グループアプリケーション機能](lync-server-2013-new-response-group-application-features.md) 」を参照してください。
 
 使用できる特定のクライアントは、応答グループのユーザーの種類によって異なります。
 
   - **発信者**は、先にリストされたクライアントのいずれかを使用するか、または公衆交換電話網 (PSTN) 経由で標準的な電話機を使用して、応答グループを呼び出すことができます。
 
-  - **非公式のエージェント**(グループにサインインおよびサインアウトしないエージェント) は、アテンダント、lync、または lync Phone のエディションを使用して通話を受け付けることができます。 これらのクライアントの1つを使用して Lync Server 2013 にサインインすると、非公式のエージェントは自動的にグループにサインインします。
+  - **非公式のエージェント** (グループにサインインおよびサインアウトしないエージェント) は、アテンダント、lync、または lync Phone のエディションを使用して通話を受け付けることができます。 これらのクライアントの1つを使用して Lync Server 2013 にサインインすると、非公式のエージェントは自動的にグループにサインインします。
 
-  - **正式なエージェント**(通話を受け入れるためにグループにサインインまたはログアウトする必要があるエージェント) は、Lync 2013 を使用して、メニュー項目からエージェントコンソールにアクセスするか、またはアテンダントを使用して Internet Explorer からエージェントコンソールに直接アクセスすることによって、呼び出しを受け付けることができます。
+  - **正式なエージェント** (通話を受け入れるためにグループにサインインまたはログアウトする必要があるエージェント) は、Lync 2013 を使用して、メニュー項目からエージェントコンソールにアクセスするか、またはアテンダントを使用して Internet Explorer からエージェントコンソールに直接アクセスすることによって、呼び出しを受け付けることができます。
 
 </div>
 
