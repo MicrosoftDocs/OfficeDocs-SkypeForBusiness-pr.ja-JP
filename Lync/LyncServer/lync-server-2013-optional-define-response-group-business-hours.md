@@ -12,20 +12,22 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b02ce8434d7912d81855725aa86a11fa377ce44
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 891dd05caf5e2ec3411da73c1151ae61c2d0630c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216623"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524464"
 ---
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>オプションLync Server 2013 で応答グループの営業時間を定義する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>オプションLync Server 2013 で応答グループの営業時間を定義する
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 
 > [!TIP]  
-> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「 <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Lync server 2013 でハントグループワークフローを作成または変更する</A>」または「 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">lync server 2013 で対話ワークフローを作成または変更</A>する」を参照してください。
+> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「 <A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Lync server 2013 でハントグループワークフローを作成または変更する</A> 」または「 <A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">lync server 2013 で対話ワークフローを作成または変更</A>する」を参照してください。
 
 
 

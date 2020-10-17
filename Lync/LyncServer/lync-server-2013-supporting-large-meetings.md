@@ -12,20 +12,22 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 949e5fb209722d8a0d8476d017bba1b7144561a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19359dd785b846fa765e72adb810ccd255c2bd2e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192340"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523924"
 ---
+# <a name="supporting-large-meetings-using-lync-server-2013"></a>Lync Server 2013 を使用した大規模会議のサポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a>Lync Server 2013 を使用した大規模会議のサポート
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2012-10-03_
 
 最大1000ユーザーの会議に十分な CPU およびメモリリソースを確保するには、ホストするフロントエンドサーバーが他のインスタントメッセージング (IM) とプレゼンスまたはエンタープライズ Voip ワークロードをホストしないようにする必要があります。 また、会議の規模に関係なく、他の会議をホストしないようにすることも必要です。 これは、最大1000ユーザーの会議をホストするために、最大で1000ユーザーの大規模な会議をホストする専用の Lync Server プールを個別に設定する必要があることを意味します。
 
-大規模な会議をホストするための専用の Lync Server プールでは、1つの会議を同時に最大1000のユーザーに対して1つだけホストする必要があるため、フロントエンド Serv からの専用サポートを確保するために、会議の時間を事前に帯域外のスケジューリングプロセスを介して予約する必要があります。ばり. 一度に複数の大規模な会議をサポートする場合は、専用の大規模会議プールを複数設定することをお勧めします。
+大規模な会議をホストするための専用の Lync Server プールでは、1つの会議のみを同時に1000ユーザーまでホストする必要があるため、会議の時間は、フロントエンドサーバーから専用にサポートするために、アウトバンドのスケジューリングプロセスによって事前に予約されている必要があります。 一度に複数の大規模な会議をサポートする場合は、専用の大規模会議プールを複数設定することをお勧めします。
 
 大規模な会議のオンライン部分は専任担当者が実行し、監視することをお勧めします。この担当者は、組織の設定に応じて、開催者、開催者または発表者の代理人、大規模な会議の専任サポート チームのメンバーのいずれでもかまいません。
 

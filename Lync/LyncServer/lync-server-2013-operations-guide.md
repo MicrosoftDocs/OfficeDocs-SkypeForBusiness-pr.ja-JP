@@ -12,20 +12,22 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2a2ee39440ec339fc7bf0757d1882f0be199659
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 212a640577d55e80225a597c9263b7a2573d257f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216613"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524534"
 ---
+# <a name="operations-guide-for-lync-server-2013"></a>Lync Server 2013 の運用ガイド
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a>Lync Server 2013 の運用ガイド
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216613"
 
 _**トピックの最終更新日:** 2014-08-18_
 
-このドキュメントでは、Microsoft Lync Server 2013 communications software 環境を維持するために必要な運用プロセス、タスク、およびツールについて説明します。 Microsoft Operations Framework (MOF) モデルに従って Lync Server 2013 を管理する方法について説明し、効率的な運用管理環境を設計するのに役立つ情報を提供します。これには、スケジュール、プロセス、手順を実装することが含まれます。効率的な作業環境。
+このドキュメントでは、Microsoft Lync Server 2013 communications software 環境を維持するために必要な運用プロセス、タスク、およびツールについて説明します。 Microsoft Operations Framework (MOF) モデルに従って Lync Server 2013 を管理する方法について説明します。効率的な運用管理環境を設計するのに役立ちます。これには、スケジュール、プロセス、および効率的な作業環境を維持するための手順を実装することが含まれます。
 
 <div>
 

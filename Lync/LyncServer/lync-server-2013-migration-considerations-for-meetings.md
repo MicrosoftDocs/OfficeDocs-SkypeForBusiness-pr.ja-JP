@@ -12,20 +12,22 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ec650c62b26775aeddf9f01ff8d455a6f6a7667
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48ee24dca1cdf083de990ef42dae4017ed927e15
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185109"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524564"
 ---
+# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Lync Server 2013 での会議の移行に関する考慮事項
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Lync Server 2013 での会議の移行に関する考慮事項
+
 
 </div>
 
@@ -55,11 +57,11 @@ _**トピックの最終更新日:** 2014-02-10_
 
 ## <a name="changes-to-meetings-in-lync-server-2013"></a>Lync Server 2013 での会議の変更
 
-**Lync Server 2013 の機能。**   Lync server 2013 は、アカウントが lync server 2013 に移動され、lync 2013 クライアントを使用してサインインした後で、ユーザーが利用できるようになる新しい会議機能を提供します。 新しい機能については、「 [Lync server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md)」と「 [lync server 2013 のクライアント向けの新](lync-server-2013-what-s-new-for-clients.md)機能」に記載されています。
+**Lync Server 2013 の機能。**    Lync Server 2013 は、アカウントが Lync Server 2013 に移動され、Lync 2013 クライアントを使用してサインインした後で、ユーザーが利用できるようになる新しい会議機能を提供します。 新しい機能については、「 [Lync server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md) 」と「 [lync server 2013 のクライアント向けの新](lync-server-2013-what-s-new-for-clients.md)機能」に記載されています。
 
-**会議の URL。**   Lync server 2010 と同様に、lync server 2013 で新しくスケジュールされた会議には、HTTPS://の URL プレフィックスがあり、既存の会議はユーザーアカウントと共に移行されます。 ただし、Lync Server 2013 は、Office Communications Server 2007 R2 会議通話 (conf://URL プレフィックス) または web 会議 (meet://URL プレフィックス) をサポートしていません。 詳細については、このトピックで後述する「Office Communications Server 2007 R2 からの会議の移行」を参照してください。
+**会議の URL。**    Lync Server 2010 と同様に、Lync Server 2013 で新しくスケジュールされた会議には、https://の URL プレフィックスがあり、既存の会議はユーザーアカウントと共に移行されます。 ただし、Lync Server 2013 は、Office Communications Server 2007 R2 会議通話 (conf://URL プレフィックス) または web 会議 (meet://URL プレフィックス) をサポートしていません。 詳細については、このトピックで後述する「Office Communications Server 2007 R2 からの会議の移行」を参照してください。
 
-**クライアントのサポート。**   Lync server 2010 とは異なり、lync server 2013 は会議用の Office Communicator クライアントをサポートしていません。 次のクライアントを使用して、Lync 2013 用のオンライン会議アドインによってスケジュールされた会議に参加することはできません。
+**クライアントのサポート。**    Lync Server 2010 とは異なり、Lync Server 2013 は会議用の Office Communicator クライアントをサポートしていません。 次のクライアントを使用して、Lync 2013 用のオンライン会議アドインによってスケジュールされた会議に参加することはできません。
 
   - Office Communicator 2007 R2
 
@@ -82,9 +84,9 @@ _**トピックの最終更新日:** 2014-02-10_
 
 ## <a name="migrating-users-based-on-their-conferencing-needs"></a>電話会議のニーズに基づくユーザーの移行
 
-**会議の開催者が頻繁に行われます。**    [Lync server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md)と、 [lync 2013 server のクライアント向けの新](lync-server-2013-what-s-new-for-clients.md)機能について説明されている新しい lync server 2013 および lync 2013 の機能を利用できるように、プロセスの早い段階で移行を行うことを検討してください。
+**会議の開催者が頻繁に行われます。**    [Lync server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md)と、 [lync 2013 server のクライアント向けの新](lync-server-2013-what-s-new-for-clients.md)機能について説明されている新しい Lync server 2013 および lync 2013 の機能を利用できるように、プロセスの早い段階で移行を行うことを検討してください。
 
-**Live Meeting ユーザー。**   Office Communications Server 2007 R2 から移行していて、Live Meeting 固有の web 会議機能 (特に、大規模な会議およびブレイクアウトルームのサポート) を必要とするユーザーがいる場合は、次のオプションを使用できます。
+**Live Meeting ユーザー。**    Office Communications Server 2007 R2 から移行していて、Live Meeting 固有の web 会議機能 (特に、大規模な会議およびブレイクアウトルームのサポート) を必要とするユーザーがいる場合は、次のオプションを使用できます。
 
   - 組織で使用できる場合は、開催者に Live Meeting サービスを使用するように勧めます。
 
@@ -110,7 +112,7 @@ Lync Server 2010 から Lync Server 2013 にユーザーを移動すると、次
 
   - 会議コンテンツ (PowerPoint プレゼンテーション、ホワイトボードコンテンツ、投票データなど)
 
-会議で共有されているコンテンツを移動するには、MoveMeetingContent コマンドレットのパラメーターを使用します。 このコマンドレットの使用の詳細については、「Lync Server 2013 コマンドレット」のドキュメントの「 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 」を参照してください。
+会議で共有されているコンテンツを移動するには、Move-CsUser コマンドレットの MoveMeetingContent パラメーターを使用します。 このコマンドレットの使用の詳細については、「Lync Server 2013 コマンドレット」のドキュメントの「 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 」を参照してください。
 
 </div>
 
@@ -136,13 +138,13 @@ Office Communications Server 2007 R2 会議は、電話会議通話 (conf://URL 
 
 Lync Server 2010 からの移行中に、ユーザーが lync Server 2010 会議に Lync 2013 クライアントを参加させる場合、共存の期間が発生することがあります。 これらのユーザーは、以下の例外を除き、Lync 2013 クライアント機能にアクセスできます。
 
-  - [**参加者**の管理] オプションでは、会議ウィンドウの [ユーザー] アイコンをポイントすることによってアクセスできます。 [**会議 IM**を利用しない] オプションは機能しません。
+  - [ **参加者** の管理] オプションでは、会議ウィンドウの [ユーザー] アイコンをポイントすることによってアクセスできます。 [ **会議 IM** を利用しない] オプションは機能しません。
 
-  - ギャラリービューは、ビデオ会議では機能しません。 ユーザーには、すべてのスピーカーではなく、アクティブなスピーカーのみが表示されます。 [レイアウトオプションの**選択**] の一覧で、**ギャラリービュー**を使用できません
+  - ギャラリービューは、ビデオ会議では機能しません。 ユーザーには、すべてのスピーカーではなく、アクティブなスピーカーのみが表示されます。 [レイアウトオプションの **選択** ] の一覧で、 **ギャラリービュー** を使用できません
 
   - 参加者リストは、既定では、ビデオ会議に表示されます。
 
-  - [参加者] リストでユーザーを右クリックすると、[**ビデオスポットライトをロック**する] および [ギャラリー参加者管理**にピン留めする**] オプションが使用できなくなります。
+  - [参加者] リストでユーザーを右クリックすると、[ **ビデオスポットライトをロック** する] および [ギャラリー参加者管理 **にピン留めする** ] オプションが使用できなくなります。
 
 </div>
 
@@ -158,7 +160,7 @@ Lync Server 2010 からの移行中に、ユーザーが lync Server 2010 会議
 
 ## <a name="after-user-account-is-migrated-before-lync-2013-is-installed"></a>ユーザーアカウントが移行された後、Lync 2013 がインストールされる前
 
-ユーザーが Lync Server 2013 サーバーに移行された後、新しいクライアントがインストールされる前に、Office Communicator 2007 R2 ユーザーが既存のクライアントを Lync Server 2013 に対して引き続き使用し、プレゼンスおよび IM 機能を使用できるようになります。いる.
+ユーザーが Lync Server 2013 サーバーに移行された後、新しいクライアントがインストールされる前に、Office Communicator 2007 R2 ユーザーは、プレゼンスおよび IM 機能のために Lync Server 2013 に対して既存のクライアントを引き続き使用することができますが、会議機能はサポートされていません。
 
 </div>
 

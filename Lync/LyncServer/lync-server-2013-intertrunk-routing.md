@@ -12,20 +12,22 @@ ms:contentKeyID: 48185442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c0da370ffa95581ccc2d37e19a48aafa096dee3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01b391f66754cf9530bbe66fb66e9f1ae542f297
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525254"
 ---
+# <a name="intertrunk-routing-in-lync-server-2013"></a>Lync Server 2013 でのトランク間ルーティング
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="intertrunk-routing-in-lync-server-2013"></a>Lync Server 2013 でのトランク間ルーティング
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-20_
 
 Lync Server 2013 は、PBX と公衆交換電話網 (PSTN) ゲートウェイを相互に接続して、PBX 電話からの通話を PSTN にルーティングし、PSTN 通話の着信を構内交換機 (PBX) 電話にルーティングすることができます。 同様に、Lync Server 2013 は2つ以上の ip-pbx システムを相互に接続して、異なる ip-pbx システムからの PBX 電話間で通話を発信および受信できるようにすることができます。
 
-このトランク間ルーティング機能を構成するには、Lync Server 管理シェルコマンドレット**get-cstrunkconfiguration**を使用して、新しいパラメーターである PstnUsages を設定します。 このパラメーターでは、使用する一連の PSTN 使用法レコードを指定します。 トランクはこの PSTN 使用法を使用して、ルートを決定し、それに従って着信したすべての通話をルーティングします。
+このトランク間ルーティング機能を構成するには、Lync Server 管理シェルコマンドレット **get-cstrunkconfiguration**を使用して、新しいパラメーターである PstnUsages を設定します。 このパラメーターでは、使用する一連の PSTN 使用法レコードを指定します。 トランクはこの PSTN 使用法を使用して、ルートを決定し、それに従って着信したすべての通話をルーティングします。
 
     Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 

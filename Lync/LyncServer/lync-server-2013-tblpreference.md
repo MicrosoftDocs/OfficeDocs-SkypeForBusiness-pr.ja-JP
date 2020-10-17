@@ -12,20 +12,22 @@ ms:contentKeyID: 48185913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d1405634ad92b3f2cde2d085875648d738d6200
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef0ee11cd780037410ea1d7e0d94c83e139d8418
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523774"
 ---
+# <a name="tblpreference-in-lync-server-2013"></a>Lync Server 2013 の tblPreference
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblpreference-in-lync-server-2013"></a>Lync Server 2013 の tblPreference
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-24_
 
 tblPreference には、ユーザーのクライアントの設定が含まれます。 これは通常、Lync 2013 より前のクライアントによって使用されます。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>段組み
 
 <table>
 <colgroup>
@@ -49,7 +51,7 @@ tblPreference には、ユーザーのクライアントの設定が含まれま
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>種類</th>
 <th>説明</th>
 </tr>
@@ -58,7 +60,7 @@ tblPreference には、ユーザーのクライアントの設定が含まれま
 <tr class="odd">
 <td><p>prefLabel</p></td>
 <td><p>NULL でない nvarchar (255)</p></td>
-<td><p>「User sip uri &lt;&gt;| username」などの形式のラベル。&lt;設定&gt;。</p></td>
+<td><p>「 &lt; User sip uri &gt; | username &lt; 」などの形式のラベル。設定 &gt; 。</p></td>
 </tr>
 <tr class="even">
 <td><p>prefSeqID</p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a57e4a3c7a5fdcc1825c140cb6e26f8cede8dc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec2ef70b70ff496852a753a9e15a38f80de1509b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214444"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523744"
 ---
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>Lync Server 2013 の tblPrincipalAffiliations
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>Lync Server 2013 の tblPrincipalAffiliations
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-12_
 
 tblPrincipalAffiliations には、active directory ドメインサービスセキュリティグループ、Active Directory コンテナー、ドメインなどの場所でのメンバーシップを記述するプリンシパルの所属が含まれています。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>段組み
 
 <table>
 <colgroup>
@@ -49,7 +51,7 @@ tblPrincipalAffiliations には、active directory ドメインサービスセ�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>種類</th>
 <th>説明</th>
 </tr>
@@ -68,7 +70,7 @@ tblPrincipalAffiliations には、active directory ドメインサービスセ�
 <tr class="odd">
 <td><p>index</p></td>
 <td><p>NULL でない int</p></td>
-<td><p>順. 自己所属の値は-1 で、その他の所属については、各&lt;PrincipalID、affiliationId&gt;バケット内で1から順に増加します。</p></td>
+<td><p>順. 自己所属の値は-1 で、その他の所属については、各 principalID、affiliationId バケット内で1から順に増加し &lt; &gt; ます。</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
@@ -88,7 +90,7 @@ tblPrincipalAffiliations には、active directory ドメインサービスセ�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Columns</th>
+<th>段組み</th>
 <th>説明</th>
 </tr>
 </thead>

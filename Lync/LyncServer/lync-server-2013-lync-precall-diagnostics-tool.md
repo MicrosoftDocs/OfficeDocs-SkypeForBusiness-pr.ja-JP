@@ -12,20 +12,22 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0377460340e1b639a7fca5862dcd85aed399b94a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19051eb183dc12f091de0d90ebb707bc6cee8fc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525154"
 ---
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Lync PreCall Diagnostics Tool in Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Lync PreCall Diagnostics Tool in Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ PCD は、ネットワークの最後のホップが脆弱になる可能性が�
 
   - 安定性の向上
 
-フィードバックは歓迎します。 すべてのサポートの質問または問題を[PCD フィードバック](mailto:pcdfb@microsoft.com)エイリアスに<pcdfb@microsoft.com>送信してください。
+フィードバックは歓迎します。 すべてのサポートの質問または問題を [PCD フィードバック](mailto:pcdfb@microsoft.com) エイリアスに送信してください <pcdfb@microsoft.com> 。
 
 このトピックには、以下のセクションが含まれます。
 
@@ -75,7 +77,7 @@ PCD は、ネットワークの最後のホップが脆弱になる可能性が�
 
 このトピックでは、無料でダウンロードできる、次のバージョンのツールについて説明します。
 
-  - Windows デスクトップアプリ ([https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914))
+  - Windows デスクトップアプリ ( [https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914) )
 
 </div>
 
@@ -101,7 +103,7 @@ PCD は、ネットワークの最後のホップが脆弱になる可能性が�
 
   - Windows 7 または Windows 8 オペレーティングシステムのすべてのエディション
 
-  - Microsoft .NET Framework 4.5 で利用可能[https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
+  - Microsoft .NET Framework 4.5 で利用可能 [https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
 
 </div>
 
@@ -153,11 +155,11 @@ Lync PCD には、次の機能が含まれています。
     
     ![PreCall 診断ツールアイコン](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall 診断ツールアイコン")
 
-2.  ツールが起動したら、資格情報を提供するために推奨される方法を選択し、[**すべての診断ツールオプション**] ダイアログボックスでネットワーク動作モードを選択して、[ **OK]** を選択します。
+2.  ツールが起動したら、資格情報を提供するために推奨される方法を選択し、[ **すべての診断ツールオプション** ] ダイアログボックスでネットワーク動作モードを選択して、[ **OK]** を選択します。
 
-3.  [**テストの開始**] ボタンを選択して、診断の実行を開始します。
+3.  [ **テストの開始** ] ボタンを選択して、診断の実行を開始します。
     
-    [**ネットワーク資格情報を使用**する] オプションを選択した場合、テストはすぐに開始されます。
+    [ **ネットワーク資格情報を使用** する] オプションを選択した場合、テストはすぐに開始されます。
     
     **[資格情報を入力**する] オプションを選択した場合は、[ **Windows セキュリティ**] ダイアログボックスが開きます。 資格情報を入力すると、テストが開始されます。
 
@@ -173,9 +175,9 @@ Lync PCD には、次の機能が含まれています。
 
 Lync PCD を削除するには、オペレーティングシステムの手順に従います。
 
-  - Windows 7 システムで、[**コントロールパネル**] を開き、[**プログラムと機能**] を選択して、[ **Lync 2013 precall Diagnostics**] をダブルクリックします。
+  - Windows 7 システムで、[ **コントロールパネル**] を開き、[ **プログラムと機能**] を選択して、[ **Lync 2013 precall Diagnostics**] をダブルクリックします。
 
-  - Windows 8 システムで、PCD タイルを右クリックし、スタート画面の下部にあるアプリバーから [**アンインストール**] をクリックします。
+  - Windows 8 システムで、PCD タイルを右クリックし、スタート画面の下部にあるアプリバーから [ **アンインストール** ] をクリックします。
 
 </div>
 

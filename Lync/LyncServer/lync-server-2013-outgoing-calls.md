@@ -12,20 +12,22 @@ ms:contentKeyID: 51803960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aa72bb1da56862765279f25f73070863d218067
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a77ddf0757cd463bb8f1b95dbecfe90fd1086c9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524404"
 ---
+# <a name="outgoing-calls-in-lync-server-2013"></a>Lync Server 2013 の送信呼び出し
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="outgoing-calls-in-lync-server-2013"></a>Lync Server 2013 の送信呼び出し
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216385"
 
 _**トピックの最終更新日:** 2013-03-09_
 
-場所に基づくルーティングが有効になっているユーザーの発信呼び出しのルーティングは、ユーザーのエンドポイントのネットワーク上の場所によって影響を受けます。 次の表は、発信者のエンドポイントの場所に応じて、場所に基づくルーティングが発信呼び出しのルーティングにどのように影響するかを示しています。
+Location-Based ルーティングが有効になっているユーザーの発信呼び出しのルーティングは、ユーザーのエンドポイントのネットワーク上の場所によって影響を受けます。 次の表は、発信者のエンドポイントの場所に応じて、Location-Based ルーティングが発信呼び出しのルーティングにどのように影響するかを示しています。
 
 ### <a name="caller-placing-an-outbound-call-to-the-pstn"></a>発信者が PSTN への発信通話を配置する
 
@@ -50,8 +52,8 @@ _**トピックの最終更新日:** 2013-03-09_
 <thead>
 <tr class="header">
 <th></th>
-<th>場所に基づくルーティングが有効なネットワークサイトに配置されたユーザーエンドポイント</th>
-<th>不明なネットワークサイトにある、または場所に基づくルーティングが有効になっていないユーザーエンドポイント</th>
+<th>Location-Based ルーティングが有効なネットワークサイトに配置されたユーザーエンドポイント</th>
+<th>ユーザーエンドポイントが不明なネットワークサイトにあるか、Location-Based ルーティングに対して有効になっていません</th>
 </tr>
 </thead>
 <tbody>
@@ -63,7 +65,7 @@ _**トピックの最終更新日:** 2013-03-09_
 <tr class="even">
 <td><p>発信通話のルーティング</p></td>
 <td><p>呼び出しは、ネットワークサイトの音声ルーティングポリシーに従ってルーティングされます。</p></td>
-<td><p>通話はユーザーの音声ポリシーに従ってルーティングされ、場所に基づくルーティングが有効になっていない場合にのみトランクによってルーティングされます (使用可能な場合)。</p></td>
+<td><p>通話はユーザーの音声ポリシーに従ってルーティングされ、Location-Based ルーティングに対してのみ有効になっている場合にのみルーティングされます (使用可能な場合)。</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +76,7 @@ _**トピックの最終更新日:** 2013-03-09_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013 での Location-Based ルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

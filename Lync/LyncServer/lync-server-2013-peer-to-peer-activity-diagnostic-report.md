@@ -12,20 +12,22 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc7c6de27a4ccc9cd05777476ac4abc7d6fc9f58
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53e47232a6345749f78f6136929209722a83621e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215763"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524394"
 ---
+# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Lync Server 2013 のピアツーピアアクティビティ診断レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Lync Server 2013 のピアツーピアアクティビティ診断レポート
+
 
 </div>
 
@@ -78,7 +80,7 @@ _**トピックの最終更新日:** 2012-10-01_
 
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>ピアツーピア アクティビティ診断レポートへのアクセス
 
-ピアツーピア診断レポートには、監視レポートのホーム ページからアクセスできます。 次のいずれかの指標をクリックすると、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md)にアクセスできます。
+ピアツーピア診断レポートには、監視レポートのホーム ページからアクセスできます。 次のいずれかの指標をクリックすると、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md) にアクセスできます。
 
   - [予期しないエラー ボリューム]
 
@@ -129,7 +131,7 @@ _**トピックの最終更新日:** 2012-10-01_
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
@@ -152,10 +154,10 @@ _**トピックの最終更新日:** 2012-10-01_
 <td><p>レジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN)。個別のプールを選択するか、[<strong>すべて</strong>] をクリックしてすべてのプールのデータを表示できます。このドロップダウン リストは、データベース内のレコードに基づいて自動的に設定されます。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>モーダル</strong></p></td>
+<td><p><strong>モダリティ</strong></p></td>
 <td><p>お発生した通信アクティビティの種類を示します。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
+<li><p>[All]</p></li>
 <li><p>インスタント メッセージング</p></li>
 <li><p>ファイル送信</p></li>
 <li><p>アプリケーション共有</p></li>
@@ -204,7 +206,7 @@ _**トピックの最終更新日:** 2012-10-01_
 <tr class="odd">
 <td><p>[<strong>予期されるエラー ボリューム</strong>]</p></td>
 <td><p>いいえ</p></td>
-<td><p>&quot;予期されたエラー&quot;が発生したセッションの合計数です。</p>
+<td><p>&quot;予期されたエラーが発生したセッションの合計数 &quot; です。</p>
 <p>予期されるエラーとは、発生が予想されるエラーです。たとえば、ステータスを "応答不可" に設定しているユーザーへの通話は、すべてエラーになることが予想されます。</p></td>
 </tr>
 <tr class="even">
@@ -215,7 +217,7 @@ _**トピックの最終更新日:** 2012-10-01_
 <tr class="odd">
 <td><p>[<strong>予期しないエラー ボリューム</strong>]</p></td>
 <td><p>いいえ</p></td>
-<td><p>&quot;予期しないエラー&quot;が発生したセッションの合計数です。</p>
+<td><p>&quot;予期しないエラーが発生したセッションの合計数 &quot; です。</p>
 <p>予期しないエラーとは、一見すると正常と思われるシステムで発生するエラーです。たとえば、呼び出し元が保留中になっている通話は終了してはなりません。この操作を行うと、予期しないエラーとしてフラグが設定されます。</p></td>
 </tr>
 <tr class="even">

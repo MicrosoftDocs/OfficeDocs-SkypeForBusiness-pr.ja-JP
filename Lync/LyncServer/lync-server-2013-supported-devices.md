@@ -12,20 +12,22 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f19c7eac607ffcba65435cea2faf53c91e75609c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7fc614b2c571df14eac5382e9a022554fc32a260
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524124"
 ---
+# <a name="supported-devices-in-lync-server-2013"></a>Lync Server 2013 でサポートされているデバイス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-devices-in-lync-server-2013"></a>Lync Server 2013 でサポートされているデバイス
+
 
 </div>
 
@@ -43,13 +45,13 @@ Lync Server は、次の表に記載されているすべての電話機をサ�
 
 
 > [!NOTE]  
-> 電話には、次の3つの種類があります。机の電話機 (デスクで従業員が使用するように設計された受話器 IP または USB デバイス)、会議デバイス (会議室で使用するように設計されているハンズフリーの IP または USB 電話機)、および共通領域電話 (IP 電話など) をサポートします。は、ロビー、キッチン、工場のフロア、および共有ワークスペースなどの共有領域での使用を目的として設計されており、Lync Phone Edition のさまざまな機能セットを提供するようにカスタマイズすることができます。
+> サポートされる電話の種類は、電話機 (デスクの従業員が使用するように設計された受話器 IP または USB デバイス)、会議デバイス (ミーティングルームで使用するように設計されているハンズフリーの IP または USB 電話機)、共有領域で使用するように設計された IP 電話 (ロビー、キッチン、工場など) です、および共有ワークスペース-をカスタマイズして、さまざまな種類の Lync Phone Edition 機能を提供することができます。
 
 
 
 </div>
 
-Lync と連携するように最適化されているすべてのデバイスに関する詳細な比較表については、「 <https://go.microsoft.com/fwlink/p/?linkid=208938>」の「Microsoft Lync 用の電話とデバイス」を参照してください。 この Web サイトに掲載される電話比較表には、価格情報と技術仕様も記載されています。
+Lync と連携するように最適化されているすべてのデバイスに関する詳細な比較表については、「」の「Microsoft Lync 用の電話とデバイス」を参照してください <https://go.microsoft.com/fwlink/p/?linkid=208938> 。 この Web サイトに掲載される電話比較表には、価格情報と技術仕様も記載されています。
 
 
 <table>
@@ -60,7 +62,7 @@ Lync と連携するように最適化されているすべてのデバイスに
 </colgroup>
 <thead>
 <tr class="header">
-<th>電話番号</th>
+<th>Phone</th>
 <th>Lync Phone Edition の実行</th>
 <th>詳細情報</th>
 </tr>
@@ -124,7 +126,7 @@ Lync と連携するように最適化されているすべてのデバイスに
 
 
 > [!NOTE]  
-> アナログデバイスのサポートも提供されています。 詳細については、「Lync Server 2010 TechNet ライブラリでの<A href="https://go.microsoft.com/fwlink/p/?linkid=257502">アナログデバイスの展開を計画する</A>」を参照してください。 (Lync Phone Edition は、Lync Server 2013 および Lync Server 2010 でも同様に動作します。
+> アナログデバイスのサポートも提供されています。 詳細については、「Lync Server 2010 TechNet ライブラリでの <A href="https://go.microsoft.com/fwlink/p/?linkid=257502">アナログデバイスの展開を計画する</A> 」を参照してください。 (Lync Phone Edition は、Lync Server 2013 および Lync Server 2010 でも同様に動作します。
 
 
 

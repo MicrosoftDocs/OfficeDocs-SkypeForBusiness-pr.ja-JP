@@ -12,20 +12,22 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a7567fa467f8e152f4b6a61b06600a127607d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23ac976f2c05268b5cf864511b19db1fd251edbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186170"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525114"
 ---
+# <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 管理ツール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 管理ツール
+
 
 </div>
 
@@ -45,17 +47,17 @@ Lync Server 管理ツールをインストールまたは使用する前に、�
 
 管理ツールは、次の内容で構成されます。
 
-  - **Lync server 展開ウィザード**   を使用して lync server を展開し、すべての管理ツールをインストールします。
+  - **Lync Server 展開ウィザード**    Lync Server を展開し、すべての管理ツールをインストールするために使用します。
 
-  - **Lync Server トポロジビルダー**   を使用して、展開内のコンポーネントを定義します。
+  - **Lync Server トポロジビルダー**    を使用して、展開内のコンポーネントを定義します。
 
-  - **Lync Server コントロールパネル**   web ベースのインターフェイスを使用して、展開の継続的な管理に使用します。
+  - **Lync Server コントロールパネル**    Web ベースのインターフェイスを使用して展開の継続的な管理を行う場合に使用します。
 
-  - **Lync Server 管理シェル**   は、コマンドラインを使用して展開を継続的に管理するために使用します。
+  - **Lync Server 管理シェル**    コマンドラインを使用して展開の継続的な管理を行う場合に使用します。
 
-  - **Lync Server ログツール**   を使用して、展開の問題のトラブルシューティングを行います。
+  - **Lync Server ログツール**    を使用して、展開の問題のトラブルシューティングを行います。
 
-  - **集中ログサービス**   は、1台のコンピューター、プール、サイト、またはグローバルからログとトレースファイルを収集します。 プロバイダー、フラグ、およびトレースレベルを含むシナリオを選択して定義します。 ログは、テキストベースのツールや Snooper などのツールを使用して収集、集計、表示されます。
+  - **集中ログサービス**    1台のコンピューター、プール、サイト、またはグローバルからログとトレースファイルを収集します。 プロバイダー、フラグ、およびトレースレベルを含むシナリオを選択して定義します。 ログは、テキストベースのツールや Snooper.exe などのツールを使用して収集、集計、表示されます。
 
 トポロジビルダーと Lync Server コントロールパネルを使用して、展開を管理することができます。
 
@@ -63,7 +65,7 @@ Lync Server 管理ツールをインストールまたは使用する前に、�
 
 ## <a name="deployment-wizard"></a>展開ウィザード
 
-Lync Server をまだインストールしていないコンピューターにすべての管理ツールをインストールするには、インストールメディアに含まれている Lync Server 展開ウィザードを使用する必要があります。 管理ツールのインストールプロセスでは、Lync Server 展開ウィザードが他のツールと共にローカルにインストールされるので、その他のツールを使用して追加のコンポーネントのファイルをインストールしたり、不要なコンポーネントのファイルを削除したりすることができます。コンピューター.
+Lync Server をまだインストールしていないコンピューターにすべての管理ツールをインストールするには、インストールメディアに含まれている Lync Server 展開ウィザードを使用する必要があります。 管理ツールのインストールプロセスでは、Lync Server 展開ウィザードが他のツールと共にローカルにインストールされるので、後でこのウィザードを使用して追加のコンポーネントのファイルをインストールしたり、コンピューター上で不要なコンポーネントのファイルを削除したりできます。
 
 Lync server のインストールメディアから初めて Lync Server 展開ウィザードを実行する方法の詳細については、「 [Install Lync server 2013 管理ツール](lync-server-2013-install-lync-server-administrative-tools.md)」を参照してください。
 
@@ -105,7 +107,7 @@ Lync server コントロールパネルは、すべての Lync Server フロン�
 
 ## <a name="lync-server-management-shell"></a>Lync Server 管理シェル
 
-Lync Server では、Lync Server 管理シェルによって、管理と管理のための新しい方法が提供されます。 Lync Server 管理シェルは、Windows PowerShell コマンドラインインターフェイスに基づいて構築された強力な管理インターフェイスで、Lync Server に固有の一連のコマンドレットが含まれています。 Lync Server 管理シェルを使用すると、さまざまな構成および自動化の制御セットを入手できます。 トポロジビルダーおよび Lync Server コントロールパネルはいずれも、Lync Server の管理をサポートするために、これらのコマンドレットのサブセットを実装します。 Lync Server 管理シェルには、すべての Lync Server 管理タスク用のコマンドレットが含まれており、コマンドレットを個別に使用して展開を管理できます。 詳細については、「 [Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md)のドキュメント」またはコマンドラインヘルプの各コマンドレットを参照してください。
+Lync Server では、Lync Server 管理シェルによって、管理と管理のための新しい方法が提供されます。 Lync Server 管理シェルは、Windows PowerShell コマンドラインインターフェイスに基づいて構築された強力な管理インターフェイスで、Lync Server に固有の一連のコマンドレットが含まれています。 Lync Server 管理シェルを使用すると、さまざまな構成および自動化の制御セットを入手できます。 トポロジビルダーおよび Lync Server コントロールパネルはいずれも、Lync Server の管理をサポートするために、これらのコマンドレットのサブセットを実装します。 Lync Server 管理シェルには、すべての Lync Server 管理タスク用のコマンドレットが含まれており、コマンドレットを個別に使用して展開を管理できます。 詳細については、「 [Lync Server 2013 管理シェル](lync-server-2013-lync-server-management-shell.md) のドキュメント」またはコマンドラインヘルプの各コマンドレットを参照してください。
 
 </div>
 
@@ -113,7 +115,7 @@ Lync Server では、Lync Server 管理シェルによって、管理と管理�
 
 ## <a name="logging-tool"></a>ログ ツール
 
-Lync Server ログツールは、製品の実行中に、ログとトレース情報を製品からキャプチャすることでトラブルシューティングを容易にします。 このツールを使用して、任意の Lync Server サーバーの役割でデバッグセッションを実行できます。 ログツールの詳細については、TechNet ライブラリの Lync Server 2010 ログツールに関するドキュメント[https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)を参照してください。
+Lync Server ログツールは、製品の実行中に、ログとトレース情報を製品からキャプチャすることでトラブルシューティングを容易にします。 このツールを使用して、任意の Lync Server サーバーの役割でデバッグセッションを実行できます。 ログツールの詳細については、TechNet ライブラリの Lync Server 2010 ログツールに関するドキュメントを参照してください [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265) 。
 
 <div>
 

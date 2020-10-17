@@ -12,20 +12,22 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34a73d343375f53acf7f1b7383efb05dd63b9a64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: db6f415b373e8271f771510d925adef1ae672ced
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208203"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524054"
 ---
+# <a name="supported-lync-server-2013-hybrid-configurations"></a>サポートされている Lync Server 2013 ハイブリッド構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-lync-server-2013-hybrid-configurations"></a>サポートされている Lync Server 2013 ハイブリッド構成
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208203"
 
 _**トピックの最終更新日:** 2016-05-10_
 
-Lync Server 2013 の展開は、Microsoft Exchange Server 2010 と Microsoft Exchange Server 2013 および SharePoint Server (オンプレミスとオンラインの両方) との統合のために構成できます。 次の表に示す機能は、特に指定のない限り、すべてのクライアントでサポートされています。 クライアントサポートの詳細については、「 [client comparison tables For Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) 」および「skype For business online クライアントでの skype for business online[の](https://go.microsoft.com/fwlink/p/?linkid=281902)クライアントの比較表」を参照してください。
+Lync Server 2013 の展開は、Microsoft Exchange Server 2010 と Microsoft Exchange Server 2013 および SharePoint Server (オンプレミスとオンラインの両方) との統合のために構成できます。 次の表に示す機能は、特に指定のない限り、すべてのクライアントでサポートされています。 クライアントサポートの詳細については、「 [client comparison tables For Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) 」および「skype For business online クライアントでの skype for business online [の](https://go.microsoft.com/fwlink/p/?linkid=281902)クライアントの比較表」を参照してください。
 
 <div>
 

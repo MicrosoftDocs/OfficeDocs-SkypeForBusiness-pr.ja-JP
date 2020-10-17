@@ -12,20 +12,22 @@ ms:contentKeyID: 48184043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a09e06925f414782ce516091383381a44cb80c2c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 387c7dcbf1d53b99bb3dd31b308ff4786f8f5803
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525424"
 ---
+# <a name="deleting-an-archiving-policy-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブポリシーの削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deleting-an-archiving-policy-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブポリシーの削除
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 
 > [!NOTE]  
-> 展開に対して Microsoft Exchange 統合を有効にした場合、exchange ポリシーで、Exchange 2013 に所属しているユーザーに対してアーカイブを有効にし、そのメールボックスをインプレース保持に設定するかどうかを制御します。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。
+> 展開に対して Microsoft Exchange 統合を有効にした場合、exchange ポリシーによって、Exchange 2013 に所属しているユーザーに対してアーカイブが有効になっているかどうかが制御され、メールボックスが In-Place 保持されます。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。
 
 
 
@@ -69,7 +71,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="removing-archiving-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してアーカイブポリシーを削除する
 
-アーカイブポリシーは、Windows PowerShell と**grant-csarchivingpolicy**コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+アーカイブポリシーは、Windows PowerShell と **grant-csarchivingpolicy** コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -101,7 +103,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 </div>
 
-詳細については、 [grant-csarchivingpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingPolicy)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [grant-csarchivingpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingPolicy) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

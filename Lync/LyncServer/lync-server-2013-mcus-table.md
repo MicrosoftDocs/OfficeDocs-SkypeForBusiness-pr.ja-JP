@@ -12,20 +12,22 @@ ms:contentKeyID: 48183674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb0e54f1f7a8e94b4d87fee9f79cd4228b3fd49d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 696a32ec4329b06c67dc8c54ba3ff2c1f15486d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185310"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524664"
 ---
+# <a name="mcus-table-in-lync-server-2013"></a>Lync Server 2013 の mcu テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mcus-table-in-lync-server-2013"></a>Lync Server 2013 の mcu テーブル
+
 
 </div>
 
@@ -49,7 +51,7 @@ Mcu テーブルは、サポートテーブルです。 各レコードには、
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>
@@ -72,7 +74,7 @@ Mcu テーブルは、サポートテーブルです。 各レコードには、
 <td><p><strong>McuTypeId</strong></p></td>
 <td><p>inyint</p></td>
 <td><p> 外部</p></td>
-<td><p>電話会議サーバーの種類 (例: チャット (Im) または conf: audio ビデオ)。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>電話会議サーバーの種類 (例: チャット (Im) または conf: audio ビデオ)。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a> 」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>

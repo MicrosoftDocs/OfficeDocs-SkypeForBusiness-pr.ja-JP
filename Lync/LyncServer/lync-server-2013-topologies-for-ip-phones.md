@@ -12,20 +12,22 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36afef4fe357e79f1d6c9579273262b265d2c0ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85ffe6b610cfbeb50239b64d1ed7448af4fa41bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193570"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523624"
 ---
+# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013 での IP 電話のトポロジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-for-ip-phones-in-lync-server-2013"></a>Lync Server 2013 での IP 電話のトポロジ
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-06-21_
 
 
 > [!NOTE]  
-> Lync Server は、次の IP 電話のサポートを提供します。 Aastra 6721ip 共通領域電話、Aastra 6721ip 卓上電話、HP 4110 IP 電話 (共通領域電話)、HP 4120 IP 電話 (デスク電話)、Polycom CX600 IP デスク電話、Polycom CX700 IP 卓上電話、Polycom CX500 IP共通領域電話、Polycom CX3000 IP 電話会議 これらの電話の場合、Polycom CX700 以外はすべて Lync Phone Edition を実行できます。
+> Lync Server は、次の IP 電話のサポートを提供します。 Aastra 6721ip 共通領域電話、Aastra 6721ip 卓上電話、HP 4110 IP 電話 (共通領域電話)、HP 4120 IP 電話 (卓上電話)、Polycom CX600 IP デスク電話、Polycom CX700 IP 卓上電話、Polycom CX500 IP 共通領域電話、Polycom CX3000 IP 電話会議電話。 これらの電話の場合、Polycom CX700 以外はすべて Lync Phone Edition を実行できます。
 
 
 

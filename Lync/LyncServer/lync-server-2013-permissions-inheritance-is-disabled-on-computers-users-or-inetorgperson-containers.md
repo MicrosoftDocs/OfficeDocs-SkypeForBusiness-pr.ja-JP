@@ -12,20 +12,22 @@ ms:contentKeyID: 48185348
 ms.date: 12/19/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f0ac6b7614da844a35f97070b61f1b074a4367
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd6e20c510c1a26b3fc367c853d08469798ff765
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524324"
 ---
+# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>Lync Server 2013 のコンピューター、ユーザー、または InetOrgPerson コンテナーでアクセス許可の継承が無効になっている
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>Lync Server 2013 のコンピューター、ユーザー、または InetOrgPerson コンテナーでアクセス許可の継承が無効になっている
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42215563"
 
 _**トピックの最終更新日:** 2014-12-19_
 
-ロックダウンされた Active Directory ドメインサービスでは、アクセス許可の継承が無効になっている特定の組織単位 (Ou) にユーザーとコンピューターオブジェクトが配置されることが多く、グループポリシーオブジェクト (Gpo) の使用を可能にするのに役立ちます。セキュリティポリシーを適用する。
+ロックダウンされた Active Directory ドメインサービスでは、アクセス許可の継承が無効になっている特定の組織単位 (Ou) にユーザーとコンピューターのオブジェクトが配置されることが多く、セキュリティポリシーを適用するために、グループポリシーオブジェクト (Gpo) の使用を有効にするために役立ちます。
 
 ドメインの準備とサーバーのアクティブ化 Lync Server 2013 によって必要とされるアクセス制御エントリ (Ace) を設定します。 アクセス許可の継承が無効になっている場合、Lync Server のセキュリティグループはこれらの Ace を継承できません。 これらのアクセス許可が継承されていない場合、Lync Server のセキュリティグループは設定にアクセスできず、次の2つの問題が発生します。
 
-  - ユーザー、InetOrgPersons、および連絡先を管理し、サーバーを操作するには、Lync Server セキュリティグループで、各ユーザーのプロパティセット、リアルタイム通信 (RTC)、RTC ユーザー検索、およびパブリック情報のドメイン準備手順によって設定された Ace を必要とします。. アクセス許可の継承が無効になっている場合、これらの ACE がセキュリティ グループに継承されないので、サーバーまたはユーザーを管理することができません。
+  - ユーザー、InetOrgPersons、および連絡先を管理し、サーバーを運用するには、Lync Server のセキュリティグループに、各ユーザーのプロパティセット、リアルタイム通信 (RTC)、RTC ユーザー検索、およびパブリック情報に関するドメインの準備手順によって設定された Ace が必要です。 アクセス許可の継承が無効になっている場合、これらの ACE がセキュリティ グループに継承されないので、サーバーまたはユーザーを管理することができません。
 
   - サーバーとプールを検出するために、Lync Server を実行しているサーバーは、Microsoft Container および Server オブジェクトを含む、コンピューターに関連するオブジェクトのアクティブ化によって設定された Ace に依存しています。 アクセス許可の継承が無効になると、セキュリティ グループ、サーバー、プールがこれらの ACE を継承しないため、ACE を利用できなくなります。
 
-これらの問題に対処するために、Lync Server は**Grant-CsOuPermission**コマンドレットを提供します。 このコマンドレットでは、指定したコンテナーと組織単位、およびコンテナーまたは組織単位内のオブジェクトに対して、必要な Lync Server Ace を直接設定します。
+これらの問題に対処するために、Lync Server は **Grant-CsOuPermission** コマンドレットを提供します。 このコマンドレットでは、指定したコンテナーと組織単位、およびコンテナーまたは組織単位内のオブジェクトに対して、必要な Lync Server Ace を直接設定します。
 
 <div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-12-19_
 
 このコマンドレットは、指定したコンテナーまたは OU、およびそのコンテナー内のユーザー オブジェクトまたは InetOrgPerson オブジェクトで、必要な ACE を直接追加します。 このコマンドが実行される OU に、ユーザーオブジェクトまたは InetOrgPerson オブジェクトを持つ子 Ou がある場合、アクセス許可はそれらに適用されません。 各子 OU でコマンドを個別に実行する必要があります。 これは、Lync ホスティング展開の一般的なシナリオです。たとえば、親 OU = OCS テナント、DC = CONTOSO、DC = ローカルおよび子 OU = Tenant1、OU = OCS テナント、DC = CONTOSO、DC = ローカルです。
 
-このコマンドレットを実行するには、Domain Admins グループ メンバーシップと同等のユーザー権限が必要です。 認証済みユーザーの Ace がロックダウンされた環境でも削除されている場合は、「[認証済みユーザーのアクセス許可が Lync Server 2013 で削除](lync-server-2013-authenticated-user-permissions-are-removed.md)されているか、または Enterprise Admins グループのメンバーであるアカウントを使用しています。
+このコマンドレットを実行するには、Domain Admins グループ メンバーシップと同等のユーザー権限が必要です。 認証済みユーザーの Ace がロックダウンされた環境でも削除されている場合は、「 [認証済みユーザーのアクセス許可が Lync Server 2013 で削除](lync-server-2013-authenticated-user-permissions-are-removed.md) されているか、または Enterprise Admins グループのメンバーであるアカウントを使用しています。
 
 **ユーザー、InetOrgPerson、および連絡先オブジェクトに必要な ACE を設定するには**
 
@@ -70,11 +72,11 @@ _**トピックの最終更新日:** 2014-12-19_
     
     Domain パラメーターを指定しない場合、既定値はローカル ドメインになります。
     
-    次に例を示します。
+    次にその例を示します。
     
         Grant-CsOuPermission -ObjectType "User" -OU "cn=Redmond,dc=contoso,dc=net" -Domain "contoso.net"
 
-4.  ログファイルで、各タスクの最後に** \<成功\> **した実行結果を探して、アクセス許可が設定されたことを確認した後、[ログ] ウィンドウを閉じます。 次のコマンドで、アクセス許可が設定されたかどうかを調べることもできます。
+4.  ログファイルで、 **\<Success\>** 各タスクの最後にある実行結果を検索して、アクセス許可が設定されていることを確認してから、[ログ] ウィンドウを閉じます。 次のコマンドで、アクセス許可が設定されたかどうかを調べることもできます。
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> 
@@ -90,11 +92,11 @@ _**トピックの最終更新日:** 2014-12-19_
 
 ## <a name="set-permissions-for-computer-objects-after-running-domain-preparation"></a>ドメイン準備手続き以後のコンピューター オブジェクトに対するアクセス許可の設定
 
-ロックダウンされた Active Directory 環境ではアクセス許可の継承が無効になるため、ドメインの準備では、ドメイン内のコンピューター オブジェクトを収容するコンテナーまたは OU で必要な ACE が設定されません。 このような状況では、アクセス許可の継承が無効になっている、Lync Server を実行しているコンピューターがある各コンテナーまたは OU で**Grant-CsOuPermission**コマンドレットを実行する必要があります。 ObjectType パラメーターは、オブジェクト タイプを指定します。
+ロックダウンされた Active Directory 環境ではアクセス許可の継承が無効になるため、ドメインの準備では、ドメイン内のコンピューター オブジェクトを収容するコンテナーまたは OU で必要な ACE が設定されません。 このような状況では、アクセス許可の継承が無効になっている、Lync Server を実行しているコンピューターがある各コンテナーまたは OU で **Grant-CsOuPermission** コマンドレットを実行する必要があります。 ObjectType パラメーターは、オブジェクト タイプを指定します。
 
 この手続きを実行すると、必要な ACE が、指定したコンテナーに直接追加されます。
 
-このコマンドレットを実行するには、Domain Admins グループ メンバーシップと同等のユーザー権限が必要です。 認証済みユーザーの Ace も削除されている場合は、「[認証済みユーザーのアクセス許可が Lync Server 2013 で削除](lync-server-2013-authenticated-user-permissions-are-removed.md)されているか、Enterprise Admins グループのメンバーであるアカウントを使用しています」の説明に従って、フォレストルートドメイン内の関連するコンテナーに対して、このアカウントに読み取りアクセス ace を付与する必要があります
+このコマンドレットを実行するには、Domain Admins グループ メンバーシップと同等のユーザー権限が必要です。 認証済みユーザーの Ace も削除されている場合は、「 [認証済みユーザーのアクセス許可が Lync Server 2013 で削除](lync-server-2013-authenticated-user-permissions-are-removed.md) されているか、Enterprise Admins グループのメンバーであるアカウントを使用しています」の説明に従って、フォレストルートドメイン内の関連するコンテナーに対して、このアカウントに読み取りアクセス ace を付与する必要があります
 
 **コンピューター オブジェクトに必要な ACE を設定するには**
 
@@ -110,11 +112,11 @@ _**トピックの最終更新日:** 2014-12-19_
     
     Domain パラメーターを指定しない場合、既定値はローカル ドメインになります。
     
-    次に例を示します。
+    次にその例を示します。
     
         Grant-CsOuPermission -ObjectType "Computer" -OU "ou=Lync Servers,dc=litwareinc,dc=com" -Report "C:\Logs\OUPermissions.xml"
 
-4.  この例のログファイル C:\\の\\ログには、各タスクの最後に** \<成功\> **した実行結果が表示され、エラーが発生していないことを確認した後、ログを閉じることができます。 次のコマンドレットを実行してアクセス許可をテストできます。
+4.  ログファイル C: LogsOUPermissions.xml の例では \\ \\ 、 **\<Success\>** 各タスクの最後に実行結果を検索し、エラーがないことを確認してからログを閉じます。 次のコマンドレットを実行してアクセス許可をテストできます。
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
@@ -127,7 +129,7 @@ _**トピックの最終更新日:** 2014-12-19_
     
 
     > [!NOTE]  
-    > ロックダウンされた Active Directory 環境で、フォレストのルートドメインでドメインの準備を実行する場合は、Lync Server に Active Directory スキーマおよび構成コンテナーへのアクセスが必要であることに注意してください。<BR>既定の認証済みユーザーのアクセス許可がスキーマまたは AD&nbsp;DS の構成コンテナーから削除された場合は、スキーマ管理者グループ (スキーマコンテナーの場合) または Enterprise Admins グループ (構成コンテナーの場合) のメンバーのみが、指定したコンテナーにアクセスできます。 Setup.exe、Lync Server 管理シェルコマンドレット、および Lync Server コントロールパネルは、これらのコンテナーへのアクセスを必要とするため、インストールを実行しているユーザーがスキーマに相当するユーザー権限を持っていない限り、管理ツールのセットアップとインストールは失敗します。管理者およびエンタープライズ管理者グループのメンバーシップ。<BR>この状況に対処するには、RTCUniversalGlobalWriteGroup グループに、スキーマ コンテナーと構成コンテナーへの読み取りおよび書き込みアクセス権を与える必要があります。
+    > ロックダウンされた Active Directory 環境で、フォレストのルートドメインでドメインの準備を実行する場合は、Lync Server に Active Directory スキーマおよび構成コンテナーへのアクセスが必要であることに注意してください。<BR>既定の認証済みユーザーのアクセス許可がスキーマまたは AD DS の構成コンテナーから削除された場合は、 &nbsp; スキーマ管理者グループ (スキーマコンテナーの場合) または Enterprise Admins グループ (構成コンテナーの場合) のメンバーのみが、指定したコンテナーにアクセスできます。 Setup.exe、Lync Server 管理シェルコマンドレット、および Lync Server コントロールパネルでは、これらのコンテナーにアクセスする必要があるため、インストールを実行しているユーザーがスキーマ管理者と Enterprise Admins グループのメンバーシップに相当するユーザー権限を持っていない限り、管理ツールのセットアップとインストールは失敗します。<BR>この状況に対処するには、RTCUniversalGlobalWriteGroup グループに、スキーマ コンテナーと構成コンテナーへの読み取りおよび書き込みアクセス権を与える必要があります。
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d413c53f8f6600170cf7ec7bfdcca8b052101eca
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 99a563df5e0eb21bf94b97dd4c578aefea896496
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525244"
 ---
+# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Lync Server 2013 での IP およびネットワークプロトコルのサポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Lync Server 2013 での IP およびネットワークプロトコルのサポート
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 Lync Server 2013 では、次の IP およびネットワークプロトコルがサポートされています。
 
-  - **IP プロトコル。**   Lync server 2013 では、サーバーネットワークの ip バージョン 4 (IPv4) または ip version 6 (IPv6) のいずれかがサポートされています。
+  - **IP プロトコル。**    Lync Server 2013 では、サーバーネットワークの IP バージョン 4 (IPv4) または IP version 6 (IPv6) のいずれかがサポートされています。
     
     <div>
     
@@ -50,7 +52,7 @@ Lync Server 2013 では、次の IP およびネットワークプロトコル�
     
     </div>
 
-  - **SIP トランスポートプロトコル。**   一般的に、SIP は少なくとも3つのトランスポートの種類 (ユーザーデータグラムプロトコル (UDP)、伝送制御プロトコル (TCP)、およびトランスポート層セキュリティ (TLS) を使用できます。 既定の SIP 転送構成では、TLS は TCP 上で動作します。 TLS は、Lync Server 2013 ネットワーク内で使用されます。 ネットワークのエッジでは、Lync Server 2013 は TCP 経由で相互運用できます。 Lync Server 2013 は、エンタープライズ通信のセキュリティ、信頼性、およびスケーラビリティに関する最低限の標準を満たしていないため、SIP トランスポートの UDP をサポートしていません。 詳細については、「」を参照してください[https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369)。「NextHop」のブログ記事「udp または udp では使用できません。
+  - **SIP トランスポートプロトコル。**    一般的に、SIP は少なくとも3つのトランスポートの種類 (ユーザーデータグラムプロトコル (UDP)、伝送制御プロトコル (TCP)、およびトランスポート層セキュリティ (TLS) を使用できます。 既定の SIP 転送構成では、TLS は TCP 上で動作します。 TLS は、Lync Server 2013 ネットワーク内で使用されます。 ネットワークのエッジでは、Lync Server 2013 は TCP 経由で相互運用できます。 Lync Server 2013 は、エンタープライズ通信のセキュリティ、信頼性、およびスケーラビリティに関する最低限の標準を満たしていないため、SIP トランスポートの UDP をサポートしていません。 詳細については、「」を参照してください。「NextHop」のブログ記事「udp または UDP では使用できません [https://go.microsoft.com/fwlink/p/?linkId=185369](https://go.microsoft.com/fwlink/p/?linkid=185369) 。
     
     <div>
     

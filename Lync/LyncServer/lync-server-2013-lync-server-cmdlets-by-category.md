@@ -12,20 +12,22 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68764952ebfe2a45895e480d923d76a108fdda8e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 107a6a2094537c6937ae401f68807b494634f75f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218263"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525054"
 ---
+# <a name="lync-server-2013-cmdlets-by-category"></a>Lync Server 2013 のコマンドレット (カテゴリ別)
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-cmdlets-by-category"></a>Lync Server 2013 のコマンドレット (カテゴリ別)
+
 
 </div>
 
@@ -41,7 +43,7 @@ Microsoft Lync Server 2013 には、管理者が Lync Server をコマンドラ�
 
     Get-Help New-CsVoicePolicy -Full
 
-上記のコマンドは、 **set-csvoicepolicy**コマンドレットで利用可能なすべてのヘルプを取得します。 ヘルプを取得するコマンドレットの名前を使用して、Set-csvoicepolicy への参照を**追加**します。
+上記のコマンドは、 **set-csvoicepolicy** コマンドレットで利用可能なすべてのヘルプを取得します。 ヘルプを取得するコマンドレットの名前を使用して、Set-csvoicepolicy への参照を **追加** します。
 
 Microsoft Lync Server 2013 の管理に使用できるコマンドレットの完全な一覧を取得するには、Lync Server 管理シェルコマンドプロンプトで次のように入力します。
 
@@ -53,7 +55,7 @@ Microsoft Lync Server 2013 の管理に使用できるコマンドレットの�
 
 
 > [!NOTE]
-> Skype for Business のコマンドレットリファレンスが docs.microsoft.com に移動されました。 以下のリンクをクリックすると、新しい docs.microsoft.com ページに移動します。 これで、GitHub を通じてコミュニティの投稿に使用できるようになるコンテンツが公開されました。 投稿に興味はありますか? ここでは、リポジトリ内の README を確認してください。<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Skype for Business のコマンドレットリファレンスが docs.microsoft.com に移動されました。 以下のリンクをクリックすると、新しい docs.microsoft.com ページに移動します。 これで、GitHub を通じてコミュニティの投稿に使用できるようになるコンテンツが公開されました。 投稿に興味はありますか? ここでは、リポジトリ内の README を確認してください。 <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 

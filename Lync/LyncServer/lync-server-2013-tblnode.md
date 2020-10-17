@@ -12,20 +12,22 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 459b5393f255ade4e510f17c11beccf2f38f7cfc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e6070f6a575466d9ce7063c588e5d470e047d52
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214552"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523814"
 ---
+# <a name="tblnode-in-lync-server-2013"></a>Lync Server 2013 の tblNode
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblnode-in-lync-server-2013"></a>Lync Server 2013 の tblNode
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-12_
 
 tblNode には、Lync Server 2013 コントロールパネルおよび管理コマンドレットで管理されるオブジェクトツリー (カテゴリまたはチャットルームノードを含む) が含まれています。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>段組み
 
 <table>
 <colgroup>
@@ -49,7 +51,7 @@ tblNode には、Lync Server 2013 コントロールパネルおよび管理コ�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>種類</th>
 <th>説明</th>
 </tr>
@@ -160,7 +162,7 @@ tblNode には、Lync Server 2013 コントロールパネルおよび管理コ�
 <tr class="even">
 <td><p>Tblsiopwhitelist.siopid</p></td>
 <td><p>GUID</p></td>
-<td><p>アドインがこのチャットルームに関連付けられている場合は、アドインの GUID。 (カテゴリにはアドインはありません。)</p>
+<td><p>アドインがこのチャットルームに関連付けられている場合は Add-In GUID。 (カテゴリにはアドインはありません。)</p>
 <p>アドイン情報は、SiopWhiteList リストテーブルで検索されます。</p></td>
 </tr>
 <tr class="odd">

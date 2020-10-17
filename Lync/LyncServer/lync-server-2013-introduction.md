@@ -12,20 +12,22 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b25a989913db4e76b306eaaf7efba38612a2315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f2878f47fcace98bbd9e156f24c2b87e85faf728
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186870"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525234"
 ---
+# <a name="introduction-to-lync-server-2013"></a>Lync Server 2013 の概要
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="introduction-to-lync-server-2013"></a>Lync Server 2013 の概要
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2013-10-07_
 
 Lync Server 2013 とそのクライアントソフトウェア (Lync 2013 など) により、ユーザーは新しい方法で接続し、物理的な場所に関係なく接続を維持することができます。 Lync および Lync Server は、ユーザーが1つのクライアントインターフェイスで通信し、統一されたプラットフォームとして展開され、単一の管理インフラストラクチャを通じて管理するさまざまな方法を統合しています。
 
-この表と以下のセクションでは、Lync Server がユーザーに提供する主な機能セット (*ワークロード*) について説明します。
+この表と以下のセクションでは、Lync Server がユーザーに提供する主な機能セット ( *ワークロード*) について説明します。
 
 
 <table>
@@ -80,7 +82,7 @@ Lync Server 2013 とそのクライアントソフトウェア (Lync 2013 など
 </tr>
 <tr class="odd">
 <td><p>エンタープライズ VoIP</p></td>
-<td><p><em>エンタープライズ voip</em>は、Lync Server でのボイスオーバー Ip (VoIP) サービスです。 従来の構内交換機 (PBX) システムを強化または置き換える音声オプションを提供します。 IP PBX のすべてのテレフォニー機能に加え、エンタープライズ VoIP は豊富なプレゼンス、IM、共同作業、および会議と統合されています。 通話応答、保留、再開、着信転送、通話転送、リモート転送などの機能が直接サポートされ、また、個人用短縮ダイヤル キーは連絡先リストに置き換えられ、自動インターコムは IM に置き換えられます。</p>
+<td><p><em>エンタープライズ voip</em> は、Lync Server でのボイスオーバー Ip (VoIP) サービスです。 従来の構内交換機 (PBX) システムを強化または置き換える音声オプションを提供します。 IP PBX のすべてのテレフォニー機能に加え、エンタープライズ VoIP は豊富なプレゼンス、IM、共同作業、および会議と統合されています。 通話応答、保留、再開、着信転送、通話転送、リモート転送などの機能が直接サポートされ、また、個人用短縮ダイヤル キーは連絡先リストに置き換えられ、自動インターコムは IM に置き換えられます。</p>
 <p>エンタープライズ VoIP は、通話受付管理 (CAC) による高い可用性、ブランチ オフィスの存続性、およびデータ復元性の拡張オプションをサポートします。</p></td>
 </tr>
 <tr class="even">
@@ -90,7 +92,7 @@ Lync Server 2013 とそのクライアントソフトウェア (Lync 2013 など
 </tr>
 <tr class="odd">
 <td><p>モバイル クライアントのサポート</p></td>
-<td><p>さらに、Lync Server mobility service では、サポートされている Apple iOS、Android、Windows Phone、または Nokia のモバイルデバイスを使用して Lync 機能にアクセスし、インスタントメッセージの送受信、連絡先の表示などのアクティビティを実行することができます。プレゼンスを表示します。 また、クリックして会議に参加、勤務先から通話、同一番号接続、ボイス メール、不在着信など、モバイル デバイスでいくつかのエンタープライズ VoIP 機能がサポートされます。 バックグラウンドで実行されるアプリケーションをサポートしないモバイル デバイス用にプッシュ通知もサポートされます。</p></td>
+<td><p>さらに、Lync Server mobility services では、サポートされている Apple iOS、Android、Windows Phone、または Nokia のモバイルデバイスを使用して Lync 機能にアクセスしたり、インスタントメッセージの送受信、連絡先の表示、プレゼンスの表示などのアクティビティを実行したりできます。 また、クリックして会議に参加、勤務先から通話、同一番号接続、ボイス メール、不在着信など、モバイル デバイスでいくつかのエンタープライズ VoIP 機能がサポートされます。 バックグラウンドで実行されるアプリケーションをサポートしないモバイル デバイス用にプッシュ通知もサポートされます。</p></td>
 </tr>
 <tr class="even">
 <td><p>他の製品との統合</p></td>

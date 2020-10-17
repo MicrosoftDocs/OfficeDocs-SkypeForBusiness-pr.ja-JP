@@ -12,20 +12,22 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb24be3ba069bcf900c86c4e4b45ef31420a3ff9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0be055238c2e8db45337b9e66d936bb73c73e61
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186810"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525204"
 ---
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Lync Server 2013 の IP 電話インベントリレポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Lync Server 2013 の IP 電話インベントリレポート
+
 
 </div>
 
@@ -67,7 +69,7 @@ IP 電話インベントリ レポートは、[監視レポート] ホーム ペ
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>IP 電話インベントリ レポートの活用
 
-1つの特定の種類の電話 (「ユーザーが Polycom CX600 電話を使用する頻度」など) の利用状況に関する情報のみが必要な場合は、その特定の種類の電話にフィルターを適用することによって、その情報を IP 電話インベントリレポートから直接取得できます。 ただし、すべての電話の概要情報 (Polycom CX600 を使用しているユーザーの数、LG-NORTEL の IP8540 など) を使用する場合は、そのデータをエクスポートして、別のアプリケーション (Windows PowerShell など) を使用してその種類のを実行する必要があります。analysis. たとえば、データをコンマ区切り値ファイル (\\C: data\\IP\_Phone\_Inventory\_Report .csv) にエクスポートするとします。 その場合は、次の2つのコマンドを使用して、すべての電話の概要データを提供できます。
+1つの特定の種類の電話 (「ユーザーが Polycom CX600 電話を使用する頻度」など) の利用状況に関する情報のみが必要な場合は、その特定の種類の電話にフィルターを適用することによって、その情報を IP 電話インベントリレポートから直接取得できます。 ただし、すべての電話の概要情報 (Polycom CX600 を使用しているユーザー数、IP8540 など) を使用し LG-Nortel ている場合は、そのデータをエクスポートし、別のアプリケーション (Windows PowerShell など) を使用してその種類の分析を実行する必要があります。 たとえば、データをコンマ区切り値ファイル (C: \\ data \\ IP \_ Phone \_ InventoryReport.csv) にエクスポートするとし \_ ます。 その場合は、次の2つのコマンドを使用して、すべての電話の概要データを提供できます。
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
@@ -138,12 +140,12 @@ IP 電話インベントリレポートを使用するもう1つの興味深い�
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
 <p>7/3/2012</p>
-<p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
+<p>週は、常に日曜日から土曜日までです。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
@@ -173,8 +175,8 @@ IP 電話インベントリレポートを使用するもう1つの興味深い�
 <td><p>[<strong>この日数より前の最後のアクティビティ</strong>]</p></td>
 <td><p>次のいずれかの値を選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
-<li><p>10 </p></li>
+<li><p>[All]</p></li>
+<li><p>10  </p></li>
 <li><p>1280</p></li>
 <li><p>31</p></li>
 </ul></td>
@@ -183,8 +185,8 @@ IP 電話インベントリレポートを使用するもう1つの興味深い�
 <td><p>[<strong>この日数より前の最後のログオフ時刻</strong>]</p></td>
 <td><p>次のいずれかの値を選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
-<li><p>10 </p></li>
+<li><p>[All]</p></li>
+<li><p>10  </p></li>
 <li><p>1280</p></li>
 <li><p>31</p></li>
 </ul></td>
@@ -223,42 +225,42 @@ IP 電話インベントリレポートを使用するもう1つの興味深い�
 <tbody>
 <tr class="odd">
 <td><p><strong>製造</strong></p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>IP 電話を製造した会社の名前。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>ハードウェア バージョン</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>IP 電話のバージョン番号。</p></td>
 </tr>
 <tr class="odd">
 <td><p>[<strong>MAC アドレス</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>IP 電話のネットワーク インターフェイスの一意の識別子。MAC アドレスは、通常、電話の製造時に割り当てられ、デバイス ハードウェアに組み込まれます。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>ユーザー URI</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>IP 電話を使用したユーザーの SIP アドレス。</p></td>
 </tr>
 <tr class="odd">
 <td><p>[<strong>ユーザー エージェント</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>IP 電話で使われているソフトウェアの識別子。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>最後にログオンした時刻</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>IP 電話が Lync Server に最後にログオンした日付と時刻。</p></td>
 </tr>
 <tr class="odd">
 <td><p>[<strong>最後にログオフした時刻</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>IP 電話が Lync Server から前回ログオフした日時。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>最後のアクティビティ</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>IP 電話が最後に使われた日時。</p></td>
 </tr>
 </tbody>

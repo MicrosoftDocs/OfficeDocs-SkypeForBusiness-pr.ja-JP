@@ -12,20 +12,22 @@ ms:contentKeyID: 48184160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afc2b1599551cfc3b7ee7341e441946610166ba0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 46242343d6da54a6ac1123663734645fd4f64a5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525004"
 ---
+# <a name="manage-external-access-policy-in-lync-server-2013"></a>Lync Server 2013 での外部アクセスポリシーの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-external-access-policy-in-lync-server-2013"></a>Lync Server 2013 での外部アクセスポリシーの管理
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**トピックの最終更新日:** 2013-10-07_
     
 
     > [!NOTE]  
-    > XMPP フェデレーションを有効にする場合は、トポロジビルダーのエッジプール構成セクションで<STRONG>xmpp フェデレーション</STRONG>を展開することも選択する必要があります。 XMPP フェデレーションを構成すると、エッジサーバーには XMPP プロキシが展開され、フロントエンドサーバーには XMPP ゲートウェイが展開されます。
+    > XMPP フェデレーションを有効にする場合は、トポロジビルダーのエッジプール構成セクションで <STRONG>xmpp フェデレーション</STRONG> を展開することも選択する必要があります。 XMPP フェデレーションを構成すると、エッジサーバーには XMPP プロキシが展開され、フロントエンドサーバーには XMPP ゲートウェイが展開されます。
 
     
     </div>
@@ -103,7 +105,7 @@ _**トピックの最終更新日:** 2013-10-07_
 
 **Windows PowerShell コマンドレットを使用して外部アクセスポリシーを表示するには**
 
-  - 外部アクセスポリシーは、Lync Server 管理シェルと**get-csexternalaccesspolicy**コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+  - 外部アクセスポリシーは、Lync Server 管理シェルと **get-csexternalaccesspolicy** コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
     
     すべての外部アクセス ポリシーに関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、Enter キーを押します。
     

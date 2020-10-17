@@ -12,20 +12,22 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89c87de9c57abaf4938b350aa40e8deea1150d22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ebc49336712e96bca428132f3ccad631817208d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208293"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524174"
 ---
+# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Lync Server 2013 での hosted Exchange UM 統合のサポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Lync Server 2013 での hosted Exchange UM 統合のサポート
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42208293"
 
 _**トピックの最終更新日:** 2012-09-21_
 
-Lync Server 2013 ExUM ルーティングアプリケーションは、オンプレミス環境での Exchange ユニファイドメッセージング (UM) との統合をサポートしています。これは、Lync Server の2013と Exchange UM の両方が企業内でローカルにインストールされているか、または、によってホストされる Exchange UM と共存しています。次の図に示すように、サービスプロバイダー。
+Lync Server 2013 ExUM ルーティングアプリケーションは、次の図に示すように、オンプレミス環境での Exchange ユニファイドメッセージング (UM) との統合をサポートしています。これは、Lync Server 2013 と Exchange UM の両方が企業内でローカルにインストールされているか、またはサービスプロバイダーによってホストされている Exchange UM と共
 
 ![オンプレミスの Lync Server Exchange UM 展開](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "オンプレミスの Lync Server Exchange UM 展開")
 
 次のモードがサポートされています。
 
-  - **オンプレミスモード**   Lync Server 2013 と Exchange UM は、どちらも企業内のローカルサーバーに展開されます。
+  - **オンプレミスモード**    Lync Server 2013 と Exchange UM は、どちらも企業内のローカルサーバーに展開されています。
 
-  - **クロスプレミスモード**   Lync Server 2013 は、企業内のローカルサーバーに展開され、exchange UM は Microsoft Exchange online データセンターなどのオンラインサービスプロバイダーの施設でホストされます。
+  - **クロスプレミスモード**    Lync Server 2013 は、企業内のローカルサーバーに展開され、Exchange UM は Microsoft Exchange Online データセンターなどのオンラインサービスプロバイダーの施設でホストされます。
 
-  - **混在モード**   Lync Server 2013 の展開には、企業内の Microsoft Exchange Server を実行しているローカルサーバーに所属するユーザーメールボックスと、ホストされている Exchange サービスデータセンターに所属する一部のメールボックスがあります。
+  - **混在モード**    Lync Server 2013 の展開には、企業内の Microsoft Exchange Server を実行しているローカルサーバーと、ホストされた Exchange サービスデータセンターに所属する一部のメールボックスがあります。
     
     <div>
     
@@ -58,7 +60,7 @@ Lync Server 2013 ExUM ルーティングアプリケーションは、オンプ�
     
     </div>
 
-Lync Server 2013 を hosted Exchange UM と統合するには、*共有 SIP アドレススペース*(*分割ドメイン*とも呼ばれます) を構成する必要があります。 この構成では、Lync Server 2013 とサードパーティのホストされた Exchange UM サービスプロバイダーの両方が、同じ SIP ドメインアドレススペースにアクセスできます。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 の Hosted EXCHANGE UM 統合アーキテクチャ](lync-server-2013-hosted-exchange-um-integration-architecture.md)」を参照してください。
+Lync Server 2013 を hosted Exchange UM と統合するには、 *共有 SIP アドレススペース* ( *分割ドメイン*とも呼ばれます) を構成する必要があります。 この構成では、Lync Server 2013 とサードパーティのホストされた Exchange UM サービスプロバイダーの両方が、同じ SIP ドメインアドレススペースにアクセスできます。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 の Hosted EXCHANGE UM 統合アーキテクチャ](lync-server-2013-hosted-exchange-um-integration-architecture.md) 」を参照してください。
 
 </div>
 

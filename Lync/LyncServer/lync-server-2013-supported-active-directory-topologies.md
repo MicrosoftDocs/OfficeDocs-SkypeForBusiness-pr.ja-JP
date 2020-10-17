@@ -12,20 +12,22 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9437df126889aefb8400b50d118d44dac12f285d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46f9236bfbd110ee17811edec2e3e81fc4a0e0f4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208263"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524164"
 ---
+# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013 でサポートされている Active Directory トポロジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013 でサポートされている Active Directory トポロジ
+
 
 </div>
 
@@ -115,7 +117,7 @@ Lync Server でサポートされている他の Active Directory トポロジ�
 
 ## <a name="multiple-forests-central-forest"></a>複数フォレスト、中央フォレスト
 
-Lync Server は、中央フォレストトポロジで構成されている複数のフォレストをサポートします。 中央フォレストトポロジは、中央フォレストの連絡先オブジェクトを使用して、他のフォレスト内のユーザーを表します。 中央フォレストは、このフォレスト内のすべてのユーザーのユーザーアカウントもホストします。 Microsoft Identity Integration Server (MIIS)、Microsoft Forefront Identity Manager (FIM) 2010、または Microsoft Identity cycle Manager (ILM) 2007 Feature Pack 1 (FP1) などのディレクトリ同期製品は、でのユーザーアカウントのライフサイクルを管理します。組織: フォレストの1つに新しいユーザーアカウントが作成されるか、またはユーザーアカウントがフォレストから削除されると、ディレクトリ同期製品によって、中央フォレスト内の対応する連絡先が同期されます。
+Lync Server は、中央フォレストトポロジで構成されている複数のフォレストをサポートします。 中央フォレストトポロジは、中央フォレストの連絡先オブジェクトを使用して、他のフォレスト内のユーザーを表します。 中央フォレストは、このフォレスト内のすべてのユーザーのユーザーアカウントもホストします。 Microsoft Identity Integration Server (MIIS) などのディレクトリ同期製品 Microsoft Forefront Identity Manager (FIM) 2010、または Microsoft Identity cycle Manager (ILM) 2007 Feature Pack 1 (FP1) は、組織内のユーザーアカウントのライフサイクルを管理します。フォレストの1つで新しいユーザーアカウントが作成されるか、またはユーザーアカウントがフォレストから削除されると、ディレクトリ同期製品は中央フォレスト内の対応する連絡先を同期し
 
 中央フォレストには、次に示す利点があります。
 
@@ -159,7 +161,7 @@ Lync Server は、中央フォレストトポロジで構成されている複�
 
 このトポロジでは、1つ以上のフォレストが社内に配置されており、Active Directory のユーザーアカウントをホストするために専用になっています。 リソースフォレストはオフプレミスにあり、サードパーティのホスティングプロバイダーによって管理されます。 リソースフォレストには、Lync Server の展開と、オンプレミスのユーザーアカウントフォレストからのユーザーアカウントの同期レプリケーションのみが含まれています。 ログオンが有効なユーザーアカウントは含まれていません。 Exchange は、exchange Online (ハイブリッド) と共に統合されたオンプレミスのユーザーアカウントフォレストに展開されるか、または社内ユーザーアカウントの電子メールサービスが Exchange Online によってのみ提供されます。
 
-リソースフォレストは、ユーザーオブジェクトが存在するオンプレミスの Active Directory フォレストの共有サービス環境として機能します。 ユーザーアカウントのフォレストには、1つの方法でリソースフォレストとのフォレストレベルの信頼関係があります。 この種類のトポロジで Lync Server を展開する場合は、ユーザーフォレスト内のすべてのユーザーアカウントについて、リソースフォレスト内に無効なユーザーオブジェクトを1つ作成します。 MIIS、Microsoft Forefront Identity Manager (FIM) 2010、または Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1) などのディレクトリ同期製品は、ユーザー アカウントのライフ サイクルを管理します。 いずれかのユーザー フォレストで新しいユーザー アカウントが作成されるか、フォレストからユーザー アカウントが削除されると、ディレクトリ同期製品がリソース フォレスト内の対応するユーザー表現を同期します。 複数フォレスト展開の構成の詳細については、「[複数フォレストアーキテクチャでの lync の展開 (Exchange ハイブリッドを使用したパートナーホスト](https://go.microsoft.com/fwlink/p/?linkid=513216)された lync)」を参照してください。
+リソースフォレストは、ユーザーオブジェクトが存在するオンプレミスの Active Directory フォレストの共有サービス環境として機能します。 ユーザーアカウントのフォレストには、1つの方法でリソースフォレストとのフォレストレベルの信頼関係があります。 この種類のトポロジで Lync Server を展開する場合は、ユーザーフォレスト内のすべてのユーザーアカウントについて、リソースフォレスト内に無効なユーザーオブジェクトを1つ作成します。 MIIS、Microsoft Forefront Identity Manager (FIM) 2010、または Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1) などのディレクトリ同期製品は、ユーザー アカウントのライフ サイクルを管理します。 いずれかのユーザー フォレストで新しいユーザー アカウントが作成されるか、フォレストからユーザー アカウントが削除されると、ディレクトリ同期製品がリソース フォレスト内の対応するユーザー表現を同期します。 複数フォレスト展開の構成の詳細については、「 [複数フォレストアーキテクチャでの lync の展開 (Exchange ハイブリッドを使用したパートナーホスト](https://go.microsoft.com/fwlink/p/?linkid=513216)された lync)」を参照してください。
 
 </div>
 

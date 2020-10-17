@@ -12,20 +12,22 @@ ms:contentKeyID: 49733687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4f3f73606cfd05df17022770da7dcd1f5266b21
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 329396549a02a354939b166c8785b875faee2f78
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185330"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524724"
 ---
+# <a name="mcujoinsandleaves-view-in-lync-server-2013"></a>Lync Server 2013 の McuJoinsAndLeaves ビュー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mcujoinsandleaves-view-in-lync-server-2013"></a>Lync Server 2013 の McuJoinsAndLeaves ビュー
+
 
 </div>
 
@@ -48,7 +50,7 @@ McuJoinsAndLeaves ビューには、1 つの会議サーバーのユーザーの
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>詳細</th>
 </tr>
@@ -57,12 +59,12 @@ McuJoinsAndLeaves ビューには、1 つの会議サーバーのユーザーの
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>日付型</p></td>
-<td><p>会議インスタンスの時間。 SessionIdSeq と合わせて使用して、会議インスタンスを一意に識別します。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a>の電話会議の表」を参照してください。</p></td>
+<td><p>会議インスタンスの時間。 SessionIdSeq と合わせて使用して、会議インスタンスを一意に識別します。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a> の電話会議の表」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
-<td><p>会議インスタンスを識別する ID 番号。 SessionIdTime と合わせて使用して、会議インスタンスを一意に識別します。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a>の電話会議の表」を参照してください。</p></td>
+<td><p>会議インスタンスを識別する ID 番号。 SessionIdTime と合わせて使用して、会議インスタンスを一意に識別します。 詳細については、「 <a href="lync-server-2013-conferences-table.md">Lync Server 2013</a> の電話会議の表」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuUri</strong></p></td>
@@ -72,7 +74,7 @@ McuJoinsAndLeaves ビューには、1 つの会議サーバーのユーザーの
 <tr class="even">
 <td><p><strong>Mcuuritoff</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>ユーザーが接続した会議サーバーの URI。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>ユーザーが接続した会議サーバーの URI。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
@@ -82,12 +84,12 @@ McuJoinsAndLeaves ビューには、1 つの会議サーバーのユーザーの
 <tr class="even">
 <td><p><strong>Useruritoff</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>会議サーバーの参加/退出情報がキャプチャされたユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>会議サーバーの参加/退出情報がキャプチャされたユーザーの URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>会議サーバーの参加/退出情報がキャプチャされたユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a>」を参照してください。</p></td>
+<td><p>会議サーバーの参加/退出情報がキャプチャされたユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientVersion</strong></p></td>
@@ -97,7 +99,7 @@ McuJoinsAndLeaves ビューには、1 つの会議サーバーのユーザーの
 <tr class="odd">
 <td><p><strong>UserClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>会議サーバーの参加/退出情報がキャプチャされたユーザーが使用しているクライアント。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a>」を参照してください。</p></td>
+<td><p>会議サーバーの参加/退出情報がキャプチャされたユーザーが使用しているクライアント。 詳細については、「 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 の Useragentdef テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientCategory</strong></p></td>
@@ -117,12 +119,12 @@ McuJoinsAndLeaves ビューには、1 つの会議サーバーのユーザーの
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>日付型</p></td>
-<td><p>セッション要求の時間。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッション要求の時間。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogId</strong></p></td>

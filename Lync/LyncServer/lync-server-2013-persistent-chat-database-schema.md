@@ -12,20 +12,22 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a18cd17686133219ccc60d5e85fd149df190665a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b393f9281c1bb1fc1072a541b33bbab2656dafb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202173"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524254"
 ---
+# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Lync Server 2013 の常設チャットデータベーススキーマ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Lync Server 2013 の常設チャットデータベーススキーマ
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-18_
 
 このドキュメントでは、Lync Server 2013 communications software の常設チャットデータベースのスキーマについて解説します。
 
-常設チャットデータベースは、Lync Server 2013 のバックエンドサーバーロール**PersistentChatStore** (mgc データベースに対応) および**PersistentChatComplianceStore** (データベースに対応) に対応するデータベースを参照します。 このスキーマを公開する目的は、クエリを作成し、チャットの使用状況、アクティブなルーム、上位のポスターなどに関する有用なレポートの作成について理解できるようにすることです。
+常設チャットデータベースは、Lync Server 2013 のバックエンドサーバーロール **PersistentChatStore** (mgc データベースに対応) および **PersistentChatComplianceStore** (データベースに対応) に対応するデータベースを参照します。 このスキーマを公開する目的は、クエリを作成し、チャットの使用状況、アクティブなルーム、上位のポスターなどに関する有用なレポートの作成について理解できるようにすることです。
 
 <div>
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2012-09-18_
 
 次のベスト プラクティスに従ってください。
 
-  - 列リスト\*を拡張できるため、SELECT//はサポートされません。
+  - \*列リストを拡張できるため、SELECT//はサポートされません。
 
   - ユーザーが生成したスキーマの変更はサポートされません。
 

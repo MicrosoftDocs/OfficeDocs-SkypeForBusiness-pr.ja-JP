@@ -12,20 +12,22 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5007ec14ad197afb2cfb8d2c73baa41ed144a4e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a50431ee1917c580440f8a47cff0ca09f5e47f07
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216503"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524434"
 ---
+# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>オプションLync Server 2013 での会議の参加と脱退のアナウンスを有効または無効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>オプションLync Server 2013 での会議の参加と脱退のアナウンスを有効または無効にする
+
 
 </div>
 
@@ -60,11 +62,11 @@ _**トピックの最終更新日:** 2012-09-30_
         [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
         [-EntryExitAnnouncementsType <UseNames | ToneOnly]
     
-    **EnableNameRecording**   は、会議に入る前に、匿名の参加者が名前を記録するように要求するかどうかを決定します。 既定値は "$true" で、これは、匿名参加者が会議に参加するときに名前を入力するように求められることを意味します。 (認証された参加者は、表示名が代わりに使用されるので、名前を記録しません。)
+    **EnableNameRecording**    匿名参加者が電話会議に入る前に名前を記録するように要求するかどうかを指定します。 既定値は "$true" で、これは、匿名参加者が会議に参加するときに名前を入力するように求められることを意味します。 (認証された参加者は、表示名が代わりに使用されるので、名前を記録しません。)
     
-    **EntryExitAnnouncementsEnabledByDefault**   は、アナウンスが既定でオンまたはオフにされているかどうかを示します。 既定値は "$false" で、これは既定で、参加者が会議に参加または退室したときにアナウンスがないことを意味します。 会議の開催者は、会議をスケジュールするときにこの設定を上書きすることができます。
+    **EntryExitAnnouncementsEnabledByDefault**    アナウンスを既定で有効または無効にするかどうかを示します。 既定値は "$false" で、これは既定で、参加者が会議に参加または退室したときにアナウンスがないことを意味します。 会議の開催者は、会議をスケジュールするときにこの設定を上書きすることができます。
     
-    **Entryexitアナウンス ementstype**   は、参加者がアナウンスが有効になっている会議に参加または退室したときに実行されるアクションを示します。 既定値は "UseNames です。これは、アナウンスが有効になっている場合に、" Ken Myer が会議に参加しました "ということを意味します。
+    **Entryexitアナウンス Ementstype**    参加者が、アナウンスが有効になっている会議に参加または退室したときに実行されるアクションを示します。 既定値は "UseNames です。これは、アナウンスが有効になっている場合に、" Ken Myer が会議に参加しました "ということを意味します。
     
     これらの設定は、グローバル スコープまたはサイト スコープで構成できます。 サイト スコープで構成した設定は、グローバル スコープで構成した設定より優先されます。
     

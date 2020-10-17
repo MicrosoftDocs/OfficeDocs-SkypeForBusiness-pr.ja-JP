@@ -12,20 +12,22 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab7d85bd25c6123b3befd3520289e40c63461970
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181570"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523974"
 ---
+# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 でサポートされているサーバー移行パスと共存のシナリオ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Lync Server 2013 でサポートされているサーバー移行パスと共存のシナリオ
+
 
 </div>
 
@@ -78,15 +80,15 @@ Lync Server 2013 は、Lync Server 2010 展開または Office Communications Se
 
 以前の Lync Server 2010 または Office Communications Server 2007 R2 展開が新しい Lync Server 2013 展開を一時的に coexists する段階的な移行では、混在バージョンルーティングのサポートは制限されています。 詳細については、移行に関するドキュメントを参照してください。
 
-Lync Server 2013 データベースインスタンスでは、Microsoft SQL Server 2008 R2 または Microsoft SQL Server 2012 を実行している独立した別個のコンピューターを使用する必要があります。 Lync Server 2010 または Office Communications Server 2007 R2 フロントエンドプールに使用する Lync Server 2013 フロントエンドプールに対して、同じ SQL Server のインスタンスを使用することはできません。 Lync server 2010 または Office Communications Server 2007 R2 が既に展開されている展開に対して、トポロジビルダーで Lync Server 2013 を定義して構成した場合、トポロジビルダーでは、既に使用されている Lync Server 2013 のインスタンスを定義することはできません。トポロジ。
+Lync Server 2013 データベースインスタンスでは、Microsoft SQL Server 2008 R2 または Microsoft SQL Server 2012 を実行している独立した別個のコンピューターを使用する必要があります。 Lync Server 2010 または Office Communications Server 2007 R2 フロントエンドプールに使用する Lync Server 2013 フロントエンドプールに対して、同じ SQL Server のインスタンスを使用することはできません。 既に Lync 2010 Server または Office Communications Server 2007 R2 が展開されている展開のために、トポロジビルダーで Lync Server 2013 を定義して構成した場合、トポロジビルダーでは、トポロジで既に使用されている Lync Server 2013 のインスタンスを定義することはできません。
 
-トポロジビルダーでは、次のメッセージが表示されます。この問題につい\[ては、「\]サーバーの sql Server の FQDN に、sql インスタンスのホストされている役割 ' ユーザーストア ' が既に含まれています。」というメッセージが表示されます。
+トポロジビルダーでは、次のメッセージが表示されます。この問題については、「 \[ サーバーの sql server の FQDN \] に、sql インスタンスのホストされている役割 ' ユーザーストア ' が既に含まれています。」というメッセージが表示されます。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 の展開に新しく追加されたサーバーの役割を展開する場合は、まず、「移行」のドキュメントおよび「展開」のドキュメントで説明されているように既存の展開をアップグレードし、次の説明に従って新しいサーバーの役割を展開する必要があります。「計画」のドキュメントと「展開」のドキュメントを参照してください。 以前のバージョンのグループチャットを移行する場合は、Lync Server 2010 または Office Communications Server 2007 R2 から他のすべてのコンポーネントを移行するプロセスを完了した後、最後に移行します。
+> Lync Server 2013 の展開に新しく追加されたサーバーの役割を展開する場合は、まず、「移行」のドキュメントおよび「展開」のドキュメントで説明されているように既存の展開をアップグレードしてから、「計画」のドキュメントと「展開」のドキュメントで説明されているように、新しいサーバーの役割を展開します。 以前のバージョンのグループチャットを移行する場合は、Lync Server 2010 または Office Communications Server 2007 R2 から他のすべてのコンポーネントを移行するプロセスを完了した後、最後に移行します。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6797d5e65f182e8a28bb442858070ffed19fcc80
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b34b3a0dd79651ef288740243313d58482959e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524784"
 ---
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Lync Server 2013 で通話詳細記録と qoe (Quality of Experience) データベースを手動で削除する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>Lync Server 2013 で通話詳細記録と qoe (Quality of Experience) データベースを手動で削除する
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2014-07-07_
 
 管理者は、通話詳細記録 (CDR) や QoE (Quality of Experience) データベースを構成して、データベースから古いレコードを自動的に削除することができます。これは、指定されたデータベース (CDR または QoE) に対して削除が有効になっており、指定された時間よりも長いデータベースにレコードがある場合に発生します。 たとえば、1:00 AM 管理者の毎日、qoe 60 レコードが QoE データベースから削除されるようにシステムを構成することができます。
 
-この自動削除に加えて、Invoke-cscdrdatabasepurge と Invoke-CsQoEDatbasePurge という2つの新しいコマンドレットが、Microsoft Lync Server 2013 に追加されました。これらのコマンドレットを使用すると、管理者はいつでも CDR と QoE データベースからレコードを手動で削除できます。 たとえば、次のようなコマンドを使用すると、CDR データベースから10日以上経過したレコードをすべて手動で削除することができます。
+自動削除に加えて、Invoke-CsCdrDatabasePurge と Invoke-CsQoEDatbasePurge という2つの新しいコマンドレットが Microsoft Lync Server 2013 に追加されました。これらのコマンドレットを使用すると、管理者はいつでも CDR と QoE データベースからレコードを手動で削除できます。 たとえば、次のようなコマンドを使用すると、CDR データベースから10日以上経過したレコードをすべて手動で削除することができます。
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 
