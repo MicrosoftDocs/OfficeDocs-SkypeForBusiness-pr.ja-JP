@@ -1,5 +1,6 @@
 ---
 title: Exchange ユニファイドメッセージング連絡先オブジェクトの移動
+description: Exchange ユニファイドメッセージングの連絡先オブジェクトを移動します。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42abb209eaf59be66c8516401616dcac4f1c94ad
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e3353427f407523a8778585d27201355714a3085
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500294"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549723"
 ---
 # <a name="move-exchange-unified-messaging-contact-objects"></a>Exchange ユニファイドメッセージング連絡先オブジェクトの移動
 

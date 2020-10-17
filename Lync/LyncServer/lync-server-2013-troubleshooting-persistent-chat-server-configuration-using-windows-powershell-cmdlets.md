@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Windows PowerShell コマンドレットを使用した常設チャットサーバー構成のトラブルシューティング'
+description: 'Lync Server 2013: Windows PowerShell コマンドレットを使用した常設チャットサーバー構成のトラブルシューティング。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dc6c5ece30c9ff65009b154b193f28f0d24ebe2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4d73f4e07f909f0872e127240b4cc9c329a243bc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518984"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48548923"
 ---
 # <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>Lync Server 2013 での Windows PowerShell コマンドレットを使用した常設チャットサーバー構成のトラブルシューティング
 

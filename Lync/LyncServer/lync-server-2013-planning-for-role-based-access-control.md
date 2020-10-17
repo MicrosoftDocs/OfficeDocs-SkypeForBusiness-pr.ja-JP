@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 役割ベースのアクセス制御の計画'
+description: 'Lync Server 2013: 役割ベースのアクセス制御の計画。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65f6411023c80a527cff31c389a8283d090dfc0d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 971b3353694a1cdd53d88452717e6a9a360c6870
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528034"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549243"
 ---
 # <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Lync Server 2013 での役割ベースのアクセス制御の計画
 

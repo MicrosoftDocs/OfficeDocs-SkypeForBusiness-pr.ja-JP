@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 トポロジビルダーは SQL Server ミラーリングをサポートしています。
+description: Lync Server 2013 トポロジビルダーは、SQL Server ミラーリングをサポートしています。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3e6f32d50c0b568da48a343454070a79b675fa6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3849ea4d88aac70cee49b9103ca6df3c0d84a93a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530424"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549093"
 ---
 # <a name="topology-builder-supports-sql-server-mirroring-in-lync-server-2013"></a>トポロジビルダーは、Lync Server 2013 での SQL Server のミラーリングをサポートしています。
 
