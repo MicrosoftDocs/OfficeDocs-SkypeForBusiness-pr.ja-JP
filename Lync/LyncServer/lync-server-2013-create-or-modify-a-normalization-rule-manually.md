@@ -12,20 +12,22 @@ ms:contentKeyID: 48185943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91b69eedcdb58d5a7cdb5cf96c1b98e7a6eedbd2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 58cd29feeeb34646a7d4a27ef78064d692f9ffa0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205491"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525844"
 ---
+# <a name="create-or-modify-a-normalization-rule-manually-in-lync-server-2013"></a>Lync Server 2013 で正規化ルールを手動で作成または変更する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-normalization-rule-manually-in-lync-server-2013"></a>Lync Server 2013 で正規化ルールを手動で作成または変更する
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**トピックの最終更新日:** 2012-09-22_
     
       - [**変換ルール**] で、変換される E.164 電話番号の形式のパターンを指定します。
     
-    たとえば、[**このパターンを照合**] に「 **^\\(d{7}) $** 」と入力し、[**変換ルール**] に「 **+ 1425 $ 1** 」と入力すると、ルールは5550100から + 14255550100 に正規化されます。
+    たとえば、[**このパターンを照合**] に「 **^ ( \\ d {7} ) $** 」と入力し、[**変換ルール**] に「 **+ 1425 $ 1** 」と入力すると、ルールは5550100から + 14255550100 に正規化されます。
 
 8.  (オプション) 正規化ルールによって電話番号が組織の内線番号になる場合は、[**内線番号**] を選択します。
 
@@ -86,7 +88,7 @@ _**トピックの最終更新日:** 2012-09-22_
     
 
     > [!NOTE]  
-    > 正規化ルールを作成または変更するときにはいつでも、[<STRONG>すべて確定</STRONG>] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A>」を参照してください。
+    > 正規化ルールを作成または変更するときにはいつでも、[<STRONG>すべて確定</STRONG>] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A> 」を参照してください。
 
     
     </div>

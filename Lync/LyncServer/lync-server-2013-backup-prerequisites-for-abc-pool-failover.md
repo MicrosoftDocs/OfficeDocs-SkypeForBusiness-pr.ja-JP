@@ -12,20 +12,22 @@ ms:contentKeyID: 51541485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bd6bd22b29cd5031e83f0e8e8a09755c730be64
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0607a0ddc2a1b2a8249135fa1256f2cb706a250a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181380"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527034"
 ---
+# <a name="backup-prerequisites-for-abc-pool-failover-in-lync-server-2013"></a>Lync Server 2013 での ABC プールフェールオーバーのバックアップ前提条件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-prerequisites-for-abc-pool-failover-in-lync-server-2013"></a>Lync Server 2013 での ABC プールフェールオーバーのバックアップ前提条件
+
 
 </div>
 
@@ -49,7 +51,7 @@ ABC プールのフェールオーバー手順を使用することで最大の�
     
     一般に、毎日バックアップを行うことをお勧めしますが、変更が多い場合は、より頻度の高いバックアップのスケジュールが必要になることもあります。 障害が発生した場合に失われる可能性のある情報は、バックアップの頻度、および変更の頻度と量によって異なります。
     
-    応答グループアプリケーションに保存できるアプリケーションレベルの設定は、プールごとに1つだけです。 これらの設定には、 **Get-CsRgsConfiguration**コマンドレットを使用してアクセスできます。 設定には、既定の保留音の設定、既定の保留音のオーディオファイル、エージェントの呼び出し元の猶予期間、呼び出しコンテキストの構成が含まれます。 これらの設定**は、** **replaceexistingsettings**パラメーターを使用して、別のプールから別のプールに移動できます。ただし、この操作は、移動先のプール内のアプリケーションレベルの設定より優先されます。
+    応答グループアプリケーションに保存できるアプリケーションレベルの設定は、プールごとに1つだけです。 これらの設定には、 **Get-CsRgsConfiguration** コマンドレットを使用してアクセスできます。 設定には、既定の保留音の設定、既定の保留音のオーディオファイル、エージェントの呼び出し元の猶予期間、呼び出しコンテキストの構成が含まれます。 これらの設定 **は、** **replaceexistingsettings** パラメーターを使用して、別のプールから別のプールに移動できます。ただし、この操作は、移動先のプール内のアプリケーションレベルの設定より優先されます。
     
     <div>
     
@@ -69,7 +71,7 @@ ABC プールのフェールオーバー手順を使用することで最大の�
     
 
     > [!NOTE]  
-    > コールパークアプリケーションは、1つのプールに対して1セットの設定と1つのカスタマイズされた音楽保留オーディオファイルのみを保存できます。 これらの設定には、 <STRONG>new-cscpsconfiguration</STRONG>コマンドレットを使用してアクセスできます。 コールパークの障害復旧メカニズムは、バックアッププールのコールパークアプリケーションに依存しているため、障害が発生した場合、プライマリプールの設定はバックアップまたは保持されません。 プライマリプールが失われた場合、これらの設定を回復することはできません。また、プライマリプールを置き換えるために新しいプールを展開する場合は、コールパーク設定とカスタマイズされた音楽オンホールドオーディオファイルを再構成する必要があります。
+    > コールパークアプリケーションは、1つのプールに対して1セットの設定と1つのカスタマイズされた音楽保留オーディオファイルのみを保存できます。 これらの設定には、 <STRONG>new-cscpsconfiguration</STRONG> コマンドレットを使用してアクセスできます。 コールパークの障害復旧メカニズムは、バックアッププールのコールパークアプリケーションに依存しているため、障害が発生した場合、プライマリプールの設定はバックアップまたは保持されません。 プライマリプールが失われた場合、これらの設定を回復することはできません。また、プライマリプールを置き換えるために新しいプールを展開する場合は、コールパーク設定とカスタマイズされた音楽オンホールドオーディオファイルを再構成する必要があります。
 
     
     </div>

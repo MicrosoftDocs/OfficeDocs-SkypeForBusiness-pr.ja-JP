@@ -12,20 +12,22 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bee98cdc88a836be8b629d76b5bed57af402a3ca
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: d95f38ab0adc1457abee7cdd90e8f385f7176ce3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527364"
 ---
+# <a name="migrating-multiple-sites-and-pools"></a>複数のサイトとプールの移行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-multiple-sites-and-pools"></a>複数のサイトとプールの移行
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 では、複数サイトと複数プールの展開がサポー
 
 5.  Lync Server 2010 プールが空であることを確認した後、プールを非アクティブ化することができます。
     
-    従来の Lync Server 2010 プールおよびサーバーを非アクティブ化する方法の詳細については、「[フェーズ 8: 従来のプール](phase-8-decommission-legacy-pools.md)を使用停止にする」を参照してください。
+    従来の Lync Server 2010 プールおよびサーバーを非アクティブ化する方法の詳細については、「 [フェーズ 8: 従来のプール](phase-8-decommission-legacy-pools.md)を使用停止にする」を参照してください。
 
 </div>
 

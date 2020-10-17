@@ -12,20 +12,22 @@ ms:contentKeyID: 48184609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5412e52b150cf67a4d8763202c67998d1df9df48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d4c64b5490e53c8ba51f7832cef9ba483b1760d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525644"
 ---
+# <a name="delete-a-pin-policy-in-lync-server-2013"></a>Lync Server 2013 で PIN ポリシーを削除する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-pin-policy-in-lync-server-2013"></a>Lync Server 2013 で PIN ポリシーを削除する
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して PIN ポリシーを削除する
 
-PIN ポリシーは、Windows PowerShell と Get-cspinpolicy コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+PIN ポリシーは、Windows PowerShell と Remove-CsPinPolicy コマンドレットを使用して削除できます。 このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -103,7 +105,7 @@ PIN ポリシーは、Windows PowerShell と Get-cspinpolicy コマンドレッ�
 
 </div>
 
-詳細については、 [get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-cspinpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

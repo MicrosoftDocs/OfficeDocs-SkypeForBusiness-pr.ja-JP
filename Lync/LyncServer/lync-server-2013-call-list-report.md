@@ -12,20 +12,22 @@ ms:contentKeyID: 48184921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06486ddc8d84c165422e7f4ffea9bb62be5dd683
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d9d437b32907108d5666ef9e1b175c170030585
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188410"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526294"
 ---
+# <a name="call-list-report-in-lync-server-2013"></a>Lync Server 2013 の通話リストレポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-list-report-in-lync-server-2013"></a>Lync Server 2013 の通話リストレポート
+
 
 </div>
 
@@ -75,7 +77,7 @@ _**トピックの最終更新日:** 2012-10-01_
 
   - [Lync server 2013 のサーバーパフォーマンスレポート](lync-server-2013-server-performance-report.md)([通話ボリューム] または [低品質通話のパーセンテージ] 指標をクリック)
 
-通話リストレポート内から、詳細指標をクリックして[Lync Server 2013 の通話詳細レポート](lync-server-2013-call-detail-report.md)にアクセスできます。
+通話リストレポート内から、詳細指標をクリックして [Lync Server 2013 の通話詳細レポート](lync-server-2013-call-detail-report.md) にアクセスできます。
 
 </div>
 
@@ -124,74 +126,74 @@ _**トピックの最終更新日:** 2012-10-01_
 </tr>
 <tr class="even">
 <td><p><strong>Caller</strong></p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>呼び出しを開始したユーザーの SIP アドレス。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>側</strong></p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>呼び出し先ユーザーの SIP アドレス。</p></td>
 </tr>
 <tr class="even">
-<td><p>[<strong>開始時刻</strong>]</p></td>
+<td><p><strong>開始時刻</strong></p></td>
 <td><p>はい</p></td>
 <td><p>通話が開始された日時。</p></td>
 </tr>
 <tr class="odd">
-<td><p>[<strong>終了時刻</strong>]</p></td>
+<td><p><strong>終了時刻</strong></p></td>
 <td><p>はい</p></td>
 <td><p>通話が終了した日時。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>発信者ユーザー エージェント</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>呼び出しを開始したユーザーのエンドポイントによって使用されるソフトウェア。</p></td>
 </tr>
 <tr class="odd">
 <td><p>[<strong>呼び出し先ユーザー エージェント</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>呼び出し先のユーザーのエンドポイントで使用されているソフトウェア。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>往復 (ミリ秒)</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>リアルタイム転送プロトコル (RTP) パケットが別のエンドポイントとの間を往復するのに要する平均時間 (ミリ秒単位)。100 ミリ秒以下の往復時間が許容できる品質と見なされます。</p>
 <p>この値が高い場合は、国際通話ルーティング、ルーティングの構成ミス、メディア サーバーの過負荷などの原因が考えられます。その結果、双方向のリアルタイムの音声会話が困難になります。</p></td>
 </tr>
 <tr class="odd">
 <td><p>[<strong>低下 (MOS)</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>通話時に発生した平均オピニオン値 (MOS) 低下の平均値。 低下の値範囲は、最低 0.0 から最高 5.0 までとなります。 0.5 以下の値は、許容される低下を表します。 従来、平均オピニオン値は、ユーザーが通話の品質を 1 から 5 の範囲で評価することによって計算されていました。 Lync Server では、Lync Server は一連のアルゴリズムを使用して、ユーザーが通話を評価する方法を予測します。</p>
 <p>この値が高い場合は、輻輳、帯域幅の不足、ワイヤレスの輻輳または干渉、メディア サーバーやエンドポイントの過負荷などの原因が考えられます。その結果、音声のひずみや欠落が生じます。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>パケット損失</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>RTP パケットの平均損失率 (パケット損失は、RTP パケット (音声およびビデオをインターネット上で転送する場合に使用されるプロトコル) が宛先に到達できなかった場合に発生します)。通常、この値が高い場合は、輻輳、帯域幅の不足、ワイヤレスの輻輳または干渉、メディア サーバーの過負荷などの原因が考えられます。その結果、一般に音声のひずみや欠落が生じます。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ずれ</strong></p></td>
-<td><p>はい</p></td>
-<td><p>RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。 (ジッターは、通話の&quot;過&quot;の測定値です)。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</p></td>
+<td><p>必要</p></td>
+<td><p>RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。 (ジッターは、通話の過の測定値です &quot; &quot; )。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>ヒーラー隠し比率</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>サンプルの合計数に対する隠しオーディオ サンプルの平均比率 (隠しオーディオ サンプルとは、突然遷移を取り除くために使用される手法です。突然遷移は、通常、ネットワーク パケットの削除が原因で発生します)。この値が高い場合は、パケット損失やジッターのために高いレベルで損失の隠蔽が適用されています。その結果、音声のひずみや欠落が生じます。</p></td>
 </tr>
 <tr class="odd">
 <td><p>[<strong>ヒーラー引き伸ばし比率</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>サンプルの合計数に対する引き伸ばされたオーディオ サンプルの平均比率 (引き伸ばされたオーディオとは、ネットワーク パケットの削除が検出されたときに通話の品質を維持できるように拡張されたオーディオのことです)。この値が高い場合は、ジッターのために高いレベルでサンプルの引き伸ばしが行われています。その結果、音声が機械のように聞こえたりひずんで聞こえたりします。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>ヒーラー圧縮比率</strong>]</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>サンプルの合計数に対する圧縮オーディオ サンプルの平均比率 (圧縮オーディオとは、ネットワーク パケットの削除が検出されたときに通話の品質を維持できるように圧縮されたオーディオのことです)。この値が高い場合は、ジッターのために高いレベルでサンプルの圧縮が行われています。その結果、音声が早送りされたように聞こえたりひずんで聞こえたりします。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>接続</strong></p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>ワイヤレス通信リンクの種類。 通常、これは次のいずれかになります。</p>
 <ul>
 <li><p>中継</p></li>

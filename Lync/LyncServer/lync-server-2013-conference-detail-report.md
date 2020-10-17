@@ -12,20 +12,22 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 670696a0945464486e0872b17df330a6ca8140b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1c2a25105aec6cdf6d21193038f90ea852c5b3a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188610"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526034"
 ---
+# <a name="conference-detail-report-in-lync-server-2013"></a>Lync Server 2013 の会議詳細レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-detail-report-in-lync-server-2013"></a>Lync Server 2013 の会議詳細レポート
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2012-10-22_
 
   - [Lync Server 2013 のユーザーアクティビティレポート](lync-server-2013-user-activity-report.md)(電話会議 URI 指標をクリック)
 
-会議詳細レポートから、診断レポート (詳細) 指標をクリックすることによって、 [Lync Server 2013 の診断レポート](lync-server-2013-diagnostic-report.md)にアクセスできます。
+会議詳細レポートから、診断レポート (詳細) 指標をクリックすることによって、 [Lync Server 2013 の診断レポート](lync-server-2013-diagnostic-report.md) にアクセスできます。
 
 </div>
 
@@ -139,7 +141,7 @@ _**トピックの最終更新日:** 2012-10-22_
 <td><p>会議に参加したユーザーの SIP アドレス。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ロール</strong></p></td>
+<td><p><strong>役割</strong></p></td>
 <td></td>
 <td><p>電話会議の参加者が担った役割 (発表者など)。</p></td>
 </tr>

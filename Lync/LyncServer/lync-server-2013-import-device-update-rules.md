@@ -12,20 +12,22 @@ ms:contentKeyID: 51803967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5436be837af75045d75b8feee31886aaaf324f0b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ddeb9d37d36d6ab18467e04e4a7c46b9b8576fa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526724"
 ---
+# <a name="import-device-update-rules-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新ルールのインポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-device-update-rules-in-lync-server-2013"></a>Lync Server 2013 でのデバイス更新ルールのインポート
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196730"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-デバイス更新ルールは、Windows PowerShell と**インポート-CsDeviceUpdate**コマンドレットを使用してのみインポートできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+デバイス更新ルールは、Windows PowerShell と **インポート-CsDeviceUpdate** コマンドレットを使用してのみインポートできます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -66,13 +68,13 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>デバイス更新ルールをすべての web サーバーにインポートするには
 
-  - この例では、デバイス更新ルールは、組織内に展開されているすべての Web サーバーにインポートされます。 このコマンドを動作させるには\\ \\、\\フォルダー atl-fs-001.litwareinc.com の更新を共有し、すべての Web サーバーで使用できるようにする必要があります。
+  - この例では、デバイス更新ルールは、組織内に展開されているすべての Web サーバーにインポートされます。 このコマンドを動作させるには、フォルダー \\ \\ Atl-fs-001.litwareinc.com の更新を \\ 共有し、すべての Web サーバーで使用できるようにする必要があります。
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
 </div>
 
-詳細については、「 [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate)コマンドレット」のヘルプトピックを参照してください。
+詳細については、「 [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) コマンドレット」のヘルプトピックを参照してください。
 
 </div>
 

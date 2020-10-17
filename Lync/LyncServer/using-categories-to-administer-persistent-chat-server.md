@@ -12,20 +12,22 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73801c006f7ef5487960628d0f981809cdfd2d38
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 6d008e77df49dcfb2875923575c5d0c2acb1d1dd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755631"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526414"
 ---
+# <a name="using-categories-to-administer-persistent-chat-server"></a>カテゴリを使用して常設チャットサーバーを管理する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-categories-to-administer-persistent-chat-server"></a>カテゴリを使用して常設チャットサーバーを管理する
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2013-10-01_
 
 
 > [!NOTE]  
-> チャットルームの管理機能の多くは、ユーザーの常設チャット (Lync client) を実行しているコンピューターで利用できますが、常設チャット管理者 ( <STRONG>cspersistentchatadministrator</STRONG>の役割) では、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使用してカテゴリを作成または管理する必要があります。
+> チャットルームの管理機能の多くは、ユーザーの常設チャット (Lync client) を実行しているコンピューターで利用できますが、常設チャット管理者 ( <STRONG>cspersistentchatadministrator</STRONG> の役割) では、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使用してカテゴリを作成または管理する必要があります。
 
 
 
@@ -87,9 +89,9 @@ _**トピックの最終更新日:** 2013-10-01_
 
 ## <a name="delegated-administration"></a>委任された管理
 
-カテゴリを適切に使用すると、常設チャットルームの作成と管理が非常に簡単になります。 常設チャット管理者は、各カテゴリに**Allowedmembers**と**クリエーター**を定義でき、カテゴリに作成されたすべてのチャットルームに適用される既定のチャットルームの設定と動作を定義することもできます。 常設チャット管理者は、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使用して、カテゴリを作成および管理します。
+カテゴリを適切に使用すると、常設チャットルームの作成と管理が非常に簡単になります。 常設チャット管理者は、各カテゴリに **Allowedmembers** と **クリエーター** を定義でき、カテゴリに作成されたすべてのチャットルームに適用される既定のチャットルームの設定と動作を定義することもできます。 常設チャット管理者は、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使用して、カテゴリを作成および管理します。
 
-カテゴリの作成者として識別されるユーザー、組織単位 (Ou)、ユーザーグループは、カテゴリ内のルームの作成を許可されている個人およびグループのみです。 カテゴリが作成されると、カテゴリの**Allowedmembers**リストからユーザー、ou、およびユーザーグループを選択して、チャットルームマネージャーと、ルームに参加するためのメンバーを管理することができます。
+カテゴリの作成者として識別されるユーザー、組織単位 (Ou)、ユーザーグループは、カテゴリ内のルームの作成を許可されている個人およびグループのみです。 カテゴリが作成されると、カテゴリの **Allowedmembers** リストからユーザー、ou、およびユーザーグループを選択して、チャットルームマネージャーと、ルームに参加するためのメンバーを管理することができます。
 
 カテゴリに作成されたチャットルームは、カテゴリによって適用されるポリシーと設定 (ルームのメンバーシップに含まれるユーザー、ルームを管理できるユーザー、ファイルのアップロードが許可されているかどうか、招待が送信されるかどうかなど) に従います。
 

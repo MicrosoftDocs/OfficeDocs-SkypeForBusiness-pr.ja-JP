@@ -12,20 +12,22 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 344f15589e113a54b539d351ed8d4745e1fd3a5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a71ac7e0e1291dedfa45e4e358b5b3495d8a623b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209843"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527254"
 ---
+# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>Office Communications Server 2007 R2 から Lync Server 2013 への移行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>Office Communications Server 2007 R2 から Lync Server 2013 への移行
+
 
 </div>
 
@@ -75,13 +77,13 @@ _**トピックの最終更新日:** 2012-10-19_
 
 ## <a name="in-this-section"></a>このセクション中
 
-  - [移行を開始する前に](before-you-begin-the-migration_1.md)
+  - [移行を始める前に](before-you-begin-the-migration_1.md)
 
-  - [移行フェーズ](migration-phases_1.md)
+  - [移行のフェーズ](migration-phases_1.md)
 
   - [フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [フェーズ 2: 移行の準備をする](phase-2-prepare-for-migration_1.md)
+  - [フェーズ 2: 移行の準備](phase-2-prepare-for-migration_1.md)
 
   - [フェーズ 3: Lync Server 2013 パイロットプールを展開する](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 

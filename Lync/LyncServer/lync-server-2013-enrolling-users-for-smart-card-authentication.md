@@ -12,20 +12,22 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a157d5492378771cf40a6438bbf8672efd01412
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfbfcd73aba4079d74074adcd2710b8a2d45aeba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213373"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526774"
 ---
+# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Lync Server 2013 でのスマートカード認証のユーザーの登録
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Lync Server 2013 でのスマートカード認証のユーザーの登録
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2013-07-03_
 
 通常、スマートカード認証のためにユーザーを登録する方法は2つあります。 簡単な方法では、ユーザーが web 登録を使用してスマートカード認証を直接登録する必要がありますが、より複雑な方法では登録エージェントを使用する必要があります。 このトピックでは、スマートカード証明書のセルフ登録に重点を置いて説明します。
 
-登録エージェントとしてのユーザーの代理での登録の詳細については、「他のユーザーの[https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367)代理として証明書を登録する」を参照してください。
+登録エージェントとしてのユーザーの代理での登録の詳細については、「他のユーザーの代理として証明書を登録する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367) 。
 
 <div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2013-07-03_
 
 2.  Internet Explorer を起動します。
 
-3.  **証明機関の Web 登録**ページに移動しますhttps://MyCA.contoso.com/certsrv)(例:)。
+3.  **証明機関の Web 登録**ページに移動します (例: https://MyCA.contoso.com/certsrv) )。
     
     <div>
     
@@ -60,17 +62,17 @@ _**トピックの最終更新日:** 2013-07-03_
     
     </div>
 
-4.  [**ようこそ**] ページで、[**証明書の要求**] を選択します。
+4.  [ **ようこそ** ] ページで、[ **証明書の要求**] を選択します。
 
-5.  次に、[**要求の詳細設定**] を選択します。
+5.  次に、[ **要求の詳細設定**] を選択します。
 
-6.  [**この CA への要求を作成し送信**する] を選択します。
+6.  [ **この CA への要求を作成し送信**する] を選択します。
 
 7.  [**証明書テンプレート**] セクションの [**スマートカードユーザー** ] を選択し、次の値を使用して詳細証明書の要求を完了します。
     
-      - **キーオプション**次の設定を確認します。
+      - **キーオプション** 次の設定を確認します。
         
-          - [**新しいキーセットの作成**] ラジオボタンを選択します。
+          - [ **新しいキーセットの作成** ] ラジオボタンを選択します。
         
           - **CSP**の場合、[ **Microsoft 基本スマートカード暗号化プロバイダー** ] を選択します。
         
@@ -82,11 +84,11 @@ _**トピックの最終更新日:** 2013-07-03_
         
           - その他のボックスはオフのままにします。
     
-      - [**その他のオプション**] で、次の値を確認します。
+      - [ **その他のオプション** ] で、次の値を確認します。
         
           - **要求の形式**には、[ **CMC**] を選択します。
         
-          - [**ハッシュアルゴリズム**] で [ **sha1**] を選択します。
+          - [ **ハッシュアルゴリズム** ] で [ **sha1**] を選択します。
         
           - **フレンドリ名**には、 **Smardcard 証明書**を入力します。
 
@@ -105,7 +107,7 @@ _**トピックの最終更新日:** 2013-07-03_
     
     </div>
 
-11. 証明書が発行されたら、[**この証明書のインストール**] をクリックして登録プロセスを完了します。
+11. 証明書が発行されたら、[ **この証明書のインストール** ] をクリックして登録プロセスを完了します。
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eee75721eba2e9a329b9418dfb4291216fcd7f33
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9b51fd9bd16da2f6cf135332d68c70c4b4714cdd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527504"
 ---
+# <a name="migrate-response-groups"></a>応答グループを移行する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-response-groups"></a>応答グループを移行する
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**トピックの最終更新日:** 2013-09-23_
 
 </div>
 
-応答グループを従来のプールから Lync Server 2013 に移行するには、**移動-CsRgsConfiguration**コマンドレットを実行します。
+応答グループを従来のプールから Lync Server 2013 に移行するには、 **移動-CsRgsConfiguration** コマンドレットを実行します。
 
 <div>
 
@@ -97,7 +99,7 @@ _**トピックの最終更新日:** 2013-09-23_
 
 </div>
 
-Lync Server 2013 には、**ワークフローの種類**と呼ばれる新しい応答グループ機能が導入されています。 [**ワークフローの種類**] は、[**管理**] または [**管理されていない**] に設定できます。 すべての応答グループは、[**ワークフローの種類**] が [**管理されていない**] に設定され、マネージャーの一覧が空の状態で移行されます。
+Lync Server 2013 には、 **ワークフローの種類**と呼ばれる新しい応答グループ機能が導入されています。 [**ワークフローの種類**] は、[**管理**] または [**管理されていない**] に設定できます。 すべての応答グループは、[**ワークフローの種類**] が [**管理されていない**] に設定され、マネージャーの一覧が空の状態で移行されます。
 
 **Move-CsRgsConfiguration** コマンドレットを実行した場合、エージェント グループ、キュー、ワークフロー、およびオーディオ ファイルは、ロールバックできるようにレガシ プールに残されたままとなります。 ただし、レガシ プールへのロールバックが必要な場合に連絡先オブジェクトを移動してレガシ プールに戻すには、**Move-CsApplicationEndpoint** コマンドレットを実行する必要があります。
 
@@ -119,7 +121,7 @@ Lync Server 2013 には、**ワークフローの種類**と呼ばれる新し�
     
         Move-CsRgsConfiguration -Source lync-old.contoso.net -Destination lync-new.contoso.net
 
-4.  応答グループとエージェントを Lync Server 2013 プールに移行すると、エージェントがサインインおよびサインアウトする際に使用する URL が Lync Server 2013 の URL になり、[**ツール**] メニューから利用できるようになります。 ブックマークなどの参照を、新しい URL に更新するようにエージェントに知らせてください。
+4.  応答グループとエージェントを Lync Server 2013 プールに移行すると、エージェントがサインインおよびサインアウトする際に使用する URL が Lync Server 2013 の URL になり、[ **ツール** ] メニューから利用できるようになります。 ブックマークなどの参照を、新しい URL に更新するようにエージェントに知らせてください。
 
 </div>
 
@@ -133,11 +135,11 @@ Lync Server 2013 には、**ワークフローの種類**と呼ばれる新し�
 
 3.  左側のナビゲーション ウィンドウで [**応答グループ**] をクリックします。
 
-4.  [**ワークフロー** ] タブで、Lync Server 2010 環境内のすべてのワークフローがリストに含まれていることを確認します。
+4.  [ **ワークフロー** ] タブで、Lync Server 2010 環境内のすべてのワークフローがリストに含まれていることを確認します。
 
-5.  [**キュー** ] タブをクリックして、Lync Server 2010 環境内のすべてのキューがリストに含まれていることを確認します。
+5.  [ **キュー** ] タブをクリックして、Lync Server 2010 環境内のすべてのキューがリストに含まれていることを確認します。
 
-6.  [**グループ**] タブをクリックし、Lync Server 2010 環境内のすべてのエージェントグループがリストに含まれていることを確認します。
+6.  [ **グループ** ] タブをクリックし、Lync Server 2010 環境内のすべてのエージェントグループがリストに含まれていることを確認します。
 
 </div>
 

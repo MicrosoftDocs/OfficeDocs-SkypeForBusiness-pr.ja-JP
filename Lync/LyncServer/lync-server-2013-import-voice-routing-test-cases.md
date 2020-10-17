@@ -12,20 +12,22 @@ ms:contentKeyID: 48184325
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 415cdcd247e815e83d31bd2339363929a5ded04c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8de7d29638a7d4a4ef8e480f85c0a310272f2863
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196700"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526694"
 ---
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Lync Server 2013 での音声ルーティングテストケースのインポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Lync Server 2013 での音声ルーティングテストケースのインポート
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196700"
 
 _**トピックの最終更新日:** 2013-02-21_
 
-テストケースでは、組織内のボイスルートをテストする方法が提供されます。ダイヤルする番号、使用するダイヤルプランと音声ポリシーなどを定義し、Lync Server 2013 は、これらの条件が満たされた場合に、指定された数の successfully に PSTN ネットワークにルーティングされます。
+テストケースでは、組織内のボイスルートをテストする方法が提供されます。ダイヤルする番号、使用するダイヤルプラン、音声ポリシーなどを定義します。また、これらの条件が満たされた場合に、指定された番号を PSTN ネットワークにルーティングできることを、Lync Server 2013 が確認できます。
 
 Lync Server コントロールパネルを使用して作成できるテストケースは、通常、ケースが最初に作成されて実行されたサーバーにのみ保存されます。 ただし、これらのテスト ケースは XML ファイル (拡張子 .vtest) としてエクスポートし、他のサーバーにインポートできます。 これにより、同じテストをトポロジの別の地点に配置された別のコンピューターで実行できます。
 
@@ -61,7 +63,7 @@ Lync Server コントロールパネルを使用して作成できるテスト�
     
 
     > [!NOTE]  
-    > .vtest ファイルをインポートするときは常に、[<STRONG>すべて確定</STRONG>] コマンドを実行して、テスト ケースを公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A>」を参照してください。
+    > .vtest ファイルをインポートするときは常に、[<STRONG>すべて確定</STRONG>] コマンドを実行して、テスト ケースを公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A> 」を参照してください。
 
     
     </div>

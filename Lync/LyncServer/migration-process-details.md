@@ -12,20 +12,22 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76624475b86427d8e3b1aa4f9efa75c127afcb85
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0c15c5cf8a2eaa207467f53d57d82e6cf4491e13
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756712"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527204"
 ---
+# <a name="migration-process---details"></a>移行プロセス-詳細
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-process---details"></a>移行プロセス-詳細
+
 
 </div>
 
@@ -92,11 +94,11 @@ Lync Server 2010、グループチャット、または Office Communications Se
     
     1.  常設チャットサーバーは、カテゴリの深い階層のセットとは異なり、1つのレベルのカテゴリをサポートします。 移行後、サブカテゴリには完全な親カテゴリ名のプレフィックスが付けられます。 結果として得られる構造が要件を満たすように、既存のカテゴリ構造を単純化して統合する必要がある場合があります。
     
-    2.  ルートカテゴリの**マネージャー**を確認します。 このレベルでマネージャーが存在する場合、これらのユーザーは移行後**にすべてのルームに管理者**として追加されます。 組織の要件ではない場合は、これらのマネージャーをルートカテゴリから削除する必要があります。
+    2.  ルートカテゴリの **マネージャー** を確認します。 このレベルでマネージャーが存在する場合、これらのユーザーは移行後 **にすべてのルームに管理者** として追加されます。 組織の要件ではない場合は、これらのマネージャーをルートカテゴリから削除する必要があります。
     
     3.  ルーム名の長さを確認します。 移行後、カテゴリ構造が簡略化されているため、ルームが子カテゴリの下に存在する場合は、完全な親カテゴリ名のプレフィックスが付いています。 名前付けの制限は、親カテゴリ名を含む256文字です。 ルーム名の長さを確認し、長すぎる場合は、長さを短くする必要があります。
     
-    4.  Lync Server 2013 で、カテゴリの**招待**の設定が true に設定されている場合は、そのカテゴリの下にあるルームへの招待に true または false を選択できます。 ただし、カテゴリの招待の設定が false に設定されている場合は、そのカテゴリの下のルームの招待がオフになります。 移行の前に、特定のカテゴリの下に会議室が存在するようにするには、従来の Lync Server グループチャットサーバーバージョンの招待の設定をリセットする必要があります。 それ以外の場合、移行時に Lync Server 2013 は警告を表示し、ルームを既定値の false に設定します。
+    4.  Lync Server 2013 で、カテゴリの **招待** の設定が true に設定されている場合は、そのカテゴリの下にあるルームへの招待に true または false を選択できます。 ただし、カテゴリの招待の設定が false に設定されている場合は、そのカテゴリの下のルームの招待がオフになります。 移行の前に、特定のカテゴリの下に会議室が存在するようにするには、従来の Lync Server グループチャットサーバーバージョンの招待の設定をリセットする必要があります。 それ以外の場合、移行時に Lync Server 2013 は警告を表示し、ルームを既定値の false に設定します。
     
     5.  チャットルームでファイルを使用した場合は、移行後に新しい常設チャットファイルストアに対してファイルを手動で XCOPY する必要があります。 このツールは、この操作を行いません。
     
@@ -116,7 +118,7 @@ Lync Server 2010、グループチャット、または Office Communications Se
 
 1.  Lync Server 2010、グループチャット、Office Communications Server 2007 R2 グループチャット、または Lync Server 2013、常設チャットサーバーサービスをシャットダウンします。 すべてのサービスを停止する必要があるので、ダウンタイムが十分に発生した場合に限り、この操作を計画してください。 前述のように、現在のグループチャットデータベースをバックアップしてください。
 
-2.  常設チャット管理者の RBAC 役割 (CsPersistentChatAdministrator) のメンバーとして、Windows PowerShell **export-cspersistentchatdata**コマンドレットを実行します。 エクスポート/インポートコマンドレットの詳細については、「 [Lync server 2013 で Windows PowerShell コマンドレットを使用した常設チャットサーバー構成のトラブルシューティング](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md)」を参照してください。
+2.  常設チャット管理者の RBAC 役割 (CsPersistentChatAdministrator) のメンバーとして、Windows PowerShell **export-cspersistentchatdata** コマンドレットを実行します。 エクスポート/インポートコマンドレットの詳細については、「 [Lync server 2013 で Windows PowerShell コマンドレットを使用した常設チャットサーバー構成のトラブルシューティング](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md)」を参照してください。
     
     エクスポートされたコンテンツを検査します。
 
@@ -126,7 +128,7 @@ Lync Server 2010、グループチャット、または Office Communications Se
 
 5.  Windows PowerShell Export-cspersistentchatdata コマンドレット (インポートツール) を実行し、 **WhatIf**コマンドを使用して、常設チャットサーバープールのバックエンドサーバーに移行**済み**データを設定します。 簡素化された管理モデルに対応するために、一部の変換がプロセスで行われます。 表示されるエラーまたは警告を修正します。
 
-6.  常設チャットサーバーの Windows PowerShell **export-cspersistentchatdata**コマンドレットを常設チャット管理者の RBAC 役割 (CsPersistentChatAdministrator) のメンバーとして実行します。 エクスポート/インポートコマンドレットの詳細については、「 [Lync server 2013 で Windows PowerShell コマンドレットを使用した常設チャットサーバー構成のトラブルシューティング](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md)」を参照してください。
+6.  常設チャットサーバーの Windows PowerShell **export-cspersistentchatdata** コマンドレットを常設チャット管理者の RBAC 役割 (CsPersistentChatAdministrator) のメンバーとして実行します。 エクスポート/インポートコマンドレットの詳細については、「 [Lync server 2013 で Windows PowerShell コマンドレットを使用した常設チャットサーバー構成のトラブルシューティング](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md)」を参照してください。
 
 7.  アップロードされたすべてのファイル (フォルダー全体) は、新しい Lync Server 2013、常設チャットファイルストアに対して XCOPY する必要があります。
     
@@ -143,7 +145,7 @@ Lync Server 2010、グループチャット、または Office Communications Se
     
       - Ocschat@ \<domainName\> .Com 参照サーバーのユーザーアカウントを削除します。 これは、Lync Server 2010 のグループチャットの参照サービスを指すために使用されました。 後で、そのプールをアンインストールして、信頼できるエントリを削除することができます。
     
-      - 従来のエンドポイント (常設チャットサーバーの連絡先オブジェクト) を作成するには、同じ SIP URI を使用して Windows PowerShell コマンドレット**new-cspersistentchatendpoint**を実行します。これにより、サービスの再起動時にレガシクライアントが効果的に動作するようになります。
+      - 従来のエンドポイント (常設チャットサーバーの連絡先オブジェクト) を作成するには、同じ SIP URI を使用して Windows PowerShell コマンドレット **new-cspersistentchatendpoint**を実行します。これにより、サービスの再起動時にレガシクライアントが効果的に動作するようになります。
     
     この時点で、必須の移行プロセスは完了しています。 Lync 2010 グループチャット (クライアント) または Office Communicator 2007 R2 グループチャット (クライアント) は、現在、透過的に新しい常設チャットサーバープールに接続できます。
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38bd350a4b552d63b635f8ec5a25ed7803de4b55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c56554a26e5f64089a766300f375039409680578
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526244"
 ---
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013 の内部サーバーの証明書要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Lync Server 2013 の内部サーバーの証明書要件
+
 
 </div>
 
@@ -49,11 +51,11 @@ Lync Server を実行していて、証明書を必要とする内部サーバ�
 
 </div>
 
-内部サーバーには内部のエンタープライズ証明機関 (CA) をお勧めしますが、パブリック CA を使用することもできます。 統合コミュニケーション (UC) 証明書の特定の要件に準拠した証明書を提供し、Microsoft と提携して Lync Server 証明書ウィザードを使用できるようにするパブリック Ca の一覧については、「Microsoft Knowledge Base 929395 の記事「Exchange Server と通信サーバー [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)のための統合コミュニケーション証明書パートナー」 () を参照してください。
+内部サーバーには内部のエンタープライズ証明機関 (CA) をお勧めしますが、パブリック CA を使用することもできます。 統合コミュニケーション (UC) 証明書の特定の要件に準拠した証明書を提供し、Microsoft と提携して Lync Server 証明書ウィザードを使用できるようにするパブリック Ca の一覧については、「Microsoft Knowledge Base 929395 の記事「Exchange Server と通信サーバーのための統合コミュニケーション証明書パートナー」 () を参照してください [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) 。
 
-Exchange 2013 などの他のアプリケーションやサーバーと通信するには、他のアプリケーションと製品でサポートされている証明書が必要です。 2013リリース、Lync Server 2013、および Exchange 2013 および SharePoint Server を含むその他の Microsoft サーバー製品については、サーバー間の認証と承認のための Open Authorization (OAuth) プロトコルをサポートしています。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync server 2013 でのサーバー間認証 (OAuth) およびパートナーアプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。
+Exchange 2013 などの他のアプリケーションやサーバーと通信するには、他のアプリケーションと製品でサポートされている証明書が必要です。 2013リリース、Lync Server 2013、および Exchange 2013 および SharePoint Server を含むその他の Microsoft サーバー製品については、サーバー間の認証と承認のための Open Authorization (OAuth) プロトコルをサポートしています。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync server 2013 でのサーバー間認証 (OAuth) およびパートナーアプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) 」を参照してください。
 
-Windows 7 オペレーティングシステムを実行しているクライアントからの接続、Windows Server 2008 オペレーティングシステム、Windows Server 2008 R2 オペレーティングシステム、Windows Vista オペレーティングシステム、および Microsoft Lync Phone Edition の場合、Lync Server 2013 にはのサポートが含まれています。必須) 256 SHA-1 暗号化ハッシュ関数を使用して署名された証明書。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
+Windows 7 オペレーティングシステム、Windows Server 2008 オペレーティングシステム、Windows Server 2008 R2 オペレーティングシステム、Windows Vista オペレーティングシステム、および Microsoft Lync Phone Edition を実行しているクライアントからの接続については、Lync Server 2013 では、SHA-256 暗号化ハッシュ関数を使用して署名された証明書をサポートしていますが、必須ではありません。 SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
 
 次の表に、フロント エンド プールと Standard Edition サーバーの各サーバーの役割における証明書要件を示します。 これらはすべて、標準 Web サーバー、秘密キー、エクスポート不可能です。
 
@@ -95,7 +97,7 @@ Windows 7 オペレーティングシステムを実行しているクライア�
 <th>サブジェクト名/共通名</th>
 <th>サブジェクト名の別名</th>
 <th>例</th>
-<th>コメント</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -165,7 +167,7 @@ Windows 7 オペレーティングシステムを実行しているクライア�
 <th>サブジェクト名/共通名</th>
 <th>サブジェクト名の別名</th>
 <th>例</th>
-<th>コメント</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -331,7 +333,7 @@ Windows 7 オペレーティングシステムを実行しているクライア�
 <tr class="odd">
 <td><p>既定値</p></td>
 <td><p>アプライアンスの FQDN</p></td>
-<td><p>SIP.&lt;MICROSOFT.RTC.MANAGEMENT.XDS.SIPDOMAIN&gt; (SIP ドメインごとに1つのエントリが必要)</p></td>
+<td><p>SIP。 &lt;microsoft.rtc.management.xds.sipdomain &gt; (SIP ドメインごとに1つのエントリが必要)</p></td>
 <td><p>SN = sba01;SAN = sip。SAN: fabrikam. .com</p></td>
 </tr>
 </tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ea588abf4018ab06a415d4aa5ef7decf5f93996
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89bc70635ac941398a71515e77dd1a792973fc35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189990"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527304"
 ---
+# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Lync Server 2010 から Lync Server 2013 への移行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a>Lync Server 2010 から Lync Server 2013 への移行
+
 
 </div>
 
@@ -75,11 +77,11 @@ _**トピックの最終更新日:** 2012-09-17_
 
 ## <a name="in-this-section"></a>このセクション中
 
-  - [移行を開始する前に](before-you-begin-the-migration.md)
+  - [移行を始める前に](before-you-begin-the-migration.md)
 
   - [フェーズ 1: Lync Server 2010 からの移行を計画する](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-  - [フェーズ 2: 移行の準備をする](phase-2-prepare-for-migration.md)
+  - [フェーズ 2: 移行の準備](phase-2-prepare-for-migration.md)
 
   - [フェーズ 3: Lync Server 2013 パイロットプールを展開する](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
@@ -87,11 +89,11 @@ _**トピックの最終更新日:** 2012-09-17_
 
   - [フェーズ 5: Lync Server 2013 エッジサーバーをパイロットプールに追加する](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [フェーズ 6: パイロット展開から運用への移行](phase-6-move-from-pilot-deployment-into-production.md)
+  - [フェーズ 6: パイロット展開から運用展開への移行](phase-6-move-from-pilot-deployment-into-production.md)
 
-  - [フェーズ 7: 移行後のタスクを完了する](phase-7-complete-post-migration-tasks.md)
+  - [フェーズ 7: 移行後のタスクの実行](phase-7-complete-post-migration-tasks.md)
 
-  - [フェーズ 8: 従来のプールを使用停止にする](phase-8-decommission-legacy-pools.md)
+  - [フェーズ 8: レガシ プールの使用停止](phase-8-decommission-legacy-pools.md)
 
 </div>
 

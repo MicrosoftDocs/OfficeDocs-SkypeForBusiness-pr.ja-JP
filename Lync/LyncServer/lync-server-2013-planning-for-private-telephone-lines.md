@@ -12,20 +12,22 @@ ms:contentKeyID: 48184909
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8051fc18fd42c2c9773d4e0b8904f2923687fe2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a5381d0f71dd6e15a3b4b6d76f2a03be558b9d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184140"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526524"
 ---
+# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Lync Server 2013 を使用したプライベート電話回線の計画
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Lync Server 2013 を使用したプライベート電話回線の計画
+
 
 </div>
 
@@ -137,7 +139,7 @@ Lync Server 2013 には、プライマリ電話回線に加えて、2番目の�
 
 プライベート電話回線を必要とする新規ユーザーのアカウントは、Lync Server コントロールパネルまたは Lync Server 管理シェルを使用して、プライベート電話回線のないアカウントと同じ方法で作成されます。
 
-Lync Server 管理シェルで sip:joe@contoso.com**コマンドレットを使用して、** ユーザーのプライベート電話回線に電話番号を割り当てます。たとえば、「 **Set-Csuser-Identity ""-PrivateLine "Tel: + 14255551212"」** のようにします。
+Lync Server 管理シェルで sip:joe@contoso.com **コマンドレットを使用して、** ユーザーのプライベート電話回線に電話番号を割り当てます。たとえば、「 **Set-Csuser-Identity ""-PrivateLine "Tel: + 14255551212"」** のようにします。
 
 プライベート電話回線の電話番号の長さは 3 ~ 15 桁で、前に "TEL:" というプレフィックスを付ける必要があります。 組織で市外局番や国/地域コードに Direct Inward Dialing を使用している場合、その市外局番や国/地域コードを指定できます。
 
@@ -149,7 +151,7 @@ Lync Server 管理シェルで sip:joe@contoso.com**コマンドレットを使�
 
 ## <a name="private-telephone-lines-in-mixed-deployments"></a>混在環境におけるプライベート電話回線
 
-プライベート電話回線は、Lync Server の展開に対してのみ構成する必要があります。 Lync Server と Office Communications server 2007 または Office Communications Server 2007 R2 サーバーの両方が存在する展開では、以前のバージョンのユーザーがプライベート電話回線への呼び出しを試みると、呼び出しのルーティングが失敗します。サーバーがプライベート電話回線で逆引き番号検索を実行します。
+プライベート電話回線は、Lync Server の展開に対してのみ構成する必要があります。 Lync Server と Office Communications server 2007 または Office Communications Server 2007 R2 サーバーの両方が存在する展開では、以前のバージョンのユーザーがプライベート電話回線への呼び出しを試みると、サーバーはプライベート電話回線で逆引き番号参照を実行できないため、呼び出しのルーティングは失敗します。
 
 </div>
 

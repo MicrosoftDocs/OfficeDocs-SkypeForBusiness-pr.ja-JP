@@ -12,20 +12,22 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebce894ae93b9071a880b35dffd039225b5485cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7376ce3cbafe1321878a28e43e9bc3ab065c990f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525941"
 ---
+# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Microsoft Lync Server 2013 ボイスメール用の Microsoft Exchange Server 2013 ユニファイドメッセージングの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Microsoft Lync Server 2013 ボイスメール用の Microsoft Exchange Server 2013 ユニファイドメッセージングの構成
+
 
 </div>
 
@@ -46,15 +48,15 @@ Lync Server 2013 と Exchange 2013 の間のサーバー間認証を既に構成
 
 例の最初のコマンドで、VoIPSecurity パラメーターおよびパラメーター値 "Secured" は、信号チャネルがトランスポート層セキュリティ (TLS) を使用して暗号化されることを指定します。URIType "SipName" は、SIP プロトコルを使用してメッセージが送受信されることを指定し、CountryOrRegionCode の 1 は、ダイヤル プランが US に適用されることを指定します。
 
-2 番目のコマンドで、ConfiguredInCountryOrRegionGroups パラメーターに渡されるパラメーター値は、このダイヤル プランで使用できる国内のグループを指定します。 パラメーターの値を "Anywhere\*,\*,\*," に設定すると、次のようになります。
+2 番目のコマンドで、ConfiguredInCountryOrRegionGroups パラメーターに渡されるパラメーター値は、このダイヤル プランで使用できる国内のグループを指定します。 パラメーターの値を "Anywhere, \* , \* ," に設定すると、 \* 次のようになります。
 
   - グループ名 ("Anywhere")
 
-  - Allowednumber 文字列 (\*つまり、任意の数字文字列を使用できることを示すワイルドカード文字)
+  - Allowednumber 文字列 (つまり \* 、任意の数字文字列を使用できることを示すワイルドカード文字)
 
-  - [ダイヤル番号]\*文字列 (つまり、任意のダイヤル番号が許可されていることを示すワイルドカード文字)
+  - \*[ダイヤル番号] 文字列 (つまり、任意のダイヤル番号が許可されていることを示すワイルドカード文字)
 
-  - TextComment (\*、任意のテキストコマンドを使用できることを示すワイルドカード文字)
+  - TextComment ( \* 、任意のテキストコマンドを使用できることを示すワイルドカード文字)
 
 <div>
 
@@ -70,7 +72,7 @@ Lync Server 2013 と Exchange 2013 の間のサーバー間認証を既に構成
 
     Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 
-ユニファイドメッセージングサーバーを構成したら、次に、Get-exchangecertificate コマンドレットを実行して、Exchange 証明書がユニファイドメッセージングサービスに適用されていることを確認する必要があります。
+ユニファイドメッセージングサーバーを構成した後、次に Enable-ExchangeCertificate コマンドレットを実行して、Exchange 証明書がユニファイドメッセージングサービスに適用されていることを確認する必要があります。
 
     Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 
@@ -93,7 +95,7 @@ Lync Server 2013 と Exchange 2013 の間のサーバー間認証を既に構成
 
 上のコマンドで、Extensions パラメーターはユーザーの内線番号を表します。この例の場合、ユーザーの内線番号は 100 です。
 
-メールボックスを有効にすると、ユーザー kenmyer@litwareinc.com は Exchange ユニファイド メッセージングを使用できるようになります。 Lync Server 管理シェルから、 [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity)コマンドレットを実行することによって、ユーザーが Exchange UM に接続できることを確認できます。
+メールボックスを有効にすると、ユーザー kenmyer@litwareinc.com は Exchange ユニファイド メッセージングを使用できるようになります。 Lync Server 管理シェルから、 [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) コマンドレットを実行することによって、ユーザーが Exchange UM に接続できることを確認できます。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

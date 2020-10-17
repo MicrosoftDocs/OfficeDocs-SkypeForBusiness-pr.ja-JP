@@ -12,20 +12,22 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5167ae007379bed9212651eaabfbca7ac7217ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 49b34e623b885bb7e85afc258c1d533c2a8feb46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208013"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527004"
 ---
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>Lync Server 2013 の監視ノードを構成して System Center discovery に参加する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>Lync Server 2013 の監視ノードを構成して System Center discovery に参加する
+
 
 </div>
 
@@ -43,7 +45,7 @@ System center operations manager の検出プロセスに監視ノードが参�
 
 2.  ウォッチャー ノード コンピューターの名前を右クリックし、[**プロパティ**] をクリックします。[**プロパティ**] ダイアログ ボックスの [**セキュリティ**] タブで、[**このエージェントをプロキシとして動作させ、他のコンピューター上の管理オブジェクトを検出する**] をオンにして、[**OK**] をクリックします。
 
-ウォッチャー ノードがプロキシとして動作するように構成した後、ウォッチャー ノード コンピューターを再起動します。 コンピューターが再起動したら、そのコンピューターの Operations Manager イベントログにエラーイベントが記録されていないことを確認します。 コンピューターを15分間実行した後、Operations Manager コンソールを使用して、lync Server コンピューターが**lync**カテゴリの下に一覧表示されていることを確認します。
+ウォッチャー ノードがプロキシとして動作するように構成した後、ウォッチャー ノード コンピューターを再起動します。 コンピューターが再起動したら、そのコンピューターの Operations Manager イベントログにエラーイベントが記録されていないことを確認します。 コンピューターを15分間実行した後、Operations Manager コンソールを使用して、lync Server コンピューターが **lync** カテゴリの下に一覧表示されていることを確認します。
 
 </div>
 

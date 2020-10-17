@@ -12,20 +12,22 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cfeffc8a72d26167b9771e6437d21ba55c8f5636
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221157"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525954"
 ---
+# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Lync Online で Lync Server 2013 のフェデレーションを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>Lync Online で Lync Server 2013 のフェデレーションを構成する
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**トピックの最終更新日:** 2016-08-15_
 
 セッション開始プロトコル (SIP) アドレスは、電話番号や電子メールアドレスと同様に、ネットワーク上の各ユーザーの一意の識別子です。 オンプレミスから Skype for Business Online に Lync ユーザーを移動する前に、Microsoft 365 または Office 365 組織を構成して、共有セッション開始プロトコル (SIP) アドレススペースを社内展開と共有する必要があります。 この設定が構成されていない場合は、次のエラーメッセージが表示されることがあります。
 
-Move-CsUser: HostedMigration fault: Error = (510), Description = (このユーザーのテナントは、共有 sip アドレススペースに対して有効になっていません。)
+Move-CsUser: HostedMigration fault: Error = (510)、Description = (このユーザーのテナントは、共有 sip アドレススペースでは有効ではありません。)
 
 共有 SIP アドレススペースを構成するには、Skype for Business Online でリモート PowerShell セッションを確立し、次のコマンドレットを実行します。
 ```powershell

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed6015a7ff0131ee01c913d59f471a01edd916cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d831638cf25df4f9c1b792c34815e8bed8c15e8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525874"
 ---
+# <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>Microsoft SharePoint Server 2013 を構成して、アーカイブされた Microsoft Lync Server 2013 データを検索する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>Microsoft SharePoint Server 2013 を構成して、アーカイブされた Microsoft Lync Server 2013 データを検索する
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**トピックの最終更新日:** 2014-02-04_
 
 Microsoft Lync Server 2013 ではなく、Microsoft Exchange Server 2013 でインスタントメッセージングと Web 会議のトランスクリプトを格納する主な利点の1つは、管理者が1つのツールを使用して、アーカイブされた Exchange データやアーカイブされた Lync Server データを検索できることです。 すべてのデータが同じ場所 (Exchange) に保存されるため、アーカイブされた Exchange データを検索できるツールも、アーカイブされた Lync Server データを検索できます。
 
-アーカイブされたデータを簡単に検索できるようにするツールの1つは、Microsoft SharePoint Server 2013 です。 SharePoint を使用して Lync Server データを検索する場合は、まず、「Lync Server での Exchange アーカイブの構成に必要な手順」に記載されているすべての手順を完了する必要があります。 Exchange 2013 と Lync Server 2013 が正常に統合された後で、Exchange Web Services Managed API Version 2.0 を SharePoint サーバーにインストールする必要があります。その API のセットアッププログラムは、Microsoft ダウンロードセンター ([https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305)) からダウンロードできます。 ダウンロードしたファイル (EWSManagedAPI .msi) は、SharePoint サーバー上の任意のフォルダーに保存できます。
+アーカイブされたデータを簡単に検索できるようにするツールの1つは、Microsoft SharePoint Server 2013 です。 SharePoint を使用して Lync Server データを検索する場合は、まず、「Lync Server での Exchange アーカイブの構成に必要な手順」に記載されているすべての手順を完了する必要があります。 Exchange 2013 と Lync Server 2013 が正常に統合された後で、Exchange Web Services Managed API Version 2.0 を SharePoint サーバーにインストールする必要があります。その API のセットアッププログラムは、Microsoft ダウンロードセンター () からダウンロードでき [https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305) ます。 ダウンロードしたファイル (EWSManagedAPI.msi) は、SharePoint サーバー上の任意のフォルダーに保存できます。
 
 ファイルをダウンロードした後、SharePoint サーバー上で次の手順を実行します。
 
 1.  [**スタート**]、[**すべてのプログラム**]、[**アクセサリ**] の順にクリックし、[**コマンド プロンプト**] を右クリックし、[**管理者として実行**] をクリックして、コマンド ウィンドウを開きます。
 
-2.  コマンド ウィンドウで、**cd** コマンドを使用して、EWSManagedAPI.msi ファイルが保存されているフォルダーに現在のディレクトリを変更します。 たとえば、ファイルを C:\\ダウンロードに保存した場合は、コマンドウィンドウに次のコマンドを入力し、enter キーを押します。
+2.  コマンド ウィンドウで、**cd** コマンドを使用して、EWSManagedAPI.msi ファイルが保存されているフォルダーに現在のディレクトリを変更します。 たとえば、ファイルを C: ダウンロードに保存した場合は、 \\ コマンドウィンドウに次のコマンドを入力し、enter キーを押します。
     
         cd C:\Downloads
 
@@ -70,13 +72,13 @@ Exchange Web サービスがインストールされたら、SharePoint Server 2
 
 
 > [!NOTE]  
-> 自動検出サービスの URI を使用してください。 サンプル URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1は使用しないでください。
+> 自動検出サービスの URI を使用してください。 サンプル URI は使用しないでください https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 。
 
 
 
 </div>
 
-トークン発行元を作成し、トークンサービスを構成した後、次のコマンドを実行して、サンプル URL の SharePoint サイトの URL に置き換えられていることを確認してください。http://atl-sharepoint-001:
+トークン発行元を作成し、トークンサービスを構成した後、次のコマンドを実行して、サンプル URL の SharePoint サイトの URL に置き換えられていることを確認してください。 http://atl-sharepoint-001:
 
     $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
     $app = Get-SPAppPrincipal -Site "https://atl-sharepoint-001" -NameIdentifier $exchange.NameID
@@ -124,7 +126,7 @@ Exchange と SharePoint の間でサーバー間の認証が確立されたら�
 
 4.  [**自動検出を使用する**] がオンでないことを確認して、[**OK**] をクリックします。
 
-最後に、SharePoint 探索サイトから以下の手順を実行して、新しい電子情報開示ケースと新しい電子情報開示セットを作成します (例:https://atl-sharepoint-001/sites/discovery):
+最後に、SharePoint 探索サイトから以下の手順を実行して、新しい電子情報開示ケースと新しい電子情報開示セットを作成します (例: https://atl-sharepoint-001/sites/discovery):
 
 1.  [サイト コンテンツ] ページで、[**新しいケースを作成します**] をクリックします。
 
@@ -136,7 +138,7 @@ Exchange と SharePoint の間でサーバー間の認証が確立されたら�
 
 4.  [電子情報開示セット] ページが表示されたら、[**識別と保存: 情報開示セット**] の下の [**新しいアイテム**] をクリックします。
 
-5.  [新規: 情報開示セット] ページで、[**情報開示セット名**] ボックスにユーザーの電子メール エイリアスを入力します。 [**フィルター** ] ボックスに「**電子情報開示 Lync\* ** 」と入力し、[追加] をクリックして [ソースの**管理 &** します。
+5.  [新規: 情報開示セット] ページで、[**情報開示セット名**] ボックスにユーザーの電子メール エイリアスを入力します。 [**フィルター** ] ボックスに「**電子情報開示 Lync \* ** 」と入力し、[追加] をクリックして [ソースの**管理 &** します。
 
 6.  [ソースの追加/管理] ページで、[**メールボックス**] の下の最初のテキスト ボックスにユーザーの電子メール エイリアスを入力します。テキスト ボックスの横にある [メールボックスの確認] アイコンをクリックして、SharePoint が指定のメールボックスに接続できることを確認します。
 
@@ -144,7 +146,7 @@ Exchange と SharePoint の間でサーバー間の認証が確立されたら�
 
 8.  [電子情報開示セット] ページで、[**保存**] をクリックして新しい電子情報開示セットを保存します。
 
-この時点で、指定されたメールボックス (kenmyer) を検索したり、インプレース保持を有効にしたりできます。他の SharePoint コンテンツや検索先と同じ方法で行います。
+この時点で、指定されたメールボックス (kenmyer) を検索したり、他の SharePoint コンテンツまたは検索先に対して行うのと同じ方法で In-Place 保持を有効にしたりすることができます。
 
 </div>
 

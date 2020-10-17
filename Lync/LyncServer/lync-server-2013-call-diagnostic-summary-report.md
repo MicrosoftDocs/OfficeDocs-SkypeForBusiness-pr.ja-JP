@@ -12,20 +12,22 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c055a48684716ce64428615759b023242b9e4ff5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f70c4fc0987b75cc8c5a8831eb8ad76493fea9b9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203443"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526324"
 ---
+# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Lync Server 2013 の通話診断の概要レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Lync Server 2013 の通話診断の概要レポート
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2012-06-06_
 
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>通話診断の概要レポートへのアクセス
 
-通話診断の概要レポートには、監視レポートのホームページからアクセスします。 通話診断の概要レポートでは、レポートの [ピアツーピアセッションの概要] セクションにある [エラー率] 指標をクリックすることによって、 [Lync Server 2013 のピアツーピアアクティビティ診断レポート](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)にアクセスできます。 また、次のいずれかの電話会議指標をクリックして、 [Lync Server 2013 の電話会議診断レポート](lync-server-2013-conference-diagnostic-report.md)にアクセスすることもできます。
+通話診断の概要レポートには、監視レポートのホームページからアクセスします。 通話診断の概要レポートでは、レポートの [ピアツーピアセッションの概要] セクションにある [エラー率] 指標をクリックすることによって、 [Lync Server 2013 のピアツーピアアクティビティ診断レポート](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) にアクセスできます。 また、次のいずれかの電話会議指標をクリックして、 [Lync Server 2013 の電話会議診断レポート](lync-server-2013-conference-diagnostic-report.md) にアクセスすることもできます。
 
   - [全体的なセッション エラー率]
 
@@ -106,7 +108,7 @@ _**トピックの最終更新日:** 2012-06-06_
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bf9d53d8702fbd9e63ec05af2c4942538f7298e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 881e161a01b589db2db172cb5115858b522d262b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190570"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526234"
 ---
+# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Lync Server 2013 で電話番号に対するトランク構成を確認する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Lync Server 2013 で電話番号に対するトランク構成を確認する
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-05-20_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Get-cstrunkconfiguration コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsTrunkConfiguration コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTrunkConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ SIP トランク Lync Server の内部エンタープライズ Voip ネットワ
 
   - セッションボーダーコントローラー (SBC)。
 
-Get-cstrunkconfiguration コマンドレットでは、(ユーザーによってダイヤルされた) 電話番号を e.164 ネットワークに変換し、指定された SIP トランクを経由してルーティングできることを確認します。
+Test-CsTrunkConfiguration コマンドレットでは、(ユーザーによってダイヤルされた) 電話番号を e.164 ネットワークに変換し、指定された SIP トランクを経由してルーティングできるかどうかを検証します。
 
 </div>
 
@@ -82,11 +84,11 @@ Get-cstrunkconfiguration コマンドレットでは、(ユーザーによって
 
 ## <a name="running-the-test"></a>テストの実行
 
-Get-cstrunkconfiguration コマンドレットを実行するには、最初に Get-cstrunkconfiguration コマンドレットを使用して SIP トランク構成設定のインスタンスを取得する必要があります。その後、そのインスタンスは Get-cstrunkconfiguration にパイプ処理されます。
+Test-CsTrunkConfiguration コマンドレットを実行するには、最初に Get-CsTrunkConfiguration コマンドレットを使用して SIP トランク構成設定のインスタンスを取得する必要があります。その後、そのインスタンスは Get-cstrunkconfiguration にパイプ処理されます。
 
 `Get-CsTrunkConfiguration -Identity "Global" | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-最初に Get-cstrunkconfiguration を実行せずにテストを実行すると、Get-cstrunkconfiguration は機能しません。 たとえば、次のコマンドは、データを返さずに失敗します。
+最初に Get-CsTrunkConfiguration を実行せずに Test-CsTrunkConfiguration を実行しても動作しません。 たとえば、次のコマンドは、データを返さずに失敗します。
 
 `Test-CsTrunkConfiguration -DialedNumber "12065551219" -TrunkConfiguration "Global"`
 
@@ -94,7 +96,7 @@ SIP トランク構成設定のコレクションが複数ある場合は、次�
 
 `Get-CsTrunkConfiguration | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-詳細については、Get-cstrunkconfiguration コマンドレットのヘルプドキュメントを参照してください。
+詳細については、Test-CsTrunkConfiguration コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -102,7 +104,7 @@ SIP トランク構成設定のコレクションが複数ある場合は、次�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Get-cstrunkconfiguration がダイヤル番号に電話をかけることができる場合は、(e.164 形式で) 翻訳された電話番号と、その電話番号の変換に使用されるルールの両方が画面に表示されます。
+Test-CsTrunkConfiguration がダイヤル番号に電話をかけることができる場合は、(e.164 形式で) 翻訳された電話番号と、その電話番号の変換に使用されるルールの両方が画面に表示されます。
 
 TranslatedNumber MatchingRule
 
@@ -110,7 +112,7 @@ TranslatedNumber MatchingRule
 
 \+12065551219グローバル/Redmond
 
-テストが失敗した場合、Get-cstrunkconfiguration は空のプロパティ値を返します。
+テストが失敗すると、Test-CsTrunkConfiguration は空のプロパティ値を返します。
 
 TranslatedNumber MatchingRule
 
@@ -122,7 +124,7 @@ TranslatedNumber MatchingRule
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-Get-cstrunkconfiguration が一致を返さない場合、通常は、テスト対象のトランク構成設定に、ダイヤル番号を e.164 形式に変換できる発信通話番号変換ルールがないことを意味します。 トランク構成設定のコレクションに割り当てられている変換ルールを取得するには、次のような構文を使用します。
+Test-CsTrunkConfiguration が一致を返さない場合、通常は、テスト対象のトランク構成設定に、ダイヤル番号を e.164 形式に変換できる発信通話番号変換ルールがないことを意味します。 トランク構成設定のコレクションに割り当てられている変換ルールを取得するには、次のような構文を使用します。
 
 `Get-CsTrunkConfiguration -Identity "global" | Select-Object -ExpandProperty OutboundTranslationRulesList`
 
@@ -130,13 +132,13 @@ Get-cstrunkconfiguration が一致を返さない場合、通常は、テスト�
 
 説明: 国番号またはエリアコードのない電話番号。
 
-パターン: ^\\+ (\\d\*) $
+パターン: ^ \\ + ( \\ d \* ) $
 
 `Translation : $1`
 
 名前: NoAreaCode
 
-その時点で、Pattern プロパティ ([正規表現](https://go.microsoft.com/fwlink/?linkid=400464)文字列) の値をチェックして、いずれかの変換ルールがダイヤル番号を処理するように構成されているかどうかを確認します。 それ以外の場合は、既存のルールの1つを変更するか (New-csoutboundtranslationrule)、New-csoutboundtranslationrule コマンドレットを使用して新しいルールをコレクションに追加します。
+その時点で、Pattern プロパティ ( [正規表現](https://go.microsoft.com/fwlink/?linkid=400464) 文字列) の値をチェックして、いずれかの変換ルールがダイヤル番号を処理するように構成されているかどうかを確認します。 それ以外の場合は、既存のルールの1つを変更するか (New-csoutboundtranslationrule)、または New-CsOutboundTranslationRule コマンドレットを使用して新しいルールをコレクションに追加します。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5a6cd54732bb6c33e358eeb1a5dbb72a1a4e789
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05147e469ce120663992e5ae7b8a3ee59acaf78c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526614"
 ---
+# <a name="incoming-calls-in-lync-server-2013"></a>Lync Server 2013 の着信呼び出し
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="incoming-calls-in-lync-server-2013"></a>Lync Server 2013 の着信呼び出し
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42204750"
 
 _**トピックの最終更新日:** 2013-03-09_
 
-場所に基づくルーティングが有効になっているユーザーへの着信通話のルーティングは、ユーザーのエンドポイントの場所によって異なります。 着信呼び出しのルーティングには、次のような影響があります。 ユーザーが場所に基づくルーティングが有効なネットワークサイトにあるエンドポイントへの着信呼び出しを行い、エンドポイントが PSTN ゲートウェイと同じネットワークサイトにある場合、通話はルーティングされます。 ユーザーが場所に基づくルーティングが有効なネットワークサイトにあるエンドポイントへの着信呼び出しを行い、エンドポイントが PSTN ゲートウェイとは別のネットワークサイトにある場合、通話はルーティングされません。 着信呼び出しが行われている PSTN ゲートウェイと同じネットワークサイト内にエンドポイントが存在しない場合、着信呼び出しは直接ユーザーのボイスメールにルーティングされ、不在着信通知が呼び出し元に送信されます。
+Location-Based ルーティングが有効になっているユーザーへの着信通話のルーティングは、ユーザーのエンドポイントの場所によって異なります。 着信呼び出しのルーティングには、次のような影響があります。 ユーザーが Location-Based ルーティングが有効なネットワークサイトにあるエンドポイントへの着信呼び出しを行い、エンドポイントが PSTN ゲートウェイと同じネットワークサイトにある場合、通話はルーティングされます。 ユーザーが Location-Based ルーティングが有効なネットワークサイトにあるエンドポイントへの着信呼び出しを行い、そのエンドポイントが PSTN ゲートウェイとは別のネットワークサイトにある場合、通話はルーティングされません。 着信呼び出しが行われている PSTN ゲートウェイと同じネットワークサイト内にエンドポイントが存在しない場合、着信呼び出しは直接ユーザーのボイスメールにルーティングされ、不在着信通知が呼び出し元に送信されます。
 
-場所に基づくルーティングが有効になっているユーザーの着信転送設定は引き続き強制されますが、転送される呼び出しは、ユーザーの場所に基づいたルーティング制限の対象となります。
+Location-Based ルーティングが有効になっているユーザーの着信転送設定は引き続き強制されますが、転送される呼び出しは、ユーザーの Location-Based ルーティング制限の対象となります。
 
-次の表は、呼び出し先のエンドポイントの場所に応じて、場所に基づくルーティングが着信呼び出しのルーティングにどのように影響するかを示しています。 PSTN ゲートウェイのネットワークサイトは、場所に基づいたルーティングに対して有効になっており、場所に基づくルーティングでは、同じネットワークサイト内のエンドポイントへの PSTN 通話のルーティングのみが許可されます。
+次の表は、呼び出し先のエンドポイントの場所に応じて、Location-Based ルーティングが着信呼び出しのルーティングにどのように影響するかを示しています。 PSTN ゲートウェイのネットワークサイトは Location-Based ルーティングに対して有効になっており、Location-Based ルーティングでは、同じネットワークサイト内のエンドポイントへの PSTN 通話のルーティングのみが許可されます。
 
 ### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>PSTN からの着信通話を受信する呼び出し先
 
@@ -57,7 +59,7 @@ _**トピックの最終更新日:** 2013-03-09_
 <th></th>
 <th>PSTN ゲートウェイと同じネットワークサイトにある呼び出し先のエンドポイント</th>
 <th>呼び出し先のエンドポイントが PSTN ゲートウェイと同じネットワークサイトにありません</th>
-<th>呼び出し先のエンドポイントが不明なネットワークサイトにあるか、または場所に基づくルーティングに対して有効になっていません</th>
+<th>呼び出し先のエンドポイントが不明なネットワークサイトにあるか、Location-Based ルーティングに対して有効になっていません</th>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +79,7 @@ _**トピックの最終更新日:** 2013-03-09_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での場所に基づくルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013 での Location-Based ルーティングのシナリオ](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

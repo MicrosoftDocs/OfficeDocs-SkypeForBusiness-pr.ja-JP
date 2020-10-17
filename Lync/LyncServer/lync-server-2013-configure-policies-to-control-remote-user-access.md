@@ -12,20 +12,22 @@ ms:contentKeyID: 48184825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f1687a26e5bf464191b742d046bc28e8c8a329a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a195a0bbca8bdfcc0b150504635d3f86cca376c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527014"
 ---
+# <a name="configure-policies-to-control-remote-user-access-in-lync-server-2013"></a>Lync Server 2013 でのリモートユーザーアクセスを制御するポリシーの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-remote-user-access-in-lync-server-2013"></a>Lync Server 2013 でのリモートユーザーアクセスを制御するポリシーの構成
+
 
 </div>
 
@@ -91,9 +93,9 @@ _**トピックの最終更新日:** 2012-10-18_
 
 7.  [**確定**] をクリックします。
 
-リモート ユーザー アクセスを有効にするには、組織のリモート ユーザー アクセスのサポートも有効にする必要があります。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync Server 2013 でのフェデレーションとパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)」を参照してください。
+リモート ユーザー アクセスを有効にするには、組織のリモート ユーザー アクセスのサポートも有効にする必要があります。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync Server 2013 でのフェデレーションとパブリック IM 接続の有効化または無効化](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) 」を参照してください。
 
-これがユーザー ポリシーである場合は、リモート接続を許可するユーザーにポリシーを適用する必要もあります。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「lync [Server 2013 での lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)」を参照してください。
+これがユーザー ポリシーである場合は、リモート接続を許可するユーザーにポリシーを適用する必要もあります。 詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「lync [Server 2013 での lync が有効なユーザーへの外部ユーザーアクセスポリシーの割り当て](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) 」を参照してください。
 
 </div>
 

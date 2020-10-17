@@ -12,20 +12,22 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae1105d20314e3133458ac404549337c7ee3c3db
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9373a04f7b8d7aa95532d33c875b5e6acc9d58d4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755297"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527394"
 ---
+# <a name="migrating-group-chat-servers"></a>グループチャットサーバーの移行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-group-chat-servers"></a>グループチャットサーバーの移行
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755297"
 
 _**トピックの最終更新日:** 2012-09-29_
 
-従来の Lync Server 2010 環境にグループチャットサーバーを展開した場合は、Lync Server 2013 常設チャットサーバーを展開する必要があります。 グループチャットサーバーと常設チャットサーバーは共存できますが、これらのサーバー間でコンテンツ (チャットルームなど) を共有することはできません。 常設チャットサーバーから従来のグループチャットサーバーのコンテンツにアクセスするには、グループチャットサーバーを常設チャットサーバーに移行する必要があります。 常設チャットサーバーへの移行の詳細については、「移行」のドキュメントの「 [Lync server 2010、グループチャットまたは Office Communications server 2007 R2 グループチャットから Lync Server 2013、常設チャットサーバーへの移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)」を参照してください。
+従来の Lync Server 2010 環境にグループチャットサーバーを展開した場合は、Lync Server 2013 常設チャットサーバーを展開する必要があります。 グループチャットサーバーと常設チャットサーバーは共存できますが、これらのサーバー間でコンテンツ (チャットルームなど) を共有することはできません。 常設チャットサーバーから従来のグループチャットサーバーのコンテンツにアクセスするには、グループチャットサーバーを常設チャットサーバーに移行する必要があります。 常設チャットサーバーへの移行の詳細については、「移行」のドキュメントの「 [Lync server 2010、グループチャットまたは Office Communications server 2007 R2 グループチャットから Lync Server 2013、常設チャットサーバーへの移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) 」を参照してください。
 
 </div>
 

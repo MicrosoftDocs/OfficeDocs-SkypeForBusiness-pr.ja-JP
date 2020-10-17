@@ -12,20 +12,22 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf5b2b6e707820986b20f0592d2f2051e6f47bc5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8431e16e976f0ad189205f0c42c04d50e6936e90
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196050"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527044"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Lync Server 2013 のバックアップと復元の要件: データ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Lync Server 2013 のバックアップと復元の要件: データ
+
 
 </div>
 
@@ -151,7 +153,7 @@ Lync Server は、データベースに格納されている設定と構成情�
 <td><p>常設チャットデータベース (お持ちの場合)。</p>
 <p>このデータベースは、別の Lync Server データベースと併置されている場合もあれば、独立したデータベースサーバーにスタンドアロンである場合もあります。</p></td>
 <td><p>常設チャットデータは、チャットルームに投稿される実際のチャットコンテンツです。 このデータは、多くの場合、ビジネス上非常に重要です。</p>
-<p>Lync Server に用意されている<strong>export-cspersistentchatdata</strong>コマンドレットを使用して、SQL Server バックアップを使用するか、データベースをエクスポートするかを選択できます。 データを回復するには、最後の完全バックアップの時点までデータベースをインポートして復元することができます。これは、データベースを障害点まで復元できないことを意味します。</p></td>
+<p>Lync Server に用意されている <strong>export-cspersistentchatdata</strong> コマンドレットを使用して、SQL Server バックアップを使用するか、データベースをエクスポートするかを選択できます。 データを回復するには、最後の完全バックアップの時点までデータベースをインポートして復元することができます。これは、データベースを障害点まで復元できないことを意味します。</p></td>
 </tr>
 </tbody>
 </table>
@@ -165,7 +167,7 @@ Lync Server は、データベースに格納されている設定と構成情�
 
 Enterprise Edition の展開では、Lync Server ファイルストアは通常、ファイルサーバー上にあります。 Standard Edition の展開では、Lync Server ファイルストアは既定で Standard Edition サーバーに配置されます。 通常、サイトに対して共有される Lync Server ファイルストアは1つです。 常設チャットのファイルストアは、Lync Server ファイルストアと同じファイル共有を使用します。
 
-ファイルストアの場所は、 \\ \\サーバー\\共有名として識別されます。 ファイルストアの特定の場所を検索するには、トポロジビルダーを開き、[**ファイルストア**] ノードを探します。
+ファイルストアの場所は、 \\ サーバー共有名として識別され \\ \\ ます。 ファイルストアの特定の場所を検索するには、トポロジビルダーを開き、[ **ファイルストア** ] ノードを探します。
 
 次の表に、バックアップおよび復元する必要があるファイル ストアを示します。
 
@@ -203,7 +205,7 @@ Enterprise Edition の展開では、Lync Server ファイルストアは通常�
 
 障害が発生した場合に Lync Server サービスを復元できるようにするには、Lync Server 自体に含まれていないいくつかの必要なコンポーネントをバックアップする必要があります。 次のコンポーネントは、このドキュメントで説明する Lync Server のバックアップと復元のプロセスの一環としてバックアップまたは復元されません。
 
-  - **Active directory ドメインサービス**   Lync Server をバックアップするときに、active directory ツールを使用して AD DS をバックアップする必要があります。 Ad DS と Lync Server を同期させておくことが重要です。これは、Lync Server が AD DS 内の連絡先オブジェクトと一致しない場合に発生する問題を回避するためです。 AD DS は、Lync Server で使用される次の設定を格納します。
+  - **Active Directory ドメインサービス**    Lync Server をバックアップするのと同時に、Active Directory ツールを使用して AD DS をバックアップする必要があります。 Ad DS と Lync Server を同期させておくことが重要です。これは、Lync Server が AD DS 内の連絡先オブジェクトと一致しない場合に発生する問題を回避するためです。 AD DS は、Lync Server で使用される次の設定を格納します。
     
       - ユーザーの SIP URI と他のユーザー設定。
     
@@ -213,33 +215,33 @@ Enterprise Edition の展開では、Lync Server ファイルストアは通常�
     
       - Kerberos 認証アカウント (オプションのコンピューターオブジェクト) と Lync Server セキュリティグループ。
     
-    Windows Server 2008 での AD DS のバックアップと復元の詳細については、「」の「AD DS のバックアップと復元の[https://go.microsoft.com/fwlink/p/?linkId=209105](https://go.microsoft.com/fwlink/p/?linkid=209105)ステップバイステップガイド」を参照してください。
+    Windows Server 2008 での AD DS のバックアップと復元の詳細については、「」の「AD DS のバックアップと復元のステップバイステップガイド」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=209105](https://go.microsoft.com/fwlink/p/?linkid=209105) 。
 
-  - **証明機関と証明書**   は、組織のポリシーを使用して、証明機関 (CA) と証明書をバックアップします。 エクスポート可能な秘密キーを使用している場合は、証明書と秘密キーをバックアップしてから、このドキュメントの手順を使用して Lync Server を復元する場合は、それらをエクスポートすることができます。 内部 CA を使用している場合は、Lync Server を復元する必要がある場合に再登録できます。 秘密キーは、コンピューターで障害が発生した場合に使用できる安全な場所に保持しておくことが重要です。
+  - **証明機関と証明書**    組織のポリシーを使用して、証明機関 (CA) と証明書をバックアップします。 エクスポート可能な秘密キーを使用している場合は、証明書と秘密キーをバックアップしてから、このドキュメントの手順を使用して Lync Server を復元する場合は、それらをエクスポートすることができます。 内部 CA を使用している場合は、Lync Server を復元する必要がある場合に再登録できます。 秘密キーは、コンピューターで障害が発生した場合に使用できる安全な場所に保持しておくことが重要です。
 
-  - **System center operations manager**   microsoft System center operations manager (旧称 microsoft Operations manager) を使用して lync server の展開を監視している場合は、lync server を監視している間に、必要に応じて、作成したデータをバックアップすることができます。 標準の SQL Server バックアッププロセスを使用して、System Center Operations Manager ファイルをバックアップします。 これらのファイルは復旧の際に復元されません。
+  - **System Center Operations Manager**    Microsoft System Center Operations Manager (旧称 Microsoft Operations Manager) を使用して Lync Server の展開を監視している場合は、Lync Server を監視している間に、必要に応じて、作成したデータをバックアップすることができます。 標準の SQL Server バックアッププロセスを使用して、System Center Operations Manager ファイルをバックアップします。 これらのファイルは復旧の際に復元されません。
 
-  - **公衆交換電話網 (PSTN) ゲートウェイの構成**   エンタープライズ voip または存続可能ブランチアプライアンスを使用する場合は、PSTN ゲートウェイ構成をバックアップする必要があります。 PSTN ゲートウェイ構成のバックアップと復元の詳細については、ベンダーに確認してください。
+  - **公衆交換電話網 (PSTN) ゲートウェイの構成**    エンタープライズ Voip または存続可能ブランチアプライアンスを使用する場合は、PSTN ゲートウェイ構成をバックアップする必要があります。 PSTN ゲートウェイ構成のバックアップと復元の詳細については、ベンダーに確認してください。
 
-  - **共存する lync server または office communications server**   のバージョン lync server 2013 の展開 coexists で lync server 2010 または以前のバージョンの office communications server が使用されている場合、このドキュメントの手順を使用して以前のバージョンのバックアップまたは復元を行うことはできません。 代わりに、該当のバージョンのドキュメントにあるバックアップと復元の手順に従う必要があります。 Lync Server 2010 のバックアップと復元の詳細について[https://go.microsoft.com/fwlink/p/?linkId=265417](https://go.microsoft.com/fwlink/p/?linkid=265417)は、「」を参照してください。 Microsoft Office Communications Server 2007 R2 のバックアップと復元の詳細について[https://go.microsoft.com/fwlink/p/?linkId=168162](https://go.microsoft.com/fwlink/p/?linkid=168162)は、「」を参照してください。
+  - **Lync server または Office Communications server**     の共存バージョンLync server 2013 の展開 coexists で Lync Server 2010 または以前のバージョンの Office Communications Server が使用されている場合は、このドキュメントの手順を使用して以前のバージョンのバックアップまたは復元を行うことはできません。 代わりに、該当のバージョンのドキュメントにあるバックアップと復元の手順に従う必要があります。 Lync Server 2010 のバックアップと復元の詳細については、「」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=265417](https://go.microsoft.com/fwlink/p/?linkid=265417) 。 Microsoft Office Communications Server 2007 R2 のバックアップと復元の詳細については、「」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=168162](https://go.microsoft.com/fwlink/p/?linkid=168162) 。
 
-  - **インフラストラクチャ情報**   インフラストラクチャの構成、負荷分散の構成、インターネットインフォメーションサービス (IIS) の構成、ドメインネームシステム (DNS) レコードおよび IP アドレス、動的ホスト構成プロトコル (DHCP) の構成など、インフラストラクチャに関する情報をバックアップする必要があります。 これらのコンポーネントのバックアップの詳細については、それぞれのベンダーに確認してください。
+  - **インフラストラクチャ情報**    インフラストラクチャの構成、負荷分散の構成、インターネットインフォメーションサービス (IIS) の構成、ドメインネームシステム (DNS) レコードおよび IP アドレス、動的ホスト構成プロトコル (DHCP) の構成など、インフラストラクチャに関する情報をバックアップする必要があります。 これらのコンポーネントのバックアップの詳細については、それぞれのベンダーに確認してください。
 
-  - ****   Microsoft exchange のドキュメントで説明されているように、microsoft exchange と exchange ユニファイドメッセージング (UM) のバックアップを行い、microsoft exchange と exchange UM を復元します。 Exchange Server 2013 のバックアップと復元の詳細について[https://go.microsoft.com/fwlink/?LinkId=285384](https://go.microsoft.com/fwlink/?linkid=285384)は、「」を参照してください。 Exchange Server 2010 のバックアップと復元の詳細について[https://go.microsoft.com/fwlink/p/?linkId=209179](https://go.microsoft.com/fwlink/p/?linkid=209179)は、「」を参照してください。
+  - **Microsoft exchange と Exchange ユニファイドメッセージング (UM)**    Microsoft exchange のドキュメントで説明されているように、Microsoft Exchange と Exchange UM をバックアップおよび復元します。 Exchange Server 2013 のバックアップと復元の詳細については、「」を参照してください [https://go.microsoft.com/fwlink/?LinkId=285384](https://go.microsoft.com/fwlink/?linkid=285384) 。 Exchange Server 2010 のバックアップと復元の詳細については、「」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=209179](https://go.microsoft.com/fwlink/p/?linkid=209179) 。
     
     Lync Server 2013 では、ユーザーの連絡先リスト、高精細定義のユーザー写真、および Exchange 2013 に格納されているアーカイブデータを持つことができることに注意してください。 これらの種類のデータをバックアップする方法については、次のリストを参照してください。
     
-      - **高品位写真**は、Exchange Server バックアップの一部としてバックアップされます。
+      - **高品位写真** は、Exchange Server バックアップの一部としてバックアップされます。
     
-      - **統合連絡先ストア**は、Lync Server 2013 で導入されています。 統合連絡先ストアによって、ユーザーは Exchange 2013 ですべての連絡先情報を保持できます。
+      - **統合連絡先ストア** は、Lync Server 2013 で導入されています。 統合連絡先ストアによって、ユーザーは Exchange 2013 ですべての連絡先情報を保持できます。
         
         ユーザーの連絡先が統合連絡先ストアまたは Lync バックエンドサーバーに保存されているかどうかに関して、バックアップが最新の状態になっていることを確認する必要があります。 次のシナリオでは、ユーザーの連絡先を統合連絡先ストアに移行すると、バックアップと復元のプロセスで問題が発生する可能性があることを示しています。
         
         **シナリオ 1:** ユーザーの連絡先が統合連絡先ストアに移行され、ユーザーの連絡先を移行する前に行われた Lync Server バックアップから復元を実行します。 このシナリオでは、Lync Server 移行タスクでユーザーの連絡先の Exchange への移行が開始されるまで、ユーザーは最大で1日前の状態になっています。 (ユーザーの連絡先は既に統合連絡先ストアに移行されているため、Exchange の連絡先情報が使用されることに注意してください)。 このシナリオでは、管理者の介入は必要ありません。
         
-        **シナリオ 2:** ユーザーの連絡先は、以前に統合連絡先ストアに保存されていて、ロールバックされています。 ユーザーの連絡先が統合連絡先ストアに格納されている場合に実行される Lync Server バックアップから復元を実行します。 このシナリオでは、クライアントまたは`Error: Incorrect Exchange Version`その他の ss サーバーログでエラーメッセージが表示され、これが問題として示されることがあります。 ユーザーは、Exchange から直接 Lync 2013 の連絡先リストにアクセスできますが、クライアントの状態は Lync Server の状態とは一致しません。 この問題を解決するには、管理者は影響を受けるユーザーに対して**invoke-csucsrollback**コマンドレットを実行する必要があります。
+        **シナリオ 2:** ユーザーの連絡先は、以前に統合連絡先ストアに保存されていて、ロールバックされています。 ユーザーの連絡先が統合連絡先ストアに格納されている場合に実行される Lync Server バックアップから復元を実行します。 このシナリオで `Error: Incorrect Exchange Version` は、クライアントまたはその他の ss サーバーログでエラーメッセージが表示され、これが問題として示されることがあります。 ユーザーは、Exchange から直接 Lync 2013 の連絡先リストにアクセスできますが、クライアントの状態は Lync Server の状態とは一致しません。 この問題を解決するには、管理者は影響を受けるユーザーに対して **invoke-csucsrollback** コマンドレットを実行する必要があります。
     
-      - **アーカイブデータ**は、Exchange 2013 に保存できます。 このデータは Lync Server にとって重要ではありませんが、規制を目的として組織にとって重要な場合があります。 アーカイブデータが Exchange に保存されており、組織にとって重要な場合は、Exchange のバックアップと復元の手順に従います。 Exchange に保存されているアーカイブデータを Lync Server に戻すことはできないことに注意してください。 また、Lync アーカイブデータベースに既に格納されているデータを Exchange に移動する方法はありません。
+      - **アーカイブデータ** は、Exchange 2013 に保存できます。 このデータは Lync Server にとって重要ではありませんが、規制を目的として組織にとって重要な場合があります。 アーカイブデータが Exchange に保存されており、組織にとって重要な場合は、Exchange のバックアップと復元の手順に従います。 Exchange に保存されているアーカイブデータを Lync Server に戻すことはできないことに注意してください。 また、Lync アーカイブデータベースに既に格納されているデータを Exchange に移動する方法はありません。
 
 </div>
 

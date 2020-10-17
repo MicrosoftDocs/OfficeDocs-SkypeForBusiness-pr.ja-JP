@@ -12,20 +12,22 @@ ms:contentKeyID: 48185901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb475db2d1a12dcfc2b95dbf4711191767b18236
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1c4489e13f794a924e1512a1e6ed7b32f73da8f1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191970"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525994"
 ---
+# <a name="conference-diagnostic-report-in-lync-server-2013"></a>Lync Server 2013 の電話会議診断レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-diagnostic-report-in-lync-server-2013"></a>Lync Server 2013 の電話会議診断レポート
+
 
 </div>
 
@@ -78,7 +80,7 @@ _**トピックの最終更新日:** 2012-10-22_
 
 ## <a name="accessing-the-conference-diagnostic-report"></a>電話会議診断レポートへのアクセス
 
-電話会議診断レポートは [監視レポート] ホーム ページからアクセスします。 次のいずれかの指標をクリックすると、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md)にアクセスできます。
+電話会議診断レポートは [監視レポート] ホーム ページからアクセスします。 次のいずれかの指標をクリックすると、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md) にアクセスできます。
 
   - [予期しないエラー ボリューム]
 
@@ -90,7 +92,7 @@ _**トピックの最終更新日:** 2012-10-22_
 
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>電話会議診断レポートの活用
 
-電話会議診断レポートには一連のグラフが含まれています。 グラフの各列は実際にはハイパーリンクです。 列をクリックすると、その期間とその会議の種類について、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md)にドリルダウンします。
+電話会議診断レポートには一連のグラフが含まれています。 グラフの各列は実際にはハイパーリンクです。 列をクリックすると、その期間とその会議の種類について、 [Lync Server 2013 のエラー分布レポート](lync-server-2013-failure-distribution-report.md) にドリルダウンします。
 
 </div>
 
@@ -129,7 +131,7 @@ _**トピックの最終更新日:** 2012-10-22_
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>7/7/2012 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
@@ -155,7 +157,7 @@ _**トピックの最終更新日:** 2012-10-22_
 <td><p>[<strong>電話会議セッション</strong>]</p></td>
 <td><p>電話会議セッションの種類を示します。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
+<li><p>[All]</p></li>
 <li><p>フォーカス セッション</p></li>
 <li><p>すべての MCU セッション</p></li>
 <li><p>IM 電話会議</p></li>
@@ -204,7 +206,7 @@ _**トピックの最終更新日:** 2012-10-22_
 <tr class="odd">
 <td><p>[<strong>予期されるエラー ボリューム</strong>]</p></td>
 <td><p>いいえ</p></td>
-<td><p>&quot;予想されるエラー&quot;が発生した電話会議の総数です。</p>
+<td><p>予想されるエラーが発生した電話会議の総数 &quot; &quot; です。</p>
 <p>予期されるエラーとは、発生が予想されるエラーです。たとえば、ステータスを "応答不可" に設定しているユーザーへの通話は、すべてエラーになることが予想されます。</p></td>
 </tr>
 <tr class="even">
@@ -215,7 +217,7 @@ _**トピックの最終更新日:** 2012-10-22_
 <tr class="odd">
 <td><p>[<strong>予期しないエラー ボリューム</strong>]</p></td>
 <td><p>いいえ</p></td>
-<td><p>&quot;予期しないエラー&quot;が発生した電話会議の総数です。</p>
+<td><p>&quot;予期しないエラーが発生した電話会議の総数 &quot; です。</p>
 <p>予期しないエラーとは、一見すると正常と思われるシステムで発生するエラーです。たとえば、呼び出し元が保留中になっている通話は終了してはなりません。この操作を行うと、予期しないエラーとしてフラグが設定されます。</p></td>
 </tr>
 <tr class="even">
