@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 IPv6 の技術要件
+description: IPv6 の Lync Server 2013 技術要件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3484dd6ff1404d5d2a4adf77c4ab27a5a29e66b7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c54dfbdba56c45f19e7664db075331591c8e87cc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533814"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559463"
 ---
-# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a><span data-ttu-id="62d55-102">Lync Server 2013 での IPv6 の技術要件</span><span class="sxs-lookup"><span data-stu-id="62d55-102">Technical requirements for IPv6 in Lync Server 2013</span></span>
+# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a><span data-ttu-id="18f6d-103">Lync Server 2013 での IPv6 の技術要件</span><span class="sxs-lookup"><span data-stu-id="18f6d-103">Technical requirements for IPv6 in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48533814"
 
 <span> </span>
 
-<span data-ttu-id="62d55-103">_**トピックの最終更新日:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="62d55-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="18f6d-104">_**トピックの最終更新日:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="18f6d-104">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="62d55-104">IPv6 の Lync Server 2013 の構成を計画している場合は、次の要件に留意してください。</span><span class="sxs-lookup"><span data-stu-id="62d55-104">If you plan to configure Lync Server 2013 for IPv6, keep the following requirements in mind:</span></span>
+<span data-ttu-id="18f6d-105">IPv6 の Lync Server 2013 の構成を計画している場合は、次の要件に留意してください。</span><span class="sxs-lookup"><span data-stu-id="18f6d-105">If you plan to configure Lync Server 2013 for IPv6, keep the following requirements in mind:</span></span>
 
-  - <span data-ttu-id="62d55-105">Lync Server で IPv6 アドレスを使用するには、検出して IPv6 アドレスに解決する必要があるレコードに対してドメインネームシステム (DNS) レコードを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="62d55-105">To use IPv6 addresses with Lync Server, you need to create domain name system (DNS) records for records that must be discovered and resolved to an IPv6 address.</span></span> <span data-ttu-id="62d55-106">IPv6 DNS はホスト AAAA (クアッド A) レコードを使用します。</span><span class="sxs-lookup"><span data-stu-id="62d55-106">IPv6 DNS uses host AAAA (quad-A) records.</span></span> <span data-ttu-id="62d55-107">展開内で IPv4 と IPv6 の両方を使用する場合は、IPv4 用のホスト A レコードと IPv6 用のホスト AAAA レコードの両方を構成し保持するのが最善の方法です。</span><span class="sxs-lookup"><span data-stu-id="62d55-107">If you use both IPv4 and IPv6 in your deployment, it is best to configure and maintain both host A records for IPv4 and host AAAA records for IPv6.</span></span> <span data-ttu-id="62d55-108">自身の展開を IPv6 に完全に移行した場合でも、IPv4 を使用する外部ユーザーのために IPv4 DNS ホスト レコードが引き続き必要となる場合があります。</span><span class="sxs-lookup"><span data-stu-id="62d55-108">Even when you fully transition your deployment to IPv6, you may still require IPv4 DNS host records for external users who still use IPv4.</span></span>
+  - <span data-ttu-id="18f6d-106">Lync Server で IPv6 アドレスを使用するには、検出して IPv6 アドレスに解決する必要があるレコードに対してドメインネームシステム (DNS) レコードを作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="18f6d-106">To use IPv6 addresses with Lync Server, you need to create domain name system (DNS) records for records that must be discovered and resolved to an IPv6 address.</span></span> <span data-ttu-id="18f6d-107">IPv6 DNS はホスト AAAA (クアッド A) レコードを使用します。</span><span class="sxs-lookup"><span data-stu-id="18f6d-107">IPv6 DNS uses host AAAA (quad-A) records.</span></span> <span data-ttu-id="18f6d-108">展開内で IPv4 と IPv6 の両方を使用する場合は、IPv4 用のホスト A レコードと IPv6 用のホスト AAAA レコードの両方を構成し保持するのが最善の方法です。</span><span class="sxs-lookup"><span data-stu-id="18f6d-108">If you use both IPv4 and IPv6 in your deployment, it is best to configure and maintain both host A records for IPv4 and host AAAA records for IPv6.</span></span> <span data-ttu-id="18f6d-109">自身の展開を IPv6 に完全に移行した場合でも、IPv4 を使用する外部ユーザーのために IPv4 DNS ホスト レコードが引き続き必要となる場合があります。</span><span class="sxs-lookup"><span data-stu-id="18f6d-109">Even when you fully transition your deployment to IPv6, you may still require IPv4 DNS host records for external users who still use IPv4.</span></span>
     
-    <span data-ttu-id="62d55-109">IPv6 DNS ホスト レコードは IPv6 の使用を始める前から展開できます。</span><span class="sxs-lookup"><span data-stu-id="62d55-109">You can deploy IPv6 DNS host records before you start using IPv6.</span></span> <span data-ttu-id="62d55-110">クライアントまたはサーバーが IPv6 を使用しない場合、そのレコードは参照されません。</span><span class="sxs-lookup"><span data-stu-id="62d55-110">If the client or server doesn't use IPv6, the record will not be referenced.</span></span> <span data-ttu-id="62d55-111">移行時のテクノロジは、どのレコードを使用するかを、移行テクノロジの構成およびポリシーに基づいて判断します。</span><span class="sxs-lookup"><span data-stu-id="62d55-111">Transitional technologies will make the decision about which record to use, based on transition technology configuration and policies.</span></span>
+    <span data-ttu-id="18f6d-110">IPv6 DNS ホスト レコードは IPv6 の使用を始める前から展開できます。</span><span class="sxs-lookup"><span data-stu-id="18f6d-110">You can deploy IPv6 DNS host records before you start using IPv6.</span></span> <span data-ttu-id="18f6d-111">クライアントまたはサーバーが IPv6 を使用しない場合、そのレコードは参照されません。</span><span class="sxs-lookup"><span data-stu-id="18f6d-111">If the client or server doesn't use IPv6, the record will not be referenced.</span></span> <span data-ttu-id="18f6d-112">移行時のテクノロジは、どのレコードを使用するかを、移行テクノロジの構成およびポリシーに基づいて判断します。</span><span class="sxs-lookup"><span data-stu-id="18f6d-112">Transitional technologies will make the decision about which record to use, based on transition technology configuration and policies.</span></span>
 
-  - <span data-ttu-id="62d55-112">各 IPv6 アドレスにはスコープがあります。</span><span class="sxs-lookup"><span data-stu-id="62d55-112">Each IPv6 address has a scope.</span></span> <span data-ttu-id="62d55-113">IPv6 アドレス指定に使用できる3つのスコープは、IPv6 グローバルアドレス (パブリック IPv4 アドレスと類似)、IPv6 固有のローカルアドレス (プライベート IPv4 アドレスの範囲に類似)、IPv6 リンクローカルアドレス (Windows Server の IPv4 の場合は、自動プライベート IP アドレスに似ています) です。</span><span class="sxs-lookup"><span data-stu-id="62d55-113">The three scopes that you can use for IPv6 addressing are IPv6 global addresses (similar to public IPv4 addresses), IPv6 unique local addresses (similar to the private IPv4 address ranges), and IPv6 link-local addresses (similar to automatic private IP addresses in Windows Server for IPv4).</span></span> <span data-ttu-id="62d55-114">プール内のすべてのサーバーは、同じスコープの IPv6 アドレスを持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="62d55-114">All the servers within a pool should have IPv6 addresses with the same scope.</span></span>
+  - <span data-ttu-id="18f6d-113">各 IPv6 アドレスにはスコープがあります。</span><span class="sxs-lookup"><span data-stu-id="18f6d-113">Each IPv6 address has a scope.</span></span> <span data-ttu-id="18f6d-114">IPv6 アドレス指定に使用できる3つのスコープは、IPv6 グローバルアドレス (パブリック IPv4 アドレスと類似)、IPv6 固有のローカルアドレス (プライベート IPv4 アドレスの範囲に類似)、IPv6 リンクローカルアドレス (Windows Server の IPv4 の場合は、自動プライベート IP アドレスに似ています) です。</span><span class="sxs-lookup"><span data-stu-id="18f6d-114">The three scopes that you can use for IPv6 addressing are IPv6 global addresses (similar to public IPv4 addresses), IPv6 unique local addresses (similar to the private IPv4 address ranges), and IPv6 link-local addresses (similar to automatic private IP addresses in Windows Server for IPv4).</span></span> <span data-ttu-id="18f6d-115">プール内のすべてのサーバーは、同じスコープの IPv6 アドレスを持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="18f6d-115">All the servers within a pool should have IPv6 addresses with the same scope.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="62d55-115">IPv6 は複雑なトピックで、Windows Server レベルおよび Lync Server 2013 レベルで割り当てたアドレスが期待どおりに動作することを確認するために、ネットワークチームとインターネットプロバイダーについて慎重に計画する必要があります。</span><span class="sxs-lookup"><span data-stu-id="62d55-115">IPv6 is a complex topic and requires careful planning with your networking team and your Internet provider to help ensure that the addresses that you assign at the Windows Server level and at the Lync Server 2013 level work as expected.</span></span> <span data-ttu-id="62d55-116">IPv6 アドレス指定および計画に関するその他のリソースについては、このトピックの最後にあるリンクを参照してください。</span><span class="sxs-lookup"><span data-stu-id="62d55-116">See the links at the end of this topic for additional resources on IPv6 addressing and planning.</span></span>
+> <span data-ttu-id="18f6d-116">IPv6 は複雑なトピックで、Windows Server レベルおよび Lync Server 2013 レベルで割り当てたアドレスが期待どおりに動作することを確認するために、ネットワークチームとインターネットプロバイダーについて慎重に計画する必要があります。</span><span class="sxs-lookup"><span data-stu-id="18f6d-116">IPv6 is a complex topic and requires careful planning with your networking team and your Internet provider to help ensure that the addresses that you assign at the Windows Server level and at the Lync Server 2013 level work as expected.</span></span> <span data-ttu-id="18f6d-117">IPv6 アドレス指定および計画に関するその他のリソースについては、このトピックの最後にあるリンクを参照してください。</span><span class="sxs-lookup"><span data-stu-id="18f6d-117">See the links at the end of this topic for additional resources on IPv6 addressing and planning.</span></span>
 
 
 
@@ -59,12 +60,12 @@ ms.locfileid: "48533814"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="62d55-117">関連項目</span><span class="sxs-lookup"><span data-stu-id="62d55-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="18f6d-118">関連項目</span><span class="sxs-lookup"><span data-stu-id="18f6d-118">See Also</span></span>
 
 
-[<span data-ttu-id="62d55-118">IP バージョン6アドレス指定アーキテクチャ</span><span class="sxs-lookup"><span data-stu-id="62d55-118">IP Version 6 Addressing Architecture</span></span>](https://tools.ietf.org/html/rfc4291)  
-[<span data-ttu-id="62d55-119">IPv6 グローバルユニキャストアドレス形式</span><span class="sxs-lookup"><span data-stu-id="62d55-119">IPv6 Global Unicast Address Format</span></span>](https://tools.ietf.org/html/rfc3587)  
-[<span data-ttu-id="62d55-120">一意のローカル IPv6 ユニキャストアドレス</span><span class="sxs-lookup"><span data-stu-id="62d55-120">Unique Local IPv6 Unicast Addresses</span></span>](https://tools.ietf.org/html/rfc4193)  
+[<span data-ttu-id="18f6d-119">IP バージョン6アドレス指定アーキテクチャ</span><span class="sxs-lookup"><span data-stu-id="18f6d-119">IP Version 6 Addressing Architecture</span></span>](https://tools.ietf.org/html/rfc4291)  
+[<span data-ttu-id="18f6d-120">IPv6 グローバルユニキャストアドレス形式</span><span class="sxs-lookup"><span data-stu-id="18f6d-120">IPv6 Global Unicast Address Format</span></span>](https://tools.ietf.org/html/rfc3587)  
+[<span data-ttu-id="18f6d-121">一意のローカル IPv6 ユニキャストアドレス</span><span class="sxs-lookup"><span data-stu-id="18f6d-121">Unique Local IPv6 Unicast Addresses</span></span>](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: SIP トランキング'
+description: 'Lync Server 2013: SIP トランキング。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4adf8dcee7ccd7adb393c8d13f7e9a8b186d2bb6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 60b68d9d0400c87de2832d7fe7bdabe4057ec47a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519664"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559013"
 ---
-# <a name="sip-trunking-in-lync-server-2013"></a><span data-ttu-id="5d04c-102">Lync Server 2013 での SIP トランキング</span><span class="sxs-lookup"><span data-stu-id="5d04c-102">SIP trunking in Lync Server 2013</span></span>
+# <a name="sip-trunking-in-lync-server-2013"></a><span data-ttu-id="3cbc5-103">Lync Server 2013 での SIP トランキング</span><span class="sxs-lookup"><span data-stu-id="3cbc5-103">SIP trunking in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48519664"
 
 <span> </span>
 
-<span data-ttu-id="5d04c-103">_**トピックの最終更新日:** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="5d04c-103">_**Topic Last Modified:** 2012-08-13_</span></span>
+<span data-ttu-id="3cbc5-104">_**トピックの最終更新日:** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="3cbc5-104">_**Topic Last Modified:** 2012-08-13_</span></span>
 
-<span data-ttu-id="5d04c-p101">セッション開始プロトコル (SIP) は、基本的な電話サービスおよび追加のリアルタイム通信サービス (インスタント メッセージング、会議、プレゼンス検出、マルチメディアなど) のボイス オーバー IP (VoIP) 通信セッションを開始および管理するために使用します。ここでは、ローカル ネットワークの境界を越えて広がる種類の SIP 接続である、SIP トランク\*\* を実装するための計画情報について説明します。</span><span class="sxs-lookup"><span data-stu-id="5d04c-p101">Session Initiation Protocol (SIP) is used to initiate and manage Voice over IP (VoIP) communications sessions for basic telephone service and for additional real-time communication services, such as instant messaging, conferencing, presence detection, and multimedia. This section provides planning information for implementing *SIP trunks*, a type of SIP connection that extends beyond the boundary of your local network.</span></span>
-
-<div>
-
-## <a name="what-is-sip-trunking"></a><span data-ttu-id="5d04c-106">SIP トランクとは</span><span class="sxs-lookup"><span data-stu-id="5d04c-106">What is SIP Trunking?</span></span>
-
-<span data-ttu-id="5d04c-p102">SIP トランクは、組織とファイアウォールの外側のインターネット テレフォニー サービス プロバイダー (ITSP) との間に SIP 通信リンクを確立する SIP 接続です。 通常、SIP トランクは、組織の中央サイトを ITSP に接続するために使用します。 ブランチ サイトを ITSP に接続するために SIP トランキングを使用する場合もあります。</span><span class="sxs-lookup"><span data-stu-id="5d04c-p102">A SIP trunk is an IP connection that establishes a SIP communications link between your organization and an Internet telephony service provider (ITSP) beyond your firewall. Typically, a SIP trunk is used to connect your organization’s central site to an ITSP. In some cases, you may also opt to use SIP trunking to connect your branch site to an ITSP.</span></span>
+<span data-ttu-id="3cbc5-p101">セッション開始プロトコル (SIP) は、基本的な電話サービスおよび追加のリアルタイム通信サービス (インスタント メッセージング、会議、プレゼンス検出、マルチメディアなど) のボイス オーバー IP (VoIP) 通信セッションを開始および管理するために使用します。ここでは、ローカル ネットワークの境界を越えて広がる種類の SIP 接続である、SIP トランク\*\* を実装するための計画情報について説明します。</span><span class="sxs-lookup"><span data-stu-id="3cbc5-p101">Session Initiation Protocol (SIP) is used to initiate and manage Voice over IP (VoIP) communications sessions for basic telephone service and for additional real-time communication services, such as instant messaging, conferencing, presence detection, and multimedia. This section provides planning information for implementing *SIP trunks*, a type of SIP connection that extends beyond the boundary of your local network.</span></span>
 
 <div>
 
-## <a name="sip-trunks-vs-direct-sip-connections"></a><span data-ttu-id="5d04c-110">SIP トランクと直接 SIP 接続の比較</span><span class="sxs-lookup"><span data-stu-id="5d04c-110">SIP Trunks vs. Direct SIP Connections</span></span>
+## <a name="what-is-sip-trunking"></a><span data-ttu-id="3cbc5-107">SIP トランクとは</span><span class="sxs-lookup"><span data-stu-id="3cbc5-107">What is SIP Trunking?</span></span>
 
-<span data-ttu-id="5d04c-111">この用語 *トランク* は、回線交換テクノロジから派生しています。</span><span class="sxs-lookup"><span data-stu-id="5d04c-111">The term *trunk* is derived from circuit-switched technology.</span></span> <span data-ttu-id="5d04c-112">電話交換装置を接続する専用の物理的な回線を指します。</span><span class="sxs-lookup"><span data-stu-id="5d04c-112">It refers to a dedicated physical line that connects telephone switching equipment.</span></span> <span data-ttu-id="5d04c-113">これらの先行タスクと同様に、time ディビジョン多重 (TDM) トランク、SIP トランクは、2つの個別の SIP ネットワーク間の接続 (Lync Server 2013 enterprise および ITSP) 間の接続です。</span><span class="sxs-lookup"><span data-stu-id="5d04c-113">Like their predecessor, time division multiplexing (TDM) trunks, SIP trunks are connections between two separate SIP networks—the Lync Server 2013 enterprise and the ITSP.</span></span> <span data-ttu-id="5d04c-114">回線交換トランクとは異なり、SIP トランクは、サポートされている SIP トランキング接続の種類のいずれかで確立できる仮想接続です。</span><span class="sxs-lookup"><span data-stu-id="5d04c-114">Unlike circuit-switched trunks, SIP trunks are virtual connections that can be established over any of the supported SIP trunking connection types.</span></span> <span data-ttu-id="5d04c-115">サポートされている接続の種類の詳細については、「 [Lync Server 2013 で SIP トランキングを実装する方法](lync-server-2013-how-do-i-implement-sip-trunking.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5d04c-115">For details about the supported connection types, see [How do I implement SIP trunking in Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).</span></span>
+<span data-ttu-id="3cbc5-p102">SIP トランクは、組織とファイアウォールの外側のインターネット テレフォニー サービス プロバイダー (ITSP) との間に SIP 通信リンクを確立する SIP 接続です。 通常、SIP トランクは、組織の中央サイトを ITSP に接続するために使用します。 ブランチ サイトを ITSP に接続するために SIP トランキングを使用する場合もあります。</span><span class="sxs-lookup"><span data-stu-id="3cbc5-p102">A SIP trunk is an IP connection that establishes a SIP communications link between your organization and an Internet telephony service provider (ITSP) beyond your firewall. Typically, a SIP trunk is used to connect your organization’s central site to an ITSP. In some cases, you may also opt to use SIP trunking to connect your branch site to an ITSP.</span></span>
 
-<span data-ttu-id="5d04c-116">これに対し、直接 SIP 接続は、ローカル ネットワークの境界を越えない SIP 接続です (つまり、内部ネットワーク内の公衆交換電話網 (PSTN) ゲートウェイまたは構内交換機 (PBX) に接続します)。</span><span class="sxs-lookup"><span data-stu-id="5d04c-116">Direct SIP connections, on the other hand, are SIP connections that do not cross the local network boundary (that is, they connect to a public switched telephone network (PSTN) gateway or private branch exchange (PBX) within your internal network).</span></span> <span data-ttu-id="5d04c-117">Lync Server 2013 での直接 SIP 接続の使用方法の詳細については、「 [Lync server 2013 の直接 sip 接続](lync-server-2013-direct-sip-connections.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="5d04c-117">For details about how you can use direct SIP connections with Lync Server 2013, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md).</span></span>
+<div>
+
+## <a name="sip-trunks-vs-direct-sip-connections"></a><span data-ttu-id="3cbc5-111">SIP トランクと直接 SIP 接続の比較</span><span class="sxs-lookup"><span data-stu-id="3cbc5-111">SIP Trunks vs. Direct SIP Connections</span></span>
+
+<span data-ttu-id="3cbc5-112">この用語 *トランク* は、回線交換テクノロジから派生しています。</span><span class="sxs-lookup"><span data-stu-id="3cbc5-112">The term *trunk* is derived from circuit-switched technology.</span></span> <span data-ttu-id="3cbc5-113">電話交換装置を接続する専用の物理的な回線を指します。</span><span class="sxs-lookup"><span data-stu-id="3cbc5-113">It refers to a dedicated physical line that connects telephone switching equipment.</span></span> <span data-ttu-id="3cbc5-114">これらの先行タスクと同様に、time ディビジョン多重 (TDM) トランク、SIP トランクは、2つの個別の SIP ネットワーク間の接続 (Lync Server 2013 enterprise および ITSP) 間の接続です。</span><span class="sxs-lookup"><span data-stu-id="3cbc5-114">Like their predecessor, time division multiplexing (TDM) trunks, SIP trunks are connections between two separate SIP networks—the Lync Server 2013 enterprise and the ITSP.</span></span> <span data-ttu-id="3cbc5-115">回線交換トランクとは異なり、SIP トランクは、サポートされている SIP トランキング接続の種類のいずれかで確立できる仮想接続です。</span><span class="sxs-lookup"><span data-stu-id="3cbc5-115">Unlike circuit-switched trunks, SIP trunks are virtual connections that can be established over any of the supported SIP trunking connection types.</span></span> <span data-ttu-id="3cbc5-116">サポートされている接続の種類の詳細については、「 [Lync Server 2013 で SIP トランキングを実装する方法](lync-server-2013-how-do-i-implement-sip-trunking.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3cbc5-116">For details about the supported connection types, see [How do I implement SIP trunking in Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).</span></span>
+
+<span data-ttu-id="3cbc5-117">これに対し、直接 SIP 接続は、ローカル ネットワークの境界を越えない SIP 接続です (つまり、内部ネットワーク内の公衆交換電話網 (PSTN) ゲートウェイまたは構内交換機 (PBX) に接続します)。</span><span class="sxs-lookup"><span data-stu-id="3cbc5-117">Direct SIP connections, on the other hand, are SIP connections that do not cross the local network boundary (that is, they connect to a public switched telephone network (PSTN) gateway or private branch exchange (PBX) within your internal network).</span></span> <span data-ttu-id="3cbc5-118">Lync Server 2013 での直接 SIP 接続の使用方法の詳細については、「 [Lync server 2013 の直接 sip 接続](lync-server-2013-direct-sip-connections.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3cbc5-118">For details about how you can use direct SIP connections with Lync Server 2013, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md).</span></span>
 
 </div>
 
@@ -61,17 +62,17 @@ ms.locfileid: "48519664"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5d04c-118">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="5d04c-118">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3cbc5-119">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="3cbc5-119">In This Section</span></span>
 
-  - [<span data-ttu-id="5d04c-119">Lync Server 2013 の SIP トランキングの概要</span><span class="sxs-lookup"><span data-stu-id="5d04c-119">Overview of SIP trunking in Lync Server 2013</span></span>](lync-server-2013-overview-of-sip-trunking.md)
+  - [<span data-ttu-id="3cbc5-120">Lync Server 2013 の SIP トランキングの概要</span><span class="sxs-lookup"><span data-stu-id="3cbc5-120">Overview of SIP trunking in Lync Server 2013</span></span>](lync-server-2013-overview-of-sip-trunking.md)
 
-  - [<span data-ttu-id="5d04c-120">Lync Server 2013 で SIP トランキングを実装するにはどうすればよいですか?</span><span class="sxs-lookup"><span data-stu-id="5d04c-120">How do I implement SIP trunking in Lync Server 2013?</span></span>](lync-server-2013-how-do-i-implement-sip-trunking.md)
+  - [<span data-ttu-id="3cbc5-121">Lync Server 2013 で SIP トランキングを実装するにはどうすればよいですか?</span><span class="sxs-lookup"><span data-stu-id="3cbc5-121">How do I implement SIP trunking in Lync Server 2013?</span></span>](lync-server-2013-how-do-i-implement-sip-trunking.md)
 
-  - [<span data-ttu-id="5d04c-121">Lync Server 2013 での SIP トランキングのコンポーネントとトポロジ</span><span class="sxs-lookup"><span data-stu-id="5d04c-121">Components and topologies for SIP trunking in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-sip-trunking.md)
+  - [<span data-ttu-id="3cbc5-122">Lync Server 2013 での SIP トランキングのコンポーネントとトポロジ</span><span class="sxs-lookup"><span data-stu-id="3cbc5-122">Components and topologies for SIP trunking in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-sip-trunking.md)
 
-  - [<span data-ttu-id="5d04c-122">Lync Server 2013 でのブランチサイト SIP トランキング</span><span class="sxs-lookup"><span data-stu-id="5d04c-122">Branch site SIP trunking in Lync Server 2013</span></span>](lync-server-2013-branch-site-sip-trunking.md)
+  - [<span data-ttu-id="3cbc5-123">Lync Server 2013 でのブランチサイト SIP トランキング</span><span class="sxs-lookup"><span data-stu-id="3cbc5-123">Branch site SIP trunking in Lync Server 2013</span></span>](lync-server-2013-branch-site-sip-trunking.md)
 
-  - [<span data-ttu-id="5d04c-123">Lync Server 2013 の SIP トランクの展開チェックリスト</span><span class="sxs-lookup"><span data-stu-id="5d04c-123">SIP trunk deployment checklist for Lync Server 2013</span></span>](lync-server-2013-sip-trunk-deployment-checklist.md)
+  - [<span data-ttu-id="3cbc5-124">Lync Server 2013 の SIP トランクの展開チェックリスト</span><span class="sxs-lookup"><span data-stu-id="3cbc5-124">SIP trunk deployment checklist for Lync Server 2013</span></span>](lync-server-2013-sip-trunk-deployment-checklist.md)
 
 </div>
 

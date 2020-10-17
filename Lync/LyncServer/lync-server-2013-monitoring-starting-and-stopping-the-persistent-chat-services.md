@@ -1,5 +1,6 @@
 ---
 title: 常設チャットサービスの監視、開始、および停止
+description: 常設チャットサービスの監視、開始、および停止。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa87030a7ace7c1f47762bd0217c4a27317ef7df
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 54eaa7039cacbaa22320b20b7edeecfe2a13a0cf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500534"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559323"
 ---
-# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a><span data-ttu-id="cb6bc-102">Lync Server 2013 での常設チャットサービスの監視、開始、および停止</span><span class="sxs-lookup"><span data-stu-id="cb6bc-102">Monitoring, starting, and stopping the Persistent Chat services in Lync Server 2013</span></span>
+# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a><span data-ttu-id="94c4c-103">Lync Server 2013 での常設チャットサービスの監視、開始、および停止</span><span class="sxs-lookup"><span data-stu-id="94c4c-103">Monitoring, starting, and stopping the Persistent Chat services in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48500534"
 
 <span> </span>
 
-<span data-ttu-id="cb6bc-103">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="cb6bc-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="94c4c-104">_**トピックの最終更新日:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="94c4c-104">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="cb6bc-104">常設チャットサービスおよび常設チャットコンプライアンスサービスは、Lync Server 2013 トポロジに含まれているため、Windows PowerShell コマンドレット、 **get-cswindowsservice**、 **Stop-cswindowsservice**、および **start-cswindowsservice**を使用して、監視、停止、および開始することができます。</span><span class="sxs-lookup"><span data-stu-id="cb6bc-104">The Persistent Chat services and Persistent Chat Compliance services are part of the Lync Server 2013 topology and can therefore be monitored, stopped, and started by using the Windows PowerShell cmdlets, **get-CsWindowsService**, **stop-CsWindowsService**, and **start-CsWindowsService**, respectively.</span></span>
+<span data-ttu-id="94c4c-105">常設チャットサービスおよび常設チャットコンプライアンスサービスは、Lync Server 2013 トポロジに含まれているため、Windows PowerShell コマンドレット、 **get-cswindowsservice**、 **Stop-cswindowsservice**、および **start-cswindowsservice**を使用して、監視、停止、および開始することができます。</span><span class="sxs-lookup"><span data-stu-id="94c4c-105">The Persistent Chat services and Persistent Chat Compliance services are part of the Lync Server 2013 topology and can therefore be monitored, stopped, and started by using the Windows PowerShell cmdlets, **get-CsWindowsService**, **stop-CsWindowsService**, and **start-CsWindowsService**, respectively.</span></span>
 
 </div>
 
