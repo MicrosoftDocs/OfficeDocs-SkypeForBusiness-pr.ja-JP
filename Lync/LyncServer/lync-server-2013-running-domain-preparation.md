@@ -12,20 +12,22 @@ ms:contentKeyID: 48184847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d22c35f4e1a2b117ffa765446a94c9a7d2b0fd0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cf14c4b566d6c6447776d3251004f5d508220e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201163"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511114"
 ---
+# <a name="running-domain-preparation-for-lync-server-2013"></a>Lync Server 2013 のドメインの準備を実行する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-domain-preparation-for-lync-server-2013"></a>Lync Server 2013 のドメインの準備を実行する
+
 
 </div>
 
@@ -47,17 +49,17 @@ _**トピックの最終更新日:** 2013-04-16_
 
 1.  Domain Admins グループのメンバーとしてドメイン内の任意のサーバーにログオンします。
 
-2.  Lync Server 2013 のインストールフォルダーまたはメディアから、setup.exe を実行して Lync Server 展開ウィザードを起動します。
+2.  Lync Server 2013 インストールフォルダーまたはメディアから、Setup.exe を実行して Lync Server 展開ウィザードを開始します。
 
 3.  [**Active Directory の準備**] をクリックし、展開状態が判別されるまで待ちます。
 
 4.  [**手順 5: 現在のドメインの準備**] で、[**実行**] をクリックします。
 
-5.  [**ドメインの準備**] ページで、[**次へ**] をクリックします。
+5.  [ **ドメインの準備** ] ページで、[ **次へ**] をクリックします。
 
 6.  [**コマンドを実行しています**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。
 
-7.  [**アクション**] 列の下にある [**ドメインの準備**] を展開し、各タスクの最後に** \<成功\> **した実行結果を検索して、ドメインの準備が正常に完了したことを確認し、ログを閉じて、[**完了**] をクリックします。
+7.  [ **アクション** ] 列の下にある [ **ドメインの準備**] を展開し、 **\<Success\>** 各タスクの最後に実行結果を検索して、ドメインの準備が正常に完了したことを確認し、ログを閉じて、[ **完了**] をクリックします。
 
 8.  Active Directory のレプリケーションが完了するまで待機するか、フォレストのルートドメインコントローラーの [Active Directory サイトとサービス] スナップインに一覧表示されているすべてのドメインコントローラーへのレプリケーションを強制的に実行します。
 
@@ -71,7 +73,7 @@ _**トピックの最終更新日:** 2013-04-16_
 
 2.  Lync Server コアコンポーネントを次のようにインストールします。
     
-    1.  Lync Server 2013 のインストールフォルダーまたはメディアから、setup.exe を実行して Lync Server 展開ウィザードを起動します。
+    1.  Lync Server 2013 インストールフォルダーまたはメディアから、Setup.exe を実行して Lync Server 展開ウィザードを開始します。
     
     2.  Microsoft Visual C++ (再頒布可能) のインストールを要求するメッセージが表示されたら、**[はい]** をクリックします。
     
@@ -95,7 +97,7 @@ _**トピックの最終更新日:** 2013-04-16_
     
         Get-CsAdDomain [-Domain <Domain FQDN>] [-DomainController <Domain controller FQDN>] [-GlobalCatalog <Global catalog server FQDN>] [-GlobalSettingsDomainController <Domain controller FQDN where global settings are stored>] 
     
-    次に例を示します。
+    次にその例を示します。
     
         Get-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.com
     
@@ -103,14 +105,14 @@ _**トピックの最終更新日:** 2013-04-16_
     
 
     > [!NOTE]  
-    > パラメーター GlobalSettingsDomainController を使用して、グローバル設定を保存する場所を指定できます。 設定がシステムコンテナーに格納されている場合 (これは、構成コンテナーにグローバル設定が移行されていないアップグレード展開で一般的に使用されます)、Active Directory フォレストのルートにドメインコントローラーを定義します。 グローバル設定を構成コンテナーに保存する (新しい展開または構成コンテナーに設定を移行しているアップグレードの展開で一般的) 場合、フォレストに任意のドメイン コントローラーを定義します。 このパラメーターを指定しない場合、コマンドレットは、設定が構成コンテナーに格納されていると見なし、AD&nbsp;DS の任意のドメインコントローラーを参照します。
+    > パラメーター GlobalSettingsDomainController を使用して、グローバル設定を保存する場所を指定できます。 設定がシステムコンテナーに格納されている場合 (これは、構成コンテナーにグローバル設定が移行されていないアップグレード展開で一般的に使用されます)、Active Directory フォレストのルートにドメインコントローラーを定義します。 グローバル設定を構成コンテナーに保存する (新しい展開または構成コンテナーに設定を移行しているアップグレードの展開で一般的) 場合、フォレストに任意のドメイン コントローラーを定義します。 このパラメーターを指定しない場合、コマンドレットは、設定が構成コンテナーに格納されていると見なし、AD DS の任意のドメインコントローラーを参照し &nbsp; ます。
 
     
     </div>
     
     **Domain**パラメーターを指定しない場合、既定値はローカルドメインになります。
     
-    このコマンドレットは、ドメインの準備が正常に完了した場合に、 **LC\_domainsettings\_状態\_** の値を返します。
+    このコマンドレットは、ドメインの準備が正常に完了した場合に、 **LC \_ domainsettings \_ 状態 \_ ** の値を返します。
 
 </div>
 

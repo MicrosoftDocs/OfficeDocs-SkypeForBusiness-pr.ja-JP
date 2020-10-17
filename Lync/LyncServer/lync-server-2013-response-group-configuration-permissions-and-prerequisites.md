@@ -12,20 +12,22 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8e27d3495ce2152dee67a5f176c4a0d9f7e7f82
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7289b8818a6193efa867ab0a8671abf6d4701f7c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182969"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511744"
 ---
+# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Lync Server 2013 での応答グループ構成のアクセス許可と前提条件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Lync Server 2013 での応答グループ構成のアクセス許可と前提条件
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-05_
 
 応答グループはエンタープライズ VoIP 通話管理機能です。 このトピックでは、応答グループを構成する前に準備する必要のある事項、および構成タスクの実行に必要な管理者資格情報とアクセス許可について説明します。
 
-このセクションでは、応答グループに関わる計画ドキュメントを読んでいることが前提となります。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 の通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md)」を参照してください。
+このセクションでは、応答グループに関わる計画ドキュメントを読んでいることが前提となります。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 の通話管理機能の計画](lync-server-2013-planning-for-call-management-features.md) 」を参照してください。
 
 <div>
 
@@ -138,7 +140,7 @@ _**トピックの最終更新日:** 2012-10-05_
 
 
 > [!NOTE]  
-> <STRONG>(1)</STRONG> Active Directory ドメインサービスのユーザーオブジェクトは、リストされている指定された active directory セキュリティグループのメンバーである必要があります。 セキュリティグループにユーザーを追加するための適切なアクセス許可を持つ管理者またはその他の委任された Active Directory グループメンバー (たとえば、管理者、アカウントオペレーター) は、ユーザーオブジェクトをそのセキュリティグループまたはグループに追加して、ユーザーが記載されている機能を実行します。 <STRONG>(2)</STRONG> CsResponseGroupAdministrator が Csresponsegroupadministrator に割り当てたワークフローに対してのみ。 <STRONG>(3)</STRONG>応答グループマネージャーは、現在の管理者が既に管理しているワークフローに、CsResponseGroupManager の別のメンバーを割り当てることができます。 <STRONG>(4)</STRONG> csviewonlyadministrator は、Verb "Get" Lync Server 管理シェルコマンドレットのみを実行できます。
+> <STRONG>(1)</STRONG> Active Directory ドメインサービスのユーザーオブジェクトは、リストされている指定された active directory セキュリティグループのメンバーである必要があります。 セキュリティグループにユーザーを追加するための適切なアクセス許可を持つ管理者またはその他の委任された Active Directory グループメンバー (たとえば、管理者、アカウントオペレーター) は、ユーザーオブジェクトを一覧に表示されているセキュリティグループまたはグループに追加する必要があります。 <STRONG>(2)</STRONG> CsResponseGroupAdministrator が Csresponsegroupadministrator に割り当てたワークフローに対してのみ。 <STRONG>(3)</STRONG> 応答グループマネージャーは、現在の管理者が既に管理しているワークフローに、CsResponseGroupManager の別のメンバーを割り当てることができます。 <STRONG>(4)</STRONG> csviewonlyadministrator は、Verb "Get" Lync Server 管理シェルコマンドレットのみを実行できます。
 
 
 
@@ -186,15 +188,15 @@ _**トピックの最終更新日:** 2012-10-05_
 
 このセクションは、組織が FIPS (Federal Information Processing Standards) に準拠する必要がある場合にのみ参照してください。
 
-FIPS に準拠するには、Web サービスをインストールした後に、アプリケーションレベルの web.config ファイルを変更して、別の暗号化アルゴリズムを使用する必要があります。 ASP.NET では、ビューステートデータを処理するためにトリプルデータ暗号化標準 (3DES) アルゴリズムを使用するように指定する必要があります。 応答グループアプリケーションの場合、この要件は応答グループ構成ツールと、エージェントのサインインおよびサインアウトコンソールに適用されます。 この要件の詳細については、「Microsoft サポート技術情報の記事911722」を参照してください[https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)。 ASP.NET 1.1 から ASP.NET 2.0 にアップグレードした後に ViewState が有効になっている ASP.NET web ページにアクセスすると、エラーメッセージが表示されることがあります。
+FIPS に準拠するには、Web サービスをインストールした後で、別の暗号化アルゴリズムを使用するようにアプリケーションレベルの Web.config ファイルを変更する必要があります。 ASP.NET では、ビューステートデータを処理するためにトリプルデータ暗号化標準 (3DES) アルゴリズムを使用するように指定する必要があります。 応答グループアプリケーションの場合、この要件は応答グループ構成ツールと、エージェントのサインインおよびサインアウトコンソールに適用されます。 この要件の詳細については、「Microsoft サポート技術情報の記事911722」を参照してください。 ASP.NET 1.1 から ASP.NET 2.0 にアップグレードした後に ViewState が有効になっている ASP.NET web ページにアクセスすると、エラーメッセージが表示されることがあり [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183) ます。
 
 Web.config ファイルを変更するには、以下の手順を実行します。
 
 1.  メモ帳などのテキスト エディターで、アプリケーションレベルの Web.config ファイルを開きます。
 
-2.  Web.config ファイルで、 `<system.web>`セクションを見つけます。
+2.  Web.config ファイルで、セクションを見つけ `<system.web>` ます。
 
-3.  次`<machineKey>`のセクションを`<system.web>`セクション内に追加します。
+3.  次の `<machineKey>` セクションをセクション内に追加し `<system.web>` ます。
     
         <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
 
@@ -216,7 +218,7 @@ Web.config ファイルを変更するには、以下の手順を実行します
 
 
 > [!NOTE]  
-> Yi、Meng、および Zang の文字の概要と、展開においてそれらが重要である理由については、GB18030 文字セット<A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>の情報を参照してください。
+> Yi、Meng、および Zang の文字の概要と、展開においてそれらが重要である理由については、GB18030 文字セットの情報を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A> 。
 
 
 
@@ -234,11 +236,11 @@ Yi、Meng、または Zang の文字をサポートするには、Rgsconfig デ�
 
   - dbo.ワークフロー
 
-SQL Server 2008 R2 および SQL Server 2012 の場合は、Latin\_General\_100 (アクセントを区別する) の照合順序を使用します。 この照合順序を使用する場合は、どのオブジェクト名も大文字と小文字は区別されません。
+SQL Server 2008 R2 および SQL Server 2012 の場合は、Latin \_ General \_ 100 (アクセントを区別する) の照合順序を使用します。 この照合順序を使用する場合は、どのオブジェクト名も大文字と小文字は区別されません。
 
-照合順序は、Microsoft SQL Server Management Studio を使用して変更できます。 このツールの使用の詳細については、「」の「SQL [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)Server Management Studio を使用する」を参照してください。 照合順序を変更するには、以下の手順に従います。
+照合順序は、Microsoft SQL Server Management Studio を使用して変更できます。 このツールの使用の詳細については、「」の「SQL Server Management Studio を使用する」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184) 。 照合順序を変更するには、以下の手順に従います。
 
-1.  表の再作成を必要とする変更が SQL Server Management Studio で許可されていることを確認します。 詳細については、「」の「保存 (許可さ[https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)れない)」ダイアログボックスを参照してください。 列の照合順序の設定の詳細については、「」の「How to: Set Column Collation [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)(Visual Database Tools)」を参照してください。
+1.  表の再作成を必要とする変更が SQL Server Management Studio で許可されていることを確認します。 詳細については、「」の「保存 (許可されない)」ダイアログボックスを参照してください [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186) 。 列の照合順序の設定の詳細については、「」の「How to: Set Column Collation (Visual Database Tools)」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185) 。
 
 2.  Microsoft SQL Server Management Studio を使用して、Rgsconfig データベースに接続します。
 

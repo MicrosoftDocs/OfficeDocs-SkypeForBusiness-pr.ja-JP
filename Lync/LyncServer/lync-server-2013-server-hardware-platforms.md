@@ -12,20 +12,22 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddcfc08ff983ec080bd2382394bfc4b8c3bae3a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb5c5cbe1ef98a4028f8b05d96e4acc90cae7963
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200813"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510274"
 ---
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 のサーバーハードウェアプラットフォーム
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Lync Server 2013 のサーバーハードウェアプラットフォーム
+
 
 </div>
 
@@ -85,7 +87,7 @@ Lync Server 2013 の展開に使用される特定のハードウェアは、サ
 <td><ul>
 <li><p>10,000 RPM のハード ディスク ドライブで 72 GB 以上の空きディスク領域があるものを 8 台以上</p>
 <p>ディスクのうち 2 台で RAID 1 を使用し、6 台で RAID 10 を使用する必要があります。</p>
-<p>-や</p></li>
+<p>- や</p></li>
 <li><p>10,000 RPM の機械的ディスク ドライブ 8 台と同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)</p></li>
 </ul></td>
 </tr>
@@ -124,7 +126,7 @@ Lync Server 2013 の展開に使用される特定のハードウェアは、サ
 <td><p>CPU</p></td>
 <td><ul>
 <li><p>64ビットデュアルプロセッサ、クアッドコア、2.0 ghz またはそれ以上。</p>
-<p>-や</p></li>
+<p>- や</p></li>
 <li><p>64ビット4ウェイプロセッサ、デュアルコア、2.0 GHz またはそれ以上。</p></li>
 </ul>
 <p>Lync Server のサーバーの役割では、Intel Itanium プロセッサはサポートされていません。</p></td>
@@ -138,7 +140,7 @@ Lync Server 2013 の展開に使用される特定のハードウェアは、サ
 <td><ul>
 <li><p>1万 RPM のハードディスクドライブのうち、少なくとも 72 GB の空きディスク領域があるものを4台以上。</p>
 <p>ディスクは、RAID 1 の2倍の構成にする必要があります。</p>
-<p>-や</p></li>
+<p>- や</p></li>
 <li><p>10,000 RPM の機械的ディスク ドライブ 4 台と同等のパフォーマンスを持つソリッド ステート ドライブ (SSD)</p></li>
 </ul></td>
 </tr>

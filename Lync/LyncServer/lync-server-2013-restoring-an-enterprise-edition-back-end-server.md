@@ -12,20 +12,22 @@ ms:contentKeyID: 51541446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9aee487bb9e1a42c7a02e384101b81625482116
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9780963614a1d0f5049fdc5226391e2ee2b6d59c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511544"
 ---
+# <a name="restoring-an-enterprise-edition-back-end-server-in-lync-server-2013"></a>Lync Server 2013 で Enterprise Edition バックエンドサーバーを復元する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-back-end-server-in-lync-server-2013"></a>Lync Server 2013 で Enterprise Edition バックエンドサーバーを復元する
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2013-02-18_
 
   - ミラーリングされていない Enterprise Edition バックエンドサーバーで障害が発生します。
 
-ミラー化された Enterprise Edition バックエンドがあり、ミラーまたはプライマリデータベースのみに障害が発生した場合は、「ミラーリングされた[Enterprise Edition バックエンドサーバーを Lync server 2013 で](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md)復元する」と「プライマリデータベースを復元する」、および「 [lync server 2013 でミラー化された Enterprise Edition バックエンドサーバーを](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md)復元する」をご覧ください。
+ミラー化された Enterprise Edition バックエンドがあり、ミラーまたはプライマリデータベースのみに障害が発生した場合は、「ミラーリングされた [Enterprise Edition バックエンドサーバーを Lync server 2013 で](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md) 復元する」と「プライマリデータベースを復元する」、および「 [lync server 2013 でミラー化された Enterprise Edition バックエンドサーバーを](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md) 復元する」をご覧ください。
 
 中央管理ストアに障害が発生した場合は、「 [Lync server 2013 の中央管理ストアをホスト](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)しているサーバーを復元する」を参照してください。 バックエンドサーバーに含まれていない Enterprise Edition メンバーサーバーの障害が発生した場合は、「 [Lync server 2013 で Enterprise edition のメンバーサーバーを復元](lync-server-2013-restoring-an-enterprise-edition-member-server.md)する」を参照してください。
 
@@ -93,9 +95,9 @@ _**トピックの最終更新日:** 2013-02-18_
     
     3.  トポロジを選択し、[**保存**] をクリックします。[**はい**] をクリックして選択を確定します。
     
-    4.  [ **Lync Server 2013** ] ノードを右クリックし、[**トポロジの公開**] をクリックします。
+    4.  [ **Lync Server 2013** ] ノードを右クリックし、[ **トポロジの公開**] をクリックします。
     
-    5.  **トポロジの公開**ウィザードの指示に従います。 [**データベースの作成**] ページで、再作成するデータベースを選択します。
+    5.  **トポロジの公開**ウィザードの指示に従います。 [ **データベースの作成** ] ページで、再作成するデータベースを選択します。
         
         <div>
         
@@ -106,7 +108,7 @@ _**トピックの最終更新日:** 2013-02-18_
         
         </div>
     
-    6.  ミラー化されたバックエンドを復元する場合は、[**ミラーデータベースの作成**] というプロンプトが表示されるまで、ウィザードの残りの手順を続行します。 インストールするデータベースを選択し、処理を完了します。
+    6.  ミラー化されたバックエンドを復元する場合は、[ **ミラーデータベースの作成** ] というプロンプトが表示されるまで、ウィザードの残りの手順を続行します。 インストールするデータベースを選択し、処理を完了します。
     
     7.  ウィザードの残りの指示に従います。[**完了**] をクリックします。
     
@@ -121,7 +123,7 @@ _**トピックの最終更新日:** 2013-02-18_
 
 5.  次の操作を実行してユーザー データを復元します。
     
-    1.  ExportedUserData を $Backup\\からローカルディレクトリにコピーします。
+    1.  ExportedUserData.zip を $Backup から \\ ローカルディレクトリにコピーします。
     
     2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
     

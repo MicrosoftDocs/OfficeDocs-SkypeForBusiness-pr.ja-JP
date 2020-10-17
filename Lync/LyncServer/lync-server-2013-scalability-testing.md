@@ -12,20 +12,22 @@ ms:contentKeyID: 48185289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be4dc8d08b9d8b1363af67af1a12aa56b59f0b9a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 41e23cd1bf0382a392cba951d90cd9dfa80c4880
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201013"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511014"
 ---
+# <a name="scalability-testing-in-lync-server-2013"></a>Lync Server 2013 のスケーラビリティテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scalability-testing-in-lync-server-2013"></a>Lync Server 2013 のスケーラビリティテスト
+
 
 </div>
 
@@ -41,7 +43,7 @@ Lync Server 2013 には、インスタントメッセージング (IM) とプレ
 
 たとえば、組織によっては、会議で非常に頻繁にビデオを使用している場合がありますが、ビデオの使用状況が少ない、またはまったくない場合があります。 一部の組織では、アプリケーション共有に PowerPoint スライドの共有を優先していますが、反対のものを好むこともあります。 エンタープライズ Voip を展開する組織では、応答グループアプリケーションが頻繁に使用されない場合があります。 ほとんどの組織では、監視サーバーを展開していますが、その多くはアーカイブサーバーを展開していません。 さらに、組織によって、ハードウェアの容量、ネットワークの容量、プールの数と展開されたプールの数を含む、同じインフラストラクチャが存在するわけではありません。 機能とインフラストラクチャの多様性は、スケーラビリティのテストにおいて課題となり、機能とインフラストラクチャのすべての可能な組み合わせをシミュレートすることはできません。
 
-Lync Server のスケーラビリティのサポートを決定するには、平均利用モデル (ユーザーモデル) に基づいて、すべての Lync Server 機能を同時に使用してテストを行います。 Lync Server ワークロードに適したユーザーモデルを決定するために、お客様の調査、Microsoft カスタマーエクスペリエンス向上プログラムからのフィードバック、Microsoft の内部 IT 部門からの Lync Server の使用状況データなど、多くのデータポイントを分析します。およびデータは、Live Meeting サービスからマイニングされます。 多くの場合、組織内の使用に関して十分な余裕を持たせるために、ユーザー モデルは負荷が高い方向に偏っています。
+Lync Server のスケーラビリティのサポートを決定するには、平均利用モデル (ユーザーモデル) に基づいて、すべての Lync Server 機能を同時に使用してテストを行います。 Lync Server ワークロードに適したユーザーモデルを決定するために、お客様の調査、Microsoft のカスタマーエクスペリエンス向上プログラムからのフィードバック、Microsoft の内部 IT 部門からの Lync Server の使用状況データ、および Live Meeting サービスから抽出されたデータなど、多くのデータポイントを分析します。 多くの場合、組織内の使用に関して十分な余裕を持たせるために、ユーザー モデルは負荷が高い方向に偏っています。
 
 スケーラビリティテストでは、Active Directory ドメインサービス、ハードウェアロードバランサー、ファイアウォールなどのインフラストラクチャコンポーネントを含む、推奨されるハードウェアおよびソフトウェア仕様に従って Lync Server 2013 プールを設定します。 Lync Server 環境は、一般的な実際の環境にできるだけ近づけるようにセットアップされています。 次に、Lync server 2013 ストレスおよびパフォーマンスツールを使用して、Lync Server 2013 の負荷 (ユーザーモデルに基づいて) をシミュレートします。 .
 

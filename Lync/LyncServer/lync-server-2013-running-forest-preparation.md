@@ -12,20 +12,22 @@ ms:contentKeyID: 48184991
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d9f0f1bc18cf7c0a54a5bacc9257e4264b7b93c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3e4ed33466e9b31fbabb3432927baea8f087ea1d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208463"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511124"
 ---
+# <a name="running-forest-preparation-for-lync-server-2013"></a>Lync Server 2013 のフォレストの準備の実行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-forest-preparation-for-lync-server-2013"></a>Lync Server 2013 のフォレストの準備の実行
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2012-10-29_
 
 1.  ドメインに参加しているコンピューターに、フォレストのルート ドメインの Enterprise Admins グループのメンバーとしてログオンします。
 
-2.  Lync Server 2013 インストールフォルダーまたはメディアから、setup.exe を実行して、展開ウィザードを開始します。
+2.  Lync Server 2013 インストールフォルダーまたはメディアから、Setup.exe を実行して展開ウィザードを開始します。
 
 3.  [**Active Directory の準備**] をクリックし、展開状態が判別されるまで待ちます。
 
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2012-10-29_
 
 6.  [**コマンドを実行しています**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。
 
-7.  [**アクション**] 列の下にある [**フォレストの準備**] を展開し、各タスクの最後に** \<成功\> **した実行結果を検索して、フォレストの準備が正常に完了したことを確認し、ログを閉じて、[**完了**] をクリックします。
+7.  [ **アクション** ] 列で [ **フォレストの準備**] を展開し、 **\<Success\>** 各タスクの最後に実行結果を検索してフォレストの準備が正常に完了したことを確認し、ログを閉じて、[ **完了**] をクリックします。
 
 8.  Active Directory のレプリケーションが完了するまで待機するか、フォレストのルート ドメイン コントローラーの [**Active Directory サイトとサービス**] スナップインに一覧表示されているすべてのドメイン コントローラーへのレプリケーションを強制的に実行してから、ドメインの準備を実行します。サイト内でレプリケーションが数分以内に開始されるよう、すべての Active Directory サイト内のドメイン コントローラー間でレプリケーションを強制的に実行します。
 
@@ -80,7 +82,7 @@ _**トピックの最終更新日:** 2012-10-29_
 
 2.  Lync Server コアコンポーネントを次のようにインストールします。
     
-    1.  Lync Server 2013 のインストールフォルダーまたはメディアから、setup.exe を実行して Lync Server 展開ウィザードを起動します。
+    1.  Lync Server 2013 インストールフォルダーまたはメディアから、Setup.exe を実行して Lync Server 展開ウィザードを開始します。
     
     2.  Microsoft Visual C++ (再頒布可能) のインストールを要求するメッセージが表示されたら、**[はい]** をクリックします。
     
@@ -106,7 +108,7 @@ _**トピックの最終更新日:** 2012-10-29_
     
         Get-CsAdForest 
     
-    フォレストの準備が正常に完了した場合、このコマンドレットは**\_LC FORESTSETTINGS\_状態\_** の値を返します。
+    フォレストの準備が正常に完了した場合、このコマンドレットは **LC \_ FORESTSETTINGS \_ 状態 \_ ** の値を返します。
 
 </div>
 

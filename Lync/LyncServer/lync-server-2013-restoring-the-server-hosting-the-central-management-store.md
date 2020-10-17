@@ -12,20 +12,22 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772646b8122e228aa43818aa5fe7fe2fb6689366
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01d3912402b48ce8aede4a53efea208c96bff825
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201363"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511394"
 ---
+# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Lync Server 2013 で中央管理ストアをホストしているサーバーを復元する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a>Lync Server 2013 で中央管理ストアをホストしているサーバーを復元する
+
 
 </div>
 
@@ -39,15 +41,15 @@ _**トピックの最終更新日:** 2013-02-21_
 
 Lync Server の展開には、中央管理ストアが1つあり、そのコピーが、Lync Server サーバーの役割を実行する各サーバーにレプリケートされます。 このトピックでは、中央管理ストアをホストするバックエンドサーバーまたは Standard Edition サーバーを復元する方法について説明します。
 
-中央管理サーバーが配置されているプールを検索するには、トポロジビルダーを開き、[ **Lync Server**] をクリックして、右側のウィンドウで [**中央管理サーバー**] を探します。
+中央管理サーバーが配置されているプールを検索するには、トポロジビルダーを開き、[ **Lync Server**] をクリックして、右側のウィンドウで [ **中央管理サーバー**] を探します。
 
-中央管理ストアをホストするバックエンドサーバーがミラー化された設定で、ミラーデータベースがまだ機能している場合は、このまま動作しているミラーのバックアップを作成し、プライマリデータベースとに対して完全な復元を実行することをお勧めします。次の復元手順に従って、このバックアップを使用してデータベースをミラー化します。 これは、バックエンドの復元でトポロジを変更および発行する必要があるためです。これは、CMS をホストしているプライマリデータベースが稼働している場合にのみ行うことができます。 また、トポロジを公開できない場合は、プライマリデータベースとミラーデータベースの役割を交換できないことにも注意してください。
+中央管理ストアをホストするバックエンドサーバーがミラー化された設定で、ミラーデータベースがまだ機能している場合は、次の復元手順に従って、このバックアップを使用して、プライマリデータベースとミラーデータベースの両方に対して完全な復元を実行することをお勧めします。 これは、バックエンドの復元でトポロジを変更および発行する必要があるためです。これは、CMS をホストしているプライマリデータベースが稼働している場合にのみ行うことができます。 また、トポロジを公開できない場合は、プライマリデータベースとミラーデータベースの役割を交換できないことにも注意してください。
 
 <div>
 
 
 > [!NOTE]  
-> 中央管理ストアをホストしていないバックエンドサーバーまたは Standard Edition サーバーが失敗した場合は、「 <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Lync server 2013 で Enterprise Edition バックエンドサーバーを復元</A>する」または「 <A href="lync-server-2013-restoring-a-standard-edition-server.md">lync Server 2013 で standard Edition サーバーを復元</A>する」を参照してください。 中央管理ストアをホストするバックエンドサーバーがミラーリングされた構成であり、ミラーのみが失敗した場合は、「 <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Lync Server 2013-mirror でのミラーリングされた Enterprise Edition バックエンドサーバーの復元</A>」を参照してください。 他のサーバーで障害が発生した場合は、「 <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Lync server 2013 で Enterprise Edition のメンバーサーバーを復元する</A>」を参照してください。
+> 中央管理ストアをホストしていないバックエンドサーバーまたは Standard Edition サーバーが失敗した場合は、「 <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Lync server 2013 で Enterprise Edition バックエンドサーバーを復元</A> する」または「 <A href="lync-server-2013-restoring-a-standard-edition-server.md">lync Server 2013 で standard Edition サーバーを復元</A>する」を参照してください。 中央管理ストアをホストするバックエンドサーバーがミラーリングされた構成であり、ミラーのみが失敗した場合は、「 <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Lync Server 2013-mirror でのミラーリングされた Enterprise Edition バックエンドサーバーの復元</A>」を参照してください。 他のサーバーで障害が発生した場合は、「 <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Lync server 2013 で Enterprise Edition のメンバーサーバーを復元する</A>」を参照してください。
 
 
 
@@ -93,7 +95,7 @@ Lync Server の展開には、中央管理ストアが1つあり、そのコピ�
 
 4.  次のいずれかの操作を行います。
     
-      - Standard Edition サーバーをインストールする場合は、Lync Server のインストールフォルダーまたはメディアを参照してから、setup \\\\Amd64\\setup.exe で lync server 展開ウィザードを起動します。 展開ウィザードで、[**最初の Standard Edition サーバーの準備**] をクリックし、ウィザードの指示に従って中央管理ストアをインストールします。
+      - Standard Edition サーバーをインストールする場合は、Lync Server のインストールフォルダーまたはメディアを参照してから、セットアップ amd64Setup.exe にある Lync Server 展開ウィザードを起動し \\ \\ \\ ます。 展開ウィザードで、[ **最初の Standard Edition サーバーの準備** ] をクリックし、ウィザードの指示に従って中央管理ストアをインストールします。
     
       - エンタープライズバックエンドサーバーをインストールする場合は、SQL Server 2012 または SQL Server 2008 R2 をインストールして、インスタンス名を失敗前と同じ状態に保ちます。
         
@@ -106,7 +108,7 @@ Lync Server の展開には、中央管理ストアが1つあり、そのコピ�
         
         </div>
 
-5.  フロントエンドサーバーから、Lync Server 管理シェルを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+5.  フロントエンドサーバーから、Lync Server 管理シェルを起動します。 [ **スタート**]、[ **すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 6.  中央管理ストアを再作成します。 コマンドラインで、次のように入力します。
     
@@ -120,7 +122,7 @@ Lync Server の展開には、中央管理ストアが1つあり、そのコピ�
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    次に例を示します。
+    例:
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
@@ -137,7 +139,7 @@ Lync Server の展開には、中央管理ストアが1つあり、そのコピ�
     
         Import-CsConfiguration -FileName <CMS backup file name>
     
-    次に例を示します。
+    例:
     
         Import-CsConfiguration -FileName "C:\Config.zip"
 
@@ -164,9 +166,9 @@ Lync Server の展開には、中央管理ストアが1つあり、そのコピ�
     
     3.  トポロジを選択し、[**保存**] をクリックします。[**はい**] をクリックして選択を確定します。
     
-    4.  [ **Lync Server 2013** ] ノードを右クリックし、[**データベースのインストール**] をクリックします。
+    4.  [ **Lync Server 2013** ] ノードを右クリックし、[ **データベースのインストール**] をクリックします。
     
-    5.  [**データベースのインストール**] ウィザードに従います。 このサーバー上の中央管理ストア以外のデータベースを復元する場合は、[**データベースの作成**] ページで、再作成するデータベースを選択します。
+    5.  [ **データベースのインストール** ] ウィザードに従います。 このサーバー上の中央管理ストア以外のデータベースを復元する場合は、[ **データベースの作成** ] ページで、再作成するデータベースを選択します。
         
         <div>
         
@@ -190,11 +192,11 @@ Lync Server の展開には、中央管理ストアが1つあり、そのコピ�
     
     </div>
 
-11. Standard Edition サーバーを復元する場合は、Lync Server のインストールフォルダーまたはメディアを参照して、setup \\\\Amd64\\setup.exe で lync server 展開ウィザードを起動します。 Lync Server 展開ウィザードを使用して、次の操作を行います。
+11. Standard Edition サーバーを復元する場合は、Lync Server のインストールフォルダーまたはメディアを参照し、セットアップ amd64Setup.exe にある Lync Server 展開ウィザードを起動し \\ \\ \\ ます。 Lync Server 展開ウィザードを使用して、次の操作を行います。
     
     1.  [**ステップ 1: ローカル構成ストアのインストール**] を実行して、ローカル構成ファイルをインストールします。
     
-    2.  [**ステップ 2: lync Server コンポーネントのセットアップまたは削除**を実行して、lync server のサーバーの役割をインストールする」を実行します。
+    2.  [ **ステップ 2: lync Server コンポーネントのセットアップまたは削除** を実行して、lync server のサーバーの役割をインストールする」を実行します。
     
     3.  [**ステップ 3: 証明書の要求、インストール、または割り当て**] を実行して、証明書を割り当てます。
     
@@ -204,7 +206,7 @@ Lync Server の展開には、中央管理ストアが1つあり、そのコピ�
 
 12. 次の操作を実行してユーザー データを復元します。
     
-    1.  ExportedUserData を $Backup\\からローカルディレクトリにコピーします。
+    1.  ExportedUserData.zip を $Backup から \\ ローカルディレクトリにコピーします。
     
     2.  ユーザーデータを復元する前に、Lync services を停止する必要があります。 これを行うには、次のように入力します。
         
@@ -214,7 +216,7 @@ Lync Server の展開には、中央管理ストアが1つあり、そのコピ�
         
             Import-CsUserData -PoolFqdn <Fqdn> -FileName <String>
         
-        例:
+        次に例を示します。
         
             Import-CsUserData -PoolFqdn "atl0cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserDatal.zip"
     

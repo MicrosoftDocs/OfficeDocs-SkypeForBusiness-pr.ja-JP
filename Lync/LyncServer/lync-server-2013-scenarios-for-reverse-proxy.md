@@ -12,20 +12,22 @@ ms:contentKeyID: 48183468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af3b987cfc1a982139aa0151e43918f0ed082034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 767df1e427cd29e9437b4bd04d2859b382b48267
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200982"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510834"
 ---
+# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 のリバースプロキシのシナリオ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 のリバースプロキシのシナリオ
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2013-01-21_
 
 Lync Server 2013 の展開を計画する場合は、Lync Server 2013 の実際の要件をリバースプロキシ機能にマッピングします。
 
-1.  外部クライアントはポート TCP 443 上のリバースプロキシに接続し、secure socket layer (SSL) またはトランスポート層セキュリティ (TLS) を使用します。 Microsoft Lync Mobile クライアントは、ポート TCP 80 で接続できますが、Lync discovery services への最初の接続を実行し、管理者が正しいドメインネームシステム (DNS) の CNAME (またはエイリアス) レコードを構成している場合に限り、この通信は暗号化されません。
+1.  外部クライアントはポート TCP 443 上のリバースプロキシに接続し、secure socket layer (SSL) またはトランスポート層セキュリティ (TLS) を使用します。 Microsoft Lync Mobile クライアントは、ポート TCP 80 に接続できますが、Lync discovery services への最初の接続を実行していて、管理者が適切なドメインネームシステム (DNS) CNAME (またはエイリアス) レコードを構成している場合にのみ、この通信が暗号化されることを受け入れます。
 
 2.  Lync Server 2013 (フロントエンドサーバーまたはディレクターに展開された) 外部 web サービスは、ポート TCP 4443 上のリバースプロキシからの接続を想定しており、接続が SSL/TLS であると想定しています。
     
@@ -78,7 +80,7 @@ Lync Server 2013 の展開を計画する場合は、Lync Server 2013 の実際�
     
       - Lync Windows ストアアプリ、Lync Mobile、およびデスクトップクライアント Lync 2013 の "自動検出" vDir。 Lync Server 2013 の自動検出は、DNS 名 "lyncdiscover" によって認識されます。
     
-      - 定義されていないサービスは、外部の web サービスへの直接の呼び出しによって外部クライアントによってアクセスされます。 たとえば、配布グループの展開 (DLX) とアドレス帳サービス (ABS) は、外部 web サービスへの直接呼び出しまたは関連付けられた vDirs によってアクセスされます。 クライアントは、vDir への実際のパスを知っており、この情報に基づいて uniform record locator (URL) を構築します。 クライアントは、のような URL を使用してアドレス帳サービスにアクセスします。`https://externalweb.contoso.com/abs/handler`
+      - 定義されていないサービスは、外部の web サービスへの直接の呼び出しによって外部クライアントによってアクセスされます。 たとえば、配布グループの展開 (DLX) とアドレス帳サービス (ABS) は、外部 web サービスへの直接呼び出しまたは関連付けられた vDirs によってアクセスされます。 クライアントは、vDir への実際のパスを知っており、この情報に基づいて uniform record locator (URL) を構築します。 クライアントは、のような URL を使用してアドレス帳サービスにアクセスします。 `https://externalweb.contoso.com/abs/handler`
     
       - 会議が Lync Server トポロジの一部として定義および構成されている場合の Office Web Apps サーバー
         

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d70b090f59c0a0f8510d778ef659def77cfd0747
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1c3733eee90fb1ea0bb3e0a67be88243dee56aa7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182690"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510784"
 ---
+# <a name="schema-changes-in-lync-server-2013"></a>Lync Server 2013 でのスキーマの変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-changes-in-lync-server-2013"></a>Lync Server 2013 でのスキーマの変更
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync Server 2013 には、いくつかの新しいクラスと属性が必要で
 
 <!-- end list -->
 
-  - **データ**(Lync Server 拡張スキーマおよび既存のスキーマクラスに格納されている):
+  - **データ** (Lync Server 拡張スキーマおよび既存のスキーマクラスに格納されている):
     
       - ユーザーの SIP URI (Uniform Resource Identifier) と他のユーザー設定
     
@@ -124,16 +126,16 @@ MsRTCSIP プレフィックスは、Lync Server に固有のクラスと属性�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ユーザー</p></td>
-<td><p>add:mayContain</p>
-<p>add:mayContain</p></td>
+<td><p>User</p></td>
+<td><p>add: mayContain</p>
+<p>add: mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="even">
-<td><p>連絡先</p></td>
-<td><p>add:mayContain</p>
-<p>add:mayContain</p></td>
+<td><p>Contact</p></td>
+<td><p>add: mayContain</p>
+<p>add: mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>

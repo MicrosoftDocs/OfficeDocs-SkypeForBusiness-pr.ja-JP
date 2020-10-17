@@ -12,20 +12,22 @@ ms:contentKeyID: 48184559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfdf5552f150b23c50e8ad6867e90f96a6b586fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e49cb6a5715b95758a5e7520c69dd45b757b10c7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182310"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510054"
 ---
+# <a name="sessiondetails-table-in-lync-server-2013"></a>Lync Server 2013 の SessionDetails テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessiondetails-table-in-lync-server-2013"></a>Lync Server 2013 の SessionDetails テーブル
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42182310"
 
 _**トピックの最終更新日:** 2012-09-28_
 
-各レコードは、1つのピアツーピアセッションを表します。これは、VoIP 電話、2者間の IM セッション、またはその他の種類のセッションである場合があります。 [Lync Server 2013 のメディアテーブル](lync-server-2013-media-table.md)を使用してテーブル結合を実行すると、このセッションに含まれる各メディアの詳細を検索できます。
+各レコードは1つのピアツーピアセッションを表します。これは VoIP-VoIP 電話、2者間の IM セッション、またはその他の種類のセッションである可能性があります。 [Lync Server 2013 のメディアテーブル](lync-server-2013-media-table.md)を使用してテーブル結合を実行すると、このセッションに含まれる各メディアの詳細を検索できます。
 
 IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィールドは、Microsoft Lync Server 2013 で使用される SessionDetails テーブルから削除されていることに注意してください。
 
@@ -51,7 +53,7 @@ IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィ�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>
@@ -62,13 +64,13 @@ IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィ�
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>日付型</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>セッション要求の時刻。 セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッション要求の時刻。 セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
 <td><p>主/プライマリ、外部</p></td>
-<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために<strong>Sessionidtime</strong>と組み合わせて使用します。 * 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>を参照してください。</p></td>
+<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために <strong>Sessionidtime</strong> と組み合わせて使用します。 * 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CorrelationId</strong></p></td>
@@ -80,13 +82,13 @@ IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィ�
 <td><p><strong>Edialogidtime を置換する</strong></p></td>
 <td><p>日付型</p></td>
 <td><p>外部</p></td>
-<td><p>現在のセッションで置き換えられたダイアログを識別するための ID 番号。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>現在のセッションで置き換えられたダイアログを識別するための ID 番号。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Edialogidseq を置換する</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>セッションを識別するための ID 番号。 このセッションで置き換えられたセッションを一意に識別するために <strong>ReplacesDialogIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別するための ID 番号。 このセッションで置き換えられたセッションを一意に識別するために <strong>ReplacesDialogIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>User1Id</strong></p></td>
@@ -142,19 +144,19 @@ IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィ�
 <td><p><strong>ServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>このセッションで使用されるフロントエンド サーバーの ID。 詳細については、「 <a href="lync-server-2013-servers-table.md">Lync Server 2013 のサーバーの表</a>」を参照してください。</p></td>
+<td><p>このセッションで使用されるフロントエンド サーバーの ID。 詳細については、「 <a href="lync-server-2013-servers-table.md">Lync Server 2013 のサーバーの表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PoolId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>セッションが取得されたプールの ID。 詳細については、「 <a href="lync-server-2013-pools-table.md">Lync Server 2013 のプール</a>」の表を参照してください。</p></td>
+<td><p>セッションが取得されたプールの ID。 詳細については、「 <a href="lync-server-2013-pools-table.md">Lync Server 2013 のプール</a> 」の表を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentTypeID</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>セッションで使用されるコンテンツの種類。 詳細については、「 <a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 の ContentTypes テーブル</a>」を参照してください。</p></td>
+<td><p>セッションで使用されるコンテンツの種類。 詳細については、「 <a href="lync-server-2013-contenttypes-table.md">Lync Server 2013 の ContentTypes テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>User1ClientVerId</strong></p></td>
@@ -172,13 +174,13 @@ IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィ�
 <td><p><strong>User1EdgeServerid</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>User1 によって使用されるエッジ サーバー。 詳細については、「 <a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 の EdgeServers テーブル</a>」を参照してください。</p></td>
+<td><p>User1 によって使用されるエッジ サーバー。 詳細については、「 <a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 の EdgeServers テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>User2EdgeServerid</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>User2 によって使用されるエッジ サーバー。 詳細については、「 <a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 の EdgeServers テーブル</a>」を参照してください。</p></td>
+<td><p>User2 によって使用されるエッジ サーバー。 詳細については、「 <a href="lync-server-2013-edgeservers-table.md">Lync Server 2013 の EdgeServers テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsUser1Internal</strong></p></td>
@@ -196,7 +198,7 @@ IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィ�
 <td><p><strong>InviteTime</strong></p></td>
 <td><p>日付型</p></td>
 <td></td>
-<td><p>最初の INVITE 要求の時刻。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。 INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されたデータが設定されます。 INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。</p></td>
+<td><p>最初の INVITE 要求の時刻。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。 INVITE メッセージがない場合は、関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されたデータが設定されます。 INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResponseTime</strong></p></td>
@@ -220,7 +222,7 @@ IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィ�
 <td><p><strong>CallPriority</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の優先順位。 詳細については、「 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 の呼び出し優先度</a>」の表を参照してください。</p></td>
+<td><p>通話の優先順位。 詳細については、「 <a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 の呼び出し優先度</a> 」の表を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>User1MessageCount</strong></p></td>
@@ -263,7 +265,7 @@ IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィ�
 </tr>
 <tr class="odd">
 <td><p>REMOTE_ASSISTANCE</p></td>
-<td><p>2/4</p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="even">
 <td><p>APP_SHARING</p></td>
@@ -325,7 +327,7 @@ IsUser1IntegratedWithDeskPhone および IsUser2IntegratedWithDeskPhone フィ�
 </table>
 
 
-\*ほとんどのセッションでは、SessionIdSeq の値は1になります。 まったく同時に複数のセッションが開始した場合、あるセッションの SessionIdSeq は 1、別のセッションは 2、などとなります。
+\* ほとんどのセッションでは、SessionIdSeq の値は1になります。 まったく同時に複数のセッションが開始した場合、あるセッションの SessionIdSeq は 1、別のセッションは 2、などとなります。
 
 </div>
 

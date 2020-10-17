@@ -12,20 +12,22 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12dda05b36406e620c08abac494dceecc7d314d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 202052ce01bca6cdc11e8ed36dfede9afba74b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201133"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511104"
 ---
+# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Lync Server 2013 での Active Directory スキーマの準備の実行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Lync Server 2013 での Active Directory スキーマの準備の実行
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-10-29_
 
 
 > [!NOTE]  
-> スキーマ準備コマンドレット (<STRONG>Install-CsAdServerSchema</STRONG>) はスキーママスターにアクセスする必要があります。これには、リモートレジストリサービスが実行されていて、リモートレジストリキーが有効になっている必要があります。 スキーママスターでリモートレジストリサービスを有効にできない場合は、スキーママスターでローカルにコマンドレットを実行できます。 レジストリのリモートアクセスの詳細については、Microsoft サポート技術情報の記事314837「レジストリへのリモートアクセスを管理<A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>する方法」を参照してください。
+> スキーマ準備コマンドレット (<STRONG>Install-CsAdServerSchema</STRONG>) はスキーママスターにアクセスする必要があります。これには、リモートレジストリサービスが実行されていて、リモートレジストリキーが有効になっている必要があります。 スキーママスターでリモートレジストリサービスを有効にできない場合は、スキーママスターでローカルにコマンドレットを実行できます。 レジストリのリモートアクセスの詳細については、Microsoft サポート技術情報の記事314837「レジストリへのリモートアクセスを管理する方法」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A> 。
 
 
 
@@ -57,7 +59,7 @@ _**トピックの最終更新日:** 2012-10-29_
 
 1.  Schema Admins グループのメンバーとして、さらに、スキーマ マスターにおける管理者権限を使用して、フォレスト内のサーバーにログオンします。
 
-2.  Lync Server 2013 インストールフォルダーまたはメディアから、setup.exe を実行して、展開ウィザードを開始します。
+2.  Lync Server 2013 インストールフォルダーまたはメディアから、Setup.exe を実行して展開ウィザードを開始します。
 
 3.  Microsoft Visual C++ (再頒布可能) のインストールを要求するメッセージが表示されたら、**[はい]** をクリックします。
 
@@ -75,7 +77,7 @@ _**トピックの最終更新日:** 2012-10-29_
 
 10. [**コマンドの実行**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。
 
-11. [**アクション**] 列で [**スキーマ**の準備] を展開し、各タスクの最後に** \<成功\> **した実行結果を探して、スキーマの準備が正常に完了したことを確認し、ログを閉じて、[**完了**] をクリックします。
+11. [ **アクション** ] 列で [ **スキーマ**の準備] を展開し、 **\<Success\>** 各タスクの最後に実行結果を検索して、スキーマの準備が正常に完了したことを確認し、ログを閉じて、[ **完了**] をクリックします。
 
 12. Active Directory レプリケーションが完了するのを待機するか、レプリケーションを強制的に実行します。
 
@@ -91,7 +93,7 @@ _**トピックの最終更新日:** 2012-10-29_
 
 2.  Lync Server コアコンポーネントを次のようにインストールします。
     
-    1.  Lync Server 2013 のインストールフォルダーまたはメディアから、setup.exe を実行して Lync Server 展開ウィザードを起動します。
+    1.  Lync Server 2013 インストールフォルダーまたはメディアから、Setup.exe を実行して Lync Server 展開ウィザードを開始します。
     
     2.  Microsoft Visual C++ (再頒布可能) のインストールを要求するメッセージが表示されたら、**[はい]** をクリックします。
     
@@ -115,7 +117,7 @@ _**トピックの最終更新日:** 2012-10-29_
     
         Get-CsAdServerSchema 
     
-    スキーマの準備が成功した場合、このコマンドレットは**スキーマ\_\_バージョン状態\_の CURRENT**の値を返します。
+    スキーマの準備が成功した場合、このコマンドレットは **スキーマ \_ バージョン \_ 状態の \_ CURRENT** の値を返します。
 
 6.  Active Directory レプリケーションが完了するのを待機するか、レプリケーションを強制的に実行します。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aba7d5f1b279ba83a5a6053d2197c90253dd84ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1432480cbe62aedfc5c05362cc322d971c3cb321
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510864"
 ---
+# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Lync Server 2013 でのウイルスのスキャンとウイルス定義の確認
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Lync Server 2013 でのウイルスのスキャンとウイルス定義の確認
+
 
 </div>
 
@@ -47,7 +49,7 @@ Lync Server の Forefront Security に加えて、サーバーのファイルシ
 
 
 > [!IMPORTANT]  
-> Lync server 2013 および Forefront Security for lync Server が実行されているサーバーで、サードパーティのファイルレベルのウイルス対策ソフトウェアを使用している場合は、Forefront Security for Lync server と Lync Server がインストールされているフォルダーがスキャンされないようにしてください。が破損しています。 除外の完全な一覧について<A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>は、「」を参照してください。
+> Lync server 2013 および Forefront Security for lync Server を実行するサーバーで、サードパーティ製のファイルレベルのウイルス対策ソフトウェアを使用している場合は、それらのファイルが破損しないように、Forefront Security for Lync server と Lync Server がインストールされているフォルダーがスキャンされていないことを確認してください。 除外の完全な一覧については、「」を参照してください <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A> 。
 
 
 

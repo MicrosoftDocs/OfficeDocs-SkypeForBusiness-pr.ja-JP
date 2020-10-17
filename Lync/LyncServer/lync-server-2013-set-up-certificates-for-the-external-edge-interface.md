@@ -12,20 +12,22 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2bad8f01e773d50f8d722ddbbf4be0757cb31d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a190c50ece2b2e5be0f8597851541c71cfbb4e49
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200610"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509884"
 ---
+# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Lync Server 2013 の外部エッジインターフェイス用の証明書の設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Lync Server 2013 の外部エッジインターフェイス用の証明書の設定
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2012-09-08_
 
 この他の証明書の要件の詳細については、「 [Lync Server 2013 の外部ユーザーアクセスの証明書要件](lync-server-2013-certificate-requirements-for-external-user-access.md)」を参照してください。
 
-統合コミュニケーション証明書の特定の要件に準拠した証明書を提供し、Microsoft と提携して Lync Server 2013 証明書ウィザードと共に動作するようにする場合は、「Microsoft サポート技術情報の記事929395、「Exchange Server および Communications Server 用の統合コミュニケーション証明書[https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)パートナー」 () を参照してください。
+統合コミュニケーション証明書の特定の要件に準拠した証明書を提供し、Microsoft と提携して Lync Server 2013 証明書ウィザードと共に動作するようにする場合は、「Microsoft サポート技術情報の記事929395、「Exchange Server および Communications Server 用の統合コミュニケーション証明書パートナー」 () を参照してください [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) 。
 
 <div>
 
@@ -96,7 +98,7 @@ _**トピックの最終更新日:** 2012-09-08_
 
 4.  [**要求を後で送信または今すぐ送信**] ページで、[**要求を準備して後で送信する**] チェック ボックスをオンにします。
 
-5.  [**証明書要求ファイル**] ページで、要求を保存するファイルの完全なパスとファイル名を入力します (たとえば、c:\\cert\_外部\_edge. .cer)。
+5.  [ **証明書要求ファイル** ] ページで、要求を保存するファイルの完全なパスとファイル名を入力します (たとえば、c: \\ cert \_ 外部 \_ edge. .cer)。
 
 6.  [**代替証明書テンプレートの指定**] ページで、既定の WebServer テンプレート以外のテンプレートを使用するには、[**選択した証明機関に別の証明書テンプレートを使用する**] チェック ボックスをオンにします。
 
@@ -114,7 +116,7 @@ _**トピックの最終更新日:** 2012-09-08_
 
 10. [**サブジェクト名/サブジェクト代替名**] ページに、ウィザードによって自動的に設定される情報が表示されます。追加のサブジェクトの別名が必要な場合、次の 2 つの手順で指定します。
 
-11. [**サブジェクト代替名 (san) の Sip ドメイン設定**] ページで、[ドメイン] チェックボックスをオンにして sip を追加します。\<microsoft.rtc.management.xds.sipdomain\>エントリをサブジェクトの別名一覧に入力します。
+11. [ **サブジェクト代替名 (san) の Sip ドメイン設定** ] ページで、[ドメイン] チェックボックスをオンにして sip を追加します。\<sipdomain\> サブジェクトの別名リストへのエントリ。
 
 12. **[追加のサブジェクト代替名の構成]** ページで、必要な追加のサブジェクトの別名を指定します。
 
@@ -144,7 +146,7 @@ _**トピックの最終更新日:** 2012-09-08_
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Lync Server 2013 で提供されるテンプレートの既定の証明書名は、Web サーバーです。 既定のテンプレート\<とは\>異なるテンプレートを使用する必要がある場合にのみ、テンプレート名を指定します。
+    Lync Server 2013 で提供されるテンプレートの既定の証明書名は、Web サーバーです。 \<template name\>既定のテンプレートとは異なるテンプレートを使用する必要がある場合にのみ指定します。
     
     <div>
     
@@ -239,7 +241,7 @@ _**トピックの最終更新日:** 2012-09-08_
     
     </div>
 
-9.  [エクスポートファイルの形式] ダイアログで、[ **Personal Information Exchange\#– PKCS 12 (]) を選択します。PFX)** を選択し、次のように選択します。
+9.  [エクスポートファイルの形式] ダイアログで、[ **Personal Information Exchange – PKCS 12 (]) を選択し \# ます。PFX)** を選択し、次のように選択します。
     
       - 可能であれば、証明書パスにあるすべての証明書を含める
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1c8259312e3ba4e939bd784e189f5aae495605d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182670"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510874"
 ---
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Lync Server 2013 のスキーマの属性と説明
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Lync Server 2013 のスキーマの属性と説明
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="header">
 <th>属性</th>
 <th>説明</th>
-<th>コメント</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -198,7 +200,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </ul>
 <p>Live Communications Server 2005 の以前の有効な値は次のとおりです。</p>
 <ul>
-<li><p>0: <strong>msRTCSIP</strong>によって定義されている既定値<strong>を使用</strong>します。既定値は、この優先順位に従っています。</p>
+<li><p>0: <strong>msRTCSIP</strong> によって定義されている既定値 <strong>を使用</strong> します。既定値は、この優先順位に従っています。</p>
 <ul>
 <li><p>1: アーカイブ</p></li>
 <li><p>2: アーカイブしない</p></li>
@@ -248,7 +250,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-既定値</p></td>
-<td><p>このブール値属性は、電話の使用法が既定の使用方法であるかどうかを定義します。 この属性が<strong>TRUE</strong>に設定されている場合、電話使用法は既定の使用方法であり、管理者が削除することはできません。 この属性が<strong>FALSE</strong>に設定されている場合は、使用法を削除できます。</p></td>
+<td><p>このブール値属性は、電話の使用法が既定の使用方法であるかどうかを定義します。 この属性が <strong>TRUE</strong>に設定されている場合、電話使用法は既定の使用方法であり、管理者が削除することはできません。 この属性が <strong>FALSE</strong>に設定されている場合は、使用法を削除できます。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="odd">
@@ -264,7 +266,7 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP-DefaultLocationProfileLink (現在不使用)</p></td>
 <td><p>この単一値属性には、割り当てられている場所プロファイルクラスオブジェクトの識別名 (DN) が含まれています。</p>
-<p>前方リンク:<strong>リンク ID 11036</strong></p>
+<p>前方リンク: <strong>リンク ID 11036</strong></p>
 <p>対応する後方リンクは、 <strong>msRTCSIP-ServerReferenceBL</strong>です。</p></td>
 <td><p>Lync Server 2010 では廃止されました。</p></td>
 </tr>
@@ -338,11 +340,11 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-Msrtcsip-enablebesteffortnotify (現在不使用)</p></td>
 <td><p>この属性は、クライアントからのサブスクライブ要求に対する応答として、サーバーが NOTIFY 要求ではなく、Best エフォート NOTIFY (BENOTIFY) 要求を生成するかどうかを制御します。 BENOTIFY は、定期的な NOTIFY 要求ではなく、サーバーが BENOTIFY 要求を生成するサブスクライブ通知ハンドシェイクに対して、パフォーマンスが強化された拡張機能です。 パフォーマンス上の利点として、NOTIFY 要求と同様に、BENOTIFY 要求でクライアントから 200 OK 応答が要求されないことが挙げられます。</p>
-<p>有効な値は、 <strong>TRUE</strong>または<strong>FALSE</strong>です。</p>
+<p>有効な値は、 <strong>TRUE</strong> または <strong>FALSE</strong>です。</p>
 <div>
 
 > [!NOTE]  
-> Live Communications Server 2003 は、BENOTIFY 要求をサポートしていません。 Live Communications Server 2005 およびサードパーティ製サーバーで実行されている Live Communications Server 2003 サーバー API を使用して記述されたサーバーアプリケーションと相互運用するには、BENOTIFY 要求の値を<STRONG>FALSE</STRONG>に設定することで無効にすることができます。 現時点では、BENOTIFY は、IETF (インターネットエンジニアリングのタスクフォース) SIP 標準化プロセスの一部ではありません。
+> Live Communications Server 2003 は、BENOTIFY 要求をサポートしていません。 Live Communications Server 2005 およびサードパーティ製サーバーで実行されている Live Communications Server 2003 サーバー API を使用して記述されたサーバーアプリケーションと相互運用するには、BENOTIFY 要求の値を <STRONG>FALSE</STRONG>に設定することで無効にすることができます。 現時点では、BENOTIFY は、IETF (インターネットエンジニアリングのタスクフォース) SIP 標準化プロセスの一部ではありません。
 
 
 </div></td>
@@ -351,7 +353,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-EnableFederation (現在不使用)</p></td>
-<td><p>この属性は、ユーザーが他の組織のユーザーとの通信を許可されているかどうかを構成するために IT 管理者が使用するグローバルスイッチです。 これにより、管理者は個々のユーザーの<strong>FederationEnabled</strong>属性を上書きすることができます。 この属性は、ワーム、ウイルス、または社内への攻撃によって発生する可能性があるインターネット攻撃から内部ネットワークを保護するのに役立ちます。</p>
+<td><p>この属性は、ユーザーが他の組織のユーザーとの通信を許可されているかどうかを構成するために IT 管理者が使用するグローバルスイッチです。 これにより、管理者は個々のユーザーの <strong>FederationEnabled</strong> 属性を上書きすることができます。 この属性は、ワーム、ウイルス、または社内への攻撃によって発生する可能性があるインターネット攻撃から内部ネットワークを保護するのに役立ちます。</p>
 <p>有効な値 (および関連するビット位置) は次のとおりです。</p>
 <ul>
 <li><p>1: パブリック IM 接続が有効 (ビット位置 0)</p></li>
@@ -385,13 +387,13 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP-FederationEnabled</p></td>
 <td><p>この属性は、1人のユーザーがフェデレーションを有効にするかどうかを制御します。 エンタープライズサービス層によって適用されます。 グローバルカタログレプリケーションのマークが付いています。</p>
-<p>有効な値は、 <strong>TRUE</strong>または<strong>FALSE</strong>です。</p></td>
+<p>有効な値は、 <strong>TRUE</strong> または <strong>FALSE</strong>です。</p></td>
 <td><p>Live Communications Server 2005 の新しいもの。</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-FrontEndServers</p></td>
 <td><p>この属性は、プールに関連付けられているすべての Enterprise Edition サーバーのドメイン名の複数値を持つリストです。</p>
-<p>後方リンク:<strong>リンク ID 11023</strong></p>
+<p>後方リンク: <strong>リンク ID 11023</strong></p>
 <p>この後方リンクへの対応する転送リンクは、 <strong>msRTCSIP-PoolAddress</strong>です。</p></td>
 <td><p>Live Communications Server 2005 の新しいもの。</p></td>
 </tr>
@@ -402,7 +404,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-GlobalSettingsData (現在不使用)</p></td>
-<td><p>この属性には、名前と値のペアが格納されます。 既に定義されている名前: 値のペアは、<strong>プレゼンス設定のポーリングを許可</strong>するためのものです。</p></td>
+<td><p>この属性には、名前と値のペアが格納されます。 既に定義されている名前: 値のペアは、 <strong>プレゼンス設定のポーリングを許可</strong> するためのものです。</p></td>
 <td><p>Lync Server 2010 では廃止されました。</p></td>
 </tr>
 <tr class="odd">
@@ -431,7 +433,7 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP-InternetAccessEnabled</p></td>
 <td><p>この属性は、単一のユーザーが外部ユーザーアクセスを有効にしているかどうかを制御します。 エンタープライズサービス層によって適用されます。 グローバルカタログレプリケーションのマークが付いています。</p>
-<p>有効な値は、 <strong>TRUE</strong>または<strong>FALSE</strong>です。</p></td>
+<p>有効な値は、 <strong>TRUE</strong> または <strong>FALSE</strong>です。</p></td>
 <td><p>Live Communications Server 2005 の新しいもの。</p></td>
 </tr>
 <tr class="even">
@@ -441,7 +443,7 @@ _**トピックの最終更新日:** 2012-10-06_
 <p>現在、Live Communications Server 2005 では使用されていません。</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP</p></td>
+<td><p>msRTCSIP-Line</p></td>
 <td><p>この単一値の属性には、テレフォニーで Lync で使用されるデバイス ID (SIP URI またはユーザーが制御する電話の TEL URI) が含まれています。 この属性は、グローバルカタログレプリケーションのマークが付いており、インデックスが作成されます。 ユーザーがエンタープライズ Voip に対して有効になっている場合、この属性はユーザーの電話番号の e.164 正規化されたバージョンを格納します。</p></td>
 <td><p>Microsoft Office Live Communications Server 2005 SP1 の新技術情報</p></td>
 </tr>
@@ -459,7 +461,7 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-LocalNormalizationLinks (現在不使用)</p></td>
 <td><p>この複数値属性には、この場所プロファイルに関連付けられているローカル正規化識別名 (DN) の一覧が含まれています。 この属性の型は、DN binary です。 場所プロファイルとローカル正規化ルールの間には、一対多の関係があります。 ローカル正規化 DNs の一覧の順序は、管理者によって指定された順序で維持される必要があります。 順序の保持は、DN binary の2進部分によって維持されます。これにより、注文インデックスが指定されます。</p>
-<p>前方リンク:<strong>リンク ID 11034</strong></p>
+<p>前方リンク: <strong>リンク ID 11034</strong></p>
 <p>この転送リンク属性への対応する後方リンクは、 <strong>msRTCSIP-LocationProfileBL</strong>です。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p>
 <p>Lync Server 2010 では廃止されました。</p></td>
@@ -478,8 +480,8 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="odd">
 <td><p>msRTCSIP-locationProfileBL (obsolete)</p></td>
 <td><p>この複数値属性には、場所プロファイル識別名の一覧が含まれています。 この属性は、1つ以上の場所プロファイルへの後方リンクを指定します。</p>
-<p>後方リンク:<strong>リンク ID 11035</strong></p>
-<p>この属性は、前方リンク<strong>msRTCSIP-LocalNormalizationLinks</strong>に対応しています。</p></td>
+<p>後方リンク: <strong>リンク ID 11035</strong></p>
+<p>この属性は、前方リンク <strong>msRTCSIP-LocalNormalizationLinks</strong>に対応しています。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p>
 <p>Lync Server 2010 では廃止されました。</p></td>
 </tr>
@@ -538,7 +540,7 @@ _**トピックの最終更新日:** 2012-10-06_
 <td><p>msRTCSIP-Msrtcsip-mcufactoryaddress です</p></td>
 <td><p>この属性は、属している multipoint control unit (MCU) ファクトリへのリンクを指定するコンピュータークラス下のサービスコントロールポイント属性です。 このサービスコントロールポイントと属性は、Microsoft MCU ごとに作成されます。 各 Microsoft MCU は、プールレベルの設定を取得するために、属しているプールのバックエンドサーバーを検索する必要があります。</p>
 <p>この属性の値は、MCU ファクトリの識別名 (DN) です。 これは単一値の属性で、グローバルカタログレプリケーションのマークが付けられています。</p>
-<p>前方リンク:<strong>リンク ID 11026</strong></p>
+<p>前方リンク: <strong>リンク ID 11026</strong></p>
 <p>この転送リンク属性への対応する後方リンクは、 <strong>msRTCSIP</strong>ともなります。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
@@ -546,20 +548,20 @@ _**トピックの最終更新日:** 2012-10-06_
 <td><p>msRTCSIP-MCUFactoryData</p></td>
 <td><p>これは複数文字列の予約済み属性です。 この属性に格納されている設定は、名前 = 値のペアとして表されます。 現在定義されている名前 = 値のペアは次のとおりです。</p>
 <ul>
-<li><p>FactoryURL = &lt;URL&gt;</p></li>
+<li><p>FactoryURL = &lt; URL&gt;</p></li>
 </ul></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-Msrtcsip-mcufactorypath</p></td>
 <td><p>これは、プールに関連付けられた1つの MCU ファクトリの識別名 (DN) を含む単一値の属性です。</p>
-<p>前方リンク:<strong>リンク ID 11024</strong></p>
+<p>前方リンク: <strong>リンク ID 11024</strong></p>
 <p>この転送リンク属性への対応する後方リンクは、 <strong>MsRTCSIP アドレス</strong>です。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MCUFactoryProviderID</p></td>
-<td><p>この属性は、MCU ファクトリプロバイダーの GUID を指定する単一値の文字列です。 この GUID 値に基づいて、MCU ファクトリプロセスは、この MCU の種類をサービスするかどうかを決定します。 GUID 値が<strong>{F0810510-424F-46ef-84FE-6CC720DF1791}</strong>の場合、MCU ファクトリプロセス (Lync Server では既定で利用可能) によって処理されます。 その他の GUID 値の場合、MCU ファクトリプロセスは MCU の種類をサービスしません。</p></td>
+<td><p>この属性は、MCU ファクトリプロバイダーの GUID を指定する単一値の文字列です。 この GUID 値に基づいて、MCU ファクトリプロセスは、この MCU の種類をサービスするかどうかを決定します。 GUID 値が <strong>{F0810510-424F-46ef-84FE-6CC720DF1791}</strong>の場合、MCU ファクトリプロセス (Lync Server では既定で利用可能) によって処理されます。 その他の GUID 値の場合、MCU ファクトリプロセスは MCU の種類をサービスしません。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="even">
@@ -583,7 +585,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-MCUVendor</p></td>
-<td><p>この属性は、MCU ベンダーの名前を指定する単一値の文字列です。 すべての Microsoft Mcu は、この属性を<strong>Microsoft Corporation</strong>に指定します。</p></td>
+<td><p>この属性は、MCU ベンダーの名前を指定する単一値の文字列です。 すべての Microsoft Mcu は、この属性を <strong>Microsoft Corporation</strong>に指定します。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="odd">
@@ -679,8 +681,8 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-Msrtcsip-phoneroutebl です (現在不使用)</p></td>
 <td><p>この複数値属性には、電話ルート識別名 (DN) の一覧が含まれています。 この属性は、1つまたは複数の電話ルートへの後方リンクを指定します。</p>
-<p>後方リンク:<strong>リンク ID 11033</strong></p>
-<p>この属性は、Msrtcsip-routeusagelinks の前方リンク<strong>msRTCSIP</strong>に対応します。</p></td>
+<p>後方リンク: <strong>リンク ID 11033</strong></p>
+<p>この属性は、Msrtcsip-routeusagelinks の前方リンク <strong>msRTCSIP</strong>に対応します。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p>
 <p>Lync Server 2010 では廃止されました。</p></td>
 </tr>
@@ -745,14 +747,14 @@ _**トピックの最終更新日:** 2012-10-06_
 <td><p>msRTCSIP-PoolAddress</p></td>
 <td><p>この属性は、コンピューターが属するプールに戻るリンクを指定します。 この属性は、コンピューターでの Lync Server の Standard Edition または Enterprise Edition のどちらが実行されているかに関係なく設定されます。 この属性には、グローバルカタログレプリケーションのマークが付いています。</p>
 <p>有効な値はプールのドメイン名です。</p>
-<p>前方リンク:<strong>リンク ID 11022</strong></p>
+<p>前方リンク: <strong>リンク ID 11022</strong></p>
 <p>この転送リンク属性への対応する後方リンクは、 <strong>msRTCSIP-FrontEndServers</strong>です。</p></td>
 <td><p>Live Communications Server 2005 の新しいもの。</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-PoolAddresses</p></td>
 <td><p>これは、MCU ファクトリが関連付けられているプールの識別名 (DN) のリストを含む複数値の属性です。</p>
-<p>後方リンク:<strong>リンク ID 11025</strong></p>
+<p>後方リンク: <strong>リンク ID 11025</strong></p>
 <p>この後方リンクへの対応する転送リンクは、 <strong>msRTCSIP-msrtcsip-mcufactorypath</strong>です。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
@@ -769,8 +771,8 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-PoolDomainFQDN</p></td>
-<td><p>この属性は、単一値の文字列型 (string) の値です。 この属性の値は、フロントエンドプールが作成された Active Directory ドメイン構造 (SIP など) に準拠していない FQDN を持つフロントエンドプールを管理者が作成する場合に、プールのドメイン FQDN を表します。名前空間はドメインネームシステム (DNS) 名前空間から分離しています。</p>
-<p>プールが存在する Active Directory ドメインとして、フロントエンドプールのドメイン FQDN をドメイン名部分にマップすることをお勧めします。 そのため、この属性に値が指定されていない場合、フロントエンドプールの FQDN は、 <strong>dnsHostName</strong>属性によって示される Active Directory ドメイン名構造に既定で設定されます。</p></td>
+<td><p>この属性は、単一値の文字列型 (string) の値です。 この属性の値は、フロントエンドプールが作成された Active Directory ドメイン構造 (ドメインネームシステム (DNS) 名前空間から分離した SIP 名前空間など) に準拠していない FQDN を持つフロントエンドプールを管理者が作成する場合に、プールのドメイン FQDN を表します。</p>
+<p>プールが存在する Active Directory ドメインとして、フロントエンドプールのドメイン FQDN をドメイン名部分にマップすることをお勧めします。 そのため、この属性に値が指定されていない場合、フロントエンドプールの FQDN は、 <strong>dnsHostName</strong> 属性によって示される Active Directory ドメイン名構造に既定で設定されます。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="even">
@@ -843,7 +845,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP ルーティング可能</p></td>
-<td><p>この属性は、Lync Server が GRUU アドレスを使用してこのサービスにルーティングすることを承認されているかどうかを判断するために使用されるブール型の属性です。 この値が<strong>TRUE</strong>に設定されている場合、Lync Server はこのサービスへのルーティングを承認されています。 この値が<strong>FALSE</strong>に設定されている場合、Lync Server はこのサービスへのルーティングを承認されていません。</p></td>
+<td><p>この属性は、Lync Server が GRUU アドレスを使用してこのサービスにルーティングすることを承認されているかどうかを判断するために使用されるブール型の属性です。 この値が <strong>TRUE</strong>に設定されている場合、Lync Server はこのサービスへのルーティングを承認されています。 この値が <strong>FALSE</strong>に設定されている場合、Lync Server はこのサービスへのルーティングを承認されていません。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="odd">
@@ -855,8 +857,8 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-Msrtcsip-routeusagelinks (現在不使用)</p></td>
 <td><p>この複数値の識別名 (DN) 属性には、ルート使用法の識別名の一覧が含まれています。</p>
-<p>前方リンク:<strong>リンク ID 11032</strong></p>
-<p>この属性は、対応する後方リンク<strong>msRTCSIP-msrtcsip-phoneroutebl です</strong>への転送リンクです。</p></td>
+<p>前方リンク: <strong>リンク ID 11032</strong></p>
+<p>この属性は、対応する後方リンク <strong>msRTCSIP-msrtcsip-phoneroutebl です</strong>への転送リンクです。</p></td>
 <td><p>Lync Server 2010 では廃止されました。</p></td>
 </tr>
 <tr class="odd">
@@ -887,8 +889,8 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-ServerBL</p></td>
-<td><p>この複数値属性は、識別名 (DN) の一覧を含む後方リンクです。 これらの DNs は、プールまたは<strong>Trustedservice</strong>オブジェクトを指します。</p>
-<p>この属性は、Msrtcsip-trustedservicelinks ですの前方リンク<strong>msRTCSIP</strong>に対応します。</p></td>
+<td><p>この複数値属性は、識別名 (DN) の一覧を含む後方リンクです。 これらの DNs は、プールまたは <strong>Trustedservice</strong> オブジェクトを指します。</p>
+<p>この属性は、Msrtcsip-trustedservicelinks ですの前方リンク <strong>msRTCSIP</strong>に対応します。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="odd">
@@ -899,8 +901,8 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-ServerReferenceBL (obsolete)</p></td>
 <td><p>この複数値属性には、識別名の一覧が含まれています。 これらの識別名は、既定の場所のプロファイルを割り当てることができる他のサーバーオブジェクトを参照する後方リンクです。</p>
-<p>後方リンク:<strong>リンク ID 11037</strong></p>
-<p>この後方リンクへの対応する転送リンクは<strong>msRTCSIP-DefaultLocationProfileLink</strong>です。</p>
+<p>後方リンク: <strong>リンク ID 11037</strong></p>
+<p>この後方リンクへの対応する転送リンクは <strong>msRTCSIP-DefaultLocationProfileLink</strong>です。</p>
 <p>この後方リンク属性は、プールと仲介サーバーのみを参照します。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p>
 <p>Lync Server 2010 では廃止されました。</p></td>
@@ -922,7 +924,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-SourceObjectType</p></td>
-<td><p>次に示すように、integer 型のこの単一値属性は、 <strong>msds-sourceobjectdn</strong>が指すオブジェクトの種類を指定します。</p>
+<td><p>次に示すように、integer 型のこの単一値属性は、 <strong>msds-sourceobjectdn</strong> が指すオブジェクトの種類を指定します。</p>
 <ul>
 <li><p>null |0x00000001: 別のフォレストの Windows NT Server プリンシパルユーザーオブジェクトを表します。</p></li>
 <li><p>次の属性は、配布グループ拡張のための別のフォレストのグループの種類を表します。</p>
@@ -1082,7 +1084,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-UserExtension</p></td>
-<td><p>Name = value の&quot;形式の名前と値のペアの一覧を含む複数値の属性です。&quot;この属性には、グローバルカタログレプリケーションのマークが付いています。</p></td>
+<td><p>Name = value の形式の名前と値のペアの一覧を含む複数値の属性 &quot; です。 &quot; この属性には、グローバルカタログレプリケーションのマークが付いています。</p></td>
 <td><p>Live Communications Server 2005 SP1 で導入されています。</p></td>
 </tr>
 <tr class="odd">
@@ -1119,14 +1121,14 @@ _**トピックの最終更新日:** 2012-10-06_
 <tr class="even">
 <td><p>msRTCSIP-Msrtcsip-webcomponentspooladdress</p></td>
 <td><p>Web コンポーネントが属するプールまたは Standard Edition サーバーを示す単一値の属性です。</p>
-<p>前方リンク:<strong>リンク ID 11028</strong></p>
+<p>前方リンク: <strong>リンク ID 11028</strong></p>
 <p>この転送リンク属性への対応する後方リンクは、 <strong>msRTCSIP-Webコンポーネントサーバー</strong>です。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-Webコンポーネントサーバー</p></td>
 <td><p>この属性は、複数値を持つ識別名の一覧です。 この属性には、このプールに関連付けられているすべての Web サーバーの一覧が含まれています。</p>
-<p>後方リンク:<strong>リンク ID 11029</strong></p>
+<p>後方リンク: <strong>リンク ID 11029</strong></p>
 <p>この後方リンクへの対応する転送リンクは、 <strong>msRTCSIP-msrtcsip-webcomponentspooladdress</strong>です。</p></td>
 <td><p>Office Communications Server 2007 の新製品。</p></td>
 </tr>
@@ -1148,7 +1150,7 @@ _**トピックの最終更新日:** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p>ProxyAddresses</p></td>
-<td><p>この既存の Active Directory 複数値属性は、Windows 2000 で導入された base Active Directory スキーマの一部です。 この属性には、ユーザーの電子メールのさまざまな X400、X500、および SMTP アドレスが含まれています。 Live Communications Server 2003 以降では、 &quot;sip:&quot;タグを使用して、ユーザーの sip URI がこのリストに追加されます。</p>
+<td><p>この既存の Active Directory 複数値属性は、Windows 2000 で導入された base Active Directory スキーマの一部です。 この属性には、ユーザーの電子メールのさまざまな X400、X500、および SMTP アドレスが含まれています。 Live Communications Server 2003 以降では、sip: タグを使用して、ユーザーの SIP URI がこのリストに追加されます &quot; &quot; 。</p>
 <p>次のアプリケーションは、この属性からユーザーの SIP URI を検索します。</p>
 <ul>
 <li><p>Microsoft Office Outlook 2003 メッセージングおよびコラボレーションクライアント</p></li>

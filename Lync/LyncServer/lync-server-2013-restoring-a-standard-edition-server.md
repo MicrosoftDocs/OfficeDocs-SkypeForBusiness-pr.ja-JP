@@ -12,20 +12,22 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77c49b7d1b02fc2d1cb41efd3fd68213fa8a0dfb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 479e4c690d0ca7931631f3bc553d1dafc2a10ea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201393"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511564"
 ---
+# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013 での Standard Edition サーバーの復元
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Lync Server 2013 での Standard Edition サーバーの復元
+
 
 </div>
 
@@ -85,11 +87,11 @@ _**トピックの最終更新日:** 2013-02-21_
     
     3.  トポロジを選択し、[**保存**] をクリックします。[**はい**] をクリックして選択を確定します。
 
-5.  Lync Server インストールフォルダーまたはメディアを参照して、セットアップ\\\\Amd64\\setup.exe で lync server 展開ウィザードを起動します。 Lync Server 展開ウィザードを使用して、次の操作を行います。
+5.  Lync Server インストールフォルダーまたはメディアを参照し、[セットアップ amd64Setup.exe にある Lync Server 展開ウィザードを起動し \\ \\ \\ ます。 Lync Server 展開ウィザードを使用して、次の操作を行います。
     
     1.  [**ステップ 1: ローカル構成ストアのインストール**] を実行して、ローカル構成ファイルをインストールします。
     
-    2.  [**ステップ 2: lync Server コンポーネントのセットアップまたは削除**を実行して、lync server のサーバーの役割をインストールする」を実行します。
+    2.  [ **ステップ 2: lync Server コンポーネントのセットアップまたは削除** を実行して、lync server のサーバーの役割をインストールする」を実行します。
     
     3.  [**ステップ 3: 証明書の要求、インストール、または割り当て**] を実行して、証明書を割り当てます。
     
@@ -99,7 +101,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 6.  次の操作を実行してユーザー データを復元します。
     
-    1.  ExportedUserData を $Backup\\からローカルディレクトリにコピーします。
+    1.  ExportedUserData.zip を $Backup から \\ ローカルディレクトリにコピーします。
     
     2.  ユーザーデータを復元する前に、Lync services を停止する必要があります。 これを行うには、次のように入力します。
         
@@ -123,7 +125,7 @@ _**トピックの最終更新日:** 2013-02-21_
     
     SQL Server バックアップを使用して常設チャットデータベースをバックアップした場合は、SQL Server の復元手順を使用して復元します。
     
-    Export-cspersistentchatdata コマンドレットを使用してバックアップを作成した場合は、Export-cspersistentchatdata を使用してそれを復元します。
+    Export-CsPersistentChatData コマンドレットを使用してバックアップを作成した場合は、Import-CsPersistentChatData を使用して復元します。
 
 </div>
 

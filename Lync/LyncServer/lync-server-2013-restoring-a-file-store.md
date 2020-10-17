@@ -12,20 +12,22 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73ba97ccadcc5cb34a5dbc3963d80620da8e516
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd1984c6e51866b1ace707f305fb2a6cc356a132
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511614"
 ---
+# <a name="restoring-a-file-store-in-lync-server-2013"></a>Lync Server 2013 でのファイルストアの復元
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-file-store-in-lync-server-2013"></a>Lync Server 2013 でのファイルストアの復元
+
 
 </div>
 
@@ -43,7 +45,7 @@ Standard Edition のファイルストアは、通常、Standard Edition サー�
 
 ## <a name="to-restore-a-file-store"></a>ファイル ストアを復元するには
 
-1.  ファイルストアが失敗した場合は、適切なファイルストア\\を $Backup からファイルサーバーまたは Standard Edition サーバー上のファイルストアの場所にコピーして、そのフォルダーを共有します。
+1.  ファイルストアが失敗した場合は、適切なファイルストアを $Backup から \\ ファイルサーバーまたは Standard Edition サーバー上のファイルストアの場所にコピーして、そのフォルダーを共有します。
     
     <div>
     

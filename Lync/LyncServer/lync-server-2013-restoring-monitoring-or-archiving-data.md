@@ -12,20 +12,22 @@ ms:contentKeyID: 51541483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e44bf1fe66aa7c03caea2ba367f425f1094a9a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e908792e8a2563094b11bcce73d4ac6ce6c7121
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511424"
 ---
+# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a>Lync Server 2013 での監視またはアーカイブデータの復元
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a>Lync Server 2013 での監視またはアーカイブデータの復元
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2013-02-18_
 
 1.  ローカルコンピューターの Administrators グループのメンバーとして、または同等のユーザー権限を持つグループのメンバーとして、復元するサーバーにログオンします。
 
-2.  SQL Server Management Studio を開きます。 [**スタート**]、[**すべてのプログラム**]、[ **microsoft sql server 2012** ] または [ **microsoft sql server 2008 R2**] をクリックし、[ **sql server management Studio**] をクリックします。
+2.  SQL Server Management Studio を開きます。 [ **スタート**]、[ **すべてのプログラム**]、[ **microsoft sql server 2012** ] または [ **microsoft sql server 2008 R2**] をクリックし、[ **sql server management Studio**] をクリックします。
 
 3.  [**サーバーへの接続**] で、少なくともサーバーの名前と認証情報を入力して SQL Server インスタンスに接続します。
 
@@ -77,11 +79,11 @@ _**トピックの最終更新日:** 2013-02-18_
 
 2.  ドメイン グループ RTCComponentUniversalServices がユーザーとして存在することを確認します。
 
-3.  RTCComponentUniversalServices が**ユーザー**の下に存在しない場合は、次の手順を実行します。
+3.  RTCComponentUniversalServices が **ユーザー**の下に存在しない場合は、次の手順を実行します。
     
     1.  [ **ユーザー**] を右クリックし、[ **新しいユーザー**] をクリックします。
     
-    2.  [**ログイン名**] に、不足しているグループ名 RTCComponentUniversalServices を入力します。
+    2.  [ **ログイン名**] に、不足しているグループ名 RTCComponentUniversalServices を入力します。
     
     3.  [**データベース ロールのメンバーシップ**] で、[**ServerRole**] アクセス許可を選択し、[**OK**] をクリックします。
     

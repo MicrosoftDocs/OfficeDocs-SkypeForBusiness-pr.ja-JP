@@ -12,20 +12,22 @@ ms:contentKeyID: 48183492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 035279fe9c87b7901092408941538871f1c663fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc64047c932244499da820569a96c6f115c24ab7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201173"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511254"
 ---
+# <a name="routing-e9-1-1-calls-by-using-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013 での SIP トランクを使用した E9-1-1 通話のルーティング
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="routing-e9-1-1-calls-by-using-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013 での SIP トランクを使用した E9-1-1 通話のルーティング
+
 
 </div>
 
@@ -49,7 +51,7 @@ E9-1-1 を展開する方法に、SIP トランクを使用して、認定され
 
 1.  場所、発信者のコールバック番号、および (オプションで) 通知 URL と会議のコールバック番号を含む SIP INVITE が Lync Server にルーティングされます。
 
-2.  Lync Server は、緊急番号に一致し、(該当する場所ポリシーで定義されている**PSTN 使用法**の値に基づいて) 仲介サーバーに通話をルーティングし、そこから SIP トランクを介して E9-1-1 サービスプロバイダーに通話をルーティングします。
+2.  Lync Server は、緊急番号に一致し、(該当する場所ポリシーで定義されている **PSTN 使用法** の値に基づいて) 仲介サーバーに通話をルーティングし、そこから SIP トランクを介して E9-1-1 サービスプロバイダーに通話をルーティングします。
 
 3.  E9-1-1 サービス プロバイダーは、緊急電話と一緒に提供される場所情報に基づいて、通話を適切な PSAP にルーティングします。クライアントが、有効な緊急応答ロケーション (ERL) を緊急電話に含めている場合、プロバイダーはその通話を適切な PSAP に自動転送します。場所情報がユーザーによって手動入力されたものである場合、緊急通話応答センター (ECRC) は、緊急電話を PSAP にルーティングする前に、まず場所が正確かどうかを発信者に口頭で確認します。
 

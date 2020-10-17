@@ -12,20 +12,22 @@ ms:contentKeyID: 48184468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccccb1ea43b4f2eb4646d2b0670feda238f8c2c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6b3a28d2691efb62663ea9cab3c695d78bf9e5e8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182651"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510804"
 ---
+# <a name="schema-attributes-by-class-in-lync-server-2013"></a>Lync Server 2013 のクラスごとのスキーマの属性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-by-class-in-lync-server-2013"></a>Lync Server 2013 のクラスごとのスキーマの属性
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**トピックの最終更新日:** 2012-08-29_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>連絡先</p></td>
+<td><p>Contact</p></td>
 <td><p>Msds-sourceobjectdn</p>
 <p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationDestination</p>
@@ -69,7 +71,7 @@ _**トピックの最終更新日:** 2012-08-29_
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-GroupingID</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP</p>
+<p>msRTCSIP-Line</p>
 <p>msRTCSIP</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-の場合は、Sid</p>
@@ -267,7 +269,7 @@ _**トピックの最終更新日:** 2012-08-29_
 <p>msRTCSIP-ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>ユーザー</p></td>
+<td><p>User</p></td>
 <td><p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationOptions</p>
 <p>msRTCSIP-ArchivingEnabled</p>
@@ -275,7 +277,7 @@ _**トピックの最終更新日:** 2012-08-29_
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-GroupingID</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP</p>
+<p>msRTCSIP-Line</p>
 <p>msRTCSIP</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-の場合は、Sid</p>

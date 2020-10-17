@@ -12,20 +12,22 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05678690718563dac9187ee275d3809016b78d33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: deda1ec30ef5267acd8b3826b77077e7902d98e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208492"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511264"
 ---
+# <a name="roll-back-migrated-users-in-lync-server-2013"></a>Lync Server 2013 で移行されたユーザーのロールバック
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="roll-back-migrated-users-in-lync-server-2013"></a>Lync Server 2013 で移行されたユーザーのロールバック
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42208492"
 
 _**トピックの最終更新日:** 2012-10-07_
 
-統合連絡先ストア機能をロールバックする必要がある場合は、ユーザーを Exchange 2010 または Lync Server 2010 に戻した場合にのみ、連絡先をロールバックします。 ロールバックするには、ユーザーのポリシーを無効にしてから、 **invoke-csucsrollback**コマンドレットを実行します。 **Invoke-csucsrollback**のみを実行するだけでは、ポリシーが無効になっていない場合に、統合連絡先ストアの移行が再び開始されるので、永続的なロールバックを保証するだけでは十分ではありません。 たとえば、Exchange 2013 が Exchange 2010 にロールバックされたためにユーザーがロールバックされた場合に、ユーザーのメールボックスが Exchange 2013 に移動されると、統合連絡先ストアの移行は、統合された後7日後に開始されます (統合連絡先ストア)は、ユーザーサービスポリシーのユーザーに対して引き続き有効になっています。
+統合連絡先ストア機能をロールバックする必要がある場合は、ユーザーを Exchange 2010 または Lync Server 2010 に戻した場合にのみ、連絡先をロールバックします。 ロールバックするには、ユーザーのポリシーを無効にしてから、 **invoke-csucsrollback** コマンドレットを実行します。 **Invoke-csucsrollback**のみを実行するだけでは、ポリシーが無効になっていない場合に、統合連絡先ストアの移行が再び開始されるので、永続的なロールバックを保証するだけでは十分ではありません。 たとえば、Exchange 2013 が Exchange 2010 にロールバックされたためにユーザーがロールバックされ、ユーザーのメールボックスが Exchange 2013 に移動された場合、統合連絡先ストアの移行は、ユーザーサービスポリシーのユーザーに対して統合連絡先ストアが引き続き有効になっている間は、ロールバック後7日後に再び開始されます。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 次の状況では、<STRONG>移動-csuser</STRONG>コマンドレットによって、ユーザーの連絡先ストアが Exchange 2013 から Lync Server 2013 に自動的にロールバックされます。 
+> 次の状況では、 <STRONG>移動-csuser</STRONG> コマンドレットによって、ユーザーの連絡先ストアが Exchange 2013 から Lync Server 2013 に自動的にロールバックされます。 
 > <UL>
 > <LI>
 > <P>ユーザーが Lync Server 2013 から Lync Server 2010 に移動されたとき。</P>
@@ -79,7 +81,7 @@ _**トピックの最終更新日:** 2012-10-07_
 
 </div>
 
-次の手順では、ユーザーの連絡先をロールバックする方法を説明します。 **Move-csuser**コマンドレットを使用して lync server 2013 と lync server 2010 間でユーザーを移動する場合は、lync server の2013から Lync 2010 server へのユーザーの移動時に、ユーザーコマンドレットが自動的に unifed 連絡先ストアをロール**バックするの**で、次の手順を省略できます。 **Move-CsUser**は、統合連絡先ストアポリシーを無効にしないので、ユーザーが Lync Server 2013 に戻った場合、統合連絡先ストアへの移行は繰り返されます。
+次の手順では、ユーザーの連絡先をロールバックする方法を説明します。 **Move-csuser**コマンドレットを使用して lync server 2013 と lync server 2010 間でユーザーを移動する場合は、lync server の2013から Lync 2010 server へのユーザーの移動時に、ユーザーコマンドレットが自動的に unifed 連絡先ストアをロール**バックするの**で、次の手順を省略できます。 **Move-CsUser** は、統合連絡先ストアポリシーを無効にしないので、ユーザーが Lync Server 2013 に戻った場合、統合連絡先ストアへの移行は繰り返されます。
 
 <div>
 
@@ -91,7 +93,7 @@ _**トピックの最終更新日:** 2012-10-07_
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
-    次に例を示します。
+    例:
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
@@ -110,7 +112,7 @@ _**トピックの最終更新日:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    次に例を示します。
+    例:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
@@ -143,7 +145,7 @@ _**トピックの最終更新日:** 2012-10-07_
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
-    次に例を示します。
+    例:
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     

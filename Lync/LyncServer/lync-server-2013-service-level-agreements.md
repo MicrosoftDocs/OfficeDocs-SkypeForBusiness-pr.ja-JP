@@ -12,20 +12,22 @@ ms:contentKeyID: 63969580
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f902a946d272ce3a16db5f032b74ec031c7e3a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7dbc961068a0b0efe0e9d540d1e95540d9dd88cd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200793"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510114"
 ---
+# <a name="service-level-agreements-in-lync-server-2013"></a>Lync Server 2013 でのサービスレベル契約
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="service-level-agreements-in-lync-server-2013"></a>Lync Server 2013 でのサービスレベル契約
+
 
 </div>
 
@@ -63,11 +65,11 @@ SLA は、お客様が期待するサービスを定義するドキュメント�
 
 Sla には、可用性、サポート、および容量の最小レベルの条件を定義するセクションが含まれています。
 
-  - **可用性**   サイトおよびその他の Lync サービスが利用可能になる時間とオペレーティングシステムを定義します。 サービスの可用性に影響を与える定期的な保守を定義する必要があります。 インターネット接続の損失など、サービスに影響を与える外部要因を定義します。
+  - **可用性**    サイトおよびその他の Lync services が使用可能になる時間とオペレーティングシステムを定義します。 サービスの可用性に影響を与える定期的な保守を定義する必要があります。 インターネット接続の損失など、サービスに影響を与える外部要因を定義します。
 
-  - **サポート**   システムのサポートが利用可能になる時間を定義します。 お客様がサポートスタッフに連絡する方法、インシデントをグループ化する方法、インシデントを解決して解決するための目標時間を指定します。 お客様へのフィードバックの頻度と内容を定義します。
+  - **サポート**    システムのサポートが利用可能になる時間を定義します。 お客様がサポートスタッフに連絡する方法、インシデントをグループ化する方法、インシデントを解決して解決するための目標時間を指定します。 お客様へのフィードバックの頻度と内容を定義します。
 
-  - **[容量**   ] Lync サイトの最大許容サイズと、制限を超えた場合に実行する手順を定義します。 ドキュメントライブラリからドキュメントを取得する時間など、標準的なタスクを実行するための最大許容時間を定義します。 Lync プールごとの最大ユーザー数を定義し、さらにユーザーを追加する場合は処理能力を向上させるためのプロセスに同意します。
+  - **容量**    Lync サイトの最大有効サイズと、制限を超えた場合に実行する手順を定義します。 ドキュメントライブラリからドキュメントを取得する時間など、標準的なタスクを実行するための最大許容時間を定義します。 Lync プールごとの最大ユーザー数を定義し、さらにユーザーを追加する場合は処理能力を向上させるためのプロセスに同意します。
 
 </div>
 

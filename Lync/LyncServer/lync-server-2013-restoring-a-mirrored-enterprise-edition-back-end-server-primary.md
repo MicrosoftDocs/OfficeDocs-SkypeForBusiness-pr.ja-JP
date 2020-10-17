@@ -12,20 +12,22 @@ ms:contentKeyID: 51541512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12c4d942bc4f08c12e2ff63250d1b87807a50963
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8e28b3657e5e64b1372b924d04b9d42a58460658
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208693"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511574"
 ---
+# <a name="restoring-a-mirrored-enterprise-edition-back-end-server-in-lync-server-2013---primary"></a>Lync Server 2013 のミラー化された Enterprise Edition バックエンドサーバーの復元-プライマリ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-mirrored-enterprise-edition-back-end-server-in-lync-server-2013---primary"></a>Lync Server 2013 のミラー化された Enterprise Edition バックエンドサーバーの復元-プライマリ
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2013-02-17_
     
         Invoke-CsDataBaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <Configured Database Type> -NewPrincipal Mirror -Force -Verbose
     
-    次に例を示します。
+    以下に例を示します。
     
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
@@ -72,13 +74,13 @@ _**トピックの最終更新日:** 2013-02-17_
     
       - トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
     
-      - バックエンドサーバーでミラーリングを無効にする: **Enterprise Edition フロントエンドプール**の下にあるプールを右クリックし、[**プロパティの編集**] を選択します。 [**全般**] タブの [**関連付け**] で、[ **SQL Server ストアミラーリングの有効化**] チェックボックスをオフにします。 必要に応じて、アーカイブと監視に対して行います。 次に、[ **OK**] をクリックします。
+      - バックエンドサーバーでミラーリングを無効にする: **Enterprise Edition フロントエンドプール** の下にあるプールを右クリックし、[ **プロパティの編集**] を選択します。 [ **全般** ] タブの [ **関連付け**] で、[ **SQL Server ストアミラーリングの有効化** ] チェックボックスをオフにします。 必要に応じて、アーカイブと監視に対して行います。 次に、[ **OK**] をクリックします。
     
-      - [Lync Server 2013] ノードを右クリックし、[**トポロジ**] をクリックして、[**発行**] をクリックします。
+      - [Lync Server 2013] ノードを右クリックし、[ **トポロジ**] をクリックして、[ **発行**] をクリックします。
     
-      - 引き続き機能するバックエンド (BE2.contoso.com) を選択して、新しい SQL ストアにします。 これを行うには、 **Enterprise Edition フロントエンドプール**の下にあるプールを右クリックし、[**プロパティの編集**] を選択します。 [**全般**] タブの [**関連付け**] で、正常に機能しているバックエンドの FQDN を**SQL Server ストア**のフィールドに入力します (この例では、BE2.contoso.com)。
+      - 引き続き機能するバックエンド (BE2.contoso.com) を選択して、新しい SQL ストアにします。 これを行うには、 **Enterprise Edition フロントエンドプール** の下にあるプールを右クリックし、[ **プロパティの編集**] を選択します。 [ **全般** ] タブの [ **関連付け**] で、正常に機能しているバックエンドの FQDN を **SQL Server ストア** のフィールドに入力します (この例では、BE2.contoso.com)。
     
-      - [Lync Server 2013] ノードを右クリックし、[**トポロジ**] をクリックして、[**発行**] をクリックします。
+      - [Lync Server 2013] ノードを右クリックし、[ **トポロジ**] をクリックして、[ **発行**] をクリックします。
     
       - 各サーバーが新しいトポロジを読み取ることができるように、サービスを再起動します。 Lync Server 管理シェルから、このプールに属する各フロントエンドサーバーで次のコマンドレットを実行します。
         
@@ -89,7 +91,7 @@ _**トピックの最終更新日:** 2013-02-17_
     
         Uninstall-CsMirrorDatabase -DatabaseType User -SqlServerFqdn <MirrorServerFqdn> -SqlInstanceName <SQLInstance> -verbose
     
-    次に例を示します。
+    以下に例を示します。
     
         Uninstall-CsMirrorDatabase -DatabaseType User -SqlServerFqdn DB2.contoso.com -SqlInstanceName rtc -verbose
     
@@ -107,15 +109,15 @@ _**トピックの最終更新日:** 2013-02-17_
     
       - トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
     
-      - バックエンドサーバーでミラーリングを有効にします。 これを行うには、 **Enterprise Edition フロントエンドプール**の下にあるプールを右クリックし、[**プロパティの編集**] を選択します。 [**全般**] タブの [**関連付け**] で、[ **SQL Server ストアミラーリングの有効化**] チェックボックスをオンにします。 また、必要に応じてアーカイブと監視にも行います。
+      - バックエンドサーバーでミラーリングを有効にします。 これを行うには、 **Enterprise Edition フロントエンドプール** の下にあるプールを右クリックし、[ **プロパティの編集**] を選択します。 [ **全般** ] タブの [ **関連付け**] で、[ **SQL Server ストアミラーリングの有効化** ] チェックボックスをオンにします。 また、必要に応じてアーカイブと監視にも行います。
         
-        次に、[ **SQL Server ストアのミラーリング**] フィールドに新しいサーバーの FQDN (n この例では BE1.contoso.com) を入力します。 次に、[ **OK**] をクリックします。
+        次に、[ **SQL Server ストアのミラーリング** ] フィールドに新しいサーバーの FQDN (n この例では BE1.contoso.com) を入力します。 次に、[ **OK**] をクリックします。
     
-      - [Lync Server 2013] ノードを右クリックし、[**トポロジ**] をクリックして、[**データベースのインストール**] をクリックします。
+      - [Lync Server 2013] ノードを右クリックし、[ **トポロジ**] をクリックして、[ **データベースのインストール**] をクリックします。
     
-      - [**データベースのインストール**] ウィザードに従います。 [**データベースの作成**] ページで、再作成するデータベースを選択します。
+      - [ **データベースのインストール** ] ウィザードに従います。 [ **データベースの作成** ] ページで、再作成するデータベースを選択します。
     
-      - プロンプトが表示されるまで、ウィザードの指示に従って、**ミラーデータベースを作成**します。 インストールするデータベースを選択し、このプロセスを完了します。
+      - プロンプトが表示されるまで、ウィザードの指示に従って、 **ミラーデータベースを作成**します。 インストールするデータベースを選択し、このプロセスを完了します。
 
 </div>
 

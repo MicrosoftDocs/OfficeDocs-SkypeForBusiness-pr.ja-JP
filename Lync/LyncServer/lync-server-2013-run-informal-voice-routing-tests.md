@@ -12,20 +12,22 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebd127948ec612be61254d97101c0dcd193eeeee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fd8c20adfa98a10bd0b9a89ad31dda37e4510e8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182897"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511164"
 ---
+# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Lync Server 2013 での非公式の音声ルーティングテストの実行
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-informal-voice-routing-tests-in-lync-server-2013"></a>Lync Server 2013 での非公式の音声ルーティングテストの実行
+
 
 </div>
 
@@ -77,7 +79,7 @@ _**トピックの最終更新日:** 2012-08-07_
     
     1.  [**音声ルーティング テスト ケース情報の保存**] ダイアログ ボックスの [**名前**] フィールドに、テスト ケースの一意の名前を入力します。
         
-        名前は、エンタープライズ VoIP 展開内のすべての音声ルーティング テスト ケースの中で一意である必要があります。 最大で32文字まで指定でき、円記号 (\\)、ピリオド (.)、またはアンダースコア (\_) に加えて、英数字を含めることができます。
+        名前は、エンタープライズ VoIP 展開内のすべての音声ルーティング テスト ケースの中で一意である必要があります。 最大で32文字まで指定でき、円記号 ( \\ )、ピリオド (.)、またはアンダースコア () に加えて、英数字を含めることができ \_ ます。
     
     2.  [**音声ルーティング テスト ケース情報の保存**] ダイアログ ボックスにある残りのフィールドは読み取り専用です。値は、非公式のテスト構成*および*結果から事前に入力されます。 テスト ケースとして保存する構成で間違いないか確認してください。
         
@@ -102,7 +104,7 @@ _**トピックの最終更新日:** 2012-08-07_
     
 
     > [!NOTE]  
-    > 音声ルーティング テスト ケースを作成するときにはいつでも、[<STRONG>すべて確定</STRONG>] コマンドを実行してテスト ケースを公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A>」を参照してください。
+    > 音声ルーティング テスト ケースを作成するときにはいつでも、[<STRONG>すべて確定</STRONG>] コマンドを実行してテスト ケースを公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A> 」を参照してください。
 
     
     </div>

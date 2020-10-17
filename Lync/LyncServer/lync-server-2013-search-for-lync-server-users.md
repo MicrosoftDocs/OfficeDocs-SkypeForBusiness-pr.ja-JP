@@ -12,20 +12,22 @@ ms:contentKeyID: 48183871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f503736b22453f6c3aafd76bc2fac7211f11dec7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b690b0880e1da838b3b8f15392e64c4f4c650c10
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182540"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510494"
 ---
+# <a name="search-for-lync-server-users-in-lync-server-2013"></a>Lync server 2013 での Lync Server ユーザーの検索
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="search-for-lync-server-users-in-lync-server-2013"></a>Lync server 2013 での Lync Server ユーザーの検索
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2014-05-14_
 
 
 > [!NOTE]  
-> 中央フォレストトポロジを使用している環境では、ユーザーの電子メールアドレスでユーザーを検索すると、検索結果が正確でないことがあります。 代わりに、SIP アドレスプレフィックスを指定してユーザーを検索できます。たとえば、sip: name、検索フィルターを追加して、電子メールアドレスの一部を含む SIP アドレスを選択するか、または<STRONG>Get-help user</STRONG>コマンドレットを使用します。
+> 中央フォレストトポロジを使用している環境では、ユーザーの電子メールアドレスでユーザーを検索すると、検索結果が正確でないことがあります。 代わりに、SIP アドレスプレフィックスを指定してユーザーを検索できます。たとえば、sip: name、検索フィルターを追加して、電子メールアドレスの一部を含む SIP アドレスを選択するか、または <STRONG>Get-help user</STRONG> コマンドレットを使用します。
 
 
 

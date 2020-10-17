@@ -12,20 +12,22 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7382411774fb9fcb51bf7ade7d64795781c0ebb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a3fb7a36680ff3ef35de44d53fc10a676d46242
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208513"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511244"
 ---
+# <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>Lync Server 2013 の ELIN ゲートウェイを使用した E9-1-1 通話のルーティング
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>Lync Server 2013 の ELIN ゲートウェイを使用した E9-1-1 通話のルーティング
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208513"
 
 _**トピックの最終更新日:** 2013-02-05_
 
-統合コミュニケーション相互運用プログラムの一部のパートナーは、正規の E9-1-1 サービス プロバイダーへの SIP トランク接続の代替としての機能を果たすことができる、緊急位置識別番号 (ELIN) 対応の正規のゲートウェイを提供しています。 ELIN ゲートウェイは、公衆交換電話網 (PSTN) ベースの E9-1-1 サービスへの ISDN 接続 または Centralized Automatic Message Accounting (CAMA) 接続をサポートします。 ELIN ゲートウェイとそのドキュメントへのリンクを提供するパートナーの詳細に[https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425)ついては、「」を参照してください。
+統合コミュニケーション相互運用プログラムの一部のパートナーは、正規の E9-1-1 サービス プロバイダーへの SIP トランク接続の代替としての機能を果たすことができる、緊急位置識別番号 (ELIN) 対応の正規のゲートウェイを提供しています。 ELIN ゲートウェイは、公衆交換電話網 (PSTN) ベースの E9-1-1 サービスへの ISDN 接続 または Centralized Automatic Message Accounting (CAMA) 接続をサポートします。 ELIN ゲートウェイとそのドキュメントへのリンクを提供するパートナーの詳細については、「」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425) 。
 
 E9-1-1 サービスプロバイダーへの SIP トランク接続と同様に、ELIN ゲートウェイも、発信者が最も適切な公共の安全応答ポイント (PSAP) に緊急通話をルーティングする手段を提供します。ただし、これらのゲートウェイは、場所の識別子として ELIN を使用します。 組織内の各緊急対応の場所 (ERL) に ELINs を定義します (詳細については、「 [Lync Server 2013 で ELIN ゲートウェイの場所を管理](lync-server-2013-managing-locations-for-elin-gateways.md)する」を参照してください)。
 
@@ -65,7 +67,7 @@ ELIN ゲートウェイは、組織のネットワーク内からの緊急通話
 
 1.  場所、発信者のコールバック番号、および (オプションで) 通知 URL と会議のコールバック番号を含む SIP INVITE が Lync Server にルーティングされます。
 
-2.  Lync Server は、緊急電話番号と一致し、(該当する場所のポリシーで定義されている**PSTN 使用法**の値に基づいて) 仲介サーバーに通話をルーティングし、そこから ELIN ゲートウェイに転送します。
+2.  Lync Server は、緊急電話番号と一致し、(該当する場所のポリシーで定義されている **PSTN 使用法** の値に基づいて) 仲介サーバーに通話をルーティングし、そこから ELIN ゲートウェイに転送します。
 
 3.  ELIN ゲートウェイは、ISDN または CAMA トランク経由で PSTN に通話をルーティングします。
 
