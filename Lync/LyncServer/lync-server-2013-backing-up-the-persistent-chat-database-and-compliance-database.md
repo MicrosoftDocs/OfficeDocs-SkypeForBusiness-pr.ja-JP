@@ -1,5 +1,6 @@
 ---
 title: 常設チャットデータベースおよびコンプライアンスデータベースのバックアップ
+description: 常設チャットデータベースおよびコンプライアンスデータベースのバックアップ。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1b498c0f34ebd361f390be732684f3b03f6b93
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: db832872f61ee6f18273433884618372aafbaa85
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504904"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563213"
 ---
-# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="64fa4-102">Lync Server 2013 での常設チャットデータベースおよびコンプライアンスデータベースのバックアップ</span><span class="sxs-lookup"><span data-stu-id="64fa4-102">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
+# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a><span data-ttu-id="6524f-103">Lync Server 2013 での常設チャットデータベースおよびコンプライアンスデータベースのバックアップ</span><span class="sxs-lookup"><span data-stu-id="6524f-103">Backing up the Persistent Chat database and Compliance database in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48504904"
 
 <span> </span>
 
-<span data-ttu-id="64fa4-103">_**トピックの最終更新日:** 2012-08-01_</span><span class="sxs-lookup"><span data-stu-id="64fa4-103">_**Topic Last Modified:** 2012-08-01_</span></span>
+<span data-ttu-id="6524f-104">_**トピックの最終更新日:** 2012-08-01_</span><span class="sxs-lookup"><span data-stu-id="6524f-104">_**Topic Last Modified:** 2012-08-01_</span></span>
 
-<span data-ttu-id="64fa4-104">常設チャットデータベースおよびコンプライアンスデータベースを定期的にバックアップする必要があります。</span><span class="sxs-lookup"><span data-stu-id="64fa4-104">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="64fa4-105">お使いの環境に最適なバックアップ方法については、データベース管理者に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="64fa4-105">Contact the database administrator to determine the best way to do this in your environment.</span></span>
+<span data-ttu-id="6524f-105">常設チャットデータベースおよびコンプライアンスデータベースを定期的にバックアップする必要があります。</span><span class="sxs-lookup"><span data-stu-id="6524f-105">You should regularly back up the Persistent Chat database and the compliance database.</span></span> <span data-ttu-id="6524f-106">お使いの環境に最適なバックアップ方法については、データベース管理者に問い合わせてください。</span><span class="sxs-lookup"><span data-stu-id="6524f-106">Contact the database administrator to determine the best way to do this in your environment.</span></span>
 
 </div>
 

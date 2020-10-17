@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblSiopWhiteList'
+description: 'Lync Server 2013: tblSiopWhiteList。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cac704c6f62903c502ae5a4345ee0848c775d6f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fbb58c0818a6f36959732f210b8eb53bbfe223d0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536214"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48563863"
 ---
-# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="3e6c4-102">Lync Server 2013 の tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="3e6c4-102">tblSiopWhiteList in Lync Server 2013</span></span>
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="bd76b-103">Lync Server 2013 の tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="bd76b-103">tblSiopWhiteList in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48536214"
 
 <span> </span>
 
-<span data-ttu-id="3e6c4-103">_**トピックの最終更新日:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="3e6c4-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="bd76b-104">_**トピックの最終更新日:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="bd76b-104">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="3e6c4-104">tblSiopWhiteList は、ノードと関連付けることができる登録済みアドインの一覧です。</span><span class="sxs-lookup"><span data-stu-id="3e6c4-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
+<span data-ttu-id="bd76b-105">tblSiopWhiteList は、ノードと関連付けることができる登録済みアドインの一覧です。</span><span class="sxs-lookup"><span data-stu-id="bd76b-105">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="3e6c4-105">段組み</span><span class="sxs-lookup"><span data-stu-id="3e6c4-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="bd76b-106">段組み</span><span class="sxs-lookup"><span data-stu-id="bd76b-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,32 +52,32 @@ ms.locfileid: "48536214"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3e6c4-106">Column</span><span class="sxs-lookup"><span data-stu-id="3e6c4-106">Column</span></span></th>
-<th><span data-ttu-id="3e6c4-107">種類</span><span class="sxs-lookup"><span data-stu-id="3e6c4-107">Type</span></span></th>
-<th><span data-ttu-id="3e6c4-108">説明</span><span class="sxs-lookup"><span data-stu-id="3e6c4-108">Description</span></span></th>
+<th><span data-ttu-id="bd76b-107">Column</span><span class="sxs-lookup"><span data-stu-id="bd76b-107">Column</span></span></th>
+<th><span data-ttu-id="bd76b-108">種類</span><span class="sxs-lookup"><span data-stu-id="bd76b-108">Type</span></span></th>
+<th><span data-ttu-id="bd76b-109">説明</span><span class="sxs-lookup"><span data-stu-id="bd76b-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3e6c4-109">Tblsiopwhitelist.siopid</span><span class="sxs-lookup"><span data-stu-id="3e6c4-109">siopID</span></span></p></td>
-<td><p><span data-ttu-id="3e6c4-110">NULL でない GUID</span><span class="sxs-lookup"><span data-stu-id="3e6c4-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="3e6c4-111">アドインの GUID。</span><span class="sxs-lookup"><span data-stu-id="3e6c4-111">GUID of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-110">Tblsiopwhitelist.siopid</span><span class="sxs-lookup"><span data-stu-id="bd76b-110">siopID</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-111">NULL でない GUID</span><span class="sxs-lookup"><span data-stu-id="bd76b-111">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-112">アドインの GUID。</span><span class="sxs-lookup"><span data-stu-id="bd76b-112">GUID of the add-in.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3e6c4-112">siopName</span><span class="sxs-lookup"><span data-stu-id="3e6c4-112">siopName</span></span></p></td>
-<td><p><span data-ttu-id="3e6c4-113">NULL でない nvarchar (50)</span><span class="sxs-lookup"><span data-stu-id="3e6c4-113">nvarchar (50), not null</span></span></p></td>
-<td><p><span data-ttu-id="3e6c4-114">アドインの表示名。</span><span class="sxs-lookup"><span data-stu-id="3e6c4-114">Display-name of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-113">siopName</span><span class="sxs-lookup"><span data-stu-id="bd76b-113">siopName</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-114">NULL でない nvarchar (50)</span><span class="sxs-lookup"><span data-stu-id="bd76b-114">nvarchar (50), not null</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-115">アドインの表示名。</span><span class="sxs-lookup"><span data-stu-id="bd76b-115">Display-name of the add-in.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3e6c4-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="3e6c4-115">siopUrl</span></span></p></td>
-<td><p><span data-ttu-id="3e6c4-116">NULL でない nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="3e6c4-116">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="3e6c4-117">アドインの URL。</span><span class="sxs-lookup"><span data-stu-id="3e6c4-117">URL of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-116">siopUrl</span><span class="sxs-lookup"><span data-stu-id="bd76b-116">siopUrl</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-117">NULL でない nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="bd76b-117">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-118">アドインの URL。</span><span class="sxs-lookup"><span data-stu-id="bd76b-118">URL of the add-in.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="3e6c4-118">キー</span><span class="sxs-lookup"><span data-stu-id="3e6c4-118">Key</span></span>
+### <a name="key"></a><span data-ttu-id="bd76b-119">キー</span><span class="sxs-lookup"><span data-stu-id="bd76b-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -85,14 +86,14 @@ ms.locfileid: "48536214"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3e6c4-119">列</span><span class="sxs-lookup"><span data-stu-id="3e6c4-119">Column</span></span></th>
-<th><span data-ttu-id="3e6c4-120">説明</span><span class="sxs-lookup"><span data-stu-id="3e6c4-120">Description</span></span></th>
+<th><span data-ttu-id="bd76b-120">列</span><span class="sxs-lookup"><span data-stu-id="bd76b-120">Column</span></span></th>
+<th><span data-ttu-id="bd76b-121">説明</span><span class="sxs-lookup"><span data-stu-id="bd76b-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3e6c4-121">Tblsiopwhitelist.siopid</span><span class="sxs-lookup"><span data-stu-id="3e6c4-121">siopID</span></span></p></td>
-<td><p><span data-ttu-id="3e6c4-122">主キー。</span><span class="sxs-lookup"><span data-stu-id="3e6c4-122">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-122">Tblsiopwhitelist.siopid</span><span class="sxs-lookup"><span data-stu-id="bd76b-122">siopID</span></span></p></td>
+<td><p><span data-ttu-id="bd76b-123">主キー。</span><span class="sxs-lookup"><span data-stu-id="bd76b-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

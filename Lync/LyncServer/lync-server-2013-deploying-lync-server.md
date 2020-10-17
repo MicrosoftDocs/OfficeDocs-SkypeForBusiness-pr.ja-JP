@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server の展開'
+description: 'Lync Server 2013: Lync Server の展開。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2ce2e8fd07af35967ade8824e9f6941d3e872bd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 569b1e8b07954f04ee7e4f73de51494ece27157e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499084"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564173"
 ---
-# <a name="deploying-lync-server-2013"></a><span data-ttu-id="fc51c-102">Lync Server 2013 の展開 </span><span class="sxs-lookup"><span data-stu-id="fc51c-102">Deploying Lync Server 2013</span></span>
+# <a name="deploying-lync-server-2013"></a><span data-ttu-id="b3398-103">Lync Server 2013 の展開 </span><span class="sxs-lookup"><span data-stu-id="b3398-103">Deploying Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,31 +38,31 @@ ms.locfileid: "48499084"
 
 <span> </span>
 
-<span data-ttu-id="fc51c-103">_**トピックの最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="fc51c-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="b3398-104">_**トピックの最終更新日:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="b3398-104">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="fc51c-104">Lync Server 2013 の展開プロセスは、インストールする Lync Server のトポロジとコンポーネント (フロントエンドプールまたは Standard Edition サーバーを展開するかどうかなど) によって決まります。</span><span class="sxs-lookup"><span data-stu-id="fc51c-104">Your deployment process for Lync Server 2013 is determined by the Lync Server topology and components you decide to install, including whether you want to deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="fc51c-105">このセクションのトピックは、展開する環境を決定するのに役立ち、展開プロセスについて順を追って説明しています。</span><span class="sxs-lookup"><span data-stu-id="fc51c-105">The topics in this section help you determine what environment you want to deploy and guide you through the deployment process.</span></span>
+<span data-ttu-id="b3398-105">Lync Server 2013 の展開プロセスは、インストールする Lync Server のトポロジとコンポーネント (フロントエンドプールまたは Standard Edition サーバーを展開するかどうかなど) によって決まります。</span><span class="sxs-lookup"><span data-stu-id="b3398-105">Your deployment process for Lync Server 2013 is determined by the Lync Server topology and components you decide to install, including whether you want to deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="b3398-106">このセクションのトピックは、展開する環境を決定するのに役立ち、展開プロセスについて順を追って説明しています。</span><span class="sxs-lookup"><span data-stu-id="b3398-106">The topics in this section help you determine what environment you want to deploy and guide you through the deployment process.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="fc51c-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="fc51c-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b3398-107">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="b3398-107">In This Section</span></span>
 
-  - [<span data-ttu-id="fc51c-107">Lync Server 2013 の展開の概要</span><span class="sxs-lookup"><span data-stu-id="fc51c-107">Deployment overview for Lync Server 2013</span></span>](lync-server-2013-deployment-overview.md)
+  - [<span data-ttu-id="b3398-108">Lync Server 2013 の展開の概要</span><span class="sxs-lookup"><span data-stu-id="b3398-108">Deployment overview for Lync Server 2013</span></span>](lync-server-2013-deployment-overview.md)
 
-  - [<span data-ttu-id="fc51c-108">Lync Server 2013 のシステム要件</span><span class="sxs-lookup"><span data-stu-id="fc51c-108">System requirements for Lync Server 2013</span></span>](lync-server-2013-system-requirements.md)
+  - [<span data-ttu-id="b3398-109">Lync Server 2013 のシステム要件</span><span class="sxs-lookup"><span data-stu-id="b3398-109">System requirements for Lync Server 2013</span></span>](lync-server-2013-system-requirements.md)
 
-  - [<span data-ttu-id="fc51c-109">Lync Server 2013 のインフラストラクチャとシステムの準備</span><span class="sxs-lookup"><span data-stu-id="fc51c-109">Preparing the infrastructure and systems for Lync Server 2013</span></span>](lync-server-2013-preparing-the-infrastructure-and-systems.md)
+  - [<span data-ttu-id="b3398-110">Lync Server 2013 のインフラストラクチャとシステムの準備</span><span class="sxs-lookup"><span data-stu-id="b3398-110">Preparing the infrastructure and systems for Lync Server 2013</span></span>](lync-server-2013-preparing-the-infrastructure-and-systems.md)
 
-  - [<span data-ttu-id="fc51c-110">Lync Server 2013 でのトポロジの定義と構成</span><span class="sxs-lookup"><span data-stu-id="fc51c-110">Defining and configuring the topology in Lync Server 2013</span></span>](lync-server-2013-defining-and-configuring-the-topology.md)
+  - [<span data-ttu-id="b3398-111">Lync Server 2013 でのトポロジの定義と構成</span><span class="sxs-lookup"><span data-stu-id="b3398-111">Defining and configuring the topology in Lync Server 2013</span></span>](lync-server-2013-defining-and-configuring-the-topology.md)
 
-  - [<span data-ttu-id="fc51c-111">Lync Server 2013 でのトポロジ設計の最終処理および実装</span><span class="sxs-lookup"><span data-stu-id="fc51c-111">Finalizing and implementing the topology design in Lync Server 2013</span></span>](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
+  - [<span data-ttu-id="b3398-112">Lync Server 2013 でのトポロジ設計の最終処理および実装</span><span class="sxs-lookup"><span data-stu-id="b3398-112">Finalizing and implementing the topology design in Lync Server 2013</span></span>](lync-server-2013-finalizing-and-implementing-the-topology-design.md)
 
-  - [<span data-ttu-id="fc51c-112">Lync Server 2013 のフロントエンドサーバーおよびフロントエンドプールの設定</span><span class="sxs-lookup"><span data-stu-id="fc51c-112">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
+  - [<span data-ttu-id="b3398-113">Lync Server 2013 のフロントエンドサーバーおよびフロントエンドプールの設定</span><span class="sxs-lookup"><span data-stu-id="b3398-113">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)
 
-  - [<span data-ttu-id="fc51c-113">既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開</span><span class="sxs-lookup"><span data-stu-id="fc51c-113">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
+  - [<span data-ttu-id="b3398-114">既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開</span><span class="sxs-lookup"><span data-stu-id="b3398-114">Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise</span></span>](lync-server-2013-deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise.md)
 
-  - [<span data-ttu-id="fc51c-114">Lync Server 2013 でのサーバーの役割の追加</span><span class="sxs-lookup"><span data-stu-id="fc51c-114">Adding server roles in Lync Server 2013</span></span>](lync-server-2013-adding-server-roles.md)
+  - [<span data-ttu-id="b3398-115">Lync Server 2013 でのサーバーの役割の追加</span><span class="sxs-lookup"><span data-stu-id="b3398-115">Adding server roles in Lync Server 2013</span></span>](lync-server-2013-adding-server-roles.md)
 
-  - [<span data-ttu-id="fc51c-115">Lync Server 2013 での Kerberos 認証のセットアップ</span><span class="sxs-lookup"><span data-stu-id="fc51c-115">Setting up Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-setting-up-kerberos-authentication.md)
+  - [<span data-ttu-id="b3398-116">Lync Server 2013 での Kerberos 認証のセットアップ</span><span class="sxs-lookup"><span data-stu-id="b3398-116">Setting up Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-setting-up-kerberos-authentication.md)
 
 </div>
 

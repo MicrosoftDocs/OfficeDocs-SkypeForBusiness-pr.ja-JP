@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: フロントエンドプールのペアリングの計画'
+description: 'Lync Server 2013: フロントエンドプールのペアリングの計画。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 484a19b890602ea338f5e98a126a13582ce7e931
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ac235cf682e286132836e13b34b457adf2bfc233
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522194"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562793"
 ---
-# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a><span data-ttu-id="4915a-102">Lync Server 2013 でのフロントエンドプールのペアリングの計画</span><span class="sxs-lookup"><span data-stu-id="4915a-102">Planning for Front End pool pairing in Lync Server 2013</span></span>
+# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a><span data-ttu-id="3f662-103">Lync Server 2013 でのフロントエンドプールのペアリングの計画</span><span class="sxs-lookup"><span data-stu-id="3f662-103">Planning for Front End pool pairing in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,25 +38,25 @@ ms.locfileid: "48522194"
 
 <span> </span>
 
-<span data-ttu-id="4915a-103">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="4915a-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="3f662-104">_**トピックの最終更新日:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="3f662-104">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="4915a-104">Lync Server 2013 で最高の障害復旧機能を使用するには、2つの地理的に分散したサイト間でフロントエンドプールのペアを展開します。</span><span class="sxs-lookup"><span data-stu-id="4915a-104">For the best disaster recovery abilities in Lync Server 2013, deploy pairs of Front End pools across two geographically dispersed sites.</span></span> <span data-ttu-id="4915a-105">各サイトのフロントエンド プールは、他のサイトの対応するフロントエンド プールとペアになっています。</span><span class="sxs-lookup"><span data-stu-id="4915a-105">Each site contains a Front End pool which is paired with a corresponding Front End pool in the other site.</span></span> <span data-ttu-id="4915a-106">両方のサイトがアクティブであり、Lync Server バックアップサービスは、プールの同期を維持するためのリアルタイムデータレプリケーションを提供します。</span><span class="sxs-lookup"><span data-stu-id="4915a-106">Both sites are active, and the Lync Server Backup Service provides real-time data replication to keep the pools synchronized.</span></span> <span data-ttu-id="4915a-107">バックアップサービスは、Lync Server 2013 の新機能で、障害復旧ソリューションをサポートするように設計されています。</span><span class="sxs-lookup"><span data-stu-id="4915a-107">The Backup Service is a new feature in Lync Server 2013, designed to support the disaster recovery solution.</span></span> <span data-ttu-id="4915a-108">プールを別のフロントエンド プールとペアにすると、バックアップ サービスがフロントエンド プールにインストールされます</span><span class="sxs-lookup"><span data-stu-id="4915a-108">It is installed on a Front End pool when you pair the pool with another Front End pool.</span></span>
+<span data-ttu-id="3f662-105">Lync Server 2013 で最高の障害復旧機能を使用するには、2つの地理的に分散したサイト間でフロントエンドプールのペアを展開します。</span><span class="sxs-lookup"><span data-stu-id="3f662-105">For the best disaster recovery abilities in Lync Server 2013, deploy pairs of Front End pools across two geographically dispersed sites.</span></span> <span data-ttu-id="3f662-106">各サイトのフロントエンド プールは、他のサイトの対応するフロントエンド プールとペアになっています。</span><span class="sxs-lookup"><span data-stu-id="3f662-106">Each site contains a Front End pool which is paired with a corresponding Front End pool in the other site.</span></span> <span data-ttu-id="3f662-107">両方のサイトがアクティブであり、Lync Server バックアップサービスは、プールの同期を維持するためのリアルタイムデータレプリケーションを提供します。</span><span class="sxs-lookup"><span data-stu-id="3f662-107">Both sites are active, and the Lync Server Backup Service provides real-time data replication to keep the pools synchronized.</span></span> <span data-ttu-id="3f662-108">バックアップサービスは、Lync Server 2013 の新機能で、障害復旧ソリューションをサポートするように設計されています。</span><span class="sxs-lookup"><span data-stu-id="3f662-108">The Backup Service is a new feature in Lync Server 2013, designed to support the disaster recovery solution.</span></span> <span data-ttu-id="3f662-109">プールを別のフロントエンド プールとペアにすると、バックアップ サービスがフロントエンド プールにインストールされます</span><span class="sxs-lookup"><span data-stu-id="3f662-109">It is installed on a Front End pool when you pair the pool with another Front End pool.</span></span>
 
-<span data-ttu-id="4915a-p102">一方のサイトのプールで障害が発生した場合は、そのプールから他のサイトのプールにユーザーをフェールオーバーでき、それ以降はそのサイトが両方のプールのすべてのユーザーに対応します。容量計画では、障害発生時に両方のプールの全ユーザーのワークロードを処理するように各プールを設計する必要があります。</span><span class="sxs-lookup"><span data-stu-id="4915a-p102">If the pool in one site fails, you can fail over the users from that pool to the pool in the other site, which then provides services to all the users in both pools. For capacity planning purposes, each pool should be designed to handle the workloads of all users in both pools in the event of a disaster.</span></span>
+<span data-ttu-id="3f662-p102">一方のサイトのプールで障害が発生した場合は、そのプールから他のサイトのプールにユーザーをフェールオーバーでき、それ以降はそのサイトが両方のプールのすべてのユーザーに対応します。容量計画では、障害発生時に両方のプールの全ユーザーのワークロードを処理するように各プールを設計する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3f662-p102">If the pool in one site fails, you can fail over the users from that pool to the pool in the other site, which then provides services to all the users in both pools. For capacity planning purposes, each pool should be designed to handle the workloads of all users in both pools in the event of a disaster.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4915a-111">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="4915a-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3f662-112">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="3f662-112">In This Section</span></span>
 
-  - [<span data-ttu-id="4915a-112">Lync Server 2013 でサポートされているプールのペアのオプションとベストプラクティス</span><span class="sxs-lookup"><span data-stu-id="4915a-112">Supported pool pairing options and best practices for Lync Server 2013</span></span>](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+  - [<span data-ttu-id="3f662-113">Lync Server 2013 でサポートされているプールのペアのオプションとベストプラクティス</span><span class="sxs-lookup"><span data-stu-id="3f662-113">Supported pool pairing options and best practices for Lync Server 2013</span></span>](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
-  - [<span data-ttu-id="4915a-113">Lync Server 2013 のバックアップレジストラーの関係</span><span class="sxs-lookup"><span data-stu-id="4915a-113">Backup Registrar relationships in Lync Server 2013</span></span>](lync-server-2013-backup-registrar-relationships.md)
+  - [<span data-ttu-id="3f662-114">Lync Server 2013 のバックアップレジストラーの関係</span><span class="sxs-lookup"><span data-stu-id="3f662-114">Backup Registrar relationships in Lync Server 2013</span></span>](lync-server-2013-backup-registrar-relationships.md)
 
-  - [<span data-ttu-id="4915a-114">Lync Server 2013 でのプールのフェールオーバーおよびプールのフェールバックの復旧時間</span><span class="sxs-lookup"><span data-stu-id="4915a-114">Recovery time for pool failover and pool failback in Lync Server 2013</span></span>](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
+  - [<span data-ttu-id="3f662-115">Lync Server 2013 でのプールのフェールオーバーおよびプールのフェールバックの復旧時間</span><span class="sxs-lookup"><span data-stu-id="3f662-115">Recovery time for pool failover and pool failback in Lync Server 2013</span></span>](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
 
-  - [<span data-ttu-id="4915a-115">Lync Server 2013 での中央管理ストアのフェールオーバー</span><span class="sxs-lookup"><span data-stu-id="4915a-115">Central Management store failover in Lync Server 2013</span></span>](lync-server-2013-central-management-store-failover.md)
+  - [<span data-ttu-id="3f662-116">Lync Server 2013 での中央管理ストアのフェールオーバー</span><span class="sxs-lookup"><span data-stu-id="3f662-116">Central Management store failover in Lync Server 2013</span></span>](lync-server-2013-central-management-store-failover.md)
 
-  - [<span data-ttu-id="4915a-116">Lync Server 2013 でのフロントエンドプールのペアリングデータのセキュリティ</span><span class="sxs-lookup"><span data-stu-id="4915a-116">Front End pool pairing data security in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-pairing-data-security.md)
+  - [<span data-ttu-id="3f662-117">Lync Server 2013 でのフロントエンドプールのペアリングデータのセキュリティ</span><span class="sxs-lookup"><span data-stu-id="3f662-117">Front End pool pairing data security in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-pairing-data-security.md)
 
 </div>
 
