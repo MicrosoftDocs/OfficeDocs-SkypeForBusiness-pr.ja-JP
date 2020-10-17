@@ -12,20 +12,22 @@ ms:contentKeyID: 48183694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abfe8c9848e5e015a22bcc7975c6bbdaf1c7465e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 77366884d83d29c39c1f19fc710030ea8457dd7f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192940"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535014"
 ---
+# <a name="configuring-port-ranges-for-your-microsoft-lync-clients-in-lync-server-2013"></a>Lync Server 2013 での Microsoft Lync クライアントのポート範囲の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-for-your-microsoft-lync-clients-in-lync-server-2013"></a>Lync Server 2013 での Microsoft Lync クライアントのポート範囲の構成
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42192940"
 
 _**トピックの最終更新日:** 2014-04-22_
 
-既定では、Lync クライアントアプリケーションは、通信セッションに参加するときにポート1024と65535の間の任意のポートを使用できます。これは、特定のポート範囲がクライアントに対して自動的に有効にならないためです。 ただし、サービスの品質を使用するためには、さまざまな種類のトラフィック (オーディオ、ビデオ、メディア、アプリケーション共有、およびファイル転送) を一連の固有のポート範囲に再割り当てする必要があります。 これは、Get-csconferencingconfiguration コマンドレットを使用して行うことができます。
+既定では、Lync クライアントアプリケーションは、通信セッションに参加するときにポート1024と65535の間の任意のポートを使用できます。これは、特定のポート範囲がクライアントに対して自動的に有効にならないためです。 ただし、サービスの品質を使用するためには、さまざまな種類のトラフィック (オーディオ、ビデオ、メディア、アプリケーション共有、およびファイル転送) を一連の固有のポート範囲に再割り当てする必要があります。 これは Set-CsConferencingConfiguration コマンドレットを使用して行うことができます。
 
 <div>
 
 
 > [!NOTE]  
-> エンドユーザーは、これらの変更を行うことはできません。 ポートの変更は、管理者のみが Get-csconferencingconfiguration コマンドレットを使用して行うことができます。
+> エンドユーザーは、これらの変更を行うことはできません。 ポートの変更は、Set-CsConferencingConfiguration コマンドレットを使用して管理者のみが行うことができます。
 
 
 

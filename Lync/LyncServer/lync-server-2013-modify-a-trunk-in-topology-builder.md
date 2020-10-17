@@ -12,20 +12,22 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 936de680a13a3f9ec851181876ce7a80c1784e52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 001a94927d6160d138d344bf1a8fffcf519b58b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534394"
 ---
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Lync Server 2013 のトポロジビルダーでのトランクの変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Lync Server 2013 のトポロジビルダーでのトランクの変更
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  Set-CsPstnGateway コマンドレットを実行し、Lync Server 管理シェルの Nm-server-w15-mgmtshell-short で alternatebypassid フィールドを変更します。
+2.  Set-CsPstnGateway コマンドレットを実行し、Lync Server 管理シェルで Nm-server-w15-mgmtshell-short で alternatebypassid フィールドを変更します。
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
@@ -57,7 +59,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  Set-CsPstnGateway コマンドレットを実行し、Lync Server 管理シェルの Nm-server-w15-mgmtshell-short で alternatebypassid フィールドを変更します。
+2.  Set-CsPstnGateway コマンドレットを実行し、Lync Server 管理シェルで Nm-server-w15-mgmtshell-short で alternatebypassid フィールドを変更します。
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56d34483e4fc01579e2ca6a94ac8059a8c816344
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 710119091a5ed6254f18f7b40a4549ab9d09c776
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181940"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533984"
 ---
+# <a name="signing-in-and-using-lync-2013-on-the-virtual-machine"></a>仮想マシンでの Lync 2013 のサインインと使用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="signing-in-and-using-lync-2013-on-the-virtual-machine"></a>仮想マシンでの Lync 2013 のサインインと使用
+
 
 </div>
 
@@ -41,7 +43,7 @@ VDI プラグインを有効にした後、ユーザーが Lync 2013 にサイ�
 
 1.  ユーザーは、仮想マシン上で実行されている Lync 2013 クライアントに自分の資格情報を入力します。
 
-2.  Lync は、VDI プラグインの可用性を検出した後、ユーザーに資格情報を再入力するように求めるメッセージを表示します。 このダイアログボックスでは、[**パスワードを保存**する] チェックボックスをオンにすることをお勧めします。これにより、ユーザーは、以降のサインイン時に資格情報を入力する必要がなくなります。
+2.  Lync は、VDI プラグインの可用性を検出した後、ユーザーに資格情報を再入力するように求めるメッセージを表示します。 このダイアログボックスでは、[ **パスワードを保存** する] チェックボックスをオンにすることをお勧めします。これにより、ユーザーは、以降のサインイン時に資格情報を入力する必要がなくなります。
 
 3.  Lync は、VDI プラグインとのペアリングを開始します。 ペアリングが完了する前に、クライアントは Lync ステータスバーに2つのアイコンを表示します。 次に示す左下のアイコンは利用可能なオーディオ デバイスがないことを示し、右下の点滅するアイコンは VDI ペアリングが進行中であることを示します。
     

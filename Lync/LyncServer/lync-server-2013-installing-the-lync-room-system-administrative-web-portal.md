@@ -12,20 +12,22 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b475911da0e0508fecb53de533f75e9feb10155
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54b772311865a36ba17699fc876c32c5504214e5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187610"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534904"
 ---
+# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Lync Server 2013 での Lync Room System 管理 Web ポータルのインストール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Lync Server 2013 での Lync Room System 管理 Web ポータルのインストール
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187610"
 
 _**トピックの最終更新日:** 2015-04-09_
 
-Microsoft Lync Room System 管理 Web ポータルは、Microsoft ダウンロードセンターからダウンロードでき[https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044)ます。
+Microsoft Lync Room System 管理 Web ポータルは、Microsoft ダウンロードセンターからダウンロードでき [https://go.microsoft.com/fwlink/p/?LinkId=324044](https://go.microsoft.com/fwlink/p/?linkid=324044) ます。
 
 Lync Room System 管理 Web ポータルをインストールするには、次の手順を実行します。
 
@@ -45,21 +47,21 @@ Lync Room System 管理 Web ポータルをインストールするには、次�
     
         Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
 
-2.  会議室ポータルをインストールするには、 **LyncRoomAdminPortal**をダウンロードして、管理者として実行します。
+2.  会議室ポータルをインストールするには、 **LyncRoomAdminPortal.exe** をダウンロードして、管理者として実行します。
 
 3.  Web.config ファイルを次の場所から開きます。
     
-    % Program Files%\\Microsoft Lync Server 2013\\Web コンポーネント\\ミーティングルームポータル\\の\\Int ハンドラー\\
+    % Program Files% \\ Microsoft Lync Server 2013 \\ Web コンポーネント \\ ミーティングルームポータルの \\ Int \\ ハンドラー\\
 
-4.  Web.config ファイルで、「Lync Room System 管理ポータルの前提条件の構成」のセクションの「手順2で作成したユーザー名に PortalUserName を変更します (この手順で推奨される名前は LRSApp です)。
+4.  Web.Config ファイルで、「Lync Room System 管理ポータルの前提条件の構成」のセクションの「手順2で作成したユーザー名に PortalUserName を変更します (この手順で推奨される名前は LRSApp です)。
     
         <add key="PortalUserName" value="sip:LRSApp@domain.com" />
 
-5.  LRS 管理ポータルは信頼されたアプリケーションであるため、ポータル構成でパスワードを指定する必要はありません。 このユーザーがローカルレジストラーとは別のレジストラーを使用している場合は、Web.config ファイルに次の行を追加して、レジストラーを指定する必要があります。
+5.  LRS 管理ポータルは信頼されたアプリケーションであるため、ポータル構成でパスワードを指定する必要はありません。 このユーザーがローカルレジストラーとは別のレジストラーを使用している場合は、Web.Config ファイルに次の行を追加して、レジストラーを指定する必要があります。
     
         <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
 
-6.  使用しているポートが5061以外の場合は、web.config ファイルに次の行を追加します。
+6.  使用しているポートが5061以外の場合は、Web.Config ファイルに次の行を追加します。
     
         <add key="PortalUserRegistrarPort" value="5061" />
 
@@ -72,7 +74,7 @@ Lync Room System 管理 Web ポータルのインストールを確認するに�
 
 1.  フロントエンドサーバーで、次の URL を参照します。
     
-    https://\<fe-サーバー\>/lrs
+    https:// \<fe-server\> /lrs
     
     次の図に示すように、エラーは表示されません。
     
@@ -80,9 +82,9 @@ Lync Room System 管理 Web ポータルのインストールを確認するに�
 
 2.  エラーが表示されない場合は、トポロジ内の他のコンピュータから次の URL にアクセスしてみてください。
     
-    https://\<fe-サーバー\>/lrs
+    https:// \<fe-server\> /lrs
     
-    ページにアクセスするには、「」の「自動クライアントサインインに必要な DNS レコード」で説明されているように[https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056)、dns レコードを追加する必要があります。
+    ページにアクセスするには、「」の「自動クライアントサインインに必要な DNS レコード」で説明されているように、DNS レコードを追加する必要があり [https://go.microsoft.com/fwlink/p/?LinkId=318056](https://go.microsoft.com/fwlink/p/?linkid=318056) ます。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48679555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31aa51647fa19a11cb4944829c2ab5e8eb10f2e7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c62e5b03057f09d7489a413456e432e8e08799b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185980"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534554"
 ---
+# <a name="manage-access-edge-configuration-for-your-organization-in-lync-server-2013"></a>Lync Server 2013 での組織のアクセスエッジ構成の管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-access-edge-configuration-for-your-organization-in-lync-server-2013"></a>Lync Server 2013 での組織のアクセスエッジ構成の管理
+
 
 </div>
 
@@ -43,17 +45,17 @@ _**トピックの最終更新日:** 2012-11-01_
 
 こうしたオプションには、[**アクセス エッジ構成**] ページで構成できる次の種類のアクセスが含まれます。
 
-  - **[フェデレーションとパブリック IM 接続**   を有効にする] フェデレーションパートナードメインへのユーザーアクセスをサポートする場合は、これを有効にします。 この設定は、[**外部アクセスポリシー** ] ページのグローバル、サイト、またはユーザースコープに対して構成されている SIP フェデレーションと xmpp フェデレーションの両方に適用されます。 フェデレーション設定を適用するには、両方のページでフェデレーションのサポートを構成する必要があります。
+  - **フェデレーションとパブリック IM 接続**     を有効にするフェデレーションパートナードメインへのユーザーアクセスをサポートする場合は、これを有効にします。 この設定は、[ **外部アクセスポリシー** ] ページのグローバル、サイト、またはユーザースコープに対して構成されている SIP フェデレーションと xmpp フェデレーションの両方に適用されます。 フェデレーション設定を適用するには、両方のページでフェデレーションのサポートを構成する必要があります。
     
     フェデレーション パートナーの検出方法に関する省略可能な設定と、(部門でアーカイブが有効になっていること、また通信の詳細情報がアーカイブされることを、通信するフェデレーション連絡先に通知する) アーカイブについての免責事項を連絡先に送信するかどうかという 2 つのオプションが存在します。
     
-      - **[パートナードメインの検出**   を有効にする] このオプションを選択すると、フェデレーションを行うことができるドメインの自動検出が有効になります。 Lync Server 2013 は、ドメインネームシステム (DNS) レコードを使用して、許可されたドメインリストに含まれていないドメインの検出を試み、検出されたフェデレーションパートナーからの受信トラフィックを自動的に評価し、信頼レベルに基づいてそのトラフィックを制限またはブロックします。トラフィックの量、および管理者の設定。 このオプションを無効にすると、フェデレーション ユーザーは、許可済みのドメイン一覧に含めたドメインのユーザーにしか、アクセスできません。 このオプションの有効、無効にかかわらず、フェデレーション ドメイン内のアクセス エッジ サービスを実行する特定のサーバーへのアクセスを制限するなど、個々のドメインを禁止するか許可するかを指定できます。 詳細については、「 [Lync Server 2013 で許可されている外部ドメインのサポートを構成する](lync-server-2013-configure-support-for-allowed-external-domains.md)」を参照してください。
+      - **パートナードメインの検出**     を有効にするこのオプションを選択すると、フェデレーションを行うことができるドメインの自動検出が有効になります。 Lync Server 2013 は、ドメインネームシステム (DNS) レコードを使用して、許可されたドメインリストに含まれていないドメインの検出を試み、検出されたフェデレーションパートナーからの受信トラフィックを自動的に評価し、信頼レベル、トラフィックの量、および管理設定に基づいてトラフィックを制限またはブロックします。 このオプションを無効にすると、フェデレーション ユーザーは、許可済みのドメイン一覧に含めたドメインのユーザーにしか、アクセスできません。 このオプションの有効、無効にかかわらず、フェデレーション ドメイン内のアクセス エッジ サービスを実行する特定のサーバーへのアクセスを制限するなど、個々のドメインを禁止するか許可するかを指定できます。 詳細については、「 [Lync Server 2013 で許可されている外部ドメインのサポートを構成する](lync-server-2013-configure-support-for-allowed-external-domains.md)」を参照してください。
     
-      - **[アーカイブの免責事項をフェデレーションパートナー**   に送信する] このオプションを選択すると、通信の詳細が記録されることを示す、フェデレーションパートナーへのアーカイブ免責事項メッセージの送信が有効になります。 フェデレーションパートナードメインとの外部通信をアーカイブする場合は、アーカイブについての免責事項の通知を有効にして、展開によってメッセージと通信の詳細がアーカイブされていることをパートナーに警告する必要があります。 アーカイブの詳細については、「 [Lync Server 2013 でのアーカイブの要件の定義](lync-server-2013-defining-your-requirements-for-archiving.md)」を参照してください。
+      - **フェデレーションパートナー**     へのアーカイブ免責事項の送信このオプションを選択すると、アーカイブ免責事項メッセージをフェデレーションパートナーに送信して、通信の詳細が記録されることを通知できます。 フェデレーションパートナードメインとの外部通信をアーカイブする場合は、アーカイブについての免責事項の通知を有効にして、展開によってメッセージと通信の詳細がアーカイブされていることをパートナーに警告する必要があります。 アーカイブの詳細については、「 [Lync Server 2013 でのアーカイブの要件の定義](lync-server-2013-defining-your-requirements-for-archiving.md)」を参照してください。
 
-  - **[リモートユーザーアクセス**   を有効にする] このオプションを有効にすると、出張中の在宅勤務やユーザーなど、ファイアウォールの外側にいる組織内のユーザーが Lync Server に接続できるようになります。 詳細については、「 [Lync Server 2013 でリモートユーザーアクセスを有効または無効](lync-server-2013-enable-or-disable-remote-user-access.md)にする」を参照してください。
+  - **リモートユーザーアクセス**     を有効にするこのオプションを有効にするのは、ユーザーがファイアウォールの外側にいて、在宅中のユーザーが Lync Server に接続できるようにする場合です。 詳細については、「 [Lync Server 2013 でリモートユーザーアクセスを有効または無効](lync-server-2013-enable-or-disable-remote-user-access.md)にする」を参照してください。
 
-  - **[匿名ユーザー**   による会議へのアクセスを有効にする] 内部ユーザーが、自分が開催する会議に外部の匿名ユーザーを招待するようにする場合は、このオプションを有効にします。 この設定を有効にすると、匿名ユーザーのみが会議に対して許可します。 会議の機能と、ユーザーが会議に対して行うことができることと、匿名ユーザーの追加を行うためのオプションを構成するには、「[サイトまたはユーザーのための会議ユーザーの操作を作成または変更](https://technet.microsoft.com/library/gg429715\(v=ocs.15\))する」および「 [Lync Server 2013 の会議ポリシー設定リファレンス](lync-server-2013-conferencing-policy-settings-reference.md)」を参照してください。
+  - **匿名ユーザーが会議にアクセスできるように**     する内部ユーザーが外部の匿名ユーザーを開催する会議に招待するようにする場合は、このオプションを有効にします。 この設定を有効にすると、匿名ユーザーのみが会議に対して許可します。 会議の機能と、ユーザーが会議に対して行うことができることと、匿名ユーザーの追加を行うためのオプションを構成するには、「 [サイトまたはユーザーのための会議ユーザーの操作を作成または変更](https://technet.microsoft.com/library/gg429715\(v=ocs.15\)) する」および「 [Lync Server 2013 の会議ポリシー設定リファレンス](lync-server-2013-conferencing-policy-settings-reference.md)」を参照してください。
 
 <div>
 
@@ -67,7 +69,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 **Windows PowerShell コマンドレットを使用してアクセスエッジ構成情報を表示する**
 
-  - アクセスエッジ構成情報は、Windows PowerShell と**set-csaccessedgeconfiguration**コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+  - アクセスエッジ構成情報は、Windows PowerShell と **set-csaccessedgeconfiguration** コマンドレットを使用して表示できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
     
     アクセスエッジのすべての構成設定に関する情報を表示するには、Lync Server 管理シェルで次のコマンドを入力し、ENTER キーを押します。
     

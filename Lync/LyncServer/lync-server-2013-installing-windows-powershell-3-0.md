@@ -12,20 +12,22 @@ ms:contentKeyID: 48185621
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a799ba54fe7677ed2ccfa8051f295b2b775cdc0e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18de45679983221d80171dde8dd37397a8b3a965
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534784"
 ---
+# <a name="installing-windows-powershell-30-for-lync-server-2013"></a>Lync Server 2013 用の Windows PowerShell 3.0 のインストール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-windows-powershell-30-for-lync-server-2013"></a>Lync Server 2013 用の Windows PowerShell 3.0 のインストール
+
 
 </div>
 
@@ -53,7 +55,7 @@ Windows Server 2012 または Windows Server 2012 R2 を実行しているシス
 
 インストールが完了した後、または Lync Server の展開を続行する前に確認しておく必要がある場合は、次のような場合には、PowerShell 3.0 がサーバーにあることを確認してください。
 
-1.  確認するサーバーで、[**スタート**]、[すべての**プログラム**]、[**アクセサリ**]、[ **windows powershell**]、[ **windows powershell**] の順にクリックします。
+1.  確認するサーバーで、[ **スタート**]、[すべての **プログラム**]、[ **アクセサリ**]、[ **windows powershell**]、[ **windows powershell**] の順にクリックします。
 
 2.  Windows PowerShell コンソールで、コマンドプロンプトに次のコマンドを入力し、enter キーを押します。
     

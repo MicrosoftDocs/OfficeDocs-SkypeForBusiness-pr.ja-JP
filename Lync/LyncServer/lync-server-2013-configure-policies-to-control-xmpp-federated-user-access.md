@@ -12,20 +12,22 @@ ms:contentKeyID: 48679557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31889fa60f86d269e5efab696c2c27e48cc55d59
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b7cc0eec0dc1371e27834dda69b25a32b9346ab5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535224"
 ---
+# <a name="configure-policies-to-control-xmpp-federated-user-access-in-lync-server-2013"></a>Lync Server 2013 での XMPP フェデレーションユーザーアクセスを制御するポリシーの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-xmpp-federated-user-access-in-lync-server-2013"></a>Lync Server 2013 での XMPP フェデレーションユーザーアクセスを制御するポリシーの構成
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**トピックの最終更新日:** 2012-11-01_
 
 このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
 
-XMPP (eXtensible Messaging and Presence Protocol) フェデレーション パートナーをサポートするポリシーを構成すると、そのポリシーは XMPP フェデレーション ドメインのユーザーには適用されますが、SIP (セッション開始プロトコル) インスタント メッセージング (IM) サービス プロバイダー (Windows Live など) のユーザーや、SIP フェデレーション ドメインのユーザーには適用されません。 ユーザーが連絡先を追加して通信できるようにする XMPP フェデレーションドメインごとに**Xmpp フェデレーションパートナー**を構成します。 XMPP フェデレーションパートナーポリシーは単一のスコープでのみ使用できますが、グローバルポリシーとして定義されていませんが、グローバルポリシーとして機能します。 XMPP フェデレーションパートナーのグローバル、サイト、またはユーザーポリシーを定義するには、まず、必要なスコープの外部アクセスポリシーを作成して構成することによって、ポリシースコープを構成します。 外部アクセスおよびフェデレーションに対して構成できるポリシーの種類の詳細については、「操作」のドキュメントの「[管理フェデレーション」および「Lync Server 2013 への外部アクセス」を](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)参照してください。
+XMPP (eXtensible Messaging and Presence Protocol) フェデレーション パートナーをサポートするポリシーを構成すると、そのポリシーは XMPP フェデレーション ドメインのユーザーには適用されますが、SIP (セッション開始プロトコル) インスタント メッセージング (IM) サービス プロバイダー (Windows Live など) のユーザーや、SIP フェデレーション ドメインのユーザーには適用されません。 ユーザーが連絡先を追加して通信できるようにする XMPP フェデレーションドメインごとに **Xmpp フェデレーションパートナー** を構成します。 XMPP フェデレーションパートナーポリシーは単一のスコープでのみ使用できますが、グローバルポリシーとして定義されていませんが、グローバルポリシーとして機能します。 XMPP フェデレーションパートナーのグローバル、サイト、またはユーザーポリシーを定義するには、まず、必要なスコープの外部アクセスポリシーを作成して構成することによって、ポリシースコープを構成します。 外部アクセスおよびフェデレーションに対して構成できるポリシーの種類の詳細については、「操作」のドキュメントの「 [管理フェデレーション」および「Lync Server 2013 への外部アクセス」を](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) 参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> <STRONG>フェデレーションおよび外部アクセス</STRONG> ポリシーは、インバンド プロビジョニングを通じて適用されます。 ユーザーに適用されるポリシー、サイトに所属するポリシー、またはスコープ内のグローバル ポリシーは、ログイン時にクライアントとの間でやり取りされます。 組織で XMPP フェデレーションを有効にしていない場合でも、XMPP フェデレーション パートナーのアクセスを制御するポリシーを構成できます。 ただし、これらのポリシーが有効になるのは、組織に XMPP パートナー フェデレーションが展開、有効化、および構成されている場合に限られます。 XMPP パートナーフェデレーションの展開と構成の詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Lync Server 2013 での SIP フェデレーション、XMPP フェデレーションおよびパブリックインスタントメッセージングの構成</A>」を参照してください。 また、外部アクセスポリシーで XMPP フェデレーションパートナーを制御するユーザーポリシーを指定した場合、このポリシーは Lync Server 2013 が有効になっていて、そのポリシーを使用するように構成されているユーザーにのみ適用されます。
+> <STRONG>フェデレーションおよび外部アクセス</STRONG> ポリシーは、インバンド プロビジョニングを通じて適用されます。 ユーザーに適用されるポリシー、サイトに所属するポリシー、またはスコープ内のグローバル ポリシーは、ログイン時にクライアントとの間でやり取りされます。 組織で XMPP フェデレーションを有効にしていない場合でも、XMPP フェデレーション パートナーのアクセスを制御するポリシーを構成できます。 ただし、これらのポリシーが有効になるのは、組織に XMPP パートナー フェデレーションが展開、有効化、および構成されている場合に限られます。 XMPP パートナーフェデレーションの展開と構成の詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Lync Server 2013 での SIP フェデレーション、XMPP フェデレーションおよびパブリックインスタントメッセージングの構成</A> 」を参照してください。 また、外部アクセスポリシーで XMPP フェデレーションパートナーを制御するユーザーポリシーを指定した場合、このポリシーは Lync Server 2013 が有効になっていて、そのポリシーを使用するように構成されているユーザーにのみ適用されます。
 
 
 
@@ -69,7 +71,7 @@ XMPP (eXtensible Messaging and Presence Protocol) フェデレーション パ�
 
 7.  [**フェデレーション ユーザーとの通信を有効にする**] を選択します。
 
-8.  [**XMPP フェデレーション ユーザーとの通信を有効にする**] を選択します。
+8.  [**XMPP フェデレーション ユーザーとの通信を有効にする**] をオンにします。
 
 9.  [**コミット**] をクリックして、グローバル ポリシーに加えた変更を保存します。
 

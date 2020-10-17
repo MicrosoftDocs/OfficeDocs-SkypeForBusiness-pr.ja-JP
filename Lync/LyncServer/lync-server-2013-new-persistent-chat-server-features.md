@@ -12,20 +12,22 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6203e6a7ee99f4b080fa93976a2a937e62fe9d3c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: dd9288fea9105be27428ac94d992de6e147f4900
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221561"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534184"
 ---
+# <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Lync Server 2013 の新しい常設チャットサーバーの機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Lync Server 2013 の新しい常設チャットサーバーの機能
+
 
 </div>
 
@@ -69,9 +71,9 @@ Lync 2013 では、常設チャット機能は Lync 2013 クライアントに�
 
   - 常設チャットのヘルプには、 <https://go.microsoft.com/fwlink/p/?linkid=270945> 常設チャットの機能の詳細な一覧、機能、および常設チャットサーバーの実行中に使用する方法が記載されています。
 
-  - 「計画」のドキュメントの「 [Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md)」を参照してください。「展開」のドキュメントの「 [lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md)」、「 [Lync server 2010、グループチャットまたは Office Communications server 2007 R2 グループチャットから Lync server 2013 への移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)」、および「操作」のドキュメントの「 [lync Server 2013、](managing-lync-server-2013-persistent-chat-server.md)常設チャットサーバーの管理」を参照して、常設チャットサーバーをセットアップする手順を提供します。
+  - 「計画」のドキュメントの「 [Lync server 2013 での常設チャットサーバーの計画](lync-server-2013-planning-for-persistent-chat-server.md) 」を参照してください。「展開」のドキュメントの「 [lync server 2013 での常設チャットサーバーの展開](lync-server-2013-deploying-persistent-chat-server.md) 」、「 [Lync server 2010、グループチャットまたは Office Communications server 2007 R2 グループチャットから Lync server 2013 への移行](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) 」、および「操作」のドキュメントの「 [lync Server 2013、](managing-lync-server-2013-persistent-chat-server.md) 常設チャットサーバーの管理」を参照して、常設チャットサーバーをセットアップする手順を提供します。
 
-  - 常設チャットサーバーのドキュメント .msi ファイル (Windows Installer ファイル) を使用すると、ユーザーは常設チャットサーバーに関する包括的なオフラインドキュメントにアクセスできます。
+  - 常設チャットサーバーの Documentation.msi ファイル (Windows Installer ファイル) を使用すると、ユーザーは常設チャットサーバーに関する包括的なオフラインドキュメントにアクセスできます。
 
 <div>
 
@@ -87,7 +89,7 @@ Lync 2013 では、常設チャット機能は Lync 2013 クライアントに�
 
   - **PersistentChatComplianceStore:** 常設チャットコンプライアンスデータベースに対応するバックエンドサーバーの役割。すべてのコンプライアンスイベントが保存されます。
 
-これらの常設チャットサーバーの役割はオプションであり、包括的な常設チャットサーバーの機能を必要とするお客様のみがインストールされます。 常設チャットのコンプライアンスを展開することを選択した場合にのみ、 **PersistentChatComplianceStore**の役割が必要になります。
+これらの常設チャットサーバーの役割はオプションであり、包括的な常設チャットサーバーの機能を必要とするお客様のみがインストールされます。 常設チャットのコンプライアンスを展開することを選択した場合にのみ、 **PersistentChatComplianceStore** の役割が必要になります。
 
 **PersistentChatService**の役割は、次の2つのサービスを実行します。
 
@@ -97,7 +99,7 @@ Lync 2013 では、常設チャット機能は Lync 2013 クライアントに�
 
 これらのサービスを各常設チャットサーバーで実行すると、マルチサーバーの常設チャットサーバープール内のこれらのサービスに高可用性が提供されます。
 
-さらに、常設チャットルームでのファイルのアップロードとダウンロードをサポートするために、常設チャットサーバーには web サービスが含まれています。 以前は、このサービスは、必須コンポーネントとしてインストールされる常設チャットサーバー、フロントエンドサーバー、および必要なインターネットインフォメーションサービス (IIS) に併置されていました。 Lync Server 2013 常設チャットサーバーでは、ファイルアップロード/ダウンロード web サービスが Lync Server 2013 フロントエンドサーバーと併置されます。 副次的な影響として、インターネットインフォメーションサービス (IIS) は常設チャットサーバーの前提条件ではなくなりました。 ファイルのアップロード/ダウンロード web サービスは、インターネットインフォメーションサービス (IIS) マネージャーで**PersistentChat**として識別されます。
+さらに、常設チャットルームでのファイルのアップロードとダウンロードをサポートするために、常設チャットサーバーには web サービスが含まれています。 以前は、このサービスは、必須コンポーネントとしてインストールされる常設チャットサーバー、フロントエンドサーバー、および必要なインターネットインフォメーションサービス (IIS) に併置されていました。 Lync Server 2013 常設チャットサーバーでは、ファイルアップロード/ダウンロード web サービスが Lync Server 2013 フロントエンドサーバーと併置されます。 副次的な影響として、インターネットインフォメーションサービス (IIS) は常設チャットサーバーの前提条件ではなくなりました。 ファイルのアップロード/ダウンロード web サービスは、インターネットインフォメーションサービス (IIS) マネージャーで **PersistentChat** として識別されます。
 
 <div>
 
@@ -130,7 +132,7 @@ Lync Server 2013 には、コンプライアンスサービスの変更があり
     
 
     > [!NOTE]  
-    > メッセージキューのインストールの詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Install server For Lync Server 2013 のサーバーへのオペレーティングシステムと必要なソフトウェアのインストール</A>」を参照してください。
+    > メッセージキューのインストールの詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Install server For Lync Server 2013 のサーバーへのオペレーティングシステムと必要なソフトウェアのインストール</A> 」を参照してください。
 
     
     </div>
@@ -141,7 +143,7 @@ Lync Server 2013 では、高可用性と障害復旧の両方が強化されて
 
   - 障害復旧機能の向上: 常設チャットサーバーは、1つの常設チャットサーバープールを2つのサイト (つまり、トポロジ内の単一の論理プールで、2つのサイト間で物理的に配置されたプール内の複数のサイト) に拡張できる拡張プールアーキテクチャをサポートします。 SQL Server のログ配布は、クロスサイトの障害復旧に使用されます。
 
-高可用性と障害復旧の詳細については、「展開」のドキュメントの「 [Lync server 2013 での高可用性および障害復旧のための常設チャットサーバーの構成](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)」を参照してください。
+高可用性と障害復旧の詳細については、「展開」のドキュメントの「 [Lync server 2013 での高可用性および障害復旧のための常設チャットサーバーの構成](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) 」を参照してください。
 
 </div>
 
@@ -165,7 +167,7 @@ Lync Server 2013 では、以下を提供することで、常設チャットサ
 
 ## <a name="whats-different-about-user-roles-from-previous-group-chat-server-versions"></a>以前のグループチャットサーバーのバージョンのユーザーの役割については、どのような違いがありますか。
 
-Lync Server 2010、グループチャットには、ユーザー管理者の役割、チャットルーム管理者の役割、およびアドインを管理できる Lync Server 管理者の役割があります。常設チャットサーバーは、常設チャット管理者の役割 (他の Lync Server の役割ベースのアクセス制御 (RBAC) の役割に似ています) を提供します。 この RBAC の役割のメンバーであるすべてのユーザーは、チャットルーム、アドイン、およびカテゴリを管理でき (そのためこれらのカテゴリのユーザーアクセス権を取得する)、および常設チャットサーバープールの構成を行うことができます。
+Lync Server 2010 のグループチャットには、ユーザー管理者の役割、チャットルーム管理者の役割、およびアドインを管理できる Lync Server 管理者の役割がありました。常設チャットサーバーは、常設チャット管理者の役割 (他の Lync Server の役割ベースのアクセス制御 (RBAC) の役割に似ています) を提供するだけです。 この RBAC の役割のメンバーであるすべてのユーザーは、チャットルーム、アドイン、およびカテゴリを管理でき (そのためこれらのカテゴリのユーザーアクセス権を取得する)、および常設チャットサーバープールの構成を行うことができます。
 
 </div>
 
@@ -203,13 +205,13 @@ Lync Server 2010、グループチャットには、ユーザー管理者の役�
 
 常設チャットサーバーには、ユーザー/プール/サイト/グローバル設定ごとに常設チャットが有効になっている新しい Lync ポリシーがあります。 Lync 2013 クライアントでは、常設チャット環境は、常設チャットのポリシーによって有効になっているユーザー (直接またはプール/サイト/グローバル設定) に対してのみ使用できます。
 
-グループチャットサーバーの以前のバージョンには、Lync Server ポリシーに統合されたポリシーがありませんでした。 ユーザーごと、およびカテゴリ/ルームごとに、[ユーザーごとに**ファイルをアップロードできる**] 機能を使用して、ユーザーをユーザーの管理者、チャットルーム管理者、またはユーザーがファイルをアップロードできるように構成することができます。 常設チャットサーバーの**ファイルアップロード**機能は、カテゴリごとにあります。
+グループチャットサーバーの以前のバージョンには、Lync Server ポリシーに統合されたポリシーがありませんでした。 ユーザーごと、およびカテゴリ/ルームごとに、[ユーザーごとに **ファイルをアップロードできる** ] 機能を使用して、ユーザーをユーザーの管理者、チャットルーム管理者、またはユーザーがファイルをアップロードできるように構成することができます。 常設チャットサーバーの **ファイルアップロード** 機能は、カテゴリごとにあります。
 
 </div>
 
 <div>
 
-## <a name="logging"></a>ログ
+## <a name="logging"></a>ログ記録
 
 常設チャットサーバーおよび System Center Operations Manager のログは、Lync Server 2013 トレースログに統合されています。
 

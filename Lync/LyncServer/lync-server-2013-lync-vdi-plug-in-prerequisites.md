@@ -12,20 +12,22 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7be6cd7dcf58cae1cfe794c6a27d27fc5aaa5193
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b63ee7f494b131fc194d6bf9d028525efd71cf0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186110"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534684"
 ---
+# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Lync Server 2013 での lync VDI プラグインの前提条件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-vdi-plug-in-prerequisites-in-lync-server-2013"></a>Lync Server 2013 での lync VDI プラグインの前提条件
+
 
 </div>
 
@@ -46,9 +48,9 @@ _**トピックの最終更新日:** 2017-03-07_
 > 仮想化環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーに問い合わせてください。Hyper-V およびリモート デスクトップ サービスに基づいた仮想化環境の展開については、Microsoft TechNet ライブラリの次の記事を参照してください。 
 > <UL>
 > <LI>
-> <P>Hyper-v<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
+> <P>Hyper-v <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
 > <LI>
-> <P>Windows Server&nbsp;2008&nbsp;R2 のリモートデスクトップサービス<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
+> <P>Windows Server &nbsp; 2008 R2 のリモートデスクトップ &nbsp; サービス <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247513">https://go.microsoft.com/fwlink/p/?linkid=247513</A></P></LI></UL>
 
 
 
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2017-03-07_
 
   - リモートデスクトップサービスを使用している場合、Lync VDI プラグインのビット数 (つまり、アプリケーションが32ビットであるか、または64ビットであるか) は、ローカルコンピューターのオペレーティングシステムのビット数と一致している必要があります。 ローカル コンピューターと仮想マシンのオペレーティング システムのビット数が一致する必要はありません。 別の仮想化ソリューションまたは仮想化プラットフォームを使用している場合は、ビット数の要件については、仮想化ソリューション プロバイダーのガイダンスを参照してください。
 
-  - ローカル コンピューターは、最新バージョンのリモート デスクトップ クライアントを実行している必要があります。 マイクロソフトからリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。 最新のリモートデスクトップサービスの更新につい[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)ては、「」を参照してください。
+  - ローカル コンピューターは、最新バージョンのリモート デスクトップ クライアントを実行している必要があります。 マイクロソフトからリモート デスクトップ サービス クライアントの最新更新プログラムをインストールするか、仮想化ソリューション プロバイダーから最新のリモート デスクトップ クライアント ソフトウェアをインストールしてください。 最新のリモートデスクトップサービスの更新については、「」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) 。
 
   - ローカル コンピューター上のリモート デスクトップ クライアントの設定は、オーディオがローカル コンピューターで再生され、リモート録音が無効となるように構成する必要があります。 Windows でこれらの設定をリモートデスクトップ接続用に構成するには、次のセクション「リモートデスクトップ接続の設定を構成するには」を参照してください。
 
@@ -76,7 +78,7 @@ _**トピックの最終更新日:** 2017-03-07_
 
 Windows で Lync VDI プラグインのリモートデスクトップ接続を準備するには、次の手順を実行します。
 
-1.  ローカルコンピューターで Windows 8 を実行している場合は、この手順をスキップします。 ローカルコンピューターで Windows 7 SP1 を実行している場合は、最新の Windows 8 バージョンのリモートデスクトップサービスクライアントをインストール[https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)します。
+1.  ローカルコンピューターで Windows 8 を実行している場合は、この手順をスキップします。 ローカルコンピューターで Windows 7 SP1 を実行している場合は、最新の Windows 8 バージョンのリモートデスクトップサービスクライアントをインストールし [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032) ます。
 
 2.  [**スタート**]、[**リモート デスクトップ接続**] の順にクリックして、リモート デスクトップ サービス クライアントを起動します。
 

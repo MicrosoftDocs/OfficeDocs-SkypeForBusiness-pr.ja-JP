@@ -12,20 +12,22 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5e85bf0d6e4281094be562bd94c8e5b76e02453
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 3707c0074425411353a22b51d62251d33a4e31fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534604"
 ---
+# <a name="lync-windows-store-app-requirements-for-lync-server-2013"></a>Lync Server 2013 の lync Windows ストアアプリの要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-windows-store-app-requirements-for-lync-server-2013"></a>Lync Server 2013 の lync Windows ストアアプリの要件
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2013-12-03_
 
   - Lync server 関連の HTTP トラフィックを許可するように、エンタープライズで HTTP プロキシを構成します。必要に応じて、自動検出、Lync Web App、および WebTicket サービスの例外を追加します。
 
-  - クライアントで、Windows 8.1 と Lync Windows ストアアプリの最新バージョンをインストールして、複数のドメインを使用するときに一般的に発生するサインインの問題を修正します (たとえば、SIP URI が**userA@domainZ.com** 、エッジサーバーが**sip.domainX.com**)。
+  - クライアントで、Windows 8.1 と Lync Windows ストアアプリの最新バージョンをインストールして、複数のドメインを使用するときに一般的に発生するサインインの問題を修正します (たとえば、SIP URI が **userA@domainZ.com** 、エッジサーバーが **sip.domainX.com**)。
 
 組織が Lync Online または Microsoft 365 をサブスクライブしていて、自分のドメイン名を使用している場合は、Lync サーバーの自動検出のためにネットワークをセットアップするための特別な手順を実行する必要があります。 ネットワーク構成の要件は、モバイルデバイスの Lync Windows ストアアプリと Lync で同じです。
 

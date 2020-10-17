@@ -12,20 +12,22 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c40f48b52759bfc12441a558b85de89d149f4bf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 56c9c9afd351709430efd4e42d5db6b79113fa80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196490"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534994"
 ---
+# <a name="configuring-response-group-in-lync-server-2013"></a>Lync Server 2013 で応答グループを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-response-group-in-lync-server-2013"></a>Lync Server 2013 で応答グループを構成する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196490"
 
 _**トピックの最終更新日:** 2012-10-30_
 
-応答グループは、ヘルプデスクやカスタマーサービスデスクなどの、*エージェント*と呼ばれるユーザーのグループへの着信呼び出しをルーティングし、キューに記録するエンタープライズ voip 機能です。
+応答グループは、ヘルプデスクやカスタマーサービスデスクなどの、 *エージェント*と呼ばれるユーザーのグループへの着信呼び出しをルーティングし、キューに記録するエンタープライズ voip 機能です。
 
 応答グループで必要なコンポーネントは、エンタープライズ VoIP を展開するときに、フロント エンド サーバーまたは Standard Edition サーバーに自動的にインストールされ、有効にされます。 応答グループをユーザーが利用できるようにするには、エージェント グループ、キュー、およびワークフローを順に構成する必要があります。 さらに、応答グループ管理者は、既存のワークフローの構成を応答グループマネージャーに委任できます。これにより、ワークフローとそれに関連するエージェントグループおよびキューを変更および再構成できます。
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2012-10-30_
 
 
 > [!TIP]  
-> Lync Server 管理シェルを使用して応答グループを作成する方法の詳細については、「」の「Lync Server 管理シェルを使用して<A href="https://go.microsoft.com/fwlink/p/?linkid=204108">https://go.microsoft.com/fwlink/p/?linkId=204108</A>最初の応答グループを作成する」を参照してください。
+> Lync Server 管理シェルを使用して応答グループを作成する方法の詳細については、「」の「Lync Server 管理シェルを使用して最初の応答グループを作成する」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=204108">https://go.microsoft.com/fwlink/p/?linkId=204108</A> 。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f58894a00c853f04d5d4c6f995edc17683b12e9f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d181570b55ce175a63ac1ac1f218ee99aec7a5a0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218253"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534534"
 ---
+# <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での障害復旧時のグループ通話ピックアップの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での障害復旧時のグループ通話ピックアップの管理
+
 
 </div>
 
@@ -49,9 +51,9 @@ _**トピックの最終更新日:** 2013-01-30_
 
 障害復旧時に、フェールオーバープロセスの一環としてバックアッププールにリダイレクトされたユーザーは、通話ピックアップグループ番号のバックアッププールで実行されているコールパークアプリケーションを使用します。 そのため、障害復旧時にグループ通話ピックアップをサポートするには、プライマリプールとバックアッププールの両方でコールパークアプリケーションを展開して有効にする必要があります。
 
-コールパークオービットテーブルのグループ通話ピックアップ番号の範囲は、バックアッププールへのフェールオーバープロセスが完了した後に、バックアッププールにリダイレクトされる必要があります。 プライマリプールへのフェールバックプロセスが完了したら、番号の範囲をプライマリプールにリダイレクトする必要があります。 グループ通話のピックアップ範囲をリダイレクトするには、 **get-cscallparkorbit**コマンドレットを使用します。
+コールパークオービットテーブルのグループ通話ピックアップ番号の範囲は、バックアッププールへのフェールオーバープロセスが完了した後に、バックアッププールにリダイレクトされる必要があります。 プライマリプールへのフェールバックプロセスが完了したら、番号の範囲をプライマリプールにリダイレクトする必要があります。 グループ通話のピックアップ範囲をリダイレクトするには、 **get-cscallparkorbit** コマンドレットを使用します。
 
-プライマリプールを置き換えるために別の完全修飾ドメイン名 (FQDN) を使用して新しいプールを展開する場合は、プライマリプールに関連付けられているすべてのグループ通話ピックアップ番号の範囲を新しいプールの FQDN に再割り当てする必要があります。 番号範囲を新しいプールに再割り当てするには、 **get-cscallparkorbit**コマンドレットを使用できます。 **Get-cscallparkorbit**コマンドレットの詳細については、「 [get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)」を参照してください。
+プライマリプールを置き換えるために別の完全修飾ドメイン名 (FQDN) を使用して新しいプールを展開する場合は、プライマリプールに関連付けられているすべてのグループ通話ピックアップ番号の範囲を新しいプールの FQDN に再割り当てする必要があります。 番号範囲を新しいプールに再割り当てするには、 **get-cscallparkorbit** コマンドレットを使用できます。 **Get-cscallparkorbit**コマンドレットの詳細については、「 [get-cscallparkorbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)」を参照してください。
 
 </div>
 

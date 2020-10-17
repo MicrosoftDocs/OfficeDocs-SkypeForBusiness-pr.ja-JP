@@ -12,20 +12,22 @@ ms:contentKeyID: 48183685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f94ac852959ca440f09f8878a17c1e23f7698bd4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6aa6c3e2ad475cb641a2df50c1dc0016a5ac2fd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183820"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534014"
 ---
+# <a name="port-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 でのパブリック IP アドレスを使用する単一統合エッジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 でのパブリック IP アドレスを使用する単一統合エッジ
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183820"
 
 _**トピックの最終更新日:** 2013-02-21_
 
-このシナリオアーキテクチャで説明されている Lync server 2013 のエッジサーバー機能は、Lync Server 2010 で実装されていたものとよく似ています。 最も目を引くのは、XMPP (Extensible Messaging and Presence Protocol) 用の ポート **5269/TCP** エントリが追加されたことです。 Lync Server 2013 は、フロントエンドサーバーまたはフロントエンドプールに、エッジサーバーまたはエッジプールおよび XMPP ゲートウェイサーバー上に XMPP プロキシを任意で展開します。 リバースプロキシとフェデレーションの計画情報については、「 [Lync server 2013 のリバースプロキシのシナリオ](lync-server-2013-scenarios-for-reverse-proxy.md)」および「 [lync server 2013 セクションでの SIP、xmpp フェデレーション、パブリックインスタントメッセージングの計画](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)」を参照してください。
+このシナリオアーキテクチャで説明されている Lync server 2013 のエッジサーバー機能は、Lync Server 2010 で実装されていたものとよく似ています。 最も目を引くのは、XMPP (Extensible Messaging and Presence Protocol) 用の ポート **5269/TCP** エントリが追加されたことです。 Lync Server 2013 は、フロントエンドサーバーまたはフロントエンドプールに、エッジサーバーまたはエッジプールおよび XMPP ゲートウェイサーバー上に XMPP プロキシを任意で展開します。 リバースプロキシとフェデレーションの計画情報については、「 [Lync server 2013 のリバースプロキシのシナリオ](lync-server-2013-scenarios-for-reverse-proxy.md) 」および「 [lync server 2013 セクションでの SIP、xmpp フェデレーション、パブリックインスタントメッセージングの計画](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md) 」を参照してください。
 
 IPv4 に加えて、エッジサーバーは IPv6 をサポートするようになりました。 わかりやすいように、シナリオでは IPv4 のみを使用します。
 
@@ -67,7 +69,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -185,7 +187,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>コメント</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -241,19 +243,19 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</p></td>
+<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ収集</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</p></td>
+<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ収集</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</p></td>
+<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ収集</p></td>
 </tr>
 </tbody>
 </table>
@@ -278,7 +280,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -311,7 +313,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -374,7 +376,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 (IP アドレス)</th>
 <th>宛先 (IP アドレス)</th>
-<th>コメント</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>

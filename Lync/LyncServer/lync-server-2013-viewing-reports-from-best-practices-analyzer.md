@@ -12,20 +12,22 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93ce3e013f5c0578c78db3ceee8ab1d65481efbb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ffa6108760955de643b7ffa4afe841464ae140f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211113"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535594"
 ---
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 のベストプラクティスアナライザーからレポートを表示する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>Lync Server 2013 のベストプラクティスアナライザーからレポートを表示する
+
 
 </div>
 
@@ -60,18 +62,18 @@ _**トピックの最終更新日:** 2012-09-21_
     > [!NOTE]  
     > ローカルの Administrators グループのメンバーであるアカウントを使用してスキャンの結果を表示することはできますが、適切なユーザー権限とアクセス許可を持っていない限り、スキャンを実行することはできません。 詳細については、「 <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013 のベストプラクティスアナライザーのグループメンバーシップとユーザー権限要件</A>」を参照してください。
 
-2.  [**スタート**] をクリックし、[**すべてのプログラム**] をポイントします。次に、[ **Microsoft Lync Server 2013**] をクリックし、[**ベストプラクティスアナライザー**] をクリックします。
+2.  [ **スタート**] をクリックし、[ **すべてのプログラム**] をポイントします。次に、[ **Microsoft Lync Server 2013**] をクリックし、[ **ベストプラクティスアナライザー**] をクリックします。
 
-3.  [**ようこそ**] 画面で、[**スキャン結果を表示する**] をクリックします。
+3.  [ **ようこそ** ] 画面で、[ **スキャン結果を表示する**] をクリックします。
 
-4.  [**表示するベストプラクティススキャンを選択**する] ページで、次のいずれかの手順を実行します。
+4.  [ **表示するベストプラクティススキャンを選択** する] ページで、次のいずれかの手順を実行します。
     
-      - ローカルに保存されたスキャン結果の一覧からレポートを表示するには、スキャンの名前をクリックしてから、[**このスキャンのレポートを表示**する] をクリックします。
+      - ローカルに保存されたスキャン結果の一覧からレポートを表示するには、スキャンの名前をクリックしてから、[ **このスキャンのレポートを表示**する] をクリックします。
         
         > [!NOTE]  
-        > ベストプラクティスアナライザーによって、フォルダー &lt;systemDrive&gt;\\Documents および Settings\\&lt;user&gt;\Application data\microsoft\rtcbpa のローカルファイルの一覧が作成されます。
+        > ベストプラクティスアナライザーによって、フォルダー &lt; systemDrive &gt; \\ Documents および Settings \\ &lt; user &gt; \Application data\microsoft\rtcbpa のローカルファイルの一覧が作成されます。
     
-      - 別の場所に格納されているスキャンの結果のレポートを表示するには、[**スキャンのインポート**] をクリックし、スキャン結果を含むファイルを見つけて、[**開く**] をクリックします。
+      - 別の場所に格納されているスキャンの結果のレポートを表示するには、[ **スキャンのインポート**] をクリックし、スキャン結果を含むファイルを見つけて、[ **開く**] をクリックします。
         
         > [!NOTE]  
         > このコンピューターのベストプラクティスアナライザーのバージョンが、インポートされたファイル内のデータの収集に使用されたバージョンと一致しない場合、コンピューター上のツールはインポート後にファイルを再び分析する可能性があります。
@@ -85,7 +87,7 @@ _**トピックの最終更新日:** 2012-09-21_
       - その他のレポートを表示するには、[**Other Reports**] をクリックします。
     
     > [!NOTE]  
-    > ベストプラクティスアナライザーのレポートと、そのレポートで特定される問題の詳細については、「 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync server 2013 のベストプラクティスアナライザーによって作成されたレポートの表示と操作</A>」および「 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">lync server 2013 でのベストプラクティスアナライザーによって識別される問題の分析と解決</A>」を参照してください。
+    > ベストプラクティスアナライザーのレポートと、そのレポートで特定される問題の詳細については、「 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Lync server 2013 のベストプラクティスアナライザーによって作成されたレポートの表示と操作</A> 」および「 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">lync server 2013 でのベストプラクティスアナライザーによって識別される問題の分析と解決</A>」を参照してください。
 
 </div>
 

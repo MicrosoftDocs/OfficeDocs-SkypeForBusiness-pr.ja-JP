@@ -12,20 +12,22 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27095f154d4a79af949d3568bb444adfc83699c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 541cd7eb560cd9d509c5c0beec206803f2cddecc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533994"
 ---
+# <a name="port-summary---single-director-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 の単一ディレクター
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 の単一ディレクター
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2012-10-20_
 <th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

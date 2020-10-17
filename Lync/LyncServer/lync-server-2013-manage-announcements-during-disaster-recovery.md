@@ -12,20 +12,22 @@ ms:contentKeyID: 49733807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 164c58859a6e92abfbb50b79c12b587c3b65c1a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2fc5aec6371bff867c2e33dbe7b88aa0d2a888c0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185970"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534550"
 ---
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での障害復旧時のアナウンスの管理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での障害復旧時のアナウンスの管理
+
 
 </div>
 
@@ -47,7 +49,7 @@ Lync Server 2013 は、停止中に割り当てられていない番号への通
 
 システム停止時にアナウンスを使用するかどうかにかかわらず、アナウンスアプリケーション用に構成したカスタマイズされたオーディオファイルのバックアップを個別に作成する必要があります。 カスタマイズしたアナウンスは、Lync Server の障害復旧プロセスの一環としてバックアップされません。 ファイルのバックアップを別途作成しておらず、サーバーにアップロードしたファイルが破損したり消去されたりした場合、ファイルは失われます。
 
-カスタマイズされたオーディオファイルのバックアップコピーがなく、元のオーディオファイルが使用できなくなった場合は、元のサーバーまたはプールのファイルストアを調べて、アナウンスアプリケーション用に構成したオーディオファイルを見つけることができます。ファイルをインポートしました。 アナウンスメントアプリケーションに対して構成したすべてのオーディオファイルを、ファイルストアからコピーすることができます。
+カスタマイズしたオーディオファイルのバックアップコピーがなく、元のオーディオファイルが使用できなくなった場合は、最初にファイルをインポートしたサーバーまたはプールのファイルストアを調べて、アナウンスメントアプリケーション用に構成したオーディオファイルを見つけることができます。 アナウンスメントアプリケーションに対して構成したすべてのオーディオファイルを、ファイルストアからコピーすることができます。
 
 **ファイルストアからオーディオファイルをコピーするには**
 
@@ -55,7 +57,7 @@ Lync Server 2013 は、停止中に割り当てられていない番号への通
     
         Xcopy <Source: Pool Announcement Service File Store path> <Destination>
     
-    次に例を示します。
+    例:
     
         Xcopy "<Pool File Store Path>\X-ApplicationServer-X\AppServerFiles\RGS\AS" "<Destination: Backup location>"
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a5565080f2b5fab0f47cc944f9569f55e8721c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3484dd6ff1404d5d2a4adf77c4ab27a5a29e66b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533814"
 ---
+# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Lync Server 2013 での IPv6 の技術要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Lync Server 2013 での IPv6 の技術要件
+
 
 </div>
 
@@ -43,7 +45,7 @@ IPv6 の Lync Server 2013 の構成を計画している場合は、次の要件
     
     IPv6 DNS ホスト レコードは IPv6 の使用を始める前から展開できます。 クライアントまたはサーバーが IPv6 を使用しない場合、そのレコードは参照されません。 移行時のテクノロジは、どのレコードを使用するかを、移行テクノロジの構成およびポリシーに基づいて判断します。
 
-  - 各 IPv6 アドレスにはスコープがあります。 IPv6 アドレス指定に使用できる3つのスコープは、IPv6 グローバルアドレス (パブリック IPv4 アドレスと類似)、IPv6 固有のローカルアドレス (プライベート IPv4 アドレスの範囲に類似)、IPv6 リンクローカルアドレス (自動プライベート IP アドレスに似ています) です。Windows Server for IPv4)。 プール内のすべてのサーバーは、同じスコープの IPv6 アドレスを持っている必要があります。
+  - 各 IPv6 アドレスにはスコープがあります。 IPv6 アドレス指定に使用できる3つのスコープは、IPv6 グローバルアドレス (パブリック IPv4 アドレスと類似)、IPv6 固有のローカルアドレス (プライベート IPv4 アドレスの範囲に類似)、IPv6 リンクローカルアドレス (Windows Server の IPv4 の場合は、自動プライベート IP アドレスに似ています) です。 プール内のすべてのサーバーは、同じスコープの IPv6 アドレスを持っている必要があります。
 
 <div>
 

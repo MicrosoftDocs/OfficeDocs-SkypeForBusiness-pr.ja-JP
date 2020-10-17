@@ -12,20 +12,22 @@ ms:contentKeyID: 48184345
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0448802e7de2c00b5c57730c5e95fb99b21b237e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9044f90146b604f0277b0a5b815c6540849d58b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534934"
 ---
+# <a name="installing-sql-server-reporting-services-in-lync-server-2013"></a>Lync Server 2013 での SQL Server Reporting Services のインストール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-sql-server-reporting-services-in-lync-server-2013"></a>Lync Server 2013 での SQL Server Reporting Services のインストール
+
 
 </div>
 
@@ -49,7 +51,7 @@ Reporting Services が正常にインストールされたことを確認する�
 
 2.  [**Reporting Services 構成の接続**] ダイアログ ボックスで、サーバーの名前が [**サーバー名**] ボックスに、および監視データを保存する SQL Server インスタンスの名前が [**レポート サーバー インスタンス**] ボックスに表示されることを確認します。[**接続**] をクリックします。
 
-Reporting Service 構成マネージャーで、[レポートサーバーの状態] ウィンドウに、SQL Server Reporting Services がインストールされており、Reporting Services が現在実行中であることを示す必要があります。レポートサーバーの状態は [**開始**] と表示され、[**開始**] ボタンは淡色表示され、使用できません。 Reporting Services が実行されていない場合は、[**開始**] をクリックしてサービスを開始します。
+Reporting Service 構成マネージャーで、[レポートサーバーの状態] ウィンドウに、SQL Server Reporting Services がインストールされており、Reporting Services が現在実行中であることを示す必要があります。レポートサーバーの状態は [ **開始** ] と表示され、[ **開始** ] ボタンは淡色表示され、使用できません。 Reporting Services が実行されていない場合は、[ **開始** ] をクリックしてサービスを開始します。
 
 [レポート サーバー データベース名] ラベルの横にデータベースが表示されない場合は、次の操作を行います。
 

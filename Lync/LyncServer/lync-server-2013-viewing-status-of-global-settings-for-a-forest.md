@@ -12,20 +12,22 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab574067b05b494601e0dd769003cb01904c52bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7922fe79d97a1fa83fdaa5afbc1eeddee8523e37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211104"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535584"
 ---
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Lync Server 2013 のフォレストのグローバル設定の状態を表示する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Lync Server 2013 のフォレストのグローバル設定の状態を表示する
+
 
 </div>
 
@@ -47,9 +49,9 @@ _**トピックの最終更新日:** 2014-05-20_
 
 Lync Server 2013 でサポートされているセッション開始プロトコル (SIP) ドメインなど、全般設定を確認します。
 
-SIP ドメイン情報は、Windows PowerShell と**new-cssipdomain**コマンドレットを使用して取得できます。 この情報を取得するには`Get-CsSipDomain` 、Windows PowerShell コマンドを実行します。
+SIP ドメイン情報は、Windows PowerShell と **new-cssipdomain** コマンドレットを使用して取得できます。 この情報を取得するには、 `Get-CsSipDomain` Windows PowerShell コマンドを実行します。
 
-New-cssipdomain は、認証されたすべての SIP ドメインについて次のような情報を返します。
+Get-CsSipDomain は、認証されたすべての SIP ドメインについて次のような情報を返します。
 
 Id 名 IsDefault
 
@@ -59,7 +61,7 @@ fabrikam.com fabrikam.com True
 
 na.fabrikam.com na.fabrikam.com False
 
-IsDefault プロパティが True に設定されている場合、対応するドメインが既定の SIP ドメインになります。 New-cssipdomain コマンドレットを使用して、組織の既定の SIP ドメインを変更できます。 ただし、既定の SIP ドメインを削除するだけで、既定のドメインがなくなるため、単純に削除することはできません。 前の例で示したように、fabrikam.com ドメインを削除するには、まず、既定のドメインとして na.fabrikam.com を構成する必要があります。
+IsDefault プロパティが True に設定されている場合、対応するドメインが既定の SIP ドメインになります。 Set-CsSipDomain コマンドレットを使用して、組織の既定の SIP ドメインを変更できます。 ただし、既定の SIP ドメインを削除するだけで、既定のドメインがなくなるため、単純に削除することはできません。 前の例で示したように、fabrikam.com ドメインを削除するには、まず、既定のドメインとして na.fabrikam.com を構成する必要があります。
 
 </div>
 
@@ -69,13 +71,13 @@ IsDefault プロパティが True に設定されている場合、対応する�
 
 会議の設定には、会議ポリシーの定義と、会議への匿名ユーザーの参加のサポートが含まれます。
 
-会議の構成設定を取得するには、Windows PowerShell および**get-help/csconfiguration**コマンドレットを使用します。 たとえば、次のコマンドを実行すると、グローバルな会議の構成設定に関する情報が戻されます。
+会議の構成設定を取得するには、Windows PowerShell および **get-help/csconfiguration** コマンドレットを使用します。 たとえば、次のコマンドを実行すると、グローバルな会議の構成設定に関する情報が戻されます。
 
-Get-help-Csconfiguration-Id "Global" 会議の構成設定をサイトスコープで構成することもできます。 そのため、次のコマンドを使用すると、すべての会議構成設定に関する情報が返されます。
+Get-CsMeetingConfiguration – Id "Global" 会議の構成設定をサイトスコープで構成することもできます。 そのため、次のコマンドを使用すると、すべての会議構成設定に関する情報が返されます。
 
 `Get-CsMeetingConfiguration`
 
-このコマンドレットを実行すると、次のような情報が**表示**されます。
+このコマンドレットを実行すると、次のような情報が **表示** されます。
 
 Identity: Global
 
@@ -199,7 +201,7 @@ OutgoingTlsCountForFederatedPartners: 4
 
 RoutingMethod: Usednssrvrouting は、
 
-**AllowFederatedUsers**プロパティが True に設定されている場合は、フェデレーションが組織で有効になっていることを意味します。 ( **AllowFederatedUsers**を True に設定することも、分割ドメインのシナリオでは、オンプレミスのユーザーがクラウド内のユーザーとシームレスに通信できることを意味します)。
+**AllowFederatedUsers**プロパティが True に設定されている場合は、フェデレーションが組織で有効になっていることを意味します。 ( **AllowFederatedUsers** を True に設定することも、分割ドメインのシナリオでは、オンプレミスのユーザーがクラウド内のユーザーとシームレスに通信できることを意味します)。
 
 エッジサーバーの FQDN およびポート設定を取得するには、前のタスク (エッジサーバーとその設定) を参照してください。
 
@@ -239,7 +241,7 @@ EnableOutsideAccess: False
 
 内部およびフェデレーション通信のアーカイブ設定を確認します。内部および外部アーカイブの設定を確認する前に、アーカイブが有効になっていることを確認する必要があります。
 
-アーカイブ構成設定は、Windows PowerShell と Set-csarchivingconfiguration コマンドレットを使用して確認できます。
+アーカイブ構成設定は、Windows PowerShell と Get-CsArchivingConfiguration コマンドレットを使用して確認できます。
 
 `Get-CsArchivingConfiguration -Identity "Global"`
 
@@ -247,7 +249,7 @@ EnableOutsideAccess: False
 
 `Get-CsArchivingConfiguration`
 
-Set-csarchivingconfiguration コマンドレットは、次のようなデータを返します。
+Get-CsArchivingConfiguration コマンドレットは、次のようなデータを返します。
 
 Identity: Global
 
@@ -287,7 +289,7 @@ EnableArchiving プロパティが False に設定されている場合は、通
 
 アーカイブが有効になっていることを確認したら、アーカイブポリシーを表示して、内部通信セッションと外部通信セッションがアーカイブされているかどうかを判断できます。
 
-アーカイブポリシー情報は、Grant-csarchivingpolicy コマンドレットを使用して取得できます。 たとえば、次のコマンドを実行すると、グローバルアーカイブポリシーに関する情報が戻されます。
+アーカイブポリシー情報は Get-CsArchivingPolicy コマンドレットを使用して取得できます。 たとえば、次のコマンドを実行すると、グローバルアーカイブポリシーに関する情報が戻されます。
 
 `Get-CsArchivingPolicy -Identity "Global"`
 
@@ -295,7 +297,7 @@ EnableArchiving プロパティが False に設定されている場合は、通
 
 `Get-CsArchivingPolicy`
 
-Grant-csarchivingpolicy から受け取る情報は、次のようになります。
+Get-CsArchivingPolicy から受け取る情報は、次のようになります。
 
 Identity: Global
 
@@ -313,7 +315,7 @@ Description
 
 ## <a name="check-cdr-settings"></a>CDR の設定を確認する
 
-ピアツーピア、電話会議、音声通話詳細記録の通話詳細記録 (CDR) 設定を確認します。 CDR の設定の詳細については、Set-cscdrconfiguration コマンドレットを使用して**取得**できます。 たとえば、次のコマンドを実行すると、CDR 構成設定のグローバルコレクションに関する情報が戻されます。
+ピアツーピア、電話会議、音声通話詳細記録の通話詳細記録 (CDR) 設定を確認します。 CDR の設定の詳細については、Set-cscdrconfiguration コマンドレットを使用して **取得** できます。 たとえば、次のコマンドを実行すると、CDR 構成設定のグローバルコレクションに関する情報が戻されます。
 
 `Get-CsCdrConfiguration -Identity "Global"`
 
@@ -321,7 +323,7 @@ Description
 
 `Get-CsCdrConfiguration`
 
-Set-cscdrconfiguration コマンドレットは、CDR 構成設定のコレクションごとに、次のような情報を返します。
+Get-CsCdrConfiguration コマンドレットは、CDR 構成設定のコレクションごとに、次のような情報を返します。
 
 Identity: Global
 
@@ -335,7 +337,7 @@ KeepErrorReportForDays:60
 
 で purgehourofday: 2
 
-QoE 監視についても同様の情報を返すことができます。そのためには、このコマンドレットを使用します。 たとえば、次のコマンドを実行すると、QoE 構成設定のグローバルコレクションに関する情報が戻されます。
+Get-CsQoEConfiguration コマンドレットを使用して、QoE 監視について同様の情報を返すことができます。 たとえば、次のコマンドを実行すると、QoE 構成設定のグローバルコレクションに関する情報が戻されます。
 
 `Get-QoEConfiguration -Identity "Global"`
 
@@ -377,7 +379,7 @@ EnableQoE: True
 
 ## <a name="check-voice-settings"></a>音声設定の確認
 
-通常、管理者にとって重要な音声設定は、音声ポリシーと音声ルートに含まれています。音声ポリシーには、個々のユーザーに公開する機能 (通話の転送や転送など) を決定する設定が含まれています。音声ルートは、(および if) 通話が PSTN を介してルーティングされる方法を決定します。
+通常、管理者にとって重要な音声設定は、音声ポリシーと音声ルートに含まれています。音声ポリシーには、個々のユーザーに公開される機能を決定する設定 (通話を転送または転送する機能など) が含まれますが、音声ルートでは通話が PSTN を介してルーティングされる方法を決定します。
 
 音声ポリシー情報は、Windows PowerShell を使用して取得できます。 たとえば、次のコマンドを実行すると、グローバル音声ポリシーに関する情報が戻されます。
 
@@ -387,11 +389,11 @@ EnableQoE: True
 
 `Get-CsVoicePolicy`
 
-Set-csvoicepolicy コマンドレットによって返される情報は、次のようになります。
+Get-CsVoicePolicy コマンドレットによって返される情報は、次のようになります。
 
 Identity: Global
 
-PstnUsages{}
+PstnUsages {}
 
 Description
 
@@ -425,7 +427,7 @@ PreventPSTNTollBypass: False
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $False}`
 
-Windows PowerShell では、CsVoiceRouting コマンドレットを使用して、音声ルートに関する情報を取得します。
+Windows PowerShell では、Get-CsVoiceRouting コマンドレットを使用して、音声ルートに関する情報を取得します。
 
 `Get-CsVoiceRoute`
 
@@ -437,11 +439,11 @@ Identity: LocalRoute
 
 Description
 
-数字パターン: ^ (\\+ 1\[0-9\]{10}) $
+数字パターン: ^ ( \\ + 1 \[ 0-9 \] {10} ) $
 
-PstnUsages{}
+PstnUsages {}
 
-PstnGatewayList{}
+PstnGatewayList {}
 
 Name: LocalRoute
 
@@ -463,7 +465,7 @@ Lync Server を使用すると、PSTN を使用しない音声ルートを作成
 
 ## <a name="check-conferencing-attendant-settings"></a>電話会議アテンダントの設定を確認する
 
-PSTN ダイヤルイン会議の会議アテンダント設定を確認します。 電話会議アテンダントの設定は、 **set-csdialinconferencingconfiguration**コマンドレットを使用してのみ取得できます。 これらの設定は、Lync Server コントロールパネルでは使用できません。 会議アテンダントの設定を表示するには、次のような Windows PowerShell コマンドを使用します。これは、会議アテンダント設定のグローバルコレクションを返します。
+PSTN ダイヤルイン会議の会議アテンダント設定を確認します。 電話会議アテンダントの設定は、 **set-csdialinconferencingconfiguration** コマンドレットを使用してのみ取得できます。 これらの設定は、Lync Server コントロールパネルでは使用できません。 会議アテンダントの設定を表示するには、次のような Windows PowerShell コマンドを使用します。これは、会議アテンダント設定のグローバルコレクションを返します。
 
 `Get-CsDialInConferencingConfiguration -Identity "Global"`
 
@@ -471,7 +473,7 @@ PSTN ダイヤルイン会議の会議アテンダント設定を確認します
 
 `Get-CsDialInConferencingConfiguration`
 
-Set-csdialinconferencingconfiguration コマンドレットは、次のようなデータを返します。
+Get-CsDialInConferencingConfiguration コマンドレットは、次のようなデータを返します。
 
 Identity: Global
 

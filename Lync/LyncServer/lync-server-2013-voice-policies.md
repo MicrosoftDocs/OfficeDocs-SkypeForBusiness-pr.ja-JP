@@ -12,20 +12,22 @@ ms:contentKeyID: 48185223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 986350a766716cc8a1fc35a734933f30b25a70ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ca6719ce8d1822f8d1d49ac08dfc6b6f54df7e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211093"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535534"
 ---
+# <a name="voice-policies-in-lync-server-2013"></a>Lync Server 2013 の音声ポリシー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-policies-in-lync-server-2013"></a>Lync Server 2013 の音声ポリシー
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211093"
 
 _**トピックの最終更新日:** 2012-09-21_
 
-Lync Server の*音声ポリシー*によって、ポリシーが割り当てられている各ユーザー、サイト、または組織に対して次のものが定義されます。
+Lync Server の *音声ポリシー* によって、ポリシーが割り当てられている各ユーザー、サイト、または組織に対して次のものが定義されます。
 
   - ユーザーが使用できるエンタープライズ Voip 機能を決定するために有効または無効にできる一連の通話機能。
 
@@ -104,7 +106,7 @@ Lync Server の*音声ポリシー*によって、ポリシーが割り当てら
 
   - [**帯域幅ポリシーの上書き**] により管理者は、特定のユーザーに関する通話受付管理ポリシーによる決定を上書きできます。既定では無効です。
 
-  - **悪意**のある呼び出しのトレースを使用すると、ユーザーは Lync クライアントを使用して悪意のある電話を報告し、通話詳細記録でそのような呼び出しにフラグを付けます。 既定では無効です。
+  - **悪意** のある呼び出しのトレースを使用すると、ユーザーは Lync クライアントを使用して悪意のある電話を報告し、通話詳細記録でそのような呼び出しにフラグを付けます。 既定では無効です。
 
   - **ボイスメール エスケープ**は、同時呼び出しが構成されている場合で、電話が電源オフ、電池切れ、または圏外になっていて、タイマー値に基づいているときに、通話がユーザーの携帯電話のボイスメール システムにすぐにルーティングされることを防ぎます。 この設定でタイマーを有効または無効にし、タイマーの値を設定します。 この構成は、Lync Server 管理シェルを使用してのみ行うことができます。 既定では無効です。
 

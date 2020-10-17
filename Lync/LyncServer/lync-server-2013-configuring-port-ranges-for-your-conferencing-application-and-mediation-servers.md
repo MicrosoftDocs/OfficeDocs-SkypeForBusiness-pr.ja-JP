@@ -12,20 +12,22 @@ ms:contentKeyID: 48184074
 ms.date: 05/01/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3c1666e0f1c6f4c208cf5664741ca7cedbe6a1f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b3df859017ca54d32ad56580c842f748114166d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535064"
 ---
+# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013 での会議、アプリケーション、および仲介サーバー用のポート範囲の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Lync Server 2013 での会議、アプリケーション、および仲介サーバー用のポート範囲の構成
+
 
 </div>
 
@@ -120,7 +122,7 @@ _**トピックの最終更新日:** 2015-04-30_
 
 前述したように、QoS 用に Lync Server ポートを構成する場合は、会議、アプリケーション、および仲介サーバー間でのオーディオポート設定が同一であることを確認する必要があります。and, 2) のポート範囲が重なっていません。 上記の表をよく見ると、3つのサーバーの種類でポート範囲が同一であることがわかります。 たとえば、開始オーディオポートは、各サーバーの種類のポート49152に設定され、各サーバーのオーディオ用に予約されているポートの合計数も8348になります。 ただし、ポートの範囲が重複しています。オーディオポートはポート49152で開始されますが、アプリケーション共有のためにポートが設定されています。 サービスの品質を最大限に利用するためには、一意のポート範囲を使用するようにアプリケーション共有を再構成する必要があります。 たとえば、ポート40803で開始し、8348ポートを使用するようにアプリケーション共有を構成することができます。 (8348 ポートがあるのはなぜですか? これら 8348 40803 の値を一緒に追加すると、アプリケーション共有でポート40803をポート49150が使用されることを意味します。 オーディオポートはポート49152まで開始されないため、重複するポート範囲がなくなります。
 
-アプリケーション共有の新しいポート範囲を選択したら、CsConferencingServer コマンドレットを使用して変更できます。 このようなサーバーはアプリケーション共有トラフィックを処理しないので、アプリケーションサーバーまたは仲介サーバーでこの変更を行う必要はありません。 オーディオトラフィックに使用するポートを再割り当てする場合にのみ、これらのサーバーのポート値を変更する必要があります。
+アプリケーション共有の新しいポート範囲を選択したら、Set-CsConferencingServer コマンドレットを使用して変更できます。 このようなサーバーはアプリケーション共有トラフィックを処理しないので、アプリケーションサーバーまたは仲介サーバーでこの変更を行う必要はありません。 オーディオトラフィックに使用するポートを再割り当てする場合にのみ、これらのサーバーのポート値を変更する必要があります。
 
 単一の会議サーバーでアプリケーション共有のポート値を変更するには、Lync Server 管理シェルで次のようなコマンドを実行します。
 

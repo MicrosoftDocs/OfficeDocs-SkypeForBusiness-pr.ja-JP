@@ -12,20 +12,22 @@ ms:contentKeyID: 48185038
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434f7cc92fd6a6bc284074cce476f4bc3b2eca01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0f457fc96981927ea2b6cb4d4177488dc3f5231
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211073"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535494"
 ---
+# <a name="voice-routes-in-lync-server-2013"></a>Lync Server 2013 の音声ルート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-routes-in-lync-server-2013"></a>Lync Server 2013 の音声ルート
+
 
 </div>
 
@@ -73,7 +75,7 @@ Lync Server は、通話を PSTN にルーティングする方法を柔軟に�
 
 <div>
 
-## <a name="least-cost-routing"></a>最小コストのルーティング
+## <a name="least-cost-routing"></a>Least-Cost ルーティング
 
 さまざまな番号をルーティングするためのトランクを指定する機能を使用すると、コストが最も低いルートを特定し、それに応じてそれらを実装できます。 トランクを選択する際の一般的な規則は、長距離料金を最小限に抑えるために、宛先番号の場所に最も近いゲートウェイを持つトランクを選択することです。 たとえば、ニューヨークで、ローマで番号を呼び出す場合は、IP ネットワークを介して、ローマ支社のゲートウェイを使用してトランクに電話をかけることにより、ローカル呼び出しに対してのみ課金を行います。
 
@@ -85,7 +87,7 @@ Lync Server は、通話を PSTN にルーティングする方法を柔軟に�
 
 ## <a name="translating-outbound-dial-strings"></a>送信ダイヤル文字列の変換
 
-Lync Server 2013 は、直前の先行タスクと同様に、逆引き番号参照 (RNL) を実行するためにすべてのダイヤル文字列を e.164 形式に正規化する必要があります。 ローカルのダイヤル形式で数値を変換する必要があるゲートウェイまたは構内交換機 (Pbx) を使用するトランクでは、Lync Server 2013 で、呼び出し先の番号 (つまり、要求 URI) を操作する際にサポートする1つまたは複数のルールを作成できます。樹幹. たとえば、ダイヤル文字列の先頭から + 44 を削除して、それを0144に置き換えるルールを作成できます。
+Lync Server 2013 は、直前の先行タスクと同様に、逆引き番号参照 (RNL) を実行するためにすべてのダイヤル文字列を e.164 形式に正規化する必要があります。 ローカルのダイヤル形式で数値を変換する必要があるゲートウェイまたは構内交換機 (Pbx) を使用するトランクでは、Lync Server 2013 で、呼び出し先の番号 (つまり、要求 URI) をトランクにルーティングする前に操作する際に役立つ1つまたは複数のルールを作成できます。 たとえば、ダイヤル文字列の先頭から + 44 を削除して、それを0144に置き換えるルールを作成できます。
 
 Lync Server 2013 では、1つまたは複数のルールを作成して、発信番号をトランクにルーティングする前に操作することができます。
 
@@ -97,7 +99,7 @@ Lync Server 2013 では、1つまたは複数のルールを作成して、発�
 
 ## <a name="configuring-caller-id"></a>発信者番号の構成
 
-Lync Server は、発信通話の発信者番号を操作する方法を提供します。 たとえば、組織で従業員の直接ダイヤル内線番号をマスクして、それを汎用の企業または部署の番号に置き換えたい場合、管理者は Lync Server コントロールパネルを使用して発信者 ID を非表示にし、指定された代替発信者番号。 ルーティングロジックの計画では、すべての従業員に対して、このオプションを使用する個人、グループ、およびサイトを検討します。
+Lync Server は、発信通話の発信者番号を操作する方法を提供します。 たとえば、組織で従業員の直接ダイヤル内線番号をマスクして、それを汎用の企業または部署の番号に置き換える場合は、管理者は Lync Server コントロールパネルを使用して発信者番号を非表示にし、指定された代替呼び出し ID で置き換えることができます。 ルーティングロジックの計画では、すべての従業員に対して、このオプションを使用する個人、グループ、およびサイトを検討します。
 
 <div>
 

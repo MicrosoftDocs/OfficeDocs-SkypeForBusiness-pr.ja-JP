@@ -12,20 +12,22 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1765e9108619c5947eda02dd758aa764b0b407e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197060"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534944"
 ---
+# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Lync Server 2013 での監視ノードのインストールと構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>Lync Server 2013 での監視ノードのインストールと構成
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42197060"
 
 _**トピックの最終更新日:** 2013-11-07_
 
-*監視ノード*は、定期的に Lync Server 代理トランザクションを実行するコンピューターです。 *代理トランザクション*は Windows PowerShell コマンドレットで、システムにサインインする機能、またはインスタントメッセージを交換できるかどうかなど、主要なエンドユーザーシナリオが想定どおりに動作していることを確認します。 Lync Server 2013 の場合、System Center Operations Manager は、次の表に示す代理トランザクションを実行できます。 代理トランザクションには、表に示す 3 つの種類があります。
+*監視ノード* は、定期的に Lync Server 代理トランザクションを実行するコンピューターです。 *代理トランザクション* は Windows PowerShell コマンドレットで、システムにサインインする機能、またはインスタントメッセージを交換できるかどうかなど、主要なエンドユーザーシナリオが想定どおりに動作していることを確認します。 Lync Server 2013 の場合、System Center Operations Manager は、次の表に示す代理トランザクションを実行できます。 代理トランザクションには、表に示す 3 つの種類があります。
 
-  - **既定値**です。 既定では、監視ノードが実行する代理トランザクションです。 新しい監視ノードを作成するときに、そのノードが実行する代理トランザクションを指定するオプションがあります。 (これは、 **set-cswatchernodeconfiguration**コマンドレットで使用される Tests パラメーターの目的です。)監視ノードの作成時に Tests パラメーターを使用しない場合、既定の代理トランザクションがすべて自動的に実行され、既定以外の代理トランザクションは実行されません。 これは、たとえば、監視ノードが Test-CsAddressBookService テストを実行するように構成されていますが、テスト-CsExumConnectivity テストを実行するように構成されていないことを意味します。
+  - **既定値**です。 既定では、監視ノードが実行する代理トランザクションです。 新しい監視ノードを作成するときに、そのノードが実行する代理トランザクションを指定するオプションがあります。 (これは、 **set-cswatchernodeconfiguration** コマンドレットで使用される Tests パラメーターの目的です。)監視ノードの作成時に Tests パラメーターを使用しない場合、既定の代理トランザクションがすべて自動的に実行され、既定以外の代理トランザクションは実行されません。 つまり、監視ノードは Test-CsAddressBookService テストを実行するように構成されますが、Test-CsExumConnectivity テストを実行するように構成されることはありません。
 
   - **既定値ではない**。 名前が意味するように、既定以外の代理トランザクションは、監視ノードが既定で実行しないテストです。 ただし、監視ノードは、任意の既定以外の代理トランザクションを実行するように設定できます。 これは、**New-CsWatcherNodeConfiguration** コマンドレットを使用して監視ノードを作成するとき、または作成後の任意の時点で実行できます。 既定以外の代理トランザクションの多くは、追加のセットアップ手順を実行する必要があります。 詳細については、「 [Lync Server 2013 の代理トランザクションの特別なセットアップ手順](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)」を参照してください。
 
@@ -80,7 +82,7 @@ _**トピックの最終更新日:** 2013-11-07_
 <td><p>既定値</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-csp2pav (P2PAV)</p></td>
+<td><p>Test-CsP2PAV (P2PAV)</p></td>
 <td><p>ユーザーがピアツーピア音声通話を開始できることを確認します (シグナリングのみ)。</p></td>
 <td><p>既定値</p></td>
 </tr>
@@ -105,22 +107,22 @@ _**トピックの最終更新日:** 2013-11-07_
 <td><p>既定以外、拡張</p></td>
 </tr>
 <tr class="odd">
-<td><p>テスト-CsAVConference (AvConference)</p></td>
+<td><p>Test-CsAVConference (AvConference)</p></td>
 <td><p>ユーザーが音声/ビデオ会議で作成と参加が可能なことを確認します。</p></td>
 <td><p>既定値</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-csavedgeconnectivity (AVEdgeConnectivity)</p></td>
+<td><p>Test-CsAVEdgeConnectivity (AVEdgeConnectivity)</p></td>
 <td><p>音声ビデオ エッジ サーバーがピアツーピア通話と会議通話を行うための接続を受け入れることができることを確認します。</p></td>
 <td><p>既定以外</p></td>
 </tr>
 <tr class="odd">
-<td><p>Test-csdataconference (DataConference)</p></td>
+<td><p>Test-CsDataConference (DataConference)</p></td>
 <td><p>ユーザーが、データ グループ作業電話会議 (ホワイトボードや投票などのアクティビティが含まれるオンライン ミーティング) に参加できることを確認します。</p></td>
 <td><p>既定以外</p></td>
 </tr>
 <tr class="even">
-<td><p>テスト-CsExumConnectivity (ExumConnectivity)</p></td>
+<td><p>Test-CsExumConnectivity (ExumConnectivity)</p></td>
 <td><p>ユーザーが Exchange ユニファイドメッセージング (UM) に接続できることを確認します。</p></td>
 <td><p>既定以外</p></td>
 </tr>
@@ -130,27 +132,27 @@ _**トピックの最終更新日:** 2013-11-07_
 <td><p>既定値</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-CsGroupIM – TestJoinLauncher (Joinラウンチャー)</p></td>
+<td><p>Test-CsGroupIM – TestJoinLauncher (Joinランチャー)</p></td>
 <td><p>ユーザーがミーティングを作成でき、予定されたミーティングに Web アドレス リンクを介して参加できることを確認します。</p></td>
 <td><p>既定以外</p></td>
 </tr>
 <tr class="odd">
-<td><p>Test-csmcxp2pim (MCXP2PIM)</p></td>
+<td><p>Test-CsMCXP2PIM (MCXP2PIM)</p></td>
 <td><p>モバイル デバイス ユーザーがインスタント メッセージの登録と送信を実行できることを確認します。</p></td>
 <td><p>既定以外</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-cspersistentchatmessage (PersistentChatMessage)</p></td>
+<td><p>Test-CsPersistentChatMessage (PersistentChatMessage)</p></td>
 <td><p>ユーザーが常設チャットサービスを使用してメッセージを交換できることを確認します。</p></td>
 <td><p>既定以外</p></td>
 </tr>
 <tr class="odd">
-<td><p>Test-csunifiedcontactstore (UnifiedContactStore)</p></td>
+<td><p>Test-CsUnifiedContactStore (UnifiedContactStore)</p></td>
 <td><p>統合連絡先ストアを通じてユーザーの連絡先にアクセスできることを確認します。 統合連絡先ストアは、Lync 2013、Outlook、または Outlook Web Access を使用してアクセスできる単一の連絡先セットを管理する方法をユーザーに提供します。</p></td>
 <td><p>既定以外</p></td>
 </tr>
 <tr class="even">
-<td><p>テスト-CsXmppIM (XmppIM)</p></td>
+<td><p>Test-CsXmppIM (XmppIM)</p></td>
 <td><p>インスタント メッセージを XMPP (Extensible Messaging and Presence Protocol) ゲートウェイ経由で送信できることを確認します。</p></td>
 <td><p>既定以外</p></td>
 </tr>
@@ -164,7 +166,7 @@ System Center Operations Manager を使用するために監視ノードをイ�
 
 
 > [!NOTE]  
-> 管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。 さまざまなテスト用コマンドレットの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 コマンドレットのインデックス</A>」を参照してください。
+> 管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。 さまざまな Test-Cs コマンドレットの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 コマンドレットのインデックス</A>」を参照してください。
 
 
 

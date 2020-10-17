@@ -12,20 +12,22 @@ ms:contentKeyID: 48184732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d2ba284f64b311ad48191cf251d1b3d903f595a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f0d1b609f7e053823de68363059d7c8b35c0659
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194960"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533934"
 ---
+# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブの技術要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブの技術要件
+
 
 </div>
 
@@ -63,7 +65,7 @@ Lync Server 2013 の技術要件は次のとおりです。
 
 ## <a name="infrastructure-requirements"></a>インフラストラクチャの要件
 
-Lync Server 2013 のアーカイブインフラストラクチャの要件は、Lync Server 2013 の展開の場合と同じです。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 のインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md)」を参照してください。
+Lync Server 2013 のアーカイブインフラストラクチャの要件は、Lync Server 2013 の展開の場合と同じです。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 のインフラストラクチャ要件の決定](lync-server-2013-determining-your-infrastructure-requirements.md) 」を参照してください。
 
 </div>
 
@@ -103,12 +105,12 @@ Lync Server 2013 は、以下の理由からアーカイブの前提条件を合
     
 
     > [!NOTE]  
-    > Microsoft SQL Server 2008 R2 Express および Microsoft SQL Server 2012 Express はアーカイブに対してサポートされていません。 32ビット版の SQL Server はサポートされていません。 SQL Server のその他の要件および制限については、「計画」のドキュメントまたは「サポート」のドキュメントの「 <A href="lync-server-2013-database-software-support.md">Lync Server 2013 のデータベースソフトウェアサポート</A>」を参照してください。
+    > Microsoft SQL Server 2008 R2 Express および Microsoft SQL Server 2012 Express はアーカイブに対してサポートされていません。 32ビット版の SQL Server はサポートされていません。 SQL Server のその他の要件および制限については、「計画」のドキュメントまたは「サポート」のドキュメントの「 <A href="lync-server-2013-database-software-support.md">Lync Server 2013 のデータベースソフトウェアサポート</A> 」を参照してください。
 
     
     </div>
     
-    アーカイブを展開して有効にする前に、SQL Server プラットフォームをセットアップする必要があります。 トポロジの公開に使用するアカウントに適切な管理権限とアクセス許可がある場合、トポロジを公開するときにアーカイブ データベース (LcsLog) を作成できます。 インストール手順の一部を含め、データベースを後で作成することもできます。 SQL Server の詳細については、SQL Server TechCenter [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045)の「」を参照してください。
+    アーカイブを展開して有効にする前に、SQL Server プラットフォームをセットアップする必要があります。 トポロジの公開に使用するアカウントに適切な管理権限とアクセス許可がある場合、トポロジを公開するときにアーカイブ データベース (LcsLog) を作成できます。 インストール手順の一部を含め、データベースを後で作成することもできます。 SQL Server の詳細については、SQL Server TechCenter の「」を参照してください [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045) 。
 
 </div>
 

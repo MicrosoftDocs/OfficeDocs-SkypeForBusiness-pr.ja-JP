@@ -12,20 +12,22 @@ ms:contentKeyID: 48185785
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c372cae4bd55f4dec59be91c47dbee6497cbf7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cd058e2903160f1c9f4ea06e30959b63953ab01
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206003"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534974"
 ---
+# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>Windows 7 または Windows 8 で実行しているクライアントの Lync Server 2013 でのサービスの品質ポリシーの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>Windows 7 または Windows 8 で実行しているクライアントの Lync Server 2013 でのサービスの品質ポリシーの構成
+
 
 </div>
 
@@ -94,7 +96,7 @@ Windows 7 または Windows 8 コンピューターのサービス品質のオ�
 
 6.  [**ポリシー ベースの QoS**] ダイアログ ボックスの開始ページで、新しいポリシーの名前を [**名前**] ボックスに入力します (たとえば「**Lync Audio**」)。[**DSCP 値を指定する**] を選択し、値を「**46**」に設定します。[**出力方向のスロットル率を指定する**] はオフのままで、[**次へ**] をクリックします。
 
-7. 次のページで、[**この実行可能ファイル名を持つアプリケーションのみ**] を選択し、「 **Lync .exe**」という名前を入力して、[**次へ**] をクリックします。 この設定では、Lync クライアントからの一致するトラフィックのみに優先順位を付けるようにポリシーに指示します。
+7. 次のページで、[ **この実行可能ファイル名を持つアプリケーションのみ** ] を選択し **Lync.exe**名前を入力して、[ **次へ**] をクリックします。 この設定では、Lync クライアントからの一致するトラフィックのみに優先順位を付けるようにポリシーに指示します。
 
 8.  3 ページ目で、[**すべての発信元 IP アドレス**] と [**すべての宛先 IP アドレス**] の両方が選択されていることを確認し、[**次へ**] をクリックします。この 2 つの設定によって、どのコンピューター (IP アドレス) がパケットを送信したか、およびどのコンピューター (IP アドレス) がパケットを受信するかにかかわらず、パケットが管理されるようになります。
 
@@ -140,11 +142,11 @@ Windows 7 または Windows 8 コンピューターのサービス品質のオ�
 
 2.  [**ファイル名を指定して実行**] ダイアログ ボックスで「**regedit**」と入力し、Enter キーを押します。
 
-3.  レジストリエディターで、[ **HKEY\_LOCAL\_MACHINE**] を展開し、[**システム**] を展開し、[ **CurrentControlSet**] を展開し、[**サービス**] を展開して、[ **Tcpip**] を展開します。
+3.  レジストリエディターで、[ **HKEY \_ LOCAL \_ MACHINE**] を展開し、[ **システム**] を展開し、[ **CurrentControlSet**] を展開し、[ **サービス**] を展開して、[ **Tcpip**] を展開します。
 
 4.  [**Tcpip**] を右クリックし、[**新規**] をポイントして [**キー**] をクリックします。新しいレジストリ キーを作成した後、「**QoS**」と入力して Enter キーを押し、キーの名前を変更します。
 
-5.  [**QoS**] を右クリックし、[**新規**] をポイントして [**文字列値**] をクリックします。新しいレジストリ値を作成した後、「**NLA を使用しない**」と入力して Enter キーを押し、キーの名前を変更します。
+5.  [**QoS**] を右クリックし、[**新規**] をポイントして、[**文字列値**] をクリックします。新しいレジストリ値を作成した後で、「**Do not use NLA**」と入力し、Enter キーを押して値の名前を変更します。
 
 6.  [**Do no use NLA**] をダブルクリックします。[**文字列の編集**] ダイアログ ボックスで、[**値のデータ**] ボックスに「**1**」と入力し、[**OK**] をクリックします。
 
@@ -162,7 +164,7 @@ Windows 7 または Windows 8 コンピューターのサービス品質のオ�
 
 2.  [**ファイル名を指定して実行**] ダイアログ ボックスで「**regedit**」と入力し、Enter キーを押します。
 
-3.  レジストリエディターで、[ **HKEY\_LOCAL\_MACHINE**] を展開し、[**システム**] を展開し、[ **CurrentControlSet**] を展開し、[**サービス**] を展開して、[ **Tcpip**] を展開します。
+3.  レジストリエディターで、[ **HKEY \_ LOCAL \_ MACHINE**] を展開し、[ **システム**] を展開し、[ **CurrentControlSet**] を展開し、[ **サービス**] を展開して、[ **Tcpip**] を展開します。
 
 4.  「**QoS**」というレジストリ キーがない場合は、 [**Tcpip**] 右クリックし、[**新規**] をポイントして、[**キー**] をクリックします。新しいキーを作成した後で、「**QoS**」と入力し、Enter キーを押してキーの名前を変更します。
 

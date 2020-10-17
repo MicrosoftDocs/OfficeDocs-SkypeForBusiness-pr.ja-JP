@@ -12,20 +12,22 @@ ms:contentKeyID: 48184522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d459262d5126dc6d55f930b20e54cbb1e69e04e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26feac5b9995aa1a8444029442adcb9c935083d3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210920"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535414"
 ---
+# <a name="voipdetails-table-in-lync-server-2013"></a>Lync Server 2013 の VoipDetails テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voipdetails-table-in-lync-server-2013"></a>Lync Server 2013 の VoipDetails テーブル
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2012-09-28_
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>
@@ -60,25 +62,25 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>日付型</p></td>
 <td><p>Primary</p></td>
-<td><p>セッション要求の時刻。 セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッション要求の時刻。 セッションを一意に識別するために <strong>SessionIdSeq</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sessionidseq と</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために <strong>SessionIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a>」を参照してください。</p></td>
+<td><p>セッションを識別するための ID 番号。 セッションを一意に識別するために <strong>SessionIdTime</strong> と併用されます。 詳細については、「 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 のダイアログテーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Fromnumber Id</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>発信者の <strong>PhoneId</strong>。 詳細については、「 <a href="lync-server-2013-phones-table.md">Lync Server 2013 の電話表</a>」を参照してください。 この値と <strong>FromGatewayId</strong> がどちらも NULL でない場合、発信者は PSTN ユーザーです。</p></td>
+<td><p>発信者の <strong>PhoneId</strong>。 詳細については、「 <a href="lync-server-2013-phones-table.md">Lync Server 2013 の電話表</a> 」を参照してください。 この値と <strong>FromGatewayId</strong> がどちらも NULL でない場合、発信者は PSTN ユーザーです。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Connectednumber Id</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の受信者の <strong>PhoneId</strong>。 詳細については、「 <a href="lync-server-2013-phones-table.md">Lync Server 2013 の電話表</a>」を参照してください。 この値と <strong>ToGatewayId</strong> がどちらも NULL でない場合、通話の受信者は PSTN ユーザーです。</p></td>
+<td><p>通話の受信者の <strong>PhoneId</strong>。 詳細については、「 <a href="lync-server-2013-phones-table.md">Lync Server 2013 の電話表</a> 」を参照してください。 この値と <strong>ToGatewayId</strong> がどちらも NULL でない場合、通話の受信者は PSTN ユーザーです。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServerId</strong></p></td>
@@ -96,13 +98,13 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>FromGatewayId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の発信元のゲートウェイ。 詳細については、「 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイ表</a>」を参照してください。</p></td>
+<td><p>通話の発信元のゲートウェイ。 詳細については、「 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイ表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToGatewayId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>通話の発信先のゲートウェイ。 詳細については、「 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイ表</a>」を参照してください。</p></td>
+<td><p>通話の発信先のゲートウェイ。 詳細については、「 <a href="lync-server-2013-gateways-table.md">Lync Server 2013 のゲートウェイ表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedbyURIId</strong></p></td>
@@ -114,7 +116,7 @@ _**トピックの最終更新日:** 2012-09-28_
 <td><p><strong>DisconnectedbyPhoneId</strong></p></td>
 <td><p>int</p></td>
 <td><p>外部</p></td>
-<td><p>別の電話から切断された通話を切断した電話の ID。 詳細については、「 <a href="lync-server-2013-phones-table.md">Lync Server 2013 の電話表</a>」を参照してください。</p></td>
+<td><p>別の電話から切断された通話を切断した電話の ID。 詳細については、「 <a href="lync-server-2013-phones-table.md">Lync Server 2013 の電話表</a> 」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>

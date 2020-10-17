@@ -12,20 +12,22 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc4ab6a9c32a8b060308526fcdb1f1da403a9e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b77fae816140784e35c81dd9c30f4cf8790f5bef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534734"
 ---
+# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 管理シェル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 管理シェル
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2017-09-20_
 
 
 > [!NOTE]  
-> Skype for Business のコマンドレットリファレンスが docs.microsoft.com に移動されました。 以下のリンクをクリックすると、新しい docs.microsoft.com ページに移動します。 これで、GitHub を通じてコミュニティの投稿に使用できるようになるコンテンツが公開されました。 投稿に興味はありますか? ここでは、リポジトリ内の README を確認してください。<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Skype for Business のコマンドレットリファレンスが docs.microsoft.com に移動されました。 以下のリンクをクリックすると、新しい docs.microsoft.com ページに移動します。 これで、GitHub を通じてコミュニティの投稿に使用できるようになるコンテンツが公開されました。 投稿に興味はありますか? ここでは、リポジトリ内の README を確認してください。 <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -74,7 +76,7 @@ Lync Server 2013 での Windows PowerShell について知っておくべき事�
 
   - Lync server 管理シェルは、すべての Lync Server Enterprise Edition フロントエンドサーバーまたは Standard Edition サーバーに自動的にインストールされます。
 
-  - Windows PowerShell および Microsoft Lync Server 2013 コマンドレットの概要と詳細情報については、「Lync Server Windows PowerShell ブログ[https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)」を参照してください。
+  - Windows PowerShell および Microsoft Lync Server 2013 コマンドレットの概要と詳細情報については、「Lync Server Windows PowerShell ブログ」を参照して [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150) ください。
 
 </div>
 

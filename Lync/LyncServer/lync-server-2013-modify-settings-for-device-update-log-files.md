@@ -12,20 +12,22 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112f9e5a90e0b7b73acc40c6c7ec9d68b256d45d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2118cac5e8380d27e8f273f5cb469efdbddfd9bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534334"
 ---
+# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013 のデバイス更新ログファイルの設定を変更する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a>Lync Server 2013 のデバイス更新ログファイルの設定を変更する
+
 
 </div>
 
@@ -104,15 +106,15 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 3.  **[デバイス ログ構成]** ページで、変更する構成をダブルクリックします。
 
-4.  [**ログ設定の編集**] ダイアログボックスで、次のいずれかの設定を変更します。
+4.  [ **ログ設定の編集** ] ダイアログボックスで、次のいずれかの設定を変更します。
     
-      - **[最大ファイルサイズ (バイト)**   ] ログファイルが削除されるまでの最大サイズを指定します。 既定値は1024000バイト (1 MB) です。
+      - **最大ファイルサイズ (バイト)**    ログファイルが削除されるまでの最大サイズを指定します。 既定値は1024000バイト (1 MB) です。
     
-      - **[最大キャッシュサイズ (バイト)**   ] は、キャッシュがクリアされてデータがログファイルに書き込まれる前に、ログファイルキャッシュに保持できる最大情報量 (バイト単位) を指定します。 既定値は512000バイト (0.5 MB) です。
+      - **最大キャッシュサイズ (バイト)**    キャッシュがクリアされ、データがログファイルに書き込まれる前に、ログファイルキャッシュに保持できる最大情報量 (バイト単位) を指定します。 既定値は512000バイト (0.5 MB) です。
     
-      - **キャッシュをフラッシュする時間 (分) (1-60)**   は、ログファイルキャッシュに格納されている情報が実際のログファイルに書き込まれる頻度を示します。 データがログに記録されると、キャッシュはクリアされます。 既定値は5分です。
+      - **キャッシュをフラッシュする時間 (分) を指定します (1-60)**    ログファイルキャッシュに格納されている情報が実際のログファイルに書き込まれる頻度を示します。 データがログに記録されると、キャッシュはクリアされます。 既定値は5分です。
     
-      - **ログファイルを保持する日数 (1-365)**   削除されるまでにログファイルを保持する日数を指定します。 既定値は10日です。
+      - **ログファイルを保持する日数 (1-365)**    ログファイルを削除するまで保持する日数を指定します。 既定値は10日です。
 
 5.  **[確定]** をクリックします。
 
@@ -122,7 +124,7 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 ## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してログ設定を変更する
 
-デバイス更新のログファイルの設定を変更するには、Windows PowerShell と、 **-CsDeviceUpdateConfiguration 設定**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+デバイス更新のログファイルの設定を変更するには、Windows PowerShell と、 **-CsDeviceUpdateConfiguration 設定** コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
 
 <div>
 
@@ -134,7 +136,7 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 </div>
 
-次の例は、設定を変更するために、 **Set-CsDeviceUpdateConfiguration**を使用するいくつかの方法を示しています。
+次の例は、設定を変更するために、 **Set-CsDeviceUpdateConfiguration** を使用するいくつかの方法を示しています。
 
 <div>
 
@@ -156,7 +158,7 @@ Lync Server コントロールパネルまたは Lync Server 管理シェルを�
 
 </div>
 
-詳細につい[ては、このコマンドレット](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration)のヘルプトピックを参照してください。
+詳細につい [ては、このコマンドレット](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) のヘルプトピックを参照してください。
 
 </div>
 

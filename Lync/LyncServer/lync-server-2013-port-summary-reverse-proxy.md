@@ -12,20 +12,22 @@ ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6259614da322e79f69db40441125b28c95e379c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dfe8a797fa926899774386101ff57fa5733b9918
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534154"
 ---
+# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 のリバースプロキシ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 のリバースプロキシ
+
 
 </div>
 
@@ -76,7 +78,7 @@ _**トピックの最終更新日:** 2013-02-15_
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -84,7 +86,7 @@ _**トピックの最終更新日:** 2013-02-15_
 <td><p>HTTP/TCP/80</p></td>
 <td><p>任意</p></td>
 <td><p>リバース プロキシのリスナー</p></td>
-<td><p>オプションユーザーが http://&lt;publishedsitefqdn&gt;を入力した場合は、HTTPS にリダイレクトします。</p>
+<td><p>オプションユーザーが http://publishedsitefqdn を入力した場合は、HTTPS にリダイレクト &lt; &gt; します。</p>
 <p>また、組織で外部 web サービス公開ルール証明書を変更しない場合に、Lync を実行しているモバイルデバイス用の Office Web Apps および自動検出サービスを使用する場合にも必要です。</p></td>
 </tr>
 <tr class="even">
@@ -111,7 +113,7 @@ _**トピックの最終更新日:** 2013-02-15_
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

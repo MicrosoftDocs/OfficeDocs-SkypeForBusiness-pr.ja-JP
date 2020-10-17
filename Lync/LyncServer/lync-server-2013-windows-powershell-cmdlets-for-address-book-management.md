@@ -12,20 +12,22 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69af5cc5bc9279b1be748cb9a38477ea6d0f3aa6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 170936c8ca4445a7dc4e816c2300176d9b730f80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535324"
 ---
+# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Lync Server 2013 のアドレス帳サービス用の Windows PowerShell コマンドレット
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Lync Server 2013 のアドレス帳サービス用の Windows PowerShell コマンドレット
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42210224"
 
 _**トピックの最終更新日:** 2012-11-01_
 
-Lync Server には、アドレス帳サービスを管理および構成するための Windows PowerShell コマンドラインインターフェイスコマンドレットが多数用意されています。 これらのコマンドレットの一部は、以前のバージョンの Office Communications Server で使用されていた ABServer .exe コマンドの置換です。 以下のトピックには、アドレス帳サービスとその構成に関する情報や、クライアントでアドレス帳サービスのファイルや設定を取得する際にアドレス帳サービスが使用する Web サービスの情報について、設定、作成、および取得を行うために使用するコマンドレットが記載されています。
+Lync Server には、アドレス帳サービスを管理および構成するための Windows PowerShell コマンドラインインターフェイスコマンドレットが多数用意されています。 これらのコマンドレットの一部は、以前のバージョンの Office Communications Server で使用された ABServer.exe コマンドに置き換えられています。 以下のトピックには、アドレス帳サービスとその構成に関する情報や、クライアントでアドレス帳サービスのファイルや設定を取得する際にアドレス帳サービスが使用する Web サービスの情報について、設定、作成、および取得を行うために使用するコマンドレットが記載されています。
 
 これらのすべてのコマンドレットは、管理ツールがインストールされているサーバーまたはワークステーションの Lync server ツールにある Lync Server 管理シェルを介して発行されます。
 

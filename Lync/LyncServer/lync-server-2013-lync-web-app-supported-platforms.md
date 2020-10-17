@@ -12,20 +12,22 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcc5de45da918547a2c26b0e3fcc1e7768c1cbe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 528be9cdc6ba5a256aa3d18e784a26837716802f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186100"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534614"
 ---
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013 の lync Web App がサポートされているプラットフォーム
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013 の lync Web App がサポートされているプラットフォーム
+
 
 </div>
 
@@ -85,7 +87,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <tr class="even">
 <td><p>Windows 10</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
@@ -113,7 +115,7 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>該当なし</p></td>
 <td><p>該当なし</p></td>
 <td><p>いいえ</p></td>
@@ -128,8 +130,8 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
-<td><p>不要</p></td>
+<td><p>必要</p></td>
+<td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
 <td><p>いいえ</p></td>
@@ -141,8 +143,8 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
-<td><p>不要</p></td>
+<td><p>必要</p></td>
+<td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
 <td><p>いいえ</p></td>
@@ -151,10 +153,10 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 <td><p>Windows Server 2008 SP2<sup>3</sup></p></td>
 <td><p>該当なし</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>いいえ</p></td>
 <td><p>はい</p></td>
-<td><p>不要</p></td>
+<td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>いいえ</p></td>
 <td><p>該当なし</p></td>
@@ -179,11 +181,11 @@ Lync Web App を使用するには、次のサポートされているオペレ�
 
 <sup>1</sup> windows 8 および windows 8.1 で、コンピューターベースの音声、ビデオ、アプリケーション表示、アプリケーション共有、デスクトップ表示、およびデスクトップ共有を使用するために必要なプラグインは、internet explorer 10 または internet explorer 11 を実行しているデスクトップの場合にのみインストールできます。 これらの機能は、デスクトップ以外のバージョンの Internet Explorer 10 または Internet Explorer 11 では使用できません。
 
-<sup>2</sup>サポートされている windows 7、windows Server 2008 R2、および Macintosh オペレーティングシステムでは、コンピューターベースの音声、ビデオ、アプリケーション表示、アプリケーション共有、デスクトップ表示、デスクトップ共有など、すべての機能を利用できます。 これらの機能を使用するには、プロンプトが表示されたときにプラグインをインストールする必要があります。 Mac OS X バージョン10.6 は現在サポートされていないことに注意してください。
+<sup>2</sup> サポートされている windows 7、windows Server 2008 R2、および Macintosh オペレーティングシステムでは、コンピューターベースの音声、ビデオ、アプリケーション表示、アプリケーション共有、デスクトップ表示、デスクトップ共有など、すべての機能を利用できます。 これらの機能を使用するには、プロンプトが表示されたときにプラグインをインストールする必要があります。 Mac OS X バージョン10.6 は現在サポートされていないことに注意してください。
 
-<sup>3</sup>サポートされている Windows Server 2008 オペレーティングシステムでは、コンピューターベースの音声とビデオは使用できません。 アプリケーション表示、アプリケーション共有、デスクトップ表示、およびデスクトップ共有を使用できます。
+<sup>3</sup> サポートされている Windows Server 2008 オペレーティングシステムでは、コンピューターベースの音声とビデオは使用できません。 アプリケーション表示、アプリケーション共有、デスクトップ表示、およびデスクトップ共有を使用できます。
 
-<sup>4</sup>プラグインはブラウザーでの npapi のサポートを必要とします。 Firefox はバージョン52.0 の NPAPI のサポートを削除し、Chrome はバージョン45ではサポートされなくなりました。そのため、これらのブラウザーは現在のバージョンではサポートされなくなりました。
+<sup>4</sup>  プラグインはブラウザーでの npapi のサポートを必要とします。 Firefox はバージョン52.0 の NPAPI のサポートを削除し、Chrome はバージョン45ではサポートされなくなりました。そのため、これらのブラウザーは現在のバージョンではサポートされなくなりました。
 
 </div>
 

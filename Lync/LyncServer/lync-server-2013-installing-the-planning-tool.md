@@ -12,20 +12,22 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5ba88a00ed00a36005f9c1a60806e18253d2ce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 970a638a84849120a27748980fa4017570672a35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207273"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534794"
 ---
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Lync Server 2013 での計画ツールのインストール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Lync Server 2013 での計画ツールのインストール
+
 
 </div>
 
@@ -77,13 +79,13 @@ Microsoft Lync Server 2013、計画ツールを使用して Lync Server 2013 イ
 
 2.  Windows エクスプローラーまたはコマンドウィンドウを使用して、計画ツールのインストールファイルをダウンロードしたディレクトリを見つけます。
 
-3.  LyncPlanningTool.msi を検索します。 Windows Explorer で、ファイルをダブルクリックします。 コマンドウィンドウで、ファイルの名前を入力し、enter キーを押して**ファイルを実行**します。
+3.  LyncPlanningTool.msi を検索します。 Windows Explorer で、ファイルをダブルクリックします。 コマンドウィンドウで、ファイルの名前を入力し、enter キーを押して **ファイルを実行** します。
 
 4.  **Microsoft Lync Server 2013、計画ツールセットアップウィザード**の [ようこそ] ページで、[**次へ**] をクリックします。
 
 5.  **[使用許諾契約書]** を読んでから、使用許諾契約書に同意する場合には **[使用許諾契約書に同意します]** チェック ボックスをオンにして、**[次へ]** をクリックします。
 
-6.  計画ツール ファイルをインストールする場所を選択します。 既定の場所は C:\\Program Files (x86)\\Microsoft Lync Server 2013\\Planning Tool です。 インストール先を変更するには、**[変更]** をクリックします。 **[インストール先フォルダの変更]** で、ファイルをインストールする場所を参照または入力し、**[OK]** をクリックしてから、**[次へ]** をクリックします。
+6.  計画ツール ファイルをインストールする場所を選択します。 既定の場所は C: \\ Program Files (x86) \\ Microsoft Lync Server 2013 \\ Planning Tool です。 インストール先を変更するには、**[変更]** をクリックします。 **[インストール先フォルダの変更]** で、ファイルをインストールする場所を参照または入力し、**[OK]** をクリックしてから、**[次へ]** をクリックします。
 
 7.  これで、インストーラーは計画ツールをインストールする準備ができました。 **[インストール]** をクリックして、インストール プロセスを開始します。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6210591be9aaf281b76ea02f6f919ea3d1620db7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7bbe3f6439b357253ae49a5c1609319b6a91bfb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534760"
 ---
+# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>サードパーティ製コラボレーションアプリケーションと Lync Server 2013 の統合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>サードパーティ製コラボレーションアプリケーションと Lync Server 2013 の統合
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 <div>
 
-## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>インターネットベースのコラボレーションアプリケーションと Lync 2013 の統合
+## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Internet-Based コラボレーションアプリケーションと Lync 2013 の統合
 
 一般的に、サードパーティ製コラボレーション アプリケーションの統合手順は次のようになります。
 
@@ -57,7 +59,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
 次の表では、インターネットベースのコラボレーションアプリケーションを Lync 2013 に統合するために必要なレジストリエントリについて説明します。 これらのエントリは、レジストリの次の場所に配置されます。
 
-  - HKEY\_ローカル\_コンピューター\\ソフトウェア\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\パラメーター
+  - HKEY \_ ローカル \_ コンピューター \\ ソフトウェア \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps \\ パラメーター
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>インターネットベースのコラボレーション アプリケーションのレジストリ エントリ
 
@@ -93,7 +95,7 @@ _**トピックの最終更新日:** 2013-02-20_
 <tr class="even">
 <td><p>原点のパス</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>オンライングループ作業アプリケーションを開始するための開催者のパス。 このパスには、Parameters サブキーで定義されている1つ以上のカスタムパラメータを含めることができます。 たとえば、<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code> などです。</p></td>
+<td><p>オンライングループ作業アプリケーションを開始するための開催者のパス。 このパスには、Parameters サブキーで定義されている1つ以上のカスタムパラメータを含めることができます。 たとえば、<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code> のように指定します。</p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
@@ -119,7 +121,7 @@ _**トピックの最終更新日:** 2013-02-20_
 </table>
 
 
-次の表は、パラメーターのレジストリ エントリを示します。 これらのエントリは、HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\パラメーターに配置されます。
+次の表は、パラメーターのレジストリ エントリを示します。 これらのエントリは、HKEY \_ CURRENT \_ USER \\ Software \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps \\ パラメーターに配置されます。
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>インターネットベースのコラボレーション アプリケーションのレジストリ エントリ
 
@@ -140,7 +142,7 @@ _**トピックの最終更新日:** 2013-02-20_
 <tr class="odd">
 <td><p>Param1</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>トークン化された<code>%Parm1%</code>形式 () で使用され、ユーザー固有の値を原点の atorpath レジストリキーに追加します。</p></td>
+<td><p>トークン化された形式 () で使用され <code>%Parm1%</code> 、ユーザー固有の値を原点の Atorpath レジストリキーに追加します。</p></td>
 </tr>
 <tr class="even">
 <td><p>Param2</p></td>
@@ -182,11 +184,11 @@ _**トピックの最終更新日:** 2013-02-20_
 
 <div>
 
-## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>サーバーベースのコラボレーションアプリケーションと Lync 2013 の統合
+## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Server-Based コラボレーションアプリケーションと Lync 2013 の統合
 
-Lync 2013 のサーバーベースのコラボレーションアプリケーションを起動するためのコマンドを追加するための設定は、前のセクションで説明したものと似ています。これは、インターネットベースのコラボレーションアプリケーションと Lync 2013 との統合です。 ただし、OriginatorPath は必要ではなく、いくつかの値が変更されます。 レジストリエントリは次の場所に配置されます。
+Lync 2013 のサーバーベースのグループ作業アプリケーションを起動するためのコマンドを追加するための設定は、前のセクションで説明されているように、Internet-Based コラボレーションアプリケーションと Lync 2013 を統合したものに似ています。 ただし、OriginatorPath は必要ではなく、いくつかの値が変更されます。 レジストリエントリは次の場所に配置されます。
 
-  - HKEY\_ローカル\_コンピューター\\ソフトウェア\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\パラメーター
+  - HKEY \_ ローカル \_ コンピューター \\ ソフトウェア \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps \\ パラメーター
 
 ### <a name="registry-entries-for-a-server-based-collaboration-application"></a>サーバーベースのコラボレーション アプリケーションのレジストリ エントリ
 
@@ -217,7 +219,7 @@ Lync 2013 のサーバーベースのコラボレーションアプリケーシ�
 <tr class="odd">
 <td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>コラボレーション アプリケーションの起動に使用するプロトコル。 Live Meeting 2007 の場合、Path の値はに<code>meet:%conf-uri%</code>設定されます。</p></td>
+<td><p>コラボレーション アプリケーションの起動に使用するプロトコル。 Live Meeting 2007 の場合、Path の値はに設定され <code>meet:%conf-uri%</code> ます。</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionType</p></td>

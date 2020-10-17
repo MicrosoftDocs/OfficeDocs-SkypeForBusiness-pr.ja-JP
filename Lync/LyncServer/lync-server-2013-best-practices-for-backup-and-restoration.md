@@ -12,20 +12,22 @@ ms:contentKeyID: 51541500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30dd3345545ae8c77c4ebfcece7154e91059f9aa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca14913d063a8691d0477af912e70e72b91143fa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535204"
 ---
+# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元のベストプラクティス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元のベストプラクティス
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
   - 定期的なバックアップを適切な間隔で遂行する。 一番簡単で、特によく使われるバックアップの種類とローテーションのスケジュールは、SQL Server データベース全体を夜間に毎日完全バックアップするというものです。 その後、復元が必要な場合、復元プロセスでは1つのバックアップのみが必要であり、1日あたりのデータが失われることはありません。
 
-  - コマンドレットまたは Lync Server コントロールパネルを使用して構成を変更する場合は、この**コマンドレットを使用して**、変更を行った後にトポロジ構成ファイル (Xds) のスナップショットバックアップを取得し、データベースを復元する必要がある場合に変更が失われないようにします。 この構成は、XML 形式でバックアップされ、ZIP ファイルとして圧縮されることに注意してください。
+  - コマンドレットまたは Lync Server コントロールパネルを使用して構成を変更する場合は、この **コマンドレットを使用して** 、変更を行った後にトポロジ構成ファイル (Xds) のスナップショットバックアップを取得し、データベースを復元する必要がある場合に変更が失われないようにします。 この構成は、XML 形式でバックアップされ、ZIP ファイルとして圧縮されることに注意してください。
 
   - Lync Server のバックアップに使用する予定の共有フォルダーに、バックアップされたすべてのデータを保持するのに十分なディスク容量があることを確認します。
 

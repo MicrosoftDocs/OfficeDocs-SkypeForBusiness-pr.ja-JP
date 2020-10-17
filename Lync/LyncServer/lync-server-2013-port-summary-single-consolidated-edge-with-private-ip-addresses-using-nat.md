@@ -12,20 +12,22 @@ ms:contentKeyID: 48183877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 870732df847d589ebb24751977babc8182d79a3f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a5aaa4628a92174aca39579c5f2e6a8e4f31987
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183835"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534004"
 ---
+# <a name="port-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 で NAT を使用するプライベート IP アドレスを持つ単一統合エッジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 で NAT を使用するプライベート IP アドレスを持つ単一統合エッジ
+
 
 </div>
 
@@ -67,7 +69,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -185,7 +187,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>コメント</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -241,19 +243,19 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</p></td>
+<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ収集</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</p></td>
+<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ収集</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>任意</p></td>
 <td><p>エッジサーバーの内部インターフェイス</p></td>
-<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController) またはエージェント (Clscontroller. .exe) コマンドとログ収集</p></td>
+<td><p>Lync Server 管理シェルと集中ログサービスコマンドレットを使用した集中ログサービスコントローラー、ClsController コマンドライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ収集</p></td>
 </tr>
 </tbody>
 </table>
@@ -278,7 +280,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -311,7 +313,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>役割/プロトコル/TCP または UDP/ポート</th>
 <th>送信元 IP アドレス</th>
 <th>宛先 IP アドレス</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -374,7 +376,7 @@ IPv4 に加えて、エッジサーバーは IPv6 をサポートするように
 <th>プロトコル/TCP または UDP/ポート</th>
 <th>送信元 (IP アドレス)</th>
 <th>宛先 (IP アドレス)</th>
-<th>コメント</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
