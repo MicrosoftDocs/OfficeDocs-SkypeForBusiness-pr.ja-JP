@@ -12,20 +12,22 @@ ms:contentKeyID: 49733881
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afd0845366471c94ba8afaeb1e8ae05ff604f54f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 705c2887456c501bad8a2d593883c52c727c6a87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186220"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505974"
 ---
+# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="ec818-102">Lync Server 2013 の lync Phone Edition の構成設定</span><span class="sxs-lookup"><span data-stu-id="ec818-102">Lync Phone Edition configuration settings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="b9408-102">Lync Server 2013 の lync Phone Edition の構成設定</span><span class="sxs-lookup"><span data-stu-id="b9408-102">Lync Phone Edition configuration settings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,23 +37,23 @@ ms.locfileid: "42186220"
 
 <span> </span>
 
-<span data-ttu-id="b9408-103">_**トピックの最終更新日:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="b9408-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="ec818-103">_**トピックの最終更新日:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="ec818-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="b9408-104">Lync Phone Edition を実行しているデバイスの構成設定をグローバルに適用するか、または特定のサイトに適用する設定の新しいコレクションを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="b9408-104">Configuration settings for devices running Lync Phone Edition apply globally, or you can create new collections of settings that apply to a particular site.</span></span> <span data-ttu-id="b9408-105">コレクションには、SIP セキュリティ、デバイスロック設定などが含まれます。</span><span class="sxs-lookup"><span data-stu-id="b9408-105">Collections include SIP security, device lock settings, and more.</span></span>
+<span data-ttu-id="ec818-104">Lync Phone Edition を実行しているデバイスの構成設定をグローバルに適用するか、または特定のサイトに適用する設定の新しいコレクションを作成することができます。</span><span class="sxs-lookup"><span data-stu-id="ec818-104">Configuration settings for devices running Lync Phone Edition apply globally, or you can create new collections of settings that apply to a particular site.</span></span> <span data-ttu-id="ec818-105">コレクションには、SIP セキュリティ、デバイスロック設定などが含まれます。</span><span class="sxs-lookup"><span data-stu-id="ec818-105">Collections include SIP security, device lock settings, and more.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b9408-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="b9408-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ec818-106">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="ec818-106">In This Section</span></span>
 
-  - [<span data-ttu-id="b9408-107">Lync Server 2013 での Lync Phone Edition の構成設定情報の表示</span><span class="sxs-lookup"><span data-stu-id="b9408-107">View Lync Phone Edition configuration settings information in Lync Server 2013</span></span>](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
+  - [<span data-ttu-id="ec818-107">Lync Server 2013 での Lync Phone Edition の構成設定情報の表示</span><span class="sxs-lookup"><span data-stu-id="ec818-107">View Lync Phone Edition configuration settings information in Lync Server 2013</span></span>](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
 
-  - [<span data-ttu-id="b9408-108">Lync Server 2013 の Lync Phone Edition 構成設定のコレクションを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="b9408-108">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
+  - [<span data-ttu-id="ec818-108">Lync Server 2013 の Lync Phone Edition 構成設定のコレクションを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="ec818-108">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [<span data-ttu-id="b9408-109">Lync Server 2013 の Lync Phone Edition 構成設定の既存コレクションの削除</span><span class="sxs-lookup"><span data-stu-id="b9408-109">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
+  - [<span data-ttu-id="ec818-109">Lync Server 2013 の Lync Phone Edition 構成設定の既存コレクションの削除</span><span class="sxs-lookup"><span data-stu-id="ec818-109">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [<span data-ttu-id="b9408-110">Lync Server 2013 で Lync Phone Edition のセキュリティ設定を構成する</span><span class="sxs-lookup"><span data-stu-id="b9408-110">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
+  - [<span data-ttu-id="ec818-110">Lync Server 2013 で Lync Phone Edition のセキュリティ設定を構成する</span><span class="sxs-lookup"><span data-stu-id="ec818-110">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
 
-  - [<span data-ttu-id="b9408-111">Lync Server 2013 での電話ロックの適用</span><span class="sxs-lookup"><span data-stu-id="b9408-111">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
+  - [<span data-ttu-id="ec818-111">Lync Server 2013 での電話ロックの適用</span><span class="sxs-lookup"><span data-stu-id="ec818-111">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 

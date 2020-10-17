@@ -12,20 +12,22 @@ ms:contentKeyID: 48184222
 ms.date: 02/01/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 286ffe3450c3363b94e3ef1b0cd1905e70fd36eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 00736a94cc383a362a3f952519acc603c5beefab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217913"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507194"
 ---
+# <a name="managing-response-groups-in-lync-server-2013"></a><span data-ttu-id="4f051-102">Lync Server 2013 での応答グループの管理</span><span class="sxs-lookup"><span data-stu-id="4f051-102">Managing response groups in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-groups-in-lync-server-2013"></a><span data-ttu-id="46ee5-102">Lync Server 2013 での応答グループの管理</span><span class="sxs-lookup"><span data-stu-id="46ee5-102">Managing response groups in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,39 +37,39 @@ ms.locfileid: "42217913"
 
 <span> </span>
 
-<span data-ttu-id="46ee5-103">_**トピックの最終更新日:** 2018-02-01_</span><span class="sxs-lookup"><span data-stu-id="46ee5-103">_**Topic Last Modified:** 2018-02-01_</span></span>
+<span data-ttu-id="4f051-103">_**トピックの最終更新日:** 2018-02-01_</span><span class="sxs-lookup"><span data-stu-id="4f051-103">_**Topic Last Modified:** 2018-02-01_</span></span>
 
-<span data-ttu-id="46ee5-104">応答グループは、ヘルプ デスクなどの特定の領域への通話をキューに登録し、\*\*"エージェント" と呼ばれる人々の指定のグループにそれらの通話をルーティングできる通話管理機能です。</span><span class="sxs-lookup"><span data-stu-id="46ee5-104">Response groups are a call management feature that enables you to queue calls that are made to a specific area, such as a Help Desk, and then route the calls to a designated group of people, called *agents*.</span></span>
+<span data-ttu-id="4f051-104">応答グループは、ヘルプ デスクなどの特定の領域への通話をキューに登録し、\*\*"エージェント" と呼ばれる人々の指定のグループにそれらの通話をルーティングできる通話管理機能です。</span><span class="sxs-lookup"><span data-stu-id="4f051-104">Response groups are a call management feature that enables you to queue calls that are made to a specific area, such as a Help Desk, and then route the calls to a designated group of people, called *agents*.</span></span>
 
-<span data-ttu-id="46ee5-105">応答グループを管理するには、エージェント グループ、キュー、およびワークフローを構成します。これにより、通話が発生した時点からエージェントがその通話に応答するまでの間に行われる処理が定義されます。</span><span class="sxs-lookup"><span data-stu-id="46ee5-105">To manage response groups, you configure agent groups, queues, and workflows, which define what happens to a call from the time it is placed until an agent answers it.</span></span>
+<span data-ttu-id="4f051-105">応答グループを管理するには、エージェント グループ、キュー、およびワークフローを構成します。これにより、通話が発生した時点からエージェントがその通話に応答するまでの間に行われる処理が定義されます。</span><span class="sxs-lookup"><span data-stu-id="4f051-105">To manage response groups, you configure agent groups, queues, and workflows, which define what happens to a call from the time it is placed until an agent answers it.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="46ee5-106">応答グループ展開の1つのプールに300を超えるワークフローがある場合は、Lync Server 管理シェルコマンドレットを使用してワークフローを作成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="46ee5-106">If you have more than 300 workflows in a single pool in your Response Group deployment, it is better to use Lync Server Management Shell cmdlets to create the workflows.</span></span> <span data-ttu-id="46ee5-107">応答グループ構成ツールを使用して、300 個を超えるワークフローがあるプールのワークフローを作成すると、Web ページの読み込みに時間がかかります。</span><span class="sxs-lookup"><span data-stu-id="46ee5-107">If you use the Response Group Configuration Tool to create workflows for a pool that has more than 300 workflows, the webpage takes a long time to load.</span></span> <span data-ttu-id="46ee5-108">キューを経由してワークフローに間接的に関連付けられているエージェントの数には、ページの読み込みに比例した影響もあります。</span><span class="sxs-lookup"><span data-stu-id="46ee5-108">The number of agents that are indirectly associated with workflows through the queues also has a proportional effect on page loading.</span></span>
+> <span data-ttu-id="4f051-106">応答グループ展開の1つのプールに300を超えるワークフローがある場合は、Lync Server 管理シェルコマンドレットを使用してワークフローを作成することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="4f051-106">If you have more than 300 workflows in a single pool in your Response Group deployment, it is better to use Lync Server Management Shell cmdlets to create the workflows.</span></span> <span data-ttu-id="4f051-107">応答グループ構成ツールを使用して、300 個を超えるワークフローがあるプールのワークフローを作成すると、Web ページの読み込みに時間がかかります。</span><span class="sxs-lookup"><span data-stu-id="4f051-107">If you use the Response Group Configuration Tool to create workflows for a pool that has more than 300 workflows, the webpage takes a long time to load.</span></span> <span data-ttu-id="4f051-108">キューを経由してワークフローに間接的に関連付けられているエージェントの数には、ページの読み込みに比例した影響もあります。</span><span class="sxs-lookup"><span data-stu-id="4f051-108">The number of agents that are indirectly associated with workflows through the queues also has a proportional effect on page loading.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="46ee5-109">このセクションのトピックでは、展開で応答グループアプリケーションをカスタマイズして管理するために実行できるタスクの詳細な手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="46ee5-109">Topics in this section provide step-by-step procedures for tasks that you can perform to customize and maintain the Response Group application in your deployment</span></span>
+<span data-ttu-id="4f051-109">このセクションのトピックでは、展開で応答グループアプリケーションをカスタマイズして管理するために実行できるタスクの詳細な手順について説明します。</span><span class="sxs-lookup"><span data-stu-id="4f051-109">Topics in this section provide step-by-step procedures for tasks that you can perform to customize and maintain the Response Group application in your deployment</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="46ee5-110">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="46ee5-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4f051-110">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="4f051-110">In This Section</span></span>
 
-  - [<span data-ttu-id="46ee5-111">Lync Server 2013 での応答グループエージェントグループの管理</span><span class="sxs-lookup"><span data-stu-id="46ee5-111">Managing Response Group agent groups in Lync Server 2013</span></span>](lync-server-2013-managing-response-group-agent-groups.md)
+  - [<span data-ttu-id="4f051-111">Lync Server 2013 での応答グループエージェントグループの管理</span><span class="sxs-lookup"><span data-stu-id="4f051-111">Managing Response Group agent groups in Lync Server 2013</span></span>](lync-server-2013-managing-response-group-agent-groups.md)
 
-  - [<span data-ttu-id="46ee5-112">Lync Server 2013 での応答グループキューの管理</span><span class="sxs-lookup"><span data-stu-id="46ee5-112">Managing Response Group queues in Lync Server 2013</span></span>](lync-server-2013-managing-response-group-queues.md)
+  - [<span data-ttu-id="4f051-112">Lync Server 2013 での応答グループキューの管理</span><span class="sxs-lookup"><span data-stu-id="4f051-112">Managing Response Group queues in Lync Server 2013</span></span>](lync-server-2013-managing-response-group-queues.md)
 
-  - [<span data-ttu-id="46ee5-113">Lync Server 2013 での応答グループワークフローの管理</span><span class="sxs-lookup"><span data-stu-id="46ee5-113">Managing Response Group workflows in Lync Server 2013</span></span>](lync-server-2013-managing-response-group-workflows.md)
+  - [<span data-ttu-id="4f051-113">Lync Server 2013 での応答グループワークフローの管理</span><span class="sxs-lookup"><span data-stu-id="4f051-113">Managing Response Group workflows in Lync Server 2013</span></span>](lync-server-2013-managing-response-group-workflows.md)
 
-  - [<span data-ttu-id="46ee5-114">Lync Server 2013 でのアプリケーションレベルの応答グループ設定の管理</span><span class="sxs-lookup"><span data-stu-id="46ee5-114">Managing application-level Response Group settings in Lync Server 2013</span></span>](lync-server-2013-managing-application-level-response-group-settings.md)
+  - [<span data-ttu-id="4f051-114">Lync Server 2013 でのアプリケーションレベルの応答グループ設定の管理</span><span class="sxs-lookup"><span data-stu-id="4f051-114">Managing application-level Response Group settings in Lync Server 2013</span></span>](lync-server-2013-managing-application-level-response-group-settings.md)
 
-  - [<span data-ttu-id="46ee5-115">Lync Server 2013 の新しいプールへの応答グループの移動</span><span class="sxs-lookup"><span data-stu-id="46ee5-115">Moving response groups to a new pool in Lync Server 2013</span></span>](lync-server-2013-moving-response-groups-to-a-new-pool.md)
+  - [<span data-ttu-id="4f051-115">Lync Server 2013 の新しいプールへの応答グループの移動</span><span class="sxs-lookup"><span data-stu-id="4f051-115">Moving response groups to a new pool in Lync Server 2013</span></span>](lync-server-2013-moving-response-groups-to-a-new-pool.md)
 
-  - [<span data-ttu-id="46ee5-116">障害時に Lync Server 2013 で応答グループを管理する</span><span class="sxs-lookup"><span data-stu-id="46ee5-116">Managing response groups in Lync Server 2013 during a disaster</span></span>](lync-server-2013-managing-response-groups-during-a-disaster.md)
+  - [<span data-ttu-id="4f051-116">障害時に Lync Server 2013 で応答グループを管理する</span><span class="sxs-lookup"><span data-stu-id="4f051-116">Managing response groups in Lync Server 2013 during a disaster</span></span>](lync-server-2013-managing-response-groups-during-a-disaster.md)
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73138d5cbde1a835ab632fe98bf57ef58f11c0da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6b0af841385bff8b11d46dd24793de5cdcf81da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217153"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507104"
 ---
+# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a><span data-ttu-id="ff222-102">Lync Server 2013 の新しいプールへの応答グループの移動</span><span class="sxs-lookup"><span data-stu-id="ff222-102">Moving response groups to a new pool in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a><span data-ttu-id="465cd-102">Lync Server 2013 の新しいプールへの応答グループの移動</span><span class="sxs-lookup"><span data-stu-id="465cd-102">Moving response groups to a new pool in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42217153"
 
 <span> </span>
 
-<span data-ttu-id="465cd-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="465cd-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="ff222-103">_**トピックの最終更新日:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="ff222-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="465cd-104">Lync Server 2013 は、完全修飾ドメイン名 (FQDN) が異なる場合でも、あるプールから別のプールに応答グループを移動するための新しいコマンドレットのサポートを導入しました。</span><span class="sxs-lookup"><span data-stu-id="465cd-104">Lync Server 2013 introduces new cmdlet support for moving response groups from one pool to another pool, even when the fully qualified domain name (FQDN) is different.</span></span>
+<span data-ttu-id="ff222-104">Lync Server 2013 は、完全修飾ドメイン名 (FQDN) が異なる場合でも、あるプールから別のプールに応答グループを移動するための新しいコマンドレットのサポートを導入しました。</span><span class="sxs-lookup"><span data-stu-id="ff222-104">Lync Server 2013 introduces new cmdlet support for moving response groups from one pool to another pool, even when the fully qualified domain name (FQDN) is different.</span></span>
 
-<span data-ttu-id="465cd-105">次の手順を使用して、応答グループを1つのフロントエンドプールから別の FQDN の別のフロントエンドプールに移動します。</span><span class="sxs-lookup"><span data-stu-id="465cd-105">Use the steps in the following procedure to move response groups from one Front End pool to another Front End pool with a different FQDN.</span></span>
+<span data-ttu-id="ff222-105">次の手順を使用して、応答グループを1つのフロントエンドプールから別の FQDN の別のフロントエンドプールに移動します。</span><span class="sxs-lookup"><span data-stu-id="ff222-105">Use the steps in the following procedure to move response groups from one Front End pool to another Front End pool with a different FQDN.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="465cd-106">共存環境では、Lync Server 2013&nbsp;フロントエンドプール間でのみ応答グループを移動できます。</span><span class="sxs-lookup"><span data-stu-id="465cd-106">In a coexistence environment, you can move response groups only between Lync Server 2013&nbsp;Front End pools.</span></span>
+> <span data-ttu-id="ff222-106">共存環境では、Lync Server 2013 フロントエンドプール間でのみ応答グループを移動でき &nbsp; ます。</span><span class="sxs-lookup"><span data-stu-id="ff222-106">In a coexistence environment, you can move response groups only between Lync Server 2013&nbsp;Front End pools.</span></span>
 
 
 
@@ -53,29 +55,29 @@ ms.locfileid: "42217153"
 
 <div>
 
-## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a><span data-ttu-id="465cd-107">応答グループを異なる FQDN を持つプールに移動するには</span><span class="sxs-lookup"><span data-stu-id="465cd-107">To move response groups to a pool with a different FQDN</span></span>
+## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a><span data-ttu-id="ff222-107">応答グループを異なる FQDN を持つプールに移動するには</span><span class="sxs-lookup"><span data-stu-id="ff222-107">To move response groups to a pool with a different FQDN</span></span>
 
-1.  <span data-ttu-id="465cd-108">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="465cd-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="ff222-108">Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="ff222-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="465cd-p101">移動元のプール内の応答グループをエクスポートします。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="465cd-p101">Export the response groups in the source pool. At the command line, type:</span></span>
+2.  <span data-ttu-id="ff222-p101">移動元のプール内の応答グループをエクスポートします。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ff222-p101">Export the response groups in the source pool. At the command line, type:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
-    <span data-ttu-id="465cd-111">例:</span><span class="sxs-lookup"><span data-stu-id="465cd-111">For example:</span></span>
+    <span data-ttu-id="ff222-111">例:</span><span class="sxs-lookup"><span data-stu-id="ff222-111">For example:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     
-    <span data-ttu-id="465cd-p102">エクスポート中に移動元のプールから応答グループを削除するには、–RemoveExportedConfiguration パラメーターを含めます。たとえば、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="465cd-p102">To remove the response groups from the source pool during the export, include the –RemoveExportedConfiguration parameter. For example:</span></span>
+    <span data-ttu-id="ff222-p102">エクスポート中に移動元のプールから応答グループを削除するには、–RemoveExportedConfiguration パラメーターを含めます。たとえば、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ff222-p102">To remove the response groups from the source pool during the export, include the –RemoveExportedConfiguration parameter. For example:</span></span>
     
         Export-CsRgsConfiguration -Source ApplicationServer:source.contoso.com -FileName "C:\RgsExportSource.zip" -RemoveExportedConfiguration
 
-3.  <span data-ttu-id="465cd-p103">応答グループを移動先のプールにインポートし、移動先のプールを新しい所有者として割り当てます。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="465cd-p103">Import the response groups to the destination pool and assign the destination pool as the new owner. At the command line, type:</span></span>
+3.  <span data-ttu-id="ff222-p103">応答グループを移動先のプールにインポートし、移動先のプールを新しい所有者として割り当てます。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ff222-p103">Import the response groups to the destination pool and assign the destination pool as the new owner. At the command line, type:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    <span data-ttu-id="465cd-116">応答グループのアプリケーションレベルの設定をソースプールから移行先のプールにコピーする場合は、-ReplaceExistingRgsSettings パラメーターを含めます。</span><span class="sxs-lookup"><span data-stu-id="465cd-116">If you also want to copy the Response Group application-level settings from the source pool to the destination pool, include the –ReplaceExistingRgsSettings parameter.</span></span> <span data-ttu-id="465cd-117">プールごとにアプリケーションレベルの設定のセットを 1 つだけ定義できます。</span><span class="sxs-lookup"><span data-stu-id="465cd-117">You can define only one set of application-level settings per pool.</span></span> <span data-ttu-id="465cd-118">アプリケーションレベルの設定をソース プールから転送先プールにコピーする場合は、転送先プールの設定がソース プールの設定に置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="465cd-118">If you copy the application-level settings from the source pool to the destination pool, the settings from the source pool replace the settings for the destination pool.</span></span> <span data-ttu-id="465cd-119">アプリケーションレベルの設定をソース プールからコピーしない場合は、転送先プールの既存の設定が、インポートされた応答グループに適用されます。</span><span class="sxs-lookup"><span data-stu-id="465cd-119">If you do not copy the application-level settings from the source pool, the existing settings from the destination pool apply to the imported response groups.</span></span>
+    <span data-ttu-id="ff222-116">応答グループのアプリケーションレベルの設定をソースプールから移行先のプールにコピーする場合は、-ReplaceExistingRgsSettings パラメーターを含めます。</span><span class="sxs-lookup"><span data-stu-id="ff222-116">If you also want to copy the Response Group application-level settings from the source pool to the destination pool, include the –ReplaceExistingRgsSettings parameter.</span></span> <span data-ttu-id="ff222-117">プールごとにアプリケーションレベルの設定のセットを 1 つだけ定義できます。</span><span class="sxs-lookup"><span data-stu-id="ff222-117">You can define only one set of application-level settings per pool.</span></span> <span data-ttu-id="ff222-118">アプリケーションレベルの設定をソース プールから転送先プールにコピーする場合は、転送先プールの設定がソース プールの設定に置き換えられます。</span><span class="sxs-lookup"><span data-stu-id="ff222-118">If you copy the application-level settings from the source pool to the destination pool, the settings from the source pool replace the settings for the destination pool.</span></span> <span data-ttu-id="ff222-119">アプリケーションレベルの設定をソース プールからコピーしない場合は、転送先プールの既存の設定が、インポートされた応答グループに適用されます。</span><span class="sxs-lookup"><span data-stu-id="ff222-119">If you do not copy the application-level settings from the source pool, the existing settings from the destination pool apply to the imported response groups.</span></span>
     
-    <span data-ttu-id="465cd-120">例:</span><span class="sxs-lookup"><span data-stu-id="465cd-120">For example:</span></span>
+    <span data-ttu-id="ff222-120">例:</span><span class="sxs-lookup"><span data-stu-id="ff222-120">For example:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingRgsSettings
     
@@ -83,42 +85,42 @@ ms.locfileid: "42217153"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="465cd-121">アプリケーションレベルの設定には、既定の保留音の構成、既定の保留音の音声ファイル、エージェント リングバックの猶予期間、および通話コンテキストの構成が含まれます。</span><span class="sxs-lookup"><span data-stu-id="465cd-121">Application-level settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span> <span data-ttu-id="465cd-122">これらの構成を表示するには、<STRONG>Get-CsRgsConfiguration</STRONG> コマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="465cd-122">To view these configuration settings, run the <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet.</span></span> <span data-ttu-id="465cd-123">このコマンドレットの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">get-help</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="465cd-123">For details about this cmdlet, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.</span></span>
+    > <span data-ttu-id="ff222-121">アプリケーションレベルの設定には、既定の保留音の構成、既定の保留音の音声ファイル、エージェント リングバックの猶予期間、および通話コンテキストの構成が含まれます。</span><span class="sxs-lookup"><span data-stu-id="ff222-121">Application-level settings include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span> <span data-ttu-id="ff222-122">これらの構成を表示するには、<STRONG>Get-CsRgsConfiguration</STRONG> コマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="ff222-122">To view these configuration settings, run the <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet.</span></span> <span data-ttu-id="ff222-123">このコマンドレットの詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">get-help</A>」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ff222-123">For details about this cmdlet, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="465cd-124">次の操作を実行してインポートされた応答グループの構成を表示することにより、インポートが成功したことを確認します。</span><span class="sxs-lookup"><span data-stu-id="465cd-124">Verify that the import was successful by displaying the imported response group configuration by doing the following:</span></span>
+4.  <span data-ttu-id="ff222-124">次の操作を実行してインポートされた応答グループの構成を表示することにより、インポートが成功したことを確認します。</span><span class="sxs-lookup"><span data-stu-id="ff222-124">Verify that the import was successful by displaying the imported response group configuration by doing the following:</span></span>
     
-      - <span data-ttu-id="465cd-p106">すべてのワークフローがインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="465cd-p106">Verify that all the workflows were imported. At the command line, type the following:</span></span>
+      - <span data-ttu-id="ff222-p106">すべてのワークフローがインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ff222-p106">Verify that all the workflows were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - <span data-ttu-id="465cd-p107">すべてのキューがインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="465cd-p107">Verify that all the queues were imported. At the command line, type the following:</span></span>
+      - <span data-ttu-id="ff222-p107">すべてのキューがインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ff222-p107">Verify that all the queues were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - <span data-ttu-id="465cd-p108">すべてのエージェント グループがインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="465cd-p108">Verify that all the agent groups were imported. At the command line, type the following:</span></span>
+      - <span data-ttu-id="ff222-p108">すべてのエージェント グループがインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ff222-p108">Verify that all the agent groups were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - <span data-ttu-id="465cd-p109">すべての営業時間がインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="465cd-p109">Verify that all the hours of business were imported. At the command line, type the following:</span></span>
+      - <span data-ttu-id="ff222-p109">すべての営業時間がインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ff222-p109">Verify that all the hours of business were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<destination pool FQDN>" 
     
-      - <span data-ttu-id="465cd-p110">すべての休日セットがインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="465cd-p110">Verify that all the holiday sets were imported. At the command line, type the following:</span></span>
+      - <span data-ttu-id="ff222-p110">すべての休日セットがインポートされたことを確認します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ff222-p110">Verify that all the holiday sets were imported. At the command line, type the following:</span></span>
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<destination pool FQDN>" 
 
-5.  <span data-ttu-id="465cd-135">応答グループの 1 つに電話をかけ、通話が正しく処理されることを確認して、インポートが正常に完了したことを確認します。</span><span class="sxs-lookup"><span data-stu-id="465cd-135">Verify that the import was successful by placing a call to one of the response groups and verifying that the call is handled correctly.</span></span>
+5.  <span data-ttu-id="ff222-135">応答グループの 1 つに電話をかけ、通話が正しく処理されることを確認して、インポートが正常に完了したことを確認します。</span><span class="sxs-lookup"><span data-stu-id="ff222-135">Verify that the import was successful by placing a call to one of the response groups and verifying that the call is handled correctly.</span></span>
 
-6.  <span data-ttu-id="465cd-136">公式エージェント グループのメンバーであるエージェントに、移動先のプール内のエージェント グループにサインインするように要求します。</span><span class="sxs-lookup"><span data-stu-id="465cd-136">Request agents who are members of formal agent groups to sign in to their agent groups in the destination pool.</span></span>
+6.  <span data-ttu-id="ff222-136">公式エージェント グループのメンバーであるエージェントに、移動先のプール内のエージェント グループにサインインするように要求します。</span><span class="sxs-lookup"><span data-stu-id="ff222-136">Request agents who are members of formal agent groups to sign in to their agent groups in the destination pool.</span></span>
 
-7.  <span data-ttu-id="465cd-p111">前の手順で移動元のプールから応答グループを削除しなかった場合は、移動元のプールから応答グループを削除します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="465cd-p111">If you did not previously remove response groups from the source pool, remove the response groups from the source pool. At the command line, type:</span></span>
+7.  <span data-ttu-id="ff222-p111">前の手順で移動元のプールから応答グループを削除しなかった場合は、移動元のプールから応答グループを削除します。コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="ff222-p111">If you did not previously remove response groups from the source pool, remove the response groups from the source pool. At the command line, type:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source pool FQDN> -RemoveExportedConfiguration -FileName "<temporary export file name>"
     
-    <span data-ttu-id="465cd-139">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="465cd-139">For example:</span></span>
+    <span data-ttu-id="ff222-139">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="ff222-139">For example:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -RemoveExportedConfiguration -FileName "C:\TempRGsConfiguration.zip"
 
