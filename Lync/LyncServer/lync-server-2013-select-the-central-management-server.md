@@ -12,20 +12,22 @@ ms:contentKeyID: 48183561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1345a26cd7535fbeccf34c822496051d2dd97a9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef3cff58600697f64b64860f37a7daab8ebfc8f1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182460"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510424"
 ---
+# <a name="select-the-central-management-server-in-lync-server-2013"></a><span data-ttu-id="25ec9-102">Lync Server 2013 で中央管理サーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="25ec9-102">Select the Central Management Server in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="select-the-central-management-server-in-lync-server-2013"></a><span data-ttu-id="8d966-102">Lync Server 2013 で中央管理サーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="8d966-102">Select the Central Management Server in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42182460"
 
 <span> </span>
 
-<span data-ttu-id="8d966-103">_**トピックの最終更新日:** 2012-01-02_</span><span class="sxs-lookup"><span data-stu-id="8d966-103">_**Topic Last Modified:** 2012-01-02_</span></span>
+<span data-ttu-id="25ec9-103">_**トピックの最終更新日:** 2012-01-02_</span><span class="sxs-lookup"><span data-stu-id="25ec9-103">_**Topic Last Modified:** 2012-01-02_</span></span>
 
-<span data-ttu-id="8d966-104">トポロジを定義および構成する前に、中央管理サーバーをインストールする場所を定義する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8d966-104">Before you can define and configure your topology, you must first define the location to install the Central Management Server.</span></span>
+<span data-ttu-id="25ec9-104">トポロジを定義および構成する前に、中央管理サーバーをインストールする場所を定義する必要があります。</span><span class="sxs-lookup"><span data-stu-id="25ec9-104">Before you can define and configure your topology, you must first define the location to install the Central Management Server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="8d966-105">トポロジビルダーでトポロジを公開するまで、これは有効になりません。</span><span class="sxs-lookup"><span data-stu-id="8d966-105">This will not take effect until you have published a topology in Topology Builder.</span></span> <span data-ttu-id="8d966-106">トポロジを作成して発行する前に中央管理サーバーを設定するには、 <STRONG>remove-csconfigurationstorelocation</STRONG>を実行します。</span><span class="sxs-lookup"><span data-stu-id="8d966-106">To set the Central Management Server before the topology is created and published, run <STRONG>Set-CSConfigurationStoreLocation</STRONG>.</span></span>
+> <span data-ttu-id="25ec9-105">トポロジビルダーでトポロジを公開するまで、これは有効になりません。</span><span class="sxs-lookup"><span data-stu-id="25ec9-105">This will not take effect until you have published a topology in Topology Builder.</span></span> <span data-ttu-id="25ec9-106">トポロジを作成して発行する前に中央管理サーバーを設定するには、 <STRONG>remove-csconfigurationstorelocation</STRONG>を実行します。</span><span class="sxs-lookup"><span data-stu-id="25ec9-106">To set the Central Management Server before the topology is created and published, run <STRONG>Set-CSConfigurationStoreLocation</STRONG>.</span></span>
 
 
 
@@ -51,13 +53,13 @@ ms.locfileid: "42182460"
 
 <div>
 
-## <a name="to-select-the-central-management-server"></a><span data-ttu-id="8d966-107">中央管理サーバーを選択するには</span><span class="sxs-lookup"><span data-stu-id="8d966-107">To select the Central Management Server</span></span>
+## <a name="to-select-the-central-management-server"></a><span data-ttu-id="25ec9-107">中央管理サーバーを選択するには</span><span class="sxs-lookup"><span data-stu-id="25ec9-107">To select the Central Management Server</span></span>
 
-1.  <span data-ttu-id="8d966-108">トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="8d966-108">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="25ec9-108">トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="25ec9-108">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="8d966-109">[Lync Server 2013] ノードを右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8d966-109">Right-click the Lync Server 2013 node, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="25ec9-109">[Lync Server 2013] ノードを右クリックし、[ **プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="25ec9-109">Right-click the Lync Server 2013 node, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="8d966-110">中央管理サーバーウィンドウで、中央管理サーバーをインストールするフロントエンドサーバーを選択し、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8d966-110">In the Central Management Server pane, select the Front End Server to install the Central Management Server on and then click **OK**.</span></span>
+3.  <span data-ttu-id="25ec9-110">中央管理サーバーウィンドウで、中央管理サーバーをインストールするフロントエンドサーバーを選択し、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="25ec9-110">In the Central Management Server pane, select the Front End Server to install the Central Management Server on and then click **OK**.</span></span>
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183267
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0f3f7636354915e858016a55389a993f16ec988
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4be49e052dc7ffd431e980d1a3f969bfffdfce8c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510104"
 ---
+# <a name="sessioncorrelation-table-in-lync-server-2013"></a><span data-ttu-id="9927a-102">Lync Server 2013 の SessionCorrelation テーブル</span><span class="sxs-lookup"><span data-stu-id="9927a-102">SessionCorrelation table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessioncorrelation-table-in-lync-server-2013"></a><span data-ttu-id="bdb26-102">Lync Server 2013 の SessionCorrelation テーブル</span><span class="sxs-lookup"><span data-stu-id="bdb26-102">SessionCorrelation table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42200733"
 
 <span> </span>
 
-<span data-ttu-id="bdb26-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="bdb26-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="9927a-103">_**トピックの最終更新日:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="9927a-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="bdb26-104">SessionCorrelation テーブルは、サポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="bdb26-104">The SessionCorrelation table is a supporting table.</span></span> <span data-ttu-id="bdb26-105">各レコードは、複数のセッションを相互に関連付けるために使用される1つの CorrelationID を表します。</span><span class="sxs-lookup"><span data-stu-id="bdb26-105">Each record represents one CorrelationID which is used to correlate multiple sessions.</span></span>
+<span data-ttu-id="9927a-104">SessionCorrelation テーブルは、サポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="9927a-104">The SessionCorrelation table is a supporting table.</span></span> <span data-ttu-id="9927a-105">各レコードは、複数のセッションを相互に関連付けるために使用される1つの CorrelationID を表します。</span><span class="sxs-lookup"><span data-stu-id="9927a-105">Each record represents one CorrelationID which is used to correlate multiple sessions.</span></span>
 
 
 <table>
@@ -49,36 +51,36 @@ ms.locfileid: "42200733"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bdb26-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="bdb26-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="bdb26-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="bdb26-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="bdb26-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="bdb26-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="bdb26-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="bdb26-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="9927a-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="9927a-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="9927a-107"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="9927a-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="9927a-108"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="9927a-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="9927a-109"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="9927a-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bdb26-110"><strong>チェックサム</strong></span><span class="sxs-lookup"><span data-stu-id="bdb26-110"><strong>Checksum</strong></span></span></p></td>
-<td><p><span data-ttu-id="bdb26-111">int</span><span class="sxs-lookup"><span data-stu-id="bdb26-111">int</span></span></p></td>
+<td><p><span data-ttu-id="9927a-110"><strong>チェックサム</strong></span><span class="sxs-lookup"><span data-stu-id="9927a-110"><strong>Checksum</strong></span></span></p></td>
+<td><p><span data-ttu-id="9927a-111">int</span><span class="sxs-lookup"><span data-stu-id="9927a-111">int</span></span></p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bdb26-112"><strong>CorrelationKey</strong></span><span class="sxs-lookup"><span data-stu-id="bdb26-112"><strong>CorrelationKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="bdb26-113">int</span><span class="sxs-lookup"><span data-stu-id="bdb26-113">int</span></span></p></td>
-<td><p><span data-ttu-id="bdb26-114">Primary</span><span class="sxs-lookup"><span data-stu-id="bdb26-114">Primary</span></span></p></td>
-<td><p><span data-ttu-id="bdb26-115">この音声ビデオ会議サーバーを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="bdb26-115">Unique number identifying this A/V Conferencing Server.</span></span></p></td>
+<td><p><span data-ttu-id="9927a-112"><strong>CorrelationKey</strong></span><span class="sxs-lookup"><span data-stu-id="9927a-112"><strong>CorrelationKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="9927a-113">int</span><span class="sxs-lookup"><span data-stu-id="9927a-113">int</span></span></p></td>
+<td><p><span data-ttu-id="9927a-114">Primary</span><span class="sxs-lookup"><span data-stu-id="9927a-114">Primary</span></span></p></td>
+<td><p><span data-ttu-id="9927a-115">この音声ビデオ会議サーバーを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="9927a-115">Unique number identifying this A/V Conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bdb26-116"><strong>CorrelationID</strong></span><span class="sxs-lookup"><span data-stu-id="bdb26-116"><strong>CorrelationID</strong></span></span></p></td>
-<td><p><span data-ttu-id="bdb26-117">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="bdb26-117">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="bdb26-118">一意</span><span class="sxs-lookup"><span data-stu-id="bdb26-118">Unique</span></span></p></td>
-<td><p><span data-ttu-id="bdb26-119">関連付けられているセッションは、同じ関連付け ID を持ちます。</span><span class="sxs-lookup"><span data-stu-id="bdb26-119">Sessions that are correlated will have the same correlation ID.</span></span></p></td>
+<td><p><span data-ttu-id="9927a-116"><strong>CorrelationID</strong></span><span class="sxs-lookup"><span data-stu-id="9927a-116"><strong>CorrelationID</strong></span></span></p></td>
+<td><p><span data-ttu-id="9927a-117">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9927a-117">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9927a-118">一意</span><span class="sxs-lookup"><span data-stu-id="9927a-118">Unique</span></span></p></td>
+<td><p><span data-ttu-id="9927a-119">関連付けられているセッションは、同じ関連付け ID を持ちます。</span><span class="sxs-lookup"><span data-stu-id="9927a-119">Sessions that are correlated will have the same correlation ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bdb26-120"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="bdb26-120"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="bdb26-121">日付型</span><span class="sxs-lookup"><span data-stu-id="bdb26-121">datetime</span></span></p></td>
+<td><p><span data-ttu-id="9927a-120"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="9927a-120"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="9927a-121">日付型</span><span class="sxs-lookup"><span data-stu-id="9927a-121">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="bdb26-122">内部使用のみ。</span><span class="sxs-lookup"><span data-stu-id="bdb26-122">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="9927a-122">内部使用のみ。</span><span class="sxs-lookup"><span data-stu-id="9927a-122">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

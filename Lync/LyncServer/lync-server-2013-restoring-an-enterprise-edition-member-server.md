@@ -12,20 +12,22 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e48af9dd5b35676ee0141b771f8e50e1fbdedae6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b958b10fc8c801d680cf17cac8fb493eae82df8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511450"
 ---
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a><span data-ttu-id="100e3-102">Lync Server 2013 での Enterprise Edition メンバーサーバーの復元</span><span class="sxs-lookup"><span data-stu-id="100e3-102">Restoring an Enterprise Edition member server in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a><span data-ttu-id="e9069-102">Lync Server 2013 での Enterprise Edition メンバーサーバーの復元</span><span class="sxs-lookup"><span data-stu-id="e9069-102">Restoring an Enterprise Edition member server in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42201353"
 
 <span> </span>
 
-<span data-ttu-id="e9069-103">_**トピックの最終更新日:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="e9069-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="100e3-103">_**トピックの最終更新日:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="100e3-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="e9069-104">次のいずれかのサーバーの役割を実行しているサーバーで障害が発生した場合は、このトピックの手順に従ってサーバーを復元します。</span><span class="sxs-lookup"><span data-stu-id="e9069-104">If a server running one of the following server roles fails, follow the procedure in this topic to restore the server.</span></span> <span data-ttu-id="e9069-105">複数のサーバーで個別に障害が発生した場合は、各サーバーで手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="e9069-105">If multiple servers fail independently, follow the procedure for each server.</span></span>
+<span data-ttu-id="100e3-104">次のいずれかのサーバーの役割を実行しているサーバーで障害が発生した場合は、このトピックの手順に従ってサーバーを復元します。</span><span class="sxs-lookup"><span data-stu-id="100e3-104">If a server running one of the following server roles fails, follow the procedure in this topic to restore the server.</span></span> <span data-ttu-id="100e3-105">複数のサーバーで個別に障害が発生した場合は、各サーバーで手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="100e3-105">If multiple servers fail independently, follow the procedure for each server.</span></span>
 
-  - <span data-ttu-id="e9069-106">フロント エンド サーバー</span><span class="sxs-lookup"><span data-stu-id="e9069-106">Front End Server</span></span>
+  - <span data-ttu-id="100e3-106">フロント エンド サーバー</span><span class="sxs-lookup"><span data-stu-id="100e3-106">Front End Server</span></span>
 
-  - <span data-ttu-id="e9069-107">仲介サーバー</span><span class="sxs-lookup"><span data-stu-id="e9069-107">Mediation Server</span></span>
+  - <span data-ttu-id="100e3-107">仲介サーバー</span><span class="sxs-lookup"><span data-stu-id="100e3-107">Mediation Server</span></span>
 
-  - <span data-ttu-id="e9069-108">ディレクター</span><span class="sxs-lookup"><span data-stu-id="e9069-108">Director</span></span>
+  - <span data-ttu-id="100e3-108">ディレクター</span><span class="sxs-lookup"><span data-stu-id="100e3-108">Director</span></span>
 
-  - <span data-ttu-id="e9069-109">常設チャット サーバー</span><span class="sxs-lookup"><span data-stu-id="e9069-109">Persistent Chat Server</span></span>
+  - <span data-ttu-id="100e3-109">常設チャット サーバー</span><span class="sxs-lookup"><span data-stu-id="100e3-109">Persistent Chat Server</span></span>
 
-  - <span data-ttu-id="e9069-110">エッジ サーバー</span><span class="sxs-lookup"><span data-stu-id="e9069-110">Edge Server</span></span>
+  - <span data-ttu-id="100e3-110">エッジ サーバー</span><span class="sxs-lookup"><span data-stu-id="100e3-110">Edge Server</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="e9069-111">復元を開始する前に、システムのイメージコピーを取得することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="e9069-111">We recommend that you take an image copy of the system before you start restoration.</span></span> <span data-ttu-id="e9069-112">復元中に問題が発生した場合に備えて、このイメージをロールバックポイントとして使用できます。</span><span class="sxs-lookup"><span data-stu-id="e9069-112">You can use this image as a rollback point, in case something goes wrong during restoration.</span></span> <span data-ttu-id="e9069-113">オペレーティングシステムと SQL Server をインストールした後、画像コピーを取得し、証明書を復元または reenroll することができます。</span><span class="sxs-lookup"><span data-stu-id="e9069-113">You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.</span></span>
+> <span data-ttu-id="100e3-111">復元を開始する前に、システムのイメージコピーを取得することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="100e3-111">We recommend that you take an image copy of the system before you start restoration.</span></span> <span data-ttu-id="100e3-112">復元中に問題が発生した場合に備えて、このイメージをロールバックポイントとして使用できます。</span><span class="sxs-lookup"><span data-stu-id="100e3-112">You can use this image as a rollback point, in case something goes wrong during restoration.</span></span> <span data-ttu-id="100e3-113">オペレーティングシステムと SQL Server をインストールした後、画像コピーを取得し、証明書を復元または reenroll することができます。</span><span class="sxs-lookup"><span data-stu-id="100e3-113">You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.</span></span>
 
 
 
@@ -61,34 +63,34 @@ ms.locfileid: "42201353"
 
 <div>
 
-## <a name="to-restore-a-member-server"></a><span data-ttu-id="e9069-114">メンバー サーバーを復元するには</span><span class="sxs-lookup"><span data-stu-id="e9069-114">To restore a member server</span></span>
+## <a name="to-restore-a-member-server"></a><span data-ttu-id="100e3-114">メンバー サーバーを復元するには</span><span class="sxs-lookup"><span data-stu-id="100e3-114">To restore a member server</span></span>
 
-1.  <span data-ttu-id="e9069-115">障害が発生したサーバーと同じ完全修飾ドメイン名 (FQDN) を持つクリーンサーバーまたは新しいサーバーを起動し、オペレーティングシステムをインストールしてから、証明書を復元または reenroll します。</span><span class="sxs-lookup"><span data-stu-id="e9069-115">Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed server, install the operating system, and then restore or reenroll the certificates.</span></span>
+1.  <span data-ttu-id="100e3-115">障害が発生したサーバーと同じ完全修飾ドメイン名 (FQDN) を持つクリーンサーバーまたは新しいサーバーを起動し、オペレーティングシステムをインストールしてから、証明書を復元または reenroll します。</span><span class="sxs-lookup"><span data-stu-id="100e3-115">Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed server, install the operating system, and then restore or reenroll the certificates.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="e9069-116">組織で定めるサーバーの展開手順に従って、この手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="e9069-116">Follow your organization's server deployment procedures to perform this step.</span></span>
+    > <span data-ttu-id="100e3-116">組織で定めるサーバーの展開手順に従って、この手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="100e3-116">Follow your organization's server deployment procedures to perform this step.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="e9069-117">RTCUniversalServerAdmins グループのメンバーであるユーザーアカウントから、復元するサーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="e9069-117">From a user account that is a member of the RTCUniversalServerAdmins group, log on to the server that you are restoring.</span></span>
+2.  <span data-ttu-id="100e3-117">RTCUniversalServerAdmins グループのメンバーであるユーザーアカウントから、復元するサーバーにログオンします。</span><span class="sxs-lookup"><span data-stu-id="100e3-117">From a user account that is a member of the RTCUniversalServerAdmins group, log on to the server that you are restoring.</span></span>
 
-3.  <span data-ttu-id="e9069-118">Lync Server インストールフォルダーまたはメディアを参照し、セットアップ\\\\Amd64\\setup.exe で lync server 展開ウィザードを起動します。</span><span class="sxs-lookup"><span data-stu-id="e9069-118">Browse to the Lync Server installation folder or media, and start the Lync Server Deployment Wizard located at \\setup\\amd64\\Setup.exe.</span></span>
+3.  <span data-ttu-id="100e3-118">Lync Server インストールフォルダーまたはメディアを参照し、セットアップ amd64Setup.exe にある Lync Server 展開ウィザードを起動し \\ \\ \\ ます。</span><span class="sxs-lookup"><span data-stu-id="100e3-118">Browse to the Lync Server installation folder or media, and start the Lync Server Deployment Wizard located at \\setup\\amd64\\Setup.exe.</span></span>
 
-4.  <span data-ttu-id="e9069-119">展開ウィザードに従って、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="e9069-119">Follow the Deployment Wizard to do the following:</span></span>
+4.  <span data-ttu-id="100e3-119">展開ウィザードに従って、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="100e3-119">Follow the Deployment Wizard to do the following:</span></span>
     
-    1.  <span data-ttu-id="e9069-120">[**ステップ 1: ローカル構成ストアのインストール**] を実行して、ローカル構成ファイルをインストールします。</span><span class="sxs-lookup"><span data-stu-id="e9069-120">Run **Step 1: Install Local Configuration Store** to install the local configuration files.</span></span>
+    1.  <span data-ttu-id="100e3-120">[**ステップ 1: ローカル構成ストアのインストール**] を実行して、ローカル構成ファイルをインストールします。</span><span class="sxs-lookup"><span data-stu-id="100e3-120">Run **Step 1: Install Local Configuration Store** to install the local configuration files.</span></span>
     
-    2.  <span data-ttu-id="e9069-121">[**ステップ 2: lync Server コンポーネントのセットアップまたは削除**を実行して、lync server のサーバーの役割をインストールする」を実行します。</span><span class="sxs-lookup"><span data-stu-id="e9069-121">Run **Step 2: Setup or Remove Lync Server Components** to install the Lync Server server role.</span></span>
+    2.  <span data-ttu-id="100e3-121">[ **ステップ 2: lync Server コンポーネントのセットアップまたは削除** を実行して、lync server のサーバーの役割をインストールする」を実行します。</span><span class="sxs-lookup"><span data-stu-id="100e3-121">Run **Step 2: Setup or Remove Lync Server Components** to install the Lync Server server role.</span></span>
     
-    3.  <span data-ttu-id="e9069-122">[**ステップ 3: 証明書の要求、インストール、または割り当て**] を実行して、証明書を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="e9069-122">Run **Step 3: Request, Install or Assign Certificates** to assign the certificates.</span></span>
+    3.  <span data-ttu-id="100e3-122">[**ステップ 3: 証明書の要求、インストール、または割り当て**] を実行して、証明書を割り当てます。</span><span class="sxs-lookup"><span data-stu-id="100e3-122">Run **Step 3: Request, Install or Assign Certificates** to assign the certificates.</span></span>
     
-    4.  <span data-ttu-id="e9069-123">[**ステップ 4: サービスの開始**] を実行して、サーバー上でサービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="e9069-123">Run **Step 4: Start Services** to start services on the server.</span></span>
+    4.  <span data-ttu-id="100e3-123">[**ステップ 4: サービスの開始**] を実行して、サーバー上でサービスを開始します。</span><span class="sxs-lookup"><span data-stu-id="100e3-123">Run **Step 4: Start Services** to start services on the server.</span></span>
     
-    <span data-ttu-id="e9069-124">展開ウィザードの実行の詳細については、「展開」のドキュメントの「復元」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e9069-124">For details about running the Deployment Wizard, see the Deployment documentation for the server role that you are restoring.</span></span>
+    <span data-ttu-id="100e3-124">展開ウィザードの実行の詳細については、「展開」のドキュメントの「復元」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="100e3-124">For details about running the Deployment Wizard, see the Deployment documentation for the server role that you are restoring.</span></span>
 
 </div>
 

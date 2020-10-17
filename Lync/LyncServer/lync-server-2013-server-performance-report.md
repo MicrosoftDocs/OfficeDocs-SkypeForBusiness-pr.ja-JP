@@ -12,20 +12,22 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff400c0384d6b9e6b51da09666629d1bb6b725ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8e348882ffa07d1784e62a458455a1ad32a5bbd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200803"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510294"
 ---
+# <a name="server-performance-report-in-lync-server-2013"></a><span data-ttu-id="8e423-102">Lync Server 2013 のサーバーパフォーマンスレポート</span><span class="sxs-lookup"><span data-stu-id="8e423-102">Server Performance Report in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-performance-report-in-lync-server-2013"></a><span data-ttu-id="76f1b-102">Lync Server 2013 のサーバーパフォーマンスレポート</span><span class="sxs-lookup"><span data-stu-id="76f1b-102">Server Performance Report in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,59 +37,59 @@ ms.locfileid: "42200803"
 
 <span> </span>
 
-<span data-ttu-id="76f1b-103">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="76f1b-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="8e423-103">_**トピックの最終更新日:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="8e423-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="76f1b-104">サーバーパフォーマンスレポートには、Microsoft Lync Server 2013 サーバーのうちで、低品質の通話のうち最大の割合を超えるサーバーが一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-104">The Server Performance Report provides a list of Microsoft Lync Server 2013 servers that have experienced the highest-percentage of poor calls.</span></span> <span data-ttu-id="76f1b-105">このレポートは、サーバーの種類ごとに、次の種類について個別の統計情報を報告します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-105">The report breaks down servers by server type, reporting separate statistics for the following types:</span></span>
+<span data-ttu-id="8e423-104">サーバーパフォーマンスレポートには、Microsoft Lync Server 2013 サーバーのうちで、低品質の通話のうち最大の割合を超えるサーバーが一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="8e423-104">The Server Performance Report provides a list of Microsoft Lync Server 2013 servers that have experienced the highest-percentage of poor calls.</span></span> <span data-ttu-id="8e423-105">このレポートは、サーバーの種類ごとに、次の種類について個別の統計情報を報告します。</span><span class="sxs-lookup"><span data-stu-id="8e423-105">The report breaks down servers by server type, reporting separate statistics for the following types:</span></span>
 
-  - <span data-ttu-id="76f1b-106">仲介サーバー</span><span class="sxs-lookup"><span data-stu-id="76f1b-106">Mediation Server</span></span>
+  - <span data-ttu-id="8e423-106">仲介サーバー</span><span class="sxs-lookup"><span data-stu-id="8e423-106">Mediation Server</span></span>
 
-  - <span data-ttu-id="76f1b-107">音声ビデオ会議サーバー</span><span class="sxs-lookup"><span data-stu-id="76f1b-107">A/V Conferencing Server</span></span>
+  - <span data-ttu-id="8e423-107">音声ビデオ会議サーバー</span><span class="sxs-lookup"><span data-stu-id="8e423-107">A/V Conferencing Server</span></span>
 
-  - <span data-ttu-id="76f1b-108">音声ビデオ エッジ サーバー</span><span class="sxs-lookup"><span data-stu-id="76f1b-108">A/V Edge Server</span></span>
+  - <span data-ttu-id="8e423-108">音声ビデオ エッジ サーバー</span><span class="sxs-lookup"><span data-stu-id="8e423-108">A/V Edge Server</span></span>
 
-  - <span data-ttu-id="76f1b-109">ゲートウェイ (仲介サーバー)</span><span class="sxs-lookup"><span data-stu-id="76f1b-109">Gateway (Mediation Server)</span></span>
+  - <span data-ttu-id="8e423-109">ゲートウェイ (仲介サーバー)</span><span class="sxs-lookup"><span data-stu-id="8e423-109">Gateway (Mediation Server)</span></span>
 
-  - <span data-ttu-id="76f1b-110">ゲートウェイ (仲介サーバーのバイパス)</span><span class="sxs-lookup"><span data-stu-id="76f1b-110">Gateway (Mediation Server bypass)</span></span>
+  - <span data-ttu-id="8e423-110">ゲートウェイ (仲介サーバーのバイパス)</span><span class="sxs-lookup"><span data-stu-id="8e423-110">Gateway (Mediation Server bypass)</span></span>
 
-  - <span data-ttu-id="76f1b-111">ビデオ (音声ビデオ会議サーバーと音声ビデオエッジサーバーのビデオ指標を含む)</span><span class="sxs-lookup"><span data-stu-id="76f1b-111">Video (including video metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
+  - <span data-ttu-id="8e423-111">ビデオ (音声ビデオ会議サーバーと音声ビデオエッジサーバーのビデオ指標を含む)</span><span class="sxs-lookup"><span data-stu-id="8e423-111">Video (including video metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
 
-  - <span data-ttu-id="76f1b-112">アプリケーション共有 (音声ビデオ会議サーバーと音声ビデオエッジサーバーのアプリケーション共有指標を含む)</span><span class="sxs-lookup"><span data-stu-id="76f1b-112">Application Sharing (including application sharing metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
+  - <span data-ttu-id="8e423-112">アプリケーション共有 (音声ビデオ会議サーバーと音声ビデオエッジサーバーのアプリケーション共有指標を含む)</span><span class="sxs-lookup"><span data-stu-id="8e423-112">Application Sharing (including application sharing metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
 
-<span data-ttu-id="76f1b-113">このレポートに表示されるランク付けは、相対的なランク付けであることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="76f1b-113">It’s important to note that the ranking shown in this report as relative rankings.</span></span> <span data-ttu-id="76f1b-114">たとえば、最もパフォーマンスの低いサーバーでは、1000に配置された通話の間に1つの低品質通話があるとします。</span><span class="sxs-lookup"><span data-stu-id="76f1b-114">For example, suppose your worst-performing server had one poor call among its 1,000 placed calls.</span></span> <span data-ttu-id="76f1b-115">これは、許容可能なパーセンテージ (1%) です。</span><span class="sxs-lookup"><span data-stu-id="76f1b-115">That's a more-than-acceptable percentage of .1%.</span></span> <span data-ttu-id="76f1b-116">しかし、これが最もパフォーマンスの低いサーバーである場合 (つまり、他のすべてのサーバーの通話の割合が .1% よりも低い場合)、そのサーバーは引き続きサーバーパフォーマンスレポートに表示されます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-116">However, if that's the worst-performing server you have (that is, if all your other servers have a poor call percentage even lower than .1%), then that server will still appear on the Server Performance Report.</span></span>
+<span data-ttu-id="8e423-113">このレポートに表示されるランク付けは、相対的なランク付けであることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="8e423-113">It’s important to note that the ranking shown in this report as relative rankings.</span></span> <span data-ttu-id="8e423-114">たとえば、最もパフォーマンスの低いサーバーでは、1000に配置された通話の間に1つの低品質通話があるとします。</span><span class="sxs-lookup"><span data-stu-id="8e423-114">For example, suppose your worst-performing server had one poor call among its 1,000 placed calls.</span></span> <span data-ttu-id="8e423-115">これは、許容可能なパーセンテージ (1%) です。</span><span class="sxs-lookup"><span data-stu-id="8e423-115">That's a more-than-acceptable percentage of .1%.</span></span> <span data-ttu-id="8e423-116">しかし、これが最もパフォーマンスの低いサーバーである場合 (つまり、他のすべてのサーバーの通話の割合が .1% よりも低い場合)、そのサーバーは引き続きサーバーパフォーマンスレポートに表示されます。</span><span class="sxs-lookup"><span data-stu-id="8e423-116">However, if that's the worst-performing server you have (that is, if all your other servers have a poor call percentage even lower than .1%), then that server will still appear on the Server Performance Report.</span></span>
 
 <div>
 
-## <a name="accessing-the-server-performance-report"></a><span data-ttu-id="76f1b-117">サーバーパフォーマンスレポートへのアクセス</span><span class="sxs-lookup"><span data-stu-id="76f1b-117">Accessing the Server Performance Report</span></span>
+## <a name="accessing-the-server-performance-report"></a><span data-ttu-id="8e423-117">サーバーパフォーマンスレポートへのアクセス</span><span class="sxs-lookup"><span data-stu-id="8e423-117">Accessing the Server Performance Report</span></span>
 
-<span data-ttu-id="76f1b-118">サーバーパフォーマンスレポートには、監視レポートのホームページからアクセスします。</span><span class="sxs-lookup"><span data-stu-id="76f1b-118">The Server Performance Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="76f1b-119">次のいずれかの指標をクリックすると、 [Lync Server 2013 の通話リストレポート](lync-server-2013-call-list-report.md)にドリルダウンできます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-119">You can drill down to the [Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="8e423-118">サーバーパフォーマンスレポートには、監視レポートのホームページからアクセスします。</span><span class="sxs-lookup"><span data-stu-id="8e423-118">The Server Performance Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="8e423-119">次のいずれかの指標をクリックすると、 [Lync Server 2013 の通話リストレポート](lync-server-2013-call-list-report.md) にドリルダウンできます。</span><span class="sxs-lookup"><span data-stu-id="8e423-119">You can drill down to the [Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="76f1b-120">[通話ボリューム]</span><span class="sxs-lookup"><span data-stu-id="76f1b-120">Call volume</span></span>
+  - <span data-ttu-id="8e423-120">[通話ボリューム]</span><span class="sxs-lookup"><span data-stu-id="8e423-120">Call volume</span></span>
 
-  - <span data-ttu-id="76f1b-121">[低品質通話のパーセンテージ]</span><span class="sxs-lookup"><span data-stu-id="76f1b-121">Poor call percentage</span></span>
+  - <span data-ttu-id="8e423-121">[低品質通話のパーセンテージ]</span><span class="sxs-lookup"><span data-stu-id="8e423-121">Poor call percentage</span></span>
 
-<span data-ttu-id="76f1b-122">また、次の指標をクリックして、サーバーメディア品質傾向レポートにドリルダウンすることもできます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-122">In addition, you can drill down to the Server Media Quality Trend Report by clicking the following metric:</span></span>
+<span data-ttu-id="8e423-122">また、次の指標をクリックして、サーバーメディア品質傾向レポートにドリルダウンすることもできます。</span><span class="sxs-lookup"><span data-stu-id="8e423-122">In addition, you can drill down to the Server Media Quality Trend Report by clicking the following metric:</span></span>
 
-  - <span data-ttu-id="76f1b-123">Trend</span><span class="sxs-lookup"><span data-stu-id="76f1b-123">Trend</span></span>
+  - <span data-ttu-id="8e423-123">Trend</span><span class="sxs-lookup"><span data-stu-id="8e423-123">Trend</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-server-performance-report"></a><span data-ttu-id="76f1b-124">サーバーパフォーマンスレポートの活用</span><span class="sxs-lookup"><span data-stu-id="76f1b-124">Making the Best Use of the Server Performance Report</span></span>
+## <a name="making-the-best-use-of-the-server-performance-report"></a><span data-ttu-id="8e423-124">サーバーパフォーマンスレポートの活用</span><span class="sxs-lookup"><span data-stu-id="8e423-124">Making the Best Use of the Server Performance Report</span></span>
 
-<span data-ttu-id="76f1b-125">サーバーパフォーマンスレポートには、データをフィルター処理する方法がいくつか用意されています。たとえば、ネットワークの種類 (ワイヤード接続から発信された通話、およびワイヤレス接続からの通話の呼び出し)、アクセスの種類 (ファイアウォールの内側から発信された呼び出し、ファイアウォールの外側から発信された通話) のフィルター処理を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-125">The Server Performance Report provides a number of ways to filter data; for example, you can filter on network type (calls made from a wired connection vs. calls made from a wireless connection) and access type (calls made from inside the firewall vs. calls made from outside the firewall).</span></span> <span data-ttu-id="76f1b-126">サーバーパフォーマンスレポートを表示してこれらのフィルターを使用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="76f1b-126">It's a good idea when viewing the server performance report to make use of these filters.</span></span> <span data-ttu-id="76f1b-127">たとえば、通話の割合が低品質 (3.24%) の仲介サーバーがあるとします。</span><span class="sxs-lookup"><span data-stu-id="76f1b-127">For example, suppose you have a Mediation Server that has a poor call percentage of 3.24%.</span></span> <span data-ttu-id="76f1b-128">ワイヤレス呼び出しだけである場合は、同じサーバーに、20% に近づいている低品質通話のパーセンテージが設定されている可能性があります。</span><span class="sxs-lookup"><span data-stu-id="76f1b-128">If you look solely at wireless calls, that same server might have a poor call percentage approaching 20%.</span></span> <span data-ttu-id="76f1b-129">これは、サーバーが有線通話で問題が発生していないために、部分的に隠されている問題があることを意味します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-129">That means that the server was having difficulty with wireless calls, a problem that is partially obscured because the server was not having problems with wired calls.</span></span>
+<span data-ttu-id="8e423-125">サーバーパフォーマンスレポートには、データをフィルター処理する方法がいくつか用意されています。たとえば、ネットワークの種類 (ワイヤード接続から発信された通話、およびワイヤレス接続からの通話の呼び出し)、アクセスの種類 (ファイアウォールの内側から発信された呼び出し、ファイアウォールの外側から発信された通話) のフィルター処理を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="8e423-125">The Server Performance Report provides a number of ways to filter data; for example, you can filter on network type (calls made from a wired connection vs. calls made from a wireless connection) and access type (calls made from inside the firewall vs. calls made from outside the firewall).</span></span> <span data-ttu-id="8e423-126">サーバーパフォーマンスレポートを表示してこれらのフィルターを使用することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="8e423-126">It's a good idea when viewing the server performance report to make use of these filters.</span></span> <span data-ttu-id="8e423-127">たとえば、通話の割合が低品質 (3.24%) の仲介サーバーがあるとします。</span><span class="sxs-lookup"><span data-stu-id="8e423-127">For example, suppose you have a Mediation Server that has a poor call percentage of 3.24%.</span></span> <span data-ttu-id="8e423-128">ワイヤレス呼び出しだけである場合は、同じサーバーに、20% に近づいている低品質通話のパーセンテージが設定されている可能性があります。</span><span class="sxs-lookup"><span data-stu-id="8e423-128">If you look solely at wireless calls, that same server might have a poor call percentage approaching 20%.</span></span> <span data-ttu-id="8e423-129">これは、サーバーが有線通話で問題が発生していないために、部分的に隠されている問題があることを意味します。</span><span class="sxs-lookup"><span data-stu-id="8e423-129">That means that the server was having difficulty with wireless calls, a problem that is partially obscured because the server was not having problems with wired calls.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="76f1b-130">フィルター</span><span class="sxs-lookup"><span data-stu-id="76f1b-130">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="8e423-130">フィルター</span><span class="sxs-lookup"><span data-stu-id="8e423-130">Filters</span></span>
 
-<span data-ttu-id="76f1b-131">フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざま方法で表示したりする方法として利用できます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-131">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="76f1b-132">たとえば、サーバーのパフォーマンスレポートを使用すると、返されるデータをサーバーの種類またはネットワークの種類 (有線またはワイヤレス) でフィルター処理することができます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-132">For example, the Server Performance Report enables you to do such things as filter the returned data by server type or by network type (that is, wired or wireless).</span></span> <span data-ttu-id="76f1b-133">データをグループ化する方法も選択できます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-133">You can also choose how data should be grouped.</span></span> <span data-ttu-id="76f1b-134">この場合、データは時間、日、週、または月によってグループ化されます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-134">In this case, data is grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="8e423-131">フィルターは、細かく絞り込んだデータ セットを返したり、返されたデータをさまざま方法で表示したりする方法として利用できます。</span><span class="sxs-lookup"><span data-stu-id="8e423-131">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="8e423-132">たとえば、サーバーのパフォーマンスレポートを使用すると、返されるデータをサーバーの種類またはネットワークの種類 (有線またはワイヤレス) でフィルター処理することができます。</span><span class="sxs-lookup"><span data-stu-id="8e423-132">For example, the Server Performance Report enables you to do such things as filter the returned data by server type or by network type (that is, wired or wireless).</span></span> <span data-ttu-id="8e423-133">データをグループ化する方法も選択できます。</span><span class="sxs-lookup"><span data-stu-id="8e423-133">You can also choose how data should be grouped.</span></span> <span data-ttu-id="8e423-134">この場合、データは時間、日、週、または月によってグループ化されます。</span><span class="sxs-lookup"><span data-stu-id="8e423-134">In this case, data is grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="76f1b-135">次の表に、サーバーパフォーマンスレポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-135">The following table lists the filters that you can use with the Server Performance Report.</span></span>
+<span data-ttu-id="8e423-135">次の表に、サーバーパフォーマンスレポートで使用できるフィルターを示します。</span><span class="sxs-lookup"><span data-stu-id="8e423-135">The following table lists the filters that you can use with the Server Performance Report.</span></span>
 
-### <a name="server-performance-report-filters"></a><span data-ttu-id="76f1b-136">サーバーパフォーマンスレポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="76f1b-136">Server Performance Report Filters</span></span>
+### <a name="server-performance-report-filters"></a><span data-ttu-id="8e423-136">サーバーパフォーマンスレポートのフィルター</span><span class="sxs-lookup"><span data-stu-id="8e423-136">Server Performance Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -96,75 +98,75 @@ ms.locfileid: "42200803"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76f1b-137">名前</span><span class="sxs-lookup"><span data-stu-id="76f1b-137">Name</span></span></th>
-<th><span data-ttu-id="76f1b-138">説明</span><span class="sxs-lookup"><span data-stu-id="76f1b-138">Description</span></span></th>
+<th><span data-ttu-id="8e423-137">名前</span><span class="sxs-lookup"><span data-stu-id="8e423-137">Name</span></span></th>
+<th><span data-ttu-id="8e423-138">説明</span><span class="sxs-lookup"><span data-stu-id="8e423-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-139"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="76f1b-139"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p106">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="76f1b-142">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="76f1b-142">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="76f1b-p107">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="76f1b-145">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="76f1b-145">7/7/2012</span></span></p>
-<p><span data-ttu-id="76f1b-146">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="76f1b-146">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="76f1b-147">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="76f1b-147">7/3/2012</span></span></p>
-<p><span data-ttu-id="76f1b-148">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="76f1b-148">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-139"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="8e423-139"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-p106">時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="8e423-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="8e423-142">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="8e423-142">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="8e423-p107">開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="8e423-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="8e423-145">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="8e423-145">7/7/2012</span></span></p>
+<p><span data-ttu-id="8e423-146">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="8e423-146">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="8e423-147">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="8e423-147">7/3/2012</span></span></p>
+<p><span data-ttu-id="8e423-148">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="8e423-148">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-149"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="76f1b-149"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p108">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="76f1b-152">7/7/2012 13:00</span><span class="sxs-lookup"><span data-stu-id="76f1b-152">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="76f1b-p109">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="76f1b-155">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="76f1b-155">7/7/2012</span></span></p>
-<p><span data-ttu-id="76f1b-156">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="76f1b-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="76f1b-157">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="76f1b-157">7/3/2012</span></span></p>
-<p><span data-ttu-id="76f1b-158">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="76f1b-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-149"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="8e423-149"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-p108">時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</span><span class="sxs-lookup"><span data-stu-id="8e423-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="8e423-152">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="8e423-152">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="8e423-p109">終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</span><span class="sxs-lookup"><span data-stu-id="8e423-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="8e423-155">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="8e423-155">7/7/2012</span></span></p>
+<p><span data-ttu-id="8e423-156">週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</span><span class="sxs-lookup"><span data-stu-id="8e423-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="8e423-157">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="8e423-157">7/3/2012</span></span></p>
+<p><span data-ttu-id="8e423-158">週は、常に日曜日から土曜日までです。</span><span class="sxs-lookup"><span data-stu-id="8e423-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-159"><strong>サーバーの種類</strong></span><span class="sxs-lookup"><span data-stu-id="76f1b-159"><strong>Server type</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-160">パフォーマンスをレポートする必要があるサーバーの種類を示します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-160">Indicates the type of server whose performance should be reported.</span></span> <span data-ttu-id="76f1b-161">次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-161">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="8e423-159"><strong>サーバーの種類</strong></span><span class="sxs-lookup"><span data-stu-id="8e423-159"><strong>Server type</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-160">パフォーマンスをレポートする必要があるサーバーの種類を示します。</span><span class="sxs-lookup"><span data-stu-id="8e423-160">Indicates the type of server whose performance should be reported.</span></span> <span data-ttu-id="8e423-161">次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="8e423-161">Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="76f1b-162">いずれ</span><span class="sxs-lookup"><span data-stu-id="76f1b-162">[All]</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-163">仲介サーバー</span><span class="sxs-lookup"><span data-stu-id="76f1b-163">Mediation Server</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-164">音声ビデオ会議サーバー</span><span class="sxs-lookup"><span data-stu-id="76f1b-164">A/V Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-165">音声ビデオ エッジ サーバー</span><span class="sxs-lookup"><span data-stu-id="76f1b-165">A/V Edge Server</span></span></p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="76f1b-166"><strong>トップ N</strong></span><span class="sxs-lookup"><span data-stu-id="76f1b-166"><strong>Top N</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-167">各カテゴリに表示されるサーバーの数 (低品質通話のパーセンテージに基づく) を示します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-167">Indicates the number of servers (based on their poor call percentage) to be displayed in each category.</span></span> <span data-ttu-id="76f1b-168">たとえば、[ <strong>5</strong> ] を選択すると、5つの個サーバーが表示されます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-168">For example, if you select <strong>5</strong> then the five poorest-performing servers are displayed.</span></span> <span data-ttu-id="76f1b-169">次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-169">Select one of the following:</span></span></p>
-<ol>
-<li><p><span data-ttu-id="76f1b-170">いずれ</span><span class="sxs-lookup"><span data-stu-id="76f1b-170">[All]</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-171">5</span><span class="sxs-lookup"><span data-stu-id="76f1b-171">5</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-172">10 </span><span class="sxs-lookup"><span data-stu-id="76f1b-172">10</span></span></p></li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="76f1b-173">[<strong>アクセスの種類</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-173"><strong>Access type</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p112">クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p112">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
-<ol>
-<li><p><span data-ttu-id="76f1b-176">いずれ</span><span class="sxs-lookup"><span data-stu-id="76f1b-176">[All]</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-177">内部</span><span class="sxs-lookup"><span data-stu-id="76f1b-177">Internal</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-178">External</span><span class="sxs-lookup"><span data-stu-id="76f1b-178">External</span></span></p></li>
+<li><p><span data-ttu-id="8e423-162">[All]</span><span class="sxs-lookup"><span data-stu-id="8e423-162">[All]</span></span></p></li>
+<li><p><span data-ttu-id="8e423-163">仲介サーバー</span><span class="sxs-lookup"><span data-stu-id="8e423-163">Mediation Server</span></span></p></li>
+<li><p><span data-ttu-id="8e423-164">音声ビデオ会議サーバー</span><span class="sxs-lookup"><span data-stu-id="8e423-164">A/V Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="8e423-165">音声ビデオ エッジ サーバー</span><span class="sxs-lookup"><span data-stu-id="8e423-165">A/V Edge Server</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-179">[<strong>ネットワークの種類</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-179"><strong>Network type</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p113">通話時にクライアントが接続したネットワークの種類を示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p113">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="8e423-166"><strong>トップ N</strong></span><span class="sxs-lookup"><span data-stu-id="8e423-166"><strong>Top N</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-167">各カテゴリに表示されるサーバーの数 (低品質通話のパーセンテージに基づく) を示します。</span><span class="sxs-lookup"><span data-stu-id="8e423-167">Indicates the number of servers (based on their poor call percentage) to be displayed in each category.</span></span> <span data-ttu-id="8e423-168">たとえば、[ <strong>5</strong> ] を選択すると、5つの個サーバーが表示されます。</span><span class="sxs-lookup"><span data-stu-id="8e423-168">For example, if you select <strong>5</strong> then the five poorest-performing servers are displayed.</span></span> <span data-ttu-id="8e423-169">次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="8e423-169">Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="76f1b-182">いずれ</span><span class="sxs-lookup"><span data-stu-id="76f1b-182">[All]</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-183">有線</span><span class="sxs-lookup"><span data-stu-id="76f1b-183">Wired</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-184">通信</span><span class="sxs-lookup"><span data-stu-id="76f1b-184">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="8e423-170">[All]</span><span class="sxs-lookup"><span data-stu-id="8e423-170">[All]</span></span></p></li>
+<li><p><span data-ttu-id="8e423-171">5 </span><span class="sxs-lookup"><span data-stu-id="8e423-171">5</span></span></p></li>
+<li><p><span data-ttu-id="8e423-172">10  </span><span class="sxs-lookup"><span data-stu-id="8e423-172">10</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-185"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="76f1b-185"><strong>VPN</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p114">通話時に外部クライアントが仮想プライベート ネットワーク (VPN) 接続を使用したかどうかを示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p114">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="8e423-173">[<strong>アクセスの種類</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-173"><strong>Access type</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-p112">クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="8e423-p112">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="76f1b-188">いずれ</span><span class="sxs-lookup"><span data-stu-id="76f1b-188">[All]</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-189">VPN</span><span class="sxs-lookup"><span data-stu-id="76f1b-189">VPN</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-190">非 VPN</span><span class="sxs-lookup"><span data-stu-id="76f1b-190">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="8e423-176">[All]</span><span class="sxs-lookup"><span data-stu-id="8e423-176">[All]</span></span></p></li>
+<li><p><span data-ttu-id="8e423-177">内部</span><span class="sxs-lookup"><span data-stu-id="8e423-177">Internal</span></span></p></li>
+<li><p><span data-ttu-id="8e423-178">外部</span><span class="sxs-lookup"><span data-stu-id="8e423-178">External</span></span></p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="8e423-179">[<strong>ネットワークの種類</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-179"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-p113">通話時にクライアントが接続したネットワークの種類を示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="8e423-p113">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<ol>
+<li><p><span data-ttu-id="8e423-182">[All]</span><span class="sxs-lookup"><span data-stu-id="8e423-182">[All]</span></span></p></li>
+<li><p><span data-ttu-id="8e423-183">有線</span><span class="sxs-lookup"><span data-stu-id="8e423-183">Wired</span></span></p></li>
+<li><p><span data-ttu-id="8e423-184">通信</span><span class="sxs-lookup"><span data-stu-id="8e423-184">Wireless</span></span></p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="8e423-185"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="8e423-185"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-p114">通話時に外部クライアントが仮想プライベート ネットワーク (VPN) 接続を使用したかどうかを示します。次のいずれかを選択します。</span><span class="sxs-lookup"><span data-stu-id="8e423-p114">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<ol>
+<li><p><span data-ttu-id="8e423-188">[All]</span><span class="sxs-lookup"><span data-stu-id="8e423-188">[All]</span></span></p></li>
+<li><p><span data-ttu-id="8e423-189">VPN</span><span class="sxs-lookup"><span data-stu-id="8e423-189">VPN</span></span></p></li>
+<li><p><span data-ttu-id="8e423-190">非 VPN</span><span class="sxs-lookup"><span data-stu-id="8e423-190">Non-VPN</span></span></p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -175,11 +177,11 @@ ms.locfileid: "42200803"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="76f1b-191">指標</span><span class="sxs-lookup"><span data-stu-id="76f1b-191">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="8e423-191">指標</span><span class="sxs-lookup"><span data-stu-id="8e423-191">Metrics</span></span>
 
-<span data-ttu-id="76f1b-192">次の表に、サーバーパフォーマンスレポートで提供される情報を示します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-192">The following table lists the information provided in the Server Performance Report.</span></span>
+<span data-ttu-id="8e423-192">次の表に、サーバーパフォーマンスレポートで提供される情報を示します。</span><span class="sxs-lookup"><span data-stu-id="8e423-192">The following table lists the information provided in the Server Performance Report.</span></span>
 
-### <a name="server-performance-report-metrics-audio-call-summary"></a><span data-ttu-id="76f1b-193">サーバーパフォーマンスレポートの指標: 音声通話の概要</span><span class="sxs-lookup"><span data-stu-id="76f1b-193">Server Performance Report Metrics: Audio Call Summary</span></span>
+### <a name="server-performance-report-metrics-audio-call-summary"></a><span data-ttu-id="8e423-193">サーバーパフォーマンスレポートの指標: 音声通話の概要</span><span class="sxs-lookup"><span data-stu-id="8e423-193">Server Performance Report Metrics: Audio Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -189,69 +191,69 @@ ms.locfileid: "42200803"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76f1b-194">名前</span><span class="sxs-lookup"><span data-stu-id="76f1b-194">Name</span></span></th>
-<th><span data-ttu-id="76f1b-195">並べ替え可能</span><span class="sxs-lookup"><span data-stu-id="76f1b-195">Can Sort On</span></span></th>
-<th><span data-ttu-id="76f1b-196">説明</span><span class="sxs-lookup"><span data-stu-id="76f1b-196">Description</span></span></th>
+<th><span data-ttu-id="8e423-194">名前</span><span class="sxs-lookup"><span data-stu-id="8e423-194">Name</span></span></th>
+<th><span data-ttu-id="8e423-195">並べ替え可能</span><span class="sxs-lookup"><span data-stu-id="8e423-195">Can Sort On</span></span></th>
+<th><span data-ttu-id="8e423-196">説明</span><span class="sxs-lookup"><span data-stu-id="8e423-196">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-197"><strong>サーバー</strong></span><span class="sxs-lookup"><span data-stu-id="76f1b-197"><strong>Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-198">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-198">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-199">サーバーの名前または IP アドレス。</span><span class="sxs-lookup"><span data-stu-id="76f1b-199">Name/IP address of the server.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-197"><strong>Server</strong></span><span class="sxs-lookup"><span data-stu-id="8e423-197"><strong>Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-198">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-198">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-199">サーバーの名前または IP アドレス。</span><span class="sxs-lookup"><span data-stu-id="8e423-199">Name/IP address of the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-200">[<strong>通話ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-200"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-201">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-201">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-202">発信された通話の合計数。</span><span class="sxs-lookup"><span data-stu-id="76f1b-202">Total number of calls made.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-200">[<strong>通話ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-200"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-201">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-201">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-202">発信された通話の合計数。</span><span class="sxs-lookup"><span data-stu-id="8e423-202">Total number of calls made.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-203">[<strong>低品質通話のパーセンテージ</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-203"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-204">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-204">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p115">低品質として分類される通話の総数。低品質通話とは、少なくとも 1 つの測定指標が許容値を超えている通話 (たとえば、過剰なジッターが発生した通話) のことです。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p115">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="8e423-203">[<strong>低品質通話のパーセンテージ</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-203"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-204">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-204">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p115">低品質として分類される通話の総数。低品質通話とは、少なくとも 1 つの測定指標が許容値を超えている通話 (たとえば、過剰なジッターが発生した通話) のことです。</span><span class="sxs-lookup"><span data-stu-id="8e423-p115">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-207">[<strong>往復 (ミリ秒)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-207"><strong>Round trip (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-208">はい</span><span class="sxs-lookup"><span data-stu-id="76f1b-208">Yes</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p116">リアルタイム転送プロトコル (RTP) パケットが別のエンドポイントとの間を往復するのに要する平均時間 (ミリ秒単位)。100 ミリ秒以下の往復時間が許容できる品質と見なされます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p116">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
-<p><span data-ttu-id="76f1b-p117">この値が高い場合は、国際通話ルーティング、ルーティングの構成ミス、メディア サーバーの過負荷などの原因が考えられます。その結果、双方向のリアルタイムの音声会話が難しくなります。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p117">High round-trip values can be caused by international call routing; a routing misconfiguration; or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-207">[<strong>往復 (ミリ秒)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-207"><strong>Round trip (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-208">必要</span><span class="sxs-lookup"><span data-stu-id="8e423-208">Yes</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p116">リアルタイム転送プロトコル (RTP) パケットが別のエンドポイントとの間を往復するのに要する平均時間 (ミリ秒単位)。100 ミリ秒以下の往復時間が許容できる品質と見なされます。</span><span class="sxs-lookup"><span data-stu-id="8e423-p116">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
+<p><span data-ttu-id="8e423-p117">この値が高い場合は、国際通話ルーティング、ルーティングの構成ミス、メディア サーバーの過負荷などの原因が考えられます。その結果、双方向のリアルタイムの音声会話が難しくなります。</span><span class="sxs-lookup"><span data-stu-id="8e423-p117">High round-trip values can be caused by international call routing; a routing misconfiguration; or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-213">[<strong>低下 (MOS)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-213"><strong>Degradation (MOS)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-214">はい</span><span class="sxs-lookup"><span data-stu-id="76f1b-214">Yes</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-215">通話時に発生した平均オピニオン値 (MOS) 低下の平均値。</span><span class="sxs-lookup"><span data-stu-id="76f1b-215">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="76f1b-216">低下の値範囲は、最低 0.0 から最高 5.0 までとなります。</span><span class="sxs-lookup"><span data-stu-id="76f1b-216">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="76f1b-217">0.5 以下の値は、許容される低下を表します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-217">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="76f1b-218">従来、平均オピニオン値は、ユーザーが通話の品質を 1 から 5 の範囲で評価することによって計算されていました。</span><span class="sxs-lookup"><span data-stu-id="76f1b-218">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="76f1b-219">Lync Server では、監視サーバーは一連のアルゴリズムを使用して、ユーザーが通話を評価する方法を予測します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-219">In Lync Server, the Monitoring Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
-<p><span data-ttu-id="76f1b-p119">この値が高い場合は、輻輳、帯域幅の不足、ワイヤレスの輻輳または干渉、メディア サーバーやエンドポイントの過負荷などの原因が考えられます。その結果、音声のひずみや欠落が生じます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p119">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-213">[<strong>低下 (MOS)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-213"><strong>Degradation (MOS)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-214">必要</span><span class="sxs-lookup"><span data-stu-id="8e423-214">Yes</span></span></p></td>
+<td><p><span data-ttu-id="8e423-215">通話時に発生した平均オピニオン値 (MOS) 低下の平均値。</span><span class="sxs-lookup"><span data-stu-id="8e423-215">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="8e423-216">低下の値範囲は、最低 0.0 から最高 5.0 までとなります。</span><span class="sxs-lookup"><span data-stu-id="8e423-216">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="8e423-217">0.5 以下の値は、許容される低下を表します。</span><span class="sxs-lookup"><span data-stu-id="8e423-217">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="8e423-218">従来、平均オピニオン値は、ユーザーが通話の品質を 1 から 5 の範囲で評価することによって計算されていました。</span><span class="sxs-lookup"><span data-stu-id="8e423-218">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="8e423-219">Lync Server では、監視サーバーは一連のアルゴリズムを使用して、ユーザーが通話を評価する方法を予測します。</span><span class="sxs-lookup"><span data-stu-id="8e423-219">In Lync Server, the Monitoring Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
+<p><span data-ttu-id="8e423-p119">この値が高い場合は、輻輳、帯域幅の不足、ワイヤレスの輻輳または干渉、メディア サーバーやエンドポイントの過負荷などの原因が考えられます。その結果、音声のひずみや欠落が生じます。</span><span class="sxs-lookup"><span data-stu-id="8e423-p119">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-222">[<strong>パケット損失</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-222"><strong>Packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-223">はい</span><span class="sxs-lookup"><span data-stu-id="76f1b-223">Yes</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-224">リアルタイム転送プロトコル (RTP) パケット損失の平均レート。</span><span class="sxs-lookup"><span data-stu-id="76f1b-224">Average rate of real-time transport protocol (RTP) packet loss.</span></span> <span data-ttu-id="76f1b-225">(パケット損失は、RTP パケット、つまりインターネット経由で音声とビデオを送信するために使用されるプロトコルで、宛先に到達できなかった場合に発生します)。通常、高損失率は輻輳、帯域幅の不足、ワイヤレスの輻輳または干渉、メディアサーバーの過負荷などによって発生します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-225">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server.</span></span> <span data-ttu-id="76f1b-226">パケット損失が発生すると、通常、音声のひずみや欠落が生じます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-226">Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-222">[<strong>パケット損失</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-222"><strong>Packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-223">必要</span><span class="sxs-lookup"><span data-stu-id="8e423-223">Yes</span></span></p></td>
+<td><p><span data-ttu-id="8e423-224">リアルタイム転送プロトコル (RTP) パケット損失の平均レート。</span><span class="sxs-lookup"><span data-stu-id="8e423-224">Average rate of real-time transport protocol (RTP) packet loss.</span></span> <span data-ttu-id="8e423-225">(パケット損失は、RTP パケット、つまりインターネット経由で音声とビデオを送信するために使用されるプロトコルで、宛先に到達できなかった場合に発生します)。通常、高損失率は輻輳、帯域幅の不足、ワイヤレスの輻輳または干渉、メディアサーバーの過負荷などによって発生します。</span><span class="sxs-lookup"><span data-stu-id="8e423-225">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server.</span></span> <span data-ttu-id="8e423-226">パケット損失が発生すると、通常、音声のひずみや欠落が生じます。</span><span class="sxs-lookup"><span data-stu-id="8e423-226">Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-227">[<strong>ジッター (ミリ秒)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-227"><strong>Jitter (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-228">はい</span><span class="sxs-lookup"><span data-stu-id="76f1b-228">Yes</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-229">RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。</span><span class="sxs-lookup"><span data-stu-id="76f1b-229">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="76f1b-230">(ジッターは、通話の&quot;過&quot;の測定値です)。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-230">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-227">[<strong>ジッター (ミリ秒)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-227"><strong>Jitter (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-228">必要</span><span class="sxs-lookup"><span data-stu-id="8e423-228">Yes</span></span></p></td>
+<td><p><span data-ttu-id="8e423-229">RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。</span><span class="sxs-lookup"><span data-stu-id="8e423-229">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="8e423-230">(ジッターは、通話の過の測定値です &quot; &quot; )。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</span><span class="sxs-lookup"><span data-stu-id="8e423-230">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-231">[<strong>ヒーラー隠し比率</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-231"><strong>Healer concealed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-232">はい</span><span class="sxs-lookup"><span data-stu-id="76f1b-232">Yes</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p122">サンプルの合計数に対する隠しオーディオ サンプルの平均比率 (隠しオーディオ サンプルとは、突然遷移を取り除くために使用される手法です。突然遷移は、通常、ネットワーク パケットの削除が原因で発生します)。この値が高い場合は、パケット損失やジッターのために高いレベルで損失の隠蔽が適用されています。その結果、音声のひずみや欠落が生じます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p122">Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-231">[<strong>ヒーラー隠し比率</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-231"><strong>Healer concealed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-232">必要</span><span class="sxs-lookup"><span data-stu-id="8e423-232">Yes</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p122">サンプルの合計数に対する隠しオーディオ サンプルの平均比率 (隠しオーディオ サンプルとは、突然遷移を取り除くために使用される手法です。突然遷移は、通常、ネットワーク パケットの削除が原因で発生します)。この値が高い場合は、パケット損失やジッターのために高いレベルで損失の隠蔽が適用されています。その結果、音声のひずみや欠落が生じます。</span><span class="sxs-lookup"><span data-stu-id="8e423-p122">Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-235">[<strong>ヒーラー引き伸ばし比率</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-235"><strong>Healer stretched ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-236">はい</span><span class="sxs-lookup"><span data-stu-id="76f1b-236">Yes</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p123">サンプルの合計数に対する引き伸ばされたオーディオ サンプルの平均比率 (引き伸ばされたオーディオとは、ネットワーク パケットの削除が検出されたときに通話の品質を維持できるように拡張されたオーディオのことです)。この値が高い場合は、ジッターのために高いレベルでサンプルの引き伸ばしが行われています。その結果、音声が機械のように聞こえたりひずんで聞こえたりします。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p123">Average ratio of stretched audio samples to the total to the total number of samples. (Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-235">[<strong>ヒーラー引き伸ばし比率</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-235"><strong>Healer stretched ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-236">必要</span><span class="sxs-lookup"><span data-stu-id="8e423-236">Yes</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p123">サンプルの合計数に対する引き伸ばされたオーディオ サンプルの平均比率 (引き伸ばされたオーディオとは、ネットワーク パケットの削除が検出されたときに通話の品質を維持できるように拡張されたオーディオのことです)。この値が高い場合は、ジッターのために高いレベルでサンプルの引き伸ばしが行われています。その結果、音声が機械のように聞こえたりひずんで聞こえたりします。</span><span class="sxs-lookup"><span data-stu-id="8e423-p123">Average ratio of stretched audio samples to the total to the total number of samples. (Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-239">[<strong>ヒーラー圧縮比率</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-239"><strong>Healer compressed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-240">はい</span><span class="sxs-lookup"><span data-stu-id="76f1b-240">Yes</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p124">サンプルの合計数に対する圧縮オーディオ サンプルの平均比率 (圧縮オーディオとは、ネットワーク パケットの削除が検出されたときに通話の品質を維持できるように圧縮されたオーディオのことです)。この値が高い場合は、ジッターのために高いレベルでサンプルの圧縮が行われています。その結果、音声が早送りされたように聞こえたりひずんで聞こえたりします。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p124">Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-239">[<strong>ヒーラー圧縮比率</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-239"><strong>Healer compressed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-240">必要</span><span class="sxs-lookup"><span data-stu-id="8e423-240">Yes</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p124">サンプルの合計数に対する圧縮オーディオ サンプルの平均比率 (圧縮オーディオとは、ネットワーク パケットの削除が検出されたときに通話の品質を維持できるように圧縮されたオーディオのことです)。この値が高い場合は、ジッターのために高いレベルでサンプルの圧縮が行われています。その結果、音声が早送りされたように聞こえたりひずんで聞こえたりします。</span><span class="sxs-lookup"><span data-stu-id="8e423-p124">Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="server-performance-report-metrics-video-call-summary"></a><span data-ttu-id="76f1b-243">サーバーパフォーマンスレポートの指標: ビデオ通話の概要</span><span class="sxs-lookup"><span data-stu-id="76f1b-243">Server Performance Report Metrics: Video Call Summary</span></span>
+### <a name="server-performance-report-metrics-video-call-summary"></a><span data-ttu-id="8e423-243">サーバーパフォーマンスレポートの指標: ビデオ通話の概要</span><span class="sxs-lookup"><span data-stu-id="8e423-243">Server Performance Report Metrics: Video Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -261,96 +263,96 @@ ms.locfileid: "42200803"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76f1b-244">名前</span><span class="sxs-lookup"><span data-stu-id="76f1b-244">Name</span></span></th>
-<th><span data-ttu-id="76f1b-245">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="76f1b-245">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="76f1b-246">説明</span><span class="sxs-lookup"><span data-stu-id="76f1b-246">Description</span></span></th>
+<th><span data-ttu-id="8e423-244">名前</span><span class="sxs-lookup"><span data-stu-id="8e423-244">Name</span></span></th>
+<th><span data-ttu-id="8e423-245">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="8e423-245">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="8e423-246">説明</span><span class="sxs-lookup"><span data-stu-id="8e423-246">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-247">[<strong>通話の種類/エンドポイントの種類</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-247"><strong>Call type/Endpoint type</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-248">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-248">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p125">この項目をクリックすると、その種類に基づく通話の詳細情報がレポートに表示されます。通話の種類は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p125">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
+<td><p><span data-ttu-id="8e423-247">[<strong>通話の種類/エンドポイントの種類</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-247"><strong>Call type/Endpoint type</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-248">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-248">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p125">この項目をクリックすると、その種類に基づく通話の詳細情報がレポートに表示されます。通話の種類は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="8e423-p125">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="76f1b-251">UC ピアツーピア通話</span><span class="sxs-lookup"><span data-stu-id="76f1b-251">UC Peer-to-Peer Calls</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-252">UC 電話会議セッション</span><span class="sxs-lookup"><span data-stu-id="76f1b-252">UC Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-253">PSTN 電話会議セッション</span><span class="sxs-lookup"><span data-stu-id="76f1b-253">PSTN Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-254">PSTN 通話: メディアのバイパス</span><span class="sxs-lookup"><span data-stu-id="76f1b-254">PSTN Calls: Media Bypass</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-255">PSTN 通話 (非バイパス): UC レグ</span><span class="sxs-lookup"><span data-stu-id="76f1b-255">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-256">PSTN 通話 (非バイパス): ゲートウェイ レグ</span><span class="sxs-lookup"><span data-stu-id="76f1b-256">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-257">その他の通話の種類</span><span class="sxs-lookup"><span data-stu-id="76f1b-257">Other Call Types</span></span></p></li>
+<li><p><span data-ttu-id="8e423-251">UC ピアツーピア通話</span><span class="sxs-lookup"><span data-stu-id="8e423-251">UC Peer-to-Peer Calls</span></span></p></li>
+<li><p><span data-ttu-id="8e423-252">UC 電話会議セッション</span><span class="sxs-lookup"><span data-stu-id="8e423-252">UC Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="8e423-253">PSTN 電話会議セッション</span><span class="sxs-lookup"><span data-stu-id="8e423-253">PSTN Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="8e423-254">PSTN 通話: メディアのバイパス</span><span class="sxs-lookup"><span data-stu-id="8e423-254">PSTN Calls: Media Bypass</span></span></p></li>
+<li><p><span data-ttu-id="8e423-255">PSTN 通話 (非バイパス): UC レグ</span><span class="sxs-lookup"><span data-stu-id="8e423-255">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
+<li><p><span data-ttu-id="8e423-256">PSTN 通話 (非バイパス): ゲートウェイ レグ</span><span class="sxs-lookup"><span data-stu-id="8e423-256">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
+<li><p><span data-ttu-id="8e423-257">その他の通話の種類</span><span class="sxs-lookup"><span data-stu-id="8e423-257">Other Call Types</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-258">[<strong>通話ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-258"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-259">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-259">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-260">通話の種類当たりの通話の総数。</span><span class="sxs-lookup"><span data-stu-id="76f1b-260">Total number of calls per call type.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-258">[<strong>通話ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-258"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-259">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-259">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-260">通話の種類当たりの通話の総数。</span><span class="sxs-lookup"><span data-stu-id="8e423-260">Total number of calls per call type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-261">[<strong>低品質通話のパーセンテージ</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-261"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-262">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-262">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p126">低品質として分類される通話の総数。低品質通話とは、少なくとも 1 つの測定指標が許容値を超えている通話 (たとえば、過剰なジッターが発生した通話) のことです。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p126">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="8e423-261">[<strong>低品質通話のパーセンテージ</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-261"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-262">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-262">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p126">低品質として分類される通話の総数。低品質通話とは、少なくとも 1 つの測定指標が許容値を超えている通話 (たとえば、過剰なジッターが発生した通話) のことです。</span><span class="sxs-lookup"><span data-stu-id="8e423-p126">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-265">[<strong>通話ボリューム (ワイヤレス通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-265"><strong>Call volume (wireless call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-266">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-266">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-267">ワイヤレス接続を使用した通話の総数。</span><span class="sxs-lookup"><span data-stu-id="76f1b-267">Total number of calls that used a wireless connection.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-265">[<strong>通話ボリューム (ワイヤレス通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-265"><strong>Call volume (wireless call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-266">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-266">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-267">ワイヤレス接続を使用した通話の総数。</span><span class="sxs-lookup"><span data-stu-id="8e423-267">Total number of calls that used a wireless connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-268">[<strong>通話ボリューム (VPN 通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-268"><strong>Call volume (VPN call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-269">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-269">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-270">VPN 接続を使用した通話の総数。</span><span class="sxs-lookup"><span data-stu-id="76f1b-270">Total number of calls that used a VPN connection.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-268">[<strong>通話ボリューム (VPN 通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-268"><strong>Call volume (VPN call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-269">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-269">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-270">VPN 接続を使用した通話の総数。</span><span class="sxs-lookup"><span data-stu-id="8e423-270">Total number of calls that used a VPN connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-271">[<strong>通話ボリューム (外部通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-271"><strong>Call volume (external call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-272">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-272">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-273">外部接続 (つまり、内部ネットワークの外側の接続) を使用した通話の数。</span><span class="sxs-lookup"><span data-stu-id="76f1b-273">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
+<td><p><span data-ttu-id="8e423-271">[<strong>通話ボリューム (外部通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-271"><strong>Call volume (external call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-272">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-272">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-273">外部接続 (つまり、内部ネットワークの外側の接続) を使用した通話の数。</span><span class="sxs-lookup"><span data-stu-id="8e423-273">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-274">[<strong>Avg bit-rate (Kbits/s)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-274"><strong>Avg bit-rate (Kbits/s)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-275">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-275">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-276">平均ビデオ ビット レート (1 秒あたりのキロビット)。</span><span class="sxs-lookup"><span data-stu-id="76f1b-276">Average video bit rate (in kilobits per second).</span></span></p></td>
+<td><p><span data-ttu-id="8e423-274">[<strong>Avg bit-rate (Kbits/s)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-274"><strong>Avg bit-rate (Kbits/s)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-275">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-275">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-276">平均ビデオ ビット レート (1 秒あたりのキロビット)。</span><span class="sxs-lookup"><span data-stu-id="8e423-276">Average video bit rate (in kilobits per second).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-277">[<strong>Low bit-rate %</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-277"><strong>Low bit-rate %</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-278">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-278">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-279">ビット レートが低い通話のパーセンテージ。</span><span class="sxs-lookup"><span data-stu-id="76f1b-279">Percentage of the call where the bit rate was low.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-277">[<strong>Low bit-rate %</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-277"><strong>Low bit-rate %</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-278">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-278">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-279">ビット レートが低い通話のパーセンテージ。</span><span class="sxs-lookup"><span data-stu-id="8e423-279">Percentage of the call where the bit rate was low.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-280">[<strong>Outbound packet loss</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-280"><strong>Outbound packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-281">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-281">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-282">送信パケットのリアルタイム転送プロトコル (RTP) パケット損失。</span><span class="sxs-lookup"><span data-stu-id="76f1b-282">Real-Time Transport Protocol (RTP) packet loss for outbound packets.</span></span> <span data-ttu-id="76f1b-283">(パケット損失は、RTP パケット、つまりインターネット経由で音声とビデオを送信するために使用されるプロトコルで、宛先に到達できなかった場合に発生します)。通常、高損失率は輻輳が原因で発生します。帯域幅の不足。ワイヤレスの輻輳または干渉。または、オーバーロードされたメディアサーバー。</span><span class="sxs-lookup"><span data-stu-id="76f1b-283">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion; lack of bandwidth; wireless congestion or interference; or an overloaded media server.</span></span> <span data-ttu-id="76f1b-284">パケット損失が発生すると、通常、音声のひずみや欠落が生じます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-284">Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-280">[<strong>Outbound packet loss</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-280"><strong>Outbound packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-281">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-281">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-282">送信パケットの Real-Time トランスポートプロトコル (RTP) パケット損失。</span><span class="sxs-lookup"><span data-stu-id="8e423-282">Real-Time Transport Protocol (RTP) packet loss for outbound packets.</span></span> <span data-ttu-id="8e423-283">(パケット損失は、RTP パケット、つまりインターネット経由で音声とビデオを送信するために使用されるプロトコルで、宛先に到達できなかった場合に発生します)。通常、高損失率は輻輳が原因で発生します。帯域幅の不足。ワイヤレスの輻輳または干渉。または、オーバーロードされたメディアサーバー。</span><span class="sxs-lookup"><span data-stu-id="8e423-283">(Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion; lack of bandwidth; wireless congestion or interference; or an overloaded media server.</span></span> <span data-ttu-id="8e423-284">パケット損失が発生すると、通常、音声のひずみや欠落が生じます。</span><span class="sxs-lookup"><span data-stu-id="8e423-284">Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-285">[<strong>フリーズ フレーム %</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-285"><strong>Frozen frame %</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-286">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-286">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p128">"フリーズ" フレームのパーセンテージ。フリーズ フレームでは、通話の音声部分が続いていてもビデオの進行が停止します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p128">Percentage of “frozen” frames. In a frozen frame, the video stops advancing while the audio portion of the call continues.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-285">[<strong>フリーズ フレーム %</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-285"><strong>Frozen frame %</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-286">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-286">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p128">"フリーズ" フレームのパーセンテージ。フリーズ フレームでは、通話の音声部分が続いていてもビデオの進行が停止します。</span><span class="sxs-lookup"><span data-stu-id="8e423-p128">Percentage of “frozen” frames. In a frozen frame, the video stops advancing while the audio portion of the call continues.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-289">[<strong>Outbound avg frame rate</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-289"><strong>Outbound avg frame rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-290">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-290">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-291">通話時の送信の平均フレーム レート。</span><span class="sxs-lookup"><span data-stu-id="76f1b-291">Average frame rate for outbound transmissions during the call.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-289">[<strong>Outbound avg frame rate</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-289"><strong>Outbound avg frame rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-290">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-290">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-291">通話時の送信の平均フレーム レート。</span><span class="sxs-lookup"><span data-stu-id="8e423-291">Average frame rate for outbound transmissions during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-292">[<strong>Inbound avg frame rate</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-292"><strong>Inbound avg frame rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-293">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-293">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-294">通話時の受信の平均フレーム レート。</span><span class="sxs-lookup"><span data-stu-id="76f1b-294">Average frame rate for incoming transmissions during the call.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-292">[<strong>Inbound avg frame rate</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-292"><strong>Inbound avg frame rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-293">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-293">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-294">通話時の受信の平均フレーム レート。</span><span class="sxs-lookup"><span data-stu-id="8e423-294">Average frame rate for incoming transmissions during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-295">[<strong>Inbound low frame rate %</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-295"><strong>Inbound low frame rate %</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-296">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-296">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-297">着信ビデオのビット レートが低い通話のパーセンテージ。</span><span class="sxs-lookup"><span data-stu-id="76f1b-297">Percentage of the call where the bit rate for incoming video was low.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-295">[<strong>Inbound low frame rate %</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-295"><strong>Inbound low frame rate %</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-296">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-296">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-297">着信ビデオのビット レートが低い通話のパーセンテージ。</span><span class="sxs-lookup"><span data-stu-id="8e423-297">Percentage of the call where the bit rate for incoming video was low.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-298">[<strong>Client health %</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-298"><strong>Client health %</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-298">[<strong>Client health %</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-298"><strong>Client health %</strong></span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="76f1b-299">通話時のクライアント デバイスの相対的な正常性を示します。</span><span class="sxs-lookup"><span data-stu-id="76f1b-299">Indicates the relative health of the client device during the call.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-299">通話時のクライアント デバイスの相対的な正常性を示します。</span><span class="sxs-lookup"><span data-stu-id="8e423-299">Indicates the relative health of the client device during the call.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="server-performance-report-metrics-application-sharing-call-summary"></a><span data-ttu-id="76f1b-300">サーバーパフォーマンスレポートの指標: アプリケーション共有の通話の概要</span><span class="sxs-lookup"><span data-stu-id="76f1b-300">Server Performance Report Metrics: Application Sharing Call Summary</span></span>
+### <a name="server-performance-report-metrics-application-sharing-call-summary"></a><span data-ttu-id="8e423-300">サーバーパフォーマンスレポートの指標: アプリケーション共有の通話の概要</span><span class="sxs-lookup"><span data-stu-id="8e423-300">Server Performance Report Metrics: Application Sharing Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -360,70 +362,70 @@ ms.locfileid: "42200803"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76f1b-301">名前</span><span class="sxs-lookup"><span data-stu-id="76f1b-301">Name</span></span></th>
-<th><span data-ttu-id="76f1b-302">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="76f1b-302">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="76f1b-303">説明</span><span class="sxs-lookup"><span data-stu-id="76f1b-303">Description</span></span></th>
+<th><span data-ttu-id="8e423-301">名前</span><span class="sxs-lookup"><span data-stu-id="8e423-301">Name</span></span></th>
+<th><span data-ttu-id="8e423-302">この項目での並べ替え</span><span class="sxs-lookup"><span data-stu-id="8e423-302">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="8e423-303">説明</span><span class="sxs-lookup"><span data-stu-id="8e423-303">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-304">[<strong>通話の種類/エンドポイントの種類</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-304"><strong>Call type/Endpoint type</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-305">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-305">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p129">この項目をクリックすると、その種類に基づく通話の詳細情報がレポートに表示されます。通話の種類は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p129">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
+<td><p><span data-ttu-id="8e423-304">[<strong>通話の種類/エンドポイントの種類</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-304"><strong>Call type/Endpoint type</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-305">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-305">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p129">この項目をクリックすると、その種類に基づく通話の詳細情報がレポートに表示されます。通話の種類は次のとおりです。</span><span class="sxs-lookup"><span data-stu-id="8e423-p129">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="76f1b-308">UC ピアツーピア通話</span><span class="sxs-lookup"><span data-stu-id="76f1b-308">UC Peer-to-Peer Calls</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-309">UC 電話会議セッション</span><span class="sxs-lookup"><span data-stu-id="76f1b-309">UC Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-310">PSTN 電話会議セッション</span><span class="sxs-lookup"><span data-stu-id="76f1b-310">PSTN Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-311">PSTN 通話: メディアのバイパス</span><span class="sxs-lookup"><span data-stu-id="76f1b-311">PSTN Calls: Media Bypass</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-312">PSTN 通話 (非バイパス): UC レグ</span><span class="sxs-lookup"><span data-stu-id="76f1b-312">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-313">PSTN 通話 (非バイパス): ゲートウェイ レグ</span><span class="sxs-lookup"><span data-stu-id="76f1b-313">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
-<li><p><span data-ttu-id="76f1b-314">その他の通話の種類</span><span class="sxs-lookup"><span data-stu-id="76f1b-314">Other Call Types</span></span></p></li>
+<li><p><span data-ttu-id="8e423-308">UC ピアツーピア通話</span><span class="sxs-lookup"><span data-stu-id="8e423-308">UC Peer-to-Peer Calls</span></span></p></li>
+<li><p><span data-ttu-id="8e423-309">UC 電話会議セッション</span><span class="sxs-lookup"><span data-stu-id="8e423-309">UC Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="8e423-310">PSTN 電話会議セッション</span><span class="sxs-lookup"><span data-stu-id="8e423-310">PSTN Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="8e423-311">PSTN 通話: メディアのバイパス</span><span class="sxs-lookup"><span data-stu-id="8e423-311">PSTN Calls: Media Bypass</span></span></p></li>
+<li><p><span data-ttu-id="8e423-312">PSTN 通話 (非バイパス): UC レグ</span><span class="sxs-lookup"><span data-stu-id="8e423-312">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
+<li><p><span data-ttu-id="8e423-313">PSTN 通話 (非バイパス): ゲートウェイ レグ</span><span class="sxs-lookup"><span data-stu-id="8e423-313">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
+<li><p><span data-ttu-id="8e423-314">その他の通話の種類</span><span class="sxs-lookup"><span data-stu-id="8e423-314">Other Call Types</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-315">[<strong>通話ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-315"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-316">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-316">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-317">通話の種類当たりの通話の総数。</span><span class="sxs-lookup"><span data-stu-id="76f1b-317">Total number of calls per call type.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-315">[<strong>通話ボリューム</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-315"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-316">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-316">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-317">通話の種類当たりの通話の総数。</span><span class="sxs-lookup"><span data-stu-id="8e423-317">Total number of calls per call type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-318">[<strong>低品質通話のパーセンテージ</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-318"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-319">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-319">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p130">低品質として分類される通話の総数。低品質通話とは、少なくとも 1 つの測定指標が許容値を超えている通話 (たとえば、過剰なジッターが発生した通話) のことです。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p130">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="8e423-318">[<strong>低品質通話のパーセンテージ</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-318"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-319">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-319">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p130">低品質として分類される通話の総数。低品質通話とは、少なくとも 1 つの測定指標が許容値を超えている通話 (たとえば、過剰なジッターが発生した通話) のことです。</span><span class="sxs-lookup"><span data-stu-id="8e423-p130">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-322">[<strong>通話ボリューム (ワイヤレス通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-322"><strong>Call volume (wireless call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-323">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-323">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-324">ワイヤレス接続を使用した通話の総数。</span><span class="sxs-lookup"><span data-stu-id="76f1b-324">Total number of calls that used a wireless connection.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-322">[<strong>通話ボリューム (ワイヤレス通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-322"><strong>Call volume (wireless call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-323">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-323">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-324">ワイヤレス接続を使用した通話の総数。</span><span class="sxs-lookup"><span data-stu-id="8e423-324">Total number of calls that used a wireless connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-325">[<strong>通話ボリューム (VPN 通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-325"><strong>Call volume (VPN call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-326">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-326">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-327">VPN 接続を使用した通話の総数。</span><span class="sxs-lookup"><span data-stu-id="76f1b-327">Total number of calls that used a VPN connection.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-325">[<strong>通話ボリューム (VPN 通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-325"><strong>Call volume (VPN call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-326">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-326">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-327">VPN 接続を使用した通話の総数。</span><span class="sxs-lookup"><span data-stu-id="8e423-327">Total number of calls that used a VPN connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-328">[<strong>通話ボリューム (外部通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-328"><strong>Call volume (external call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-329">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-329">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-330">外部接続 (つまり、内部ネットワークの外側の接続) を使用した通話の数。</span><span class="sxs-lookup"><span data-stu-id="76f1b-330">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
+<td><p><span data-ttu-id="8e423-328">[<strong>通話ボリューム (外部通話)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-328"><strong>Call volume (external call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-329">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-329">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-330">外部接続 (つまり、内部ネットワークの外側の接続) を使用した通話の数。</span><span class="sxs-lookup"><span data-stu-id="8e423-330">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-331">[<strong>ジッター (ミリ秒)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-331"><strong>Jitter (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-332">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-332">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-333">RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。</span><span class="sxs-lookup"><span data-stu-id="76f1b-333">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="76f1b-334">(ジッターは、通話の&quot;過&quot;の測定値です)。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</span><span class="sxs-lookup"><span data-stu-id="76f1b-334">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-331">[<strong>ジッター (ミリ秒)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-331"><strong>Jitter (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-332">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-332">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-333">RTP パケットの着信間に検出された平均ジッター (ジッターとは、通話の "揺れ" の測定値です)。</span><span class="sxs-lookup"><span data-stu-id="8e423-333">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="8e423-334">(ジッターは、通話の過の測定値です &quot; &quot; )。高ジッター値は、通常、混雑または過負荷のメディアサーバーによって発生し、その結果、音声がひずむか失われます。</span><span class="sxs-lookup"><span data-stu-id="8e423-334">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-335">[<strong>Relative one way delay burst density (ms)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-335"><strong>Avg. relative one way</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-336">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-336">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p132">2 つのメディア エンドポイント間の相対的な一方向の平均遅延。これは、1 ホップの遅延の測定です。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p132">Average relative one-way delay between two media endpoints. This is a single-hop latency measure.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-335">[<strong>Relative one way delay burst density (ms)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-335"><strong>Avg. relative one way</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-336">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-336">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p132">2 つのメディア エンドポイント間の相対的な一方向の平均遅延。これは、1 ホップの遅延の測定です。</span><span class="sxs-lookup"><span data-stu-id="8e423-p132">Average relative one-way delay between two media endpoints. This is a single-hop latency measure.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="76f1b-339">[<strong>RDP Tile processing latency burst density (ms)</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-339"><strong>Avg. RDP tile processing latency</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-340">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-340">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-p133">表示セッション中の AS 会議サーバーでの RDP タイル処理の平均遅延。ネットワーク遅延はこの指標の対象外です。平均値が高いと、表示の際の遅延が大きくなります。過負荷の会議サーバーでは平均遅延が大きくなる場合があります。</span><span class="sxs-lookup"><span data-stu-id="76f1b-p133">The average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session. This metric does not cover network latency. A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-339">[<strong>RDP Tile processing latency burst density (ms)</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-339"><strong>Avg. RDP tile processing latency</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-340">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-340">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-p133">表示セッション中の AS 会議サーバーでの RDP タイル処理の平均遅延。ネットワーク遅延はこの指標の対象外です。平均値が高いと、表示の際の遅延が大きくなります。過負荷の会議サーバーでは平均遅延が大きくなる場合があります。</span><span class="sxs-lookup"><span data-stu-id="8e423-p133">The average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session. This metric does not cover network latency. A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="76f1b-345">[<strong>損失した合計タイル %</strong>]</span><span class="sxs-lookup"><span data-stu-id="76f1b-345"><strong>Total spoiled tile %</strong></span></span></p></td>
-<td><p><span data-ttu-id="76f1b-346">いいえ</span><span class="sxs-lookup"><span data-stu-id="76f1b-346">No</span></span></p></td>
-<td><p><span data-ttu-id="76f1b-347">損失した RDP タイル数のパーセンテージ。</span><span class="sxs-lookup"><span data-stu-id="76f1b-347">Total percentage of spoiled RDP tiles.</span></span></p></td>
+<td><p><span data-ttu-id="8e423-345">[<strong>損失した合計タイル %</strong>]</span><span class="sxs-lookup"><span data-stu-id="8e423-345"><strong>Total spoiled tile %</strong></span></span></p></td>
+<td><p><span data-ttu-id="8e423-346">いいえ</span><span class="sxs-lookup"><span data-stu-id="8e423-346">No</span></span></p></td>
+<td><p><span data-ttu-id="8e423-347">損失した RDP タイル数のパーセンテージ。</span><span class="sxs-lookup"><span data-stu-id="8e423-347">Total percentage of spoiled RDP tiles.</span></span></p></td>
 </tr>
 </tbody>
 </table>

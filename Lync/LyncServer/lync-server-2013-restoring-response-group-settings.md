@@ -12,20 +12,22 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbde44ac248e59af63a34cfeab6415166994c0b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d2b257fe2a77faacca588f2df5632d6476c673b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208473"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511410"
 ---
+# <a name="restoring-response-group-settings-in-lync-server-2013"></a><span data-ttu-id="885c6-102">Lync Server 2013 での応答グループの設定の復元</span><span class="sxs-lookup"><span data-stu-id="885c6-102">Restoring Response Group settings in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-response-group-settings-in-lync-server-2013"></a><span data-ttu-id="51d81-102">Lync Server 2013 での応答グループの設定の復元</span><span class="sxs-lookup"><span data-stu-id="51d81-102">Restoring Response Group settings in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42208473"
 
 <span> </span>
 
-<span data-ttu-id="51d81-103">_**トピックの最終更新日:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="51d81-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="885c6-103">_**トピックの最終更新日:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="885c6-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="51d81-104">応答グループアプリケーションを展開し、バックエンドサーバーまたは Standard Edition サーバーを復元する必要がある場合は、応答グループの構成設定も復元する必要があります。</span><span class="sxs-lookup"><span data-stu-id="51d81-104">If you deployed the Response Group application and you need to restore a Back End Server or a Standard Edition server, you also need to restore the Response Group configuration settings.</span></span>
+<span data-ttu-id="885c6-104">応答グループアプリケーションを展開し、バックエンドサーバーまたは Standard Edition サーバーを復元する必要がある場合は、応答グループの構成設定も復元する必要があります。</span><span class="sxs-lookup"><span data-stu-id="885c6-104">If you deployed the Response Group application and you need to restore a Back End Server or a Standard Edition server, you also need to restore the Response Group configuration settings.</span></span>
 
 <div>
 
-## <a name="to-restore-response-group-configuration-settings"></a><span data-ttu-id="51d81-105">応答グループ構成設定を復元するには</span><span class="sxs-lookup"><span data-stu-id="51d81-105">To restore Response Group configuration settings</span></span>
+## <a name="to-restore-response-group-configuration-settings"></a><span data-ttu-id="885c6-105">応答グループ構成設定を復元するには</span><span class="sxs-lookup"><span data-stu-id="885c6-105">To restore Response Group configuration settings</span></span>
 
-1.  <span data-ttu-id="51d81-106">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="51d81-106">At the command line, type:</span></span>
+1.  <span data-ttu-id="885c6-106">コマンドラインで、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="885c6-106">At the command line, type:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<pool FQDN>" -OverwriteOwner -FileName "<path and file name of the backed up file at $Backup>"
     
-    <span data-ttu-id="51d81-107">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="51d81-107">For example:</span></span>
+    <span data-ttu-id="885c6-107">次に例を示します。</span><span class="sxs-lookup"><span data-stu-id="885c6-107">For example:</span></span>
     
         Import-CsRgsConfiguration -Destination "service: ApplicationServer:pool01.contoso.com" -OverwriteOwner -FileName "C:\RgsConfiguration.zip"
 
