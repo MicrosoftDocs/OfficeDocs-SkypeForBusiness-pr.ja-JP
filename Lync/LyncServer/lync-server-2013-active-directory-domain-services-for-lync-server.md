@@ -12,20 +12,22 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00038dce85a7461be37456d9dee263a71f60c113
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5a4e548f68f68a65ac4ecfb2e4ddc532b5f337c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199590"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529714"
 ---
+# <a name="active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013 の Active Directory ドメインサービス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013 の Active Directory ドメインサービス
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42199590"
 
 _**トピックの最終更新日:** 2013-11-13_
 
-Active Directory ドメインサービスは、Windows Server 2003、Windows Server 2008、Windows Server 2012、および Windows Server 2012 R2 ネットワークのディレクトリサービスとして機能します。 Active Directory ドメインサービスは、Microsoft Lync Server 2013 セキュリティインフラストラクチャを構築する基礎としても機能します。 このセクションの目的は、Lync Server 2013 が Active Directory ドメインサービスを使用して IM、Web 会議、メディア、および音声の信頼できる環境を作成する方法について説明することです。 Active Directory ドメインサービスに対する Lync Server extensions の詳細、および Active Directory ドメインサービス用の環境の準備については、「展開」のドキュメントの「 [Active Directory ドメインサービスの Lync server 2013 の準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。 Windows Server のネットワークにおける Active Directory ドメイン サービスの役割の詳細については、お使いのバージョンのオペレーティング システムのドキュメントを参照してください。
+Active Directory ドメインサービスは、Windows Server 2003、Windows Server 2008、Windows Server 2012、および Windows Server 2012 R2 ネットワークのディレクトリサービスとして機能します。 Active Directory ドメインサービスは、Microsoft Lync Server 2013 セキュリティインフラストラクチャを構築する基礎としても機能します。 このセクションの目的は、Lync Server 2013 が Active Directory ドメインサービスを使用して IM、Web 会議、メディア、および音声の信頼できる環境を作成する方法について説明することです。 Active Directory ドメインサービスに対する Lync Server extensions の詳細、および Active Directory ドメインサービス用の環境の準備については、「展開」のドキュメントの「 [Active Directory ドメインサービスの Lync server 2013 の準備](lync-server-2013-preparing-active-directory-domain-services.md) 」を参照してください。 Windows Server のネットワークにおける Active Directory ドメイン サービスの役割の詳細については、お使いのバージョンのオペレーティング システムのドキュメントを参照してください。
 
 Lync Server 2013 は、Active Directory ドメインサービスを使用して次のものを格納します。
 
@@ -59,7 +61,7 @@ Active Directory のインフラストラクチャ要件には、次のような
 
   - グローバル カタログ ドメインの要件
 
-詳細については、「展開」のドキュメントの「 [Lync Server 2013 の Active Directory インフラストラクチャ要件](lync-server-2013-active-directory-infrastructure-requirements.md)」を参照してください。
+詳細については、「展開」のドキュメントの「 [Lync Server 2013 の Active Directory インフラストラクチャ要件](lync-server-2013-active-directory-infrastructure-requirements.md) 」を参照してください。
 
 </div>
 
@@ -71,7 +73,7 @@ Active Directory のインフラストラクチャ要件には、次のような
 
 
 > [!NOTE]  
-> グローバル設定はシステム コンテナーではなく構成コンテナーに展開することをお勧めします。 これによってセキュリティが向上するわけではありませんが、一部の Active Directory ドメイン サービスのトポロジではスケーラビリティが向上することがあります。 Microsoft Office Communications Server 2007 から移行していて、システムコンテナーを使用していて、構成コンテナーの使用を計画している場合は、アップグレードの準備を行う前に、システムコンテナーで設定を移動する必要があります。 システムコンテナー設定を構成コンテナーに移行するには、「Office Communications Server 2007 グローバル設定移行ツール<A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>」を参照してください。
+> グローバル設定はシステム コンテナーではなく構成コンテナーに展開することをお勧めします。 これによってセキュリティが向上するわけではありませんが、一部の Active Directory ドメイン サービスのトポロジではスケーラビリティが向上することがあります。 Microsoft Office Communications Server 2007 から移行していて、システムコンテナーを使用していて、構成コンテナーの使用を計画している場合は、アップグレードの準備を行う前に、システムコンテナーで設定を移動する必要があります。 システムコンテナー設定を構成コンテナーに移行するには、「Office Communications Server 2007 グローバル設定移行ツール」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A> 。
 
 
 
@@ -79,13 +81,13 @@ Active Directory のインフラストラクチャ要件には、次のような
 
 Lync Server 2013 を展開する場合、最初の手順として、Active Directory ドメインサービスを準備します。 Lync Server 2013 用の Active Directory ドメインサービスの準備は、次の3つの手順で構成されます。
 
-  - **スキーマを準備**します。 このタスクは、Active Directory ドメインサービスのスキーマを拡張して、Lync Server 2013 に固有のクラスと属性を含めます。 スキーマの準備の詳細については、「展開」のドキュメントの「 [Lync Server 2013 での Active Directory スキーマの準備の実行](lync-server-2013-running-schema-preparation.md)」を参照してください。 詳細については、「 [Office Communications server 2007 R2 から Lync Server 2013 への移行](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)」を参照してください。
+  - **スキーマを準備**します。 このタスクは、Active Directory ドメインサービスのスキーマを拡張して、Lync Server 2013 に固有のクラスと属性を含めます。 スキーマの準備の詳細については、「展開」のドキュメントの「 [Lync Server 2013 での Active Directory スキーマの準備の実行](lync-server-2013-running-schema-preparation.md) 」を参照してください。 詳細については、「 [Office Communications server 2007 R2 から Lync Server 2013 への移行](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)」を参照してください。
 
-  - **フォレストを準備**します。 このタスクは、フォレストのルートドメインにグローバル設定とオブジェクトを作成し、これらの設定およびオブジェクトへのアクセスを管理するユニバーサルサービスおよび管理グループと共に作成します。 フォレストの準備の詳細については、「展開」のドキュメントの「 [Lync Server 2013 の実行フォレストの準備](lync-server-2013-running-forest-preparation.md)」を参照してください。
+  - **フォレストを準備**します。 このタスクは、フォレストのルートドメインにグローバル設定とオブジェクトを作成し、これらの設定およびオブジェクトへのアクセスを管理するユニバーサルサービスおよび管理グループと共に作成します。 フォレストの準備の詳細については、「展開」のドキュメントの「 [Lync Server 2013 の実行フォレストの準備](lync-server-2013-running-forest-preparation.md) 」を参照してください。
 
-  - **ドメインを準備**します。 このタスクは、ドメイン内のユーザーをホストおよび管理するためのアクセス許可を付与するユニバーサルグループに必要なアクセス制御エントリ (Ace) を追加します。 このタスクは、Lync Server 2013 を実行しているサーバーを展開するすべてのドメインで、および Lync Server ユーザーが存在するすべてのドメインで完了する必要があります。 ドメインの準備の詳細については、「展開」のドキュメントの「 [Lync Server 2013 の実行ドメインの準備](lync-server-2013-running-domain-preparation.md)」を参照してください。
+  - **ドメインを準備**します。 このタスクは、ドメイン内のユーザーをホストおよび管理するためのアクセス許可を付与するユニバーサルグループに必要なアクセス制御エントリ (Ace) を追加します。 このタスクは、Lync Server 2013 を実行しているサーバーを展開するすべてのドメインで、および Lync Server ユーザーが存在するすべてのドメインで完了する必要があります。 ドメインの準備の詳細については、「展開」のドキュメントの「 [Lync Server 2013 の実行ドメインの準備](lync-server-2013-running-domain-preparation.md) 」を参照してください。
 
-Active Directory を準備するための完全なプロセス、および各手順を実行するために必要な権限とアクセス許可の概要については、「展開」のドキュメントの「 [Lync Server 2013 の Active directory インフラストラクチャ要件](lync-server-2013-active-directory-infrastructure-requirements.md)」を参照してください。
+Active Directory を準備するための完全なプロセス、および各手順を実行するために必要な権限とアクセス許可の概要については、「展開」のドキュメントの「 [Lync Server 2013 の Active directory インフラストラクチャ要件](lync-server-2013-active-directory-infrastructure-requirements.md) 」を参照してください。
 
 </div>
 
@@ -101,7 +103,7 @@ Active Directory を準備するための完全なプロセス、および各手
 
   - **インフラストラクチャグループ**。 これらのグループは、Lync Server インフラストラクチャの特定の領域にアクセスするためのアクセス許可を提供します。 変更したり、ユーザーを直接追加したりしないでください。 フォレストの準備時に、特定のサービスおよび管理グループが適切なインフラストラクチャグループに追加されます。
 
-Lync Server 用の AD の準備時に作成される特定のユニバーサルグループと、インフラストラクチャグループに追加されるサービスおよび管理グループの詳細については、「展開」のドキュメントの「 [Lync server 2013 でのフォレストの準備による変更点](lync-server-2013-changes-made-by-forest-preparation.md)」を参照してください。
+Lync Server 用の AD の準備時に作成される特定のユニバーサルグループと、インフラストラクチャグループに追加されるサービスおよび管理グループの詳細については、「展開」のドキュメントの「 [Lync server 2013 でのフォレストの準備による変更点](lync-server-2013-changes-made-by-forest-preparation.md) 」を参照してください。
 
 <div>
 
@@ -119,7 +121,7 @@ Lync Server 用の AD の準備時に作成される特定のユニバーサル�
 
 ## <a name="role-based-access-control"></a>役割ベースのアクセス制御
 
-ユニバーサルサービスグループと管理グループの作成、および適切なユニバーサルグループへのサービスと管理グループの追加に加えて、フォレストの準備で役割ベースのアクセス制御 (RBAC) グループも作成されます。 フォレストの準備で作成された特定の RBAC グループの詳細については、「展開」のドキュメントの「 [Lync Server 2013 でのフォレストの準備による変更点](lync-server-2013-changes-made-by-forest-preparation.md)」を参照してください。 RBAC グループの詳細については、「 [Lync Server 2013 の役割ベースのアクセス制御 (RBAC)](lync-server-2013-role-based-access-control-rbac.md)」を参照してください。
+ユニバーサルサービスグループと管理グループの作成、および適切なユニバーサルグループへのサービスと管理グループの追加に加えて、フォレストの準備では Role-Based アクセス制御 (RBAC) グループも作成されます。 フォレストの準備で作成された特定の RBAC グループの詳細については、「展開」のドキュメントの「 [Lync Server 2013 でのフォレストの準備による変更点](lync-server-2013-changes-made-by-forest-preparation.md) 」を参照してください。 RBAC グループの詳細については、「 [Lync Server 2013 の役割ベースのアクセス制御 (RBAC)](lync-server-2013-role-based-access-control-rbac.md)」を参照してください。
 
 </div>
 
@@ -131,9 +133,9 @@ Lync Server 用の AD の準備時に作成される特定のユニバーサル�
 
 ドメインの準備ステップでは、ドメイン内のユーザーをホストおよび管理するアクセス許可を与えるアクセス制御エントリ (ACE) をユニバーサル グループに追加します。ドメインの準備で、ドメイン ルートと 3 つの組み込みコンテナー (ユーザー、コンピューター、およびドメイン コントローラー) に対する ACE が作成されます。
 
-フォレストの準備およびドメインの準備で作成および追加されるパブリック Ace の詳細については、「展開」のドキュメントの「 [Lync server 2013 でのフォレストの準備](lync-server-2013-changes-made-by-forest-preparation.md)に加えられた変更」および「 [lync server 2013 のドメイン準備による変更](lync-server-2013-changes-made-by-domain-preparation.md)点」を参照してください。
+フォレストの準備およびドメインの準備で作成および追加されるパブリック Ace の詳細については、「展開」のドキュメントの「 [Lync server 2013 でのフォレストの準備](lync-server-2013-changes-made-by-forest-preparation.md) に加えられた変更」および「 [lync server 2013 のドメイン準備による変更](lync-server-2013-changes-made-by-domain-preparation.md) 点」を参照してください。
 
-組織では、セキュリティ リスクを軽減するために Active Directory ドメイン サービス (AD DS) をロックダウンすることがよくあります。 ただし、ロックダウンされた Active Directory 環境では、Lync Server 2013 に必要なアクセス許可を制限することができます。 たとえば、コンテナーと OU からの ACE の削除や、ユーザー、連絡先、InetOrgPerson、コンピューターの各オブジェクトでのアクセス許可の継承の無効化などが挙げられます。 ロックダウンされた Active Directory 環境では、コンテナーと OU のアクセス許可を必要に応じて手動で設定する必要があります。 詳細については、「展開」のドキュメントの「 [Lync Server 2013 でロックダウンされた Active Directory ドメインサービスを準備する](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)」を参照してください。
+組織では、セキュリティ リスクを軽減するために Active Directory ドメイン サービス (AD DS) をロックダウンすることがよくあります。 ただし、ロックダウンされた Active Directory 環境では、Lync Server 2013 に必要なアクセス許可を制限することができます。 たとえば、コンテナーと OU からの ACE の削除や、ユーザー、連絡先、InetOrgPerson、コンピューターの各オブジェクトでのアクセス許可の継承の無効化などが挙げられます。 ロックダウンされた Active Directory 環境では、コンテナーと OU のアクセス許可を必要に応じて手動で設定する必要があります。 詳細については、「展開」のドキュメントの「 [Lync Server 2013 でロックダウンされた Active Directory ドメインサービスを準備する](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) 」を参照してください。
 
 </div>
 
@@ -155,7 +157,7 @@ Lync Server 用の AD の準備時に作成される特定のユニバーサル�
 
 ## <a name="service-connection-points"></a>サービス接続ポイント
 
-Active Directory ドメインサービスの各 Lync Server 2013 オブジェクトには、RTC Services という名前の SCP があります。これには、各コンピューターを識別して、提供されるサービスを指定するいくつかの属性が含まれます。 より重要な SCP 属性には、 *serviceDNSName*、 *serviceDNSNameType*、 *serviceClassname*、および*serviceBindingInformation*があります。 サードパーティ製のアセット管理アプリケーションは、これらの属性とその他の SCP 属性を照会することによって、展開全体でサーバー情報を取得できます。
+Active Directory ドメインサービスの各 Lync Server 2013 オブジェクトには、RTC Services という名前の SCP があります。これには、各コンピューターを識別して、提供されるサービスを指定するいくつかの属性が含まれます。 より重要な SCP 属性には、 *serviceDNSName*、 *serviceDNSNameType*、 *serviceClassname*、および *serviceBindingInformation*があります。 サードパーティ製のアセット管理アプリケーションは、これらの属性とその他の SCP 属性を照会することによって、展開全体でサーバー情報を取得できます。
 
 </div>
 
@@ -179,7 +181,7 @@ Lync Server 2013 では、[信頼されたサーバー] は、トポロジビル
 
 このどちらかの条件が満たされていない場合、サーバーは信頼されず、サーバーとの接続は拒否されます。この二重の要件により、悪意のあるサーバーが有効なサーバーの FQDN を乗っ取ろうとする攻撃を (たとえ攻撃の可能性が低くても) 防ぐことができます。
 
-また、lync server 2013 サーバーと通信するために Microsoft Office Communications Server 2007 R2 および Microsoft Office Communications Server 2007 の展開を有効にするために、Lync Server 2013 は、のリストを保持するためのフォレストの準備中にコンテナーを作成します。以前のリリースの信頼されたサーバー。 次の表は、以前の展開との互換性維持のために作成されるコンテナーを示しています。
+さらに、Microsoft Office Communications Server 2007 R2 および Microsoft Office Communications Server 2007 の展開を Lync Server 2013 サーバーと通信できるようにするために、Lync Server 2013 は、以前のリリース用に信頼されたサーバーのリストを保持するために、フォレストの準備中にコンテナーを作成します。 次の表は、以前の展開との互換性維持のために作成されるコンテナーを示しています。
 
 ### <a name="trusted-server-lists-and-their-active-directory-containers-for-compatibility-with-previous-releases"></a>信頼済みのサーバーのリストと、以前のリリースとの互換性を維持するための Active Directory コンテナー
 
@@ -219,7 +221,7 @@ Lync Server 2013 では、[信頼されたサーバー] は、トポロジビル
 </table>
 
 
-以前のリリースの信頼済みサーバーをサポートするには、ベストプラクティスアナライザーツールを実行する必要があります。 ベストプラクティスアナライザーの実行の詳細について[https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)は、「」を参照してください。
+以前のリリースの信頼済みサーバーをサポートするには、ベストプラクティスアナライザーツールを実行する必要があります。 ベストプラクティスアナライザーの実行の詳細については、「」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633) 。
 
 </div>
 

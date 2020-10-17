@@ -12,20 +12,22 @@ ms:contentKeyID: 48184460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1576b9c0c7286150c62f1491960bf9beef5d700
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 783d2bb8de49fc7660998fcf3cbcb7cdb5c18e8b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193440"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530354"
 ---
+# <a name="translation-rules-in-lync-server-2013"></a>Lync Server 2013 の変換ルール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="translation-rules-in-lync-server-2013"></a>Lync Server 2013 の変換ルール
+
 
 </div>
 
@@ -57,7 +59,7 @@ Lync Server 2013 エンタープライズ Voip では、逆引き番号検索 (R
 
 以下の変換ルールの例では、トランク ピアについて E.164 形式からローカル形式に番号を変換するルールをサーバー上に作成する方法を示しています。
 
-変換ルールを実装する方法の詳細については、「展開」のドキュメントの「 [Lync Server 2013 で変換ルールを定義](lync-server-2013-defining-translation-rules.md)する」を参照してください。
+変換ルールを実装する方法の詳細については、「展開」のドキュメントの「 [Lync Server 2013 で変換ルールを定義](lync-server-2013-defining-translation-rules.md) する」を参照してください。
 
 
 <table>
@@ -79,7 +81,7 @@ Lync Server 2013 エンタープライズ Voip では、逆引き番号検索 (R
 <th>削除する数字</th>
 <th>追加する数字</th>
 <th>一致パターン</th>
-<th>翻訳</th>
+<th>変換</th>
 <th>例</th>
 </tr>
 </thead>
@@ -91,7 +93,7 @@ Lync Server 2013 エンタープライズ Voip では、逆引き番号検索 (R
 <td><p>ちょうど 12</p></td>
 <td><p>1-d</p></td>
 <td><p>.0</p></td>
-<td><p>^\+(1/d{10}) $</p></td>
+<td><p>^\+(1 \ d {10} )$</p></td>
 <td><p>$1</p></td>
 <td><p>+14255551010 を 14255551010 に変換</p></td>
 </tr>
@@ -102,7 +104,7 @@ Lync Server 2013 エンタープライズ Voip では、逆引き番号検索 (R
 <td><p>11 以上</p></td>
 <td><p>1-d</p></td>
 <td><p>011</p></td>
-<td><p>^\+(\d{9}\d +) $</p></td>
+<td><p>^\+(\d {9} \d +) $</p></td>
 <td><p>011 $ 1</p></td>
 <td><p>+441235551010 を 011441235551010 に変換</p></td>
 </tr>

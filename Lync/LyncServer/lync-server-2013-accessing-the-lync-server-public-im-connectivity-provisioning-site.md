@@ -12,20 +12,22 @@ ms:contentKeyID: 57793364
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44692fd6267e23c98ecef1ca227cbde5289a44b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4e57bac3460c8feb5b3417f433aa228825d824a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191290"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529754"
 ---
+# <a name="accessing-the-lync-server-public-im-connectivity-provisioning-site-from-lync-server-2013"></a>Lync server 2013 からの Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="accessing-the-lync-server-public-im-connectivity-provisioning-site-from-lync-server-2013"></a>Lync server 2013 からの Lync Server パブリック IM 接続プロビジョニングサイトへのアクセス
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42191290"
 
 _**トピックの最終更新日:** 2019-03-22_
 
-以前の PIC プロビジョニング方法と比較して、Lync と Skype の接続のプロビジョニングプロセスが変更されました。 このプロビジョニングプロセスは、完了するまでに最大で30日間かかることがあります。 このドキュメントの残りの手順を完了する前に、このプロセスを最初に開始することをお勧めします。 アカウントに対して Lync-Skype のプロビジョニングプロセスが完了すると、アカウントがアクティブ化され、対象ユーザーがパブリック IM 接続を有効にできます。
+以前の PIC プロビジョニング方法と比較して、Lync-Skype 接続のプロビジョニングプロセスが変更されました。 このプロビジョニングプロセスは、完了するまでに最大で30日間かかることがあります。 このドキュメントの残りの手順を完了する前に、このプロセスを最初に開始することをお勧めします。 アカウントの Lync-Skype プロビジョニングプロセスが完了すると、アカウントがアクティブ化され、対象ユーザーのパブリック IM 接続が有効になります。
 
-### <a name="to-provision-lync-skype-connectivity-you-need-the-following-information"></a>Lync と Skype の接続をプロビジョニングするには、次の情報が必要です。
+### <a name="to-provision-lync-skype-connectivity-you-need-the-following-information"></a>Lync-Skype 接続をプロビジョニングするには、次の情報が必要です。
 
 <table>
 <colgroup>
@@ -65,7 +67,7 @@ _**トピックの最終更新日:** 2019-03-22_
 > [!IMPORTANT]
 > この変更の一環として、以前に入力したすべての連絡先情報は、2019年4月の終了後にシステムから削除されます。
 
-### <a name="to-initiate-the-provisioning-process-for-lync-skype-connectivity"></a>Lync と Skype の接続のプロビジョニングプロセスを開始するには、次の操作を行います。
+### <a name="to-initiate-the-provisioning-process-for-lync-skype-connectivity"></a>Lync-Skype 接続のプロビジョニングプロセスを開始するには、次の操作を行います。
 
 <table>
 <colgroup>
@@ -74,11 +76,11 @@ _**トピックの最終更新日:** 2019-03-22_
 <tbody>
 <tr class="odd">
 <td><ol>
-<li><p>Microsoft Windows Live ID を使用<strong>https://pic.lync.com</strong>して、web サイトにサインインします。</p></li>
+<li><p><strong>https://pic.lync.com</strong>Microsoft Windows LIVE ID を使用して、web サイトにサインインします。</p></li>
 <li><p>[Microsoft ライセンス契約の種類] を選択します。</p></li>
 <li><p>このチェックボックスをオンにして、Lync Server の製品使用権を読んで同意していることを確認します。</p></li>
-<li><p>[<strong>プロビジョニング要求を開始</strong>する] ページで、適切なリンクをクリックしてプロビジョニング要求を開始します。</p></li>
-<li><p>[<strong>プロビジョニング情報の指定</strong>] ページで、<strong>アクセスエッジサービスの FQDN</strong>を入力します。 たとえば、 <strong>sip.contoso.com</strong>のようになります。</p>
+<li><p>[ <strong>プロビジョニング要求を開始</strong> する] ページで、適切なリンクをクリックしてプロビジョニング要求を開始します。</p></li>
+<li><p>[ <strong>プロビジョニング情報の指定</strong> ] ページで、 <strong>アクセスエッジサービスの FQDN</strong>を入力します。 たとえば、 <strong>sip.contoso.com</strong>のようになります。</p>
 
 
 
@@ -86,7 +88,7 @@ _**トピックの最終更新日:** 2019-03-22_
 > 2017年7月1日以降、Microsoft は、パブリック IM 接続用に展開されたフェデレーション DNS SRV レコードを使用して引き続き作業を行う必要があります。
 
 </li>
-<li><p>少なくとも1つの SIP ドメイン名を入力し、[<strong>追加</strong>] をクリックします。</p>
+<li><p>少なくとも1つの SIP ドメイン名を入力し、[ <strong>追加</strong>] をクリックします。</p>
 
 
 
@@ -107,9 +109,9 @@ _**トピックの最終更新日:** 2019-03-22_
 
 ## <a name="enabling-federation-and-public-im-connectivity-pic"></a>フェデレーションとパブリック IM 接続の有効化 (PIC)
 
-プロビジョニング要求を送信した後で、lync Server 環境と Lync-Skype 接続を構成するために必要な管理タスクに集中することができます。 このセクションでは、Lync server 管理者が Lync Server を展開し、外部アクセスを構成したと仮定します。 Lync Server の外部アクセスの構成の詳細については、「」の「外部ユーザー [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772)アクセスを計画する」と「外部[https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378)ユーザーアクセスを展開する」を参照してください。
+プロビジョニング要求を送信した後は、Lync Server 環境および Lync-Skype 接続を構成するために必要な管理タスクに集中できます。 このセクションでは、Lync server 管理者が Lync Server を展開し、外部アクセスを構成したと仮定します。 Lync Server の外部アクセスの構成の詳細については、「」の「外部ユーザーアクセスを計画する」 [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) と「外部ユーザーアクセスを展開する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378) 。
 
-Lync server 環境で Lync と Skype の接続を準備するには、Lync Server 管理者が次の3つのタスクを完了する必要があります。
+Lync server 環境で Lync-Skype 接続を準備するには、Lync Server 管理者が次の3つのタスクを完了する必要があります。
 
 <div>
 
@@ -147,7 +149,7 @@ Lync Server 管理シェルを使用して、管理者は Lync クライアン�
 
 
 > [!NOTE]
-> パブリックインスタントメッセージング接続 (PIC) サービスプロバイダーのユーザーは、パブリック IM 接続をサポートするために、少なくとも1つのポリシー (この手順の手順 2) を構成するまで、組織内の IM または会議に参加できません。<BR>フェデレーションと PIC を構成するには、「」の「フェデレーションとパブリック IM 接続<A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A>を有効または無効にする」を参照してください。<BR>フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成するには、「」 <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A>の「パブリックユーザーアクセスを制御するようにポリシーを構成する」を参照してください。
+> パブリックインスタントメッセージング接続 (PIC) サービスプロバイダーのユーザーは、パブリック IM 接続をサポートするために、少なくとも1つのポリシー (この手順の手順 2) を構成するまで、組織内の IM または会議に参加できません。<BR>フェデレーションと PIC を構成するには、「」の「フェデレーションとパブリック IM 接続を有効または無効にする」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A> 。<BR>フェデレーションユーザーアクセスをサポートするように少なくとも1つのポリシーを構成するには、「」の「パブリックユーザーアクセスを制御するようにポリシーを構成する」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A> 。
 
 
 
@@ -163,7 +165,7 @@ Lync Server 管理シェルを使用して、管理者は Lync クライアン�
         
 
         > [!NOTE]
-        > 環境に PIC プロバイダがなく、新しい PIC プロバイダを作成している場合は、 <STRONG>enable-cspublicprovider</STRONG>コマンドレットを実行する必要はありません。
+        > 環境に PIC プロバイダがなく、新しい PIC プロバイダを作成している場合は、 <STRONG>enable-cspublicprovider</STRONG> コマンドレットを実行する必要はありません。
 
         
         </div>
@@ -174,16 +176,16 @@ Lync Server 管理シェルを使用して、管理者は Lync クライアン�
         
 
         > [!NOTE]
-        > Lync Server 2013 CU5 &amp; lync desktop Client in OFFICE 2013 SP1 では、NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、lync ユーザーが skype の連絡先を追加することによって、Microsoft 以外 @msn のドメインを識別して skype 形式にルーティングする必要がある状況を改善しました ()。 これらの新しい設定では、NameDecorationRoutingDomain (msn.com に設定する必要があります) の [Skype 連絡先の追加] ダイアログボックスで、ユーザーの入力を自動的に書式設定することができます (NameDecorationExcludedDomainList 内のドメインが含まれていない場合)。現時点では、msn.com、live.com、Hotmail.com、outlook.com) をサポートできます。
+        > Lync Server 2013 CU5 &amp; lync desktop client In Office 2013 SP1 では、NameDecorationRoutingDomain と NameDecorationExcludedDomainList は、lync ユーザーが skype の連絡先を追加することによって、Microsoft 以外 @msn のドメインを識別して skype 形式にルーティングする必要がある状況を改善しました ()。 これらの新しい設定によって、NameDecorationRoutingDomain (現在は msn.com、live.com、Hotmail.com、outlook.com) のドメインが含まれていない場合は、[Skype 連絡先の追加] ダイアログボックスの [Skype 連絡先の追加] ダイアログボックスで、ユーザーの入力を自動書式設定することができます (msn.com に設定する必要があります)。
 
         
         </div>
 
-3.  Lync クライアントから、PIC プロバイダーとして Skype を選択し、Microsoft アカウントを指定して Skype クライアントを追加できるようになりました。 また、Microsoft アカウントを使用して合併およびログインした Skype ユーザーは、Lync ユーザーに対して連絡先要求を送信できます。 Microsoft アカウントの詳細については、「 [microsoft アカウントとは](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)」を参照してください。 Lync にクライアントを追加する方法の詳細については、「lync [Server 2013 でのエンドユーザーとしての lync 接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)」を参照してください。
+3.  Lync クライアントから、PIC プロバイダーとして Skype を選択し、Microsoft アカウントを指定して Skype クライアントを追加できるようになりました。 また、Microsoft アカウントを使用して合併およびログインした Skype ユーザーは、Lync ユーザーに対して連絡先要求を送信できます。 Microsoft アカウントの詳細については、「 [microsoft アカウントとは](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account)」を参照してください。 Lync にクライアントを追加する方法の詳細については、「 [Lync Server 2013 でのエンドユーザーとしての Lync-Skype 接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)」を参照してください。
 
-4.  ホストされるプロバイダーの変更の詳細については、「」の「ホストさ[https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065)れた SIP フェデレーションプロバイダーを作成または編集する」を参照してください。
+4.  ホストされるプロバイダーの変更の詳細については、「」の「ホストされた SIP フェデレーションプロバイダーを作成または編集する」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065) 。
 
-これで、サーバー上で実行する必要のある管理タスクが完了します。 これで、Lync と Skype の接続が設定されました。
+これで、サーバー上で実行する必要のある管理タスクが完了します。 これで Lync-Skype 接続がセットアップされます。
 
 </div>
 
@@ -191,11 +193,11 @@ Lync Server 管理シェルを使用して、管理者は Lync クライアン�
 
 <div>
 
-## <a name="additional-resources"></a>追加情報
+## <a name="additional-resources"></a>その他のリソース
 
-[エンドユーザーとしての lync Server 2013 での Lync と Skype の接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
+[エンドユーザーとしての Lync Server 2013 での Lync-Skype 接続の使用](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
 
-[Lync Server 2013 での Lync と Skype の接続のプロビジョニングガイド](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+[Lync Server 2013 での Lync-Skype 接続のプロビジョニングガイド](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
 
 </div>
 

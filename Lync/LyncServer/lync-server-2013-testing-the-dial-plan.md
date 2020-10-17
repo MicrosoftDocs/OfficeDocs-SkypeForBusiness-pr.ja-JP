@@ -12,20 +12,22 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a83f8058dd761386329c3c0bc58a50c4aef7bdb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c758f2f16d59db92841a5e7ef727a41cee8a8d4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530444"
 ---
+# <a name="testing-the-dial-plan-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルプランのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-dial-plan-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルプランのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Get-csdialplan コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsDialPlan コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialPlan&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Get-csdialplan コマンドレットを使用すると、特定の電話番号にダイヤルプランを適用した結果を確認できます。 ダイヤルプランでは、エンタープライズ Voip ユーザーが電話をかけることができるようにするために必要な情報 (正規化ルールの適用方法など) が提供されます。 ダイヤル番号とダイヤルプランを指定すると、このコマンドレットにより、ダイヤルプラン内のどの正規化ルールが適用されるか、および翻訳された番号がどのようになるかが確認されます。
+Test-CsDialPlan コマンドレットを使用すると、特定の電話番号にダイヤルプランを適用した結果を確認できます。 ダイヤルプランでは、エンタープライズ Voip ユーザーが電話をかけることができるようにするために必要な情報 (正規化ルールの適用方法など) が提供されます。 ダイヤル番号とダイヤルプランを指定すると、このコマンドレットにより、ダイヤルプラン内のどの正規化ルールが適用されるか、および翻訳された番号がどのようになるかが確認されます。
 
 このコマンドレットを使用すると、数値変換に関する問題のトラブルシューティングを行ったり、特定の番号に対するルールの適用方法を確認したりすることができます。
 
@@ -76,7 +78,7 @@ Get-csdialplan コマンドレットを使用すると、特定の電話番号�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Get-csdialplan コマンドレットでは、2つの操作を行う必要があります。 最初に、テストしているダイヤルプランのインスタンスを取得する必要があります。これは、Get-csdialplan コマンドレットを使用して行うことができます。 次に、正規化する必要がある電話番号を指定する必要があります。 電話番号に使用される形式は、ユーザーがダイヤル/入力した番号と一致している必要があります。 たとえば、次のコマンドは、ダイヤルプラン RedmondDialPlan のインスタンスを取得し、電話番号12065551219を正規化できるかどうかを確認します。
+Test-CsDialPlan コマンドレットでは、次の2つの操作を行う必要があります。 最初に、テストしているダイヤルプランのインスタンスを取得する必要があります。これは Get-CsDialPlan コマンドレットを使用して行うことができます。 次に、正規化する必要がある電話番号を指定する必要があります。 電話番号に使用される形式は、ユーザーがダイヤル/入力した番号と一致している必要があります。 たとえば、次のコマンドは、ダイヤルプラン RedmondDialPlan のインスタンスを取得し、電話番号12065551219を正規化できるかどうかを確認します。
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "12065551219" | Format-List
 
@@ -84,7 +86,7 @@ Get-csdialplan コマンドレットでは、2つの操作を行う必要があ�
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "5551219" | Format-List
 
-詳細については、 [get-csdialplan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan)コマンドレットのヘルプドキュメントを参照してください。
+詳細については、 [get-csdialplan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -92,7 +94,7 @@ Get-csdialplan コマンドレットでは、2つの操作を行う必要があ�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Get-csdialplan は、テストが成功したか失敗したかを間接的に示すだけなので、Lync Server test コマンドレットの多くとは異なります。 Get-csdialplan を使用している場合、次のような出力は返されず、わかりやすいラベルが表示されます。
+Test-CsDialPlan は、テストが成功したか失敗したかを間接的に示すだけなので、Lync Server test コマンドレットの多くとは異なります。 Test-CsDialPlan を使用している場合は、次のような出力は返されず、結果にわかりやすいラベルが付けられます。
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -104,15 +106,15 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 分析
 
-代わりに、Get-csdialplan が正常に終了すると、指定した電話番号を正常に翻訳して使用できた正規化ルールに関する情報が表示されます。
+そうしないと、Test-CsDialPlan に成功すると、指定した電話番号を正常に翻訳して使用できた正規化ルールに関する情報が表示されます。
 
 TranslatedNumber: + 12065551219
 
-MatchingRule: Description =;Pattern = ^ (\\d (11)) $;直線移動 = + $ 1;
+MatchingRule: Description =;Pattern = ^ ( \\ d (11)) $;直線移動 = + $ 1;
 
 Name = Prefix All;IsInternalExtension = False
 
-Get-csdialplan が失敗した場合 (つまり、ダイヤルプランに、指定された電話番号を変換できる正規化ルールがない場合)、次のように "empty" 出力が表示されます。
+Test-CsDialPlan に失敗した場合 (つまり、ダイヤルプランに、指定された電話番号を変換できる正規化ルールがない場合)、次のように "empty" 出力が表示されます。
 
 TranslatedNumber :
 
@@ -124,13 +126,13 @@ MatchingRule :
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-Get-csdialplan が失敗する可能性のある一般的な原因を次に示します。
+Test-CsDialPlan が失敗する可能性のある一般的な理由を次に示します。
 
   - 電話番号を指定するときに、誤った形式を使用した可能性があります。 ダイヤルプランには、Lync Server がダイヤルまたはユーザーによって入力された電話番号を変換できるようにする正規化ルールが含まれています。 そのため、ダイヤルプランには、ユーザーがダイヤルすると思われる番号と一致する正規化ルールを設定する必要があります。 たとえば、ユーザーが国コード、市外局番、電話番号自体をダイヤルする場合、次のような電話番号を処理するための正規化ルールがダイヤルプランに必要になります。
     
     12065551219
     
-    ただし、誤った電話番号を入力した場合 (たとえば、最後の数字を残した場合)、Get-csdialplan は失敗します。 これは、ダイヤルプランが正しくないため、解釈できない電話番号を入力したためです。
+    ただし、誤った電話番号 (たとえば、最後の数字を残したまま) を入力すると、Test-CsDialPlan は失敗します。 これは、ダイヤルプランが正しくないため、解釈できない電話番号を入力したためです。
 
 </div>
 

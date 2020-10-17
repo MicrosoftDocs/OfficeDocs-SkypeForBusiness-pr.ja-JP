@@ -12,20 +12,22 @@ ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 037625d0efea2ae53cd4923a0a7cccce4a890098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b5dac5c800f2e11829940445f9ebfe28c1a95c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531694"
 ---
+# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Lync Server 2013 でのアナウンスの構成の前提条件と役割
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Lync Server 2013 でのアナウンスの構成の前提条件と役割
+
 
 </div>
 
@@ -69,19 +71,19 @@ _**トピックの最終更新日:** 2013-02-25_
 
 アナウンスアプリケーションを構成するには、次の管理役割のいずれかが必要です。
 
-  - **CsVoiceAdministrator**   この管理者の役割は、アナウンス設定を含むすべての音声関連の設定とポリシーを作成、構成、および管理できます。
+  - **CsVoiceAdministrator**    この管理者の役割は、アナウンス設定を含むすべての音声関連の設定とポリシーを作成、構成、および管理できます。
 
-  - **Csserveradministrator**   この管理役割は、サーバーとサービスを管理、監視、およびトラブルシューティングし、すべてのアナウンス設定を構成できます。
+  - **Csserveradministrator**    この管理者の役割は、サーバーとサービスを管理、監視、およびトラブルシューティングし、すべてのアナウンス設定を構成できます。
 
-  - **Csadministrator**   この管理者の役割は、すべての管理タスクを実行し、すべての設定を変更できます。
+  - **Csadministrator**    この管理者の役割は、すべての管理タスクを実行し、すべての設定を変更できます。
 
-  - **Csviewonlyadministrator**   この管理役割は展開を表示して、展開の状態を監視できます。
+  - **Csviewonlyadministrator**    この管理者の役割は展開を表示して、展開の状態を監視できます。
 
 <div>
 
 
 > [!NOTE]  
-> 管理ユーザー権限の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 でのロールベースのアクセス制御の計画</A>」を参照してください。
+> 管理ユーザー権限の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 でのロールベースのアクセス制御の計画</A> 」を参照してください。
 
 
 

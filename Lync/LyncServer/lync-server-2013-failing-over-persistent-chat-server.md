@@ -12,20 +12,22 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 570ed42bb2ff1d5b1f4ab58e9bbd9aad9159bef3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ede95ad504244fc5a97d62a074192a5270fbcdef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214403"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530944"
 ---
+# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 での常設チャットサーバーのフェールオーバー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 での常設チャットサーバーのフェールオーバー
+
 
 </div>
 
@@ -69,27 +71,27 @@ _**トピックの最終更新日:** 2014-02-05_
 
 2.  バックアップ共有から、バックアップ サーバーのコピー先フォルダーへ、コピーしていないバックアップ ファイルをコピーします。
 
-3.  セカンダリ データベースに、適用していないトランザクション ログ バックアップを順番に適用します。 詳細については、「方法: トランザクションログバックアップを適用する (Transact-sql)」をhttps://go.microsoft.com/fwlink/p/?linkid=247428参照してください。
+3.  セカンダリ データベースに、適用していないトランザクション ログ バックアップを順番に適用します。 詳細については、「方法: トランザクションログバックアップを適用する (Transact-sql)」を参照してください https://go.microsoft.com/fwlink/p/?linkid=247428 。
 
 4.  バックアップ mgc データベースをオンラインにします。手順 1b. で開いたクエリ ウィンドウを使用して、次の手順を実行します。
     
     1.  mgc データベースへのすべての接続を終了します (接続がある場合)。
         
-        1.  mgc データベースへの接続を識別するために、 **exec sp\_who2** 。
+        1.  mgc データベースへの接続を識別するために、 **exec sp \_ who2** 。
         
-        2.  ** \<spid\>を切断**してこれらの接続を終了します。
+        2.  **kill \<spid\> **接続を終了します。
     
     2.  データベースをオンラインにします。
         
         1.  **restore database mgc with recovery**。
 
-5.  Lync Server 管理シェルで、コマンド**set-cspersistentchatstate-Identity "service: 001.litwareinc.com" – PoolState FailedOver**を使用して、mgc バックアップデータベースにフェールオーバーします。 Atl-cs-001.litwareinc.com の常設チャットプールの完全修飾ドメイン名に置き換えてください。
+5.  Lync Server 管理シェルで、コマンド **set-cspersistentchatstate-Identity "service: 001.litwareinc.com" – PoolState FailedOver** を使用して、mgc バックアップデータベースにフェールオーバーします。 Atl-cs-001.litwareinc.com の常設チャットプールの完全修飾ドメイン名に置き換えてください。
     
     mgc バックアップ データベースがプライマリ データベースとして動作するようになります。
 
-6.  Lync Server 管理シェルで、 **install-csmirrordatabase**コマンドレットを使用して、プライマリデータベースとして機能するバックアップデータベースの高可用性ミラーを確立します。 バックアップ データベース インスタンスをプライマリ データベースとして使用し、バックアップ ミラー データベース インスタンスをミラー インスタンスとして使用します。 これは、セットアップ時にプライマリ データベースに対して最初に構成したミラーと同じものではありません。 詳細については、「 [Lync server 2013 でバックエンドサーバーの高可用性を実現するための SQL ミラーリングを展開](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)する」の「Lync Server 管理シェルコマンドレットを使用する」を参照してください。
+6.  Lync Server 管理シェルで、 **install-csmirrordatabase** コマンドレットを使用して、プライマリデータベースとして機能するバックアップデータベースの高可用性ミラーを確立します。 バックアップ データベース インスタンスをプライマリ データベースとして使用し、バックアップ ミラー データベース インスタンスをミラー インスタンスとして使用します。 これは、セットアップ時にプライマリ データベースに対して最初に構成したミラーと同じものではありません。 詳細については、「 [Lync server 2013 でバックエンドサーバーの高可用性を実現するための SQL ミラーリングを展開](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)する」の「Lync Server 管理シェルコマンドレットを使用する」を参照してください。
 
-7.  常設チャットサーバーのアクティブなサーバーを設定します。 Lync Server コマンドシェルから、 **set-cspersistentchatactiveserver**コマンドレットを使用してアクティブなサーバーの一覧を設定します。
+7.  常設チャットサーバーのアクティブなサーバーを設定します。 Lync Server コマンドシェルから、 **set-cspersistentchatactiveserver** コマンドレットを使用してアクティブなサーバーの一覧を設定します。
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebfe2b41293d58223817a06eef82f5c03d0909a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fde0eb443a643371072c4c0018c05e2cd4538d0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205205"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531604"
 ---
+# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a>Lync Server 2013 での CAC のネットワークサイトへのサブネットの関連付け
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a>Lync Server 2013 での CAC のネットワークサイトへのサブネットの関連付け
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-20_
 
 ネットワーク内のすべてのサブネットが、特定のネットワーク サイトに関連付けられている必要があります。 これは、サブネット情報を使用して、エンドポイントが存在するネットワーク サイトを判断するためです。 セッション内の両方の当事者の場所がわかっている場合は、通話受付管理 (CAC) を使用して、通話を確立するのに十分な帯域幅があるかどうかを判断できます。
 
-通話受付管理には、サブネットをネットワークサイトに関連付けるための特別な要件はありません。 トポロジ内のサブネットとネットワークサイトの間の関連付けを作成するには、「 [Lync Server 2013 のネットワークサイトにサブネットを関連付ける](lync-server-2013-associate-a-subnet-with-a-network-site.md)」の手順に従ってください。 通話受付管理のネットワークトポロジの例にあるネットワークサイト (およびそれぞれのサブネット) を表示するには、「計画」のドキュメントの「[例: Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
+通話受付管理には、サブネットをネットワークサイトに関連付けるための特別な要件はありません。 トポロジ内のサブネットとネットワークサイトの間の関連付けを作成するには、「 [Lync Server 2013 のネットワークサイトにサブネットを関連付ける](lync-server-2013-associate-a-subnet-with-a-network-site.md)」の手順に従ってください。 通話受付管理のネットワークトポロジの例にあるネットワークサイト (およびそれぞれのサブネット) を表示するには、「計画」のドキュメントの「 [例: Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) 」を参照してください。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 617503a26a326f9fa089f3ee2de8a5163765920f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed57a78637639d5e6402f88b7909114f3aabce7a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531294"
 ---
+# <a name="deploying-branch-sites-in-lync-server-2013"></a>Lync Server 2013 でのブランチサイトの展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-branch-sites-in-lync-server-2013"></a>Lync Server 2013 でのブランチサイトの展開
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 存続可能 Branch Appliance または存続可能ブランチサーバーを使用するブランチサイトでは、これらのソリューションのいずれも含まれていないブランチサイトと比べて、広域ネットワークまたは中央サイトの障害が発生する時間での復元が向上します。 たとえば、存続可能 Branch Appliance または存続可能 Branch Server が展開されているサイトでは、ブランチサイトを中央サイトに接続しているネットワークがダウンしている場合でも、ユーザーは PSTN 通話を発信および受信できます。 ブランチサイトの復元を実現するもう1つの方法は、ブランチサイトでのフルスケールの Lync Server 展開を使用した PSTN ゲートウェイまたは SIP トランクの使用です。
 
-前提条件やその他の計画に関する考慮事項など、組織に適したブランチサイト展開の詳細については、「計画」のドキュメントの「lync server [2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md)」および「 [lync server 2013 でのブランチサイト音声の復元の計画](lync-server-2013-planning-for-branch-site-voice-resiliency.md)」を参照してください。
+前提条件やその他の計画に関する考慮事項など、組織に適したブランチサイト展開の詳細については、「計画」のドキュメントの「lync server [2013 での PSTN 接続の計画](lync-server-2013-planning-for-pstn-connectivity.md) 」および「 [lync server 2013 でのブランチサイト音声の復元の計画](lync-server-2013-planning-for-branch-site-voice-resiliency.md) 」を参照してください。
 
 <div>
 

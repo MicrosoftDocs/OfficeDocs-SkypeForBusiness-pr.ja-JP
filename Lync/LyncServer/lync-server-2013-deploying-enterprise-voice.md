@@ -12,20 +12,22 @@ ms:contentKeyID: 48185207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a19016a095e38a0df70a561976c6b03d59fdfd1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b2784c5cb04994004503010426ebc98763c0250
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188300"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531154"
 ---
+# <a name="deploying-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip の展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip の展開
+
 
 </div>
 
@@ -43,19 +45,19 @@ Lync Server 2013、エンタープライズ Voip は Lync Server 2013 インフ�
 
 <div id="sectionSection0" class="section">
 
-1.  「計画」のドキュメントの「 [Lync Server 2013 でのエンタープライズ voip の計画](lync-server-2013-planning-for-enterprise-voice.md)」を参照してください。
+1.  「計画」のドキュメントの「 [Lync Server 2013 でのエンタープライズ voip の計画](lync-server-2013-planning-for-enterprise-voice.md) 」を参照してください。
 
 2.  このワークロードで展開する機能およびコンポーネントの計画が完了していること。
 
 3.  計画ツールを実行して、展開の決定を反映するトポロジを設計します。
 
-4.  「展開」のドキュメントの「 [Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md)」の説明に従って、トポロジビルダーでトポロジ設計を開きます。
+4.  「展開」のドキュメントの「 [Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md) 」の説明に従って、トポロジビルダーでトポロジ設計を開きます。
     
     <div>
     
 
     > [!NOTE]  
-    > トポロジビルダーのインストールは、内部プールの展開プロセスの一部です。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 管理ツール</A>」を参照してください。
+    > トポロジビルダーのインストールは、内部プールの展開プロセスの一部です。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 管理ツール</A> 」を参照してください。
 
     
     </div>
@@ -70,7 +72,7 @@ Lync Server 2013、エンタープライズ Voip は Lync Server 2013 インフ�
 
 エンタープライズ Voip サーバーの役割を展開できる場所 (およびそれらの関係と、他の Lync Server 2013 のサーバーの役割との関係) を示す参照トポロジを表示するには、「計画」のドキュメントの「 [reference トポロジ In Lync server 2013](lync-server-2013-reference-topologies.md) 」を参照してください。
 
-ネットワーク地域、ネットワークサイト、およびサブネットを含む、通話受付管理の展開の例について説明する参照トポロジを表示するには、「計画」のドキュメントの「 [Example: Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
+ネットワーク地域、ネットワークサイト、およびサブネットを含む、通話受付管理の展開の例について説明する参照トポロジを表示するには、「計画」のドキュメントの「 [Example: Lync Server 2013 での通話受付管理の要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) 」を参照してください。
 
 </div>
 
@@ -82,7 +84,7 @@ Lync Server 2013、エンタープライズ Voip は Lync Server 2013 インフ�
 
 
 > [!IMPORTANT]  
-> 中央サイトにエンタープライズ Voip を展開するには、このセクションのトピックを参照してください。 ブランチサイトでエンタープライズ Voip を展開するには、「展開」のドキュメントの「 <A href="lync-server-2013-deploying-branch-sites.md">Lync Server 2013 でブランチサイト</A>を展開する」に進みます。
+> 中央サイトにエンタープライズ Voip を展開するには、このセクションのトピックを参照してください。 ブランチサイトでエンタープライズ Voip を展開するには、「展開」のドキュメントの「 <A href="lync-server-2013-deploying-branch-sites.md">Lync Server 2013 でブランチサイト</A> を展開する」に進みます。
 
 
 
@@ -90,7 +92,7 @@ Lync Server 2013、エンタープライズ Voip は Lync Server 2013 インフ�
 
 このセクションには、推奨に従って、各フロントエンド サーバーまたは各 Standard Edition サーバー上に仲介サーバーを併置する展開の手順、およびスタンドアロンの仲介サーバー プールでの展開の手順が含まれています。
 
-トポロジビルダーを使用して、各フロントエンドサーバーまたは Standard Edition サーバーに仲介サーバーを配置したトポロジを定義して公開している場合は、次のコンテンツをスキップすることができます。これは、展開ウィザードが既にファイルをフロントエンドサーバープールまたは Standard Edition サーバーのファイルをインストールした場合の仲介サーバー:
+トポロジビルダーを使用して、フロントエンドサーバープールまたは standard edition サーバーに、仲介サーバーのファイルが既にインストールされている場合は、次のコンテンツをスキップできます。これは、フロントエンドサーバープールまたは Standard Edition サーバーにファイルをインストールするときに、展開ウィザードによって自動的に仲介サーバーのファイルがインストールされたためです
 
   - [Lync Server 2013 でのトランクの構成](lync-server-2013-configuring-trunks.md)
 

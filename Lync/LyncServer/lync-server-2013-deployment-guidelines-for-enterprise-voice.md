@@ -12,20 +12,22 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 688cf48c7f716047f0d7412c34ce84006a5a9348
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05cde2a845dd6314d8822e6b58445eed5c6a1d19
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213782"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531074"
 ---
+# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip の展開ガイドライン
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip の展開ガイドライン
+
 
 </div>
 
@@ -53,13 +55,13 @@ _**トピックの最終更新日:** 2012-09-21_
 
   - Microsoft Exchange Server 2007 Service Pack 1 (SP1) または最新のサービスパック、または Microsoft Exchange Server 2010 がインストールされている。 これらのうちの1つは、Exchange ユニファイドメッセージング (UM) と Lync Server を統合し、豊富な通知を提供したり、クライアントエンドポイントにログ情報を呼び出したりするために必要です。
 
-  - エンタープライズ Voip が有効になっている各ユーザーの**msRTCSIP**属性に、一意のプライマリ電話番号が指定および正規化されています。
+  - エンタープライズ Voip が有効になっている各ユーザーの **msRTCSIP** 属性に、一意のプライマリ電話番号が指定および正規化されています。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server は、e.164 番号と直接内向きではない (DID) 番号をサポートしています。 非 DID 番号は、プライベート内線番号がエンタープライズ全体で一意であることを要件として、 <STRONG> &lt;&gt;&lt;内線&gt; </STRONG>番号または内線番号の形式、または数字の文字列として表すことができます。 たとえば、1001のプライベート番号は、 <STRONG>+ 1425550100、ext = 1001</STRONG>、または<STRONG>1001</STRONG>として表すことができます。 <STRONG>1001</STRONG>として表される場合、このプライベート番号は企業全体で一意であることが期待されます。
+    > Lync Server は、e.164 番号と直接内向きではない (DID) 番号をサポートしています。 非 DID 番号は、プライベート内線番号がエンタープライズ全体で一意であることを要件として、 <STRONG> &lt; &gt; &lt; 内線 &gt; </STRONG>番号または内線番号の形式、または数字の文字列として表すことができます。 たとえば、1001のプライベート番号は、 <STRONG>+ 1425550100、ext = 1001</STRONG>、または <STRONG>1001</STRONG>として表すことができます。 <STRONG>1001</STRONG>として表される場合、このプライベート番号は企業全体で一意であることが期待されます。
 
     
     </div>
@@ -72,7 +74,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
   - 仲介サーバーをインストールする各コンピューターの要件は次のとおりです。
     
-      - ドメインのメンバーサーバーで、Active Directory ドメインサービス用に準備されています。 Active Directory ドメインサービスの準備手順については、「展開」のドキュメントの「 [Active Directory ドメインサービスの Lync Server 2013 の準備](lync-server-2013-preparing-active-directory-domain-services.md)」を参照してください。
+      - ドメインのメンバーサーバーで、Active Directory ドメインサービス用に準備されています。 Active Directory ドメインサービスの準備手順については、「展開」のドキュメントの「 [Active Directory ドメインサービスの Lync Server 2013 の準備](lync-server-2013-preparing-active-directory-domain-services.md) 」を参照してください。
     
       - 次のいずれかのオペレーティング システムを実行していること。
         
@@ -106,7 +108,7 @@ Lync Server との音声通信は、サーバーソフトウェアの可用性�
 
 ## <a name="alternative-means-of-accessing-emergency-services"></a>緊急サービスへの代替アクセス手段
 
-音声クライアント (Lync クライアントまたは Lync Phone Edition デバイスを実行している PC など) をインストールする場所については、電源障害が発生した場合に、ユーザーが緊急サービス (たとえば、911または 999) を呼び出すためのバックアップオプションを維持することをお勧めします。、Lync Server、Lync、Lync Phone Edition デバイスの動作を妨げる可能性がある、ネットワーク接続の低下、電話サービスの停止、その他の問題が発生します。 このような代替オプションには、標準公衆交換電話網回線に接続された電話、携帯電話などが含まれます。
+音声クライアント (Lync クライアントまたは Lync Phone Edition デバイスを実行している PC など) をインストールする場所については、ユーザーが緊急サービスを呼び出すためのバックアップオプション (たとえば、911または 999) を維持することをお勧めします。電源障害、ネットワーク接続の低下、電話サービスの停止、または Lync Server の動作を妨げる可能性が、Lync、Lync Phone Edition のデバイス。 このような代替オプションには、標準公衆交換電話網回線に接続された電話、携帯電話などが含まれます。
 
 </div>
 

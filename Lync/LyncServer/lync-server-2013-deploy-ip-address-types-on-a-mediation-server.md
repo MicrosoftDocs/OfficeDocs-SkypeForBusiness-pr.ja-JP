@@ -12,20 +12,22 @@ ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7705da8beee8f6ee45d74fbdbb6eb03180234a47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c76dcde03d2a85eb45f7b2c28d6b7c7d99b41b20
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179664"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531484"
 ---
+# <a name="deploy-ip-address-types-on-a-mediation-server-for-lync-server-2013"></a>Lync Server 2013 の仲介サーバーに IP アドレスタイプを展開する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-a-mediation-server-for-lync-server-2013"></a>Lync Server 2013 の仲介サーバーに IP アドレスタイプを展開する
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2016-07-28_
 
 ## <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>仲介サーバーに IP アドレス タイプを展開するには
 
-  - トポロジビルダーの [**仲介プール**] で、プール内のサーバーを右クリックし、[**プロパティの編集**] を選択します。 または、サーバーを選択し、[**アクション**] メニューの [**プロパティの編集**] をクリックします。
+  - トポロジビルダーの [ **仲介プール**] で、プール内のサーバーを右クリックし、[ **プロパティの編集**] を選択します。 または、サーバーを選択し、[**アクション**] メニューの [**プロパティの編集**] をクリックします。
 
   - [**プロパティの編集**] ダイアログ ボックスで、構成する IP アドレス タイプを選択します。デュアル スタック構成の場合は、次の図のように、[**IPv4 を有効にする**] および [**IPv6 を有効にする**] を選択します。
     

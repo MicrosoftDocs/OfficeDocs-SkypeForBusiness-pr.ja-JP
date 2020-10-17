@@ -12,20 +12,22 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1da806e476635543e0afeafee8b7c195cf21cfc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2132af73fec67ace0bffd6db1836071cb8fc2d06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202293"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531004"
 ---
+# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 での常設チャットサーバーのフェールバック
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 での常設チャットサーバーのフェールバック
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2014-02-05_
 
 ## <a name="to-fail-back-persistent-chat-server"></a>常設チャットサーバーをフェールバックするには
 
-1.  Lync Server 管理シェルから`Set-CsPersistentChatActiveServer`コマンドレットを使用して、常設チャットサーバーの Active Server リストからすべてのサーバーをクリアします。 これにより、すべての常設チャットサーバーは、フェールバック中に mgc データベースおよびこのデータベースに接続できなくなります。
+1.  `Set-CsPersistentChatActiveServer`Lync Server 管理シェルからコマンドレットを使用して、常設チャットサーバーの Active Server リストからすべてのサーバーをクリアします。 これにより、すべての常設チャットサーバーは、フェールバック中に mgc データベースおよびこのデータベースに接続できなくなります。
     
     <div>
     
@@ -91,7 +93,7 @@ _**トピックの最終更新日:** 2014-02-05_
     
     5.  [**名前**] に表示される既定のバックアップ セット名をそのまま使用するか、バックアップ セット名として別の名前を入力します。
     
-    6.  * \<省略\>可能*[**説明**] に、バックアップセットの説明を入力します。
+    6.  *\<Optional\>* [ **説明**] に、バックアップセットの説明を入力します。
     
     7.  バックアップ先の一覧から既定のバックアップ場所を削除します。
     
@@ -119,9 +121,9 @@ _**トピックの最終更新日:** 2014-02-05_
     
     9.  [**OK**] をクリックします。復元プロセスが開始されます。
 
-5.  プライマリデータベースの SQL Server ログ配布を構成します。 「 [Lync server 2013 での高可用性および障害復旧用の常設チャットサーバーの構成](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)」の手順に従って、プライマリ mgc データベースのログ配布を確立します。
+5.  プライマリデータベースの SQL Server ログ配布を構成します。 「 [Lync server 2013 での高可用性および障害復旧用の常設チャットサーバーの構成](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) 」の手順に従って、プライマリ mgc データベースのログ配布を確立します。
 
-6.  常設チャットサーバーのアクティブなサーバーを設定します。 Lync Server 管理シェルから、 **set-cspersistentchatactiveserver**コマンドレットを使用してアクティブなサーバーの一覧を設定します。
+6.  常設チャットサーバーのアクティブなサーバーを設定します。 Lync Server 管理シェルから、 **set-cspersistentchatactiveserver** コマンドレットを使用してアクティブなサーバーの一覧を設定します。
     
     <div>
     
@@ -136,7 +138,7 @@ _**トピックの最終更新日:** 2014-02-05_
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-詳細については、 [set-cspersistentchatstate](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [set-cspersistentchatstate](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

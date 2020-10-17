@@ -12,20 +12,22 @@ ms:contentKeyID: 48184939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1624042b07bc024d837e55ffac402cb2f158922f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 22811a0c55f0e0c7a7bfb7f3aeeb3ab5fcbc2653
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216370"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530674"
 ---
+# <a name="overview-of-call-park-in-lync-server-2013"></a>Lync Server 2013 のコールパークの概要
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-call-park-in-lync-server-2013"></a>Lync Server 2013 のコールパークの概要
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 2013 コールパークアプリケーションを使用すると、
 
   - 通話を保留にして、元の応答電話を他の通話に対して無料にします。
 
-ユーザーが電話をパークすると、Lync Server は、通話を*オービット*と呼ばれる一時的な番号に転送します。この番号は、通話が取得されるかタイムアウトになるまで保持されます。Lync Server は、呼び出しを保留したユーザーにオービットを送信します。 保留された通話を取得するには、ユーザーはオービット番号をダイヤルするか、[会話] ウィンドウで [オービット] リンクまたはボタンをクリックします。
+ユーザーが電話をパークすると、Lync Server は、通話を *オービット*と呼ばれる一時的な番号に転送します。この番号は、通話が取得されるかタイムアウトになるまで保持されます。Lync Server は、呼び出しを保留したユーザーにオービットを送信します。 保留された通話を取得するには、ユーザーはオービット番号をダイヤルするか、[会話] ウィンドウで [オービット] リンクまたはボタンをクリックします。
 
 通話を保留にしたユーザーは、インスタントメッセージング (IM) やページングシステムなどの外部メカニズムを使用して通話を取得することにより、他のユーザーにオービット番号を通知できます。 呼び出しを保留したユーザーは、通話が取得されたときに通知を受け取るための会話ウィンドウを開いたままにすることができます。
 

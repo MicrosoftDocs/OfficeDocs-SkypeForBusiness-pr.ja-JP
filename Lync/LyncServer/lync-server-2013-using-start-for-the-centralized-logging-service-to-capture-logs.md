@@ -12,20 +12,22 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04614e970064f765e24b86b6e875d1fb284b3fbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f43a2c86dcbd88f8e9af4ae54f302b4abc943fc0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529974"
 ---
+# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>Lync Server 2013 でログをキャプチャするための集中ログサービスの Start の使用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-start-for-the-centralized-logging-service-to-capture-logs-in-lync-server-2013"></a>Lync Server 2013 でログをキャプチャするための集中ログサービスの Start の使用
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 
 > [!NOTE]
-> コマンドラインから使用できる制限付きのコマンドセットを使用する場合は、「」と入力<CODE>ClsController.exe</CODE>して、clscontroller のヘルプを参照してください。 既定では、 <STRONG>Clscontroller</STRONG>がインストールされているディレクトリは C:\Program ん Lync Server 2013 \ clscontroller です。
+> コマンドラインから使用できる制限付きのコマンドセットを使用する場合は、「」と入力することによって CLSController.exe に関するヘルプが表示され <CODE>ClsController.exe</CODE> ます。 既定では、 <STRONG>ClsController.exe</STRONG> がインストールされているディレクトリは C:\Program C:\Program Lync Server 2013 \ clsagent です。
 
 
 
@@ -99,7 +101,7 @@ _**トピックの最終更新日:** 2013-02-21_
     
 
     > [!IMPORTANT]
-    > それぞれのコンピューターで一度に実行できるシナリオは、合計 2 つまでです。 コマンドのスコープがグローバルの場合は、展開内のすべてのコンピューターで (1 つまたは 2 つの) シナリオが実行されます。 3 番目のシナリオを開始するには、その新しいシナリオを実行するコンピューター、プール、サイト、またはグローバルのスコープでログ記録を停止する必要があります。 グローバル スコープでシナリオが開始されている場合は、1 つ以上のコンピューターおよびプールでそうしたシナリオのどちらかまたは両方のログ記録を停止できます。 実行されているシナリオの管理の詳細については、「 <A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Lync Server 2013 での集中ログサービスの stop の使用</A>」および「 <A href="https://technet.microsoft.com/library/JJ619180(v=OCS.15)">Stop-csclslogging</A>」を参照してください。
+    > それぞれのコンピューターで一度に実行できるシナリオは、合計 2 つまでです。 コマンドのスコープがグローバルの場合は、展開内のすべてのコンピューターで (1 つまたは 2 つの) シナリオが実行されます。 3 番目のシナリオを開始するには、その新しいシナリオを実行するコンピューター、プール、サイト、またはグローバルのスコープでログ記録を停止する必要があります。 グローバル スコープでシナリオが開始されている場合は、1 つ以上のコンピューターおよびプールでそうしたシナリオのどちらかまたは両方のログ記録を停止できます。 実行されているシナリオの管理の詳細については、「 <A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">Lync Server 2013 での集中ログサービスの stop の使用</A> 」および「 <A href="https://technet.microsoft.com/library/JJ619180(v=OCS.15)">Stop-csclslogging</A>」を参照してください。
 
     
     </div>
@@ -114,7 +116,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 2.  追加のパラメーターを使用して、このログ記録コマンドを管理できます。 シナリオの実行期間を調整するには、–Duration を使用します。 また、–Computers や–Pools を使用して、ログを有効にするコンピューターやプールの完全修飾ドメイン名 (FQDN) のコンマ区切りリストを定義することもできます。
     
-    プール "pool01.contoso.net" に対して*Userreplicator*シナリオのログセッションを開始します。 また、このログ セッションの期間を 8 時間に指定します。 この場合、次のように入力します。
+    プール "pool01.contoso.net" に対して *Userreplicator* シナリオのログセッションを開始します。 また、このログ セッションの期間を 8 時間に指定します。 この場合、次のように入力します。
     
         Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
     

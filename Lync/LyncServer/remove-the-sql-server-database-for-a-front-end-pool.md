@@ -12,20 +12,22 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10d46868b63236327825f2fe4134330fd055ead2
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8d4e3f215f62cc557885c99c33b4c389c9098d1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757279"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529824"
 ---
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>フロントエンド プール用の SQL Server データベースの削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>フロントエンド プール用の SQL Server データベースの削除
+
 
 </div>
 
@@ -45,7 +47,7 @@ Microsoft Lync Server 2010 フロントエンドプールを削除するか、�
 
 1.  Lync Server 2013 フロントエンドサーバーから、トポロジビルダーを開き、既存のトポロジをダウンロードします。
 
-2.  [トポロジビルダー] で、[**共有コンポーネント**] に移動し、[ **sql server ストア**] を選択して、削除または再構成したフロントエンドプールに関連付けられている SQL server インスタンスを右クリックし、[**削除**] をクリックします。
+2.  [トポロジビルダー] で、[ **共有コンポーネント** ] に移動し、[ **sql server ストア**] を選択して、削除または再構成したフロントエンドプールに関連付けられている SQL server インスタンスを右クリックし、[ **削除**] をクリックします。
 
 3.  トポロジを公開し、レプリケーションの状態を確認します。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733699
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12499f63e262d681297b8289231f58262ba75999
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f978b6acaa1cdfdf6abf2d768c1fb679af260a63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212993"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530154"
 ---
+# <a name="user-view-in-lync-server-2013"></a>Lync Server 2013 のユーザービュー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-view-in-lync-server-2013"></a>Lync Server 2013 のユーザービュー
+
 
 </div>
 
@@ -48,7 +50,7 @@ _**トピックの最終更新日:** 2012-10-01_
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>詳細</th>
 </tr>
@@ -67,12 +69,12 @@ _**トピックの最終更新日:** 2012-10-01_
 <tr class="odd">
 <td><p>TenantKey</p></td>
 <td><p>識別子</p></td>
-<td><p>ユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a>」を参照してください。</p></td>
+<td><p>ユーザーのテナント。 詳細については、「 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 のテナントの表</a> 」を参照してください。</p></td>
 </tr>
 <tr class="even">
 <td><p>UriType</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>ユーザー URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a>」を参照してください。</p></td>
+<td><p>ユーザー URI の種類。 詳細については、「 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 の UriTypes テーブル</a> 」を参照してください。</p></td>
 </tr>
 </tbody>
 </table>

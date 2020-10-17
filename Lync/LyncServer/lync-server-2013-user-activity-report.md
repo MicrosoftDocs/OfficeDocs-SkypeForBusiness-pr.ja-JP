@@ -12,20 +12,22 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50ac61976923bac8bff0162a61e5496df6181127
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 36001aaf38dc39d0bb4eb7524e41c616b0a1c160
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192990"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530234"
 ---
+# <a name="user-activity-report-in-lync-server-2013"></a>Lync Server 2013 のユーザーアクティビティレポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-activity-report-in-lync-server-2013"></a>Lync Server 2013 のユーザーアクティビティレポート
+
 
 </div>
 
@@ -41,17 +43,17 @@ _**トピックの最終更新日:** 2015-02-27_
 
 ユーザー アクティビティ レポートは、"ヘルプ デスク" レポートと呼ばれることがあります。ヘルプデスク担当者が、特定のユーザーに関するセッション情報を取得するときによくこのレポートを利用するからです。個別のユーザーに対する、または個別のユーザーによる呼び出しは、[ユーザー URI プレフィックス] ボックスにユーザーの SIP URI を入力するだけでフィルターできます。
 
-このようにすると、ユーザーアクティビティレポートは、指定された文字列で SIP URI が始まるすべてのユーザーに関する情報を返します。 たとえば、[URI] ボックスに「 **ken** 」と入力すると、ユーザーアクティビティレポートは**ken**を検索します。Myer@litwareinc.com。 ただし、次のユーザーも検索されます。
+この操作を行うと、ユーザー アクティビティ レポートは、SIP URI が指定した文字列で始まるユーザーに関する情報を返します。 たとえば、[URI] ボックスに **ken** と入力すると、ユーザー アクティビティ レポートは **Ken**.Myer@litwareinc.com を検索します。 ただし、次のようなユーザーも検索します。
 
   - **ken**azi@litwareinc.com
 
   - **ken**burg@litwareinc.com
 
-  - **Ken**。Sanchez@litwareinc.com
+  - **Ken**.Sanchez@litwareinc.com
 
   - **Ken**nedy@litwareinc.com
 
-Ken Myer の情報のみが返されるようにするには、検索ボックスに完全な URI (Ken.Myer@litwareinc.com) を入力するか、組織内の他のユーザーと個人を区別するために、少なくとも Ken の適切な種類の Ken の URI を入力します。 次に例を示します。
+Ken Myer の情報のみが返されるようにするには、検索ボックスに完全な URI (Ken.Myer@litwareinc.com) を入力するか、組織内の他のユーザーと個人を区別するために、少なくとも Ken の適切な種類の Ken の URI を入力します。 たとえば、次のようにします。
 
 Ken.my
 
@@ -59,15 +61,15 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>ユーザー アクティビティ レポートにアクセスするには
 
-ユーザー アクティビティ レポートには、[監視レポート] ホーム ページからアクセスします。 また、 [Lync Server 2013 の IP 電話インベントリレポート](lync-server-2013-ip-phone-inventory-report.md)でユーザー URI 指標をクリックして、ユーザーアクティビティレポートにアクセスすることもできます。 ユーザー アクティビティ レポートで [電話会議 URI] (電話会議の場合) をクリックすると、会議詳細レポートが表示されます。 同様に、ピアツーピア呼び出しの詳細指標をクリックすると、 [Lync Server 2013 のピアツーピアセッション詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md)が表示されます。
+ユーザー アクティビティ レポートには、[監視レポート] ホーム ページからアクセスします。 また、 [Lync Server 2013 の IP 電話インベントリレポート](lync-server-2013-ip-phone-inventory-report.md)でユーザー URI 指標をクリックして、ユーザーアクティビティレポートにアクセスすることもできます。 ユーザー アクティビティ レポート内で、会議 URI (会議用) をクリックすると、会議の詳細レポートが表示されます。 同様に、ピアツーピア呼び出しの詳細指標をクリックすると、 [Lync Server 2013 のピアツーピアセッション詳細レポート](lync-server-2013-peer-to-peer-session-detail-report.md)が表示されます。
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-user-activity-report"></a>ユーザーアクティビティレポートを最大限に活用する
+## <a name="making-the-best-use-of-the-user-activity-report"></a>ユーザー アクティビティ レポートを最大限活用する
 
-ユーザーアクティビティレポートには多くの適切な情報がありますが、その情報を見つけるのが難しい場合があります。 たとえば、指定した期間中に組織内で発生するすべてのユーザーアクティビティが、ユーザーアクティビティレポートに含まれています。つまり、何らかの方法で Microsoft Lync Server 2013 を実際に使用したユーザーに関する情報をレポート内に埋め込むことができることを意味します。
+ユーザー アクティビティ レポートには、多くの良質な情報が含まれていますが、この情報は見つけにくい場合があります。 たとえば、指定した期間中に組織内で発生するすべてのユーザーアクティビティが、ユーザーアクティビティレポートに含まれています。つまり、何らかの方法で Microsoft Lync Server 2013 を実際に使用したユーザーに関する情報をレポート内に埋め込むことができることを意味します。
 
 <div>
 
@@ -85,11 +87,11 @@ Ken.my
 
   - 通話数が最も多いユーザーが、最も多くのインスタント メッセージング セッションに参加しているユーザーでもあるかどうか。
 
-このような情報を確認するには、監視レポートで取得されたデータを Excel スプレッドシートにエクスポートします。 次に、そのスプレッドシート/コンマ区切り値ファイルを使用して、ユーザー アクティビティ レポートのようなやり方でデータを分析します。 たとえば、レポートデータを Excel にエクスポートしてから、コンマ区切り値ファイルにエクスポートするとします。 その時点で、からデータをインポートできます。CSV ファイルを次のようなコマンドを使用して Windows PowerShell に渡します。
+このような情報を確認するには、監視レポートで取得されたデータを Excel スプレッドシートにエクスポートします。 次に、そのスプレッドシート/コンマ区切り値ファイルを使用して、ユーザー アクティビティ レポートのようなやり方でデータを分析します。 たとえば、レポートデータを Excel にエクスポートしてから、コンマ区切り値ファイルにエクスポートするとします。 この時点で、次のようなコマンドを使用することで、データを .CSV ファイルから Windows PowerShell にインポートできます。
 
     $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 
-データがインポートされたら、簡単な Windows PowerShell コマンドを使用して質問に答えることができます。 たとえば、次のコマンドは、少なくとも 1 つのセッションで "呼び出し元" ユーザーとしての役割を果たす一意のユーザーの一覧を返します。
+データがインポートされたら、簡単な Windows PowerShell コマンドを使用して質問に回答する場合に役立てることができます。 たとえば、次のコマンドは、少なくとも 1 つのセッションで "呼び出し元" ユーザーとしての役割を果たす一意のユーザーの一覧を返します。
 
     $x | Group-Object "From user" | Select Name | Sort-Object Name
 
@@ -107,7 +109,7 @@ Ken.my
 
     $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 
-このコマンドは次のようなデータを返します。
+このコマンドによって、以下のようなデータが返されます。
 
     Count    Name
     -----    ----
@@ -168,29 +170,29 @@ Ken.my
 <p>一週間は、日曜日から始まり、土曜日で終わるものとします。</p></td>
 </tr>
 <tr class="odd">
-<td><p>[<strong>動作状況の種類</strong>]</p></td>
+<td><p><strong>アクティビティの種類</strong></p></td>
 <td><p>動作状況の種類。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
+<li><p>[All]</p></li>
 <li><p>ピアツーピア</p></li>
-<li><p>室</p></li>
+<li><p>会議</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>モーダル</strong></p></td>
-<td><p>利用可能なモダリティは、[アクティビティの種類の選択] によって異なります。 アクティビティの種類がピアツーピアの場合は、[IM] を選択できます。ファイル転送。アプリケーション共有。音声またはビデオをモダリティとして示します。</p>
-<p>アクティビティの種類が [会議] の場合は、IM 電話会議を選択できます。Web 会議。アプリケーション共有。音声ビデオ会議または電話会議。</p></td>
+<td><p><strong>モダリティ</strong></p></td>
+<td><p>使用可能なモダリティは、選択するアクティビティの種類によって異なります。 アクティビティの種類がピアツーピアの場合、モダリティとして IM、ファイル転送、アプリケーションの共有、音声、またはビデオを選択することが可能です。</p>
+<p>アクティビティの種類が会議の場合、IM 電話会議、Web 会議、アプリケーションの共有、音声/ビデオ会議、またはテレフォニー会議を選択可能です。</p></td>
 </tr>
 <tr class="odd">
 <td><p>[<strong>セッション カテゴリ</strong>]</p></td>
 <td><p>問題のアクティビティが成功したか失敗したかを示します。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
-<li><p>Success</p></li>
+<li><p>[All]</p></li>
+<li><p>成功</p></li>
 <li><p>[予期されたエラー]</p></li>
 <li><p>[予期しないエラー]</p></li>
 </ul>
-<p>&quot;予期される&quot;エラーは、発生する可能性のあるエラーです。たとえば、ユーザーが自分の状態を [応答不可] に設定している場合、そのユーザーへの呼び出しが失敗することが予想されます。 &quot;予期しない&quot;エラーとは、正常なシステムとして表示されるエラーです。 たとえば、発信者が保留にされたときに、通話が終了してはなりません。 そのような状態が発生する場合は、予期しないエラーとしてフラグが設定されます。</p></td>
+<p>&quot;予期 &quot; されるエラーは、発生する可能性のあるエラーです。たとえば、ユーザーが自分の状態を [応答不可] に設定している場合は、そのユーザーへの呼び出しが失敗することが予想されます。 &quot;予期しないエラーと &quot; は、正常なシステムとして表示されるエラーです。 たとえば、発信者が保留にされたときに、通話が終了してはなりません。 そのような状態が発生する場合は、予期しないエラーとしてフラグが設定されます。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>ユーザー URI プレフィックス</strong>]</p></td>
@@ -253,10 +255,10 @@ Ken.my
 <tr class="even">
 <td><p>[<strong>応答時間</strong>]</p></td>
 <td><p>はい</p></td>
-<td><p>&quot;ユーザーが&quot;セッションへの招待を受け入れた日時。</p></td>
+<td><p>ユーザーがセッションへの &quot; 招待を受け入れた日時 &quot; 。</p></td>
 </tr>
 <tr class="odd">
-<td><p>[<strong>終了時刻</strong>]</p></td>
+<td><p><strong>終了時刻</strong></p></td>
 <td><p>はい</p></td>
 <td><p>ピアツーピア セッションが終了した日時。</p></td>
 </tr>
@@ -296,10 +298,10 @@ Ken.my
 <tr class="odd">
 <td><p>[<strong>会議 URI</strong>]</p></td>
 <td><p>はい</p></td>
-<td><p>一意の電話会議 ID。 この項目をクリックすると、選択されているセッションの会議詳細レポートが表示されます。 この項目を展開すると、電話会議参加者に関する情報が表示されます。 詳細については&quot;、このトピックで&quot;後述する「電話会議の参加者の指標」を参照してください。</p></td>
+<td><p>一意の電話会議 ID。 この項目をクリックすると、選択されているセッションの会議詳細レポートが表示されます。 この項目を展開すると、電話会議参加者に関する情報が表示されます。 詳細については、 &quot; &quot; このトピックで後述する「電話会議の参加者の指標」を参照してください。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Organizer</strong></p></td>
+<td><p><strong>開催者</strong></p></td>
 <td><p>はい</p></td>
 <td><p>会議を開催したユーザーの SIP アドレス。</p></td>
 </tr>
@@ -309,12 +311,12 @@ Ken.my
 <td><p>電話会議で使用されたエッジ サーバーの名前 (エッジ サーバーが使用された場合)。</p></td>
 </tr>
 <tr class="even">
-<td><p>[<strong>開始時刻</strong>]</p></td>
+<td><p><strong>開始時刻</strong></p></td>
 <td><p>はい</p></td>
 <td><p>会議が開始された日時。</p></td>
 </tr>
 <tr class="odd">
-<td><p>[<strong>終了時刻</strong>]</p></td>
+<td><p><strong>終了時刻</strong></p></td>
 <td><p>はい</p></td>
 <td><p>会議が終了した日時。</p></td>
 </tr>
@@ -347,7 +349,7 @@ Ken.my
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ロール</strong></p></td>
+<td><p><strong>役割</strong></p></td>
 <td><p>いいえ</p></td>
 <td><p>電話会議におけるユーザーの役割 (発表者など)。</p></td>
 </tr>
@@ -359,7 +361,7 @@ Ken.my
 <tr class="odd">
 <td><p><strong>接続</strong></p></td>
 <td><p>いいえ</p></td>
-<td><p>ネットワーク接続の種類。 たとえば&quot;、内部接続&quot;の場合は internal &quot;、ダイヤル&quot;インユーザーの場合は PSTN から。</p></td>
+<td><p>ネットワーク接続の種類。 たとえば、内部 &quot; &quot; 接続の場合は internal、 &quot; ダイヤルイン &quot; ユーザーの場合は PSTN から。</p></td>
 </tr>
 <tr class="even">
 <td><p>[<strong>参加時間</strong>]</p></td>

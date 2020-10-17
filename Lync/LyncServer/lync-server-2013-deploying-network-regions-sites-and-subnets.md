@@ -12,20 +12,22 @@ ms:contentKeyID: 51803978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 188b2a85e8961a0460bee819e3281d33a6069ddd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b95d9f7e38e3169474aee33a3004b388c0b13f14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195250"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531150"
 ---
+# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域、サイト、およびサブネットの展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>Lync Server 2013 でのネットワーク地域、サイト、およびサブネットの展開
+
 
 </div>
 
@@ -76,7 +78,7 @@ Lync Server Windows PowerShell コマンド、新しい-CsNetworkSite、また�
 
 詳細については、「 [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)」を参照してください。
 
-この例では、次の表および Lync Server Windows PowerShell コマンドは、このシナリオで定義されているネットワークサイトを示しています。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
+この例では、次の表および Lync Server Windows PowerShell コマンドは、このシナリオで定義されているネットワークサイトを示しています。 説明のために、Location-Based ルーティングに固有の設定のみが表に含まれています。
 
     New-CsNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
     New-CsNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
@@ -127,7 +129,7 @@ Lync Server Windows PowerShell コマンド、新しい-CsNetworkSubnet、また
 
 詳細については、「 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
 
-この例では、次の表および Windows PowerShell コマンドを使用して、このシナリオで定義されているネットワークサイト Hyderabad、ニューデリー、およびへのネットワークサブネットの割り当てを示しています。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
+この例では、次の表および Windows PowerShell コマンドを使用して、このシナリオで定義されているネットワークサイト Hyderabad、ニューデリー、およびへのネットワークサブネットの割り当てを示しています。 説明のために、Location-Based ルーティングに固有の設定のみが表に含まれています。
 
     New-CsNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
     New-CsNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad"
@@ -178,7 +180,7 @@ Lync Server Windows PowerShell コマンド、新しい-CsNetworkSubnet、また
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での場所に基づくルーティングの構成](lync-server-2013-configuring-location-based-routing.md)  
+[Lync Server 2013 での Location-Based ルーティングの構成](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccef1e811d4ccd6b54350d6678a6b089eb4caafd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c7133ee4f1753d5178bd1ac41e3483dfe61a9e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193030"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530274"
 ---
+# <a name="user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013 に対して有効になっているユーザーアカウント
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-accounts-enabled-for-lync-server-2013"></a>Lync Server 2013 に対して有効になっているユーザーアカウント
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2014-04-18_
 
 </div>
 
-ユーザーを検索したり、ユーザーの検索結果をフィルター処理したりする Lync Server 2013 の管理タスクを実行すると、Active Directory ドメインサービスに属性として存在するが、グローバルカタログにレプリケートされないユーザープロパティがいくつかあります。Microsoft Exchange Server が展開されるまで。 Lync Server ではなく、Microsoft Exchange は、次の属性がインストールされているグローバルカタログへのレプリケーションをマークします。
+ユーザーを検索したり、ユーザーの検索結果にフィルターを適用したりすることが必要な Lync Server 2013 管理タスクを実行すると、Active Directory ドメインサービスに属性として存在するが、Microsoft Exchange Server が展開されるまでグローバルカタログにレプリケートされないユーザープロパティがいくつかあります。 Lync Server ではなく、Microsoft Exchange は、次の属性がインストールされているグローバルカタログへのレプリケーションをマークします。
 
 
 <table>
@@ -73,7 +75,7 @@ _**トピックの最終更新日:** 2014-04-18_
 <p>Pager</p>
 <p>FAX</p>
 <p>Mobile</p></td>
-<td><p>役職</p>
+<td><p>Title</p>
 <p>Company</p>
 <p>部署</p>
 <p>事業所</p></td>

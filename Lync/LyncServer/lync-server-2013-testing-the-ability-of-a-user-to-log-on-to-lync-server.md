@@ -12,20 +12,22 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541870c2dc9bf5fde0ce2a339b07b894feb83082
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9ac7f02d18f1b270b3a58a7ece84cb3a859b32b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193850"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530474"
 ---
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Lync Server 2013 にユーザーがログオンできるかどうかをテストする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Lync Server 2013 にユーザーがログオンできるかどうかをテストする
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テスト用の登録コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsRegistration コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsRegistration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Test-CsRegistration コマンドレットを使用すると、組織内のユーザーが Lync Server にログオンできることを確認できます。 テスト用の登録を実行すると、コマンドレットは、Lync Server へのテストユーザーのサインインを試み、成功した場合は、そのテストユーザーをシステムから切断します。 ユーザーによる操作なしに、また実際のユーザーに影響を及ぼすことなく、これらすべてが行われます。 たとえば、テストアカウント sip:kenmyer@litwareinc.com が実際の Lync Server アカウントを持つ実際のユーザーに対応しているとします。 この場合、テストは、実際の Ken Myer の業務を中断することなく実行されます。 Ken Myer test アカウントがシステムからログオフされると、そのユーザーは引き続きログオンしたままになります。
+Test-CsRegistration コマンドレットを使用すると、組織内のユーザーが Lync Server にログオンできるかどうかを確認できます。 テスト用の登録を実行すると、コマンドレットは、Lync Server へのテストユーザーのサインインを試み、成功した場合は、そのテストユーザーをシステムから切断します。 ユーザーによる操作なしに、また実際のユーザーに影響を及ぼすことなく、これらすべてが行われます。 たとえば、テストアカウント sip:kenmyer@litwareinc.com が実際の Lync Server アカウントを持つ実際のユーザーに対応しているとします。 この場合、テストは、実際の Ken Myer の業務を中断することなく実行されます。 Ken Myer test アカウントがシステムからログオフされると、そのユーザーは引き続きログオンしたままになります。
 
 </div>
 
@@ -74,7 +76,7 @@ Test-CsRegistration コマンドレットを使用すると、組織内のユー
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsRegistration コマンドレットを実行するには、事前に構成されたテストアカウント (Lync Server テストを実行するためのテストアカウントの設定を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用します。 テストアカウントを使用してこのチェックを実行するには、テストする Lync Server レジストラープールの FQDN を指定するだけで済みます。 次に例を示します。
+Test-CsRegistration コマンドレットを実行するには、事前に構成されたテストアカウントを使用するか (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照)、Lync Server が有効になっているすべてのユーザーのアカウントを使用します。 テストアカウントを使用してこのチェックを実行するには、テストする Lync Server レジストラープールの FQDN を指定するだけで済みます。 以下に例を示します。
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -83,7 +85,7 @@ Test-CsRegistration コマンドレットを実行するには、事前に構成
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「 [Test-CsRegistration](https://docs.microsoft.com/powershell/module/skype/Test-CsRegistration)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsRegistration](https://docs.microsoft.com/powershell/module/skype/Test-CsRegistration) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -91,7 +93,7 @@ Test-CsRegistration コマンドレットを実行するには、事前に構成
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーが Lync Server にログオンしてからログオフすると、Result プロパティに成功のマークが付いた次のような出力が表示され**ます。**
+指定したユーザーが Lync Server にログオンしてからログオフすると、Result プロパティに成功のマークが付いた次のような出力が表示され **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -123,11 +125,11 @@ DiagnosticHeader ()
 
     Get-CsUser "sip:kenmyer@litwareinc.com"
 
-テスト用の登録が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsRegistration が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Verbose パラメーターが含まれている場合、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに、試行された各操作のステップバイステップのアカウントが返されます。 次に例を示します。
+Verbose パラメーターが含まれている場合、Test-CsRegistration は、指定されたユーザーが Lync Server にログオンできるかどうかを確認したときに実行された各アクションのステップバイステップのアカウントを返します。 以下に例を示します。
 
 VERBOSE: ' Register ' アクティビティが開始されました。
 
@@ -151,7 +153,7 @@ VERBOSE: ' Register ' アクティビティが開始されました。
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-以下に、テスト用の登録が失敗する主な理由を示します。
+Test-CsRegistration が失敗する可能性のある一般的な理由を次に示します。
 
   - 正しくないユーザーアカウントが指定されています。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     

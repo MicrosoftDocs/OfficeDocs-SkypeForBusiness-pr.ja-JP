@@ -12,20 +12,22 @@ ms:contentKeyID: 48183432
 ms.date: 10/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93f6aadd6cde7f09d7c6bdde118055cde8a56de5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1bf54f1949627c39291388be248e0029077e9278
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204269"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530964"
 ---
+# <a name="failing-over-a-pool-in-lync-server-2013"></a>Lync Server 2013 でのプールのフェールオーバー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-a-pool-in-lync-server-2013"></a>Lync Server 2013 でのプールのフェールオーバー
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2014-10-10_
 
 **同じサイトの次ホップ プールを使用するようにエッジ プールを設定するには**
 
-1.  トポロジビルダーを開き、変更する必要があるエッジプールを右クリックして、[**プロパティの編集**] をクリックします。
+1.  トポロジビルダーを開き、変更する必要があるエッジプールを右クリックして、[ **プロパティの編集**] をクリックします。
 
 2.  [**次ホップ**] をクリックします。[**次ホップ プール**] の一覧で、次ホップ プールとして使用するプールを選択します。
 
@@ -63,33 +65,33 @@ _**トピックの最終更新日:** 2014-10-10_
     
         Invoke-CsManagementServerFailover -Whatif
     
-    このコマンドレットの結果は、現在中央管理サーバーをホストしているプールを示しています。 この手順の残りの部分では、このプールを CMS\_プールと呼びます。
+    このコマンドレットの結果は、現在中央管理サーバーをホストしているプールを示しています。 この手順の残りの部分では、このプールを CMS \_ プールと呼びます。
 
-2.  トポロジビルダーを使用して、CMS\_プールで実行されている Lync Server のバージョンを検索します。 Lync Server 2013 を実行している場合は、次のコマンドレットを使用して、プール1のバックアッププールを検索します。
+2.  トポロジビルダーを使用して、CMS プールで実行されている Lync Server のバージョンを検索し \_ ます。 Lync Server 2013 を実行している場合は、次のコマンドレットを使用して、プール1のバックアッププールを検索します。
     
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
     
-    バックアップ\_プールをバックアッププールとして使用します。
+    バックアップ \_ プールをバックアッププールとして使用します。
 
 3.  次のコマンドレットを使用して、中央管理ストアの状態を確認します。
     
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
     
-    このコマンドレットでは、ActiveMasterFQDN と ActiveFileTransferAgents の両方が CMS\_プールの FQDN を指していることを示しています。 これらが空の場合は、中央管理サーバーを使用できないので、フェールオーバーする必要があります。
+    このコマンドレットでは、ActiveMasterFQDN と ActiveFileTransferAgents の両方が CMS プールの FQDN を指していることを示して \_ います。 これらが空の場合は、中央管理サーバーを使用できないので、フェールオーバーする必要があります。
 
 4.  中央管理ストアが使用できない場合、または中央管理ストアが Pool1 (つまり、障害が発生したプール) 上で実行されている場合は、プールをフェールオーバーする前に中央管理サーバーをフェールオーバーする必要があります。 Lync Server 2013 を実行しているプールでホストされていた中央管理サーバーをフェールオーバーする必要がある場合は、この手順の手順5でコマンドレットを使用します。 Lync Server 2010 を実行しているプールでホストされていた中央管理サーバーをフェールオーバーする必要がある場合は、この手順の手順6でコマンドレットを使用します。 中央管理サーバーをフェールオーバーする必要がない場合は、この手順の手順7に進みます。
 
 5.  Lync Server 2013 を実行しているプールの中央管理ストアをフェールオーバーするには、次の手順を実行します。
     
-      - 最初に、次のように入力し\_て、バックアッププールのどのバックエンドサーバーが中央管理ストアのプリンシパルインスタンスを実行するかを確認します。
+      - 最初に、次のように入力して、バックアッププールのどのバックエンドサーバーが \_ 中央管理ストアのプリンシパルインスタンスを実行するかを確認します。
         
             Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
     
-      - バックアップ\_プールのプライマリバックエンドサーバーがプリンシパルの場合は、次のように入力します。
+      - バックアッププールのプライマリバックエンドサーバー \_ がプリンシパルの場合は、次のように入力します。
         
             Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         
-        バックアップ\_プールのミラーバックエンドサーバーがプリンシパルの場合は、次のように入力します。
+        バックアッププールのミラーバックエンドサーバー \_ がプリンシパルの場合は、次のように入力します。
         
             Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
     
@@ -97,7 +99,7 @@ _**トピックの最終更新日:** 2014-10-10_
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        ActiveMasterFQDN と ActiveFileTransferAgents の両方がバックアップ\_プールの FQDN を指していることを確認してください。
+        ActiveMasterFQDN と ActiveFileTransferAgents の両方がバックアッププールの FQDN を指していることを確認して \_ ください。
     
       - 最後に、次のように入力して、すべてのフロントエンドサーバーのレプリカの状態を確認します。
         
@@ -107,7 +109,7 @@ _**トピックの最終更新日:** 2014-10-10_
         
         手順 7. に進みます。
 
-6.  中央管理ストアをバックアップ\_プールのバックエンドサーバーにインストールします。
+6.  中央管理ストアをバックアッププールのバックエンドサーバーにインストールし \_ ます。
     
       - 最初に、次のコマンドを実行します。
         
@@ -115,7 +117,7 @@ _**トピックの最終更新日:** 2014-10-10_
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - バックアップ\_プールのフロントエンドサーバーの1つで次のコマンドを実行して、中央管理ストアの移動を強制します。
+      - バックアッププールのフロントエンドサーバーの1つで次のコマンドを実行して、 \_ 中央管理ストアの移動を強制します。
         
             Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
     
@@ -123,7 +125,7 @@ _**トピックの最終更新日:** 2014-10-10_
         
             Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
         
-        ActiveMasterFQDN と ActiveFileTransferAgents の両方がバックアップ\_プールの FQDN を指していることを確認してください。
+        ActiveMasterFQDN と ActiveFileTransferAgents の両方がバックアッププールの FQDN を指していることを確認して \_ ください。
     
       - すべてのフロントエンド サーバーのレプリカの状態を確認するために、次のように入力します。
         
@@ -131,7 +133,7 @@ _**トピックの最終更新日:** 2014-10-10_
         
         すべてのレプリカの値が True であることを確認します。
     
-      - 中央管理サーバーサービスをバックアップ\_プール内の残りのフロントエンドサーバーにインストールします。 これを行うには、すべてのフロントエンドサーバー上で次のコマンドを実行します。ただし、この手順の最初に中央管理ストアを強制的に移動するときに使用したものを除きます。
+      - 中央管理サーバーサービスをバックアッププール内の残りのフロントエンドサーバーにインストールし \_ ます。 これを行うには、すべてのフロントエンドサーバー上で次のコマンドを実行します。ただし、この手順の最初に中央管理ストアを強制的に移動するときに使用したものを除きます。
         
             Bootstrapper /Setup 
 

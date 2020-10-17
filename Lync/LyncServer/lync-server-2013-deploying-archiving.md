@@ -12,20 +12,22 @@ ms:contentKeyID: 48185031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d31a4bdf75b649dec1d18a834335b0d47a69a3e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa4f0ccf1b9cd16a25a4c64fdaa8fc8d69eb7a2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206759"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531324"
 ---
+# <a name="deploying-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブの展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブの展開
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42206759"
 
 _**トピックの最終更新日:** 2012-09-28_
 
-Lync Server 2013 には、Lync Server でのインスタントメッセージング (IM) コンテンツと会議の通信をアーカイブするためのソリューションが用意されています。 アーカイブストレージを実装するには、Lync Server 2013 のアーカイブデータの保存に SQL Server データベースを使用するか、Lync Server の2013と Exchange の2013ストレージの両方を使用して、アーカイブストレージを Exchange 2013 ストレージに統合します。 ポリシーやアーカイブの構成を使用してデータのアーカイブ方法を制御できます。 詳細については、「計画」、「展開」、または「操作」のドキュメントの「planning [For アーカイビング in 2013 lync](lync-server-2013-planning-for-archiving.md) server [2013」](lync-server-2013-how-archiving-works.md)を参照してください。
+Lync Server 2013 には、Lync Server でのインスタントメッセージング (IM) コンテンツと会議の通信をアーカイブするためのソリューションが用意されています。 アーカイブストレージを実装するには、Lync Server 2013 のアーカイブデータの保存に SQL Server データベースを使用するか、Lync Server の2013と Exchange の2013ストレージの両方を使用して、アーカイブストレージを Exchange 2013 ストレージに統合します。 ポリシーやアーカイブの構成を使用してデータのアーカイブ方法を制御できます。 詳細については、「計画」、「展開」、または「操作」のドキュメントの「planning [For アーカイビング in 2013 lync](lync-server-2013-planning-for-archiving.md) server [2013」](lync-server-2013-how-archiving-works.md) を参照してください。
 
-このセクションの情報を使用して、最初にアーカイブをセットアップして構成することができます。 展開後に、アーカイブ設定を変更できます。 日常の管理のアーカイブサポートを実装する方法、または組織の新しい要件を満たす方法の詳細については、「操作」のドキュメントの「 [Lync Server 2013 アーカイブの管理](lync-server-2013-managing-archiving.md)」を参照してください。
+このセクションの情報を使用して、最初にアーカイブをセットアップして構成することができます。 展開後に、アーカイブ設定を変更できます。 日常の管理のアーカイブサポートを実装する方法、または組織の新しい要件を満たす方法の詳細については、「操作」のドキュメントの「 [Lync Server 2013 アーカイブの管理](lync-server-2013-managing-archiving.md) 」を参照してください。
 
 <div>
 

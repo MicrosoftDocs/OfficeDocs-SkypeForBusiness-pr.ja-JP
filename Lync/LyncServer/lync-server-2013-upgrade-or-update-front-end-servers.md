@@ -12,20 +12,22 @@ ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a4c5f81b88db33ba86c4410109a0943b81cb87
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 32a537dc701f7b3e613cc9364c786cb561cadb50
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852011"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530324"
 ---
+# <a name="upgrade-or-update-front-end-servers-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドサーバーのアップグレードまたは更新
+
 <div data-xmlns="https://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="upgrade-or-update-front-end-servers-in-lync-server-2013"></a>Upgrade or update Front End Servers in Lync Server 2013
+
 
 </div>
 
@@ -35,44 +37,44 @@ ms.locfileid: "41852011"
 
 <span> </span>
 
-_**最終更新日:** 2013-06-28_
+_**トピックの最終更新日:** 2013-06-28_
 
-Enterprise Edition プールのフロントエンドサーバーは、*アップグレードドメイン*として編成されています。 これらは、プール内のフロントエンドサーバーのサブセットです。 アップグレードドメインは、トポロジビルダーによって自動的に作成されます。
+Enterprise Edition プール内のフロントエンド サーバーは、アップグレード ドメイン** にまとめられます。 これらはプール内のフロントエンド サーバーのサブセットです。 アップグレードドメインは、トポロジビルダーによって自動的に作成されます。
 
-サーバーをアップグレードする場合は、一度に1つのアップグレードドメインを使用する必要があります。 各サーバーを1つのアップグレードドメインに移動してアップグレードし、それを再起動してから別のアップグレードドメインに移行します。 これまでにアップグレードしたアップグレードドメインとサーバーを常に把握しておいてください。 各サーバーをアップグレードする場合は、次のフローチャート図を使用します。
+サーバーをアップグレードするときには、一度に1つのアップグレードドメインを使用する必要があります。 各サーバーを1つのアップグレードドメインから下に移動し、アップグレードしてから、別のアップグレードドメインに移行する前に再起動します。 これまでにアップグレードしたアップグレードドメインとサーバーを常に追跡してください。 各サーバーをアップグレードする場合は、次のフローチャート図を使用します。
 
-![フロントエンドサーバーのアップグレードまたは更新](images/upgradeupdatefrontendserverslync2013.png)
+![フロントエンド サーバーのアップグレードまたは更新](images/upgradeupdatefrontendserverslync2013.png)
 
 <div>
 
-## <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>プール内のフロントエンド サーバーにアップグレードを適用する
+## <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>プール内のフロントエンドサーバーにアップグレードを適用するには
 
-1.  プール内のフロントエンドサーバーで、次のコマンドレットを実行します。
+1.  プール内のフロントエンド サーバーで、次のコマンドレットを実行します。
     
-    **Get-CsPoolUpgradeReadinessState**
+    **Get-cspoolupgradereadinessstate 戻し**
     
-    *Poolupgradestate*の値が**Busy**の場合は、10分間待ってから、もう一度**CsPoolUpgradeReadinessState**を試してください。 3回以上連続して [**取り込み中**] と表示されている場合、それぞれの試行の間に10分待ってから、または**InsufficientActiveFrontEnds**の**poolupgradestate**の結果が表示された場合は、プールに問題があります。 このプールが、障害回復トポロジの別のフロントエンドプールとペアリングされている場合は、プールをバックアッププールにフェールオーバーし、このプール内のサーバーを更新する必要があります。 詳細については、「 [Lync Server 2013 でのプールのフェールオーバー](lync-server-2013-failing-over-a-pool.md)」を参照してください。
+    *Poolupgradestate*の値が**ビジー**の場合は、10分間待ってからもう一度**get-cspoolupgradereadinessstate 戻し**を実行してください。 少なくとも3回の連続する時間に [**ビジー** ] が表示される場合、各試行の間に10分待機した後、または**Poolupgradestate**の**InsufficientActiveFrontEnds**結果が表示された場合は、プールに問題があります。 このプールが障害復旧トポロジの別のフロントエンド プールとペアになっている場合は、プールをバックアップ プールにフェールオーバーし、そのプール内のサーバーを更新します。 詳細については、「 [Lync Server 2013 でのプールのフェールオーバー](lync-server-2013-failing-over-a-pool.md)」を参照してください。
     
-    *Poolupgradestate*の値の準備が**でき**ている場合は、手順2に進みます。
+    PoolUpgradeState** の値が **Ready** の場合は、手順 2. に進みます。
 
-2.  **CsPoolUpgradeReadinessState**コマンドレットは、プール内の各アップグレードドメインについての情報と、各アップグレードドメインに含まれるフロントエンドサーバーについても返します。 アップグレードするサーバーが含まれているアップグレードドメインに対して**ReadyforUpgrade**値が**True**の場合は、これらのサーバーを現在安全にアップグレードできます。 そのためには、次の操作を行います。
+2.  **Get-cspoolupgradereadinessstate 戻し**コマンドレットは、プール内の各アップグレードドメインに関する情報、および各アップグレードドメインにあるフロントエンドサーバーについても返します。 アップグレードするサーバーが含まれているアップグレードドメインの **ReadyforUpgrade** 値が **True** の場合は、これらのサーバーをすぐにアップグレードできます。 アップグレードを行うには、次の手順を実行します。
     
-    1.  アップグレードするフロントエンドサーバーへの新しい接続を停止するには、 `Stop-CsWindowsService -Graceful -Verbose`コマンドレットを使用します。
+    1.  コマンドレットを使用して、アップグレードするフロントエンドサーバーへの新しい接続を停止し `Stop-CsWindowsService -Graceful -Verbose` ます。
         
         <div>
         
 
         > [!NOTE]  
-        > スケジュールされたサーバーのダウンタイムにサーバーのアップグレードを実行している場合は、次のように、"-<STRONG>正常</STRONG>" パラメーターを指定せずにこのコマンドレットを実行でき<STRONG>ます。</STRONG> これにより、すべての既存のサービスリクエストがいっぱいになるのを待たずに、すぐにサービスが終了します。
+        > スケジュールされたサーバーのダウンタイム中にこれらのサーバーのアップグレードを実行する場合は、次のように、このコマンドレットを '-<STRONG>正常</STRONG>' パラメーターなしで実行できます。 <STRONG>Stop-cswindowsservice</STRONG>。 これにより、すべての既存のサービス要求がいっぱいになるのを待たずに、直ちにサービスがシャットダウンされます。
 
         
         </div>
     
     2.  このアップグレードドメインに関連付けられているサーバーをアップグレードします。
     
-    3.  サーバーを再起動して、新しい接続を受け入れていることを確認します。
+    3.  サーバーを再起動し、新しい接続を受け入れていることを確認します。
 
-3.  すべてのフロントエンドサーバーがアップグレードされるまで、プール内の各アップグレードドメインについて、手順1と2を繰り返します。
+3.  すべてのフロントエンドサーバーがアップグレードされるまで、プール内の他のすべてのアップグレードドメインに対して手順1と2を繰り返します。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733810
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aa78a49686ca555fdbc26d3ffd4953d88d64a95
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0381f65ee233abcac60268b9c8e491b31e88c24f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529874"
 ---
+# <a name="remove-the-monitoring-server-association"></a>監視サーバーの関連付けの削除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-monitoring-server-association"></a>監視サーバーの関連付けの削除
+
 
 </div>
 
@@ -47,9 +49,9 @@ _**トピックの最終更新日:** 2012-10-04_
 
 2.  [Lync Server 2010 ノードに移動します。
 
-3.  トポロジビルダーで、監視サーバーが定義されている場所に基づいて、 **Enterprise Edition フロントエンドプール**、 **Standard Edition フロントエンドサーバー**、または**ブランチサイト**を展開します。
+3.  トポロジビルダーで、監視サーバーが定義されている場所に基づいて、 **Enterprise Edition フロントエンドプール**、 **Standard Edition フロントエンドサーバー**、または **ブランチサイト**を展開します。
 
-4.  存続可能 Branch Server が関連付けられている場合は、[**ブランチサイト**] を展開し、[ブランチサイト] を展開して、[**存続可能ブランチアプライアンス**] を展開します。
+4.  存続可能 Branch Server が関連付けられている場合は、[ **ブランチサイト**] を展開し、[ブランチサイト] を展開して、[ **存続可能ブランチアプライアンス**] を展開します。
     
     <div>
     
@@ -60,13 +62,13 @@ _**トピックの最終更新日:** 2012-10-04_
     
     </div>
 
-5.  監視サーバーに関連付けられているプール、サーバー、またはデバイスを右クリックし、[**プロパティの編集**] をクリックします。
+5.  監視サーバーに関連付けられているプール、サーバー、またはデバイスを右クリックし、[ **プロパティの編集**] をクリックします。
 
 6.  [**プロパティの編集**] の [**全般**] で、[**関連付け**] の [**監視サーバーの関連付け**] チェック ボックスをオフにして、[**OK**] をクリックします。
 
 7.  監視サーバーに関連付けられているその他のプール、サーバー、またはデバイスに対して、前の手順を繰り返します。
 
-8.  監視サーバーを右クリックし、[**削除**] をクリックします。
+8.  監視サーバーを右クリックし、[ **削除**] をクリックします。
 
 9.  [**依存ストアの削除**] で、[**OK**] をクリックします。
 

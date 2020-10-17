@@ -12,20 +12,22 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0acdf50ac515810b2813a98e9dc1f289e327eba
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 62a557d8b5a0f2a3e1e0f248b01795e75c02b3a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529804"
 ---
+# <a name="standard-migration-scenario---high-level"></a>標準移行シナリオ-高レベル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="standard-migration-scenario---high-level"></a>標準移行シナリオ-高レベル
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 2010、グループチャットまたは Office Communications Serve
 
   - 常設チャットルームの移行の準備と計画を行い、移行のためにシステムをシャットダウンするための適切な時間を決定します。
 
-  - 移行用の Windows PowerShell コマンドレット (**export-cspersistentchatdata**および**export-cspersistentchatdata**) を実行して、コンテンツを常設チャットサーバーに移動します。
+  - 移行用の Windows PowerShell コマンドレット (**export-cspersistentchatdata** および **export-cspersistentchatdata**) を実行して、コンテンツを常設チャットサーバーに移動します。
 
   - 移行が成功したことを確認します。
 

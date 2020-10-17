@@ -12,20 +12,22 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ec702870cffcd6801cf125d2cc130dbe15b9481
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a4be9b6d89f58be67eb341d051d025b795f7feb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530564"
 ---
+# <a name="planning-for-response-groups-in-lync-server-2013"></a>Lync Server 2013 での応答グループの計画
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-groups-in-lync-server-2013"></a>Lync Server 2013 での応答グループの計画
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42184080"
 
 _**トピックの最終更新日:** 2012-06-19_
 
-顧客サービス、内部ヘルプデスク、または部署の一般的な電話サポートなど、特定の種類の通話に応答して管理するユーザーのグループが組織にある場合は、これらの種類を管理するために Lync Server Response Group アプリケーションを展開できます。通話の数。 応答グループアプリケーションは、エージェントと呼ばれる指定されたユーザーに着信呼び出しをルーティングし、キューに入れます。 応答グループを使用すると、電話サポート サービスの利用を拡大できるだけでなく、これらのサービスを実行する際のオーバーヘッドを軽減できます。 このセクションでは、応答グループの計画に関する考慮事項について説明します。
+顧客サービス、内部ヘルプデスク、または部署の一般的な電話サポートなど、特定の種類の通話に応答して管理するユーザーのグループが組織にある場合は、これらの種類の通話を管理するために Lync Server Response Group アプリケーションを展開することができます。 応答グループアプリケーションは、エージェントと呼ばれる指定されたユーザーに着信呼び出しをルーティングし、キューに入れます。 応答グループを使用すると、電話サポート サービスの利用を拡大できるだけでなく、これらのサービスを実行する際のオーバーヘッドを軽減できます。 このセクションでは、応答グループの計画に関する考慮事項について説明します。
 
 <div>
 

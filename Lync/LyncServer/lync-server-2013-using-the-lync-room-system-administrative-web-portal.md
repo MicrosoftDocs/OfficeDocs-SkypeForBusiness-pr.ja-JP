@@ -12,20 +12,22 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d950bd62b2db91f60dd5828f79977472a9c5d573
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 677fdd070994c8cc1f63f775ffb2569642768f0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212673"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529944"
 ---
+# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Lync Server 2013 での Lync Room System 管理 Web ポータルの使用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Lync Server 2013 での Lync Room System 管理 Web ポータルの使用
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2014-11-10_
 
 1.  次の URL を参照します。
     
-    https://\<fe-サーバー\>/lrs
+    https:// \<fe-server\> /lrs
 
 2.  LRSSupport アカウントの資格情報、または LRSSupportAdminGroup セキュリティグループに追加されているアカウントを入力します。
 
@@ -59,15 +61,15 @@ _**トピックの最終更新日:** 2014-11-10_
 
 概要ページには、サーバーに展開されているすべての LRS ルームに関する次の情報が表示されます。
 
-  - **タグ**   管理者がルームに付与するカスタム名を指定します。 タグは、ルーム名をクリックすることで、ポータルで設定できます。
+  - **タグ**    管理者がルームに付与するカスタム名。 タグは、ルーム名をクリックすることで、ポータルで設定できます。
 
-  - **[正常性**   ] 会議室の正常性の状態を示します。これは、会議室の設定ページの [正常性] セクションに表示されます。
+  - **正常性**    ルームの正常性の状態。会議室の設定ページの [正常性] セクションに表示されている、会議室の状態の総計から導出されます。
 
-  - **[次の会議**   ] 次の会議がスケジュールされた日時です。
+  - **次の会議**    次の会議がスケジュールされた日時。
 
-  - **LRS Version, Manufacturer, Model**   これらの値は、LRS で事前に設定されています。 製造元によっては、これらのフィールドが空白のままになっている場合があります。
+  - **LRS のバージョン、製造元、モデル**    これらの値は LRS で事前設定されています。 製造元によっては、これらのフィールドが空白のままになっている場合があります。
 
-  - **最終更新**   web ページが最後に更新された日時が表示されます。
+  - **最終更新**    Web ページが最後に更新された日時を表示します。
 
 ![Lync Room System 管理ポータルの概要ビュー](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Lync Room System 管理ポータルの概要ビュー")
 
@@ -151,7 +153,7 @@ _**トピックの最終更新日:** 2014-11-10_
 
 ## <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>管理 web ポータルにサインインできないのはなぜですか?
 
-  - を開くhttps://localhost/lrsと、サインインページを表示できるようになりますが、サインイン情報を入力するときにサインインすることはできません。 この場合は、を開いhttps://FQDNofFEserver/lrsて、管理 web ポータルにサインインする必要があります。
+  - を開くと、 https://localhost/lrs サインインページを表示できるようになりますが、サインイン情報を入力するときにサインインすることはできません。 この場合は、 https://FQDNofFEserver/lrs を開いて、管理 web ポータルにサインインする必要があります。
 
   - 管理 web ポータルにアクセスするコンピューターがワークグループ内にある場合、"http://" は機能しません。 代わりに "https" を使用します。
 
@@ -163,7 +165,7 @@ _**トピックの最終更新日:** 2014-11-10_
 
   - 展開に LRS アカウントがあること、および LRS 管理 Web ポータルの展開に関する推奨事項に従って作成されていることを確認してください。 Lync server で、LRS アカウントが、[有効-CsUser] ではなく [Enable-Csの会議室] を使用してプロビジョニングされていることを確認してください。
 
-  - LRS アカウントを作成済みで、管理 web ポータルにアカウントが表示されていない場合は、「Lync Server Logging tool を使用して**会議ポータル**コンポーネントを選択して、サーバーログを収集し、それらを LRS サポート連絡先に送信します。
+  - LRS アカウントを作成済みで、管理 web ポータルにアカウントが表示されていない場合は、「Lync Server Logging tool を使用して **会議ポータル** コンポーネントを選択して、サーバーログを収集し、それらを LRS サポート連絡先に送信します。
 
 </div>
 
@@ -173,7 +175,7 @@ _**トピックの最終更新日:** 2014-11-10_
 
   - LRSApp ユーザーアカウントの SIP が有効になっていることを確認します。
 
-  - それでも問題が解決しない場合は、D:\\Tracing\\lrsadminlogs\\から LRS システムの**TRACE .log**ファイルを収集し、LRS サポート連絡先に送信します。
+  - それでも問題が解決しない場合は、D: Tracing lrsadminlogs から LRS システムの **Trace .log** ファイルを収集 \\ し、 \\ \\ LRS サポート連絡先に送信します。
 
 </div>
 

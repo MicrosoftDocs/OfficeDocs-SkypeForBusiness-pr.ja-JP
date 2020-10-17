@@ -12,20 +12,22 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb8c3ff97930411cb8d679054015ffc18ab3ce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5c4aac657dd1e472068474a3a70d17f1a2a38c63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191690"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530874"
 ---
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013 のハードウェアロードバランサーの要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013 のハードウェアロードバランサーの要件
+
 
 </div>
 
@@ -75,7 +77,7 @@ Lync server 2013 拡張統合エッジトポロジは、主に Lync Server を�
 
 </div>
 
-ご使用のハードウェアロードバランサーが Lync Server 2013 で必要な機能をサポートしているかどうかを判断するには[https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)、「lync Server 2010 ロードバランサーパートナー」を参照してください。
+ご使用のハードウェアロードバランサーが Lync Server 2013 で必要な機能をサポートしているかどうかを判断するには、「Lync Server 2010 ロードバランサーパートナー」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452) 。
 
 <div>
 
@@ -113,7 +115,7 @@ Web サービスの Lync Server 2013 では、Cookie ベースのアフィニテ
 
 Cookie ベースのアフィニティを**使用しない**展開の場合
 
-  - リバース プロキシのポート 4443 に対する公開ルールで、[**ホスト ヘッダーを転送する**] が True に設定します。 これにより、元の URL が確実に転送されます。
+  - リバース プロキシのポート 4443 に対する公開ルールで、[**ホスト ヘッダーを転送する**] が True に設定します。これにより、元の URL が確実に転送されます。
 
 Cookie ベースのアフィニティを**使用する**展開の場合
 
@@ -143,7 +145,7 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 
 
 > [!WARNING]  
-> F5 ロード バランサー機器には、OneConnect と呼ばれる機能があります。この機能を使用すると、TCP 接続内の各要求が個々に負荷分散されます。モバイル デバイスを展開する場合、ロード バランサー機器のベンダーが同じ機能をサポートしていることを確認してください。最新の Apple iOS モバイル アプリでは、トランスポート層セキュリティ (TLS) v1.2 が必要です。F5 は、その固有の設定を備えています。<BR>サードパーティ製のロードバランサー機器の詳細については、「」を参照してください。<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5 ロード バランサー機器には、OneConnect と呼ばれる機能があります。この機能を使用すると、TCP 接続内の各要求が個々に負荷分散されます。モバイル デバイスを展開する場合、ロード バランサー機器のベンダーが同じ機能をサポートしていることを確認してください。最新の Apple iOS モバイル アプリでは、トランスポート層セキュリティ (TLS) v1.2 が必要です。F5 は、その固有の設定を備えています。<BR>サードパーティ製のロードバランサー機器の詳細については、「」を参照してください。 <A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -151,7 +153,7 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 
 ディレクターおよびフロントエンド プールの Web サービスに対するロード バランサー機器の要件は次のとおりです。
 
-  - 内部 Web サービスの Vip の場合は\_、ハードウェアロードバランサーでソースアドレス常設 (内部ポート80、443) を設定します。 Lync Server 2013 の場合、\_ソースアドレスの常設とは、1つの IP アドレスからの複数の接続が、セッション状態を維持するために常に1台のサーバーに送信されることを意味します。
+  - 内部 Web サービスの Vip の場合は、 \_ ハードウェアロードバランサーでソースアドレス常設 (内部ポート80、443) を設定します。 Lync Server 2013 の場合、ソースアドレスの常設とは、1つの \_ IP アドレスからの複数の接続が、セッション状態を維持するために常に1台のサーバーに送信されることを意味します。
 
   - TCP アイドル タイムアウトが 1,800 秒に設定されていること
 
@@ -234,12 +236,12 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 <th>ノード ポート</th>
 <th>ノード コンピューター/モニター</th>
 <th>保存プロファイル</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;プール&gt;web-int_mco_443_vs</p>
+<td><p>&lt;プール &gt; web-int_mco_443_vs</p>
 <p>443</p></td>
 <td><p>443</p></td>
 <td><p>フロントエンド</p>
@@ -248,7 +250,7 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;プール&gt;web-int_mco_80_vs</p>
+<td><p>&lt;プール &gt; web-int_mco_80_vs</p>
 <p>80</p></td>
 <td><p>80</p></td>
 <td><p>フロントエンド</p>
@@ -276,12 +278,12 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 <th>ノード ポート</th>
 <th>ノード コンピューター/モニター</th>
 <th>保存プロファイル</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;プール&gt;web_mco_443_vs</p>
+<td><p>&lt;プール &gt; web_mco_443_vs</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>フロントエンド</p>
@@ -290,7 +292,7 @@ Cookie ベースのアフィニティを**使用する**展開の場合
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;プール&gt;web_mco_80_vs</p>
+<td><p>&lt;プール &gt; web_mco_80_vs</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>フロントエンド</p>

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccd809e8c0670535723692fd35e05fd4230ddc67
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f22f26ae48835dee6028e5b41b79dd116d610a25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529814"
 ---
+# <a name="reset-call-admission-control"></a>通話受付管理のリセット
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reset-call-admission-control"></a>通話受付管理のリセット
+
 
 </div>
 
@@ -49,7 +51,7 @@ Lync server 2010 フロントエンドプールが通話受付管理 (CAC) を�
 
 3.  [**通話受付管理の設定**] で、[**通話受付管理の有効化**] が選択されていることを確認します。
 
-4.  [**フロントエンドプール] で通話受付管理 (cac) を実行する**には、cac をホストする Lync Server 2013 プールを選択し、[ **OK]** をクリックします。
+4.  [ **フロントエンドプール] で通話受付管理 (cac) を実行する**には、cac をホストする Lync Server 2013 プールを選択し、[ **OK]** をクリックします。
 
 5.  トポロジを公開します。
 

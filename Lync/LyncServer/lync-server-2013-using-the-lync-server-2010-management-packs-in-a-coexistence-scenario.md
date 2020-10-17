@@ -12,20 +12,22 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc2aed62b9ad26fd1498787ecd3d58144a005b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bb614726458f2cf9c77bdfe740ddb13d99d54f2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212643"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529924"
 ---
+# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>共存シナリオでの Lync Server 2010 管理パックの使用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a>共存シナリオでの Lync Server 2010 管理パックの使用
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2012-10-22_
 
 Lync Server 2010 では、中央管理ストアに格納されているトポロジドキュメントを通じて Lync Server コンピューターが検出されました。 この構成では、1台のコンピューターが他のすべての Lync Server コンピューターの存在を報告します。
 
-Lync server 2013 用の管理パックは、Lync Server 2010 で使用されていた中央検出メカニズムではなく、マシンレベルの検出を使用するようになりました。 これは、各 System Center エージェントが基本的に自身を検出し、その存在を System Center Operations Manager に報告することを意味します。 コンピューターレベルの探索を使用すると、システムセンターインフラストラクチャの管理が簡単になり、Lync server 管理パックの異なるバージョン (たとえば、lync server 2010 用の管理パックおよび Lync Server 2013 用の管理パック) も有効になります。より簡単に共存できます。
+Lync server 2013 用の管理パックは、Lync Server 2010 で使用されていた中央検出メカニズムではなく、マシンレベルの検出を使用するようになりました。 これは、各 System Center エージェントが基本的に自身を検出し、その存在を System Center Operations Manager に報告することを意味します。 コンピューターレベルの検出を使用すると、システムセンターインフラストラクチャの管理が簡単になり、Lync server 管理パックのさまざまなバージョン (たとえば、lync server 2010 用の管理パックと Lync Server 2013 用の管理パック) をより簡単に共存させることができます。
 
 この移行をサポートするには、まず、既存の Lync Server 2010 監視をアップグレードして、範囲の不足を回避する必要があります。 これを行うには、中央管理ストアを Lync Server 2013 にアップグレードする前に、lync Server 2010 の中央探索スクリプトを処理する既存の Lync Server 2010 コンピューターを選択します。 このためには、次の 4 つの手順を実行します。
 
@@ -59,7 +61,7 @@ Lync server 2013 用の管理パックは、Lync Server 2010 で使用されて�
 
 中央管理ストアコンピューター (たとえば、Lync Server フロントエンド) サーバーが集中検出を処理するように指名するには、中央管理ストアサーバーに次のレジストリキーを作成する必要があります。
 
-HKLM\\ソフトウェア\\Microsoft\\リアルタイムコミュニケーション\\正常性\\centraldiscoverycandidate」
+HKLM \\ ソフトウェア \\ Microsoft \\ リアルタイムコミュニケーション \\ 正常性 \\ centraldiscoverycandidate」
 
 このレジストリ キーを作成するには、次の手順を実行します。
 
@@ -67,7 +69,7 @@ HKLM\\ソフトウェア\\Microsoft\\リアルタイムコミュニケーショ�
 
 2.  [**ファイル名を指定して実行**] ダイアログ ボックスで「**regedit**」と入力し、Enter キーを押します。
 
-3.  レジストリエディターで、[ **HKEY\_LOCAL\_MACHINE**] を展開し、[**ソフトウェア**] を展開し、[ **Microsoft**] を展開して、[**リアルタイム通信**] を展開します。
+3.  レジストリエディターで、[ **HKEY \_ LOCAL \_ MACHINE**] を展開し、[ **ソフトウェア**] を展開し、[ **Microsoft**] を展開して、[ **リアルタイム通信**] を展開します。
 
 4.  [**Health**] を右クリックし、[**新規**] をクリックして、[**キー**] をクリックします。**Health** キーが存在しない場合は、[**Real-Time Communications**] を右クリックし、[**新規**] をポイントして、[**キー**] をクリックします。新しいキーが作成されたら、「Health」と入力し、Enter キーを押します。
     
@@ -101,7 +103,7 @@ Lync server 2010 コンピューターに Lync Server 2010 コンピューター
 
 4.  Operations Manager コンソールで、[**LS Discovery Candidate**] を右クリックし、[**上書き**]、[**オブジェクト検出の上書き**] の順にポイントし、[**クラス LS Discovery Candidate のすべてのオブジェクト**] をクリックします。
 
-5.  [**上書きのプロパティ**] ダイアログ ボックスで、パラメーター **Central Discovery WatcherNode Fqdn** の横の [**上書き**] チェック ボックスをオンにします。 [**上書き値**] ボックスと [**有効な値**] ボックスに、Lync Server 2010 コンピューターの完全修飾ドメイン名を入力します。 [**強制**] チェック ボックスをオンにして、[**OK**] をクリックします。
+5.  [**上書きのプロパティ**] ダイアログ ボックスで、パラメーター **Central Discovery WatcherNode Fqdn** の横の [**上書き**] チェック ボックスをオンにします。 [ **上書き値** ] ボックスと [ **有効な値** ] ボックスに、Lync Server 2010 コンピューターの完全修飾ドメイン名を入力します。 [**強制**] チェック ボックスをオンにして、[**OK**] をクリックします。
 
 オーバーライドを作成した後、ルート管理サーバーで正常性サービスを再起動する必要があります。正常性サービスを再起動するには、ルート管理サーバーで次の手順を実行します。
 

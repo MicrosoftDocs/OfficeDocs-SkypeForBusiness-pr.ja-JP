@@ -12,20 +12,22 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63e3379e2c703df1d4ce66eda0942befb1569c7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 258f53cf16287b29c739c5a232376fa629b401f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197400"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531354"
 ---
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Lync Server 2013 を使用した存続可能ブランチアプライアンスまたはサーバーの展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Lync Server 2013 を使用した存続可能ブランチアプライアンスまたはサーバーの展開
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2014-12-10_
 
 弾性エンタープライズ Voip は、ブランチサイトの復元 (つまり、セントラルサイトへのリンクが利用できなくなった場合に、ブランチサイトのユーザーに継続的なエンタープライズ Voip サービスを提供する機能) を指します。
 
-小規模および中規模のブランチサイト (25 ~ 1000 ユーザーのブランチサイト) では、存続可能ブランチアプライアンスを展開することをお勧めします。このアプライアンスは、組み込みの PSTN ゲートウェイまたは電話に対する SIP トランクを使用して公衆交換電話網 (PSTN) 通話を終了することをお勧めします。サービスプロバイダー。 存続可能 Branch Appliance は、Windows Server 2008 R2 オペレーティングシステム、Lync Server 2013 レジストラー、仲介サーバーソフトウェア、および PSTN ゲートウェイをすべて単一のアプライアンスシャーシに搭載するブレードサーバーを含むサードパーティ製のデバイスです。
+小規模および中規模のブランチサイト (25 ~ 1000 ユーザーのブランチサイト) では、存続可能 Branch Appliance を展開することをお勧めします。このアプライアンスは、組み込みの PSTN ゲートウェイまたは電話サービスプロバイダーへの SIP トランクを使用して、公衆交換電話網 (PSTN) 通話を終了します。 存続可能 Branch Appliance は、Windows Server 2008 R2 オペレーティングシステム、Lync Server 2013 レジストラー、仲介サーバーソフトウェア、および PSTN ゲートウェイをすべて単一のアプライアンスシャーシに搭載するブレードサーバーを含むサードパーティ製のデバイスです。
 
 1000 ~ 5000 ユーザーが存在し、回復可能な WAN がないブランチサイトでは、PSTN ゲートウェイまたは電話サービスプロバイダーへの SIP トランクのどちらかに接続された存続可能ブランチサーバーをお勧めします。 存続可能ブランチサーバーは、レジストラーと仲介サーバーソフトウェアがインストールされている Windows Server ベースのコンピューターです。
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2014-12-10_
 
 
 > [!NOTE]  
-> 5000ユーザーと専用の Lync Server 管理者がいるブランチサイトでは、中央サイトとは別の完全な Lync Server 2013 の展開をお勧めします。<BR>前提条件と計画の考慮事項を含む、組織内のブランチサイトに最適な復元ソリューションを選択する方法の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 のブランチサイトの復元要件</A>」を参照してください。
+> 5000ユーザーと専用の Lync Server 管理者がいるブランチサイトでは、中央サイトとは別の完全な Lync Server 2013 の展開をお勧めします。<BR>前提条件と計画の考慮事項を含む、組織内のブランチサイトに最適な復元ソリューションを選択する方法の詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 のブランチサイトの復元要件</A> 」を参照してください。
 
 
 

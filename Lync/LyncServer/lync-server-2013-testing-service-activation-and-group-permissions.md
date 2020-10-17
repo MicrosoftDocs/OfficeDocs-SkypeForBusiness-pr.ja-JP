@@ -12,20 +12,22 @@ ms:contentKeyID: 63969594
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ce58dae337121af9e2754b38ad5c1c0dafbfab4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 92e29cafcfac7a74e43617841a174653f6072c5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530524"
 ---
+# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>Lync Server 2013 でのサービスのアクティブ化とグループのアクセス許可のテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-service-activation-and-group-permissions-in-lync-server-2013"></a>Lync Server 2013 でのサービスのアクティブ化とグループのアクセス許可のテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、テストコマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsTopology コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTopology&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Test-CsTopology コマンドレットを使用すると、Lync Server 2013 がグローバルスコープで正常に機能していることを確認できます。 既定では、このコマンドレットは Lync Server インフラストラクチャ全体をチェックし、必要なサービスが実行されていること、およびこれらのサービスに対して適切なアクセス許可が設定されていることと、Lync Server のインストール時に作成されたユニバーサルセキュリティグループに対して適切なアクセス許可が設定されている.
+Test-CsTopology コマンドレットを使用すると、Lync Server 2013 がグローバルスコープで正常に機能していることを確認できます。 既定では、このコマンドレットは Lync Server インフラストラクチャ全体をチェックし、必要なサービスが実行されていること、およびこれらのサービスと、Lync Server のインストール時に作成されたユニバーサルセキュリティグループに対して適切なアクセス許可が設定されていることを確認します。
 
-Lync Server のインストールの有効性を検証するだけでなく、特定のサービスの有効性を確認することもできます。 たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com 上の音声ビデオ会議サーバーの状態をチェックします。
+Lync Server のインストールの有効性を検証することに加えて、Test-CsTopology 特定のサービスの有効性を確認することもできます。 たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com 上の音声ビデオ会議サーバーの状態をチェックします。
 
     Test-CsTopology -Service "ConferencingServer:atl-cs-001.litwareinc.com"
 
@@ -78,13 +80,13 @@ Lync Server のインストールの有効性を検証するだけでなく、�
 
 ## <a name="running-the-test"></a>テストの実行
 
-既定では、テスト用の出力画面に表示される出力はほとんどありません。 代わりに、コマンドレットによって返される情報は、HTML ファイルに書き込まれます。 Report パラメーターを使用すると、テスト用の HTML ファイルのファイルパスとファイル名を指定できます。 Report パラメーターを指定しない場合は、HTML ファイルは自動的にユーザーのフォルダーに保存され、次のような名前が付けられます。 ce84964a-c4da-c4da-4622 2-ad34-c54ff3ed361f .html。
+既定では、Test-CsTopology 画面に表示される出力はほとんどありません。 代わりに、コマンドレットによって返される情報は、HTML ファイルに書き込まれます。 Report パラメーターを使用すると、テスト用の HTML ファイルのファイルパスとファイル名を指定できます。 Report パラメーターを指定しない場合、HTML ファイルは自動的にユーザーのフォルダーに保存され、次のような名前が付けられます。 ce84964a-c4da-4622-ad34-c54ff3ed361f.html。
 
-次のサンプルコマンドは、テスト-CsTopology 使い方を実行し、出力を C:\\Logs\\computertest .html という名前のファイルに保存します。
+次のサンプルコマンドは Test-CsTopology を実行し、出力を C: LogsComputerTest.html という名前のファイルに保存し \\ \\ ます。
 
     Test-CsTopology -Report "C:\Logs\ComputerTest.html" -Verbose
 
-詳細については、[テスト](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology)用のヘルプドキュメントを参照してください。
+詳細については、 [テスト](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) 用のヘルプドキュメントを参照してください。
 
 </div>
 
@@ -92,7 +94,7 @@ Lync Server のインストールの有効性を検証するだけでなく、�
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Test コマンドレットは、ほとんどのテストコマンドレットとは異なり、成功または失敗の報告を返します。 これは、コマンドレットが実行されるたびに実行する必要のある多くの検証チェックが行われるためです。 代わりに、Internet Explorer を使用して表示できる HTML レポートにデータが保存されます。
+ほとんどのテストコマンドレットとは異なり、Test-CsTopology は、成功または失敗の報告を返します。 これは、コマンドレットが実行されるたびに実行する必要のある多くの検証チェックが行われるためです。 代わりに、Internet Explorer を使用して表示できる HTML レポートにデータが保存されます。
 
 </div>
 
@@ -100,9 +102,9 @@ Test コマンドレットは、ほとんどのテストコマンドレットと
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-テスト-Cstopostoが失敗する主な理由を次に示します。
+Test-CsTopology が失敗する可能性のある一般的な理由を次に示します。
 
-  - テストコンピューターでレプリケーションが最新の状態ではない可能性があります。 Get-csmanagementstorereplicationstatus コマンドレットを実行して、コンピューターの現在のレプリケーションの状態を確認できます。
+  - テストコンピューターでレプリケーションが最新の状態ではない可能性があります。 Get-CsManagementStoreReplicationStatus コマンドレットを実行して、コンピューターの現在のレプリケーションの状態を確認できます。
     
         Get-CsManagementStoreReplicationStatus -ReplicaFqdn "atl-cs-001.litwareinc.com"
     

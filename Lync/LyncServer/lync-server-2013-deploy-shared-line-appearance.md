@@ -12,20 +12,22 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80c58b532c36e74aecd4d7ecb758afee1e2c2bdd
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 15d0bffd92c4c2e2448938c467eec73c9bab1a94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604284"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531414"
 ---
+# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Lync Server 2013 での共有線の外観の展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a>Lync Server 2013 での共有線の外観の展開
+
 
 </div>
 
@@ -83,7 +85,7 @@ _**トピックの最終更新日:** 2016-06-13_
                 <BusyOnBusy|Voicemail|Forward> [-Target
                 <TargetUserOrPhoneNumber>]
     ```
-    Set-csslaconfiguration コマンドレットは、エンタープライズ Voip アカウント SLAGroup1 を SLA エンティティとしてマークし、SLAGroup1 の数が SLA グループの番号になります。 SLAGroup1 へのすべての呼び出しは、SLA グループ全体を呼び出します。
+    Set-CsSlaConfiguration コマンドレットは、エンタープライズ Voip アカウント SLAGroup1 を SLA エンティティとしてマークし、SLAGroup1 数が SLA グループの番号になります。 SLAGroup1 へのすべての呼び出しは、SLA グループ全体を呼び出します。
     
     次の例では、既存のエンタープライズ Voip ユーザー SLAGroup1 の SLA グループを作成し、SLAGroup1 に割り当てられた番号を SLA のメインライン番号として使用します。
     
@@ -92,13 +94,13 @@ _**トピックの最終更新日:** 2016-06-13_
     Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
                 -BusyOption BusyOnBusy
     ```
-    Set-csslaconfiguration を使用して、新しい SLA グループを作成したり、既存のものを変更したりすることができます。
+    Set-CsSlaConfiguration を使用して、新しい SLA グループを作成したり、既存のものを変更したりできます。
     
     <div>
     
 
     > [!NOTE]  
-    > には、有効な既存<CODE>-Identity</CODE>のエンタープライズ voip ユーザーアカウントを指定する必要があることに注意してください。
+    > には、 <CODE>-Identity</CODE> 有効な既存のエンタープライズ voip ユーザーアカウントを指定する必要があることに注意してください。
 
     
     </div>
@@ -126,7 +128,7 @@ _**トピックの最終更新日:** 2016-06-13_
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
               -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
     ```
-    次の例では、電話番号202-555-1234 に同時に転送される通話の最大数を超える呼び出しを設定します。 ターゲットは、電話番号ではなく、組織内のユーザーの場合があります。その場合、転送された通話を受信するユーザーの構文は、代理人`sip:<NameofDelegate@domain>`を指定した場合と同じです。 その他の使用可能`BusyOption`な`Voicemail`パラメーターは次のとおりです。
+    次の例では、電話番号202-555-1234 に同時に転送される通話の最大数を超える呼び出しを設定します。 ターゲットは、電話番号ではなく、組織内のユーザーの場合があります。その場合、転送された通話を受信するユーザーの構文は、代理人を指定した場合と同じ `sip:<NameofDelegate@domain>` です。 その他の使用可能なパラメーター `BusyOption` は `Voicemail` 次のとおりです。
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
               -Target tel:+2025551234]
@@ -143,7 +145,7 @@ _**トピックの最終更新日:** 2016-06-13_
               -MissedCallOption <Option> -MissedCallForwardTarget
               <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     ```
-    次の例では、不在着信をという名前`sla_forward_number`のユーザーに転送するように指定します。 `-MissedCallOption`パラメーターの有効なオプションは`Forward`、 `BusySignal`、、また`Disconnect`はです。 を選択`Forward`する場合は、ユーザーまたは`-MissedCallForwardTarget`電話番号をターゲットとするパラメーターも含める必要があります。
+    次の例では、不在着信をという名前のユーザーに転送するように指定し `sla_forward_number` ます。 パラメーターの有効なオプション `-MissedCallOption` は、、、 `Forward` `BusySignal` または `Disconnect` です。 を選択する場合は、 `Forward` `-MissedCallForwardTarget` ユーザーまたは電話番号をターゲットとするパラメーターも含める必要があります。
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
               Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
