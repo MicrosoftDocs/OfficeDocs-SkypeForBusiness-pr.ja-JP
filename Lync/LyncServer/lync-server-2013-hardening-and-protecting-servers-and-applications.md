@@ -12,20 +12,22 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2a8de372a8ca0ae6ec8c80a147eb74ffb01d0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3533bcf01338a056bab8c75d1409530fab7c901f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536884"
 ---
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Lync Server 2013 のサーバーおよびアプリケーションの強化と保護
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Lync Server 2013 のサーバーおよびアプリケーションの強化と保護
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**トピックの最終更新日:** 2013-12-05_
 
 ## <a name="securing-virtual-servers"></a>仮想サーバーのセキュリティ保護
 
-仮想サーバーのスナップショットには、サーバーのデータディスクのコピーが含まれており、メモリ内データのダンプも含まれています。どちらにも、攻撃につながる可能性がある機密性の高い暗号化データを含めることができます。 仮想化を使用して実装された運用サーバーでは、すべてのサーバーのスナップショットを無効にするか、非常に制御された方法で管理する必要があります。 Hyper-v 仮想サーバーのセキュリティ保護の詳細については、「」の「Hyper-v Security [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)Guide」を参照してください。
+仮想サーバーのスナップショットには、サーバーのデータディスクのコピーが含まれており、メモリ内データのダンプも含まれています。どちらにも、攻撃につながる可能性がある機密性の高い暗号化データを含めることができます。 仮想化を使用して実装された運用サーバーでは、すべてのサーバーのスナップショットを無効にするか、非常に制御された方法で管理する必要があります。 Hyper-v 仮想サーバーのセキュリティ保護の詳細については、「」の「Hyper-v Security Guide」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176) 。
 
 </div>
 
@@ -85,7 +87,7 @@ Windows Server 2008 および Windows Server 2008 R2 では、グループ ポ�
 
 管理者がこれらの設定を構成するためのユーザーインターフェイスを提供するために、管理用テンプレートにはオペレーティングシステムのリリース、service pack のリリース、および Lync Server 2013 を含む一部のアプリケーションが付属しています。
 
-Communicator ファイルは、Lync Server 2013 に付属している管理用テンプレートで、% windir%\\inf\\ディレクトリにインストールされ、グループポリシー設定へのインターフェイスを提供します。 Communicator.adm の各設定は、アプリケーションの動作に影響するレジストリの設定に対応しています。
+Communicator ファイルは、Lync Server 2013 に付属している管理用テンプレートで、% windir% inf ディレクトリにインストールされ、 \\ \\ グループポリシー設定へのインターフェイスを提供します。 Communicator.adm の各設定は、アプリケーションの動作に影響するレジストリの設定に対応しています。
 
 この設定には、GPedit.dll からアクセスできます。GPedit.dll は、Active Directory ユーザーとコンピューターのコンソールおよびグループ ポリシー管理コンソール (GPMC) から利用できます。
 
@@ -95,7 +97,7 @@ Communicator ファイルは、Lync Server 2013 に付属している管理用�
 
 ## <a name="group-policy-security-settings"></a>グループ ポリシーのセキュリティの設定
 
-グループポリシーには、GPedit からアクセスする場合の [コンピューターの構成]、[Windows の設定]、[セキュリティの設定] にある GPO のセキュリティ設定が含まれています。 セキュリティテンプレートをインポートして、GPO のセキュリティ設定を構成することができます。 「Windows Server 2008 セキュリティガイド」 [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186)および「windows Server 2008 R2 セキュリティコンプライアンス管理ツールキット[https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) 」には、必要に応じて変更できるサンプルテンプレートがいくつか含まれています。
+グループポリシーには、GPedit.dll からアクセスする場合の、[コンピューターの構成]、[Windows の設定]、[セキュリティの設定] にある GPO のセキュリティ設定が含まれています。 セキュリティテンプレートをインポートして、GPO のセキュリティ設定を構成することができます。 「Windows Server 2008 セキュリティガイド」 [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) および「Windows server 2008 R2 セキュリティコンプライアンス管理ツールキット」には、 [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) 必要に応じて変更できるサンプルテンプレートがいくつか含まれています。
 
 </div>
 

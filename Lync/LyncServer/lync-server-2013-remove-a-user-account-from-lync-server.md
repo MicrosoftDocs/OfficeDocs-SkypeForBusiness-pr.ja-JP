@@ -12,20 +12,22 @@ ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db45682fd130aba378cab0f9894537ff4c23c28b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 782077cc532dc751076d3152467de865fe799a29
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183169"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536514"
 ---
+# <a name="remove-a-user-account-from-lync-server-2013"></a>Lync Server 2013 からユーザーアカウントを削除する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-user-account-from-lync-server-2013"></a>Lync Server 2013 からユーザーアカウントを削除する
+
 
 </div>
 
@@ -73,7 +75,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してユーザーアカウントを削除する
 
-ユーザーアカウントを削除するには、Disable-CsUser コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたはリモートセッション Windows PowerShell から実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Disable-CsUser コマンドレットを使用して、ユーザーアカウントを削除できます。 このコマンドレットは、Lync Server 2013 管理シェルまたはリモートセッション Windows PowerShell から実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -87,7 +89,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 </div>
 
-詳細については、「 [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)コマンドレット」のヘルプトピックを参照してください。
+詳細については、「 [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) コマンドレット」のヘルプトピックを参照してください。
 
 </div>
 

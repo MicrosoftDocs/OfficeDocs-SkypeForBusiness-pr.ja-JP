@@ -12,20 +12,22 @@ ms:contentKeyID: 48184679
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9628248922742ce46037c94f8257823e4484d168
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8df94773a551ee503ac435af8f31d0104dc38aa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194840"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536144"
 ---
+# <a name="technical-requirements-for-mobility-in-lync-server-2013"></a>Lync Server 2013 でのモビリティの技術要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-mobility-in-lync-server-2013"></a>Lync Server 2013 でのモビリティの技術要件
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2014-07-24_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-モバイル ユーザーは、特別な計画を必要とするさまざまなモバイル アプリケーション シナリオに直面します。 たとえば、他のユーザーは、3G ネットワーク経由で接続することでモバイルアプリケーションの使用を開始し、職場に到着したときに会社の Wi-fi ネットワークに切り替えてから、建物を離れたときに3G に戻ることがあります。 このようなネットワークの移行をサポートし、一貫したユーザー エクスペリエンスを確保するように、環境を計画する必要があります。 このセクションでは、モバイルアプリケーションとモビリティリソースの自動検出をサポートするために必要なインフラストラクチャ要件について説明します。
+モバイル ユーザーは、特別な計画を必要とするさまざまなモバイル アプリケーション シナリオに直面します。 たとえば、ユーザーが3G ネットワーク経由で接続することによってモバイルアプリケーションの使用を開始して、職場に到着したときに会社の Wi-Fi ネットワークに切り替えた後、建物を離れたときに3G に戻ることがあります。 このようなネットワークの移行をサポートし、一貫したユーザー エクスペリエンスを確保するように、環境を計画する必要があります。 このセクションでは、モバイルアプリケーションとモビリティリソースの自動検出をサポートするために必要なインフラストラクチャ要件について説明します。
 
 <div>
 
@@ -63,7 +65,7 @@ _**トピックの最終更新日:** 2014-07-24_
 
 </div>
 
-Lync Server 2013 は、Lync 2010 Mobile および Lync 2013 モバイルクライアントの mobility service をサポートしています。 両方のクライアントは、Lync Server 2013 の自動検出サービスを使用して、そのモビリティエントリポイントを見つけますが、使用する mobility service は異なります。 Lync 2010 Mobile は*Mcx*と呼ばれる Mobility Service を使用します。これは、lync Server 2010 用の累積的な更新プログラム (11 月 11 2011 日) で導入されました。 Lync 2013 mobile クライアントは、mobility service プロバイダーとして統合コミュニケーション Web API または*Ucwa*を使用します。
+Lync Server 2013 は、Lync 2010 Mobile および Lync 2013 モバイルクライアントの mobility service をサポートしています。 両方のクライアントは、Lync Server 2013 の自動検出サービスを使用して、そのモビリティエントリポイントを見つけますが、使用する mobility service は異なります。 Lync 2010 Mobile は *Mcx*と呼ばれる Mobility Service を使用します。これは、lync Server 2010 用の累積的な更新プログラム (11 月 11 2011 日) で導入されました。 Lync 2013 mobile クライアントは、mobility service プロバイダーとして統合コミュニケーション Web API または *Ucwa*を使用します。
 
 <div>
 
@@ -71,13 +73,13 @@ Lync Server 2013 は、Lync 2010 Mobile および Lync 2013 モバイルクラ�
 
 Mobility Service Mcx (Lync Server 2010:11 月 2011) および UCWA (Lync Server 2013 の累積的な更新プログラムで導入されました。 2 2013 月2日) は同じ方法で DNS を使用します。
 
-自動検出を使用する場合、モバイルデバイスは、DNS を使用してリソースを検索します。 DNS 参照中に、内部 DNS レコード (lyncdiscoverinternal) に関連付けられている FQDN への接続が最初\<に試行されます。内部ドメイン名\>)。 内部 DNS レコードを使用して接続を確立できない場合は、外部 DNS レコード (lyncdiscover) を使用して接続\<を試行します。microsoft.rtc.management.xds.sipdomain\>) ネットワークの内部にあるモバイル デバイスは内部自動検出サービス URL に接続し、ネットワークの外部にあるモバイル デバイスは自動検出サービスの外部 URL に接続します。 外部自動検出要求はリバースプロキシを経由します。 Lync Server 2013 自動検出サービスは、Mobility Service (Mcx および UCWA) Url を含む、ユーザーのホームプールのすべての Web サービス Url を返します。 ただし、Mobility Service の内部 URL と Mobility Service の外部 URL は共に Web サービスの外部 FQDN に関連付けられます。 したがって、モバイルデバイスがネットワークの内部と外部のどちらにあるかに関係なく、デバイスは常に、リバースプロキシを介して外部で Lync Server 2013 Mobility Service に接続します。
+自動検出を使用する場合、モバイルデバイスは、DNS を使用してリソースを検索します。 DNS 参照中に、内部 DNS レコード (lyncdiscoverinternal) に関連付けられている FQDN への接続が最初に試行され \<internal domain name\> ます。 内部 DNS レコードを使用して接続を確立できない場合は、外部 DNS レコード (lyncdiscover) を使用して接続が試行され \<sipdomain\> ます。 ネットワークの内部にあるモバイル デバイスは内部自動検出サービス URL に接続し、ネットワークの外部にあるモバイル デバイスは自動検出サービスの外部 URL に接続します。 外部自動検出要求はリバースプロキシを経由します。 Lync Server 2013 自動検出サービスは、Mobility Service (Mcx および UCWA) Url を含む、ユーザーのホームプールのすべての Web サービス Url を返します。 ただし、Mobility Service の内部 URL と Mobility Service の外部 URL は共に Web サービスの外部 FQDN に関連付けられます。 したがって、モバイルデバイスがネットワークの内部と外部のどちらにあるかに関係なく、デバイスは常に、リバースプロキシを介して外部で Lync Server 2013 Mobility Service に接続します。
 
 <div>
 
 
 > [!NOTE]  
-> 展開には、内部および外部での複数の異なる名前空間を含めることができることを理解しておくことが重要です。 SIP ドメイン名は、内部展開ドメイン名とは異なる場合があります。 たとえば、自分の SIP ドメインは<STRONG>contoso.com</STRONG>の場合もありますが、内部展開は<STRONG>contoso.net</STRONG>の場合があります。 Lync Server にログインするユーザーは、 <STRONG>john@contoso.com</STRONG>などの SIP ドメイン名を使用します。 (トポロジビルダーで<STRONG>外部 web サービス</STRONG>として定義されている) 外部 web サービスにアドレス指定する場合、ドメイン名と SIP ドメイン名は、DNS での定義に従って一貫性が保たれます。 内部 web サービス (トポロジビルダーで<STRONG>内部 web サービス</STRONG>として定義されている) に対処する場合、内部 web サービスの既定の名前は、フロントエンドサーバー、フロントエンドプール、ディレクター、またはディレクタープールの FQDN になります。 [内部 web サービス名] を無効にすることもできます。 内部 web サービスの場合は、(SIP ドメイン名ではなく) 内部ドメイン名を使用し、上書きされた名前を反映する DNS ホスト A (または IPv6 の場合は AAAA) レコードを定義する必要があります。 たとえば、既定の内部 web サービスの FQDN は<STRONG>pool01.contoso.net</STRONG>の場合があります。 オーバーライドされた内部 web サービスの FQDN は<STRONG>webpool.contoso.net</STRONG>の場合があります。 この方法で web サービスを定義することにより、サービスの内部および外部の局所性と、それらを使用しているユーザーの局所性を確保することができます。<BR>ただし、トポロジビルダーでは web サービスが定義されており、結果の web サービス名、証明書を検証する証明書、およびそれを定義する DNS レコードが一貫している限り、その内部 web サービス名を上書きできます。必要なすべてのドメイン名 (SIP ドメイン名を含む) を持つ内部 web サービス。 最終的には、IP アドレスに対する名前の解決は、DNS ホストレコードと一貫した名前空間によって決まります。<BR>このトピックと例の目的のために、内部ドメイン名を使用してトポロジと DNS 定義を示します。
+> 展開には、内部および外部での複数の異なる名前空間を含めることができることを理解しておくことが重要です。 SIP ドメイン名は、内部展開ドメイン名とは異なる場合があります。 たとえば、自分の SIP ドメインは <STRONG>contoso.com</STRONG>の場合もありますが、内部展開は <STRONG>contoso.net</STRONG>の場合があります。 Lync Server にログインするユーザーは、 <STRONG>john@contoso.com</STRONG>などの SIP ドメイン名を使用します。 (トポロジビルダーで <STRONG>外部 web サービス</STRONG>として定義されている) 外部 web サービスにアドレス指定する場合、ドメイン名と SIP ドメイン名は、DNS での定義に従って一貫性が保たれます。 内部 web サービス (トポロジビルダーで <STRONG>内部 web サービス</STRONG>として定義されている) に対処する場合、内部 web サービスの既定の名前は、フロントエンドサーバー、フロントエンドプール、ディレクター、またはディレクタープールの FQDN になります。 [内部 web サービス名] を無効にすることもできます。 内部 web サービスの場合は、(SIP ドメイン名ではなく) 内部ドメイン名を使用し、上書きされた名前を反映する DNS ホスト A (または IPv6 の場合は AAAA) レコードを定義する必要があります。 たとえば、既定の内部 web サービスの FQDN は <STRONG>pool01.contoso.net</STRONG>の場合があります。 オーバーライドされた内部 web サービスの FQDN は <STRONG>webpool.contoso.net</STRONG>の場合があります。 この方法で web サービスを定義することにより、サービスの内部および外部の局所性と、それらを使用しているユーザーの局所性を確保することができます。<BR>ただし、トポロジビルダーでは web サービスが定義されており、結果の web サービス名、証明書を検証する証明書、およびそれを定義する DNS レコードが一貫している限り、内部 web サービスを任意のドメイン名 (SIP ドメイン名を含む) で定義することができます。 最終的には、IP アドレスに対する名前の解決は、DNS ホストレコードと一貫した名前空間によって決まります。<BR>このトピックと例の目的のために、内部ドメイン名を使用してトポロジと DNS 定義を示します。
 
 
 
@@ -103,7 +105,7 @@ Mobility Service Mcx (Lync Server 2010:11 月 2011) および UCWA (Lync Server 
 
   - 自動検出のための新しい DNS、CNAME または A (host、if IPv6、AAAA) レコード。
 
-  - 新しいファイアウォールルール。 Wi-fi ネットワーク経由でプッシュ通知をサポートする場合。
+  - 新しいファイアウォールルール。 Wi-Fi ネットワーク経由でプッシュ通知をサポートする場合。
 
   - 内部サーバー証明書およびリバースプロキシ証明書のサブジェクトの別名 (自動検出用)。
 
@@ -149,7 +151,7 @@ DNS レコードは、CNAME レコードまたは A (IPv6、AAAA の場合は ho
 
 ## <a name="port-and-firewall-requirements"></a>ポートとファイアウォールの要件
 
-また、プッシュ通知をサポートし、Apple モバイル デバイスで Wi-Fi ネットワーク経由のプッシュ通知を受信する場合、社内の Wi-Fi ネットワークのポート 5223 も開く必要があります。 ポート 5223 は、送信 TCP ポートであり、Apple Push Notification Service (APNS) で使用されます。 モバイルデバイスが接続を開始します。 詳細について[http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629)は、「」を参照してください。
+また、プッシュ通知をサポートし、Apple モバイル デバイスで Wi-Fi ネットワーク経由のプッシュ通知を受信する場合、社内の Wi-Fi ネットワークのポート 5223 も開く必要があります。 ポート 5223 は、送信 TCP ポートであり、Apple Push Notification Service (APNS) で使用されます。 モバイルデバイスが接続を開始します。 詳細については、「」を参照してください [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629) 。
 
 <div>
 
@@ -195,7 +197,7 @@ Lync モバイル クライアントに対して自動検出をサポートす�
 
 フロントエンドプールをサポートするロードバランサー機器で、Web サービストラフィック用の外部 Web サービス仮想 Ip (Vip) をソース用に構成する必要があります。 ソースアフィニティを使用すると、1つのクライアントからの複数の接続が、セッション状態を維持するために1台のサーバーに送信されるようになります。 アフィニティ要件の詳細については、「 [Lync Server 2013 の負荷分散の要件](lync-server-2013-load-balancing-requirements.md)」を参照してください。
 
-内部 Wi-fi ネットワーク上でのみ Lync mobile クライアントをサポートする場合は、「外部 Web サービスの Vip」に記載されているように、ソースに対して内部 Web サービス VIP を構成する必要があります。 このような状況では、ハードウェア\_ロードバランサーの内部 Web サービス vip に対して、source addr (または TCP) アフィニティを使用する必要があります。 詳細については、「 [Lync Server 2013 の負荷分散の要件](lync-server-2013-load-balancing-requirements.md)」を参照してください。
+内部 Wi-Fi ネットワーク上でのみ Lync mobile クライアントをサポートする場合は、「外部 Web サービスの Vip」に記載されているように、ソースに対して内部 Web サービス VIP を構成する必要があります。 このような状況では、 \_ ハードウェアロードバランサーの内部 Web サービス vip に対して、source addr (または TCP) アフィニティを使用する必要があります。 詳細については、「 [Lync Server 2013 の負荷分散の要件](lync-server-2013-load-balancing-requirements.md)」を参照してください。
 
 </div>
 
@@ -205,9 +207,9 @@ Lync モバイル クライアントに対して自動検出をサポートす�
 
 Lync mobile クライアントの自動検出をサポートしている場合は、現在の公開ルールを次のように更新する必要があります。
 
-  - リバースプロキシ証明書のサブジェクトの別名の一覧を更新し、最初の自動検出サービス要求に HTTPS を使用する場合は、lyncdiscover の web 公開ルールを更新する必要があります。\<microsoft.rtc.management.xds.sipdomain\>。 通常、これはフロントエンドプールの外部 Web サービス URL の公開ルールと組み合わせて使用されます。
+  - リバースプロキシ証明書のサブジェクトの別名の一覧を更新し、最初の自動検出サービス要求に HTTPS を使用する場合は、lyncdiscover の web 公開ルールを更新する必要が \<sipdomain\> あります。 通常、これはフロントエンドプールの外部 Web サービス URL の公開ルールと組み合わせて使用されます。
 
-  - リバースプロキシ証明書のサブジェクトの別名リストを更新する必要がないように、最初の自動検出サービス要求に HTTP を使用する場合は、ポート HTTP/TCP 80 用の新しい web 公開ルールを作成する必要があります (まだ存在しない場合)。 HTTP/TCP 80 のルールが既に存在する場合は、そのルールを更新して lyncdiscover を含めることができます。\<microsoft.rtc.management.xds.sipdomain\>エントリ。
+  - リバースプロキシ証明書のサブジェクトの別名リストを更新する必要がないように、最初の自動検出サービス要求に HTTP を使用する場合は、ポート HTTP/TCP 80 用の新しい web 公開ルールを作成する必要があります (まだ存在しない場合)。 HTTP/TCP 80 のルールが既に存在する場合は、そのルールを更新して lyncdiscover を含めることができます。\<sipdomain\> 値.
 
 </div>
 

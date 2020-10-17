@@ -12,20 +12,22 @@ ms:contentKeyID: 63969595
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d44fe94ab8e02551f8d33d95248c6cede63a6974
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b79fdbaceff06155389d101570b23d6143b9bbcc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215673"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536754"
 ---
+# <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Lync Server 2013 でのバックアップの実行と監視
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Lync Server 2013 でのバックアップの実行と監視
+
 
 </div>
 
@@ -41,11 +43,11 @@ _**トピックの最終更新日:** 2014-05-15_
 
 Lync Server 2013 サービスまたはサーバーの役割を実行しているコンピューターは、現在のトポロジ、現在の構成設定、および現在のポリシーのコピーを持っている必要があります。その前に、指定された役割で機能することができます。 Lync Server は、この情報が必要な各コンピューターに渡されていることを確認する責任があります。
 
-中央管理ストアのアップグレード時に、Lync Server トポロジ、構成設定、およびポリシーをバックアップおよび復元するには、 **Export-csconfiguration**および**Import-csconfiguration**コマンドレットを使用します。 **Export-CsConfiguration**コマンドレットを使用すると、データをにエクスポートできます。ZIP ファイル。 その後、**インポート-CsConfiguration**コマンドレットを使用して、このを読み取ることができます。ZIP ファイルを復元し、トポロジ、構成設定、およびポリシーを中央管理ストアに復元します。 その後、Lync server のレプリケーションサービスは、復元された情報を Lync Server サービスを実行している他のコンピューターにレプリケートします。
+中央管理ストアのアップグレード時に、Lync Server トポロジ、構成設定、およびポリシーをバックアップおよび復元するには、 **Export-csconfiguration** および **Import-csconfiguration** コマンドレットを使用します。 **Export-CsConfiguration**コマンドレットを使用すると、データをにエクスポートできます。ZIP ファイル。 その後、 **インポート-CsConfiguration** コマンドレットを使用して、このを読み取ることができます。ZIP ファイルを復元し、トポロジ、構成設定、およびポリシーを中央管理ストアに復元します。 その後、Lync server のレプリケーションサービスは、復元された情報を Lync Server サービスを実行している他のコンピューターにレプリケートします。
 
-構成データをエクスポートおよびインポートする機能は、境界ネットワーク (たとえば、エッジサーバー) に配置されているコンピューターの初期構成時にも使用されます。 境界ネットワーク内のコンピューターを構成する場合は、最初に CsConfiguration コマンドレットを使用して手動でレプリケーションを実行する必要があります。**エクスポート-CsConfiguration**を使用して構成データをエクスポートし、をコピーする必要があります。境界ネットワーク内のコンピューターへの ZIP ファイル。 その後、 **import-CsConfiguration**および localstore パラメーターを使用してデータをインポートできます。 この操作は一度だけ実行する必要があります。 その後は、レプリケーションが自動的に実行されます。
+構成データをエクスポートおよびインポートする機能は、境界ネットワーク (たとえば、エッジサーバー) に配置されているコンピューターの初期構成時にも使用されます。 境界ネットワーク内のコンピューターを構成する場合は、最初に CsConfiguration コマンドレットを使用して手動でレプリケーションを実行する必要があります。 **エクスポート-CsConfiguration** を使用して構成データをエクスポートし、をコピーする必要があります。境界ネットワーク内のコンピューターへの ZIP ファイル。 その後、 **import-CsConfiguration** および localstore パラメーターを使用してデータをインポートできます。 この操作は一度だけ実行する必要があります。 その後は、レプリケーションが自動的に実行されます。
 
-このコマンドレットを実行できるユーザー: 既定**では、RTCUniversalServerAdmins コマンドレットを**ローカルで実行する権限があるのは、次のグループのメンバーです。 すべての RBAC の役割の一覧を返すには、このコマンドレットを (自分で作成したカスタムの RBAC の役割を含む) に割り当てられているので、Windows PowerShell プロンプトから次のコマンドを実行します。
+このコマンドレットを実行できるユーザー: 既定 **では、RTCUniversalServerAdmins コマンドレットを** ローカルで実行する権限があるのは、次のグループのメンバーです。 すべての RBAC の役割の一覧を返すには、このコマンドレットを (自分で作成したカスタムの RBAC の役割を含む) に割り当てられているので、Windows PowerShell プロンプトから次のコマンドを実行します。
 
 `Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Export-CsConfiguration"}`
 

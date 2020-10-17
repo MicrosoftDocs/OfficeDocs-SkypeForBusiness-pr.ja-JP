@@ -12,20 +12,22 @@ ms:contentKeyID: 49558152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e9cd9f2e950e835a113f64795022753e44e3ff5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6c90452edc96a424111fcaa8c99dcf60e55e0109
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536354"
 ---
+# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>Lync Server 2013 で、カスタマイズされた常設チャットサーバーコンプライアンスアダプターに XmlAdapter を置き換える
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a>Lync Server 2013 で、カスタマイズされた常設チャットサーバーコンプライアンスアダプターに XmlAdapter を置き換える
+
 
 </div>
 
@@ -43,17 +45,17 @@ _**トピックの最終更新日:** 2012-11-01_
 
 ## <a name="implementing-the-icomplianceadapter-interface"></a>IComplianceAdapter インターフェイスの実装
 
-このインターフェイスは、名前空間`Microsoft.Rtc.Internal.Chat.Server.Compliance`内の対応する .dll アセンブリに定義されています。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
+このインターフェイスは、名前空間の Compliance.dll アセンブリで定義されてい `Microsoft.Rtc.Internal.Chat.Server.Compliance` ます。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
 
     void SetConfig(AdapterConfig config)
 
-常設チャットコンプライアンスサーバーは、アダプターが最初に読み込まれたときにこのメソッドを呼び出します。 に`AdapterConfig`は、コンプライアンスアダプターに関連する常設チャットのコンプライアンス構成が含まれています。
+常設チャットコンプライアンスサーバーは、アダプターが最初に読み込まれたときにこのメソッドを呼び出します。 には、 `AdapterConfig` コンプライアンスアダプターに関連する常設チャットのコンプライアンス構成が含まれています。
 
     void Translate(ConversationCollection conversations)
 
-常設チャットコンプライアンスサーバーは、翻訳する新しいデータがある限り、定期的な間隔でこのメソッドを呼び出します。 この時間間隔は、常設チャット`RunInterval`のコンプライアンス構成で設定されたと同じです。
+常設チャットコンプライアンスサーバーは、翻訳する新しいデータがある限り、定期的な間隔でこのメソッドを呼び出します。 この時間間隔は、 `RunInterval` 常設チャットのコンプライアンス構成で設定されたと同じです。
 
-に`ConversationCollection`は、このメソッドが最後に呼び出されたときに収集された会話情報が含まれています。
+には、 `ConversationCollection` このメソッドが最後に呼び出されたときに収集された会話情報が含まれています。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cbf738bbd0bd66834082983f78de56bb23bfc33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c6c0cf06ccf9acde86e3ab344058803218eaf0cf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196500"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537264"
 ---
+# <a name="call-admission-control-and-mediation-server-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理と仲介サーバー
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-and-mediation-server-in-lync-server-2013"></a>Lync Server 2013 での通話受付管理と仲介サーバー
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42196500"
 
 _**トピックの最終更新日:** 2012-09-21_
 
-最初に Lync Server 2010 で導入された通話受付管理 (CAC) では、使用可能な帯域幅に基づいてリアルタイムセッションの確立を管理し、混雑したネットワーク上のユーザーに対する QoE (Quality of Experience) の低下を防ぎます。 この機能をサポートするために、企業の音声インフラストラクチャとゲートウェイまたは SIP トランキングプロバイダー間でシグナリングとメディア変換を提供する仲介サーバーは、Lync での2つの相互作用について帯域幅管理を担当します。サーバー側とゲートウェイ側。 通話受付管理では、通話の終端エンティティが帯域幅の予約を処理します。 仲介サーバーがゲートウェイ側で対話するゲートウェイピア (PSTN ゲートウェイ、IP-PBX、SBC) は、Lync Server 2013 通話受付管理をサポートしていません。 そのため、仲介サーバーは、ゲートウェイピアの代わりに帯域幅の相互作用を処理する必要があります。 可能な限り、仲介サーバーは事前に帯域幅を予約します。 予約できない場合 (たとえば、ゲートウェイ側の最終的なメディア エンドポイントのローカリティが、ゲートウェイ ピアへの発信通話に対して不明な場合)、帯域幅は通話が開始されたときに予約されます。 この動作によって帯域幅のオーバーサブスクリプションが生じる可能性がありますが、これが誤着信を防ぐ唯一の方法です。
+最初に Lync Server 2010 で導入された通話受付管理 (CAC) では、使用可能な帯域幅に基づいてリアルタイムセッションの確立を管理し、混雑したネットワーク上のユーザーに対する QoE (Quality of Experience) の低下を防ぎます。 この機能をサポートするために、企業の音声インフラストラクチャとゲートウェイまたは SIP トランキングプロバイダー間でシグナリングとメディア変換を提供する仲介サーバーは、Lync Server 側とゲートウェイ側での2つの相互作用について、帯域幅管理を担当します。 通話受付管理では、通話の終端エンティティが帯域幅の予約を処理します。 仲介サーバーがゲートウェイ側で対話するゲートウェイピア (PSTN ゲートウェイ、IP-PBX、SBC) は、Lync Server 2013 通話受付管理をサポートしていません。 そのため、仲介サーバーは、ゲートウェイピアの代わりに帯域幅の相互作用を処理する必要があります。 可能な限り、仲介サーバーは事前に帯域幅を予約します。 予約できない場合 (たとえば、ゲートウェイ側の最終的なメディア エンドポイントのローカリティが、ゲートウェイ ピアへの発信通話に対して不明な場合)、帯域幅は通話が開始されたときに予約されます。 この動作によって帯域幅のオーバーサブスクリプションが生じる可能性がありますが、これが誤着信を防ぐ唯一の方法です。
 
 メディア バイパスと帯域幅の予約は同時に使用することはできません。 メディア バイパスを通話で使用する場合、その通話で通話受付管理を実行することはできません。 この場合、その通話で、制限された帯域幅を使用するリンクが関わっていないことが前提となります。 仲介サーバーを含む特定の呼び出しに対して通話受付管理を使用する場合、その呼び出しでメディアバイパスを使用することはできません。
 
-メディアバイパスまたは通話受付管理の詳細については、「計画」のドキュメントの「 [lync server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md)」または「 [lync server 2013 での通話受付管理の計画](lync-server-2013-planning-for-call-admission-control.md)」を参照してください。
+メディアバイパスまたは通話受付管理の詳細については、「計画」のドキュメントの「 [lync server 2013 でのメディアバイパスの計画](lync-server-2013-planning-for-media-bypass.md) 」または「 [lync server 2013 での通話受付管理の計画](lync-server-2013-planning-for-call-admission-control.md) 」を参照してください。
 
 </div>
 

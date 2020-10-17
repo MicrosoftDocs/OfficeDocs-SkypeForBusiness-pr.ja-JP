@@ -12,20 +12,22 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 726056b63dfa37864171a77913b5126c23b27045
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 68163756f2c2153d1e164999532bc6265400ac5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215143"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536734"
 ---
+# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>小規模な組織での Lync Server 2013 の参照トポロジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>小規模な組織での Lync Server 2013 の参照トポロジ
+
 
 </div>
 
@@ -43,17 +45,17 @@ _**トピックの最終更新日:** 2013-10-07_
 
 ![3つのサーバーダイアグラムを展開する参照トポロジ](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "3つのサーバーダイアグラムを展開する参照トポロジ")
 
-  - ****   この組織に展開された Standard Edition サーバーのペアは、中央サイトに4000ユーザーを持っています。 組織は2つの Standard Edition サーバーを展開し、それらを組み合わせて高可用性と障害復旧を可能にしています。 各サーバーは2000ユーザーをホームにしていますが、すべてのユーザーに関する情報は2台のサーバー間で同期されます。 1つもダウンした場合、管理者はこれらのユーザーをフェールオーバーして、他のサーバーによって提供されるようにすることができます。 Lync Server 2013 の高可用性および障害復旧機能の詳細については、「 [Lync server 2013 の高可用性と障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。
+  - 展開され**た Standard Edition サーバーのペア**    この組織には、中央サイトに4000ユーザーがいます。 組織は2つの Standard Edition サーバーを展開し、それらを組み合わせて高可用性と障害復旧を可能にしています。 各サーバーは2000ユーザーをホームにしていますが、すべてのユーザーに関する情報は2台のサーバー間で同期されます。 1つもダウンした場合、管理者はこれらのユーザーをフェールオーバーして、他のサーバーによって提供されるようにすることができます。 Lync Server 2013 の高可用性および障害復旧機能の詳細については、「 [Lync server 2013 の高可用性と障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)」を参照してください。
 
-  - **エッジサーバーの展開をお勧めします。**   内部 IM、プレゼンス、会議にエッジサーバーを展開する必要はありませんが、小規模な展開でも使用することをお勧めします。 組織のファイアウォールの外側にいるユーザーにサービスを提供するためにエッジサーバーを展開することで、Lync Server への投資を最大化できます。 これによって次のような利点が得られます。
+  - **エッジサーバーの展開をお勧めします。**    内部 IM、プレゼンス、会議にエッジサーバーを展開する必要はありませんが、小規模な展開でも使用することをお勧めします。 組織のファイアウォールの外側にいるユーザーにサービスを提供するためにエッジサーバーを展開することで、Lync Server への投資を最大化できます。 これによって次のような利点が得られます。
     
       - 組織の独自のユーザーは、自宅で作業したり、外出中であったりする場合に、Lync Server の機能を使用できます。
     
       - ユーザーは、外部ユーザーを会議に参加するように招待できます。
     
-      - Lync Server も使用するパートナー、ベンダー、または顧客の組織がある場合は、その組織との*フェデレーション関係*を形成できます。 その後、Lync Server の展開によって、そのフェデレーション組織のユーザーが認識され、コラボレーションが向上します。
+      - Lync Server も使用するパートナー、ベンダー、または顧客の組織がある場合は、その組織との *フェデレーション関係* を形成できます。 その後、Lync Server の展開によって、そのフェデレーション組織のユーザーが認識され、コラボレーションが向上します。
     
-      - ユーザーは、次のいずれかまたはすべてを含むパブリック IM サービスのユーザーとインスタントメッセージを交換できます。 Windows Live\!、AOL、Yahoo、Google Talk。 これらのサービスとのパブリック IM 接続には、個別のライセンスが必要な場合があります。
+      - ユーザーは、次のいずれかまたはすべてを含むパブリック IM サービスのユーザーとインスタントメッセージを交換できます。 Windows Live、AOL、Yahoo \! 、Google Talk。 これらのサービスとのパブリック IM 接続には、個別のライセンスが必要な場合があります。
         
         <div>
         
@@ -70,11 +72,11 @@ _**トピックの最終更新日:** 2013-10-07_
         
         </div>
 
-  - **ブランチサイト存続性。**   この組織では、Lync Server のエンタープライズ voip 機能のパイロットプログラムを実行しています。 一部のユーザーは、単独の音声ソリューションとして Lync Server を使用しています。 これらの音声パイロットユーザーの一部は、ブランチサイトにあります。 ブランチサイトには、中央サイトへの信頼できるワイドエリアネットワーク (WAN) リンクがありません。したがって、存続可能 Branch Appliance がそこに展開されます。 この展開により、WAN リンクがダウンした場合でも、ブランチサイトのユーザーは通話を発信および受信でき、ボイスメール機能があり、2者間のインスタントメッセージング (IM) と通信できるようになります。 また、WAN リンクが使用不可能なときでも、ユーザーを認証できます。
+  - **ブランチサイト存続性。**    この組織では、Lync Server のエンタープライズ Voip 機能のパイロットプログラムを実行しています。 一部のユーザーは、単独の音声ソリューションとして Lync Server を使用しています。 これらの音声パイロットユーザーの一部は、ブランチサイトにあります。 ブランチサイトには、中央サイトへの信頼できるワイドエリアネットワーク (WAN) リンクがありません。したがって、存続可能 Branch Appliance がそこに展開されます。 この展開により、WAN リンクがダウンした場合でも、ブランチサイトのユーザーは通話を発信および受信でき、ボイスメール機能があり、2者間のインスタントメッセージング (IM) と通信できるようになります。 また、WAN リンクが使用不可能なときでも、ユーザーを認証できます。
 
   - **Exchange UM の展開。** この参照トポロジには、Exchange ユニファイドメッセージング (UM) サーバーが含まれています。このサーバーは、Lync Server ではなく Microsoft Exchange Server を実行します。
     
-    Exchange UM の詳細については、「計画」のドキュメントの「 [Lync server 2013 での Exchange ユニファイドメッセージング統合の計画](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)」および「 [lync Server 2013 のホスト型 Exchange ユニファイドメッセージング統合](lync-server-2013-hosted-exchange-unified-messaging-integration.md)」を参照してください。
+    Exchange UM の詳細については、「計画」のドキュメントの「 [Lync server 2013 での Exchange ユニファイドメッセージング統合の計画](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) 」および「 [lync Server 2013 のホスト型 Exchange ユニファイドメッセージング統合](lync-server-2013-hosted-exchange-unified-messaging-integration.md) 」を参照してください。
 
   - **Office Web Apps Server。** Web 会議を使用するすべての組織で Office Web Apps Server または Office Web Apps Server ファームを展開することをお勧めします。 Office Web Apps サーバーを使用すると、web 会議で PowerPoint スライドを表示できるようになります。 詳細については、「 [Office Web Apps Server および Lync Server 2013 との統合の構成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)」を参照してください。
 

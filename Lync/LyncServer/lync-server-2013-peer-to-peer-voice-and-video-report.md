@@ -12,20 +12,22 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb58becb1b495c16338ef9590ede8fb4005bc2d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dc5d3905df971cf5ce09bfb026acc4838974ff18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215663"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536804"
 ---
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Lync Server 2013 のピアツーピア音声およびビデオレポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Lync Server 2013 のピアツーピア音声およびビデオレポート
+
 
 </div>
 
@@ -94,7 +96,7 @@ _**トピックの最終更新日:** 2012-10-21_
 <tr class="odd">
 <td><p><strong>From</strong></p></td>
 <td><p>時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。</p>
-<p>2012/7/7 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>
@@ -135,7 +137,7 @@ _**トピックの最終更新日:** 2012-10-21_
 <td><p>[<strong>通話のディスポジション</strong>]</p></td>
 <td><p>セッションの成功または失敗を示します。次のいずれかを選択します。</p>
 <ul>
-<li><p>いずれ</p></li>
+<li><p>[All]</p></li>
 <li><p>成功した通話</p></li>
 <li><p>失敗した通話</p></li>
 </ul></td>
@@ -274,7 +276,7 @@ _**トピックの最終更新日:** 2012-10-21_
 <td><p>クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。通常は次のいずれかの値です。</p>
 <ul>
 <li><p>内部</p></li>
-<li><p>External</p></li>
+<li><p>外部</p></li>
 <li><p>混合</p></li>
 </ul></td>
 </tr>

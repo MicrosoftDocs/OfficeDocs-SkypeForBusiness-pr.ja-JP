@@ -12,20 +12,22 @@ ms:contentKeyID: 48184187
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 025935b542d596190eb17d27a90cb3c800c9c271
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 150644107ceaf3715613aa02598bcd6c7f0b7852
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537034"
 ---
+# <a name="configuring-support-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブのサポートの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-support-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブのサポートの構成
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-10-01_
 
 
 > [!NOTE]  
-> 展開後、アーカイブ設定を変更して、アーカイブを無効または有効にすることができます。 日常の管理のアーカイブサポートを実装する方法、または展開後に組織の新しい要件を満たす方法の詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-managing-archiving.md">Lync Server 2013 アーカイブの管理</A>」を参照してください。
+> 展開後、アーカイブ設定を変更して、アーカイブを無効または有効にすることができます。 日常の管理のアーカイブサポートを実装する方法、または展開後に組織の新しい要件を満たす方法の詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-managing-archiving.md">Lync Server 2013 アーカイブの管理</A> 」を参照してください。
 
 
 

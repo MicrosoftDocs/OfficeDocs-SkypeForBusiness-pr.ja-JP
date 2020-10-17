@@ -12,20 +12,22 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94999d2f3ce69308e38da1b261a4b0d96a2ef5cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a7c3251ef5ff907dbf9964daaca222584953e75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194150"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536084"
 ---
+# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルイン会議セッションのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルイン会議セッションのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsDialInConferencing コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsDialInConferencing コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialInConferencing&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2014-06-05_
 
 ## <a name="description"></a>説明
 
-Test-Csdial Inコンファレンスコマンドレットは、ユーザーがダイヤルイン会議に参加できるかどうかを確認します。 テスト用のダイヤルイン会議は、テストユーザーをシステムにログオンすることによって動作します。 ログオンに成功すると、コマンドレットはユーザーの資格情報とアクセス許可を使用して、使用可能なすべてのダイヤルイン会議アクセス番号を試します。 各ダイヤルイン試行の成功または失敗が表示されます。その後、テストユーザーは Lync Server からログオフされます。テスト-Csdial In会議では、適切な接続が可能であることのみが確認されます。 このコマンドレットでは、他のユーザーが参加できる電話会議は、実際には作成されません。
+Test-CsDialInConferencing コマンドレットは、ユーザーがダイヤルイン会議に参加できるかどうかを確認します。 Test-CsDialInConferencing は、テストユーザーをシステムにログオンしようとします。 ログオンに成功すると、コマンドレットはユーザーの資格情報とアクセス許可を使用して、使用可能なすべてのダイヤルイン会議アクセス番号を試します。 各ダイヤルイン試行の成功または失敗が表示されます。その後、テストユーザーは Lync Server からログオフされます。テスト-Csdial In会議では、適切な接続が可能であることのみが確認されます。 このコマンドレットでは、他のユーザーが参加できる電話会議は、実際には作成されません。
 
 </div>
 
@@ -74,7 +76,7 @@ Test-Csdial Inコンファレンスコマンドレットは、ユーザーがダ
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsDialInConferencing コマンドレットは、事前構成されたテストアカウント (「Lync Server テストを実行するためのテストアカウントの設定」を参照)、または Lync Server が有効になっているユーザーのアカウントのいずれかを使用して実行できます。 テストアカウントを使用してこのチェックを実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 次に例を示します。
+Test-CsDialInConferencing コマンドレットを実行するには、事前に構成されたテストアカウントを使用するか (「Lync Server テストを実行するためのテストアカウントをセットアップする」を参照)、Lync Server が有効になっているすべてのユーザーのアカウントを使用します。 テストアカウントを使用してこのチェックを実行するには、テストする Lync Server プールの FQDN を指定するだけで済みます。 以下に例を示します。
 
     Test-CsDialInConferencing -TargetFqdn "atl-cs-001.litwareinc.com" 
 
@@ -83,7 +85,7 @@ Test-CsDialInConferencing コマンドレットは、事前構成されたテス
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsDialInConferencing -TargetFqdn atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-詳細については、「 [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing)コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、「 [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) コマンドレットのヘルプドキュメント」を参照してください。
 
 </div>
 
@@ -91,7 +93,7 @@ Test-CsDialInConferencing コマンドレットは、事前構成されたテス
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したユーザーが Lync Server にログオンして、使用可能なダイヤルイン会議アクセス番号のいずれかを使用して接続すると、次のような出力が得られます。 Result プロパティは Success としてマークされてい**ます。**
+指定したユーザーが Lync Server にログオンして、使用可能なダイヤルイン会議アクセス番号のいずれかを使用して接続すると、次のような出力が得られます。 Result プロパティは Success としてマークされてい **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -121,7 +123,7 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 分析
 
-上記の出力は、テストユーザーが Lync Server 自体へのアクセスを拒否されたことを示しています。 これは、通常、Test-CsDialInConferencing に渡されたユーザー資格情報が無効であったことを意味します。 その後で、Windows PowerShell 資格情報オブジェクトを再作成する必要があります。 ユーザーアカウントのパスワードを取得することもできますが、次のようなコマンドを使用して SIP アドレスを確認できます。
+上記の出力は、テストユーザーが Lync Server 自体へのアクセスを拒否されたことを示しています。 これは通常、Test-CsDialInConferencing に渡されたユーザー資格情報が無効であったことを意味します。 その後で、Windows PowerShell 資格情報オブジェクトを再作成する必要があります。 ユーザーアカウントのパスワードを取得することもできますが、次のようなコマンドを使用して SIP アドレスを確認できます。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress
 
@@ -131,7 +133,7 @@ TargetFqdn: atl-cs-001.litwareinc.com
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-次に、テスト用のダイヤルイン会議が失敗する主な理由を示します。
+Test-CsDialInConferencing が失敗する可能性のある一般的な理由を次に示します。
 
   - 無効なユーザーアカウントが指定されました。 ユーザーアカウントが存在することを確認するには、次のようなコマンドを実行します。
     

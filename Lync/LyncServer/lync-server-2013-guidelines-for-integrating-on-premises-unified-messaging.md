@@ -12,20 +12,22 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71d6fc97a0b8c96758344dea12a0720d5ad049ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f032f7dd7d11d70ac912b2005f3ad9f7ddad69
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214288"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536924"
 ---
+# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するためのガイドライン
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>オンプレミスのユニファイドメッセージングと Lync Server 2013 を統合するためのガイドライン
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2012-09-25_
 
 </div>
 
-  - Lync Server 2013 Standard Edition サーバーまたはフロントエンドプールを展開します。 インストールの詳細については、「展開」のドキュメントの「[展開 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 」を参照してください。
+  - Lync Server 2013 Standard Edition サーバーまたはフロントエンドプールを展開します。 インストールの詳細については、「展開」のドキュメントの「 [展開 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 」を参照してください。
 
   - スムーズに問題なく統合できるように、Exchange 管理者と協力して、各自が実施する作業を確認します。
 
@@ -115,13 +117,13 @@ _**トピックの最終更新日:** 2012-09-25_
 
 例 2 では、通常の操作条件の下、Exchange UM サーバー 1 と 2 は Tukwila のデータ センターで有効化されています。Exchange UM サーバー 3 と 4 は Dublin のデータ センターで有効化されています。 4 台すべてのサーバーが Tukwila のユーザーの SIP URL ダイヤル プランに含まれていますが、サーバー3 と 4 は有効化されていません。 たとえば、Tukwila で Exchange UM サーバーが停止した場合、Exchange UM サーバー 1 と 2 は無効化され、Tukwila の Exchange UM トラフィックが Dublin のサーバーにルーティングされるよう、Exchange UM サーバー 3 と 4 は有効化されます。
 
-Exchange 2013 でユニファイドメッセージングを有効または無効にする方法の詳細については、「」の「 [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)EXCHANGE 2013 UM と Lync Server の統合」を参照してください。
+Exchange 2013 でユニファイドメッセージングを有効または無効にする方法の詳細については、「」の「Exchange 2013 UM と Lync Server の統合」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372) 。
 
 Microsoft Exchange Server 2010 でユニファイドメッセージングを有効または無効にする方法の詳細については、以下を参照してください。
 
-  - 「Exchange 2010 でユニファイドメッセージングを有効[https://go.microsoft.com/fwlink/p/?LinkId=204418](https://go.microsoft.com/fwlink/p/?linkid=204418)にする」
+  - 「Exchange 2010 でユニファイドメッセージングを有効 [https://go.microsoft.com/fwlink/p/?LinkId=204418](https://go.microsoft.com/fwlink/p/?linkid=204418) にする」
 
-  - 「Exchange 2010 でユニファイドメッセージングを無効[https://go.microsoft.com/fwlink/p/?LinkId=204416](https://go.microsoft.com/fwlink/p/?linkid=204416)にする」
+  - 「Exchange 2010 でユニファイドメッセージングを無効 [https://go.microsoft.com/fwlink/p/?LinkId=204416](https://go.microsoft.com/fwlink/p/?linkid=204416) にする」
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5473638169f4a171dbf48adb3e85d7ac8d7f37d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0254c77bb276add6f55ccff623c1fc2bec590102
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214246"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536914"
 ---
+# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Lync Server 2013 のデータベースの強化と保護
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Lync Server 2013 のデータベースの強化と保護
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**トピックの最終更新日:** 2013-12-05_
 
 また、Microsoft Lync Server 2013 は、ユーザー情報、会議の状態、アーカイブデータ、および通話詳細レコード (Cdr) を格納するための SQL Server データベースに依存しています。 Lync Server のバックエンドデータベースで Lync Server 2013 データを最大限に利用できるようにするには、フォールトトレランスを向上させてトラブルシューティングを簡略化する方法でアプリケーションデータをパーティション分割します。 アプリケーション データを分割する方法は、次のとおりです。
 
-  - **サーバーのパーティション分割のベストプラクティス**   は、オペレーティングシステム、アプリケーション、およびプログラムファイルをデータファイルと分離します。
+  - **サーバーパーティション分割のベストプラクティス**     の使用オペレーティングシステム、アプリケーション、およびプログラムファイルをデータファイルから分離します。
 
-  - **トランザクションログファイルとデータベースファイル**   は、これらのファイルを別々に格納して、フォールトトレランスの向上と回復の最適化を行い、暗号化されたディスクまたはボリュームに保存します。
+  - **トランザクションログファイルとデータベースファイル**     の保存これらのファイルを別々に保存して、フォールトトレランスを向上させ、回復を最適化し、暗号化されたディスクまたはボリュームに保存します。
 
-  - **サーバークラスタリングを使用して**   、バックエンドサーバーをクラスター化し、Lync server 2013 のシステム可用性を最適化します。
+  - **サーバーのクラスター化**     を使用するバックエンドサーバーをクラスター化して、Lync Server 2013 のシステム可用性を最適化します。
 
-  - **すべてのデータバックアップが暗号化され、適切に処理**   されていることを確認するバックアップメディアが紛失、破棄、または紛失した場合、Lync Server 2013 の展開のデータセキュリティに重大な脅威をもたらす可能性がある
+  - **すべてのデータバックアップが暗号化され、適切に処理**     されることを確認する紛失、破棄、または紛失したバックアップメディアは、Lync Server 2013 の展開のデータセキュリティに大きな脅威をもたらす可能性があります。
 
 Standard Edition サーバー以外の Lync Server 2013 サーバーでは、SQL Server Express インスタンス (RTCLOCAL インスタンス) はリモートでアクセスできず、ローカルファイアウォールの例外は作成されません。ただし、Standard Edition サーバー上の SQL Server Express を除きます。 Standard Edition サーバーでは、バックエンドデータベースと中央管理ストア (CMS) の両方がリモートでアクセスできるように設定されています。 SQL Server データベースを強化するには、次の操作を行います。
 
@@ -68,19 +70,19 @@ Standard Edition サーバー以外の Lync Server 2013 サーバーでは、SQL
     
       - Lync Server 2013 は、静的および動的な SQL Server ポートをサポートしています。
 
-  - 既定でない静的ポートで SQL Server を実行し、SQL Server ブラウザーを実行しません (この結果、クライアントにリッスン ポートをレポートできません)。 これには、フロントエンドサーバー、監視サーバー、アーカイブサーバー、および管理コンソール (Lync Server 管理シェル、Lync Server コントロールパネル、またはトポロジビルダーを実行している) を含む、各 SQL Server クライアントのカスタム構成が必要です。Lync Server データベースを実行しているサーバー)。
+  - 既定でない静的ポートで SQL Server を実行し、SQL Server ブラウザーを実行しません (この結果、クライアントにリッスン ポートをレポートできません)。 これには、フロントエンドサーバー、監視サーバー、アーカイブサーバー、管理コンソール (Lync Server 管理シェル、Lync Server コントロールパネル、またはトポロジビルダーを実行している)、および Lync Server データベースを実行している他のすべてのサーバーを含む、各 SQL Server クライアントのカスタム構成が必要です。
 
 <div>
 
 
 > [!NOTE]  
-> データベースへのアクセスは、信頼できるデータベース管理者に制限する必要があります。 悪意のあるデータベース管理者は、データベース管理者が直接アクセス権を与えられていない場合でも、データベースにデータを挿入または変更したり、サービスから機密情報を取得2013したりすることができます。Lync Server 2013 サーバーの制御。
+> データベースへのアクセスは、信頼できるデータベース管理者に制限する必要があります。 悪意のあるデータベース管理者は、データベース管理者が Lync Server 2013 サーバーの直接のアクセスや制御を許可されていない場合でも、Lync Server 2013 サーバーでの権限を取得するか、またはサービスから機密情報を取得するために、データベースにデータを挿入または変更することができます。
 
 
 
 </div>
 
-カスタム構成の詳細と SQL Server データベースのセキュリティ強化については、NextHop の記事「カスタム SQL Server ネットワーク構成での Lync Server 2010 の使用[https://go.microsoft.com/fwlink/p/?LinkId=214008](https://go.microsoft.com/fwlink/p/?linkid=214008)」、「」を参照してください。
+カスタム構成の詳細と SQL Server データベースのセキュリティ強化については、NextHop の記事「カスタム SQL Server ネットワーク構成での Lync Server 2010 の使用」、「」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=214008](https://go.microsoft.com/fwlink/p/?linkid=214008) 。
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4a9c0bbce2ced36e9df99d7239c2f562b20edbd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f7d5dc3675f06aafed18ddd18e430e2c61dc670
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537224"
 ---
+# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Lync Server 2013 の DFS ファイル記憶域を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Lync Server 2013 の DFS ファイル記憶域を構成する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204923"
 
 _**トピックの最終更新日:** 2016-05-23_
 
-Lync Server 2013 は、分散ファイルシステム (DFS) でのファイル共有の使用をサポートしています。 Windows Server 2008 の DFS の詳細については、「Windows Server 2008 の DFS のステップバイステップガイド[https://go.microsoft.com/fwlink/p/?linkId=202835](https://go.microsoft.com/fwlink/p/?linkid=202835)」を参照してください。DFS を使用するには、Lync Server 2013 に次のものが必要です。
+Lync Server 2013 は、分散ファイルシステム (DFS) でのファイル共有の使用をサポートしています。 Windows Server 2008 の DFS の詳細については、「Windows Server 2008 の DFS のステップバイステップガイド」を参照してください [https://go.microsoft.com/fwlink/p/?linkId=202835](https://go.microsoft.com/fwlink/p/?linkid=202835) 。DFS を使用するには、Lync Server 2013 に次のものが必要です。
 
   - 名前空間はドメインベースであること。
 
@@ -45,7 +47,7 @@ Lync Server 2013 は、分散ファイルシステム (DFS) でのファイル�
 
 Lync Server 2013 セットアッププログラムを実行するには、共有フォルダーに対するアクセス許可が管理者へのフルアクセスを許可する必要があります。 Lync Server 2013 は、NTFS ファイルアクセス許可を使用してフォルダーに ACL を設定します。 継承された DFS 共有アクセス許可はアクセスの制限に使用されません。
 
-ファイル共有の要件の詳細については、「サポート」のドキュメントの「 [Lync Server 2013 のファイル記憶域サポート](lync-server-2013-file-storage-support.md)」を参照してください。
+ファイル共有の要件の詳細については、「サポート」のドキュメントの「 [Lync Server 2013 のファイル記憶域サポート](lync-server-2013-file-storage-support.md) 」を参照してください。
 
 <div>
 
@@ -77,7 +79,7 @@ Lync Server 2013 セットアッププログラムを実行するには、共有
     
       - **変更**
     
-      - **読み取り**
+      - **Read**
 
 6.  [**適用**] をクリックし、[**OK**] をクリックします。
 

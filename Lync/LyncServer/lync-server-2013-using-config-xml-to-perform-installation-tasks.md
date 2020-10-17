@@ -12,20 +12,22 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2933da3fc52cc6a5c23f74806ff3a4e81dcb2ba
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 901d95797955c6f545c0d305e2c855829c92addf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212833"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535784"
 ---
+# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Lync Server 2013 で Config.xml を使用してインストールタスクを実行する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Lync Server 2013 で Config.xml を使用してインストールタスクを実行する
+
 
 </div>
 
@@ -53,11 +55,11 @@ Office カスタマイズ ツール (OCT) はカスタマイズ インストー�
 
 Config.xml ファイルを使用して Lync 2013 サイレントインストールを構成することをお勧めします。
 
-既定では、コア製品フォルダー (たとえば、product) \\に格納されている config.xml ファイル。WW) セットアップに、その製品をインストールするように指示します。 たとえば、次のフォルダーの Config.xml ファイルでは、Lync 2013 がインストールされます。
+既定では、コア製品フォルダー (たとえば、product) に格納されている Config.xml ファイル。 \\WW) セットアップに、その製品をインストールするように指示します。 たとえば、次のフォルダーの Config.xml ファイルは Lync 2013 をインストールします。
 
-  - \\\\サーバー\\共有\\Lync15\\Lync. \\xml
+  - \\\\サーバー \\ 共有 \\ Lync15 \\ Lync \\Config.xml
 
-Lync 2013 のインストールに最もよく使用される Config.xml 要素を、次の表に示します。
+Lync 2013 インストールでよく使用される Config.xml 要素を次の表に示します。
 
 ### <a name="configxml-elements"></a>Config.xml の要素
 
@@ -81,24 +83,24 @@ Lync 2013 のインストールに最もよく使用される Config.xml 要素�
 <td><p>OptionState</p></td>
 <td><p>インストール中、特定の製品の機能が処理される方法を指定します。 次の属性を使用して、Outlook 2010 に影響を与える共有コンポーネントを含む Business Connectivity Services のインストールを禁止します。</p>
 <ul>
-<li><p>Id =&quot;lobimain&quot;</p></li>
-<li><p>状態 =&quot;存在しない&quot;</p></li>
-<li><p>Children =&quot;Force&quot;</p></li>
+<li><p>Id = &quot; lobimain&quot;</p></li>
+<li><p>状態 = &quot; 存在しない&quot;</p></li>
+<li><p>Children = &quot; Force&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>表示</p></td>
+<td><p>ディスプレイ</p></td>
 <td><p>セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。</p>
 <ul>
-<li><p>完了通知 =&quot;はい&quot; | &quot;No&quot;(既定値)</p></li>
-<li><p>AcceptEula =&quot;はい&quot; | &quot;No&quot;(既定値)</p></li>
+<li><p>完了通知 = &quot; はい &quot;  |  &quot; No &quot; (既定値)</p></li>
+<li><p>AcceptEula = &quot; はい &quot;  |  &quot; No &quot; (既定値)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>ログ記録</p></td>
 <td><p>セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。</p>
 <ul>
-<li><p>Type =&quot;Off&quot; | &quot;Standard&quot;(既定値) |&quot;詳細&quot;</p></li>
+<li><p>Type = &quot; Off &quot;  |  &quot; Standard &quot; (既定値) | &quot;詳しい&quot;</p></li>
 <li><p>Template=”filename.txt” (ログファイルの名前)</p></li>
 </ul></td>
 </tr>
@@ -106,8 +108,8 @@ Lync 2013 のインストールに最もよく使用される Config.xml 要素�
 <td><p>設定</p></td>
 <td><p>Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。</p>
 <ul>
-<li><p>Setting Id =&quot;Name&quot; (Windows Installer プロパティの名前)</p></li>
-<li><p>値 =&quot;value&quot; (プロパティに割り当てる値)</p></li>
+<li><p>Setting Id = &quot; name &quot; (Windows Installer プロパティの名前)</p></li>
+<li><p>値 = &quot; value &quot; (プロパティに割り当てる値)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -121,7 +123,7 @@ Lync 2013 のインストールに最もよく使用される Config.xml 要素�
 </table>
 
 
-次の例は、Lync 2013 の一般的なサイレントインストール用の Config.xml ファイルを示しています。
+次の例は、Lync 2013 の一般的なサイレントインストールの Config.xml ファイルを示しています。
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -131,7 +133,7 @@ Lync 2013 のインストールに最もよく使用される Config.xml 要素�
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Config.xml ファイルを使用した Office のインストールおよびメンテナンスタスクの実行方法の詳細につい<https://go.microsoft.com/fwlink/p/?linkid=267514>ては、を参照してください。
+Config.xml ファイルを使用した Office のインストールおよびメンテナンスタスクの実行の詳細については、を参照 <https://go.microsoft.com/fwlink/p/?linkid=267514> してください。
 
 <div>
 
@@ -141,7 +143,7 @@ Config.xml ファイルを使用した Office のインストールおよびメ�
 
 2.  変更する要素を含む行に移動します。
 
-3.  使用するサイレント オプションで要素のエントリを変更します。 コメントの区切り文字 "\<\!--" と "--\>" は削除してください。 たとえば、次の構文を使用します。
+3.  使用するサイレント オプションで要素のエントリを変更します。 コメントの区切り文字 "" が削除されていることを確認してください \<\!--" and "--\> 。 たとえば、次の構文を使用します。
     
         < DistributionPoint Location="\\server\share\Lync15" />
 

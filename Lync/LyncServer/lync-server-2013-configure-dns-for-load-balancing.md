@@ -12,20 +12,22 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8b2059048823c1a8f063d0d7832759ec64e6341
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 831968516ef155d6ad018f33bfa27226f58292dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204513"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537144"
 ---
+# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Lync Server 2013 での負荷分散の DNS の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Lync Server 2013 での負荷分散の DNS の構成
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-01_
 
 この手順を正常に完了するには、最低限でも Domain Admins グループまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
 
-ドメインネームシステム (DNS) 負荷分散は、SIP トラフィックやメディアトラフィックなど、Lync Server 2013 に固有のネットワークトラフィックのバランスをとります。 DNS 負荷分散は、フロントエンドプール、エッジプール、ディレクタープール、およびスタンドアロンの仲介プールに対してサポートされています。 DNS 負荷分散を使用するように構成されたプールには、2つの完全修飾ドメイン名 (Fqdn) が定義されている必要があります。これは、DNS 負荷分散によって使用される通常のプール FQDN (たとえば、pool1.contoso.com) を使用し、プール内のサーバーの物理 Ip に解決します。、プールの Web サービスの別の FQDN (web1.contoso.net など) を使用して、プールの仮想 IP アドレスに解決されます。 DNS 負荷分散の詳細については、「計画」のドキュメントの「 [dns load balancing In Lync Server 2013](lync-server-2013-dns-load-balancing.md) 」を参照してください。
+ドメインネームシステム (DNS) 負荷分散は、SIP トラフィックやメディアトラフィックなど、Lync Server 2013 に固有のネットワークトラフィックのバランスをとります。 DNS 負荷分散は、フロントエンドプール、エッジプール、ディレクタープール、およびスタンドアロンの仲介プールに対してサポートされています。 DNS 負荷分散を使用するように構成されたプールには、次の2つの完全修飾ドメイン名 (Fqdn) が定義されている必要があります。 DNS 負荷分散 (たとえば、pool1.contoso.com) によって使用され、プール内のサーバーの物理 Ip に解決される通常のプールの FQDN、およびプールの Web サービス (たとえば、web1.contoso.net) の別の FQDN がプールの仮想 IP アドレスに解決されます。 DNS 負荷分散の詳細については、「計画」のドキュメントの「 [dns load balancing In Lync Server 2013](lync-server-2013-dns-load-balancing.md) 」を参照してください。
 
 <div>
 
@@ -93,7 +95,7 @@ DNS 負荷分散を使用する前に、次の操作を行う必要がありま�
 
 6.  [**外部 Web サービス**] で、プールの仮想 IP アドレスへ解決する外部プールの FQDN を入力し、[**OK**] をクリックします。
 
-7.  コンソールツリーで [ **Lync Server 2013**] をクリックし、[**操作**] ウィンドウで [**トポロジの公開**] をクリックします。
+7.  コンソールツリーで [ **Lync Server 2013**] をクリックし、[ **操作** ] ウィンドウで [ **トポロジの公開**] をクリックします。
 
 </div>
 
@@ -109,7 +111,7 @@ DNS 負荷分散を使用する前に、次の操作を行う必要がありま�
 
 4.  レコードの追加が必要な DNS ドメインを右クリックし、[**新しいホスト (A または AAAA)**] をクリックします。
 
-5.  [**名前**] ボックスに、ホストレコードの名前を入力します (ドメイン名は自動的に追加されます)。
+5.  [ **名前** ] ボックスに、ホストレコードの名前を入力します (ドメイン名は自動的に追加されます)。
 
 6.  [IP アドレス] ボックスで、個々のフロントエンド サーバーの IP アドレスを入力し、適用可能な場合は [**関連付けられたポインター (PTR) レコードを作成する**] または [**同じ所有者名の DNS レコードの更新を認証されたユーザーに許可する**] を選択します。
 

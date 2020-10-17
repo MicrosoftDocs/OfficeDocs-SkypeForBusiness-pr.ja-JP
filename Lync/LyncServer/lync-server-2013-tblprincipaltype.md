@@ -12,20 +12,22 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0de18da521bd4dadc63d5be592009bd60b643e7b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 60fa841f7f88e0da2c428ae68c5007fb79e6c69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536324"
 ---
+# <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013 の tblPrincipalType
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013 の tblPrincipalType
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-09-12_
 
 tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類するプリンシパル型が含まれます。
 
-### <a name="columns"></a>Columns
+### <a name="columns"></a>段組み
 
 <table>
 <colgroup>
@@ -49,7 +51,7 @@ tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類す
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>種類</th>
 <th>説明</th>
 </tr>
@@ -115,7 +117,7 @@ tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類す
 <th>ID</th>
 <th>Role</th>
 <th>説明</th>
-<th>ユーザー</th>
+<th>User</th>
 </tr>
 </thead>
 <tbody>
@@ -138,14 +140,14 @@ tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類す
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2/4</p></td>
+<td><p>4 </p></td>
 <td><p>自分のもの</p></td>
 <td><p>常設チャットサーバーによって内部的に使用されるプリンシパル。</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
-<td><p>ユーザー</p></td>
+<td><p>5 </p></td>
+<td><p>User</p></td>
 <td><p>標準のユーザー</p></td>
 <td><p>はい</p></td>
 </tr>
@@ -157,12 +159,12 @@ tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類す
 </tr>
 <tr class="odd">
 <td><p>9 </p></td>
-<td><p>Group</p></td>
+<td><p>グループ</p></td>
 <td><p>Active Directory セキュリティ グループ。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>10 </p></td>
+<td><p>10  </p></td>
 <td><p>フォルダー</p></td>
 <td><p>Active Directory コンテナーまたは組織単位。</p></td>
 <td></td>

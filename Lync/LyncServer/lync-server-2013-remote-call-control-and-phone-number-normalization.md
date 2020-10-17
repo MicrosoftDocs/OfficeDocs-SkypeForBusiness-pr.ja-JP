@@ -12,20 +12,22 @@ ms:contentKeyID: 48183696
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9acca7ab40ea8c6af3488c454620d20f1e9e326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 211f0f717f7c40895cdbbad75bd98ae0ff90af89
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215063"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536554"
 ---
+# <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a>Lync Server 2013 でのリモート通話コントロールと電話番号の正規化
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remote-call-control-and-phone-number-normalization-in-lync-server-2013"></a>Lync Server 2013 でのリモート通話コントロールと電話番号の正規化
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42215063"
 
 _**トピックの最終更新日:** 2012-09-22_
 
-Lync クライアントは、アドレス帳サービス (ABS) ファイルのダウンロードの一部として電話番号の正規化ルールをダウンロードします。 リモート通話コントロール シナリオでは、アドレス帳サービスの電話番号正規化ルールはリモート通話コントロールの着信通話および発信通話の両方に適用されます。 リモート通話コントロールが有効化されているユーザーへの着信通話の場合、発信者の電話番号は SIP/CSTA ゲートウェイまたは構内交換機 (PBX) によってまずは E.164 形式に正規化されます。 Lync Server 2013 は、ゲートウェイからの呼び出しを受信すると、呼び出し先の Microsoft Office Outlook 連絡先リストまたはに格納されているグローバルアドレス一覧 (GAL) の正規化された番号に対して、発信者の電話番号で逆引き参照 (RNL) を実行します。アドレス帳サービス。 逆引き番号検索によって一致する番号が正常に発見された場合、発信者は着信通知を名前で識別されます。
+Lync クライアントは、アドレス帳サービス (ABS) ファイルのダウンロードの一部として電話番号の正規化ルールをダウンロードします。 リモート通話コントロール シナリオでは、アドレス帳サービスの電話番号正規化ルールはリモート通話コントロールの着信通話および発信通話の両方に適用されます。 リモート通話コントロールが有効化されているユーザーへの着信通話の場合、発信者の電話番号は SIP/CSTA ゲートウェイまたは構内交換機 (PBX) によってまずは E.164 形式に正規化されます。 Lync Server 2013 は、ゲートウェイからの呼び出しを受信するときに、発信者の電話番号に対して、アドレス帳サービスに格納されている Microsoft Office Outlook の連絡先リストまたはグローバルアドレス一覧 (GAL) の正規化された番号に対して、逆引き番号検索 (RNL) を実行します。 逆引き番号検索によって一致する番号が正常に発見された場合、発信者は着信通知を名前で識別されます。
 
 発信リモート通話制御呼び出しの場合、Lync は、SIP/CSTA ゲートウェイに通話をルーティングする前に、アドレス帳サービスの電話番号の正規化ルールをダイヤル番号に適用します。
 
-リモート通話コントロールの電話番号正規化ルールの詳細については、「計画」のドキュメントの「[ダイヤルプランと正規化ルール (Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) )」を参照してください。
+リモート通話コントロールの電話番号正規化ルールの詳細については、「計画」のドキュメントの「 [ダイヤルプランと正規化ルール (Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) )」を参照してください。
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7b3dcb9693ed6ab58d2828570e81ef05709867e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e9ccf25c2bbaf6c77c72d35f1fa5ac82fd67d011
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208073"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537154"
 ---
+# <a name="configure-dns-for-edge-support-in-lync-server-2013"></a>Lync Server 2013 でエッジサポートの DNS を構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-edge-support-in-lync-server-2013"></a>Lync Server 2013 でエッジサポートの DNS を構成する
+
 
 </div>
 
@@ -84,7 +86,7 @@ _**トピックの最終更新日:** 2013-02-15_
     
     </div>
 
-2.  SIP ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされているドメインを右クリックします。
+2.  SIP ドメインのコンソールツリーで、[ **前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされているドメインを右クリックします。
 
 3.  **[その他の新しいレコード]** をクリックします。
 
@@ -100,7 +102,7 @@ _**トピックの最終更新日:** 2013-02-15_
 
 1.  DNS サーバー上で、**[スタート]** ボタンをクリックし、**[コントロール パネル]** をクリックします。次に、**[管理ツール]** をクリックし、**[DNS]** をクリックします。
 
-2.  SIP ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされているドメインを右クリックします。
+2.  SIP ドメインのコンソールツリーで、[ **前方参照ゾーン**] を展開し、Lync Server 2013 がインストールされているドメインを右クリックします。
 
 3.  **[新しいホスト (A)]** をクリックします。
 

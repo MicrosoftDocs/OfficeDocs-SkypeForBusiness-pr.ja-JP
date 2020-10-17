@@ -12,20 +12,22 @@ ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4f7fa1160e7ff0afbbc4d8d4cc5ec96ab08e0f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7fdf5a304d428efb3b1192d02ade0187f052171
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183142"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536414"
 ---
+# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>Lync Server 2013 で、サイトから Kerberos 認証を削除する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>Lync Server 2013 で、サイトから Kerberos 認証を削除する
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-01-16_
 
 この手順を正常に完了させるには、RTCUniversalServerAdmins グループのメンバーであるユーザーとしてログオンする必要があります。
 
-サイトから Kerberos 認証を削除する必要がある場合、またはサイトを廃止する必要がある場合は、 **get-cskerberosaccountassignment**コマンドレットを使用して、サイトから kerberos 認証アカウントの割り当てを削除する必要があります。 Kerberos 認証アカウントの割り当てを削除するには、次の手順を使用します。これにより、サイト内のすべてのコンピューターから割り当てが削除されます。
+サイトから Kerberos 認証を削除する必要がある場合、またはサイトを廃止する必要がある場合は、 **get-cskerberosaccountassignment** コマンドレットを使用して、サイトから kerberos 認証アカウントの割り当てを削除する必要があります。 Kerberos 認証アカウントの割り当てを削除するには、次の手順を使用します。これにより、サイト内のすべてのコンピューターから割り当てが削除されます。
 
 <div class=" ">
 
@@ -83,7 +85,7 @@ _**トピックの最終更新日:** 2012-01-16_
     
 
     > [!IMPORTANT]  
-    > アカウントの追加、アカウントの削除など、Kerberos 認証に変更を加えた後、Lync Server 管理シェルコマンドプロンプトから<STRONG>Enable-CsTopology</STRONG>設定を実行する必要があります。
+    > アカウントの追加、アカウントの削除など、Kerberos 認証に変更を加えた後、Lync Server 管理シェルコマンドプロンプトから <STRONG>Enable-CsTopology</STRONG> 設定を実行する必要があります。
 
     
     </div>
