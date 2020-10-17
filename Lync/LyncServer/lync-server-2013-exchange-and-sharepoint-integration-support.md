@@ -12,20 +12,22 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 262e31ac6049920ca4e327f50dccaae18d69a2f5
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: d0da9f9913804bb10b9bf5fd1e4c4e8ad467e7d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221721"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528394"
 ---
+# <a name="exchange-and-sharepoint-integration-support-in-lync-server-2013"></a><span data-ttu-id="133b9-102">Lync Server 2013 での Exchange と SharePoint の統合のサポート</span><span class="sxs-lookup"><span data-stu-id="133b9-102">Exchange and SharePoint integration support in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="exchange-and-sharepoint-integration-support-in-lync-server-2013"></a><span data-ttu-id="808d6-102">Lync Server 2013 での Exchange と SharePoint の統合のサポート</span><span class="sxs-lookup"><span data-stu-id="808d6-102">Exchange and SharePoint integration support in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,45 +37,45 @@ ms.locfileid: "44221721"
 
 <span> </span>
 
-<span data-ttu-id="808d6-103">_**トピックの最終更新日:** 2017-01-18_</span><span class="sxs-lookup"><span data-stu-id="808d6-103">_**Topic Last Modified:** 2017-01-18_</span></span>
+<span data-ttu-id="133b9-103">_**トピックの最終更新日:** 2017-01-18_</span><span class="sxs-lookup"><span data-stu-id="133b9-103">_**Topic Last Modified:** 2017-01-18_</span></span>
 
-<span data-ttu-id="808d6-104">Lync Server 2013 および Lync 2013 は、これらの製品を統合すると、Office 2013、Exchange Server 2013、Exchange Server 2016、および SharePoint を含む他のアプリケーションやサーバー製品と安全かつシームレスに通信することができます。</span><span class="sxs-lookup"><span data-stu-id="808d6-104">Lync Server 2013 and Lync 2013 can securely and seamlessly communicate with other applications and server products, including Office 2013, Exchange Server 2013, Exchange Server 2016, and SharePoint, if you integrate these products.</span></span> <span data-ttu-id="808d6-105">Lync Server 2013 と Office を統合することにより、ユーザーは、インスタントメッセージング (IM)、拡張プレゼンス、テレフォニー、および Lync の会議機能に対して、コンテキストに依存したアクセスが可能になります。</span><span class="sxs-lookup"><span data-stu-id="808d6-105">Integrating Lync Server 2013 and Office provides users with in-context access to the instant messaging (IM), enhanced presence, telephony, and conferencing capabilities of Lync.</span></span> <span data-ttu-id="808d6-106">Office ユーザーは、Outlook 2013 メッセージングおよびコラボレーションクライアントおよびその他の Office プログラム内から、または SharePoint ページから Lync 機能にアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="808d6-106">Office users can access Lync features from within the Outlook 2013 messaging and collaboration client and other Office programs or from a SharePoint page.</span></span> <span data-ttu-id="808d6-107">ユーザーは、Outlook の [会話履歴] フォルダーで Lync 会話のレコードを表示することもできます。</span><span class="sxs-lookup"><span data-stu-id="808d6-107">Users can also view a record of Lync conversations in the Outlook Conversation History folder.</span></span> <span data-ttu-id="808d6-108">Exchange 2013、Exchange 2016、または Exchange Online と統合されている場合、Lync Server 2013 は次の機能もサポートします。</span><span class="sxs-lookup"><span data-stu-id="808d6-108">When integrated with Exchange 2013, Exchange 2016, or Exchange Online, Lync Server 2013 also supports the following:</span></span>
+<span data-ttu-id="133b9-104">Lync Server 2013 および Lync 2013 は、これらの製品を統合すると、Office 2013、Exchange Server 2013、Exchange Server 2016、および SharePoint を含む他のアプリケーションやサーバー製品と安全かつシームレスに通信することができます。</span><span class="sxs-lookup"><span data-stu-id="133b9-104">Lync Server 2013 and Lync 2013 can securely and seamlessly communicate with other applications and server products, including Office 2013, Exchange Server 2013, Exchange Server 2016, and SharePoint, if you integrate these products.</span></span> <span data-ttu-id="133b9-105">Lync Server 2013 と Office を統合することにより、ユーザーは、インスタントメッセージング (IM)、拡張プレゼンス、テレフォニー、および Lync の会議機能に対して、コンテキストに依存したアクセスが可能になります。</span><span class="sxs-lookup"><span data-stu-id="133b9-105">Integrating Lync Server 2013 and Office provides users with in-context access to the instant messaging (IM), enhanced presence, telephony, and conferencing capabilities of Lync.</span></span> <span data-ttu-id="133b9-106">Office ユーザーは、Outlook 2013 メッセージングおよびコラボレーションクライアントおよびその他の Office プログラム内から、または SharePoint ページから Lync 機能にアクセスできます。</span><span class="sxs-lookup"><span data-stu-id="133b9-106">Office users can access Lync features from within the Outlook 2013 messaging and collaboration client and other Office programs or from a SharePoint page.</span></span> <span data-ttu-id="133b9-107">ユーザーは、Outlook の [会話履歴] フォルダーで Lync 会話のレコードを表示することもできます。</span><span class="sxs-lookup"><span data-stu-id="133b9-107">Users can also view a record of Lync conversations in the Outlook Conversation History folder.</span></span> <span data-ttu-id="133b9-108">Exchange 2013、Exchange 2016、または Exchange Online と統合されている場合、Lync Server 2013 は次の機能もサポートします。</span><span class="sxs-lookup"><span data-stu-id="133b9-108">When integrated with Exchange 2013, Exchange 2016, or Exchange Online, Lync Server 2013 also supports the following:</span></span>
 
-  - <span data-ttu-id="808d6-109">統合連絡先ストア。これにより、ユーザーはすべての連絡先情報を Exchange または Exchange Online に保存できるようになり、Lync 2013、Exchange、Outlook、および Outlook Web App 間で情報をグローバルに利用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="808d6-109">Unified contact store, which enables users to store all contact information in Exchange or Exchange Online so that the information is available globally across Lync 2013, Exchange, Outlook, and Outlook Web App.</span></span>
+  - <span data-ttu-id="133b9-109">統合連絡先ストア。これにより、ユーザーはすべての連絡先情報を Exchange または Exchange Online に保存できるようになり、Lync 2013、Exchange、Outlook、および Outlook Web App 間で情報をグローバルに利用できるようになります。</span><span class="sxs-lookup"><span data-stu-id="133b9-109">Unified contact store, which enables users to store all contact information in Exchange or Exchange Online so that the information is available globally across Lync 2013, Exchange, Outlook, and Outlook Web App.</span></span>
 
-  - <span data-ttu-id="808d6-110">Exchange ユーザーフォルダーに格納されている会話履歴と Web 会議履歴。</span><span class="sxs-lookup"><span data-stu-id="808d6-110">Conversation history and Web conferencing history, which is stored in Exchange user folders.</span></span>
+  - <span data-ttu-id="133b9-110">Exchange ユーザーフォルダーに格納されている会話履歴と Web 会議履歴。</span><span class="sxs-lookup"><span data-stu-id="133b9-110">Conversation history and Web conferencing history, which is stored in Exchange user folders.</span></span>
 
-  - <span data-ttu-id="808d6-111">Lync からのアーカイブされたコンテンツ (IM、会議コンテンツなど) は、Exchange ストレージに保存できます。</span><span class="sxs-lookup"><span data-stu-id="808d6-111">Archived content from Lync, such as IM and meeting content, can be stored in Exchange storage.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="808d6-112">Lync Server 2013 は、以前のバージョンの Microsoft Exchange Server および SharePoint Server との統合をサポートしていますが、Microsoft Exchange とのアーカイブストレージの統合など、以前のバージョンではサポートされない機能もあります。</span><span class="sxs-lookup"><span data-stu-id="808d6-112">Lync Server 2013 supports integration with previous versions of Microsoft Exchange Server and SharePoint Server, but not all functionality is supported with these previous versions, such as integration of Archiving storage with Microsoft Exchange.</span></span><BR><span data-ttu-id="808d6-113">ユーザーを Exchange 2013 または Exchange 2016 に移行している場合は、移行を完了する間、Exchange ストレージと Lync Server ストレージの両方を中間に使用することができます。</span><span class="sxs-lookup"><span data-stu-id="808d6-113">If you are migrating your users to Exchange 2013 or Exchange 2016, you can use both Exchange storage and Lync Server storage on an interim basis, while you complete the migration.</span></span> <span data-ttu-id="808d6-114">Exchange と Lync Server の両方のストレージを恒久的に使用することはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="808d6-114">Permanent use of both Exchange and Lync Server storage is not supported.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="808d6-115">Lync server 2013 と Exchange Server および SharePoint Server との統合では、Lync Server 2013、Exchange Server、および SharePoint Server を実行しているサーバー間でのサーバー間認証が必要です。</span><span class="sxs-lookup"><span data-stu-id="808d6-115">Integration of Lync Server 2013 with Exchange Server and SharePoint Server requires server-to-server authentication between servers running Lync Server 2013, Exchange Server, and SharePoint Server.</span></span> <span data-ttu-id="808d6-116">Lync Server 2013 は、サーバー間の認証と承認に OAuth (オープン認証) プロトコルをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="808d6-116">Lync Server 2013 supports OAuth (Open Authorization) protocol for server-to-server authentication and authorization.</span></span> <span data-ttu-id="808d6-117">2つの Microsoft サーバー間でのオンプレミスのサーバー間認証の場合は、サードパーティのトークンサーバーを使用する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="808d6-117">For on-premises server-to-server authentication between two Microsoft servers, there is no need to use a third-party token server.</span></span> <span data-ttu-id="808d6-118">Lync Server 2013、Exchange Server、および SharePoint Server には、互いに認証の目的で使用できる組み込みのトークンサーバーがあります。</span><span class="sxs-lookup"><span data-stu-id="808d6-118">Lync Server 2013, Exchange Server, and SharePoint Server have a built-in token server that can be used for authentication purposes with each other.</span></span> <span data-ttu-id="808d6-119">たとえば、Lync Server 2013 は、セキュリティトークンを単独で発行して署名し、Exchange と通信するときにそのトークンを使用できます。</span><span class="sxs-lookup"><span data-stu-id="808d6-119">For example, Lync Server 2013 can issue and sign a security token by itself, and use that token when communicating with Exchange.</span></span> <span data-ttu-id="808d6-120">この場合、サードパーティのトークンサーバーを使用する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="808d6-120">In this case, there is no need to use a third-party token server.</span></span>
-
-<span data-ttu-id="808d6-121">Lync Server 2013 は、2台のサーバー間認証シナリオをサポートします。</span><span class="sxs-lookup"><span data-stu-id="808d6-121">Lync Server 2013 supports the two server-to-server authentication scenarios.</span></span> <span data-ttu-id="808d6-122">これには、次のようなサーバー間認証の構成が含まれます。</span><span class="sxs-lookup"><span data-stu-id="808d6-122">These include configuration of server-to-server authentication between the following:</span></span>
-
-  - <span data-ttu-id="808d6-123">Lync Server 2013 の社内インストールと、Exchange Server 2013、Exchange Server 2016、または SharePoint Server のオンプレミスのインストール。</span><span class="sxs-lookup"><span data-stu-id="808d6-123">An on-premise installation of Lync Server 2013 and an on-premises installation of Exchange Server 2013, Exchange Server 2016, and/or SharePoint Server.</span></span>
-
-  - <span data-ttu-id="808d6-124">Office コンポーネントのペア (たとえば、Microsoft Exchange 365 と Microsoft Lync Server 365 の間、または Microsoft Lync Server 365 と Microsoft SharePoint 365 の間)。</span><span class="sxs-lookup"><span data-stu-id="808d6-124">A pair of Office components (for example, between Microsoft Exchange 365 and Microsoft Lync Server 365, or between Microsoft Lync Server 365 and Microsoft SharePoint 365).</span></span>
+  - <span data-ttu-id="133b9-111">Lync からのアーカイブされたコンテンツ (IM、会議コンテンツなど) は、Exchange ストレージに保存できます。</span><span class="sxs-lookup"><span data-stu-id="133b9-111">Archived content from Lync, such as IM and meeting content, can be stored in Exchange storage.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="808d6-125">オンプレミスのサーバーと Microsoft 365 または Office 365 コンポーネントとの間のサーバー間認証は、この Lync Server 2013 リリースではサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="808d6-125">Server-to-server authentication between an on-premises server and a Microsoft 365 or Office 365 component is not supported in this Lync Server 2013 release.</span></span> <span data-ttu-id="808d6-126">これは特に、Lync Server 2013 と Microsoft Exchange 365 の社内インストールとの間でサーバー間認証をセットアップできないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="808d6-126">Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Lync Server 2013 and Microsoft Exchange 365.</span></span>
+> <span data-ttu-id="133b9-112">Lync Server 2013 は、以前のバージョンの Microsoft Exchange Server および SharePoint Server との統合をサポートしていますが、Microsoft Exchange とのアーカイブストレージの統合など、以前のバージョンではサポートされない機能もあります。</span><span class="sxs-lookup"><span data-stu-id="133b9-112">Lync Server 2013 supports integration with previous versions of Microsoft Exchange Server and SharePoint Server, but not all functionality is supported with these previous versions, such as integration of Archiving storage with Microsoft Exchange.</span></span><BR><span data-ttu-id="133b9-113">ユーザーを Exchange 2013 または Exchange 2016 に移行している場合は、移行を完了する間、Exchange ストレージと Lync Server ストレージの両方を中間に使用することができます。</span><span class="sxs-lookup"><span data-stu-id="133b9-113">If you are migrating your users to Exchange 2013 or Exchange 2016, you can use both Exchange storage and Lync Server storage on an interim basis, while you complete the migration.</span></span> <span data-ttu-id="133b9-114">Exchange と Lync Server の両方のストレージを恒久的に使用することはサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="133b9-114">Permanent use of both Exchange and Lync Server storage is not supported.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="808d6-127">サーバー間認証の詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync server 2013 でのサーバー間認証 (OAuth) およびパートナーアプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="808d6-127">For details about server-to-server authentication, see [Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in the Deployment documentation or Operations documentation.</span></span>
+<span data-ttu-id="133b9-115">Lync server 2013 と Exchange Server および SharePoint Server との統合では、Lync Server 2013、Exchange Server、および SharePoint Server を実行しているサーバー間でのサーバー間認証が必要です。</span><span class="sxs-lookup"><span data-stu-id="133b9-115">Integration of Lync Server 2013 with Exchange Server and SharePoint Server requires server-to-server authentication between servers running Lync Server 2013, Exchange Server, and SharePoint Server.</span></span> <span data-ttu-id="133b9-116">Lync Server 2013 は、サーバー間の認証と承認に OAuth (オープン認証) プロトコルをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="133b9-116">Lync Server 2013 supports OAuth (Open Authorization) protocol for server-to-server authentication and authorization.</span></span> <span data-ttu-id="133b9-117">2つの Microsoft サーバー間でのオンプレミスのサーバー間認証の場合は、サードパーティのトークンサーバーを使用する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="133b9-117">For on-premises server-to-server authentication between two Microsoft servers, there is no need to use a third-party token server.</span></span> <span data-ttu-id="133b9-118">Lync Server 2013、Exchange Server、および SharePoint Server には、互いに認証の目的で使用できる組み込みのトークンサーバーがあります。</span><span class="sxs-lookup"><span data-stu-id="133b9-118">Lync Server 2013, Exchange Server, and SharePoint Server have a built-in token server that can be used for authentication purposes with each other.</span></span> <span data-ttu-id="133b9-119">たとえば、Lync Server 2013 は、セキュリティトークンを単独で発行して署名し、Exchange と通信するときにそのトークンを使用できます。</span><span class="sxs-lookup"><span data-stu-id="133b9-119">For example, Lync Server 2013 can issue and sign a security token by itself, and use that token when communicating with Exchange.</span></span> <span data-ttu-id="133b9-120">この場合、サードパーティのトークンサーバーを使用する必要はありません。</span><span class="sxs-lookup"><span data-stu-id="133b9-120">In this case, there is no need to use a third-party token server.</span></span>
+
+<span data-ttu-id="133b9-121">Lync Server 2013 は、2台のサーバー間認証シナリオをサポートします。</span><span class="sxs-lookup"><span data-stu-id="133b9-121">Lync Server 2013 supports the two server-to-server authentication scenarios.</span></span> <span data-ttu-id="133b9-122">これには、次のようなサーバー間認証の構成が含まれます。</span><span class="sxs-lookup"><span data-stu-id="133b9-122">These include configuration of server-to-server authentication between the following:</span></span>
+
+  - <span data-ttu-id="133b9-123">Lync Server 2013 の社内インストールと、Exchange Server 2013、Exchange Server 2016、または SharePoint Server のオンプレミスのインストール。</span><span class="sxs-lookup"><span data-stu-id="133b9-123">An on-premise installation of Lync Server 2013 and an on-premises installation of Exchange Server 2013, Exchange Server 2016, and/or SharePoint Server.</span></span>
+
+  - <span data-ttu-id="133b9-124">Office コンポーネントのペア (たとえば、Microsoft Exchange 365 と Microsoft Lync Server 365 の間、または Microsoft Lync Server 365 と Microsoft SharePoint 365 の間)。</span><span class="sxs-lookup"><span data-stu-id="133b9-124">A pair of Office components (for example, between Microsoft Exchange 365 and Microsoft Lync Server 365, or between Microsoft Lync Server 365 and Microsoft SharePoint 365).</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="133b9-125">オンプレミスのサーバーと Microsoft 365 または Office 365 コンポーネントとの間のサーバー間認証は、この Lync Server 2013 リリースではサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="133b9-125">Server-to-server authentication between an on-premises server and a Microsoft 365 or Office 365 component is not supported in this Lync Server 2013 release.</span></span> <span data-ttu-id="133b9-126">これは特に、Lync Server 2013 と Microsoft Exchange 365 の社内インストールとの間でサーバー間認証をセットアップできないことを意味します。</span><span class="sxs-lookup"><span data-stu-id="133b9-126">Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Lync Server 2013 and Microsoft Exchange 365.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="133b9-127">サーバー間認証の詳細については、「展開」のドキュメントまたは「操作」のドキュメントの「 [Lync server 2013 でのサーバー間認証 (OAuth) およびパートナーアプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="133b9-127">For details about server-to-server authentication, see [Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in the Deployment documentation or Operations documentation.</span></span>
 
 </div>
 

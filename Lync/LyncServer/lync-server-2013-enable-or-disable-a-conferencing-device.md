@@ -12,20 +12,22 @@ ms:contentKeyID: 51803981
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a5ed5c138d1389f0a3d4882bcdd437b5e7919e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5ebbebde30d39a95879a766280d3f34a830683e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190680"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528654"
 ---
+# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a><span data-ttu-id="036f1-102">Lync Server 2013 で会議デバイスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="036f1-102">Enable or disable a conferencing device in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-a-conferencing-device-in-lync-server-2013"></a><span data-ttu-id="f54f9-102">Lync Server 2013 で会議デバイスを有効または無効にする</span><span class="sxs-lookup"><span data-stu-id="f54f9-102">Enable or disable a conferencing device in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42190680"
 
 <span> </span>
 
-<span data-ttu-id="f54f9-103">_**トピックの最終更新日:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="f54f9-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="036f1-103">_**トピックの最終更新日:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="036f1-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="f54f9-104">を有効または無効にするには、「 **enable-csコンファレンス room**コマンドレット」および「 **disable-csroom room**コマンドレット」を使用して、会議デバイスを有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="f54f9-104">Enable and disable a conferencing device by using the **Enable-CsMeetingRoom** cmdlet and the **Disable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="f54f9-105">これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="f54f9-105">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="036f1-104">を有効または無効にするには、「 **enable-csコンファレンス room** コマンドレット」および「 **disable-csroom room** コマンドレット」を使用して、会議デバイスを有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="036f1-104">Enable and disable a conferencing device by using the **Enable-CsMeetingRoom** cmdlet and the **Disable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="036f1-105">これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="036f1-105">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="f54f9-106">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。</span><span class="sxs-lookup"><span data-stu-id="f54f9-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="036f1-106">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。</span><span class="sxs-lookup"><span data-stu-id="036f1-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -54,9 +56,9 @@ ms.locfileid: "42190680"
 
 <div>
 
-## <a name="enabling-a-conferencing-device"></a><span data-ttu-id="f54f9-107">会議デバイスを有効にする</span><span class="sxs-lookup"><span data-stu-id="f54f9-107">Enabling a Conferencing Device</span></span>
+## <a name="enabling-a-conferencing-device"></a><span data-ttu-id="036f1-107">会議デバイスを有効にする</span><span class="sxs-lookup"><span data-stu-id="036f1-107">Enabling a Conferencing Device</span></span>
 
-  - <span data-ttu-id="f54f9-108">会議デバイスを有効にするには、 **-Csroom**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="f54f9-108">To enable a conferencing device, use the **Enable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="f54f9-109">会議デバイスを有効にする場合は、会議デバイス id、b) 会議室のアカウントが所属するレジストラープールと、そのアカウントに割り当てる SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="f54f9-109">When enabling a conferencing device, you must include a) the conferencing device identity, b) the Registrar pool where the room account will be homed, and c) the SIP address to be assigned to that account.</span></span>
+  - <span data-ttu-id="036f1-108">会議デバイスを有効にするには、 **-Csroom** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="036f1-108">To enable a conferencing device, use the **Enable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="036f1-109">会議デバイスを有効にする場合は、会議デバイス id、b) 会議室のアカウントが所属するレジストラープールと、そのアカウントに割り当てる SIP アドレスを含める必要があります。</span><span class="sxs-lookup"><span data-stu-id="036f1-109">When enabling a conferencing device, you must include a) the conferencing device identity, b) the Registrar pool where the room account will be homed, and c) the SIP address to be assigned to that account.</span></span>
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -64,15 +66,15 @@ ms.locfileid: "42190680"
 
 <div>
 
-## <a name="disabling-a-conferencing-device"></a><span data-ttu-id="f54f9-110">会議デバイスを無効にする</span><span class="sxs-lookup"><span data-stu-id="f54f9-110">Disabling a Conferencing Device</span></span>
+## <a name="disabling-a-conferencing-device"></a><span data-ttu-id="036f1-110">会議デバイスを無効にする</span><span class="sxs-lookup"><span data-stu-id="036f1-110">Disabling a Conferencing Device</span></span>
 
-  - <span data-ttu-id="f54f9-111">会議デバイスを無効にするには、 **disable-Csroom**コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="f54f9-111">To disable a conferencing device, use the **Disable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="f54f9-112">無効にする会議デバイスの id を指定していることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="f54f9-112">Make sure that you specify the identity of the conferencing device to be disabled:</span></span>
+  - <span data-ttu-id="036f1-111">会議デバイスを無効にするには、 **disable-Csroom** コマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="036f1-111">To disable a conferencing device, use the **Disable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="036f1-112">無効にする会議デバイスの id を指定していることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="036f1-112">Make sure that you specify the identity of the conferencing device to be disabled:</span></span>
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
 </div>
 
-<span data-ttu-id="f54f9-113">詳細については、「 [Enable-Csroom room](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom)コマンドレット」および「 [Disable-csroom room](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom)コマンドレット」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="f54f9-113">For details, see the Help topics for the [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) cmdlet and the [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) cmdlet.</span></span>
+<span data-ttu-id="036f1-113">詳細については、「 [Enable-Csroom room](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) コマンドレット」および「 [Disable-csroom room](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) コマンドレット」のヘルプトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="036f1-113">For details, see the Help topics for the [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) cmdlet and the [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) cmdlet.</span></span>
 
 </div>
 
