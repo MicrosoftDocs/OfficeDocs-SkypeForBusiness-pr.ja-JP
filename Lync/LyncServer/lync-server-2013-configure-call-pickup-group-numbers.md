@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 通話ピックアップグループ番号の構成'
+description: 'Lync Server 2013: 通話ピックアップグループ番号を構成します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541479
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 586af96cccdc661855efb83aefdb0e7e534dc105
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5ddffae2e385ce6c3fd7a700a9b94a89b1b6679f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521144"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565093"
 ---
 # <a name="configure-call-pickup-group-numbers-in-lync-server-2013"></a>Lync Server 2013 での通話ピックアップグループ番号の構成
 

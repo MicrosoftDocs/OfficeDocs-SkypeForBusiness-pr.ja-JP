@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: CAC のネットワークサイトの構成'
+description: 'Lync Server 2013: CAC のネットワークサイトを構成します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e24932b23b1a9168ed64279f98db125f06ad0e2e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 24adbbb1f5ee46618c685e072d519a338cb9b0af
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520524"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565003"
 ---
 # <a name="configure-network-sites-for-cac-in-lync-server-2013"></a>Lync Server 2013 で CAC のネットワークサイトを構成する
 

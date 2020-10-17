@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 匿名ユーザーをサポートするための会議ポリシーの割り当て'
+description: 'Lync Server 2013: 匿名ユーザーをサポートするための会議ポリシーを割り当てます。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184333
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de154fca02470003fdedd0ff29cc8c879d1865aa
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 07e94c3097e3e21f854e91fdee1ad0b33c3b9f53
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523194"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566163"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-lync-server-2013"></a>Lync Server 2013 で匿名ユーザーをサポートするための会議ポリシーの割り当て
 

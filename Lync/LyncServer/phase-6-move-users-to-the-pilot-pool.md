@@ -1,5 +1,6 @@
 ---
 title: 'フェーズ 6: ユーザーをパイロットプールに移動する'
+description: 'フェーズ 6: ユーザーをパイロットプールに移動する。'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b07d568c7aaabba77c9a66a0db3264a96657839
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e8928e142be50398c47b4e9c3d1f92008846137b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518184"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566173"
 ---
 # <a name="phase-6-move-users-to-the-pilot-pool"></a>フェーズ 6: ユーザーをパイロットプールに移動する
 
@@ -45,11 +46,11 @@ _**トピックの最終更新日:** 2012-10-16_
 
 ## <a name="in-this-section"></a>このセクションの内容
 
-  - [ユーザー レプリケーションの完了の確認](verify-user-replication-has-completed_1.md)
+  - [ユーザー レプリケーションの完了の確認](verify-user-replication-has-completed.md)
 
-  - [1人のユーザーをパイロットプールに移動する](move-a-single-user-to-the-pilot-pool_1.md)
+  - [1人のユーザーをパイロットプールに移動する](move-a-single-user-to-the-pilot-pool.md)
 
-  - [複数のユーザーをパイロットプールに移動する](move-multiple-users-to-the-pilot-pool_1.md)
+  - [複数のユーザーをパイロットプールに移動する](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: ポートの概要-SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
+description: ポートの概要-SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7119bfd6209ac9a7d8eb2c4adfddb75c3601116d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7c58dbf7bdd56b4678d56f96a11332219bb40c17
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508754"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566359"
 ---
 # <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>ポートの概要-Lync Server 2013 の SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
 
