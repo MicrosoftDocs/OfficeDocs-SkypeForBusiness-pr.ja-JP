@@ -12,20 +12,22 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82ce84f2b3f5f27e25aceccbf7452f7707b8eb52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34e67a16b6f4d76d36684f8e80919271853150cc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502654"
 ---
+# <a name="client-policies-and-settings-in-lync-server-2013"></a>Lync Server 2013 のクライアントポリシーと設定
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-policies-and-settings-in-lync-server-2013"></a>Lync Server 2013 のクライアントポリシーと設定
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**トピックの最終更新日:** 2012-06-18_
 
 このトピックでは、Lync Server 2013 で構成できるクライアント関連の設定とポリシーの概要について説明します。 Lync Server 2013 には、クライアントの管理と構成に使用する次のツールが含まれています。
 
-  - **Lync Server 2013 コントロールパネル**   サーバー、ユーザー、クライアント、デバイスを管理および構成するための web ベースのグラフィカルユーザーインターフェイス。
+  - **Lync Server 2013 コントロールパネル**    サーバー、ユーザー、クライアント、デバイスを管理および構成するための web ベースのグラフィカルユーザーインターフェイス。
 
-  - **Lync Server 管理シェル**   は、Windows PowerShell コマンドラインインターフェイスコマンドレットの豊富なセットと事前に定義された多数のスクリプトを備えた管理インターフェイスを備えています。
+  - **Lync Server 管理シェル**    Windows PowerShell コマンドラインインターフェイスコマンドレットの豊富なセットと、あらかじめ定義された多数のスクリプトを使用した管理インターフェイス。
 
-  - **Lync 2013 グループポリシー**     Office グループポリシー管理用テンプレートを使用して、クライアントに対して構成できる一連のポリシー。 Lync 2013 クライアントを展開する前に、特定のクライアントブートストラップポリシーを構成する必要があります。 Lync 2010 からのその他のオプション設定は、引き続き Lync 2013 で使用されます。
+  - **Lync 2013 グループポリシー**    Office グループポリシー管理用テンプレートを使用して、クライアントに対して構成できる一連のポリシー。 Lync 2013 クライアントを展開する前に、特定のクライアントブートストラップポリシーを構成する必要があります。 Lync 2010 からのその他のオプション設定は、引き続き Lync 2013 で使用されます。
 
 このセクションでは、Lync Server 2013 でのクライアント関連の設定の変更について説明します。
 

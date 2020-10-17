@@ -12,20 +12,22 @@ ms:contentKeyID: 48184714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7faf0cd00b59d5df5bab1650a28eff8b9563f91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b80b5dccfeab136f02705264fea985550cb11240
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205683"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501724"
 ---
+# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Lync Server 2013 で DNS SRV レコードを作成および確認する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-and-verify-dns-srv-records-in-lync-server-2013"></a>Lync Server 2013 で DNS SRV レコードを作成および確認する
+
 
 </div>
 
@@ -47,19 +49,19 @@ _**トピックの最終更新日:** 2013-02-21_
 
 1.  DNS サーバー上で、[**スタート**] をクリックし、[**管理ツール**] をクリックします。次に、[**DNS**] をクリックします。
 
-2.  SIP ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Lync Server 2013 をインストールする SIP ドメインを右クリックします。
+2.  SIP ドメインのコンソールツリーで、[ **前方参照ゾーン**] を展開し、Lync Server 2013 をインストールする SIP ドメインを右クリックします。
 
 3.  [**その他の新しいレコード**] をクリックします。
 
 4.  [**リソース レコードの種類を選択**] の [**サービス ロケーション (SRV)**] をクリックし、[**レコードの作成**] をクリックします。
 
-5.  [**サービス**] をクリックし、「 ** \_sipinternaltls**」と入力します。
+5.  [**サービス**] をクリックし、「 ** \_ sipinternaltls**」と入力します。
 
-6.  [**プロトコル**] をクリックし、「 ** \_tcp**」と入力します。
+6.  [**プロトコル**] をクリックし、「 ** \_ tcp**」と入力します。
 
 7.  "**ポート番号**" フィールドをクリックし、「**5061**」と入力します。
 
-8.  [**このサービスを提供**しているホスト] をクリックし、プールまたは Standard Edition サーバーの FQDN を入力します。
+8.  [ **このサービスを提供**しているホスト] をクリックし、プールまたは Standard Edition サーバーの FQDN を入力します。
 
 9.  [**OK**] をクリックしてから、[**完了**] をクリックします。
 
@@ -79,15 +81,15 @@ _**トピックの最終更新日:** 2013-02-21_
 
 5.  「**set type=srv**」と入力し、Enter キーを押します。
 
-6.  「 ** \_Sipinternaltls」\_と入力します。tcp.contoso.com**と入力し、enter キーを押します。 トランスポート層セキュリティ (TLS) レコードに対して表示される出力は次のとおりです。
+6.  「Sipinternaltls」と入力** \_ します。 \_tcp.contoso.com**と入力し、enter キーを押します。 トランスポート層セキュリティ (TLS) レコードに対して表示される出力は次のとおりです。
     
-    サーバー: \<dns サーバー\>. contoso.com
+    サーバー: \<dns server\> . contoso.com
     
-    アドレス: \<DNS サーバーの IP アドレス\>
+    連絡先 \<IP address of DNS server\>
     
     Non-authoritative answer:
     
-    \_sipinternaltls.\_tcp.contoso.com SRV サービスの場所:
+    \_sipinternaltls。 \_tcp.contoso.com SRV サービスの場所:
     
     priority = 0
     
@@ -97,7 +99,7 @@ _**トピックの最終更新日:** 2013-02-21_
     
     svr hostname = poolname.contoso.com (または Standard Edition サーバー A レコード)
     
-    poolname.contoso.com internet address = \<enterprise edition サーバー\> \>また\<は Standard Edition サーバー \<の ip アドレスが1つしかないプールの場合は、1つの enterprise edition サーバーの仮想 ip アドレス\>
+    poolname.contoso.com internet address = \<virtual IP Address of the load balancer\> また \<IP address of a single Enterprise Edition server for pools with only one Enterprise Edition server\> は \<IP address of the Standard Edition server\>
 
 7.  終了したら、コマンド プロンプトに「**exit**」と入力し、Enter キーを押します。
 
@@ -113,7 +115,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 3.  [**名前**] ボックスに「**cmd**」と入力し、[**OK**] をクリックします。
 
-4.  コマンドプロンプトで、Standard Edition サーバー \<\>のフロントエンドプール\>または fqdn の「 **nslookup** \<fqdn」と入力し、enter キーを押します。
+4.  コマンドプロンプトで「 **nslookup** \<FQDN of the Front End pool\> または \<FQDN of the Standard Edition server\> 」と入力し、enter キーを押します。
 
 5.  受け取る応答が、FQDN の適切な IP アドレスに解決しているのを確認します。
 

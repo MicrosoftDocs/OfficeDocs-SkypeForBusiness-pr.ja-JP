@@ -12,20 +12,22 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 313d2201be5f5919aeec37087a02bf7f400d7ceb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8d12a67b0ba102fdacea66b6196bafe32d89c9d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751289"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503104"
 ---
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロット プールのレガシ エッジ サーバーへの接続
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロット プールのレガシ エッジ サーバーへの接続
+
 
 </div>
 
@@ -53,13 +55,13 @@ Lync server 2013 サイトが Lync Server 2010 展開のディレクターおよ
 
 4.  左ウィンドウで、[**フェデレーション ルート**] をクリックします。
 
-5.  ディレクターが表示されていない場合は、[**サイトのフェデレーションルートの割り当て**] で [ **SIP フェデレーションの有効化**] を選択し、[lync server 2010 director] または [Lync server 2010 エッジサーバー] を選択します。
+5.  ディレクターが表示されていない場合は、[ **サイトのフェデレーションルートの割り当て**] で [ **SIP フェデレーションの有効化**] を選択し、[lync server 2010 director] または [Lync server 2010 エッジサーバー] を選択します。
     
     ![[プロパティの編集]、[フェデレーションルート] ページ](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "[プロパティの編集]、[フェデレーションルート] ページ")  
 
 6.  [**OK**] をクリックして、[**プロパティの編集**] ページを閉じます。
 
-7.  [トポロジビルダー] の [Lync Server 2013] ノードで、 **Standard Edition サーバー**または**Enterprise Edition フロントエンドプール**に移動して、プールを右クリックし、[**プロパティの編集**] をクリックします。
+7.  [トポロジビルダー] の [Lync Server 2013] ノードで、 **Standard Edition サーバー** または **Enterprise Edition フロントエンドプール**に移動して、プールを右クリックし、[ **プロパティの編集**] をクリックします。
 
 8.  [**関連付け**] で、[**エッジ プール (メディア コンポーネント用) を関連付ける**] の横のチェック ボックスをオンにします。
 

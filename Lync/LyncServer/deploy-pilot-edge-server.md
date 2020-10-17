@@ -12,20 +12,22 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ba616f6a5ce86e0f94c3b52afd60aaba34b7635
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 37f2d51480567d1f775e9fb4b2161c9e54f8dfe7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751269"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502961"
 ---
+# <a name="deploy-pilot-edge-server"></a>パイロット エッジ サーバーを展開する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-pilot-edge-server"></a>パイロット エッジ サーバーを展開する
+
 
 </div>
 
@@ -57,13 +59,13 @@ _**トピックの最終更新日:** 2012-10-19_
     
     ![[機能の選択] ダイアログボックス](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "[機能の選択] ダイアログボックス")
 
-5.  次に、次のウィザードページに進みます。**外部 fqdn**、**内部 IP アドレスの定義**、および**外部 ip アドレスの定義**を行います。
+5.  次に、次のウィザードページに進みます。 **外部 fqdn**、 **内部 IP アドレスの定義**、および **外部 ip アドレスの定義**を行います。
 
-6.  [**次ホップの定義**] ページで、Lync Server 2010 エッジプールの次ホップのディレクターを選択します。
+6.  [ **次ホップの定義** ] ページで、Lync Server 2010 エッジプールの次ホップのディレクターを選択します。
     
     ![[次ホップの定義] ダイアログボックス](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "[次ホップの定義] ダイアログボックス")
 
-7.  [**フロントエンドまたは仲介プールの関連付け**] ページで、現時点ではプールをこのエッジプールに関連付けないでください。 外部メディアトラフィックは、現在、従来の Lync Server 2010 エッジサーバーを経由してルーティングされています。 この設定は、後ほど移行のフェーズで構成されます。
+7.  [ **フロントエンドまたは仲介プールの関連付け** ] ページで、現時点ではプールをこのエッジプールに関連付けないでください。 外部メディアトラフィックは、現在、従来の Lync Server 2010 エッジサーバーを経由してルーティングされています。 この設定は、後ほど移行のフェーズで構成されます。
     
     ![[フロントエンドプールの関連付け] ダイアログボックス](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "[フロントエンドプールの関連付け] ダイアログボックス")
 
@@ -71,7 +73,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 9.  「展開」のドキュメントの「 [Install Edge Servers For Lync server 2013](lync-server-2013-install-edge-servers.md) 」の手順に従って、新しいエッジサーバーにファイルをインストールし、証明書を構成して、サービスを開始します。
 
-「展開」のドキュメントの「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」のトピックのガイドラインに従うことが非常に重要です。 このセクションでは、これらのサーバーの役割をインストールする際の構成設定に関するガイドラインの一部を提供したにすぎません。
+「展開」のドキュメントの「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md) 」のトピックのガイドラインに従うことが非常に重要です。 このセクションでは、これらのサーバーの役割をインストールする際の構成設定に関するガイドラインの一部を提供したにすぎません。
 
 これで、Lync server 2013 エッジサーバー展開と並行して、従来の Lync Server 2010 エッジサーバーが展開されるようになります。 次のフェーズに進む前に、双方の展開が適切に動作していること、サービスが開始されていること、および各展開を管理できることを確認してください。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19cf24e1ef287b50ffece7407913a7d2c45e7062
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 903b115eaa820245135e0bc2c3650ba596c5d925
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755801"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502904"
 ---
+# <a name="download-topology-from-existing-deployment"></a>既存の展開環境からトポロジをダウンロードする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="download-topology-from-existing-deployment"></a>既存の展開環境からトポロジをダウンロードする
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server 2013 プールを作成する場合は、Lync Server 2010 に関連�
 
 2.  [**Lync Server 2013 – 展開ウィザード**] ページで、[**管理ツールのインストール**] をクリックします。
 
-3.  トポロジビルダーを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013** ]、[ **lync server トポロジビルダー**] の順にクリックします。
+3.  トポロジビルダーを起動します。 [ **スタート**]、[ **すべてのプログラム**]、[ **Microsoft Lync Server 2013** ]、[ **lync server トポロジビルダー**] の順にクリックします。
 
 4.  [**既存の展開からトポロジをダウンロードする**] をクリックします。
     

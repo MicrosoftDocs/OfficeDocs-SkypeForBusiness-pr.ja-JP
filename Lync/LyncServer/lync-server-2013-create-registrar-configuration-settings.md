@@ -12,20 +12,22 @@ ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2f9eac959e9061e42bdc05982593c9f21aa2b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2baa4cd40ae0f6421dbb01facecf0ab41825fc31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200188"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501594"
 ---
+# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でレジストラーの構成設定を作成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-registrar-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 でレジストラーの構成設定を作成する
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**トピックの最終更新日:** 2013-03-17_
 
 レジストラーを使用してプロキシ サーバーの認証方式を構成できます。 指定する認証プロトコルにより、プール内のサーバーがクライアントに発行するチャレンジの種類が決まります。 使用可能なプロトコルは以下のとおりです。
 
-  - **Kerberos**   これはクライアントが使用できる最強のパスワードベースの認証スキームですが、通常は、キー配布センター (Kerberos ドメインコントローラー) へのクライアント接続を必要とするため、通常はエンタープライズクライアントのみで使用できます。 この設定は、サーバーでエンタープライズのクライアントのみを認証する場合に適しています。
+  - **Kerberos**    これは、クライアントが使用できる最強のパスワードベースの認証スキームですが、通常は、キー配布センター (Kerberos ドメインコントローラー) へのクライアント接続を必要とするため、通常はエンタープライズクライアントのみで使用できます。 この設定は、サーバーでエンタープライズのクライアントのみを認証する場合に適しています。
 
-  - **NTLM**   これは、パスワードでチャレンジ応答ハッシュスキームを使用するクライアントが使用できるパスワードベースの認証です。 これは、リモート ユーザーなど、キー配布センター (Kerberos ドメイン コントローラ) に接続できないクライアントの認証で使用できる唯一のクライアント認証方式です。 サーバーでリモート ユーザーのみの認証処理を行う場合は、NTLM を選択してください。
+  - **NTLM**    これは、パスワードでチャレンジ応答ハッシュスキームを使用するクライアントが使用できるパスワードベースの認証です。 これは、リモート ユーザーなど、キー配布センター (Kerberos ドメイン コントローラ) に接続できないクライアントの認証で使用できる唯一のクライアント認証方式です。 サーバーでリモート ユーザーのみの認証処理を行う場合は、NTLM を選択してください。
 
-  - **証明書認証**   これは、サーバーが lync Phone Edition クライアント、共通領域電話、lync 2013、lync Windows ストアアプリから証明書を取得する必要がある場合の新しい認証方法です。 Lync Phone Edition クライアントでは、ユーザーがサインインして、暗証番号 (PIN) を提供することによって正常に認証されると、Lync Server 2013 は電話に対して SIP URI をプロビジョニングし、Lync Server 署名入りの証明書または Joe (Ex: SN=joe@contoso.com) を識別するユーザー証明書を電話にプロビジョニングします。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
+  - **証明書認証**    これは、サーバーが Lync Phone Edition クライアント、共通領域電話、Lync 2013、lync Windows ストアアプリから証明書を取得する必要がある場合の新しい認証方法です。 Lync Phone Edition クライアントでは、ユーザーがサインインして、暗証番号 (PIN) を提供することによって正常に認証されると、Lync Server 2013 は電話に対して SIP URI をプロビジョニングし、Lync Server 署名入りの証明書または Joe (Ex: SN=joe@contoso.com) を識別するユーザー証明書を電話にプロビジョニングします。 この証明書は、レジストラー サービスと Web サービスでの認証に使用されます。
 
 <div>
 

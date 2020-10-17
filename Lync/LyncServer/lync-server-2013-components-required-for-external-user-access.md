@@ -12,20 +12,22 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05c4b2845f4146c6394712951089750299ce60b7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7a97635c66d66703fc2e9879024004a95c2c09eb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221821"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502454"
 ---
+# <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 での外部ユーザーアクセスに必要なコンポーネント
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 での外部ユーザーアクセスに必要なコンポーネント
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44221821"
 
 _**トピックの最終更新日:** 2014-05-29_
 
-ほとんどのエッジコンポーネントは、境界ネットワーク内に展開されます。 境界ネットワークのエッジ トポロジは、次のコンポーネントで構成されます。 特に明記されていない限り、コンポーネントは[Lync Server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)の一部であり、境界ネットワークに存在します。 エッジ コンポーネントには、次のものが含まれます。
+ほとんどのエッジコンポーネントは、境界ネットワーク内に展開されます。 境界ネットワークのエッジ トポロジは、次のコンポーネントで構成されます。 特に明記されていない限り、コンポーネントは [Lync Server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md) の一部であり、境界ネットワークに存在します。 エッジ コンポーネントには、次のものが含まれます。
 
   - エッジ サーバー
 

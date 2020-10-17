@@ -12,20 +12,22 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45707cafca4a7ed9da7cdeb5e162128ccd73468d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 586a24f4cfacd2ed28947102a7d5a129159a26bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191510"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502504"
 ---
+# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーのコンポーネントとトポロジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 の常設チャットサーバーのコンポーネントとトポロジ
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2012-10-05_
     
 
     > [!IMPORTANT]  
-    > Lync Server 2013 で、ファイルのアップロード/ダウンロード用の常設チャット Web サービスが Lync Server 2013&nbsp;フロントエンドサーバーと併置されました。<BR>チャットルーム管理用の常設チャット Web サービスも、Lync Server 2013&nbsp;フロントエンドサーバーと併置されています。
+    > Lync Server 2013 で、ファイルのアップロード/ダウンロード用の常設チャット Web サービスが Lync Server 2013 フロントエンドサーバーと併置されました &nbsp; 。<BR>チャットルーム管理用の常設チャット Web サービスも、Lync Server 2013 フロントエンドサーバーと併置されてい &nbsp; ます。
 
     
     </div>
@@ -75,7 +77,7 @@ _**トピックの最終更新日:** 2012-10-05_
 
 別のコンピューター (管理コンソールなど) から常設チャットサーバーを管理するには、コンピューターの Lync Server コントロールパネルを使用します。 このコンピューターは、Active Directory ドメインサービスのドメインに展開し、フォレストのルートに少なくとも1つのグローバルカタログサーバーを配置する必要があります。
 
-常設チャットサーバーのハードウェア要件およびソフトウェア要件の詳細については、「サポート」のドキュメントの「lync server [2013 の常設チャットサーバーの技術要件](lync-server-2013-technical-requirements-for-persistent-chat-server.md)」、「lync server [2013 のサポートされているハードウェア](lync-server-2013-supported-hardware.md)」、および「 [Lync server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート](lync-server-2013-server-software-and-infrastructure-support.md)」を参照してください。
+常設チャットサーバーのハードウェア要件およびソフトウェア要件の詳細については、「サポート」のドキュメントの「lync server [2013 の常設チャットサーバーの技術要件](lync-server-2013-technical-requirements-for-persistent-chat-server.md)」、「lync server [2013 のサポートされているハードウェア](lync-server-2013-supported-hardware.md)」、および「 [Lync server 2013 でのサーバーソフトウェアとインフラストラクチャのサポート](lync-server-2013-server-software-and-infrastructure-support.md) 」を参照してください。
 
 </div>
 
@@ -83,7 +85,7 @@ _**トピックの最終更新日:** 2012-10-05_
 
 ## <a name="supported-collocation"></a>サポートされる配置
 
-Lync Server 2013 はさまざまな併置シナリオをサポートしており、1台のサーバーで複数のコンポーネントを実行することによって (小規模な組織の場合)、または別々のサーバーで個別のコンポーネントを実行することによって、ハードウェアコストを節約することができます (拡張性とパフォーマンスを必要とする大規模な組織。 コンポーネントを併置するかどうかを決定する前に、スケーラビリティの要因を必ず検討する必要があります。
+Lync Server 2013 では、さまざまな併置シナリオがサポートされており、1台のサーバーで複数のコンポーネントを実行することによって (小規模な組織の場合)、または個別のコンポーネントを異なるサーバーで実行することによって、ハードウェアコストを節約することができます (スケーラビリティとパフォーマンスを必要とする組織が大きい場合)。 コンポーネントを併置するかどうかを決定する前に、スケーラビリティの要因を必ず検討する必要があります。
 
 常設チャットコンプライアンスサービスは、コンプライアンスが有効になっている場合は、Lync Server 2013 フロントエンドサーバーと併置されます。
 
@@ -139,7 +141,7 @@ Lync Server 2013 Enterprise Edition では、常設チャットサーバーを E
 
 ## <a name="single-server-topology"></a>単一サーバー トポロジ
 
-常設チャットサーバーの最小構成と最も簡単な展開は、1つの常設チャットサーバーのフロントエンドサーバートポロジです。 この展開では、常設チャットサーバーを実行する単一のサーバー (オプションで、コンプライアンスが有効な場合はコンプライアンスサービスを実行します)、SQL Server データベースの両方をホストするサーバー、およびコンプライアンスが必要な場合は、それを格納する SQL Server データベースを使用する必要があります。コンプライアンスデータ。
+常設チャットサーバーの最小構成と最も簡単な展開は、1つの常設チャットサーバーのフロントエンドサーバートポロジです。 この展開では、常設チャットサーバーを実行する単一のサーバー (オプションで、コンプライアンスが有効な場合はコンプライアンスサービスを実行します)、SQL Server データベースの両方をホストするサーバー、およびコンプライアンスが必要な場合は、コンプライアンスデータを格納する SQL Server データベースを使用する必要があります。
 
 <div>
 

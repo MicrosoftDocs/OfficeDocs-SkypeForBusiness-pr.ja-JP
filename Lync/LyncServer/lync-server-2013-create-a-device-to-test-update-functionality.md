@@ -12,20 +12,22 @@ ms:contentKeyID: 48185466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67712f981d8061b8dd3c90de812092e01dc5d1b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bbf4d45edce186819241ce6244e1ea1cd6677bfa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195440"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501974"
 ---
+# <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a>Lync Server 2013 で更新プログラムの機能をテストするためのデバイスを作成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a>Lync Server 2013 で更新プログラムの機能をテストするためのデバイスを作成する
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195440"
 
 _**トピックの最終更新日:** 2013-02-23_
 
-[**テスト デバイス**] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスは、(Lync Server 環境全体を通じて) グローバルに、または単一のサイト内で一括してテストできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加すると、そのデバイスは Lync Server コントロールパネルの [**テストデバイス**] ページの一覧に表示されます。
+[**テスト デバイス**] ページにテスト デバイスを追加すると、新しい更新プログラムをプロダクション デバイスに展開する前に、このデバイスを使用して更新プログラムの機能を検証できます。 デバイスは、(Lync Server 環境全体を通じて) グローバルに、または単一のサイト内で一括してテストできます。 テスト デバイスは、そのメディア アクセス制御 (MAC) アドレスまたはシリアル番号で識別します。 デバイスを追加すると、そのデバイスは Lync Server コントロールパネルの [ **テストデバイス** ] ページの一覧に表示されます。
 
 <div>
 
@@ -69,7 +71,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="creating-test-devices-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してテストデバイスを作成する
 
-テストデバイスは、Windows PowerShell と New-cstestdevice コマンドレットを使用して作成できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+テストデバイスは、Windows PowerShell と New-CsTestDevice コマンドレットを使用して作成できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 このコマンドレットを使用してテスト デバイスを作成するには、以下の 2 つを行う必要があります。
 
@@ -103,7 +105,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 </div>
 
-詳細については、 [new-cstestdevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [new-cstestdevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

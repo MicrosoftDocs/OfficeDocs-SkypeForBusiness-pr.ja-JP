@@ -12,20 +12,22 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 437051279393b9dedc7c4def0c75cd119cded914
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e00071edd4a3d65e9db763914577983306491fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197830"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502674"
 ---
+# <a name="client-interoperability-in-lync-2013"></a>Lync 2013 でのクライアントの相互運用性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a>Lync 2013 でのクライアントの相互運用性
+
 
 </div>
 
@@ -64,14 +66,14 @@ _**トピックの最終更新日:** 2016-03-04_
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポート</p></td>
 <td><p>Supported5</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポート</p></td>
+<td><p>サポートされている</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="odd">
@@ -82,14 +84,14 @@ _**トピックの最終更新日:** 2016-03-04_
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポート</p></td>
+<td><p>サポートされている</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Attendant</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポート</p></td>
+<td><p>サポートされている</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="even">
@@ -113,31 +115,31 @@ _**トピックの最終更新日:** 2016-03-04_
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
 <td><p>Interoperable4</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポート</p></td>
+<td><p>サポート</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポートされます</p></td>
+<td><p>サポート</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポートされます</p></td>
+<td><p>サポート</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Live Meeting 2007</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポートされます</p></td>
+<td><p>サポート</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Windows ストアアプリ</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポート</p></td>
+<td><p>サポートされている</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 </tbody>
@@ -168,7 +170,7 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 
 ピアツーピア機能は、さまざまなバージョンのサーバーに所属するユーザーや、さまざまなクライアント バージョンを使用するユーザー向けにサポートされています。エンド ユーザー エクスペリエンスと使用できる機能は、ユーザーのクライアントの機能と、ユーザーがサインインするサーバーのバージョンに準じます。つまり、次のとおりです。
 
-  - 以前のクライアントを使用して Lync Server 2013 にサインインしている場合、そのユーザーはと同じ操作を実行できます。 Lync Server 2013 で導入された新機能は、ユーザーのクライアントがアップグレードされるまで使用できません。 例としては、ビデオギャラリービュー、HD ビデオ、更新された PowerPoint 共有、会議エントリ時にすべての参加者の音声とビデオをミュートするオプションなどがあります。 新しい機能については、「 [Lync server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md)」と「 [lync server 2013 のクライアント向けの新](lync-server-2013-what-s-new-for-clients.md)機能」に記載されています。
+  - 以前のクライアントを使用して Lync Server 2013 にサインインしている場合、そのユーザーはと同じ操作を実行できます。 Lync Server 2013 で導入された新機能は、ユーザーのクライアントがアップグレードされるまで使用できません。 例としては、ビデオギャラリービュー、HD ビデオ、更新された PowerPoint 共有、会議エントリ時にすべての参加者の音声とビデオをミュートするオプションなどがあります。 新しい機能については、「 [Lync server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md) 」と「 [lync server 2013 のクライアント向けの新](lync-server-2013-what-s-new-for-clients.md)機能」に記載されています。
 
   - Lync 2013 クライアントで Lync Server 2010 にサインインしている場合、lync server 2010 でサポートされていないすべての新機能は、ユーザーが Lync Server 2013 に移行されるまで使用できなくなります。
 
@@ -214,7 +216,7 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
@@ -223,7 +225,7 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010</p></td>
@@ -232,13 +234,13 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Attendant</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -246,7 +248,7 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 <tr class="odd">
 <td><p>Lync 2010 Mobile</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -256,7 +258,7 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 <td><p>Lync Phone Edition</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -266,14 +268,14 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>はい1</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="even">
 <td><p>パブリック IM (AOL、Yahoo!)</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -284,7 +286,7 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td></td>
 <td></td>
 </tr>
@@ -328,13 +330,13 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 
 ユーザーが lync Server 2010 会議に Lync 2013 クライアントを参加させると、次の例外を除き、Lync 2013 クライアント機能にアクセスすることができます。
 
-  - [**参加者**の管理] オプションでは、会議ウィンドウの [ユーザー] アイコンをポイントすることによってアクセスできます。 [**会議 IM**を利用しない] オプションは機能しません。
+  - [ **参加者** の管理] オプションでは、会議ウィンドウの [ユーザー] アイコンをポイントすることによってアクセスできます。 [ **会議 IM** を利用しない] オプションは機能しません。
 
-  - ギャラリービューは、ビデオ会議では機能しません。 ユーザーには、すべてのスピーカーではなく、アクティブなスピーカーのみが表示されます。 [レイアウトオプションの**選択**] の一覧で、**ギャラリービュー**を使用できません
+  - ギャラリービューは、ビデオ会議では機能しません。 ユーザーには、すべてのスピーカーではなく、アクティブなスピーカーのみが表示されます。 [レイアウトオプションの **選択** ] の一覧で、 **ギャラリービュー** を使用できません
 
   - 参加者リストは、既定では、ビデオ会議に表示されます。
 
-  - [参加者] リストでユーザーを右クリックすると、[**ビデオスポットライトをロック**する] および [ギャラリー参加者管理**にピン留めする**] オプションが使用できなくなります。
+  - [参加者] リストでユーザーを右クリックすると、[ **ビデオスポットライトをロック** する] および [ギャラリー参加者管理 **にピン留めする** ] オプションが使用できなくなります。
 
 </div>
 
@@ -342,7 +344,7 @@ Lync Server 2013 リリースでは、さまざまなクライアントバージ
 
 ## <a name="conferencing-feature-support-in-lync-server-2013-meetings"></a>Lync Server 2013 会議での会議機能のサポート
 
-Lync Server 2013 は、アカウントが Lync Server 2013 に移動され、Lync 2013 クライアントを使用してサインインした後で、ユーザーが利用できるようになる新しい会議機能を提供します。 例としては、ビデオギャラリービュー、HD ビデオ、PowerPoint 共有、会議エントリ時にすべての参加者の音声とビデオをミュートするオプションなどがあります。 新しい機能については、「 [Lync server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md)」と「 [lync server 2013 のクライアント向けの新](lync-server-2013-what-s-new-for-clients.md)機能」に記載されています。
+Lync Server 2013 は、アカウントが Lync Server 2013 に移動され、Lync 2013 クライアントを使用してサインインした後で、ユーザーが利用できるようになる新しい会議機能を提供します。 例としては、ビデオギャラリービュー、HD ビデオ、PowerPoint 共有、会議エントリ時にすべての参加者の音声とビデオをミュートするオプションなどがあります。 新しい機能については、「 [Lync server 2013 の新しい会議機能](lync-server-2013-new-conferencing-features.md) 」と「 [lync server 2013 のクライアント向けの新](lync-server-2013-what-s-new-for-clients.md)機能」に記載されています。
 
 Lync Server 2013 の会議では、さまざまなバージョンのサーバーに所属しており、異なるクライアントとクライアントバージョンを使用しているユーザーが、特定の会議機能をサポートしています。 クライアントが Lync Server 2013 会議に参加すると、ユーザーはこの表に示されている機能にアクセスできるようになります。
 
@@ -382,7 +384,7 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
@@ -393,33 +395,33 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Web App</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>はい2</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td><p>はい3</p></td>
 <td><p>はい</p></td>
 <td><p>はい</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2 4</p></td>
-<td><p>はい</p></td>
+<td><p>必要</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -436,7 +438,7 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 
 2 Lync Server 2013 は、PowerPoint ファイルをアップロードするための更新されたメカニズムを使用します。 Lync Server 2010 で最初に予約された会議に参加している lync Web App ユーザーは、PowerPoint プレゼンテーションを表示して移動することはできますが、PowerPoint ファイルをアップロードすることはできません。
 
-3 Lync Server 2013 で会議がスケジュールされており、PowerPoint スライドが Lync 2013 クライアントによってアップロードされている場合、Lync 2010 ユーザーはスライドに対して表示専用のアクセス権を持ちます。 反対に、PowerPoint スライドが Lync 2010 ユーザーによってアップロードされている場合、Lync Server 2013 ユーザーは、表示およびスライドし、Office Web Apps サーバーが構成されている場合は、高解像度表示、アニメーション、スライドの切り替え、およびその他の新機能にアクセスすることができます。埋め込みビデオ。 詳細については、「 [Office Web Apps Server および Lync Server 2013 との統合の構成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)」を参照してください。
+3 Lync Server 2013 で会議がスケジュールされており、PowerPoint スライドが Lync 2013 クライアントによってアップロードされている場合、Lync 2010 ユーザーはスライドに対して表示専用のアクセス権を持ちます。 反対に、PowerPoint スライドが Lync 2010 ユーザーによってアップロードされている場合、Lync Server 2013 ユーザーは表示やスライドの表示が可能で、Office Web Apps サーバーが構成されていれば、高解像度の表示、アニメーション、画面切り替え、埋め込みビデオなどの新しい機能にアクセスすることができます。 詳細については、「 [Office Web Apps Server および Lync Server 2013 との統合の構成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)」を参照してください。
 
 4The Communicator 2007 R2 のプレゼンスおよび IM 機能は Lync Server 2013 と互換性がありますが、会議機能はサポートされていません。 Office Communications Server 2007 R2 からの移行時に、Office Communicator 2007 R2 はプレゼンスおよび IM の相互運用性に適していますが、ユーザーは lync Server の2013会議に参加するために Lync Web App 2013 を使用する必要があります。
 
@@ -450,11 +452,11 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 
 スケジュールのさまざまなアドインに対するサーバーのサポートは、サーバーとクライアントのバージョンの互換性に準じます。 一般に、Lync Server 2013 では、次のスケジュール設定アドインがサポートされています。 ただし、以前のバージョンのアドインでは、会議の入力時にすべての参加者の音声とビデオをミュートするオプションなど、Lync 2013 アドインの新しい機能は提供されません。
 
-  - **Lync 2013**   用オンラインミーティングアドインは、lync 2010 用オンラインミーティングアドインと同じ機能を提供します。参加者のミュートコントロールを追加すると、会議の開催者は参加者の音声とビデオが既定でミュートされた会議をスケジュールすることができます。 管理者は、カスタムのロゴ、サポート URL、法的免責事項 URL、またはカスタムのフッター テキストを追加して、組織の会議出席依頼をカスタマイズすることもできます。
+  - **Lync 2013**     用オンラインミーティングアドインLync 2010 用のオンライン会議アドインと同じ機能を提供します。参加者のミュートコントロールを追加すると、会議の開催者は参加者の音声とビデオが既定でミュートされた会議をスケジュールできます。 管理者は、カスタムのロゴ、サポート URL、法的免責事項 URL、またはカスタムのフッター テキストを追加して、組織の会議出席依頼をカスタマイズすることもできます。
 
-  - **Lync 2010**   用オンラインミーティングアドインは、lync 会議のスケジュールを提供し、Office Live meeting 会議をスケジュールする機能を削除します。
+  - **Lync 2010**     用オンラインミーティングアドインLync 会議のスケジュールを提供し、Office Live Meeting 会議をスケジュールする機能を削除します。
 
-  - **Office communicator 2007 r2 会議アドイン**   は、office Live Meeting 会議と office Communicator 2007 R2 会議の両方のスケジュールを提供します。 
+  - **Office Communicator 2007 R2 会議アドイン**    Office Live Meeting 会議と Office Communicator 2007 R2 会議の両方のスケジュールを提供します。 
 
 <div>
 
@@ -485,7 +487,7 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013 用オンラインミーティングアドイン (Office 2013、Outlook 2010、および Outlook 2007 で使用できます)</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポート</p></td>
 <td><p>サポート対象 (新しいアドイン機能は使用不可)</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
@@ -497,15 +499,15 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 </tr>
 <tr class="odd">
 <td><p>Online Meeting Add-in for Lync 2010</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポート</p></td>
+<td><p>サポートされている</p></td>
 <td><p>サポート対象外</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007 R2 会議アドイン</p></td>
 <td><p>サポート対象外</p></td>
-<td><p>サポート済み</p></td>
-<td><p>サポート済み</p></td>
+<td><p>サポートされます</p></td>
+<td><p>サポート</p></td>
 </tr>
 </tbody>
 </table>

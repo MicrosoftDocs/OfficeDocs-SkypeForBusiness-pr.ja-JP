@@ -12,20 +12,22 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc382eea0f59719432e11731c6b82c393f751b16
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9aa81c938d69aedbc599194c1d820fa4c40e3337
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755451"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502894"
 ---
+# <a name="enable-remote-call-control"></a>リモート通話コントロールを有効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-remote-call-control"></a>リモート通話コントロールを有効にする
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-10-02_
 
 2.  トポロジを統合してポリシーと設定を移行した後、CSTA 要求を SIP/CSTA ゲートウェイにルーティングするように Lync Server 2013 を構成します。 この手順は、自動移行の後で行う手動手順です。 CSTA 要求のルーティングを構成するには、次の操作を行います。
     
-      - 従来の承認済みホストエントリを削除します (Lync Server 2013 では、*信頼されたサーバーのエントリ*として知られています)。 従来の展開からユーザーを移行する場合は、Lync Server 2013 パイロットプールで新しい信頼済みアプリケーションエントリを構成する前に、SIP/CSTA ゲートウェイ用に作成した既存の承認済みホストエントリをすべて削除してください。 従来の承認済みホストエントリを削除する方法の詳細については、「[承認済みホストエントリを削除](remove-an-authorized-host-entry.md)する」を参照してください。
+      - 従来の承認済みホストエントリを削除します (Lync Server 2013 では、 *信頼されたサーバーのエントリ* として知られています)。 従来の展開からユーザーを移行する場合は、Lync Server 2013 パイロットプールで新しい信頼済みアプリケーションエントリを構成する前に、SIP/CSTA ゲートウェイ用に作成した既存の承認済みホストエントリをすべて削除してください。 従来の承認済みホストエントリを削除する方法の詳細については、「 [承認済みホストエントリを削除](remove-an-authorized-host-entry.md)する」を参照してください。
     
       - リモート通話コントロールの静的ルートを構成します。 リモート通話コントロールをサポートする個別のプールに静的ルートを構成したり、プール レベルの静的ルートが構成されていない各プールでグローバル静的ルートが使用されるようにグローバル静的ルートを構成したりできます。 静的ルートを構成する方法の詳細については、「展開」のドキュメントの「 [configure a static route for remote call control In Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md) 」を参照してください。
     

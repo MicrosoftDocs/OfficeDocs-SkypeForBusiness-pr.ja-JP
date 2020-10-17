@@ -12,20 +12,22 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b6c824da8eccaec0cb48450b0d81dddcc60f99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ac46c8aba06bdfedaafa7846142d5a584c703c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187990"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502564"
 ---
+# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 の仲介サーバーのコンポーネントとトポロジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 の仲介サーバーのコンポーネントとトポロジ
+
 
 </div>
 
@@ -85,7 +87,7 @@ Microsoft Lync Server 2013、計画ツールを使用して、仲介サーバー
 
 ![音声トポロジ仲介サーバーの WAN PBX](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "音声トポロジ仲介サーバーの WAN PBX")
 
-PBX トポロジの計画の詳細については、「lync server [2013 の仲介サーバーの展開ガイドライン](lync-server-2013-deployment-guidelines-for-mediation-server.md)」と「 [Direct SIP Deployment Options in lync server 2013](lync-server-2013-direct-sip-deployment-options.md)」を参照してください。
+PBX トポロジの計画の詳細については、「lync server [2013 の仲介サーバーの展開ガイドライン](lync-server-2013-deployment-guidelines-for-mediation-server.md) 」と「 [Direct SIP Deployment Options in lync server 2013](lync-server-2013-direct-sip-deployment-options.md)」を参照してください。
 
 このトピックの最後の図は、仲介サーバーがインターネットテレフォニーサービスプロバイダーの SBC に接続されているトポロジを示しています。 SIP トランクトポロジの詳細については、「 [Lync Server 2013 の sip トランキング](lync-server-2013-sip-trunking.md)」を参照してください。
 

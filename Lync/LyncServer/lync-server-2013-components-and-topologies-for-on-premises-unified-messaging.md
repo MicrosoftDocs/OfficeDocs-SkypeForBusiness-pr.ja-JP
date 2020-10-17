@@ -12,20 +12,22 @@ ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a21f24e87f889213a92123886a871dd1f5209ed1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da7b4c62daf2ed5bdc7416a704e2c70f18802419
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208103"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502514"
 ---
+# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a>Lync Server 2013 でのオンプレミスのユニファイドメッセージングのコンポーネントとトポロジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a>Lync Server 2013 でのオンプレミスのユニファイドメッセージングのコンポーネントとトポロジ
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**トピックの最終更新日:** 2012-09-25_
 
 ## <a name="exchange-server-components"></a>Exchange Server コンポーネント
 
-統合された[ユニファイドメッセージングと Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md)について説明されている exchange UM の機能とサービスを組織のエンタープライズ voip ユーザーに提供するには、ユーザーメールボックスをホストする Microsoft Exchange メールボックスサーバーとクライアントアクセスサーバーを展開し、電子メールとボイスメール用の単一の格納場所を提供する必要があります。 Exchange UM は、Exchange メールボックスサーバーおよびクライアントアクセスサーバー上のサービスとして実行されます。
+統合された [ユニファイドメッセージングと Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md) について説明されている exchange UM の機能とサービスを組織のエンタープライズ voip ユーザーに提供するには、ユーザーメールボックスをホストする Microsoft Exchange メールボックスサーバーとクライアントアクセスサーバーを展開し、電子メールとボイスメール用の単一の格納場所を提供する必要があります。 Exchange UM は、Exchange メールボックスサーバーおよびクライアントアクセスサーバー上のサービスとして実行されます。
 
-Microsoft Exchange Server 2007 と Microsoft Exchange Server 2010 の Exchange UM コンポーネントの詳細については、「展開」のドキュメントの「[社内 EXCHANGE um を展開して Lync Server 2013 ボイスメールを提供する](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)」を参照してください。
+Microsoft Exchange Server 2007 と Microsoft Exchange Server 2010 の Exchange UM コンポーネントの詳細については、「展開」のドキュメントの「 [社内 EXCHANGE um を展開して Lync Server 2013 ボイスメールを提供する](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) 」を参照してください。
 
 </div>
 

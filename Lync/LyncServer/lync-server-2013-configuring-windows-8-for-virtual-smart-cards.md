@@ -12,20 +12,22 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10cedd0162b5d7680d3aadd016fbcb8ea87e0d67
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 09f6c33ab9619e7a6b168e5d552ac13d84343c3c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195520"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502064"
 ---
+# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Lync Server 2013 で仮想スマートカードを使用するための Windows 8 の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Lync Server 2013 で仮想スマートカードを使用するための Windows 8 の構成
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2013-07-03_
 
 2要素認証とスマートカードテクノロジを展開する際に考慮する要因の1つは、実装コストです。 Windows 8 には新しいセキュリティ機能がいくつか用意されており、最も興味深い新機能の1つは仮想スマートカードのサポートです。
 
-仕様バージョン1.2 を満たすトラステッドプラットフォームモジュール (TPM) チップを備えたコンピューターの場合、組織は、ハードウェアに追加の投資を行わずにスマートカードログオンの利点を得ることができます。 詳細については、「Windows 8 での仮想スマート[https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365)カードの使用」を参照してください。
+仕様バージョン1.2 を満たすトラステッドプラットフォームモジュール (TPM) チップを備えたコンピューターの場合、組織は、ハードウェアに追加の投資を行わずにスマートカードログオンの利点を得ることができます。 詳細については、「Windows 8 での仮想スマートカードの使用」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365) 。
 
 <div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2013-07-03_
 
 3.  **検索**オプションを選択し、**コマンドプロンプト**を検索します。
 
-4.  [**コマンドプロンプト**] を右クリックし、[**管理者として実行**] を選択します。
+4.  [ **コマンドプロンプト**] を右クリックし、[ **管理者として実行**] を選択します。
 
 5.  次のコマンドを実行して、トラステッドプラットフォームモジュール (TPM) 管理コンソールを開きます。
     
@@ -87,9 +89,9 @@ _**トピックの最終更新日:** 2013-07-03_
     
         CompMgmt.msc
 
-10. [コンピューターの管理] コンソールで、[**デバイス管理**] を選択します。
+10. [コンピューターの管理] コンソールで、[ **デバイス管理**] を選択します。
 
-11. [**スマートカード読み取り装置**] を展開します。
+11. [ **スマートカード読み取り装置**] を展開します。
 
 12. 新しい仮想スマートカードリーダーが正常に作成されたことを確認します。
 

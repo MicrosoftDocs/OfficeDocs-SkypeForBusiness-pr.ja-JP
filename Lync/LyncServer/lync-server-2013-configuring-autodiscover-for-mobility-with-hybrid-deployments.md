@@ -12,20 +12,22 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d09ad9555e9ef694baece8bf089eeaa06814f51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c3b0617094c9dcab6b6eee0cf634440fea63cf16
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180284"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502164"
 ---
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Lync Server 2013 での自動検出の構成 (ハイブリッド展開を使用したモビリティ)
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Lync Server 2013 での自動検出の構成 (ハイブリッド展開を使用したモビリティ)
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2014-06-18_
 
 ハイブリッド展開は、Microsoft Lync Online cloud service とオンプレミス展開の両方を使用する構成です。 この種類の構成では、自動検出サービスは、ユーザーの実際の場所を特定できなければなりません。 つまり、自動検出では、ユーザーアカウントを検索し、ユーザーのアカウントをホストしているサーバーがオンプレミスの展開にあるか、Lync Online の展開であるかに関係なく、ユーザーアカウントをホストしている場所に支援します。
 
-たとえば、ユーザーのアカウントが Lync Online のサーバーでホストされている場合、ユーザーの検索は次のように実行されます。これは、*発見*性と呼ばれるプロセスにあります。
+たとえば、ユーザーのアカウントが Lync Online のサーバーでホストされている場合、ユーザーの検索は次のように実行されます。これは、 *発見*性と呼ばれるプロセスにあります。
 
   - ユーザーは、内部設置型展開である **contoso.com** への接続を試行します.
 
@@ -55,13 +57,13 @@ _**トピックの最終更新日:** 2014-06-18_
 
 ## <a name="configuring-autodiscover-for-hybrid-deployments"></a>ハイブリッド展開のための自動検出の構成
 
-1.  属性 ProxyFQDN の値を取得するには、Get-CsHostingProvider を使用します。
+1.  Get-CsHostingProvider を使用して、属性 ProxyFQDN の値を取得します。
 
 2.  Lync Server 管理シェルで、と入力します。
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    \[Id\]は、共有 SIP アドレススペースのドメイン名に置き換えられます。
+    \[Id \] は、共有 SIP アドレススペースのドメイン名に置き換えられます。
 
 </div>
 

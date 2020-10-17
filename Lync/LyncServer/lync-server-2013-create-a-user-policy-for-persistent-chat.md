@@ -12,20 +12,22 @@ ms:contentKeyID: 48185103
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40e992bbbd5d2559619e2ebe5a0d67c83102e546
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2dba93ca943c16caa6ee4982533e59c958e60ffc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195880"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501844"
 ---
+# <a name="create-a-user-policy-for-persistent-chat-in-lync-server-2013"></a>Lync Server 2013 で常設チャット用のユーザーポリシーを作成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-user-policy-for-persistent-chat-in-lync-server-2013"></a>Lync Server 2013 で常設チャット用のユーザーポリシーを作成する
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync Server コントロールパネルで **、ユーザーに**割り当てる
 
 
 > [!NOTE]  
-> 常設チャットサーバーを構成して使用するには、まず、トポロジビルダーを使用して、常設チャットサーバーのサポートをトポロジに追加してから、トポロジを公開する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013 での展開への常設チャットサーバーの追加</A>」を参照してください。<BR>常設チャットサーバーの構成設定を構成するには、「展開」のドキュメントの「 <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure 常設 Chat server options For Lync server 2013</A>の常設チャットサーバーのオプション」を参照してください。
+> 常設チャットサーバーを構成して使用するには、まず、トポロジビルダーを使用して、常設チャットサーバーのサポートをトポロジに追加してから、トポロジを公開する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync server 2013 での展開への常設チャットサーバーの追加</A> 」を参照してください。<BR>常設チャットサーバーの構成設定を構成するには、「展開」のドキュメントの「 <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure 常設 Chat server options For Lync server 2013</A> の常設チャットサーバーのオプション」を参照してください。
 
 
 
@@ -57,13 +59,13 @@ Lync Server コントロールパネルで **、ユーザーに**割り当てる
 
 1.  CsPersistentChatAdministrator、CsAdministrator、または CsUserAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  [**スタート**] メニューから [Lync Server コントロールパネル] を選択するか、ブラウザーウィンドウを開いて管理 URL を入力します。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
+2.  [ **スタート** ] メニューから [Lync Server コントロールパネル] を選択するか、ブラウザーウィンドウを開いて管理 URL を入力します。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Windows PowerShell コマンドレットを使用することもできます。 「展開」のドキュメントの「 <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Windows PowerShell コマンドレットを使用して常設チャットサーバーを構成する</A>」を参照してください。
+    > Windows PowerShell コマンドレットを使用することもできます。 「展開」のドキュメントの「 <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Windows PowerShell コマンドレットを使用して常設チャットサーバーを構成する</A> 」を参照してください。
 
     
     </div>
@@ -76,9 +78,9 @@ Lync Server コントロールパネルで **、ユーザーに**割り当てる
     
       - [**名前**] で、新しいユーザー ポリシーの名前を指定します。
     
-      - [**説明**] に、ユーザーポリシーの内容に関する詳細を入力します (たとえば、特定のユーザーの常設チャットポリシー)。
+      - [ **説明**] に、ユーザーポリシーの内容に関する詳細を入力します (たとえば、特定のユーザーの常設チャットポリシー)。
     
-      - ユーザーポリシーによって特に制御されていないすべてのユーザーの常設チャットを制御するには、[**常設チャットを有効に**する] チェックボックスをオンまたはオフにします。
+      - ユーザーポリシーによって特に制御されていないすべてのユーザーの常設チャットを制御するには、[ **常設チャットを有効に** する] チェックボックスをオンまたはオフにします。
 
 6.  [**確定**] をクリックします。
 

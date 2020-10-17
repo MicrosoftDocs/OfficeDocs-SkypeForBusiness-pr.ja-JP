@@ -12,20 +12,22 @@ ms:contentKeyID: 48183297
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 733dcadc52550c665cc74407a81cddbfbd5ea640
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd3d666eefe04a6650a5c1a10253f490e391ff22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195370"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501514"
 ---
+# <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195370"
 
 _**トピックの最終更新日:** 2012-10-01_
 
-Standard Edition サーバーを既存の Enterprise Edition の展開に展開することは、追加のサーバーの役割の展開に似ています。 Standard Edition サーバーは別のサイトに展開される可能性があります。これにより、そのサイトのユーザーは、ワイドエリアネットワーク (WAN) を介してフロントエンドプールではなく、Standard Edition サーバーに所属することができます。 サイトに新しいサイトとサーバーをインストールする手順は、「 [Lync Server 2013](lync-server-2013-deploying-lync-server.md)ドキュメントの展開」の他のセクションで既に定義されています。
+Standard Edition サーバーを既存の Enterprise Edition の展開に展開することは、追加のサーバーの役割の展開に似ています。 Standard Edition サーバーは別のサイトに展開される可能性があります。これにより、そのサイトのユーザーは、ワイドエリアネットワーク (WAN) を介してフロントエンドプールではなく、Standard Edition サーバーに所属することができます。 サイトに新しいサイトとサーバーをインストールする手順は、「 [Lync Server 2013](lync-server-2013-deploying-lync-server.md) ドキュメントの展開」の他のセクションで既に定義されています。
 
 <div id="sectionSection0" class="section">
 
@@ -45,7 +47,7 @@ Standard Edition サーバーを既存の Enterprise Edition の展開に展開�
 
 1.  トポロジ ビルダーを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server トポロジ ビルダー**] の順にクリックします。
 
-2.  コンソールツリーで、[ **Lync Server 2013**] を右クリックし、[**新しいセントラルサイト**] をクリックします。
+2.  コンソールツリーで、[ **Lync Server 2013**] を右クリックし、[ **新しいセントラルサイト**] をクリックします。
 
 3.  [**サイトの識別**] ページでサイトに名前を付け、オプションで説明を入力します。
 
@@ -59,7 +61,7 @@ Standard Edition サーバーを既存の Enterprise Edition の展開に展開�
     
 
     > [!Caution]  
-    > Standard Edition サーバーのみを使用して環境を展開した場合は、[<STRONG>最初の Standard edition サーバーの準備</STRONG>] リンクを使用して、新しい standard edition サーバーに初期データベースファイルをインストールすることによって、Lync Server 展開ウィザードからセットアッププロセスを開始します。 Standard Edition サーバーを既存の Lync Server 2013 展開にインストールする場合は、このプロセスを実行<STRONG>しないでください</STRONG>。
+    > Standard Edition サーバーのみを使用して環境を展開した場合は、[ <STRONG>最初の Standard edition サーバーの準備</STRONG> ] リンクを使用して、新しい standard edition サーバーに初期データベースファイルをインストールすることによって、Lync Server 展開ウィザードからセットアッププロセスを開始します。 Standard Edition サーバーを既存の Lync Server 2013 展開にインストールする場合は、このプロセスを実行<STRONG>しないでください</STRONG>。
 
     
     </div>

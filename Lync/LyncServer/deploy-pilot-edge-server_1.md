@@ -12,20 +12,22 @@ ms:contentKeyID: 48183446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4245efe0faf5dfe947cc52fb22a447e46c0b3e8
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 27b7cf106cb8c65f01a1c1935ff98a8f9d428b27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751259"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502934"
 ---
+# <a name="deploy-pilot-edge-server"></a>パイロット エッジ サーバーを展開する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-pilot-edge-server"></a>パイロット エッジ サーバーを展開する
+
 
 </div>
 
@@ -59,11 +61,11 @@ _**トピックの最終更新日:** 2012-10-19_
 
 5.  次に、引き続きウィザードの [**IP オプションの選択**]、[**外部 FQDN**]、[**内部 IP アドレスの定義**]、および [**外部 IP アドレスの定義**] の各ページの設定を完了します。
 
-6.  [**次ホップの定義**] ページで、Lync Server 2013 エッジプールの次ホップのディレクターを選択します。
+6.  [ **次ホップの定義** ] ページで、Lync Server 2013 エッジプールの次ホップのディレクターを選択します。
     
     ![[新しいエッジプールの定義] ダイアログ、次ホッププール一覧](images/JJ204682.61d963d5-e0bd-4b1f-b437-e37c267347ba(OCS.15).jpg "[新しいエッジプールの定義] ダイアログ、次ホッププール一覧")
 
-7.  [**フロントエンドプールの関連付け**] ページで、現時点ではプールをこのエッジプールに関連付けないでください。 外部メディアトラフィックは、現在、従来の Office Communications Server 2007 R2 エッジサーバーを経由してルーティングされます。 この設定は、後ほど移行のフェーズで構成されます。
+7.  [ **フロントエンドプールの関連付け** ] ページで、現時点ではプールをこのエッジプールに関連付けないでください。 外部メディアトラフィックは、現在、従来の Office Communications Server 2007 R2 エッジサーバーを経由してルーティングされます。 この設定は、後ほど移行のフェーズで構成されます。
     
     ![[新しいエッジプールの定義] ダイアログ](images/JJ204682.bb538039-bd2a-40ed-a120-8b80bd2cefc2(OCS.15).jpg "[新しいエッジプールの定義] ダイアログ")
 
@@ -71,7 +73,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 9.  「展開」のドキュメントの「 [Install Edge Servers For Lync server 2013](lync-server-2013-install-edge-servers.md) 」の手順に従って、新しいエッジサーバーにファイルをインストールし、証明書を構成して、サービスを開始します。
 
-「展開」のドキュメントの「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md)」のトピックのガイドラインに従うことが非常に重要です。 このセクションでは、これらのサーバーの役割をインストールする際の構成設定に関するガイドラインの一部を提供したにすぎません。
+「展開」のドキュメントの「 [Lync Server 2013 での外部ユーザーアクセスの展開](lync-server-2013-deploying-external-user-access.md) 」のトピックのガイドラインに従うことが非常に重要です。 このセクションでは、これらのサーバーの役割をインストールする際の構成設定に関するガイドラインの一部を提供したにすぎません。
 
 これで、BackCompatSite の存在が Lync Server 2013 エッジサーバー展開と並行して、従来の Office Communications Server 2007 R2 エッジサーバー展開を使用できるようになります。 フェデレーションは、Office Communications Server 2007 R2 Director を使用するように構成されています。 次のフェーズに進む前に、双方の展開が適切に動作していること、サービスが開始されていること、および各展開を管理できることを確認してください。
 

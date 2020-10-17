@@ -12,20 +12,22 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11c5e545bc00de48fa5590dc8c4b119a46ffe9e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f5e8465ce7f0343bea96ee6f0613b8725d0e540
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190370"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502704"
 ---
+# <a name="check-lync-server-2013-server-certificates"></a>Lync Server 2013 のサーバー証明書を確認する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-lync-server-2013-server-certificates"></a>Lync Server 2013 のサーバー証明書を確認する
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-11-01_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、ユーザーに、CsCertificate コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Get-CsCertificate コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Get-CsCertificate&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,7 +68,7 @@ _**トピックの最終更新日:** 2014-11-01_
 
 ## <a name="description"></a>説明
 
-Get-help Certificate コマンドレットを使用すると、各 Lync Server 証明書に関する情報を取得できます。 証明書には有効期限が組み込まれているため、これは特に重要です。 たとえば、非公開で発行された証明書は、通常12か月後に期限切れになります。 いずれかの Lync Server 証明書の有効期限が切れた場合は、その証明書が更新または置き換えられるまで、付随する機能が失われます。
+Get-CsCertificate コマンドレットを使用すると、各 Lync Server 証明書に関する情報を取得できます。 証明書には有効期限が組み込まれているため、これは特に重要です。 たとえば、非公開で発行された証明書は、通常12か月後に期限切れになります。 いずれかの Lync Server 証明書の有効期限が切れた場合は、その証明書が更新または置き換えられるまで、付随する機能が失われます。
 
 </div>
 
@@ -82,9 +84,9 @@ Get-help Certificate コマンドレットを使用すると、各 Lync Server �
 
 `Get-CsCertificate | Where-Object {$_.NotAfter -lt "6/1/2014"}`
 
-詳細については、「Get-help Certificate コマンドレットのヘルプドキュメント」を参照してください。
+詳細については、Get-CsCertificate コマンドレットのヘルプドキュメントを参照してください。
 
-なお、Test-Cs/cs/コマンドレットは存在していても、管理者にとってはあまり役に立たないことに注意してください。 (そのコマンドレットは、主に証明書ウィザードによって使用されます)。コマンドレットは動作しますが、次の出力例に示すように、返される情報は最小値です。
+Test-CsCertificateConfiguration コマンドレットは存在していても、管理者にとってはあまり役に立たないことに注意してください。 (そのコマンドレットは、主に証明書ウィザードによって使用されます)。コマンドレットは動作しますが、次の出力例に示すように、返される情報は最小値です。
 
 拇印の使用
 
@@ -98,7 +100,7 @@ A9D51A2911C74FABFF7F2A8A994B20857D399107 の既定値
 
 ## <a name="reviewing-the-output"></a>出力の確認
 
-Get-help Certificate コマンドレットは、各 Lync Server 証明書について次のような情報を返します。
+Get-CsCertificate コマンドレットは、それぞれの Lync Server 証明書について次のような情報を返します。
 
 発行者: CN = FabrikamCA
 
@@ -134,7 +136,7 @@ Webサービス Interal 32980AA20BBB20000191 02/15/2016 2:16:12 PM
 
 WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM
 
-証明書に問題がある場合は、証明書に対して構成された代替のベンダーを確認する必要があります。 一見すると、問題があるように見えます。 既定では、コンソールウィンドウのサイズによっては、を取得すると、すべての名前を表示できない場合があります。
+証明書に問題がある場合は、証明書に対して構成された代替のベンダーを確認する必要があります。 一見すると、問題があるように見えます。 既定では、コンソールウィンドウのサイズによっては、Get-CsCertificate ですべての名前を表示できない場合があります。
 
 代替の [ベンダー]: {sip.fabrikam.com, LYNC.fabrikam.com,
 

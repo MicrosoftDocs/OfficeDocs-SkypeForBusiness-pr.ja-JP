@@ -12,20 +12,22 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc58e0f29ca0a562a94f771857d88da49d616064
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 505ae775e2735ba01bd02cd0104240ad8781f968
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199690"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502074"
 ---
+# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスのシナリオの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 での集中ログサービスのシナリオの構成
+
 
 </div>
 
@@ -37,19 +39,19 @@ ms.locfileid: "42199690"
 
 _**トピックの最終更新日:** 2014-02-05_
 
-シナリオでは、集中ログサービスで使用するスコープ (グローバル、サイト、プール、またはコンピューター) とプロバイダーを定義します。 シナリオを使用して、プロバイダー (S4、SIPStack、IM、プレゼンスなど) のトレースを有効または無効にします。 シナリオを構成することで、特定の問題の条件に対応する特定の論理コレクションのすべてのプロバイダーをグループ化できます。 トラブルシューティングとログのニーズに合わせてシナリオを変更する必要があることが判明した場合は、Lync Server 2013 デバッグツールによって、 *clscontroller.psm1*という名前の Windows PowerShell モジュールが提供されます。このモジュールには、「 *Edit-csclsscenario*」という名前の関数が含まれています。 このモジュールの目的は、指定したシナリオのプロパティを編集することです。 このトピックでは、このモジュールの使用方法の例を示します。 Lync Server 2013 デバッグツールは、次のリンクからダウンロードされます。[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
+シナリオでは、集中ログサービスで使用するスコープ (グローバル、サイト、プール、またはコンピューター) とプロバイダーを定義します。 シナリオを使用して、プロバイダー (S4、SIPStack、IM、プレゼンスなど) のトレースを有効または無効にします。 シナリオを構成することで、特定の問題の条件に対応する特定の論理コレクションのすべてのプロバイダーをグループ化できます。 トラブルシューティングとログのニーズに合わせてシナリオを変更する必要があることが判明した場合は、Lync Server 2013 デバッグツールによって、 *clscontroller.psm1* という名前の Windows PowerShell モジュールが提供されます。このモジュールには、「 *Edit-csclsscenario*」という名前の関数が含まれています。 このモジュールの目的は、指定したシナリオのプロパティを編集することです。 このトピックでは、このモジュールの使用方法の例を示します。 Lync Server 2013 デバッグツールは、次のリンクからダウンロードされます。 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
 
 > [!IMPORTANT]  
-> どのスコープ (サイト、グローバル、プール、またはコンピューター) でも、一度に最大で 2 つのシナリオを実行できます。 現在実行されているシナリオを確認するには、Windows PowerShell を使用して、 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">-CsClsScenario を取得</A>します。 Windows PowerShell と<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">設定-CsClsScenario</A>を使用すると、実行するシナリオを動的に変更できます。 ログ セッション中に実行するシナリオを変更して、収集するデータや収集元のプロバイダーを変更または微調整することができます。
+> どのスコープ (サイト、グローバル、プール、またはコンピューター) でも、一度に最大で 2 つのシナリオを実行できます。 現在実行されているシナリオを確認するには、Windows PowerShell を使用して、 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">-CsClsScenario を取得</A>します。 Windows PowerShell と <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">設定-CsClsScenario</A>を使用すると、実行するシナリオを動的に変更できます。 ログ セッション中に実行するシナリオを変更して、収集するデータや収集元のプロバイダーを変更または微調整することができます。
 
 
 
 </div>
 
-Lync Server 管理シェルを使用して集中ログサービスの機能を実行するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、またはいずれかを含むカスタムの RBAC の役割を持っている必要があります。これらの2つのグループの場合。 このコマンドレットが割り当てられているすべての RBAC の役割の一覧を返すには、自分で作成したカスタムの RBAC の役割を含めて、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
+Lync Server 管理シェルを使用して集中ログサービスの機能を実行するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、またはこれら2つのグループのどちらかを含むカスタムの RBAC の役割を持っている必要があります。 このコマンドレットが割り当てられているすべての RBAC の役割の一覧を返すには、自分で作成したカスタムの RBAC の役割を含めて、Lync Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -57,13 +59,13 @@ Lync Server 管理シェルを使用して集中ログサービスの機能を�
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-このトピックの残りの部分では、シナリオを定義する方法、シナリオを変更する方法、実行しているシナリオを取得する方法、シナリオを削除する方法、およびシナリオの内容を指定してトラブルシューティングを最適化する方法について取り上げます。 集中ログサービスのコマンドを発行するには、2つの方法があります。 既定で\\は、フォルダー C: Program Files\\Common Files\\Microsoft Lync Server 2013\\clscontroller にある clscontroller を使用できます。 または、Lync Server 管理シェルを使用して、Windows PowerShell コマンドを発行することもできます。 重要な違いは、コマンドラインで CLSController を使用する場合は、使用可能なシナリオが限られていることです。 Windows PowerShell を使用すると、ログセッションで使用するための新しいシナリオを定義できます。
+このトピックの残りの部分では、シナリオを定義する方法、シナリオを変更する方法、実行しているシナリオを取得する方法、シナリオを削除する方法、およびシナリオの内容を指定してトラブルシューティングを最適化する方法について取り上げます。 集中ログサービスのコマンドを発行するには、2つの方法があります。 既定では、ディレクトリ C: \\ Program Files \\ Common Files \\ Microsoft Lync Server 2013 clsagent にある CLSController.exe を使用でき \\ ます。 または、Lync Server 管理シェルを使用して、Windows PowerShell コマンドを発行することもできます。 重要な違いは、コマンドラインで CLSController.exe を使用する場合は、使用可能なシナリオが限られているということです。 Windows PowerShell を使用すると、ログセッションで使用するための新しいシナリオを定義できます。
 
 [Lync Server 2013 の集中ログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)で説明されているように、シナリオの要素は次のとおりです。
 
-  - **プロバイダー**   ocslogger を熟知している場合、プロバイダーは、トレースエンジンがログを収集する内容を ocslogger に通知するために選択するコンポーネントです。 プロバイダーは同じコンポーネントで、多くの場合、OCSLogger のコンポーネントと同じ名前になります。 OCSLogger を使い慣れていない場合、プロバイダーは、集中ログサービスがログを収集できるサーバーロール固有のコンポーネントです。 プロバイダーの構成の詳細については、「 [Lync Server 2013 の集中ログサービスのプロバイダーの構成](lync-server-2013-configuring-providers-for-centralized-logging-service.md)」を参照してください。
+  - **Providers**    OCSLogger を熟知している場合、プロバイダーは、トレースエンジンがログを収集する内容を OCSLogger に通知するために選択するコンポーネントです。 プロバイダーは同じコンポーネントで、多くの場合、OCSLogger のコンポーネントと同じ名前になります。 OCSLogger を使い慣れていない場合、プロバイダーは、集中ログサービスがログを収集できるサーバーロール固有のコンポーネントです。 プロバイダーの構成の詳細については、「 [Lync Server 2013 の集中ログサービスのプロバイダーの構成](lync-server-2013-configuring-providers-for-centralized-logging-service.md)」を参照してください。
 
-  - **Identity**   パラメーター-identity は、シナリオのスコープと名前を設定します。 たとえば、"グローバル" の範囲を設定し、"LyssServiceScenario" を使用してシナリオを特定することができます。 2つを組み合わせる場合は、Id (たとえば、"global/LyssServiceScenario") を定義します。
+  - **Identity**    パラメーター– Identity は、シナリオのスコープと名前を設定します。 たとえば、"グローバル" の範囲を設定し、"LyssServiceScenario" を使用してシナリオを特定することができます。 2つを組み合わせる場合は、Id (たとえば、"global/LyssServiceScenario") を定義します。
     
     また、–Name パラメーターと –Parent パラメーターを使用することもできます。Name パラメーターは、シナリオを一意に識別するために定義します。Name を使用する場合は、Parent も使用して、グローバルまたはサイトにシナリオを追加する必要があります。
     
@@ -82,7 +84,7 @@ Lync Server 管理シェルを使用して集中ログサービスの機能を�
 
 1.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-2.  ログセッションの新しいシナリオを作成するには、[新しい-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider)を使用して、シナリオの名前 (一意に識別される方法) を定義します。 WPP からのログ形式の種類 (つまり、Windows software tracing プリプロセッサと既定値)、EventLog (Windows イベントログの形式)、または IISLog (つまり、IIS ログファイル形式に基づいた ASCII 形式ファイル) を選択します。 次に、レベルを定義します (このトピックのログレベルで定義されています)。フラグ (このトピックのフラグの下で定義されています)。
+2.  ログセッションの新しいシナリオを作成するには、 [新しい-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider) を使用して、シナリオの名前 (一意に識別される方法) を定義します。 WPP からのログ形式の種類 (つまり、Windows software tracing プリプロセッサと既定値)、EventLog (Windows イベントログの形式)、または IISLog (つまり、IIS ログファイル形式に基づいた ASCII 形式ファイル) を選択します。 次に、レベルを定義します (このトピックのログレベルで定義されています)。フラグ (このトピックのフラグの下で定義されています)。
     
     このシナリオ例では、プロバイダー変数の例として LyssProvider を使用します。
     
@@ -114,7 +116,7 @@ Lync Server 管理シェルを使用して集中ログサービスの機能を�
     
 
     > [!NOTE]  
-    > Windows PowerShell で認識されているように、を使用して<CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE>ハッシュテーブルを作成する規則は、<EM>スプラッティング</EM>と呼ばれます。 Windows PowerShell のスプラッティングの詳細について<A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>は、「」を参照してください。
+    > Windows PowerShell で認識されているように、を使用してハッシュテーブルを作成する規則 <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> は、 <EM>スプラッティング</EM>と呼ばれます。 Windows PowerShell のスプラッティングの詳細については、「」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A> 。
 
     
     </div>
@@ -190,7 +192,7 @@ Lync Server 管理シェルを使用して集中ログサービスの機能を�
     
 
     > [!TIP]  
-    > モジュールの読み込みが成功すると、Windows PowerShell コマンドプロンプトに戻ります。 モジュールが読み込まれ、編集-CsClsScenario が使用可能であることを<CODE>Get-Help Edit-CsClsScenario</CODE>確認するには、「」と入力します。 すると、EditCsClsScenario の構文の基本的な概要が表示されます。
+    > モジュールの読み込みが成功すると、Windows PowerShell コマンドプロンプトに戻ります。 モジュールが読み込まれ、Edit-CsClsScenario が使用可能であることを確認するには、「」と入力 <CODE>Get-Help Edit-CsClsScenario</CODE> します。 すると、EditCsClsScenario の構文の基本的な概要が表示されます。
 
     
     </div>
@@ -203,7 +205,7 @@ Lync Server 管理シェルを使用して集中ログサービスの機能を�
     
 
     > [!TIP]  
-    > モジュールが正常にアンロードされると、Windows PowerShell コマンドプロンプトに戻ります。 モジュールがアンロードされたことを確認<CODE>Get-Help Edit-CsClsScenario</CODE>するには、「」と入力します。 Windows PowerShell は、コマンドレットのヘルプを検索して失敗します。
+    > モジュールが正常にアンロードされると、Windows PowerShell コマンドプロンプトに戻ります。 モジュールがアンロードされたことを確認するには、「」と入力 <CODE>Get-Help Edit-CsClsScenario</CODE> します。 Windows PowerShell は、コマンドレットのヘルプを検索して失敗します。
 
     
     </div>
@@ -246,7 +248,7 @@ Lync Server 管理シェルを使用して集中ログサービスの機能を�
     
         Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
     
-    \-Loglevel には、Fatal、Error、Warning、Info、Verbose、Debug、または All の種類を指定できます。 – Flags には、プロバイダーがサポートする任意のフラグ (TF\_COMPONENT、tf\_DIAG など) を指定できます。 また、値 ALL も指定できます。
+    \-Loglevel には、Fatal、Error、Warning、Info、Verbose、Debug、または All の種類を指定できます。 – Flags には、プロバイダーがサポートする任意のフラグ (TF COMPONENT、TF DIAG など) を指定でき \_ \_ ます。 また、値 ALL も指定できます。
     
     上記の例を、コマンドレットの位置指定機能を使用して入力することもできます。たとえば、プロバイダー ChatServer を AlwaysOn シナリオに追加するには、次のように入力します。
     

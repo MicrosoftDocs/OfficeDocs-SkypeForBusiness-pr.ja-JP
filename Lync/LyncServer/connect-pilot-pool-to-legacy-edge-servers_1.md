@@ -12,20 +12,22 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b83877505bfc9c2accc2057a9ebb1fb62355b3d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 62ea7da56e77264a7d8c730d44e7a6ca0372d3f8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751279"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503084"
 ---
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロット プールのレガシ エッジ サーバーへの接続
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロット プールのレガシ エッジ サーバーへの接続
+
 
 </div>
 
@@ -49,15 +51,15 @@ Lync Server 2013 サイトが BackCompatSite のディレクターおよびエ�
 
 2.  Lync Server 2013 サイトを選択します。
 
-3.  [**アクション**] メニューの [**プロパティの編集**] をクリックします。
+3.  [ **アクション** ] メニューの [ **プロパティの編集**] をクリックします。
 
-4.  ディレクターが表示されていない場合は、[**サイトのフェデレーションルートの割り当て**] で、[ **SIP フェデレーションの有効化**] を選択してから、Office Communications server 2007 R2 Director または Office Communications Server 2007 r2 エッジサーバーを選択します。
+4.  ディレクターが表示されていない場合は、[ **サイトのフェデレーションルートの割り当て**] で、[ **SIP フェデレーションの有効化**] を選択してから、Office Communications server 2007 R2 Director または Office Communications Server 2007 r2 エッジサーバーを選択します。
     
     ![[プロパティの編集] ダイアログ、[フェデレーションルート] ページ](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "[プロパティの編集] ダイアログ、[フェデレーションルート] ページ")  
 
 5.  [**OK**] をクリックして、[**プロパティの編集**] ページを閉じます。
 
-6.  [トポロジビルダー] の [Lync Server 2013] ノードで、 **Standard Edition サーバー**または**Enterprise Edition フロントエンドプール**に移動して、プールを右クリックし、[**プロパティの編集**] をクリックします。
+6.  [トポロジビルダー] の [Lync Server 2013] ノードで、 **Standard Edition サーバー** または **Enterprise Edition フロントエンドプール**に移動して、プールを右クリックし、[ **プロパティの編集**] をクリックします。
 
 7.  [**関連付け**] で、[**エッジ プール (メディア コンポーネント用) を関連付ける**] の横のチェック ボックスをオンにします。
 

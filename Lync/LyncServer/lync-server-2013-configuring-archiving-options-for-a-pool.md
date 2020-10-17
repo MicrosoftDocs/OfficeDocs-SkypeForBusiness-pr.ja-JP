@@ -12,20 +12,22 @@ ms:contentKeyID: 48185230
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e82c44a157b33de36495699e15cf7a48b8dd61f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 25d658eb8a2ada7a7c797406faf5224f134eedc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188550"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502294"
 ---
+# <a name="configuring-archiving-options-for-a-pool-in-lync-server-2013"></a>Lync Server 2013 でのプールのアーカイブオプションの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-archiving-options-for-a-pool-in-lync-server-2013"></a>Lync Server 2013 でのプールのアーカイブオプションの構成
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**トピックの最終更新日:** 2012-10-10_
 
 特定のプールそれぞれのアーカイブ構成を作成してオプションを構成することによって、これらのプールに適用するアーカイブ オプションを指定できます。プール構成はグローバル構成とサイト構成より優先されますが、プール構成で指定したプールにのみ適用されます。
 
-グローバル構成、サイト構成、およびプール構成の階層など、アーカイブ構成のしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md)」を参照してください。
+グローバル構成、サイト構成、およびプール構成の階層など、アーカイブ構成のしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「 [Lync Server 2013 でのアーカイブの仕組み](lync-server-2013-how-archiving-works.md) 」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 のアーカイブオプションの構成</A>」を参照してください。
+> アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 のアーカイブオプションの構成</A> 」を参照してください。
 
 
 
@@ -77,7 +79,7 @@ _**トピックの最終更新日:** 2012-10-10_
     
       - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-      - Microsoft Exchange Server を使用してアーカイブデータを保存するには、[ **Microsoft exchange 統合**] チェックボックスをオンにします。
+      - Microsoft Exchange Server を使用してアーカイブデータを保存するには、[ **Microsoft exchange 統合** ] チェックボックスをオンにします。
     
       - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
         

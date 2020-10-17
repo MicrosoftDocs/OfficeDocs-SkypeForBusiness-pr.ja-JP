@@ -13,20 +13,22 @@ ms:contentKeyID: 48185030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a63354b9e0b0cf44ed44f53c91061578e01fecb5
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 464b690709444c540d9a1b06809a751b5b15d82a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754505"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503314"
 ---
+# <a name="configure-the-meeting-join-page"></a>会議参加ページの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-meeting-join-page"></a>会議参加ページの構成
+
 
 </div>
 
@@ -72,7 +74,7 @@ _**トピックの最終更新日:** 2012-12-14_
 
 ## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>Lync Server 2013 管理シェルを使用して会議参加ページを構成するには
 
-1.  Lync Server 2013 管理シェルを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 2013 管理シェルを起動します。 [ **スタート**]、[ **すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 2.  次のコマンドレットを実行します。
     

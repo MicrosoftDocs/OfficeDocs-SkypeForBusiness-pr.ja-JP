@@ -12,20 +12,22 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e8fd10947bab25e522f35e9cd121a04abbb4a45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 90b4c7c07718faf93237dfe11357dc103bf77e9a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203363"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501684"
 ---
+# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Lync Server 2013 でハントグループワークフローを作成または変更する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-hunt-group-workflow-in-lync-server-2013"></a>Lync Server 2013 でハントグループワークフローを作成または変更する
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2013-09-11_
 
 
 > [!NOTE]  
-> Lync Server 管理シェルまたは応答グループ構成ツールを使用して、ハントグループワークフローを作成および変更できます。 [Lync Server コントロールパネル] から応答グループ構成ツールにアクセスするか、次の URL を入力して web ブラウザーから直接 web ページを開くことによって、 <STRONG>https://</STRONG>&lt;webpoolfqdn&gt;<STRONG>/RgsConfig</STRONG>にアクセスできます。
+> Lync Server 管理シェルまたは応答グループ構成ツールを使用して、ハントグループワークフローを作成および変更できます。 [Lync Server コントロールパネル] から応答グループ構成ツールにアクセスするか、次の URL を入力して web ブラウザーから直接 web ページを開くことによって、 <STRONG>Https://</STRONG> &lt; webpoolfqdn &gt; <STRONG>/RgsConfig</STRONG>にアクセスできます。
 
 
 
@@ -67,7 +69,7 @@ _**トピックの最終更新日:** 2013-09-11_
     
 
     > [!NOTE]  
-    > 応答グループ構成ツールが開きます。 次の URL を入力して、web ブラウザーから応答グループ構成ツールを直接開くこともできます。 <STRONG>https://</STRONG>&lt;webpoolfqdn&gt;<STRONG>/RgsConfig</STRONG>。
+    > 応答グループ構成ツールが開きます。 次の URL を入力して、web ブラウザーから応答グループ構成ツールを直接開くこともできます。 <STRONG>Https://</STRONG> &lt; webpoolfqdn &gt; <STRONG>/RgsConfig</STRONG>。
 
     
     </div>
@@ -78,7 +80,7 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - [**既存ワークフローの管理**] で変更するワークフローを見つけて、[**アクション**] の [**編集**] をクリックします。
 
-7.  ユーザーがワークフローの呼び出しを開始できる状態になっている場合は、[**ワークフローのアクティブ化**] を選択します。
+7.  ユーザーがワークフローの呼び出しを開始できる状態になっている場合は、[ **ワークフローのアクティブ化**] を選択します。
     
     <div>
     
@@ -95,7 +97,7 @@ _**トピックの最終更新日:** 2013-09-11_
     
 
     > [!NOTE]  
-    > グローバル外部アクセスポリシーは、応答グループアプリケーションに適用されます。 Lync Server コントロールパネルを使用するか、 <STRONG>get-csexternalaccesspolicy</STRONG>コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定することによって、応答グループフェデレーションのグローバルポリシーを構成できます。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「 <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 の外部アクセスポリシーの管理</A>」を参照してください。 フェデレーション設定の詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">get-csexternalaccesspolicy</A>」を参照してください。
+    > グローバル外部アクセスポリシーは、応答グループアプリケーションに適用されます。 Lync Server コントロールパネルを使用するか、 <STRONG>get-csexternalaccesspolicy</STRONG> コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定することによって、応答グループフェデレーションのグローバルポリシーを構成できます。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「 <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 の外部アクセスポリシーの管理</A>」を参照してください。 フェデレーション設定の詳細については、「 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy">get-csexternalaccesspolicy</A>」を参照してください。
 
     
     </div>
@@ -137,7 +139,7 @@ _**トピックの最終更新日:** 2013-09-11_
     
 
     > [!NOTE]  
-    > [表示名] に&lt;"" また&gt;は "" 文字を含めないでください。 次の表示名は、予約されているため、使用しないでください。 <STRONG>Rg プレゼンス監視</STRONG>または<STRONG>アナウンスサービス</STRONG>。
+    > [ &lt; 表示名] に "" または "" 文字を含めないでください &gt; 。 次の表示名は、予約されているため、使用しないでください。 <STRONG>Rg プレゼンス監視</STRONG> または <STRONG>アナウンスサービス</STRONG>。
 
     
     </div>
@@ -146,13 +148,13 @@ _**トピックの最終更新日:** 2013-09-11_
 
 13. [**表示番号**] に、応答グループを表示する番号を入力します (入力例 +1 (425) 555-0165)。
 
-14. オプション[**説明**] に、Lync クライアントの連絡先カードに表示するワークフローの説明を入力します。
+14. オプション[ **説明**] に、Lync クライアントの連絡先カードに表示するワークフローの説明を入力します。
 
 15. このワークフローを応答グループのマネージャーが管理する場合は、[**ワークフローの種類**] で [**管理**] を選択します。 ワークフローを応答グループのマネージャーに割り当てるには、次の操作を実行します。
     
-    1.  このワークフローのマネージャーの SIP URI を入力し、[**追加**] をクリックします。
+    1.  このワークフローのマネージャーの SIP URI を入力し、[ **追加**] をクリックします。
     
-    2.  ワークフローに追加するマネージャーの SIP URI を入力し、[**追加**] をクリックします。
+    2.  ワークフローに追加するマネージャーの SIP URI を入力し、[ **追加**] をクリックします。
     
     <div>
     
@@ -173,7 +175,7 @@ _**トピックの最終更新日:** 2013-09-11_
         
 
         > [!NOTE]  
-        > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
+        > 入力するテキストに HTML タグを含めないでください。 HTML タグを含めると、エラー メッセージが表示されます。
 
         
         </div>
@@ -265,11 +267,11 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - 通話を終了するには、[**終話**] をクリックします。
     
-      - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス\<メールアドレスの形式は username\>@\<domainName\> (たとえば、bob@contoso.com) です。
+      - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイスメールアドレスの形式は次のようになり \<username\> @ \<domainName\> ます (たとえば、bob@contoso.com)。
     
-      - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー \<アドレスの形式は username\>@\<domainName\>です。
+      - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザーアドレスの形式は \<username\> @ \<domainName\> です。
     
-      - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は、domainName \<\>@\<\>の番号です (たとえば、+ 14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
+      - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになり \<number\> @ \<domainName\> ます (たとえば、+ 14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
 
 24. [**ステップ 5 休日の指定**] で、応答グループが営業しない日を定義する、1 つまたは複数の休日セットのチェック ボックスをオンにします。
     
@@ -310,11 +312,11 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - 通話を終了するには、[**終話**] をクリックします。
     
-      - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイス\<メールアドレスの形式は username\>@\<domainName\> (たとえば、bob@contoso.com) です。
+      - 通話をボイス メールに転送するには、[**ボイス メールに転送**] をクリックして、ボイス メール アドレスを入力します。 ボイスメールアドレスの形式は次のようになり \<username\> @ \<domainName\> ます (たとえば、bob@contoso.com)。
     
-      - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザー \<アドレスの形式は username\>@\<domainName\>です。
+      - 通話を別のユーザーに転送するには、[**SIP URI に転送**] をクリックして、ユーザー アドレスを入力します。 ユーザーアドレスの形式は \<username\> @ \<domainName\> です。
     
-      - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は、domainName \<\>@\<\>の番号です (たとえば、+ 14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
+      - 通話を別の電話番号に転送するには、[**電話番号に転送**] をクリックして、電話番号を入力します。 電話番号の形式は次のようになり \<number\> @ \<domainName\> ます (たとえば、+ 14255550121@contoso.com)。 発信者は、ドメイン名を使用して適切な宛先にルーティングされます。
 
 27. **[ステップ 6 キューの構成]** の **[通話を受け取るキューを選択します]** で、エージェントが応答可能になるまで発信者を保留するキューを選択します。
 
@@ -381,19 +383,19 @@ _**トピックの最終更新日:** 2013-09-11_
     
     </div>
     
-    次に例を示します。
+    以下に例を示します。
     
         $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
 
-6.  営業時間および休日を定義する場合は、ワークフローを作成または変更する前に、それらを作成する必要があります。 詳細については、「lync server 2013 で応答グループの[営業時間を定義する (オプション)](lync-server-2013-optional-define-response-group-business-hours.md) 」および「 [lync Server 2013 で応答グループの休日セットを定義](lync-server-2013-optional-define-response-group-holiday-sets.md)する (オプション)」を参照してください。
+6.  営業時間および休日を定義する場合は、ワークフローを作成または変更する前に、それらを作成する必要があります。 詳細については、「lync server 2013 で応答グループの [営業時間を定義する (オプション)](lync-server-2013-optional-define-response-group-business-hours.md) 」および「 [lync Server 2013 で応答グループの休日セットを定義](lync-server-2013-optional-define-response-group-holiday-sets.md)する (オプション)」を参照してください。
 
-7.  営業時間外または休日に受信された通話のプロンプトを表示する場合は、**新しい-CsRgsPrompt**コマンドレットを使用してプロンプトを定義し、**新しい-CsRgsCallAction**を使用して、プロンプトの後に実行するアクションを定義します。 詳細については、「 [new-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt) 」および「 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)」を参照してください。
+7.  営業時間外または休日に受信された通話のプロンプトを表示する場合は、 **新しい-CsRgsPrompt** コマンドレットを使用してプロンプトを定義し、 **新しい-CsRgsCallAction** を使用して、プロンプトの後に実行するアクションを定義します。 詳細については、「 [new-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt) 」および「 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)」を参照してください。
 
 8.  Lync Server 応答グループサービスのサービス名を取得し、変数に割り当てます。 コマンドで、次を実行します。
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
 
-9.  ワークフローを作成または変更します。 ワークフローを作成するには、**新しい-CsRgsWorkflow**を使用します。 ワークフローを変更するには、 **Set-CsRgsWorkflow**を使用します。 コマンドラインで、次のように入力します。
+9.  ワークフローを作成または変更します。 ワークフローを作成するには、 **新しい-CsRgsWorkflow**を使用します。 ワークフローを変更するには、 **Set-CsRgsWorkflow**を使用します。 コマンドラインで、次のように入力します。
     
         $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
     

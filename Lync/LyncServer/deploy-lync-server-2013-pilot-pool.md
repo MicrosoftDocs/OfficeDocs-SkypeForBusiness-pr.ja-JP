@@ -12,20 +12,22 @@ ms:contentKeyID: 48185028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbb620a4846b05c7f81ecea4d5cc525c9c16c0c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9489db1fef9b836749fe4f381e717a4d406f5938
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180530"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502974"
 ---
+# <a name="deploy-lync-server-2013-pilot-pool"></a>Lync Server 2013 パイロットプールの展開
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-lync-server-2013-pilot-pool"></a>Lync Server 2013 パイロットプールの展開
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**トピックの最終更新日:** 2013-11-22_
 
 Lync Server 2013 への移行に必要な最初の手順の1つは、パイロットプールを展開することです。 パイロットプールは、lync server 2013 と Lync Server 2010 の展開との共存をテストする場所です。 共存は、すべてのユーザーとプールを Lync Server 2013 に移動するまで、一時的な状態になります。
 
-パイロット プールを展開するときには、新しいフロントエンド プールの定義ウィザードを使用します。 Lync server 2010 プールにある、Lync Server 2013 パイロットプールと同じ機能とワークロードを展開する必要があります。 アーカイブサーバー、監視サーバー、または System Center Operations Manager を使用して Lync Server 2010 環境をアーカイブまたは監視する場合に、移行を通じてアーカイブまたは監視を続行するには、次のものも展開する必要があります。パイロット環境での機能。 Lync Server 2010 環境をアーカイブまたは監視するために展開したバージョンは、Lync Server 2013 環境のデータをキャプチャしません。
+パイロット プールを展開するときには、新しいフロントエンド プールの定義ウィザードを使用します。 Lync server 2010 プールにある、Lync Server 2013 パイロットプールと同じ機能とワークロードを展開する必要があります。 アーカイブサーバー、監視サーバー、または System Center Operations Manager を使用して Lync Server 2010 環境をアーカイブまたは監視する場合に、移行を通じてアーカイブまたは監視を続行するには、これらの機能をパイロット環境に展開する必要があります。 Lync Server 2010 環境をアーカイブまたは監視するために展開したバージョンは、Lync Server 2013 環境のデータをキャプチャしません。
 
 <div>
 
 
 > [!NOTE]  
-> 次の手順では、パイロット プール全体の展開プロセスの中で検討する必要がある機能と設定について説明します。 このセクションで説明するのは、パイロット プールの展開の際に考慮が必要となる主なポイントのみです。 詳細な手順については、「 <A href="lync-server-2013-deploying-lync-server.md">Lync Server 2013</A>展開ガイドの展開ガイド」を参照してください。
+> 次の手順では、パイロット プール全体の展開プロセスの中で検討する必要がある機能と設定について説明します。 このセクションで説明するのは、パイロット プールの展開の際に考慮が必要となる主なポイントのみです。 詳細な手順については、「 <A href="lync-server-2013-deploying-lync-server.md">Lync Server 2013</A> 展開ガイドの展開ガイド」を参照してください。
 
 
 
@@ -74,11 +76,11 @@ Lync Server 2013 への移行に必要な最初の手順の1つは、パイロ�
     
     ![新しいフロントエンドプールの定義ウィザード FQDN ページ](images/JJ205144.c5fd138c-e75a-413a-827f-b1461c996d40(OCS.15).jpg "新しいフロントエンドプールの定義ウィザード FQDN ページ")
 
-5.  **[機能の選択]** ページで、このフロント エンド プールで必要な機能のチェック ボックスをオンにします。 たとえば、インスタントメッセージング (IM) とプレゼンス機能のみを展開する場合は、[会議] チェックボックスをオンにしてマルチパーティ IM を許可しますが、ダイヤルイン (PSTN) 会議、エンタープライズ Voip、または通話受付管理のチェックボックスは選択しません。音声、ビデオ、および共同作業の会議機能を表すからです。 機能の選択の詳細については、「展開」のドキュメントの「 [Define and configure a Front End pool Or Standard Edition server In Lync server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) 」を参照してください。
+5.  **[機能の選択]** ページで、このフロント エンド プールで必要な機能のチェック ボックスをオンにします。 たとえば、インスタントメッセージング (IM) とプレゼンス機能のみを展開する場合は、[会議] チェックボックスをオンにしてマルチパーティ IM を許可しますが、ダイヤルイン (PSTN) 会議、エンタープライズ Voip、または通話受付管理の各チェックボックスは、音声、ビデオ、および共同作業の会議機能を表すものであるため、選択しません。 機能の選択の詳細については、「展開」のドキュメントの「 [Define and configure a Front End pool Or Standard Edition server In Lync server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) 」を参照してください。
     
     ![フロントエンドプールの [機能の選択] ページ](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "フロントエンドプールの [機能の選択] ページ")
 
-6.  [併置された**サーバーの役割の選択**] ページで、仲介サーバーを Lync server 2013 に併置することをお勧めします。 従来のトポロジを Lync Server 2013 とマージする場合は、最初に Lync Server 2010 仲介サーバーを併置する必要があります。 トポロジをマージし、Lync Server 2013 仲介サーバーを構成した後で、仲介サーバーの役割を後で Lync Server 2013 に移動するときに、併置された仲介サーバーを保持するか、スタンドアロンサーバーに変更するかを決定できます。手順.
+6.  [併置された **サーバーの役割の選択** ] ページで、仲介サーバーを Lync server 2013 に併置することをお勧めします。 従来のトポロジを Lync Server 2013 とマージする場合は、最初に Lync Server 2010 仲介サーバーを併置する必要があります。 トポロジをマージし、Lync Server 2013 仲介サーバーを構成した後で、展開プロセスで仲介サーバーの役割を Lync Server 2013 に移動するときに、併置された仲介サーバーを保持するか、スタンドアロンサーバーに変更するかを決定できます。
     
     ![フロントエンドプール [併置されたサーバーの役割の選択] ページ](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "フロントエンドプール [併置されたサーバーの役割の選択] ページ")
 
@@ -90,7 +92,7 @@ Lync Server 2013 への移行に必要な最初の手順の1つは、パイロ�
     
     ![新しい Office Web Apps サーバーの FQDN プロパティを定義する](images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "新しい Office Web Apps サーバーの FQDN プロパティを定義する")
 
-9.  [**アーカイブ Sql server ストアの定義**] ページで、lync Server のアーカイブと監視の両方のために sql server ストアを定義するときに、以前に lync server 2013 用に作成した sql server インスタンスを選択します。
+9.  [ **アーカイブ Sql server ストアの定義** ] ページで、lync Server のアーカイブと監視の両方のために sql server ストアを定義するときに、以前に lync server 2013 用に作成した sql server インスタンスを選択します。
     
     ![アーカイブ SQL Server ストアの定義ページ](images/JJ204718.0f76f1dc-d0d7-42a0-aea3-400b8e1f35cd(OCS.15).jpg "アーカイブ SQL Server ストアの定義ページ")
 

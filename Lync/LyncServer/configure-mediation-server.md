@@ -12,20 +12,22 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82da1720cab2e6895c53565da17c9411faabdfbd
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 72b5742d264efb8c84518511d40195a109594e2a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754535"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503374"
 ---
+# <a name="configure-mediation-server"></a>仲介サーバーの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-mediation-server"></a>仲介サーバーの構成
+
 
 </div>
 
@@ -87,7 +89,7 @@ _**トピックの最終更新日:** 2012-09-28_
 
 
 > [!NOTE]  
-> 次のトピック「<A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">新しい Lync server 2013 仲介サーバーを使用するように音声ルートを変更</A>する」を完了して、音声ルートが正しい仲介サーバーを指していることを確認することが重要です。
+> 次のトピック「 <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">新しい Lync server 2013 仲介サーバーを使用するように音声ルートを変更</A> する」を完了して、音声ルートが正しい仲介サーバーを指していることを確認することが重要です。
 
 
 

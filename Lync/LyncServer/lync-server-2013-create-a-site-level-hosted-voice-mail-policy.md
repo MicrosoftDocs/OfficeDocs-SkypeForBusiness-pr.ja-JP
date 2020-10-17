@@ -12,20 +12,22 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9518b605ed6c79418e58fd0d3f9aab0e4d493957
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e23f14b1db7c846d5dbaa0aa6861274a7b6a2611
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195930"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501884"
 ---
+# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Lync Server 2013 でサイトレベルのホストボイスメールポリシーを作成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Lync Server 2013 でサイトレベルのホストボイスメールポリシーを作成する
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**トピックの最終更新日:** 2012-09-24_
     
     この例では、サイト スコープを使用してホスト ボイス メール ポリシーを作成し、次のパラメーターを設定しています。
     
-      - **Identity**は、スコープを含むポリシーの一意識別子を指定します。 サイトスコープを持つポリシーの場合は、Identity パラメーターの値を形式`site:` * \<名\>* で指定する必要があり`site:Redmond`ます (例:)。
+      - **Identity** は、スコープを含むポリシーの一意識別子を指定します。 サイトスコープを持つポリシーの場合は、Identity パラメーターの値を形式で指定する必要があり `site:` *\<name\>* ます (例:) `site:Redmond` 。
     
       - **Destination** では、Hosted Exchange UM サービスの完全修飾ドメイン名 (FQDN) を指定します。このパラメーターは省略可能ですが、ユーザーに割り当てられているポリシーで送信先の値が設定されていないと、ユーザーのホスト ボイス メールを有効にしようとしても失敗します。
     

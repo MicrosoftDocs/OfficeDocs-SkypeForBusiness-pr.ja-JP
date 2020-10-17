@@ -12,20 +12,22 @@ ms:contentKeyID: 48185313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 072dbc882940bc0f28217bcf7c41663bf9ed3708
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bf9724089eeed36d48cbce8e1872078e3940beae
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187980"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502524"
 ---
+# <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 で監視するためのコンポーネントとトポロジ
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 で監視するためのコンポーネントとトポロジ
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2012-09-05_
 
   - Microsoft SQL Server 2012 Standard Edition
 
-これらのデータベースの64ビット版を使用する必要があることに注意してください。32ビットバージョンの SQL Server を監視用のバックエンドストアとして使用することはできません。 同様に、Lync Server 2013 では、SQL Server 2008 または SQL Server 2012 の Express Edition はサポートされていません。 Lync Server 2013 のデータベース要件の詳細については、「Lync server 2013 サポートガイド」の「 [Lync server 2013 のデータベースソフトウェアサポート](lync-server-2013-database-software-support.md)」を参照してください。
+これらのデータベースの64ビット版を使用する必要があることに注意してください。32ビットバージョンの SQL Server を監視用のバックエンドストアとして使用することはできません。 同様に、Lync Server 2013 では、SQL Server 2008 または SQL Server 2012 の Express Edition はサポートされていません。 Lync Server 2013 のデータベース要件の詳細については、「Lync server 2013 サポートガイド」の「 [Lync server 2013 のデータベースソフトウェアサポート](lync-server-2013-database-software-support.md) 」を参照してください。
 
 監視を展開して構成する前に、SQL Server をインストールして構成しておく必要があることに注意してください。 ただし、SQL Server 自体を展開する必要はありません。事前に監視データベースをセットアップする必要はありません。 その代わりに、Lync Server トポロジを公開すると、これらのデータベースが自動的に作成されます。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 0e8b1a6713a8a8a4b3ac980679e7f98266338268
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219717"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501504"
 ---
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 のデスクトップクライアントの比較表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 のデスクトップクライアントの比較表
+
 
 </div>
 
@@ -61,7 +63,7 @@ _**トピックの最終更新日:** 2018-01-23_
 
 
 > [!IMPORTANT]  
-> Lync 2013 モバイルクライアントでの機能の可用性の詳細については、「 <A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 のモバイルクライアントの比較表</A>」を参照してください。
+> Lync 2013 モバイルクライアントでの機能の可用性の詳細については、「 <A href="lync-server-2013-mobile-client-comparison-tables.md">Lync Server 2013 のモバイルクライアントの比較表</A> 」を参照してください。
 
 
 
@@ -77,7 +79,7 @@ _**トピックの最終更新日:** 2018-01-23_
 > <LI>
 > <P>Lync Server 2013 は、以前にリリースされた次のクライアント (Lync 2010、Lync 2010 Mobile、Lync Phone Edition、および Lync 2010 アテンダント) をサポートしています。 これらのクライアントの詳細については、「Lync 2010 バージョンのクライアント比較表」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A> 。</P>
 > <LI>
-> <P>Lync 2013 クライアントは、仮想デスクトップインフラストラクチャ (VDI) 環境で音声とビデオをサポートしています。 VDI 環境での Lync 2013 の機能の詳細については、「<A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">サポートされる仮想化テクノロジと既知の制限 (Lync Server 2013</A>)」を参照してください。</P></LI></UL>
+> <P>Lync 2013 クライアントは、仮想デスクトップインフラストラクチャ (VDI) 環境で音声とビデオをサポートしています。 VDI 環境での Lync 2013 の機能の詳細については、「 <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">サポートされる仮想化テクノロジと既知の制限 (Lync Server 2013</A>)」を参照してください。</P></LI></UL>
 
 
 
@@ -109,7 +111,7 @@ _**トピックの最終更新日:** 2018-01-23_
 <tr class="header">
 <th>機能</th>
 <th>Skype for Business 2015 および2016クライアント</th>
-<th>Mac での Skype for Business</th>
+<th>Mac 版 Skype for Business</th>
 <th>Lync 2013</th>
 <th>Lync Windows ストアアプリ</th>
 <th>Lync 2013 Basic</th>
@@ -238,7 +240,7 @@ _**トピックの最終更新日:** 2018-01-23_
 <tr class="header">
 <th>機能</th>
 <th>Skype for Business 2015 および2016クライアント</th>
-<th>Mac での Skype for Business</th>
+<th>Mac 版 Skype for Business</th>
 <th>Lync 2013</th>
 <th>Lync Windows ストアアプリ</th>
 <th>Lync 2013 Basic</th>
@@ -482,7 +484,7 @@ _**トピックの最終更新日:** 2018-01-23_
 <tr class="header">
 <th>機能</th>
 <th>Skype for Business 2015 および2016クライアント</th>
-<th>Mac での Skype for Business</th>
+<th>Mac 版 Skype for Business</th>
 <th>Lync 2013</th>
 <th>Lync Windows ストアアプリ</th>
 <th>Lync 2013 Basic</th>
@@ -717,7 +719,7 @@ _**トピックの最終更新日:** 2018-01-23_
 <tr class="header">
 <th>機能</th>
 <th>Skype for Business 2015 および2016クライアント</th>
-<th>Mac での Skype for Business</th>
+<th>Mac 版 Skype for Business</th>
 <th>Lync 2013</th>
 <th>Lync Windows ストアアプリ</th>
 <th>Lync 2013 Basic</th>
@@ -1162,7 +1164,7 @@ _**トピックの最終更新日:** 2018-01-23_
 <tr class="header">
 <th>機能</th>
 <th>Skype for Business 2015 および2016クライアント</th>
-<th>Mac での Skype for Business</th>
+<th>Mac 版 Skype for Business</th>
 <th>Lync 2013</th>
 <th>Lync Windows ストアアプリ</th>
 <th>Lync 2013 Basic</th>
@@ -1451,7 +1453,7 @@ _**トピックの最終更新日:** 2018-01-23_
 <tr class="header">
 <th>機能</th>
 <th>Skype for Business 2015 および2016クライアント</th>
-<th>Mac での Skype for Business</th>
+<th>Mac 版 Skype for Business</th>
 <th>Lync 2013</th>
 <th>Lync Windows ストアアプリ</th>
 <th>Lync Web App</th>
@@ -1536,7 +1538,7 @@ _**トピックの最終更新日:** 2018-01-23_
 <tr class="header">
 <th>機能</th>
 <th>Skype for Business 2015 および2016クライアント</th>
-<th>Mac での Skype for Business</th>
+<th>Mac 版 Skype for Business</th>
 <th>Lync 2013</th>
 <th>Lync Windows ストアアプリ</th>
 <th>Lync 2013 Basic</th>
@@ -1627,7 +1629,7 @@ _**トピックの最終更新日:** 2018-01-23_
 <tr class="header">
 <th>機能</th>
 <th>Skype for Business 2015 および2016クライアント</th>
-<th>Mac での Skype for Business</th>
+<th>Mac 版 Skype for Business</th>
 <th>Lync 2013</th>
 <th>Lync Windows ストアアプリ</th>
 <th>Lync 2013 Basic</th>
@@ -1702,7 +1704,7 @@ _**トピックの最終更新日:** 2018-01-23_
 
 1 For Skype for business Online、Microsoft 365、または Office 365 ユーザーの場合、Lync 2010 アテンダントはサポートされていません。
 
-2 Skype for Business Online、Microsoft 365、または Office 365 ユーザーの場合、この機能は Exchange Online を必要とし、ユーザーの Exchange メールボックスのインプレース保持属性によって制御されます。
+2 Skype for Business Online、Microsoft 365、または Office 365 ユーザーの場合、この機能は Exchange Online を必要とし、ユーザーの Exchange メールボックス In-Place Hold 属性によって制御されます。
 
 3 Skype for Business Online、Microsoft 365、または Office 365 ユーザー、ファイル転送のアーカイブ、共有 OneNote ページ、PowerPoint 注釈は利用できません。
 

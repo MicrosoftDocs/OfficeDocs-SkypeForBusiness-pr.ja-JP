@@ -12,20 +12,22 @@ ms:contentKeyID: 48185693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7596a9efb95436452144cf2cf0cacc53cd89a9be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cbf6a0c8e6d1d2e72ba7381af41fe86f645b827d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501834"
 ---
+# <a name="create-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a>Lync Server 2013 で音声ポリシーを作成し、PSTN 使用法レコードを構成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a>Lync Server 2013 で音声ポリシーを作成し、PSTN 使用法レコードを構成する
+
 
 </div>
 
@@ -126,7 +128,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
       - 新しい PSTN 使用法レコードを定義してこの音声ポリシーに関連付けるには、次の操作を実行します。
         
-        1.  **[新規作成]** をクリックします。
+        1.  [**新規**] をクリックします。
         
         2.  [**名前**] フィールドに、レコードを説明する一意の名前を入力します。 たとえば、Redmond で勤務しているフルタイム従業員用に **Redmond** という名前の PSTN 使用法レコードを作成し、パートタイム従業員用に **RedmondTemps** という別の名前の PSTN 使用法レコードを作成する場合があります。
             
@@ -141,7 +143,7 @@ _**トピックの最終更新日:** 2012-11-01_
         
         3.  次のいずれかの方法を使用して、この PSTN 使用法レコードのルートの関連付けと構成を行います。
             
-              - エンタープライズ VoIP 展開で利用できるすべてのルートの一覧から 1 つ以上のルートを選択するには、[**選択**] をクリックし、この PSTN 使用法レコードに関連付けるルートを選択状態にして、[**OK**] をクリックします。
+              - エンタープライズ VoIP 展開で利用できるすべてのルートの一覧から、1 つ以上のルートを選択するには、[**選択**] をクリックし、この PSTN 使用法レコードに関連付けるルートを選択状態にして、[**OK**] をクリックします。
             
               - PSTN 使用法レコードからルートを削除するには、ルートを選択状態にして [**削除**] をクリックします。
             
@@ -149,7 +151,7 @@ _**トピックの最終更新日:** 2012-11-01_
             
               - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。 詳細については、「 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)」を参照してください。
         
-        4.  **[OK]** をクリックします。
+        4.  [**OK**] をクリックします。
     
       - この音声ポリシーに既に関連付けられている PSTN 使用法レコードを編集するには、次の操作を実行します。
         
@@ -165,7 +167,7 @@ _**トピックの最終更新日:** 2012-11-01_
             
               - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。 詳細については、「 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)」を参照してください。
         
-        3.  **[OK]** をクリックします。
+        3.  [**OK**] をクリックします。
 
 9.  最適なパフォーマンスを得るために、PSTN 使用法レコードを並べ替えます。 一覧内でのレコードの位置を変更するには、レコードの名前を選択状態にして、上矢印または下矢印をクリックします。
     
@@ -215,7 +217,7 @@ _**トピックの最終更新日:** 2012-11-01_
                 
                   - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。 詳細については、「 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)」を参照してください。
             
-            4.  **[OK]** をクリックします。
+            4.  [**OK**] をクリックします。
         
           - この音声ポリシーに既に関連付けられている PSTN 使用法レコードを編集するには、次の操作を実行します。
             
@@ -231,7 +233,7 @@ _**トピックの最終更新日:** 2012-11-01_
                 
                   - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。 詳細については、「 [Modify a voice route In Lync Server 2013](lync-server-2013-modify-a-voice-route.md)」を参照してください。
             
-            3.  **[OK]** をクリックします。
+            3.  [**OK**] をクリックします。
 
 11. (オプション) 音声ポリシーをテストする番号を入力して、[**実行**] をクリックします。テスト結果は、[**テストする変換後の番号**] の下に表示されます。
     
@@ -252,7 +254,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
 
     > [!NOTE]  
-    > 音声ポリシーを作成または変更したときは常に、[<STRONG>すべて確定</STRONG>] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A>」を参照してください。
+    > 音声ポリシーを作成または変更したときは常に、[<STRONG>すべて確定</STRONG>] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「 <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</A> 」を参照してください。
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6015603d2c8c151cbe9d9b76410e51708f3ba9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1b96727af805107e7101c395d7c545c4e4967b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188450"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502194"
 ---
+# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Lync Server 2013 でのハイブリッド展開の自動検出の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Lync Server 2013 でのハイブリッド展開の自動検出の構成
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-12-12_
 
 ハイブリッド展開は、Microsoft Lync Online cloud service とオンプレミス展開の両方を使用する構成です。 この種類の構成では、自動検出サービスは、ユーザーの実際の場所を特定できなければなりません。 つまり、自動検出では、ユーザーアカウントを検索し、ユーザーのアカウントをホストしているサーバーがオンプレミスの展開にあるか、Lync Online の展開であるかに関係なく、ユーザーアカウントをホストしている場所に支援します。
 
-たとえば、ユーザーのアカウントが Lync Online のサーバーでホストされている場合、ユーザーの検索は次のように実行されます。これは、*発見*性と呼ばれるプロセスにあります。
+たとえば、ユーザーのアカウントが Lync Online のサーバーでホストされている場合、ユーザーの検索は次のように実行されます。これは、 *発見*性と呼ばれるプロセスにあります。
 
   - ユーザーは、内部設置型展開である **contoso.com** への接続を試行します.
 
@@ -61,7 +63,7 @@ _**トピックの最終更新日:** 2012-12-12_
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodisccoverservice.svc/root
     
-    \[Id\]は、共有 SIP アドレススペースのドメイン名に置き換えられます。
+    \[Id \] は、共有 SIP アドレススペースのドメイン名に置き換えられます。
 
 </div>
 

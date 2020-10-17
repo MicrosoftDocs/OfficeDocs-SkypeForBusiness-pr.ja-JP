@@ -12,20 +12,22 @@ ms:contentKeyID: 49733884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a240c55b4478c5cf5f67a4f0774b1979e884b3b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c54222d7fda3c3d5581db85b0fc264358e2bde22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208003"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501654"
 ---
+# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Lync Server 2013 でのモビリティポリシーの作成または変更
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Lync Server 2013 でのモビリティポリシーの作成または変更
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 3.  左側のナビゲーション バーで [**クライアント**] をクリックし、[**モビリティ ポリシー**] ナビゲーション ボタンをクリックします。
 
-4.  [**モビリティポリシー** ] ページで、[**新規**] をクリックし、次のいずれかの操作を行います。
+4.  [ **モビリティポリシー** ] ページで、[ **新規**] をクリックし、次のいずれかの操作を行います。
     
     1.  サイト モビリティ ポリシーを作成するには、[**サイト ポリシー**] をクリックし、サイトをクリックし、[**OK**] をクリックし、既定の設定を確認してから必要に応じて変更を加えます。
     
@@ -69,7 +71,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 3.  左側のナビゲーション バーで [**クライアント**] をクリックし、[**モビリティ ポリシー**] ナビゲーション ボタンをクリックします。
 
-4.  [**モビリティポリシー** ] ページで、既存のモビリティポリシーのいずれかをクリックします。
+4.  [ **モビリティポリシー** ] ページで、既存のモビリティポリシーのいずれかをクリックします。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
@@ -83,7 +85,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して外部アクセスポリシーを作成する
 
-Windows PowerShell と**get-csmobilitypolicy**コマンドレットを使用して、モビリティポリシー (サイトスコープまたはユーザーごとのスコープで) を作成できます。 加えて、**Set-CsMobilityPolicy** コマンドレットを使って、グローバル ポリシーを含む任意の既存のポリシーを変更できます。 これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Windows PowerShell と **get-csmobilitypolicy** コマンドレットを使用して、モビリティポリシー (サイトスコープまたはユーザーごとのスコープで) を作成できます。 加えて、**Set-CsMobilityPolicy** コマンドレットを使って、グローバル ポリシーを含む任意の既存のポリシーを変更できます。 これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 

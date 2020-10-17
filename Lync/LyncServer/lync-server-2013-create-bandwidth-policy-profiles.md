@@ -12,20 +12,22 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66f2489b0ffaabc3744d92b38bcbf71ffcd84591
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 173f63fce60215ca0bc68791b0bc051136d931a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205703"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501704"
 ---
+# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Lync Server 2013 での帯域幅ポリシープロファイルの作成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a>Lync Server 2013 での帯域幅ポリシープロファイルの作成
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 *帯域幅ポリシー*は、リアルタイムのオーディオおよびビデオのモダリティについて、帯域幅使用量の制限を定義します。 帯域幅ポリシーは*帯域幅ポリシーのプロファイル*に適用され、帯域幅ポリシーのプロファイルは通話受付管理のために複数のネットワーク サイトに適用することができます。
 
-CAC の展開にどの程度の帯域幅制限を設定するかに関するガイドラインについては、「計画」のドキュメントの「 [Lync Server 2013 での通話受付管理の要件の定義](lync-server-2013-defining-your-requirements-for-call-admission-control.md)」を参照してください。
+CAC の展開にどの程度の帯域幅制限を設定するかに関するガイドラインについては、「計画」のドキュメントの「 [Lync Server 2013 での通話受付管理の要件の定義](lync-server-2013-defining-your-requirements-for-call-admission-control.md) 」を参照してください。
 
 帯域幅ポリシーおよびポリシープロファイルの使用の詳細については、「Lync Server Management Shell」のドキュメントの次のコマンドレットを参照してください。
 
@@ -51,7 +53,7 @@ CAC の展開にどの程度の帯域幅制限を設定するかに関するガ�
 
   - [Get-csnetworkbandwidthpolicyprofile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-次の手順で作成されるポリシーの例は、オーディオ トラフィック全体、個々のオーディオ セッション、ビデオ トラフィック全体、および個々のビデオ セッションに制限を設けます。 たとえば、5Mb\_のリンク帯域幅ポリシープロファイルは次の制限を設定します。
+次の手順で作成されるポリシーの例は、オーディオ トラフィック全体、個々のオーディオ セッション、ビデオ トラフィック全体、および個々のビデオ セッションに制限を設けます。 たとえば、5Mb の \_ リンク帯域幅ポリシープロファイルは次の制限を設定します。
 
   - オーディオ リミット: 2,000 kbps
 

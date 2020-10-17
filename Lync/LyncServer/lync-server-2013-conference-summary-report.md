@@ -12,20 +12,22 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 772ece86803f9fc499b38299621ccd491221f84b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d4390c2f3aa18820668415543496dfdcfd5aa79e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213073"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48502354"
 ---
+# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 の電話会議の概要レポート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 の電話会議の概要レポート
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2014-09-03_
 
 電話会議の概要レポートは、オンライン電話会議セッションの全体像を示します。 通常、会議には2人以上のユーザーが関与しており、Microsoft Lync Server 2013 の電話会議サービスを使用する必要があります。 それに対し、ピアツーピアセッションには通常は 2 名のユーザーのみが関与し、Lync Server の電話会議サービスを使用する必要はありません。 ピアツーピアアクティビティは、 [Lync Server 2013 のピアツーピアアクティビティ概要レポート](lync-server-2013-peer-to-peer-activity-summary-report.md)で報告されます。
 
-電話会議の概要レポートでは、特定の期間 (時間、日、週、月) に開催された電話会議の数だけでなく、会議に参加したユーザーの総数と、一意の電話会議の合計数も通知します。オーガナイザー.
+電話会議の概要レポートでは、特定の期間 (時間、日、週、月) に開催された電話会議の数だけでなく、会議に参加したユーザーの総数と、一意の電話会議の開催者の合計数も通知されます。
 
 "一意の" 開催者とは、少なくとも 1 件の会議を予定したユーザーです。たとえば、Pilar Ackerman が 1 件の会議を予定した場合、彼女は 1 名の一意の開催者としてカウントされます。Ken Myer が 148 件の会議を予定した場合、彼も 1 名の一意の開催者としてカウントされます。たとえば 次の表では 8 件の会議が予定されていますが、一意の開催者は 3 名だけです (Ken Myer、Pilar Ackerman、および David Ahs)。
 
@@ -200,7 +202,7 @@ _**トピックの最終更新日:** 2014-09-03_
 <tr class="even">
 <td><p><strong>To</strong></p></td>
 <td><p>時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。</p>
-<p>2012/7/7 13:00</p>
+<p>7/7/2012 1:00 PM</p>
 <p>終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。</p>
 <p>7/7/2012</p>
 <p>週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。</p>

@@ -12,20 +12,22 @@ ms:contentKeyID: 51803973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1ec593c264a1630274e83e8a7de1d193b8e5cbf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c45a545dcd0d366d3dc9d2fcd82f4fe156f8384
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197924"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501454"
 ---
+# <a name="device-update-rules-in-lync-server-2013"></a>Lync Server 2013 のデバイス更新ルール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-update-rules-in-lync-server-2013"></a>Lync Server 2013 のデバイス更新ルール
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42197924"
 
 _**トピックの最終更新日:** 2013-02-20_
 
-Microsoft では、Lync Phone Edition 用のデバイスファームウェア更新プログラムの新しいセットを定期的にリリースしています。 *デバイス更新ルール*は、ファームウェアの更新プログラムをハードウェアデバイス (電話機および Lync Phone Edition を実行している他のデバイス) に関連付けます。
+Microsoft では、Lync Phone Edition 用のデバイスファームウェア更新プログラムの新しいセットを定期的にリリースしています。 *デバイス更新ルール* は、ファームウェアの更新プログラムをハードウェアデバイス (電話機および Lync Phone Edition を実行している他のデバイス) に関連付けます。
 
-最新のデバイス更新ルールセットを取得するには、Microsoft web サイトの [ヘルプとサポート] ページに移動し、「Phone Edition」を検索します。 更新プログラムパッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルが抽出されたら、抽出されたで見つかったデバイス更新ルールをインポートします。CAB ファイル (名前は UCUpdates. .cab)。 次に、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使用して、組織のデバイスに対するこれらのルールを表示および管理します。
+最新のデバイス更新ルールセットを取得するには、Microsoft web サイトの [ヘルプとサポート] ページに移動し、「Phone Edition」を検索します。 更新プログラムパッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルが抽出されたら、抽出されたで見つかったデバイス更新ルールをインポートします。CAB ファイル (名前 UCUpdates.cab) を指定します。 次に、Lync Server コントロールパネルまたは Windows PowerShell コマンドレットを使用して、組織のデバイスに対するこれらのルールを表示および管理します。
 
 次のトピックでは、デバイス更新ルールをインポート、表示、および管理する方法について説明します。
 
