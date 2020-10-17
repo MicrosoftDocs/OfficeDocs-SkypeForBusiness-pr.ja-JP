@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblConfig'
+description: 'Lync Server 2013: tblConfig。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2efbed57d88e7312bc1da3a9da8f8057fd6696a5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8990e0b2c8724a5e90c36e706b92f9985f288772
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509374"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550433"
 ---
-# <a name="tblconfig-in-lync-server-2013"></a><span data-ttu-id="d94c4-102">Lync Server 2013 の tblConfig</span><span class="sxs-lookup"><span data-stu-id="d94c4-102">tblConfig in Lync Server 2013</span></span>
+# <a name="tblconfig-in-lync-server-2013"></a><span data-ttu-id="66ff9-103">Lync Server 2013 の tblConfig</span><span class="sxs-lookup"><span data-stu-id="66ff9-103">tblConfig in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48509374"
 
 <span> </span>
 
-<span data-ttu-id="d94c4-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="d94c4-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="66ff9-104">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="66ff9-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="d94c4-104">tblConfig には、一部の常設チャットサーバーのサポートされない構成が1つの行に含まれています。</span><span class="sxs-lookup"><span data-stu-id="d94c4-104">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
+<span data-ttu-id="66ff9-105">tblConfig には、一部の常設チャットサーバーのサポートされない構成が1つの行に含まれています。</span><span class="sxs-lookup"><span data-stu-id="66ff9-105">tblConfig contains some Persistent Chat Server unsupported configuration, in one row.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="d94c4-105">段組み</span><span class="sxs-lookup"><span data-stu-id="d94c4-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="66ff9-106">段組み</span><span class="sxs-lookup"><span data-stu-id="66ff9-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,32 +52,32 @@ ms.locfileid: "48509374"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d94c4-106">Column</span><span class="sxs-lookup"><span data-stu-id="d94c4-106">Column</span></span></th>
-<th><span data-ttu-id="d94c4-107">種類</span><span class="sxs-lookup"><span data-stu-id="d94c4-107">Type</span></span></th>
-<th><span data-ttu-id="d94c4-108">説明</span><span class="sxs-lookup"><span data-stu-id="d94c4-108">Description</span></span></th>
+<th><span data-ttu-id="66ff9-107">Column</span><span class="sxs-lookup"><span data-stu-id="66ff9-107">Column</span></span></th>
+<th><span data-ttu-id="66ff9-108">種類</span><span class="sxs-lookup"><span data-stu-id="66ff9-108">Type</span></span></th>
+<th><span data-ttu-id="66ff9-109">説明</span><span class="sxs-lookup"><span data-stu-id="66ff9-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d94c4-109">configLabel</span><span class="sxs-lookup"><span data-stu-id="d94c4-109">configLabel</span></span></p></td>
-<td><p><span data-ttu-id="d94c4-110">NULL でない nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="d94c4-110">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="d94c4-111">&quot;プールを含みます。&quot;</span><span class="sxs-lookup"><span data-stu-id="d94c4-111">Contains &quot;pool.&quot;</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-110">configLabel</span><span class="sxs-lookup"><span data-stu-id="66ff9-110">configLabel</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-111">NULL でない nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="66ff9-111">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-112">&quot;プールを含みます。&quot;</span><span class="sxs-lookup"><span data-stu-id="66ff9-112">Contains &quot;pool.&quot;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d94c4-112">configContent</span><span class="sxs-lookup"><span data-stu-id="d94c4-112">configContent</span></span></p></td>
-<td><p><span data-ttu-id="d94c4-113">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="d94c4-113">nvarchar (max)</span></span></p></td>
-<td><p><span data-ttu-id="d94c4-114">構成の内容です。</span><span class="sxs-lookup"><span data-stu-id="d94c4-114">Configuration content.</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-113">configContent</span><span class="sxs-lookup"><span data-stu-id="66ff9-113">configContent</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-114">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="66ff9-114">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-115">構成の内容です。</span><span class="sxs-lookup"><span data-stu-id="66ff9-115">Configuration content.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d94c4-115">configPoolID</span><span class="sxs-lookup"><span data-stu-id="d94c4-115">configPoolID</span></span></p></td>
-<td><p><span data-ttu-id="d94c4-116">NULL でない GUID</span><span class="sxs-lookup"><span data-stu-id="d94c4-116">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="d94c4-117">データベース インスタンスの一意の識別子。</span><span class="sxs-lookup"><span data-stu-id="d94c4-117">Unique ID of the database instance.</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-116">configPoolID</span><span class="sxs-lookup"><span data-stu-id="66ff9-116">configPoolID</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-117">NULL でない GUID</span><span class="sxs-lookup"><span data-stu-id="66ff9-117">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-118">データベース インスタンスの一意の識別子。</span><span class="sxs-lookup"><span data-stu-id="66ff9-118">Unique ID of the database instance.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="d94c4-118">キー</span><span class="sxs-lookup"><span data-stu-id="d94c4-118">Key</span></span>
+### <a name="key"></a><span data-ttu-id="66ff9-119">キー</span><span class="sxs-lookup"><span data-stu-id="66ff9-119">Key</span></span>
 
 <table>
 <colgroup>
@@ -85,14 +86,14 @@ ms.locfileid: "48509374"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d94c4-119">列</span><span class="sxs-lookup"><span data-stu-id="d94c4-119">Column</span></span></th>
-<th><span data-ttu-id="d94c4-120">説明</span><span class="sxs-lookup"><span data-stu-id="d94c4-120">Description</span></span></th>
+<th><span data-ttu-id="66ff9-120">列</span><span class="sxs-lookup"><span data-stu-id="66ff9-120">Column</span></span></th>
+<th><span data-ttu-id="66ff9-121">説明</span><span class="sxs-lookup"><span data-stu-id="66ff9-121">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d94c4-121">configLabel</span><span class="sxs-lookup"><span data-stu-id="d94c4-121">configLabel</span></span></p></td>
-<td><p><span data-ttu-id="d94c4-122">主キー。</span><span class="sxs-lookup"><span data-stu-id="d94c4-122">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-122">configLabel</span><span class="sxs-lookup"><span data-stu-id="66ff9-122">configLabel</span></span></p></td>
+<td><p><span data-ttu-id="66ff9-123">主キー。</span><span class="sxs-lookup"><span data-stu-id="66ff9-123">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
