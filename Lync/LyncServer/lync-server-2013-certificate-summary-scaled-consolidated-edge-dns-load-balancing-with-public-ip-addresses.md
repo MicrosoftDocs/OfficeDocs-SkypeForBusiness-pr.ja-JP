@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 証明書の概要-拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散'
+description: 'Lync Server 2013: 証明書の概要-拡張統合エッジ、パブリック IP アドレスを使用した DNS 負荷分散'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9e3acc8efdffd3d04eca2d009791c7cc5d41a3b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e404b65ea0fff9950d3cb2496ff7e97d8762695a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499284"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572273"
 ---
 # <a name="certificate-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>証明書の概要-Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散
 

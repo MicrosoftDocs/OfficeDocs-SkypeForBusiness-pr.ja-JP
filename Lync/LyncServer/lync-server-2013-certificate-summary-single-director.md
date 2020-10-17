@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 証明書の概要-単一ディレクター'
+description: 'Lync Server 2013: 証明書の概要-単一のディレクター。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ceb2543cece60a32c733d2efad6023fc30bb2bf6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4cf930a73d9989ec44f52f1d70ee9e0f900e4d6f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517934"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572163"
 ---
 # <a name="certificate-summary---single-director-in-lync-server-2013"></a>証明書の概要-Lync Server 2013 の単一ディレクター
 

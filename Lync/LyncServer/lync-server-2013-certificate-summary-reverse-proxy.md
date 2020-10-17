@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 証明書の概要-リバースプロキシ'
+description: 'Lync Server 2013: 証明書の概要-リバースプロキシ。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25e83fb5857988396c3d13d2b07078c654972c92
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0cc250d6de2eb1a0b6c3ad3495c8df62942f9a81
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515744"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572303"
 ---
 # <a name="certificate-summary---reverse-proxy-in-lync-server-2013"></a>証明書の概要-Lync Server 2013 のリバースプロキシ
 

@@ -1,5 +1,6 @@
 ---
 title: 'フェーズ 10: 従来のサイトを使用停止にする'
+description: 'フェーズ 10: 従来のサイトを使用停止にします。'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a8a2871659747b68e7a0dec6a945c6f987219a8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9692301a1da38cfd69780ce2524f00dd428454e5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533764"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571203"
 ---
 # <a name="phase-10-decommission-legacy-site"></a>フェーズ 10: 従来のサイトを使用停止にする
 
@@ -67,7 +68,7 @@ _**トピックの最終更新日:** 2012-10-16_
 
   - [電話会議ディレクトリを移動する](move-conference-directories.md)
 
-  - [DNS SRV レコードの更新](update-dns-srv-records_1.md)
+  - [DNS SRV レコードの更新](update-dns-srv-records.md)
 
   - [サーバーとプールの使用停止](decommissioning-servers-and-pools.md)
 

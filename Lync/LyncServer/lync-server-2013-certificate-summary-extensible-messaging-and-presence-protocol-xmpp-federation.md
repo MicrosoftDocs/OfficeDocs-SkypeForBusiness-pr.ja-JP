@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 証明書の概要-拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーション'
+description: 'Lync Server 2013: 証明書の概要-拡張可能なメッセージングとプレゼンスプロトコル (XMPP) フェデレーション。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2dd5f09f9abbfb1e01935552238d966b5060d9a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6e2bb593d909c2eec6032dc89c07cc5f5b1a72db
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520654"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572343"
 ---
 # <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>証明書の概要-Lync Server 2013 での拡張可能なメッセージングおよびプレゼンスプロトコル (XMPP) フェデレーション
 

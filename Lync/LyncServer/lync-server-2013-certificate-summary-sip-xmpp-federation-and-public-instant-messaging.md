@@ -1,5 +1,6 @@
 ---
 title: 証明書の概要-SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
+description: 証明書の概要-SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 284a633a2c5ce820009c6672058837bbecb7ecd6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 565d3b935d304aa09588688bd8d71948b1b3ec3f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517874"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572143"
 ---
 # <a name="certificate-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>証明書の概要-Lync Server 2013 の SIP、XMPP フェデレーション、およびパブリックインスタントメッセージング
 

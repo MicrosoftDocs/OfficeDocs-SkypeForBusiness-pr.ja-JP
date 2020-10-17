@@ -1,5 +1,6 @@
 ---
 title: 'フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する'
+description: 'フェーズ 1: Office Communications Server 2007 R2 からの移行を計画します。'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64414268ef1ca38302eed360810b92706bf3ce89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 67a05fb6782b22d7a4efb70702c8c2378cd6bde3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533784"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571213"
 ---
 # <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a>フェーズ 1: Office Communications Server 2007 R2 からの移行を計画する
 
@@ -45,15 +46,15 @@ _**トピックの最終更新日:** 2012-09-29_
 
 ## <a name="in-this-section"></a>このセクションの内容
 
-  - [ユーザーの移行](user-migration_1.md)
+  - [ユーザーの移行](user-migration.md)
 
-  - [アーカイブ サーバーと監視サーバーの移行](migrating-archiving-and-monitoring-servers_1.md)
+  - [アーカイブ サーバーと監視サーバーの移行](migrating-archiving-and-monitoring-servers.md)
 
-  - [移行後のサーバーの管理](administering-servers-after-migration_1.md)
+  - [移行後のサーバーの管理](administering-servers-after-migration.md)
 
-  - [複数のサイトとプールの移行](migrating-multiple-sites-and-pools_1.md)
+  - [複数のサイトとプールの移行](migrating-multiple-sites-and-pools.md)
 
-  - [XMPP フェデレーションの移行](migrating-xmpp-federation_1.md)
+  - [XMPP フェデレーションの移行](migrating-xmpp-federation.md)
 
 </div>
 

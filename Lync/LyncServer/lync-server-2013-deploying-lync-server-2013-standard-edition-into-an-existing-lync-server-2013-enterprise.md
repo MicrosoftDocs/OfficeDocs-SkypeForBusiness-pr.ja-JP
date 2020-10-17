@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync server 2013 Standard Edition を既存の Lync Server 2013 エンタープライズに展開する'
+description: 'Lync Server 2013: lync server 2013 Standard Edition を既存の Lync Server 2013 Enterprise に展開します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183297
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd3d666eefe04a6650a5c1a10253f490e391ff22
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: b233d4e782e716904fca0a2a146b2459e906aa57
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501514"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571723"
 ---
 # <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開
 

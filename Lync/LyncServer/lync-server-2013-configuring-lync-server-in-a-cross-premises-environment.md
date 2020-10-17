@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: クロスプレミス環境での Lync Server の構成'
+description: 'Lync Server 2013: クロスプレミス環境での Lync Server の構成。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f6399185e045afb56231550abc33ab514db0d04
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e1ec978cd8e0e34c01c1d5cabb5bba42debd16fd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517390"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570863"
 ---
 # <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>クロスプレミス環境での Microsoft Lync Server 2013 の構成
 

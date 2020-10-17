@@ -1,5 +1,6 @@
 ---
 title: DNS の概要-NAT を使用したプライベート IP アドレスを持つ単一統合エッジ
+description: DNS の概要-NAT を使用したプライベート IP アドレスを持つ単一統合エッジ。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185025
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f97c44b0d199ec257b6e8b8e1d5f4c6d7fa307b4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 80402e04c1993fddda4d33ece22374e73175b5f5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501244"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571673"
 ---
 # <a name="dns-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 で NAT を使用するプライベート IP アドレスを持つ単一統合エッジ
 
