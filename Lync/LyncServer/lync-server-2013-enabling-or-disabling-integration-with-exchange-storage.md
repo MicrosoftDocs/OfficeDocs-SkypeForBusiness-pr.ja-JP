@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Exchange ストレージとの統合の有効化または無効化'
+description: 'Lync Server 2013: Exchange ストレージとの統合を有効または無効にします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d20aa4cfc8ab86dfe12458fbd9ce04e11fc4442e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 42d140bd99bdc4aa86bea2f6ad310c4e06f06faf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522394"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546543"
 ---
 # <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>Lync Server 2013 と Exchange ストレージの統合を有効または無効にする
 

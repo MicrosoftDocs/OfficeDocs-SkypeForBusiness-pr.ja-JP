@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: アナウンスの構成'
+description: 'Lync Server 2013: アナウンスを構成します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21eed897d0f85e7d7041f5e86db2fe41e7c30bdd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 819653e63fe6279f7b477259de7af034082bdcf0
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522974"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546663"
 ---
 # <a name="configure-announcements-in-lync-server-2013"></a>Lync Server 2013 でのアナウンスの構成
 

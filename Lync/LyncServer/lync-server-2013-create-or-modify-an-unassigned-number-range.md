@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 割り当てられていない番号範囲を作成または変更する'
+description: 'Lync Server 2013: 割り当てられていない番号範囲を作成または変更します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4409a0c5688d131b34c792230c992142dd4f9c51
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2998616b931e94c9c38fc44d569b84b3af37709d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514684"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546953"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>Lync Server 2013 で割り当てられていない番号範囲を作成または変更する
 

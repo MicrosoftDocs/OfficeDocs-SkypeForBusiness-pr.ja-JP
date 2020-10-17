@@ -1,5 +1,6 @@
 ---
 title: テナントパラメーターを使用する Skype for Business Online のコマンドレット
+description: テナントパラメーターを使用する Skype for Business Online のコマンドレット。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 352a33fcff5db306b62535c28fb4a2b2dd766bea
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ff2b8053dd855a854fa26699770d3dafaa0dcbd7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755043"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546803"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>テナントパラメーターを使用する Skype for Business Online のコマンドレット
 
@@ -29,12 +30,12 @@ ms.locfileid: "44755043"
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-これらのコマンドレットのいずれかを実行するたびに、テナント ID (たとえば、bf19b7db-6960-41e5-a139-2aa373474354) を入力する必要はありません。 その代わりに、 [get-cstenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\))コマンドレットを実行してテナント id を変数に格納し、他のコマンドレットのいずれかを呼び出すときにその変数を使用することで、テナント id を取得できます。 例:
+これらのコマンドレットのいずれかを実行するたびに、テナント ID (たとえば、bf19b7db-6960-41e5-a139-2aa373474354) を入力する必要はありません。 その代わりに、 [get-cstenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) コマンドレットを実行してテナント id を変数に格納し、他のコマンドレットのいずれかを呼び出すときにその変数を使用することで、テナント id を取得できます。 以下に例を示します。
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-または、テナント ID を取得し、その値を CsTenantPublicProvider コマンドレットにパイプ処理することによって、この操作を1つのコマンドで行うこともできます。
+または、テナント ID を取得し、その値を Set-CsTenantPublicProvider コマンドレットにパイプ処理することで、この操作を1つのコマンドで行うこともできます。
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
@@ -56,11 +57,11 @@ ms.locfileid: "44755043"
 
   - [Get-cstenantlicensingconfiguration](https://technet.microsoft.com/library/dn362770\(v=ocs.15\))
 
-たとえば、 **CsTenantFederationConfiguration**コマンドレットは、次のコマンドを使用して呼び出すことができます。
+たとえば、 **CsTenantFederationConfiguration** コマンドレットは、次のコマンドを使用して呼び出すことができます。
 
     Get-CsTenantFederationConfiguration
 
-必須ではありませんが、CsTenantFederationConfiguration を呼び出すときにテナントパラメータを含めることができます。
+必須ではありませんが、Get-CsTenantFederationConfiguration を呼び出すときにテナントパラメータを含めることができます。
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 

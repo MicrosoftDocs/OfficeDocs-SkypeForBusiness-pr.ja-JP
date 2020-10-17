@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ハードウェアロードバランサーによる拡張統合エッジ'
+description: 'Lync Server 2013: 拡張統合エッジ (ロードバランサー機器を使用)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 125f9a598d2d768a7417489f1e2004a1cbb17cf8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 808c03e0d6f2836719599c6cad9ec83e1c96b207
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511004"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547653"
 ---
 # <a name="scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Lync Server 2013 での拡張統合エッジとロードバランサー機器
 

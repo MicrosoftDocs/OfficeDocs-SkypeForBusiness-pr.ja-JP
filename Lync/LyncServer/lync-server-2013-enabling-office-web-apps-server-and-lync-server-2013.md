@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Office Web Apps サーバーと Lync Server 2013 の有効化'
+description: 'Lync Server 2013: Office Web Apps サーバーと Lync Server 2013 を有効にします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183790
 ms.date: 08/19/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89ec4337bd4bc728f9737ecb75bb29075831bc09
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a1bf4e09dc29bf344b78df50595258f0663cd731
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528544"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48546523"
 ---
 # <a name="configuring-integration-with-office-web-apps-server-and-lync-server-2013"></a>Office Web Apps Server および Lync Server 2013 との統合の構成
 
