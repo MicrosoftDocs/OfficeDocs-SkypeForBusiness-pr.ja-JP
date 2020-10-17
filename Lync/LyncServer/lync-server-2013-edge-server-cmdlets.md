@@ -12,20 +12,22 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d18bea94d7844f611afb14d388d6655379ee047
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8af979b36564fef40a4839e31f2597d82117741
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179954"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533384"
 ---
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のエッジサーバーのコマンドレット
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 のエッジサーバーのコマンドレット
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179954"
 
 _**トピックの最終更新日:** 2013-10-07_
 
-エッジサーバーを使用すると、Microsoft Lync Server 2013 の機能を、内部ネットワークにログオンしていないユーザーに拡張することができます。 たとえば、リモートユーザーが、内部ネットワーク経由ではなく、インターネット経由で Lync Server 2013 にログオンしている場合は、Lync Server アクセスエッジサービスを実行するエッジサーバーをセットアップする必要があります。 また、他の組織とのフェデレーションを確立する場合、または Yahoo\!、AOL、MSN などのパブリックインスタントメッセージングサービスを使用するアカウントを持つユーザーとの通信をユーザーに許可する場合は、エッジサーバーが必要です。
+エッジサーバーを使用すると、Microsoft Lync Server 2013 の機能を、内部ネットワークにログオンしていないユーザーに拡張することができます。 たとえば、リモートユーザーが、内部ネットワーク経由ではなく、インターネット経由で Lync Server 2013 にログオンしている場合は、Lync Server アクセスエッジサービスを実行するエッジサーバーをセットアップする必要があります。 また、他の組織とのフェデレーションを確立する場合、または Yahoo \! 、AOL、MSN などのパブリックインスタントメッセージングサービスを使用するアカウントを持つユーザーとの通信をユーザーに許可する場合は、エッジサーバーが必要です。
 
 <div>
 

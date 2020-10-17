@@ -12,20 +12,22 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 840ec938fdd6262468eb86a3b190e100c38bf32c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0e217e28545eea15a61bf4b4470472cc9944e9b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217273"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531824"
 ---
+# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Lync Server 2013 でのパフォーマンスのためのモビリティの監視
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Lync Server 2013 でのパフォーマンスのためのモビリティの監視
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42217273"
 
 _**トピックの最終更新日:** 2013-02-14_
 
-Lync Server Mobility Service (Mcx) と統合コミュニケーション Web API (UCWA) によって、フロントエンドサーバーおよびフロントエンドプールの負荷が増加します。 モバイルアプリケーションが最小化されている場合でも (Lync 2010 Mobile を実行している Android や Nokia デバイス、Lync 2013 Mobile を実行している Android や Apple デバイスなど)、サーバーとの接続を維持するモバイルデバイスでは、デバイスよりも高い負荷が課せられています。モバイルアプリケーションが最小化されている場合は、サーバーへの接続を終了します。 モビリティの使用量が増加するにつれて、モビリティのパフォーマンスを監視して、処理能力を高める必要があるかどうかを判断する必要があります。
+Lync Server Mobility Service (Mcx) と統合コミュニケーション Web API (UCWA) によって、フロントエンドサーバーおよびフロントエンドプールの負荷が増加します。 モバイルアプリケーションが最小化されている場合でも (Lync 2010 Mobile を実行している Android および Nokia デバイス、Lync 2013 Mobile を実行している Android や Apple デバイスなど)、モバイルアプリケーションが最小化されているときにサーバーへの接続を終了するデバイスよりも高い負荷が課せられます。 モビリティの使用量が増加するにつれて、モビリティのパフォーマンスを監視して、処理能力を高める必要があるかどうかを判断する必要があります。
 
 モビリティのパフォーマンスに影響を与えるいくつかの制限値があります。
 

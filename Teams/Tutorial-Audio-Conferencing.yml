@@ -3,7 +3,9 @@ title: 'チュートリアル: 電話会議-Microsoft Teams'
 metadata:
   title: Microsoft Teams での電話会議
   description: この対話形式のチュートリアルを使用して、Microsoft Teams の電話会議の要件、計画手順、および報告について学習します。
-  ms.custom: seo-marvel-mar2020
+  ms.custom:
+  - seo-marvel-apr2020
+  - seo-marvel-mar2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -20,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 28e1cf02f9f25bded8f0e28f5d82fc18065f6f52
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: fc4f57607a0a96de6754eec0e693b7cf5cb0b767
+  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43904552"
+  ms.lasthandoff: 10/16/2020
+  ms.locfileid: "48532764"
 items:
 - durationInMinutes: 1
   content: >
@@ -53,7 +55,7 @@ items:
     -   レポート
 
 
-    電話会議は、Teams の会議に機能を追加します。 このチュートリアルの前に、 [Microsoft Teams で会議](https://aka.ms/tr-meetings)を完了することをお勧めします。
+    電話会議は、Teams の会議に機能を追加します。 このチュートリアルの前に、 [Microsoft Teams で会議](https://aka.ms/tr-meetings) を完了することをお勧めします。
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -68,25 +70,25 @@ items:
     新機能のアイディアなど、Teams に関する製品フィードバックをご提供いただける場合は、「[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)」にアクセスしてください。
 - title: Teams での電話会議
   durationInMinutes: 12
-  content: "\n電話会議では、参加者は、電話から会議にダイヤルインするか、会議内のダイヤルアウト機能を使用して、通常の電話を使って Teams 会議に参加できます。 電話会議の詳細については、次のリソースを参照してください。\n-   [電話会議機能](https://products.office.com/skype-for-business/audio-conferencing#Features)(推定読み取り時間1分)\n-   [Microsoft Teams との会議に](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)関する重要なヒント (「\\#電話会議に参加して会議に参加する」は1分)、記事全体を読む場合は、「会議に参加する」をご覧ください。\n-   [電話会議の一般的な質問](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)(推定読み取り時間7分)\n-   [会議からダイヤルアウトして、他のユーザーが参加できるようにする](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)(推定読み取り時間2分)\n"
+  content: "\n電話会議では、参加者は、電話から会議にダイヤルインするか、会議内のダイヤルアウト機能を使用して、通常の電話を使って Teams 会議に参加できます。 電話会議の詳細については、次のリソースを参照してください。\n-   [電話会議機能](https://products.office.com/skype-for-business/audio-conferencing#Features) (推定読み取り時間1分)\n-   [Microsoft Teams との会議に](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) 関する重要なヒント (「 \\# 電話会議に参加して会議に参加する」は1分)、記事全体を読む場合は、「会議に参加する」をご覧ください。\n-   [電話会議の一般的な質問](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (推定読み取り時間7分)\n-   [会議からダイヤルアウトして、他のユーザーが参加できるようにする](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (推定読み取り時間2分)\n"
 - title: シナリオ–電話会議
   durationInMinutes: 1
-  content: "\nGarth は、複数の事業所がある Contoso 社で動作します。 Garth は、他のオフィスの場所にいるユーザーと接続する必要がある場合や、自宅や外出先で作業していることが多いため、チーム会議の大きなファンとなります。 Garth が会議の出席依頼を送信すると、電話会議の情報が自動的に追加されます。 これにより、次のシナリオが可能になります。\n-   アリスは Garth の会議に出席したいのですが、外出先でも、信頼性の高いネットワークにアクセスすることはできません。 そのため、会議出席依頼のダイヤルイン座標を使って会議に参加します。 ダイヤルイン処理中には、PIN を使用して認証を行います。これにより、このシステムは、\"アリス\" として認識されます。\n-   現在ホテルにいているボブは、PC の Teams クライアントを使って会議に参加しています。 ホテルでのインターネット接続に対する音声品質はあまり適していません。そのため、Bob は電話会議から自分の電話番号にダイヤルアウトして、公衆交換電話網 (PSTN) 経由で参加することができます。\n-   会議の参加者が、通話中に別の電話番号でユーザーを追加する必要がある場合は、電話番号にダイヤルアウトして、他のユーザーを会議に参加させることができます。\n-   他のユーザーは、PC、Mac、またはモバイルデバイスで Teams クライアントから参加することもできます。\n\nTeams では、会議の開催者は、すべての会議参加者の会議を終了することができます。 これは、次のようなシナリオで役立ちます。\n\n-   教師は、クラスの完成後に学生が会議の unsupervised にとどまることを防ぐことができます。\n-   ウェビナーなどの会議については、会議の開催者が会議の終了時にレコーディングを終了させることができます。\n-   すべての参加者について会議を終了することで、組織の PSTN 使用量と請求を減らすことができます。 \n\nたとえば、会議が完了したときに、Garth は、チームの会議内から [**会議の終了**] をクリックして、参加者全員を削除し、参加者全員を削除することができます。\n"
+  content: "\nGarth は、複数の事業所がある Contoso 社で動作します。 Garth は、他のオフィスの場所にいるユーザーと接続する必要がある場合や、自宅や外出先で作業していることが多いため、チーム会議の大きなファンとなります。 Garth が会議の出席依頼を送信すると、電話会議の情報が自動的に追加されます。 これにより、次のシナリオが可能になります。\n-   アリスは Garth の会議に出席したいのですが、外出先でも、信頼性の高いネットワークにアクセスすることはできません。 そのため、会議出席依頼のダイヤルイン座標を使って会議に参加します。 ダイヤルイン処理中には、PIN を使用して認証を行います。これにより、このシステムは、\"アリス\" として認識されます。\n-   現在ホテルにいているボブは、PC の Teams クライアントを使って会議に参加しています。 ホテルでのインターネット接続に対する音声品質はあまり適していません。そのため、Bob は電話会議から自分の電話番号にダイヤルアウトして、公衆交換電話網 (PSTN) 経由で参加することができます。\n-   会議の参加者が、通話中に別の電話番号でユーザーを追加する必要がある場合は、電話番号にダイヤルアウトして、他のユーザーを会議に参加させることができます。\n-   他のユーザーは、PC、Mac、またはモバイルデバイスで Teams クライアントから参加することもできます。\n\nTeams では、会議の開催者は、すべての会議参加者の会議を終了することができます。 これは、次のようなシナリオで役立ちます。\n\n-   教師は、クラスの完成後に学生が会議の unsupervised にとどまることを防ぐことができます。\n-   ウェビナーなどの会議については、会議の開催者が会議の終了時にレコーディングを終了させることができます。\n-   すべての参加者について会議を終了することで、組織の PSTN 使用量と請求を減らすことができます。 \n\nたとえば、会議が完了したときに、Garth は、チームの会議内から [ **会議の終了** ] をクリックして、参加者全員を削除し、参加者全員を削除することができます。\n"
 - title: Skype for Business のお客様に関する考慮事項
   durationInMinutes: 1
   content: "\nすでに Skype for Business を使用している場合は、次の点を考慮する必要があります。\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>Skype for Business Server –ホームユーザー\n\nSkype for Business Server を使用している場合は、オンプレミスの Skype for Business を使っているユーザーによってスケジュールされた Teams 会議に PSTN 会議の調整は含まれません。 2019年3月1日より前に、これらのユーザーに電話会議ライセンスを割り当てている場合は、これらのライセンスの割り当てを解除し、2時間待ってから、ユーザーが PSTN 会議の座標を確認できるように再割り当てする必要があります。\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>Skype for Business Online –ホームユーザー\n\nユーザーが Skype for Business Online を使用していて、電話会議が既に有効になっている場合は、チームの電話会議が自動的に有効になります。 ダイヤルイン時の会議で使用する PIN は、Skype for Business と Teams でも同じです。\n"
 - title: 電話会議のビジョン化
   durationInMinutes: 48
-  content: "\n実際のガイダンスでは、電話会議を計画して正常に実装するために必要なことについて説明します。 以下の記事を参照して、これらの技術的計画の手順を理解してください。\n\n-   [自分の成功-電話会議](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing)(推定読み取り時間11分) を定義する\n-   [サービスの決定を行う-電話会議](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing)(推定読み取り時間12分)\n-   [環境を評価](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment)する (推定読み取り時間12分)\n-   [サービス管理を計画](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management)する (推定読み取り時間5分)\n-   [ユーザーエクスペリエンスを計画](https://docs.microsoft.com/MicrosoftTeams/5-envision-plan-my-users-experience)する (推定読み取り時間5分)\n-   [成功計画を文書化](https://docs.microsoft.com/MicrosoftTeams/6-envision-document-my-success-plan)する (推定読み取り時間6分)\n"
+  content: "\n実際のガイダンスでは、電話会議を計画して正常に実装するために必要なことについて説明します。 以下の記事を参照して、これらの技術的計画の手順を理解してください。\n\n-   [自分の成功-電話会議](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) (推定読み取り時間11分) を定義する\n-   [サービスの決定を行う-電話会議](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) (推定読み取り時間12分)\n-   [環境を評価](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment) する (推定読み取り時間12分)\n-   [サービス管理を計画](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management) する (推定読み取り時間5分)\n-   [ユーザーエクスペリエンスを計画](https://docs.microsoft.com/MicrosoftTeams/5-envision-plan-my-users-experience) する (推定読み取り時間5分)\n-   [成功計画を文書化](https://docs.microsoft.com/MicrosoftTeams/6-envision-document-my-success-plan) する (推定読み取り時間6分)\n"
 - title: オンボード電話会議
   durationInMinutes: 13
-  content: "\nビジョンの場合と同様に、オンボードは実用的なガイダンスに記載されています。 電話会議のユーザーをオンボードで使用する方法については、次の記事を参照してください。\n\n-   [サービスを準備](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service)する (推定読み取り時間6分)\n-   [ユーザーを準備](https://docs.microsoft.com/MicrosoftTeams/2-onboard-prepare-my-users)する (推定読み取り時間2分)\n-   [サービスを展開](https://docs.microsoft.com/MicrosoftTeams/3-onboard-deploy-my-service)する (推定読み取り時間3分)\n-   [電話会議のトラブルシューティングと既知の問題](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)(チーム固有のコンテンツの推定読み取り時間は2分)\n"
+  content: "\nビジョンの場合と同様に、オンボードは実用的なガイダンスに記載されています。 電話会議のユーザーをオンボードで使用する方法については、次の記事を参照してください。\n\n-   [サービスを準備](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service) する (推定読み取り時間6分)\n-   [ユーザーを準備](https://docs.microsoft.com/MicrosoftTeams/2-onboard-prepare-my-users) する (推定読み取り時間2分)\n-   [サービスを展開](https://docs.microsoft.com/MicrosoftTeams/3-onboard-deploy-my-service) する (推定読み取り時間3分)\n-   [電話会議のトラブルシューティングと既知の問題](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) (チーム固有のコンテンツの推定読み取り時間は2分)\n"
 - title: 演習–電話会議を設定する
   durationInMinutes: 20
   content: "\nこの演習では、Teams で電話会議をテストする機会があります。\n各操作の実行方法については説明しませんが、いくつかのシナリオを試してみることをお勧めします。\n\n### <a name=\"requirements\"></a>要件\n-   チームを使用するための適切なライセンスを持つ Office 365 組織\n    -   テスト専用のテナントを使用することを強く推奨します。\n    -   テスト用のテナントがない場合は、[Office 365 Enterprise E5 Trial](https://go.microsoft.com/fwlink/p/?LinkID=698279) で試用テナントの利用を登録することができます。\n    -   実稼働環境ではいかなるテストも実行しないでください。 設定またはポリシーの変更により、すべてのユーザーに悪影響が及び、ユーザー エクスペリエンスにも影響が生じる可能性があります。\n-   2 つ以上のエンドポイント\n    -   エンドポイントは 2 台の PC でも構いませんが、携帯電話上でクライアントを使用することもできます。\n    -   会議にダイヤルインしてダイヤルアウトすることができる電話\n\n### <a name=\"suggested-scenarios-to-test\"></a>推奨されるテストのシナリオ\n-   電話会議のユーザーを有効にします。\n-   さまざまなユーザーに対して異なる電話会議ブリッジ番号を設定します。\n-   テナントの既定の会議ブリッジ番号を変更します。\n-   電話会議ブリッジ番号の設定を変更します (別の言語)。\n-   会議ブリッジのグローバル設定を変更します (会議の参加と終了の通知、PIN の長さ、メール通知)。\n-   ユーザーに送信されたメールを監視します。\n-   チーム会議をスケジュールし、会議出席依頼を確認します。\n-   電話から会議に参加する。\n-   会議から電話にダイヤルアウトする。\n-   電話をミュートおよびミュート解除するには、会議中にデュアルトーンのマルチ周波数コントロールを使用します。\n-   すべてのユーザーの会議を終了します。 \n"
 - title: Drive 値
   durationInMinutes: 1
-  content: "\nレポートの観点から見ると、次の2つの領域が表示されます。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 理由を確認するには、さらに調査します。\n    理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。 利用状況レポートについて詳しくは[、「管理センターでの 365 Microsoft Teams ユーザーアクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)(推定読み取り時間5分)」を参照してください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   [サービスを運用する](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
+  content: "\nレポートの観点から見ると、次の2つの領域が表示されます。\n-   使用量: 開催されている会議の数について\n-   品質: 会議の品質について\n\nこれらの両方の領域について注意して監視する必要があります。\n-   使用量が低いことは、ユーザーが何らかの理由によりこの製品を使用していないことを意味します。 理由を確認するには、さらに調査します。\n    理由として考えられるのは、会議がユーザーの要件を満たしていないと認知されていることや、啓発不足やトレーニング不足、または品質の問題などです。\n-   低品質は、一方で、ユーザーと Office 365 との間の接続に問題があることを意味します。 低品質により、ユーザー エクスペリエンスの悪化と低使用量につながる可能性があります。 利用状況レポートについて詳しくは [、「管理センターでの 365 Microsoft Teams ユーザーアクティビティ](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (推定読み取り時間5分)」を参照してください。\n\n品質の管理については、このトレーニングの対象範囲外ですが、次のトレーニング資料をご覧ください。\n\n-   [サービスを運用する](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"
 - title: 次のステップ
   durationInMinutes: 1
   content: >-

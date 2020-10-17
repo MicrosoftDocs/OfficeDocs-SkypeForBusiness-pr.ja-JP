@@ -12,20 +12,22 @@ ms:contentKeyID: 48184037
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 872e95c1d5254830a80b8a0d0dd84b233f2d1813
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c191bbc8927790345e7f969c38e4bf1a74ec3bdb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191860"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532324"
 ---
+# <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a>Lync Server 2013 での会議参加ページの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a>Lync Server 2013 での会議参加ページの構成
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**トピックの最終更新日:** 2012-12-14_
 
 ユーザーが会議出席依頼の会議リンクをクリックすると、会議参加ページによって、ユーザーのコンピューターに Lync 2013 クライアントが既にインストールされているかどうかが検出されます。 クライアントがすでにインストールされている場合、クライアントがミーティングを開き、参加します。 クライアントがインストールされていない場合、既定では、2013バージョンの Lync Web App が開きます。
 
-ユーザーが Office Communicator 2007 R2 または Lync 2010 アテンダントを使用して会議に参加できるようにする場合は、会議参加ページの動作を変更することができます。 これらの構成オプションは Lync Server 2013 コントロールパネルから削除されましたが、Set-cswebserviceconfiguration コマンドレットを使用して構成します。
+ユーザーが Office Communicator 2007 R2 または Lync 2010 アテンダントを使用して会議に参加できるようにする場合は、会議参加ページの動作を変更することができます。 これらの構成オプションは Lync Server 2013 コントロールパネルから削除されましたが、Set-CsWebServiceConfiguration コマンドレットを使用して構成します。
 
 ### <a name="meeting-join-page-set-cswebserviceconfiguration-parameters"></a>ミーティング参加ページの Set-CsWebServiceConfiguration パラメーター
 
@@ -71,7 +73,7 @@ _**トピックの最終更新日:** 2012-12-14_
 
 ## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>Lync Server 2013 管理シェルを使用して会議参加ページを構成するには
 
-1.  Lync Server 2013 管理シェルを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
+1.  Lync Server 2013 管理シェルを起動します。 [ **スタート**]、[ **すべてのプログラム**]、[ **Microsoft Lync Server 2013**]、[ **lync server 管理シェル**] の順にクリックします。
 
 2.  Web サービス構成設定を表示するには、次のコマンドレットを実行します。
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 50873755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c575a861644c27a0dba93790667ece9b973211e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73d2affed023c930a5fe9814d820148b4e850b68
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196770"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532114"
 ---
+# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>Lync Server 2013 でクライアントのバージョン管理を有効または無効にする
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-client-versioning-in-lync-server-2013"></a>Lync Server 2013 でクライアントのバージョン管理を有効または無効にする
+
 
 </div>
 
@@ -57,13 +59,13 @@ _**トピックの最終更新日:** 2013-02-23_
 
 2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。 Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。
 
-3.  左側のナビゲーションバーで [**クライアント**] をクリックし、[**クライアントバージョンの構成**] ナビゲーションボタンをクリックします。
+3.  左側のナビゲーションバーで [ **クライアント**] をクリックし、[ **クライアントバージョンの構成** ] ナビゲーションボタンをクリックします。
 
 4.  次の操作を実行してください。
     
-      - クライアントのバージョン管理をグローバルに有効または無効にするには、**グローバル**構成をダブルクリックし、設定を変更します。
+      - クライアントのバージョン管理をグローバルに有効または無効にするには、 **グローバル** 構成をダブルクリックし、設定を変更します。
     
-      - 特定のサイトのクライアントバージョン管理を有効または無効にするには、[**新規**] をクリックし、サイトを選択して [ **OK**] をクリックし、サイトの設定を変更します。
+      - 特定のサイトのクライアントバージョン管理を有効または無効にするには、[ **新規**] をクリックし、サイトを選択して [ **OK**] をクリックし、サイトの設定を変更します。
 
 </div>
 
@@ -71,13 +73,13 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してクライアントのバージョン管理を有効または無効にする
 
-クライアントのバージョン管理を有効または無効にするには、 **Set-CsClientVersionConfiguration**コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+クライアントのバージョン管理を有効または無効にするには、 **Set-CsClientVersionConfiguration** コマンドレットを使用します。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
 ## <a name="to-enable-client-versioning"></a>クライアントのバージョン管理を有効にするには
 
-  - クライアントのバージョン管理を有効にするには、 **Enabled**プロパティを True ($True) に設定します。
+  - クライアントのバージョン管理を有効にするには、 **Enabled** プロパティを True ($True) に設定します。
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
@@ -93,7 +95,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 </div>
 
-詳細については、「 [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration)コマンドレット」のヘルプトピックを参照してください。
+詳細については、「 [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) コマンドレット」のヘルプトピックを参照してください。
 
 </div>
 

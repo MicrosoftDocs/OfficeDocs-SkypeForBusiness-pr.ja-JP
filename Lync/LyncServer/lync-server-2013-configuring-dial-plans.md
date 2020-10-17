@@ -12,20 +12,22 @@ ms:contentKeyID: 48185512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58990adbd0b5240a5054a9d88ec34e3614831bf5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 93532cae14d64a69a0aa7e948607f075f5ae4240
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203063"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532614"
 ---
+# <a name="configuring-dial-plans-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルプランの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-plans-in-lync-server-2013"></a>Lync Server 2013 でのダイヤルプランの構成
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server 2013 ダイヤルプランは、電話の承認と通話のルーテ
 
 
 > [!NOTE]  
-> 詳細については、「計画」のドキュメントの「<A href="lync-server-2013-dial-plans-and-normalization-rules.md">ダイヤルプランと正規化ルール (Lync Server 2013</A> )」を参照してください。
+> 詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-dial-plans-and-normalization-rules.md">ダイヤルプランと正規化ルール (Lync Server 2013</A> )」を参照してください。
 
 
 

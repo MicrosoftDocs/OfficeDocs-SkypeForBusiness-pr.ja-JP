@@ -12,20 +12,22 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96c2c94bde12e6b8b77060a82f1990b673421de9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 780b539aeaf6a6bc6956fc5f8b6185092675632b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198780"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532494"
 ---
+# <a name="configuring-lync-server-2013-passive-authentication"></a>Lync Server 2013 のパッシブ認証の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-passive-authentication"></a>Lync Server 2013 のパッシブ認証の構成
+
 
 </div>
 
@@ -70,7 +72,7 @@ _**トピックの最終更新日:** 2013-07-11_
     
 
     > [!WARNING]  
-    > WsFedPassiveMetadataUri FQDN の値は、AD FS 2.0 サーバーのフェデレーションサービス名です。 フェデレーションサービス名の値は、AD FS 2.0 管理コンソールで、ナビゲーションウィンドウの [<STRONG>サービス</STRONG>] を右クリックし、[<STRONG>フェデレーションサービスのプロパティの編集</STRONG>] を選択すると表示されます。
+    > WsFedPassiveMetadataUri FQDN の値は、AD FS 2.0 サーバーのフェデレーションサービス名です。 フェデレーションサービス名の値は、AD FS 2.0 管理コンソールで、ナビゲーションウィンドウの [ <STRONG>サービス</STRONG> ] を右クリックし、[ <STRONG>フェデレーションサービスのプロパティの編集</STRONG>] を選択すると表示されます。
 
     
     </div>
@@ -99,7 +101,7 @@ Lync Web サービスで証明書認証が無効になっている場合、Lync 
 
 **カスタムプロキシ構成を作成するには**
 
-1.  Lync Server 管理シェルコマンドラインから、累積的な更新プログラムを使用して、各 Lync Server 2013 に対して新しいプロキシ構成を作成します。7月2013エッジプール、エンタープライズプール、Standard Edition サーバーを実行することでパッシブ認証が有効になります。次のコマンド:
+1.  Lync Server 管理シェルコマンドラインから、累積的な更新プログラム (次のコマンドを実行することにより、7月2013エッジプール、エンタープライズプール、Standard Edition サーバー) 2013 の新しいプロキシ構成を作成し、パッシブ認証を有効にします。
     
        ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895cd0832dbf9b19c38a236b23ca02e1be39abda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6dd2f40cdcba947a560dd51c520c8da2dbc768d9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208383"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532974"
 ---
+# <a name="start-edge-servers-in-lync-server-2013"></a>Lync Server 2013 でのエッジサーバーの起動
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-edge-servers-in-lync-server-2013"></a>Lync Server 2013 でのエッジサーバーの起動
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2012-01-16_
 
 4.  [**ステップ 4: サービスの開始**] の下にある [**サービスの状態 (オプション)**] をクリックします。
 
-5.  サーバーの**サービス**Microsoft 管理コンソール (MMC) で、すべての Lync server 2013 サービスが実行されていることを確認します。
+5.  サーバーの **サービス** Microsoft 管理コンソール (MMC) で、すべての Lync server 2013 サービスが実行されていることを確認します。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fcf163893a84e4b9244e43b12c702cf0076b1ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 161a8577558705c773974b1cc733337b29b6dbd5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196030"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532624"
 ---
+# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元のワークシート
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Lync Server 2013 のバックアップと復元のワークシート
+
 
 </div>
 
@@ -71,13 +73,13 @@ _**トピックの最終更新日:** 2013-02-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>データベース</th>
+<th>Database</th>
 <th>サーバー名 (FQDN)</th>
 <th>バックアップスケジュール</th>
 <th>データベースバックアップツール</th>
 <th>バックアップセット</th>
 <th>バックアップ先</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -85,7 +87,7 @@ _**トピックの最終更新日:** 2013-02-18_
 <td><p>バックエンドサーバー上のユーザーデータ用の Rtc データベース</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
-<td><p><strong>Export-CsUserData</strong>コマンドレット</p></td>
+<td><p><strong>Export-CsUserData</strong> コマンドレット</p></td>
 <td><p>拡張子</p>
 <p>Nntp</p>
 <p>                   </p></td>
@@ -126,7 +128,7 @@ _**トピックの最終更新日:** 2013-02-18_
 <td><p>常設チャットデータベース</p></td>
 <td></td>
 <td></td>
-<td><p>SQL Server 管理ツールまたは<strong>export-cspersistentchatdata</strong>コマンドレット</p></td>
+<td><p>SQL Server 管理ツールまたは <strong>export-cspersistentchatdata</strong> コマンドレット</p></td>
 <td><p>拡張子</p>
 <p>Nntp</p></td>
 <td></td>
@@ -176,7 +178,7 @@ _**トピックの最終更新日:** 2013-02-18_
 <th>ファイルシステムバックアップツール</th>
 <th>バックアップするファイル共有 *</th>
 <th>バックアップ先</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -215,13 +217,13 @@ _**トピックの最終更新日:** 2013-02-18_
 </colgroup>
 <thead>
 <tr class="header">
-<th>データベース</th>
+<th>Database</th>
 <th>サーバー名 (FQDN)</th>
 <th>バックアップスケジュール</th>
 <th>バックアップツール</th>
 <th>構成ファイル (.xml) 名</th>
 <th>バックアップの場所</th>
-<th>メモ</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -229,7 +231,7 @@ _**トピックの最終更新日:** 2013-02-18_
 <td><p>トポロジ構成用の中央管理ストアの Xds データベース (グローバル)</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
-<td><p><strong>Export-CsConfiguration</strong>コマンドレット</p></td>
+<td><p><strong>Export-CsConfiguration</strong> コマンドレット</p></td>
 <td><p>                   </p></td>
 <td><p>                    </p></td>
 <td><p>                   </p></td>
@@ -238,7 +240,7 @@ _**トピックの最終更新日:** 2013-02-18_
 <td><p>E9-1-1 場所情報 (グローバル) の中央管理ストアの Lis データベース</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p><strong>Export-cslisconfiguration</strong>コマンドレット</p></td>
+<td><p><strong>Export-cslisconfiguration</strong> コマンドレット</p></td>
 <td></td>
 <td><p> </p></td>
 <td><p>                    </p></td>
@@ -247,7 +249,7 @@ _**トピックの最終更新日:** 2013-02-18_
 <td><p>応答グループ構成のバックエンドサーバー上の RgsConfig データベース (プール)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p><strong>Export-CsRgsConfiguration</strong>コマンドレット</p></td>
+<td><p><strong>Export-CsRgsConfiguration</strong> コマンドレット</p></td>
 <td></td>
 <td><p> </p></td>
 <td><p>                    </p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71169885adfbfa41b1186c340fc758e2b9463538
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44a66f82e9eefd9c4b68e753635abc90aea0ad5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198636"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533104"
 ---
+# <a name="hosted-exchange-unified-messaging-integration-in-lync-server-2013"></a>Lync Server 2013 でのホスト型 Exchange ユニファイドメッセージングの統合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-unified-messaging-integration-in-lync-server-2013"></a>Lync Server 2013 でのホスト型 Exchange ユニファイドメッセージングの統合
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42198636"
 
 _**トピックの最終更新日:** 2012-09-20_
 
-以前の Lync Server 2013 リリースは2013、Exchange ユニファイドメッセージング (UM) の*社内*展開との統合のために提供されたサポートに加えて、 *hosted* Exchange UM との統合のサポートが導入されました。 Hosted Exchange UM を使用すると、Microsoft Exchange Online などのホストされた Exchange サービスプロバイダーに一部またはすべてを転送する場合に、Lync Server 2013 がユーザーにボイスメッセージングを提供することができます。
+以前の Lync Server 2013 リリースは2013、Exchange ユニファイドメッセージング (UM) の *社内* 展開との統合のために提供されたサポートに加えて、 *hosted* Exchange UM との統合のサポートが導入されました。 Hosted Exchange UM を使用すると、Microsoft Exchange Online などのホストされた Exchange サービスプロバイダーに一部またはすべてを転送する場合に、Lync Server 2013 がユーザーにボイスメッセージングを提供することができます。
 
-Lync Server 2013 Enterprise Voice は、Exchange UM インフラストラクチャを使用して、通話応答、通話通知、音声アクセス (ボイスメールを含む)、および自動応答サービスを提供します。 詳細については、「[統合ユニファイドメッセージングと Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md)」を参照してください。
+Lync Server 2013 Enterprise Voice は、Exchange UM インフラストラクチャを使用して、通話応答、通話通知、音声アクセス (ボイスメールを含む)、および自動応答サービスを提供します。 詳細については、「 [統合ユニファイドメッセージングと Lync Server 2013 の機能](lync-server-2013-features-of-integrated-unified-messaging.md)」を参照してください。
 
 <div>
 

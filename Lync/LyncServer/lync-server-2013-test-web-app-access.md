@@ -12,20 +12,22 @@ ms:contentKeyID: 63969584
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fc6c9f3ef4a89fd1e4698cd8dc456ecb34e4304
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cdf0c4d974732b75a7ff83022c6bfbf1c4d8e80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194350"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532934"
 ---
+# <a name="test-web-app-access-in-lync-server-2013"></a>Lync Server 2013 での Web アプリケーションアクセスのテスト
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-web-app-access-in-lync-server-2013"></a>Lync Server 2013 での Web アプリケーションアクセスのテスト
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-07_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには、Test-CsWebApp コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsWebApp コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebApp&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +68,9 @@ _**トピックの最終更新日:** 2014-06-07_
 
 ## <a name="description"></a>説明
 
-Test-CsWebApp コマンドレットは、認証されたユーザーが lync Web App を使用して Lync Server 会議に参加できることを確認します。 コマンドレットを実行すると、テスト-CsWebApp は Web チケットサービスに接続して、指定されたユーザーの web チケットを取得します。 これらのチケットは、Lync Server 会議の「受付チケット」として効果的に機能します。 チケットを取得でき、ユーザーを認証できる場合、テスト-CsWebApp は Lync Server に接続して、インスタントメッセージング、アプリケーション共有、およびデータコラボレーションのための個別の会議を確立しようとします。
+Test-CsWebApp コマンドレットは、認証されたユーザーが lync Web App を使用して Lync Server 会議に参加できることを確認します。 コマンドレットを実行すると、Test-CsWebApp は Web チケットサービスに接続して、指定されたユーザーの web チケットを取得します。 これらのチケットは、Lync Server 会議の「受付チケット」として効果的に機能します。 チケットを取得でき、ユーザーが認証されている場合、Test-CsWebApp は Lync Server に接続して、インスタントメッセージング、アプリケーション共有、およびデータコラボレーションのための個別の会議を確立しようとします。
 
-Test-CsWebApp は、これらの会議の作成に使用された Api と接続を確認するだけであることに注意してください。 コマンドレットは、Lync Web App を使用して会議の作成と参加を行うことができることを確認するように設計されています。 ただし、実際には会議を作成して実施することはありません。
+Test-CsWebApp、これらの会議の作成に使用された Api と接続を確認するだけであることに注意してください。 コマンドレットは、Lync Web App を使用して会議の作成と参加を行うことができることを確認するように設計されています。 ただし、実際には会議を作成して実施することはありません。
 
 </div>
 
@@ -76,7 +78,7 @@ Test-CsWebApp は、これらの会議の作成に使用された Api と接続�
 
 ## <a name="running-the-test"></a>テストの実行
 
-Test-CsWebApp コマンドレットは、構成済みのテストアカウントのペア、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名を指定するだけで済みます。 次に例を示します。
+Test-CsWebApp コマンドレットは、構成済みのテストアカウントのペア、または Lync Server が有効になっている2人のユーザーのアカウントのいずれかを使用して実行できます。 このチェックをテストアカウントを使用して実行するには、テストする Lync Server プールの完全修飾ドメイン名を指定するだけで済みます。 以下に例を示します。
 
     Test-CsWebApp -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -87,7 +89,7 @@ Test-CsWebApp コマンドレットは、構成済みのテストアカウント
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1 -User2SipAddress "sip:pilar@litwareinc.com" -User2Credential $cred2
 
-詳細については、 [Test-CsWebApp](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp)コマンドレットのヘルプトピックを参照してください。 Lync Server 2013 で使用するために、Test-CsWebApp は推奨されていないことに注意してください。
+詳細については、 [Test-CsWebApp](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp) コマンドレットのヘルプトピックを参照してください。 Test-CsWebApp は、Lync Server 2013 で使用するために廃止されたことに注意してください。
 
 </div>
 
@@ -95,7 +97,7 @@ Test-CsWebApp コマンドレットは、構成済みのテストアカウント
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-Test-CsWebApp を使用してユーザーを会議に参加させる場合、コマンドレットはテスト結果の成功を返します。
+Test-CsWebApp がユーザーを会議に参加させると、コマンドレットはテスト結果の成功を返します。
 
 ターゲット Fqdn:
 
@@ -107,7 +109,7 @@ Test-CsWebApp を使用してユーザーを会議に参加させる場合、コ
 
 分析
 
-ユーザーが必要な電話会議に参加できない場合は、テスト結果が [失敗] としてマークされます。 通常、Test-CsWebApp は、詳細なエラーメッセージと診断についても報告します。
+ユーザーが必要な電話会議に参加できない場合は、テスト結果が [失敗] としてマークされます。 通常 Test-CsWebApp は、詳細なエラーメッセージと診断にも報告します。
 
 ターゲット Fqdn: atl-cs-001.litwareinc.com
 
@@ -115,7 +117,7 @@ Test-CsWebApp を使用してユーザーを会議に参加させる場合、コ
 
 待機時間: 00:00:00
 
-エラーメッセージ: Web チケットサービスの応答が受信されていません
+エラーメッセージ: Web-Ticket サービスの応答が受信されませんでした
 
 診断: HTTP 要求はクライアントによって承認されていません
 
@@ -129,7 +131,7 @@ Test-CsWebApp を使用してユーザーを会議に参加させる場合、コ
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-通常、テスト-CsWebApp の障害には、ユーザー認証エラーが伴います。 Test-CsWebApp が失敗した場合は、まず、指定されたユーザーが有効なユーザーアカウントを持っていて、Lync Server に対して有効になっていることを確認する必要があります。 次のようなコマンドを使用して、アカウント情報を取得できます。
+通常、Test-CsWebApp エラーには、ユーザー認証エラーが含まれます。 Test-CsWebApp が失敗した場合は、まず、指定されたユーザーが有効なユーザーアカウントを持っていて、Lync Server が有効になっていることを確認する必要があります。 次のようなコマンドを使用して、アカウント情報を取得できます。
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 

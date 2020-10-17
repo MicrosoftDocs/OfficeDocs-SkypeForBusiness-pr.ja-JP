@@ -12,20 +12,22 @@ ms:contentKeyID: 48184192
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f381aeb1493637dae0f5e25a72e3154bfeb76513
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 589c249f772b130eeed80abb97e272b8053dfdc4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191900"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532384"
 ---
+# <a name="configuring-the-global-policy-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のグローバルポリシーの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-global-policy-for-archiving-in-lync-server-2013"></a>Lync Server 2013 でのアーカイブ用のグローバルポリシーの構成
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42191900"
 
 _**トピックの最終更新日:** 2012-10-09_
 
-フロントエンドサーバーを展開すると、Lync Server によってアーカイブ用のグローバルポリシーが作成されます。 既定では、グローバルポリシーでアーカイブは無効になっています。 グローバルポリシーでは、サイトポリシーまたはユーザーポリシーを設定してグローバルポリシーを上書きするか、または Microsoft Exchange 統合を使用して一部またはすべてのを展開する場合を除いて、展開全体の内部通信と外部通信のアーカイブを有効にするかどうかを制御します。ユーザー。 Microsoft Exchange 統合を使用する場合、グローバルポリシーは、Exchange 2013 に所属していて、メールボックスがインプレース保持に配置されているすべてのユーザーには適用されません。
+フロントエンドサーバーを展開すると、Lync Server によってアーカイブ用のグローバルポリシーが作成されます。 既定では、グローバルポリシーでアーカイブは無効になっています。 グローバルポリシーは、サイトポリシーまたはユーザーポリシーを設定してグローバルポリシーを上書きする場合、またはユーザーの一部またはすべてに対して Microsoft Exchange 統合を使用する場合を除き、展開全体の内部通信と外部通信のアーカイブを有効にするかどうかを制御します。 Microsoft Exchange 統合を使用する場合、グローバルポリシーは、Exchange 2013 に所属し、メールボックスが In-Place ホールドに配置されているすべてのユーザーには適用されません。
 
-グローバルポリシー、サイトポリシー、およびユーザーポリシーの階層を含むアーカイブポリシーのしくみの詳細については、「 [Lync Server 2013](lync-server-2013-how-archiving-works.md)の計画に関するドキュメント、展開に関するドキュメント、または操作のドキュメントでのアーカイブの仕組み」を参照してください。
+グローバルポリシー、サイトポリシー、およびユーザーポリシーの階層を含むアーカイブポリシーのしくみの詳細については、「 [Lync Server 2013](lync-server-2013-how-archiving-works.md) の計画に関するドキュメント、展開に関するドキュメント、または操作のドキュメントでのアーカイブの仕組み」を参照してください。
 
 <div>
 
 
 > [!NOTE]  
-> 展開に対して Microsoft Exchange 統合を有効にすると、exchange 2013 に所属しているユーザーに対してアーカイブを有効にし、メールボックスをインプレース保持に設定するかどうかを Exchange のインプレース保持ポリシーで制御します。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。<BR>アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 のアーカイブオプションの構成</A>」を参照してください。
+> 展開に対して Microsoft Exchange 統合を有効にした場合は、exchange 2013 に所属しているユーザーに対してアーカイブを有効にし、メールボックスを In-Place ホールドにするかどうかを Exchange In-Place 保持ポリシーで制御します。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies For Exchange server integration using The Lync server 2013</A> 」を参照してください。<BR>アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。 詳細については、「展開」のドキュメントの「 <A href="lync-server-2013-configuring-archiving-options.md">Lync Server 2013 のアーカイブオプションの構成</A> 」を参照してください。
 
 
 

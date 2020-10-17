@@ -12,20 +12,22 @@ ms:contentKeyID: 48185912
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cab7d2e53b981cc971284cfad37f89ca4749590
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d276dfdedacdcb00b4cc19a486fea1103c0bc8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208303"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532964"
 ---
+# <a name="start-services-on-servers-for-lync-server-2013"></a>Lync Server 2013 のサーバーでのサービスの開始
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-services-on-servers-for-lync-server-2013"></a>Lync Server 2013 のサーバーでのサービスの開始
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**トピックの最終更新日:** 2014-09-03_
 
 1.  Lync Server 展開ウィザードの [ **Lync server 2013** ] ページで、[**ステップ 4: サービスの開始**] の横にある [**実行**] をクリックします。
 
-2.  [**サービスの開始**] ページで、[**次**へ] をクリックして、サーバー上の Lync Server サービスを開始します。
+2.  [ **サービスの開始** ] ページで、[ **次** へ] をクリックして、サーバー上の Lync Server サービスを開始します。
 
 3.  すべてのサービスが正常に開始されたら、**[コマンドの実行]** ページで **[終了]** をクリックします。
     
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-09-03_
     
 
     > [!IMPORTANT]  
-    > サーバーのサービスを開始するコマンドは、サービスが事実上開始されたことをレポートするベストエフォート型の方法です。 サービスの実際の状態を反映していない場合もあります。 [<STRONG>サービスの開始</STRONG>] の直後に、ステップ [<STRONG>サービスの状態 (オプション)</STRONG>] で Microsoft 管理コンソール (MMC) を開き、サービスが正常に開始されたことを確認することをお勧めします。 いずれかの Lync Server サービスが開始されていない場合は、MMC でそのサービスを右クリックし、[<STRONG>開始</STRONG>] をクリックします。
+    > サーバーのサービスを開始するコマンドは、サービスが事実上開始されたことをレポートするベストエフォート型の方法です。 サービスの実際の状態を反映していない場合もあります。 [<STRONG>サービスの開始</STRONG>] の直後に、ステップ [<STRONG>サービスの状態 (オプション)</STRONG>] で Microsoft 管理コンソール (MMC) を開き、サービスが正常に開始されたことを確認することをお勧めします。 いずれかの Lync Server サービスが開始されていない場合は、MMC でそのサービスを右クリックし、[ <STRONG>開始</STRONG>] をクリックします。
 
     
     </div>

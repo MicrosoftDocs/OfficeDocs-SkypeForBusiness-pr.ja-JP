@@ -12,20 +12,22 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ace2b05b506b5bbf73177282747a66d212b38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eff0ab4c6ee2f6582c8274345c15af681d242561
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209583"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532174"
 ---
+# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールの DNS 要件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 のフロントエンドプールの DNS 要件
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**トピックの最終更新日:** 2012-11-07_
 
 
 > [!WARNING]  
-> Lync Server 2013 は、単一ラベルのドメインをサポートしていません。 たとえば、ルート ドメイン名が <STRONG>contoso.local</STRONG> であるフォレストはサポートされますが、<STRONG>local</STRONG> という名前のルート ドメインはサポートされません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください。「単一ラベル DNS 名を使用してドメインに Windows を構成する」の「at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 300684</A>」を参照してください。
+> Lync Server 2013 は、単一ラベルのドメインをサポートしていません。 たとえば、ルート ドメイン名が <STRONG>contoso.local</STRONG> であるフォレストはサポートされますが、<STRONG>local</STRONG> という名前のルート ドメインはサポートされません。 詳細については、「Microsoft サポート技術情報の記事300684」を参照してください。「単一ラベル DNS 名を使用してドメインに Windows を構成する」の「at <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp ; kbid = 300684</A>」を参照してください。
 
 
 
@@ -67,13 +69,13 @@ _**トピックの最終更新日:** 2012-11-07_
 
   - DNS A レコードはサーバーごとに存在します。
 
-  - Sipinternaltls \_\_tcp の形式でクライアントの自動ログオンを使用する場合は、各 SIP ドメインに対して DNS SRV レコードが存在します。\<SIP ドメイン\>。 クライアントに手動構成を使用する場合、このレコードは不要です。
+  - \_Sipinternaltls tcp の形式でクライアントの自動ログオンを使用することを計画している場合は、SIP ドメインごとに DNS SRV レコードが存在します。 \_ \<SIP domain\> クライアントに手動構成を使用する場合、このレコードは不要です。
 
   - 構成済みの簡易 URL のそれぞれの DNS A レコードには、通常 meet、dialin、lwa、scheduler の 4 つがあります。 さらに、管理者の簡易 URL は、Lync Server 2013 コントロールパネルにアクセスするための特別な URL です。
 
   - SQL Server を実行しているサーバーは、ドメインに参加している必要があります。また、トポロジビルダーが公開しているコンピューターから到達可能である必要があります。
 
-表は、「計画」セクションの参照アーキテクチャに従っています。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」を参照してください。
+表は、「計画」セクションの参照アーキテクチャに従っています。 詳細については、「計画」のドキュメントの「 [Lync Server 2013 の外部ユーザーアクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md) 」を参照してください。
 
 <div id="sectionSection0" class="section">
 
@@ -212,7 +214,7 @@ _**トピックの最終更新日:** 2012-11-07_
 <tr class="odd">
 <td><p>内部 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls の _tcp</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp</p></td>
 <td><p>pool01.contoso.com</p></td>
 <td><p>5061</p></td>
 <td><p>Lync 2013 クライアントを内部で動作するように自動構成するために必要です。</p></td>
@@ -220,7 +222,7 @@ _**トピックの最終更新日:** 2012-11-07_
 <tr class="even">
 <td><p>内部 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls の _tcp</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
 <td><p>Lync 2013 クライアントを内部で動作するように自動構成するために必要です。</p></td>
@@ -228,7 +230,7 @@ _**トピックの最終更新日:** 2012-11-07_
 <tr class="odd">
 <td><p>内部 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_ntp の _udp</p></td>
+<td><p>_ntp _ntp._udp</p></td>
 <td><p>dc01.contoso.com</p></td>
 <td><p>123</p></td>
 <td><p>Lync Phone Edition を実行しているデバイスには、ネットワークタイムプロトコル (NTP) ソースが必要です。 内部では、ドメイン コントローラーを指している必要があります。 ドメイン コントローラーが定義されていない場合は、NTP サーバー time.windows.com の使用を試みます。</p></td>

@@ -1,5 +1,5 @@
 ---
-title: セットを使用して AV および OAuth 証明書をステージングする-CsCertificate
+title: -Roll を使用した AV および OAuth 証明書のステージング Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee572bbf115d1e83476194b0e5c92859886da42f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 003c8da4c953dc843fe49bf3fc5eb2d2a70b093b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208409"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533014"
 ---
+# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Lync Server 2013 での AV および OAuth 証明書のステージングを使用した Set-CsCertificate
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Lync Server 2013 での AV および OAuth 証明書のステージング (セットを使用)-CsCertificate
+
 
 </div>
 
@@ -45,29 +47,29 @@ _**トピックの最終更新日:** 2012-11-13_
 > [!IMPORTANT]
 > <OL>
 > <LI>
-> <P>この新機能は、音声ビデオエッジサービスと<EM>Oauthtokenissuer</EM>証明書に対して動作するように設計されています。 音声ビデオエッジサービスと OAuth 証明書の種類を使用して、他の証明書の種類をプロビジョニングすることはできますが、音声ビデオエッジサービス証明書による共存の動作からはメリットがありません。</P>
+> <P>この新機能は、音声ビデオエッジサービスと <EM>Oauthtokenissuer</EM> 証明書に対して動作するように設計されています。 音声ビデオエッジサービスと OAuth 証明書の種類を使用して、他の証明書の種類をプロビジョニングすることはできますが、音声ビデオエッジサービス証明書による共存の動作からはメリットがありません。</P>
 > <LI>
-> <P>Microsoft Lync Server 2013 証明書の管理に使用する Lync Server 管理シェルのコマンドレットは、音声ビデオエッジサービス証明書を<EM>Audiovideoauthentication</EM>証明書の種類として、OAuthServer 証明書の種類が<EM>Oauthtokenissuer</EM>であることを示します。 このトピックの残りの部分では、証明書を一意に識別するために、同じ識別子の種類、 <EM>Audiovideoauthentication</EM> 、および<EM>Oauthtokenissuer</EM>から参照されます。</P></LI></OL>
+> <P>Microsoft Lync Server 2013 証明書の管理に使用する Lync Server 管理シェルのコマンドレットは、音声ビデオエッジサービス証明書を <EM>Audiovideoauthentication</EM> 証明書の種類として、OAuthServer 証明書の種類が <EM>Oauthtokenissuer</EM>であることを示します。 このトピックの残りの部分では、証明書を一意に識別するために、同じ識別子の種類、 <EM>Audiovideoauthentication</EM> 、および <EM>Oauthtokenissuer</EM>から参照されます。</P></LI></OL>
 
 
 
 </div>
 
-音声ビデオ認証サービスは、クライアントとその他の音声ビデオコンシューマーによって使用されるトークンの発行を担当します。 トークンは、証明書の属性から生成され、証明書の有効期限が切れたときに、新しい証明書によって生成された新しいトークンに接続が失われ、再参加するための要件が発生します。 Lync Server 2013 の新機能により、古い証明書を事前に期限切れにして、両方の証明書を一定期間有効にすることができるようになり、この問題が軽減されます。 この機能では、更新された機能を使用して、Lync Server 管理シェルコマンドレットを設定します。 新しいパラメーター– Roll は、既存のパラメーター– EffectiveDate を指定して、新しい AudioVideoAuthentication 証明書を証明書ストアに配置します。 以前の AudioVideoAuthentication 証明書は、発行されたトークンを検証するために引き続き残っています。 新しい AudioVideoAuthentication 証明書を適所に配置すると、次の一連のイベントが発生します。
+音声ビデオ認証サービスは、クライアントとその他の音声ビデオコンシューマーによって使用されるトークンの発行を担当します。 トークンは、証明書の属性から生成され、証明書の有効期限が切れたときに、新しい証明書によって生成された新しいトークンに接続が失われ、再参加するための要件が発生します。 Lync Server 2013 の新機能により、古い証明書を事前に期限切れにして、両方の証明書を一定期間有効にすることができるようになり、この問題が軽減されます。 この機能では、Set-CsCertificate Lync Server 管理シェルコマンドレットで更新された機能を使用します。 新しいパラメーター– Roll は、既存のパラメーター– EffectiveDate を指定して、新しい AudioVideoAuthentication 証明書を証明書ストアに配置します。 以前の AudioVideoAuthentication 証明書は、発行されたトークンを検証するために引き続き残っています。 新しい AudioVideoAuthentication 証明書を適所に配置すると、次の一連のイベントが発生します。
 
 <div>
 
 
 > [!TIP]
-> Lync Server 管理シェルコマンドレットを使用して証明書を管理するには、エッジサーバーの各目的に個別の証明書を要求することができます。 [Lync Server 展開ウィザード] の [証明書ウィザード] を使用すると、証明書を作成できますが、通常は、エッジサーバーのすべての証明書を1つの証明書に結合する<STRONG>既定</STRONG>の種類が使用されます。 ローリング証明書機能を使用する場合は、AudioVideoAuthentication 証明書を他の証明書の用途から切り離すことをお勧めします。 既定の種類の証明書をプロビジョニングおよびステージングすることもできますが、結合された証明書の AudioVideoAuthentication 部分のみがステージングによる恩恵を受けます。 アクセスエッジサービスに関連付けられている新しい証明書を使用するには、証明書の有効期限が切れたときに、インスタントメッセージングの会話をログアウトして再度ログインする必要があるユーザー。 Web 会議エッジサービスを使用して Web 会議に参加しているユーザーに対して同様の現象が発生します。 OAuthTokenIssuer 証明書は、すべてのサーバーの間で共有される特定の種類の証明書です。 1つの場所で証明書を作成して管理すると、その証明書は他のすべてのサーバーの中央管理ストアに格納されます。
+> Lync Server 管理シェルコマンドレットを使用して証明書を管理するには、エッジサーバーの各目的に個別の証明書を要求することができます。 [Lync Server 展開ウィザード] の [証明書ウィザード] を使用すると、証明書を作成できますが、通常は、エッジサーバーのすべての証明書を1つの証明書に結合する <STRONG>既定</STRONG> の種類が使用されます。 ローリング証明書機能を使用する場合は、AudioVideoAuthentication 証明書を他の証明書の用途から切り離すことをお勧めします。 既定の種類の証明書をプロビジョニングおよびステージングすることもできますが、結合された証明書の AudioVideoAuthentication 部分のみがステージングによる恩恵を受けます。 アクセスエッジサービスに関連付けられている新しい証明書を使用するには、証明書の有効期限が切れたときに、インスタントメッセージングの会話をログアウトして再度ログインする必要があるユーザー。 Web 会議エッジサービスを使用して Web 会議に参加しているユーザーに対して同様の現象が発生します。 OAuthTokenIssuer 証明書は、すべてのサーバーの間で共有される特定の種類の証明書です。 1つの場所で証明書を作成して管理すると、その証明書は他のすべてのサーバーの中央管理ストアに格納されます。
 
 
 
 </div>
 
-Set-CsCertificate コマンドレットを使用するとき、および現在の証明書の有効期限が切れる前にこのコマンドレットを使用して証明書をステージングするときのオプションと要件を十分に理解するには、さらに詳しい説明が必要です。 重要なのは –Roll パラメーターですが、このパラメーターの用途は実質的に 1 つです。 パラメーターとして定義した場合は、証明書が作成されるときに、-Type (AudioVideoAuthentication および OAuthTokenIssuer など) によって定義される証明書に関する情報を提供するように設定された証明書が表示されます。– EffectiveDate によって定義された有効なものです。
+Set-CsCertificate コマンドレットを使用するとき、および現在の証明書の有効期限が切れる前にこのコマンドレットを使用して証明書をステージングするときのオプションと要件を十分に理解するには、さらに詳しい説明が必要です。 重要なのは –Roll パラメーターですが、このパラメーターの用途は実質的に 1 つです。 パラメーターとして定義すると、EffectiveDate によって定義された証明書に関する情報 (AudioVideoAuthentication および OAuthTokenIssuer など) についての情報を提供することを Set-CsCertificate に通知されます。
 
-**-ロール:**– Roll パラメーターは必須であり、それと一緒に指定する必要がある依存関係を持っています。 どの証明書が影響を受け、どのように適用されるかを完全に定義するための必須パラメーターです。
+**-ロール:** – Roll パラメーターは必須であり、それと一緒に指定する必要がある依存関係を持っています。 どの証明書が影響を受け、どのように適用されるかを完全に定義するための必須パラメーターです。
 
 **-EffectiveDate:** パラメーター– EffectiveDate は、新しい証明書が現在の証明書と共同で有効になるタイミングを定義します。 – EffectiveDate は、現在の証明書の有効期限に近い場合もあれば、長期間になることもあります。 AudioVideoAuthentication 証明書の EffectiveDate が推奨される最小値は8時間になります。これは、AudioVideoAuthentication 証明書を使用して発行された AV エッジサービストークンの既定のトークンの有効期間です。
 
@@ -75,7 +77,7 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
 
 **-Thumbprint:** 拇印は、その証明書に固有の証明書の属性です。 –Thumbprint パラメーターを使用して、Set-CsCertificate コマンドレットの処理によって影響を受ける証明書を識別します。
 
-**-型:**– Type パラメーターは、1つの証明書の使用法の種類、または証明書の使用法の種類のコンマ区切りリストを受け入れることができます。 証明書の種類は、コマンドレットに対して、証明書の目的をサーバーに対して識別するものです。 たとえば、「AudioVideoAuthentication」と入力すると、音声ビデオエッジサービスと AV 認証サービスによって使用されます。 異なる種類の証明書を同時にステージングおよびプロビジョニングする場合は、証明書に対して最も必要な最小のリード時間を考慮する必要があります。 たとえば、AudioVideoAuthentication と OAuthTokenIssuer の種類の証明書をステージングする必要があるとします。 – EffectiveDate は、少なくとも24時間のリードタイムを持つ2つの証明書 (この場合は OAuthTokenIssuer) の方が多い必要があります。 24時間のリードタイムを使用して AudioVideoAuthentication 証明書をステージしない場合は、要件により多くの EffectiveDate を使用して、別のステージを行います。
+**-型:** – Type パラメーターは、1つの証明書の使用法の種類、または証明書の使用法の種類のコンマ区切りリストを受け入れることができます。 証明書の種類は、コマンドレットに対して、証明書の目的をサーバーに対して識別するものです。 たとえば、「AudioVideoAuthentication」と入力すると、音声ビデオエッジサービスと AV 認証サービスによって使用されます。 異なる種類の証明書を同時にステージングおよびプロビジョニングする場合は、証明書に対して最も必要な最小のリード時間を考慮する必要があります。 たとえば、AudioVideoAuthentication と OAuthTokenIssuer の種類の証明書をステージングする必要があるとします。 – EffectiveDate は、少なくとも24時間のリードタイムを持つ2つの証明書 (この場合は OAuthTokenIssuer) の方が多い必要があります。 24時間のリードタイムを使用して AudioVideoAuthentication 証明書をステージしない場合は、要件により多くの EffectiveDate を使用して、別のステージを行います。
 
 <div>
 
@@ -87,7 +89,7 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
 
 3.  新しい AudioVideoAuthentication 証明書をエッジサーバーにインポートし、プール内の他のすべてのエッジサーバーにインポートします (プールが展開されている場合)。
 
-4.  インポートした証明書を Set-CsCertificate コマンドレットで構成し、–Roll パラメーターを –EffectiveDate パラメーターと共に使用します。 有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) からトークン存続時間 (既定では 8 時間) を引いた値で定義します。 これにより、証明書をアクティブに設定する必要があり、– EffectiveDate \<文字列\>: "7/22/2012 6:00:00 AM" であることがわかります。
+4.  インポートした証明書を Set-CsCertificate コマンドレットで構成し、–Roll パラメーターを –EffectiveDate パラメーターと共に使用します。 有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) からトークン存続時間 (既定では 8 時間) を引いた値で定義します。 これにより、証明書をアクティブに設定する必要があり、– EffectiveDate \<string\> : "7/22/2012 6:00:00 AM" であることがわかります。
     
     <div>
     

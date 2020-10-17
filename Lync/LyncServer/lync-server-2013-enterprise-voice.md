@@ -12,20 +12,22 @@ ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 924e15aae9590b6148864084aa68924e4c080f7c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 39179f1db1c547081e059d9b3ee275c924621cab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533174"
 ---
+# <a name="enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 のエンタープライズ Voip
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 のエンタープライズ Voip
+
 
 </div>
 
@@ -77,7 +79,7 @@ Exchange ユニファイドメッセージング (UM)、Lync および Lync Serv
 
 エンタープライズ Voip には、Lync 通話の委任、チーム呼び出し、グループ通話ピックアップ、応答グループなど、いくつかの高度な通話機能も含まれています。
 
-Lync 通話の委任を使用すると、[**ツール** \> **オプション]** \>の [着信**転送設定**] にアクセスして、ユーザーが1人または複数のアシスタントに通話処理を委任できるようになります。 委任されたスタッフは、ユーザーの代わりに、通話の選別、通話の発信、会議の開始などの複数の通話タスクを実行できます。
+Lync 通話の委任を使用すると、[ **ツール** \> **オプション]** の [着信 \> **転送設定**] にアクセスして、ユーザーが1人または複数のアシスタントに通話処理を委任できるようになります。 委任されたスタッフは、ユーザーの代わりに、通話の選別、通話の発信、会議の開始などの複数の通話タスクを実行できます。
 
 <div>
 

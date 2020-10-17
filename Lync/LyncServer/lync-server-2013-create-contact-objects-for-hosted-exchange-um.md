@@ -12,20 +12,22 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c783a79c6d3ed3cd0af47d53d136a47585cb94d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 051b7f483ec3e3a59d5025c670b63b97765016b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205633"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532304"
 ---
+# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Lync Server 2013 で hosted Exchange UM の連絡先オブジェクトを作成する
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Lync Server 2013 で hosted Exchange UM の連絡先オブジェクトを作成する
+
 
 </div>
 
@@ -75,7 +77,7 @@ _**トピックの最終更新日:** 2012-09-24_
     
     これらの例は、次のパラメーターを設定します。
     
-      - **SipAddress** は、連絡先オブジェクトの SIP アドレスを指定します。 これは、Active Directory ドメイン サービスでユーザーまたは連絡先オブジェクトを構成するために以前使用したことのないアドレスである必要があります。 この値は、前の例で示され\<ているように、「sip:*sip アドレス*\>」の形式にする必要があります。
+      - **SipAddress** は、連絡先オブジェクトの SIP アドレスを指定します。 これは、Active Directory ドメイン サービスでユーザーまたは連絡先オブジェクトを構成するために以前使用したことのないアドレスである必要があります。 この値は、前の例で示されているように、"sip:" という形式で指定する必要があり \<*SIP address*\> ます。
     
       - **RegistrarPool** は、レジストラー サービスが実行されているプールの完全修飾ドメイン名 (FQDN) を指定します。
         

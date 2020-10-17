@@ -12,20 +12,22 @@ ms:contentKeyID: 48183594
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f40f11f835c350b5038771f2ac9f47ab8fec0f2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6b8af6141f5b9c9894ee90c6b58a58b4bc7f1274
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207685"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533294"
 ---
+# <a name="enforce-phone-locking-in-lync-server-2013"></a>Lync Server 2013 での電話ロックの適用
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enforce-phone-locking-in-lync-server-2013"></a>Lync Server 2013 での電話ロックの適用
+
 
 </div>
 
@@ -57,7 +59,7 @@ Lync Phone Edition デバイスは、セキュリティを確保する目的で�
 
 6.  [ **Pin の最小の長さ**] で、ロックを解除する pin に含める必要がある最小桁数または新しい値を指定する既定値をそのまま使用します。 PIN の長さの範囲は 4 ~ 15 桁で、既定値は6です。
 
-7.  [**電話のロック**タイムアウト] で、電話が自分にロックされるまでの最短時間の既定値をそのまま使用するか、または新しい値を指定します。 タイムアウトの範囲は 0 ~ 60 分で、既定値は10です。 値は、HH:MM:SS の形式で入力してください。
+7.  [ **電話のロック**タイムアウト] で、電話が自分にロックされるまでの最短時間の既定値をそのまま使用するか、または新しい値を指定します。 タイムアウトの範囲は 0 ~ 60 分で、既定値は10です。 値は、HH:MM:SS の形式で入力してください。
 
 8.  [**確定**] をクリックします。
 
@@ -67,7 +69,7 @@ Lync Phone Edition デバイスは、セキュリティを確保する目的で�
 
 ## <a name="enforcing-phone-locking-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用して電話ロックを強制する
 
-電話のロックは、Get-csucphoneconfiguration コマンドレットを使用して適用できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
+Set-CsUCPhoneConfiguration コマンドレットを使用して、電話のロックを適用できます。 このコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)で参照してください。
 
 <div>
 
@@ -99,7 +101,7 @@ Lync Phone Edition デバイスは、セキュリティを確保する目的で�
 
 </div>
 
-詳細については、 [get-csucphoneconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsUCPhoneConfiguration)コマンドレットのヘルプトピックを参照してください。
+詳細については、 [get-csucphoneconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsUCPhoneConfiguration) コマンドレットのヘルプトピックを参照してください。
 
 </div>
 

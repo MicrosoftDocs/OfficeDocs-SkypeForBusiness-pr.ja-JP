@@ -12,20 +12,22 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6c09bd44f9fc4b98488c7825f8cab1d3eea7f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532554"
 ---
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Lync Server 2013 でのエンタープライズ Voip の構成
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**トピックの最終更新日:** 2013-03-12_
 
 ## <a name="create-a-trunk"></a>トランクを作成する
 
-エンタープライズ Voip 展開でトランクを定義する必要があります。 場所に基づくルーティングの場合は、トランクごとにトランク構成を作成する必要があります。 Lync Server トポロジビルダーを使用してトランクを定義し、Lync Server Windows PowerShell コマンド、Get-cstrunkconfiguration、または Lync Server コントロールパネルを使用して、対応するトランク構成を定義します。 トランク構成での場所に基づくルーティングを有効にする方法については、「トランクへの場所に基づくルーティングを有効にする」を参照してください。詳細については、トピック「 [Lync Server 2013 での場所に基づくルーティングの有効化](lync-server-2013-enabling-location-based-routing.md)」を参照してください。 この例では、次の表は、このシナリオで使用されているトランクを示しています。
+エンタープライズ Voip 展開でトランクを定義する必要があります。 Location-Based ルーティングでは、トランクごとにトランク構成を作成する必要があります。 Lync Server トポロジビルダーを使用してトランクを定義し、Lync Server Windows PowerShell コマンド、Get-cstrunkconfiguration、または Lync Server コントロールパネルを使用して、対応するトランク構成を定義します。 トランク構成での Location-Based ルーティングを有効にする方法の詳細については、「Enable Location-Based Routing to トランク」を参照してください。このトピックでは、「Enable [Location-Based routing In Lync Server 2013](lync-server-2013-enabling-location-based-routing.md)」を参照してください。 この例では、次の表は、このシナリオで使用されているトランクを示しています。
 
 詳細については、「 [Define more トランク In Topology Builder In Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md)」を参照してください。
 
@@ -117,7 +119,7 @@ _**トピックの最終更新日:** 2013-03-12_
 
 ## <a name="defines-voice-policies"></a>音声ポリシーを定義します。
 
-エンタープライズ Voip 展開の音声ポリシーを定義する必要があります。 場所に基づくルーティングを使用するために必要なサブセットだけがある場合は、ユーザーのサブセットに対して場所ベースのルーティング制限を強制する音声ポリシーを定義します。 この例では、次の表に、このシナリオで使用されている音声ポリシーを示します。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
+エンタープライズ Voip 展開の音声ポリシーを定義する必要があります。 音声ポリシーを定義して、Location-Based ルーティングを使用するために必要なサブセットだけがある場合は、ユーザーのサブセットに Location-Based ルーティング制限を適用します。 この例では、次の表に、このシナリオで使用されている音声ポリシーを示します。 説明のために、Location-Based ルーティングに固有の設定のみが表に含まれています。
 
 詳細については、「 [Lync Server 2013 で通話機能および権限を承認するための音声ポリシーと PSTN 使用法レコードの構成](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)」を参照してください。
 
@@ -166,7 +168,7 @@ _**トピックの最終更新日:** 2013-03-12_
 
 ## <a name="define-voice-routes"></a>音声ルートを定義する
 
-エンタープライズ Voip 展開の音声ルートを定義する必要があります。 この例では、次の表に、このシナリオで使用されている音声ルートを示します。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
+エンタープライズ Voip 展開の音声ルートを定義する必要があります。 この例では、次の表に、このシナリオで使用されている音声ルートを示します。 説明のために、Location-Based ルーティングに固有の設定のみが表に含まれています。
 
 詳細については、「 [Lync Server 2013 で送信呼び出しの音声ルートを構成する](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)」を参照してください。
 
@@ -225,7 +227,7 @@ _**トピックの最終更新日:** 2013-03-12_
 
 ## <a name="enable-users-for-enterprise-voice"></a>エンタープライズ VoIP に対するユーザーの有効化
 
-エンタープライズ Voip に対してユーザーを有効にし、以前に定義した音声ポリシーを割り当てます。 この例では、次の表は、このシナリオで使用されている割り当てを示しています。 説明のため、表には場所に基づいたルーティングに固有の設定のみが含まれています。
+エンタープライズ Voip に対してユーザーを有効にし、以前に定義した音声ポリシーを割り当てます。 この例では、次の表は、このシナリオで使用されている割り当てを示しています。 説明のために、Location-Based ルーティングに固有の設定のみが表に含まれています。
 
 詳細については、「 [Lync Server 2013 のエンタープライズ voip でユーザーを有効にする](lync-server-2013-enable-users-for-enterprise-voice.md)」を参照してください。
 
@@ -270,7 +272,7 @@ _**トピックの最終更新日:** 2013-03-12_
 ## <a name="see-also"></a>関連項目
 
 
-[Lync Server 2013 での場所に基づくルーティングの構成](lync-server-2013-configuring-location-based-routing.md)  
+[Lync Server 2013 での Location-Based ルーティングの構成](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

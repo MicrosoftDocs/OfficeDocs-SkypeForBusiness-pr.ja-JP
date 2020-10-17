@@ -12,20 +12,22 @@ ms:contentKeyID: 48185043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6d41e5959eaf596faaed25a9759534a9156f0d9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f961fef4fb9323c0eef642e4b7e70ede5da4ccf2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203183"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532744"
 ---
+# <a name="associate-a-subnet-with-a-network-site-in-lync-server-2013"></a>Lync Server 2013 でのサブネットとネットワークサイトの関連付け
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associate-a-subnet-with-a-network-site-in-lync-server-2013"></a>Lync Server 2013 でのサブネットとネットワークサイトの関連付け
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 
 > [!IMPORTANT]  
-> 展開内の音声ビデオ エッジ サーバーの構成済みパブリック IP アドレスはすべて、ネットワーク構成設定に追加する必要があります。 これらの IP アドレスは、マスク値 32 のサブネットとして追加されます。 関連付けられたネットワーク サイトは、適切な構成済みネットワーク サイトに対応する必要があります。 たとえば、中央サイトの Chicago に音声ビデオ エッジ サーバーがある場合、そのサーバーに対応するパブリック IP アドレスは NetworkSiteID Chicago になるなどです。 パブリック IP アドレスの詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Lync Server 2013 の外部の音声ビデオファイアウォールおよびポート要件を決定</A>する」を参照してください。
+> 展開内の音声ビデオ エッジ サーバーの構成済みパブリック IP アドレスはすべて、ネットワーク構成設定に追加する必要があります。 これらの IP アドレスは、マスク値 32 のサブネットとして追加されます。 関連付けられたネットワーク サイトは、適切な構成済みネットワーク サイトに対応する必要があります。 たとえば、中央サイトの Chicago に音声ビデオ エッジ サーバーがある場合、そのサーバーに対応するパブリック IP アドレスは NetworkSiteID Chicago になるなどです。 パブリック IP アドレスの詳細については、「計画」のドキュメントの「 <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Lync Server 2013 の外部の音声ビデオファイアウォールおよびポート要件を決定</A> する」を参照してください。
 
 
 
@@ -53,7 +55,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 
 > [!NOTE]  
-> 主要状態インジケーター (KHI) 通知が発行され、ネットワークに存在している IP アドレスの一覧を指定します。ここで指定される一覧は、サブネットと関連付けられていないか、IP アドレスを含むサブネットがネットワーク サイトと関連付けられていません。この通知は 8 時間に 1 回しか発行されません。関連する通知の情報および例は以下の通りです。<BR><STRONG>ソース:</STRONG>CS 帯域幅ポリシーサービス (コア)<BR><STRONG>イベント番号:</STRONG> 36034<BR><STRONG>レベル:</STRONG> 2<BR><STRONG>説明:</STRONG>次の IP アドレスのサブネット: &lt;ip アドレス&gt;の一覧が構成されていないか、またはサブネットがネットワークサイトに関連付けられていません。<BR><STRONG>原因:</STRONG>対応する IP アドレスのサブネットがネットワーク構成設定にないか、またはサブネットがネットワークサイトに関連付けられていません。<BR><STRONG>解決策:</STRONG>IP アドレスのリストに対応するサブネットをネットワーク構成設定に追加し、すべてのサブネットをネットワークサイトに関連付けます。<BR>たとえば、通知に表示された IP アドレス リストが 10.121.248.226 および 10.121.249.20 であった場合、これらの IP アドレスがサブネットに関連付けられていないか、または関連付けられているサブネットがネットワーク サイトに属していないかのどちらかになります。10.121.248.0/24 および 10.121.249.0/24 がこれらのアドレスに対応するサブネットである場合、次の手順でこの問題を解決することができます。 
+> 主要状態インジケーター (KHI) 通知が発行され、ネットワークに存在している IP アドレスの一覧を指定します。ここで指定される一覧は、サブネットと関連付けられていないか、IP アドレスを含むサブネットがネットワーク サイトと関連付けられていません。この通知は 8 時間に 1 回しか発行されません。関連する通知の情報および例は以下の通りです。<BR><STRONG>ソース:</STRONG> CS 帯域幅ポリシーサービス (コア)<BR><STRONG>イベント番号:</STRONG> 36034<BR><STRONG>レベル:</STRONG> 2<BR><STRONG>説明:</STRONG> 次の IP アドレスのサブネット: &lt; Ip アドレスの一覧 &gt; が構成されていないか、またはサブネットがネットワークサイトに関連付けられていません。<BR><STRONG>原因:</STRONG> 対応する IP アドレスのサブネットがネットワーク構成設定にないか、またはサブネットがネットワークサイトに関連付けられていません。<BR><STRONG>解決策:</STRONG> IP アドレスのリストに対応するサブネットをネットワーク構成設定に追加し、すべてのサブネットをネットワークサイトに関連付けます。<BR>たとえば、通知に表示された IP アドレス リストが 10.121.248.226 および 10.121.249.20 であった場合、これらの IP アドレスがサブネットに関連付けられていないか、または関連付けられているサブネットがネットワーク サイトに属していないかのどちらかになります。10.121.248.0/24 および 10.121.249.0/24 がこれらのアドレスに対応するサブネットである場合、次の手順でこの問題を解決することができます。 
 > <OL>
 > <LI>
 > <P>IP アドレス 10.121.248.226 が 10.121.248.0/24 サブネットに関連付けられていること、および IP アドレス 10.121.249.20 が 10.121.249.0/24 サブネットに関連付けられていることを確認します。</P>
@@ -122,7 +124,7 @@ _**トピックの最終更新日:** 2012-10-19_
 
 2.  Lync Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Microsoft Lync Server 2013**]、[**Lync Server 管理シェル**] の順にクリックします。
 
-3.  次のコマンドレットを実行して、**サブネット .csv**をインポートし、そのコンテンツを Lync Server 管理ストアに格納します。
+3.  次のコマンドレットを実行して **subnet.csv**をインポートし、そのコンテンツを Lync Server 管理ストアに格納します。
     
         import-csv subnet.csv | foreach {New-CSNCSSubnet  _.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
 

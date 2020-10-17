@@ -12,20 +12,22 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d791943f8d4057c173851e5d6eedb4a713b3cdf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6020182c0083ecadcb65c07fa71be213f9458f0f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191820"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532345"
 ---
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Lync Server 2013 のクライアントコンピューターでの個人用連絡先ストアの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Lync Server 2013 のクライアントコンピューターでの個人用連絡先ストアの構成
+
 
 </div>
 
@@ -43,19 +45,19 @@ Microsoft Lync Server 2013 と Microsoft Exchange Server 2013 を統合する場
 
 ある 1 台のコンピューターでこの値を構成するには、次の手順を実行します。
 
-1.  クライアントコンピューターで、[**スタート**] をクリックし、[**実行**] をクリックします。
+1.  クライアントコンピューターで、[ **スタート** ] をクリックし、[ **実行**] をクリックします。
 
-2.  [**実行**] ダイアログボックスで、「regedit」と入力し、enter キーを押します。
+2.  [ **実行** ] ダイアログボックスで、「regedit」と入力し、enter キーを押します。
 
-3.  レジストリエディターで、[ **HKEY\_LOCAL\_MACHINE**] を展開し、[**ソフトウェア**]、[**ポリシー**]、[ **Microsoft**]、[ **Communicator**] の順に展開します。
+3.  レジストリエディターで、[ **HKEY \_ LOCAL \_ MACHINE**] を展開し、[ **ソフトウェア**]、[ **ポリシー**]、[ **Microsoft**]、[ **Communicator**] の順に展開します。
 
-4.  [ **Communicator**] を右クリックし、[**新規**] をポイントして、[ **DWORD (32 ビット)**] の値をクリックします。
+4.  [ **Communicator**] を右クリックし、[ **新規**] をポイントして、[ **DWORD (32 ビット)**] の値をクリックします。
 
 5.  新しい値が作成されたら、「 **」と入力し、** enter キーを押して、値の名前を変更します。
 
 6.  PersonalContactStoreOverride の値が 0 に設定されていることを確認し、レジストリ エディタを閉じます。
 
-複数のコンピューターでこれと同じ変更をする必要がある場合は、カスタム グループ ポリシー オブジェクトを作成します。 詳細については、「」の[https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543)グループポリシーのドキュメントを参照してください。
+複数のコンピューターでこれと同じ変更をする必要がある場合は、カスタム グループ ポリシー オブジェクトを作成します。 詳細については、「」のグループポリシーのドキュメントを参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543) 。
 
 </div>
 

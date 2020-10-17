@@ -12,20 +12,22 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900421ed081d5fb8e37fb6b23ddbb80dc85963eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 96eee88d6055d7a66d858dc5c6324a2592616ceb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188090"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532644"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Lync Server 2013 のバックアップと復元の要件: ツールとアクセス許可
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Lync Server 2013 のバックアップと復元の要件: ツールとアクセス許可
+
 
 </div>
 
@@ -61,11 +63,11 @@ Lync Server をバックアップするには、次の表に示されている�
 <tbody>
 <tr class="odd">
 <td><p>トポロジ構成データ (Xds.mdf)</p></td>
-<td><p>エクスポート-CsConfiguration</p></td>
+<td><p>Export-CsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>Location Information Service (E9-1-1) データ (Lis.mdf)</p></td>
-<td><p>Export-cslisconfiguration</p></td>
+<td><p>Export-CsLisConfiguration</p></td>
 </tr>
 <tr class="odd">
 <td><p>応答グループ構成データ (RgsConfig.mdf)</p></td>
@@ -74,7 +76,7 @@ Lync Server をバックアップするには、次の表に示されている�
 <tr class="even">
 <td><p>永続的なユーザーデータ (Rtcxds. .mdf データベース)</p>
 <p>会議 ID</p></td>
-<td><p>エクスポート-CsUserData</p></td>
+<td><p>Export-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><ul>
@@ -86,7 +88,7 @@ Lync Server をバックアップするには、次の表に示されている�
 </tr>
 <tr class="even">
 <td><p>常設チャットデータベース (Mgc)</p></td>
-<td><p>SQL Server のバックアップ手順または Export-cspersistentchatdata。 Export-cspersistentchatdata は、常設チャットデータをファイルとしてエクスポートします。</p></td>
+<td><p>SQL Server のバックアップ手順または Export-cspersistentchatdata。 Export-CsPersistentChatData は、常設チャットデータをファイルとしてエクスポートします。</p></td>
 </tr>
 <tr class="odd">
 <td><p>すべてのファイルストア: Lync Server ファイルストア、アーカイブファイルストア</p>
@@ -145,7 +147,7 @@ Lync Server を復元するには、次の表のツールを使用します。 L
 <li><p>監視データベース</p></li>
 <li><p>アーカイブ データベース</p></li>
 </ul></td>
-<td><p>-CsDatabase をインストールする</p></td>
+<td><p>Install-CsDatabase</p></td>
 </tr>
 <tr class="even">
 <td><p>Active Directory ドメインサービスのポインターを中央管理ストアに復元する</p>
@@ -156,17 +158,17 @@ Lync Server を復元するには、次の表のツールを使用します。 L
 
 
 </div></td>
-<td><p>Remove-csconfigurationstorelocation</p></td>
+<td><p>Set-CsConfigurationStoreLocation</p></td>
 </tr>
 <tr class="odd">
 <td><p>トポロジ、ポリシー、および構成設定を中央管理ストア (Xds) にインポートします。</p></td>
-<td><p>インポート-CsConfiguration</p></td>
+<td><p>Import-CsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>トポロジを公開して有効にする</p></td>
 <td><p>トポロジ ビルダー</p>
 <p>または</p>
-<p>発行-CsTopology た機能と Enable-CsTopology たテクノロジー</p></td>
+<p>Publish-CsTopology と Enable-CsTopology</p></td>
 </tr>
 <tr class="odd">
 <td><p>最後に公開したトポロジを有効にする</p></td>
@@ -178,18 +180,18 @@ Lync Server を復元するには、次の表のツールを使用します。 L
 <div>
 
 > [!NOTE]  
-> Lync Server のインストールフォルダーまたは¥にあるメディアにあります。
+> Lync Server インストールフォルダーまたは \setup\amd64\Setup.exe にあるメディアにあります。
 
 
 </div></td>
 </tr>
 <tr class="odd">
 <td><p>位置情報 (E9-1-1) データ (Lis.mdf) を復元する</p></td>
-<td><p>Export-cslisconfiguration</p></td>
+<td><p>Import-CsLisConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>永続的なユーザーデータ (Rtcxds) を復元する</p></td>
-<td><p>インポート-CsUserData</p></td>
+<td><p>Import-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><p>応答グループ構成データ (RgsConfig.mdf) を復元する</p></td>
@@ -212,7 +214,7 @@ Lync Server を復元するには、次の表のツールを使用します。 L
 </tr>
 <tr class="odd">
 <td><p>常設チャットデータベース (Mgs)</p></td>
-<td><p>SQL Server の復元手順または Export-cspersistentchatdata。 Export-cspersistentchatdata を使用して、Export-cspersistentchatdata で作成されたファイルを使用して、データを常設チャットデータベースにインポートすることができます。</p></td>
+<td><p>SQL Server の復元手順または Export-cspersistentchatdata。 Export-cspersistentchatdata によって作成されたファイルと共に Import-CsPersistentChatData を使用して、常設チャットデータベースにデータをインポートすることができます。</p></td>
 </tr>
 </tbody>
 </table>
@@ -224,7 +226,7 @@ Lync Server を復元するには、次の表のツールを使用します。 L
 
 ## <a name="required-permissions"></a>必要なアクセス許可
 
-このトピックで説明されているすべてのコマンドを実行するには、ユーザーは**RTCUniversalServerAdmins**グループのメンバーである必要があります。 ほとんどのバックアップおよび復元コマンドは、役割ベースのアクセス制御 (RBAC) をサポートしていません。 2つの例外として、常設チャットのコマンドレット Export-cspersistentchatdata および Export-cspersistentchatdata があります。これは、CsPersistentChatAdministrator グループのメンバーであるユーザーが実行する必要があります。 Lync Server 展開ウィザードを実行するには、ユーザーがローカルの administrators グループのメンバーでもある必要があります。
+このトピックで説明されているすべてのコマンドを実行するには、ユーザーは **RTCUniversalServerAdmins** グループのメンバーである必要があります。 ほとんどのバックアップおよび復元コマンドは、役割ベースのアクセス制御 (RBAC) をサポートしていません。 2つの例外として、常設チャットコマンドレット Export-CsPersistentChatData と Export-cspersistentchatdata、CsPersistentChatAdministrator グループのメンバーであるユーザーによって実行される必要があります。 Lync Server 展開ウィザードを実行するには、ユーザーがローカルの administrators グループのメンバーでもある必要があります。
 
 </div>
 

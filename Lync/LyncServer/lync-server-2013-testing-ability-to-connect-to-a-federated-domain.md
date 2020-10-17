@@ -12,20 +12,22 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce7f6855e792b5edd339ee87f2955336a943615
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a565c09e09e10eeb160b1d0514c89499427d1283
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194330"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532924"
 ---
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Lync Server 2013 からフェデレーションドメインに接続するためのテスト機能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Lync Server 2013 からフェデレーションドメインに接続するためのテスト機能
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**トピックの最終更新日:** 2014-06-05_
 <tr class="odd">
 <td><p>必要なアクセス許可</p></td>
 <td><p>Lync Server 管理シェルを使用してローカルに実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティグループのメンバーである必要があります。</p>
-<p>Windows PowerShell のリモートインスタンスを使用して実行する場合は、Test-csfederatedpartner コマンドレットを実行するためのアクセス許可を持つ RBAC の役割がユーザーに割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
+<p>Windows PowerShell のリモートインスタンスを使用して実行する場合、ユーザーには Test-CsFederatedPartner コマンドレットを実行するためのアクセス許可を持つ RBAC の役割が割り当てられている必要があります。 このコマンドレットを使用できるすべての RBAC の役割の一覧を表示するには、Windows PowerShell プロンプトから次のコマンドを実行します。</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,7 +72,7 @@ Test-CsFederatedPartner を実行して、フェデレーション パートナ�
 
     Get-CsAllowedDomain
 
-詳細については、 [test-csfederatedpartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)コマンドレットのヘルプドキュメントを参照してください。
+詳細については、 [test-csfederatedpartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -78,7 +80,7 @@ Test-CsFederatedPartner を実行して、フェデレーション パートナ�
 
 ## <a name="running-the-test"></a>テストの実行
 
-FederatedPartner コマンドレットでは、エッジサーバーの FQDN とフェデレーションパートナーの FQDN という2つの情報が必要です。 たとえば、次のコマンドは、ドメイン contoso.com に接続できるかどうかをテストします。
+Test-FederatedPartner コマンドレットでは、エッジサーバーの FQDN とフェデレーションパートナーの FQDN という2つの情報が必要です。 たとえば、次のコマンドは、ドメイン contoso.com に接続できるかどうかをテストします。
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
@@ -86,7 +88,7 @@ FederatedPartner コマンドレットでは、エッジサーバーの FQDN と
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
-詳細については、 [test-csfederatedpartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)コマンドレットのヘルプドキュメントを参照してください。
+詳細については、 [test-csfederatedpartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) コマンドレットのヘルプドキュメントを参照してください。
 
 </div>
 
@@ -94,7 +96,7 @@ FederatedPartner コマンドレットでは、エッジサーバーの FQDN と
 
 ## <a name="determining-success-or-failure"></a>成功または失敗を判断する
 
-指定したドメインに接続できる場合は、次のような出力が得られ、Result プロパティは Success としてマークされ**ます。**
+指定したドメインに接続できる場合は、次のような出力が得られ、Result プロパティは Success としてマークされ **ます。**
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -124,7 +126,7 @@ DiagnosticHeader ()
 
 たとえば、前回の出力では、サーバータイムアウトエラーによってテストが失敗したことが示されます。 これは、通常、ネットワーク接続の問題またはエッジサーバーへの接続の問題を示します。
 
-Test-csfederatedpartner が失敗した場合は、次のように詳細なパラメーターを含めて、テストを再実行することをお勧めします。
+Test-CsFederatedPartner が失敗した場合は、次のようにして、Verbose パラメーターを含むテストを再実行することをお勧めします。
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
@@ -134,13 +136,13 @@ Test-csfederatedpartner が失敗した場合は、次のように詳細なパ�
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した理由
 
-Test-csfederatedpartner が失敗する可能性のある一般的な原因を次に示します。
+Test-CsFederatedPartner が失敗する可能性のある一般的な理由を次に示します。
 
   - エッジサーバーを使用できない可能性があります。 次のコマンドを使用して、エッジサーバーの Fqdn を使用できます。
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
-    その後、各エッジサーバーに ping して、ネットワーク経由でアクセスできることを確認できます。 次に例を示します。
+    その後、各エッジサーバーに ping して、ネットワーク経由でアクセスできることを確認できます。 以下に例を示します。
     
         ping atl-edge-001.litwareinc.com
 

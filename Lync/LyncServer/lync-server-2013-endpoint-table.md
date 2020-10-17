@@ -12,20 +12,22 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cb9430ba8b8c169176d39768491f0122e644d39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a71e59b6cf9b4143a5b984cc7b169279aa2cb57
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207687"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533324"
 ---
+# <a name="endpoint-table-in-lync-server-2013"></a>Lync Server 2013 のエンドポイントテーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="endpoint-table-in-lync-server-2013"></a>Lync Server 2013 のエンドポイントテーブル
+
 
 </div>
 
@@ -69,7 +71,7 @@ _**トピックの最終更新日:** 2012-10-02_
 <td><p>エンドポイント名。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>HP-UX</strong></p></td>
+<td><p><strong>OS</strong></p></td>
 <td><p>nvarchar(128</p></td>
 <td><p> </p></td>
 <td><p>エンドポイントのオペレーティングシステム (OS)。</p></td>

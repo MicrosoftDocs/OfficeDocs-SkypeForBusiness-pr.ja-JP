@@ -3,7 +3,9 @@ title: Microsoft Teams クラウド ボイス サービスを展開する
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-audience: admin
+audience:
+- ITPro
+- admin
 ms.date: 05/16/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: ae9a1e6abf7dbf97e625be4eb69a0ef95b1910da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610049"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532574"
 ---
 # <a name="deploy-my-service"></a>サービスを展開する
 
@@ -78,23 +80,23 @@ ms.locfileid: "44610049"
 
 場所のサイズと複雑さに関係なく、各サイトを有効にするには、実際のサービスのロールアウトの前、前後、または後で、タスクとアクティビティを適切な順序で実行する必要があります。 Microsoft Teams voice の計画を立てて実行する場合は、次の手順に従うことをお勧めします。
 
-1. Microsoft Teams Voice 用の[音声 (プレイブック) 用のサイト有効化のプレイブック](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)をダウンロードします。
+1. Microsoft Teams Voice 用の [音声 (プレイブック) 用のサイト有効化のプレイブック](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) をダウンロードします。
 
 2. 各サイトのプレイブックのコピーを別途作成します。
 
 3. **{Sitename-code} 用の "プレイブック**" というシートのタブで、 **{sitename-code}** を関連するサイト名やサイトコードに置き換えます。
 
-4. 次に示すように、**サイト名、サイトコード**、計画された**開始日**を入力します。 これは、プレイブック内のすべてのアクティビティについて推奨される期限を調整するため、重要なステップです。
+4. 次に示すように、 **サイト名、サイトコード**、計画された **開始日**を入力します。 これは、プレイブック内のすべてのアクティビティについて推奨される期限を調整するため、重要なステップです。
 
    ![サイト名、サイトコード、計画された開始日の例](media/deploy-my-service-image2.png "ニューヨークのサイト名、サイトコードの NY01、予定されている開始日: 3 月18日の例")
 
 5. 各アクティビティを確認し、必要なアクションを実行して、タイムラインを通して状態を更新します。 次に示すように、状態はグラフィカルに表示されます。
   
    - ![緑のチェックマークが ](media/deploy-my-service-image3.png) **[はい] または [該当しない] (緑)** の場合: アクティビティが完了しているか、このサイトには適用されず、これ以上の操作は必要ありません。</li>
-   - ![まだアクティビティが完了していないことを示す黄色の感嘆符 ](media/deploy-my-service-image4.png) <strong>(黄):</strong>アクティビティはまだ完了していません。また、スケジュールされている場合は、[はい] または [いいえ] に更新する必要があります。</li>
-   - !["いいえ" (赤) が表示されていないことを示す赤色の X の例 ](media/deploy-my-service-image5.png) <strong>:</strong>問題が発生したため、アクティビティは完了できません。また、プロジェクトの進捗会議に参加している必要があります。</li></ul>
+   - ![まだアクティビティが完了していないことを示す黄色の感嘆符 ](media/deploy-my-service-image4.png) <strong>(黄):</strong> アクティビティはまだ完了していません。また、スケジュールされている場合は、[はい] または [いいえ] に更新する必要があります。</li>
+   - !["いいえ" (赤) が表示されていないことを示す赤色の X の例 ](media/deploy-my-service-image5.png) <strong>:</strong> 問題が発生したため、アクティビティは完了できません。また、プロジェクトの進捗会議に参加している必要があります。</li></ul>
 
-6. ステータスは各セクション内でロールアップされ、セクション見出しは次のいずれかのステータスインジケーターで表示されます。 **週単位のステータス**も自動的に更新されます。
+6. ステータスは各セクション内でロールアップされ、セクション見出しは次のいずれかのステータスインジケーターで表示されます。 **週単位のステータス** も自動的に更新されます。
 
 ![プレイブックの毎週のステータスロールアップのスクリーンショット](media/deploy-my-service-image6.png "プレイブックの毎週のステータスロールアップのスクリーンショット")
 
@@ -102,12 +104,12 @@ ms.locfileid: "44610049"
 > 使用しているすべての場所について、上記の手順を繰り返します。
 
 > [!IMPORTANT]
-> 一部の手順は、すべての場所やサイトに適用されないことがあります。 特定のアクティビティがサイトに関連していない場合は、このアクティビティに**適用しない**ことを選択する必要があります。 プレイブック内の行を削除しないで**ください**。この操作を行うと、ステータスロールアップ数式が機能しなくなります。<br/><br/>
-電話番号の移植や調達など、計画した時間よりも時間がかかる可能性があるアクティビティには注意してください。 これらのアクティビティは、サイト展開のタイムラインに悪影響を与える可能性があります。 アクティビティリストと関連するタイムラインの週を確認して更新して、関係者が各サイトのステータスと展開スケジュールの誤差を[確実に認識](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)できるようにしてください。
+> 一部の手順は、すべての場所やサイトに適用されないことがあります。 特定のアクティビティがサイトに関連していない場合は、このアクティビティに **適用しない** ことを選択する必要があります。 プレイブック内の行を削除しないで**ください**。この操作を行うと、ステータスロールアップ数式が機能しなくなります。<br/><br/>
+電話番号の移植や調達など、計画した時間よりも時間がかかる可能性があるアクティビティには注意してください。 これらのアクティビティは、サイト展開のタイムラインに悪影響を与える可能性があります。 アクティビティリストと関連するタイムラインの週を確認して更新して、関係者が各サイトのステータスと展開スケジュールの誤差を [確実に認識](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) できるようにしてください。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>展開にサイトの有効化のプレイブックが必要かどうかを決定します。</li><li>展開するすべてのサイトについて、Microsoft Teams のサイト有効化のプレイブックをカスタマイズする責任者を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト有効化のプレイブックをダウンロード</a>します。</li><li>初めてのサイト向けのサイト有効化のプレイブックをカスタマイズします。</li><li>必要に応じて、他のサイトにも同じ手順を繰り返します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト有効化のプレイブックをダウンロード</a>します。</li><li>初めてのサイト向けのサイト有効化のプレイブックをカスタマイズします。</li><li>必要に応じて、他のサイトにも同じ手順を繰り返します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

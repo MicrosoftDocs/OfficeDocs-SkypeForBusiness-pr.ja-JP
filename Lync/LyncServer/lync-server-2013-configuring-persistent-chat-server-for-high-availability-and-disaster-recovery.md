@@ -1,5 +1,5 @@
 ---
-title: 高可用性と障害復旧に対応した常設チャット サーバーの構成
+title: 高可用性および障害復旧のための常設チャットサーバーの構成
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86d0c3b9a35a138e3aadac8cc6ffcd4e808b2dca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90bb6ee0d9c060787c7b750046f79810aeb0c425
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756321"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532414"
 ---
+# <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 での高可用性および障害復旧用の常設チャットサーバーの構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 の高可用性と障害復旧に対応した常設チャット サーバーの構成
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "41756321"
 
 <span> </span>
 
-_**最終更新日:** 2012-10-01_
+_**トピックの最終更新日:** 2012-10-01_
 
-Lync Server 2013 の常設チャットサーバーサービスは、障害回復のために*拡張プール*構成を使います。 ストレッチプールは、2つの物理データセンターの間で配布され、1つの論理的な Lync Server サイト内にあるコンピューターを含むプールです。
+Lync Server 2013、常設チャットサーバーサービスは、障害復旧用に拡張された *プール* 構成を使用します。 ストレッチプールは、2つの物理的なデータセンター間に分散されたコンピューターを持つプールですが、1つの論理的な Lync Server サイトに含まれています。
 
 <div>
 
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-  - [Lync Server 2013 の常設チャット サーバーに必要なリソース](lync-server-2013-required-resources-for-persistent-chat-server.md)
+  - [Lync Server 2013 の常設チャットサーバーに必要なリソース](lync-server-2013-required-resources-for-persistent-chat-server.md)
 
-  - [Lync Server 2013 でトポロジ ビルダーを使用して高可用性と障害回復を構成する](lync-server-2013-using-topology-builder-to-configure-high-availability-and-disaster-recovery.md)
+  - [トポロジビルダーを使用して Lync Server 2013 での高可用性および障害復旧を構成する](lync-server-2013-using-topology-builder-to-configure-high-availability-and-disaster-recovery.md)
 
-  - [Lync Server 2013 における障害回復のための拡張型の常設チャット サーバー プールの使用](lync-server-2013-using-a-stretched-persistent-chat-server-pool-for-disaster-recovery.md)
+  - [Lync Server 2013 での障害復旧のための拡張された常設チャットサーバープールの使用](lync-server-2013-using-a-stretched-persistent-chat-server-pool-for-disaster-recovery.md)
 
   - [Lync Server 2013 での SQL Server のミラーリング](lync-server-2013-sql-server-mirroring.md)
 
-  - [Lync Server 2013 で常設チャット サーバーのプライマリ データベースの SQL Server ログ配布を設定する](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md)
+  - [常設チャットサーバーのプライマリデータベースのための Lync Server 2013 での SQL Server ログ配布のセットアップ](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md)
 
-  - [Lync Server 2013 でのプライマリ ミラーとログ配布セカンダリ データベース間での SQL Server ログ配布のセットアップ](lync-server-2013-set-up-log-shipping-secondary-database.md)
+  - [Lync Server 2013 のプライマリミラーとログ配布セカンダリデータベース間での SQL Server ログ配布のセットアップ](lync-server-2013-set-up-log-shipping-secondary-database.md)
 
 </div>
 

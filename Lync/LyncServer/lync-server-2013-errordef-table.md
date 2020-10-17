@@ -12,20 +12,22 @@ ms:contentKeyID: 48184403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6db93ea1b09e50d48ee5e0276d90e3db3975e9fe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f94f926193fe6a0ac389f5aed6e5cc2f9eb536a8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213323"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533140"
 ---
+# <a name="errordef-table-in-lync-server-2013"></a>Lync Server 2013 の ErrorDef テーブル
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errordef-table-in-lync-server-2013"></a>Lync Server 2013 の ErrorDef テーブル
+
 
 </div>
 
@@ -49,7 +51,7 @@ ErrorDef テーブルは、発生する可能性がある各エラーの種類�
 </colgroup>
 <thead>
 <tr class="header">
-<th>列</th>
+<th>Column</th>
 <th>データ型</th>
 <th>キー/インデックス</th>
 <th>詳細</th>
@@ -78,7 +80,7 @@ ErrorDef テーブルは、発生する可能性がある各エラーの種類�
 <td><p><strong>CallTypeId</strong></p></td>
 <td><p>Int</p></td>
 <td><p>外部</p></td>
-<td><p>呼び出しの種類。 詳細については、「 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 の CallType テーブル</a>」を参照してください。</p></td>
+<td><p>呼び出しの種類。 詳細については、「 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 の CallType テーブル</a> 」を参照してください。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>

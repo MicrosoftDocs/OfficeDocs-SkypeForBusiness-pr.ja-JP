@@ -12,20 +12,22 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b87e395f56c7dfdbd03bf35c5c1c8cf37795652
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b4fca7065c18ab67fce1940adccce6b9071f3373
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207733"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533334"
 ---
+# <a name="encryption-for-lync-server-2013"></a>Lync Server 2013 の暗号化
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="encryption-for-lync-server-2013"></a>Lync Server 2013 の暗号化
+
 
 </div>
 
@@ -43,7 +45,7 @@ Microsoft Lync Server 2013 は TLS と MTLS を使用してインスタントメ
 
 
 > [!NOTE]  
-> SSL 3.0 に関するセキュリティアドバイザリは、2014で公開されました。 Lync Server 2013 で SSL 3.0 を無効にする方法はサポートされています。 セキュリティアドバイザリの詳細については、 <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>「」を参照してください。
+> SSL 3.0 に関するセキュリティアドバイザリは、2014で公開されました。 Lync Server 2013 で SSL 3.0 を無効にする方法はサポートされています。 セキュリティアドバイザリの詳細については、「」を参照してください <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A> 。
 
 
 
@@ -121,7 +123,7 @@ Microsoft Lync Server 2013 は TLS と MTLS を使用してインスタントメ
 
 ## <a name="media-encryption"></a>メディアの暗号化
 
-メディアトラフィックは、セキュリティで保護された RTP (SRTP) を使用して暗号化されます。リアルタイム転送プロトコル (RTP) のプロファイルは、機密性、認証、および再生攻撃保護を RTP トラフィックに提供します。 さらに、仲介サーバーと内部の次ホップの間の両方向に流れるメディアも、SRTP を使用して暗号化されます。 仲介サーバーとメディアゲートウェイ間の両方の方向に流れるメディアは、既定では暗号化されません。 仲介サーバーはメディアゲートウェイへの暗号化をサポートできますが、ゲートウェイは、証明書の MTLS と記憶域をサポートする必要があります。
+メディアトラフィックは、セキュリティで保護された RTP (SRTP) を使用して暗号化されます。 Real-Time トランスポートプロトコル (RTP) のプロファイルは、機密性、認証、および再生攻撃保護を RTP トラフィックに提供します。 さらに、仲介サーバーとその内部の次ホップの間で双方向に流れるメディアも、SRTP を使用して暗号化されます。 仲介サーバーとメディアゲートウェイ間の両方の方向に流れるメディアは、既定では暗号化されません。 仲介サーバーはメディアゲートウェイへの暗号化をサポートできますが、ゲートウェイは、証明書の MTLS と記憶域をサポートする必要があります。
 
 <div>
 
@@ -141,7 +143,7 @@ Microsoft Lync Server 2013 は TLS と MTLS を使用してインスタントメ
 
 ## <a name="fips"></a>使う
 
-Lync Server 2013 と Microsoft Exchange Server 2013 は、Windows Server オペレーティングシステムがシステム暗号化用の FIPS 140-2 アルゴリズムを使用するように構成されている場合、連邦情報処理規格 (FIPS) の140-2 アルゴリズムをサポートするように動作します。 FIPS サポートを実装するには、Lync Server 2013 を実行している各サーバーをサポートするように構成する必要があります。 FIPS 準拠アルゴリズムの使用方法、および FIPS サポートを実装する方法の詳細については、「Microsoft サポート技術情報の記事811833」を参照してください[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)。 windows XP 以降のバージョンの windows では、「システム暗号化: 暗号化、ハッシュ、署名に FIPS 準拠アルゴリズムを使用する」のセキュリティ設定を有効にした場合の影響。 Exchange 2010 の FIPS 140-2 サポートおよび制限事項の詳細については、「Exchange 2010 SP1 とサポート」 [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)の「Fips 準拠アルゴリズムのサポート」を参照してください。
+Lync Server 2013 と Microsoft Exchange Server 2013 は、Windows Server オペレーティングシステムがシステム暗号化用の FIPS 140-2 アルゴリズムを使用するように構成されている場合、連邦情報処理規格 (FIPS) の140-2 アルゴリズムをサポートするように動作します。 FIPS サポートを実装するには、Lync Server 2013 を実行している各サーバーをサポートするように構成する必要があります。 FIPS 準拠アルゴリズムの使用方法、および FIPS サポートを実装する方法の詳細については、「Microsoft サポート技術情報の記事811833」を参照してください。 Windows XP 以降のバージョンの Windows では、「システム暗号化: 暗号化、ハッシュ、署名に FIPS 準拠アルゴリズムを使用する」のセキュリティ設定を有効にした場合の影響 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833) 。 Exchange 2010 の FIPS 140-2 サポートおよび制限事項の詳細については、「Exchange 2010 SP1 とサポート」の「FIPS 準拠アルゴリズムのサポート」を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335) 。
 
 </div>
 

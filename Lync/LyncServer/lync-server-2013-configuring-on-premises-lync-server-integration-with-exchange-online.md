@@ -12,20 +12,22 @@ ms:contentKeyID: 48184900
 ms.date: 03/30/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60cfa8caa0aa2cb7dac704123f2a099bd305aed5
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 3e65e5a97a73f7170820f24778a74c8a1ffac04b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219667"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532534"
 ---
+# <a name="configuring-on-premises-lync-server-2013-integration-with-exchange-online"></a>社内の Lync Server 2013 と Exchange Online との統合の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-on-premises-lync-server-2013-integration-with-exchange-online"></a>社内の Lync Server 2013 と Exchange Online との統合の構成
+
 
 </div>
 
@@ -59,7 +61,7 @@ Lync Server 2013 が Exchange Online と統合されている場合、OWA から
 
 オンプレミスの Lync Server 2013 を Exchange Online と統合するには、共有 SIP アドレススペースを構成する必要があります。 Lync Server と Exchange Online サービスの両方で、同じ SIP ドメインアドレススペースがサポートされています。
 
-Lync Server 管理シェルを使用して、次の例に示されているパラメーターを使用して、 **set-csaccessedgeconfiguration**コマンドレットを実行して、フェデレーション用にエッジサーバーを構成します。
+Lync Server 管理シェルを使用して、次の例に示されているパラメーターを使用して、 **set-csaccessedgeconfiguration** コマンドレットを実行して、フェデレーション用にエッジサーバーを構成します。
 
     Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
@@ -73,7 +75,7 @@ Lync Server 管理シェルの使用方法の詳細については、「 [Lync s
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>エッジサーバーのホスティングプロバイダーを構成する
 
-Lync Server 管理シェルを使用して、エッジサーバーのホスティングプロバイダーを構成します。 これを行うには、次の例のパラメーターを使用して、**新しい-CsHostingProvider**コマンドレットを実行します。
+Lync Server 管理シェルを使用して、エッジサーバーのホスティングプロバイダーを構成します。 これを行うには、次の例のパラメーターを使用して、 **新しい-CsHostingProvider** コマンドレットを実行します。
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
@@ -81,25 +83,25 @@ Lync Server 管理シェルを使用して、エッジサーバーのホステ�
 
 
 > [!NOTE]
-> 中国で21Vianet が運用している Office 365 を使用している場合は、この例の<STRONG>Proxyfqdn</STRONG>パラメーター ("exap.um.outlook.com") の値を、21vianet が運用しているサービスの FQDN に置き換えます。 "exap.um.partner.outlook.cn"。
+> 中国で21Vianet が運用している Office 365 を使用している場合は、この例の <STRONG>Proxyfqdn</STRONG> パラメーター ("exap.um.outlook.com") の値を、21vianet が運用しているサービスの FQDN に置き換えます。 "exap.um.partner.outlook.cn"。
 
 
 
 </div>
 
-  - **Identity**は、作成するホスティングプロバイダーの一意の文字列値識別子を指定します (例: "Exchange Online")。 スペースを含む値は、二重引用符で囲む必要があります。
+  - **Identity** は、作成するホスティングプロバイダーの一意の文字列値識別子を指定します (例: "Exchange Online")。 スペースを含む値は、二重引用符で囲む必要があります。
 
   - **Enabled** は、ドメインとホスティング プロバイダー間のネットワーク接続が有効になっているかどうかを示します。 **True**に設定する必要があります。
 
   - **EnabledSharedAddressSpace** は、ホスティング プロバイダーが共有 SIP アドレス スペース シナリオで使用されるかどうかを示します。 **True**に設定する必要があります。
 
-  - **Hostソケット Susers**は、ホスティングプロバイダーが Office Communications server または Lync Server をホストするために使用されているかどうかを示します。 この値は**False**に設定する必要があります。
+  - **Hostソケット Susers** は、ホスティングプロバイダーが Office Communications server または Lync Server をホストするために使用されているかどうかを示します。 この値は **False**に設定する必要があります。
 
   - **ProxyFQDN** は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 Exchange Online の場合、FQDN は exap.um.outlook.com です。
 
-  - **Islocal**は、ホスティングプロバイダーによって使用されるプロキシサーバーが Lync server トポロジ内に含まれているかどうかを示します。 この値は**False**に設定する必要があります。
+  - **Islocal** は、ホスティングプロバイダーによって使用されるプロキシサーバーが Lync server トポロジ内に含まれているかどうかを示します。 この値は **False**に設定する必要があります。
 
-  - **VerificationLevel**は、ホストされているプロバイダーとの間で送受信されるメッセージに対して許可される確認レベルを示します。 の**ように指定します**。 このオプションは、ホスティングプロバイダーから送信されるメッセージに含まれる検証レベルに依存します。 このレベルが指定されていない場合、メッセージは検証不能として拒否されます。
+  - **VerificationLevel** は、ホストされているプロバイダーとの間で送受信されるメッセージに対して許可される確認レベルを示します。 の **ように指定します**。 このオプションは、ホスティングプロバイダーから送信されるメッセージに含まれる検証レベルに依存します。 このレベルが指定されていない場合、メッセージは検証不能として拒否されます。
 
 </div>
 

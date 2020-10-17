@@ -12,20 +12,22 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41f6f2fdbf30696941e97d08cd1daf2e793f63ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abfbbb7a7f7787ab5490db1542c4435368a84ca0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532564"
 ---
+# <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Lync Server 2013 でのスマートカード認証のエンタープライズ CA の構成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Lync Server 2013 でのスマートカード認証のエンタープライズ CA の構成
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202953"
 
 _**トピックの最終更新日:** 2013-07-03_
 
-次のセクションでは、スマートカード認証をサポートするようにエンタープライズのルート証明機関 (CA) を構成する方法について説明します。 エンタープライズルート CA のインストール方法については、「エンタープライズのルート証明機関をインストール[https://go.microsoft.com/fwlink/p/?LinkID=313364](https://go.microsoft.com/fwlink/p/?linkid=313364)する」を参照してください。
+次のセクションでは、スマートカード認証をサポートするようにエンタープライズのルート証明機関 (CA) を構成する方法について説明します。 エンタープライズルート CA のインストール方法については、「エンタープライズのルート証明機関をインストールする」を参照してください [https://go.microsoft.com/fwlink/p/?LinkID=313364](https://go.microsoft.com/fwlink/p/?linkid=313364) 。
 
 <div>
 
@@ -49,23 +51,23 @@ _**トピックの最終更新日:** 2013-07-03_
 
 2.  システムマネージャーを起動し、証明機関 Web 登録役割がインストールされていることを確認します。
 
-3.  [**管理ツール**] メニューから、**証明機関**管理コンソールを開きます。
+3.  [ **管理ツール** ] メニューから、 **証明機関** 管理コンソールを開きます。
 
-4.  ナビゲーションウィンドウで、[**証明機関**] を展開します。
+4.  ナビゲーションウィンドウで、[ **証明機関**] を展開します。
 
-5.  [**証明書テンプレート**] を右クリックし、[**新規作成**] を選択して、[**発行する証明書テンプレート**] を選択します。
+5.  [ **証明書テンプレート**] を右クリックし、[ **新規作成**] を選択して、[ **発行する証明書テンプレート**] を選択します。
 
-6.  [**登録エージェント**]、[**スマートカードユーザー**]、および [**スマートカードログオン**] を選択します。
+6.  [ **登録エージェント**]、[ **スマートカードユーザー**]、および [ **スマートカードログオン**] を選択します。
 
 7.  **[OK]** をクリックします。
 
-8.  [**証明書テンプレート**] を右クリックします。
+8.  [ **証明書テンプレート**] を右クリックします。
 
-9.  [**管理**] を選択します。
+9.  [ **管理**] を選択します。
 
 10. スマートカードユーザーテンプレートのプロパティを開きます。
 
-11. [**セキュリティ**] タブをクリックします。
+11. [ **セキュリティ** ] タブをクリックします。
 
 12. アクセス許可を次のように変更します。
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3975d91ab3dc53b7bfd240d6aa6b863360db6e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2248bbd2eea4bb9204a98b5c5805ef196cbf2015
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531800"
 ---
+# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a>Lync Server 2013 でのモビリティサービスおよび UCWA の使用状況の監視
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-service-and-ucwa-usage-in-lync-server-2013"></a>Lync Server 2013 でのモビリティサービスおよび UCWA の使用状況の監視
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**トピックの最終更新日:** 2013-02-14_
 
 **ユニファイドコミュニケーション Web API (UCWA) の場合:**
 
-  - インターネットインフォメーションサービス (IIS) マネージャーの**LyncUcwa**ワーカープロセス。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
+  - インターネットインフォメーションサービス (IIS) マネージャーの **LyncUcwa** ワーカープロセス。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
 
   - [**CPU**] および [**プロセッサ**] パフォーマンス カウンター
 
@@ -49,9 +51,9 @@ _**トピックの最終更新日:** 2013-02-14_
 
 CPU およびメモリの使用状況カウンターに加えて、次のパフォーマンスカウンターを使用して、サーバーが要求で過負荷になっていないかどうかを判断するのに役立てることができます。
 
-  - **LS: web-調整と認証\\web-処理中の要求の総数**。これは、サーバー上で保留中の WEB 要求の数を示します。 このカウンターが1万に達すると、次の要求は失敗し、エラーメッセージ "503-サービスを使用できません。" が表示されます。
+  - **LS: WEB-調整と認証 \\WEB:** サーバー上で保留中の web 要求の数を示す、処理中の要求の合計です。 このカウンターが1万に達すると、次の要求は失敗し、エラーメッセージ "503-サービスを使用できません。" が表示されます。
 
-  - **ASP.NET\\Requests はキューに入れら**れます (常に0である必要があります)。
+  - **ASP.NET \\Requests** (常に0である必要があります)。
 
 <div>
 
@@ -65,7 +67,7 @@ CPU およびメモリの使用状況カウンターに加えて、次のパフ�
 
 **Mobility Service (Mcx) の場合:**
 
-  - インターネットインフォメーションサービス (IIS) マネージャーの**Csintmcxapppool**および**csextmcxapppool**ワーカープロセス。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
+  - インターネットインフォメーションサービス (IIS) マネージャーの **Csintmcxapppool** および **csextmcxapppool** ワーカープロセス。 [**ワーカー プロセス**] ウィンドウで、[**CPU %**] および [**プライベート バイト (KB)**] (メモリ) の列を確認します。
 
   - [**CPU**] および [**プロセッサ**] パフォーマンス カウンター
 
@@ -73,9 +75,9 @@ CPU およびメモリの使用状況カウンターに加えて、次のパフ�
 
 CPU とメモリの使用状況カウンターに加えて、以下の ASP.NET パフォーマンス カウンターを使用すると、サーバーが要求で過負荷になっていないかどうかを確認するのに役立つ場合があります。
 
-  - **ASP.NET v v2.0.50727\\は Current を要求**します。これは、サーバー上で保留中の web 要求の数を示します。 このカウンターが5000に達すると、以降の要求は失敗し、"503-サービスは使用できません" というエラーメッセージが表示されます。
+  - **ASP.NET v v2.0.50727 \\Current を要求**します。これは、サーバー上で保留中の web 要求の数を示します。 このカウンターが5000に達すると、以降の要求は失敗し、"503-サービスは使用できません" というエラーメッセージが表示されます。
 
-  - **ASP.NET\\Requests はキューに入れら**れます (常に0である必要があります)。
+  - **ASP.NET \\Requests** (常に0である必要があります)。
 
 <div>
 

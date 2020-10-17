@@ -12,20 +12,22 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffd95611f3033dff992092e3be93815bd0e01915
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 80a9116374914c212d305ef2e55d0b8c4fecb782
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206173"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533674"
 ---
+# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Lync Server 2013 常設チャットリソースキットツール
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Lync Server 2013 常設チャットリソースキットツール
+
 
 </div>
 
@@ -43,13 +45,13 @@ Lync Server 2013 常設チャットリソースキットツールは、Lync Serv
 
 ## <a name="installation-of-the-resource-kit-tools"></a>リソースキットツールのインストール
 
-Lync Server 2013 のリソースキットツールをインストールするには、 **PersistentChatReskit**をダウンロードしてください。 **PersistentChatReskit**を実行して、単純なインストールを実行します。 .Msi は、次のパス\\にあるすべてのツールをインストールします。 **Program Files\\\\ Microsoft Lync server 2013 常設チャットサーバーリソースキット**。 このフォルダーには、自己完結型の実行可能ファイルであるツールがあります。 ファイルが含まれているツールも、それぞれ独自のサブフォルダーにあります。
+Lync Server 2013 のリソースキットツールをインストールするには、 **PersistentChatReskit.msi**をダウンロードしてください。 **PersistentChatReskit.msi**を実行して簡単なインストールを行います。 .Msi は、次のパスにあるすべてのツールをインストールします。 \\ **Program Files \\ Microsoft Lync Server 2013 \\ 常設チャットサーバーリソースキット**。 このフォルダーには、自己完結型の実行可能ファイルであるツールがあります。 ファイルが含まれているツールも、それぞれ独自のサブフォルダーにあります。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync server 2013 のリソースキットツールをインストールした後、 <STRONG>PsExec</STRONG>をインストールし、 <STRONG>PsExec</STRONG>を次のパスにコピーする必要\\があります。 <STRONG>Program Files \ Microsoft Lync server 2013 \ 常設チャットサーバーリソース Kit\ChatStressTool</STRONG>。 <STRONG>PsExec</STRONG>をコピーしない場合、常設チャットストレスツールはエラー例外をスローし、正しく実行されません。 ツールを実行する前に、この前提条件を満たしていることを確認してください。 <STRONG>PsExec</STRONG>のインストールの詳細については<A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A>、「」を参照してください。
+> Lync Server 2013 のリソースキットツールをインストールした後、 <STRONG>PsExec.exe</STRONG>をインストールし、 <STRONG>PsExec.exe</STRONG>を次のパスにコピーする必要があります。 \\ <STRONG>Program Files Kit\ChatStressTool The Microsoft Lync Server 2013 \ 常設 Chat server Resource</STRONG>。 <STRONG>PsExec.exe</STRONG>をコピーしない場合、常設チャットストレスツールはエラー例外をスローし、正しく実行されません。 ツールを実行する前に、この前提条件を満たしていることを確認してください。 <STRONG>PsExec.exe</STRONG>のインストールの詳細については、「」を参照してください <A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A> 。
 
 
 
@@ -99,7 +101,7 @@ Lync Server 2013 常設チャットリソースキットには、次のツール
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要件
 
 このツールは、PersistentChatResKit インストーラーを使用してドメインに参加しているコンピューターにインストールされます。
 
@@ -111,9 +113,9 @@ Lync Server 2013 常設チャットリソースキットには、次のツール
 
 ## <a name="usage"></a>使用方法
 
-構成ファイルの手順に従って、影響チェック .exe ファイルを構成し、コマンドラインパラメーターを指定せずに、影響チェックツールを実行します。 既定の影響の内容は、次のとおりです。
+構成ファイルの指示に従って AffCheck.exe.config ファイルを構成し、コマンドラインパラメーターを指定せずに、影響チェックツールを実行します。 既定の AffCheck.exe.config の内容は次のとおりです。
 
-**影響のある .config ファイル:**
+**AffCheck.exe.config:**
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -169,13 +171,13 @@ CSV ファイルには、セッション数の合計、成功したセッショ�
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要件
 
 監視データベースにアクセスできるドメインに参加しているコンピューターに常設チャットリソースキットツールをインストールします。
 
 ツールを実行するユーザーアカウントは、監視データベースに対する読み取りアクセス権を持っている必要があります。
 
-PersistentChatMonitoringSummary ファイルには、監視データベースへの接続文字列を\<定義\>する connectionStrings セクションを含める必要があります。 また、監視データが収集される PersistentChatEndpointUri のキーと、生成される CSV ファイルの場所へのファイルパスも含める必要があります。 インストールされている構成ファイルで例を参照してください。 このファイルは、ツールと同じディレクトリに配置する必要があります。
+ファイル (PersistentChatMonitoringSummary.exe.config) には、 \<connectionStrings\> 監視データベースへの接続文字列を定義するセクションを含める必要があります。 また、監視データが収集される PersistentChatEndpointUri のキーと、生成される CSV ファイルの場所へのファイルパスも含める必要があります。 インストールされている構成ファイルで例を参照してください。 このファイルは、ツールと同じディレクトリに配置する必要があります。
 
 </div>
 
@@ -228,11 +230,11 @@ PersistentChatMonitoringSummary ファイルには、監視データベースへ
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要件
 
 常設チャットリソースキットツールを、常設チャットバックエンドデータベースにアクセスできるドメインに参加しているコンピューターにインストールします。
 
-この*コントローラー*コンピューターに加えて、いくつかの*ローダー*マシンが必要になります。 ユーザーモデルの10,000 ユーザーごとに、少なくとも 4 GB の空き RAM がローダーコンピューターに必要になります。 たとえば、80K を使用して実行すると、すべてのローダーコンピューターにまたがる RAM の 32 GB について必要になります。 予想される負荷に関係なく、少なくとも3台のローダーコンピューターを用意することをお勧めします。
+この *コントローラー* コンピューターに加えて、いくつかの *ローダー* マシンが必要になります。 ユーザーモデルの10,000 ユーザーごとに、少なくとも 4 GB の空き RAM がローダーコンピューターに必要になります。 たとえば、80K を使用して実行すると、すべてのローダーコンピューターにまたがる RAM の 32 GB について必要になります。 予想される負荷に関係なく、少なくとも3台のローダーコンピューターを用意することをお勧めします。
 
 ローダーコンピューターには、.NET 4.5 Framework に加えて、Visual C++ 2012 再頒布可能パッケージがインストールされている必要があります。
 
@@ -248,7 +250,7 @@ ChatStressTool ファイルをすべてのローダーコンピューターか�
 
   - ユーザーモデルからの呼び出しを行うユーザー数だけ作成し、Lync で有効にして、常設チャットポリシーを有効に設定します。
 
-  - ストレスチャネルのカテゴリを作成し、そのカテゴリで必要なだけのルームを作成します。 カテゴリには、すべてのストレスユーザーが**許可され**たリストに含まれている必要があります (OU を追加することによって)。また、ストレスルームには、プライバシー設定を**開く**必要があります。
+  - ストレスチャネルのカテゴリを作成し、そのカテゴリで必要なだけのルームを作成します。 カテゴリには、すべてのストレスユーザーが **許可され** たリストに含まれている必要があります (OU を追加することによって)。また、ストレスルームには、プライバシー設定を **開く**必要があります。
 
   - 特別なストレスルームを作成することをお勧めします。 5万ルームは、次の Windows PowerShell コマンドラインインターフェイスコマンドを使用して作成できます。
     ```Powershell
@@ -257,9 +259,9 @@ ChatStressTool ファイルをすべてのローダーコンピューターか�
 
 トポロジに合わせて構成ファイルを編集します。
 
-**LoaderProcess**で、"controller.contoso.com" をコントローラーコンピューターの完全修飾ドメイン名 (FQDN) に変更します。
+**LoaderProcess.exe.config**で、"controller.contoso.com" をコントローラーのコンピューターの完全修飾ドメイン名 (FQDN) に変更します。
 
-StressLauncher で、**次のよう**に入力します。
+StressLauncher.exe.config の場合 ** :**
 
 1.  "LoaderBinary" 設定値を共有フォルダーのパスに変更します。
 
@@ -267,7 +269,7 @@ StressLauncher で、**次のよう**に入力します。
 
 3.  "ChannelCategory" を、ストレスチャネルが作成されたカテゴリの名前に変更します。
 
-4.  ストレスユーザーの資格情報に一致するテンプレートに "UserNamePattern" と "UserPasswordPattern" を変更します。 {0}は、ユーザーのインデックス番号に置き換えられます。
+4.  ストレスユーザーの資格情報に一致するテンプレートに "UserNamePattern" と "UserPasswordPattern" を変更します。 {0} は、ユーザーのインデックス番号に置き換えられます。
 
 5.  テストトポロジの SIP ドメインに "Domain" を変更します。
 
@@ -287,9 +289,9 @@ StressLauncher で、**次のよう**に入力します。
 
 ## <a name="usage"></a>使用方法
 
-構成が完了したら、コントローラマシンで StressLauncher を開きます。 StressLauncher は、任意のユーザーとして起動できます。 ローダーコンピューターでのローダープロセスの開始に使用する資格情報は、構成ファイルで指定する必要があります。 また、常設チャットバックエンドデータベースへの読み取りアクセス権を持つ接続文字列も指定する必要があります。 この接続文字列が統合 Windows 認証を使用している場合は、このアクセス権を持つユーザーとして StressLauncher を起動する必要があります。
+構成が完了したら、コントローラマシンの StressLauncher.exe を開きます。 StressLauncher は、任意のユーザーとして起動できます。 ローダーコンピューターでのローダープロセスの開始に使用する資格情報は、構成ファイルで指定する必要があります。 また、常設チャットバックエンドデータベースへの読み取りアクセス権を持つ接続文字列も指定する必要があります。 この接続文字列が統合 Windows 認証を使用している場合は、このアクセス権を持つユーザーとして StressLauncher を起動する必要があります。
 
-必要に応じて、ユーザーモデルの設定を変更します。 [**読み込み開始**] をクリックして、実行を開始します。 1分以上経過すると、ユーザーはサインインし始め、進行状況バーがいっぱいになります。 この時点で、コントローラーマシンは動作し、パフォーマンスの測定を行うことができます。
+必要に応じて、ユーザーモデルの設定を変更します。 [ **読み込み開始** ] をクリックして、実行を開始します。 1分以上経過すると、ユーザーはサインインし始め、進行状況バーがいっぱいになります。 この時点で、コントローラーマシンは動作し、パフォーマンスの測定を行うことができます。
 
 </div>
 
@@ -311,13 +313,13 @@ ChatUpgradeVerifier は、常設チャット固有のデータベース比較ツ
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要件
 
 常設チャットリソースキットツールを、常設チャットバックエンドデータベース (常設チャットの場合は以前のバージョンと現在のバージョン) にアクセスできるドメインに参加しているコンピューターにインストールします。
 
 ツールを実行するユーザーアカウントは、常設チャットデータベースへの読み取りアクセス権を持っている必要があります。
 
-ChatUpgradeVerifier ファイルには、適切なグループチャットデータベース (Groupchat 2007R2 または 2010) への接続文字列を含む GroupChat2007R2Db パラメーターまたは GroupChat2010Db パラメーターのいずれかが含まれている必要があります。 また、常設チャット2013データベースへの接続文字列を含む PersistentChat2013Db パラメーターも含める必要があります。
+ChatUpgradeVerifier.exe.config ファイルには、適切なグループチャットデータベース (Groupchat 2007R2 または 2010) への接続文字列を含む GroupChat2007R2Db パラメーターまたは GroupChat2010Db パラメーターのいずれかが含まれている必要があります。 また、常設チャット2013データベースへの接続文字列を含む PersistentChat2013Db パラメーターも含める必要があります。
 
 </div>
 
@@ -333,7 +335,7 @@ ChatUpgradeVerifier ファイルには、適切なグループチャットデー
 
 ## <a name="example"></a>例
 
-![ChatUpgradeVerifier を実行しています。](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "ChatUpgradeVerifier を実行しています。")
+![ChatUpgradeVerifier.exe を実行しています。](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "ChatUpgradeVerifier.exe を実行しています。")
 
 </div>
 
@@ -353,13 +355,13 @@ ChatUsageReport ツールは、常設チャットサービスの利用状況の 
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要件
 
 常設チャットリソースキットツールを、常設チャットバックエンドデータベースにアクセスできるドメインに参加しているコンピューターにインストールします。
 
 ツールを実行するユーザーアカウントは、常設チャットのバックエンドデータベースに対する読み取りアクセス権を持っている必要があります。
 
-ChatUsageReport ファイルには、常設チャットバックエンドデータベースへの\<接続\>文字列を定義する connectionStrings セクションを含める必要があります。 既定の構成ファイルの内容は、参照用にここに記載されています。
+ファイル (ChatUsageReport.exe.config) には、 \<connectionStrings\> 常設チャットバックエンドデータベースへの接続文字列を定義するセクションを含める必要があります。 既定の構成ファイルの内容は、参照用にここに記載されています。
 
 </div>
 
@@ -386,9 +388,9 @@ ChatUsageReport ファイルには、常設チャットバックエンドデー�
 
 **RoomsInactiveSince:** この指定を指定すると、指定された日付以降に非アクティブになったチャットルームの一覧がレポートに含まれます。 既定値: 時間全体
 
-**Outputfolder:** ChatUsageReport およびグラフ画像が配置されるフォルダー。 これは、config ファイルまたはコマンドラインで定義されている必要があります。
+**Outputfolder:** ChatUsageReport.html およびグラフ画像が配置されるフォルダーです。 これは、config ファイルまたはコマンドラインで定義されている必要があります。
 
-すべてのコマンドラインパラメーターの値は、ツールと同じディレクトリにある ChatUsageReport ファイルで指定することもできます。 構成ファイルとコマンドラインの両方でいずれかの値が指定されている場合、コマンドラインの値は構成ファイルの値より優先されます。
+すべてのコマンドラインパラメーター値は、ツールと同じディレクトリにある ChatUsageReport.exe.config ファイルでも指定できます。 構成ファイルとコマンドラインの両方でいずれかの値が指定されている場合、コマンドラインの値は構成ファイルの値より優先されます。
 
 </div>
 
@@ -422,12 +424,12 @@ ChatUsageReport ファイルには、常設チャットバックエンドデー�
 
 ## <a name="example"></a>例
 
-次の例では、2001年全体の利用状況レポートを生成し、ChatUsageReport で指定されている OutputFolder にレポートを配置します。
+次の例では、2001年全体の利用状況レポートを生成し、ChatUsageReport.exe.config で指定されている OutputFolder にレポートを配置します。
 
 ```Powershell
     ChatUsageReport -RoomsInactiveSince 06-20-2010
 ```
-ChatUsageReport:
+ChatUsageReport.exe.config:
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -467,7 +469,7 @@ ScheduleADSyncForPrincipal は、常設チャットバックエンドデータ�
 
 <div>
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>要件
 
 スクリプトを実行するユーザーアカウントは、常設チャットのバックエンドデータベースに対する所有者アクセス権を持っている必要があります。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e969de7198eecf43b57ea00fa0591bbeb06da0b1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 160d90a5a79291d18afdab00c23ff0a6726fa5b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217313"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531944"
 ---
+# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Lync Server 2013 でのサーバーのメモリ容量制限の監視
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Lync Server 2013 でのサーバーのメモリ容量制限の監視
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**トピックの最終更新日:** 2016-12-08_
 
 </div>
 
-2つのモビリティパフォーマンスカウンターは、現在の使用状況を判断し、Lync Server 2013 Mobility Service (Mcx) の容量を計画したり、UCWA のメモリ使用量を監視したりするのに役立ちます。 UCWA では、カウンターカテゴリは**LS: WEB-UCWA**です。 Mobility Service (Mcx) の場合、カウンターはカテゴリ**LS: WEB-モバイル通信サービス**の下にあります。 監視するカウンターは次のとおりです。
+2つのモビリティパフォーマンスカウンターは、現在の使用状況を判断し、Lync Server 2013 Mobility Service (Mcx) の容量を計画したり、UCWA のメモリ使用量を監視したりするのに役立ちます。 UCWA では、カウンターカテゴリは **LS: WEB-UCWA**です。 Mobility Service (Mcx) の場合、カウンターはカテゴリ **LS: WEB-モバイル通信サービス**の下にあります。 監視するカウンターは次のとおりです。
 
   - アクティブなプレゼンスサブスクリプションを**持つ現在アクティブなセッション数**(アクティブなプレゼンスサブスクリプションを使用する現在のエンドポイント数) (常時接続されたモバイルユーザーの数)
 
@@ -61,21 +63,21 @@ _**トピックの最終更新日:** 2016-12-08_
 
 適切な制限を決定するには、まず、Mobility Service のフロントエンドサーバーで使用可能なメモリ容量を特定する必要があります。 カウンターを監視して、次の式に従って、容量の増設を計画する必要があるかどうかを判断します。
 
-Mcx Mobility Service (MB) によって使用された合計メモリ = 164 + (400 + \* 134)/1024**現在アクティブなセッション数がアクティブプレゼンスサブスクリプション**+ 400/1024 \* (現在アクティブな**セッション数**がアクティブな**プレゼンスサブスクリプションで現在**アクティブなセッション数)
+Mcx Mobility Service (MB) によって使用された合計メモリ = 164 + (400 + 134)/1024 \* **現在アクティブなセッション数がアクティブプレゼンスサブスクリプション** + 400/1024 \* (現在アクティブな**セッション数** がアクティブな **プレゼンスサブスクリプションで現在**アクティブなセッション数)
 
 <div>
 
 
 > [!IMPORTANT]  
-> Microsoft Lync Server 2010 の容量計算機は、スプレッドシートを使用して、サーバーの要件 (CPU、メモリ、ハードドライブなど) を決定するための計画を可能にするすべての式で事前設定されています。 スプレッドシートと関連するドキュメントは、次の場所にダウンロードできます。<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
+> Microsoft Lync Server 2010 の容量計算機は、スプレッドシートを使用して、サーバーの要件 (CPU、メモリ、ハードドライブなど) を決定するための計画を可能にするすべての式で事前設定されています。 スプレッドシートと関連するドキュメントは、次の場所にダウンロードできます。 <A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
 
 
 
 </div>
 
-フロントエンドサーバーは、フェールオーバー時に Mobility Service をサポートするのに十分な空きメモリを必要とします。 Mobility Service で使用するメモリ容量を計画するには、[**使用可能\\なメモリ mb** ] カウンターを使用するか、前述の式を使用して、フロントエンドサーバーで現在使用可能なメモリを監視できます。
+フロントエンドサーバーは、フェールオーバー時に Mobility Service をサポートするのに十分な空きメモリを必要とします。 Mobility Service で使用するメモリ容量を計画するには、[ ** \\ 使用可能なメモリ mb** ] カウンターを使用するか、前述の式を使用して、フロントエンドサーバーで現在使用可能なメモリを監視できます。
 
-必要な数のモビリティユーザーを計画する場合、フロントエンドサーバーで使用可能なメモリ容量が 1500 MB 未満である場合は、Mobility Service をサポートするためにハードウェアを追加する必要があります。 詳細については、「操作」のドキュメントの「 [Lync Server 2013 でのパフォーマンスを監視する](lync-server-2013-monitoring-mobility-for-performance.md)」を参照してください。
+必要な数のモビリティユーザーを計画する場合、フロントエンドサーバーで使用可能なメモリ容量が 1500 MB 未満である場合は、Mobility Service をサポートするためにハードウェアを追加する必要があります。 詳細については、「操作」のドキュメントの「 [Lync Server 2013 でのパフォーマンスを監視する](lync-server-2013-monitoring-mobility-for-performance.md) 」を参照してください。
 
 <div>
 
