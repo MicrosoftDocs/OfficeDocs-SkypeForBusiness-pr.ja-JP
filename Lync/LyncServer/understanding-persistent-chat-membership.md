@@ -1,5 +1,6 @@
 ---
 title: 常設チャットのメンバーシップについて
+description: 常設チャットのメンバーシップについて。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfed05d4cb2ce55971a9964d5360002599d0fe0c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 63e0d26ea56552d8906ab9a5cf216a7026868017
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527184"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48579603"
 ---
 # <a name="understanding-persistent-chat-membership"></a>常設チャットのメンバーシップについて
 

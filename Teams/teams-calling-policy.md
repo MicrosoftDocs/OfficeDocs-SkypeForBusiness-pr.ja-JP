@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams の発信通話制限ポリシー
-author: LolaJacobsen
+author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
 ms.topic: conceptual
@@ -10,21 +10,22 @@ audience: admin
 search.appverid: MET150
 description: Microsoft Teams のカスタムの通話ポリシーや、さまざまな通話ポリシーの設定に対してユーザーを作成、変更、および追加する方法について説明します。
 localization_priority: Normal
-ms.custom:
-- ms.teamsadmincenter.callingpolicies.overview
-- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
+- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 030be626574e7acd3aa2116595acaba757eaa5af
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 03ec48de66bc5b179b3a1d8cfe006b1789d09a33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44942034"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48581067"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams の発信通話制限ポリシー
 ===================================
@@ -38,9 +39,9 @@ Microsoft Teams では、通話ポリシーによって、ユーザーが使用�
 カスタムの通話ポリシーを作成するには、次の手順を実行します。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**通話のポリシー] に移動し  >  **Calling policies**ます。
-2. [**追加**] を選びます。
+2. [ **追加**] を選びます。
 3. 通話ポリシーで使用する機能を有効または無効にします。
-4. 着信通話をボイスメールにルーティングできるかどうかを制御するには、[**有効**] または [**ユーザー管理**] を選択します。 ボイスメールへのルーティングを禁止するには、[**無効**] を選択します。
+4. 着信通話をボイスメールにルーティングできるかどうかを制御するには、[ **有効** ] または [ **ユーザー管理**] を選択します。 ボイスメールへのルーティングを禁止するには、[ **無効**] を選択します。
 5. **[保存]** を選択します。
 
 ## <a name="edit-a-calling-policy"></a>通話ポリシーを編集する
@@ -48,8 +49,8 @@ Microsoft Teams では、通話ポリシーによって、ユーザーが使用�
 既存の通話ポリシーを編集するには、次の手順を実行します。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**  >  **通話のポリシー**] を選びます。
-2. 変更するポリシーの横にあるをクリックし、[**編集**] を選択します。
-3. 必要な変更を加えて、[**保存**] をクリックします。
+2. 変更するポリシーの横にあるをクリックし、[ **編集**] を選択します。
+3. 必要な変更を加えて、[ **保存**] をクリックします。
 
 ## <a name="assign-a-custom-calling-policy-to-users"></a>ユーザーにカスタムの通話ポリシーを割り当てる
 
@@ -75,9 +76,9 @@ Microsoft Teams では、通話ポリシーによって、ユーザーが使用�
 
 この設定では、着信通話をボイスメールに送信できます。 有効なオプションは次のとおりです。
 
-- **有効**ボイスメールは、着信通話にいつでも利用できます。
-- **無効** 着信通話でボイスメールを使用することはできません。
-- **ユーザー**による制御ユーザーはボイスメールを利用できるようにするかどうかを決定できます。
+- **有効** ボイスメールは、着信通話にいつでも利用できます。
+- **無効**  着信通話でボイスメールを使用することはできません。
+- **ユーザー** による制御ユーザーはボイスメールを利用できるようにするかどうかを決定できます。
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>着信通話を通話グループにルーティングできる 
 
@@ -89,11 +90,11 @@ Microsoft Teams では、通話ポリシーによって、ユーザーが使用�
 
 > [!Include [feature preview](includes/preview-feature.md)]
 
-この設定を有効にすると、着信の代理人へのルーティングが許可され、代理人がアクセス権を委任したユーザーの代わりに発信通話を行うことができます。 詳細については、「[代理人と電話回線を共有](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)する」を参照してください。
+この設定を有効にすると、着信の代理人へのルーティングが許可され、代理人がアクセス権を委任したユーザーの代わりに発信通話を行うことができます。 詳細については、「 [代理人と電話回線を共有](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)する」を参照してください。
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>通話を発信したり、PSTN 経由で通話を送信したりする 
 
-この設定**で**は、ネットワーク経由での送信と、tolls のバイパスではなく、PSTN 経由で通話が送信され、料金が発生します。
+この設定 **で** は、ネットワーク経由での送信と、tolls のバイパスではなく、PSTN 経由で通話が送信され、料金が発生します。
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>通話中に取り込み中
 

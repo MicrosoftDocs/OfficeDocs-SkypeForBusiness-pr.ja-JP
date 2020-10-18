@@ -8,20 +8,23 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Microsoft Teams 管理センターの称賛アプリでの管理設定について
-ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 27206f48de9c219996f8dcfd631e6640e175fb18
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328206"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580453"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで称賛アプリを管理する
 
-Microsoft Teams の称賛アプリを使用すると、ユーザーは組織または教室のメンバーに対する感謝を示すことができます。 選択して、独自のバッジを作成するためのオプションを選ぶと、称賛は、チームユーザーが作成するさまざまな作業について、教育者から最初のラインワーカーまでの労力を認識できるように設計されています。
+> [!NOTE]
+> この機能にアクセスするには、管理者が Teams ライセンスを持っている必要があります。 チームのライセンスがなくてもこの機能にアクセスしようとすると、エラーメッセージが表示されます。
+
+Microsoft Teams の称賛アプリを使用すると、ユーザーは組織または教室のメンバーに対する感謝を示すことができます。 選択して、独自のバッジを作成するためのオプションを選択すると、称賛は、チームユーザーが作成するさまざまな作業について、教師と Firstline 員の間で行う作業を認識できるように設計されています。
 
 管理者は、Teams 管理センターで、組織が利用できるバッジを制御できます。 左側のナビゲーションで、[ **Teams アプリ] > [アプリの管理**] を選びます。 [テナントアプリカタログ](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)で称賛を開き、[**設定**] に移動します。
 
-> [!Note]
+> [!NOTE]
 > 米国政府機関の称賛アプリ機能は使用できません。
 
 ## <a name="use-built-in-badge-sets"></a>組み込みのバッジセットを使用する

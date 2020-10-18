@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: エンドユーザーとしての Lync-Skype 接続の使用'
+description: 'Lync Server 2013: エンドユーザーとして Lync-Skype 接続を使用します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 57793365
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94bb9a2d5fa584de5b6195de0ad2accf6899d0e7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: dd669a5cf0b15f7fb2d411e4456553f5469d9f96
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535774"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580383"
 ---
 # <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a>エンドユーザーとしての Lync Server 2013 での Lync-Skype 接続の使用
 

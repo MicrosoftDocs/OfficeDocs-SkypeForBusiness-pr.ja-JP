@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 代理トランザクションに対してリッチログを使用する'
+description: 'Lync Server 2013: 代理トランザクションに対してリッチログを使用します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d73bfe085d34e536c5d3b44f1cacca8819de442
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 5fd984386985bced64265ebedfd57c56a84a4443
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518794"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48580303"
 ---
 # <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 で代理トランザクションに対してリッチログを使用する
 
