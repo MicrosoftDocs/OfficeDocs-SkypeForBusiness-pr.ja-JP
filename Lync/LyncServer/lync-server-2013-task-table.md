@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: タスクテーブル'
+description: 'Lync Server 2013: タスクテーブル。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50db621b8d8304a0ca53297f5aa5968d6611ba07
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8fe0e561b1ad118065f6cb9d1e9485394a7b51d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48497344"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573773"
 ---
-# <a name="task-table-in-lync-server-2013"></a><span data-ttu-id="55e15-102">Lync Server 2013 のタスクテーブル</span><span class="sxs-lookup"><span data-stu-id="55e15-102">Task table in Lync Server 2013</span></span>
+# <a name="task-table-in-lync-server-2013"></a><span data-ttu-id="e2e85-103">Lync Server 2013 のタスクテーブル</span><span class="sxs-lookup"><span data-stu-id="e2e85-103">Task table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48497344"
 
 <span> </span>
 
-<span data-ttu-id="55e15-103">_**トピックの最終更新日:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="55e15-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="e2e85-104">_**トピックの最終更新日:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="e2e85-104">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="55e15-104">タスクテーブルは、内部使用のみを対象としています。</span><span class="sxs-lookup"><span data-stu-id="55e15-104">The Task Table is for internal use only.</span></span> <span data-ttu-id="55e15-105">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="55e15-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="e2e85-105">タスクテーブルは、内部使用のみを対象としています。</span><span class="sxs-lookup"><span data-stu-id="e2e85-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="e2e85-106">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="e2e85-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

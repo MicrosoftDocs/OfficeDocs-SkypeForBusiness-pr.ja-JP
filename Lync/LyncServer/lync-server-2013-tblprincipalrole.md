@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: に tblprincipalrole'
+description: 'Lync Server 2013: に tblprincipalrole。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76dda06baa4e5fab51ca44586f7f8fce00860695
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f58ffda3136c254ee77f14d33dcb42af5d172c4a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523614"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573633"
 ---
-# <a name="tblprincipalrole-in-lync-server-2013"></a><span data-ttu-id="1ea4f-102">Lync Server 2013 のに tblprincipalrole</span><span class="sxs-lookup"><span data-stu-id="1ea4f-102">tblPrincipalRole in Lync Server 2013</span></span>
+# <a name="tblprincipalrole-in-lync-server-2013"></a><span data-ttu-id="50bd4-103">Lync Server 2013 のに tblprincipalrole</span><span class="sxs-lookup"><span data-stu-id="50bd4-103">tblPrincipalRole in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48523614"
 
 <span> </span>
 
-<span data-ttu-id="1ea4f-103">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="1ea4f-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="50bd4-104">_**トピックの最終更新日:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="50bd4-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="1ea4f-104">に tblprincipalrole には、ノードに割り当てられた明示的な役割が含まれます。</span><span class="sxs-lookup"><span data-stu-id="1ea4f-104">tblPrincipalRole contains explicit roles assigned to nodes.</span></span>
+<span data-ttu-id="50bd4-105">に tblprincipalrole には、ノードに割り当てられた明示的な役割が含まれます。</span><span class="sxs-lookup"><span data-stu-id="50bd4-105">tblPrincipalRole contains explicit roles assigned to nodes.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="1ea4f-105">段組み</span><span class="sxs-lookup"><span data-stu-id="1ea4f-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="50bd4-106">段組み</span><span class="sxs-lookup"><span data-stu-id="50bd4-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,37 +52,37 @@ ms.locfileid: "48523614"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1ea4f-106">Column</span><span class="sxs-lookup"><span data-stu-id="1ea4f-106">Column</span></span></th>
-<th><span data-ttu-id="1ea4f-107">種類</span><span class="sxs-lookup"><span data-stu-id="1ea4f-107">Type</span></span></th>
-<th><span data-ttu-id="1ea4f-108">説明</span><span class="sxs-lookup"><span data-stu-id="1ea4f-108">Description</span></span></th>
+<th><span data-ttu-id="50bd4-107">Column</span><span class="sxs-lookup"><span data-stu-id="50bd4-107">Column</span></span></th>
+<th><span data-ttu-id="50bd4-108">種類</span><span class="sxs-lookup"><span data-stu-id="50bd4-108">Type</span></span></th>
+<th><span data-ttu-id="50bd4-109">説明</span><span class="sxs-lookup"><span data-stu-id="50bd4-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1ea4f-109">Principalrole.prinrolenodeid</span><span class="sxs-lookup"><span data-stu-id="1ea4f-109">prinRoleNodeID</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-110">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="1ea4f-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-111">役割の適用先のノード ID。</span><span class="sxs-lookup"><span data-stu-id="1ea4f-111">Node ID that the role applies to.</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-110">Principalrole.prinrolenodeid</span><span class="sxs-lookup"><span data-stu-id="50bd4-110">prinRoleNodeID</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-111">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="50bd4-111">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-112">役割の適用先のノード ID。</span><span class="sxs-lookup"><span data-stu-id="50bd4-112">Node ID that the role applies to.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ea4f-112">Principalrole.prinroleprinid</span><span class="sxs-lookup"><span data-stu-id="1ea4f-112">prinRolePrinID</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-113">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="1ea4f-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-114">プリンシパル ID。</span><span class="sxs-lookup"><span data-stu-id="1ea4f-114">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-113">Principalrole.prinroleprinid</span><span class="sxs-lookup"><span data-stu-id="50bd4-113">prinRolePrinID</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-114">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="50bd4-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-115">プリンシパル ID。</span><span class="sxs-lookup"><span data-stu-id="50bd4-115">Principal ID.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ea4f-115">Principalrole.prinroletypeid</span><span class="sxs-lookup"><span data-stu-id="1ea4f-115">prinRoleTypeID</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-116">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="1ea4f-116">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-117">役割の種類の ID (tblRoleType)。</span><span class="sxs-lookup"><span data-stu-id="1ea4f-117">Role type ID (from tblRoleType).</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-116">Principalrole.prinroletypeid</span><span class="sxs-lookup"><span data-stu-id="50bd4-116">prinRoleTypeID</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-117">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="50bd4-117">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-118">役割の種類の ID (tblRoleType)。</span><span class="sxs-lookup"><span data-stu-id="50bd4-118">Role type ID (from tblRoleType).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ea4f-118">prinRoleUpdatedBy</span><span class="sxs-lookup"><span data-stu-id="1ea4f-118">prinRoleUpdatedBy</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-119">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="1ea4f-119">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-120">このエントリを最後に更新したプリンシパルの ID。</span><span class="sxs-lookup"><span data-stu-id="1ea4f-120">ID of the principal that last updated this entry.</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-119">prinRoleUpdatedBy</span><span class="sxs-lookup"><span data-stu-id="50bd4-119">prinRoleUpdatedBy</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-120">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="50bd4-120">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-121">このエントリを最後に更新したプリンシパルの ID。</span><span class="sxs-lookup"><span data-stu-id="50bd4-121">ID of the principal that last updated this entry.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="1ea4f-121">Keys</span><span class="sxs-lookup"><span data-stu-id="1ea4f-121">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="50bd4-122">Keys</span><span class="sxs-lookup"><span data-stu-id="50bd4-122">Keys</span></span>
 
 <table>
 <colgroup>
@@ -90,26 +91,26 @@ ms.locfileid: "48523614"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1ea4f-122">列</span><span class="sxs-lookup"><span data-stu-id="1ea4f-122">Column</span></span></th>
-<th><span data-ttu-id="1ea4f-123">説明</span><span class="sxs-lookup"><span data-stu-id="1ea4f-123">Description</span></span></th>
+<th><span data-ttu-id="50bd4-123">列</span><span class="sxs-lookup"><span data-stu-id="50bd4-123">Column</span></span></th>
+<th><span data-ttu-id="50bd4-124">説明</span><span class="sxs-lookup"><span data-stu-id="50bd4-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1ea4f-124">&lt;prinRoleNodeID、prinRolePrinID、prinRoleTypeID&gt;</span><span class="sxs-lookup"><span data-stu-id="1ea4f-124">&lt;prinRoleNodeID, prinRolePrinID, prinRoleTypeID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-125">主キー。</span><span class="sxs-lookup"><span data-stu-id="1ea4f-125">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-125">&lt;prinRoleNodeID、prinRolePrinID、prinRoleTypeID&gt;</span><span class="sxs-lookup"><span data-stu-id="50bd4-125">&lt;prinRoleNodeID, prinRolePrinID, prinRoleTypeID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-126">主キー。</span><span class="sxs-lookup"><span data-stu-id="50bd4-126">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ea4f-126">Principalrole.prinrolenodeid</span><span class="sxs-lookup"><span data-stu-id="1ea4f-126">prinRoleNodeID</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-127">tblNode.nodeID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="1ea4f-127">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-127">Principalrole.prinrolenodeid</span><span class="sxs-lookup"><span data-stu-id="50bd4-127">prinRoleNodeID</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-128">tblNode.nodeID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="50bd4-128">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1ea4f-128">Principalrole.prinroleprinid</span><span class="sxs-lookup"><span data-stu-id="1ea4f-128">prinRolePrinID</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-129">tblPrincipal.prinID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="1ea4f-129">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-129">Principalrole.prinroleprinid</span><span class="sxs-lookup"><span data-stu-id="50bd4-129">prinRolePrinID</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-130">tblPrincipal.prinID テーブル内の参照による外部キー。</span><span class="sxs-lookup"><span data-stu-id="50bd4-130">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1ea4f-130">Principalrole.prinroletypeid</span><span class="sxs-lookup"><span data-stu-id="1ea4f-130">prinRoleTypeID</span></span></p></td>
-<td><p><span data-ttu-id="1ea4f-131">TblRoleType テーブルに参照がある外部キー。</span><span class="sxs-lookup"><span data-stu-id="1ea4f-131">Foreign key with lookup in tblRoleType.rtypeID table.</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-131">Principalrole.prinroletypeid</span><span class="sxs-lookup"><span data-stu-id="50bd4-131">prinRoleTypeID</span></span></p></td>
+<td><p><span data-ttu-id="50bd4-132">TblRoleType テーブルに参照がある外部キー。</span><span class="sxs-lookup"><span data-stu-id="50bd4-132">Foreign key with lookup in tblRoleType.rtypeID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

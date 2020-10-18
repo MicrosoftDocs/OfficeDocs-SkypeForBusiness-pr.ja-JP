@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblActivePeers'
+description: 'Lync Server 2013: tblActivePeers。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c49ddc7a1355e7108f1bcb9c13394dd3305190c9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f274f82a280883e38e8e02409305982b64c18e4a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509554"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48573743"
 ---
-# <a name="tblactivepeers-in-lync-server-2013"></a><span data-ttu-id="a9dd0-102">Lync Server 2013 の tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="a9dd0-102">tblActivePeers in Lync Server 2013</span></span>
+# <a name="tblactivepeers-in-lync-server-2013"></a><span data-ttu-id="646a1-103">Lync Server 2013 の tblActivePeers</span><span class="sxs-lookup"><span data-stu-id="646a1-103">tblActivePeers in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48509554"
 
 <span> </span>
 
-<span data-ttu-id="a9dd0-103">_**トピックの最終更新日:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="a9dd0-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="646a1-104">_**トピックの最終更新日:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="646a1-104">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="a9dd0-104">tblActivePeers には、チャット サービス間の現在のピアツーピア接続が含まれています。</span><span class="sxs-lookup"><span data-stu-id="a9dd0-104">tblActivePeers contains the current peer-to-peer connections between chat services.</span></span>
+<span data-ttu-id="646a1-105">tblActivePeers には、チャット サービス間の現在のピアツーピア接続が含まれています。</span><span class="sxs-lookup"><span data-stu-id="646a1-105">tblActivePeers contains the current peer-to-peer connections between chat services.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="a9dd0-105">段組み</span><span class="sxs-lookup"><span data-stu-id="a9dd0-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="646a1-106">段組み</span><span class="sxs-lookup"><span data-stu-id="646a1-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,27 +52,27 @@ ms.locfileid: "48509554"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a9dd0-106">Column</span><span class="sxs-lookup"><span data-stu-id="a9dd0-106">Column</span></span></th>
-<th><span data-ttu-id="a9dd0-107">種類</span><span class="sxs-lookup"><span data-stu-id="a9dd0-107">Type</span></span></th>
-<th><span data-ttu-id="a9dd0-108">説明</span><span class="sxs-lookup"><span data-stu-id="a9dd0-108">Description</span></span></th>
+<th><span data-ttu-id="646a1-107">Column</span><span class="sxs-lookup"><span data-stu-id="646a1-107">Column</span></span></th>
+<th><span data-ttu-id="646a1-108">種類</span><span class="sxs-lookup"><span data-stu-id="646a1-108">Type</span></span></th>
+<th><span data-ttu-id="646a1-109">説明</span><span class="sxs-lookup"><span data-stu-id="646a1-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a9dd0-109">aplServerID</span><span class="sxs-lookup"><span data-stu-id="a9dd0-109">aplServerID</span></span></p></td>
-<td><p><span data-ttu-id="a9dd0-110">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="a9dd0-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="a9dd0-111">エントリを投稿したサーバーの ID。</span><span class="sxs-lookup"><span data-stu-id="a9dd0-111">ID of the server that posted the entry.</span></span></p></td>
+<td><p><span data-ttu-id="646a1-110">aplServerID</span><span class="sxs-lookup"><span data-stu-id="646a1-110">aplServerID</span></span></p></td>
+<td><p><span data-ttu-id="646a1-111">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="646a1-111">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="646a1-112">エントリを投稿したサーバーの ID。</span><span class="sxs-lookup"><span data-stu-id="646a1-112">ID of the server that posted the entry.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9dd0-112">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="a9dd0-112">aplPeerID</span></span></p></td>
-<td><p><span data-ttu-id="a9dd0-113">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="a9dd0-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="a9dd0-114">投稿元サーバーが接続しているピアの ID。</span><span class="sxs-lookup"><span data-stu-id="a9dd0-114">ID of the peer that the posting server is connected to.</span></span></p></td>
+<td><p><span data-ttu-id="646a1-113">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="646a1-113">aplPeerID</span></span></p></td>
+<td><p><span data-ttu-id="646a1-114">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="646a1-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="646a1-115">投稿元サーバーが接続しているピアの ID。</span><span class="sxs-lookup"><span data-stu-id="646a1-115">ID of the peer that the posting server is connected to.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="a9dd0-115">Keys</span><span class="sxs-lookup"><span data-stu-id="a9dd0-115">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="646a1-116">Keys</span><span class="sxs-lookup"><span data-stu-id="646a1-116">Keys</span></span>
 
 <table>
 <colgroup>
@@ -80,22 +81,22 @@ ms.locfileid: "48509554"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a9dd0-116">列</span><span class="sxs-lookup"><span data-stu-id="a9dd0-116">Column</span></span></th>
-<th><span data-ttu-id="a9dd0-117">説明</span><span class="sxs-lookup"><span data-stu-id="a9dd0-117">Description</span></span></th>
+<th><span data-ttu-id="646a1-117">列</span><span class="sxs-lookup"><span data-stu-id="646a1-117">Column</span></span></th>
+<th><span data-ttu-id="646a1-118">説明</span><span class="sxs-lookup"><span data-stu-id="646a1-118">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a9dd0-118">&lt;aplServerID, aplPeerID&gt;</span><span class="sxs-lookup"><span data-stu-id="a9dd0-118">&lt;aplServerID, aplPeerID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="a9dd0-119">主キー。</span><span class="sxs-lookup"><span data-stu-id="a9dd0-119">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="646a1-119">&lt;aplServerID, aplPeerID&gt;</span><span class="sxs-lookup"><span data-stu-id="646a1-119">&lt;aplServerID, aplPeerID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="646a1-120">主キー。</span><span class="sxs-lookup"><span data-stu-id="646a1-120">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9dd0-120">aplServerID</span><span class="sxs-lookup"><span data-stu-id="a9dd0-120">aplServerID</span></span></p></td>
-<td><p><span data-ttu-id="a9dd0-121">tblServerIdentity.serverID テーブルを参照する外部キー。</span><span class="sxs-lookup"><span data-stu-id="a9dd0-121">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
+<td><p><span data-ttu-id="646a1-121">aplServerID</span><span class="sxs-lookup"><span data-stu-id="646a1-121">aplServerID</span></span></p></td>
+<td><p><span data-ttu-id="646a1-122">tblServerIdentity.serverID テーブルを参照する外部キー。</span><span class="sxs-lookup"><span data-stu-id="646a1-122">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a9dd0-122">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="a9dd0-122">aplPeerID</span></span></p></td>
-<td><p><span data-ttu-id="a9dd0-123">tblServerIdentity.serverID テーブルを参照する外部キー。</span><span class="sxs-lookup"><span data-stu-id="a9dd0-123">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
+<td><p><span data-ttu-id="646a1-123">aplPeerID</span><span class="sxs-lookup"><span data-stu-id="646a1-123">aplPeerID</span></span></p></td>
+<td><p><span data-ttu-id="646a1-124">tblServerIdentity.serverID テーブルを参照する外部キー。</span><span class="sxs-lookup"><span data-stu-id="646a1-124">Foreign key with lookup in tblServerIdentity.serverID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
