@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 境界ネットワークの外側に配置された監視ノードへの証明書のインストール'
+description: 'Lync Server 2013: 境界ネットワークの外側に配置された監視ノードに証明書をインストールします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2bf4519995abf75db7807f8cd80f07ea477c8d4b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 66f40886e9784b5bd4182a60b955745b5daf2034
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498554"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574033"
 ---
 # <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a>Lync Server 2013 の境界ネットワークの外部にある監視ノードに証明書をインストールする
 

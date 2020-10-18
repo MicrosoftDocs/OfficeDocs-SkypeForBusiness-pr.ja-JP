@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: (オプション) ダイヤルイン会議の設定の検証'
+description: 'Lync Server 2013: (オプション) ダイヤルイン会議の設定を確認します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c43646572171a93880dd5013c87a08a2051ab2a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ec002cfbd7cdd67498768a360143f88ab4f8e1b7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530794"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572563"
 ---
 # <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>オプションLync Server 2013 でダイヤルイン会議の設定を確認する
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: エッジサーバーおよび機能の DNS 要件'
+description: 'Lync Server 2013: エッジサーバーおよび機能の DNS 要件。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50fa44f943e362f83f57eb8ee00c35dd7b3acea4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9bcfd00080e765924eecc3138bc3d552ce331b63
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48528844"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48574393"
 ---
 # <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Lync Server 2013 のエッジサーバーおよび機能の DNS 要件
 

@@ -1,5 +1,6 @@
 ---
 title: DNS の概要-パブリック IP アドレスを使用する単一統合エッジ
+description: DNS の概要-パブリック IP アドレスを使用する単一統合エッジ。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184601
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e0604a018b4b558612e2e2a3802ca97676b58b2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 58f0787d894e741951fd220ef3b2a9fada8183b3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501234"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572793"
 ---
 # <a name="dns-summary---single-consolidated-edge-with-public-ip-addresses-in-lync-server-2013"></a>DNS の概要-Lync Server 2013 でのパブリック IP アドレスを使用する単一統合エッジ
 
