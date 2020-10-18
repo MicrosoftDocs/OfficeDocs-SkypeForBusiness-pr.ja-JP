@@ -9,7 +9,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
 description: 最初のチームをセットアップしたら、Microsoft Teams の展開と導入の詳細なリソースを検索する場所について学びましょう。
-ms.custom: seo-marvel-mar2020
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-mar2020
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57075758e7b956323283ff8fa9dcb433e3e63b3c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8576560d6ec20cde4bae4ff6f10fc0474392ecf0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583184"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499894"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>Microsoft Teams を組織全体に展開するためのコースを選択する
 
