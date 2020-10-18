@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 新しいエンタープライズ Voip 機能'
+description: 'Lync Server 2013: 新しいエンタープライズ Voip 機能。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea00bc092f12a81ca9804b60e31aa88858455657
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e1fc0c0970fe22fb6a56eaf0d950f1d49d210826
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504134"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578833"
 ---
-# <a name="new-enterprise-voice-features-in-lync-server-2013"></a><span data-ttu-id="8e932-102">Lync Server 2013 の新しいエンタープライズ Voip 機能</span><span class="sxs-lookup"><span data-stu-id="8e932-102">New Enterprise Voice features in Lync Server 2013</span></span>
+# <a name="new-enterprise-voice-features-in-lync-server-2013"></a><span data-ttu-id="bd3dd-103">Lync Server 2013 の新しいエンタープライズ Voip 機能</span><span class="sxs-lookup"><span data-stu-id="bd3dd-103">New Enterprise Voice features in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,27 +38,27 @@ ms.locfileid: "48504134"
 
 <span> </span>
 
-<span data-ttu-id="8e932-103">_**トピックの最終更新日:** 2013-05-01_</span><span class="sxs-lookup"><span data-stu-id="8e932-103">_**Topic Last Modified:** 2013-05-01_</span></span>
+<span data-ttu-id="bd3dd-104">_**トピックの最終更新日:** 2013-05-01_</span><span class="sxs-lookup"><span data-stu-id="bd3dd-104">_**Topic Last Modified:** 2013-05-01_</span></span>
 
-<span data-ttu-id="8e932-104">Lync Server 2013 には、エンタープライズ Voip を強化するための、いくつかの新しいルーティングおよび通話管理機能が導入されています。</span><span class="sxs-lookup"><span data-stu-id="8e932-104">Lync Server 2013 introduces several new routing and call management features that enhance Enterprise Voice.</span></span>
+<span data-ttu-id="bd3dd-105">Lync Server 2013 には、エンタープライズ Voip を強化するための、いくつかの新しいルーティングおよび通話管理機能が導入されています。</span><span class="sxs-lookup"><span data-stu-id="bd3dd-105">Lync Server 2013 introduces several new routing and call management features that enhance Enterprise Voice.</span></span>
 
-<span data-ttu-id="8e932-105">Lync Server 2013 は、仲介サーバーとゲートウェイ間での複数のトランクをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="8e932-105">Lync Server 2013 supports multiple trunks between Mediation Servers and gateways.</span></span> <span data-ttu-id="8e932-106">*トランク*とは、ポート番号と仲介サーバーとポート番号およびゲートウェイとの間の論理的な関連付けのことです。</span><span class="sxs-lookup"><span data-stu-id="8e932-106">A *trunk* is a logical association between a port number and Mediation Server with a port number and gateway.</span></span> <span data-ttu-id="8e932-107">これは、仲介サーバーが異なるゲートウェイに対して複数のトランクを持つことができ、ゲートウェイが異なる仲介サーバーに対して複数のトランクを持つことができることを意味します。</span><span class="sxs-lookup"><span data-stu-id="8e932-107">This means that a Mediation Server can have multiple trunks to different gateways, and a gateway can have multiple trunks to different Mediation Servers.</span></span> <span data-ttu-id="8e932-108">トランク間ルーティングを使用すると、Lync Server 2013 が ip-pbx を公衆交換電話網 (PSTN) ゲートウェイに接続したり、複数の ip-pbx システムを相互接続したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="8e932-108">Intertrunk routing makes it possible for Lync Server 2013 to interconnect an IP-PBX to a public switched telephone network (PSTN) gateway or to interconnect multiple IP-PBX systems.</span></span> <span data-ttu-id="8e932-109">Lync Server 2013 は、異なるテレフォニーシステム間の glue (つまり相互接続) として機能します。</span><span class="sxs-lookup"><span data-stu-id="8e932-109">Lync Server 2013 serves as the glue (that is, the interconnection) between different telephony systems.</span></span>
+<span data-ttu-id="bd3dd-106">Lync Server 2013 は、仲介サーバーとゲートウェイ間での複数のトランクをサポートしています。</span><span class="sxs-lookup"><span data-stu-id="bd3dd-106">Lync Server 2013 supports multiple trunks between Mediation Servers and gateways.</span></span> <span data-ttu-id="bd3dd-107">*トランク*とは、ポート番号と仲介サーバーとポート番号およびゲートウェイとの間の論理的な関連付けのことです。</span><span class="sxs-lookup"><span data-stu-id="bd3dd-107">A *trunk* is a logical association between a port number and Mediation Server with a port number and gateway.</span></span> <span data-ttu-id="bd3dd-108">これは、仲介サーバーが異なるゲートウェイに対して複数のトランクを持つことができ、ゲートウェイが異なる仲介サーバーに対して複数のトランクを持つことができることを意味します。</span><span class="sxs-lookup"><span data-stu-id="bd3dd-108">This means that a Mediation Server can have multiple trunks to different gateways, and a gateway can have multiple trunks to different Mediation Servers.</span></span> <span data-ttu-id="bd3dd-109">トランク間ルーティングを使用すると、Lync Server 2013 が ip-pbx を公衆交換電話網 (PSTN) ゲートウェイに接続したり、複数の ip-pbx システムを相互接続したりすることができます。</span><span class="sxs-lookup"><span data-stu-id="bd3dd-109">Intertrunk routing makes it possible for Lync Server 2013 to interconnect an IP-PBX to a public switched telephone network (PSTN) gateway or to interconnect multiple IP-PBX systems.</span></span> <span data-ttu-id="bd3dd-110">Lync Server 2013 は、異なるテレフォニーシステム間の glue (つまり相互接続) として機能します。</span><span class="sxs-lookup"><span data-stu-id="bd3dd-110">Lync Server 2013 serves as the glue (that is, the interconnection) between different telephony systems.</span></span>
 
-<span data-ttu-id="8e932-110">Microsoft Lync Server 2013 は、着信の転送、同時呼び出し、ボイスメール処理、および発信者番号表示の領域を改善します。</span><span class="sxs-lookup"><span data-stu-id="8e932-110">Microsoft Lync Server 2013 makes improvements in the areas of call forwarding, simultaneous ringing, voice mail handling, and caller ID presentation.</span></span> <span data-ttu-id="8e932-111">これらの機能により、エンタープライズ Voip の呼び出しの利便性が向上します。</span><span class="sxs-lookup"><span data-stu-id="8e932-111">These features enrich the Enterprise Voice call experience.</span></span>
+<span data-ttu-id="bd3dd-111">Microsoft Lync Server 2013 は、着信の転送、同時呼び出し、ボイスメール処理、および発信者番号表示の領域を改善します。</span><span class="sxs-lookup"><span data-stu-id="bd3dd-111">Microsoft Lync Server 2013 makes improvements in the areas of call forwarding, simultaneous ringing, voice mail handling, and caller ID presentation.</span></span> <span data-ttu-id="bd3dd-112">これらの機能により、エンタープライズ Voip の呼び出しの利便性が向上します。</span><span class="sxs-lookup"><span data-stu-id="bd3dd-112">These features enrich the Enterprise Voice call experience.</span></span>
 
-<span data-ttu-id="8e932-112">Lync Server 2013 には、エンタープライズ Voip の次のような新しい拡張機能が導入されています。</span><span class="sxs-lookup"><span data-stu-id="8e932-112">Lync Server 2013 introduces the following new enhancements to Enterprise Voice:</span></span>
+<span data-ttu-id="bd3dd-113">Lync Server 2013 には、エンタープライズ Voip の次のような新しい拡張機能が導入されています。</span><span class="sxs-lookup"><span data-stu-id="bd3dd-113">Lync Server 2013 introduces the following new enhancements to Enterprise Voice:</span></span>
 
-  - [<span data-ttu-id="8e932-113">Lync Server 2013 の新しい通話機能</span><span class="sxs-lookup"><span data-stu-id="8e932-113">New call features in Lync Server 2013</span></span>](lync-server-2013-new-call-features.md)
+  - [<span data-ttu-id="bd3dd-114">Lync Server 2013 の新しい通話機能</span><span class="sxs-lookup"><span data-stu-id="bd3dd-114">New call features in Lync Server 2013</span></span>](lync-server-2013-new-call-features.md)
 
-  - [<span data-ttu-id="8e932-114">Lync Server 2013 の新しい発信者番号の機能</span><span class="sxs-lookup"><span data-stu-id="8e932-114">New caller ID feature in Lync Server 2013</span></span>](lync-server-2013-new-caller-id-feature.md)
+  - [<span data-ttu-id="bd3dd-115">Lync Server 2013 の新しい発信者番号の機能</span><span class="sxs-lookup"><span data-stu-id="bd3dd-115">New caller ID feature in Lync Server 2013</span></span>](lync-server-2013-new-caller-id-feature.md)
 
-  - [<span data-ttu-id="8e932-115">Lync Server 2013 の新しいボイスメール機能</span><span class="sxs-lookup"><span data-stu-id="8e932-115">New voice mail feature in Lync Server 2013</span></span>](lync-server-2013-new-voice-mail-feature.md)
+  - [<span data-ttu-id="bd3dd-116">Lync Server 2013 の新しいボイスメール機能</span><span class="sxs-lookup"><span data-stu-id="bd3dd-116">New voice mail feature in Lync Server 2013</span></span>](lync-server-2013-new-voice-mail-feature.md)
 
-  - [<span data-ttu-id="8e932-116">Lync Server 2013 の新しいトランク機能</span><span class="sxs-lookup"><span data-stu-id="8e932-116">New trunk feature in Lync Server 2013</span></span>](lync-server-2013-new-trunk-feature.md)
+  - [<span data-ttu-id="bd3dd-117">Lync Server 2013 の新しいトランク機能</span><span class="sxs-lookup"><span data-stu-id="bd3dd-117">New trunk feature in Lync Server 2013</span></span>](lync-server-2013-new-trunk-feature.md)
 
-  - [<span data-ttu-id="8e932-117">Lync Server 2013 の新しいトランク間機能</span><span class="sxs-lookup"><span data-stu-id="8e932-117">New intertrunk feature in Lync Server 2013</span></span>](lync-server-2013-new-intertrunk-feature.md)
+  - [<span data-ttu-id="bd3dd-118">Lync Server 2013 の新しいトランク間機能</span><span class="sxs-lookup"><span data-stu-id="bd3dd-118">New intertrunk feature in Lync Server 2013</span></span>](lync-server-2013-new-intertrunk-feature.md)
 
-  - [<span data-ttu-id="8e932-118">Lync Server 2013 の新しい通話管理機能</span><span class="sxs-lookup"><span data-stu-id="8e932-118">New call management features in Lync Server 2013</span></span>](lync-server-2013-new-call-management-features.md)
+  - [<span data-ttu-id="bd3dd-119">Lync Server 2013 の新しい通話管理機能</span><span class="sxs-lookup"><span data-stu-id="bd3dd-119">New call management features in Lync Server 2013</span></span>](lync-server-2013-new-call-management-features.md)
 
 </div>
 

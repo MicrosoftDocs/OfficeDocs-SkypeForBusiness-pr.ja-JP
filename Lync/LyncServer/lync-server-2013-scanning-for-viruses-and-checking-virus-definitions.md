@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ウイルスをスキャンしてウイルス定義を確認する'
+description: 'Lync Server 2013: ウイルスをスキャンし、ウイルス定義をチェックします。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1432480cbe62aedfc5c05362cc322d971c3cb321
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c06b08b5e902857e95cdefc206cdbfa860ef748c
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510864"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578653"
 ---
-# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a><span data-ttu-id="c38a8-102">Lync Server 2013 でのウイルスのスキャンとウイルス定義の確認</span><span class="sxs-lookup"><span data-stu-id="c38a8-102">Scanning for viruses and checking virus definitions in Lync Server 2013</span></span>
+# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a><span data-ttu-id="4c9d9-103">Lync Server 2013 でのウイルスのスキャンとウイルス定義の確認</span><span class="sxs-lookup"><span data-stu-id="4c9d9-103">Scanning for viruses and checking virus definitions in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48510864"
 
 <span> </span>
 
-<span data-ttu-id="c38a8-103">_**トピックの最終更新日:** 2014-05-01_</span><span class="sxs-lookup"><span data-stu-id="c38a8-103">_**Topic Last Modified:** 2014-05-01_</span></span>
+<span data-ttu-id="4c9d9-104">_**トピックの最終更新日:** 2014-05-01_</span><span class="sxs-lookup"><span data-stu-id="4c9d9-104">_**Topic Last Modified:** 2014-05-01_</span></span>
 
-<span data-ttu-id="c38a8-104">IM レベルのウイルス対策製品をインストールすることを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="c38a8-104">We highly recommend installing an IM-level antivirus product.</span></span> <span data-ttu-id="c38a8-105">IM は、組織全体でウイルスと悪意のあるソフトウェアの両方をすばやく展開するための、既知のソースです。</span><span class="sxs-lookup"><span data-stu-id="c38a8-105">IM is a well-known source for quickly spreading both virus and malicious software throughout an organization.</span></span> <span data-ttu-id="c38a8-106">Lync Server 用の Microsoft Forefront®セキュリティでは、ウイルス、悪意のあるソフトウェア、ファイルとキーワードのフィルター保護、および Office Communications Server とのシームレスな統合を使用して、マルチエンジンスキャンを行います。</span><span class="sxs-lookup"><span data-stu-id="c38a8-106">Microsoft Forefront® Security for Lync Server provides multi-engine scanning with virus, malicious software, file and keyword filter protection and seamless integration with Office Communications Server.</span></span>
+<span data-ttu-id="4c9d9-105">IM レベルのウイルス対策製品をインストールすることを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="4c9d9-105">We highly recommend installing an IM-level antivirus product.</span></span> <span data-ttu-id="4c9d9-106">IM は、組織全体でウイルスと悪意のあるソフトウェアの両方をすばやく展開するための、既知のソースです。</span><span class="sxs-lookup"><span data-stu-id="4c9d9-106">IM is a well-known source for quickly spreading both virus and malicious software throughout an organization.</span></span> <span data-ttu-id="4c9d9-107">Lync Server 用の Microsoft Forefront®セキュリティでは、ウイルス、悪意のあるソフトウェア、ファイルとキーワードのフィルター保護、および Office Communications Server とのシームレスな統合を使用して、マルチエンジンスキャンを行います。</span><span class="sxs-lookup"><span data-stu-id="4c9d9-107">Microsoft Forefront® Security for Lync Server provides multi-engine scanning with virus, malicious software, file and keyword filter protection and seamless integration with Office Communications Server.</span></span>
 
-<span data-ttu-id="c38a8-107">Lync Server の Forefront Security に加えて、サーバーのファイルシステムを保護するためのファイルレベルのウイルス対策ソリューションもインストールすることを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="c38a8-107">In addition to Forefront Security for Lync Server, we also highly recommend installing a file-level, antivirus solution to protect the server’s file system.</span></span>
+<span data-ttu-id="4c9d9-108">Lync Server の Forefront Security に加えて、サーバーのファイルシステムを保護するためのファイルレベルのウイルス対策ソリューションもインストールすることを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="4c9d9-108">In addition to Forefront Security for Lync Server, we also highly recommend installing a file-level, antivirus solution to protect the server’s file system.</span></span>
 
-<span data-ttu-id="c38a8-108">スキャナーエンジンおよびウイルス定義が更新された状態を維持することは非常に重要です。</span><span class="sxs-lookup"><span data-stu-id="c38a8-108">Keeping scanner engines and virus definitions updated is very important.</span></span> <span data-ttu-id="c38a8-109">更新プログラムの正常性を構成および監視することにより、Office Communications Server とファイルシステムの両方を保護するために最新のスキャン情報が使用されるようになります。</span><span class="sxs-lookup"><span data-stu-id="c38a8-109">Configuring and monitoring the health of the updates makes sure that the most current scanning information is being used to protect both Office Communications Server and file-system.</span></span>
+<span data-ttu-id="4c9d9-109">スキャナーエンジンおよびウイルス定義が更新された状態を維持することは非常に重要です。</span><span class="sxs-lookup"><span data-stu-id="4c9d9-109">Keeping scanner engines and virus definitions updated is very important.</span></span> <span data-ttu-id="4c9d9-110">更新プログラムの正常性を構成および監視することにより、Office Communications Server とファイルシステムの両方を保護するために最新のスキャン情報が使用されるようになります。</span><span class="sxs-lookup"><span data-stu-id="4c9d9-110">Configuring and monitoring the health of the updates makes sure that the most current scanning information is being used to protect both Office Communications Server and file-system.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="c38a8-110">Lync server 2013 および Forefront Security for lync Server を実行するサーバーで、サードパーティ製のファイルレベルのウイルス対策ソフトウェアを使用している場合は、それらのファイルが破損しないように、Forefront Security for Lync server と Lync Server がインストールされているフォルダーがスキャンされていないことを確認してください。</span><span class="sxs-lookup"><span data-stu-id="c38a8-110">When using a third-party, file-level antivirus software on a server that runs Lync Server 2013 and Forefront Security for Lync Server, make sure that the folders in which Forefront Security for Lync Server and the Lync Server are installed are not scanned, to prevent their corruption.</span></span> <span data-ttu-id="c38a8-111">除外の完全な一覧については、「」を参照してください <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A> 。</span><span class="sxs-lookup"><span data-stu-id="c38a8-111">For the full list of exclusions, see <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>.</span></span>
+> <span data-ttu-id="4c9d9-111">Lync server 2013 および Forefront Security for lync Server を実行するサーバーで、サードパーティ製のファイルレベルのウイルス対策ソフトウェアを使用している場合は、それらのファイルが破損しないように、Forefront Security for Lync server と Lync Server がインストールされているフォルダーがスキャンされていないことを確認してください。</span><span class="sxs-lookup"><span data-stu-id="4c9d9-111">When using a third-party, file-level antivirus software on a server that runs Lync Server 2013 and Forefront Security for Lync Server, make sure that the folders in which Forefront Security for Lync Server and the Lync Server are installed are not scanned, to prevent their corruption.</span></span> <span data-ttu-id="4c9d9-112">除外の完全な一覧については、「」を参照してください <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A> 。</span><span class="sxs-lookup"><span data-stu-id="4c9d9-112">For the full list of exclusions, see <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>.</span></span>
 
 
 
