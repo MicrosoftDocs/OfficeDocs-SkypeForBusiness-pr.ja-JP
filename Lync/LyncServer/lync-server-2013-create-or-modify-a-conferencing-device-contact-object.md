@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 会議デバイスの連絡先オブジェクトを作成または変更する'
+description: 'Lync Server 2013: 会議デバイスの連絡先オブジェクトを作成または変更します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ff0a3dbc50b48994752e48ea8889508f2376068
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 853ee1c7dfda2fda99431b8cc1a5210a51f39a4e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506174"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578013"
 ---
 # <a name="create-or-modify-a-conferencing-device-contact-object-in-lync-server-2013"></a>Lync Server 2013 で会議デバイスの連絡先オブジェクトを作成または変更する
 

@@ -1,5 +1,6 @@
 ---
 title: Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションの表示
+description: Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションを表示します。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185202
 ms.date: 09/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22a4098ed36be274f31aaeebb381654595884377
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d844acf542546a668c4fc086a07cd6a7bb4a8f5a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518464"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577073"
 ---
 # <a name="view-microsoft-sip-processing-language-mspl-server-applications-in-lync-server-2013"></a>Lync Server 2013 での Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションの表示
 

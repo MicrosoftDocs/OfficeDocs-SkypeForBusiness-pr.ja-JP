@@ -1,5 +1,6 @@
 ---
 title: フロントエンドサーバー、インスタントメッセージング、およびプレゼンスの技術要件
+description: フロントエンドサーバー、インスタントメッセージング、およびプレゼンスの技術要件。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09bf8825674e73b7c3e152557e955f01b64a0297
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2eeeb638a43a9bb09c1015c010b9cb857d9944a3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533914"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577113"
 ---
 # <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 でのフロントエンドサーバー、インスタントメッセージング、およびプレゼンスの技術要件
 

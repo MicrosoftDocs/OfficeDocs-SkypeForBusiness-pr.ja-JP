@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013 の会議のコンポーネントとトポロジ
+description: Lync Server 2013 の会議のコンポーネントとトポロジ。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfdb6ae250e3ccb97f044892daa8ac11e7c1b99b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 719fe81d0f634b1eab1e79c2e7e665e89b0a791a
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502584"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576863"
 ---
 # <a name="components-and-topologies-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 の会議のコンポーネントとトポロジ
 
