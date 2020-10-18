@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Session テーブル'
+description: 'Lync Server 2013: Session テーブル。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d74d2732d2f8ad293450f4945eef00bccb9a572d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e1a52813dfea808253cc934f71a9d4c846c2dbbd
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510084"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576453"
 ---
-# <a name="session-table-in-lync-server-2013"></a><span data-ttu-id="bc595-102">Lync Server 2013 の Session テーブル</span><span class="sxs-lookup"><span data-stu-id="bc595-102">Session table in Lync Server 2013</span></span>
+# <a name="session-table-in-lync-server-2013"></a><span data-ttu-id="4f5e0-103">Lync Server 2013 の Session テーブル</span><span class="sxs-lookup"><span data-stu-id="4f5e0-103">Session table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48510084"
 
 <span> </span>
 
-<span data-ttu-id="bc595-103">_**トピックの最終更新日:** 2013-09-09_</span><span class="sxs-lookup"><span data-stu-id="bc595-103">_**Topic Last Modified:** 2013-09-09_</span></span>
+<span data-ttu-id="4f5e0-104">_**トピックの最終更新日:** 2013-09-09_</span><span class="sxs-lookup"><span data-stu-id="4f5e0-104">_**Topic Last Modified:** 2013-09-09_</span></span>
 
-<span data-ttu-id="bc595-104">各レコードは、音声またはオーディオとビデオを含む1つのセッションを表します。</span><span class="sxs-lookup"><span data-stu-id="bc595-104">Each record represents one session which involves audio or audio and video.</span></span> <span data-ttu-id="bc595-105">このファイルには、セッションに関する全体的な情報が含まれています。</span><span class="sxs-lookup"><span data-stu-id="bc595-105">It contains overall information about the session.</span></span> <span data-ttu-id="bc595-106">セッションは、2つのエンドポイント間のオーディオまたはビデオセッション開始プロトコル (SIP) ダイアログとして定義されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-106">A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints.</span></span>
+<span data-ttu-id="4f5e0-105">各レコードは、音声またはオーディオとビデオを含む1つのセッションを表します。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-105">Each record represents one session which involves audio or audio and video.</span></span> <span data-ttu-id="4f5e0-106">このファイルには、セッションに関する全体的な情報が含まれています。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-106">It contains overall information about the session.</span></span> <span data-ttu-id="4f5e0-107">セッションは、2つのエンドポイント間のオーディオまたはビデオセッション開始プロトコル (SIP) ダイアログとして定義されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-107">A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints.</span></span>
 
 
 <table>
@@ -51,139 +52,139 @@ ms.locfileid: "48510084"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bc595-107"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-107"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="bc595-108"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-108"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="bc595-109"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-109"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="bc595-110"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-110"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="4f5e0-108"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-108"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="4f5e0-109"><strong>データ型</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-109"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="4f5e0-110"><strong>キー/インデックス</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-110"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="4f5e0-111"><strong>詳細</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-111"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-111"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-111"><strong>ConferenceDateTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-112">日付型</span><span class="sxs-lookup"><span data-stu-id="bc595-112">datetime</span></span></p></td>
-<td><p><span data-ttu-id="bc595-113">Primary</span><span class="sxs-lookup"><span data-stu-id="bc595-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="bc595-114"><a href="lync-server-2013-dialog-table.md">Lync Server 2013 のダイアログテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-114">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-112"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-112"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-113">日付型</span><span class="sxs-lookup"><span data-stu-id="4f5e0-113">datetime</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-114">Primary</span><span class="sxs-lookup"><span data-stu-id="4f5e0-114">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-115"><a href="lync-server-2013-dialog-table.md">Lync Server 2013 のダイアログテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-115">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-115"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-115"><strong>SessionSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-116">int</span><span class="sxs-lookup"><span data-stu-id="bc595-116">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-117">Primary</span><span class="sxs-lookup"><span data-stu-id="bc595-117">Primary</span></span></p></td>
-<td><p><span data-ttu-id="bc595-118"><a href="lync-server-2013-dialog-table.md">Lync Server 2013 のダイアログテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-118">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-116"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-116"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-117">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-117">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-118">Primary</span><span class="sxs-lookup"><span data-stu-id="4f5e0-118">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-119"><a href="lync-server-2013-dialog-table.md">Lync Server 2013 のダイアログテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-119">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-119"><strong>ConferenceKey</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-119"><strong>ConferenceKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-120">int</span><span class="sxs-lookup"><span data-stu-id="bc595-120">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-121">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-121">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-122">電話会議キー。</span><span class="sxs-lookup"><span data-stu-id="bc595-122">Conference key.</span></span> <span data-ttu-id="bc595-123"><a href="lync-server-2013-conference-table.md">Lync Server 2013 の会議テーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-123">Referenced from the <a href="lync-server-2013-conference-table.md">Conference table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-120"><strong>ConferenceKey</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-120"><strong>ConferenceKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-121">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-121">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-122">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-122">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-123">電話会議キー。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-123">Conference key.</span></span> <span data-ttu-id="4f5e0-124"><a href="lync-server-2013-conference-table.md">Lync Server 2013 の会議テーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-124">Referenced from the <a href="lync-server-2013-conference-table.md">Conference table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-124"><strong>CorrelationKey</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-124"><strong>CorrelationKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-125">int</span><span class="sxs-lookup"><span data-stu-id="bc595-125">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-126">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-126">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-127">関連付けキー。</span><span class="sxs-lookup"><span data-stu-id="bc595-127">Correlation key.</span></span> <span data-ttu-id="bc595-128"><a href="lync-server-2013-sessioncorrelation-table.md">Lync Server 2013 の Sessioncorrelation テーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-128">Referenced from the <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-125"><strong>CorrelationKey</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-125"><strong>CorrelationKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-126">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-126">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-127">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-127">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-128">関連付けキー。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-128">Correlation key.</span></span> <span data-ttu-id="4f5e0-129"><a href="lync-server-2013-sessioncorrelation-table.md">Lync Server 2013 の Sessioncorrelation テーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-129">Referenced from the <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-129"><strong>' このカテゴリ</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-129"><strong>DialogCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-130">若干</span><span class="sxs-lookup"><span data-stu-id="bc595-130">bit</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-130"><strong>' このカテゴリ</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-130"><strong>DialogCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-131">若干</span><span class="sxs-lookup"><span data-stu-id="4f5e0-131">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="bc595-131">ダイアログのカテゴリ。0は Lync Server から仲介サーバーまでです。1は仲介サーバーから PSTN ゲートウェイレグになります。</span><span class="sxs-lookup"><span data-stu-id="bc595-131">Dialog category; 0 is Lync Server to Mediation Server leg; 1 is Mediation Server to PSTN gateway leg.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-132">ダイアログのカテゴリ。0は Lync Server から仲介サーバーまでです。1は仲介サーバーから PSTN ゲートウェイレグになります。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-132">Dialog category; 0 is Lync Server to Mediation Server leg; 1 is Mediation Server to PSTN gateway leg.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-132"><strong>MediationServerBypassFlag</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-132"><strong>MediationServerBypassFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-133">若干</span><span class="sxs-lookup"><span data-stu-id="bc595-133">bit</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-133"><strong>MediationServerBypassFlag</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-133"><strong>MediationServerBypassFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-134">若干</span><span class="sxs-lookup"><span data-stu-id="4f5e0-134">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bc595-134">通話がバイパスされたかどうかを示すフラグ。</span><span class="sxs-lookup"><span data-stu-id="bc595-134">Flag indicating if the call was bypassed or not.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-135">通話がバイパスされたかどうかを示すフラグ。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-135">Flag indicating if the call was bypassed or not.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-135"><strong>Mediabypasswarnings フラグ</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-135"><strong>MediaBypassWarningFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-136">int</span><span class="sxs-lookup"><span data-stu-id="bc595-136">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-136"><strong>Mediabypasswarnings フラグ</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-136"><strong>MediaBypassWarningFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-137">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-137">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bc595-137">このフィールドは、(存在する場合) バイパス ID が一致したのに通話がバイパスされなかった理由を示します。</span><span class="sxs-lookup"><span data-stu-id="bc595-137">This field, if present, indicates why a call was not bypassed even if the bypass IDs matched.</span></span> <span data-ttu-id="bc595-138">Lync Server では、1つの値のみが定義されています。</span><span class="sxs-lookup"><span data-stu-id="bc595-138">For Lync Server, only one value is defined.</span></span></p>
-<p><span data-ttu-id="bc595-139">0x0001 - 既定のネットワーク アダプターのバイパス ID が不明です。</span><span class="sxs-lookup"><span data-stu-id="bc595-139">0x0001 – Unknown bypass ID for Default network adapter.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-138">このフィールドは、(存在する場合) バイパス ID が一致したのに通話がバイパスされなかった理由を示します。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-138">This field, if present, indicates why a call was not bypassed even if the bypass IDs matched.</span></span> <span data-ttu-id="4f5e0-139">Lync Server では、1つの値のみが定義されています。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-139">For Lync Server, only one value is defined.</span></span></p>
+<p><span data-ttu-id="4f5e0-140">0x0001 - 既定のネットワーク アダプターのバイパス ID が不明です。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-140">0x0001 – Unknown bypass ID for Default network adapter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-140"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-140"><strong>StartTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-141">日付型</span><span class="sxs-lookup"><span data-stu-id="bc595-141">datetime</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-141"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-141"><strong>StartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-142">日付型</span><span class="sxs-lookup"><span data-stu-id="4f5e0-142">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="bc595-142">通話の開始時刻。</span><span class="sxs-lookup"><span data-stu-id="bc595-142">Call start time.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-143">通話の開始時刻。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-143">Call start time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-143"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-143"><strong>EndTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-144">日付型</span><span class="sxs-lookup"><span data-stu-id="bc595-144">datetime</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-144"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-144"><strong>EndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-145">日付型</span><span class="sxs-lookup"><span data-stu-id="4f5e0-145">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="bc595-145">通話の終了時刻。</span><span class="sxs-lookup"><span data-stu-id="bc595-145">Call end time.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-146">通話の終了時刻。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-146">Call end time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-146"><strong>CallerPool</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-146"><strong>CallerPool</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-147">int</span><span class="sxs-lookup"><span data-stu-id="bc595-147">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-148">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-148">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-149">発信者のプール。</span><span class="sxs-lookup"><span data-stu-id="bc595-149">The pool of the caller.</span></span> <span data-ttu-id="bc595-150"><a href="lync-server-2013-pool-table.md">Lync Server 2013 のプールテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-150">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-147"><strong>CallerPool</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-147"><strong>CallerPool</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-148">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-148">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-149">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-149">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-150">発信者のプール。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-150">The pool of the caller.</span></span> <span data-ttu-id="4f5e0-151"><a href="lync-server-2013-pool-table.md">Lync Server 2013 のプールテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-151">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-151"><strong>CalleePool</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-151"><strong>CalleePool</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-152">int</span><span class="sxs-lookup"><span data-stu-id="bc595-152">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-153">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-153">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-154">通話受信者のプール。</span><span class="sxs-lookup"><span data-stu-id="bc595-154">The pool of the call receiver.</span></span> <span data-ttu-id="bc595-155"><a href="lync-server-2013-pool-table.md">Lync Server 2013 のプールテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-155">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-152"><strong>CalleePool</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-152"><strong>CalleePool</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-153">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-153">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-154">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-154">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-155">通話受信者のプール。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-155">The pool of the call receiver.</span></span> <span data-ttu-id="4f5e0-156"><a href="lync-server-2013-pool-table.md">Lync Server 2013 のプールテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-156">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-156"><strong>CalleePAI</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-156"><strong>CalleePAI</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-157">int</span><span class="sxs-lookup"><span data-stu-id="bc595-157">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-158">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-158">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-159">受信エンドポイントの SIP p アサートされた id (PAI) の SIP URI。</span><span class="sxs-lookup"><span data-stu-id="bc595-159">SIP URI in the SIP p-asserted identity (PAI) of the receiving endpoint.</span></span> <span data-ttu-id="bc595-160"><a href="lync-server-2013-user-table.md">Lync Server 2013 のユーザーテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-160">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-157"><strong>CalleePAI</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-157"><strong>CalleePAI</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-158">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-158">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-159">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-159">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-160">受信エンドポイントの SIP p アサートされた id (PAI) の SIP URI。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-160">SIP URI in the SIP p-asserted identity (PAI) of the receiving endpoint.</span></span> <span data-ttu-id="4f5e0-161"><a href="lync-server-2013-user-table.md">Lync Server 2013 のユーザーテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-161">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-161"><strong>CallerURI</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-161"><strong>CallerURI</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-162">int</span><span class="sxs-lookup"><span data-stu-id="bc595-162">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-163">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-163">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-164">発信者の URI。</span><span class="sxs-lookup"><span data-stu-id="bc595-164">Caller’s URI.</span></span> <span data-ttu-id="bc595-165"><a href="lync-server-2013-user-table.md">Lync Server 2013 のユーザーテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-165">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-162"><strong>CallerURI</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-162"><strong>CallerURI</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-163">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-163">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-164">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-164">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-165">発信者の URI。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-165">Caller’s URI.</span></span> <span data-ttu-id="4f5e0-166"><a href="lync-server-2013-user-table.md">Lync Server 2013 のユーザーテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-166">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-166"><strong>CallerEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-166"><strong>CallerEndpoint</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-167">int</span><span class="sxs-lookup"><span data-stu-id="bc595-167">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-168">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-168">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-169">発信者のエンドポイント。</span><span class="sxs-lookup"><span data-stu-id="bc595-169">Caller’s endpoint.</span></span> <span data-ttu-id="bc595-170"><a href="lync-server-2013-endpoint-table.md">Lync Server 2013 のエンドポイントテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-170">Referenced from the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-167"><strong>CallerEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-167"><strong>CallerEndpoint</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-168">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-168">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-169">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-169">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-170">発信者のエンドポイント。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-170">Caller’s endpoint.</span></span> <span data-ttu-id="4f5e0-171"><a href="lync-server-2013-endpoint-table.md">Lync Server 2013 のエンドポイントテーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-171">Referenced from the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-171"><strong>CallerUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-171"><strong>CallerUserAgent</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-172">若干</span><span class="sxs-lookup"><span data-stu-id="bc595-172">bit</span></span></p></td>
-<td><p><span data-ttu-id="bc595-173">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-173">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-174">発信者のユーザーエージェント。</span><span class="sxs-lookup"><span data-stu-id="bc595-174">Caller’s user agent.</span></span> <span data-ttu-id="bc595-175"><a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-175">Referenced from the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-172"><strong>CallerUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-172"><strong>CallerUserAgent</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-173">若干</span><span class="sxs-lookup"><span data-stu-id="4f5e0-173">bit</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-174">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-174">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-175">発信者のユーザーエージェント。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-175">Caller’s user agent.</span></span> <span data-ttu-id="4f5e0-176"><a href="lync-server-2013-useragent-table.md">Lync Server 2013 の UserAgent テーブル</a>から参照されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-176">Referenced from the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-176"><strong>CallPriority</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-176"><strong>CallPriority</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-177">smallint</span><span class="sxs-lookup"><span data-stu-id="bc595-177">smallint</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-177"><strong>CallPriority</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-177"><strong>CallPriority</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-178">smallint</span><span class="sxs-lookup"><span data-stu-id="4f5e0-178">smallint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bc595-178">この通話の優先度。</span><span class="sxs-lookup"><span data-stu-id="bc595-178">The priority of this call.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-179">この通話の優先度。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-179">The priority of this call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-179"><strong>ClassifiedPoorCall</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-179"><strong>ClassifiedPoorCall</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-180">若干</span><span class="sxs-lookup"><span data-stu-id="bc595-180">bit</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-180"><strong>ClassifiedPoorCall</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-180"><strong>ClassifiedPoorCall</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-181">若干</span><span class="sxs-lookup"><span data-stu-id="4f5e0-181">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="bc595-181">この列は推奨されておらず、Microsoft Lync Server 2013 では使用されていません。</span><span class="sxs-lookup"><span data-stu-id="bc595-181">This column has been deprecated and is not used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="bc595-182">代わりに、この情報はメディアごとの回線ベースで報告されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-182">Instead, this information is reported on a per-media line bases.</span></span> <span data-ttu-id="bc595-183">詳細については、「 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a> を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bc595-183">Refer to the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-182">この列は推奨されておらず、Microsoft Lync Server 2013 では使用されていません。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-182">This column has been deprecated and is not used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="4f5e0-183">代わりに、この情報はメディアごとの回線ベースで報告されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-183">Instead, this information is reported on a per-media line bases.</span></span> <span data-ttu-id="4f5e0-184">詳細については、「 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 の MediaLine テーブル</a> を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-184">Refer to the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-184"><strong>CallerPAI</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-184"><strong>CallerPAI</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-185">int</span><span class="sxs-lookup"><span data-stu-id="bc595-185">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-186">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-186">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-187">P-アサート済み-通話を発信したユーザーの Id。</span><span class="sxs-lookup"><span data-stu-id="bc595-187">P-Asserted-Identity of the user who placed the call.</span></span> <span data-ttu-id="bc595-188">P アサートされた Id (PAI) は、呼び出しを行ったユーザーの真の id を伝えるために使用されます。</span><span class="sxs-lookup"><span data-stu-id="bc595-188">The P-Asserted-Identity (PAI) is used to convey the true identity of the user who placed the call.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-185"><strong>CallerPAI</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-185"><strong>CallerPAI</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-186">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-186">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-187">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-187">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-188">P-アサート済み-通話を発信したユーザーの Id。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-188">P-Asserted-Identity of the user who placed the call.</span></span> <span data-ttu-id="4f5e0-189">P アサートされた Id (PAI) は、呼び出しを行ったユーザーの真の id を伝えるために使用されます。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-189">The P-Asserted-Identity (PAI) is used to convey the true identity of the user who placed the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-189"><strong>CalleeEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-189"><strong>CalleeEndpoint</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-190">int</span><span class="sxs-lookup"><span data-stu-id="bc595-190">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-191">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-191">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-192">通話を受信したエンドポイント。</span><span class="sxs-lookup"><span data-stu-id="bc595-192">Endpoint that received the call.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-190"><strong>CalleeEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-190"><strong>CalleeEndpoint</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-191">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-191">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-192">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-192">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-193">通話を受信したエンドポイント。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-193">Endpoint that received the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bc595-193"><strong>CalleeUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-193"><strong>CalleeUserAgent</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-194">int</span><span class="sxs-lookup"><span data-stu-id="bc595-194">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-195">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-195">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-196">通話を受信したユーザーによって使用されているユーザーエージェント。</span><span class="sxs-lookup"><span data-stu-id="bc595-196">User agent employed by the user who received the call.</span></span> <span data-ttu-id="bc595-197">ユーザーエージェントは、クライアントエンドポイントデバイスを表します。</span><span class="sxs-lookup"><span data-stu-id="bc595-197">User agents represent the client endpoint device.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-194"><strong>CalleeUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-194"><strong>CalleeUserAgent</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-195">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-195">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-196">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-196">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-197">通話を受信したユーザーによって使用されているユーザーエージェント。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-197">User agent employed by the user who received the call.</span></span> <span data-ttu-id="4f5e0-198">ユーザーエージェントは、クライアントエンドポイントデバイスを表します。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-198">User agents represent the client endpoint device.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bc595-198"><strong>CalleeUri</strong></span><span class="sxs-lookup"><span data-stu-id="bc595-198"><strong>CalleeUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="bc595-199">int</span><span class="sxs-lookup"><span data-stu-id="bc595-199">int</span></span></p></td>
-<td><p><span data-ttu-id="bc595-200">外部</span><span class="sxs-lookup"><span data-stu-id="bc595-200">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="bc595-201">通話を受信したユーザーの SIP URI。</span><span class="sxs-lookup"><span data-stu-id="bc595-201">SIP URI of the user who received the call.</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-199"><strong>CalleeUri</strong></span><span class="sxs-lookup"><span data-stu-id="4f5e0-199"><strong>CalleeUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-200">int</span><span class="sxs-lookup"><span data-stu-id="4f5e0-200">int</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-201">外部</span><span class="sxs-lookup"><span data-stu-id="4f5e0-201">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f5e0-202">通話を受信したユーザーの SIP URI。</span><span class="sxs-lookup"><span data-stu-id="4f5e0-202">SIP URI of the user who received the call.</span></span></p></td>
 </tr>
 </tbody>
 </table>
