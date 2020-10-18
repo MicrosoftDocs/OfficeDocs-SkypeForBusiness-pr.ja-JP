@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Lync Server サービスのテスト'
+description: 'Lync Server 2013: Lync Server サービスのテスト'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969644
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e74a24818094d7de0edc4627f987464df048315f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f04cf5e0c098c671b6fb126d4607f3cdba107712
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519014"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48575223"
 ---
 # <a name="testing-lync-server-services-in-lync-server-2013"></a>Lync server 2013 での Lync Server サービスのテスト
 

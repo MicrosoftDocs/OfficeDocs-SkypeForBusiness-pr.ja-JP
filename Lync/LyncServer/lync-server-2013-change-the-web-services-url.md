@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Web サービス URL の変更'
+description: 'Lync Server 2013: Web サービスの URL を変更します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9eb2922913ee95bad11273b2e943812850da4402
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 78a7a9b70d475aa952a43d215a8e5cd2068911e6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517820"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576353"
 ---
 # <a name="change-the-web-services-url-in-lync-server-2013"></a>Lync Server 2013 で Web サービスの URL を変更する
 
