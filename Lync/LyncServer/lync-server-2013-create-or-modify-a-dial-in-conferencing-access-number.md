@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: ダイヤルイン会議アクセス番号の作成または変更'
+description: 'Lync Server 2013: ダイヤルイン会議アクセス番号を作成または変更します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a19766eb4abf5a386155e5494accb1edd17afb14
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 187361ab839fe2f80fda7cb68285c8f36398f5a1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516884"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48577963"
 ---
-# <a name="create-or-modify-a-dial-in-conferencing-access-number-in-lync-server-2013"></a><span data-ttu-id="3d922-102">Lync Server 2013 でダイヤルイン会議アクセス番号を作成または変更する</span><span class="sxs-lookup"><span data-stu-id="3d922-102">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-dial-in-conferencing-access-number-in-lync-server-2013"></a><span data-ttu-id="ab513-103">Lync Server 2013 でダイヤルイン会議アクセス番号を作成または変更する</span><span class="sxs-lookup"><span data-stu-id="ab513-103">Create or modify a dial-in conferencing access number in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48516884"
 
 <span> </span>
 
-<span data-ttu-id="3d922-103">_**トピックの最終更新日:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="3d922-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="ab513-104">_**トピックの最終更新日:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="ab513-104">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="3d922-104">ダイヤルイン会議アクセス番号を作成または変更する場合は、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="3d922-104">Follow these steps if you want to create or modify a dial-in conferencing access number.</span></span>
+<span data-ttu-id="ab513-105">ダイヤルイン会議アクセス番号を作成または変更する場合は、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="ab513-105">Follow these steps if you want to create or modify a dial-in conferencing access number.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="3d922-105">新しいダイヤルインアクセス番号を作成する前に、新しいダイヤルインアクセス番号に関連付けられているダイヤルプランにダイヤルイン会議の地域を設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3d922-105">Before you create a new dial-in access number, you must set a dial-in conferencing region in the dial plan that is associated with the new dial-in access number.</span></span> <span data-ttu-id="3d922-106">複数のダイヤルプランで同じ地域を使用できます。</span><span class="sxs-lookup"><span data-stu-id="3d922-106">Multiple dial plans can use the same region.</span></span>
+> <span data-ttu-id="ab513-106">新しいダイヤルインアクセス番号を作成する前に、新しいダイヤルインアクセス番号に関連付けられているダイヤルプランにダイヤルイン会議の地域を設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ab513-106">Before you create a new dial-in access number, you must set a dial-in conferencing region in the dial plan that is associated with the new dial-in access number.</span></span> <span data-ttu-id="ab513-107">複数のダイヤルプランで同じ地域を使用できます。</span><span class="sxs-lookup"><span data-stu-id="ab513-107">Multiple dial plans can use the same region.</span></span>
 
 
 
@@ -53,115 +54,115 @@ ms.locfileid: "48516884"
 
 <div>
 
-## <a name="to-create-or-modify-a-dial-in-access-number"></a><span data-ttu-id="3d922-107">ダイヤルインアクセス番号を作成または変更するには</span><span class="sxs-lookup"><span data-stu-id="3d922-107">To create or modify a dial-in access number</span></span>
+## <a name="to-create-or-modify-a-dial-in-access-number"></a><span data-ttu-id="ab513-108">ダイヤルインアクセス番号を作成または変更するには</span><span class="sxs-lookup"><span data-stu-id="ab513-108">To create or modify a dial-in access number</span></span>
 
-1.  <span data-ttu-id="3d922-108">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="3d922-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="ab513-109">CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="ab513-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="3d922-109">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="3d922-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="3d922-110">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3d922-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="ab513-110">ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="ab513-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="ab513-111">Lync Server コントロールパネルの起動に使用できるさまざまな方法の詳細については、「 [Open Lync server 2013 管理ツール](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ab513-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="3d922-111">左側のナビゲーション バーで [**会議**] をクリックし、[**ダイヤルイン アクセス番号**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3d922-111">In the left navigation bar, click **Conferencing** and then click **Dial-in Access Number**.</span></span>
+3.  <span data-ttu-id="ab513-112">左側のナビゲーション バーで [**会議**] をクリックし、[**ダイヤルイン アクセス番号**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ab513-112">In the left navigation bar, click **Conferencing** and then click **Dial-in Access Number**.</span></span>
 
-4.  <span data-ttu-id="3d922-112">[ **ダイヤルインアクセス番号** ] ページで、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="3d922-112">On the **Dial-in Access Number** page, do one of the following:</span></span>
+4.  <span data-ttu-id="ab513-113">[ **ダイヤルインアクセス番号** ] ページで、次のいずれかの操作を行います。</span><span class="sxs-lookup"><span data-stu-id="ab513-113">On the **Dial-in Access Number** page, do one of the following:</span></span>
     
-      - <span data-ttu-id="3d922-113">[ **新規** ] をクリックして、 **新しいダイヤルインアクセス番号**を開きます。</span><span class="sxs-lookup"><span data-stu-id="3d922-113">Click **New** to open **New Dial-in Access Number**.</span></span>
+      - <span data-ttu-id="ab513-114">[ **新規** ] をクリックして、 **新しいダイヤルインアクセス番号**を開きます。</span><span class="sxs-lookup"><span data-stu-id="ab513-114">Click **New** to open **New Dial-in Access Number**.</span></span>
     
-      - <span data-ttu-id="3d922-114">一覧でダイヤルインアクセス番号のいずれかをクリックし、[ **編集**] をクリックしてから、[ **詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3d922-114">Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.</span></span>
+      - <span data-ttu-id="ab513-115">一覧でダイヤルインアクセス番号のいずれかをクリックし、[ **編集**] をクリックしてから、[ **詳細の表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ab513-115">Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="3d922-115">検索フィールドを使用して、ダイヤルインアクセス番号の一覧にある列の内容を検索しても、期待する結果が得られない場合があります。</span><span class="sxs-lookup"><span data-stu-id="3d922-115">Using the search field to search for the contents of a column in the list of dial-in access numbers may not yield the results you expect.</span></span> <span data-ttu-id="3d922-116">代わりに、目的の列でリストを並べ替えて、表示または変更するダイヤルインアクセス番号を識別します。</span><span class="sxs-lookup"><span data-stu-id="3d922-116">Instead, sort the list by the column of interest to identify the dial-in access number you want to view or change.</span></span>
+        > <span data-ttu-id="ab513-116">検索フィールドを使用して、ダイヤルインアクセス番号の一覧にある列の内容を検索しても、期待する結果が得られない場合があります。</span><span class="sxs-lookup"><span data-stu-id="ab513-116">Using the search field to search for the contents of a column in the list of dial-in access numbers may not yield the results you expect.</span></span> <span data-ttu-id="ab513-117">代わりに、目的の列でリストを並べ替えて、表示または変更するダイヤルインアクセス番号を識別します。</span><span class="sxs-lookup"><span data-stu-id="ab513-117">Instead, sort the list by the column of interest to identify the dial-in access number you want to view or change.</span></span>
 
         
         </div>
 
-5.  <span data-ttu-id="3d922-117">[ **表示番号**] に、公衆交換電話網 (PSTN) 電話ユーザーが会議に参加するためにダイヤルする電話番号を入力します。</span><span class="sxs-lookup"><span data-stu-id="3d922-117">In **Display number**, type the phone number that public switched telephone network (PSTN) phone users dial to join a conference.</span></span>
+5.  <span data-ttu-id="ab513-118">[ **表示番号**] に、公衆交換電話網 (PSTN) 電話ユーザーが会議に参加するためにダイヤルする電話番号を入力します。</span><span class="sxs-lookup"><span data-stu-id="ab513-118">In **Display number**, type the phone number that public switched telephone network (PSTN) phone users dial to join a conference.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3d922-118">この番号は、会議出席依頼とダイヤルイン会議の設定 web ページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="3d922-118">This number is displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
+    > <span data-ttu-id="ab513-119">この番号は、会議出席依頼とダイヤルイン会議の設定 web ページに表示されます。</span><span class="sxs-lookup"><span data-stu-id="ab513-119">This number is displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="3d922-119">[ **表示名**] に、ダイヤルインアクセス番号の説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="3d922-119">In **Display name**, type a description for the dial-in access number.</span></span> <span data-ttu-id="3d922-120">これは、Lync 検索結果のダイヤルインアクセス番号に関連付けられている名前です。</span><span class="sxs-lookup"><span data-stu-id="3d922-120">This is the name that is associated with the dial-in access number in Lync search results.</span></span>
+6.  <span data-ttu-id="ab513-120">[ **表示名**] に、ダイヤルインアクセス番号の説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="ab513-120">In **Display name**, type a description for the dial-in access number.</span></span> <span data-ttu-id="ab513-121">これは、Lync 検索結果のダイヤルインアクセス番号に関連付けられている名前です。</span><span class="sxs-lookup"><span data-stu-id="ab513-121">This is the name that is associated with the dial-in access number in Lync search results.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3d922-121">この名前は、ユーザーがアクセス番号を呼び出したときにクライアントに表示されます。</span><span class="sxs-lookup"><span data-stu-id="3d922-121">This name is displayed in the client when a user calls the access number.</span></span>
+    > <span data-ttu-id="ab513-122">この名前は、ユーザーがアクセス番号を呼び出したときにクライアントに表示されます。</span><span class="sxs-lookup"><span data-stu-id="ab513-122">This name is displayed in the client when a user calls the access number.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="3d922-122">[ **行 uri**] に、ダイヤルインアクセス番号の e.164 番号を、数字の前に + 記号を含め、スペースを除外して、TEL uri 形式で入力します。</span><span class="sxs-lookup"><span data-stu-id="3d922-122">In **Line URI**, type the E.164 number of the dial-in access number in TEL URI format, including the + symbol before the number and excluding spaces.</span></span> <span data-ttu-id="3d922-123">たとえば、tel: + 14255550200。</span><span class="sxs-lookup"><span data-stu-id="3d922-123">For example, tel:+14255550200.</span></span>
+7.  <span data-ttu-id="ab513-123">[ **行 uri**] に、ダイヤルインアクセス番号の e.164 番号を、数字の前に + 記号を含め、スペースを除外して、TEL uri 形式で入力します。</span><span class="sxs-lookup"><span data-stu-id="ab513-123">In **Line URI**, type the E.164 number of the dial-in access number in TEL URI format, including the + symbol before the number and excluding spaces.</span></span> <span data-ttu-id="ab513-124">たとえば、tel: + 14255550200。</span><span class="sxs-lookup"><span data-stu-id="ab513-124">For example, tel:+14255550200.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3d922-124">同じ回線 URI を、別のダイヤルイン会議アクセス番号で再利用することはできません。</span><span class="sxs-lookup"><span data-stu-id="3d922-124">The same Line URI cannot be reused by another dial-in conferencing access number.</span></span>
+    > <span data-ttu-id="ab513-125">同じ回線 URI を、別のダイヤルイン会議アクセス番号で再利用することはできません。</span><span class="sxs-lookup"><span data-stu-id="ab513-125">The same Line URI cannot be reused by another dial-in conferencing access number.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="3d922-125">[ **SIP URI**] で、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="3d922-125">In **SIP URI**, do the following:</span></span>
+8.  <span data-ttu-id="ab513-126">[ **SIP URI**] で、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="ab513-126">In **SIP URI**, do the following:</span></span>
     
-      - <span data-ttu-id="3d922-126">テキストボックスに、このダイヤルイン会議アクセス番号の一意の SIP URI を入力します。</span><span class="sxs-lookup"><span data-stu-id="3d922-126">In the text box, type a unique SIP URI for this dial-in conferencing access number.</span></span> <span data-ttu-id="3d922-127">この SIP URI はさまざまな場所に表示されますが、これに制限はありません。これには、Communicator クライアントの呼び出し通知メッセージと以前のバージョンが含まれています。</span><span class="sxs-lookup"><span data-stu-id="3d922-127">This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Communicator clients.</span></span>
+      - <span data-ttu-id="ab513-127">テキストボックスに、このダイヤルイン会議アクセス番号の一意の SIP URI を入力します。</span><span class="sxs-lookup"><span data-stu-id="ab513-127">In the text box, type a unique SIP URI for this dial-in conferencing access number.</span></span> <span data-ttu-id="ab513-128">この SIP URI はさまざまな場所に表示されますが、これに制限はありません。これには、Communicator クライアントの呼び出し通知メッセージと以前のバージョンが含まれています。</span><span class="sxs-lookup"><span data-stu-id="ab513-128">This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Communicator clients.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="3d922-128">同じ SIP URI を、別のダイヤルイン会議アクセス番号で再利用することはできません。</span><span class="sxs-lookup"><span data-stu-id="3d922-128">The same SIP URI cannot be reused by another dial-in conferencing access number.</span></span> <span data-ttu-id="3d922-129">アクセス番号の作成後は、SIP URI を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="3d922-129">The SIP URI cannot be modified after the access number is created.</span></span> <span data-ttu-id="3d922-130">SIP URI を変更する唯一の方法は、アクセス番号を削除して再作成することです。</span><span class="sxs-lookup"><span data-stu-id="3d922-130">The only way to change the SIP URI is to delete and recreate the access number.</span></span>
+        > <span data-ttu-id="ab513-129">同じ SIP URI を、別のダイヤルイン会議アクセス番号で再利用することはできません。</span><span class="sxs-lookup"><span data-stu-id="ab513-129">The same SIP URI cannot be reused by another dial-in conferencing access number.</span></span> <span data-ttu-id="ab513-130">アクセス番号の作成後は、SIP URI を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="ab513-130">The SIP URI cannot be modified after the access number is created.</span></span> <span data-ttu-id="ab513-131">SIP URI を変更する唯一の方法は、アクセス番号を削除して再作成することです。</span><span class="sxs-lookup"><span data-stu-id="ab513-131">The only way to change the SIP URI is to delete and recreate the access number.</span></span>
 
         
         </div>
     
-      - <span data-ttu-id="3d922-131">ドロップダウンリストボックスで、このダイヤルインアクセス番号をサポートする会議アテンダントアプリケーションのドメインをクリックします。</span><span class="sxs-lookup"><span data-stu-id="3d922-131">In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.</span></span>
+      - <span data-ttu-id="ab513-132">ドロップダウンリストボックスで、このダイヤルインアクセス番号をサポートする会議アテンダントアプリケーションのドメインをクリックします。</span><span class="sxs-lookup"><span data-stu-id="ab513-132">In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.</span></span>
 
-9.  <span data-ttu-id="3d922-132">[ **プール**] で、このダイヤルインアクセス番号をサポートする会議アテンダントのインスタンスを実行しているプールをクリックします。</span><span class="sxs-lookup"><span data-stu-id="3d922-132">In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.</span></span>
+9.  <span data-ttu-id="ab513-133">[ **プール**] で、このダイヤルインアクセス番号をサポートする会議アテンダントのインスタンスを実行しているプールをクリックします。</span><span class="sxs-lookup"><span data-stu-id="ab513-133">In **Pool**, click the pool that is running the instance of Conferencing Attendant that supports this dial-in access number.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3d922-133">アクセス番号の作成後にプールを変更する必要がある場合は、 <STRONG>Move-CsApplicationEndpoint</STRONG> コマンドレットを使用するか、またはアクセス番号を削除して再作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="3d922-133">If you need to change the pool after you create the access number, you must use the <STRONG>Move-CsApplicationEndpoint</STRONG> cmdlet or delete and recreate the access number.</span></span>
+    > <span data-ttu-id="ab513-134">アクセス番号の作成後にプールを変更する必要がある場合は、 <STRONG>Move-CsApplicationEndpoint</STRONG> コマンドレットを使用するか、またはアクセス番号を削除して再作成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ab513-134">If you need to change the pool after you create the access number, you must use the <STRONG>Move-CsApplicationEndpoint</STRONG> cmdlet or delete and recreate the access number.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="3d922-134">[ **第1言語**] で、このダイヤルインアクセス番号に対してプロンプトが再生される言語をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3d922-134">In **Primary language**, click the language in which prompts are played for this dial-in access number.</span></span>
+10. <span data-ttu-id="ab513-135">[ **第1言語**] で、このダイヤルインアクセス番号に対してプロンプトが再生される言語をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ab513-135">In **Primary language**, click the language in which prompts are played for this dial-in access number.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3d922-135">第1言語は、会議アテンダントが通話に応答するために使用する言語です。</span><span class="sxs-lookup"><span data-stu-id="3d922-135">The primary language is the language that the Conferencing Attendant uses to answer the call.</span></span> <span data-ttu-id="3d922-136">サポートされている言語は、[ダイヤルイン会議の設定] web ページに、各アクセス電話番号の横に表示されます。</span><span class="sxs-lookup"><span data-stu-id="3d922-136">Supported languages are displayed alongside each access phone number on the Dial-in Conferencing Settings webpage.</span></span>
+    > <span data-ttu-id="ab513-136">第1言語は、会議アテンダントが通話に応答するために使用する言語です。</span><span class="sxs-lookup"><span data-stu-id="ab513-136">The primary language is the language that the Conferencing Attendant uses to answer the call.</span></span> <span data-ttu-id="ab513-137">サポートされている言語は、[ダイヤルイン会議の設定] web ページに、各アクセス電話番号の横に表示されます。</span><span class="sxs-lookup"><span data-stu-id="ab513-137">Supported languages are displayed alongside each access phone number on the Dial-in Conferencing Settings webpage.</span></span>
 
     
     </div>
 
-11. <span data-ttu-id="3d922-137">オプション[ **2 番目の言語 (最大4つ)**] で、[ **追加**] をクリックして、このダイヤルインアクセス番号に対する発信者に対してサポートする1つまたは複数の追加の言語を選択し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3d922-137">(Optional) In **Secondary languages (maximum of four)**, click **Add**, select one or more additional languages that you want to support for callers to this dial-in access number, and then click **OK**.</span></span>
+11. <span data-ttu-id="ab513-138">オプション[ **2 番目の言語 (最大4つ)**] で、[ **追加**] をクリックして、このダイヤルインアクセス番号に対する発信者に対してサポートする1つまたは複数の追加の言語を選択し、[ **OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ab513-138">(Optional) In **Secondary languages (maximum of four)**, click **Add**, select one or more additional languages that you want to support for callers to this dial-in access number, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3d922-138">各ダイヤルインアクセス番号に対して最大4つの第2言語を選択できます。</span><span class="sxs-lookup"><span data-stu-id="3d922-138">You can choose up to four secondary languages for each dial-in access number.</span></span> <span data-ttu-id="3d922-139">ユーザーは、会議にダイヤルインするときに、会議 ID を入力する前に第2言語を選択できます。</span><span class="sxs-lookup"><span data-stu-id="3d922-139">Users can select a secondary language before entering the conference ID when they dial in to a conference.</span></span>
+    > <span data-ttu-id="ab513-139">各ダイヤルインアクセス番号に対して最大4つの第2言語を選択できます。</span><span class="sxs-lookup"><span data-stu-id="ab513-139">You can choose up to four secondary languages for each dial-in access number.</span></span> <span data-ttu-id="ab513-140">ユーザーは、会議にダイヤルインするときに、会議 ID を入力する前に第2言語を選択できます。</span><span class="sxs-lookup"><span data-stu-id="ab513-140">Users can select a secondary language before entering the conference ID when they dial in to a conference.</span></span>
 
     
     </div>
 
-12. <span data-ttu-id="3d922-140">ダイヤルインアクセス番号の地域を追加するには、[ **関連付けられている地域**] で [ **追加**] をクリックし、このダイヤルインアクセス番号のダイヤルプランに関連付けられている1つまたは複数の地域をクリックして、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3d922-140">To add a region for the dial-in access number, under **Associated regions**, click **Add**, click one or more regions that are associated with the dial plans for this dial-in access number, and then click **OK**.</span></span>
+12. <span data-ttu-id="ab513-141">ダイヤルインアクセス番号の地域を追加するには、[ **関連付けられている地域**] で [ **追加**] をクリックし、このダイヤルインアクセス番号のダイヤルプランに関連付けられている1つまたは複数の地域をクリックして、[ **OK]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ab513-141">To add a region for the dial-in access number, under **Associated regions**, click **Add**, click one or more regions that are associated with the dial plans for this dial-in access number, and then click **OK**.</span></span>
 
-13. <span data-ttu-id="3d922-141">ダイヤルインアクセス番号から地域を削除するには、[ **関連付けられている**地域] で削除する地域をクリックし、[ **削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3d922-141">To delete a region from the dial-in access number, under **Associated regions**, click the region you want to delete, and then click **Remove**.</span></span>
+13. <span data-ttu-id="ab513-142">ダイヤルインアクセス番号から地域を削除するには、[ **関連付けられている**地域] で削除する地域をクリックし、[ **削除**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ab513-142">To delete a region from the dial-in access number, under **Associated regions**, click the region you want to delete, and then click **Remove**.</span></span>
 
-14. <span data-ttu-id="3d922-142">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3d922-142">Click **Commit**.</span></span>
+14. <span data-ttu-id="ab513-143">[**確定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ab513-143">Click **Commit**.</span></span>
 
 </div>
 

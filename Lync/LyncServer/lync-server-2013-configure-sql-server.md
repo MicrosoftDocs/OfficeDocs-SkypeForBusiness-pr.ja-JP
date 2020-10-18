@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: SQL Server の構成'
+description: 'Lync Server 2013: SQL Server を構成します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184699
 ms.date: 01/22/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2bdac9841e908910697068460a6b7e42075e7e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2330dc4548e5157b7f29567551df4c89ee15998b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535114"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576713"
 ---
-# <a name="configure-sql-server-in-lync-server-2013"></a><span data-ttu-id="1e88a-102">Lync Server 2013 での SQL Server の構成</span><span class="sxs-lookup"><span data-stu-id="1e88a-102">Configure SQL Server in Lync Server 2013</span></span>
+# <a name="configure-sql-server-in-lync-server-2013"></a><span data-ttu-id="8bc8d-103">Lync Server 2013 での SQL Server の構成</span><span class="sxs-lookup"><span data-stu-id="8bc8d-103">Configure SQL Server in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48535114"
 
 <span> </span>
 
-<span data-ttu-id="1e88a-103">_**トピックの最終更新日:** 2015-01-22_</span><span class="sxs-lookup"><span data-stu-id="1e88a-103">_**Topic Last Modified:** 2015-01-22_</span></span>
+<span data-ttu-id="8bc8d-104">_**トピックの最終更新日:** 2015-01-22_</span><span class="sxs-lookup"><span data-stu-id="8bc8d-104">_**Topic Last Modified:** 2015-01-22_</span></span>
 
-<span data-ttu-id="1e88a-104">展開するデータベースごとに、データベースサーバーに併置できる Lync Server 2013 展開のすべてのデータベースに対して1つの SQL Server インスタンスを使用できます。</span><span class="sxs-lookup"><span data-stu-id="1e88a-104">For each database that you deploy, you can use a single SQL Server instance for all databases for your Lync Server 2013 deployment that can be collocated on a database server.</span></span> <span data-ttu-id="1e88a-105">データベースの併置の詳細については、「サポート」のドキュメントの「supported [server 併置 in Lync server 2013](lync-server-2013-supported-server-collocation.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e88a-105">For details about database collocation, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="8bc8d-105">展開するデータベースごとに、データベースサーバーに併置できる Lync Server 2013 展開のすべてのデータベースに対して1つの SQL Server インスタンスを使用できます。</span><span class="sxs-lookup"><span data-stu-id="8bc8d-105">For each database that you deploy, you can use a single SQL Server instance for all databases for your Lync Server 2013 deployment that can be collocated on a database server.</span></span> <span data-ttu-id="8bc8d-106">データベースの併置の詳細については、「サポート」のドキュメントの「supported [server 併置 in Lync server 2013](lync-server-2013-supported-server-collocation.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8bc8d-106">For details about database collocation, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
 
-<span data-ttu-id="1e88a-106">また、データベースをセットアップするトポロジビルダーの手順を完了する前に、または Windows PowerShell コマンドレットを使用してデータベースを手動で作成する前に、各 SQL Server インスタンスをインストールして使用できるようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="1e88a-106">Additionally, each SQL Server instance must be installed and available prior to completing the steps in Topology Builder that set up the databases, or manually creating the databases with Windows PowerShell cmdlets.</span></span> <span data-ttu-id="1e88a-107">SQL Server のサポートの詳細については、「 [Lync Server 2013 のハードウェアのセットアップ](lync-server-2013-hardware-setup.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="1e88a-107">For details about SQL Server supportability, see [Hardware setup for Lync Server 2013](lync-server-2013-hardware-setup.md).</span></span>
+<span data-ttu-id="8bc8d-107">また、データベースをセットアップするトポロジビルダーの手順を完了する前に、または Windows PowerShell コマンドレットを使用してデータベースを手動で作成する前に、各 SQL Server インスタンスをインストールして使用できるようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="8bc8d-107">Additionally, each SQL Server instance must be installed and available prior to completing the steps in Topology Builder that set up the databases, or manually creating the databases with Windows PowerShell cmdlets.</span></span> <span data-ttu-id="8bc8d-108">SQL Server のサポートの詳細については、「 [Lync Server 2013 のハードウェアのセットアップ](lync-server-2013-hardware-setup.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8bc8d-108">For details about SQL Server supportability, see [Hardware setup for Lync Server 2013](lync-server-2013-hardware-setup.md).</span></span>
 
 <div>
 
-## <a name="to-install-microsoft-sql-server-2012"></a><span data-ttu-id="1e88a-108">Microsoft SQL Server 2012 をインストールするには</span><span class="sxs-lookup"><span data-stu-id="1e88a-108">To install Microsoft SQL Server 2012</span></span>
+## <a name="to-install-microsoft-sql-server-2012"></a><span data-ttu-id="8bc8d-109">Microsoft SQL Server 2012 をインストールするには</span><span class="sxs-lookup"><span data-stu-id="8bc8d-109">To install Microsoft SQL Server 2012</span></span>
 
-  - <span data-ttu-id="1e88a-109">Microsoft SQL Server 2012 のドキュメントを参照して <https://technet.microsoft.com/library/bb500395(v=sql.110).aspx> ください。</span><span class="sxs-lookup"><span data-stu-id="1e88a-109">See the Microsoft SQL Server 2012 documentation at: <https://technet.microsoft.com/library/bb500395(v=sql.110).aspx>.</span></span>
+  - <span data-ttu-id="8bc8d-110">Microsoft SQL Server 2012 のドキュメントを参照して <https://technet.microsoft.com/library/bb500395(v=sql.110).aspx> ください。</span><span class="sxs-lookup"><span data-stu-id="8bc8d-110">See the Microsoft SQL Server 2012 documentation at: <https://technet.microsoft.com/library/bb500395(v=sql.110).aspx>.</span></span>
 
 </div>
 

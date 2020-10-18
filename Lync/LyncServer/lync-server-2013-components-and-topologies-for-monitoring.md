@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 監視用のコンポーネントとトポロジ'
+description: 'Lync Server 2013: 監視用のコンポーネントとトポロジ。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf9724089eeed36d48cbce8e1872078e3940beae
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8767a7eb16ca85e9606838606a6e86ee1296fc0e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502524"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48576843"
 ---
-# <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a><span data-ttu-id="6941b-102">Lync Server 2013 で監視するためのコンポーネントとトポロジ</span><span class="sxs-lookup"><span data-stu-id="6941b-102">Components and topologies for monitoring in Lync Server 2013</span></span>
+# <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a><span data-ttu-id="2f574-103">Lync Server 2013 で監視するためのコンポーネントとトポロジ</span><span class="sxs-lookup"><span data-stu-id="2f574-103">Components and topologies for monitoring in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,40 +38,40 @@ ms.locfileid: "48502524"
 
 <span> </span>
 
-<span data-ttu-id="6941b-103">_**トピックの最終更新日:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="6941b-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="2f574-104">_**トピックの最終更新日:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="2f574-104">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-<span data-ttu-id="6941b-104">ユニファイドデータ収集エージェントは各フロントエンドサーバーに自動的にインストールされ、アクティブ化されるため、監視サーバーとして動作するようにサーバーを構成する必要はありません。各フロントエンドサーバーは、既に監視サーバーとして機能します。</span><span class="sxs-lookup"><span data-stu-id="6941b-104">Because the unified data collection agents are automatically installed and activated on each Front End server you do not need to configure a server to act as the Monitoring server; each Front End server already functions as a Monitoring server.</span></span> <span data-ttu-id="6941b-105">ただし、監視データのバックエンドデータストアとして機能するデータベースをインストールして構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6941b-105">However, you will need to install and configure a database to act as the backend data store for your monitoring data.</span></span> <span data-ttu-id="6941b-106">Microsoft Lync Server 2013 では、監視用のバックエンドストアとして次のいずれかのデータベースを使用できます。</span><span class="sxs-lookup"><span data-stu-id="6941b-106">Microsoft Lync Server 2013 can use any of the following databases as the backend store for monitoring:</span></span>
+<span data-ttu-id="2f574-105">ユニファイドデータ収集エージェントは各フロントエンドサーバーに自動的にインストールされ、アクティブ化されるため、監視サーバーとして動作するようにサーバーを構成する必要はありません。各フロントエンドサーバーは、既に監視サーバーとして機能します。</span><span class="sxs-lookup"><span data-stu-id="2f574-105">Because the unified data collection agents are automatically installed and activated on each Front End server you do not need to configure a server to act as the Monitoring server; each Front End server already functions as a Monitoring server.</span></span> <span data-ttu-id="2f574-106">ただし、監視データのバックエンドデータストアとして機能するデータベースをインストールして構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2f574-106">However, you will need to install and configure a database to act as the backend data store for your monitoring data.</span></span> <span data-ttu-id="2f574-107">Microsoft Lync Server 2013 では、監視用のバックエンドストアとして次のいずれかのデータベースを使用できます。</span><span class="sxs-lookup"><span data-stu-id="2f574-107">Microsoft Lync Server 2013 can use any of the following databases as the backend store for monitoring:</span></span>
 
-  - <span data-ttu-id="6941b-107">Microsoft SQL Server 2008 R2 Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="6941b-107">Microsoft SQL Server 2008 R2 Enterprise Edition</span></span>
+  - <span data-ttu-id="2f574-108">Microsoft SQL Server 2008 R2 Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="2f574-108">Microsoft SQL Server 2008 R2 Enterprise Edition</span></span>
 
-  - <span data-ttu-id="6941b-108">Microsoft SQL Server 2008 R2 Standard Edition</span><span class="sxs-lookup"><span data-stu-id="6941b-108">Microsoft SQL Server 2008 R2 Standard Edition</span></span>
+  - <span data-ttu-id="2f574-109">Microsoft SQL Server 2008 R2 Standard Edition</span><span class="sxs-lookup"><span data-stu-id="2f574-109">Microsoft SQL Server 2008 R2 Standard Edition</span></span>
 
-  - <span data-ttu-id="6941b-109">Microsoft SQL Server 2012 Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="6941b-109">Microsoft SQL Server 2012 Enterprise Edition</span></span>
+  - <span data-ttu-id="2f574-110">Microsoft SQL Server 2012 Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="2f574-110">Microsoft SQL Server 2012 Enterprise Edition</span></span>
 
-  - <span data-ttu-id="6941b-110">Microsoft SQL Server 2012 Standard Edition</span><span class="sxs-lookup"><span data-stu-id="6941b-110">Microsoft SQL Server 2012 Standard Edition</span></span>
+  - <span data-ttu-id="2f574-111">Microsoft SQL Server 2012 Standard Edition</span><span class="sxs-lookup"><span data-stu-id="2f574-111">Microsoft SQL Server 2012 Standard Edition</span></span>
 
-<span data-ttu-id="6941b-111">これらのデータベースの64ビット版を使用する必要があることに注意してください。32ビットバージョンの SQL Server を監視用のバックエンドストアとして使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="6941b-111">Note that you must use the 64-bit editions of these databases; 32-bit versions of SQL Server cannot be used as the backend store for monitoring.</span></span> <span data-ttu-id="6941b-112">同様に、Lync Server 2013 では、SQL Server 2008 または SQL Server 2012 の Express Edition はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="6941b-112">Likewise, Lync Server 2013 does not support the Express Editions of SQL Server 2008 or SQL Server 2012.</span></span> <span data-ttu-id="6941b-113">Lync Server 2013 のデータベース要件の詳細については、「Lync server 2013 サポートガイド」の「 [Lync server 2013 のデータベースソフトウェアサポート](lync-server-2013-database-software-support.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6941b-113">For more information on database requirements for Lync Server 2013 see the topic [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md) in the Lync Server 2013 Supportability guide.</span></span>
+<span data-ttu-id="2f574-112">これらのデータベースの64ビット版を使用する必要があることに注意してください。32ビットバージョンの SQL Server を監視用のバックエンドストアとして使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="2f574-112">Note that you must use the 64-bit editions of these databases; 32-bit versions of SQL Server cannot be used as the backend store for monitoring.</span></span> <span data-ttu-id="2f574-113">同様に、Lync Server 2013 では、SQL Server 2008 または SQL Server 2012 の Express Edition はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="2f574-113">Likewise, Lync Server 2013 does not support the Express Editions of SQL Server 2008 or SQL Server 2012.</span></span> <span data-ttu-id="2f574-114">Lync Server 2013 のデータベース要件の詳細については、「Lync server 2013 サポートガイド」の「 [Lync server 2013 のデータベースソフトウェアサポート](lync-server-2013-database-software-support.md) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2f574-114">For more information on database requirements for Lync Server 2013 see the topic [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md) in the Lync Server 2013 Supportability guide.</span></span>
 
-<span data-ttu-id="6941b-114">監視を展開して構成する前に、SQL Server をインストールして構成しておく必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="6941b-114">Keep in mind that SQL Server must be installed and configured before you deploy and configure monitoring.</span></span> <span data-ttu-id="6941b-115">ただし、SQL Server 自体を展開する必要はありません。事前に監視データベースをセットアップする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="6941b-115">However, you only need to deploy SQL Server itself; you do not have to setup the monitoring databases in advance.</span></span> <span data-ttu-id="6941b-116">その代わりに、Lync Server トポロジを公開すると、これらのデータベースが自動的に作成されます。</span><span class="sxs-lookup"><span data-stu-id="6941b-116">Instead, those databases will automatically be created for you when you publish your Lync Server topology.</span></span>
+<span data-ttu-id="2f574-115">監視を展開して構成する前に、SQL Server をインストールして構成しておく必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="2f574-115">Keep in mind that SQL Server must be installed and configured before you deploy and configure monitoring.</span></span> <span data-ttu-id="2f574-116">ただし、SQL Server 自体を展開する必要はありません。事前に監視データベースをセットアップする必要はありません。</span><span class="sxs-lookup"><span data-stu-id="2f574-116">However, you only need to deploy SQL Server itself; you do not have to setup the monitoring databases in advance.</span></span> <span data-ttu-id="2f574-117">その代わりに、Lync Server トポロジを公開すると、これらのデータベースが自動的に作成されます。</span><span class="sxs-lookup"><span data-stu-id="2f574-117">Instead, those databases will automatically be created for you when you publish your Lync Server topology.</span></span>
 
-<span data-ttu-id="6941b-117">監視データは、SQL Server インスタンスを他の種類のデータと共有できます。</span><span class="sxs-lookup"><span data-stu-id="6941b-117">Monitoring data can share a SQL Server instance with other types of data.</span></span> <span data-ttu-id="6941b-118">通常、通話詳細記録データベース (LcsCdr) と Qquality of Experience データベース (QoEMetrics) は同じ SQL インスタンスを共有します。また、2つの監視データベースがアーカイブデータベース (LcsLog) と同じ SQL インスタンスに存在することもよくあります。</span><span class="sxs-lookup"><span data-stu-id="6941b-118">Typically, the call detail recording database (LcsCdr) and the Quality of Experience database (QoEMetrics) share the same SQL instance; it is also common for the two monitoring databases to be in the same SQL instance as the archiving database (LcsLog).</span></span> <span data-ttu-id="6941b-119">SQL Server インスタンスに関する実際の要件については、SQL Server のいずれか1つのインスタンスが以下のように制限されます。</span><span class="sxs-lookup"><span data-stu-id="6941b-119">About the only real requirement with SQL Server instances is that any one instance of SQL Server is limited to the following:</span></span>
+<span data-ttu-id="2f574-118">監視データは、SQL Server インスタンスを他の種類のデータと共有できます。</span><span class="sxs-lookup"><span data-stu-id="2f574-118">Monitoring data can share a SQL Server instance with other types of data.</span></span> <span data-ttu-id="2f574-119">通常、通話詳細記録データベース (LcsCdr) と Qquality of Experience データベース (QoEMetrics) は同じ SQL インスタンスを共有します。また、2つの監視データベースがアーカイブデータベース (LcsLog) と同じ SQL インスタンスに存在することもよくあります。</span><span class="sxs-lookup"><span data-stu-id="2f574-119">Typically, the call detail recording database (LcsCdr) and the Quality of Experience database (QoEMetrics) share the same SQL instance; it is also common for the two monitoring databases to be in the same SQL instance as the archiving database (LcsLog).</span></span> <span data-ttu-id="2f574-120">SQL Server インスタンスに関する実際の要件については、SQL Server のいずれか1つのインスタンスが以下のように制限されます。</span><span class="sxs-lookup"><span data-stu-id="2f574-120">About the only real requirement with SQL Server instances is that any one instance of SQL Server is limited to the following:</span></span>
 
-  - <span data-ttu-id="6941b-120">Lync Server 2013 バックエンドデータベースの1つのインスタンス。</span><span class="sxs-lookup"><span data-stu-id="6941b-120">One instance of the Lync Server 2013 backend database.</span></span> <span data-ttu-id="6941b-121">(一般的な規則として、監視データベースをバックエンドデータベースと同じ SQL インスタンスまたは同じコンピューター上に共存させることはお勧めできません。</span><span class="sxs-lookup"><span data-stu-id="6941b-121">(As a general rule, it is not recommended that your monitoring database be collocated in the same SQL instance, or even on the same computer, as the backend database.</span></span> <span data-ttu-id="6941b-122">技術的には可能ですが、バックエンドデータベースに必要な空きディスク領域を使用して監視データベースのリスクを実行します。</span><span class="sxs-lookup"><span data-stu-id="6941b-122">Although technically possible, you run the risk of the monitoring database using up disk space needed by the backend database.)</span></span>
+  - <span data-ttu-id="2f574-121">Lync Server 2013 バックエンドデータベースの1つのインスタンス。</span><span class="sxs-lookup"><span data-stu-id="2f574-121">One instance of the Lync Server 2013 backend database.</span></span> <span data-ttu-id="2f574-122">(一般的な規則として、監視データベースをバックエンドデータベースと同じ SQL インスタンスまたは同じコンピューター上に共存させることはお勧めできません。</span><span class="sxs-lookup"><span data-stu-id="2f574-122">(As a general rule, it is not recommended that your monitoring database be collocated in the same SQL instance, or even on the same computer, as the backend database.</span></span> <span data-ttu-id="2f574-123">技術的には可能ですが、バックエンドデータベースに必要な空きディスク領域を使用して監視データベースのリスクを実行します。</span><span class="sxs-lookup"><span data-stu-id="2f574-123">Although technically possible, you run the risk of the monitoring database using up disk space needed by the backend database.)</span></span>
 
-  - <span data-ttu-id="6941b-123">呼び出し詳細記録データベースの1つのインスタンス。</span><span class="sxs-lookup"><span data-stu-id="6941b-123">One instance of the call detail recording database.</span></span>
+  - <span data-ttu-id="2f574-124">呼び出し詳細記録データベースの1つのインスタンス。</span><span class="sxs-lookup"><span data-stu-id="2f574-124">One instance of the call detail recording database.</span></span>
 
-  - <span data-ttu-id="6941b-124">Qoe (Quality of Experience) データベースの1つのインスタンス。</span><span class="sxs-lookup"><span data-stu-id="6941b-124">One instance of the Quality of Experience database.</span></span>
+  - <span data-ttu-id="2f574-125">Qoe (Quality of Experience) データベースの1つのインスタンス。</span><span class="sxs-lookup"><span data-stu-id="2f574-125">One instance of the Quality of Experience database.</span></span>
 
-  - <span data-ttu-id="6941b-125">アーカイブデータベースの1つのインスタンス。</span><span class="sxs-lookup"><span data-stu-id="6941b-125">One instance of the archiving database.</span></span>
+  - <span data-ttu-id="2f574-126">アーカイブデータベースの1つのインスタンス。</span><span class="sxs-lookup"><span data-stu-id="2f574-126">One instance of the archiving database.</span></span>
 
-<span data-ttu-id="6941b-126">つまり、1つの SQL Server インスタンスに LcsCdr データベースのインスタンスを2つ持つことはできません。</span><span class="sxs-lookup"><span data-stu-id="6941b-126">In other words, you cannot have two instances of the LcsCdr database in the same instance of SQL Server.</span></span> <span data-ttu-id="6941b-127">LcsCdr データベースのインスタンスが複数必要な場合は、SQL Server の複数のインスタンスを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6941b-127">If you need multiple instances of the LcsCdr database then you will need to configure multiple instances of SQL Server.</span></span>
+<span data-ttu-id="2f574-127">つまり、1つの SQL Server インスタンスに LcsCdr データベースのインスタンスを2つ持つことはできません。</span><span class="sxs-lookup"><span data-stu-id="2f574-127">In other words, you cannot have two instances of the LcsCdr database in the same instance of SQL Server.</span></span> <span data-ttu-id="2f574-128">LcsCdr データベースのインスタンスが複数必要な場合は、SQL Server の複数のインスタンスを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2f574-128">If you need multiple instances of the LcsCdr database then you will need to configure multiple instances of SQL Server.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6941b-128">関連項目</span><span class="sxs-lookup"><span data-stu-id="6941b-128">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f574-129">関連項目</span><span class="sxs-lookup"><span data-stu-id="2f574-129">See Also</span></span>
 
 
-[<span data-ttu-id="6941b-129">Lync Server 2013 での監視の展開</span><span class="sxs-lookup"><span data-stu-id="6941b-129">Deploying monitoring in Lync Server 2013</span></span>](lync-server-2013-deploying-monitoring.md)  
+[<span data-ttu-id="2f574-130">Lync Server 2013 での監視の展開</span><span class="sxs-lookup"><span data-stu-id="2f574-130">Deploying monitoring in Lync Server 2013</span></span>](lync-server-2013-deploying-monitoring.md)  
   
 
 </div>

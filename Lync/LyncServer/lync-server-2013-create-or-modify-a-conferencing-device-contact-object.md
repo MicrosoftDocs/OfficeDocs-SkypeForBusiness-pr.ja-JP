@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: 会議デバイスの連絡先オブジェクトを作成または変更する'
+description: 'Lync Server 2013: 会議デバイスの連絡先オブジェクトを作成または変更します。'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ff0a3dbc50b48994752e48ea8889508f2376068
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 853ee1c7dfda2fda99431b8cc1a5210a51f39a4e
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48506174"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48578013"
 ---
-# <a name="create-or-modify-a-conferencing-device-contact-object-in-lync-server-2013"></a><span data-ttu-id="d4266-102">Lync Server 2013 で会議デバイスの連絡先オブジェクトを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="d4266-102">Create or modify a conferencing device Contact object in Lync Server 2013</span></span>
+# <a name="create-or-modify-a-conferencing-device-contact-object-in-lync-server-2013"></a><span data-ttu-id="49c53-103">Lync Server 2013 で会議デバイスの連絡先オブジェクトを作成または変更する</span><span class="sxs-lookup"><span data-stu-id="49c53-103">Create or modify a conferencing device Contact object in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48506174"
 
 <span> </span>
 
-<span data-ttu-id="d4266-103">_**トピックの最終更新日:** 2013-10-02_</span><span class="sxs-lookup"><span data-stu-id="d4266-103">_**Topic Last Modified:** 2013-10-02_</span></span>
+<span data-ttu-id="49c53-104">_**トピックの最終更新日:** 2013-10-02_</span><span class="sxs-lookup"><span data-stu-id="49c53-104">_**Topic Last Modified:** 2013-10-02_</span></span>
 
-<span data-ttu-id="d4266-104">会議室オブジェクトを作成するには、まず、デバイスを表す Active Directory ユーザーアカウントを作成します。</span><span class="sxs-lookup"><span data-stu-id="d4266-104">To create a conferencing room object, first create an Active Directory user account to represent the device.</span></span> <span data-ttu-id="d4266-105">その後、この **コマンドレットを使用して** 、そのアカウントを会議デバイスとして機能できるようにします。</span><span class="sxs-lookup"><span data-stu-id="d4266-105">Then, use the **Enable-CsMeetingRoom** cmdlet to enable that account to function as a conferencing device.</span></span> <span data-ttu-id="d4266-106">既存の会議デバイスのプロパティを変更する必要がある場合は、コマンドレットの **設定** を使用します。</span><span class="sxs-lookup"><span data-stu-id="d4266-106">If you need to change the properties of an existing conferencing device, use the **Set-CsMeetingRoom** cmdlet.</span></span>
+<span data-ttu-id="49c53-105">会議室オブジェクトを作成するには、まず、デバイスを表す Active Directory ユーザーアカウントを作成します。</span><span class="sxs-lookup"><span data-stu-id="49c53-105">To create a conferencing room object, first create an Active Directory user account to represent the device.</span></span> <span data-ttu-id="49c53-106">その後、この **コマンドレットを使用して** 、そのアカウントを会議デバイスとして機能できるようにします。</span><span class="sxs-lookup"><span data-stu-id="49c53-106">Then, use the **Enable-CsMeetingRoom** cmdlet to enable that account to function as a conferencing device.</span></span> <span data-ttu-id="49c53-107">既存の会議デバイスのプロパティを変更する必要がある場合は、コマンドレットの **設定** を使用します。</span><span class="sxs-lookup"><span data-stu-id="49c53-107">If you need to change the properties of an existing conferencing device, use the **Set-CsMeetingRoom** cmdlet.</span></span>
 
-<span data-ttu-id="d4266-107">これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="d4266-107">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+<span data-ttu-id="49c53-108">これらのコマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。</span><span class="sxs-lookup"><span data-stu-id="49c53-108">These cmdlets can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d4266-108">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。</span><span class="sxs-lookup"><span data-stu-id="d4266-108">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="49c53-109">リモートの Windows PowerShell を使用して Lync Server に接続する方法について詳しくは、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell (クイックスタート: リモート PowerShell を使用した Microsoft Lync Server 2010 の管理)」を<A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>で参照してください。</span><span class="sxs-lookup"><span data-stu-id="49c53-109">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="https://go.microsoft.com/fwlink/p/?linkid=255876">https://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -58,9 +59,9 @@ ms.locfileid: "48506174"
 
 <div>
 
-## <a name="creating-a-conferencing-device"></a><span data-ttu-id="d4266-109">会議デバイスの作成</span><span class="sxs-lookup"><span data-stu-id="d4266-109">Creating a Conferencing Device</span></span>
+## <a name="creating-a-conferencing-device"></a><span data-ttu-id="49c53-110">会議デバイスの作成</span><span class="sxs-lookup"><span data-stu-id="49c53-110">Creating a Conferencing Device</span></span>
 
-  - <span data-ttu-id="d4266-110">新しい会議デバイスを表す Active Directory ユーザーアカウントを作成した後、 **enable-csコンファレンスルーム** コマンドレットを使用して有効にします。</span><span class="sxs-lookup"><span data-stu-id="d4266-110">After you create the Active Directory user account that represents the new conferencing device, enable it by using the **Enable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="d4266-111">会議デバイス id、b) 会議室のアカウントが所属するレジストラープール、およびそのアカウントに割り当てる SIP アドレスは、必ず含めるようにしてください。</span><span class="sxs-lookup"><span data-stu-id="d4266-111">Be sure to include a) the conferencing device identity, b) the registrar pool where the room account will be homed, and c) the SIP address to be assigned to that account.</span></span> <span data-ttu-id="d4266-112">以下に例を示します。</span><span class="sxs-lookup"><span data-stu-id="d4266-112">For example:</span></span>
+  - <span data-ttu-id="49c53-111">新しい会議デバイスを表す Active Directory ユーザーアカウントを作成した後、 **enable-csコンファレンスルーム** コマンドレットを使用して有効にします。</span><span class="sxs-lookup"><span data-stu-id="49c53-111">After you create the Active Directory user account that represents the new conferencing device, enable it by using the **Enable-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="49c53-112">会議デバイス id、b) 会議室のアカウントが所属するレジストラープール、およびそのアカウントに割り当てる SIP アドレスは、必ず含めるようにしてください。</span><span class="sxs-lookup"><span data-stu-id="49c53-112">Be sure to include a) the conferencing device identity, b) the registrar pool where the room account will be homed, and c) the SIP address to be assigned to that account.</span></span> <span data-ttu-id="49c53-113">以下に例を示します。</span><span class="sxs-lookup"><span data-stu-id="49c53-113">For example:</span></span>
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -68,15 +69,15 @@ ms.locfileid: "48506174"
 
 <div>
 
-## <a name="modifying-a-conferencing-device"></a><span data-ttu-id="d4266-113">会議デバイスの変更</span><span class="sxs-lookup"><span data-stu-id="d4266-113">Modifying a Conferencing Device</span></span>
+## <a name="modifying-a-conferencing-device"></a><span data-ttu-id="49c53-114">会議デバイスの変更</span><span class="sxs-lookup"><span data-stu-id="49c53-114">Modifying a Conferencing Device</span></span>
 
-  - <span data-ttu-id="d4266-114">既存の会議デバイスのプロパティ値を変更するには、コマンドレットの **設定** を使用します。</span><span class="sxs-lookup"><span data-stu-id="d4266-114">To modify the property values of an existing conferencing device, use the **Set-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="d4266-115">たとえば、次のコマンドを実行すると、会議デバイスに関連付けられた電話番号 (LineUri) が更新されます。</span><span class="sxs-lookup"><span data-stu-id="d4266-115">For example, the following command updates the phone number (LineUri) associated with a conferencing device:</span></span>
+  - <span data-ttu-id="49c53-115">既存の会議デバイスのプロパティ値を変更するには、コマンドレットの **設定** を使用します。</span><span class="sxs-lookup"><span data-stu-id="49c53-115">To modify the property values of an existing conferencing device, use the **Set-CsMeetingRoom** cmdlet.</span></span> <span data-ttu-id="49c53-116">たとえば、次のコマンドを実行すると、会議デバイスに関連付けられた電話番号 (LineUri) が更新されます。</span><span class="sxs-lookup"><span data-stu-id="49c53-116">For example, the following command updates the phone number (LineUri) associated with a conferencing device:</span></span>
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
 </div>
 
-<span data-ttu-id="d4266-116">詳細については、を参照してください。[このコマンドレット](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom)[のヘルプ](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom)トピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="d4266-116">For details, see the Help topics for the [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) cmdlet and the [Set-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) cmdlet.</span></span>
+<span data-ttu-id="49c53-117">詳細については、を参照してください。[このコマンドレット](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom)[のヘルプ](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom)トピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="49c53-117">For details, see the Help topics for the [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) cmdlet and the [Set-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) cmdlet.</span></span>
 
 </div>
 
