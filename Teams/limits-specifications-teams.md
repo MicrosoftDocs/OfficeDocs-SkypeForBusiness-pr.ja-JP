@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: ae0583225de5eabfd6cad77895859f9c7159276f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508084"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -102,7 +102,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 チャネル名に次の文字や単語を含めることはできません。
 
-|||
+|種類|例|
 |---------|---------|
 |文字     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |この範囲内の文字    | 0 ~ 1F<br>80 ~ 9F        |
