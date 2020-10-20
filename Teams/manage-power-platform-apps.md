@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams 管理センターで Power Platform アプリへのアクセスを管理する方法について説明します。
-ms.openlocfilehash: 74bfabaff0ec7ed5f27c08ac86b325164d9dad10
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171453"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599552"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Power Platform アプリの管理
 
@@ -79,7 +79,14 @@ Power Apps と Power Virtual Agent で作成されたすべてのアプリへの
 
 :::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="共有の Power Apps がブロックされたカスタムアプリのアクセス許可ポリシーの例のスクリーンショット":::
 
-## <a name="related-topics"></a>関連項目
+### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>監査ログを使用して、Power Platform のインストールアクティビティを調査する
+
+Teams の監査ログを使用して、ユーザーが Teams の [アプリ] ページの [ **同僚によって作成** されたアプリ] セクションから Power Platform アプリをインストールしたイベントを調査できます。 これを行うには、特定のユーザーまたはユーザーのセットについて、**インストールされているアプリ**チームイベント ( **appinstalled**操作の下) の[監査ログを検索](https://docs.microsoft.com/microsoftteams/audit-log-events)します。 [**同僚が作成**したアプリ] セクションからインストールされているアプリを見つけるには、特定のレコードの詳細の**appTemplatedInstance**プロパティの下にある [ **TemplatedInstance** ] の値を探します。 
+
+> [!NOTE]
+> 簡単にフィルター処理できるように、CSV 形式で監査レコードをエクスポートすることができます。
+
+## <a name="related-topics"></a>関連トピック
 
 - [Power Apps で canvas アプリを共有する](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app)
 - [ボットを他のユーザーと共有する](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)

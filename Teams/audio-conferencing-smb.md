@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '会議へのコールインに電話を使用する必要があるユーザー向けに、中小規模企業で電話会議を設定する方法について説明します。 '
-ms.openlocfilehash: 13dd6812d6eaf51d2f88ac6d8831552cb63d5a9d
-ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
+ms.openlocfilehash: b692654a0a874ea0c07f074daefe203aef2f80bc
+ms.sourcegitcommit: 764605e226bc7d9cf45e9833c758d30da29132c1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "48389945"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48594648"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>中小規模企業向けの電話会議をセットアップする
 
@@ -86,7 +86,7 @@ ms.locfileid: "48389945"
 
 ## <a name="audio-conferencing-phone-numbers"></a>電話会議の電話番号
 
-電話会議ブリッジに使用できる番号には2種類あります。 **共有番号**(この記事で既に説明しています) または**専用の番号**を使用できます。 それぞれの詳細については、こちらを参照してください。
+電話会議ブリッジに使用できる番号には2種類あります。 **共有番号**(この記事の前半の「[電話会議の設定](#set-up-audio-conferencing)」のセクションの場合)、または**専用の番号**を使うことができます。 それぞれの詳細については、こちらを参照してください。
 
 ### <a name="shared-numbers"></a>共有番号
 
@@ -113,7 +113,7 @@ ms.locfileid: "48389945"
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ **ユーザー**] を選択し、ユーザーの表示名をクリックして、[ **編集**] を選択します。
 2. [電話会議] の横にある [ **編集**] を選択し、[電話会議] ウィンドウで、[有料電話番号] または [無料電話番号] の   一覧から番号を選択し、[ **Audio Conferencing** **Audio Conferencing**    **Toll number**    **Toll-free**   **適用**] を選択します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [電話会議](audio-conferencing-in-office-365.md)
 - [Teams の電話会議をセットアップする](set-up-audio-conferencing-in-teams.md)

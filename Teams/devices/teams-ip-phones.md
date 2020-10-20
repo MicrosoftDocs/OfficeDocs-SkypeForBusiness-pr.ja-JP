@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: 922ca79f5f3083dd57dc1bae6941a1d4dff0e2ad
-ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
+ms.openlocfilehash: b598e55ec130876b0b3ae8d52f1283fa596b2ebc
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "48552733"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599542"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -97,9 +97,9 @@ Microsoft Teams では、次のコラボレーションバーが認定されて�
 | AudioCodes の C448HD   | C450HD_TEAMS_1 7.9   | 更新 #6                |
 | AudioCodes の C450HD   | C450HD_TEAMS_1 7.9   | 更新 #6                |
 |Lenovo ThinkSmart View|CD-18781Y | 更新 #6                |
-| Poly CCX400         | 6.2.21.1198          | 更新 #5                |
-| Poly CCX500/CCX600  | 6.2.21.1198          | 更新 #5                |
-| Poly 3 つ C60       | 5.9.5.2686           | 更新 #5                |
+| Poly CCX400         | 6.2.22.0185          | 更新 #6                |
+| Poly CCX500/CCX600  | 6.2.22.0185          | 更新 #6                |
+| Poly 3 つ C60       | 5.9.5.2983           | 更新 #6                |
 | T55/T56/T58 | 58.15.0.116          | 更新 #6                |
 | Yealink MP56        | 122.15.0.23          | 更新 #6                |
 | Yealink VP59        | 91.15.0.48           | 更新 #6                |

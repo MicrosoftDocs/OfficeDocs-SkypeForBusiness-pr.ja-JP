@@ -15,11 +15,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: '概要: Skype for Business Server 代理トランザクションの監視ノードをインストールして構成します。'
 ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640949"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48599936"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>監視ノードのインストールと構成
  
@@ -27,13 +27,13 @@ ms.locfileid: "46640949"
   
 監視ノードは、Skype for Business Server 代理トランザクションを定期的に実行するコンピューターです。 代理トランザクションは Windows PowerShell コマンドレットで、サインインまたは exchange インスタントメッセージへのサインイン機能など、主要なユーザーシナリオが期待どおりに動作していることを確認します。 Skype for Business Server 2015 の場合、System Center Operations Manager は、次の表に示す代理トランザクションを実行できます。これには、次の3つの代理トランザクションの種類が含まれます。
   
-- **既定値**既定で監視ノードが実行する代理トランザクション。 新しい監視ノードを作成するときに、そのノードが実行する代理トランザクションを指定できます。 (これは、Set-cswatchernodeconfiguration コマンドレットで使用される Tests パラメーターの目的です。)監視ノードの作成時に Tests パラメーターを使用しない場合、既定の代理トランザクションがすべて自動的に実行され、既定以外の代理トランザクションは実行されません。 これは、たとえば、監視ノードが Test-CsAddressBookService テストを実行するように構成されていますが、テスト-CsExumConnectivity テストを実行するように構成されていないことを意味します。
+- **既定値** 既定で監視ノードが実行する代理トランザクション。 新しい監視ノードを作成するときに、そのノードが実行する代理トランザクションを指定できます。 (これは New-CsWatcherNodeConfiguration コマンドレットで使用される Tests パラメーターの目的です)。監視ノードの作成時に Tests パラメーターを使用しない場合、既定の代理トランザクションがすべて自動的に実行され、既定以外の代理トランザクションは実行されません。 これは、たとえば、監視ノードが Test-CsAddressBookService テストを実行するように構成されているが、Test-CsExumConnectivity テストを実行するように構成されていないことを意味します。
     
-- **既定以外**監視ノードが既定で実行されないことをテストします。 (詳細については、既定の種類の説明を参照してください)。ただし、監視ノードを有効にして、既定以外の代理トランザクションを実行することができます。 これは、監視ノードを作成するとき (Set-cswatchernodeconfiguration コマンドレットを使用して)、または監視ノードが作成された後の任意の時点で行うことができます。 既定以外の代理トランザクションでは、多くの場合、特別なセットアップ手順が必要になることに注意してください。 これらの手順の詳細については、「[代理トランザクションの特別なセットアップ手順](test-users-and-settings.md#special_synthetictrans)」を参照してください。
+- **既定以外** 監視ノードが既定で実行されないことをテストします。 (詳細については、既定の種類の説明を参照してください)。ただし、監視ノードを有効にして、既定以外の代理トランザクションを実行することができます。 これは、監視ノードを作成するとき (New-CsWatcherNodeConfiguration コマンドレットを使用して)、または監視ノードが作成された後でいつでも行うことができます。 既定以外の代理トランザクションでは、多くの場合、特別なセットアップ手順が必要になることに注意してください。 これらの手順の詳細については、「 [代理トランザクションの特別なセットアップ手順](test-users-and-settings.md#special_synthetictrans)」を参照してください。
     
-- **拡張**特別な種類の既定以外の代理トランザクション。 他の代理トランザクションとは異なり、拡張テストは、1 回のパスで複数回実行できます。 これは、プールに対する複数の公衆交換電話網 (PSTN) 音声ルートなどの動作を検証する場合に役立ちます。 これを構成するには、監視ノードに拡張テストの複数のインスタンスを追加するだけです。
+- **拡張** 特別な種類の既定以外の代理トランザクション。 他の代理トランザクションとは異なり、拡張テストは、1 回のパスで複数回実行できます。 これは、プールに対する複数の公衆交換電話網 (PSTN) 音声ルートなどの動作を検証する場合に役立ちます。 これを構成するには、監視ノードに拡張テストの複数のインスタンスを追加するだけです。
     
-他の代理トランザクションを監視ノードに追加するプロセスの詳細については、「[代理トランザクションを実行する監視ノードを構成する](watcher-nodes.md#enable_synthetic_trans)」を参照してください。 また、Skype for Business Server 管理シェルを使用して、監視ノードから代理トランザクションを削除することもできます。
+他の代理トランザクションを監視ノードに追加するプロセスの詳細については、「 [代理トランザクションを実行する監視ノードを構成する](watcher-nodes.md#enable_synthetic_trans)」を参照してください。 また、Skype for Business Server 管理シェルを使用して、監視ノードから代理トランザクションを削除することもできます。
   
 監視ノードで使用できる代理トランザクションは以下のとおりです。
   
@@ -41,26 +41,26 @@ ms.locfileid: "46640949"
 |:-----|:-----|
 |Test-CsAddressBookService (ABS)  <br/> |ユーザーが自分の連絡先リストに含まれていないユーザーを検索できることを確認します。  <br/> |
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |ユーザーが自分の連絡先リストに含まれていないユーザーを HTTP 経由で検索できることを確認します。  <br/> |
-|テスト-CsAVConference (AvConference)  <br/> |ユーザーが音声/ビデオ会議で作成と参加が可能なことを確認します。  <br/> |
-|テスト-CsGroupIM (IM 会議)  <br/> |ユーザーが会議中にインスタント メッセージを送信でき、3 人以上のユーザーとインスタント メッセージでの会話に参加できることを確認します。  <br/> |
-|テスト-CsIM (P2P IM)  <br/> |ユーザーがピアツーピア インスタント メッセージを送信できることを確認します。  <br/> |
-|Test-csp2pav (P2PAV)  <br/> |ユーザーがピアツーピア音声通話を開始できることを確認します (シグナリングのみ)。  <br/> |
+|Test-CsAVConference (AvConference)  <br/> |ユーザーが音声/ビデオ会議で作成と参加が可能なことを確認します。  <br/> |
+|Test-CsGroupIM (IM 会議)  <br/> |ユーザーが会議中にインスタント メッセージを送信でき、3 人以上のユーザーとインスタント メッセージでの会話に参加できることを確認します。  <br/> |
+|Test-CsIM (P2P IM)  <br/> |ユーザーがピアツーピア インスタント メッセージを送信できることを確認します。  <br/> |
+|Test-CsP2PAV (P2PAV)  <br/> |ユーザーがピアツーピア音声通話を開始できることを確認します (シグナリングのみ)。  <br/> |
 |Test-CsPresence (Presence)  <br/> |ユーザーが他のユーザーのプレゼンスを表示できることを確認します。  <br/> |
 |Test-CsRegistration (Registration)  <br/> |ユーザーが Skype for Business にサインインできることを確認します。  <br/> |
 |Test-CsPstnPeerToPeerCall (PSTN)  <br/> |ユーザーが企業の外部のユーザー (PSTN 番号) と通話できることを確認します。  <br/> |
-|テスト-CsASConference (Asコンファレンス)  <br/> |ユーザーがアプリケーション共有会議の作成と参加を行うことができることを確認します。  <br/> |
-|Test-csavedgeconnectivity (AVEdgeConnectivity)  <br/> |音声ビデオエッジサーバーがピアツーピア通話と電話会議のための接続を受け入れることができることを確認します。  <br/> |
-|Test-csdataconference (DataConference)  <br/> |ユーザーがデータコラボレーション会議 (ホワイトボードや投票などのアクティビティが含まれるオンライン会議) に参加できることを確認します。  <br/> |
-|テスト-Csダイヤルイン会議 (ダイヤルイン会議)  <br/> |ユーザーが会議に参加するために電話番号をダイヤルできることを確認します。  <br/> |
-|テスト-Csダイヤルイン会議 (ダイヤルイン会議)  <br/> |ユーザーが会議に参加するために電話番号をダイヤルできることを確認します。  <br/> |
-|テスト-CsExumConnectivity (ExumConnectivity)  <br/> |ユーザーが Exchange ユニファイドメッセージング (UM) に接続できることを確認します。  <br/> |
-|Test-CsGroupIM-TestJoinLauncher (Joinラウンチャー)  <br/> |ユーザーがスケジュールされた会議を作成し、(web アドレスリンクで) 参加できることを確認します。  <br/> |
-|Test-csmcxp2pim (MCXP2PIM)  <br/> |モバイル デバイス ユーザーがインスタント メッセージの登録と送信を実行できることを確認します。  <br/> |
-|CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |ビデオ相互運用サーバーが稼働しており、ビデオ SIP トランク経由の受信接続を処理できることを確認します。  <br/> **注:** 従来のモバイルクライアントに対する MCX サポートは、Skype for Business Server 2019 では利用できなくなりました。 |
-|Test-cspersistentchatmessage (PersistentChatMessage)  <br/> |ユーザーが常設チャットサービスを使用してメッセージを交換できることを確認します。  <br/> |
-|Test-csucwaconference (UcwaConference)  <br/> |ユーザーが web 経由で会議に参加できることを確認します。  <br/> |
-|Test-csunifiedcontactstore (UnifiedContactStore)  <br/> |統合連絡先ストアを通じてユーザーの連絡先にアクセスできることを確認します。 統合連絡先ストアを使用すると、ユーザーは、Skype for Business Server 2015、Outlook メッセージングおよびコラボレーションクライアント、または Outlook Web Access を使用してアクセスできる単一の連絡先セットを管理することができます。  <br/> |
-|テスト-CsXmppIM (XmppIM)  <br/> |拡張メッセージングとプレゼンスプロトコル (XMPP) ゲートウェイを介してインスタントメッセージを送信できることを確認します。  <br/> XMPP ゲートウェイおよびプロキシは、Skype for business Server 2015 で利用できますが、Skype for business Server 2019 ではサポートされなくなりました。  |
+|Test-CsASConference (ASConference)  <br/> |ユーザーがアプリケーション共有会議の作成と参加を行うことができることを確認します。  <br/> |
+|Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |音声ビデオエッジサーバーがピアツーピア通話と電話会議のための接続を受け入れることができることを確認します。  <br/> |
+|Test-CsDataConference (DataConference)  <br/> |ユーザーがデータコラボレーション会議 (ホワイトボードや投票などのアクティビティが含まれるオンライン会議) に参加できることを確認します。  <br/> |
+|Test-CsDialinConferencing (ダイヤルイン会議)  <br/> |ユーザーが会議に参加するために電話番号をダイヤルできることを確認します。  <br/> |
+|Test-CsDialinConferencing (ダイヤルイン会議)  <br/> |ユーザーが会議に参加するために電話番号をダイヤルできることを確認します。  <br/> |
+|Test-CsExumConnectivity (ExumConnectivity)  <br/> |ユーザーが Exchange ユニファイドメッセージング (UM) に接続できることを確認します。  <br/> |
+|Test-CsGroupIM-TestJoinLauncher (Joinランチャー)  <br/> |ユーザーがスケジュールされた会議を作成し、(web アドレスリンクで) 参加できることを確認します。  <br/> |
+|Test-CsMCXP2PIM (MCXP2PIM)  <br/> |モバイル デバイス ユーザーがインスタント メッセージの登録と送信を実行できることを確認します。  <br/> |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |ビデオ相互運用サーバーが稼働しており、ビデオ SIP トランク経由の受信接続を処理できることを確認します。  <br/> **注:** 従来のモバイルクライアントに対する MCX サポートは、Skype for Business Server 2019 では利用できなくなりました。 |
+|Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |ユーザーが常設チャットサービスを使用してメッセージを交換できることを確認します。  <br/> |
+|Test-CsUcwaConference (UcwaConference)  <br/> |ユーザーが web 経由で会議に参加できることを確認します。  <br/> |
+|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |統合連絡先ストアを通じてユーザーの連絡先にアクセスできることを確認します。 統合連絡先ストアを使用すると、ユーザーは、Skype for Business Server 2015、Outlook メッセージングおよびコラボレーションクライアント、または Outlook Web Access を使用してアクセスできる単一の連絡先セットを管理することができます。  <br/> |
+|Test-CsXmppIM (XmppIM)  <br/> |拡張メッセージングとプレゼンスプロトコル (XMPP) ゲートウェイを介してインスタントメッセージを送信できることを確認します。  <br/> XMPP ゲートウェイおよびプロキシは、Skype for business Server 2015 で利用できますが、Skype for business Server 2019 ではサポートされなくなりました。  |
 
 System Center Operations Manager を使用するために監視ノードをインストールする必要はありません。 これらのノードをインストールしていない場合でも、問題が発生したときに Skype for Business Server 2015 のコンポーネントからリアルタイムで通知を受け取ることができます。 (コンポーネントおよびユーザー管理パックでは、監視ノードは使用されません)。ただし、アクティブな監視管理パックを使用してエンドツーエンドのシナリオを監視する場合は、監視ノードが必要です。
   
@@ -80,7 +80,7 @@ Lync Server 2013 監視ノードはエンタープライズの内部または外
     
 - 企業内および境界ネットワークを介した Lync Server 2013 への接続。
     
-管理を容易にするために、エンタープライズの内部と外部で異なる認証オプションを使用できます。 詳細については、「[代理トランザクションを実行する監視ノードを構成する](watcher-nodes.md#enable_synthetic_trans)」を参照してください。
+管理を容易にするために、エンタープライズの内部と外部で異なる認証オプションを使用できます。 詳細については、「 [代理トランザクションを実行する監視ノードを構成する](watcher-nodes.md#enable_synthetic_trans)」を参照してください。
   
 監視ノードとして動作するようにコンピューターを構成するには、最初に以下の前提条件を満たす必要があります。 
   
@@ -102,7 +102,7 @@ Lync Server 2013 監視ノードはエンタープライズの内部または外
     
 3. Watchernode.msi の実行可能ファイルを実行します。
     
-4. 監視ノードによって使用されるテストユーザーアカウントを構成するには、 **set-cswatchernodeconfiguration**コマンドレットを使用します。
+4. 監視ノードによって使用されるテストユーザーアカウントを構成するには、 **set-cswatchernodeconfiguration** コマンドレットを使用します。
     
 ## <a name="install-the-skype-for-business-server-2015-core-files-and-the-rtclocal-database"></a>Skype for Business Server 2015 コアファイルおよび RTCLocal データベースをインストールする
 
@@ -112,7 +112,7 @@ Skype for Business Server 2015 コアファイルおよび RTCLocal データベ
   
 1. 監視ノード コンピューターで、[スタート] ボタン、[すべてのプログラム]、[アクセサリ] の順にクリックし、[コマンド プロンプト] を右クリックし、[管理者として実行] をクリックします。
     
-2. コンソールウィンドウで、次のコマンドを入力し、ENTER キーを押します。 Skype for Business Server のセットアップファイルへの適切なパスを入力してください。 D:\Setup.exe/BootstrapLocalMgmtTo コア Skype for Business Server コンポーネントが正常にインストールされたことを確認するには、[**スタート**]、[**すべてのプログラム**]、[ **skype for business server 2015**] の順にクリックし、[ **skype for business server 管理シェル**] をクリックします。 Skype for Business Server 管理シェルで、次の Windows PowerShell コマンドを入力して enter キーを押します。
+2. コンソールウィンドウで、次のコマンドを入力し、ENTER キーを押します。 Skype for Business Server のセットアップファイルへの適切なパスを入力してください。 D:\Setup.exe/BootstrapLocalMgmtTo コア Skype for Business Server コンポーネントが正常にインストールされたことを確認するには、[ **スタート**]、[ **すべてのプログラム**]、[ **skype for business server 2015**] の順にクリックし、[ **skype for business server 管理シェル**] をクリックします。 Skype for Business Server 管理シェルで、次の Windows PowerShell コマンドを入力して enter キーを押します。
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -123,7 +123,7 @@ Get-CsWatcherNodeConfiguration
   
 監視ノードコンピューターが境界ネットワーク内にある場合は、次のコマンドを実行して、Skype for Business Server 2015 のインストールを確認できます。
   
-CsPinPolicyYou は、組織で使用するように構成された PIN ポリシーの数に応じて、次のような情報を受け取ります。
+組織での使用が構成されている PIN ポリシーの数に応じて、Get-CsPinPolicyYou は次のような情報を受け取ります。
   
 Identity: Global
   
@@ -145,7 +145,7 @@ PIN ポリシーに関する情報が表示された場合は、コアコンポ�
 
 レポートコンポーネント通知の Skype for Business Server のセットアップと同様に、Skype for Business Server 2015 監視ノードで System Center Operations Manager エージェントファイルをインストールする必要があります。 これにより、代理トランザクションが実行され、警告が System Center Operations Manager のルート管理サーバーに報告されるようになります。
   
-エージェントファイルをインストールするには、「監視対象の[Skype For Business Server コンピューターを構成](configure-computers-to-monitor.md)する」に記載されている手順に従います。
+エージェントファイルをインストールするには、「監視対象の [Skype For Business Server コンピューターを構成](configure-computers-to-monitor.md)する」に記載されている手順に従います。
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>代理トランザクションを実行する監視ノードの構成
 <a name="enable_synthetic_trans"> </a>
@@ -182,13 +182,13 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
-信頼されたアプリケーションプールを作成したら、**次のよう**なコマンドを使用して、代理トランザクションを信頼されたアプリケーションとして実行するように監視ノードコンピューターを構成できます。
+信頼されたアプリケーションプールを作成したら、 **次のよう** なコマンドを使用して、代理トランザクションを信頼されたアプリケーションとして実行するように監視ノードコンピューターを構成できます。
   
 ```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
-このコマンドが完了し、信頼されたアプリケーションが作成されたら、 **Enable-CsTopology**コマンドレットを実行して、変更が有効になるようにする必要があります。
+このコマンドが完了し、信頼されたアプリケーションが作成されたら、 **Enable-CsTopology** コマンドレットを実行して、変更が有効になるようにする必要があります。
   
 ```PowerShell
 Enable-CsTopology
@@ -216,7 +216,7 @@ TrustedServer 認証を使用する各監視ノードには、Skype for Business
 > [!NOTE]
 > [実行] ボタンをが無効になっている場合は、[ローカル構成ストアのインストール] で [実行] を最初にクリックしなければならないことがあります。 
   
-以下のいずれかの手順を実行します。
+次のいずれかの操作を行います。
   
 - 既定の証明書として使用できる証明書が既にある場合は、証明書ウィザードで [既定] をクリックし、[割り当て] をクリックします。 証明書の割り当てウィザードの手順に従って、証明書を割り当てます。
     
@@ -254,7 +254,7 @@ TrustedServer モードは、境界ネットワーク内に存在するコンピ
 
 監視ノードコンピューターが境界ネットワークの外側にある場合は、次の手順に従って、代理トランザクションを実行するように監視ノードを構成する必要があります。特に、信頼されたアプリケーションプールまたは信頼されたアプリケーションを作成しないでください。 これは、次の2つのタスクを完了する必要があることを意味します。
   
-### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>RTC ローカルの読み取り専用の Administrators グループのメンバーシップを更新する
+### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>RTC Local Read-Only Administrators グループのメンバーシップを更新する
 
 監視ノードが境界ネットワークの外側にある場合は、監視ノードで次の手順を実行して、ネットワークサービスアカウントを監視ノードコンピューターの RTC Local 読み取り専用管理者グループに追加する必要があります。
   
