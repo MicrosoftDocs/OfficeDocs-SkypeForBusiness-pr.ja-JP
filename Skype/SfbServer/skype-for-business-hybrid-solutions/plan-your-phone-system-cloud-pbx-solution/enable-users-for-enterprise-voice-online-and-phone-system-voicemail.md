@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Skype for Business ユーザーの電話システム音声サービスを有効にする方法について説明します。
-ms.openlocfilehash: ed5e571976a032facc70b2e602d4b0ea7fd01afc
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 76fbc20b11c0ec91685479d768b88abf71b65d21
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359183"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625113"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>エンタープライズ VoIP オンラインおよび電話システムのボイスメールでユーザーを有効にする
  
@@ -41,14 +41,18 @@ Skype for Business ユーザーの電話システム音声サービスを有効�
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>ユーザーが電話システムの音声とボイスメールを有効にするには
 
-1. 開始する前に、Skype for Business Online Connector (Windows PowerShell モジュール) がフロントエンドサーバーに展開されていることを確認してください。 そうでない場合は、 [ダウンロードセンター](https://www.microsoft.com/download/details.aspx?id=39366)からダウンロードできます。 このモジュールの使用の詳細については [、「Skype For Business Online 管理用のコンピューターの構成](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)」を参照してください。
+> [!NOTE]
+> 現時点では、Skype for Business Online Connector は、最新の Teams PowerShell モジュールの一部です。
+> 最新の [Teams PowerShell 公開リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
+
+1. 開始する前に、Teams PowerShell モジュールがフロントエンドサーバーにインストールされていることを確認してください。 そうでない場合は、「 [Teams PowerShell モジュールのインストール](https://docs.microsoft.com/microsoftteams/teams-powershell-install)」の手順を使用してインストールしてください。
     
 2. 管理者として Windows PowerShell を開始します。
     
 3. 次のように入力し、enter キーを押します。
     
    ```powershell
-   Import-Module skypeonlineconnector
+   Import-Module MicrosoftTeams
    ```
 
 4. 次のように入力し、enter キーを押します。
@@ -75,13 +79,13 @@ Skype for Business ユーザーの電話システム音声サービスを有効�
 
     Skype for Business Server で PowerShell を実行している場合は、PowerShell を開いたときにローカルの Skype for Business コマンドレットが既に読み込まれています。 -AllowClobber パラメーターを指定して、オンラインコマンドレットが同じ名前でオンプレミスのコマンドレットを上書きできるようにする必要があります。
     
-8. 次のように、$EnterpriseVoiceEnabled コマンドレットを使用して、ユーザーに $HostedVoiceMail プロパティを割り当てます。
+8. Set-CsUser コマンドレットを使用して、$EnterpriseVoiceEnabled および $HostedVoiceMail プロパティを次のようにユーザーに割り当てます。
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    例:
+    次に例を示します。
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -172,7 +176,7 @@ Windows PowerShell と [get-csdialplan](https://docs.microsoft.com/powershell/mo
   
 ### <a name="to-unassign-a-per-user-voice-routing-policy"></a>ユーザー単位の音声ルーティングポリシーの割り当てを解除するには
 
-- Grant-csvoiceroutingpolicy を使用して、以前に Ken Myer に割り当てられたユーザーごとの音声ルーティングポリシーを割り当てを解除します。 ユーザー単位の音声ルーティングポリシーが割り当て解除されると、Ken Myer はグローバル音声ルーティングポリシーを使用して自動的に管理されます。
+- Grant-CsVoiceRoutingPolicy を使用して、以前 Ken Myer に割り当てられたユーザーごとの音声ルーティングポリシーを割り当て解除します。 ユーザー単位の音声ルーティングポリシーが割り当て解除されると、Ken Myer はグローバル音声ルーティングポリシーを使用して自動的に管理されます。
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null

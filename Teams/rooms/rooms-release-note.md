@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 7c8f81988525431615f83576f30b6ad809f08806
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361497"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625123"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -29,6 +29,7 @@ ms.locfileid: "48361497"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |2020/8/14 |
 |4.5.35.0 |07/23/2020 |
@@ -67,6 +68,11 @@ ms.locfileid: "48361497"
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
+
+### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
+
+この更新プログラムで導入されるもの:
+- Teams 会議でスクリーンキーボードを起動したときに表示される白い半画面の修正
 
 ### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
 

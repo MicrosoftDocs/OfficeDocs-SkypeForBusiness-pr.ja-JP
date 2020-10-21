@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: ヘッドセット、スピーカーフォン、web カメラ、モニターなどの USB 周辺機器とデバイスは、Microsoft Teams で認定されています。
-ms.openlocfilehash: 446518d9221cd9f484b47f3f098d95db3997dd3d
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 94cad46104cd3c9c225abeac673d9ad17130b801
+ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427692"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48625103"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams で認定された USB オーディオデバイスおよびビデオデバイス
 
@@ -74,10 +74,12 @@ Teams での通話コントロールのサポートについて詳しくは、�
 
 ## <a name="certified-devices"></a>認定済みデバイス
 
-*2020年8月更新された表*
+*2020年10月に更新された表*
 
 | [製造元]        | モデリング                                                     | 識別      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Microsoft Teams にアップグレードした Skype for Business      |
+|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |Jabra evolve                |80ヘッドセットの進化                                          |8/23/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |Jabra evolve                |40ヘッドセットの進化                                          |8/23/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |Jabra evolve                |30 II ヘッドセットの進化                                       |8/23/2020       |Microsoft Teams にアップグレードした Skype for Business      |
