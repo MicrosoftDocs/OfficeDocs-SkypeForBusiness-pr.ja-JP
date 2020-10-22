@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae0583225de5eabfd6cad77895859f9c7159276f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1b0d3e656ae8d102199e0dcb7ebd61a4d5d15c2f
+ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508084"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "48599472"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -35,7 +35,7 @@ ms.locfileid: "48508084"
 |-----------|---------------|
 |ユーザーが作成できるチームの数 | オブジェクト制限 250、&sup1;         |
 |ユーザーがメンバーの一員になることができるチームの数|1,000&sup2;|
-|チームのメンバーの数 | 10,000       |
+|チームのメンバーの数 | 10,000<sup>5</sup>     |
 |チーム 1 つあたりの所有者数 | 100   |
 |テナントで許可されている組織全体のチームの数 | 5     |
 |[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
@@ -44,17 +44,18 @@ ms.locfileid: "48508084"
 |チームごとのチャネル数    | 200 (削除されたチャネルを含む) &sup3;         |
 |チームごとのプライベート チャネル数    |30| (削除されたチャネルを含む) &sup3;
 |プライベート チャネルのメンバー数    |250 人|
-|チームに変換できる Office 365 グループのメンバーの最大数    |10,000|
+|チームに変換できる Office 365 グループのメンバーの最大数    |10,000<sup>5</sup>     |
 |チャネル会話の投稿サイズ | 投稿ごとに約 28 KB<sup>4</sup> |
 
 <sup>1</sup> Azure Active Directory のすべてのディレクトリ オブジェクトはこの制限にカウントされます。 グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
 
-<sup>2</sup> この制限には、アーカイブ済みのチームが含まれます。 最大数の上限を超える場合は、Microsoft サポートにお問い合わせください。
+<sup>2</sup> この制限には、アーカイブ済みのチームが含まれます。
 
 <sup>3</sup> 削除したチャネルは、30 日以内であれば復元できます。 この 30 日間、削除されたチャンネルはチームごとの制限である 200 チャンネルまたは30のプライベートチャンネルとしてカウントされ続けます。 30 日を経過すると、削除されたチャネルとそのコンテンツは完全に削除され、チャンネルはチームごとの制限内のチャンネルとしてカウントされなくなります。
 
 <sup>4</sup> 28 KBは、メッセージ自体 （テキスト、画像リンクなど）、@メンション、コネクタの数、およびリアクションを含むため、おおよその制限です。
 
+<sup>5</sup> GCC の チーム は 5,000 人のメンバーしか収容できず、GCCH / DoD のチームは 2,500 人のメンバーしか収容できません。
 ## <a name="messaging"></a>Messaging
 
 ### <a name="chat"></a>チャット
