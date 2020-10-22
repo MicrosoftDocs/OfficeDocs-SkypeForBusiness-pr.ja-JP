@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone システムのダイレクトルーティングを有効にする方法について説明します。
-ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5739797649c639e3259c6972da665ae0ced4b4bf
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814546"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655484"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする
 
@@ -91,7 +91,7 @@ Skype for business Online の展開 coexists が Skype for Business 2015 また�
 2. 次のコマンドを実行します。 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     
     たとえば、"Spencer Low" というユーザーの電話番号を追加するには、次のように入力します。 
@@ -99,9 +99,18 @@ Skype for business Online の展開 coexists が Skype for Business 2015 また�
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
+    ユーザー "Spencer Low" と "Stacy Quinn" が、固有の拡張子を持つ同じ基本番号を共有している場合は、次のように入力します。
+    
+    ```PowerShell
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-    使用される電話番号は、国コードを含む完全な電子電話番号として構成する必要があります。 
-
+    使用が推奨される電話番号は、国コードを含む完全な E.i 電話番号として構成することをお勧めしますが、必須ではありません。 基本番号に対する検索で複数の結果が返された場合に、ユーザーを検索するために使用される内線番号を使って電話番号を構成することができます。 これにより、会社は同じ基本番号と固有の内線番号で電話番号を構成できます。 検索を成功させるには、招待状に次のような内線番号が含まれている必要があります。
+    ```PowerShell
+    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    ```
+    
     > [!NOTE]
     > ユーザーの電話番号がオンプレミスで管理されている場合は、オンプレミスの Skype for Business 管理シェルまたはコントロールパネルを使用して、ユーザーの電話番号を構成します。 
 

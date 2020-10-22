@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbb03fc030361419e5f42b2e792e752f2007e6d2
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 026b7f238b059b4e310fa2216b482c68f2528780
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333493"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650980"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams のエクスポート Api を使用してコンテンツをエクスポートする
 
-Teams のエクスポート Api を使用すると、Microsoft Teams から1:1 およびグループチャットメッセージをエクスポートすることができます。 組織で Microsoft Teams のメッセージをエクスポートする必要がある場合は、Teams のエクスポート Api を使用してそれらを抽出できます。 *チャットメッセージ* は、 [チャネル](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) または [チャット](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)内の個々のチャットメッセージを表します。 チャットメッセージは、チャットメッセージの **replyToId** プロパティで定義されているルートチャットメッセージまたは返信スレッドの一部にすることができます。
+Teams のエクスポート Api を使用すると、Microsoft Teams から1:1 およびグループチャットメッセージをエクスポートすることができます。 組織で Microsoft Teams のメッセージをエクスポートする必要がある場合は、Teams のエクスポート Api を使用してそれらを抽出することができます。 *チャットメッセージ* は、 [チャネル](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) または [チャット](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)内の個々のチャットメッセージを表します。 チャットメッセージは、チャットメッセージの **replyToId** プロパティで定義されているルートチャットメッセージまたは返信スレッドの一部にすることができます。
 
 これらのエクスポート Api の使用方法については、次の例をご覧ください。
 

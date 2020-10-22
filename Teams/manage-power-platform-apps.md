@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams 管理センターで Power Platform アプリへのアクセスを管理する方法について説明します。
-ms.openlocfilehash: a380a7d8803fc32393f5c99c576cb304e563c296
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: 687d8df929150cdc38795a13ba06687ed7e42b2b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599552"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650960"
 ---
 # <a name="manage-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Power Platform アプリの管理
 
@@ -32,7 +32,7 @@ ms.locfileid: "48599552"
 
 [Power Apps](https://powerapps.microsoft.com) は、組織内の開発者が、ビジネスデータに接続するカスタムアプリを構築するために使用できる低コード/コードなしのアプリケーション開発環境です。 [Power Virtual agent](https://docs.microsoft.com/power-virtual-agents/fundamentals-what-is-power-virtual-agents) は、開発者が強力なボットを作成するためのコードなしボット構築環境です。 Power Platform アプリを Teams に統合することで、組織はビジネスプロセスを合理化し、変化するビジネスニーズに迅速に対応してコラボレーションを強化し、ユーザー設定のソリューションを作成および共有して生産性を高めることができます。  
 
-組織内のメーカーによって作成された Power Platform アプリは、Teams に自動的に追加されます。 メーカーは、 [Power Apps の共有機能](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) と、 [power Virtual agent の共有機能](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)を使用して、アプリにアクセスできるユーザーを制御できます。 
+組織内のメーカーによって作成された Power Platform アプリは、Teams に自動的に追加されます。 メーカーは、 [Power Apps の共有機能](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) と、 [power Virtual agent の共有機能](https://docs.microsoft.com/power-virtual-agents/admin-share-bots)を使用して、アプリにアクセスできるユーザーを制御できます。
 
 Power Platform アプリを作成または共有すると、ユーザーは、同僚によって作成された***組織名に合わせ*** て [アプリ] ページで表示およびインストールすることができ  >  **Built by your colleagues**ます。 アプリを作成または共有した後で、アプリがここに表示されるまでに数分かかることがあります。
 
@@ -77,11 +77,13 @@ Power Apps と Power Virtual Agent で作成されたすべてのアプリへの
 
 たとえば、特定のユーザーが Power Apps で作成されたアプリにアクセスするのをブロックするには、共有された **Power apps**をブロックするカスタムアプリのアクセス許可ポリシーを作成し、そのユーザーにポリシーを割り当てます。
 
-:::image type="content" source="media/manage-power-platform-apps-app-permissions-policy.png" alt-text="共有の Power Apps がブロックされたカスタムアプリのアクセス許可ポリシーの例のスクリーンショット":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="共有の Power Apps がブロックされたカスタムアプリのアクセス許可ポリシーの例のスクリーンショット":::
 
 ### <a name="use-audit-logs-to-investigate-power-platform-installation-activity"></a>監査ログを使用して、Power Platform のインストールアクティビティを調査する
 
-Teams の監査ログを使用して、ユーザーが Teams の [アプリ] ページの [ **同僚によって作成** されたアプリ] セクションから Power Platform アプリをインストールしたイベントを調査できます。 これを行うには、特定のユーザーまたはユーザーのセットについて、**インストールされているアプリ**チームイベント ( **appinstalled**操作の下) の[監査ログを検索](https://docs.microsoft.com/microsoftteams/audit-log-events)します。 [**同僚が作成**したアプリ] セクションからインストールされているアプリを見つけるには、特定のレコードの詳細の**appTemplatedInstance**プロパティの下にある [ **TemplatedInstance** ] の値を探します。 
+Teams の監査ログを使用して、ユーザーが Teams の [アプリ] ページの [ **同僚によって作成** されたアプリ] セクションから Power Platform アプリをインストールしたイベントを調査できます。 これを行うには、ユーザーまたはユーザーのセットに対し**て、インストールされているアプリ**チームイベント ( **appinstalled**操作の下) の[監査ログを検索](https://docs.microsoft.com/microsoftteams/audit-log-events)します。 **同僚によっ**てインストールされたアプリを見つけるには、特定のレコードの詳細にある**app荷 Mode**プロパティの**TemplatedInstance**値を探します。 
+
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="App荷 Mode プロパティの TemplatedInstance 値のスクリーンショット":::
 
 > [!NOTE]
 > 簡単にフィルター処理できるように、CSV 形式で監査レコードをエクスポートすることができます。

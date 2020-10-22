@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35c020d981fba9827f10753a04b9b5629a9939df
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: ae03611a684f7f596c185873585c844e30d4330b
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177207"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650880"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -49,8 +49,8 @@ Exchange Online 専用 (レガシ) でホストされているユーザーは、
 |---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
 | **Exchange Online**                                                 | ○ <sup>1</sup> | ○ <sup>1</sup>   | はい        | はい                   | はい                               | ○ (<sup>7</sup> )             | はい          | はい             | はい <sup>6</sup>        | はい        | はい                          | はい                    | はい                    |
 | **Exchange Online 専用 vNext**                                 | ○ <sup>1</sup> | ○ <sup>1</sup>   | はい        | はい                   | はい                               | ○ (<sup>7</sup> )             | はい          | はい             | はい <sup>6</sup>        | はい        | はい                          | はい                    | はい                    |
-| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要)  | ○ <sup>1</sup> | はい <sup>1、2</sup> | はい <sup> 3 | はい                   | いいえ                                | いいえ                          | はい          | はい             | いいえ                      | はい <sup>4 | はい <sup>5                   | はい                    | はい                    |
-| **Exchange on-premises** (Azure AD との同期) | ○ <sup>1</sup> | ○ <sup>1</sup>   | はい <sup>3</sup> | はい                   | ○ ( <sup>8</sup> )         | いいえ                          | はい          | はい             | いいえ                      | はい <sup>4 | はい <sup>5                   | はい                    | はい                    |
+| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要)  | ○ <sup>1</sup> | はい <sup>1、2</sup> | はい <sup>3</sup> | はい                   | いいえ                                | いいえ                          | はい          | はい             | いいえ                      | はい <sup>4</sup> | ○ ( <sup>5</sup> )                   | はい                    | はい                    |
+| **Exchange on-premises** (Azure AD との同期) | ○ <sup>1</sup> | ○ <sup>1</sup>   | はい <sup>3</sup> | はい                   | ○ ( <sup>8</sup> )         | いいえ                          | はい          | はい             | いいえ                      | はい <sup>4</sup> | ○ ( <sup>5</sup> )                   | はい                    | はい                    |
 
 チャネルメッセージのコンプライアンスのため<sup>の電子情報</sup>開示と法的保持は、すべてのホスティングオプションでサポートされています。
 
@@ -80,8 +80,8 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 
 - Microsoft Teams で teams を作成するには、Microsoft 365 グループの作成のためにユーザーを有効にする必要があります。
 
-> [!IMPORTANT]
-> ユーザーを **[Teams のみ]** モードにした後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなる場合があります。 プレゼンスは Teams では正常に機能します。 この問題を解決するには、Microsoft Teams の右上隅にあるプロフィール画像を選択し、**[設定]** を選択します。 **[アプリケーション]** の下にある **[一般]** タブの、**[Teams を Office 用のチャット アプリとして登録します (Office アプリケーションを再起動する必要があります)]** を選択します。 このオプションを選択したら、Outlook を含むすべての Office アプリを閉じて、もう一度開きます。 Outlook を開くと、プレゼンス情報が表示されます。
+  > [!IMPORTANT]
+  > ユーザーを **[Teams のみ]** モードにした後に Skype for Business クライアントをアンインストールすると、Outlook および Office アプリでプレゼンスが機能しなくなる場合があります。 プレゼンスは Teams では正常に機能します。 この問題を解決するには、Microsoft Teams の右上隅にあるプロフィール画像を選択し、**[設定]** を選択します。 **[アプリケーション]** の下にある **[一般]** タブの、**[Teams を Office 用のチャット アプリとして登録します (Office アプリケーションを再起動する必要があります)]** を選択します。 このオプションを選択したら、Outlook を含むすべての Office アプリを閉じて、もう一度開きます。 Outlook を開くと、プレゼンス情報が表示されます。
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>オンプレミスでホストされているメールボックスの会議を作成して表示するための要件
 
@@ -97,19 +97,19 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 
 - OAuth 認証は、完全なハイブリッド構成 (クラシックまたはモダン) を実行している Exchange ハイブリッド構成ウィザードで可能であることが推奨されます。 ハイブリッド構成ウィザードを使用できない場合は、「 [exchange と Exchange Online 組織の間での oauth 認証の構成](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)」の説明に従って oauth を構成します。
 
- > [!NOTE]
- > Exchange は EvoSTS と呼ばれる Teams サービスからの OAuth トークンを信頼します。 手順1で十分ですが、EvoSTS だけです。ACS は、予定表の空き時間情報を参照するために使用されます。
+  > [!NOTE]
+  > Exchange は EvoSTS と呼ばれる Teams サービスからの OAuth トークンを信頼します。 手順1で十分ですが、EvoSTS だけです。ACS は、予定表の空き時間情報を参照するために使用されます。
 
 - Azure AD Connect の Exchange ハイブリッド展開機能のチェックボックスが設定されています。
 
-- Mac 用のカレンダーアプリサポートと Teams Outlook アドインでは、exchange Web サービスの Url が、Exchange サービスプリンシパルのテナント Azure AD の Spn として構成されている必要があります。 この手順は、ハイブリッド構成ウィザードまたは [ハイブリッド先進認証の手動の手順](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)に従って行います。
+- 予定表アプリのサポートと Teams Outlook Add-In for Mac の場合、exchange Web サービスの Url は、Exchange サービスプリンシパルのテナント Azure AD の Spn として構成されている必要があります。 この手順は、ハイブリッド構成ウィザードまたは [ハイブリッド先進認証の手動の手順](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)に従って行います。
 
 次のユーザーに対して予定表の委任を有効にするには:
 
 - また、「 [Skype For Business Online と Exchange Server の間の統合と OAuth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明する手順2-3 を実行する必要があります。これらの手順では、チームのスケジュールアプリケーションに委任権限を確認するために必要な権限が与えられます。
  
- > [!NOTE]
- > 手順2には、委任に必要ないアーカイブアプリケーションの役割の割り当てが含まれています。
+  > [!NOTE]
+  > 手順2には、委任に必要ないアーカイブアプリケーションの役割の割り当てが含まれています。
 
 - 他のユーザーの代わりに会議をスケジュールする場合の、Outlook 用の Teams のスケジュール設定 Exchange 2013 CU19 以降が必要です。 これは、サービスによるメールボックスの認証されていない検出をサポートし、委任者メールボックスに対する代理人のアクセス許可を確認することです。 代理人と委任者の場所は Exchange 2013 以降、または Exchange online ですが、自動検出は Exchange 2013 CU19 以降に解決する必要があります。
 
@@ -119,7 +119,7 @@ Microsoft Teams は、さまざまな Microsoft 365 および Office 365 サー�
 
 - Microsoft Teams では、電子情報開示、コンテンツ検索、アーカイブ、訴訟ホールドのようなセキュリティおよびコンプライアンスの機能は Exchange Online と SharePoint Online の環境で最適に動作します。チャネルの会話の場合、メッセージは Exchange Online 内のグループ メールボックスにジャーナリングされます。これらのメッセージは電子情報開示で利用できます。SharePoint Online と OneDrive for Business (職場または学校のアカウントを使用) が組織全体とユーザーに対して有効な場合は、これらのコンプライアンス機能も Teams 内のすべてのファイルに対して利用できます。
 
-- 条件付きアクセスを使用して、Teams や Exchange のコンプライアンス ポリシーの構成を制御および保護します。 詳細については、「[Teams に条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください .
+- 条件付きアクセスを使用して、Teams や Exchange のコンプライアンス ポリシーの構成を制御および保護します。 詳細については、「[Teams に条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください
 
 - すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。 詳細については、「 [プライベート会議のスケジュールを設定する](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings)」を参照してください。
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 993cabc7139edeb971f60f1cdf44428fb4083db9
+ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424717"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48655514"
 ---
 # <a name="use-teams-government-templates-in-the-admin-center"></a>管理センターで Teams government テンプレートを使用する
 
@@ -44,7 +44,7 @@ Teams テンプレートには、行政機関のニーズに合わせて設計�
 
 緊急管理またはインシデント対応チームのコミュニケーションと重要なリソースを一元管理します。 このチームでは、さまざまな種類のファイルを用意して、すべてのドキュメントの一元的な場所を作成することができます。 オンライン会議を使って、情報フローと状況に関する認識を向上させます。
 
-| ベーステンプレートの種類 | | この基本テンプレートに含まれるプロパティ |
-| ------------------|-- |----------------------------------------------------- |
+| ベーステンプレートの種類 |baseTemplateId | この基本テンプレートに含まれるプロパティ |
+|-------------------|-------|---------------------------------------------------------------------------|
 |インシデント応答の調整|`com.microsoft.teams.template.CoordinateIncidentResponse` |チャネル <ul><li>一般<li>お知らせ</li><li>物流</li><li>計画</li><li>Recovery</li><li>度</li></ul> アプリ <ul><li>ウィキ</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>プランナー</li></ul>|
 ||||

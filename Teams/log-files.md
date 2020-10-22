@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
+ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766761"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "48650830"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -90,11 +90,11 @@ Microsoft サポートでサポート リクエストを作成する際、サポ
 <a name="media-logs"></a>メディア ログ
 ---------------------------
 
-メディアログには、Teams 会議でのオーディオ、ビデオ、画面共有に関する診断データが含まれています。 サポートケースは、要求された場合にのみ必要です。また、Microsoft によってのみ検査できます。 
+メディアログには、Teams 会議でのオーディオ、ビデオ、画面共有に関する診断データが含まれています。 これは、通話関連の問題にリンクされているサポートケースに必要です。
 
-メディアログは既定で無効になっています。 Teams 会議の診断データをログに記録するには、ユーザーは Teams クライアントでオプションをオンにする必要があります。 [**設定**全般] に移動し、[  >  **General****会議の診断のためのログを有効にする (チームの再起動が必要**)] チェックボックスをオンにして、teams を再起動します。
+メディアログは既定で無効になっています。 Teams 会議の診断データをログに記録するには、ユーザーは Teams クライアントでオプションをオンにする必要があります。 [**設定**全般] に移動し、[  >  **General****会議の診断のためのログを有効にする (チームの再起動が必要**)] チェックボックスをオンにして、チームを再起動し、問題を再現します。 
 
-次の表に、ログの場所の概要を示します。
+次の表に、メディアログの場所の概要を示します。 ログファイルを Microsoft サポートに送信する場合は、ログファイルのタイムスタンプを確認して、問題を再現したときにログがその期間に対応していることを確認してください。
 
 |クライアント |場所 |
 |---------|---------|
@@ -143,4 +143,3 @@ Mac OsX:
 ## <a name="related-topics"></a>関連トピック
 
 [Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
-
