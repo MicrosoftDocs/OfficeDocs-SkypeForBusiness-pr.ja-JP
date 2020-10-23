@@ -20,33 +20,36 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: 80d0edfc5ba192f86d64d45d34116b55d43a5a25
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b06139d3614335505c7f8682700aa3d7d6fb5df8
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010900"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739195"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Skype for Business Online でプレゼンスを設定する
+
+> [!IMPORTANT]
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
 
 既定では、Skype for Business を使用して組織内のいずれかのユーザーと通信できるユーザーは誰でも、そのユーザーがオンラインかどうかを確認することができます。 Skype for Business では、ユーザーがオンライン、会議、オフライン、または別のインジケーターであるかどうかが表示されます。
 
 ![Skype for Business でのユーザーのオンライン状態の例。](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-組織内のすべてのユーザーの**[管理者](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** として、Skype for business でオンラインプレゼンスを表示できるユーザーを選ぶことができます。
+組織内のすべてのユーザーの **[管理者](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** として、Skype for business でオンラインプレゼンスを表示できるユーザーを選ぶことができます。
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-1. 管理センター >**管理センター** > **Skype for business**に移動します。
+1. 管理センター >**管理センター**  >  **Skype for business**に移動します。
 
 2. **Skype For business 管理センター**で、[**組織**] を選びます。
 
-3. [**プレゼンスプライバシーモード**] で、次の設定のいずれかを選択し、[**保存**] を選択します。
+3. [ **プレゼンスプライバシーモード**] で、次の設定のいずれかを選択し、[ **保存**] を選択します。
 
-|**]**|**ユーザーのプレゼンスを表示できるユーザー**|
+|**設定**|**ユーザーのプレゼンスを表示できるユーザー**|
 |:-----|:-----|
-|**プレゼンス情報を自動的に表示する** <br/> |ユーザーの**外部**または**ブロック**リストに追加されていない会社の Skype for business ユーザーは、そのユーザーのオンラインプレゼンス情報を表示できます。 <br/> |
-|**プレゼンス情報をユーザーの連絡先にのみ表示する** <br/> |他のユーザーの連絡先リストに含まれているすべてのユーザーが、**外部**または**ブロック**されたリストに追加されていない。 <br/> ユーザーは、Skype for business アプリの既定の設定を上書きすることができます。 [**設定** > **ツール** > **] オプション**。 <br/> |
+|**プレゼンス情報を自動的に表示する** <br/> |ユーザーの **外部** または **ブロック** リストに追加されていない会社の Skype for business ユーザーは、そのユーザーのオンラインプレゼンス情報を表示できます。 <br/> |
+|**プレゼンス情報をユーザーの連絡先にのみ表示する** <br/> |他のユーザーの連絡先リストに含まれているすべてのユーザーが、 **外部** または **ブロック** されたリストに追加されていない。 <br/> ユーザーは、Skype for business アプリの既定の設定を上書きすることができます。 [**設定**  >  **ツール**  >  **] オプション**。 <br/> |
 
 Skype for Business でユーザーが変更できる操作については、次の記事を参照してください。
 

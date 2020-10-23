@@ -19,27 +19,30 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 組織内のユーザーが Skype 会議ブロードキャストを使用できるようにするには、それを有効にする必要があります。 これを行うには、Windows PowerShell の使い方を知っている必要があります。 Windows PowerShell がわからない場合は、Microsoft パートナーを採用してこの手順を実行することを検討してください。
-ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 601cef096b032dd387de6d84bb7e676dc08054ec
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778122"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739055"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 
-組織内のユーザーが Skype 会議ブロードキャストを使用できるようにするには、それを有効にする必要があります。 これを行うには、Windows PowerShell の使い方を知っている必要があります。 Windows PowerShell がわからない場合は、 [Microsoft パートナー](https://go.microsoft.com/fwlink/?linkid=391089)を採用してこの手順を実行することを検討してください。
+> [!IMPORTANT]
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
+
+組織内のユーザーが Skype 会議ブロードキャストを使用できるようにするには、それを有効にする必要があります。 これを行うには、Windows PowerShell の使い方を知っている必要があります。 Windows PowerShell がわからない場合は、 [Microsoft パートナー](https://go.microsoft.com/fwlink/?linkid=391089) を採用してこの手順を実行することを検討してください。
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Skype for Business 管理センターを使用して Skype 会議ブロードキャストを有効にする
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-1. グローバル管理者アカウントまたは Skype for Business の管理者アカウントで[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)サインインします。
+1. グローバル管理者アカウントまたは Skype for Business の管理者アカウントでサインイン [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) します。
     
-2. 管理センターで、[**管理センター** > **チーム**] に移動します。
+2. 管理センターで、[**管理センター**  >  **チーム**] に移動します。
     
-3. **Teams 管理センター**で、[従来の**ポータル** > **オンライン会議** > **ブロードキャスト会議**] に移動し、[ **Skype 会議ブロードキャストを有効に**する] を選択します。
+3. **Teams 管理センター**で、[従来の**ポータル**  >  **オンライン会議**  >  **ブロードキャスト会議**] に移動し、[ **Skype 会議ブロードキャストを有効に**する] を選択します。
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>PowerShell を使用して Skype 会議ブロードキャストを有効にする
 
@@ -53,7 +56,7 @@ ms.locfileid: "43778122"
     
 5. Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できるように、Skype for Business Online の Windows PowerShell モジュールもインストールする必要があります。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。メッセージが表示されたら、コンピューターを再起動します。
     
-6. [**スタート] メニュー**で、[ **Windows PowerShell**] を選びます。
+6. [ **スタート] メニュー**で、[ **Windows PowerShell**] を選びます。
     
 7. **Windows PowerShell**ウィンドウで、次を実行して Microsoft 365 または Office 365 に接続します。
     
@@ -69,7 +72,7 @@ ms.locfileid: "43778122"
    Get-CsBroadcastMeetingConfiguration
    ```
 
-    パラメーター _EnableBroadcastMeeting_がに`False`設定されていることを確認します。
+    パラメーター  _EnableBroadcastMeeting_ がに設定されていることを確認し `False` ます。
     
      ![組織の Skype 会議ブロードキャストを有効にするコマンドレット。](../images/44abe30d-d3df-4ca9-9761-603a7ff78723.png)
   
@@ -79,7 +82,7 @@ ms.locfileid: "43778122"
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    設定が有効になっていることを確認`Get-CsBroadcastMeetingConfiguration`するには、もう一度実行します。
+    設定が有効になっていることを確認するには、  `Get-CsBroadcastMeetingConfiguration` もう一度実行します。
     
      ![組織の Skype 会議ブロードキャストを有効にするコマンドレット。](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   
@@ -92,9 +95,9 @@ ms.locfileid: "43778122"
 
 ファイアウォールを使用していて、一般法人以外の人とのブロードキャストを保留にする場合は、次の手順を使用してネットワークを設定する必要があります。 [Skype 会議ブロードキャスト用にネットワーク](set-up-your-network-for-skype-meeting-broadcast.md)をセットアップする必要があります。 
   
-ファイアウォールの設定が整っていない場合は、この手順を実行するために[Microsoft パートナー](https://go.microsoft.com/fwlink/?linkid=391089)を採用することを検討してください。
+ファイアウォールの設定が整っていない場合は、この手順を実行するために [Microsoft パートナー](https://go.microsoft.com/fwlink/?linkid=391089) を採用することを検討してください。
   
-この手順をスキップして、別の企業をフェデレーションに追加する場合は、「[ユーザーが外部の Skype For business ユーザーに連絡できるように](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)する」を参照してください。 
+この手順をスキップして、別の企業をフェデレーションに追加する場合は、「 [ユーザーが外部の Skype For business ユーザーに連絡できるように](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)する」を参照してください。 
   
 ## <a name="related-topics"></a>関連トピック
 

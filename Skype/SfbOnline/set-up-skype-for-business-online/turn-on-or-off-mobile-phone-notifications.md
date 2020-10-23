@@ -20,16 +20,19 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: ユーザーが着信、ボイス メール、インスタント メッセージの未読通知を受信するために携帯電話の通知をオンまたはオフにする方法を説明します。
-ms.openlocfilehash: 8e209637ffe4c4053adc6dea44fb574257c330c3
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: f508c106d2ce2e95d8c7763e3360960beccfc958
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164114"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739215"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>携帯電話の通知をオン/オフする
 
-組織のために**[Microsoft 365 アプリで管理者ロールを割り当てる](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** と、Skype for business ユーザーが携帯電話またはタブレットにいるときに、着信や不在着信の通知を受け取るかどうかを選ぶことができます。
+> [!IMPORTANT]
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
+
+組織のために **[Microsoft 365 アプリで管理者ロールを割り当てる](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** と、Skype for business ユーザーが携帯電話またはタブレットにいるときに、着信や不在着信の通知を受け取るかどうかを選ぶことができます。
   
 Android と Windows Phone の Skype for Business では、通知はリアル タイムにポップ アップ表示されます。 Windows Phone、iPhone、iPad デバイスでは、携帯電話やタブレットで Skype for Business を頻繁に使用していない場合は、プッシュ通知でアラートを表示します。
   
@@ -57,7 +60,7 @@ Android と Windows Phone の Skype for Business では、通知はリアル タ
 > [!IMPORTANT]
 >  マイクロソフトは、他の企業を使用して Windows Phone、iPhone、iPad のユーザー向けにリアルタイムな Skype for Business モバイル通知を提供しています。 「 [Microsoft Skype for Business 製品のプライバシーに関する声明](https://go.microsoft.com/fwlink/p/?linkid=247732)」を参照してください。 
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 

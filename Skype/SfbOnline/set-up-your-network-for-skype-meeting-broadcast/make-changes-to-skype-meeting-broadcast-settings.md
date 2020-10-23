@@ -20,26 +20,29 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Skype 会議ブロードキャストを有効にして、会議の設定とポリシーを変更することができます。
-ms.openlocfilehash: c1831afd3a8c15f4635f5c09359fc7393b1fdae5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769480"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739065"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>組織の Skype 会議ブロードキャストの設定を変更する
 
+> [!IMPORTANT]
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
+
 Skype 会議ブロードキャストを有効にして、会議の設定とポリシーを変更することができます。
   
-- **Skype 会議ブロードキャストを有効にする**Skype 会議ブロードキャストを有効にします。 Skype 会議ブロードキャストを有効にしたら、 [Skype 会議ブロードキャスト用にネットワークを設定](set-up-your-network-for-skype-meeting-broadcast.md)する必要があります。 社外の人に対して、ウェビナーやその他のブロードキャストを保留にする場合は、この手順を実行します。 
+- **Skype 会議ブロードキャストを有効にする** Skype 会議ブロードキャストを有効にします。 Skype 会議ブロードキャストを有効にしたら、 [Skype 会議ブロードキャスト用にネットワークを設定](set-up-your-network-for-skype-meeting-broadcast.md)する必要があります。 社外の人に対して、ウェビナーやその他のブロードキャストを保留にする場合は、この手順を実行します。 
     
-- **組織で Skype 会議ブロードキャストのプレビュー機能を有効にする**Skype for Business の顧客プログラムを使用すると、新しい製品や機能にいち早くアクセスできます。 これにより、組織は、現在の環境の新機能をテストし、製品ビルドを一般公開する前にフィードバックを提供することができます。<br/>[Skype for Business のプレビュー](https://www.skypepreview.com/)
+- **組織で Skype 会議ブロードキャストのプレビュー機能を有効にする** Skype for Business の顧客プログラムを使用すると、新しい製品や機能にいち早くアクセスできます。 これにより、組織は、現在の環境の新機能をテストし、製品ビルドを一般公開する前にフィードバックを提供することができます。<br/>[Skype for Business のプレビュー](https://www.skypepreview.com/)
     
-- **開催者による匿名会議のスケジュールを許可する**これにより、開催者は、サインインの必要性なく組織外のすべてのユーザーが参加できるようにするブロードキャストイベントを作成できます。
+- **開催者による匿名会議のスケジュールを許可する** これにより、開催者は、サインインの必要性なく組織外のすべてのユーザーが参加できるようにするブロードキャストイベントを作成できます。
     
-- **ブロードキャスト会議を記録できるように**するこれにより、発表者または開催者によって記録されるすべての会議を有効にすることができます。
+- **ブロードキャスト会議を記録できるように** するこれにより、発表者または開催者によって記録されるすべての会議を有効にすることができます。
     
-- **出席者のヘルプデスクサポート URL**ブロードキャスト会議への接続または参加に関するヘルプが必要な場合に使用する、会議ブロードキャストの出席者のためのリンクを入力します。
+- **出席者のヘルプデスクサポート URL** ブロードキャスト会議への接続または参加に関するヘルプが必要な場合に使用する、会議ブロードキャストの出席者のためのリンクを入力します。
     
 ## <a name="related-topics"></a>関連トピック
 

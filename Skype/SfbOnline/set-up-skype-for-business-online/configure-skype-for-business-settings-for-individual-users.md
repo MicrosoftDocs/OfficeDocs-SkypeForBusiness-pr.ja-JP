@@ -23,14 +23,17 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Skype for Business の設定を変更する方法について説明します。たとえば、音声会議やビデオ会議、通話と会議の記録などがあります。 '
-ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 546e693dd1fb6e9becf7119c35d7b00875eda99a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776322"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739175"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
+
+> [!IMPORTANT]
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
 
 この記事では、管理者が Skype for Business を少数のユーザーに対して構成する方法について説明します。 これらの手順をまとめて実行するには、使用できる Windows PowerShell コマンドレットへのリンクが含まれています。
   
@@ -43,7 +46,7 @@ ms.locfileid: "43776322"
 ## <a name="configure-general-settings-for-one-user"></a>1人のユーザーの全般設定を構成する
 <a name="__toc325019204"> </a>
 
-これらの手順を実行するには、[管理者権限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)が必要です。
+これらの手順を実行するには、 [管理者権限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) が必要です。
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
   
@@ -61,13 +64,13 @@ ms.locfileid: "43776322"
     
     ![Choose the edit icon.](../images/5dd7c5bc-b8fa-4201-b6a6-1436ad8f88fb.png)
   
-6. [**全般**] オプションページで、変更する機能の横のチェックボックスをオンまたはオフにして、[**保存**] を選択します。
+6. [ **全般** ] オプションページで、変更する機能の横のチェックボックスをオンまたはオフにして、[ **保存**] を選択します。
     
 |**オプション**|**詳細**|
 |:-----|:-----|
 |オーディオと HD ビデオ  <br/> |このユーザーが音声会議、音声会議、ビデオ会議を記録したり、会議のスケジュールを設定したりできないようにします (なし)。  <br/> |
 |会話と会議を記録する  <br/> |このユーザーが記録できる内容を選びます。  <br/> このオプションは、Skype for Business Basic では使用できません。  <br/> |
-|コンプライアンスのため、アーカイブされていない機能をオフにする  <br/> | 電子的に保存された情報を維持する必要がある場合は、このオプションを選択します。 <br/>  このオプションを選択すると、Exchange 管理センターで[インプレースホールド](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx)が設定されているときにキャプチャされていない機能は無効になります。 次の機能がオフになります。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/> |
+|コンプライアンスのため、アーカイブされていない機能をオフにする  <br/> | 電子的に保存された情報を維持する必要がある場合は、このオプションを選択します。 <br/>  このオプションを選択すると、Exchange 管理センターで [インプレースホールド](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx) が設定されているときにキャプチャされていない機能は無効になります。 次の機能がオフになります。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/> |
    
 これらの設定をまとめて構成するには、PowerShell を使用します。 「 [Windows PowerShell 用にコンピューターをセットアップする」を](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)参照してください。
   
@@ -76,24 +79,24 @@ ms.locfileid: "43776322"
 
 [Skype For business ユーザー](let-skype-for-business-users-add-skype-contacts.md)が会社のすべてのユーザーに skype 連絡先を追加できるようにすると、次の手順を使用して、特定のユーザーの外部通信を個別にブロックすることができます。
   
-1. [**ユーザー**] を選び、設定を無効にするユーザーを選択して、 **[編集] を選び** ![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)ます。
+1. [ **ユーザー**] を選び、設定を無効にするユーザーを選択して、 **[編集] を選び** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) ます。
     
-2. [**外部通信**] を選択し、必要に応じてオプションをオフにします。
+2. [ **外部通信**] を選択し、必要に応じてオプションをオフにします。
     
    - **外部の skype For business ユーザー**: フェデレーションドメインの Skype for business ユーザーとの通信を可能にしない場合は、このボックスをオフにします。
     
    - **外部の Skype ユーザー**: freeSkype アプリを使用しているユーザーとの通信を可能にしない場合は、このボックスをオフにします。
     
-3. **[保存]** をクリックします。
+3. [**保存**] をクリックします。
     
 これらの設定をまとめて構成するには、PowerShell を使用します。 「 [Windows PowerShell 用にコンピューターをセットアップする」を](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)参照してください。
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>1人のユーザーの電話会議の設定を編集する
 <a name="__toc314837483"> </a>
 
-1. [**ユーザー**] を選び、電話会議の設定を編集するユーザーを選び、[編集 **] を選び** ![](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)ます。
+1. [ **ユーザー**] を選び、電話会議の設定を編集するユーザーを選び、[編集 **] を選び** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) ます。
     
-2. [**電話会議**] を選び、電話会議プロバイダーを選んで、要求された情報を入力または変更し、[**保存**] をクリックします。
+2. [ **電話会議**] を選び、電話会議プロバイダーを選んで、要求された情報を入力または変更し、[ **保存**] をクリックします。
     
 |**電話会議の設定**|**説明**|
 |:-----|:-----|
