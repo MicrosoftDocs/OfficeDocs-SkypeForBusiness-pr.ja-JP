@@ -19,18 +19,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 350af8c004f44205c6228b0dc734da25602062d0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610059"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739325"
 ---
 # <a name="evaluate-my-environment"></a>環境を評価する
 
 この記事では、クラウドボイスサービスを使用するために現在の環境を適切に評価するための要件の概要を示します。 環境を評価することで、クラウドの全体的な展開に影響を与えるリスクと要件を特定することができます。 これらの項目を事前に特定することで、計画を調整して成功を収めることができます。
 
-## <a name="introduction-to-evaluating-your-environment"></a>環境の評価の概要 
+## <a name="introduction-to-evaluating-your-environment"></a>環境の評価の概要
 
 目標のキーの結果 (OKRs) を実現するには、以前に主要サービスの決定を行いました。 次の手順では、環境の検出を実行して、IT とテレフォニーインフラストラクチャ、ネットワーキング、および運用に関するすべての側面を評価し、組織がソリューションを実装する準備ができていることを確認します。
 
@@ -45,17 +45,18 @@ ms.locfileid: "44610059"
 
 環境の検出の一環として、Pc やモバイルデバイスの準備評価など、エンドユーザーのコンピューティングに関連するすべての事項を含め、プランのビジネスユースケースをサポートする電話会議と電話システムをサポートするための、ハードウェア要件からソフトウェア要件への対応を行います。
 
-環境の検出では、[電話番号を Microsoft に移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する必要があるかどうかを見つけることもできます。
+環境の検出では、 [電話番号を Microsoft に移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する必要があるかどうかを見つけることもできます。
 この情報を把握しておくと、組織がそのプロジェクト計画を適宜調整し、番号の移行に必要な情報を準備するのに役立ちます。 [Microsoft Teams のロールアウトの環境検出](environmental-discovery-for-microsoft-teams-rollout.md)を使用して、環境検出を実行することができます。
 
 <table>
+<tr><td>タイトル</td><td>説明</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>環境評価の完了責任者は誰ですか?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>環境評価の結果を文書化します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>環境評価の結果を文書化します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="adoption-and-change-management-assessment-capabilities"></a>導入と変更の管理評価機能 
+## <a name="adoption-and-change-management-assessment-capabilities"></a>導入と変更の管理評価機能
 
 展開によって、ユーザーがすぐに新しいテクノロジを利用できるようになりましたが、ビジネスの結果は、ユーザーがそのソリューションを実際に採用した後でのみ実現されます。 新しいソリューションを継続的に導入するには、ユーザーの準備と変更管理に重点を置いておく必要があります。 最適な結果を得るには、お客様のテクニカルレディネス活動への並列ワークストリームとして、ユーザーの準備計画を実施し、次のアクティビティを取り入れます。
 
@@ -66,8 +67,9 @@ ms.locfileid: "44610059"
 次の考慮事項を使用して、ユーザーの変更管理に対処するための組織の準備を評価します。
 
 <table>
+<tr><td>タイトル</td><td>説明</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>ユーザーによるソフトウェアまたはサービスの導入が成功したことを確認しましたか?</li><li>利用状況の uptake を追跡することはできますか?</li><li>初期 &mdash; および継続的な &mdash; 導入キャンペーン (認識、トレーニング、サポート) を設計および管理するためのリソースがありますか?</li><li>専用ユーザーの導入と変更管理チームを持っているか、またはこれらのリソースに投資してビジネスの成果を得ることができますか。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>&quot;上記のすべてに対して [はい] と回答した場合は、 &quot; 適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画を開始します。</li><li>&quot; &quot; 上記の一部またはすべてに回答しなかった場合は、組織の変更管理と導入関連のアクティビティを支援するために、外部のリソースを利用することを検討してください。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>&quot;上記のすべてに対して [はい] と回答した場合は、 &quot; 適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画を開始します。</li><li>&quot; &quot; 上記の一部またはすべてに回答しなかった場合は、組織の変更管理と導入関連のアクティビティを支援するために、外部のリソースを利用することを検討してください。</li></ol></td></tr>
 </table>
 
 
@@ -130,7 +132,7 @@ Teams トラフィックのために VPN をバイパスする代替パスを提
 
 ### <a name="wi-fi"></a>Wi-Fi
 
-Wi-fi ネットワークは、VPN と同じように設計されていないか、リアルタイムメディアをサポートするように構成されていないことがあります。 Teams をサポートするために Wi-Fi ネットワークのための計画を立てたり、最適化を行うことは、高品質の展開を実現するための重要な考慮事項です。
+VPN と同じように、Wi-Fi ネットワークは、リアルタイムメディアをサポートするように設計されていない場合もあります。 Teams をサポートするために Wi-Fi ネットワークのための計画を立てたり、最適化を行うことは、高品質の展開を実現するための重要な考慮事項です。
 
 Wi-Fi ネットワークの最適化には、いくつかの要素が関係します。
 
@@ -154,7 +156,7 @@ Microsoft Teams は、Microsoft Online Services に接続します。そのた�
 これらのポートを開くことは、高い信頼性を確保しながら Teams を展開するために不可欠です。 このポートのブロックはサポートされていないため、メディアの品質に影響します。
 
 所属する組織で、これらのポートが開かれる対象となる正確な IP アドレス範囲とドメインを指定することが必要な場合、これらのポートに対するターゲット IP 範囲とドメインを制限することができます。 正確なポート、プロトコル、IP 範囲の一覧については、「 [Microsoft 365 または Office 365 の url と ip アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)」を参照してください。
-ターゲットの IP アドレス範囲とドメインを制限する場合は、変更されている可能性があるため、ポートと範囲のリストを常に最新の状態に維持する必要があります。 変更が生じたときに更新される、[こちらの RSS フィード](https://go.microsoft.com/fwlink/p/?linkid=236301)を購読できます。 また、 [Skype For Business ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885)を定期的に実行して、すべてのポートを開くかどうかをテストすることをお勧めします。 このツールの機能の詳細については、次のセクションをご覧ください。
+ターゲットの IP アドレス範囲とドメインを制限する場合は、変更されている可能性があるため、ポートと範囲のリストを常に最新の状態に維持する必要があります。 変更が生じたときに更新される、[こちらの RSS フィード](https://go.microsoft.com/fwlink/p/?linkid=236301)を購読できます。 また、 [Skype For Business ネットワーク評価ツール](https://www.microsoft.com/download/details.aspx?id=53885) を定期的に実行して、すべてのポートを開くかどうかをテストすることをお勧めします。 このツールの機能の詳細については、次のセクションをご覧ください。
 
 プロキシ サーバーが展開されている場合は、すべての Teams サービスについてプロキシ サーバーをバイパスすることをお勧めします。 プロキシを使っても機能する可能性がありますが、UDP の代わりに TCP を使うようになっているメディアによって音質が低下する可能性があります。 プロキシサーバーとバイパスの詳細については、「 [Microsoft 365 または Office 365 の url と IP アドレスの範囲](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)」を参照してください。
 
@@ -220,6 +222,7 @@ Network Assessment Tool を使用して、両方のセグメントをテスト�
 
 
 <table>
+<tr><td>タイトル</td><td>説明</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>すべてのネットワーク セグメントと組織の場所で、適切なネットワーク評価を完了する責任があるのは誰ですか?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>詳細なネットワーク評価を実行して、Microsoft Teams の展開に向けたネットワークの準備ができていることを確認できます。</li><li>各ネットワークセグメントの評価結果に基づいてネットワークの修復を実行します。</li></ol></td></tr>
 </table>

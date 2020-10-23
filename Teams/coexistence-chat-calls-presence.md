@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Skype for Business & チーム間の共存動作 (ルーティングパラメーター、チャット & 通話ルーティング、既存のスレッドからのチャット & の呼び出し、& プレゼンスなど)
-ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 9dd2baa717466b0f414168356256b6d78ce33f6a
+ms.sourcegitcommit: e5e60079cf9d62627de6b26dd4badd353bcc190c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757238"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "48661349"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -52,7 +52,7 @@ Skype for Business と Teams の各クライアントとユーザー間におけ
 - 会話が、テナント内またはフェデレーションのどちらであるか
 - 会話が可能かどうか
     - *テナント内*相互運用性では、テナントが純粋なオンラインか Skype for Business ハイブリッドのいずれかであることが必要です。 純粋なオンプレミス テナントには、テナント内相互運用性を持たせることはできません。
-    - *テナント間フェデレーション*には、両方のテナントからの適切な Skype for Business のフェデレーション構成と、適切な Teams のフェデレーション構成が常に必要です。 Skype for Business ハイブリッドには、いずれのテナントも必要はありません。
+    - *テナント間フェデレーション*には、両方のテナントからの適切な Skype for Business のフェデレーション構成と、適切な Teams のフェデレーション構成が常に必要です。 Skype for Business のハイブリッドは、どちらのテナントでも必要ありません。
     - 発信者の Skype for Business アカウントがオンプレミスに所属している場合、そのユーザーはテナント内相互運用性にもフェデレーションにも Teams クライアントを使用できません。 そのユーザーが相互運用性とフェデレーションのために使用できるのは、Skype for Business クライアントのみです。
     - Teams 間の通信は、常にテナント内で可能です。
 
@@ -70,7 +70,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 次の表は、発信者のモード、選択されているクライアント、および Skype for Business クライアントのホーム (オンプレミスまたはオンライン) に応じて、発信者のモード (左端の3つの列) によって、オリジネータからどのクライアントの呼び出しを受けるかを示しています。
 
 以下の表では、次のように表されます。 
-- **SfB\*** は、次のモードのいずれかを表します。*SfBOnly*、*SfBWithTeamsCollab*、*SfBWithTeamsCollabAndMeetings*。
+- **Sfb \* *_ は、次のモードのいずれかを表します。 _SfBOnly *、 *SfbwithteamsSfBWithTeamsCollabAndMeetings ab*、 *SfBWithTeamsCollabAndMeetings*。
 
 - *斜体のテキスト*は、相互運用の会話を強調表示しています。
 
@@ -78,7 +78,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 
 **表 1a: アイランド モードの受信者への新しいテナント内チャットまたはテナント内通話のルーティング**
 
-| <br/><br/> モード | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 | | 受信者 <br/><br/> アイランド  |
+| <br/><br/> モード | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 |<br/><br/>Route-->| 受信者 <br/><br/> アイランド  |
 |--- |--- |--- |--- |--- |
 | アイランド | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| オンライン<br/> オンライン<br/> オンプレミス<br/>オンプレミス| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> オンプレミス<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
@@ -87,7 +87,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 
 **表 1b: SfB\* モードの受信者への新しいテナント内チャットまたはテナント内通話のルーティング**
 
-| <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 | |   受信者 <br/><br/> SfB\*   |
+| <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 |<br/><br/>Route--> |   受信者 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
 | アイランド |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **不可** <br/>Skype for Business<br/> |
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> オンプレミス<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
@@ -96,9 +96,9 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 
 **表 1c: TeamsOnly モードの受信者への新しいテナント内チャットまたはテナント内通話のルーティング**
 
-| <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 | |   受信者 <br/><br/> TeamsOnly  |
+| <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 |<br/><br/>Route-->|   受信者 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| アイランド   |Teams<br/>Skype for Business<br/>Teams では、 <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| アイランド   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> オンプレミス<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | オンライン |  &boxv; |Teams   |
 |  |  |  | | |
@@ -118,27 +118,27 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 
 **表 2a: アイランド受信者への新しいフェデレーション チャットまたはフェデレーション通話のルーティング**
 
-| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属| | 受信者<br/><br/> アイランド |
+| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属|<br/><br/>Route--> | 受信者<br/><br/> アイランド |
 |--- |--- |--- |--- |--- |
-| アイランド |Teams<br/>Skype for Business <br/>Teams では、 <br/>Skype for Business  |オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可**   <br/> Skype for Business |
+| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可**   <br/> Skype for Business |
 | SfB\* |Skype for Business <br/>Skype for Business |オンライン<br/> オンプレミス<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
 | TeamsOnly |Teams |オンライン| &boxv;|*Skype for Business* |
 |  | | | | 
 
 **表 2b: SfB\* モードの受信者への新しいフェデレーション チャットまたはフェデレーション通話のルーティング**
 
-| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属| |  受信者<br/><br/> SfB\* |  
+| <br/><br/>モード   | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属|<br/><br/>Route-->|  受信者<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| アイランド |Teams<br/>Skype for Business <br/>Teams では、 <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可** <br/>Skype for Business <br/> |  
+| アイランド |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **不可** <br/>Skype for Business <br/> |  
 | SfB\* |Skype for Business <br/>Skype for Business  |オンライン<br/> オンプレミス<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
 | TeamsOnly | Teams|オンライン |&boxv; |*Skype for Business*  |
 |  | | | | |
 
 **表 2c: TeamsOnly モードの受信者への新しいフェデレーション チャットまたはフェデレーション通話のルーティング**
 
-| <br/><br/>モード | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属| |  受信者<br/>  <br/> TeamsOnly  |
+| <br/><br/>モード | 発信者<br/><br/> クライアント| <br/><br/>SfB の所属|<br/><br/>Route-->|  受信者<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| アイランド  |Teams<br/>Skype for Business <br/>Teams では、 <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**不可** <br/>*Teams* |
+| アイランド  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**不可** <br/>*Teams* |
 | SfB\* |Skype for Business <br/>Skype for Business  | オンライン<br/> オンプレミス| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Teams |オンライン |&boxv; |Teams |
 |  | | | | |
@@ -189,7 +189,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 
 **表 3: テナント内プレゼンス (新しいスレッド)**
 
-|ウォッチャー <br/><br/>クライアント| |<br/><br/>アイランド |発行元 <br/><br/>SfB\* |<br/>Teams のみ|
+|ウォッチャー <br/><br/>クライアント|<br/><br/>Route--> |<br/><br/>アイランド |発行元 <br/><br/>SfB\* |<br/>Teams のみ|
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
 |Teams |&boxv; |Teams |Skype for Business |Teams |
@@ -203,7 +203,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 
 **表 4: フェデレーション プレゼンス (新しいスレッド)**
 
-|ウォッチャー <br/><br/> クライアント | |<br/><br/> アイランド  |発行元 <br/><br/> SfB\* |<br/><br/> Teams のみ |
+|ウォッチャー <br/><br/> クライアント |<br/><br/>Route-->|<br/><br/> アイランド  |発行元 <br/><br/> SfB\* |<br/><br/> Teams のみ |
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
 |Teams | &boxv;|Skype for Business |Skype for Business |Teams|

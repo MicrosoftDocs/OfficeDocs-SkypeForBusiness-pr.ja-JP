@@ -23,22 +23,22 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Microsoft Teams の Microsoft 365 または Office 365 の通話プランと Office 365 電話会議の無料のダイヤルアウト期間について説明します。
-ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 842e496b242237bfc67b1adead73afd0a3653ddd
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690893"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739255"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
 ## <a name="skype-for-business-pstn-services"></a>Skype for Business PSTN サービス
 
-お客様は、Skype for Business Online PSTN サービスの使用条件およびお客様のボリュームライセンス契約に従って、Microsoft 365 または Office 365 通話プランおよび Office 365 電話会議を使用できます。 PSTN サービスの使用条件は、[ライセンス条項とドキュメント](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)に記載されています。
+お客様は、Skype for Business Online PSTN サービスの使用条件およびお客様のボリュームライセンス契約に従って、Microsoft 365 または Office 365 通話プランおよび Office 365 電話会議を使用できます。 PSTN サービスの使用条件は、 [ライセンス条項とドキュメント](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)に記載されています。
   
 ### <a name="end-of-complimentary-dial-out-period"></a>無料のダイヤルアウト期間の終了
 
-2019年12月1日から、無料ダイヤルアウト機能が終了します。 詳細については、「電話[会議サブスクリプションのダイヤルアウトと通話に](audio-conferencing-subscription-dial-out.md)ついて」を参照してください。 
+2019年12月1日から、無料ダイヤルアウト機能が終了します。 詳細については、「電話 [会議サブスクリプションのダイヤルアウトと通話に](audio-conferencing-subscription-dial-out.md) ついて」を参照してください。 
 
 この変更は、電話会議の月額プランが利用可能な国では利用できませんが、現在通信クレジットを設定する機能は提供していません。 これらの特定の国はロシア、韓国、台湾です。
 
@@ -64,11 +64,11 @@ Microsoft 365 または Office 365 電話会議サービスをご2019利用の�
 
 1分あたりのダイヤルアウト通話 (テナントのダイヤルアウト分プールを超える通話、または国と地域のリストにない宛先への通話) については、通話とその関連料金は主に通話の発信先に基づき、発信者の国または地域ではなく、ダイヤルアウト通話を開始しています。 たとえば、フランスの電話番号への通話は、米国内の会議出席者によって開始された場合も、フランスの場合も、同じ料金で課金されます。
 
-通信クレジットの詳細については、「[通信クレジット](what-are-communications-credits.md)」を参照してください。
+通信クレジットの詳細については、「 [通信クレジット](what-are-communications-credits.md)」を参照してください。
 
 **国と地域をゾーニングする**
 
-|    |
+|居住    |
 |-----|
 |オーストラリア  <br/> |
 |オーストリア  <br/> |

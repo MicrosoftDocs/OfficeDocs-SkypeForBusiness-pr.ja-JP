@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af369a04836fd12c032f468324bbaf920417878d
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650970"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739335"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話 & 会議用の Teams ポリシーベースのレコーディングの概要
 
@@ -50,7 +50,7 @@ Teams では、チームの通信を構成、管理、記録、保存、およ�
 
 各カテゴリには、レコーディングの開始方法、記録される内容、レコーディングの保存場所、通知するユーザー、アクセスを制御するユーザー、および保持の処理方法について、さまざまな要件があります。
 
-|                        | 効率        | 機能         | 組織-一般      | 組織規制 | 合法的な切片   |
+| 種類                   | 効率        | 機能         | 組織-一般      | 組織規制 | 合法的な切片   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
 | ・              | ユーザー               | アプリ/ソリューション       | 管理 (システム)     | 管理 (システム)  | LEA                |
 | Target                 | 電話ごと/会議 | 電話ごと/会議 | 電話ごと/会議 | ユーザーごと        | エンドポイント/DID |

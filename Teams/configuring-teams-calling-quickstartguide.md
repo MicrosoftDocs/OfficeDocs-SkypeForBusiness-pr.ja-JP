@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: eed9ec99445c2f632f1443343b7076aadfbb70a8
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689653"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739045"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
@@ -71,8 +71,9 @@ TeamsUpgradePolicy の既定の構成は、アイランド モードです。こ
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Teams 内のすべての着信 VOIP および PSTN 通話を受信するようにユーザを設定する方法
 ユーザーがすべての着信 VOIP と PSTN 通話を Teams で確実に受信できるようにするには、Microsoft Teams 管理センターでユーザーの共存モードを TeamsOnly に設定するか、Skype for Business のリモート Windows PowerShell セッションを使用して、次のように TeamsUpgradePolicy を更新します。
 
-    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
-
+```powershell
+Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
+```
 
 ## <a name="see-also"></a>関連項目
 [通話プランの設定](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)

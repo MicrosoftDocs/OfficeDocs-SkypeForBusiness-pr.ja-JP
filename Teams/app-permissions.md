@@ -19,16 +19,16 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
-ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
+ms.openlocfilehash: 295bee65120e3c349efe1aa5fbc1e7b42c8da87a
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429369"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739385"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
-Microsoft Teams アプリは、1つ以上の機能をインストール、アップグレード、アンインストールできる_アプリパッケージ_に集約するための手段です。 次のような機能があります。
+Microsoft Teams アプリは、1つ以上の機能をインストール、アップグレード、アンインストールできる _アプリパッケージ_ に集約するための手段です。 次のような機能があります。
 
 - ボット
 - メッセージングの拡張機能
@@ -37,10 +37,10 @@ Microsoft Teams アプリは、1つ以上の機能をインストール、アッ
 
 アプリはユーザーによって各人され、ポリシーの観点から管理されます。 ただし、ほとんどの場合、アプリのアクセス許可とリスクプロファイルは、アプリに含まれる機能の権限とリスクのプロファイルによって定義されます。 したがって、この記事では、権限とその機能レベルに関する考慮事項について説明します。
 
-RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているアクセス許可は、 [Microsoft Teams の開発者向けドキュメント](https://aka.ms/teamsdevdocs)または[microsoft Graph のアクセス許可](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)のいずれかには表示されません。 これらは、この記事の目的について簡単に説明しています。
+RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているアクセス許可は、 [Microsoft Teams の開発者向けドキュメント](https://aka.ms/teamsdevdocs) または [microsoft Graph のアクセス許可](https://developer.microsoft.com/graph/docs/concepts/permissions_reference)のいずれかには表示されません。 これらは、この記事の目的について簡単に説明しています。
 
 
-|    |     |
+| タイトル   | 説明    |
 |-----------|------------|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>次の表を参考にして、調査しているアプリで要求されているアクセス許可について理解してください。</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アプリまたはサービス自体を調査して、組織内でのアクセスを許可するかどうかを決定します。 たとえば、ボットはユーザーからのメッセージを送受信します。また、エンタープライズカスタムボット以外は、コンプライアンスの境界外にあります。 そのため、bot を含むすべてのアプリには、これらのアクセス許可が必要であり、少なくともそのリスクのプロファイルが設定されています。 </li></ul>|
@@ -59,7 +59,7 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 
 - アプリは、使用するデータと、利用規約およびプライバシーポリシーへのリンクでデータがどのように使用されているかを公開する必要があります。
 
-- [リソース固有の同意](resource-specific-consent.md)は、アプリのインストール画面に表示される、アプリが要求できる一連のアクセス許可を提供します。 リソース固有の同意権限の詳細については、「 [Graph 権限リファレンス](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)」を参照してください。
+- [リソース固有の同意](resource-specific-consent.md) は、アプリのインストール画面に表示される、アプリが要求できる一連のアクセス許可を提供します。 リソース固有の同意権限の詳細については、「 [Graph 権限リファレンス](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)」を参照してください。
 
 - アプリでは、リソース固有の同意権限以外の権限が必要になる場合もあります。 アプリがインストールされると、アプリは同意プロンプトを通じてグラフのアクセス許可を要求できます。 詳細については、「 [AZURE AD アプリケーションの同意のエクスペリエンスについ](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)て」を参照してください。 Azure ポータルで API の権限と承認を構成できます。 詳細については、「 [Azure Active Directory の承認フレームワーク](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)」を参照してください。
 
@@ -69,7 +69,7 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 
 - RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ボットは、ユーザーからのメッセージを受信して返信することができます。<sup>1</sup>
 
-- POST_MESSAGE_USER。 ユーザーがボットにメッセージを送信した後、ボットはユーザーのダイレクトメッセージ (*予防的なメッセージ*とも呼ばれます) をいつでも送信できます。
+- POST_MESSAGE_USER。 ユーザーがボットにメッセージを送信した後、ボットはユーザーのダイレクトメッセージ ( *予防的なメッセージ* とも呼ばれます) をいつでも送信できます。
 
 - GET_CHANNEL_LIST。 Teams に追加されたボットは、チーム内のチャネルの名前と Id の一覧を取得できます。
 
@@ -115,9 +115,9 @@ RECEIVE_MESSAGE や REPLYTO_MESSAGE などの大文字で示されているア�
 
 - アプリのガイドライン (およびその AppSource review プロセス) では、有効な目的のために、ユーザーに (POST_MESSAGE_TEAM アクセス許可を使用して) 個人のチャットメッセージを送信するための判断が必要です。 不正使用の場合は、ユーザーがボットをブロックできるため、テナント管理者はアプリをブロックすることができます。また、必要に応じて、ボットを一元的にブロックすることができます。
 
-<sup>1</sup>一部のボットはメッセージのみを送信します (POST_MESSAGE_USER)。 "通知のみ" と呼ばれますが、ボットが許可されているものや、許可されていないものを指しているわけではないことを意味します。 このフィールドは、通常は有効になる UI の機能を無効にするために使用されます。このボットは、会話体験を公開しているボットと比較した場合に制限されていません。
+<sup>1</sup> 一部のボットはメッセージのみを送信します (POST_MESSAGE_USER)。 "通知のみ" と呼ばれますが、ボットが許可されているものや、許可されていないものを指しているわけではないことを意味します。 このフィールドは、通常は有効になる UI の機能を無効にするために使用されます。このボットは、会話体験を公開しているボットと比較した場合に制限されていません。
 
-<sup>2</sup>アプリの manifest.jsファイルの bot オブジェクトの Supportsfiles ブールプロパティによって制御されます。
+<sup>2</sup> アプリの manifest.jsファイルの bot オブジェクトの Supportsfiles ブールプロパティによって制御されます。
 
 > [!NOTE]
 > ボットに独自のサインインがある場合は、ユーザーが初めてサインインするときに、2つの方法があります。
@@ -175,7 +175,7 @@ REPLYTO_CONNECTOR_MESSAGE。 一部のコネクタは、操作可能なメッセ
 
 ## <a name="outgoing-webhooks"></a>発信 web フック
 
-*発信 web フック*は、チーム所有者またはチームメンバーごとに作成されます。 チームアプリの機能ではありません。この情報は、完全性のために含まれています。
+*発信 web フック* は、チーム所有者またはチームメンバーごとに作成されます。 チームアプリの機能ではありません。この情報は、完全性のために含まれています。
 
 ### <a name="required-permissions"></a>必要なアクセス許可
 

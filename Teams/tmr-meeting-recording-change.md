@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc024491ee289717b9028969544ae179a72e3d0e
-ms.sourcegitcommit: 96febfae562d604d9affc60028975881f5d6fb7c
+ms.openlocfilehash: ce6c5cc546c3c2e8b8369247de38e0f734b9b467
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48599562"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739225"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と、会議の記録に SharePoint または Stream を使用する
 
@@ -66,6 +66,9 @@ OneDrive for Business と SharePoint を使ったレコーディングの保存�
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>OneDrive for Business と SharePoint の会議のレコーディングオプションを設定する
+
+> [!Note]
+> [会議レコーディング] オプションは、Teams のポリシーレベルで設定します。 次の例は、グローバルポリシーを設定する方法を示しています。 ユーザーに割り当てたポリシーの [会議レコーディング] オプションが設定されていることを確認してください。 Teams の会議ポリシーの変更は、反映されるまでしばらくかかります。 設定が完了したら、もう一度サインアウトしてから、もう一度サインインします。
 
 1. Skype For Business Online PowerShell をインストールします。 
 **注**: Skype For Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリックリリースを使用している場合は、Skype for Business Online Connector をインストールする必要はありません。 「 [PowerShell を使用して Skype For Business Online を管理する」を](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)参照してください。
