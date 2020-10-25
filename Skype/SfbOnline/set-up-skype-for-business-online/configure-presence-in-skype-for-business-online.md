@@ -20,17 +20,17 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: b06139d3614335505c7f8682700aa3d7d6fb5df8
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: f2b149a2b6277d356fe4478ee6de12ec6b078f48
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739195"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753452"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Skype for Business Online でプレゼンスを設定する
 
 > [!IMPORTANT]
-> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 Teams 管理センターで Skype for Business の機能を管理するには、グローバル管理者または Skype for Business 管理者の [AZURE AD 管理者の役割](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) が割り当てられている必要があります。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
 
 既定では、Skype for Business を使用して組織内のいずれかのユーザーと通信できるユーザーは誰でも、そのユーザーがオンラインかどうかを確認することができます。 Skype for Business では、ユーザーがオンライン、会議、オフライン、または別のインジケーターであるかどうかが表示されます。
 
@@ -57,7 +57,7 @@ Skype for Business でユーザーが変更できる操作については、次�
 
 - [Skype for Business のステータスオプションを設定する](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 

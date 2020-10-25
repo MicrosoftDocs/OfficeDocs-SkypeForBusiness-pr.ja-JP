@@ -19,17 +19,17 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 組織内のユーザーが Skype 会議ブロードキャストを使用できるようにするには、それを有効にする必要があります。 これを行うには、Windows PowerShell の使い方を知っている必要があります。 Windows PowerShell がわからない場合は、Microsoft パートナーを採用してこの手順を実行することを検討してください。
-ms.openlocfilehash: 601cef096b032dd387de6d84bb7e676dc08054ec
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 20d3671beb608413c5d0d61f599f65a47b55732d
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739055"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753432"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 
 > [!IMPORTANT]
-> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 Teams 管理センターで Skype for Business の機能を管理するには、グローバル管理者または Skype for Business 管理者の [AZURE AD 管理者の役割](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) が割り当てられている必要があります。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
 
 組織内のユーザーが Skype 会議ブロードキャストを使用できるようにするには、それを有効にする必要があります。 これを行うには、Windows PowerShell の使い方を知っている必要があります。 Windows PowerShell がわからない場合は、 [Microsoft パートナー](https://go.microsoft.com/fwlink/?linkid=391089) を採用してこの手順を実行することを検討してください。
 
@@ -99,7 +99,7 @@ ms.locfileid: "48739055"
   
 この手順をスキップして、別の企業をフェデレーションに追加する場合は、「 [ユーザーが外部の Skype For business ユーザーに連絡できるように](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)する」を参照してください。 
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
   

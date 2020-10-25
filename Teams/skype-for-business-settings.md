@@ -22,12 +22,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams 管理センターで Skype for Business 機能の設定を管理する方法について説明します。
-ms.openlocfilehash: 7248d57c5a2efb49714bf9e43c4e367ef454bfd0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 18f1de99964a36485e69a210c71b6350313aa1cb
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739235"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753562"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Skype for Business の設定を管理する
 
@@ -37,10 +37,12 @@ ms.locfileid: "48739235"
 
 管理者として、Microsoft Teams 管理センターでは、組織の Skype for business ユーザーの Skype for Business の機能を管理できます。 ユーザー詳細ページの [ **skype For business** ] タブで、[組織の](#manage-skype-for-business-settings-for-your-organization)設定を**skype for business**ページと[個々のユーザーの](#manage-skype-for-business-settings-for-individual-users)設定を管理できます。
 
-組織の [共存] モードが [**チームのみ**] に設定されていない場合、Microsoft Teams 管理センターには**Skype for business**ページのみが表示されます。 同様に、ユーザーの [共存] モードが [**チームのみ**] ではない場合は、[ **Skype for business** ] タブのみが表示されます。 共存モードの詳細については、「 [Teams と Skype For business の共存と相互運用性を理解](teams-and-skypeforbusiness-coexistence-and-interoperability.md) する」および「 [共存とアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)」を参照してください。
+組織の [共存] モードが [**チームのみ**] に設定されていない場合は、[ **Skype for business** ] ページのみが表示されます。 同様に、ユーザーの [共存] モードが [**チームのみ**] ではない場合は、[ **Skype for business** ] タブのみが表示されます。 共存モードの詳細については、「 [Teams と Skype For business の共存と相互運用性を理解](teams-and-skypeforbusiness-coexistence-and-interoperability.md) する」および「 [共存とアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)」を参照してください。
 
 > [!NOTE]
 > Skype for Business の設定は、以前は Microsoft Teams 管理センターの **従来のポータル** にありました。 従来のポータルが廃止されたため、Skype for Business 管理のために Teams 管理センターの新しい場所に設定が移行されました。
+
+Microsoft Teams 管理センターで Skype for Business の機能を管理するには、グローバル管理者または Skype for Business 管理者の [AZURE AD 管理者の役割](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) が割り当てられている必要があります。
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>組織の Skype for Business の設定を管理する
 

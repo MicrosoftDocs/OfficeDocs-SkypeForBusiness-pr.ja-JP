@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14fffe2d50d2bca7ad5026a2d4d59518e9c3763c
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235845"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739395"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
@@ -34,7 +34,6 @@ Microsoft Teams での会議には、会議とライブ イベントの 2 つの
  - Teams の**会議** には、最大 300 人用の音声、ビデオ、画面共有が含まれます。 Teams で共同作業を行うための重要な方法の 1 つです。 また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません) 。コールインの手順については、出席依頼に記載されています。
 
  - **ライブ イベント**は Teams 会議の拡張機能であり、これを使用すると、多くのオンライン視聴者 (最大 10,000 人) にストリーミングするイベントのスケジュールと作成を行うことができます。 300 人を超える会議が必要な場合は、ライブ イベントを使用してください。
-<br><br>**注:** 政府機関用の Teams (GCC、GCC High、DoD) の場合、制限は 250 のままです。 政府機関のクラウド制限が 250 から 300 に増加したときに、この記事を更新します。 Teams 会議の制限の詳細については、「[制限事項と仕様](limits-specifications-teams.md)」を参照してください。
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>会議やライブ イベントのライセンスを取得する
 

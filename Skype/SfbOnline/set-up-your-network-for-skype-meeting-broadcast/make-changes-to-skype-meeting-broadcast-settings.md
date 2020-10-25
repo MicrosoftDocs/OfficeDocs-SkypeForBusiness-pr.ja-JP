@@ -20,17 +20,17 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Skype 会議ブロードキャストを有効にして、会議の設定とポリシーを変更することができます。
-ms.openlocfilehash: f57f8db1200a23247d9f1a1a08182c6fa7c678fb
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 88f074838ff1d03153441beb624bc5d9b7ad157c
+ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739065"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "48753412"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>組織の Skype 会議ブロードキャストの設定を変更する
 
 > [!IMPORTANT]
-> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 Teams 管理センターで Skype for Business の機能を管理するには、グローバル管理者または Skype for Business 管理者の [AZURE AD 管理者の役割](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) が割り当てられている必要があります。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
 
 Skype 会議ブロードキャストを有効にして、会議の設定とポリシーを変更することができます。
   
@@ -44,7 +44,7 @@ Skype 会議ブロードキャストを有効にして、会議の設定とポ�
     
 - **出席者のヘルプデスクサポート URL** ブロードキャスト会議への接続または参加に関するヘルプが必要な場合に使用する、会議ブロードキャストの出席者のためのリンクを入力します。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype 会議ブロードキャスト用にネットワークをセットアップする](set-up-your-network-for-skype-meeting-broadcast.md)
 

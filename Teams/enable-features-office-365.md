@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57c54fcd90787048cc357a71296f942cacdef43
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 2b9145854008753cf5c0d1f5915096766689c68b
+ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583446"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "48739245"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -97,6 +97,10 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 - 所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。 
 
 範囲指定ディレクトリ検索をオンにするには、この設定を [**オン**] に切り替えます。
+
+### <a name="skype-for-business"></a>Skype for Business
+
+このページを使用して、組織内の Skype for Business ユーザー向けの Skype for Business 機能を管理します。 詳細については、「[Microsoft Teams 管理センターで Skype for Business の設定を管理する](skype-for-business-settings.md)」を参照してください。
 
 ### <a name="teams-upgrade"></a>Teams のアップグレード
 
