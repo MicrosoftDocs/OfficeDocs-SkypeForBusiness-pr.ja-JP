@@ -235,9 +235,10 @@
 ### [コミュニケーション クレジットについて](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Skype for Business Online をセットアップする](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-### [ユーザーが外部の Skype for Business ユーザーに連絡できるようにする](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+### [Microsoft Teams 管理センターで Skype for Business の設定を管理する](/microsoftteams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Skype for Business Online でプレゼンスを構成する](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [プレゼンス プライバシー モードを設定する](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)
+### [ユーザーが外部の Skype for Business ユーザーに連絡できるようにする](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [個別のユーザーの Skype for Business の設定を構成する](../set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
 ### [会議出席依頼をカスタマイズする](../set-up-skype-for-business-online/customize-meeting-invitations.md)
 ### [Skype for Business クライアントを展開する](../set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
