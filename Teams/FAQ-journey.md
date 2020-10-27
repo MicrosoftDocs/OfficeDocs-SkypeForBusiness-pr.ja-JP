@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320902"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766590"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -57,7 +57,7 @@ Microsoft は、アップグレードの計画と実装を開始するために�
 
 
 **アップグレード プロセスに関する質問がある場合は誰に問い合わせればよいですか?**<br>
-アップグレードに関する質問は、お客様に割り当てられた Microsoft アカウント チーム、パートナー、[FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1) などの、現時点で接点のある関係先に問い合わせてみてください。 または、[Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)から [**ヘルプ**] ボタンをクリックしてヘルプ チケットを開くこともできます。
+アップグレードに関する質問は、お客様に割り当てられた Microsoft アカウント チーム、パートナー、[FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1) などの、現時点で接点のある関係先に問い合わせてみてください。 または、 [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)から [ **ヘルプ** ] ボタンをクリックしてヘルプ チケットを開くこともできます。
 
 ![ヘルプ ボタンが必要な場合](media/need-help-button.png)
 
@@ -68,7 +68,7 @@ Microsoft は、アップグレードの計画と実装を開始するために�
 
 **ユーザーに対してアップグレードが行われた後はどのようになりますか?**<br>
 
-ユーザーが Teams にアップグレードされた後 (**Teams のみ**モード) は次のようになります:
+ユーザーが Teams にアップグレードされた後 ( **Teams のみ** モード) は次のようになります:
 
 - すべてのチャットと通話は Teams に移行するため、ユーザーの Skype for Business クライアントは無効になります。 このクライアントは引き続き、以前にスケジュールされた Skype for Business の会議で使用されます。 このデスクトップ クライアントがアンインストールされている場合、ユーザーは Skype for Business の Web アプリを経由して以前にスケジュールされた Skype for Business の会議にアクセスするようにリダイレクトされます。
 
@@ -114,7 +114,7 @@ Teams は、すべての Microsoft 365 Education スイートライセンス (Mi
 
 
 
-## <a name="calling-capabiities"></a>通話機能
+## <a name="calling-capabilities"></a>通話機能
 
 **Microsoft のオンライン ボイス機能の計画を教えてください。**<br>
 Microsoft の音声ソリューションの中核は、現在利用可能な電話システムです。 さらに、Microsoft 365 で直接電話番号の取得や割り当てを含む通話を完全にサポートする Microsoft 通話プランを追加することもできます。 通信電話トランクを保持したいお客様は、電話システムの一部として含まれているダイレクト ルーティングを使用できます。 組織のニーズに合わせて完全な音声ソリューションを提供するには、両方を組み合わせて調整します。
