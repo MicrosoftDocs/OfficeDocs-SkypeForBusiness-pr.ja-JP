@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でのアプリと仮想訪問の予約
+title: Microsoft Teams と予約アプリを使用した仮想アクセス
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: ''
 ms.reviewer: ''
 description: 予約アプリを使用した Microsoft Teams と仮想アクセス
-ms.openlocfilehash: c60993b57233c0c526e1770c1d3d414a73fcc42a
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: 0c88feec8a90b2794e93fb9c51bffafabf942748
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48427682"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766960"
 ---
-# <a name="bookings-app-and-virtual-visits-in-microsoft-teams"></a>Microsoft Teams でのアプリと仮想訪問の予約
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と予約アプリを使用した仮想アクセス
 
 Microsoft Teams の予約アプリでは、医療機関の訪問、財務相談、面接、カスタマサポート、教育機関の時間など、個人や仮想の予定をスケジュールするための簡単な方法が用意されています。
 
@@ -51,13 +51,13 @@ Teams 用 Microsoft 予約アプリは、デスクトップと web で利用で�
 
 ## <a name="recommended-meeting-policy-settings"></a>推奨される会議のポリシー設定
 
-予約に最適なエクスペリエンスを実現するには、スタッフ会議ポリシーを作成し **て、組織内の全員**に自動的に参加するようにします。 これにより、スタッフは予定に自動的に参加できるようになり、外部の出席者に対してロビーエクスペリエンスを有効にすることができます。 [会議へのユーザーの自動 admitting](meeting-policies-in-teams.md#automatically-admit-people)の詳細については、こちらを参照してください。
+予約に最適なエクスペリエンスを実現するには、スタッフ会議ポリシーを作成し **て、組織内の全員** に自動的に参加するようにします。 これにより、スタッフは予定に自動的に参加できるようになり、外部の出席者に対してロビーエクスペリエンスを有効にすることができます。 [会議へのユーザーの自動 admitting](meeting-policies-in-teams.md#automatically-admit-people)の詳細については、こちらを参照してください。
 
 ### <a name="optional-staff-approvals-setting"></a>省略可能なスタッフ承認設定
 
 追加のプライバシー設定として、[空き時間情報のスケジュールを設定する] をオンにしておくことを選択できます。そのためには、予約で予約されていない場合は、予約で予約することができます。  
 
-この設定を有効にするには、 **Microsoft 365 管理センター**の設定に移動して \> **Settings** \> **Settings**、[**予約**] を選択します。
+この設定を有効にするには、 **Microsoft 365 管理センター** の設定に移動して \> **Settings** \> **Settings** 、[ **予約** ] を選択します。
 
 この設定を有効にすると、スタッフは、予約予定表へのメンバーシップを承認するように求められるメールを受信します。  
 
@@ -90,6 +90,6 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   
 フィードバックを送信するには、Teams の左側のナビゲーションバーの下部にある [ **ヘルプ** ] ボタンをクリックし、[問題の **報告** **] をクリック** します。 予約の問題を簡単に特定できるように、フィードバックレポートの最初に、"予約" についてのフィードバックを送信していることを確認してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [エンドユーザー向けの予約ドキュメント](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

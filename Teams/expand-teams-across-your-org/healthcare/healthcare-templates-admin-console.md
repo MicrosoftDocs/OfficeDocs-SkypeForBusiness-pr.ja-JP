@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 管理センターで Microsoft Teams テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d030d19cbd3c11283649ffb7fa02124854bfce23
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5d20006645caede9d780bbcb9b462d71e396a205
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424737"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766710"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>管理センターで Teams の医療テンプレートを使用する
 
@@ -53,6 +53,6 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 |病院|`healthcareHospital`|チャネル <ul><li>一般<li>お知らせ</li><li>コンプライアンス</li><li>Custodial</li><li>人事</li><li>薬</li></ul> アプリ <ul><li>ウィキ</li></ul>|
 ||||
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams のテンプレートの使用を開始する](../../get-started-with-teams-templates-in-the-admin-console.md)

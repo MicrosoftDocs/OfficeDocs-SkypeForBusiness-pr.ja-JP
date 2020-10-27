@@ -16,16 +16,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Microsoft Teams テンプレートを使用して、設定、チャネル、アプリの定義済みのテンプレートを用意することで、チームをすばやく簡単に作成できます。
+description: Microsoft Graph で Microsoft Teams テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 63376c68d8267aaa49b4bdf4033d5ebfaa0a446f
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294440"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766700"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>Microsoft Graph を使用して医療機関向けの Teams テンプレートを使ってみる
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>医療機関向けの Teams テンプレートを使ってみる
 
 Microsoft Teams のテンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 
@@ -35,7 +35,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 ## <a name="ward-template"></a>ワードテンプレート
 
-このテンプレートは、ワード、ポッド、または部門でのコミュニケーションとコラボレーションを目的としています。 このテンプレートを使用すると、患者の管理や、補助の運用ニーズを簡単に行うことができます。 たとえば、"いいね!" を *お知らせ* チャネルに投稿して、 *スタッフ*でシフトを管理することができます。 ワード操作の合理化を検討している場合は、このテンプレートが適しています。
+このテンプレートは、ワード、ポッド、または部門でのコミュニケーションとコラボレーションを目的としています。 このテンプレートを使用すると、患者の管理や、補助の運用ニーズを簡単に行うことができます。 たとえば、"いいね!" を *お知らせ* チャネルに投稿して、 *スタッフ* でシフトを管理することができます。 ワード操作の合理化を検討している場合は、このテンプレートが適しています。
 
 |ベーステンプレートの種類 |baseTemplateId |ベースラインテンプレートのチャネル|
 |:--- |:---|:---|
@@ -46,7 +46,7 @@ Microsoft Teams のテンプレートを使用すると、設定、チャネル�
 
 ## <a name="hospital-template"></a>病院のテンプレート
 
-病院のテンプレートは、病院内の複数の wards、ポッド、部門間のコミュニケーションとコラボレーションを目的としています。 このテンプレートには、 *お知らせ*、 *Custodial*、 *薬剤*など、いくつかの運用チャネルが含まれていますが、次のスクリプトも提供しています。ここでは、自由に追加、削除、または編集できるさまざまな追加の部門または専用のチャネルを使用してテンプレートを拡張します。 たとえば、 *Endocrinology* department を持っているが、 *Ophthalmology*のチャネルが必要ない場合、スクリプトは *Endocrinology* チャネルを含めて *Ophthalmology* チャネルを削除するように調整できます。 通知の飽和を回避するために、これらの専門分野または補助のチャネルは自動お気に入りにならないようにすることをお勧めします。 通常、ユーザーは関連するチャネルをお気に入りにお気に入りに表示します。
+病院のテンプレートは、病院内の複数の wards、ポッド、部門間のコミュニケーションとコラボレーションを目的としています。 このテンプレートには、 *お知らせ* 、 *Custodial* 、 *薬剤* など、いくつかの運用チャネルが含まれていますが、次のスクリプトも提供しています。ここでは、自由に追加、削除、または編集できるさまざまな追加の部門または専用のチャネルを使用してテンプレートを拡張します。 たとえば、 *Endocrinology* department を持っているが、 *Ophthalmology* のチャネルが必要ない場合、スクリプトは *Endocrinology* チャネルを含めて *Ophthalmology* チャネルを削除するように調整できます。 通知の飽和を回避するために、これらの専門分野または補助のチャネルは自動お気に入りにならないようにすることをお勧めします。 通常、ユーザーは関連するチャネルをお気に入りにお気に入りに表示します。
 
 |ベーステンプレートの種類 |baseTemplateId |ベースラインテンプレートのチャネル|
 |:--- |:---|:---|

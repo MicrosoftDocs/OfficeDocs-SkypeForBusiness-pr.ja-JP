@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9f7818102426f38279caac5c4532a22e53f1673e
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514944"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766770"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 での Teams セッション
 
@@ -96,7 +96,7 @@ ms.locfileid: "48514944"
 | タイトル | 抽象            | レベル| スピーカー |
 |---|----------|---|---|---|
 |[教育機関向けの Teams の展開とガバナンス](https://aka.ms/PR103) |教育機関の総合的なガバナンスについて知っておく必要があるすべての情報を把握します。 このセッションでは、チャットポリシー、会議ポリシー、アプリポリシー、グループによる割り当て、学生の安全性の構成方法、チームクラスの作成を自動化するためのメソッドについて説明します。 |300|Jethro|
-|[医療機関の Microsoft Teams での仮想の正常性とコラボレーション](https://aka.ms/PR116)|医療機関が、Microsoft Teams を最大限に活用できるように、医療機関が支援する方法について説明します。 このセッションでは、仮想の正常性とケアチームのコラボレーションに重点を置いて、医療、仮想訪問、お客様のストーリーなどのチームの最新のお知らせのような分野に dives します。 また、多くの最新のヘルスケアシナリオに対応するプラットフォームとして Microsoft Teams を使用する方法についても説明します。|200|Evan Westenberger、Tom Mcgu、、Kristina Behr、ダニエル Canning|
+|[医療機関の Microsoft Teams での仮想の正常性とコラボレーション](https://aka.ms/PR116)|医療機関が、医療機関が Microsoft Teams を最大限に活用できるようにする方法について説明します。 このセッションでは、仮想の正常性と正常性チームのコラボレーションに重点を置いて、医療、仮想訪問、お客様のストーリーなどのチームの最新のお知らせのような分野に dives します。 また、多くの最新のヘルスケアシナリオに対応するプラットフォームとして Microsoft Teams を使用する方法についても説明します。|200|Evan Westenberger、Tom Mcgu、、Kristina Behr、ダニエル Canning|
 |[業界に合わせて Microsoft Teams を調整する](https://aka.ms/PR117)|このセッションでは、業界のギャラリーを通じてテンプレートを使用して共同作業を実現する方法について詳しく説明し、組織のニーズに合わせてテンプレートをカスタマイズして、組織のさまざまな部分に展開して、ポリシーパッケージを通じて管理を行う方法について説明します。|200|オンプレミス Kuchi、アーロン Glick|
 |[Government での Microsoft Teams を使用した共同作業とコミュニケーション](https://aka.ms/PR118) |州、地方、および連邦政府機関が、Microsoft Teams を活用して、共同作業を行い、応答時間と市民契約を改善する能力を高めています。  既存の機能の使用を最大限に活用する方法、今後のサポートについては、government の Microsoft Teams に関する今後のビジョンについて説明します。 |200|Rima Reyes、Karuana G・ Mu、Roxy Ndebumadu、サラ Gilbert|
 |[Microsoft Teams for エデュケーションアプリプラットフォームとの統合](https://aka.ms/PR120)|Teams は、教育機関向けのオープンプラットフォームであり、アプリの統合やカスタムワークフローの作成を行うことができます。  このセッションでは、教室の講義で Teams app store を使用して IT のヘルプデスクに統合する方法について説明します。 サードパーティのアプリガバナンス、オープンソースアプリのテンプレート、アプリ Studio の実践的な例を参照して、組織のためのクイックカスタム web サイトアプリを作成します。|300|Dominic Williamson|

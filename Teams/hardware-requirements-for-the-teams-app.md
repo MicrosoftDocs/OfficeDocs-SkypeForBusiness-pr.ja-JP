@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 472436eb4dd9f27d6e170ed723c243c002115d9b
-ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
+ms.openlocfilehash: 5aeeee4bf16a05b24056a6602f008b5ecaee12bb
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48476652"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766760"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -44,7 +44,7 @@ ms.locfileid: "48476652"
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    |
 |ビデオ通話と会議|<ul><li>2コアプロセッサが必要です。 ビデオ/画面共有の解像度とフレームレートを高くするには、4コアプロセッサ以上をお勧めします。</li> <li>背景のビデオ効果には、Windows 10 または AVX2 の命令を設定するプロセッサが必要です。</li> <li>サポートされていないデコーダーとエンコーダーのリストについては、「[ハードウェア デコーダー/エンコーダー ドライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。</li><li>Microsoft Teams Room の類似性検出を使用して会議に参加するには、Bluetooth LE が必要です。これには、クライアントデバイスで Bluetooth を有効にする必要があります。また、Windows クライアントの場合は、64ビットの Teams クライアントも必要です。 この機能は、32ビット版の Teams クライアントでは使用できません。</li></ul> |
-|Teams のライブ イベント | Teams live のイベントを生成する場合は、コア i5 Kaby Lake processor、4.0 GB RAM (以上)、ハードウェアエンコーダーが搭載されたコンピューターを使うことをお勧めします。 サポートされて**いない**デコーダーとエンコーダーの一覧については、「[ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
+|Teams のライブ イベント | Teams live のイベントを生成する場合は、コア i5 Kaby Lake processor、4.0 GB RAM (以上)、ハードウェアエンコーダーが搭載されたコンピューターを使うことをお勧めします。 サポートされて **いない** デコーダーとエンコーダーの一覧については、「 [ハードウェアデコーダーとエンコーダードライバーの推奨事項](hardware-decoders-and-encoders.md)」を参照してください。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac での Teams のハードウェア要件
 
@@ -74,7 +74,9 @@ ms.locfileid: "48476652"
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    |
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
 |ビデオ通話と会議 | <ul><li>2コアプロセッサが必要です。 ビデオ/画面共有の解像度とフレームレートを高くするには、4コアプロセッサ以上をお勧めします。</li><li>Microsoft Teams Room の類似性検出を使用して会議に参加する機能は、Linux では利用できません。</li></ul>
-|サポートされている Linux ディストリビューション | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8
+|サポートされている Linux ディストリビューション | Ubuntu 18.04 LTS、20.04 LTS、Fedora 30 ワークステーション、RHEL 8 Workstation、CentOS 8       |
+|サポートされているデスクトップ環境 | GNOME、KDE       |
+|サポートされている表示サーバー | (Https://docs.com/yammer-team/1642/yammer-poster-8-5x11-handout       |
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>モバイル デバイスでの Teams のハードウェア要件
 
