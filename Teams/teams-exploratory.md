@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ebe9f93321b67806b9fd777aba948f83954c04
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: a266d9d3ea8fd572cca171768174d86094a8c945
+ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753582"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48766970"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 =======================================================
@@ -67,9 +67,8 @@ Teams Exploratory エクスペリエンスの抽出条件を満たすユーザ�
 
 抽出条件を満たさないユーザーは、次のとおりです。
 
-- Teams のライセンスを所有しているか、または以前に有料の Teams ライセンスを所有していた。
-- 無料試用版または COVID 無料試用版を使用している。
-- 1 つ以上の特別 COVID 無料試用版プランのテナントに所属している。
+- 現在までに有料版、無料版、試用版ライセンスでの Teams を所有していたことがある 
+- 特別 COVID プランを 1 回以上利用した/受け取ったテナントに所属している。
 
 シンジケート パートナー顧客である場合、または GCC、GCC High、DoD、または教育機関の顧客である場合、組織は試用版の対象ではありません。
 
@@ -164,7 +163,7 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 
 - 管理ポータルからこのライセンスを削除する場合は、「[組織からユーザーを削除する](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)」を参照してください。
 
-## <a name="what-is-the-data-retention-policy"></a>データ保持ポリシーとは何ですか?
+## <a name="what-is-the-data-retention-policy"></a>データ保持ポリシーとは
 
 詳細については、「[Microsoft 365 サブスクリプション情報](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide)」を参照してください。
 
