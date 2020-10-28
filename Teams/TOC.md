@@ -678,28 +678,24 @@
 ### [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
 ### [Shifts for Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Teams で組織の Shifts アプリを管理する](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## 医療関係向けのTeams
 ### [医療関係組織のためのTeamsを始めましょう](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [予約アプリと仮想訪問](bookings-app-admin.md)
-### [ヘルスケア向けの Teams ポリシー パッケージ](policy-packages-healthcare.md)
-### 安全なメッセージング ポリシー
-#### [医療関係組織向けの安全なメッセージング](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### 仮想アクセス
+#### [Teamsでの仮想アクセス: EHR に統合](expand-teams-across-your-org/healthcare/ehr-admin.md)
+#### [予約とTeamsを使用した仮想の訪問](bookings-app-admin.md)
+### [Teamsポリシーパッケージの作成](policy-packages-healthcare.md)
+### セキュリティで保護されたメッセージング
+#### [セキュリティで保護されたメッセージング](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [メッセージの委任](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### 医療関係組織向けの Teams テンプレート
-#### [管理センターで医療関係組織向けの Teams テンプレートを使用する](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-#### [医療関係組織向けの Teams テンプレートで使用を開始する](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### Teamsテンプレート
+#### [Teamsの医療テンプレートを使用する](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [医療機関向けの Teams のテンプレート](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [リスト アプリを管理する](manage-lists-app.md)
+### [タスクアプリを管理する](manage-tasks-app.md)
 ### Teams の Shifts
 #### [Teams の Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [Shifts アプリを管理する](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-### 患者アプリ
-#### [患者アプリの概要](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### 電子医療記録を患者アプリに統合する
-##### [FHIR API を使用して電子医療記録を患者アプリに統合する](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [患者アプリの DSTU2 インターフェイスの仕様](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [患者アプリの STU3 インターフェイスの仕様](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [患者アプリを Azure API for FHIR に接続する](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [患者アプリの監査ログ](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [教育機関向けの Teams ](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [クイック スタート - 教育用 Teams の管理者](teams-quick-start-edu.yml)
