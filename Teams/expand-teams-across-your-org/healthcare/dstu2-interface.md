@@ -18,23 +18,18 @@ appliesto:
 ms.reviewer: anach
 description: Microsoft Teams の患者アプリと連携するように FHIR サーバーを設定または再構成するなど、Teams での DSTU2 インターフェイスの仕様について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d29dab88f6ee53eb4c758f6c95f71278e20ecdbe
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 15bcc5fcaff50d6d41c45ef2d38e34719ebca999
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766980"
+ms.locfileid: "48772208"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 インターフェイスの仕様
 
-> [!IMPORTANT]
-> **2020年10月30日の有効な患者アプリは廃止され、ユーザーは Teams app store からインストールできなくなります。今すぐ Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) を使い始めることをお勧めします。**
->
->患者のアプリデータは、チームをバックアップする Office 365 グループのグループメールボックスに格納されます。 患者のアプリが廃止されると、そのアプリに関連付けられたデータはすべてこのグループに保持されますが、ユーザーインターフェイスを使ってアクセスすることはできなくなります。 現在のユーザーは、 [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)を使ってリストを再作成できます。
->
->[リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)は、すべての Teams ユーザー用にプレインストールされており、すべてのチームとチャネルでタブとして使用できます。 リストを使用すると、正常性チームは、組み込みの [患者] テンプレートを使用して、最初から、または Excel にデータをインポートして、患者リストを作成できます。 組織でのリストアプリの管理方法の詳細については、「 [リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+> [!NOTE]
+> 2020年10月30日の有効な患者アプリは廃止され、Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) で置き換えられました。 リストを使用すると、医療機関のケアチームは、ラウンドやさまざまなチーム会議から一般的な患者の監視までのシナリオのために患者リストを作成できます。 始めるには、「患者」のテンプレートをリストから選びます。 組織でのリストアプリの管理方法の詳細については、「[リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
 
 Microsoft Teams の患者と連携するように FHIR サーバーを設定または再構成するには、アプリがアクセスする必要があるデータを把握する必要があります。 FHIR サーバーでは、次のリソースについて、バンドルを使った POST 要求をサポートしている必要があります。
 

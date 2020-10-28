@@ -18,21 +18,18 @@ appliesto:
 ms.reviewer: anach
 description: FHIR Api を使用して、電子医療記録を Microsoft Teams の患者アプリに統合する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad490820ac764e70f5dbdf17c2cfe5dffaea7ac8
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: c80560cb0df48d5c95cf5db2e7bed14a2e0f047d
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766950"
+ms.locfileid: "48772248"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>電子医療記録を Microsoft Teams に統合する
 
-> [!IMPORTANT]
-> **2020年10月30日の有効な患者アプリは廃止され、ユーザーは Teams app store からインストールできなくなります。今すぐ Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) を使い始めることをお勧めします。**
->
->患者のアプリデータは、チームをバックアップする Office 365 グループのグループメールボックスに格納されます。 患者のアプリが廃止されると、そのアプリに関連付けられたデータはすべてこのグループに保持されますが、ユーザーインターフェイスを使ってアクセスすることはできなくなります。 現在のユーザーは、 [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)を使ってリストを再作成できます。
->
->[リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)は、すべての Teams ユーザー用にプレインストールされており、すべてのチームとチャネルでタブとして使用できます。 リストを使用すると、正常性チームは、組み込みの [患者] テンプレートを使用して、最初から、または Excel にデータをインポートして、患者リストを作成できます。 組織でのリストアプリの管理方法の詳細については、「 [リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
+> [!NOTE]
+> 2020年10月30日の有効な患者アプリは廃止され、Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) で置き換えられました。 リストを使用すると、医療機関のケアチームは、ラウンドやさまざまなチーム会議から一般的な患者の監視までのシナリオのために患者リストを作成できます。 始めるには、「患者」のテンプレートをリストから選びます。 組織でのリストアプリの管理方法の詳細については、「[リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 

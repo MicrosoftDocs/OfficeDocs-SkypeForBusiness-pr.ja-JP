@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Microsoft Teams を使用して仮想ビジットシステムをセットアップする
-ms.openlocfilehash: dcf852486d6a7fbace23bea5fb8610c62bdc7e4f
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 3d5d68e7c4ba3cc203df33604a7210e67b402938
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766720"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778890"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>チームでの仮想アクセス-EHR との統合
 
@@ -35,6 +35,10 @@ Microsoft Teams の電子医療記録 (EHR) コネクタを使用すると、cli
 - 自動監査とレコード保持を有効にするには、接続イベントと切断イベントに関する EHR メタデータに書き戻します。
 
 - 既存の clinician と患者のワークフローに統合しながら、Microsoft Teams を使用できるようにします。
+
+  EHR ポータルから仮想アクセスを管理する方法のビデオをご覧ください。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
 ## <a name="before-you-begin"></a>始める前に
 

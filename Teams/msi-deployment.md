@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c5b324e2e240f0d30123e8a3cd2c1767205c81
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: f3eb845321a13e7701f7a8d49b975fe077fa2e14
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504964"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778790"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -44,7 +44,7 @@ MSI ファイルへのリンクを次に示します。
 
 - 64ビット版の Teams を64ビットオペレーティングシステムにインストールします。 64ビット版の Teams を32ビットのオペレーティングシステムにインストールしようとしても、インストールが成功せず、現在エラーメッセージは表示されません。
 
-- 顧客テナントが GCCH または DoD クラウド上にある場合、ユーザーは、レジストリの**HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams**キーに**cloudtype**値を追加して、レジストリの最初のエンドポイントを設定する必要があります。 **Cloudtype**の型は**DWORD**と値です (0 = Unset、1 = 商業、2 = GCC、3 = GCCH、4 = DOD)。 レジストリキーを使用してエンドポイントを設定すると、チームは、チームとのサインイン時に適切なクラウドエンドポイントに接続することができます。
+- 顧客テナントが GCCH または DoD クラウド上にある場合、ユーザーは、レジストリの **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** キーに **cloudtype** 値を追加して、レジストリの最初のエンドポイントを設定する必要があります。 **Cloudtype** の型は **DWORD** と値です (0 = Unset、1 = 商業、2 = GCC、3 = GCCH、4 = DOD)。 レジストリキーを使用してエンドポイントを設定すると、チームは、チームとのサインイン時に適切なクラウドエンドポイントに接続することができます。
 
 - Teams は、enterprise 用の Microsoft 365 アプリの展開に含めることもできます。 詳細については、「 [microsoft 365 アプリで企業向けの Microsoft Teams を展開する](https://docs.microsoft.com/deployoffice/teams-install)」を参照してください。
 
@@ -91,13 +91,16 @@ VDI に Teams デスクトップ アプリを展開する方法の詳細なガ�
 3. `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`レジストリ値を削除します。
 4. MSI パッケージをその特定のコンピューターに再展開します。
 
+> [!TIP]
+> また、 [Teams 展開クリーンアップスクリプト](scripts/powershell-script-deployment-cleanup.md) を使用して、手順1と2を実行することもできます。  
+
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>インストール後に Teams が自動的に起動しないようにする
 
 MSI の既定の動作では、ユーザーがサインインするとすぐに Teams アプリがインストールされ、Teams が自動的に起動されます。 ユーザーがインストールした後に Teams が自動的に起動しないようにするには、グループ ポリシーを使用してポリシー設定を設定するか、MSI インストーラーの自動起動を無効にします。
 
 ### <a name="use-group-policy-recommended"></a>グループ ポリシーを使用する (推奨)
 
-**[Prevent Microsoft Teams from starting automatically after installation]**(インストール後に Microsoft Teams が自動的に起動しないようにする) グループ ポリシー設定を有効にします。 このポリシー設定は、[ユーザー構成]\[ポリシー]\[管理用テンプレート]\[Microsoft Teams] にあります。 組織のニーズに合わせてポリシー設定を無効にも有効にもできるため、この方法を使用することをお勧めします。
+**[Prevent Microsoft Teams from starting automatically after installation]** (インストール後に Microsoft Teams が自動的に起動しないようにする) グループ ポリシー設定を有効にします。 このポリシー設定は、[ユーザー構成]\[ポリシー]\[管理用テンプレート]\[Microsoft Teams] にあります。 組織のニーズに合わせてポリシー設定を無効にも有効にもできるため、この方法を使用することをお勧めします。
 
 Teams がインストールされる前にこのポリシー設定を有効にしていると、ユーザーが Windows にログインしても Teams は自動起動しません。 ユーザーが初めて Teams にサインインすると、次にユーザーがログインしたときに Teams が自動起動するようになります。
 

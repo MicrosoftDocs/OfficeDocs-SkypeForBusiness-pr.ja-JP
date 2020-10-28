@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618c1a2949dc00e1257e3fef56c41b3bf2be567c
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 5b17ae74c03cd6e74f08cddede6757d1937464cc
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424657"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772228"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>管理センターで Teams テンプレートの使用を開始する
 
@@ -68,7 +68,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 > Microsoft Teams で提供される事前定義された基本テンプレートは、複製はできますが、編集はできません。
 
 | ベーステンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
-| ------------------ |----|----------------------------------------------------- |
+| ------------------ | -------------- | ----------------------------------------------------- |
 | Office 365 を導入する |`com.microsoft.teams.template.AdoptOffice365`|  チャネル <ul><li>一般</li> <li>お知らせ</li> <li>チャンピオンのコーナー</li> <li>チームフォーム</li></ul> アプリ <ul><li>ウィキ</li>  <li>カレンダー</li> |
 | プロジェクトを管理する |`com.microsoft.teams.template.ManageAProject`| チャネル <ul><li>一般</li> <li>お知らせ</li> <li>参照</li> <li>計画</li></ul> アプリ<ul><li>ウィキ</li><li>OneNote</li></ul> |
 | イベントを管理する|`com.microsoft.teams.template.ManageAnEvent` | チャネル <ul><li>一般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ<ul><li>ウィキ</li><li>当</li> <li>YouTube</li> <li>プランナー</li> <li>OneNote</li></ul> |
@@ -109,7 +109,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 
 詳細については [、「Teams の制限と仕様](limits-specifications-teams.md) 」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [カスタムチームテンプレートを作成する](create-a-team-template.md)
 - [既存のチームテンプレートからチームテンプレートを作成する](create-template-from-existing-template.md)

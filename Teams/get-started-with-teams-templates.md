@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 484b3ac3fd3545ce306dcb6e3d833bb523df5a86
+ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361657"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "48772198"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Microsoft Graph を使用して Teams テンプレートを使ってみる
 
@@ -64,7 +64,7 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 
 ベーステンプレートの種類が定義されると、これらの特殊なテンプレートを追加または上書きして、追加のプロパティを指定することができます。 一部の基本テンプレートの種類には、オーバーライドできないプロパティが含まれています。
 
-既定では、基本テンプレートは [ **標準**] に設定されています。これには、追加の固有のアプリや特別なプロパティは含まれません。 次に示すのは、使用可能な基本テンプレートの種類の一覧です。
+既定では、基本テンプレートは [ **標準** ] に設定されています。これには、追加の固有のアプリや特別なプロパティは含まれません。 次に示すのは、使用可能な基本テンプレートの種類の一覧です。
 
 | ベーステンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -77,6 +77,29 @@ Teams テンプレートは、ビジネスニーズまたはプロジェクト�
 | ヘルス<br>ワード |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |チャネル <ul><li>お知らせ\*</li><li>Huddles\*</li><li>切り下げ</li><li>割り当てる\*</li><li>トレーニング\*</li></ul>\*自動お気に入りチャネル |
 |ヘルス<br>病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |チャネル<ul><li>お知らせ\*</li><li>コンプライアンス\*</li><li>Custodial</li><li>人事</li></li><li>薬</li></ul>\*自動お気に入りチャネル|
 |||
+
+
+チームクライアントと Microsoft Graph の両方でチームを作成するには、次のテンプレートを使用します。
+
+
+| ベーステンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
+| ------------------ | -------------- | ----------------------------------------------------- |
+| Office 365 を導入する |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  チャネル <ul><li>一般</li> <li>お知らせ</li> <li>チャンピオンのコーナー</li> <li>チームフォーム</li></ul> アプリ <ul><li>ウィキ</li>  <li>カレンダー</li> |
+| プロジェクトを管理する |`com.microsoft.teams.template.`<br>`ManageAProject`| チャネル <ul><li>一般</li> <li>お知らせ</li> <li>参照</li> <li>計画</li></ul> アプリ<ul><li>ウィキ</li><li>OneNote</li></ul> |
+| イベントを管理する|`com.microsoft.teams.template.`<br>`ManageAnEvent` | チャネル <ul><li>一般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ<ul><li>ウィキ</li><li>当</li> <li>YouTube</li> <li>プランナー</li> <li>OneNote</li></ul> |
+|オンボード従業員|`com.microsoft.teams.template.`<br>`OnboardEmployees` | チャネル <ul><li>一般</li> <li>お知らせ</li> <li>従業員チャット</li> <li>トレーニング</li></ul>アプリ<ul><li>ウィキ</li><li>お気に入り</li></ul>|
+|ヘルプデスクを整理する| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|チャネル<ul><li>一般</li><li>お知らせ</li><li>FAQ</li></ul>アプリ<ul><li>ウィキ</li><li>OneNote</li></ul> |
+| 治療での共同作業| `healthcareWard `| チャネル<ul><li>一般</li><li>お知らせ</li><li>Huddles</li><li>切り下げ</li><li>割り当てる</li><li>トレーニング</li></ul> アプリ <ul><li>ウィキ</li>|
+| グローバルな危機またはイベントでの共同作業 |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| チャネル <ul><li>一般<li>お知らせ</li><li>世界中のニュース</li><li>ビジネス継続性</li><li>リモート作業</li><li>内部通信</li><li>外部通信</li><li>顧客の苦情</li><li>称賛</li><li>エグゼクティブ更新プログラム</li></ul>アプリ <ul><li>称賛</li><li>ウィキ</li><li>当</li></ul>|
+|銀行支店内での共同作業| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|チャネル <ul><li>一般<li>お知らせ</li><li>Huddles</li><li>顧客の会議</li><li>コーチング</li><li>スキルの開発</li><li>ローン処理</li><li>顧客の苦情</li><li>称賛</li><li>楽しい機能</li><li>コンプライアンス</li></ul>|
+|インシデント応答の調整| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|チャネル <ul><li>一般<li>お知らせ</li><li>物流</li><li>計画</li><li>Recovery</li><li>度</li></ul> アプリ <ul><li>ウィキ</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>プランナー</li></ul>|
+|病院| `healthcareHospita`プレーン |チャネル <ul><li>一般<li>お知らせ</li><li>コンプライアンス</li><li>Custodial</li><li>人事</li><li>薬</li></ul> アプリ <ul><li>ウィキ</li></ul>|
+|ストアを整理する| `retailStore` |チャネル <ul><li>一般<li>シフトハンド</li><li>意欲</li></ul> アプリ <ul><li>ウィキ</li></ul>|
+|品質と安全性 |`com.microsoft.teams.`<br>`template.QualitySafety`|チャネル <ul><li>一般<li>お知らせ</li><li>行1</li><li>2行目</li><li>行3</li><li>安全</li><li>トレーニング</li><li>メンテナンス</li><li>楽しい機能</li></ul> アプリ <ul><li>ウィキ</li></ul>|
+|小売課長のコラボレーション| `retailManagerCollaboration` |チャネル <ul><li>一般<li>操作</li><li>意欲</li></ul> アプリ <ul><li>ウィキ</li></ul>|
+||||
+
+詳細については [、「管理センターでチームテンプレートの概要](get-started-with-teams-templates-in-the-admin-console.md) 」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

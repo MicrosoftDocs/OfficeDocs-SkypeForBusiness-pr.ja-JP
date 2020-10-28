@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6245c78b66bde710ea6c03839cc98de8ec8f3f
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
+ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753552"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48778860"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と、会議の記録に SharePoint または Stream を使用する
 
@@ -34,7 +34,6 @@ ms.locfileid: "48753552"
 |初めての Q4 CY20|**OneDrive for Business および SharePoint での Teams 会議の記録は、オプトインまたはオプトアウトで利用できます。**<br> テナント管理者は、OneDrive for Business と SharePoint のオプトインまたは脱退を行うことができます。 PowerShell で Teams ポリシーを設定する|
 |第 CY20 四半期中旬|**OneDrive for Business および SharePoint でのチーム会議の記録は、脱退しないテナントの既定として設定されます**<br> これは、ほとんどのお客様に推奨されるパスです。|
 |Q1 CY21|**Teams 会議の記録を従来のストリームに保存することはできなくなりました**<br>すべてのテナントが、Teams 会議の記録を OneDrive for Business と SharePoint に保存します|
-
 
 Microsoft Teams には、会議の記録を保存するための新しい方法が用意されています。 従来の Microsoft Stream から [新しいストリーム](https://docs.microsoft.com/stream/streamnew/new-stream)への移行の最初のフェーズとして、このメソッドは microsoft 365 の microsoft OneDrive for Business と SharePoint にレコーディングを保存し、多くの利点を提供します。
 
@@ -68,12 +67,13 @@ OneDrive for Business と SharePoint を使ったレコーディングの保存�
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>OneDrive for Business と SharePoint の会議のレコーディングオプションを設定する
 
 > [!Note]
-> [会議レコーディング] オプションは、Teams のポリシーレベルで設定します。 次の例は、グローバルポリシーを設定する方法を示しています。 ユーザーに割り当てたポリシーの [会議レコーディング] オプションが設定されていることを確認してください。 Teams の会議ポリシーの変更は、反映されるまでしばらくかかります。 設定が完了したら、もう一度サインアウトしてから、もう一度サインインします。
+> [会議レコーディング] オプションは、Teams のポリシーレベルで設定します。 次の例は、グローバルポリシーを設定する方法を示しています。 ユーザーに割り当てたポリシーの [会議レコーディング] オプションが設定されていることを確認してください。
+> Teams の会議ポリシーの変更は、反映されるまでしばらくかかります。 設定が完了したら、もう一度サインアウトしてから、もう一度サインインします。
 
-1. Skype For Business Online PowerShell をインストールします。 
-**注**: Skype For Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリックリリースを使用している場合は、Skype for Business Online Connector をインストールする必要はありません。 「 [PowerShell を使用して Skype For Business Online を管理する」を](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)参照してください。
+1. Skype For Business Online PowerShell をインストールします。
+**注** : Skype For Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリックリリースを使用している場合は、Skype for Business Online Connector をインストールする必要はありません。 「 [PowerShell を使用して Skype For Business Online を管理する」を](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)参照してください。
 
-    a. [Skype For Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)をダウンロードします。 
+    a. [Skype For Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)をダウンロードします。
 
     b. 指示に従ってインストールします。
 
@@ -97,14 +97,13 @@ OneDrive for Business と SharePoint を使ったレコーディングの保存�
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>OneDrive for Business と SharePoint の使用を停止してストリームを継続する
 
-ポリシーで **Stream**に設定されている場合でも、設定されていない可能性があります。 通常、ポリシーが設定されていない場合、既定の設定は **Stream**です。 ただし、この新しい変更では、SharePoint または OneDrive を使用しないようにする場合は、ポリシーを [ **ストリーム** ] にリセットして既定の状態に戻す必要があります。
+ポリシーで **Stream** に設定されている場合でも、設定されていない可能性があります。 通常、ポリシーが設定されていない場合、既定の設定は **Stream** です。 ただし、この新しい変更では、SharePoint または OneDrive for Business を使用しないようにしたい場合は、ポリシーを [ **ストリーム** ] にリセットして既定の状態にしておく必要があります。
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>権限またはロールベースのアクセス
-
 
 |会議の種類                               | レコードをクリックしたユーザー| 記録はどこにありますか?                               |アクセス権を持つユーザー R/W、R、または共有                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -128,7 +127,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
   <i>レコーダーの OneDrive For business</i> /**レコーディング**
 
-- チャネル会議の場合、レコーディングは [ **レコーディング**] という名前のフォルダーにある Teams サイトのドキュメントライブラリに格納されます。 例:
+- チャネル会議の場合、レコーディングは [ **レコーディング** ] という名前のフォルダーにある Teams サイトのドキュメントライブラリに格納されます。 例:
 
   <i>Teams 名-チャネル名</i> /**ドキュメント** /**レコーディング**
 
@@ -152,7 +151,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 クローズドキャプションは、会議が記録された時点からの、60日間の Teams 会議レコーディングでサポートされています。
 
-クローズドキャプションは、OneDrive または SharePoint の元の場所から Teams 会議のレコーディングが移動またはコピーされている場合は完全にサポートされません。
+OneDrive for Business または SharePoint 上の元の場所から Teams 会議のレコーディングが移動またはコピーされている場合、クローズドキャプションは完全にサポートされません。
 
 **記憶域のクォータにどのように影響が及ぶか**
 
@@ -164,4 +163,8 @@ Teams 会議のレコーディングファイルは、OneDrive for Business と 
 
 **おけるをストリームに追加する予定の場合、既存のビデオはそのままで、どれだけの時間がかかりますか?**
 
-近い将来、プラットフォームとしてのストリームは廃止されることはありません。 現在ストリーム内に存在するビデオは、移行を開始するまでそのまま残ります。 これらのビデオは、移行時にも ODSP に移行されます。 詳細について [は、ここ](https://docs.microsoft.com/stream/streamnew/classic-migration) を確認してください。
+近い将来、プラットフォームとしてのストリームは廃止されることはありません。 現在ストリーム内に存在するビデオは、移行を開始するまでそのまま残ります。 これらのビデオは、移行時に OneDrive for Business または SharePoint にも移行されます。 詳細について [は、ここ](https://docs.microsoft.com/stream/streamnew/classic-migration) を確認してください。
+
+**保持ラベルを適用する方法を教えてください。**
+
+[保持ラベルを自動適用する方法に](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)ついて説明します。
