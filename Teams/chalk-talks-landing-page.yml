@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams のチョークの話
-summary: IT プロフェッショナルと意思決定者向けに設計されたチームのチョークの話は、ベストプラクティスと実践的なガイダンスを得るのに最適です。 登録するワークショップのタイトルをクリックします。
+summary: IT プロフェッショナルと意思決定者向けに設計されたチームのチョークの話は、ベストプラクティスと実践的なガイダンスを得るのに最適です。
 brand: teams
 metadata:
   title: Microsoft Teams のチョークの話
-  description: IT プロフェッショナルと意思決定者向けに設計されたチームのチョークの話は、ベストプラクティスと実践的なガイダンスを得るのに最適です。 このオンラインインタラクティブワークショップは、分野の専門家によって促進され、チームの実装を強化し、エンドユーザーに付加価値を提供します。 以下のワークショップのタイトルをクリックすると、使用可能な日付と時刻が表示され、今すぐサインアップできます。 登録するワークショップのタイトルをクリックします。
+  description: IT プロフェッショナルと意思決定者向けに設計されたチームのチョークの話は、ベストプラクティスと実践的なガイダンスを得るのに最適です。 このオンラインインタラクティブワークショップは、分野の専門家によって促進され、チームの実装を強化し、エンドユーザーに付加価値を提供します。 以下のワークショップのタイトルをクリックすると、使用可能な日付と時刻が表示され、今すぐサインアップできます。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,18 +25,15 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
+  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583466"
+  ms.lasthandoff: 10/28/2020
+  ms.locfileid: "48790599"
 productDirectory:
+  summary: 登録するワークショップのタイトルをクリックします。
   items:
-  - title: チームにアクセスする--ゼロから本番運用
-    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-    summary: もうすぐです！ 共同作業、チャット、会議のために Teams の実装を開始します。 主要な構成、考慮事項、ベストプラクティス、リソースを共有して、ユーザーの作業をすばやく実行します。
-    url: http://aka.ms/ChalkTalkGTT
   - title: だから。。。Teams で電話をかけたい場合
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
     summary: お客様のチーム展開に PSTN 通話機能を追加する方法について詳しくは、こちらをご覧ください。 さらに、用語、重要な概念、構成の呼び出しについて説明します。
@@ -45,18 +42,14 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
     summary: ユーザーが会議や音声機能に最適なエクスペリエンスを提供できるようにする方法 ここでは、サービスの品質を管理するためのツール、レポート、ベストプラクティスについて説明します。一般的な問題を解決するための予防的な戦略を確立します。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Teams のアプリでより多くの作業を行う
+  - title: Teams の基礎となるアプリ
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
     summary: この基本セッションでは、アプリの管理とセキュリティなどの基本的な機能について説明します。 ワークフロー、生産性向上アプリ、日常的に使用するサービスを1つの統一された操作に統合する方法について説明します。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Teams を使用した IT ワークフローの自動化
+  - title: Teams のアプリでの重要なワークフローのスーパーチャージ
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: もうすぐです！ Teams で利用可能なアプリを使用して、IT プロセスを自動化します。 ここでは、ヘルプデスクや知識共有などの一般的なシナリオについて説明します。チームは時間を節約し、重要度に集中することができます。
-    url: https://aka.ms/ChalkTalkAutoIT
-  - title: Teams で Firstline Worker エンゲージメントを有効にする方法
-    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
-    summary: 最初のラインの労働力のデジタルワークスペースを有効にする準備ができましたか? ここでは、パイロットを開始してコミュニケーション、従業員の取り組み、業務の生産性を高めるためのベストプラクティスについて説明します。
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+    summary: システムを接続して自動化を強化し、ユーザーのエクスペリエンスを向上させるには、組織がチームに依存するアプリを使います。
+    url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
