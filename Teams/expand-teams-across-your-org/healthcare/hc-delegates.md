@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: "\"退席中\" 状態または \"応答不可\" 状態のユーザーが自分の状態メッセージで別のユーザーを代理として明示的に設定する方法について説明します。"
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904739"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790469"
 ---
 # <a name="message-delegation"></a>メッセージの委任
 

@@ -7,29 +7,33 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 audience: admin
 description: 組織内のユーザーのタスクアプリを管理する方法について説明します。
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d06c42691874b8defa86e993727bc1fe38ee67b3
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: c1372dd4e997d2ebc263afdb2b4b692e9b9deb8c
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331662"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790449"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のタスクアプリを管理する
 
 ## <a name="overview-of-tasks"></a>タスクの概要
 
-タスクアプリでは、Microsoft Teams との統合されたタスク管理エクスペリエンスが実現され、 [Microsoft が](https://todo.microsoft.com/tasks/) 開発した個々のタスクとプランナーを使ったチームタスクを1か所にまとめることができます。 ユーザーは、チームの左側のアプリとして、個々のチーム内のチャネルのタブとしてタスクにアクセスできます。 タスクの **[マイタスク**] と [**共有プラン**] では、ユーザーは個人およびチームのすべてのタスクを表示および管理し、作業の優先順位を付けることができます。 タスクは、Teams のデスクトップ、web、モバイルクライアントで利用できます。 
+タスクアプリでは、Microsoft Teams との統合されたタスク管理エクスペリエンスが実現され、 [Microsoft が](https://todo.microsoft.com/tasks/) 開発した個々のタスクとプランナーを使ったチームタスクを1か所にまとめることができます。 ユーザーは、チームの左側のアプリとして、個々のチーム内のチャネルのタブとしてタスクにアクセスできます。 タスクの **[マイタスク** ] と [ **共有プラン** ] では、ユーザーは個人およびチームのすべてのタスクを表示および管理し、作業の優先順位を付けることができます。 タスクは、Teams のデスクトップ、web、モバイルクライアントで利用できます。 
 
 > [!NOTE]
-> チームのデスクトップクライアントでタスクのエクスペリエンスをロールアウトすると、最初にアプリ名が **Planner** としてユーザーに表示されます。 この名前は、 **Planner によって**一時的に変更され、タスクに変更され、後で [ **タスク**] に名前が変更されます。 Teams モバイルクライアントでは、ユーザーにはアプリ名が常に **タスク**として表示されます。 デスクトップエクスペリエンスを利用できるようになった後、モバイルエクスペリエンスの利用状況が少し遅れている可能性があります。
+> チームのデスクトップクライアントでタスクのエクスペリエンスをロールアウトすると、最初にアプリ名が **Planner** としてユーザーに表示されます。 この名前は、 **Planner によって** 一時的に変更され、タスクに変更され、後で [ **タスク** ] に名前が変更されます。 Teams モバイルクライアントでは、ユーザーにはアプリ名が常に **タスク** として表示されます。 デスクトップエクスペリエンスを利用できるようになった後、モバイルエクスペリエンスの利用状況が少し遅れている可能性があります。
 
    ![チームリストのタスクのリストビューのスクリーンショット](media/manage-tasks-app-tasks.png)
 
@@ -56,11 +60,11 @@ Firstline Worker のタスク管理を簡素化する組織のために、タス
 
 組織内のすべての Teams ユーザーに対して、タスクは既定で有効になっています。 Microsoft Teams 管理センターの [ [アプリの管理](manage-apps.md) ] ページで、組織レベルでアプリをオンまたはオフにすることができます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**の管理] に移動  >  **Manage apps**します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** の管理] に移動  >  **Manage apps** します。
 2. アプリの一覧で、次のいずれかの操作を行います。
 
-    - 組織のタスクを無効にするには、Tasks アプリを検索して選択し、[ **ブロック**] をクリックします。
-    - 組織のタスクを有効にするには、Tasks アプリを検索して選択し、[ **許可**] をクリックします。
+    - 組織のタスクを無効にするには、Tasks アプリを検索して選択し、[ **ブロック** ] をクリックします。
+    - 組織のタスクを有効にするには、Tasks アプリを検索して選択し、[ **許可** ] をクリックします。
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>組織内の特定のユーザーに対してタスクを有効または無効にする
 
@@ -74,7 +78,7 @@ Firstline Worker のタスク管理を簡素化する組織のために、タス
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>ユーザーに Exchange Online のライセンスが付与されている場合、ユーザーの自分のタスクが表示される
 
-**自分のタスク**を表示したくない場合は、非表示にすることができます。 これを行うには、 [ユーザーの Exchange Online ライセンスを削除](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)します。 Exchange Online のライセンスを削除すると、ユーザーは自分のメールボックスにアクセスできなくなることを知っておくことが重要です。  メールボックスのデータは30日間保持され、その後、 [インプレースホールドまたは訴訟ホールド](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)にメールボックスが配置されていない限り、データは削除され、復元できなくなります。
+**自分のタスク** を表示したくない場合は、非表示にすることができます。 これを行うには、 [ユーザーの Exchange Online ライセンスを削除](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)します。 Exchange Online のライセンスを削除すると、ユーザーは自分のメールボックスにアクセスできなくなることを知っておくことが重要です。  メールボックスのデータは30日間保持され、その後、 [インプレースホールドまたは訴訟ホールド](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)にメールボックスが配置されていない限り、データは削除され、復元できなくなります。
 
 この情報は、インフォメーションワーカーには推奨されませんが、メールに依存していない Firstline 員など、この問題が発生する可能性があるシナリオもあります。
 

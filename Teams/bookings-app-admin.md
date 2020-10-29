@@ -7,18 +7,22 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: ''
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.collection: ''
+ms.collection:
+- microsoftcloud-healthcare
 ms.reviewer: ''
 description: 予約アプリを使用した Microsoft Teams と仮想アクセス
-ms.openlocfilehash: 0c88feec8a90b2794e93fb9c51bffafabf942748
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 684c442765b868ca96e9d1bf243817f9378f0b5d
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766960"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790619"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と予約アプリを使用した仮想アクセス
 

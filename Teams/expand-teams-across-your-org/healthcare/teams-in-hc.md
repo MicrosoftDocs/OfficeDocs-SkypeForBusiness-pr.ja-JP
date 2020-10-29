@@ -7,23 +7,27 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+searchScope:
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 医療の調整、セキュリティで保護されたメッセージング、仮想アクセス、EHR 統合、firstline worker システムの統合など、医療機関向けの機能について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c00c4ba2ccdc6164c4c9e2bdf56b8fd1583eed4
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
+ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772298"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "48790639"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向け Teams の使用を開始する
 
@@ -35,7 +39,14 @@ Microsoft Teams には、次のような、病院およびその他の医療機�
 - Teams テンプレート
 - ケアの調整と共同作業
 
-このセクションの内容は、組織にチームを既に展開していることを前提としています。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](../../How-to-roll-out-teams.md)」を参照してください。
+この機能は、医療機関向けの Microsoft Cloud に含まれています。 このソリューションの使い方について詳しくは、Azure、Dynamics 365、Microsoft 365 の機能と、 [医療のための Microsoft Cloud の](https://docs.microsoft.com/industry/healthcare)機能がまとめられています。
+
+医療機関向けコレクションを使用して、Microsoft Teams での正常性チームの共同作業を強化する方法について詳しくは、次のビデオをご覧ください。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
+
+> [!NOTE]
+> このセクションの内容は、組織にチームを既に展開していることを前提としています。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](../../How-to-roll-out-teams.md)」を参照してください。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>仮想アクセスと電子医療記録 (EHR) の統合
 
@@ -65,13 +76,13 @@ Teams ポリシーパッケージを適用して、Teams で実行できるさ�
 
 これらの機能を組み合わせて使用すると、メッセージの受信と開封による信頼性が向上します。 これらの機能を使用した新しい健康チームは、患者ごとに作成することができます。 これらの機能はポリシーベースであり、個人またはチーム全体に割り当てることができます。
 
-詳細については、「 [医療機関向けのセキュリティで保護されたメッセージングポリシーの概要](messaging-policies-hc.md) 」を参照してください。
+詳細については、「 [医療機関向けのセキュリティで保護されたメッセージングポリシーの概要](messaging-policies-hc.md)」を参照してください。
 
 また、セキュリティで保護されたメッセージングに関連して、医療機関が他のテナントをフェデレーションし、豊富なテナント間通信を実現することができます。 (「 [Microsoft Teams で外部アクセス (フェデレーション) を管理](../../manage-external-access.md)する」を参照してください)。
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>医療機関向けの Teams テンプレート
 
-Teams を作成するための新しいテンプレートは、病院の設定に適用するために開発されたもので、近日中に対応する予定です。 これにより、医療員がさまざまな部署または wards の患者の注意を調整するために使用するチームの作成が容易になります。 「 [医療機関向けのチームテンプレートの概要](healthcare-templates.md)」を参照してください。 Cardiology、またはケア wards などの社内部署向けにチームを開始したり、その他のテンプレートを開発中に追加したりすることができます。
+Teams を作成するための新しいテンプレートは、病院の設定に適用するために開発されたもので、近日中に対応する予定です。 これにより、医療員がさまざまな部署または wards の患者の注意を調整するために使用するチームの作成が容易になります。 詳細については、「 [医療機関向けのチームテンプレートの概要](healthcare-templates.md)」を参照してください。 Cardiology、またはケア wards などの社内部署向けにチームを開始したり、その他のテンプレートを開発中に追加したりすることができます。
 
 ## <a name="care-coordination-and-collaboration"></a>ケアの調整と共同作業
 
