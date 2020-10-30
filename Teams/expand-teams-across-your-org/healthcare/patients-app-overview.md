@@ -18,17 +18,19 @@ appliesto:
 ms.reviewer: anach
 description: Teams の管理者向けの患者アプリについて
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b86c180bc809fa10b261738ae5b324737006f541
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772188"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803505"
 ---
 # <a name="patients-app-overview"></a>患者アプリの概要
 
 > [!NOTE]
-> 2020年10月30日の有効な患者アプリは廃止され、Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) で置き換えられました。 リストを使用すると、医療機関のケアチームは、ラウンドやさまざまなチーム会議から一般的な患者の監視までのシナリオのために患者リストを作成できます。 始めるには、「患者」のテンプレートをリストから選びます。 組織でのリストアプリの管理方法の詳細については、「[リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
+> 2020年10月30日の有効な患者アプリは廃止され、Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) で置き換えられました。 患者のアプリデータは、チームをバックアップする Office 365 グループのグループメールボックスに格納されます。 患者アプリに関連付けられたデータはすべてこのグループに保持されますが、ユーザーインターフェイスからはアクセスできなくなります。 ユーザーは、 [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)を使ってリストを再作成できます。
+>
+>リストを使用すると、医療機関のケアチームは、ラウンドやさまざまなチーム会議から一般的な患者の監視までのシナリオのために患者リストを作成できます。 始めるには、「患者」のテンプレートをリストから選びます。 組織でのリストアプリの管理方法の詳細については、「 [リストアプリを管理](../../manage-lists-app.md)する」を参照してください。
 
 患者アプリケーションは、Microsoft Teams ストアアプリで、すべての Teams ユーザーが利用できます。 このアプリを使用すると、患者の医療チーム (看護師、医師、ソーシャルワーカーなど) で構成される患者の患者のリストを、ラウンドやさまざまなチーム会議から一般的な患者の監視まで、さまざまなシナリオで確認できます。
 

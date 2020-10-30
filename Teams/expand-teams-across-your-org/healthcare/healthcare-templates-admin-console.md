@@ -22,22 +22,20 @@ appliesto:
 ms.reviewer: ''
 description: 管理センターで Microsoft Teams テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 102c9db47ba9a79acf64338d2fab0cb1ddc49392
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: d2f2fcbf2fb66206306e2ae5c6ab14ed6176e612
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790429"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800670"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-center"></a>管理センターで Teams の医療テンプレートを使用する
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft Teams のテンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 
 医療機関の場合、テンプレートは、ユーザーが効率的にチームを効果的に活用できるようにするための構造を提供するため、特に強力です。 テンプレートを使用すると、管理者は組織全体で一貫したチームを展開することができます。 この記事は、医療組織全体で複数のチームの計画、展開、管理を担当している場合に使います。
 
-現時点では、さまざまな状況に応じて利用できる、2つのファーストパーティの医療用テンプレートが提供されています。 チームテンプレート全般の詳細については、「 [管理センターでチームテンプレートの概要](../../get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
+現在、さまざまな状況で使用できる、2つのファーストパーティの医療機関向けテンプレートが提供されています。 チームテンプレート全般の詳細については、「 [管理センターでチームテンプレートの概要](../../get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
 
 ## <a name="collaborate-on-patient-care"></a>治療での共同作業
 

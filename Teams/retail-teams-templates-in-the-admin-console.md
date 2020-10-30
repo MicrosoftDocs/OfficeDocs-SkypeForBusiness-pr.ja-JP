@@ -19,16 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40e21687aa3d14b0cb9d51d4ba5f856eada3c538
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: a24e1f440702f10785e42b83c39a53cb14da8739
+ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424567"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "48800580"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>管理センターで Teams 小売用テンプレートを使用する
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Teams テンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
 
@@ -38,7 +36,7 @@ Teams のテンプレートには、小売業者のニーズに合わせて設�
 
 この記事は、小売組織全体で複数のチームの計画、展開、管理を担当している場合に使います。 組織に Teams サービスを既に展開していることを前提としています。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
 
-チームテンプレートの詳細については、「 [チームテンプレートの使用を開始](get-started-with-teams-templates-in-the-admin-console.md)する」を参照してください。
+チームテンプレート全般の詳細については、「 [チームテンプレートの概要](get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
 
 ## <a name="organize-a-store"></a>ストアを整理する
 

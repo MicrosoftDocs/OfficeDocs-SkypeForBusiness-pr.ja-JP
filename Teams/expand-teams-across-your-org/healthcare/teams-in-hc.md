@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 医療の調整、セキュリティで保護されたメッセージング、仮想アクセス、EHR 統合、firstline worker システムの統合など、医療機関向けの機能について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f21871a016bbe42dafe89b12b0c84270355ce412
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
+ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790639"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48803535"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向け Teams の使用を開始する
 
@@ -107,7 +107,7 @@ Microsoft Teams を使用すると、医師、clinicians、看護師、および
 ### <a name="share-lists-and-track-information-with-the-lists-app"></a>リストアプリでリストを共有し、情報を追跡する
 
 > [!NOTE]
-> 2020年10月30日に、患者アプリは廃止され、Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) で置き換えられます。 リストを使用すると、医療機関のケアチームは、ラウンドやさまざまなチーム会議から一般的な患者の監視までのシナリオのために患者リストを作成できます。
+> 2020年10月30日の有効な患者アプリは廃止され、Teams の [リストアプリ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) で置き換えられました。 リストを使用すると、医療機関のケアチームは、ラウンドやさまざまなチーム会議から一般的な患者の監視までのシナリオのために患者リストを作成できます。
 
 Teams のリストアプリは、チームが情報を追跡し、作業を整理するのに役立ちます。 アプリは、すべての Teams ユーザー用にプレインストールされており、すべてのチームおよびチャネルのタブとして使用できます。 リストは、あらかじめ定義されたテンプレートから、または Excel にデータをインポートすることで、一から作成することができます。
 
