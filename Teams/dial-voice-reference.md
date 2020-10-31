@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Teams の自動応答と通話キューのダイヤルと音声認識のオプションについて説明します。
-ms.openlocfilehash: bf520fa4dffe258da523c8815449f1e71279d7f2
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800570"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818807"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自動応答と通話キューのダイヤルと音声認識のリファレンス
 
@@ -100,7 +100,7 @@ ms.locfileid: "48800570"
 
 次の言語は、送信プロンプトで使用される音声合成で使用できます。
   
-||||
+|-|-|-|
 |:-----|:-----|:-----|
 |アラビア語 (EG)  |英語 (U.K.)  |韓国語 (KO)  |
 |中国語 (HK)  |英語 (U.K.) |ノルウェー語 (NO)  |
@@ -114,7 +114,7 @@ ms.locfileid: "48800570"
 
 自動応答の音声認識入力は、次の言語で利用できます。
   
-|||
+|-|-|
 |:-----|:-----|
 |中国語 (ZH)  |フランス語 (FR)  |
 |英語 (AU)  |ドイツ語 (DE)  |

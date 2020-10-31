@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd066fe06126043475a7264b3b2c4501c7ac3ae
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 15b71f3c62d39f85275a9bb916b8ac4ed6f99abb
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650950"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818837"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -45,9 +45,9 @@ ms.locfileid: "48650950"
 || ![白線の入った赤い丸は、発表中を示す](media/Presence_DND.png) 発表中|
 || ![白線の入った赤い丸は、フォーカスを示す](media/Presence_DND.png) 焦点. ユーザーが自分の予定表の MyAnalytics/インサイトでフォーカス時間をスケジュールすると、フォーカスが設定されます。|
 | ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png) 退席中| ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png) 退席中|
-|| ![黄色の時計アイコンは、退席中を示す*前回の退席中表示](media/Presence_Away.png)時刻*|
+|| ![黄色の時計アイコンは、退席中を示す *前回の退席中表示](media/Presence_Away.png)時刻*|
 |![黄色の時計アイコンは、一時退席中を示す](media/Presence_Away.png) 一時退席中| |
-|![X マーク付き灰色の丸は、オフラインを示す](media/Presence_Offline.png) オフラインとして表示されます。 Teams の近日中に公開。|![X マーク付き灰色の丸は、オフラインを示す](media/Presence_Offline.png) で.  ユーザーが何分もデバイスにログインしていない場合は、オフラインとして表示されます。 | |
+|![X マーク付き灰色の丸は、オフラインを示す](media/Presence_Offline.png) オフラインとして表示する|![X マーク付き灰色の丸は、オフラインを示す](media/Presence_Offline.png) で.  ユーザーが何分もデバイスにログインしていない場合は、オフラインとして表示されます。 | |
 || ![灰色枠の丸は、状態不明を示す](media/Presence_Unknown.png) 状態不明|
 || ![矢印付き紫色の丸は、外出中を示す](media/Presence_OOF.png) 外出中です。 不在時の自動応答が設定されている場合に使用されます。 (Outlook でのみ利用できます。) |
 |||
@@ -84,10 +84,10 @@ ms.locfileid: "48650950"
 Skype for Business と Teams では、次の管理設定が異なります。
 
 - Teams では、組織内ユーザーに対してプレゼンス共有が常に有効になります。 プライバシー (プレゼンスを表示できるユーザーを定義した場合) 構成は Teams では使用できません。
-- すべてのユーザー (フェデレーション サービスを含む) とのプレゼンス共有は、Teams ユーザーに対して常に有効になっています。 連絡先リスト (Skype for Business に含まれている場合) は、**[チャット] > [連絡先]** または **[通話] > [連絡先]** で表示できます。
+- すべてのユーザー (フェデレーション サービスを含む) とのプレゼンス共有は、Teams ユーザーに対して常に有効になっています。 連絡先リスト (Skype for Business に含まれている場合) は、 **[チャット] > [連絡先]** または **[通話] > [連絡先]** で表示できます。
 - クライアントの「応答不可」と「重要な連絡先」機能は、Teams ユーザーに対して常に有効になっています。
 - カレンダー (不在およびその他のカレンダー情報を含む) は、Teams が Outlook と統合されている場合、ユーザーに対して常に有効になっています。
-- 組織で Skype for Business を使用している場合は、*[最終ログイン]* または *[退席中]* インジケータ―が、Teams ユーザーに対して常に有効になっています。
+- 組織で Skype for Business を使用している場合は、 *[最終ログイン]* または *[退席中]* インジケータ―が、Teams ユーザーに対して常に有効になっています。
 
 > [!NOTE]
 > Teams 管理者がこれらの設定をカスタマイズする機能は、現在サポートされていません。

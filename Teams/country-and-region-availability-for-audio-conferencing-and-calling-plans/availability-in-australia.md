@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをオーストラリアで利用できるようにする方法について説明します。
-ms.openlocfilehash: 5bfca9b286a264177437ca36569b943f945b6693
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8bb5d0cffc5cef59dd6a62f81973e6e96dae9fa9
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230645"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48818767"
 ---
 # <a name="availability-in-australia"></a>オーストラリアでの利用可能性
 
@@ -44,14 +44,14 @@ ms.locfileid: "44230645"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ。 [お問い合わせください](mailto:ptnapac@microsoft.com)。 <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> |連絡可能  <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
 
 ## <a name="phone-system"></a>電話システム
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-|自動応答 <br/> |連絡可能  <br/> |
+|自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |連絡可能  <br/> |
 
@@ -72,7 +72,7 @@ ms.locfileid: "44230645"
 
 2019年9月1日以降、テナントがオーストラリア以外の場所にいる場合は、オーストラリアにあるユーザーのために通話プランを購入することができます。 この機能は、次の国と地域で利用できます。
 
-|||
+|**機能**|**詳細**|
 |---------|---------|
 |南北アメリカ    |米国、米領諸島      |
 |APAC     |バングラデシュ、ブータン、ブルネイ、カンボジア、香港、インドネシア、ラオス、ティモール、マレーシア、シンガポール、ミャンマー、ネパール、フィリピン、シンガポール、スリランカ、タイ、ティモール、、ベトナム|
@@ -88,7 +88,7 @@ Telstra 通話は、オーストラリアにあるユーザーと、上に記載
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
 
-自動応答の有料または無料の電話番号を取得する必要がある場合は、通話キューまたは電話会議サービス番号に[お問い合わせください](mailto:ptnapac@microsoft.com)。
+自動応答の有料または無料の電話番号を取得する必要がある場合は、通話キューまたは電話会議サービス番号に [お問い合わせください](mailto:ptnapac@microsoft.com)。
 
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Microsoft Teams 管理センターで Teams の電話を Teams の表示にアップグレードする方法について説明します。
-ms.openlocfilehash: b1cb1e94092d833cdf80c3fa9b73e5180b66d063
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: e741374ceb377dfec2f7b8a78f0d67b8e5a70bd1
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787628"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816117"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Teams の電話を Teams のディスプレイにアップグレードする
 
@@ -70,7 +70,13 @@ Teams の電話を Teams の表示デバイスにアップグレードした後�
 
 ## <a name="known-issues"></a>既知の問題
 
-Teams の表示での濃色テーマのサポートは、今後の更新プログラムで利用できるようになります。 濃色テーマを使用するチーム電話には、アップグレード後に既定のテーマが表示されます。
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>濃色テーマではなく、Teams の表示に既定のテーマが設定されている
+
+Teams の表示での濃色テーマのサポートは、今後の更新プログラムで利用できるようになります。 濃色テーマを使用するチーム電話には、Teams へのアップグレード後に既定のテーマが表示されます。
+
+### <a name="some-apps-are-missing-from-the-home-screen"></a>一部のアプリがホーム画面に表示されない
+
+アップグレード後にホーム画面に特定のアプリが表示されない場合は、サインアウトして、もう一度サインインします。 この修正プログラムは今後の更新プログラムで提供される予定です。
 
 ## <a name="see-also"></a>関連項目
 

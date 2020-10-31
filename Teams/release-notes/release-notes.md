@@ -16,22 +16,83 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams の管理者向け機能のリリースノート。
-ms.openlocfilehash: 5e3abb22f3ac5e8cd830ea367ab259422d88e8a6
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
+ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336996"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "48816107"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams の管理者向け機能のリリースノート
 
 これらのリリースノートでは、Microsoft Teams の新しい管理機能について説明します。
 
+## <a name="october-28-2020"></a>2020年10月28日
+
+### <a name="get-started-with-teams-in-healthcare"></a>医療機関のチームを使ってみる
+
+Microsoft Teams には、次のような、病院およびその他の医療機関向けの便利な機能がいくつか用意されています。
+
+- 仮想アクセスと電子医療記録 (EHR) の統合
+- Teams ポリシーパッケージ
+- セキュリティで保護されたメッセージング
+- Teams テンプレート
+- ケアの調整と共同作業
+
+この機能は、医療機関向けの Microsoft Cloud に含まれています。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc)。
+
+## <a name="october-27-2020"></a>2020年10月27日
+
+### <a name="teams-displays"></a>Teams の表示
+
+Microsoft Teams の表示は、さまざまな機能を備えたオールインワンの専用チームデバイスであり、これを利用することで、環境のタッチスクリーンとハンズフリーのエクスペリエンスが Cortana によって実現されます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/devices/teams-displays)。
+
+## <a name="october-22-2020"></a>2020年10月22日
+
+### <a name="manage-skype-for-business-settings-for-your-users"></a>ユーザー向けの Skype for Business の設定を管理する
+
+Microsoft Teams 管理センターでは、組織内の Skype for business ユーザーの Skype for Business の設定を管理できます。  [ユーザーの詳細] ページの [Skype for Business] タブに移動します。 ここでは、個々のユーザーの外部アクセスと会議の設定を管理できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+
+### <a name="manage-skype-for-business-settings-for-your-organization"></a>組織の Skype for Business の設定を管理する
+
+Microsoft Teams 管理センターでは、組織内の Skype for business ユーザーの Skype for business の機能を管理できます。 [ **組織全体の設定** ] の [  >  **Skype for business** ] に移動します。 ここでは、Skype 会議ブロードキャスト、プレゼンス、モバイルの通知を管理することができます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+
+## <a name="october-16-2020"></a>2020年10月16日
+
+### <a name="manage-shift-based-access-for-firstline-workers"></a>Firstline Worker のシフトベースのアクセスを管理する
+
+管理者として、チームを構成して、組織内の最初の営業員がシフトの有無を示す、シフトベースのプレゼンス状態のセットを表示することができます。 シフトベースのアクセスを使用すると、Firstline Worker がシフトをオフにしている場合にチームへのアクセスを管理できます。 たとえば、チームがスケジュールされたシフトを使っていないときに、チームを使用できるようにする前に、Firstline Worker が確認する必要があるというメッセージが表示されるように設定できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
+
+## <a name="october-15-2020"></a>2020年10月15日
+
+### <a name="custom-policy-packages"></a>カスタムポリシーパッケージ
+
+*この機能はプライベートプレビュー*
+
+カスタムポリシーパッケージを使用すると、組織内で同様の役割を持つユーザーに独自のポリシーセットをバンドルすることができます。 必要なポリシーの種類とポリシーを追加して、独自のポリシーパッケージを作成します。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages)。
+
+### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームにアプリを追加する
+
+Microsoft Teams 管理センターの [アプリの管理] ページで、[ **チームに追加** ] ボタンを使用して、アプリをチームにインストールできます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/manage-apps)。
+
 ## <a name="october-1-2020"></a>2020年10月1日
+
+### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>OneDrive for Business および SharePoint で会議の記録を使用する
+
+Microsoft Teams には、会議の記録を保存するための新しい方法が用意されています。 従来の Microsoft Stream から新しいストリームへの移行の最初のフェーズとして、このメソッドは microsoft 365 の Microsoft OneDrive for Business と SharePoint にレコーディングを保存し、多くの利点を提供します。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)。
+
+### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>中小規模企業向けの無料電話会議
+
+中小規模企業で、最大300人のユーザーがいて、現在電話会議のライセンスを持っていない場合は、1年間は電話会議を無料で受けることができます。 この無料キャンペーンは、2020年10月1日から利用できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)。
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を与える
 
 チーム管理センターでは、グローバル管理者は、チームに保存されている情報の読み取り、またはユーザーの代理としてのメールの送信など、アプリが要求している権限について、Azure Active Directory に登録されている Graph API のアクセス許可に対する同意を確認して付与することができます。 これで IT 管理者は、Teams 管理センター内のアプリのリソース固有の同意 (RSC) 権限を確認できるようになります。 これにより、管理者は、組織で既に確認および承認されているサードパーティ製アプリのユーザーのブロックを解除できるようになります。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
+
+### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>オーストリア、デンマーク、イタリア、ポルトガル、スウェーデン、スイスの通話プランのサポート
+
+最近、オーストリア、デンマーク、イタリア、ポルトガル、スウェーデン、スイスの通話プランのサポートを追加しました。  [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+
 ## <a name="september-29-2020"></a>2020年9月29日
 
 ### <a name="meeting-policy-settings"></a>会議ポリシーの設定
@@ -116,7 +177,7 @@ Microsoft Teams の称賛アプリを使用すると、ユーザーは組織ま�
 
 Teams のモバイルアプリで Cortana の音声スキルを利用すれば、会話、コミュニケーション、共同作業などの作業を簡単に自然な言語で実行できるようになります。 ユーザーは、Teams アプリの [マイク] ボタンをクリックして、"通話 Megan" または "次の会議にメッセージを送信" のような要求を行うことができます。これには、仕事の最中や、外出先でも、他のユーザーと連絡を取る必要がある場合があります。 ユーザーが会議に参加するには、"次の会議に参加する" というメッセージが表示されるか、または自分の予定表を確認します。 会議または通話中に、会議ステージのオーバーフローメニューから Cortana を呼び出し、名前または番号でのユーザーの追加、デッキプレゼンテーション (「四半期のレビューデッキの開催」)、スライドへの移動などの一般的な会議のタスクを実行することができます (「付録のスライドに移動する」を参照してください)。 この機能でサポートされているその他の機能は、Teams アプリ内でのファイルの検索、共有、検索、移動です (「John とチャットを開く」の「私の未読アクティビティに移動する」を参照してください)。
 
-Teams の cortana は、 [オンラインサービス利用規約 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)に反映された、cortana enterprise サービスのエンタープライズレベルのプライバシー、セキュリティ、コンプライアンスに関する約束を満たしています。
+Teams の cortana は、 [オンラインサービス利用規約 (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)に反映された、cortana enterprise サービスのエンタープライズレベルのプライバシー、セキュリティ、コンプライアンスに関する約束を満たしています。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/cortana-in-teams)。
 
 ### <a name="teams-devices-administrator"></a>Teams デバイス管理者
 
@@ -126,7 +187,7 @@ Teams の cortana は、 [オンラインサービス利用規約 (OST)](https:/
 
 ### <a name="lists-app-in-teams"></a>Teams でのアプリの一覧
 
-Teams ユーザーは、[リスト] アプリタブを使って、リストの管理、作成、管理を直接行うことができるようになりました。リストアプリは、すべてのチームクライアントで動作し、リストアイテムに関する共同作業とコミュニケーションを可能にします。 リストアプリの管理方法の詳細については、「 [組織のリストアプリを管理](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)する」を参照してください。
+Teams ユーザーは、[リスト] アプリタブを使って、リストの管理、作成、管理を直接行うことができるようになりました。リストアプリは、すべてのチームクライアントで動作し、リストアイテムに関する共同作業とコミュニケーションを可能にします。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)。
 
 ## <a name="august-6-2020"></a>2020年8月6日
 
@@ -144,12 +205,6 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 開発者は、Teams App submit API を使って、管理者がレビューおよび承認できるように、Microsoft Teams 管理センターにカスタムアプリを直接送信できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps)。
 
-## <a name="july-31-2020"></a>2020年7月31日
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>管理者は、Firstline Worker のシフトベースのプレゼンス (シフトの場合はシフト) を構成できます。
-
-管理者は、シフトベースのプレゼンス状態を使用するように firstline ワーカーを構成できます。シフト、取り込み中 (シフト中は切り替え可能)、shift キーをオフにすることができます。
-
 ## <a name="july-29-2020"></a>2020年7月29日
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>デバイスタグ機能を使用した管理性の向上
@@ -158,7 +213,7 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 ### <a name="view-only-in-meetings"></a>会議でのみ表示する
 
-[表示のみ] では、2万のリッスン専用参加者が、上級通信アドオン SKU のライセンスを持っている会議に参加することができます。1これは、プレビュー版または初期リリースの機能です。 [詳細情報](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
+[表示のみ] では、2万のリッスン専用参加者が、上級通信アドオン SKU のライセンスを持っている会議に参加することができます。1これは、プレビュー版または初期リリースの機能です。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)。
 
 ## <a name="july-28-2020"></a>2020年7月28日
 
@@ -176,13 +231,13 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 ### <a name="ndi-out-for-teams-meetings"></a>Teams 会議用の NDI
 
-チーム会議への NDI を有効にする機能が追加されました。 NDI Out は、会議の音声とビデオをビデオ製造ツールで利用できるようにすることを可能にします。 [詳細情報を参照してください](../use-ndi-in-meetings.md)。
+チーム会議への NDI-Out を有効にする機能が追加されました。 NDI-Out は、会議の音声とビデオをビデオ製造ツールで利用できるようにします。 [詳細情報を参照してください](../use-ndi-in-meetings.md)。
 
 ## <a name="july-15-2020"></a>2020年7月15日
 
 ### <a name="enable-suggested-replies"></a>返信の候補を有効にする
 
-チャットメッセージの返信の候補を有効にするには、この設定をオンにします。 [詳細情報](../messaging-policies-in-teams.md)
+チャットメッセージの返信の候補を有効にするには、この設定をオンにします。 [詳細情報を参照してください](../messaging-policies-in-teams.md)。
 
 ## <a name="july-9-2020"></a>2020年7月9日
 
@@ -194,7 +249,7 @@ Teams アプリは無料でインストールでき、アプリの完全な機�
 
 ### <a name="policy-packaging-batch-assignment"></a>ポリシーパッケージのバッチ割り当て
 
-PowerShell を使用して、ユーザーとグループのポリシーパッケージを割り当てることができました。
+PowerShell を使用して、ユーザーとグループのポリシーパッケージを割り当てることができました。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/manage-policy-packages)。
 
 ## <a name="july-7-2020"></a>2020年7月7日
 
@@ -210,7 +265,7 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="transferring-incoming-calls"></a>着信通話の転送
 
-自動応答と通話キューの着信通話を外部 PSTN 電話番号に転送する機能が追加されました。  [詳細情報を参照してください](../business-voice/set-up-auto-attendants.md)。
+自動応答と通話キューの着信通話を外部 PSTN 電話番号に転送する機能が追加されました。 [詳細情報を参照してください](../business-voice/set-up-auto-attendants.md)。
 
 ## <a name="june-30-2020"></a>2020年6月30日
 
@@ -226,7 +281,7 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams での ie トランシーバーアプリの解説
 
-プッシュツートークを使ったインスタント音声通信。
+プッシュツートークを使ったインスタント音声通信。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/walkie-talkie)。
 
 ## <a name="june-25-2020"></a>2020年6月25日
 
@@ -248,7 +303,7 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="monitor-shifts-with-audit-logs"></a>監査ログでシフトを監視する
 
-監査ログを検索して、組織内のシフトアクティビティを表示できます。 [詳細情報](<https://docs.microsoft.com/microsoftteams/audit-log-events>.
+監査ログを検索して、組織内のシフトアクティビティを表示できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/audit-log-events)。
 
 ## <a name="june-11-2020"></a>2020年6月11日
 
@@ -300,7 +355,7 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="enable-organizers-to-change-lobby-settings-for-dial-in-participants"></a>開催者がダイヤルイン参加者のロビー設定を変更できるようにする
 
-この設定では、スマートフォンでダイヤル インするユーザーが会議に直接参加するのか、[**ユーザーの参加を自動的に許可する**] の設定に関わらずロビーで待機するのかを制御します。
+この設定では、スマートフォンでダイヤル インするユーザーが会議に直接参加するのか、[ **ユーザーの参加を自動的に許可する** ] の設定に関わらずロビーで待機するのかを制御します。
 
 ## <a name="april-8-2020"></a>2020年4月8日
 
@@ -318,7 +373,7 @@ Microsoft Teams クライアントでは、realwear の ruggedized ヘッドマ�
 
 ### <a name="tag-youre-it"></a>タグが表示されている
 
-グループ、役割、部門などの @mention できるように、タグを作成してユーザーをそのユーザーに割り当てることができます。チームの所有者は、長らくにお試しください。 チームに移動し、[**その他のオプション**] の [タグの管理] を選択し  >  **Manage tags**ます。 [詳細情報を参照してください](../manage-tags.md)。
+グループ、役割、部門などの @mention できるように、タグを作成してユーザーをそのユーザーに割り当てることができます。チームの所有者は、長らくにお試しください。 チームに移動し、[ **その他のオプション** ] の [タグの管理] を選択し  >  **Manage tags** ます。 [詳細情報を参照してください](../manage-tags.md)。
 
 ## <a name="march-30-2020"></a>2020年3月30日
 
