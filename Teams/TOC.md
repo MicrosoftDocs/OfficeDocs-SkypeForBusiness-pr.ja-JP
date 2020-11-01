@@ -40,7 +40,6 @@
 ## [people manager teams を作成する](create-manager-directs-teams.md)
 ## [チームとチャネル ポリシーを管理する](teams-policies.md)
 ## [Teams の機密度ラベル](sensitivity-labels.md)
-## [Teams でプライベート チームの検索を管理する](manage-discovery-of-private-teams.md)
 ## [Teams でチャネルのモデレートを設定する](manage-channel-moderation-in-teams.md)
 ## [Teams でファイルを共有する](sharing-files-in-teams.md)
 ## [Teams と Outlook のメールの統合](teams-outlook-email-integration.md)
@@ -1015,3 +1014,4 @@
 ## [探索アンケートをアップグレードする](upgrade-plan-journey-discovery-questionnaire.md)
 ## [Microsoft Teams エクスポート API を使ってコンテンツをエクスポートする](export-teams-content.md)
 ## [Teams 管理者機能のリリースノート](release-notes/release-notes.md)
+## [Microsoft Teams でのパブリック プレビュー](public-preview-doc-updates.md)
