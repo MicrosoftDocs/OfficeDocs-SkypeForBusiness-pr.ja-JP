@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams の自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: 513950c51035496ec1691fd9ac584467fe734827
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803796"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820015"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -48,7 +48,7 @@ ms.locfileid: "48803796"
 
 ## <a name="general-info"></a>一般的な情報
 
-![](media/auto-attendant-general-info-page-new.png)
+![名前、演算子、タイムゾーン、言語、および音声入力の自動応答設定のスクリーンショット](media/auto-attendant-general-info-page-new.png)
 
 1. 上部のボックスに自動応答の名前を入力します。
 
@@ -64,7 +64,7 @@ ms.locfileid: "48803796"
 
 ## <a name="call-flow"></a>コールフロー
 
-![](media/auto-attendant-call-flow-greeting-message.png)
+![応答メッセージの設定のスクリーンショット](media/auto-attendant-call-flow-greeting-message.png)
 
 自動応答が着信に応答したときに応答メッセージを再生するかどうかを選びます。
 
@@ -72,7 +72,7 @@ ms.locfileid: "48803796"
 
 [ **グリーティングメッセージの入力** ] を選択した場合は、自動応答が着信に応答したときに、入力したテキスト (最大1000文字) のテキストが読み上げられます。
 
-![](media/auto-attendant-call-flow-route-call-message.png)
+![通話ルーティング設定のスクリーンショット](media/auto-attendant-call-flow-route-call-message.png)
 
 通話のルーティング方法を選択します。
 
@@ -84,7 +84,7 @@ ms.locfileid: "48803796"
 
 ### <a name="menu-options"></a>メニューオプション
 
-![](media/auto-attendant-call-flow-menu-options-complete.png)
+![ダイヤルキーオプションのスクリーンショット](media/auto-attendant-call-flow-menu-options-complete.png)
 
 ダイヤルオプションの場合、電話のキーパッドの0-9 キーをいずれかの通話ルーティング先に割り当てることができます。 (キー \* (繰り返し) と \# (戻る) は、システムによって予約されているため、再割り当てすることはできません。
 
@@ -129,7 +129,7 @@ ms.locfileid: "48803796"
 
 ## <a name="call-flow-for-after-hours"></a>営業時間外の通話フロー
 
-![](media/auto-attendant-business-hours.png)
+![時間と時刻の設定後のスクリーンショット](media/auto-attendant-business-hours.png)
 
 営業時間は、自動応答ごとに設定できます。 勤務時間が設定されていない場合、24/7 のスケジュールは既定で設定されているため、その日のすべての曜日とすべての時間は営業時間と見なされます。 営業時間は、その日の休暇によって設定できます。また、業務時間として設定されていない時間は、時間の経過に応じて処理されます。 異なる着信通話処理オプションと応答メッセージは、時間経過に応じて設定できます。
 
@@ -143,7 +143,7 @@ ms.locfileid: "48803796"
 
 ## <a name="call-flows-during-holidays"></a>休日中の通話フロー
 
-![](media/auto-attendant-holiday-greeting.png)
+![ホリデーシーズンとホリデーシーズンの案内応答の設定のスクリーンショット](media/auto-attendant-holiday-greeting.png)
 
 自動応答には、設定した [休日](set-up-holidays-in-teams.md)ごとにコールフローを設定することができます。 各自動応答には、最大 20 個の決められた休業日を追加できます。
 
@@ -155,7 +155,7 @@ ms.locfileid: "48803796"
 
 4. 使用する応答メッセージの種類を選びます。
 
-    ![](media/auto-attendant-holiday-actions.png)
+    ![ホリデー呼のアクション設定のスクリーンショット](media/auto-attendant-holiday-actions.png)
 
 5. 通話を **切断** するか、または **リダイレクト** するかを選びます。
 
@@ -163,7 +163,7 @@ ms.locfileid: "48803796"
 
 7. [ **保存** ] をクリックします。
 
-![](media/auto-attendant-holiday-call-settings.png)
+![休日が表示されている休日の設定のスクリーンショット](media/auto-attendant-holiday-call-settings.png)
 
 追加の休日ごとに、必要に応じて手順を繰り返します。
 
@@ -171,7 +171,7 @@ ms.locfileid: "48803796"
 
 ## <a name="dial-scope"></a>ダイヤルスコープ
 
-![](media/auto-attendant-dial-scope.png)
+![ダイヤルスコープのオプションと除外オプションのスクリーンショット](media/auto-attendant-dial-scope.png)
 
 *ダイヤルスコープ* は、発信者がダイヤルバイネームまたはダイヤルバイエクステンションを使用しているときに、どのユーザーがディレクトリで利用できるかを定義します。 **すべてのオンラインユーザー** の既定値には、電話システムのライセンスを持っているか、または Skype For business Server を使用してオンプレミスでホストされている組織内のすべてのユーザーが含まれます。
 
@@ -186,11 +186,11 @@ ms.locfileid: "48803796"
 
 自動応答には、リソースアカウントが関連付けられている必要があります。  第1レベルの自動応答には、サービス番号が関連付けられた少なくとも1つのリソースアカウントが必要です。 必要に応じて、複数のリソースアカウントを1つの自動応答に割り当てることができます。それぞれに個別のサービス番号を指定できます。
 
-![](media/auto-attendant-add-resource-account.png)
+![リソースアカウントの [アカウントの追加] パネルのスクリーンショット](media/auto-attendant-add-resource-account.png)
 
 リソースアカウントを追加するには、[ **アカウントの追加** ] をクリックして、追加するアカウントを検索します。 [ **追加** ] をクリックし、[ **追加** ] をクリックします。
 
-![](media/auto-attendant-resource-account-assigned.png)
+![割り当てられたサービス番号のリソースアカウントを示すリソースアカウント一覧のスクリーンショット](media/auto-attendant-resource-account-assigned.png)
 
 サービスアカウントの追加が完了したら、[ **送信** ] をクリックします。 これで自動応答の構成が完了します。
 
@@ -216,23 +216,23 @@ ms.locfileid: "48803796"
 
 PowerShell を使用して自動応答を作成し、設定することもできます。 自動応答を管理するために必要なコマンドレットを以下に示します。
 
-- [新しい-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [CsAutoAttendant の入手](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
-- [CsAutoAttendant の削除](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
-- [新規-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
-- [新しい-Csonline Audiofile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
-- [新規-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [エクスポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
-- [新規-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [インポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
-- [新規-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
+- [新しい-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
+- [CsAutoAttendant の入手](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
+- [CsAutoAttendant の削除](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
+- [新規-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
+- [新しい-Csonline Audiofile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
+- [新規-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [エクスポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [新規-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [インポート-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
+- [新規-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 
 ## <a name="related-topics"></a>関連項目

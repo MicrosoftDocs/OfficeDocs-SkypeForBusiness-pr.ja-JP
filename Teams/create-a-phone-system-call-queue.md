@@ -1,5 +1,5 @@
 ---
-title: 呼び出しキューを作成する
+title: Microsoft Teams で通話キューを作成する
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft Teams で通話キューの電話システムをセットアップする方法について説明します。これにより、グリーティングメッセージの送信、音楽の保留、リダイレクト、その他の機能を行うことができます。
-ms.openlocfilehash: 31826d1090835a073551e3639cb6105feb16d650
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: 9825c6ed1780efa78bfdbc86911e9b403be589f6
+ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793525"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "48820028"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -50,7 +50,7 @@ ms.locfileid: "48793525"
 
 ## <a name="resource-account-and-language"></a>リソースアカウントと言語
 
-![](media/call-queue-name-language.png)
+![リソースのアカウントと言語の設定のスクリーンショット](media/call-queue-name-language.png)
 
 1. 通話キューの名前を入力します。 キューからの着信通話を受信すると、エージェントはこの名前を表示します。
 
@@ -77,7 +77,7 @@ ms.locfileid: "48793525"
 - オンプレミスの Skype for Business Server ユーザー
 - 使用しているエージェントで、Microsoft Teams アプリを呼び出しキューとして使用している場合は、そのモードである必要があります。
 
-![](media/call-queue-users-groups.png)
+![通話キューの [ユーザーとグループ] 設定のスクリーンショット](media/call-queue-users-groups.png)
 
 最大20個のエージェントを個別に追加したり、グループを使用して最大で200のエージェントを追加したりできます。
 
@@ -90,7 +90,7 @@ ms.locfileid: "48793525"
 
 ## <a name="call-routing"></a>通話ルーティング
 
-![](media/call-queue-conference-mode-routing-method.png)
+![会議モードとルーティング方法の設定のスクリーンショット](media/call-queue-conference-mode-routing-method.png)
 
 **会議モード** では、エージェントが通話を受け入れた後に、発信者がエージェントに接続するのにかかる時間が大幅に短縮されます。 会議モードで機能するには、通話キュー内のエージェントで次のいずれかのクライアントを使用する必要があります。
 
@@ -112,7 +112,7 @@ ms.locfileid: "48793525"
 
 - [ **最長アイドル** 時間 (idle) を選びます。通話は、アイドル状態になっているエージェントへの通話ごとに最も長い時間がかかる。 エージェントは、プレゼンス状態が利用可能な場合、またはプレゼンス状態が10分未満に退席中の場合に、アイドルと見なされます。 10分以上放置されているプレゼンス状態を持つエージェントは、アイドルと見なされず、通話を受信可能に変更するまで、着信を受けることはできません。 
 
-![](media/call-queue-presence-agents-time.png)
+![ルーティング、オプトイン、およびアラート時間の設定のスクリーンショット](media/call-queue-presence-agents-time.png)
 
 
 **プレゼンスベースのルーティング** では、選択したルーティングメソッドの呼び出しルーティングリストにエージェントを含める必要があるかどうかを判断するために、通話エージェントの状態が使用可能になります。 連絡可能状態が [ **利用可能** ] に設定されている通話エージェントは、通話ルーティングリストに含まれており、着信を受け取ることができます。 可用性の状態が「その他」の状態に設定されているエージェントは、通話ルーティングリストから除外され、その状態が [連絡 **可能** ] に戻るまでは通話を受信しません。 
@@ -135,18 +135,18 @@ ms.locfileid: "48793525"
 
 ## <a name="call-overflow-handling"></a>通話オーバーフロー処理
 
-![](media/call-queue-overflow-handling.png)
+![通話のオーバーフロー設定のスクリーンショット](media/call-queue-overflow-handling.png)
 
 **キュー内の最大の通話** キューで待機できる通話の最大数を指定します。 既定値は50ですが、0 ~ 200 の範囲で指定できます。 この制限に達すると、通話 **の最大数に達したとき** にによって指定された呼び出しが処理されます。
 
-通話を切断するか、いずれかの通話ルーティング先にリダイレクトするかを選択できます。 たとえば、キュー内のエージェントのボイスメールを発信者が退出させている場合があります。
+通話を切断するか、オペレーター以外の [通話ルーティング先](create-a-phone-system-auto-attendant.md#call-routing-options) にリダイレクトするかを選ぶことができます。 たとえば、キュー内のエージェントのボイスメールを発信者が退出させている場合があります。 (外部番号に転送する場合は、 [これらの情報](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#external-phone-number-transfers---technical-details) に注意してください)。
 
 > [!NOTE]
 > 通話の最大数が0に設定されている場合、グリーティングメッセージは再生されません。
 
 ## <a name="call-timeout-handling"></a>通話タイムアウト処理
 
-![](media/call-queue-timeout-handling.png)
+![通話タイムアウト設定のスクリーンショット](media/call-queue-timeout-handling.png)
 
 **通話タイムアウト: 待ち時間** の最大値を指定すると、通話がリダイレクトされるか切断されるまでの間、キュー内で通話を保留できます。 15秒から45分までの値を指定できます。
 
@@ -181,13 +181,13 @@ ms.locfileid: "48793525"
 
 Windows PowerShell を使用して通話キューを作成し、設定することもできます。 通話キューを管理するために使用するコマンドレットを以下に示します。
 
-- [新規-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
+- [新規-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>関連項目
 
@@ -197,6 +197,6 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[新しい Csonline Applicationinstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+[新しい Csonline Applicationinstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
