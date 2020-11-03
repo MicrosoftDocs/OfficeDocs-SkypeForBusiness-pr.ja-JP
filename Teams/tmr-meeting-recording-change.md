@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e57587ea428d8395b65553fc05d1964daa5fb61
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778860"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827751"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と、会議の記録に SharePoint または Stream を使用する
 
@@ -110,7 +110,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |社内関係者との1:1 通話             |[発信者]                 |発信者の OneDrive for business アカウント                        |発信者が所有者であり、完全な権限を持っている <br /><br />呼び出し元 (同じテナント内の場合) は読み取り専用アクセス権を持ち、共有アクセスはありません。 <br /><br /> 呼び出し先 (別のテナントの場合) にはアクセスできません。 呼び出し元は呼び出し元に共有する必要があります|
 |社内関係者との1:1 通話             |[呼び出し先]                 |呼び出し先の OneDrive for business アカウント                        |呼び出し先が所有者であり、完全な権限を持つ <br /><br />発信者 (同じテナント内の読み取り専用のアクセス権を持っている場合は、共有アクセス権がありません) <br /><br />発信者 (別のテナントの場合) にアクセスできません。 呼び出し先は呼び出し先に共有する必要があります|
 |外部通話での1:1 通話             |[発信者]                 |発信者の OneDrive for business アカウント                        |発信者が所有者であり、完全な権限を持っている<br /> <br />呼び出し先にアクセスできません。 呼び出し元は呼び出し元に共有する必要があります|
-|外部通話での1:1 通話             |[呼び出し先]                 |発信者の OneDrive for business アカウント                        | 呼び出し先が所有者であり、完全な権限を持つ<br /><br />発信者にはアクセスできません。 呼び出し元は呼び出し元に共有する必要があります|
+|外部通話での1:1 通話             |[呼び出し先]                 |呼び出し先の OneDrive for business アカウント                        | 呼び出し先が所有者であり、完全な権限を持つ<br /><br />発信者にはアクセスできません。 呼び出し元は呼び出し元に共有する必要があります|
 |グループ通話                                 |通話の任意のメンバー |レコードの OneDrive for Business アカウントをクリックしたメンバー  |レコードをクリックしたメンバーがすべての権限を持っているメンバー <br /><br /> 同じテナントの他のメンバーには読み取り権限があります <br /><br /> 別のテナントの他のメンバーには、権限がありません。|
 |アドホック/スケジュールされた会議                    |[開催者]              |開催者の OneDrive for business アカウント                     | 開催者はレコーディングへのフル権限を持っています <br /><br /> 会議の他のすべてのメンバーが読み取りアクセス権を持っている|
 |アドホック/スケジュールされた会議                    |その他の会議メンバー   |レコードをクリックしたメンバー                                  | レコードをクリックしたメンバーがレコーディングに対するフル権限を持っている <br />開催者は編集権限を持ち、共有できます <br /><br /> 他のすべてのメンバーには読み取りアクセス権がある|

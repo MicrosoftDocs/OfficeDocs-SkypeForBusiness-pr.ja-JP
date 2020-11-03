@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams の自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: f3e2bf8d2e032bb89e9bb6a3fc05f3b39eb9d458
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48820015"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48840423"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -199,7 +199,10 @@ ms.locfileid: "48820015"
 外部電話番号に通話を転送する場合、自動応答または通話キューに関連付けられているリソースアカウントには、電話番号と Microsoft 365 電話システム仮想ユーザーライセンスが必要です。 かつ：
 
 - 通話プラン番号を持つリソースアカウントの場合は、 [通話プラン](calling-plans-for-office-365.md) ライセンスを割り当てます。
+  - 外部転送用の電話番号は、164形式 (+ CC + phone_number) で入力する必要があります。
+
 - 直接ルーティング番号を持つリソースアカウントの場合は、 [オンラインボイスルーティングポリシー](manage-voice-routing-policies.md)を割り当てます。
+  - 外部転送用の電話番号形式は、 [セッションボーダーコントローラー (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) 設定に依存します。
 
 表示される発信電話番号は、次のように決定されます。
 

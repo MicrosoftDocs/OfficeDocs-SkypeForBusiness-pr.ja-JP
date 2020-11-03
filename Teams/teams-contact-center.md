@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f0989c8fade3461418e86713dfb758bc7dfbbcc
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 0fb65edc260c5a91ee51a32c6c3796e2773ba179
+ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424627"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "48827741"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
@@ -54,6 +54,7 @@ Api を使用すると、パートナーは、チームの CCaaS の開発と統
 | Landis Technologies | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | NICE inContact | https://www.niceincontact.com/microsoft-teams                                                            |
+| いいえ。 | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
@@ -90,19 +91,19 @@ Microsoft Teams には、次のようなサードパーティの音声ソリュ�
 
 以下は、この統合モデルの機能の包括的なリストではありませんが、フォーカス領域には次のものが含まれます。
 
-  - Office 365 authN により、エージェントは、統合された CCaaS クライアントから Microsoft テナントに接続できるようになります 
+  - Office 365 authN により、エージェントは、統合された CCaaS クライアントから Microsoft テナントに接続できるようになります 
 
-  - Teams ユーザーからのプレゼンス表示 
+  - Teams ユーザーからのプレゼンス表示 
 
-  - ダイレクト ルーティングを使用した通話フロー (テスト プランに記載のとおり) 
+  - ダイレクト ルーティングを使用した通話フロー (テスト プランに記載のとおり) 
 
-  - Teams ユーザーとの転送とグループ通話のサポート 
+  - Teams ユーザーとの転送とグループ通話のサポート 
 
-  - Teams との統合のための Teams Graph API とクラウド通信 API 
+  - Teams との統合のための Teams Graph API とクラウド通信 API 
 
-  - マルチテナント SIP トランクをサポートして、複数の顧客をパートナーの SBC でサポートできるようにします。  
+  - マルチテナント SIP トランクをサポートして、複数の顧客をパートナーの SBC でサポートできるようにします。  
 
-  - [<span class="underline">Microsoft 認定セッション ボーダー コントローラー (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) を実装するパートナー 
+  - [<span class="underline">Microsoft 認定セッション ボーダー コントローラー (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) を実装するパートナー 
 
 ### <a name="connect-and-extend"></a>接続と拡張
 
@@ -116,11 +117,11 @@ Microsoft Teams には、次のようなサードパーティの音声ソリュ�
 
 以下は、この統合モデルの機能の包括的なリストではありませんが、主要なフォーカス領域を強調しています。
 
-  - Teams との統合のための Teams Graph API とクラウド通信 API 
+  - Teams との統合のための Teams Graph API とクラウド通信 API 
 
-  - エージェント エクスペリエンス用の Teams ベースのアプリ 
+  - エージェント エクスペリエンス用の Teams ベースのアプリ 
 
-  - エージェントのプライマリ通話エンドポイントとしての Teams 
+  - エージェントのプライマリ通話エンドポイントとしての Teams 
 
   - すべての通話コントロールを対象とした Teams クライアントの呼び出し
 
@@ -128,9 +129,9 @@ Microsoft Teams には、次のようなサードパーティの音声ソリュ�
 
   - Teams 内の CCaaS アプリ内のエージェントに対する分析、ワークフロー管理、役割ベースの操作
 
-  - Teams クライアントと統合されたチャットと共同作業操作 
+  - Teams クライアントと統合されたチャットと共同作業操作 
 
-  - すべてのアプリでの Teams クライアント操作のパフォーマンスと品質の維持  
+  - すべてのアプリでの Teams クライアント操作のパフォーマンスと品質の維持  
 
 ### <a name="extend-and-power"></a>拡張とパワー
 
@@ -144,13 +145,13 @@ Azure に直接構築することで、パートナーはすべてのチーム�
 
 以下は、この統合モデルの機能の包括的なリストではありませんが、接続と拡張モデルによって提供される領域に加えて、次の領域が含まれます。
 
-  - 正式なエージェントでは、Teams SDK を介してオムニチャネル通信がネイティブで有効になります 
+  - 正式なエージェントでは、Teams SDK を介してオムニチャネル通信がネイティブで有効になります 
 
-  - Teams の共同作業サービスを活用してエージェントの共同作業と顧客との対話を実現  
+  - Teams の共同作業サービスを活用してエージェントの共同作業と顧客との対話を実現  
 
-  - クラウド サービスの迅速なプロビジョニング、どこからでも展開 
+  - クラウド サービスの迅速なプロビジョニング、どこからでも展開 
 
-  - Teams での会話中に、直接会話を制御し、対話することができます 
+  - Teams での会話中に、直接会話を制御し、対話することができます 
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>コネクテッド コンタクト センターの統合モデルを比較する
 
@@ -160,10 +161,10 @@ Microsoft Teams でサポートされている統合モデルの概要につい�
 <thead>
 <tr class="header">
 <th></th>
-<th><strong>Teams の音声アプリ</strong></th>
-<th><strong>接続</strong></th>
-<th><strong>接続 + 拡張</strong></th>
-<th><strong>拡張 + パワー</strong></th>
+<th>Teams の音声アプリ</th>
+<th>接続</th>
+<th>はみ出す</th>
+<th>活用</th>
 </tr>
 </thead>
 <tbody>
@@ -210,7 +211,8 @@ Microsoft Teams でサポートされている統合モデルの概要につい�
 <td>プラットフォーム<br />
 (通話プラン + ダイレクト ルーティング)</td>
 <td>ダイレクト ルーティング</td>
-<td>ダイレクト ルーティング</td>
+<td>プラットフォーム<br />
+(通話プラン + ダイレクト ルーティング)</td>
 <td>プラットフォーム<br />
 (通話プラン + ダイレクト ルーティング)</td>
 </tr>
