@@ -67,7 +67,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |機能  | 上限  |
 |---------|---------|
 |プライベート チャットに参加できるユーザー数 <sup>1</sup>  | 250 人 |
-|ビデオまたは音声通話でチャットに参加できるユーザーの数 | 20 |
+|チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
 |添付ファイルの数 <sup>2</sup>  |10     |
 |チャットのサイズ | 投稿ごとに約 28 KB<sup>3</sup> |
 
@@ -122,13 +122,13 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 >- Teams テナントごとに最大 50 の同時イベント
 >- ブロードキャストあたり最大 16 時間
 >
-> さらに、Microsoft 365 支援プログラムを通じて、最大 10 万人が参加するライブイベントを計画できます。 チームは各要求を評価し、お客様と協力して利用可能なオプションを決定します。 [詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日以降、これらの制限の引き上げが必要なお客様は、[Advanced Communications](teams-add-on-licensing/advanced-communications.md) アドオンを購入する必要があります。**
+> さらに、Microsoft 365 支援プログラムを通じて、最大 10 万人が参加するライブイベントを計画できます。 チームは各要求を評価し、お客様と協力して利用可能なオプションを決定します。 [詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日以降、これらの制限の引き上げが必要なお客様は、 [Advanced Communications](teams-add-on-licensing/advanced-communications.md) アドオンを購入する必要があります。**
 
 
 |機能     | 上限 |
 |------------|---------------|
 |会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 300 |
-|ビデオまたは音声通話でチャットに参加できるユーザーの数 | 20 |
+|チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
 
@@ -169,7 +169,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 > - Teams テナントごとに最大 50 の同時イベント
 > - ブロードキャストあたり最大 16 時間
 >
-> さらに、Microsoft 365 支援プログラムを通じて、最大 10 万人が参加するライブイベントを計画できます。 チームは各要求を評価し、お客様と協力して利用可能なオプションを決定します。 [詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日以降、これらの制限の引き上げが必要なお客様は、[Advanced Communications](teams-add-on-licensing/advanced-communications.md) アドオンを購入する必要があります。**
+> さらに、Microsoft 365 支援プログラムを通じて、最大 10 万人が参加するライブイベントを計画できます。 チームは各要求を評価し、お客様と協力して利用可能なオプションを決定します。 [詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日以降、これらの制限の引き上げが必要なお客様は、 [Advanced Communications](teams-add-on-licensing/advanced-communications.md) アドオンを購入する必要があります。**
 
 ## <a name="presence-in-outlook"></a>Outlook でのプレゼンス
 
@@ -234,9 +234,9 @@ Teams は次の連絡先を使用します。
 - 組織の Active Directory の連絡先
 - ユーザーの Outlook 既定フォルダーに追加された連絡先
 
-Teams ユーザーは、組織の Active Directory 内の任意のユーザと通信できます。また、[**チャット**]  >  [**連絡先**] または [**通話**]  >  [**連絡先**] に移動して、組織の Active Directory 内の任意のユーザを連絡先として連絡先リストに追加できます。
+Teams ユーザーは、組織の Active Directory 内の任意のユーザと通信できます。また、[ **チャット** ]  >  [ **連絡先** ] または [ **通話** ]  >  [ **連絡先** ] に移動して、組織の Active Directory 内の任意のユーザを連絡先として連絡先リストに追加できます。
 
-Teams ユーザーは、[**通話**]  >  [**連絡先**] に移動して、組織の Active Directory にない人を連絡先として追加することもできます。
+Teams ユーザーは、[ **通話** ]  >  [ **連絡先** ] に移動して、組織の Active Directory にない人を連絡先として追加することもできます。
 
 ## <a name="browsers"></a>ブラウザー
 
