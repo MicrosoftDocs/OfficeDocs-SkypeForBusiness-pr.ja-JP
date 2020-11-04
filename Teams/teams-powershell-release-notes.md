@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell での最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814416"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852168"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell リリースノート
 
@@ -31,14 +31,15 @@ ms.locfileid: "47814416"
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
+| 2020年11月 | [1.1.7-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>MSAL for authentication & authorization</li><li>リファクタリングされたポリシーパッケージコマンドレットとグループパッケージの割り当てを追加する</li><li>非同期モデルを使用するためのリファクタリングされた階層化ターゲット階層のアップロードコマンド</li> |
 | 2020年9月 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype for Business Online のコネクタの統合</li> |
 | 2020年9月 | [1.1.5-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype for Business Online のコネクタの統合</li> |
 | 2020年7月 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>追加された [グループポリシーの割り当てコマンドレット](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
-| 2020年6月 | [1.1.3-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype for Business Online のコネクタの統合<li>取得-チームの最適化<li>信頼性の向上</li> |
+| 2020年6月 | [1.1.3-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype for Business Online のコネクタの統合<li>Get-Team の最適化<li>信頼性の向上</li> |
 | 2020年6月 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>コマンドレットのプリロードを追加しました<li>.Net Framework の最適化</li>   |
-| 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode とアセンブリの署名<li>Get-CsPolicyPackage を追加しました<li>Get-CsUserPolicyPackage を追加しました<li>Get-CsUserPolicyPackageRecommendation を追加しました<li>Grant-CsUserPolicyPackage を追加しました<li>新しく追加されました-CsBatchPolicyPackageAssignmentOperation<li>Set-TeamArchivedState を追加しました<li>追加された設定-TeamPicture<li>Teams のヘルプを削除しました</li>  |
-| 2020 年 3 月 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>新しく追加されました-CsBatchPolicyAssignmentOperation</li> |
-| 2020年2月 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>取得-チームの最適化</li>  |
+| 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode とアセンブリの署名<li>Get-CsPolicyPackage を追加しました<li>Get-CsUserPolicyPackage を追加しました<li>Get-CsUserPolicyPackageRecommendation を追加しました<li>Grant-CsUserPolicyPackage を追加しました<li>New-CsBatchPolicyPackageAssignmentOperation を追加しました<li>Set-TeamArchivedState を追加しました<li>Set-TeamPicture を追加しました<li>Get-TeamHelp を削除しました</li>  |
+| 2020 年 3 月 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>New-CsBatchPolicyAssignmentOperation を追加しました</li> |
+| 2020年2月 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team の最適化</li>  |
 
 ### <a name="cmdlet-availability"></a>コマンドレットの可用性
 
@@ -94,9 +95,9 @@ ms.locfileid: "47814416"
 
 [Teams PowerShell の概要](teams-powershell-overview.md)
 
-[Teams PowerShell のインストール](teams-powershell-install.md)
+[Teams Powershell のインストール](teams-powershell-install.md)
 
-[Teams PowerShell を使用してチームを管理する](teams-powershell-managing-teams.md)
+[Teams PowerShell での Teams の管理](teams-powershell-managing-teams.md)
 
 [Microsoft Teams コマンドレット リファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 

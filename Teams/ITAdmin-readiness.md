@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
-ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
+ms.openlocfilehash: d6aee7356a682dcef8d052d450e6ae8809b4b20f
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48426932"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878371"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの概要
 
@@ -33,7 +33,7 @@ ms.locfileid: "48426932"
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![手のアイコンと上向き矢印](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [一部のチームとチャンネルですばやく始めましょう](/MicrosoftTeams/get-started-with-teams-quick-start) | ![2人のユーザーを示すアイコン](https://docs.microsoft.com/office/media/icons/users-people.png) | [ユーザー向けのトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![チェックマークを示すアイコン](https://docs.microsoft.com/office/media/icons/success-teams.png) | [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![タスククリップボードのアイコン](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30のチーム: IT 管理者のためのトレーニングシリーズで、30日以内にチームを導入するための管理リーダーを変更します。](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+| ![チェックマークを示すアイコン](https://docs.microsoft.com/office/media/icons/success-teams.png) | [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![タスククリップボードのアイコン](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams のチョーク: 人気のチームシナリオに関するベストプラクティスと実用的なガイダンスについて説明します。](https://aka.ms/TeamsChalkTalks) |
 
 <h2>テクニカルなトレーニング</h2>
 

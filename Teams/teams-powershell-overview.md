@@ -13,16 +13,16 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
-ms.translationtype: HT
+ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814366"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852158"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell の概要
 
-Microsoft Teams PowerShell は、PowerShell コマンド ラインから直接 Teams を管理するための一連のコマンドレットです。 .NET Standard で記述された Teams PowerShell は、Windows 上の PowerShell 5.1、PowerShell 6.x 以降、Azure Shell を含むすべてのプラットフォームで動作します。
+Microsoft Teams PowerShell は、PowerShell コマンド ラインから直接 Teams を管理するための一連のコマンドレットです。 作成された .NET Standard では、Teams PowerShell は、Azure Cloud Shell を含むすべてのプラットフォームで PowerShell 5.1 x 以降で動作します。
 
 PowerShell の使用を開始する前に、[それをインストール](teams-powershell-install.md)する必要があります。 
 
@@ -34,9 +34,9 @@ PowerShell の使用を開始する前に、[それをインストール](teams-
 
 Teams PowerShell は、2 つのリリース タイプで [PowerShell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams)を利用できます。
 
-- **一般提供 (GA)**: 本番対応のコマンドレットであり、毎月更新されます。
+- **一般提供 (GA)** : 本番対応のコマンドレットであり、毎月更新されます。
 
-- **パブリック プレビュー**: 機能にいち早くアクセスします。 GA よりも頻繁に更新される場合があります。
+- **パブリック プレビュー** : 機能にいち早くアクセスします。 GA よりも頻繁に更新される場合があります。
 
 両方のリリースでの機能の追加と改善の詳細については、「[Teams PowerShell リリース ノート](teams-powershell-release-notes.md)」をご覧ください。
 

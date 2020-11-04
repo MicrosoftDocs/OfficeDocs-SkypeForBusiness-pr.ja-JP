@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms
+title: Microsoft Teams の仮想会議室
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,13 +12,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Microsoft Teams Rooms の展開に関連する計画の考慮事項と、システムを展開および管理する方法について説明します。
-ms.openlocfilehash: 4474d5f7c5e273fccc52e077907017c073e3a7b5
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+description: 計画、展開、システムの管理など、最適な仮想会議室を作成するための、Microsoft Teams 室のセットアップ方法について説明します。
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: 3f2aba78baf1933f2f0104a8cadd568b685964fd
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405804"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878681"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 

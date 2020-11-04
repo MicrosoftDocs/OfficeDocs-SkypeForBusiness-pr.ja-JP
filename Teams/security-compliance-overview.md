@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-description: 監査および報告、コンプライアンスのコンテンツ検索、電子情報開示などを含む、Microsoft Teams のセキュリティとコンプライアンス機能の概要。
+description: Microsoft Teams のセキュリティとコンプライアンスの機能の概要 (プライバシーと暗号化、監査、レポートなど)。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,19 +18,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c4e8905eaa3f77dd3c92ac26411bf5e5ebd05bf
-ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
+ms.openlocfilehash: 29b01d7418a194233f3205502134645526351dc4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "47429353"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878491"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
 > [!IMPORTANT]
-> **共同作業中に全員が自宅で仕事をしているときに**、確実にセキュリティを確保する方法については、次の記事を参照してください。
+> **共同作業中に全員が自宅で仕事をしているときに** 、確実にセキュリティを確保する方法については、次の記事を参照してください。
 >  - [Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work) (在宅勤務をサポートするためにセキュリティ チームが行う 12 の主なタスク)
 >  - [VPN スプリット トンネリングを使用してリモート ユーザーの Microsoft 365 または Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 >  - 更新日: 2020 年4月2日: [Teams セキュリティガイド](teams-security-guide.md)
@@ -157,7 +158,11 @@ Microsoft 365 コンプライアンスセンターでの保存と保持の詳細
 
 ## <a name="privacy"></a>プライバシー
 
-Microsoft では、データの保護は最も優先度の高いものとなっています。 プライバシーに関するベストプラクティスについては、「 [Microsoft のプライバシー](https://www.microsoft.com/trust-center/privacy)に関する声明」を参照してください。
+Microsoft では、データの保護は最も優先度の高いものとなっています。 Skype のプライバシーの慣行については、次のページをご覧ください。  
+
+- [Microsoft のプライバシー](https://www.microsoft.com/trust-center/privacy)
+- [Microsoft Teams でのプライバシーとセキュリティへの取り組み](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/microsofts-commitment-privacy-security-microsoft-teams/)
+- [IT プロフェッショナル向け: Microsoft Teams のプライバシーとセキュリティ](https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/06/it-professionals-privacy-security-microsoft-teams/#:~:text=We%20safeguard%20your%20privacy%20by,and%20distribution%20of%20your%20data.)
 
 ## <a name="information-protection-architecture"></a>情報保護アーキテクチャ
 
@@ -183,9 +188,9 @@ Microsoft では、データの保護は最も優先度の高いものとなっ�
 
 ## <a name="location-of-data-in-teams"></a>Teams のデータの場所
 
-Teams のデータは、Microsoft 365 または Office 365 組織に関連付けられた地理的地域内に存在します。 現在サポートされている地域を確認するには、「[Microsoft Teams のデータの場所](location-of-data-in-teams.md)」を参照してください。
+Teams のデータはご利用の Microsoft 365 または Office 365 の組織に関連付けられている地理的領域内に存在します。 現在サポートされている地域を確認するには、「[Microsoft Teams のデータの場所](location-of-data-in-teams.md)」を参照してください。
 
-ご利用のテナントのデータがどの地域で格納されるかを確認するには、[[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home)  >  **[設定]**  >  **[組織プロファイル]** に移動してください。 下にスクロールして **[データの場所]** に移動します。
+ご利用のテナントのデータがどの地域で格納されるかを確認するには、 [[Microsoft 365 管理センター]](https://portal.office.com/adminportal/home)  >  **[設定]**  >  **[組織プロファイル]** に移動してください。 下にスクロールして **[データの場所]** に移動します。
 
 ![管理センターの、Teams を含む、[データの場所] の表を示すスクリーンショット](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
@@ -195,7 +200,7 @@ Teams では、 [iso 27001](https://docs.microsoft.com/microsoft-365/compliance/
 
 詳細については、「 [データ保護のリソース](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)」を参照してください。 チームはクラウドセキュリティアライアンスのコンプライアンスもサポートしています。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Microsoft 365 セキュリティ](https://docs.microsoft.com/microsoft-365/security/)
 

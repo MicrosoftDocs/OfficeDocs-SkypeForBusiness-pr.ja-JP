@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams の自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: bda0772f26e0adf996461f838b5f0978341d0e82
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48840423"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48878188"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -213,7 +213,7 @@ ms.locfileid: "48840423"
 
 通話プラン trunks と直接ルーティング trunks の間の転送はサポートされていません。
 
-ハイブリッド環境で、Skype for Business PSTN 統合経由で PSTN に自動応答の通話を転送するには、PSTN 番号に設定された通話転送を使用して、新しいオンプレミスユーザーを作成します。 ユーザーはエンタープライズ Voip 用に有効になっていて、音声ポリシーが割り当てられている必要があります。 詳細については、「 [自動応答で PSTN に転送](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)する」を参照してください。
+Skype for Business のハイブリッド環境で、自動応答の着信を PSTN に転送するには、[着信の転送] が PSTN 番号に設定された新しいオンプレミスユーザーを作成します。 ユーザーはエンタープライズ Voip 用に有効になっていて、音声ポリシーが割り当てられている必要があります。 詳細については、「 [自動応答で PSTN に転送](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)する」を参照してください。
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>PowerShell を使用して自動応答を作成する
 

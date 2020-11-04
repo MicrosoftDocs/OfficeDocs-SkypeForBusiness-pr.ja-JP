@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 医療組織の Teams ポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: 6c14cc82a7e2e16780eb50c04064955aad4e4eb7
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 28db6a594fd8ea579623975c20e96a2ce0189885
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790649"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852208"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>医療用の Teams ポリシーパッケージ
 
@@ -60,7 +60,7 @@ Teams には現在、以下の医療ポリシーパッケージが含まれて�
 
 ## <a name="get-started-with-policy-packages"></a>ポリシーパッケージの概要
 
-医療ポリシーパッケージの概要については、Microsoft 管理センターのオンボードハブで、[ **医療の基本** ] を選択し、[ **役割別にポリシー設定を割り当てる** ] を選択します。 作業を開始する準備ができたら、組織内の個人を割り当てるポリシーパッケージを決定します。
+医療ポリシーパッケージの概要については、Microsoft 管理センターのオンボードハブで、[ **医療** ] を選んでから、[ **役割別にポリシー設定を割り当てる** ] を選びます。 作業を開始する準備ができたら、組織内の個人を割り当てるポリシーパッケージを決定します。
 
 [ **ポリシーの詳細の表示** ] を選択して、パッケージ内の特定のポリシーとその設定を詳しく確認します。 これらは、Teams 管理センターで割り当て後に [カスタマイズすることができ](manage-policy-packages.md#customize-policies-in-a-policy-package) ます。
 

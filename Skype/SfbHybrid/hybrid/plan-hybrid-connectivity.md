@@ -16,17 +16,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Skype for Business Server と Skype for business Online または Teams 間でハイブリッド接続を実装するための計画に関する考慮事項。
-ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: Skype for business ハイブリッドモードを構成することで、Skype for Business Server と Teams または Skype for Business Online 間のハイブリッド接続の実装を計画します。
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 856172d5fba3df96b2456f0ceca1c661120e84e4
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359063"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878581"
 ---
-# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を計画する
-
-## <a name="overview"></a>概要
+# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Skype for Business Server と Microsoft 365 または Office 365 の間のハイブリッド接続を計画する
 
 このトピックでは、Skype for Business Server と Teams または Skype for Business Online 間のハイブリッド接続を計画する方法について説明します。 オンプレミス環境をクラウドに移動するための最初のステップは、ハイブリッド接続のセットアップです。
 
@@ -49,7 +48,7 @@ ms.locfileid: "47359063"
 
 この種類の構成は、共有 SIP アドレススペース機能に依存しており、次の図に示すように、contoso.com などのドメインのユーザーが、オンプレミスの Skype for Business Server と Teams または Skype for business Online のどちらを使用しているかによって分割される場合があります。
 
-![SfB ハイブリッド接続-分割ドメイン](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![Skype for Business ハイブリッド接続-分割ドメイン](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 共有 SIP アドレススペースが構成されている場合:
 
@@ -61,7 +60,7 @@ ms.locfileid: "47359063"
 
 ユーザーをオンラインで移動できるようにするには、ユーザーに Skype for Business Online (Plan 2) ライセンスが割り当てられている必要があります。 ユーザーが Teams を使用する場合は、ユーザーに Teams のライセンスが割り当てられている必要があります (また、Skype for Business ライセンスが有効なままになっている必要があります)。 ユーザーが電話会議や電話システムなどの他のオンライン機能を利用する場合は、Microsoft 365 または Office 365 で該当するライセンスを割り当てる必要があります。
 
-## <a name="infrastructure-requirements"></a>インフラストラクチャの要件
+## <a name="hybrid-connectivity-infrastructure-requirements"></a>ハイブリッド接続インフラストラクチャの要件
 
 <a name="BKMK_Infrastructure"> </a>
 
@@ -75,8 +74,8 @@ ms.locfileid: "47359063"
     
 - オンプレミスディレクトリを Microsoft 365 または Office 365 と同期するには、Azure Active Directory Connect を使用します。 詳細については、「 [AZURE AD Connect: Accounts and permissions](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)」を参照してください。
 
-- Skype for Business Server の管理ツール。  これらは、オンプレミスからクラウドにユーザーを移動するために必要です。 これらのツールは、オンプレミスの展開とインターネットにアクセスできるサーバーにインストールする必要があります。
-- オンライン管理ツール。  Teams 管理センターまたは Windows PowerShell を使用して、Teams と Skype for Business Online を管理することができます。 PowerShell を使用して Teams または Skype for Business Online のいずれかを管理するには、Skype for Business Online コネクタをダウンロードしてインストールします。
+- Skype for Business Server の管理ツール。 これらは、オンプレミスからクラウドにユーザーを移動するために必要です。 これらのツールは、オンプレミスの展開とインターネットにアクセスできるサーバーにインストールする必要があります。
+- オンライン管理ツール。 Teams 管理センターまたは Windows PowerShell を使用して、Teams と Skype for Business Online を管理することができます。 PowerShell を使用して Teams または Skype for Business Online のいずれかを管理するには、Skype for Business Online コネクタをダウンロードしてインストールします。
 - 共有 SIP アドレススペースを有効にする必要があります。また、オンプレミス展開は、ホスティングプロバイダーとして Microsoft 365 または Office 365 を使用するように構成する必要があります。 ハイブリッド接続を構成するために必要な手順の詳細については、「 [configure hybrid connectivity](configure-hybrid-connectivity.md)」を参照してください。
 
 ハイブリッド接続を構成した後、ユーザーを Teams または Skype for business Online に移動することができます。 詳細については、「 [オンプレミスから Teams へのユーザーの移動](move-users-from-on-premises-to-teams.md) 」および「 [オンプレミスから Skype for business Online へのユーザーの移動](move-users-from-on-premises-to-skype-for-business-online.md)」を参照してください。
@@ -85,7 +84,7 @@ ms.locfileid: "47359063"
 
 <a name="BKMK_Topology"> </a>
 
-**Teams または Skype For Business Online**とのハイブリッドの展開を構成するには、次のサポートされているトポロジのいずれかを使用する必要があります。
+**Teams または Skype For Business Online** とのハイブリッドの展開を構成するには、次のサポートされているトポロジのいずれかを使用する必要があります。
 
 - Skype for Business Server 2019 の展開には、Skype for Business Server 2019 を実行するすべてのサーバーが含まれています。
 - Skype for Business Server 2015 の展開には、Skype for Business Server 2015 を実行するすべてのサーバーが含まれています。
@@ -95,9 +94,9 @@ ms.locfileid: "47359063"
   - Lync Server 2013 および Skype for Business Server 2019
   - Lync Server 2013 および Skype for Business Server 2015
 
-*任意のトポロジでハイブリッド音声が必要な場合*は、フェデレーションエッジとして指定されているエッジサーバーと、SIP フェデレーションに関連付けられているプールの両方が、Skype for business 2015 以降を実行している必要があります。 ユーザーは Lync 2013 プールが存在する場合は、そのままにしておくことができます。 詳細については、「 [Plan Phone System WITH PSTN Connectivity In Skype For Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)」を参照してください。
+*任意のトポロジでハイブリッド音声が必要な場合* は、フェデレーションエッジとして指定されているエッジサーバーと、SIP フェデレーションに関連付けられているプールの両方が、Skype for business 2015 以降を実行している必要があります。 ユーザーは Lync 2013 プールが存在する場合は、そのままにしておくことができます。 詳細については、「 [Plan Phone System WITH PSTN Connectivity In Skype For Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)」を参照してください。
 
-Lync Server 2010 を含む次のトポロジは、インスタントメッセージングおよび会議用の **Skype For Business Online でサポートされて** います。  **Lync Server 2010 を含むトポロジは、ハイブリッド音声または Teams ではサポートされていません**。
+Lync Server 2010 を含む次のトポロジは、インスタントメッセージングおよび会議用の **Skype For Business Online でサポートされて** います。 **Lync Server 2010 を含むトポロジは、ハイブリッド音声または Teams ではサポートされていません** 。
 
 - 異種 Lync Server 2010 と Skype for Business Server 2015 の展開
 - Lync Server 2010 と Lync Server 2013 の混在した展開
@@ -126,7 +125,7 @@ Microsoft では、次の種類の複数フォレストハイブリッドシナ�
 
 <a name="BKMK_Federation"> </a>
 
-ハイブリッドを構成する場合は、オンプレミスの環境とオンライン環境が相互にフェデレーションできるようにする必要があります。  オンライン環境では、既定でフェデレーションが開かれています。多くの場合、オンプレミスの環境では、フェデレーションが既定で閉じられています。  
+Skype for Business ハイブリッドモードを構成する場合、オンプレミスの環境とオンライン環境が相互にフェデレーションできるようにする必要があります。  オンライン環境では、既定でフェデレーションが開かれています。多くの場合、オンプレミスの環境では、フェデレーションが既定で閉じられています。  
 
 ハイブリッド展開を正しく構成するには、次の要件を満たす必要があります。
 
@@ -142,7 +141,7 @@ Microsoft では、次の種類の複数フォレストハイブリッドシナ�
 - DNS 設定
 - ファイアウォールに関する考慮事項
 
-### <a name="dns-settings"></a>DNS 設定
+### <a name="dns-settings-for-hybrid-deployments"></a>ハイブリッド展開の DNS 設定
 
 <a name="BKMK_DNS"> </a>
 
@@ -152,12 +151,12 @@ Microsoft では、次の種類の複数フォレストハイブリッドシナ�
 
 |DNS レコード  <br/> |解決方法  <br/> |DNS 要件  <br/> |
 |:-----|:-----|:-----|
-|_Sipfederationtls _tcp の DNS SRV レコード。\<sipdomain.com\> サポートされているすべての SIP ドメインについて、エッジ外部 IP へのアクセスを解決するため  <br/> |エッジサーバー  <br/> |ハイブリッド構成でフェデレーション通信を有効にします。 エッジサーバーは、オンプレミスとオンラインの間で分割されている SIP ドメインのフェデレーショントラフィックをルーティングする場所を知っている必要があります。  <br/> ユーザー名と SRV レコードのドメイン間で厳密な DNS 名の一致を使用する必要があります。  <br/> |
+|_Sipfederationtls の DNS SRV レコード。 _tcp。\<sipdomain.com\> サポートされているすべての SIP ドメインについて、エッジ外部 IP へのアクセスを解決するため  <br/> |エッジサーバー  <br/> |ハイブリッド構成でフェデレーション通信を有効にします。 エッジサーバーは、オンプレミスとオンラインの間で分割されている SIP ドメインのフェデレーショントラフィックをルーティングする場所を知っている必要があります。  <br/> ユーザー名と SRV レコードのドメイン間で厳密な DNS 名の一致を使用する必要があります。  <br/> |
 |エッジ Web 会議サービス FQDN 用の DNS A レコード (webcon.contoso.com、Web 会議エッジ外部 IP への解決など)  <br/> |内部の企業ネットワークに接続されたユーザーのコンピューター  <br/> |オンラインユーザーがオンプレミスでホストされている会議のコンテンツを表示または表示できるようにします。 コンテンツには、PowerPoint ファイル、ホワイトボード、投票、および共有メモが含まれます。  <br/> |
 
 組織での DNS の構成方法によっては、これらのレコードを対応する SIP ドメインの内部ホスト DNS ゾーンに追加して、これらのレコードに対する内部 DNS 解決を提供する必要がある場合があります。
 
-### <a name="firewall-considerations"></a>ファイアウォールに関する考慮事項
+### <a name="firewall-considerations-for-hybrid-deployments"></a>ハイブリッド展開のファイアウォールに関する考慮事項
 
 <a name="BKMK_Firewall"> </a>
 

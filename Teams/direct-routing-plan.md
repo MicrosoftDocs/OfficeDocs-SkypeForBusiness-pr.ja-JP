@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
-ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
+ms.openlocfilehash: ea971cb4cacf51c5970b0a89c43d4e88949dc9f0
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "48262534"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852198"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -189,7 +189,7 @@ Microsoft は、認定署名要求 (CSR) を生成して、SBC の証明書を�
 - T-Systems International GmbH (ドイツのテレ・ Om)
 - QuoVadis
 
-Office 365 GCC DoD 環境でのダイレクトルーティングの場合、証明書は次のルート証明機関のいずれかによって生成される必要があります。
+Office 365 GCCH および DoD 環境で直接ルーティングするには、証明書が次のルート証明機関のいずれかによって生成される必要があります。
 - DigiCert グローバルルート CA
 - DigiCert 高保証 EV ルート CA
 
@@ -235,7 +235,7 @@ Fqdn – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.m
 シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN **sip-all.pstnhub.microsoft.com** はこれらのすべての IP アドレスに解決されます。 
 
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH および DoD 環境
 
 ダイレクトルーティングの接続ポイントは、次の FQDN です。
 
@@ -299,7 +299,7 @@ SBC は、sip.pstnhub.microsoft.com を解決する DNS クエリを行います
 - 52.112.0.0/14 (52.112.0.1 から52.115.255.254 に対する IP アドレス)。
 - 52.120.0.0/14 (52.120.0.1 から52.123.255.254 に対する IP アドレス)。
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
+### <a name="office-365-dod-environment"></a>Office 365 DoD 環境
 
 - 52.127.64.0/21
 

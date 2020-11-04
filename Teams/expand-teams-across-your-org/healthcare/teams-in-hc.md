@@ -20,18 +20,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 医療の調整、セキュリティで保護されたメッセージング、仮想アクセス、EHR 統合、firstline worker システムの統合など、医療機関向けの機能について説明します。
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b4c4ff0319d285d3dcd8c70b3a19de8cce6248ca
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+description: Microsoft Teams のテレケア、EHR 統合、firstline worker システム統合、患者アプリなどの健康ケア機能について説明します。
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+ms.openlocfilehash: 7cd05039797f26cd2a6fb3fb93e9b90cc3059651
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803535"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878711"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向け Teams の使用を開始する
 
-Microsoft Teams には、次のような、病院およびその他の医療機関向けの便利な機能がいくつか用意されています。
+Microsoft Teams には、病院やその他の医療機関にとって便利な多数の telemedicine 機能が用意されています。 Teams の機能は、次の機能を利用して、病院を支援します。
 
 - 仮想アクセスと電子医療記録 (EHR) の統合
 - Teams ポリシーパッケージ

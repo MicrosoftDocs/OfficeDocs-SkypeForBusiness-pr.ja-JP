@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Microsoft テレフォニーソリューションについて説明します。
-ms.openlocfilehash: 4d83ea2251175de65db6e642f89bca730af9e0be
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: Microsoft のテレフォニーソリューションについて説明します。電話システム (構内交換機) および PSTN 接続オプション (通話プランと直接ルーティング) について説明します。
+ms.custom: seo-marvel-jun2020
+ms.openlocfilehash: 3f5e4f0cf0cb027ed0c18b98c85b123634687a77
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359103"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878541"
 ---
 # <a name="microsoft-telephony-solutions"></a>Microsoft テレフォニー ソリューション
 
-Microsoft は、Microsoft クラウドでの Teams への移行を開始する際に、いくつかのオプションをサポートしています。 この記事では、組織内のユーザーに適切な Microsoft テレフォニーソリューション (クラウドまたはエンタープライズボイスオンプレミスの電話システム) を決定し、組織が公衆交換電話網 (PSTN) に接続する方法を決定するのに役立つ情報を示します。 
+Microsoft は、Microsoft クラウドでの Teams への移行を開始する際に、いくつかのオプションをサポートしています。 この記事では、組織内のユーザーに適切な Microsoft テレフォニーソリューション (クラウドまたはエンタープライズボイスオンプレミスの電話システム) を決定し、組織が公衆交換電話網 (PSTN) に接続する方法を決定するのに役立つ情報を示します。
 
 この記事は、関連する技術ダイアグラムと一緒に使用してください。これにより、組織にとって適切な決定を行うためのビジュアルエイドが提供されます。
 
@@ -42,7 +43,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 ### <a name="phone-system-microsoft-365-or-office-365"></a>電話システム (Microsoft 365 または Office 365)
   
-電話システムは、microsoft Teams または Skype for Business Online を使用して microsoft 365 または Office 365 クラウドで通話コントロールと構内交換機 (PBX) 機能を有効にするための Microsoft のテクノロジです。 
+電話システムは、microsoft Teams または Skype for Business Online を使用して microsoft 365 または Office 365 クラウドで通話コントロールと構内交換機 (PBX) 機能を有効にするための Microsoft のテクノロジです。
 
 電話システムは Teams または Skype for Business Online クライアントおよび認定済みデバイスと連携して動作します。 電話システムを使用すると、既存の PBX システムを、Microsoft 365 または Office 365 から直接提供される一連の機能に置き換えて、会社のクラウドの生産性向上に密接に統合することができます。 電話システムを公衆交換電話網 (PSTN) に接続するには、Microsoft の通話プランまたは独自のテレフォニーキャリアを選択できます。
 
@@ -50,7 +51,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>エンタープライズ Voip (Skype for Business Server)
 
-エンタープライズ Voip は、オンプレミスの Skype for Business Server で通話コントロールと構内交換機 (PBX) 機能を有効にするための Microsoft のテクノロジです。 このオプションは、独自のテレフォニーキャリアを使用して、公衆交換電話網にのみ接続できます。 
+エンタープライズ Voip は、オンプレミスの Skype for Business Server で通話コントロールと構内交換機 (PBX) 機能を有効にするための Microsoft のテクノロジです。 この Skype for Business オプションは、独自のテレフォニーキャリアを使用して、公衆交換電話網にのみ接続できます。
 
 詳細については、「 [Plan For Enterprise Voice In Skype For Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)」を参照してください。
 
@@ -120,7 +121,7 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 | インフラストラクチャの要件                   | 必須|
 | :----------------------------------------------------| ---------:|
-| Microsoft 365 または Office 365 への継続的な接続は必要ありません | はい |
+| Microsoft 365 または Office 365 への継続的な接続は必要ありません | 必要 |
 | 世界中で利用可能                            | いいえ  |
 | サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | いいえ |
 | サードパーティ製の電話会社との契約が必要      | いいえ   |
@@ -152,10 +153,10 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 | インフラストラクチャの要件                   | 必須|
 | :----------------------------------------------------| ---------:|
-| Microsoft 365 または Office 365 への継続的な接続は必要ありません | はい |
-| 世界中で利用可能                            | はい  |
-| サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | はい |
-| サードパーティ製の電話会社との契約が必要 *      | はい   |
+| Microsoft 365 または Office 365 への継続的な接続は必要ありません | 必要 |
+| 世界中で利用可能                            | 必要  |
+| サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | 必要 |
+| サードパーティ製の電話会社との契約が必要 *      | 必要   |
 | Skype for Business Server または Cloud Connector エディションの展開と保守が必要 | いいえ |
 
 \* 通話プランが設定された電話システムのユーザーのために、サードパーティの PBX、アナログデバイス、またはその他のテレフォニー機器への接続を提供するオプションとして展開されている場合を除きます。
@@ -187,11 +188,11 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 
 | インフラストラクチャの要件                   | 必須|
 | :----------------------------------------------------| ---------:|
-| Microsoft 365 または Office 365 への継続的な接続は必要ありません | はい |
-| 世界中で利用可能                            | はい  |
-| サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | はい |
-| サードパーティ製の電話会社との契約が必要      | はい   |
-| Skype for Business Server または Cloud Connector エディションの展開と保守が必要 | はい |
+| Microsoft 365 または Office 365 への継続的な接続は必要ありません | 必要 |
+| 世界中で利用可能                            | 必要  |
+| サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | 必要 |
+| サードパーティ製の電話会社との契約が必要      | 必要   |
+| Skype for Business Server または Cloud Connector エディションの展開と保守が必要 | 必要 |
 
 
 
@@ -221,10 +222,10 @@ Microsoft は、Microsoft クラウドでの Teams への移行を開始する�
 | インフラストラクチャの要件                   | 必須|
 | :----------------------------------------------------| ---------:|
 | Microsoft 365 または Office 365 への継続的な接続は必要ありません | いいえ |
-| 世界中で利用可能                            | はい  |
-| サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | はい |
-| サードパーティ製の電話会社との契約が必要      | はい   |
-| Skype for Business Server の展開と保守が必要 | はい |
+| 世界中で利用可能                            | 必要  |
+| サポートされているセッションボーダーコントローラー (SBC) を展開および維持する必要がある | 必要 |
+| サードパーティ製の電話会社との契約が必要      | 必要   |
+| Skype for Business Server の展開と保守が必要 | 必要 |
 
 詳細については、「 [Plan For Enterprise Voice In Skype For Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)」を参照してください。
 
