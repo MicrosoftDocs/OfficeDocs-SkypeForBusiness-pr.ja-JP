@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams での internet explorer のトランシーバーアプリケーション
+title: Microsoft Teams のトランシーバー アプリケーション
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: ITAdmin の観点から、Microsoft Teams でトランシーバー Ie のアプリを構成する方法について説明します。
+description: ITAdmin の観点から、Microsoft Teams でトランシーバー アプリを構成する方法です。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,86 +20,86 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 605ba58582210c71561cd60442aa66f97be0be0d
 ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/24/2020
 ms.locfileid: "48262504"
 ---
-# <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams での ie トランシーバーアプリの解説
+# <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
-Teams のトランシーバー Ie のアプリでは、チームのインスタントプッシュツートーク (PTT) コミュニケーションが提供され、Android で利用できるようになりました。 トランシーバー ie では、ユーザーは、メンバーである基になるチャネルを使ってチームと接続できます。 チャネルで、トランシーバーに接続しているユーザーのみが、チャネルで参加者になり、プッシュツートークを使って互いに通信できます。
+Teams のトランシーバー アプリは、Teams にインスタント プッシュツートーク (PTT) 通信を提供し、Android で利用できるようになりました。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
 
-Teams でトランシーバー Ie の機能を使用することで、firstline worker は、非常に強い無線を伝送することなく、使い慣れた PTT エクスペリエンスと安全に通信できるようになりました。また、WiFi または携帯電話のインターネット接続があればどこでも Ie トランシーバーが動作します。
+Teams のトランシーバーを使用すると、現場担当者は、かさばるラジオを持ち歩くことなく、使い慣れた PTT 環境と安全に通信できます。また、トランシーバーは、WiFi または携帯電話のインターネット接続を使用して、どこからでも作業できます。
 
 ## <a name="getting-started"></a>はじめに
 
-### <a name="deploying-walkie-talkie"></a>解説した Ie トランシーバーの展開
+### <a name="deploying-walkie-talkie"></a>トランシーバーの展開
 
-現在、トランシーバー Ie のお勧めのインストールはプリインストールされていません。 組織内のユーザーに対してこの機能を有効にするには、 [App Setup Policy](teams-app-setup-policies.md)   [Teams 管理センター](https://admin.teams.microsoft.com/)のユーザーに割り当てられているアプリセットアップポリシーに、トランシーバーした ie のを追加する必要があります。
+現在、トランシーバーはプリインストールされていません。 組織内のユーザーに対してこの機能を有効にするには、[[Teams 管理センター]](https://admin.teams.microsoft.com/) からユーザーに割り当てられた [アプリ セットアップ ポリシー](teams-app-setup-policies.md) にトランシーバーを追加する必要があります。
 
-有効にすると、48時間以内に Android アプリで利用できるようになります。
+有効にすると、トランシーバーは 48 時間以内に Android アプリで利用できるようになります。
 
-### <a name="adding-walkie-talkie-to-your-app-list"></a>登録した Ie トランシーバーをアプリの一覧に追加する
+### <a name="adding-walkie-talkie-to-your-app-list"></a>トランシーバーをアプリ リストに追加する
 
-Microsoft teams 管理センターの [ **Teams アプリ**  >  **セットアップポリシー**] で、**ユーザーの固定**を **[オン**] に設定しておく必要があります。 次に、[固定されたアプリ] セクションで、[ **+ アプリの追加**] をクリックします。
+Microsoft Teams 管理センターの **[Teams アプリ]** > **[セットアップ ポリシー]** で、 **[ユーザーのピン留めを許可]** を **[オン]** に設定する必要があります。 次に、「ピン留めされたアプリ」セクションで、 **[アプリの追加]** をクリックします。
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="[固定されたアプリ] セクションと [アプリの追加] ボタンを選んで表示します。":::
+:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="「ピン留めされたアプリ」セクションと選択する [アプリの追加] ボタンが表示されます。":::
 
-右側に表示される [固定された **アプリの追加** ] パネルで、[ **検索** ] ボックスを使用して、「トランシーバー」という ie の説明を探します。 検索結果として表示されたら、名前の右側にある [ **追加** ] ボタンをクリックして、リストに追加します。
+右側に表示される **[ピン留めされたアプリを追加]** パネルで、 **[検索]** テキストボックスを使用してトランシーバーを探します。 検索結果として表示されたら、名前の右側にある **[追加]** ボタンをクリックして、リストに追加します。
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="検索ウィンドウと検索した Ie トランシーバーアプリの横にある [追加] ボタンをクリックして、[ピン留めされたアプリの追加] サイドバーを表示します。":::
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="検索ウィンドウにトランシーバーが入力された [ピン留めされたアプリを追加] サイドバーと、検索結果にトランシーバー アプリが表示され、その横に [追加] ボタンが表示されます。":::
 
-これで、このアプリを [ピン留めされたアプリ] の一覧に表示されるようになり、[ **保存** ] ボタンをクリックすると使用できるようになります。
+トランシーバー アプリが [ピン留めされたアプリ] リストに表示され、 **[保存]** ボタンをクリックすると使用できるようになります。
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="[挿入済みの Ie トランシーバーアプリが追加され、リストの下に [保存] ボタンが追加された、ピンされたアプリの一覧を示します。":::
+:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="トランシーバー アプリが追加されたピン留めされたアプリのリストと、リストの下にある [保存] ボタンが表示されます。":::
 
-### <a name="network-documentation"></a>ネットワークドキュメント
+### <a name="network-documentation"></a>ネットワーク ドキュメント
 
-トランシーバー Teams での ie の紹介は、インターネット接続が必要です。また、最適なエクスペリエンスを実現するには、ネットワークの条件が必要です。
+Teams のトランシーバーにはインターネット接続が必要であり、最適なエクスペリエンスを得るには以下のネットワーク条件が必要です。
 
-|指標 | 必須 |
+|測定基準 | 必須 |
 |---|---|
-|待機時間 (RTT) | 300ms < |
+|遅延 (RTT) | < 300 ミリ秒 |
 |ジッター |< 30 ミリ秒 |
 |パケット損失 |< 1% |
 
-上で説明したように、IP ネットワーク上のリアルタイムメディアの品質は、ネットワーク接続の品質に大きな影響を与えますが、特に次の量によって影響を受けます。
+上記のように、IP ネットワークを介したリアルタイム メディアの品質は、ネットワーク接続の品質、特に次の量によって大きく影響されます。
 
-- **待機** 時間-この時刻は、IP パケットがネットワーク上のポイント B からポイント B に到達するまでの時間です。 このネットワーク伝達遅延は、さまざまなルーターの間の追加のオーバーヘッドを含めて、2 つのポイントの間の物理的な距離と光速度に関連しています。 待ち時間はラウンドトリップ時間 (RTT) として測定されます。
-- [**パケット損失**]: 特定の時間帯に失われるパケットのパーセンテージとして定義されることがよくあります。 パケット損失は、オーディオの品質に直接影響を与えます。これは、完全に失われた小さいパケットによって、完全なオーディオのカットアウトを引き起こすバックツーバックのバースト損失になります。
-- **ジッタ** -連続したパケット間の遅延の平均変化を示します。
+- **遅延** - これは、IP パケットがネットワーク上のポイント A からポイント B に到達するまでにかかる時間です。 このネットワーク伝達遅延は、さまざまなルーターの間の追加のオーバーヘッドを含めて、2 つのポイントの間の物理的な距離と光速度に関連しています。 遅延は往復時間 (RTT) として測定されます。
+- **パケット損失** - これは、指定した時間帯に失ったパケットの割合として定義されることがよくあります。 パケット損失は、オーディオの品質に直接影響を与えます。ほとんど影響を及ぼすことのない小規模のパケット損失から、音声が完全に途切れる原因となる連続したバースト損失まで存在します。
+- **ジッタ** - これは、連続するパケット間の遅延の平均変動です。
 
-データ使用量は、「音楽を送信または受信するときに 20KB/s」からトランシーバーます。 アイドル状態の場合、トランシーバー Ie のデータ使用量はごくわずかです。
+トランシーバーからの予想データ使用量は、オーディオの送受信時に約 20KB/秒です。 アイドル状態の場合、トランシーバーからの予想されるデータ使用量はごくわずかです。
 
-### <a name="walkie-talkie-devices"></a>お互いの ie トランシーバーデバイス
+### <a name="walkie-talkie-devices"></a>トランシーバー デバイス
 
-FirstLine worker は、多くの場合、電話がロックされているときでも、聞く Ie トランシーバーの通話を発信したり、受信したりする必要があります。 この操作は、専用の PTT ボタンを持つ専用デバイスから実行できます。
+現場担当者は、電話がロックされている場合でも、多くの場合、会話をしたり、トランシーバー通話を受けたりする必要があります。 この体験は、専用の PTT ボタンを備えた専用デバイスを介して可能です。
 
-- ヘッドホン
-  - 有線ヘッドセット ([Klein エレクトロニクス](https://www.kleinelectronics.com/poc-accessories/mtwt/))
-  - ワイヤレスヘッドセット ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
-- 丈夫の携帯電話
+- ヘッドセット
+  - 有線ヘッドセット ([Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - ワイヤレス ヘッドセット ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
+- 頑丈な電話
   - Samsung Galaxy XCover Pro
-    - [さらに詳しい情報](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)があります。
-    - [セットアップガイド](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)。
+    - [詳細情報](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)。
+    - [セットアップ ガイド](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)。
 
 > [!NOTE]
-> これらのデバイスは Teams で認定されているわけではありません。 チームの内容を確認した Ie トランシーバーで動作することが検証されました。
+> これらのデバイスは Teams 認定を受けていません。 Teams トランシーバーで動作することが検証されています。
 
 ### <a name="license-requirements"></a>ライセンス要件
 
-このアプリは、 [Office 365 サブスクリプション](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)のすべての有料ライセンスに含まれています。 Teams の入手方法について詳しくは、「 [Microsoft teams にアクセスする方法](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)」をご覧ください。
+トランシーバー アプリは、[Office 365 サブスクリプション](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)の Teams のすべての有料ライセンスに含まれています。 Teams の入手方法の詳細については、「 [Microsoft Teams へのアクセス方法](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)」を参照してください。
 
 > [!NOTE]
-> 一部の高度な機能には追加のライセンスが必要です。 たとえば、Samsung Galaxy XCover Pro との統合には、Knox ライセンスが必要です。
+> 特定の高度な機能には、追加のライセンスが必要な場合があります。 たとえば、Samsung Galaxy XCover Pro との統合には Knox ライセンスが必要です。
 
-## <a name="further-information"></a>さらに詳しい情報
+## <a name="further-information"></a>詳細情報
 
-- ITAdmins は、アプリのポリシーを通じて、トランシーバーの Ie を使用しているユーザーを管理することができます。
-- 最初のラインワーカーがモバイルデータを使って Teams で通信している場合、トランシーバーは同じメソッドを使います。
-- トランシーバー ie は、低帯域幅の状況でも適切に動作する必要があります。または、スマートフォンが接続され、動作している場合に適しています。 トランシーバーは、接続されていない場合は機能しません。
+- ITAdmins は、アプリ ポリシーを通じてトランシーバーを使用しているユーザーの制御を維持できます。
+- 現場担当者がモバイル データを使用して Teams 経由で通信している場合、トランシーバーは同じ方法を使用します。
+- トランシーバーは、低帯域幅の状況、またはスマートフォンが接続されて機能している状況でうまく機能するはずです。 接続がまったくない場合、トランシーバーは機能しません。
 
-エンドユーザーエクスペリエンスの詳細については、以下を参照してください。
+エンドユーザー エクスペリエンスの詳細については、以下を参照してください。
 
-- [チームを活用する Ie トランシーバーの使用を開始する](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
-- [トランシーバー Ie のお客様のチームとコミュニケーションする](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
+- [Teams トランシーバーの使用を開始する](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
+- [トランシーバーを使用してチームと通信する](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)
