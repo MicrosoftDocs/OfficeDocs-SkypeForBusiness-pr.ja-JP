@@ -258,6 +258,7 @@
 ### Reference
 #### [電話会議でサポートされている言語](audio-conferencing-supported-languages.md)
 #### [電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)
+#### [電話会議の国と地域のゾーン](audio-conferencing-zones.md)
 #### [ビデオ: Teams での電話会議](audio-conferencing-videos.md)
 
 
@@ -683,7 +684,7 @@
 ### 仮想アクセス
 #### [Teamsでの仮想アクセス: EHR に統合](expand-teams-across-your-org/healthcare/ehr-admin.md)
 #### [予約とTeamsを使用した仮想の訪問](bookings-app-admin.md)
-### [Teamsポリシーパッケージの作成](policy-packages-healthcare.md)
+### [ポリシー パッケージの表示と割り当て](policy-packages-healthcare.md)
 ### セキュリティで保護されたメッセージング
 #### [セキュリティで保護されたメッセージング](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [メッセージの委任](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -930,7 +931,6 @@
 ### [フィンランド](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md)
 ### [France](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md)
 ### [ジョージア](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md)
-### [ガーナ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [Germany](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md)
 ### [ガーナ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md)
 ### [ギリシャ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
