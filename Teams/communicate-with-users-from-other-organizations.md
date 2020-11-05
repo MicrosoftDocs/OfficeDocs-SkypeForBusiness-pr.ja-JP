@@ -1,6 +1,6 @@
 ---
-title: Microsoft Teams の別の組織のユーザーと通信する
-author: SerdarSoysal
+title: 別の組織のユーザーとの電話およびチャット
+author: serdars
 ms.author: serdars
 manager: serdars
 ms.topic: article
@@ -13,21 +13,21 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams の別の組織のユーザーと通信する方法を説明します。
+description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 0535798a506adf839391c9e9075ff1e68398e341
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761383"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878671"
 ---
-<a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams の別の組織のユーザーと通信する
+<a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>Microsoft Teams の別の組織のユーザーとの電話およびチャット
 ======================================================
 
-組織外の人と通信して共同作業する必要がある場合、Microsoft Teams はそれを実現する 2 つの異なる方法を提供します。 1 つ目は、**外部 アクセス** (フェデレーション) であり、別のドメイン (contoso.com など) のユーザーを検索、呼び出し、チャットできます。 2 つ目は、**ゲスト アクセス**であり、メール アドレスを使用して、ゲストとしてチームに個人を追加できます。 組織内の別のユーザーと同じように、ゲストと共同作業できます。
+組織外の人と通信して共同作業する必要がある場合、Microsoft Teams はそれを実現する 2 つの異なる方法を提供します。 1 つ目は、 **外部 アクセス** (フェデレーション) であり、別のドメイン (contoso.com など) のユーザーを検索、呼び出し、チャットできます。 2 つ目は、 **ゲスト アクセス** であり、メール アドレスを使用して、ゲストとしてチームに個人を追加できます。 組織内の別のユーザーと同じように、ゲストと共同作業できます。
 
 必要に応じて、外部アクセスとゲストアクセスの両方を使用することもできます。
 
@@ -35,7 +35,7 @@ ms.locfileid: "46761383"
 
 ## <a name="external-access"></a>外部アクセス
 
-別のドメインの外部ユーザが会議を検索、呼び出し、チャット、およびセットアップできるソリューションが必要な場合は、**外部アクセス** (フェデレーション) を使用します。 外部ユーザーは、組織のチームまたはチーム リソースにアクセスできません。 Skype for Business (オンラインまたはオンプレミス) または Skype (2020 年初頭に予定) を使用している外部ユーザーと通信する場合は、外部アクセスを選択します。 
+別のドメインの外部ユーザが会議を検索、呼び出し、チャット、およびセットアップできるソリューションが必要な場合は、 **外部アクセス** (フェデレーション) を使用します。 外部ユーザーは、組織のチームまたはチーム リソースにアクセスできません。 Skype for Business (オンラインまたはオンプレミス) または Skype (2020 年初頭に予定) を使用している外部ユーザーと通信する場合は、外部アクセスを選択します。 
 
 Teams では既定で外部アクセスが有効になっています。つまり、組織はすべての外部ドメインと通信できます。 Teams 管理者はこれをオフにするか、含める (または除外する) ドメインを指定できます。 詳細については、「[外部アクセスを管理する](manage-external-access.md)」をご覧ください。 
 
@@ -44,7 +44,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 
 ## <a name="guest-access"></a>ゲスト アクセス
 
-**ゲスト アクセス**を使用して (ドメインに関係なく) 個々のユーザーをチームに追加し、Word、Excel または PowerPoint などの Microsoft 365 アプリまたは Office 365 アプリを使用して、チャット、通話、会議、組織ファイル (SharePoint または OneDrive for Business に保存されている) での共同作業を行うことができます。 ゲスト ユーザーには、ネイティブ チーム メンバーとほぼ同じ Teams 機能を付与できます。 詳細については、「[Teams でのゲスト アクセス](guest-access.md)」をご覧ください。
+**ゲスト アクセス** を使用して (ドメインに関係なく) 個々のユーザーをチームに追加し、Word、Excel または PowerPoint などの Microsoft 365 アプリまたは Office 365 アプリを使用して、チャット、通話、会議、組織ファイル (SharePoint または OneDrive for Business に保存されている) での共同作業を行うことができます。 ゲスト ユーザーには、ネイティブ チーム メンバーとほぼ同じ Teams 機能を付与できます。 詳細については、「[Teams でのゲスト アクセス](guest-access.md)」をご覧ください。
 
 - ゲストは組織の Active Directory に追加されます。
 - ゲストと通信するには、ゲストはゲスト アカウントを使用して Teams にサインインする必要があります。 つまり、Teams アカウントにサインインするか、同じアカウントではない場合組織を変更するために、自分の Teams アカウントからサイン アウトしなければならない場合があります。
@@ -88,7 +88,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 <sup>2</sup> 電子メールまたはセッション開始プロトコル (SIP) アドレスのみ。<br>
 <sup>3</sup> 外部 (フェデレーション) チャットは 1:1 のみ。<br>
 <sup>4</sup> 2 つの異なる組織の Teams のみユーザーの Teams のみの 1:1 チャットでサポートされる。 <br>
-<sup>5</sup> 既定では、外部ユーザーはダイヤル インした参加者の電話番号は見ることができません。 これらの電話番号のプライバシーを維持したい場合は、**開始/終了のお知らせの種類** の **トーン** を選びます (これにより、数字が Teams によって読み上げられません)。 詳細については、「[Microsoft Teams で会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)」を参照してください。
+<sup>5</sup> 既定では、外部ユーザーはダイヤル インした参加者の電話番号は見ることができません。 これらの電話番号のプライバシーを維持したい場合は、 **開始/終了のお知らせの種類** の **トーン** を選びます (これにより、数字が Teams によって読み上げられません)。 詳細については、「[Microsoft Teams で会議の入退室通知をオンまたはオフにする](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

@@ -14,15 +14,16 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Microsoft 365 Business Voice の概要と、中小企業がより効果的にコミュニケーションを行えるようにする方法。
+description: Microsoft 365 Business Voice は、音声通話用の安価なオプションであり、中小企業がより効果的に通信できるようにします。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0c05df37c54fb63b885c4e67fda36a1f000b92f
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.custom: seo-marvel-may2020
+ms.openlocfilehash: d94af2d1e02f7d0443436189466fdb4976f912a2
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170616"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878601"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Microsoft 365 Business Voice とは
 
@@ -79,3 +80,4 @@ Business Voice を購入すると、次の機能などが取得できます。
 </table>
 
 「[Microsoft 365 Business Voice サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)」にアクセスすると、Business Voice に含まれているすべてをご覧いただけます。
+

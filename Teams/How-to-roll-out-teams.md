@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の展開方法
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,19 +19,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 - seo-marvel-mar2020
+- seo-marvel-may2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 761f94e34afacb487ac9ce85f5da36d4ca6b866a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 06c4ad76b8a10e25f4efe0105fbee59cbfa53a30
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637916"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878691"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Microsoft Teams の展開方法
 
 ## <a name="start-here"></a>開始するには
-中小企業でも多国籍企業でも、Teams の展開は「[使用を開始する](get-started-with-teams-quick-start.md)」から始めることができます。 ここでは、小規模な Teams の展開について手順ごとに説明されています。中小企業の場合、または**リモート ワーカー**をサポートするために初めての Microsoft 365 または Office 365 ワークロードとして Teams を迅速に展開する場合に必要なことがすべて網羅されています。 大規模な組織の場合は、「[使用を開始する](get-started-with-teams-quick-start.md)」を使用して、少数の早期導入者のグループで Teams を試験運用してください。これにより、Teams を知り、組織全体の展開計画を立てることができます。 
+中小企業でも多国籍企業でも、Teams の展開は「[使用を開始する](get-started-with-teams-quick-start.md)」から始めることができます。 ここでは、小規模な Teams の展開について手順ごとに説明されています。中小企業の場合、または **リモート ワーカー** をサポートするために初めての Microsoft 365 または Office 365 ワークロードとして Teams を迅速に展開する場合に必要なことがすべて網羅されています。 大規模な組織の場合は、「[使用を開始する](get-started-with-teams-quick-start.md)」を使用して、少数の早期導入者のグループで Teams を試験運用してください。これにより、Teams を知り、組織全体の展開計画を立てることができます。 
 
 ## <a name="recommended-path-to-teams"></a>Teams に推奨される経路
 
@@ -50,7 +51,7 @@ ms.locfileid: "44637916"
 
 ## <a name="if-youre-starting-from-skype-for-business-on-premises-or-hybrid-deployments"></a>Skype for Business、オンプレミス、またはハイブリッド展開から開始する場合
 
-Skype for Business (オンラインまたはオンプレミス) から Teams に参加している場合や、ハイブリッド構成が必要な場合は、上記の「[推奨される経路](#recommended-path-to-teams)」に従って Teams を展開する必要がありますが、最初に追加の計画を立てる必要があります。 まず、次の表のガイダンスを確認します。これらは組織のプロファイルに適用されます。
+Skype for Business (オンラインまたはオンプレミス) から Teams に参加している場合や、ハイブリッド構成が必要な場合は、Teams の展開では上記の「[推奨されるパス](#recommended-path-to-teams)」に従う必要がありますが、最初に追加の計画を立てる必要があります。 まず、次の表のガイダンスを確認します。これらは組織のプロファイルに適用されます。
 
 
 

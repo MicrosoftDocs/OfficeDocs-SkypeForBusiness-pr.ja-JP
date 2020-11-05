@@ -1,7 +1,7 @@
 ---
-title: 管理クイック スタート - Microsoft Teams での会議とライブ イベント
+title: 管理者のクイック スタート - Microsoft Teams での会議とライブ イベント
 ms.reviewer: ''
-description: Microsoft Teams で会議やライブ イベントをすぐに始めましょう。
+description: 管理者が Microsoft Teams でオンライン会議やライブ イベントのライセンスを取得、展開、構成するためのクイック スタート ガイドです。
 ms.topic: article
 author: SerdarSoysal
 ms.author: serdars
@@ -17,23 +17,23 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64465bd50c189bc2e2d6fab820c3693f2c404210
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 4a825518748ec4c755b966f43a27027779bc69ea
+ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739395"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48878661"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理者のクイック スタート - Microsoft Teams での会議とライブ イベント
 
 Microsoft Teams での会議には、会議とライブ イベントの 2 つの方法があります。 この記事を使用して、組織の会議とライブイ ベントをすばやく展開して構成します。
 
 > [!Note]
 > 別のプラットフォームで Teams の会議とイベントをすばやく構成する方法についての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。
 
- - Teams の**会議**では、最大で 300 人の音声、ビデオ、画面を共有できます。 Teams で共同作業を行うための重要な方法の 1 つです。 また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません) 。コールインの手順については、出席依頼に記載されています。
+ - Teams の **会議** では、最大で 300 人の音声、ビデオ、画面を共有できます。 Teams で共同作業を行うための重要な方法の 1 つです。 また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません) 。コールインの手順については、出席依頼に記載されています。
 
- - **ライブ イベント**は Teams 会議の拡張機能であり、これを使用すると、多くのオンライン視聴者 (最大 10,000 人) にストリーミングするイベントのスケジュールと作成を行うことができます。 300 人を超える会議が必要な場合は、ライブ イベントを使用してください。
+ - **ライブ イベント** は Teams 会議の拡張機能であり、これを使用すると、多くのオンライン視聴者 (最大 10,000 人) にストリーミングするイベントのスケジュールと作成を行うことができます。 300 人を超える会議が必要な場合は、ライブ イベントを使用してください。
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>会議やライブ イベントのライセンスを取得する
 
@@ -45,13 +45,13 @@ Microsoft Teams での会議には、会議とライブ イベントの 2 つの
 
 > <sup>1</sup> 会議の主催者が、ダイヤルイン会議を含む招待を送信するには、[電話会議アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)が必要です。
 >
-> <sup>2</sup>  会議で[**連絡先電話**番号](set-up-the-call-me-feature-for-your-users.md)にダイヤルアウトするには、主催者は E5 または[電話会議アドイン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を必要とします。 [ダイヤル プラン](what-are-dial-plans.md)が必要となる場合もあります。
+> <sup>2</sup>  会議で [**連絡先電話** 番号](set-up-the-call-me-feature-for-your-users.md)にダイヤルアウトするには、主催者は E5 または [電話会議アドイン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を必要とします。 [ダイヤル プラン](what-are-dial-plans.md)が必要となる場合もあります。
 
 ライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」をお読みください。
 
 ## <a name="make-sure-your-networks-ready"></a>ネットワークの準備ができていることを確認する
 
-Microsoft 365 または Office 365 を展開したときに、既にネットワークの準備ができている場合は、おそらく問題はありません。 いずれの場合でも、特に**リモート ワーカー**をサポートする最初の Office 365 ワークロードとして迅速に展開する場合は、「[Teams 用の組織のネットワークの準備](prepare-network.md)」を読んで、準備ができていることを確認してください。
+Microsoft 365 または Office 365 を展開したときに、既にネットワークの準備ができている場合は、おそらく問題はありません。 いずれの場合でも、特に **リモート ワーカー** をサポートする最初の Office 365 ワークロードとして迅速に展開する場合は、「 [Teams 用の組織のネットワークの準備](prepare-network.md)」を読んで、準備ができていることを確認してください。
 
 ## <a name="meetings-and-conferencing"></a>ミーティングと会議
 

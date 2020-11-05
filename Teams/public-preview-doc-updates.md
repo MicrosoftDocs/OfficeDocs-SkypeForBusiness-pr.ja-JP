@@ -17,12 +17,12 @@ description: Microsoft Teams のパブリックプレビューについて説明
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a13e5499cb00d95d685b493db1365e9dc08ff43f
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: a2b06c58396db0e8fdb976037696b7a782d581cd
+ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816229"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48852188"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 
@@ -47,9 +47,9 @@ Microsoft Teams のパブリック プレビューを使用すると、Teams の
 
 デスクトップまたは Web クライアントでパブリック プレビューを有効にするには、次のタスクを実行する必要があります。
 
-1. プロファイルを選び、[Teams メニュー] を表示します。
+1. プロファイルを選び、[Teams] メニューを表示します。
 2. **[情報]** → **[開発者向けプレビュー]** を選択します。
-3. **[開発者向けプレビューに切り替え]** を選択します。
+3. **[パブリック プレビューに切り替える]** を選択します。
 
 ## <a name="related-topics"></a>関連項目
 
