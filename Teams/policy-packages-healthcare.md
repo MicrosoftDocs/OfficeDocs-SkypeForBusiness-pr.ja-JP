@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 医療組織の Teams ポリシーパッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: 28db6a594fd8ea579623975c20e96a2ce0189885
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: b8317a7f860d0ab8510a6170b69a50f7a3387ebd
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852208"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908516"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>医療用の Teams ポリシーパッケージ
 
@@ -72,25 +72,43 @@ Teams には現在、以下の医療ポリシーパッケージが含まれて�
 
 ### <a name="view"></a>表示
 
-パッケージを割り当てる前に、ポリシーパッケージの各ポリシーの設定を表示します。 Microsoft Teams 管理センターの左のナビゲーションで、[ **ポリシーパッケージ** ] を選択し、パッケージ名を選択して、ポリシー名を選びます。
+パッケージを割り当てる前に、ポリシーパッケージの各ポリシーの設定を表示します。 Microsoft Teams 管理センターの左のナビゲーションで、[ **ポリシーパッケージ** ] に移動し、パッケージ名を選択して、ポリシー名を選びます。
 
 定義済みの値が組織に適しているかどうかを判断します。または、組織のニーズに基づいて、ユーザー設定の値をカスタマイズする必要があるかどうかを決定します。
 
 ### <a name="customize"></a>カスタマイズ
 
-組織のニーズに合わせて、ポリシーパッケージのポリシーの設定を必要に応じてカスタマイズします。 ポリシー設定に加えた変更は、パッケージを割り当てられたユーザーに自動的に適用されます。 ポリシーパッケージ内のポリシーの設定を編集するには、Microsoft Teams 管理センターでポリシーパッケージを選び、編集するポリシーの名前を選んで、[ **編集** ] を選びます。
+組織のニーズに合わせて、ポリシーパッケージのポリシーの設定を必要に応じてカスタマイズします。 ポリシー設定に加えた変更は、パッケージを割り当てられたユーザーに自動的に適用されます。 ポリシーパッケージ内のポリシーの設定を編集するには、Microsoft Teams 管理センターの左側のナビゲーションで [ **ポリシー** パッケージ] に移動し、ポリシーパッケージを選び、編集するポリシーの名前を選んで、[ **編集** ] を選びます。
 
-ポリシーパッケージを割り当てると、パッケージのポリシーの設定を変更できることに注意してください。 詳細については、「 [ポリシーパッケージの](manage-policy-packages.md#customize-policies-in-a-policy-package)ポリシーをカスタマイズする」を参照してください。 
+ポリシーパッケージを割り当てると、パッケージのポリシーの設定を変更できることに注意してください。 詳細については、「 [ポリシーパッケージの](manage-policy-packages.md#customize-policies-in-a-policy-package)ポリシーをカスタマイズする」を参照してください。
 
 ### <a name="assign"></a>割り当てる
 
-ポリシーパッケージをユーザーに割り当てます。 ポリシーパッケージを1人または複数のユーザーに割り当てるには、[ **ユーザーの管理** ] をクリックします。 [PowerShell を使用](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation)して、ユーザーの大規模なバッチにポリシーパッケージを割り当てることもできます。 
+ポリシーパッケージをユーザーに割り当てます。 ユーザーにポリシーが割り当てられていて、後で別のポリシーを割り当てると、最新の割り当てが優先されます。
 
-Microsoft Teams 管理センターまたは PowerShell を使用してポリシーパッケージを割り当てる手順については、「 [ポリシーパッケージを割り当てる](manage-policy-packages.md#assign-a-policy-package)」をご覧ください。
+#### <a name="assign-a-policy-package-to-one-or-several-users"></a>1人または複数のユーザーにポリシーパッケージを割り当てる
+
+ポリシーパッケージを1人または複数のユーザーに割り当てるには、Microsoft Teams 管理センターの左側のナビゲーションで [ **ポリシーパッケージ** ] に移動し、[ **ユーザーの管理** ] を選択します。  
 
 ![管理センターでポリシーパッケージを割り当てる方法のスクリーンショット](media/policy-packages-healthcare-assign.png)
 
+詳細については、「 [ポリシーパッケージを割り当てる](manage-policy-packages.md#assign-a-policy-package)」を参照してください。
+
 ユーザーにポリシーが割り当てられていて、後で別のポリシーを割り当てると、最新の割り当てが優先されます。
+
+#### <a name="assign-a-policy-package-to-a-group"></a>ポリシーパッケージをグループに割り当てる
+
+**この機能はプライベートプレビュー**
+
+グループにポリシーパッケージを割り当てると、セキュリティグループや配布リストなど、複数のポリシーをユーザーのグループに割り当てることができます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。 この方法は、最大5万ユーザーのグループに推奨されますが、大規模なグループでも動作します。
+
+詳細については、「 [ポリシーパッケージをグループに割り当てる](assign-policies.md#assign-a-policy-package-to-a-group)」を参照してください。
+
+#### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>ポリシーパッケージを大規模なユーザー (バッチ) に割り当てる
+
+バッチポリシーパッケージの割り当てを使用して、一度に多くのユーザーにポリシーパッケージを割り当てます。 [CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation)コマンドレットを使用して、ユーザーのバッチと、割り当てるポリシーパッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチの操作 ID が生成されます。
+
+バッチには最大 5,000 のユーザーを含めることができます。 ユーザーは、オブジェクト Id、UPN、SIP アドレス、またはメールアドレスで指定できます。 詳細については、「 [ユーザーのバッチにポリシーパッケージを割り当てる](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

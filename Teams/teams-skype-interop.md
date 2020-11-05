@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 組織内の Teams ユーザーと Skype (コンシューマー) ユーザーとの相互運用性機能について説明します。
 localization_priority: Normal
-ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 56940dd7fbca87936b3137b1e27bffa92fea3112
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766901"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919039"
 ---
 # <a name="teams-and-skype-interoperability"></a>チームと Skype の相互運用性
 
@@ -47,9 +47,9 @@ Skype ユーザは、検索結果に表示されないように選択できま�
 
 Skype ユーザは、自分のメールアドレスを使って、チームユーザとのチャットを検索して開始することができます。 チームユーザには、Skype ユーザからの新しいメッセージがあることが通知され、最初にメッセージを受信しないと返信できません。
 
-- Teams ユーザーが [ **承諾**] を選択すると、会話が承諾され、両方のユーザーがチャットして通話を発信できるようになります。
-- Teams ユーザーが **ブロック**を選択した場合、会話はブロックされ、その後の Skype ユーザからのメッセージや通話はブロックされます。
-- Teams ユーザーが [ **メッセージの表示**] を選択すると、そのメッセージが teams に表示され、ユーザーはその会話を承認またはブロックするかどうかを決定できます。
+- Teams ユーザーが [ **承諾** ] を選択すると、会話が承諾され、両方のユーザーがチャットして通話を発信できるようになります。
+- Teams ユーザーが **ブロック** を選択した場合、会話はブロックされ、その後の Skype ユーザからのメッセージや通話はブロックされます。
+- Teams ユーザーが [ **メッセージの表示** ] を選択すると、そのメッセージが teams に表示され、ユーザーはその会話を承認またはブロックするかどうかを決定できます。
 
 > [!NOTE]
 > Skype for Business から Teams にアップグレードして、ユーザーが Teams のみモードの場合は、Skype ユーザーから Teams ユーザーへのチャットや通話が Teams に配信されます。 ユーザが諸島モードになっている場合は、Skype ユーザから Teams ユーザへのチャットや通話が Skype for Business に配信されます。
@@ -73,19 +73,26 @@ Skype ユーザは、自分のメールアドレスを使って、チームユ�
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>チームユーザーが Skype ユーザーと通信できるかどうかを設定する
 
-管理者は、Microsoft Teams 管理センターまたは PowerShell を使用して外部アクセス設定を設定し、組織内の Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 既定では、新しいテナントではこの機能が有効になっています。
+管理者は、Microsoft Teams 管理センターまたは PowerShell を使用して外部アクセス設定を設定し、組織内の Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 既定では、新しいテナントではこの機能が有効になっています。 ただし、ドメインでまだ利用できない場合は、次の DNS SRV レコードを IT 管理者が構成する必要があることを前提としています (例 _sipfederationtls. .com)。  
+
+**Service** : sipfederationtls<br/>
+**プロトコル** : TCP<br/>
+**優先度** : 100<br/>
+**重さ** : 1<br/>
+**ポート** : 5061<br/>
+**Target** : sipfed.online.lync.com
 
 Skype for Business から Teams にアップグレードした場合、Skype for Business 管理センターで構成した外部通信設定が Teams に移行されます。
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで
 
-Microsoft Teams 管理センターで、[**組織全体の設定**] の [外部アクセス] に移動し、[  >  **External access****ユーザーが Skype ユーザーと通信できるよう**にする] をオンにします。 このような外部アクセス設定を構成する方法については、「 [Teams で外部アクセスを管理](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)する」を参照してください。
+Microsoft Teams 管理センターで、[ **組織全体の設定** ] の [外部アクセス] に移動し、[  >  **External access****ユーザーが Skype ユーザーと通信できるよう** にする] をオンにします。 このような外部アクセス設定を構成する方法については、「 [Teams で外部アクセスを管理](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)する」を参照してください。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
 パラメーターと共に [CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) コマンドレットを使用して、 ```EnablePublicCloudAccess``` Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 ```true```チームユーザーが Skype ユーザーと通信できるようにパラメーターを設定します。 このパラメーターを使って、 ```EnablePublicCloudAudioVideoAccess``` 音声/ビデオ通話を有効または無効にすることができます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams で外部アクセスを管理する](manage-external-access.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Teams の自動応答と通話キューのダイヤルと音声認識のオプションについて説明します。
-ms.openlocfilehash: 3e3e750ff28779fb8fe8765a088c5a65d2a9b1f0
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: b63235409418f7ff05b8d34973d2390e6b18df36
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818807"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908706"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自動応答と通話キューのダイヤルと音声認識のリファレンス
 
@@ -78,7 +78,7 @@ ms.locfileid: "48818807"
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>名前でダイヤル - 音声による名前認識
 
-ユーザーは、音声 (音声認識) を使って、組織内の他のユーザーを検索できます。 また、検索しようとしているユーザーの名前を言うことで、Active Directory 内のすべてのユーザーに連絡することもできます。 音声入力を使うと、姓、名、姓 + 名、LastName + 名など、さまざまな形式の名前を認識できます。
+ユーザーは、音声 (音声認識) を使って、組織内の他のユーザーを検索できます。 また、検索しようとしているユーザーの完全な名前または一部を言うことで、Active Directory 内のすべてのユーザーに連絡することもできます。 音声入力を使うと、姓、名、姓 + 名、LastName + 名など、さまざまな形式の名前を認識できます。
   
 自動応答で音声認識を有効にすることはできますが、電話のキーパッド入力 (DTMF) は無効になりません。 自動応答で音声認識が有効になっている場合でも、電話のキーパッドエントリをいつでも使うことができます。
   
@@ -92,6 +92,9 @@ ms.locfileid: "48818807"
 |LastName + FirstName |完全  |Marble Amos |Amos Marble |
 |担当 |完全 |Amos |Amos Marble の場合は 1 を押すか 1 と言う  <br/> Amos Jones の場合は 2 を押すか 2 と言う |
 |姓 |完全 |Marble |Amos Marble の場合は 1 を押すか 1 と言う  <br/> Ben Marble の場合は 2 を押すか 2 と言う |
+|FirstName または LastName |部分 |2001 |Mary の場合は1を押す、または1と話す  <br/> Mary Jones の場合は2を押す  <br/> Amos Marcus の場合は3を押すか、「3」と発声します。 |
+|FirsName + LastName |部分 |Amos 3 月 |Amos Marble の場合は 1 を押すか 1 と言う  <br/> Amos Marcus の場合は2を押すか2と言ってください。 |
+
 
 > [!NOTE]
 > Active Directory のレプリケーションの遅延のため、新しいユーザーが名前をダイヤルするディレクトリに名前を付けて、音声認識によって名前が表示されるまでに最大36時間かかることがあります。

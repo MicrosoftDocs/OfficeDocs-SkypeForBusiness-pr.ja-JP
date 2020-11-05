@@ -30,24 +30,24 @@ ms.locfileid: "48655493"
 組織で大規模な会議を開催するために Teams のライブ イベントを計画している場合、そのイベントを立ち上げる前に考慮すべき事項がいくつかあります。
 
  > [!Note]
-> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
+> 別のプラットフォームでの Teams のライブ イベントについての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。 チームのライブイベントの帯域幅要件については、[組織を準備する](../prepare-network.md)を参照してください。
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>ライブ イベントに参加、およびライブ イベントを作成、スケジュールできるのは誰か。
 
-Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
+誰でも、ライセンスなしでライブ イベントに参加できます。 [管理クイック スタート - 会議とライブ イベント](../quick-start-meetings-live-events.md)をお読みください。
 
 ユーザーが Teams ライブ イベントをスケジュールするには、次の前提条件を満たす必要があります。
 
 Teams ライブ イベントを作成または表示するために割り当てる必要があるライセンスは次のとおりです。  
 
-- A Microsoft or Office 365 Enterprise E1, E3, or E5 license or an Office 365 Education A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
+- Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 Education A3 または A5 ライセンス。 この要件の例外は、[ゲスト ユーザー](plan-for-teams-live-events.md#guest-to-present)の他の条件が満たされている場合は、ゲスト ユーザーがライセンスなしで発表できることです。 
 - Microsoft Teams ライセンス - これは 1 つ目の項目に記載されているライセンスに含まれています。
 - Microsoft Stream のライセンス - コンテンツを外部のアプリまたはデバイスと共有する場合はこのライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。
 
   ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。これは、記録が Microsoft Stream に保存されず、代わりに Azure Media Services (AMS) に保存され、削除されるまでに 180 日の制限があることを意味します。現時点では、削除機能を含めるように管理者が制御または管理できるものではありません。
 
 >[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
+> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 > [!NOTE]
 > 現時点では、Teams ライブ イベントの作成と開催に使用できる Microsoft 365 Small Business プランはありません。
@@ -82,7 +82,7 @@ Teams ライブ イベントを作成または表示するために割り当て�
 2. ユーザーにゲストの招待を承諾してチームに参加してもらいます。
 3. [ライブイベントをスケジュールし、ゲストをイベントグループに追加します](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then click the link to join the event.
+ベストプラクティスとして、ライブイベントのプロデューサーと発表者がイベントの前にチャットして情報を共有できるように、チャネルを作成することをお勧めします。 Microsoft 365 の資格情報を持たないゲストには、Teams の予定表は表示されません。 簡単にイベントに参加できるように、プロデューサーはイベントリンクをチャネルに投稿できます。 発表者は、Teams を開いてチャネルに移動し、リンクをクリックしてイベントに参加できます。
 
 ## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか。
 
@@ -109,7 +109,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 >- Teams テナントごとに最大 50 の同時イベント
 >- ブロードキャストあたり最大 16 時間
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). **After January 1, 2021, customers who need these limit increases will be required to purchase the [Advanced Communications add-on](../teams-add-on-licensing/advanced-communications.md).**
+> さらに、最大 10 万人の参加者がいるライブイベントを、MIcrosoft 365 のライブイベント支援プログラムを通じて計画できます。 チームは各要求を評価し、お客様と協力して利用可能なオプションを決定します。 [詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日以降、これらの制限の引き上げが必要なお客様は、 [Advanced Communications](../teams-add-on-licensing/advanced-communications.md) アドオンを購入する必要があります。**
 
 |**機能**   |**Skype 会議ブロードキャスト** |**Teams で生成されたイベント** |**外部アプリまたはデバイスで作成されたイベント** |
 |---------|---------|---------|---------|
@@ -140,12 +140,12 @@ As a best practice, we recommend that you create a channel for producers and pre
 |ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |&#x274C; |
 |視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
+<sup>1</sup> 設定されている制限が変更される場合があります。 「[Teams の制限と仕様](../limits-specifications-teams.md)」を確認してください。<br/>
 <sup>2</sup> ライブ イベントには最大 250 人の発表者とプロデューサーを指定することができますが、リストには最後に話した 10 人しか表示されません。
 
 ## <a name="regional-availability"></a>利用可能な地域
 
-You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
+世界中の複数の地域で Teams ライブ イベントを使用できます。 次に、イベント チームのメンバーと出席者向けの利用状況を示します。
 
 > [!IMPORTANT]
 > イベントの地域は、開催者と Microsoft 365 テナントの場所に応じて自動的に選択されます。
@@ -181,9 +181,9 @@ You can use Teams live events in multiple regions across the world. The followin
 **除外対象と考慮事項**
 
 - **データの場所** : 上記以外の Teams のデータの場所はサポートされていません。
-- **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
+- **中国:** 中国では Azure CDN にアクセスできないため、イベント チームのメンバーと出席者は Teams ライブ イベントを使用できません。 企業の VPN 接続を使用して、顧客の企業ネットワーク経由でクライアントを CDN に接続することにより、これを回避できます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 「[Microsoft Teams でのライブ イベントのセットアップ](set-up-for-teams-live-events.md)」に進みます。
 

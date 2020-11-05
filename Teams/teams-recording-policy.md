@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 859e16ca4ffce26dc85eb117812cd9f1b1e201e0
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
+ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739335"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "48908576"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話 & 会議用の Teams ポリシーベースのレコーディングの概要
 
@@ -39,6 +39,8 @@ Teams では、チームの通信を構成、管理、記録、保存、およ�
 - Teams ユーザーとサポートされている通話エンドポイント (Teams、Teams Mobile、Skype for Business、PSTN) の間での操作のキャプチャのサポート
 
 - 既存のチーム管理者との統合、会議のツールとポリシーの統合など、コンプライアンスの記録用の新しい管理ポリシー
+
+コンプライアンス記録を有効にするには、Microsoft 365 A3/A5/E3/E5 と Office 365 A3/A5/E3 ユーザーを使用できます。 
 
 コンプライアンス記録ソリューションの統合機能も、 [<span class="underline">コンプライアンス記録と Microsoft Teams セッション</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)の Ignite 2019 でレビューされています。
 
@@ -206,6 +208,13 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 一般に公開されている Api を公開することにより、パートナーは CCaaS ソリューションの開発とチームとの統合を行うことができるようになりました。 Microsoft Teams 認定プログラムのコンプライアンス記録が開発され、お客様が Microsoft ソリューションに期待する品質、互換性、および信頼性を提供できることを保証しています。  
 
+以下のパートナーは、Microsoft Teams のソリューションを認定しています。
+
+|パートナー|ソリューションの Web サイト |
+|:--|:--|
+|すばらしい |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+
+
 以下のパートナーは、Microsoft Teams のソリューションを認定するプロセスを担当しています。
 
 |パートナー|ソリューションの Web サイト |
@@ -216,7 +225,6 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|すばらしい |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |オークの革新 |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
 |赤いボックス |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
@@ -224,6 +232,6 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 認定プログラムに参加しようとしているベンダーの場合は、メール  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>してください。
