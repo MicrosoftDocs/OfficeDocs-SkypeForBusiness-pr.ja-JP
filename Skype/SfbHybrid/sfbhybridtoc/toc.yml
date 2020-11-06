@@ -1,0 +1,35 @@
+- name: Teams および Skype for Business のハイブリッド ソリューション
+  items:
+    - name: ハイブリッド接続のプラン
+      href: ../hybrid/plan-hybrid-connectivity.md
+    - name: ハイブリッド接続の構成
+      href: ../hybrid/configure-hybrid-connectivity.md
+      items:
+        - name: ハイブリッド環境用の Azure AD Connect の構成
+          href: ../hybrid/configure-azure-ad-connect.md
+        - name: Skype for Business ハイブリッドの構成
+          href: ../hybrid/configure-federation-with-skype-for-business-online.md
+    - name: オンプレミスとクラウドの間でユーザーを移動する
+      href: ../hybrid/move-users-between-on-premises-and-cloud.md
+      items:
+        - name: オンプレミスから Teams にユーザーを移動する
+          href: ../hybrid/move-users-from-on-premises-to-teams.md
+        - name: ユーザーをオンプレミスから Skype for Business Online に移動する
+          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
+        - name: ユーザーをクラウドからオンプレミスに移動する
+          href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
+        - name: 会議の移行を管理する
+          href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
+    - name: ハイブリッドを無効にしてクラウドへの移行を完了する
+      href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+    - name: リソース フォレスト トポロジの展開
+      href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
+    - name: Teams と Skype for Business のクラウド統合
+      href: ../hybrid/cloud-consolidation.md
+      items:
+        - name: エッジ証明書の更新
+          href: ../hybrid/cloud-consolidation-edge-certificates.md
+        - name: AAD Connect を更新して複数のフォレストを含める
+          href: ../hybrid/cloud-consolidation-aad-connect.md
+    - name: Exchange および SharePoint との統合
+      href: ../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md
