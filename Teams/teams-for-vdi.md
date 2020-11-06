@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51b3333723624dc0c250ce3e4de9a3af88ad84f1
-ms.sourcegitcommit: a1524afb546fde9844f53390fab85e7073da8cb2
+ms.openlocfilehash: 28d5c9b318c2ce098d1f361f8af4b074260aaf98
+ms.sourcegitcommit: e95519cbcc4078810b251c6725863e4610323319
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48778900"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48925469"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -229,7 +229,6 @@ Teams のネットワークを準備する方法について詳しくは、「 [
 
 VDI 上の Skype for Business から VDI 上の Teams に移行する場合、2 つのアプリケーションの違いに加えて、VDI も実装されている場合にはいくつかの違いがあります。 Skype for Business VDI ではサポートされていて、Teams VDI では現在サポートされていない機能は、次のとおりです。
 
-- メディアのビットレートを制限するポリシーを使用した VDI 通話エクスペリエンスの制御
 - VDI の一部の AV 機能を無効にするプラットフォームごとのポリシー
 - アプリ共有時の制御の受け渡し
 - 音声なしのチャットからの画面共有

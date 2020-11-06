@@ -21,21 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81b6552f976c6a780ba01349c0ff4995b4b728c4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 76f7cdc48fdea339bfbef81f56eba629e8937abf
+ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904412"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48929518"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Microsoft Teams のサポートについて関与する
 
 早い導入者とチャンピオンチームが、Teams の使用を開始するために適切なサポートを利用できるようにするため、サポートスタッフと会議を行い、Teams の機能を確認します。 サポート組織の主要メンバーは、早期導入プログラムに参加することができます。 自分のシナリオで Teams の使用を奨励します。 オンライントレーニングリソースを使用して、製品の基本的なオンボードを通じてそれらの作業を行います。  
 
-- [Microsoft Teams の基礎](https://youtu.be/xJBvJTDiQqg)
+- [基礎-Microsoft Teams のコアコンポーネント](https://youtu.be/V6B4KraD-FM)
 - [チームのトラブルシューティング](https://youtu.be/0KNh9KNpXcA)
-- [既知の問題の一覧](https://aka.ms/TeamsKnownIssues)
-- [#ThisisTeams 入門ウェビナー](https://microsoftteams.eventbuilder.com/This%20is%20Teams) 
-- [Microsoft Teams IT Pro コースを有効にする](https://www.edx.org/course/enabling-teamwork-microsoft-teams-1)
+- [既知の問題とトラブルシューティング](https://aka.ms/TeamsKnownIssues)
+- [Microsoft Teams のトレーニング](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page)
 
-![次の手順](media/teams-adoption-next-icon.png)を示すアイコン。 [Microsoft Teams の導入フェーズ 3: 縮尺](teams-adoption-phase3-enable.md)。
+![次の手順を示すアイコン。 ](media/teams-adoption-next-icon.png) [Microsoft Teams の導入フェーズ 3: 縮尺](teams-adoption-phase3-enable.md)。

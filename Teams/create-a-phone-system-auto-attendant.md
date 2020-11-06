@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams の自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: ae1863d30236321080fb580e9152f8c3a09d0ad2
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
+ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48878188"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48922471"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -118,7 +118,7 @@ ms.locfileid: "48878188"
 - TelephoneNumber/PhoneNumber
 - その他の電話
 
-[ユーザー電話番号] フィールドに内線番号を入力するために必要な形式は、" *+ <phone number> ext = <extension>* " または " *+ <phone number> x <extension>* " のどちらかです。
+[ユーザー電話番号] フィールドに内線番号を入力するために必要な形式は、" *+ \<phone number> ext = \<extension>* " または " *+ \<phone number> x \<extension>* " のどちらかです。
 
 拡張機能は、 [Microsoft 365 管理センター](https://admin.microsoft.com/) または [Azure Active Directory 管理センター](https://aad.portal.azure.com)で設定できます。 自動応答と通話キューに対して変更が利用可能になるまでに最大12時間かかることがあります。
 

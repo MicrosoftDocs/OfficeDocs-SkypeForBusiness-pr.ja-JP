@@ -1,0 +1,1076 @@
+- name: Skype for Business Server 2019
+  href: ../skype-for-business-server-2019.yml
+  items:
+    - name: 新機能
+      href: ../whats-new.md
+    - name: 非推奨になった機能
+      href: ../deprecated.md
+    - name: 仮想化ガイダンス
+      href: ../virtualization-guidance.md
+    - name: Microsoft テレフォニー ソリューション
+      href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
+    - name: Skype for Business のダウンロードと更新プログラム
+      href: ../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+      items:
+        - name: クライアントの更新
+          href: ../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: サーバーの更新プログラム
+          href: ../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+    - name: Teams および Skype for Business のハイブリッド ソリューション
+      href: ../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+    - name: プラン
+      items:
+        - name: トポロジの基本
+          href: ../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: 関連トポロジ
+              href: ../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Requirements
+          items:
+            - name: システム要件
+              href: ../plan/system-requirements.md
+            - name: 負荷分散の要件
+              href: ../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ネットワーク要件
+              href: ../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: IPv6
+                  href: ../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: IP アドレスの種類
+                      href: ../../SfbServer/plan-your-deployment/network-requirements/ip-address-types.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: DNS
+                  href: ../../SfbServer/plan-your-deployment/network-requirements/dns.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: 基本事項
+                      href: ../../SfbServer/plan-your-deployment/network-requirements/basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 簡易 URL
+                      href: ../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 高度なエッジ サーバー DNS
+                      href: ../../SfbServer/plan-your-deployment/network-requirements/advanced-edge-server-dns.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ポートとプロトコルの要件
+              href: ../../SfbServer/plan-your-deployment/network-requirements/ports-and-protocols.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 承認と認証
+          href: ../../SfbServer/plan-your-deployment/modern-authentication/modern-authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: サポートされるトポロジ
+              href: ../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: サーバー間アプリケーションとパートナー アプリケーション
+              href: ../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ユーザー認証とクライアント認証
+              href: ../../SfbServer/plan-your-deployment/security/user-and-client-authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: クライアントとデバイス
+          href: ../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: ユーザー エクスペリエンス
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/user-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: デスクトップ クライアント機能の比較
+              href: ../plan/feature-comparison.md?toc=/SkypeForBusiness/toc.json
+            - name: モバイル機能の比較
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Windows の要件
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/windows-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Mac の要件
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/mac-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Office との互換性
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/compatibility-with-office.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ビデオの解像度
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/video-resolutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 会議クライアント
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: Skype 会議アプリの最小ネットワーク要件
+                  href: ../../SfbServer/plan-your-deployment/clients-and-devices/minimum-network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: VDI 環境
+              href: ../../SfbServer/plan-your-deployment/clients-and-devices/vdi-environments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 高可用性と障害復旧
+          href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: 高可用性
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 障害回復
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ユーザー エクスペリエンス
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/user-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: バック エンド サーバー
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ファイル共有
+              href: ../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: インスタント メッセージングおよびプレゼンス
+          href: ../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: ビデオ相互運用サーバー
+          href: ../../SfbServer/plan-your-deployment/video-interop-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 音声のソリューション
+          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: 用に構成します
+              href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: エンタープライズ VoIP に必要なコンポーネント
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: 仲介サーバー
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: PSTN 接続
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: フロントエンド サーバー VoIP
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/front-end-server-voip.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: PSTN 接続
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: SIP トランキング
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/sip-trunking.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      items:
+                        - name: ブランチ サイト
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/branch-site.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: ダイレクト SIP
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/direct-sip.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 'M:N トランク'
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/m-n-trunk.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: トランク間ルーティング
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/inter-trunk-routing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 変換ルール
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/translation-rules.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 発信音声ルーティング
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: エンタープライズ VoIP の回復性
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 高度な機能のネットワーク設定
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 通話受付管理
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-admission-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: '例: 要件の収集'
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: コンポーネントとトポロジ
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-and-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 緊急サービス
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/emergency-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: 要件の定義
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/define-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      items:
+                        - name: 範囲
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/scope.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: ネットワークの場所
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/network-location.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: ユーザーの有効化
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enable-users.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: 場所の管理
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution//manage-locations.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: ELIN ゲートウェイ
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/elin-gateways.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: 手動による場所の取得
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/manually-acquiring-a-location.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: SIP トランクの設計
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/design-the-sip-trunk.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: セキュリティ デスク
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/security-desk.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: サービス プロバイダーの選択
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/choose-a-service-provider.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: 場所ポリシー
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: 場所ポリシーのスコープ
+                          href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-policy-scope.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 複数の緊急電話番号
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: メディア バイパス
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/media-bypass.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: プライベート電話回線
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/private-telephone-lines.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 場所に基づくルーティング
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/location-based-routing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: 会議の LBR
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/lbr-for-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 通話管理機能
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-management-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: コール パーク
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-park.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: グループ通話ピックアップ
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/group-call-pickup.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 応答グループ
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/response-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: アナウンス
+                      href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/announcement.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 共有線の外観
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 空き時間情報オプション
+                  href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 勤務先から通話
+              href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: リモート通話コントロール
+              href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: クラウド ボイスメール
+              items:
+                - name: クラウド ボイスメールの計画
+                  href: ../../sfbhybrid/hybrid/plan-cloud-voicemail.md
+                - name: クラウド ボイスメールの構成
+                  href: ../../sfbhybrid/hybrid/configure-cloud-voicemail.md
+            - name: クラウド自動応答
+              items:
+                - name: クラウド自動応答の計画
+                  href: ../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md
+                - name: リソース アカウントの構成
+                  href: ../../SfbHybrid/hybrid/configure-onprem-ra.md
+            - name: クラウド通話キュー
+              items:
+                - name: クラウド通話キューの計画
+                  href: ../../SfbHybrid/hybrid/plan-call-queue.md
+                - name: リソース アカウントの構成
+                  href: ../../SfbHybrid/hybrid/configure-onprem-ra.md
+        - name: Skype for Business と Exchange の統合の計画
+          href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: ユニファイド メッセージング
+              href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 展開の概要
+                  href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 統合連絡先ストア
+              href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Skype for Business Server と Exchange Server の移行の計画
+              href: ../../sfbhybrid/hybrid/plan-um-migration.md
+            - name: Exchange ユニファイド メッセージングの移行サポート
+              href: ../plan/exchange-unified-messaging-online-migration-support.md
+        - name: 監視
+          href: ../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: アーカイブ
+          href: ../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 会議
+          href: ../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: ハードウェア要件およびソフトウェア要件
+              href: ../../SfbServer/plan-your-deployment/conferencing/hardware-and-software-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 会議のトポロジ
+              href: ../../SfbServer/plan-your-deployment/conferencing/conferencing-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ダイヤルイン会議
+              href: ../../SfbServer/plan-your-deployment/conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 大規模会議
+              href: ../../SfbServer/plan-your-deployment/conferencing/large-meetings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: エッジ サーバーの展開
+          href: ../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: システム要件
+              href: ../../SfbServer/plan-your-deployment/edge-server-deployments/system-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: エッジの環境要件
+              href: ../../SfbServer/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 高度なエッジ サーバー DNS
+                  href: ../../SfbServer/plan-your-deployment/network-requirements/advanced-edge-server-dns.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: シナリオ
+              href: ../../SfbServer/plan-your-deployment/edge-server-deployments/scenarios.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 身体
+          href: ../../SfbServer/plan-your-deployment/mobility.md
+        - name: セキュリティ
+          href: ../../SfbServer/plan-your-deployment/security/security.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: ウイルス対策
+              href: ../../SfbServer/plan-your-deployment/security/antivirus.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 重要なセキュリティ
+              href: ../../SfbServer/plan-your-deployment/security/key-security.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 一般的な脅威
+              href: ../../SfbServer/plan-your-deployment/security/common-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: セキュリティ フレームワーク
+              href: ../../SfbServer/plan-your-deployment/security/security-framework.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: Active Directory Domain Services
+                  href: ../../SfbServer/plan-your-deployment/security/active-directory-domain-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 役割ベースのアクセス制御 (RBAC)
+                  href: ../../SfbServer/plan-your-deployment/security/role-based-access-control-rbac.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Skype の公開キー インフラストラクチャ
+                  href: ../../SfbServer/plan-your-deployment/security/public-key-infrastructure-for-skype.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: TLS および MTLS
+                  href: ../../SfbServer/plan-your-deployment/security/tls-and-mtls.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 暗号化
+                  href: ../../SfbServer/plan-your-deployment/security/encryption.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 管理ツール
+                  href: ../../SfbServer/plan-your-deployment/security/management-tools.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 脅威への対応
+              href: ../../SfbServer/plan-your-deployment/security/addressing-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 容量
+          href: ../../SfbServer/plan-your-deployment/capacity/capacity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: ユーザー モデル
+              href: ../plan/user-model-2019.md
+              items:
+                - name: 音声トラフィックの見積もり
+                  href: ../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 仲介サーバーの展開ガイドライン
+                  href: ../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ユーザー モデル
+              href: ../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+    - name: 展開
+      items:
+        - name: Install
+          href: ../../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: 必須コンポーネントをインストールする
+              href: ../../SfbServer/deploy/install/install-prerequisites.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ファイル共有の作成
+              href: ../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 管理ツールのインストール
+              href: ../../SfbServer/deploy/install/install-administrative-tools.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Active Directory の準備
+              href: ../../SfbServer/deploy/install/prepare-active-directory.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: DNS レコードの作成
+              href: ../../SfbServer/deploy/install/create-dns-records.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 新しいトポロジの作成および公開
+              href: ../../SfbServer/deploy/install/create-and-publish-new-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Skype for Business Server のインストール
+              href: ../../SfbServer/deploy/install/install-skype-for-business-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: トポロジの確認
+              href: ../../SfbServer/deploy/install/verify-the-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 勤務先から通話の展開
+          href: ../../SfbServer/deploy/deploy-call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: アーカイブの展開
+          href: ../../SfbServer/deploy/deploy-archiving/deploy-archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: アーカイブ データベースの追加
+              href: ../../SfbServer/deploy/deploy-archiving/add-archiving-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: アーカイブ オプションの構成
+              href: ../../SfbServer/deploy/deploy-archiving/configure-archiving-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: アーカイブ ポリシーの構成
+              href: ../../SfbServer/deploy/deploy-archiving/configure-archiving-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: アーカイブの免責事項の構成
+              href: ../../SfbServer/deploy/deploy-archiving/configure-archiving-disclaimers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Exchange ストレージとの統合の構成
+              href: ../../SfbServer/deploy/deploy-archiving/configure-integration-with-exchange-storage.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 監視の展開
+          href: ../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: 監視ストアの関連付け
+              href: ../../SfbServer/deploy/deploy-monitoring/associate-a-monitoring-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: SQL Server Reporting Services のインストール
+              href: ../../SfbServer/deploy/deploy-monitoring/install-sql-server-reporting-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 監視レポートのインストール
+              href: ../../SfbServer/deploy/deploy-monitoring/install-monitoring-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ミラー データベースを使用する監視レポート
+              href: ../../SfbServer/deploy/deploy-monitoring/monitoring-reports-with-a-mirror-database.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 通話詳細記録および QoE
+              href: ../../SfbServer/deploy/deploy-monitoring/call-detail-recording-and-qoe.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 通話詳細記録および QoE の削除
+              href: ../../SfbServer/deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: ビデオ相互運用サーバーの展開
+          href: ../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: VIS プールの作成
+              href: ../../SfbServer/deploy/deploy-video-interop-server/create-a-vis-pool.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: VIS サーバーの役割の展開
+              href: ../../SfbServer/deploy/deploy-video-interop-server/deploy-the-vis-server-role.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: VIS の構成
+              href: ../../SfbServer/deploy/deploy-video-interop-server/configure-the-vis.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 相互運用に向けた CUCM の構成
+              href: ../../SfbServer/deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 相互運用に向けた VTC の構成
+              href: ../../SfbServer/deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: エンタープライズ VoIP の展開
+          href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: エンタープライズ VoIP のセキュリティ
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/enterprise-voice-security.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 仲介サーバーの展開
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-a-mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ゲートウェイの定義
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/define-a-gateway.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 追加のトランクの定義
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/define-additional-trunks.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 仲介サーバーのインストール
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/install-mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: トランクの構成
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-trunks.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: メディア バイパスを有効にしたトランクの構成
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: メディア バイパスを無効にしたトランクの構成
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: トランク構成の設定
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/trunk-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: トランク構成の削除
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/delete-trunk-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: SIP トランク構成の変更
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/modify-sip-trunk-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: SIP トランク構成のテスト
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/test-sip-trunk-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: SIP 情報の表示
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/view-sip-info.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 発信者番号の提示のルール
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/caller-id-presentation-rules.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 受信者番号の提示のルール
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/called-id-presentation-rules.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 正規化ルール
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/normalization-rules.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ダイヤル プラン
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/dial-plans.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 音声および PSTN
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-and-pstn.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 音声ポリシーおよび PSTN 使用法レコード
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ボイス メール エスケープの構成
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-voice-mail-escape.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: PSTN 使用法レコードの表示
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/view-pstn-usage-records.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 音声ルートの作成または変更
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 音声ルート構成のインポート/エクスポート
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-route-configuration-import-export.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 音声ルート構成の変更
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-route-config-changes.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ユーザーをエンタープライズ VoIP に対して有効にする
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 高度なエンタープライズ VoIP 機能の展開
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: ネットワークの展開
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-network.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 通話受付管理の展開
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-call-admission-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: 帯域幅ポリシー プロファイルの作成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-bandwidth-policy-profiles.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: ネットワーク地域リンクの作成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-region-links.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: ネットワーク地域間ルートの作成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-interregional-routes.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: ネットワーク サイト間ポリシーの作成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-network-intersite-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 通話受付管理の有効化
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-call-admission-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 最終チェックリスト
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/final-checklist.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 緊急サービスの展開
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-emergency-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: E9-1-1 音声ルートの構成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-an-e9-1-1-voice-route.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 場所ポリシーの作成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-location-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: ネットワーク サイトへの場所ポリシーの追加
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 場所データベースを構成する
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-the-location-database.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: SNMP アプリケーションの構成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-an-snmp-application.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: セカンダリ場所情報サービス
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/secondary-location-information-service.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 複数の緊急電話番号の構成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: メディア バイパスの展開
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-media-bypass.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: 仲介サーバーのバイパス
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/bypass-the-mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: サイトおよび地域の情報の使用
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/use-site-and-region-information.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 通話管理機能の展開
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-call-management-features.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: コール パークの展開プロセス
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-call-park.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: コール パーク オービット範囲の作成または変更
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-call-park-orbit-range.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: コール パーク設定の構成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-call-park-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: コール パーク保留音のカスタマイズ
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/customize-call-park-music-on-hold.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: ユーザーに対するコール パークの有効化
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-call-park-for-users.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: コール パーク正規化ルールの確認
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/verify-normalization-rules-for-call-park.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: (オプション) コール パーク展開の確認
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-call-park-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: グループ通話ピックアップの展開プロセス
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-group-call-pickup.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: SEFAUtil ツールの展開
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-the-sefautil-tool.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: グループ通話ピックアップ番号の範囲の作成または変更
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-group-call-pickup-number-range.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: ユーザーに対するグループ通話ピックアップの有効化とグループ番号の割り当て
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-group-call-pickup-for-users-and-assign-a-group-number.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 応答グループの展開プロセス
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-response-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: エージェント グループの作成または変更
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: キューの作成または変更
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-a-queue.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: (オプション) 応答グループの営業時間の定義
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-define-response-group-business-hours.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: (オプション) 応答グループ休日セットの定義
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-define-response-group-holiday-sets.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 応答グループ ワークフローの設計と作成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/designing-and-creating-response-group-workflows.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: アプリケーション レベルの応答グループ設定の管理
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/managing-application-level-response-group-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: (オプション) 応答グループの展開の確認
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-response-group-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: アナウンス アプリケーションの展開プロセス
+                  href: ../../SfbServer/deploy/deploy-enterprise-voice/deployment-process-for-the-announcement-application.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: アナウンスの作成
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-an-announcement.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 割り当てられていない番号範囲の作成または変更
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/create-or-modify-an-unassigned-number-range.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: (オプション) アナウンスの展開の確認
+                      href: ../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-announcement-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 回線共有機能の展開
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 通話中オプションのインストールおよび構成
+              href: ../../SfbServer/deploy/deploy-enterprise-voice/install-and-configure-busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Exchange Server との統合
+          href: ../../SfbServer/deploy/integrate-with-exchange-server/integrate-with-exchange-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: パートナー アプリケーションの構成
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/configure-partner-applications.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Exchange アーカイブの使用
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/use-exchange-archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: アーカイブされたデータの検索用 SharePoint
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/sharepoint-to-search-for-archived-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 高解像度の写真
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/high-resolution-photos.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 統合連絡先ストアの使用
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/use-the-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ボイス メール用の Exchange ユニファイド メッセージング
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Outlook Web App
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/outlook-web-app.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: オンラインおよびオンプレミスでの OAuth の使用
+              href: ../../SfbServer/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 統合連絡先ストアの展開
+              href: ../../SfbServer/deploy/deploy-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Skype 接続の展開
+          href: ../../SfbServer/deploy/deploy-skype-connectivity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 電話会議の展開
+          href: ../../SfbServer/deploy/deploy-conferencing/deploy-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: Office Web App サーバー
+              href: ../../SfbServer/deploy/deploy-conferencing/office-web-app-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ダイヤルイン会議
+              href: ../../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Room System v1 管理 Web ポータル
+              href: ../../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: エッジ サーバーの展開
+          href: ../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: Create your Edge topology
+              href: ../../SfbServer/deploy/deploy-edge-server/create-your-edge-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Deploy Edge Servers
+              href: ../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: エッジ展開の検証
+              href: ../../SfbServer/deploy/deploy-edge-server/validate-edge-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: モビリティの展開および構成
+          href: ../../SfbServer/deploy/deploy-and-configure-mobility.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: クライアントを展開する
+          href: ../../SfbServer/deploy/deploy-clients/deploy-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: Windows クライアントのインストールのカスタマイズ
+              href: ../../SfbServer/deploy/deploy-clients/customize-windows-client-installation.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: Office カスタマイズ ツール (OCT) を使用する
+                  href: ../../SfbServer/deploy/deploy-clients/use-the-office-customization-tool-oct.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Config.xml を使用したインストール タスクの実行
+                  href: ../../SfbServer/deploy/deploy-clients/use-config-xml-to-perform-installation-tasks.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: セットアップのコマンド ライン オプションを使用する
+                  href: ../../SfbServer/deploy/deploy-clients/use-setup-command-line-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: クライアント ブートストラップ ポリシーの構成
+                  href: ../../SfbServer/deploy/deploy-clients/configure-client-bootstrapping-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: iOS
+              href: ../../SfbServer/deploy/deploy-clients/ios.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: スマート連絡先リストの構成
+              href: ../../SfbServer/deploy/deploy-clients/configure-smart-contacts-list.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Web ダウンロード可能クライアントの展開
+              href: ../../SfbServer/deploy/deploy-clients/deploy-web-downloadable-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Mac クライアント エクスペリエンスのカスタマイズ
+              href: ../../SfbServer/deploy/deploy-clients/customize-the-mac-client-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Skype 会議ブロードキャストの構成
+          href: ../../SfbServer/deploy/configure-skype-meeting-broadcast.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: IM とプレゼンス
+          href: ../../SfbServer/deploy/im-and-presence/im-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: オフライン IM の有効化および無効化
+              href: ../../SfbServer/deploy/im-and-presence/enable-or-disable-offline-im.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 高可用性および障害復旧の展開
+          href: ../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/deploy-high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: AlwaysOn 可用性グループ
+              href: ../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 障害復旧のためのフロント エンド プール
+              href: ../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+    - name: 移行
+      href: ../migration/migration-to-skype-for-business-server-2019.md
+      items:
+        - name: 移行を始める前に
+          href: ../migration/before-you-begin-the-migration.md
+          items:
+            - name: 移行のプロセス
+              href: ../migration/migration-process.md
+            - name: 移行フェーズ
+              href: ../migration/migration-phases.md
+        - name: 'フェーズ 1: 移行の計画'
+          href: ../migration/phase-1-plan-your-migration.md
+          items:
+            - name: ユーザーの移行
+              href: ../migration/user-migration.md
+            - name: アーカイブ サーバーと監視サーバーの移行
+              href: ../migration/migrating-archiving-and-monitoring-servers.md
+            - name: 移行後のサーバーの管理
+              href: ../migration/administering-servers-after-migration.md
+            - name: 複数のサイトとプールの移行
+              href: ../migration/migrating-multiple-sites-and-pools.md
+            - name: XMPP フェデレーションの移行
+              href: ../migration/migrating-xmpp-federation.md
+        - name: 'フェーズ 2: 移行の準備'
+          href: ../migration/phase-2-prepare-for-migration.md
+          items:
+            - name: レガシ インストールへの更新プログラムの適用
+              href: ../migration/apply-updates.md
+            - name: パイロット プール展開の DNS レコードの構成
+              href: ../migration/configure-dns-records-for-pilot-pool-deployment.md
+            - name: システムとデータをバックアップする
+              href: ../migration/back-up-systems-and-data.md
+            - name: 移行用にクライアントを構成する
+              href: ../migration/configure-clients-for-migration.md
+            - name: 移行元のレガシ環境の確認
+              href: ../migration/verify-environment.md
+        - name: 'フェーズ 3: パイロット プールの展開'
+          href: ../migration/phase-3-deploy-pilot-pool.md
+          items:
+            - name: パイロット プール用の Active Directory の準備
+              href: ../migration/prepare-active-directory.md
+            - name: 既存の展開環境からトポロジをダウンロードする
+              href: ../migration/download-topology-from-existing-deployment.md
+            - name: パイロット プールの展開
+              href: ../migration/deploy-pilot-pool.md
+            - name: パイロット プールとレガシ プールの共存の確認
+              href: ../migration/verify-pilot-pool-coexistence-with-legacy-pool.md
+            - name: パイロット プールのレガシ エッジ サーバーへの接続
+              href: ../migration/connect-pilot-pool-to-legacy-edge-servers.md
+            - name: XMPP ゲートウェイ アクセス ポリシーおよび証明書の構成
+              href: ../migration/configure-xmpp-gateway-access-policies-and-certificates.md
+        - name: 'フェーズ 4: テスト ユーザーのパイロット プールへの移動'
+          href: ../migration/phase-4-move-test-users-to-the-pilot-pool.md
+          items:
+            - name: レガシ プールの現在のユーザーの表示
+              href: ../migration/view-current-users-in-legacy-pool.md
+            - name: ユーザー レプリケーションの完了の確認
+              href: ../migration/verify-user-replication-has-completed.md
+            - name: 単独のユーザーのパイロット プールへの移動
+              href: ../migration/move-a-single-user-to-the-pilot-pool.md
+            - name: 複数のユーザーをパイロット プールに移動する
+              href: ../migration/move-multiple-users-to-the-pilot-pool.md
+        - name: 'フェーズ 5: パイロット プールへのエッジ サーバーの追加'
+          href: ../migration/phase-5-add-edge-server-to-pilot-pool.md
+          items:
+            - name: パイロット エッジ サーバーを展開する
+              href: ../migration/deploy-pilot-edge-server.md
+            - name: 構成の設定を確認する
+              href: ../migration/verify-configuration-settings.md
+        - name: 'フェーズ 6: パイロット展開から運用展開への移行'
+          href: ../migration/phase-6-move-from-pilot-deployment-into-production.md
+          items:
+            - name: フェデレーション ルートとメディア トラフィックを構成する
+              href: ../migration/configure-federation-routes-and-media-traffic.md
+            - name: 外部ユーザーのフェデレーションとリモート アクセスを確認する
+              href: ../migration/verify-federation-and-remote-access-for-external-users.md
+            - name: 移行後の簡易 URL の変更
+              href: ../migration/change-simple-urls-after-migration.md
+            - name: 残りのユーザーを移動する
+              href: ../migration/move-remaining-users.md
+        - name: 'フェーズ 7: 移行後のタスクの実行'
+          href: ../migration/phase-7-complete-post-migration-tasks.md
+          items:
+            - name: 既存の会議および会議コンテンツの移行
+              href: ../migration/migrate-existing-meetings-and-meeting-content.md
+            - name: ダイヤルイン アクセス番号を移行する
+              href: ../migration/migrate-dial-in-access-numbers.md
+            - name: コール パーク アプリケーション設定の移行
+              href: ../migration/migrate-call-park-application-settings.md
+            - name: 応答グループを移行する
+              href: ../migration/migrate-response-groups.md
+            - name: アドレス帳を移行する
+              href: ../migration/migrate-address-book.md
+            - name: 会議参加ページの構成
+              href: ../migration/configure-the-meeting-join-page.md
+            - name: 従来のアーカイブ サーバーおよび監視サーバーの削除
+              href: ../migration/remove-legacy-archiving-and-monitoring-servers.md
+            - name: 信頼されたアプリケーション サーバーを構成する
+              href: ../migration/configure-trusted-application-servers.md
+            - name: Skype for Business クライアントの展開
+              href: ../migration/deploy-clients.md
+            - name: 存続可能ブランチ アプライアンスの接続
+              href: ../migration/connect-a-survivable-branch-appliance.md
+            - name: SCOM 監視の構成
+              href: ../migration/configure-scom-monitoring.md
+            - name: 共通領域電話の移行
+              href: ../migration/migrate-common-area-phones.md
+            - name: アナログ デバイスの移行
+              href: ../migration/migrate-analog-devices.md
+        - name: 'フェーズ 8: レガシ プールの使用停止'
+          href: ../migration/phase-8-decommission-legacy-pools.md
+          items:
+            - name: DNS SRV レコードの更新
+              href: ../migration/update-dns-srv-records.md
+            - name: レガシ中央管理サーバーの移動
+              href: ../migration/move-the-central-management-server.md
+            - name: 会議ディレクトリの移動
+              href: ../migration/move-conference-directories.md
+            - name: アーカイブ サーバーの関連付けの削除
+              href: ../migration/remove-the-archiving-server-association.md
+            - name: 監視サーバーの関連付けの削除
+              href: ../migration/remove-the-monitoring-server-association.md
+            - name: フロントエンド サーバーの削除
+              href: ../migration/remove-the-front-end-server.md
+              items:
+                - name: 通話受付管理のリセット
+                  href: ../migration/reset-call-admission-control.md
+                - name: サービスのセッションの禁止
+                  href: ../migration/prevent-sessions-for-services.md
+                - name: レガシ サービスの停止
+                  href: ../migration/stop-services.md
+                - name: プールからのフロントエンド サーバーの削除
+                  href: ../migration/remove-a-front-end-server-from-a-pool.md
+                - name: フロントエンド プールまたは Standard Edition サーバーの削除
+                  href: ../migration/remove-front-end-pool-or-standard-edition-server.md
+            - name: バックエンド サーバー上の SQL Server インスタンスとデータベースの削除
+              href: ../migration/remove-sql-server-instances-and-databases-on-the-back-end-server.md
+              items:
+                - name: フロントエンド プール用の SQL Server データベースの削除
+                  href: ../migration/remove-the-sql-server-database-for-a-front-end-pool.md
+                - name: 監視サーバー用の SQL Server データベースの削除
+                  href: ../migration/remove-the-sql-server-database-for-a-monitoring-server.md
+                - name: アーカイブ サーバー用の SQL Server データベースの削除
+                  href: ../migration/remove-the-sql-server-database-for-an-archiving-server.md
+    - name: 管理
+      items:
+        - name: トポロジ
+          href: ../../SfbServer/manage/topology/topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: フロント エンド サーバーの管理
+              href: ../../SfbServer/manage/topology/manage-front-end-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: バックエンドまたは Standard Edition サーバーのパッチまたは更新
+              href: ../../SfbServer/manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: データベース管理
+              href: ../../SfbServer/manage/topology/manage-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ファイル ストアのデータの移動
+              href: ../../SfbServer/manage/topology/move-file-store-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: TLS 1.0/1.1 の無効化
+              href: ../../SfbServer/manage/topology/disable-tls-1.0-1.1.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 正常性および監視
+          href: ../../SfbServer/manage/health-and-monitoring/health-and-monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: 監視データへのアクセス
+              href: ../../SfbServer/manage/health-and-monitoring/access-monitoring-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 通話詳細記録 (CDR)
+              href: ../../SfbServer/manage/health-and-monitoring/call-detail-recording-cdr.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 構成情報の表示
+                  href: ../../SfbServer/manage/health-and-monitoring/view-configuration-information.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: CDR の有効化
+                  href: ../../SfbServer/manage/health-and-monitoring/enable-cdr.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: データの保存期間の指定
+                  href: ../../SfbServer/manage/health-and-monitoring/specify-retention-of-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: CDR 構成設定のコレクションの作成または変更
+                  href: ../../SfbServer/manage/health-and-monitoring/create-or-modify-a-collection-of-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: CDR 構成設定の既存コレクションの削除
+                  href: ../../SfbServer/manage/health-and-monitoring/delete-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Quality of Experience
+              href: ../../SfbServer/manage/health-and-monitoring/quality-of-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: QoE 構成設定の作成
+                  href: ../../SfbServer/manage/health-and-monitoring/create-qoe-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: QoE の有効化
+                  href: ../../SfbServer/manage/health-and-monitoring/enable-qoe.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: QoE 設定の変更
+                  href: ../../SfbServer/manage/health-and-monitoring/modify-qoe-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: QoE 構成設定の削除
+                  href: ../../SfbServer/manage/health-and-monitoring/delete-qoe-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: モビリティのパフォーマンスの監視
+              href: ../../SfbServer/manage/health-and-monitoring/monitor-mobility-performance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: サーバーのメモリ容量の制限
+                  href: ../../SfbServer/manage/health-and-monitoring/server-memory-capacity-limits.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: サービスおよび UCWA の使用状況
+                  href: ../../SfbServer/manage/health-and-monitoring/service-and-ucwa-usage.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: サービスの構成
+                  href: ../../SfbServer/manage/health-and-monitoring/configure-service.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: パフォーマンス カウンター
+                  href: ../../SfbServer/manage/health-and-monitoring/performance-counters.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: UCWA イベント
+                  href: ../../SfbServer/manage/health-and-monitoring/ucwa-events.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 監視レポート
+              href: ../../SfbServer/manage/health-and-monitoring/monitoring-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: ダッシュ ボードの監視
+                  href: ../../SfbServer/manage/health-and-monitoring/monitoring-dashboard.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: システム使用状況レポート
+                  href: ../../SfbServer/manage/health-and-monitoring/system-usage-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: ユーザー登録レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/user-registration-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: ピアツーピア アクティビティ概要レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/peer-to-peer-activity-summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      items:
+                        - name: IM レポート
+                          href: ../../SfbServer/manage/health-and-monitoring/im-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: 音声およびビデオ レポート
+                          href: ../../SfbServer/manage/health-and-monitoring/voice-and-video-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 電話会議の概要レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/conference-summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      items:
+                        - name: 活動レポート
+                          href: ../../SfbServer/manage/health-and-monitoring/activity-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: 詳細レポート
+                          href: ../../SfbServer/manage/health-and-monitoring/detail-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: 参加時間レポート
+                          href: ../../SfbServer/manage/health-and-monitoring/join-time-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: PSTN 電話会議の概要レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/pstn-conference-summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 応答グループの使用レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/response-group-usage-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      items:
+                        - name: 通話リスト レポート
+                          href: ../../SfbServer/manage/health-and-monitoring/call-list-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: IP 電話インベントリ レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/ip-phone-inventory-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 通話受付管理レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/call-admission-control-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      items:
+                        - name: ピアツーピア セッション詳細レポート
+                          href: ../../SfbServer/manage/health-and-monitoring/peer-to-peer-session-detail-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 通話診断レポート (ユーザーごと)
+                  href: ../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports-per-user.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 通話診断レポート
+                  href: ../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: 概要レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                      items:
+                        - name: 電話会議の概要サブレポート
+                          href: ../../SfbServer/manage/health-and-monitoring/conference-summary-subreport.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                        - name: P2P の概要サブレポート
+                          href: ../../SfbServer/manage/health-and-monitoring/p2p-summary-subreport.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: ピアツーピア アクティビティ診断レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/peer-to-peer-activity-diagnostic-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 電話会議診断レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/conference-diagnostic-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: トップ エラー レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/top-failures-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: エラー分布レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/failure-distribution-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: エラー リスト レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/failure-list-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 診断レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/diagnostic-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: メディア品質診断レポート
+                  href: ../../SfbServer/manage/health-and-monitoring/media-quality-diagnostic-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                  items:
+                    - name: 要約
+                      href: ../../SfbServer/manage/health-and-monitoring/summary.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: Comparison
+                      href: ../../SfbServer/manage/health-and-monitoring/comparison.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: サーバーのパフォーマンス
+                      href: ../../SfbServer/manage/health-and-monitoring/server-performance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 場所レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/location-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: デバイス レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/device-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 通話リスト レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/call-list-report-0.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 通話の詳細レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/call-detail-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: サーバー メディア品質傾向レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/server-media-quality-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: メディア品質メトリック分布レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/media-quality-metrics-distribution-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                    - name: 場所の傾向レポート
+                      href: ../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 通話の評価
+              href: ../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 通話データ コネクタ
+              items:
+                - name: 通話データ コネクタの計画
+                  href: ../../sfbhybrid/hybrid/plan-call-data-connector.md
+                - name: 通話データ コネクタの構成
+                  href: ../../sfbhybrid/hybrid/configure-call-data-connector.md
+        - name: アーカイブ
+          href: ../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: Options
+              href: ../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 構成の作成
+                  href: ../../SfbServer/manage/archiving/create-a-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 構成の削除
+                  href: ../../SfbServer/manage/archiving/delete-a-configuration.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: アーカイブの有効化または無効化
+                  href: ../../SfbServer/manage/archiving/enable-or-disable-archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: エラー処理のオプションの構成
+                  href: ../../SfbServer/manage/archiving/configure-options-to-handle-failures.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: アーカイブされているデータを削除する
+                  href: ../../SfbServer/manage/archiving/purging-of-archived-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Policies
+              href: ../../SfbServer/manage/archiving/policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 新しいポリシーの作成
+                  href: ../../SfbServer/manage/archiving/create-a-new-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 既存のポリシーの変更
+                  href: ../../SfbServer/manage/archiving/change-an-existing-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ユーザーへのポリシーの適用
+                  href: ../../SfbServer/manage/archiving/apply-a-policy-to-users.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 既存のポリシーの削除
+                  href: ../../SfbServer/manage/archiving/delete-an-existing-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: アーカイブ データベース オプションの変更
+              href: ../../SfbServer/manage/archiving/change-archiving-database-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: アーカイブされたデータのエクスポート
+              href: ../../SfbServer/manage/archiving/export-archived-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 会議
+          href: ../../SfbServer/manage/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: 会議ポリシー
+              href: ../../SfbServer/manage/conferencing/conferencing-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 表示
+                  href: ../../SfbServer/manage/conferencing/view.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ポリシーの作成
+                  href: ../../SfbServer/manage/conferencing/create-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ポリシーの変更
+                  href: ../../SfbServer/manage/conferencing/modify-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ポリシーの割り当て
+                  href: ../../SfbServer/manage/conferencing/assign-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ポリシーの削除
+                  href: ../../SfbServer/manage/conferencing/delete-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 会議の構成設定
+              href: ../../SfbServer/manage/conferencing/meeting-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 設定の表示
+                  href: ../../SfbServer//manage/conferencing/view-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 設定の作成
+                  href: ../../SfbServer/manage/conferencing/create-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 設定の変更
+                  href: ../../SfbServer/manage/conferencing/modify-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 設定の削除
+                  href: ../../SfbServer/manage/conferencing/delete-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 電話会議サーバーの構成設定
+              href: ../../SfbServer/manage/conferencing/conferencing-server-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ダイヤルイン会議
+              href: ../../SfbServer/manage/conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 有効化または無効化
+                  href: ../../SfbServer/manage/conferencing/enable-or-disable.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: アクセス番号
+                  href: ../../SfbServer/manage/conferencing/access-numbers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: PIN ポリシー
+                  href: ../../SfbServer/manage/conferencing/pin-policies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 入退出のアナウンス
+                  href: ../../SfbServer/manage/conferencing/join-and-leave-announcements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: DTMF コマンドのキー マッピング
+                  href: ../../SfbServer/manage/conferencing/key-mapping-for-dtmf-commands.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: PIN 非使用の会議参加
+                  href: ../../SfbServer/manage/conferencing/pin-less-meeting-join.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ディレクトリ
+                  href: ../../SfbServer/manage/conferencing/directories.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 歓迎の電子メール
+                  href: ../../SfbServer/manage/conferencing/welcome-emails.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: テスト
+                  href: ../../SfbServer/manage/conferencing/tests.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 会議参加ページ
+              href: ../../SfbServer/manage/conferencing/meeting-join-page.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 管理シェル
+          href: ../../SfbServer/manage/management-shell.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 認証
+          href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: ADAL の使用
+              href: ../../SfbServer/manage/authentication/use-adal.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: AV と OAuth の証明書のステージング
+              href: ../../SfbServer/manage/authentication/stage-av-and-oauth-certificates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: サーバー間の証明書の割り当て
+              href: ../../SfbServer/manage/authentication/assign-a-server-to-server-certificate.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: ハイブリッドのサーバー間認証の構成
+              href: ../../SfbServer/manage/authentication/configure-a-hybrid-environment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: オンプレミス パートナー アプリの構成
+              href: ../../SfbServer/manage/authentication/configure-an-on-premises-partner-app.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: レジストラーの構成設定
+              href: ../../SfbServer/manage/authentication/registrar-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Web サービスの構成設定
+              href: ../../SfbServer/manage/authentication/web-service-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: PIN 設定
+              href: ../../SfbServer/manage/authentication/pin-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: PIN ポリシー情報の表示
+                  href: ../../SfbServer/manage/authentication/view-pin-policy-information.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 新しい PIN ポリシーの作成
+                  href: ../../SfbServer/manage/authentication/create-a-new-pin-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 既存の PIN ポリシーの変更
+                  href: ../../SfbServer/manage/authentication/modify-an-existing-pin-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: PIN ポリシーの削除
+                  href: ../../SfbServer/manage/authentication/delete-a-pin-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ユーザー単位の PIN ポリシーの割り当て
+                  href: ../../SfbServer/manage/authentication/assign-a-per-user-pin-policy.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ユーザーのダイヤルイン会議 PIN の設定
+                  href: ../../SfbServer/manage/authentication/set-a-user-s-dial-in-conferencing-pin.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ユーザー PIN 情報の表示
+                  href: ../../SfbServer/manage/authentication/view-user-pin-information.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: ユーザー PIN のロックまたはロック解除
+                  href: ../../SfbServer/manage/authentication/lock-or-unlock-a-user-pin.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: 2 要素認証
+              href: ../../SfbServer/manage/authentication/two-factor-authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: 2 要素認証の構成
+                  href: ../../SfbServer/manage/authentication/configure-two-factor.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: 2 要素認証の使用
+                  href: ../../SfbServer/manage/authentication/use-two-factor.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Skype for Business Server のビデオベースの画面共有
+          href: ../../SfbServer/manage/video-based-screen-sharing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: ユーザー アカウント
+          href: ../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: プロパティのカスタマイズ
+              href: ../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: サービスの管理
+          href: ../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: RGS のバックアップ データ
+          href: ../backup-rgs-data.md
+        - name: SEFAUtil の使用
+          href: ../sefautil-functionality.md
+    - name: 管理ツール
+      href: ../management-tools-2019.md
+      items:
+        - name: Skype for Business Server の通話品質ダッシュボード
+          href: ../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md
+          items:
+            - name: 通話品質ダッシュボードの計画
+              href: ../../SfbServer/management-tools/call-quality-dashboard/plan.md
+            - name: 通話品質ダッシュボードの展開
+              href: ../../SfbServer/management-tools/call-quality-dashboard/deploy-0.md
+            - name: 通話品質ダッシュボードの使用
+              href: ../../SfbServer/management-tools/call-quality-dashboard/use.md
+        - name: Skype for Business Server の Statistics Manager
+          href: ../../SfbServer/management-tools/statistics-manager/statistics-manager.md
+          items:
+            - name: Skype for Business Server の Statistics Manager の計画
+              href: ../../SfbServer/management-tools/statistics-manager/plan.md
+            - name: Skype for Business Server の Statistics Manager の展開
+              href: ../../SfbServer/management-tools/statistics-manager/deploy.md
+            - name: Skype for Business Server の Statistics Manager のアップグレード
+              href: ../../SfbServer/management-tools/statistics-manager/upgrade.md
+            - name: Skype for Business Server の Statistics Manager のトラブルシューティング
+              href: ../../SfbServer/management-tools/statistics-manager/troubleshoot.md
+        - name: SCOM 管理パックを使用した Skype for Business Server の管理
+          href: ../tools/scom-management-pack-use-2019.md
+          items:
+            - name: プライマリ管理サーバーの構成
+              href: ../tools/configure-the-primary-2019.md
+            - name: 監視対象にするコンピューターの構成
+              href: ../tools/configure-computers-to-monitor-2019.md
+            - name: 監視ノード
+              href: ../tools/watcher-nodes-2019.md
+              items:
+                - name: テスト ユーザーと設定
+                  href: ../tools/test-users-and-settings-2019.md
+        - name: Skype for Business Server の容量計画計算ツール
+          href: ../../SfbServer/management-tools/capacity-planning-calculator.md
