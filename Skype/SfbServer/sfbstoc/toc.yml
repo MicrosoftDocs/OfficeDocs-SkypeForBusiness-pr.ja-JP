@@ -1,0 +1,2720 @@
+- name: Skype for Business Server 2015
+  href: ../skype-for-business-server-2015.yml
+  items:
+    - name: 技術ダイアグラム
+      href: ../technical-diagrams.md
+    - name: Skype for Business Server の新機能
+      href: ../what-s-new-in-skype-for-business-server.md
+    - name: Skype for Business のダウンロードと更新プログラム
+      href: ../software-updates.md
+      items:
+        - name: クライアントの更新
+          href: ../sfb-client-updates.md
+        - name: サーバーの更新プログラム
+          href: ../sfb-server-updates.md
+    - name: Microsoft テレフォニー ソリューション
+      href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
+      items:
+        - name: Skype for Business Server でオンプレミス PSTN 接続を使用して電話システムを計画する
+          href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
+        - name: Skype for Business Server でオンプレミスの PSTN 接続を使用して電話システムのユーザーを有効にする
+          href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md
+          items:
+            - name: エンタープライズ VoIP オンプレミスでユーザーを有効にする
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md
+            - name: 音声ルーティング ポリシーの割り当て
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md
+            - name: エンタープライズ VoIP オンラインおよび電話システムのボイスメールでユーザーを有効にする
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md
+        - name: Skype for Business Cloud Connector エディションの計画
+          href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md
+          items:
+            - name: Cloud Connector エディション PSTN サイトの計画
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md
+            - name: Cloud Connector エディションでのメディア バイパスの計画
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-media-bypass-in-cloud-connector-edition.md
+        - name: Skype for Business Cloud Connector エディションの構成
+          href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-skype-for-business-cloud-connector-edition.md
+          items:
+            - name: Cloud Connector アプライアンスの準備
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/prepare-your-cloud-connector-appliance.md
+            - name: Cloud Connector での単一サイトの展開
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-a-single-site-in-cloud-connector.md
+            - name: Cloud Connector での複数サイトの展開
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md
+            - name: Cloud Connector と Office 365 組織の統合の構成
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md
+            - name: Cloud Connector 展開の検証
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md
+            - name: Cloud Connector 新バージョンへのアップグレード
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/upgrade-to-a-new-version-of-cloud-connector.md
+            - name: 既存の Cloud Connector の展開構成の変更
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/modify-the-configuration-of-an-existing-cloud-connector-deployment.md
+            - name: Cloud Connector でのメディア バイパスの展開
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-media-bypass-in-cloud-connector.md
+            - name: Operations Management Suite (OMS) を使用した Cloud Connector の監視
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms.md
+            - name: Cloud Connector コマンドレットのリファレンス
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/cloud-connector-cmdlet-reference.md
+              items:
+                - name: Backup-CcCertificationAuthority
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/backup-cccertificationauthority.md
+                - name: Convert-CcIsoToVhdx
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/convert-ccisotovhdx.md
+                - name: Enter-CcUpdate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enter-ccupdate.md
+                - name: Exit-CcUpdate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/exit-ccupdate.md
+                - name: Export-CcConfigurationSampleFile
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccconfigurationsamplefile.md
+                - name: Export-CcRootCertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccrootcertificate.md
+                - name: Export-CcConfiguration
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccconfiguration.md
+                - name: Get-CcApplianceDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccappliancedirectory.md
+                - name: Get-CcApplianceLogDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccappliancelogdirectory.md
+                - name: Get-CcApplianceStatus
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccappliancestatus.md
+                - name: Get-CcCredential
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-cccredential.md
+                - name: Get-CcExternalCertificateFilePath
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccexternalcertificatefilepath.md
+                - name: Get-CcSiteDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccsitedirectory.md
+                - name: Get-CcSiteLogDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccsitelogdirectory.md
+                - name: Get-CcVersion
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccversion.md
+                - name: Import-CcConfiguration
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/import-ccconfiguration.md
+                - name: Install-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/install-ccappliance.md
+                - name: Publish-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/publish-ccappliance.md
+                - name: Register-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/register-ccappliance.md
+                - name: Remove-CcCertificationAuthorityFile
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/remove-cccertificationauthorityfile.md
+                - name: Remove-CcLegacyServerCertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/remove-cclegacyservercertificate.md
+                - name: Renew-CcCACertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/renew-cccacertificate.md
+                - name: Renew-CcServerCertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/renew-ccservercertificate.md
+                - name: Reset-CcCACertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/reset-cccacertificate.md
+                - name: Restore-CcCredentials
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/restore-cccredentials.md
+                - name: Search-CcLog
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/search-cclog.md
+                - name: Set-CcApplianceDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-ccappliancedirectory.md
+                - name: Set-CcCredential
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-cccredential.md
+                - name: Set-CcExternalCertificateFilePath
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-ccexternalcertificatefilepath.md
+                - name: Set-CcSiteDirectory
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/set-ccsitedirectory.md
+                - name: Start-CcDownload
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/start-ccdownload.md
+                - name: Start-CcLogging
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/start-cclogging.md
+                - name: Stop-CcLogging
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/stop-cclogging.md
+                - name: Switch-CcVersion
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/switch-ccversion.md
+                - name: Uninstall-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/uninstall-ccappliance.md
+                - name: Unregister-CcAppliance
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/unregister-ccappliance.md
+                - name: Update-CcCACertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-cccacertificate.md
+                - name: Update-CcServerCertificate
+                  href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md
+            - name: Cloud Connector 展開のトラブルシューティング
+              href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md
+    - name: Teams および Skype for Business のハイブリッド ソリューション
+      href: ../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+    - name: 展開の計画
+      href: ../plan-your-deployment/plan-your-deployment.md
+      items:
+        - name: トポロジの基本
+          href: ../plan-your-deployment/topology-basics/topology-basics.md
+          items:
+            - name: 関連トポロジ
+              href: ../plan-your-deployment/topology-basics/reference-topologies.md
+        - name: 環境の要件
+          href: ../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md
+          items:
+            - name: サーバーの要件
+              href: ../plan-your-deployment/requirements-for-your-environment/server-requirements.md
+            - name: 環境要件
+              href: ../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md
+        - name: ネットワーク要件
+          href: ../plan-your-deployment/network-requirements/network-requirements.md
+          items:
+            - name: IPv6
+              href: ../plan-your-deployment/network-requirements/ipv6.md
+              items:
+                - name: IP アドレスの種類
+                  href: ../plan-your-deployment/network-requirements/ip-address-types.md
+            - name: 負荷分散
+              href: ../plan-your-deployment/network-requirements/load-balancing.md
+            - name: DNS
+              href: ../plan-your-deployment/network-requirements/dns.md
+              items:
+                - name: 基本事項
+                  href: ../plan-your-deployment/network-requirements/basics.md
+                - name: 簡易 URL
+                  href: ../plan-your-deployment/network-requirements/simple-urls.md
+                - name: 高度なエッジ サーバー DNS
+                  href: ../plan-your-deployment/network-requirements/advanced-edge-server-dns.md
+            - name: ポートとプロトコル
+              href: ../plan-your-deployment/network-requirements/ports-and-protocols.md
+        - name: アップグレード
+          href: ../plan-your-deployment/upgrade.md
+        - name: クライアントとデバイス
+          href: ../plan-your-deployment/clients-and-devices/clients-and-devices.md
+          items:
+            - name: ユーザー エクスペリエンス
+              href: ../plan-your-deployment/clients-and-devices/user-experience.md
+            - name: デスクトップ機能の比較
+              href: ../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md
+            - name: モバイル機能の比較
+              href: ../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md
+            - name: Windows の要件
+              href: ../plan-your-deployment/clients-and-devices/windows-requirements.md
+            - name: Mac の要件
+              href: ../plan-your-deployment/clients-and-devices/mac-requirements.md
+            - name: Office との互換性
+              href: ../plan-your-deployment/clients-and-devices/compatibility-with-office.md
+            - name: ビデオの解像度
+              href: ../plan-your-deployment/clients-and-devices/video-resolutions.md
+            - name: 会議クライアント
+              href: ../plan-your-deployment/clients-and-devices/meetings-clients.md
+              items:
+                - name: Skype 会議アプリの最小ネットワーク要件
+                  href: ../plan-your-deployment/clients-and-devices/minimum-network-requirements.md
+            - name: Windows Phoneの要件
+              href: ../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md
+            - name: VDI 環境
+              href: ../plan-your-deployment/clients-and-devices/vdi-environments.md
+        - name: 高可用性と障害復旧
+          href: ../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md
+          items:
+            - name: 高可用性
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md
+            - name: 障害回復
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md
+            - name: ユーザー エクスペリエンス
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/user-experience.md
+            - name: バック エンド サーバー
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md
+            - name: ファイル共有
+              href: ../plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md
+        - name: インスタント メッセージングおよびプレゼンス
+          href: ../plan-your-deployment/instant-messaging-and-presence.md
+        - name: ビデオ相互運用サーバー
+          href: ../plan-your-deployment/video-interop-server.md
+        - name: 常設チャット サーバー
+          href: ../plan-your-deployment/persistent-chat-server/persistent-chat-server.md
+          items:
+            - name: ハードウェア要件およびソフトウェア要件
+              href: ../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md
+            - name: トポロジ
+              href: ../plan-your-deployment/persistent-chat-server/topology.md
+            - name: 高可用性と障害復旧
+              href: ../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md
+            - name: キャパシティ プランニング
+              href: ../plan-your-deployment/persistent-chat-server/capacity-planning.md
+            - name: カテゴリ、チャット ルーム、およびユーザーの役割
+              href: ../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md
+        - name: エンタープライズ VoIP ソリューション
+          href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
+          items:
+            - name: 用に構成します
+              href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
+              items:
+                - name: エンタープライズ VoIP に必要なコンポーネント
+                  href: ../plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md
+                  items:
+                    - name: 仲介サーバー
+                      href: ../plan-your-deployment/enterprise-voice-solution/mediation-server.md
+                    - name: PSTN 接続
+                      href: ../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md
+                    - name: フロントエンド サーバー VoIP
+                      href: ../plan-your-deployment/enterprise-voice-solution/front-end-server-voip.md
+                - name: PSTN 接続
+                  href: ../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md
+                  items:
+                    - name: SIP トランキング
+                      href: ../plan-your-deployment/enterprise-voice-solution/sip-trunking.md
+                      items:
+                        - name: ブランチ サイト
+                          href: ../plan-your-deployment/enterprise-voice-solution/branch-site.md
+                    - name: ダイレクト SIP
+                      href: ../plan-your-deployment/enterprise-voice-solution/direct-sip.md
+                    - name: 'M:N トランク'
+                      href: ../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md
+                    - name: トランク間ルーティング
+                      href: ../plan-your-deployment/enterprise-voice-solution/inter-trunk-routing.md
+                    - name: 変換ルール
+                      href: ../plan-your-deployment/enterprise-voice-solution/translation-rules.md
+                    - name: 発信音声ルーティング
+                      href: ../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md
+                - name: エンタープライズ VoIP の回復性
+                  href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md
+                - name: 高度な機能のネットワーク設定
+                  href: ../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md
+                - name: 通話受付管理
+                  href: ../plan-your-deployment/enterprise-voice-solution/call-admission-control.md
+                  items:
+                    - name: '例: 要件の収集'
+                      href: ../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md
+                    - name: コンポーネントとトポロジ
+                      href: ../plan-your-deployment/enterprise-voice-solution/components-and-topologies.md
+                - name: 緊急サービス
+                  href: ../plan-your-deployment/enterprise-voice-solution/emergency-services.md
+                  items:
+                    - name: 要件の定義
+                      href: ../plan-your-deployment/enterprise-voice-solution/define-requirements.md
+                      items:
+                        - name: 範囲
+                          href: ../plan-your-deployment/enterprise-voice-solution/scope.md
+                        - name: ネットワークの場所
+                          href: ../plan-your-deployment/enterprise-voice-solution/network-location.md
+                        - name: ユーザーの有効化
+                          href: ../plan-your-deployment/enterprise-voice-solution/enable-users.md
+                        - name: 場所の管理
+                          href: ../plan-your-deployment/enterprise-voice-solution/manage-locations.md
+                        - name: ELIN ゲートウェイ
+                          href: ../plan-your-deployment/enterprise-voice-solution/elin-gateways.md
+                        - name: 手動による場所の取得
+                          href: ../plan-your-deployment/enterprise-voice-solution/manually-acquiring-a-location.md
+                        - name: SIP トランクの設計
+                          href: ../plan-your-deployment/enterprise-voice-solution/design-the-sip-trunk.md
+                        - name: セキュリティ デスク
+                          href: ../plan-your-deployment/enterprise-voice-solution/security-desk.md
+                        - name: サービス プロバイダーの選択
+                          href: ../plan-your-deployment/enterprise-voice-solution/choose-a-service-provider.md
+                        - name: 場所ポリシー
+                          href: ../plan-your-deployment/enterprise-voice-solution/location-policies.md
+                        - name: 場所ポリシーのスコープ
+                          href: ../plan-your-deployment/enterprise-voice-solution/location-policy-scope.md
+                    - name: 複数の緊急電話番号
+                      href: ../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md
+                - name: メディア バイパス
+                  href: ../plan-your-deployment/enterprise-voice-solution/media-bypass.md
+                - name: プライベート電話回線
+                  href: ../plan-your-deployment/enterprise-voice-solution/private-telephone-lines.md
+                - name: 場所に基づくルーティング
+                  href: ../plan-your-deployment/enterprise-voice-solution/location-based-routing.md
+                  items:
+                    - name: 会議の LBR
+                      href: ../plan-your-deployment/enterprise-voice-solution/lbr-for-conferencing.md
+                - name: 通話管理機能
+                  href: ../plan-your-deployment/enterprise-voice-solution/call-management-features.md
+                  items:
+                    - name: コール パーク
+                      href: ../plan-your-deployment/enterprise-voice-solution/call-park.md
+                    - name: グループ通話ピックアップ
+                      href: ../plan-your-deployment/enterprise-voice-solution/group-call-pickup.md
+                    - name: 応答グループ
+                      href: ../plan-your-deployment/enterprise-voice-solution/response-group.md
+                    - name: アナウンス
+                      href: ../plan-your-deployment/enterprise-voice-solution/announcement.md
+                - name: 共有線の外観
+                  href: ../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md
+                - name: 空き時間情報オプション
+                  href: ../plan-your-deployment/enterprise-voice-solution/busy-options.md
+            - name: 勤務先から通話
+              href: ../plan-your-deployment/enterprise-voice-solution/call-via-work.md
+            - name: リモート通話コントロール
+              href: ../plan-your-deployment/enterprise-voice-solution/remote-call-control.md
+        - name: Excel との統合
+          href: ../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md
+          items:
+            - name: ユニファイド メッセージング
+              href: ../plan-your-deployment/integrate-with-exchange/unified-messaging.md
+              items:
+                - name: 展開の概要
+                  href: ../plan-your-deployment/integrate-with-exchange/deployment-overview.md
+            - name: 統合連絡先ストア
+              href: ../plan-your-deployment/integrate-with-exchange/unified-contact-store.md
+        - name: モダン認証
+          href: ../plan-your-deployment/modern-authentication/modern-authentication.md
+          items:
+            - name: サポートされるトポロジ
+              href: ../plan-your-deployment/modern-authentication/topologies-supported.md
+            - name: サーバー間アプリケーションとパートナー アプリケーション
+              href: ../manage/authentication/server-to-server-and-partner-applications.md
+            - name: ユーザー認証とクライアント認証
+              href: ../plan-your-deployment/security/user-and-client-authentication.md
+        - name: 監視
+          href: ../plan-your-deployment/monitoring.md
+        - name: アーカイブ
+          href: ../plan-your-deployment/archiving/archiving.md
+        - name: 会議
+          href: ../plan-your-deployment/conferencing/conferencing.md
+          items:
+            - name: ハードウェア要件およびソフトウェア要件
+              href: ../plan-your-deployment/conferencing/hardware-and-software-requirements.md
+            - name: 会議のトポロジ
+              href: ../plan-your-deployment/conferencing/conferencing-topology.md
+            - name: ダイヤルイン会議
+              href: ../plan-your-deployment/conferencing/dial-in-conferencing.md
+            - name: 大規模会議
+              href: ../plan-your-deployment/conferencing/large-meetings.md
+        - name: エッジ サーバーの展開
+          href: ../plan-your-deployment/edge-server-deployments/edge-server-deployments.md
+          items:
+            - name: システム要件
+              href: ../plan-your-deployment/edge-server-deployments/system-requirements.md
+            - name: エッジの環境要件
+              href: ../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md
+              items:
+                - name: 高度なエッジ サーバー DNS
+                  href: ../plan-your-deployment/network-requirements/advanced-edge-server-dns.md
+            - name: シナリオ
+              href: ../plan-your-deployment/edge-server-deployments/scenarios.md
+        - name: 身体
+          href: ../plan-your-deployment/mobility.md
+        - name: セキュリティ
+          href: ../plan-your-deployment/security/security.md
+          items:
+            - name: ウイルス対策
+              href: ../plan-your-deployment/security/antivirus.md
+            - name: 重要なセキュリティ
+              href: ../plan-your-deployment/security/key-security.md
+            - name: 一般的な脅威
+              href: ../plan-your-deployment/security/common-threats.md
+            - name: セキュリティ フレームワーク
+              href: ../plan-your-deployment/security/security-framework.md
+              items:
+                - name: Active Directory Domain Services
+                  href: ../plan-your-deployment/security/active-directory-domain-services.md
+                - name: 役割ベースのアクセス制御 (RBAC)
+                  href: ../plan-your-deployment/security/role-based-access-control-rbac.md
+                - name: Skype の公開キー インフラストラクチャ
+                  href: ../plan-your-deployment/security/public-key-infrastructure-for-skype.md
+                - name: TLS および MTLS
+                  href: ../plan-your-deployment/security/tls-and-mtls.md
+                - name: 暗号化
+                  href: ../plan-your-deployment/security/encryption.md
+                - name: 管理ツール
+                  href: ../plan-your-deployment/security/management-tools.md
+            - name: 脅威への対応
+              href: ../plan-your-deployment/security/addressing-threats.md
+              items:
+                - name: ベスト プラクティス
+                  href: ../plan-your-deployment/security/best-practices.md
+        - name: 容量
+          href: ../plan-your-deployment/capacity/capacity.md
+          items:
+            - name: ユーザー モデル
+              href: ../plan-your-deployment/capacity/user-model.md
+              items:
+                - name: 音声トラフィックの見積もり
+                  href: ../plan-your-deployment/capacity/estimating-voice-traffic.md
+                - name: 仲介サーバーの展開ガイドライン
+                  href: ../plan-your-deployment/capacity/mediation-server-deployment-guidelines.md
+            - name: ユーザー モデル
+              href: ../plan-your-deployment/capacity/user-models.md
+    - name: 展開
+      href: ../deploy/deploy.md
+      items:
+        - name: Install
+          href: ../deploy/install/install.md
+          items:
+            - name: 必須コンポーネントをインストールする
+              href: ../deploy/install/install-prerequisites.md
+            - name: ファイル共有の作成
+              href: ../deploy/install/create-a-file-share.md
+            - name: 管理ツールのインストール
+              href: ../deploy/install/install-administrative-tools.md
+            - name: Active Directory の準備
+              href: ../deploy/install/prepare-active-directory.md
+            - name: DNS レコードの作成
+              href: ../deploy/install/create-dns-records.md
+            - name: 新しいトポロジの作成および公開
+              href: ../deploy/install/create-and-publish-new-topology.md
+            - name: Skype for Business Server のインストール
+              href: ../deploy/install/install-skype-for-business-server.md
+            - name: トポロジの確認
+              href: ../deploy/install/verify-the-topology.md
+        - name: Skype for Business Server へのアップグレード
+          href: ../deploy/upgrade-to-skype-for-business-server.md
+        - name: 勤務先から通話の展開
+          href: ../deploy/deploy-call-via-work.md
+        - name: 常設チャット サーバーの展開
+          href: ../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md
+          items:
+            - name: 常設チャット サーバーの追加
+              href: ../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md
+            - name: 常設チャット コンポーネントのインストール
+              href: ../deploy/deploy-persistent-chat-server/install-persistent-chat-components.md
+            - name: 常設チャット管理者の作成
+              href: ../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md
+            - name: 常設チャット サーバー オプションの構成
+              href: ../deploy/deploy-persistent-chat-server/configure-persistent-chat-server-options.md
+            - name: 常設チャットのユーザー ポリシーの構成
+              href: ../deploy/deploy-persistent-chat-server/configure-persistent-chat-user-policies.md
+            - name: 常設チャットの HADR の構成
+              href: ../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md
+        - name: アーカイブの展開
+          href: ../deploy/deploy-archiving/deploy-archiving.md
+          items:
+            - name: アーカイブ データベースの追加
+              href: ../deploy/deploy-archiving/add-archiving-databases.md
+            - name: アーカイブ オプションの構成
+              href: ../deploy/deploy-archiving/configure-archiving-options.md
+            - name: アーカイブ ポリシーの構成
+              href: ../deploy/deploy-archiving/configure-archiving-policies.md
+            - name: アーカイブの免責事項の構成
+              href: ../deploy/deploy-archiving/configure-archiving-disclaimers.md
+            - name: Exchange ストレージとの統合の構成
+              href: ../deploy/deploy-archiving/configure-integration-with-exchange-storage.md
+        - name: 監視の展開
+          href: ../deploy/deploy-monitoring/deploy-monitoring.md
+          items:
+            - name: 監視ストアの関連付け
+              href: ../deploy/deploy-monitoring/associate-a-monitoring-store.md
+            - name: SQL Server Reporting Services のインストール
+              href: ../deploy/deploy-monitoring/install-sql-server-reporting-services.md
+            - name: 監視レポートのインストール
+              href: ../deploy/deploy-monitoring/install-monitoring-reports.md
+            - name: ミラー データベースを使用する監視レポート
+              href: ../deploy/deploy-monitoring/monitoring-reports-with-a-mirror-database.md
+            - name: 通話詳細記録および QoE
+              href: ../deploy/deploy-monitoring/call-detail-recording-and-qoe.md
+            - name: 通話詳細記録および QoE の削除
+              href: ../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md
+        - name: ビデオ相互運用サーバーの展開
+          href: ../deploy/deploy-video-interop-server/deploy-video-interop-server.md
+          items:
+            - name: VIS プールの作成
+              href: ../deploy/deploy-video-interop-server/create-a-vis-pool.md
+            - name: VIS サーバーの役割の展開
+              href: ../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md
+            - name: VIS の構成
+              href: ../deploy/deploy-video-interop-server/configure-the-vis.md
+            - name: 相互運用に向けた CUCM の構成
+              href: ../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md
+            - name: 相互運用に向けた VTC の構成
+              href: ../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md
+        - name: エンタープライズ VoIP の展開
+          href: ../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
+          items:
+            - name: エンタープライズ VoIP のセキュリティ
+              href: ../deploy/deploy-enterprise-voice/enterprise-voice-security.md
+            - name: 仲介サーバーの展開
+              href: ../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md
+            - name: ゲートウェイの定義
+              href: ../deploy/deploy-enterprise-voice/define-a-gateway.md
+            - name: 追加のトランクの定義
+              href: ../deploy/deploy-enterprise-voice/define-additional-trunks.md
+            - name: 仲介サーバーのインストール
+              href: ../deploy/deploy-enterprise-voice/install-mediation-server.md
+            - name: トランクの構成
+              href: ../deploy/deploy-enterprise-voice/configure-trunks.md
+              items:
+                - name: 複数のトランクのサポート
+                  href: ../manage/voice-routing/multiple-trunk-support.md
+                - name: トランク間ルーティング
+                  href: ../manage/voice-routing/inter-trunk-routing.md
+                - name: トランク構成情報の表示
+                  href: ../manage/voice-routing/view-trunk-configuration-information.md
+                - name: メディア バイパスを有効にしたトランクの構成
+                  href: ../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md
+                - name: メディア バイパスを無効にしたトランクの構成
+                  href: ../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md
+                - name: トランク構成の設定
+                  href: ../deploy/deploy-enterprise-voice/trunk-configuration-settings.md
+                - name: トランク構成の削除
+                  href: ../deploy/deploy-enterprise-voice/delete-trunk-configuration.md
+                - name: SIP トランク構成の変更
+                  href: ../deploy/deploy-enterprise-voice/modify-sip-trunk-configuration.md
+                - name: SIP トランク構成のテスト
+                  href: ../deploy/deploy-enterprise-voice/test-sip-trunk-configuration.md
+                - name: SIP 情報の表示
+                  href: ../deploy/deploy-enterprise-voice/view-sip-info.md
+            - name: 発信者番号の提示のルール
+              href: ../deploy/deploy-enterprise-voice/caller-id-presentation-rules.md
+            - name: 受信者番号の提示のルール
+              href: ../deploy/deploy-enterprise-voice/called-id-presentation-rules.md
+            - name: 正規化ルール
+              href: ../deploy/deploy-enterprise-voice/normalization-rules.md
+            - name: ダイヤル プラン
+              href: ../deploy/deploy-enterprise-voice/dial-plans.md
+            - name: 音声および PSTN
+              href: ../deploy/deploy-enterprise-voice/voice-and-pstn.md
+              items:
+                - name: 音声ポリシーおよび PSTN 使用法レコード
+                  href: ../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md
+                - name: ボイス メール エスケープの構成
+                  href: ../deploy/deploy-enterprise-voice/configure-voice-mail-escape.md
+                - name: PSTN 使用法レコードの表示
+                  href: ../deploy/deploy-enterprise-voice/view-pstn-usage-records.md
+                - name: 音声ルートの作成または変更
+                  href: ../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md
+                - name: 音声ルート構成のインポート/エクスポート
+                  href: ../deploy/deploy-enterprise-voice/voice-route-configuration-import-export.md
+                - name: 音声ルート構成の変更
+                  href: ../deploy/deploy-enterprise-voice/voice-route-config-changes.md
+            - name: ユーザーをエンタープライズ VoIP に対して有効にする
+              href: ../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md
+            - name: 高度なエンタープライズ VoIP 機能の展開
+              href: ../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md
+              items:
+                - name: ネットワークの展開
+                  href: ../deploy/deploy-enterprise-voice/deploy-network.md
+                - name: 通話受付管理の展開
+                  href: ../deploy/deploy-enterprise-voice/deploy-call-admission-control.md
+                  items:
+                    - name: 帯域幅ポリシー プロファイルの作成
+                      href: ../deploy/deploy-enterprise-voice/create-bandwidth-policy-profiles.md
+                    - name: ネットワーク地域リンクの作成
+                      href: ../deploy/deploy-enterprise-voice/create-network-region-links.md
+                    - name: ネットワーク地域間ルートの作成
+                      href: ../deploy/deploy-enterprise-voice/create-network-interregional-routes.md
+                    - name: ネットワーク サイト間ポリシーの作成
+                      href: ../deploy/deploy-enterprise-voice/create-network-intersite-policies.md
+                    - name: 通話受付管理の有効化
+                      href: ../deploy/deploy-enterprise-voice/enable-call-admission-control.md
+                    - name: 最終チェックリスト
+                      href: ../deploy/deploy-enterprise-voice/final-checklist.md
+                - name: 緊急サービスの展開
+                  href: ../deploy/deploy-enterprise-voice/deploy-emergency-services.md
+                  items:
+                    - name: E9-1-1 音声ルートの構成
+                      href: ../deploy/deploy-enterprise-voice/configure-an-e9-1-1-voice-route.md
+                    - name: 場所ポリシーの作成
+                      href: ../deploy/deploy-enterprise-voice/create-location-policies.md
+                    - name: ネットワーク サイトへの場所ポリシーの追加
+                      href: ../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md
+                    - name: 場所データベースを構成する
+                      href: ../deploy/deploy-enterprise-voice/configure-the-location-database.md
+                    - name: SNMP アプリケーションの構成
+                      href: ../deploy/deploy-enterprise-voice/configure-an-snmp-application.md
+                    - name: セカンダリ場所情報サービス
+                      href: ../deploy/deploy-enterprise-voice/secondary-location-information-service.md
+                    - name: 複数の緊急電話番号の構成
+                      href: ../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md
+                - name: メディア バイパスの展開
+                  href: ../deploy/deploy-enterprise-voice/deploy-media-bypass.md
+                  items:
+                    - name: 仲介サーバーのバイパス
+                      href: ../deploy/deploy-enterprise-voice/bypass-the-mediation-server.md
+                    - name: サイトおよび地域の情報の使用
+                      href: ../deploy/deploy-enterprise-voice/use-site-and-region-information.md
+            - name: 通話管理機能の展開
+              href: ../deploy/deploy-enterprise-voice/deploy-call-management-features.md
+              items:
+                - name: コール パークの展開プロセス
+                  href: ../deploy/deploy-enterprise-voice/deployment-process-for-call-park.md
+                  items:
+                    - name: コール パーク オービット範囲の作成または変更
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-a-call-park-orbit-range.md
+                    - name: コール パーク設定の構成
+                      href: ../deploy/deploy-enterprise-voice/configure-call-park-settings.md
+                    - name: コール パーク保留音のカスタマイズ
+                      href: ../deploy/deploy-enterprise-voice/customize-call-park-music-on-hold.md
+                    - name: ユーザーに対するコール パークの有効化
+                      href: ../deploy/deploy-enterprise-voice/enable-call-park-for-users.md
+                    - name: コール パーク正規化ルールの確認
+                      href: ../deploy/deploy-enterprise-voice/verify-normalization-rules-for-call-park.md
+                    - name: (オプション) コール パーク展開の確認
+                      href: ../deploy/deploy-enterprise-voice/optional-verify-call-park-deployment.md
+                - name: グループ通話ピックアップの展開プロセス
+                  href: ../deploy/deploy-enterprise-voice/deployment-process-for-group-call-pickup.md
+                  items:
+                    - name: SEFAUtil ツールの展開
+                      href: ../deploy/deploy-enterprise-voice/deploy-the-sefautil-tool.md
+                    - name: グループ通話ピックアップ番号の範囲の作成または変更
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-a-group-call-pickup-number-range.md
+                    - name: ユーザーに対するグループ通話ピックアップの有効化とグループ番号の割り当て
+                      href: ../deploy/deploy-enterprise-voice/enable-group-call-pickup-for-users-and-assign-a-group-number.md
+                - name: 応答グループの展開プロセス
+                  href: ../deploy/deploy-enterprise-voice/deployment-process-for-response-group.md
+                  items:
+                    - name: エージェント グループの作成または変更
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md
+                    - name: キューの作成または変更
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-a-queue.md
+                    - name: (オプション) 応答グループの営業時間の定義
+                      href: ../deploy/deploy-enterprise-voice/optional-define-response-group-business-hours.md
+                    - name: (オプション) 応答グループ休日セットの定義
+                      href: ../deploy/deploy-enterprise-voice/optional-define-response-group-holiday-sets.md
+                    - name: 応答グループ ワークフローの設計と作成
+                      href: ../deploy/deploy-enterprise-voice/designing-and-creating-response-group-workflows.md
+                    - name: アプリケーション レベルの応答グループ設定の管理
+                      href: ../deploy/deploy-enterprise-voice/managing-application-level-response-group-settings.md
+                    - name: (オプション) 応答グループの展開の確認
+                      href: ../deploy/deploy-enterprise-voice/optional-verify-response-group-deployment.md
+                - name: アナウンス アプリケーションの展開プロセス
+                  href: ../deploy/deploy-enterprise-voice/deployment-process-for-the-announcement-application.md
+                  items:
+                    - name: アナウンスの作成
+                      href: ../deploy/deploy-enterprise-voice/create-an-announcement.md
+                    - name: 割り当てられていない番号範囲の作成または変更
+                      href: ../deploy/deploy-enterprise-voice/create-or-modify-an-unassigned-number-range.md
+                    - name: (オプション) アナウンスの展開の確認
+                      href: ../deploy/deploy-enterprise-voice/optional-verify-announcement-deployment.md
+            - name: 回線共有機能の展開
+              href: ../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md
+            - name: 通話中オプションのインストールおよび構成
+              href: ../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md
+        - name: Exchange Server との統合
+          href: ../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md
+          items:
+            - name: パートナー アプリケーションの構成
+              href: ../deploy/integrate-with-exchange-server/configure-partner-applications.md
+            - name: Exchange アーカイブの使用
+              href: ../deploy/integrate-with-exchange-server/use-exchange-archiving.md
+            - name: アーカイブされたデータの検索用 SharePoint
+              href: ../deploy/integrate-with-exchange-server/sharepoint-to-search-for-archived-data.md
+            - name: 高解像度の写真
+              href: ../deploy/integrate-with-exchange-server/high-resolution-photos.md
+            - name: 統合連絡先ストアの使用
+              href: ../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md
+            - name: ボイス メール用の Exchange ユニファイド メッセージング
+              href: ../deploy/integrate-with-exchange-server/exchangeunified-messaging-for-voice-mail.md
+            - name: 個人用連絡先ストア
+              href: ../deploy/integrate-with-exchange-server/personal-contacts-store.md
+            - name: Outlook Web App
+              href: ../deploy/integrate-with-exchange-server/outlook-web-app.md
+            - name: オンラインおよびオンプレミスでの OAuth の使用
+              href: ../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md
+        - name: 統合連絡先ストアの展開
+          href: ../deploy/deploy-unified-contact-store.md
+        - name: Skype 接続の展開
+          href: ../deploy/deploy-skype-connectivity.md
+        - name: 電話会議の展開
+          href: ../deploy/deploy-conferencing/deploy-conferencing.md
+          items:
+            - name: Office Web App サーバー
+              href: ../deploy/deploy-conferencing/office-web-app-server.md
+            - name: ダイヤルイン会議
+              href: ../deploy/deploy-conferencing/dial-in-conferencing.md
+            - name: Room System v1 管理 Web ポータル
+              href: ../deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md
+        - name: エッジ サーバーの展開
+          href: ../deploy/deploy-edge-server/deploy-edge-server.md
+          items:
+            - name: Create your Edge topology
+              href: ../deploy/deploy-edge-server/create-your-edge-topology.md
+            - name: Deploy Edge Servers
+              href: ../deploy/deploy-edge-server/deploy-edge-servers.md
+            - name: エッジ展開の検証
+              href: ../deploy/deploy-edge-server/validate-edge-deployment.md
+        - name: モビリティの展開および構成
+          href: ../deploy/deploy-and-configure-mobility.md
+        - name: クライアントを展開する
+          href: ../deploy/deploy-clients/deploy-clients.md
+          items:
+            - name: Windows クライアントのインストールのカスタマイズ
+              href: ../deploy/deploy-clients/customize-windows-client-installation.md
+              items:
+                - name: Office カスタマイズ ツール (OCT) を使用する
+                  href: ../deploy/deploy-clients/use-the-office-customization-tool-oct.md
+                - name: Config.xml を使用したインストール タスクの実行
+                  href: ../deploy/deploy-clients/use-config-xml-to-perform-installation-tasks.md
+                - name: セットアップのコマンド ライン オプションを使用する
+                  href: ../deploy/deploy-clients/use-setup-command-line-options.md
+                - name: クライアント ブートストラップ ポリシーの構成
+                  href: ../deploy/deploy-clients/configure-client-bootstrapping-policies.md
+            - name: クライアント エクスペリエンスの構成
+              href: ../deploy/deploy-clients/configure-the-client-experience.md
+            - name: Windows Phone
+              href: ../deploy/deploy-clients/windows-phone.md
+            - name: iOS
+              href: ../deploy/deploy-clients/ios.md
+            - name: スマート連絡先リストの構成
+              href: ../deploy/deploy-clients/configure-smart-contacts-list.md
+              items:
+                - name: Skype Room System Exchange および Skype アカウント
+                  href: ../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md
+                  items:
+                    - name: 単一フォレストのオンプレミス展開
+                      href: ../deploy/deploy-clients/single-forest-on-premises-deployments.md
+                    - name: 複数フォレストのオンプレミス展開
+                      href: ../deploy/deploy-clients/multiple-forest-on-premises-deployments.md
+                    - name: Office 365 での Skype Room System アカウントのプロビジョニング
+                      href: ../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md
+                    - name: ハイブリッド展開
+                      href: ../deploy/deploy-clients/hybrid-deployments.md
+                    - name: ルームシステムとフェデレーションパートナー
+                      href: ../deploy/deploy-clients/room-system-and-federated-partners.md
+                    - name: Skype Room System アカウントを管理する
+                      href: ../deploy/deploy-clients/manage-skype-room-system-accounts.md
+                - name: 会議ポリシー
+                  href: ../deploy/deploy-clients/conferencing-policy.md
+                - name: 信頼されたドメイン
+                  href: ../deploy/deploy-clients/trusted-domains.md
+                - name: 移行に関する考慮事項
+                  href: ../deploy/deploy-clients/migration-considerations.md
+                - name: ドメイン参加に関する考慮事項
+                  href: ../deploy/deploy-clients/domain-joining-considerations.md
+                - name: Skype for Business ソフトウェアライセンス
+                  href: ../deploy/deploy-clients/skype-for-business-software-liicense.md
+                - name: 管理容易性とツール
+                  href: ../deploy/deploy-clients/manageability-and-tools.md
+                - name: ルームのセットアップスクリプト
+                  href: ../deploy/deploy-clients/room-setup-scripts.md
+            - name: Room Systems v2
+              href: ../deploy/deploy-clients/room-systems-v2.md
+              items:
+                - name: Office 365 の場合
+                  href: ../deploy/deploy-clients/with-office-365.md
+                - name: Skype for Business Server 2015 を使用する場合
+                  href: ../deploy/deploy-clients/with-skype-for-business-server-2015.md
+                - name: Exchange Online
+                  href: ../deploy/deploy-clients/with-exchange-online.md
+                - name: オンプレミスの Exchange
+                  href: ../deploy/deploy-clients/with-exchange-on-premises.md
+                - name: コンソール
+                  href: ../deploy/deploy-clients/console.md
+            - name: Lync VDI プラグインの展開
+              href: ../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md
+            - name: Web ダウンロード可能クライアントの展開
+              href: ../deploy/deploy-clients/deploy-web-downloadable-clients.md
+            - name: Mac クライアント エクスペリエンスのカスタマイズ
+              href: ../deploy/deploy-clients/customize-the-mac-client-experience.md
+        - name: Skype 会議ブロードキャストの構成
+          href: ../deploy/configure-skype-meeting-broadcast.md
+        - name: IM とプレゼンス
+          href: ../deploy/im-and-presence/im-and-presence.md
+          items:
+            - name: オフライン IM の有効化および無効化
+              href: ../deploy/im-and-presence/enable-or-disable-offline-im.md
+        - name: 高可用性および障害復旧の展開
+          href: ../deploy/deploy-high-availability-and-disaster-recovery/deploy-high-availability-and-disaster-recovery.md
+          items:
+            - name: AlwaysOn 可用性グループ
+              href: ../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md
+            - name: 障害復旧のためのフロント エンド プール
+              href: ../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md
+            - name: 高可用性のための SQL のミラー化
+              href: ../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md
+            - name: 常設チャットの HADR の構成
+              href: ../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md
+    - name: 管理
+      href: ../manage/manage.md
+      items:
+        - name: トポロジ
+          href: ../manage/topology/topology.md
+          items:
+            - name: フロント エンド サーバーの管理
+              href: ../manage/topology/manage-front-end-servers.md
+            - name: バックエンドまたは Standard Edition サーバーのパッチまたは更新
+              href: ../manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md
+            - name: データベース管理
+              href: ../manage/topology/manage-databases.md
+            - name: ファイル ストアのデータの移動
+              href: ../manage/topology/move-file-store-data.md
+            - name: TLS 1.0/1.1 の無効化
+              href: ../manage/topology/disable-tls-1.0-1.1.md
+            - name: サービスの管理
+              href: ../manage/manage-services.md
+            - name: 管理制御の委任
+              href: ../manage/topology/delegating-administrative-control.md
+        - name: 常設チャット
+          href: ../manage/persistent-chat/persistent-chat.md
+          items:
+            - name: Categories
+              href: ../manage/persistent-chat/categories.md
+            - name: チャット ルーム
+              href: ../manage/persistent-chat/chat-rooms.md
+            - name: アドインの構成
+              href: ../manage/persistent-chat/configure-add-ins.md
+            - name: コンプライアンスの構成
+              href: ../manage/persistent-chat/configure-compliance.md
+            - name: データベースのバックアップおよび復元
+              href: ../manage/persistent-chat/back-up-and-restore-databases.md
+            - name: 高可用性と障害復旧
+              href: ../manage/persistent-chat/high-availability-and-disaster-recovery.md
+            - name: サービスの監視、開始、および停止
+              href: ../manage/persistent-chat/monitor-start-and-stop-services.md
+        - name: 正常性および監視
+          href: ../manage/health-and-monitoring/health-and-monitoring.md
+          items:
+            - name: 監視データへのアクセス
+              href: ../manage/health-and-monitoring/access-monitoring-data.md
+            - name: 通話詳細記録 (CDR)
+              href: ../manage/health-and-monitoring/call-detail-recording-cdr.md
+              items:
+                - name: 構成情報の表示
+                  href: ../manage/health-and-monitoring/view-configuration-information.md
+                - name: CDR の有効化
+                  href: ../manage/health-and-monitoring/enable-cdr.md
+                - name: データの保存期間の指定
+                  href: ../manage/health-and-monitoring/specify-retention-of-data.md
+                - name: CDR 構成設定のコレクションの作成または変更
+                  href: ../manage/health-and-monitoring/create-or-modify-a-collection-of-settings.md
+                - name: CDR 構成設定の既存コレクションの削除
+                  href: ../manage/health-and-monitoring/delete-configuration-settings.md
+            - name: Quality of Experience
+              href: ../manage/health-and-monitoring/quality-of-experience.md
+              items:
+                - name: QoE 構成設定の作成
+                  href: ../manage/health-and-monitoring/create-qoe-configuration-settings.md
+                - name: QoE の有効化
+                  href: ../manage/health-and-monitoring/enable-qoe.md
+                - name: QoE 設定の変更
+                  href: ../manage/health-and-monitoring/modify-qoe-settings.md
+                - name: QoE 構成設定の削除
+                  href: ../manage/health-and-monitoring/delete-qoe-configuration-settings.md
+            - name: モビリティのパフォーマンスの監視
+              href: ../manage/health-and-monitoring/monitor-mobility-performance.md
+              items:
+                - name: サーバーのメモリ容量の制限
+                  href: ../manage/health-and-monitoring/server-memory-capacity-limits.md
+                - name: サービスおよび UCWA の使用状況
+                  href: ../manage/health-and-monitoring/service-and-ucwa-usage.md
+                - name: IIS によるトレース ログ ファイルの要求
+                  href: ../manage/health-and-monitoring/iis-request-tracing-log-files.md
+                - name: サービスの構成
+                  href: ../manage/health-and-monitoring/configure-service.md
+                - name: パフォーマンス カウンター
+                  href: ../manage/health-and-monitoring/performance-counters.md
+                - name: UCWA イベント
+                  href: ../manage/health-and-monitoring/ucwa-events.md
+            - name: 監視レポート
+              href: ../manage/health-and-monitoring/monitoring-reports.md
+              items:
+                - name: ダッシュ ボードの監視
+                  href: ../manage/health-and-monitoring/monitoring-dashboard.md
+                - name: システム使用状況レポート
+                  href: ../manage/health-and-monitoring/system-usage-reports.md
+                  items:
+                    - name: ユーザー登録レポート
+                      href: ../manage/health-and-monitoring/user-registration-report.md
+                    - name: ピアツーピア アクティビティ概要レポート
+                      href: ../manage/health-and-monitoring/peer-to-peer-activity-summary-report.md
+                      items:
+                        - name: IM レポート
+                          href: ../manage/health-and-monitoring/im-report.md
+                        - name: 音声およびビデオ レポート
+                          href: ../manage/health-and-monitoring/voice-and-video-report.md
+                    - name: 電話会議の概要レポート
+                      href: ../manage/health-and-monitoring/conference-summary-report.md
+                      items:
+                        - name: 活動レポート
+                          href: ../manage/health-and-monitoring/activity-report.md
+                        - name: 詳細レポート
+                          href: ../manage/health-and-monitoring/detail-report.md
+                        - name: 参加時間レポート
+                          href: ../manage/health-and-monitoring/join-time-report.md
+                    - name: PSTN 電話会議の概要レポート
+                      href: ../manage/health-and-monitoring/pstn-conference-summary-report.md
+                    - name: 応答グループの使用レポート
+                      href: ../manage/health-and-monitoring/response-group-usage-report.md
+                      items:
+                        - name: 通話リスト レポート
+                          href: ../manage/health-and-monitoring/call-list-report.md
+                    - name: IP 電話インベントリ レポート
+                      href: ../manage/health-and-monitoring/ip-phone-inventory-report.md
+                    - name: 通話受付管理レポート
+                      href: ../manage/health-and-monitoring/call-admission-control-report.md
+                      items:
+                        - name: ピアツーピア セッション詳細レポート
+                          href: ../manage/health-and-monitoring/peer-to-peer-session-detail-report.md
+                - name: 通話診断レポート (ユーザーごと)
+                  href: ../manage/health-and-monitoring/call-diagnostic-reports-per-user.md
+                - name: 通話診断レポート
+                  href: ../manage/health-and-monitoring/call-diagnostic-reports.md
+                  items:
+                    - name: 概要レポート
+                      href: ../manage/health-and-monitoring/summary-report.md
+                      items:
+                        - name: 電話会議の概要サブレポート
+                          href: ../manage/health-and-monitoring/conference-summary-subreport.md
+                        - name: P2P の概要サブレポート
+                          href: ../manage/health-and-monitoring/p2p-summary-subreport.md
+                    - name: ピアツーピア アクティビティ診断レポート
+                      href: ../manage/health-and-monitoring/peer-to-peer-activity-diagnostic-report.md
+                    - name: 電話会議診断レポート
+                      href: ../manage/health-and-monitoring/conference-diagnostic-report.md
+                    - name: トップ エラー レポート
+                      href: ../manage/health-and-monitoring/top-failures-report.md
+                    - name: エラー分布レポート
+                      href: ../manage/health-and-monitoring/failure-distribution-report.md
+                    - name: エラー リスト レポート
+                      href: ../manage/health-and-monitoring/failure-list-report.md
+                    - name: 診断レポート
+                      href: ../manage/health-and-monitoring/diagnostic-report.md
+                - name: メディア品質診断レポート
+                  href: ../manage/health-and-monitoring/media-quality-diagnostic-reports.md
+                  items:
+                    - name: 要約
+                      href: ../manage/health-and-monitoring/summary.md
+                    - name: Comparison
+                      href: ../manage/health-and-monitoring/comparison.md
+                    - name: サーバーのパフォーマンス
+                      href: ../manage/health-and-monitoring/server-performance.md
+                    - name: 場所レポート
+                      href: ../manage/health-and-monitoring/location-report.md
+                    - name: デバイス レポート
+                      href: ../manage/health-and-monitoring/device-report.md
+                    - name: 通話リスト レポート
+                      href: ../manage/health-and-monitoring/call-list-report-0.md
+                    - name: 通話の詳細レポート
+                      href: ../manage/health-and-monitoring/call-detail-report.md
+                    - name: サーバー メディア品質傾向レポート
+                      href: ../manage/health-and-monitoring/server-media-quality-trend-report.md
+                    - name: メディア品質メトリック分布レポート
+                      href: ../manage/health-and-monitoring/media-quality-metrics-distribution-report.md
+                    - name: 場所の傾向レポート
+                      href: ../manage/health-and-monitoring/location-trend-report.md
+            - name: 通話の評価
+              href: ../manage/health-and-monitoring/rate-my-call.md
+        - name: アーカイブ
+          href: ../manage/archiving/archiving.md
+          items:
+            - name: Options
+              href: ../manage/archiving/options.md
+              items:
+                - name: 構成の作成
+                  href: ../manage/archiving/create-a-configuration.md
+                - name: 構成の削除
+                  href: ../manage/archiving/delete-a-configuration.md
+                - name: アーカイブの有効化または無効化
+                  href: ../manage/archiving/enable-or-disable-archiving.md
+                - name: エラー処理のオプションの構成
+                  href: ../manage/archiving/configure-options-to-handle-failures.md
+                - name: アーカイブされているデータを削除する
+                  href: ../manage/archiving/purging-of-archived-data.md
+            - name: Policies
+              href: ../manage/archiving/policies.md
+              items:
+                - name: 新しいポリシーの作成
+                  href: ../manage/archiving/create-a-new-policy.md
+                - name: 既存のポリシーの変更
+                  href: ../manage/archiving/change-an-existing-policy.md
+                - name: ユーザーへのポリシーの適用
+                  href: ../manage/archiving/apply-a-policy-to-users.md
+                - name: 既存のポリシーの削除
+                  href: ../manage/archiving/delete-an-existing-policy.md
+            - name: アーカイブ データベース オプションの変更
+              href: ../manage/archiving/change-archiving-database-options.md
+            - name: アーカイブされたデータのエクスポート
+              href: ../manage/archiving/export-archived-data.md
+        - name: 会議
+          href: ../manage/conferencing/conferencing.md
+          items:
+            - name: 会議ポリシー
+              href: ../manage/conferencing/conferencing-policies.md
+              items:
+                - name: 表示
+                  href: ../manage/conferencing/view.md
+                - name: ポリシーの作成
+                  href: ../manage/conferencing/create-policies.md
+                - name: ポリシーの変更
+                  href: ../manage/conferencing/modify-policies.md
+                - name: ポリシーの割り当て
+                  href: ../manage/conferencing/assign-policies.md
+                - name: ポリシーの削除
+                  href: ../manage/conferencing/delete-policies.md
+            - name: 会議の構成設定
+              href: ../manage/conferencing/meeting-configuration-settings.md
+              items:
+                - name: 設定の表示
+                  href: ../manage/conferencing/view-settings.md
+                - name: 設定の作成
+                  href: ../manage/conferencing/create-settings.md
+                - name: 設定の変更
+                  href: ../manage/conferencing/modify-settings.md
+                - name: 設定の削除
+                  href: ../manage/conferencing/delete-settings.md
+            - name: 電話会議サーバーの構成設定
+              href: ../manage/conferencing/conferencing-server-configuration-settings.md
+            - name: ダイヤルイン会議
+              href: ../manage/conferencing/dial-in-conferencing.md
+              items:
+                - name: 有効化または無効化
+                  href: ../manage/conferencing/enable-or-disable.md
+                - name: アクセス番号
+                  href: ../manage/conferencing/access-numbers.md
+                - name: PIN ポリシー
+                  href: ../manage/conferencing/pin-policies.md
+                - name: 入退出のアナウンス
+                  href: ../manage/conferencing/join-and-leave-announcements.md
+                - name: DTMF コマンドのキー マッピング
+                  href: ../manage/conferencing/key-mapping-for-dtmf-commands.md
+                - name: PIN 非使用の会議参加
+                  href: ../manage/conferencing/pin-less-meeting-join.md
+                - name: ディレクトリ
+                  href: ../manage/conferencing/directories.md
+                - name: 歓迎の電子メール
+                  href: ../manage/conferencing/welcome-emails.md
+                - name: テスト
+                  href: ../manage/conferencing/tests.md
+            - name: 会議参加ページ
+              href: ../manage/conferencing/meeting-join-page.md
+        - name: 管理シェル
+          href: ../manage/management-shell.md
+        - name: フェデレーションおよび外部アクセス
+          href: ../manage/federation-and-external-access/managing-federation-and-external-access.md
+          items:
+            - name: 外部アクセス ポリシーの管理
+              href: ../manage/federation-and-external-access/external-access-policies/manage-external-access-policy-for-your-organization.md
+              items:
+                - name: フェデレーション ユーザー アクセスを制御するポリシーの構成
+                  href: ../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-federated-user-access.md
+                - name: リモート ユーザー アクセスを制御するポリシーの構成
+                  href: ../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-remote-user-access.md
+                - name: パブリック ユーザー アクセスを制御するポリシーの構成
+                  href: ../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-public-user-access.md
+                - name: 外部ユーザー アクセス ポリシーの割り当て
+                  href: ../manage/federation-and-external-access/external-access-policies/assign-an-external-user-access-policy.md
+                - name: 外部ユーザー アクセスに関するサイト ポリシーまたはユーザー ポリシーの削除
+                  href: ../manage/federation-and-external-access/external-access-policies/delete-a-site-or-user-policy-for-external-user-access.md
+                - name: 外部ユーザー アクセスに関するグローバル ポリシーのリセット
+                  href: ../manage/federation-and-external-access/external-access-policies/reset-the-global-policy-for-external-user-access.md
+            - name: 組織のアクセス エッジ構成の管理
+              href: ../manage/federation-and-external-access/access-edge/manage-access-edge-configuration-for-your-organization.md
+              items:
+                - name: フェデレーションおよびパブリック IM 接続の有効化または無効化
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-federation-and-public-im-connectivity.md
+                - name: フェデレーション パートナーの検出の有効化または無効化
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-discovery-of-federation-partners.md
+                - name: フェデレーション パートナーに対するアーカイブ免責事項の送信の有効化または無効化
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
+                - name: リモート ユーザー アクセスの有効化または無効化
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-remote-user-access.md
+                - name: 匿名ユーザー アクセスの有効化または無効化
+                  href: ../manage/federation-and-external-access/access-edge/enable-or-disable-anonymous-user-access.md
+                - name: 匿名ユーザー サポートのための会議ポリシーの割り当て
+                  href: ../manage/federation-and-external-access/access-edge/assign-conferencing-policies-to-support-anonymous-users.md
+            - name: 組織の SIP フェデレーション ドメインの管理
+              href: ../manage/federation-and-external-access/sip-domains/manage-sip-federated-domains-for-your-organization.md
+            - name: 組織の SIP フェデレーション プロバイダーの管理
+              href: ../manage/federation-and-external-access/sip-providers/manage-sip-federated-providers-for-your-organization.md
+            - name: Skype for Business Online ユーザーのフェデレーション サポートの構成
+              href: ../manage/federation-and-external-access/federation-support/configuring-federation-support.md
+        - name: ネットワーク
+          items:
+            - name: サービスの品質 (QoS)
+              href: ../manage/network-management/qos/managing-quality-of-service-qos.md
+              items:
+                - name: Windows に基づかないデバイスの QoS の有効化
+                  href: ../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md
+                - name: 電話会議、アプリケーションおよび仲介サーバーのポート範囲の構成
+                  href: ../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md
+                - name: エッジ サーバーのポート範囲および QoS ポリシーの構成
+                  href: ../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md
+                - name: Skype for Business Server でのクライアントのポート範囲と QoS ポリシーの構成
+                  href: ../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md
+            - name: 通話受付管理
+              items:
+                - name: Skype for Business Server での通話受付管理の有効化
+                  href: ../manage/network-management/call-admission-control/enabling-call-admission-control.md
+                - name: Skype for Business Server でのネットワーク帯域幅ポリシー プロファイルの管理
+                  href: ../manage/network-management/call-admission-control/managing-network-bandwidth-policy-profiles.md
+                - name: Skype for Business Server でのネットワーク領域の管理
+                  href: ../manage/network-management/call-admission-control/managing-network-regions.md
+                - name: Skype for Business Server でのネットワーク領域ルートの管理
+                  href: ../manage/network-management/call-admission-control/managing-network-region-routes.md
+                - name: Skype for Business Server でのサイトの通話受付管理サービスの管理
+                  href: ../manage/network-management/call-admission-control/managing-call-admission-control-for-sites.md
+                - name: Skype for Business Server でのメディア バイパスの有効化および無効化
+                  href: ../manage/network-management/call-admission-control/enabling-and-disabling-media-bypass.md
+                - name: Skype for Business Server でのネットワーク領域のリンクの設定
+                  href: ../manage/network-management/call-admission-control/linking-network-regions.md
+                - name: Skype for Business Server でのネットワーク サブネットの管理
+                  href: ../manage/network-management/call-admission-control/managing-network-subnets.md
+            - name: ネットワーク インターフェイス
+              href: ../manage/network-management/viewing-network-interface-information.md
+            - name: 新しい接続の禁止
+              href: ../manage/network-management/prevent-new-connections.md
+        - name: 認証
+          href: ../manage/authentication/authentication.md
+          items:
+            - name: ADAL の使用
+              href: ../manage/authentication/use-adal.md
+            - name: AV と OAuth の証明書のステージング
+              href: ../manage/authentication/stage-av-and-oauth-certificates.md
+            - name: サーバー間の証明書の割り当て
+              href: ../manage/authentication/assign-a-server-to-server-certificate.md
+            - name: ハイブリッド環境でのサーバー間認証の構成
+              href: ../manage/authentication/configure-a-hybrid-environment.md
+            - name: オンプレミス パートナー アプリの構成
+              href: ../manage/authentication/configure-an-on-premises-partner-app.md
+            - name: レジストラーの構成設定
+              href: ../manage/authentication/registrar-configuration-settings.md
+            - name: Web サービスの構成設定
+              href: ../manage/authentication/web-service-configuration-settings.md
+            - name: PIN 設定
+              href: ../manage/authentication/pin-settings.md
+              items:
+                - name: PIN ポリシー情報の表示
+                  href: ../manage/authentication/view-pin-policy-information.md
+                - name: 新しい PIN ポリシーの作成
+                  href: ../manage/authentication/create-a-new-pin-policy.md
+                - name: 既存の PIN ポリシーの変更
+                  href: ../manage/authentication/modify-an-existing-pin-policy.md
+                - name: PIN ポリシーの削除
+                  href: ../manage/authentication/delete-a-pin-policy.md
+                - name: ユーザー単位の PIN ポリシーの割り当て
+                  href: ../manage/authentication/assign-a-per-user-pin-policy.md
+                - name: ユーザーのダイヤルイン会議 PIN の設定
+                  href: ../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md
+                - name: ユーザー PIN 情報の表示
+                  href: ../manage/authentication/view-user-pin-information.md
+                - name: ユーザー PIN のロックまたはロック解除
+                  href: ../manage/authentication/lock-or-unlock-a-user-pin.md
+            - name: 2 要素認証
+              href: ../manage/authentication/two-factor-authentication.md
+              items:
+                - name: 2 要素認証の構成
+                  href: ../manage/authentication/configure-two-factor.md
+                - name: 2 要素認証の使用
+                  href: ../manage/authentication/use-two-factor.md
+        - name: 拡張 9-1-1 および場所サービス
+          href: ../manage/enhanced-9-1-1-and-location-service.md
+        - name: 信頼されたアプリケーション
+          href: ../manage/trusted-applications.md
+        - name: 障害復旧、高可用性、およびバックアップ サービス
+          href: ../manage/ha-dr-and-backup-service/managing-da-ha-backup-service.md
+          items:
+            - name: バックアップ サービスの構成と監視
+              href: ../manage/ha-dr-and-backup-service/configuring-and-monitoring-the-backup-service.md
+            - name: プールのフェールオーバーおよびフェールバック
+              href: ../manage/ha-dr-and-backup-service/failing-over-and-failing-back-a-pool.md
+        - name: ビデオベースの画面共有
+          href: ../manage/video-based-screen-sharing.md
+          items:
+            - name: 既知の問題
+              href: ../manage/skype-room-systems-v2/known-issues.md
+            - name: XML 構成ファイル
+              href: ../manage/skype-room-systems-v2/xml-config-file.md
+            - name: 回復ツールの使用
+              href: ../manage/skype-room-systems-v2/recovery-tool.md
+        - name: ユーザー アカウント
+          href: ../manage/user-accounts/user-accounts.md
+          items:
+            - name: プロパティのカスタマイズ
+              href: ../manage/user-accounts/customize-properties.md
+        - name: タスクのテスト
+          items:
+            - name: 障害復旧のテスト
+              href: ../manage/test-disaster-recovery.md
+            - name: 管理者アクセス許可のテスト
+              href: ../manage/test-admin-permissions.md
+            - name: 管理者トポロジの権限のテスト
+              href: ../manage/test-admin-topology-rights.md
+    - name: 管理ツール
+      href: ../management-tools/management-tools.md
+      items:
+        - name: 管理ツールのインストールおよび起動
+          href: ../management-tools/install-and-open-administrative-tools.md
+        - name: 通話品質ダッシュボード
+          href: ../management-tools/call-quality-dashboard/call-quality-dashboard.md
+          items:
+            - name: プラン
+              href: ../management-tools/call-quality-dashboard/plan.md
+            - name: 展開
+              href: ../management-tools/call-quality-dashboard/deploy-0.md
+            - name: 使用法
+              href: ../management-tools/call-quality-dashboard/use.md
+            - name: 開発
+              href: ../management-tools/call-quality-dashboard/develop.md
+              items:
+                - name: データ API
+                  href: ../management-tools/call-quality-dashboard/data-api.md
+                  items:
+                    - name: キューブの取得
+                      href: ../management-tools/call-quality-dashboard/get-cube.md
+                    - name: ディメンションのメンバーの取得
+                      href: ../management-tools/call-quality-dashboard/get-dimension-members.md
+                    - name: クエリの実行
+                      href: ../management-tools/call-quality-dashboard/run-query.md
+                    - name: キャッシュのクリア
+                      href: ../management-tools/call-quality-dashboard/clear-cache.md
+                    - name: 統合ログの取得
+                      href: ../management-tools/call-quality-dashboard/get-integration-log.md
+                    - name: 直近の統合データの取得
+                      href: ../management-tools/call-quality-dashboard/get-last-integration-data.md
+                - name: リポジトリ API
+                  href: ../management-tools/call-quality-dashboard/repository-api.md
+                  items:
+                    - name: ユーザー サービス
+                      href: ../management-tools/call-quality-dashboard/user-service.md
+                      items:
+                        - name: ユーザーの取得
+                          href: ../management-tools/call-quality-dashboard/get-users.md
+                        - name: ユーザーを取得する
+                          href: ../management-tools/call-quality-dashboard/get-user.md
+                    - name: アイテムのサービス
+                      href: ../management-tools/call-quality-dashboard/item-service.md
+                      items:
+                        - name: アイテムの取得
+                          href: ../management-tools/call-quality-dashboard/get-items.md
+                        - name: アイテムを取得する
+                          href: ../management-tools/call-quality-dashboard/get-item.md
+                        - name: サブアイテムの取得
+                          href: ../management-tools/call-quality-dashboard/get-sub-items.md
+                        - name: アイテムの親の取得
+                          href: ../management-tools/call-quality-dashboard/get-item-ancestors.md
+                        - name: アイテムを更新する
+                          href: ../management-tools/call-quality-dashboard/update-item.md
+                    - name: ユーザー設定サービス
+                      href: ../management-tools/call-quality-dashboard/user-settings-service.md
+                      items:
+                        - name: ユーザー設定を取得する
+                          href: ../management-tools/call-quality-dashboard/get-user-settings.md
+                        - name: ユーザー設定の取得
+                          href: ../management-tools/call-quality-dashboard/get-user-setting.md
+                - name: CQD の開発サンプル
+                  href: ../management-tools/call-quality-dashboard/cqd-development-samples.md
+        - name: Centralized Logging Service
+          href: ../management-tools/centralized-logging-service/centralized-logging-service.md
+          items:
+            - name: サイト構成の管理
+              href: ../management-tools/centralized-logging-service/manage-configuration-settings.md
+              items:
+                - name: プロバイダーの構成
+                  href: ../management-tools/centralized-logging-service/configure-providers.md
+                - name: シナリオの構成
+                  href: ../management-tools/centralized-logging-service/configure-scenarios.md
+            - name: ログ キャプチャの開始または終了
+              href: ../management-tools/centralized-logging-service/start-or-stop-log-capture.md
+            - name: キャプチャ ログの検索
+              href: ../management-tools/centralized-logging-service/search-capture-logs.md
+            - name: CLS ロガー
+              href: ../management-tools/centralized-logging-service/cls-logger.md
+        - name: SCOM 管理パックの使用
+          href: ../management-tools/use-scom-management-pack/use-scom-management-pack.md
+          items:
+            - name: プライマリの構成
+              href: ../management-tools/use-scom-management-pack/configure-the-primary.md
+            - name: 監視するコンピューターの構成
+              href: ../management-tools/use-scom-management-pack/configure-computers-to-monitor.md
+            - name: 監視ノード
+              href: ../management-tools/use-scom-management-pack/watcher-nodes.md
+              items:
+                - name: テスト ユーザーと設定
+                  href: ../management-tools/use-scom-management-pack/test-users-and-settings.md
+        - name: 統計マネージャー
+          href: ../management-tools/statistics-manager/statistics-manager.md
+          items:
+            - name: プラン
+              href: ../management-tools/statistics-manager/plan.md
+            - name: 展開
+              href: ../management-tools/statistics-manager/deploy.md
+            - name: アップグレード
+              href: ../management-tools/statistics-manager/upgrade.md
+            - name: トラブルシューティング
+              href: ../management-tools/statistics-manager/troubleshoot.md
+        - name: リソース キット ツール
+          href: ../management-tools/resource-kit-tools.md
+        - name: 容量計画の計算機
+          href: ../management-tools/capacity-planning-calculator.md
+        - name: 計画ツール
+          href: ../management-tools/planning-tool/planning-tool.md
+          items:
+            - name: Install
+              href: ../management-tools/planning-tool/install.md
+            - name: 移動
+              href: ../management-tools/planning-tool/navigate.md
+            - name: 初期設計の作成
+              href: ../management-tools/planning-tool/create-the-initial-design.md
+            - name: トポロジの編集
+              href: ../management-tools/planning-tool/edit-the-topology.md
+            - name: 管理者レポートの確認
+              href: ../management-tools/planning-tool/review-the-administrator-reports.md
+            - name: UI リファレンス
+              href: ../management-tools/planning-tool/ui-reference.md
+              items:
+                - name: 音声ビデオ会議
+                  href: ../management-tools/planning-tool/audio-video-conferencing.md
+                - name: ダイヤルイン会議
+                  href: ../management-tools/planning-tool/dial-in-conferencing.md
+                - name: Web 会議
+                  href: ../management-tools/planning-tool/web-conferencing.md
+                - name: 用に構成します
+                  href: ../management-tools/planning-tool/enterprise-voice.md
+                - name: Exchange ユニファイド メッセージング設定
+                  href: ../management-tools/planning-tool/exchange-unified-messaging-settings.md
+                - name: 通話受付管理
+                  href: ../management-tools/planning-tool/call-admission-control.md
+                - name: 監視
+                  href: ../management-tools/planning-tool/monitoring.md
+                - name: 常設チャット
+                  href: ../management-tools/planning-tool/persistent-chat.md
+                - name: 身体
+                  href: ../management-tools/planning-tool/mobility.md
+                - name: フェデレーション
+                  href: ../management-tools/planning-tool/federation.md
+                - name: 高可用性
+                  href: ../management-tools/planning-tool/high-availability.md
+                - name: IP バージョン
+                  href: ../management-tools/planning-tool/ip-version.md
+                - name: 障害回復
+                  href: ../management-tools/planning-tool/disaster-recovery.md
+                - name: 機能の概要
+                  href: ../management-tools/planning-tool/feature-overview.md
+                - name: Exchange ユニファイド メッセージング
+                  href: ../management-tools/planning-tool/exchange-unified-messaging.md
+                - name: ロード バランサー
+                  href: ../management-tools/planning-tool/load-balancer.md
+                - name: ディレクター
+                  href: ../management-tools/planning-tool/director.md
+                - name: クライアント設定
+                  href: ../management-tools/planning-tool/client-settings.md
+                - name: 仲介コロケーション
+                  href: ../management-tools/planning-tool/mediation-collocation.md
+                - name: アーカイブ
+                  href: ../management-tools/planning-tool/archiving.md
+                - name: ブランチ サイト
+                  href: ../management-tools/planning-tool/branch-sites.md
+                - name: 境界ネットワーク
+                  href: ../management-tools/planning-tool/edge-network.md
+                - name: メディア バイパス
+                  href: ../management-tools/planning-tool/media-bypass.md
+                - name: 音声のインフラストラクチャ
+                  href: ../management-tools/planning-tool/voice-infrastructure.md
+                - name: 音声トラフィック
+                  href: ../management-tools/planning-tool/voice-traffic.md
+        - name: ストレスおよびパフォーマンス ツール
+          href: ../management-tools/stress-and-performance-tool/stress-and-performance-tool.md
+          items:
+            - name: 前提条件とセットアップ
+              href: ../management-tools/stress-and-performance-tool/prerequisites-and-setup.md
+            - name: シナリオ
+              href: ../management-tools/stress-and-performance-tool/scenarios.md
+              items:
+                - name: ロードを実行するトポロジのプロビジョニング
+                  href: ../management-tools/stress-and-performance-tool/provisioning-the-topology-to-run-load.md
+                - name: ' ポリシーの構成'
+                  href: ../management-tools/stress-and-performance-tool/configuring-policies.md
+            - name: ツールの使用
+              href: ../management-tools/stress-and-performance-tool/using-the-tool.md
+            - name: FAQ
+              href: ../management-tools/stress-and-performance-tool/faq.md
+    - name: スキーマ リファレンス
+      href: ../schema-reference/schema-reference.md
+      items:
+        - name: 通話詳細記録 (CDR) データベース スキーマ
+          href: ../schema-reference/call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md
+          items:
+            - name: CDR テーブルのリスト
+              href: ../schema-reference/call-detail-recording-cdr-database-schema/list-of-cdr-tables.md
+            - name: CDR テーブルの詳細
+              href: ../schema-reference/call-detail-recording-cdr-database-schema/cdr-table-details.md
+              items:
+                - name: アプリケーション
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/application.md
+                - name: CallPriorities
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/callpriorities.md
+                - name: CallType
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/calltype.md
+                - name: ClientVersions
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/clientversions.md
+                - name: ConferenceJoinTimeThresholds
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencejointimethresholds.md
+                - name: ConferenceMessageCount
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencemessagecount.md
+                - name: 会議
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferences.md
+                - name: ConferenceSessionDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencesessiondetails-0.md
+                - name: ConferenceUris
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferenceuris.md
+                - name: ContentTypes
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/contenttypes.md
+                - name: DeRegisterType
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/deregistertype.md
+                - name: デバイス
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/devices.md
+                - name: ダイアログ
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/dialogs.md
+                - name: EdgeServers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/edgeservers.md
+                - name: ErrorCategory
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/errorcategory.md
+                - name: ErrorDef
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/errordef.md
+                - name: ErrorReport
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/errorreport.md
+                - name: FileTransfers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/filetransfers-0.md
+                - name: FocusJoinsAndLeaves
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/focusjoinsandleaves.md
+                - name: Fea-frontend-server-role
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/frontend.md
+                - name: Gateways
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/gateways.md
+                - name: HardwareVersions
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/hardwareversions.md
+                - name: IMReportSummary
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/imreportsummary.md
+                - name: 場所
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/locations.md
+                - name: Manufacturers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/manufacturers.md
+                - name: McuJoinsAndLeaves
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mcujoinsandleaves.md
+                - name: Mcus
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mcus.md
+                - name: メディア
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/media.md
+                - name: MediaList
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/medialist.md
+                - name: MediationServers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mediationservers.md
+                - name: MSMQProcessing
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/msmqprocessing.md
+                - name: 電話
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/phones.md
+                - name: Pools
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/pools.md
+                - name: ProgressReport
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/progressreport.md
+                - name: PurgeSettings
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/purgesettings.md
+                - name: Registration
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/registration.md
+                - name: ロール
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/roles.md
+                - name: サーバー
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/servers.md
+                - name: SessionDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/sessiondetails.md
+                - name: SIPResponseMetaData
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/sipresponsemetadata.md
+                - name: Syndicators
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/syndicators.md
+                - name: SyndicatorsTenantMap
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/syndicatorstenantmap.md
+                - name: タスク
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/task.md
+                - name: テナント
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/tenants.md
+                - name: UriTypes
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/uritypes.md
+                - name: ユーザー
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/users.md
+                - name: UserAgentDef
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/useragentdef.md
+                - name: VoipDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/voipdetails-0.md
+                - name: UserStatistics
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/userstatistics.md
+            - name: CDR ビューのリスト
+              href: ../schema-reference/call-detail-recording-cdr-database-schema/list-of-cdr-views.md
+              items:
+                - name: ClientVersions
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/clientversions-0.md
+                - name: ConferenceMessageCount
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencemessagecount-0.md
+                - name: 会議
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferences-0.md
+                - name: ConferenceSessionDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferencesessiondetails.md
+                - name: ConferenceUris
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/conferenceuris-0.md
+                - name: ErrorReport
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/errorreport-0.md
+                - name: FileTransfers
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/filetransfers.md
+                - name: FocusJoinsAndLeaves
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/focusjoinsandleaves-0.md
+                - name: Mcus
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mcus-0.md
+                - name: McuJoinsAndLeaves
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/mcujoinsandleaves-0.md
+                - name: メディア
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/media-0.md
+                - name: ProgressReport
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/progressreport-0.md
+                - name: Registration
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/registration-0.md
+                - name: SessionDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/sessiondetails-0.md
+                - name: User
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/user.md
+                - name: VoIPDetails
+                  href: ../schema-reference/call-detail-recording-cdr-database-schema/voipdetails.md
+        - name: Quality of Experience (QoE) データベース スキーマ
+          href: ../schema-reference/quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md
+          items:
+            - name: QoE テーブルのリスト
+              href: ../schema-reference/quality-of-experience-qoe-database-schema/list-of-qoe-tables.md
+            - name: QoE テーブルの詳細
+              href: ../schema-reference/quality-of-experience-qoe-database-schema/qoe-table-details.md
+              items:
+                - name: AppliedBandwidthSource
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/appliedbandwidthsource.md
+                - name: AppSharingMetricsThreshold
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/appsharingmetricsthreshold.md
+                - name: AppSharingStream
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/appsharingstream.md
+                - name: AudioClientEvent
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/audioclientevent.md
+                - name: AudioSignal
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/audiosignal.md
+                - name: AudioStream
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/audiostream.md
+                - name: CodecDescription
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/codecdescription.md
+                - name: 会議
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/conference.md
+                - name: デバイス
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/device.md
+                - name: DeviceDriver
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/devicedriver.md
+                - name: ダイアログ
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/dialog.md
+                - name: Endpoint
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/endpoint.md
+                - name: EndpointSubnet
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/endpointsubnet.md
+                - name: IPAddress
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/ipaddress.md
+                - name: MacAddress
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/macaddress.md
+                - name: MediaLine
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/medialine-0.md
+                - name: MonitoredRegionLink
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/monitoredregionlink.md
+                - name: MonitoredUserSiteLink
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/monitoredusersitelink.md
+                - name: NetworkConnectionDetail
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/networkconnectiondetail.md
+                - name: PayloadDescription
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/payloaddescription.md
+                - name: Pool
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/pool.md
+                - name: PurgeSettings (QoE)
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/purgesettings-qoe.md
+                - name: 地域
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/region.md
+                - name: サーバー
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/server.md
+                - name: セッション
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/session.md
+                - name: SessionCorrelation
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/sessioncorrelation.md
+                - name: サブネット
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/subnet.md
+                - name: TraceRoute
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/traceroute.md
+                - name: User
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/user-0.md
+                - name: UserAgent
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/useragent.md
+                - name: UserAgentDef (QoE)
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/useragentdef-qoe.md
+                - name: UserSite
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/usersite.md
+                - name: VideoClientEvent
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/videoclientevent.md
+                - name: VideoMetricsThreshold
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/videometricsthreshold.md
+                - name: VideoStream
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/videostream.md
+            - name: QoE ビューの詳細
+              href: ../schema-reference/quality-of-experience-qoe-database-schema/qoe-view-details.md
+              items:
+                - name: AudioStreamDetail
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/audiostreamdetail.md
+                - name: MediaLine
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/medialine.md
+                - name: NetworkConfigurationSettings
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/networkconfigurationsettings.md
+                - name: セッション
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/session-0.md
+                - name: UserAgent
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/useragent-0.md
+                - name: VideoStreamDetail
+                  href: ../schema-reference/quality-of-experience-qoe-database-schema/videostreamdetail.md
+            - name: QoE データベース クエリのサンプル
+              href: ../schema-reference/quality-of-experience-qoe-database-schema/sample-qoe-database-queries.md
+        - name: 常設チャット データベースのスキーマ
+          href: ../schema-reference/persistent-chat-database-schema/persistent-chat-database-schema.md
+          items:
+            - name: 常設チャット サーバーのテーブルのリスト
+              href: ../schema-reference/persistent-chat-database-schema/list-of-persistent-chat-server-tables.md
+            - name: 常設チャット サーバーのコンプライアンス テーブルのリスト
+              href: ../schema-reference/persistent-chat-database-schema/list-of-persistent-chat-server-compliance-tables.md
+            - name: 常設チャット サーバー テーブルの詳細
+              href: ../schema-reference/persistent-chat-database-schema/persistent-chat-server-table-details.md
+              items:
+                - name: tblADCookie
+                  href: ../schema-reference/persistent-chat-database-schema/tbladcookie.md
+                - name: tblPrincipalMemberDifference
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalmemberdifference.md
+                - name: tblADUpdates
+                  href: ../schema-reference/persistent-chat-database-schema/tbladupdates.md
+                - name: tblPrincipalMembers
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalmembers.md
+                - name: tblPrincipalMeta
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalmeta.md
+                - name: tblSkippedAffiliations
+                  href: ../schema-reference/persistent-chat-database-schema/tblskippedaffiliations.md
+                - name: tblPrincipalType
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipaltype.md
+                - name: tblPrincipal
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipal.md
+                - name: tblPrincipalAffiliations
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalaffiliations.md
+                - name: tblNode
+                  href: ../schema-reference/persistent-chat-database-schema/tblnode.md
+                - name: tblRoleType
+                  href: ../schema-reference/persistent-chat-database-schema/tblroletype.md
+                - name: tblScopePrincipal
+                  href: ../schema-reference/persistent-chat-database-schema/tblscopeprincipal.md
+                - name: tblPrincipalRole
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalrole.md
+                - name: tblSiopWhiteList
+                  href: ../schema-reference/persistent-chat-database-schema/tblsiopwhitelist.md
+                - name: tblEnumAttribute
+                  href: ../schema-reference/persistent-chat-database-schema/tblenumattribute.md
+                - name: tblEnumValue
+                  href: ../schema-reference/persistent-chat-database-schema/tblenumvalue.md
+                - name: tblPrincipalInvites
+                  href: ../schema-reference/persistent-chat-database-schema/tblprincipalinvites.md
+                - name: tblChat
+                  href: ../schema-reference/persistent-chat-database-schema/tblchat.md
+                - name: tblLastInviteId
+                  href: ../schema-reference/persistent-chat-database-schema/tbllastinviteid.md
+                - name: tblLastChatId
+                  href: ../schema-reference/persistent-chat-database-schema/tbllastchatid.md
+                - name: tblPreference
+                  href: ../schema-reference/persistent-chat-database-schema/tblpreference.md
+                - name: tblFileToken
+                  href: ../schema-reference/persistent-chat-database-schema/tblfiletoken.md
+                - name: tblServerIdentity
+                  href: ../schema-reference/persistent-chat-database-schema/tblserveridentity.md
+                - name: tblAdminLock
+                  href: ../schema-reference/persistent-chat-database-schema/tbladminlock.md
+                - name: tblSystemRevision
+                  href: ../schema-reference/persistent-chat-database-schema/tblsystemrevision.md
+                - name: tblActivePeers
+                  href: ../schema-reference/persistent-chat-database-schema/tblactivepeers.md
+                - name: tblConfig
+                  href: ../schema-reference/persistent-chat-database-schema/tblconfig.md
+                - name: tblComplianceData
+                  href: ../schema-reference/persistent-chat-database-schema/tblcompliancedata.md
+                - name: tblComplianceFanout
+                  href: ../schema-reference/persistent-chat-database-schema/tblcompliancefanout.md
+                - name: tblComplianceParticipant
+                  href: ../schema-reference/persistent-chat-database-schema/tblcomplianceparticipant.md
+                - name: tblComplianceState
+                  href: ../schema-reference/persistent-chat-database-schema/tblcompliancestate.md
+            - name: 常設チャット データベースのクエリのサンプル
+              href: ../schema-reference/persistent-chat-database-schema/sample-persistent-chat-database-queries.md
+        - name: ディレクトリ スキーマの拡張、クラスおよび属性
+          href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/active-directory-schema-extensions-classes-and-attributes.md
+          items:
+            - name: スキーマの変更
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/schema-changes.md
+            - name: スキーマのクラスと説明
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/schema-classes-and-descriptions.md
+            - name: クラスごとのスキーマの属性
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/schema-attributes-by-class.md
+            - name: スキーマの属性と説明
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/schema-attributes-and-descriptions.md
+            - name: フォレストの準備による変更
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md
+            - name: ドメインの準備によって加えられる変更
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md
+            - name: Grant-CsSetupPermission によって行われる変更
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-cssetuppermission.md
+            - name: Grant-CsOUPermission によって行われる変更
+              href: ../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-csoupermission.md
+    - name: ヘルプ トピック
+      items:
+        - name: DepWiz のヘルプ
+          items:
+            - name: 単一の Standard Edition サーバーの準備 (開始)
+              href: ../help-topics/help-depwiz/prepare-single-standard-edition-server-intro.md
+            - name: 単一の Standard Edition サーバーの準備 (起動)
+              href: ../help-topics/help-depwiz/prepare-single-standard-edition-server-invoke.md
+            - name: 証明書の表示
+              href: ../help-topics/help-depwiz/view-certificate.md
+            - name: Skype for Business Server コンポーネントのセットアップまたは削除 (開始)
+              href: ../help-topics/help-depwiz/setup-or-remove-skype-for-business-server-components-intro.md
+            - name: Skype for Business Server コンポーネントのセットアップまたは削除 (起動)
+              href: ../help-topics/help-depwiz/setup-or-remove-skype-for-business-server-components-invoke.md
+            - name: 証明書の割り当て (開始)
+              href: ../help-topics/help-depwiz/certificate-assignment-intro.md
+            - name: 証明書の割り当て (要求から)
+              href: ../help-topics/help-depwiz/certificate-assignment-from-request.md
+            - name: 証明書の割り当て (起動)
+              href: ../help-topics/help-depwiz/certificate-assignment-invoke.md
+            - name: 証明書の割り当て (概要)
+              href: ../help-topics/help-depwiz/certificate-assignment-summary.md
+            - name: 証明書のインポート (開始)
+              href: ../help-topics/help-depwiz/import-certificate-intro.md
+            - name: 証明書のインポート (起動)
+              href: ../help-topics/help-depwiz/import-certificate-invoke.md
+            - name: 証明書のインポート (概要)
+              href: ../help-topics/help-depwiz/import-certificate-summary.md
+            - name: 証明書のリスト
+              href: ../help-topics/help-depwiz/certificate-list.md
+            - name: 保留中の証明書 (開始)
+              href: ../help-topics/help-depwiz/pending-certificate-intro.md
+            - name: 保留中の証明書 (起動)
+              href: ../help-topics/help-depwiz/pending-certificate-invoke.md
+            - name: 保留中の証明書 (結果)
+              href: ../help-topics/help-depwiz/pending-certificate-returned.md
+            - name: 証明書の削除 (開始)
+              href: ../help-topics/help-depwiz/remove-certificate-intro.md
+            - name: 証明書の削除 (起動)
+              href: ../help-topics/help-depwiz/remove-certificate-invoke.md
+            - name: 証明書要求 (基本)
+              href: ../help-topics/help-depwiz/certificate-request-basic.md
+            - name: 証明書要求 (証明機関)
+              href: ../help-topics/help-depwiz/certificate-request-certificate-authority.md
+            - name: 証明書要求 (証明機関のアカウント)
+              href: ../help-topics/help-depwiz/certificate-request-certificate-authority-account.md
+            - name: 証明書要求 (証明書の署名要求)
+              href: ../help-topics/help-depwiz/certificate-request-certificate-signing-request.md
+            - name: 証明書要求 (生成された証明書の署名要求)
+              href: ../help-topics/help-depwiz/certificate-request-certificate-signing-request-generated.md
+            - name: 証明書要求 (地理)
+              href: ../help-topics/help-depwiz/certificate-request-geography.md
+            - name: 証明書要求 (開始)
+              href: ../help-topics/help-depwiz/certificate-request-intro.md
+            - name: 証明書要求 (起動)
+              href: ../help-topics/help-depwiz/certificate-request-invoke.md
+            - name: 証明書要求 (オンライン オフライン)
+              href: ../help-topics/help-depwiz/certificate-request-online-offline.md
+            - name: 証明書要求 (組織情報)
+              href: ../help-topics/help-depwiz/certificate-request-organization-information.md
+            - name: 証明書要求 (結果)
+              href: ../help-topics/help-depwiz/certificate-request-returned.md
+            - name: 証明書要求 (サブジェクトの別名)
+              href: ../help-topics/help-depwiz/certificate-request-subject-alternate-names.md
+            - name: 証明書要求 (追加のサブジェクト代替名)
+              href: ../help-topics/help-depwiz/certificate-request-additional-subject-alternate-names.md
+            - name: 証明書要求 (SIP ドメイン)
+              href: ../help-topics/help-depwiz/certificate-request-sip-domains.md
+            - name: 証明書要求 (概要)
+              href: ../help-topics/help-depwiz/certificate-request-summary.md
+            - name: 証明書要求 (テンプレートの指定)
+              href: ../help-topics/help-depwiz/certificate-request-specify-termplate.md
+            - name: 証明書ウィザード
+              href: ../help-topics/help-depwiz/certificate-wizard.md
+            - name: 現在のドメインの準備 (開始)
+              href: ../help-topics/help-depwiz/prepare-current-domain-intro.md
+            - name: 現在のドメインの準備 (起動)
+              href: ../help-topics/help-depwiz/prepare-current-domain-invoke.md
+            - name: 現在のフォレストの準備 (ユニバーサル グループの場所)
+              href: ../help-topics/help-depwiz/prepare-current-forest-universal-group-location.md
+            - name: 現在のフォレストの準備 (開始)
+              href: ../help-topics/help-depwiz/prepare-current-forrest-intro.md
+            - name: 現在のフォレストの準備 (起動)
+              href: ../help-topics/help-depwiz/prepare-current-forrest-invoke.md
+            - name: Active Directory の準備
+              href: ../help-topics/help-depwiz/prepare-active-directory.md
+            - name: Skype for Business Server コンポーネントのセットアップまたは削除
+              href: ../help-topics/help-depwiz/setup-or-remove-skype-for-business-server-components.md
+            - name: 証明書の要求、インストール、または割り当て
+              href: ../help-topics/help-depwiz/request-install-or-assign-certificates.md
+            - name: Skype for Business Server コントロール パネル管理者の作成
+              href: ../help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md
+            - name: Skype for Business Server システムのインストールまたは更新
+              href: ../help-topics/help-depwiz/install-or-update-skype-for-business-server-system.md
+            - name: 現在のドメインの準備
+              href: ../help-topics/help-depwiz/prepare-current-domain.md
+            - name: 現在のフォレストの準備
+              href: ../help-topics/help-depwiz/prepare-current-forest.md
+            - name: ローカル構成ストアのインストール
+              href: ../help-topics/help-depwiz/install-local-configuration-store.md
+            - name: スキーマの準備
+              href: ../help-topics/help-depwiz/prepare-schema.md
+            - name: サービスの開始
+              href: ../help-topics/help-depwiz/start-services.md
+            - name: ドメイン内のレプリケーションの確認
+              href: ../help-topics/help-depwiz/verify-replication-in-the-domain.md
+            - name: フォレスト準備のレプリケーションの確認
+              href: ../help-topics/help-depwiz/verify-replication-of-forest-preparation.md
+            - name: スキーマ パーティションのレプリケーションの確認
+              href: ../help-topics/help-depwiz/verify-replication-of-schema-partition.md
+            - name: ローカル構成ストアのインストールの起動 (構成)
+              href: ../help-topics/help-depwiz/install-local-configuration-store-invoke-configure.md
+            - name: ローカル構成ストアのインストール (起動)
+              href: ../help-topics/help-depwiz/install-local-configuration-store-invoke.md
+            - name: スキーマの準備 (開始)
+              href: ../help-topics/help-depwiz/prepare-schema-intro.md
+            - name: スキーマの準備 (起動)
+              href: ../help-topics/help-depwiz/prepare-schema-invoke.md
+            - name: SQL Server Reporting Services (資格情報)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-credentials.md
+            - name: SQL Server Reporting Services (グループ)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-groups.md
+            - name: SQL Server Reporting Services (開始)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-intro.md
+            - name: SQL Server Reporting Services (起動)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-invoke.md
+            - name: SQL Server Reporting Services (前提条件を満たしていない)
+              href: ../help-topics/help-depwiz/sql-server-reporting-services-prerequisites-not-satisfied.md
+            - name: サービスの開始 (開始)
+              href: ../help-topics/help-depwiz/startservices-intro.md
+            - name: サービスの開始 (起動)
+              href: ../help-topics/help-depwiz/start-services-invoke.md
+            - name: '展開ウィザード: 証明書の要求'
+              href: ../help-topics/help-depwiz/deployment-wizard-request-a-certificate.md
+            - name: '展開ウィザード: 管理ツールの使用'
+              href: ../help-topics/help-depwiz/deployment-wizard-using-the-admin-tools.md
+            - name: '展開ウィザード: 管理ツール'
+              href: ../help-topics/help-depwiz/deployment-wizard-admin-tools.md
+            - name: '展開ウィザード: MSI インストーラーのパス'
+              href: ../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md
+            - name: '展開ウィザード: Windows Update'
+              href: ../help-topics/help-depwiz/deployment-wizard-windows-update.md
+            - name: '展開ウィザード: 統合コミュニケーション API'
+              href: ../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md
+        - name: LSCP のヘルプ
+          items:
+            - name: コントロール パネルの使用
+              href: ../help-topics/help-lscp/use-the-control-panel.md
+            - name: 'クライアント バージョン ポリシー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/client-version-policy-create-new-or-edit-existing.md
+            - name: クライアント バージョン ポリシー
+              href: ../help-topics/help-lscp/client-version-policy.md
+            - name: クライアント バージョン ルール
+              href: ../help-topics/help-lscp/client-version-rule.md
+            - name: 'クライアント バージョンの構成: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/client-version-configuration-create-new-or-edit-existing.md
+            - name: クライアント バージョンの構成
+              href: ../help-topics/help-lscp/client-version-configuration.md
+            - name: デバイス ログの構成
+              href: ../help-topics/help-lscp/device-log-configuration.md
+            - name: 'テスト デバイス: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/test-device-create-new-or-edit-existing.md
+            - name: テスト デバイス
+              href: ../help-topics/help-lscp/test-device.md
+            - name: 'デバイス ログの構成: 編集'
+              href: ../help-topics/help-lscp/device-log-configuration-edit.md
+            - name: デバイス更新
+              href: ../help-topics/help-lscp/device-update.md
+            - name: 'デバイス構成: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md
+            - name: デバイス構成
+              href: ../help-topics/help-lscp/device-configuration.md
+            - name: 'ダイヤルイン アクセス番号: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/dial-in-access-number-create-new-or-edit-existing.md
+            - name: ダイヤルイン アクセス番号
+              href: ../help-topics/help-lscp/dial-in-access-number.md
+            - name: 言語の選択
+              href: ../help-topics/help-lscp/select-languages.md
+            - name: 地域の選択
+              href: ../help-topics/help-lscp/select-regions.md
+            - name: '会議ポリシー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/conferencing-policy-create-new-or-edit-existing.md
+            - name: 会議ポリシー
+              href: ../help-topics/help-lscp/conferencing-policy.md
+            - name: '会議構成: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/meeting-configuration-create-new-or-edit-existing.md
+            - name: 会議の構成
+              href: ../help-topics/help-lscp/meeting-configuration.md
+            - name: 'フェデレーション ドメイン: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/federated-domains-create-new-or-edit-existing.md
+            - name: フェデレーション ドメイン
+              href: ../help-topics/help-lscp/federated-domains.md
+            - name: 'アクセス エッジ構成: 編集'
+              href: ../help-topics/help-lscp/access-edge-configuration-edit.md
+            - name: アクセス エッジ構成
+              href: ../help-topics/help-lscp/access-edge-configuration.md
+            - name: '外部アクセス ポリシー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/external-access-policy-create-new-or-edit-existing.md
+            - name: 外部アクセス ポリシー
+              href: ../help-topics/help-lscp/external-access-policy.md
+            - name: 'SIP フェデレーション プロバイダー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/sip-federated-providers-create-new-or-edit-existing.md
+            - name: SIP フェデレーション プロバイダー
+              href: ../help-topics/help-lscp/sip-federated-providers.md
+            - name: Skype for Business Server コントロール パネルの最初の実行チェックリスト
+              href: ../help-topics/help-lscp/first-run-checklist-for-skype-for-business-server-control-panel.md
+            - name: 管理役割および Lync Server コントロール パネル
+              href: ../help-topics/help-lscp/administrative-roles-and-lync-server-control-panel.md
+            - name: ファイル種類の拡張子の選択
+              href: ../help-topics/help-lscp/select-file-type-extensions.md
+            - name: ハイパーリンクのプレフィックスの選択
+              href: ../help-topics/help-lscp/select-hyperlink-prefix.md
+            - name: 'ファイル フィルター: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/file-filter-create-new-or-edit-existing.md
+            - name: ファイル フィルター
+              href: ../help-topics/help-lscp/file-filter.md
+            - name: 'URL フィルター: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/url-filter-create-new-or-edit-existing.md
+            - name: URL フィルター
+              href: ../help-topics/help-lscp/url-filter.md
+            - name: '通話詳細記録: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/call-detail-recording-create-new-or-edit-existing.md
+            - name: 通話詳細記録
+              href: ../help-topics/help-lscp/call-detail-recording.md
+            - name: 'アーカイブ ポリシー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/archiving-policy-create-new-or-edit-existing.md
+            - name: アーカイブ ポリシー
+              href: ../help-topics/help-lscp/archiving-policy.md
+            - name: 'QoE (Quality of Experience) データ: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/quality-of-experience-qoe-data-create-new-or-edit-existing.md
+            - name: QoE (Quality of Experience) データ
+              href: ../help-topics/help-lscp/quality-of-experience-qoe-data.md
+            - name: 'アーカイブ構成: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/archiving-configuration-create-new-or-edit-existing.md
+            - name: アーカイブ構成
+              href: ../help-topics/help-lscp/archiving-configuration.md
+            - name: 'ネットワーク構成: グローバル設定の編集'
+              href: ../help-topics/help-lscp/network-configuration-edit-global-setting.md
+            - name: 'ネットワーク構成: グローバル設定'
+              href: ../help-topics/help-lscp/network-configuration-global-setting.md
+            - name: '場所のポリシー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/location-policy-create-new-or-edit-existing.md
+            - name: 場所のポリシー
+              href: ../help-topics/help-lscp/location-policy.md
+            - name: '帯域幅ポリシーのプロファイル: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/bandwidth-policy-profile-create-new-or-edit-existing.md
+            - name: 帯域幅ポリシーのプロファイル
+              href: ../help-topics/help-lscp/bandwidth-policy-profile.md
+            - name: 'ネットワーク地域の構成: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/configure-a-network-region-create-new-or-edit-existing.md
+            - name: 'ネットワーク地域のリンクの構成: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/configure-a-network-region-link-create-new-or-edit-existing.md
+            - name: ネットワーク地域リンクの構成
+              href: ../help-topics/help-lscp/configure-a-network-region-link.md
+            - name: ネットワーク地域の構成
+              href: ../help-topics/help-lscp/configure-a-network-region.md
+            - name: 'ネットワーク地域ルートの構成: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/configure-a-network-region-route-create-new-or-edit-existing.md
+            - name: ネットワーク地域ルートの構成
+              href: ../help-topics/help-lscp/configure-a-network-region-route.md
+            - name: プロパティの割り当て
+              href: ../help-topics/help-lscp/assign-properties.md
+            - name: 地域リンクの選択
+              href: ../help-topics/help-lscp/select-a-region-link.md
+            - name: 'ネットワーク サイトの構成: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/configure-a-network-site-create-new-or-edit-existing.md
+            - name: ネットワーク サイトの構成
+              href: ../help-topics/help-lscp/configure-a-network-site.md
+            - name: 'サブネットの関連付け: 新規追加または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/associate-a-subnet-add-new-or-edit-existing.md
+            - name: サブネットの関連付け
+              href: ../help-topics/help-lscp/associate-a-subnet.md
+            - name: '応答グループ: エージェント グループの新規作成または既存エージェント グループの編集'
+              href: ../help-topics/help-lscp/response-groups-create-new-or-edit-existing-agent-group.md
+            - name: '応答グループ: グループ'
+              href: ../help-topics/help-lscp/response-groups-group.md
+            - name: '応答グループのキュー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/response-groups-queue-create-new-or-edit-existing.md
+            - name: 応答グループのキュー
+              href: ../help-topics/help-lscp/response-groups-queue.md
+            - name: エージェントの選択
+              href: ../help-topics/help-lscp/select-agents.md
+            - name: グループの選択
+              href: ../help-topics/help-lscp/select-groups.md
+            - name: オーバーフロー キューの選択
+              href: ../help-topics/help-lscp/select-overflow-queue.md
+            - name: タイムアウト キューの選択
+              href: ../help-topics/help-lscp/select-time-out-queue.md
+            - name: 応答グループのワークフロー
+              href: ../help-topics/help-lscp/response-groups-workflow.md
+            - name: 'PIN ポリシー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/pin-policy-create-new-or-edit-existing.md
+            - name: PIN ポリシー
+              href: ../help-topics/help-lscp/pin-policy.md
+            - name: 'レジストラーのセキュリティ設定: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/registrar-security-settings-create-new-or-edit-existing.md
+            - name: レジストラーのセキュリティ設定
+              href: ../help-topics/help-lscp/registrar-security-settings.md
+            - name: 'Web サービスのセキュリティ設定: 新規作成または現在の形式のままで変更'
+              href: ../help-topics/help-lscp/web-service-security-settings-create-new-or-modify-existing.md
+            - name: Web サービスのセキュリティ設定
+              href: ../help-topics/help-lscp/web-service-security-settings.md
+            - name: サービスの選択
+              href: ../help-topics/help-lscp/select-a-service.md
+            - name: サイトの選択
+              href: ../help-topics/help-lscp/select-a-site.md
+            - name: 'トポロジ: サーバー アプリケーション'
+              href: ../help-topics/help-lscp/topology-server-application.md
+            - name: 'トポロジ: 信頼されたアプリケーション'
+              href: ../help-topics/help-lscp/topology-trusted-application.md
+            - name: 'トポロジ: 簡単な URL の詳細の表示'
+              href: ../help-topics/help-lscp/topology-view-simple-url-detail.md
+            - name: 'トポロジ: 簡単な URL の表示'
+              href: ../help-topics/help-lscp/topology-view-simple-url.md
+            - name: 'トポロジ: コンピューターの詳細の表示'
+              href: ../help-topics/help-lscp/topology-view-computer-detail.md
+            - name: 'トポロジ: ステータス'
+              href: ../help-topics/help-lscp/topology-status.md
+            - name: 'トポロジ: サービスの詳細の表示'
+              href: ../help-topics/help-lscp/topology-view-service-detail.md
+            - name: 'ユーザー: ポリシーの割り当て'
+              href: ../help-topics/help-lscp/users-assign-policies.md
+            - name: 'ユーザー: ユーザーの編集'
+              href: ../help-topics/help-lscp/users-edit-user.md
+            - name: 'コントロール パネル - 更新: ユーザー検索'
+              href: ../help-topics/help-lscp/control-panelupdated-user-search.md
+            - name: ユーザーの移動
+              href: ../help-topics/help-lscp/move-user.md
+            - name: すべてのユーザーの移動
+              href: ../help-topics/help-lscp/move-all-users.md
+            - name: 'ユーザー: 新しい Lync Server ユーザー'
+              href: ../help-topics/help-lscp/users-new-lync-server-user.md
+            - name: 'ユーザー: 新しい連絡先オブジェクト'
+              href: ../help-topics/help-lscp/users-new-contact-objects.md
+            - name: PIN 設定の成功
+              href: ../help-topics/help-lscp/pin-set-successfully.md
+            - name: Active Directory からの選択
+              href: ../help-topics/help-lscp/select-from-active-directory.md
+            - name: Active Directory からの連絡先の選択
+              href: ../help-topics/help-lscp/select-contacts-from-active-directory.md
+            - name: PIN の設定
+              href: ../help-topics/help-lscp/set-pin.md
+            - name: 'ユーザー: アーカイブ ポリシーの表示または構成'
+              href: ../help-topics/help-lscp/users-view-or-configure-archiving-policy.md
+            - name: 'ユーザー: 会議ポリシーの表示または構成'
+              href: ../help-topics/help-lscp/users-view-or-configure-conferencing-policy.md
+            - name: 'ユーザー: クライアント バージョン ポリシーの表示または構成'
+              href: ../help-topics/help-lscp/users-view-or-configure-client-version-policy.md
+            - name: 'ユーザー: ダイヤル プランの表示または構成'
+              href: ../help-topics/help-lscp/users-view-or-configure-dial-plan.md
+            - name: 'ユーザー: 外部アクセス ポリシーの表示または構成'
+              href: ../help-topics/help-lscp/users-view-or-configure-external-access-policy.md
+            - name: 'ユーザー: 場所ポリシーの表示または構成'
+              href: ../help-topics/help-lscp/users-view-or-configure-location-policy.md
+            - name: 'ユーザー: PIN の状態の表示'
+              href: ../help-topics/help-lscp/users-view-pin-status.md
+            - name: 'ユーザー: 音声ポリシーの表示'
+              href: ../help-topics/help-lscp/users-view-voice-policy.md
+            - name: 'ユーザー: PIN ポリシーの表示または構成'
+              href: ../help-topics/help-lscp/users-view-or-configure-pin-policy.md
+            - name: 音声ルーティングのテスト ケース情報の保存
+              href: ../help-topics/help-lscp/save-voice-routing-test-case-information.md
+            - name: エンタープライズ VoIP ユーザーの選択
+              href: ../help-topics/help-lscp/select-enterprise-voice-users.md
+            - name: 'ダイヤル プラン: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/dial-plan-create-new-or-edit-existing.md
+            - name: ダイヤル プラン
+              href: ../help-topics/help-lscp/dial-plan.md
+            - name: '正規化ルール: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/normalization-rule-create-new-or-edit-existing.md
+            - name: 正規化ルールの選択
+              href: ../help-topics/help-lscp/select-normalization-rules.md
+            - name: 'コール パーク: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/call-park-create-new-or-edit-existing.md
+            - name: コール パーク
+              href: ../help-topics/help-lscp/call-park.md
+            - name: アナウンス サービスの選択
+              href: ../help-topics/help-lscp/select-an-announcement-service.md
+            - name: Exchange UM 自動応答の選択
+              href: ../help-topics/help-lscp/select-exchange-um-auto-attendant.md
+            - name: '割り当てられていない電話番号: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/unassigned-phone-number-create-new-or-edit-existing.md
+            - name: 割り当てられていない電話番号
+              href: ../help-topics/help-lscp/unassigned-phone-number.md
+            - name: ゲートウェイの表示 (構成のインポート)
+              href: ../help-topics/help-lscp/view-gateways-import-configuration.md
+            - name: '音声ポリシー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/voice-policy-create-new-or-edit-existing.md
+            - name: 音声ポリシー
+              href: ../help-topics/help-lscp/voice-policy.md
+            - name: PSTN 使用法レコードの選択
+              href: ../help-topics/help-lscp/select-pstn-usage-record.md
+            - name: '音声ポリシー: PSTN 使用法レコードの新規作成または既存の PSTN 使用法レコードの編集'
+              href: ../help-topics/help-lscp/voice-policy-create-new-or-edit-existing-pstn-usage-record.md
+            - name: '音声ルーティング: 音声ルーティング構成のコミット変更の状態'
+              href: ../help-topics/help-lscp/voice-routing-status-of-commit-changes-for-voice-routing-configuration.md
+            - name: 'ボイス ルート: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/voice-route-create-new-or-edit-existing.md
+            - name: ボイス ルート
+              href: ../help-topics/help-lscp/voice-route.md
+            - name: プレフィックスの編集
+              href: ../help-topics/help-lscp/prefix-edit.md
+            - name: '正規化ルール: 正規表現の入力'
+              href: ../help-topics/help-lscp/normalization-rule-type-a-regular-expression.md
+            - name: トランクの選択
+              href: ../help-topics/help-lscp/select-trunk.md
+            - name: '変換ルール: 正規表現の入力'
+              href: ../help-topics/help-lscp/translation-rule-type-a-regular-expression.md
+            - name: '音声ルーティングのテスト: テスト ケースの新規作成または既存のテスト ケースの編集'
+              href: ../help-topics/help-lscp/test-voice-routing-create-new-or-edit-existing-test-cases.md
+            - name: '音声ルーティングのテスト: テスト ケース'
+              href: ../help-topics/help-lscp/test-voice-routing-test-cases.md
+            - name: 'トランク構成: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/trunk-configuration-create-new-or-edit-existing.md
+            - name: トランク構成
+              href: ../help-topics/help-lscp/trunk-configuration.md
+            - name: '変換ルール: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/translation-rule-create-new-or-edit-existing.md
+            - name: 変換ルールの選択
+              href: ../help-topics/help-lscp/select-translation-rules.md
+            - name: 'PSTN の使用法: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/pstn-usage-create-new-or-edit-existing.md
+            - name: PSTN の使用法
+              href: ../help-topics/help-lscp/pstn-usage.md
+            - name: ルートの選択
+              href: ../help-topics/help-lscp/select-routes.md
+            - name: 'コミットされていない音声構成設定: 確認'
+              href: ../help-topics/help-lscp/uncommitted-voice-configuration-settings-review.md
+            - name: 'コミットされていない音声構成設定: コミット'
+              href: ../help-topics/help-lscp/uncommitted-voice-configuration-settings-commit.md
+            - name: 音声使用ポリシー
+              href: ../help-topics/help-lscp/voice-usage-policy.md
+            - name: クライアント モビリティ ポリシーの編集
+              href: ../help-topics/help-lscp/edit-client-mobility-policy.md
+            - name: 'クライアント: モビリティ ポリシー'
+              href: ../help-topics/help-lscp/clients-mobility-policy.md
+            - name: 'モバイル クライアント: プッシュ通知の構成の作成または編集'
+              href: ../help-topics/help-lscp/mobile-client-create-or-edit-push-notification-configuration.md
+            - name: 'モバイル クライアント: プッシュ通知の構成'
+              href: ../help-topics/help-lscp/mobile-client-push-notification-configuration.md
+            - name: 'XMPP フェデレーション パートナー: 新規作成または現在の形式のままで編集'
+              href: ../help-topics/help-lscp/xmpp-federated-partners-create-new-or-edit-existing.md
+            - name: XMPP フェデレーション パートナー
+              href: ../help-topics/help-lscp/xmpp-federated-partners.md
+            - name: 常設チャット アドイン
+              href: ../help-topics/help-lscp/persistent-chat-add-in.md
+            - name: 常設チャット アドイン メイン ページ
+              href: ../help-topics/help-lscp/persistent-chat-add-in-main-page.md
+            - name: 常設チャットのカテゴリ
+              href: ../help-topics/help-lscp/persistent-chat-category.md
+            - name: 常設チャット カテゴリ メイン ページ
+              href: ../help-topics/help-lscp/persistent-chat-category-main-page.md
+            - name: 永続的なチャット構成
+              href: ../help-topics/help-lscp/persistent-chat-configuration.md
+            - name: 常設チャット構成メイン ページ
+              href: ../help-topics/help-lscp/persistent-chat-configuration-main-page.md
+            - name: 常設チャットのポリシー
+              href: ../help-topics/help-lscp/persistent-chat-policy.md
+            - name: 常設チャット ポリシー メイン ページ
+              href: ../help-topics/help-lscp/persistent-chat-policy-main-page.md
+            - name: 許可されたメンバーの選択
+              href: ../help-topics/help-lscp/select-allowed-members.md
+            - name: 作成者の選択
+              href: ../help-topics/help-lscp/select-creators.md
+            - name: 拒否されたメンバーの選択
+              href: ../help-topics/help-lscp/select-denied-members.md
+            - name: 'ユーザー: モビリティ ポリシーの表示'
+              href: ../help-topics/help-lscp/users-view-mobility-policy.md
+            - name: 'ユーザー: 常設チャットの表示'
+              href: ../help-topics/help-lscp/users-view-persistent-chat.md
+            - name: 新しい呼び出し元番号変換ルール
+              href: ../help-topics/help-lscp/new-calling-number-translation-rule.md
+            - name: 発信者番号の変換ルールを選択
+              href: ../help-topics/help-lscp/select-calling-number-rules-translation.md
+            - name: 'ハイブリッド ウィザード: ユーザー編集'
+              href: ../help-topics/help-lscp/hybrid-wizard-edit-users.md
+            - name: 'ハイブリッド ウィザード: ユーザーの移動'
+              href: ../help-topics/help-lscp/hybrid-wizard-move-user.md
+            - name: ハイブリッド管理ウィザード
+              href: ../help-topics/help-lscp/hybrid-manageability-wizard.md
+            - name: 'ハイブリッド ウィザード: Office 365 へのサインイン'
+              href: ../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md
+        - name: 計画のヘルプ
+          items:
+            - name: アーカイブ
+              href: ../management-tools/planning-tool/archiving.md
+            - name: 音声ビデオ会議
+              href: ../management-tools/planning-tool/audio-video-conferencing.md
+            - name: ブランチ サイト
+              href: ../management-tools/planning-tool/branch-sites.md
+            - name: 通話受付管理
+              href: ../management-tools/planning-tool/call-admission-control.md
+            - name: クライアント設定
+              href: ../management-tools/planning-tool/client-settings.md
+            - name: ダイヤルイン会議
+              href: ../management-tools/planning-tool/dial-in-conferencing.md
+            - name: ディレクター
+              href: ../management-tools/planning-tool/director.md
+            - name: 障害回復
+              href: ../management-tools/planning-tool/disaster-recovery.md
+            - name: 境界ネットワーク
+              href: ../management-tools/planning-tool/edge-network.md
+            - name: 用に構成します
+              href: ../management-tools/planning-tool/enterprise-voice.md
+            - name: Exchange ユニファイド メッセージング
+              href: ../management-tools/planning-tool/exchange-unified-messaging.md
+            - name: Exchange ユニファイド メッセージング設定
+              href: ../management-tools/planning-tool/exchange-unified-messaging-settings.md
+            - name: 機能の概要
+              href: ../management-tools/planning-tool/feature-overview.md
+            - name: フェデレーション
+              href: ../management-tools/planning-tool/federation.md
+            - name: 高可用性
+              href: ../management-tools/planning-tool/high-availability.md
+            - name: IP バージョン
+              href: ../management-tools/planning-tool/ip-version.md
+            - name: ロード バランサー
+              href: ../management-tools/planning-tool/load-balancer.md
+            - name: メディア バイパス
+              href: ../management-tools/planning-tool/media-bypass.md
+            - name: 仲介コロケーション
+              href: ../management-tools/planning-tool/mediation-collocation.md
+            - name: 身体
+              href: ../management-tools/planning-tool/mobility.md
+            - name: 監視
+              href: ../management-tools/planning-tool/monitoring.md
+            - name: 常設チャット
+              href: ../management-tools/planning-tool/persistent-chat.md
+            - name: 音声のインフラストラクチャ
+              href: ../management-tools/planning-tool/voice-infrastructure.md
+            - name: 音声トラフィック
+              href: ../management-tools/planning-tool/voice-traffic.md
+            - name: Web 会議
+              href: ../management-tools/planning-tool/web-conferencing.md
+        - name: TopoBld のヘルプ
+          items:
+            - name: 追加の SIP ドメインを追加する
+              href: ../help-topics/help-topobld/add-additional-sip-domains.md
+            - name: アーカイブ サーバーのファイル ストアを追加する
+              href: ../help-topics/help-topobld/add-archiving-server-file-store.md
+            - name: アーカイブ サーバーを追加する
+              href: ../help-topics/help-topobld/add-archiving-server.md
+            - name: アーカイブ サーバー SQL Server ストアの追加
+              href: ../help-topics/help-topobld/add-archiving-server-sql-server-store.md
+            - name: A/V MCU コンピューターの追加
+              href: ../help-topics/help-topobld/add-a-v-mcu-machine.md
+            - name: 音声ビデオ MCU プールの追加
+              href: ../help-topics/help-topobld/add-a-v-mcu-pool.md
+            - name: 存続可能ブランチ アプライアンス プールの追加
+              href: ../help-topics/help-topobld/add-survivable-branch-appliance-pool.md
+            - name: 存続可能ブランチ アプライアンスの PSTN を追加する
+              href: ../help-topics/help-topobld/add-survivable-branch-appliance-pstn.md
+            - name: ブランチ サイトの詳細を追加する
+              href: ../help-topics/help-topobld/add-branch-site-details.md
+            - name: ブランチ サイト名を追加する
+              href: ../help-topics/help-topobld/add-branch-site-name.md
+            - name: 既定の SIP ドメインを追加する
+              href: ../help-topics/help-topobld/add-default-sip-domain.md
+            - name: ディレクターの機能を追加する
+              href: ../help-topics/help-topobld/add-director-features.md
+            - name: ディレクターのファイル ストアの追加
+              href: ../help-topics/help-topobld/add-director-file-store.md
+            - name: ディレクター コンピューターを追加する
+              href: ../help-topics/help-topobld/add-director-machine.md
+            - name: ディレクターの監視を追加する
+              href: ../help-topics/help-topobld/add-director-monitoring.md
+            - name: ディレクター プールを追加する
+              href: ../help-topics/help-topobld/add-director-pool.md
+            - name: ディレクター Web サービスの追加
+              href: ../help-topics/help-topobld/add-director-web-service.md
+            - name: エッジ コンピューター外部 IP の追加 (2010)
+              href: ../help-topics/help-topobld/add-edge-machine-external-ip-2010.md
+            - name: エッジ コンピューターの外部 IPv4 を追加する
+              href: ../help-topics/help-topobld/add-edge-machine-external-ipv4.md
+            - name: エッジ コンピューターの外部 IPv6 を追加する
+              href: ../help-topics/help-topobld/add-edge-machine-external-ipv6.md
+            - name: エッジ コンピューター内部 IP の追加
+              href: ../help-topics/help-topobld/add-edge-machine-internal-ip.md
+            - name: エッジ コンピューター内部 IP の追加 (2010)
+              href: ../help-topics/help-topobld/add-edge-machine-internal-ip-2010.md
+            - name: エッジ コンピューターの NAT IP を追加する
+              href: ../help-topics/help-topobld/add-edge-machine-nat-ip.md
+            - name: エッジ コンピューターの NAT IP を追加する (2010)
+              href: ../help-topics/help-topobld/add-edge-machine-nat-ip-2010.md
+            - name: エッジ サーバーのの関連付けを追加する
+              href: ../help-topics/help-topobld/add-edge-server-associations.md
+            - name: エッジ サーバーの外部 IP を追加する (2010)
+              href: ../help-topics/help-topobld/add-edge-server-external-ip-2010.md
+            - name: エッジ サーバーの外部 IPv4 を追加する
+              href: ../help-topics/help-topobld/add-edge-server-external-ipv4.md
+            - name: エッジ サーバーの外部 IPv6 を追加する
+              href: ../help-topics/help-topobld/add-edge-server-external-ipv6.md
+            - name: エッジ サーバーの FQDN を追加する
+              href: ../help-topics/help-topobld/add-edge-server-fqdn.md
+            - name: エッジ サーバーの内部 IP を追加する
+              href: ../help-topics/help-topobld/add-edge-server-internal-ip.md
+            - name: エッジ サーバーの内部 IP を追加する (2010)
+              href: ../help-topics/help-topobld/add-edge-server-internal-ip-2010.md
+            - name: エッジ サーバー IP 追加オプション
+              href: ../help-topics/help-topobld/add-edge-server-ip-options.md
+            - name: エッジ サーバーの NAT IP を追加する
+              href: ../help-topics/help-topobld/add-edge-server-nat-ip.md
+            - name: エッジ サーバーの NAT IP を追加する (2010)
+              href: ../help-topics/help-topobld/add-edge-server-nat-ip-2010.md
+            - name: エッジ サーバーの次ホップを追加する
+              href: ../help-topics/help-topobld/add-edge-server-next-hop.md
+            - name: エッジ サーバーのオプションを追加する
+              href: ../help-topics/help-topobld/add-edge-server-options.md
+            - name: Lync Server 2010 のエッジ サーバー オプションを追加する
+              href: ../help-topics/help-topobld/add-edge-server-options-for-lync-server-2010.md
+            - name: エッジ サーバーを追加する
+              href: ../help-topics/help-topobld/add-edge-server.md
+            - name: エッジ サーバーのサポートを追加する
+              href: ../help-topics/help-topobld/add-edge-server-support.md
+            - name: 信頼済みアプリケーション コンピューターを追加する
+              href: ../help-topics/help-topobld/add-trusted-application-machine.md
+            - name: 次ホップ信頼済みアプリケーション サーバーを追加する
+              href: ../help-topics/help-topobld/add-nexthop-trusted-application-server.md
+            - name: 信頼済みアプリケーション プールの FQDN を追加する
+              href: ../help-topics/help-topobld/add-trusted-application-pool-fqdn.md
+            - name: ファイル ストアの追加
+              href: ../help-topics/help-topobld/add-file-store.md
+            - name: フロントエンド アーカイブ ストアを追加する
+              href: ../help-topics/help-topobld/add-front-end-archiving-store.md
+            - name: フロントエンドの関連付けの追加
+              href: ../help-topics/help-topobld/add-front-end-associations.md
+            - name: フロントエンドの関連付けの追加 (2010)
+              href: ../help-topics/help-topobld/add-front-end-associations-2010.md
+            - name: フロントエンド サーバーの併置を追加する
+              href: ../help-topics/help-topobld/add-front-end-server-collocations.md
+            - name: フロントエンド サーバーの併置を追加する (2010)
+              href: ../help-topics/help-topobld/add-front-end-server-collocations-2010.md
+            - name: フロントエンドの機能の追加
+              href: ../help-topics/help-topobld/add-front-end-features.md
+            - name: フロントエンドの機能を追加する (2010)
+              href: ../help-topics/help-topobld/add-front-end-features-2010.md
+            - name: フロントエンド ファイル ストアの追加
+              href: ../help-topics/help-topobld/add-front-end-file-store.md
+            - name: フロントエンド コンピューターを追加する
+              href: ../help-topics/help-topobld/add-front-end-machine.md
+            - name: フロントエンド監視ストアの追加ページ
+              href: ../help-topics/help-topobld/add-front-end-monitoring-store-page.md
+            - name: フロントエンド プールの FQDN を追加する
+              href: ../help-topics/help-topobld/add-front-end-pool-fqdn.md
+            - name: フロントエンド SQL Server ストアの追加
+              href: ../help-topics/help-topobld/add-front-end-sql-server-store.md
+            - name: Lync Server 2010 用のフロントエンド SQL ストアの追加ページ
+              href: ../help-topics/help-topobld/add-front-end-sql-store-page-for-lync-server-2010.md
+            - name: フロントエンドの Web サービスを追加する
+              href: ../help-topics/help-topobld/add-front-end-web-services.md
+            - name: サーバーを追加する
+              href: ../help-topics/help-topobld/add-server.md
+            - name: 仲介コンピューターを追加する
+              href: ../help-topics/help-topobld/add-mediation-machine.md
+            - name: 仲介サーバーの次ホップを追加する
+              href: ../help-topics/help-topobld/add-mediation-server-nexthop.md
+            - name: 仲介サーバーの追加
+              href: ../help-topics/help-topobld/add-mediation-server.md
+            - name: 監視サーバーの追加
+              href: ../help-topics/help-topobld/add-monitoring-server.md
+            - name: 監視サーバー SQL Server ストアを追加する
+              href: ../help-topics/help-topobld/add-monitoring-server-sql-server-store.md
+            - name: Office Web Apps サーバーを追加する
+              href: ../help-topics/help-topobld/add-office-web-apps-server.md
+            - name: 常設チャット コンプライアンス バックアップ SQL Server ストアの追加
+              href: ../help-topics/help-topobld/add-persistent-chat-compliance-backup-sql-server-store.md
+            - name: 常設チャット バックアップ SQL Server ストアを追加する
+              href: ../help-topics/help-topobld/add-persistent-chat-backup-sql-server-store.md
+            - name: 常設チャット コンプライアンス SQL Server ストアを追加する
+              href: ../help-topics/help-topobld/add-persistent-chat-compliance-sql-server-store.md
+            - name: 常設チャットのファイル ストアの追加
+              href: ../help-topics/help-topobld/add-persistent-chat-file-store.md
+            - name: ファイル ストアのデータの移動
+              href: ../manage/topology/move-file-store-data.md
+            - name: 常設チャットの FQDN の定義
+              href: ../help-topics/help-topobld/define-persistent-chat-fqdn.md
+            - name: 常設チャット プールのコンピューターを定義する
+              href: ../help-topics/help-topobld/define-computers-in-persistent-chat-pool.md
+            - name: 常設チャット プールのプロパティとオプションの定義
+              href: ../help-topics/help-topobld/define-properties-and-options-for-persistent-chat-pool.md
+            - name: 常設チャット SQL Server ストアを追加する
+              href: ../help-topics/help-topobld/add-persistent-chat-sql-server-store.md
+            - name: PSTN ゲートウェイの FQDN を定義する
+              href: ../help-topics/help-topobld/define-the-pstn-gateway-fqdn.md
+            - name: IP または PSTN ゲートウェイの IP アドレスを定義する
+              href: ../help-topics/help-topobld/define-the-ip-address-of-the-ip-or-pstn-gateway.md
+            - name: 新しい IP または PSTN ゲートウェイのルート トランクを定義する
+              href: ../help-topics/help-topobld/define-the-root-trunk-for-a-new-ip-or-pstn-gateway.md
+            - name: 簡易 URL の追加
+              href: ../help-topics/help-topobld/add-simple-url.md
+            - name: サイトの詳細を追加する
+              href: ../help-topics/help-topobld/add-site-details.md
+            - name: サイト名の追加
+              href: ../help-topics/help-topobld/add-site-name.md
+            - name: SQL ストアを追加する
+              href: ../help-topics/help-topobld/add-sql-store.md
+            - name: 新しいトランクを定義する
+              href: ../help-topics/help-topobld/define-a-new-trunk.md
+            - name: アーカイブ サーバーの全般設定の展開
+              href: ../help-topics/help-topobld/archiving-server-general-settings-expander.md
+            - name: アーカイブ サーバー スコープ ノード
+              href: ../help-topics/help-topobld/archiving-server-scope-node.md
+            - name: アーカイブ サーバーのスコープ ノード
+              href: ../help-topics/help-topobld/archiving-servers-scope-node.md
+            - name: AV MCU をフロントエンドと関連付ける
+              href: ../help-topics/help-topobld/associate-av-mcu-with-front-end.md
+            - name: ブランチ オフィス アプライアンスとエッジの関連付け
+              href: ../help-topics/help-topobld/associate-branch-office-appliance-with-edge.md
+            - name: ブランチ オフィス アプライアンスをフロントエンドと関連付ける
+              href: ../help-topics/help-topobld/associate-branch-office-appliance-with-front-end.md
+            - name: フロントエンドとアーカイブの関連付け
+              href: ../help-topics/help-topobld/associate-front-end-with-archiving.md
+            - name: フロントエンドと AV MCU の関連付け
+              href: ../help-topics/help-topobld/associate-front-end-with-av-mcu.md
+            - name: フロントエンドとエッジの関連付け
+              href: ../help-topics/help-topobld/associate-front-end-with-edge.md
+            - name: フロントエンドを監視と関連付ける
+              href: ../help-topics/help-topobld/associate-front-end-with-monitoring.md
+            - name: フロントエンドと Office Web Apps サーバーとの関連付けページ
+              href: ../help-topics/help-topobld/associate-front-end-with-office-web-apps-server-page.md
+            - name: 仲介サーバーをエッジと関連付ける
+              href: ../help-topics/help-topobld/associate-mediation-server-with-edge.md
+            - name: AV MCU 全般設定の展開
+              href: ../help-topics/help-topobld/av-mcu-general-settings-expander.md
+            - name: AV MCU スコープ ノード
+              href: ../help-topics/help-topobld/av-mcu-scope-node.md
+            - name: AV MCU 設定エキスパンダー
+              href: ../help-topics/help-topobld/av-mcu-settings-expander.md
+            - name: AV MCU スコープ ノード
+              href: ../help-topics/help-topobld/av-mcus-scope-node.md
+            - name: ブランチ オフィス アプライアンス全般設定エキスパンダー
+              href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander.md
+            - name: Lync Server 2010 用のブランチ オフィス アプライアンス全般設定の展開
+              href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander-for-lync-server-2010.md
+            - name: ブランチ オフィス アプライアンス スコープ ノード
+              href: ../help-topics/help-topobld/branch-office-appliance-scope-node.md
+            - name: ブランチ オフィス アプライアンス スコープ ノード
+              href: ../help-topics/help-topobld/branch-office-appliances-scope-node.md
+            - name: ブランチ オフィスのスコープ ノード
+              href: ../help-topics/help-topobld/branch-offices-scope-node.md
+            - name: CMS 設定の展開
+              href: ../help-topics/help-topobld/cms-settings-expander.md
+            - name: 展開設定エキスパンダー
+              href: ../help-topics/help-topobld/deployment-settings-expander.md
+            - name: ディレクターの全般設定の展開
+              href: ../help-topics/help-topobld/director-general-settings-expander.md
+            - name: Lync Server 2010 用のディレクター全般設定エキスパンダー
+              href: ../help-topics/help-topobld/director-general-settings-expander-for-lync-server-2010.md
+            - name: ディレクター スコープ ノード
+              href: ../help-topics/help-topobld/director-scope-node.md
+            - name: ディレクターのスコープ ノード
+              href: ../help-topics/help-topobld/directors-scope-node.md
+            - name: エッジ サーバーの FQDN 設定エキスパンダー
+              href: ../help-topics/help-topobld/edge-server-fqdns-settings-expander.md
+            - name: Lync Server 2010 用のエッジ サーバー FQDN 設定エキスパンダー
+              href: ../help-topics/help-topobld/edge-server-fqdn-settings-expander-for-lync-server-2010.md
+            - name: エッジ コンピューター設定エキスパンダー
+              href: ../help-topics/help-topobld/edge-machine-settings-expander.md
+            - name: Lync Server 2010 用のエッジ コンピューター設定エキスパンダー
+              href: ../help-topics/help-topobld/edge-machine-settings-expander-for-lync-server-2010.md
+            - name: エッジの次ホップ設定エキスパンダー
+              href: ../help-topics/help-topobld/edge-next-hop-settings-expander.md
+            - name: エッジ サーバー コンピューターの追加
+              href: ../help-topics/help-topobld/edge-server-add-machine.md
+            - name: エッジ サーバー スコープ ノード
+              href: ../help-topics/help-topobld/edge-server-scope-node.md
+            - name: エッジ サーバーのスコープ ノード
+              href: ../help-topics/help-topobld/edge-servers-scope-node.md
+            - name: エッジ設定エキスパンダー
+              href: ../help-topics/help-topobld/edge-settings-expander.md
+            - name: Lync Server 2010 用のエッジ設定編集エキスパンダー
+              href: ../help-topics/help-topobld/edit-edge-settings-expander-for-lync-server-2010.md
+            - name: 外部アプリケーション全般設定エキスパンダー
+              href: ../help-topics/help-topobld/external-application-general-settings-expander.md
+            - name: 外部アプリケーションの次ホップ設定エキスパンダー
+              href: ../help-topics/help-topobld/external-application-next-hop-settings-expander.md
+            - name: 外部アプリケーション スコープ ノード
+              href: ../help-topics/help-topobld/external-application-scope-node.md
+            - name: 外部アプリケーション スコープ ノード
+              href: ../help-topics/help-topobld/external-applications-scope-node.md
+            - name: フェデレーション ルート設定の展開
+              href: ../help-topics/help-topobld/federation-route-settings-expander.md
+            - name: 仲介サービス設定の展開
+              href: ../help-topics/help-topobld/mediation-service-settings-expander.md
+            - name: Lync Server 2010 用のフロントエンド仲介サービス設定の展開
+              href: ../help-topics/help-topobld/front-end-mediation-service-settings-expander-for-lync-server-2010.md
+            - name: ファイル ストア スコープ ノード
+              href: ../help-topics/help-topobld/file-store-scope-node.md
+            - name: ファイル ストア設定の展開
+              href: ../help-topics/help-topobld/file-store-settings-expander.md
+            - name: ファイル ストア スコープ ノード
+              href: ../help-topics/help-topobld/file-stores-scope-node.md
+            - name: フロントエンド全般設定エキスパンダー
+              href: ../help-topics/help-topobld/front-end-general-settings-expander.md
+            - name: Lync Server 2010 用のフロントエンド全般設定の展開
+              href: ../help-topics/help-topobld/front-end-general-settings-expander-for-lync-server-2010.md
+            - name: フロントエンド サーバーのスコープ ノード
+              href: ../help-topics/help-topobld/front-end-server-scope-node.md
+            - name: フロントエンド サーバー スコープ ノード
+              href: ../help-topics/help-topobld/front-end-servers-scope-node.md
+            - name: フロントエンド スタート ページ
+              href: ../help-topics/help-topobld/front-end-start-page.md
+            - name: データベースのインストールと作成
+              href: ../help-topics/help-topobld/install-and-create-databases.md
+            - name: データベースのインストールでのミラー データベースの作成ページ
+              href: ../help-topics/help-topobld/install-database-create-mirror-database-page.md
+            - name: データベースのインストール オプション ページ
+              href: ../help-topics/help-topobld/install-database-options-page.md
+            - name: ミラー データベースのインストール オプション ページ
+              href: ../help-topics/help-topobld/install-mirror-database-option-page.md
+            - name: '従来版のマージ: 拡張エッジの追加'
+              href: ../help-topics/help-topobld/legacy-merge-add-expanded-edge.md
+            - name: '従来版のマージ: コンピューターの追加'
+              href: ../help-topics/help-topobld/legacy-merge-add-machine.md
+            - name: 従来版のマージ
+              href: ../help-topics/help-topobld/legacy-merge.md
+            - name: '従来版のマージ: エッジの種類'
+              href: ../help-topics/help-topobld/legacy-merge-edge-type.md
+            - name: 従来のマージ FQDN
+              href: ../help-topics/help-topobld/legacy-merge-fqdn.md
+            - name: 従来のマージ ランディング
+              href: ../help-topics/help-topobld/legacy-merge-landing.md
+            - name: 従来のマージの次ホップ
+              href: ../help-topics/help-topobld/legacy-merge-next-hop.md
+            - name: 従来のマージの結果
+              href: ../help-topics/help-topobld/legacy-merge-results.md
+            - name: '従来版のマージ: SIP ポート'
+              href: ../help-topics/help-topobld/legacy-merge-sip-port.md
+            - name: 従来のマージの開始
+              href: ../help-topics/help-topobld/legacy-merge-start.md
+            - name: 従来のマージの概要ページ
+              href: ../help-topics/help-topobld/legacy-merge-summary-page.md
+            - name: Lync Server 2010 の新規作成エキスパンダー
+              href: ../help-topics/help-topobld/lync-server-2010-create-new-expander.md
+            - name: Lync Server 2013 新規作成の展開
+              href: ../help-topics/help-topobld/lync-server-2013-create-new-expander.md
+            - name: コンピューター スコープ ノード
+              href: ../help-topics/help-topobld/machine-scope-node.md
+            - name: サーバー設定エキスパンダー
+              href: ../help-topics/help-topobld/server-settings-expander.md
+            - name: Lync Server 2010 用のサーバー設定エキスパンダー
+              href: ../help-topics/help-topobld/server-settings-expander-for-lync-server-2010.md
+            - name: 仲介の次ホップ設定エキスパンダー
+              href: ../help-topics/help-topobld/mediation-next-hop-settings-expander.md
+            - name: 仲介サーバーの全般設定の展開
+              href: ../help-topics/help-topobld/mediation-server-general-settings-expander.md
+            - name: Lync Server 2010 用の仲介サーバー全般設定の展開
+              href: ../help-topics/help-topobld/mediation-server-general-settings-expander-for-lync-server-2010.md
+            - name: 仲介サーバー スコープ ノード
+              href: ../help-topics/help-topobld/mediation-server-scope-node.md
+            - name: 仲介サーバー スコープ ノード
+              href: ../help-topics/help-topobld/mediation-servers-scope-node.md
+            - name: 仲介サービス設定エキスパンダー
+              href: ../help-topics/help-topobld/mediation-service-setting-expander.md
+            - name: Lync Server 2010 用の仲介サービス設定の展開
+              href: ../help-topics/help-topobld/mediation-service-settings-expander-for-lync-server-2010.md
+            - name: 監視サーバー全般設定エキスパンダー
+              href: ../help-topics/help-topobld/monitoring-server-general-settings-expander.md
+            - name: 監視のスコープ ノード
+              href: ../help-topics/help-topobld/monitoring-scope-node.md
+            - name: 監視サーバーのスコープ ノード
+              href: ../help-topics/help-topobld/monitoring-servers-scope-node.md
+            - name: トポロジ ビルダー Lync ノード
+              href: ../help-topics/help-topobld/topology-builder-lync-node.md
+            - name: Office Communications Server スコープ ノード
+              href: ../help-topics/help-topobld/office-communications-server-scope-node.md
+            - name: Office Web Apps サーバー スコープ ノード エキスパンダー
+              href: ../help-topics/help-topobld/office-web-apps-server-scope-node-expander.md
+            - name: Office Web Apps サーバーの設定を編集する
+              href: ../help-topics/help-topobld/edit-office-web-apps-server-settings.md
+            - name: Office Web Apps サーバーのスコープ ノード
+              href: ../help-topics/help-topobld/office-web-apps-servers-scope-node.md
+            - name: 通話受付管理設定エキスパンダー
+              href: ../help-topics/help-topobld/call-admission-control-settings-expander.md
+            - name: 常設チャット全般設定の展開
+              href: ../help-topics/help-topobld/persistent-chat-general-settings-expander.md
+            - name: 常設チャット コンピューターの展開
+              href: ../help-topics/help-topobld/persistent-chat-machines-expander.md
+            - name: 常設チャットの次ホップ設定エキスパンダー
+              href: ../help-topics/help-topobld/persistent-chat-next-hop-settings-expander.md
+            - name: 常設チャット スコープ ノード
+              href: ../help-topics/help-topobld/persistent-chat-scope-node.md
+            - name: 常設チャット設定の展開
+              href: ../help-topics/help-topobld/persistent-chat-settings-expander.md
+            - name: 常設チャット サーバー作成スコープ ノード
+              href: ../help-topics/help-topobld/create-persistent-chat-servers-scope-node.md
+            - name: PSTN ゲートウェイ スコープ ノード
+              href: ../help-topics/help-topobld/pstn-gateway-scope-node.md
+            - name: PSTN ゲートウェイ設定の展開
+              href: ../help-topics/help-topobld/pstn-gateway-settings-expander.md
+            - name: PSTN ゲートウェイ スコープ ノード
+              href: ../help-topics/help-topobld/pstn-gateways-scope-node.md
+            - name: データベースの作成
+              href: ../help-topics/help-topobld/create-database.md
+            - name: トポロジの公開でのミラー データベースの作成ページ
+              href: ../help-topics/help-topobld/publish-topology-create-mirror-database-page.md
+            - name: トポロジの公開の次の手順
+              href: ../help-topics/help-topobld/publish-topology-next-step.md
+            - name: トポロジの公開でのプールのリセット ページ
+              href: ../help-topics/help-topobld/publish-topology-reset-pool-page.md
+            - name: トポロジの公開での CMS の選択ページ
+              href: ../help-topics/help-topobld/publish-topology-select-cms-page.md
+            - name: トポロジの公開
+              href: ../help-topics/help-topobld/publish-topology.md
+            - name: レジストラー SBA 設定エキスパンダー
+              href: ../help-topics/help-topobld/registrar-sba-settings-expander.md
+            - name: レジストラー設定エキスパンダー
+              href: ../help-topics/help-topobld/registrar-settings-expander.md
+            - name: Lync Server 2010 用のレジストラー設定の展開
+              href: ../help-topics/help-topobld/registrar-settings-expander-for-lync-server-for-2010.md
+            - name: 展開を削除する
+              href: ../help-topics/help-topobld/remove-deployment.md
+            - name: 展開の削除の概要
+              href: ../help-topics/help-topobld/remove-deployment-introduction.md
+            - name: 共有コンポーネント スコープ ノード
+              href: ../help-topics/help-topobld/shared-components-scope-node.md
+            - name: 簡易 URL 設定エキスパンダー
+              href: ../help-topics/help-topobld/simple-url-settings-expander.md
+            - name: Lync Server サイト設定エキスパンダー
+              href: ../help-topics/help-topobld/lync-server-site-settings-expander.md
+            - name: SQL インスタンス スコープ ノード
+              href: ../help-topics/help-topobld/sql-instance-scope-node.md
+            - name: SQL インスタンス スコープ ノード
+              href: ../help-topics/help-topobld/sql-instances-scope-node.md
+            - name: SQL ストア設定エキスパンダー
+              href: ../help-topics/help-topobld/sql-store-settings-expander.md
+            - name: トポロジ ビルダー起動ダイアログ
+              href: ../help-topics/help-topobld/topology-builder-startup-dialog.md
+            - name: トランク スコープ ノード
+              href: ../help-topics/help-topobld/trunk-scope-node.md
+            - name: トランク設定の展開
+              href: ../help-topics/help-topobld/trunk-settings-expander.md
+            - name: トランク スコープ ノード
+              href: ../help-topics/help-topobld/trunks-scope-node.md
+            - name: Web サービス設定エキスパンダー
+              href: ../help-topics/help-topobld/web-services-settings-expander.md
+            - name: Lync Server 2010 用のディレクターの関連付けを追加する
+              href: ../help-topics/help-topobld/add-director-association-for-lync-server-2010.md
+            - name: Lync Server 2010 用のディレクターと監視の関連付けページ
+              href: ../help-topics/help-topobld/associate-director-with-monitoring-page-for-lync-server-2010.md
+            - name: フロントエンドの Web サービスの追加 (2010)
+              href: ../help-topics/help-topobld/add-front-end-web-services-2010.md
+            - name: 常設チャットの次ホップの追加ページ
+              href: ../help-topics/help-topobld/add-persistent-chat-next-hop-page.md
+            - name: ビデオ ゲートウェイの FQDN の追加
+              href: ../help-topics/help-topobld/add-video-gateway-fqdn.md
+            - name: ビデオ ゲートウェイ IP の追加
+              href: ../help-topics/help-topobld/add-video-gateway-ip.md
+            - name: ビデオ ゲートウェイ トランクの追加
+              href: ../help-topics/help-topobld/add-video-gateway-trunk.md
+            - name: VIS の FQDN の追加
+              href: ../help-topics/help-topobld/add-vis-fqdn.md
+            - name: VIS コンピューターの追加
+              href: ../help-topics/help-topobld/add-vis-machine.md
+            - name: VIS の次ホップの追加
+              href: ../help-topics/help-topobld/add-vis-next-hop.md
+            - name: VIS 使用法の追加
+              href: ../help-topics/help-topobld/add-vis-usage.md
+            - name: VIS とエッジの関連付け
+              href: ../help-topics/help-topobld/associate-vis-with-edge.md
+            - name: Lync Server 2013 のスコープ ノード
+              href: ../help-topics/help-topobld/lync-server-2013-scope-node.md
+            - name: SIP ビデオ トランク スコープ ノード
+              href: ../help-topics/help-topobld/sip-video-trunk-scope-node.md
+            - name: SIP ビデオ トランク設定エキスパンダー
+              href: ../help-topics/help-topobld/sip-video-trunk-setting-expander.md
+            - name: SIP ビデオ トランク スコープ ノード
+              href: ../help-topics/help-topobld/sip-video-trunks-scope-node.md
+            - name: ビデオ ゲートウェイの全般設定
+              href: ../help-topics/help-topobld/video-gateway-general-settings.md
+            - name: ビデオ ゲートウェイ スコープ
+              href: ../help-topics/help-topobld/video-gateway-scope.md
+            - name: ビデオ ゲートウェイの設定
+              href: ../help-topics/help-topobld/video-gateway-setting.md
+            - name: ビデオ ゲートウェイ スコープ
+              href: ../help-topics/help-topobld/video-gateways-scope.md
+            - name: ビデオ相互運用サーバーの全般設定
+              href: ../help-topics/help-topobld/video-interop-server-general-settings.md
+            - name: ビデオ相互運用サーバーの次ホップ設定
+              href: ../help-topics/help-topobld/video-interop-server-next-hop-settings.md
+            - name: ビデオ相互運用サーバー ポート設定エキスパンダー
+              href: ../help-topics/help-topobld/video-interop-server-port-settings-expander.md
+            - name: ビデオ相互運用サーバー - ノードのスコープ設定
+              href: ../help-topics/help-topobld/video-interop-serverscope-the-node.md
+            - name: ビデオ相互運用サーバー - ノードのスコープ設定
+              href: ../help-topics/help-topobld/video-interop-serversscope-the-node.md
+            - name: 単一 FQDN ページを持つエッジ サーバーの追加
+              href: ../help-topics/help-topobld/add-edge-server-with-single-fqdn-page.md
+            - name: テスト - Skype for Business Server サイト スコープ ノード
+              href: ../help-topics/help-topobld/testskype-for-business-server-site-scope-node.md
+            - name: Skype for Business Server ルート スコープ ノード
+              href: ../help-topics/help-topobld/skype-for-business-server-root-scope-node.md
