@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell での最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a848f5ea1639e7cd4a8533f15b6005ff1ff10d
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 41aa6cdf05901756bb2bcd13dbb8b9ad2cedabf6
+ms.sourcegitcommit: a6c7a0cdbedf6cf32213d7636da52db71b4bac3d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852168"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "48937746"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell リリースノート
 
@@ -31,7 +31,7 @@ ms.locfileid: "48852168"
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
-| 2020年11月 | [1.1.7-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>MSAL for authentication & authorization</li><li>リファクタリングされたポリシーパッケージコマンドレットとグループパッケージの割り当てを追加する</li><li>非同期モデルを使用するためのリファクタリングされた階層化ターゲット階層のアップロードコマンド</li> |
+| 2020年11月 | [1.1.7-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>MSAL for authentication & authorization</li><li>リファクタリングされたポリシーパッケージコマンドレットとグループパッケージの割り当てを追加する</li><li>非同期モデルを使用するためのリファクタリングされた階層化ターゲット階層のアップロードコマンド</li> <li>-Credential パラメーターを使用していないユーザーには、最初の認証中に2回のメッセージが表示されます。 ユーザーは-credential パラメーターを使用して資格情報を渡し、重複したプロンプトを表示しないようにすることができます。 この動作は、次のリリースで修正されます。</li> |
 | 2020年9月 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype for Business Online のコネクタの統合</li> |
 | 2020年9月 | [1.1.5-プレビュー](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype for Business Online のコネクタの統合</li> |
 | 2020年7月 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>追加された [グループポリシーの割り当てコマンドレット](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
