@@ -1,0 +1,138 @@
+- name: Skype for Business and Teams 認定プログラム
+  href: ../certification/overview.md
+  items:
+    - name: 参加する方法
+      href: ../certification/how-to-join.md
+    - name: Skype と Lync のテストの仕様
+      href: ../certification/test-spec.md
+    - name: 電話とデバイス
+      items:
+        - name: Skype for Business IP 電話
+          href: ../certification/devices-ip-phones.md
+        - name: Teams IP 電話
+          href: /microsoftteams/teams-ip-phones
+        - name: USB オーディオ デバイスおよびビデオ デバイス
+          href: ../certification/devices-usb-devices.md
+        - name: PC
+          href: ../certification/devices-pcs.md
+        - name: 会議室のデバイスとソリューション
+          href: ../certification/devices-meeting-rooms.md
+    - name: インフラストラクチャ
+      items:
+        - name: ゲートウェイ
+          href: ../certification/infra-gateways.md
+        - name: IP PBXs
+          href: ../certification/infra-ip-pbxs.md
+        - name: 存続可能ブランチ アプライアンス
+          href: ../certification/infra-sba.md
+        - name: セッション ボーダー コントローラー
+          href: ../certification/infra-sbc.md
+        - name: リバース プロキシ
+          href: ../certification/infra-rev-proxy.md
+        - name: ロード バランサー
+          href: ../certification/infra-load-balancers.md
+    - name: ネットワーク
+      items:
+        - name: Wi-Fi for Skype for Business
+          href: ../certification/networking-wifi.md
+          items:
+            - name: Wi-fi の計画
+              href: ../certification/plan-wifi.md
+        - name: Skype for Business 用有線接続
+          href: ../certification/networking-wired.md
+        - name: Skype for Business 用 SDN
+          href: ../certification/networking-sdn.md
+    - name: サービス
+      items:
+        - name: SIP トランクサービス
+          href: ../certification/services-sip-trunking.md
+        - name: E-911 サービス プロバイダー
+          href: ../certification/services-e911.md
+        - name: 音声会議プロバイダー
+          href: ../certification/services-acps.md
+        - name: ユニファイド コミュニケーション証明書パートナー
+          href: ../certification/services-ssl.md
+    - name: IT Pro
+      href: ../certification/it-pro-tools.md
+      items:
+        - name: ネットワーク事前評価
+          href: ../certification/it-pro-tools-pre-assessment.md
+        - name: 移行
+          href: ../certification/it-pro-tools-migration.md
+        - name: ユーザーとポリシーのプロビジョニング
+          href: ../certification/it-pro-tools-user-policy.md
+        - name: 監視とトラブルシューティング
+          href: ../certification/it-pro-tools-monitor-troubleshoot.md
+        - name: Reporting
+          href: ../certification/it-pro-tools-reporting.md
+    - name: ビデオ
+      href: ../certification/video.md
+    - name: ISV
+      href: ../certification/isv-overview.md
+    - name: Lync パートナー認定
+      href: ../lync-cert/partner-qualification.md
+      items:
+        - name: アプリケーション
+          href: ../lync-cert/qualified-lync-apps.md
+          items:
+            - name: Lync ISV 認定プログラムへの参加
+              href: ../lync-cert/participation.md
+            - name: アテンダント コンソール アプリケーション
+              href: ../lync-cert/attendant-console-apps.md
+            - name: 請求および拡張レポート アプリケーション
+              href: ../lync-cert/billing-reporting-apps.md
+            - name: 連絡先センター アプリケーション
+              href: ../lync-cert/contact-center-apps.md
+            - name: Lync 拡張性アプリケーション
+              href: ../lync-cert/lync-extensibility-apps.md
+            - name: 常設チャット アプリケーション
+              href: ../lync-cert/persistent-chat-apps.md
+            - name: アプリケーションの記録
+              href: ../lync-cert/recording-apps.md
+            - name: ソフトウェアによって定義されたネットワーク アプリケーション
+              href: ../lync-cert/software-defined-network-apps.md
+            - name: 検証済み Lync アプリケーション
+              href: ../lync-cert/validated-lync-apps.md
+        - name: デバイス
+          items:
+            - name: Lync に対応するスマートフォンとデバイス
+              href: ../lync-cert/ip-phones.md
+            - name: USB オーディオ デバイスおよびビデオ デバイス
+              href: ../lync-cert/usb-and-video.md
+            - name: Lync Room システム
+              href: ../lync-cert/room-systems.md
+            - name: 会議室のデバイスとソリューション
+              href: ../lync-cert/meeting-room-devices.md
+            - name: PC
+              href: ../lync-cert/pcs-optimized-for-lync.md
+        - name: インフラストラクチャ
+          href: ../lync-cert/infrastructure-qualified-node.md
+          items:
+            - name: IP Pbx およびゲートウェイ
+              href: ../lync-cert/qualified-ip-pbx-gateway.md
+            - name: サポートされる IP PBX
+              href: ../lync-cert/supported-ip-pbxs.md
+            - name: 存続可能ブランチ アプライアンス
+              href: ../lync-cert/survivable-branch-appliances.md
+            - name: セッション ボーダー コントローラー
+              href: ../lync-cert/sbcs-lync-server.md
+            - name: ネットワーク
+              href: ../lync-cert/networking-lync-server-2010-2013.md
+            - name: ロード バランサー
+              href: ../lync-cert/hardware-load-balancers.md
+            - name: リバース プロキシ
+              href: ../lync-cert/reverse-proxies.md
+            - name: 仮想デスクトップ インフラストラクチャ
+              href: ../lync-cert/virtual-desktop-lync-server.md
+        - name: サービス
+          href: ../lync-cert/sip-trunking-services.md
+          items:
+            - name: E-911 サービス
+              href: ../lync-cert/e-911-service-providers.md
+            - name: Lync Online 専用
+              href: ../lync-cert/online-dedicated.md
+        - name: ビデオ
+          href: ../lync-cert/video-solutions-qualified.md
+          items:
+            - name: 会議室のデバイスとソリューション
+              href: ../lync-cert/meeting-room-devices.md
