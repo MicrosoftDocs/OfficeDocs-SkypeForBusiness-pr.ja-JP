@@ -1,5 +1,5 @@
 ---
-title: Microsoft Endpoint Configuration Manager を使用して Microsoft Teams ルームを展開する
+title: Microsoft Endpoint Configuration Manager を使用して Microsoft Teams Rooms を展開する
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -16,7 +16,7 @@ ms.custom:
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: Microsoft Endpoint Configuration Manager を使用して大規模な展開で Microsoft Teams のルームを展開する方法について説明します。
+description: Microsoft Endpoint Configuration Manager を使用した、大規模な Microsoft Teams Rooms の展開の方法について説明します。
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -36,195 +36,195 @@ no-loc:
 - Operations Management Suite
 ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
 ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43905319"
 ---
-# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams ルームを展開する
+# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams Rooms を展開する
 
-この記事では、Microsoft Teams のルーム展開を作成するために必要なすべての情報を Microsoft Endpoint Configuration Manager を使用して提供します。
+この記事では、Microsoft Endpoint Configuration Manager を使用して、Microsoft Teams Rooms の展開をするために必要なすべての情報を提供します。
 
-Configuration Manager によって提供される使いやすい方法では、オペレーティングシステムとその他のアプリケーションを複数のターゲットデバイスに展開できます。
+構成マネージャーが提供する簡単な方法では、複数のターゲット デバイスにオペレーティング システムとその他のアプリケーションを展開することができます。
 
-次の手順を使用して、構成マネージャーの構成について説明し、このガイダンス全体で組織に必要なサンプルパッケージとスクリプトをカスタマイズします。
+次に示すアプローチを使用して、構成マネージャーの構成を行い、組織のニーズに応じて、このガイド全体のサンプル パッケージとスクリプトをカスタマイズします。
 
-![Microsoft Teams 室展開プロセス (Configuration Manager を使用)](../media/room-systems-scale-image1.png)
+![構成マネージャーを使用した Microsoft Teams Rooms の展開プロセス](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
-> このソリューションは、Surface Pro ベースの展開でのみテストされています。 Surface Pro に基づかない構成については、製造元のガイドラインに従ってください。
+> この解決方法は、Surface Pro ベースの展開でのみテストされています。 Surface Pro をベースにしていない構成については、メーカーのガイドラインに従ってください。
 
 ## <a name="validate-prerequisites"></a>前提条件の検証
 
-Configuration Manager を使用して Microsoft Teams のルームを展開するには、次の前提条件と要件を満たしていることを確認します。
+Microsoft Teams Rooms を構成マネージャーで展開するにあたり、次の前提条件と要件を満たしていることをご確認ください。
 
 ### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Microsoft Endpoint Configuration Manager の要件
 
--   Microsoft Endpoint Configuration Manager バージョンは、少なくとも1706以上でなければなりません。 1710以降の使用をお勧めします。 Configuration manager でサポートされている Windows 10 のバージョンについては、「 [Configuration manager での windows 10 のサポート」](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)を参照してください。
+-   Microsoft Endpoint Configuration Manager のバージョンは、少なくとも 1706 以上である必要があります。 1710 以降を使用することをお勧めします。 [構成マネージャー内の Windows 10 のサポート](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)を確認し、構成マネージャーでサポートされている Windows 10 のバージョンを参照してください。
 
--   Windows 10 でサポートされているバージョンの Windows アセスメント & デプロイメントキット (ADK) がインストールされている必要があります。 さまざまなバージョンの Configuration Manager で使用できる[Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk)のバージョンを確認し、展開に適切なバージョンが含まれていることを確認します。
+-   Windows 10 用の Windows アセスメント & デプロイメント キット (ADK) のサポートされているバージョンがインストールされている必要があります。 異なるバージョンの構成マネージャーで使用できる [Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) のバージョンを参照して、展開に正しいバージョンが含まれていることを確認してください。
 
--   サイトシステムサーバーには、配布ポイントの役割が割り当てられている必要があります。また、ネットワークで開始された展開を有効にするために、ブートイメージを[プレブート実行環境 (PXE) のサポート](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network)に対して有効にする必要があります。 PXE のサポートが有効になっていない場合は、展開用に[起動可能なメディア](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)を使用できます。
+-   サイト システム サーバーには配布ポイントの役割が割り当てられている必要があります。また、ネットワークを利用した展開を有効にするには、ブート イメージの[プレブート実行環境 (PXE) のサポート](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network)を有効にする必要があります。 PXE のサポートが有効になっていない場合は、[起動可能なメディア](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)を展開に使用できます。
 
--   ネットワークアクセスアカウントは、新しいコンピューター (ベアメタル) の展開シナリオをサポートするように構成する必要があります。 ネットワークアクセスアカウントの構成の詳細については、「[構成マネージャーで使用されているアカウント](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)」を参照してください。
+-   新しいコンピューター (ベア メタル) の展開シナリオをサポートするには、ネットワーク アクセス アカウントを構成する必要があります。 ネットワーク アクセス アカウントの構成の詳細については、[「構成マネージャーで使用するアカウント」](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)を参照してください。
 
--   同じ Microsoft Teams のルームイメージを複数のユニットに同時に展開する可能性がある場合は、[マルチキャストサポート](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)を有効にすることをお勧めします。
+-   同じ Microsoft Teams Rooms のイメージを、複数のユニットに同時に展開した場合は、[マルチキャスト サポート](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)を有効にすることをお勧めします。
 
-### <a name="networking-requirements"></a>ネットワーク要件
+### <a name="networking-requirements"></a>ネットワークの要件
 
--   ネットワークには、Microsoft Teams のルームユニットが展開されるサブネットへの IP アドレスの自動配布用に構成された動的ホスト構成プロトコル (DHCP) サーバーが必要です。
-
-    > [!NOTE]
-    > DHCP リース期間は、イメージの展開期間よりも長い値に設定する必要があります。 そうしないと、展開が失敗する可能性があります。
-
--   スイッチや仮想 Lan (Vlan) などのネットワークは、PXE をサポートするように構成する必要があります。 IP ヘルパーと PXE 構成の詳細については、ネットワークベンダーにお問い合わせください。 または、PXE のサポートが有効になっていない場合は、展開用に[起動可能なメディア](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)を使用できます。
+-   使用しているネットワークには、Microsoft Teams Rooms ユニットが展開されるサブネットに対して、IP アドレスを自動的に配布するように構成された動的ホスト構成プロトコル (DHCP) サーバーが必要です。
 
     > [!NOTE]
-    > Surface Pro デバイスでは、ネットワークからの起動 (PXE ブート) は、Microsoft のイーサネットアダプターまたはドッキングステーションを使っている場合にのみサポートされます。 サードパーティのイーサネットアダプターは Surface Pro による PXE ブートをサポートしていません。 詳細については[、「イーサネットアダプターとサーフェスの展開](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment)」をご覧ください。
+    > DHCP リース期間は、イメージの展開期間よりも長い値を設定する必要があります。 それ以外の場合、展開に失敗する可能性があります。
 
-## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>オペレーティングシステムの展開用に Microsoft Endpoint Configuration Manager を構成する
+-   スイッチと仮想 LAN (VLAN) を含むネットワークは、PXE をサポートするように構成する必要があります。 IP Helper および PXE 構成の詳細については、ネットワーク ベンダーにお問い合わせください。 また、PXE サポートが有効になっていない場合は、[起動可能なメディア](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network)を使用することもできます。
 
-この記事では、構成マネージャーが正常に展開されていることを前提としており、構成マネージャーを最初から展開して構成するために必要なすべての手順については詳しく説明しません。 Microsoft Endpoint Configuration Manager の[ドキュメントと構成ガイダンス](https://docs.microsoft.com/configmgr/)は、優れたリソースです。まだ構成マネージャーを展開していない場合は、これらのリソースから始めることをお勧めします。
+    > [!NOTE]
+    > Surface Pro デバイスの場合、ネットワークからの起動 (PXE ブート) は、Microsoft の Ethernet アダプター、またはドッキング ステーションを使用している場合にのみサポートされます。 サードパーティ製のイーサネット アダプターは Surface Pro による PXE ブートをサポートしていません。 詳細については、[「イーサネット アダプターと Surface の展開」](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment)を参照してください。
 
-オペレーティングシステムの展開 (OSD) 機能が正しく構成されていることを確認するには、次の手順を使用します。
+## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>オペレーティング システムの展開用に Microsoft Endpoint Configuration Manager を構成する
+
+この記事では、構成マネージャーが正常に展開されていることを前提としているため、構成マネージャーを一から展開して構成するために必要なすべての手順については説明していません。 Microsoft Endpoint Configuration Manager の [ドキュメントと構成のガイダンス](https://docs.microsoft.com/configmgr/)は、優れたリソースです。構成マネージャーをまだ展開していない場合は、これらのリソースから始めることをお勧めします。
+
+オペレーティング システムの展開 (OSD) 機能が正しく構成されていることを確認するには、次の手順を実行します。
 
 ### <a name="validate-and-upgrade-configuration-manager"></a>構成マネージャーの検証とアップグレード
 
-1.  Configuration Manager コンソールで、[**管理** \> **更新とサービス**] に移動します。
+1.  構成マネージャー コンソールで、[ **管理** ] \> [ **更新とサービス** ]に移動します。
 
-2.  インストールされているビルドと、まだインストールされていない更新プログラムを確認します。
+2.  インストールされているビルドおよびインストールされていない更新プログラムを確認します。
 
-3.  [構成マネージャーでの Windows 10 のサポートを](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)確認する展開をアップグレードする必要がある場合は、インストールする更新プログラムを選び、[**ダウンロード**] を選びます。
+3.  [構成マネージャーでの Windows 10 のサポート](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client)を確認します。展開をアップグレードする必要がある場合は、インストールする更新プログラムを選択し、[ **ダウンロード** ] を選択します。
 
-4.  ダウンロードが完了したら、更新プログラムを選択して、[**更新プログラムパックのインストール**] を選択します。
+4.  ダウンロードが完了したら、更新プログラムを選択し、[ **更新プログラム パックをインストール** ] を選択します。
 
 ### <a name="configure-distribution-points-to-support-pxe-and-multicast"></a>PXE とマルチキャストをサポートするように配布ポイントを構成する
 
-1.  Configuration Manager コンソールで、[**管理** \> ]**配布ポイント**に移動します。
+1.  構成マネージャー コンソールで、[ **管理** ] \> [ **配布ポイント** ] に移動します。
 
-2.  Microsoft Teams ルームの展開を実行する配布ポイントサーバーを選択し、[**プロパティ**] を選択します。
+2.  Microsoft Teams Rooms の展開に使用する配布ポイント サーバーを選択し、[ **プロパティ** ] を選択します。
 
 3.  [ **PXE** ] タブを選択し、次の設定が有効になっていることを確認します。
-    -   クライアントに対して PXE のサポートを有効にする
-    -   この配布ポイントから受信 PXE 要求への応答を許可する
+    -   クライアントの PXE サポートの有効化
+    -   この配布ポイントに受信 PXE 要求に応答することを許可する
     -   不明なコンピューターのサポートを有効にする
 
-4.  *オプション:* マルチキャストのサポートを有効にするには、[**マルチキャスト**] タブを選択し、次の設定が有効になっていることを確認します。
-    -   マルチキャストで複数のクライアントにデータを同時に送信できるようにする
-    -   ネットワークチームの推奨事項に従って UDP ポート範囲を構成する
+4.  *省略可能:* マルチキャストのサポートを有効にするには、[ **マルチキャスト** ] タブを選択し、次の設定が有効になっていることを確認します。
+    -   マルチキャストで、複数のクライアントに同時にデータを送信できるようにする
+    -   ネットワーク チームの推奨事項に応じて、UDP ポートの範囲を構成します。
 
-### <a name="configure-the-network-access-account"></a>ネットワークアクセスアカウントを構成する
+### <a name="configure-the-network-access-account"></a>ネットワーク アクセス アカウントを構成する
 
-1.  Configuration Manager コンソールで、[**管理** \> **サイトの構成** \> **サイト**] に移動し、サイトを選びます。
+1.  構成マネージャー コンソールで、[ **管理** ] \> [ **サイト構成** ] \> [ **サイト** ] に移動して、サイトを選びます。
 
-2.  [**設定**] グループで、[**サイトコンポーネント** \> **ソフトウェア配布**の構成] を選びます。
+2.  [ **設定** ] グループで、[ **サイト コンポーネントの構成** ] \> [ **ソフトウェア配布** ]を選択します。
 
-3.  [**ネットワークアクセスアカウント**] タブを選びます。1つまたは複数のアカウントをセットアップし、[ **OK]** を選択します。
-
-> [!NOTE]
-> アカウントには特別な権限は必要ありません。ただし、配布ポイントサーバーの [**ネットワーク経由でコンピューターにアクセス**する] 権限は使用できません。 一般的なドメインユーザーアカウントが適切です。 詳細については、「[構成マネージャーで使用されているアカウント](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)」を参照してください。
-
-### <a name="configure-a-boot-image"></a>ブートイメージを構成する
-
-1.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **オペレーティングシステム** \> **ブートイメージ**] に移動します。
-
-2.  [**ブートイメージ (x64)**] を選択し、[**プロパティ**] を選択します。
-
-3.  [**データソース**] タブを選択し、[ **PXE 対応の配布ポイントからこのブートイメージを展開**する] を有効にします。
-
-4.  [**オプションコンポーネント**] タブを選択して、必要なコンポーネントをインストールします。
-
-    1.  星アイコンを選択し、HTML を検索する **(WinPE-HTA)**
-
-    2.  [ **OK]** を選択して、HTML アプリケーションのサポートをブートイメージに追加します。
-
-5.  *オプション:* 展開エクスペリエンスをカスタマイズするには、[**カスタマイズ**] タブを選択します。
-    -   展開時にコマンドプロンプトにアクセスする必要がある場合は、**コマンドのサポート (テスト専用)** を有効にします。 この機能が有効になっている場合は、展開中に**F8**を選択してコマンドプロンプトを開始できます。
-    -   また、展開中に表示されるカスタムの背景画像を指定することもできます。 画像を設定するには、**カスタムの背景画像ファイル (UNC パスを指定**し、背景を選択します) を有効にします。
-
-6.  メッセージが表示されたら、[**はい**] を選択し、更新されたブートイメージを配布ポイントに配布します。
-
-詳細については、「[構成マネージャーでブートイメージを管理](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images)する」を参照してください。
+3.  [ **ネットワーク アクセス アカウント** ] タブを選択します。1 つまたは複数のアカウントを設定し、[ **OK** ] を選択します。
 
 > [!NOTE]
-> ブート可能な USB メディアを作成して、PXE をサポートしていない環境の構成マネージャーのタスクシーケンスベースの展開を開始することができます。 起動可能なメディアには、ブートイメージ、オプションの起動コマンドと必要なファイル、および構成マネージャーのバイナリが含まれます。これには、Windows PE の起動と、展開プロセスの残りの部分に対して Configuration Manager への接続がサポートされます。 詳細については、「[起動可能なメディアを作成する](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)」を参照してください。
+> アカウントには特別な権限は必要ありません。ただし、配布ポイント サーバー上の [ **ネットワークからこのコンピューターにアクセスする権限** ] を除きます。 汎用ドメイン ユーザー アカウントが適しています。 詳細については、[「構成マネージャーで使用されているアカウント」](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)を参照してください。
 
-## <a name="create-configuration-manager-packages"></a>Configuration Manager パッケージを作成する
+### <a name="configure-a-boot-image"></a>ブート イメージを構成する
+
+1.  構成マネージャー コンソールで、[ **ソフトウェアライブラリ** ] \> [ **オペレーティングシステム** ] \> [ **ブートイメージ** ] に移動します。
+
+2.  **ブート イメージ (x64)** を選択し、[ **プロパティ** ] を選択します。
+
+3.  [ **データ ソース** ] タブを選択し、[ **PXE 対応の配布ポイントからこのブート イメージを展開する** ] を有効にします。
+
+4.  必要なコンポーネントをインストールするには、[ **オプションコンポーネント** ] タブを選択します。
+
+    1.  星型のアイコンを選び、 **HTML (WinPE) を検索します**
+
+    2.  [ **OK** ] を選択して、HTML アプリケーション サポートをブート イメージに追加します。
+
+5.  *省略可能:* 展開エクスペリエンスをカスタマイズするには、[ **カスタマイズ** ] タブを選択します。
+    -   展開中にコマンド プロンプトにアクセスできるようにするには、[ **コマンドのサポート (テストのみ)** ] を有効にします。 この設定を有効にすると、展開中にいつでも [ **F8** ] を選択して、コマンド プロンプトを起動できます。
+    -   展開中に表示されるカスタム背景画像を指定することもできます。 画像を設定するには、[ **カスタム背景画像ファイル （UNCパス) の指定** ] を有効にして、背景を選択します。
+
+6.  メッセージが表示されたら、[ **はい** ] を選択し、更新されたブート イメージを配布ポイントに配布します。
+
+詳細については、[「構成マネージャーを使用してブートイメージを管理する」](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images)を参照してください。
+
+> [!NOTE]
+> PXE がサポートされていない環境向けに、構成マネージャーのタスク シーケンス ベースの展開を開始するために、起動可能な USB メディアを作成できます。 ブート可能なメディアには、ブート イメージ、オプションの実行可能コマンド、必須ファイル、および Windows PE へのブートとデプロイメントプロセスの残りの部分の構成マネージャーへの接続をサポートする、構成マネージャー バイナリのみが含まれています。 詳細については、「[ブート可能なメディアの作成](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)」を参照してください。
+
+## <a name="create-configuration-manager-packages"></a>構成マネージャー パッケージを作成する
 
 > [!IMPORTANT]
-> 各 SRS インストーラーバージョンに必要なオペレーティングシステムのバージョンが、MSI のすべてのリリースで変更されています。 特定の MSI で最適なオペレーティングシステムバージョンを判断するには、コンソールセットアップスクリプトを1回実行します。 詳細については、「 [Microsoft Endpoint Configuration Manager を使用して Microsoft Teams ルームを展開](rooms-scale.md)する」を参照してください。
+> 各 SRS インストーラー バージョンに要求されるオペレーティング システムのバージョンは、MSI リリースごとに変わります。 特定の MSI に最適なオペレーティング システム バージョンを決定するには、コンソール セットアップ スクリプトを一度実行します。 詳細については、「[Microsoft Endpoint Configuration Manager を使用して Microsoft Teams Rooms を展開する](rooms-scale.md)」 を参照してください。
 
-Configuration Manager では、Microsoft Teams のルームユニットを展開して構成するために、多数のパッケージが必要です。
+構成マネージャーでは、Microsoft Teams Rooms ユニットの展開と構成を行うため、いくつかのパッケージが必要になります。
 
-次のパッケージを作成して構成し、配布ポイントサーバーの役割が割り当てられている Configuration Manager サイトシステムに配布する必要があります。
+次のパッケージを作成して構成し、配布ポイント サーバーの役割が割り当てられた 構成マネージャー サイト システムに配布する必要があります。
 
-| **パッケージ名**                     | **種類**               | **説明**                                                                           |
+| **パッケージ名**                     | **Type**               | **説明**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
-| SRS v2-SRS アプリケーションパッケージ     | ソフトウェアパッケージ       | Microsoft Teams 室展開キット用パッケージ                                      |
-| SRS v2-Sysprep パッケージ             | ソフトウェアパッケージ       | Microsoft Teams のルームユニットを構成するためのカスタムの unattend.xml パッケージ            |
-| SRS v2-セットアップ-SRSComputerName パッケージ | ソフトウェアパッケージ       | 展開時にコンピューター名を割り当てる HTML アプリケーション (HTA) のパッケージ    |
-| SRS v2-SRS の設定を構成する         | ソフトウェアパッケージ       | Microsoft Teams の会議アプリの展開を構成するパッケージ                          |
-| SRS v2-OS 更新プログラムパッケージ          | ソフトウェアパッケージ       | 必須のオペレーティングシステム更新プログラムを展開するパッケージ                                      |
-| SRS v2-ルート証明書パッケージ    | ソフトウェアパッケージ       | オプション-ルート証明書を展開するパッケージ (ドメインに参加しているユニットには必要ありません)  |
-| SRS v2-Microsoft Monitoring Agent パッケージ | ソフトウェアパッケージ       | オプション-Microsoft Operations Management Suite エージェントの展開と構成を行うパッケージ|
-| SRS v2-WinPE バックグラウンドパッケージ    | ソフトウェアパッケージ       | ブートイメージと共に使用するカスタムの背景イメージのパッケージ                           |
-| Windows 10 Enterprise                | オペレーティングシステムのイメージ | オペレーティングシステムインストールファイル (.wim) のパッケージ                          |
-| Surface Pro                          | ドライバーパッケージ         | Microsoft Surface Pro のデバイスドライバーとファームウェアのパッケージ                     |
-| Surface Pro 4                        | ドライバーパッケージ         | Microsoft Surface Pro 4 のデバイスドライバーとファームウェアのパッケージ                   |
+| SRS v2-SRS アプリケーション パッケージ     | ソフトウェアパッケージ       | Microsoft Teams Rooms 展開キット用のパッケージ                                      |
+| SRS v2-Sysprep パッケージ             | ソフトウェア パッケージ       | Microsoft Teams Rooms ユニットを構成するための、カスタム Unattended.xml 用のパッケージ            |
+| SRS v2 - Set-SRSComputerName パッケージ | ソフトウェア パッケージ       | 展開中にコンピューター名を割り当てる HTML アプリケーション (HTA) 用のパッケージ    |
+| SRS v2 - SRS のセットアップを構成する         | ソフトウェア パッケージ       | Microsoft Teams Rooms アプリの展開を構成するためのパッケージ                          |
+| SRS v2 - OS アップデート パッケージ          | ソフトウェア パッケージ       | 必須のオペレーティング システム更新プログラムを展開するためのパッケージ                                      |
+| SRS v2 - ルート証明書パッケージ    | ソフトウェア パッケージ       | 省略可能 -ルート証明書を展開するためのパッケージ (ドメインに参加しているユニットには必要ありません)  |
+| SRS v2 - Microsoft Monitoring Agent パッケージ | ソフトウェア パッケージ       | 省略可能 - Microsoft Operations Management Suite エージェントを展開および構成するためのパッケージ|
+| SRS v2 - WinPE 背景パッケージ    | ソフトウェア パッケージ       | カスタム背景画像を使用して、ブート イメージに使用するためのパッケージ                           |
+| Windows 10 Enterprise                | オペレーティング システム イメージ | オペレーティング システムのインストール ファイル用のパッケージ (install.wim)                          |
+| Surface Pro                          | ドライバー パッケージ         | Microsoft Surface Pro のデバイス ドライバーおよびファームウェア用のパッケージ                     |
+| Surface Pro 4                        | ドライバー パッケージ         | Microsoft Surface Pro 4 のデバイス ドライバーおよびファームウェア用のパッケージ                   |
 
-詳細については、「[構成マネージャーでのパッケージとプログラム](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)」を参照してください。
+詳細については、「[構成マネージャー内のパッケージとプログラム](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)」 を参照してください。
 
-### <a name="create-folders-for-the-package-source-files"></a>パッケージソースファイルのフォルダーを作成する
+### <a name="create-folders-for-the-package-source-files"></a>パッケージ ソース ファイル用のフォルダーを作成する
 
-Configuration Manager では、最初に作成され、更新されるときに、パッケージソースファイルを特定のフォルダー構造で整理する必要があります。
+構成マネージャーでは、最初に作成されたとき、および更新されたときに、パッケージのソース ファイルを特定のフォルダー構造に整理する必要があります。
 
-Microsoft Endpoint Configuration Manager サーバーの全体管理サイトまたはプライマリサイト、またはパッケージソースファイルのホストに使用しているサーバー共有で、次のフォルダー構造を作成します。
+Microsoft Endpoint Configuration Manager のサーバーの全体管理サイトまたはプライマリ サイト、あるいはパッケージ ソース ファイルのホストに使用しているサーバー共有上で、次のフォルダー構造を作成します。
 
--   SRS v2-Microsoft Monitoring Agent パッケージ
--   SRS v2-OS 更新プログラムパッケージ
--   SRS v2-ルート証明書パッケージ
--   SRS v2-セットアップ-SRSComputerName パッケージ
--   SRS v2-SRS アプリケーションパッケージ
--   SRS v2-SRS の設定を構成する
+-   SRS v2 - Microsoft Monitoring Agent パッケージ
+-   SRS v2 - OS アップデート パッケージ
+-   SRS v2 - ルート証明書パッケージ
+-   SRS v2 - Set-SRSComputerName パッケージ
+-   SRS v2-SRS アプリケーション パッケージ
+-   SRS v2 - SRS のセットアップを構成する
 -   SRS v2-Sysprep パッケージ
--   デバイス
+-   ドライバー
     -   Surface Pro
     -   Surface Pro 4
--   オペレーティングシステム
+-   オペレーティング システム
     -   Windows 10 Enterprise
 
 > [!TIP]
-> また、インポートする必要があるパッケージ、使用する必要があるスクリプト、およびタスクシーケンステンプレートのフォルダー構造を含む zip ファイルを[ダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)して使用することもできます。
+> パッケージのフォルダー構造、使用する必要のあるスクリプト、インポートする必要のあるタスク シーケンス テンプレートを含む zip ファイルを、[ダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)して使用することもできます。
 
-### <a name="create-the-monitoring-agent-package"></a>監視エージェントパッケージを作成する
+### <a name="create-the-monitoring-agent-package"></a>監視エージェント パッケージを作成する
 
-1. から<https://go.microsoft.com/fwlink/?LinkId=828603>監視エージェントをダウンロードします。
+1. <https://go.microsoft.com/fwlink/?LinkId=828603> から監視エージェントをダウンロードします。
 
-2. コマンドプロンプトウィンドウを開いて、コマンドプロンプトに**MMASetup-AMD64/c**を入力して、 **SRS V2-Microsoft Monitoring Agent パッケージ**フォルダーにパッケージを抽出します。
+2. コマンド プロンプト ウィンドウを開き、コマンド プロンプトで **MMASetup-AMD64.exe /C:** と入力し、パッケージを **SRS v2 - Microsoft Monitoring Agent パッケージ** フォルダーに展開します。
 
-3. Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **アプリケーション管理** \> **パッケージ**] に移動し、[**パッケージの作成**] を選択します。
+3. 構成マネージャー コンソールから、[ **ソフトウェアライブラリ** ] \> [ **アプリケーションの管理** ] \> [ **パッケージ** ] に移動し、[ **パッケージの作成** ] を選びます。
 
 4. パッケージを作成するには、次の情報を入力します。
 
-   - 名前<strong>: SRS v2-Microsoft Monitoring Agent パッケージ</strong>
+   - 名前<strong>: SRS v2 - Microsoft Monitoring Agent パッケージ</strong>
 
    - 製造元<strong>: Microsoft Corporation</strong>
 
-   - バージョン<strong>: 8.1.11081.0</strong> (ダウンロードしたインストールファイルのバージョンを入力します)
+   - バージョン<strong>: 8.1.11081.0</strong> (ダウンロードしたインストール ファイルのバージョンを入力してください)
 
-   - [**このパッケージはソースファイルを含む**] チェックボックスをオンにして、 **SRS V2-Microsoft Monitoring Agent パッケージ**フォルダーへのパスを入力し、[**次へ**] を選択します。
+   - [ **このパッケージには、ソース ファイルが含まれています** ] のチェック ボックスを選択し、 **SRS v2 - Microsoft Monitoring Agent パッケージ** フォルダーのパスを入力し、[ **次へ** ] を選択します。
 
-5. [**プログラムを作成しない**] を選び、[**次へ**] を選びます。
+5. [ **プログラムを作成しない** ] を選択し、[ **次へ** ] を選択します。
 
-6. [**設定の確認**] ページを確認して、[**次へ**] を選びます。
+6. [ **設定の確認** ] を確認して、[ **次へ** ] を選択します。
 
-7. [**閉じる**] を選びます。
+7. **[閉じる]** を選択します。
 
-### <a name="create-the-operating-system-updates-package"></a>オペレーティングシステムの更新パッケージを作成する
+### <a name="create-the-operating-system-updates-package"></a>オペレーティング システムの更新プログラム パッケージを作成する
 
-1. **SRS v2-OS 更新パッケージ**フォルダーで、 **Install-SRSv2-OS-Updates**という名前の新しい PowerShell スクリプトを作成します。
+1. [ **SRS v2 - OS 更新プログラムパッケージ** ] フォルダーで、 **Install-SRSv2-OS-Updates.ps1** という名前の新しい PowerShell スクリプトを作成します。
 
-2. 次のスクリプトを**Install-SRSv2-OS-Updates**スクリプトにコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)から Install-SRSv2-OS-Updates スクリプトをダウンロードすることもできます。
+2. 次のスクリプトを **Install-SRSv2-OS-Updates.ps1** スクリプトにコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)から Install-SRSv2-OS-Updates.ps1 スクリプトをダウンロードすることもできます。
    ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
@@ -238,70 +238,70 @@ Microsoft Endpoint Configuration Manager サーバーの全体管理サイトま
      Wait-Process -name wusa
    }
    ```
-3. 同じフォルダーに、必須の Windows 更新プログラムパッケージをダウンロードします。
+3. 必須の Windows Update パッケージを、同じフォルダーにダウンロードします。
    > [!NOTE]
-   > この記事が公開された時点では、 [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu)のみが必要でした。 他の更新プログラムが必要かどうかを確認するには、 [Microsoft Teams のルームコンソールの構成](console.md)を確認します。
+   > この記事が公開された時点では、 [の KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) のみが必要でした。 [[Microsoft Teams Rooms コンソールを構成する](console.md)] を確認し、他の更新プログラムが必要かどうかを確認します。
 
-4. Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **アプリケーション管理** \> **パッケージ**] に移動し、[**パッケージの作成**] を選択します。
+4. 構成マネージャー コンソールから、[ **ソフトウェアライブラリ** ] \> [ **アプリケーションの管理** ] \> [ **パッケージ** ] に移動し、[ **パッケージの作成** ] を選びます。
 
 5. パッケージを作成するには、次の情報を入力します。
    -   名前: **SRS v2 – OS 更新プログラムパッケージ**
    -   製造元: **Microsoft Corporation**
    -   バージョン: **1.0.0**
-   -   [**このパッケージはソースファイルを含む**] チェックボックスをオンにして、 **SRS V2-OS 更新パッケージ**フォルダーへのパスを入力し、[**次へ**] を選択します。
+   -   [ **このパッケージには、ソース ファイルが含まれています** ] のチェック ボックスを選択し、 **SRS v2 - OS 更新プログラム パッケージ** フォルダーのパスを入力し、[ **次へ** ] を選択します。
 
-6. [**プログラムを作成しない**] を選び、[**次へ**] を選びます。
+6. [ **プログラムを作成しない** ] を選択し、[ **次へ** ] を選択します。
 
-7. [**設定の確認**] ページを確認して、[**次へ**] を選びます。
+7. [ **設定の確認** ] を確認して、[ **次へ** ] を選択します。
 
-8. [**閉じる**] を選びます。
+8. **[閉じる]** を選択します。
 
 ### <a name="create-the-root-certificate-package-optional"></a>ルート証明書パッケージを作成する (省略可能)
 
-このパッケージを作成して、Active Directory ドメインに参加しないデバイスのルート証明書を配布します。 このパッケージを作成するのは、次の両方の条件が当てはまる場合のみです。
--   展開には、オンプレミスの Lync または Skype for Business Server が含まれます。
--   Microsoft Teams のルームユニットは、ドメインメンバーではなくワークグループで機能するように構成されています。
+このパッケージを作成して、Active Directory ドメインに参加しないデバイスのルート証明書を配布します。 次の両方の条件が該当する場合にのみ、このパッケージを作成します。
+-   展開には、オンプレミスの Lync または Skype for Business サーバーが含まれます。
+-   Microsoft Teams Rooms ユニットは、ドメイン メンバーの代わりにワーク グループで動作するように構成されています。
 
-1.  ルート証明書を**SRS v2 –ルート証明書パッケージ**フォルダーにコピーします。
+1.  ルート証明書を **SRS v2 –ルート証明書パッケージ** フォルダーにコピーします。
 
-2.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **アプリケーション管理** \> **パッケージ**] に移動し、[**パッケージの作成**] を選択します。
+2.  構成マネージャー コンソールから、[ **ソフトウェアライブラリ** ] \> [ **アプリケーションの管理** ] \> [ **パッケージ** ] に移動し、[ **パッケージの作成** ] を選びます。
 
 3.  パッケージを作成するには、次の情報を入力します。
     -   名前: **SRS v2 –ルート証明書パッケージ**
-    -   製造元:*組織の名前*
+    -   製造元: *組織の名前*
     -   バージョン: **1.0.0**
-    -   [**このパッケージはソースファイルを含む**] チェックボックスをオンにして、 **SRS V2 –ルート証明書パッケージ**フォルダーへのパスを入力し、[**次へ**] を選択します。
+    -   [ **このパッケージには、ソース ファイルが含まれています** ] のチェック ボックスを選択し、 **SRS v2 - ルート証明書パッケージ** フォルダーのパスを入力し、[ **次へ** ] を選択します。
 
-4.  [**プログラムを作成しない**] を選び、[**次へ**] を選びます。
+4.  [ **プログラムを作成しない** ] を選択し、[ **次へ** ] を選択します。
 
-5.  [**設定の確認**] ページを確認して、[**次へ**] を選びます。
+5.  [ **設定の確認** ] を確認して、[ **次へ** ] を選択します。
 
-6.  [**閉じる**] を選びます。
+6.  **[閉じる]** を選択します。
 
-### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Microsoft Teams のルーム展開キットパッケージを作成する
+### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Microsoft Teams Rooms 展開キット パッケージの作成
 
-1.  から<https://go.microsoft.com/fwlink/?linkid=851168>最新バージョンの**Microsoft Teams ルーム展開キット**をダウンロードして、ワークステーションにインストールします。
+1.  <https://go.microsoft.com/fwlink/?linkid=851168>から最新バージョンの **Microsoft Teams Rooms 展開キット** をダウンロードし、ワークステーションにインストールします。
 
-2.  **C:\\Program Files (x86)\\Skype Room System Deployment Kit**から、 **srs v2-srs アプリケーションパッケージ**フォルダーにコンテンツをコピーします。
+2.  **C:\\Program Files (x86)\\ Skype ミーティング システム展開キット** の内容を、 **SRS v2 - SRS アプリケーション パッケージ** フォルダにコピーします。
 
-3.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **アプリケーション管理** \> **パッケージ**] に移動し、[**パッケージの作成**] を選択します。
+3.  構成マネージャー コンソールから、[ **ソフトウェアライブラリ** ] \> [ **アプリケーションの管理** ] \> [ **パッケージ** ] に移動し、[ **パッケージの作成** ] を選びます。
 
 4.  パッケージを作成するには、次の情報を入力します。
-    -   名前: **srs v2 – Srs アプリケーションパッケージ**
+    -   名前: **SRS v2 – SRS アプリケーション パッケージ**
     -   製造元: **Microsoft Corporation**
-    -   バージョン: **3.1.104.0** (ダウンロードしたインストールファイルのバージョンを入力します)
-    -   [**このパッケージはソースファイルを含む**] チェックボックスをオンにして、 **SRS V2 – srs アプリケーションパッケージ**フォルダーへのパスを入力し、[**次へ**] を選択します。
-5.  [**プログラムを作成しない**] を選び、[**次へ**] を選びます。
+    -   バージョン: **3.1.104.0** (ダウンロードしたインストールファイルのバージョンを入力してください)
+    -   [ **このパッケージには、ソース ファイルが含まれています** ] のチェック ボックスを選択し、 **SRS v2 - SRS アプリケーション パッケージ** フォルダーのパスを入力し、[ **次へ** ] を選択します。
+5.  [ **プログラムを作成しない** ] を選択し、[ **次へ** ] を選択します。
 
-6.  [**設定の確認**] ページを確認して、[**次へ**] を選びます。
+6.  [ **設定の確認** ] を確認して、[ **次へ** ] を選択します。
 
-7.  [**閉じる**] を選びます。
+7.  **[閉じる]** を選択します。
 
-### <a name="create-the-computer-name-assignment-package"></a>コンピューター名割り当てパッケージを作成する
+### <a name="create-the-computer-name-assignment-package"></a>コンピューター名の割り当てパッケージを作成する
 
-1.  [ **SRS v2-セットアップ-SRSComputerName パッケージ**] フォルダーで、 **Set-SRSComputerName**という名前の新しい HTML アプリケーションを作成します。
+1.  **SRS v2 - Set-SRSComputerName パッケージ** フォルダーで **Set-SRSComputerName.hta** という名前の新しい HTML アプリケーションを作成します。
 
-2.  次のスクリプトを**Set-SRSComputerName**ファイルにコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)から Set-SRSComputerName ファイルをダウンロードすることもできます。
+2.  **Set-SRSComputerName.hta** ファイルに次のスクリプトをコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)から Set-SRSComputerName.hta ファイルをダウンロードすることもできます。
     ```HTML
     <!DOCTYPE HTML>
     <html>
@@ -389,29 +389,29 @@ Microsoft Endpoint Configuration Manager サーバーの全体管理サイトま
     </html>
 
     ```
-3.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **アプリケーション管理** \> **パッケージ**] に移動し、[**パッケージの作成**] を選択します。
+3.  構成マネージャー コンソールから、[ **ソフトウェアライブラリ** ] \> [ **アプリケーションの管理** ] \> [ **パッケージ** ] に移動し、[ **パッケージの作成** ] を選びます。
 
 4.  パッケージを作成するには、次の情報を入力します。
 
-    -   名前: **SRS v2-セットアップ-SRSComputerName パッケージ**
+    -   名前: **SRS v2 - Set-SRSComputerName パッケージ**
 
     -   製造元: **Microsoft Corporation**
 
     -   バージョン: **1.0.0**
 
-    -   [**このパッケージはソースファイルを含む**] チェックボックスをオンにして、 **SRS v2-セットアップ-Srscomputername パッケージ**フォルダーへのパスを入力し、[**次へ**] を選択します。
+    -   [ **このパッケージには、ソース ファイルが含まれています** ] のチェック ボックスを選択し、 **SRS v2 - Set-SRSComputerName パッケージ** フォルダーのパスを入力し、[ **次へ** ] を選択します。
 
-5.  [**プログラムを作成しない**] を選び、[**次へ**] を選びます。
+5.  [ **プログラムを作成しない** ] を選択し、[ **次へ** ] を選択します。
 
-6.  [**設定の確認**] ページを確認して、[**次へ**] を選びます。
+6.  [ **設定の確認** ] を確認して、[ **次へ** ] を選択します。
 
-7.  [**閉じる**] を選びます。
+7.  **[閉じる]** を選択します。
 
 ### <a name="create-the-sysprep-package"></a>Sysprep パッケージを作成する
 
-1. [ **SRS v2 – Sysprep パッケージ]** フォルダーで、 **unattend.xml**という名前の新しい xml ファイルを作成します。
+1. **SRS v2 – Sysprep パッケージ** フォルダーで、 **Unattend.xml** という名前の新しい XML ファイルを作成します。
 
-2. 次のテキストを**unattend.xml**ファイルにコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)から unattend.xml ファイルをダウンロードすることもできます。
+2. **Unattend.xml** ファイルに次のテキストをコピーします。 または、[ここ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)から Unattend.xml ファイルをダウンロードすることもできます。
    ```XML
    <?xml version="1.0" encoding="utf-8"?>
    <unattend xmlns="urn:schemas-microsoft-com:unattend">
@@ -463,317 +463,317 @@ Microsoft Endpoint Configuration Manager サーバーの全体管理サイトま
    <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
    </unattend>
    ```
-3. Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **アプリケーション管理** \> **パッケージ**] に移動し、[**パッケージの作成**] を選択します。
+3. 構成マネージャー コンソールから、[ **ソフトウェアライブラリ** ] \> [ **アプリケーションの管理** ] \> [ **パッケージ** ] に移動し、[ **パッケージの作成** ] を選びます。
 
 4. パッケージを作成するには、次の情報を入力します。
    -   名前: **SRS v2-Sysprep パッケージ**
    -   製造元: **Microsoft Corporation**
    -   バージョン: **1.0.0**
-   -   [**このパッケージはソースファイルを含む**] チェックボックスをオンにし、[ **SRS V2 – Sysprep パッケージ**] フォルダーへのパスを入力して、[**次へ**] を選択します。
-5. [**プログラムを作成しない**] を選び、[**次へ**] を選びます。
+   -   [ **このパッケージには、ソース ファイルが含まれています** ] のチェック ボックスを選択し、 **SRS v2 - Sysprep パッケージ** フォルダーのパスを入力し、[ **次へ** ] を選択します。
+5. [ **プログラムを作成しない** ] を選択し、[ **次へ** ] を選択します。
 
-6. [**設定の確認**] ページを確認して、[**次へ**] を選びます。
+6. [ **設定の確認** ] を確認して、[ **次へ** ] を選択します。
 
-7. [**閉じる**] を選びます。
+7. **[閉じる]** を選択します。
 
 ### <a name="create-the-windows-10-enterprise-package"></a>Windows 10 Enterprise パッケージを作成する
 
-1.  Windows 10 Enterprise x64 メディアを取得し、**インストール .wim**ファイルを**オペレーティングシステム\\の Windows 10 enterprise**フォルダーにコピーします。
+1.  Windows 10 Enterprise x64 メディアを取得して、 **install.wim** ファイルを **オペレーティング システム \\Windows 10 Enterprise** フォルダーにコピーします。
 
-2.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **オペレーティング** \>システムの**オペレーティングシステムイメージ**] に移動し、[**オペレーティングシステムイメージの追加**] を選択します。
+2.  構成マネージャー コンソールから、[ **ソフトウェア ライブラリ** ] \> [ **オペレーティングシステム** ] \> [ **オペレーティング システム イメージ** ] に移動し、[ **オペレーティング システム イメージを追加** ] を選択します。
 
-3.  コピーした**インストール .wim**ファイルへのパスを指定し、[**次へ**] を選択します。
+3.  コピーした **install.wim** ファイルのパスを指定し、[ **次へ** ] を選択します。
 
-4.  [**バージョン**] フィールドを更新して、Windows 10 Enterprise のイメージのビルド番号と一致するようにし、[**次へ**] を選択します。
+4.  [ **バージョン** ] フィールドを更新して、Windows 10 Enterprise のビルド番号と一致するようにし、[ **次へ** ] を選択します。
 
-5.  [**詳細**] ページを確認し、[**次へ**] を選択します。
+5.  [ **詳細** ] ページを確認し、[ **次へ** ] を選択します。
 
-6.  [**閉じる**] を選びます。
+6.  **[閉じる]** を選択します。
 
-詳細については、「[構成マネージャーを使用して OS イメージを管理](https://docs.microsoft.com/configmgr/osd/get-started/manage-operating-system-images)する」を参照してください。
+詳細については、[「構成マネージャーを使用して OS イメージを管理する」](https://docs.microsoft.com/configmgr/osd/get-started/manage-operating-system-images)を参照してください。
 
-### <a name="create-surface-pro-device-driver-packages"></a>Surface Pro デバイスドライバーパッケージを作成する
+### <a name="create-surface-pro-device-driver-packages"></a>Surface Pro デバイス ドライバー パッケージの作成
 
-Microsoft Teams のルームは Surface Pro と Surface Pro 4 の両方でサポートされています。 環境内にある Surface Pro モデルごとにドライバーパッケージを作成する必要があります。
+Microsoft Teams Rooms は Surface Pro と Surface Pro 4 の両方でサポートされています。 環境内にある Surface Pro のモデルごとに、ドライバー パッケージを作成する必要があります。
 
 > [!IMPORTANT]
-> ドライバーは、Windows 10 Enterprise ビルドおよび Microsoft Teams 室展開キットのバージョンと互換性がある必要があります。 詳細については、「 [Surface デバイス用の最新のファームウェアとドライバーをダウンロード](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices)して[本体を構成する](console.md)」を参照してください。
+> ドライバーは、Windows 10 Enterprise ビルドおよび Microsoft Teams Rooms 展開キットのバージョンと互換性がある必要があります。 詳細については、[「Surface デバイス用の最新のファームウェアとドライバーをダウンロードする」](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) および [「コンソールを構成する」](console.md)を参照してください。
 
 1.  最新のドライバーとファームウェアをダウンロードします。
-    -   Surface Pro の場合:<https://www.microsoft.com/download/details.aspx?id=55484>
-    -   Surface Pro 4 の場合:<https://www.microsoft.com/download/details.aspx?id=49498>
+    -   Surface Pro 用: <https://www.microsoft.com/download/details.aspx?id=55484>
+    -   Surface Pro 4 用: <https://www.microsoft.com/download/details.aspx?id=49498>
 
-2.  ダウンロードしたドライバーとファームウェアを抽出します。 コマンドプロンプトウィンドウを開き、コマンドプロンプトで次のいずれかのコマンドを入力します。
+2.  ダウンロードしたドライバーおよびファームウェアを抽出します。 コマンド プロンプト ウインドウを開き、コマンド プロンプトで次のいずれかのコマンドを入力します。
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
     -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
 
-3.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **オペレーティングシステム** \> **ドライバー**] に移動し、[**ドライバーのインポート**] を選択します。
+3.  構成マネージャー コンソールで、[ **ソフトウェアライブラリ** ] \> [ **オペレーティングシステム** ] \> [ **ドライバー** ] に移動し、[ **ドライバーのインポート** ] を選択します。
 
-4.  [**次のネットワークパス (UNC) のすべてのドライバーをインポートする**] を選択し、ソースフォルダー (\\たとえば\\、\\C: _Sources Drivers Surface Pro) を選び、[**次へ**] を選びます。
+4.  [ **次のネットワーク パス (UNC) にあるすべてのドライバーをインポート** ] を選択し、ソース フォルダーを選択します (例: C:\\_Sources\\ドライバー\\Surface Pro)。そして [ **次へ** ] を選択します。
 
-5.  [**インポートしたドライバーの詳細を指定**してください] ページで、一覧表示されているすべてのドライバーを選び、[これらのドライバーを有効にする] を選択して、[**コンピューターにインストールを許可する**] を選びます。
+5.  [ **インポートされたドライバーの詳細を指定する** ] のページで、一覧表示されているすべてのドライバーを選択し、[ **これらのドライバーを有効にして、コンピューターにインストールできるようにする** ] を選択します。
 
-6.  [**カテゴリ**] を選択し、Surface モデルに一致する新しいカテゴリを作成して、[ **OK**] を選択し、[**次へ**] を選択します。
+6.  [ **カテゴリ** ] を選択し、Surface のモデルと一致する新しいカテゴリを作成し、[ **OK** ] を選択し、[ **次へ** ] を選択します。
 
-7.  [**新しいパッケージ**] を選びます。
+7.  **[新しいパッケージ]** を選択します。
 
-8.  Surface Pro モデルと一致するパッケージ名を指定し、ドライバーパッケージファイルを保存するフォルダーパスを入力して、[ **OK**] を選択し、[**次へ**] を選択します。
+8.  Surface Pro のモデルと一致するパッケージ名を指定し、ドライバー パッケージ ファイルを格納するフォルダーのパスを入力して、[ **OK** ] を選択し、[ **次へ** ] を選択します。
 
-9.  [**ブートイメージ**] ページで、[ブートイメージ] が選択されていないことを確認し、[**次へ**] を選択します。
+9.  [ **ブート イメージ** ] のページで、ブート イメージが選択されていないことを確認してから、[ **次へ** ] を選択します。
 
-10. [**閉じる**] を選びます。
+10. **[閉じる]** を選択します。
 
-11. [ **Software Library** \> **オペレーティングシステム** \> **ドライバー**] に移動し、[フォルダーの** \>作成] フォルダー**を選択し、ドライバーをインポートした Surface Pro モデルと一致するフォルダー名を入力します。
+11. [ **ソフトウェア ライブラリ** ] \> [ **オペレーティング システム** ] \> [ **ドライバー** ] フォルダーに移動し、[ **フォルダー \> フォルダーの作成** ] を選択し、ドライバーをインポートした Surface Pro のモデルと一致するフォルダー名を入力します。
 
-12. 新しく作成したフォルダーに、インポートされたすべてのドライバーを移動して、移動や操作が簡単にできるようにします。
+12. インポートされたすべてのドライバーを新たに作成したフォルダーに移動すると、操作が簡単になります。
 
 > [!NOTE]
-> 他の Surface Pro モデルにも同じ手順を繰り返します。 詳細については、「[構成マネージャーでドライバーを管理](https://docs.microsoft.com/configmgr/osd/get-started/manage-drivers)する」を参照してください。
+> 他の Surface Pro のモデルにも同じ手順を繰り返します。 詳細については、[「構成マネージャーでドライバーを管理する」](https://docs.microsoft.com/configmgr/osd/get-started/manage-drivers) を参照してください。
 
-### <a name="create-microsoft-teams-rooms-configuration-package"></a>Microsoft Teams 会議室構成パッケージを作成する
+### <a name="create-microsoft-teams-rooms-configuration-package"></a>Microsoft Teams Rooms 構成パッケージの作成
 
-1.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **アプリケーション管理** \> **パッケージ**] に移動し、[**パッケージの作成**] を選択します。
+1.  構成マネージャー コンソールから、[ **ソフトウェアライブラリ** ] \> [ **アプリケーションの管理** ] \> [ **パッケージ** ] に移動し、[ **パッケージの作成** ] を選びます。
 
 2.  パッケージを作成するには、次の情報を入力します。
 
-    -   名前: **srs v2-Srs セットアップパッケージを構成する**
+    -   名前: **SRS v2 - SRS セットアップパッケージを構成する**
 
     -   製造元: **Microsoft Corporation**
 
     -   バージョン: **1.0.0**
 
-    -   [**このパッケージはソースファイルを含む**] チェックボックスをオンにし、[ **SRS V2-srs セットアップ**] フォルダーへのパスを入力して、[**次へ**] を選択します。
+    -   [ **このパッケージには、ソース ファイルが含まれています** ] のチェック ボックスを選択し、 **SRS v2 - SRS セットアップの構成** フォルダーのパスを入力し、[ **次へ** ] を選択します。
 
-3.  [**プログラムを作成しない**] を選び、[**次へ**] を選びます。
+3.  [ **プログラムを作成しない** ] を選択し、[ **次へ** ] を選択します。
 
-4.  [**設定の確認**] ページを確認して、[**次へ**] を選びます。
+4.  [ **設定の確認** ] を確認して、[ **次へ** ] を選択します。
 
-5.  [**閉じる**] を選びます。
+5.  **[閉じる]** を選択します。
 
 
 
-## <a name="distribute-configuration-manager-packages"></a>Configuration Manager パッケージを配布する
+## <a name="distribute-configuration-manager-packages"></a>構成マネージャー パッケージの配布
 
-すべてのパッケージは、構成マネージャー階層で配布ポイントの役割が割り当てられているサーバーに配布する必要があります。 パッケージの配布を開始するには、次の手順に従います。
+すべてのパッケージを、構成マネージャーの階層の配布ポイントの役割が割り当てられているサーバーに配布する必要があります。 パッケージの配布を開始するには、次の手順に従います。
 
 1.  ソフトウェアパッケージを配布します。
 
-    1.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **アプリケーション管理** \> **パッケージ**] に移動します。 配布するすべてのソフトウェアパッケージを選択し、[コンテンツの**配布**] を選択します。
+    1.  構成マネージャー コンソールで、 [ **ソフトウェアライブラリ** ] \> [ **アプリケーション管理** ] \> [ **パッケージ** ] に移動します。 配布するソフトウェアパッケージをすべて選択し、[ **コンテンツの配布** ] を選びます。
 
-    2.  パッケージの一覧を確認し、[**次へ**] を選択します。
+    2.  パッケージのリストを確認し、[ **次へ** ] を選択します。
 
-    3.  すべての配布ポイントサーバー (構成マネージャーの階層に応じて配布ポイントグループ) を一覧に追加し、[**次へ**] を選択します。
+    3.  すべての配布ポイントサーバー (または、構成マネージャーの階層によっては、配布ポイントグループ) を一覧に追加し、[ **次へ** ] を選択します。
 
-    4.  [**次へ**] を選択し、[**閉じる**] を選択します。
+    4.  [ **OK** ] を選択し、[ **閉じる** ] を選択します。
 
-2.  ドライバーパッケージを配布します。
+2.  ドライバー パッケージを配布します。
 
-    1.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **オペレーティングシステム** \> **ドライバーパッケージ**] に移動します。 配布するドライバーパッケージをすべて選択し、[**コンテンツの配布**] を選択します。
+    1.  構成マネージャー コンソールで、[ **ソフトウェア ライブラリ** ] \> [ **オペレーティング システム** ] \> [ **ドライバー パッケージ** ] に移動します。 配布したいすべてのドライバーパッケージを選択し、[ **コンテンツの配布** ] を選択します。
 
-    2.  パッケージの一覧を確認し、[**次へ**] を選択します。
+    2.  パッケージのリストを確認し、[ **次へ** ] を選択します。
 
-    3.  すべての配布ポイントサーバー (構成マネージャーの階層に応じて配布ポイントグループ) を一覧に追加し、[**次へ**] を選択します。
+    3.  すべての配布ポイントサーバー (または、構成マネージャーの階層によっては、配布ポイントグループ) を一覧に追加し、[ **次へ** ] を選択します。
 
-    4.  [**次へ**] を選択し、[**閉じる**] を選択します。
+    4.  [ **OK** ] を選択し、[ **閉じる** ] を選択します。
 
-3.  オペレーティングシステムパッケージを配布します。
+3.  オペレーティング システム パッケージを配布します。
 
-    1.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \> **オペレーティング** \>システムの**オペレーティングシステムイメージ**] に移動します。 配布するすべてのオペレーティングシステムイメージを選択し、[コンテンツの**配布**] を選択します。
+    1.  構成マネージャー コンソールで、[ **ソフトウェア ライブラリ** ] \> [ **オペレーティングシステム** ] \> [ **オペレーティング システム イメージ** ] に移動します。。 配布したいすべてのオペレーティング システム イメージを選択し、[ **コンテンツの配布** ] を選択します。
 
-    2.  パッケージの一覧を確認し、[**次へ**] を選択します。
+    2.  パッケージのリストを確認し、[ **次へ** ] を選択します。
 
-    3.  すべての配布ポイントサーバー (構成マネージャーの階層に応じて配布ポイントグループ) を一覧に追加し、[**次へ**] を選択します。
+    3.  すべての配布ポイントサーバー (または、構成マネージャーの階層によっては、配布ポイントグループ) を一覧に追加し、[ **次へ** ] を選択します。
 
-    4.  [**次へ**] を選択し、[**閉じる**] を選択します。
+    4.  [ **OK** ] を選択し、[ **閉じる** ] を選択します。
 
 > [!NOTE]
-> パッケージの配布には、パッケージサイズ、構成マネージャー階層、配布ポイントサーバーの数、ネットワークで利用可能な帯域幅に応じて、時間がかかる場合があります。
+> パッケージの配布には、パッケージサイズ、構成マネージャーの階層、配布ポイント サーバーの数、およびネットワークで使用可能な帯域幅によって、時間がかかる場合があります。
 > 
-> Microsoft Teams のルームユニットの展開を開始する前に、すべてのパッケージを配布する必要があります。
+> Microsoft Teams Rooms の展開を開始する前に、すべてのパッケージを配布する必要があります。
 > 
-> Configuration Manager コンソールでパッケージ配布の状態を確認するには、「**配布ステータス** \> **コンテンツの状態**を**監視** \>する」を参照してください。
+> 構成マネージャー コンソールでパッケージ配布の状態を確認するには、 [ **監視** ] \> [ **配布状態** ] \> [ **コンテンツの状態** ] に進みます。
 
-## <a name="configuration-manager-task-sequences"></a>構成マネージャーのタスクシーケンス
+## <a name="configuration-manager-task-sequences"></a>構成マネージャーのタスク シーケンス
 
-タスクシーケンスを構成マネージャーと共に使用して、ターゲットコンピューターにオペレーティングシステムイメージを展開するための手順を自動化します。 Microsoft Teams のルームユニットを自動化された方法で展開するには、リンク先の Microsoft Teams 室のコンピューター、インストールする Windows 10 Enterprise オペレーティングシステムイメージ、その他のアプリケーションやソフトウェア更新プログラムなどのその他の他のコンテンツを開始するために使用されるブートイメージを参照するタスクシーケンスを作成します。
+構成マネージャーでタスク シーケンスを使用して、オペレーティング システム イメージを対象のコンピューターに展開する手順を自動化します。 Microsoft Teams Rooms ユニットを自動で展開するには、対象の Microsoft Teams Rooms コンピューターの起動に使用したブート イメージ、インストールする Windows 10 Enterprise オペレーティング システム イメージ、およびその他のアプリケーションやソフトウェアアップデートなどの追加コンテンツを参照するタスク シーケンスを作成します。
 
-### <a name="import-the-sample-task-sequence"></a>サンプルのタスクシーケンスをインポートする
+### <a name="import-the-sample-task-sequence"></a>サンプル タスク シーケンスをインポートする
 
-サンプルのタスクシーケンスをダウンロードして簡単にインポートし、ニーズに合わせてカスタマイズすることができます。
+サンプル タスク シーケンスをダウンロードして簡単にインポートし、必要に応じてカスタマイズすることができます。
 
-1.  サンプルタスクシーケンスを[**ダウンロード**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)して、ダウンロードした zip ファイルを共有の場所にコピーします。
-2.  Configuration Manager コンソールで、[**ソフトウェアライブラリ** \>の**オペレーティングシステム** \>の**タスクシーケンス**] に移動し、[**タスクシーケンスのインポート**] を選択します。
+1.  サンプル タスク シーケンスを [**ダウンロード**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)し、共有の場所にダウンロードした zip ファイルをコピーします。
+2.  構成マネージャー コンソールで、 [ **ソフトウェア ライブラリ** ] \> [ **オペレーティングシステム** ] \> [ **タスクシーケンス** ] に移動し、[ **インポート タスク シーケンス** ] を選びます。
 
-3.  [**参照**] を選択し、手順1で使用した共有フォルダーの場所に移動し、 **Microsoft Teams のルーム展開 (en-us)** ファイルを選択して、[**次へ**] を選択します。
+3.  [ **参照** ] を選択して、手順 1 で使用した共有フォルダーの場所に移動し、 **Microsoft Teams Rooms の展開 (EN-US).zip** ファイルを選択し、[ **次へ** ] を選択します。
 
-4.  [**新規作成**]**アクション**を設定して、[**次へ**] を選択します。
+4.  [ **アクション** ] を [ **新規作成** ] に設定し、[ **次へ** ] を選択します。
 
-5.  設定を確認し、[**次へ**] を選択します。
+5.  設定を確認して、[ **次へ** ] を選択します。
 
-6.  [**閉じる**] を選びます。
+6.  **[閉じる]** を選択します。
 
-### <a name="validate-that-the-reference-packages-are-correctly-linked-to-each-task-sequence-step"></a>参照パッケージが各タスクシーケンスの手順に正しくリンクされていることを確認します。
+### <a name="validate-that-the-reference-packages-are-correctly-linked-to-each-task-sequence-step"></a>参照パッケージが各タスク シーケンスの手順に正しくリンクされていることを確認します。
 
-1. インポートしたタスクシーケンスを選択し、[**編集**] を選択します。
+1. インポートされたタスク シーケンスを選択し、[ **編集** ] を選択します。
 
-    タスクシーケンスエディターが開き、Microsoft Teams のルームユニットを展開して構成するために必要な一連の手順が表示されます。
+    タスク シーケンス エディターが開き、Microsoft Teams Rooms ユニットを展開して構成するために必要な一連の手順が表示されます。
 
-2. 各手順を順番に実行し、推奨される更新プログラムを完了します。
+2. 各手順に従って、推奨される更新プログラムを完了します。
 
-   1. **WINDOWS PE で再起動**します。この手順では、コンピューターが再起動し、windows PXE が起動されます。 この手順で変更を加える必要はありません。
+   1. **Windows PE での再起動** : この手順では、コンピューターを再起動し、Windows PXE に起動します。 この手順では、変更は必要ありません。
 
-   2. **パーティションディスク0– UEFI**: この手順を実行すると、ディスク構成が消去され、構成された設定に基づいてパーティションが作成されます。 この手順には変更を加えないことをお勧めします。
+   2. **パーティションディスク 0 – UEFI** : この手順では、ディスク構成を消去し、構成された設定に基づいてパーティションを作成します。 このステップは変更しないことをお勧めします。
 
-   3. **SRS コンピューター名を設定**する: この手順には、展開時に Microsoft Teams のルームユニットのコンピューター名を設定するための UI を提供する HTML アプリケーションが含まれています。
-      -  これは省略可能な手順ですが、別のプロセスでコンピューターの名前付けを管理する場合にのみ無効にすることができます。
-      -  **SRS v2-セットアップ-SRSComputerName**パッケージが選択されていることを確認します。 表示されていない場合は、パッケージを参照して選択します。
+   3. **SRS コンピューター名を設定する** : この手順には、展開時に Microsoft Teams Rooms ユニットのコンピュータ名を設定するための UI を提供する HTML アプリケーションが含まれています。
+      -  これは省略可能な手順ですが、代替プロセスを使用してコンピューター名を管理する場合にのみ無効にすることができます。
+      -  **SRS v2 - Set-SRSComputerName** パッケージが選択されていることを確認します。 表示されない場合は、パッケージを参照して選択します。
 
-   4. **オペレーティングシステムの適用**: この手順では、展開するオペレーティングシステムイメージと、使用する無人 Sysprep 応答ファイルを指定します。
-      -  正しい Windows 10 Enterprise オペレーティングシステムイメージファイルが選択されていることを確認します。
-      -  **カスタムインストールに無人または sysprep の応答ファイルを使用**する機能が有効になっていることを確認し、[ **SRS V2-sysprep パッケージ**] が選択されていることを確認します。 また、**ファイル名**が**unattend.xml**に設定されていることを確認します。
+   4. **オペレーティングシステムの適用** : この手順では、展開するオペレーティング システム イメージと、使用する無人 Sysprep 応答ファイルを指定します。
+      -  正しい Windows 10 Enterprise オペレーティング システム イメージ ファイルが選択されていることを確認します。
+      -  [ **カスタム インストールに無人または Sysprep 応答ファイルを使用する** ] が有効になっており、[ **SRS v2 - Sysprep パッケージ** ] が選択されていることを確認します。 また、 **ファイル名** が **unattend.xml** に設定されていることを確認します。
 
-   5. **Windows の設定を適用**する: この手順では、windows インストールに関する情報を収集します。
-      -  プロダクトキー、ローカル管理者アカウントのパスワード、タイムゾーン (必要に応じて) を含む、ライセンスおよび登録情報を提供します。
+   5. **Windows の設定を適用する** : この手順では、Windows のインストールに関する情報を収集します。
+      -  プロダクト キー、ローカル管理者アカウントのパスワード、タイムゾーン (必要に応じて) を含むライセンスと登録情報を提供します。
 
-   6. **ネットワーク設定を適用**する: この手順では、ワークグループまたは Active Directory ドメイン名と組織単位を指定できます。
+   6. **ネットワークの設定を適用する** : この手順では、ワークグループまたは Active Directory ドメイン名と組織ユニットを指定できます。
       > [!NOTE]
-      > 「 [Skype Room System domain](domain-joining-considerations.md) 」をご覧ください。推奨される操作については、「Microsoft Teams ルームユニットを Actve ディレクトリドメインのメンバーとして展開する」を参照してください。
-   7. **ドライバーを適用します。** この手順とサブステップを使って、使用している Surface Pro モデルに基づいて、該当するデバイスドライバーとファームウェアを展開します。 各手順を更新して、この展開に関連する関連するドライバーパッケージを指定します。
-      -   各ドライバパッケージは、Windows Management Instrumentation (WMI) フィルターを活用して Surface Pro の作成とモデルに基づいて関連するドライバーとファームウェアを展開するように構成されています。
-      -   これらのドライバーの構成を変更しないようにすることを強くお勧めします。そうしないと、展開が失敗する可能性があります。
+      > Microsoft Teams Rooms ユニットをActve Directory ドメインのメンバーとして展開する際に必要な推奨されるアクションについては、[「Skype ミーティング システム ドメイン結合の際に考慮する事項」](domain-joining-considerations.md)を参照してください。
+   7. **ドライバーの適用:** この手順は、お使いの Surface Pro のモデルに基づいた、適用可能なデバイスドライバとファームウェアを展開するために使用します。 各手順を更新して、この展開に関連付けられている関連するドライバー パッケージを指定します。
+      -   各ドライバーパッケージでは、Windows Management Instrumentation (WMI) フィルターを使用し、 Surface Pro のモデルに基づいて関連性の高いドライバーやファームウェアを展開します。
+      -   展開が失敗するおそれがありますので、これらのドライバーの構成を変更しないことを強くお勧めします。
 
-   8. **Windows と構成マネージャーのセットアップ**: この手順では、configuration manager クライアントを展開して構成します。 この手順を更新して、組み込みの Configuration Manager クライアントパッケージを指定します。
+   8. **Windows と構成マネージャーをセットアップする** : この手順では、構成マネージャー クライアントを展開し、構成します。 組み込みの構成マネージャー クライアント パッケージを指定するには、この手順を更新します。
 
-   9. [**ルート証明書のインストール**]: この手順では、ドメインに参加していないデバイスのルート証明書を配布します。そのため、既定ではオプションで無効になります。
-      -   Microsoft Teams のルームユニットにルート証明書を展開する必要がある場合は、この手順を有効にします。
-      -   この手順を実行する必要がある場合は、 **SRS v2 –ルート証明書パッケージ**と**64 ビットファイルシステムリダイレクション**が選択されていることを確認します。
+   9. **ルート証明書をインストールする** : この手順では、ドメインに参加していないデバイスのルート証明書を配布します。そのため、既定では無効となっており省略可能です。
+      -   Microsoft Teams Rooms ユニットにルート証明書を展開する必要がある場合は、この手順を有効にします。
+      -   この手順を実行する必要がある場合は、 **「SRS v2 – ルート証明書パッケージ」** と「 **64 ビット ファイル システム リダイレクトを無効にする** 」 が選択されていることを確認します。
 
-   10. **Monitoring Agent のインストールと構成**: この手順では、64ビットバージョンの Microsoft Azure Monitor エージェントをインストールし、ログ分析ワークスペースに接続するようにエージェントを構成します。
-       -   この手順は、既定では無効になっています。 この手順を有効にするのは、監視エージェントを使用して Microsoft Teams のルームの正常性を監視する場合のみです。
-       -   この手順を編集し、コマンドラインパラメーターを更新して、**ワークスペース ID**と**ワークスペースキー**を指定します。
-       -   Operations Management Suite のワークスペース ID と主キーの入手方法の詳細については、「 [Azure Monitoring のテストデバイスを構成する](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring)」を参照してください。
-       -   **SRS v2 – Microsoft Monitoring Agent パッケージ**と**64 ビットファイルシステムリダイレクション**が選択されていることを確認します。
-       -   Microsoft Teams 室の展開の正常性を監視する方法の詳細については、「 [Azure monitor を使用した microsoft Teams 会議室管理の計画](azure-monitor-plan.md)」を参照してください。 azure monitor で microsoft [teams の](azure-monitor-deploy.md)ルーム管理を展開し、 [Azure monitor で microsoft Teams 室のデバイスを管理](azure-monitor-manage.md)します。
+   10. **監視エージェントをインストールして構成する** : この手順では、64 ビット版の Microsoft Azure Monitor エージェントをインストールし、ログ分析ワークスペースに接続するようにエージェントを構成します。
+       -   この手順は既定では無効になっています。 監視エージェントを使用して Microsoft Teams Rooms の状態を監視する場合にのみ、この手順を有効にします。
+       -   この手順を編集して、コマンドライン パラメーターを更新し、 **ワークスペース ID** と **ワークスペース キー** を指定します。
+       -   運用管理スイートのワークスペース ID と主キーを取得に関する詳細については、「[Azure の監視用にテストデバイスを構成する](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring)」 を参照してください。
+       -   「 **SRS v2 – Microsoft Monitoring Agent パッケージ** 」 と 「 **64 ビット ファイル システム リダイレクトを無効にする** 」 が選択されていることを確認します。
+       -   Microsoft Teams Rooms の展開の状態を監視する方法の詳細については、「[Azure Monitor を使った Microsoft Teams Rooms 管理の計画](azure-monitor-plan.md)」、「[Azure Monitor を使った Microsoft Teams Rooms 管理の展開](azure-monitor-deploy.md)」、「[Azure Monitor を使った Microsoft Teams Rooms デバイスの管理](azure-monitor-manage.md)」を参照してください。
 
-   11. **SRS V2 構成ファイルをコピー**する: この手順では、必要なセットアップファイルと構成ファイルを Microsoft Teams のルーム展開キットからローカルのハードドライブにコピーします。 この手順をカスタマイズする必要はありません。
-       -   **Srs v2 – Srs アプリケーションパッケージ**と**64 ビットファイルシステムリダイレクション**が選択されていることを確認します。
+   11. **SRS v2 構成ファイルのコピー** : この手順では、Microsoft Teams Rooms の展開キットから、ローカル ハード ドライブに必要なセットアップファイルと構成ファイルをコピーします。 この手順では、カスタマイズは必要ありません。
+       -   「 **SRS v2 – SRS アプリケーション パッケージ** 」 と「 **64 ビットファイルシステムのリダイレクトを無効にする** 」 が選択されていることを確認します。
 
-   12. **SRSv2-OS-更新プログラム**: この手順では、Microsoft Teams ルームの展開に必要なオペレーティングシステムの必須更新プログラムが展開されます。 以下の操作を行います。
-       -   必要な更新プログラムを確認するには[、Microsoft Teams 室コンソールを構成](console.md)することを確認します。
-       -   **SRS v2 – OS 更新パッケージ**に必要な更新プログラムがすべて含まれていることを確認します。
-       -   [ **SRS v2 – OS 更新プログラムパッケージ]** が選択されていることを確認します。
-       -   PowerShell 実行ポリシーが**バイパス**されるように設定されていることを確認します。
+   12. **Install-SRSv2-OS-Updates** : この手順では、Microsoft Teams Rooms の展開に必要なオペレーティング システムの更新プログラムを展開します。 以下の操作を行います。
+       -   「[Microsoft Teams Rooms コンソールを構成する](console.md)」 をチェックして、必要な更新プログラムを確認します。
+       -   **SRS v2 – OS 更新プログラム** パッケージに、必要な更新プログラムがすべて含まれていることを確認します。
+       -   **SRS v2 – OS 更新プログラム パッケージ** が選択されていることを確認します。
+       -   PowerShell の実行ポリシーが **バイパス** に設定されていることを確認します。
 
-   13. **コンピューターの再起動**: この手順は、オペレーティングシステムの必須更新プログラムがインストールされた後にコンピューターを再起動します。 この手順をカスタマイズする必要はありません。
+   13. **コンピューターを再起動する** : この手順では、オペレーティング システムの必要な更新プログラムのインストール後にコンピューターを再起動します。 この手順では、カスタマイズは必要ありません。
 
-   14. **Windows コンポーネントの構成**: この手順では、必要な windows 機能を構成します。 この手順をカスタマイズする必要はありません。
+   14. **Windows コンポーネントを構成する** : この手順では、必要な Windows の機能を構成します。 この手順では、カスタマイズは必要ありません。
 
-   15. **コンピューターを再起動**する: この手順は、Windows の機能が構成された後にコンピューターを再起動します。 この手順をカスタマイズする必要はありません。
+   15. **コンピューターを再起動する** : この手順では、Windows の機能を構成した後にコンピューターを再起動します。 この手順では、カスタマイズは必要ありません。
 
-   16. **ローカル Skype ユーザの追加**: この手順では、Windows に自動的にサインインするために使用されるローカルの skype アカウントを作成して、Microsoft Teams のルームアプリケーションを起動します。 この手順には、関連付けられたソフトウェアパッケージはありません。また、そのためのカスタマイズは必要ありません。
+   16. **ローカル Skype ユーザーの追加** : この手順では、Windows に自動サインインして Microsoft Teams Rooms アプリケーションを起動するために使用するローカル Skype アカウントを作成します。 この手順には関連付けられているソフトウェアパッケージはありません。カスタマイズする必要はありません。
 
-   17. **SRS アプリケーションをセットアップして構成する**: この手順では、オペレーティングシステムを次に起動するために Microsoft Teams 室のアプリケーションインストールが構成されます。
-       -   **Srs v2 – Srs セットアップパッケージを構成**し、 **64 ビットファイルシステムリダイレクション**が選択されていることを確認します。
+   17. **SRS アプリケーションをセットアップして構成する** : この手順では、オペレーティング システムの次の起動用に Microsoft Teams Rooms アプリケーションをインストールします。
+       -   「 **SRS v2 – SRS セットアップ パッケージの構成** 」 と 「 **64 ビット ファイル システムのリダイレクトを無効にする** 」 が選択されていることを確認します。
 
 > [!IMPORTANT]
-> タスクシーケンスの手順は、指定された順序で行う必要があることに注意してください。 手順の順序を変更したり、追加の手順を構成したりすると、展開が壊れることがあります。
+> タスク シーケンスのステップは、指定された順序である必要があります。 ステップの順序を変更したり、追加の手順を構成したりすると、展開が破損する場合があります。
 >
-> **SRS アプリケーションのセットアップと構成**は、タスクシーケンスの最後の手順として行う必要があります。そうしないと、展開が失敗する可能性があります。
+> **SRS アプリケーションのセットアップと構成** のステップは、タスク シーケンスの最後の手順である必要があります。それ以外の場合は、展開が失敗する可能性があります。
 
-### <a name="create-deployment-for-the-task-sequence"></a>タスクシーケンスの展開を作成する
+### <a name="create-deployment-for-the-task-sequence"></a>タスク シーケンスの展開を作成する
 
-1. タスクシーケンスを選択し、[**展開**] を選択します。
+1. タスク シーケンスを選択し、[ **展開** ] を選択します。
 
-2. [**参照**] を選択して展開用のターゲットコレクションを選択します。
+2. [ **参照** ] を選択して、展開用のターゲット コレクションを選択します。
 
-3. [**すべての不明なコンピューター** ] を選択し、[ **OK]** を選択します。
+3. [ **すべての不明なコンピューター** ] を選択し、[ **OK** ] を選択します。
 
-4. [**次へ**] を選びます。
+4. [ **次へ** ] を選択します。
 
-5. [**目的**] ドロップダウンリストで [**利用可能**] を選びます。
+5. **「目的」** のドロップ ダウン リストから、[ **使用可能** ] を選択します。
 
-6. [**以下のものを利用可能にする**] ボックスの一覧で [**メディアと PXE のみ**] を選び、[**次**へ] を選びます。
+6. **「次のリストで利用可能にする」** で[ **メディアと PXE のみ** ] を選択し、[ **次へ** ] を選択します。
    > [!WARNING]
-   > **目的**を**利用できる**ように設定することは非常に重要です。 **目的**が [**必須**」に設定されて**いない**ことを確認します。 また、**次の [利用可能にする**] で [**メディアと PXE] のみ**を選択してください。
+   > [ **目的** ] は、[ **使用可能** ] に設定されている必要があります。 [ **目的** ] が、 [ **必須** ]に設定されて **いない** ことを確認します。 また、 **「次に利用可能にする」** で、[ **メディアとPXEのみ** ] を選択していることを確認してください。
    >
-   > これらの値を別の値に設定すると、すべてのコンピューターで、起動時に Microsoft Teams のルームの展開イメージが取得されることがあります。
-7. スケジュールを指定せずに、[**次へ**] を選択します。
+   > これらの値を別の値に設定すると、起動したときに、すべてのコンピューターで Microsoft Teams Rooms の展開イメージが表示されることがあります。
+7. スケジュールを指定せずに、 [ **次へ** ] を選択します。
 
-8. [**ユーザーエクスペリエンス**] セクション内の何も変更せず、[**次へ**] を選びます。
+8. [ **ユーザーエクスペリエンス** ] セクション内の内容を変更せずに、[ **次へ** ] を選択します。
 
-9. [**通知**] セクション内の何も変更せず、[**次へ**] を選びます。
+9. [ **アラート** ] セクション内の内容を変更せずに、[ **次へ** ] を選択します。
 
-10. [**配布ポイント**] セクション内の何も変更せず、[**次へ**] を選びます。
+10. [ **配布ポイント** ] セクション内の内容を変更せずに、[ **次へ** ] を選択します。
 
-11. 設定を確認し、[**次へ**] を選択します。
+11. 設定を確認して、[ **次へ** ] を選択します。
 
-12. [**閉じる**] を選びます。
+12. **[閉じる]** を選択します。
 
-<a name="validate-and-troubleshoot-the-solution"></a>ソリューションの検証とトラブルシューティングを行う
+<a name="validate-and-troubleshoot-the-solution"></a>ソリューションの検証およびトラブルシューティングを行う
 --------------------------------------
 
-Microsoft Endpoint Configuration Manager のタスクシーケンスが完了したら、タスクシーケンスで Microsoft Teams のルームユニットを展開して構成できることを確認するために、テスト実行を実行する必要があります。
+Microsoft Endpoint Configuration Manager のタスク シーケンスを完了したら、タスク シーケンスが Microsoft Teams Rooms ユニットを展開し構成できることを検証するため、テスト実行を行う必要があります。
 
-1.  サポートされているイーサネットアダプターのいずれかを使用するか、Surface dock を使用して、テストデバイスを有線ネットワークに接続します。 使用している環境に対して PXE ブート機能が構成されていない場合は、[前に作成](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media)した usb フラッシュドライブのブートイメージを使用して、usb から起動し、構成マネージャーに接続できます。
+1.  サポートされているイーサネット アダプターのいずれかを使用するか、Surface dock を使用して、テスト デバイスをケーブル ネットワークに接続します。 使用している環境に PXE ブート機能が構成されていない場合は、[以前に作成した](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media) USB フラッシュ ドライブのブート イメージを使用して USB から起動し、構成マネージャーに接続することができます。
 
 2.  ファームウェアにアクセスし、PXE ブートを開始します。
 
-    1.  Surface デバイスの電源がオフになっていることを確認します。
+    1.  Surface デバイスの電源が切れていることを確認します。
 
-    2.  [**音量を上げる**] ボタンを押したままにします。
+    2.  **「音量を上げる」** ボタンを長押しします。
 
-    3.  **電源**ボタンを押してから離します。
+    3.  **電源ボタン** を押して、離します。
 
-    4.  デバイスの起動が開始されたら、[**音量を上げる**] ボタンを放します。
+    4.  デバイスが起動したら、 **「音量を上げる」** ボタンを放します。
 
-    5.  [**ブート構成**] を選びます。
+    5.  **「ブート構成」** を選びます。
 
     6.  次のいずれかの操作を行います。
 
-        -   [ **PXE ブート**] を選択し、一覧の一番上にドラッグします。 または、ネットワークアダプターを左にスワイプして、すぐにデバイスを起動することもできます。 これにより、起動順序は変わりません。
-        -   ブートメディアを含む USB フラッシュドライブを選択します。
+        -   [ **PXE ブート** ] を選択し、リストの先頭にドラッグします。 または、ネットワーク アダプターを左にスワイプして、デバイスからすぐに起動することもできます。 これは、ブート順序には影響しません。
+        -   ブート メディアを含む USB フラッシュドライブを選びます。
 
-3.  [**終了**] を選択し、[**今すぐ再起動**] を選択します。
+3.  [ **終了** ] を選択し、[ **今すぐ再起動** ] を選択します。
 
-4.  メッセージが表示されたら、[ネットワークブートサービスの**入力**] を選択します。
+4.  メッセージが表示されたら、ネットワーク ブート サービスの [ **実行** ] を選択します。
 
-5.  Windows PE はメモリに読み込まれ、タスクシーケンスウィザードが開始されます。 [**次へ**] を選択して続行します。
+5.  Windows PE がメモリに読み込まれ、タスク シーケンス ウィザードが起動します。 [ **次へ** ] を選んで続行します。
 
-6.  前にインポートしたタスクシーケンスを選択し、[**次へ**] を選択します。
+6.  以前にインポートしたタスク シーケンスを選択し、[ **次へ** ] を選択します。
 
-7.  ディスク構成が適用されると、デバイスのコンピューター名を指定するように求められます。 ユーザーインターフェイスには、Surface Pro デバイスのシリアル番号に基づく推奨コンピューター名が表示されます。 提案された名前を受け入れるか、新しい名前を指定することができます。 [コンピューター名の割り当て] 画面の指示に従います。 [**承諾**] を選択すると、展開が開始されます。
+7.  ディスク構成が適用されると、デバイスのコンピューター名を指定するように求められます。 ユーザー インターフェイスには、Surface Pro デバイスのシリアル番号に基づいて推奨されるコンピューター名が表示されます。 提案された名前を受け入れるか、新しい名前を指定します。 コンピューター名の割り当て画面の指示に従います。 [ **承諾** ] を選択すると、展開が始まります。
 
-8.  展開プロセスの残りの部分は自動であり、ユーザーにより多くの入力を求められることはありません。
+8.  展開プロセスの残りの部分は自動的に行われ、ユーザーからの入力を求めることはありません。
 
-9.  展開タスクシーケンスによるデバイスの構成が完了すると、Microsoft Teams の会議の設定を構成するように求められる次の構成画面が表示されます。
+9.  展開タスクのシーケンスでデバイスの構成が完了すると、Microsoft Teams Rooms のアプリケーション設定を構成するように求める次の構成画面が表示されます。
 
-    ![Microsoft Teams 室アプリケーションの最初のセットアップ画面](../media/room-systems-scale-image2.png)
+    ![Microsoft Teams Rooms アプリケーションの初期セットアップ画面](../media/room-systems-scale-image2.png)
 
-10.  Surface Pro を Microsoft Teams 室コンソールに接続し、アプリケーション設定を構成します。
+10.  Surface Pro を Microsoft Teams Rooms コンソールに接続し、アプリケーション設定を構成します。
 
-11.  [Microsoft Teams のルーム](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に記載されている機能が、展開されたデバイスで機能していることを確認します。
-
-
-インストールに失敗した場合のトラブルシューティングを行うには、 **Smsts .log**ファイルを確認します。これは、構成マネージャーのタスクシーケンスで実行されたすべてのステップをログに記録します。
-
-SMSTS ファイルは、ビルドプロセスの段階に応じて、多数のパスのいずれかに保存されます。 次の表を参照して SMSTS .log ファイルへのパスを確認します。
+11.  [Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)に記載されている機能が、展開されたデバイスで機能していることを検証します。
 
 
-| **展開フェーズ**                                                            | **タスクシーケンスのログパス**                         |
+インストールの失敗をトラブルシューティングするには、 **SMSTS.log** ファイルを確認します。このファイルは、構成マネージャー タスク シーケンスで実行されたすべてのステップを記録します。
+
+SMSTS.log ファイルは、ビルド プロセスのステージに応じて、多くのパスの内のいずれかに格納されます。 次の表を確認し、SMSTS.log ファイルへのパスを確認します。
+
+
+| **展開フェーズ**                                                            | **タスク シーケンスのログのパス**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
-| WinPE (HDD 形式の前)                                                        | X:\\Windows\\Temp\\smstslog\\smsts .log             |
-| WinPE (HDD 形式の後)                                                         | C:\\_SMSTaskSequence\\Smstslog\\\\smsts .log をログに記録します。    |
-| Configuration Manager エージェントをインストールする前に、オペレーティングシステムが展開されました | c:\\_SMSTaskSequence\\Smstslog\\\\smsts .log をログに記録します。    |
-| オペレーティングシステムと Configuration Manager エージェントが展開されている                   | % windir%\\System32\\ccm\\ログ\\Smstslog\\smsts .log |
-| タスクシーケンスの実行が完了しました                                                | % windir%\\System32\\ccm\\は\\smsts .log をログに記録します。           |
+| WinPE (HDD フォーマット以前)                                                        | X:\\Windows\\Temp\\smstslog\\smsts.log             |
+| WinPE (ハードフォーマット以降)                                                         | C:\\_SMSTaskSequence\\Logs\\Smstslog\\smsts.log    |
+| 構成マネージャー エージェントをインストールする前に、オペレーティング システムが展開された | c:\\_SMSTaskSequence\\Logs\\Smstslog\\smsts.log    |
+| オペレーティングシステムと構成マネージャー エージェントが展開されている                   | % windir%\\System32\\ccm\\logs\\Smstslog\\smsts.log |
+| タスク シーケンスの実行が完了しました                                                | %windir%\\System32\\ccm\\logs\\smsts.log           |
 
 > [!TIP]
-> タスクシーケンス中に**F8**を選択してコマンドコンソールを開き、smsts .log ファイルにアクセスすることができます。
+> タスクシーケンスの実行中に、いつでも **F8** を選択してコマンド コンソールを開くことができ、 SMSTS.log ファイルにアクセスします。
 
-PXE ブートの問題のトラブルシューティングを行うには、PXE の操作に固有の、Configuration Manager サーバー上の2つのログファイルを確認します。
+PXE ブートの問題のトラブルシューティングを行うには、PXE のアクション固有の、構成マネージャー サーバー上の 2 つのログファイルを確認します。
 
--   **Pxecontrol。** Configuration Manager のインストールログディレクトリにあります。
+-   構成マネージャー インストール ログ ディレクトリにある **Pxecontrol.log**
 
--   **Smspxe**(Configuration Manager 管理ポイント (MP) logs ディレクトリにあります)
+-   構成マネージャー 管理ポイント (MP) logs ディレクトリにある **Smspxe.log**
 
-構成マネージャーのインストールをさらにトラブルシューティングするために使用できるログファイルの完全な一覧については、「Microsoft Endpoint Configuration Manager の[ログファイルリファレンス](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files)」を参照してください。
+構成マネージャーのインストールの詳細なトラブルシューティングに使用できるログファイルの完全なリストについては、「Microsoft Endpoint Configuration Manager [ログファイルの参照](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files)」を参照してください。
