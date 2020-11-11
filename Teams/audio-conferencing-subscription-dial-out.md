@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: ダイヤルアウトと通話料金は無料です。 2019年12月1日に、各電話会議のサブスクリプションでは、1ヶ月あたりのユーザー1人に対して60分の月額プランを提供しています。
-ms.openlocfilehash: a7834b279b5e4246d3233405c1ab0a87df21ff8f
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 0f5b4ea3dd59e4a6a9c957f4ec397c9ceb5cc660
+ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908496"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48993463"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>電話会議のサブスクリプション "ダイヤルアウト"/"通話時間の特典
 
@@ -67,10 +67,27 @@ ms.locfileid: "48908496"
 - 1ヶ月あたり6900分を超えるすべてのダイヤルアウト通話は、その宛先への公開料金で通信クレジットを使って分単位で課金されます。 (注: 顧客は [通信クレジット](what-are-communications-credits.md) を設定し、会議の開催者に通信クレジットのライセンスを割り当てる必要があります。)
 - ゾーンにない宛先へのすべてのダイヤルアウト通話は [、国と地域の](audio-conferencing-zones.md) 一覧に記載されています (顧客が通信クレジットを設定し、会議の開催者に連絡クレジットライセンスが割り当てられている場合)。
 
-## <a name="how-can-i-monitor-minute-pool-usage"></a>プールの利用状況を監視する方法を教えてください。
+## <a name="how-can-i-monitor-minute-my-pool-usage"></a>プール使用量を監視する方法を教えてください。
 
-- "レガシー" Skype for Business 管理センターでは、ダイヤルアウト分プールに対する使用状況を監視できます。 Microsoft Teams 管理センターで、 **従来のポータル**  >  **レポート** の  >  **PSTN 分プール** に移動します。 ダイヤルアウトの分数プールのゾーンには、"国のゾーンへの発信通話" というラベルが表示されます。
-- テナントのダイヤルアウト分数プールの使用率が80% と100% に達した場合、メール通知は、特定の顧客のすべてのテナント管理者に送信されます。
+- Microsoft Teams 管理センターでは、ダイヤルアウト分プールの使用状況を監視できます。 左側のナビゲーションで、[ **分析 & レポート** の  >  **利用状況レポート** ] に移動し、[ **PSTN 分プール** ] を選びます。 ダイヤルアウトの分数プールのゾーンには、"国のゾーンへの発信通話" というラベルが表示されます。
+- 組織のダイヤルアウト分数プールの使用率が80% と100% に達した場合、次の管理者にメール通知が送信されます。
+
+  - 課金管理者
+  - Skype for Business 管理者
+  - 会社管理者
+  - ユーザーアカウント管理者
+  - ヘルプデスク管理者
+  - サービスサポート管理者
+  - デバイス管理者
+  - アプリケーション管理者
+  - ライセンス管理者
+  - クラウドデバイス管理者
+  - 認証管理者
+  - 特権認証管理者
+  - Teams 通信管理者
+  - Teams 通信サポート エンジニア
+  - Teams 通信サポート スペシャリスト
+  - Teams サービス管理者
 
 通信クレジットの詳細については、「 [通信クレジット](what-are-communications-credits.md)」を参照してください。
 

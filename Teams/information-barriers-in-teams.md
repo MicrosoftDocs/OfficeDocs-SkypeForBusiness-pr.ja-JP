@@ -16,12 +16,12 @@ description: この記事では、Microsoft Teams の情報障壁の概要と、
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 519e216a8736ca214f65f11ca5b3509541c09860
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
+ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508354"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "48988324"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -44,7 +44,7 @@ ms.locfileid: "48508354"
 - 教育: ある学校の学生は、他の学校の学生の連絡先情報を検索することはできません。
 - 法的: 1 つのクライアントによって得られたデータの機密性を、異なる顧客を表す同じ企業の弁護士によってアクセスされないようにします。
 - 行政: 情報のアクセスと制御は、部門とグループで制限されています。
-- プロフェッショナルサービス: 社内の複数のユーザーが、顧客契約中にフェデレーションまたはゲストアクセスでクライアントまたは特定の顧客とチャットすることができます。
+- プロフェッショナルサービス: 社内の複数のユーザーが、顧客契約中にゲストアクセスでクライアントまたは特定の顧客とチャットすることができます。
 
 たとえば、"プエルトリコ" は銀行口座に属し、Pradeep は財務アドバイザーセグメントに属します。 この2つのセグメント間の通信とコラボレーションは、組織の IB ポリシーによってブロックされるため、Pradeep とお互いの通信はできません。 ただし、Pradeep は、秀樹との通信を人事で行うことができます。
 
@@ -64,7 +64,7 @@ ms.locfileid: "48508354"
 情報バリアポリシーは、PowerShell コマンドレットを使用して Microsoft 365 コンプライアンスセンター (SCC) で管理されます。 詳細については、「 [情報バリアのポリシーを定義](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)する」を参照してください。
 
 > [!IMPORTANT]
-> ポリシーを設定または定義する前に、 **Microsoft Teams でスコープ指定されたディレクトリ検索を有効にする必要があり**ます。 スコープ指定されたディレクトリ検索を有効にしてから、情報バリアのポリシーを設定または定義する前に、少なくとも数時間待ってください。 詳細に[ついては、「情報の障壁の前提条件」を参照して](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)ください。
+> ポリシーを設定または定義する前に、 **Microsoft Teams でスコープ指定されたディレクトリ検索を有効にする必要があり** ます。 スコープ指定されたディレクトリ検索を有効にしてから、情報バリアのポリシーを設定または定義する前に、少なくとも数時間待ってください。 詳細に[ついては、「情報の障壁の前提条件」を参照して](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)ください。
 
 ## <a name="information-barriers-administrator-role"></a>情報障壁管理者の役割
 
@@ -92,7 +92,7 @@ IB コンプライアンス管理の役割は、情報バリアポリシーの�
 
     ![会議からブロックされたユーザーを示すスクリーンショット](media/information-barriers-meeting.png)
 
-- 画面は2人以上の**ユーザー間で共有さ**れる-画面を2人以上のユーザーで共有している場合は、画面共有を評価して、他のユーザーの情報バリアポリシーに違反しないようにする必要があります。 情報バリアのポリシーに違反した場合、画面の共有は許可されません。 
+- 画面は2人以上の **ユーザー間で共有さ** れる-画面を2人以上のユーザーで共有している場合は、画面共有を評価して、他のユーザーの情報バリアポリシーに違反しないようにする必要があります。 情報バリアのポリシーに違反した場合、画面の共有は許可されません。 
  
     ポリシーが適用される前の画面共有の例を次に示します。 
 
@@ -137,7 +137,7 @@ Enrico は、グループチャットにメッセージを送信することは�
 
 現時点では、情報バリアポリシーで別のユーザーがブロックされている場合、ユーザーは次のシナリオを体験します。
 
-- [**連絡先] タブ**-ユーザーは [**連絡先**] タブでブロックされたユーザーを表示することはできません。
+- [ **連絡先] タブ** -ユーザーは [ **連絡先** ] タブでブロックされたユーザーを表示することはできません。
 - **People picker** -ブロックされたユーザーは、people picker に表示されません。
 
     ![グループチャットを示すスクリーンショット](media/information-barriers-people-picker.png)
@@ -167,9 +167,9 @@ Enrico は、グループチャットにメッセージを送信することは�
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams のポリシーと SharePoint サイト
 
-チームを作成すると、SharePoint サイトがプロビジョニングされ、ファイルエクスペリエンスのために Microsoft Teams と関連付けられます。 既定では、この SharePoint サイトとファイルに関する情報バリアポリシーは無視されます。 情報バリアポリシーを有効にするには、管理者が既にフォームに入力しており、その IB ポリシーが SharePoint と OneDrive で有効になっていることを要求しています (「[情報バリア](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)」の*前提条件*セクションを参照してください)。 SharePoint と OneDrive で情報バリアポリシーが有効になっている場合は、Microsoft Teams でチームを作成したときに、そのサービスがプロビジョニングされている SharePoint サイトで、IB ポリシーが機能します。
+チームを作成すると、SharePoint サイトがプロビジョニングされ、ファイルエクスペリエンスのために Microsoft Teams と関連付けられます。 既定では、この SharePoint サイトとファイルに関する情報バリアポリシーは無視されます。 情報バリアポリシーを有効にするには、管理者が既にフォームに入力しており、その IB ポリシーが SharePoint と OneDrive で有効になっていることを要求しています (「 [情報バリア](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)」の *前提条件* セクションを参照してください)。 SharePoint と OneDrive で情報バリアポリシーが有効になっている場合は、Microsoft Teams でチームを作成したときに、そのサービスがプロビジョニングされている SharePoint サイトで、IB ポリシーが機能します。
 
-**チームの SharePoint サイト上の IB ポリシーの例**: Contoso Bank corporation では、ユーザー ' Sesha@contosobank.onmicrosoft.com ' は投資銀行取引セグメントに属し、ユーザー ' Nikita@contosobank.onmicrosoft.com ' はセグメント勧告に属しています。 この2つのセグメント間の通信とコラボレーションは、組織の IB ポリシーによってブロックされます。
+**チームの SharePoint サイト上の IB ポリシーの例** : Contoso Bank corporation では、ユーザー ' Sesha@contosobank.onmicrosoft.com ' は投資銀行取引セグメントに属し、ユーザー ' Nikita@contosobank.onmicrosoft.com ' はセグメント勧告に属しています。 この2つのセグメント間の通信とコラボレーションは、組織の IB ポリシーによってブロックされます。
 ユーザーが、投資銀行取引先のチームを作成すると、そのチームとそれをバックアップした SharePoint サイトにアクセスできるのは、投資銀行セグメントのユーザーのみになります。 ユーザー Nikita は、サイトリンクを持っている場合でも、そのサイトにアクセスすることはできません。
 
 詳細については、 [情報障壁](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) の記事を参照してください。
@@ -179,7 +179,9 @@ Enrico は、グループチャットにメッセージを送信することは�
 プランや価格などの詳細については、「 [ライセンスガイダンス](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)」を参照してください。
 
 ## <a name="known-issues"></a>既知の問題
-- **ユーザーが会議に参加できません**。 IB ポリシーが有効になっていると、会議リストのサイズが [会議の参加者の制限](limits-specifications-teams.md)を超えている場合、ユーザーは会議に参加できません。 ルートの理由は、IB のチェックによって、ユーザーが会議チャットリストに追加できるかどうかに依存し、ユーザーが会議に参加することを許可することになります。 会議に一度参加すると、そのユーザーがリストに追加されます。そのため、定期的な会議の場合、名簿はすぐにいっぱいになります。 会議の出席 [制限](limits-specifications-teams.md)に達すると、追加のユーザーを会議のチャットリストに追加することはできません。 IB が有効になっている場合、会議に参加することはできませんが、IB が有効になっていない場合、ユーザーは会議に参加することはできますが、会議のチャットリストには追加されません。 短期的な解決策として、新しいユーザーのためのスペースを確保するため、会議のチャットリストから非アクティブなメンバーを削除します。 ただし、後日、会議チャットの選手名簿のサイズが大きくなります。
+- 臨時の **会議に参加でき** ない場合: IB ポリシーが有効になっていると、会議リストのサイズが会議の出席 [制限](limits-specifications-teams.md)を超えている場合、ユーザーは会議に参加できません。 ルートの理由は、IB のチェックによって、ユーザーが会議チャットリストに追加できるかどうかに依存し、ユーザーが会議に参加することを許可することになります。 会議に一度参加すると、そのユーザーがリストに追加されます。そのため、定期的な会議の場合、名簿はすぐにいっぱいになります。 会議の出席 [制限](limits-specifications-teams.md)に達すると、追加のユーザーを会議のチャットリストに追加することはできません。 このテナントで IB が有効になっていて、会議のチャットリストがいっぱいになっている場合、会議に参加することはできません。 ただし、テナントの IB が有効になっておらず、会議のチャットリストがいっぱいになっている場合は、会議に参加することはできません。ただし、会議にはチャットオプションは表示されません。 短期的な解決策として、新しいユーザーのためのスペースを確保するため、会議のチャットリストから非アクティブなメンバーを削除します。 ただし、後日、会議チャットの選手名簿のサイズが大きくなります。
+
+- **ユーザーがチャネル会議に参加でき** ない: IB ポリシーが有効になっている場合、ユーザーはチャネル会議に参加することはできません (チームのメンバーでない場合)。 ルートの理由は、IB のチェックによって、ユーザーが会議チャットリストに追加できるかどうかに依存し、ユーザーが会議に参加することを許可することになります。 チャネル会議のチャットスレッドは、チームまたはチャネルメンバーのみが利用でき、メンバー以外はチャットスレッドの表示/アクセスはできません。 このテナントで IB が有効であり、チーム以外のメンバーがチャネル会議に参加しようとした場合、ユーザーは会議に参加することはできません。 ただし、ユーザーがテナントの IB を有効にしておらず、チーム以外のメンバーがチャネル会議に参加しようとしても、会議に参加することはできますが、会議にはチャットオプションは表示されません。
 
 ## <a name="more-information"></a>詳細情報
 
