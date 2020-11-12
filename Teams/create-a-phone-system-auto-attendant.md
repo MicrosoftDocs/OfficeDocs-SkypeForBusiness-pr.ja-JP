@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams の自動応答をセットアップしてテストする方法について説明します。
-ms.openlocfilehash: a1770142d9ef02f1e23f446ee457d67c23812ce6
-ms.sourcegitcommit: 20f881285edf699ebf36320664166c95ccd6df35
+ms.openlocfilehash: 00cf80578564db122d4eaf206456b465a21668af
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48922471"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48999216"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -196,13 +196,11 @@ ms.locfileid: "48922471"
 
 ## <a name="external-phone-number-transfers---technical-details"></a>外部電話番号の転送-技術的な詳細
 
-外部電話番号に通話を転送する場合、自動応答または通話キューに関連付けられているリソースアカウントには、電話番号と Microsoft 365 電話システム仮想ユーザーライセンスが必要です。 かつ：
+自動応答が外部から通話を転送できるようにするには、 [前提条件](plan-auto-attendant-call-queue.md#prerequisites) を参照してください。  さらに：
 
-- 通話プラン番号を持つリソースアカウントの場合は、 [通話プラン](calling-plans-for-office-365.md) ライセンスを割り当てます。
-  - 外部転送用の電話番号は、164形式 (+ CC + phone_number) で入力する必要があります。
+- [通話プラン](calling-plans-for-office-365.md)番号のあるリソースアカウントの場合、外部の転送先電話番号は、e.i 形式 (+ [国コード] [市外局番] [電話番号]) に入力する必要があります。
 
-- 直接ルーティング番号を持つリソースアカウントの場合は、 [オンラインボイスルーティングポリシー](manage-voice-routing-policies.md)を割り当てます。
-  - 外部転送用の電話番号形式は、 [セッションボーダーコントローラー (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-connect-the-sbc) 設定に依存します。
+- 直接ルーティング番号を持つリソースアカウントの場合、[外部転送電話番号] 形式は、 [セッション境界コントローラー (SBC)](direct-routing-connect-the-sbc.md) の設定に依存します。
 
 表示される発信電話番号は、次のように決定されます。
 
@@ -210,8 +208,6 @@ ms.locfileid: "48922471"
   - 直接ルーティング番号の場合、送信された番号は、次のように、SBC の P (PAI) 設定に基づいています。
     - [無効] に設定すると、元の発信者の電話番号が表示されます。 これは既定の推奨設定です。
     - [有効] に設定されている場合は、リソースアカウントの電話番号が表示されます。
-
-通話プラン trunks と直接ルーティング trunks の間の転送はサポートされていません。
 
 Skype for Business のハイブリッド環境で、自動応答の着信を PSTN に転送するには、[着信の転送] が PSTN 番号に設定された新しいオンプレミスユーザーを作成します。 ユーザーはエンタープライズ Voip 用に有効になっていて、音声ポリシーが割り当てられている必要があります。 詳細については、「 [自動応答で PSTN に転送](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)する」を参照してください。
 

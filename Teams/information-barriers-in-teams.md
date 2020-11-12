@@ -16,12 +16,12 @@ description: この記事では、Microsoft Teams の情報障壁の概要と、
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d46a911d3844c7dbc95bf81feeec792173de012f
-ms.sourcegitcommit: 75eb4cce1a63cf200736790b74f4bb849e0e21ac
+ms.openlocfilehash: c545b6289cd1a40fdf9ca967ebd44cd2d781605d
+ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48988324"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48996018"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報障壁
 
@@ -29,7 +29,7 @@ ms.locfileid: "48988324"
 
 > [!NOTE]
 > - 情報バリアグループはテナント全体で作成できません。
-> - ユーザーの追加にボットを使用することは、バージョン1ではサポートされていません。
+> - ボット、AAD アプリ、および一部の Api を使用したユーザーの追加は、バージョン1ではサポートされていません。
 > - プライベートチャネルは、構成する情報バリアーポリシーに準拠しています。
 > - 新規: Teams に接続された SharePoint サイトの障壁のサポートについて [は、ここ](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)をクリックしてください。
 
