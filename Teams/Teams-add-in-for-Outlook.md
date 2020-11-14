@@ -16,14 +16,15 @@ ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
-ms.translationtype: HT
+ms.openlocfilehash: 574e770eb1756a2c83758b830c26e6adbac24183
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814103"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031763"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================

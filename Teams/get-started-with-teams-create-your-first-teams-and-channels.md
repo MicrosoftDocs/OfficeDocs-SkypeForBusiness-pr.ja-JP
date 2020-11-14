@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: lolaj
+ms.reviewer: serdars
 description: Microsoft Teams のクライアントまたは Microsoft Teams 管理センターで最初のチームとチャネルのセットを作成する方法について説明します。
 localization_priority: Priority
 search.appverid: MET150
@@ -14,15 +14,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1387d81c8ed54868f83f2439ec8f4db91505b3be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 63b612431e716bdba5d27e43e2756a56ec30e9dc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904652"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031583"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams で最初のチームとチャネルを作成する
 
@@ -60,17 +61,17 @@ ms.locfileid: "43904652"
 
 ### <a name="create-a-team"></a>チームを作成する
 
-Teams の左側にある **[Teams]** をクリックして、チームのリストの下側にある **[チームに参加またはチームの作成]** をクリックします。その後、**[新しいチームの作成]** をクリックします。
+Teams の左側にある **[Teams]** をクリックして、チームのリストの下側にある **[チームに参加またはチームの作成]** をクリックします。その後、 **[新しいチームの作成]** をクリックします。
 
 チームの作成後、チームに参加するようにユーザーを招待します。 個別のユーザーやグループを追加することも、連絡先グループ (旧称: 配布リスト) 全体を追加することもできます。 
 
 ![チームの名前と説明が表示されているチームの例を示すスクリーンショット](media/get-started-with-teams-create-team.png "チームの名前と説明が表示されている「Get to know Teams」チームの例を示すスクリーンショット") 
 
 ### <a name="add-a-team-owner"></a>チーム所有者を追加する
-作成したチームを探して、**[その他のオプション ˙˙˙]** > **[チームの管理]** をクリックします。 **[メンバー]** タブに移動して、チーム所有者として指名するユーザーを探します。 **[役割]** の **[所有者]** をクリックします。
+作成したチームを探して、 **[その他のオプション ˙˙˙]** > **[チームの管理]** をクリックします。 **[メンバー]** タブに移動して、チーム所有者として指名するユーザーを探します。 **[役割]** の **[所有者]** をクリックします。
 
 ### <a name="create-a-channel-in-a-team"></a>チームのチャネルを作成する
-作成したチームを探して、**[その他のオプション ...]** > **[チャネルの追加]** をクリックします。 **[チームの管理]** をクリックして、**[チャネル]** タブでチャネルを追加することもできます。 
+作成したチームを探して、 **[その他のオプション ...]** > **[チャネルの追加]** をクリックします。 **[チームの管理]** をクリックして、 **[チャネル]** タブでチャネルを追加することもできます。 
 
 ![[その他のオプション] をクリックすると利用できるオプションを示すスクリーンショット](media/get-started-with-teams-add-channel.png "チームの [その他のオプション] をクリックすると選択できる [チャネルの追加] オプション、[チームの管理] オプション、およびその他のオプションを示すスクリーンショット") 
 

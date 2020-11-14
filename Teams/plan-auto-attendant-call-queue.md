@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューの概要と、それらを使用して、発信者がメニューシステムを移動して組織内のユーザーや部署に連絡できるようにする方法について説明します。
-ms.openlocfilehash: 338926c167bd35742da06ca996946a22aeef1c72
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4eaad11841007176a1840ea0d789fa1496f10df4
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908606"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031563"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams の自動応答と通話キューを計画する
 

@@ -17,34 +17,35 @@ ms.custom:
 - seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bfd1e9ece85ff6bc5bce0791e1e82225894fdd1
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e6c779499a03538fe245ef458892530cfe5eaf0e
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583856"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031793"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>無料版の Microsoft Teams を管理する
 ==========================================
 
 Microsoft Teams の無料バージョンでは、組織に最初にサインアップしたユーザーには、制限された管理者の役割があります。 この制限された役割を持つユーザーは、チームメンバーの追加と削除、他のメンバーの招待を許可するかどうかの指定を行うことができます。このユーザーには、高度な管理機能はなく、Microsoft Teams 管理センターへのアクセスはありません。 詳細については、「 [Teams (無料版) にユーザーを招待する](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)」を参照してください。
 
-強化された管理機能など、チームのすべての機能を利用するには、適切な Microsoft 365 または Office 365 のサブスクリプションプランをユーザー向けに購入して、[完全なバージョンの teams にアップグレード](upgrade-freemium.md)する必要があります。 
+強化された管理機能など、チームのすべての機能を利用するには、適切な Microsoft 365 または Office 365 のサブスクリプションプランをユーザー向けに購入して、 [完全なバージョンの teams にアップグレード](upgrade-freemium.md) する必要があります。 
 
-チームのバージョンとその機能の詳細については、「[チームの計画を比較](https://products.office.com/microsoft-teams/free)する」を参照してください。
+チームのバージョンとその機能の詳細については、「 [チームの計画を比較](https://products.office.com/microsoft-teams/free)する」を参照してください。
 
 
 
 ## <a name="more-information"></a>詳細情報
 
 - Teams と Teams の相違点の概要については、「 [Microsoft teams と Microsoft teams の相違点](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c)」を参照してください。 
-- Teams のフルバージョンへのアップグレードの詳細については、「無料の teams[から teams にアップグレード](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39)する」および「 [Microsoft teams をサブスクリプション版にアップグレードする](upgrade-freemium.md)」を参照してください。
-- ユーザーのアップグレードに関連する追加の管理タスク (ユーザーライセンスの追加、ユーザー名の変更、一時パスワードの割り当てなど) の使用を開始するには、「[管理者がチームの無料アップグレードを有料のサブスクリプションにアップグレードする](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)」を参照してください。
+- Teams のフルバージョンへのアップグレードの詳細については、「無料の teams [から teams にアップグレード](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) する」および「 [Microsoft teams をサブスクリプション版にアップグレードする](upgrade-freemium.md)」を参照してください。
+- ユーザーのアップグレードに関連する追加の管理タスク (ユーザーライセンスの追加、ユーザー名の変更、一時パスワードの割り当てなど) の使用を開始するには、「 [管理者がチームの無料アップグレードを有料のサブスクリプションにアップグレードする](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)」を参照してください。
 
 ## <a name="get-the-right-teams-trial"></a>適切なチームの試用版を入手する
 
 - 無料の Teams の代わりとして、 [teams の探索](teams-exploratory.md)機能を確認します。
 
-- EDU のお客様は、無料の[Office 365 A1 ライセンス](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)を使用する必要があります。
+- EDU のお客様は、無料の [Office 365 A1 ライセンス](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans)を使用する必要があります。

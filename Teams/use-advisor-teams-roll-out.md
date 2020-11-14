@@ -10,6 +10,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - remotework
+- m365initiative-deployteams
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,18 +21,18 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
-ms.openlocfilehash: 00ec8303c73df100b93808f5fdc1e775f80ec289
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: afc3524466b9078b0050b23b59d45d049d11793b
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503424"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030823"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
 Teams のアドバイザーは、Microsoft Teams の展開について説明します。 Microsoft 365 組織の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。 次に、Teams のアドバイザーは、展開する各ワークロードのチャネルを備えた展開チーム (チーム内) を作成します。展開チームの各ワークロードには、各ワークロードのすべての展開タスクを含む包括的な Planner の計画が付属しています。  この Planner プランを使用して、プロジェクト マネージャー、Teams サービス管理者、サポート担当者、導入およびユーザー準備チームなど、展開の各フェーズの責任者にタスクを割り当てます。 各展開タスクには、タスクを正常に完了するために必要なすべてのガイダンスとリソースが含まれています。
 
-Teams のアドバイザーは、[Teams 管理センター](https://admin.teams.microsoft.com)の一部です。 Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic ライセンスが必要です。 Teams のアドバイザーの使用を開始するには、ダッシュボードの [**チームのワークロードの展開**] ウィジェットの [**開始**] ボタンをクリックします。 または、[**計画**] > [**Teams アドバイザー**] の順に移動します。
+Teams のアドバイザーは、[Teams 管理センター](https://admin.teams.microsoft.com)の一部です。 Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic ライセンスが必要です。 Teams のアドバイザーの使用を開始するには、ダッシュボードの [ **チームのワークロードの展開** ] ウィジェットの [ **開始** ] ボタンをクリックします。 または、[ **計画** ] > [ **Teams アドバイザー** ] の順に移動します。
 
 > [!IMPORTANT]
 > Teams のアドバイザーは、Microsoft 365 Government (GCC High または DoD) 展開では使用できません。
@@ -43,7 +44,7 @@ Teams のアドバイザー エクスペリエンスのガイド付きの概要�
 **Teams アドバイザーを使用するには、Teams、Forms、および Planner のライセンスが必要です。** ただし、Teams アドバイザーを使用するために Teams 管理者である必要はありません。組織内の誰でも使用できます。 Teams 管理センターにあるにもかかわらず、管理者以外のユーザーが Teams のアドバイザーにアクセスできるように、特別なアクセス許可を設定しました。 テナント準備状況アセスメントを開くには、Teams 管理者、Teams サービス管理者、またはグローバル管理者である必要があります (これは、特別な非管理者ロールが評価の基となる Microsoft Graph API にアクセスできないためです)。
 
 > [!IMPORTANT]
-> **Teams アドバイザー**が Teams 管理センターの [**計画**] の下に表示されていない場合、ユーザーは Teams のライセンスを取得していません。
+> **Teams アドバイザー** が Teams 管理センターの [ **計画** ] の下に表示されていない場合、ユーザーは Teams のライセンスを取得していません。
 
 Teams のアドバイザーを初めて使用する場合、Teams で展開チームが作成されます。 選択したワークロードごとにチャネルが追加されます。
 
@@ -71,7 +72,7 @@ Teams のアドバイザーは現在、次のプランを提供しています�
     - Teams のアドバイザー ボット
     - Skype for Business のアップグレード プランは、現在 Skype for Business Online またはオンプレミス環境で Skype for Business をご利用のお客様向けに設計されており、アップグレードの行程を正確に把握できるようになっています。 このプランでは、Teams を使い始めたばかりのお客様、Skype for Business と併せて既に Teams を使用しているお客様、あるいはアップグレードの準備ができているお客様のすべてに、変更の実装に実績のあるフレームワークを利用してステップ バイ ステップでアップグレードのプロセスを案内します。 このプランではさらに、[オンライン ガイダンスとベスト プラクティス](https://aka.ms/SkypeToTeams)、[ダウンロード可能なリソース ファイル](https://aka.ms/UpgradeSuccessKit)、[ライブでの 1 対多のアップグレード計画ワークショップ](https://aka.ms/UpgradeWorkshops)の他、成功を支援するさまざまなリソースにアクセスできます。
 
-チャット、チーム、チャネル、アプリ プランから始めることをお勧めします。 そのワークロードの展開が完了したら Teams のアドバイザーに戻り、[**チャネルの追加**] をクリックして次のワークロードを開始します。
+チャット、チーム、チャネル、アプリ プランから始めることをお勧めします。 そのワークロードの展開が完了したら Teams のアドバイザーに戻り、[ **チャネルの追加** ] をクリックして次のワークロードを開始します。
 
 ## <a name="tenant-assessment"></a>テナントの評価
 各プランには、Teams を展開する前に修復が必要な環境についての状況を迅速に特定するために使用できるテナント準備状況アセスメントが含まれています。 アセスメントには、前提条件とベスト プラクティスが含まれています。 各アセスメント テストには、緑色のチェック マークまたはオレンジ色の警告三角形が付いています。 
@@ -89,7 +90,7 @@ Teams のアドバイザーは現在、次のプランを提供しています�
 |アセスメント テスト  |確認できること  |
 |---------|---------|
 |構成済みのバニティ ドメイン     |テナント用に構成された @onmicrosoft.com 以外のドメイン (たとえば、@contoso.onmicrosoft.com) があるかどうか。 もちろん、@onmicrosoft.com ドメインを使用することも、バニティ ドメインを構成することもできます (任意)。 詳細については、「[Microsoft 365 にドメインを追加する](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)」をご覧ください。 |
-|Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが**必須です**。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。    |
+|Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが **必須です** 。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。    |
 |Exchange Online ライセンス     |使用可能な Exchange Online のライセンスで有効なサブスクリプションを所有しているかどうか 基本的な Teams 機能には Exchange は必要ありませんが、Exchange との統合により、最適な Teams エクスペリエンスが可能になります。 Microsoft Graph 内を検索して、テナントに関連付けられているサブスクリプションを分析し、対象の (割り当て可能なライセンスが少なくとも 1 つはある) Exchange Online ライセンスのサブスクリプションがあるかどうかを検証します。 詳細については、「[Exchange と Teams の連携](exchange-teams-interact.md)」をご覧ください。    |
 |SharePoint Online のライセンス     |使用可能な SharePoint Online のライセンスで有効なサブスクリプションを所有しているかどうか チャットのファイル ストレージに OneDrive for Business を提供する場合、ユーザーごとに SharePoint Online ライセンスを所有することをお勧めします。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) SharePoint Online ライセンスがあるかどうかを確認します。 詳細については、[Teams との SharePoint Online と OneDrive for Business の連携](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)をご覧ください。    |
 |ゲスト アクセスの有効化     |[ゲスト アクセス](guest-access.md)が有効になっているかどうか。 ゲスト アクセスを使用すると、外部ユーザーをチームに招待できます。 「[チームでゲストと共同で作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照して、Teams でゲスト アクセスを有効にします。チェックリストには、必要な Azure AD 構成が含まれています。 |
@@ -126,7 +127,7 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 > 
 >**実施すべき内容** 
 >- Teams または Planner を初めて使用する場合は、「[Teams のチュートリアル](https://teamsdemo.office.com/)」を確認し、「[Planner クイックスタート ビデオ](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)」をご覧ください。 
->- Teams の展開チームを見てみます。 ワークロード チャネル (チャット、チーム、チャネル、アプリなど) を選択し、[**Planner**] タブを選択して開始します。
+>- Teams の展開チームを見てみます。 ワークロード チャネル (チャット、チーム、チャネル、アプリなど) を選択し、[ **Planner** ] タブを選択して開始します。
 > 
 >Teams のアドバイザーの詳細については、「[Teams のアドバイザーを使用して Microsoft Teams を展開する](use-advisor-teams-roll-out.md)」を参照してください。
 >

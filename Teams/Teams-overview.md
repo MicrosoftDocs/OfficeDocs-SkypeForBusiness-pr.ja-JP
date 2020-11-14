@@ -6,24 +6,25 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: LolaJ
+ms.reviewer: serdars
 description: Microsoft Teams を組織に展開するための正しい経路を見つけます。 Teams のインフラストラクチャと、Microsoft 365 または Office 365 での Teams の使用について説明します。
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11fe80ef9ee96b0eb1c4c9f4ebc1613549efc059
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582464"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030983"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams を使用する準備が整っている場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」から始めてください。
@@ -34,7 +35,7 @@ Teams の管理者向けビデオの「Teams へようこそ」をお見逃し�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、[Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。 トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
+エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、 [Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。 トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
 
 ## <a name="teams-architecture"></a>Teams のアーキテクチャ
 
@@ -92,7 +93,7 @@ Skype for Business を実行していて、Teams にアップグレードする�
 
 - **Yammer** は、組織全体にわたるユーザーを接続するために使用します。 会社全体の取り組みを推進したり、ベスト プラクティスを共有したり、一般的な領域または関心のある話題や実践に関するコミュニティを構築したりすることができます。 クラウドソーシングのアイデアで、会社全体にわたるユーザーとのオープンなディスカッションを促進します。
 
-- **Office アプリ**は、Word、Excel、 PowerPoint、OneNote などを含む、すべてユーザーが良く知っていて、恒常的に使用している、慣れ親しんだツールです。 
+- **Office アプリ** は、Word、Excel、 PowerPoint、OneNote などを含む、すべてユーザーが良く知っていて、恒常的に使用している、慣れ親しんだツールです。 
 
 ## <a name="teams-content-updates"></a>Teams のコンテンツ アップデート
 

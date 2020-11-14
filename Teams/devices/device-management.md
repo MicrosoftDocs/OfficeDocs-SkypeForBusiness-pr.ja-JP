@@ -9,6 +9,7 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +20,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ddf36c27a8fbc3aadfddaddee886d1906bab82
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+ms.openlocfilehash: d6996b0980ae7305a7517a71645ba823a588e2f8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48793530"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49033023"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Microsoft Teams でのデバイスの管理
 

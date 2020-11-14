@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 または Office 365 の電話会議 (PSTN 会議) ライセンスを試用または購入して、ユーザーがダイヤルインできる電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: a1492d7adc67be8fcac100f179514a1e9a2c948a
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 8f2aa7d8fdbf6c3088c483e4d5f941625e2a8da8
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788441"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031273"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft Teams の Microsoft 365 で電話会議を試用または購入する
 
@@ -48,9 +49,9 @@ ms.locfileid: "46788441"
 
 2. **電話会議** のライセンスを取得します。 以下を希望する場合:
 
-   - 購入する前に**試す**: 電話会議が含まれている Office 365 Enterprise E5 無料トライアルにサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
+   - 購入する前に **試す** : 電話会議が含まれている Office 365 Enterprise E5 無料トライアルにサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
-   - **購入する場合は、**「Microsoft Teams のアドオンライセンス」 https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) を参照してください。
+   - **購入する場合は、** 「Microsoft Teams のアドオンライセンス」 https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) を参照してください。
 
 3. 会議をスケジュールまたは開催しようとしている組織内の[ユーザーにライセンスを割り当て](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)ます。
 
@@ -82,7 +83,7 @@ ms.locfileid: "46788441"
 
 ## <a name="step-3-other-admin-tasks"></a>手順 3: その他の管理タスク
 
-次の手順は**オプション**ですが、管理者の多くは次の設定を行うのを好みます。
+次の手順は **オプション** ですが、管理者の多くは次の設定を行うのを好みます。
 
 1. [会議出席依頼をカスタマイズ](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)します。 ユーザー向けに設定されているダイヤルイン番号は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 ただし、独自のヘルプや法的リンク、テキスト メッセージ、会社の小さな画像を追加できます。
 

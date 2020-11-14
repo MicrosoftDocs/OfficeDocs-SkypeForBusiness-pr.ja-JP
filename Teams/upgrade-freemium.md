@@ -17,14 +17,15 @@ ms.custom:
 - seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1bc33f681ce23eb98306e4bf8e375847f816e4e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 78fe1c8ad5da4203e5b04330c94c6cdb9914eedc
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583716"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031003"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>無料版の Microsoft Teams をサブスクリプションバージョンにアップグレードする
 
@@ -57,7 +58,7 @@ Microsoft 365 または Office 365 サブスクリプションに含まれてい
 - 多要素認証、シングルサインオン、高度な監査とレポートなど、強化されたセキュリティ機能とコンプライアンス機能
 - 24 x 7 の電話と web のサポート、ユーザーとアプリを管理するための管理ツール、Microsoft 365 または Office 365 サービスの使用状況レポート、サービスレベル契約、および構成可能なユーザー設定とポリシーを含む、管理コントロールとサポート機能
 
-Teams の無料機能と Teams 機能の詳細については、「[チームプランの比較](https://products.office.com/microsoft-teams/free)」を参照してください。
+Teams の無料機能と Teams 機能の詳細については、「 [チームプランの比較](https://products.office.com/microsoft-teams/free)」を参照してください。
 
 ## <a name="upgrade-requirements"></a>アップグレードの要件
 
@@ -75,25 +76,25 @@ Teams の無料機能と Teams 機能の詳細については、「[チームプ
 
 - アップグレードした後は、無料で Teams に戻すことはできません。
 - 複数の Teams 無料テナントを1つの有料テナントに統合することはできません。
-- すべてのユーザーが同じドメインに存在する必要があります。 (すべてのユーザーは、ユーザー*名* @ の形式でサインインします。*domain.com*
+- すべてのユーザーが同じドメインに存在する必要があります。 (すべてのユーザーは、ユーザー *名* @ の形式でサインインします。 *domain.com*
 - すべてのユーザーをアップグレードする必要があります。同じテナントに Teams の無料サブスクリプションユーザーと有料サブスクリプションの両方を混在させることはできません。
 
 ## <a name="how-do-i-upgrade-my-organization"></a>組織をアップグレードするにはどうすればよいですか?
 
-フルバージョンの Teams にアップグレードするには、[Teams で**アップグレード**] を選択します。
+フルバージョンの Teams にアップグレードするには、[Teams で **アップグレード** ] を選択します。
 
 ![[アップグレード] ボタンを示すスクリーンショット](media/teams-freemium-upgrade-image1.png)
 
-チームへのサインインに使用するメールアドレスを入力して、Microsoft 365 ビジネス Standard プランを購入します。 Microsoft 365 Business Basic または Enterprise edition の Office 365 を購入する場合は、[サポートにお問い合わせ](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)ください。
+チームへのサインインに使用するメールアドレスを入力して、Microsoft 365 ビジネス Standard プランを購入します。 Microsoft 365 Business Basic または Enterprise edition の Office 365 を購入する場合は、 [サポートにお問い合わせ](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)ください。
 
 ## <a name="whats-next"></a>次の作業
 
-アップグレードが完了したら、最初の手順については、「 [Microsoft teams の使用を開始](get-started-with-teams-quick-start.md)する」および「 [microsoft teams](adopt-microsoft-teams-landing-page.md)を組織全体でのチームの導入への段階的アプローチに採用する」を参照してください。
+アップグレードが完了したら、最初の手順については、「 [Microsoft teams の使用を開始](get-started-with-teams-quick-start.md) する」および「 [microsoft teams](adopt-microsoft-teams-landing-page.md) を組織全体でのチームの導入への段階的アプローチに採用する」を参照してください。
 
 ## <a name="more-information"></a>詳細情報
 
-- チームのバージョンとその機能の詳細については、「[チームの計画を比較](https://products.office.com/microsoft-teams/free)する」を参照してください。
-- Teams のフルバージョンへのアップグレードの詳細については、「無料の teams[から teams にアップグレードする](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)」を参照してください。
-- ユーザーのアップグレードに関連するその他の管理タスク (ユーザーライセンスの追加、ユーザー名の変更、一時パスワードの割り当てなど) については、「[無料のサブスクリプションから有料のサブスクリプションにアップグレードするための管理者向け](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)」を参照してください。
+- チームのバージョンとその機能の詳細については、「 [チームの計画を比較](https://products.office.com/microsoft-teams/free)する」を参照してください。
+- Teams のフルバージョンへのアップグレードの詳細については、「無料の teams [から teams にアップグレードする](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)」を参照してください。
+- ユーザーのアップグレードに関連するその他の管理タスク (ユーザーライセンスの追加、ユーザー名の変更、一時パスワードの割り当てなど) については、「 [無料のサブスクリプションから有料のサブスクリプションにアップグレードするための管理者向け](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)」を参照してください。
 - 組織内のチームを無料で管理する方法については、「 [Microsoft Teams の無料バージョンを管理](manage-freemium.md)する」を参照してください。
 

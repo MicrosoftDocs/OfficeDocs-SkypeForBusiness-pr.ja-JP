@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -26,19 +27,19 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 組織で Microsoft Teams のユーザー (サブスクライバー) とサービス (有料およびフリーダイヤル) の電話番号を取得および管理する方法について説明します。
-ms.openlocfilehash: f4c9c7a20d5aa20f72f5854e9766f1955c5e4911
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 7d72bdd8f688d079ce3627935d837d94d9b1d5f6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320822"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031753"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
 
 組織のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得するには、次の4つの方法があります。
 - [Microsoft Teams 管理センターで新しいユーザーの電話番号を取得する](https://docs.microsoft.com/microsoftteams/getting-phone-numbers-for-your-users#get-new-phone-numbers-for-your-users)。
 - [Microsoft Teams 管理センターで新しいサービス電話番号を取得する](https://docs.microsoft.com/microsoftteams/getting-service-phone-numbers#get-new-service-numbers)。
-- [既存の電話番号をお客さまに転送または_移植_](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams)します。
+- [既存の電話番号をお客さまに転送または _移植_](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams#create-a-port-order-and-transfer-your-phone-numbers-to-teams)します。
 - Microsoft Teams 管理センターに表示されていない新しい電話番号には、要求フォームを使用します。
 
 > [!IMPORTANT]
@@ -67,7 +68,7 @@ ms.locfileid: "48320822"
 > - [英国](phone-number-management-for-the-u-k.md)
 > - [プエルトリコ & アメリカ州](phone-number-management-for-the-u-s.md)
 
-***
+**_
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>これらの番号の要求フォームの詳細についてはこちらです
 
 ### <a name="request-forms-for-new-phone-numbers"></a>新しい電話番号の要求フォーム
@@ -82,13 +83,13 @@ ms.locfileid: "48320822"
 
 既存の電話番号を移行/移植する必要がある場合は、承認状 (LOA) をダウンロードして、入力して送信する必要があります。これにより、お客様に代わって、別のサービスプロバイダの既存の番号を Microsoft Teams に送信する権限が付与されます。
 
-現在、別の電話会社に次のものがある場合は、 **Loa** をお送りください。
+現在、別の電話会社に次のものがある場合は、_ *Loa* * をお送りください。
 - ユーザー (サブスクライバー) 番号。
 - 電話会議ブリッジ、自動応答、または通話キューのサービス (有料) 番号。
-- 無料の電話番号。
+- 電話番号を Toll-Free します。
 - 999以上のユーザーの電話番号を移行する必要がありますが、電話番号の移行ウィザードを使用して Microsoft Teams 管理センターからアクセスすることはできません。
 
-**入力して署名**した loa が完了したら、 [PSTN サービスデスクにお問い合わせ](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk)ください。
+**入力して署名** した loa が完了したら、 [PSTN サービスデスクにお問い合わせ](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk)ください。
 
 ## <a name="still-need-assistance"></a>さらにサポートが必要な場合
 
@@ -96,7 +97,7 @@ Skype [PSTN サービスデスクに連絡して](https://docs.microsoft.com/mic
 
 ## <a name="additional-resources"></a>その他のリソース
 
-- お住まいの国または地域で利用可能な通話プランが_あるかどうか_を確認するには、「[電話会議と通話プランの国と地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)の状態を確認する」を参照してください。
+- お住まいの国または地域で利用可能な通話プランが _あるかどうか_ を確認するには、「 [電話会議と通話プランの国と地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)の状態を確認する」を参照してください。
 - 適切な電話番号の種類を選択する方法については、「 [プランの発信に使用するさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)」を参照してください。
 - 組織の電話番号の設定に関するサポートについては、「 [ビジネス製品のサポートへのお問い合わせ-管理者向けヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)」を参照してください。
     

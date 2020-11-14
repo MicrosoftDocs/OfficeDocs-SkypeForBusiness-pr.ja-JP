@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ユーザーにクラウドボイスメールをセットアップする方法について説明します。 '
-ms.openlocfilehash: 62729794ff1e23ce29b3e3aad86fa09b63a428e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691053"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031073"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
-この記事は、Microsoft 365 または Office 365 管理者を対象としています。詳しくは、「クラウドボイスメール機能をセットアップして、社内のすべてのユーザーを対象にしています[」で説明](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)しています。
+この記事は、Microsoft 365 または Office 365 管理者を対象としています。詳しくは、「クラウドボイスメール機能をセットアップして、社内のすべてのユーザーを対象にしています [」で説明](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) しています。
 
 > [!NOTE]
 > クラウドボイスメールでは、Exchange メールボックスでのボイスメールメッセージのデポジットのみがサポートされ、サードパーティのメールシステムはサポートされません。 
@@ -40,7 +41,7 @@ ms.locfileid: "44691053"
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>クラウドのみの環境: オンライン電話システムユーザーにクラウドボイスメールをセットアップする
 
-オンライン電話システムを利用している場合は、**電話システム**のライセンスをユーザーに割り当てた後で、クラウドボイスメールが自動的に設定され、ユーザーに提供されます。 
+オンライン電話システムを利用している場合は、 **電話システム** のライセンスをユーザーに割り当てた後で、クラウドボイスメールが自動的に設定され、ユーザーに提供されます。 
 
 > [!NOTE]
 > オンプレミスの電話番号を提供するオンラインの Skype for Business 電話システムユーザーの場合は、 [HostedVoicemail $True](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)を使用して、ホストされているボイスメールを有効にする必要がある場合があります。 
@@ -49,30 +50,30 @@ ms.locfileid: "44691053"
 
 以下の情報は、電話システムに接続しているが、Exchange Server にメールボックスがあるユーザーと連携するようにクラウドボイスメールを構成する方法について説明します。 
   
-1. ボイスメールメッセージは、Exchange Online Protection を介してルーティングされる SMTP 経由で、ユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信されるようにするには、exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認します。[コネクタを使用して、メールフローを構成](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。 
+1. ボイスメールメッセージは、Exchange Online Protection を介してルーティングされる SMTP 経由で、ユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信されるようにするには、exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認します。 [コネクタを使用して、メールフローを構成](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。 
 
 2. Skype for Business クライアントでの応答メッセージや視覚ボイスメールのカスタマイズなどのボイスメール機能を有効にするには、Exchange Web Services 経由で Microsoft 365 または Office 365 から Exchange server メールボックスに接続する必要があります。 この接続を有効にするには、「 [exchange と Exchange Online の間の Oauth 認証を構成](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)する」で説明されている新しい exchange Oauth 認証プロトコルを構成するか、または EXCHANGE 2013 cu5 以降以上から Exchange ハイブリッドウィザードを実行する必要があります。 さらに、「skype for business [online と Exchange server の間の統合と oauth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明されているように、Skype For business Online と exchange server の間で統合と oauth を構成する必要があります。 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Skype for Business Server ユーザー用にクラウドボイスメールをセットアップする
 
-クラウドボイスメール用に Skype for Business server ユーザーを構成するには、「[オンプレミスユーザー向けのクラウドボイスメールサービスの計画](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)」を参照してください。
+クラウドボイスメール用に Skype for Business server ユーザーを構成するには、「 [オンプレミスユーザー向けのクラウドボイスメールサービスの計画](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)」を参照してください。
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>組織で保護されたボイスメールを有効にする
 
 組織内のユーザーに対してボイスメールメッセージを残した場合、ボイスメールは、メールメッセージの添付ファイルとしてユーザーのメールボックスに配信されます。 メールフロールールを使ってメッセージの暗号化を適用すると、これらのボイスメールメッセージが他の受信者に転送されないようにすることができます。 保護されたボイスメールを有効にすると、ユーザーはボイスメールメールボックスを使用するか、outlook、Outlook on the web、または Android 用 Outlook または iOS 版 Outlook でメッセージを開くことによって、保護されたボイスメールメッセージを聞くことができます。 保護されたボイスメールメッセージを Skype for Business で開くことはできません。
 
-メッセージの暗号化の詳細については、「[メールの暗号化](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)」を参照してください。
+メッセージの暗号化の詳細については、「 [メールの暗号化](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)」を参照してください。
 
 保護されたボイスメールを設定するには、次の操作を行います。
 
 1. https://admin.microsoft.comグローバル管理者の権限を持つアカウントを使用して、に移動してサインインします。
-2. [**すべて表示**] を選択し、[**管理センター**の Exchange] に移動し  >  **Exchange**ます。
-3. Exchange 管理センターで、[**メールフロー**ルール] を選択し  >  **Rules**ます。
-4. [追加] を選択し **+** **Add**、[ **Office 365 メッセージの暗号化と権限の保護をメッセージに適用する**] を選択します。
-5. 新しいメールフロールールの名前を指定し、[**このルールを適用****する**条件] で [メッセージの種類] ボックスに「  >  **Include the message type**  >  **ボイスメール**」と入力します。 [ **OK]** を選びます。
-6. [**実行する処理**] で、[ **Office 365 メッセージの暗号化と著作権の保護をメッセージに適用する**] を選択し、[ **1 つ選択**] を選択します。 [ **RMS テンプレート**] で、[**転送しない**] を選択します。 [ **OK]** 、[**保存**] の順に選択します。
+2. [ **すべて表示** ] を選択し、[ **管理センター** の Exchange] に移動し  >  **Exchange** ます。
+3. Exchange 管理センターで、[ **メールフロー** ルール] を選択し  >  **Rules** ます。
+4. [追加] を選択し **+** **Add** 、[ **Office 365 メッセージの暗号化と権限の保護をメッセージに適用する** ] を選択します。
+5. 新しいメールフロールールの名前を指定し、[ **このルールを適用****する** 条件] で [メッセージの種類] ボックスに「  >  **Include the message type**  >  **ボイスメール** 」と入力します。 [ **OK]** を選びます。
+6. [ **実行する処理** ] で、[ **Office 365 メッセージの暗号化と著作権の保護をメッセージに適用する** ] を選択し、[ **1 つ選択** ] を選択します。 [ **RMS テンプレート** ] で、[ **転送しない** ] を選択します。 [ **OK]** 、[ **保存** ] の順に選択します。
     > [!NOTE]
-    > **RMS テンプレート**の一覧が空の場合は、メッセージの暗号化を設定する必要があります。 メッセージの暗号化の設定の詳細については、次の記事を参照してください。
+    > **RMS テンプレート** の一覧が空の場合は、メッセージの暗号化を設定する必要があります。 メッセージの暗号化の設定の詳細については、次の記事を参照してください。
     > - [新しいメッセージの暗号化機能を設定する](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Azure Information Protection 用のテンプレートの構成と管理](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
     > - [メールの [転送しない] オプション](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
@@ -84,12 +85,12 @@ ms.locfileid: "44691053"
 
 既定では、すべての組織とユーザーに対して、ボイスメール トランスクリプションは有効に、トランスクリプション不適切表現マスキングは無効になっています。ただし、[Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) と [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) コマンドレットを使用してそれらを制御することができます。
 
-組織内のユーザーから受信したボイスメールメッセージは、Microsoft 365 または Office 365 組織がホストされている地域に transcribed されています。 テナントがホストされている地域は、ボイスメールメッセージを受信するユーザーが配置されている地域とは異なる場合があります。 テナントがホストされている地域を表示するには、[[組織プロファイル](https://go.microsoft.com/fwlink/p/?linkid=2067339)] ページに移動し、[**データの場所**] の横にある [詳細の**表示**] をクリックします。
+組織内のユーザーから受信したボイスメールメッセージは、Microsoft 365 または Office 365 組織がホストされている地域に transcribed されています。 テナントがホストされている地域は、ボイスメールメッセージを受信するユーザーが配置されている地域とは異なる場合があります。 テナントがホストされている地域を表示するには、[ [組織プロファイル](https://go.microsoft.com/fwlink/p/?linkid=2067339)] ページに移動し、[ **データの場所** ] の横にある [詳細の **表示** ] をクリックします。
 
 > [!IMPORTANT]
-> **New-csonlinevoicemailpolicy**コマンドレットを使って、書き起こしと議事録のプロファニティマスク用の新しいポリシーインスタンスを作成することはできません。また、 **new-csonlinevoicemailpolicy**コマンドレットを使用して既存のポリシーインスタンスを削除することもできません。
+> **New-csonlinevoicemailpolicy** コマンドレットを使って、書き起こしと議事録のプロファニティマスク用の新しいポリシーインスタンスを作成することはできません。また、 **new-csonlinevoicemailpolicy** コマンドレットを使用して既存のポリシーインスタンスを削除することもできません。
 
-ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 利用可能なボイスメールポリシーのすべてのインスタンスを表示するには、 [new-csonlinevoicemailpolicy](https://technet.microsoft.com/library/mt798311.aspx)コマンドレットを使用します。
+ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 利用可能なボイスメールポリシーのすべてのインスタンスを表示するには、 [new-csonlinevoicemailpolicy](https://technet.microsoft.com/library/mt798311.aspx) コマンドレットを使用します。
 
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
@@ -113,7 +114,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>ユーザーのトランスクリプションをオフにする
 
-ユーザー ポリシーは組織の既定の設定より前に評価されます。 たとえば、すべてのユーザーに対してボイスメールの議事録が有効になっている場合は、 [new-csonlinevoicemailpolicy](https://technet.microsoft.com/library/mt798309.aspx)コマンドレットを使用して、特定のユーザーに対して議事録を無効にするポリシーを割り当てることができます。
+ユーザー ポリシーは組織の既定の設定より前に評価されます。 たとえば、すべてのユーザーに対してボイスメールの議事録が有効になっている場合は、 [new-csonlinevoicemailpolicy](https://technet.microsoft.com/library/mt798309.aspx) コマンドレットを使用して、特定のユーザーに対して議事録を無効にするポリシーを割り当てることができます。
 
 単一ユーザーに対するトランスクリプションを無効にするには、次を実行します。
 

@@ -13,27 +13,28 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412624"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030613"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>[作業の開始] ウィザードを使用して Business Voice をセットアップする
 
 > [!IMPORTANT]
-> この記事の情報は、通話プラン**付き** Business Voice のみに適用されます。 通話プラン付き Business Voice は、一部の国と地域でのみ使用できます。 この記事を読む前に、「[Business Voice を利用できる国と地域](country-region-availability.md)」で、お住まいの国または地域が通話プラン付き Business Voice をサポートしているかどうかを確認してください。
+> この記事の情報は、通話プラン **付き** Business Voice のみに適用されます。 通話プラン付き Business Voice は、一部の国と地域でのみ使用できます。 この記事を読む前に、「[Business Voice を利用できる国と地域](country-region-availability.md)」で、お住まいの国または地域が通話プラン付き Business Voice をサポートしているかどうかを確認してください。
 >
 > テナントが通話プラン付き Business Voice をサポートしていない国または地域にある場合は、「[Microsoft 販売店または Microsoft パートナーからサポートを受ける](reseller-partner-support.md)」をご覧ください。
 
 Microsoft 365 Business Voice の [作業の開始] ウィザードを使用すると、Microsoft Teams で電話をかけたり受けたりできるよう、すばやく設定できます。 始めたばかりの小規模ビジネスの場合、ウィザードを使用すると、電話番号、通話メニュー、案内応答などを使用して、数分で起動して実行できます。 テレフォニー ソリューションを確立している大企業の場合、ウィザードを使用してパイロットをセットアップできるため、全員に展開する前に少数のユーザーで Business Voice を試用できます。 いずれにしても、ウィザードが終了したらすぐに Business Voice の使用を開始できます!
 
-ウィザードを開始する前にこの記事を読むことをお勧めします。 ウィザードを実行する準備ができたら、「[Microsoft 365 Business を使い始める](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)」のページの [**作業の開始**] を選択します。 サブスクリプションの作成に使用したアカウントまたはグローバル管理者である別のアカウントでサインインしてください。
+ウィザードを開始する前にこの記事を読むことをお勧めします。 ウィザードを実行する準備ができたら、「 [Microsoft 365 Business を使い始める](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)」のページの [ **作業の開始** ] を選択します。 サブスクリプションの作成に使用したアカウントまたはグローバル管理者である別のアカウントでサインインしてください。
 
 > [!IMPORTANT]
 > Microsoft Teams と Business Voice は、ユーザーのメールボックスが Microsoft 365 にある場合にのみ機能します。  オンプレミスの Exchange Server 上のメールボックスはサポートしていません。

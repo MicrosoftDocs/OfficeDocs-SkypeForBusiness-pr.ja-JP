@@ -12,18 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8c67d7f7006720849f4e14ecf7b22e65cdfa9d2f
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 9212c096323eb57754e0a8a47b61649bec42de87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177559"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49032988"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -59,9 +60,9 @@ ms.locfileid: "48177559"
 これらのネットワーク要件を満たしていることを確認したら、チームを [ロールアウト](How-to-roll-out-teams.md)することができます。 大企業向けの企業の場合、またはネットワークの制限事項があることがわかっている場合は、「チームのネットワークを評価して最適化する方法」をご覧ください。
 
 > [!IMPORTANT]
-> **教育機関向けの**場合: 組織が教育機関であり、学生情報システム (SIS) を使用している場合は、チームをロールアウトする前に [School Data Sync を展開](https://docs.microsoft.com/schooldatasync/) してください。
+> **教育機関向けの** 場合: 組織が教育機関であり、学生情報システム (SIS) を使用している場合は、チームをロールアウトする前に [School Data Sync を展開](https://docs.microsoft.com/schooldatasync/) してください。
 >  
-> **オンプレミスの skype For Business server を実行**している場合: 組織がオンプレミスの Skype For business server (または Lync server) を実行している場合、オンプレミスのディレクトリを Microsoft 365 または Office 365 と同期するように [Azure AD Connect を構成](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) する必要があります。
+> **オンプレミスの skype For Business server を実行** している場合: 組織がオンプレミスの Skype For business server (または Lync server) を実行している場合、オンプレミスのディレクトリを Microsoft 365 または Office 365 と同期するように [Azure AD Connect を構成](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect) する必要があります。
 
 ### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>ベストプラクティス: CQD と通話分析を使用してネットワークを監視する 
 

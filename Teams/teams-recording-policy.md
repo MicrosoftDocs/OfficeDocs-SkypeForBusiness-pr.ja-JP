@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a7a40a4f7e99f79f67c0aaea0e5259652b5a8d8
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 61fbce79fc528f4b69baed9c08a8dabc9d40ed4a
+ms.sourcegitcommit: 76fc38fe1fbbd93bf2815c57e66fc479df34d929
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908576"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "49002199"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話 & 会議用の Teams ポリシーベースのレコーディングの概要
 
@@ -40,7 +40,7 @@ Teams では、チームの通信を構成、管理、記録、保存、およ�
 
 - 既存のチーム管理者との統合、会議のツールとポリシーの統合など、コンプライアンスの記録用の新しい管理ポリシー
 
-コンプライアンス記録を有効にするには、Microsoft 365 A3/A5/E3/E5 と Office 365 A3/A5/E3 ユーザーを使用できます。 
+コンプライアンス記録を有効にするには、Microsoft 365 A3/A5/E3/E5/ビジネス Premium および Office 365 A3/A5/E3 ユーザーを使用できます。 
 
 コンプライアンス記録ソリューションの統合機能も、 [<span class="underline">コンプライアンス記録と Microsoft Teams セッション</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)の Ignite 2019 でレビューされています。
 
@@ -232,6 +232,6 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 認定プログラムに参加しようとしているベンダーの場合は、メール  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>してください。

@@ -9,6 +9,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +18,12 @@ description: オーディオ、ビデオ、画面共有のアクティビティ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0030cdc3a7e4929435127f9c4fbe549c7a6bf20
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2942de5e824d0553ba9d92f445d3635d73f0fe83
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503464"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031033"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -131,13 +132,13 @@ Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRe
 
 会議のレコーディングが開始していない新規および既存のテナントの場合、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになると、新しいレコーディングは国内に保存されます。 ただし、国内データ常駐地域で Microsoft Stream が利用可能になる前に会議レコーディングを有効にするすべてのテナントは、Microsoft Stream が国内のデータ常駐地域で利用できるようになった後でも、既存の録音および新規の記録に Microsoft stream ストレージを使い続けます。
 
-お客様の Microsoft Stream データが保存されるリージョンを確認するには、Microsoft Stream で、右上隅にある **[?]** をクリックし、 **[About Microsoft Stream](Microsoft Stream について)** をクリックして、**[Your data is stored in](データの保存場所)** をクリックします。  Microsoft Stream でデータが保存されるリージョンについて詳しくは、「[Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)」を参照してください。
+お客様の Microsoft Stream データが保存されるリージョンを確認するには、Microsoft Stream で、右上隅にある **[?]** をクリックし、 **[About Microsoft Stream](Microsoft Stream について)** をクリックして、 **[Your data is stored in](データの保存場所)** をクリックします。  Microsoft Stream でデータが保存されるリージョンについて詳しくは、「[Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)」を参照してください。
 
 Microsoft 365 または Office 365 のサービス間でデータが保存される場所の詳細については、「[データがどこにあるか](https://products.office.com/where-is-your-data-located?rtc=1)を確認する」を参照してください。
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>レコーディングの文字起こしを有効または無効にする
 
-この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 これをオフにすると、会議の記録の再生中に [**検索**] および [**CC**] オプションを使用できなくなります。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。
+この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 これをオフにすると、会議の記録の再生中に [ **検索** ] および [ **CC** ] オプションを使用できなくなります。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。
 
 > [!NOTE]
 > 記録された会議のための議事録は、現在のところ、Teams の言語が英語に設定され、会議で英語が話されているユーザーのみがサポートしています。 Microsoft Stream クラウドストレージの会議のレコーディングと共に保存されます。

@@ -8,6 +8,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+- m365initiative-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +18,12 @@ description: Microsoft 通話プランおよび電話システムダイレクト
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 06153eccd343ef8731af38ff4e3b45cea334fcb2
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269651"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031013"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -147,9 +148,9 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、緊急�
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. 左側のナビゲーションで、 **[場所]**  >  **ネットワーク & 場所**に移動します。
-2. 追加するネットワーク識別子を示すタブをクリックします。 たとえば、[ **サブネット**]、[ **wi-fi アクセスポイント**]、[ **スイッチ**]、または [ **ポート**] をクリックします。 [ **追加**] をクリックします。
-3. フィールドに入力し、緊急対応の場所を追加して、[ **適用**] をクリックします。
+1. 左側のナビゲーションで、 **[場所]**  >  **ネットワーク & 場所** に移動します。
+2. 追加するネットワーク識別子を示すタブをクリックします。 たとえば、[ **サブネット** ]、[ **wi-fi アクセスポイント** ]、[ **スイッチ** ]、または [ **ポート** ] をクリックします。 [ **追加** ] をクリックします。
+3. フィールドに入力し、緊急対応の場所を追加して、[ **適用** ] をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
@@ -216,7 +217,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 - **米国のダイレクトルーティングのお客様** は、テストサービスの ersp と連携する必要があります。
 
- ## <a name="related-topics"></a>関連トピック
+ ## <a name="related-topics"></a>関連項目
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)

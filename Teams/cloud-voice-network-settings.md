@@ -8,27 +8,28 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: ダイレクトルーティングと強化された緊急サービスの位置情報に基づくルーティング用に構成する必要があるネットワーク設定について説明します。
+description: ダイレクトルーティングと強化された緊急サービスの Location-Based ルーティング用に構成する必要があるネットワーク設定について説明します。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- m365initiative-voice
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bc2694760e93579a78cb849cc054d70a65431724
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a01f80e00be75600fdd93f9758a1974b57954e87
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139066"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031833"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams のクラウド音声機能のネットワーク設定
 
 ネットワーク領域、ネットワークサイト、ネットワークサブネット、および信頼できる IP アドレスについて説明します。 このような用語と概念は、skype のクラウドボイスドキュメントで使用され、ダイレクトルーティングおよび[動的緊急通話](configure-dynamic-emergency-calling.md)[の位置情報に基づくルーティング](location-based-routing-plan.md)を対象としています。 これらのクラウド機能を組織に展開している場合は、Microsoft Teams でこれらの機能を使用するためにネットワーク設定を構成する必要があります。
 
-この記事では、位置に基づくルーティングと動的な緊急通話に共通するネットワーク設定の概要を示します。 展開しているクラウドの音声機能と機能に応じて、これらの設定の一部またはすべてを構成します。 これらの設定を構成する手順については、「 [Teams のクラウド機能のネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
+この記事では、Location-Based ルーティングと動的な緊急通話に共通するネットワーク設定の概要を示します。 展開しているクラウドの音声機能と機能に応じて、これらの設定の一部またはすべてを構成します。 これらの設定を構成する手順については、「 [Teams のクラウド機能のネットワークトポロジを管理](manage-your-network-topology.md)する」を参照してください。
 
 > [!NOTE]
 > ネットワーク設定の機能固有の要件については、その機能の構成トピックで説明しています。
@@ -37,7 +38,7 @@ ms.locfileid: "43139066"
 
 ネットワーク地域にはネットワーク サイトのコレクションが含まれます。 ネットワークのさまざまな部分を複数の地域で相互に接続します。 たとえば、組織にインド在住のサイトが数多くある場合は、ネットワーク領域として "インド" を指定することができます。 各ネットワークサイトは、ネットワーク領域に関連付けられている必要があります。
 
-同一のネットワーク領域は、ダイレクトルーティングと強化された緊急サービスの位置情報に基づくルーティングによって共有されます。 1つの機能に対して既にネットワークの領域を作成している場合は、他の機能のために新しいネットワークの領域を作成する必要はありません。
+同じネットワーク領域は、ダイレクトルーティングと強化された緊急サービスの Location-Based ルーティングによって共有されます。 1つの機能に対して既にネットワークの領域を作成している場合は、他の機能のために新しいネットワークの領域を作成する必要はありません。
 
 ## <a name="network-site"></a>ネットワークサイト
 

@@ -13,17 +13,18 @@ f1.keywords:
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 search.appverid: MET150
 description: この記事では、Microsoft Teams でのライブ イベントを立ち上げる前に考慮すべき事項について説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ac74a75ff159a4ec00a660c4bb01759614c8d10
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: 0c9a91db8009cc87c05eb2324507ec4ee69dae3a
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655493"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031573"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 

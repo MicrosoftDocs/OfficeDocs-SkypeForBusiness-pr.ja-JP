@@ -12,18 +12,19 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
+- m365initiative-meetings
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 以下では、電話会議のネットワーク上での、オープンなプレビュー機能について説明します。
-ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 1ae61034ef083c89e14c67cef0effa1c105de758
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503474"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031863"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>電話会議のネットワーク上の会議のプレビューを開く
 

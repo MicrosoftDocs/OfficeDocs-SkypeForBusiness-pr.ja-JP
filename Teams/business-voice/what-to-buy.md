@@ -13,6 +13,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+- m365initiative-voice
 search.appverid: MET150
 description: ''
 appliesto:
@@ -24,18 +25,18 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 13c2e6dcb2f3f26fc016a96d9acabba4029d91ae
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: e80c54ef46c72769e7a3b0d4e6e696fba1202e70
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096832"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030793"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Microsoft 365 Business Voice を使用するために購入する必要があるもの
 
 ## <a name="microsoft-365-business-voice-licenses"></a>Microsoft 365 Business Voice ライセンス
 
-Microsoft Teams で*外部*電話番号の着信または発信を行うには、ユーザーに Microsoft 365 Business Voice のライセンスが付与されている必要があります。 ライセンスが付与されているユーザーは、通話の発着信や音声会議のホストなどを行うために必要なすべての機能を利用できます。
+Microsoft Teams で *外部* 電話番号の着信または発信を行うには、ユーザーに Microsoft 365 Business Voice のライセンスが付与されている必要があります。 ライセンスが付与されているユーザーは、通話の発着信や音声会議のホストなどを行うために必要なすべての機能を利用できます。
 
 外部電話番号の受信または発信を行う必要のないユーザーの場合、Teams があれば十分です。 Microsoft 365 Business Voice ライセンスは必要ありません。
 
@@ -43,7 +44,7 @@ Microsoft Teams で*外部*電話番号の着信または発信を行うには�
 
 ### <a name="business-voice-license-types"></a>Business Voice ライセンスの種類
 
-2 種類の Business Voice ライセンスがあります。通話プラン**付き** Business Voice と、通話プラン**なし** Business Voice です。 使用できる Business Voice ライセンスの種類は、Microsoft 365 テナントの場所によって異なります。 ライセンスの種類によって、Business Voice を自分で設定できるか、または電話番号の管理などを行う Microsoft パートナーや販売店のサポートが必要かどうかが決まります。
+2 種類の Business Voice ライセンスがあります。通話プラン **付き** Business Voice と、通話プラン **なし** Business Voice です。 使用できる Business Voice ライセンスの種類は、Microsoft 365 テナントの場所によって異なります。 ライセンスの種類によって、Business Voice を自分で設定できるか、または電話番号の管理などを行う Microsoft パートナーや販売店のサポートが必要かどうかが決まります。
 
 - **通話プラン付き Business Voice** Microsoft から Business Voice を購入し、作業の開始ウィザードを使用して Business Voice を設定し、既存の電話番号を設定または Microsoft に転送することできます。 「[作業の開始ウィザードを使用して Business Voice を設定する](use-getting-started-wizard.md)」の記事で、テナント用に Business Voice を設定する方法を説明しています。
 
@@ -56,9 +57,9 @@ Business Voice の機能の詳細については、「[Microsoft 365 Business Vo
 
 ## <a name="business-voice-with-calling-plan"></a>通話プラン付き Business Voice
 
-通話プラン付き Business Voice には国内通話プランが含まれています。このプランでは、毎月一定の分数が提供され、国内または地域内で電話をかけることができます。 他の国または地域に電話をかける場合、国際通話プランを購入できます。 国際通話プラン、国内通話プランの毎月の分数の超過分、無料電話番号の支払いに*コミュニケーション クレジット*を使用できます。 通話プランとコミュニケーション クレジットの詳細については、この記事で後述します。
+通話プラン付き Business Voice には国内通話プランが含まれています。このプランでは、毎月一定の分数が提供され、国内または地域内で電話をかけることができます。 他の国または地域に電話をかける場合、国際通話プランを購入できます。 国際通話プラン、国内通話プランの毎月の分数の超過分、無料電話番号の支払いに *コミュニケーション クレジット* を使用できます。 通話プランとコミュニケーション クレジットの詳細については、この記事で後述します。
 
-通話プラン付き Microsoft 365 Business Voice ライセンスを購入するには、[管理センター](https://admin.microsoft.com/Adminportal/Home#/homepage)にサインインし、**[請求]** > **[サービスの購入]** の順に移動します。
+通話プラン付き Microsoft 365 Business Voice ライセンスを購入するには、 [管理センター](https://admin.microsoft.com/Adminportal/Home#/homepage)にサインインし、 **[請求]** > **[サービスの購入]** の順に移動します。
 
 ### <a name="calling-plans"></a>通話プラン
 

@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d596bb890ad2976ec16179f845397df5e27bc38
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 591ab2f93212e518c89b3cbacda82332b4c4957d
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321660"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031213"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft Teams 向けの Advanced Communications のアドオン
 
@@ -33,9 +34,9 @@ ms.locfileid: "48321660"
 
 高度な通信には、次のようなさまざまな通信ニーズに対応する、強化された通話と会議機能が備わっています。
 
-- **より多く**のユーザーにアクセスする: 最大2万人の参加者と、1000参加者のインタラクティブな会議について、ユーザーがリアルタイムでライブイベントに接続して、表示のみの会議体験で最大2万参加者を有効にすることができます。
-- **会議をカスタマイズしてカスタマイズ**する: 社内およびカスタム向けのシナリオについて、会議を通じて、カスタムブランドの会議ロビーなどの機能を使用して標準化を推進します。 組織の部門全体で柔軟に実装できます。 
-- **組織の通信を管理**する: ユーザーとデバイス上のデータを監視、追跡、分析して、スムーズなエクスペリエンスを実現します。
+- **より多く** のユーザーにアクセスする: 最大2万人の参加者と、1000参加者のインタラクティブな会議について、ユーザーがリアルタイムでライブイベントに接続して、表示のみの会議体験で最大2万参加者を有効にすることができます。
+- **会議をカスタマイズしてカスタマイズ** する: 社内およびカスタム向けのシナリオについて、会議を通じて、カスタムブランドの会議ロビーなどの機能を使用して標準化を推進します。 組織の部門全体で柔軟に実装できます。 
+- **組織の通信を管理** する: ユーザーとデバイス上のデータを監視、追跡、分析して、スムーズなエクスペリエンスを実現します。
 
 Advanced Communications は、microsoft のすべての microsoft 365 市場で、有料の Microsoft 365 または Office 365 サブスクリプションへのアドオンとして提供されています。 Advanced Communications に含まれる機能は、他の Microsoft 365 または Office 365 プランに追加されず、個別に購入することもできません。 機能を取得するには、アドオンを購入する必要があります。
 

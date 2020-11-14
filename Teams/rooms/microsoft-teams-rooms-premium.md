@@ -10,18 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: c7331b40f9aaf5b039da4bf76ae707734f885a82
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
-ms.translationtype: HT
+ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788331"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031403"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -79,7 +80,7 @@ Microsoft Teams Rooms の管理サービスは、専用の Microsoft Teams Rooms
 |**対象ユーザー**  |IT 運用のみ         |
 |**サポートされている言語**    |英語         |
 |**ポータルを介してサポートを提供**   | 24 時間 365 日体制      |
-|**Microsoft Teams Rooms の管理サービス SOC **の初期応答時間   |  4 時間       |
+|**Microsoft Teams Rooms の管理サービス SOC** の初期応答時間   |  4 時間       |
 |**お客様が操作していない場合、チケットが自動的に閉じられる**    |お客様開始チケット: 3 営業日<br>システム開始チケット: 15 営業日</li>   </ul>      |
 |**広範な Microsoft サポートへのリダイレクト**   |Microsoft Teams Rooms の管理サービスの対象外の別の Microsoft 製品に関連する問題は、適切なサポート チームに通知されます。         |
 |**相手先ブランド供給 (OEM) サポートへのリダイレクト**    |Microsoft Teams Rooms の管理サービス SOC は、問題を把握し、該当する場合は OEM とのサポートの調整を支援します。 場合によっては、お客様が OEM と直接やり取りする責任を負うことがあります。         |

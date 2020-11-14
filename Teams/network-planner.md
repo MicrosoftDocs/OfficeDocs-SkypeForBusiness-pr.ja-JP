@@ -13,6 +13,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +22,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccd9b620bbe44c8fb8627504b7c25a03227b96
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 14bdc08656cdce18fc25b38ca8d226ac0e70cf27
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581328"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030623"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Microsoft Teams のネットワークプランナーを使用する
 
-Network Planner は、Teams 管理センターで利用できる新しいツールです。 これは、**プランナー**  >  **Network Planner** でアクセスできます。 ほんの少しの手順で、Network Planner では組織全体で Microsoft Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。 ネットワークの詳細と Teams の使用状況を提示すると、Network Planner は、組織の物理的な場所で Teams とクラウドの音声を展開するためのネットワーク要件を計算します。
+Network Planner は、Teams 管理センターで利用できる新しいツールです。 これは、 **プランナー**  >  **Network Planner** でアクセスできます。 ほんの少しの手順で、Network Planner では組織全体で Microsoft Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。 ネットワークの詳細と Teams の使用状況を提示すると、Network Planner は、組織の物理的な場所で Teams とクラウドの音声を展開するためのネットワーク要件を計算します。
 
 ![ネットワークプランナーのスクリーンショット](media/network-planner.png)
 
@@ -51,13 +52,13 @@ Network Planner は、Teams 管理センターで利用できる新しいツー�
 
 1. Microsoft Teams 管理センターのネットワークプランナーに移動します。
 
-2. [**ペルソナ**] タブで、[**+ カスタム ペルソナ**] をクリックします。 
+2. [ **ペルソナ** ] タブで、[ **+ カスタム ペルソナ** ] をクリックします。 
 
 3. **新しいカスタム ペルソナ** ウィンドウで、新しいペルソナの名前と説明を入力します。
 
 4. このペルソナが組織内で使用するアクセス権を選択します。
 
-5. [**保存**] をクリックします。
+5. [ **保存** ] をクリックします。
 
 ## <a name="build-your-plan"></a>プランを作成する
 
@@ -65,7 +66,7 @@ Network Planner は、Teams 管理センターで利用できる新しいツー�
 
 1. Microsoft Teams 管理センターのネットワークプランナーに移動します。
 
-2. [**ネットワーク プラン**] タブで、[**ネットワーク プランの追加**] をクリックします。
+2. [ **ネットワーク プラン** ] タブで、[ **ネットワーク プランの追加** ] をクリックします。
 
 3. 新しいネットワーク プランの名前と説明を入力してください。 使用可能なプランのリストにネットワーク プランが表示されます。
 
@@ -79,31 +80,31 @@ Network Planner は、Teams 管理センターで利用できる新しいツー�
 
     1. サイトの名前と説明を追加します。
 
-    2. [**ネットワーク設定**] の下に、そのサイトのネットワーク ユーザー数を追加します (必須)。
+    2. [ **ネットワーク設定** ] の下に、そのサイトのネットワーク ユーザー数を追加します (必須)。
 
-    3. ネットワークの詳細を追加します。WAN 対応、WAN 容量、インターネット エグレス (**ローカル** または **リモート**)、PSTN エグレス (なし、ローカル、またはリモート)。
+    3. ネットワークの詳細を追加します。WAN 対応、WAN 容量、インターネット エグレス ( **ローカル** または **リモート** )、PSTN エグレス (なし、ローカル、またはリモート)。
 
       > [!NOTE]
       > レポートを生成するときに、特定の帯域幅の推奨値を表示するには、WAN およびインターネットの容量を追加する必要があります。
 
-    4. [**保存**] をクリックします。
+    4. [ **保存** ] をクリックします。
 
 ## <a name="create-a-report"></a>レポートを作成する
 
 すべてのサイトを追加したら、次のようにレポートを作成できます。
 
-1. [**レポート**] タブで、[**レポートを開始**] をクリックします。
+1. [ **レポート** ] タブで、[ **レポートを開始** ] をクリックします。
 
 2. 作成する各サイトについて、使用可能なペルソナにユーザー数を分配します。 Microsoft が推奨するペルソナを使用している場合、この数字は自動的に分配されます (オフィス ワーカーが 80% で、リモートワーカーが 20%)。
 
-3. 分配が完了したら、**レポートの作成**をクリックします。
+3. 分配が完了したら、 **レポートの作成** をクリックします。
 
     生成されたレポートには、次のようなさまざまなビューの帯域幅要件が表示されるので、出力を正確に理解できます。
     - 個々の計算を含むテーブルには、許可されている各アクティビティの帯域幅要件が表示されます。
     - 追加のビューには、推奨事項による全体的な帯域幅ニーズが表示されます。
 
-4. [**保存**] をクリックします。 レポートはレポート リストで、後で表示できます。
+4. [ **保存** ] をクリックします。 レポートはレポート リストで、後で表示できます。
 
 ## <a name="example-scenario"></a>シナリオ例
 
-ネットワークプランナーを使用してネットワーク計画を設定し、これらの手順を使用してレポートを生成する方法の例については、[ネットワークプランナーの使い方に関する PowerPoint デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)(英語のみ) をダウンロードしてください。
+ネットワークプランナーを使用してネットワーク計画を設定し、これらの手順を使用してレポートを生成する方法の例については、「 [PowerPoint デッキ How-To ネットワークプランナー](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) をダウンロードする (英語のみ)」をご覧ください。

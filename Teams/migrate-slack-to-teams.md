@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -17,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
-ms.openlocfilehash: 142a573acaaf9b2d7da50ec2516fbc6c30f4ed2b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8b4fc90cde4bb438eee421459cf2c26672555b09
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581438"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030643"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack から Microsoft Teams に移行する
 
@@ -38,7 +39,7 @@ Slack から Teams への組織の移行を計画する場合、保持するも�
 ### <a name="what-you-can-and-cant-migrate"></a>移行できるものと移行できないもの
 移行できるものと移行できないものは、お客様の Slack サービス プランにより決まります。 たとえば、エクスポートできるのはパブリック チャンネルの履歴とファイルのみの Slack サービス プランもあれば、プライベート チャンネルとダイレクト メッセージを含めるには DocuSign のリクエストが必要なサービス プランもあります。 
 
-Slack ワークスペースのサービス レベルを特定するには、Slack にログインし、[**このワークスペースについて**] ページに表示されるプランの種類を確認します。
+Slack ワークスペースのサービス レベルを特定するには、Slack にログインし、[ **このワークスペースについて** ] ページに表示されるプランの種類を確認します。
 
 Slack のエクスポート オプションの詳細については、Slack の Web サイトを参照してください。 https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
@@ -54,7 +55,7 @@ Slack のエクスポート オプションの詳細については、Slack の 
 ### <a name="assess-your-slack-workspaces"></a>Slack ワークスペースの評価
 組織の移行計画を立てる前に、Slack ワークスペースに関する情報をまとめる必要があります。 Slack ワークスペースがどのように使用されているかを理解することで、移行の範囲を特定しやすくなります。 たとえば、ワークスペースはいくつ移行するのでしょうか。 それらのワークスペースは特定の部署で使用されているものでしょうか。それとも組織全体で使用されているものでしょうか。
 
-移行する Slack ワークスペースのメンバーのユーザーは、*<your Slack workspace>slack.com/stats* にアクセスして使用状況をユーザー自身で分析できます。使用パターンは [チャンネル] タブと [メンバー] タブで確認できます。 移行するワークスペース (および移行しないワークスペース) を決定します。 
+移行する Slack ワークスペースのメンバーのユーザーは、 *<your Slack workspace>slack.com/stats* にアクセスして使用状況をユーザー自身で分析できます。使用パターンは [チャンネル] タブと [メンバー] タブで確認できます。 移行するワークスペース (および移行しないワークスペース) を決定します。 
 
 > [!NOTE]
 > ユーザーが統計情報のページにアクセスできない場合、そのユーザーは管理者または所有者ではないことを意味します。 
@@ -86,7 +87,7 @@ Slack のアプリは、Teams のアプリのようなものです。 ワーク�
 ### <a name="users"></a>ユーザー
 Slack で使用してきた ID スキームは、Microsoft 365 または Office 365 に直接マッピングできない可能性があります。 たとえば、Slack ユーザーのメール アドレスは、Microsoft 365 または Office 365 の職場または学校のアカウントにマッピングできない場合があります。 Teams の展開を開始する前に、ユーザー ID マップを作成する必要があります。
 
-有料版 Slack のサービス プランを使用している場合は、*<your Slack workspace>.slack.com/admin/stats#members* にアクセスして各ユーザーのメール アドレスやアカウントの種類 (例: シングル チャンネル ゲスト、マルチ チャンネル ゲスト) などのメンバーの詳細情報を取得できます。
+有料版 Slack のサービス プランを使用している場合は、 *<your Slack workspace>.slack.com/admin/stats#members* にアクセスして各ユーザーのメール アドレスやアカウントの種類 (例: シングル チャンネル ゲスト、マルチ チャンネル ゲスト) などのメンバーの詳細情報を取得できます。
 
 下に示すスクリプトは、Slack のエクスポートからのメール アドレスを Azure AD と比較することで名前のあいまいさを解消するために使用できます。 このスクリプトでは、ユーザーが Teams に対して有効化されているかどうかも報告されます。 PowerShell のサポートが必要な場合は、「[Azure PowerShell コマンドレットを使う](https://docs.microsoft.com/powershell/azure/get-started-azureps)」を参照してください。
 

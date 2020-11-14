@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams Rooms の展開に関連した計画時の考慮事項について説明します。
-ms.openlocfilehash: 7b954b81d13addd4b8eb0c7bb5614f9e08f24251
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
-ms.translationtype: HT
+ms.openlocfilehash: f91d1ab8eeb3a89207f78fc37b9924f411a1edc1
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761465"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031443"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams Rooms を計画する
 
@@ -133,7 +134,7 @@ _お客様の組織に適した Microsoft Teams Rooms の展開テンプレー�
 
 ## <a name="procurement"></a>調達 
 
-デバイス パートナーを介して、選択したシステムをバンドルとして、または統合ソリューションとして購入できます。 また、Surface Pro デバイスと既存の_サポート対象_の AV 周辺機器を使用して、パートナー デバイス ドックを取得し、独自の Microsoft Teams Rooms ソリューションを準備することもできます。 
+デバイス パートナーを介して、選択したシステムをバンドルとして、または統合ソリューションとして購入できます。 また、Surface Pro デバイスと既存の _サポート対象_ の AV 周辺機器を使用して、パートナー デバイス ドックを取得し、独自の Microsoft Teams Rooms ソリューションを準備することもできます。 
 
 [要件の記事](requirements.md)に記載されている多数のパートナーから、Microsoft Teams Rooms を入手することができます。 これらのソリューションと調達オプションの詳細については、パートナーの Web サイトにアクセスしてください。 
 

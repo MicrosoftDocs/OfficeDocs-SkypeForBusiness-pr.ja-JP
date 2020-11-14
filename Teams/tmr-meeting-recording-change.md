@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 452976ca2d88225fb239425861e1c97cd58a2b9f
-ms.sourcegitcommit: 54e685b07d1c23100951d46913480989f046d534
+ms.openlocfilehash: 631adf514044f67db5691513d231af28cc817d90
+ms.sourcegitcommit: f378b07dd9e57454d8614fcb529d364e9269c375
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "48827751"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49021144"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と、会議の記録に SharePoint または Stream を使用する
 
@@ -30,10 +30,14 @@ ms.locfileid: "48827751"
 
 
 |日付|イベント|
-|---|-----------------|
-|初めての Q4 CY20|**OneDrive for Business および SharePoint での Teams 会議の記録は、オプトインまたはオプトアウトで利用できます。**<br> テナント管理者は、OneDrive for Business と SharePoint のオプトインまたは脱退を行うことができます。 PowerShell で Teams ポリシーを設定する|
-|第 CY20 四半期中旬|**OneDrive for Business および SharePoint でのチーム会議の記録は、脱退しないテナントの既定として設定されます**<br> これは、ほとんどのお客様に推奨されるパスです。|
-|Q1 CY21|**Teams 会議の記録を従来のストリームに保存することはできなくなりました**<br>すべてのテナントが、Teams 会議の記録を OneDrive for Business と SharePoint に保存します|
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+|2020年10月5日| チーム会議ポリシーを有効にして、Microsoft Stream ではなく、OneDrive for Business および SharePoint に会議のレコーディングを保存することができます (クラシック)|
+|2021年1月11日からロールアウトする|この変更は、組織の Teams 会議ポリシーを変更して、明示的に **ストリーム** に設定することで、OneDrive for Business および SharePoint に保存されます。 ストリームとしてのポリシーレポートは、十分なものではありません。 ポリシー値を **ストリーム** に明示的に設定する必要があります。|
+|2021年3月1日からのロールアウト|**企業のお客様**<br>Microsoft Stream (クラシック) に新しい会議の記録を保存することはできません。すべてのユーザーには、チームの会議のポリシーを **ストリーミング** に変更した場合でも、OneDrive for Business および SharePoint に保存された会議のレコーディングが自動的に保存されます。 この機能の前にこの機能をロールして、リリースのタイミングを制御できるようにすることをお勧めします。 |
+|2021年7月7日からロールアウトする|**教育機関向けのお客様**<br>Microsoft Stream (クラシック) に新しい会議の記録を保存することはできません。すべてのユーザーには、チームの会議のポリシーを **ストリーミング** に変更した場合でも、OneDrive for Business および SharePoint に保存された会議のレコーディングが自動的に保存されます。 この機能の前にこの機能をロールして、リリースのタイミングを制御できるようにすることをお勧めします。 このスケジュールを更新して、教育機関のお客様が進行中の semesters を完了できるようにしました。 |
+
+> [!Note]
+> 企業および教育機関のお客様は、組織の変更をより適切に管理することをお勧めします。発生するのを待つのではなく、いつでも変更を許可することをお勧めします。 
 
 Microsoft Teams には、会議の記録を保存するための新しい方法が用意されています。 従来の Microsoft Stream から [新しいストリーム](https://docs.microsoft.com/stream/streamnew/new-stream)への移行の最初のフェーズとして、このメソッドは microsoft 365 の microsoft OneDrive for Business と SharePoint にレコーディングを保存し、多くの利点を提供します。
 

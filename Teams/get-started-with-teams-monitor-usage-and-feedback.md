@@ -7,7 +7,7 @@ ms.date: 03/20/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj
+ms.reviewer: dstrome
 description: ユーザーが Microsoft Teams をどのように使用しているかについて確認する場合や、ユーザーのエクスペリエンスに関するフィードバックを収集する場合に使用可能なレポート オプションについて説明します。
 localization_priority: Priority
 search.appverid: MET150
@@ -15,14 +15,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928f761626f51c2c717e046ad2f3aac49161b4cd
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: bd877c88182046382a7502f59f6574c1c9cc0561
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638376"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49030493"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams での使用状況とフィードバックを監視する
 ユーザーがどのように Teams を使用していているか、また Teams に関するユーザーのエクスペリエンスはどのようなものかを知ることは重要です。 使用状況レポートは、使用パターンを正しく理解するために役立ちます。また、ユーザーのフィードバックと併用することで、広範な展開の情報を確認し、トレーニングとコミュニケーションの取り組みに関する優先順位を決定するための見識が得られます。
@@ -38,16 +39,16 @@ ms.locfileid: "44638376"
 
 Microsoft Teams 管理センターでの Teams のレポートにより、Teams が組織内でどのように使用されているかについての見識が得られます。 このレポートを使用して組織全体の Teams の使用状況、ユーザー アクティビティ、およびデバイスの使用状況について調べます。 
 
-このようなレポートを表示するには、 Microsoft 365 または Office 365 の全体管理者、Teams のサービス管理者、または Skype for Business の管理者であることが必要です。Microsoft Teams 管理センターに移動して、左側のナビゲーションにある **[分析およびレポート]** を選択し、**[レポート]** から実行するレポートを選択します。
+このようなレポートを表示するには、 Microsoft 365 または Office 365 の全体管理者、Teams のサービス管理者、または Skype for Business の管理者であることが必要です。Microsoft Teams 管理センターに移動して、左側のナビゲーションにある **[分析およびレポート]** を選択し、 **[レポート]** から実行するレポートを選択します。
 
-- **Teams の使用状況レポート**: このレポートには、Teams の使用状況アクティビティの概要が示されます。アクティブなユーザーとチャネルの合計数、アクティブなユーザー数とチャネル数、ゲスト数、および各チームのメッセージ数も示されます。 
+- **Teams の使用状況レポート** : このレポートには、Teams の使用状況アクティビティの概要が示されます。アクティブなユーザーとチャネルの合計数、アクティブなユーザー数とチャネル数、ゲスト数、および各チームのメッセージ数も示されます。 
 
     ![Teams の使用状況レポートのスクリーンショット](media/teams-reports-teams-usage.png "Microsoft Teams 管理センターの Teams の使用状況レポートのスクリーンショット")     
-- **Teams のユーザー アクティビティ レポート**: このレポートでは、1 対 1 の通話、チャネルのメッセージ、およびプライベート チャットのメッセージで通信したユーザー数など、ユーザーが関与したアクティビティの種類についての見識が得られます。 
+- **Teams のユーザー アクティビティ レポート** : このレポートでは、1 対 1 の通話、チャネルのメッセージ、およびプライベート チャットのメッセージで通信したユーザー数など、ユーザーが関与したアクティビティの種類についての見識が得られます。 
 
     ![Teams のユーザー アクティビティ レポートのスクリーンショット](media/teams-reports-user-activity.png "Microsoft Teams 管理センターの Teams のユーザー アクティビティ レポートのスクリーンショット") 
 `
-- **Teams のデバイス使用状況レポート**: このレポートには、ユーザーがどのように Teams に接続しているかが示されます。外出先で自分のモバイル デバイスから Teams を使用したユーザーの数も示されます。 
+- **Teams のデバイス使用状況レポート** : このレポートには、ユーザーがどのように Teams に接続しているかが示されます。外出先で自分のモバイル デバイスから Teams を使用したユーザーの数も示されます。 
 
     ![Teams のデバイス使用状況レポートのスクリーンショット](media/teams-reports-device-usage.png "Microsoft Teams 管理センターの Teams のデバイス使用状況レポートのスクリーンショット")
 
@@ -56,7 +57,7 @@ Microsoft Teams 管理センターでの Teams のレポートにより、Teams 
 ### <a name="teams-activity-reports-microsoft-365-admin-center"></a>(Microsoft 365 管理センターでの) Teams のアクティビティ レポート
 Teams のアクティビティは、 Microsoft 365 管理センターから利用可能なレポートで確認することもできます。 これに該当するレポートは、Microsoft 365 管理センターの Microsoft 365 レポートに含まれていて、ユーザー アクティビティとデバイス使用状況に関する情報が示されます。 
 
-このレポートを表示するには、 Microsoft 365 管理センターに移動して **[レポート]** > **[使用状況]** をクリックします。 **[レポートの選択]** で、**[Microsoft Teams]** をクリックします。 ここから、表示するレポートを選択します。
+このレポートを表示するには、 Microsoft 365 管理センターに移動して **[レポート]** > **[使用状況]** をクリックします。 **[レポートの選択]** で、 **[Microsoft Teams]** をクリックします。 ここから、表示するレポートを選択します。
 
 詳細については、「[Teams のアクティビティ レポートを使用する](teams-activity-reports.md)」を参照してください。
 
