@@ -9,31 +9,32 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+- m365initiative-deployteams
 ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams のパブリックプレビューについて説明します。 新機能を試して、フィードバックを送信してください。
+description: Microsoft Teams のパブリック プレビューについて説明します。新機能を試して、フィードバックを送信してください。
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a2b06c58396db0e8fdb976037696b7a782d581cd
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 0b0e6bb9c4082125b2dfbc1ab0dfb6e21edab2d6
+ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852188"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49031613"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 
 > [!NOTE]
-> プレビューに含まれている機能は完全でないため、一般公開前に変更される場合があります。 これらは、評価と調査のみを目的としています。
+> プレビューに含まれている機能は完全でないため、一般公開前に変更される場合があります。これらは、評価と調査のみを目的としています。
 
-Microsoft Teams のパブリック プレビューを使用すると、Teams の未公開機能にいち早くアクセスできます。 プレビューでは、今後加えられる機能を探したり、テストしたりできます。 パブリック プレビューのあらゆる機能に関するフィードバックをお待ちしております。。 パブリック プレビューは、各Teams ユーザーごとに有効になっているので、組織全体への影響を心配する必要はありません。
+Microsoft Teams のパブリック プレビューを使用すると、Teams の未公開機能にいち早くアクセスできます。プレビューでは、今後加えられる機能を探したり、テストしたりできます。パブリック プレビューのあらゆる機能に関するフィードバックをお待ちしております。パブリック プレビューは、各Teams ユーザーごとに有効になっているので、組織全体への影響を心配する必要はありません。
 
 ## <a name="set-the-update-policy"></a>更新ポリシーを設定する
 
- パブリック プレビューは、ユーザーごとに有効になっています。また、パブリックプレビューを有効にするオプションは管理者ポリシーで制御されます。 更新ポリシーは、Teams アプリのプレリリースやプレビュー機能を表示する Teams や Office のプレビュー ユーザーを管理するために使用されます。 グローバル (組織全体の既定) ポリシーを使用してカスタマイズすることも、ユーザー用に 1 つまたは複数のカスタム ポリシーを作成することもできます。
+ パブリック プレビューは、ユーザーごとに有効になっています。また、パブリックプレビューを有効にするオプションは管理者ポリシーで制御されます。更新ポリシーは、Teams アプリのプレリリースやプレビュー機能を表示する Teams や Office のプレビュー ユーザーを管理するために使用されます。グローバル (組織全体の既定) ポリシーを使用してカスタマイズすることも、ユーザー用に 1 つまたは複数のカスタム ポリシーを作成することもできます。
 
 1. 管理センターにサインインします。
 2. **[Teams**>**更新ポリシー]** を選択します。
