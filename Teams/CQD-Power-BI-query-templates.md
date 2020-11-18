@@ -16,22 +16,22 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI を使用して、Microsoft Teams の CQD データを分析します。
-ms.openlocfilehash: 256b2264cef4b84dc4f9d9881c960d357cee28e5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
+ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908646"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "49085571"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI を使用して Microsoft Teams の CQD データを分析する
 
-2020年1月の新 [機能: POWER BI クエリテンプレートをダウンロードして CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)します。 CQD データの分析と報告に使用できる、カスタマイズ可能な Power BI テンプレート。
+2020年1月の新 [機能: POWER BI クエリテンプレートをダウンロードして CQD](https://www.microsoft.com/download/details.aspx?id=102291)します。 CQD データの分析と報告に使用できる、カスタマイズ可能な Power BI テンプレート。
 
 Teams の通話品質ダッシュボード (CQD) レポートの場合、Power BI を使ってデータのクエリやレポートを行う場合は、CQD Power BI テンプレートをダウンロードしてください。 Power BI でテンプレートを開くと、CQD 管理者の資格情報でサインインするように求められます。 これらのクエリテンプレートをカスタマイズして、Power BI ライセンスと CQD の管理者権限を持つ組織内のすべてのユーザーに配布することができます。
 
-これらの PBIT ファイルを使用するには、その前に、 [ダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)に含まれている [Microsoft CQD の Power BI コネクタをインストール](CQD-Power-BI-connector.md)する必要があり *ます。* 
+これらの PBIT ファイルを使用するには、その前に、[ダウンロード](https://www.microsoft.com/download/details.aspx?id=102291)に含まれている [Microsoft CQD の Power BI コネクタをインストール](CQD-Power-BI-connector.md)する必要があり *ます。* 
 
-Power BI レポートにアクセスするための適切な [CQD アクセスロール](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) を持っていることを確認してください。 
+Power BI レポートにアクセスするための適切な [CQD アクセスロール](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) を持っていることを確認してください。 
 
 |  |  |
 |---------|---------|
