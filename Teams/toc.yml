@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: 環境を準備する
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: 要件
               href: rooms/requirements.md
             - name: オンライン ライセンス
               href: rooms/rooms-licensing.md
@@ -504,6 +504,8 @@
               href: aa-cq-cqd-historical-reports.md
             - name: ダイヤルおよび音声参照
               href: dial-voice-reference.md
+            - name: Reporting
+              href: aa-cq-cqd-historical-reports.md
         - name: 受信通話をブロックする
           href: block-inbound-calls.md
         - name: コール パークおよび取得
