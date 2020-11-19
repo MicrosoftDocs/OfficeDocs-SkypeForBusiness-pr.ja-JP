@@ -262,7 +262,7 @@
                   href: rooms/microsoft-teams-rooms-premium.md
                 - name: Microsoft Teams Rooms の管理サービスを使用したロールベースのアクセス制御
                   href: rooms/microsoft-teams-rooms-premium-rbac.md
-        - name: 展開
+        - name: 展開する
           items:
             - name: 展開の概要
               href: rooms/rooms-deploy.md
@@ -490,10 +490,6 @@
               href: create-a-phone-system-auto-attendant.md
             - name: 通話キューの設定
               href: create-a-phone-system-call-queue.md
-            - name: '小規模ビジネスの例: 自動応答をセットアップする'
-              href: tutorial-org-aa.yml
-            - name: 小規模ビジネスの例 - 呼び出しキューをセットアップする
-              href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
             - name: Teams のリソース アカウントを管理する
               href: manage-resource-accounts.md
             - name: 休日を設定する
@@ -1063,16 +1059,20 @@
           href: business-voice/customize-business-voice.md
         - name: 電話番号のポート
           href: business-voice/port-phone-numbers.md
-        - name: 自動応答をセットアップする
-          href: business-voice/set-up-auto-attendants.md
         - name: 通話ポリシーの設定
           href: business-voice/set-up-policies.md
         - name: ポリシー パッケージを管理する
           href: business-voice/policy-packages.md
         - name: 追加のユーザーを作成する
           href: business-voice/create-users.md
+        - name: 例-通話キューの設定
+          href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 通話キューを設定する
           href: business-voice/set-up-call-queues.md
+        - name: 例-自動応答の設定
+          href: tutorial-org-aa.yml
+        - name: 自動応答をセットアップする
+          href: business-voice/set-up-auto-attendants.md
     - name: 設定を管理する
       items:
         - name: 1 名以上のユーザーを作成する
