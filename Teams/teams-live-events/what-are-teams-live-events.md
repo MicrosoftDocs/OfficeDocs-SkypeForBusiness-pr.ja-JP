@@ -1,31 +1,16 @@
 ---
-title: Microsoft Teams のライブ イベントについて
-author: lanachin
-ms.author: v-lanac
-manager: serdars
-ms.topic: conceptual
-ms.service: msteams
-ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-ms.reviewer: sonua
-audience: admin
-search.appverid: MET150
-description: ユーザーが Teams、Yammer、Stream のオンライン視聴者にビデオやコンテンツをブロードキャストするためのライブ イベントを紹介します。
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
-appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 7b1538d63b17027af2212110a01bb1ccdfdd4109
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085561"
+タイトル: Microsoft Teams のライブイベントとは何ですか?作成者: lana (編集者): v-lanac manager: serdars------------------------------------------ 
+  - M365-共同作業
+  - m365initiative-会議
+  - m365solution-spcomms
+- m365solution-シナリオ MET150: sonua の対象ユーザー: 管理者検索. appverid: description: ライブイベントによって、チーム、Yammer、およびストリーミングの大規模なオンラインユーザーにビデオとコンテンツをブロードキャストする方法について説明します。
+f1. キーワード: 
+- CSH ms. custom:
+  - liveevents を使用した excel の管理
+  - ms teamsadmincenter liveevents appliesto: 
+  - Microsoft Teams
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブイベントとは
 
 ## <a name="overview"></a>概要
@@ -72,7 +57,7 @@ Teams では、主催者は適切な参加者アクセス許可でイベント�
     ![外部アプリまたはデバイスを使用して生成されたライブイベント](../media/teams-live-events-external-encoder.png "外部アプリまたはデバイスの作成方法を使用して作成されたライブ イベントを示すスクリーンショット")
 
 >[!Note]
-> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
+> Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 ### <a name="streaming-platform"></a>ストリーミング プラットフォーム
 

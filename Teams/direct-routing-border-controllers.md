@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理者は、ダイレクトルーティングが認定されているセッション境界コントローラー (SBCs) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d5671740e5ecf64bb676f222625c2ee42e78347
-ms.sourcegitcommit: ce2a1239473ca88de799dc548bd7a2a934b3af6a
+ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "48999251"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130448"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -80,6 +80,7 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    エンタープライズの Avaya セッションボーダーコントローラー (ASBCE)    |     &#10004;     |           |       8.1.1 のリリース       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッションボーダーコントローラー    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     [Italtel](https://www.italtel.com/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
+|                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 
 <br/>
 <br/>

@@ -14,16 +14,17 @@ ms.collection:
 - M365-collaboration
 - remotework
 - m365initiative-meetings
+- enabler-strategic
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b793eb5124a9105a718accc5767493aa9c35fbc
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 22626e14a9c6c6187949e5e770b2cdd22c20027b
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031633"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130628"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理者のクイック スタート - Microsoft Teams での会議とライブ イベント
 
@@ -46,13 +47,13 @@ Microsoft Teams での会議には、会議とライブ イベントの 2 つの
 
 > <sup>1</sup> 会議の主催者が、ダイヤルイン会議を含む招待を送信するには、[電話会議アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)が必要です。
 >
-> <sup>2</sup>  会議で [**連絡先電話** 番号](set-up-the-call-me-feature-for-your-users.md)にダイヤルアウトするには、主催者は E5 または [電話会議アドイン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を必要とします。また、 [ダイヤル プラン](what-are-dial-plans.md)も必要になる場合があります。
+> <sup>2</sup>  会議で [**連絡先電話** 番号](set-up-the-call-me-feature-for-your-users.md)にダイヤルアウトするには、主催者は E5 または [電話会議アドイン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を必要とします。また、[ダイヤル プラン](what-are-dial-plans.md)も必要になる場合があります。
 
 ライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」をお読みください。
 
 ## <a name="make-sure-your-networks-ready"></a>ネットワークの準備ができていることを確認する
 
-Microsoft 365 または Office 365 を展開したときに、既にネットワークの準備ができている場合は、おそらく問題はありません。いずれの場合でも、特に **リモート ワーカー** をサポートする最初の Office 365 ワークロードとして迅速に展開する場合は、「 [Teams 用の組織のネットワークの準備](prepare-network.md)」を読んで、準備ができていることを確認してください。
+Microsoft 365 または Office 365 を展開したときに、既にネットワークの準備ができている場合は、おそらく問題はありません。いずれの場合でも、特に **リモート ワーカー** をサポートする最初の Office 365 ワークロードとして迅速に展開する場合は、「[Teams 用の組織のネットワークの準備](prepare-network.md)」を読んで、準備ができていることを確認してください。
 
 ## <a name="meetings-and-conferencing"></a>ミーティングと会議
 

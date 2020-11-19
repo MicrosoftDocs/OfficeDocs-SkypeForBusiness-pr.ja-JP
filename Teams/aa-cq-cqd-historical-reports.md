@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 通話品質ダッシュボードの Power BI レポートを使って、自動応答と通話キューの履歴データを表示する方法について説明します。
-ms.openlocfilehash: 23d9f9db7668195bba4e964e8c5ac5607038f197
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085714"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130408"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動応答 & 通話キュー履歴レポート
 
@@ -54,23 +54,31 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 次の手順では、既にコンピューターに Power BI デスクトップがインストールされていて、CQD データパイプラインへのアクセスに必要なアクセス許可がアカウントにあることを前提としています。
 
 次の手順を実行してください。
+
 - [CQD POWER BI クエリテンプレート](https://www.microsoft.com/download/details.aspx?id=102291)をダウンロードして、zip ファイルをコンピューターのディレクトリに保存します。
+
 - Zip ファイルをダブルクリックして開きます。
+
 - "CQ and AA 20201105 Analytics" テンプレートファイルをダブルクリックすると、Power BI Desktop が起動します。
+
 - CQD データパイプラインの地域を選択するように求められます。 テナントが配置されている地域を選択します。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="CQD データパイプライン領域を選択するスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="CQD データパイプライン領域を選択するスクリーンショット":::
 
- - Skype for Business Online PS コマンドレット (Get-CsTenant) を使って、地域を確認できます。ServiceInstance の出力。 
- 地域は、次の例のように、microsoftcommunicationsonline/noam-4a-s7 スマートの地域が noam の後に表示されます。
+ - Skype for Business Online PowerShell コマンドレット (Get-CsTenant) を使って、地域を確認できます。ServiceInstance の出力。 
+ 次の例のように、地域は次のように表示されます。
+
+   microsoftcommunicationsonline/noam-4a-地域が noam の s7 スマートを指定します。
+ 
  - サンプルデータを使ってレポートが起動します。
+ 
  - 自分のデータを表示するには、[ホーム] タブの [Power BI デスクトップのクエリ] で [ **更新** ] をクリックします。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="[更新] オプションを選択するスクリーンショット":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="[更新] オプションを選択するスクリーンショット":::
 
 - サインインするように求められます。 [ **組織アカウント** ] を選択し、[ **サインイン**] を選択します。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="ログインを示すスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="ログインを示すスクリーンショット":::
 
 - [ **接続** ] を選択して、データの更新を確認します。
 
@@ -93,9 +101,11 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 次の手順を実行してください。
 - リボンの [ **表示] タブ** を選択します。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="[表示] タブを選択して配色パターンを変更するスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="[表示] タブを選択して配色パターンを変更するスクリーンショット":::
 
 - ドロップダウンリストから [color schema] を選びます。
+
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="さまざまな配色パターンを示すスクリーンショット":::
 
 ## <a name="cqd-fields-description"></a>CQD フィールドの説明
 
@@ -121,11 +131,11 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 |通話キューが含まれています                  |Boolean                  |通話キューがこの通話に関連する場合は、1 |
 
 
-### <a name="powerbi-data-model-dimensions"></a>PowerBI データモデルの寸法
+### <a name="power-bi-data-model-dimensions"></a>Power BI データモデルの寸法
 
 |名前                                    |データ型                |説明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA 名                                   |型                   |自動応答 Id (リソースアカウント Id) |
+|AA 名                                   |型                   |自動応答 ID (リソースアカウント ID) |
 |AACallFlow                              |型                   |自動応答のさまざまな状態をカプセル化します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§お知らせ |
 |AACallResult                            |型                   |自動応答の呼び出しの結果:<br>§不明<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 構成のエラー<br>§ service_terminated –内部 AA エラー<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |Aachきかん                         |型                   |自動応答の通話時間 (秒)  |
@@ -189,5 +199,6 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 
 ## <a name="known-issues"></a>既知の問題
 
-- 現在、通話キューと自動応答には、通話キュー/自動応答の名前ではなく、リソースアカウント Id が表示されます。  自動応答または通話キューのトラフィックをすべて表示するには、自動応答または通話キューに割り当てられているすべてのリソースアカウントを選択する必要があります。
+- 現在、通話キューと自動応答には、通話キュー/自動応答の名前ではなく、リソースアカウントの ID が表示されます。  自動応答または通話キューのトラフィックをすべて表示するには、自動応答または通話キューに割り当てられているすべてのリソースアカウントを選択する必要があります。
+
 - 現在、通話キュー/自動応答データはエンドユーザーを特定できる情報であり、データのプライバシー保持ポリシーの適用対象となるため、ダッシュボードでは28日間の履歴しか使用できません。

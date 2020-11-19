@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボードの Power BI レポートを使って、自動応答と通話キューの履歴データを表示する方法について説明します。
-ms.openlocfilehash: 1dbbe8d058317335109025816b8ffbd81fa67830
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085581"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130428"
 ---
 # <a name="what-are-the-requirements"></a>要件を教えてください。 
 Power BI デスクトップがインストールされている必要があります。 [Microsoft Windows ストア](https://aka.ms/pbidesktopstore)からインストールできます。
@@ -43,21 +43,27 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 
 次の手順を実行してください。
 - [CQD Teams の自動応答 & 通話キューの履歴レポートテンプレート](https://aka.ms/TAPAACQAnalytics)をダウンロードして、コンピューター上のディレクトリに保存します。
+
 - テンプレートをダブルクリックすると、Power BI デスクトップが起動します。
+
 - CQD データパイプラインの地域を選択するように求められます。 テナントが配置されている地域を選択します。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
  - Skype for Business Online PS コマンドレット (Get-CsTenant) を使って、地域を確認できます。ServiceInstance の出力。 
- 地域は、次の例のように、microsoftcommunicationsonline/noam-4a-s7 スマートの地域が noam の後に表示されます。
+ 次の例のように、地域は次のように表示されます。 
+ 
+   microsoftcommunicationsonline/noam-4a-地域が noam の s7 スマートを指定します。
+   
  - サンプルデータを使ってレポートが起動します。
+ 
  - 自分のデータを表示するには、[ホーム] タブの [Power BI デスクトップのクエリ] で [ **更新** ] をクリックします。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
 - サインインするように求められます。 [ **組織アカウント** ] を選択し、[ **サインイン**] を選択します。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
 - [ **接続** ] を選択して、データの更新を確認します。
 
@@ -77,11 +83,11 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 次の手順を実行してください。
 - リボンの [ **表示] タブ** を選択します。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
 - ドロップダウンリストから [color schema] を選びます。
 
-:::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
 
 ## <a name="cqd-fields-description"></a>CQD フィールドの説明
@@ -176,4 +182,5 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 
 ## <a name="known-issues"></a>既知の問題
 - 現在、通話キューと自動応答には、通話キュー/自動応答の名前ではなく、リソースアカウント Id が表示されます。  自動応答または通話キューのトラフィックをすべて表示するには、自動応答または通話キューに割り当てられているすべてのリソースアカウントを選択する必要があります。
+
 - 現在、通話キュー/自動応答データはエンドユーザーを特定できる情報であり、データのプライバシー保持ポリシーの適用対象となるため、ダッシュボードでは28日間の履歴しか使用できません。

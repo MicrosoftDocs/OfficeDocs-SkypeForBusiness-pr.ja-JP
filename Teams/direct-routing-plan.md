@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft 電話システムのダイレクトルーティングを使用して、サポートされているユーザー指定のセッションボーダーコントローラー (SBC) を Microsoft 電話システムに接続する方法について説明します。
-ms.openlocfilehash: 59fecbdc741cdbc104e41883423165000ff1b327
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 7fece1a84870360afa12c841a2c6c232cba77bf5
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030703"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130638"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -235,6 +235,8 @@ Fqdn – sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.m
 
 シグナリングのアドレスとの送受信トラフィックを許可するには、ファイアウォール内のすべての IP アドレスのポートを開く必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN **sip-all.pstnhub.microsoft.com** はこれらのすべての IP アドレスに解決されます。 
 
+> [!IMPORTANT]
+>  Teams のダイレクトルーティング拡張とサービス改善の一環として、オーストラリアでのダイレクトルーティングインフラストラクチャの新しいインスタンスが導入されました。 これは2つの追加の IP アドレス (52.114.16.74 と 52.114.20.29) に反映されます。これは、オーストラリアの顧客 (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com について、次の Fqdn が解決されます。 この2つの IP アドレス (52.114.16.74 と 52.114.20.29) を IP アクセス制御リスト (Acl) に追加し、これらのすべての IP アドレスに対してポートを開いて、シグナルの送受信を許可する必要があります。
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GCCH および DoD 環境
 

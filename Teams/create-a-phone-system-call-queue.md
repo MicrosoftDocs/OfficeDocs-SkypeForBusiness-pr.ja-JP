@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft Teams で通話キューの電話システムをセットアップする方法について説明します。これにより、グリーティングメッセージの送信、音楽の保留、リダイレクト、その他の機能を行うことができます。
-ms.openlocfilehash: fb4510ce81b09569a8228916b7d05cc6697caac8
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 57ef565a333f89772f5c9d35d664785c2e166679
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49089328"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49135940"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -156,7 +156,7 @@ ms.locfileid: "49089328"
 
 ## <a name="supported-clients"></a>サポートされるクライアント
 
-- 通話キューのコールエージェントでは、次のクライアントがサポートされています。
+通話キューのコールエージェントでは、次のクライアントがサポートされています。
 
   - Skype for Business デスクトップクライアント 2016 (32 ビットバージョンと64ビットバージョン)
   - Lync デスクトップクライアント 2013 (32 ビットバージョンと64ビットバージョン)
