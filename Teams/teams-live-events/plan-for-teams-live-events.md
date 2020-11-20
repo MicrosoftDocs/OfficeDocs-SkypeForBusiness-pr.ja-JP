@@ -14,23 +14,24 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- enabler-strategic
 search.appverid: MET150
 description: この記事では、Microsoft Teams でのライブ イベントを立ち上げる前に考慮すべき事項について説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0c9a91db8009cc87c05eb2324507ec4ee69dae3a
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: e1be13bb3e92a7ccd927696061ba20d3e4513080
+ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031573"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49130588"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
 組織で大規模な会議を開催するために Teams のライブ イベントを計画している場合、そのイベントを立ち上げる前に考慮すべき事項がいくつかあります。
 
- > [!Note]
+> [!Note]
 > 別のプラットフォームでの Teams のライブ イベントについての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。 チームのライブイベントの帯域幅要件については、[組織を準備する](../prepare-network.md)を参照してください。
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>ライブ イベントに参加、およびライブ イベントを作成、スケジュールできるのは誰か。
@@ -41,22 +42,22 @@ ms.locfileid: "49031573"
 
 Teams ライブ イベントを作成または表示するために割り当てる必要があるライセンスは次のとおりです。  
 
-- Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 Education A3 または A5 ライセンス。 この要件の例外は、[ゲスト ユーザー](plan-for-teams-live-events.md#guest-to-present)の他の条件が満たされている場合は、ゲスト ユーザーがライセンスなしで発表できることです。 
+- Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 Education A3 または A5 ライセンス。 この要件の例外は、 [ゲスト ユーザー](plan-for-teams-live-events.md#guest-to-present)の他の条件が満たされている場合は、ゲスト ユーザーがライセンスなしで発表できることです。 
 - Microsoft Teams ライセンス - これは 1 つ目の項目に記載されているライセンスに含まれています。
 - Microsoft Stream のライセンス - コンテンツを外部のアプリまたはデバイスと共有する場合はこのライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。
 
   ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。これは、記録が Microsoft Stream に保存されず、代わりに Azure Media Services (AMS) に保存され、削除されるまでに 180 日の制限があることを意味します。現時点では、削除機能を含めるように管理者が制御または管理できるものではありません。
 
 >[!Note]
-> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
+> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint](../tmr-meeting-recording-change.md) への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 > [!NOTE]
 > 現時点では、Teams ライブ イベントの作成と開催に使用できる Microsoft 365 Small Business プランはありません。
 
 認証されたユーザーとしてライブ イベントに参加するのに、Microsoft 365 または Office 365 のライセンスが必要であることを理解することは重要ですが、この要件は使用する作成方法によって異なります。
 
-- **Teams で作成したイベントの場合** 、ユーザーには Teams のライセンスが割り当てられている必要があります。
-- **外部アプリまたはデバイスで作成したイベントの場合** 、ユーザーには Stream のライセンスが割り当てられている必要があります。
+- **Teams で作成したイベントの場合**、ユーザーには Teams のライセンスが割り当てられている必要があります。
+- **外部アプリまたはデバイスで作成したイベントの場合**、ユーザーには Stream のライセンスが割り当てられている必要があります。
 
 > [!NOTE]
 > Teams のライブ イベントは、米国政府機関クラウド コミュニティ (GCC) 組織で利用できるようになりました。
@@ -65,12 +66,12 @@ Teams ライブ イベントを作成または表示するために割り当て�
 
 ユーザーには以下が設定されている必要があります。
 
-- Teams でのプライベート会議のスケジューリングが有効である ( *TeamsMeetingPolicy -AllowPrivateMeetingScheduling パラメーター = True* )。
-- Teams 会議で有効なビデオ共有 ( *TeamsMeetingPolicy -AllowIPVideo パラメーター = True* )。
-- Teams 会議で有効な画面共有 ( *TeamsMeetingPolicy -ScreenSharingMode パラメーター = EntireScreen* )。
-- Teams でのライブ イベントのスケジューリングが有効である ( *The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling パラメーター = True* )。
+- Teams でのプライベート会議のスケジューリングが有効である (*TeamsMeetingPolicy -AllowPrivateMeetingScheduling パラメーター = True*)。
+- Teams 会議で有効なビデオ共有 (*TeamsMeetingPolicy -AllowIPVideo パラメーター = True*)。
+- Teams 会議で有効な画面共有 (*TeamsMeetingPolicy -ScreenSharingMode パラメーター = EntireScreen*)。
+- Teams でのライブ イベントのスケジューリングが有効である (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling パラメーター = True*)。
 - Stream でライブ イベントを作成する許可 (外部アプリまたはデバイス生成の場合)。
-- Teams 会議をスケジュールできるように構成された共存モード ( *アイランド、会議優先、または Teams のみ* )。
+- Teams 会議をスケジュールできるように構成された共存モード (*アイランド、会議優先、または Teams のみ*)。
 
 > [!IMPORTANT]
 > 認証されていない匿名ユーザーは、Teams ライブ イベントのプロデューサーや発表者としては招待できません。
@@ -85,9 +86,9 @@ Teams ライブ イベントを作成または表示するために割り当て�
 
 ベストプラクティスとして、ライブイベントのプロデューサーと発表者がイベントの前にチャットして情報を共有できるように、チャネルを作成することをお勧めします。 Microsoft 365 の資格情報を持たないゲストには、Teams の予定表は表示されません。 簡単にイベントに参加できるように、プロデューサーはイベントリンクをチャネルに投稿できます。 発表者は、Teams を開いてチャネルに移動し、リンクをクリックしてイベントに参加できます。
 
-## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか。
+## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか
 
-|**出席者の表示/非表示**       |**チームの生成**  |**外部アプリまたはデバイス生成**  |
+| 出席者の表示 | Teams 生産性 | 外部アプリまたはデバイス生成 |
 |------------------------------|-----------------|----------------------|
 |パブリック (匿名ユーザー)      |  はい            |  いいえ                  |
 |ゲスト ユーザー                   |  はい            |  いいえ                  |
@@ -110,9 +111,9 @@ Teams ライブ イベントを作成または表示するために割り当て�
 >- Teams テナントごとに最大 50 の同時イベント
 >- ブロードキャストあたり最大 16 時間
 >
-> さらに、最大 10 万人の参加者がいるライブイベントを、MIcrosoft 365 のライブイベント支援プログラムを通じて計画できます。 チームは各要求を評価し、お客様と協力して利用可能なオプションを決定します。 [詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日以降、これらの制限の引き上げが必要なお客様は、 [Advanced Communications](../teams-add-on-licensing/advanced-communications.md) アドオンを購入する必要があります。**
+> さらに、最大 10 万人の参加者がいるライブイベントを、MIcrosoft 365 のライブイベント支援プログラムを通じて計画できます。 チームは各要求を評価し、お客様と協力して利用可能なオプションを決定します。 [詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日以降、これらの制限の引き上げが必要なお客様は、[Advanced Communications](../teams-add-on-licensing/advanced-communications.md) アドオンを購入する必要があります。**
 
-|**機能**   |**Skype 会議ブロードキャスト** |**Teams で生成されたイベント** |**外部アプリまたはデバイスで作成されたイベント** |
+| 機能 | Skype 会議メディア | Teams で生成されたイベント | 外部アプリまたはデバイスで作成されたイベント |
 |---------|---------|---------|---------|
 |最大視聴者数 |出席者 10,000 名 |出席者 10,000 名 <sup>1</sup> |出席者 10,000 名 <sup>1</sup> |
 |ライブ イベントの最大期間 |4 時間 |4 時間 |4 時間 |
@@ -181,10 +182,10 @@ Teams ライブ イベントを作成または表示するために割り当て�
 
 **除外対象と考慮事項**
 
-- **データの場所** : 上記以外の Teams のデータの場所はサポートされていません。
+- **データの場所**: 上記以外の Teams のデータの場所はサポートされていません。
 - **中国:** 中国では Azure CDN にアクセスできないため、イベント チームのメンバーと出席者は Teams ライブ イベントを使用できません。 企業の VPN 接続を使用して、顧客の企業ネットワーク経由でクライアントを CDN に接続することにより、これを回避できます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 「[Microsoft Teams でのライブ イベントのセットアップ](set-up-for-teams-live-events.md)」に進みます。
 
