@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9fcc4475b7f06b427dbc73de4b00b09b08755a
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: bb045a6bf6a950e1b3d822a0e3b8a9389affbf64
+ms.sourcegitcommit: 7387d631cf895992906a46d3b7576a2ac76f5b4d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085551"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49366916"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と、会議の記録に SharePoint または Stream を使用する
 
@@ -70,8 +70,9 @@ OneDrive for Business と SharePoint を使ったレコーディングの保存�
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>OneDrive for Business と SharePoint の会議のレコーディングオプションを設定する
 
+[会議レコーディング] オプションは、Teams のポリシーレベルで設定します。 次の例は、グローバルポリシーを設定する方法を示しています。 ユーザーに割り当てたポリシーの [会議レコーディング] オプションが設定されていることを確認してください。
+
 > [!Note]
-> [会議レコーディング] オプションは、Teams のポリシーレベルで設定します。 次の例は、グローバルポリシーを設定する方法を示しています。 ユーザーに割り当てたポリシーの [会議レコーディング] オプションが設定されていることを確認してください。
 > Teams の会議ポリシーの変更は、反映されるまでしばらくかかります。 設定が完了したら、もう一度サインアウトしてから、もう一度サインインします。
 
 1. Skype For Business Online PowerShell をインストールします。
@@ -108,6 +109,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
 ## <a name="permissions-or-role-based-access"></a>権限またはロールベースのアクセス
+
+> [!Note]
+> チームの会議の記録を共有する場合、受信者はログインしているユーザーである必要があることをお勧めします。 これを行うには、「 [SharePoint のファイルまたはフォルダーを共有](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US)する」の説明に従ってファイルを共有するときに、[**自分の所属するメンバー** ] オプションを選択します。 外部共有は、大きなファイルまたは多数のファイルの配布を目的として設計されていません。 不正使用や不正使用のシナリオを防ぐため、大量のデータを外部ユーザーに共有するときに問題が発生する可能性があります。
 
 |会議の種類                               | レコードをクリックしたユーザー| 記録はどこにありますか?                               |アクセス権を持つユーザー R/W、R、または共有                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Microsoft Teams を使用して仮想ビジットシステムをセットアップする
-ms.openlocfilehash: ed952f678fb353ae623a0020ac565ee4e8288445
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: 808d957cd86273852e7c2c98ec223b1988e5bd0d
+ms.sourcegitcommit: cbf87fc914a19088af8ec08fb0976db9f838a45d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790459"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49355967"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>チームでの仮想アクセス-EHR との統合
 
@@ -91,7 +91,7 @@ Microsoft Teams で仮想アクセスを起動するように医療組織を構�
 
 この手順を完了するために、Microsoft 365 管理者は、Microsoft 365 管理者から、構成を承認するエピック管理者のユーザー名から、有効な Fast Health の相互運用性リソース (FHIR) ベース URL を受け取る必要があります。 Microsoft 365 管理者は、コネクタ構成ページを起動し、Microsoft 資格情報でサインインして、構成プロセスを開始する必要があります。
 
-- FHIR ベース URL は、サーバー FHIR API エンドポイントに対応する静的アドレスです。 URL の例を次に示し [https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST](https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST) ます。
+- FHIR ベース URL は、サーバー FHIR API エンドポイントに対応する静的アドレスです。 URL の例を次に示し `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` ます。
 
 - 構成承認者名は、構成の承認を担当するエピックシステム管理者の名前です。
 
