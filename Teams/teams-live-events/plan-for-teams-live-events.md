@@ -20,12 +20,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1be13bb3e92a7ccd927696061ba20d3e4513080
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 45f7d629b53a8f20ed9fb072d5dc8812a680d0c4
+ms.sourcegitcommit: 25d14b501c0d62b8b77bbf03dac490f5bc1969bd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130588"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49372251"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -142,8 +142,8 @@ Teams ライブ イベントを作成または表示するために割り当て�
 |ブロードキャスト後のプロデューサー向け出席レポート |&#x2714; |&#x2714; |&#x274C; |
 |視聴者の感情分析 – ライブ投票/投票 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> 設定されている制限が変更される場合があります。 「[Teams の制限と仕様](../limits-specifications-teams.md)」を確認してください。<br/>
-<sup>2</sup> ライブ イベントには最大 250 人の発表者とプロデューサーを指定することができますが、リストには最後に話した 10 人しか表示されません。
+<sup>1</sup> 設定されている制限が変更される場合があります。「[Teams の制限事項と仕様](../limits-specifications-teams.md)」を確認してください。<br/>
+<sup>2</sup> ライブ イベントには最大 １00 人の発表者とプロデューサーを指定することができますが、リストには最後に話した 10 人しか表示されません。
 
 ## <a name="regional-availability"></a>利用可能な地域
 
