@@ -1,16 +1,33 @@
 ---
-タイトル: Microsoft Teams のライブイベントとは何ですか?作成者: lana (編集者): v-lanac manager: serdars------------------------------------------ 
-  - M365-共同作業
-  - m365initiative-会議
-  - m365solution-spcomms
-- m365solution-シナリオ MET150: sonua の対象ユーザー: 管理者検索. appverid: description: ライブイベントによって、チーム、Yammer、およびストリーミングの大規模なオンラインユーザーにビデオとコンテンツをブロードキャストする方法について説明します。
-f1. キーワード: 
-- CSH ms. custom:
-  - liveevents を使用した excel の管理
-  - ms teamsadmincenter liveevents appliesto: 
-  - Microsoft Teams
+title: Microsoft Teams のライブ イベントについて
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.topic: conceptual
+ms.service: msteams
+ms.collection:
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
+ms.reviewer: sonua
+audience: admin
+search.appverid: MET150
+description: ユーザーが Teams、Yammer、Stream のオンライン視聴者にビデオやコンテンツをブロードキャストするためのライブ イベントを紹介します。
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
+ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.translationtype: MT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49373473"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブイベントとは
 
 ## <a name="overview"></a>概要
@@ -49,8 +66,6 @@ Teams では、主催者は適切な参加者アクセス許可でイベント�
 ビデオ入力はライブ イベントの基盤であり、単一の Web カメラからマルチカメラのプロのビデオ作成までさまざまです。 Microsoft 365 のライブ イベントは、Web カメラを使用して Teams で作成されるイベントや、外部アプリまたはデバイスで作成されるイベントなど、さまざまな作成シナリオをサポートします。 これらのオプションは、プロジェクトの要件と予算に応じて選択できます。 イベントを作成するには、次の 2 つの方法があります。
 
 - **Teams**: この作成方法を使用すると、Web カメラまたは Teams ルーム システムからの音声ビデオ入力を使用して、Teams 内でライブ イベントを作成できます。 このオプションは、PC に接続されたオーディオ デバイスとビデオ デバイスを使用する場合、またはリモート発表者をイベントに招待する場合に最適かつ迅速なオプションです。 このオプションを使用すると、Web カメラを簡単に使用して、イベントの入力として画面を共有できます。
-
-    ![クイックスタートメソッドを使用して生成されたライブイベント](../media/teams-live-events-quick-start.png "クイック スタート作成方法を使用して作成されたライブ イベントを示すスクリーンショット")
 
 - **外部アプリまたはデバイス**: 外部エンコーダーを使用すると、ユーザーが [Stream](https://stream.microsoft.com) の外部ハードウェアまたはソフトウェア ベースのエンコーダーから直接ライブ イベントを作成することができます。 このオプションは、Real-time Messaging Protocol (RTMP) サービスへのストリーミングをサポートするスタジオ品質の機器 (メディア ミキサーなど) がすでにある場合に最適です。 通常、この種類の生産は、役員などの大規模なイベント (メディアミキサーの1つのストリームが対象ユーザーにブロードキャストされている場所) で使用されます。
 
