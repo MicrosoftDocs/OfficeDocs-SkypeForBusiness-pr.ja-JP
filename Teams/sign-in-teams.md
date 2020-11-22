@@ -17,24 +17,25 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
-ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
+ms.openlocfilehash: 9171ffa0b2750d053afa76c5dc788b24cf8ec2d4
+ms.sourcegitcommit: cb50f1fde4913c5a61e521c77fb554b883beb451
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49350569"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376020"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams にサイン インする
 ==========================
 
 ## <a name="windows-users"></a>Windows ユーザー
+
 Microsoft は、組織が ハイブリッド ドメイン参加構成か Azure AD 参加構成のいずれかで Windows 10 の最新バージョンを使用することを推奨しています。 最新バージョンの使用によって、Windows の Web アカウント マネージャーでユーザーのアカウントが準備され、Teams や他の Microsoft アプリケーションへのシングル サインオンが可能になります。 シングル サインオンにより、ユーザー エクスペリエンス (サイレント サインイン) と、セキュリティ対策が改善されます。
 
 Microsoft Teams は先進認証を使用して、サインイン操作をシンプルかつ安全なものとしています。 ユーザーが Teams にサインインする方法については、「[Teams にサインインする](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)」を参照してください。
 
 ### <a name="how-modern-authentication-works"></a>先進認証のしくみ
 
-先進認証は以下を可能にするプロセスです。 ユーザーが資格情報 (職場のメールやパスワードなど) を既に別の場所に入力したことを Teams に知らせ、ユーザーが資格情報を再度入力することを要求されることなくアプリを起動できるようにします。 ユーザーが Windows を使用しているのか Mac を使用しているのかなど、いつくかの要因によってエクスペリエンスは異なります。 また、組織が単要素認証を有効にしているか多要素認証を有効にしているかによっても異なります。 多要素認証を使用するには通常、電話による資格情報の確認、固有のコードの提供、PIN の入力、拇印の提示が含まれます。 以下は、それぞれの先進認証シナリオの簡単な説明です。
+先進認証とは、ユーザーが資格情報 (職場のメールやパスワードなど) を既に別の場所に入力したことを Teams に知らせ、ユーザーが資格情報を再度入力することを要求されることなくアプリを起動できるようにするためのプロセスです。 ユーザーが Windows を使用しているのか Mac を使用しているのかなど、いつくかの要因によってエクスペリエンスは異なります。 また、組織が単要素認証を有効にしているか多要素認証を有効にしているかによっても異なります。 多要素認証を使用するには通常、電話による資格情報の確認、固有のコードの提供、PIN の入力、拇印の提示が含まれます。 以下は、それぞれの先進認証シナリオの簡単な説明です。
 
 先進認証は、Teams を使用するすべての組織で使用できます。 ユーザーがプロセスを完了できない場合は、組織の Azure AD 構成に根底の問題がある可能性があります。 詳細については、「[Microsoft Teams へのサインインで問題が発生する理由](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)」を参照してください。
 
@@ -57,7 +58,7 @@ Microsoft Teams は先進認証を使用して、サインイン操作をシン�
 
 ### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>先進認証を行った後に Teams からサインアウトする
 
-Teams からサインアウトするには、アプリの上部にある自分のプロファイル画像をクリックし、[**サインアウト**] を選択します。タスク バーにあるアプリのアイコンを右クリックして [**ログアウト**] を選択することもできます。一旦 Teams からサインアウトすると、アプリを起動するには資格情報をもう一度入力する必要があります。
+Teams からサインアウトするには、アプリの上部にある自分のプロファイル画像をクリックし、[**サインアウト**] を選択します。タスク バーにあるアプリのアイコンを右クリックして [**ログアウト**] を選択することもできます。一 Teams からサインアウトすると、アプリを起動するには資格情報をもう一度入力する必要があります。
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>ドメインに参加しているコンピューター上の別のアカウントにサイン インする
 
@@ -118,10 +119,11 @@ Windows および MacOS の Teams アプリは、組織へのサイン インを
 このポリシーがデバイスに構成されている場合、ユーザーは、ポリシーで定義されている "テナントの許可リスト" に含まれている Azure AD テナントを使用しているアカウントでのみサインインできます。 ポリシーは、最初のアカウントと追加のアカウントを含むすべてのサイン インに適用されます。 組織が複数の Azure AD テナントにまたがる場合、許可リストに複数のテナント ID を含めることができます。 別のアカウントを追加するためのリンクは、引き続き Teams アプリに表示される場合がありますが、操作はできません。
 
 > [!NOTE]
->1. ポリシーによって制限されるのは、サインインのみです。他の Azure AD テナントでは、ユーザーがゲストとして招待する機能やほかのテナントへの切り替えが制限されることはありません。
->2. このポリシーには Windows  バージョン 1.3.00.30866 以降の Teams および MacOS  バージョン 1.3.00.30882 (2020 年 11 月半ばにリリースされました) の Teams が必要です。
+>1. ポリシーによって制限されるのは、サインインのみです。他の Azure AD テナントでは、ユーザーがゲストとして招待される機能やほかのテナントへの切り替えが制限されることはありません。
+>2. このポリシーには Windows  バージョン 1.3.00.30866 以降の Teams および MacOS バージョン 1.3.00.30882(2020 年 11 月半ばにリリースされました) の Teams が必要です。
 
-**Windows のポリシー** Windows レジストリに手動でキーを設定することができます。
+**Windows** 管理用テンプレート ファイル (ADMX/ADML) のポリシーについては、 「[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=49030)」を参照してください。 Windows レジストリに手動でキーを設定することもできます。
+
 - 値の名前: RestrictTeamsSignInToAccountsFromTenantList
 - 値の種類: 文字列
 - 値のデータ: テナント ID またはコンマ区切りのテナント ID のリスト
@@ -130,8 +132,6 @@ Windows および MacOS の Teams アプリは、組織へのサイン インを
  Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Cloud\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Teams
 
 例: ソフトウェア\ポリシー\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = テナント ID またはソフトウェア\ポリシー\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = テナント ID 1、テナント ID 2、テナント ID 3
-
-管理用テンプレートファイル (ADMX/ADML) を使用する方法の詳細については、今後の数日間にこのドキュメントを更新します。
 
 MacOS に管理されているデバイス用の **MacOS のポリシー** は、.plist を使用して、サインイン制限を展開します。 構成プロファイルは、(優先順位の名前を示す) キーによって識別されたエントリで構成される .plist ファイルです。その後に、基本設定の性質に応じて、値が表示されます。 値には、単純 (数値など) または複合のいずれかを指定できます。たとえば、基本設定の入れ子リストがあります。
 
