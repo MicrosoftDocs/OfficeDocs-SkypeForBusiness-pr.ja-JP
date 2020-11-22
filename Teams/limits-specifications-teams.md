@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aded7fefd977d3f3437f15a97296be083d43359
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
+ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085471"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49349113"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -68,7 +68,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 |機能  | 上限  |
 |---------|---------|
-|プライベート チャットに参加できるユーザー数 <sup>1</sup>  | 350 |
+|プライベート チャットに参加できるユーザー数 <sup>1</sup>  | 250 人 |
 |チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
 |添付ファイルの数 <sup>2</sup>  |10     |
 |チャットのサイズ | 投稿ごとに約 28 KB<sup>3</sup> |
@@ -191,9 +191,9 @@ Team は、SharePoint Online のバックエンドのファイル共有で実行
 |------------------------|---------|---------|---------|---------|---------|---------|
 |ストレージ                 |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB   |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB           |
 |Teams ファイル用のストレージ |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |
-|ファイル アップロードの上限 (ファイルあたり)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|ファイル アップロードの上限 (ファイルあたり)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
-チャンネルは、チーム用に作成された SharePoint Online サイト コレクション内のフォルダーによってバックアップされるため、チャンネル内のファイル タブは、所属するチームのストレージ制限を共有します。
+チャネルは、チーム用に作成された SharePoint Online サイト コレクション内のフォルダーによってバックアップされるため、チャネル内のファイル タブは、所属するチームのストレージ制限を共有します。
 
 詳細については、「[SharePoint Online の制限](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)」を参照してください。
 

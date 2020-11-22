@@ -1,5 +1,5 @@
 ---
-title: 先進認証を使用して Teams にサインインする
+title: Microsoft Teams にサイン インする
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d931c41fb3da345be124ddef570e0f4bda53474
-ms.sourcegitcommit: 98c5bcfad4ded89ac7b3604367e43a28663828bb
+ms.openlocfilehash: bc31b7d3c81581361e28e2074fdee45aae5e0422
+ms.sourcegitcommit: ef58f429658333b53d72d5fa7265701d2a18326b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "48944191"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "49350569"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams にサイン インする
 ==========================
@@ -57,7 +57,7 @@ Microsoft Teams は先進認証を使用して、サインイン操作をシン�
 
 ### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>先進認証を行った後に Teams からサインアウトする
 
-Teams からサインアウトするには、アプリの上部にある自分のプロファイル画像をクリックし、[ **サインアウト** ] を選択します。タスク バーにあるアプリのアイコンを右クリックして [ **ログアウト** ] を選択することもできます。一旦 Teams からサインアウトすると、アプリを起動するには資格情報をもう一度入力する必要があります。
+Teams からサインアウトするには、アプリの上部にある自分のプロファイル画像をクリックし、[**サインアウト**] を選択します。タスク バーにあるアプリのアイコンを右クリックして [**ログアウト**] を選択することもできます。一旦 Teams からサインアウトすると、アプリを起動するには資格情報をもう一度入力する必要があります。
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>ドメインに参加しているコンピューター上の別のアカウントにサイン インする
 
@@ -102,7 +102,7 @@ MDM プロバイダーでアカウント セットアップ構成が構成され
 
 |プラットフォーム |キー  |値  |
 |---------|---------|---------|
-|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **有効** : 使用できるアカウントは、IntuneMAMUPN キーで定義された管理対象ユーザー アカウントのみです。<br> **無効** (または、大文字と小文字を区別しない **有効** な任意の値): すべてのアカウントを使用できます。        |
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **有効**: 使用できるアカウントは、IntuneMAMUPN キーで定義された管理対象ユーザー アカウントのみです。<br> **無効** (または、大文字と小文字を区別しない **有効** な任意の値): すべてのアカウントを使用できます。        |
 |iOS     |   **IntuneMAMUPN**      |   Teams. へのサインインが許可されているアカウントの UPN です。<br> Intune に登録されているデバイスの場合、{{userprincipalname}} トークンを使用して、登録済みのユーザーアカウントを表すことができます。       |
 |Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    このキーで定義された管理対象ユーザーアカウントのみ許可されます。<br> 1 つ以上のセミコロン;]- 区切られた UPNs。<br> Intune に登録されているデバイスの場合、{{userprincipalname}} トークンを使用して、登録済みのユーザーアカウントを表すことができます。
 
@@ -143,7 +143,7 @@ MacOS に管理されているデバイス用の **MacOS のポリシー** は�
 
 ## <a name="sign-out-on-mobile-devices"></a>モバイル デバイスのサイン アウト
 
-モバイル ユーザーはメニューに移動して [ **その他** ] メニューを選択し、[ **サインアウト** ] を選択することで、Teams からサインアウトできます。サインアウトすると、ユーザーは次にアプリを起動するときに、資格情報を再入力する必要があります。
+モバイル ユーザーはメニューに移動して [**その他**] メニューを選択し、[**サインアウト**] を選択することで、Teams からサインアウトできます。サインアウトすると、ユーザーは次にアプリを起動するときに、資格情報を再入力する必要があります。
 
 > [!NOTE]
 > Android の Teams はシングル サインオン (SSO) を使用して、サインインの操作を簡素化します。 ユーザーは、Android プラットフォームで完全にログアウトするために、Teams に加えて **すべての** Microsoft アプリからログアウトする必要があります。
