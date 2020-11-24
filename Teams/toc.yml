@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: Teams のロールアウト方法
   href: How-to-roll-out-teams.md
-- name: 作業の開始
+- name: 概要
   items:
     - name: 概要
       href: get-started-with-teams-quick-start.md
@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: 環境を準備する
               href: rooms/rooms-prep.md
-            - name: 要件
+            - name: Requirements
               href: rooms/requirements.md
             - name: オンライン ライセンス
               href: rooms/rooms-licensing.md
@@ -262,7 +262,7 @@
                   href: rooms/microsoft-teams-rooms-premium.md
                 - name: Microsoft Teams Rooms の管理サービスを使用したロールベースのアクセス制御
                   href: rooms/microsoft-teams-rooms-premium-rbac.md
-        - name: 展開する
+        - name: 展開
           items:
             - name: 展開の概要
               href: rooms/rooms-deploy.md
@@ -348,6 +348,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Teams でホワイトボードを管理する
       href: manage-whiteboard.md
+    - name: Google Workspace 用 Teams meeting アドオンをセットアップする
+      href: add-gsuite-thru-aad.md
     - name: 電話会議
       items:
         - name: 展開の計画
@@ -426,7 +428,7 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: 国および地域ごとの電話会議の利用可能性
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: 参照
+        - name: Reference
           items:
             - name: 電話会議でサポートされている言語
               href: audio-conferencing-supported-languages.md
@@ -873,7 +875,7 @@
   items:
     - name: 概要
       href: adopt-microsoft-teams-landing-page.md
-    - name: 作業の開始
+    - name: 概要
       href: teams-adoption-get-started.md
     - name: 'フェーズ 1: 開始'
       items:
@@ -913,7 +915,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: Teams へのアップグレード
   items:
-    - name: 作業の開始
+    - name: 概要
       href: upgrade-start-here.md
     - name: アップグレードのフレームワークについて
       href: upgrade-framework.md
@@ -967,7 +969,7 @@
       href: continue-journey.md
     - name: Skype for Business Online のサポート終了
       href: skype-for-business-online-retirement.md
-    - name: FAQ
+    - name: よくあるご質問 (FAQ)
       href: FAQ-journey.md
     - name: テクニカル ライブラリ
       items:
@@ -1098,7 +1100,7 @@
           items:
             - name: Teams で組織の Shifts アプリを管理する
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 医療関係向けのTeams
+    - name: 医療関係向けの Teams
       items:
         - name: 医療関係組織のためのTeamsを始めましょう
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
@@ -1331,7 +1333,7 @@
       href: service-health.md
     - name: ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: 参照
+- name: Reference
   items:
     - name: Teams の制限と仕様
       href: limits-specifications-teams.md
