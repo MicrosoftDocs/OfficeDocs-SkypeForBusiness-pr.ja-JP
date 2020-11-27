@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dff2718277aac71af578dbb849560751bb2e33a7
-ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
+ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
+ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349113"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49420927"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -50,9 +50,9 @@ ms.locfileid: "49349113"
 
 <sup>1</sup> Azure Active Directory のすべてのディレクトリ オブジェクトはこの制限にカウントされます。グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
 
-<sup>2</sup> この制限には、アーカイブ済みのチームが含まれます。
+<sup>2</sup> この制限には、アーカイブ済みのチームが含まれます。 Microsoft 365 または Office 365 組織が保持できるチームの最大数を超えるには、Microsoft サポートに連絡する必要があります。
 
-<sup>3</sup> 削除したチャネルは、30 日以内であれば復元できます。この 30 日間、削除されたチャネルはチームごとの制限である 200 チャネルまたは30のプライベートチャネルとしてカウントされ続けます。30 日を経過すると、削除されたチャネルとそのコンテンツは完全に削除され、チャネルはチームごとの制限内のチャネルとしてカウントされなくなります。
+<sup>3</sup> 削除したチャネルは、30 日以内であれば復元できます。この 30 日間、削除されたチャネルはチームごとの制限である 200 チャネルまたは 30 のプライベート チャネルとしてカウントされ続けます。30 日を経過すると、削除されたチャネルとそのコンテンツは完全に削除され、チャネルはチームごとの制限内のチャネルとしてカウントされなくなります。
 
 <sup>4</sup> 28 KBは、メッセージ自体 (テキスト、画像リンクなど)、@メンション、コネクタの数、およびリアクションを含むため、おおよその制限です。
 
