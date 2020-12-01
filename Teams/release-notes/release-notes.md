@@ -16,16 +16,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams の管理者向け機能のリリースノート。
-ms.openlocfilehash: ff1fb34e627b7a422249cfb5d22fbd90c6a8940e
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: eb450d89df9ecf13f262c91db6fde8514448a29b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816107"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477036"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams の管理者向け機能のリリースノート
 
 これらのリリースノートでは、Microsoft Teams の新しい管理機能について説明します。
+
+## <a name="november-25-2020"></a>2020年11月25日
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace 用 Microsoft Teams 会議のアドオンを設定する
+
+Microsoft Teams 会議アドオンを使用すると、Google カレンダーのユーザーは、Google Workspace から直接 Microsoft Teams 会議にスケジュールを設定して参加することができます。 ユーザーは、ビデオ通話、電話会議、画面共有、会議チャット、デジタルホワイトボードなどの Teams 会議機能にアクセスできます。 連絡を取り合うことで、仕事、学校、または生活の間でより多くのことを同時に行うことができます。
+
+テナントのユーザーがアプリにアクセスできるようにするには、Google Workspace 用の Microsoft Teams 会議アドオンが Teams 管理者によって有効になっている必要があります。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad)。
 
 ## <a name="october-28-2020"></a>2020年10月28日
 
@@ -55,7 +63,7 @@ Microsoft Teams 管理センターでは、組織内の Skype for business ユ�
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>組織の Skype for Business の設定を管理する
 
-Microsoft Teams 管理センターでは、組織内の Skype for business ユーザーの Skype for business の機能を管理できます。 [ **組織全体の設定** ] の [  >  **Skype for business** ] に移動します。 ここでは、Skype 会議ブロードキャスト、プレゼンス、モバイルの通知を管理することができます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+Microsoft Teams 管理センターでは、組織内の Skype for business ユーザーの Skype for business の機能を管理できます。 [**組織全体の設定**] の [  >  **Skype for business**] に移動します。 ここでは、Skype 会議ブロードキャスト、プレゼンス、モバイルの通知を管理することができます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
 
 ## <a name="october-16-2020"></a>2020年10月16日
 
@@ -67,7 +75,7 @@ Microsoft Teams 管理センターでは、組織内の Skype for business ユ�
 
 ### <a name="custom-policy-packages"></a>カスタムポリシーパッケージ
 
-*この機能はプライベートプレビュー*
+*この機能はプライベート プレビューです*
 
 カスタムポリシーパッケージを使用すると、組織内で同様の役割を持つユーザーに独自のポリシーセットをバンドルすることができます。 必要なポリシーの種類とポリシーを追加して、独自のポリシーパッケージを作成します。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/manage-policy-packages#custom-policy-packages)。
 
@@ -279,7 +287,7 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ## <a name="june-29-2020"></a>2020年6月29日
 
-### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams での ie トランシーバーアプリの解説
+### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
 プッシュツートークを使ったインスタント音声通信。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/walkie-talkie)。
 
@@ -355,7 +363,7 @@ PowerShell を使用して、ユーザーとグループのポリシーパッケ
 
 ### <a name="enable-organizers-to-change-lobby-settings-for-dial-in-participants"></a>開催者がダイヤルイン参加者のロビー設定を変更できるようにする
 
-この設定では、スマートフォンでダイヤル インするユーザーが会議に直接参加するのか、[ **ユーザーの参加を自動的に許可する** ] の設定に関わらずロビーで待機するのかを制御します。
+この設定では、スマートフォンでダイヤル インするユーザーが会議に直接参加するのか、[**ユーザーの参加を自動的に許可する**] の設定に関わらずロビーで待機するのかを制御します。
 
 ## <a name="april-8-2020"></a>2020年4月8日
 
@@ -373,7 +381,7 @@ Microsoft Teams クライアントでは、realwear の ruggedized ヘッドマ�
 
 ### <a name="tag-youre-it"></a>タグが表示されている
 
-グループ、役割、部門などの @mention できるように、タグを作成してユーザーをそのユーザーに割り当てることができます。チームの所有者は、長らくにお試しください。 チームに移動し、[ **その他のオプション** ] の [タグの管理] を選択し  >  **Manage tags** ます。 [詳細情報を参照してください](../manage-tags.md)。
+グループ、役割、部門などの @mention できるように、タグを作成してユーザーをそのユーザーに割り当てることができます。チームの所有者は、長らくにお試しください。 チームに移動し、[**その他のオプション**] の [タグの管理] を選択し  >  **Manage tags** ます。 [詳細情報を参照してください](../manage-tags.md)。
 
 ## <a name="march-30-2020"></a>2020年3月30日
 

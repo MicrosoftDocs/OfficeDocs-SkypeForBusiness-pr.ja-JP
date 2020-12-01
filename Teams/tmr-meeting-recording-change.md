@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d391a72cf7b73942f9e596fe71c23f14b9bd0a6
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
+ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385624"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49477046"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と、会議の記録に SharePoint または Stream を使用する
 
@@ -94,11 +94,14 @@ OneDrive for Business と SharePoint を使ったレコーディングの保存�
    Import-PSSession $sfbSession
    ```
 
-4. [Csteamsmeetingpolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps&preserve-view=true)を使用して、ストリームストレージから OneDrive for Business および SharePoint に切り替えるようにチーム会議ポリシーを設定します。
+4. [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)を使用して、ストリームストレージから OneDrive for Business および SharePoint に切り替えるようにチーム会議ポリシーを設定します。
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
+   
+> [!Note]
+> ユーザーに、開催者ごとまたはユーザーごとのポリシーが割り当てられている場合は、このポリシーに対してこの設定を設定して、OneDrive for Business および SharePoint で会議のレコーディングも保存する必要があります。 詳細については、「 [Teams の会議ポリシーを管理](meeting-policies-in-teams.md)する」を参照してください。
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>OneDrive for Business と SharePoint の使用を停止してストリームを継続する
 
