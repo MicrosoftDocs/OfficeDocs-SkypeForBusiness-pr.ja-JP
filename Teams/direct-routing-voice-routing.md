@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone システムのダイレクトルーティングでボイスルーティングを構成する方法について説明します。
-ms.openlocfilehash: 37343ad177e3408f94103296509e4b9bfc8ea759
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: e87d7d04f9b2477d65e08f461ac3ff113b4d0e7c
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359413"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530994"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>直接ルーティング用のボイスルーティングを構成する
 
@@ -70,7 +70,7 @@ SBCs は、アクティブなバックアップとして指定できます。 Ac
 
 ![ボイスルーティングポリシーの例を示しています](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
-どちらの例でも、ボイスルートには優先順位が割り当てられていますが、ルートの SBCs はランダムな順序で試行されます。
+どちらの例でも、ボイスルートには優先順位が割り当てられていますが、ルートの SBCs はランダムな順序で試行されます。 1つのルートで2つの SBC が構成されている場合、転送に対する新しい招待がルート内の別の SBC に送信される可能性があるため、ネットワークトラフィックは、両方の SBC またはメディアの間でルーティング可能でなければなりません。
 
   > [!NOTE]
   > ユーザーに Microsoft の通話プランライセンスも付与されていない限り、そのパターンに一致する番号 (1 425 XXX XX XX または + 1 206 XXX XX xx) は、この構成の例では削除されません。 ユーザーが通話プランライセンスを持っている場合は、Microsoft 通話プランのポリシーに従って、通話が自動的にルーティングされます。 Microsoft 通話プランは、Microsoft 通話プランライセンスを持つすべてのユーザーに対して、最後のルートとして自動的に適用され、追加の通話ルーティング構成は必要ありません。
@@ -109,14 +109,14 @@ SBCs は、アクティブなバックアップとして指定できます。 Ac
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>手順 1: "US とカナダ" の PSTN 使用量を作成する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**  >  の**直接ルーティング**] に移動し、右上隅の [ **PSTN 使用状況レコードの管理**] を選びます。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**  >  の **直接ルーティング**] に移動し、右上隅の [ **PSTN 使用状況レコードの管理**] を選びます。
 2. [ **追加**] をクリックし、「 **米国」と「カナダ**」と入力して、[ **適用**] をクリックします。
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>手順 2: 3 つのボイスルーティングルート (Redmond 1、Redmond 2、その他 + 1) を作成する
 
 次の手順では、ボイスルートの作成方法について説明します。 次の手順を使用して、前の表で説明した設定を使用して、この例で Redmond 1、Redmond 2、その他の + 1 という名前の3つのボイスルートを作成します。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**の直接ルーティング] に移動し、  >  **Direct Routing**[**ボイス**ルーティング] タブを選択します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声** の直接ルーティング] に移動し、  >  **Direct Routing**[**ボイス** ルーティング] タブを選択します。
 2. [ **追加**] をクリックして、ボイスルートの名前と説明を入力します。
 3. 優先度を設定し、ダイヤル番号のパターンを指定します。
 4. 音声ルートを使用して SBC を登録するには、[ **sbcs 登録 (オプション)**] で [ **sbcs の追加**] をクリックし、登録する sbcs を選択して、[ **適用**] をクリックします。
@@ -342,12 +342,12 @@ US Only
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>手順 1: "国際" PSTN 使用量を作成する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**  >  の**直接ルーティング**] に移動し、右上隅の [ **PSTN 使用状況レコードの管理**] を選びます。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**  >  の **直接ルーティング**] に移動し、右上隅の [ **PSTN 使用状況レコードの管理**] を選びます。
 2. [ **追加**] をクリックし、[ **国際**] と入力して、[ **適用**] をクリックします。
 
 #### <a name="step-2-create-the-international-voice-route"></a>手順 2: "国際" ボイスルーティングを作成する
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声**の直接ルーティング] に移動し、  >  **Direct Routing**[**ボイス**ルーティング] タブを選択します。
+1. Microsoft Teams 管理センターの左のナビゲーションで、[**音声** の直接ルーティング] に移動し、  >  **Direct Routing**[**ボイス** ルーティング] タブを選択します。
 2. [ **追加**] をクリックし、名前として「国際」と入力して、説明を追加します。
 3. 優先度を4に設定して、ダイヤルされた番号のパターンを \d + に設定します。
 4. [ **Sbcs 登録 (オプション)**] で [ **sbcs の追加**] をクリックし、[sbc2.contoso.biz] と [sbc5.contoso.biz] を選択して、[ **適用**] をクリックします。

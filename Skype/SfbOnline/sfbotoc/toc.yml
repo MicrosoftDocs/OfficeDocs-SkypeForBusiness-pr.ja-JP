@@ -1,4 +1,4 @@
-- name: Skype for Business Online の管理
+- name: Skype for Business Online 管理者
   href: ../skype-for-business-online.yml
   items:
     - name: 国および地域ごとの電話会議および通話プランの利用可能性
@@ -18,7 +18,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: ベリーズ
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: ボスニア・ヘルツェゴビナ
+        - name: ボスニア & ヘルツェゴヴィナ
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: ブラジル
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -44,7 +44,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: デンマーク
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: Dominican Republic (República Dominicana)
+        - name: ドミニカ共和国
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: エクアドル
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -66,7 +66,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: ホンジュラス
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 香港
+        - name: 香港特別行政区
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: ハンガリー
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -92,7 +92,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: ルクセンブルク
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: マケドニア
+        - name: 北マケドニア
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: マレーシア
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -148,7 +148,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: スペイン
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: Sri Lanka
+        - name: スリランカ
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: スウェーデン
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -164,7 +164,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: ウクライナ
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: アラブ首長国連邦 (UAE)
+        - name: アラブ首長国連邦 (U.A.E)
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 英国
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -176,7 +176,7 @@
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: ベトナム
           href: /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-    - name: Office 365 における電話会議
+    - name: Office 365 の電話会議
       href: /microsoftteams/audio-conferencing-in-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
       items:
         - name: Microsoft を電話会議プロバイダーとして割り当てる
@@ -191,7 +191,7 @@
           href: /microsoftteams/change-the-settings-for-an-audio-conferencing-bridge?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 電話会議ブリッジの電話番号を変更する
           href: /microsoftteams/change-the-phone-numbers-on-your-audio-conferencing-bridge?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 他のユーザーが参加できるように会議からダイヤルアウトする
+        - name: 他のユーザーが参加できるように会議からダイヤル アウトする
           href: ../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md
         - name: 特定のユーザーの無料電話番号を無効にする
           href: ../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md
@@ -233,7 +233,7 @@
           href: ../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md
         - name: PIN を使用せずに電話で音声会議を開始する
           href: ../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md
-        - name: Office 365 での電話会議を試用または購入する
+        - name: Office 365 での電話会議を使用または購入する
           href: ../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md
         - name: 会議の入退室通知をオンまたはオフにする
           href: ../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md
@@ -250,11 +250,11 @@
           href: /microsoftteams/how-many-phone-numbers-can-you-get?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 発信回線 ID と発信者名の詳細
           href: /microsoftteams/more-about-calling-line-ID-and-calling-party-name?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: ユーザーに発信者番号を設定する
+        - name: ユーザーの発信者 ID の設定
           href: /microsoftteams/set-the-caller-id-for-a-user?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 通話プランの設定
           href: /microsoftteams/set-up-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 着信通話をブロックする
+        - name: 受信通話をブロックする
           href: ../what-is-phone-system-in-office-365/block-inbound-calls.md
         - name: 無料通話番号の制限
           href: /microsoftteams/toll-free-dialing-limitations-and-restrictions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -267,7 +267,7 @@
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: ベリーズ
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: ボスニア・ヘルツェゴビナ
+            - name: ボスニア & ヘルツェゴヴィナ
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: ブラジル
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -303,7 +303,7 @@
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: ホンジュラス
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 香港
+            - name: 香港特別行政区
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: ハンガリー
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -371,7 +371,7 @@
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: トルコ
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: アラブ首長国連邦 (UAE)
+            - name: アラブ首長国連邦 (U.A.E)
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: 英国
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -383,13 +383,13 @@
               href: /microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 緊急対応の場所、アドレス、通話ルーティングの概要
           href: /microsoftteams/what-are-emergency-locations-addresses-and-call-routing?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-    - name: Office 365 の電話システム
+    - name: 'Office 365 の電話システム '
       href: /microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
       items:
-        - name: Skype for Business Online で使う電話を入手する
+        - name: Skype for Business Online を利用できる電話機の取得
           href: ../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md
           items:
-            - name: Skype for Business Online 電話機の展開レポート
+            - name: Skype for Business Online 電話機の展開
               href: ../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md
             - name: 共通エリア電話 (CAP) の設定
               href: ../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md
@@ -397,11 +397,11 @@
           href: /microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: クラウド ボイスメール
           items:
-            - name: 組織でボイスメールの応答メッセージとメールでに使用する既定の言語を変更する
+            - name: 組織でボイスメールの応答メッセージと電子メールに使用する既定の言語を変更する
               href: /microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
             - name: ボイスメールの応答メッセージとメッセージで使用する言語
               href: /microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: クラウド ボイスメールの設定 - Admin ヘルプ
+            - name: クラウド ボイスメールのセットアップ - Admin ヘルプ
               href: /microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 組織内の電話システムの設定
           href: /microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
@@ -410,16 +410,12 @@
           items:
             - name: クラウドの自動応答をセットアップする
               href: /microsoftteams/create-a-phone-system-auto-attendant?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: '小規模ビジネスの例: 自動応答をセットアップする'
-              href: /microsoftteams/tutorial-org-aa?toc=/SkypeForBusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-            - name: 小規模ビジネスの例 - 呼び出しキューをセットアップする
-              href: ../what-is-phone-system-in-office-365/tutorial-cq.yml?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: クラウドの通話キューを作成する
           href: /microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
     - name: Skype 会議ブロードキャスト用にネットワークをセットアップする
       href: ../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md
       items:
-        - name: Skype 会議ブロードキャストとは何ですか?
+        - name: Skype 会議ブロードキャストとはどういうものですか?
           href: 'https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d'
         - name: ブロックされた Skype 会議ブロードキャストのユーザー ライセンス
           href: ../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md
@@ -434,7 +430,7 @@
           items:
             - name: Microsoft 365 Business Standard
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md
-            - name: Microsoft 365 ビジネス標準、Microsoft 365 アプリ (企業向け)、または Skype for Business Online Plan 2
+            - name: 'Microsoft 365 Business Standard、Microsoft 365 Apps for enterprise、または Skype for Business Online プラン 2 '
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md
             - name: Office 365 Enterprise E1、E3、および E4
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md
@@ -442,7 +438,7 @@
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md
             - name: Office 365 Enterprise E5 (電話会議なし)
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md
-            - name: GOV、EDU、非営利団体
+            - name: 政府機関、教育機関、非営利団体
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md
             - name: Skype for Business Online プラン 1 のサポート終了
               href: ../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
@@ -452,18 +448,18 @@
           href: ../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md
         - name: 分数ごと従量課金制電話会議
           href: /microsoftteams/audio-conferencing-pay-per-minute?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 組織のために通信クレジットをセットアップする
+        - name: 組織用にコミュニケーション クレジットをセットアップする
           href: /microsoftteams/set-up-communications-credits-for-your-organization?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: Office 365 の通話プラン
           href: /microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 通信クレジットについて
+        - name: コミュニケーション クレジットについて
           href: /microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
     - name: Skype for Business Online をセットアップする
       href: ../set-up-skype-for-business-online/set-up-skype-for-business-online.md
       items:
         - name: Microsoft Teams 管理センターで Skype for Business の設定を管理する
           href: /microsoftteams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: Skype for Business Online でプレゼンスを設定する
+        - name: Skype for Business Online でプレゼンスを構成する
           href: ../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md
         - name: プレゼンス プライバシー モードを設定する
           href: ../set-up-skype-for-business-online/configure-presence-privacy-mode.md
@@ -471,7 +467,7 @@
           href: ../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md
         - name: 個別のユーザーの Skype for Business の設定を構成する
           href: ../set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md
-        - name: 会議への招待状をカスタマイズする
+        - name: 会議出席依頼をカスタマイズする
           href: ../set-up-skype-for-business-online/customize-meeting-invitations.md
         - name: Skype for Business クライアントを展開する
           href: ../set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md
@@ -495,7 +491,7 @@
           href: ../set-up-skype-for-business-online/turn-on-or-off-preloading-content-for-meetings-using-outlook.md
         - name: オフライン メッセージの有効化と無効化 (管理者向け)
           href: ../set-up-skype-for-business-online/turn-on-or-off-offline-messages-for-admins.md
-        - name: Skype for Business Online インストールをテストする
+        - name: Test your Skype for Business Online installation (Skype for Business Online のインストールをテストする)
           href: ../set-up-skype-for-business-online/test-your-skype-for-business-online-installation.md
         - name: 携帯電話の通知をオン/オフする
           href: ../set-up-skype-for-business-online/turn-on-or-off-mobile-phone-notifications.md
@@ -539,9 +535,9 @@
           href: /microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 通話品質ダッシュボードをオンにして使用する
           href: /microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 通話分析を使用して低品質な通話をトラブルシューティングする
+        - name: 通話分析を使用して低品質通話の品質をトラブルシューティングする
           href: /microsoftteams/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: 通話品質ダッシュボードでのストリーム分類
+        - name: 通話品質ダッシュボードでのストリームの分類
           href: /microsoftteams/stream-classification-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
     - name: Skype for Business Online のレポート
       href: ../skype-for-business-online-reporting/skype-for-business-online-reporting.md
@@ -560,7 +556,7 @@
           href: ../skype-for-business-online-reporting/peer-to-peer-activity-report.md
         - name: PSTN の利用分数プール レポート
           href: ../skype-for-business-online-reporting/pstn-minute-pools-report.md
-        - name: PSTN の使用状況レポート
+        - name: PSTN の使用状況のレポート
           href: ../skype-for-business-online-reporting/pstn-usage-report.md
         - name: セッションの詳細レポート
           href: ../skype-for-business-online-reporting/session-details-report.md
@@ -575,7 +571,7 @@
           href: ../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md
         - name: Exchange ユニファイド メッセージングとホスト型ボイス メールを管理する
           href: ../set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md
-        - name: ユーザー アカウントを管理する
+        - name: "\tユーザー アカウントの管理"
           href: ../set-up-your-computer-for-windows-powershell/manage-user-accounts.md
         - name: Skype for Business Online Connector を使用して組織を管理する
           href: ../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md
@@ -583,7 +579,7 @@
       items:
         - name: フランスでの Skype for Business Online のアクセシビリティに関する適合宣言
           href: ../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md
-        - name: Accessibility solutions for Skype for Business Online in France
+        - name: フランスでの Skype for Business Online のアクセシビリティ ソリューション
           href: /microsoftteams/accessibility-solutions-in-france?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: カナダでの IP 中継 - サインアップ
           href: ../legal-and-regulatory/ip-relay-canada-email-signup.md
@@ -595,7 +591,7 @@
           href: /microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 英国向けの苦情処理規約
           href: /microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
-        - name: データ収集方法
+        - name: データの収集プラクティス
           href: /microsoftteams/data-collection-practices?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
         - name: 緊急通報のラベル
           href: /microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json
