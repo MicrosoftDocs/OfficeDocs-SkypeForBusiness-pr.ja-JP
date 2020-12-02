@@ -180,7 +180,7 @@
               href: teams-analytics-and-reports/pstn-blocked-users-report.md
             - name: PSTN の利用分数プール レポート
               href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: PSTN の使用状況レポート
+            - name: PSTN の使用状況のレポート
               href: teams-analytics-and-reports/pstn-usage-report.md
             - name: Teams のライブ イベントの使用状況レポート
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
@@ -202,7 +202,7 @@
       href: Office-365-custom-connectors.md
     - name: リソース固有の同意
       href: resource-specific-consent.md
-    - name: カスタムアプリ
+    - name: カスタム アプリ
       items:
         - name: Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する
           href: submit-approve-custom-apps.md
@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: 環境を準備する
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: 要件
               href: rooms/requirements.md
             - name: オンライン ライセンス
               href: rooms/rooms-licensing.md
@@ -262,7 +262,7 @@
                   href: rooms/microsoft-teams-rooms-premium.md
                 - name: Microsoft Teams Rooms の管理サービスを使用したロールベースのアクセス制御
                   href: rooms/microsoft-teams-rooms-premium-rbac.md
-        - name: 展開
+        - name: 展開する
           items:
             - name: 展開の概要
               href: rooms/rooms-deploy.md
@@ -364,6 +364,8 @@
           href: Tutorial-Audio-Conferencing.yml
         - name: Microsoft 365 での電話会議を試用または購入する
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: 米国とカナダの拡張ダイヤルアウト分数
+          href: dial-out-minutes-canada-us.md
         - name: 電話会議の無料ダイヤル アウト期間
           href: complimentary-dial-out-period.md
         - name: 電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット
@@ -428,13 +430,13 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: 国および地域ごとの電話会議の利用可能性
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Reference
+        - name: 参照
           items:
             - name: 電話会議でサポートされている言語
               href: audio-conferencing-supported-languages.md
             - name: 電話会議の電話番号
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 電話会議の国と地域のゾーン
+            - name: 電話会議の国および地域の領域
               href: audio-conferencing-zones.md
             - name: 'ビデオ: Teams での電話会議'
               href: audio-conferencing-videos.md
@@ -522,8 +524,6 @@
           href: calling-plan-landing-page.md
         - name: 通話プランを購入する方法
           href: calling-plans-for-office-365.md
-        - name: 米国とカナダの拡張ダイヤルアウト分数
-          href: dial-out-minutes-canada-us.md
         - name: 組織の通話プランをセットアップする
           href: set-up-calling-plans.md
         - name: 'クイック スタート ガイド: 通話プランの構成'
@@ -684,7 +684,7 @@
           href: voice-case-study-audio-conferencing.md
         - name: 自動応答と呼び出しキュー
           href: voice-case-study-call-queues.md
-    - name: Reference
+    - name: リファレンス
       items:
         - name: 国別電話番号の管理
           items:
@@ -879,7 +879,7 @@
       href: teams-adoption-get-started.md
     - name: 'フェーズ 1: 開始'
       items:
-        - name: 開始
+        - name: Start
           href: teams-adoption-phase1.md
         - name: チームとチャネルについて理解する
           href: teams-adoption-understand-teams-and-channels.md
@@ -915,7 +915,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: Teams へのアップグレード
   items:
-    - name: 概要
+    - name: はじめに
       href: upgrade-start-here.md
     - name: アップグレードのフレームワークについて
       href: upgrade-framework.md
@@ -969,7 +969,7 @@
       href: continue-journey.md
     - name: Skype for Business Online のサポート終了
       href: skype-for-business-online-retirement.md
-    - name: よくあるご質問 (FAQ)
+    - name: FAQ
       href: FAQ-journey.md
     - name: テクニカル ライブラリ
       items:
@@ -1100,17 +1100,17 @@
           items:
             - name: Teams で組織の Shifts アプリを管理する
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 医療関係向けの Teams
+    - name: 医療関係向けのTeams
       items:
-        - name: 医療関係組織のためのTeamsを始めましょう
+        - name: 医療機関向けの Teams の概要
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: 仮想アクセス
           items:
-            - name: 'Teamsでの仮想アクセス: EHR に統合'
+            - name: Teams での仮想アクセス-EHR への統合
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 予約とTeamsを使用した仮想の訪問
+            - name: 予約と Teams を使用した仮想アクセス
               href: bookings-app-admin.md
-        - name: ポリシー パッケージの表示と割り当て
+        - name: ポリシーパッケージの表示と割り当て
           href: policy-packages-healthcare.md
         - name: セキュリティで保護されたメッセージング
           items:
@@ -1118,11 +1118,11 @@
               href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
             - name: メッセージの委任
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teamsテンプレート
+        - name: Teams テンプレート
           items:
-            - name: Teamsの医療テンプレートを使用する
+            - name: Teams の医療テンプレートを使用する
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 医療機関向けの Teams のテンプレート
+            - name: 医療用 Teams テンプレート
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
         - name: リスト アプリを管理する
           href: manage-lists-app.md
@@ -1169,7 +1169,7 @@
           href: firstline-workers-quickstart.yml
         - name: 現場担当者のスクリプト化された展開
           href: flw-scripted-deployment.md
-        - name: FirstLine Worker のシフトベースのアクセスを管理する
+        - name: FirstLine ワーカーのシフトベースのアクセスを管理する
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear for Microsoft Teams
           href: flw-realwear.md
@@ -1180,7 +1180,7 @@
     - name: 小売店向けの Teams
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: 管理センターで小売店向け Teams テンプレートを使い始めましょう
+        - name: 管理センターの Retail Teams テンプレートの使用を開始する
           href: retail-teams-templates-in-the-admin-console.md
         - name: 小売店向けテンプレートでTeamsを始めましょう
           href: get-started-with-retail-teams-templates.md
@@ -1333,7 +1333,7 @@
       href: service-health.md
     - name: ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: Reference
+- name: 参照
   items:
     - name: Teams の制限と仕様
       href: limits-specifications-teams.md
@@ -1418,7 +1418,7 @@
           items:
             - name: Teams で使用する Exchange ハイブリッド展開の組織を構成する
               href: exchange-hybrid-organization.md
-            - name: Exchange のメール フロー ルールを使用する
+            - name: Exchange でメールフロールールを使用する
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
         - name: Teams との SharePoint Online と OneDrive for Business の連携
           href: sharepoint-onedrive-interact.md
@@ -1434,11 +1434,11 @@
           href: devices/manage-device-tags.md
         - name: Teams 対応の電話機
           href: devices/phones-for-teams.md
-        - name: Teams ディスプレイ
+        - name: Teams の表示
           href: devices/teams-displays.md
-        - name: Teams 電話を Teams ディスプレイにアップグレードする
+        - name: Teams の電話を Teams の表示にアップグレードする
           href: devices/upgrade-phones-to-displays.md
-        - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
+        - name: Intune を使用して Teams 電話と Teams 表示を展開する
           href: devices/phones-displays-deploy.md
         - name: USB オーディオ デバイスおよびビデオ デバイス
           href: devices/usb-devices.md
@@ -1720,5 +1720,5 @@
       href: export-teams-content.md
     - name: Teams 管理者機能のリリースノート
       href: release-notes/release-notes.md
-    - name: Microsoft Teams でのパブリック プレビュー
+    - name: Microsoft Teams でのパブリックプレビュー
       href: public-preview-doc-updates.md
