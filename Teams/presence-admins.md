@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2949ef0defec37ce674fb8d7a94250d29fe0a3a
-ms.sourcegitcommit: bac9aa29074ef32387dc05b3918e87d4c38d195d
+ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
+ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49385644"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49557951"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -78,6 +78,9 @@ ms.locfileid: "49385644"
 | 応答不可|1日|
 | ユーザー|7日|
 |||
+
+> [!NOTE]
+> ユーザーは、自分のプレゼンスの期間を手動で構成することもできます。 たとえば、ユーザーは明日の朝までオフラインとして表示するように設定できます。
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Skype for Business と Teams の管理設定の比較
 

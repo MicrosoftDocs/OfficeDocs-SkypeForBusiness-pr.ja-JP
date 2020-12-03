@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理者は、ダイレクトルーティングが認定されているセッション境界コントローラー (SBCs) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c092df13f2bde66286f9971ff9969e10cc198271
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 1637d71269cdacc4e48de98f210a4c6ce4c56c13
+ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130448"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49561043"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -38,7 +38,7 @@ Microsoft は各ベンダーと連携して次のことを行うことができ�
 
 
   > [!NOTE]
-  > Microsoft は、認定されたデバイスまたはデバイスが直接ルーティングを介して接続されている場合にのみ、電話システムをサポートします。 Microsoft は、認定されていないデバイスが、直接ルーティングを介して電話システムに接続している場合に、サポートを拒否する権利を留保します。 
+  > Microsoft は、認定されたデバイスまたはデバイスが直接ルーティングを介して接続されている場合にのみ、電話システムをサポートします。 Microsoft は、認定されていないデバイスが、直接ルーティングを介して電話システムに接続している場合に、サポートを拒否する権利を留保します。 Microsoft が、顧客の直接ルーティングの問題がベンダーの SBC デバイスにあると判断した場合は、お客様は SBC ベンダーにサポートを依頼する必要があります。
 
 以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカルメディア最適化をサポートする SBC ベンダーの詳細については、「 [直接ルーティング用にローカルメディア最適化を構成](direct-routing-media-optimization-configure.md)する」を参照してください)。
 
