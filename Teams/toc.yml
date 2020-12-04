@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: Teams のロールアウト方法
   href: How-to-roll-out-teams.md
-- name: 概要
+- name: 作業の開始
   items:
     - name: 概要
       href: get-started-with-teams-quick-start.md
@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: 環境を準備する
               href: rooms/rooms-prep.md
-            - name: 要件
+            - name: Requirements
               href: rooms/requirements.md
             - name: オンライン ライセンス
               href: rooms/rooms-licensing.md
@@ -262,7 +262,7 @@
                   href: rooms/microsoft-teams-rooms-premium.md
                 - name: Microsoft Teams Rooms の管理サービスを使用したロールベースのアクセス制御
                   href: rooms/microsoft-teams-rooms-premium-rbac.md
-        - name: 展開する
+        - name: 展開
           items:
             - name: 展開の概要
               href: rooms/rooms-deploy.md
@@ -430,7 +430,7 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: 国および地域ごとの電話会議の利用可能性
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: 参照
+        - name: Reference
           items:
             - name: 電話会議でサポートされている言語
               href: audio-conferencing-supported-languages.md
@@ -684,7 +684,7 @@
           href: voice-case-study-audio-conferencing.md
         - name: 自動応答と呼び出しキュー
           href: voice-case-study-call-queues.md
-    - name: リファレンス
+    - name: Reference
       items:
         - name: 国別電話番号の管理
           items:
@@ -875,7 +875,7 @@
   items:
     - name: 概要
       href: adopt-microsoft-teams-landing-page.md
-    - name: 概要
+    - name: 作業の開始
       href: teams-adoption-get-started.md
     - name: 'フェーズ 1: 開始'
       items:
@@ -915,7 +915,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: Teams へのアップグレード
   items:
-    - name: はじめに
+    - name: 作業の開始
       href: upgrade-start-here.md
     - name: アップグレードのフレームワークについて
       href: upgrade-framework.md
@@ -969,7 +969,7 @@
       href: continue-journey.md
     - name: Skype for Business Online のサポート終了
       href: skype-for-business-online-retirement.md
-    - name: FAQ
+    - name: よくあるご質問 (FAQ)
       href: FAQ-journey.md
     - name: テクニカル ライブラリ
       items:
@@ -1095,12 +1095,12 @@
       items:
         - name: Teams のテンプレートの使用を開始する
           href: get-started-with-teams-templates.md
-        - name: Teams の Shifts
+        - name: Shifts for Teams
           href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
           items:
             - name: Teams で組織の Shifts アプリを管理する
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 医療関係向けのTeams
+    - name: 医療関係向けの Teams
       items:
         - name: 医療機関向けの Teams の概要
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
@@ -1124,15 +1124,15 @@
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
             - name: 医療用 Teams テンプレート
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: リスト アプリを管理する
+        - name: リストアプリを管理する
           href: manage-lists-app.md
         - name: タスクアプリを管理する
           href: manage-tasks-app.md
-        - name: Teams の Shifts
+        - name: Shifts for Teams
           items:
-            - name: Teams の Shifts
+            - name: Shifts for Teams
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Shifts アプリを管理する
+            - name: シフトアプリを管理する
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 教育機関用 Teams
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
@@ -1236,17 +1236,13 @@
         - name: データ損失防止
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: 電子情報開示
-          items:
-            - name: コンテンツに対して電子情報開示の調査を行う
-              href: ediscovery-investigation.md
-            - name: Teams ユーザーまたはチームに訴訟ホールドを適用する
-              href: legal-hold.md
+          href: ediscovery-investigation.md
+        - name: 法的情報保留
+          href: legal-hold.md
         - name: コンテンツ検索
-          items:
-            - name: コンテンツ検索を使う
-              href: content-search.md
-            - name: イベントの監査ログを検索する
-              href: audit-log-events.md
+          href: content-search.md
+        - name: 監査
+          href: audit-log-events.md
     - name: プライバシー
       items:
         - name: プライバシーと Microsoft Teams
@@ -1333,7 +1329,7 @@
       href: service-health.md
     - name: ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: 参照
+- name: Reference
   items:
     - name: Teams の制限と仕様
       href: limits-specifications-teams.md
