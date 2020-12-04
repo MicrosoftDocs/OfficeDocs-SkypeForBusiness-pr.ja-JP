@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: 4bd11a800713dcfa5cbfa2092cd08adb6b86e05e
-ms.sourcegitcommit: 476cbb4c65ccb9d9b7635eff6b2e657e099425f6
+ms.openlocfilehash: f638e1fc92383a366f5957c66a7e3bae0dc58807
+ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49518272"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49570896"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -57,11 +57,12 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 年 1 月                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 年 12 月                |
 | Poly Trio 8500/8800 (共有モードのみ) | 5.9.0.10869                                                                                                                                                                                                                                | 2019 年 6 月                    |
-| Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | 2020 年 3 月                   |
-| Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | 2019 年 6 月                    |
-| Yealink T55                            | 58.15.0.36                                                                                                                                                                                                                                 | 2019 年 5 月                     |
-| Yealink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | 2018 年 12 月                |
-| Yealink T58 & T56 シリーズ               | 58.15.0.20                                                                                                                                                                                                                                 | 2018 年 12 月                |
+| ごみ箱 MP54 | 122.15.0.27| 2020年11月 |
+| Yealink MP56 | 122.15.0.6 | 2020 年 3 月    |
+| Yealink VP59 | 91.15.0.16 | 2019 年 6 月     |
+| Yealink T55  | 58.15.0.36 | 2019 年 5 月      |
+| Yealink CP 960| 73.15.0.20 | 2018 年 12 月|
+| Yealink T58 & T56 シリーズ | 58.15.0.20 | 2018 年 12 月 |
 
 ## <a name="currently-certified-collaboration-bars"></a>現在認定済みのコラボレーションバー
 
