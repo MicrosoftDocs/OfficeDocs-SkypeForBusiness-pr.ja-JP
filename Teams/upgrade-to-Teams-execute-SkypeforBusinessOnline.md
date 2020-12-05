@@ -1,13 +1,13 @@
 ---
-title: Skype for Business Online を Microsoft Teams にアップグレードする |Deploy
-author: lanachin
-ms.author: v-lanac
+title: Skype for Business Online から Microsoft Teams にアップグレードする
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Skype for Business Online の配布から組織を Microsoft Teams にアップグレードする方法について説明します。
+description: Skype for Business Online の展開から組織を Microsoft Teams にアップグレードする方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: ca99c193a17547943018eba75004f0ec0a1a92f3
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940507"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578260"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Skype for Business Online から Teams にアップグレードする
 
@@ -48,7 +48,7 @@ Skype for business Online を完全に展開していて、ユーザーを Skype
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>共存とアップグレードモードを割り当てる
 
-Microsoft Teams 管理センターまたは Skype for Business リモート Windows Powershell セッションを使用して実行できる TeamsUpgradePolicy の UpgradeToTeams インスタンスを割り当てることによって、ユーザーを TeamsOnly モードにアップグレードできます。 これは、1つの手順でテナント全体をアップグレードする場合に、ユーザーごと、またはテナント全体で行うことができます。 
+Microsoft Teams 管理センターまたは Skype for Business リモート Windows PowerShell セッションを使用して実行できる TeamsUpgradePolicy の UpgradeToTeams インスタンスを割り当てることによって、ユーザーを TeamsOnly モードにアップグレードできます。 これは、1つの手順でテナント全体をアップグレードする場合に、ユーザーごと、またはテナント全体で行うことができます。 
 
 詳細については、「[共存およびアップグレードを設定する](https://aka.ms/SkypeToTeams-SetCoexistence)」および「[TeamsUpgradePolicy: 移行と共存の管理](upgrade-to-teams-on-prem-tools.md)」を参照してください。
 
@@ -58,7 +58,7 @@ Microsoft Teams 管理センターまたは Skype for Business リモート Wind
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>手順 1: ユーザーに変更を通知する (省略可能)
 
-1. Microsoft Teams 管理センターで、[**組織全体の設定**] チームのアップグレードを選択し  >  **Teams upgrade**ます。
+1. Microsoft Teams 管理センターで、[**組織全体の設定**] チームのアップグレードを選択し  >  **Teams upgrade** ます。
 2. [ **共存モード**] で、[ **チームへのアップグレードが可能であることを Skype for Business ユーザーに通知** する] を **[オン**] に変更します。
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>手順 2: 組織の場合のみ、共存モードを teams に設定します。

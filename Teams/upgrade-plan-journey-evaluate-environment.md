@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams のアップグレード |環境の評価、検出に関する質問
-author: lanachin
-ms.author: v-lanac
+title: Teams にアップグレードする前に環境を評価する
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: このガイダンスを使用して、Teams にアップグレードするために現在の環境を適切に評価するための要件について説明します。
+description: チームにアップグレードするために現在の環境を適切に評価するための要件について説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 799d348f05c8fece6684d01768934faedcb7603f
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: c783934128e2c1d3f971948c41e3481839ff0aa1
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158745"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578240"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Teams にアップグレードする前に環境を評価する
 
@@ -46,7 +46,7 @@ ms.locfileid: "45158745"
 
 既存のコラボレーションインフラストラクチャと、Microsoft 365 または Office 365 の組織、ネットワーキング、エンドポイント、操作、導入と準備に関連するすべての事項は、環境検出アンケートの一部として含まれています。 プロジェクトチームと協力して、要求された情報をできるだけ詳しく入力して、計画作業を容易にします。
 
-[アンケート](upgrade-plan-journey-discovery-questionnaire.md)は、次のセクションに分かれており、組織のチーム展開に対する準備が、次のいくつかの主要領域で確認されます。
+[アンケート](upgrade-plan-journey-discovery-questionnaire.md) は、次のセクションに分かれており、組織のチーム展開に対する準備が、次のいくつかの主要領域で確認されます。
 
 - Microsoft 365 または Office 365 組織の詳細
 - 既存のコラボレーションプラットフォームの概要
@@ -67,6 +67,6 @@ ms.locfileid: "45158745"
 
 ## <a name="project-team"></a>プロジェクトチーム
 
-プロジェクトチームに適切なユーザーが参加していることを確認します。 手順が完了したことを確認して、[プロジェクトの関係者を登録](upgrade-enlist-stakeholders.md)します。
+プロジェクトチームに適切なユーザーが参加していることを確認します。 手順が完了したことを確認して、 [プロジェクトの関係者を登録](upgrade-enlist-stakeholders.md)します。
 
-環境の評価が完了したら、次の手順「[サービスを準備](upgrade-prepare-environment-prepare-service.md)する」に進みます。
+環境の評価が完了したら、次の手順「 [サービスを準備](upgrade-prepare-environment-prepare-service.md)する」に進みます。

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams の前提条件 |依存関係の導入のアップグレード
-author: lanachin
-ms.author: v-lanac
+title: Teams にアップグレードするための前提条件と環境の依存関係
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: bcd3de45954ea500a6be0d325370ab0660604a65
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158735"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578280"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Teams の前提条件と環境上の依存関係
 
@@ -42,9 +42,9 @@ Teams は、複数の Microsoft 365 と Office 365 サービスを組み合わ�
 
 前提条件については、次の記事を参照してください。チームと他のテクノロジとの相互作用について説明します。
 
-- 組織で Microsoft 365 または Office 365 のワークロードを展開していない場合は、「使用を[開始](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)する」を参照してください。
+- 組織で Microsoft 365 または Office 365 のワークロードを展開していない場合は、「使用を [開始](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)する」を参照してください。
 
-- 組織で、Microsoft 365 または Office 365 の確認済みドメインを追加または構成していない場合は、「ドメインに関する[FAQ](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)」を参照してください。
+- 組織で、Microsoft 365 または Office 365 の確認済みドメインを追加または構成していない場合は、「ドメインに関する [FAQ](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)」を参照してください。
 
 - 組織で id が Azure Active Directory に同期されていない場合は、「 [Microsoft Teams の id モデルと認証](identify-models-authentication.md)」を参照してください。
 
@@ -54,10 +54,10 @@ Teams は、複数の Microsoft 365 と Office 365 サービスを組み合わ�
 
 - [Microsoft 365 グループおよび Microsoft Teams の相互作用](Office-365-groups.md)について説明します。
 
-- 組織が教育機関であり、学生の情報システムを使用している場合は、「microsoft Teams を展開する前に[Microsoft School Data Sync へようこそ](https://docs.microsoft.com/schooldatasync)」を参照してください。
+- 組織が教育機関であり、学生の情報システムを使用している場合は、「microsoft Teams を展開する前に [Microsoft School Data Sync へようこそ](https://docs.microsoft.com/schooldatasync) 」を参照してください。
 
-- 公衆交換電話網 (PSTN) の通話オプションを組織で検討している場合は、「[ボイスフォンシステムと pstn 接続](cloud-voice-landing-page.md)」を参照してください。[通話プランは適切](calling-plan-landing-page.md)であり、[電話システムによる直接ルーティング](direct-routing-landing-page.md)が必要です。
+- 公衆交換電話網 (PSTN) の通話オプションを組織で検討している場合は、「 [ボイスフォンシステムと pstn 接続](cloud-voice-landing-page.md)」を参照してください。 [通話プランは適切](calling-plan-landing-page.md)であり、 [電話システムによる直接ルーティング](direct-routing-landing-page.md)が必要です。
 
 - チームをロールアウトする前にすべてのネットワーク要件を満たしていることを確認するには、「 [Microsoft teams 用に組織のネットワークを準備](prepare-network.md)する」を参照してください。
 
-環境が該当するすべての前提条件を満たしていることを確認したら、[チームの現在の環境を評価](upgrade-plan-journey-evaluate-environment.md)します。
+環境が該当するすべての前提条件を満たしていることを確認したら、 [チームの現在の環境を評価](upgrade-plan-journey-evaluate-environment.md)します。

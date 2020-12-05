@@ -1,9 +1,8 @@
 ---
-title: Skype for Business オンプレミスから Teams にアップグレードする
-author: CarolynRowe
-ms.author: crowe
+title: オンプレミスの Skype for Business を Microsoft Teams にアップグレードする
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
-ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b63473dcb07c5fcac49902ced6d11777217a0c5
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 961ac4f9bcce3c24d62ec1c744d2c9cd15e2ee1b
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940597"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578170"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Skype for Business オンプレミスから Teams にアップグレードする
 

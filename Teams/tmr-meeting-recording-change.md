@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba371156ff2ae40949df01f433d22bf0e8cf0b
-ms.sourcegitcommit: 207e6aa97867e3fd80734cc839c0c5858bca24c8
+ms.openlocfilehash: 46d3b53f62a3bb497f173c9efd418b7ed88444c7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49477046"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578510"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と、会議の記録に SharePoint または Stream を使用する
 
@@ -99,7 +99,7 @@ OneDrive for Business と SharePoint を使ったレコーディングの保存�
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
-   
+
 > [!Note]
 > ユーザーに、開催者ごとまたはユーザーごとのポリシーが割り当てられている場合は、このポリシーに対してこの設定を設定して、OneDrive for Business および SharePoint で会議のレコーディングも保存する必要があります。 詳細については、「 [Teams の会議ポリシーを管理](meeting-policies-in-teams.md)する」を参照してください。
 
@@ -153,7 +153,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **トランスクリプトを管理する方法を教えてください。**
 
-このプレビューを有効にすると、OneDrive for Business および SharePoint に移行された、チーム会議のレコーディングで利用可能なクローズドキャプションは表示されません。英語のキャプションから始まり、2020年10月の会議のレコーディングまで、キャプションを追加しています。
+このプレビューを有効にすると、OneDrive for Business および SharePoint に移行された、チーム会議のレコーディングで利用可能なクローズドキャプションは表示されません。英語のキャプションから、第4四半期の CY2020 での会議のレコーディングまで、キャプションを追加するための作業を行っています。
 
 [Teams のクラウドレコーディング](cloud-recording.md)で説明されているように、トランスクリプトを許可することを選択しているお客様のために、クローズドキャプションが Teams の会議レコーディングで利用可能になる
 
@@ -180,3 +180,7 @@ SharePoint では、Stream とより多くの fungible ストレージを使用�
 **保持ラベルを適用する方法を教えてください。**
 
 [保持ラベルを自動適用する方法に](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)ついて説明します。
+
+**Microsoft Teams でユーザーにポリシーを割り当てる方法と、どのポリシーが優先されるか**
+
+[どのポリシーが優先されるかを](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence)確認します。

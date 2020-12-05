@@ -1,7 +1,7 @@
 ---
-title: アップグレードのフレームワークについて
-author: lanachin
-ms.author: v-lanac
+title: アップグレードフレームワークについて-Skype for Business から Teams へ
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b49d1d20e31a9c3051a89f62e7238eac73595a26
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: a4e94b5ef774f0fccaa6bb84d78d2018c1d31e34
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158655"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578520"
 ---
 # <a name="about-the-upgrade-framework"></a>アップグレードのフレームワークについて
 
@@ -48,7 +48,7 @@ ms.locfileid: "45158655"
 
 ## <a name="pre-upgrade"></a>アップグレード前
 
-**チームの組織を準備**します。 チームへのアップグレードを成功させるためには、準備のために十分な時間を割り当てることが重要です。 組織が Teams の価値をすぐに実感できるだけでなく、チームの準備が整うとすぐに Skype for Business からアップグレードを迅速に開始できるようになります。 Skype for Business と共にチームを既に有効にしている場合は、これらのアップグレード前のアクティビティをチェックポイントとして使用して、ユーザーをチームにアップグレードする前に、組織の準備ができていることを確認します。 
+**チームの組織を準備** します。 チームへのアップグレードを成功させるためには、準備のために十分な時間を割り当てることが重要です。 組織が Teams の価値をすぐに実感できるだけでなく、チームの準備が整うとすぐに Skype for Business からアップグレードを迅速に開始できるようになります。 Skype for Business と共にチームを既に有効にしている場合は、これらのアップグレード前のアクティビティをチェックポイントとして使用して、ユーザーをチームにアップグレードする前に、組織の準備ができていることを確認します。 
 
 > [!TIP]
 >  [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit)   サンプルアップグレードプロジェクト計画とパイロットテスト計画に加えて、コミュニケーションやユーザーアンケートなどのテンプレートのユーザー準備資料のアップグレード成功キットをダウンロードします。 このキットで利用できるアイテムには、以下のリストでアスタリスク (*) が付いています。
@@ -98,7 +98,7 @@ ms.locfileid: "45158655"
 
 ## <a name="upgrade"></a>Upgrade 
 
-**チームに正式な移行を行い**ます。 ユーザーをアップグレードする場合は、ユーザーをチーム専用モードに移動します。 Teams は、チャット、会議、通話、共同作業のためのプライマリアプリとなり、Skype for Business アプリへのアクセスが無効になります。 このフェーズの技術的な側面は非常に単純ですが、変更によってユーザーエクスペリエンスがどのような影響を受ける可能性があるかを考慮し、ユーザーが自分のアクティビティを Skype for Business からチームに正式に移行できるようにすることを検討してください。 異なるクライアントでさまざまなエクスペリエンスを持つユーザーを減らすには、エンドツーエンドのアップグレードウィンドウを45日間に制限してみてください。
+**チームに正式な移行を行い** ます。 ユーザーをアップグレードする場合は、ユーザーをチーム専用モードに移動します。 Teams は、チャット、会議、通話、共同作業のためのプライマリアプリとなり、Skype for Business アプリへのアクセスが無効になります。 このフェーズの技術的な側面は非常に単純ですが、変更によってユーザーエクスペリエンスがどのような影響を受ける可能性があるかを考慮し、ユーザーが自分のアクティビティを Skype for Business からチームに正式に移行できるようにすることを検討してください。 異なるクライアントでさまざまなエクスペリエンスを持つユーザーを減らすには、エンドツーエンドのアップグレードウィンドウを45日間に制限してみてください。
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>アップグレード: Skype for Business から Teams へのアップグレードの実装
 
@@ -112,7 +112,7 @@ ms.locfileid: "45158655"
 
 ## <a name="post-upgrade"></a>アップグレード後
 
-**Teams でビジネス価値を最大限に活用**する。 組織が Teams に完全にアップグレードされた後は、目標に対する成功を評価し、勢いを前進させる計画を実装します。 
+**Teams でビジネス価値を最大限に活用** する。 組織が Teams に完全にアップグレードされた後は、目標に対する成功を評価し、勢いを前進させる計画を実装します。 
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>動作: アップグレードの成否を評価する
 

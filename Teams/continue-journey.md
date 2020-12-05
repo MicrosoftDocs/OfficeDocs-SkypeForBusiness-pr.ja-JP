@@ -1,14 +1,14 @@
 ---
-title: Microsoft Teams ユーザーの導入計画 | ベスト プラクティス
-author: serdarsoysal
-ms.author: serdars
+title: Microsoft Teams を効果的に使用する方法
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
-description: チームを使ってネットワークの正常性を監視し、ユーザーを関与させ、新しい機能の準備を行う方法について説明します。
+description: チームを使ってネットワークの正常性を監視し、ユーザーの作業を続け、新機能の準備を行う方法について説明します。
 localization_priority: Normal
 ms.custom:
 - Teams-upgrade-guidance
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 9ec8523ca154341ea213a6cce6712506dae47cad
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158505"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578050"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Microsoft Teams を効果的に使用する方法
 

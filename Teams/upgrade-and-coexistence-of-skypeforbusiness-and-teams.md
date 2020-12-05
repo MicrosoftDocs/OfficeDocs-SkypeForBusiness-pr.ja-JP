@@ -1,13 +1,13 @@
 ---
-title: Skype for Business から Microsoft Teams へのアップグレード| モード、共存
-author: lanachin
-ms.author: v-lanac
+title: Skype for Business から Microsoft Teams へのアップグレードを選択する
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
-description: Skype for Business と Microsoft Teams の共存オプションおよびモードの詳細と、いくつかのシナリオ例での Skype for Business から Teams へのアップグレード手順。
+description: Skype for Business および Microsoft Teams の共存オプションと、考えられるアップグレード旅の詳細については、例を示します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 23a71a075730f1447259d6e3a4a3dd21f650bfd7
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940417"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578160"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Skype for Business から Teams へのアップグレード手順を選択する
 
@@ -82,9 +82,9 @@ Skype for Business を使用する既存の組織を Teams に移行するには
 
 - 別のユーザーの Skype for business クライアントから開始された通信は、ユーザー A の Skype for business クライアントに常に着陸します。
 
-- *同じ組織内のユーザー*から開始されたチームクライアントからのコミュニケーションは、常にユーザー a のチームクライアントに着陸します。
+- *同じ組織内のユーザー* から開始されたチームクライアントからのコミュニケーションは、常にユーザー a のチームクライアントに着陸します。
 
-- *外部組織のユーザー*から開始されたチームクライアントからの通信は、常にユーザー a の Skype for business クライアントに着陸します。
+- *外部組織のユーザー* から開始されたチームクライアントからの通信は、常にユーザー a の Skype for business クライアントに着陸します。
 
 ユーザーに Microsoft 365 または Office 365 のライセンスを割り当てている場合、これが組織の既定のアップグレード環境となります。 Microsoft 365 または Office 365 のライセンスを割り当てると、Teams と Skype for Business Online ライセンスの両方が既定で割り当てられます。<sup>2</sup>
 
@@ -193,7 +193,7 @@ TeamsOnly ユーザーの視点からの新しい会話の場合、チャット�
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul> お客様の組織に該当するアップグレード シナリオはどれですか?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul> メッセージング、会議、および通話のビジネス要件に基づいて、お客様の組織のアップグレード手順のタイムラインを決定します。<br><br> アップグレード手順を完了するために必要な追加作業を決めます。<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul> メッセージング、会議、および通話のビジネス要件に基づいて、お客様の組織のアップグレード手順のタイムラインを決定します。<br><br> アップグレード手順を完了するために必要な追加作業を決めます。<br><br></ul></td></tr>
 </table>
 
 組織に最適なアップグレードを選択した後、 [チームへのアップグレードを実行](https://aka.ms/SkypeToTeams-Upgrade)します。

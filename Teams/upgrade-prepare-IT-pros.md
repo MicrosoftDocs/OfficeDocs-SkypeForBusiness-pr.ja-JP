@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams のトレーニング |管理者の問題をサポートする
-author: lanachin
-ms.author: v-lanac
+title: Microsoft Teams の IT スタッフを準備する
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c7c38b31586d0eec73e34702d873514938020e
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 680106618d610d0adc3f93658e3a522d63850e24
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085903"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578460"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Microsoft Teams の IT スタッフを準備する
 
@@ -53,4 +53,4 @@ Microsoft 365 または Office 365 の組織管理者、技術的な潜在顧客
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの展開とサポートに携わる可能性があると思われるすべてのサポートスタッフが参加しているか?</li><li>アップグレードの進捗に応じて、オンボードの追加のスタッフのトレーニング計画を作成しましたか?</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>IT スタッフに必要な情報が含まれていることを確認します。</li><li>新機能がリリースされるたびに、トレーニングと準備計画を再利用します。</li></ul>|
 
-チームの IT スタッフを準備したら、環境がすべての[前提条件](upgrade-plan-journey-prerequisites.md)を満たしていることを確認します。
+チームの IT スタッフを準備したら、環境がすべての [前提条件](upgrade-plan-journey-prerequisites.md)を満たしていることを確認します。

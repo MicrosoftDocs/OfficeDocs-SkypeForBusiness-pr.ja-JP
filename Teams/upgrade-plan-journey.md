@@ -1,13 +1,13 @@
 ---
-title: Skype for Business から Microsoft Teams へのアップグレードを計画する | 導入フレームワーク
-author: lanachin
-ms.author: v-lanac
+title: Skype for Business から Microsoft Teams へのアップグレードを計画する
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: まずステークホルダーを参加させて、プロジェクトのスコープを立て、アップグレードを計画する方法について説明します。
+description: ステークホルダーを参加させて、プロジェクトのスコープを立てることで、アップグレードを計画する方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 76bf5c09a90bc426db2eaa85918fd7e711f5b13d
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868454"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578440"
 ---
 # <a name="plan-for-your-upgrade"></a>アップグレードの計画
 

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams のアップグレードの準備 | オンボードロールアウトのチェックリスト
-author: lanachin
-ms.author: v-lanac
+title: Microsoft Teams へのアップグレードを行うためのサービスの準備
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: e02b210de118c9eb2a984ed0790fd5e127ba47e9
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158685"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578380"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Teams にアップグレードするためのサービスを準備する
 
@@ -63,7 +63,7 @@ ms.locfileid: "45158685"
 
 チェックリストは順番に従うことをお勧めしますが、正確な順序は展開の範囲と環境の構成と複雑さによって異なります。 これらのユーザーは、"から始め" Teams の展開 (以前の Skype for Business Online プレゼンスを持たないもの) または Skype for Business Online から Teams へのアップグレードのいずれかをサポートするように開催されています。 Skype for Business Online からアップグレードしている場合は、これらのアクティビティの一部を既に完了している可能性があります。これを無視することができます。
 
-サイトベースでユーザーをオンにしている場合は、これらのチェックリストのガイドとして、[サイトの有効化のためのプレイリスト (プレイリスト)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)を使用することを強くお勧めします。
+サイトベースでユーザーをオンにしている場合は、これらのチェックリストのガイドとして、 [サイトの有効化のためのプレイリスト (プレイリスト)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) を使用することを強くお勧めします。
 
 >[!NOTE]
 >ほとんどの構成設定は、Teams と Skype for Business Online で共通です。 Microsoft Teams 管理センターを使って、これらの設定を構成します。
@@ -77,7 +77,7 @@ ms.locfileid: "45158685"
 
 ## <a name="continue-onboarding"></a>オンボードを続行する
 
-このチェックリストを完了したら、次の手順に進みます。[ユーザーパイロットの実施](pilot-essentials.md)
+このチェックリストを完了したら、次の手順に進みます。 [ユーザーパイロットの実施](pilot-essentials.md)
 
 [//]: # (@Turgay、この次の段落はクラウドの音声固有のものであるため、コメントアウトしました。)
 <!--

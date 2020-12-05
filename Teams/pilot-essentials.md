@@ -1,13 +1,13 @@
 ---
-title: Skype for Business と使用する Microsoft Teams のパイロット | 展開、導入、実装
-author: lanachin
-ms.author: v-lanac
+title: ユーザーパイロットを実施して、Microsoft Teams が組織でどのように機能するかを評価およびテストする
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Microsoft Teams のパイロットを開始し、Skype for Business の使用を継続する間、Teams が組織に提供できるすべての情報を探索するためのガイダンス
+description: Microsoft Teams のパイロットを開始して、チームが組織に提供できるすべてのチームを調査するためのガイド (Skype for Business の使用を継続)
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4f74b3d59c226c3445fb317c22c29c67682d8107
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522690"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578320"
 ---
 # <a name="conduct-a-user-pilot"></a>ユーザー パイロットを実施する
 
@@ -102,14 +102,14 @@ ms.locfileid: "44522690"
 
 ## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6. 学習成果を見極めて、今後のプランを評価する
 
-パイロットが完了したら、すべてのフィードバック調査、最終的なネットワークの統計情報、および目標を分析するためのサポートチケットを収集して、繰越計画を実装するかどうかを決定します。 組織が広範な展開の準備ができている場合や、より多くのユーザーにパイロットを延長したい場合、または、特定した懸念事項がすべて軽減された後で、パイロットを再確認したい場合があります。 パイロットは、_管理された_環境で技術的およびユーザーの結果を予測する優れた方法です。移行するときは、よく考えてください。
+パイロットが完了したら、すべてのフィードバック調査、最終的なネットワークの統計情報、および目標を分析するためのサポートチケットを収集して、繰越計画を実装するかどうかを決定します。 組織が広範な展開の準備ができている場合や、より多くのユーザーにパイロットを延長したい場合、または、特定した懸念事項がすべて軽減された後で、パイロットを再確認したい場合があります。 パイロットは、_管理された_ 環境で技術的およびユーザーの結果を予測する優れた方法です。移行するときは、よく考えてください。
 
 結果として次のことが示される場合:
 
 - **パイロットの目的 (ユーザーの満足度やネットワーク品質など) が達成されました**。展開の次のフェーズに進むことができます。 プロジェクトの目標に応じて、次のいずれかになります。
   - パイロットを追加の参加者に拡張する
   - [組織の一部または全体で Teams を Skype for Business (**アイランド** モード) と共に有効にする](https://aka.ms/SkypeToTeams-SetCoexistence)
-  - [組織の一部または全体で Skype for Business から Teams (**Teams のみ**モード) にユーザーをアップグレードする](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [組織の一部または全体で Skype for Business から Teams (**Teams のみ** モード) にユーザーをアップグレードする](https://aka.ms/SkypeToTeams-SetCoexistence)
 - **パイロットが目的の結果を得られなかった (たとえば、ユーザーの満足度やネットワークの品質など)** ため、プランに適切な調整を行い、パイロットを見直すための時間がかかります。
 
 > [!Tip]
