@@ -1,7 +1,7 @@
 ---
 title: Skype for Business から Teams へのアップグレードに関する FAQ
-author: lanachin
-ms.author: v-lanac
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd329b6aa439143967a132b05119e064430340ac
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
+ms.openlocfilehash: 77233c2678b8349d416a28e7a62525897f9d3f9f
+ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766590"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "49578370"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 
@@ -57,7 +57,7 @@ Microsoft は、アップグレードの計画と実装を開始するために�
 
 
 **アップグレード プロセスに関する質問がある場合は誰に問い合わせればよいですか?**<br>
-アップグレードに関する質問は、お客様に割り当てられた Microsoft アカウント チーム、パートナー、[FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1) などの、現時点で接点のある関係先に問い合わせてみてください。 または、 [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)から [ **ヘルプ** ] ボタンをクリックしてヘルプ チケットを開くこともできます。
+アップグレードに関する質問は、お客様に割り当てられた Microsoft アカウント チーム、パートナー、[FastTrack](https://www.microsoft.com/en-us/fasttrack?rtc=1) などの、現時点で接点のある関係先に問い合わせてみてください。 または、[Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)から [**ヘルプ**] ボタンをクリックしてヘルプ チケットを開くこともできます。
 
 ![ヘルプ ボタンが必要な場合](media/need-help-button.png)
 
@@ -68,7 +68,7 @@ Microsoft は、アップグレードの計画と実装を開始するために�
 
 **ユーザーに対してアップグレードが行われた後はどのようになりますか?**<br>
 
-ユーザーが Teams にアップグレードされた後 ( **Teams のみ** モード) は次のようになります:
+ユーザーが Teams にアップグレードされた後 (**Teams のみ** モード) は次のようになります:
 
 - すべてのチャットと通話は Teams に移行するため、ユーザーの Skype for Business クライアントは無効になります。 このクライアントは引き続き、以前にスケジュールされた Skype for Business の会議で使用されます。 このデスクトップ クライアントがアンインストールされている場合、ユーザーは Skype for Business の Web アプリを経由して以前にスケジュールされた Skype for Business の会議にアクセスするようにリダイレクトされます。
 
