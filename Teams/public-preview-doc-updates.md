@@ -18,12 +18,12 @@ description: Microsoft Teams のパブリック プレビューについて説�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8e0efa04b67f2818581f710b14850ba9944e3b51
-ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+ms.openlocfilehash: ab48796f877f6af33b8a3c1b2bc5a3cc56e7bd1e
+ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49373463"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49530984"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 
@@ -34,7 +34,7 @@ Microsoft Teams のパブリック プレビューを使用すると、Teams の
 
 ## <a name="set-the-update-policy"></a>更新ポリシーを設定する
 
- パブリック プレビューは、ユーザーごとに有効になっています。また、パブリック プレビューを有効にするオプションは管理者ポリシーで制御されます。更新ポリシーは、Teams アプリのプレリリースやプレビュー機能を表示する Teams や Office のプレビュー ユーザーを管理するために使用されます。グローバル (組織全体の既定) ポリシーを使用してカスタマイズすることも、ユーザー用に 1 つまたは複数のカスタム ポリシーを作成することもできます。ポリシーはグローバル ポリシーを上書きしないため、特定のユーザーに割り当てる必要があります。
+ パブリック プレビューは、ユーザーごとに有効になっています。また、パブリックプレビューを有効にするオプションは管理者ポリシーで制御されます。 更新ポリシーは、Teams アプリのプレリリースやプレビュー機能を表示する Teams や Office のプレビュー ユーザーを管理するために使用されます。 グローバル (組織全体の既定) ポリシーを使用してカスタマイズすることも、ユーザー用に 1 つまたは複数のカスタム ポリシーを作成することもできます。 このポリシーは、グローバルポリシーを上書きしないため、特定のユーザーに割り当てる必要があります。
 
 1. 管理センターにサインインします。
 2. **[Teams**>**更新ポリシー]** を選択します。
@@ -44,12 +44,14 @@ Microsoft Teams のパブリック プレビューを使用すると、Teams の
 3. **[追加]** を選択します。
 4. 更新ポリシーに名前を付け、説明を追加し **[プレビュー機能の表示]** をオンにします。
 
+`CsTeamsUpdateManagementPolicy` コマンドレットを使用しながら、PowerShell を使用してポリシーを設定することもできます。
+
 ## <a name="enable-public-preview"></a>パブリック プレビューを有効にする
 
 デスクトップまたは Web クライアントでパブリック プレビューを有効にするには、次のタスクを実行する必要があります。
 
 1. プロファイルを選び、[Teams] メニューを表示します。
-2. **[情報]** → **[開発者向けプレビュー]** を選択します。
+2. **[情報]** → **[パブリック プレビュー]** を選択します。
 3. **[パブリック プレビューに切り替える]** を選択します。
 
 ## <a name="related-topics"></a>関連項目
