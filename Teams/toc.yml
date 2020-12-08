@@ -250,7 +250,7 @@
               href: rooms/rooms-release-note.md
             - name: 環境を準備する
               href: rooms/rooms-prep.md
-            - name: Requirements
+            - name: 要件
               href: rooms/requirements.md
             - name: オンライン ライセンス
               href: rooms/rooms-licensing.md
@@ -262,7 +262,7 @@
                   href: rooms/microsoft-teams-rooms-premium.md
                 - name: Microsoft Teams Rooms の管理サービスを使用したロールベースのアクセス制御
                   href: rooms/microsoft-teams-rooms-premium-rbac.md
-        - name: 展開
+        - name: 展開する
           items:
             - name: 展開の概要
               href: rooms/rooms-deploy.md
@@ -430,7 +430,7 @@
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
         - name: 国および地域ごとの電話会議の利用可能性
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: Reference
+        - name: 参照
           items:
             - name: 電話会議でサポートされている言語
               href: audio-conferencing-supported-languages.md
@@ -604,6 +604,8 @@
                   href: direct-routing-protocols-media.md
             - name: 音声ルーティング ポリシーを管理する
               href: manage-voice-routing-policies.md
+            - name: ダイレクトルーティング存続可能ブランチアプライアンス
+              href: direct-routing-survivable-branch-appliance.md
     - name: 電話番号
       items:
         - name: 組織の電話番号を管理する
@@ -969,7 +971,7 @@
       href: continue-journey.md
     - name: Skype for Business Online のサポート終了
       href: skype-for-business-online-retirement.md
-    - name: よくあるご質問 (FAQ)
+    - name: FAQ
       href: FAQ-journey.md
     - name: テクニカル ライブラリ
       items:
@@ -1329,7 +1331,7 @@
       href: service-health.md
     - name: ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ
       href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: Reference
+- name: 参照
   items:
     - name: Teams の制限と仕様
       href: limits-specifications-teams.md
