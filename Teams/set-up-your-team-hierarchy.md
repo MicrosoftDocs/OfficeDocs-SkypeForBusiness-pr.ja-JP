@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d507a7ab15cfa43e10d51e13f36749f11a7cb
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: cab89e7d3e1c2956c79a4013edd254167c990f9b
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526394"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588310"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>チームターゲット設定の階層を設定する
 
@@ -51,7 +51,7 @@ ms.locfileid: "48526394"
 
 ### <a name="add-required-columns"></a>必要な列を追加する
 
-CSV ファイルには、次の3つの列を、最初の列から順に入力する必要があります。 タスクを受け取るには、ノードがチームにリンクされている必要があります。 プライベートプレビューの際に、500ノードをサポートしています。 起動時には、少なくとも2000ノードが既定でサポートされることを想定しています。 お客様と協力して、大規模な組織でこの制限を引き上げることを計画しています。
+CSV ファイルには、次の3つの列を、最初の列から順に入力する必要があります。 タスクを受け取るには、ノードがチームにリンクされている必要があります。 プライベートプレビューの際に、2000ノードをサポートしています。 起動時には、少なくとも15000ノードが既定でサポートされることを想定しています。 お客様と協力して、大規模な組織でこの制限を引き上げることを計画しています。
 
 | 列名   | 必須 | 説明   |
 ----------------|----------|---------------|
@@ -154,7 +154,7 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 スキーマ CSV ファイルで、チームの適切な TeamId を使用していることを確認してください。 TeamId は、チームをバックアップする Microsoft 365 グループのグループ ID と同じにする必要があります。 チームのグループ ID は、Microsoft Teams 管理センターで確認できます。 
 
-1. [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)の左のナビゲーションで、 **[チームの管理] に移動**  >  **Manage teams**します。
+1. [Microsoft Teams 管理センター](https://admin.teams.microsoft.com/)の左のナビゲーションで、 **[チームの管理] に移動**  >  **Manage teams** します。
 2. テーブルに [ **グループ id** ] 列が表示されていない場合は、テーブルの右上隅にある [ **列の編集** ] を選択し、[ **グループ id**] をオンにします。
 3. リストからチームを見つけ、グループ ID を見つけます。
 

@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI を使用して、Microsoft Teams の CQD データを分析します。
-ms.openlocfilehash: 4889428096209b9856d75caf11348ac036b4c7b0
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: a06a3cb76cd778c132b3e8745b279035e875f16e
+ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085571"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49588330"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI を使用して Microsoft Teams の CQD データを分析する
 
@@ -35,7 +35,7 @@ Power BI レポートにアクセスするための適切な [CQD アクセス�
 
 |  |  |
 |---------|---------|
-|<strong>(New!)</strong> CQD Teams の自動応答 & 通話キューの履歴レポート。 pbit     |  このテンプレートには、次の3つのレポートが用意されています。</p><li>自動応答-自動応答への通話の分析が表示されます。</li><li>通話キュー–通話キューに入ってくる通話の分析が表示されます。</li><li>[エージェント] タイムライン–通話キュー通話でアクティブになっているエージェントのタイムラインビューが表示されます。</li><br>詳細については、「 [CQD POWER BI レポートを使用して自動応答 & 通話キューの履歴レポートを表示する](CQD-teams-aa-cq-historical-report.md)」を参照してください。        |
+|<strong>(New!)</strong> CQD Teams の自動応答 & 通話キューの履歴レポート。 pbit     |  このテンプレートには、次の3つのレポートが用意されています。</p><li>自動応答-自動応答への通話の分析が表示されます。</li><li>通話キュー–通話キューに入ってくる通話の分析が表示されます。</li><li>[エージェント] タイムライン–通話キュー通話でアクティブになっているエージェントのタイムラインビューが表示されます。</li><br>詳細については、「 [自動応答 & 通話キューの履歴レポート](aa-cq-cqd-historical-reports.md)」を参照してください。        |
 |CQD ヘルプデスクレポート pbit     |このレポートは、ビルディングと EUII のデータを統合することを目的としています。このレポートは、1人のユーザーとの間で、そのユーザーの通話品質の低下 (たとえば、ネットワークの問題が発生している建物内にいるなど) を見つけることができるように設計されています。         |
 |CQD 位置拡張レポート pbit     | CQD SPD location レポートを再想像します。 9つのレポートが含まれており、通話品質の提供、WiFi、信頼性の構築、また、建物またはユーザーごとの追加のドリルダウン thrus での通話 (RMC) 情報の評価を行うことができます。  レポートの操作性を最大限に高めるために、建物のデータをアップロードしていることを確認してください。        |
 |CQD モバイルデバイスレポート pbit     | 通話品質、信頼性、通話料金などのモバイルデバイスユーザーに向けて、明確に調整された洞察を提供します。 モバイルネットワーク、WiFi ネットワーク、モバイルオペレーティングシステムレポート (Android、iOS) を表示します。        |

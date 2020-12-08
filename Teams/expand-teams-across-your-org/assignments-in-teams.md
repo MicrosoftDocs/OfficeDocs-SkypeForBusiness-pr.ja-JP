@@ -21,30 +21,31 @@ description: 教育担当の Teams で Microsoft Teams 管理センターの課�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a0bf0dd0141679dc89ed1d5ecc0cfc542854c8
-ms.sourcegitcommit: 3eb5820b279fc904f34ac4259deeb419e02d832a
+ms.openlocfilehash: 64be355da30feb3c629569f583897353c21cfa37
+ms.sourcegitcommit: 481d18b76304adfa340b5f1b2f1b7965e9ff4993
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49561053"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49586620"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
-割り当ては、学生またはチームメンバーに対して、調査の一環として、クラス内で割り当てられているタスクまたは作業単位数です。 Teams クラス内で課題を作成することができます。
+学生は、教育機関向けの課題と等級の機能を利用して、学生にタスク、仕事、またはクイズを割り当てることができます。 教師は、課題のタイムラインや手順を管理したり、リソースを追加したりすることができます。 また、[成績] タブで、クラスと個々の学生の進捗状況を追跡することもできます。
 
-[割り当ての詳細について](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)は、こちらを参照してください。
+[トレーニングの Teams での課題と成績の詳細については、こちらを参照](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)してください。
 
 > [!Note]
 > さまざまなプラットフォームでの Teams の割り当てについて詳しくは、「 [プラットフォームごとの teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」をご覧ください。
 
-## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの課題
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの課題の統合
 
-Microsoft Teams 管理センターの管理設定を使用すると、組織内の学生と教師が、次の機能を有効または無効にすることができます。 課題に関連する設定を次に示します。
+Microsoft Teams 管理センターで管理設定を使用すると、組織内の教育者やその学生に対して機能を有効または無効にすることができます。 課題に関連する設定を次に示します。
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>1週間のガーディアンメールダイジェスト
 
-このメールには、前週と来週の課題に関する情報が含まれており、週末に送信されます。 メールコンテンツに関する情報については、こちらを参照してください。 メールは、 [School Data Sync (SDS)](https://docs.microsoft.com/schooldatasync/)を使用して管理者がセットアップおよび更新する必要があります。 この機能は、学校の学生情報システム (SIS) を使用して、学生の選手名簿で Teams のクラスを自動的に設定します。 この機能を有効にするには、次の手順を実行します。
+
+ガーディアンのメールは、各週末に親またはガーディアンに送信されます。 このメールには、前週と来週の課題に関する情報が含まれています。 保護者による同期は、 [School Data sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync)を使用して設定できます。
 
 1. SDS で親とガーディアンの同期を使って、親の連絡先情報をインポートします。 親とガーディアンの同期を有効にする方法については、「 [親とガーディアンの同期を有効](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)にする」を参照してください。
 
@@ -61,7 +62,7 @@ Microsoft Teams 管理センターの管理設定を使用すると、組織内�
 
  - このメールには、先週または来週に期限がある課題に関する情報が含まれています。
 
-この設定は、既定ではオフになっています。
+この機能の既定の設定は- **オフ** です。
 
 
 <a name="bkmakecode"> </a>
@@ -70,7 +71,9 @@ Microsoft MakeCode はブロックベースのコーディングプラットフ�
 
 MakeCode は、Microsoft [利用規約](https://go.microsoft.com/fwlink/?LinkID=206977) および [プライバシー](https://go.microsoft.com/fwlink/?LinkId=521839) ポリシーの適用対象となる microsoft 製品です。
 
-この設定は、既定ではオフになっています。 Teams で MakeCode の割り当てを有効にするには、 **Teams 管理センター** で、[ **課題** ] セクションに移動し、MakeCode トグルオプションを **[オン**] にします。 [ **保存** ] をクリックして、これらの設定が有効になるまで数時間待ちます。
+この機能の既定の設定は- **オフ** です。
+
+Teams で MakeCode の割り当てを有効にするには、 **Teams 管理センター** に移動し、[ **課題** ] セクションに移動して、MakeCode トグルオプションを **[オン**] にします。 [**保存**] をクリックします。 これらの設定を有効にするには、数時間かかることがあります。
 
 この機能のしくみについて詳しくは、この [ビデオデモ](https://makecode.com/blog/teams/teams-assignments)をご覧ください。
 
@@ -79,11 +82,11 @@ MakeCode は、Microsoft [利用規約](https://go.microsoft.com/fwlink/?LinkID=
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
-Turnitin は、plagiarism の検出サービスです。 これは、サードパーティの製品またはサービスであり、独自の用語とプライバシーポリシーの適用対象となります。 お客様は、サードパーティの製品とサービスの使用に関して責任を負います。
+[Turnitin](https://www.turnitin.com/) は、教育機関向けの整合性サービスです。 これは、サードパーティの製品またはサービスであり、独自の用語とプライバシーポリシーの適用対象となります。 お客様は、サードパーティの製品とサービスの使用に関して責任を負います。
 
-この設定は、既定ではオフになっています。
+この機能の既定の設定は- **オフ** です。
 
-組織の Turnitin を正常に有効にするには、Turnitin サブスクリプションが既に存在している必要があります。 次の追加情報を入力する必要があります。これは、Turnitin の管理コンソールにあります。
+組織で Turnitin を有効にするには、Turnitin サブスクリプションが必要です。 次に、Turnitin 管理コンソールに含まれる次の情報を入力します。
 
   * **TurnitinApiKey**: この32文字の GUID は、[統合] の下の管理コンソールにあります。
   * **TurnitinApiUrl**: これは、Turnitin 管理コンソールの HTTPS URL です。
@@ -103,6 +106,5 @@ Turnitin は、plagiarism の検出サービスです。 これは、サード�
 
 ![API キーのコピーを示すスクリーンショット](./educationImages/Assignments_mopo_turnitin3.png)
 
-この設定のために管理センターで [ **保存** ] ボタンをクリックしたときに、これらの設定が有効になるまで、数時間許可してください。
+この設定のために管理センターで [ **保存** ] ボタンをクリックしたときに、これらの設定が有効になるまで、数時間許可します。
 
-Teams で Turnitin 統合の使用を開始する準備ができましたか? [以前のアクセスプログラム](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)にサインアップします。
