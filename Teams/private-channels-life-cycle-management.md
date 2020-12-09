@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でプライベートチャネルのライフサイクルを管理する
-author: lanachin
-ms.author: v-lanac
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: suchakr, phlouie
 ms.topic: article
@@ -18,23 +18,23 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織内のプライベートチャネルのライフサイクルを管理する方法について説明します。
-ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 336d97071c30bca145d26f4c853d5bb30265721f
+ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012293"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "49601662"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams でプライベートチャネルのライフサイクルを管理する
 
-ここでは、組織内の[プライベートチャネル](private-channels.md)のライフサイクルを管理するために必要なガイダンスについて説明します。
+ここでは、組織内の [プライベートチャネル](private-channels.md) のライフサイクルを管理するために必要なガイダンスについて説明します。
 
 > [!IMPORTANT]
 > この記事の PowerShell の手順を使用してプライベートチャネルを管理している場合は、 [Powershell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams/)から Teams PowerShell パブリックプレビューモジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「 [Microsoft Teams PowerShell をインストール](teams-powershell-install.md)する」を参照してください。 最新の一般的な可用性 Teams PowerShell モジュールでは、プライベートチャネルの管理をサポートしていません。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>チームメンバーがプライベートチャネルを作成できるかどうかを設定する
 
-チーム所有者は、メンバーがチーム設定でプライベートチャネルを作成できるようにする機能を有効または無効にすることができます。 これを行うには、チームの [**設定**] タブで、[**メンバーにプライベートチャネルの作成を許可する**] をオンまたはオフにします。
+チーム所有者は、メンバーがチーム設定でプライベートチャネルを作成できるようにする機能を有効または無効にすることができます。 これを行うには、チームの [ **設定** ] タブで、[ **メンバーにプライベートチャネルの作成を許可する**] をオンまたはオフにします。
 
 管理者は、Graph API を使って、メンバーが特定のチームでプライベートチャネルを作成できるかどうかを制御できます。 次に例を示します。
 
@@ -55,9 +55,9 @@ PATCH /teams/<team_id>
 
 チームポリシーを使用して、組織内のどのユーザーにプライベートチャネルの作成を許可するかを設定します。 詳細については、「 [teams のチームポリシーを管理](teams-policies.md)する」を参照してください。
 
-### <a name="using-powershell"></a>PowerShell を使用する場合
+### <a name="using-powershell"></a>PowerShell の使用
 
-**CsTeamsChannelsPolicy**を使用して、組織内のどのユーザーにプライベートチャネルの作成を許可するかを設定します。 ポリシーを割り当てられたユーザーがプライベートチャネルを作成できるようにするには、 **AllowPrivateChannelCreation**パラメーターを**true**に設定します。 このパラメーターを**false**に設定すると、ポリシーが割り当てられているユーザーに対してプライベートチャネルを作成する機能が無効になります。
+**CsTeamsChannelsPolicy** を使用して、組織内のどのユーザーにプライベートチャネルの作成を許可するかを設定します。 ポリシーを割り当てられたユーザーがプライベートチャネルを作成できるようにするには、 **AllowPrivateChannelCreation** パラメーターを **true** に設定します。 このパラメーターを **false** に設定すると、ポリシーが割り当てられているユーザーに対してプライベートチャネルを作成する機能が無効になります。
 
 詳細については、「 [New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)」を参照してください。
 
@@ -65,7 +65,7 @@ PATCH /teams/<team_id>
 
 管理者は、PowerShell または Graph API を使用して、チーム所有者の代わりにプライベートチャネルを作成することができます。 たとえば、組織でプライベートチャネルの作成を一元化する場合は、これを行うことができます。
 
-### <a name="using-powershell"></a>PowerShell を使用する場合
+### <a name="using-powershell"></a>PowerShell の使用
 
 ```PowerShell
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
@@ -99,9 +99,9 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 管理者として、PowerShell または Graph Api コマンドを使って、これらの Url を照会することができます。
 
-### <a name="using-powershell"></a>PowerShell を使用する場合
+### <a name="using-powershell"></a>PowerShell の使用
 
-1. 管理者アカウントを使用して、 [SharePoint Online 管理シェル](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)をインストールして接続します。
+1. 管理者アカウントを使用して、 [SharePoint Online 管理シェル](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) をインストールして接続します。
 2. &lt;Group_id &gt; がチームのグループ id である場合は、次のように実行します。 (チームへのリンクでグループ ID を簡単に見つけることができます。)
 
     ```PowerShell
@@ -186,7 +186,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Microsoft Teams 管理センターを使用してチームメンバーを管理する方法については、「 [Microsoft teams 管理センターで](manage-teams-in-modern-portal.md)チームを管理する」を参照してください。
 
-### <a name="using-powershell"></a>PowerShell を使用する場合
+### <a name="using-powershell"></a>PowerShell の使用
 
 1. 次を実行し &lt; ます。ここでは、group_id &gt; がチームのグループ id で &lt; あり、channel_name &gt; がチャネル名であることを示します。
 
