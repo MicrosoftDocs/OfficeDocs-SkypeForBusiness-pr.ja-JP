@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 574e770eb1756a2c83758b830c26e6adbac24183
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49031763"
@@ -38,7 +38,7 @@ Teams の会議アドインは、Microsoft Teams と Office 2013、Office 2016 �
 ![Outlook リボン上の Teams 会議アドインのスクリーンショット](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> - Teams アドインにリンクする **ダイレクト URL はありません** 。
+> - Teams アドインにリンクする **ダイレクト URL はありません**。
 > - 組織で Teams と Skype for Business の両方を使用している場合、その他にも考慮事項があります。 状況によっては、Teams アドインは Outlook では使用できません。 詳細については、「[Skype for Business から Teams へのアップグレード](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
 > - Regsvr32.exe ファイルを実行するユーザーのアクセス許可は、コンピューターに Teams 会議アドインをインストールするための最小要件です。
 > - Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
@@ -48,7 +48,7 @@ Teams の会議アドインは、Microsoft Teams と Office 2013、Office 2016 �
 
 Outlook の製品版 16.24.414.0 以降が実行されていて、Microsoft 365 または Office 365 クライアント サブスクリプションでアクティブになっている場合、Outlook for Mac で [Teams 会議] ボタンは Outlook for Mac のリボンに表示されます。
 
-ユーザーが [ **送信** ] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
+ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
 ## <a name="teams-meeting-add-in-in-outlook-web-app"></a>Outlook Web App の Teams 会議アドイン
 
@@ -56,7 +56,7 @@ Outlook の製品版 16.24.414.0 以降が実行されていて、Microsoft 365 
 
 ![Outlook Web App の Teams 会議アドインのスクリーンショット](media/teams-meeting-add-in-web.png)
 
-ユーザーが [ **送信** ] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
+ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
 ## <a name="teams-meeting-add-in-in-outlook-mobile-ios-and-android"></a>Outlook モバイル (iOS および Android) の Teams 会議アドイン
 
@@ -64,11 +64,11 @@ iOS と Android の Outlook アプリの最新ビルドには、Teams 会議ボ�
 
 ![Outlook モバイルの Teams 会議アドインのスクリーンショット](media/teams-meeting-add-in-mobile.png)
 
-ユーザーが [ **送信** ] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
+ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
 ## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Teams 会議アドインと Outlook 用 FindTime
 
-FindTime は、Outlook 用のアドインです。これは、企業全体での会議時間に関するユーザーの合意形成を支援します。 会議の招待者が希望の時間を提示したら、FindTime はユーザーの代わりに会議出席依頼を送信します。 FindTime で [ **オンライン会議** ] オプションが選択されている場合、FindTime は Skype for Business または Microsoft Teams の会議をスケジュールします。 (FindTime は、既定のオンライン会議チャネルとして、組織が設定したものを使用します。)
+FindTime は、Outlook 用のアドインです。これは、企業全体での会議時間に関するユーザーの合意形成を支援します。 会議の招待者が希望の時間を提示したら、FindTime はユーザーの代わりに会議出席依頼を送信します。 FindTime で [**オンライン会議**] オプションが選択されている場合、FindTime は Skype for Business または Microsoft Teams の会議をスケジュールします。 (FindTime は、既定のオンライン会議チャネルとして、組織が設定したものを使用します。)
 
 > [!NOTE]  
 > [Findtime ダッシュボード](https://findtime.microsoft.com/UserDashboard)で Skype for Business の設定を保存した場合、FindTime は Microsoft Teams の代わりにその設定を使用します。 Microsoft Teams を使用する場合は、ダッシュボードの Skype for Business の設定を削除します。
@@ -86,7 +86,7 @@ Teams の会議アドインでは、ユーザーが認証要件を使用して T
 
 ## <a name="enable-private-meetings"></a>プライベート会議を有効にする
 
-アドインを展開するには、Microsoft Teams 管理センターで [ **プライベート会議のスケジュールを設定できるようになります** ] を有効にする必要があります。 管理センターで **Meetings** > **Meeting Policies** に行き、 **一般的な** セクションで、 **Allow scheduling private meetings** をオンに切り替えるます。)
+アドインを展開するには、Microsoft Teams 管理センターで [**プライベート会議のスケジュールを設定できるようになります**] を有効にする必要があります。 管理センターで **Meetings** > **Meeting Policies** に行き、**一般的な** セクションで、**Allow scheduling private meetings** をオンに切り替えるます。)
 
 ![Microsoft Teams管理センターの設定のスクリーンショット。](media/teams-add-in-for-outlook-image1.png)
 
@@ -113,7 +113,7 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 
 ### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>アイランド モードのユーザーが Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを設定する
 
-管理者として、組織の Teams 会議ポリシー設定を構成して、 *アイランド モードのユーザー* がどの Outlook 会議アドインを使用するかを制御できます。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
+管理者として、組織の Teams 会議ポリシー設定を構成して、*アイランド モードのユーザー* がどの Outlook 会議アドインを使用するかを制御できます。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
 
 このポリシーは、アイランドモードで、Teams の会議ポリシーで **AllowOutlookAddIn** パラメーターが **True** に設定されているユーザーにのみ適用できます。 このポリシーの設定方法の詳細については、「[アイランド モードのユーザーの会議プロバイダーを設定する](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)」を参照してください。
 
@@ -154,12 +154,12 @@ Outlook 用の Teams 会議アドインをインストールできない場合�
 
 それでもアドインが表示されない場合、Outlook でアドインが無効になっていないかをご確認ください。
 
-- Outlook で、[ **ファイル** ]、[ **オプション** ] の順に選択します。
-- [ **Outlook のオプション** ] ダイアログ ボックスの [ **アドイン** ] タブを選択します。
-- [ **Microsoft Office 用の Microsoft Teams 会議アドイン** ] が [ **有効なアプリケーション アドイン** ] の一覧に表示されていることを確認します。
-- Teams 会議アドインが [ **無効なアプリケーション アドイン** ] の一覧に表示されている場合は、[ **管理** ] の [ **COM アドイン** ] を選択し、[ **移動** ] を選択します。
-- [ **Microsoft Office 用の Microsoft Teams 会議アドイン** ] の横にあるチェックボックスをオンにします。
-- すべてのダイアログボックスで [ **OK** ] をクリックして、Outlook を再起動します。
+- Outlook で、[**ファイル**]、[**オプション**] の順に選択します。
+- [**Outlook のオプション**] ダイアログ ボックスの [**アドイン**] タブを選択します。
+- [**Microsoft Office 用の Microsoft Teams 会議アドイン**] が [**有効なアプリケーション アドイン**] の一覧に表示されていることを確認します。
+- Teams 会議アドインが [**無効なアプリケーション アドイン**] の一覧に表示されている場合は、[**管理**] の [**COM アドイン**] を選択し、[**移動**] を選択します。
+- [**Microsoft Office 用の Microsoft Teams 会議アドイン**] の横にあるチェックボックスをオンにします。
+- すべてのダイアログボックスで [**OK**] をクリックして、Outlook を再起動します。
 
 アドインを管理する方法に関する全般的なガイドラインについては、「[Office プログラムでアドインを表示、管理、インストールする](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)」をご覧ください。
 
@@ -175,7 +175,7 @@ Outlook 用の Teams 会議アドインをインストールできない場合�
 
 ### <a name="delegate-scheduling-does-not-work"></a>代理人によるスケジュール設定が機能しない
 
-管理者が、[Exchange Web Server (EWS) へのアクセスを制御する](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)ように Microsoft Exchange を構成している場合、代理人は上司の代わりに Teams 会議をスケジュールできません。 この構成のソリューションは開発中で、今後リリースされる予定です。 回避策として、管理者は次の文字列を EWS の許可リストに追加することができます: " *SchedulingService* "。 
+管理者が、[Exchange Web Server (EWS) へのアクセスを制御する](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)ように Microsoft Exchange を構成している場合、代理人は上司の代わりに Teams 会議をスケジュールできません。 この構成のソリューションは開発中で、今後リリースされる予定です。 回避策として、管理者は次の文字列を EWS の許可リストに追加することができます: "*SchedulingService*"。 
 
 
 ## <a name="related-topics"></a>関連項目
