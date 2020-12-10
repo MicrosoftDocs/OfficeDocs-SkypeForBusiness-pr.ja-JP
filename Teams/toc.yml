@@ -210,6 +210,8 @@
           href: manage-power-platform-apps.md
         - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
           href: upload-custom-apps.md
+        - name: カスタムアプリストア
+          href: customize-your-app-store.md
     - name: アプリ証明書
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
@@ -262,7 +264,7 @@
                   href: rooms/microsoft-teams-rooms-premium.md
                 - name: Microsoft Teams Rooms の管理サービスを使用したロールベースのアクセス制御
                   href: rooms/microsoft-teams-rooms-premium-rbac.md
-        - name: 展開する
+        - name: 展開
           items:
             - name: 展開の概要
               href: rooms/rooms-deploy.md
@@ -348,8 +350,6 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Teams でホワイトボードを管理する
       href: manage-whiteboard.md
-    - name: Google Workspace 用 Teams meeting アドオンをセットアップする
-      href: add-gsuite-thru-aad.md
     - name: 電話会議
       items:
         - name: 展開の計画
