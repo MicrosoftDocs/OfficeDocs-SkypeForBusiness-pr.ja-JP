@@ -23,12 +23,12 @@ search.appverid: MET150
 description: Microsoft Teams のクラウド音声機能と、組織にとっての展開の決定について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 464f3591d86879db5830ca0abbea1bfbff538cec
-ms.sourcegitcommit: 4dd8a326a7284872f0d14e0a61bd4fcbe2297c10
+ms.openlocfilehash: c392e9a1e2944c573ddfa63da3aa27f56b2380d7
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071768"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611717"
 ---
 # <a name="plan-your-teams-voice-solution"></a>チームのボイスソリューションを計画する 
 
@@ -36,7 +36,7 @@ ms.locfileid: "49071768"
 
 通話プランには、最も簡単なソリューション電話システムが必要になることがあり &mdash; ます。 これは、次の図に示すように、プライベートな支店交換 (PBX) 機能と公衆交換電話網 (PSTN) への通話を提供する、Microsoft のすべてのクラウドソリューションです。 このソリューションを使用すると、Microsoft が PSTN キャリアになります。
 
-![図1は、通話プランが含まれる電話システムを示しています。](media/msft-voice-solutions-1.png)
+![図1は、通話プランが含まれる電話システムを示しています。](media/voice-solutions-simple.png)
 
 「はい」を選択すると、通話プランを使用した電話システムは適切な解決策となります。
 
@@ -62,6 +62,9 @@ ms.locfileid: "49071768"
 
 **要件によって異なります。** この記事の一部のセクションは、既存の展開と要件に応じて関連しています。 たとえば、Location-Based のルーティングが必要なのは、市外バイパスを許可していない地理的な場所にいるユーザーによるルーティングのみです。
 
+次のような追加の構成が必要な場合は、次の点を考慮してください。
+
+![図2は、Microsoft からの電話番号、ダイヤルプラン、通話ルーティングなど、その他の音声コンポーネントを示しています。](media/voice-consider-additional-components.png)
 
 | 要件に応じて | 説明 |
 | :------------|:-------|
@@ -91,6 +94,8 @@ ms.locfileid: "49071768"
 - [自動応答と呼び出しキュー](#auto-attendants-and-call-queues)
 - [クラウド ボイスメール](#cloud-voicemail)
 - [通話 ID](#calling-identity)
+
+![図3は、自動応答が含まれている電話システムと、通話クエリ、クラウドボイスメール、通話 id を示しています。](media/phone-system-contains.png)
 
 電話システムのすべての機能と、電話システムのセットアップ方法については、次の記事を参照してください。
 
@@ -137,7 +142,7 @@ Azure ボイスメールサービスを利用するクラウドボイスメー�
 
 - [**通話プラン付きの電話システム**](#phone-system-with-calling-plan)。 PSTN キャリアとしての Microsoft とのクラウドソリューション。
 
-- 直接ルーティングを使用して、オンプレミス環境を Teams に接続して、 [**独自の PSTN キャリアを搭載した電話システム**](#phone-system-with-own-pstn-carrier-with-direct-routing)。
+- 直接ルーティングを使用して、オンプレミス環境を Teams に接続して、[**独自の PSTN キャリアを搭載した電話システム**](#phone-system-with-own-pstn-carrier-with-direct-routing)。
 
 また、さまざまなオプションを組み合わせて、複雑な環境のソリューションを設計したり、マルチステップ移行を管理したりできます (詳細については、後で移行する)。
 
@@ -145,7 +150,7 @@ Azure ボイスメールサービスを利用するクラウドボイスメー�
 
 この記事で既に説明したように、通話プランが含まれる電話システムは、Teams ユーザー向けの Microsoft のクラウド向けのボイスソリューションです。 これは、世界中の固定電話と携帯電話への通話を可能にするために、Microsoft 電話システムと公衆交換電話網 (PSTN) を接続する最も簡単なオプションです。 このオプションを使用すると、次の図に示すように、Microsoft が組織のプライベートブランチ Exchange (PBX) 機能を利用できるようになり、PSTN キャリアとして機能します。
 
-![図1は、通話プランが含まれる電話システムを示しています。](media/msft-voice-solutions-1a.png)
+![図4は、自動応答、通話キュー、発信者番号認識、および Microsoft PSTN キャリアとしての電話システムを示しています。](media/voice-solution-microsoft-complete.png)
 
 「はい」を選択すると、通話プランを使用した電話システムは適切な解決策となります。
 
@@ -175,7 +180,7 @@ Azure ボイスメールサービスを利用するクラウドボイスメー�
 
 このオプションでは、次の図に示すように、直接ルーティングを使用して Microsoft 電話システムをテレフォニーネットワークに接続します。 
 
-![図2は、ダイレクトルーティングを使用した電話システムを示しています。](media/msft-voice-solutions-2.png)
+![図5は、ダイレクトルーティングを使用した電話システムを示しています。](media/voice-solution-with-direct-routing.png)
 
 以下の質問に対して [はい] を選択した場合、直接ルーティングを使用する電話システムは適切なソリューションです。
 
@@ -212,7 +217,6 @@ Azure ボイスメールサービスを利用するクラウドボイスメー�
 - [直接ルーティングで使用するためのボイスルーティングポリシーを管理する](manage-voice-routing-policies.md)
 - [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 - [ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト](direct-routing-border-controllers.md)
-
 
 ## <a name="phone-numbers-from-microsoft"></a>Microsoft からの電話番号
 
@@ -285,7 +289,7 @@ Microsoft には、2種類の電話番号が用意されています。 *加入�
 
 - [**Microsoft の通話プランを使用した、Skype For Business Online のユーザー**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)。 アップグレードすると、このユーザーには引き続き Microsoft 通話プランが設定されます。
 
-- Skype for business **のオンプレミスまたはクラウドコネクタエディションによる [オンプレミス音声機能を備えた Skype For business Online のユーザー](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)** 。 このユーザーの Teams へのアップグレードは、その TeamsOnly ユーザーが確実に PSTN 機能を持てるようにするため、ユーザーのダイレクト ルーティングへの移行に合わせた調整が必要になります。
+- Skype for business **のオンプレミスまたはクラウドコネクタエディションによる [オンプレミス音声機能を備えた Skype For business Online のユーザー](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)**。 このユーザーの Teams へのアップグレードは、その TeamsOnly ユーザーが確実に PSTN 機能を持てるようにするため、ユーザーのダイレクト ルーティングへの移行に合わせた調整が必要になります。
 
 - **[エンタープライズ voip がオンプレミスの Skype for business のユーザー](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)。オンラインに移行し、オンプレミスの PSTN 接続を維持し** ます。 このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行をそのユーザーのダイレクト ルーティングへの移行に合わせて調整する必要があります。 
 

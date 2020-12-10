@@ -1,7 +1,7 @@
 ---
 title: セキュリティ保護のためのポリシーを簡単に適用できるようにするチームの教育ポリシーウィザード
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -18,12 +18,12 @@ search.appverid: MET150
 description: 学生と教育機関向け Teams のポリシーウィザードを使用して、学習環境を安全に保つためのポリシーを簡単に適用する方法について説明します。
 f1keywords: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d72ef20a8ae56fba67534944d229d01468531207
-ms.sourcegitcommit: 80c1ec1d5a43b9259a4da6db3e462f6d4257bfa7
+ms.openlocfilehash: 0101248cb5e3fb8cdea30128482e7f9313afc2e0
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "49564256"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616921"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>[教育機関向けの Teams] ポリシーウィザードを使用して、安全な学習環境のポリシーを簡単に適用する
 
@@ -68,17 +68,17 @@ Teams のポリシーを使用すると、環境でのチームの動作と、�
 
 <a name="polwiz_run"> </a>
 
-ウィザードを実行するには、次の手順を実行します。 
+ウィザードを実行するには、次の手順を実行します。
 
 1. チームを初めてお使いになる場合は、ウィザードが自動的に開始されます。 それ以外の場合は、ダッシュボードからいつでもウィザードを開始できます。 Microsoft Teams 管理センターの左のナビゲーションで、[ **ダッシュボード**] に移動し、[ **安全な学習環境] タイルの Easy policy セットアップ** で [ **クイックセットアップ**] を選びます。
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="ダッシュボードのウィザードのスクリーンショット":::
 
-2. お客さまの教育機関の種類 (**プライマリまたは第 2** の **教育** 機関向け) を選択し、[ **次へ**] をクリックします。
+2. 教育機関の種類 (**プライマリまたは第 2** の **教育** 機関向け) を選択し、[ **次へ**] を選択します。
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="[機関] の種類を選択するためのページのスクリーンショット":::
 
-3. 教員およびスタッフを含むグループを検索して選択し、[ **次へ**] をクリックします。 教員やスタッフ用にセットアップされているグループがない場合は、 [グループを作成](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)し、ウィザードを再実行します。 <br/><br/>現在、選択できるグループは1つのみです。 選択したグループ内の教員とスタッフには、ニーズに合わせてカスタマイズされた [一連のカスタムポリシー](#policies-applied-by-the-wizard) が割り当てられます。 この一連のポリシーは、学生に適用されるポリシーとは別のものであることに注意してください。
+3. 教員およびスタッフを含むグループを検索して選択し、[ **次へ**] を選択します。 教員やスタッフ用にセットアップされているグループがない場合は、 [グループを作成](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups)し、ウィザードを再実行します。 <br/><br/>現在、選択できるグループは1つのみです。 選択したグループ内の教員とスタッフには、ニーズに合わせてカスタマイズされた [一連のカスタムポリシー](#policies-applied-by-the-wizard) が割り当てられます。 この一連のポリシーは、学生に適用されるポリシーとは別のものであることに注意してください。
 
     :::image type="content" source="media/easy-policy-setup-group.png" alt-text="教師とスタッフグループを選ぶためのウィザードのページのスクリーンショット":::
 
@@ -130,7 +130,7 @@ Teams では、特定のポリシー領域について、次の方法でポリ�
 
 ### <a name="step-2-check-for-additional-measures-that-you-can-take-for-student-safety"></a>手順 2: 学生の安全性を確保するために実行できるその他の対策を確認する
 
-ウィザードによって、 [これらのポリシー](#policies-applied-by-the-wizard)が自動的に調整され、適用されます。 お客様の機関のニーズに基づいて、その他の手段を利用して安全を確保することもできます。
+ウィザードによって、 [これらのポリシー](#policies-applied-by-the-wizard)が自動的に調整され、適用されます。 その他の対策はいくつかあります。これは、お客様の機関のニーズに基づいて、安全を維持するために必要な場合があります。
 
 安全性に関するその他の推奨事項については、「 [チームで距離を守る](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) 」を参照してください。
 
@@ -140,7 +140,7 @@ Teams では、特定のポリシー領域について、次の方法でポリ�
 
 現時点では、ウィザードは、実行時に推奨されるポリシーを適用します。 新しいポリシーが Teams で利用可能になると、学生の安全性に関するグローバル (組織全体の既定) 設定がウィザードによって自動的に追加されないことを知っておく必要があります。 この機能は、今後のリリースで利用可能になります。
 
-この機能が利用できるようになるまでは、Microsoft 365 管理センターの [メッセージセンター](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) を確認してください。チーム内の新しいポリシーやポリシー設定を常に最新の状態に維持します。 新機能が利用可能になったため、学習環境を安全に保つために、ポリシーを手動で更新する必要がある場合があります。
+この機能が利用できるようになるまでは、Microsoft 365 管理センターの [メッセージセンター](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) をチェックして、チーム内の新しいポリシーとポリシー設定を最新の状態に維持することをお勧めします。 新機能が利用可能になったため、学習環境を安全に保つために、ポリシーを手動で更新する必要がある場合があります。
 
 ## <a name="make-changes-in-the-wizard"></a>ウィザードで変更を行う
 

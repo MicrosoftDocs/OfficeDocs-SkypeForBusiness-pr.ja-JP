@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9e64dc908bafdd63b17e22716e76c4f04df1409
-ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
+ms.openlocfilehash: 5b30f8a435f256edc816ebeea075425fddeaf8bb
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588601"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611791"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>Survivable Branch Appliance (SBA) – Direct Routing-パブリックプレビュー
 
@@ -89,7 +89,7 @@ SBAs を作成するには、New-CsTeamsSurvivableBranchAppliance コマンド�
 
 | パラメーター| 説明 |
 | :------------|:-------|
-| Identity  | SBA の FQDN  |
+| Identity  | SBA の id  |
 | Fqdn | SBA の FQDN |
 | サイト | SBA が配置されている TenantNetworkSite |
 | 説明 | テキストを無料で表示 |
@@ -98,7 +98,7 @@ SBAs を作成するには、New-CsTeamsSurvivableBranchAppliance コマンド�
 次に例を示します。
 
 ``` powershell
-C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.dk -Description "SBA 1" 
+C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.com -Description "SBA 1" 
 Identity    : sba1.contoso.com 
 Fqdn        : sba1.contoso.com 
 Site        : 
@@ -120,7 +120,7 @@ Description : SBA 1
 ``` powershell
 C:\> new-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns "sba1.contoso.com","sba2.contoso.com" 
 Identity             : Tag:CPH 
-BranchApplianceFqdns : {sba1.contoso.dk, sba2.contoso.com} 
+BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
 Set-CsTeamsSurvivableBranchAppliancePolicy コマンドレットを使用して、ポリシーから SBAs を追加または削除することができます。 次に例を示します。 

@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d3928bd15ab5b023c025024f2dbf05c404adeee6
-ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
+ms.openlocfilehash: a23d9f5196f2d537e00c6e049377f9a7d7488654
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48341107"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611601"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
 > [!NOTE]
-> 組織全体のアプリ設定を有効にしている場合、 **カスタムアプリとの対話を許可**すると、Microsoft Teams 管理センターにまだアプリセットアップポリシーが表示されないことがあります。 この機能は現在展開中であり、間もなく組織内で利用可能になります。
+> 組織全体のアプリ設定を有効にしている場合、 **カスタムアプリとの対話を許可** すると、Microsoft Teams 管理センターにまだアプリセットアップポリシーが表示されないことがあります。 この機能は現在展開中であり、間もなく組織内で利用可能になります。
 
 管理者は、アプリセットアップポリシーを使って、次のタスクを実行できます。
 
@@ -59,36 +59,50 @@ ms.locfileid: "48341107"
 Microsoft Teams 管理センターを使用して、カスタムポリシーを作成することができます。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動します。
-2. [ **追加**] を選びます。
-    ![[アプリセットアップポリシーの追加] ページ](media/app-setup-policies-add.png)
+
+2. **[追加]** を選択します。
+
+   ![[アプリセットアップポリシーの追加] ページ](media/app-setup-policies-add.png)
+    
 3. ポリシーの名前と説明を入力します。
-4. ユーザーがカスタムアプリをチームにアップロードできるかどうかに応じて、 **カスタムアプリのアップロード**を有効または無効にします。 [組織全体のアプリ設定](manage-apps.md#manage-org-wide-app-settings)で**サードパーティ製のアプリ**が無効になっている場合、この設定を変更することはできません。
-5. ユーザーがアプリをカスタマイズ **できる**ようにするかどうかに応じて、ユーザーの固定を有効または無効にします。
+
+4. ユーザーがカスタムアプリをチームにアップロードできるかどうかに応じて、 **カスタムアプリのアップロード** を有効または無効にします。 [組織全体のアプリ設定](manage-apps.md#manage-org-wide-app-settings)で **サードパーティ製のアプリ** が無効になっている場合、この設定を変更することはできません。
+
+5. ユーザーがアプリをカスタマイズ **できる** ようにするかどうかに応じて、ユーザーの固定を有効または無効にします。
+
+   > [!NOTE]
+   > [ **ユーザーの固定設定を許可する** ] 設定は、Microsoft 365 Government Community Cloud (gcc) 環境 (GCC、gcc High、DoD) の Teams 管理センターで使用できますが、現時点では効果はありません。
+
 6. ユーザー用のアプリ **(プレビュー版)** をインストールするには、次のタスクを実行します。
 
     1. [ **インストールされているアプリ**] で、[ **アプリの追加**] を選択します。
+    
     2. [ **インストールされているアプリの追加** ] ウィンドウで、ユーザーが Teams を起動したときに自動的にインストールするアプリを検索します。 アプリのアクセス許可ポリシーによってアプリをフィルター処理することもできます。 アプリの一覧を選択したら、[ **追加**] を選択します。
 
-        ![[インストールされているアプリの追加] ウィンドウ](media/app-setup-policies-add-installed-apps.png)
+       ![[インストールされているアプリの追加] ウィンドウ](media/app-setup-policies-add-installed-apps.png)
 
 7. アプリを固定するには、次の操作を行います。
 
-    1. [ **固定**されたアプリ] で、[ **アプリの追加**] を選びます。
+    1. [ **固定** されたアプリ] で、[ **アプリの追加**] を選びます。
+    
     2. [固定された **アプリの追加** ] ウィンドウで、追加するアプリを検索し、[ **追加**] を選択します。 アプリのアクセス許可ポリシーによってアプリをフィルター処理することもできます。 ピン留めするアプリのリストを選択したら、[ **追加**] を選択します。
 
-         ![[固定アプリの追加] ウィンドウ](media/app-setup-policies-add-apps.png)
+       ![[固定アプリの追加] ウィンドウ](media/app-setup-policies-add-apps.png)
 
     3. Teams で表示する順序でアプリを配置し、[ **保存**] を選択します。
 
-        ![[固定されたアプリ] セクション](media/app-setup-policies-new-policy-setup.png)
+       ![[固定されたアプリ] セクション](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>アプリのセットアップポリシーを編集する
 
 Microsoft Teams 管理センターを使って、作成するグローバル (組織全体の既定) ポリシーやカスタムポリシーなどのポリシーを編集できます。
 
 1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ**  >  **セットアップポリシー**] に移動します。
+
 2. ポリシー名の左側をクリックしてポリシーを選択し、[ **編集**] を選択します。
+
 3. ここで、必要な変更を行います。
+
 4. **[保存]** を選択します。
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>ユーザーにカスタムアプリセットアップポリシーを割り当てる
@@ -102,6 +116,7 @@ Microsoft Teams 管理センターを使って、作成するグローバル (�
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターには、組み込みのアプリセットアップポリシーが含まれています。
 
 - **グローバル (組織全体の既定)**: この既定のポリシーは、別のポリシーを割り当てない限り、組織内のすべてのユーザーに適用されます。 グローバルポリシーを編集して、ユーザーにとって最も重要なアプリをピン留めします。
+
 - **Firstlineworker**: このポリシーは、firstline worker に対して使用されます。 組織内の Firstline Worker に割り当てることができます。 作成するカスタムポリシーなど、設定をアクティブにするユーザーにポリシーを割り当てる必要があることを知っておくことが重要です。 詳細については、この記事の「 [ユーザーにカスタムアプリセットアップポリシーを割り当てる](#assign-a-custom-app-setup-policy-to-users) 」セクションを参照してください。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>[ピン留めしたアプリの追加] ウィンドウでアプリが見つからないのはなぜですか。

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e648c821de3efcf092993bc9daf8503109bfc9fd
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: b952d11c5ebe4b2da7620cc6ed8dd650be0d6bc5
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578500"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611771"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
@@ -82,7 +82,7 @@ Skype for Business エクスペリエンスが複雑化または低下するこ�
 
 ### <a name="skype-for-business-only"></a>Skype for Business のみ
 
-この共存モードでは、ユーザーは、チャット、会議、通話機能のために、Teams ではなく、Skype for Business にとどまります。チームやチャネルには Teams は使用されません。 このモードは現在使用できます。ただし、現在の実装では、チームとチャネルはユーザーに対して自動的にオフになりません。 これを行うには、アプリのアクセス許可ポリシーを使用して、チームとチャネルを非表示にします。
+この共存モードでは、ユーザーは、チャット、会議、通話機能のために、Teams ではなく、Skype for Business にとどまります。チームやチャネルには Teams は使用されません。 このモードは現在使用できます。ただし、現在の実装では、チームとチャネルはユーザーに対して自動的にオフになりません。 これは、アプリセットアップポリシーを使って、チームとファイルを非表示にすることで実現できます。
 
 このモードは、Teams の管理された展開を開始する前に使用することができます。これは、ユーザーが準備完了に先行して Teams の使用を開始することを防ぐため、または Skype for Business ユーザーの Teams 会議での認証された参加を可能にする方法として、ユーザーが Teams のライセンスを持っている場合に使用できます。
 

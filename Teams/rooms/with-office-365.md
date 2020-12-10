@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams Rooms を展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
-ms.openlocfilehash: ee1f4da5cbcb65ab58c032ac651e0b563167a35b
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 4b5bd3967d3a1fcc8859cf4da8b039418819cb4e
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814796"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616891"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
 
@@ -84,7 +84,6 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    構文とパラメーターの詳細については、「[New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox)」と「[Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)」を参照してください。
 
-
 3. Exchange Online PowerShell で、会議の操作性を向上させるために、次のように会議室メールボックスの設定を構成します。
 
    - AutomateProcessing: AutoAccept (会議の開催者は、人手を介さずに直接会議室の予約の決定を受け取ります: 利用可 = 承諾; 利用不可 = 辞退。)
@@ -109,16 +108,17 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    構文とパラメーターの詳細については、「[Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
-4. Powershell コマンドレット `Connect-MsolService -Credential $cred` を実行して、MS Online PowerShell に接続し、Active Directory の設定を行います。   Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。 
+4. MS Online PowerShell に接続して、powershell コマンドレットを実行して Active Directory の設定を行い `Connect-MsolService -Credential $cred` ます。 Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。
 
 5. パスワードの有効期限が切れないようにするには、次の構文を使用します。
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PasswordNeverExpires $true
    ```
+
    <!--
    ```PowerShell
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
@@ -127,12 +127,12 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    この例では、アカウント Rigel1@contoso.onmicrosoft.com のパスワードを無期限に設定します。
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
    ```
+
    <!-- 
    ```PowerShell
-   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -EnforceChangePasswordPolicy $false
    ``` -->
 
    次のコマンドを実行して、アカウントの電話番号を設定することもできます。
@@ -140,6 +140,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    ```PowerShell
    Set-MsolUser -UserPrincipalName <upn> -PhoneNumber <phone number>
    ```
+
    <!-- 
    ```PowerShell
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
@@ -150,32 +151,37 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    ```Powershell
    Get-MsolAccountSku
    ```
+
    <!--
    ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   次に、`Set-MsolUserLicense` コマンドレットを使用してライセンスを追加  <!--Set-AzureADUserLicense --> することができます。 この例では、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
+   次に、`Set-MsolUserLicense` コマンドレットを使用してライセンスを追加  <!--Set-AzureADUserLicense --> することができます。 この例では、会議室ライセンスをアカウントに追加します。
 
    ```PowerShell
-   $acctUpn="Rigel1@contoso.onmicrosoft.com"
-   Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-   ``` 
+   Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses "Contoso:MEETING_ROOM"
+   ```
+
    <!-- 
    ```Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
 
    詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
+   このアカウントには電話システムの機能を追加することもできますが、最初に設定する必要があります。 詳細については、「 [電話システムとは](../what-is-phone-system-in-office-365.md) 」を参照してください。 この例では、PSTN 国内および国際通話プランを追加します。
+
+   ```PowerShell
+   Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
+   ```
+
 7. 次に、Skype for Business でデバイス アカウントを有効にする必要があります。 お使いの環境が「[Microsoft Teams Rooms の要件](requirements.md)」で定義されている要件を満たしていることを確認します。
 
    次のようにしてリモート [Windows PowerShell セッション](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を開始します (必ず[Skype for Business Online の PowerShell コンポーネントのインストール](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)を行ってください)。
-   
+
 > [!NOTE]
 > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
 >
@@ -183,78 +189,24 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
+   $cssess = New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
+   ```
+
+   次の例のように、セットアップ中の新しいユーザー アカウントの RegistrarPool 情報を取得します。
+
+   ``` Powershell
+    Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool
    ```
 
    Skype for Business Server に対して Microsoft Teams Rooms のアカウントを有効にするには、次のコマンドを実行します。
 
    ``` Powershell
-   $rm="Rigel1@contoso.onmicrosoft.com"
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity "Rigel1@contoso.onmicrosoft.com" -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   次の例のように、セットアップ中の新しいユーザー アカウントの RegistrarPool 情報を取得します。
-
-    ``` Powershell
-    $rm="Rigel1@contoso.onmicrosoft.com"
-    Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
-    ```
-
-    > [!NOTE]
-    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
-
-### <a name="assign-a-license-to-your-account"></a>アカウントにライセンスを割り当てる
-
-1. テナント管理者としてログインし、Microsoft 365 管理センターを開き、Admin アプリをクリックします。
-
-2. [**ユーザーとグループ**] をクリックし、[**ユーザーの追加、パスワードのリセットなど**] をクリックします。
-
-3. Microsoft Teams Rooms アカウントを選択してから、編集を意味するペン アイコンをクリックまたはタップします。
-
-4. [**ライセンス**] オプションをクリックします。
-
-5. [**ライセンスの割り当て**] セクションで、使用するライセンスと、エンタープライズ VoIP の必要性に関する決定に応じて、Skype for Business Online (プラン 2) または Skype for Business Online (プラン 3) を選択する必要があります。 Microsoft Teams Rooms でクラウド PBX を使用する場合は、プラン 3 ライセンスを使用する必要があります。 最低でも、音声接続用に CloudPBX が必要です。 次に、PSTN の接続方法に基づきハイブリッド音声または PSTN 通話を構成します。 詳細については、「[Microsoft Teams Rooms ライセンス](rooms-licensing.md)」を参照してください。
-
-6. [**保存**] をクリックしてタスクを完了します。
-
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>サンプル: Exchange Online および Skype for Business Online における ミーティング アカウントのセットアップ
-
-Exchange Online PowerShell コマンド:
-
-``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
--AdditionalResponse "This is a Rigel room!"
-```
-
-Azure Active Directory PowerShell コマンド:
-
-``` PowerShell
-Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
-```
-
-<!-- 
-``` PowerShell
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
-```  -->
-
-Skype for Business PowerShell コマンド:
-
-``` PowerShell
-Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
--SipAddressType EmailAddress
-```
-
-> [!NOTE]
-> これで CloudPBX と PSTNCallingDomesticAndInternational が追加されます。 さらに、管理者インターフェイスを使用して、電話番号を割り当てる必要があります。
+   > [!NOTE]
+   > テナントの既存のユーザー アカウントと同じレジストラー プールには、新しいユーザー アカウントを作成できない可能性があります。 上記のコマンドを実行すると、このような状況でもアカウント設定のエラーは発生しません。
 
 ## <a name="validate"></a>検証
 

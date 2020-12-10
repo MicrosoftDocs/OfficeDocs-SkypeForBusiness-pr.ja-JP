@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c17768f5d8c67db81f7457122632a6b205827cb5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2a9bf3cade5c17a8d3649a29ca999dec1f909624
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523424"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611851"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -59,7 +59,7 @@ Office 365 には、サードパーティ製のアプリケーションを Share
 
 |パートナー|パートナー ソリューション|
 |----|---|
-|![Polycom RealConnect を示すロゴ](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect Service</a> |
+|![Poly RealConnect を表すロゴ](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect サービス</a> |
 |![Pexip Infinity を示すロゴ](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
 |![BlueJeans Gateway を示すロゴ](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
 |![Cisco CVI を表すロゴ](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Microsoft Teams 向けの Cisco Webex ビデオ統合</a>|

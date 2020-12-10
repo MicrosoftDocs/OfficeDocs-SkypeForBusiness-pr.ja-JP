@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cacdcb89af5d588489028ef306a5a7f24b89f4d4
-ms.sourcegitcommit: e285f55a7e9563a2ab764d44805513d7bf1a3851
+ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49557951"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616951"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -97,7 +97,7 @@ Skype for Business と Teams では、次の管理設定が異なります。
 
 ## <a name="admin-settings-in-teams-compared-to-microsoft-outlook"></a>Microsoft Outlook と比較した Teams の管理設定
 
-Outlook での Teams のプレゼンスは、Outlook 2013 デスクトップ版アプリ以降でサポートされています。
+Outlook でのチームのプレゼンスは、同じ組織内の連絡先に対して Outlook 2013 デスクトップアプリ以降でサポートされています。
 
 ユーザーアカウントのアップグレードモードポリシーが [Team] に設定されている場合、Outlook は、チームと話してプレゼンスを取得します。 ユーザーアカウントが Teams のみに設定されていない場合は、Outlook は Skype for Business と通信します。
 
