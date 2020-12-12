@@ -2,7 +2,7 @@
 title: Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 author: SerdarSoysal
 ms.author: serdars
-ms.reviewer: brandber
+ms.reviewer: pkrebs
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,18 +21,18 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
-ms.openlocfilehash: afc3524466b9078b0050b23b59d45d049d11793b
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
+ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030823"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "49616931"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
 Teams のアドバイザーは、Microsoft Teams の展開について説明します。 Microsoft 365 組織の環境を評価し、Teams を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。 次に、Teams のアドバイザーは、展開する各ワークロードのチャネルを備えた展開チーム (チーム内) を作成します。展開チームの各ワークロードには、各ワークロードのすべての展開タスクを含む包括的な Planner の計画が付属しています。  この Planner プランを使用して、プロジェクト マネージャー、Teams サービス管理者、サポート担当者、導入およびユーザー準備チームなど、展開の各フェーズの責任者にタスクを割り当てます。 各展開タスクには、タスクを正常に完了するために必要なすべてのガイダンスとリソースが含まれています。
 
-Teams のアドバイザーは、[Teams 管理センター](https://admin.teams.microsoft.com)の一部です。 Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic ライセンスが必要です。 Teams のアドバイザーの使用を開始するには、ダッシュボードの [ **チームのワークロードの展開** ] ウィジェットの [ **開始** ] ボタンをクリックします。 または、[ **計画** ] > [ **Teams アドバイザー** ] の順に移動します。
+Teams のアドバイザーは、[Teams 管理センター](https://admin.teams.microsoft.com)の一部です。 Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic ライセンスが必要です。 Teams のアドバイザーの使用を開始するには、ダッシュボードの [**チームのワークロードの展開**] ウィジェットの [**開始**] ボタンをクリックします。 または、[**計画**] > [**Teams アドバイザー**] の順に移動します。
 
 > [!IMPORTANT]
 > Teams のアドバイザーは、Microsoft 365 Government (GCC High または DoD) 展開では使用できません。
@@ -44,7 +44,7 @@ Teams のアドバイザー エクスペリエンスのガイド付きの概要�
 **Teams アドバイザーを使用するには、Teams、Forms、および Planner のライセンスが必要です。** ただし、Teams アドバイザーを使用するために Teams 管理者である必要はありません。組織内の誰でも使用できます。 Teams 管理センターにあるにもかかわらず、管理者以外のユーザーが Teams のアドバイザーにアクセスできるように、特別なアクセス許可を設定しました。 テナント準備状況アセスメントを開くには、Teams 管理者、Teams サービス管理者、またはグローバル管理者である必要があります (これは、特別な非管理者ロールが評価の基となる Microsoft Graph API にアクセスできないためです)。
 
 > [!IMPORTANT]
-> **Teams アドバイザー** が Teams 管理センターの [ **計画** ] の下に表示されていない場合、ユーザーは Teams のライセンスを取得していません。
+> **Teams アドバイザー** が Teams 管理センターの [**計画**] の下に表示されていない場合、ユーザーは Teams のライセンスを取得していません。
 
 Teams のアドバイザーを初めて使用する場合、Teams で展開チームが作成されます。 選択したワークロードごとにチャネルが追加されます。
 
@@ -72,12 +72,13 @@ Teams のアドバイザーは現在、次のプランを提供しています�
     - Teams のアドバイザー ボット
     - Skype for Business のアップグレード プランは、現在 Skype for Business Online またはオンプレミス環境で Skype for Business をご利用のお客様向けに設計されており、アップグレードの行程を正確に把握できるようになっています。 このプランでは、Teams を使い始めたばかりのお客様、Skype for Business と併せて既に Teams を使用しているお客様、あるいはアップグレードの準備ができているお客様のすべてに、変更の実装に実績のあるフレームワークを利用してステップ バイ ステップでアップグレードのプロセスを案内します。 このプランではさらに、[オンライン ガイダンスとベスト プラクティス](https://aka.ms/SkypeToTeams)、[ダウンロード可能なリソース ファイル](https://aka.ms/UpgradeSuccessKit)、[ライブでの 1 対多のアップグレード計画ワークショップ](https://aka.ms/UpgradeWorkshops)の他、成功を支援するさまざまなリソースにアクセスできます。
 
-チャット、チーム、チャネル、アプリ プランから始めることをお勧めします。 そのワークロードの展開が完了したら Teams のアドバイザーに戻り、[ **チャネルの追加** ] をクリックして次のワークロードを開始します。
+チャット、チーム、チャネル、アプリ プランから始めることをお勧めします。 そのワークロードの展開が完了したら Teams のアドバイザーに戻り、[**チャネルの追加**] を選択して次のワークロードを開始します。
 
 ## <a name="tenant-assessment"></a>テナントの評価
-各プランには、Teams を展開する前に修復が必要な環境についての状況を迅速に特定するために使用できるテナント準備状況アセスメントが含まれています。 アセスメントには、前提条件とベスト プラクティスが含まれています。 各アセスメント テストには、緑色のチェック マークまたはオレンジ色の警告三角形が付いています。 
 
-- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>緑色のチェックマークは、テナントが特定のテストに合格したことを意味しています。 
+各プランには、Teams を展開する前に修復が必要な環境についての状況を迅速に特定するために使用できるテナント準備状況アセスメントが含まれています。 アセスメントには、前提条件とベスト プラクティスが含まれています。 各アセスメント テストには、緑色のチェック マークまたはオレンジ色の警告三角形が付いています。
+
+- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>緑色のチェックマークは、テナントが特定のテストに合格したことを意味しています。
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>オレンジ色の警告の三角形は、何らかのアクションが必要かどうかを判断するためのフォロー アップを推奨していることを意味します (たとえば、Microsoft 365 グループの有効期限ポリシーが推奨されますが、必須ではありません)。
 
 > [!IMPORTANT]
@@ -90,7 +91,7 @@ Teams のアドバイザーは現在、次のプランを提供しています�
 |アセスメント テスト  |確認できること  |
 |---------|---------|
 |構成済みのバニティ ドメイン     |テナント用に構成された @onmicrosoft.com 以外のドメイン (たとえば、@contoso.onmicrosoft.com) があるかどうか。 もちろん、@onmicrosoft.com ドメインを使用することも、バニティ ドメインを構成することもできます (任意)。 詳細については、「[Microsoft 365 にドメインを追加する](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)」をご覧ください。 |
-|Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが **必須です** 。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。    |
+|Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが **必須です**。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。    |
 |Exchange Online ライセンス     |使用可能な Exchange Online のライセンスで有効なサブスクリプションを所有しているかどうか 基本的な Teams 機能には Exchange は必要ありませんが、Exchange との統合により、最適な Teams エクスペリエンスが可能になります。 Microsoft Graph 内を検索して、テナントに関連付けられているサブスクリプションを分析し、対象の (割り当て可能なライセンスが少なくとも 1 つはある) Exchange Online ライセンスのサブスクリプションがあるかどうかを検証します。 詳細については、「[Exchange と Teams の連携](exchange-teams-interact.md)」をご覧ください。    |
 |SharePoint Online のライセンス     |使用可能な SharePoint Online のライセンスで有効なサブスクリプションを所有しているかどうか チャットのファイル ストレージに OneDrive for Business を提供する場合、ユーザーごとに SharePoint Online ライセンスを所有することをお勧めします。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) SharePoint Online ライセンスがあるかどうかを確認します。 詳細については、[Teams との SharePoint Online と OneDrive for Business の連携](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)をご覧ください。    |
 |ゲスト アクセスの有効化     |[ゲスト アクセス](guest-access.md)が有効になっているかどうか。 ゲスト アクセスを使用すると、外部ユーザーをチームに招待できます。 「[チームでゲストと共同で作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照して、Teams でゲスト アクセスを有効にします。チェックリストには、必要な Azure AD 構成が含まれています。 |
@@ -115,6 +116,7 @@ Teams のアドバイザーは現在、次のプランを提供しています�
 |Stream のライセンス     |使用可能な Microsoft Stream のライセンスで有効なサブスクリプションを所有しているかどうか。 これは、会議の記録を有効にする場合の前提条件です。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Microsoft Stream ライセンスがあるかどうかを確認します。 Stream の詳細および有効化の方法については、「[Teams のクラウド会議の記録](cloud-recording.md)」をご覧ください。
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Skype for Business のアップグレードのアセスメント
+
 [すべてのワークロードのアセスメント テスト](#assessment-tests-for-all-workloads)に加え、Skype for Business のアップグレードには会議や会議プランで使用するアセスメントも含まれています。
 
 ### <a name="advisor-for-teams-bot"></a>Teams のアドバイザー ボット
@@ -124,11 +126,12 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 >**Microsoft Teams の展開チームへようこそ!**
 >  
 >このチームの目的は、必要なすべてのリソースとプロジェクト チームに共同作業スペースを提供することにより、組織の Teams の展開について説明することです。 Teams のアドバイザーを使用して作成された各チャネルには、段階的な Planner プランと、展開全体で使用できる Forms のユーザー アンケートなどの他のリソースが含まれています。 いつでも戻って、テナントの準備状況の評価を確認したり、Teams 管理センターを使用してワークロード計画を追加したりできます。
-> 
->**実施すべき内容** 
->- Teams または Planner を初めて使用する場合は、「[Teams のチュートリアル](https://teamsdemo.office.com/)」を確認し、「[Planner クイックスタート ビデオ](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)」をご覧ください。 
->- Teams の展開チームを見てみます。 ワークロード チャネル (チャット、チーム、チャネル、アプリなど) を選択し、[ **Planner** ] タブを選択して開始します。
-> 
+>
+>**実施すべき内容**
+>
+>- Teams または Planner を初めて使用する場合は、「[Teams のチュートリアル](https://teamsdemo.office.com/)」を確認し、「[Planner クイックスタート ビデオ](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)」をご覧ください。
+>- Teams の展開チームを見てみます。 ワークロード チャネル (チャット、チーム、チャネル、アプリなど) を選択し、[**Planner**] タブを選択して開始します。
+>
 >Teams のアドバイザーの詳細については、「[Teams のアドバイザーを使用して Microsoft Teams を展開する](use-advisor-teams-roll-out.md)」を参照してください。
 >
 
@@ -138,44 +141,134 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 > [!IMPORTANT]
 > Teams のアドバイザー ボットは既定でオンになっています。 Teams のアドバイザーを使用または使用する予定の場合は、オフにしないでください。
 
+## <a name="advisor-for-teams-and-microsoft-365-learning-pathways"></a>Teams および Microsoft 365 学習経路のアドバイザー
+
+[Microsoft 365 学習経路](https://docs.microsoft.com/office365/customlearning/)は、ユーザーをトレーニングし、組織内のチームの使用と導入を増やすためにカスタマイズできるオンデマンド学習ソリューションです。 学習経路を Teams アドバイザーと一緒に使用して、ユーザーを迅速に稼働させ、導入を促進します。
+
+学習経路は、SharePoint Online サイト テンプレートと、ユーザー向けの学習サイトを簡単に構築する機能を提供します。 学習経路トレーニング ポータルをカスタマイズして、ユーザーのニーズに応じたトレーニングおよびサポート コンテンツを含めることができます。 Microsoft オンライン カタログの Teams 再生リストを使用して、独自の再生リストを追加します。
+
+学習経路に学習サイトを構築し、それをチーム内のチャネルにタブとして追加して、ユーザーがすばやく簡単にアクセスできるようにすることができます。
+
+たとえば、Teams アドバイザーを学習経路と一緒に使用してヘルプ デスクとチャンピオンをトレーニングし、学習経路がエンド ユーザーのトレーニングをサポートできるようにします。 Teams のヘルプデスクとチャンピオンのオンボードに役立つ学習サイトを構築し、それを展開する各ワークロード チャネルのタブとして追加します。 ヘルプデスクとチャンピオンは、学習経路トレーニング ポータルに、チームのユーザーをサポートするためのリンクとカスタム 再生リストを含むサポート ページを作成できます。 このサポートページは、エンドユーザーのトレーニングに役立つように、任意のチームのチャネルに追加できます。
+
+以下は、Teams アドバイザーを学習経路と一緒に使用する方法の概要です。
+
+### <a name="get-started-in-learning-pathways"></a>学習経路の使用を開始する
+
+学習経路の使用を開始する方法については、「[学習経路の使用を開始する](https://docs.microsoft.com/office365/customlearning/)」をご覧ください。
+
+ご使用の環境で新しい学習経路ソリューションをセットアップするには、「[新しい学習経路ソリューションのプロビジョニング](https://docs.microsoft.com/office365/customlearning/custom_provision)」を参照してください。
+
+### <a name="create-a-learning-plan"></a>学習プランを作成する
+
+#### <a name="plan-your-learning-content"></a>学習コンテンツを計画する
+
+学習経路でサイトを構築する前に、時間をかけて利用可能な学習リソースと機能を確認して収集してください。 学習経路を使用すると、Microsoft 365 トレーニング ページのコンテンツを使用し、作成したコンテンツを追加して、独自のニーズに合わせてサイトを調整できます。
+
+詳細については、「[学習経路のコンテンツを計画する](https://docs.microsoft.com/office365/customlearning/custom_plancontent)」および「[リモート従業員をサポートするためのリソース](https://docs.microsoft.com/office365/customlearning/custom_plancontent_remoteresources)」を参照してください。
+
+#### <a name="explore-teams-content-in-learning-pathways"></a>学習経路で Teams のコンテンツを探索する
+
+学習経路は、SharePoint サイトにオンライン カタログに接続されたWebパーツを提供します。 Web パーツをホストする Microsoft 365 トレーニング ページには、学習経路で利用可能なすべてのトレーニングが表示されます。 何が利用可能で、コンテンツがどのように編成されているかを理解するために、ページ全体を概観してください。
+
+[学習経路サイトにアクセスし](https://docs.microsoft.com/office365/customlearning/custom_goto)、**[Microsoft 365 トレーニング]** を選択してから、**[Microsoft Teams]** を選択して、オンライン カタログ内のすべての Teams トレーニング 再生リストを表示します。 再生リストを選択し、**[次へ]** ボタンや **[前へ]** ボタンを選択して移動します。 下矢印をクリックして再生リストの内容を表示し、特定のトピックに移動することもできます。
+
+#### <a name="take-an-inventory-of-teams-learning-resources-in-your-organization"></a>組織内の Teams 学習リソースのインベントリを作成します
+
+組織ですでに利用可能な Teams の学習コンテンツを確認します。 たとえば、 Teams のカスタム オンボーディング、トレーニング、またはサポート コンテンツをすでに開発している場合があります。 既存の SharePoint アセットを再生リスト内の Microsoft コンテンツと混合して、組織を対象とした再生リストを作成できます。
+
+#### <a name="build-your-site-in-learning-pathways"></a>学習経路でサイトを構築する
+
+学習経路の[管理サクセス センター](https://docs.microsoft.com/office365/customlearning/custom_successcenter)は、組織内の学習経路の計画とカスタマイズに役立つガイダンスとリソースを提供します。 [サイトのカスタマイズ](https://docs.microsoft.com/office365/customlearning/custom_overview)、コンテンツの表示と非表示、カスタム再生リストの作成などの方法を確認してください。
+
+管理サクセス センターにアクセスするには、学習経路のホームページで、**[管理サクセス センター]** を選択します。
+
+#### <a name="add-your-site-to-teams"></a>Teams にサイトを追加する
+
+サイトの準備ができたら、任意のチームのチャネルに追加して、すばやく簡単にアクセスできるようにします。
+
+1. Teams で、[チーム] に移動し、[チャネル] を選択します。
+2. [チャネル] ページの上部で、**+** (**タブの追加**) を選択します。
+3. **[SharePoint ページ]** を選択してから、**[任意の SharePoint サイトからページを追加する]** を選択します。
+4. 学習経路サイトの URL を貼り付けて、**[保存]** を選択します。
+
+詳細については、「[Teams のチャネルに SharePoint のページ、リストを追加する](https://support.microsoft.com/office/add-a-sharepoint-page-or-list-to-a-channel-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)」を参照してください。
+
+### <a name="train-your-support-team"></a>サポート チームをトレーニングする
+
+学習経路サイトのリソースを使用して、Teams のヘルプ デスクとチャンピオンをオンボーディングします。 Teams のユーザーをサポートするために必要なツールと情報を用意します。
+
+Teamsのヘルプ デスクとチャンピオンの準備に関するガイダンスとリソースについては、「[組織のトレーニング](https://adoption.microsoft.com/microsoft-teams/#train-your-org)」および「[チャンピオンの構築](https://adoption.microsoft.com/microsoft-teams/#build-champions)」を参照してください。
+
+ユーザーの「ハウツー」の質問に答える、頼りになる連絡先として、学習経路サイトでユーザーをトレーニングし、サポートチケットを作成する代わりに、ヘルプデスクとチャンピオンを使用できます。 トレーニングとサポートのページを作成して、ヘルプデスクとチャンピオンに[学習経路サイトをカスタマイズする](https://docs.microsoft.comoffice365/customlearning/custom_overview)ように促し、その後ユーザーが自分で利用できるように、チーム内の[チャネルにタブとして追加](#add-your-site-to-teams)します。
+
+### <a name="drive-adoption"></a>導入の促進
+
+サイトをカスタマイズして学習計画をまとめたら、継続的な学習のために学習経路を使用するようユーザーを促すために、ユーザーの意識を高める方法を検討してください。
+
+コミュニケーション チャネルを使用して、サイトを宣伝し、認知度を高めます。 たとえば、ユーザーとのコミュニケーションに、「Teams で生産性を高める方法について、トレーニングとサポートサイトを確認してください」などの標準的なキャッチ フレーズを含めます。
+
+チームでのコラボレーション方法を強調表示してユーザーを引き付け、その方法を学ぶために学習経路サイトにユーザーを誘導します。
+
+ガイダンス、導入キット、ベスト プラクティスなどを含むこれらのリソースを確認して、ロールアウトと導入計画を成功させるのに役立ててください。  
+
+- [学習経路の導入を促進する](https://docs.microsoft.com/office365/customlearning/driveadoption)
+- [Microsoft Teams を導入する](adopt-microsoft-teams-landing-page.md)
+- [Teams の導入 リソース](https://adoption.microsoft.com/microsoft-teams/)
+
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
-### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Teams のアドバイザーのライセンス要件は何ですか?
+
+### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Teams のアドバイザーのライセンス要件
+
 Teams を Forms および Planner と統合させるためのアドバイザーを活用するには、少なくとも Microsoft 365 Business Basic が必要です。
 
-### <a name="can-i-delete-the-deployment-team"></a>展開チームを削除できますか?
+### <a name="can-i-delete-the-deployment-team"></a>展開チームを削除できますか
+
 Teams のアドバイザーが展開チームを作成した後、他のチームと同様にチームを管理できます。これには削除機能も含まれます。 Teams 管理センターを使用しチームを削除しない場合、Teams 管理センターはチームがまだ存在していることを表示することに注意してください。
 
-### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>展開チームでチャネルを追加または削除できますか?
+### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>展開チームでチャネルを追加または削除できますか
+
 はい。展開チームが作成されたら、他のチームと同じ方法でチャネルを管理できます。
 
-### <a name="can-i-add-or-remove-project-team-members-in-the-deployment-team"></a>展開チームでプロジェクト チームのメンバーを追加または削除できますか?
+### <a name="can-i-add-or-remove-project-team-members-in-the-deployment-team"></a>展開チームでプロジェクト チームのメンバーを追加または削除できますか
+
 はい。展開チームが作成されたら、他のチームと同じ方法で管理できます。
 
-### <a name="can-i-modify-the-planner-plans"></a>Planner プランを変更できますか?
+### <a name="can-i-modify-the-planner-plans"></a>Planner プランを変更できますか
+
 はい。Teams のアドバイザーが展開チームを作成した後、Teams の展開を最適にサポートするために Planner プランを更新する必要があります。 他の Planner プランと同様に、バケット、タスク、タスク詳細など、何でも変更できます。
 
-### <a name="can-i-modify-the-forms-survey"></a>Forms アンケートを変更できますか?
+### <a name="can-i-modify-the-forms-survey"></a>Forms アンケートを変更できますか
+
 はい。Teams のアドバイザーが展開チームを作成した後、必要に応じて Forms アンケートを変更できます。
 
-### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>GCC での Teams のアドバイザーとの間の違いはありますか?
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>GCC での Teams のアドバイザーとの間の違いはありますか
+
 はい。GCC では現在 Teams Forms アプリを使用できないため、Forms のユーザー アンケートは作成されますがプランのチャネルにはピン留めされません。
 
-### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Teams のアドバイザーは自分の組織についてどのような情報を収集しますか?
+### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Teams のアドバイザーは自分の組織についてどのような情報を収集しますか
+
 Teams のアドバイザーは、非 EUII (エンド ユーザー識別情報) の収集に関する同意を要求します。 収集される情報はテレメトリーの形式であり、Teams のアドバイザーがどの程度成果を上げているのか、改善すべきところはどこなのか​​について、Microsoft にフィードバックを提供します。 このデータは、Microsoft が展開を支援するために組織と積極的に連携する機会を特定するために使用されます。
 
-### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>FastTrack で Teams のアドバイザーを使用できますか?
+### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>FastTrack で Teams のアドバイザーを使用できますか
+
 はい。FastTrack では、Teams の展開を検討しているすべての顧客に対して Teams のアドバイザーを活用しています。 FastTrack は、Teams のアドバイザー (必要な場合) を使用して展開チームの初期セットアップを支援し、Teams の展開中に特定のトピックに関する必要に応じたサポートも提供します。
 
-### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>パートナーで Teams のアドバイザーを使用できますか?
+### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>パートナーで Teams のアドバイザーを使用できますか
+
 はい。Teams の展開に展開パートナーを使用しながら、Teams のアドバイザーを使用できます。 パートナーが CSP であり、顧客の代わりにテナントを管理している場合、Teams のアドバイザーを使用して展開チームを作成し、プロジェクト全体の実行を支援できます。 さらに、展開チームにゲストとしてそれらの個人を追加して、プロジェクト チーム全体のメンバーとして参加できるようにすることで、パートナーと連携できます。
 
-### <a name="how-do-i-use-planner"></a>Planner を使用するにはどうすればよいですか?
-「[Microsoft Planner のヘルプ](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc)」と「[Planner のクイック スタート ビデオ](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)」をご覧ください。 
+### <a name="how-do-i-use-planner"></a>Planner を使用するにはどうすればよいですか
 
-### <a name="how-do-i-use-forms"></a>Forms を使用するにはどうすればよいですか?
+「[Microsoft Planner のヘルプ](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc)」と「[Planner のクイック スタート ビデオ](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7)」をご覧ください。
+
+### <a name="how-do-i-use-forms"></a>Forms を使用するにはどうすればよいですか
+
 「[Forms ヘルプ センター](https://support.office.com/forms)」に移動します。
 
 ## <a name="related-topics"></a>関連トピック
+
+[Teams アドバイザーをカスタマイズする](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
 
 [Teams の展開方法](How-to-roll-out-teams.md)
 

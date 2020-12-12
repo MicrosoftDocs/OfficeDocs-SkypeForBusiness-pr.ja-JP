@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6132f9ec0936a4c076520b8e7a900a7d496f3aec
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 7b66ce5095d194f937f3bceeef23d2666c51d518
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420927"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611471"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -44,7 +44,8 @@ ms.locfileid: "49420927"
 |Microsoft 365 または Office 365 組織が持てるチームの数    | 500,000&sup2;     |
 |チームごとのチャネル数    | 200 (削除されたチャネルを含む) &sup3;         |
 |チームごとのプライベート チャネル数    |30| (削除されたチャネルを含む) &sup3;
-|プライベート チャネルのメンバー数    |250 人|
+|プライベート チャネルのメンバー数    |250|
+|チームにインポートできる配布リスト、セキュリティ グループ、または Office 365 グループの最大サイズ    |3,500|
 |チームに変換できる Office 365 グループのメンバーの最大数    |10,000<sup>5</sup>     |
 |チャネル会話の投稿サイズ | 投稿ごとに約 28 KB<sup>4</sup> |
 
@@ -127,7 +128,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |機能     | 上限 |
 |------------|---------------|
 |会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 350 |
-|チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
+|チャットタブから開始されるビデオ通話または音声通話の人数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2 GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
 
@@ -179,7 +180,7 @@ Outlook での Teams のプレゼンスは、Outlook 2013 デスクトップ版�
 Microsoft Teams の各チームには SharePoint Online にチーム サイトがあり、チーム内の各チャネルには既定のチーム サイト ドキュメント ライブラリが作成されます。会話内で共有したファイルはドキュメント ライブラリに自動的に格納されます。SharePoint で設定した権限やファイル セキュリティ オプションは Teams 内で自動的に反映されます。
 
 > [!NOTE]
-> 各[プライベート チャネル](https://docs.microsoft.com/microsoftteams/private-channels)には、独自の SharePoint サイト コレクションがあります。
+> 各[プライベート チャネル](https://docs.microsoft.com/microsoftteams/private-channels)には、独自の SharePoint サイトがあります。
 
 テナントで有効な SharePoint Online をお持ちでない場合は、Microsoft Teams ユーザーがチーム内のファイルを共有することはできません。プライベート チャット内のユーザーもファイルを共有できません。これは OneDrive for Business (SharePoint のライセンスに関連付けられています) がその機能に必要だからです。
 
@@ -193,7 +194,7 @@ Team は、SharePoint Online のバックエンドのファイル共有で実行
 |Teams ファイル用のストレージ |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |
 |ファイル アップロードの上限 (ファイルあたり)    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |2 GB    |
 
-チャネルは、チーム用に作成された SharePoint Online サイト コレクション内のフォルダーによってバックアップされるため、チャネル内のファイル タブは、所属するチームのストレージ制限を共有します。
+チャネルは、チーム用に作成された SharePoint Online サイト内のフォルダーによってバックアップされるため、チャネル内のファイル タブは、所属するチームのストレージ制限を共有します。
 
 詳細については、「[SharePoint Online の制限](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)」を参照してください。
 

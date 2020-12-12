@@ -18,15 +18,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f27dc7e8772e25b6dcc91622cabec421e058af7b
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: df06c03ab37a98c5ea4404d8dbd12703b07ad3ee
+ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031483"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49611811"
 ---
-<a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
-=======================================================
+# <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
 Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (Azure AD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 以前の [Microsoft の商用クラウド試用版](iw-trial-teams.md) は、 Teams Exploratory エクスペリエンスに変更になりました。
 
@@ -53,7 +52,7 @@ Teams Exploratory エクスペリエンスの一部として管理者に表示�
 - Whiteboard (プラン 1)
 - Yammer Enterprise
 
-  <sup>1</sup> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint](tmr-meeting-recording-change.md) への変更は段階的なアプローチになります。 起動時にこの機能に加入できるようになります。 ストリームの使用を続ける場合は、11 月に脱退する必要があります。 2021 年の初めには、新しい会議を記録するためにすべてのお客様に OneDrive for Business と SharePoint を使用していただく必要があります。
+  <sup>1</sup> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint](tmr-meeting-recording-change.md) への変更は段階的なアプローチになります。 起動時に、この機能に加入できるようになります。 ストリームの使用を続ける場合は、11 月に脱退する必要があります。 2021 年の初めには、新しい会議を記録するためにすべてのお客様に OneDrive for Business と SharePoint を使用していただく必要があります。
 
 ## <a name="whos-eligible"></a>対象者
 
@@ -68,14 +67,14 @@ Teams Exploratory エクスペリエンスの抽出条件を満たすユーザ�
 
 抽出条件を満たさないユーザーは、次のとおりです。
 
-- 現在までに有料版、無料版、試用版ライセンスでの Teams を所有していたことがある 
+- 現在までに有料版、無料版、試用版ライセンスでの Teams を所有していたことがある
 - 特別 COVID プランを 1 回以上利用した/受け取ったテナントに所属している。
 
 シンジケート パートナー顧客である場合、または GCC、GCC High、DoD、または教育機関の顧客である場合、組織は試用版の対象ではありません。
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>ユーザーが Teams Exploratory エクスペリエンスにサインアップする方法
 
-対象となるユーザーは、Teams ([teams.microsoft.com](https://teams.microsoft.com)) にサインインして Teams Exploratory エクスペリエンスにサインアップできます。 このライセンスは自動的に割り当てられ、組織内の誰かが初めて Teams Exploratory エクスペリエンスを開始すると、テナント管理者に、メール通知が送信されます。
+対象となるユーザーは、デスクトップまたは Web から Teams ([teams.microsoft.com](https://teams.microsoft.com)) にサインインして Teams Exploratory エクスペリエンスにサインアップできます。 現時点では、モバイルを通した探索の有効化はサポートされていません。 サインアップを完了すると、このライセンスは自動的に割り当てられ、組織内の誰かが初めて Teams Exploratory エクスペリエンスを開始すると、テナント管理者に、メール通知が送信されます。
 
 ## <a name="manage-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスを管理する
 
@@ -83,22 +82,22 @@ Teams Exploratory エクスペリエンスは個々のエンド ユーザーが�
 
 Teams Exploratory エクスペリエンスには Exchange Online ライセンスが付属していますが、管理者が割り当てるまでユーザーに割り当てられません。 ユーザーにまだ Exchange ライセンスがなく、管理者がまだ Exchange Online ライセンスを割り当てていない場合、ユーザーは Teams で会議をスケジュールできず、他の Teams の機能を利用できない可能性があります。
 
-管理者は、 **試用版のアプリとサービス** スイッチを使用して、エンド ユーザーが組織内で Teams Exploratory エクスペリエンスを実行できないようにすることができます。
+管理者は、**試用版のアプリとサービス** スイッチを使用して、エンド ユーザーが組織内で Teams Exploratory エクスペリエンスを実行できないようにすることができます。
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>ユーザーが試用版アプリおよびサービスをインストールできないようにする
 
 ユーザーが試用版アプリとサービスをインストールできるようにする機能をオフにすると、そのユーザーは Teams Exploratory エクスペリエンスを実行できなくなります。
 
-1. Microsoft 365 管理センターから **[設定]** > **[組織の設定]** に移動し、 **[サービス]** を選択し、 **[ユーザー所有のアプリとサービス]** を選択します。
+1. Microsoft 365 管理センターから **[設定]** > **[組織の設定]** に移動し、**[サービス]** を選択し、**[ユーザー所有のアプリとサービス]** を選択します。
 
     ![管理センターの [サービス] ページ](media/iw-trial-services.png)
 
-2. **[ユーザーに試用版アプリとサービスのインストールを許可する]** チェック ボックスをクリアします。
+2. **[ユーザーに試用版アプリとサービスのインストールを許可する]** のチェック マークをクリアします。
 
     ![管理センターの [ユーザーが所有するアプリとサービス] ページ](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
-    > 組織が Teams Exploratory エクスペリエンスの対象外の場合は、「 **ユーザーが試用版アプリとサービスをインストールできるようにする** 」オプションは表示されません。
+    > 組織が Teams Exploratory エクスペリエンスの対象外の場合は、「**ユーザーが試用版アプリとサービスをインストールできるようにする**」オプションは表示されません。
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Teams が含まれているライセンスを持つユーザーの利用可能性を管理する
 
@@ -106,13 +105,13 @@ Teams が含まれているライセンスの割り当てられたユーザー�
 
 Teams へのアクセスをオフにするには:
 
-1. Microsoft 365 管理センターで、 **[ユーザー]** > **[アクティブ ユーザー]** を選択します。
+1. Microsoft 365 管理センターで、**[ユーザー]** > **[アクティブ ユーザー]** を選択します。
 
 2. ユーザーの名前の横にあるボックスを選択します。
 
-3. [ **製品のライセンス** ] 行で、[ **編集** ] を選びます。
+3. [**製品のライセンス**] 行で、[**編集**] を選びます。
 
-4. **[製品ライセンス]** ウィンドウで、 **[オフ]** に切り替えます。
+4. **[製品ライセンス]** ウィンドウで、**[オフ]** に切り替えます。
 
     ![管理センターの [製品ライセンス] ページ。](media/iw-trial-enable-3.png)
 
@@ -122,13 +121,13 @@ Teams へのアクセスをオフにするには:
 
 Teams Exploratory エクスペリエンスのライセンスをオフにするには:
 
-1. Microsoft 365 管理センターで、 **[ユーザー]** > **[アクティブ ユーザー]** を選択します。
+1. Microsoft 365 管理センターで、**[ユーザー]** > **[アクティブ ユーザー]** を選択します。
 
 2. ユーザーの名前の横にあるボックスを選択します。
 
-3. [ **製品のライセンス** ] 行で、[ **編集** ] を選びます。
+3. [**製品のライセンス**] 行で、[**編集**] を選びます。
 
-4. [ **製品ライセンス** ] ウィンドウで、この Exploratory ライセンスのトグルを [ **オフ** ] に切り替えます。
+4. [**製品ライセンス**] ウィンドウで、この Exploratory ライセンスのトグルを [**オフ**] に切り替えます。
 
     >[!Note]
     >Teams Exploratory のトグル スイッチは、組織の最初のユーザーが Teams Exploratory エクスペリエンスを起動した後に表示されます。
@@ -170,11 +169,11 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory エクスペリエンスの利用可能期間
 
-Microsoft Teams Exploratory エクスペリエンスは、次の **契約応当日** 、または 2021 年 1 月以降の **更新日** まで追加料金なしで利用可能です。 この時点で、Microsoft Exploratory エクスペリエンス ライセンスのエンド ユーザーは、Teams を含む有料のライセンスに移行する必要があります。 その後に開始したすべての Microsoft Exploratory エクスペリエンス ライセンスは、次の **契約応当日** 、または **更新日** まで追加料金なしで引き続き利用できます。
+Microsoft Teams Exploratory エクスペリエンスは、（最初のユーザー サインアップから）12 か月間と、それに加え 30 日間の猶予期間のあいだ、追加費用なしで利用できます。 この時点で、Microsoft Exploratory エクスペリエンス ライセンスのエンド ユーザーは、Teams を含む有料のライセンスに移行する必要があります。 同じテナントのすべてのユーザーに同じ終了日が適用されます。12 か月の期間は最初のユーザーのサインアップした日付から開始します。
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>エンド ユーザーが、Microsoft Teams Exploratory エクスペリエンスを契約日、または更新日の前に開始した場合は、どうなりますか
 
-Microsoft Teams Exploratory エクスペリエンス ライセンスの開始が、 **契約応当日** 、または **更新日** の 90 日以内であれば、次の契約応当日、更新日まで有料のライセンスに移行する必要はありません。
+Microsoft Teams Exploratory エクスペリエンス ライセンスの開始が、**契約応当日**、または **更新日** の 90 日以内であれば、次の契約応当日、更新日まで有料のライセンスに移行する必要はありません。
 
 ### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>契約に応当日または年次更新日がない場合 (月単位の契約など)
 
