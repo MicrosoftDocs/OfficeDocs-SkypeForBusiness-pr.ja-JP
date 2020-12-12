@@ -21,76 +21,76 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'ユーザーにクラウドボイスメールをセットアップする方法について説明します。 '
-ms.openlocfilehash: df8e6d5962e3bff2148165466400e90ee3a4607d
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: 'ユーザー用にクラウド ボイスメールを設定する方法について学習します。 '
+ms.openlocfilehash: 81e5f83b251a0bd648cb2ab2afd69f35357fc49f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031073"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662212"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
-この記事は、Microsoft 365 または Office 365 管理者を対象としています。詳しくは、「クラウドボイスメール機能をセットアップして、社内のすべてのユーザーを対象にしています [」で説明](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) しています。
+この記事は、Microsoft 365 または Office 365 管理者向け[](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)です。「組織のすべてのユーザーにクラウド ボイスメール機能を設定する管理者ロールについて」を参照してください。
 
 > [!NOTE]
-> クラウドボイスメールでは、Exchange メールボックスでのボイスメールメッセージのデポジットのみがサポートされ、サードパーティのメールシステムはサポートされません。 
+> クラウド ボイスメールは、Exchange メールボックスへのボイスメール メッセージの受信のみをサポートし、サードパーティのメール システムをサポートしません。 
 
 > [!NOTE]
-> 代理人が委任者の代わりに着信に応答する場合、クラウドボイスメールでは通知を利用できません。 不在着信の通知は、ユーザーが受信できます。
+> 代理人が委任者の代わりに通話に応答すると、クラウド ボイスメールでは通知を利用できません。 ユーザーは、着信を逃した場合の通知を受け取る可能性があります。
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>クラウドのみの環境: オンライン電話システムユーザーにクラウドボイスメールをセットアップする
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>クラウド専用環境: オンライン電話システム ユーザー向けクラウド ボイスメールをセットアップする
 
-オンライン電話システムを利用している場合は、 **電話システム** のライセンスをユーザーに割り当てた後で、クラウドボイスメールが自動的に設定され、ユーザーに提供されます。 
+オンライン電話システム ユーザーの場合、ユーザーに電話システム ライセンスを割り当てると、クラウド ボイスメールが自動的にセットアップ **され、ユーザー** 用にプロビジョニングされます。 
 
 > [!NOTE]
-> オンプレミスの電話番号を提供するオンラインの Skype for Business 電話システムユーザーの場合は、 [HostedVoicemail $True](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)を使用して、ホストされているボイスメールを有効にする必要がある場合があります。 
+> オンプレミスで提供された電話番号を持つ Online Skype for Business Phone System ユーザーの場合 [、Set-CsUser -HostedVoicemail](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)$True を使用してホストボイス メールを有効にする必要がある場合があります。 
 
-## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Exchange Server メールボックスユーザーにクラウドボイスメールをセットアップする
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>メールボックス ユーザー向けクラウド ボイスメールExchange Serverセットアップする
 
-以下の情報は、電話システムに接続しているが、Exchange Server にメールボックスがあるユーザーと連携するようにクラウドボイスメールを構成する方法について説明します。 
+次の情報は、電話システム用にオンラインでメールボックスを持っているユーザーと作業するためにクラウド ボイスメールをExchange Server。 
   
-1. ボイスメールメッセージは、Exchange Online Protection を介してルーティングされる SMTP 経由で、ユーザーの Exchange メールボックスに配信されます。 これらのメッセージが正常に配信されるようにするには、exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認します。 [コネクタを使用して、メールフローを構成](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)します。 
+1. ボイスメール メッセージは、Exchange Online Protection 経由でルーティングされる SMTP 経由でユーザーの Exchange メールボックスに配信されます。 これらのメッセージを正常に配信するには、Exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認してください。 [コネクタを使用してメール フローを構成します](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
 
-2. Skype for Business クライアントでの応答メッセージや視覚ボイスメールのカスタマイズなどのボイスメール機能を有効にするには、Exchange Web Services 経由で Microsoft 365 または Office 365 から Exchange server メールボックスに接続する必要があります。 この接続を有効にするには、「 [exchange と Exchange Online の間の Oauth 認証を構成](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)する」で説明されている新しい exchange Oauth 認証プロトコルを構成するか、または EXCHANGE 2013 cu5 以降以上から Exchange ハイブリッドウィザードを実行する必要があります。 さらに、「skype for business [online と Exchange server の間の統合と oauth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」で説明されているように、Skype For business Online と exchange server の間で統合と oauth を構成する必要があります。 
+2. Skype for Business クライアントで応答メッセージやビジュアル ボイスメールをカスタマイズするなどのボイスメール機能を有効にするには、Microsoft 365 または Office 365 から Exchange Web Services 経由の Exchange サーバー メールボックスへの接続が必要です。 この接続を有効にするには、「Exchange と Exchange Online 組織間の [OAuth](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)認証の構成」で説明されている新しい Exchange Oauth 認証プロトコルを構成するか、Exchange 2013 CU5 以上から Exchange ハイブリッド ウィザードを実行する必要があります。 さらに、「Skype for Business Online と Exchange Server の統合と OAuth の構成」で説明されている Skype for Business Online と Exchange サーバー間の統合と [Oauth を構成する必要があります](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。 
 
-## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Skype for Business Server ユーザー用にクラウドボイスメールをセットアップする
+## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Skype for Business Server ユーザーのクラウド ボイスメールをセットアップする
 
-クラウドボイスメール用に Skype for Business server ユーザーを構成するには、「 [オンプレミスユーザー向けのクラウドボイスメールサービスの計画](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)」を参照してください。
+クラウド ボイスメール用に Skype for Business サーバー ユーザーを構成するには、「オンプレミス ユーザー向けクラウド ボイスメール サービスを計画する」 [を参照してください](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)。
 
-## <a name="enabling-protected-voicemail-in-your-organization"></a>組織で保護されたボイスメールを有効にする
+## <a name="enabling-protected-voicemail-in-your-organization"></a>組織内で保護されたボイスメールを有効にする
 
-組織内のユーザーに対してボイスメールメッセージを残した場合、ボイスメールは、メールメッセージの添付ファイルとしてユーザーのメールボックスに配信されます。 メールフロールールを使ってメッセージの暗号化を適用すると、これらのボイスメールメッセージが他の受信者に転送されないようにすることができます。 保護されたボイスメールを有効にすると、ユーザーはボイスメールメールボックスを使用するか、outlook、Outlook on the web、または Android 用 Outlook または iOS 版 Outlook でメッセージを開くことによって、保護されたボイスメールメッセージを聞くことができます。 保護されたボイスメールメッセージを Skype for Business で開くことはできません。
+ユーザーが組織内のユーザーのボイスメール メッセージを離れる場合、ボイスメールはメール メッセージの添付ファイルとしてユーザーのメールボックスに配信されます。 メール フロー ルールを使用してメッセージの暗号化を適用すると、それらのボイスメール メッセージが他の受信者に転送されるのを防ぐ方法があります。 保護されたボイスメールを有効にした場合、ユーザーは、ボイスメール メールボックスに通話するか、Outlook、Outlook on the web、または Outlook for Android または iOS でメッセージを開いて、保護されたボイスメール メッセージを聞き取ります。 保護されたボイスメール メッセージは、Skype for Business または Microsoft Teams で開くことができません。
 
-メッセージの暗号化の詳細については、「 [メールの暗号化](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)」を参照してください。
+メッセージの暗号化の詳細については、「メールの暗号化 [」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
 
 保護されたボイスメールを設定するには、次の操作を行います。
 
-1. https://admin.microsoft.comグローバル管理者の権限を持つアカウントを使用して、に移動してサインインします。
-2. [ **すべて表示** ] を選択し、[ **管理センター** の Exchange] に移動し  >  **Exchange** ます。
-3. Exchange 管理センターで、[ **メールフロー** ルール] を選択し  >  **Rules** ます。
-4. [追加] を選択し **+** **Add** 、[ **Office 365 メッセージの暗号化と権限の保護をメッセージに適用する** ] を選択します。
-5. 新しいメールフロールールの名前を指定し、[ **このルールを適用****する** 条件] で [メッセージの種類] ボックスに「  >  **Include the message type**  >  **ボイスメール** 」と入力します。 [ **OK]** を選びます。
-6. [ **実行する処理** ] で、[ **Office 365 メッセージの暗号化と著作権の保護をメッセージに適用する** ] を選択し、[ **1 つ選択** ] を選択します。 [ **RMS テンプレート** ] で、[ **転送しない** ] を選択します。 [ **OK]** 、[ **保存** ] の順に選択します。
+1. グローバル管理者権限 https://admin.microsoft.com を持つアカウントに移動してサインインします。
+2. [すべて **表示] を選** び、管理センターの Exchange **に**  >  **移動します**。
+3. Exchange 管理センターで、[メール フロー ルール **] を選択**  >  **します**。
+4. [ **+** **追加]** を選択し **、[365 Message Encryption Office権限** の保護をメッセージに適用する] を選択します。
+5. 新しいメール フロー ルールの名前を入力し、[このルールを適用する場合] の [メッセージのプロパティにメッセージの種類を含めるボイス メール  >  **]**  >  **を選択します**。 **[OK] を選択します**。
+6. [ **次の操作を行** う] で **、[365 Message Encryption** とOffice保護を適用する] を選択し、[Select **one]** を選択します。 **[RMS テンプレート] で 、[** 転送しない **] を選択します**。 **[OK] を選択** し、[保存 **] を選択します**。
     > [!NOTE]
-    > **RMS テンプレート** の一覧が空の場合は、メッセージの暗号化を設定する必要があります。 メッセージの暗号化の設定の詳細については、次の記事を参照してください。
-    > - [新しいメッセージの暗号化機能を設定する](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
-    > - [Azure Information Protection 用のテンプレートの構成と管理](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
+    > RMS テンプレート **の一覧が** 空の場合は、Message Encryption を設定する必要があります。 Message Encryption の設定の詳細については、次の記事を参照してください。
+    > - [新しい Message Encryption 機能をセットアップする](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [Azure Information Protection のテンプレートの構成と管理](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
     > - [メールの [転送しない] オプション](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>組織内のボイスメール ポリシーの設定
 
 > [!WARNING]
-> Skype for Business のお客様の場合、Microsoft Teams の通話ポリシーでボイスメールを無効にすると、Skype for Business ユーザーのボイスメールサービスを無効にすることがあります。
+> Skype for Business のお客様の場合、Microsoft Teams 通話ポリシーを通じてボイスメールを無効にすると、Skype for Business ユーザーのボイスメール サービスも無効になる場合があります。
 
 既定では、すべての組織とユーザーに対して、ボイスメール トランスクリプションは有効に、トランスクリプション不適切表現マスキングは無効になっています。ただし、[Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) と [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) コマンドレットを使用してそれらを制御することができます。
 
-組織内のユーザーから受信したボイスメールメッセージは、Microsoft 365 または Office 365 組織がホストされている地域に transcribed されています。 テナントがホストされている地域は、ボイスメールメッセージを受信するユーザーが配置されている地域とは異なる場合があります。 テナントがホストされている地域を表示するには、[ [組織プロファイル](https://go.microsoft.com/fwlink/p/?linkid=2067339)] ページに移動し、[ **データの場所** ] の横にある [詳細の **表示** ] をクリックします。
+組織内のユーザーによって受信されたボイスメール メッセージは、Microsoft 365 または Office 365 組織がホストされている地域で変換されます。 テナントがホストされている地域は、ボイスメール メッセージを受信するユーザーと同じ地域ではない可能性があります。 テナントがホストされている地域を表示するには、[組織プロファイル][](https://go.microsoft.com/fwlink/p/?linkid=2067339)ページに移動し、[データの場所] の横にある [**詳細の表示**]**をクリックします**。
 
 > [!IMPORTANT]
-> **New-csonlinevoicemailpolicy** コマンドレットを使って、書き起こしと議事録のプロファニティマスク用の新しいポリシーインスタンスを作成することはできません。また、 **new-csonlinevoicemailpolicy** コマンドレットを使用して既存のポリシーインスタンスを削除することもできません。
+> **New-CsOnlineVoiceMailPolicy** コマンドレットを使用してトランスクリプションとトランスクリプション不適切なマスクの新しいポリシー インスタンスを作成したり **、Remove-CsOnlineVoiceMailPolicy** コマンドレットを使用して既存のポリシー インスタンスを削除したりできない。
 
-ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 利用可能なボイスメールポリシーのすべてのインスタンスを表示するには、 [new-csonlinevoicemailpolicy](https://technet.microsoft.com/library/mt798311.aspx) コマンドレットを使用します。
+ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 使用可能なすべてのボイスメール ポリシー インスタンスを表示するには [、Get-CsOnlineVoicemailPolicy コマンドレットを使用](https://technet.microsoft.com/library/mt798311.aspx) します。
 
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
@@ -114,7 +114,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>ユーザーのトランスクリプションをオフにする
 
-ユーザー ポリシーは組織の既定の設定より前に評価されます。 たとえば、すべてのユーザーに対してボイスメールの議事録が有効になっている場合は、 [new-csonlinevoicemailpolicy](https://technet.microsoft.com/library/mt798309.aspx) コマンドレットを使用して、特定のユーザーに対して議事録を無効にするポリシーを割り当てることができます。
+ユーザー ポリシーは組織の既定の設定より前に評価されます。 たとえば、すべてのユーザーに対してボイスメール トランスクリプションが有効になっている場合 [、Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) コマンドレットを使用して、特定のユーザーのトランスクリプションを無効にするポリシーを割り当てできます。
 
 単一ユーザーに対するトランスクリプションを無効にするには、次を実行します。
 
@@ -133,13 +133,13 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 ```
 
 > [!IMPORTANT]
-> Microsoft 365 および Office 365 のボイスメールサービスは、ボイスメールポリシーをキャッシュし、4時間ごとにキャッシュを更新します。 このため、ポリシーを変更した場合、変更が適用されるまでに最長で 4 時間かかる場合があります。
+> Microsoft 365 および Office 365 のボイスメール サービスは、ボイスメール ポリシーをキャッシュし、4 時間ごとにキャッシュを更新します。 このため、ポリシーを変更した場合、変更が適用されるまでに最長で 4 時間かかる場合があります。
 
-## <a name="help-your-users-learn-teams-voicemail-features"></a>チームのボイスメール機能についてユーザーが理解できるようにする
+## <a name="help-your-users-learn-teams-voicemail-features"></a>ユーザーが Teams ボイスメール機能を学ぶのを支援する
 
-ボイスメールの設定と Teams のその他の通話機能の管理については、次の情報が記載されています。
+ユーザーがボイスメールの設定を管理する方法と、Teams のその他の通話機能に関する次の情報があります。
 
-- [Teams で通話設定を管理](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)します。 この記事では、すべてのエンドユーザーチームの通話機能を管理する方法について説明します。 
+- [Teams で通話設定を管理します](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。 この記事では、すべてのエンド ユーザーの Teams 通話機能を管理する方法について説明します。 
 
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>Skype for Business ボイスメールの機能に関するユーザーの理解を支援する
 

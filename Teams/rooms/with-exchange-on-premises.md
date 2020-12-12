@@ -1,7 +1,7 @@
 ---
 title: オンプレミスで Exchange を使用し Microsoft Teams Rooms を展開
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: このトピックでは、オンプレミスの Exchange が搭載されたハイブリッド環境に Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: 71b1ab2ba641b25764f5c546343a3c7a597f121a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: f9f80f5b993b9be95e35c8178d996973558e2512
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814536"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662322"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams Rooms を展開する
 
@@ -58,7 +58,7 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
 
 ### <a name="create-an-account-and-synchronize-with-active-directory"></a>アカウントを作成し、Active Directory と同期します。
 
-1. **Active Directoryユーザーおよびコンピューター**ツールで、フォルダーまたはMicrosoft Teams Rooms のアカウントの作成先となる組織単位を右クリックし、**新規**そして**ユーザー**の順にクリックします。
+1. **Active Directoryユーザーおよびコンピューター** ツールで、フォルダーまたはMicrosoft Teams Rooms のアカウントの作成先となる組織単位を右クリックし、**新規** そして **ユーザー** の順にクリックします。
 
 2. 前のコマンドレットで得た表示名を [**フル ネーム**] ボックスに入力し、エイリアスを [**ユーザー ログオン名**] ボックスに入力します。[**次へ**] をクリックします。
 
@@ -140,9 +140,9 @@ Skype for Business Online PowerShell は、Microsoft Teams および Skype for B
 
 1. PC からリモートの Windows PowerShell セッションを作成するには、次のようにします。
 > [!NOTE]
-> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
+> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールの一部です。
 >
-> 最新の [Teams PowerShell パブリックリリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
+> 最新の [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリースを使用している場合は、Skype for Business Online Connector をインストールする必要があります。
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  
@@ -171,7 +171,7 @@ Skype for Business Online PowerShell は、Microsoft Teams および Skype for B
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Microsoft Teams Rooms のアカウントにライセンスを割り当てる
 
 1. テナント管理者としてログインし、Microsoft 365 管理センターを開き、Admin アプリをクリックします。
-2. [ **ユーザーとグループ**] をクリックし [ **ユーザーの追加]、[パスワードのリセット]、およびその他の**をクリックします。
+2. [ **ユーザーとグループ**] をクリックし [ **ユーザーの追加]、[パスワードのリセット]、およびその他の** をクリックします。
 3. Microsoft Teams Rooms アカウントをクリックし、ペン アイコンをクリックして、アカウント情報を編集します。
 4. [**ライセンス**] をクリックします。
 5. ライセンスとエンタープライズ VoIP の要件に応じて、[**ライセンスの割り当て**] で [Skype for Business (プラン 2)] または [

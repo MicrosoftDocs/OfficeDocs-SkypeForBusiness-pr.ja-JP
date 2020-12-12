@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms の計画
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams Rooms の展開に関連した計画時の考慮事項について説明します。
-ms.openlocfilehash: f91d1ab8eeb3a89207f78fc37b9924f411a1edc1
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ccc24aea1a45d2aa75c3b1a5de668b520483c2bd
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031443"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662472"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams Rooms を計画する
 

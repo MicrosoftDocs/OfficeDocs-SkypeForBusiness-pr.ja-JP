@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams のゲストエクスペリエンス
+title: Microsoft Teams でのゲスト エクスペリエンス
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,42 +18,42 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: この記事では、ゲストユーザーが利用できる Microsoft Teams の機能について説明します。
-ms.openlocfilehash: a2c4bcf380eb90f7c0a00c8f6f4f9141b80f8460
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: この記事では、ゲストが使用できる Microsoft Teams の機能について説明します。
+ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030293"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49661892"
 ---
-# <a name="guest-experience-in-teams"></a>Teams でのゲストエクスペリエンス
+# <a name="guest-experience-in-teams"></a>Teams でのゲスト エクスペリエンス
 
 ゲストがチームに参加するように招待されると、「ようこそ」メール メッセージが届きます。 このメッセージには、チームに関するいくつかの情報と、メンバーとして想定されることが記載されています。 ゲストは、チームとそのチャネルにアクセスする前に、メール メッセージで **[Microsoft Teams を開く]** を選択して、招待を承諾する必要があります。
     
-![ようこそメールメッセージの例を示すスクリーンショット](media/guest-experience-image1.png)
+![ようこそメール メッセージの例を示すスクリーンショット](media/guest-experience-image1.png)
     
-すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 チャネルスレッドの右上隅にあるタグは、チームのゲストの数と、各ゲストの名前の横に **(ゲスト)** ラベルが表示されることを示します。
+すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 チャネル スレッドの右上隅にあるタグは、チームのゲストの数を示し、各ゲストの名前の横に **(ゲスト)** ラベルが表示されます。
 
-![チームのゲストの数を示すタグが表示されたスクリーンショット](media/guest-experience-image2.png)
+![チームのゲスト数を示すタグを示すスクリーンショット](media/guest-experience-image2.png)
 
-Teams のゲストエクスペリエンスについては、次のビデオをご覧ください。
+Teams でのゲスト エクスペリエンスに関する次のビデオをご覧ください。
 - [ゲストとしてチームに参加する](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [ゲストとのチーム会議に参加する](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+- [ゲストと Teams 会議に参加する](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>チーム メンバーとゲスト機能の比較
 
-次の表は、組織のチーム メンバーが利用できる Teams の機能と、ゲストが利用できる Teams の機能を比較したものです。 Teams の管理者はゲストが利用できる機能を制御します。
+次の表は、組織のチーム メンバーが利用できる Teams の機能と、ゲストが利用できる Teams の機能を比較したものです。 Teams 管理者は、ゲストが利用できる機能を制御します。
 
-|**Teams の機能**|**組織の Teams ユーザー**|**ゲスト ユーザー**|
+| Teams の機能 | 組織の Teams ユーザー | ゲスト |
 |:-----|:-----|:-----|
 |チャネルの作成  <br/>  *この設定はチーム所有者によって制御されます。*  <br/> |&#x2713;|&#x2713;|
 |プライベート チャットに参加する  <br/> |&#x2713;|&#x2713;|
 |チャネルの会話に参加する  <br/> |&#x2713;|&#x2713;|
 |メッセージを投稿、削除、編集する  <br/> |&#x2713;|&#x2713;|
 |チャネル ファイルを共有する  <br/> |&#x2713;|&#x2713;|
-|Access SharePoint ファイル<br/> |&#x2713;|&#x2713;|
-|ファイルを添付する<br/> |&#x2713;|&#x2713;|
-|プライベートチャットファイルをダウンロードする<br/> |&#x2713;|&#x2713;|
+|SharePoint ファイルにアクセスする<br/> |&#x2713;|&#x2713;|
+|ファイルを添付する<br/> |&#x2713;|チーム チャットのみ|
+|プライベート チャット ファイルをダウンロードする<br/> |&#x2713;|&#x2713;|
 |ファイル内を検索する<br/> |&#x2713;||
 |チャット ファイルを共有する  <br/> |&#x2713;||
 |アプリ (タブ、ボット、コネクタ) を追加する  <br/> |&#x2713;||
@@ -100,7 +100,7 @@ Teams のゲストエクスペリエンスについては、次のビデオを�
 <sup>1</sup> この機能は近日中に利用できるようになります。
 
 > [!NOTE]
-> Azure Active Directory (Azure AD) での **ゲストユーザーのアクセス制限** ポリシーによって、ディレクトリ内のゲストへのアクセス許可が決定されます。 3 つのポリシー オプションがあります。
+> Azure  Active Directory (Azure AD) のゲスト ユーザー アクセス制限ポリシーは、ディレクトリ内のゲストのアクセス許可を決定します。 3 つのポリシー オプションがあります。
 >  - **ゲスト ユーザーは、メンバーと同じアクセス権が与えられています (最も包括的)** 設定とは、ディレクトリ内の通常のユーザーと同様にディレクトリ データへのアクセス権があることを意味します。
 >  - **ゲストユーザーが、ディレクトリ オブジェクトのプロパティとメンバーシップに制限付きアクセスがある** 設定は、ユーザー、グループ、または Microsoft Graph を使用して他のディレクトリリソースを列挙するなど、特定のディレクトリタスクのアクセス許可がゲストに与えられていないことを意味します。
 >  - **Guest ユーザーのアクセスは、自分のディレクトリ オブジェクトのプロパティとメンバーシップ に制限がある (最も制限の厳しい)** 設定は、ゲスト自身のディレクトリ オブジェクトにのみアクセスできます。
@@ -109,4 +109,4 @@ Teams のゲストエクスペリエンスについては、次のビデオを�
 
 ## <a name="related-topics"></a>関連項目
 
-[組織をゲストユーザーとして脱退する](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[組織をゲストとして退出する](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

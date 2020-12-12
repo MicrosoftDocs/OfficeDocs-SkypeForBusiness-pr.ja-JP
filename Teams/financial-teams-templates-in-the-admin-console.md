@@ -1,5 +1,5 @@
 ---
-title: 管理センターを使用して Teams の財務テンプレートを使ってみる
+title: 管理センターを使用して Teams の財務テンプレートの使用を開始する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 使い方については、こちらを参照してください。 管理センターを使用して、事前に定義された設定、チャネル、プリインストール済みのアプリを提供することで、財務上のニーズに合わせて設計されたチーム構造を作成する Teams テンプレート。
+description: 使い方について学習します。 管理センターを使用して定義済みの設定、チャネル、およびプレインストールされたアプリを提供することで、財務上のニーズに合って設計されたチーム構造を作成する Teams テンプレート。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,40 +19,40 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 34a462a38581eec8720bd2184749b842aaa6d06f
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424607"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662512"
 ---
 # <a name="use-teams-financial-templates-in-the-admin-center"></a>管理センターで Teams の財務テンプレートを使用する
 
-Teams テンプレートを使用すると、設定、チャネル、プリインストールされているアプリに定義済みのテンプレートを提供して、チームをすばやく簡単に作成できます。
+Teams テンプレートを使用すると、設定、チャネル、およびプレインストールされているアプリの定義済みのテンプレートを提供することで、チームをすばやく簡単に作成できます。
 
-Teams テンプレートには、財務ニーズに合わせて設計されたチーム構造の事前定義が含まれています。 また、チームテンプレートを拡張して、特定の組織のニーズに合わせてカスタマイズされたチームを作成することもできます。
+Teams テンプレートには、財務上のニーズを中心に設計されたチーム構造の定義があらかじめ組み込まれています。 また、Teams テンプレートを拡張して、組織の特定のニーズに合わせてカスタマイズされたチームを作成することもできます。
 
-この記事では、各チームテンプレートを紹介し、その使用方法をお勧めします。
+この記事では、Teams の各テンプレートを紹介し、その使い方をお勧めします。
 
-この記事は、お客様が財務組織全体の複数のチームの計画、展開、管理を担当している場合に適しています。 組織に Teams サービスを既に展開している。 まだチームをロールアウトしていない場合は、「 [Microsoft teams をロールアウトする方法](How-to-roll-out-teams.md)」を参照してください。
+この記事は、財務組織全体で複数のチームを計画、展開、管理する責任がある場合に役立ちます。 Teams サービスは既に組織に展開されています。 Teams をまだ展開していない場合は、まず、Microsoft Teams を展開する方法 [を参照してください](How-to-roll-out-teams.md)。
 
-チームテンプレート全般の詳細については、「 [チームテンプレートの概要](get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
+チーム テンプレート全般の詳細については、「Teams テンプレートの使用を開始する [」を参照してください](get-started-with-teams-templates-in-the-admin-console.md)。
 
-## <a name="global-crisis-or-event"></a>グローバルな危機またはイベント
+## <a name="global-crisis-or-event"></a>グローバルなクライシスまたはイベント
 
-ビジネスユニット全体での危機管理チームの共同作業を一元化して、ビジネス継続性プランの作成、リモートの作業ヒントの共有、顧客の通信の追跡、全員がお知らせとニュースの記録を行うことができます。
+ビジネス ユニット間でクライシス チームの共同作業を一元管理し、ビジネス継続性計画の作成、リモート作業のヒントの共有、顧客とのコミュニケーションの追跡、お知らせやニュースで全員が常に連絡を取り合うのに役立ちます。
 
-| ベーステンプレートの種類|baseTemplateId | この基本テンプレートに含まれるプロパティ |
+| 基本テンプレートの種類|baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------|-- |----------------------------------------------------- |
-| グローバルな危機またはイベントでの共同作業|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |チャネル <ul><li>一般<li>お知らせ</li><li>世界中のニュース</li><li>ビジネス継続性</li><li>リモート作業</li><li>内部通信</li><li>外部通信</li><li>顧客の苦情</li><li>称賛</li><li>エグゼクティブ更新プログラム</li></ul>アプリ <ul><li>称賛</li><li>ウィキ</li><li>当</li></ul>|
+| グローバルクライシスまたはイベントで共同作業する|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |チャネル: <ul><li>一般<li>お知らせ</li><li>世界のニュース</li><li>ビジネス継続性</li><li>リモート作業</li><li>内部通信</li><li>外部通信</li><li>承認要求</li><li>顧客からの苦情</li><li>クード</li><li>エグゼクティブ更新</li></ul>アプリ: <ul><li>称賛</li><li>Wiki</li><li>Web サイト</li><li>プランナー</li></ul>|
 ||||
 
-## <a name="collaborate-within-a-bank-branch"></a>銀行支店内での共同作業
+## <a name="collaborate-within-a-bank-branch"></a>銀行の支店内で共同作業を行う
 
-Huddles、顧客会議、住宅ローンコラボレーションなどのビジネスプロセスを通じて、銀行支店の共同作業を一元管理し、すべてのユーザーをお知らせや称賛で追跡できます。
+銀行支店の従業員の共同作業を、Huddles、顧客会議、住宅ローンのグループ作業などのビジネス プロセス間で一元管理し、お知らせやクドで全員が常に連絡を取り合います。
 
-| ベーステンプレートの種類 |baseTemplateId| この基本テンプレートに含まれるプロパティ |
+| 基本テンプレートの種類 |baseTemplateId| この基本テンプレートに含まれるプロパティ |
 | ------------------ |--|----------------------------------------------------- |
-|銀行支店内での共同作業|`com.microsoft.teams.template.CollaborateWithinABankBranch` |チャネル <ul><li>一般<li>お知らせ</li><li>Huddles</li><li>顧客の会議</li><li>コーチング</li><li>スキルの開発</li><li>ローン処理</li><li>顧客の苦情</li><li>称賛</li><li>楽しい機能</li><li>コンプライアンス</li></ul>|
+|銀行の支店内で共同作業を行う|`com.microsoft.teams.template.CollaborateWithinABankBranch` |チャネル: <ul><li>一般<li>お知らせ</li><li>ハドル</li><li>顧客会議</li><li>承認要求</li><li>コーチ</li><li>スキル開発</li><li>ローン処理</li><li>顧客からの苦情</li><li>クード</li><li>楽しい情報</li><li>コンプライアンス</li></ul>アプリ:<ul><li>称賛</li></ul>|
 ||||
 

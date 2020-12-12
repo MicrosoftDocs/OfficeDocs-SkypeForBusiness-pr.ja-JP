@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms のコンソールを構成する
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定および構成方法を説明します。
-ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: HT
+ms.openlocfilehash: 7a36ed93f370c0aeb302da246b223732383719fb
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905449"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662062"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams Rooms のコンソールを構成する
 

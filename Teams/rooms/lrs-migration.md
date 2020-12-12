@@ -1,7 +1,7 @@
 ---
 title: Lync Room システムデバイスを Microsoft Teams Rooms に移行する
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: このトピックでは、 Lync Room システムデバイスを移行して、Microsoft Teams Rooms のソフトウェアを使用する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1b8b71637ec944c4d68fafbdde4263971590c453
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: HT
+ms.openlocfilehash: d8da14f2d5f3ec75c6a9fb9c03a33d7e83cd1aed
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137593"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662622"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Microsoft Teams Rooms にLync Room System (LRS) デバイスを移行する
 
@@ -28,7 +28,7 @@ Skype Room System バージョン1 (SRS v1) ソフトウェアを搭載した Ly
 
 Microsoft Teams Rooms のソフトウェアは、Skype for Business Server、会議のためのオンラインサービス、Microsoft Teams Rooms にサポートされたデバイスと同じく、Microsoft Teamsと連携します。
 
-Skype 会議システムv1のソフトウェアサポートが終了しても、既存のデバイス が引き続き動作する**かもしれません**。 ただし、このソフトウェアにMicrosoft の修正プログラムのリリースが必要とされるソフトウェアバグが発見された場合は、サポートされません。 SRS v1 は、今後 Microsoft によって廃止される予定の TLS 1.0/1.1 を使用します。 [TLS 1.0/1.1 の廃止を準備する](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608) について参照してください。 
+Skype 会議システムv1のソフトウェアサポートが終了しても、既存のデバイス が引き続き動作する **かもしれません**。 ただし、このソフトウェアにMicrosoft の修正プログラムのリリースが必要とされるソフトウェアバグが発見された場合は、サポートされません。 SRS v1 は、今後 Microsoft によって廃止される予定の TLS 1.0/1.1 を使用します。 [TLS 1.0/1.1 の廃止を準備する](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608) について参照してください。 
 
 ## <a name="which-devices-are-affected"></a>どのデバイスが影響を受けますか?
 

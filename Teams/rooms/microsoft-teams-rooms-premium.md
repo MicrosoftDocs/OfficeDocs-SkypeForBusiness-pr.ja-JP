@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms の管理サービス
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: 73c23ec114044a1af212cf0ce7a7077531c566c0
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031403"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662662"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 

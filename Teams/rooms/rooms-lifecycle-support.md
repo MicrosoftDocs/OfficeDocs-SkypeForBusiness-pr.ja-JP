@@ -1,7 +1,7 @@
 ---
 title: バージョンのサポート
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 description: ダイナミック サポートの構造とそのフェーズを含めた Microsoft Teams Rooms のライフサイクル サポートの詳細について。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17e1dcd3c473b31754ac29d98db04747798d581f
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 584f4661a39d21f916b2097c242f71b996c568e6
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650920"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662452"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams Rooms アプリ バージョンのサポート
  
 Microsoft Teams Rooms アプリは年に数回更新されます。 各更新プログラムは、一般提供 (GA) のリリース日から 12 か月間サポートされます。 テクニカル サポートは 12 か月を通して提供されます。 ただし、サポート体制は動的であり、最新バージョンの提供可能性によって次の 2 つのフェーズがあります。
 
-- **サービス提供および重要な更新プログラム フェーズ** \- Microsoft Teams Rooms アプリの最新バージョンを実行すると、*セキュリティおよびサービス提供*更新プログラムを含む定期更新プログラムを受け取ります。
+- **サービス提供および重要な更新プログラム フェーズ** \- Microsoft Teams Rooms アプリの最新バージョンを実行すると、*セキュリティおよびサービス提供* 更新プログラムを含む定期更新プログラムを受け取ります。
 
-- **セキュリティ更新プログラムのみフェーズ** \- Microsoft Teams Rooms アプリの新しいバージョンがリリースされると、そのアプリの以前のバージョンのサポート レベルが、12 か月のライフサイクルの残りの*セキュリティ更新プログラムのみ*に削減されます。
+- **セキュリティ更新プログラムのみフェーズ** \- Microsoft Teams Rooms アプリの新しいバージョンがリリースされると、そのアプリの以前のバージョンのサポート レベルが、12 か月のライフサイクルの残りの *セキュリティ更新プログラムのみ* に削減されます。
 
 > [!NOTE]
 > 最新バージョンは、常に、サービス提供および重要な更新プログラム フェーズになります。 また、重要な更新プログラムが必要なコードの問題が発生した場合は、最新バージョンをインストールして修正プログラムを受け取る必要があります。 サポートされているその他のすべてのバージョンは、セキュリティ更新プログラムを受け取ることしかできません。
@@ -47,17 +47,17 @@ Microsoft Teams Rooms には、半期のチャネル サービス オプショ�
 Microsoft Teams Rooms デバイスでは、Windows 10 機能更新プログラムが即座には提供または更新されません。 [Windows 10 リリース情報](https://docs.microsoft.com/windows/release-information/)ページで公開される一般提供日から最大 6 か月間の意図的な遅延。 遅延時間は、Windows 10 リリースの互換性を検証するために、Microsoft Teams Rooms アプリケーション、デバイス ハードウェア、および認定オーディオ ビデオ周辺機器に使用されます。 Windows 10 のメジャー リリースの各開発期間に検証が開始され、継続されます。 すべてのデバイス メーカーが自分たちのデバイス用の最新イメージを構築したことを検証し、Microsoft Teams でそれらのイメージを認定してテストするための余分な時間が必要です。 検証期間中に、Microsoft Teams Room アプリが、[Windows Update for Business グループ ポリシー](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)を使用して、Windows 10 の機能更新プログラムを遅延させます。 互換性の問題が発見され、解決されると、Microsoft Store での新しいアプリ リリースを通して、グループ ポリシーを更新することにより、ブロックが解除されます。 Microsoft Teams Rooms アプリを実行するデバイスは、夜間のメンテナンス再起動中に、適切な Windows 10 リリースに自動的に更新されます。 手動で更新プログラムを管理する必要があるお客様は、MSI バージョンを使用できます。  
 
 > [!IMPORTANT]
-> 検証期間中は、Microsoft Teams Rooms デバイスが、何らかの方法で、次の Windows 10 のリリースに更新**されない**ようにする必要があります。 これには、グループ ポリシーの施行の無効化または System Center やその他のサードパーティ製デバイス管理サービスの使用が含まれます。 これらのいずれかが原因で Microsoft Teams Room アプリケーションの問題が発生したり、デバイスが使用できなくなったりすることがあります。  
+> 検証期間中は、Microsoft Teams Rooms デバイスが、何らかの方法で、次の Windows 10 のリリースに更新 **されない** ようにする必要があります。 これには、グループ ポリシーの施行の無効化または System Center やその他のサードパーティ製デバイス管理サービスの使用が含まれます。 これらのいずれかが原因で Microsoft Teams Room アプリケーションの問題が発生したり、デバイスが使用できなくなったりすることがあります。  
 
 次の表は、Microsoft Teams Roomsのサポートが確認されている Windows 10 の推奨バージョンとサポート対象バージョンを示しています。 すべての日付は、ISO 8601 形式 (YYYY-MM-DD) で表示されます。
 
 |バージョン  |提供日   |Microsoft Teams Rooms のサポート状況   |Microsoft Teams Rooms の最小アプリケーション バージョン | 推奨 OS ビルド  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 20H2 |2020-10-20 |検証の下で、 <br/>まだサポートされていない|&#x2014; |19042.572 |
+| 20H2 |2020-10-20 |検証の下で、 <br/>まだサポートされていません|&#x2014; |19042.572 |
 | 2004 |2020-05-27 |スキップ、 <br/> 非推奨|&#x2014; |19041.264 |
 | 1909 |2019-11-12 |サポート済み、 <br/>推奨 |4.5.33.0 |18363.418  |
 | 1903 |2019-05-21 |サポート済み  |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |サポートされていません。 <br/>既知の互換性の問題 &#x2780;|&#x2014; |&#x2014; |
+| 1809 |2019-03-28 |[サポートされていません] <br/>既知の互換性の問題&#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |非サポート                             |&#x2014;  |&#x2014; |
 | 1709 |2018-01-18 |非サポート                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |非サポート                         |&#x2014; |&#x2014; |

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms ライセンス
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Rooms の通話と会議機能の種類に応じて使用できるライセンスについて説明します。
-ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
-ms.translationtype: HT
+ms.openlocfilehash: 37f47e9b89abd87837b02f8a67c3c82eaa9c7a5c
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416847"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662482"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams ミーティング ルームのライセンスの更新
 

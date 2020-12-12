@@ -1,7 +1,7 @@
 ---
 title: 既知の問題
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、更新プログラム、ユーザー インターフェイス、ハードウェア、制限事項や想定される動作を含む、Microsoft Teams Rooms の既知の問題のリストについて知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 6c32e35f0ea95d81fcb597c18a12a8f48fe4c7b2
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177367"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662632"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -34,7 +34,7 @@ ms.locfileid: "48177367"
 | アプリケーションが起動しない |  アプリケーション バージョン 4.4.41.0 に更新すると、システムが黒い画面を表示するか、数分後にログオン画面に移動します。 | この問題を修正するには、[バージョン 4.4.41.0 に更新後に Microsoft Teams Rooms が起動しない](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) の手順に従います。  | なし |
 |  SfB 会議コンテンツ共有が全画面表示されない         |    Skype for Business の会議で、高解像度の設定を使用して正面表示にした会議室では、コンテンツが会議に共有されている場合にウィンドウの正面に全画面が表示されない問題が発生することがあります。 これは、Windows 10 Remote Desktop Protocol (RDP) API の根底にある問題が原因で発生します。 | この問題を解決するには、`<WinRTRdpEnabled>` XML 設定を使用して、Windows 10 RDP API を無効にします。 無効にするには、値を `false` として指定する必要があります。 詳細については、「[XML 構成ファイルを使用してコンソールの設定を管理する](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)」を参照してください。 | なし |
 |  旧版のアプリ         |    Microsoft Teams Rooms のコンソールには、「システム構成が古くなっています」というエラーが表示されます。                |   [Microsoft Teams Rooms の回復ツールを使用する](recovery-tool.md)             |  なし |
-|  デバイスを Windows 10 でサポートされていないバージョンに更新した   |    Windows 10 デバイスはバージョン 1803 からバージョン 1809 に更新されましたが、これはサポートされていないバージョンです。 サポートされているバージョンは 1903 です。 |   これは、[DeferFeatureUpdatesPeriodinDays 向けグループ ポリシーまたは MDM 設定](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)で、機能の更新を指定した日数 (最大 365 日) 保留にした場合に発生することがあります。 <br><br> Windows 10 バージョン 1903 は Microsoft Teams Rooms でサポートされていますが、バージョン 1809 はサポートされていません。 ただし、2020 年 3 月 27 日時点で、バージョン 1809 はリリースから 365 日以上経過しています。 この設定が変更されていない場合は、Windows は バージョン 1809 のインストールを試行します。これにより、Microsoft Teams Rooms で問題が発生する可能性があります。<br><br>このような状況を回避するには、更新を保留しているグループ ポリシーまたは MDM 設定のいずれかを**削除**します。 これにより、Windows はサポートされている最新の OS バージョンに更新されます。 <br><br>**重要**グループ ポリシーまたは MDM 設定は、**削除済み** (構成しないままにする) および **0 に設定しない**必要があります。 ポリシーが 0 に設定された場合、Windows はサポートされていない可能性がある使用可能な最新バージョンを選択します。 |  なし |
+|  デバイスを Windows 10 でサポートされていないバージョンに更新した   |    Windows 10 デバイスはバージョン 1803 からバージョン 1809 に更新されましたが、これはサポートされていないバージョンです。 サポートされているバージョンは 1903 です。 |   これは、[DeferFeatureUpdatesPeriodinDays 向けグループ ポリシーまたは MDM 設定](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)で、機能の更新を指定した日数 (最大 365 日) 保留にした場合に発生することがあります。 <br><br> Windows 10 バージョン 1903 は Microsoft Teams Rooms でサポートされていますが、バージョン 1809 はサポートされていません。 ただし、2020 年 3 月 27 日時点で、バージョン 1809 はリリースから 365 日以上経過しています。 この設定が変更されていない場合は、Windows は バージョン 1809 のインストールを試行します。これにより、Microsoft Teams Rooms で問題が発生する可能性があります。<br><br>このような状況を回避するには、更新を保留しているグループ ポリシーまたは MDM 設定のいずれかを **削除** します。 これにより、Windows はサポートされている最新の OS バージョンに更新されます。 <br><br>**重要** グループ ポリシーまたは MDM 設定は、**削除済み** (構成しないままにする) および **0 に設定しない** 必要があります。 ポリシーが 0 に設定された場合、Windows はサポートされていない可能性がある使用可能な最新バージョンを選択します。 |  なし |
 
 
 <a name="OS-conflicts"> </a>  
@@ -54,25 +54,23 @@ ms.locfileid: "48177367"
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>制限事項と予想される動作
 
-***
+**_
 
 Microsoft Teams Rooms は、HDMI インジェストの機能 (ビデオ、オーディオ) に関する問題を引き起こすことが確認されている、HDCP 入力をサポートしていません。 Microsoft Teams Rooms に接続されたスイッチの HDCP オプションがオフになっていることを必ず確認してください。 
 
-***
+_*_
 
-ルームの前方ディスプレイを、ソースがスタンバイ モードから復帰したときにアクティブなビデオ ソース (MTR コンソールなど) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアで機能がサポートされている場合は、Microsoft Teams Rooms  ソフトウェアによってサポートされます。 ルームの前方ディスプレイとして使用される一般向けテレビは、HDMI の CEC (Consumer Electronics Control) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があるため、製造元のサポート ドキュメントを参照してください) に応じて、適切な動作を実現するには、Crestron 社の [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) や Extron 社の [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) などのコントローラーが必要になる場合があります。 
+ルームの前方ディスプレイを、ソースがスタンバイ モードから復帰したときにアクティブなビデオ ソース (MTR コンソールなど) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアで機能がサポートされている場合は、Microsoft Teams Rooms ソフトウェアによってサポートされます。 ルームの前方ディスプレイとして使用される一般向けテレビは、HDMI の CEC (Consumer Electronics Control) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があるため、製造元のサポート ドキュメントを参照してください) に応じて、適切な動作を実現するには、Crestron 社の [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) や Extron 社の [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) などのコントローラーが必要になる場合があります。 
 
-***
+_*_
 
 常に有線の 1-Gbps ネットワーク接続を使用して、必要な帯域幅を確保してください。 
 
-***
+_*_
 
 Microsoft Teams Rooms デバイスとドメインとの信頼が途絶えている場合は、デバイスに認証して [設定] を開くことはできません。 たとえば、ドメインに参加した後に、そのドメインから Microsoft Teams Rooms を削除した場合、信頼関係が失われます。 回避策では、ローカルの管理者アカウントでログインします。 
-***
-Microsoft Teams Rooms は、マルチウィンドウ アプリケーションであり、アプリが正常に機能するために、ルームの前方ディスプレイをデバイスの HDMI ポートに接続する必要があります。 テスト中で、まだディスプレイを購入していない場合は、HDMI ディスプレイを接続するか、ダミーの HDMI プラグを使用するかのいずれかを必ず実行してください。
-***
-<a name="See"> </a>  
+_*_ Microsoft Teams Rooms は、マルチウィンドウ アプリケーションであり、アプリが正しく機能するためには、デバイスの HDMI ポートにルーム ディスプレイの前面を接続する必要があります。 テスト中で、まだディスプレイを購入していない場合は、HDMI ディスプレイを接続するか、ダミーの HDMI プラグを使用するかのいずれかを必ず実行してください。
+_** <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目
 
 [Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

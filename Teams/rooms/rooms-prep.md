@@ -1,7 +1,7 @@
 ---
 title: 環境を準備する
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
-ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
-ms.translationtype: HT
+ms.openlocfilehash: d0c5d5a1b0333a30b7730d6c8b91d06e67e291b4
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46529180"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662432"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -46,7 +46,7 @@ ms.locfileid: "46529180"
     
 ### <a name="create-and-test-a-device-account"></a>デバイス アカウントを作成してテストする
 
-*デバイス アカウント*は、Microsoft Teams Rooms クライアントが、予定表などの Exchange の機能にアクセスし、Skype for Business を有効にするために使用するアカウントです。 詳細については、「[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)」を参照してください。
+*デバイス アカウント* は、Microsoft Teams Rooms クライアントが、予定表などの Exchange の機能にアクセスし、Skype for Business を有効にするために使用するアカウントです。 詳細については、「[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)」を参照してください。
   
 ### <a name="check-network-availability"></a>ネットワークの可用性を確認する
 
@@ -82,7 +82,7 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
 4. HKEY_USERS フォルダーをクリックして (コンピューター ユーザーの SID の一覧が表示されます)、ルート フォルダー HKEY_USERS が選択されていることを確認してください。
        
 5. [ファイル] をクリックし、**[ハイブの読み込み]** を選択します。
-6. **C:\Users\Skype**フォルダーを参照して、[ファイル名] ボックスに「NTUSER.dat」と入力し、[開く] ボタンを押します。
+6. **C:\Users\Skype** フォルダーを参照して、[ファイル名] ボックスに「NTUSER.dat」と入力し、[開く] ボタンを押します。
 
 7. 新たに読み込まれたハイブのキー名が求められます。「Skype」と入力します (Skype ユーザーのレジストリ設定が表示されます)。
  

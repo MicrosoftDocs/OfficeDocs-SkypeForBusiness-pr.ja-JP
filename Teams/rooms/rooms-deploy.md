@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms を展開する
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 展開フェーズを含む、Microsoft Teams Rooms の展開方法の詳細については、この記事を参照してください。
-ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
-ms.translationtype: HT
+ms.openlocfilehash: 53c4c94717f10dadbad802cff3f233a3a771d166
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085963"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662252"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -66,7 +66,7 @@ Microsoft Teams Rooms の展開で有効にすることにしたコラボレー�
 | **シナリオ** | **説明** | **Microsoft Teams Rooms のサービス アカウント機能** |
 |---------- |------------- | --- |
 | 対話型の会議            | 音声、ビデオ、画面共有を使用。Microsoft Teams Rooms を予約可能なリソースにする                     | Skype for Business の有効化、Exchange の有効化 (リソース メールボックス) |
-| ダイヤルイン会議            | ダイヤルイン会議の調整を使用して、Microsoft Teams Rooms のコンソールから会議を*直接*開始できるようにする | 電話会議の有効化                                          |
+| ダイヤルイン会議            | ダイヤルイン会議の調整を使用して、Microsoft Teams Rooms のコンソールから会議を *直接* 開始できるようにする | 電話会議の有効化                                          |
 | 発信/着信 PSTN 通話 | Microsoft Teams Rooms のコンソールで PSTN 通話を受信できるようにする                                         | 電話システムの有効化                                                |
 
 Microsoft Teams Rooms のアカウントの詳細については、「[Microsoft Teams Rooms のアカウントを構成する](rooms-configure-accounts.md)」を参照してください。
@@ -101,7 +101,7 @@ Microsoft Teams Rooms のコンピューター アカウントが含まれてい
 -   Windows Update を有効にします。
 -   PowerShell のリモート処理を有効にします。 次の簡単なスクリプトを実行するように、スタートアップ スクリプトを構成することができます。 Enable-PSRemoting -Force
 
-PowerShell を使用して、構成情報の取得や設定を含む、多くのリモート管理操作を実行できます。 Powershell のリモート処理は、PowerShell リモート管理を実施する*前に*有効にしておく必要があり、展開プロセスの一部として見なすか、グループポリシーを使用して構成する必要があります。 これらの機能と有効化の詳細については、「[保守と運用](rooms-operations.md#remote-management-using-powershell)」を参照してください。 
+PowerShell を使用して、構成情報の取得や設定を含む、多くのリモート管理操作を実行できます。 Powershell のリモート処理は、PowerShell リモート管理を実施する *前に* 有効にしておく必要があり、展開プロセスの一部として見なすか、グループポリシーを使用して構成する必要があります。 これらの機能と有効化の詳細については、「[保守と運用](rooms-operations.md#remote-management-using-powershell)」を参照してください。 
 
 
 ## <a name="configuration-and-deployment"></a>構成と展開 

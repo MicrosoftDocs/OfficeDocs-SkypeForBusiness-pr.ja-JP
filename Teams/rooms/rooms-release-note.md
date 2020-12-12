@@ -1,7 +1,7 @@
 ---
 title: リリース ノート
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c8f81988525431615f83576f30b6ad809f08806
-ms.sourcegitcommit: 619b68d28b4fbf8b5296d95bbc7ed566f839f1db
+ms.openlocfilehash: e1f64bc6ddb34f2dc8b926e51db6b417fd2547df
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "48625123"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662402"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -29,6 +29,7 @@ ms.locfileid: "48625123"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
 |4.5.37.0 |2020/8/14 |
@@ -69,27 +70,37 @@ ms.locfileid: "48625123"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="47150-12112020"></a>4.7.15.0 (12/11/2020)
+
+この更新プログラムで導入されるもの:
+
+- Teams 会議で会議の参加者に HDMI オーディオを共有する
+- Teams Room が出席者として参加するときに、音声アクセス許可に基づいてミュートを解除することはできません。 詳細については、「Teams 会議で出席者 [の音声アクセス許可を管理する」を参照してください](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
+- Teams Room コンソールから他のユーザーのビデオにスポットライトを当て、スポットライトを当てたビデオをルーム ディスプレイで使う
+
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
 この更新プログラムで導入されるもの:
-- Teams 会議でスクリーンキーボードを起動したときに表示される白い半画面の修正
+
+- Teams 会議でスクリーン キーボードを呼び出す場合の白色の半画面を修正しました
 
 ### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
 
 この更新プログラムで導入されるもの:
-- 3 ~ 3 のビデオギャラリーで、ルームの前面に表示されるその他のビデオ  
-- MTR からローカルのライブクローズドキャプションを開始する 
-- 直接ゲスト参加を使用してチームルームからズーム会議に参加する (プレビュー)
+
+- ルーム ディスプレイの前に 3x3 ビデオ ギャラリーを表示してその他のビデオを表示する  
+- ローカルライブクローズドキャプションをローカルに開始する
+- 直接ゲスト参加を使用して Teams 会議室からズーム会議に参加する (プレビュー)
 
 > [!NOTE]
-> 3 x 3 のビデオギャラリーとローカルライブクローズドキャプションは、Microsoft Teams サービスを通じて提供されます。 これらの機能は、アプリケーションバージョン4.5.37.0 以降のすべての Teams ルームで利用できます。 
-
+> 3x3 ビデオ ギャラリーとローカルライブクローズド キャプションは、Microsoft Teams サービスを通じて配信されます。 これらの機能は、アプリケーション バージョン 4.5.37.0 以上のすべての Teams Rooms デバイスで使用できます。
 
 ### <a name="45370-08142020"></a>4.5.37.0 (2020/8/14)
 
 この更新プログラムで導入されるもの:
-- Microsoft Teams と Surface Hub 2S 間の調整された会議 
-- [Windows 10 更新プログラム KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) または [Windows 10 更新プログラム KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709) がインストールされている場合の Skype for Business サインイン エラーの修正
+
+- Microsoft Teams と Surface Hub 2S 間の調整された会議
+- [Windows 10 更新プログラム KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) または [Windows 10 更新プログラム KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) がインストールされている場合の Skype for Business サインイン エラーの修正
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -136,7 +147,7 @@ ms.locfileid: "48625123"
 
 この更新プログラムで導入されるもの:
 
-- "Windows Updates for Business" に関するポリシーの更新 
+- "Windows Updates for Business" に関するポリシーの更新
 - Azure Monitor でエラーを表示するデバイス イベント レポートの修正
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
@@ -194,15 +205,14 @@ ms.locfileid: "48625123"
 
 この更新プログラムで導入されるもの:
 
-- "フィードバックの送信" 機能に伴う問題の修正 
+- "フィードバックの送信" 機能に伴う問題の修正
 - 予定されている Microsoft Teams Rooms デバイスの Windows 10 バージョン 1809 へのアップグレードの準備の最適化
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
 この更新プログラムで導入されるもの:
 
-- レガシ Windows 10 RS2 ビルド上のデバイスに影響を与える "アプリ起動時のハング" の修正。 
-
+- レガシ Windows 10 RS2 ビルド上のデバイスに影響を与える "アプリ起動時のハング" の修正。
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 
@@ -213,7 +223,6 @@ ms.locfileid: "48625123"
 - フロント オブ ルーム通知が追加されたことによるロビー通知の改善
 - Bluetooth ビーコンが Microsoft Teams Rooms デバイス上で有効になっていない場合のフロント オブ ルーム ディスプレイ キャスト アイコンの削除
 - Teams 会議でのボリューム コントロールの問題の修正
-
 
 ### <a name="40640-12142018"></a>4.0.64.0 (12/14/2018)
 
@@ -227,7 +236,7 @@ ms.locfileid: "48625123"
 
 この更新プログラムで導入されるもの:
 
-- Teams 会議用のデュアル ディスプレイ (フロント オブ ルーム) のサポート 
+- Teams 会議用のデュアル ディスプレイ (フロント オブ ルーム) のサポート
 
 ### <a name="40310-10162018"></a>4.0.31.0 (10/16/2018)
 
@@ -262,6 +271,7 @@ ms.locfileid: "48625123"
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
 
 この更新プログラムで導入されるもの:
+
 - この更新プログラムは、ミーティング システム デバイス上での Skype for Business *と* Teams 会議の両方のサポートを有効にします。 更新プログラムが適用されると、既定で Teams はオフになります。 管理者は、デバイスの設定でローカルに、または、リモート xml プッシュを介して、Teams を有効にすることができます。
 
 ### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018)
@@ -293,7 +303,7 @@ ms.locfileid: "48625123"
 
 ### <a name="311000-03162018"></a>3.1.100.0 (03/16/2018)
 
-この更新プログラムで導入されるもの: 
+この更新プログラムで導入されるもの:
 
 - テレメトリを改善するように更新されたアプリケーション
 
@@ -311,11 +321,7 @@ ms.locfileid: "48625123"
 - 安定性を改善するためのバグ/クラッシュの修正
 - 可変サイズのコンソールのサポート
 - 周辺機器のオーディオ処理の負荷軽減 (追加のメディア ホワイトリスト登録)
-- IT プロフェッショナルが Windows 10 バージョン 1709 の 1 月の更新プログラム以降を使用して DIY イメージを作成できるようにする最適化。 
-
-<!--### 3.1.97.0 (00/00/0000)
-Introduced in this update: 
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
+- IT プロフェッショナルが Windows 10 バージョン 1709 の 1 月の更新プログラム以降を使用して DIY イメージを作成できるようにする最適化。
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
@@ -335,7 +341,7 @@ Introduced in this update:
 
 この更新プログラムで導入されるもの:
 
-- Surface Pro (2017) タブレット上の実行 
+- Surface Pro (2017) タブレット上の実行
 - Windows 10 Enterprise Creator の更新プログラム (英語版、ビルド 1703) のサポート
 - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) ドック ハードウェアのサポート
 - 環境コントロール (Crestron) の OEM サポート
@@ -358,7 +364,6 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 - 会議参加の信頼性に関する改善されたテレメトリ
 - OMS レポート機能の強化
 - IT 管理者がデバイスをリモートで構成するための機能
- <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 
@@ -380,7 +385,7 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 - ルーム内のスタンドアロン会議電話を置き換える Skype for Business PSTN 会議と PSTN 通話をサポート
 
  **どの会議室でも変換**
- 
+
 - 中央のテーブル タッチ コントローラーと正面にある大型室内ディスプレイ向けに最適化された専用の Skype 会議アプリ
 - フロント オブ ルーム ディスプレイやプロジェクターで既存の投資を再利用
 - ちょっとした打ち合わせから、大規模な会議室まで、すべてのタイプのミーティング スペースに対応
@@ -388,7 +393,7 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 - ルームおよび Skype 会議でデスクトップ共有を投影する組み込みの有線取り込み
 
  **展開が簡単に、管理が単純に**
- 
+
 - 室内で人を検出すると自動的にディスプレイをオンにする Always-on アプライアンス
 - UWP (ユニバーサル Windows プラットフォーム) Skype 会議アプリの展開と更新が簡単
 - Windows AppLocker で Skype 会議アプリへのデバイスをロック ダウン
@@ -397,7 +402,7 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 - 慣れ親しんだ Skype ユーザー インターフェイスのためにトレーニングの労力が少ない
 - Surface Pro 4 タブレット上で動作
 
-<a name="See"> </a> 
+<a name="See"> </a>
 ## <a name="see-also"></a>関連項目
 
 [Microsoft Teams Rooms ヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

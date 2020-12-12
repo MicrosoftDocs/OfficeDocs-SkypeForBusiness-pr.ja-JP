@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms のメンテナンスと運用
-ms.author: v-lanac
-author: lanachin
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: このトピックでは、Skype Room Systems の後継である Microsoft Teams Roomsの管理について説明します。
-ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
-ms.translationtype: HT
+ms.openlocfilehash: a6ab68200002035632314ac976cd45a2ee4ff714
+ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552295"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "49662462"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用 
  
@@ -53,7 +53,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 Microsoft Teams Roomsが正常に動作していない場合は、出荷時の設定にリセットしてみてください。 これを行うには、[Microsoft Teams Room 回復ツール](recovery-tool.md)を使用して、工場出荷時復元の手順に従います。
 
 > [!NOTE]
-> Windows を初期状態に戻すプロセス中に、**[個人用ファイルを保持する - アプリと設定を削除しますが、個人用ファイルは保持します]** オプションが選択されている場合、Microsoft Teams Roomsが使用できなくなる可能性があるという既知の問題があります。 このオプションは使用*しない*でください。
+> Windows を初期状態に戻すプロセス中に、**[個人用ファイルを保持する - アプリと設定を削除しますが、個人用ファイルは保持します]** オプションが選択されている場合、Microsoft Teams Roomsが使用できなくなる可能性があるという既知の問題があります。 このオプションは使用 *しない* でください。
   
 ## <a name="supported-remote-options"></a>サポートされているリモート オプション
 <a name="RemoteOptions"> </a>
