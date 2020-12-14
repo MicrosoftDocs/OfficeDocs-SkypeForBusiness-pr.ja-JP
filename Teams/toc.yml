@@ -1,6 +1,6 @@
 - name: Teams へようこそ
   href: teams-overview.md
-- name: アーキテクチャ & テレフォニーソリューションのポスター
+- name: アーキテクチャとテレフォニー ソリューションのポスター
   href: teams-architecture-solutions-posters.md
 - name: リモート ワーカーのサポート (WFH)
   href: support-remote-work-with-teams.md
@@ -8,7 +8,7 @@
   items:
     - name: 概要
       href: training-microsoft-teams-landing-page.md
-    - name: Teams 用の管理者トレーニング
+    - name: Teams の管理者トレーニング
       href: itadmin-readiness.md
     - name: Ignite 2020 の Teams セッション
       href: ignite-2020-landing-page.md
@@ -18,7 +18,7 @@
       href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
 - name: Teams のロールアウト方法
   href: How-to-roll-out-teams.md
-- name: 作業の開始
+- name: 概要
   items:
     - name: 概要
       href: get-started-with-teams-quick-start.md
@@ -40,7 +40,7 @@
       href: teams-channels-overview.md
     - name: プライベート チャンネルの概要
       href: private-channels.md
-    - name: プライベート チャンネルのライフ サイクルの概要
+    - name: プライベート チャネルのライフ サイクルを管理する
       href: private-channels-life-cycle-management.md
     - name: Teams でチーム所有者とメンバーを割り当てる
       href: assign-roles-permissions.md
@@ -80,7 +80,7 @@
       href: migrate-slack-to-teams.md
     - name: Teams テンプレートを使う
       items:
-        - name: 管理センターで Teams テンプレートを使用する
+        - name: 管理コンソールで Teams テンプレートを使用する
           href: get-started-with-teams-templates-in-the-admin-console.md
         - name: Graph に内蔵された中小企業向け Teams テンプレート
           href: smb-templates.md
@@ -124,7 +124,7 @@
               href: add-guests.md
             - name: チームのゲスト ユーザーを表示する
               href: view-guests.md
-            - name: ゲスト ユーザー情報を編集する
+            - name: ゲスト ユーザー情報の編集
               href: edit-guests-information.md
             - name: ゲスト アクセスのトラブルシューティング
               href: troubleshoot-guest-access.md
@@ -134,7 +134,7 @@
       items:
         - name: 管理者の役割
           href: using-admin-roles.md
-        - name: 組織のMicrosoft Teams の設定を管理します
+        - name: 組織の Microsoft Teams の設定を管理する
           href: enable-features-office-365.md
         - name: 新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
           href: manage-teams-skypeforbusiness-admin-center.md
@@ -210,7 +210,7 @@
           href: manage-power-platform-apps.md
         - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
           href: upload-custom-apps.md
-        - name: カスタムアプリストア
+        - name: カスタム アプリ ストア
           href: customize-your-app-store.md
     - name: アプリ証明書
       href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
@@ -244,7 +244,7 @@
           href: rooms/index.md
         - name: 計画
           items:
-            - name: Microsoft Teams Rooms 計画の概要
+            - name: Microsoft Teams Rooms の計画の概要
               href: rooms/rooms-plan.md
             - name: バージョンのサポート
               href: rooms/rooms-lifecycle-support.md
@@ -262,7 +262,7 @@
               items:
                 - name: Microsoft Teams Rooms の管理サービスを使用して管理を計画する
                   href: rooms/microsoft-teams-rooms-premium.md
-                - name: Microsoft Teams Rooms の管理サービスを使用したロールベースのアクセス制御
+                - name: Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御
                   href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: 展開
           items:
@@ -286,7 +286,7 @@
               href: rooms/with-exchange-on-premises.md
             - name: コンソールを構成する
               href: rooms/console.md
-            - name: Configure authentication
+            - name: 認証を構成する
               href: rooms/rooms-authentication.md
             - name: サードパーティ製の会議に参加する
               href: rooms/third-party-join.md
@@ -302,7 +302,7 @@
           items:
             - name: 管理の概要
               href: rooms/rooms-manage.md
-            - name: メンテナンスと運用
+            - name: メンテナンスと操作
               href: rooms/rooms-operations.md
             - name: 組織で Teams をサポートする
               href: rooms/known-issues.md
@@ -312,7 +312,7 @@
               href: rooms/xml-config-file.md
             - name: 回復ツールの使用
               href: rooms/recovery-tool.md
-    - name: 'チュートリアル: Teams での会議'
+    - name: 'チュートリアル: Teams でのミーティング'
       href: Tutorial-Meetings-in-Teams.yml
     - name: 会議ポリシーを管理する
       href: meeting-policies-in-teams.md
@@ -328,13 +328,13 @@
       href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
     - name: Teams で NDI® テクノロジを使用する
       href: use-NDI-in-meetings.md
-    - name: Teams の会議での挙手オプション
+    - name: Teams 会議での挙手オプション
       href: raise-hand-meetings.md
     - name: サポートされていないブラウザーでの Teams 会議
       href: unsupported-browsers.md
     - name: Teams でのデスクトップ共有を構成する
       href: configure-desktop-sharing.md
-    - name: Teams のクラウド会議の記録
+    - name: Teams のクラウド会議のレコーディング
       href: cloud-recording.md
     - name: OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
       href: tmr-meeting-recording-change.md
@@ -436,7 +436,7 @@
               href: audio-conferencing-supported-languages.md
             - name: 電話会議の電話番号
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 電話会議の国および地域の領域
+            - name: 国および地域ごとの電話会議の利用可能性
               href: audio-conferencing-zones.md
             - name: 'ビデオ: Teams での電話会議'
               href: audio-conferencing-videos.md
@@ -498,7 +498,7 @@
               href: manage-resource-accounts.md
             - name: 休日を設定する
               href: set-up-holidays-in-teams.md
-            - name: 自動応答および呼び出しキューの通話に Teams から直接応答する
+            - name: 自動応答および通話キューの通話に Teams から直接応答する
               href: answer-auto-attendant-and-call-queue-calls.md
             - name: レポート
               href: aa-cq-cqd-historical-reports.md
@@ -604,11 +604,11 @@
                   href: direct-routing-protocols-media.md
             - name: 音声ルーティング ポリシーを管理する
               href: manage-voice-routing-policies.md
-            - name: ダイレクトルーティング存続可能ブランチアプライアンス
+            - name: 存続可能ダイレクト ルーティングの接続
               href: direct-routing-survivable-branch-appliance.md
     - name: 電話番号
       items:
-        - name: 組織の電話番号を管理する
+        - name: 組織のために電話番号を管理する
           href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
         - name: 通話プランで使用される電話番号の種類
           href: different-kinds-of-phone-numbers-used-for-calling-plans.md
@@ -740,7 +740,7 @@
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
             - name: ベリーズ
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: ボスニア & ヘルツェゴヴィナ
+            - name: ボスニア・ヘルツェゴビナ
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
             - name: ブラジル
               href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
@@ -866,7 +866,7 @@
               href: set-up-communications-credits-for-your-organization.md
             - name: 資金を追加してコミュニケーション クレジットを管理する
               href: add-funds-and-manage-communications-credits.md
-        - name: Microsoft Teams 通話のフロー
+        - name: Microsoft Teams の通話フロー
           href: microsoft-teams-online-call-flows.md
         - name: 'チュートリアル: Teams での通話'
           href: Tutorial-calling-in-teams.yml
@@ -877,11 +877,11 @@
   items:
     - name: 概要
       href: adopt-microsoft-teams-landing-page.md
-    - name: 作業の開始
+    - name: 概要
       href: teams-adoption-get-started.md
     - name: 'フェーズ 1: 開始'
       items:
-        - name: Start
+        - name: 開始
           href: teams-adoption-phase1.md
         - name: チームとチャネルについて理解する
           href: teams-adoption-understand-teams-and-channels.md
@@ -905,7 +905,7 @@
           href: teams-adoption-onboard-support.md
     - name: 'フェーズ 3: スケール'
       items:
-        - name: 倍率
+        - name: '[倍率]'
           href: teams-adoption-phase3-enable.md
         - name: 結果と成功を定義する
           href: teams-adoption-define-outcomes.md
@@ -917,7 +917,7 @@
           href: teams-adoption-schedule-service-health-reviews.md
 - name: Teams へのアップグレード
   items:
-    - name: 作業の開始
+    - name: 開始する
       href: upgrade-start-here.md
     - name: アップグレードのフレームワークについて
       href: upgrade-framework.md
@@ -971,7 +971,7 @@
       href: continue-journey.md
     - name: Skype for Business Online のサポート終了
       href: skype-for-business-online-retirement.md
-    - name: FAQ
+    - name: よくあるご質問 (FAQ)
       href: FAQ-journey.md
     - name: テクニカル ライブラリ
       items:
@@ -997,7 +997,7 @@
               href: teams-client-experience-and-conformance-to-coexistence-modes.md
         - name: 共存およびアップグレードの設定
           href: setting-your-coexistence-and-upgrade-settings.md
-        - name: 会議優先
+        - name: Meetings First
           href: meetings-first.md
 - name: ハイブリッド接続
   items:
@@ -1069,11 +1069,11 @@
           href: business-voice/policy-packages.md
         - name: 追加のユーザーを作成する
           href: business-voice/create-users.md
-        - name: 例-通話キューの設定
+        - name: 小規模ビジネスの例 - 呼び出しキューをセットアップする
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: 通話キューを設定する
           href: business-voice/set-up-call-queues.md
-        - name: 例-自動応答の設定
+        - name: '小規模ビジネスの例: 自動応答をセットアップする'
           href: tutorial-org-aa.yml
         - name: 自動応答をセットアップする
           href: business-voice/set-up-auto-attendants.md
@@ -1097,22 +1097,22 @@
       items:
         - name: Teams のテンプレートの使用を開始する
           href: get-started-with-teams-templates.md
-        - name: Shifts for Teams
+        - name: Teams の Shifts
           href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
           items:
             - name: Teams で組織の Shifts アプリを管理する
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 医療関係向けの Teams
       items:
-        - name: 医療機関向けの Teams の概要
+        - name: 医療関係組織のための Teams の使用を開始する
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: 仮想アクセス
           items:
-            - name: Teams での仮想アクセス-EHR への統合
+            - name: Teamsでの仮想アクセス - EHR への統合
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 予約と Teams を使用した仮想アクセス
+            - name: 予約と Teams による仮想訪問
               href: bookings-app-admin.md
-        - name: ポリシーパッケージの表示と割り当て
+        - name: ポリシー パッケージの表示と割り当て
           href: policy-packages-healthcare.md
         - name: セキュリティで保護されたメッセージング
           items:
@@ -1122,24 +1122,24 @@
               href: expand-teams-across-your-org/healthcare/hc-delegates.md
         - name: Teams テンプレート
           items:
-            - name: Teams の医療テンプレートを使用する
+            - name: 医療機関向けの Teams テンプレートを使用する
               href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 医療用 Teams テンプレート
+            - name: 医療機関向けの Teams のテンプレート
               href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: リストアプリを管理する
+        - name: Teams で組織のリスト アプリを管理する
           href: manage-lists-app.md
-        - name: タスクアプリを管理する
+        - name: 組織のタスク アプリを管理する
           href: manage-tasks-app.md
-        - name: Shifts for Teams
+        - name: Teams の Shifts
           items:
-            - name: Shifts for Teams
+            - name: Teams の Shifts
               href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: シフトアプリを管理する
+            - name: Teams で組織の シフト アプリを管理する
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
     - name: 教育機関用 Teams
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items:
-        - name: クイック スタート - 教育用 Teams の管理者
+        - name: クイック スタート - 教育機関用 Teams の管理者
           href: teams-quick-start-edu.yml
         - name: リモート学習の開始
           href: remote-learning-edu.md
@@ -1171,27 +1171,27 @@
           href: firstline-workers-quickstart.yml
         - name: 現場担当者のスクリプト化された展開
           href: flw-scripted-deployment.md
-        - name: FirstLine ワーカーのシフトベースのアクセスを管理する
+        - name: FirstLine Worker のシフトベースのアクセスを管理する
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: RealWear for Microsoft Teams
           href: flw-realwear.md
-        - name: ウォーキー トーキー
+        - name: トランシーバー
           href: walkie-talkie.md
         - name: SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する
           href: teams-standalone-static-tabs-using-spo-sites.md
     - name: 小売店向けの Teams
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: 管理センターの Retail Teams テンプレートの使用を開始する
+        - name: 管理コンソールで小売店向け Teams テンプレートの使用を開始する
           href: retail-teams-templates-in-the-admin-console.md
-        - name: 小売店向けテンプレートでTeamsを始めましょう
+        - name: 小売店向けテンプレートで Teams の使用を開始する
           href: get-started-with-retail-teams-templates.md
     - name: 政府機関用 Teams
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
       items:
         - name: リモート ワーカーのサポート (WFH)
           href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-        - name: 政府向け Teams テンプレートを使い始めましょう
+        - name: 政府向け Teams テンプレートの使用を開始する
           href: government-teams-templates-in-the-admin-console.md
         - name: Office 365 G1 試用版を管理する
           href: g1-trial-license.md
@@ -1217,7 +1217,7 @@
           href: teams-sentinel-guide.md
         - name: ID モデルと認証
           href: identify-models-authentication.md
-        - name: Microsoft Teams にサインインする
+        - name: Microsoft Teams にサイン インする
           href: sign-in-teams.md
         - name: Teams の安全なリンク
           href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
@@ -1231,15 +1231,15 @@
           href: information-barriers-in-teams.md
         - name: アイテム保持ポリシー
           href: retention-policies.md
-        - name: 通信コンプライアンス
+        - name: コミュニケーション コンプライアンス
           href: communication-compliance.md
-        - name: Callings & 会議のポリシーベースの記録
+        - name: 通話と会議のためのポリシー ベースの録音
           href: teams-recording-policy.md
         - name: データ損失防止
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: 電子情報開示
           href: ediscovery-investigation.md
-        - name: 法的情報保留
+        - name: 訴訟ホールド
           href: legal-hold.md
         - name: コンテンツ検索
           href: content-search.md
@@ -1249,7 +1249,7 @@
       items:
         - name: プライバシーと Microsoft Teams
           href: teams-privacy.md
-        - name: データの収集プラクティス
+        - name: データ収集方法
           href: data-collection-practices.md
         - name: Teams のデータの場所
           href: location-of-data-in-teams.md
@@ -1277,7 +1277,7 @@
           items:
             - name: CQD とは?
               href: CQD-what-is-call-quality-dashboard.md
-            - name: ' CQDをセットアップする'
+            - name: CQDをセットアップする
               href: turning-on-and-using-call-quality-dashboard.md
             - name: テナントとビルのデータをアップロードする
               href: CQD-upload-tenant-building-data.md
@@ -1325,7 +1325,7 @@
       href: legacy-login-issues.md
     - name: Teams のトラブルシューティングでログ ファイルを使用する
       href: log-files.md
-    - name: 'よくあるご質問 (FAQ): リモートの従業員をサポートする'
+    - name: 'よく寄せられる質問: リモートの従業員をサポートする'
       href: FAQ-support-remote-workforce.md
     - name: Teams のサービス正常性を確認する
       href: service-health.md
@@ -1349,7 +1349,7 @@
           href: proxy-servers-for-skype-for-business-online.md
         - name: Teams でチームを作成するときの Microsoft 365 グループの計画
           href: plan-office-365-groups.md
-        - name: Teams でのライフサイクル管理を計画する
+        - name: Teams でのライフサイクル管理の計画
           href: plan-teams-lifecycle.md
         - name: Teams でのガバナンスを計画する
           href: plan-teams-governance.md
@@ -1391,7 +1391,7 @@
           href: e1-trial-license.md
         - name: Office 365 G1 試用版を管理する
           href: g1-trial-license.md
-        - name: Teams の調査エクスペリエンスを管理する
+        - name: Teams Exploratory エクスペリエンスを管理する
           href: teams-exploratory.md
         - name: Teams の無料版を管理する
           href: manage-freemium.md
@@ -1416,7 +1416,7 @@
           items:
             - name: Teams で使用する Exchange ハイブリッド展開の組織を構成する
               href: exchange-hybrid-organization.md
-            - name: Exchange でメールフロールールを使用する
+            - name: Exchange のメール フロー ルールを使用する
               href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
         - name: Teams との SharePoint Online と OneDrive for Business の連携
           href: sharepoint-onedrive-interact.md
@@ -1432,11 +1432,11 @@
           href: devices/manage-device-tags.md
         - name: Teams 対応の電話機
           href: devices/phones-for-teams.md
-        - name: Teams の表示
+        - name: Teams ディスプレイ
           href: devices/teams-displays.md
-        - name: Teams の電話を Teams の表示にアップグレードする
+        - name: Teams 電話を Teams ディスプレイにアップグレードする
           href: devices/upgrade-phones-to-displays.md
-        - name: Intune を使用して Teams 電話と Teams 表示を展開する
+        - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
           href: devices/phones-displays-deploy.md
         - name: USB オーディオ デバイスおよびビデオ デバイス
           href: devices/usb-devices.md
@@ -1448,15 +1448,15 @@
           href: devices/teams-ip-phones.md
         - name: Skype for Business Online 対応の電話機
           href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Teams の PowerShell
+    - name: Teams PowerShell
       items:
         - name: 概要
           href: teams-powershell-overview.md
-        - name: Teams　の Powershell のインストール
+        - name: Teams Powershell のインストール
           href: teams-powershell-install.md
-        - name: ' Powershell で Teams を管理する'
+        - name: Powershell で Teams を管理する
           href: teams-powershell-managing-teams.md
-        - name: Teams　の Powershell のリリースノート
+        - name: Teams Powershell のリリース ノート
           href: teams-powershell-release-notes.md
         - name: Skype for Business Online Connector から Teams PowerShell モジュールに移動する
           href: teams-powershell-move-from-sfbo.md
@@ -1504,7 +1504,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
         - name: バミューダ諸島
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: ボスニア & ヘルツェゴヴィナ
+        - name: ボスニア・ヘルツェゴビナ
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
         - name: ブラジル
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
@@ -1598,7 +1598,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
         - name: ルクセンブルク
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
-        - name: 北マケドニア
+        - name: マケドニア
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
         - name: マレーシア
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
@@ -1676,7 +1676,7 @@
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
         - name: タイ
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: トリニダード & トバゴ
+        - name: トリニダード・トバゴ
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
         - name: チュニジア
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
@@ -1718,5 +1718,5 @@
       href: export-teams-content.md
     - name: Teams 管理者機能のリリースノート
       href: release-notes/release-notes.md
-    - name: Microsoft Teams でのパブリックプレビュー
+    - name: Microsoft Teams でのパブリック プレビュー
       href: public-preview-doc-updates.md
