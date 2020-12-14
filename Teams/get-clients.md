@@ -31,7 +31,7 @@ ms.locfileid: "49611591"
 Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モバイル (Android および iOS) で利用できるクライアントがあります。 これらのクライアントすべてにアクティブなインターネット接続が必要で、オフライン モードはサポートされていません。 
 
 > [!Note]
-> 別のプラットフォームでの機能についての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。
+> 別のプラットフォームでの機能についての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
 
 > [!NOTE]
 > 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 代わりに、Windows 10 S モードを実行しているデバイスに、Teams デスクトップ クライアントをダウンロードしてインストールできるようになりました。 デスクトップ クライアントをダウンロードするには、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) にアクセスしてください。 Teams デスクトップ クライアントの MSI ビルドは、Windows 10 S モードを実行しているデバイスではまだ利用できません。
@@ -43,14 +43,14 @@ Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モ�
 > [!TIP]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、[Microsoft 365 Apps for enterprise でも利用できます](https://docs.microsoft.com/deployoffice/teams-install)。 Teams は、32 ビット版と 64 ビット版の Windows (8.1 以降) ARM 上の Windows 10用の ARM 64および Windows Server (2012 R2 以降) に加えて、macOS および Linux (`.deb` 形式と `.rpm` 形式) でも利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
+Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、[Microsoft 365 Apps for enterprise でも利用できます](https://docs.microsoft.com/deployoffice/teams-install)。 Teams は、32 ビット版と 64 ビット版の Windows (8.1 以降)、ARM 上の Windows 10 用の ARM 64、および Windows Server (2012 R2 以降) に加えて、macOS および Linux (`.deb` 形式と `.rpm` 形式) でも利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
 デスクトップ クライアントは、適切なローカルのアクセス許可を持っているエンド ユーザーによって、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) から直接ダウンロードおよびインストールできます (管理者権限は、Teams クライアントを PC にインストールする場合には必要ありませんが、Mac では必要になります) 。
 
 > [!NOTE]
-> Chromebook に Teams をインストールする方法についての詳細情報については、[Chromebook に Microsoft Office をインストールして実行する方法](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)を参照してください。
+> Chromebook に Teams をインストールする方法についての詳細情報については、「[Chromebook に Microsoft Office をインストールして実行する方法](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)」を参照してください。
 
 IT 管理者は、組織内のコンピューターにインストール ファイルを配布する方法を選択できます。 Microsoft Endpoint Configuration Manager (Windows) や Jamf Pro (macOS) などを選択できます。 Windows ディストリビューションの MSI パッケージを取得するには、[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)を参照ください。  
 
@@ -79,9 +79,9 @@ Windows クライアントは、ユーザーのプロファイルの AppData フ
 ![[Windows セキュリティの重要な警告] ダイアログのスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。 TCP および UDP プロトコルの両方に関する許可アクションで、teams.exe に関する2 つの着信ルールが作成されます。 
+> Windows ファイアウォールの設定は、[キャンセル] を選択してプロンプトを閉じた場合でも変更されます。 TCP プロトコルと UDP プロトコルの両方の許可アクションで、teams.exe の 2 つの受信ルールが作成されます。 
 
-ユーザーが Teams で最初の通話を行うときに、 Teams がユーザーにファイアウォール ルールの作成を要求しないようにする場合は、以下の[PowerShell のサンプル スクリプト（受信ファイアウォール ルール）](#sample-powershell-script---inbound-firewall-rule)を使用します。 
+ユーザーが Teams で最初の通話を行うときに、ファイアウォール ルールの作成が要求されないようにする場合は、下に示す「[PowerShell のサンプル スクリプト - 受信ファイアウォール ルール](#sample-powershell-script---inbound-firewall-rule)」を使用します。 
 
 ### <a name="mac"></a>Mac
 
