@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1f64bc6ddb34f2dc8b926e51db6b417fd2547df
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: c8efc437b36748768807a11d392bddcd41b0eb12
+ms.sourcegitcommit: 413aa915f74b997358b54f39842b60fe757094f3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662402"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49670751"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -74,9 +74,13 @@ ms.locfileid: "49662402"
 
 この更新プログラムで導入されるもの:
 
-- Teams 会議で会議の参加者に HDMI オーディオを共有する
+- Teams 会議の会議参加者に HDMI オーディオを共有する
+- Cortana の音声スキル (プレビュー)
 - Teams Room が出席者として参加するときに、音声アクセス許可に基づいてミュートを解除することはできません。 詳細については、「Teams 会議で出席者 [の音声アクセス許可を管理する」を参照してください](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
 - Teams Room コンソールから他のユーザーのビデオにスポットライトを当て、スポットライトを当てたビデオをルーム ディスプレイで使う
+
+> [!NOTE]
+> Cortana の音声スキルは、米国内にあるテナントの一部のオーディオ 周辺機器で利用できます。 今後、追加の国または地域が追加される予定です。 詳細については、Teams の [Cortana 音声アシスタンスを参照してください。](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
