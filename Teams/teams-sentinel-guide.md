@@ -28,7 +28,7 @@ ms.locfileid: "48852148"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel および Microsoft Teams
 
-Teams は、Microsoft 365 クラウドでの通信とデータ共有の両方の中心的な役割を担います。 Teams サービスはクラウド内の多くの基になっているテクノロジを使用しているので、 *ログの捜索* を行う場合だけではなく *会議をリアルタイムで監視* する場合も手動分析および自動分析を利用することができます。 Azure Sentinel は、管理者に次のようなソリューションを提案します。
+Teams は、Microsoft 365 クラウドでの通信とデータ共有の両方の中心的な役割を担います。 Teams サービスはクラウド内の多くの基になっているテクノロジを使用しているので、*ログの捜索* を行う場合だけではなく *会議をリアルタイムで監視* する場合も手動分析および自動分析を利用することができます。 Azure Sentinel は、管理者に次のようなソリューションを提案します。
 
 > [!NOTE]
 > Azure Sentinel の概要 [この記事](https://docs.microsoft.com/azure/sentinel/overview) は、まさにその通りです。
@@ -50,7 +50,7 @@ Teams は、Microsoft 365 クラウドでの通信とデータ共有の両方の
 
 ### <a name="enable-audit-logs-in-m365"></a>M365 で監査ログを有効にする
 
-Teams は M365 経由でアクティビティを記録するため、監査ログは既定では収集されません。 この機能を有効にするには、[次の手順](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0) を経由します。 Teams のデータは、 *Audit.General* 下の M365 audit に収集されます。
+Teams は M365 経由でアクティビティを記録するため、監査ログは既定では収集されません。 この機能を有効にするには、[次の手順](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0) を経由します。 Teams のデータは、*Audit.General* 下の M365 audit に収集されます。
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>ログ収集用 Microsoft Azure にアプリを登録する
 
@@ -64,21 +64,21 @@ Azure Active Directory (Azure AD) アプリを認証し、API からログ デ�
 1. Azure ポータルで *Azure AD* ブレードに移動します。
 2. クイック起動サイド バーにある *[アプリを登録]* をクリックします。
 3. *[新規登録]* を選択します。
-4. Teams ログ収集アプリの名前を入力し、 *[登録]* をクリックします。
-5. このパスに沿ってクリックします : *API のアクセス許可* > *アクセス許可を追加* > *Office 365 Management APIs* > *Application のアクセス許可* 。
+4. Teams ログ収集アプリの名前を入力し、*[登録]* をクリックします。
+5. このパスに沿ってクリックします : *API のアクセス許可* > *アクセス許可を追加* > *Office 365 Management APIs* > *Application のアクセス許可*。
 6. [アクティビティ フィード] を展開し、 *[ActivityFeed.Read]* を確認します。
-7. ここでは、 *[全体管理者の同意]* を選びます。 確認メッセージが表示されたら、[はい] をクリックします。
+7. ここでは、*[全体管理者の同意]* を選びます。 確認メッセージが表示されたら、[はい] をクリックします。
 8. サイド バーの *[証明書と秘密]* > *[新規クライアント シークレット]* ボタンの順でクリックします。
-9. [新規クライアント シークレット] ウィンドウで新規クライアント シークレットの説明を入力し、[有効期限] に [いいえ] を選択し、 *[追加]* をクリックします。
+9. [新規クライアント シークレット] ウィンドウで新規クライアント シークレットの説明を入力し、[有効期限] に [いいえ] を選択し、*[追加]* をクリックします。
 
 > [!IMPORTANT]
-> 新規クライアント シークレットを、新しく作成されたアプリの名前の下にあるパスワード マネージャーのエントリにコピーすることは、 **[重要]** です。 Azure ブレード ( *ブレード* はウィンドウの Azure 用語) を終了した後に、このシークレットを見に戻ることはできません。
+> 新規クライアント シークレットを、新しく作成されたアプリの名前の下にあるパスワード マネージャーのエントリにコピーすることは、**[重要]** です。 Azure ブレード (*ブレード* はウィンドウの Azure 用語) を終了した後に、このシークレットを見に戻ることはできません。
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>PowerShell で API を登録してチーム ログを収集する
 
 セットアップの最後の手順では、ログ データを収集するために、API サブスクリプションを収集して登録します。 これを行うには、PowerShell REST を M365 管理アクティビティ API に呼び出します。
 
-**アプリケーション (クライアント) ID** 、新しい **クライアント シークレット** 、 **M365用の URL ドメイン** 、および以下の PowerShell コマンドレットの **ディレクトリ (テナント) ID** 値を提供できるようにします。
+**アプリケーション (クライアント) ID**、新しい **クライアント シークレット**、**M365用の URL ドメイン**、および以下の PowerShell コマンドレットの **ディレクトリ (テナント) ID** 値を提供できるようにします。
 
 ```PowerShell
 $ClientID = "<Application (client) ID>"  
@@ -148,13 +148,13 @@ Until ループの内部では、最初の HTTP ステップが AvaibleUri に�
   </details>
 
 > [!TIP]
-> 代わりに、 *Azure 関数* を使用して、これらのログを取り込むことができます。その場合は、必要に応じて、展開方法についての詳細な説明は、 [こちら](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data) または [こちら](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20DataCSharp) にあります。
+> 代わりに、*Azure 関数* を使用して、これらのログを取り込むことができます。その場合は、必要に応じて、展開方法についての詳細な説明は、[こちら](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20Data) または [こちら](https://github.com/Azure/Azure-Sentinel/tree/master/DataConnectors/O365%20DataCSharp) にあります。
 
 コネクタ (上記のいずれかのオプション) を実行すると、Azure Sentinel ワークスペースに O365API_CL と呼ばれるカスタム テーブルが表示されます。 Teams ログが作成されます。
 
 ## <a name="step-3-use-sentinel-to-monitor-microsoft-teams"></a>手順 3: Sentinel を使用して Microsoft Teams を監視する
 
-ID は、Microsoft Teams に関して言えば、監視すべき重要な攻撃ベクトルです。 Azure Active Directory (Azure AD) は、Teams を含む、Microsoft 365 ディレクトリの土台であり、Azure AD 認証ログの脅威の収集および検索を行うことにより、ID の不審な動作をキャプチャするのに役立ちます。 内蔵コネクタを使用して Azure AD データを Azure Sentinel に引き込み、これらの[検出](https://github.com/Azure/Azure-Sentinel/tree/master/Detections/SigninLogs)および[検索](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/SigninLogs)クエリを使用して、問題を探すことができます。
+ID は、Microsoft Teams に関して言えば、監視すべき重要な攻撃ベクトルです。 Azure Active Directory (Azure AD) は、Teams を含む、Microsoft 365 ディレクトリの土台であり、Azure AD 認証ログの脅威の収集および検索を行うことにより、ID の不審な動作をキャプチャするのに役立ちます。 内蔵コネクタを使用して Azure AD データを Azure Sentinel に引き込み、これらの [検出](https://github.com/Azure/Azure-Sentinel/tree/master/Detections/SigninLogs) および [検索](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/SigninLogs) クエリを使用して、問題を探すことができます。
 
 Microsoft Teams に固有の攻撃、データへの脅威については、たとえば、Azure Sentinel にも、それらを監視して追い詰める手段があります。
 
@@ -165,7 +165,7 @@ Microsoft Teams に固有の攻撃、データへの脅威については、た�
 > [!NOTE]
 > KQL 関数は、「関数」と呼ばれるデータ型で保存された KQL クエリです。 KQL 関数には、Sentinel のクエリ ボックスに入力できるエイリアスがあるので、クエリをすばやく再実行できます。 KQL 関数の詳細とパーサ関数の作成方法の詳細については、[この技術コミュニティの記事](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381) を参照してください。
  
- 以下のパーサは、 *Teams* に関連する Office 365 Management API フィールドの一部を選択することを目的とした、カスタマイズ可能な例です。 また、パーサ [GitHub](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) も提案されていますが、以下のパーサを変更して、さまざまなニーズや必要に合わせて変更できます。
+ 以下のパーサは、*Teams* に関連する Office 365 Management API フィールドの一部を選択することを目的とした、カスタマイズ可能な例です。 また、パーサ [GitHub](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) も提案されていますが、以下のパーサを変更して、さまざまなニーズや必要に合わせて変更できます。
 
 ```kusto
 O365API_CL
@@ -180,11 +180,11 @@ O365API_CL
           Settings=iif(Operation_s contains "Setting", pack("Name", columnifexists('Name_s', ""), "Old Value", columnifexists('OldValue_s', ""), "New Value", columnifexists('NewValue_s', "")),""),
           Details=pack("Id", columnifexists('Id_g', ""),  "OrganizationId", columnifexists('OrganizationId_g', ""), "UserType", columnifexists('UserType_d', ""), "UserKey", columnifexists('UserKey_g', ""), "TeamGuid", columnifexists('TeamGuid_s', "")) 
 ```
- このパーサを KQL 関数として、Teams データのエイリアスとして保存します。 これは、後に続くクエリに使用されます。 KQL 関数をパーサーとして構成および使用する方法の詳細については、こちらの[技術コミュニティの記事](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381)を参照してください。
+ このパーサを KQL 関数として、Teams データのエイリアスとして保存します。 これは、後に続くクエリに使用されます。 KQL 関数をパーサとして構成および使用する方法の詳細については、こちらの [技術コミュニティの記事](https://techcommunity.microsoft.com/t5/azure-sentinel/using-kql-functions-to-speed-up-analysis-in-azure-sentinel/ba-p/712381) を参照してください。
 
 ## <a name="helpful-hunting-kql-queries"></a>KQL クエリの役に立つ検索
 
-これらのクエリを使用すると、Teams データと Teams 環境を理解できます。 疑わしいアクティビティを認識するには、最初の手順として環境がどのように見え、どのように振る舞うべきかを理解することをお勧めします。 そこから、スレッド ハンティングに進出することができます。
+これらのクエリを使用すると、Teams データとTeams 環境を理解できます。 疑わしいアクティビティを認識するには、最初の手順として環境がどのように見え、どのように振る舞うべきかを理解することをお勧めします。 そこから、スレッド ハンティングに進出することができます。
 
 #### <a name="federated-external-users-query"></a>フェデレーション外部ユーザー クエリ
 
@@ -201,7 +201,7 @@ TeamsData
 ```
 
 > [!TIP]
-> Teams における外部アクセスおよびゲスト アクセスの種類の詳細については、 [この記事](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations) または [Teams セキュリティ ガイド](https://docs.microsoft.com/microsoftteams/teams-security-guide) の *参加者の種類* セクションを参照してください。
+> Teams における外部アクセスおよびゲスト アクセスの種類の詳細については、[この記事](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations) または [Teams セキュリティ ガイド](https://docs.microsoft.com/microsoftteams/teams-security-guide) の *参加者の種類* セクションを参照してください。
 
 #### <a name="who-recently-joined--whose-role-changed"></a>最近参加した、または役割を変更したユーザー
 
@@ -328,7 +328,7 @@ TeamsData
 //| extend timestamp = TimeGenerated, AccountCustomEntity = Member 
 ```
 
-#### <a name="many-team-deletions-by-a-single-user"></a>1 人のユーザーによる多くのチームの削除
+#### <a name="many-team-deletions-by-a-single-user"></a>1人のユーザーによる多くのチームの削除
 
 攻撃者は、複数のチームを削除することで、プロジェクトやデータを混乱させたり、危険にさらしたりする可能性があります。 通常、チームは個人の所有者によって削除されているため、多くのチームを中心に削除されている場合は、問題の徴候になる可能性があります。 この KQL は、複数のチームを削除するユーザーを検索します。
 
