@@ -232,6 +232,8 @@
       href: manage-praise-app.md
     - name: Teams と連動するように Skype 会議アプリを構成する
       href: configure-skype-meetings-app-to-work-with-teams.md
+    - name: Teams 承認アプリの利用可能性
+      href: approval-admin.md
 - name: ミーティングと会議
   items:
     - name: クイック スタート - 会議とライブ イベント
