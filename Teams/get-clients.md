@@ -43,7 +43,7 @@ Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モ�
 > [!TIP]
 > Windows Desktop Clientの効果、計画や展開の方法については次のセッションを参照してください。[Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、[Microsoft 365 Apps for enterprise でも利用できます](https://docs.microsoft.com/deployoffice/teams-install)。 Teams は、32 ビット版と 64 ビット版の Windows (8.1 以降)、ARM 上の Windows 10 用の ARM 64、および Windows Server (2012 R2 以降) に加えて、macOS および Linux (`.deb` 形式と `.rpm` 形式) でも利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーでインストールすることを勧めます。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
+Microsoft Teams デスクトップ クライアントはスタンドアロン アプリケーションであり、[Microsoft 365 Apps for enterprise でも利用できます](https://docs.microsoft.com/deployoffice/teams-install)。 Teams は、32 ビット版と 64 ビット版の Windows (8.1 以降)、ARM 上の Windows 10 用の ARM 64、および Windows Server (2012 R2 以降) に加えて、macOS および Linux (`.deb` 形式と `.rpm` 形式) でも利用できます。 Windows で Teams を使用するには .NET Framework 4.5 以降が必要です。.NET Framework 4.5 以降がない場合は、Teams のインストーラーがお客様の代わりにインストールすることを提案します。 Linux では、`apt` や `yum` などのパッケージ マネージャーにより、要件すべてのインストールが自動的に試みられます。 しかし、インストールされない場合は、Linux に Teams をインストールする前に、報告されている要件すべてをユーザーがインストールする必要があります。
 
 デスクトップ クライアントは、チーム会議、グループ通話、およびプライベートな 1 対 1 での通話に対応するリアルタイム通信のサポート (オーディオ、ビデオ、およびコンテンツ共有) を提供します。
 
