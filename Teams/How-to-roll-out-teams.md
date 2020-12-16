@@ -33,14 +33,14 @@ ms.locfileid: "49071758"
 # <a name="how-to-roll-out-microsoft-teams"></a>Microsoft Teams の展開方法
 
 ## <a name="start-here"></a>開始するには
-中小企業でも多国籍企業でも、Teams の展開は「 [使用を開始する](get-started-with-teams-quick-start.md)」から始めることができます。中小企業の場合、あるいは **リモート ワーカー** をサポートするために、 Microsoft 365 や Office 365 の最初のワークロードとして Teams をすぐに導入する場合は、Teams を小規模に展開するだけで十分にこと足りるかもしれません。組織の規模が大きい場合は、「 [使用を開始する](get-started-with-teams-quick-start.md)」を使用して、アーリー アダプターの少人数のグループで Teams の使用を開始して、Teams について学習し、組織全体での展開を計画することができます。 
+中小企業でも多国籍企業でも、Teams の展開は「[使用を開始する](get-started-with-teams-quick-start.md)」から始めることができます。中小企業の場合、あるいは **リモート ワーカー** をサポートするために、 Microsoft 365 や Office 365 の最初のワークロードとして Teams をすぐに導入する場合は、Teams を小規模に展開するだけで十分にこと足りるかもしれません。組織の規模が大きい場合は、「[使用を開始する](get-started-with-teams-quick-start.md)」を使用して、アーリー アダプターの少人数のグループで Teams の使用を開始して、Teams について学習し、組織全体での展開を計画することができます。 
 
 ## <a name="recommended-path-to-teams"></a>Teams に推奨される経路
 
 
-組織の準備が整ったら、Teams を段階的に、ワークロードごとに展開することをお勧めします。 **あるステップを完了するまで待ってから、次のステップに進む必要はありません。** 一部の組織は Teams 機能を一度に全部展開することを希望するかもしれませんが、別の組織は段階的なアプローチを好むかもしれません。Teams のワークロードを次に示します。この順番で展開することをお勧めします。
+組織の準備が整ったら、Teams を段階的に、ワークロードごとに展開することをお勧めします。**あるステップを完了するまで待ってから、次のステップに進む必要はありません。** 一部の組織は Teams 機能を一度に全部展開することを希望するかもしれませんが、別の組織は段階的なアプローチを好むかもしれません。Teams のワークロードを次に示します。この順番で展開することをお勧めします。
 
-- [概要](get-started-with-teams-quick-start.md)
+- [使用を開始する](get-started-with-teams-quick-start.md)
 - [チャット、チーム、チャネルおよびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [会議および通信会議](deploy-meetings-microsoft-teams-landing-page.md)
 - [クラウド ボイス](cloud-voice-landing-page.md)

@@ -1,5 +1,5 @@
 ---
-title: 管理者のクイック スタート - Microsoft Teams での会議とライブ イベント
+title: 管理クイック スタート - Microsoft Teams での会議とライブ イベント
 ms.reviewer: ''
 description: 管理者が Microsoft Teams でオンライン会議やライブ イベントのライセンスを取得、展開、構成するためのクイック スタート ガイドです。
 ms.topic: article
@@ -26,7 +26,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 11/18/2020
 ms.locfileid: "49130628"
 ---
-# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理者のクイック スタート - Microsoft Teams での会議とライブ イベント
+# <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
 Microsoft Teams での会議には、会議とライブ イベントの 2 つの方法があります。この記事を使用して、組織の会議とライブイ ベントをすばやく展開して構成します。
 

@@ -59,7 +59,7 @@ Business Voice の機能の詳細については、「[Microsoft 365 Business Vo
 
 通話プラン付き Business Voice には国内通話プランが含まれています。このプランでは、毎月一定の分数が提供され、国内または地域内で電話をかけることができます。 他の国または地域に電話をかける場合、国際通話プランを購入できます。 国際通話プラン、国内通話プランの毎月の分数の超過分、無料電話番号の支払いに *コミュニケーション クレジット* を使用できます。 通話プランとコミュニケーション クレジットの詳細については、この記事で後述します。
 
-通話プラン付き Microsoft 365 Business Voice ライセンスを購入するには、 [管理センター](https://admin.microsoft.com/Adminportal/Home#/homepage)にサインインし、 **[請求]** > **[サービスの購入]** の順に移動します。
+通話プラン付き Microsoft 365 Business Voice ライセンスを購入するには、[管理センター](https://admin.microsoft.com/Adminportal/Home#/homepage)にサインインし、**[請求]** > **[サービスの購入]** の順に移動します。
 
 ### <a name="calling-plans"></a>通話プラン
 

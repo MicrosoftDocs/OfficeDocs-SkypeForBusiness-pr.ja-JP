@@ -30,8 +30,8 @@ ms.locfileid: "49030803"
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
 > [!NOTE]
-> - リモート学習への移行の概要と開始に役立つリソースについては、「 [**Remote Learning home page (リモート学習のホーム ページ)**](https://www.microsoft.com/education/remote-learning)」を参照してください。
-> - 教職員や学生のリモート学習を支援するためのリソースは、「 [**Office 365 Education のリモート教育と学習**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)」で利用することができます。
+> - リモート学習への移行の概要と開始に役立つリソースについては、「[**Remote Learning home page (リモート学習のホーム ページ)**](https://www.microsoft.com/education/remote-learning)」を参照してください。
+> - 教職員や学生のリモート学習を支援するためのリソースは、「[**Office 365 Education のリモート教育と学習**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)」で利用することができます。
 
 
 [使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 この時点で、[電話会議](deploy-audio-conferencing-teams-landing-page.md)、ビデオ、および共有を含むミーティング ワークロードを追加する準備が整っています。 この記事では、会議と電話会議の展開について説明します。 まず、Teams 会議とデバイスのビデオを見ます (3:28 分):
@@ -41,9 +41,9 @@ ms.locfileid: "49030803"
 お客様のユーザーにおける会議エクスペリエンスの詳細については、「[会議と通話](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)」をご覧ください。 
 
 
-*2020 年 4 月の新機能* : 会議の開催者は、会議中に、会議のコントロールの **[会議を終了する]** をクリックすることで、Teams 内のすべての参加者に対して会議を終了できます。  
+*2020 年 4 月の新機能*: 会議の開催者は、会議中に、会議のコントロールの **[会議を終了する]** をクリックすることで、Teams 内のすべての参加者に対して会議を終了できます。  
 
-*2019 年 11 月の新機能* : [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams を展開できる](use-advisor-teams-roll-out.md)ようになりました。 Teams のアドバイザー (プレビュー) を使用して、会議など、Teams の展開について説明します。 Office 365 環境を評価し、Teams で会議を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。
+*2019 年 11 月の新機能*: [Teams のアドバイザー (プレビュー) を使用して、Microsoft Teams を展開できる](use-advisor-teams-roll-out.md)ようになりました。 Teams のアドバイザー (プレビュー) を使用して、会議など、Teams の展開について説明します。 Office 365 環境を評価し、Teams で会議を正常に展開する前に更新または変更する必要がある最も一般的な構成を特定します。
 
  > [!Note]
 > 別のプラットフォームでの Teams のミーティングと会議についての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。
@@ -60,7 +60,7 @@ Teams は、すぐに使用できる優れたエクスペリエンスを組織�
 
 組織全体にミーティングの展開を広げる前に、できる限り最高のエクスペリエンスをユーザーに提供する環境が整っているかどうかを再確認するための時間を割いてください。 次の情報を確認して、環境に必要に応じた変更を実行します。
 
-Teams の最高のエクスペリエンスを実現する場合、組織は Exchange Online および SharePoint Online を展開している必要があり、ユーザーには O365 の確認済みドメイン ( *contoso.com* など) が必要になります。
+Teams の最高のエクスペリエンスを実現する場合、組織は Exchange Online および SharePoint Online を展開している必要があり、ユーザーには O365 の確認済みドメイン (*contoso.com* など) が必要になります。
 
 組織全体にミーティングを組織全体に広げるには、すべてのユーザーの場所に Office 365 サービスへのインターネット アクセスが必要になります。 少なくとも、次に示す共通のポートがユーザーの場所からインターネットに対して開かれている必要があります。
 
@@ -78,7 +78,7 @@ Teams の最高のエクスペリエンスを実現する場合、組織は Exch
 
 ### <a name="teams-administrators"></a>Teams の管理者
 
-Teams には、組織に適した Teams の管理に使用できる、カスタムの管理者の役割のセットが用意されています。 この役割によって、さまざまな機能が管理者に提供されます。 
+Teams は、組織のチームを管理するために使用できる、カスタムの管理者ロールのセットを提供します。ロールは、管理者がさまざまな機能を使用できるようにします。 
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -151,7 +151,7 @@ Teams のミーティング エクスペリエンスを最適なものにする�
 ユーザーは音声、ビデオ、および画面共有のアクティビティをキャプチャするために、ミーティングとグループの通話を記録できます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 記録はクラウドで実施され Microsoft Stream に保存されるため、ユーザーは組織全体で安全に議事録を共有できます。 ミーティングの記録を検索するには、ミーティングの会話に移動します。
 
 >[!Note]
-> Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
+> Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 詳細については、「[Teams のクラウド会議の記録](cloud-recording.md)」を参照してください。
 
