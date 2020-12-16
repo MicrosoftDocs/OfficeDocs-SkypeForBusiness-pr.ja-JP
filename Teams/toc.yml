@@ -935,8 +935,8 @@
               href: upgrade-define-project-scope.md
             - name: 共存および相互運用性について理解する
               href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: 電話システムと PSTN 接続のオプションを理解する
-              href: cloud-voice-landing-page.md
+            - name: PSTN に関する考慮事項
+              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: アップグレードの行程を選択する
               href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
             - name: ユーザー パイロットを計画する
@@ -991,8 +991,6 @@
               href: upgrade-to-teams-on-prem-implement.md
             - name: Teams と Skype for Business の共存
               href: upgrade-to-teams-on-prem-coexistence.md
-            - name: PSTN に関する考慮事項
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
             - name: 共存モード - リファレンス
               href: migration-interop-guidance-for-teams-with-skype.md
             - name: Teams のクライアント エクスペリエンスおよび共存モードへの準拠
