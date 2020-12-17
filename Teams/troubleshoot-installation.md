@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Windows の Teams デスクトップ クライアント アプリのインストールと更新に関する問題をトラブルシューティングする方法について説明します。
 ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
 ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/28/2020
 ms.locfileid: "47300281"
@@ -31,7 +31,7 @@ ms.locfileid: "47300281"
 
 以下の手順に従って、Teams の更新が正常にインストールされているかどうかを確認します。
 
-1. Teams で、プロファイルの画像を選択してから、**[概要] ** > ** [バージョン]** をクリックします。
+1. Teams で、プロファイルの画像を選択してから、**[概要]** > **[バージョン]** をクリックします。
 2. 同じメニューで、[**更新プログラムのチェック**] をクリックします。
 3. アプリの上部にあるバナーが、Teams の「更新」が必要であることを示すのを待ちます。 このプロセスにより、新しいバージョンの Teams がダウンロードされると、リンクは約 1 分後に表示されます。 また、既に最新バージョンを実行しているかどうかをバナーで確認することもできます。その場合、更新は必要ありません。
 4. バナーの [更新] リンクをクリックします。
@@ -49,7 +49,7 @@ SquirrelSetup.log に原因が示されていない場合、または問題の�
 
 ### <a name="troubleshoot-update-issues"></a>更新に関する問題のトラブルシューティング
 
-Teams が正常にインストールされると、ログの場所が%LocalAppData%\SquirrelTemp から%LocalAppData%\Microsoft\Teams. に切り替わります。 この場所には、SquirrelSetup.log と logs.txt の 2 つのログ ファイルがあります。
+Teams が正常にインストールされると、ログの場所が %LocalAppData%\SquirrelTemp から %LocalAppData%\Microsoft\Teams に切り替わります。 この場所には、SquirrelSetup.log と logs.txt の 2 つのログ ファイルがあります。
 
 - この場所にある SquirrelSetup.log ファイルは、Teams アプリにサービスを提供する実行可能ファイルである Update.exe によって書き込まれます。
 - Logs.txt ファイルは、重要なアプリケーション イベントを記録するために Teams アプリ (具体的には Teams.exe) によって使用されます。 失敗情報が含まれている可能性があります。
