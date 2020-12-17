@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa8e733aeb3828bb1815001ba0299a9ee1aaf78
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 4f13cdd1d62a31178f7aed922b3bc55b87cd59db
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852148"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701235"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel および Microsoft Teams
 
@@ -300,7 +300,7 @@ TeamsData
 
 #### <a name="user-accounts-who-are-owners-of-large-numbers-of-teams"></a>多数のチームの所有者であるユーザー アカウント
 
-通常、ユーザーは特定のトピックについて少数のチームを作成して所有していますが、権限を高めようとする攻撃者は、多くの異なるチームの所有者権限を割り当てようとする可能性があります。 この KQL クエリは不審な動作を検索します。
+通常、ユーザーは特定のトピックについて少数のチームを作成して所有していますが、権限を高めようとする攻撃者は、多数の異なるチームの所有者権限を割り当てようとする可能性があります。 この KQL クエリは不審な動作を検索します。
 
 ```kusto
 // Adjust this value to change how many teams a user is made owner of before detecting 
