@@ -12,48 +12,50 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- m365solution-voice
+- m365solution-scenario
 appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Microsoft Phone システムのダイレクトルーティングを構成して、オンプレミスのテレフォニーインフラストラクチャを Microsoft Teams に接続する方法について説明します。
+description: オンプレミスのテレフォニー インフラストラクチャを Microsoft Teams に接続するために Microsoft Phone System Direct Routing を構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e1c19bfcd4c220ff6b6c53d8731149eaa8b6b4b1
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 5388c93e741323d3dc9eda0fc51968b8b344d2cb
+ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031773"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49701295"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
-Microsoft 電話システムのダイレクトルーティングを使用すると、オンプレミスのテレフォニーインフラストラクチャを Microsoft Teams に接続することができます。 この記事では、サポートされているオンプレミスのセッションボーダーコントローラー (SBC) とダイレクトルーティングを接続するために必要な上位レベルの手順を示します。また、ダイレクトルーティングを使用して公衆交換電話網 (PSTN) に接続するように Teams ユーザーを構成する方法について説明します。 この記事では、詳細について関連する記事へのリンクを示します。  
+Microsoft Phone System Direct Routing を使用すると、オンプレミスのテレフォニー インフラストラクチャを Microsoft Teams に接続できます。 この記事では、サポートされているオンプレミス セッション ボーダー コントローラー (SBC) を直接ルーティングに接続するために必要な高レベルの手順と、パブリック交換電話ネットワーク (PSTN) に接続するために直接ルーティングを使用する Teams ユーザーを構成する方法について説明します。 この記事では、詳細について関連記事にリンクしています。  
 
-直接ルーティングが組織の適切なソリューションであるかどうかについては、「 [電話システムのダイレクトルーティング](direct-routing-landing-page.md)」を参照してください。 前提条件と展開の計画については、「 [直接ルーティングを計画](direct-routing-plan.md)する」を参照してください。
+直接ルーティングが組織に適切なソリューションであるかどうかを確認する方法については、「電話システム ダイレクト ルーティング」 [を参照してください](direct-routing-landing-page.md)。 前提条件と展開の計画については、「直接ルーティングを計画する [」を参照してください](direct-routing-plan.md)。
 
 > [!Tip]
-> また、次のセッションを見て、直接ルーティングの利点、計画方法、展開方法について学習することもできます。 [Microsoft Teams での直接ルーティング](https://aka.ms/teams-direct-routing)。
+> また、次のセッションを見て、直接ルーティングの利点、その計画方法、展開方法について学習できます [。Microsoft Teams](https://aka.ms/teams-direct-routing)での直接ルーティング。
 
-この記事で説明されている手順を実行するには、管理者が PowerShell コマンドレットについて理解している必要があります。 PowerShell の使用方法の詳細については、「 [Windows powershell 用にコンピューターをセットアップする](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。 
+この記事で説明する手順を完了するには、管理者は PowerShell コマンドレットに精通している必要があります。 PowerShell の使用の詳細については、「PowerShell を使用するコンピューター [をセットアップする」を](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)Windows PowerShell。 
 
-以下の記事の手順を実行する前に、お客様の sbc が SBC ベンダーの推奨として既に構成されていることを確認することをお勧めします。 
+これらの記事の手順を実行する前に、Microsoft では、SBC ベンダーが推奨するように SBC が既に構成されていることを確認するようにお勧めします。 
 
-- [AudioCodes の展開に関するドキュメント](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Oracle 展開に関するドキュメント](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
-- [リボンの通信展開に関するドキュメント](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE システム (anynode) の展開ドキュメント](https://www.anynode.de/anynode-and-microsoft-teams/)
-- [Metaswitch の展開ドキュメント](https://www.metaswitch.com/products/core-network/perimeta-sbc)
+- [AudioCodes 展開ドキュメント](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle の展開に関するドキュメント](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [リボンコミュニケーションの展開に関するドキュメント](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [TE-Systems (anynode) 展開ドキュメント](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [メタスイッチの展開に関するドキュメント](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
-サポートされている SBCs の完全な一覧については、「 [直接ルーティング用に認定されたセッション境界コントローラーの一覧](direct-routing-border-controllers.md)」をご覧ください。
+サポートされている SPC の完全なリストについては、「ダイレクト ルーティング用に認定されたセッション ボーダー コントローラーのリスト [」を参照してください](direct-routing-border-controllers.md)。
 
-Microsoft 電話システムを構成し、ユーザーが直接ルーティングを使用できるようにするには、次の手順を実行します。 
+Microsoft Phone System を構成し、ユーザーが直接ルーティングを使用するには、次の手順を実行します。 
 
-- **手順1** [SBC と Microsoft 電話システムを接続して接続を検証する](direct-routing-connect-the-sbc.md)
-- **手順2** [ユーザーが直接ルーティング、音声、ボイスメールを使用できるようにする](direct-routing-enable-users.md)
-- **手順3** [音声ルーティングを構成する](direct-routing-voice-routing.md)
-- **手順4。** [数値を別の形式に変換する](direct-routing-translate-numbers.md) 
+- **手順 1.** [SBC を Microsoft Phone System に接続し、接続を検証する](direct-routing-connect-the-sbc.md)
+- **手順 2.** [直接ルーティング、音声、ボイスメールのユーザーを有効にする](direct-routing-enable-users.md)
+- **手順 3.** [音声ルーティングを構成する](direct-routing-voice-routing.md)
+- **手順 4.** [数値を別の形式に翻訳する](direct-routing-translate-numbers.md) 
 
-複数のテナントに対して SBC を構成する場合は、「 [複数のテナントの sbc を構成](direct-routing-sbc-multiple-tenants.md)する」もご覧ください。
+複数のテナントに対して SBC を構成する場合は、「複数のテナントに対して SBC を構成する」 [も参照してください](direct-routing-sbc-multiple-tenants.md)。
 
 
 ## <a name="related-topics"></a>関連項目
