@@ -1,5 +1,5 @@
 ---
-title: Microsoft Endpoint Configuration Manager を使用してチームをインストールする
+title: Microsoft Endpoint Configuration Manager を使用して Teams をインストールする
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jhreddy
 audience: admin
-description: Microsoft Endpoint Configuration Manager を使用して、Microsoft Teams を一括展開してユーザーまたはコンピューターを選択します。
+description: Microsoft Endpoint Configuration Manager を使用して、Microsoft Teams を一括展開し、ユーザーまたはコンピューターを選択します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 61b55a8cd734d4f63db4e3d6e1379c0ed235c038
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49030413"
@@ -28,28 +28,28 @@ ms.locfileid: "49030413"
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
 > [!Tip]
-> Windows デスクトップクライアントの利点、その計画方法、展開方法については、次のセッションをご覧ください。 [Teams Windows デスクトップクライアント](https://aka.ms/teams-clients)。
+> Windows Desktop Client の効果、計画や展開の方法については、[Teams Windows Desktop Client](https://aka.ms/teams-clients) のセッションを参照してください。
 
 Microsoft Endpoint Configuration Manager、またはグループ ポリシー、または任意のサードパーティの配布メカニズムを広範囲の展開に使用するために、マイクロソフトは管理者が選択したユーザーまたはコンピューターへの Teams の一括展開で使用できる MSI ファイル (32 ビットと 64 ビットの両方) を提供しています。 管理者はこれらのファイルを使用してリモートで Teams を展開できます。そのため、ユーザーは Teams アプリを手動でダウンロードする必要がありません。 展開した場合、Teams はそのマシンにサインインするすべてのユーザーに対して自動的に起動します (アプリのインストール後に自動起動を無効にできます。 [以下を参照してください](#disable-auto-launch-for-the-msi-installer))。コンピューターにパッケージを展開して、マシンの新しいユーザー全員がこの展開による効果を得られるようにすることもお勧めします。
 
 MSI ファイルへのリンクを次に示します。
 
-|エンティティ  |32ビット      |64ビット      | ARM64 |
+|エンティティ  |32 ビット      |64 ビット      | ARM64 |
 |---------|---------|---------|-----------|
-|商用     | [32ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
-|政府機関向け - GCC     | [32ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|政府機関向け - GCC High    | [32ビット](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64ビット](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|政府機関向け - DoD     | [32ビット](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64ビット](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|商用     | [32 ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|政府機関向け - GCC     | [32 ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 ビット](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|政府機関向け - GCC High    | [32 ビット](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 ビット](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|政府機関向け - DoD     | [32 ビット](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 ビット](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
-**展開を成功させるには、次の点に注意してください。**
+**展開を成功させるには、次の点に注意してください:**
 
-- 64ビット版の Teams を64ビットオペレーティングシステムにインストールします。 64ビット版の Teams を32ビットのオペレーティングシステムにインストールしようとしても、インストールが成功せず、現在エラーメッセージは表示されません。
+- 64 ビット版の Teams を 64 ビット オペレーティング システムにインストールします。 64 ビット版の Teams を 32 ビット オペレーティング システムにインストールしようとすると、インストールは成功せず、現在、エラー メッセージは表示されません。
 
-- 顧客テナントが GCCH または DoD クラウド上にある場合、ユーザーは、レジストリの **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** キーに **cloudtype** 値を追加して、レジストリの最初のエンドポイントを設定する必要があります。 **Cloudtype** の型は **DWORD** と値です (0 = Unset、1 = 商業、2 = GCC、3 = GCCH、4 = DOD)。 レジストリキーを使用してエンドポイントを設定すると、チームは、チームとのサインイン時に適切なクラウドエンドポイントに接続することができます。
+- お客様のテナントが GCCH または DoD クラウド上にある場合、お客様は、レジストリの **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** キーに **CloudType** 値を追加して、レジストリの初期エンドポイントを設定する必要があります。 **CloudType** の種類は **DWORD** で、値は (0 = 未設定、1 = 商用、2 = GCC、3 = GCCH、4 = DOD) です。 レジストリ キーを使用してエンドポイントを設定すると、Teams は、Teams との事前サインイン接続のため、正しいクラウド エンドポイントに接続するように制限されます。
 
-- Teams は、enterprise 用の Microsoft 365 アプリの展開に含めることもできます。 詳細については、「 [microsoft 365 アプリで企業向けの Microsoft Teams を展開する](https://docs.microsoft.com/deployoffice/teams-install)」を参照してください。
+- Teams は、Microsoft 365 Apps for enterprise の展開に含まれる場合があります。 詳細については、「[Microsoft 365 Apps for enterprise で Microsoft Teams を展開する](https://docs.microsoft.com/deployoffice/teams-install)」をご覧ください。
 
-- Microsoft Endpoint Configuration Manager の詳細については、「[構成マネージャーとは](https://docs.microsoft.com/configmgr/core/understand/introduction)」を参照してください。
+- Microsoft Endpoint Configuration Manager について詳しくは、「[Configuration Manager とは](https://docs.microsoft.com/configmgr/core/understand/introduction)」を参照してください。
 
 ## <a name="deployment-procedure-recommended"></a>展開の手順 (推奨)
 
@@ -66,7 +66,7 @@ Teams MSI はインストーラーを Program Files に配置します。 ユー
 更新プログラムを展開するのに MSI を使用しないでください。クライアントは、サービスから利用可能な新しいバージョンを見つけたら、自動更新します。 最新のインストーラーを再展開するには、以下に説明されている MSI の再展開のプロセスを使用します。 MSI パッケージの以前のバージョンを展開すると、クライアントはそのユーザーが可能なときに自動更新を実行します (VDI 環境を除く)。 非常に昔のバージョンが展開された場合、MSI はユーザーが Teams を使用できる状態になる前にアプリの更新をトリガーします。
 
 > [!IMPORTANT]
-> 既定の場所は、64ビットオペレーティングシステム上の C:\Program Files (x86)/Teams インストーラーと32ビットオペレーティングシステムの C:\Program Files\Teams Installer です。
+> 既定の場所は、64 ビット オペレーティング システムでは C:\Program Files (x86)\Teams Installer であり、32 ビット オペレーティング システムでは C:\Program Files\Teams Installer です。
 > 既定のインストール場所を変更すると、更新フローが崩れる可能性があるため、お勧めしません。 非常に昔のバージョンを利用すると、ユーザーがサービスにアクセスするのを妨げる結果になってしまいます。
 
 #### <a name="target-computer-requirements"></a>対象となるコンピューターの要件
@@ -82,18 +82,18 @@ VDI に Teams デスクトップ アプリを展開する方法の詳細なガ�
 
 ## <a name="clean-up-and-redeployment-procedure"></a>クリーン アップと展開の手順
 
-ユーザーが自分のユーザープロファイルから Teams をアンインストールした場合、MSI installer は、ユーザーが Teams アプリをアンインストールして、そのユーザープロファイルの Teams をインストールしなくなったことを追跡します。 このユーザーのために Teams がアンインストールされた特定のコンピューター上で Teams を再展開するには、次の手順を実行します。
+ユーザーがユーザー プロファイルから Teams をアンインストールすると、MSI のインストーラーは、そのユーザーが Teams アプリをアンインストールしたことと、そのユーザー プロファイルで今後 Teams をインストールする機会がないことを記録します。 このユーザーのために Teams がアンインストールされた特定のコンピューター上で Teams を再展開するには、次の手順を実行します:
 
 > [!IMPORTANT]
-> 次の手順には、レジストリの変更方法についての情報が含まれています。 レジストリを変更する前に必ずバックアップし、問題が発生した場合にレジストリを復元する方法について確認してください。 レジストリのバックアップ、復元、変更の詳細については、「 [上級ユーザー向けの Windows レジストリ情報](https://support.microsoft.com/help/256986)」を参照してください。
+> 以下の手順では、レジストリの変更方法について説明します。 レジストリの変更前にレジストリをバックアップし、問題が発生した場合にレジストリを復元する方法を知っておいてください。 レジストリのバックアップ、復元、および編集方法については、「[上級ユーザー向けの Windows レジストリ情報](https://support.microsoft.com/help/256986)」を参照してください。
 
-1. 各ユーザープロファイルにインストールされている Teams アプリをアンインストールします。 詳細については、「 [Microsoft Teams をアンインストール](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)する」を参照してください。
-2. ディレクトリを再帰的に削除 `%localappdata%\Microsoft\Teams\` します。
-3. `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`レジストリ値を削除します。
+1. それぞれのユーザー プロファイルにインストールされている Teams アプリをすべてアンインストールします。 詳細については、「[Microsoft Teams のアンインストール](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)」を参照してください。
+2. `%localappdata%\Microsoft\Teams\` 以下のディレクトリを再帰的に削除します。
+3. `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` レジストリの値を削除します。
 4. MSI パッケージをその特定のコンピューターに再展開します。
 
 > [!TIP]
-> また、 [Teams 展開クリーンアップスクリプト](scripts/powershell-script-deployment-cleanup.md) を使用して、手順1と2を実行することもできます。  
+> [Teams の展開のクリーン アップ スクリプト](scripts/powershell-script-deployment-cleanup.md)を使用して、手順 1 と 2 を完了することができます。  
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>インストール後に Teams が自動的に起動しないようにする
 
@@ -101,7 +101,7 @@ MSI の既定の動作では、ユーザーがサインインするとすぐに 
 
 ### <a name="use-group-policy-recommended"></a>グループ ポリシーを使用する (推奨)
 
-**[Prevent Microsoft Teams from starting automatically after installation]** (インストール後に Microsoft Teams が自動的に起動しないようにする) グループ ポリシー設定を有効にします。 このポリシー設定は、[ユーザー構成]\[ポリシー]\[管理用テンプレート]\[Microsoft Teams] にあります。 組織のニーズに合わせてポリシー設定を無効にも有効にもできるため、この方法を使用することをお勧めします。
+**[Prevent Microsoft Teams from starting automatically after installation]**(インストール後に Microsoft Teams が自動的に起動しないようにする) グループ ポリシー設定を有効にします。 このポリシー設定は、[ユーザー構成]\[ポリシー]\[管理用テンプレート]\[Microsoft Teams] にあります。 組織のニーズに合わせてポリシー設定を無効にも有効にもできるため、この方法を使用することをお勧めします。
 
 Teams がインストールされる前にこのポリシー設定を有効にしていると、ユーザーが Windows にログインしても Teams は自動起動しません。 ユーザーが初めて Teams にサインインすると、次にユーザーがログインしたときに Teams が自動起動するようになります。
 
@@ -114,13 +114,13 @@ Teams がインストールされる前にこのポリシー設定を有効に�
 
 次のように **OPTIONS="noAutoStart=true"** パラメーターを使用することにより、MSI インストーラーの自動起動を無効にできます。  
 
-32ビット版の場合:
+32 ビット版向け:
 
 ```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-64ビット版の場合:
+64 ビット版向け:
 
 ```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
@@ -128,7 +128,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 ユーザーが Windows にログインすると、Teams は MSI と一緒にインストールされ、Teams を起動するためのショートカットがユーザーのデスクトップに追加されます。 そのユーザーが手動で Teams を起動するまで Teams は起動しません。 ユーザーが手動で Teams を起動すると、そのユーザーがログインするたびに Teams は自動起動するようになります。
 
-これらの例では、 **ALLUSERS = 1** パラメーターも使用していることに注意してください。 このパラメーターを設定すると、コントロールパネルの [プログラムと機能] と、コンピューターのすべてのユーザーに対して [Windows 設定] の [アプリ &] の各機能に Teams Machine-Wide Installer が表示されます。 すべてのユーザーは、コンピューターの管理者資格情報を持っている場合、Teams をアンインストールできます。
+これらの例でも **ALLUSERS=1** パラメーターを使用していることに注意してください。 このパラメーターを設定すると、コンピューターのすべてのユーザーの [コントロール パネル] の [プログラムと機能] および [Windows の設定] の [アプリと機能] に Teams Machine-Wide Installer が表示されます。 コンピューターに管理者資格情報がある場合、すべてのユーザーは Teams をアンインストールできます。
 
 > [!Note]
 > MSI を手動で実行する場合は、昇格されたアクセス許可で実行します。 管理者として実行する場合でも、管理者特権で実行しない限り、インストーラーで自動起動を無効にするオプションを構成することはできません。
