@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Skype for Business Online の廃止計画と、Microsoft が Teams への移行を支援する方法について説明します。
+description: Skype for Business Online の退職プランと、Microsoft が Teams への移行を支援する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,91 +18,91 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ecaae0e179423fdbcdbebcb3da6f6f0a25594b6
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: e9d2540fdcd7db51ad982933f9732dab49f8716e
+ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578490"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712315"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online のサポート終了
 
-2019年7月 **31 日に、Skype For Business Online は2021年7月31日に廃止され、** microsoft Teams (microsoft 365 でのチームワークのハブ) への移行が計画されています。 残りの年が1年未満の場合は、チームへのアップグレードを成功させるために必要な情報とリソースを顧客に確実に提供する必要があります。
+2019 年 7 月、Skype for Business Online は **2021** 年 7 月 31 日に廃止され、お客様は Microsoft 365 のチームワークのハブである Microsoft Teams への移行を 2 年間計画できると発表しました。 残りが 1 年未満の場合は、お客様が Teams へのアップグレードを計画して実行するために必要な情報とリソースを確実に取得する必要があります。
  
-## <a name="why-is-skype-for-business-online-retiring"></a>Skype for Business Online が廃止されるのはなぜですか?
+## <a name="why-is-skype-for-business-online-retiring"></a>Skype for Business Online が廃止される理由
 
-Skype for Business Online は、その導入以来、世界中の何百万ものユーザーにとって重要なツールとなっています。 インスタントメッセージング、通話、ビデオを1つのアプリケーションに統合することで、Skype for Business Online がビジネスコミュニケーションのための新しい可能性を確立しました。 Microsoft Teams は、そのビジョンの次の章です。
+導入以来、Skype for Business Online は世界中の何百万人ものユーザーにとって貴重なツールでした。 インスタント メッセージング、通話、ビデオを 1 つのアプリケーションに組み合わせることにより、Skype for Business Online はビジネスコミュニケーションの新しい可能性を確立しました。 Microsoft Teams は、そのビジョンの次の章です。
 
-Microsoft Teams の機能は、Skype for Business Online の機能を超えています。 チャット、ビデオ、通話、ドキュメントの共同作業、およびアプリケーションの統合を1つのエクスペリエンスにまとめることで、チームはすべての機能を簡単に操作できるようになります。 また、継続的なプラットフォームの革新と開発により、チームユーザーは、パフォーマンス、機能性、柔軟性、セキュリティを向上させることができます。
+Microsoft Teams の機能は、Skype for Business Online の機能以外にも機能します。 チャット、ビデオ、通話、ドキュメントの共同作業、アプリケーションの統合を 1 つのエクスペリエンスに組み合わせることにより、Teams は完全にニュースで作業できます。 また、継続的なプラットフォームの技術革新と開発により、Teams ユーザーは、より高いパフォーマンス、機能、柔軟性、およびセキュリティを利用できます。
 
-Teams は Skype for Business Online のアップグレードにすぎません。企業、学校、組織がより機敏になり、重要なワークフローの効率を向上させることができる強力なツールです。 組織にとっての Teams の潜在的な利点については、「 [Microsoft teams の™の経済への影響](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)」を参照してください Forrester。
+Teams は Skype for Business Online の単なるアップグレードであるので、企業、学校、組織がアジャイルを高め、主要なワークフローの効率を向上できる強力なツールです。 組織に対する Teams の潜在的な利点の詳細については、Forrester のホワイト ペーパー「Microsoft Teams の総経済影響 [™を参照してください](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)。
 
 
-## <a name="what-does-this-mean-for-skype-for-business-customers"></a>Skype for Business のお客様にはどのような意味がありますか?
+## <a name="what-does-this-mean-for-skype-for-business-customers"></a>Skype for Business のお客様にとってこれは何を意味していますか?
 
-Skype for Business Online が2021年7月31日に廃止された後、サービスにアクセスできなくなります。 それまでは、現在の Skype for Business Online のお客様は、サービスを変更することはできません。また、必要に応じて新しいユーザを追加することもできます。 2019年9月1日以降、すべての新しい Microsoft 365 ユーザーは、チャット、会議、通話のために直接 Teams に onboarded されています。
+Skype for Business Online が 2021 年 7 月 31 日に廃止された後、このサービスにはアクセスできなくなりました。 それまでは、現在の Skype for Business Online のお客様はサービスを変更する必要はありません。また、必要に応じて新しいユーザーを追加することができます。 2019 年 9 月 1 日の現在、すべての新しい Microsoft 365 ユーザーは、チャット、会議、通話のために Teams に直接参加しています。
 
-チームに完全に移行するために必要な時間は、ユーザー数、技術的な複雑さ、変更する内部的な適応性など、組織の固有の特性に基づいて異なります。 このため、Skype for Business からの正常な移行を実行するのに十分な時間を確保するだけでなく、Teams のメリットをより迅速に実現するために、現在、チームへのアップグレードを計画することをお勧めします。
+Teams に完全に移行するために必要な時間は、ユーザー数、技術的な複雑さ、変更する内部適応性など、組織の固有の特性によって異なります。 そのため、Skype for Business からの移行を正常に実行するための十分な時間を確保するだけでなく、Teams の利点を迅速に認識するために、Teams へのアップグレードを今すぐ計画することをお勧めします。
 
-Teams は、ほとんどの Microsoft 365 ビジネスプランとエンタープライズプランで利用できます。また、既存のライセンスの投資は、Teams に転送されます。 現在 Skype for Business Online に含まれるプレミアム ワークロードの機能は Teams のプレミアム ワークロードとしても継続的に利用できます。 たとえば、Skype for Business を使用して、電話会議を単体で購入した場合、または E5 の一部として会議を行っている場合は、Teams で電話会議が有効になります。
+Teams はほとんどの Microsoft 365 Business プランと Enterprise プランで利用できます。既存のライセンスへの投資は Teams に引き続き適用されます。 現在 Skype for Business Online に含まれるプレミアム ワークロードの機能は Teams のプレミアム ワークロードとしても継続的に利用できます。 たとえば、Skype for Business で電話会議を単体または E5 の一部として購入した場合、Teams で電話会議が有効になります。
 
-Skype for Business Online の廃止による影響を受けることはありません。
+Skype コンシューマー サービスと Skype for Business Server は、Skype for Business Online のサポートが提供されなされない場合があります。
 
-Teams と Teams の機能ロードマップへのアップグレードプロセスについて[よく寄せ](faq-journey.md)られる質問を参照してください。
+[Teams へのアップグレードプロセス](FAQ-journey.yml) と Teams の機能ロードマップに関する FAQ を参照してください。
 
-## <a name="what-is-microsoft-doing-to-help-customers-transition-to-teams"></a>ユーザーが Teams に移行できるようにするために、Microsoft は何を実行していますか?
+## <a name="what-is-microsoft-doing-to-help-customers-transition-to-teams"></a>お客様が Teams に移行するために Microsoft は何をしていますか?
 
-チームの展開と Skype for Business からのアップグレードを計画するのに役立つさまざまなリソースを活用できます。
+Teams の展開を計画し、Skype for Business からアップグレードするために利用できるさまざまなリソースを活用します。
 
-- [チームの展開とアップグレードのドキュメント](upgrade-start-here.md) – IT 管理者向けの無料技術ガイダンス。
+- [Teams の展開とアップグレードに関するドキュメント](upgrade-start-here.md) – IT 管理者向け無料の技術ガイダンス。
 
-- [Microsoft 365 の Fasttrack](https://www.microsoft.com/fasttrack/microsoft-365) –特定のプランで利用できる Teams 展開サポート。
+- [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – 条件を満たすプランで利用できる Teams 展開支援。
 
-- [Teams のライブトレーニング](https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page) –ユーザーとエンドユーザーがチームと連携して実行できる無料のオンライントレーニングクラス。
+- [Teams ライブ トレーニング](https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page) – 無料のオンライン トレーニング クラスは、お客様とエンド ユーザーが Teams を使い始め、実行するために設計されています。
 
-- [Teams のチョーク](https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page) とは、IT プロフェッショナルと意思決定者を対象とした無料のオンラインワークショップです。 teams の最も一般的なシナリオと説得力のあるシナリオについて、ベストプラクティスを共有します。
+- [Teams のとりまとめ](https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page) - IT のプロや意思決定者が Teams で最も人気のある説得力のあるシナリオのベスト プラクティスを共有するための無料のオンライン ワークショップです。
 
-- [チームアップグレード計画ワークショップ](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page) –無料の対話式アップグレード計画ワークショップ。ここでは、チームへのアップグレードを計画および実装するのに役立つように設計されたガイダンス、ベストプラクティス、リソースについて説明します。
+- [Teams アップグレード計画ワークショップ](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page) – 無料の対話型アップグレード計画ワークショップで、Teams へのアップグレードを計画して実装するのに役立つガイダンス、ベスト プラクティス、リソースを受け取る予定です。
 
-- [Microsoft パートナー](https://www.microsoft.com/solution-providers/home) – microsoft ソリューションプロバイダーは、チームを最大限に活用するのに役立ちます。
+- [Microsoft パートナー](https://www.microsoft.com/solution-providers/home) – Microsoft ソリューション プロバイダーは、Teams をフルに活用するのに役立ちます。
 
-- [Microsoft teams ブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) –新機能、導入と使用状況に関するリソース、チームデバイス、および他のビジネス生産性向上アプリケーションとの統合について、最新のチームニュースを入手できます。
+- [Microsoft Teams ブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) – 新機能、導入と使用リソース、Teams デバイス、他のビジネス生産性アプリケーションとの統合に関する最新の Teams ニュースを取得します。
 
-Skype for Business Online の現在のお客様の場合は、今すぐ Teams への移行の計画を開始してください。 お客様は、コミュニケーションとコラボレーションのための強力な機能をご利用いただけるよう努力しています。
+現在 Skype for Business Online をご利用の場合は、今すぐ Teams への移行の計画を開始してください。 お客様が強力なコミュニケーションとコラボレーションの機能を体験できると共に、お客様の支援に取り組み、取り組み中です。
 
-## <a name="skype-for-business-online-retirement-faqs"></a>Skype for Business Online の廃止に関する Faq
+## <a name="skype-for-business-online-retirement-faqs"></a>Skype for Business Online の退職に関する FAQ
 
 **現在 Skype for Business Online を使用しているユーザーは、テナントに新しいシートを追加できますか?**<br>
 はい。 現在 Skype for Business Online を使用しているお客様は、最終的にユーザーを Microsoft Teams に移行する必要があるため、テナントに新しいシートを追加することができます。
 
 **Skype for Business Server が今後どうなるかについて教えてください。**<br>
-お客様が Skype for Business Server を使用していることを認識しており、要件によっては、一部のユーザーまたは地域で引き続き Skype for Business Server を使用する必要があります。 このような場合においては、Microsoft は、組織がチームワークとコラボレーションを推進するために Skype for Business Server と組み合わせる形で Teams を導入することを推奨しています。 最新バージョンの Skype for Business Server 2019 は、2024年1月9日までのメインストリームサポートで2018年10月にリリースされました。
+お客様が Skype for Business Server を使用していることを認識し、多くのユーザーが要件を満たす一部のユーザーや地域で Skype for Business Server を使用し続ける必要があります。 このような場合においては、Microsoft は、組織がチームワークとコラボレーションを推進するために Skype for Business Server と組み合わせる形で Teams を導入することを推奨しています。 Skype for Business Server 2019 の最新バージョンは 2018 年 10 月にリリースされ、メインストリーム サポートは 2024 年 1 月 9 日まで予定されています。
 
-**Skype コンシューマーサービスについては、どういう意味がありますか?**<br>
-Skype for Business Online の廃止は、Skype コンシューマーサービスに影響を与えることはありません。
+**Skype コンシューマー サービスの意味**<br>
+Skype for Business Online のサポートがサポートされない場合、Skype コンシューマー サービスには影響はありません。
 
-**既存の Microsoft 365 のお客様にはどのような意味がありますか?**<br>
-一連の主要な Skype for Business Online の機能が、新しい音声、ビデオ、会議のイノベーションとともに Teams に組み込まれています。 Microsoft 365 のすべてのユーザーが、Skype for Business Online または Skype for business Server を使用して、組織内で今すぐ、または並行して Teams の使用を開始することをお勧めします。
+**これは、既存の Microsoft 365 のお客様にとってどのような意味がありますか?**<br>
+一連の主要な Skype for Business Online の機能が、新しい音声、ビデオ、会議のイノベーションとともに Teams に組み込まれています。 Microsoft 365 のすべてのお客様は、組織内で Skype for Business Online または Skype for Business Server と独立して、または横に並べて Teams の使用を開始することができます。
 
 **Skype for Business を改善するための投資は継続されますか?**<br>
-2021年7月31日までに Skype for Business Online をサポートする予定です。 ただし、Microsoft Teams が Skype for Business Online を Microsoft 365 の中核的な通信ソリューションとしてリプレースすることにより、継続的な開発と革新性が重視されるようになります。 最新の機能とパフォーマンスを求めているお客様は、Microsoft Teams にアップグレードすることをお勧めします。
+Skype for Business Online は、2021 年 7 月 31 日までサポートする予定です。 ただし、Microsoft Teams が Skype for Business Online を Microsoft 365 の主要な通信ソリューションに置き換えた場合でも、継続的な開発と技術革新に焦点を当て続け続けるものです。 最新の機能とパフォーマンスを求めているお客様は、Microsoft Teams へのアップグレードをお勧めしています。
 
-**現在展開のプロセスを行っているお客様、または Microsoft 365 の Skype for Business の展開を計画しているユーザーには、どのようなことを推奨しますか?**<br>
-現在 Skype for Business Online を展開しているお客様は、引き続きご使用いただけます。 新しい Microsoft 365 のすべてのユーザーが、Skype for Business との間で、または並行して、チームの使用を開始することをお勧めします。また、パス (共存またはチームのみ) とビジネスニーズを満たすタイミングを決定することもできます。 Skype for Business の使用期間にかかわらず、お客様は Skype for Business Online サポート終了日より前に Teams に移行していただく必要があります。
+**現在、Microsoft 365 の Skype for Business の展開または展開を計画しているお客様に推奨される機能**<br>
+現在 Skype for Business Online を展開しているお客様は、引き続きご使用いただけます。 Microsoft では、新しい Microsoft 365 のすべてのお客様に、Skype for Business とは独立して、または Skype for Business と並行して Teams の使用を開始し、ビジネス ニーズに合ったパス (共存または Teams のみ) とタイミングを決定してください。 Skype for Business の使用期間にかかわらず、お客様は Skype for Business Online サポート終了日より前に Teams に移行していただく必要があります。
 
 **ライセンスの観点から、これをどのように理解すればよいですか ? Teams のインテリジェント コミュニケーション サービスに対する支払い方法を教えてください。**<br>
-Teams は、Microsoft の多くの365スイートで利用できます。 現在 Skype for Business Online に含まれるプレミアム ワークロードの機能は Teams のプレミアム ワークロードとしても継続的に利用できます。 お客様によって投資された既存のライセンスは Teams に移転されます。 たとえば、Skype for Business で 電話会議スタンドアロンまたは E5 をご購入いただいているお客様は、Teams での電話会議が有効になり、すぐにご利用いただけます。
+Teams は、Microsoft 365 スイート製品の多くで利用できます。 現在 Skype for Business Online に含まれるプレミアム ワークロードの機能は Teams のプレミアム ワークロードとしても継続的に利用できます。 お客様によって投資された既存のライセンスは Teams に移転されます。 たとえば、Skype for Business で 電話会議スタンドアロンまたは E5 をご購入いただいているお客様は、Teams での電話会議が有効になり、すぐにご利用いただけます。
 
 **Microsoft はアップグレードの予定を計画していますか?**<br>
 現時点では、企業のお客様向けにはアップグレードの予定はありません。 Skype for Business Online のサポート終了日である 2021 年 7 月 31 日までに、組織にとって有意義な Teams への移行を選択していただけます。 Microsoft は、Teams への移行を支援するツールやガイダンスを管理者やユーザーに提供します。
 
-専用の IT リソースを持っていない小規模のお客様をサポートするために、Microsoft は、Skype for Business Online から Teams への自動アップグレードの支援を行っています。 アップグレードについて、該当するお客様には電子メールおよびメッセージ センターを介して通知されます。 そのコミュニケーションでは、その他の詳細情報も提供されます。 詳細については、[Skype for Business Online から Microsoft Teams への自動アップグレード](https://docs.microsoft.com/microsoftteams/upgrade-automated) をご確認ください。
+専用の IT リソースを持たしていない小規模のお客様をサポートするために、Microsoft は Skype for Business Online から Teams への自動アップグレードを支援しています。 アップグレードについて、該当するお客様には電子メールおよびメッセージ センターを介して通知されます。 そのコミュニケーションでは、その他の詳細情報も提供されます。 詳細については、[Skype for Business Online から Microsoft Teams への自動アップグレード](https://docs.microsoft.com/microsoftteams/upgrade-automated) をご確認ください。
 
 **Skype for Business Online サポートの終了は、ハイブリッド構成 (Skype for Business Online および Skype for Business Server) を使用している組織にどのような影響を与えますか?**<br>
 オンラインおよびオンプレミスのハイブリッド構成を使用しているお客様は、2021 年 7 月 31 日のサポート終了日までに Skype for Business Online から Microsoft Teams にユーザーを移行する必要があります。 共存と相互運用性の原則に基づいて構築されたハイブリッド構成のアップグレード パスは、Skype for Business Online の廃止後も残ります。 詳細については、「[Skype for Business と共存する](coexistence-chat-calls-presence.md)」および「[Microsoft Teams と Skype for Business の共存および相互運用性について理解する](teams-and-skypeforbusiness-coexistence-and-interoperability.md)」を参照してください。
 
-**Skype for Business Online の廃止は、オンプレミスの公衆交換電話網 (PSTN) 接続とオンライン電話システム機能のハイブリッド Skype for Business 構成を使用している組織にどのように影響しますか?**<br>
-一部の組織では、ホームオンプレミスの PSTN 接続と、電話システム機能用のホームオンラインの間でユーザーを分割しています。 Skype for Business Online の終了にアクセスした後は、オンラインユーザーを Microsoft Teams に移行して、 [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を通じてオンプレミスのテレフォニーネットワークを Teams に接続する必要があります。
+**Skype for Business Online の使用がサポートされ、オンプレミスの公衆交換電話網 (PSTN) 接続およびオンライン電話システム機能のハイブリッド Skype for Business 構成を使用する組織にどのような影響がありますか?**<br>
+一部の組織では、PSTN 接続用の自宅オンプレミスと電話システム用オンライン機能の間でユーザーを分割しています。 Skype for Business Online へのアクセスが終了したら、組織はオンライン ユーザーを Microsoft Teams に移行し、オンプレミスのテレフォニー ネットワークを直接ルーティングを通じて Teams に [接続する必要があります](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)。
 
 有効なサブスクリプションをお持ちのお客様は、[FastTrack](https://www.microsoft.com/fasttrack?rtc=1) に参加して Teams のオンボード サポートをお受けになるようお勧めします。
 
