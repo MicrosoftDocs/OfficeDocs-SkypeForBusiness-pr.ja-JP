@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: ヘッドセット、スピーカーフォン、Web カメラ、モニターなどの USB 周辺機器とデバイスが Microsoft Teams の認定を受けたものをご覧ください。
-ms.openlocfilehash: de4d0a071e0a50408c0c391eebde56fdc6f414df
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 75e9b8e901114d41d3e10bd00b0b81a4b4a2a2e8
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712305"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718581"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams の認定 USB オーディオ デバイスとビデオ デバイス
 
@@ -78,6 +78,13 @@ Teams での通話制御のサポートの詳細については、Teams のヘ�
 
 | [製造元]        | モデル                                                     | 認定      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Microsoft Teams にアップグレードした Skype for Business      |
+|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Microsoft Teams にアップグレードした Skype for Business      |
+|Dell                 |C3422WE モニター                                            |12/11/2020      |Microsoft Teams の認定                           |
+|Dell                 |C2722DE モニター                                            |12/11/2020      |Microsoft Teams の認定                           |
+|Dell                 |C2422HE モニター                                            |12/11/2020      |Microsoft Teams の認定                           |
+|Poly                 |20 台以上のスピーカーフォンと Poly BT600 USB ドングルを同期する          |11/9/2020       |Microsoft Teams の認定                           |
+|Poly                 |20 台のスピーカーフォンを同期する                                       |11/9/2020       |Microsoft Teams の認定                           |
 |Jabra                |Evolve 65t Headset                                         |10/31/2020      |Microsoft Teams にアップグレードした Skype for Business      |
 |EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Microsoft Teams にアップグレードした Skype for Business      |
 |EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Microsoft Teams にアップグレードした Skype for Business      |

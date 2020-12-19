@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9f8b331161ed4886f5e811fe7ed985af4cf12df
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
+ms.openlocfilehash: 6691b246e294db5b1d356431aa2a52f9b67d3446
+ms.sourcegitcommit: 6f1e245ac9a026468432a041a7255104191ae7d3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085685"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49716968"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
@@ -38,17 +38,18 @@ Microsoft Teams は、チャット、ビデオ会議、通話などの通信モ�
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams Certification プログラム用のコネクテッド コンタクト センター
 
-Api を使用すると、パートナーは、チームの CCaaS の開発と統合を行うことができます。 また、microsoft Teams 認定プログラム用の接続された連絡先センターが開発され、お客様は、お客様が Microsoft ソリューションに期待する品質、互換性、信頼性を提供できることを保証しています。
+この API を使用すると、パートナーは Teams 用の CCaaS ソリューションを開発して統合できます。 さらに、Microsoft Teams 認定プログラム用の接続コンタクト センターを開発し、参加している各パートナーのソリューションがテストされ、確認され、Microsoft ソリューションから期待される品質、互換性、信頼性を提供する保証を顧客に提供しています。
 
 次のパートナーは、Microsoft Teams 向けのソリューションの認定中であり、顧客を支援する準備が整っています。
 
 |  パートナー                                                                                                                               |  ソリューションの Web サイト                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `8x8` | https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams?locale=us |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `ContactCenter4All` | www.contactcenter4all.com |
-| ' コンテンツの達人 ' | https://www.contentguru.com/microsoft-teams-integration/    |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
@@ -165,8 +166,8 @@ Microsoft Teams でサポートされている統合モデルの概要につい�
 <th></th>
 <th>Teams の音声アプリ</th>
 <th>接続</th>
-<th>はみ出す</th>
-<th>活用</th>
+<th>拡張</th>
+<th>電源</th>
 </tr>
 </thead>
 <tbody>

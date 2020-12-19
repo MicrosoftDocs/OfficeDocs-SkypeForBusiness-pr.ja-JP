@@ -20,13 +20,13 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 - seo-marvel-apr2020
-description: 最善の結果を得るために Microsoft Teams に対して認定されている机と電話会議の電話番号について説明します。
-ms.openlocfilehash: f638e1fc92383a366f5957c66a7e3bae0dc58807
-ms.sourcegitcommit: b6aeaa3d98c29bdc120db8ccfcb7ff2c11d246af
+description: 最適な結果を得る Microsoft Teams の認定を受けたデスク電話と電話会議について説明します。
+ms.openlocfilehash: 05598dfa351e62674c3ff9a9498672614f41a5d1
+ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49570896"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "49718601"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -44,119 +44,121 @@ Teams IP Phone 認定プログラムの一環としてのお客様へのさま�
 
 Microsoft Teams の認定を受けているのは、以下の電話です:
 
-| 電話の機種                            | ファームウェアのバージョン                                                                                                                                                                                                                           | リリース日                 |
+| 電話モデル                            | ファームウェアのバージョン                                                                                                                                                                                                                           | リリース日                 |
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
 | Audiocodes C448HD (CAP モードのみ)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
-|Crestron UC-2                           |1.0.1.46                                                  | 2020年7月                    |
-| Crestron M100                          | この製品は廃止されました。 詳細については、「Crestron [M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) の web サイトを参照してください。 | 5/11/2020 で廃止 |
-| Crestron Flex UC-P100-T & UC-P110-T    | この製品は廃止されました。 詳細については、「Crestron it の web サイト」の「 [UC 携帯電話](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) 」を参照してください。                  | 5/11/2020 で廃止 |
-| Lenovo ThinkSmart View                 | CD-18781Y                                                                                                                                                                                                                       | 2020年4月                   |
-| Poly 3 つ C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020年4月                   |
+|クレットロン UC-2                           |1.0.1.46                                                  | 2020 年 7 月                    |
+| Crestron M100                          | この製品は廃止されました。 詳細については、カドロンの Web サイトで、クナロン [M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) にアクセスしてください。 | 2020 年 5 月 11 日に廃止 |
+| Crestron Flex UC-P100-T & UC-P110-T    | この製品は廃止されました。 詳細については、 [クデロンの Web](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) サイトにある UC Phone を参照してください。                  | 2020 年 5 月 11 日に廃止 |
+| Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | 2020 年 4 月                   |
+| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020 年 4 月                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020 年 1 月                 |
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 年 1 月                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 年 12 月                |
 | Poly Trio 8500/8800 (共有モードのみ) | 5.9.0.10869                                                                                                                                                                                                                                | 2019 年 6 月                    |
-| ごみ箱 MP54 | 122.15.0.27| 2020年11月 |
+| Yealink MP58 | 122.15.0.27| 2020 年 12 月 |
+| Yealink MP54 | 122.15.0.27| 2020 年 11 月 |
 | Yealink MP56 | 122.15.0.6 | 2020 年 3 月    |
 | Yealink VP59 | 91.15.0.16 | 2019 年 6 月     |
 | Yealink T55  | 58.15.0.36 | 2019 年 5 月      |
 | Yealink CP 960| 73.15.0.20 | 2018 年 12 月|
 | Yealink T58 & T56 シリーズ | 58.15.0.20 | 2018 年 12 月 |
 
-## <a name="currently-certified-collaboration-bars"></a>現在認定済みのコラボレーションバー
+## <a name="currently-certified-collaboration-bars"></a>現在認定されているコラボレーション バー
 
-Microsoft Teams では、次のコラボレーションバーが認定されています。
+次のコラボレーション バーは、Microsoft Teams の認定を受けています。
 
-| コラボレーションバーモデル | ファームウェアのバージョン | リリース日  | 会議室のサイズ (最大)                                         |
+| コラボレーション バー モデル | ファームウェアのバージョン | リリース日  | 部屋のサイズ (最大)                                         |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| ごみ箱の会議バーの A20  | 133.15.0.19      | 2020年11月 | フォーカスルーム (3m x 3m) </br> 小会議室 (4.5 m x 4.5 m) |
-| Poly Studio X30         | 3.1.1.216109     | 2020年6月     | フォーカスルーム (3m x 3m) </br> 小会議室 (4.5 m x 4.5 m) |
-| Poly Studio X50         | 3.1.1.216109     | 2020年6月     | フォーカスルーム (3m x 3m) </br> 小会議室 (4.5 m x 4.5 m) |
-| Yealink VC210           | 118.15.0.14      | 2020 年 2 月 | フォーカスルーム (3m x 3m) </br> 小会議室 (4.5 m x 4.5 m) |
+| Yealink MeetingBar A20  | 133.15.0.19      | 2020 年 11 月 | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
+| Poly Studio X30         | 3.1.1.216109     | 2020 年 6 月     | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
+| Poly Studio X50         | 3.1.1.216109     | 2020 年 6 月     | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
+| Yealink VC210           | 118.15.0.14      | 2020 年 2 月 | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
 
-## <a name="currently-certified-teams-display"></a>現在認定しているチームの表示
-以下の Teams では、Microsoft Teams について認定されています。
+## <a name="currently-certified-teams-display"></a>現在認定されている Teams の表示
+次の Teams の表示は、Microsoft Teams の認定済みです。
 
 | Teams の表示モデル | ファームウェアのバージョン | リリース日  |                                         
 |:------------------------|:-----------------|:--------------|
-|Lenovo ThinkSmart View|CD-18781Y|2020年10月 |
+|Lenovo ThinkSmart View|CD-18781Y.201006.099|2020 年 10 月 |
 
-### <a name="product-release-information-for-teams-phones"></a>Teams 電話の製品リリース情報
+### <a name="product-release-information-for-teams-phones"></a>Teams Phone の製品リリース情報
 
-次に示すのは、最新の Teams の IP 電話アプリとファームウェアバージョンです。
+以下は、最新の Teams IP 電話アプリとファームウェアバージョンです。
 
 #### <a name="app-versions"></a>アプリのバージョン
 
-| 製品リリース | リリース日  | Microsoft Teams アプリのバージョン | 会社ポータルのバージョン | 管理エージェントのバージョン |
+| 製品リリース | リリース日  | Microsoft Teams アプリのバージョン | ポータル サイトのバージョン | 管理エージェントのバージョン |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| 更新 #6  | 2020年10月12日  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446 (216) |
-| 更新 #5  | 2020年8月31日 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446 (216) |
-| 更新 #4  | 2020年6月30日 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| 更新 #3  | 2020年5月13日  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
+| 更新#7  | 2020 年 12 月 8 日  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
+| 更新#6  | 2020 年 10 月 12 日  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
+| 更新#5  | 2020 年 8 月 31 日 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
+| 更新#4  | 2020 年 6 月 30 日 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| 更新#3  | 2020 年 5 月 13 日  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
 
 #### <a name="firmware-versions"></a>ファームウェアのバージョン
 
-デバイスに新しいファームウェアバージョンをインストールすると、対応する Microsoft Teams アプリ、ポータル、管理エージェント、インストールされているバージョンを特定するには、[ **同梱製品リリース** ] 列の製品リリースを検索します。 次に、上の **アプリバージョン** の表で製品リリースを確認します。
+デバイスに新しいファームウェア バージョンをインストールすると、対応する Microsoft Teams アプリ、ポータル サイト、管理エージェント (含まれる製品リリース列で製品リリースを見つけることによってインストールされるバージョン) を **特定できます。** 次に、上記の App **versions テーブルで製品リリースを確認** します。
 
-| デバイスモデル        | ファームウェアのバージョン     | Year/同梱製品のリリース  |
+| デバイス モデル        | ファームウェアのバージョン     | 年/含まれる製品リリース  |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes の C448HD   | C450HD_TEAMS_1 7.9   | 2020、更新 #6           |
-| AudioCodes の C450HD   | C450HD_TEAMS_1 7.9   | 2020、更新 #6           |
-|Lenovo ThinkSmart View|CD-18781Y | 2020、更新 #6           |
-| Poly CCX400         | 6.2.22.0185          | 2020、更新 #6           |
-| Poly CCX500/CCX600  | 6.2.22.0185          | 2020、更新 #6           |
-| Poly 3 つ C60       | 5.9.5.2983           | 2020、更新 #6           |
-| T55/T56/T58 | 58.15.0.116          | 2020、更新 #6           |
-| Yealink MP56        | 122.15.0.23          | 2020、更新 #6           |
-| Yealink VP59        | 91.15.0.48           | 2020、更新 #6           |
-| ごみ箱 CP960       | 73.15.0.109          | 2020、更新 #6           |
+| AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 更新プログラム#7           |
+| AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 更新プログラム#7           |
+| Lenovo ThinkSmart View|CD-18781Y.200922.098 | 2020 更新プログラム#6           |
+| Poly CCX400         | 6.2.23.0202         | 2020 更新プログラム#7           |
+| Poly CCX500/CCX600  | 6.2.23.0202         | 2020 更新プログラム#7          |
+| Poly Trio C60       | 6.2.23.0202          | 2020 更新プログラム#7          |
+| Yealink T55/T56/T58 | 58.15.0.118         | 2020 更新プログラム#7           |
+| Yealink MP56        | 122.15.0.27          | 2020 更新プログラム#7           |
+| Yealink VP59        | 91.15.0.50          | 2020 更新プログラム#7           |
+| Yealink CP960       | 73.15.0.111       | 2020 更新プログラム#7           |
 
-### <a name="product-release-information-for-collaboration-bars"></a>グループ作業バーの製品リリース情報
+### <a name="product-release-information-for-collaboration-bars"></a>コラボレーション バーの製品リリース情報
 
-次に示すのは、最新の Teams のコラボレーションバーアプリとファームウェアバージョンです。
-
-#### <a name="app-versions"></a>アプリのバージョン
-
-| 製品リリース| リリース日 | Microsoft Teams アプリのバージョン | 会社ポータルのバージョン | 管理エージェントのバージョン |
-|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 更新 #3  |2020年11月24日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446 のバージョンコード: 216 |
-| 更新 #2  | 2020年8月24日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552 のバージョンコード: 212|
-| 更新 #1  | 2020年5月13日 | 040901                     | 4715                  | 210                |
-
-#### <a name="firmware-versions"></a>ファームウェアのバージョン
-
-デバイスに新しいファームウェアバージョンをインストールすると、対応する Microsoft Teams アプリ、ポータル、管理エージェント、インストールされているバージョンを特定するには、[ **同梱製品リリース** ] 列の製品リリースを検索します。 次に、上の **アプリバージョン** の表で製品リリースを確認します。
-
-| デバイスモデル  | ファームウェアのバージョン | Year/同梱製品のリリース |
-|:--------------|:-----------------|:-------------------------|
-| VC210 + CP900 | 118.15.0.42     | 2020、更新 #3    |
-| Poly Studio X30 | 3.2.3.280012          | 2020、更新 #3    |
-| Poly Studio X50 | 3.2.3.280012          | 2020、更新 #3    |
-
-### <a name="product-release-information-for-teams-display"></a>Teams 表示の製品リリース情報
-
-次に、最新の Teams の表示アプリとファームウェアバージョンを示します。
+以下は、最新の Teams コラボレーション バー アプリとファームウェアバージョンです。
 
 #### <a name="app-versions"></a>アプリのバージョン
 
-|製品リリース| リリース日 | Microsoft Teams アプリのバージョン | 会社ポータルのバージョン | 管理エージェントのバージョン |
+| 製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイトのバージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|更新 #1  |2020年10月22日 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446|
+| 更新#3  |2020 年 11 月 24 日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product versioncode: 216 |
+| 更新#2  | 2020 年 8 月 24 日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product versioncode: 212|
+| 更新#1  | 2020 年 5 月 13 日 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>ファームウェアのバージョン
 
-デバイスに新しいファームウェアバージョンをインストールすると、対応する Microsoft Teams アプリ、ポータル、管理エージェント、インストールされているバージョンを特定するには、[ **同梱製品リリース** ] 列の製品リリースを検索します。 次に、上の **アプリバージョン** の表で製品リリースを確認します。
+デバイスに新しいファームウェア バージョンをインストールすると、対応する Microsoft Teams アプリ、ポータル サイト、管理エージェント (含まれる製品リリース列で製品リリースを見つけることによってインストールされるバージョン) を **特定できます。** 次に、上記の App **versions テーブルで製品リリースを確認** します。
 
-| デバイスモデル  | ファームウェアのバージョン | Year/同梱製品のリリース|
+| デバイス モデル  | ファームウェアのバージョン | 年/ 含まれる製品リリース |
 |:--------------|:-----------------|:-------------------------|
-|Lenovo ThinkSmart View| CD-18781Y |2020、更新 #1 |
+| Yealink VC210 + CP900 | 118.15.0.42     | 2020 年、更新プログラム#3    |
+| Poly Studio X30 | 3.2.3.280012          | 2020 年、更新プログラム#3    |
+| Poly Studio X50 | 3.2.3.280012          | 2020 年、更新プログラム#3    |
+
+### <a name="product-release-information-for-teams-display"></a>Teams の製品リリース情報の表示
+
+Teams の最新の表示アプリとファームウェアのバージョンは次のとおりです。
+
+#### <a name="app-versions"></a>アプリのバージョン
+
+|製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイトのバージョン | 管理エージェントのバージョン |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|更新#1  |2020 年 10 月 22 日 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+
+#### <a name="firmware-versions"></a>ファームウェアのバージョン
+
+デバイスに新しいファームウェア バージョンをインストールすると、対応する Microsoft Teams アプリ、ポータル サイト、管理エージェント (含まれる製品リリース列で製品リリースを見つけることによってインストールされるバージョン) を **特定できます。** 次に、上記の App **versions テーブルで製品リリースを確認** します。
+
+| デバイス モデル  | ファームウェアのバージョン | 年/ 含まれる製品リリース|
+|:--------------|:-----------------|:-------------------------|
+|Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020 年、更新プログラム#1 |
 
 これらのデバイスでサポートされている機能については、「[Microsoft Teams phones feature set (Microsoft Teams の電話機能セット)](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set)」を参照してください。
 
 ご利用のモバイル デバイスのファームウェア バージョンを確認するには、「[Finding the Firmware version on a mobile device (モバイルデバイスのファームウェアバージョンの検索)](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device)」を参照してください。
 
-Microsoft Teams ライセンスは、 [microsoft 365 または Office 365 サブスクリプション](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)の一部として購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、利用可能な[電話システムライセンス](https://products.office.com/microsoft-teams/voice-calling)を参照してください。
+Microsoft Teams ライセンスは [、Microsoft 365 または 365 サブスクリプションの一](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)部としてOffice購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、利用可能な[電話システムライセンス](https://products.office.com/microsoft-teams/voice-calling)を参照してください。
 
 Teams の入手方法については[Microsoft Teams へのアクセス権を取得するにはどうしたらよいですか?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)を参照してください。
 
@@ -170,4 +172,4 @@ Teams の入手方法については[Microsoft Teams へのアクセス権を取
 
 [Microsoft Teams の電話と認定デバイスについて。](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[チームと Skype の相互運用性](../teams-skype-interop.md)
+[Teams と Skype の相互運用性](../teams-skype-interop.md)
