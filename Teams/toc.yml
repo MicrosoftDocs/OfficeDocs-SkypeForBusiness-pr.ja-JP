@@ -974,7 +974,7 @@
     - name: Skype for Business Online のサポート終了
       href: skype-for-business-online-retirement.md
     - name: よくあるご質問 (FAQ)
-      href: FAQ-journey.md
+      href: FAQ-journey.yml
     - name: テクニカル ライブラリ
       items:
         - name: IT 管​​理者向けのアップグレード ガイダンス
