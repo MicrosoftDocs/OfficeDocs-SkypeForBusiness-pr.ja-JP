@@ -636,6 +636,8 @@
               href: phone-number-calling-plans/manually-submit-port-order.md
             - name: 番号移行注文の状況
               href: phone-number-calling-plans/port-order-status.md
+        - name: サポートされているレート センターとカバレッジ
+          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
     - name: 通話ルーティング
       items:
         - name: ダイヤル プランについて
