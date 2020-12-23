@@ -1,5 +1,5 @@
 ---
-title: OneDrive for Business と SharePoint を使って会議のレコーディングを行う
+title: OneDrive for Business と SharePoint を使用して会議の記録を行う
 author: cichur
 ms.author: v-cichur
 ms.reviewer: hao.moy
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft Teams で Stream から OneDrive for Business および SharePoint 会議レコーディング ストレージに切り替える方法について説明します。
+description: Microsoft Teams で Stream から OneDrive for Business および SharePoint meeting の記録ストレージに切り替える方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -19,73 +19,73 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ea07079a94e2f76f8833e0854fd0161b4ff9ec09
 ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/10/2020
 ms.locfileid: "49620712"
 ---
-# <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使って会議のレコーディングを行う
+# <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
 > [!Note]
-> Microsoft Stream を使用して OneDrive for Business および Microsoft SharePoint を会議のレコーディングに変更する方法は、段階的なアプローチになります。
+> Microsoft Stream から 会議の記録用の OneDrive for Business および Microsoft SharePoint への変更は段階的なアプローチになります。
 
 |<div style="width:290px">日付&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |イベント&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|2020 年 10 月 5 日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Teams 会議ポリシーを有効にして、会議の記録を Microsoft Stream (クラシック) ではなく OneDrive for Business と SharePoint に保存することができます。|
-|2021 年 1 月 7 日から展開 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|組織の Teams 会議ポリシーを変更し、明示的に Stream に設定してこの変更を遅らせない限り、すべての新しい Teams 会議レコーディングは OneDrive for Business および SharePoint に保存 **されます。** ポリシーレポートを Stream として表示するには十分ではありません。 ポリシー値を Stream に明示的に設定する必要 **があります**。|
-|2021 年 1 月 11 日から展開 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC のみ**<br> GCC のお客様は 10 月 5 日からオプトアウトすることができますが、オプトインできません。 この機能は、オプトアウトしない限り、2021 年 1 月 11 日からすべての GCC ユーザーに展開されます。<br>  <br>2021 年 1 月 11 日から、GCC ユーザー向けのすべての新しい Teams 会議レコーディングは、組織の Teams 会議ポリシーを変更し、明示的に Stream に設定してこの変更を遅らせない限り、OneDrive for Business と SharePoint に保存されます。 <br><br>無効にしたが、この機能を有効にする準備ができている場合は、Teams 会議ポリシーを **OneDrive for Business** に明示的に設定して有効にできます。 |
-|2021 年 3 月 1 日から展開 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**エンタープライズ & GCC のお客様**<br>新しい会議レコーディングを Microsoft Stream (クラシック) に保存することはできません。Teams の会議ポリシーを Stream に変更した場合でも、すべてのユーザーが会議の記録を **OneDrive for Business** と SharePoint に自動的に保存します。<br><br> この機能は、リリースのタイミングを制御できるよう、この日付より前にロールアウトすることをお勧めします。 |
-|2021 年 7 月 7 日から展開 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**教育のお客様**<br>新しい会議レコーディングを Microsoft Stream (クラシック) に保存することはできません。Teams の会議ポリシーを Stream に変更した場合でも、すべてのユーザーが会議の記録を **OneDrive for Business** と SharePoint に自動的に保存します。<br><br> この機能は、リリースのタイミングを制御できるよう、この日付より前にロールアウトすることをお勧めします。 このスケジュールを更新して、学期中に学期を完了する機能を教育のお客様に提供しました。 |
+|2020 年 10 月 5 日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| [Teams ミーティング ポリシー] を有効にすると、Microsoft Stream (クラシック) の代わりに OneDrive for Business と SharePoint に会議の記録を保存することができます|
+|2021年1月7日より開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することで、この変更を後回しにしない限り、すべての新しい Teams 会議の記録を OneDrive for Business と SharePoint に保存します。 Stream をポリシーで報告するだけでは十分ではありません。 ポリシー値を明示的に **Stream** に設定する必要があります。|
+|2021年1月11日より開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC のみ**<br> GCC をご利用のお客様は、10 月 5 日からオプトアウトすることはできますが、オプト インすることはできません。 この機能は、(オプトアウト) を使用していない場合、2021 年 1 月 11 日以降のすべての GCC ユーザーにロールアウトされます。<br>  <br>2021 年 1 月 11 日から、GCC をご利用のお客様は、組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することによって、この変更を遅らせない限りは、Teams の会議記録はすべて OneDrive for Business と SharePoint に保存されます。 <br><br>オプトアウトしても、この機能を有効にする準備ができたら、Teams の会議ポリシーを明示的に **OneDrive for Business** に設定することで、この機能を有効にすることができます。 |
+|2021 年 3 月 1 日からロールアウト開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**エンタープライズ & GCC ユーザー**<br>**Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。**<br><br> ユーザーがリリースのタイミングを制御できるように、この日付より前にこの機能のロール アウトをすることをお勧めします。 |
+|2021 年 7 月 7 日よりロール アウト開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**教育機関のお客様**<br>**Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。**<br><br> ユーザーがリリースのタイミングを制御できるように、この日付より前にこの機能のロール アウトをすることをお勧めします。 このスケジュールは、教育機関のお客様が進行中のセメスター を完了できるようにするために更新されました。 |
 
 > [!Note]
-> エンタープライズおよび教育機関のお客様は、組織の変更をより詳細に制御するために、変更の発生を待つ代わりに、変更に快適に取りかかわるたびにオプトインすることをお勧めします。
+> エンタープライズおよび教育機関のお客様は、組織の変化をより効果的に管理するために、変更が可能になるまで待つよりも、変更するのが都合が良いタイミングでオプト インすることをお薦めします。
 
-Microsoft Teams には、会議の記録を保存する新しい方法があります。 従来の Microsoft Stream から新しい [Stream](https://docs.microsoft.com/stream/streamnew/new-stream)への移行の第 1 フェーズとして、この方法では Microsoft 365 の Microsoft OneDrive for Business と SharePoint にレコーディングが保存され、多くの利点があります。
+Microsoft Teams には、会議の記録を保存するための新しい方法があります。 従来の Microsoft Stream から[新しい Stream](https://docs.microsoft.com/stream/streamnew/new-stream) への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。
 
-OneDrive for Business と SharePoint を使用してレコーディングを保存する利点は次のとおりです。
+記録の保存に OneDrive for Business と SharePoint を使用すると、次のような利点があります。
 
-- Teams 会議レコーディング (TMR) のアイテム保持ポリシー (S + C E5 自動送信ラベル)
-- OneDrive for Business と SharePoint の情報ガバナンスの利点
-- 簡単にアクセス許可と共有を設定する
-- 明示的な共有のみを使用してゲスト (外部ユーザー) とレコーディングを共有する
+- Teams 会議記録 (TMR) (S + C E5 自動保持ラベル) 用アイテム保持ポリシー
+- OneDrive for Business と SharePoint information ガバナンスの恩恵を受ける
+- アクセス許可と共有を簡単に設定
+- 明示的な共有のみを使用してゲスト (外部ユーザー) とレコーディング を共有する
 - アクセス フローを要求する
-- OneDrive for Business と SharePoint の共有リンクを提供する
+- OneDrive for Business と SharePoint 共有リンクを提供する
 - クォータの増加
-- 会議の記録が速く利用できる
-- **ローカル テナントの** サポートに移動する
-- 複数地域のサポート – レコーディングは、そのユーザーに固有の地域に保存されます。
-- 独自のキー (BYOK) のサポートを利用する
-- トランスクリプトの品質とスピーカー属性の改善
+- 会議の記録をより早く使用できるようにする
+- **ローカルにする** テナントへのサポート
+- 複数地域のサポート – 記録はそのユーザーに固有の地域に格納されます。
+- 独自のキー (BYOK) サポートを利用する
+- トランスクリプトの品質とスピーカーの属性の改善
 
-次のような制限事項を考慮する必要があります。
+サービスにはいくつかの制約事項があります。
 
-- 英語専用のクローズド キャプションとトランスクリプトがあります。
-- トランスクリプトやコンテンツを検索できない。
-- トランスクリプトを編集できないが、キャプションのオン/オフを切り替える。
-- 記録を共有する相手を制御できますが、共有アクセス権を持つユーザーによるレコーディングのダウンロードをブロックする機能は使用できます。
-- 記録の保存が完了するとメールは送信されませんが、記録が完了すると会議チャットに表示されます。 これは以前の Stream よりも早く発生します
+- 英語のみでクローズド キャプションとトランスクリプトが表示されます。
+- トランスクリプトやその内容を検索することはできません。
+- トランスクリプトは編集できませんが、キャプションのオン/オフを切り替えることができます。
+- 記録を共有するユーザーを制御することはできますが、共有アクセス権を持つユーザーが記録をダウンロードできないようにすることはできません。
+- 記録の保存が完了しても、メールは送信されません。完了したレコーディングは、会議のチャットに表示されます。 以前の Stream と比べてはるかに早くなります。
 
 詳細については、「会議の記録」を参照してください。
 
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
-## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>OneDrive for Business と SharePoint の会議レコーディング オプションを設定する
+## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>OneDrive for Business および SharePoint の会議の記録オプションをセットアップする
 
-会議の記録オプションは、Teams ポリシー レベルでの設定です。 次の例は、グローバル ポリシーを設定する方法を示しています。 ユーザーに割り当てたポリシーの会議レコーディング オプションを設定してください。
+[会議の記録] オプションは、チーム ポリシー レベルの設定です。 次の例では、グローバル ポリシーの設定方法を示しています。 ユーザーに割り当てたポリシーに対して、[会議の記録] オプションが設定されていることを確認します。
 
 > [!Note]
-> Teams 会議ポリシーの変更が反映されるには、しばらく時間がかかる。 数時間の設定後にもう一度確認し、サインアウトしてもう一度サインインします。
+> Teams の会議ポリシー変更の反映にはしばらく時間がかかります。 設定して数時間後に確認してください。もう一度サインアウトしてサインインし直してください。
 
-1. Skype for Business Online PowerShell をインストールします。
-**注**: Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールの一部です。 最新の Teams PowerShell パブリック リリースを使用している場合は、Skype for Business Online Connector をインストールする必要があります。 [「PowerShell で Skype for Business Online を管理する」を参照してください](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。
+1. Skype for Business Online PowerShell のインストール
+**注**: Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。 「[PowerShell を使用する Skype for Business Online を管理する](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)」を参照してください。
 
-    a. [Skype for Business Online PowerShell をダウンロードします](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)。
+    a. [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)をダウンローします。
 
-    b. 画面の指示に従ってインストールします。
+    b. 指示に従ってインストールします。
 
-    c. コンピューターを再起動します。
+    c. コンピューターを再起動する
 
-2. 管理者として PowerShell を起動する
+2. 管理者として Windows PowerShell を開きます。
 
 3. SkypeOnline Connector をインポートし、Teams 管理者としてサインインします。
 
@@ -95,93 +95,93 @@ OneDrive for Business と SharePoint を使用してレコーディングを保�
    Import-PSSession $sfbSession
    ```
 
-4. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)を使用して、Stream ストレージから OneDrive for Business および SharePoint に移行する Teams 会議ポリシーを設定します。
+4. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) を使用して、Teams 会議ポリシーを設定し、Stream ストレージから OneDrive for Business と SharePoint に切り替えます。
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
 > [!Note]
-> 一部のユーザーが開催者ごとのポリシーまたはユーザーごとのポリシーを割り当てている場合、会議の記録を OneDrive for Business と SharePoint にも保存する場合は、このポリシーでこの設定を設定する必要があります。 詳細については [、「Teams で会議ポリシーを管理する」を参照してください](meeting-policies-in-teams.md)。
+> ユーザーの中に、開催者単位またはユーザー単位のポリシーが割り当てられているユーザーがいる場合は、ポリシーのこの設定を設定して、OneDrive for Business と SharePoint で会議の記録を保存できるようにする必要があります。 詳細については、「[Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)」を参照してください。
 
-## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>引き続き Stream を使用するには、OneDrive for Business と SharePoint をオプトアウトする
+## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>OneDrive for Business と SharePoint をオプトアウトして Stream の使用を継続する
 
-ポリシーで Stream に設定されている場合でも、設定されていない可能性があります。 通常、ポリシーが設定されていない場合、既定の設定は **Stream です**。 ただし、この新しい変更により、SharePoint または OneDrive for Business の使用をオプトアウトする場合は、Stream が既定のポリシーにリセットされる必要があります。
+ポリシーによって **Stream** に設定されているはずの場合でも、設定されていない可能性があります。 通常、ポリシーが設定されていない場合、既定の設定は **Stream** です。 ただし、この新しい変更では、SharePoint や OneDrive for business の使用をオプト アウトする場合は、**stream** が既定であることを確認するために、ポリシーを **Stream** に再設定する必要があります。
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
 
-## <a name="permissions-or-role-based-access"></a>アクセス許可またはロール ベースのアクセス
+## <a name="permissions-or-role-based-access"></a>アクセス許可とロール ベースのアクセス
 
 > [!Note]
-> Teams 会議レコーディングを共有する場合は、受信者がログインしているユーザーである必要があります。 SharePoint **のファイルまたはフォルダーに** ドキュメントとしてファイルを共有する場合は、[組織内のユーザー] [オプションを選択します](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US)。 外部共有は、サイズの大きいファイルや大量のファイルを配布するようには設計されていない。 詐欺や悪用のシナリオを防ぐために、大量のデータを外部ユーザーと共有するときに問題が発生する場合があります。
+> Teams 会議の記録を共有する場合は、受信者がログインしている状態にすることをお勧めします。 「[SharePoint ファイルまたはフォルダーを共有する](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US)」 に記載されているようにファイルを共有するときは、[**ユーザー (所属組織内)**] オプションを選択します。 外部共有は、サイズの大きいファイルや大量のファイルを配布するためのものではありません。 外部ユーザーに大量のデータを共有するときに詐欺と悪用のシナリオを防ぐ関連で、問題が発生することがあります。
 
-|会議の種類                               | [レコード] をクリックしたユーザー| 記録はどこに保存されますか?                               |アクセス権を持つユーザー R/W、R、または共有                                                                                                                                                                                                                                                     |
+|会議の種類                               | レコードをクリックしたのは誰ですか?| 記録はどこにありますか?                               |誰にアクセス権が与えられるか? R/W、R、または共有                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|内部関係者との 1 対 1 の通話             |[発信者]                 |発信者の OneDrive for Business アカウント                        |呼び出し元は所有者であり、完全な権限を持っています。 <br /><br />呼び出し先 (同じテナント内の場合) には読み取り専用アクセス権があります。 共有アクセスなし。 <br /><br /> 呼び出し先 (別のテナントの場合) にはアクセス権はありません。 発信者は呼び出し先と共有する必要があります。|
-|内部関係者との 1 対 1 の通話             |[呼び出し先]                 |呼び出し先の OneDrive for Business アカウント                        |呼び出し先は所有者であり、完全な権限を持っています。 <br /><br />呼び出し元 (同じテナント内に読み取り専用アクセス権がある場合)。 共有アクセスなし。 <br /><br />呼び出し元 (別のテナントの場合) にアクセス権がない。 呼び出し先は発信者と共有する必要があります。|
-|外部通話での 1 対 1 の通話             |[発信者]                 |発信者の OneDrive for Business アカウント                        |呼び出し元は所有者であり、完全な権限を持っています。<br /> <br />呼び出し先にはアクセス権はありません。 発信者は呼び出し先と共有する必要があります。|
-|外部通話での 1 対 1 の通話             |[呼び出し先]                 |呼び出し先の OneDrive for Business アカウント                        |呼び出し先は所有者であり、完全な権限を持っています。<br /><br />呼び出し元にはアクセス権はありません。 呼び出し先は発信者と共有する必要があります。|
-|グループ通話                                 |通話の任意のメンバー |レコードの OneDrive for Business アカウントをクリックしたメンバー  |[レコード] をクリックしたメンバーには、完全な権限があります。 <br /><br /> 同じテナントの他のメンバーには読み取り権限があります。 <br /><br /> 異なるテナントの他のメンバーには、その権限はありません。|
-|Adhoc/スケジュールされた会議                    |[開催者]              |開催者の OneDrive for Business アカウント                     |開催者には、記録に対する完全な権限があります。 <br /><br /> 会議の他のすべてのメンバーは読み取りアクセス権を持っています。|
-|Adhoc/スケジュールされた会議                    |他の会議メンバー   |[レコード] をクリックしたメンバー                                  |[レコード] をクリックしたメンバーには、記録に対する完全な権限があります。 <br /><br />開催者は編集権限を持ち、共有できます。<br /><br /> 他のすべてのメンバーは読み取りアクセス権を持っています。|
-|Adhoc/外部ユーザーとのスケジュールされた会議|[開催者]              |開催者の OneDrive for Business アカウント                     |開催者には、記録に対する完全な権限があります。<br /> <br /> 開催者と同じテナントの会議の他のすべてのメンバーは、読み取りアクセス権を持っています。 <br /><br /> 他のすべての外部メンバーはアクセス権を持たず、開催者がアクセス権を共有する必要があります。|
-|Adhoc/外部ユーザーとのスケジュールされた会議|他の会議メンバー   |[レコード] をクリックしたメンバー                                  |[レコード] をクリックしたメンバーには、記録に対する完全な権限があります。 開催者は編集権限を持ち、共有できます。 <br /><br /> 開催者と同じテナントの会議の他のすべてのメンバーは、読み取りアクセス権を持っています。 <br /><br />他のすべての外部メンバーはアクセス権を持たず、開催者がアクセス権を共有する必要があります。|
-|チャネル会議                            |チャネル メンバー         |そのチャネルの Teams の SharePoint の場所                   |[レコード] をクリックしたメンバーには、記録に対する編集権限があります。 <br /> <br />他のすべてのメンバーの権限は、Channel SharePoint の権限に基づいて設定されます。|
+|社内関係者との １ 対 １ の通話             |発信者                 |発信者の OneDrive for Business アカウントです。                        |発信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />(同じテナント内の) 受信者には読み取り専用アクセス権が与えられます。 共有アクセスはありません。 <br /><br /> (別のテナントの場合) 受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
+|社内関係者との １ 対 １ の通話             |受信者                 |受信者の OneDrive for Business アカウントです。                        |受信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />発信者 (同じテナントの場合は読み取り専用アクセス権がある場合)。 共有アクセスはありません。 <br /><br />(別のテナントの場合) 発信者はアクセス権を持っていません。 発信者に共有する必要があります。|
+|外部通話を使用した １ 対 １ の通話             |発信者                 |発信者の OneDrive for Business アカウントです。                        |発信者は所有者であり、完全なアクセス権限を持っています。<br /> <br />受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
+|外部通話を使用した １ 対 １ の通話             |受信者                 |受信者の OneDrive for Business アカウントです。                        |受信者は所有者であり、完全なアクセス権限を持っています。<br /><br />発信者にはアクセス権がありません。 受信者は発信者に共有する必要があります。|
+|グループ通話                                 |通話のいずれかのメンバー |レコードの OneDrive for Business アカウントをクリックしたメンバー  |レコードをクリックしたメンバーは完全な権限を持っています。 <br /><br /> 同じテナントの他のメンバーには読み取り権限があります。 <br /><br /> 別のテナントの他のメンバーには、何の権限もありません。|
+|アドホック/スケジュールされた会議                    |開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。 <br /><br /> 会議の他のメンバー全員が読み取りアクセス権を持ちます。|
+|アドホック/スケジュールされた会議                    |その他の会議メンバー   |レコードをクリックしたメンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 <br /><br />開催者は編集の権利を持ち、共有できます。<br /><br /> 他のすべてのメンバーは読み取りアクセス権を持ちます。|
+|外部ユーザーとのアドホック/予定された会議|開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。<br /> <br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br /> 他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
+|外部ユーザーとのアドホック/予定された会議|その他の会議メンバー   |レコードをクリックしたメンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 開催者は編集の権利を持ち、共有できます。 <br /><br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br />他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
+|チャネル会議                            |チャネル メンバー         |そのチャネルの Teams の SharePoint の場所                   |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
 **会議の記録はどこに保存されますか?**
 
-- 非チャネル会議の場合、レコーディングは、会議のレコーディングを開始したユーザーに属する OneDrive for Business のトップ レベルにある [レコーディング] という名前のフォルダーに保存されます。 例:
+- チャネル以外の会議の場合、記録は **レコーディング** という名前のフォルダーに格納されており、 これは会議の記録を開始したユーザーに属している OneDrive for Business の最上位のレベルです。 例: 
 
-  <i>recorder の OneDrive for Business</i> /**レコーディング**
+  <i>レコーダーの OneDrive for Business</i>/**レコーディング**
 
-- チャネル会議の場合、レコーディングは[レコーディング] という名前のフォルダーの Teams サイト ドキュメント ライブラリ **に保存されます**。 例:
+- チャネル会議については、記録は、 **レコーディング** という名前のフォルダーにある Teams サイトのドキュメント ライブラリに格納されます。 例: 
 
-  <i>チーム名 - チャネル名</i> /**ドキュメント** /**レコーディング**
+  <i>Teams 名 - チャネル名</i>/**ドキュメント**/**記録**
 
-**元従業員からのレコーディングを処理する方法**
+**元従業員の記録を処理するにはどうすればよいですか?**
 
-ビデオは OneDrive for Business および SharePoint の他のファイルと同じ機能を持つので、従業員の離れ後の所有権と保持の処理は、通常の [OneDrive for Business]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)と SharePoint のプロセスに従います。
+ビデオは、OneDrive for Business と SharePoint の他のファイルと同じであるため、従業員が退職した後の所有権と保持は、通常の「[OneDrive for business および SharePoint プロセス]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)」に従います。
 
-**会議の記録を表示する権限を持っているユーザー**
+**会議の記録を表示するためのアクセス許可を持つユーザーは誰ですか?**
 
-- チャネル以外の会議の場合、外部ユーザーを除くすべての会議の招待者は、自動的に個人用共有リンクを取得します。 外部ユーザーは、会議の開催者または会議の記録を開始したユーザーが共有リストに明示的に追加する必要があります。
+- チャネル以外の会議では、外部ユーザーを除くすべての会議出席者が、自動的に個人の共有リンクを取得します。 外部ユーザーは、会議の開催者または会議の記録を開始したユーザーが、共有リストに明示的に追加する必要があります。
 
-- チャネル会議の場合、アクセス許可はチャネルの所有者とメンバーのリストから継承されます。
+- チャネル会議の場合、アクセス許可はチャネルの所有者とメンバーの一覧から継承されます。
 
-**トランスクリプトを管理する方法**
+**トランスクリプトを管理するにはどうすればよいですか?**
 
-このプレビューに参加しているお客様は、OneDrive for Business および SharePoint に移行される Teams 会議レコーディングでクローズド キャプションを利用できません。Q4 CY2020 の会議のレコーディングには、英語のクローズド キャプションから始まるキャプションを追加する作業を行っています。
+お客様がこのプレビューを選択しても、OneDrive for Business と SharePoint に移行された Teams会議の記録にクローズド キャプションは利用可能ではありません。 現在キャプション追加の作業中です。英語のクローズド キャプションから始めて、CY2020 第 4 半期の会議の記録にキャプションを追加します。
 
-クローズド キャプションは、Teams クラウドレコーディングの説明に従ってトランスクリプトを許可することを選択したお客様のために、Teams 会議レコーディングで [利用できます](cloud-recording.md)。
+[[Teams のクラウド記録](cloud-recording.md)] に記載されているように、議事録を許可しているお客様のためにTeams 会議記録のクローズド キャプションを使用することができるようになります。
 
-キャプションは、すべての能力の閲覧者に包括的なコンテンツを作成するのに役立ちます。 所有者はキャプションを非表示にできます。ただし、Teams からキャプションを削除しない限り、トランスクリプトは Teams で引き続き使用できます。 会議 [のレコーディングをオンまたはオフにする方法をご覧ください](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)。
+キャプションを使用すると、障害者も健常者も含めすべての視聴者に対して包括的コンテンツを作成できます。 所有者は、キャプションを非表示にすることができます。トランスクリプトは、Teams のキャプションを削除しない限り、Teams で引き続き使用できます。 「[会議の記録をオンまたはオフにする方法](cloud-recording.md#set-up-teams-cloud-meeting-recording-for-users-in-your-organization)」 を参照してください。
 
-クローズド キャプションは、会議が記録された後 60 日間、Teams 会議のレコーディングでサポートされます。
+Teams 会議記録のクローズド キャプションは、会議が記録された時点からの 60 日間サポートされています。
 
-Teams 会議レコーディングが OneDrive for Business または SharePoint 上の元の場所から移動またはコピーされた場合、クローズド キャプションは完全にはサポートされません。
+Teams 会議の記録を元の場所から、OneDrive for Business または SharePoint 上に移動またはコピーした場合、クローズド キャプションは完全にサポートされません。
 
-**記憶域のクォータに与える影響**
+**記憶域のクォータにどのような影響がありますか?**
 
-Teams 会議のレコーディング ファイルは OneDrive for Business と SharePoint に保存され、それらのサービスのクォータに含まれます。 [SharePoint のクォータと](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas)OneDrive for Business のクォータ[を参照してください](https://docs.microsoft.com/onedrive/set-default-storage-space)。
+Teams 会議の記録ファイルは、OneDrive for Business と SharePoint の中にあり、これらのサービスのクォータに含まれています。 詳細については、「[SharePoint のクォータ](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas)」および「[OneDrive for Businessのクォータ](https://docs.microsoft.com/onedrive/set-default-storage-space)」を参照してください。
 
-[OneDrive for Business を使用すると、Stream と比較](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)してストレージを追加し、SharePoint を使用してより手ごたえのあるストレージを取得できます。
+[OneDrive for Business](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)を使用すると、Stream よりも多くのストレージを使用できます。 SharePoint.を使うと代替可能なストレージをもっと入手できます。
 
-**Teams 会議の記録を再生する方法**
+**会議の記録を再生するにはどうすればよいですか?**
 
-ファイルにアクセスする場所に応じて、OneDrive for Business または SharePoint のビデオ プレーヤーでビデオが再生されます。
+ファイルにどこからアクセスするかによって、ビデオは、OneDrive for Business または SharePoint のビデオプレーヤーで再生されます。
 
-**Stream への追加を廃止する予定の場合、既存のビデオは現在とどのくらいの期間残りますか?**
+**もしStreamに追加することを避難するつもりなら、既存のビデオは今のままで利用できますか、いつまで使用できますか?**
 
-プラットフォームとしてのストリームは、近い将来廃止される予定です。 現在 Stream に保存されているビデオは、移行を開始するまでそこに残ります。 移行時には、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については [、Stream クラシック移行](https://docs.microsoft.com/stream/streamnew/classic-migration) を確認してください。
+Stream は、近い将来プラットフォームとして廃止の予定はありません。 現在、Stream に存在するビデオは、移行を開始するまで残っています。 移行すると、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については、「[Stream クラシックの移行](https://docs.microsoft.com/stream/streamnew/classic-migration)」を参照してください。
 
-**保持ラベルを適用する方法**
+**保持ラベルを適用するにはどうすれば良いですか?**
 
-アイテム [保持ラベルを自動適用する方法を参照してください](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)。
+「[保持ラベルを自動適用する方法](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)」を参照してください。
 
-**Microsoft Teams のユーザーにポリシーを割り当て、どのポリシーが優先されるのか**
+**Microsoft Teams のユーザーにポリシーを割り当てるにはどうすればよいですか、どのポリシーを優先すべきですか?**
 
-どの [ポリシーが優先されるのか確認してください](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence)。
+「[どのポリシーが優先されますか?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence)」を参照してください。
