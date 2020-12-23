@@ -9,7 +9,7 @@ manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: この記事では、アイテム保持ポリシーと、Microsoft Teams でアイテムの作成と管理を行う方法について説明します。
+description: Microsoft Teams のアイテム保持ポリシーについて、またそれらを作成し管理する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -21,7 +21,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 3b7854af353b9619a1e668006c4e143ac8d37e77
 ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/18/2020
 ms.locfileid: "49130658"
@@ -30,14 +30,14 @@ ms.locfileid: "49130658"
 
 アイテム保持ポリシーは、組織内の情報をより効果的に管理するのに役立ちます。 アイテム保持ポリシーは、組織の社内ポリシー、業界の規制、法的要件に準拠するために必要なデータを保持したり、負債と考えられるデータ、保存する必要がなくなったデータ、法的またはビジネス上の価値がないデータを削除したりするために使用できます。
 
-既定では、アイテム保持ポリシーを使用してコンテンツを削除しようとした場合や、ユーザーが削除した場合、管理者が削除した場合を除き、チームチャット、チャネル、ファイルのデータは無期限に保持されます。管理者として、チャットやチャネルメッセージ用にチームのアイテム保持ポリシーを設定し、データを保持するか削除するか、特定の期間に保持するかを決定してから、削除することができます。
+既定では、Teams のチャット、チャネル、ファイルのデータは、保持ポリシーを介してコンテンツを削除する試み、ユーザーや管理者による削除がない限りは、無期限に保持されます。管理者として、チャットやチャネルのメッセージ用に Teams のアイテム保持ポリシーを設定して、データを保持するか、削除するか、または特定の期間のみ保持するかを積極的に決定し、削除できます。
 
-[Microsoft 365 コンプライアンスセンター](https://protection.office.com/)で、またはセキュリティ & コンプライアンスセンターの PowerShell コマンドレットを使用して、チームおよびその他のワークロードのアイテム保持ポリシーを作成して管理します。 Teams のアイテム保持ポリシーは、組織全体に適用することも、特定のユーザーやチームに適用することもできます。
+Teams やその他のワークロードのアイテム保持ポリシーの作成と管理は、[Office 365 セキュリティ/コンプライアンス センター](https://protection.office.com/)で行うか、セキュリティ/コンプライアンス センターの PowerShell コマンドレットを使用して行えます。 Teams のアイテム保持ポリシーは、組織全体に適用することも、特定のユーザーやチームに適用することもできます。
 
 > [!NOTE]
-> プライベートチャネルメッセージの保持の構成はまだサポートしていません。 プライベート チャネルで共有されているファイルの保持はサポートされています。
+> プライベート チャネルのメッセージを保持するための構成は、現在サポートされていません。 プライベート チャネルで共有されているファイルの保持はサポートされています。
 
-Microsoft 365 または Office 365 のアイテム保持ポリシーの詳細については、「 [アイテム保持ポリシーの概要](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)」を参照してください。
+Microsoft 365 または Office 365のアイテム保持ポリシーについて詳しくは、「[アイテム保持ポリシーの概要](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)」を参照してください。
 
 ## <a name="what-are-retention-policies-for-teams"></a>Teams のアイテム保持ポリシーとは
 
@@ -57,28 +57,28 @@ Teams のアイテム保持ポリシーを使用すると、次のことがで�
 
 データにアイテム保持ポリシーが適用される場合、データは元の場所に保持されるため、ユーザーはそのデータを使用し続けることができます。 ポリシーが適用されるデータをユーザーが編集または削除する場合、安全な場所にコピーが保存され、ポリシーが有効な間はそこで保持されます。
 
-アイテム保持ポリシーの最小ライセンス要件は、Office 365 E3 です。 ライセンスの詳細については、「 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
+アイテム保持ポリシーの最小ライセンス要件は、Office 365 E3 です。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 ## <a name="how-teams-retention-policies-work"></a>Teams のアイテム保持ポリシーのしくみ
 
-チームのチャットは、チャット内の各ユーザーのメールボックスの非表示フォルダー (Team・・・の) に保存され、Teams チャネルのメッセージは、チームのグループメールボックスの非表示フォルダー (Teamな) に保存されます。 Teams が使用する Azure を利用したチャット サービスでもこのデータが保存されます。既定では、このサービスはデータを無期限に保存します。 Teams のアイテム保持ポリシーでデータを削除すると、Exchange メールボックスと基になるチャット サービスの両方からデータが完全に削除されます。
+Teams のチャットは、チャットに参加している各ユーザーのメールボックスにある隠しフォルダー(Teamschat) に保存されます。また、Teams のチャネル メッセージは、チーム用のグループ メールボックス内の隠しフォルダー(Teamschat) に保存されます。 Teams が使用する Azure を利用したチャット サービスでもこのデータが保存されます。既定では、このサービスはデータを無期限に保存します。 Teams のアイテム保持ポリシーでデータを削除すると、Exchange メールボックスと基になるチャット サービスの両方からデータが完全に削除されます。
 
-チームチャットまたはチャネルメッセージに **保持保持** ポリシーを適用すると、次のような処理が行われます。
+Teams のチャットやチャネル メッセージに **アイテム保持** ポリシーを適用すると、次のような処理が行われます。
 
-- 保持期間中にユーザーがチャットまたはチャネルメッセージを編集または削除した場合、メッセージはコピーされ (編集された場合)、または (削除された場合は) SubstrateHolds フォルダーに移動され、保持期間が終了するまで保存されます。 保持期間の終了時にデータを削除するようにポリシーが構成されている場合、メッセージは保持期間が終了した日に完全に削除されます。
-- **保持** 期間中にユーザーがチャットまたはチャネルメッセージを削除していない場合、保存期間が終了してから1日以内にメッセージが SubstrateHolds フォルダーに移動されます。 保持期間の終了時にデータを削除するようにポリシーが構成されている場合、メッセージはフォルダーに移動された翌日に完全に削除されます。
+- 保持期間中にチャットやチャネル メッセージがユーザーによって編集または削除されると、そのメッセージは SubstrateHolds フォルダーにコピー (編集の場合) または移動 (削除の場合) されて、保持期間が終了するまでこのフォルダーに保存されます。 保持期間の終了時にデータを削除するようにポリシーが構成されている場合、メッセージは保持期間が終了した日に完全に削除されます。
+- **保持期間中** にチャットやチャネル メッセージがユーザーによって削除されない場合、メッセージは保持期間の終了後 1 日以内に SubstrateHolds フォルダーに移動されます。 保持期間の終了時にデータを削除するようにポリシーが構成されている場合、メッセージはフォルダーに移動された翌日に完全に削除されます。
 
-**アイテム保持** ポリシーをチームのチャットとチャネルメッセージに適用すると、次のような処理が行われます。
+Teams のチャットやチャネル メッセージに **保持 - 削除** ポリシーを適用すると、次のような処理が行われます。
 
-- チャットまたはチャネルメッセージの有効期限が切れた場合は、アイテム保持ポリシー (バックエンドサービス) で許可されているメッセージが、 **アイテム保持** ポリシーによって制限されます。
-- バックエンドストレージでメッセージが削除されると、Azure powered チャットサービスとユーザーの Teams アプリで同じメッセージを削除するためのプロセスがトリガーされます。 Teams アプリでメッセージを削除するには、アプリがインターネットに接続され、ユーザーエクスペリエンスの妨げにならないようにアイドル状態 (ユーザーアクティビティなし) にする必要があります。 1人のユーザーは複数のデバイスを持っている可能性があります。これは、状態が異なる可能性があるため、保持の削除はまったく同じタイミングでは同期されません。
-- バックエンドストレージでメッセージの削除が完了すると、電子情報開示などのコンプライアンス検索レポートでそれらのメッセージが表示されなくなります。
+- チャットまたはチャネルのメッセージの有効期限が切れた場合、つまりメッセージの有効期限が、 **保持-削除** ポリシーによって許可された期間を過ぎた場合は、バックエンド サービスは、期限切れメッセージを特定し、バックエンド ストレージ (ユーザーまたはグループ メールボックス) で削除を開始します。
+- バックエンド ストレージのメッセージを削除した後、プロセスがトリガーされ、Azure を利用したチャット サービスとユーザーの Teams アプリの同じメッセージが削除されます。 Teams アプリのメッセージを削除するには、アプリがインターネットに接続され、アイドル状態になっている必要があるため (ユーザーの操作は必要ありません)、ユーザー エクスペリエンスの妨げにはなりません。 ユーザーは複数のデバイスを所有している可能性があり、それぞれ状態が異なる可能性があるため、保持の削除は完全に同時には同期されません。
+- バックエンド ストレージのメッセージの削除が完了すると、電子情報開示などのコンプライアンス検索レポートにこれらのメッセージは表示されなくなります。
 
 > [!NOTE]
 > Skype for Business Online と Teams の相互運用チャットでも、処理のフローは同じです。 Skype for Business Online のチャットが Teams に届くと、Teams のチャット スレッドのメッセージとなり、適切なメールボックスに取り込まれます。 Teams のアイテム保持ポリシーは、これらのメッセージを Teams のスレッドから削除します。 ただし、Skype for Business Online に対して会話履歴がオンになっていて、Skype for Business Online のクライアント側からこれらがメールボックスに保存されている場合、このチャット データは Teams のアイテム保持ポリシーでは処理されません。
 
 > [!NOTE]
-> メッセージの削除は永続的で、取り消すことはできません。
+> メッセージの削除は、永続的かつ取り消し不可です。
 
 Teams のアイテム保持ポリシーは、チャットやチャネル メッセージが作成された日付に基づいて遡及的に処理されます。 つまり、90 日より前のデータを削除するアイテム保持ポリシーを作成すると、90 日より前に作成された Teams データは削除されます。
 
@@ -94,7 +94,7 @@ Teams のアイテム保持ポリシーを使用するにあたり、注意す�
 
 - Teams では、キーワードや機密情報を含むコンテンツにポリシーを適用する機能などの、高度な保持設定はサポートされていません。 現在、Teams のアイテム保持ポリシーは、すべてのチャットとチャネル メッセージのコンテンツに適用されます。
 
-- チームアイテム保持ポリシーは、メッセージの作成日に基づいて、チャットとチャネルのメッセージを削除するプロセスをトリガーします。 ただし、サービスの負荷によっては、これらのメッセージがバックエンドストレージおよび Teams アプリから完全に削除されるまでに、最大7日かかる場合があります。 また、これらのメッセージは、コンプライアンスツール (電子情報開示、エンドユーザー検索) で検索可能になり、バックエンドストレージから完全に削除されます。
+- Teams アイテム保持ポリシーは、 メッセージの有効期限が切れたときに (メッセージの作成日に基づいて) チャットとチャネルのメッセージを削除するプロセスをトリガーします。 ただし、サービスの負荷に応じて、バックエンドのストレージと Teams アプリからこれらのメッセージを完全に削除するには、最大 7 日かかる場合があります。 また、これらのメッセージは、コンプライアンス ツール (電子情報開示、エンド ユーザー検索) を使用して、バックエンド ストレージから完全に削除されるまで検索できます。
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>複数のアイテム保持ポリシーと保持の原則
 
@@ -135,7 +135,7 @@ Teams のチャットやチャネル メッセージのアイテム保持ポリ�
         ![[場所の選択] ページの [Teams のチャネル メッセージ] オプションと [Teams のチャット] オプションのスクリーンショット](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > **Exchange メール** または **Microsoft 365 グループ** の場所で、ユーザーまたはグループのメールボックスに適用されるアイテム保持ポリシーの影響を受けることはありません。 Teams のチャットやチャネル メッセージは Exchange に保存されますが、それらは Teams の場所に適用されるアイテム保持ポリシーの影響のみを受けます。
+      > Teams のチャットやチャネル メッセージは、**Exchange メール** や **Microsoft 365 グループ** の場所にあるユーザーまたはグループのメールボックスに適用されるアイテム保持ポリシーの影響を受けません。 Teams のチャットやチャネル メッセージは Exchange に保存されますが、それらは Teams の場所に適用されるアイテム保持ポリシーの影響のみを受けます。
 
 6. 設定の確認し準備ができたら、**[このポリシーを作成する]** を選択します。
 
@@ -150,11 +150,11 @@ Teams のアイテム保持ポリシーを編集するには、次の操作を�
     ![[場所の選択] ページの [Teams のチャネル メッセージ] オプションと [Teams のチャット] オプションのスクリーンショット](media/retention-policies-edit.png)
 
 > [!WARNING]
-> チームチャネルメッセージまたはチームチャットに含める特定のチームまたは特定のユーザーを構成し、これらを編集して、場所の最後のチームを削除する場合は、その場所の構成が [ **すべて**] に戻ります。 ポリシーを保存する前に、これが意図した構成であることを確認してください。
+> 特定のチームまたは特定のユーザーに Teamsのチャネル メッセージや Teams のチャットを含めるように構成している場合で、その場所の最後のものを削除するようにこれらを編集すると、その場所の構成が **すべて** に戻ります。 ポリシーを保存する前に、これが意図した構成であることをご確認ください。
 > 
-> たとえば、データを削除するように構成されているアイテム保持ポリシーの対象として、このユーザーを削除するようにポリシーを編集している場合、既定ではすべてのユーザーに、チームのチャットメッセージを完全に削除するアイテム保持ポリシーが適用されます。 同様に、Teams チャネルメッセージにも同じことが当てはまります。
+> たとえば、1人の Teams チャット ユーザーを指定して、データを削除するように構成されているアイテム保持ポリシーに含めるように構成してから、そのポリシーを編集してこのユーザーを削除した場合、既定では、すべてのユーザーは、Teams のチャット メッセージを完全に削除するアイテム保持ポリシーの対象となります。 同様に Teams のチャネル メッセージにも適用されます。
 > 
-> このシナリオでは、チームチャネルメッセージまたはチームチャットメッセージの **すべて** の設定にアイテム保持ポリシーを適用する必要がない場合は、場所をオフに切り替えます。 または、ポリシーから除外することを指定します。
+> このシナリオでは、Teams のチャネル メッセージまたは Teams のチャット メッセージの **すべての** 設定がアイテム保持ポリシーの対象にならないようにするために、場所をオフに切り替えます。 あるいは、ポリシーの適用から除外されるように除外アイテムを指定することもできます。
 
 
 #### <a name="delete-a-retention-policy"></a>アイテム保持ポリシーの削除
@@ -165,31 +165,31 @@ Teams のアイテム保持ポリシーを削除するには、次の操作を�
 2. アイテム保持ポリシーの一覧で、削除するアイテム保持ポリシーの横にあるチェック ボックスをオンにします。
 3. **[ポリシーの削除]** を選択します。
 
-### <a name="end-user-experience"></a>エンドユーザーエクスペリエンス
+### <a name="end-user-experience"></a>エンド ユーザーのエクスペリエンス
 
-プライベートチャット (1:1 のチャット) またはグループチャットの場合、エンドユーザには、アイテム保持ポリシーの設定よりも古いチャットが削除され、「組織のアイテム保持ポリシーによって古いメッセージが削除されました」というメッセージが表示されています。
-:::image type="content" source="media/retention-policies-image1.png" alt-text="チャットの保持期間のスクリーンショット":::
+私的なチャット (1:1 のチャット) やグループのチャットの場合、エン ドユーザーにはアイテム保持ポリシーの構成より古いチャットは削除され、"組織のアイテム保持ポリシーにより、古いメッセージを削除しました" という管理メッセージがまだ削除されていないメッセージの上に表示されます。
+:::image type="content" source="media/retention-policies-image1.png" alt-text="チャット保持のスクリーンショット":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="グループチャットの保持期間のスクリーンショット":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="グループ チャットの保持のスクリーンショット":::
 
-チャネルメッセージの場合、エンドユーザー (チャネルメンバー) は、メッセージの有効期限が切れた後は、削除されたメッセージを表示したときに表示されなくなります。 削除されたメッセージがスレッド形式の会話の親メッセージであった場合、親メッセージの代わりに "このメッセージはアイテム保持ポリシーのため削除されました" というメッセージが表示されます。
+チャネル メッセージの場合、エンド ユーザー (チャネル メンバー) には、メッセージの有効期限が切れた後に、削除したメッセージが表示されなくなります。 削除されたメッセージがスレッド会話の親メッセージであった場合、親メッセージの代わりに "アイテム保持ポリシーに従い、このメッセージは削除されました。" というメッセージが表示されます。
 
 :::image type="content" source="media/retention-policies-image3.png" alt-text="保持前のチャネルのスクリーンショット":::
 
-:::image type="content" source="media/retention-policies-image4.png" alt-text="保持後のチャンネルのスクリーンショット":::
+:::image type="content" source="media/retention-policies-image4.png" alt-text="保持後のチャネルのスクリーンショット":::
 
 > [!NOTE]
-> 現時点では、エンドユーザーのメッセージはユーザーまたは管理者が変更できません。
+> 現時点では、エンド ユーザーのメッセージングは、ユーザーまたは管理者が変更できません。
 
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[セキュリティ & コンプライアンスセンターの PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)を使用して、チームのアイテム保持ポリシーを作成および管理するには、次のコマンドレットを使用します。
+[セキュリティ/コンプライアンス センターの PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) を使用して Teams のアイテム保持ポリシーを作成し管理するには、次のコマンドレットを使用します。
 
 |ポリシー|ルール|
 |---|---|
-|[新規-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy?view=exchange-ps)| [新規-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule?view=exchange-ps)|
+|[New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy?view=exchange-ps)| [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule?view=exchange-ps)|
 |[Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancepolicy?view=exchange-ps)| [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps)|
 |[Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps)| [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule?view=exchange-ps)|
 |[Remove-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-retentioncompliancepolicy?view=exchange-ps)| [Remove-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-retentioncompliancerule?view=exchange-ps)|
@@ -198,11 +198,11 @@ Teams のアイテム保持ポリシーを削除するには、次の操作を�
 
 現在追跡と調査が行われている Teams のアイテム保持ポリシーに関する既知の問題を以下に示します。
 
-- [チーム **チャネルメッセージ** の場所] 行の [**チームの選択**] で、teams にも含まれていない Microsoft 365 グループが表示されることがあります。 この問題は将来解決される予定です。
+- **[Teams のチャネル メッセージ]** の場所の行にある **[チームの選択]** の下に、Teams ではない Microsoft 365 のグループが表示される場合があります。 この問題は将来解決される予定です。
 
 - **[Teams のチャット]** の場所の行にある **[ユーザーの選択]** の下に、ゲストや、メールボックスのユーザーではないユーザーが表示される場合がある。 アイテム保持ポリシーはゲストのために設定するものではないため、これらは一覧から削除される予定です。
 
-- アイテム保持処理ジョブは毎日実行されますが、場合によっては、遅延が7日間実行されていることがわかっています。 このため、60 日以上経過したアイテムを削除する Teams の保持ポリシーを設定している場合、それらのアイテムは最大 67 日間保持される可能性があります。 これは新しい状況ではなく、Exchange の様式によるものです。 当然ながら、ほとんどの場合、遅延は生じません。
+- アイテム保持処理ジョブは毎日実行されますが、一部の状況では、遅延が最大で 7 日間発生しています。 このため、60 日以上経過したアイテムを削除する Teams の保持ポリシーを設定している場合、それらのアイテムは最大 67 日間保持される可能性があります。 これは新しい状況ではなく、Exchange の様式によるものです。 当然ながら、ほとんどの場合、遅延は生じません。
 
 ## <a name="related-topics"></a>関連項目
 
