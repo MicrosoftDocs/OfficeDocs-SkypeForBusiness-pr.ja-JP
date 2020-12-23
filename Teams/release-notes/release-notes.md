@@ -16,24 +16,36 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams の管理機能のリリース ノート。
-ms.openlocfilehash: bfb38f71546e4713a18e1bd504efa5ca8da51ad2
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
+ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701315"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "49728167"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams の管理機能のリリース ノート
 
 これらのリリース ノートでは、Microsoft Teams の新機能に関する情報を提供します。
 
-## <a name="november-25-2020"></a>2020 年 11 月 25 日
+## <a name="december-21-2020"></a>2020 年 12 月 21 日
 
-### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace の Microsoft Teams 会議アドオンをセットアップする
+### <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>通話プランでサポートされているレート センターとカバレッジ
 
-Microsoft Teams 会議アドオンを使用すると、Google カレンダー ユーザーが Google Workspace から直接 Microsoft Teams 会議をスケジュールおよび参加できます。 ユーザーは、ビデオ会議、電話会議、画面共有、会議チャット、デジタル描画ボードなどの Teams 会議機能にアクセスできます。 仕事、学校、生活の全体で一緒に作業を行い、情報を整理します。
+レート センターは、従来、公衆交換電話網 (PSTN) の地域通話、課金料金、電話番号割り当ての境界を定義している地理的領域の業界用語です。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/supported-rate-centers-coverage-matrix)。
 
-テナント ユーザーがアプリにアクセスするには、Google Workspace 用の Microsoft Teams 会議アドオンを Teams 管理者が有効にする必要があります。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/add-gsuite-thru-aad)。
+## <a name="december-18-2020"></a>2020 年 12 月 18 日
+
+### <a name="updated-meeting-settings-policies-for-breakout-rooms"></a>ブレークアウト ルームの会議設定ポリシーが更新されました
+
+ Teams のブレイクアウト会議室 は、会議を複数の小さな会議室に分割するために使用されます。 この設定では、会議の開催者に、スケジュールした会議や開始する会議のブレイクアウト室を作成および管理するオプションがあるかどうかを制御します。 このポリシー設定は、Meet Now (今すぐ会議) を含むすべての会議に影響します。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---allow-breakout-rooms)。
+
+## <a name="december-9-2020"></a>2020 年 12 月 9 日
+
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Microsoft 365 ラーニングパスを使用した Teams のアドバイザー
+
+Microsoft 365 学習経路は、ユーザーをトレーニングし、組織内のチームの使用と導入を増やすためにカスタマイズできるオンデマンド学習ソリューションです。 学習経路を Teams アドバイザーと一緒に使用して、ユーザーを迅速に稼働させ、導入を促進します。
+
+学習経路は、SharePoint Online サイト テンプレートと、ユーザー向けの学習サイトを簡単に構築する機能を提供します。 学習経路トレーニング ポータルをカスタマイズして、ユーザーのニーズに応じたトレーニングおよびサポート コンテンツを含めることができます。 Microsoft オンライン カタログの Teams 再生リストを使用して、独自の再生リストを追加します。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#advisor-for-teams-and-microsoft-365-learning-pathways)。
 
 ## <a name="october-28-2020"></a>2020 年 10 月 28 日
 
@@ -63,13 +75,13 @@ Microsoft Teams のディスプレイは、周囲のタッチスクリーンと 
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>組織の Skype for Business 設定を管理する
 
-組織内の Skype for Business ユーザーの Skype for Business 機能は、Microsoft Teams 管理センターで管理できます。 Skype for Business **の組織全体の**  >  **設定に移動します**。 ここから、Skype 会議ブロードキャスト、プレゼンス、モバイル通知を管理できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+組織内の Skype for Business ユーザー向け Skype for Business 機能は、Microsoft Teams 管理センターで管理できます。 Skype for Business **の組織全体の**  >  **設定に移動します**。 ここから、Skype 会議ブロードキャスト、プレゼンス、モバイル通知を管理できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
 
 ## <a name="october-16-2020"></a>2020 年 10 月 16 日
 
 ### <a name="manage-shift-based-access-for-firstline-workers"></a>Firstline Worker のシフト ベースのアクセスを管理する
 
-管理者は、組織内の Firstline Worker のシフトベースのプレゼンス状態のセットを表示して、シフトのオンとオフを示す Teams を構成できます。 シフトベースのアクセスでは、Firstline Worker がシフトオフのときに Teams へのアクセスを管理できます。 たとえば、スケジュールされたシフトに参加していない場合に、Firstline Worker が Teams を使用する前に認識する必要があるメッセージを表示する Teams を設定できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
+管理者は、組織内の Firstline Worker のシフトベースのプレゼンス状態のセットを表示して、シフトのオンとオフを示す一連のプレゼンス状態を表示する Teams を構成できます。 シフトベースのアクセスでは、Firstline Worker がシフトオフのときに Teams へのアクセスを管理できます。 たとえば、スケジュールされたシフトに移動していない場合に、Firstline Worker が Teams を使用する前に認識する必要があるメッセージを表示する Teams を設定できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
 
 ## <a name="october-15-2020"></a>2020 年 10 月 15 日
 
@@ -85,17 +97,17 @@ Microsoft Teams 管理センターの [アプリの管理] ページで、[チ�
 
 ## <a name="october-1-2020"></a>2020 年 10 月 1 日
 
-### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>OneDrive for Business と SharePoint を使って会議のレコーディングを行う
+### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>会議のレコーディングに OneDrive for Business と SharePoint を使用する
 
 Microsoft Teams には、会議の記録を保存する新しい方法があります。 従来の Microsoft Stream から新しい Stream への移行の第 1 フェーズとして、この方法では Microsoft 365 の Microsoft OneDrive for Business と SharePoint にレコーディングが保存され、多くの利点があります。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)。
 
 ### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>中小企業向け無料の電話会議
 
-最大 300 人のユーザーを持つ中小企業で、現在電話会議のライセンスを持ってない場合は、電話会議を 1 年間無料で利用できます。 この無料特典は、2020 年 10 月 1 日から利用できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)。
+最大 300 人のユーザーを持つ中小企業で、現在電話会議のライセンスを持っている場合は、電話会議を 1 年間無料で利用できます。 この無料特典は、2020 年 10 月 1 日から利用できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)。
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
 
-Teams 管理センターのグローバル管理者は、Azure Active Directory に登録されている Graph API のアクセス許可を確認して、チームに保存されている情報の閲覧やユーザーの代わりにメールの送信などのアプリが要求するアクセス許可に対するテナント全体の代わりに同意を付与できます。 IT 管理者は、Teams 管理センター内のアプリに対するリソース固有の同意 (RSC) アクセス許可を確認できます。 管理者は、既に確認し、組織内での使用が承認されているサードパーティ 製アプリのユーザーのブロックを解除できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
+Teams 管理センターのグローバル管理者は、Azure Active Directory に登録されている Graph API のアクセス許可を確認して、チームに保存されている情報の閲覧やユーザーの代理でメールを送信するなどのアプリが要求するアクセス許可に対するテナント全体の代わりに同意を付与できます。 IT 管理者は、Teams 管理センター内のアプリに対するリソース固有の同意 (RSC) アクセス許可を確認できます。 管理者は、既に確認し、組織内での使用が承認されているサードパーティ 製アプリのユーザーのブロックを解除できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
 
 ### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>オーストリア、デンマーク、イタリア、ポルトガル、スウェーデン、スイスの通話プランのサポート
 
@@ -109,7 +121,7 @@ Teams 会議ポリシーでの IP オーディオと IP ビデオの 2 つのポ
 
 ## <a name="september-27-2020"></a>2020 年 9 月 27 日
 
-### <a name="simplified-notification-setting"></a>簡単な通知設定
+### <a name="simplified-notification-setting"></a>シンプルな通知設定
 
 ユーザーは、強化された機能を使用して、よりシンプルな方法で通知設定を管理できます。
 
@@ -117,19 +129,19 @@ Teams 会議ポリシーでの IP オーディオと IP ビデオの 2 つのポ
 
 ### <a name="teams-integration-with-android-contacts"></a>Teams と Android の連絡先との統合
 
-Android の電話帳から直接 Teams を使用して通話します。
+Android Phonebook から Teams を使用して直接通話します。
 
 ## <a name="september-21-2020"></a>2020 年 9 月 21 日
 
 ### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する
 
-管理者は、Teams の [アプリ] ページで、ユーザーが組み込みの Microsoft Power Platform アプリを表示およびインストールできるかどうかを制御できます。 Power Apps で作成されたアプリ、または Power Virtual Agents で作成されたアプリは、組織レベルの[](../manage-apps.md)[アプリの管理] ページで、またはアプリのアクセス許可ポリシーを使用して特定のユーザーに対してまとめてブロックまたは許可[できます。](../teams-app-permission-policies.md) [詳細情報を参照してください](../manage-power-platform-apps.md)。
+管理者は、Teams の [アプリ] ページで、ユーザーが組み込みの Microsoft Power Platform アプリを表示およびインストールできるかどうかを制御できます。 Power Apps で作成されたアプリ、または Power Virtual Agents で作成されたアプリをまとめてブロックまたは許可するには[](../manage-apps.md)、[アプリの管理] ページの組織レベルで、またはアプリのアクセス許可ポリシーを使用する特定のユーザーに対して行[います。](../teams-app-permission-policies.md) [詳細情報を参照してください](../manage-power-platform-apps.md)。
 
 ## <a name="september-19-2020"></a>2020 年 9 月 19 日
 
 ### <a name="sharing-files-in-microsoft-teams"></a>Microsoft Teams でのファイル共有
 
-Microsoft Teams では、ユーザーは組織内外の他の Teams ユーザーとコンテンツを共有できます。 Teams での共有は、SharePoint と OneDrive で構成された設定に基づいて行うので、SharePoint と OneDrive に設定した設定は、Teams での共有も制御します。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)。
+Microsoft Teams では、組織内外の他の Teamsユーザーとコンテンツを共有できます。 Teamsでの共有は、SharePoint と OneDrive に構成されている設定に基づいているため、SharePoint および OneDrive 用の設定が、チームの共有も制御します。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)。
 
 ## <a name="september-16-2020"></a>2020 年 9 月 16 日
 
@@ -171,7 +183,7 @@ Teams のライブ イベント設定を使用して、組織で保持されて�
 
 Microsoft Teams の称賛アプリは、ユーザーが組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 称賛アプリには、選択できるバッジ セットが選択され、独自のバッジを作成するオプションが提供されます。 称賛は、教師から Firstline Worker まで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 [詳細情報を参照してください](../manage-praise-app.md)。
 
-### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams の会議室と Surface Hub で調整された会議を設定する
+### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams の会議室と Surface Hub で調整された会議をセットアップする
 
 会議室に 1 つ以上の Microsoft Teams 会議室デバイスまたは Surface Hub がある場合は、調整された会議を設定できます。 調整された会議では、Teams 会議室デバイスと Surface Hub をセットアップして、1 つのデバイスで会議に参加すると、会議室内の他のデバイスも同じ会議に参加できます。 [詳細情報を参照してください](../rooms/coordinated-meetings.md)。
 
@@ -183,13 +195,13 @@ Microsoft Teams の称賛アプリは、ユーザーが組織または教室の�
 
 ### <a name="cortana-voice-skills-in-teams"></a>Teams での Cortana の音声スキル
 
-Teams モバイル アプリの Cortana の音声スキルは、ユーザーが話し手の自然言語を使用して、会議、コミュニケーション、共同作業のタスクを実行するのに役立ちます。 ユーザーは Teams アプリのマイク ボタンをクリックして Cortana と話し、家事や犬の散歩中、または一般的に移動中に誰かとつながる必要がある場合は、"メーガンに電話する" や "次の会議にメッセージを送信する" のような要求を行います。 ユーザーは、"次の会議に参加" と言って会議に参加したり、"今朝は何を持っていますか" と聞いて予定表を確認したりするだけで会議に参加できます。 会議や通話に参加すると、会議ステージのオーバーフロー メニューから Cortana を呼び出し、名前または番号でユーザーを追加する ("通話にメーガンを追加")、デッキ プレゼンテーション ("四半期のレビュー デッキを表示")、スライド間を移動する ("付録 スライドに移動") などの一般的な会議中のタスクを実行できます。 この機能でサポートされるその他の機能は、ファイルの検索と共有、検索、Teams アプリ内の移動です ("John とのチャットを開く、未読のアクティビティに移動する、メンションに移動するなど)。
+Teams モバイル アプリの Cortana の音声スキルは、ユーザーが自然な音声を使用して会議、コミュニケーション、共同作業のタスクを実行するのに役立ちます。 ユーザーは Teams アプリのマイク ボタンをクリックして Cortana と話し、家事や犬の散歩中、または一般的に移動中に誰かとつながる必要がある場合は、"メーガンに電話する" や "次の会議にメッセージを送信する" のような要求を行います。 ユーザーは、"次の会議に参加" と言うだけで会議に参加したり、"今朝は何を持っていますか" と聞いて予定表を確認できます。 会議や通話に参加すると、会議ステージのオーバーフロー メニューから Cortana を呼び出し、名前または番号でユーザーを追加する ("通話にメーガンを追加")、デッキ プレゼンテーション ("四半期のレビュー デッキを表示")、スライド間を移動する ("付録 スライドに移動") などの一般的な会議中のタスクを実行できます。 この機能でサポートされるその他の機能は、ファイルの検索と共有、検索、Teams アプリ内の移動です (「John とのチャットを開く、未読のアクティビティに移動する、メンションに移動する」など)。
 
 Teams の Cortana は、オンライン サービス規約 [(OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)に反映される、Cortana エンタープライズ サービスと同じエンタープライズ レベルのプライバシー、セキュリティ、コンプライアンスの約束を満たしています。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/cortana-in-teams)。
 
 ### <a name="teams-devices-administrator"></a>Teams デバイス管理者
 
-この役割を持つユーザーは、Teams 管理センターから Teams 認定デバイスを管理できます。 サインインしているアカウント、デバイスの作成とモデルなど、各デバイスの詳細を確認できます。 デバイスの設定を変更し、ソフトウェアを更新し、リモートでデバイスを再起動することができます。 [詳細情報を参照してください](../using-admin-roles.md)。
+この役割を持つユーザーは、Teams 管理センターから Teams 認定デバイスを管理できます。 サインインしているアカウント、デバイスの作成とモデルなど、各デバイスの詳細を確認できます。 デバイスの設定を変更し、ソフトウェアを更新し、リモートでデバイスを再起動できます。 [詳細情報を参照してください](../using-admin-roles.md)。
 
 ## <a name="august-12-2020"></a>2020 年 8 月 12 日
 
@@ -205,13 +217,13 @@ Teams アプリ提出 API を通じて送信されたカスタム アプリを�
 
 ## <a name="august-3-2020"></a>2020 年 8 月 3 日
 
-### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams サードパーティ 製アプリのサービスを購入する
+### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams サードパーティ アプリのサービスを購入する
 
-Teams アプリは無料でインストールできます。また、アプリの完全な機能と範囲を体験するには、サービス サブスクリプションの購入が必要な場合があります。 これらのサービス サブスクリプションは、サービスとしてのソフトウェア (SaaS) オファーと呼ばれるサービスであり、AppSource を通じて、そして Microsoft Teams 管理センターから購入できます。 [詳細情報を参照してください](../purchase-third-party-apps.md)。
+Teams アプリは無料でインストールできます。また、アプリの完全な機能と範囲を体験するには、サービス サブスクリプションの購入が必要な場合があります。 これらのサービス サブスクリプションは、サービスとしてのソフトウェア (SaaS) オファーと呼ばれるサービスであり、AppSource から購入し、Microsoft Teams 管理センターから利用できます。 [詳細情報を参照してください](../purchase-third-party-apps.md)。
 
 ### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams アプリ提出 API を通じて送信されたカスタム アプリを発行する
 
-開発者は、Teams アプリ提出 API を使用してカスタム アプリを Microsoft Teams 管理センターに直接送信し、管理者が確認および承認することができます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps)。
+デベロッパーは、Teams アプリ提出 API を使用してカスタム アプリを Microsoft Teams 管理センターに直接送信し、管理者が確認および承認することができます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps)。
 
 ## <a name="july-29-2020"></a>2020 年 7 月 29 日
 
@@ -263,13 +275,13 @@ PowerShell を使用して、ユーザーとグループにポリシー パッ�
 
 ### <a name="sensitivity-labels-for-teams"></a>Teams の機密度ラベル
 
-機密ラベルを使用すると、Teams 管理者は、チーム内での共同作業中に作成された機密性の高い組織のコンテンツへのアクセスを規制できます。 [詳細情報を参照してください](../sensitivity-labels.md)。
+機密ラベルを使用すると、Teams 管理者は、チーム内での共同作業中に作成された機密性の高い組織コンテンツへのアクセスを規制できます。 [詳細情報を参照してください](../sensitivity-labels.md)。
 
 ## <a name="july-2-2020"></a>2020 年 7 月 2 日
 
 ### <a name="suggested-replies"></a>返信の候補
 
-Teams ユーザーが会話に対する返信候補を表示する機能を追加しました。 これらの候補が有効になっている場合は、チャット メッセージの下部に表示されます。 メッセージにすばやく簡単に返信できます。 [詳細情報を参照してください](../messaging-policies-in-teams.md#messaging-policy-settings)。
+Teams ユーザーが会話への返信候補を表示する機能を追加しました。 これらの候補が有効になっている場合は、チャット メッセージの下部に表示されます。 メッセージにすばやく簡単に返信できます。 [詳細情報を参照してください](../messaging-policies-in-teams.md#messaging-policy-settings)。
 
 ### <a name="transferring-incoming-calls"></a>着信通話の転送
 
@@ -289,7 +301,7 @@ Teams ユーザーが会話に対する返信候補を表示する機能を追�
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
-プッシュ to Talk を使用したインスタント 音声通信。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/walkie-talkie)。
+プッシュ対通話を使用したインスタント 音声通信。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/walkie-talkie)。
 
 ## <a name="june-25-2020"></a>2020 年 6 月 25 日
 
@@ -317,13 +329,13 @@ Teams ユーザーが会話に対する返信候補を表示する機能を追�
 
 ### <a name="call-queues---presence-based-routing"></a>通話キュー - プレゼンス ベースのルーティング
 
-オフにすると、通話はプレゼンス状態に関係なく、通話を受信することを選択したエージェントにルーティングされます。 オンにすると、参加しているエージェントは、プレゼンス状態が利用可能な場合にのみ通話を受信します。 [詳細情報を参照してください](../create-a-phone-system-call-queue.md)。
+オフにすると、通話はプレゼンス状態に関係なく、通話を受信することを選択したエージェントにルーティングされます。 オンにすると、参加しているエージェントは、プレゼンス状態が [使用可能] の場合にのみ通話を受信します。 [詳細情報を参照してください](../create-a-phone-system-call-queue.md)。
 
 ## <a name="june-10-2020"></a>2020 年 6 月 10 日
 
-### <a name="call-queues---longest-idle-routing"></a>通話キュー - 最も長いアイドル ルーティング
+### <a name="call-queues---longest-idle-routing"></a>通話キュー - 最長アイドル ルーティング
 
-このオプションを選ぶと、着信通話に最も長い間応答していない通話エージェントに着信通話がルーティングされます。 [詳細情報を参照してください](../create-a-phone-system-call-queue.md)。
+このオプションを選ぶと、着信通話が最も長い間着信に応答していないコール エージェントにルーティングされます。 [詳細情報を参照してください](../create-a-phone-system-call-queue.md)。
 
 ## <a name="june-1-2020"></a>2020 年 6 月 1 日
 
@@ -341,11 +353,11 @@ Teams ユーザーが会話に対する返信候補を表示する機能を追�
 
 ### <a name="easily-access-meeting-options-from-within-a-teams-meeting-in-progress"></a>進行中の Teams 会議内から会議オプションに簡単にアクセスする
 
-Teams 会議が始まると、会議の開催者は簡単に発表者とロビーの設定を簡単に変更できます。参加者ウィンドウに直接簡単にアクセスできるリンクが用意されています。 この新しい機能は、スケジュールされた会議と "今すぐ会議" の両方に表示されます。
+会議の開催者は、Teams 会議が始まると、参加者ウィンドウに直接簡単にアクセスできるリンクを提供することで、発表者とロビーの設定をすばやく簡単に変更できます。 この新しい機能は、スケジュールされた会議と "今すぐ会議" 会議の両方に表示されます。
 
 ### <a name="download-a-participant-report-in-a-teams-meeting"></a>Teams 会議で参加者レポートをダウンロードする
 
-会議の開催者、特に教師は、多くの場合、Teams 会議に参加したユーザーを知る必要があります。 参加者の参加時間と退出時間を含む参加者リスト ビューで、すぐに参加者レポートをダウンロードできます。 会議の開催者は、リスト ビューで使用できます。このレポートには、開催者の出席中に参加したユーザーが含まれます。 この機能は、会議がアクティブな間のみ会議内で使用できます。 デスクトップ (Windows と Mac) と Web で使用できます。 [詳細情報を参照してください](../teams-analytics-and-reports/meeting-attendance-report.md)。
+会議の開催者、特に教師は、多くの場合、Teams 会議に参加したユーザーを知る必要があります。 参加者の参加時間と退出時間を含む参加者リスト ビューで、すぐに参加者レポートをダウンロードできます。 会議の開催者は、リスト ビューで利用できます。このレポートには、開催者の出席中に参加したユーザーが含まれます。 この機能は、会議がアクティブな間のみ会議内で使用できます。 デスクトップ (Windows と Mac) と Web で使用できます。 [詳細情報を参照してください](../teams-analytics-and-reports/meeting-attendance-report.md)。
 
 ## <a name="april-26-2020"></a>2020 年 4 月 26 日
 
@@ -357,7 +369,7 @@ Teams 会議が始まると、会議の開催者は簡単に発表者とロビ�
 
 ### <a name="team-and-channel-analytics"></a>チームとチャネルの分析
 
-チーム分析に加えて、チャネル レベルのメトリックと分析情報も表示できます。 また、期間が 90 日間に拡張され、より長い期間のデータを分析できます。 これとは別に、このリリースには、チームまたはチャネルの投稿、返信、会議の数に関する新しいメトリックとグラフも含まれています。 [詳細情報を参照してください](../teams-analytics-and-reports/view-analytics.md)。
+チーム分析に加えて、チャネル レベルのメトリックと分析情報も表示できます。 また、期間が 90 日間に拡張され、より長い期間のデータを分析できます。 これとは別に、このリリースには、チームまたはチャネルの投稿数、返信数、会議数に関する新しいメトリックとグラフも含まれています。 [詳細情報を参照してください](../teams-analytics-and-reports/view-analytics.md)。
 
 ## <a name="april-20-2020"></a>2020 年 4 月 20 日
 
@@ -375,11 +387,11 @@ Teams 会議が始まると、会議の開催者は簡単に発表者とロビ�
 
 ### <a name="teams-for-realwear"></a>Teams for RealWear
 
-RealWear 用 Microsoft Teams クライアントを使用すると、RealWear の堅牢なヘッドマウント 型の装着を使用する Firstline Worker は、Teams 100% ハンズフリーで操作し、Teams ビデオ通話を使用して専門家からのリモート アシスタンスを探し求めすることができます。 [詳細情報を参照してください](../flw-realwear.md)。
+RealWear 用 Microsoft Teams クライアントを使用すると、RealWear の堅牢なヘッドマウント 装着型の装着を使用する Firstline Worker は、Teams 100% ハンズフリーで操作し、Teams ビデオ通話を使用して専門家からのリモート アシスタンスを探し求めすることができます。 [詳細情報を参照してください](../flw-realwear.md)。
 
 ## <a name="march-31-2020"></a>2020 年 3 月 31 日
 
-### <a name="tag-youre-it"></a>タグ付け
+### <a name="tag-youre-it"></a>自分がタグ付け
 
 タグを作成してユーザーを割り当てると、グループ@mention、部署などを追加できます。チーム所有者は、自分で試してみてください。 チームに移動し、[その他のオプション] の [**タグ**  >  **の管理] を選択します**。 [詳細情報を参照してください](../manage-tags.md)。
 

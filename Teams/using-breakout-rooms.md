@@ -3,18 +3,20 @@ title: Teams でブレークアウト ルームを使用する
 author: ricardo-msft
 ms.author: riwilki
 ms.topic: article
+manager: serdars
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: エンド ユーザーは、Microsoft Teams でブレークアウト ルームを使用する方法を学習できます。
-ms.openlocfilehash: 280cd493049da3bd91e4fdd8e1995e75c4710cb9
-ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
+ms.openlocfilehash: 820380517a7f56a8a9738e02705ba68a5b6f8048
+ms.sourcegitcommit: 99bd62ea8a11b0068231e7b8335790323912cb9e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49698715"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49727713"
 ---
 # <a name="using-breakout-rooms-in-microsoft-teams"></a>Microsoft Teams でブレークアウト ルームを使用する
 
@@ -43,13 +45,13 @@ ms.locfileid: "49698715"
 
 参加者がブレークアウト ルームを離れる場合、開催者は参加者の名前の横にある省略記号 **[...]** を選択し、[参加を求める] を選択して、参加者をブレークアウト ルームに戻します。
 
-参加者がブレークアウト ルームを開いた後に遅れてメイン会議に参加する場合、開催者は参加者をブレークアウト ルームに追加できます。 参加者がルームに参加する通知を見逃した場合は、[参加を求める **] を選択します**。
+参加者がブレークアウト ルームを開いた後、遅れてメイン会議に参加する場合、開催者は参加者をブレークアウト ルームに追加できます。 参加者がルームに参加する通知を見逃した場合は、[参加を求める **] を選択します**。
 
 ## <a name="send-announcements"></a>お知らせを送信する
 
 会議の開催者は、ブレークアウト ルームが開いている間、すべての参加者にアナウンスを送信できます。 ブレークアウト ルームの **ヘッダーで省略記号 [...]** を選択します。
 
-たとえば、会議の開催者に@mentionが必要なときに会議の開催者に通知したり、メイン ルームに戻る前に 5 分のカウントダウンを行います。
+たとえば、会議の開催者に@mention会議の開催者に通知したり、メイン ルームに戻る前に 5 分間のカウントダウンを行います。
 参加者は、ブレークアウト ルームのチャットでお知らせを受け取る。
 
 ## <a name="close-rooms-and-pull-participants-back-to-the-main-meeting"></a>会議室を閉じて参加者をメイン会議に戻す
