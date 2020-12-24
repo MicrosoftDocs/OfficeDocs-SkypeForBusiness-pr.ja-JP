@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams のアドオンライセンス
-ms.author: v-lanac
-author: LanaChin
+title: Microsoft Teams アドオン ライセンス
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -19,182 +19,182 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
-description: Microsoft Teams のアドオンライセンスと各ライセンスで入手できる機能について説明します。
-ms.openlocfilehash: 2706f66259adb3bf6689eecd287331e899a89be1
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+description: Microsoft Teams のアドオン ライセンスと各ライセンスで利用できる機能について説明します。
+ms.openlocfilehash: fdd9a85cb2856606c5083fcc8f6f7b89a23a2b67
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328266"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731145"
 ---
-# <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams のアドオンライセンス
+# <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams アドオン ライセンス
 
 ## <a name="what-are-add-on-licenses"></a>アドオン ライセンスとは何ですか。
 
-アドオンライセンスとは、特定の Microsoft Teams 機能のライセンスのことです。 組織内のユーザーに対してのみ機能を追加できる柔軟性を備えています。 機能を追加するには、それを使用するユーザーごとに1つのアドオンライセンスを購入します。
+アドオン ライセンスは、特定の Microsoft Teams 機能のライセンスです。 この機能を使用すると、組織内で必要なユーザーにのみ機能を柔軟に追加できます。 機能を追加するには、その機能を使用するユーザーごとに 1 つのアドオン ライセンスを購入します。
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>アドオン ライセンスで入手できる機能は何ですか。
 
-ここでは、Teams アドオンライセンスで追加できる機能の一覧を示します。 使用できるアドオンライセンスオプションは、Microsoft 365 または Office 365 プランによって異なります。
+Teams アドオン ライセンスで追加できる機能の一覧を次に示します。 利用可能なアドオン ライセンス オプションは、使用している Microsoft 365 または Office 365 プランによって異なる場合があります。
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**機能** <br/> |**説明** <br/> |**Small business (<300 ユーザー)**|**大規模ビジネス (>300 ユーザー)**|
-**Microsoft 365 企業向け音声** <br/> | [ビジネス voip](../business-voice/whats-business-voice.md) は、電話システム、電話会議、国内通話プランなど、300ユーザーの中小企業向けに設計されたテレフォニーソリューションです。 電話システム機能には、ボイスメール、発信者番号通知、コールパーク、着信の転送、自動応答、通話キューなどがあります。 <br> お客様の国または地域でビジネスボイスが利用可能かどうかを確認するには、「 [ビジネス用の国と地域の空き時間](../business-voice/country-region-availability.md)情報」を参照してください。 価格情報については、「 [ビジネス用の価格につい](https://go.microsoft.com/fwlink/?linkid=2127221)て」を参照してください。 <br/> |&#x2713;||
-|**電話会議** <br/> |組織内のユーザーが、自分のコンピューターではなく、チーム会議へのコールインに電話を使用する必要がある場合があります。 会議をスケジュールまたは開催するユーザーのために [電話会議](../audio-conferencing-in-office-365.md) をセットアップします。 <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 料金については、「[電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)」をご覧ください。  <br/> <br/>中小規模企業で、最大300人のユーザーがいて、現在電話会議のライセンスを持っていない場合は、1年間、電話会議を無料で入手できます。 2020年10月1日から、Microsoft 365 Business Basic、Business Standard、Business Premium、enterprise E1、または Enterprise E3 ライセンスをお持ちのユーザーは、無料の電話会議サービスを利用できます。 詳細については、「 [中小規模企業向け電話会議をセットアップ](../audio-conferencing-smb.md)する」を参照してください。|&#x2713;|&#x2713;|
-|**無料電話番号** |電話会議、自動応答、または通話キューの無料電話番号が必要な場合は、 [通信クレジットを設定](../set-up-communications-credits-for-your-organization.md)する必要があります。 <br/> |&#x2713;|&#x2713;|
-|**電話システム** <br/> |[電話システム](../what-is-phone-system-in-office-365.md) は、公衆交換電話網 (PSTN) に接続するためのオプションを備えた、発信コントロールと構内交換機 (PBX) 機能を提供するホスト型電話サービスです。 電話システムの機能には、クラウドボイスメール、発信者番号通知、コールパーク、着信の転送、自動応答、通話キュー、通話転送、発信者番号などがあります。 <br>詳細については、「 [電話システムで利用できる機能](../here-s-what-you-get-with-phone-system.md)」を参照してください。 価格情報については、「 [電話システムの価格](https://go.microsoft.com/fwlink/?linkid=799763)を確認する」を参照してください。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**通話プラン** <br/> |ユーザーが組織外の電話番号に通話を発信できるようにする場合は、 [通話プラン](../calling-plans-for-office-365.md)を取得します。 国内通話プランと国内および国際通話プランがあります。 価格情報については、「 [通話プランの価格](https://go.microsoft.com/fwlink/?linkid=799761 )」をご覧ください。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**Microsoft Teams ルーム** <br/> |[Microsoft Teams のルーム](../rooms/index.md) はアドオンではありませんが、ビデオ、オーディオ、コンテンツを会議室に共有するための機能です。 「 [Teams 会議室のライセンス](../rooms/rooms-licensing.md)」をご覧ください。  <br/> |&#x2713;|&#x2713;|
-|**高度なコミュニケーション** <br/> |[高度なコミュニケーション](advanced-communications.md) には、大規模な会議、会議のカスタマイズ、通信統合、通信管理のための高度なツールなど、強化された通話と会議機能が含まれています。 最大2万人のライブイベント、および1000の参加者向けのインタラクティブな会議で、より多くの対象ユーザーに連絡を取ることができます。 その他の機能には、会議を調整するためのカスタムブランドの会議ロビー、会議やワークフローへの通話の統合機能、ユーザーとデバイスのデータを監視、追跡、分析するためのツールが含まれます。   |&#x2713;|&#x2713;|
+|**機能** <br/> |**説明** <br/> |**小規模ビジネス (<300 人のユーザー)**|**大企業 (>300 人のユーザー)**|
+**Microsoft 365 企業向け音声** <br/> | [Business Voice](../business-voice/whats-business-voice.md) は、電話システム、電話会議、国内通話プランなど、最大 300 人の中小企業向けのテレフォニー ソリューションです。 ボイスメール、発信者番号、コール パーク、着信の転送、自動応答、通話キューなどの電話システム機能を利用できます。 <br> お客様の国または地域で Business Voice を利用できるかどうかについては、「Business Voice の国と地域の利用可否」を [参照してください](../business-voice/country-region-availability.md)。 価格情報については、「Business Voice の [価格設定」を参照してください](https://go.microsoft.com/fwlink/?linkid=2127221)。 <br/> |&#x2713;||
+|**電話会議** <br/> |組織内のユーザーが自分のコンピューターではなく Teams 会議にコールインするために電話を使用する必要がある場合があります。 会議を [スケジュールまたは開催する](../audio-conferencing-in-office-365.md) ユーザーのために電話会議を設定します。 <br/> 国または地域でオーディオ会議が利用可能かどうかを調べるには、 [オーディオ会議や呼び出しプランが利用可能な国および地域](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)を参照してください。 料金については、「[電話会議の料金](https://go.microsoft.com/fwlink/?linkid=799762)」をご覧ください。  <br/> <br/>最大 300 人のユーザーを持つ中小企業で、現在電話会議のライセンスを持ってない場合は、電話会議を 1 年間無料で利用できます。 2020 年 10 月 1 日から、Microsoft 365 Business Basic、Business Standard、Business Premium、Enterprise E1、または Enterprise E3 のライセンスを持つユーザーは、無料の電話会議プランを利用できます。 詳細については、「中小企業向け電話会議のセットアップ [」を参照してください](../audio-conferencing-smb.md)。|&#x2713;|&#x2713;|
+|**無料電話番号** |電話会議、自動応答、通話キューの無料電話番号が必要な場合は、コミュニケーション クレジットを [設定する必要があります](../set-up-communications-credits-for-your-organization.md)。 <br/> |&#x2713;|&#x2713;|
+|**電話システム** <br/> |[電話システム](../what-is-phone-system-in-office-365.md) は、公衆交換電話網 (PSTN) に接続するためのオプションを備えた、通話制御とプライベート ブランチ 交換 (PBX) 機能を提供するホスト型の電話サービスです。 電話システムの機能には、クラウド ボイスメール、発信者番号、コール パーク、着信の転送、自動応答、通話キュー、通話転送、発信者番号などです。 <br>詳細については、「電話システムで利用する機能 [について」を参照してください](../here-s-what-you-get-with-phone-system.md)。 価格情報については、「電話システム [の価格設定」を参照してください](https://go.microsoft.com/fwlink/?linkid=799763)。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**通話プラン** <br/> |ユーザーが組織外の電話番号に発信する場合は、通話プランを [取得します](../calling-plans-for-office-365.md)。 国内通話プランと国内通話プランと国際通話プランがあります。 価格情報については、「通話プラン [の価格設定」を参照してください](https://go.microsoft.com/fwlink/?linkid=799761 )。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Microsoft Teams ルーム** <br/> |[Microsoft Teams の会議室](../rooms/index.md) はアドオンではなく、会議室にビデオ、音声、コンテンツ共有を提供する機能です。 [「Teams 会議室のライセンス」を参照してください](../rooms/rooms-licensing.md)。  <br/> |&#x2713;|&#x2713;|
+|**Advanced Communications** <br/> |[Advanced Communications には](advanced-communications.md) 、大規模な会議、会議のカスタマイズ、通信統合、通信管理のための高度なツールなど、通話と会議の機能が強化されています。 最大 20,000 人の参加者を対象にライブ イベントを開催し、1,000 人の参加者を対象とした対話型の会議で、より多くの参加者に向かいます。 その他の機能には、会議を調整するためのカスタム ブランドのミーティング ロビー、会議や通話をワークフローに統合する機能、ユーザーとデバイスのデータを監視、追跡、分析するためのツールが含まれます。   |&#x2713;|&#x2713;|
 
-<sup>1</sup> 組織が、Microsoft 365 Enterprise プランを持っている中小企業の場合でも、これらの音声機能のアドオンライセンスを購入することができます。ただし、 [Microsoft 365 のビジネス](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) プランと [ビジネス用ボイス](https://www.microsoft.com/microsoft-365/business/business-voice)の使用を検討することをお勧めします。
+<sup>1</sup> Microsoft 365 Enterprise プランを利用している中小企業の場合でも、これらの音声機能のアドオン ライセンスを購入することができますが [、Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) プランと [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice)を検討することをお勧めします。
 
-## <a name="what-voice-features-are-available-with-my-plan"></a>プランではどのような音声機能を使用できますか?
+## <a name="what-voice-features-are-available-with-my-plan"></a>プランで使用できる音声機能
 
-使用しているプランに応じて、Teams で音声機能を入手するために必要なアドオンライセンスを参照してください。
+使用しているプランに応じて、Teams で音声機能を取得するために必要なアドオン ライセンスを確認します。
 
-使用している音声機能に応じて、これらの機能を含むプランに切り替えることができるかどうかを比較することをお勧めします。 たとえば、大規模な組織の場合、Microsoft 365 Enterprise プランでソフトウェアのバンドルを購入すると、全体的なコストが削減されます。 通常、プランの一部としてではなく、複数のアドオンライセンスを個別に購入すると、統合コストが高くなることがあります。
+必要な音声機能に応じて、それらの機能を含むプランに切り替える方がコスト効率が高いかどうかを比較することをお勧めします。 たとえば、ほとんどの大規模な組織では、Microsoft 365 Enterprise プランでソフトウェアのバンドルを購入すると、全体的なコストが低くなります。 通常、プランの一部としてではなく、複数のアドオン ライセンスを個別に購入すると、最終的に組み合わせコストが高くなる可能性があります。
 
-#### <a name="small-business"></a>[**小規模企業**](#tab/small-business/)
+#### <a name="small-business"></a>[**小規模ビジネス**](#tab/small-business/)
 
-小規模または中規模企業 (300 ユーザー未満) の場合は、次の4つの方法で音声機能を利用できます。
+中小企業 (ユーザー数が 300 未満) の場合は、音声機能を取得する 4 つの方法があります。
 
-- Microsoft 365 のビジネスプランと Microsoft 365 ビジネス用電話を購入します。
-- Enterprise E1 または E3 プランと Microsoft 365 ビジネスボイスを購入します。
-- Enterprise E1 または E3 プランを購入して、音声機能を個別に追加します。
-- Enterprise E5 プランを購入すると、音声機能が含まれます。
+- Microsoft 365 Business プランと Microsoft 365 Business Voice を購入します。
+- Enterprise E1 または E3 プランと Microsoft 365 Business Voice を購入します。
+- Enterprise E1 または E3 プランを購入し、音声機能を個別に追加します。
+- 音声機能を含む Enterprise E5 プランを購入します。
 
-Microsoft 365 ビジネス Voip の場合は、次の2つのオプションから選択できます。
+Microsoft 365 Business Voice には、次の 2 つのオプションがあります。
 
-- **Microsoft 365 ビジネス voip (通話プラン付き**): すべての電話番号の管理と請求が microsoft によって処理されるようにする場合は、こちらをご覧ください。
-- **Microsoft 365 ビジネスボイス (通話プランなし) (直接ルーティング)**: すべての電話番号の管理と請求をサードパーティの電話会社で処理する場合は、こちらをご覧ください。 オンプレミスのセッション境界コントローラー (SBCs) を Microsoft 365 または Office 365 に接続するには、 [ダイレクトルーティング](../direct-routing-landing-page.md) をセットアップして展開する必要があります。
+- **通話プラン付き Microsoft 365 Business Voice: すべての** 電話番号管理と請求を Microsoft が処理する場合に、これを取得します。
+- **通話プランのない Microsoft 365 Business Voice (** ダイレクト ルーティング) : すべての電話番号管理と請求をサードパーティの電話プロバイダーが処理する場合に、この機能を利用できます。 オンプレミスのセッション ボーダー コントローラー (SPC) を Microsoft 365 または Office 365 に接続するには、ダイレクト ルーティングをセットアップして展開する必要があります。 [](../direct-routing-landing-page.md)
 
-詳細については、「 [Microsoft 365 ビジネス voip を使用するために購入する必要がある](../business-voice/what-to-buy.md)こと」を参照してください。
+詳細については [、「Microsoft 365 Business Voice を](../business-voice/what-to-buy.md)使用するために必要な購入方法」を参照してください。
 
-ライセンス計画に基づく概要を以下に示します。
+ライセンスプランに基づく概要を次に示します。
 
-  ![小規模ビジネスプランのオプション](../media/licensing-smallbusiness-options.png)
+  ![小規模ビジネス プランのオプション](../media/licensing-smallbusiness-options.png)
 
-お住まいの国または地域で電話会議がサポートされていない場合は、電話会議プランを使わずに Microsoft 365 Enterprise E5 を取得するか、電話会議プランを使わずに Office 365 Enterprise E5 を購入するかを選択できます。
+お客様の国または地域で電話会議がサポートされていない場合は、電話会議プランなしで Microsoft 365 Enterprise E5 を取得するか、電話会議プランなしで Office 365 Enterprise E5 を取得することができます。
 
-Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお持ちの場合でも、個別の音声機能のアドオンライセンスを購入できます。 ただし、 [microsoft 365 のビジネス](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) プランと [Microsoft 365 business Voice](https://www.microsoft.com/microsoft-365/business/business-voice)に切り替えるオプションがあります。 場合によっては、必要な機能によっては、microsoft 365 のビジネスプランを Microsoft 365 ビジネスボイスと共に取得すると、さらにコストが高くなることがあります。
+Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお持ちである場合は、音声機能ごとにアドオン ライセンスを購入できます。 ただし [、Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) プランと Microsoft [365](https://www.microsoft.com/microsoft-365/business/business-voice)Business Voice に切り替えるオプションがあります。 必要な機能によっては、Microsoft 365 Business Voice で Microsoft 365 Business プランを取得する方がコスト効率が高い場合があります。
 
 > [!NOTE]
-> サードパーティの電話サービスを使用する必要がある場合は、 [直接ルーティング](../direct-routing-landing-page.md) を組織内に展開するか、お住まいの国または地域で通話プランを利用できない場合は、音声機能を直接ルーティングする必要があります。
+> サードパーティの電話サービスを使用する必要がある場合、直接[](../direct-routing-landing-page.md)ルーティングが組織に展開されている場合、または通話プランが国または地域で利用できない場合は、音声機能に直接ルーティングを使用する必要があります。
 
 #### <a name="enterprise"></a>[**Enterprise**](#tab/enterprise/)
 
-大規模企業またはエンタープライズ組織の場合 (300 ユーザーを超える場合)、音声機能を利用するには2つの方法があります。
+大企業またはエンタープライズ組織 (300 を超えるユーザー) の場合、音声機能を利用するには 2 つの方法があります。
 
-- Enterprise E1 または E3 プランを購入して、音声機能を個別に追加します。
-- Enterprise E5 プランを購入すると、音声機能が含まれます。
+- Enterprise E1 または E3 プランを購入し、音声機能を個別に追加します。
+- 音声機能を含む Enterprise E5 プランを購入します。
 
-ライセンス計画に基づく概要を以下に示します。
+ライセンスプランに基づく概要を次に示します。
 
-  ![エンタープライズベースのプランのオプション](../media/licensing-enterprise-options.png)
+  ![エンタープライズ ベースのプラン オプション](../media/licensing-enterprise-options.png)
 
-お住まいの国または地域で電話会議がサポートされていない場合は、電話会議プランを使わずに Microsoft 365 Enterprise E5 を取得するか、電話会議プランを使わずに Office 365 Enterprise E5 を購入するかを選択できます。
+お客様の国または地域で電話会議がサポートされていない場合は、電話会議プランなしで Microsoft 365 Enterprise E5 を取得するか、電話会議プランなしで Office 365 Enterprise E5 を取得することができます。
 
-詳細については、「 [Microsoft 365 enterprise プラン](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) と [Office 365 enterprise プラン](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)」を参照してください。
+詳細については [、Microsoft 365 Enterprise プランと 365 Enterprise](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) [プランOfficeを参照してください](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)。
 
 > [!NOTE]
-> サードパーティの電話サービスを使用する必要がある場合は、 [直接ルーティング](../direct-routing-landing-page.md) を組織内に展開するか、お住まいの国または地域で通話プランを利用できない場合は、音声機能を直接ルーティングする必要があります。
+> サードパーティの電話サービスを使用する必要がある場合、直接[](../direct-routing-landing-page.md)ルーティングが組織に展開されている場合、または通話プランが国または地域で利用できない場合は、音声機能に直接ルーティングを使用する必要があります。
 
 #### <a name="education"></a>[**Education**](#tab/education/)
 
-学校やその他の教育機関向けの3つの方法で、音声機能を利用できます。
+学校や他の教育機関の場合は、音声機能を取得する 3 つの方法があります。
 
-- EDU A1 または A3 プランと Microsoft 365 ビジネスボイスを購入します。
-- EDU A1 または A3 プランを購入して、音声機能を個別に追加します。
-- EDU A5 プランを購入すると、音声機能が含まれます。
+- EDU A1 または A3 プランと Microsoft 365 Business Voice を購入します。
+- EDU A1 または A3 プランを購入し、音声機能を個別に追加します。
+- 音声機能を含む EDU A5 プランを購入します。
 
-ライセンス計画に基づく概要を以下に示します。
+ライセンスプランに基づく概要を次に示します。
 
-  ![EDU プランのオプション](../media/licensing-education-options.png)
+  ![EDU プランオプション](../media/licensing-education-options.png)
 
-  <sup>1</sup> ユーザー数が300より少ない組織でのみ使用できます。
+  <sup>1</sup> ユーザー数が 300 未満の組織でのみ利用できます。
 
-詳細については、「 [Microsoft 365 エデュケーション](https://www.microsoft.com/education/buy-license/microsoft365) と [Office 365 の教育機関向けプラン](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plan)」を参照してください。
+詳細については [、Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) プランと [Office 365 Education プランを参照してください](https://www.microsoft.com/education/products/office)。
 
 > [!NOTE]
-> サードパーティの電話サービスを使用する必要がある場合は、 [直接ルーティング](../direct-routing-landing-page.md) を組織内に展開するか、お住まいの国または地域で通話プランを利用できない場合は、音声機能を直接ルーティングする必要があります。
+> サードパーティの電話サービスを使用する必要がある場合、直接[](../direct-routing-landing-page.md)ルーティングが組織に展開されている場合、または通話プランが国または地域で利用できない場合は、音声機能に直接ルーティングを使用する必要があります。
 
-#### <a name="government"></a>[**公式**](#tab/government/)
+#### <a name="government"></a>[**行政**](#tab/government/)
 
-米国政府機関 (GCC のみ) の場合、音声機能を利用するには3つの方法があります。
+米国の政府機関 (GCC のみ) の場合、音声機能を取得するには 3 つの方法があります。
 
-- GOV G1 または G3 プランと Microsoft 365 ビジネスボイスを購入します。
-- GOV G1 または G3 プランを購入して、クラウド音声機能を個別に追加します。
-- GOV G5 プランを購入すると、音声機能が含まれます。
+- GOV G1 または G3 プランと Microsoft 365 Business Voice を購入します。
+- GOV G1 または G3 プランを購入し、クラウド音声機能を個別に追加します。
+- 音声機能を含む GOV G5 プランを購入します。
 
-ライセンス計画に基づく概要を以下に示します。
+ライセンスプランに基づく概要を次に示します。
 
   ![Gov ベースのオプション](../media/licensing-government-options.png)
 
-  <sup>1</sup> ユーザー数が300より少ない組織でのみ使用できます。
+  <sup>1</sup> ユーザー数が 300 未満の組織でのみ利用できます。
 
-詳細については、「 [Microsoft 365 government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 government のプラン](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)」を参照してください。
-
-> [!NOTE]
-> サードパーティの電話サービスを使用する必要がある場合は、 [直接ルーティング](../direct-routing-landing-page.md) を組織内に展開するか、お住まいの国または地域で通話プランを利用できない場合は、音声機能を直接ルーティングする必要があります。
-
-#### <a name="nonprofit"></a>[**非**](#tab/nonprofit/)
-
-非営利団体のお客には、次の4つの方法で音声機能を利用できます。
-
-- Microsoft 365 非営利団体または Microsoft 365 非営利団体向け標準プランと Microsoft 365 ビジネスボイスを購入します。
-- 非営利団体または E3 プランと Microsoft 365 ビジネスボイスを購入します。
-- 非営利 E1 または E3 プランを購入して、音声機能を個別に追加します。
-- 音声機能を含む、非営利的な E5 を購入します。
-
-ライセンス計画に基づく概要を以下に示します。
-
-  ![非営利系のオプション](../media/licensing-nonprofit-options.png)
-
-  <sup>1</sup> ユーザー数が300より少ない組織でのみ使用できます。
-
-詳細については、「 [Microsoft 365 と Office 365 の非営利製品](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)」を参照してください。
+詳細については [、Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) プランと Office [365 Government プランを参照してください](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)。
 
 > [!NOTE]
-> サードパーティの電話サービスを使用する必要がある場合は、 [直接ルーティング](../direct-routing-landing-page.md) を組織内に展開するか、お住まいの国または地域で通話プランを利用できない場合は、音声機能を直接ルーティングする必要があります。
+> サードパーティの電話サービスを使用する必要がある場合、直接[](../direct-routing-landing-page.md)ルーティングが組織に展開されている場合、または通話プランが国または地域で利用できない場合は、音声機能に直接ルーティングを使用する必要があります。
 
-#### <a name="trial-offers"></a>[**試用版の提供**](#tab/trial/)
+#### <a name="nonprofit"></a>[**非営利団体**](#tab/nonprofit/)
 
-### <a name="trial-offers-for-licensing-plans"></a>ライセンスプランの試用版
+非営利団体の場合は、音声機能を取得する 4 つの方法があります。
 
-ユーザーがリモートで作業したり、家庭で仕事をしたりする必要がなくなったため、Microsoft には行政機関向け、教育機関向け、非営利団体向けに、複数の無料の Teams 試用版が用意されています。 試用版は以下のプランで利用できます。
+- Microsoft 365 Nonprofit Business Basic または Microsoft 365 Nonprofit Business Standard プランと Microsoft 365 Business Voice を購入します。
+- 非営利団体向け E1 または E3 プランと Microsoft 365 Business Voice を購入します。
+- 非営利団体向け E1 または E3 プランを購入し、音声機能を個別に追加します。
+- 音声機能を含む非営利団体 E5 を購入します。
 
-- Office 365 Enterprise [E1 試用版](../e1-trial-license.md) (2020 年7月1日から廃止)、E3 試用版、および E5 試用版
-- Office 365 エデュケーション [A1 の試用版](../teams-edu-licensing.md)
-- Office 365 Government [G1 試用版](../g1-trial-license.md) (2020 年7月1日から廃止)
+ライセンスプランに基づく概要を次に示します。
 
-試用版にサインアップするには、「 [試用版へのサインアップ](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)」を参照してください。
+  ![非営利団体ベースのオプション](../media/licensing-nonprofit-options.png)
 
-### <a name="trial-offers-for-voice-features"></a>音声機能の試用版
+  <sup>1</sup> ユーザー数が 300 未満の組織でのみ利用できます。
 
-音声機能の試用版の概要を次に示します。
+詳細については [、Microsoft 365 と 365 Nonprofit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)Officeをご覧ください。
 
-  ![トライアルベースのオプション](../media/licensing-trial-offers.png)
+> [!NOTE]
+> サードパーティの電話サービスを使用する必要がある場合、直接[](../direct-routing-landing-page.md)ルーティングが組織に展開されている場合、または通話プランが国または地域で利用できない場合は、音声機能に直接ルーティングを使用する必要があります。
 
- このような音声機能の試用版を使用するには、基本プランが試用版である必要はありません。 Microsoft 365 のビジネスプランまたは企業向け、行政機関向け、教育機関向け、または非営利団体向けプランを使用して、音声機能の試用版を利用することができます。 利用可能な試用版とアドオンを表示するには、Microsoft 365 管理センターで [**課金**  >  **サービス**] に移動し、**興味を持つ可能性があるその他のカテゴリ**を選択して、 **[アドオン**] を選択します。
+#### <a name="trial-offers"></a>[**試用版のオファー**](#tab/trial/)
 
-  各音声と会議のオプションについては、無料の電話番号をお持ちの場合、またはユーザーが会議からダイヤルアウトする場合や、国内と国際間の PSTN 通話を行う場合に、通話料金を追加する必要がある場合は、 [通信クレジット](../set-up-communications-credits-for-your-organization.md) が必要です。
+### <a name="trial-offers-for-licensing-plans"></a>ライセンス プランの試用版プラン
 
- また、次の項目もご覧ください。
+ユーザーがリモートで (または在宅で作業する) 必要が高くなっているのに対して、Microsoft には政府機関、教育機関、非営利団体向け無料の Teams 試用版オファーがいくつか用意されています。 試用版は次のプランで利用できます。
 
-- [Teams の無料バージョン](../manage-freemium.md)
-- [Teams の探索](../teams-exploratory.md) 機能-現時点では、Teams の探索エクスペリエンスで使用するための音声機能について、試用版は提供されていません。
-- [Microsoft 電話システム-仮想ユーザー](virtual-user.md) ライセンス
+- Office 365 Enterprise [E1](../e1-trial-license.md) 試用版 (2020 年 7 月 1 日に廃止)、E3 試用版、E5 試用版
+- Office 365 Education [A1 試用版](../teams-edu-licensing.md)
+- Office 365 Government [G1 試用版](../g1-trial-license.md) (2020 年 7 月 1 日に廃止)
+
+試用版のオファーにサインアップするには、「試用版のオファーにサインアップ [する」を参照してください](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)。
+
+### <a name="trial-offers-for-voice-features"></a>音声機能の試用版オファー
+
+音声機能の試用版オファーの概要を次に示します。
+
+  ![試用版のオプション](../media/licensing-trial-offers.png)
+
+ 基本プランは、音声機能でこれらの評価版を使用するために試用版プランである必要は一切ない。 Microsoft 365 Business プラン、またはエンタープライズ、政府機関、教育、非営利団体向けプランを音声機能の試用版プランで使用できます。 利用可能な試用版プランとアドオンを表示するには、Microsoft 365 管理センターで、[課金購入サービス] に移動し、興味のあるその他のカテゴリを選択し、[アドオン] を選択します。  >    
+
+  これらの音声および会議オプションごとに、無料電話番号[](../set-up-communications-credits-for-your-organization.md)がある場合、またはユーザーが会議からダイヤルアウトするための分数を追加する必要がある場合、またはユーザーが国内および国際 PSTN 通話を行う場合は、通信クレジットが必要です。
+
+ また、次の情報も確認してください。
+
+- [無料版の Teams](../manage-freemium.md)
+- [Teams 探索的エクスペリエンス](../teams-exploratory.md) - 現在、Teams 探索的エクスペリエンスで使用する音声機能の試用版はありません。
+- [Microsoft Phone System - 仮想ユーザー](virtual-user.md) ライセンス
 
 * * *
 
 ## <a name="need-help"></a>サポートが必要な場合
 
-アドオンオプションについて誰かに相談する必要がある場合 [ビジネス製品のサポートについては、「管理者向けヘルプ」を参照してください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+アドオン オプションについて他のユーザーと話す必要がありますか? [ビジネス製品のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teams のアドオンライセンスを割り当てる](assign-teams-add-on-licenses.md)
+- [Teams アドオン ライセンスを割り当てる](assign-teams-add-on-licenses.md)
 - [Teams へのユーザー アクセスを管理する](../user-access.md)
 - [Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)

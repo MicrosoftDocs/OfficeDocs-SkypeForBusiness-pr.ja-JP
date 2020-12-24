@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
-ms.openlocfilehash: ab8aef809f46b412d065f5dd96de97151e026f1a
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616931"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731135"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -200,7 +200,7 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 
 Teamsのヘルプ デスクとチャンピオンの準備に関するガイダンスとリソースについては、「[組織のトレーニング](https://adoption.microsoft.com/microsoft-teams/#train-your-org)」および「[チャンピオンの構築](https://adoption.microsoft.com/microsoft-teams/#build-champions)」を参照してください。
 
-ユーザーの「ハウツー」の質問に答える、頼りになる連絡先として、学習経路サイトでユーザーをトレーニングし、サポートチケットを作成する代わりに、ヘルプデスクとチャンピオンを使用できます。 トレーニングとサポートのページを作成して、ヘルプデスクとチャンピオンに[学習経路サイトをカスタマイズする](https://docs.microsoft.comoffice365/customlearning/custom_overview)ように促し、その後ユーザーが自分で利用できるように、チーム内の[チャネルにタブとして追加](#add-your-site-to-teams)します。
+ユーザーの「ハウツー」の質問に答える、頼りになる連絡先として、学習経路サイトでユーザーをトレーニングし、サポートチケットを作成する代わりに、ヘルプデスクとチャンピオンを使用できます。 トレーニングとサポートのページを作成して、ヘルプデスクとチャンピオンに[学習経路サイトをカスタマイズする](https://docs.microsoft.com/office365/customlearning/)ように促し、その後ユーザーが自分で利用できるように、チーム内の[チャネルにタブとして追加](#add-your-site-to-teams)します。
 
 ### <a name="drive-adoption"></a>導入の促進
 
