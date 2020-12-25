@@ -1,6 +1,6 @@
 ---
 title: SharePoint Online サイトまたはページから Terms の「イントラネット ポータル アプリ」を作成する
-author: LanaChin
+author: cichur
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -14,20 +14,20 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 既存の SharePoint Online サイトまたはページを取得し、組織のイントラネット ポータルとして使用できるスタンドアロンの静的タブを作成します。
 localization_priority: Priority
-ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b89a17f81024fba05a1be9fb1dc4d59b1aceafd
+ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083167"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "49731115"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>SharePoint Online サイトまたはページから Terms の「イントラネット ポータル アプリ」を作成する
 
 この記事の手順を使用して、組織のイントラネット サイトにリンクされたスタンドアロンの静的アプリを Teams 内に作成します。
 
-SharePoint イントラネット サイトの *Teams 個人用アプリ*が作成され、Teams 内にタブとして表示されます。 このタブには、すべての Teams ユーザーにとって重要な情報を含めることができます。 これは、Teams ユーザーが、タブをクリックするだけで更新情報にアクセスできるようにするための、すばやく簡単な方法です。
+SharePoint イントラネット サイトの *Teams 個人用アプリ* が作成され、Teams 内にタブとして表示されます。 このタブには、すべての Teams ユーザーにとって重要な情報を含めることができます。 これは、Teams ユーザーが、タブをクリックするだけで更新情報にアクセスできるようにするための、すばやく簡単な方法です。
 
-示されているプロセスが機能するには、*最新の* SharePoint サイトまたはページを**使用する必要がある**ことに注意してください。 このプロセスは、*クラシック* サイトやページでは使用できません。
+示されているプロセスが機能するには、*最新の* SharePoint サイトまたはページを **使用する必要がある** ことに注意してください。 このプロセスは、*クラシック* サイトやページでは使用できません。
 
 > [!IMPORTANT]
 > テナントで Teams アプリのサイドローディングが有効になっていることを確認します。 Teams 管理ポータルの移行プロセスの段階によっては、ポータルの以前のバージョン内の [Teams] > [管理者] の下、または [管理者] > [設定] > [サービスとアドイン] > [Microsoft Teams] > [アプリ] > [外部アプリ] の下のいずれかで Teams アプリのサイドローディングを有効にする必要があります。
@@ -42,9 +42,10 @@ SharePoint イントラネット サイトの *Teams 個人用アプリ*が作�
 2. 自分のテナントのサブドメインを知っておく必要があります。これはプレースホルダーの **{{subdomain}}** で使用します。
 
 3. この記事では、選択したサイトまたはページの *URL* のプレースホルダーとして **{{siteUrl}}** を使用します。
-    - *URL* の例:   https://contoso.sharepoint.com/teams/Contoso   * または * https://contoso.sharepoint.com/sites/Contoso
-4. また、URL の*パス*を示すために **{{sitePath}}** を使用します (例: /teams/Contoso)。
-    - *パス*の例:   /teams/Contoso   * または * /sites/Contoso
+    - *URL* の例: `https://contoso.sharepoint.com/teams/Contoso`
+        *または* `https://contoso.sharepoint.com/sites/Contoso`
+4. また、URL の *パス* を示すために **{{sitePath}}** を使用します (例: /teams/Contoso)。
+    - *パス* の例:   /teams/Contoso   *または* /sites/Contoso
 
 次の手順に従って開始します。
 
@@ -56,34 +57,34 @@ SharePoint イントラネット サイトの *Teams 個人用アプリ*が作�
 
 4. App Studio を開いた状態で、**[マニフェスト エディター]** をクリックします。
 
-5. **新しいアプリを作成**します。
+5. **新しいアプリを作成** します。
 
-6. すべての**アプリの詳細**を入力します。
+6. すべての **アプリの詳細** を入力します。
 
-7. [機能] の下の**タブ**をクリックします。
+7. [機能] の下の **タブ** をクリックします。
 
 8. [個人用] タブの **[追加]** をクリックします。
 
-9. **名前**を入力し、**新しい一意のエンティティ ID** を選択します。
+9. **名前** を入力し、**新しい一意のエンティティ ID** を選択します。
 
 10. **contentURL と Web サイトの URL** を入力します。
 
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **websiteUrl**: {{siteUrl}}
 
-    **contentURL** の例: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+    **contentURL** の例: `https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub`
 
 11. **[ドメインとアクセス許可]** に移動します。 有効なドメイン セクションに SharePoint Online のドメイン名が含まれていることを確認します。
 
-    例: contoso.sharepoint.com
+    例: `contoso.sharepoint.com`
 
-12. 次の Web アプリの**シングル サインオン**のプロパティを追加します。
+12. 次の Web アプリの **シングル サインオン** のプロパティを追加します。
 
      例:  **AAD アプリケーション ID**: 00000003-0000-0ff1-ce00-000000000000  **リソースの URL**: {{subdomain}}.sharepoint.com
 
     ![ID と URL を使用した Web アプリのシングル サインオン。](media/personal-app.png)
 
-13. これらのプロパティを**保存**して、**[テストと配布]** に移動します。
+13. これらのプロパティを **保存** して、**[テストと配布]** に移動します。
 
 14. アプリをインストールして、アプリケーションを個人でテストします。
 
