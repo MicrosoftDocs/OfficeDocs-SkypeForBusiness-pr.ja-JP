@@ -288,6 +288,8 @@
               href: rooms/with-exchange-on-premises.md
             - name: コンソールを構成する
               href: rooms/console.md
+            - name: 手動でデバイスを更新する
+              href: rooms/manual-update.md
             - name: 認証を構成する
               href: rooms/rooms-authentication.md
             - name: サードパーティ製の会議に参加する
