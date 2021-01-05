@@ -1,5 +1,5 @@
 ---
-title: セッション境界のコントローラーを構成する-複数のテナント
+title: セッション ボーダー コントローラーを構成する - 複数のテナント
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,248 +15,251 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 1つのセッション境界コントローラー (SBC) を構成して、Microsoft パートナーや PSTN キャリアの複数のテナントを処理する方法について説明します。
+description: 1 つのセッション ボーダー コントローラー (SBC) を構成して、Microsoft パートナーや PSTN キャリア用に複数のテナントにサービスを提供する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64647330104735c92ebac8439fc264e1411a60a1
-ms.sourcegitcommit: 0a9c5c01b37a93eecc369ca0ed49ae18f6a5065b
+ms.openlocfilehash: fb7e89bab49bf92f505c2ca50950e78492186c24
+ms.sourcegitcommit: 11e0b8bfb960fb726880c80ce9339e864bcb074a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "48655524"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49750587"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
-ダイレクトルーティングでは、1つのセッション境界コントローラー (SBC) で複数のテナントに対応するように構成することができます。
+ダイレクト ルーティングでは、複数のテナントにサービスを提供する 1 つのセッション ボーダー コントローラー (SBC) の構成がサポートされています。
 
 > [!NOTE]
-> このシナリオは、このドキュメントで後述する「配送業者」と呼ばれる Microsoft パートナーや PSTN キャリア向けに設計されています。 通信事業者は、Microsoft Teams に配信されたテレフォニーサービスを顧客に販売します。 
+> このシナリオは、このドキュメントの後半で通信事業者と呼ばれる、Microsoft パートナーや PSTN 通信事業者向けに設計されています。 通信事業者は、Microsoft Teams に配信されたテレフォニー サービスを顧客に販売しています。 
 
-電話会社:
-- データセンターで SBC を展開して管理します (顧客は SBC を実装する必要はありません。また、ユーザーは、チームクライアントの電話会社からテレフォニーサービスを受け取ります)。
-- SBC と複数のテナントを相互接続します。
-- ユーザーに PSTN サービスを提供します。
-- 通話品質の終了を管理します。
-- PSTN サービスに対して別途料金がかかります。
+通信事業者:
+- データセンターに SBC を展開して管理します (お客様は SBC を実装する必要は不要で、Teams クライアントの通信事業者からテレフォニー サービスを受け取ります)。
+- SBC を複数のテナントに相互接続します。
+- PSTN サービスをお客様に提供します。
+- 通話品質のエンドツーエンドを管理します。
+- PSTN サービスに対する個別の料金。
 
-Microsoft は、配送業者を管理しません。 Microsoft は、PBX (Microsoft 電話システム) と Teams クライアントを提供しています。 Microsoft では、電話を認定しています。また、Microsoft 電話システムでも使用できる認定されています。 キャリアを選択する前に、お客様の選択内容が認定された SBC であり、音声品質のエンドツーエンドを管理できることを確認してください。
+Microsoft は、通信事業者を管理していない。 Microsoft は PBX (Microsoft Phone System) と Teams クライアントを提供しています。 また、Microsoft は電話を認定し、Microsoft Phone System で使用できる SPC を認定します。 通信事業者を選択する前に、お客様の選択に認定済みの SBC が付いていて、音声品質をエンドツーエンドで管理できる必要があります。
 
-次に、シナリオを構成するための技術的な実装手順を示します。
+シナリオを構成するための技術的な実装手順を次に示します。
 
-**電話会社のみ:**
-1. 認定された [sbc ベンダーからの指示](#deploy-and-configure-the-sbc)に従って、sbc を展開してホスティングシナリオ用に構成します。
-2. キャリアテナントにベースドメイン名を登録して、ワイルドカード証明書を要求します。
-3. ベースドメインの一部であるすべてのユーザーに対してサブドメインを登録します。
+**通信事業者のみ:**
+1. SBC を展開し、認定された SBC ベンダーからの指示に従ってホスティング [シナリオ用に構成します](#deploy-and-configure-the-sbc)。
+2. キャリア テナントにベース ドメイン名を登録し、ワイルドカード証明書を要求します。
+3. ベース ドメインの一部であるすべての顧客のサブドメインを登録します。
 
-**顧客のグローバル管理者がいる電話会社:**
-1. 顧客テナントにサブドメイン名を追加します。
-2. サブドメイン名を有効にします。
-3. 電話会社から顧客テナントにトランクを構成し、ユーザーをプロビジョニングします。
+**顧客グローバル管理者が利用する通信事業者:**
+1. サブドメイン名を顧客テナントに追加します。
+2. サブドメイン名をアクティブ化します。
+3. 通信事業者から顧客テナントにトランクを構成し、ユーザーをプロビジョニングします。
 
-*DNS の基礎と、Microsoft 365 または Office 365 でのドメイン名の管理について理解していることを確認してください。先に進む前に、 [Microsoft 365 または Office 365 のドメインに関するヘルプを](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 参照してください。*
+*DNS の基本と、Microsoft 365 または Office 365 でのドメイン名の管理方法を理解してください。さらに [進む前に、Microsoft 365 または 365 Officeヘルプ](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) を参照してください。*
 
-## <a name="deploy-and-configure-the-sbc"></a>SBC の展開と構成
+## <a name="deploy-and-configure-the-sbc"></a>SBC を展開して構成する
 
-SBC ホスティングシナリオでの SBCs の展開と構成の詳細な手順については、SBC ベンダーのマニュアルを参照してください。
+SBC ホスティング シナリオ用に SBC を展開および構成する方法の詳細な手順については、SBC ベンダーのドキュメントを参照してください。
 
-- **Audiocodes:** [ダイレクトルーティング構成のメモ](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)「Audiocodes の sbc から Microsoft Teams へのダイレクトルーティングホスティングモデル構成のメモ」で説明したように、sbc ホスティングシナリオの構成を確認します。 
-- **Oracle:** [直接ルーティング構成のメモ](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)「Microsoft」セクションでは、SBC ホスティングシナリオの構成について説明します。 
-- **リボンの通信:**  リボンについては、「リボンの主要な一連の製品を構成する方法」および「このページのリボンを構成する [」](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) を参照してください。 [ベストプラクティス-Microsoft Teams のダイレクトルーティング Sbc エッジの配送業者の構成](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
-- **TE システム (anynode):**  複数のテナントに対して、任意のノードの SBC を構成する方法のドキュメントと例については、[ [TE システムのコミュニティ] ページ](https://community.te-systems.de/) で登録してください。
-- **Metaswitch:**  複数のテナントに対して、他の Metaswitch のメタを有効にする方法については、こちらの [ページ](https://manuals.metaswitch.com/MAN39555) で登録してください。
+- **AudioCodes:** [ダイレクト ルーティング](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)構成のメモ。「AudioCodes SBC から Microsoft Teams ダイレクト ルーティング ホスティング モデル構成メモへの接続」で説明されている SBC ホスティング シナリオの構成。 
+- **Oracle:** [ダイレクト ルーティング構成に関する注意事項](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)、SBC ホスティング シナリオの構成については、「Microsoft」セクションを参照してください。 
+- **リボンのコミュニケーション:** リボン コア シリーズの SBC を構成する方法およびこのページのリボンのベスト プラクティス - Microsoft Teams ダイレクト ルーティング [SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)用の携帯電話会社の構成については、リボン通信 [SBC](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) Core Microsoft Teams 構成ガイドを参照してください。
+- **TE-Systems (anynode):**  複数のテナントに対して anynode SBC を構成する方法のドキュメントと例については [、TE-Systems コミュニティ](https://community.te-systems.de/) ページに登録してください。
+- **メタスイッチ:**  複数のテナントで Perimeta SBC を有効にする方法のドキュメントについては [、Metaswitch コミュニティ](https://manuals.metaswitch.com/MAN39555) ページに登録してください。
 
 > [!NOTE]
-> 「コンタクト」ヘッダーの設定方法に注意してください。 連絡先ヘッダーは、着信招待メッセージで顧客テナントを検索するために使用されます。 
+> "連絡先" ヘッダーの構成方法にご注意ください。 連絡先ヘッダーは、受信した招待メッセージで顧客テナントを検索するために使用されます。 
 
-## <a name="register-a-base-domain-and-subdomains"></a>ベースドメインとサブドメインを登録する
+## <a name="register-a-base-domain-and-subdomains"></a>ベース ドメインとサブドメインを登録する
 
-ホスティングシナリオでは、次のものを作成する必要があります。
-- 通信事業者によって所有される1つのベースドメイン名。
-- すべての顧客テナントのベースドメイン名の一部であるサブドメイン。
+ホスティングシナリオでは、次を作成する必要があります。
+- 通信事業者が所有する 1 つのベース ドメイン名。
+- すべての顧客テナントのベース ドメイン名の一部であるサブドメイン。
 
-次の例では、次のようになります。
-- Adatum は、インターネットとテレフォニーサービスを提供することによって、複数の顧客に提供する電話会社です。
-- Woodgrove Bank、Contoso、Adventure Works は、Microsoft 365 または Office 365 ドメインを所有しているが、Adatum からテレフォニーサービスを受け取る3人のユーザーです。
+次の例では、次の手順を実行します。
+- Adatum は、インターネットおよびテレフォニー サービスを提供することで、複数のお客様にサービスを提供する通信事業者です。
+- Woodgrove Bank、Contoso、Adventure Works は、Microsoft 365 または Office 365 ドメインを持っているが、Adatum からテレフォニー サービスを受け取る 3 人のお客様です。
 
-サブドメインは、ユーザーに対して構成されるトランクの FQDN 名と、招待状を Microsoft 365 または Office 365 に送信するときに連絡先ヘッダーの FQDN に一致させる **必要があり** ます。 
+サブドメインは、Microsoft 365 または Office 365 に招待を送信するときに、顧客用に構成されるトランクの FQDN 名と連絡先ヘッダーの FQDN と一致する必要があります。  
 
-Microsoft 365 または Office 365 のダイレクトルーティングインターフェイスで通話を受信すると、インターフェイスは連絡先ヘッダーを使って、ユーザーが検索する必要があるテナントを見つけます。 直接ルーティングでは、ユーザーによっては、複数のテナントで重複する可能性のある電話番号がない可能性があるため、招待で電話番号の参照は使用されません。 そのため、連絡先ヘッダーの FQDN 名は、電話番号によってユーザーを検索する正確なテナントを特定する必要があります。
+呼び出しが Microsoft 365 または Office 365 ダイレクト ルーティング インターフェイスに到着すると、インターフェイスは連絡先ヘッダーを使用して、ユーザーを検索する必要があるテナントを検索します。 ダイレクト ルーティングでは、複数のテナントで重複する可能性がある DID 以外の番号を持つお客様もいます。 そのため、電話番号でユーザーを検索するテナントを正確に識別するには、連絡先ヘッダーの FQDN 名が必要です。
 
-*Microsoft 365 または Office 365 組織でのドメイン名の作成について詳しくは、「  [Office 365 ドメインに関するヘルプ](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 」をご覧ください。*
+*Microsoft  [365 または Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 組織でのドメイン名の作成の詳細については、365 のドメインに関するヘルプOffice参照してください。*
 
-次の図は、ベースドメイン、サブドメイン、連絡先ヘッダーの要件をまとめたものです。
+次の図は、ベース ドメイン、サブドメイン、および連絡先ヘッダーの要件をまとめた図です。
 
 ![ドメインと連絡先ヘッダーの要件を示す図](media/direct-routing-1-sbc-requirements.png)
 
-SBC は、接続を認証するために証明書を必要とします。 SBC ホスティングシナリオでは、通信事業者は SAN * \* .base_domain (たとえば、 \* customers.adatum.biz)* で証明書を要求する必要があります。 この証明書を使って、1つの SBC から提供されている複数のテナントへの接続を認証することができます。
+SBC では、接続を認証するための証明書が必要です。 SBC ホスティング シナリオの場合、通信事業者は SAN サービスを使用した証明書 *\* (..base_domain \* など) を要求する必要customers.adatum.biz。* この証明書は、1 つの SBC から提供された複数のテナントへの接続を認証するために使用できます。
 
 
-次の表は、1つの構成の例です。
+次の表は、1 つの構成の例です。
 
 
-|新しいドメイン名 |種類|登録  |SBC 用証明書 SAN  |テナントの既定のドメインの例  |ユーザーに通話を送信するときに、SBC が連絡先ヘッダーに提示する必要がある FQDN 名|
+|新しいドメイン名 |種類|登録済み  |Certificate SAN for SBC  |例のテナントの既定のドメイン  |ユーザーに通話を送信するときに、SBC が連絡先ヘッダーに表示する必要があります。|
 |---------|---------|---------|---------|---------|---------|
-|customers.adatum.biz|    技術     |     運送業者のテナント  |    \*customers.adatum.biz  |   adatum.biz      |NA、これはサービステナントであり、ユーザーは存在しません |
-|sbc1.customers.adatum.biz|    プロトコル  |    顧客テナントの場合  |    \*customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
-|sbc2.customers.adatum.biz  |   プロトコル | 顧客テナントの場合   |   \*customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
-|sbc3.customers.adatum.biz |   プロトコル | 顧客テナントの場合 |   \*customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
+|customers.adatum.biz|    Base     |     通信事業者テナントの場合  |    \*.customers.adatum.biz  |   adatum.biz      |NA、これはサービス テナント、ユーザーなし |
+|sbc1.customers.adatum.biz|    サブドメイン  |    顧客テナントの場合  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
+|sbc2.customers.adatum.biz  |   サブドメイン | 顧客テナントの場合   |   \*.customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
+|sbc3.customers.adatum.biz |   サブドメイン | 顧客テナントの場合 |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 ||         |         |         |         |         |
 
-基本とサブドメインを構成するには、次に説明する手順に従ってください。 この例では、1つの顧客のベースドメイン名 (customers.adatum.biz) とサブドメイン (Woodgrove Bank テナントの sbc1.customers.adatum.biz) を構成します。
+ベースとサブドメインを構成するには、次に説明する手順に従ってください。 この例では、1 人の顧客のベース ドメイン名 (customers.adatum.biz) とサブドメイン (Woodgrove Bank テナントの sbc1.customers.adatum.biz) を構成します。
 
 > [!NOTE]
-> SbcX.customers.adatum.biz を使用して、キャリアテナントの音声を有効にします。 sbcX は、一意で有効な英数字のホスト名にすることができます。
+> このsbcX.customers.adatum.bizを使用して、キャリア テナントで音声を有効にします。 sbcX には、任意の一意の有効な英数字ホスト名を指定できます。
 
-## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>会社のテナントにベースドメイン名を登録する
+## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>キャリア テナントでベース ドメイン名を登録する
 
-**これらの操作は、キャリアテナントで実行されます。**
+**これらのアクションは、通信事業者テナントで実行されます。**
 
-### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>電話会社のテナントで適切な権利を持っていることを確認する
+### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>通信事業者テナントに適切な権限を持っている必要があります
 
-新しいドメインを追加するには、グローバル管理者として Microsoft 365 管理センターにサインインしている必要があります。 
+新しいドメインを追加できるのは、グローバル管理者として Microsoft 365 管理センターにサインインしている場合のみです。 
 
-所有している役割を検証するには、Microsoft 365 管理センターにサインインして、 https://portal.office.com) [**ユーザー**のアクティブなユーザー] に移動して、  >  **Active Users**グローバル管理者の役割を持っていることを確認します。 
+持っている役割を検証するには、Microsoft 365 管理センターにサインインしてください ([アクティブなユーザー] に移動し、グローバル管理者の役割を持っているか https://portal.office.com)   >  確認します)。 
 
-管理者の役割と、Microsoft 365 または Office 365 での役割の割り当て方法の詳細については、「 [管理者ロールについ](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)て」を参照してください。
+管理者ロールの詳細と、Microsoft 365 または Office 365 でロールを割り当てる方法については、「管理者ロールについて」を [参照してください](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
-### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>ベースドメインをテナントに追加して確認する
+### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>テナントにベース ドメインを追加して確認する
 
-1. Microsoft 365 管理センターで、[**セットアップ**ドメインの追加] に移動し  >  **Domains**  >  **Add domain**ます。
-2. [ **自分が所有しているドメインを入力して** ください] ボックスに、ベースドメインの FQDN を入力します。 次の例では、ベースドメインは *customers.adatum.biz*です。
+1. Microsoft 365 管理センターで、[ドメインの追加のセットアップ  >  **] に**  >  **移動します**。
+2. [所有 **するドメインを入力してください] ボックス** に、ベース ドメインの FQDN を入力します。 次の例では、ベース ドメインは *customers.adatum.biz。*
 
     ![[ドメインの追加] ページを示すスクリーンショット](media/direct-routing-2-sbc-add-domain.png)
 
 3. **[次へ]** をクリックします。
-4. この例では、テナントは既に確認済みドメイン名として adatum.biz されています。 Customers.adatum.biz は既に登録されている名前のサブドメインであるため、追加の確認を求められることはありません。 ただし、以前に確認されていない FQDN を追加する場合は、確認プロセスを行う必要があります。 確認プロセスについては、 [以下で説明](#add-a-subdomain-to-the-customer-tenant-and-verify-it)します。
+4. この例では、テナントは既にadatum.bizドメイン名として使用されています。 既に登録されている名前のサブドメインcustomers.adatum.biz、追加の確認は求めされません。 ただし、以前に確認されていない FQDN を追加する場合は、確認プロセスを実行する必要があります。 確認プロセスについては、以下 [で説明します](#add-a-subdomain-to-the-customer-tenant-and-verify-it)。
 
     ![確認済みドメイン名の確認を示すスクリーンショット](media/direct-routing-3-sbc-verify-domain.png)
 
-5. [ **次へ**] をクリックし、[ **Dns 設定の更新** ] ページで [ **自分で dns レコードを追加する** ] を選択し、[ **次へ**] をクリックします。
-6. 次のページで、すべての値を削除します (Exchange、SharePoint、または Teams/Skype for Business のドメイン名を使用する場合を除く)、[ **次へ**] をクリックし、[ **完了**] をクリックします。 新しいドメインがセットアップの完了状態になっていることを確認します。
+5. [ **次へ]** をクリックし **、[DNS** 設定の更新] ページで **[DNS** レコードを自分で追加する] を選び、[次へ] をクリック **します**。
+6. 次のページで、すべての値をクリアし (Exchange、SharePoint、または Teams/Skype for Business のドメイン名を使用しない場合)、[次へ] をクリックし、[完了] をクリックします。 新しいドメインがセットアップ完了状態に設定済みである必要があります。
 
-    ![セットアップの状態が完了しているドメインを示すスクリーンショット](media/direct-routing-14-sbc-setup-complete.png)
+    ![セットアップが完了した状態のドメインを示すスクリーンショット](media/direct-routing-14-sbc-setup-complete.png)
 
-### <a name="activate-the-domain-name"></a>ドメイン名を有効にする
+### <a name="activate-the-domain-name"></a>ドメイン名をアクティブ化する
 
-ドメイン名を登録したら、少なくとも1つの E1、E3、または E5 のライセンスを持つユーザーを追加し、作成されたベースドメインと一致する SIP アドレスの FQDN 部分を持つ SIP アドレスを割り当てることによって、そのドメイン名をアクティブ化する必要があります。 ライセンスはドメインのライセンス認証後に取り消すことができます (最大24時間かかることがあります)。
+ドメイン名を登録したら、少なくとも 1 人の E1、E3、または E5 ライセンスを取得したユーザーを追加し、作成されたベース ドメインと一致する SIP アドレスの FQDN 部分を持つ SIP アドレスを割り当て、ドメイン名をアクティブ化する必要があります。 ライセンスは、ドメインのライセンス認証後に取り消されます (最大 24 時間かかる場合があります)。
 
-*Microsoft 365 または Office 365 組織でのユーザーの追加の詳細については、「 [microsoft 365 または office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) する」を参照してください。*
+*Microsoft [365 または Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 組織でのユーザーの追加の詳細については、Microsoft 365 または Office Office 365 ドメインに関するヘルプを参照してください。*
 
 例: test@customers.adatum.biz
 
-![[Base domain activation] ページのスクリーンショット](media/direct-routing-4-sbc-domain-activation.png)
+![ベース ドメインのライセンス認証ページのスクリーンショット](media/direct-routing-4-sbc-domain-activation.png)
 
-## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>顧客テナントにサブドメイン名を登録する
+## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>顧客テナントでサブドメイン名を登録する
 
-すべてのユーザーに対して一意のサブドメイン名を作成する必要があります。 この例では、既定のドメイン名 woodgrovebank.us を使用して、テナントにサブドメイン sbc1.customers.adatum.biz を作成します。
+すべての顧客に一意のサブドメイン名を作成する必要があります。 この例では、既定のドメイン名を持つsbc1.customers.adatum.bizにサブドメイン の名前を作成woodgrovebank.us。
 
-**以下のすべてのアクションが顧客のテナントにあります。**
+**以下のすべてのアクションは、顧客テナントに含されます。**
 
-### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>お客様のテナントに適切な権限があることを確認する
+### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>顧客テナントに適切な権限を持っている必要があります
 
-新しいドメインを追加するには、グローバル管理者として Microsoft 365 管理センターにサインインしている必要があります。 
+新しいドメインを追加できるのは、グローバル管理者として Microsoft 365 管理センターにサインインしている場合のみです。 
 
-所有している役割を検証するには、Microsoft 365 管理センターにサインインして、 https://portal.office.com) [**ユーザー**のアクティブなユーザー] に移動して、  >  **Active Users**グローバル管理者の役割を持っていることを確認します。 
+持っている役割を検証するには、Microsoft 365 管理センターにサインインしてください ([アクティブなユーザー] に移動し、グローバル管理者の役割を持っているか https://portal.office.com)   >  確認します)。 
 
-管理者の役割と、Microsoft 365 または Office 365 での役割の割り当て方法の詳細については、「 [管理者ロールについ](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)て」を参照してください。
+管理者ロールの詳細と、Microsoft 365 または Office 365 でロールを割り当てる方法については、「管理者ロールについて」を [参照してください](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>サブドメインを顧客テナントに追加して確認する
-1. Microsoft 365 管理センターで、[**セットアップ**ドメインの追加] に移動し  >  **Domains**  >  **Add domain**ます。
-2. [ **自分が所有しているドメインを入力してください** ] ボックスに、このテナントのサブドメインの FQDN を入力します。 次の例では、サブドメインは sbc1.customers.adatum.biz です。
+1. Microsoft 365 管理センターで、[ドメインの追加のセットアップ  >  **] に**  >  **移動します**。
+2. [所有 **するドメインを入力してください]** ボックスに、このテナントのサブドメインの FQDN を入力します。 次の例では、サブドメインはsbc1.customers.adatum.biz。
 
     ![[ドメインの追加] ページのスクリーンショット](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. **[次へ]** をクリックします。
-4. FQDN がテナントに登録されていない。 次の手順では、ドメインを確認する必要があります。 [ **代わりに TXT レコードを追加する**] を選びます。 
+4. FQDN がテナントに登録されていません。 次の手順では、ドメインを確認する必要があります。 代 **わりに [TXT レコードの追加] を選択します**。 
 
     ![[ドメインの確認] ページのスクリーンショット](media/direct-routing-6-sbc-verify-customer-domain.png)
 
-5. [ **次へ**] をクリックして、ドメイン名を確認するために生成された TXT 値を書き留めます。
+5. [ **次へ]** をクリックし、ドメイン名を確認するために生成された TXT 値をメモします。
 
-    ![[ドメインの確認] ページのテキストレコードのスクリーンショット](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![[ドメインの確認] ページのテキスト レコードのスクリーンショット](media/direct-routing-7-sbc-verify-domain-txt.png)
 
-6. キャリアの DNS ホスティングプロバイダーで、前の手順の値を使用して TXT レコードを作成します。
+6. 通信事業者の DNS ホスティング プロバイダーの前の手順の値を使用して TXT レコードを作成します。
 
     ![TXT レコードの作成を示すスクリーンショット](media/direct-routing-8-sbc-txt-record.png)
 
-    詳細については、「 [任意の dns ホスティングプロバイダーで dns レコードを作成](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)する」を参照してください。
+    詳細については、「任意の DNS ホスティング プロバイダー [で DNS レコードを作成する」を参照してください](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)。
 
-7. 顧客の Microsoft 365 管理センターに戻り、[ **確認**] をクリックします。 
-8. 次のページで、[ **自分で DNS レコードを追加** します] を選択し、[ **次へ**] をクリックします。
+7. 顧客の Microsoft 365 管理センターに戻り、[確認] を **クリックします**。 
+8. 次のページで **、[DNS** レコードを自分で追加して、[次へ] をクリック **します**。
 
     ![[DNS 設定の更新] ページのオプションのスクリーンショット](media/direct-routing-9-sbc-update-dns.png)
 
-9. [ **オンラインサービスの選択** ] ページで、すべてのオプションをオフにし、[ **次へ**] をクリックします。
+9. [オンライン **サービスの選択] ページで、** すべてのオプションをオフにし、[次へ] をクリック **します**。
 
-    ![[オンラインサービスの選択] ページのスクリーンショット](media/direct-routing-10-sbc-choose-services.png)
+    ![[オンライン サービスの選択] ページのスクリーンショット](media/direct-routing-10-sbc-choose-services.png)
 
-10. [ **DNS 設定の更新**] ページで [**完了**] をクリックします。
+10. [DNS **設定** の更新 **] ページで [完了] をクリック** します。
 
     ![[DNS 設定の更新] ページのスクリーンショット](media/direct-routing-11-sbc-update-dns-finish.png)
 
-11. ステータスが [ **セットアップ完了完了**しています。 
+11. 状態が [セットアップ完了 **] に設定されています**。 
     
     ![セットアップ完了の状態を示すページのスクリーンショット](media/direct-routing-12-sbc-setup-complete.png)
+    
+> [!NOTE]
+> 直接ルート トランクを追加するには、個々のクライアントのベース URL とサブドメインが同じテナント上に _設定されている必要_ があります。
 
-### <a name="activate-the-subdomain-name"></a>サブドメイン名を有効にする
+### <a name="activate-the-subdomain-name"></a>サブドメイン名をアクティブにする
 
-ドメイン名を登録したら、少なくとも1人のユーザーを追加して、sip アドレスの FQDN 部分を使用して、顧客テナント内で作成されたサブドメインと一致する SIP アドレスを割り当てることで、ライセンス認証を行う必要があります。 サブドメインのライセンス認証後にユーザーがライセンスを無効にすることができます (最大24時間かかることがあります)。
+ドメイン名を登録したら、少なくとも 1 人のユーザーを追加して SIP アドレスを割り当て、顧客テナントで作成されたサブドメインと一致する SIP アドレスの FQDN 部分を割り当てる必要があります。 ライセンスは、サブドメインのライセンス認証後にユーザーから取り消されます (最大 24 時間かかる場合があります)。
 
-*Microsoft 365 または Office 365 組織でのユーザーの追加の詳細については、「 [microsoft 365 または office 365 ドメインでヘルプを表示](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) する」を参照してください。*
+*Microsoft [365 または Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) 組織でのユーザーの追加の詳細については、Microsoft 365 または Office Office 365 ドメインに関するヘルプを参照してください。*
 
 例: test@sbc1.customers.adatum.biz
 
-![[サブドメイン] ページのアクティブ化のスクリーンショット](media/direct-routing-13-sbc-activate-subdomain.png)
+![サブドメイン ページのアクティブ化のスクリーンショット](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>トランクを作成してユーザーをプロビジョニングする
 
-Microsoft は、直接ルーティングの最初のリリースで、新しい-CSOnlinePSTNGateway を使用して、提供される各テナント (顧客テナント) にトランクを追加する必要がありました。
+ダイレクト ルーティングの最初のリリースでは、Microsoft は New-CSOnlinePSTNGateway を使用して、提供された各テナント (顧客テナント) にトランクを追加する必要がありました。
 
-ただし、これは次の2つの理由により最適とは言えません。
+ただし、次の 2 つの理由で、これが最適であることが証明されたわけではありません。
  
-- **オーバーヘッド管理**。 たとえば、SBC のオフロードまたはドレインは、メディアのバイパスを有効または無効にするなど、いくつかのパラメーターを変更します。 ポートを変更するには、(Set-CSOnlinePSTNGateway を実行して) 複数のテナントのパラメーターを変更する必要がありますが、実際には同じ SBC になります。 
+- **オーバーヘッド管理**。 たとえば、SBC のオフロードまたはドレーンは、メディア バイパスの有効化や無効化など、一部のパラメーターを変更します。 ポートを変更するには、(Set-CSOnlinePSTNGateway を実行して) 複数のテナントでパラメーターを変更する必要がありますが、実際には同じ SBC です。 
 
--  **オーバーヘッド処理**。 複数の論理 trunks から収集されたトランクの正常性データの収集と監視 (実際には同じ SBC と物理的なトランク) によって、ルーティングデータの処理が遅くなります。
+-  **オーバーヘッド処理**。 トランク正常性データの収集と監視 - 実際には、同じ SBC と同じ物理トランクである複数の論理トランクから収集された SIP オプションは、ルーティング データの処理を遅くします。
  
-このフィードバックに基づいて、Microsoft は、お客様のテナントのために trunks をプロビジョニングするための新しいロジックを導入しています。
+このフィードバックに基づいて、Microsoft は顧客テナントのトランクをプロビジョニングする新しいロジックを取り入れしています。
 
-2つの新しいエンティティが導入されました。
--    New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true などの、carrier テナントに登録されているキャリアトランク。
+2 つの新しいエンティティが導入されました。
+-    コマンド New-CSOnlinePSTNGateway を使用してキャリア テナントに登録されたキャリア トランク (例: New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true)。
 
--    登録を必要としない派生トランク。 これは、単に、キャリアトランクから追加された目的のホスト名です。 これは、すべての構成パラメーターをキャリアトランクから導出します。 派生した樹幹は、PowerShell で作成する必要はありません。また、carrier トランクとの関連付けは FQDN 名に基づいています (以下の詳細を参照してください)。
+-    登録を必要としない派生トランク。 単に、キャリア トランクから追加された目的のホスト名です。 このパラメーターは、すべての構成パラメーターをキャリア トランクから取得します。 派生トランクは PowerShell で作成する必要はなかった。また、キャリア トランクとの関連付けは FQDN 名に基づいて行います (詳細については以下を参照してください)。
 
-**プロビジョニングロジックと例**
+**プロビジョニング ロジックと例**
 
--    通信事業者は、[Set-CSOnlinePSTNGateway] コマンドを使用して、1つのトランク (キャリアドメインのキャリアトランク) を設定して管理する必要があります。 上の例では、adatum.biz が使用されています。
--    顧客テナントでは、キャリアでは、ユーザーのボイスルーティングポリシーに派生トランク FQDN を追加するだけです。 トランクの New-CSOnlinePSTNGateway を実行する必要はありません。
--    派生した樹幹は、名前が示すように、キャリアトランクからすべての構成パラメーターを継承または導出します。 たとえば
--    Customers.adatum.biz –航空会社のテナントに作成する必要があるキャリアトランク。
--    Sbc1.customers.adatum.biz –顧客テナントの派生トランクで、PowerShell で作成する必要はありません。  オンラインボイスルーティングポリシーの顧客テナントに派生トランクの名前を追加することはできません。
--   通信事業者は、派生した樹幹 FQDN をキャリアの SBC ip アドレスに解決する DNS レコードを設定する必要があります。
+-    通信事業者は、1 つのトランク (キャリア ドメイン内のキャリア トランク) をセットアップして管理する必要がある場合にのみ、Set-CSOnlinePSTNGatewayします。 上の例では、次adatum.biz。
+-    顧客テナントでは、通信事業者は派生トランク FQDN をユーザーの音声ルーティング ポリシーに追加する必要があります。 トランクに対してNew-CSOnlinePSTNGatewayする必要はありません。
+-    派生トランクは、名前が示す通り、キャリア トランクからすべての構成パラメーターを継承または派生します。 例:
+-    Customers.adatum.biz – キャリア テナントで作成する必要があるキャリア トランク。
+-    Sbc1.customers.adatum.biz – PowerShell で作成する必要はない、顧客テナントの派生トランクです。  顧客テナントの派生トランクの名前をオンライン音声ルーティング ポリシーに追加するだけで、その名前を作成せずに追加できます。
+-   通信事業者は、派生トランク FQDN をキャリア SBC IP アドレスに解決する DNS レコードをセットアップする必要があります。
 
--    電話会社のトランク (キャリアテナント) で行った変更は、派生した trunks に自動的に適用されます。 たとえば、運送業者は、電話会社のトランクの SIP ポートを変更することができます。この変更は、すべての派生 trunks に適用されます。 Trunks を構成するための新しいロジックにより、すべてのテナントに移動したり、すべてのトランクのパラメーターを変更したりする必要がないため、管理が簡単になります。
--    オプションは、キャリアトランク FQDN にのみ送信されます。 キャリアトランクの正常性状態は、すべての派生 trunks に適用され、ルーティング決定に使用されます。 [ダイレクトルーティングオプション](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)の詳細については、こちらを参照してください。
--    通信事業者は、電話会社のトランクを放電することができ、派生した trunks もすべてドレインされます。 
- 
-
-**以前のモデルからキャリアトランクへの移行**
- 
-キャリアでホストされているモデルの現在の実装から新しいモデルに移行するには、運送業者は trunks を顧客テナント用に再構成する必要があります。 Remove-CSOnlinePSTNGateway (キャリアテナントにトランクを残す) を使用して、顧客テナントから trunks を削除します。
-
-新しいソリューションへの移行はできるだけ早くお勧めします。これにより、通信事業者と派生したトランクモデルを使用した監視とプロビジョニングが強化されます。
+-    キャリア トランク (キャリア テナント上) に加えた変更は、派生トランクに自動的に適用されます。 たとえば、キャリアは、キャリア トランク上の SIP ポートを変更できます。この変更は、すべての派生トランクに適用されます。 トランクを構成する新しいロジックにより、すべてのテナントに移動してすべてのトランクのパラメーターを変更する必要がなさ、管理が簡素化されます。
+-    オプションは、キャリア トランク FQDN にのみ送信されます。 キャリア トランクの正常性状態は、すべての派生トランクに適用され、ルーティングの決定に使用されます。 ダイレクト ルーティング オプションの [詳細については、以下を参照してください](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)。
+-    キャリアはキャリアのトランクを流し込み、すべての派生トランクも同様に流し込む可能性があります。 
  
 
-連絡先ヘッダーでサブドメインの FQDN 名の送信を構成する方法については、「 [SBC ベンダーの手順](#deploy-and-configure-the-sbc) 」を参照してください。
+**前のモデルからキャリア トランクへの移行**
+ 
+通信事業者がホストするモデルの現在の実装から新しいモデルに移行するには、通信事業者が顧客テナントのトランクを再構成する必要があります。 顧客テナントからトランクを削除するには、Remove-CSOnlinePSTNGatewayを使用します (通信事業者のテナントにトランクを残します)。
 
-## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Muti-テナントのフェールオーバーのセットアップに関する考慮事項 
+通信事業者と派生トランク モデルを使用した監視とプロビジョニングを強化する予定で、できるだけ早く新しいソリューションに移行することを強くお勧めします。
+ 
 
-マルチテナント環境のフェールオーバーを設定するには、次の手順を実行する必要があります。
+連絡先ヘッダーでサブドメインの FQDN 名を送信する構成については [、SBC](#deploy-and-configure-the-sbc) ベンダーの手順を参照してください。
 
-- テナントごとに、2つの異なる SBCs の Fqdn を追加します。  次に例を示します。
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Muti テナントのフェールオーバーをセットアップする場合の考慮事項 
+
+マルチテナント環境のフェールオーバーを設定するには、次の操作を行う必要があります。
+
+- テナントごとに、2 つの異なる SPC の FQDN を追加します。  次に例を示します。
 
    customer1.sbc1.contoso.com <br>
    customer1.sbc2.contoso.com <br>
 
-- ユーザーのオンライン音声ルーティングポリシーで、SBCs の両方を指定します。  1つの SBC で障害が発生した場合、ルーティングポリシーによって2番目の SBC に通話がルーティングされます。
+- ユーザーのオンライン音声ルーティング ポリシーで、両方の SPC を指定します。  1 つの SBC が失敗した場合、ルーティング ポリシーは 2 つ目の SBC に通話をルーティングします。
 
 
 ## <a name="see-also"></a>関連項目
@@ -264,4 +267,3 @@ Microsoft は、直接ルーティングの最初のリリースで、新しい-
 [ダイレクト ルーティングを計画する](direct-routing-plan.md)
 
 [ダイレクト ルーティングを構成する](direct-routing-configure.md)
-
