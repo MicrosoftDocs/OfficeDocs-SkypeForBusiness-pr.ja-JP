@@ -20,12 +20,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682406"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757762"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -91,12 +91,12 @@ Teams ライブ イベントを作成または表示するために割り当て�
 | 出席者の表示 | Teams 生産性 | 外部アプリまたはデバイス生成 |
 |------------------------------|-----------------|----------------------|
 |パブリック (匿名ユーザー)      |  はい            |  いいえ                  |
-|ゲスト ユーザー                   |  はい            |  いいえ                  |
+|ゲスト ユーザー                   |  Yes<sup>1</sup>            |  いいえ                  |
 |外部アクセス (フェデレーション) のある会社のすべてのユーザー |  Yes<sup>1</sup>|  いいえ                  |
 |会社内の全員           |  はい            |  はい                 |
 |特定のグループ/ユーザー      |  はい            |  はい                 |
 
-<sup>1</sup> 外部アクセス (フェデレーション) 参加者は、[ユーザー] と [グループ] からのみ招待することができます <br>
+<sup>1</sup> [ユーザー] と [グループ] からのみ招待することができます <br>
 
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams ライブ イベントと Skype 会議ブロードキャスト
 
