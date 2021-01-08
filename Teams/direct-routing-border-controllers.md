@@ -16,20 +16,20 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SBC) を確認できます。
+description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SPC) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1c9a7a9c174c634ef03ef8f18800a8d2d452f5e
-ms.sourcegitcommit: f1f3b5220c4b411f2001fbdcbe25ae7c14b94df6
+ms.openlocfilehash: 256451e778ed0e5864a7144003d44eb7ffc28767
+ms.sourcegitcommit: b8e697d52dcedace66cec2a06a5bd9889a780623
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49776898"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49782540"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
 マイクロソフトは、選択したセッション ボーダー コントローラー (SBC) ベンダーと提携して、SBC がダイレクト ルーティングと連携していることを保証しています。 
 
-Microsoft は、各ベンダーと次の仕事をしています。 
+Microsoft は、各ベンダーと次のサービスを提供しています。 
 
 - SIP 相互接続プロトコルで共同で作業します。
 - サードパーティラボを使用して、テストを行います。 テストに合格したデバイスだけが認定されます。 
@@ -38,15 +38,15 @@ Microsoft は、各ベンダーと次の仕事をしています。
 
 
   > [!NOTE]
-  > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 Microsoft が顧客のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると判断した場合、顧客は SBC ベンダーにサポートを提供する必要があります。
+  > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを提供する必要があります。
 
-以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーについては、「直接ルーティング用にローカル メディア最適化を構成する」 [を参照](direct-routing-media-optimization-configure.md)してください)。
+以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーの詳細については、「直接ルーティング用にローカル メディアの最適化 [を構成する」を参照してください](direct-routing-media-optimization-configure.md))。
 
-[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認定プログラムに関してご質問がある場合は、drsbccertification@microsoft.com。
+[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認定プログラムについて不明な点がある場合は、drsbccertification@microsoft.com。
 <br/>
 <br/>
 
-|                                                       仕入先                                                        |       Product       | メディア以外のバイパス | メディア バイパス | ソフトウェア バージョン | E911 プロバイダーで検証済み | ELIN 対応
+|                                                       仕入先                                                        |       Product       | メディア以外のバイパス | メディア バイパス | ソフトウェアバージョン | E911 プロバイダーで検証済み | ELIN 対応
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul> |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |
@@ -79,7 +79,7 @@ Microsoft は、各ベンダーと次の仕事をしています。
 |                                 |     1000 シリーズ集計サービス ルーター用の Cisco Unified Border 要素 (CUBE)      |     &#10004;   |  |      IOS XE アムステルダム 17.2.1r      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |           |       リリース 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       19.5 (1908)       |     |    | 
-|                     [Italtel](https://www.italtel.com/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    リンクリンク    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
