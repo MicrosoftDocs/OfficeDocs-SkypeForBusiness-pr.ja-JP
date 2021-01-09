@@ -1155,6 +1155,8 @@
           href: scripts/powershell-script-security-groups-edu.md
         - name: 教育機関管理者向けの低帯域幅ガイダンス
           href: edu-remote-low-bandwidth.md
+        - name: 教育機関用 Teams ポリシー ウィザード
+          href: easy-policy-setup-edu.md
         - name: Insights の使用を開始する
           href: class-insights.md
         - name: '教育機関向けの Teams の課題 '
