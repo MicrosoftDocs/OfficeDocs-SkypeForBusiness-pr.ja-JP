@@ -3,6 +3,35 @@
 
 
 
+## <a name="week-of-january-04-2021"></a>2021 年 1 月 4 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 1/4/2021 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 1/4/2021 | [自動応答と通話キューのダイヤルと音声認識リファレンス](/MicrosoftTeams/dial-voice-reference) | 更新日時 |
+| 1/4/2021 | [直接ルーティングの認定を受けたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 1/4/2021 | [セッション ボーダー コントローラーを構成する - 複数のテナント](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新日時 |
+| 1/5/2021 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 1/5/2021 | [既存の Microsoft 365 グループを強化する](/MicrosoftTeams/enhance-office-365-groups) | 更新日時 |
+| 1/5/2021 | [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](/MicrosoftTeams/sharepoint-onedrive-interact) | 更新日時 |
+| 1/5/2021 | [Microsoft 365 Multi-Geo 対応環境での Teams のエクスペリエンス](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 更新日時 |
+| 1/5/2021 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新日時 |
+| 1/5/2021 | [会議への通話用の Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 1/5/2021 | [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](/MicrosoftTeams/log-files) | 更新日時 |
+| 1/6/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 1/6/2021 | [Graph API を使用して Microsoft Teams のプライベート チャネルを管理する](/MicrosoftTeams/private-channels-life-cycle-management) | 更新日時 |
+| 1/6/2021 | [Microsoft Teams でチーム ポリシーを管理する](/MicrosoftTeams/teams-policies) | 更新日時 |
+| 1/6/2021 | [直接ルーティングの認定を受けたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 1/6/2021 | [Teams アプリ提出 API を使用してカスタム アプリを提出および承認する](/MicrosoftTeams/submit-approve-custom-apps) | 更新日時 |
+| 1/7/2021 | [Microsoft Teams の範囲指定ディレクトリ検索を使用する](/MicrosoftTeams/teams-scoped-directory-search) | 更新日時 |
+| 1/7/2021 | [直接ルーティングの認定を受けたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 1/8/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 1/8/2021 | [Microsoft Teams の保持ポリシー](/MicrosoftTeams/retention-policies) | 更新日時 |
+| 1/8/2021 | [Microsoft Teams へのゲスト アクセスをオンまたはオフにする](/MicrosoftTeams/set-up-guests) | 更新日時 |
+| 1/8/2021 | [安全な学習のためのポリシーを簡単に適用する Teams for Education ポリシー ウィザード](/MicrosoftTeams/easy-policy-setup-edu) | 更新日時 |
+
+
 ## <a name="week-of-december-21-2020"></a>2020 年 12 月 21 日の週
 
 
@@ -54,68 +83,3 @@
 | 12/18/2020 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
 | 12/18/2020 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
 | 12/18/2020 | [ダイヤル プランについて](/MicrosoftTeams/what-are-dial-plans) | 更新日時 |
-
-
-## <a name="week-of-november-30-2020"></a>2020 年 11 月 30 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 11/30/2020 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
-| 11/30/2020 | [Microsoft Teams のリリース ノート](/MicrosoftTeams/release-notes/release-notes) | 更新日時 |
-| 11/30/2020 | [OneDrive for Business と SharePoint を使用して会議の記録を行う](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
-| 11/30/2020 | [Teams 向けの電話とデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
-| 12/1/2020 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
-| 12/1/2020 | [Microsoft Teams のデータの場所](/MicrosoftTeams/location-of-data-in-teams) | 更新日時 |
-| 12/1/2020 | [ダイレクト ルーティングの音声ルーティングを構成する](/MicrosoftTeams/direct-routing-voice-routing) | 更新日時 |
-| 12/1/2020 | [Microsoft Teams でのパブリック プレビュー](/MicrosoftTeams/public-preview-doc-updates) | 更新日時 |
-| 12/1/2020 | [Microsoft Teams のセキュリティ ガイド](/MicrosoftTeams/teams-security-guide) | 更新日時 |
-| 12/2/2020 | [Teams での割り当て](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | 更新日時 |
-| 12/2/2020 | [Teams でのユーザーのプレゼンス](/MicrosoftTeams/presence-admins) | 更新日時 |
-| 12/2/2020 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
-| 12/2/2020 | [直接ルーティングの認定を受けたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
-| 12/2/2020 | [クイック スタート - 教育用 Microsoft Teams 管理者](/MicrosoftTeams/teams-quick-start-edu) | 更新日時 |
-| 12/2/2020 | [学校の多数のユーザーにポリシーを割り当てる](/MicrosoftTeams/batch-group-policy-assignment-edu) | 更新日時 |
-| 12/2/2020 | [EDU 管理者向け Microsoft Teams ポリシーおよびポリシーパッケージ](/MicrosoftTeams/policy-packages-edu) | 更新日時 |
-| 12/2/2020 | [教育機関管理者向けの Microsoft Teams のリソース](/MicrosoftTeams/remote-learning-edu) | 更新日時 |
-| 12/3/2020 | [イタリアでの利用可能性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | 更新日時 |
-| 12/3/2020 | [Teams 向けの電話とデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
-| 12/3/2020 | [コンテンツの電子情報開示調査を実施する](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
-| 12/3/2020 | [Microsoft Teams ユーザーまたはチームを訴訟ホールドの対象にする](/MicrosoftTeams/legal-hold) | 更新 |
-| 12/4/2020 | [Skype for Business から Teams へのアップグレードに関する FAQ](/MicrosoftTeams/faq-journey) | 更新日時 |
-| 12/4/2020 | [Microsoft Teams を効果的に使用する方法](/MicrosoftTeams/continue-journey) | 更新日時 |
-| 12/4/2020 | [ユーザー パイロットを実施して、Microsoft Teams が組織でどのように動作するのか評価およびテストする](/MicrosoftTeams/pilot-essentials) | 更新日時 |
-| 12/4/2020 | [Skype for Business Online のサポート終了](/MicrosoftTeams/skype-for-business-online-retirement) | 更新日時 |
-| 12/4/2020 | [Skype for Business と Microsoft Teams の相互運用性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 更新日時 |
-| 12/4/2020 | [OneDrive for Business と SharePoint を使用して会議の記録を行う](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
-| 12/4/2020 | [Skype for Business から Microsoft Teams にアップグレードする方法を選択する](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 更新日時 |
-| 12/4/2020 | [Skype for Business から Microsoft Teams へのアップグレードのプロジェクト 範囲を定義する](/MicrosoftTeams/upgrade-define-project-scope) | 更新日時 |
-| 12/4/2020 | [関係者の参加を求める \| Skype for Business から Teams へのアップグレード計画](/MicrosoftTeams/upgrade-enlist-stakeholders) | 更新 |
-| 12/4/2020 | [アップグレード フレームワークについて - Skype for Business から Teams へ](/MicrosoftTeams/upgrade-framework) | 更新日時 |
-| 12/4/2020 | [Skype for Business から Teams へのアップグレードに対する組織の変更の準備を評価する](/MicrosoftTeams/upgrade-org-change-readiness) | 更新日時 |
-| 12/4/2020 | [Teams にアップグレードする前に環境を評価する](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) | 更新日時 |
-| 12/4/2020 | [Teams にアップグレードするための前提条件と環境の依存関係](/MicrosoftTeams/upgrade-plan-journey-prerequisites) | 更新日時 |
-| 12/4/2020 | [Skype for Business から Microsoft Teams へのアップグレードを計画する](/MicrosoftTeams/upgrade-plan-journey) | 更新日時 |
-| 12/4/2020 | [MICROSOFT Teams 用に IT スタッフを準備する](/MicrosoftTeams/upgrade-prepare-it-pros) | 更新日時 |
-| 12/4/2020 | [Microsoft Teams にアップグレードするためにサービスを準備する](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | 更新日時 |
-| 12/4/2020 | [Teams にアップグレードする環境を準備する](/MicrosoftTeams/upgrade-prepare-environment) | 更新日時 |
-| 12/4/2020 | [Skype for Business から Teams にアップグレードするために組織を準備する](/MicrosoftTeams/upgrade-prepare-organization) | 更新日時 |
-| 12/4/2020 | [Skype for Business から Teams へのアップグレードを開始する](/MicrosoftTeams/upgrade-start-here) | 更新日時 |
-| 12/4/2020 | [オンプレミスの Skype for Business を Microsoft Teams にアップグレードする](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 更新日時 |
-| 12/4/2020 | [Skype for Business Online から Microsoft Teams にアップグレードする](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 更新日時 |
-| 12/4/2020 | [Skype for Business オンプレミス展開から Teams へのアップグレード - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | 更新日時 |
-| 12/4/2020 | [Microsoft Teams へのアップグレードの実装の概要](/MicrosoftTeams/upgrade-to-teams) | 更新日時 |
-| 12/4/2020 | [Skype for Business から Teams にアップグレードするユーザー準備計画を準備する](/MicrosoftTeams/upgrade-user-readiness) | 更新日時 |
-
-
-## <a name="week-of-november-23-2020"></a>2020 年 11 月 23 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 11/23/2020 | [通話品質ダッシュボード (CQD) でテナントと建物のデータをアップロードする](/MicrosoftTeams/cqd-upload-tenant-building-data) | 更新日時 |
-| 11/23/2020 | [Teams でのユーザーのプレゼンス](/MicrosoftTeams/presence-admins) | 更新日時 |
-| 11/23/2020 | [OneDrive for Business と SharePoint を使用して会議の記録を行う](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
-| 11/25/2020 | [ダイレクト ルーティング用にリングバック ボットをセットアップする](/MicrosoftTeams/direct-routing-ringback-bot) | 更新日時 |
-| 11/25/2020 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
-| 11/25/2020 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
