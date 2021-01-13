@@ -1,8 +1,8 @@
 ---
 title: 仲介コンピューターを追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,15 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f186be15-626a-4454-9b54-55aa5d90c520
 description: このプールにフロントエンド サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 一覧にコンピューターを追加した後、トポロジを公開するまでの間はいつでも、コンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。 トポロジの公開後に FQDN を変更するには、トポロジ ビルダーでサーバーを削除し、新しいサーバーを新しい FQDN でプールに追加する必要があります。
-ms.openlocfilehash: 67fd038489ed3df95ffee84f7517dc86b96a296c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: ecca5fa38f74aa13ad9b181f9c08ebf38bfe0675
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217928"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823997"
 ---
-# <a name="add-mediation-machine"></a><span data-ttu-id="38402-105">仲介コンピューターを追加する</span><span class="sxs-lookup"><span data-stu-id="38402-105">Add Mediation Machine</span></span>
+# <a name="add-mediation-machine"></a><span data-ttu-id="f7fed-105">仲介コンピューターの追加</span><span class="sxs-lookup"><span data-stu-id="f7fed-105">Add Mediation Machine</span></span>
  
-<span data-ttu-id="38402-106">このプールにフロントエンド サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。</span><span class="sxs-lookup"><span data-stu-id="38402-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Front End Server in this pool.</span></span> <span data-ttu-id="38402-107">一覧にコンピューターを追加した後、トポロジを公開するまでの間はいつでも、コンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。</span><span class="sxs-lookup"><span data-stu-id="38402-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="38402-108">トポロジの公開後に FQDN を変更するには、トポロジ ビルダーでサーバーを削除し、新しいサーバーを新しい FQDN でプールに追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="38402-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
+<span data-ttu-id="f7fed-106">このプールにフロントエンド サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。</span><span class="sxs-lookup"><span data-stu-id="f7fed-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Front End Server in this pool.</span></span> <span data-ttu-id="f7fed-107">一覧にコンピューターを追加した後、トポロジを公開するまでの間はいつでも、コンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。</span><span class="sxs-lookup"><span data-stu-id="f7fed-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="f7fed-108">トポロジの公開後に FQDN を変更するには、トポロジ ビルダーでサーバーを削除し、新しいサーバーを新しい FQDN でプールに追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="f7fed-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
   
 

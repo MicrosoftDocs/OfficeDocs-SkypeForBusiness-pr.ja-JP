@@ -1,8 +1,8 @@
 ---
-title: Skype for Business でボイスメールのエスケープを設定する
+title: Skype for Business でボイス メール エスケープを構成する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,40 +15,40 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: '概要: skype for business Server 管理シェルを使用して、Skype for Business Server でボイスメールのエスケープを構成する方法について説明します。'
-ms.openlocfilehash: e372b43a0a580cd1a7b95fc3db8130a65c8398ca
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '概要: Skype for Business Server 管理シェルを使用して Skype for Business Server でボイス メール エスケープを構成する方法について説明します。'
+ms.openlocfilehash: c6326360a0e49715feb7e9f9c3c123ec42b9c330
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768010"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824927"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a><span data-ttu-id="b54b7-103">Skype for Business でボイスメールのエスケープを設定する</span><span class="sxs-lookup"><span data-stu-id="b54b7-103">Configure voice mail escape in Skype for Business</span></span>
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a><span data-ttu-id="a2c76-103">Skype for Business でボイス メール エスケープを構成する</span><span class="sxs-lookup"><span data-stu-id="a2c76-103">Configure voice mail escape in Skype for Business</span></span>
 
-<span data-ttu-id="b54b7-104">**概要:** Skype for business Server 管理シェルを使用して、Skype for Business Server でボイスメールのエスケープを構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="b54b7-104">**Summary:** Learn how to configure voice mail escape in Skype for Business Server by using the Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="a2c76-104">**概要:** Skype for Business Server 管理シェルを使用して Skype for Business Server でボイス メール エスケープを構成する方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="a2c76-104">**Summary:** Learn how to configure voice mail escape in Skype for Business Server by using the Skype for Business Server Management Shell.</span></span>
 
-<span data-ttu-id="b54b7-105">ユーザーが携帯電話との同時呼び出しを構成する場合、携帯電話がオフになっているか、バッテリ電力が不足しているか、または範囲外である場合、通常、発信者はユーザーの個人用ボイスメールにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="b54b7-105">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user's personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="b54b7-106">Skype for Business Server では、ユーザーはビジネス関連の通話を会社のボイスメールシステムにルーティングすることを選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="b54b7-106">With Skype for Business Server , users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="b54b7-107">特に、タイマーは構成可能であり、定義された時間内に電話会社のボイスメールによって通話が応答された場合、Skype for Business Server は、電話会社のボイスメールシステム (およびユーザーの個人ボイスメール) から切断しますが、ユーザーの企業システムの残りのエンドポイントでも、呼び出しが続行されます。</span><span class="sxs-lookup"><span data-stu-id="b54b7-107">Specifically, a timer can be configured, and if the call is answered by the carrier's voice mail within the range of time defined, Skype for Business Server will disconnect from the carrier's voice mail system (and the user's personal voice mail), while the user's remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="b54b7-108">こうすることで、発信者はユーザーの会社のボイスメールに自動的にルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="b54b7-108">This way, the caller is automatically routed to the user's corporate voice mail.</span></span>
+<span data-ttu-id="a2c76-105">ユーザーが携帯電話への同時呼び出しを構成する場合、通常、携帯電話がオフになっている、バッテリがオフになっている、または使用範囲が外になっている場合、発信者はユーザーの個人用ボイス メールにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="a2c76-105">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user's personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="a2c76-106">Skype for Business Server を使用すると、ユーザーは会社のボイス メール システムにルーティングされたビジネス関連の通話を選択できます。</span><span class="sxs-lookup"><span data-stu-id="a2c76-106">With Skype for Business Server , users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="a2c76-107">具体的には、タイマーを構成できます。通話が定義された時間の範囲内で通信事業者のボイス メールによって応答された場合、Skype for Business Server は通信事業者のボイス メール システム (およびユーザーの個人用ボイス メール) から切断し、企業システム内のユーザーの残りのエンドポイントは呼び出しを続行します。</span><span class="sxs-lookup"><span data-stu-id="a2c76-107">Specifically, a timer can be configured, and if the call is answered by the carrier's voice mail within the range of time defined, Skype for Business Server will disconnect from the carrier's voice mail system (and the user's personal voice mail), while the user's remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="a2c76-108">これにより、発信者は自動的にユーザーの会社のボイス メールにルーティングされます。</span><span class="sxs-lookup"><span data-stu-id="a2c76-108">This way, the caller is automatically routed to the user's corporate voice mail.</span></span>
 
-<span data-ttu-id="b54b7-109">この構成は、Skype for Business Server Management Shell コマンドレット**CsVoicePolicy**を使用して、音声ポリシーレベルで次のパラメーターを指定して実行します。</span><span class="sxs-lookup"><span data-stu-id="b54b7-109">This configuration is performed using the Skype for Business Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
+<span data-ttu-id="a2c76-109">この構成は、次のパラメーターを使用して、音声ポリシー レベルで Skype for Business Server 管理シェル コマンドレット **Set-CsVoicePolicy** を使用して実行します。</span><span class="sxs-lookup"><span data-stu-id="a2c76-109">This configuration is performed using the Skype for Business Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
 
-### <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="b54b7-110">ボイス メール エスケープを構成するには</span><span class="sxs-lookup"><span data-stu-id="b54b7-110">To configure voice mail escape</span></span>
+### <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="a2c76-110">ボイス メール エスケープを構成するには</span><span class="sxs-lookup"><span data-stu-id="a2c76-110">To configure voice mail escape</span></span>
 
-1. <span data-ttu-id="b54b7-111">Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="b54b7-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="a2c76-111">Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a2c76-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
 
-2. <span data-ttu-id="b54b7-112">**Set-CsVoicePolicy** に対して次のパラメーターを指定します。</span><span class="sxs-lookup"><span data-stu-id="b54b7-112">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
+2. <span data-ttu-id="a2c76-112">**Set-CsVoicePolicy に次のパラメーターを指定します**。</span><span class="sxs-lookup"><span data-stu-id="a2c76-112">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
 
-   - <span data-ttu-id="b54b7-113">**EnableVoicemailEscapeTimer** - エスケープ タイマーを有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="b54b7-113">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
+   - <span data-ttu-id="a2c76-113">**EnableVoicemailEscapeTimer** - エスケープ タイマーを有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="a2c76-113">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
 
-   - <span data-ttu-id="b54b7-p102">**PSTNVoicemailEscapeTimer**: タイムアウト値をミリ秒単位で指定します。既定値は 1500 ミリ秒で、指定できる値の範囲は 0 ～ 8000 ミリ秒です。</span><span class="sxs-lookup"><span data-stu-id="b54b7-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
+   - <span data-ttu-id="a2c76-114">**PSTNVoicemailEscapeTimer** - タイムアウト値をミリ秒単位で指定します。</span><span class="sxs-lookup"><span data-stu-id="a2c76-114">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds.</span></span> <span data-ttu-id="a2c76-115">既定値は 1500 ミリ秒で、指定できる値の範囲は 0 ～ 8000 ミリ秒です。</span><span class="sxs-lookup"><span data-stu-id="a2c76-115">The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b54b7-116">例</span><span class="sxs-lookup"><span data-stu-id="b54b7-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a2c76-116">例</span><span class="sxs-lookup"><span data-stu-id="a2c76-116">Example</span></span>
 
 ```powershell
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 ```
 
-## <a name="see-also"></a><span data-ttu-id="b54b7-117">関連項目</span><span class="sxs-lookup"><span data-stu-id="b54b7-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a2c76-117">関連項目</span><span class="sxs-lookup"><span data-stu-id="a2c76-117">See also</span></span>
 
-[<span data-ttu-id="b54b7-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span><span class="sxs-lookup"><span data-stu-id="b54b7-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span></span>](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[<span data-ttu-id="a2c76-118">通話機能と特権の承認のための音声ポリシーと PSTN 使用法レコードの構成</span><span class="sxs-lookup"><span data-stu-id="a2c76-118">Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges</span></span>](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 
