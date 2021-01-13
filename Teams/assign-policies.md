@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でユーザーにポリシーを割り当てる
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ description: Microsoft Teams でユーザーにポリシーを割り当てる方
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ada58a9abf07e606f91d48b7ac71ba06d4c1496a
-ms.sourcegitcommit: b282acc1633c2d62bbff0ea77b6b647775ae6dfe
-ms.translationtype: HT
+ms.openlocfilehash: 5d213c53de22994d46e7d7faf54a8dfd687806d7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49085701"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821307"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにポリシーを割り当てる
 

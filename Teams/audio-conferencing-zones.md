@@ -1,7 +1,7 @@
 ---
 title: 電話会議の国と地域のゾーン
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: conceptual
@@ -19,19 +19,19 @@ f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
-description: 電話会議のゾーンと、各ゾーンの国と地域の一覧を示します。
-ms.openlocfilehash: cf3e1df5b89fcf287d1c5c79faa8d1c6a48914d5
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+description: 電話会議のゾーンと、各ゾーンの国と地域が一覧表示されます。
+ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908776"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821277"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>電話会議の国と地域のゾーン
 
 この記事では、電話会議の国と地域のゾーンの一覧を示します。
 
-## <a name="zone-a-countries-and-regions"></a>国と地域をゾーニングする
+## <a name="zone-a-countries-and-regions"></a>ゾーン A の国と地域
 
 |国または地域    |
 |-----|
@@ -84,6 +84,6 @@ ms.locfileid: "48908776"
 
 - [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [音声会議の無料ダイヤル アウト期間](complimentary-dial-out-period.md)
-- [電話会議のサブスクリプション "ダイヤルアウト"/"通話時間の特典](audio-conferencing-subscription-dial-out.md)
+- [電話会議サブスクリプションの "ダイヤルアウト"/"コール アウト" (分) 特典](audio-conferencing-subscription-dial-out.md)
 - [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](outbound-calling-restriction-policies.md)
 - [コミュニケーション クレジットについて](what-are-communications-credits.md)

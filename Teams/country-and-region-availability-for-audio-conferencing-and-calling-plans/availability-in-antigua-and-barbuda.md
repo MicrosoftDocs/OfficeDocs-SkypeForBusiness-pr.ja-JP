@@ -1,7 +1,7 @@
 ---
-title: アンティグア・バーブーダの利用可能時間
-author: LanaChin
-ms.author: v-lanac
+title: アンティグア・バーブーダでの利用可能時間
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Microsoft 365 365 および Microsoft Teams for アンティグアおよびバーブーダで利用可能な microsoft Teams のサービスを紹介します。
-ms.openlocfilehash: ac99aa5acb0c3372a59b500ce604d851df811c92
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: アンティグア・バーブーダで利用Office Skype for Business および Microsoft Teams 用の Microsoft 365 および 365 のサービスを以下に示します。
+ms.openlocfilehash: 607dbed987fa530585fe7c87ce140d62d00da8a6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230485"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821207"
 ---
-# <a name="availability-in-antigua-and-barbuda"></a>アンティグア・バーブーダの利用可能時間
+# <a name="availability-in-antigua-and-barbuda"></a>アンティグア・バーブーダでの利用可能時間
 
-[別の国または地域を検索](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)するか、電話会議と通話プランの国と地域の空き時間情報を参照してください。
+[別の国または地域を見つける](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)か、電話会議と通話プランの国と地域の利用可能性の詳細について説明します。
 
-ここでは、Microsoft 365 365 および Microsoft Teams for アンティグアおよびバーブーダで利用可能な microsoft Teams のサービスを紹介します。
+アンティグア・バーブーダで利用Office Skype for Business および Microsoft Teams 用の Microsoft 365 および 365 のサービスを以下に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい、[分単位の支払い](../audio-conferencing-pay-per-minute.md)のみ <br/> |
+|電話会議は購入できますか?  <br/> |はい[、分単位支払いのみ](../audio-conferencing-pay-per-minute.md) <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> | いいえ |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信クレジットが必要 <br/> |
    
@@ -50,7 +50,7 @@ ms.locfileid: "44230485"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-|自動応答 <br/> |連絡可能  <br/> |
+|自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |連絡可能  <br/> |
    
@@ -62,7 +62,7 @@ ms.locfileid: "44230485"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
+通話プランを購入できない場合は、電話システム ダイレクト ルーティング [の使用を検討してください](../direct-routing-landing-page.md)。 直接ルーティングを使用すると、事実上すべてのテレフォニー通信事業者で電話システムを使用できます。
 
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
@@ -73,7 +73,7 @@ ms.locfileid: "44230485"
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
 |無料電話番号は利用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューの有料または無料の電話番号を取得する場合は、「 [Skype For business および Microsoft Teams のサービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は [、「Skype for Business](/microsoftteams/getting-service-phone-numbers)および Microsoft Teams のサービス電話番号を取得する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
