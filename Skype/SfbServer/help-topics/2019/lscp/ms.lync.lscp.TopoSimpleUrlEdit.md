@@ -1,8 +1,8 @@
 ---
-title: トポロジビューの単純な URL の詳細
+title: トポロジ ビューの簡易 URL の詳細
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: ac6ce8ae9fe6c392d9fa1478c8688a133f8eac0a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: f30c784eebe0a2c0077d8e2bb788bb2bfd67c33f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795618"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836217"
 ---
-# <a name="topology-view-simple-url-detail"></a><span data-ttu-id="599a1-104">トポロジ: 簡単な URL の詳細の表示</span><span class="sxs-lookup"><span data-stu-id="599a1-104">Topology: View Simple URL Detail</span></span>
+# <a name="topology-view-simple-url-detail"></a><span data-ttu-id="be711-104">トポロジ: 簡単な URL の詳細の表示</span><span class="sxs-lookup"><span data-stu-id="be711-104">Topology: View Simple URL Detail</span></span>
 
-<span data-ttu-id="599a1-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="599a1-105">What do you want to do?</span></span> <span data-ttu-id="599a1-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="599a1-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="be711-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="be711-105">What do you want to do?</span></span> <span data-ttu-id="be711-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="be711-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="599a1-107">単純な Url を編集または構成する</span><span class="sxs-lookup"><span data-stu-id="599a1-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+- [<span data-ttu-id="be711-107">簡単な URL の編集または構成</span><span class="sxs-lookup"><span data-stu-id="be711-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
 
-- [<span data-ttu-id="599a1-108">簡単な URL の詳細を表示する</span><span class="sxs-lookup"><span data-stu-id="599a1-108">View Simple URL Details</span></span>](https://technet.microsoft.com/library/6ab00f2c-e1d5-4698-a58f-04b72260f9ac.aspx)
+- [<span data-ttu-id="be711-108">簡易 URL の詳細の表示</span><span class="sxs-lookup"><span data-stu-id="be711-108">View Simple URL Details</span></span>](https://technet.microsoft.com/library/6ab00f2c-e1d5-4698-a58f-04b72260f9ac.aspx)
 
-- [<span data-ttu-id="599a1-109">単純な Url の管理</span><span class="sxs-lookup"><span data-stu-id="599a1-109">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+- [<span data-ttu-id="be711-109">簡易  URL の管理</span><span class="sxs-lookup"><span data-stu-id="be711-109">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
 
 
 

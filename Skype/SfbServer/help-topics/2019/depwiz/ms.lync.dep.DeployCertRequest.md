@@ -1,8 +1,8 @@
 ---
-title: 展開ウィザードで証明書を要求する
+title: 展開ウィザード証明書の要求
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 展開ウィザードを使用して Skype for Business Server をインストールする方法について詳しくは、「Skype for Business Server をインストールする」をご覧ください。
-ms.openlocfilehash: 89bbdb336b83cb01e52851f71796b8322bb7841d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 展開ウィザードを使用して Skype for Business Server をインストールする方法の詳細については、「Skype for Business Server のインストール」を参照してください。
+ms.openlocfilehash: fc4ed9685f2048c84f87082c090bd38852174d81
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796778"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836877"
 ---
-# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="192c0-103">展開ウィザード: 証明書の要求</span><span class="sxs-lookup"><span data-stu-id="192c0-103">Deployment Wizard: Request a Certificate</span></span>
+# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="2b82d-103">展開ウィザード: 証明書の要求</span><span class="sxs-lookup"><span data-stu-id="2b82d-103">Deployment Wizard: Request a Certificate</span></span>
  
-<span data-ttu-id="192c0-104">展開ウィザードを使用して Skype for Business Server をインストールする方法について詳しくは、「 [skype For Business server をインストール](../../../deploy/install/install.md)する」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="192c0-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="2b82d-104">展開ウィザードを使用して Skype for Business Server をインストールする方法の詳細については [、「Skype for Business Server のインストール」を参照してください](../../../deploy/install/install.md)。</span><span class="sxs-lookup"><span data-stu-id="2b82d-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

@@ -1,8 +1,8 @@
 ---
 title: 証明書要求 (起動)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[コマンドの実行] ページには、証明書要求の生成に対して実行されるコマンドとして、タスクの状態ウィンドウが表示されます。 タスクが完了すると、[概要] ウィンドウの下にあるドロップダウンリストにログファイルの一覧が表示されます。 ドロップダウンリストを使用して、表示するログファイルを選択し、[ログの表示] をクリックします。 Internet Explorer が起動し、ログファイルを表示します。 要求が失敗した場合は、エラーの原因を特定するためにログファイルを確認する必要があります。 証明書の要求を再実行して問題を解決し、ログファイルに示されている問題を修正することができます。 証明書の要求ページを続行して、証明書をもう一度要求します。'
-ms.openlocfilehash: 983ebce3a26429706a5518817e81b42cdc22cfd9
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[実行コマンド] ページには、証明書要求を生成するためのコマンドが実行されるにつれて、タスク状態を示すウィンドウが表示されます。 タスクが完了すると、概要ウィンドウの下のドロップダウン リストにログ ファイルの一覧が表示されます。 ドロップダウン リストを使用して、表示するログ ファイルを選択し、[ログの表示] をクリックします。 Internet Explorer が起動し、ログ ファイルが表示されます。 失敗した要求の場合は、ログ ファイルを調べて障害の原因を判断してください。 証明書要求を再実行して問題を解決し、ログ ファイルに示されている問題を修正できます。 証明書要求の各ページでの操作を続行し、証明書を再要求します。'
+ms.openlocfilehash: 0f2f1dd8c23e5c0fb36a0cabc4dca022277141c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796698"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836847"
 ---
-# <a name="certificate-request-invoke"></a><span data-ttu-id="58c6b-109">証明書要求 (起動)</span><span class="sxs-lookup"><span data-stu-id="58c6b-109">Certificate Request (Invoke)</span></span>
+# <a name="certificate-request-invoke"></a><span data-ttu-id="a89f4-109">証明書要求 (起動)</span><span class="sxs-lookup"><span data-stu-id="a89f4-109">Certificate Request (Invoke)</span></span>
  
-<span data-ttu-id="58c6b-110">[**コマンドの実行**] ページには、証明書要求の生成に対して実行されるコマンドとして、タスクの状態ウィンドウが表示されます。</span><span class="sxs-lookup"><span data-stu-id="58c6b-110">The **Executing Commands** page displays a task status pane as the commands run for the generation of the certificate request.</span></span> <span data-ttu-id="58c6b-111">タスクが完了すると、[概要] ウィンドウの下にあるドロップダウンリストにログファイルの一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="58c6b-111">After the tasks are completed, the drop-down list below the summary pane contains a list of log files.</span></span> <span data-ttu-id="58c6b-112">ドロップダウンリストを使用して、表示するログファイルを選択し、[**ログの表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="58c6b-112">Use the drop-down list to select a log file to view, and then click **View Log**.</span></span> <span data-ttu-id="58c6b-113">Internet Explorer が起動し、ログファイルを表示します。</span><span class="sxs-lookup"><span data-stu-id="58c6b-113">Internet Explorer will start and display the log file.</span></span> <span data-ttu-id="58c6b-114">要求が失敗した場合は、エラーの原因を特定するためにログファイルを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="58c6b-114">In case of a failed request, you should review the log file(s) to determine the cause of the failure.</span></span> <span data-ttu-id="58c6b-115">証明書の要求を再実行して問題を解決し、ログファイルに示されている問題を修正することができます。</span><span class="sxs-lookup"><span data-stu-id="58c6b-115">You can rerun the certificate request to resolve the issue, correcting the problem indicated in the log file.</span></span> <span data-ttu-id="58c6b-116">証明書の要求ページを続行して、証明書をもう一度要求します。</span><span class="sxs-lookup"><span data-stu-id="58c6b-116">Continue though the certificate request pages and request the certificate again.</span></span>
+<span data-ttu-id="a89f4-p102">[**コマンドを実行しています**] ページには、証明書要求を生成するためのコマンドの実行にあわせて、タスク状態を示すウィンドウが表示されます。タスクが完了すると、概要ウィンドウの下のドロップダウン リストにログ ファイルの一覧が表示されます。ドロップダウン リストを使用して表示するログ ファイルを選択し、[**ログの表示**] をクリックします。Internet Explorer が起動し、ログ ファイルが表示されます。失敗した要求の場合は、ログ ファイルを調べて障害の原因を判断してください。証明書要求を再実行して問題を解決し、ログ ファイルに示されている問題を修正できます。証明書要求の各ページでの操作を続行し、証明書を再要求します。</span><span class="sxs-lookup"><span data-stu-id="a89f4-p102">The **Executing Commands** page displays a task status pane as the commands run for the generation of the certificate request. After the tasks are completed, the drop-down list below the summary pane contains a list of log files. Use the drop-down list to select a log file to view, and then click **View Log**. Internet Explorer will start and display the log file. In case of a failed request, you should review the log file(s) to determine the cause of the failure. You can rerun the certificate request to resolve the issue, correcting the problem indicated in the log file. Continue though the certificate request pages and request the certificate again.</span></span>
   
 

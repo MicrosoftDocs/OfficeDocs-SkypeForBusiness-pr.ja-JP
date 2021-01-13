@@ -1,8 +1,8 @@
 ---
-title: エッジ コンピューターの外部 IPv4 の追加
+title: エッジ コンピューターの外部 IPv4 を追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 ROBOTS: NOINDEX, NOFOLLOW
-description: 外部 IPv4 で、アクセスエッジサービス、Web 会議エッジサービス、および A/V Edge サービスを指す外部 IP アドレスを入力します。
-ms.openlocfilehash: bc7f65de35f897767c27e4e119f8dbfb6a0e6f1a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 外部 IPv4 で、アクセス エッジ サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。
+ms.openlocfilehash: 5b6a01aea6d85b1302c916065bb7b95a8e426ac3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796546"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836047"
 ---
-# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="96348-103">エッジ コンピューターの外部 IPv4 の追加</span><span class="sxs-lookup"><span data-stu-id="96348-103">Add Edge Machine External IPv4</span></span>
+# <a name="add-edge-machine-external-ipv4"></a><span data-ttu-id="bf2df-103">エッジ コンピューター外部 IPv4 の追加</span><span class="sxs-lookup"><span data-stu-id="bf2df-103">Add Edge Machine External IPv4</span></span>
  
-<span data-ttu-id="96348-104">**外部 IPv4**で、アクセスエッジサービス、Web 会議エッジサービス、および A/V Edge サービスを指す外部 IP アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="96348-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="bf2df-104">外部 **IPv4 で**、アクセス エッジ サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="bf2df-104">In **External IPv4**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

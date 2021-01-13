@@ -1,8 +1,8 @@
 ---
 title: 保留中の証明書 (結果)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,22 +14,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[オンライン証明書の要求の状態] ページでは、証明書の現在の状態を返します。 証明書がまだ承認されていない場合は、証明機関管理者によって保留中の承認状態になっている場合、その状態は、証明書がまだ処理中であることを示します。'
-ms.openlocfilehash: 16950c61193051b9ae590ef3bc61c40b298cdb21
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[オンライン証明書要求状態] ページには、証明書の現在の状態が表示されます。 証明機関の管理者との承認待ち状態 (まだ承認されていない場合) は、証明書がまだ処理中であることの状態が示されます。'
+ms.openlocfilehash: 7ba807b8e4309c9614df66b7c727a7e964dcea74
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796808"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836957"
 ---
-# <a name="pending-certificate-returned"></a><span data-ttu-id="7c36b-104">保留中の証明書 (結果)</span><span class="sxs-lookup"><span data-stu-id="7c36b-104">Pending Certificate (Returned)</span></span>
+# <a name="pending-certificate-returned"></a><span data-ttu-id="5068d-104">保留中の証明書 (結果)</span><span class="sxs-lookup"><span data-stu-id="5068d-104">Pending Certificate (Returned)</span></span>
  
-<span data-ttu-id="7c36b-105">[**オンライン証明書の要求の状態**] ページでは、証明書の現在の状態を返します。</span><span class="sxs-lookup"><span data-stu-id="7c36b-105">The **Online Certificate Request Status** page returns the current status of the certificate.</span></span> <span data-ttu-id="7c36b-106">証明書がまだ承認されていない場合は、証明機関管理者によって保留中の承認状態になっている場合、その状態は、証明書がまだ処理中であることを示します。</span><span class="sxs-lookup"><span data-stu-id="7c36b-106">If the certificate is still in a pending approval state with the certification authority administrator—that is, if it has not yet been approved—the status will indicate that the certificate is still being processed.</span></span>
+<span data-ttu-id="5068d-105">**[オンライン証明書要求状態]** ページには、証明書の現在の状態が表示されます。</span><span class="sxs-lookup"><span data-stu-id="5068d-105">The **Online Certificate Request Status** page returns the current status of the certificate.</span></span> <span data-ttu-id="5068d-106">証明機関の管理者との承認待ち状態 (まだ承認されていない場合) は、証明書がまだ処理中であることの状態が示されます。</span><span class="sxs-lookup"><span data-stu-id="5068d-106">If the certificate is still in a pending approval state with the certification authority administrator—that is, if it has not yet been approved—the status will indicate that the certificate is still being processed.</span></span>
   
-<span data-ttu-id="7c36b-107">保留中の要求が承認されていて、証明書の取得に成功した場合、状態はローカル証明書ストアに証明書が割り当てられていることを示し、[状態] ウィンドウには証明書の拇印も表示されます。</span><span class="sxs-lookup"><span data-stu-id="7c36b-107">If the pending request has been approved and the retrieval of the certificate is successful, the status will indicate that a certificate has been assigned to the local certificate store, and the status pane will also display the certificate thumbprint.</span></span>
+<span data-ttu-id="5068d-107">保留要求が承認されて証明書の取得に成功すると、証明書がローカル証明書ストアに割り当てられたことが状態として示され、状態ウィンドウにも証明書の拇印が表示されます。</span><span class="sxs-lookup"><span data-stu-id="5068d-107">If the pending request has been approved and the retrieval of the certificate is successful, the status will indicate that a certificate has been assigned to the local certificate store, and the status pane will also display the certificate thumbprint.</span></span>
   
-<span data-ttu-id="7c36b-108">証明機関管理者が証明書の要求を拒否した場合、[状態] ウィンドウには、特定の ID (証明機関によって管理される) の保留中の証明書の要求が拒否されたことが通知されます。</span><span class="sxs-lookup"><span data-stu-id="7c36b-108">If the certification authority administrator denies the certificate request, the status pane will report that the request of the pending certificate with a given ID (maintained by the certification authority) is denied.</span></span>
+<span data-ttu-id="5068d-108">証明機関の管理者が証明書の要求を拒否した場合、ステータス ウィンドウは、特定の ID を持つ保留中の証明書の要求 (証明機関によって維持される) が拒否されたと報告します。</span><span class="sxs-lookup"><span data-stu-id="5068d-108">If the certification authority administrator denies the certificate request, the status pane will report that the request of the pending certificate with a given ID (maintained by the certification authority) is denied.</span></span>
   
-<span data-ttu-id="7c36b-109">[**完了**] をクリックして、保留中の証明書処理を完了します。</span><span class="sxs-lookup"><span data-stu-id="7c36b-109">Click **Finish** to complete the pending certificate processing.</span></span>
+<span data-ttu-id="5068d-109">保留中の証明書の処理を完了するには、**[完了]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5068d-109">Click **Finish** to complete the pending certificate processing.</span></span>
   
 

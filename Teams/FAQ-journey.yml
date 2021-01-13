@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 35f947233e9b6cdc713b05e6bc9ebe78d404e1a4
-  ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
+  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 12/18/2020
-  ms.locfileid: "49712625"
+  ms.lasthandoff: 01/13/2021
+  ms.locfileid: "49841478"
 title: よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 summary: ''
 sections:
@@ -35,6 +35,8 @@ sections:
   - question: カスタマーとして Skype for Business Online から Teams に移行しなければならない具体的な期限はありますか?
     answer: >
       はい。 2021 年 7 月 31 日で[Skype for Business Online はサポート終了](skype-for-business-online-retirement.md)になり、その時点でアクセスまたはサポートが終わります。 Skype for Business Online を使用しているお客様には、終了日までにアップグレードを完了する十分な時間を確保するために、今すぐ Teams の使用とアップグレードの計画を開始することをお勧めします。
+  - question: Skype 会議ブロードキャストは Skype for Business Online と同時に廃止される予定ですか?
+    answer: "はい。 Teams Live イベントは、Skype 会議ブロードキャストの後続ソリューションです。    \n"
   - question: 自分の組織を Teams にアップグレードするのにどのくらい時間がかかりますか?
     answer: >
       組織においての Skype for Business から Teams への移行は、お客様によって定義することができます。 Microsoft では、お客様の計画と実行を支援するために、変更の技術的要素と組織要素の移動に役立つ実証済みのフレームワークに基づいた包括的なアップグレード ガイダンスを開発しました。 Skype for Business から Teams への移行をナビゲートするための基礎となる、[アップグレード成功のフレームワーク](upgrade-framework.md)と関連リソースに精通して、計画を開始してください。
@@ -43,7 +45,7 @@ sections:
   - question: Microsoft Teams 管理センターの共存モードの詳細はどこで確認できますか?
     answer: >
       Microsoft Teams 管理センター内で、組織に適した Skype for Business から Teams への移行を組織で管理することができるようになる、共存モードのオプションが表示されています。 [共存モードとアップグレード モード](teams-and-skypeforbusiness-coexistence-and-interoperability.md)の詳細については、こちらを参照してください。
-  - question: アップグレードに備え、何を準備する必要がありますか?
+  - question: アップグレードに備える準備をするには、何を行う必要がありますか?
     answer: >
       正常に完了するアップグレードには、ユーザー側の受け入態勢が整っていることに加えて、技術面の準備状況の検証が含まれています。 所属する組織で Teams にアップグレードする準備が整っていないと判断される場合でも、計画のプロセスは今すぐ始めることができます。 さらに、Teams を Skype for Business と共存する形で有効にすることによって、Teams の価値を実感し始めることができます。 今すぐ [Skype から Teams への移行[(https://aka.ms/skypetoteams-home)を開始しましょう。
 
