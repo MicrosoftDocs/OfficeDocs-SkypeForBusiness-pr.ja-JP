@@ -1,8 +1,8 @@
 ---
-title: 仲介サーバーの次ホップの追加
+title: 仲介サーバーの次ホップを追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 定義している仲介サーバーの次ホップを定義するには、次ホッププールのドロップダウンリストから、仲介サーバーの次ホップとして機能する Enterprise Edition server または Standard Edition server を選びます。 [次へ] をクリックして続行します。
-ms.openlocfilehash: 08f3f94229131f10d4528e915888baf48bf2ba82
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 定義する仲介サーバーの次ホップを定義するには、[次ホップ プール] ドロップダウン リストから、仲介サーバーの次ホップとして機能する Enterprise Edition サーバーまたは Standard Edition サーバーを選択します。 続行するには、[次へ] をクリックします。
+ms.openlocfilehash: a85a298d8cd607866a3e2893e74525272152ce8c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798484"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811527"
 ---
-# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="d5a5b-104">仲介サーバーの次ホップの追加</span><span class="sxs-lookup"><span data-stu-id="d5a5b-104">Add Mediation Server NextHop</span></span>
+# <a name="add-mediation-server-nexthop"></a><span data-ttu-id="83283-104">仲介サーバーの次ホップの追加</span><span class="sxs-lookup"><span data-stu-id="83283-104">Add Mediation Server NextHop</span></span>
  
-<span data-ttu-id="d5a5b-105">定義している仲介サーバーの次ホップを定義するには、次ホップ**プール**のドロップダウンリストから、仲介サーバーの次ホップとして機能する Enterprise edition server または Standard Edition server を選びます。</span><span class="sxs-lookup"><span data-stu-id="d5a5b-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="d5a5b-106">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="d5a5b-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="83283-105">定義する仲介サーバーの次ホップを定義するには、[次ホップ プール] ドロップダウンリストから、仲介サーバーの次ホップとして機能する Enterprise Edition サーバーまたは Standard Edition サーバーを選択します。</span><span class="sxs-lookup"><span data-stu-id="83283-105">To define the next hop for a Mediation Server that you are defining, select from the **Next hop pool** drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server.</span></span> <span data-ttu-id="83283-106">[**次へ**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="83283-106">Click **Next** to continue.</span></span>
   
 

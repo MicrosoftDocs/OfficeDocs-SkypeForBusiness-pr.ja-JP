@@ -1,8 +1,8 @@
 ---
-title: CMS 設定エキスパンダー
+title: CMS 設定の展開
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,20 +15,20 @@ localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: 中央管理サーバーを、ある定義済みのフロントエンドのプールから別の定義済みのフロントエンドのプールに変更できます。 中央管理サーバーの場所を変更するには、[中央管理サーバーをインストールするフロントエンド サーバー] の下のドロップダウン リストからフロントエンド プールを選択します。 フロントエンド サーバーは、Enterprise Edition フロントエンドのプールまたは Standard Edition フロントエンド サーバーのいずれかにできます。
-ms.openlocfilehash: da84462eeb9e9823c3376107b40991ecf74f8e49
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: db6bec4665da0e885a37ddcdac9c43ded1ee0da1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793865"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811147"
 ---
-# <a name="cms-settings-expander"></a><span data-ttu-id="42ba8-105">CMS 設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="42ba8-105">CMS Settings Expander</span></span>
+# <a name="cms-settings-expander"></a><span data-ttu-id="4a60b-105">CMS 設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="4a60b-105">CMS Settings Expander</span></span>
  
-<span data-ttu-id="42ba8-p102">中央管理サーバーを、ある定義済みのフロントエンドのプールから別の定義済みのフロントエンドのプールに変更できます。中央管理サーバーの場所を変更するには、[**中央管理サーバーをインストールするフロントエンド サーバー**] の下のドロップダウン リストからフロントエンド プールを選択します。フロントエンド サーバーは、Enterprise Edition フロントエンドのプールまたは Standard Edition フロントエンド サーバーのいずれかにできます。</span><span class="sxs-lookup"><span data-stu-id="42ba8-p102">The Central Management Server can be changed from one defined Front End pool to another defined Front End pool. To change the location of the Central Management Server, select the Front End pool from the drop-down list under **Front End server to install Central Management Server on**. A Front End Server can be an Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span>
+<span data-ttu-id="4a60b-p102">中央管理サーバーを、ある定義済みのフロントエンドのプールから別の定義済みのフロントエンドのプールに変更できます。中央管理サーバーの場所を変更するには、[**中央管理サーバーをインストールするフロントエンド サーバー**] の下のドロップダウン リストからフロントエンド プールを選択します。フロントエンド サーバーは、Enterprise Edition フロントエンドのプールまたは Standard Edition フロントエンド サーバーのいずれかにできます。</span><span class="sxs-lookup"><span data-stu-id="4a60b-p102">The Central Management Server can be changed from one defined Front End pool to another defined Front End pool. To change the location of the Central Management Server, select the Front End pool from the drop-down list under **Front End server to install Central Management Server on**. A Front End Server can be an Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="42ba8-109">インフラストラクチャに中央管理ストアを定義、公開、および展開している場合は、外部処理によって中央管理ストアを別のフロントエンドに再配置しないと、中央管理ストアの場所を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="42ba8-109">If you have defined, published, and deployed the Central Management store for the infrastructure, you cannot change the location of the Central Management store without relocating the Central Management store to another Front End by an external process.</span></span> 
+> <span data-ttu-id="4a60b-109">インフラストラクチャに中央管理ストアを定義、公開、および展開している場合は、外部処理によって中央管理ストアを別のフロントエンドに再配置しないと、中央管理ストアの場所を変更することはできません。</span><span class="sxs-lookup"><span data-stu-id="4a60b-109">If you have defined, published, and deployed the Central Management store for the infrastructure, you cannot change the location of the Central Management store without relocating the Central Management store to another Front End by an external process.</span></span> 
   
-<span data-ttu-id="42ba8-110">中央管理サーバー ストアの移動の詳細については、Windows PowerShell コマンドレット リファレンスの「[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="42ba8-110">For details about moving the Central Management Server store, see [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in the Windows PowerShell cmdlet reference.</span></span>
+<span data-ttu-id="4a60b-110">中央管理サーバー ストアの移動の詳細については、次のコマンドレット リファレンスの [「Move-CsManagementServer」Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) 参照してください。</span><span class="sxs-lookup"><span data-stu-id="4a60b-110">For details about moving the Central Management Server store, see [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in the Windows PowerShell cmdlet reference.</span></span>
   
 

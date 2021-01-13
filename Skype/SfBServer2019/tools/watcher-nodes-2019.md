@@ -1,8 +1,8 @@
 ---
 title: 監視ノードのインストールと構成
 ms.reviewer: ''
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: '概要: Skype for Business Server 代理トランザクションの監視ノードをインストールして構成します。'
-ms.openlocfilehash: ed82e668fc09acf80aeb86f2aa0d2a3e0d1819b9
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+description: '概要: Skype for Business Server 代理トランザクションの監視ノードをインストールおよび構成します。'
+ms.openlocfilehash: f788b01f4ca4faf212179a52674a4992be8c8f96
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640948"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812749"
 ---
 [!INCLUDE [watcher-nodes](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md)]

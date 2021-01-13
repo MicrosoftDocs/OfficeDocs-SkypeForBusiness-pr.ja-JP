@@ -1,8 +1,8 @@
 ---
 title: コール パーク
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,50 +14,50 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
-description: 通話が保留されると、誰かが通話を発信するか、またはタイムアウトするまで、通話が保留中の一時的な電話番号に転送されます。保留中の通話で予約している内線番号の範囲をテーブルに構成する必要があります。 これらの内線番号は、仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要があります。 コールパークアプリケーションを実行する各プールには、1つ以上の拡張機能の範囲を指定できます。 これらの範囲は、展開全体でグローバルに一意である必要があります。
-ms.openlocfilehash: 7f4a660c3fdd1dbba5080b93bec0aac116d453ea
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 通話がパークされた場合、通話は一時的な番号に転送され、誰かが通話を取得するか、または通話がタイム アウトするまで保持されます。パークされた通話のために予約する内線番号の範囲を含むテーブルを構成する必要があります。 これらの内線番号は仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要あがります。 コール パーク アプリケーションを実行する各プールは、1 つ以上の内線番号の範囲を持つ場合があります。 これらの範囲は、展開全体でグローバルに一意である必要があります。
+ms.openlocfilehash: 679e13cdeb6ef6cf614f5703f5711e86fa1c8c59
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797814"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812167"
 ---
-# <a name="call-park"></a><span data-ttu-id="960ef-106">コール パーク</span><span class="sxs-lookup"><span data-stu-id="960ef-106">Call Park</span></span>
+# <a name="call-park"></a><span data-ttu-id="0da40-106">コール パーク</span><span class="sxs-lookup"><span data-stu-id="0da40-106">Call Park</span></span>
 
-<span data-ttu-id="960ef-107">通話が保留されると、誰かが通話を発信するか、またはタイムアウトするまで、通話が保留中の一時的な電話番号に転送されます。保留中の通話で予約している内線番号の範囲をテーブルに構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="960ef-107">When a call is parked, it is transferred to a temporary number where the call is held until someone retrieves it or it times out. You need to configure a table with the ranges of extension numbers that you are reserving for parked calls.</span></span> <span data-ttu-id="960ef-108">これらの内線番号は、仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="960ef-108">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="960ef-109">コールパークアプリケーションを実行する各プールには、1つ以上の拡張機能の範囲を指定できます。</span><span class="sxs-lookup"><span data-stu-id="960ef-109">Each pool that runs the Call Park application can have one or more ranges of extensions.</span></span> <span data-ttu-id="960ef-110">これらの範囲は、展開全体でグローバルに一意である必要があります。</span><span class="sxs-lookup"><span data-stu-id="960ef-110">These ranges must be globally unique across your deployment.</span></span>
+<span data-ttu-id="0da40-107">通話がパークされた場合、通話は一時的な番号に転送され、誰かが通話を取得するか、または通話がタイム アウトするまで保持されます。パークされた通話のために予約する内線番号の範囲を含むテーブルを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0da40-107">When a call is parked, it is transferred to a temporary number where the call is held until someone retrieves it or it times out. You need to configure a table with the ranges of extension numbers that you are reserving for parked calls.</span></span> <span data-ttu-id="0da40-108">これらの内線番号は仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要あがります。</span><span class="sxs-lookup"><span data-stu-id="0da40-108">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="0da40-109">コール パーク アプリケーションを実行する各プールには、1 つ以上の内線番号の範囲を設定できます。</span><span class="sxs-lookup"><span data-stu-id="0da40-109">Each pool that runs the Call Park application can have one or more ranges of extensions.</span></span> <span data-ttu-id="0da40-110">これらの範囲は、展開全体でグローバルに一意である必要があります。</span><span class="sxs-lookup"><span data-stu-id="0da40-110">These ranges must be globally unique across your deployment.</span></span>
 
-<span data-ttu-id="960ef-111">[**コールパーク**] ページには、組織で定義されているすべてのコールパーク番号範囲の一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="960ef-111">The **Call Park** page displays a list of all the Call Park number ranges that are defined for your organization.</span></span>
+<span data-ttu-id="0da40-111">[ **コール パーク]** ページには、組織に定義されているコール パーク番号の範囲の一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="0da40-111">The **Call Park** page displays a list of all the Call Park number ranges that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="960ef-112">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="960ef-112">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="0da40-112">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="0da40-112">Tasks you can perform</span></span>
 
-<span data-ttu-id="960ef-113">[**コール パーク**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="960ef-113">You can perform the following tasks from the **Call Park** page:</span></span>
+<span data-ttu-id="0da40-113">[**コール パーク**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="0da40-113">You can perform the following tasks from the **Call Park** page:</span></span>
 
-- <span data-ttu-id="960ef-114">新しい番号範囲の作成</span><span class="sxs-lookup"><span data-stu-id="960ef-114">Create a new number range</span></span>
+- <span data-ttu-id="0da40-114">新しい番号範囲の作成</span><span class="sxs-lookup"><span data-stu-id="0da40-114">Create a new number range</span></span>
 
-- <span data-ttu-id="960ef-115">既存の番号範囲の変更</span><span class="sxs-lookup"><span data-stu-id="960ef-115">Change an existing number range</span></span>
+- <span data-ttu-id="0da40-115">既存の番号範囲の変更</span><span class="sxs-lookup"><span data-stu-id="0da40-115">Change an existing number range</span></span>
 
-- <span data-ttu-id="960ef-116">番号範囲の削除</span><span class="sxs-lookup"><span data-stu-id="960ef-116">Delete a number range</span></span>
+- <span data-ttu-id="0da40-116">番号範囲の削除</span><span class="sxs-lookup"><span data-stu-id="0da40-116">Delete a number range</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="960ef-117">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="960ef-117">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="0da40-117">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="0da40-117">UI Reference</span></span>
 
-<span data-ttu-id="960ef-118">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="960ef-118">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="0da40-118">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="0da40-118">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="960ef-119">**新規**新しいコールパーク番号の範囲を開始します。</span><span class="sxs-lookup"><span data-stu-id="960ef-119">**New** Starts a new Call Park number range.</span></span>
+- <span data-ttu-id="0da40-119">**新規** 新しいコール パーク番号範囲を開始します。</span><span class="sxs-lookup"><span data-stu-id="0da40-119">**New** Starts a new Call Park number range.</span></span>
 
-- <span data-ttu-id="960ef-120">**編集**編集用に選択した番号範囲を開くか、リスト内のすべての番号範囲を選択するか、選択した番号範囲を削除します。</span><span class="sxs-lookup"><span data-stu-id="960ef-120">**Edit** Opens the selected number range for editing, selects all number ranges in the list, or deletes the selected number range.</span></span>
+- <span data-ttu-id="0da40-120">**編集** 選択した番号範囲を編集用に開き、リスト内のすべての番号範囲を選択するか、選択した番号範囲を削除します。</span><span class="sxs-lookup"><span data-stu-id="0da40-120">**Edit** Opens the selected number range for editing, selects all number ranges in the list, or deletes the selected number range.</span></span>
 
-- <span data-ttu-id="960ef-121">**更新**数値範囲の一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="960ef-121">**Refresh** Refreshes the list of number ranges.</span></span>
+- <span data-ttu-id="0da40-121">**更新** 番号範囲の一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="0da40-121">**Refresh** Refreshes the list of number ranges.</span></span>
 
-<span data-ttu-id="960ef-122">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="960ef-122">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="0da40-122">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="0da40-122">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="960ef-123">**名前**数値の範囲を示す一意の名前。</span><span class="sxs-lookup"><span data-stu-id="960ef-123">**Name** The unique name that identifies the number range.</span></span>
+- <span data-ttu-id="0da40-123">**名前** 番号範囲を識別する一意の名前。</span><span class="sxs-lookup"><span data-stu-id="0da40-123">**Name** The unique name that identifies the number range.</span></span>
 
-- <span data-ttu-id="960ef-124">**開始範囲**範囲の開始番号。</span><span class="sxs-lookup"><span data-stu-id="960ef-124">**Start range** The beginning number of the range.</span></span>
+- <span data-ttu-id="0da40-124">**開始範囲** 範囲の開始番号を指定します。</span><span class="sxs-lookup"><span data-stu-id="0da40-124">**Start range** The beginning number of the range.</span></span>
 
-- <span data-ttu-id="960ef-125">**範囲の終了**範囲の終了番号。</span><span class="sxs-lookup"><span data-stu-id="960ef-125">**End range** The ending number of the range.</span></span>
+- <span data-ttu-id="0da40-125">**終了範囲** 範囲の終了番号を指定します。</span><span class="sxs-lookup"><span data-stu-id="0da40-125">**End range** The ending number of the range.</span></span>
 
-- <span data-ttu-id="960ef-126">**宛先**番号範囲のコールパークアプリケーションをホストするアプリケーションサービスの完全修飾ドメイン名 (FQDN) またはサービス ID。</span><span class="sxs-lookup"><span data-stu-id="960ef-126">**Destination** The fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application for the number range.</span></span>
+- <span data-ttu-id="0da40-126">**Destination** 番号範囲のコール パーク アプリケーションをホストするアプリケーション サービスの完全修飾ドメイン名 (FQDN) またはサービス ID。</span><span class="sxs-lookup"><span data-stu-id="0da40-126">**Destination** The fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application for the number range.</span></span>
 
-<span data-ttu-id="960ef-127">コールパーク機能と機能の詳細については、「 [Skype For business でのコールパークの計画](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="960ef-127">For details about Call Park features and capabilities, see [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span></span> <span data-ttu-id="960ef-128">通話パーク番号範囲の使用について詳しくは、「[パーキング通話用に電話番号の内線番号を設定する](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="960ef-128">For details about working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span></span>
+<span data-ttu-id="0da40-127">コール パークの機能の詳細については [、「Plan for Call Park in Skype for Business」を参照してください](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。</span><span class="sxs-lookup"><span data-stu-id="0da40-127">For details about Call Park features and capabilities, see [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md).</span></span> <span data-ttu-id="0da40-128">コール パーク番号範囲の操作の詳細については [、「Configure Phone Number Extensions for Parking Calls 」を参照してください](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx)。</span><span class="sxs-lookup"><span data-stu-id="0da40-128">For details about working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](https://technet.microsoft.com/library/fbf97624-9587-42a6-b276-1b69c574a74d.aspx).</span></span>
 
 

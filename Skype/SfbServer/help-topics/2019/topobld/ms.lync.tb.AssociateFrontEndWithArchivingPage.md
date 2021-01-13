@@ -1,8 +1,8 @@
 ---
-title: フロントエンドとアーカイブの関連付け
+title: フロント エンドとアーカイブの関連付け
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
-description: 各フロントエンドプールと Survivable Branch Appliance には、1つのアーカイブサーバーしか関連付けることができません。 サイトのアーカイブが有効になっている場合、アーカイブサーバーは、関連付けられているプールと Survivable Branch アプライアンスに所属しているユーザーを含む、会話からインスタントメッセージング (IM) メッセージの内容と web 会議コンテンツを収集して記録します。
-ms.openlocfilehash: a372ef7cdb3bc94d9effac1fbea83b2db0de019e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: フロント エンド プールと存続可能ブランチ アプライアンスのそれぞれには、アーカイブ サーバーを 1 つだけ関連付けることができます。 サイトでアーカイブが有効な場合、アーカイブ サーバーは、関連付けられたプールと存続可能ブランチ アプライアンスに所属するサーバーが関連する会話から、インスタント メッセージング (IM) のメッセージ内容と Web 会議コンテンツを収集して記録します。
+ms.openlocfilehash: 544f1da8d69903209e44bdd4cbc378aa727c64f6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794015"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811457"
 ---
-# <a name="associate-front-end-with-archiving"></a><span data-ttu-id="7402b-104">フロントエンドとアーカイブの関連付け</span><span class="sxs-lookup"><span data-stu-id="7402b-104">Associate Front End With Archiving</span></span>
+# <a name="associate-front-end-with-archiving"></a><span data-ttu-id="8761b-104">フロント エンドとアーカイブの関連付け</span><span class="sxs-lookup"><span data-stu-id="8761b-104">Associate Front End With Archiving</span></span>
  
-<span data-ttu-id="7402b-105">各フロントエンドプールと Survivable Branch Appliance には、1つのアーカイブサーバーしか関連付けることができません。</span><span class="sxs-lookup"><span data-stu-id="7402b-105">Each Front End pool and Survivable Branch Appliance can have only one Archiving Server associated with it.</span></span> <span data-ttu-id="7402b-106">サイトのアーカイブが有効になっている場合、アーカイブサーバーは、関連付けられているプールと Survivable Branch アプライアンスに所属しているユーザーを含む、会話からインスタントメッセージング (IM) メッセージの内容と web 会議コンテンツを収集して記録します。</span><span class="sxs-lookup"><span data-stu-id="7402b-106">When archiving is enabled for the site, Archiving Server then collects and records instant messaging (IM) message content and web conference content from conversations involving the users homed on the associated pools and Survivable Branch Appliances.</span></span> 
+<span data-ttu-id="8761b-105">フロント エンド プールと存続可能ブランチ アプライアンスのそれぞれには、アーカイブ サーバーを 1 つだけ関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="8761b-105">Each Front End pool and Survivable Branch Appliance can have only one Archiving Server associated with it.</span></span> <span data-ttu-id="8761b-106">サイトでアーカイブが有効な場合、アーカイブ サーバーは、関連付けられたプールと存続可能ブランチ アプライアンスに所属するサーバーが関連する会話から、インスタント メッセージング (IM) のメッセージ内容と Web 会議コンテンツを収集して記録します。</span><span class="sxs-lookup"><span data-stu-id="8761b-106">When archiving is enabled for the site, Archiving Server then collects and records instant messaging (IM) message content and web conference content from conversations involving the users homed on the associated pools and Survivable Branch Appliances.</span></span> 
   
-<span data-ttu-id="7402b-107">使用頻度がアーカイブサーバーの容量を超えていない場合、サイトのすべてのプールと複数のセントラルサイトのプールは同じアーカイブサーバーを使用できます。</span><span class="sxs-lookup"><span data-stu-id="7402b-107">All pools at a site and the pools of multiple central sites can use the same Archiving Server, if usage does not exceed the capacity of the Archiving Server.</span></span> 
+<span data-ttu-id="8761b-107">1 つのサイトのすべてのプールと複数の中央サイトのプールでは、使用量がアーカイブ サーバーの処理能力を超えないのであれば、同じアーカイブ サーバーを使用できます。</span><span class="sxs-lookup"><span data-stu-id="8761b-107">All pools at a site and the pools of multiple central sites can use the same Archiving Server, if usage does not exceed the capacity of the Archiving Server.</span></span> 
   
 
