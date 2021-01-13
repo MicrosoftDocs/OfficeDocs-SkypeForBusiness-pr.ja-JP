@@ -1,8 +1,8 @@
 ---
 title: AppliedBandwidthSource テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
-description: AppliedBandwidthSource テーブルは、サポートテーブルです。 各レコードは1つのソースを表します。
-ms.openlocfilehash: 875f6d105a2fef0bf710e57ec389bee4f2613c66
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: AppliedBandwidthSource テーブルはサポート テーブルです。 各レコードは 1 つのソースを表します。
+ms.openlocfilehash: bf7e1be3b98bcd56fea16dbd7aa7171b056a7f3c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41811445"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831407"
 ---
 # <a name="appliedbandwidthsource-table"></a>AppliedBandwidthSource テーブル
  
-AppliedBandwidthSource テーブルは、サポートテーブルです。 各レコードは1つのソースを表します。
+AppliedBandwidthSource テーブルはサポート テーブルです。各レコードは 1 つのソースを表します。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**AppliedBandwidthSourceKey** <br/> |int  <br/> |Primary  <br/> |ソースを識別する一意の番号。  <br/> |
-|**AppliedBandwidthSource** <br/> |varchar (256)  <br/> |一意  <br/> |これは、適用される帯域幅の上限のソースです。 帯域幅の制限の対象となる場所 (たとえば、"Policy Server"、"TURN Server"、"モダリティ" など) について説明します。  <br/> |
+|**AppliedBandwidthSourceKey** <br/> |int  <br/> |Primary  <br/> |ソースを示す一意の番号です。  <br/> |
+|**AppliedBandwidthSource** <br/> |varchar(256)  <br/> |一意  <br/> |適用されている帯域幅キャップのソースです。 帯域幅制限の適用先 ("Policy Server"、"TURN Server"、"Modality" など) について説明します。  <br/> |
    
 

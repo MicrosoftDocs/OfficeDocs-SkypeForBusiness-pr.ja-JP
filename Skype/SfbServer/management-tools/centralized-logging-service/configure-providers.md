@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 2015 での集中ログ サービス プロバイダーの構成
+title: Skype for Business Server 2015 での集中ログ サービスのプロバイダーの構成
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,21 +13,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
-description: '概要: Skype for Business Server 2015 の一元管理ログサービスのシナリオプロバイダーを構成する方法について説明します。'
-ms.openlocfilehash: e2c633dabf30ffbc42fa90066bf469e10dc25fb6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server 2015 の集中ログ サービスのシナリオ プロバイダーを構成する方法について説明します。'
+ms.openlocfilehash: c96a87ea76930dbd99341667852a9731e56b88b5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816606"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835167"
 ---
-# <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での集中ログ サービス プロバイダーの構成
+# <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での集中ログ サービスのプロバイダーの構成
  
-**概要:** Skype for Business Server 2015 の中央集中ログサービスのシナリオプロバイダーを構成する方法について説明します。
+**概要:** Skype for Business Server 2015 の集中ログ サービスのシナリオ プロバイダーを構成する方法について説明します。
   
-一元管理サービスのプロバイダーの概念と構成は、理解するうえで最も重要なものの1つです。 このプロバイダーは、Skype for Business Server のトレースモデルに含まれている Skype for Business Server の役割コンポーネントに直接マップされます。 プロバイダーは、トレースされる Skype for Business Server 2015 のコンポーネント、収集するメッセージの種類 (致命的、エラー、警告など)、およびフラグ (TF_Connection や TF_Diag など) を定義します)。 プロバイダーは、各 Skype for Business Server server の役割の追跡可能なコンポーネントです。 プロバイダーを使用して、コンポーネントに対するトレースのレベルと種類 (S4、SIPStack、IM、プレゼンスなど) を定義します。 定義済みのプロバイダーは、シナリオの中で特定の問題状況に対応する特定の論理コレクション用のすべてのプロバイダーをグループ化するために使用されます。
+集中ログ サービスのプロバイダーの概念と構成は、理解することが最も重要な 1 つです。 Theproviders map directly to Skype for Business Server server role components in the Skype for Business Server tracing model. プロバイダーは、トレースする Skype for Business Server 2015 のコンポーネント、収集するメッセージの種類 (致命的、エラー、警告など)、フラグ (TF_Connection や TF_Diag など) を定義します。 プロバイダーは、各 Skype for Business Server サーバーの役割のトレース可能なコンポーネントです。 プロバイダーを使用して、コンポーネントに対するトレースのレベルと種類 (S4、SIPStack、IM、プレゼンスなど) を定義します。 定義済みのプロバイダーは、シナリオの中で特定の問題状況に対応する特定の論理コレクション用のすべてのプロバイダーをグループ化するために使用されます。
   
-Skype for Business Server 管理シェルを使用して一元的なログサービス機能を実行するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティグループのメンバーであるか、または、次の2つのグループのいずれかが含まれます。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) ロールのリストを返すには (自分自身で作成したカスタム RBAC ロールを含む)、Skype for Business Server 管理シェルまたは Windows PowerShell で次のコマンドを実行します。プロンプト
+Skype for Business Server 管理シェルを使用して集中ログ サービス機能を実行するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティ グループのメンバーか、これら 2 つのグループのいずれかを含むカスタム RBAC の役割のメンバーである必要があります。 このコマンドレットが割り当てられているすべての役割ベースのアクセス制御 (RBAC) の役割の一覧 (自身が作成したカスタムの RBAC の役割を含む) を戻す場合は、Skype for Business Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -39,50 +39,50 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 201
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-このトピックの残りの部分では、トラブルシューティングを最適化するために、プロバイダーの定義方法、プロバイダーの変更方法、プロバイダー定義に含まれる内容について説明します。 一元化されたログサービスのコマンドを発行するには、2つの方法があります。 既定では、directory C:\Program Files\Common Files\Skype for Business Server 2015 \ Clscontroller に含まれる CLSController を使用できます。 または、Skype for Business Server 管理シェルを使用して、Windows PowerShell コマンドを発行することもできます。 Windows PowerShell を使用すると、ログセッションで使用するために新しいプロバイダーを定義することができます。また、それらの作成、収集内容、データ収集のレベルなども完全に制御できます。
+このトピックの以下の部分では、プロバイダーの定義方法、プロバイダーの変更方法、およびトラブルシューティングを最適化するためにプロバイダー定義に含まれるものに注目します。 集中ログ サービス コマンドを発行する方法は 2 種類あります。 既定では、C:\Program Files\Common Files\Skype for Business Server 2015\CLSAgent ディレクトリにある CLSController.exe を使用できます。 または、Skype for Business Server 管理シェルを使用して、次のコマンドWindows PowerShellできます。 Windows PowerShell を使用すると、ログ セッションで使用する新しいプロバイダーを定義し、作成、収集するデータ、およびデータを収集するレベルを完全に制御できます。
   
 > [!IMPORTANT]
 > 前述したように、プロバイダーは非常に強力です。ただし、シナリオは、プロバイダーが表すコンポーネントに対するトレースの設定と実行を行うために必要な具体的な情報をすべて含んでいるため、プロバイダーよりも強力です。シナリオとプロバイダーのコレクションは、大まかに言うと、大量の情報を収集する多数のコマンドを含むバッチ ファイルを実行することと、多数のコマンドをコマンド ラインから一度に 1 つずつ発行することに相当します。 
   
-プロバイダーの詳細を深く把握する必要はありませんが、一元管理サービスには、既に定義されている多数のシナリオが用意されています。 用意されているシナリオを使用して、遭遇する可能性がある問題の大部分に対応できます。 まれに、プロバイダーを作成して定義し、シナリオに割り当てなければならない場合があります。 新しいプロバイダーとシナリオを作成する必要があるかどうかを考慮する前に、用意されている各シナリオを十分に調べることを強くお勧めします。 ここでは、シナリオでのプロバイダー要素の使用によるトレース情報の収集方法を理解するために、プロバイダーの作成に関する情報が提示されていますが、プロバイダーそのものの詳細については説明しません。 
+集中ログ サービスは、プロバイダーの詳細を深く掘り下げる必要がある代わりに、既に定義されている多くのシナリオを提供します。 用意されているシナリオを使用して、遭遇する可能性がある問題の大部分に対応できます。 まれに、プロバイダーを定義してシナリオに割り当てなければならない場合があります。 新しいプロバイダーとシナリオを作成する必要があるかどうかを考慮する前に、用意されているシナリオを十分に調べることを強くお勧めします。 ここでは、シナリオでのプロバイダー要素の使用によるトレース情報の収集方法を理解するために、プロバイダーの作成に関する情報が提示されていますが、プロバイダーそのものの詳細については説明しません。 
   
-[Skype For business 2015 の中央集中ログサービス](centralized-logging-service.md)で導入された、シナリオで使用するプロバイダーを定義する主な要素は次のとおりです。
+[Skype for Business 2015](centralized-logging-service.md)の集中ログ サービスで導入された、シナリオで使用するプロバイダーを定義する主な要素は次のとおりです。
   
-- **Providers**OCSLogger に精通している場合、プロバイダーは、トレースエンジンがログを収集する必要があることを OCSLogger に伝えるために選ぶコンポーネントです。 プロバイダーは同じコンポーネントであり、多くの場合、OCSLogger のコンポーネントと同じ名前が付いています。 OCSLogger に精通していない場合は、一元管理サービスでログを収集できるのは、サーバーの役割固有のコンポーネントです。 一元管理サービスの場合、CLSAgent は、プロバイダー構成で定義したコンポーネントのトレースを実行している一元ログサービスのアーキテクチャ部分です。
+- **プロバイダー** OCSLogger に慣れ親しんだ場合、プロバイダーはトレース エンジンがログを収集する必要があるコンポーネントを OCSLogger に伝えるコンポーネントです。 プロバイダーは同じコンポーネントであり、多くの場合、OCSLogger のコンポーネントと同じ名前です。 OCSLogger について詳しくない場合、プロバイダーは、集中ログ サービスがログを収集できるサーバーロール固有のコンポーネントです。 集中ログ サービスの場合、CLSAgent は、プロバイダー構成で定義したコンポーネントのトレースを実行する集中ログ サービスのアーキテクチャ部分です。
     
-- **ログレベル**OCSLogger では、収集されたデータの詳細レベルの数を選択するオプションを提供しました。 この機能は、一元ログサービスとシナリオの一部であり、 **Type**パラメーターによって定義されます。 次のいずれかを選ぶことができます。
+- **ログ 出力レベル** OCSLogger には、収集されたデータの詳細レベルを選択するオプションが用意されています。 この機能は、集中ログ サービスとシナリオの不可欠な部分であり **、Type** パラメーターによって定義されます。 次の中から選択できます。
     
-  - **すべて**Fatal、error、warning、verbose、debug の各情報型のトレースメッセージを、定義されたプロバイダーのログに収集します。
+  - **すべて** 致命的、エラー、警告、詳細、デバッグの各種類のトレース メッセージを、定義されたプロバイダーのログに収集します。
     
-  - **Fatal**"致命的" として定義されているトレースメッセージのみを収集します。
+  - **Fatal** "Fatal" として定義されたトレース メッセージのみを収集します。
     
-  - **エラー**"Error" または "Fatal" として定義されているトレースメッセージのみを収集します。
+  - **エラー** "Error" または "Fatal" として定義されたトレース メッセージのみを収集します。
     
-  - **警告**"警告"、"エラー"、"致命的" という種類のトレースメッセージのみを収集します。
+  - **警告** 種類が "Warning"、"Error"、"Fatal" のトレース メッセージのみを収集します。
     
-  - **情報**定義されたプロバイダーの情報メッセージを示すトレースメッセージと、致命的、エラー、および警告メッセージだけを収集します。
+  - **情報** 定義されたプロバイダーの情報メッセージに加えて、致命的、エラー、および警告メッセージを示すトレース メッセージのみを収集します。
     
-  - **Verbose**定義されたプロバイダーの fatal、error、warning、verbose という種類のすべてのトレースメッセージを収集します。
+  - **Verbose** 定義済みプロバイダーの致命的、エラー、警告、詳細型のすべてのトレース メッセージを収集します。
     
-  - **Debug**これは基本的に "All" と同等です。これは、定義されたプロバイダーの致命的、エラー、警告、Info、Verbose、Debug の種類のトレースを収集します。
+  - **デバッグ** は基本的に 'All' と同等です。定義されたプロバイダーの種類が Fatal、Error、Warning、Info、Verbose、Debug のトレースを収集します。
     
-- **フラグ**OCSLogger では、トレースファイルから取得できる情報の種類を定義したプロバイダーごとに、フラグを選択するオプションが提供されました。 プロバイダーに基づいて、次のフラグを選ぶことができます。
+- **フラグ** OCSLogger には、トレース ファイルから取得できる情報の種類を定義した各プロバイダーのフラグを選択するオプションが用意されています。 プロバイダーに基づいて、次のフラグを選択できます。
     
-  - **TF_Connection**接続に関連するログエントリを提供します。 これらのログには、特定のコンポーネントとの間で確立された接続に関する情報が含まれます。 これには、重要なネットワークレベルの情報が含まれることもあります (つまり、接続の概念なし)。
+  - **TF_Connection** 接続関連のログ エントリを提供します。 これらのログには、特定のコンポーネントとの間で確立された接続に関する情報が含まれます。 これには、ネットワーク レベルの重要な情報 (つまり、接続の概念のないコンポーネント) も含まれる場合があります。
     
-  - **TF_Security**セキュリティに関連するすべてのイベントとログエントリを提供します。 たとえば、SipStack の場合、これは、ドメイン検証エラー、クライアント認証、承認エラーなどのセキュリティイベントです。
+  - **TF_Security** セキュリティに関連するイベント/ログ エントリを提供します。 たとえば、SipStack の場合は、ドメイン検証エラー、クライアント認証/承認エラーなどのセキュリティ イベントです。
     
-  - **TF_Diag**コンポーネントの診断またはトラブルシューティングに使用できる診断イベントを提供します。 たとえば、SipStack の場合は、証明書のエラー、DNS の警告/エラーがあります。
+  - **TF_Diag** コンポーネントの診断またはトラブルシューティングに使用できる診断イベントを提供します。 たとえば、SipStack の場合は、証明書のエラー、または DNS の警告/エラーです。
     
-  - **TF_Protocol**SIP、結合されたコミュニティコーデックパックメッセージなどのプロトコルメッセージを提供します。
+  - **TF_Protocol** SIP メッセージ、結合コミュニティ コーデック パック メッセージなどのプロトコル メッセージを提供します。
     
-  - **TF_Component**プロバイダーの一部として指定されたコンポーネントのログの記録を有効にします。
+  - **TF_Component** プロバイダーの一部として指定されたコンポーネントのログを有効にします。
     
-  - **すべて**プロバイダーで利用可能なすべてのフラグを設定します。
+  - **すべて** プロバイダーで使用可能なすべてのフラグを設定します。
     
-### <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>既存の集中ログサービスシナリオプロバイダーに関する情報を確認するには
+### <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>既存の集中ログ サービス シナリオ プロバイダーに関する情報を確認するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
     
 2. 既存のプロバイダーの構成をレビューするには、次を入力します。
     
@@ -96,7 +96,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Get-CsClsScenario -Identity "global/CAA"
    ```
 
-    このコマンドは、関連するフラグ、設定、およびコンポーネントと共にプロバイダーの一覧を表示します。 表示された情報が不足している場合、または既定の Windows PowerShell リスト形式でリストが長すぎる場合は、別の出力メソッドを定義して追加の情報を表示できます。 これを行うには、次のように入力します。
+    このコマンドは、関連するフラグ、設定、およびコンポーネントと共にプロバイダーの一覧を表示します。 表示される情報が十分ではないか、リストが既定の Windows PowerShell リスト形式に対して長すぎる場合は、別の出力方法を定義して追加情報を表示できます。 これを行うには、次のように入力します。
     
    ```PowerShell
    Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
@@ -104,11 +104,11 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
     このコマンドの出力では、各プロバイダーを行分割形式で表示します。プロバイダー名、ログの種類、ログ レベル、フラグ、GUID、および役割が行ごとに表示されます。 
     
-### <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>新しい集中ログサービスシナリオプロバイダーを定義するには
+### <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>新しい集中ログ サービス シナリオ プロバイダーを定義するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
     
-2. シナリオ プロバイダーは、トレースするコンポーネント、使用するフラグ、および収集する詳細レベルで構成されます。これを実行するには次のように入力します。
+2. シナリオ プロバイダーは、トレースするコンポーネント、使用するフラグ、および収集する詳細レベルで構成されます。これは実行するには次のように入力します。
     
    ```PowerShell
    $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
@@ -120,16 +120,16 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
    ```
 
-レベルは、致命的、エラー、警告、および情報メッセージを収集します。 使用されるフラグは、明示 Ss プロバイダーに対して定義されているもののすべてであり、TF_Connection、TF_Diag、TF_Protocol が含まれています。変数 $LyssProvider を定義した後は、**新しい-CsClsScenario**コマンドレットを使用して、一 ss プロバイダーからトレースを収集することができます。 このプロバイダーの作成と新しいシナリオへの割り当てを完了するには、次のように入力します。
+-Level は、致命的、エラー、警告、および情報メッセージを収集します。 使用されるフラグはすべて、Lyss プロバイダーに対して定義されたフラグで、TF_Connection、TF_Diag、および TF_Protocol が含まれます。変数 $LyssProvider を定義した後 **、New-CsClsScenario** コマンドレットと一緒に使用して、Lyss プロバイダーからトレースを収集できます。 このプロバイダーの作成と新しいシナリオへの割り当てを完了するには、次のように入力します。
 
 ```PowerShell
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 ```
 
 $LyssProvider は、**New-CsClsProvider** で作成された定義済みのシナリオを含む変数です。
-### <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>既存の集中ログサービスシナリオプロバイダーを変更するには
+### <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>既存の集中ログ サービス シナリオ プロバイダーを変更するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
     
 2. 既存のプロバイダーの構成を更新または変更するには、次のように入力します。
     
@@ -143,9 +143,9 @@ $LyssProvider は、**New-CsClsProvider** で作成された定義済みのシ�
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
-コマンドを実行すると、最終的にシナリオ site:Redmond/RedmondLyssInfo のフラグと割り当てられるプロバイダーのレベルが更新されます。Get-CsClsScenario を使用して、新しいシナリオを表示できます。詳細については、「[Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)」を参照してください。
+コマンドを実行すると、最終的にシナリオ site:Redmond/RedmondLyssInfo のフラグと割り当てられるプロバイダーのレベルが更新されます。 Get-CsClsScenario を使用して、新しいシナリオを表示できます。 詳細については、「[Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)」を参照してください。
 > [!CAUTION]
-> **New-ClsCsProvider** は、フラグが有効かどうかを確認しません。 フラグのスペル (TF_DIAG、TF_CONNECTION など) が正しいことを確認してください。 フラグのスペルが正しくない場合、プロバイダーは期待されるログ情報を返すことができません。
+> **New-ClsCsProvider** は、フラグが有効かどうかを確認しません。 フラグのスペル (TF_DIAG や TF_CONNECTION など) が正しいことを確認してください。 フラグのスペルが正しくない場合、プロバイダーは期待されるログ情報を返すことができません。
   
 このシナリオに対してプロバイダーを追加するには、次のように入力します。
 
@@ -156,9 +156,9 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 Add ディレクティブで定義される各プロバイダーは、**New-CsClsProvider** プロセスで既に定義されています。
 ### <a name="to-remove-a-scenario-provider"></a>シナリオ プロバイダーを削除するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
     
-2. 用意されているコマンドレットを使用して、既存のプロバイダーの更新と新しいプロバイダーの作成を実行できます。 プロバイダーを削除するには、**Set-CsClsScenario** に対して Provider パラメーター用の Replace ディレクティブを使用する必要があります。 プロバイダーを完全に削除する唯一の方法は、Update ディレクティブを使用して、削除するプロバイダーを、再定義した同じ名前のプロバイダーに置き換えることです。 たとえば、プロバイダー LyssProvider では、ログの種類として WPP、レベルとして Debug、およびフラグとして TF_CONNECTION と TF_DIAG が定義されています。 フラグを "すべて" に変更する必要があります。 このプロバイダーを変更するには、次のように入力します。
+2. 用意されているコマンドレットを使用して、既存のプロバイダーの更新と新しいプロバイダーの作成を実行できます。 プロバイダーを削除するには、**Set-CsClsScenario** に対して Provider パラメーター用の Replace ディレクティブを使用する必要があります。 プロバイダーを完全に削除する唯一の方法は、Update ディレクティブを使用して、削除するプロバイダーを、再定義した同じ名前のプロバイダーに置き換えることです。 たとえば、プロバイダー LyssProvider は、ログの種類として WPP、レベルとして Debug、およびフラグとして TF_CONNECTION と TF_DIAG が定義されています。 フラグを "All" に変更する必要があります。 このプロバイダーを変更するには、次のように入力します。
     
    ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
@@ -188,10 +188,10 @@ Add ディレクティブで定義される各プロバイダーは、**New-CsCl
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   
-[新しい CsClsScenario シナリオ](https://docs.microsoft.com/powershell/module/skype/new-csclsscenario?view=skype-ps)
+[New-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/new-csclsscenario?view=skype-ps)
   
-[削除-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/remove-csclsscenario?view=skype-ps)
+[Remove-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/remove-csclsscenario?view=skype-ps)
   
 [Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps)
   
-[新規の CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)
+[New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps)

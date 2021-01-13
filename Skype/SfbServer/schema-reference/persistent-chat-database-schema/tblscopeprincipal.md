@@ -1,8 +1,8 @@
 ---
 title: tblScopePrincipal
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-description: tblScopePrincipal には、ノードに割り当てられたスコープが含まれます。
-ms.openlocfilehash: 24a38ef4acf3e0d500c7652f5ca418af585343b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblScopePrincipal には、ノードに割り当てられるスコープが含まれます。
+ms.openlocfilehash: efda792ab6f6c6cc7b188a9dffdaa7c324b24797
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812445"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831517"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  
-tblScopePrincipal には、ノードに割り当てられたスコープが含まれます。
+tblScopePrincipal には、ノードに割り当てられるスコープが含まれます。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|scopeNodeID  <br/> |int (null ではない)  <br/> |スコープが適用されるノード ID。  <br/> |
-|scopePrinID  <br/> |int (null ではない)  <br/> |プリンシパル ID。  <br/> |
-|scopeIsDenied  <br/> |ビット、null ではない  <br/> |スコープの型が拒否された場合は True。許可する場合は False。  <br/> |
-|スコープ  <br/> |int (null ではない)  <br/> |このエントリを最後に更新したプリンシパルの ID です。  <br/> |
+|scopeNodeID  <br/> |NULL でない int  <br/> |範囲の適用先ノード ID。  <br/> |
+|scopePrinID  <br/> |NULL でない int  <br/> |プリンシパル ID。  <br/> |
+|scopeIsDenied  <br/> |NULL でない bit  <br/> |スコープの種類が [拒否] の場合は True、[許可] の場合は False。  <br/> |
+|scopeUpdatedBy  <br/> |NULL でない int  <br/> |このエントリを最後に更新したプリンシパルの ID。  <br/> |
    
-**機能**
+**Keys**
 
 |**列**|**説明**|
 |:-----|:-----|
-|\<scopeNodeID、scopePrinID\>  <br/> |主キー。  <br/> |
-|scopeNodeID  <br/> |TblNode テーブルで参照される外部キー。  <br/> |
-|scopePrinID  <br/> |TblPrincipal Id テーブルで参照される外部キー。  <br/> |
+|\<scopeNodeID, scopePrinID\>  <br/> |主キー。  <br/> |
+|scopeNodeID  <br/> |tblNode.nodeID テーブル内の参照による外部キー。  <br/> |
+|scopePrinID  <br/> |tblPrincipal.prinID テーブル内の参照による外部キー。  <br/> |
    
 

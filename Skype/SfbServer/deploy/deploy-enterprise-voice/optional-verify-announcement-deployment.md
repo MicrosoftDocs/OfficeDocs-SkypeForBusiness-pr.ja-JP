@@ -1,8 +1,8 @@
 ---
-title: 省略Skype for Business でのアナウンスメントの展開を確認する
+title: (省略可能)Skype for Business でのアナウンスの展開の確認
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,21 +12,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
-description: Skype for Business Server Enterprise Voice でのアナウンスメントアプリケーションの展開を確認します。 これは、割り当てられていない番号への通話の処理方法に影響します。
-ms.openlocfilehash: 0c6036635edf2315c3d61e4ec08d2072b5651216
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Skype for Business Server エンタープライズ VoIP でのアナウンス アプリケーションの展開の確認。 これは、割り当てられていない番号への呼び出しの処理方法に影響します。
+ms.openlocfilehash: 0dfa59d83441208c1ef44b80d33f0183995ebecb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767330"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830917"
 ---
-# <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>省略Skype for Business でのアナウンスメントの展開を確認する
+# <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(省略可能)Skype for Business でのアナウンスの展開の確認
  
-Skype for Business Server Enterprise Voice でのアナウンスメントアプリケーションの展開を確認します。 この設定によって、割り当てられていない番号への通話を処理する方法が影響を受けます。
+Skype for Business Server エンタープライズ VoIP でのアナウンス アプリケーションの展開の確認。 これは、割り当てられていない番号への呼び出しの処理方法に影響します。
   
-アナウンスをインストールして構成したら、その構成を確認して割り当てられていない番号への通話が予測どおりに動作することを確かめる必要があります。少なくとも、以下を確認してください。
+アナウンスをインストールして構成したら、その構成を確認して割り当てられていない番号への通話が予測どおりに動作することを確かめる必要があります。 少なくとも、以下を確認してください。
   
-- 組織で有効な未割り当ての番号を呼び出します。
+- 組織で有効なが、割り当てられていない番号を呼び出します。
     
 - 未割り当ての番号にかけて、適切なアナウンスが再生されることを確認します。
     

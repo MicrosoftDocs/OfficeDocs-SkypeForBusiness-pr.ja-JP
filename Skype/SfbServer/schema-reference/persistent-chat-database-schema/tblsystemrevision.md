@@ -1,8 +1,8 @@
 ---
 title: tblSystemRevision
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
-description: tblSystemRevision には、複数の管理者クライアント間で一貫性を確保するために、tblAdminLock テーブルと共に使用されるリビジョン番号が含まれています。
-ms.openlocfilehash: f08c8c98e9e4dd78e394268859032a4fe598b361
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblSystemRevision には、複数の管理者クライアント間で一貫性を保つ目的で tblAdminLock テーブルと一緒に使用されるリビジョン番号が含まれている。
+ms.openlocfilehash: 5bbcf547d6e6f31cc3e9d71415fed6f351c82910
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41811905"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831417"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  
-tblSystemRevision には、複数の管理者クライアント間で一貫性を確保するために、tblAdminLock テーブルと共に使用されるリビジョン番号が含まれています。
+tblSystemRevision には、複数の管理者クライアント間で一貫性を保つ目的で tblAdminLock テーブルと一緒に使用されるリビジョン番号が含まれている。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|sysRevision  <br/> |bigint (null ではない)  <br/> |リビジョン番号。  <br/> |
+|sysRevision  <br/> |NULL でない bigint  <br/> |改訂番号  <br/> |
    
 

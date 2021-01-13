@@ -1,8 +1,8 @@
 ---
 title: 常設チャット サーバー作成スコープ ノード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,28 +14,28 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
-description: トポロジビルダーで常設チャットプールを右クリックして、次の操作を行います。
-ms.openlocfilehash: a83f33056596c6612844783448fd567f42a418e2
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: トポロジ ビルダーで [常設チャット プール] を右クリックして、次の操作を実行します。
+ms.openlocfilehash: 974340d7e852525295cdf03838fc2164e8cacd3c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219498"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833077"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>常設チャット サーバー作成スコープ ノード
  
-トポロジビルダーで **常設チャットプール** を右クリックして、次の操作を行います。
+トポロジ ビルダーで [ **常設チャット プール]** を右クリックして、次の操作を実行します。
   
-- [**新しい常設チャットプール**]: 新しい常設チャットサーバーまたはプールを定義するために使用される**新しい常設チャットプールの定義**ウィザードを起動します。
+- **新しい常設チャット プール**: 新しい常設 **チャット** サーバーまたはプールの定義に使用する新しい常設チャット プールの定義ウィザードを開始します。
     
 新しい常設チャット プール オプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。 このオプションを使用して、新しいトポロジを定義したり、既存のトポロジを開いたり、現在のトポロジをダウンロードしたり、トポロジのコピーを保存したり、トポロジを公開したり、データベースをインストールしたり、以前のバージョンの Lync Server からコンポーネントをマージしたり、展開を削除したりすることができます。
+- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンの Lync Server のコンポーネントの結合、または展開の削除を行います。
     
 - **Help**. このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server 2015 での常設チャットサーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Skype for Business Server 2015 での常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[常設チャットサーバーを Skype for Business Server 2015 トポロジに追加する](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Skype for Business Server 2015 トポロジへの常設チャット サーバーの追加](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

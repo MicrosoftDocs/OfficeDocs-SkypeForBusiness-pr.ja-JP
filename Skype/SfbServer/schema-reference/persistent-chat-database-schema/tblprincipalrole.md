@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalRole
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,34 +12,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
-description: tblPrincipalRole には、ノードに割り当てられている明示的な役割が含まれます。
-ms.openlocfilehash: 1cc606ec3825bb664d4123154e97fabb15678cfd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalRole には、ノードに割り当てられた明示的な役割が含まれます。
+ms.openlocfilehash: 13c9c25db9ba1dbe281947468bbd834e80417899
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813365"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831557"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
-tblPrincipalRole には、ノードに割り当てられている明示的な役割が含まれます。
+tblPrincipalRole には、ノードに割り当てられた明示的な役割が含まれます。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|Prinrolid  <br/> |int (null ではない)  <br/> |役割が適用されるノード ID。  <br/> |
-|prinRolePrinID  <br/> |int (null ではない)  <br/> |プリンシパル ID。  <br/> |
-|prinRoleTypeID  <br/> |int (null ではない)  <br/> |役割の種類の ID (tblRoleType から)。  <br/> |
-|prinroleupdat  <br/> |int (null ではない)  <br/> |このエントリを最後に更新したプリンシパルの ID です。  <br/> |
+|prinRoleNodeID  <br/> |NULL でない int  <br/> |ロールが適用されるノード ID。  <br/> |
+|prinRolePrinID  <br/> |NULL でない int  <br/> |プリンシパル ID。  <br/> |
+|prinRoleTypeID  <br/> |NULL でない int  <br/> |ロールの種類 ID (tblRoleType から)。  <br/> |
+|prinRoleUpdatedBy  <br/> |NULL でない int  <br/> |このエントリを最後に更新したプリンシパルの ID。  <br/> |
    
-**機能**
+**Keys**
 
 |**列**|**説明**|
 |:-----|:-----|
-|\<Prinroldeid、prinRolePrinID、prinRoleTypeID\>  <br/> |主キー。  <br/> |
-|Prinrolid  <br/> |TblNode テーブルで参照される外部キー。  <br/> |
-|prinRolePrinID  <br/> |TblPrincipal Id テーブルで参照される外部キー。  <br/> |
-|prinRoleTypeID  <br/> |TblRoleType の Typeid テーブルで参照される外部キー。  <br/> |
+|\<prinRoleNodeID, prinRolePrinID, prinRoleTypeID\>  <br/> |主キー。  <br/> |
+|prinRoleNodeID  <br/> |tblNode.nodeID テーブル内の参照による外部キー。  <br/> |
+|prinRolePrinID  <br/> |tblPrincipal.prinID テーブル内の参照による外部キー。  <br/> |
+|prinRoleTypeID  <br/> |tblRoleType.rtypeID テーブルを参照する外部キー。  <br/> |
    
 

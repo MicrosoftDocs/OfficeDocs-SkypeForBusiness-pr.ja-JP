@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server の権限付与によって行われた変更
+title: Skype for Business Server Grant-CsOUPermissionによって行われた変更
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,90 +12,90 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
-description: Skype for Business Server の管理を委任するために、フォレストの準備で作成された RTC ユニバーサルグループのメンバーが、Domain Admins グループのメンバーにならずに Ou にアクセスできるように、指定された組織単位 (Ou) にアクセス許可を追加できます。
-ms.openlocfilehash: 8342d1801d2df91f940f02e8bfc05c3c5b91c4ff
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server の管理を委任するには、フォレストの準備によって作成された RTC ユニバーサル グループのメンバーが Domain Admins グループのメンバーでなくても、その US にアクセスできるよう、指定した組織単位 (US) にアクセス許可を追加できます。
+ms.openlocfilehash: 09a6d6baf554b18db0a388619ffb74c85c6963fd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815525"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831847"
 ---
-# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Skype for Business Server の権限付与によって行われた変更
+# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Skype for Business Server Grant-CsOUPermissionによって行われた変更
  
-Skype for Business Server の管理を委任するために、フォレストの準備で作成された RTC ユニバーサルグループのメンバーが、Domain Admins グループのメンバーにならずに Ou にアクセスできるように、指定された組織単位 (Ou) にアクセス許可を追加できます。 
+Skype for Business Server の管理を委任するには、フォレストの準備によって作成された RTC ユニバーサル グループのメンバーが Domain Admins グループのメンバーでなくても、その US にアクセスできるよう、指定した組織単位 (US) にアクセス許可を追加できます。 
   
-**Grant-CsOuPermission**コマンドレットは、次の表に示すように、指定した OU 内のオブジェクトへのアクセス許可を付与します。
+**Grant-CsOuPermission** コマンドレットは、次の表で指定されているように、指定された OU 内のオブジェクトへのアクセス許可を付与します。
   
-## <a name="granting-permission-for-user-objects"></a>ユーザーオブジェクトのアクセス許可の付与
+## <a name="granting-permission-for-user-objects"></a>ユーザー オブジェクトに対するアクセス許可の付与
 
-OU 上のユーザーオブジェクトに対して**Grant-CsOuPermission**コマンドレットを実行すると、次の表に示すように、グループにアクセス許可が付与されます。
+OU 上のユーザー オブジェクトに対して **Grant-CsOuPermission** コマンドレットを実行すると、次の表で示すように、グループにアクセス許可が付与されます。
   
-**ユーザーオブジェクトに付与される権限**
+**ユーザー オブジェクトに対して付与されるアクセス許可**
 
-|**化**|**アクセス許可**|**適用対象**|
+|**グループ**|**アクセス許可**|**適用対象**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |ディレクトリの変更の複製  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |RTCUserSearchPropertySet を読む  <br/> RTCUserProvisioningPropertySet を読む  <br/> RTCPropertySet を読む  <br/> 公開-情報を読む  <br/> 一般的な情報を読む-情報  <br/> ユーザーアカウントの制限を読む  <br/> |子孫のユーザーオブジェクト  <br/> |
-|RTCUniversalUserAdmins  <br/> |RTCUserSearchPropertySet の書き込み  <br/> MsExchUCVoiceMailSettings の書き込み  <br/> RTCUserProvisioningPropertySet の書き込み  <br/> RTCPropertySet の書き込み  <br/> ProxyAddresses の書き込み  <br/> |子孫のユーザーオブジェクト  <br/> |
+|RTCHSUniversalServices  <br/> |ディレクトリ変更のレプリケート  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |RTCUserSearchPropertySet の読み取り  <br/> RTCUserProvisioningPropertySet の読み取り  <br/> RTCPropertySet の読み取り  <br/> Public-Information の読み取り  <br/> General-Information の読み取り  <br/> User-Account-Restrictions の読み取り  <br/> |子ユーザー オブジェクト  <br/> |
+|RTCUniversalUserAdmins  <br/> |RTCUserSearchPropertySet の書き込み  <br/> msExchUCVoiceMailSettings の書き込み  <br/> RTCUserProvisioningPropertySet の書き込み  <br/> RTCPropertySet の書き込み  <br/> proxyAddresses の書き込み  <br/> |子ユーザー オブジェクト  <br/> |
    
-## <a name="granting-permission-for-computer-objects"></a>コンピューターオブジェクトへのアクセス許可の付与
+## <a name="granting-permission-for-computer-objects"></a>コンピューター オブジェクトに対するアクセス許可の付与
 
-OU 上のコンピューターオブジェクトに対して**Grant-CsOuPermission**コマンドレットを実行すると、次の表に示すように、グループにアクセス許可が付与されます。
+OU 上のコンピューター オブジェクトに対して **Grant-CsOuPermission** コマンドレットを実行すると、次の表で示すように、グループにアクセス許可が付与されます。
   
-**コンピューターオブジェクトに付与される権限**
+**コンピューター オブジェクトに対して付与されるアクセス許可**
 
-|**化**|**アクセス許可**|**適用対象**|
+|**グループ**|**アクセス許可**|**適用対象**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |ディレクトリの変更の複製  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |公開-情報を読む  <br/> 読み取り済みの DNS ホスト名  <br/> |子コンピューターオブジェクト  <br/> |
-|RTCUniversalUserAdmins  <br/> |公開-情報を読む  <br/> 読み取り済みの DNS ホスト名  <br/> |子コンピューターオブジェクト  <br/> |
+|RTCHSUniversalServices  <br/> |ディレクトリ変更のレプリケート  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |Public-Information の読み取り  <br/> Validated-DNS-Host-Name の読み取り  <br/> |子のコンピューター オブジェクト  <br/> |
+|RTCUniversalUserAdmins  <br/> |Public-Information の読み取り  <br/> Validated-DNS-Host-Name の読み取り  <br/> |子のコンピューター オブジェクト  <br/> |
    
-## <a name="granting-permission-for-contact-or-appcontact-objects"></a>Contact オブジェクトまたは AppContact オブジェクトのアクセス許可を付与する
+## <a name="granting-permission-for-contact-or-appcontact-objects"></a>連絡先または AppContact オブジェクトに対するアクセス許可の付与
 
-組織内の連絡先オブジェクトまたは AppContact オブジェクトに対して**Grant-CsOuPermission**コマンドレットを実行すると、次の表に示すように、グループにアクセス許可が付与されます。
+OU 上の連絡先オブジェクトまたは AppContact オブジェクトに対して **Grant-CsOuPermission** コマンドレットを実行すると、次の表で示すように、グループにアクセス許可が付与されます。
   
-**Contact オブジェクトまたは AppContact オブジェクトに付与されているアクセス許可**
+**連絡先または AppContact オブジェクトに対して付与されるアクセス許可**
 
-|**化**|**アクセス許可**|**適用対象**|
+|**グループ**|**アクセス許可**|**適用対象**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |ディレクトリの変更の複製  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |RTCUserSearchPropertySet を読む  <br/> RTCUserProvisioningPropertySet を読む  <br/> RTCPropertySet を読む  <br/> 公開-情報を読む  <br/> 一般的な情報を読む-情報  <br/> 個人情報を読む  <br/> ユーザーアカウントの制限を読む  <br/> |子孫の連絡先オブジェクト  <br/> |
-|RTCUniversalUserAdmins  <br/> |RTCUserSearchPropertySet の書き込み  <br/> 他の Ip電話を書く  <br/> DisplayName を書く  <br/> 説明の書き込み  <br/> TelephoneNumber の書き込み  <br/> MsExchUCVoiceMailSettings の書き込み  <br/> RTCUserProvisioningPropertySet の書き込み  <br/> RTCPropertySet の書き込み  <br/> ProxyAddresses の書き込み  <br/> |子孫の連絡先オブジェクト  <br/> |
+|RTCHSUniversalServices  <br/> |ディレクトリ変更のレプリケート  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |RTCUserSearchPropertySet の読み取り  <br/> RTCUserProvisioningPropertySet の読み取り  <br/> RTCPropertySet の読み取り  <br/> Public-Information の読み取り  <br/> General-Information の読み取り  <br/> Personal-Information の読み取り  <br/> User-Account-Restrictions の読み取り  <br/> |子連絡先オブジェクト  <br/> |
+|RTCUniversalUserAdmins  <br/> |RTCUserSearchPropertySet の書き込み  <br/> otherIpPhone の書き込み  <br/> displayName の書き込み  <br/> description の書き込み  <br/> telephoneNumber の書き込み  <br/> msExchUCVoiceMailSettings の書き込み  <br/> RTCUserProvisioningPropertySet の書き込み  <br/> RTCPropertySet の書き込み  <br/> proxyAddresses の書き込み  <br/> |子連絡先オブジェクト  <br/> |
    
-## <a name="granting-permission-for-device-objects"></a>デバイスオブジェクトのアクセス許可の付与
+## <a name="granting-permission-for-device-objects"></a>デバイス オブジェクトに対するアクセス許可の付与
 
-OU 上のデバイスオブジェクトに対して**Grant-CsOuPermission**コマンドレットを実行すると、次の表に示すように、グループにアクセス許可が付与されます。
+OU 上のデバイス オブジェクトに対して **Grant-CsOuPermission** コマンドレットを実行すると、次の表で示すように、グループにアクセス許可が付与されます。
   
-**デバイスオブジェクトに付与されるアクセス許可**
+**デバイス オブジェクトに対して付与されるアクセス許可**
 
-|**化**|**アクセス許可**|**適用対象**|
+|**グループ**|**アクセス許可**|**適用対象**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |ディレクトリの変更の複製  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |RTCUserSearchPropertySet を読む  <br/> RTCUserProvisioningPropertySet を読む  <br/> RTCPropertySet を読む  <br/> 公開-情報を読む  <br/> 個人情報を読む  <br/> 一般的な情報を読む-情報  <br/> ユーザーアカウントの制限を読む  <br/> |子孫の連絡先オブジェクト  <br/> |
-|RTCUniversalUserAdmins  <br/> |子の作成  <br/> 子の削除  <br/> ツリーの削除  <br/> |問い合わせ  <br/> |
-|RTCUniversalUserAdmins  <br/> |DisplayName を書く  <br/> 説明の書き込み  <br/> TelephoneNumber の書き込み  <br/> |子孫のユーザーオブジェクト  <br/> |
-|RTCUniversalUserAdmins  <br/> |RTCUserSearchPropertySet の書き込み  <br/> 他の Ip電話を書く  <br/> DisplayName を書く  <br/> 説明の書き込み  <br/> TelephoneNumber の書き込み  <br/> MsExchUCVoiceMailSettings の書き込み  <br/> RTCUserProvisioningPropertySet の書き込み  <br/> RTCPropertySet の書き込み  <br/> ProxyAddresses の書き込み  <br/> |子孫の連絡先オブジェクト  <br/> |
+|RTCHSUniversalServices  <br/> |ディレクトリ変更のレプリケート  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |RTCUserSearchPropertySet の読み取り  <br/> RTCUserProvisioningPropertySet の読み取り  <br/> RTCPropertySet の読み取り  <br/> Public-Information の読み取り  <br/> Personal-Information の読み取り  <br/> General-Information の読み取り  <br/> User-Account-Restrictions の読み取り  <br/> |子連絡先オブジェクト  <br/> |
+|RTCUniversalUserAdmins  <br/> |子の作成  <br/> 子の削除  <br/> ツリーの削除  <br/> |Contact  <br/> |
+|RTCUniversalUserAdmins  <br/> |displayName の書き込み  <br/> description の書き込み  <br/> telephoneNumber の書き込み  <br/> |子ユーザー オブジェクト  <br/> |
+|RTCUniversalUserAdmins  <br/> |RTCUserSearchPropertySet の書き込み  <br/> otherIpPhone の書き込み  <br/> displayName の書き込み  <br/> description の書き込み  <br/> telephoneNumber の書き込み  <br/> msExchUCVoiceMailSettings の書き込み  <br/> RTCUserProvisioningPropertySet の書き込み  <br/> RTCPropertySet の書き込み  <br/> proxyAddresses の書き込み  <br/> |子連絡先オブジェクト  <br/> |
    
-## <a name="granting-permission-for-inetorgperson-objects"></a>InetOrgPerson オブジェクトのアクセス許可を付与する
+## <a name="granting-permission-for-inetorgperson-objects"></a>InetOrgPerson オブジェクトに対するアクセス許可の付与
 
-OU 上の InetOrgPerson オブジェクトに対して**Grant-CsOuPermission**コマンドレットを実行すると、次の表に示すように、グループにアクセス許可が付与されます。
+OU 上の InetOrgPerson オブジェクトに対して **Grant-CsOuPermission** コマンドレットを実行すると、次の表で示すように、グループにアクセス許可が付与されます。
   
 **InetOrgPerson オブジェクトに対して付与されるアクセス許可**
 
-|**化**|**アクセス許可**|**適用対象**|
+|**グループ**|**アクセス許可**|**適用対象**|
 |:-----|:-----|:-----|
-|RTCHSUniversalServices  <br/> |ディレクトリの変更の複製  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |リストの内容  <br/> すべてのプロパティを読み上げる  <br/> 読み取りアクセス許可  <br/> |このオブジェクトのみ  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |RTCUserSearchPropertySet を読む  <br/> RTCUserProvisioningPropertySet を読む  <br/> RTCPropertySet を読む  <br/> 個人情報を読む  <br/> 公開-情報を読む  <br/> 一般的な情報を読む-情報  <br/> ユーザーアカウントの制限を読む  <br/> |子の inetOrgPerson オブジェクト  <br/> |
-|RTCUniversalUserAdmins  <br/> |RTCUserSearchPropertySet の書き込み  <br/> RTCUserProvisioningPropertySet の書き込み  <br/> RTCPropertySet の書き込み  <br/> ProxyAddresses の書き込み  <br/> |子の inetOrgPerson オブジェクト  <br/> |
+|RTCHSUniversalServices  <br/> |ディレクトリ変更のレプリケート  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |内容の一覧表示  <br/> すべてのプロパティの読み取り  <br/> アクセス許可の読み取り  <br/> |このオブジェクトのみ  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |RTCUserSearchPropertySet の読み取り  <br/> RTCUserProvisioningPropertySet の読み取り  <br/> RTCPropertySet の読み取り  <br/> Personal-Information の読み取り  <br/> Public-Information の読み取り  <br/> General-Information の読み取り  <br/> User-Account-Restrictions の読み取り  <br/> |子 inetOrgPerson オブジェクト  <br/> |
+|RTCUniversalUserAdmins  <br/> |RTCUserSearchPropertySet の書き込み  <br/> RTCUserProvisioningPropertySet の書き込み  <br/> RTCPropertySet の書き込み  <br/> proxyAddresses の書き込み  <br/> |子 inetOrgPerson オブジェクト  <br/> |
    
 

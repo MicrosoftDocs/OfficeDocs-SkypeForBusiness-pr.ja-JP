@@ -1,8 +1,8 @@
 ---
 title: ローカル構成ストアのインストール
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
-description: 新しい Skype for Business Server の役割サーバーのインストールを開始するには、まず、ローカル構成ストアをホストするローカル SQL Server をインストールする必要があります。 ローカル構成ストアは、Skype for Business Server Central Management store (CMS) の読み取り専用レプリカとして機能します。
-ms.openlocfilehash: 365529c3c9cb15ea50cd6a482bd2a69143daa219
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 新しい Skype for Business Server 役割サーバーのインストールを開始するには、まず、ローカル構成ストアをホストするローカル SQL Serverをインストールする必要があります。 ローカル構成ストアは、Skype for Business Server Central Management Store (CMS) の読み取り専用レプリカとして機能します。
+ms.openlocfilehash: dcaf00e0bd14daecb6d2859bf40463265a3d6bc6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794796"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833807"
 ---
 # <a name="install-local-configuration-store"></a>ローカル構成ストアのインストール
 
-新しい Skype for Business Server の役割サーバーのインストールを開始するには、まず、ローカル構成ストアをホストするローカル SQL Server をインストールする必要があります。 ローカル構成ストアは、Skype for Business Server Central Management store (CMS) の読み取り専用レプリカとして機能します。 [**ローカル構成ストアのインストール**] 手順を実行しているサーバーに、そのコンピューターのローカル管理者としてログオンすると共に、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーシップを持っている必要があります。 エッジ サーバーでセットアップを実行する場合は、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーでなくても構いません。 トポロジビルダー定義ドキュメントは、中央管理ストアからではなく、エクスポートされた定義ドキュメントから読み取ります。 トポロジビルダーの定義ドキュメントをエクスポートして、エッジサーバーで利用できるようにするには、「[トポロジをエクスポートして、edge のインストール用に外部メディアにコピー](https://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx)する」のトピックを参照してください。
+新しい Skype for Business Server 役割サーバーのインストールを開始するには、まず、ローカル構成ストアをホストするローカル SQL Serverをインストールする必要があります。 ローカル構成ストアは、Skype for Business Server Central Management Store (CMS) の読み取り専用レプリカとして機能します。 **[ローカル構成ストアのインストール]** 手順を実行しているサーバーに、そのコンピューターのローカル管理者としてログオンするとともに、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーシップを持っている必要があります。 エッジ サーバーでセットアップを実行する場合は、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーでなくても構いません。 トポロジ ビルダー定義ドキュメントは、中央管理ストアからではなく、エクスポートされた定義ドキュメントから読み取されます。 トポロジ ビルダー定義ドキュメントをエクスポートしてエッジ サーバーで使用するには、トピック「トポロジのエクスポートとエッジ インストール用の外部メディアへのコピー」を[参照してください](https://technet.microsoft.com/library/def9f416-c519-4a72-b242-7d3057d9c1fd.aspx)。
 
 インストールを開始するには、以下の操作を行います。
 
-1. [Skype for Business Server] ページで、[**ステップ 2: ローカル構成ストアをインストール**します] の横にある [**実行**] をクリックします。
+1. On the Skype for Business Server page, next to **Step1: Install Local Configuration Store,** click **Run**.
 
 2. [**ローカル サーバー構成**] ページで、[**中央管理ストアから直接取得する**] オプションがオンになっていることを確認し、[**次へ**] をクリックします。
 
 3. ローカル サーバー構成のインストールが完了したら、[**完了**] をクリックします。
 
 > [!NOTE]
-> ローカル SQL Server のインストールには時間がかかることがあります。 SQL Server がインストールされている間、インストールの概要画面の [更新の進行状況] は表示されません。 インストールの進行状況を監視する場合は、タスクマネージャーを使って SQL Server のセットアップを確認します。
+> ローカル アプリケーションのインストールにはSQL Server時間がかかる場合があります。 インストール中は、インストールの概要画面に更新プログラムSQL Server表示されません。 インストールの進行状況を監視する場合は、タスク マネージャーを使用してセットアップのSQL Serverします。
 
 

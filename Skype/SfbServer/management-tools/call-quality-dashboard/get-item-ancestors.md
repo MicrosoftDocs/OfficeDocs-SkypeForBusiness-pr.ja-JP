@@ -1,8 +1,8 @@
 ---
 title: アイテムの親の取得
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,42 +12,42 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: '概要: 項目サービスの一部である "項目の親の取得" 操作について説明します。 項目サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 7beaffbb670f664ec7181482dbceb120a8b7d9e8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: アイテム サービスの一部であるアイテムの先祖の取得操作について学習します。 アイテム サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
+ms.openlocfilehash: 59fcd10f620b32151346e8732e67ae6151a258ff
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816806"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832577"
 ---
 # <a name="get-item-ancestors"></a>アイテムの親の取得
  
-**概要:** 項目サービスの一部である、項目の親の取得操作について説明します。 項目サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。
+**概要:** アイテム サービスの一部であるアイテムの先祖の取得操作について学習します。 アイテム サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
   
-"項目の先祖の取得" 操作は、"通話品質ダッシュボード用リポジトリ API" の項目サービスの一部です。
+アイテムの先祖の取得操作は、呼び出し品質ダッシュボードのリポジトリ API のアイテム サービスの一部です。
   
 ## <a name="get-item-ancestors"></a>アイテムの親の取得
 
-項目の先祖を取得すると、リポジトリから特定の項目の先祖が返されます。
+アイテムの先祖を取得すると、リポジトリから特定のアイテムの先祖が返されます。
   
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|取得  <br/> |https://\<ポータル\>の/QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
    
- **URI パラメーター** -なし。
+ **URI パラメーター** - なし。
   
- **ヘッダーを要求**する-追加のヘッダーは不要です。
+ **要求ヘッダー** - 追加のヘッダーはありません。
   
- **要求本文**-なし。
+ **要求本文** - なし。
   
- **応答**-応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
+ **応答** - 応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
   
- **状態コード**-正常に動作している操作は、状態コード 200 (OK) を返します。 指定したユーザー ID が見つからない場合は、状態コード 404 (見つかりません) が返されます。
+ **状態コード** - 正常な操作では、状態コード 200 (OK) が返されます。 指定されたユーザー ID が見つからない場合は、状態コード 404 (Not Found) が返されます。
   
- **応答ヘッダー** -ヘッダーは追加されません。
+ **応答ヘッダー** - 追加のヘッダーはありません。
   
- **応答本文**-以下は JSON のサンプル応答ペイロードです。
+ **応答本文** - JSON の応答ペイロードのサンプルを次に示します。
   
 ```json
 [{
@@ -62,10 +62,10 @@ ms.locfileid: "41816806"
 }]
 ```
 
- *アイテム 1,* -アイテムの ID です。
+ *Item1*  - アイテムの ID。
   
- *アイテム 2*は、項目からの距離です。 0は、直接の親です。
+ *Item2*  - 深度はアイテムからの距離です。 0 は直接の親です。
   
- *Item3* -項目のタイトル。
+ *Item3*  - アイテムのタイトル。
   
 

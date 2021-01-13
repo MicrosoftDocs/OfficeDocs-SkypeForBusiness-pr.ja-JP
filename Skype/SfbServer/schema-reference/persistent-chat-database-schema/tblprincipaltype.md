@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalType
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,45 +12,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
-description: tblPrincipalType には、tblPrincipal テーブルの内容を分類するためのプリンシパルの種類が含まれています。
-ms.openlocfilehash: 1aacfdf34689bebc2c7e012c926731ae1f4a8349
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類するプリンシパル型が含まれます。
+ms.openlocfilehash: 110818db0fb3c742491adfeed23362a2bcbebab2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812935"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831537"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
-tblPrincipalType には、tblPrincipal テーブルの内容を分類するためのプリンシパルの種類が含まれています。
+tblPrincipal テーブルには、tblPrincipal テーブルの内容を分類するプリンシパル型が含まれます。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|ptypeID  <br/> |smallint (null ではない)  <br/> |プリンシパルの種類 ID。  <br/> |
-|ptypeDesc  <br/> |nvarchar (256)、null ではない  <br/> |型の説明。  <br/> |
-|ptypeIsSystemUser 場合  <br/> |ビット、null ではない  <br/> |内部目的で使用されるプリンシパルに対応する型の場合は True です。  <br/> |
-|ptypeIsUser  <br/> |ビット、null ではない  <br/> |型がユーザーの型である場合は True です。  <br/> |
+|ptypeID  <br/> |NULL でない smallint  <br/> |プリンシパル型 ID。  <br/> |
+|ptypeDesc  <br/> |NULL でない nvarchar (256)  <br/> |型の説明。  <br/> |
+|ptypeIsSystemUser  <br/> |NULL でない bit  <br/> |型が内部の用途で使用されるプリンシパルに対応する場合、True。  <br/> |
+|ptypeIsUser  <br/> |NULL でない bit  <br/> |型がユーザー型の場合、True。  <br/> |
    
-**Key**
+**キー**
 
 |**列**|**説明**|
 |:-----|:-----|
 |ptypeID  <br/> |主キー。  <br/> |
    
-**プリンシパルの値**
+**プリンシパル値**
 
-|**ID**|**役割**|**説明**|**User**|
+|**ID**|**ロール**|**説明**|**ユーザー**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |任意  <br/> |既知の型のない汎用プリンシパル。 TblPrincipal テーブルでは使用されません。  <br/> ||
-|両面  <br/> |任意のユーザー  <br/> |ユーザーの種類の汎用プリンシパル。 TblPrincipal テーブルでは使用されません。  <br/> |はい  <br/> |
-|3  <br/> |AnyGroup  <br/> |グループの意味を持つ汎用プリンシパル。 TblPrincipal テーブルでは使用されません。  <br/> ||
-|4  <br/> |他のお互い  <br/> |常設チャットサーバーで内部的に使用されているプリンシパル。  <br/> ||
-|5  <br/> |ユーザー  <br/> |標準ユーザー。  <br/> |はい  <br/> |
-|個  <br/> |修飾  <br/> |Active Directory ドメインサービスのドメインコントローラー。  <br/> ||
-|ファイブ  <br/> |化  <br/> |Active Directory セキュリティグループ。  <br/> ||
-|常用  <br/> |]  <br/> |Active Directory コンテナーまたは組織単位。  <br/> ||
+|1   <br/> |任意  <br/> |既知の型を持たない汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。  <br/> ||
+|2   <br/> |AnyUser  <br/> |ユーザー型の汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。  <br/> |はい  <br/> |
+|3   <br/> |AnyGroup  <br/> |グループ セマンティックを持つ汎用的なプリンシパル。tblPrincipal テーブルでは使用されません。  <br/> ||
+|4   <br/> |SystemUser  <br/> |常設チャット サーバーによって内部的に使用されるプリンシパル。  <br/> ||
+|5   <br/> |User  <br/> |標準のユーザー  <br/> |はい  <br/> |
+|8   <br/> |DC  <br/> |Active Directory ドメイン サービス ドメイン コントローラー。  <br/> ||
+|9   <br/> |Group  <br/> |Active Directory セキュリティ グループ。  <br/> ||
+|10   <br/> |フォルダー  <br/> |Active Directory コンテナーまたは組織単位。  <br/> ||
    
 ## <a name="see-also"></a>関連項目
 

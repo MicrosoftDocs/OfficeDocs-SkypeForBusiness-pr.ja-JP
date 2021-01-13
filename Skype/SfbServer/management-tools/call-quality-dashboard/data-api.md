@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server の通話品質ダッシュボード (CQD) のデータ API
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,45 +12,45 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: '概要: 通話品質ダッシュボードのデータ API について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: b8ff4823fad320ae57b8f06104afbb354c09b4eb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: '概要: 通話品質ダッシュボードのデータ API について説明します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
+ms.openlocfilehash: 367aa1bf1103863fff37fbcd4f8d9fa379de7c1d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888436"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832697"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボード (CQD) のデータ API
  
-**概要:** 通話品質ダッシュボードのデータ API について説明します。 通話品質ダッシュボードは、Skype for Business Server のツールです。
+**概要:** 通話品質ダッシュボードのデータ API について説明します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
   
 データ API は、Skype for Business Server の通話品質ダッシュボードへのプログラムによるアクセスを提供します。
   
 ## <a name="data-api-for-call-quality-dashboard"></a>通話品質ダッシュボードのデータ API
 
-データ API には、QoE キューブへのクエリインターフェイスが用意されています。 データ API は、指定したサイズとフィルターに基づいて、集計された QoE メトリックを提供する多次元データベースを操作するための REST API です。
+データ API は、QoE キューブへのクエリ インターフェイスを提供します。 データ API は、指定されたディメンションとフィルターに基づいて集計 QoE 指標を提供する、多次元データベースを操作する REST API です。
   
-REST 操作は、次の表に記載されています。
+REST 操作を次の表に示します。
   
 
 |**操作**|**説明**|
 |:-----|:-----|
-|[キューブの取得](get-cube.md) <br/> |使用可能な寸法と測定値の一覧を取得します。  <br/> |
-|[ディメンションのメンバーの取得](get-dimension-members.md) <br/> |ディメンションメンバーの取得操作特定のディメンションのメンバーの一覧を返します。 また、メンバーリストをフィルター処理して、送金料金を削減することができます。  <br/> |
-|[クエリの実行](run-query.md) <br/> |クエリの実行操作指定したサイズ、測定値、フィルターに基づいてキューブに対してクエリを実行し、データを戻すことができるようにします。  <br/> |
-|[キャッシュのクリア](clear-cache.md) <br/> |[キャッシュの消去] 操作は、クエリとデータのためにサーバー上のキャッシュを削除します。 これによりキャッシュがリセットされ、新しい要求があった場合は QoE キューブから最新のデータが取得されます。  <br/> |
-|[統合ログの取得](get-integration-log.md) <br/> |統合ログの取得操作 QoE キューブ処理のアクティビティを説明するログエントリの一覧を返します。  <br/> |
-|[直近の統合データの取得](get-last-integration-data.md) <br/> |キューブから最新の統合データを取得します。  <br/> |
+|[キューブの取得](get-cube.md) <br/> |使用可能なディメンションと測定値の一覧を取得します。  <br/> |
+|[ディメンションのメンバーの取得](get-dimension-members.md) <br/> |ディメンション メンバーの取得操作は、特定のディメンションのメンバーのリストを返します。 また、メンバー リストをフィルター処理してサブセットを取得し、電信送金コストを削減する機能も提供します。  <br/> |
+|[クエリの実行](run-query.md) <br/> |クエリの実行操作では、指定したディメンション、測定値、およびフィルターに基づいてキューブに対してクエリを実行し、データを返す機能が提供されます。  <br/> |
+|[キャッシュのクリア](clear-cache.md) <br/> |キャッシュをクリア操作すると、クエリとデータのサーバー上のキャッシュが削除されます。 これによりキャッシュがリセットされ、後で新しい要求の QoE キューブから新しいデータが取得されます。  <br/> |
+|[統合ログの取得](get-integration-log.md) <br/> |統合ログの取得操作は、QoE キューブ処理のアクティビティを記述するログ エントリのリストを返します。  <br/> |
+|[直近の統合データの取得](get-last-integration-data.md) <br/> |キューブから最後の統合データを取得します。  <br/> |
    
- **データ API のクロスオリジンリソース共有 (CORS) のサポート**
+ **データ API のクロスオリジン リソース共有 (CORS) のサポート**
   
-データ API は、クロスオリジンリソース共有 (CORS) をサポートします。 CORS は、あるドメインで実行されている web アプリケーションが別のドメインのリソースにアクセスできるようにするための HTTP 機能です。 Web ブラウザーでは、web ページが別のドメインの Api を呼び出すことを防ぐ、同じ元のポリシーと同じ元の[ポリシー](https://www.w3.org/Security/wiki/Same_Origin_Policy)と呼ばれるセキュリティ制限が実装されています。 CORS は、1つのドメイン (元のドメイン) が別のドメインの Api を呼び出すことを許可する安全な方法を提供します。 CORS の詳細については、「 [cors の仕様](https://www.w3.org/TR/cors/)」を参照してください。
+データ API はクロスオリジン リソース共有 (CORS) をサポートしています。 CORS は、あるドメインで実行されている Web アプリケーションが別のドメインのリソースにアクセスできる HTTP 機能です。 Web ブラウザーは [、Same-Origin Policy の同](https://www.w3.org/Security/wiki/Same_Origin_Policy) 一発生元ポリシーと呼ばれるセキュリティ制限を実装します。このポリシーにより、Web ページが別のドメイン内の API を呼び出すのを防止できます。 CORS は、1 つのドメイン (元のドメイン) が別のドメインの API を呼び出すのを許可する安全な方法を提供します。 [CORS の詳細については、CORS](https://www.w3.org/TR/cors/)の仕様を参照してください。
   
- **データ API に対して CORS を有効にする**
+ **データ API に対する CORS の有効化**
   
- 次に示すのは、corsTrustedOrigin アプリケーションの設定で一覧表示されている2つのドメインを示すデータ API web.config の抜粋です。 これらのサーバーから読み込まれたスクリプトによって行われたすべての要求は、データ API によって信頼されます。
+ 以下は、corsTrustedOrigin アプリケーション設定に一覧表示されている 2 つのドメインweb.configデータ API アプリケーションの抜粋です。 これらのサーバーから読み込まれたスクリプトによって行われたすべての要求は、データ API によって信頼されます。
   
-正確なプロトコル、ホスト名、ポート (存在する場合) を必ず含めてください。 末尾にスラッシュ文字 (/) を入力しないでください。 複数のエントリを指定するには、コンマで区切ります。
+正確なプロトコル、ホスト名、およびポート (ポートがある場合) を含める必要があります。 末尾にスラッシュ (/) を入れ込む必要があります。 コンマで区切って、複数のエントリを指定できます。
   
 ```xml
 <configuration>

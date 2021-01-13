@@ -1,8 +1,8 @@
 ---
-title: オプションSkype for Business での応答グループの展開の確認
+title: (省略可能)Skype for Business での応答グループの展開の確認
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-description: Skype for Business Server Enterprise Voice で、応答グループの展開が成功したことを確認します。
-ms.openlocfilehash: 55faa68531d9e82cafc4ecbb25354343355dfe3f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Skype for Business Server エンタープライズ VoIP で、応答グループの展開が成功エンタープライズ VoIP。
+ms.openlocfilehash: e593b46d260e8cabb8a4cbb311a7a79852a93c18
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028908"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830887"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>オプションSkype for Business での応答グループの展開の確認
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(省略可能)Skype for Business での応答グループの展開の確認
  
-Skype for Business Server Enterprise Voice で、応答グループの展開が成功したことを確認します。
+Skype for Business Server エンタープライズ VoIP で、応答グループの展開が成功エンタープライズ VoIP。
   
-応答グループを構成した後、応答グループが想定どおりに機能するように構成を検証する必要があります。 少なくとも、次の種類のユーザーを使用して以下のシナリオを検証してください。
+応答グループを構成した後、構成を確認して、応答グループが期待通り動作する必要があります。 少なくとも、次の種類のユーザーを使用して以下のシナリオを検証してください。
   
  **Users**
   
-- Skype for Business に所属しているユーザー
+- Skype for Business にホームを持つユーザー
     
 - 公衆交換電話網 (PSTN) を使用する外部ユーザー
     
-- Skype for Business に所属しているエージェント
+- Skype for Business にホームを持つエージェント
     
   **Scenarios**
   
@@ -43,6 +43,6 @@ Skype for Business Server Enterprise Voice で、応答グループの展開が�
 - エージェントが別の通話に応答しているときにユーザーが応答グループを呼び出し、キューに入る。
 
     > [!NOTE]
-    > 応答グループが予想どおりに機能しない場合は、次のリンクを確認してください。https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
+    > 応答グループが期待通り動作しない場合は、次のリンクを確認してください。 https://support.office.com/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

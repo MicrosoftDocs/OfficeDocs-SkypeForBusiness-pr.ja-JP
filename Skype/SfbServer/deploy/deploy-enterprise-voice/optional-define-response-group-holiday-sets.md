@@ -1,8 +1,8 @@
 ---
-title: 省略Skype for Business で応答グループの休日セットを定義する
+title: (省略可能)Skype for Business での応答グループ休日セットの定義
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Skype for Business Server Enterprise Voice で回答グループの休日セットを作成または変更します。
-ms.openlocfilehash: 5d38814a8e4e9e50634b6d63b1db4c8230c496ea
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Skype for Business Server エンタープライズ VoIP で応答グループ休日セットを作成または変更します。
+ms.openlocfilehash: dd3144c687329f82542d5b658c47212dd390c9fb
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767320"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830987"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>省略Skype for Business で応答グループの休日セットを定義する
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(省略可能)Skype for Business での応答グループ休日セットの定義
  
-Skype for Business Server Enterprise Voice で回答グループの休日セットを作成または変更します。
+Skype for Business Server エンタープライズ VoIP で応答グループ休日セットを作成または変更します。
   
 休日設定では、応答グループが営業しない日を定義し、その日に実行するアクションを指定します。休日セットは、応答グループに適用する休日のコレクションです。
   
@@ -33,15 +33,15 @@ Skype for Business Server Enterprise Voice で回答グループの休日セッ�
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
     
-3. 定義する休日ごとに、次のコマンドを実行します。
+3. 定義する休日ごとに、以下を実行します。
     
    ```powershell
    $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
    ```
 
-    定義した休日を含める休日セットを作成するには、次のコマンドを実行します。
+    定義した休日を含める休日セットを作成するには、以下を実行します。
     
    ```powershell
    New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
@@ -57,7 +57,7 @@ Skype for Business Server Enterprise Voice で回答グループの休日セッ�
 
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business での応答グループワークフローの設計と作成](designing-and-creating-response-group-workflows.md)
+[Skype for Business での応答グループ ワークフローの設計と作成](designing-and-creating-response-group-workflows.md)
 
 [New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

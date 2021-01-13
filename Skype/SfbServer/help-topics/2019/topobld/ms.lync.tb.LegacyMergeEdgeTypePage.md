@@ -1,8 +1,8 @@
 ---
 title: '従来版のマージ: エッジの種類'
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 1つのエッジサーバーまたは負荷分散の統合エッジサーバーの場合は、[次へ] をクリックして構成情報を指定します。 拡張されたエッジの場合、マージする前に各サーバーの構成を統合エッジ構成に変更する必要があります。
-ms.openlocfilehash: 0cc5b65659fadb71719ff34630909686aa5ce065
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[単一エッジ サーバー] または [負荷分散された統合エッジ] サーバーの場合、[次へ] をクリックして構成情報を指定します。 拡張エッジでは、マージする前に、各サーバーの構成を統合エッジ構成に変更する必要があります。'
+ms.openlocfilehash: 0a35ae48d13e678302e83aedc5709324ad53a63c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794416"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833447"
 ---
-# <a name="legacy-merge-edge-type"></a>従来版のマージ: エッジの種類
+# <a name="legacy-merge-edge-type"></a>従来版のマージ エッジの種類
  
-**1 つのエッジサーバー**または**負荷分散の統合エッジ**サーバーの場合は、[**次**へ] をクリックして構成情報を指定します。 拡張された**エッジ**の場合、マージする前に各サーバーの構成を統合エッジ構成に変更する必要があります。 
+**[単一エッジ サーバー]** または **[負荷分散された統合エッジ]** サーバーの場合、**[次へ]** をクリックして構成情報を指定します。 拡張エッジ **では、** 各サーバーの構成を統合エッジ構成に変更してからマージする必要があります。 
   
 

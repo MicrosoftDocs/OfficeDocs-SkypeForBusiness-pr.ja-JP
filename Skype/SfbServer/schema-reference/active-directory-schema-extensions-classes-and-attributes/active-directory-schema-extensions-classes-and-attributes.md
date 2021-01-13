@@ -1,8 +1,8 @@
 ---
-title: ディレクトリ スキーマの拡張、クラスおよび属性
+title: アクティブなディレクトリ スキーマの拡張機能、クラスおよび属性
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2016
 audience: ITPro
@@ -12,41 +12,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
-description: このリファレンスセクションには、次の情報が含まれています。
-ms.openlocfilehash: 98ce04f38d9ee6c572f517441a370823ab7647d5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このリファレンス セクションの内容は、次のとおりです。
+ms.openlocfilehash: 5c8a1ceb6b623466219cbd3df46ff2b39ccceb2c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815555"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831937"
 ---
-# <a name="active-directory-schema-extensions-classes-and-attributes"></a>ディレクトリ スキーマの拡張、クラスおよび属性
+# <a name="active-directory-schema-extensions-classes-and-attributes"></a>アクティブなディレクトリ スキーマの拡張機能、クラスおよび属性
  
-このリファレンスセクションには、次の情報が含まれています。 
+このリファレンス セクションの内容は、次のとおりです。 
   
-- Skype for Business Server の新規または変更された Active Directory スキーマの拡張機能
+- Skype for Business Server 用に新規または変更された Active Directory スキーマ拡張機能
     
-    Active Directory のスキーマには、Active Directory フォレストで作成できるすべてのオブジェクトクラスの正式な定義が含まれています。 また、スキーマには、Active Directory オブジェクトに存在できるすべての属性の正式な定義も含まれています。 Active Directory のグローバルカタログには、フォレストのすべてのオブジェクトのレプリカと、各オブジェクトの属性のサブセットが含まれています。 このセクションでは、Skype for Business Server で新規または変更されたクラスと属性について説明します。
+    Active Directory スキーマには、Active Directory フォレスト内に作成できるすべてのオブジェクト クラスの正式な定義が含まれます。 このスキーマには、Active Directory オブジェクトに存在できるすべての属性の正式な定義も含まれます。 Active Directory グローバル カタログには、フォレストのすべてのオブジェクトのレプリカと、各オブジェクトの属性のサブセットが含まれます。 このセクションでは、Skype for Business Server で新規または変更されたクラスと属性について説明します。
     
-- Skype for Business Server で使用されるすべてのクラスについて説明します。
+- 各クラスの説明を含む、Skype for Business Server で使用されるクラスすべて
     
-- Skype for Business Server で使用されるすべての属性について説明します。
+- Skype for Business Server で使用される属性すべて(各属性の説明付き)
     
-- Skype for Business Server で使用されるクラスの一覧と、それぞれに含まれる可能性のある属性
+- Skype for Business Server で使用されるクラスの一覧。各クラスには、次の属性が含まれる場合があります。
     
-- グローバル設定とオブジェクト、およびフォレストの準備の際に作成されるユニバーサルサービスと管理グループに加えて、
+- グローバル設定とオブジェクト、およびフォレストの準備中に作成されたユニバーサル サービス グループとユニバーサル管理グループ
     
-- ドメインの準備中にドメインルートと組み込みのコンテナー上に作成されるアクセス制御エントリ (Ace)
+- ドメインの準備中にドメイン ルートおよび組み込みコンテナーに作成されたアクセス制御エントリ (ACE)
     
-- Active Directory 組織単位 (OU) で行われた変更は、Grant_CsSetupPermission コマンドレットによって変更されます。
+- Grant_CsSetupPermission コマンドレットによって Active Directory の組織単位 (OU) に対して行われる変更
     
-- Grant_CsOUPermission コマンドレットによって Active Directory OU で行われる変更
+- Grant_CsOUPermission コマンドレットによって Active Directory の OU に対して行われる変更
     
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business Server でのスキーマの変更](schema-changes.md)
+- [Skype for Business Server でのスキーマの変更点](schema-changes.md)
     
-- [Skype for Business Server のスキーマクラスと説明](schema-classes-and-descriptions.md)
+- [Skype for Business Server のスキーマ クラスと説明](schema-classes-and-descriptions.md)
     
 - [Skype for Business Server のスキーマ属性と説明](schema-attributes-and-descriptions.md)
     
@@ -54,10 +54,10 @@ ms.locfileid: "41815555"
     
 - [Skype for Business Server でのフォレストの準備によって行われた変更](changes-made-by-forest-preparation.md)
     
-- [Skype for Business Server のドメイン準備によって行われた変更](changes-made-by-domain-preparation.md)
+- [Skype for Business Server でのドメインの準備によって行われた変更](changes-made-by-domain-preparation.md)
     
-- [Skype for Business Server で付与されたアクセス許可によって行われる変更](changes-made-by-grant-cssetuppermission.md)
+- [Skype for Business Server Grant-CsSetupPermissionによって行われた変更](changes-made-by-grant-cssetuppermission.md)
     
-- [Skype for Business Server の権限付与によって行われた変更](changes-made-by-grant-csoupermission.md)
+- [Skype for Business Server Grant-CsOUPermissionによって行われた変更](changes-made-by-grant-csoupermission.md)
     
 

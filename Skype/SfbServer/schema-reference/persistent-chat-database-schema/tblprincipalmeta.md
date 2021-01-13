@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalMeta
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,35 +12,35 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
-description: tblPrincipalMeta には、Active Directory ドメインサービスから更新する必要があるプリンシパルが含まれています。
-ms.openlocfilehash: c76f4a74b3f627d360a2d745e46b6f2dac26bff0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalMeta には、Active Directory ドメイン サービスから更新する必要があるプリンシパルが含まれます。
+ms.openlocfilehash: e10b56a8a3a1c25f73cd1a07f4fdcde18c6f1215
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813575"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831547"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  
-tblPrincipalMeta には、Active Directory ドメインサービスから更新する必要があるプリンシパルが含まれています。
+tblPrincipalMeta には、Active Directory ドメイン サービスから更新する必要があるプリンシパルが含まれます。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int (null ではない)  <br/> |プリンシパル ID。  <br/> |
-|prinAffiliationsDirty  <br/> |ビット、null ではない  <br/> |プリンシパルの所属を更新する必要がある場合は True。  <br/> |
-|Prin属性のダーティ  <br/> |ビット、null ではない  <br/> |プリンシパル属性を更新する必要がある場合は True。  <br/> |
-|プリントが削除されました  <br/> |ビット、null ではない  <br/> |プリンシパルが削除された場合は True。  <br/> |
-|tryCount  <br/> |int  <br/> |これまでに発生した、AD DS からプリンシパルを更新しようとした回数。  <br/> |
-|最終試用  <br/> |datetime  <br/> |プリンシパルを最新の状態に更新しようとしたときのタイムスタンプ。 更新をまだ実行していない場合は、null を指定できます。  <br/> |
-|nextTry  <br/> |datetime  <br/> |スケジュールされている次回の更新のタイムスタンプ。 それ以降の更新がスケジュールされていない場合は、null を指定できます。  <br/> |
+|prinID  <br/> |NULL でない int  <br/> |プリンシパル ID。  <br/> |
+|prinAffiliationsDirty  <br/> |NULL でない bit  <br/> |プリンシパルの所属を最新の情報に更新する必要がある場合は True。  <br/> |
+|prinAttributesDirty  <br/> |NULL でない bit  <br/> |プリンシパル属性を最新の情報に更新する必要がある場合は True。  <br/> |
+|prinDeleted  <br/> |NULL でない bit  <br/> |プリンシパルが削除されている場合は True。  <br/> |
+|tryCount  <br/> |int  <br/> |それまでに行われた AD DS からプリンシパルを更新する試行の数。  <br/> |
+|lastTry  <br/> |日付型  <br/> |プリンシパルを最新の情報に更新する最新の試行からのタイム スタンプ。最新の情報への更新をまだ試みていない場合は NULL になります。  <br/> |
+|nextTry  <br/> |日付型  <br/> |次にスケジュールされている最新の情報への更新のタイム スタンプ。最新の情報への更新がスケジュールされていない場合は NULL になります。  <br/> |
    
-**機能**
+**Keys**
 
 |**列**|**説明**|
 |:-----|:-----|
 |prinID  <br/> |主キー。  <br/> |
-|prinID  <br/> |TblPrincipal Id テーブルで参照される外部キー。  <br/> |
+|prinID  <br/> |tblPrincipal.prinID テーブル内の参照による外部キー。  <br/> |
    
 

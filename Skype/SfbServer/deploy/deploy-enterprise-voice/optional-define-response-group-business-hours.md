@@ -1,8 +1,8 @@
 ---
-title: 省略Skype for Business で応答グループの勤務時間を定義する
+title: (省略可能)Skype for Business で応答グループの営業時間を定義する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Skype for Business Server Enterprise Voice で回答グループの勤務時間を作成または変更します。
-ms.openlocfilehash: f6a7d6bb8154d3113282a603ab39b45cf92d5556
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Skype for Business Server エンタープライズ VoIP で応答グループの営業時間を作成または変更します。
+ms.openlocfilehash: dcd2f7174a75eb68ef8d35759a1e454ede976bde
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767300"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830997"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>省略Skype for Business で応答グループの勤務時間を定義する 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(省略可能)Skype for Business で応答グループの営業時間を定義する 
  
-Skype for Business Server Enterprise Voice で回答グループの勤務時間を作成または変更します。
+Skype for Business Server エンタープライズ VoIP で応答グループの営業時間を作成または変更します。
   
 ## <a name="defining-business-hours"></a>営業時間の定義
 
 営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。 応答グループ管理者は、**New-CsRgsHoursOfBusiness** コマンドレットを使用して、使用できる応答グループの数に制限がない事前設定スケジュールを作成できます。
   
 > [!TIP]
-> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「 [Skype For business での応答グループワークフローの設計と作成](designing-and-creating-response-group-workflows.md)」を参照してください。 
+> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については [、「Skype for Business での応答グループ ワークフローの設計と作成」を参照してください](designing-and-creating-response-group-workflows.md)。 
   
 > [!NOTE]
 > ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割を割り当てられているすべてのユーザーは、管理するワークフローのカスタム営業時間を設定および変更できます。 
@@ -41,7 +41,7 @@ Skype for Business Server Enterprise Voice で回答グループの勤務時間�
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
     
 3. 定義する一意の時間の範囲ごとに、以下を実行します。
     

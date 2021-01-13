@@ -1,8 +1,8 @@
 ---
 title: Subnet テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
-description: サブネットの表はサポートテーブルです。 各レコードは、[ネットワーク構成] の設定で定義された1つのサブネットを表します。
-ms.openlocfilehash: 562684fdb4df9ac90216489c209754309885fa98
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Subnet テーブルは、サポート テーブルです。 それぞれのレコードは、ネットワーク構成の設定で定義された 1 つのサブネットを表します。
+ms.openlocfilehash: b4683c654d5d188d2f5096dd7ec9da124001f68b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805205"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831337"
 ---
 # <a name="subnet-table"></a>Subnet テーブル
  
-サブネットの表はサポートテーブルです。 各レコードは、[ネットワーク構成] の設定で定義された1つのサブネットを表します。
+Subnet テーブルは、サポート テーブルです。それぞれのレコードは、ネットワーク構成の設定で定義された 1 つのサブネットを表します。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**SubnetIP** <br/> |int  <br/> |プライマリ、外部  <br/> |サブネットの IP の整数表現。  <br/> |
-|**ネット** <br/> |int  <br/> ||サブネット マスク。  <br/> |
-|**UserSiteKey** <br/> |int  <br/> |外部  <br/> |[Usersite テーブル](usersite.md)から参照されます。  <br/> |
-|**サブネットの説明** <br/> |nvarchar (512)  <br/> ||サブネットの説明。  <br/> |
+|**SubnetIP** <br/> |int  <br/> |主/プライマリ、外部  <br/> |サブネット IP の整数表現。  <br/> |
+|**SubnetMask** <br/> |int  <br/> ||サブネット マスク。  <br/> |
+|**UserSiteKey** <br/> |int  <br/> |外部  <br/> |[UserSite テーブルから参照されます](usersite.md)。  <br/> |
+|**SubnetDescription** <br/> |nvarchar(512)  <br/> ||サブネットの説明。  <br/> |
    
 

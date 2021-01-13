@@ -1,13 +1,13 @@
 ---
-title: ダイレクトルーティングセッションの境界コントローラー接続をテストする PowerShell スクリプト
-author: LanaChin
-ms.author: v-lanac
+title: 直接ルーティング セッション ボーダー コントローラー接続をテストする PowerShell スクリプト
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: Microsoft Teams でダイレクトルーティングセッションの境界コントローラー接続をテストするには、この PowerShell スクリプトサンプルを使用します。
+description: この PowerShell スクリプトサンプルを使用して、Microsoft Teams で直接ルーティング セッション ボーダー コントローラー接続をテストします。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,29 +16,29 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d1514eff811461ac8b6ad73f7c2a215205f4e3
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c52febae3d734af49d1b23c7c65ceb0c2f746f7a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951262"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834277"
 ---
-# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>ダイレクトルーティングセッションの境界コントローラー接続をテストする PowerShell スクリプト
+# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>直接ルーティング セッション ボーダー コントローラー接続をテストする PowerShell スクリプト
 
-SIP Tester クライアントは、Microsoft Teams でダイレクトルーティングセッションの境界コントローラー (SBC) 接続をテストするために使用できるサンプル PowerShell スクリプトです。 このスクリプトは、ダイレクトルーティングを使用して、ユーザーペアのセッション開始プロトコル (SIP) トランクの基本的な機能をテストします。
+SIP テスター クライアントは、Microsoft Teams で直接ルーティング セッション ボーダー コントローラー (SBC) 接続をテストするために使用できる PowerShell スクリプトのサンプルです。 このスクリプトは、顧客がペアリングしたセッション開始プロトコル (SIP) トランクとダイレクト ルーティングの基本的な機能をテストします。
 
-このスクリプトは、SIP テストをテストランナーに送信し、結果を待ち、人間が読める形式で提示します。 このスクリプトを使用して、次のシナリオをテストすることができます。
+スクリプトは SIP テストをテスト の実行者に送信し、結果を待ち、人間が読み取り可能な形式で表示します。 このスクリプトを使用して、次のシナリオをテストできます。
 
 - 発信通話と着信通話
 - 同時呼び出し
 - メディアのエスカレーション
-- 提案転送
+- コンサルティングの譲渡
 
 ## <a name="download-the-script-and-documentation"></a>スクリプトとドキュメントをダウンロードする
 
-[SIP テスターのクライアントスクリプトとドキュメント](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)をダウンロードします。
+SIP [Tester クライアント スクリプトとドキュメントをダウンロードします](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
 
   > [!NOTE]
-  > SIP Tester クライアントスクリプトは adal.ps バージョン3.19.8.1 のみをサポートしています。 Adal.ps の新しいバージョンが使用されると、エラーが返されます。
+  > SIP Tester クライアント スクリプトは、adal.ps 3.19.8.1 のみをサポートします。 新しいバージョンのアプリケーションを使用すると、エラー adal.psされます。
   
   

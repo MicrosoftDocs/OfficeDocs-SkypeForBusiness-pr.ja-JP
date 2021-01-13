@@ -1,31 +1,32 @@
 ---
-title: Dial-in Conferencing (Planning Tool)
+title: ダイヤルイン会議 (計画ツール)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.Dialin
+- ms.lync.plan.Dialin
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Skype for Business Server 2015 のダイヤルイン会議では、ユーザーは、サードパーティの電話会議プロバイダーを必要とせずに、公衆交換電話網 (PSTN) 電話を使って、Skype for business Server 2015 会議のオーディオ部分に参加することができます。
-ms.openlocfilehash: e8116ed6379746f246169f11bf00010e0a9b7d09
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server 2015 ダイヤルイン会議を使用すると、サードパーティの電話会議プロバイダーを使用することなく、公衆交換電話網 (PSTN) 電話を使用して、Skype for Business Server 2015 会議の音声部分に参加できます。
+ms.openlocfilehash: c8dad384bb09dfe511cb875846ada1fcd7fb784f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816486"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834947"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
+# <a name="dial-in-conferencing-planning-tool"></a>ダイヤルイン会議 (計画ツール)
  
-Skype for Business Server 2015 のダイヤルイン会議では、ユーザーは、サードパーティの電話会議プロバイダーを必要とせずに、公衆交換電話網 (PSTN) 電話を使って、Skype for business Server 2015 会議のオーディオ部分に参加することができます。
+Skype for Business Server 2015 ダイヤルイン会議を使用すると、サードパーティの電話会議プロバイダーを使用することなく、公衆交換電話網 (PSTN) 電話を使用して、Skype for Business Server 2015 会議の音声部分に参加できます。
   
-組織でダイヤルイン会議を実現するための詳細を計画する方法については、以下のトピックおよび関連トピックを参照してください。 
+組織でダイヤルイン会議を有効にする計画の詳細については、以下のトピックとリンク先のトピックを参照してください。 
   
-- [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Skype for Business Server 2015 での会議の計画](../../plan-your-deployment/conferencing/conferencing.md)
     
 

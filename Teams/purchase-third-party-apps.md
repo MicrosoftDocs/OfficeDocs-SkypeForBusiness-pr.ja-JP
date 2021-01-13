@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 管理センターで Teams サードパーティ アプリのサービスを購入する
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: Microsoft Teams 管理センターの [アプリの管理] ペー�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: aeff6f363c1ae594a4a122055204d98b43d246e8
-ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
+ms.openlocfilehash: 8ee5b5c56a26ed054cdef559bc623b3cca4baa43
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46818156"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834327"
 ---
 <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams サードパーティ アプリのサービスを購入する
 ======================================================
@@ -29,47 +29,47 @@ ms.locfileid: "46818156"
 > [!NOTE]
 > 現在、この機能は米国でのみご利用いただけます。
 
-Teams アプリは無料でインストールできます。また、アプリの完全な機能とスコープを体験するため、サービス サブスクリプションの購入が必要になる場合があります。 これらのサービス サブスクリプションは [、AppSource](https://appsource.microsoft.com/) を通じて購入可能で Microsoft Teams 管理センターを通じて、サービスとしてのソフトウェアと呼びます。
+Teams アプリは無料でインストールできます。また、アプリの完全な機能と範囲を体験するには、サービス サブスクリプションの購入が必要な場合があります。 これらのサービス サブスクリプションは、サービスとしてのソフトウェア (SaaS) オファーと呼ばれるサービスであり [、AppSource](https://appsource.microsoft.com/) から購入し、Microsoft Teams 管理センターから利用できます。
 
-Microsoft Teams [管理センター](manage-apps.md) の [アプリの管理] ページでは、組織のすべての Teams アプリを表示して管理することができます。 たとえば、アプリのプロパティの表示、新しいカスタム アプリの組織のアプリ ストアへのアップロード、組織レベルでのアプリのブロックまたは許可、組織全体のアプリ設定の管理などを行うことができます。
+Microsoft Teams [管理センターの](manage-apps.md) [アプリの管理] ページは、組織のすべての Teams アプリを表示および管理する場所です。 たとえば、アプリの組織レベルの状態とプロパティの表示、組織のアプリ ストアへの新しいカスタム アプリのアップロード、組織レベルでのアプリのブロックまたは許可、組織全体のアプリ設定の管理を行います。
 
-ここでは、サードパーティ アプリによってサービスのライセンスを購入することもできます。 表 **の [** ライセンス] 列は、アプリが購入する SaaS サブスクリプションをサービスで用語を与えるかどうかを示します。
+ここでは、組織内のユーザー向けサード パーティ 製アプリが提供するサービスのライセンスを購入することもできます。 表 **の [** ライセンス] 列は、アプリが SaaS サブスクリプションを購入できるかどうかを示しています。
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="SaaS サブスクリプションを持つサードパーティのアプリを示すスクリーンショット":::
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="SaaS サブスクリプションを持つサード パーティ製アプリを示すスクリーンショット":::
 
-## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>サードパーティのアプリのサービスを検索して購入する
+## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>サード パーティ製アプリのサービスを検索して購入する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、Teams アプリの管理**アプリ**  >  **に移動します**。 ページにアクセスするには、グローバル管理者または Teams のサービス管理者である必要があります。
-2. 必要なアプリを検索します。 SaaS サブスクリプションがあるアプリを識別するには、[ライセンス] **列を確認** します。 各アプリには次のいずれかの値があります。
-    - **今すぐ**購入: アプリには SaaS サブスクリプションが用い、購入できます。  
-    - **購入**済み : アプリには SaaS サブスクリプションが用い、そのためのライセンスを購入済み。
-    - **-**- アプリで SaaS サブスクリプションは利用できません。
-3. アプリが見つかったら、[今すぐ**購入]** をクリックして、アプリの詳細ページの [プランと価格設定] タブに移動します。 **Plans and pricing** アプリの SaaS プランのプランと価格情報を確認します。 詳細情報が必要な場合は、詳細リンク **を** クリックして AppSource のアプリのページに [移動してください](https://appsource.microsoft.com/)。  
-4. プランを購入するには、[今すぐ **購入] をクリックします**。 Teams アプリに関連付けられているオフデベロッパーの購入エクスペリエンスにリダイレクトされます。 ここで、サービスや SaaS プランの購入を完了します。
-5. 目的のプランを選択します。 SaaS プランに複数のプランが含まれる場合は、[変更] **をクリック** して利用可能なプランのリストを表示します。
-6. 請求条件 (月間または**年**単位**Monthly**) を選び、購入するユーザー ライセンスの数を入力します。
-7. お支払い方法を入力します。
-8. 準備ができたら、[注文] **を選択します**。
-9. [ **今すぐ構成** ] をクリックして、発行元の Web サイトでサブスクリプションをアクティブ化します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、Teams アプリの [アプリの **管理]**  >  **に移動します**。 ページにアクセスするには、グローバル管理者または Teams サービス管理者である必要があります。
+2. 必要なアプリを検索します。 有料 SaaS サブスクリプションを持つアプリを特定するには、[ライセンス] 列を **確認** します。 各アプリには、次のいずれかの値があります。
+    - **今すぐ** 購入: アプリは SaaS サブスクリプションを提供し、購入可能です。  
+    - **購入:** アプリは SaaS サブスクリプションを提供し、そのライセンスを購入しました。
+    - **- -** アプリは SaaS サブスクリプションを提供しない。
+3. アプリが見つけたら、[今すぐ購入] をクリックして、アプリの詳細ページの [プランと価格] タブに移動します。 アプリの SaaS プランのプランと価格情報を確認します。 詳細が必要な場合は、詳細リンクをクリックして AppSource のアプリのページに[移動します](https://appsource.microsoft.com/)。  
+4. プランを購入するには、[今すぐ購入 **] をクリックします**。 Teams アプリに関連付けられているオファーの購入エクスペリエンスにリダイレクトされます。 ここで、サービスまたは SaaS サービスの購入を完了します。
+5. 必要なプランを選択します。 SaaS プランに複数のプランが含まれる場合は、[変更 **]** をクリックして利用可能なプランの一覧を表示します。
+6. 請求期間 (月または年)を選択し、購入するユーザー ライセンスの数を入力します。
+7. 支払い方法を入力します。
+8. 準備ができたら、[注文] を **選択します**。
+9. [ **今すぐ構成]** をクリックして、発行元の Web サイトでサブスクリプションをアクティブ化します。
 
-Teams アプリに関連付けられている SaaS プランを購入すると、アプリの詳細ページの **[プラン** と価格] タブで次の購入の詳細を確認できます。
+Teams アプリに関連付けられている SaaS プランを購入した後は、アプリの詳細ページの [プランと価格] タブで次の購入の詳細を表示できます。
 
-- **ライセンス認証の日付**: ライセンスがライセンス認証された日付。 アカウントがまだ設定されない場合は、サブスクリプションの保留中 **のライセンス認証が保留中として表示されます**。
-- **ライセンス**: 購入したライセンス数。
+- **ライセンスのライセンス認証日**: ライセンスがアクティブ化された日付。 アカウントがまだ設定されていない場合は、[サブスクリプションのライセンス認証が保留中 **] と表示されます**。
+- **ライセンス**: 購入したライセンスの数。
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="アプリ詳細ページの [プランと価格] タブのスクリーンショット":::
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="アプリの詳細ページの [プランと価格] タブのスクリーンショット":::
 
-[ **ライセンスの管理** ] を選択して、Microsoft 365 管理センターに移動し、購入したライセンスを表示および管理し、ユーザーのライセンス割り当てを管理します。
+[ **ライセンスの管理]** を選択して Microsoft 365 管理センターに移動し、購入したライセンスを表示および管理し、ユーザーのライセンス割り当てを管理します。
 
-全体管理者は、組織内のユーザーが行った購入を表示できます。この場合、Teams サービス管理者は自分で行った購入の表示のみを行うことができます。  
+グローバル管理者は組織内のすべてのユーザーが行った購入を表示できるのに対し、Teams サービス管理者は自分で行った購入のみを表示できます。  
 
-## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Microsoft Teams 管理センターと AppSource でリストアップして表示する Teams アプリ用の SaaS プランをお持びですか?
+## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Microsoft Teams 管理センターと AppSource でリストと販売を行う Teams アプリの SaaS 特典はありますか?
 
-開発者は、Teams アプリに関連付けられている SaaS プランを作成できます。 これらのプランはパートナー [センターを](https://partner.microsoft.com) 通じて公開され、組織は [AppSource](https://appsource.microsoft.com/) と Microsoft Teams 管理センターを通じて購入できます。
+開発者は、Teams アプリに関連付けられている SaaS オファーを作成できます。 これらのオファーはパートナー [センターを](https://partner.microsoft.com) 通じて公開され、組織は [AppSource](https://appsource.microsoft.com/) と Microsoft Teams 管理センターを通じて購入できます。
  
-サードパーティ アプリの開発者は [、SaaS プランを作成して](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) 詳細を確認してください。
+サード パーティ製アプリの開発者は [、「SaaS](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) サービスを作成する」で詳細を確認できます。
 
 ## <a name="related-topics"></a>関連項目
 
 - [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
-- [SaaS プランを作成する](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)
+- [SaaS サービスを作成する](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)

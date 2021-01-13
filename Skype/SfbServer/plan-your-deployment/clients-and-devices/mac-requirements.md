@@ -1,7 +1,7 @@
 ---
-title: Mac クライアント上の Skype for Business の要件
-ms.author: v-lanac
-author: lanachin
+title: Mac 版 Skype for Business クライアントの要件
+ms.author: v-cichur
+author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -15,66 +15,66 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
-description: このトピックでは、Mac で Skype for Business を実行するためのハードウェア、ソフトウェア、およびインフラストラクチャの要件について説明します。
-ms.openlocfilehash: f4f62246a86dabeb628755d3c75a10bc285ede12
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: このトピックでは、Mac で Skype for Business を実行する場合のハードウェア、ソフトウェア、およびインフラストラクチャの要件について説明します。
+ms.openlocfilehash: 5f967bab3a5dcc41a3419324c9fe09b48a8fb674
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013460"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832167"
 ---
-# <a name="skype-for-business-on-mac-client-requirements"></a>Mac クライアント上の Skype for Business の要件
+# <a name="skype-for-business-on-mac-client-requirements"></a>Mac 版 Skype for Business クライアントの要件
  
-このトピックでは、Mac で Skype for Business を実行するためのハードウェア、ソフトウェア、およびインフラストラクチャの要件について説明します。
+このトピックでは、Mac で Skype for Business を実行する場合のハードウェア、ソフトウェア、およびインフラストラクチャの要件について説明します。
   
-[Mac 版 Skype For Business クライアント](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac)はダウンロードできます。
+[Skype for Business on Mac Client は](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac)ダウンロードできます。
   
-## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac 版 Skype for business のハードウェアおよびソフトウェア要件
+## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac 上の Skype for Business のハードウェア要件およびソフトウェア要件
 
-Mac 版 Skype for Business クライアントでは、Mac OS X El Capitan 以上が必要です。また、少なくとも100MB のディスク領域が使用されます。 すべての組み込みのオーディオおよびビデオデバイスの使用をサポートしています。 外部デバイスは、 [Skype For Business ソリューションカタログ](https://partnersolutions.skypeforbusiness.com/solutionscatalog)に含まれている必要があります。 
+Mac 上の Skype for Business クライアントでは、Mac OS X El-1 以上が必要であり、100 MB 以上のディスク領域を使用します。 すべての組み込みのオーディオデバイスとビデオ デバイスの使用がサポートされています。 外部デバイスは [、Skype for Business ソリューション カタログに含む必要があります](https://partnersolutions.skypeforbusiness.com/solutionscatalog)。 
   
 > [!NOTE]
-> このリストは暫定版であり、一部のデバイスは Lync 用に認定されていますが、Mac では Skype for Business ではサポートされていません。 必要な最小限のハードウェアの[システム要件](https://products.office.com/office-system-requirements)を参照してください。
+> この一覧は暫定的であり、一部のデバイスは Lync の認定を受け取る場合がありますが、Mac の Skype for Business ではサポートされていません。 必要な最小 [ハードウェアについては、「](https://products.office.com/office-system-requirements) システム要件」を参照してください。
   
 ### <a name="legacy-mac-clients"></a>従来の Mac クライアント
 
-また、Skype for Business Server 2015 は、Mac OS 10.5.8 以降または最新のサービスパックやリリース (Intel ベース) オペレーティングシステムを実行しているコンピューターで、次のレガシクライアントもサポートしています (Mac OS 10.9 オペレーティングシステムは現在サポートされていません)。 サポートされる機能の詳細については、「Skype for business[のデスクトップクライアント機能の比較](desktop-feature-comparison.md)」を参照してください。
+Skype for Business Server 2015 は、Mac OS 10.5.8 または最新のサービス パックまたはリリース (Intel ベース) オペレーティング システムを実行しているコンピューターでも、次のレガシ クライアントをサポートしています (Mac OS 10.9 オペレーティング システムは現在サポートされていません)。 サポートされる機能の詳細については [、「Skype for Business のデスクトップ クライアント機能の比較」を参照してください](desktop-feature-comparison.md)。
   
-- Microsoft Lync for Mac 2011 (「 [Lync For mac 2011 展開ガイド」を](https://go.microsoft.com/fwlink/p/?LinkId=268786)参照してください)
+- Microsoft Lync for Mac 2011 [(Lync for Mac 2011 展開ガイドを参照](https://go.microsoft.com/fwlink/p/?LinkId=268786))
     
-- Microsoft Communicator for Mac 2011 (「 [Communicator For mac 2011 展開ガイド」を](https://go.microsoft.com/fwlink/p/?LinkId=268787)参照してください)
+- Microsoft Communicator for Mac 2011 (「Communicator for Mac 2011 [Deployment Guide」を参照)](https://go.microsoft.com/fwlink/p/?LinkId=268787)
  
 これらのクライアントは、Skype for Business Server 2019 ではサポートされていません。
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Mac 版 Skype for Business のインフラストラクチャ要件
+## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Mac 上の Skype for Business のインフラストラクチャ要件
 <a name="Infrastructure"> </a>
 
-Mac 版 Skype for Business クライアントは、統合コミュニケーション管理プラットフォーム (UCMP) と、モビリティクライアントが使用する統合コミュニケーション Web API (UCMP) の両方を活用しています。
+Skype for Business on Mac クライアントは、Unified Communications Management Platform (UCMP) と、モビリティ クライアントが使用する Unified Communications Web API (UCWA) の両方を利用します。
   
-クライアントには、サポートされている構成でアクセスエッジサーバーとリバースプロキシが展開されている必要があるという、のモビリティクライアントと同じ要件があります。 
+クライアントには、サポートされている構成でアクセス エッジ サーバーとリバース プロキシを展開する必要があるという点で、モビリティ クライアントと同じ要件があります。 
   
 ### <a name="authentication"></a>認証
 
-Mac 版 Skype for Business クライアントは、証明書ベースの認証、Microsoft モダン認証、および多要素認証が展開されて有効になっているときにサポートされます。
+Mac 上の Skype for Business クライアントは、展開および有効化時に証明書ベース認証、Microsoft モダン認証、および多要素認証をサポートします。
   
 > [!NOTE]
-> 現在の制限により、ユーザーの Exchange 資格情報は、Skype for Business の資格情報と同じである必要があります。 
+> 現在の制限により、ユーザーの Exchange 資格情報は Skype for Business の資格情報と同じである必要があります。 
   
 ### <a name="certificates"></a>証明書
 
-アクセスエッジサーバー、リバースプロキシサーバー、フロントエンドサーバーで使用されている証明書は、512ハッシュアルゴリズムを使用してはなりません。
+アクセス エッジ、リバース プロキシ、およびフロントエンド サーバーで使用されている証明書は、SHA-512 ハッシュ アルゴリズムを使用できません。
   
-HTTP 証明書失効リストは、クライアントによって定義され、アクセス可能である必要があります。 たとえば、証明書の LDAP エントリを証明書失効リストとしてサポートしていません。
+HTTP 証明書失効リストは、クライアントが定義してアクセスできる必要があります。 たとえば、証明書失効リストとして証明書内の LDAP エントリはサポートされていません。
   
 ### <a name="dns"></a>DNS
 
-モビリティは、適切に機能するように、Mac クライアント上の Skype for Business に適切に展開されている必要があります。 一般的なエラーシナリオは、次の両方の DNS エントリを内部ネットワークで解決可能にすることです。
+Mac クライアントで Skype for Business が正常に機能するには、モビリティを適切に展開する必要があります。 一般的な障害シナリオでは、内部ネットワークで次の両方の DNS エントリを解決できます。
   
-- lyncdiscoverinternal.\<microsoft.rtc.management.xds.sipdomain\>
+- lyncdiscoverinternal。\<sipdomain\>
     
-- lyncdiscover.\<microsoft.rtc.management.xds.sipdomain\>
+- lyncdiscover。\<sipdomain\>
     
-詳細については、「 [Lync server 2013 でのモビリティの展開](https://go.microsoft.com/fwlink/p/?LinkId=798224)」および「 [Microsoft Lync Server 2010 mobility Guide](https://go.microsoft.com/fwlink//p/?LinkId=798226)」を参照してください。
+詳細については [、「Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224)でのモビリティの展開」および [「Microsoft Lync Server 2010 Mobility Guide」を参照してください](https://go.microsoft.com/fwlink//p/?LinkId=798226)。
   
 ## <a name="see-also"></a>関連項目
 <a name="Infrastructure"> </a>

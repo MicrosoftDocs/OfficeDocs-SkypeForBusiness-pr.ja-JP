@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server でのフォレストの準備によって行われた変更
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,79 +12,79 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
-description: このセクションでは、グローバル設定とオブジェクト、およびフォレストの準備手順によって作成されるユニバーサルサービスと管理グループについて説明します。
-ms.openlocfilehash: 26917915d89aff721e74f094eb8ad5bb72db3cf6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ここでは、グローバル設定とオブジェクト、およびフォレストの準備中に作成するユニバーサル サービス グループとユニバーサル管理グループについて説明します。
+ms.openlocfilehash: 4e8032cb91b012c710dc509708a813d55825f7a2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815535"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831917"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Skype for Business Server でのフォレストの準備によって行われた変更
 
-このセクションでは、グローバル設定とオブジェクト、およびフォレストの準備手順によって作成されるユニバーサルサービスと管理グループについて説明します。
+ここでは、グローバル設定とオブジェクト、およびフォレストの準備中に作成するユニバーサル サービス グループとユニバーサル管理グループについて説明します。
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory のグローバル設定とオブジェクト
 
-構成コンテナーにグローバル設定を格納する場合 (すべての新しい Skype for Business Server の展開の場合と同様)、フォレストの準備では既存のサービスコンテナーが使用され、Configuration\Services オブジェクトの下に**RTC サービス**オブジェクトが追加されます。 RTC Service オブジェクトの下で、フォレストの準備によって型が Msrtcsip-userenabled true-GlobalContainer の**グローバル設定**オブジェクトが追加されます。 グローバル設定オブジェクトには、Skype for Business Server の展開に適用されるすべての設定が含まれます。 システムコンテナーにグローバル設定を保存する場合、フォレストの準備では、ルートドメインシステムコンテナーと、System\Microsoft オブジェクトの下にある RTC サービスオブジェクトを使って Microsoft コンテナーを使用します。
+構成コンテナーにグローバル設定を保存する場合 (新しい Skype for Business Server 展開の場合と同様)、フォレストの準備では既存のサービス コンテナーが使用され **、Configuration\Services** オブジェクトの下に RTC サービス オブジェクトが追加されます。 フォレストの準備では、msRTCSIP-GlobalContainer 型の **Global Settings** オブジェクトが RTC サービス オブジェクトに追加されます。 グローバル設定オブジェクトは、Skype for Business Server の展開に適用される設定を保持します。 グローバル設定をシステム コンテナーに保存する場合は、フォレストの準備で新しい ルート ドメインのシステム コンテナーの下の Microsoft コンテナーと、システム\Microsoft オブジェクトの下の RTC サービス オブジェクトが使用されます。
 
-フォレストの準備では、この手順を実行するルートドメイン用の新しい**msrtcsip-userenabled true**オブジェクトも追加されます。
+またフォレストの準備では、この手順が実行されるルート ドメインの新しい **msRTCSIP-Domain** オブジェクトが追加されます。
 
-## <a name="active-directory-universal-service-and-administration-groups"></a>Active Directory ユニバーサルサービスと管理グループ
+## <a name="active-directory-universal-service-and-administration-groups"></a>Active Directory のユニバーサル サービス グループとユニバーサル管理グループ
 
-フォレストの準備によって、指定したドメインに基づいてユニバーサルグループが作成され、これらのグループにアクセス制御エントリ (Ace) が追加されます。 この手順では、指定したドメインのユーザーコンテナーでユニバーサルグループを作成します。
+フォレストの準備では、指定したドメインを基にユニバーサル グループを作成し、これらのグループのアクセス制御エントリ (ACE) を追加します。このステップにより、指定したドメインのユーザー コンテナーにユニバーサル グループが作成されます。
 
-ユニバーサルグループを使用すると、管理者はグローバル設定とサービスにアクセスして管理することができます。 フォレストの準備によって、次の種類のユニバーサルグループが追加されます。
+ユニバーサル グループを使用すると、管理者はグローバル設定およびサービスにアクセスしてそれらを管理できます。フォレストの準備により、次の種類のユニバーサル グループが追加されます。
 
-- **管理グループ**これらのグループは、Skype for Business Server ネットワークの管理者ロールを定義します。
+- **管理グループ** これらのグループは、Skype for Business Server ネットワークの管理者の役割を定義します。
 
-- **インフラストラクチャグループ**これらのグループは、Skype for Business Server インフラストラクチャの特定の領域にアクセスするためのアクセス許可を提供します。 これらは、管理グループのコンポーネントとして機能します。 これらのグループを変更したり、これらのグループにユーザーを直接追加したりすることはできません。
+- **インフラストラクチャ グループ** これらのグループは、Skype for Business Server インフラストラクチャの特定の領域にアクセスするためのアクセス許可を提供します。 管理グループのコンポーネントとして機能します。 これらのグループを変更したり、ユーザーを直接追加したりすることはできません。
 
-- **サービスグループ**これらのグループは、さまざまな Skype for Business Server サービスへのアクセスに必要なサービスアカウントです。
+- **サービス グループ** これらのグループは、さまざまな Skype for Business Server サービスにアクセスするために必要なサービス アカウントです。
 
 次の表では、管理グループについて説明します。
 
-**フォレストの準備中に作成された管理グループ**
+**フォレストの準備時に作成される管理グループ**
 
 |**管理グループ**|**説明**|
 |:-----|:-----|
-|RTCUniversalServerAdmins  <br/> |すべてのサーバーの役割、グローバル設定、ユーザーなど、サーバーとプールの設定を管理することをメンバーに許可します。  <br/> |
-|RTCUniversalUserAdmins  <br/> |メンバーがユーザー設定を管理し、あるサーバーまたはプール間でユーザーを移動できるようにします。  <br/> |
-|RTCUniversalReadOnlyAdmins  <br/> |サーバー、プール、ユーザー設定の読み取りをメンバーに許可します。  <br/> |
+|RTCUniversalServerAdmins  <br/> |このグループのメンバーは、すべてのサーバーの役割、グローバル設定、ユーザーなど、サーバーおよびプールの設定を管理できます。  <br/> |
+|RTCUniversalUserAdmins  <br/> |このグループのメンバーは、ユーザー設定を管理したり、あるサーバーまたはプールから、別のサーバーまたはプールにユーザーを移動したりできます。  <br/> |
+|RTCUniversalReadOnlyAdmins  <br/> |このグループのメンバーは、サーバー、プール、およびユーザーの設定を読み取ることができます。  <br/> |
 
-次の表では、インフラストラクチャグループについて説明します。
+次の表では、インフラストラクチャ グループについて説明します。
 
-**フォレストの準備中に作成されたインフラストラクチャグループ**
+**フォレストの準備時に作成されるインフラストラクチャ グループ**
 
-|**インフラストラクチャグループ**|**説明**|
+|**インフラストラクチャ グループ**|**説明**|
 |:-----|:-----|
 |RTCUniversalGlobalWriteGroup  <br/> |Skype for Business Server のグローバル設定オブジェクトへの書き込みアクセス権を付与します。  <br/> |
-|RTCUniversalGlobalReadOnlyGroup  <br/> |Skype for Business Server のグローバル設定オブジェクトへの読み取り専用アクセスを許可します。  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |Skype for Business Server のユーザー設定への読み取り専用アクセス権を付与します。  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Skype for Business Server の設定への読み取り専用アクセス権を付与します。 このグループは、個々のサーバーに固有の設定のみに、プールレベルの設定にアクセスすることはできません。  <br/> |
-|RTCUniversalSBATechnicians  <br/> |Skype for Business Server の設定への読み取り専用アクセス権を付与し、インストール中に survivable branch アプライアンスのローカル管理者グループに配置されます。  <br/> |
+|RTCUniversalGlobalReadOnlyGroup  <br/> |Skype for Business Server のグローバル設定オブジェクトへの読み取り専用アクセス権を付与します。  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |Skype for Business Server ユーザー設定への読み取り専用アクセス権を付与します。  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Skype for Business Server の設定への読み取り専用アクセス権を付与します。 このグループは、プール レベルの設定にはアクセスできず、個々のサーバーに固有の設定のみにアクセスできます。  <br/> |
+|RTCUniversalSBATechnicians  <br/> |Skype for Business Server 構成への読み取り専用アクセス権を付与し、インストール中に存続可能ブランチ アプライアンスのローカル管理者グループに配置されます。  <br/> |
 
-次の表では、サービスグループについて説明します。
+次の表では、サービス グループについて説明します。
 
-**フォレストの準備中に作成されたサービスグループ**
+**フォレストの準備時に作成されるサービス グループ**
 
-|**サービスグループ**|**説明**|
+|**サービス グループ**|**説明**|
 |:-----|:-----|
-|RTCHSUniversalServices  <br/> |フロントエンドサーバーおよび Standard Edition サーバーの実行に使用するサービスアカウントが含まれています。 このグループでは、Skype for Business Server のグローバル設定と Active Directory ユーザーオブジェクトへのサーバーの読み取り/書き込みアクセスが許可されています。  <br/> |
-|RTCComponentUniversalServices  <br/> |A/V 会議サーバー、Web サービス、仲介サーバー、アーカイブサーバー、監視サーバーの実行に使用されるサービスアカウントが含まれています。  <br/> |
-|RTCProxyUniversalServices  <br/> |Skype for Business Server Edge サーバーを実行するために使用されるサービスアカウントが含まれています。  <br/> |
-|RTCUniversalConfigReplicator  <br/> |Skype for Business Server 全体管理ストアのレプリケーションに参加できるサーバーが含まれています。  <br/> |
-|RTCSBAUniversalServices  <br/> |Skype for Business Server の設定への読み取り専用アクセス権を付与しますが、survivable branch server と survivable branch appliance の展開をインストールするための構成を許可します。  <br/> |
+|RTCHSUniversalServices  <br/> |フロントエンド サーバーと Standard Edition サーバーの実行に使用するサービス アカウントが含まれます。 このグループを使用すると、サーバーは Skype for Business Server のグローバル設定と Active Directory ユーザー オブジェクトに対する読み取り/書き込みアクセスを許可します。  <br/> |
+|RTCComponentUniversalServices  <br/> |音声ビデオ会議サーバー、Web サービス、仲介サーバー、アーカイブ サーバー、および監視サーバーの実行に使用するサービス アカウントが含まれます。  <br/> |
+|RTCProxyUniversalServices  <br/> |Skype for Business Server エッジ サーバーの実行に使用するサービス アカウントが含まれます。  <br/> |
+|RTCUniversalConfigReplicator  <br/> |Skype for Business Server Central Management ストアのレプリケーションに参加できるサーバーが含まれます。  <br/> |
+|RTCSBAUniversalServices  <br/> |Skype for Business Server 設定への読み取り専用アクセス権を付与しますが、存続可能ブランチ サーバーと存続可能ブランチ アプライアンス展開のインストールの構成を許可します。  <br/> |
 
-次に示すように、フォレストの準備によって、適切なインフラストラクチャグループにサービスグループと管理グループが追加されます。
+フォレストの準備では、次に示すサービス グループと管理グループをインフラストラクチャ グループに追加します。
 
-- RTCUniversalServerAdmins は、RTCUniversalGlobalReadOnlyGroup、RTCUniversalGlobalWriteGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup に追加されます。
+- RTCUniversalServerAdmins を、RTCUniversalGlobalReadOnlyGroup、RTCUniversalGlobalWriteGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup に追加します。
 
-- RTCUniversalUserAdmins は、RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup のメンバーとして追加されます。
+- RTCUniversalUserAdmins を、RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup のメンバーとして追加します。
 
-- RTCHSUniversalServices、RTCComponentUniversalServices、RTCUniversalReadOnlyAdmins は、RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup のメンバーとして追加されます。
+- RTCHSUniversalServices、RTCComponentUniversalServices、および RTCUniversalReadOnlyAdmins を、RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup、および RTCUniversalUserReadOnlyGroup のメンバーとして追加します。
 
-フォレストの準備では、次の役割ベースのアクセス制御 (RBAC) グループも作成されます。
+フォレストの準備によって、次の役割ベースのアクセス制御 (RBAC) グループも作成されます。
 
 - CSAdministrator
 
@@ -108,31 +108,31 @@ ms.locfileid: "41815535"
 
 - CsResponseGroupManager
 
-RBAC の役割と、それぞれに対して許可されるタスクについて詳しくは、「計画ドキュメントの[役割ベースのアクセス制御](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)」をご覧ください。
+RBAC の役割、および各役割で許可されるタスクの詳細については、「計画」のドキュメントの「[Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx)」を参照してください。
 
-フォレストの準備では、プライベート Ace とパブリック Ace の両方が作成されます。 Skype for Business Server で使用されるグローバル設定コンテナーにプライベート Ace を作成します。 このコンテナーは、Skype for Business Server でのみ使用され、グローバル設定を保存する場所に応じて、構成コンテナーまたはルートドメイン内のシステムコンテナーにあります。 次の表に、フォレストの準備によって作成されたパブリック Ace を示します。
+フォレストの準備では、プライベート ACE とパブリック ACE の両方を作成します。 Skype for Business Server で使用されるグローバル設定コンテナーにプライベートの ACEs を作成します。 このコンテナーは Skype for Business Server でのみ使用され、グローバル設定の保存場所に応じて、ルート ドメインの構成コンテナーまたはシステム コンテナーに格納されます。 フォレストの準備で作成するパブリック ACE の一覧を次の表に示します。
 
-**フォレストの準備によって作成されたパブリック Ace**
+**フォレストの準備で作成するパブリック ACE**
 
 
-| **AS**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
+| **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
 |:------------------------------------------------------------------------|:------------------------------------|
-| ルートドメインシステムコンテナーを読み取ります (継承されません)**\\**\* <br/>        | X  <br/>                            |
-| 構成の DisplaySpecifiers 子コンテナーを読み取ります (継承されません)  <br/> | X  <br/>                            |
+| ルート ドメインシステム コンテナーの読み取り (継承されない) **\\**\* <br/>        | X  <br/>                            |
+| 構成の DisplaySpecifiers コンテナーの読み取り (継承されない)  <br/> | X  <br/>                            |
 
 > [!NOTE]
-> <strong>\\</strong>* 継承されない Ace は、これらのコンテナーの下にある子オブジェクトへのアクセス権を付与しません。 継承された Ace は、これらのコンテナーの下にある子オブジェクトへのアクセス権を付与します。
+> <strong>\\</strong>継承されない *ACL は、これらのコンテナーの下にある子オブジェクトへのアクセスを許可しません。 継承された ACL は、これらのコンテナーの下にある子オブジェクトへのアクセスを許可します。
 
-構成コンテナーでは、構成の名前付けコンテキストの下で、フォレストの準備で次のタスクを実行します。
+フォレストの準備では、構成名前付けコンテキストの下の構成コンテナーで次のタスクを実行します。
 
-- ユーザー、連絡先、InetOrgPersons の言語表示指定子 (例: CN = ユーザー表示、CN = 409、CN = DisplaySpecifiers 子) の adminContextMenu**プロパティ**と adminPropertyPages 属性のエントリ **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** を追加します。
+- **RTC property** ページのエントリ **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** を、ユーザー、連絡先、および InetOrgPersons の言語表示指定子の adminContextMenu および adminPropertyPages 属性に追加します (CN=user-Display、CN=409、CN=DisplaySpecifiers など)。
 
-- ユーザークラスと連絡先クラスに適用される**拡張権限**の下に、 **controlaccessright**型の**RTCPropertySet**オブジェクトを追加します。
+- User クラスと Contact クラスに適用される **Extended-Rights** に、**controlAccessRight** 型の **RTCPropertySet** オブジェクトを追加します。
 
-- ユーザー、連絡先、OU、および DomainDNS クラスに適用される**拡張権限**の下に、 **controlaccessright**型の**RTCUserSearchPropertySet**オブジェクトを追加します。
+- User、Contact、OU、および DomainDNS クラスに適用される **Extended-Rights** に、**controlAccessRight** 型の **RTCUserSearchPropertySet** オブジェクトを追加します。
 
-- 各言語の組織単位 (OU) 表示指定子の**extraColumns**属性の下に**Msrtcsip-userenabled true-primaryuseraddress**を追加します (例: Cn = organizationalUnit-display、CN = 409、cn = displayspecifiers 子)。既定の表示の**extraColumns**属性の値をコピーします (例: CN = default-DISPLAY、Cn = 409、cn = displayspecifiers 子)。
+- 各言語の組織単位 (OU) の表示指定子の **extraColumns** 属性に **msRTCSIP-PrimaryUserAddress** を追加し (CN=organizationalUnit-Display、CN=409、CN=DisplaySpecifiers など)、既定の表示の **extraColumns** 属性の値をコピーします (CN=default-Display、CN=409、CN=DisplaySpecifiers など)。
 
-- ユーザー、連絡先、および InetOrgPerson オブジェクトの各言語表示指定子の**Attributedisplaynames**属性の**Msrtcsip-userenabled true-primaryuseraddress**、 **Msrtcsip-userenabled true-PrimaryHomeServer**、および**msrtcsip-userenabled true-userenabled**フィルター属性を追加します (たとえば、英語: CN = ユーザー表示、cn = 409、cn = display指定子)。
+- **msRTCSIP-PrimaryUserAddress**、**msRTCSIP-PrimaryHomeServer**、および **msRTCSIP-UserEnabled** フィルター属性を、Users、Contacts、および InetOrgPerson オブジェクトの各言語表示指定子の **attributeDisplayNames** 属性に追加します (たとえば英語では、CN=user-Display、CN=409、CN=DisplaySpecifiers など)。
 
 

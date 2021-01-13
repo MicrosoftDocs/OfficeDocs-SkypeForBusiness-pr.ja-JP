@@ -1,8 +1,8 @@
 ---
 title: tblRoleType
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
-description: tblRoleType は、役割の種類とそれに関連付けられたアクセス許可セットを含む静的参照テーブルです。
-ms.openlocfilehash: 888628c1aca01e90694ed946569a81b1b7394b95
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblRoleType は静的な検索テーブルであり、役割の種類とそれに関連付けられたアクセス許可のセットが格納されています。
+ms.openlocfilehash: c440463d822b908a89c84eb9c85b70e9daf442be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812905"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831527"
 ---
 # <a name="tblroletype"></a>tblRoleType
  
-tblRoleType は、役割の種類とそれに関連付けられたアクセス許可セットを含む静的参照テーブルです。
+tblRoleType は静的な検索テーブルであり、役割の種類とそれに関連付けられたアクセス許可のセットが格納されています。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|rtypeID  <br/> |int (null ではない)  <br/> |役割の種類 ID。  <br/> |
-|rtypeDesc  <br/> |nvarchar (256)、null ではない  <br/> | 役割の種類の説明。 次の4つの役割を使用できます。 <br/>  メンバー: チャットルームのメンバー <br/>  管理職: チャットルームマネージャー <br/>  読み上げ: 聴衆チャットルームの発表者 <br/>  作成者: チャットルームを作成できる <br/> |
-|rtypeAllowedPermSet  <br/> |bigint (null ではない)  <br/> | ロールの権限セット。 使用されるビットは次のとおりです。 <br/>  2: 役割がノードを管理できる場合は True。 <br/>  4: 役割で子ノードを作成できる場合は True です。 <br/>  7: 役割がチャットルーム (または、カテゴリの子チャットルーム) に参加できる場合は True。 <br/>  8: 役割がチャットルーム (または、カテゴリの子チャットルーム) でチャットできる場合は True。 <br/>  10: 役割がチャットルームに参加していないときでもチャット履歴を読むことができる場合は True。 <br/>  11: 役割がチャットルームを表示できる場合は True です。 (これは、スコープや可視性などの要因によってさらに改良されています)。 <br/>  12: この役割が聴衆チャットルームでチャットできる場合は True です。 <br/>  13: ノードを表示したときに、役割が可視性規則を無視できる場合は True です。 <br/> |
+|rtypeID  <br/> |NULL でない int  <br/> |役割の種類の ID。  <br/> |
+|rtypeDesc  <br/> |NULL でない nvarchar (256)  <br/> | 役割の種類の説明。使用できる役割は次の 4 つです。 <br/>  メンバー: チャット ルームのメンバー <br/>  マネージャー: チャット ルームのマネージャー <br/>  承認されたメンバー: 大会議室のチャット ルームの発表者 <br/>  作成者: チャット ルームの作成者 <br/> |
+|rtypeAllowedPermSet  <br/> |NULL でない bigint  <br/> | 役割のアクセス許可セット。使用されるビットは次のとおりです。 <br/>  2: 役割がノードを管理できる場合は True。 <br/>  4: 役割が子ノードを作成できる場合は True。 <br/>  7: 役割がチャット ルーム (またはカテゴリの子チャット ルーム) に参加できる場合は True。 <br/>  8: 役割がチャット ルーム (またはカテゴリの子チャット ルーム) でチャットできる場合は True。 <br/>  10: 役割がチャット ルームに参加していなくてもチャットの履歴を読むことができる場合は True。 <br/>  11: 役割がチャット ルームを見ることができる場合は True (これはスコープや可視性などの要素によってさらに微調整されます)。 <br/>  12: 役割が大会議室のチャット ルームでチャットできる場合は True。 <br/>  13: 役割がノードを表示するときに可視性ルールをバイパスできる場合は True。 <br/> |
    
-**Key**
+**キー**
 
 |**列**|**説明**|
 |:-----|:-----|

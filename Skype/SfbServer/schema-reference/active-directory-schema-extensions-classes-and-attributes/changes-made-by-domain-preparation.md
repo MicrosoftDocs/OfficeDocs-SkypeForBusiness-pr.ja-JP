@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server のドメイン準備によって行われた変更
+title: Skype for Business Server でのドメインの準備によって行われた変更
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,39 +12,39 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
-description: 次の表に、ドメインの準備でドメインルート上に作成されるアクセス制御エントリ (Ace) を示します。 特に注記がない限り、すべての Ace が継承されます。
-ms.openlocfilehash: 8a087dfbbd8b670467727803f996694a816cc065
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 次の表は、ドメインを準備する際にドメイン ルートに作成されるアクセス制御エントリ (ACE) を示しています。特に注記のない限り、これらの ACE はすべて継承されます。
+ms.openlocfilehash: 46eaedb25ca245a5426314a8118be7443fb612e1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815545"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831907"
 ---
-# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Skype for Business Server のドメイン準備によって行われた変更
+# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Skype for Business Server でのドメインの準備によって行われた変更
  
-次の表に、ドメインの準備でドメインルート上に作成されるアクセス制御エントリ (Ace) を示します。 特に注記がない限り、すべての Ace が継承されます。
+次の表は、ドメインを準備する際にドメイン ルートに作成されるアクセス制御エントリ (ACE) を示しています。特に注記のない限り、これらの ACE はすべて継承されます。
   
-**ドメインルートに追加された Ace**
+**ドメイン ルートに追加された ACE**
 
-|**AS**|**RTCUniversal-UserReadOnly-グループ**|**RTCUniversal-ServerReadOnly-グループ**|**RTCUniversal-UserAdmins**|**RTCHSUniversal-サービス**|**認証済み-ユーザー**|
+|**ACE**|**RTCUniversal-UserReadOnly-Group**|**RTCUniversal-ServerReadOnly-Group**|**RTCUniversal-UserAdmins**|**RTCHSUniversal-Services**|**Authenticated-Users**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|読み取りコンテナー (継承されません)  <br/> |**はい** <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
-|ユーザー PropertySet の読み取りユーザーアカウントの制限  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
-|ユーザー PropertySet の個人情報を読む  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
-|ユーザー PropertySet の読み取りの概要-情報  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
-|ユーザー PropertySet パブリック情報を読む  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
-|ユーザー PropertySet RTCUserSearchProperty セットを読み取ります。  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |
-|ユーザー PropertySet RTCPropertySet を読む  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
-|ユーザープロパティプロキシアドレスの書き込み  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |
-|User PropertySet RTCUserSearchProperty セットの書き込み  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |
-|ユーザー PropertySet の書き込み RTCPropertySet  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |
-|PropertySet の DS-レプリケーション-すべての Active Directory オブジェクトの変更内容を確認する  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |いいえ  <br/> |
+|コンテナーの読み取り (継承されない)  <br/> |**○** <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
+|User-Account-Restrictions ユーザー プロパティ セットの読み取り  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
+|Personal-Information ユーザー プロパティ セットの読み取り  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
+|General-Information ユーザー プロパティ セットの読み取り  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
+|Public-Information ユーザー プロパティ セットの読み取り  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
+|RTCUserSearchProperty-Set ユーザー プロパティ セットの読み取り  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |
+|RTCPropertySet ユーザー プロパティ セットの読み取り  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
+|Proxy-Addresses ユーザー プロパティの書き込み  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |
+|RTCUserSearchProperty-Set ユーザー プロパティ セットの書き込み  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |
+|RTCPropertySet ユーザー プロパティ セットの書き込み  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |いいえ  <br/> |いいえ  <br/> |
+|すべての Active Directory オブジェクトの DS-Replication-Get-Changes プロパティ セットの読み取り  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |**はい** <br/> |いいえ  <br/> |
    
-次の表は、3つの組み込みコンテナー (ユーザー、コンピューター、ドメインコントローラー) で、ドメインの準備によって作成される Ace を示しています。 特に注記がない限り、すべての Ace が継承されます。
-**組み込みのコンテナーに追加された Ace**
+次の表は、ドメインを準備する際に 3 つの組み込みコンテナー (Users、Computers、および Domain Controllers) に作成される ACE を示しています。 特に注記のない限り、これらの ACE はすべて継承されます。
+**組み込みコンテナーに追加された ACE**
 
-|**AS**|**RTCUniversal-UserReadOnly-グループ**|**RTCUniversal-ServerReadOnly-グループ**|
+|**ACE**|**RTCUniversal-UserReadOnly-Group**|**RTCUniversal-ServerReadOnly-Group**|
 |:-----|:-----|:-----|
-|読み取りコンテナー (継承されません)  <br/> |**はい** <br/> |**はい** <br/> |
+|コンテナーの読み取り (継承されない)  <br/> |**○** <br/> |**○** <br/> |
    
 

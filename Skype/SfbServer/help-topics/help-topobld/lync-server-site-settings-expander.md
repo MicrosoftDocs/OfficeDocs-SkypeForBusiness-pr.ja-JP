@@ -1,8 +1,8 @@
 ---
 title: Lync Server サイト設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 description: 既存のサイトのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: 69555a04be4125e213ba2eca7afd7255100c0444
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: acfd7e312dbde97e847a9b97d9730a6d0b3488da
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217568"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832917"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server サイト設定エキスパンダー
 
@@ -36,9 +36,9 @@ ms.locfileid: "48217568"
 
 ## <a name="federation-route-properties"></a>フェデレーション ルートのプロパティ
 
-サイトのフェデレーションルートの割り当てを設定するには、最初にエッジサーバーまたはエッジサーバープールでフェデレーションを有効にする必要があります。 エッジ サーバーまたはプールでフェデレーションが有効になっていない場合、サイトのフェデレーション ルートの割り当てを変更できません。
+サイトのフェデレーション ルートの割り当てを設定するには、最初にエッジ サーバーまたはエッジ サーバー プールでフェデレーションを有効にする必要があります。 エッジ サーバーまたはプールでフェデレーションが有効になっていない場合、サイトのフェデレーション ルートの割り当てを変更できません。
 
-エッジサーバーまたはプールでフェデレーション設定が構成されている場合は、サイトレベルで [ **有効** ] を選択します。 次に、ドロップダウンリストから、フェデレーションルートとして設定するエッジまたはディレクターを選択します。
+エッジ サーバーまたはプールのフェデレーション設定が構成されている場合は、サイトレベルで [有効にする] を選択します。 次に、ドロップダウン リストからエッジまたはディレクターを選択し、フェデレーション ルートとして設定します。
 
 > [!CAUTION]
 > この設定はすべてのサイトに影響します。 このサイトで構成している設定がすべてのサイトに適切であることを確認してください。
