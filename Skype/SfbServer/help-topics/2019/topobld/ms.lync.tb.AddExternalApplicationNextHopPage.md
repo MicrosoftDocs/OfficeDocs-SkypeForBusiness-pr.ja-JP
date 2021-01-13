@@ -1,8 +1,8 @@
 ---
-title: 次ホップ信頼済みアプリケーション サーバーの追加
+title: 次ホップ信頼済みアプリケーション サーバーを追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 ROBOTS: NOINDEX, NOFOLLOW
-description: 信頼済みアプリケーションのサーバーまたはプールの次ホップを設定するには、次の操作を行います。
-ms.openlocfilehash: 9a38a5caa82405c45a14fe816c06f26e0a3525cb
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 信頼済みアプリケーション サーバーまたはプールの次ホップを設定するには、次の操作を行います。
+ms.openlocfilehash: 4b52bf66d97852c65462ad569372bf351bfb76cc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798304"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811827"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>次ホップ信頼済みアプリケーション サーバーの追加
  
-信頼済みアプリケーションのサーバーまたはプールの次ホップを設定するには、次の操作を行います。
+信頼済みアプリケーション サーバーまたはプールの次ホップを設定するには、次の操作を行います。
   
-[ **Next ホッププール**] ドロップダウンリストで、信頼されたアプリケーションプールが次のホップとして使用する Enterprise Edition プールまたは Standard Edition のフロントエンドサーバーを選びます。
+[**次ホップ プール**] ドロップダウン リストで、信頼済みアプリケーション プールで次ホップとして使用する Enterprise Edition プールまたは Standard Edition フロントエンド サーバーを選択します。
   
-[**完了**] をクリックして、信頼されているアプリケーションプールの作成を完了します。
+[**完了**] をクリックして、信頼済みアプリケーション プールの作成を完了します。
   
 

@@ -1,8 +1,8 @@
 ---
 title: アーカイブ サーバー スコープ ノード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[トポロジビルダー] では、アーカイブを実行しているサーバーに関連するタスクを実行するには、コンソールツリーでプールを右クリックし、[プロパティの編集] を選択します。 [プロパティの編集] ページで、アーカイブを実行しているサーバーの完全修飾ドメイン名 (FQDN)、アーカイブ SQL Server データベース、およびアーカイブ ファイル ストアを変更できます。'
-ms.openlocfilehash: 501697d7d6f369f80c4b030ba5391de83ff9c2df
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: トポロジ ビルダーでは、コンソール ツリーでプールを右クリックし、[プロパティの編集] を選択することで、アーカイブを実行しているサーバーに関連するタスクを実行できます。 [プロパティの編集] ページで、アーカイブを実行しているサーバーの完全修飾ドメイン名 (FQDN)、アーカイブ SQL Server データベース、およびアーカイブ ファイル ストアを変更できます。
+ms.openlocfilehash: 1ee80d5727e5059f3bb4e36e08b103e7120db800
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794065"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811517"
 ---
-# <a name="archiving-server-scope-node"></a>アーカイブ サーバー スコープ ノード
+# <a name="archiving-server-scope-node"></a>アーカイブ サーバーのスコープ ノード
  
-[トポロジビルダー] では、アーカイブを実行しているサーバーに関連するタスクを実行するには、コンソールツリーでプールを右クリックし、[**プロパティの編集**] を選択します。 [**プロパティの編集**] ページで、アーカイブを実行しているサーバーの完全修飾ドメイン名 (FQDN)、アーカイブ SQL Server データベース、およびアーカイブ ファイル ストアを変更できます。
+トポロジ ビルダーでは、コンソール ツリーでプールを右クリックし、[プロパティの編集] を選択することで、アーカイブを実行しているサーバーに関連するタスクを **実行できます**。 [**プロパティの編集**] ページで、アーカイブを実行しているサーバーの完全修飾ドメイン名 (FQDN)、アーカイブ SQL Server データベース、およびアーカイブ ファイル ストアを変更できます。
   
 

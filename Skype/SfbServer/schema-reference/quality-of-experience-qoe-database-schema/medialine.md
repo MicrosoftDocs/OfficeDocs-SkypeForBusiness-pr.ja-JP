@@ -1,8 +1,8 @@
 ---
 title: MediaLine ビュー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,67 +12,67 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
-description: MediaLine ビューには、データベース内の各メディアラインに関する情報が格納されます。 1つのオーディオセッションには通常、1つのオーディオメディアラインが含まれています。 通常、1つのオーディオとビデオ (A/V) セッションには、1つのオーディオメディアラインと1つのビデオメディアラインが含まれます。ただし、会議デバイスが使用されている場合、または [ギャラリー] ビューを使用している場合は、2つのビデオメディアがセッションに含まれている可能性があります。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: b22408ddc40f1df6452895327e8a67800ef24eb9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: メディア ライン ビューは、各メディア ラインに関する情報をデータベースに格納します。 通常、1 つの音声セッションに 1 つの音声メディア ラインが含まれます。 また、通常は 1 つの音声ビデオ (A/V) セッションに 1 つの音声メディア ラインと 1 つのビデオ メディア ラインが含まれますが、会議デバイスまたはギャラリー ビューが使用される場合は、セッションに 2 つのビデオ メディア ラインが含まれることがあります。 このビューは、Microsoft Lync Server 2013 で導入されました。
+ms.openlocfilehash: c31fe1c5b8f6ed97d49c695986ad14fd890ae26f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41808195"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802747"
 ---
 # <a name="medialine-view"></a>MediaLine ビュー
  
-MediaLine ビューには、データベース内の各メディアラインに関する情報が格納されます。 1つのオーディオセッションには通常、1つのオーディオメディアラインが含まれています。 通常、1つのオーディオとビデオ (A/V) セッションには、1つのオーディオメディアラインと1つのビデオメディアラインが含まれます。ただし、会議デバイスが使用されている場合、または [ギャラリー] ビューを使用している場合は、2つのビデオメディアがセッションに含まれている可能性があります。 このビューは、Microsoft Lync Server 2013 で導入されました。
+メディア ライン ビューは、各メディア ラインに関する情報をデータベースに格納します。 通常、1 つの音声セッションに 1 つの音声メディア ラインが含まれます。 また、通常は 1 つの音声ビデオ (A/V) セッションに 1 つの音声メディア ラインと 1 つのビデオ メディア ラインが含まれますが、会議デバイスまたはギャラリー ビューが使用される場合は、セッションに 2 つのビデオ メディア ラインが含まれることがあります。 このビューは、Microsoft Lync Server 2013 で導入されました。
   
-|**列**|**データ型**|**説明**|
+|**列**|**データ型**|**details**|
 |:-----|:-----|:-----|
-|ConferenceDateTime  <br/> |datetime  <br/> |[MediaLine テーブル](medialine-0.md)から参照されます。  <br/> |
-|SessionSeq  <br/> |int  <br/> |[MediaLine テーブル](medialine-0.md)から参照されます。  <br/> |
-|MediaLineLabel  <br/> |tinyint  <br/> |[MediaLine テーブル](medialine-0.md)から参照されます。  <br/> |
-|CallerIceWarningFlags  <br/> |int  <br/> |発信者の bits フラグで説明されている対話型接続確立 (ICE) プロセスに関する情報。 詳細については、「エクスペリエンスの品質監視サーバープロトコルの仕様」を参照してください。  <br/> |
-|CalleeIceWarningFlags  <br/> |int  <br/> |対話式接続確立 (ICE) プロセスについて詳しくは、「呼び出し先のビットフラグ」で説明します。 詳細については、「エクスペリエンスの品質監視サーバープロトコルの仕様」を参照してください。  <br/> |
-|セキュリティ  <br/> |tinyint  <br/> |セキュリティプロファイルが使用されています。 0は NONE、1は SRTP、2は V1 です。  <br/> |
-|Transport  <br/> |tinyint  <br/> |トランスポートの種類。 0は UDP、1は TCP です。  <br/> |
-|CallerIPAddr  <br/> |var (50)  <br/> |発信者の IP アドレス。 これは IPv4 または IPv6 のアドレスにすることができます。  <br/> |
-|CallerPort  <br/> |int  <br/> |発信者によって使用されるポート。  <br/> |
-|CallerInside  <br/> |bit  <br/> |発信者が組織のネットワーク内にあるかどうかを示します。 1発信者がエンタープライズネットワーク内にあることを意味します。 0は、発信者がネットワーク外であることを意味します。  <br/> |
-|CallerMacAddress  <br/> |varchar (256)  <br/> |発信者によって使用されるネットワークインターフェイスの MAC アドレスです。  <br/> |
-|CallerRelayIPAddr  <br/> |var (50)  <br/> |発信者によって使用される A/V Edge サービスの IP アドレス。 詳細については、 [IPAddress テーブル](ipaddress.md)を参照してください。 <br/> |
-|CalleeRelayPort  <br/> |int  <br/> |発信者が使用する A/V Edge サービスで使用されるポート。  <br/> |
-|CallerReflexiveIPAddr  <br/> |var (50)  <br/> |A/V Edge サービスによって報告された発信者の IP アドレス。 このアドレスは、クライアントが NAT の背後にある場合など、CallerIPAddr と異なる場合があります。  <br/> |
-|CallerCaptureDev  <br/> |varchar (256)  <br/> |発信者のキャプチャデバイス名。  <br/> |
-|CallerRenderDev  <br/> |varchar (256)  <br/> |発信者のレンダーデバイス名。  <br/> |
-|CallerCaptureDevDriver  <br/> |varchar (256)  <br/> |発信者のキャプチャデバイスドライバー名。  <br/> |
-|CallerRenderDevDriver  <br/> |varchar (256)  <br/> |発信者のレンダーデバイスドライバー名。  <br/> |
-|CallerWifiDriverDeviceDesc  <br/> |varchar (256  <br/> |発信者の Wifi ドライバーの説明。  <br/> |
-|CallerWifiDriverVersion  <br/> |varchar (256)  <br/> |発信者の Wifi ドライババージョン。  <br/> |
-|CalleeNetworkConnectionDetail  <br/> |varchar (256)  <br/> |発信者のネットワーク接続の詳細。 詳細については、「 [Networkconnectiondetail](networkconnectiondetail.md) 」の表を参照してください。 <br/> |
-|CallerBssid  <br/> |varchar (256)  <br/> |発信者の WiFi 接続で使用される基本サービスセット識別子。  <br/> |
-|CallerVPN  <br/> |bit  <br/> |発信者が仮想プライベートネットワーク経由で接続しているかどうかを示します。 1は仮想プライベートネットワーク (VPN)、0は非 VPN です。  <br/> |
-|CalleeIPAddr  <br/> |var (50)  <br/> |呼び出し先の IP アドレス。 これは IPv4 または IPv6 のアドレスにすることができます。  <br/> |
-|CalleePort  <br/> |int  <br/> |呼び出し先によって使用されるポート。  <br/> |
-|CalleeInside  <br/> |bit  <br/> |呼び出し先がエンタープライズネットワーク内にあるかどうかを示します。 1は、呼び出し先がエンタープライズネットワーク内にあることを意味します。0は、呼び出し先がネットワークの外部にあることを意味します。  <br/> |
-|CalleeMacAddress  <br/> |varchar (256)  <br/> |呼び出し先によって使用されるネットワークインターフェイスの MAC アドレスです。  <br/> |
-|CalleeRelayIPAddr  <br/> |var (50)  <br/> |呼び出し先によって使用される A/V エッジサービスの IP アドレス。 詳細については、 [IPAddress テーブル](ipaddress.md)を参照してください。 <br/> |
-|CalleeRelayPort  <br/> |int  <br/> |呼び出し先によって使用される A/V Edge サービスで使用されるポート。  <br/> |
-|CalleeReflexiveIPAddr  <br/> |var (50)  <br/> |A/V Edge サービスによって報告された呼び出し先の IP アドレス。 このアドレスは、クライアントが NAT の背後にある場合など、CalleeIPAddr と異なる場合があります。  <br/> |
-|Calleecapdev  <br/> |var (50)  <br/> |呼び出し先のキャプチャデバイス名。  <br/> |
-|Calle・ Enderdev  <br/> |varchar (256)  <br/> |呼び出し先のレンダリングデバイス名。  <br/> |
-|Calleecapdevdriver  <br/> |varchar (256)  <br/> |呼び出し先のキャプチャデバイスドライバー名。  <br/> |
-|CalleeRenderDevDriver  <br/> |varchar (256)  <br/> |呼び出し先のレンダリングデバイスドライバー名。  <br/> |
-|CalleeWifiDriverDeviceDesc  <br/> |varchar (256)  <br/> |呼び出し先の Wifi ドライバーの説明。  <br/> |
-|CalleeWifiDriverVersion  <br/> |varchar (256  <br/> |呼び出し先の Wifi ドライバーバージョン。  <br/> |
-|CalleeNetworkConnectionDetail  <br/> |varchar (256)  <br/> |呼び出し先のネットワーク接続の詳細。 詳細については、「 [Networkconnectiondetail](networkconnectiondetail.md) 」の表を参照してください。 <br/> |
-|CalleeBssid  <br/> |varchar (256)  <br/> |呼び出し先の WiFi 接続で使用される基本サービスセット識別子。  <br/> |
-|CalleeVPN  <br/> |bit  <br/> |呼び出し先が仮想プライベートネットワーク経由で接続されているかどうかを示します。 1は仮想プライベートネットワーク (VPN)、0は非 VPN です。  <br/> |
-|ConversationalMOS  <br/> |10進数 (3, 2)  <br/> |オーディオセッションの会話 MOS を Narrowband します (両方のオーディオストリームに基づく)。  <br/> |
-|AppliedBandwidthLimit  <br/> |int  <br/> |これは、さまざまなポリシー設定 (TURN、API、SDP、ポリシーサーバーなど) によって指定された send side stream に適用される実際の帯域幅です。 これは、帯域幅の推定値に基づいて低帯域幅を使用できるため、有効帯域幅と混同しないようにしてください。 これは基本的に最大帯域幅であり、送信ストリームは、帯域幅の推定値によって課された制限を受けません。  <br/> |
-|AppliedBandwidthSource  <br/> |varchar (256)  <br/> |適用される帯域幅キャップのソース。 帯域幅の制限の対象となる場所 (たとえば、"Policy Server"、"TURN Server"、"モダリティ" など) について説明します。  <br/> |
-|[発信者]  <br/> |bit  <br/> |呼び出し元からのメトリックが受信されたかどうかを示します。1は yes、0はいいえ。  <br/> |
-|[呼び出し先]  <br/> |bit  <br/> |通話レシーバーからのメトリックが受信されたかどうかを示します。1は yes、0はいいえ。  <br/> |
-|MidCallReport  <br/> |bit  <br/> |レポートが通話の一部であるか、または完了しているかを示します。  <br/> |
-|ClassifiedPoorCall  <br/> |bit  <br/> |通話が低品質通話 (1) として分類されたか、または良好な通話 (0) であるかを示します。  <br/> |
-|CallerConnectivityICE  <br/> |tinyint  <br/> |発信者が ICE プロトコル (インターネット接続の確立) を使ってネットワークに接続しているかどうかを示します。  <br/> |
-|CalleeConnectivityICE  <br/> |tinyint  <br/> |ユーザーが ICE プロトコル (インターネット接続の確立) を使ってネットワークに接続しているかどうかを示します。  <br/> |
+|ConferenceDateTime  <br/> |日付型  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
+|SessionSeq  <br/> |int  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
+|MediaLineLabel  <br/> |tinyint  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
+|CallerIceWarningFlags  <br/> |int  <br/> |発信者のビット フラグに記述される Interactive Connectivity Establishment (ICE) プロセスに関する情報。詳細については、「Quality of Experience Monitoring Server Protocol Specification」を参照してください。  <br/> |
+|CalleeIceWarningFlags  <br/> |int  <br/> |受信者についてビット フラグで記述される Interactive Connectivity Establishment (ICE) プロセスに関する情報。詳細については、「Quality of Experience Monitoring Server Protocol Specification」を参照してください。  <br/> |
+|セキュリティ  <br/> |tinyint  <br/> |使用するセキュリティ プロファイル。0 は NONE、1 は SRTP、2 は V1 です。  <br/> |
+|Transport  <br/> |tinyint  <br/> |トランスポートの種類。0 は UDP、1 は TCP です。  <br/> |
+|CallerIPAddr  <br/> |var(50)  <br/> |発信者の IP アドレス。IPv4 アドレスまたは IPv6 アドレスです。  <br/> |
+|CallerPort  <br/> |int  <br/> |発信者が使用するポート。  <br/> |
+|CallerInside  <br/> |bit  <br/> |発信者が組織のネットワーク内に存在するかどうかを示します。1 は、発信者がエンタープライズ ネットワーク内に存在することを示します。0 は、発信者がネットワーク外に存在することを示します。  <br/> |
+|CallerMacAddress  <br/> |varchar(256)  <br/> |発信者が使用するネットワーク インターフェイスの MAC アドレス。  <br/> |
+|CallerRelayIPAddr  <br/> |var(50)  <br/> |発信者が使用する音声ビデオ エッジ サービスの IPアドレス。 詳細については [、IPAddress の表](ipaddress.md) を参照してください。 <br/> |
+|CalleeRelayPort  <br/> |int  <br/> |発信者が使用する音声ビデオ エッジ サービスのポート。  <br/> |
+|CallerRepoweriveIPAddr  <br/> |var(50)  <br/> |音声 V エッジ サービスによって報告される発信者の IP アドレス。 クライアントが NAT の背後にある場合など、このアドレスが CallerIPAddr と異なることがあります。  <br/> |
+|CallerCaptureDev  <br/> |varchar(256)  <br/> |発信者のキャプチャ デバイス名。  <br/> |
+|CallerRenderDev  <br/> |varchar(256)  <br/> |発信者のレンダー デバイス名。  <br/> |
+|CallerCaptureDevDriver  <br/> |varchar(256)  <br/> |発信者のキャプチャ デバイス ドライバー名。  <br/> |
+|CallerRenderDevDriver  <br/> |varchar(256)  <br/> |発信者のレンダー デバイス ドライバー名。  <br/> |
+|CallerWifiDriverDeviceDesc  <br/> |varchar(256  <br/> |発信者の WiFi ドライバーの説明。  <br/> |
+|CallerWifiDriverVersion  <br/> |varchar(256)  <br/> |発信者の WiFi ドライバーのバージョン。  <br/> |
+|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |発信者のネットワーク接続の詳細。 詳細については [、NetworkConnectionDetail の表](networkconnectiondetail.md) を参照してください。 <br/> |
+|CallerBssid  <br/> |varchar(256)  <br/> |発信者の WiFi 接続で使用する基本サービス セット識別子。  <br/> |
+|CallerVPN  <br/> |bit  <br/> |発信者が仮想プライベート ネットワーク経由で接続しているかどうかを示します。1 は仮想プライベート ネットワーク (VPN)、0 は非 VPN です。  <br/> |
+|CalleeIPAddr  <br/> |var(50)  <br/> |通話受信者の IP アドレス。 IPv4 アドレスまたは IPv6 アドレスです。  <br/> |
+|CalleePort  <br/> |int  <br/> |呼び出し先が使用するポート。  <br/> |
+|CalleeInside  <br/> |bit  <br/> |通話受信者がエンタープライズ ネットワーク内に存在するかどうかを示します。1 は、通話受信者がエンタープライズ ネットワーク内に存在することを示し、0 は、通話受信者がネットワーク外に存在することを示します。  <br/> |
+|CalleeMacAddress  <br/> |varchar(256)  <br/> |通話受信者が使用するネットワーク インターフェイスの MAC アドレス。  <br/> |
+|CalleeRelayIPAddr  <br/> |var(50)  <br/> |通話受信者が使用する音声ビデオ エッジ サービスの IP アドレス。 詳細については [、IPAddress の表](ipaddress.md) を参照してください。 <br/> |
+|CalleeRelayPort  <br/> |int  <br/> |通話受信者が使用する音声ビデオ エッジ サービスのポート。  <br/> |
+|CalleeReiveIPAddr  <br/> |var(50)  <br/> |A/V エッジ サービスによって報告される呼び出し先の IP アドレス。 クライアントが NAT の背後にある場合など、このアドレスが CalleeIPAddr と異なることがあります。  <br/> |
+|CalleeCaptureDev  <br/> |var(50)  <br/> |呼び出し先のキャプチャ デバイス名。  <br/> |
+|CalleeRenderDev  <br/> |varchar(256)  <br/> |呼び出し先のレンダー デバイス名。  <br/> |
+|CalleeCaptureDevDriver  <br/> |varchar(256)  <br/> |呼び出し先のキャプチャ デバイス ドライバー名。  <br/> |
+|CalleeRenderDevDriver  <br/> |varchar(256)  <br/> |呼び出し先のレンダー デバイス ドライバー名。  <br/> |
+|CalleeWifiDriverDeviceDesc  <br/> |varchar(256)  <br/> |呼び出し先の Wifi ドライバーの説明。  <br/> |
+|CalleeWifiDriverVersion  <br/> |varchar(256  <br/> |呼び出し先の WiFi ドライバーのバージョン。  <br/> |
+|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |呼び出し先のネットワーク接続の詳細。 詳細については [、NetworkConnectionDetail の表](networkconnectiondetail.md) を参照してください。 <br/> |
+|CalleeBssid  <br/> |varchar(256)  <br/> |呼び出し先の WiFi 接続で使用される基本サービス セット識別子。  <br/> |
+|CalleeVPN  <br/> |bit  <br/> |通話受信者が仮想プライベート ネットワーク経由で接続しているかどうかを示します。1 は仮想プライベート ネットワーク (VPN)、0 は非 VPN です。  <br/> |
+|ConversationalMOS  <br/> |decimal(3,2)  <br/> |音声セッションの Narrowband Conversational MOS (音声ストリームに基づく)。  <br/> |
+|AppliedBandwidthLimit  <br/> |int  <br/> |これは、さまざまなポリシー設定 (TURN、API、SDP、ポリシー サーバーなど) が構成された特定の送信側ストリームに適用される実際の帯域幅です。この帯域幅を実効帯域幅と見なすことはできません。実効帯域幅は、帯域幅の評価に基づいて実際よりも低くなる可能性があります。これは基本的に、送信ストリームで利用できる最大帯域幅です (帯域幅の評価によって課せられる制限を除く)。  <br/> |
+|AppliedBandwidthSource  <br/> |varchar(256)  <br/> |適用されている帯域幅制限のソースです。 帯域幅制限の適用先 ("ポリシー サーバー"、"TURN Server"、"Modality" など) について説明します。  <br/> |
+|Caller  <br/> |bit  <br/> |発信者からの指標が受信されたかどうかを示します。1 は "はい"、0 は "いいえ" です。  <br/> |
+|呼び出し先  <br/> |bit  <br/> |通話受信者からの指標が受信されたかどうかを示します。1 は "はい"、0 は "いいえ" です。  <br/> |
+|MidCallReport  <br/> |bit  <br/> |レポートの対象が通話の一部か全部かを示します。  <br/> |
+|ClassifiedPoorCall  <br/> |bit  <br/> |通話が低品質通話 (1) と高品質通話 (0) のどちらに分類されたかを示します。  <br/> |
+|CallerConnectivityICE  <br/> |tinyint  <br/> |発信者が ICE プロトコル (Internet Connectivity Establishment) を使用してネットワークに接続したかどうかを示します。  <br/> |
+|CalleeConnectivityICE  <br/> |tinyint  <br/> |通話受信者が ICE プロトコル (Internet Connectivity Establishment) を使用してネットワークに接続したかどうかを示します。  <br/> |
    
 

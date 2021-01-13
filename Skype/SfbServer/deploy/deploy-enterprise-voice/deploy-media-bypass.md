@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server でメディアバイパスを展開する
+title: Skype for Business Server でのメディア バイパスの展開
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,40 +15,40 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
-description: Skype for Business Server Enterprise Voice でメディアバイパスを展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
-ms.openlocfilehash: 744fe56b554bd6b97171798e5dcc7baab69b6dbf
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Skype for Business Server サービスにメディア バイパスをエンタープライズ VoIP。 前提条件と展開プロセスのチェックリストが含まれます。
+ms.openlocfilehash: c6820438d969ce3c802060eba9bcababc0b1315d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767540"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812447"
 ---
-# <a name="deploy-media-bypass-in-skype-for-business-server"></a>Skype for Business Server でメディアバイパスを展開する
+# <a name="deploy-media-bypass-in-skype-for-business-server"></a>Skype for Business Server でのメディア バイパスの展開
  
-Skype for Business Server Enterprise Voice でメディアバイパスを展開します。 前提条件と展開プロセスのチェックリストも掲載しています。
+Skype for Business Server サービスにメディア バイパスをエンタープライズ VoIP。 前提条件と展開プロセスのチェックリストが含まれます。
   
-このトピックでは、少なくとも1つ以上の仲介サーバーと1つ以上のゲートウェイピアを使って、PSTN 接続を提供していることを前提としています。 これらのタスクの詳細については、「 [skype For Business server のトポロジビルダーに仲介サーバーを展開](deploy-a-mediation-server.md)する」と「 [Skype for Business Server のトポロジビルダーでゲートウェイを定義](define-a-gateway.md)する」を参照してください。
+このトピックでは、PSTN 接続を提供するために、少なくとも 1 つ以上の仲介サーバーと少なくとも 1 つのゲートウェイ ピアが既に公開および構成されていることを前提とします。 これらのタスクの詳細については [、「Deploy a Mediation Server in Topology Builder in Skype for Business Server」](deploy-a-mediation-server.md) および [「Define a gateway in Topology Builder in Skype for Business Server」](define-a-gateway.md)を参照してください。
   
- 接続するピアが SIP トランキング プロバイダーの SBC の場合は、プロバイダーが認定プロバイダーであることとプロバイダーがメディア バイパスをサポートしていることを確認してください。たとえば、多くの SIP トランキング プロバイダーが、その SBC に仲介サーバーからのトラフィックを受信することだけを許可します。その場合は、当該のトランクに対してバイパスを有効にしないでください。また、組織がその内部ネットワーク IP アドレスを SIP トランキング プロバイダーに公開していなければ、メディア バイパスを有効にすることはできません。
-  
-> [!NOTE]
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。 メディアのバイパスは、統合された通信の[オープンな相互運用性プログラム-Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406)でのみサポートされている製品とバージョンでのみサポートされます。 
-  
-もう 1 つの高度なエンタープライズ VoIP 機能に当たる、オプションの通話受付管理 (CAC) の構成が済んでいる場合は、通話受付管理が実行する帯域幅の予約がメディア バイパスを採用する通話に適用されないようにしてください。メディア バイパスが採用されているかどうかの検証は最初に行われます。採用されている場合は、その通話に対しては通話受付管理は使用されません。通話受付管理に対するチェックは、メディア バイパスのチェックが不合格の場合にのみ行われます。このため、PSTN にルーティングされる特定の通話に対して 2 つの機能がともに適用されることはありません。メディア バイパスは、通話のメディア エンドポイント間に帯域幅の制約がないことを前提にしているため、2 つの機能が両立しないという論理的結論にたどり着きます。メディア バイパスは、帯域幅制限のあるリンク上では実行できません。このことから、PSTN の通話には次のいずれかが適用されます。a) 仲介サーバーをメディア バイパスし、通話受付管理は通話に対して帯域幅を予約しない。または b) 通話受付管理が通話に帯域幅の予約を適用し、メディアはその通話に関わる仲介サーバーで処理される。
-  
-ピアに関連付けられている個々のトランク接続でメディア パイパスを有効にするほか、メディア バイパスをグローバルに有効にする必要もあります。グローバルなメディア バイパス設定では、PSTN への呼び出しで常にメディア バイパスを試行するか、ネットワーク サイトおよびネットワーク地域へのサブネットのマッピングを使用するメディア パイパスを採用するかを指定できます。後者の方法は、もう 1 つの高度な音声機能である通話受付管理での方法と似ています。メディア バイパスと通話受付管理が両方有効な場合は、ネットワーク地域、ネットワーク サイト、および通話受付管理用に指定されるサブネット情報が、メディア バイパスを使用するかどうかを決定する際に自動的に使用されます。つまり、通話受付管理が有効な場合は、PSTN の呼び出しで常にメディア バイパスを試行するよう指定することはできません。
+ 接続するピアが SIP トランキング プロバイダーの SBC である場合は、プロバイダーが認定プロバイダーであり、プロバイダーがメディア バイパスをサポートしている必要があります。 たとえば、多くの SIP トランキング プロバイダーは、SBC が仲介サーバーからのトラフィックの受信のみを許可します。 その場合は、問題のトランクに対してバイパスを有効にすることはできません。 また、組織が SIP トランキング プロバイダーに内部ネットワーク IP アドレスを公開しない限り、メディア バイパスを有効にすることはできません。
   
 > [!NOTE]
-> こうした手順を使用してメディア バイパスを構成する場合は、クライアントと仲介サーバー ピア (PSTN ゲートウェイ、IP-PBX、SIP トランキング プロバイダーでの SBC など) の間の接続状態が良好であることが前提です。 リンクに帯域幅制限があると、メディア バイパスを通話に適用できません。 メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるわけではありません。 マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。 メディアのバイパスは、統合された通信の[オープンな相互運用性プログラム-Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406)でのみサポートされている製品とバージョンでのみサポートされます。 
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。 Microsoft は、認定パートナーと一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行っています。 メディア バイパスは、Unified Communications Open Interoperability Program - Lync Server に記載されている製品とバージョン [でのみサポートされます](https://go.microsoft.com/fwlink/p/?linkId=214406)。 
+  
+もう 1 つの高度なエンタープライズ VoIP 機能に当たる、オプションの通話受付管理 (CAC) の構成が済んでいる場合は、通話受付管理が実行する帯域幅の予約がメディア バイパスを採用する通話に適用されないようにしてください。 メディア バイパスが採用されているかどうかの検証は最初に行われます。採用されている場合は、その通話に対しては通話受付管理は使用されません。通話受付管理に対するチェックは、メディア バイパスのチェックが不合格の場合にのみ行われます。 このため、PSTN にルーティングされる特定の通話に対して 2 つの機能がともに適用されることはありません。 メディア バイパスは、通話のメディア エンドポイント間に帯域幅の制約がないことを前提にしているため、2 つの機能が両立しないという論理的結論にたどり着きます。メディア バイパスは、帯域幅制限のあるリンク上では実行できません。 このことから、PSTN の通話には次のいずれかが適用されます。 a) 仲介サーバーをメディア バイパスし、通話受付管理は通話に対して帯域幅を予約しない。または b) 通話受付管理が通話に帯域幅の予約を適用し、メディアはその通話に関わる仲介サーバーで処理される。
+  
+ピアに関連付けられた個々のトランク接続でメディア バイパスを有効にできるだけでなく、メディア バイパスをグローバルに有効にする必要があります。 グローバル メディア バイパス設定では、PSTN への通話に対してメディア バイパスが常に試行される、またはネットワーク サイトおよびネットワーク地域へのサブネットのマッピングを使用してメディア バイパスが使用される (通話受付管理、もう 1 つの高度な音声機能) を指定できます。 メディア バイパスと通話受付管理の両方が有効になっている場合、通話受付管理用に指定されたネットワーク地域、ネットワーク サイト、およびサブネット情報は、メディア バイパスを使用するかどうかを決定するときに自動的に使用されます。 つまり、通話受付管理が有効な場合、メディア バイパスが常に PSTN への通話に対して試行されるという指定はできないことを意味します。
+  
+> [!NOTE]
+> こうした手順を使用してメディア バイパスを構成する場合は、クライアントと仲介サーバー ピア (PSTN ゲートウェイ、IP-PBX、または SIP トランキング プロバイダーでの SBC など) の間の接続状態が良好であることを前提とします。 リンクに帯域幅制限があると、メディア バイパスを通話に適用できません。 メディア バイパスは、あらゆる PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるわけではありません。 Microsoft は、認定パートナーと一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行っています。 メディア バイパスは、Unified Communications Open Interoperability Program - Lync Server に記載されている製品とバージョン [でのみサポートされます](https://go.microsoft.com/fwlink/p/?linkId=214406)。 
   
 ## <a name="deployment-process-for-media-bypass"></a>メディア バイパスの展開プロセス
 
-次の表に、メディア バイパスの展開プロセスの概要を示します。 
+次の表に、メディア バイパス展開プロセスの概要を示します。 
   
-|**フェーズ**|**手順**|**Roles**|**「展開」のドキュメント**|
+|**フェーズ**|**手順**|**Roles**|**展開のドキュメント**|
 |:-----|:-----|:-----|:-----|
-|メディア バイパスのトランクの構成  <br/> |メディア バイパスの 1 つ以上のトランクを構成します (まだ行っていない場合)。  <br/> | RTCUniversalServerAdmins group のメンバーであるか、CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーである <br/> |[Skype for Business Server でメディアバイパスを使用してトランクを構成する](configure-trunk-with-media-bypass.md) <br/> |
-|メディア バイパスをグローバルに構成する  <br/> |ネットワーク サイトおよびネットワーク地域に基づいて、PSTN へのすべての通話または特定の通話のメディア バイパスを構成します。  <br/> | RTCUniversalServerAdmins group のメンバーであるか、CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーである <br/> |[Skype for Business Server でメディアバイパスを構成して、常に仲介サーバーをバイパスする](bypass-the-mediation-server.md) <br/> [サイトと地域の情報を使用するために、Skype for Business Server でメディアを無視するグローバル設定を構成する](use-site-and-region-information.md) <br/> |
-|必要に応じたネットワーク サイトとサブネットの関連付け  <br/> |メディア バイパスを構成してサイトおよび地域の情報を使用するには、展開のサブネットをネットワーク サイトおよび地域に関連付ける必要があります (別の音声機能でまだ完了していない場合)。  <br/> | RTCUniversalServerAdmins group のメンバーであるか、CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーである <br/> |[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
+|メディア バイパスのトランクを構成する  <br/> |まだ構成していない場合は、メディア バイパス用に 1 つ以上のトランクを構成します。  <br/> | RTCUniversalServerAdmins グループのメンバー、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバー <br/> |[Skype for Business Server でメディア バイパスを使用してトランクを構成する](configure-trunk-with-media-bypass.md) <br/> |
+|メディア バイパスをグローバルに構成する  <br/> |PSTN へのすべての通話、またはネットワーク サイトとネットワーク地域に基づく特定の通話のメディア バイパスを構成します。  <br/> | RTCUniversalServerAdmins グループのメンバー、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバー <br/> |[Skype for Business Server でメディア バイパスを構成して、常に仲介サーバーをバイパスする](bypass-the-mediation-server.md) <br/> [サイトおよび地域情報を使用するために Skype for Business Server のメディア バイパス グローバル設定を構成する](use-site-and-region-information.md) <br/> |
+|サブネットをネットワーク サイトに関連付ける (必要な場合)  <br/> |メディア バイパスを構成してサイトおよび地域情報を使用する場合は、展開のサブネットをネットワーク サイトおよび地域に関連付ける必要があります (別の音声機能に対してまだ関連付けしていない場合)。  <br/> | RTCUniversalServerAdmins グループのメンバー、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバー <br/> |[サブネットをネットワーク サイトに関連付ける](deploy-network.md#BKMK_AssociateSubnets) <br/> |
    
 

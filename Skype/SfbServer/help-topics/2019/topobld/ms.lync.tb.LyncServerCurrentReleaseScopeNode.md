@@ -1,8 +1,8 @@
 ---
-title: Lync Server 2013 の新規作成エキスパンダー
+title: Lync Server 2013 新規作成の展開
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[Lync server 2013] を右クリックし、[新規作成] を選択して、作成するサーバーの役割を選ぶと、トポロジビルダーの Lync Server 2013 ノードで新しいサーバーの役割を作成できます。'
-ms.openlocfilehash: 67a8416e02f98fc396237c3601b2208a2557396b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Lync Server 2013 を右クリックし、[新規] を選択して、作成するサーバーの役割を選択すると、トポロジ ビルダーの Lync Server 2013 ノードに新しいサーバーの役割を作成できます。
+ms.openlocfilehash: 851c457598f1abf21e19f6c391ce85164991d84b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796266"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811127"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a>Skype for Business Server の新しい展開コントロールの作成
+# <a name="skype-for-business-server-create-new-expander"></a>Skype for Business Server の新しい展開の作成
  
-トポロジビルダーで新しいサーバーロールを作成するには、[ **Skype For Business server**] を右クリックし、[**新規**] を選択して、作成するサーバーの役割を選びます。
+トポロジ ビルダーで新しいサーバーの役割を作成するには **、Skype for Business Server** を右クリックし、[新規] を選択して、作成するサーバーの役割を選択します。
   
 

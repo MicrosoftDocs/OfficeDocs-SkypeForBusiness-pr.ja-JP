@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalMemberDifference
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,30 +12,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-description: tblPrincipalMemberDifference には、後の Active Directory ドメインサービスの同期手順でまだ処理されていないグループメンバーシップの変更 (メンバーの追加と削除) が含まれています。
-ms.openlocfilehash: c7e965658c9e351a7a2d079921b7abe8166b48ad
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalMemberDifference には、グループ メンバーシップの変更 (メンバーの追加と削除の両方) が含まれます。この変更は、Active Directory ドメイン サービスの同期の後の手順でまだ処理されていません。
+ms.openlocfilehash: 8fac76f1abfbd55d13d89c96bb23a6953d38edf9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814075"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809707"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
-tblPrincipalMemberDifference には、後の Active Directory ドメインサービスの同期手順でまだ処理されていないグループメンバーシップの変更 (メンバーの追加と削除) が含まれています。
+tblPrincipalMemberDifference には、グループ メンバーシップの変更 (メンバーの追加と削除の両方) が含まれます。この変更は、Active Directory ドメイン サービスの同期の以降の手順でまだ処理されていません。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|prinGuid  <br/> |GUID、null ではない  <br/> |変更されたグループのプリンシパル GUID。  <br/> |
+|prinGuid  <br/> |NULL でない GUID  <br/> |変更されたグループのプリンシパル GUID。  <br/> |
 |memberADPath  <br/> |nvarchar (256)  <br/> |メンバーの識別名。  <br/> |
-|メンバーの削除  <br/> |ビット、null ではない  <br/> |メンバーが追加された場合は False。 メンバーが削除された場合は True です。  <br/> |
+|memberRemoved  <br/> |NULL でない bit  <br/> |メンバーが追加された場合は False。メンバーが削除された場合は True。  <br/> |
    
-**Key**
+**キー**
 
 |**列**|**説明**|
 |:-----|:-----|
-|\<prinGuid、memberADPath\>  <br/> |主キー。  <br/> |
+|\<prinGuid, memberADPath\>  <br/> |主キー。  <br/> |
    
 

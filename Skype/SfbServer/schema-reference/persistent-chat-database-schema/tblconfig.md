@@ -1,8 +1,8 @@
 ---
 title: tblConfig
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-description: tblConfig には、一部の常設チャットサーバーでサポートされない構成が1つの行に含まれています。
-ms.openlocfilehash: f79af00d6a9f97f0ce0836684a284779be662c1d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblConfig には、一部の常設チャット サーバーでサポートされていない構成が 1 行に含まれている。
+ms.openlocfilehash: 614e4e6514d695777c39a9d76482f775bd1a0981
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814625"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809737"
 ---
 # <a name="tblconfig"></a>tblConfig
  
-tblConfig には、一部の常設チャットサーバーでサポートされない構成が1つの行に含まれています。
+tblConfig には、一部の常設チャット サーバーでサポートされていない構成が 1 行に含まれている。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|configLabel  <br/> |nvarchar (255)、null ではない  <br/> |[プール] が含まれています。  <br/> |
-|configContent  <br/> |nvarchar (max)  <br/> |構成コンテンツ。  <br/> |
-|configPoolID  <br/> |GUID、null ではない  <br/> |データベースインスタンスの一意の ID。  <br/> |
+|configLabel  <br/> |NULL でない nvarchar (255)  <br/> |"プール" を含みます。  <br/> |
+|configContent  <br/> |nvarchar (max)  <br/> |構成の内容です。  <br/> |
+|configPoolID  <br/> |NULL でない GUID  <br/> |データベース インスタンスの一意の識別子。  <br/> |
    
-**Key**
+**キー**
 
 |**列**|**説明**|
 |:-----|:-----|

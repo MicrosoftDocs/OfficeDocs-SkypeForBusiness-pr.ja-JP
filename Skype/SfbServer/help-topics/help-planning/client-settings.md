@@ -1,8 +1,8 @@
 ---
-title: Client Settings (Planning Tool)
+title: クライアント設定 (計画ツール)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,16 +15,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
-description: Skype for Business Server 2015 のモバイル機能は、モバイルデバイスでの Skype for Business の機能をサポートしています。 詳細については、「Planning for Mobility」を参照してください。
-ms.openlocfilehash: 54840c769848dfb0079127e9d11165edcc27b2c3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server 2015 のモビリティ機能は、モバイル デバイスで Skype for Business 機能をサポートします。 詳細については、「Planning for Mobility」を参照してください。
+ms.openlocfilehash: d883478f29d3a2a3a85e11f72281b77f48cd9222
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821539"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810557"
 ---
-# <a name="client-settings-planning-tool"></a>Client Settings (Planning Tool)
+# <a name="client-settings-planning-tool"></a>クライアント設定 (計画ツール)
 
-Skype for Business Server 2015 のモバイル機能は、モバイルデバイスでの Skype for Business の機能をサポートしています。 詳細については、「[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)」を参照してください。
+Skype for Business Server 2015 のモビリティ機能は、モバイル デバイスで Skype for Business 機能をサポートします。 詳細については [、「Planning for Mobility 」を参照してください](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)。
 
 

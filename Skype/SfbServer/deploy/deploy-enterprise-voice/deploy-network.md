@@ -1,8 +1,8 @@
 ---
-title: Skype for Business でネットワークのリージョン、サイト、サブネットを展開する
+title: Skype for Business でのネットワーク地域、サイト、サブネットの展開
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,35 +15,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-description: Skype for Business Server のネットワーク領域、ネットワークサイト、ネットワークサブネットの関連付けを作成または変更します。 これらはすべて、高度なエンタープライズ Voip 機能 (メディアバイパス、通話受付制御、位置ベースのルーティング) に使用されます。
-ms.openlocfilehash: e181e8fffc431db67e0e597f3e8dccba710efdd5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: ネットワーク地域、ネットワーク サイトを作成または変更し、Skype for Business Server でネットワーク サブネットを関連付ける。 これらすべては、メディア バイパス、通話受付エンタープライズ VoIP場所に基づくルーティングなど、高度なネットワーク機能に使用されます。
+ms.openlocfilehash: 408715cb1baa31e1fe864827a2b2a14d8e4788c6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767520"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812437"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Skype for Business でネットワークのリージョン、サイト、サブネットを展開する
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Skype for Business でのネットワーク地域、サイト、サブネットの展開
 
-Skype for Business Server のネットワーク領域、ネットワークサイト、ネットワークサブネットの関連付けを作成または変更します。 これらはすべて、高度なエンタープライズ Voip 機能 (メディアバイパス、通話受付制御、位置ベースのルーティング) に使用されます。
+ネットワーク地域、ネットワーク サイトを作成または変更し、Skype for Business Server でネットワーク サブネットを関連付ける。 これらすべては、メディア バイパス、通話受付エンタープライズ VoIP場所に基づくルーティングなど、高度なネットワーク機能に使用されます。
 
-高度なエンタープライズ Voip 機能には、[通話受付制御](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[メディアのバイパス](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[位置情報に基づくルーティング](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)、E9-1 [-](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)1 があります。 これらの各機能を使用するには、ネットワーク地域、ネットワーク サイト、サブネットを作成する必要があります。 たとえば、これらの各機能では、トポロジ内にある各サブネットを特定のネットワーク サイトに関連付け、各ネットワーク サイトをネットワーク地域に関連付ける必要があります。 これらの用語の詳細については、「 [Skype For Business Server の高度なエンタープライズ voip 機能のネットワーク設定](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)」を参照してください。
+高度なエンタープライズ VoIPは、 [通話受付管理](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、メディア [バイパス](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、場所に基づく [ルーティング](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)、 [および E9-1-1 です](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)。 これらの機能はすべて、ネットワーク地域、ネットワーク サイト、およびサブネットを作成する必要があります。 たとえば、これらのすべての機能では、トポロジ内の各サブネットを特定のネットワーク サイトに関連付け、各ネットワーク サイトをネットワーク地域に関連付けする必要があります。 これらの用語の詳細については、Skype for Business Server の高度な エンタープライズ VoIP機能のネットワーク [設定を参照してください](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)。
 
 通話受付管理および E9-1-1 には、ネットワーク サイトの追加構成要件があります。
 
-- 通話受付管理では、WAN の帯域幅が制限されているサイトごとに帯域幅ポリシー プロファイルを指定する必要があります。 通話受付制御の展開を計画している場合は、ネットワークサイトを構成する前に、 [Skype For Business Server で帯域幅ポリシープロファイルを作成](create-bandwidth-policy-profiles.md)する必要があります。
+- 通話受付管理では、WAN の帯域幅が制限されているサイトごとに帯域幅ポリシー プロファイルを指定する必要があります。 通話受付管理を展開する場合は、ネットワーク サイトを構成する前に [、Skype for Business Server](create-bandwidth-policy-profiles.md) で帯域幅ポリシー プロファイルを作成する必要があります。
 
-- E9-1-1 では、サイトごとに 場所のポリシーを指定する必要があります。 E9 の展開を計画している場合は、ネットワークサイトを構成する前に、 [Skype For Business Server で位置情報ポリシーを作成](create-location-policies.md)する必要があります。
+- E9-1-1 では、サイトごとに場所のポリシーを指定する必要があります。 E9-1-1 を展開する場合は、ネットワーク サイトを構成する前に [、Skype for Business Server](create-location-policies.md) で場所ポリシーを作成する必要があります。
 
-## <a name="create-or-modify-a-network-region"></a>ネットワーク地域の作成または変更
+## <a name="create-or-modify-a-network-region"></a>ネットワーク地域を作成または変更する
 
-これらの機能のいずれかに対して既にネットワークの領域を作成している場合は、新しいネットワークの領域を作成する必要はありません。その他の高度なエンタープライズ Voip 機能でも、同じネットワーク領域が使用されます。
+これらの機能の 1 つについて既にネットワーク地域を作成している場合は、新しいネットワーク地域を作成する必要があります。その他の高度エンタープライズ VoIPは、同じネットワーク地域を使用します。
 
-ただし、機能固有の設定を適用するために、ネットワーク地域に関する既存の定義に変更を加える必要が生じることがあります。たとえば、E9-1-1 用のネットワーク地域を作成し (この場合は関連付けられた中央サイトは必要ありません)、次に通話受付管理を展開する場合は、中央サイトを指定するためにネットワーク地域の定義を変更する必要があります。
+ただし、機能固有の設定を適用するために、既存のネットワーク地域定義を変更することが必要になる場合があります。 たとえば、E9-1-1 のネットワーク地域を作成し (関連付けられた中央サイトを必要としない)、通話受付管理を展開した場合は、中央サイトを指定するためにネットワーク地域定義を変更する必要があります。
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワークの領域を作成するには
+### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワーク地域を作成するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
 
 2. New-CsNetworkRegion コマンドレットを実行してネットワーク地域を作成します。
 
@@ -51,19 +51,19 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
    New-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
-    次に例を示します。
+    次にその例を示します。
 
    ```powershell
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
    ```
 
-    この例では、サイト ID がシカゴのセントラルサイトに関連付けられた "NorthAmerica" というネットワーク領域を作成しました。
+    この例では、サイト ID CHICAGO を持つ中央サイトに関連付けられた "NorthAmerica" というネットワーク地域を作成しました。
 
 3. トポロジでのネットワーク地域の作成を完了するには、ネットワーク地域ごとの設定値を使用してステップ 2 を繰り返します。
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用してネットワークの領域を作成するには
+### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してネットワーク地域を作成するには
 
-1. Skype for Business Server コントロールパネルを開きます。
+1. Skype for Business Server コントロール パネルを開きます。
 
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
@@ -81,9 +81,9 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 9. トポロジでのネットワーク地域の作成を完了するには、その他の地域の設定値を使用してステップ 4 ～ 8 を繰り返します。
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワークの地域を変更するには
+### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワーク地域を変更するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
 
 2. Set-CsNetworkRegion コマンドレットを実行して、既存のネットワーク地域を変更します。
 
@@ -91,19 +91,19 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
    Set-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
-    次に例を示します。
+    次にその例を示します。
 
    ```powershell
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
-    この例では、説明を変更することで、"NorthAmerica" という既存のネットワーク領域 (前述の手順を使用して作成) を変更しました。 "NorthAmerica" 領域の説明が存在する場合、このコマンドによってこの値が上書きされます。説明が設定されていない場合は、このコマンドによって設定されます。
+    この例では、説明を変更して、"NorthAmerica" という名前の既存のネットワーク地域 (このトピックの前の手順を使用して作成) を変更しました。 "NorthAmerica" 領域の説明が存在する場合は、このコマンドによってこの値が上書きされます。説明が設定されていない場合は、このコマンドで設定します。
 
 3. その他のネットワーク地域を変更するには、その他の地域の設定値を使用してステップ 2 を繰り返します。
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用してネットワークの地域を変更するには
+### <a name="to-modify-a-network-region-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してネットワーク地域を変更するには
 
-1. Skype for Business Server コントロールパネルを開きます。
+1. Skype for Business Server コントロール パネルを開きます。
 
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
@@ -113,19 +113,19 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 5. [**編集**] をクリックして、[**詳細の表示...**] をクリックします。
 
-6. [**領域の編集**] ページで、必要に応じて、このネットワーク領域の設定の値を変更します。
+6. [地域 **の編集]** ページで、このネットワーク地域の設定の値を必要に応じて変更します。
 
-7. [**コミット**] をクリックします。
+7. [**確定**] をクリックします。
 
 8. ネットワーク地域の変更を完了するには、他の地域の設定値を使用してステップ 4 ～ 7 を繰り返します。
 
-## <a name="create-or-modify-a-network-site"></a>ネットワーク サイトの作成または変更
+## <a name="create-or-modify-a-network-site"></a>ネットワーク サイトを作成または変更する
 
-これらの機能のいずれかに対して既にネットワークサイトを作成している場合は、新しいネットワークサイトを作成する必要はありません。その他の高度なエンタープライズ Voip 機能でも、同じネットワークサイトが使用されます。 ただし、機能固有の設定を適用するには、既存のネットワークサイト定義を変更する必要がある場合があります。 たとえば、E9 のネットワークサイトを作成した場合、通話受付制御の展開中にネットワークサイトを変更して、帯域幅ポリシープロファイルを適用する必要があります。
+これらの機能の 1 つについて既にネットワーク サイトを作成している場合は、新しいネットワーク サイトを作成する必要があります。その他の高度エンタープライズ VoIPは、同じネットワーク サイトを使用します。 ただし、機能固有の設定を適用するために、既存のネットワーク サイト定義を変更する必要がある場合があります。 たとえば、E9-1-1 のネットワーク サイトを作成した場合は、通話受付管理の展開時にネットワーク サイトを変更して帯域幅ポリシー プロファイルを適用する必要があります。
 
-### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワークサイトを作成するには
+### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワーク サイトを作成するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
 
 2. New-CsNetworkSite コマンドレットを実行して、ネットワーク サイトを作成します。
 
@@ -133,22 +133,22 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
    New-CsNetworkSite -NetworkSiteID <string>
    ```
 
-    次に例を示します。
+    次にその例を示します。
 
    ```powershell
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
    ```
 
-    この例では、"NorthAmerica" ネットワーク領域内に "シカゴ" というネットワークサイトを作成しました。
+    この例では、"NorthAmerica" ネットワーク地域に "Chicago" というネットワーク サイトを作成しました。
 
     > [!NOTE]
     > このコマンドを正常に実行するには、NorthAmerica ネットワーク地域があらかじめ存在する必要があります。
 
-3. トポロジのネットワーク サイトを作成するには、他のサイトの設定値を使用してステップ 2 を繰り返します。
+3. トポロジのネットワーク サイトを作成するには、他のサイトの設定に関してステップ 2 を繰り返します。
 
-### <a name="to-create-a-network-site-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用してネットワークサイトを作成するには
+### <a name="to-create-a-network-site-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してネットワーク サイトを作成するには
 
-1. Skype for Business Server コントロールパネルを開きます。
+1. Skype for Business Server コントロール パネルを開きます。
 
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
@@ -174,11 +174,11 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 10. [**確定**] をクリックします。
 
-11. 使用しているトポロジのネットワーク サイトの作成を完了するには、他のサイトの設定値を使用してステップ 4 ～ 10 を繰り返します。
+11. 他のサイトについての設定に関してステップ 4 ～ 10 を繰り返し、ご使用のトポロジのネットワーク サイトの作成を完了します。
 
-### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワークサイトを変更するには
+### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワーク サイトを変更するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
 
 2. Set-CsNetworkSite コマンドレットを実行して、ネットワーク サイトを変更します。
 
@@ -186,22 +186,22 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
    Set-CsNetworkSite -Identity <string>
    ```
 
-    例:
+    次にその例を示します。
 
    ```powershell
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
    ```
 
-    この例では、"アルバカーキ" という名前のサイトが "NorthAmerica" ネットワークの領域に移動されます。 ネットワーク サイトの構成を変更して、通話受付管理、E9-1-1、またはメディア バイパスを展開するには、Set-CsNetworkSite コマンドレットをそれぞれ BWPolicyProfileID または LocationPolicy パラメーターと組み合わせて実行し、ネットワーク サイトの設定を変更します。
+    この例では、"Albuquerque" というサイトを "NorthAmerica" ネットワーク地域に移動します。 ネットワーク サイトの構成を変更して、通話受付管理、E9-1-1、またはメディア バイパスを展開するには、Set-CsNetworkSite コマンドレットをそれぞれ BWPolicyProfileID または LocationPolicy パラメーターと組み合わせて実行し、ネットワーク サイトの設定を変更します。
 
     > [!NOTE]
-    > メディア バイパス用に BypassID パラメーターが用意されていますが、自動生成されるバイパス ID を上書きしないことを強くお勧めします。 メディア バイパス用にネットワーク サイトを構成するために、追加パラメーターを指定する必要はありません。
+    > メディア バイパス用に BypassID パラメーターが用意されていますが、自動生成されるバイパス ID を無効にしないことを強くお勧めします。 メディア バイパス用にネットワーク サイトを構成するために、追加パラメーターを指定する必要はありません。
 
-3. 使用しているトポロジのネットワーク サイトの変更を完了するには、他のサイトの設定値を使用してステップ 2 を繰り返します。
+3. 他のサイトについての設定に関してステップ 2 を繰り返し、ご使用のトポロジのネットワーク サイトの変更を完了します。
 
-### <a name="to-modify-a-network-site-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用してネットワークサイトを変更するには
+### <a name="to-modify-a-network-site-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してネットワーク サイトを変更するには
 
-1. Skype for Business Server コントロールパネルを開きます。
+1. Skype for Business Server コントロール パネルを開きます。
 
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
@@ -211,22 +211,22 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 5. [**編集**] をクリックして、[**詳細の表示...**] をクリックします。
 
-6. [**サイトの編集**] ページで、必要に応じて、このネットワークサイトの設定の値を変更します。
+6. [サイト **の編集]** ページで、このネットワーク サイトの設定の値を必要に応じて変更します。
 
 7. [**確定**] をクリックします。
 
-8. ネットワーク サイトの変更を完了するには、他のサイトの設定値を使用してステップ 4 ～ 7 を繰り返します。
+8. 他のサイトについての設定に関してステップ 4 ～ 7 を繰り返し、ネットワーク サイトの変更を完了します。
 
-## <a name="associate-a-subnet-with-a-network-site"></a>ネットワーク サイトとサブネットの関連付け
+## <a name="associate-a-subnet-with-a-network-site"></a>サブネットをネットワーク サイトに関連付ける
 <a name="BKMK_AssociateSubnets"> </a>
 
-ネットワーク内のすべてのサブネットは、新しいセッションが開始されている間、エンドポイントが配置されているネットワークサイトを特定するために使用されるため、サブネット情報が特定のネットワークサイトと関連付けられている必要があります。 セッションの各パーティの場所がわかっている場合は、高度なエンタープライズ音声機能を使用して、通話の設定またはルーティングを処理する方法を決定するためにその情報を適用することができます。
+新しいセッションの開始中にエンドポイントが位置するネットワーク サイトを決定するためにサブネット情報が使用されるので、ネットワーク内のすべてのサブネットは特定のネットワーク サイトに関連付けられている必要があります。 セッション内の各パーティの場所が既知の場合、高度な エンタープライズ VoIP 機能を使用して、通話のセットアップまたはルーティングを処理する方法を決定できます。
 
-展開内の音声ビデオ エッジ サーバーの構成済みパブリック IP アドレスはすべて、ネットワーク構成設定に追加する必要があります。 これらの IP アドレスは、マスク値 32 のサブネットとして追加されます。 関連付けられたネットワーク サイトは、適切な構成済みネットワーク サイトに対応する必要があります。 たとえば、セントラルサイトシカゴの A/V エッジサービスに対応するパブリック IP アドレスは、NetworkSiteID シカゴになります。
+展開内の音声ビデオ エッジ サーバーの構成済みパブリック IP アドレスはすべて、ネットワーク構成設定に追加する必要があります。 これらの IP アドレスは、マスク値 32 のサブネットとして追加されます。 関連付けられたネットワーク サイトは、適切な構成済みネットワーク サイトに対応する必要があります。 たとえば、中央サイト Chicago の A/V エッジ サービスに対応するパブリック IP アドレスは NetworkSiteID Chicago です。
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してサブネットをネットワークサイトに関連付けるには
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してサブネットをネットワーク サイトに関連付ける方法
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
 
 2. **New-CsNetworkSubnet** コマンドレットを実行して、サブネットをネットワーク サイトに関連付けます。
 
@@ -234,13 +234,13 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
-    次に例を示します。
+    例:
 
    ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
    ```
 
-    この例では、サブネット172.11.12.13 とネットワークサイト "シカゴ" の間の関連付けを作成しました。
+    この例では、サブネット 172.11.12.13 とネットワーク サイト "Chicago" の間に関連付けを作成しました。
 
 3. トポロジのすべてのサブネットに対して、ステップ 2 を繰り返します。
 
@@ -258,17 +258,17 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
 
-3. 次のコマンドレットを実行して、**サブネット .csv**をインポートし、その内容を Lync Server 管理ストアに保存します。
+3. 次のコマンドレットを実行して **subnet.csvインポート** し、その内容を Lync Server 管理ストアに格納します。
 
    ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用してサブネットをネットワークサイトに関連付けるには
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してサブネットをネットワーク サイトに関連付ける方法
 
-1. Skype for Business Server コントロールパネルを開きます。
+1. Skype for Business Server コントロール パネルを開きます。
 
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
 
@@ -276,24 +276,24 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
 4. [**新規**] をクリックします。
 
-5. [**新しいサブネット**] ページで、[**サブネット ID**] をクリックし、ネットワーク サイトに関連付けるサブネットで定義される IP アドレス範囲の最初のアドレスを入力します。
+5. [**新しいサブネット**] ページで、[**サブネット ID**] をクリックし、サブネットで定義される IP アドレス範囲の最初のアドレスを入力します。このサブネットは、ネットワーク サイトに関連付けるネットワークです。
 
 6. [**マスク**] をクリックし、サブネットに適用するビットマスクを入力します。
 
-7. [**ネットワーク サイト ID**] をクリックし、このサブネットの追加先となるサイトのサイト ID を選択します。
+7. [**ネットワーク サイト ID**] をクリックし、このサブネットを追加する先のサイトのサイト ID を選択します。
 
     > [!NOTE]
-    > ネットワーク サイトがまだ作成されていない場合、この一覧は空です。 手順の詳細については、「[Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)」を参照してください。 また、**Get-CsNetworkSite** コマンドレットを実行して、展開のサイト ID を取得することもできます。 詳細については、「Skype for Business Server 管理シェルのドキュメント」を参照してください。
+    > ネットワーク サイトがまだ作成されていない場合、この一覧は空です。 手順の詳細については、「[Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx)」を参照してください。 また、**Get-CsNetworkSite** コマンドレットを実行して、展開のサイト ID を取得することもできます。 詳細については、Skype for Business Server 管理シェルのドキュメントを参照してください。
 
-8. オプションで、[**説明**] をクリックし、このサブネットを説明する追加情報を入力します。
+8. 必要に応じて、[**説明**] をクリックし、このサブネットを説明する追加情報を入力します。
 
 9. [**確定**] をクリックします。
 
-これらのステップを繰り返して、その他のサブネットをネットワーク サイトに追加します。
+その他のサブネットをネットワーク サイトに追加するには、これらのステップを繰り返します。
 > [!NOTE]
-> ネットワークに存在するが、サブネットに関連付けられていない、または IP アドレスを含むサブネットがネットワークサイトに関連付けられていない IP アドレスのリストを指定して、キー正常性インジケータ (KHI) アラートが発生します。 このアラートは8時間以内に複数回発生することはありません。
+> キー正常性インジケーター (KHI) アラートが発生し、ネットワークに存在するがサブネットに関連付けされていない IP アドレスの一覧を指定するか、IP アドレスを含むサブネットがネットワーク サイトに関連付けされていないかのどちらかを指定します。 この警告は、8 時間以内に 1 回だけ発生しません。
 
-関連する通知情報と例を以下に示します。
+関連するアラート情報と例を次に示します。
 
  **ソース**: CS 帯域幅ポリシー サービス (コア)
 
@@ -301,7 +301,7 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 
  **レベル**: 2
 
- **説明**: 次の ip アドレスのサブネット: \<ip アドレス\>の一覧が構成されていないか、サブネットがネットワークサイトに関連付けられていません。
+ **説明**: 次の IP アドレスのサブネット: 構成されていないか、またはサブネットがネットワーク サイトに関連 \<List of IP Addresses\> 付けされていません。
 
  **原因**: 対応する IP アドレスのサブネットがネットワーク構成設定にないか、サブネットがネットワーク サイトに関連付けられていません。
 
@@ -317,19 +317,19 @@ Skype for Business Server のネットワーク領域、ネットワークサイ
 <a name="BKMK_AssociateSubnets"> </a>
 
 
-[新しい CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
 
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
 
 [Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregion?view=skype-ps)
 
-[CsNetworkRegion の削除](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
+[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
 
-[新しい-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
+[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
 
 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
 
 [Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
 
-[CsNetworkSubnet の削除](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+[Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
 

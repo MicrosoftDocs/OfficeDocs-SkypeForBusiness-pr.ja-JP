@@ -1,8 +1,8 @@
 ---
 title: PIN 設定の成功
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 ROBOTS: NOINDEX, NOFOLLOW
-description: メールを使ってユーザーに PIN を送信するには、[電子メールアプリケーションを開く] をクリックして、新しい PIN をユーザーに送信します。 PIN をメールメッセージにコピーするには、[PIN の表示] を選択します。
-ms.openlocfilehash: c55f89304168e12e63477e234b7f2a7fa7c60104
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 電子メールを使用してユーザーに PIN を送信するには、[電子メール アプリケーションを開いて新しい PIN をユーザーに送信する] をクリックします。 PIN を電子メール メッセージにコピーするには、[PIN の表示] を選択します。
+ms.openlocfilehash: 2eec6b6912a690871aad6805615abbe57a00d1ef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794946"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812157"
 ---
 # <a name="pin-set-successfully"></a>PIN 設定の成功
  
-メールを使ってユーザーに PIN を送信するには、[**電子メールアプリケーションを開く] をクリックして、新しい pin をユーザーに送信**します。 PIN をメールメッセージにコピーするには、[ **pin の表示**] を選択します。 
+電子メールを使用してユーザーに PIN を送信するには、[**電子メール アプリケーションを開いて新しい PIN をユーザーに送信する**] をクリックします。PIN を電子メール メッセージにコピーするには、[**PIN の表示**] を選択します。 
   
  
   

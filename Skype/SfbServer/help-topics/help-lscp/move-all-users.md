@@ -1,8 +1,8 @@
 ---
 title: すべてのユーザーの移動
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: '[ユーザーの移動] ダイアログ ボックスでは、展開内のプール間でユーザー アカウントを移動する場合の、移動元プールと移動先プールを選択できます。'
-ms.openlocfilehash: 0801ae8abefab3479b166e9b9f9c0680eb0b3d07
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: fe2d0f31ec7377d5b435937539b31f3bbd3b1fd9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822650"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810857"
 ---
 # <a name="move-all-users"></a>すべてのユーザーの移動
 

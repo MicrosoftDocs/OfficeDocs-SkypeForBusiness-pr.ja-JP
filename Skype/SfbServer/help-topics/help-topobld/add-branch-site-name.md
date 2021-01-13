@@ -1,8 +1,8 @@
 ---
 title: ブランチ サイト名を追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
-description: 新しいブランチサイトを定義するには、次の項目を指定します。
-ms.openlocfilehash: 0d94b426cf9b43819bedf45849d660fb6cacdf49
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 新しいブランチ サイトを定義するには、以下を指定します。
+ms.openlocfilehash: d8416006b80bff3c146dd6a694e04bd6df2f9c99
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217361"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810347"
 ---
-# <a name="add-branch-site-name"></a>ブランチ サイト名を追加する
+# <a name="add-branch-site-name"></a>ブランチ サイト名の追加
 
-新しいブランチサイトを定義するには、次の項目を指定します。
+新しいブランチ サイトを定義するには、以下を指定します。
 
 新しいブランチ サイトの名前。定義する名前は、展開で一意である必要があります。決定した任意の命名規則を使用できます。通常、市区町村、場所の名前、ブランチ オフィスの名前が推奨されます。名前値は必須のエントリです。
 

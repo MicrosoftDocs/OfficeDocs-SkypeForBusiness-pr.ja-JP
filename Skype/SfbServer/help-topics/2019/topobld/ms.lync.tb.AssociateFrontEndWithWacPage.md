@@ -1,8 +1,8 @@
 ---
 title: フロントエンドと Office Web Apps サーバーとの関連付けページ
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
-ms.openlocfilehash: e13895381c3a3d7962fb55b541239b85357a8921
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Web Apps Office Web Apps サーバーは、会議で使用するためにドキュメントをアップロードする発表者に似たサービスを提供しますが、以前のバージョンでは提供されていない追加機能を有効にします。
+ms.openlocfilehash: 4f48f47f0a895486fb42154955b4bcd06dab64a9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793975"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811357"
 ---
-# <a name="associate-front-end-with-office-web-apps-server-page"></a>フロントエンドと Office Web Apps サーバーとの関連付けページ
+# <a name="associate-front-end-with-office-web-apps-server-page"></a>フロント エンドと Office Web Apps サーバーとの関連付けページ
 
-Office Web Apps サーバーでは、会議で使用するドキュメントをアップロードする発表者のようなサービスが提供されますが、以前のバージョンにはなかった追加機能が可能になりました。
+Web Apps Office Web Apps サーバーは、会議で使用するためにドキュメントをアップロードする発表者に似たサービスを提供しますが、以前のバージョンでは提供されていない追加機能を有効にします。
 
-Skype for Business Server 構成の機能オプションの1つとして [会議] を選択している場合は、展開用の Office Web Apps サーバーを選択します。
+Skype for Business Server Officeの機能オプションの 1 つとして会議を選択している場合は、展開に対応した Web Apps サーバーを選択します。
 
 このダイアログのオプションでは、次の選択肢が表示されます。
 
-1. [**プールを Office Web Apps サーバーに関連付ける**]-会議ユーザー向けに Office Web apps サーバーを用意して展開する場合は、このチェックボックスをオンにします。
+1. **プールを Office Web Apps サーバー** に関連付ける - 会議ユーザーに Office Web Apps サーバーを提供して展開する場合は、このチェック ボックスをオンにします。
 
 2. このチェック ボックスをオンにした場合、リストを使用して、すでに定義済みの Office Web Apps サーバーを選択します。
 
@@ -38,4 +38,4 @@ Skype for Business Server 構成の機能オプションの1つとして [会議
 
 ## <a name="see-also"></a>関連項目
 
-[Publishing Office Web Apps Server Using a Reverse Proxy Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[リバース プロキシ サーバーを使用して Office Web Apps サーバーを公開する](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
