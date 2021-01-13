@@ -1,7 +1,7 @@
 ---
 title: 啓発とトレーニングの実施
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams の導入のためのトレーニングプログラムを強化して実装する方法について説明します。
+description: Microsoft Teams の導入に関する認識を高め、トレーニング プログラムを実装する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,45 +21,45 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e091e63b47dd33e848be9fc77f6f630174564c95
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 04c9dbeaecd5c1ed15dff5e5a0e2ae3823216a1a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533854"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834157"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
-認識とトレーニングは、全体的な導入戦略のマーケティングおよびコミュニケーションセグメントです。 これにより、従業員は Microsoft Teams の新機能と、Microsoft 365 または Office 365 のサービスとアプリの新機能をご利用いただけるようになります。
+認識とトレーニングは、導入戦略全体のマーケティングとコミュニケーションのセグメントです。 これにより、従業員は Microsoft Teams とその基になる Microsoft 365 または Office 365 のサービスとアプリの新機能を認識できます。
    
-最初のパイロットと、会社全体での最終的なロールアウトについては、内部通信が優先される必要があります。 次のものが必要です。
+初期パイロットと最終的な会社全体のロールアウトの両方で、内部通信を優先する必要があります。 次の情報を含める必要があります。
 
 - ポスター、電子看板、イベントなどの内部の啓発資料。
-- 1つの場所にある自己ヘルプとトレーニング情報。
+- 1 つの場所にあるセルフ ヘルプとトレーニング情報。
 
 パイロット段階では、成功するために次の必要最低限の手順があります。
 
 - プロジェクト ステークホルダーとの情報更新を目的とした定期的な会議を開きます。
 - 製品ビデオなど、セルフヘルプの資料を利用可能にします。
-- パイロット ユーザーとキックオフ ミーティングを開いて、彼らの参加を歓迎します。 対する熱意を使用したコミュニティの作成の重要性は、overstated できません。
+- パイロット ユーザーとキックオフ ミーティングを開いて、彼らの参加を歓迎します。 熱意を持ってコミュニティ意識を作り出す重要性は、過大評価されません。
 
-最初のパイロットで作業を終えたら、上記の作業を展開して組織全体に到達することができます。 お客さまのサイズによっては、時間がかかる場合があります。また、地域、ユーザプロファイル、または組織ごとにフェーズで対応する必要があります。 この大規模なロールアウト中は、組織内で communicators の関与を促します。 利用可能な導入資料を使用するか、独自のものを設計するときは、これらの個人について事前に関係を示すことをお勧めします。
+初期パイロットの作業が完了したら、上記の作業を拡大して組織全体に到達することができます。 サイズによっては、時間がかかる場合があります。また、地域別、ユーザー プロファイル別、または組織別のフェーズでアプローチされる場合があります。 この大規模な展開中に、組織内のコミュニケーターの関与を促します。 これらのユーザーは、利用可能な導入資料を使用したり、独自の設計を行う場合に、早期に頻繁に関与することをお勧めします。
 
-会社でニュース、情報、またはサポート用の中央のイントラネットポータルがある場合は、このロールアウトに関する情報のハブとして使うことができます。広く利用できるセルフヘルプ情報、トレーニング、および書面によるガイダンスを提供することで、ユーザーはすぐに対応できます。 チームが利用可能になると、多くのユーザーが簡単にジャンプできるようになり、これが推奨されます。 また、各個人がさまざまな方法で学習することもわかっています。一元的な情報ポータルは、組織内のあらゆるスタイルの学習をサポートします。
+会社にニュース、情報、またはサポートの中央イントラネット ポータルがある場合は、この展開に関する情報のハブとして使用できます。広く利用可能なセルフ ヘルプ情報、トレーニング、および書面によるガイダンスを提供することで、ユーザーは簡単にオンボードできます。 Teams が利用可能になると、多くのユーザーが簡単に参加できます。この方法をお勧めしています。 また、各個人がさまざまな方法で学習する点もわかっています。中央情報ポータルは、組織内のすべての学習スタイルをサポートできます。
 
-## <a name="implement-end-user-training"></a>エンドユーザートレーニングの実装
+## <a name="implement-end-user-training"></a>エンド ユーザー トレーニングを実装する
 
-Skype のリソースを使用して、ユーザーが Microsoft Teams およびその他の Microsoft 365 または Office 365 サービスの使用を開始するときに、エンドユーザーのトレーニングを実施します。 詳細については、以下のリソースページを参照してください。
+Microsoft Teams や他の Microsoft 365 または Office 365 サービスの使用を開始する場合は、リソースを使用してエンド ユーザー トレーニングを提供します。 詳細については、リソース ページを参照してください。
 
-- [チーム向けのインストラクター主導のエンドユーザー向けトレーニング](instructor-led-training-teams-landing-page.yml)
+- [Teams のインストラクター主導のエンド ユーザー トレーニング](instructor-led-training-teams-landing-page.yml)
 - [Teams の管理者トレーニング](itadmin-readiness.md)
-- [オンラインエンドユーザー向けビデオトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [エキスパート & IT 担当者向けのクラウドオンライントレーニングのコーヒー](https://aka.ms/CoffeeintheCloud) 
+- [オンライン エンドユーザー 向けビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [IT のプロのためのクラウド オンライン トレーニング&コーヒー](https://aka.ms/CoffeeintheCloud) 
 - [導入ツール](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>成功を測定、共有する
 
-どのようなコミュニケーションと導入キャンペーンでも、最初に成功の測定値を特定する必要があります。 次の点を考慮してください。
+通信や導入キャンペーンと同様に、成功の測定を前もって特定する必要があります。 次の点を考慮してください。
 
 - 製品を積極的に利用するユーザー
 - 情報 Web ページの表示回数
@@ -67,8 +67,8 @@ Skype のリソースを使用して、ユーザーが Microsoft Teams および
 - トレーニング ビデオの再生回数
 - 学習イベントの参加者
 
-理解しやすいように、#TeamsStories ハッシュタグを使用して、フィードバックチャネルから取得した洞察を共有します。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 また、Microsoft テクニカルコミュニティの導入フォーラムで、お客さまを共有することもできます。 お客様の会社内から実際の例を共有することは、ユーザーコミュニティによって時間の経過と共に変化を実現するために非常に重要です。
+簡単に取得できるハッシュタグ を使用して、フィードバック チャネルから得#TeamsStoriesを共有します。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 また、Microsoft テクニカル コミュニティの Driving Adoption フォーラムでも共有してください。 これらの実際の例を自分の会社内で共有すると、ユーザー コミュニティで時間の変化を持続して実現できる価値は非常に高い価値があります。
 
-[Microsoft Teams の利用状況レポートの詳細については、Microsoft 365 管理センターを参照してください。](teams-activity-reports.md)
+[Microsoft 365 管理センターの Microsoft Teams 利用状況レポートの詳細について説明します。](teams-activity-reports.md)
 
-![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) :[サービス正常性レビューのスケジュール](teams-adoption-schedule-service-health-reviews.md)
+![次の手順の次の手順を表 ](media/teams-adoption-next-icon.png) すアイコン:サービス [正常性のレビューをスケジュールする](teams-adoption-schedule-service-health-reviews.md)

@@ -1,7 +1,7 @@
 ---
-title: イタリアの電話番号の管理
-author: LanaChin
-ms.author: v-lanac
+title: イタリアの電話番号管理
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,28 +18,28 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、Microsoft Teams のイタリアでの電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: ea667b2211b221153ae5c66db1e87708f2e9cac4
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+description: この表は、イタリア for Microsoft Teams の電話番号の取得と管理に関する情報を示しています。
+ms.openlocfilehash: b7b04bd25278d64c97677639926d1946b648aeb5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361707"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822807"
 ---
-# <a name="phone-number-management-for-italy"></a>イタリアの電話番号の管理
+# <a name="phone-number-management-for-italy"></a>イタリアの電話番号管理
 
-この表を使用して、Microsoft Teams のイタリアでの電話番号の取得と管理に関する情報を参照してください。 
+この表は、イタリア for Microsoft Teams の電話番号の取得と管理に関する情報を示しています。 
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|Microsoft Teams 管理センターに表示されていない新しいユーザーまたはサービスの電話番号を取得します。   <br/> |次のいずれかのフォームをダウンロードします。 <br>  [イタリアの新しい電話番号のリクエスト (it it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  [イタリアの新しい電話番号のリクエスト (米国) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 |
-|お客さまの電話番号をお送りします。  <br/> | このフォームをダウンロードします。 <br/>[イタリアの承認状 (LOA) (すべての電話番号) (it it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.5.0)-(it-it).pdf?raw=true) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 |
-|国内電話ディレクトリの電話番号を公開/非公開にします。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
-|ユーザーの電話番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
-|通話キューまたは自動応答の番号にディレクトリサービスの更新を行う|通話キューまたは自動応答番号を追加または変更するには、この [ディレクトリサービスフォーム (米国)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)をダウンロードして、その情報を入力して [送信](mailto:ptneu@microsoft.com)します。 |
-|サービスのチャーターを確認する| [イタリアのサービス (v 1.0) を](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true)ダウンロードして読む (it it) |
+|Microsoft Teams 管理センターに表示されていない新しいユーザーまたはサービスの電話番号を取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br>  [イタリア (v.5.0) (it-it) の新しい電話番号の要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  [イタリア (v.5.0) の新しい電話番号の要求 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 |
+|電話番号を転送します。  <br/> | このフォームをダウンロードします。 <br/>[イタリアの承認状 (LOA) (すべての番号) (v.5.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.5.0)-(it-it).pdf?raw=true) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 |
+|国内の電話番号ディレクトリに電話番号を公開または公開を取り消します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|通話キューまたは自動応答番号に対するディレクトリ サービスの更新を行う|通話キューまたは自動応答番号を追加または変更するには、イタリア [(v.1.0) 用の](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)このディレクトリ サービス フォーム (it-it) をダウンロードし、入力して [送信](mailto:ptneu@microsoft.com)します。 |
+|サービスの予約を確認する| イタリア向け [サービスの予約 (v.1.0) (it-it) をダウンロードして読む](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true)。 |
 
 
 ## <a name="related-topics"></a>関連項目
