@@ -1,8 +1,8 @@
 ---
 title: 外部アプリケーション全般設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,35 +14,35 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
-description: 既に定義されている信頼できるアプリケーションサーバーのプロパティを編集するには、次の手順を実行します。
-ms.openlocfilehash: eacc0c854290fcf24196a8e4c58829231dc725c4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 既に定義されている信頼済みアプリケーション サーバーのプロパティを編集するには、以下の操作を行います。
+ms.openlocfilehash: 8cdf27598c916f84e96b11d8acfaeb115a0575dd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793745"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822427"
 ---
-# <a name="external-application-general-settings-expander"></a><span data-ttu-id="6f462-103">外部アプリケーション全般設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="6f462-103">External Application General Settings Expander</span></span>
+# <a name="external-application-general-settings-expander"></a><span data-ttu-id="6d765-103">外部アプリケーション全般設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="6d765-103">External Application General Settings Expander</span></span>
  
-<span data-ttu-id="6f462-104">既に定義されている信頼できるアプリケーションサーバーのプロパティを編集するには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="6f462-104">To edit the properties for a trusted application server that has already been defined, follow these instructions.</span></span>
+<span data-ttu-id="6d765-104">既に定義されている信頼済みアプリケーション サーバーのプロパティを編集するには、以下の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="6d765-104">To edit the properties for a trusted application server that has already been defined, follow these instructions.</span></span>
   
-<span data-ttu-id="6f462-105">変更できるセクションは2つあります。</span><span class="sxs-lookup"><span data-stu-id="6f462-105">There are two sections that you can modify:</span></span>
+<span data-ttu-id="6d765-105">更新できるセクションは以下の 2 つです。</span><span class="sxs-lookup"><span data-stu-id="6d765-105">There are two sections that you can modify:</span></span>
   
-> <span data-ttu-id="6f462-106">全般設定</span><span class="sxs-lookup"><span data-stu-id="6f462-106">General settings</span></span>
+> <span data-ttu-id="6d765-106">全般設定</span><span class="sxs-lookup"><span data-stu-id="6d765-106">General settings</span></span>
 > 
-> <span data-ttu-id="6f462-107">次ホップ設定</span><span class="sxs-lookup"><span data-stu-id="6f462-107">Next hop settings</span></span>
+> <span data-ttu-id="6d765-107">次ホップ設定</span><span class="sxs-lookup"><span data-stu-id="6d765-107">Next hop settings</span></span>
     
-## <a name="general-settings"></a><span data-ttu-id="6f462-108">全般設定</span><span class="sxs-lookup"><span data-stu-id="6f462-108">General Settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="6d765-108">全般設定</span><span class="sxs-lookup"><span data-stu-id="6d765-108">General Settings</span></span>
 
-<span data-ttu-id="6f462-109">信頼されているアプリケーションサーバープールの現在の完全修飾ドメイン名 (FQDN) を変更することができます。</span><span class="sxs-lookup"><span data-stu-id="6f462-109">You can modify the current fully qualified domain name (FQDN) for the trusted application server pool.</span></span> <span data-ttu-id="6f462-110">プールの FQDN の名前を編集します。</span><span class="sxs-lookup"><span data-stu-id="6f462-110">Edit the name of the pool FQDN.</span></span> <span data-ttu-id="6f462-111">クライアントまたはサーバーが新しいプール名に接続できるようにするには、新しいエントリにドメインネームシステム (DNS) レコードが存在している必要があります。</span><span class="sxs-lookup"><span data-stu-id="6f462-111">The Domain Name System (DNS) host (A) records must exist for the new entry before clients or servers can connect to the new pool name.</span></span>
+<span data-ttu-id="6d765-p101">信頼されたアプリケーション サーバー プールの現在の完全修飾ドメイン名 (FQDN) を変更できます。プールの FQDN の名前を編集します。クライアントまたはサーバーが新しいプール名に接続できるようにするには、新しいエントリのドメイン ネーム システム (DNS) ホスト (A) のレコードが存在する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6d765-p101">You can modify the current fully qualified domain name (FQDN) for the trusted application server pool. Edit the name of the pool FQDN. The Domain Name System (DNS) host (A) records must exist for the new entry before clients or servers can connect to the new pool name.</span></span>
   
-<span data-ttu-id="6f462-112">このプールに構成データを複製する必要がある場合は、[**このプールへの構成データのレプリケーションを有効**にする] を選択します。</span><span class="sxs-lookup"><span data-stu-id="6f462-112">Select **Enable replication of configuration data to this pool** if you need to have replication of configuration data to this pool.</span></span> <span data-ttu-id="6f462-113">構成データを複製しない場合は、チェックマークをオフにします。</span><span class="sxs-lookup"><span data-stu-id="6f462-113">Clear the check mark if you do not want to replicate the configuration data.</span></span>
+<span data-ttu-id="6d765-p102">このプールへの構成データのレプリケーションが必要な場合は、[**このプールへの構成データのレプリケーションを有効にする**] をオンにします。構成データをレプリケーションしない場合は、このチェック ボックスをオフにします。</span><span class="sxs-lookup"><span data-stu-id="6d765-p102">Select **Enable replication of configuration data to this pool** if you need to have replication of configuration data to this pool. Clear the check mark if you do not want to replicate the configuration data.</span></span>
   
-## <a name="next-hop-settings"></a><span data-ttu-id="6f462-114">次ホップの設定</span><span class="sxs-lookup"><span data-stu-id="6f462-114">Next Hop Settings</span></span>
+## <a name="next-hop-settings"></a><span data-ttu-id="6d765-114">次ホップ設定</span><span class="sxs-lookup"><span data-stu-id="6d765-114">Next Hop Settings</span></span>
 
-<span data-ttu-id="6f462-115">定義済みの Enterprise Edition のフロントエンドプールまたは標準エディションのフロントエンドサーバーをドロップダウンリストから選択して、信頼できるアプリケーションサーバープールの次ホップサーバーを指定できます。</span><span class="sxs-lookup"><span data-stu-id="6f462-115">You can specify the trusted application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="6f462-116">ディレクターまたはディレクタープールが、信頼できるアプリケーションサーバーの次ホップの有効な選択ではないため、一覧に表示されません。</span><span class="sxs-lookup"><span data-stu-id="6f462-116">A Director or Director pool is not a valid selection for a trusted application server next hop and will not appear in the list.</span></span>
+<span data-ttu-id="6d765-115">ドロップダウン リストから定義済みの Enterprise Edition フロントエンド プールまたは Standard Edition フロントエンド サーバーを選択して、信頼済みアプリケーション サーバー プールの次ホップ サーバーを指定できます。</span><span class="sxs-lookup"><span data-stu-id="6d765-115">You can specify the trusted application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="6d765-116">ディレクターまたはディレクター プールは、信頼されたアプリケーション サーバーの次ホップとしては有効な選択肢ではないため、リストに表示されません。</span><span class="sxs-lookup"><span data-stu-id="6d765-116">A Director or Director pool is not a valid selection for a trusted application server next hop and will not appear in the list.</span></span>
   
 
-<span data-ttu-id="6f462-117">[ **OK]** をクリックして、変更を承諾して保存します。</span><span class="sxs-lookup"><span data-stu-id="6f462-117">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="6f462-118">変更を破棄してプロパティ ページを終了するには、[**キャンセル**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6f462-118">Click **Cancel** to discard your changes and exit the properties page.</span></span>
+<span data-ttu-id="6d765-117">**[OK] を** クリックして変更を受け入れて保存します。</span><span class="sxs-lookup"><span data-stu-id="6d765-117">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="6d765-118">変更を破棄してプロパティ ページを終了するには、**[キャンセル]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="6d765-118">Click **Cancel** to discard your changes and exit the properties page.</span></span>
   
 

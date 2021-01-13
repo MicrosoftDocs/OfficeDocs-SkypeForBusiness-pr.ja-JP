@@ -1,8 +1,8 @@
 ---
-title: IP Version (Planning Tool)
+title: IP バージョン (計画ツール)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server で IP アドレスを構成する際には、次の3つのオプションがあります。 Skype for Business Server では、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6)、またはその両方の組み合わせ (デュアルスタックとも呼ばれます) のみをサポートするように構成することができます。
-ms.openlocfilehash: 16153480da01c541d899911bd992822a95a52711
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Skype for Business Server で IP アドレスを構成する場合は、3 つのオプションがあります。 Skype for Business Server を構成して、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6)、または両方の組み合わせ (デュアル スタックと呼ばれる) のみをサポートできます。
+ms.openlocfilehash: 963016256b02e421aff10e6e0c7e02163435200f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797168"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819787"
 ---
-# <a name="ip-version-planning-tool"></a><span data-ttu-id="a9de5-104">IP Version (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a9de5-104">IP Version (Planning Tool)</span></span>
+# <a name="ip-version-planning-tool"></a><span data-ttu-id="65f4a-104">IP バージョン (計画ツール)</span><span class="sxs-lookup"><span data-stu-id="65f4a-104">IP Version (Planning Tool)</span></span>
  
-<span data-ttu-id="a9de5-105">Skype for Business Server で IP アドレスを構成する際には、次の3つのオプションがあります。</span><span class="sxs-lookup"><span data-stu-id="a9de5-105">You have three options when configuring IP addresses in Skype for Business Server.</span></span> <span data-ttu-id="a9de5-106">Skype for Business Server では、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6)、またはその両方の組み合わせ (デュアルスタックとも呼ばれます) のみをサポートするように構成することができます。</span><span class="sxs-lookup"><span data-stu-id="a9de5-106">You can configure Skype for Business Server to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a dual stack).</span></span>
+<span data-ttu-id="65f4a-105">Skype for Business Server で IP アドレスを構成する場合は、3 つのオプションがあります。</span><span class="sxs-lookup"><span data-stu-id="65f4a-105">You have three options when configuring IP addresses in Skype for Business Server.</span></span> <span data-ttu-id="65f4a-106">Skype for Business Server を構成して、IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6)、または両方の組み合わせ (デュアル スタックと呼ばれる) のみをサポートできます。</span><span class="sxs-lookup"><span data-stu-id="65f4a-106">You can configure Skype for Business Server to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a dual stack).</span></span>
   
-<span data-ttu-id="a9de5-107">IP インフラストラクチャの選択の詳細については、「 [Skype For business での IPv6 の計画](../../../plan-your-deployment/network-requirements/ipv6.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a9de5-107">For more details about choosing your IP infrastructure, see [Plan for IPv6 in Skype for Business](../../../plan-your-deployment/network-requirements/ipv6.md).</span></span>
+<span data-ttu-id="65f4a-107">IP インフラストラクチャの選択の詳細については [、「Plan for IPv6 in Skype for Business」を参照してください](../../../plan-your-deployment/network-requirements/ipv6.md)。</span><span class="sxs-lookup"><span data-stu-id="65f4a-107">For more details about choosing your IP infrastructure, see [Plan for IPv6 in Skype for Business](../../../plan-your-deployment/network-requirements/ipv6.md).</span></span>
   
 

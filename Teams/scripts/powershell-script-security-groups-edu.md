@@ -1,13 +1,13 @@
 ---
-title: PowerShell スクリプトのサンプル-学校の教員と学生のセキュリティグループを作成する
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell スクリプトのサンプル - 学校の教育者と学生用のセキュリティ グループを作成する
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、学校の教員と学生の Teams ポリシーを管理するために必要なセキュリティグループを作成します。
+description: この PowerShell スクリプトを使用して、学校の教師と学生の Teams ポリシーを管理するために必要なセキュリティ グループを作成します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,38 +17,38 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b468ae05139571f395962b96f2963c7bb77b2e6
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534090"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809467"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="c99eb-103">PowerShell スクリプトのサンプル-学校の教員と学生のセキュリティグループを作成する</span><span class="sxs-lookup"><span data-stu-id="c99eb-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a><span data-ttu-id="0241f-103">PowerShell スクリプトのサンプル - 学校の教育者と学生用のセキュリティ グループを作成する</span><span class="sxs-lookup"><span data-stu-id="0241f-103">PowerShell script sample - Create security groups for educators and students in your school</span></span>
 
-<span data-ttu-id="c99eb-104">この PowerShell スクリプトを使用して、学校での Microsoft Teams のポリシーを管理するために必要なセキュリティグループを作成します。</span><span class="sxs-lookup"><span data-stu-id="c99eb-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="c99eb-105">Teams の[グループに対するポリシーの割り当て](../assign-policies.md#assign-a-policy-to-a-group)機能を使用すると、セキュリティグループなどのユーザーグループにポリシーを割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="c99eb-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="c99eb-106">ポリシーの割り当ては、優先順位の規則に従ってグループのメンバーに伝達されます。</span><span class="sxs-lookup"><span data-stu-id="c99eb-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="c99eb-107">メンバーがグループに追加またはグループから削除されると、それに応じて継承されたポリシーの割り当てが更新されます。</span><span class="sxs-lookup"><span data-stu-id="c99eb-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
+<span data-ttu-id="0241f-104">この PowerShell スクリプトを使用して、学校で Microsoft Teams ポリシーを管理するために必要なセキュリティ グループを作成します。</span><span class="sxs-lookup"><span data-stu-id="0241f-104">Use this PowerShell script to create the security groups that you need to manage Microsoft Teams policies in your school.</span></span> <span data-ttu-id="0241f-105">Teams [のグループ機能にポリシー](../assign-policies.md#assign-a-policy-to-a-group) を割り当てると、セキュリティ グループなどのユーザーのグループにポリシーを割り当てできます。</span><span class="sxs-lookup"><span data-stu-id="0241f-105">The [policy assignment to groups](../assign-policies.md#assign-a-policy-to-a-group) feature in Teams lets you assign a policy to a group of users, such as a security group.</span></span> <span data-ttu-id="0241f-106">ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。</span><span class="sxs-lookup"><span data-stu-id="0241f-106">The policy assignment is propagated to members of the group according to precedence rules.</span></span> <span data-ttu-id="0241f-107">グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。</span><span class="sxs-lookup"><span data-stu-id="0241f-107">As members are added to or removed from a group, their inherited policy assignments are updated accordingly.</span></span>
 
-<span data-ttu-id="c99eb-108">この PowerShell スクリプトでは、ライセンスの種類に基づいて、スタッフや教師用、学校の学生用の2つのセキュリティグループを作成します。</span><span class="sxs-lookup"><span data-stu-id="c99eb-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="c99eb-109">次に、作成したセキュリティグループにポリシーを割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="c99eb-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="c99eb-110">このスクリプトの使い方について詳しくは、「[学校の大規模なユーザーにポリシーを割り当てる](../batch-group-policy-assignment-edu.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="c99eb-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
+<span data-ttu-id="0241f-108">この PowerShell スクリプトは、2 つのセキュリティ グループを作成します。1 つはスタッフと教育者用、もう 1 つはライセンスの種類に基づいて学校の学生用です。</span><span class="sxs-lookup"><span data-stu-id="0241f-108">This PowerShell script creates two security groups, one for staff and educators and another for students in your school, based on license type.</span></span> <span data-ttu-id="0241f-109">作成したセキュリティ グループにポリシーを割り当てできます。</span><span class="sxs-lookup"><span data-stu-id="0241f-109">You can then assign policies to the security groups that you created.</span></span> <span data-ttu-id="0241f-110">このスクリプトの使用の詳細については、学校の大規模なユーザー セットにポリシーを割り [当てるを参照してください](../batch-group-policy-assignment-edu.md)。</span><span class="sxs-lookup"><span data-stu-id="0241f-110">For more information about using this script, see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md).</span></span>
 
-<span data-ttu-id="c99eb-111">このスクリプトでは、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="c99eb-111">This script does the following:</span></span>
+<span data-ttu-id="0241f-111">このスクリプトは、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="0241f-111">This script does the following:</span></span>
 
-- <span data-ttu-id="c99eb-112">教職員の SKU が割り当てられているスタッフと教員を特定し、セキュリティグループを作成して、そのグループにスタッフと教師を追加します。</span><span class="sxs-lookup"><span data-stu-id="c99eb-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
-- <span data-ttu-id="c99eb-113">学生の SKU が割り当てられている学生を識別し、セキュリティグループを作成してから、学生をグループに追加します。</span><span class="sxs-lookup"><span data-stu-id="c99eb-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
-- <span data-ttu-id="c99eb-114">各セキュリティグループのメンバーシップを更新して、ライセンスを取得しているかどうかに応じてスタッフ、教師、および学生を追加または削除します。</span><span class="sxs-lookup"><span data-stu-id="c99eb-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
+- <span data-ttu-id="0241f-112">Faculty SKU が割り当てられているスタッフと教師を識別し、セキュリティ グループを作成し、グループにスタッフと教師を追加します。</span><span class="sxs-lookup"><span data-stu-id="0241f-112">Identifies staff and educators who are assigned a Faculty SKU, creates a security group, and then adds staff and educators  to the group.</span></span>
+- <span data-ttu-id="0241f-113">Student SKU が割り当てられている学生を識別し、セキュリティ グループを作成し、その学生をグループに追加します。</span><span class="sxs-lookup"><span data-stu-id="0241f-113">Identifies students who are assigned a Student SKU, creates a security group, and then adds the students to the group.</span></span>
+- <span data-ttu-id="0241f-114">各セキュリティ グループのメンバーシップを更新し、ライセンスを持っているかどうかに基づいて、スタッフ、教育者、学生を追加または削除します。</span><span class="sxs-lookup"><span data-stu-id="0241f-114">Updates the membership of each security group to add or remove staff, educators, and students based on whether they have a license.</span></span>
 
-<span data-ttu-id="c99eb-115">セキュリティグループを最新の状態に維持するには、このスクリプトを定期的に実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c99eb-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
+<span data-ttu-id="0241f-115">セキュリティ グループを最新の状態に保つには、このスクリプトを定期的に実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="0241f-115">You'll need to run this script regularly to keep the security groups fresh and up to date.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="c99eb-116">ポリシーをグループに割り当てるときは、[優先順位規則](../assign-policies.md#precedence-rules)と[グループの割り当ての順位](../assign-policies.md#group-assignment-ranking)を理解することが重要です。</span><span class="sxs-lookup"><span data-stu-id="c99eb-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="c99eb-117">[グループへのポリシーの割り当てについて知っておく必要が](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)ある概念を読んで理解していることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="c99eb-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
+> <span data-ttu-id="0241f-116">ポリシーをグループに割り当 [てる場合は、優先順位ルール](../assign-policies.md#precedence-rules) とグループ [割](../assign-policies.md#group-assignment-ranking) り当てのランク付けについて理解することが重要です。</span><span class="sxs-lookup"><span data-stu-id="0241f-116">It's important to understand [precedence rules](../assign-policies.md#precedence-rules) and [group assignment ranking](../assign-policies.md#group-assignment-ranking) when assigning policies to groups.</span></span> <span data-ttu-id="0241f-117">グループへのポリシー割り当てについて知る必要がある概念を読んで [理解してください](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。</span><span class="sxs-lookup"><span data-stu-id="0241f-117">Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).</span></span>
 
-## <a name="before-you-start"></a><span data-ttu-id="c99eb-118">始める前に</span><span class="sxs-lookup"><span data-stu-id="c99eb-118">Before you start</span></span>
+## <a name="before-you-start"></a><span data-ttu-id="0241f-118">始める前に</span><span class="sxs-lookup"><span data-stu-id="0241f-118">Before you start</span></span>
 
-<span data-ttu-id="c99eb-119">[Skype For Business Online PowerShell モジュール](https://www.microsoft.com/download/details.aspx?id=39366)をダウンロードしてインストールし、メッセージが表示されたら、コンピューターを再起動します。</span><span class="sxs-lookup"><span data-stu-id="c99eb-119">Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.</span></span>
+<span data-ttu-id="0241f-119">Skype for [Business Online PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)モジュールをダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。</span><span class="sxs-lookup"><span data-stu-id="0241f-119">Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.</span></span>
 
-<span data-ttu-id="c99eb-120">詳細については、「Office 365 PowerShell と[Teams PowerShell](../teams-powershell-overview.md)[を使って Skype for Business Online を管理](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c99eb-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
+<span data-ttu-id="0241f-120">さらに詳しくは [、「365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) と Teams PowerShell で Skype for Business Online を管理するOfficeをご [覧ください](../teams-powershell-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="0241f-120">To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="c99eb-121">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="c99eb-121">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="0241f-121">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="0241f-121">Sample script</span></span>
 
 ```powershell
 <#
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="c99eb-122">関連項目</span><span class="sxs-lookup"><span data-stu-id="c99eb-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="0241f-122">関連項目</span><span class="sxs-lookup"><span data-stu-id="0241f-122">Related topics</span></span>
 
-[<span data-ttu-id="c99eb-123">チームのユーザーにポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="c99eb-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)
+[<span data-ttu-id="0241f-123"> Teams でユーザーにポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="0241f-123">Assign policies to your users in Teams</span></span>](../assign-policies.md)

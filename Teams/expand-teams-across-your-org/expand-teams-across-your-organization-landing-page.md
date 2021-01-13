@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams を組織全体で展開する
-description: 特定の組織の種類についてチームを最大限に活用できるように、標準のチーム展開で構築可能なリソースについて説明します。
+description: 特定の組織の種類の Teams を活用するために役立つ、標準的な Teams 展開を構築するために利用可能なリソースについて説明します。
 ms.topic: conceptual
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 f1.keywords:
@@ -15,18 +15,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3e7748fde03358388b5bc105bb247d14eb2701d
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: 1c90ea2da91d8e5e12fe01565e0c929f73d1ff01
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576959"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814637"
 ---
-# <a name="expand-microsoft-teams-across-your-organization"></a><span data-ttu-id="c96ee-103">Microsoft Teams を組織全体で展開する</span><span class="sxs-lookup"><span data-stu-id="c96ee-103">Expand Microsoft Teams across your organization</span></span>
+# <a name="expand-microsoft-teams-across-your-organization"></a><span data-ttu-id="45a4c-103">Microsoft Teams を組織全体で展開する</span><span class="sxs-lookup"><span data-stu-id="45a4c-103">Expand Microsoft Teams across your organization</span></span>
 
-<span data-ttu-id="c96ee-104">これらのリソースは、標準の Teams 展開ガイダンスに基づいて構築されており、特定の組織の種類についてチームを最大限に活用できるように設計されています。</span><span class="sxs-lookup"><span data-stu-id="c96ee-104">These resources build on the standard Teams deployment guidance and are designed to help you get the most out of Teams for specific organization types.</span></span> <span data-ttu-id="c96ee-105">まだ Teams を展開していない場合は、「 [Microsoft teams をロールアウトする方法](../How-to-roll-out-teams.md)」で teams への推奨パスを参照してください。</span><span class="sxs-lookup"><span data-stu-id="c96ee-105">If you haven't deployed Teams yet, see the recommended path to Teams in [How to roll out Microsoft Teams](../How-to-roll-out-teams.md).</span></span>
+<span data-ttu-id="45a4c-104">これらのリソースは、標準的な Teams の展開ガイダンスを基に構築され、特定の組織の種類の Teams を活用するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="45a4c-104">These resources build on the standard Teams deployment guidance and are designed to help you get the most out of Teams for specific organization types.</span></span> <span data-ttu-id="45a4c-105">Teams をまだ展開していない場合は、「Microsoft Teams を展開する方法」で Teams への推奨 [パスを参照してください](../How-to-roll-out-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="45a4c-105">If you haven't deployed Teams yet, see the recommended path to Teams in [How to roll out Microsoft Teams](../How-to-roll-out-teams.md).</span></span>
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![タスク-チェックリスト-チームの計画](../media/clock-teams-small.svg)  |  [<span data-ttu-id="c96ee-107">Shifts for Teams</span><span class="sxs-lookup"><span data-stu-id="c96ee-107">Shifts for Teams</span></span>](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page) |![健康-チーム](../media/health-teams-small.svg)  | [<span data-ttu-id="c96ee-109">医療関係組織向けのTeams</span><span class="sxs-lookup"><span data-stu-id="c96ee-109">Teams for Healthcare</span></span>](/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page) |![教育-チュートリアル-teams](../media/education-tutorial-teams-small.svg) |  [<span data-ttu-id="c96ee-111">教育機関向けの Teams </span><span class="sxs-lookup"><span data-stu-id="c96ee-111">Teams for Education</span></span>](/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page) 
-|![小規模企業-チーム](../media/small-business-teams-small.svg)  | [<span data-ttu-id="c96ee-113">小売店向けの Teams</span><span class="sxs-lookup"><span data-stu-id="c96ee-113">Teams for Retail</span></span>](/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page) |![ブロック-teams](../media/blocks-teams-small.svg)  | [<span data-ttu-id="c96ee-115">政府機関用の Teams </span><span class="sxs-lookup"><span data-stu-id="c96ee-115">Teams for Government</span></span>](/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page) |               |               |
+| ![task-checklist-planning-teams](../media/clock-teams-small.svg)  |  [<span data-ttu-id="45a4c-107">Shifts for Teams</span><span class="sxs-lookup"><span data-stu-id="45a4c-107">Shifts for Teams</span></span>](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page) |![health-teams](../media/health-teams-small.svg)  | [<span data-ttu-id="45a4c-109">医療関係組織向けのTeams</span><span class="sxs-lookup"><span data-stu-id="45a4c-109">Teams for Healthcare</span></span>](/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [<span data-ttu-id="45a4c-111">教育機関向けの Teams </span><span class="sxs-lookup"><span data-stu-id="45a4c-111">Teams for Education</span></span>](/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page) 
+|![小規模ビジネス チーム](../media/small-business-teams-small.svg)  | [<span data-ttu-id="45a4c-113">小売店向けの Teams</span><span class="sxs-lookup"><span data-stu-id="45a4c-113">Teams for Retail</span></span>](/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page) |![blocks-teams](../media/blocks-teams-small.svg)  | [<span data-ttu-id="45a4c-115">政府機関用の Teams </span><span class="sxs-lookup"><span data-stu-id="45a4c-115">Teams for Government</span></span>](/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page) |               |               |
