@@ -1,14 +1,14 @@
 ---
 title: Teams Only モードの考慮事項
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: landerl
-description: 管理者は、Microsoft Teams 管理センターで、Microsoft Teams 専用モードへのアップグレードを準備する方法について説明します。
+description: 管理者は、Microsoft Teams 管理センターで Microsoft Teams のみモードにアップグレードする準備をする方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -22,39 +22,39 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01a4b593366018fa1eb153d96e1b42508d541f60
-ms.sourcegitcommit: 705ccc9a76e08fd3bae2b51d8853f84d3b325a3b
+ms.openlocfilehash: 86c27d8619a436c6a77ab435cfcb2cc4133befe0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "45185822"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802377"
 ---
 # <a name="teams-only-mode-considerations"></a>Teams Only モードの考慮事項
 
-Microsoft 365 または Office 365 の組織の管理者である場合、Microsoft Teams 管理センターで [チームのみ] モードにアップグレードするオプションが表示されます。 この機能を使用すると、個々のユーザーまたはテナント全体のどちらかをアップグレードできます。  
+Microsoft 365 または Office 365 組織の管理者の場合、Microsoft Teams 管理センターで Teams のみモードにアップグレードするオプションが表示されます。 この機能を使用すると、個々のユーザー、またはテナント全体をアップグレードできます。  
 
-Teams 専用モードにアップグレードすると、ユーザーは1つのクライアントエクスペリエンスで microsoft Teams、チームワークのハブ、Microsoft 365 または Office 365 のハブを最大限に活用できます。 さらに、チーム専用モードのユーザーは、送信者が Skype for Business または Teams を使用しているかどうかにかかわらず、すべての通話とチャットを受け取り、相互運用およびフェデレーションサポートによる恩恵を受けることができます。
+Teams のみモードにアップグレードすると、単一のクライアント エクスペリエンスを介して Microsoft 365 または Office 365 のチームワークのハブである Microsoft Teams の完全な利点がユーザーに提供されます。 さらに、Teams Only モードのユーザーは、送信者が Skype for Business または Teams を使用しているかどうかに関係なく、Teams のすべての通話とチャットを受信し、相互運用とフェデレーションのサポートを利用できます。
 
-多くのユーザーが Microsoft Teams にアップグレードしましたが、組織のアップグレードタイムラインとユーザーエクスペリエンスに影響を与える可能性があるという考慮事項があります。 特に、アップグレードのオプションを使用しても、組織がこの変更に対応できるというわけではありません。 最高のユーザー エクスペリエンスを得るために、Teams が自分たちの共同作業や通信の要件に適合してることを確認し、確実にお使いのネットワークが Teams をサポートする状態を整えて、ユーザーの準備状態計画を実施してから Teams へのユーザーのアップグレードを実行してください。 
-
-> [!IMPORTANT]
-> アップグレード計画を開始する場合は、「 [Microsoft Teams のアップグレードに](upgrade-start-here.md)ついて」を参照してください。 
-
-**共存の考慮事項**: Skype For business Online または Skype For business Server を既に使用している組織では、ニーズに合ったペースでチームを環境に導入することができます。 組織では、必要に応じて、チームを目的に応じたユーザーのセットに段階的にロールアウトできます。また、Teams を使用するユーザーは、Skype for Business を使用するユーザーと通信することができます。 このエクスペリエンスを管理するために、管理者は、エンドユーザーのクライアントエクスペリエンス、着信チャットと通話のルーティング動作、チームまたは Skype for Business で新しい会議をスケジュールするかどうかを定義する、共存モードを使用します。 ユーザーが**Teams のみ**にアップグレードされた場合、ユーザーは他の組織のユーザーとフェデレーションを行うことができます。ただし、両方のユーザーが Teams を使用する場合に最適なエクスペリエンスを提供します。 Teams にアップグレードされたユーザーのみが、引き続き Skype for Business 会議に参加できます。 
+何千ものユーザーが Microsoft Teams へのアップグレードに成功している間、組織のアップグレード タイムラインとユーザー エクスペリエンスに影響を与える可能性がある考慮事項があります。 特に、アップグレードするオプションを選択しても、必ずしも組織がこの変更の準備ができているとは限りません。 最高のユーザー エクスペリエンスを得るために、Teams が自分たちの共同作業や通信の要件に適合してることを確認し、確実にお使いのネットワークが Teams をサポートする状態を整えて、ユーザーの準備状態計画を実施してから Teams へのユーザーのアップグレードを実行してください。 
 
 > [!IMPORTANT]
-> 共存の詳細については、「 [Microsoft Teams と Skype For business の共存と相互運用性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)について」を参照してください。 Teams と Skype (コンシューマー) の詳細については、「[チームと skype の相互運用性](teams-skype-interop.md)」を参照してください。
+> アップグレード計画を開始する場合は、Microsoft Teams アップグレード ガイドの使用を開始する [方法を確認](upgrade-start-here.md) してください。 
 
-**テナント全体の考慮事項**: 次の環境で Teams を有効にするための作業を進めています。ただし、現在のところ、Skype for Business テナントが次のいずれかの環境でホストされている場合、管理者は組織内のユーザーをアップグレードすることはできません。
+**共存に関** する考慮事項: Skype for Business Online または Skype for Business Server を既に使用している組織は、自分のニーズに合ったペースで Teams を環境に導入できます。 組織は必要に応じて、Teams を目的のユーザー セットに段階的に展開でき、Teams を使用するユーザーは Skype for Business を使用するユーザーと通信でき、その逆も可能です。 このエクスペリエンスを管理するために、管理者は共存モードを使用します。このモードでは、エンド ユーザー のクライアント エクスペリエンス、着信チャットと通話のルーティング動作、および新しい会議が Teams または Skype for Business でスケジュールされるかどうかが定義されます。 ユーザーが Teams にのみアップグレードされた場合、ユーザーは他の組織のユーザーと **フェデレーションできます**。ただし、両方のユーザーが Teams を使用する場合に最適なエクスペリエンスが提供されます。 Teams にのみアップグレードされたユーザーは、引き続き Skype for Business 会議に参加できます。 
 
- - 21Vianet が運営する Office 365
- - Office 365 ドイツ
- - Skype for Business テナントは韓国でホストされています。**また**、組織は、韓国で Teams のデータを保存する必要があります。 現在、Skype for Business データを使用している組織では、チームにアップグレードした韓国のデータは、韓国のデータセンターの地域ではなく、アジアのデータセンターに保存されています。
+> [!IMPORTANT]
+> 共存の詳細については [、「Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)と Skype for Business の共存と相互運用性について」を参照してください。 Teams と Skype (コンシューマー) の詳細については、Teams と Skype の相互運用 [性を参照してください](teams-skype-interop.md)。
 
-**ユーザー固有の考慮事項**: 一部のユーザーシナリオはまだ進化し続けており、管理者が組織内の他のユーザーのアップグレード中に、特定のユーザーのアップグレードを一時的に延期することを決定する場合があります。 特に、プライマリデバイスが VDI ベースであるユーザーのアドレス指定のシナリオについては、引き続き取り組んでいます。 [Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap)サイトでお知らせを監視してください。
+**テナント全体の考慮事項**: 次の環境で Teams を有効にするための取り組みです。ただし、現在のところ、Skype for Business テナントが次のいずれかの環境でホストされている場合、管理者は組織内のユーザーをアップグレードしないでください。
+
+ - Office 365 (21Vianet が運営)
+ - Office 365 Germany
+ - Skype for Business テナントは韓国で **ホストされ、** 組織では Teams データを韓国に保存する必要があります。 現在、Teams にアップグレードする Skype for Business データが韓国に保存されている組織は、Teams データを韓国のデータセンター領域ではなく、アジア データセンター地域に保存します。
+
+**ユーザー固有の** 考慮事項: 一部のユーザー シナリオは引き続き進化しており、管理者は組織内の他のユーザーをアップグレードする際に、特定のユーザーのアップグレードを一時的に延期する場合があります。 特に、プライマリ デバイスが VDI ベースのユーザー向けシナリオの対応に引き続き取り組み中です。 お知らせ [については、Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap) サイトを監視してください。
 
 > [!NOTE]
-> Teams 専用モードに移行する前に、Teams をサポートしていないデバイスを置き換えるか更新する必要があります。 
+> Teams のみモードに移行する前に、Teams をサポートしないデバイスを交換または更新する必要があります。 
 
 > [!IMPORTANT]
-> Teams への移行は、技術的な移行よりも多くのことを**覚えておい**てください。 アップグレードが成功すると、技術的な準備とエンドユーザーの準備の両方が評価されます。 Teams へのアップグレードの実装の計画の詳細については、「Skype for Business と Teams の[アップグレードのガイダンス](upgrade-framework.md)」を参照してください。  
+> **注意**: Teams への移行は、技術的な移行以上の機能です。 アップグレードが成功すると、技術的な準備とエンド ユーザーの準備の両方が評価されます。 Teams へのアップグレードの実装の計画の詳細については、Skype for Business から [Teams](upgrade-framework.md) へのアップグレードに関するガイダンスを参照してください。  

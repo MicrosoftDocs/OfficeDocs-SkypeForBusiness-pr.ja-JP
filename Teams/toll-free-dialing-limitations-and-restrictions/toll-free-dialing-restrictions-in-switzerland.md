@@ -1,7 +1,7 @@
 ---
 title: スイスの無料ダイヤル制限
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,13 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: a83d5ab3b050d6f38ce4fed812ebaf234fc5f9e2
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、国または地域ごとに、無料電話番号にダイヤルするために必要なアクセス コードが表示されます。
+ms.openlocfilehash: fad581272b1470fec0fe061a41759aa325e27fc9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321596"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802337"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>スイスの無料ダイヤル制限
 
@@ -38,11 +38,11 @@ ms.locfileid: "48321596"
 |:-----|:-----|
 |フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 0800 <br>|
-|国/地域の ISO コード  <br/> |チャンネル  <br/> |
+|国/地域の ISO コード  <br/> |CH  <br/> |
 |対象となる島/地域  <br/> |該当なし  <br/> |
 |対象外の島/地域  <br/> | 該当なし  <br/>  |
 |有線/固定回線の状態  <br/> |はい  <br/> |
-|携帯電話ネットワークの状態  <br/> | はい (一部の数値は有料) <br/> |
+|携帯電話ネットワークの状態  <br/> | はい (一部の数値はプレミアムの場合があります) <br/> |
 |コメント、制限、アクセスの問題など  <br/> |なし  <br/> |
 
 ## <a name="related-topics"></a>関連項目

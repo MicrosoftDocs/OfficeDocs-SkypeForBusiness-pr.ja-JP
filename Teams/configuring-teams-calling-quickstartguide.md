@@ -1,7 +1,7 @@
 ---
-title: クイックスタートガイド-通話プランを設定する
-author: lanachin
-ms.author: v-lanac
+title: クイック スタート ガイド - 通話プランの構成
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -11,7 +11,7 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams で通話プランを構成するためのクイックスタートガイド。一連のユーザーを起動して実行することができます。
+description: 一連のユーザーを起動して実行できるよう、Microsoft Teams で通話プランを構成するためのクイック スタート ガイド。
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eed9ec99445c2f632f1443343b7076aadfbb70a8
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: c43decd3b3f7d5e23e0e7937a93b4663a80aa583
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739045"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799767"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 ==============================================================
@@ -36,7 +36,7 @@ Teams の通話プランに関する 2017 年 12 月 12 日付けの発表「[In
 > [!NOTE]
 > 展開を成功させるため、このクイック スタート ガイドとともに、「[通話プランが設定された電話システム](calling-plan-landing-page.md)」と「[FastTrack](https://aka.ms/cloudvoice)」をご覧になることをお勧めします。
 
-通話プランを追加すると、Microsoft 365 と Office 365 の機能が Skype for Business を使用して機能します。これで、Teams を使って、電話での通話の発信や受信を、公衆交換電話網 (PSTN) 経由で行うことができます。
+Skype for Business を利用した Microsoft 365 および Office 365 の機能である通話プランを追加すると、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話と携帯電話の間で通話を発信および受信すめる機能が追加されました。
 
 ![Teams の [連絡先] ページを示すスクリーンショット](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams の [**通話**] タブを有効にするための前提条件

@@ -1,8 +1,8 @@
 ---
-title: ユーザが常設チャットを表示
+title: ユーザーが常設チャットを表示する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,40 +14,40 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
-description: CsPersistentChatAdministrator ロールのメンバー (常設チャット管理者) は、チャットルーム管理者の権限と権限を他のユーザーに与えることができます。
-ms.openlocfilehash: b188e2088004c0ab0f41771872fe99de5553b621
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: CsPersistentChatAdministrator 役割 (常設チャット管理者) のメンバーは、他のユーザーおよび自分自身に対するチャット ルーム マネージャーの権限とアクセス許可を付与できます。
+ms.openlocfilehash: 745bec575e4071fcd06e7abfe15a3aa4ed8b194f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821719"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818767"
 ---
 # <a name="users-view-persistent-chat"></a>ユーザー: 常設チャットの表示
 
-**CsPersistentChatAdministrator**ロールのメンバー (常設チャット管理者) は、チャットルーム管理者の権限と権限を他のユーザーに与えることができます。
+**CsPersistentChatAdministrator** 役割 (常設チャット管理者) のメンバーは、他のユーザーおよび自分自身に対するチャット ルーム マネージャーの権限とアクセス許可を付与できます。
 
-常設チャット管理者は、次の操作を行うことができます。
+常設チャット管理者は、次の操作を実行できます。
 
-- ルームのカテゴリとチャットルームを作成します。
+- ルーム カテゴリおよびチャット ルームを作成します。
 
-- すべてのカテゴリとチャットルームのメンバーシップを設定します。
+- すべてのカテゴリとチャット ルームにメンバーシップを設定します。
 
-- すべてのカテゴリとチャットルームのすべての設定を管理します。
+- すべてのカテゴリおよびチャット ルームのすべての設定を管理します。
 
-- 常設チャットサーバーのポリシーを有効または無効にします。
+- 常設チャット サーバーのポリシーを有効または無効にします。
 
-- 常設チャットサーバープールの構成設定を設定および管理します。
+- 常設チャット サーバー プールの構成設定を設定および管理します。
 
-詳細については、「展開ドキュメントで[常設チャット管理者を追加](https://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx)する」を参照してください。
+詳細については、「展開」のドキュメントの「[Adding a Persistent Chat Administrator](https://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx)」を参照してください。
 
 ## <a name="tasks-that-you-can-perform"></a>実行できるタスク
 
-ユーザーに対して次のタスクを実行でき**ます。 [常設チャットの表示**] ページ:
+[ユーザー: 常設チャットの表示] ページ **では、次のタスクを実行** できます。
 
-- [ユーザーによるカテゴリ、チャットルーム、およびユーザーの権限とアクセス許可の管理を有効にする](https://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
+- [カテゴリ、チャット ルーム、ユーザーの権限とアクセス許可のユーザーによる管理の有効化](https://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
 
-- [Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+- [Persistent Chat のメンバーシップについて](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
 
-Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。
+Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
 
 

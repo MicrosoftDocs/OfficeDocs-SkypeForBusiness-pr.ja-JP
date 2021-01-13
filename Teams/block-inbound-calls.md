@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams で受信通話をブロックする
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 3bb1222f0662228e5c0de7b2253cbac162571b1e
-ms.sourcegitcommit: a36514c7c8ea47bde4edb09c11ff99061b1f74c0
-ms.translationtype: HT
+ms.openlocfilehash: ca2f8de5962572a08ab2a0ae7127446d14334c83
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094683"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799907"
 ---
 # <a name="block-inbound-calls"></a>受信通話をブロックする
 

@@ -1,13 +1,13 @@
 ---
-title: PowerShell スクリプトのサンプル-メッセージポリシーの作成 & 割り当てる
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell スクリプトのサンプル - メッセージング &割り当てる
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、Teams でメッセージングポリシーを作成し、組織内のユーザーに割り当てます。
+description: Teams でメッセージング ポリシーを作成し、組織内のユーザーに割り当てるには、この PowerShell スクリプトを使用します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,27 +17,27 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 318a430f6f59cbb28ffeda4336c36ae07533615b
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: e3d1fa3ebe45785c088852c518ac5490263fa6aa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533742"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804657"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 
-この PowerShell スクリプトを使用して、Microsoft Teams でメッセージングポリシーを作成し、ユーザーに割り当てます。 
+Microsoft Teams でメッセージング ポリシーを作成し、ユーザーに割り当てるには、この PowerShell スクリプトを使用します。 
 
-この PowerShell スクリプトの使い方について詳しくは、「[クイックスタート-教育機関向けチーム](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)」をご覧ください。
+この PowerShell スクリプトの使用の詳細については、「クイック スタート [- Teams for Education」を参照してください](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)。
 
-このスクリプトは、Skype for Business Online PowerShell モジュールの[Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy)コマンドレットを使用します。 PowerShell を使用したチーム管理の詳細については、「 [Teams PowerShell の概要](../teams-powershell-overview.md)」を参照してください。
+このスクリプトでは、Skype for Business Online PowerShell モジュールにある [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy) コマンドレットを使用します。 PowerShell [を使用した Teams の](../teams-powershell-overview.md) 管理の詳細については、Teams PowerShell の概要を参照してください。
 
 
 ## <a name="before-you-start"></a>始める前に
 
-[Skype For Business Online PowerShell モジュール](https://www.microsoft.com/download/details.aspx?id=39366)をダウンロードしてインストールし、メッセージが表示されたら、コンピューターを再起動します。
+Skype for [Business Online PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)モジュールをダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。
 
-詳細については、「 [Office 365 PowerShell を使って Skype For Business Online を管理](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)する」を参照してください。
+さらに詳しくは [、「Skype for Business Online with Office 365 PowerShell」をご覧ください](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="sample-script"></a>サンプル スクリプト
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> また、バッチポリシーの割り当てまたはユーザーがメンバーになっているグループによって、メッセージングポリシーをユーザーに直接割り当てることもできます。 詳細については、「[学校の多数のユーザーにポリシーを割り当て](../batch-group-policy-assignment-edu.md)、 [Teams のユーザーにポリシーを割り当てる](../assign-policies.md)」を参照してください。
+> また、バッチ ポリシーの割り当てまたはユーザーがメンバーであるグループに対して、大規模なメッセージング ポリシーをユーザーに直接割り当てすることもできます。 詳細については、「学校の大規模 [な](../batch-group-policy-assignment-edu.md) ユーザー セットにポリシーを割り当てる」および「Teams のユーザーにポリシーを割り当てる」 [を参照してください](../assign-policies.md)。

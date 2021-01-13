@@ -1,14 +1,14 @@
 ---
-title: オンボードチェックリスト-主要機能を構成する-Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: オンボーディング チェックリスト - コア機能を構成する - Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 組織のチームを構成するときに、このチェックリストでコア、to do、タスク、アクティビティに従います。
+description: 組織用に Teams を構成する場合は、このチェックリストの主要な To Do タスクとアクティビティに従います。
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords:
@@ -16,24 +16,24 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1881afc4897ca6321cd56609e491aef144e10da
-ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
+ms.openlocfilehash: a2987b507b9fa149ad874b1035a753586c05b23d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456091"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802307"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Microsoft Teams のコア機能を構成する
 
 | いいえ | アクティビティまたはタスク | 説明 | 完了状態 | その他の情報 |
 |----|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | 環境にすべての Teams の前提条件が含まれていることを検証する | チームは、他のプラットフォームに依存して、エンドツーエンドのコラボレーションソリューションを構築します。 IT チームと協力して、Exchange、SharePoint Online、および OneDrive for Business を展開し、適切に構成していることを確認します。 | | [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md) <br/><br/>[Exchange と Microsoft Teams の連携](exchange-teams-interact.md) |
-| 2  | チームがテナントで有効になっていることを検証する | すべての組織に対して、チームは既定でオンになっています。 Microsoft 365 管理センターで [ **サービス & アドイン** ] ページを確認して、組織でチームが有効になっていることを確認し、必要に応じて有効にします。 | | [Microsoft 365 または Office 365 で Microsoft Teams をセットアップする](office-365-set-up.md) |
-| 3  | 役割と権限を構成する | Teams は、メンバーと所有者の2種類の役割をサポートしています。 <br/><br/>メンバーをチームに追加した後は、所有者が所有者の役割にメンバーを昇格させることもできます。 ベストプラクティスとして、各チームに少なくとも2人の所有者を割り当てることをお勧めします。 <br/><br/>既定では、Exchange Online でホストされているメールボックスを持つ組織内のすべてのユーザーが、チームを作成できます。 新しいチームを作成したユーザーには、そのチームの所有者の役割が自動的に与えられます。 <br/><br/>必要に応じて、特定のユーザーが新しいチームを作成できるように Microsoft 365 グループ設定を構成することができます。 | | [Microsoft Teams で役割と権限を割り当てる](assign-roles-permissions.md) <br/><br/>[Microsoft 365 グループおよび Microsoft Teams](office-365-groups.md) <br/><br/>[Microsoft 365 グループを作成できるユーザーを管理する](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) |
-| 4  | テナント全体のチーム設定を構成する | 一部の Teams の設定は、テナントレベルで構成できます。 チームに対して有効になっているユーザーは、テナントの構成から次の設定を継承します。<ul><li>一般</li><li>電子メールの統合</li><li>アプリ</li><li>カスタム クラウド ストレージ</li><li>通話と会議</li><li>Messaging</li></ul>| | [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md) |
-| 5  | オプション: ゲストアクセスを構成する | Teams でゲストアクセスを使用して、チームとチャネルへのアクセスを付与することで、組織外のユーザーと共同作業を行うことができます。 ゲストアクセスは、Teams のテナントレベルの設定です。 規定ではオフになっています。 <br/>組織でゲストアクセスを有効にして、その機能を使用する予定がある場合は、テナント全体のゲスト設定を構成します。 | | [Microsoft Teams でのゲスト アクセス](guest-access.md) |
-| 6  | オプション: チームの名前付けポリシーを構成する | チームは、ユーザーがチーム名を作成または編集するときに、Microsoft 365 グループの名前付けポリシーを活用します。 <br/><br/>既定では、ユーザーがチームを作成したときに、名前付けの制限は適用されません。 <br/><br/>チーム名にルールを適用する必要がある場合は、組織に適用される Microsoft 365 グループの名前付けポリシーを構成します。 必須のプレフィックスとサフィックスを設定して、ブロックする単語を指定できます。 | | [Microsoft Teams で teams を作成するときに Microsoft 365 グループを計画する](plan-office-365-groups.md) <br/><br/>[Microsoft 365 グループの名前付けポリシー](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
-| 7  | Teams の SMTP ドメイン用に Exchange を構成する | チームは Exchange Online を使用して、email.teams.microsoft.com (追加または削除された SMTP ドメイン) を使用して、チームメンバーに通知を送信します。 <br/><br/>この SMTP ドメインは、必ず Exchange インフラストラクチャの [承認済みドメイン] リストに追加してください。 | | [Exchange で信頼できる差出人のリストを作成する](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365?view=o365-worldwide) |
-| 個  | チームへのユーザーアクセスを構成および管理する | チームのすべてのユーザーを有効にすることを強くお勧めしますが、Teams 製品ライセンスを割り当てるか削除することで、ユーザーごとにチームへのアクセスを許可または禁止することができます。 | | [Microsoft Teams へのユーザー アクセスを管理する](user-access.md) |
-| ファイブ  | ライセンスをユーザーに割り当てる | 電話会議、電話システム、通話プランなどの機能を使用するためのライセンスをユーザーに割り当てます。 | | [Microsoft Teams のアドオンライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)|
-| 常用 | オプション: PowerShell を使用してチームを管理する | Microsoft 365 管理センターではなく、PowerShell コマンドレットを使用して、チームの設定を管理および管理できます。 | | [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |
+| 1  | 使用している環境に Teams のすべての前提条件が含まれるか検証する | Teams は、他のプラットフォームに依存して、エンドツーエンドのコラボレーション ソリューションを構築します。 IT チームと作業して、Exchange、SharePoint Online、OneDrive for Business を展開して適切に構成されていることを確認します。 | | [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md) <br/><br/>[Exchange と Microsoft Teams の連携](exchange-teams-interact.md) |
+| 2  | Teams がテナントに対して有効になっているか検証する | Teams は、すべての組織で既定で有効になっています。 Microsoft 365 管理 **&** の [サービスとアドイン] ページで、Teams が組織で有効になっているか確認し、必要に応じて有効にします。 | | [Microsoft 365 または Office 365 で Microsoft Teams をセットアップする](office-365-set-up.md) |
+| 3  | 役割とアクセス許可を構成する | Teams では、メンバーと所有者の 2 種類の役割がサポートされます。 <br/><br/>メンバーをチームに追加した後、所有者はメンバーを所有者ロールに昇格できます。 ベスト プラクティスとして、各チームに少なくとも 2 人の所有者を割り当てすることをお勧めします。 <br/><br/>既定では、Exchange Online でホストされているメールボックスを持つ組織内のすべてのユーザーがチームを作成できます。 新しいチームを作成したユーザーには、そのチームの所有者ロールが自動的に付与されます。 <br/><br/>必要に応じて、特定のユーザーに新しいチームの作成のみを許可する Microsoft 365 グループ設定を構成できます。 | | [Microsoft Teams で役割と権限を割り当てる](assign-roles-permissions.md) <br/><br/>[Microsoft 365 グループと Microsoft Teams](office-365-groups.md) <br/><br/>[Microsoft 365 グループを作成できるユーザーを管理する](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) |
+| 4  | テナント全体の Teams の設定を構成する | テナント レベルで Teams の一部の設定を構成できます。 Teams に対して有効になっているユーザーは、テナント構成からこれらの設定を継承します。<ul><li>General</li><li>電子メールの統合</li><li>アプリ</li><li>カスタム クラウド ストレージ</li><li>通話と会議</li><li>Messaging</li></ul>| | [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md) |
+| 5  | オプション: ゲスト アクセスを構成する | Teams のゲスト アクセスを使用して、チームやチャネルへのアクセス権を付与することで、組織外のユーザーと共同作業を行います。 ゲスト アクセスは、Teams のテナント レベルの設定です。 規定ではオフになっています。 <br/>組織でこの機能を使用する予定がある場合は、ゲスト アクセスを有効にし、テナント全体のゲスト設定を構成します。 | | [Microsoft Teams でのゲスト アクセス](guest-access.md) |
+| 6  | オプション: Teams の名前付けポリシーを構成する | Teams では、ユーザーがチーム名を作成または編集するときに、Microsoft 365 グループの名前付けポリシーを利用します。 <br/><br/>既定では、ユーザーがチームを作成するときに名前付け制限は適用されません。 <br/><br/>チーム名にルールを適用する必要がある場合は、組織に適用される Microsoft 365 グループの名前付けポリシーを構成します。 必須のプレフィックスとサフィックスを設定し、ブロックする単語を指定できます。 | | [Microsoft Teams でチームを作成するときに Microsoft 365 グループを計画する](plan-office-365-groups.md) <br/><br/>[Microsoft 365 グループの名前付けポリシー](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
+| 7  | Teams SMTP ドメインの Exchange を構成する | Teams では、追加または削除された場合に、Exchange Online を使用して SMTP email.teams.microsoft.comを使用してチーム メンバーに通知を送信します。 <br/><br/>この SMTP ドメインは、Exchange インフラストラクチャの承認されたドメインの一覧に必ず追加してください。 | | [Exchange で差出人セーフ リストを作成する](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365?view=o365-worldwide) |
+| 8  | Teams へのユーザー アクセスを構成および管理する | Teams のすべてのユーザーを有効にすることを強くお勧めしますが、Teams 製品ライセンスを割り当てるか削除することで、ユーザー単位で Teams へのアクセスを許可または禁止することができます。 | | [Microsoft Teams へのユーザー アクセスを管理する](user-access.md) |
+| 9  | ユーザーにライセンスを割り当てる | 電話会議、電話システム、通話プランのような機能のライセンスをユーザーに割り当てる | | [Microsoft Teams アドオン ライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)|
+| 10 | オプション: PowerShell を使用して Teams を管理する | Microsoft 365 管理センターではなく PowerShell コマンドレットを使用して、Teams の設定を管理および管理できます。 | | [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |

@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server のエラーを処理するアーカイブオプションを構成する
+title: Skype for Business Server で障害を処理するためのアーカイブ オプションを構成する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,52 +11,52 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: '概要: Skype for Business Server に障害が発生したときに、アーカイブを防ぐことができる IM と会議セッションをブロックする方法について説明します。'
-ms.openlocfilehash: c1a6b9930d9f27e9d679710708141c0394c41dc4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: アーカイブを妨げる Skype for Business Server 障害が発生した場合に IM および会議セッションをブロックする方法について説明します。'
+ms.openlocfilehash: 9a39c5f54fbdd4a738f4e67e7f70ff199a204672
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818969"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817677"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Skype for Business Server のエラーを処理するアーカイブオプションを構成する
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Skype for Business Server で障害を処理するためのアーカイブ オプションを構成する
 
-**概要:** Skype for Business Server に障害が発生したときに、アーカイブを防ぐことができる IM と会議セッションをブロックする方法について説明します。
+**概要:** アーカイブを妨げる Skype for Business Server 障害が発生した場合に IM および会議セッションをブロックする方法について説明します。
   
-組織でアーカイブが必要な場合は、Skype for Business Server に障害が発生したときに、アーカイブを防ぐことができる IM と会議セッションをブロックすることができます。 この動作は重要モードと呼ばれることがあります。 たとえば、ストレージ サービスに問題が発生した場合、通信のアーカイブが有効になっているユーザーを対象に IM がブロックされます。 障害が解消されれば、IM も会議も自動的に復旧されます。 
+アーカイブが組織の要件である場合は、Skype for Business Server でアーカイブを妨げる障害が発生した場合に IM および会議セッションをブロックできます。 これは、重要モードとも呼ばれる場合があります。 たとえば、記憶域サービスに問題がある場合、通信でアーカイブが有効になっているユーザーに対して IM がブロックされます。 障害から回復した後、IM および会議は自動的に回復します。 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>コントロール パネルを使用して重要モードを構成する
 
-アーカイブを阻む障害が発生した場合に通信セッションを許可するかどうかを指定するには、次の操作を行います。
+アーカイブを妨げる障害が発生した場合に通信セッションを許可するかどうかを指定するには、次のコマンドを実行します。
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     
-4. アーカイブ構成の一覧から、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、[**編集**]、[**詳細の表示**] の順にクリックします。
+4. アーカイブ構成の一覧で、適切なグローバル構成、サイト構成、またはプール構成の名前をクリックし、[編集] をクリックして、[詳細の表示]**をクリックします**。
     
-5. 障害が発生したときのアーカイブの動作を設定するには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンまたはオフにします。
+5. 障害が発生したときのアーカイブの動作を設定するには、[アーカイブに失敗した場合にインスタント メッセージング **(IM)** または Web 会議セッションをブロックする] チェック ボックスをオンまたはオフにします。
     
 6. [**確定**] をクリックします。
     
-## <a name="configure-critical-mode-by-using-windows-powershell"></a>Windows PowerShell を使用して重要モードを構成する
+## <a name="configure-critical-mode-by-using-windows-powershell"></a>ユーザー設定を使用してクリティカル モードをWindows PowerShell
 
-また、 **BlockonCsArchivingConfiguration**コマンドレットを使用して、アーカイブを禁止するエラーが発生した場合に通信セッションを許可するかどうかを指定することもできます。
+また、BlockOnArchiveFailure パラメーターで **Set-CsArchivingConfiguration** コマンドレットを使用して、アーカイブを妨げる障害が発生した場合に通信セッションを許可するかどうかを指定することもできます。
   
-たとえば、次のコマンドを実行すると、アーカイブに失敗した場合の通信が無効になります。
+たとえば、次のコマンドを実行すると、アーカイブに障害が発生した場合に通信が無効になります。
   
 ```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
-次のコマンドは、アーカイブに障害が発生した場合でも通信を有効にします。
+次のコマンドは、アーカイブエラーが発生した場合に通信を有効にします。
   
 ```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 
-詳細については、 [CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps)コマンドレットのヘルプトピックを参照してください。
+詳細については [、Set-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
   
 

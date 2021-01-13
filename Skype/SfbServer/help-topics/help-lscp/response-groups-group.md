@@ -1,8 +1,8 @@
 ---
-title: 応答グループグループ
+title: 応答グループ グループ
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,48 +14,48 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
-description: 応答グループは、エージェントグループ、キュー、ワークフローで構成されます。 エージェントグループは、応答グループの呼び出しに応答するように指定されているユーザーのグループです。
-ms.openlocfilehash: cda04ebe55c24405e3034b8c813a771f82d3115e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 エージェント グループは、応答グループの通話に応答するユーザーのグループです。
+ms.openlocfilehash: f8208137b8d4d3842ede2447d4a3ee33792f523d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822390"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819137"
 ---
 # <a name="response-groups-group"></a>応答グループ: グループ
 
-応答グループは、エージェントグループ、キュー、ワークフローで構成されます。 エージェントグループは、応答グループの呼び出しに応答するように指定されているユーザーのグループです。
+応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 エージェント グループは、応答グループの通話に応答するユーザーのグループです。
 
-[**応答グループ** - ]**グループ**ページには、組織で定義されているすべてのエージェントグループの一覧が表示されます。
+[**応答グループ**  -  **グループ]** ページには、組織に対して定義されているエージェント グループの一覧が表示されます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
-[**応答グループ** - **] ページで**は、次のタスクを実行できます。
+[応答グループ グループ] ページから次の **タスクを**  -  **実行** できます。
 
-- 新しいエージェントグループを作成する
+- 新しいエージェント グループの作成
 
-- 既存のエージェントグループを変更する
+- 既存のエージェント グループの変更
 
-- エージェントグループを削除する
+- エージェント グループの削除
 
 ## <a name="ui-reference"></a>UI リファレンス
 
 次の一覧に、このページのコマンドを示します。
 
-- **新規**新しいエージェントグループを開始します。
+- **新規** 新しいエージェント グループを開始します。
 
-- **編集**選択したエージェントグループを開いて編集するか、リスト内のすべてのエージェントグループを選択するか、選択したエージェントグループを削除します。
+- **編集** 選択したエージェント グループを開き、編集するか、一覧内のすべてのエージェント グループを選択するか、選択したエージェント グループを削除します。
 
-- **更新**エージェントグループの一覧を更新します。
+- **更新** エージェント グループの一覧を更新します。
 
 次の一覧に、このページのフィールドを示します。
 
-- **名前**エージェントグループを識別する一意の名前。
+- **名前** エージェント グループを識別する一意の名前。
 
-- **サービス**エージェントグループをホストしている**ApplicationServer**サービス。
+- **サービス** エージェント グループをホストする **ApplicationServer** サービス。
 
-- **説明**エージェントグループの説明。
+- **説明** エージェント グループの説明。
 
-回答グループの機能と機能の詳細については、計画ドキュメントの「 [Skype For Business Server 2015 での応答グループアプリケーションの計画](../../plan-your-deployment/enterprise-voice-solution/response-group.md)」を参照してください。 エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)」を参照してください。
+応答グループの機能の詳細については、「計画」のドキュメントの [「Plan for the Response Group application in Skype for Business Server 2015」](../../plan-your-deployment/enterprise-voice-solution/response-group.md) を参照してください。 エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx)」を参照してください。
 
 

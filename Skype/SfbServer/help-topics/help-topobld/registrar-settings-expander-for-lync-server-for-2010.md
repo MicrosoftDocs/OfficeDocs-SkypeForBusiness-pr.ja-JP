@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2010 用のレジストラー設定の展開
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: '[復元] の設定を編集し、以下のプロパティを構成します。'
-ms.openlocfilehash: 4271203bf9f737034796cc3b74c95836480df521
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 92df9deeba1287dab4dc7d84b089fa81ca2e51ca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217178"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818327"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Lync Server 2010 用のレジストラー設定の展開
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Lync Server 2010 用のレジストラー設定エキスパンダー
  
 [**復元**] の設定を編集し、以下のプロパティを構成します。
   

@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server でアーカイブデータをエクスポートする
+title: Skype for Business Server でアーカイブされたデータをエクスポートする
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,38 +11,38 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: '概要: Skype for Business Server のアーカイブデータをエクスポートする方法について説明します。'
-ms.openlocfilehash: 12ba59ff11a988fd95eb2207cd826a4399db2779
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server のアーカイブ 済みデータをエクスポートする方法について学習します。'
+ms.openlocfilehash: caff65e829b24dc83760c7a505e344905c9e09e1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818909"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817567"
 ---
-# <a name="export-archived-data-in-skype-for-business-server"></a>Skype for Business Server でアーカイブデータをエクスポートする
+# <a name="export-archived-data-in-skype-for-business-server"></a>Skype for Business Server でアーカイブされたデータをエクスポートする
 
-**概要:** Skype for Business Server のアーカイブデータをエクスポートする方法について説明します。
+**概要:** Skype for Business Server のアーカイブ データをエクスポートする方法について学習します。
   
-アーカイブ データベースにアーカイブされているデータは、読み取り可能な形式ではなく、検索もできませんが、**Export-CsArchivingData** コマンドレットを使用すると、アーカイブ データベースからレコードを抽出して Outlook Electronic Mail (EML) ファイルとして保存できます。
+アーカイブ データベースにアーカイブされたデータは、検索可能または読み取り可能な形式ではありません。ただし **、Export-CsArchivingData** コマンドレットを使用して、データベースからレコードを抽出し、それらを Outlook Electronic Mail (EML) ファイルとして保存できます。
   
-Microsoft Exchange の統合を有効にすると、データは Exchange ストアにアーカイブされます。 Exchange でアーカイブされたデータは、検索と検出が可能です。 Exchange でアーカイブされたデータへのアクセスに関する詳細については、Exchange のドキュメントを参照してください。
+Microsoft Exchange 統合を有効にした場合、データは Exchange ストアにアーカイブされます。 Exchange にアーカイブされたデータは検索可能で検出可能です。 Exchange にアーカイブされているデータへのアクセスの詳細については、Exchange のドキュメントを参照してください。
   
-## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用してアーカイブデータをエクスポートする
+## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Windows PowerShell コマンドレットを使用したアーカイブ データのエクスポート
 
-Export-CSArchivingData コマンドレットを使用すると、アーカイブ データをエクスポートできます。 
+アーカイブされたデータは、次のコマンドレットを使用Export-CSArchivingDataできます。 
   
-次のコマンドは、2012 年 6 月 1 日以降にアーカイブ データベース atl-sql-001.contoso.com に書き込まれたすべてのアーカイブ データをエクスポートします。結果として得られる出力ファイルは、フォルダー C:\ArchivingExports に保存されます。
+次のコマンドは、2012 年 6 月 1 atl-sql-001.contoso.comアーカイブ データベースに書き込まれたすべてのアーカイブ データをエクスポートします。 結果として得られる出力ファイルは、フォルダー C:\ArchivingExports に保存されます。
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-次のコマンドは、kenmyer@contoso.com という 1 人のユーザーのアーカイブ データをエクスポートします。 これは、UserUri パラメーターに続けてユーザーの SIP アドレスを含めることで行われます。 次に例を示します。 
+次のコマンドは、1 人のユーザーのアーカイブ データをエクスポートします。kenmyer@contoso.com。 これを実行するには、UserUri パラメーターの後にユーザーの SIP アドレスを指定します。 例: 
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 
-詳細については、 [CsArchivingData](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps)コマンドレットのヘルプトピックを参照してください。
+詳細については [、Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/export-csarchivingdata?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
   
 

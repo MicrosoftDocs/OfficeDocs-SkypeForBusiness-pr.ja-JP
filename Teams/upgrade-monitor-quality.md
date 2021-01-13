@@ -1,13 +1,13 @@
 ---
-title: ユーザーエクスペリエンスの品質 |Microsoft Teams |QoS |通話音質
-author: lanachin
-ms.author: v-lanac
+title: ユーザー エクスペリエンスの品質 |Microsoft Teams |QoS |通話品質
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 管理者は、Microsoft Teams の品質および使用状況を監視するために必要なタスクとアクティビティについて知ることができます。
+description: 管理者は、Microsoft Teams の品質と使用状況を監視するために必要なタスクとアクティビティについて学習できます。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,26 +20,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 843acff0dafc7cd5ad2b3fd63ccc009c64716b03
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: d57f01887961ad0c458b13db20ba79023272bcdf
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085923"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808997"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
-![アップグレード過程のオペレーショナルエクセレンスステージを強調した図](media/upgrade-banner-op-excellence.png "オペレーショナルエクセレンスステージに重点を置いたアップグレードの段階")
+![アップグレードの優れた運用段階を強調表示した図](media/upgrade-banner-op-excellence.png "アップグレードのプロセスのステージ。"オペレーショナル・アペレーショナル" ステージに重点を置いた")
 
-この記事は、Skype for Business から Teams へのアップグレードが完了したらすぐに、アップグレードの過程のオペレーショナルエクセレンスステージの一部です。
+この記事は、Skype for Business から Teams へのアップグレードが完了するとすぐに開始される、アップグレードの旅の"オペレーショナル・ディカリスト" ステージの一部です。
 
 ## <a name="improve-and-monitor-call-quality"></a>通話品質の向上と監視
 
-[チームの通話品質の向上と監視](monitor-call-quality-qos.md)。以下に示すように、ユーザーエクスペリエンスを向上させるための大きな影響を受ける主要な領域の一連のアクティビティが含まれています。
+[Teams の](monitor-call-quality-qos.md) 通話品質の向上と監視には、以下に示す、ユーザー エクスペリエンスの向上に最も大きな影響を与える主要な領域の修復ガイダンスを評価して提供する一連のアクティビティが含まれています。
 
-![レビュー中に確認する主要な領域の図。](media/plan-my-service-management-image2.png "音質のレビュー中に、音声、信頼性、ユーザー調査の結果について調べる主要な領域。")
+![レビュー中に調べる重要な領域の図。](media/plan-my-service-management-image2.png "エクスペリエンスの品質レビュー中に調べる重要な領域は、音声、信頼性、ユーザーアンケートの結果です。")
 
-ガイドで説明されている領域を継続的に評価してを修復するすることで、ユーザーエクスペリエンスに悪影響を及ぼす可能性を減らすことができます。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
+ガイドに記載されている領域を継続的に評価して修復することで、ユーザー エクスペリエンスに悪影響を与える可能性を減らします。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 
 - 不完全なファイアウォールまたはプロキシの構成
 
@@ -53,8 +53,8 @@ ms.locfileid: "45085923"
 
 - 問題のあるサブネットまたはネットワーク デバイス
 
-[チームの通話品質の向上と監視](monitor-call-quality-qos.md)に関するガイダンスでは、説明されている各領域を報告して調査するための主要なツールとして、通話品質ダッシュボード (CQD) をオンラインで使用することに重点を置いています。音声に重点を置いて、導入と影響を最大限に高めます。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
+[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためにオーディオに重点を置いて、説明された各領域を報告および調査するための主要ツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
-品質チャンピオンをいち早く紹介することを強くお勧めします。 推薦されたユーザーは、[チームの通話品質を向上させる](monitor-call-quality-qos.md)ために、コンテンツの理解を深めていく必要があります。
+早い段階で品質チャンピオンを指名することを強くお勧めします。 指名を受け、Teams の通話品質の向上と監視のコンテンツに慣れ [始める必要があります](monitor-call-quality-qos.md)。
 
 <!--ENDOFSECTION-->

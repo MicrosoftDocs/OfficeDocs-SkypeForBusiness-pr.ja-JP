@@ -1,7 +1,7 @@
 ---
 title: クライアントとデバイスを計画する
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business でサポートされているクライアントとアプリのレビュー。'
-ms.openlocfilehash: bcb6cfdaa0797e46ebc01f551a46600577d4dc27
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 1c88786680699c81c9dd06dc8156bff333ae98ce
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220557"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802757"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントとデバイスを計画する
 

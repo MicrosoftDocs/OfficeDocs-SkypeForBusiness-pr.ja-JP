@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server でダイヤルインユーザーにウェルカムメールを送信する
+title: Skype for Business Server でダイヤルイン ユーザーにようこそメールを送信する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: '概要: Skype for Business Server でユーザーをダイヤルイン会議にようこそ方法について説明します。'
-ms.openlocfilehash: 6228d0636e878ccf9a208edf9afeee3fe1e808f3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server でユーザーをダイヤルイン会議に参加する方法について説明します。'
+ms.openlocfilehash: dea63f02bcdd3fab323f7f4eff8f420bf012e9a7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818438"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817497"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Skype for Business Server でダイヤルインユーザーにウェルカムメールを送信する
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Skype for Business Server でダイヤルイン ユーザーにようこそメールを送信する
  
-**概要:** Skype for Business Server でユーザーをダイヤルイン会議にようこそ方法について説明します。
+**概要:** Skype for Business Server でユーザーをダイヤルイン会議に参加する方法について説明します。
   
-ダイヤルイン電話会議を構成し、テストして正常に機能することを確認したら、ユーザーの初期暗証番号 (PIN) を設定し、その機能の可用性に関してユーザーに伝えてください。 これには、初期 PIN や、ダイヤルイン電話会議設定 Web ページへのリンクなどについての指示を含めることができます。 
+ダイヤルイン会議を構成し、テストして正常に機能しているか確認した後、ユーザーの初期の個人識別番号 (PIN) を設定し、機能の可用性についてユーザーに通知する必要があります。 初期 PIN やダイヤルイン会議の設定 Web ページへのリンクなどの導入手順を含めできます。 
   
-通常、pin をリセットするには、 **CsClientPin の Set**コマンドレットを使用しますが、pin 情報を使って紹介のウェルカムメールを送信する場合は、このトピックの手順を使用できます。 ようこそメールを送信しない場合は、代わりに **Set-CsClientPin** を使用できます。
+通常は **Set-CsClientPin** コマンドレットを使用して PIN をリセットしますが、PIN 情報を記載した入門用のウェルカム メールを送信する場合は、このトピックの手順を使用できます。 電子メールを送信しない場合は、代わりに **Set-CsClientPin を** 使用できます。
   
-PIN を設定し、1 人のユーザーにようこそメールを送信する場合は、**Set-CsPinSendCAWelcomeMail** スクリプトを使用できます。既定で、このスクリプトを実行しても、値が既に設定されている場合には PIN をリセットしませんが、Force パラメーターを使用すれば PIN のリセットを強制できます。電子メール メッセージは、SMTP (Simple Mail Transfer Protocol) を使用して送信されます。
+PIN を設定し、1 人のユーザーにようこそメールを送信する場合は、**Set-CsPinSendCAWelcomeMail** スクリプトを使用できます。 既定で、このスクリプトを実行しても、値が既に設定されている場合には PIN をリセットしませんが、Force パラメーターを使用すれば PIN のリセットを強制できます。 電子メール メッセージは、SMTP (Simple Mail Transfer Protocol) を使用して送信されます。
   
-**Set-CsPinSendCAWelcomeMail** スクリプトを繰り返し実行して PIN を設定し、ユーザー グループに電子メールを送信するスクリプトを作成できます。電子メール テンプレート (CAWelcomeEmailTemplate.html ファイル) を変更してイントラネット ページにリンクを追加するか、電子メール テキストを変更できます。
+**Set-CsPinSendCAWelcomeMail** スクリプトを繰り返し実行して PIN を設定し、ユーザー グループに電子メールを送信するスクリプトを作成できます。 電子メール テンプレート (CAWelcomeEmailTemplate.html ファイル) を変更してイントラネット ページにリンクを追加するか、電子メール テキストを変更できます。
   
 
 
@@ -37,7 +37,7 @@ PIN を設定し、1 人のユーザーにようこそメールを送信する�
 
 1. RTCUniversalServerAdmins group のメンバーとしてログオンします。
     
-2. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理シェル**] をクリックします。
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
@@ -54,18 +54,18 @@ PIN を設定し、1 人のユーザーにようこそメールを送信する�
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**Smtpserver**既定では、スクリプトはこのパラメーターに対して予約された環境変数 **$PSEmailServer**の値を使います。 **$PSEmailServer**変数が設定されていない場合は、このパラメーターを指定する必要があります。
+**SmtpServer** 既定では、スクリプトは予約された環境変数の値をこのパラメーター **$PSEmailServer** 使用します。 変数$PSEmailServer **設定** しない場合は、このパラメーターを指定する必要があります。
     
-**資格情報**既定では、スクリプトは現在のユーザーの資格情報を使用します。 現在のユーザーが、指定された差出人アドレスに代わってメールを送信するアクセス許可を持っていない場合は、このパラメーターを指定する必要があります。 一般的な規則として、差出人アドレスとしてメールアドレスを指定しない場合は、このパラメーターを指定します。
+**資格情報** 既定では、スクリプトは現在のユーザーの資格情報を使用します。 現在のユーザーに、指定した From アドレスの代わりに電子メールを送信するアクセス許可が付与されていない場合は、このパラメーターを指定する必要があります。 一般に、電子メール アドレスを From アドレスとして指定しない場合は、このパラメーターを指定します。
     
-次の例では、新しい PIN を作成し、Marco から Bob にようこそメールを送信します。既定のテンプレートにある電子メール テキストを使用し、HTML 形式で電子メール メッセージを作成します。既定の [件名] は、"ダイヤルイン電話会議へようこそ" です。
+次の例では、新しい PIN を作成し、Bob に Bob からようこそメールを送信します。 既定のテンプレートにある電子メール テキストを使用し、HTML 形式で電子メール メッセージを作成します。 既定の件名は "ダイヤルイン会議へようこそ" です。
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
-次の例では、Bob に PIN が既に設定されているとしても、Bob の新しい PIN の値を強制的に "383042650" とし、Marco から Bob にようこそメールを送信します。Credential パラメーターが指定されているため、コマンドを実行するユーザーはパスワードを入力するよう求められます。電子メールは、SSL (Secure Sockets Layer) を使用して送信されます。
+次の例では、Bob が既存の PIN を持っていた場合でも、Bob に対して値 "383042650" の新しい PIN を強制的に設定し、次に、Bob から Bob にようこそメールを送信します。 Credential パラメーターが指定されているため、コマンドを実行するユーザーはパスワードを入力するよう求められます。 電子メールは SSL (Secure Sockets Layer使用して送信されます。
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"

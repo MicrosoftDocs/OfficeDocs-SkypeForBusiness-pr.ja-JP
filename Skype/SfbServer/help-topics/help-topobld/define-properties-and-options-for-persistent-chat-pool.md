@@ -1,8 +1,8 @@
 ---
 title: 常設チャット プールのプロパティとオプションの定義
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,44 +14,44 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
-description: 常設チャットサーバーまたは常設チャットサーバープールのオプションを構成するには、次のプロパティを定義します。
-ms.openlocfilehash: 8d3cef04d7089ffff640740bb048ca52cf7fd91e
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 常設チャット サーバーまたは常設チャット サーバー プールのオプションを構成するには、次のプロパティを定義します。
+ms.openlocfilehash: acc80c76e79364be730ec56a2b64e5dcd001f661
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218548"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818427"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>常設チャット プールのプロパティとオプションの定義
  
-常設チャットサーバーまたは常設チャットサーバープールのオプションを構成するには、次のプロパティを定義します。
+常設チャット サーバーまたは常設チャット サーバー プールのオプションを構成するには、次のプロパティを定義します。
   
- **常設チャットプールの表示名**: この常設チャットサーバーまたは常設チャットサーバープールに表示されるユーザーフレンドリ名を定義する必須のプロパティ。
+ **常設チャット プールの** 表示名 : この常設チャット サーバーまたは常設チャット サーバー プールに対して表示されるユーザー フレンドリーな名前を定義する必須のプロパティ。
   
- **常設チャットポート**: この常設チャットサーバーまたは常設チャットサーバープールがリッスンするポート番号を定義する必須のプロパティ。
+ **常設チャット ポート**: この常設チャット サーバーまたは常設チャット サーバー プールがリッスンするポート番号を定義する必須のプロパティです。
   
- [**コンプライアンスを有効に**する]: オプションの常設チャットコンプライアンス機能とデータベースを展開および実装する予定の場合は、このチェックボックスをオンにします。
+ **コンプライアンスの有効化**: オプションの常設チャット コンプライアンス機能とデータベースを展開して実装する場合は、このチェック ボックスをオンにします。
   
- [**バックアップ SQL server ストアを使用して障害復旧を有効**にする]: 別の sql server にある構成済みのバックアップセットから、常設チャットの sql server ストアの障害復旧を展開および実装する場合は、このチェックボックスをオンにします。 詳細については、「 [Configure high availability and disaster recovery For Persistent Chat server For Skype For Business server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)」を参照してください。
-  
-> [!NOTE]
-> このオプションは、複数のサーバーから成るプールに対してのみ使用できます。 
-  
- [ ** \<site that this server or pool is being configured in\> サイトの既定のプールとして使用**する]: これがサイトの既定の常設チャットサーバーまたは常設チャットサーバープールの場合は、このチェックボックスをオンにします。 サイトごとに、常設チャットサーバーまたは1つの既定の常設が必要です。
+ **障害復旧を有効にするには**、バックアップ SQL Server ストアを使用します。別の SQL Server 上の構成済みのストア セットから常設チャット SQL Server ストアの障害復旧を展開および実装する場合は、このチェック ボックスをオンにします。 詳細については [、「Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015」を参照](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)してください。
   
 > [!NOTE]
-> トポロジに複数のサイトが含まれている場合は、[ **このプールをすべてのサイトの既定として使用** する] チェックボックスも表示されます。
+> このオプションは、複数のサーバーを持つプールでのみ使用できます。 
+  
+ **サイトの既定として \<site that this server or pool is being configured in\>** このプールを使用する: これがサイトの既定の常設チャット サーバーまたは常設チャット サーバー プールになる場合は、このチェック ボックスをオンにします。 サイトごとに既定の常設チャット サーバーまたはプールが 1 つ必要です。
+  
+> [!NOTE]
+> トポロジに複数のサイトが含まれる場合は、[このプールをすべてのサイトの既定として使用する] チェック ボックス **も** 表示されます。
   
 前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。
   
-このプールのオプションの入力が終了したら、[ **次へ** ] をクリックして、常設チャットサーバープールの定義を続行します。
+この **プール** のオプションの入力が完了したら、[次へ] をクリックして、常設チャット サーバー プールの定義を続行します。
   
-すべての変更を破棄して**新しい常設チャット プールの定義**ウィザードを終了するには、[**キャンセル**] をクリックします。
+すべての変更を破棄して **新しい常設チャット プールの定義** ウィザードを終了するには、[**キャンセル**] をクリックします。
   
 このページのような状況依存のヘルプにアクセスするには、[**ヘルプ**] をクリックします。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server 2015 での常設チャットサーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Skype for Business Server 2015 での常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[常設チャットサーバーを Skype for Business Server 2015 トポロジに追加する](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Skype for Business Server 2015 トポロジへの常設チャット サーバーの追加](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

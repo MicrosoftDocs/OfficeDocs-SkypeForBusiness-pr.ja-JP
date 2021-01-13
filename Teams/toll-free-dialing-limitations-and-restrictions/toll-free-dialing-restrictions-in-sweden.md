@@ -1,7 +1,7 @@
 ---
 title: スウェーデンでのフリーダイヤル制限
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
-ms.openlocfilehash: 63d6e1a987c0fe12f4bdbd81b02f27340456c9bb
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: c5458dd661262eb8a5be4462fcc005d94e2bd121
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321900"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809127"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>スウェーデンでのフリーダイヤル制限
 
