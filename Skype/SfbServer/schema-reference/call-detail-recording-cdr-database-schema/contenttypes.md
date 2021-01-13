@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 の ContentTypes テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
-description: ContentTypes テーブルは、ピアツーピアセッションと会議セッションの両方で使用されるコンテンツタイプのリストを格納するサポートテーブルです。 テーブル内の各レコードは、1つのコンテンツタイプを表します。
-ms.openlocfilehash: 6dadf7de0107005cca751e27f0c0250bc8f9f03a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ContentTypes テーブルは、ピアツーピア セッションと会議セッションの両方で使用されるコンテンツ タイプのリストを格納するサポート テーブルです。 テーブル内の各レコードは、1 つのコンテンツ タイプを表します。
+ms.openlocfilehash: 461631c8fc824a23f0e4b22b65a3cbc8cf6a2c73
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815305"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816087"
 ---
-# <a name="contenttypes-table-in-skype-for-business-server-2015"></a><span data-ttu-id="25400-104">Skype for Business Server 2015 の ContentTypes テーブル</span><span class="sxs-lookup"><span data-stu-id="25400-104">ContentTypes table in Skype for Business Server 2015</span></span>
+# <a name="contenttypes-table-in-skype-for-business-server-2015"></a><span data-ttu-id="9a0a4-104">Skype for Business Server 2015 の ContentTypes テーブル</span><span class="sxs-lookup"><span data-stu-id="9a0a4-104">ContentTypes table in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="25400-105">ContentTypes テーブルは、ピアツーピアセッションと会議セッションの両方で使用されるコンテンツタイプのリストを格納するサポートテーブルです。</span><span class="sxs-lookup"><span data-stu-id="25400-105">The ContentTypes table is a supporting table that stores a list of the content types used in both peer-to-peer sessions and conference sessions.</span></span> <span data-ttu-id="25400-106">テーブル内の各レコードは、1つのコンテンツタイプを表します。</span><span class="sxs-lookup"><span data-stu-id="25400-106">Each record in the table represents one content type.</span></span>
+<span data-ttu-id="9a0a4-105">ContentTypes テーブルは、ピアツーピア セッションと会議セッションの両方で使用されるコンテンツ タイプのリストを格納するサポート テーブルです。</span><span class="sxs-lookup"><span data-stu-id="9a0a4-105">The ContentTypes table is a supporting table that stores a list of the content types used in both peer-to-peer sessions and conference sessions.</span></span> <span data-ttu-id="9a0a4-106">テーブル内の各レコードは、1 つのコンテンツ タイプを表します。</span><span class="sxs-lookup"><span data-stu-id="9a0a4-106">Each record in the table represents one content type.</span></span>
   
-|<span data-ttu-id="25400-107">**列**</span><span class="sxs-lookup"><span data-stu-id="25400-107">**Column**</span></span>|<span data-ttu-id="25400-108">**データ型**</span><span class="sxs-lookup"><span data-stu-id="25400-108">**Data Type**</span></span>|<span data-ttu-id="25400-109">**キー/インデックス**</span><span class="sxs-lookup"><span data-stu-id="25400-109">**Key/Index**</span></span>|<span data-ttu-id="25400-110">**詳細**</span><span class="sxs-lookup"><span data-stu-id="25400-110">**Details**</span></span>|
+|<span data-ttu-id="9a0a4-107">**列**</span><span class="sxs-lookup"><span data-stu-id="9a0a4-107">**Column**</span></span>|<span data-ttu-id="9a0a4-108">**データ型**</span><span class="sxs-lookup"><span data-stu-id="9a0a4-108">**Data Type**</span></span>|<span data-ttu-id="9a0a4-109">**キー/インデックス**</span><span class="sxs-lookup"><span data-stu-id="9a0a4-109">**Key/Index**</span></span>|<span data-ttu-id="9a0a4-110">**詳細**</span><span class="sxs-lookup"><span data-stu-id="9a0a4-110">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="25400-111">**ContentTypeId**</span><span class="sxs-lookup"><span data-stu-id="25400-111">**ContentTypeId**</span></span> <br/> |<span data-ttu-id="25400-112">int</span><span class="sxs-lookup"><span data-stu-id="25400-112">int</span></span>  <br/> |<span data-ttu-id="25400-113">Primary</span><span class="sxs-lookup"><span data-stu-id="25400-113">Primary</span></span>  <br/> |<span data-ttu-id="25400-114">コンテンツの種類を識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="25400-114">Unique number identifying the content type.</span></span>  <br/> |
-|<span data-ttu-id="25400-115">**ContentType**</span><span class="sxs-lookup"><span data-stu-id="25400-115">**ContentType**</span></span> <br/> |<span data-ttu-id="25400-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="25400-116">nvarchar(256)</span></span>  <br/> ||<span data-ttu-id="25400-117">コンテンツタイプの名前。</span><span class="sxs-lookup"><span data-stu-id="25400-117">Content type name.</span></span>  <br/> |
+|<span data-ttu-id="9a0a4-111">**ContentTypeId**</span><span class="sxs-lookup"><span data-stu-id="9a0a4-111">**ContentTypeId**</span></span> <br/> |<span data-ttu-id="9a0a4-112">int</span><span class="sxs-lookup"><span data-stu-id="9a0a4-112">int</span></span>  <br/> |<span data-ttu-id="9a0a4-113">Primary</span><span class="sxs-lookup"><span data-stu-id="9a0a4-113">Primary</span></span>  <br/> |<span data-ttu-id="9a0a4-114">コンテンツ タイプを識別する一意の番号。</span><span class="sxs-lookup"><span data-stu-id="9a0a4-114">Unique number identifying the content type.</span></span>  <br/> |
+|<span data-ttu-id="9a0a4-115">**ContentType**</span><span class="sxs-lookup"><span data-stu-id="9a0a4-115">**ContentType**</span></span> <br/> |<span data-ttu-id="9a0a4-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="9a0a4-116">nvarchar(256)</span></span>  <br/> ||<span data-ttu-id="9a0a4-117">コンテンツ タイプ名。</span><span class="sxs-lookup"><span data-stu-id="9a0a4-117">Content type name.</span></span>  <br/> |
    
 
