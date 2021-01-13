@@ -1,8 +1,8 @@
 ---
 title: MediaList テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/12/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList テーブルは、さまざまなメディアの種類の一覧を格納する静的なテーブルです。
-ms.openlocfilehash: e7d739b27bf45b5f5a21183c30bd5b07108b4a9d
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 6f593876a1b42163b6f2e75dbe44c1eb26b2ff16
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888516"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813137"
 ---
 # <a name="medialist-table"></a>MediaList テーブル
  
@@ -26,10 +26,10 @@ MediaList テーブルは、さまざまなメディアの種類の一覧を格�
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**MediaId** <br/> |tinyint  <br/> |Primary  <br/> |値: 1 -7  <br/> |
-|**メディア** <br/> |nvarchar(256)  <br/> || MediaID 値と Media 値の固定マッピング: <br/>  1 -- IM <br/>  2-ファイル送信 <br/>  3-リモートアシスタンス <br/>  4-アプリケーション共有 <br/>  5 -- 音声 <br/>  6 -- ビデオ <br/>  7-アプリの招待 <br/> |
+|**MediaId** <br/> |tinyint  <br/> |Primary  <br/> |値: 1 ~ 7  <br/> |
+|**Media** <br/> |nvarchar(256)  <br/> || MediaID と Media 値の静的マッピング: <br/>  1 -- IM <br/>  2 - ファイル転送 <br/>  3 - リモート アシスタンス <br/>  4 - アプリケーション共有 <br/>  5 -- 音声 <br/>  6 -- ビデオ <br/>  7 - アプリの招待 <br/> |
    
-LcsCDR.SessionDetailsView.MediaTypes の値でモダリティの種類を特定しようとしている場合は、次の Join スニペットを使用する必要があります。 
+LcsCDR.SessionDetailsView.MediaTypes の値のモダリティの種類を決定する場合は、次の Join スニペットを使用する必要があります。 
   
 ```SQL
 LEFT JOIN on Media.MediaId = MediaList.MediaId

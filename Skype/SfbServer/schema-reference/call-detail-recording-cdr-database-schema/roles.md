@@ -1,8 +1,8 @@
 ---
 title: Roles テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
-description: Roles テーブルは、出席者や発表者など、可能な電話会議ロールのリストを保存する静的テーブルです。
-ms.openlocfilehash: 8ebd01bc9cc51b33d28f87aa85be1473a6397201
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Roles テーブルは、会議で使用可能な役割 (参加者、発表者など) のリストを格納する静的なテーブルです。
+ms.openlocfilehash: 6c5e28ccd2d186b0122d70f91621a3365e6d2b07
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814935"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809977"
 ---
 # <a name="roles-table"></a>Roles テーブル
  
-Roles テーブルは、出席者や発表者など、可能な電話会議ロールのリストを保存する静的テーブルです。
+Roles テーブルは、会議で使用可能な役割 (参加者、発表者など) のリストを格納する静的なテーブルです。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**RoleId** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**役割** <br/> |nvarchar(256)  <br/> || 許可される値: <br/>  0-不明 <br/>  1-プレゼンター <br/>  2-出席者 <br/> |
+|**役割** <br/> |nvarchar(256)  <br/> || 有効な値は次のとおりです。 <br/>  0 - 不明 <br/>  1 - 発表者 <br/>  2 - 参加者 <br/> |
    
 

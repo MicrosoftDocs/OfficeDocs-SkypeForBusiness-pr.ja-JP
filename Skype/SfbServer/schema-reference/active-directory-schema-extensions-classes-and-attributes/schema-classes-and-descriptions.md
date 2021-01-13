@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server のスキーマクラスと説明
+title: Skype for Business Server のスキーマ クラスと説明
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,82 +12,82 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
-description: このセクションでは、Skype for Business Server で使用されるすべてのスキーマクラスについて説明します。
-ms.openlocfilehash: 6cb67c47c20ecb9cc6af79e51ebc05c332fd0bf3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このセクションでは、Skype for Business Server で使用されるスキーマ クラスについて説明します。
+ms.openlocfilehash: 6c4b5d12baf85a1e9f168940fc889f6f18063616
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815475"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813557"
 ---
-# <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Skype for Business Server のスキーマクラスと説明
+# <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Skype for Business Server のスキーマ クラスと説明
  
-このセクションでは、Skype for Business Server で使用されるすべてのスキーマクラスについて説明します。 
+このセクションでは、Skype for Business Server で使用されるスキーマ クラスについて説明します。 
   
 ## <a name="schema-classes-and-descriptions"></a>スキーマのクラスと説明
 
 |**クラス**|**説明**|**コメント**|
 |:-----|:-----|:-----|
-|メール受信者  <br/> |Exchange ユニファイドメッセージング (UM) メール受信者。  <br/> |この補助クラスは Exchange UM と共有されます。  <br/> |
-|Msrtcsip-userenabled true-ApplicationContacts  <br/> |このクラスは、複数のアプリケーションの連絡先のコンテナーであり、属性自体は含まれません。  <br/> |Microsoft Office Communications Server 2007 R2 の新製品。  <br/> |
-|Msrtcsip-userenabled true-ApplicationServer  <br/> |このクラスは、ユニファイドコミュニケーションアプリケーションサービス (UCAS) のインスタンスのサービスコントロールポイントのエントリを保持します。  <br/> |Office Communications Server 2007 R2 の新製品。  <br/> |
-|Msrtcsip-userenabled true-ApplicationServerService  <br/> |このクラスは、特定のプールからそのアプリケーションサービスへの関連付けを提供します。  <br/> |Communications Server 2007 R2 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-ApplicationServerSettings  <br/> |この補助クラスと Msrtcsip-userenabled true-ApplicationServer は、アプリケーションサービスのインスタンスの設定を表す属性を保持します。  <br/> |Communications Server 2007 R2 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-アーカイブ (廃止)  <br/> |この補助クラス to Msrtcsip-userenabled true-GlobalContainer は、アーカイブに関連するすべての設定を保持します。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-ArchivingServer (廃止)  <br/> |このクラスは、単一のインスタントメッセージングアーカイブサーバーを表します。 このクラスのインスタンスは、インスタントメッセージアーカイブサービスがインストールされているコンピューターなど、コンピューターがインスタントメッセージングアーカイブサーバーとしてアクティブ化されたときに作成されます。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-ConferenceDirectories  <br/> |このクラスは、会議ディレクトリの複数のインスタンスのコンテナーであり、属性自体は含まれません。  <br/> |Communications Server 2007 R2 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-ConferenceDirectory  <br/> |このクラスには、特定の会議ディレクトリの設定を表す属性が保持しています。  <br/> |Communications Server 2007 R2 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-ConnectionPoint  <br/> |[汎用サービス制御ポイント (SCP)] は、Skype for Business Server が実行されているサーバーとしてコンピューターを指定します。  <br/> |Lync 2010 の新方法。  <br/> |
-|Msrtcsip-userenabled true-DefaultCWABank  <br/> |この補助クラスは、Skype for Business Web App bank の設定を保持します。  <br/> |Communications Server 2007 R2 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-ドメイン  <br/> |このクラスは、SIP レジストラーの構成済みドメインを定義する属性を保持します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-EdgeProxy  <br/> |このクラスコンテナーは、単一のアクセスエッジサービスを表します。 アクセスエッジサービスは境界ネットワークに展開されているため、ユーザーは通常、境界ネットワークからの Active Directory ドメインサービスへのアクセスを許可しません。アクセスエッジサービスのインスタンスは、イントラネットの Active Directory ネットワークには参加していません。 そのため、アクセスプロキシは AD DS に自動的に登録されません。 管理者は、AD DS のアクセスエッジサービスの各インスタンスの存在を手動で構成する必要があります。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-EnterpriseMCUSettings  <br/> |この補助クラスから Msrtcsip-userenabled true への属性は、会議サーバーの設定を表す属性を保持します。  <br/> |Microsoft Office Communications Server 2007 の新製品。  <br/> |
-|Msrtcsip-userenabled true-EnterpriseMediationServerSettings  <br/> |この補助クラスの Msrtcsip-userenabled true-MediationServer は、仲介サーバーの設定を表す属性を保持します。  <br/> |Office Communications Server 2007 の新製品。  <br/> |
-|Msrtcsip-userenabled true-EnterpriseServerSettings  <br/> |Msrtcsip-userenabled true への補助クラスは、SIP サーバーの設定を表す属性を保持します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-フェデレーション  <br/> |この補助クラス to Msrtcsip-userenabled true-GlobalContainer は、フェデレーションに関連するすべての設定を保持します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-GlobalContainer  <br/> |このクラスは、Skype for Business Server の展開全体で適用されるすべての設定を保持します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-GlobalUserPolicy (廃止)  <br/> |このクラスは、1つの Office Communications Server 会議ポリシーを表します。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-GlobalTopologySetting  <br/> |ローカルグローバルトポロジ設定オブジェクト。  <br/> |Lync Server 2010 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-GlobalTopologySettings  <br/> |グローバルトポロジ設定オブジェクトを保持するコンテナー。  <br/> |Lync Server 2010 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-LocalNormalization  <br/> |このクラスは、位置正規化規則のインスタンスを表すコンテナーです。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-LocationContactMapping  <br/> |このクラスは、会議アテンダントアプリケーションによって作成され、地域ごとの会議電話番号の分類に使われる属性を保持します。  <br/> |Communications Server 2007 R2 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-LocationContactMappings マッピング  <br/> |このクラスは、場所の連絡先マッピングの複数のインスタンスのコンテナーであり、属性自体は含まれません。  <br/> |Communications Server 2007 R2 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-LocationProfile  <br/> |このクラスは、特定の位置情報プロファイルを表すコンテナーです。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-LocationProfiles (廃止)  <br/> |このクラスは、複数の場所プロファイルのコンテナーであり、属性自体は含まれません。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-LocalNormalizations 廃止)  <br/> |このクラスは、複数のローカル正規化規則のコンテナーであり、属性自体は含まれません。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-MCU  <br/> |このクラスは、単一の会議サーバーを表します。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-MCUFactories  <br/> |このクラスは、複数の Msrtcsip-userenabled true を保持し、属性自体は持ちません。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-MCUFactory  <br/> |このクラスは、単一のメディアの種類の会議サーバーファクトリを表すコンテナーです。 このクラスのインスタンスは、この特定の種類とベンダーの最初の会議サーバーがアクティブ化されたときに作成されます。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-MCUFactoryService  <br/> |このクラスは、特定のプールから会議サーバーファクトリへの関連付けを提供します。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-MediationServer  <br/> |このクラスは、仲介サーバーのサービス制御ポイントのエントリを保持します。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-会議 (廃止)  <br/> |この補助クラスの Msrtcsip-userenabled true-GlobalContainer は、構成可能な会議の設定を示す属性を保持します。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true  <br/> |グローバルモバイル設定を格納するコンテナー。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-MonitoringServer  <br/> |このクラスは、単一の監視サーバーの設定を表す属性を保持します。  <br/> |Communications Server 2007 R2 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-PhoneRoute (廃止)  <br/> |このクラスは、ゲートウェイまたはゲートウェイのセットへの最小料金のルートのインスタンスを示すコンテナーです。 この情報は、標準エディションを実行しているすべてのエンタープライズプールまたはサーバーが、発信した通話を、最もお得な方法で公衆交換電話網 (PSTN) にルーティングするために使用されます。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-PhoneRoutes (廃止)  <br/> |このクラスは、コストが最小の複数のルートのコンテナーであり、属性自体は含まれません。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-ポリシー (廃止)  <br/> |このクラスには、複数の Lync Server ポリシークラスが含まれており、属性自体は含まれていません。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true プール  <br/> |このクラスは、1つの Skype for Business サーバープールを表します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-プール  <br/> |このクラスには、複数の Skype for Business サーバープールが含まれており、属性自体はありません。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-PoolService  <br/> |このクラスは、プールのサービス制御ポイントサービス制御ポイントを表します。 プールでホストされているユーザーの Msrtcsip-userenabled true 属性ポイントは、このクラスのインスタンスになります。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-プレゼンス  <br/> |グローバルプレゼンス設定を格納するコンテナー。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-レジストラー  <br/> |この補助クラス to Msrtcsip-userenabled true-GlobalContainer は、SIP レジストラーサーバーによって管理されるユーザー設定を表す属性を保持します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-RouteUsage (廃止)  <br/> |このクラスは、電話ルートの使用状況のインスタンスを表すコンテナーです。 電話ルートの利用状況クラスは、属性フィールドと説明フィールドで構成されます。 属性フィールドには、使用の種類が定義されています。 [説明] フィールドでは、管理者が電話ルートでこの属性の使用を説明できます。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-RouteUsages (廃止)  <br/> |このクラスは、Msrtcsip-userenabled true-RouteUsage クラスの複数のインスタンスを保持します。属性自体はありません。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-検索  <br/> |この補助クラス to Msrtcsip-userenabled true-GlobalContainer は、検索結果の範囲を制限および制御する属性を保持します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-サーバー  <br/> |このクラスは、Skype for Business Server が実行されている1台のサーバーを表します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-サービス  <br/> |このクラスは、グローバル設定コンテナーと Msrtcsip-userenabled true オブジェクトを保持します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-TrustedMCU  <br/> |このクラスは、信頼できる会議サーバーの設定を表す属性を保持します。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-TrustedMCUs  <br/> |このクラスには、Msrtcsip-userenabled true の複数のインスタンスが含まれており、属性自体はありません。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-TrustedProxies  <br/> |このクラスは、複数の Msrtcsip-userenabled true プロキシクラスを保持し、属性自体は含まれません。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-TrustedProxy  <br/> |このクラスは、プロキシサーバーを実行しているサーバーを表すコンテナーです。 このクラスのインスタンスは、AD DS に参加しているコンピューターで新しいプロキシサーバーをアクティブ化するときに作成されます。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-TrustedServer  <br/> |このクラスは、信頼されたサーバーの設定を表す属性を保持します。  <br/> |-  <br/> |
-|Msrtcsip-userenabled true-TrustedService  <br/> |このクラスは、グローバルルーティング可能なユーザーエージェント URI (GRUU) アドレスを使ってルーティング可能な、信頼されたサービスを表すコンテナーです。 このクラスのインスタンスは、Skype for Business Server によって信頼されている新しいサーバーがアクティブ化されたときに作成されます。 この信頼できるサーバーは Active Directory ドメインに参加している必要があります。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-TrustedServices  <br/> |このクラスは、複数の GRUU サーバーのコンテナーであり、属性自体は含まれていません。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-Trustedwebのサーバー  <br/> |このクラスは、信頼された web コンポーネントの設定を表す属性を保持します。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-Trustedwebservers サーバー  <br/> |このクラスは、Msrtcsip-userenabled true Webcomponentserver クラスの複数のインスタンスを保持します。属性自体はありません。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-UnifiedCommunications (廃止)  <br/> |この補助クラスの Msrtcsip-userenabled true-GlobalContainer は、統合された通信に関連する属性を保持します。  <br/> |Lync Server 2010 では廃止されています。  <br/> |
-|Msrtcsip-userenabled true-Web コンポーネント  <br/> |このクラスは、インターネットインフォメーションサーバー (IIS) のサービスコントロールポイントサービス制御ポイントを保持します。 Web コンポーネントサーバーとしてサーバーを識別します。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-Webmessages サービス  <br/> |このクラスは、プールで使用される web コンポーネントと特定のプールとの関連付けを提供します。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
-|Msrtcsip-userenabled true-WebComponentSettings  <br/> |この補助クラスの Msrtcsip-userenabled true コンポーネントは、web コンポーネントの設定を表す属性を保持します。  <br/> |Communications Server 2007 の新サービスです。  <br/> |
+|Mail-Recipient  <br/> |Exchange ユニファイド メッセージング (UM) 電子メール受信者。  <br/> |この補助クラスは Exchange UM と共有されます。  <br/> |
+|msRTCSIP-ApplicationContacts  <br/> |複数のアプリケーションの連絡先のコンテナーです。属性そのものは含まれません。  <br/> |Communications Server 2007 R2 Microsoft Office新機能。  <br/> |
+|msRTCSIP-ApplicationServer  <br/> |統合コミュニケーション アプリケーション サービス (UCAS) のインスタンスのサービス制御ポイントのエントリを保持するクラスです。  <br/> |Communications Server 2007 R2 Office新機能。  <br/> |
+|msRTCSIP-ApplicationServerService  <br/> |このクラスは、特定のプールからアプリケーション サービスへの関連付けを提供します。  <br/> |Communications Server 2007 R2 の新機能。  <br/> |
+|msRTCSIP-ApplicationServerSettings  <br/> |この msRTCSIP-ApplicationServer の補助クラスは、アプリケーション サービスのインスタンスの設定を表す属性を保持します。  <br/> |Communications Server 2007 R2 の新機能。  <br/> |
+|msRTCSIP-Archive (廃止)  <br/> |アーカイブに関連するすべての設定を保持する msRTCSIP-GlobalContainer の補助型クラスです。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-ArchivingServer (廃止)  <br/> |1 つのインスタント メッセージング アーカイブ サーバーを表すクラスです。 このクラスのインスタンスは、コンピューター (インスタント メッセージング アーカイブ サービスがインストールされたコンピューターなど) がインスタント メッセージング アーカイブ サーバーとしてアクティブ化されると作成されます。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-ConferenceDirectories  <br/> |会議ディレクトリの複数のインスタンスを格納するコンテナーです。属性そのものは含まれません。  <br/> |Communications Server 2007 R2 の新機能。  <br/> |
+|msRTCSIP-ConferenceDirectory  <br/> |特定の会議ディレクトリの設定を表す属性を保持します。  <br/> |Communications Server 2007 R2 の新機能。  <br/> |
+|msRTCSIP-ConnectionPoint  <br/> |Skype for Business Server を実行しているサーバーとしてコンピューターを指定する汎用サービス コントロール ポイント (SCP)。  <br/> |Lync 2010 の新機能。  <br/> |
+|msRTCSIP-DefaultCWABank  <br/> |この補助クラスは、Skype for Business Web App 銀行の設定を保持します。  <br/> |Communications Server 2007 R2 の新機能。  <br/> |
+|msRTCSIP-Domain  <br/> |SIP レジストラーの構成済みドメインを定義する属性を保持するクラスです。  <br/> |-  <br/> |
+|msRTCSIP-EdgeProxy  <br/> |このクラス コンテナーは、単一のアクセス エッジ サービスを表します。 アクセス エッジ サービスは境界ネットワークに展開され、通常、お客様は境界ネットワークからの Active Directory ドメイン サービスへのアクセスを許可しないので、アクセス エッジ サービスのインスタンスはイントラネットの Active Directory ネットワークに参加できません。 したがって、アクセス プロキシは、自動的には AD DS に登録されません。 管理者は、DS 内にアクセス エッジ サービスの各インスタンスが存在ADがあります。  <br/> |-  <br/> |
+|msRTCSIP-EnterpriseMCUSettings  <br/> |電話会議サーバーの設定を表す属性を保持する msRTCSIP-MCU の補助型クラスです。  <br/> |Communications Server 2007 Microsoft Office新機能。  <br/> |
+|msRTCSIP-EnterpriseMediationServerSettings  <br/> |仲介サーバーの設定を表す属性を保持する msRTCSIP-MediationServer の補助型クラスです。  <br/> |Communications Server 2007 Office新機能。  <br/> |
+|msRTCSIP-EnterpriseServerSettings  <br/> |SIP サーバーの設定を表す属性を保持する msRTCSIP-Server の補助型クラスです。  <br/> |-  <br/> |
+|msRTCSIP-Federation  <br/> |フェデレーションに関連するすべての設定を保持する msRTCSIP-GlobalContainer の補助型クラスです。  <br/> |-  <br/> |
+|msRTCSIP-GlobalContainer  <br/> |このクラスには、Skype for Business Server の展開全体で適用される設定すべてが含まれるものがあります。  <br/> |-  <br/> |
+|msRTCSIP-GlobalUserPolicy (廃止)  <br/> |このクラスは、Communications Server 会議ポリシー Officeを表します。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-GlobalTopologySetting  <br/> |ローカルのグローバル トポロジ設定オブジェクトです。  <br/> |Lync Server 2010 の新機能。  <br/> |
+|msRTCSIP-GlobalTopologySettings  <br/> |グローバル トポロジ設定オブジェクトを保持するコンテナーです。  <br/> |Lync Server 2010 の新機能。  <br/> |
+|msRTCSIP-LocalNormalization  <br/> |ローカル正規化ルールのインスタンスを表すコンテナーです。  <br/> |-  <br/> |
+|msRTCSIP-LocationContactMapping  <br/> |このクラスは、会議アテンダント アプリケーションによって作成され、電話会議の電話番号を地域別に分類するために使用される属性を保持します。  <br/> |Communications Server 2007 R2 の新機能。  <br/> |
+|msRTCSIP-LocationContactMappings  <br/> |場所と連絡先のマッピングの複数のインスタンスを保持するコンテナーです。属性そのものは含まれません。  <br/> |Communications Server 2007 R2 の新機能。  <br/> |
+|msRTCSIP-LocationProfile  <br/> |特定の場所のプロファイルを表すコンテナーです。  <br/> |-  <br/> |
+|msRTCSIP-LocationProfiles (廃止)  <br/> |複数の場所のプロファイルのコンテナーです。属性そのものは含まれません。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-LocalNormalizations (廃止)  <br/> |複数のローカル正規化ルールのコンテナーです。属性そのものは含まれません。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-MCU  <br/> |1 つの電話会議サーバーを表すクラスです。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-MCUFactories  <br/> |複数の msRTCSIP-MCUFactory クラスを保持するクラスです。属性そのものは含まれません。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-MCUFactory  <br/> |1 つのメディアの種類の会議サーバー ファクトリを表すコンテナーです。 このクラスのインスタンスは、この特定の種類およびベンダーの最初の電話会議サーバーがアクティブ化されると作成されます。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-MCUFactoryService  <br/> |特定のプールからその会議サーバー ファクトリへの関連付けを提供するクラスです。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-MediationServer  <br/> |仲介サーバーのサービス制御ポイントのエントリを保持するクラスです。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-Meeting (廃止)  <br/> |構成可能な会議の設定を表す属性を保持する msRTCSIP-GlobalContainer の補助型クラスです。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-Mobility  <br/> |グローバル モビリティ設定を格納するコンテナーです。  <br/> |-  <br/> |
+|msRTCSIP-MonitoringServer  <br/> |このクラスは、1 つの監視サーバーの設定を表す属性を保持します。  <br/> |Communications Server 2007 R2 の新機能。  <br/> |
+|msRTCSIP-PhoneRoute (廃止)  <br/> |ゲートウェイまたはゲートウェイのセットへの最小コスト経路のインスタンスを表すコンテナーです。 この情報は、すべてのエンタープライズ プールや Standard Edition サーバーによって、最もコストの小さい方法で、発信通話を公衆交換電話網 (PSTN) にルーティングするために使用されます。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-PhoneRoutes (廃止)  <br/> |複数の最小コスト経路のコンテナーです。属性そのものは含まれません。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-Policies (廃止)  <br/> |このクラスは、複数の Lync Server ポリシー クラスを保持し、属性自体を持つものはありません。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-Pool  <br/> |このクラスは、単一の Skype for Business Server プールを表します。  <br/> |-  <br/> |
+|msRTCSIP-Pools  <br/> |このクラスは、複数の Skype for Business Server プールを保持し、属性自体を持つものはありません。  <br/> |-  <br/> |
+|msRTCSIP-PoolService  <br/> |プールのサービス制御ポイントを表すクラスです。プールでホストされるユーザーは、msRTCSIP-PrimaryHomeServer 属性をこのクラスのインスタンスに設定します。  <br/> |-  <br/> |
+|msRTCSIP-Presence  <br/> |グローバル プレゼンス設定を格納するコンテナーです。  <br/> |-  <br/> |
+|msRTCSIP-Registrar  <br/> |SIP レジストラー サーバーによって管理されるユーザー設定を表す属性を保持する msRTCSIP-GlobalContainer の補助型クラスです。  <br/> |-  <br/> |
+|msRTCSIP-RouteUsage (廃止)  <br/> |電話ルート使用法のインスタンスを表すコンテナーです。電話ルート使用法クラスは、属性フィールドと説明フィールドで構成されています。属性フィールドは使用法の種類を定義します。管理者は説明フィールドに、電話ルートでのその属性の使用法の説明を記入できます。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-RouteUsages (廃止)  <br/> |msRTCSIP-RouteUsage クラスの複数のインスタンスを保持するクラスです。属性そのものは含まれません。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-Search  <br/> |検索結果の範囲を制限および制御する属性を保持する msRTCSIP-GlobalContainer の補助型クラスです。  <br/> |-  <br/> |
+|msRTCSIP-Server  <br/> |このクラスは、Skype for Business Server を実行している 1 台のサーバーを表します。  <br/> |-  <br/> |
+|msRTCSIP-Service  <br/> |グローバル設定コンテナーと msRTCSIP-Domain オブジェクトを保持するクラスです。  <br/> |-  <br/> |
+|msRTCSIP-TrustedMCU  <br/> |1 つの信頼済み電話会議サーバーの設定を表す属性を保持するクラスです。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-TrustedMCUs  <br/> |msRTCSIP-TrustedMCU クラスの複数のインスタンスを保持するクラスです。属性そのものは含まれません。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-TrustedProxies  <br/> |複数の msRTCSIP-TrustedProxy クラスを保持するクラスです。属性そのものは含まれません。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-TrustedProxy  <br/> |プロキシ サーバーを実行しているサーバーを表すコンテナーです。 このクラスのインスタンスは、AD DS に参加しているコンピューターで新しいプロキシ サーバーがアクティブ化されると作成されます。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-TrustedServer  <br/> |1 つの信頼済みサーバーの設定を表す属性を保持するクラスです。  <br/> |-  <br/> |
+|msRTCSIP-TrustedService  <br/> |グローバルにルーティング可能なユーザー エージェント (GRUU) アドレスを使用してルーティングできる信頼済みサービスを表すコンテナーです。 このクラスのインスタンスは、Skype for Business Server によって信頼されている新しいサーバーがアクティブ化されると作成されます。 この信頼済みサーバーは Active Directory ドメインに参加している必要があります。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-TrustedServices  <br/> |複数の GRUU サーバーのコンテナーです。属性そのものは含まれません。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-TrustedWebComponentsServer  <br/> |1 つの信頼済み Web コンポーネントの設定を表す属性を保持するクラスです。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-TrustedWebComponentsServers  <br/> |msRTCSIP-TrustedWebComponentServer クラスの複数のインスタンスを保持するクラスです。属性そのものは含まれません。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-UnifiedCommunications (廃止)  <br/> |統合コミュニケーションに関連する属性を保持する msRTCSIP-GlobalContainer の補助型クラスです。  <br/> |Lync Server 2010 では使用されなくなりました。  <br/> |
+|msRTCSIP-WebComponents  <br/> |インターネット インフォメーション サーバー (IIS) のサービス制御ポイントを保持するクラスです。サーバーを Web コンポーネント サーバーとして識別します。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-WebComponentsService  <br/> |特定のプールからそのプールが使用する Web コンポーネントへの関連付けを提供するクラスです。  <br/> |Communications Server 2007 の新機能。  <br/> |
+|msRTCSIP-WebComponentSettings  <br/> |Web コンポーネントの設定を表す属性を保持する msRTCSIP-WebComponents の補助型クラスです。  <br/> |Communications Server 2007 の新機能。  <br/> |
    
 

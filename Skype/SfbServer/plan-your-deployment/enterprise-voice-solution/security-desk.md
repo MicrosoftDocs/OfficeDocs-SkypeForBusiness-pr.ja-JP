@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server にセキュリティデスクを追加する
+title: Skype for Business Server にセキュリティ デスクを含める
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,29 +15,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: Skype for Business Server Enterprise Voice で、組織のセキュリティデスクを E9 の展開に含める方法を計画しています。
-ms.openlocfilehash: 19fc8a01fcb51be3ce36435a5a657c3253716b2c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server エンタープライズ VoIP で E9-1-1 展開に組織のセキュリティ デスクを含める方法を計画します。
+ms.openlocfilehash: 756af940eb327bc4744454e9ed9ef7a7fbfd517d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802457"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813407"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a>Skype for Business Server にセキュリティデスクを追加する
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>Skype for Business Server にセキュリティ デスクを含める
  
-Skype for Business Server Enterprise Voice で、組織のセキュリティデスクを E9 の展開に含める方法を計画しています。
+Skype for Business Server エンタープライズ VoIP で E9-1-1 展開に組織のセキュリティ デスクを含める方法を計画します。
   
-会社によっては、セキュリティ デスクを緊急通話と関連させる必要があるかもしれません。セキュリティ デスクを E9-1-1 の展開に統合する方法を決定するには、以下の内容を検討する必要があります。
+会社によっては、セキュリティ デスクが緊急電話に参加する必要がある場合があります。 セキュリティ デスクを E9-1-1 展開に統合する方法を決定するには、次の質問に答える必要があります。
   
-**緊急電話をセキュリティ デスクに通知するか。**
+**緊急電話がある場合にセキュリティ デスクに通知を受け取りますか?**
   
-Skype for Business Server がインスタントメッセージ (IM) の通知を Skype for Business SIP アドレスに送信するように、場所のポリシーを構成することができます。 これらの通知には、緊急電話を発信した人物の名前、番号、および場所が含まれており、セキュリティ担当者による緊急事態の支援を容易にします。
+場所ポリシーを構成して、Skype for Business Server が 1 人または複数のセキュリティ担当者の Skype for Business SIP アドレスにインスタント メッセージング (IM) 通知を送信できます。 これらのアラートには、緊急電話をかかえた人の名前、番号、場所が含まれているので、セキュリティ担当者は緊急対応を支援できます。
     
-**緊急電話ごとにセキュリティ デスクと協議するか。**
+**各緊急電話でセキュリティ デスクを会議しますか?**
   
-緊急サービスのサービス プロバイダーがサポートしている場合は、場所ポリシーを構成して、各緊急電話にコールバック番号を含めることができます。プロバイダーはこの番号を使用して、組織のセキュリティ担当者が緊急電話に参加できるようにします。この場合、場所ポリシーで、一方向 (聞き取りのみ) で参加するか、または両方向 (双方向) で参加するかを構成できます。
+緊急サービス サービス プロバイダーによってサポートされている場合は、場所ポリシーを構成して、各緊急電話にコールバック番号を含めできます。 この番号は、プロバイダーが組織のセキュリティ担当者を緊急電話会議に参加するために使用します。 この会議は、場所ポリシーで一方向 (リッスンのみ) または双方向 (双方向) に構成できます。
     
 > [!NOTE]
-> 必要に応じて、場所ポリシーごとに異なる緊急担当者を構成できます。これにより、社内の領域によって応答をカスタマイズしたり、緊急電話がネットワークの内部からのものか外部からのものであるかによって、緊急電話の動作を変えたりすることができます。配布グループを使用すると、通知する担当者を指定できます。 
+> 必要に応じて、場所ポリシーごとに異なる緊急担当者を構成できます。 これにより、会社内の異なる領域の応答をカスタマイズしたり、ネットワークの外部ではなく内部から発信される緊急電話に対して異なる動作を作成することができます。 配布グループを使用して、通知する担当者を指定できます。 
   
 

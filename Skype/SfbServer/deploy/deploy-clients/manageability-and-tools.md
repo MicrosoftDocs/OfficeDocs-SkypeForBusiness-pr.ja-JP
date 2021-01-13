@@ -1,7 +1,7 @@
 ---
-title: Skype Room System の管理容易性とツール
-ms.author: v-lanac
-author: lanachin
+title: Skype Room System の管理性とツール
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,59 +12,59 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: このトピックでは、Skype Room System の管理ツールについて説明します。
-ms.openlocfilehash: 74c484b321312fc77c7a1e892f41bdeac8af49ff
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f46d636bba0779cc42532cc2110ef94abdb6b982
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768860"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805797"
 ---
-# <a name="skype-room-system-manageability-and-tools"></a>Skype Room System の管理容易性とツール
+# <a name="skype-room-system-manageability-and-tools"></a>Skype Room System の管理性とツール
  
 このトピックでは、Skype Room System の管理ツールについて説明します。
   
 ## <a name="administrative-portal"></a>管理ポータル
 
-Skype for Business Server のオンプレミス展開の場合、Skype Room System 管理ポータルを使用して、組織内の Skype Room システムの展開を積極的に管理および監視できます。
+Skype for Business Server のオンプレミス展開では、Skype Room System 管理ポータルを使用して、組織内の Skype Room System の展開を積極的に管理および監視できます。
   
 詳細については、次の記事を参照してください。
   
-- [Skype for Business Server で SRS v1 管理 Web ポータルを展開する](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
+- [Skype for Business Server での SRS v1 管理 Web ポータルの展開](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
   
 ## <a name="exchange-checklist"></a>Exchange チェックリスト
 
-- 自動検出がセットアップされており、autodiscover.domain.com に対して内部 DNS A/CNAME RECORD が利用可能であることを確認します。
+- 自動検出が設定され、内部 DNS A/CNAME RECORD が自動検出で使用autodiscover.domain.com。
     
-- 自動検出の ping を実行します (例: Ping Autodiscover.contoso.com)。
+- Ping 自動検出 (例: Ping Autodiscover.contoso.com)。
     
-- Microsoft 接続アナライザー ツールで自動検出サービスをテストします。 最初のテストの [Office Outlook でログオンできない] を選択します。
+- Microsoft Connectivity Analyzer ツールを使用して自動検出サービスをテストします。 最初のテスト「Outlook でログオンできない」をOfficeします。
     
-- 会議室に既にリソースメールボックスがある場合は、このアカウントを Skype Room System (ページ下部のサンプルスクリプト) に拡張します。
+- 会議室に既にリソース メールボックスがある場合は、このアカウントを Skype Room System 用に拡張します (ページの下部にあるスクリプトの例)。
     
-## <a name="skype-for-business-checklist"></a>Skype for Business のチェックリスト
+## <a name="skype-for-business-checklist"></a>Skype for Business チェックリスト
 
 - 次のツールを実行します。
     
-  - Skype for Business ベストプラクティスアナライザー     
-  - Skype for Business の正常性分析ツール (Excel)    
-  - Skype for Business Connectivity Analyzer 32 ビットまたは64ビット
+  - Skype for Business ベスト プラクティス アナライザー     
+  - Skype for Business Health Analysis Tool (Excel)    
+  - Skype for Business Connectivity Analyzer 32 ビットまたは 64 ビット
     
-- [Office 365 用の新しいトラブルシューティングツールと分析ツールを](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/)確認します。 Skype for Business のプールと Office Web Apps サーバーを使用していて、Skype for Business クライアントを使って PowerPoint デッキを共有できることを確認します。
+- Review [Useful new troubleshooting and analysis tools for Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Skype for Business プールと Office Web Apps サーバーを使用し、Skype for Business クライアントを使用して PowerPoint デッキを共有できます。
     
-- 会議室に既にリソースメールボックスがある場合は、Skype for Business で有効にします。
+- 会議室に既にリソース メールボックスがある場合は、Skype for Business で有効にします。
     
-- 必要に応じて、会議室システムの DID (電話番号) を要求し、Active Directory ツールで [一般電話] フィールドを更新します。
+- 必要に応じて、会議室システムの DID (電話番号) を要求し、Active Directory ツールの [全般電話] フィールドを更新します。
     
 ## <a name="network"></a>ネットワーク
 
-- Skype Room システムの有線ネットワーク接続があることを確認してください。
+- Skype Room System のワイヤード (有線) ネットワーク接続を使用してください。
     
-- Skype for Business のネットワーク計画ガイドを参照してください。
+- Skype for Business のネットワーク計画ガイドをお読みください。
     
-- Skype for Business パートナーから Skype for Business ネットワークの評価を要求する。
+- Skype for Business パートナーに Skype for Business ネットワーク評価を要求します。
     
-- 詳細については、「Skype for Business 正常性分析ツール (Excel) で収集したパフォーマンスデータ」を参照してください。
+- Skype for Business Health Analysis Tool (Excel) でキャプチャされたパフォーマンス データを読み取ります。
     
 - ネットワーク分析ツールを実行します。
     
@@ -72,68 +72,68 @@ Skype for Business Server のオンプレミス展開の場合、Skype Room Syst
     
 ## <a name="skype-room-system-security"></a>Skype Room System のセキュリティ
 
-Skype Room System は、Skype for Business のセキュリティモデル、rights management、および SCOM などの管理ツールを使用して、Windows 展開に完全に統合できる埋め込みシステムです。 次の機能が含まれます。
+Skype Room System は、Skype for Business セキュリティ モデル、権限管理、SCOM などの管理ツールを使用して、Windows 展開に完全に統合できる埋め込みシステムです。 以下の機能があります。
   
-- ユーザー モードでのディスクの書き込みを防止する書き込みフィルター 
+- ユーザー モードでのディスク書き込みを防止する書き込みフィルター 
     
-- 許可されていないアプリの実行を防止するアプリ ロッカー。すべての USB ポートがユーザー モードで無効になります。
+- 承認されていないアプリが実行されるのを防ぐためのアプリ の防止機能です。 ユーザー モードでは、すべての USB ポートが無効になります。
     
-  - Skype Room システムのハードウェアには、標準のアプリやビューアーは存在しません。 すべてのコンテンツは、HTTP プロトコルまたは RDP プロトコル経由で表示されます。
+  - 標準のアプリやビューアーは Skype Room System ハードウェアに存在しはありません。 すべてのコンテンツは、HTTP プロトコルまたは RDP プロトコルを介してレンダリングされます。
     
-  - アプライアンス PC では、Windows Embedded Standard 7 オペレーティング システムを実行します。デバイスを含むすべてのハードウェアは、OEM パートナーによって提供されます。
+  - アプライアンス PC は、Windows Embedded Standard 7 オペレーティング システムを実行します。 デバイスを含むすべてのハードウェアは、OEM パートナーによって提供されます。
     
-  - Active Directory ドメイン サービス (AD DS) へのオプションのドメイン参加で、ローカル セキュリティ アカウントの管理および制御が可能になります。
+  - オプションの Active Directory ドメイン サービス (AD DS) へのドメイン参加により、ローカル セキュリティ アカウントの管理と制御が可能になります。
     
-- また、Skype for Business 管理センターを使って、ローカル管理者アカウントを管理することもできます。
+- Skype for Business 管理センターを使用してローカル管理者アカウントを管理することもできます。
     
-- Skype Room System は、Microsoft の標準的な更新プロセスによって更新されます。
+- Skype Room System は、標準の Microsoft Update プロセスによって更新されます。
     
-- Skype Room System は Skype for Business と接続します。
+- Skype Room System は Skype for Business に接続します。
     
-  - Skype for Business では、すべての通信モードでエンドツーエンドの暗号化と承認が使用されます。
+  - Skype for Business では、すべての通信モードでエンドツーエンドの暗号化と承認を使用します。
     
-  - Skype Room System は、Skype for Business のセキュリティとコンプライアンス標準をサポートしています。 詳細については、「 [Skype For Business Server のセキュリティの計画](../../plan-your-deployment/security/security.md)」を参照してください。
+  - Skype Room System は、Skype for Business のセキュリティとコンプライアンスの標準をサポートしています。 詳細 [については、「Skype For Business Server のセキュリティを計画する](../../plan-your-deployment/security/security.md) 」を参照してください。
     
 ## <a name="license"></a>ライセンス
 
-ソフトウェアのライセンス認証に KMS を使用していることを確認します。 その場合は、Skype for Business クライアントの KMS キーを確認または追加する必要があります。 KMS を使用していない場合は、Skype for Business クライアント MAK のボリュームライセンスキーを要求します。
+ソフトウェアのライセンス認証に KMS を使用する必要があります。 その場合は、Skype for Business クライアント KMS キーを確認または追加する必要があります。 KMS を使用していない場合は、Skype for Business クライアント MAK のボリューム ライセンス キーを要求します。
   
 ## <a name="license-keys"></a>ライセンス キー
 
-Skype Room System は、バックグラウンドで Skype for Business デスクトップクライアントを実行します。 Skype Room System がドメインメンバーである場合は、KMS が検出されます。 (また、ボリュームライセンスの KMS キーが含まれている場合は、ライセンス認証が自動的に有効になります)。 ボリュームライセンスにも MAK が用意されています。この場合、「xxxxx」と入力します。 (ライセンス認証を行うには、インターネットに接続している必要があります)。 詳細については、「Office 2013 のボリュームライセンス認証」を参照してください。
+Skype Room System は、バックグラウンドで Skype for Business デスクトップ クライアントを実行します。 Skype Room System がドメイン メンバーである場合は、KMS を検出します。 (ボリューム ライセンス KMS キーがある場合は、自動的にライセンス認証されます)。 ボリューム ライセンスでは MAK も提供されます。MAK は、xxxxx-xxxxx-xxxxx-xxxxx-xxxxx を表示する場合に入力します。 (MAK を使ってライセンス認証するにはインターネット アクセスが必要ですが、KMS は必要ではありません)。 詳細については、「ボリューム ライセンス認証」を参照Office 2013。
   
-- MAK キーを入力するには、OEM 設定\>の SRS ライセンスツールに移動します。 [状態の確認] をクリックします。 状態に "製品はライセンス認証されていません" と表示される場合は、キーを入力します。
+- MAK キーを入力するには、OEM 設定 \> SRS ライセンス ツールに移動します。 [状態の確認] をクリックします。 状態が "製品がアクティブ化されていません" と表示された場合は、キーを入力します。
     
-- ライセンス認証中に "" というエラーメッセージが表示される場合は、「ソフトウェアライセンスサービスでプロダクトキーが無効であることが報告されました」というエラーが表示されます。次のことを確認します。
+- ライセンス認証中に、「ソフトウェア ライセンス サービスがプロダクト キーが無効だと報告しました」というエラーが表示された場合は、次の確認を行います。
     
-  - キーが正しく入力された。
+  - キーが正しく入力されました。
     
-  - Skype for Business MAK キーを入力したが、別のキーではありませんでした。
+  - 別のキーではなく、Skype for Business MAK キーを入力しました。
     
-  - システムにインターネット アクセスがある。
+  - システムはインターネットにアクセスできます。
     
-- 電話でライセンス認証することはできますが、最初に SRS ライセンスツールを使用してライセンス認証を行おうとする必要があります。 電話でライセンス認証するには、テスト会議を開始します (これは短いため、テスト通話ではありません)。 Office ライセンス認証ウィザードで、[電話でのライセンス認証] を選択し、[Microsoft に電話をかける] を選びます。長い番号を入力して、返信を入力します。
+- 電話でライセンス認証できますが、最初に SRS ライセンス ツールを使用してライセンス認証を試みた必要があります。 電話でライセンス認証を行う場合は、テスト会議を開始します (テスト通話は短すぎます)。 ライセンス認証Officeウィザードで、電話によるライセンス認証を選択し、Microsoft に電話して、長い番号を入力して、応答を入力します。
     
-## <a name="certificate-authority"></a>認証局
+## <a name="certificate-authority"></a>証明機関
 
-Office Web Apps Server 2013 の証明書を発行するために使用された認証局で、証明書失効リストのプロパティに HTTP パスが含まれていることを確認します。
+Web Apps サーバー 2013 証明書の発行Office証明書失効リスト プロパティに HTTP パスが含まれているか確認します。
   
-Skype for Business Server を使用している場合は、証明書ファイル (.crt) を Skype Room System にインポートします。 このファイルは、CA サーバーの CertEnroll 共有、またはドメインに参加する任意の PC の Trusted Root フォルダーで、簡単に入手できます。
+Skype for Business Server を使用している場合は、証明書ファイル (.crt) を Skype Room System にインポートします。 これは、CA サーバーの CertEnroll 共有、またはドメインに参加している PC の信頼されたルート フォルダーから簡単に取得できます。
   
 ## <a name="certificates"></a>証明書
 
-認証局に証明書失効リストの http パスが含まれることを確認します。このパスが含まれない場合は、CA を更新してパスを含めます。
+証明機関が証明書失効リストの http パスを持っているのを確認します。 含めない場合は、CA を更新して含める必要があります。
   
-システム設定\>証明書マネージャーの下にある Skype Room システムの管理セットアップで、証明書をインストールします。 内部証明書のエンタープライズ ルート CA が必要です。
+Skype Room System の管理者セットアップで、システム設定証明書マネージャーの下に証明書を \> インストールします。 内部証明書にはエンタープライズ ルート CA が必要です。
   
-必要な証明書を取得する方法の 1 つは、証明書を発行した CA を見つけることです。 Skype for business Server の場合は、Skype for Business の PC で、[ \>設定\>ツール] の [ダイヤルイン会議の設定] をクリックします。 これにより、内部証明書を発行した CA によって保護された web ページが開きます。 ブラウザーのアドレス バーのロック アイコンをクリックして、セキュリティ レポートを表示します。 [証明書の表示] をクリックし、CRL 配布ポイントのプロパティを調べます。 第 2 の CN パラメーターは、CA のサーバー名であることが必要です。 次に、そのアドレス\\ \< CA サーバー名\>\CertEnroll. の Windows エクスプローラーを開きます。 フラッシュ ドライブに 2 つの .crl ファイルと .crt ファイルをコピーし、SMART ボードの左側に格納します。
+必要な証明書を取得する方法の 1 つは、証明書を発行した CA を検出する方法です。 Skype for Business Server の場合は、Skype for Business の PC で、[設定ツール] の [ダイヤルイン会議の設定] \> \> をクリックします。 これにより、内部証明書を発行した CA によってセキュリティ保護された Web ページが開きます。 ブラウザーのアドレス バーの [ロック] アイコンをクリックして、セキュリティ レポートを表示します。 [証明書の表示] をクリックし、CRL 配布ポイントのプロパティを確認します。 2 番目の CN パラメーターは、CA のサーバー名である必要があります。 ここで、そのアドレス \\ \< CA Server Name \> \CertEnroll のエクスプローラーを開きます。 2 つの .crl ファイルと .crt ファイルをフラッシュ ドライブにコピーし、SMART ボードの左側に置きます。
   
-.Crt ファイルを、[Trusted Room サーティフィケーション Authority] フォルダーの下にある Skype Room System にインポートします。
+.crt ファイルを、Trusted Room Certification Authority フォルダーの下の Skype Room System にインポートします。
   
-[中間証明機関] フォルダーの下にある Skype Room システムに .crl ファイルをインポートします。 (ファイルを表示するには、証明書マネージャーの [ファイル拡張子] フィルターを [crl] に変更する必要があります)。
+.crl ファイルを Skype Room System の中級証明書機関フォルダーにインポートします。 (ファイルを表示するには、証明書マネージャーのファイル拡張子フィルターを .crl に変更する必要があります)。
   
-注: Office Web Apps 2013 サーバーは、Skype for Business と同じ CA を共有している可能性があります。 CA を共有していない場合、会議で PowerPoint を共有できません。 IT に連絡し、前述したように CA ネットワーク共有 CertEnroll から CRT ファイルおよび CRL ファイルを取得します。 
+注: Office Web Apps 2013 サーバーは、Skype for Business と同じ CA を共有する場合があります。 共有しない場合は、会議で PowerPoint を共有できます。 IT に確認し、上記のように CA ネットワーク共有 CertEnroll から CRT ファイルと CRL ファイルを取得します。 
   
-Skype Room System を Windows システムとして扱うことができるため、証明書の一部については Active Directory に依存していることがあります。 ただし、これは手動で管理することをお勧めします。
+ドメイン メンバーシップは、Skype Room System を Windows システムとして扱い、証明書の側面の一部を Active Directory に依存できる点から、一部の作業を簡素化できます。 ただし、手動で管理する方が最適です。
   
 

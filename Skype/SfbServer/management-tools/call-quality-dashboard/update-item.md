@@ -1,8 +1,8 @@
 ---
-title: アイテムの更新
+title: アイテムを更新する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
-description: '概要: 項目サービスの一部である、項目の更新操作について説明します。 項目サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。'
-ms.openlocfilehash: 460e6b26375bba28887d170c9827864bfc600138
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: アイテム サービスの一部であるアイテムの更新操作について学習します。 アイテム サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
+ms.openlocfilehash: 78da2fa414b4ba266f9e6aba4feac5ff73150062
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816676"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803087"
 ---
-# <a name="update-item"></a>アイテムの更新
+# <a name="update-item"></a>アイテムを更新する
  
-**概要:** 項目サービスの一部である、項目の更新操作について説明します。 項目サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server のツールです。
+**概要:** アイテム サービスの一部であるアイテムの更新操作について学習します。 アイテム サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
   
-アイテムの更新操作は、[リポジトリ API for Call Quality] ダッシュボードのアイテムサービスの一部です。
+アイテムの更新操作は、呼び出し品質ダッシュボードのリポジトリ API のアイテム サービスの一部です。
   
-## <a name="update-item"></a>アイテムの更新
+## <a name="update-item"></a>アイテムを更新する
 
-更新アイテムによって、リポジトリ内の特定のアイテムが更新されます。
+アイテムを更新すると、リポジトリ内の特定のアイテムが更新されます。
   
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|言う  <br/> |https://\<ポータル\>の/QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
- **URI パラメーター** -なし。
+ **URI パラメーター** - なし。
   
  **要求ヘッダー** -Content-Type: application/json。
   
- **要求本文**-JSON。
+ **要求本文** - JSON。
   
 要求ペイロードの例:
   
@@ -49,17 +49,17 @@ ms.locfileid: "41816676"
 }
 ```
 
- *コンテンツ* 既存のサブ項目の新しいコンテンツとして保存される JSON 形式のデータ。 技術的には、リポジトリには任意のスキーマのコンテンツを保存できますが、通話品質ダッシュボードに使用する場合は、レポートまたはクエリのいずれかにする必要があります。 *入力* 通話品質ダッシュボードの場合は、常に "application/json" を指定します。
+ *content*  既存のサブアイテムの新しいコンテンツとして格納される JSON 形式のデータ。 技術的には、リポジトリは任意のスキーマのコンテンツを格納できますが、通話品質ダッシュボードで使用する場合は、レポートまたはクエリである必要があります。 *type*  通話品質ダッシュボードには、常に "application/json" を指定します。
   
- **応答**-応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
+ **応答** - 応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
   
- **状態コード**-正常に動作している操作は、状態コード 204 (コンテンツなし) を返します。 指定した項目 ID が見つからない場合は、状態コード 404 (見つからない) が返されます。
+ **状態コード** - 正常な操作では、状態コード 204 (コンテンツなし) が返されます。 指定されたアイテム ID が見つからない場合は、状態コード 404 (Not Found) が返されます。
   
 > [!IMPORTANT]
-> "コンテンツなし" はエラー状態ではありません。 これは、応答が本文に何も返されなかったことを意味します (これは、200 OK は本文の内容を返します)。 項目が正常に更新されたことを示します。 
+> "コンテンツなし" はエラー状態ではありません。 これは、応答が本文に何も返しなかったことを意味します (対照的に、200 OK は本文のコンテンツを返します)。 アイテムが正常に更新されたことを示します。 
   
- **応答ヘッダー** -なし。
+ **応答ヘッダー** - なし。
   
- **応答本文**-なし。
+ **応答本文** - なし。
   
 

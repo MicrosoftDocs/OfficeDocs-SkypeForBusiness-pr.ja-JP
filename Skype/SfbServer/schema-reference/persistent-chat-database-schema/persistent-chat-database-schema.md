@@ -1,8 +1,8 @@
 ---
-title: 常設チャット データベースのスキーマ
+title: 常設チャット データベース スキーマ
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,38 +12,38 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: これは、Skype for Business Server の常設チャットデータベースのスキーマを文書化します。
-ms.openlocfilehash: b042f4490648760f4750e45fa1e35e032a8bf8b6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ここでは、Skype for Business Server の常設チャット データベースのスキーマについて説明します。
+ms.openlocfilehash: ba50f4391ce35d8a938318e96e1483bbfe0e3dfa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814745"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809877"
 ---
-# <a name="persistent-chat-database-schema"></a>常設チャット データベースのスキーマ
+# <a name="persistent-chat-database-schema"></a>常設チャット データベース スキーマ
  
-これは、Skype for Business Server の常設チャットデータベースのスキーマを文書化します。
+ここでは、Skype for Business Server の常設チャット データベースのスキーマについて説明します。
   
-常設チャットデータベースとは、Skype for Business Server のバックエンドサーバーの役割 PersistentChatStore (行うデータベースに対応) と**PersistentChatComplianceStore** ( **** ) に対応するデータベースを指します。 このスキーマを公開することは、お客様がクエリを作成して、チャットの利用状況、アクティブな会議室、トップ投稿などに関する有用なレポートを作成できるようにすることを目的としています。
+常設チャット データベースは、Skype for Business Server のバック エンド サーバーの役割 **PersistentChatStore** (mgc データベースに対応) および **PersistentChatComplianceStore** (mgccomp データベースに対応) に対応するデータベースを参照します。 このスキーマを公開する目的は、クエリを作成し、チャットの使用状況、アクティブなルーム、上位のポスターなどに関する有用なレポートの作成について理解できるようにすることです。
   
 > [!IMPORTANT]
-> このスキーマを進化させる権利を留保します。 Microsoft は、この公開されたスキーマとの完全な下位互換性を維持する保証を行っていません。 
+> Microsoft はこのスキーマを進化させる権利があります。Microsoft では、公開されたこのスキーマとの完全な下位互換性を維持することは一切保証していません。 
   
-以下のベストプラクティスに従ってください。
+次のベスト プラクティスに従ってください。
   
-- 列リスト\*のサイズが大きくなる可能性があるため、SELECT//はサポートされません。
+- 列の \* 一覧は拡大される可能性があります。SELECT // はサポートされていません。
     
 - ユーザーが生成したスキーマの変更はサポートされません。
     
-- 書き込み操作はサポートされていません。
+- 書き込み操作はサポートされません。
     
-- Representatively サイズのデータベースで作成したクエリをテストして、ニーズに合わせてクエリが確実に実行されることを確認します。
+- 作成したクエリを標準的なサイズのデータベースでテストして、ニーズを満たすレベルでクエリを実行できることを確認してください。
     
 ## <a name="in-this-section"></a>このセクションの内容
 
 - [常設チャット サーバーのテーブルのリスト](list-of-persistent-chat-server-tables.md)
     
-- [Skype for Business Server の常設チャットサーバーのコンプライアンステーブルの一覧](list-of-persistent-chat-server-compliance-tables.md)
+- [Skype for Business Server の常設チャット サーバー コンプライアンス テーブルの一覧](list-of-persistent-chat-server-compliance-tables.md)
     
 - [常設チャット サーバー テーブルの詳細](persistent-chat-server-table-details.md)
     

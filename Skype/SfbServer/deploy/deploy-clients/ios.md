@@ -1,7 +1,7 @@
 ---
-title: iOS 版 Skype for Business のインストールおよびテスト
-ms.author: v-lanac
-author: lanachin
+title: Skype for Business for iOS のインストールとテスト
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
-description: '概要: iOS 版 Skype for Business アプリをインストールしてテストする方法について説明します。'
-ms.openlocfilehash: b494048a3502f668062ab63435ba7ffeaecbb4ab
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '概要: Skype for Business for iOS アプリをインストールしてテストする方法。'
+ms.openlocfilehash: d05c95230d23e3b223fb79edb0bc88b9dcf944bd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768941"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805817"
 ---
-# <a name="install-and-test-skype-for-business-for-ios"></a>Install and test Skype for Business for iOS
+# <a name="install-and-test-skype-for-business-for-ios"></a>Skype for Business for iOS のインストールとテスト
  
-**概要:** IOS 版 Skype for Business アプリをインストールしてテストする方法について説明します。
+**概要:** Skype for Business for iOS アプリをインストールしてテストする方法。
   
-IOS 版 Skype for Business アプリを使用すると、Skype for business のプレゼンス、インスタントメッセージング (IM)、音声およびビデオ通話を iOS デバイスで利用できます。 Lync 2013 を使用しているユーザーの場合、ユーザー設定に応じて、アプリが自動的に更新されるか、手動で更新するよう求めるメッセージが表示されます。 新規ユーザーは、Apple App Store からアプリをダウンロードできます。 IOS 版 Skype for Business アプリは、iOS バージョン8.0 以降でのみ利用できます。
+Skype for Business for iOS アプリは、Skype for Business のプレゼンス、インスタント メッセージング (IM)、音声通話とビデオ通話を iOS デバイスに提供します。 Lync 2013 を使用しているユーザーは、更新されたアプリを自動的に取得するか、ユーザー設定に応じて手動で更新するように求めるメッセージが表示されます。 新しいユーザーは、Apple App Store からダウンロードできます。 Skype for Business for iOS アプリは、iOS バージョン 8.0 以降でのみ利用できます。
   
-## <a name="installing-skype-for-business-for-ios"></a>Skype for Business for iOS をインストールする
+## <a name="installing-skype-for-business-for-ios"></a>Skype for Business for iOS のインストール
 
-1. IOS デバイスから [ **App Store**] をタップして、 **Skype For business for ios**を検索します。
+1. iOS デバイスから[App **Store]** をタップし **、Skype for Business for iOS を検索します**。
     
-2. [**ダウンロード** > ****] をタップします。 
+2. [開く **] を**  >  **タップします**。 
     
 3. アプリにサインインします。
     
-## <a name="verifying-mobile-client-installation"></a>モバイル クライアント インストールの確認
+## <a name="verifying-mobile-client-installation"></a>モバイル クライアントのインストールの確認
 
-サインインが正常に完了したら、次のテストを行って、お使いの iOS デバイスで Skype for Business のインストールが正常に機能していることを確認します。 
+サインインに成功したら、次のテストを使用して、Skype for Business のインストールが iOS デバイスで正しく動作しているのを確認します。 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>会社のディレクトリにある連絡先の検索
 
@@ -43,11 +43,11 @@ IOS 版 Skype for Business アプリを使用すると、Skype for business の�
     
 2. 連絡先名が検索結果に表示されることを確認します。 
     
-### <a name="test-instant-messaging-and-presence"></a>インスタント メッセージングおよびプレゼンスのテスト
+### <a name="test-instant-messaging-and-presence"></a>インスタント メッセージングとプレゼンスのテスト
 
-1. 連絡先リストで、連絡先をタップします。 
+1. 連絡先一覧で、連絡先をタップします。 
     
-2. インスタント メッセージング (IM) ウィンドウが表示され、IM の入力と送信が可能であることを確認します。 
+2. インスタント メッセージング (IM) ウィンドウが表示され、IM の入力と送信が可能な確認を行います。 
     
 ### <a name="test-dial-out-conferencing"></a>ダイヤルアウト会議のテスト
 
@@ -55,20 +55,20 @@ IOS 版 Skype for Business アプリを使用すると、Skype for business の�
     
 2. モバイル デバイスで、会議の招待状を開きます。 
     
-3. [**会議に参加**] ボタンをクリックします。
+3. [会議に **参加] ボタンをクリック** します。
     
-4. 会議サービスからの呼び出しに応答し、会議の音声部分に接続されていることを確認します。 
+4. 会議サービスからの呼び出しに応答し、会議のオーディオに接続されていることを確認します。 
     
 ### <a name="test-push-notifications"></a>プッシュ通知のテスト
 
-1. ユーザー A のモバイルデバイスで、ユーザー A のアカウントを使って Skype for Business にサインインします。 
+1. ユーザー A のモバイル デバイスで、ユーザー A のアカウントで Skype for Business にサインインします。 
     
 2. モバイル デバイスで別のアプリケーションを開きます。 
     
-3. 別のクライアントで、ユーザー B のアカウントを使って Skype for Business にサインインします。 
+3. 別のクライアントで、ユーザー B のアカウントで Skype for Business にサインインします。 
     
 4. IM をユーザー B からユーザー A に送信します。 
     
-5. ユーザー A のモバイルデバイスに IM 通知が表示されることを確認します。 
+5. ユーザー A のモバイル デバイスに IM 通知が表示されるのを確認します。 
     
 

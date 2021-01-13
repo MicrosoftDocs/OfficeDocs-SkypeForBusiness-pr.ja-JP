@@ -1,8 +1,8 @@
 ---
 title: Skype for Business サーバーで会議ポリシーを割り当てる
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: '概要: Skype for Business サーバーで会議ポリシーを割り当てる方法の説明。'
-ms.openlocfilehash: c5dfb9c2aa186bf199a066c82e3687aade564905
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: d13710d2cc4f6edf1cee16cbc9aa77799ceec8a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818659"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806477"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Skype for Business サーバーで会議ポリシーを割り当てる
  

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 の CallType テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a1d7187c-f851-4967-88ea-73922911ee7a
 description: CallType テーブルは、可能な呼び出しの種類の一覧を格納する静的テーブルです。
-ms.openlocfilehash: 294af58755e980200d75c899d6110322e2ff774d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 89f29a2c826f4aef12cc0332e40df0fb421c3932
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815435"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813367"
 ---
 # <a name="calltype-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の CallType テーブル
  
@@ -26,7 +26,7 @@ CallType テーブルは、可能な呼び出しの種類の一覧を格納す�
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**発信者の Typeid** <br/> |int  <br/> |Primary  <br/> ||
-|**CallType** <br/> |nvarchar  <br/> || 許可される値: <br/>  0--不明 <br/>  1-インスタントメッセージ (im) <br/>  2--アプリケーション共有 <br/>  3--オーディオ <br/>  4-オーディオとビデオ <br/>  5-ファイル送信 <br/> |
+|**CallTypeId** <br/> |int  <br/> |Primary  <br/> ||
+|**CallType** <br/> |nvarchar  <br/> || 有効な値は次のとおりです。 <br/>  0 -- 不明 <br/>  1 - インスタント メッセージング <br/>  2 -- アプリケーション共有 <br/>  3 -- オーディオ <br/>  4 - オーディオとビデオ <br/>  5 - ファイル転送 <br/> |
    
 

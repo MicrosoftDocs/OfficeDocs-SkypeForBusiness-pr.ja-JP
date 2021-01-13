@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server での Edge の展開を検証する
+title: Skype for Business Server でのエッジ展開の検証
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
@@ -14,50 +14,50 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: '概要: エッジサーバーまたはエッジサーバープールの展開が Skype for Business Server で動作していることを確認する方法について説明します。'
-ms.openlocfilehash: c73b77fd0171afe20f9e40b48c47ef4304df4c66
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '概要: エッジ サーバーまたはエッジ サーバー プールの展開が Skype for Business Server で動作しているのを確認する方法について説明します。'
+ms.openlocfilehash: 1da2bed1bc9df7cb118d47c2b27e190546838e1b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768300"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804357"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Skype for Business Server での Edge の展開を検証する
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Skype for Business Server でのエッジ展開の検証
  
-**概要:** エッジサーバーまたはエッジサーバープールの展開が Skype for Business Server で動作していることを確認する方法について説明します。
+**概要:** エッジ サーバーまたはエッジ サーバー プールの展開が Skype for Business Server で動作しているのを確認する方法について説明します。
   
-エッジサーバーまたはエッジサーバープールを展開したら、正常に動作しているかどうかを確認する必要があります。 ここでは、Edge 環境が内部サーバーに接続されていることを確認するために役立ついくつかの方法について説明します。また、外部ユーザーは、Edge 経由で Skype for Business Server 環境に接続することもできます。
+エッジ サーバーまたはエッジ サーバー プールを展開したら、正常に動作しているかどうか確認する必要があります。 ここでは、エッジ環境が内部サーバーに接続されていることを確認するのに役立ついくつかの情報と、外部ユーザーがエッジを介して Skype for Business Server 環境に接続できる方法を示します。
   
-## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>内部サーバーとエッジ サーバーの間の接続を検証する
+## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>内部サーバーとエッジ サーバー間の接続を確認する
 
-エッジサーバーがインストールされているときに接続の検証がエッジサーバーまたはエッジサーバープールで自動的に行われる場合は、Windows PowerShell を使用してこれを確認することができます。 中央管理ストア、または Skype for Business Server Core Components (OcsCore) がインストールされている任意のドメインに参加しているコンピューターで、CsManagementStoreReplicationStatus コマンドレットを実行します。
+エッジ サーバーがインストールされている場合は、エッジ サーバーまたはエッジ サーバー プールで接続の検証が自動的に行われますが、この確認は Windows PowerShell。 Get-CsManagementStoreReplicationStatus 中央管理ストアを持つ内部サーバー、または Skype for Business Server コア コンポーネント (OcsCore.msi) がインストールされているドメインに参加しているコンピューターで、OcsCore.msi コマンドレットを実行します。
   
-このコマンドを実行した最初の結果では、レプリケーションに対して、状態が True ではなく False と示される場合があります。その場合は Invoke-CsManagementStoreReplication コマンドレットを実行し、レプリケーションが完了するまでしばらく待ってから、再び Get-CsManagementStoreReplicationStatus コマンドレットを実行します。
+このコマンドを実行した最初の結果では、レプリケーションに対して True ではなく False 状態が返される場合があります。 その場合は、次のコマンドレットInvoke-CsManagementStoreReplicationします。 レプリケーションを完了してから、このコマンドレットを再度実行Get-CsManagementStoreReplicationStatusします。
   
-## <a name="verify-connectivity-for-your-external-users"></a>外部ユーザーの接続を検証する
+## <a name="verify-connectivity-for-your-external-users"></a>外部ユーザーの接続を確認する
 
-エッジサーバーの構成を確認するための優れたツールが用意されています。また、エッジサーバーのシナリオについて、適切なメッセージの接続、送受信、受信を行うことができます。 これは、[リモート接続 Anaylzer サイト](https://testconnectivity.microsoft.com/)です。 このサイトは Microsoft サポートにより管理および維持されています。 このツールを使用するには、上記の Web サイトにアクセスし、適切なシナリオを選択するための指示に従います。
+エッジ サーバーの構成を確認し、エッジ サーバーのシナリオに合った適切なメッセージを接続、送信、受信する機能を確認するための最適なツールがあります。 リモート接続テスト [サイトです](https://testconnectivity.microsoft.com/)。 これは、Microsoft サポートによって管理および管理されているサイトです。 このツールを使用するには、Web サイトを参照し、指示に従って適切なシナリオを選択します。
   
-### <a name="things-to-consider-when-testing-external-user-connectivity"></a>外部ユーザーの接続をテストする際の考慮事項
+### <a name="things-to-consider-when-testing-external-user-connectivity"></a>外部ユーザー接続をテストする際の考慮すべき点
 
-外部ユーザー アクセスのテストには、次のいずれかまたはすべてなど、組織がサポートしている各内部ユーザー タイプを含める必要があります。
+外部ユーザー アクセスのテストには、組織がサポートする各種類の内部ユーザーを含める必要があります。内部ユーザーには、次の一部またはすべてが含まれます。
   
-- 少なくとも 1 つのフェデレーション ドメインのユーザー (ただしすべてのユーザーのテストは推奨しません)。
+- 少なくとも 1 つのフェデレーション ドメインのユーザー (すべてテストすることをお勧めします)。
     
 - 匿名ユーザー。
     
-- リモートで Skype for Business にログインしているが、VPN を使用していない組織内のユーザー。
+- 組織内で、リモートで Skype for Business にログインしているが、VPN を使用していないユーザー。
     
-これらのテストによって、エッジサーバーが次のどちらであるかが判別されます。
+これらのテストによって、エッジ サーバーが次のかどうかが判断されます。
   
 - ネットワーク外から telnet クライアントを使用して必要なポートをリッスンする。
     
   - 例: telnet sip.contoso.com 443
     
-  - 展開に応じて、エッジサーバーまたはエッジサーバープールで使用しているポートに対して、前のテストを実行する必要があります。
+  - 展開に応じて、エッジ サーバーまたはエッジ サーバー プールで使用しているポートで、前のテストを実行する必要があります。
     
 - 正確な外部 DNS 解決を実行する。
     
-  - ネットワークの外部から、エッジサーバーまたはエッジサーバープールの外部 Fqdn をそれぞれ ping します。 Ping に失敗した場合でも、IP アドレスが表示されます。これにより、以前に割り当てた IP アドレスを比較できます。
+  - ネットワークの外部から、エッジ サーバーまたはエッジ サーバー プールの各外部 FQDN に ping を実行します。 ping が失敗した場合でも、IP アドレスが表示され、以前に割り当てた IP アドレスを比較できます。
     
 

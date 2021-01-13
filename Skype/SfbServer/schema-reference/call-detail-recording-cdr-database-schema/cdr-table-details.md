@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 2015 の CDR 表の詳細
+title: Skype for Business Server 2015 の CDR テーブルの詳細
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
-description: 次のトピックでは、各通話詳細レコード (CDR) データベーススキーマテーブルの列について詳しく説明します。
-ms.openlocfilehash: e10140e9c64c96935019a522991d699ae5265e79
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 以下のトピックでは、通話詳細記録 (CDR) データベース スキーマの各テーブル内の列について詳しく説明します。
+ms.openlocfilehash: 5b271d336cfe5dd17a83cf318debf7eb2675d344
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815425"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813377"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の CDR 表の詳細
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の CDR テーブルの詳細
  
-次のトピックでは、各通話詳細レコード (CDR) データベーススキーマテーブルの列について詳しく説明します。
+以下のトピックでは、通話詳細記録 (CDR) データベース スキーマの各テーブル内の列について詳しく説明します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business Server 2015 のアプリケーションテーブル](application.md)
+- [Skype for Business Server 2015 のアプリケーション テーブル](application.md)
     
-- [Skype for Business Server 2015 の CallPriorities 度表](callpriorities.md)
+- [Skype for Business Server 2015 の CallPriorities テーブル](callpriorities.md)
     
 - [Skype for Business Server 2015 の CallType テーブル](calltype.md)
     
@@ -38,7 +38,7 @@ ms.locfileid: "41815425"
     
 - [Skype for Business Server 2015 の ConferenceMessageCount テーブル](conferencemessagecount.md)
     
-- [Skype for Business Server 2015 の会議テーブル](conferences.md)
+- [Skype for Business Server 2015 の電話会議テーブル](conferences.md)
     
 - [Skype for Business Server 2015 の ConferenceSessionDetails テーブル](conferencesessiondetails-0.md)
     
@@ -50,7 +50,7 @@ ms.locfileid: "41815425"
     
 - [Skype for Business Server 2015 の Devices テーブル](devices.md)
     
-- [Skype for Business Server 2015 のダイアログテーブル](dialogs.md)
+- [Skype for Business Server 2015 の Dialogs テーブル](dialogs.md)
     
 - [Skype for Business Server 2015 の EdgeServers テーブル](edgeservers.md)
     
@@ -60,27 +60,27 @@ ms.locfileid: "41815425"
     
 - [Skype for Business Server 2015 の ErrorReport テーブル](errorreport.md)
     
-- [ファイル転送テーブル (Skype for Business Server 2015)](filetransfers-0.md)
+- [Skype for Business Server 2015 の FileTransfers テーブル](filetransfers-0.md)
     
 - [Skype for Business Server 2015 の FocusJoinsAndLeaves テーブル](focusjoinsandleaves.md)
     
-- [Skype for Business Server 2015 のフロントエンドテーブル](frontend.md)
+- [Skype for Business Server 2015 の FrontEnd テーブル](frontend.md)
     
-- [Skype for Business Server 2015 のゲートウェイテーブル](gateways.md)
+- [Skype for Business Server 2015 の Gateways テーブル](gateways.md)
     
-- [Skype for Business Server 2015 のハードウェアバージョンの表](hardwareversions.md)
+- [Skype for Business Server 2015 の HardwareVersions テーブル](hardwareversions.md)
     
 - [Skype for Business Server 2015 の IMReportSummary テーブル](imreportsummary.md)
     
-- [Skype for Business Server 2015 の場所テーブル](locations.md)
+- [Skype for Business Server 2015 の場所の表](locations.md)
     
-- [Skype for Business Server 2015 の製造元テーブル](manufacturers.md)
+- [Skype for Business Server 2015 の Manufacturers テーブル](manufacturers.md)
     
 - [Skype for Business Server 2015 の McuJoinsAndLeaves テーブル](mcujoinsandleaves.md)
     
-- [Skype for Business Server 2015 の mcu テーブル](mcus.md)
+- [Skype for Business Server 2015 の Mcus テーブル](mcus.md)
     
-- [Media テーブル](media.md)
+- [メディア テーブル](media.md)
     
 - [MediaList テーブル](medialist.md)
     
@@ -96,7 +96,7 @@ ms.locfileid: "41815425"
     
 - [PurgeSettings テーブル](purgesettings.md)
     
-- [Registration テーブル](registration.md)
+- [登録テーブル](registration.md)
     
 - [Roles テーブル](roles.md)
     
@@ -110,13 +110,13 @@ ms.locfileid: "41815425"
     
 - [SyndicatorsTenantMap テーブル](syndicatorstenantmap.md)
     
-- [タスクテーブル](task.md)
+- [タスク テーブル](task.md)
     
 - [Tenants テーブル](tenants.md)
     
 - [UriTypes テーブル](uritypes.md)
     
-- [ユーザー テーブル](users.md)
+- [Users テーブル](users.md)
     
 - [UserAgentDef テーブル](useragentdef.md)
     

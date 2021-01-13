@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server で Edge Server の展開を計画する
+title: Skype for Business Server でのエッジ サーバーの展開を計画する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,46 +15,46 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
-description: '概要: Skype for Business Server Edge 環境を計画します。 このトピックでは、エッジの概念を紹介し、より詳細なトピックで体系的に学習できるようにします。'
-ms.openlocfilehash: f19f00aab393ed94735f47f2e66ab0a2869d2d7a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server Edge 環境を計画します。 このトピックでは、Edge の概念について説明し、より詳細なトピックを整理できます。'
+ms.openlocfilehash: 277e344448f5229d15addf965695f19ec2884649
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803367"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813807"
 ---
-# <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Skype for Business Server で Edge Server の展開を計画する
+# <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Skype for Business Server でのエッジ サーバーの展開を計画する
  
-**概要:** Skype for Business Server Edge 環境を計画します。 このトピックでは、エッジの概念を紹介し、より詳細なトピックで体系的に学習できるようにします。
+**概要:** Skype for Business Server Edge 環境を計画します。 このトピックでは、Edge の概念について説明し、より詳細なトピックを整理できます。
   
-社内で動作する Skype for Business Server 環境がある場合、次の手順では、Edge サーバーまたはエッジプールを環境に導入することをお勧めします。 この役割は、Skype for Business Server によって提供されるサービスを内部ネットワークの外部ユーザーが使用できるようにする場合に非常に重要です。 次の種類のユーザーが含まれる可能性があります。
+Skype for Business Server 環境が内部でうまく機能している場合は、次の手順として、エッジ サーバーまたはエッジ プールを環境に導入します。 この役割は、内部ネットワークの外部のユーザーが Skype for Business Server によって提供されるサービスを使用する場合に非常に重要です。 次のような場合があります。
   
-- リモート ユーザー: 一時的または継続的にオフサイトで作業している従業員。
+- リモート ユーザー: 一時的または継続的な方法でオフサイトの従業員。
     
-- フェデレーションされたユーザー: パートナー組織の従業員。
+- フェデレーション ユーザー: パートナー組織の従業員。
     
 - モバイル ユーザー。
     
-- 会議やプレゼンテーションに招待する必要がある潜在的な顧客やパートナー、および場合によっては匿名ユーザー。
+- 潜在的な顧客、パートナー、会議やプレゼンテーションに招待する匿名ユーザー。
     
-外部ユーザーアクセス (エッジサーバーが提供する機能) により、すべての操作が可能になります。 組織内のユーザーは、Skype for Business Server の展開によってホストされている次のサービスを利用することができます。
+エッジ サーバーが提供する外部ユーザー アクセスにより、このすべてが可能になります。 内部ユーザーは、Skype for Business Server 展開でホストされている次のサービスを利用できます。
   
-- 通信の IM とプレゼンス: 承認された外部ユーザーは、IM 会話と会議に参加できます。 他のユーザーのプレゼンス情報を取得することができます (自分のプレゼンス情報も取得します)。 パブリック IM プロバイダーを使用している場合は、ピアツーピア通信であるため、マルチパーティ会議を実行することはできません。 ただし、SIP と XMPP の両方のプロトコルがサポートされています。
+- 通信用の IM とプレゼンス: 承認された外部ユーザーは、IM 会話および会議に参加できます。 他のユーザー (自分のプレゼンス情報も取得するユーザー) のプレゼンス情報を取得できます。 パブリック IM プロバイダーを使用している場合、マルチパーティ会議を行うのは、厳密にはピアツーピア通信です。 ただし、SIP プロトコルと XMPP プロトコルの両方がサポートされます。
     
-- 音声/ビデオ (A/V) 会議: 承認された外部ユーザーは、Skype for Business Server の音声とビデオ会議に参加できます。
+- 音声ビデオ (A/V) 会議: 承認された外部ユーザーは、Skype for Business Server の音声ビデオ会議に参加できます。
     
-- Web 会議: 承認された外部ユーザーは、Skype for Business 会議に参加することができます。 必要に応じて、リモートユーザー、フェデレーションユーザー、匿名ユーザーへの参加を有効にすることもできます。 パブリック IM ユーザーは、会議に参加できません。 これらのユーザーのアプリケーションおよびデスクトップ共有への参加や、場合によっては会議の開催者または発表者の役割を可能にするオプションもあります。
+- Web 会議: 承認された外部ユーザーは、Skype for Business 会議に参加できます。 必要に合った場合は、リモート ユーザー、フェデレーション ユーザー、および匿名ユーザーの参加を有効にできます。 パブリック IM ユーザーは会議に参加できません。 また、これらのユーザーがアプリケーションとデスクトップの共有に参加したり、会議の開催者や発表者として機能したりするためのオプションも用意されています。
     
-エンタープライズ Voip として、モバイルデバイスのアクセスがサポートされています。 外部ユーザーにアクセス許可を付与する必要があれば、場合によっては匿名ユーザーを含め、外部ユーザーの参加が必要な会議に招待することができます。
+モバイル デバイスのアクセスは、次の場合と同様にエンタープライズ VoIP。 外部ユーザーにアクセス許可を付与する場合は、外部ユーザーを招待して、匿名ユーザーを含め、出席を希望する会議に招待できます。
   
-上記の機能が組織で必要であると考えられる場合は、エッジ環境を計画すると、その機能を展開するのに大いに役立ちます。その他の資料としては、以下のトピックがあります。
+組織に必要なもののように思える場合は、エッジ環境の計画が展開の大きな助けになります。 詳細については、以下のトピックを参照してください。
 
 > [!NOTE]
-> XMPP ゲートウェイとプロキシは、Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 詳細については、「 [XMPP フェデレーションを移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md)する」を参照してください。 
+> XMPP ゲートウェイとプロキシは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 詳細 [については、「XMPP フェデレーションの移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 」を参照してください。 
   
 ## <a name="planning-topics"></a>計画に関するトピック:
 
-計画に関する記事:
+計画に関する記事は次のとおりです。
   
 - [Skype for Business Server 2015 のエッジ サーバーのシステム要件](system-requirements.md)
     

@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server でサーバーのメモリ容量の上限を監視する
+title: Skype for Business Server でサーバーのメモリ容量制限を監視する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,45 +11,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
-description: '概要: Skype for Business Server でサーバーのメモリ容量の上限を監視する方法について説明します。'
-ms.openlocfilehash: 4f56fec8f3ed6900f4c4f1a97286dc14b66bb7c8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server でサーバーのメモリ容量制限を監視する方法について学習します。'
+ms.openlocfilehash: f1423d840fdf690332081a8083617c3a072b373c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817706"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814297"
 ---
-# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Skype for Business Server でサーバーのメモリ容量の上限を監視する
+# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Skype for Business Server でサーバーのメモリ容量制限を監視する
  
-**概要:** Skype for Business Server でサーバーのメモリ容量の上限を監視する方法について説明します。
+**概要:** Skype for Business Server でサーバーのメモリ容量制限を監視する方法について学習します。
   
 > [!CAUTION]
-> このトピックでは、キャパシティ計画を参照している情報は、Lync 2010 モバイルクライアントとモビリティサービス (Mcx) のみに関連しています。 Lync 2013 モバイルクライアントで使用されるユニファイドコミュニケーション Web API (UCWA) のキャパシティ計画は、Lync Server 2013、計画ツールによって提供されます。 
+> 容量計画に関するこのトピックの情報は、Lync 2010 Mobile クライアントおよび Mobility Service (Mcx) にのみ関係します。 Lync 2013 Mobile クライアントで使用される Unified Communications Web API (UCWA) の容量計画は、Lync Server 2013 計画ツールによって提供されます。 
 
 > [!NOTE]
-> Skype for Business Server 2019 では、従来のモバイルクライアントに対する MCX (モバイルサービス) のサポートは利用できなくなりました。 現在のすべての Skype for Business のモバイルクライアントでは、インスタントメッセージング (IM)、プレゼンス、連絡先をサポートするために、既にユニファイドコミュニケーション Web API (UCWA) を使用しています。 MCX を使用するレガシクライアントを使っているユーザーは、現在のクライアントにアップグレードする必要があります。
+> 従来のモバイル クライアントの MCX (モビリティ サービス) サポートは、Skype for Business Server 2019 では利用できなくなりました。 現在のすべての Skype for Business モバイル クライアントはUnified Communications Web API (UCWA) を使用して、インスタント メッセージング (IM)、プレゼンス、および連絡先をサポートしています。 MCX を使用している従来のクライアントを持っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
-2つのモビリティーパフォーマンスカウンターは、現在の使用状況を特定し、Skype for Business Server Mobility Service (Mcx) の容量を計画して、UCWA のメモリ使用量を監視するのに役立ちます。 UCWA では、カウンターカテゴリは**LS: WEB-UCWA**です。 モバイルサービス (Mcx) については、カウンターは "カテゴリ**LS: WEB モバイル通信サービス**" の下にあります。 監視するカウンターは次のとおりです。
+2 つのモビリティ パフォーマンス カウンターを使用すると、現在の使用状況を判断し、Skype for Business Server Mobility Service (Mcx) の容量を計画し、UCWA のメモリ使用量を監視するのに役立ちます。 UCWA の場合、カウンター カテゴリは **LS:WEB - UCWA です**。 Mobility Service (Mcx) のカウンターは **、LS:WEB - Mobile Communication Service のカテゴリに含まれています**。 監視するカウンターは次のとおりです。
   
-- **Currently Active Session Count with Active Presence Subscriptions**。これは、UCWA または Mobility Service (Mcx) 経由で登録されたエンドポイントのうち、アクティブなプレゼンス サブスクリプションを持つエンドポイントの現在数 (常時接続されたモバイル ユーザーの数) です。
+- **Currently Active Session Count with Active Presence Subscriptions**,これは、UCWA または Mobility Service (Mcx) を通じて登録された、アクティブなプレゼンス サブスクリプションを持つエンドポイントの現在の数 (常時接続されたモバイル ユーザーの数) です。
     
-- **Currently Active Session Count**。これは、UCWA または Mobility Service 経由で登録されたエンドポイントの現在数です。
+- **Currently Active Session Count**(UCWA または Mobility Service 経由で登録された現在のエンドポイント数)
     
-**アクティブなセッション数と**現在アクティブな**セッション数**の差が時間の経過と共に小さい場合は、モバイルデバイスを使用しているデバイス (Android や Nokia モバイルデバイスなど) が常に接続されていることを意味します (mcx のみ)。 UCWA 常に接続されたデバイスには、Lync 2013 モバイルクライアントを実行している Apple と Android デバイスが含まれます。 現在アクティブな**セッション数**が **、アクティブなプレゼンスのサブスクリプションによって現在アクティブなセッション数**を超えている場合は、Apple IOS デバイスや Mcx での Windows Phone などのバックグラウンドエンドポイントデバイスを使用しているユーザーが多いことを示します。 (Windows Phone は、これとして登録される唯一の Lync 2013 モバイルクライアントです)。
+アクティブ プレゼンス サブスクリプションを使用した **Currently Active Session Count** と Currently Active Session **Count** の差が時間のかかると小さい場合、ほとんどのモバイル デバイス ユーザーは Android や Nokia モバイル デバイスなどの常時接続されたデバイスを持っています (Mcx の場合のみ)。 UCWA の常時接続デバイスには、Lync 2013 Mobile クライアントを実行している Apple デバイスと Android デバイスが含まれます。 現在アクティブなセッション数が、Active **Presence Subscription** を使用した Currently Active Session Count よりもずっと多い場合、より多くのユーザーがバックグラウンド エンドポイント デバイス (Apple iOS デバイスや Mcx の Windows Phone など) を使用している場合を示します。 (Windows Phone は、これを登録する唯一の Lync 2013 Mobile クライアントです)。
   
-現在アクティブになっている**セッション数**の上限を設定する必要があります。これには、想定される使用状況、キャパシティ計画の結果、モビリティサービスおよびその他のフロントエンドサーバーカウンターの継続的な監視に基づいて、現在のアクティブなセッション数**のパフォーマンスカウンター**が使用されます。 制限を設定することで、キャパシティを超えたときにサーバーの容量を評価し、警告を発生させることができるようになります。
+予想される使用状況、容量計画の結果、および Mobility Service および他のフロントエンド サーバー カウンターの継続的な監視に基づいて、[Currently **Active Session Count with Active Presence Subscriptions]** および **[Currently Active Session Count]** パフォーマンス カウンターに制限を設定する必要があります。 制限を設定すると、サーバーの容量を評価し、容量を超えたときにアラートを発生できます。
   
-適切な制限を決定するには、まず、モビリティサービスのフロントエンドサーバーで利用可能なメモリ量を決定する必要があります。 カウンターを監視し、次の式に従って、追加容量の計画が必要な時期を確認します。
+適切な制限を決定するには、まず Mobility Service のフロント エンド サーバーで使用可能なメモリ容量を確認する必要があります。 カウンターを監視し、次の式に従って、追加容量を計画する必要がある場合を判断します。
   
-Mcx Mobility Service (メガバイト) = 164 + (400 + 134)/1024 ***現在アクティブなセッション400数** **(** - 現在アクティブなプレゼンス月額プランの現在のアクティブなセッション数とアクティブな**プレゼンスサブスクリプションの**セッション数)
+Mcx Mobility Service が使用する合計メモリ (MB) = 164 + (400 + 134) / 1024 * Currently **Active Session Count with Active Presence Subscriptions** + 400 / 1024 * ( Currently Active Session Count Currently Active Session **Count** with Active  -  **Presence Subscriptions**)
   
 > [!IMPORTANT]
-> Microsoft Lync Server 2010 キャパシティの計算機は、CPU、メモリ、ハードドライブなど、Skype for Business サーバーの要件を決定するためのすべての数式で事前に用意されたスプレッドシートです。 [スプレッドシートと関連ドキュメントをダウンロード](https://go.microsoft.com/fwlink/p/?LinkID=212657)できます。 
+> Microsoft Lync Server 2010 Capacity Calculator は、CPU、メモリ、ハード ドライブなど、Skype for Business サーバーの要件をプランナーが判断できるすべての数式が事前に入力されたスプレッドシートです。 スプレッドシートと [関連するドキュメントをダウンロードできます](https://go.microsoft.com/fwlink/p/?LinkID=212657)。 
   
-フロントエンドサーバーには、フェールオーバーの状況でモビリティサービスをサポートするための十分なメモリが必要です。 フロントエンドサーバーで現在利用可能なメモリを監視するには、 **memory(Available m** ) カウンターを使用するか、前に説明した式を使用して、モビリティサービスで使用する必要のあるメモリ量を計画します。
+フロントエンド サーバーには、フェールオーバーの状況で Mobility Service をサポートするのに十分なメモリが必要です。 フロント エンド サーバーで現在使用可能なメモリを監視するには **、Memory\Available Mbytes** カウンターを使用するか、前述の式を使用して、Mobility Service で使用するメモリ容量を計画します。
   
-フロントエンドサーバーで利用可能なメモリの量が 1500 MB よりも小さい場合は、モビリティユーザーの想定される数を計画するときに、モビリティサービスをサポートするためにハードウェアを追加する必要があります。 詳細については、操作のドキュメントの「 [Skype For Business Server のパフォーマンスを監視する](monitor-mobility-performance.md)」を参照してください。
+予想されるモビリティ ユーザー数を計画するときにフロント エンド サーバーで使用可能なメモリ容量が 1,500 MB 未満の場合は、Mobility Service をサポートするためにハードウェアを追加する必要があります。 詳細については、「操作」のドキュメントの [「Skype for Business Server](monitor-mobility-performance.md) のモビリティでパフォーマンスを監視する」を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server のパフォーマンスを監視する](monitor-mobility-performance.md)
+[Skype for Business Server でモビリティのパフォーマンスを監視する](monitor-mobility-performance.md)

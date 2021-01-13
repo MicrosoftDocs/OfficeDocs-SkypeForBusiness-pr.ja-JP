@@ -1,7 +1,7 @@
 ---
-title: Skype for Business での Mac クライアントのエクスペリエンスをカスタマイズする
-ms.author: v-lanac
-author: lanachin
+title: Skype for Business での Mac クライアント エクスペリエンスのカスタマイズ
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
@@ -11,57 +11,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: この記事では、Mac クライアント用の Skype for Business で利用できる、クライアントの基本設定と既定値について説明します。また、それらをアプリ以外から編集する方法についても説明します。
-ms.openlocfilehash: 796ccdc7d876547e38482a853dc9f89c38bcf53d
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: この記事では、Skype for Business on Mac クライアントで使用できるクライアントの基本設定と既定値、およびアプリの外部からそれらを編集する方法について説明します。
+ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768830"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805757"
 ---
-# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Skype for Business での Mac クライアントのエクスペリエンスをカスタマイズする
+# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Skype for Business での Mac クライアント エクスペリエンスのカスタマイズ
  
-この記事では、Mac クライアント用の Skype for Business で利用できる、クライアントの基本設定と既定値について説明します。また、それらをアプリ以外から編集する方法についても説明します。
+この記事では、Skype for Business on Mac クライアントで使用できるクライアントの基本設定と既定値、およびアプリの外部からそれらを編集する方法について説明します。
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac クライアント用の Skype for Business の基本設定
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Mac での Skype for Business クライアントの基本設定
 
-Mac クライアント上の Skype for Business で利用できる特定の機能や動作は、クライアントの設定によって決まります。 Mac 版 Skype for Business の環境設定は、Mac 上にある、次のパスにある Skype for Business クライアントがインストールされているファイルにあります。 
+Mac クライアント上の Skype for Business で使用できる特定の機能と動作は、クライアントのユーザー設定によって決まります。 Mac での Skype for Business の基本設定は、次のパスにある Skype for Business クライアントをインストールした Mac 上のファイルに含まれます。 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-これらの環境設定を行うには、クライアントの Mac でターミナルプロンプトを表示し、必要に応じて、次の表に記載されている設定キーを使用して、[既定の設定として使用する] を選択します。
+これらの基本設定を設定するには、クライアントの Mac でターミナル プロンプトにアクセスし、必要に応じて、次の表に示す基本設定キーを使用して com.microsoft.SkypeForBusiness キー コマンドを書き込みます。
   
-**クライアントの基本設定のキー**
+**クライアントの基本設定キー**
 
 
 | キー | 型 | 値 | 説明 |
 |:-----|:-----|:-----|:-----|
-|Autoの Autodicの Overyurl    |ブール    |0 = 手動のサーバー構成  <br/> 1 = 自動のサーバー構成 (既定)    |Skype for Business で、サインイン時に使用するトランスポートとサーバーの識別方法を指定します。 このポリシー設定を有効にする場合は、**internalAutoDiscoveryURL** および **externalAutoDiscoveryURL** を有効にする必要があります。   |
+|autoDetectAutoDicoveryURLs    |ブール    |0 = 手動サーバー構成  <br/> 1 = サーバーの自動検出 (既定)    |サインイン時に使用するトランスポートとサーバーを Skype for Business で識別する方法を指定します。 このポリシー設定を有効にする場合は **、internalAutoDiscoveryURL** と **externalAutoDiscoveryURL を指定する必要があります**。   |
 |internalAutoDiscoveryURL    |String    |完全な自動検出 URL    |内部自動検出 URL    |
 |externalAutoDiscoveryURL    |String    |完全な自動検出 URL    |外部自動検出 URL    |
 |httpProxyDomain    |String    ||HTTP プロキシ ドメイン    |
 |httpProxyUserName    |String    ||HTTP プロキシ ユーザー名    |
-|httpProxyPassword    |文字列    ||HTTP プロキシ パスワード    |
-|trustedDomainList    |配列    ||HTTP リダイレクトでの信頼済みのドメインのリスト。    |
-|autoAcceptTimeout    |数値    |300 (既定)    |サーバー側の会話履歴がないユーザーの自動承認タイムアウト。    |
-|warnWhenUnknownLocationForE911    |ブール値    |0 = 無効  <br/> 1 = 有効    |不明な場所から緊急電話番号にダイヤルするときにユーザーに警告します。    |
-|sipAddress    |String    ||Skype for Business にサインインするために使用される SIP アドレス (メール)。    |
-|userName    |文字列    ||Skype for Business にサインインするために使用される UPN (ユーザー名)。    |
-|userNameInAdvancedOnly    |ブール    |0 = メインのサインイン画面と [詳細プロパティ] ダイアログボックスにユーザー名フィールドを表示する  <br/> 1 = [詳細プロパティ] ダイアログボックスの [ユーザー名] フィールドのみを表示する (既定)    |サインイン時にユーザー名フィールドを表示する場所を指定します。    |
+|httpProxyPassword    |String    ||HTTP プロキシ パスワード    |
+|trustedDomainList    |配列    ||HTTP リダイレクトの信頼されたドメインの一覧。    |
+|autoAcceptTimeout    |数字    |300 (既定値)    |サーバー側の会話履歴がないユーザーの自動承諾タイムアウト。    |
+|warnWhenUnknownLocationForE911    |ブール    |0 = 無効  <br/> 1 = 有効    |不明な場所から緊急電話番号をダイヤルするときにユーザーに警告します。    |
+|sipAddress    |String    ||Skype for Business へのサインインに使用される SIP アドレス (電子メール)。    |
+|userName    |String    ||Skype for Business にサインインするために使用される UPN (UserName)。    |
+|userNameInAdvancedOnly    |ブール    |0 = メインのサインイン画面と [プロパティの詳細設定] ダイアログ ボックスに [ユーザー名] フィールドを表示する  <br/> 1 = [詳細プロパティ] ダイアログ ボックスにのみ [ユーザー名] フィールドを表示する (既定)    |サインイン時にユーザー名フィールドを表示する場所を指定します。    |
    
 ### <a name="usage-examples"></a>使用例
 
-単一ドメイン (Contoso.com) を信頼できるドメインリストに追加するには、次のように trustedDomainList キーを使用します。
+単一のドメイン (Contoso.com) を信頼されたドメインの一覧に追加するには、次のように trustedDomainList キーを使用します。
   
-既定値として、Contoso.com を記述します。 SkypeForBusiness trustedDomainList-array-"" を追加します。
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   
-複数のドメインを信頼済みのドメインのリストに追加するには、次に示すような trustedDomainList キーを使用します。
+複数のドメインを信頼されたドメインの一覧に追加するには、次に示すように trustedDomainList キーを使用します。
   
-既定の設定 com. SkypeForBusiness trustedDomainList-array-add "sfb.com" "abc.com" "test.org"
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-### <a name="sample-unedited-settings"></a>未編集の設定のサンプル
+### <a name="sample-unedited-settings"></a>編集されていない設定のサンプル
 
-参考用として、既定の設定のみを使用したサンプル設定ファイルをここで提供します。 
+参考までに、既定の設定のみを使用するサンプル設定ファイルを次に示します。 
   
 ```console
 {

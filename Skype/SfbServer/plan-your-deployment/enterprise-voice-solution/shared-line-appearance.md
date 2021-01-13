@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 2015 の回線共有機能の計画
+title: Skype for Business Server 2015 での回線共有機能の計画
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/21/2016
 audience: ITPro
@@ -16,48 +16,48 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: このトピックでは、Skype for Business Server 2015、2015年11月の累積更新プログラムで共有線の外観 (SLA) を計画する方法について説明します。
-ms.openlocfilehash: 14f0f6cbd163ecff42543d3ad57bed0020434cfb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このトピックでは、Skype for Business Server 2015、2015 年 11 月の累積的な更新プログラムで回線共有機能 (SLA) を計画する方法について説明します。
+ms.openlocfilehash: d7fa13b36c232e37c79e8509de71b4ac29ceff72
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802437"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813347"
 ---
-# <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の回線共有機能の計画
+# <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での回線共有機能の計画
  
-このトピックでは、Skype for Business Server 2015、2015年11月の累積更新プログラムで共有線の外観 (SLA) を計画する方法について説明します。 
+このトピックでは、Skype for Business Server 2015、2015 年 11 月の累積的な更新プログラムで回線共有機能 (SLA) を計画する方法について説明します。 
   
-共有された線の外観は、共有番号と呼ばれる特定の電話番号で複数の通話を処理するための Skype for Business の機能です。 SLA では、エンタープライズボイス対応 Skype for Business のユーザーを、複数の回線を使って複数の通話に応答する共有番号として構成できます。 実際には共有番号で通話を受信するのではなく、共有番号の代理人として機能するユーザーに通話が転送されます。 いずれかの代理人が通話に応答すると、残りの代理人は誰が通話に応答したか、またその結果としてどの回線が通話中になったかを示す通知を自分の電話で受け取ります。 SLA では、回線の番号と代理人の両方を共有番号に対して構成できます。 さらに、BusyOption (すべての回線が通話中のときに実行する処理) と MissedCallOption (通話に応答できる代理人がいない場合の処理) などの高度なオプションも共有番号に対して構成できます。
+回線共有機能は、共有番号と呼ばれる特定の番号で複数の通話を処理する Skype for Business の機能です。 SLA では、エンタープライズ ボイスが有効な Skype for Business ユーザーを複数の回線で共有番号として構成し、複数の通話に応答できます。 通話は実際には共有番号で受信されません。代わりに、共有番号の代理人として機能するユーザーに転送されます。 任意の代理人が通話を受け取る一方で、残りの代理人は電話で通話を受け取ったユーザーと、その結果ビジーになった回線に関する通知を受け取ります。 回線数と代理人の両方が、SLA の共有番号に対して構成できます。 また、BusyOption (すべての回線がビジー状態の場合に行う処理) や MissedCallOption (どの代理人も通話を受けない場合) などの高度なオプションも、共有番号に対して構成できます。
   
-SLA は、次の電話デバイスでのみサポートされます (コンピューター、携帯電話、その他のデバイス上の Skype for Business クライアントではサポートされていません)。 
+SLA は、次の電話デバイスでのみサポートされます (コンピューター、携帯電話、その他のデバイスの Skype for Business クライアントではサポートされていません)。 
   
-- Polycom VVX300 (ファームウェア更新プログラム 5.4.1 インストール済み)
+- Polycom VVX300 とファームウェア更新プログラム 5.4.1
     
-- Polycom VVX400 (ファームウェア更新プログラム 5.4.1 インストール済み)
+- Polycom VVX400 とファームウェア更新プログラム 5.4.1
     
-- Polycom VVX500 (ファームウェア更新プログラム 5.4.1 インストール済み)
+- Polycom VVX500 とファームウェア更新プログラム 5.4.1
     
-- Polycom VVX600 (ファームウェア更新プログラム 5.4.1 インストール済み)
+- Polycom VVX600 とファームウェア更新プログラム 5.4.1
     
-SLA は、2015年11月の累積更新プログラムである、Skype for Business Server の新機能です。 
+SLA は、2015 年 11 月の累積的な更新プログラムである Skype for Business Server の新機能です。 
   
-SLA の展開の詳細については、「[Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)」を参照してください。
+SLA の展開の詳細については [、「Deploy Shared Line Appearance in Skype for Business Server 2015」を参照](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)してください。
   
 ## <a name="feature-list"></a>機能リスト
 
-SLA グループをセットアップすると次のことが可能になります。
+SLA グループを設定すると、次の操作が可能です。
   
-- グループ内のすべての代理人が同じ共有番号への着信通話に応答できます。PSTN ベースまたは SIP ベースの通話を利用できます。
+- グループ内のすべての代理人は、同じ共有番号への着信呼び出しに応答できます。 通話は、PSTN ベースまたは SIP ベースの場合があります。
     
-- 代理人は、通話に応答することも保留にすることもできます。
+- 代理人は通話を保留して受け取る場合があります。
     
-- 代理人は、SLA グループの外部の番号に通話を転送できます。
+- 代理人は、SLA グループ外の番号に通話を転送できます。
     
-- 代理人は、現在の共有番号上の通話数と、それらの各通話のステータスを表示できます。
+- 代理人は、共有番号に現在の通話数を確認し、それらの各通話の状態を表示できます。
     
-- 共有番号で受信する通話の最大数を構成できます。この最大数に達した後にかかってきた通話の処理方法も設定できます。その後の通話に対しては、話中音を流すか、代替番号に転送するか、ボイス メールに転送できます。
+- 共有番号の同時通話の最大数を構成できます。 また、この最大数に達した後に追加の呼び出しを処理する方法を設定できます。 余分な通話は、ビジー信号で拒否するか、代替番号に転送するか、ボイス メールに転送することができます。
     
-- 不在着信 (一定の時間が経過しても応答されなかった通話) の処理方法を構成できます。グループ ID のボイス メールを有効にした場合、不在着信は自動的にボイス メールに転送されます。グループ ID (共有番号) のボイス メールを有効にしない場合、不在着信に対して話中音を流すか、代替番号に転送するか、切断するかを選ぶことができます。
+- 見つからない通話 (一定時間が過ごした後に呼び出しが取り出されない) の処理方法を構成できます。 グループ ID のボイス メールを有効にした場合、欠場した通話は自動的にボイス メールに移動します。 グループ ID (共有番号) に対してボイス メールを有効にしていない場合は、ビジー信号で拒否される、代替番号に転送する、切断された通話を選択できます。
     
 

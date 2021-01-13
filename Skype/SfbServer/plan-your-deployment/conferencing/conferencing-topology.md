@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server の会議トポロジを計画する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,32 +12,32 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: '概要: このトピックでは、Skype for Business Server での会議トポロジの計画について説明します。'
-ms.openlocfilehash: 68ee859979deb7d977ee546e711474d0b6ba06e5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: dc7c62d45a2ebd84f38cc67ce996ba0ac72aa794
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030781"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814097"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Skype for Business Server の会議トポロジを計画する
  
 **概要:** このトピックでは、Skype for Business Server での会議トポロジの計画について説明します。
   
-ここでは、Skype for Business Server での会議のトポロジの基本について説明します。
+このトピックでは、Skype for Business Server での会議のトポロジの基本について説明します。
   
 - サポートされるトポロジ
     
-- ダイヤルイン会議の考慮事項
+- ダイヤルイン会議に関する考慮事項
     
 - Web 会議に関する考慮事項
     
-- 大規模会議の要件
+- 大規模な会議の要件
     
-ハードウェアとソフトウェアの要件の詳細については、「 [Skype For Business Server での会議のハードウェアおよびソフトウェア要件](hardware-and-software-requirements.md)」を参照してください。
+ハードウェアおよびソフトウェアの要件の詳細については、「Skype for Business Server での会議のハードウェア要件およびソフトウェア要件」 [を参照してください](hardware-and-software-requirements.md)。
   
 ## <a name="supported-topologies"></a>サポートされるトポロジ
 
-Skype for Business Server では、会議サービスを実行しているサーバーは、常にフロントエンドサーバーまたは Standard Edition サーバーと併置されます。 Skype for Business Server を展開すると、IM 会議機能が自動的に展開されます。 トポロジビルダーを使用して、web、オーディオ、ビデオ (A/V)、およびダイヤルイン会議を展開するかどうかを指定できます。 トポロジー ビルダーを使用して、既存の展開に会議を追加することもできます。 トポロジの基礎および併置シナリオの詳細については、「 [topology の基礎 (Skype For Business Server](../../plan-your-deployment/topology-basics/topology-basics.md))」を参照してください。
+Skype for Business Server では、会議サービスを実行しているサーバーは常にフロントエンド サーバーまたは Standard Edition サーバーと一緒に展開されます。 Skype for Business Server を展開すると、IM 会議機能が自動的に展開されます。 トポロジ ビルダーを使用して、Web、音声およびビデオ (A/V)、およびダイヤルイン会議を展開するかどうかを指定できます。 トポロジー ビルダーを使用して、既存の展開に会議を追加することもできます。 トポロジの基本とコロケーションシナリオの詳細については [、「Topology Basics for Skype for Business Server」を参照してください](../../plan-your-deployment/topology-basics/topology-basics.md)。
   
 会議は、次のトポロジと構成で展開できます。
   
@@ -45,15 +45,15 @@ Skype for Business Server では、会議サービスを実行しているサー
     
 - Skype for Business Server Enterprise Edition
     
-- エンタープライズ Voip の有無にかかわらず
+- 使用する場合と使用しない場合エンタープライズ VoIP
     
-## <a name="dial-in-conferencing-considerations"></a>ダイヤルイン会議の考慮事項
+## <a name="dial-in-conferencing-considerations"></a>ダイヤルイン会議に関する考慮事項
 
-ダイヤルイン会議を展開している場合は、次の点を考慮する必要があります。
+ダイヤルイン会議を展開する場合は、次の点を考慮する必要があります。
   
-- ダイヤルイン会議では、Skype for Business Server と PSTN ゲートウェイ間、および仲介サーバーと PSTN ゲートウェイ間の信号とメディアを変換する PSTN ゲートウェイの間で、仲介サーバーを使用する必要があります。.
+- ダイヤルイン会議では、仲介サーバーが Skype for Business Server と PSTN ゲートウェイの間の信号 (および一部の構成のメディア) を変換し、PSTN ゲートウェイが仲介サーバーと PSTN ゲートウェイの間で信号とメディアを変換する必要があります。
     
-   ダイヤルイン会議を構成する前に、エンタープライズ Voip または仲介サーバーと、次のうち少なくとも1つを展開する必要があります。
+   ダイヤルイン会議を構成する前に、エンタープライズ VoIP または仲介サーバー、および次のいずれか少なくとも 1 つを展開する必要があります。
     
   - PSTN ゲートウェイ
     
@@ -61,64 +61,64 @@ Skype for Business Server では、会議サービスを実行しているサー
     
   - セッション ボーダー コントローラー (SBC) (SIP トランクを構成して接続するインターネット テレフォニー サービス プロバイダー (ITSP) のため)
     
-- アプリケーションサービス、会議アテンダントアプリケーション、および会議アナウンスアプリケーションは、中央サイトに展開できますが、ブランチサイトに展開することはできません。
+- アプリケーション サービス、会議アテンダント アプリケーション、および会議アナウンス アプリケーションは中央サイトに展開できますが、ブランチ サイトには展開できます。
     
-- Skype for Business Server 会議を展開するすべてのプールにダイヤルイン会議を展開する必要があります。 プールごとにアクセス番号を割り当てる必要はありませんが、プールごとにダイヤルイン会議機能を展開する必要があります。 この要件では、ユーザーが1つのプールのアクセス番号を呼び出して、別のプールにある Skype for Business Server の会議に参加するときに記録された名前の機能がサポートされます。 
+- ダイヤルイン会議は、Skype for Business Server 会議を展開するプールごとに展開する必要があります。 プールごとにアクセス番号を割り当てる必要はありませんが、プールごとにダイヤルイン会議機能を展開する必要があります。 この要件は、ユーザーが 1 つのプールからアクセス番号を呼び出して、別のプールで Skype for Business Server 会議に参加する場合に、記録された名前機能をサポートします。 
     
-詳細については、「 [Skype For Business Server でのダイヤルイン会議の計画](dial-in-conferencing.md)」を参照してください。
+詳細については [、「Plan for dial-in conferencing in Skype for Business Server」を参照してください](dial-in-conferencing.md)。
   
 ## <a name="web-conferencing-considerations"></a>Web 会議に関する考慮事項
 
-Web 会議には次のものが必要です。 
+Web 会議には以下が必要です。 
   
 - Web 会議のコンテンツを格納するために使用するファイル ストアへのアクセス。
     
-- 会議中に PowerPoint ファイルを共有するために必要な Office Web Apps サーバー/Office Online Server との統合。
+- 会議中Office PowerPoint ファイルを共有するために必要Office Web Apps サーバー/Office Online Server との統合。
     
 > [!NOTE]
-> Office Web Apps サーバーの最新のイテレーションは、Skype for Business Server でサポートされている Office Online Server と呼ばれています。 詳細については、 [Office Online Server のドキュメント](https://technet.microsoft.com/library/jj219456%28v=office.16%29.aspx)を参照してください。 
+> Web Apps サーバーの最新Officeは、Skype for Business Server Officeサポートされている Office Online Server という名前です。 詳細については、オンライン サーバーのドキュメント [Office参照してください](https://technet.microsoft.com/library/jj219456%28v=office.16%29.aspx)。 
   
-Skype for Business Server には、Office Web Apps サーバーまたは Office Online Server を構成するための次のような方法が用意されています。 必要に応じて次のことができます。
+Skype for Business Server では、Web Apps サーバー/Office Online Server を構成Office方法を提供します。 必要に応じて次のことができます。
   
-- **組織のファイアウォールの背後にあるオンプレミスの Skype for Business Server と Office Web Apps サーバーまたは Office Online Server の両方を、同じネットワークゾーンにインストールします。** このトポロジでは、Office Web Apps サーバーまたは Office Online Server への外部アクセスはリバースプロキシサーバー経由で提供されます。 理想的には、Office Web Apps サーバー/Office Online Server を Skype for Business Server と同じネットワークゾーンにインストールすることをお勧めします。
+- **Skype for Business Server と Office Web Apps サーバー/Office Online Server の両方を組織のファイアウォールの背後と同じネットワーク ゾーンにインストールします。** このトポロジでは、リバース プロキシ サーバー Office Web Apps サーバー/Office Web Apps サーバーへの外部アクセスが提供されます。 Skype for Business Server と同Officeネットワーク ゾーンOffice Web Apps サーバー/Office Web Apps サーバーをインストールする必要があります。
     
-    外部の Skype for Business クライアントは、リバースプロキシサーバーを使用して Skype for Business Server および Office Web Apps サーバー/Office Online Server に接続することができます。これは、インターネットからの要求を受けて内部ネットワークに転送するサーバーです。 (内部クライアントは、Office Web Apps サーバー/Office Online Server に直接接続できるため、リバースプロキシサーバーを使用する必要はありません)。このトポロジは、Skype for Business Server のみで使用される専用の Office Web Apps サーバーまたは Office Online Server ファームを使用する場合に最適に機能します。
+    外部の Skype for Business クライアントは、リバース プロキシ サーバー (インターネットからの要求を受け取って内部ネットワークに転送するサーバー) を使用して、Skype for Business Server および Office Web Apps サーバー/Office Online Server に接続できます。 (内部クライアントは直接 Web Apps サーバー/Office Online Server に接続Officeリバース プロキシ サーバーを使用する必要があります)。このトポロジは、Skype for Business Server でのみ使用される Office Web Apps サーバー/Office Online Server ファームを使用する場合に最適です。
     
-- **外部に展開された Office Web Apps サーバーまたは Office Online Server を使用します。** このトポロジでは、Skype for Business Server がオンプレミスで展開されており、Skype for business Server ネットワークゾーンの外側に展開されている Office Web Apps サーバーまたは Office Online Server を使用します。 これは、Office Web Apps サーバーまたは Office Online Server が企業内の複数のアプリケーション間で共有されており、Skype for Business Server が Office Web Apps サーバー/Office Online Server の外部インターフェイスを使用する必要があるネットワークに展開されている場合に発生する可能性があります。
+- **外部に展開された Web Apps Office Web Apps サーバー/Office Online Server を使用します。** このトポロジでは、Skype for Business Server はオンプレミスに展開され、Skype for Business Server ネットワーク ゾーンの外部に展開される Office Web Apps サーバー/Office Online Server を使用します。 これは、Office Web Apps サーバー/Office Online Server が企業内の複数のアプリケーション間で共有され、Skype for Business Server が Office Web Apps サーバー/Office Online Server の外部インターフェイスを使用する必要があるネットワークに展開されている場合に発生する可能性があります。
     
-    リバースプロキシサーバーをインストールする必要はありません。その代わりに、Office Web Apps サーバーまたは Office Online Server から Skype for Business Server へのすべての要求が、エッジサーバーを経由してルーティングされます。 内部と外部の Skype for Business の両方のクライアントは、外部 URL を使用して Office Web Apps サーバーまたは Office Online Server に接続します。
+    リバース プロキシ サーバーをインストールする必要は不要です。代わりに、Office Web Apps サーバー/Office Online Server から Skype for Business Server へのすべての要求は、エッジ サーバー経由でルーティングされます。 内部クライアントと外部 Skype for Business クライアントの両方が、外部 URL を使用Office Web Apps サーバー/Office Online Server に接続します。
     
-    Office Web Apps サーバーまたは Office Online Server が内部ファイアウォールの外側に展開されている場合は、[トポロジビルダー] の [ **Office Web Apps サーバーは外部ネットワークに展開され**ます (つまり、境界またはインターネット)] オプションを選択します。
+    Office Web Apps サーバー/Office Online Server が内部ファイアウォールの外側に展開されている場合は、トポロジ ビルダーで Office **Web Apps サーバー** を外部ネットワーク (境界/インターネット) に展開するオプションを選択します。
     
-詳細については、「 [Configure integration With Office Web Apps server In Skype For Business server](../../deploy/deploy-conferencing/office-web-app-server.md)」を参照してください。 
+詳細については [、「Configure integration with Office Web Apps Server in Skype for Business Server 」を参照してください](../../deploy/deploy-conferencing/office-web-app-server.md)。 
   
-選択するトポロジにかかわらず、ファイアウォールの正しいポートを開くことは重要です。 Office Web Apps サーバーまたは Office Online Server、ロードバランサー、または Skype for Business Server のファイアウォールによって、DNS 名、IP アドレス、およびポートがブロックされないようにする必要があります。
+選択するトポロジにかかわらず、ファイアウォールの正しいポートを開くことは重要です。 Office Web Apps サーバー/Office Online Server、ロード バランサー、または Skype for Business Server のファイアウォールによって DNS 名、IP アドレス、およびポートがブロックされない必要があります。
   
 > [!NOTE]
-> Office Web Apps サーバーまたは Office Online Server への外部アクセスを提供するもう1つの方法は、境界ネットワークにサーバーを展開することです。 これを行う場合は、Office Web Apps サーバー/Office Online Server セットアップでは、サーバーコンピューターが Active Directory ドメインのメンバーである必要があることに注意してください。 ネットワークポリシーによって、境界ネットワーク内のコンピューターが Active Directory ドメインのメンバーになることが許可されていない場合は、境界ネットワークに Office Web Apps サーバーまたは Office Online Server をインストールしないことをお勧めします。 その代わりに、Office Web Apps Server/Office Online Server を内部ネットワークにインストールし、リバースプロキシサーバー経由で外部ユーザーアクセスを提供する必要があります。 
+> Web Apps サーバー/Office Online Server への外部アクセスをOffice別のオプションは、境界ネットワークにサーバーを展開する方法です。 これを行う場合は、Office Web Apps サーバー/Office Online Server のセットアップでは、サーバー コンピューターが Active Directory ドメインのメンバーである必要があります。 ネットワーク ポリシーで境界ネットワーク内のコンピューターを Active Directory ドメイン メンバーに設定できない場合は、境界ネットワークに Office Web Apps サーバー/Office Online Server をインストールしない方が推奨されます。 代わりに、内部ネットワークに Office Web Apps サーバー/Office Online Server をインストールし、リバース プロキシ サーバーを介して外部ユーザー アクセスを提供する必要があります。 
   
-## <a name="topology-requirements-for-large-meetings"></a>大規模会議のトポロジ要件
+## <a name="topology-requirements-for-large-meetings"></a>大規模な会議のトポロジ要件
 
-1つの大規模な会議には、少なくとも1台のフロントエンドサーバーと1台のバックエンドサーバーが必要です。 ただし、高可用性を実現するには、次の図に示すように、バックエンドサーバーがミラー化された2台のフロントエンドサーバープールをお勧めします。
+1 つの大規模な会議には、少なくとも 1 つのフロントエンド サーバーと 1 つのバック エンド サーバーが必要です。 ただし、高可用性を実現するには、次の図に示すように、ミラー化されたバック エンド サーバーを持つ 2 つのフロントエンド サーバー プールをお勧めします。
   
-**大規模会議のトポロジ**
+**大規模会議トポロジ**
 
-![大規模会議のトポロジ](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
+![大規模会議トポロジ](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
-大規模な会議をホストするユーザーは、フロントエンドプールに所属するユーザーアカウントを持っている必要があります。 ただし、このプールに他のユーザー アカウントをホストすることはお勧めしません。 代わりに、大規模な会議にのみ使用します。 ベスト プラクティスは、大規模な会議のホストにのみ使用する特殊なユーザー アカウントをこのプールに作成することです。 大規模な会議の設定はパフォーマンスのために最適化されているため、通常のユーザーとして使用すると、PSTN エンドポイントが関与しているときに、P2P セッションを会議に昇格できないなどの問題が発生する可能性があります。
+大規模な会議をホストするユーザーは、フロントエンド プールにユーザー アカウントを設定する必要があります。 ただし、このプールに他のユーザー アカウントをホストすることはお勧めしません。 代わりに、大規模な会議にのみ使用します。 ベスト プラクティスは、大規模な会議のホストにのみ使用する特殊なユーザー アカウントをこのプールに作成することです。 大規模な会議の設定はパフォーマンスのために最適化されています。このため、通常のユーザーとして使用すると、PSTN エンドポイントが関係する場合に P2P セッションを会議に昇格させる可能性などの問題が発生する可能性があります。
   
-2 つのフロントエンド サーバーでプールを管理するには、特別な考慮が必要です。 詳細については、「Skype for business [server 2015 のトポロジの基本](../../plan-your-deployment/topology-basics/topology-basics.md)」および「 [Skype for business Server 2015 のリファレンストポロジ](../../plan-your-deployment/topology-basics/reference-topologies.md)」を参照してください。
+2 つのフロントエンド サーバーでプールを管理するには、特別な考慮が必要です。 詳細については [、「Topology Basics for Skype for Business Server 2015」](../../plan-your-deployment/topology-basics/topology-basics.md) および [「Reference topologies for Skype for Business Server 2015」](../../plan-your-deployment/topology-basics/reference-topologies.md)を参照してください。
   
-さらに、大規模な会議に使用されているプールに対して、必要に応じて障害回復のバックアップとフェールオーバーを提供する場合は、別のデータセンターに専用プールを設定するのと同じように組み合わせることができます。 詳細については、「 [Plan for high availability and disaster recovery In Skype For Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)」を参照してください。
+また、必要に応じて、大規模な会議に使用されるプールに対して障害復旧のバックアップとフェールオーバーを提供する場合は、別のデータ センターで同様にセットアップされた専用プールとペアリングできます。 詳細については [、「Plan for high availability and disaster recovery in Skype for Business Server 」を参照してください](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
 トポロジについて次のような追加の注意事項があります。
   
-- アーカイブファイルを保存するために、アーカイブサーバーが展開されて有効になっている場合は、会議コンテンツを格納するためにファイル共有が必要です。 ファイル共有は、プール専用にすることも、プールが展開されているサイトの別のプールで使用されているのと同じファイル共有にすることもできます。 ファイル共有の構成の詳細については、「 [Create a file share In Skype For Business Server 2015](../../deploy/install/create-a-file-share.md)」を参照してください。
+- 会議コンテンツを保存するにはファイル共有が必要です。また、アーカイブ サーバーが展開され有効になっている場合は、アーカイブ ファイルを保存するために必要です。 ファイル共有は、プール専用にすることも、プールが展開されているサイトの別のプールで使用されているのと同じファイル共有にすることもできます。 ファイル共有の構成の詳細については [、「Skype for Business Server 2015](../../deploy/install/create-a-file-share.md)でファイル共有を作成する」を参照してください。
     
-- 大規模な会議で PowerPoint プレゼンテーション機能を有効にするには、Office Web Apps サーバーまたは Office Online Server が必要です。 Office Web Apps Server/Office Online Server は、大規模な会議プール専用にすることも、専用プールを展開しているサイトの他のプールが使用する Office Web Apps サーバー/Office Online Server と同じにすることもできます。 詳細については、「 [Configure integration With Office Web Apps server In Skype For Business server](../../deploy/deploy-conferencing/office-web-app-server.md)」を参照してください。 
+- 大規模Officeで PowerPoint Office機能を有効にするには、Web Apps サーバーまたは Web Apps サーバーを使用する必要があります。 Office Web Apps サーバー/Office Online Server は、大規模な会議プール専用にすることもできますし、専用プールが展開されているサイトの他のプールで使用されるのと同じ Office Web Apps サーバー/Office Online Server にすることもできます。 詳細については [、「Configure integration with Office Web Apps Server in Skype for Business Server 」を参照してください](../../deploy/deploy-conferencing/office-web-app-server.md)。 
     
-- フロントエンドサーバーの負荷分散では、HTTP トラフィック (会議コンテンツのダウンロードなど) にハードウェア負荷分散が必要になります。 SIP トラフィックには DNS 負荷分散をお勧めします。 詳細については、「 [Skype For business の負荷分散の要件」を](../../plan-your-deployment/network-requirements/load-balancing.md)参照してください。 
+- フロントエンド サーバーの負荷分散では、HTTP トラフィック (会議コンテンツのダウンロードなど) にハードウェア負荷分散が必要です。 SIP トラフィックには DNS 負荷分散をお勧めします。 詳細については [、Skype for Business の負荷分散要件を参照してください](../../plan-your-deployment/network-requirements/load-balancing.md)。 
     
-- 専用の大規模会議プールに対して監視サーバーを使用する場合は、Skype for Business Server 展開のすべてのフロントエンドサーバープールで共有されている監視サーバーとデータベースを使用することをお勧めします。 詳細については、「 [Skype For Business Server で監視を計画する](../../plan-your-deployment/monitoring.md)」を参照してください。
+- 専用の大規模会議プールに監視サーバーを使用する場合は、Skype for Business Server 展開内のすべてのフロントエンド サーバー プールで共有される監視サーバーとそのデータベースを使用することをお勧めします。 詳細については [、「Skype for Business Server での監視の計画」を参照してください](../../plan-your-deployment/monitoring.md)。
     
 

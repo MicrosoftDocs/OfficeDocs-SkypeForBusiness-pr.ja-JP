@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 2015 の CallPriorities 度表
+title: Skype for Business Server 2015 の CallPriorities テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
-description: CallPriorities 度テーブルは、"緊急"、"緊急"、"標準" などの、可能な呼び出しの優先順位の一覧を保存する静的テーブルです。
-ms.openlocfilehash: 57ab4c2b190b14d26a7f8be1791eb70473f1eb3c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: CallPriorities テーブルは、"emergency"、"urgent"、"normal" など、可能な通話優先度のリストを格納する静的テーブルです。
+ms.openlocfilehash: 54fdd70dcd939cfeb227862d6152577c4c91d3b3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815445"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813437"
 ---
-# <a name="callpriorities-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の CallPriorities 度表
+# <a name="callpriorities-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の CallPriorities テーブル
  
-CallPriorities 度テーブルは、"緊急"、"緊急"、"標準" などの、可能な呼び出しの優先順位の一覧を保存する静的テーブルです。
+CallPriorities テーブルは、"emergency"、"urgent"、"normal" など、可能な通話優先度のリストを格納する静的テーブルです。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**優先順位 Id** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**[Priority]** <br/> |nvarchar(256)  <br/> || 許可される値: <br/>  0-不明 <br/>  1-緊急以外 <br/>  2-標準 <br/>  3-緊急 <br/>  4-緊急 <br/> |
+|**PriorityId** <br/> |tinyint  <br/> |Primary  <br/> ||
+|**[優先度]** <br/> |nvarchar(256)  <br/> || 有効な値は次のとおりです。 <br/>  0 - 不明 <br/>  1 - 非緊急 <br/>  2 -- 通常 <br/>  3 -- 至急 <br/>  4 -- 緊急 <br/> |
    
 

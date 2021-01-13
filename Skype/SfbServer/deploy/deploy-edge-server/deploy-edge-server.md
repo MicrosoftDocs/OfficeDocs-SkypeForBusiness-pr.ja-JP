@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server でエッジサーバーを展開する
+title: Skype for Business Server でのエッジ サーバーの展開
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,38 +14,38 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
-description: '概要: エッジサーバーまたはエッジプールを Skype for Business Server 環境に展開する方法について説明します。'
-ms.openlocfilehash: ca0fba35165c05ab9cdf6010c3c5dd076ec1ea5b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '概要: Skype for Business Server 環境にエッジ サーバーまたはエッジ プールを展開する方法について学習します。'
+ms.openlocfilehash: edd2ff501320c4252b8032d1528ede7b83b8fcd6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768320"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804387"
 ---
-# <a name="deploy-edge-server-in-skype-for-business-server"></a>Skype for Business Server でエッジサーバーを展開する
+# <a name="deploy-edge-server-in-skype-for-business-server"></a>Skype for Business Server でのエッジ サーバーの展開
  
-**概要:** エッジサーバーまたはエッジプールを Skype for Business Server 環境に展開する方法について説明します。
+**概要:** Skype for Business Server 環境にエッジ サーバーまたはエッジ プールを展開する方法について学習します。
   
-エッジサーバーまたはエッジプールを Skype for Business Server 環境に展開する理由 組織の内部ネットワークにログインしていない外部ユーザーが内部ユーザーとやり取りできるようにする必要がある場合は、この方法が必要です。 これらの外部ユーザーは、認証されたリモートユーザー、フェデレーションパートナー、またはその他のモバイルクライアントを認証することができます。
+Skype for Business Server 環境にエッジ サーバーまたはエッジ プールを展開する理由 組織の内部ネットワークにログインしていない外部ユーザーが内部ユーザーと対話できる必要がある場合に必要です。 これらの外部ユーザーは、認証された匿名リモート ユーザー、フェデレーション パートナー、または他のモバイル クライアントである可能性があります。
   
-## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>エッジの展開チェックリスト (Skype for Business Server の場合)
+## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Skype for Business Server 向けエッジの展開チェックリスト
 
-上で説明したように、Skype for Business Server 向けの Edge Server 展開には多くのものが含まれています。 このチェックリストは、実行する必要があるタスクの概要と、より詳細な手順へのリンクを示します。
+上で説明したように、多くの場合、Skype for Business Server のエッジ サーバーの展開に取り組む必要があります。 このチェックリストでは、実行する必要があるタスクの概要と、より詳細な手順へのリンクを示します。
   
-「 [Skype For Business server で Edge server を展開するための計画](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)」を開始することを願っています。 それ以外の場合は、ここで参照する多くの事項について、以下で詳細に説明します。 展開に関するセクションには手順のみが掲載されているため、それらの手順の背後にある理由を知りたいと考える場合は、計画から読み始めるのが適切です。
+「Plan [for Edge Server deployments in Skype for Business Server」セクションで始まったらと思](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) います。 参照されていない場合は、参照する多くの情報について詳しく説明します。 展開セクションには手順だけが含まれているので、これらの手順の背後にある理由を知りたい場合は、計画を立て始める必要があります。
   
-このドキュメントは、Skype for Business Server の基本的な展開を既に完了していることを前提としています。 この展開を Edge と並行して実行することもありますが、これらの手順を最初に実行する必要があります。その後で、ここに記載されているエッジのトポロジを変更できるようになります。
+このドキュメントでは、Skype for Business Server の基本展開が既に完了している場合も仮定しています。 その展開をエッジと並べて実行している可能性がありますが、最初にこれらの手順を実行する必要があります。次に、ここに記載されているエッジのトポロジを変更できます。
   
-これらは、実行する必要のある手順に関する概要の一覧であり、これらの手順に関する詳細は、参照先に掲載されています。
+以下に、従う必要がある大きな手順と、それらの手順を見つける場所を示します。
   
-- [Skype for Business Server での Edge Server システム要件](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+- [Skype for Business Server のエッジ サーバーのシステム要件](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
     
-- [Skype for Business Server での Edge Server の環境要件](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
+- [Skype for Business Server のエッジ サーバーの環境要件](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
     
-- [Skype for Business Server の Edge トポロジを作成する](create-your-edge-topology.md)
+- [Skype for Business Server のエッジ トポロジを作成する](create-your-edge-topology.md)
     
-- [Skype for Business Server でエッジサーバーを展開する](deploy-edge-servers.md)
+- [Skype for Business Server でのエッジ サーバーの展開](deploy-edge-servers.md)
     
-- [Skype for Business Server での Edge の展開を検証する](validate-edge-deployment.md)
+- [Skype for Business Server でのエッジ展開の検証](validate-edge-deployment.md)
     
 
