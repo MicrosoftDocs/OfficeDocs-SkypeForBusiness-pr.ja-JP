@@ -1,8 +1,8 @@
 ---
-title: 共有コンポーネント スコープ ノード
+title: 共有コンポーネントのスコープ ノード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,28 +14,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
-description: トポロジビルダーの階層ツリーで共有コンポーネントを右クリックして、新しい共有コンポーネントを作成するか、または [トポロジレベル] オプションにアクセスします。
-ms.openlocfilehash: 92562bc41967d80e1db74ce391cd6b8f8cc0e4cf
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: トポロジ ビルダー階層ツリーで共有コンポーネントを右クリックして、新しい共有コンポーネントを作成するか、トポロジ レベルのオプションにアクセスします。
+ms.openlocfilehash: 1f03a498f92f72b9546be2eb0703e8b7022770b4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796526"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800737"
 ---
-# <a name="shared-components-scope-node"></a>共有コンポーネント スコープ ノード
+# <a name="shared-components-scope-node"></a>共有コンポーネントのスコープ ノード
  
-トポロジビルダーの階層ツリーで**共有コンポーネント**を右クリックして、新しい共有コンポーネントを作成するか、または [トポロジレベル] オプションにアクセスします。
+トポロジ ビルダー階層ツリー **で共有コンポーネント** を右クリックして、新しい共有コンポーネントを作成するか、トポロジ レベルのオプションにアクセスします。
   
-![共有コンポーネント スコープ ノード](../../../media/Shared_Components_Scope_Node.jpg)
+![共有コンポーネントのスコープ ノード](../../../media/Shared_Components_Scope_Node.jpg)
   
-[**新規**] を選択して、新しい filestore、新しい IP/PSTN ゲートウェイ、新しい Office Web Apps サーバー、新しい SQL Server ストア、または新しいトランクを作成します。
+[ **新規]** を選択して、新しいファイルストア、新しい IP/PSTN ゲートウェイ、新しい Office Web Apps サーバー、新しい SQL Server ストア、または新しいトランクを作成します。
   
 > [!NOTE]
-> 各オプションのヘルプトピックを参照してください。 
+> これらの各オプションのヘルプ トピックを参照してください。 
   
-![共有コンポーネント スコープ ノード](../../../media/Shared_Components_Scope_NodeB.jpg)
+![共有コンポーネントのスコープ ノード](../../../media/Shared_Components_Scope_NodeB.jpg)
   
-[**トポロジ**] を選択して、新しいトポロジドキュメントを開くためのオプションをクリックします。 既存のトポロジドキュメントを開き、中央管理ストアから現在のトポロジをダウンロードし、現在のトポロジドキュメントのコピーを保存し、現在のトポロジドキュメントを公開し、データベースをインストールして、現在構成されているデータベース構成を作成します。Office Communications Server 2007 R2 を現在の展開にマージするか、展開を削除します。
+[トポロジ] **を選択** してオプションをクリックし、新しいトポロジ ドキュメントを開きます。 既存のトポロジ ドキュメントを開く、中央管理ストアから現在のトポロジをダウンロードする、現在のトポロジ ドキュメントのコピーを保存する、現在のトポロジ ドキュメントを公開する、データベースをインストールして現在構成されているデータベース構成を作成する、Office Communications Server 2007 R2 を現在の展開にマージする、または展開を削除する。
   
 ![共有コンポーネント スコープ ノード C](../../../media/Shared_Components_Scope_NodeC.jpg)
   

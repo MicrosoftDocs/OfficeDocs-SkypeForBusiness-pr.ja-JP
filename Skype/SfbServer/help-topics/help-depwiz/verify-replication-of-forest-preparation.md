@@ -1,8 +1,8 @@
 ---
 title: フォレスト準備のレプリケーションの確認
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,27 +14,27 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
-description: グローバルカタログの複製と、フォレストの準備中のオブジェクトの作成が正常に完了したことを確認するには、次の操作を行います。
-ms.openlocfilehash: 5f02707b8a98ec9869aa2b2b4d867bb45351371b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: フォレストの準備中にグローバル カタログのレプリケーションとオブジェクトの作成が正常に行されたことを確認するには、次の手順を実行します。
+ms.openlocfilehash: 010cf3fbadf8e07b4ccb80c33c34057024dde896
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823281"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800557"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>フォレスト準備のレプリケーションの確認
  
-グローバルカタログの複製と、フォレストの準備中のオブジェクトの作成が正常に完了したことを確認するには、次の操作を行います。
+フォレストの準備中にグローバル カタログのレプリケーションとオブジェクトの作成が正常に行されたことを確認するには、次の手順を実行します。
   
-1. フォレストの準備を実行したフォレスト内のドメイン コントローラー (他のドメイン コントローラーからリモート サイトにあるドメイン コントローラーを推奨) で、[**Active Directory ユーザーとコンピューター**] を開きます。
+1. ドメイン コントローラー (他のドメイン コントローラーからのリモート サイトが望ましい) で、フォレストの準備が実行されたフォレストで、Active Directory ユーザーとコンピューター **を開きます**。
     
-2. [**Active Directory ユーザーとコンピューター**] で、フォレストまたは子ドメインのドメイン名を展開します。
+2. **[Active Directory ユーザーとコンピューター]** で、フォレストまたは子ドメインのドメイン名を展開します。
     
-3. 左側のウィンドウで [**ユーザー** ] コンテナーをクリックし、右側のウィンドウでユニバーサルグループ csadministrator を探します。 CsAdministrator (Cs で始まる8つの新しいユニバーサルグループの一部) が表示されている場合は、フォレストの準備の複製が正常に完了しています。
+3. 左側の **ウィンドウで Users** コンテナーをクリックし、右側のウィンドウでユニバーサル グループ CsAdministrator を探します。 CsAdministrator (Cs で始まる他の 8 つの新しいユニバーサル グループ間) が存在する場合、フォレストの準備のレプリケーションは成功しています。
     
-4. グループがまだ存在していない場合は、複製を強制するか、15分間待ってから右側のウィンドウを更新することができます。 グループが表示されている場合、レプリケーションは完了しています。
+4. グループが表示されていない場合、レプリケーションを強制的に実行するか、15 分待ってから右側のウィンドウを更新することができます。グループが表示されている場合、レプリケーションは完了しています。
     
 > [!TIP]
-> Skype for Business Server 展開ウィザードによって作成されたログファイルを確認する場合は、その手順を実行した Active Directory ドメインサービスユーザーの Users ディレクトリで展開ウィザードが実行されているコンピューターで見つけることができます。 たとえば、ユーザーがドメイン Contoso.net のドメイン管理者としてログインしている場合、ログファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp にあります。 
+> Skype for Business Server 展開ウィザードによって作成されたログ ファイルを確認する場合は、展開ウィザードが実行されたコンピューターの手順を実行した Active Directory ドメイン サービス ユーザーの Users ディレクトリでログ ファイルを見つける必要があります。 たとえば、ユーザーがドメイン Contoso.net でドメイン管理者としてログインした場合、ログ ファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp にあります。 
   
 

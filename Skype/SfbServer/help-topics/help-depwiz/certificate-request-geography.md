@@ -1,8 +1,8 @@
 ---
 title: 証明書要求 (地理)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
-description: '[地理情報] ページでは、証明書の要求に関する追加情報を要求します。 このページで、[国] を選択し、テキストボックスに都道府県/州と市区町村を入力します。 略語は使用しないことに注意してください。都道府県と市区町村/地域の完全な名前を指定する必要があります。'
-ms.openlocfilehash: 00893cb38782e8018fd0c12eef35d2529f3d087d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[地理情報] ページでは、証明書要求についての追加情報の入力を要求されます。 このページでは、[国] を選択し、テキスト ボックスに [都道府県] と [市区町村] を入力します。 都道府県名と市区町村名は、略称を使用せず、完全な名称を入力してください。'
+ms.openlocfilehash: 89dd04242de1f7b26cf8da2e98e339b0ea8bb719
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823861"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805287"
 ---
 # <a name="certificate-request-geography"></a>証明書要求 (地理)
  
-[**地理情報**] ページでは、証明書の要求に関する追加情報を要求します。 このページで、[**国**] を選択し、テキストボックスに**都道府県/州**と**市区町村**を入力します。 略語は使用しないことに注意してください。都道府県と市区町村/地域の完全な名前を指定する必要があります。
+[**地理情報**] ページでは、証明書要求についての追加情報の入力を要求されます。このページでは、[**国**] を選択し、テキスト ボックスに [**都道府県**] と [**市区町村**] を入力します。都道府県名と市区町村名は、略称を使用せず、完全な名称を入力してください。
   
 

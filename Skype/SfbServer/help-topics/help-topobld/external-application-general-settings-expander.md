@@ -1,8 +1,8 @@
 ---
 title: 外部アプリケーション全般設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 既に定義されている信頼済みアプリケーション サーバーのプロパティを編集するには、以下の操作を行います。
-ms.openlocfilehash: 9a9ed62040724d08ebcd711551cd1ce6e831d683
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 55f6bfee68370f8f341080e54953120e48f628f8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218138"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804767"
 ---
 # <a name="external-application-general-settings-expander"></a>外部アプリケーション全般設定エキスパンダー
  
@@ -40,10 +40,10 @@ ms.locfileid: "48218138"
   
 ## <a name="next-hop-settings"></a>次ホップ設定
 
-信頼済みアプリケーションサーバープールの次ホップサーバーを指定するには、定義済みの Enterprise Edition フロントエンドプールまたは Standard Edition フロントエンドサーバーをドロップダウンリストから選択します。 ディレクターまたはディレクター プールは、信頼されたアプリケーション サーバーの次ホップとしては有効な選択肢ではないため、リストに表示されません。
+ドロップダウン リストから定義済みの Enterprise Edition フロントエンド プールまたは Standard Edition フロントエンド サーバーを選択して、信頼済みアプリケーション サーバー プールの次ホップ サーバーを指定できます。 ディレクターまたはディレクター プールは、信頼されたアプリケーション サーバーの次ホップとしては有効な選択肢ではないため、リストに表示されません。
   
 
 
-[ **OK]** をクリックして変更を受け入れ、保存します。 変更を破棄してプロパティ ページを終了するには、**[キャンセル]** をクリックします。
+**[OK] を** クリックして変更を受け入れて保存します。 変更を破棄してプロパティ ページを終了するには、**[キャンセル]** をクリックします。
   
 

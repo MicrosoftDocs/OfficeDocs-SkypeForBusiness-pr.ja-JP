@@ -1,8 +1,8 @@
 ---
 title: PayloadDescription テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c49d61c0-305a-4770-a5d2-5d9f05decc6d
-description: PayloadDescription テーブルは、サポートテーブルです。 各レコードは、オーディオセッションまたはビデオセッションで使用される1つのコーデックを表します。
-ms.openlocfilehash: 3a5719d7fbfe23eb8c1457565a36df0a02617fde
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: PayloadDescription テーブルは、サポート テーブルです。 各レコードが、音声セッションまたはビデオ セッションで使用される 1 つのコーデックを表します。
+ms.openlocfilehash: c9476aea28993a053096a095469d2d4e13251581
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807495"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806297"
 ---
 # <a name="payloaddescription-table"></a>PayloadDescription テーブル
  
-PayloadDescription テーブルは、サポートテーブルです。 各レコードは、オーディオセッションまたはビデオセッションで使用される1つのコーデックを表します。
+PayloadDescription テーブルは、サポート テーブルです。各レコードが、音声セッションまたはビデオ セッションで使用される 1 つのコーデックを表します。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|

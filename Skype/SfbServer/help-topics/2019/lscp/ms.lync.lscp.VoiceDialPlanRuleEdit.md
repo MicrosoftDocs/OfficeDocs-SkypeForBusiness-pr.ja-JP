@@ -1,8 +1,8 @@
 ---
-title: 正規化ルールの新規作成または既存の編集
+title: 正規化ルールの作成 (新規) または [既存の編集]
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: b59ca267e29a31ab9e459782bfaac2eac53e120c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: c6d8026bf8f34fb7a55a9fc2fcc1bef05b9222c3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797844"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801337"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>正規化ルール: 新規作成または現在の形式のままで編集
 
@@ -28,7 +28,7 @@ ms.locfileid: "41797844"
 
 - [Skype for Business で正規化ルールを作成または変更する](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [正規化ルールを手動で作成または変更する](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [手動による正規化ルールの作成または変更](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
 
 

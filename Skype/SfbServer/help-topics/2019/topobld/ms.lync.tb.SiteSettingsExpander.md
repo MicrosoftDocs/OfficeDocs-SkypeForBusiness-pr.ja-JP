@@ -1,8 +1,8 @@
 ---
 title: Lync Server サイト設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存のサイトのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: a8240030bd05ae865cb54343a460c8be414546a3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 30e11a6b580b80719ffd6f745c7c37edf2cf358e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798294"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805567"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server サイト設定エキスパンダー
 
@@ -30,21 +30,21 @@ ms.locfileid: "41798294"
 
 ## <a name="site-properties"></a>サイトのプロパティ
 
-[サイトのプロパティ] で、サイト名 (必須)、説明 (省略可能)、市区町村 (オプション)、都道府県/州 (オプション)、国/地域コード (オプション) を変更または変更することができます。
+サイトのプロパティでは、サイト名 (必須)、説明 (省略可能)、市区町村 (省略可能)、都道府県 (省略可能)、および 国/地域コード (省略可能) を変更または修正できます。
 
-サイトのプロパティの詳細については、「[トポロジにブランチサイトを追加する](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)」を参照してください。
+サイトのプロパティの詳細については、「[Add Branch Sites to Your Topology](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)」を参照してください。
 
-## <a name="federation-route-properties"></a>フェデレーションルートのプロパティ
+## <a name="federation-route-properties"></a>フェデレーション ルートのプロパティ
 
-サイトフェデレーションルートの割り当てを設定するには、まず、エッジサーバーまたはエッジサーバープールでフェデレーションを有効にする必要があります。 エッジサーバーまたはプールでフェデレーションが有効になっていない場合は、サイトのフェデレーションルートの割り当て設定を変更できません。
+サイトのフェデレーション ルートの割り当てを設定するには、最初にエッジ サーバーまたはエッジ サーバー プールでフェデレーションを有効にする必要があります。 エッジ サーバーまたはプールでフェデレーションが有効になっていない場合、サイトのフェデレーション ルートの割り当てを変更できません。
 
-エッジサーバーまたはプールでフェデレーション設定が構成されている場合は、サイトレベルで [**有効**] を選びます。 次に、ドロップダウンリストから、フェデレーションルートとして設定するエッジまたはディレクターを選択します。
+エッジ サーバーまたはプールのフェデレーション設定が構成されている場合は、サイトレベルで [有効にする] を選択します。 次に、ドロップダウン リストからエッジまたはディレクターを選択し、フェデレーション ルートとして設定します。
 
 > [!CAUTION]
-> この設定は、すべてのサイトに影響します。 このサイトで構成する設定は、すべてのサイトに対して適切であることを確認してください。
+> この設定はすべてのサイトに影響します。 このサイトで構成している設定がすべてのサイトに適切であることを確認してください。
 
 ## <a name="see-also"></a>関連項目
 
-詳細については、「[外部ユーザーアクセスのトポロジ](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)」を参照してください。
+詳細については、「[Topologies for External User Access](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)」を参照してください。
 
 

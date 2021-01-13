@@ -1,8 +1,8 @@
 ---
 title: スキーマ パーティションのレプリケーションの確認
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,34 +14,34 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
-description: Active Directory ドメインサービスフォレストでスキーマ拡張が正常にレプリケートされたことを確認するには、次の手順を実行します。
-ms.openlocfilehash: 9a4b5ecde4b1f8912af12fb736858879e5f458ba
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: スキーマ拡張機能が Active Directory ドメイン サービス フォレストに正常にレプリケートされたことを確認するには、次の手順を実行します。
+ms.openlocfilehash: 4e4bfdf4fb50366f831f029d8f331551ba906969
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794746"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801567"
 ---
 # <a name="verify-replication-of-schema-partition"></a>スキーマ パーティションのレプリケーションの確認
  
-Active Directory ドメインサービスフォレストでスキーマ拡張が正常にレプリケートされたことを確認するには、次の手順を実行します。
+スキーマ拡張機能が Active Directory ドメイン サービス フォレストに正常にレプリケートされたことを確認するには、次の手順を実行します。
   
-1. Active Directory ドメインサービスフォレストのドメインコントローラー (スキーママスターの役割を保持しているドメインコントローラー以外) にログオンします。ここでは、スキーマの拡張機能が Enterprise Admins グループのメンバーとして適用されています。
+1. スキーマ拡張機能が Enterprise Admins グループのメンバーとして適用された Active Directory ドメイン サービス フォレスト内のドメイン コントローラー (スキーマ マスターの役割を持つドメイン コントローラー以外) にログオンします。
     
-2. ADSI の編集を開く: [**スタート**] をクリックし、[**管理ツール**] をクリックして、[ **adsi の編集**] をクリックします。
+2. [**スタート**] をクリックして [**管理ツール**] をクリックし、[**ADSI エディター**] をクリックして ADSI エディターを開きます。
     
     > [!TIP]
-    > または、[**スタート**] をクリックし、[**実行**] をクリックします。次に、「 **adsiedit** 」と入力して ADSI エディターを起動します。
+    > または [**スタート**] をクリックして [**ファイル名を指定して実行**] をクリックし、「**adsiedit.msc**」と入力して ADSI エディターを起動します。
   
-3. Microsoft 管理コンソール (MMC) ツリーでまだ選択されていない場合は、[ADSI Edit] をクリックします。
+3. Microsoft 管理コンソール (MMC) ツリーで、まだ選択されていない場合には [ADSI エディタ] をクリックします。
     
-4. [**アクション**] メニューで、[**接続**] をクリックします。
+4. **[アクション]** メニューで、**[接続]** をクリックします。
     
 5. [**接続の設定**] ダイアログ ボックスの [**既知の名前付けコンテキストを選択する**] で、[**スキーマ**] を選択して [**OK**] をクリックします。
     
-6. スキーマ コンテナーで、CN=ms-RTC-SIP-SchemaVersion を検索します。 このオブジェクトが存在し、 **Rangeupper**属性の値が1150であり、 **rangeupper**属性の値が3の場合は、スキーマが正常に更新され、複製されています。 このオブジェクトが存在しない場合、または**Rangeupper**属性と**rangeupper**属性の値が指定されていない場合は、スキーマが変更されていないか、複製されていません。
+6. スキーマ コンテナーで、CN=ms-RTC-SIP-SchemaVersion を検索します。このオブジェクトが存在し、**rangeUpper** 属性の値が 1150 で、**rangeLower** 属性の値が 3 の場合、スキーマは正しく更新され、レプリケートされています。このオブジェクトが存在しないか、**rangeUpper** および **rangeLower** 属性の値が指定された値と異なる場合、スキーマは変更されていないか、レプリケートされていません。
     
 > [!NOTE]
-> スキーマの複製を確認しても正常な複製が表示されない場合は、約15分待ってからもう一度確認してください。 Active Directory のレプリケーションは、緩やかな一貫性モデルに基づいており、サーバーとインフラストラクチャのさまざまな要因に基づいて、いくつかのレプリケーション待ち時間が発生する可能性があります。 
+> スキーマのレプリケーションが成功したことを確認できなかった場合は、およそ 15 分待ってからもう一度確認してください。 Active Directory レプリケーションは、緩やかな一貫性モデルに基づいており、サーバーとインフラストラクチャの多くの要因に基づいて、一部のレプリケーション遅延が発生する可能性があります。 
   
 

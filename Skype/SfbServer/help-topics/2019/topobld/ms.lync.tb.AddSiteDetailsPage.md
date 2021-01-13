@@ -1,8 +1,8 @@
 ---
-title: サイトの詳細の追加
+title: サイトの詳細を追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c34def73-c5a1-4e89-80c2-f2c6cd654924
 ROBOTS: NOINDEX, NOFOLLOW
-description: 市区町村、都道府県、国/地域コードなど、サイトの位置情報を指定することができます。 これらのすべての場所の詳細は省略可能です。
-ms.openlocfilehash: ed6f09358fa988fab7e989b33f0f29e7436d72de
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 市区町村、都道府県、または国/地域コードなど、サイトの場所詳細を指定できます。 これらの場所の詳細はすべてオプションです。
+ms.openlocfilehash: 1c6025108361c4b77067541b2ff608a28b1d8d82
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794336"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800907"
 ---
 # <a name="add-site-details"></a>サイトの詳細の追加
  
-市区町村、都道府県、国/地域コードなど、サイトの位置情報を指定することができます。 これらのすべての場所の詳細は省略可能です。
+市区町村、都道府県、または国/地域コードなど、サイトの場所詳細を指定できます。これらの場所の詳細はすべてオプションです。
   
 

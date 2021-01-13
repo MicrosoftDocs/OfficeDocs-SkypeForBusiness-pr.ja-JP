@@ -1,8 +1,8 @@
 ---
-title: Dial-in Conferencing (Planning Tool)
+title: ダイヤルイン会議 (計画ツール)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server のダイヤルイン会議では、サードパーティの電話会議プロバイダーを必要とせずに、公衆交換電話網 (PSTN) 電話を使って、Skype for business Server 会議のオーディオ部分に参加することができます。
-ms.openlocfilehash: fb992a77d2cdd4b80fd7d1e946b6b0580bedc79f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Skype for Business Server ダイヤルイン会議を使用すると、ユーザーは、サードパーティの電話会議プロバイダーを使用することなく、公衆交換電話網 (PSTN) 電話を使用して、Skype for Business Server 会議のオーディオ部分に参加できます。
+ms.openlocfilehash: 3db6869688b2db05fb3d4bca416cb520f1560abd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797348"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801107"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
+# <a name="dial-in-conferencing-planning-tool"></a>ダイヤルイン会議 (計画ツール)
  
-Skype for Business Server のダイヤルイン会議では、サードパーティの電話会議プロバイダーを必要とせずに、公衆交換電話網 (PSTN) 電話を使って、Skype for business Server 会議のオーディオ部分に参加することができます。
+Skype for Business Server ダイヤルイン会議を使用すると、ユーザーは、サードパーティの電話会議プロバイダーを使用することなく、公衆交換電話網 (PSTN) 電話を使用して、Skype for Business Server 会議のオーディオ部分に参加できます。
   
-組織でダイヤルイン会議を実現するための詳細を計画する方法については、以下のトピックおよび関連トピックを参照してください。 
+組織でダイヤルイン会議を有効にする方法の詳細については、以下のトピックとリンク先のトピックを参照してください。 
   
 - [Skype for Business Server での会議の計画](../../../plan-your-deployment/conferencing/conferencing.md)
     
