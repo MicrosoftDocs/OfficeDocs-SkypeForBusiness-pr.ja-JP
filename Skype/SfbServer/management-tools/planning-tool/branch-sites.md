@@ -1,27 +1,28 @@
 ---
-title: Branch Sites (Planning Tool)
+title: ブランチ サイト (計画ツール)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.BranchOffice
+- ms.lync.plan.BranchOffice
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
-description: ブランチサイトの回復性の詳細については、「ブランチサイトの音声回復性の計画」を参照してください。
-ms.openlocfilehash: f8c65309ad04eac4367f3d17957a548bdb7e4757
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ブランチ サイトの復元の詳細については、「Planning for Branch-Site Voice Resiliency」を参照してください。
+ms.openlocfilehash: 602277a1006bd10d8f851e90cd38af7c78d56b9a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816516"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835027"
 ---
-# <a name="branch-sites-planning-tool"></a><span data-ttu-id="e8b97-103">Branch Sites (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="e8b97-103">Branch Sites (Planning Tool)</span></span>
+# <a name="branch-sites-planning-tool"></a><span data-ttu-id="fb01d-103">ブランチ サイト (計画ツール)</span><span class="sxs-lookup"><span data-stu-id="fb01d-103">Branch Sites (Planning Tool)</span></span>
 
-<span data-ttu-id="e8b97-104">ブランチサイトの回復性の詳細については、「[ブランチサイトの音声回復性の計画](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e8b97-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
+<span data-ttu-id="fb01d-104">ブランチ サイトの復元の詳細については [、「Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="fb01d-104">For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).</span></span>
 
 

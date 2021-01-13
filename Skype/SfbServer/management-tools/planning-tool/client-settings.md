@@ -1,27 +1,28 @@
 ---
-title: Client Settings (Planning Tool)
+title: クライアント設定 (計画ツール)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- ms.lync.plan.ClientCapacity
+- ms.lync.plan.ClientCapacity
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
-description: Skype for Business Server 2015 のモバイル機能は、モバイルデバイスでの Skype for Business の機能をサポートしています。 詳細については、「Planning for Mobility」を参照してください。
-ms.openlocfilehash: d6bde873eedb051ccde9fedf11fcaff2415a15ed
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server 2015 のモビリティ機能は、モバイル デバイスでの Skype for Business 機能をサポートしています。 詳細については、「Planning for Mobility」を参照してください。
+ms.openlocfilehash: 1cda331a7d99bd22c73d3d0c75d43555292c1394
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816506"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834977"
 ---
-# <a name="client-settings-planning-tool"></a><span data-ttu-id="bb40a-104">Client Settings (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="bb40a-104">Client Settings (Planning Tool)</span></span>
+# <a name="client-settings-planning-tool"></a><span data-ttu-id="47fce-104">クライアント設定 (計画ツール)</span><span class="sxs-lookup"><span data-stu-id="47fce-104">Client Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="bb40a-105">Skype for Business Server 2015 のモバイル機能は、モバイルデバイスでの Skype for Business の機能をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="bb40a-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="bb40a-106">詳細については、「[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bb40a-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
+<span data-ttu-id="47fce-105">Skype for Business Server 2015 のモビリティ機能は、モバイル デバイスでの Skype for Business 機能をサポートしています。</span><span class="sxs-lookup"><span data-stu-id="47fce-105">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="47fce-106">詳細については [、「Planning for Mobility」を参照してください](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)。</span><span class="sxs-lookup"><span data-stu-id="47fce-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
 
 

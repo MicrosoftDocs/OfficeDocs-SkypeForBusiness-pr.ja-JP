@@ -1,8 +1,8 @@
 ---
 title: 現在のフォレストの準備
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,34 +14,34 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
-description: Active Directory ドメインサービスフォレストを準備するには、「スキーマの準備を実行する」のトピックで説明されているように、スキーマを正常に拡張し、スキーマがレプリケートされていることを確認する必要があります。
-ms.openlocfilehash: 0458fee54814f7f48382709a0509494e770d3e2b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Active Directory ドメイン サービス フォレストを準備するには、「スキーマの準備を実行する」の説明に従ってスキーマを正常に拡張し、スキーマがレプリケートされたことを確認する必要があります。
+ms.openlocfilehash: 4881cb85134fef81cd741d834f319a76d4028e59
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798314"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833827"
 ---
-# <a name="prepare-current-forest"></a><span data-ttu-id="5aa12-103">現在のフォレストの準備</span><span class="sxs-lookup"><span data-stu-id="5aa12-103">Prepare Current Forest</span></span>
+# <a name="prepare-current-forest"></a><span data-ttu-id="d6a01-103">現在のフォレストの準備</span><span class="sxs-lookup"><span data-stu-id="d6a01-103">Prepare Current Forest</span></span>
 
-<span data-ttu-id="5aa12-104">Active Directory ドメインサービスフォレストを準備するには、「[スキーマの準備を実行](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)する」のトピックで説明されているように、スキーマを正常に拡張し、スキーマがレプリケートされていることを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5aa12-104">To prepare the Active Directory Domain Services forest, you must successfully extend the schema, as described in the topic [Running Schema Preparation](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx), and make sure that the schema has replicated.</span></span>
+<span data-ttu-id="d6a01-104">Active Directory ドメイン サービス フォレストを準備するには、「スキーマの準備の実行」の説明に[](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx)従ってスキーマを正常に拡張し、スキーマがレプリケートされたことを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="d6a01-104">To prepare the Active Directory Domain Services forest, you must successfully extend the schema, as described in the topic [Running Schema Preparation](https://technet.microsoft.com/library/067726ae-fd3f-4133-a32f-26d2603ac674.aspx), and make sure that the schema has replicated.</span></span>
 
-<span data-ttu-id="5aa12-p101">これらの前提条件を満たしたら、[**手順 3: 現在のフォレストの準備**] を開始できます。フォレストを準備するには、フォレスト ルートのコンピューターに、フォレスト ルートの Domain Admins のメンバーとして、または準備しているフォレストの Enterprise Admins のメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="5aa12-p101">After completing these prerequisites, you can begin **Step 3: Prepare Current Forest**. To prepare the forest, log on to a computer in the forest root as a member of Domain Admins in the forest root, or as a member of the Enterprise Admins for the forest that you are preparing.</span></span>
+<span data-ttu-id="d6a01-p101">これらの前提条件を満たしたら、[**手順 3: 現在のフォレストの準備**] を開始できます。フォレストを準備するには、フォレスト ルートのコンピューターに、フォレスト ルートの Domain Admins のメンバーとして、または準備しているフォレストの Enterprise Admins のメンバーとしてログオンします。</span><span class="sxs-lookup"><span data-stu-id="d6a01-p101">After completing these prerequisites, you can begin **Step 3: Prepare Current Forest**. To prepare the forest, log on to a computer in the forest root as a member of Domain Admins in the forest root, or as a member of the Enterprise Admins for the forest that you are preparing.</span></span>
 
-1. <span data-ttu-id="5aa12-107">[**手順 3: 現在のフォレストの準備**] で、展開ウィザードから [**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5aa12-107">From the Deployment Wizard at **Step 3: Prepare Current Forest**, click **Run**.</span></span>
+1. <span data-ttu-id="d6a01-107">[**手順 3: 現在のフォレストの準備**] で、展開ウィザードから [**実行**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d6a01-107">From the Deployment Wizard at **Step 3: Prepare Current Forest**, click **Run**.</span></span>
 
-2. <span data-ttu-id="5aa12-108">[**フォレストの準備**] ページから、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5aa12-108">From the **Prepare Forest** page, click **Next**.</span></span>
+2. <span data-ttu-id="d6a01-108">**[フォレストの準備]** ページから、**[次へ]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d6a01-108">From the **Prepare Forest** page, click **Next**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="5aa12-109">フォレストの準備 Skype for Business Server のユニバーサルグループを配置する場所を選ぶことができます。</span><span class="sxs-lookup"><span data-stu-id="5aa12-109">Forest Preparation enables you to choose where to place the Universal Groups for Skype for Business Server.</span></span> <span data-ttu-id="5aa12-110">組織の要件と一致する配置先を選択してください。</span><span class="sxs-lookup"><span data-stu-id="5aa12-110">Choose a location that is consistent with the requirements of your organization.</span></span>
+    > <span data-ttu-id="d6a01-109">フォレストの準備では、Skype for Business Server のユニバーサル グループの配置先を選択できます。</span><span class="sxs-lookup"><span data-stu-id="d6a01-109">Forest Preparation enables you to choose where to place the Universal Groups for Skype for Business Server.</span></span> <span data-ttu-id="d6a01-110">組織の要件と一致する配置先を選択してください。</span><span class="sxs-lookup"><span data-stu-id="d6a01-110">Choose a location that is consistent with the requirements of your organization.</span></span>
 
-3. <span data-ttu-id="5aa12-p103">[**コマンドを実行しています**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。エラーがないことを確認します。警告を確認して、それらの警告が予期されるものであり、インフラストラクチャにとって通常のものであるかどうかを確認します。</span><span class="sxs-lookup"><span data-stu-id="5aa12-p103">On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**. Make sure that there are no errors. Review the warnings to determine if they are expected and typical for your infrastructure.</span></span>
+3. <span data-ttu-id="d6a01-p103">[**コマンドを実行しています**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。エラーがないことを確認します。警告を確認して、それらの警告が予期されるものであり、インフラストラクチャにとって通常のものであることを確認します。</span><span class="sxs-lookup"><span data-stu-id="d6a01-p103">On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**. Make sure that there are no errors. Review the warnings to determine if they are expected and typical for your infrastructure.</span></span>
 
-4. <span data-ttu-id="5aa12-114">ログの [**アクション**] 列で、[**フォレスト**の準備] を展開して、各タスクの最後の\*\* \<成功\> **の実行結果を確認し、フォレストの準備が正常に完了したことを確認します。次に、[**完了\*\*] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="5aa12-114">Under the **Action** column in the log, expand **Forest Prep**, look for a **\<Success\>** Execution Result at the end of each task to verify that forest preparation completed successfully, close the log, and then click **Finish**.</span></span>
+4. <span data-ttu-id="d6a01-114">ログの **[** アクション] 列で、[**フォレスト** の準備] を展開し、各タスクの最後に実行結果を探して、フォレストの準備が正常に完了したと確認し、ログを閉じて、[完了] をクリックします **\<Success\>** 。 </span><span class="sxs-lookup"><span data-stu-id="d6a01-114">Under the **Action** column in the log, expand **Forest Prep**, look for a **\<Success\>** Execution Result at the end of each task to verify that forest preparation completed successfully, close the log, and then click **Finish**.</span></span>
 
-5. <span data-ttu-id="5aa12-115">Active Directory ドメインサービスのレプリケーションが完了するまで待ちます。または、ドメインの準備を実行する前に、フォレストルートドメインコントローラーの [ **Active Directory サイトとサービス**] スナップインに記載されているすべてのドメインコントローラーに対して強制的にレプリケーションを実行します。</span><span class="sxs-lookup"><span data-stu-id="5aa12-115">Wait for Active Directory Domain Services replication to complete, or force replication to all domain controllers listed in the **Active Directory Sites and Services** snap-in for the forest root domain controller, before running domain preparation.</span></span> <span data-ttu-id="5aa12-116">すべての Active Directory サイトのドメインコントローラー間で強制的にレプリケーションを実行して、サイト内での複製が分単位で行われるようにします。</span><span class="sxs-lookup"><span data-stu-id="5aa12-116">Force replication between the domain controllers in all Active Directory sites to cause replication within the sites to occur within minutes.</span></span>
+5. <span data-ttu-id="d6a01-115">ドメインの準備を実行する前に、Active Directory ドメイン サービスのレプリケーションが完了するまで待機するか、フォレスト ルート ドメイン コントローラーの **Active Directory** サイトとサービス スナップインに一覧表示されているすべてのドメイン コントローラーへのレプリケーションを強制的に実行します。</span><span class="sxs-lookup"><span data-stu-id="d6a01-115">Wait for Active Directory Domain Services replication to complete, or force replication to all domain controllers listed in the **Active Directory Sites and Services** snap-in for the forest root domain controller, before running domain preparation.</span></span> <span data-ttu-id="d6a01-116">サイト内でレプリケーションが数分以内に開始されるよう、すべての Active Directory サイト内のドメイン コントローラ間でレプリケーションを強制的に実行します。</span><span class="sxs-lookup"><span data-stu-id="d6a01-116">Force replication between the domain controllers in all Active Directory sites to cause replication within the sites to occur within minutes.</span></span>
 
     > [!TIP]
-    > <span data-ttu-id="5aa12-117">Skype for Business Server 展開ウィザードによって作成されたログファイルを確認する必要がある場合は、展開ウィザードが実行されているコンピューターで、手順を実行した Active Directory ドメインサービスユーザーの Users ディレクトリで見つけることができます。</span><span class="sxs-lookup"><span data-stu-id="5aa12-117">If you need to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find them on the computer where the Deployment Wizard was run, in the Users directory of the Active Directory Domain Services user who ran the step.</span></span> <span data-ttu-id="5aa12-118">たとえば、ユーザーがドメイン Contoso.net のドメイン管理者としてログインしている場合、ログファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp にあります。</span><span class="sxs-lookup"><span data-stu-id="5aa12-118">For example, if the user logged in as the domain administrator in the domain Contoso.net, the log files are located in: C:\Users\Administrator.Contoso\AppData\Local\Temp</span></span>
+    > <span data-ttu-id="d6a01-117">Skype for Business Server 展開ウィザードによって作成されたログ ファイルを確認する必要がある場合は、展開ウィザードが実行されたコンピューターの手順を実行した Active Directory ドメイン サービス ユーザーの Users ディレクトリでログ ファイルを見つける必要があります。</span><span class="sxs-lookup"><span data-stu-id="d6a01-117">If you need to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find them on the computer where the Deployment Wizard was run, in the Users directory of the Active Directory Domain Services user who ran the step.</span></span> <span data-ttu-id="d6a01-118">たとえば、ユーザーがドメイン Contoso.net でドメイン管理者としてログインした場合、ログ ファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp にあります。</span><span class="sxs-lookup"><span data-stu-id="d6a01-118">For example, if the user logged in as the domain administrator in the domain Contoso.net, the log files are located in: C:\Users\Administrator.Contoso\AppData\Local\Temp</span></span>
 
 

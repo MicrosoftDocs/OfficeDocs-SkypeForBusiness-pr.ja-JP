@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server のコアインフラストラクチャへの脅威への対応
+title: Skype for Business Server のコア インフラストラクチャに対する脅威に対処する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
-description: Skype for Business Server の展開に関するベストプラクティスに加えて、展開の特定の領域でのあらゆるニーズについてレビュー、理解、および対処することにより、セキュリティを確保することができます。
-ms.openlocfilehash: f48eac3393875c7ffbd7be93ca5f1e4568e0021f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server 展開のベスト プラクティスに従うだけでなく、展開の特定の領域におけるニーズを確認、理解、および対応することで、セキュリティの確保に役立ちます。
+ms.openlocfilehash: d959b20bed51e5c496f70cb107f5bd32670b8449
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815705"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832277"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="4963f-103">Skype for Business Server のコアインフラストラクチャへの脅威への対応</span><span class="sxs-lookup"><span data-stu-id="4963f-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="5ac77-103">Skype for Business Server のコア インフラストラクチャに対する脅威に対処する</span><span class="sxs-lookup"><span data-stu-id="5ac77-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
  
-<span data-ttu-id="4963f-104">Skype for Business Server の展開に関するベストプラクティスに加えて、展開の特定の領域でのあらゆるニーズについてレビュー、理解、および対処することにより、セキュリティを確保することができます。</span><span class="sxs-lookup"><span data-stu-id="4963f-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
+<span data-ttu-id="5ac77-104">Skype for Business Server 展開のベスト プラクティスに従うだけでなく、展開の特定の領域におけるニーズを確認、理解、および対応することで、セキュリティの確保に役立ちます。</span><span class="sxs-lookup"><span data-stu-id="5ac77-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="4963f-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="4963f-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5ac77-105">このセクションの内容</span><span class="sxs-lookup"><span data-stu-id="5ac77-105">In this section</span></span>
 
-- [<span data-ttu-id="4963f-106">Skype for Business Server のコアインフラストラクチャのベストプラクティス</span><span class="sxs-lookup"><span data-stu-id="4963f-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
+- [<span data-ttu-id="5ac77-106">Skype for Business Server のコア インフラストラクチャのベスト プラクティス</span><span class="sxs-lookup"><span data-stu-id="5ac77-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
     
 

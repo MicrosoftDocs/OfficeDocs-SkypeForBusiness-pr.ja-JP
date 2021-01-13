@@ -1,8 +1,8 @@
 ---
-title: タスクテーブル
+title: タスク テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a09858b6-d2cd-4d0c-87ef-37aacf733718
-description: タスクテーブルは内部でのみ使用されます。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: e72cf75fbff2574695632125c6f593b83fdf3d7a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: タスク テーブルは内部使用専用です。 この表は、Microsoft Lync Server 2013 で導入されました。
+ms.openlocfilehash: 3d27a0e3d9ba1eb4acb25b493dc268279dbad105
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814865"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831727"
 ---
-# <a name="task-table"></a><span data-ttu-id="cab0d-104">タスクテーブル</span><span class="sxs-lookup"><span data-stu-id="cab0d-104">Task table</span></span>
+# <a name="task-table"></a><span data-ttu-id="0796c-104">タスク テーブル</span><span class="sxs-lookup"><span data-stu-id="0796c-104">Task table</span></span>
  
-<span data-ttu-id="cab0d-105">タスクテーブルは内部でのみ使用されます。</span><span class="sxs-lookup"><span data-stu-id="cab0d-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="cab0d-106">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="cab0d-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="0796c-105">タスク テーブルは内部使用専用です。</span><span class="sxs-lookup"><span data-stu-id="0796c-105">The Task Table is for internal use only.</span></span> <span data-ttu-id="0796c-106">この表は、Microsoft Lync Server 2013 で導入されました。</span><span class="sxs-lookup"><span data-stu-id="0796c-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

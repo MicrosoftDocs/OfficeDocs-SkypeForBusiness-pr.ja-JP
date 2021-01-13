@@ -1,8 +1,8 @@
 ---
 title: QoE データベース クエリのサンプル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
-description: このセクションには、Quality of Experience (QoE) データベースのサンプルクエリが含まれています。
-ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: ここでは、QoE (Quality of Experience) データベースのサンプル クエリを示します。
+ms.openlocfilehash: efc26064e52464ffc2e92e24d5af8dd848368b56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888656"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834367"
 ---
-# <a name="sample-qoe-database-queries"></a><span data-ttu-id="693aa-103">QoE データベース クエリのサンプル</span><span class="sxs-lookup"><span data-stu-id="693aa-103">Sample QoE database queries</span></span>
+# <a name="sample-qoe-database-queries"></a><span data-ttu-id="3ff94-103">QoE データベース クエリのサンプル</span><span class="sxs-lookup"><span data-stu-id="3ff94-103">Sample QoE database queries</span></span>
  
-<span data-ttu-id="693aa-104">このセクションには、Quality of Experience (QoE) データベースのサンプルクエリが含まれています。</span><span class="sxs-lookup"><span data-stu-id="693aa-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
+<span data-ttu-id="3ff94-104">ここでは、QoE (Quality of Experience) データベースのサンプル クエリを示します。</span><span class="sxs-lookup"><span data-stu-id="3ff94-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
   
-<span data-ttu-id="693aa-105">すべてのオーディオストリームについて、ジッタとパケット損失の平均を取得するには、次の例を使用します。</span><span class="sxs-lookup"><span data-stu-id="693aa-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="3ff94-105">次の例を使用すると、すべての音声ストリームのジッターとパケット損失の平均値を取得できます。</span><span class="sxs-lookup"><span data-stu-id="3ff94-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
   
 ```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-<span data-ttu-id="693aa-106">次の例を使用して、会議コンソールを使用した会議の合計数を確認します。</span><span class="sxs-lookup"><span data-stu-id="693aa-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="3ff94-106">次の例を使用すると、Meeting コンソールを使用した会議の総数を取得できます。</span><span class="sxs-lookup"><span data-stu-id="3ff94-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
   
 ```SQL
 select avg(ConversationalMOS)
@@ -43,7 +43,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-<span data-ttu-id="693aa-107">次の例を使用して、ConversstionalMOS、SendingMOS、ListendingMOS をキャプチャデバイスごとに取得します。</span><span class="sxs-lookup"><span data-stu-id="693aa-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="3ff94-107">次の例を使用すると、キャプチャ デバイスごとに ConversstionalMOS、SendingMOS、および ListendingMOS を取得できます。</span><span class="sxs-lookup"><span data-stu-id="3ff94-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
   
 ```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
