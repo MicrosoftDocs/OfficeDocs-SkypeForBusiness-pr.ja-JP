@@ -1,8 +1,8 @@
 ---
-title: ユーザーが場所のポリシーを表示または構成する
+title: ユーザーが場所ポリシーを表示または構成する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 989d69e08dedb1d826087439d3edddad4c5ab5ee
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: d8ba7ebd3b509992b8f4194d0e2b135aaae144c4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797944"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808117"
 ---
-# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="3fb81-104">ユーザー: 場所ポリシーの表示または構成</span><span class="sxs-lookup"><span data-stu-id="3fb81-104">Users: View or Configure Location Policy</span></span>
+# <a name="users-view-or-configure-location-policy"></a><span data-ttu-id="2415c-104">ユーザー: 場所ポリシーの表示または構成</span><span class="sxs-lookup"><span data-stu-id="2415c-104">Users: View or Configure Location Policy</span></span>
 
-<span data-ttu-id="3fb81-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="3fb81-105">What do you want to do?</span></span> <span data-ttu-id="3fb81-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="3fb81-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2415c-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="2415c-105">What do you want to do?</span></span> <span data-ttu-id="2415c-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="2415c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="3fb81-107">ユーザーに位置情報ポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="3fb81-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="2415c-107">ユーザーに場所ポリシーを割り当てる</span><span class="sxs-lookup"><span data-stu-id="2415c-107">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
 
 

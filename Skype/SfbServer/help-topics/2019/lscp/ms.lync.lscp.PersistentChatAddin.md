@@ -1,8 +1,8 @@
 ---
 title: 常設チャット アドイン
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[常設チャット] ページの [アドイン] セクションを使って、Url を常設チャットルームに関連付けることができます。 これらの URL は、チャット ルームにいるクライアントの会話拡張機能ウィンドウに表示されます。 管理者が登録済みアドインの一覧にアドインを追加し、チャット ルームのマネージャー/作成者が登録済みアドインの 1 つにルームを関連付けると、ユーザーはクライアントでこのアップグレードを表示できるようになります。'
-ms.openlocfilehash: f4de4aefc6ce9c6439058b2bc66d6f5473adf578
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[常設チャット] ページの [アドイン] セクションを使用して、URL を常設チャット ルームに関連付けできます。 これらの URL は、チャット ルームの会話機能拡張ウィンドウのクライアントに表示されます。 管理者は登録済みアドインの一覧にアドインを追加する必要があります。チャット ルームのマネージャー/作成者は、ユーザーがクライアントでこのアップグレードを確認する前に、登録済みのアドインの 1 つにルームを関連付ける必要があります。'
+ms.openlocfilehash: 87fa42ec690a46183b0121fe9504749031e14b4a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797608"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808397"
 ---
-# <a name="persistent-chat-add-in"></a><span data-ttu-id="61a2a-105">常設チャット アドイン</span><span class="sxs-lookup"><span data-stu-id="61a2a-105">Persistent Chat Add-in</span></span>
+# <a name="persistent-chat-add-in"></a><span data-ttu-id="48784-105">常設チャット アドイン</span><span class="sxs-lookup"><span data-stu-id="48784-105">Persistent Chat Add-in</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="61a2a-106">常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。</span><span class="sxs-lookup"><span data-stu-id="61a2a-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="61a2a-107">Teams でも同じ機能を使用できます。</span><span class="sxs-lookup"><span data-stu-id="61a2a-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="61a2a-108">詳細については、「 [Skype For business から Microsoft Teams へのアップグレード](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="61a2a-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="61a2a-109">常設チャットを使用する必要がある場合は、この機能が必要なユーザーを Teams に移行するか、Skype for Business Server 2015 を使い続けるかのどちらかを選択できます。</span><span class="sxs-lookup"><span data-stu-id="61a2a-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="48784-106">常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。</span><span class="sxs-lookup"><span data-stu-id="48784-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="48784-107">Teams でも同じ機能を使用できます。</span><span class="sxs-lookup"><span data-stu-id="48784-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="48784-108">詳細については [、「Skype for Business から Microsoft Teams へのアップグレード」を参照してください](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。</span><span class="sxs-lookup"><span data-stu-id="48784-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="48784-109">常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 を引き続き使用するかのどちらかを選択できます。</span><span class="sxs-lookup"><span data-stu-id="48784-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

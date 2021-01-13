@@ -1,8 +1,8 @@
 ---
 title: tblComplianceParticipant
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,34 +12,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
-description: tblComplianceParticipant には、チャネルあたり、サーバーごとに現在の参加者が含まれています。
-ms.openlocfilehash: 8f4b90cd7e8949451c2b6c1b9bc3cfabbab826e9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblComplianceParticipant には、現在の参加者がチャネルおよびサーバー別に格納されます。
+ms.openlocfilehash: c6aae3c1e7b13456708034512c6b68d67d6d1f92
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814645"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809747"
 ---
-# <a name="tblcomplianceparticipant"></a><span data-ttu-id="c8e3c-103">tblComplianceParticipant</span><span class="sxs-lookup"><span data-stu-id="c8e3c-103">tblComplianceParticipant</span></span>
+# <a name="tblcomplianceparticipant"></a><span data-ttu-id="98858-103">tblComplianceParticipant</span><span class="sxs-lookup"><span data-stu-id="98858-103">tblComplianceParticipant</span></span>
  
-<span data-ttu-id="c8e3c-104">tblComplianceParticipant には、チャネルあたり、サーバーごとに現在の参加者が含まれています。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-104">tblComplianceParticipant contains the current participants per channel and per server.</span></span>
+<span data-ttu-id="98858-104">tblComplianceParticipant には、現在の参加者がチャネルおよびサーバー別に格納されます。</span><span class="sxs-lookup"><span data-stu-id="98858-104">tblComplianceParticipant contains the current participants per channel and per server.</span></span>
   
-<span data-ttu-id="c8e3c-105">**行**</span><span class="sxs-lookup"><span data-stu-id="c8e3c-105">**Columns**</span></span>
+<span data-ttu-id="98858-105">**Columns**</span><span class="sxs-lookup"><span data-stu-id="98858-105">**Columns**</span></span>
 
-|<span data-ttu-id="c8e3c-106">**列**</span><span class="sxs-lookup"><span data-stu-id="c8e3c-106">**Column**</span></span>|<span data-ttu-id="c8e3c-107">**種類**</span><span class="sxs-lookup"><span data-stu-id="c8e3c-107">**Type**</span></span>|<span data-ttu-id="c8e3c-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="c8e3c-108">**Description**</span></span>|
+|<span data-ttu-id="98858-106">**列**</span><span class="sxs-lookup"><span data-stu-id="98858-106">**Column**</span></span>|<span data-ttu-id="98858-107">**型**</span><span class="sxs-lookup"><span data-stu-id="98858-107">**Type**</span></span>|<span data-ttu-id="98858-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="98858-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="c8e3c-109">channelUri</span><span class="sxs-lookup"><span data-stu-id="c8e3c-109">channelUri</span></span>  <br/> |<span data-ttu-id="c8e3c-110">nvarchar (255)、null ではない</span><span class="sxs-lookup"><span data-stu-id="c8e3c-110">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="c8e3c-111">チャネルの Uniform Resource Identifier (URI)。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-111">Channel Uniform Resource Identifier (URI).</span></span>  <br/> |
-|<span data-ttu-id="c8e3c-112">userId</span><span class="sxs-lookup"><span data-stu-id="c8e3c-112">userId</span></span>  <br/> |<span data-ttu-id="c8e3c-113">int (null ではない)</span><span class="sxs-lookup"><span data-stu-id="c8e3c-113">int, not null</span></span>  <br/> |<span data-ttu-id="c8e3c-114">参加者のプリンシパル ID (tblPrincipal ID テーブルに対応)</span><span class="sxs-lookup"><span data-stu-id="c8e3c-114">Principal ID of the participant (corresponding to tblPrincipal.prinID table).</span></span>  <br/> |
-|<span data-ttu-id="c8e3c-115">joinedAt</span><span class="sxs-lookup"><span data-stu-id="c8e3c-115">joinedAt</span></span>  <br/> |<span data-ttu-id="c8e3c-116">bigint (null ではない)</span><span class="sxs-lookup"><span data-stu-id="c8e3c-116">bigint, not null</span></span>  <br/> |<span data-ttu-id="c8e3c-117">参加イベントのタイムスタンプ。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-117">Time stamp of the joining event.</span></span>  <br/> |
-|<span data-ttu-id="c8e3c-118">partedAt</span><span class="sxs-lookup"><span data-stu-id="c8e3c-118">partedAt</span></span>  <br/> |<span data-ttu-id="c8e3c-119">bigint</span><span class="sxs-lookup"><span data-stu-id="c8e3c-119">bigint</span></span>  <br/> |<span data-ttu-id="c8e3c-120">参加者がまだ参加している場合は Null です。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-120">Null if participant is still joined.</span></span> <span data-ttu-id="c8e3c-121">チャネルが null でない場合は、チャネルのタイムスタンプがイベントから出ます。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-121">The time stamp of the channel leaving event if not null.</span></span>  <br/> <span data-ttu-id="c8e3c-122">これらのエントリは、すべての翻訳者がイベントを処理すると、最終的に削除されます。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-122">These entries are eventually removed when all translators process the event.</span></span>  <br/> |
-|<span data-ttu-id="c8e3c-123">userUri</span><span class="sxs-lookup"><span data-stu-id="c8e3c-123">userUri</span></span>  <br/> |<span data-ttu-id="c8e3c-124">nvarchar (255)、null ではない</span><span class="sxs-lookup"><span data-stu-id="c8e3c-124">nvarchar(255), not null</span></span>  <br/> |<span data-ttu-id="c8e3c-125">ユーザー URI。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-125">User URI.</span></span>  <br/> |
-|<span data-ttu-id="c8e3c-126">serverID</span><span class="sxs-lookup"><span data-stu-id="c8e3c-126">serverID</span></span>  <br/> |<span data-ttu-id="c8e3c-127">int</span><span class="sxs-lookup"><span data-stu-id="c8e3c-127">int</span></span>  <br/> |<span data-ttu-id="c8e3c-128">サーバー id (serverID テーブルの場合)。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-128">Server identity (as in tblServerIdentity.serverID table).</span></span>  <br/> |
-|<span data-ttu-id="c8e3c-129">sessionId</span><span class="sxs-lookup"><span data-stu-id="c8e3c-129">sessionId</span></span>  <br/> |<span data-ttu-id="c8e3c-130">bigint</span><span class="sxs-lookup"><span data-stu-id="c8e3c-130">bigint</span></span>  <br/> |<span data-ttu-id="c8e3c-131">サーバーセッション。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-131">Server session.</span></span> <span data-ttu-id="c8e3c-132">これは、チャットサービスが開始されるたびに生成されるランダムな番号です。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-132">This is a random number generated each time a Chat service starts.</span></span> <span data-ttu-id="c8e3c-133">これは、孤立した参加者を識別する目的でセッションを区別するために使われます。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-133">It is used to differentiate sessions for the purpose of identifying orphaned participants.</span></span>  <br/> |
+|<span data-ttu-id="98858-109">channelUri</span><span class="sxs-lookup"><span data-stu-id="98858-109">channelUri</span></span>  <br/> |<span data-ttu-id="98858-110">NULL でない nvarchar (255)</span><span class="sxs-lookup"><span data-stu-id="98858-110">nvarchar (255), not null</span></span>  <br/> |<span data-ttu-id="98858-111">チャネルの URI (Uniform Resource Identifier)。</span><span class="sxs-lookup"><span data-stu-id="98858-111">Channel Uniform Resource Identifier (URI).</span></span>  <br/> |
+|<span data-ttu-id="98858-112">userId</span><span class="sxs-lookup"><span data-stu-id="98858-112">userId</span></span>  <br/> |<span data-ttu-id="98858-113">NULL でない int</span><span class="sxs-lookup"><span data-stu-id="98858-113">int, not null</span></span>  <br/> |<span data-ttu-id="98858-114">参加者のプリンシパル ID (tblPrincipal.prinID テーブルに対応)。</span><span class="sxs-lookup"><span data-stu-id="98858-114">Principal ID of the participant (corresponding to tblPrincipal.prinID table).</span></span>  <br/> |
+|<span data-ttu-id="98858-115">joinedAt</span><span class="sxs-lookup"><span data-stu-id="98858-115">joinedAt</span></span>  <br/> |<span data-ttu-id="98858-116">NULL でない bigint</span><span class="sxs-lookup"><span data-stu-id="98858-116">bigint, not null</span></span>  <br/> |<span data-ttu-id="98858-117">参加イベントのタイム スタンプ。</span><span class="sxs-lookup"><span data-stu-id="98858-117">Time stamp of the joining event.</span></span>  <br/> |
+|<span data-ttu-id="98858-118">partedAt</span><span class="sxs-lookup"><span data-stu-id="98858-118">partedAt</span></span>  <br/> |<span data-ttu-id="98858-119">bigint</span><span class="sxs-lookup"><span data-stu-id="98858-119">bigint</span></span>  <br/> |<span data-ttu-id="98858-p101">参加者がまだ参加している場合は NULL。NULL でない場合は、チャネル退出イベントのタイム スタンプ。</span><span class="sxs-lookup"><span data-stu-id="98858-p101">Null if participant is still joined. The time stamp of the channel leaving event if not null.</span></span>  <br/> <span data-ttu-id="98858-122">これらのエントリは、すべてのトランスレーターがイベントを処理すると最終的に削除されます。</span><span class="sxs-lookup"><span data-stu-id="98858-122">These entries are eventually removed when all translators process the event.</span></span>  <br/> |
+|<span data-ttu-id="98858-123">userUri</span><span class="sxs-lookup"><span data-stu-id="98858-123">userUri</span></span>  <br/> |<span data-ttu-id="98858-124">NULL でない nvarchar(255)</span><span class="sxs-lookup"><span data-stu-id="98858-124">nvarchar(255), not null</span></span>  <br/> |<span data-ttu-id="98858-125">ユーザーの URI。</span><span class="sxs-lookup"><span data-stu-id="98858-125">User URI.</span></span>  <br/> |
+|<span data-ttu-id="98858-126">serverID</span><span class="sxs-lookup"><span data-stu-id="98858-126">serverID</span></span>  <br/> |<span data-ttu-id="98858-127">int</span><span class="sxs-lookup"><span data-stu-id="98858-127">int</span></span>  <br/> |<span data-ttu-id="98858-128">サーバーの ID (tblServerIdentity.serverID テーブルなど)。</span><span class="sxs-lookup"><span data-stu-id="98858-128">Server identity (as in tblServerIdentity.serverID table).</span></span>  <br/> |
+|<span data-ttu-id="98858-129">sessionId</span><span class="sxs-lookup"><span data-stu-id="98858-129">sessionId</span></span>  <br/> |<span data-ttu-id="98858-130">bigint</span><span class="sxs-lookup"><span data-stu-id="98858-130">bigint</span></span>  <br/> |<span data-ttu-id="98858-p102">サーバー セッション。チャット サービスが起動するたびに生成されるランダムな数値。孤立した参加者の識別を目的としたセッションの区別に使用されます。</span><span class="sxs-lookup"><span data-stu-id="98858-p102">Server session. This is a random number generated each time a Chat service starts. It is used to differentiate sessions for the purpose of identifying orphaned participants.</span></span>  <br/> |
    
-<span data-ttu-id="c8e3c-134">**Key**</span><span class="sxs-lookup"><span data-stu-id="c8e3c-134">**Key**</span></span>
+<span data-ttu-id="98858-134">**キー**</span><span class="sxs-lookup"><span data-stu-id="98858-134">**Key**</span></span>
 
-|<span data-ttu-id="c8e3c-135">**列**</span><span class="sxs-lookup"><span data-stu-id="c8e3c-135">**Column**</span></span>|<span data-ttu-id="c8e3c-136">**説明**</span><span class="sxs-lookup"><span data-stu-id="c8e3c-136">**Description**</span></span>|
+|<span data-ttu-id="98858-135">**列**</span><span class="sxs-lookup"><span data-stu-id="98858-135">**Column**</span></span>|<span data-ttu-id="98858-136">**説明**</span><span class="sxs-lookup"><span data-stu-id="98858-136">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c8e3c-137">\<channelUri、userId、joinedAt\></span><span class="sxs-lookup"><span data-stu-id="c8e3c-137">\<channelUri, userId, joinedAt\></span></span>  <br/> |<span data-ttu-id="c8e3c-138">主キー。</span><span class="sxs-lookup"><span data-stu-id="c8e3c-138">Primary key.</span></span>  <br/> |
+|\<channelUri, userId, joinedAt\>  <br/> |<span data-ttu-id="98858-137">主キー。</span><span class="sxs-lookup"><span data-stu-id="98858-137">Primary key.</span></span>  <br/> |
    
 
