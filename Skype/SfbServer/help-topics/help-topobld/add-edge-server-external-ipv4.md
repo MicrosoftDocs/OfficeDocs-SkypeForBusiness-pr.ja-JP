@@ -1,8 +1,8 @@
 ---
 title: エッジ サーバーの外部 IPv4 を追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
-description: '[外部 IPv4] で、アクセスエッジサービス、Web 会議エッジサービス、音声ビデオエッジサービスを指す外部 IP アドレスを入力します。'
-ms.openlocfilehash: adb3391ab2552edefd995fa49ebbd8d5ed2f324c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 外部 IPv4 で、アクセス エッジ サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。
+ms.openlocfilehash: 44660b879ec133173ae4c91a60c1d9e10d50ee44
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219278"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815287"
 ---
-# <a name="add-edge-server-external-ipv4"></a>エッジ サーバーの外部 IPv4 を追加する
+# <a name="add-edge-server-external-ipv4"></a>エッジ サーバー外部 IPv4 の追加
  
-[ **外部 IPv4**] で、アクセスエッジサービス、Web 会議エッジサービス、音声ビデオエッジサービスを指す外部 IP アドレスを入力します。
+外部 **IPv4 で**、アクセス エッジ サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。
   
 

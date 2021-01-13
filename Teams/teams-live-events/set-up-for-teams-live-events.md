@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのライブ イベントのセットアップ
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - enabler-strategic
-description: ネットワークのセットアップ、ライセンスの割り当て、ライブイベント機能とスケジューリング、およびビデオ配布ソリューションの有効化など、Teams でライブイベントを設定します。
+description: ネットワークのセットアップ、ライセンスの割り当て、ライブ イベント機能とスケジュールの有効化、ビデオ配信ソリューションなど、Teams でのライブ イベントのセットアップ。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f12bc54fc4a2ad0e486ee141495f39e804838406
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 64a5bf471a79de73be3900e6b52fee38ebc12423
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130608"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809167"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -77,12 +77,12 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>ユーザーが外部アプリまたはデバイスで作成されたイベントをスケジュールできるようにする
 
-外部アプリまたはデバイスで生成されたイベントのスケジュールを設定するには、次の手順も実行する必要があります。
+ユーザーが外部アプリまたはデバイスで生成されたイベントをスケジュールするには、次の手順も実行する必要があります。
 
 1. 組織内のユーザーに対して Microsoft Stream を有効にします。 Stream は、対象となる Microsoft 365 または Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして使用できます。 Stream は Business Essentials プランや Business Premium プランには含まれません。 詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。
 
    >[!Note]
-   > Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。 ユーザーがストリームにアクセスできるように、 [**ユーザーにライセンスを割り当てる**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 方法について説明します。 [**この記事**](https://docs.microsoft.com/stream/disable-user-organization)で定義されているユーザーについては、ストリームがブロックされていないことを確認します。
+   > Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。 ユーザーが Stream にアクセスするためにライセンスを [**ユーザーに**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 割り当てる方法について詳しくは、以下を参照してください。 この記事で定義されているユーザーに対して Stream がブロックされていないか [**確認します**](https://docs.microsoft.com/stream/disable-user-organization)。
 
 2. Stream で、ユーザーにライブ イベント作成の許可が割り当てられるようにします。 既定では、管理者は外部アプリまたはデバイスでイベントを作成できます。 Stream 管理者は、Stream で[ライブ イベントの作成を許可する他のユーザーを追加](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)できます。
 
@@ -92,7 +92,7 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
 ライブ イベント ビデオの再生ではアダプティブ ビットレート ストリーミング (ABR) が使用されますが、これはユニキャスト ストリーミングであるため、すべての視聴者がインターネットから独自にビデオ ストリーミングを取得することになります。 ライブ イベントまたはビデオを組織の多数のユーザーに送信する場合、視聴者によって大量のインターネット帯域幅が消費される可能性があります。 組織がこのようなライブ イベントのインターネット トラフィックを削減できるように、ライブ イベント ソリューションには、Microsoft の信頼できるビデオ配信パートナーが提供する Software Defined Network (SDN) またはエンタープライズ コンテンツ配信ネットワーク (eCDN) が統合されています。 これらの SDN/eCDN プラットフォームを使用すると、組織はエンド ユーザーの視聴エクスペリエンスを犠牲にすることなく、ネットワーク帯域幅を最適化できます。 Microsoft パートナーのサポートを利用すると、エンタープライズ ネットワーク全体にわたるビデオ配信の拡張性と効率性をさらに高めることができます。
 
-**Teams 外部のソリューションを購入してセットアップする** ビデオ配信をスケーリングする場合、Microsoft の信頼できるビデオ配信パートナーを利用して、エキスパートからのサポートを得ることができます。 チームでビデオ配信プロバイダーを使用できるようにする前に、SDN/eCDN ソリューションを購入して、Teams から分離する必要があります。
+**Teams 外部のソリューションを購入してセットアップする** ビデオ配信をスケーリングする場合、Microsoft の信頼できるビデオ配信パートナーを利用して、エキスパートからのサポートを得ることができます。 ビデオ配信プロバイダーを Teams で使用するには、その前に、Teams 以外の場所で SDN/eCDN ソリューションを購入してセットアップする必要があります。
 
 次の SDN/eCDN ソリューションは統合されており、Stream で使用されるように設定できます。
 
@@ -102,7 +102,7 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
 - **Ramp OmniCache** を利用すると、次世代のネットワーク配信ソリューションとして、グローバル WAN 全体にわたりシームレスにビデオ コンテンツを配信できます。イベント プロデューサーがネットワーク帯域幅を最適化し、ライブ イベントのブロードキャストとオンデマンド ストリーミングをサポートするのに役立ちます。 Teams で作成されるライブ イベント用の Ramp OmniCache のサポートは、間もなく利用可能になります。 [詳細については、こちらを参照してください](https://rampecdn.com)。
 
-- ネットワーク最適化の業界標準である **Riverbed** は、Microsoft Teams とストリーミングに対するアクセラレータソリューションを拡張しています。  Microsoft 365 のお客様は、チームやストリームなどのさまざまな先進企業 SaaS サービスとともに、信頼性の高い365トラフィックを迅速に加速して、どこからでも要員の生産性を向上させることができます。 チームとストリームの加速化は、あらゆる機能を備えた簡単なセットアップを通じて有効にすることができます。これには、世界クラスのさまざまなサポートと継続的な投資が含まれます。
+- **ネットワーク最適化の業界標準である Riverbed** は、アクセラレータ ソリューションを Microsoft Teams と Stream に拡張しています。  Microsoft 365 のお客様は、Teams や Stream を含む 365 トラフィックを、他の優れたエンタープライズ SaaS サービスと共に自信を持って加速し、どこからでも従業員の生産性を向上させることができます。 Teams と Stream アクセラレータは、Riverbed の世界クラスのサポートと継続的な投資のすべての保証に付属する簡単なセットアップによって有効にできます。
 
 > [!NOTE]
 > お客様が選択した SDN または eCDN ソリューションには、そのソリューションの使用を管理する、**サードパーティ プロバイダーのサービス利用規約とプライバシー ポリシー** が適用されます。 プロバイダーのソリューションの使用に対しては、Microsoft ボリューム ライセンス条項やオンライン サービス条項は適用されません。 **サードパーティ プロバイダーの利用規約** に同意しない場合は、Teams でそのソリューションを有効にしないでください。
@@ -115,6 +115,6 @@ SDN または eCDN ソリューションをセットアップした後、Teams �
 
 ### <a name="related-topics"></a>関連項目
 
-- [Teams のライブイベントとは何ですか?](what-are-teams-live-events.md)
+- [Teams ライブ イベントとは](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams でライブ イベント設定を構成する](configure-teams-live-events.md)

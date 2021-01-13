@@ -24,7 +24,7 @@ ms.collection:
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
 ms.openlocfilehash: 0c2d37adb185f873b0208ff422aa7ee8aac9a81c
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/13/2020
 ms.locfileid: "49030663"
@@ -75,7 +75,7 @@ ms.locfileid: "49030663"
     ![カスタマイズ可能な会議の招待状設定のスクリーンショット](media/meeting-settings-invitation.png "Teams 会議用のカスタマイズ可能な会議の招待状設定のスクリーンショット")
 
     - [**ロゴ URL**] ロゴの保存場所の URL を入力します。
-    - [**法的事項の URL**] 法的な質問があるユーザーを誘導することができる、法的情報が記載されている Web サイトが組織にある場合は、こちらに URL を入力します。
+    - [**法的事項の URL**] 法的な質問があるユーザーを誘導することができる、法的事項が記載されている Web サイトが組織にある場合は、こちらに URL を入力します。
     - [**ヘルプの URL**] ユーザーに問題が発生した場合にユーザーを誘導することができる、サポート Web サイトが組織にある場合は、こちらに URL を入力します。
     - [**フッター**] フッターとして含めるテキストを入力します。
 4. **[Preview invite]**(出席依頼のプレビュー) をクリックして、会議出席依頼のプレビューを表示します。

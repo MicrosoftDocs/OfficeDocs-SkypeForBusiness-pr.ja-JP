@@ -1,8 +1,8 @@
 ---
 title: tblEnumValue
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,42 +12,42 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-description: tblEnumValue は、ノードテーブルで使用されている属性の可視性と動作の値を含む、ハードコーディングされた表です。
-ms.openlocfilehash: accb9cb4801984bd4b3839cd44e5b7feb8d06baa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblEnumValue は、ノード テーブルで使われる属性の Visibility (表示設定) 値と Behavior (動作) 値を含む、ハードコードされたテーブルです。
+ms.openlocfilehash: a13bfbe79d1eb118f0727f390816a26d35a508d0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814605"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816027"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
-tblEnumValue は、ノードテーブルで使用されている属性の可視性と動作の値を含む、ハードコーディングされた表です。
+tblEnumValue は、ノード テーブルで使われる属性の Visibility (表示設定) 値と Behavior (動作) 値を含む、ハードコードされたテーブルです。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|valueID  <br/> |smallint (null ではない)  <br/> |値の ID です。  <br/> |
-|attributeID  <br/> |smallint (null ではない)  <br/> |属性の ID です。  <br/> |
-|attributeValue  <br/> |nvarchar (256)、null ではない  <br/> |値の名前。  <br/> |
+|valueID  <br/> |NULL でない smallint  <br/> |値の ID。  <br/> |
+|attributeID  <br/> |NULL でない smallint  <br/> |属性の ID。  <br/> |
+|attributeValue  <br/> |NULL でない nvarchar (256)  <br/> |値の名前。  <br/> |
    
-**機能**
+**Keys**
 
 |**列**|**説明**|
 |:-----|:-----|
 |valueID  <br/> |主キー。  <br/> |
-|attributeID  <br/> |TblEnumAttribute テーブルで参照する外部キー  <br/> |
+|attributeID  <br/> |tblEnumAttribute.attributeID テーブルを参照する外部キー。  <br/> |
    
-**テーブルの値**
+**テーブル値**
 
 |**valueID**|**attributeID**|**attributeValue**|
 |:-----|:-----|:-----|
-|両面  <br/> |1  <br/> |private  <br/> |
-|3  <br/> |1  <br/> |種類  <br/> |
-|4  <br/> |両面  <br/> |標準  <br/> |
-|5  <br/> |両面  <br/> |大  <br/> |
-|6  <br/> |1  <br/> |開こう  <br/> |
+|2   <br/> |1   <br/> |private  <br/> |
+|3   <br/> |1   <br/> |scope  <br/> |
+|4   <br/> |2   <br/> |normal  <br/> |
+|5   <br/> |2   <br/> |講堂  <br/> |
+|6   <br/> |1   <br/> |open  <br/> |
    
 ## <a name="see-also"></a>関連項目
 

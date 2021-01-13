@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalAffiliations
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
-description: tblPrincipalAffiliations には、active Directory ドメインサービスセキュリティグループなどの場所のメンバーシップを、ドメインの Active Directory コンテナーで説明するプリンシパルの所属が含まれています。
-ms.openlocfilehash: 542bcc333d815b0577aec1fb11d4070540150d3c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalAffiliations には、Active Directory ドメイン サービス セキュリティ グループを含む、ドメイン内の Active Directory コンテナー内の場所のメンバーシップを記述するプリンシパルの所属が含まれます。
+ms.openlocfilehash: 149bb1b4603fa0f0e1909298659b881000464275
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814475"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815867"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
-tblPrincipalAffiliations には、active Directory ドメインサービスセキュリティグループなどの場所のメンバーシップを、ドメインの Active Directory コンテナーで説明するプリンシパルの所属が含まれています。
+tblPrincipalAffiliations には、Active Directory ドメイン サービス セキュリティ グループを含む、ドメイン内の Active Directory コンテナー内の場所のメンバーシップを記述するプリンシパルの所属が含まれます。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|principalID  <br/> |int (null ではない)  <br/> |関連主体の ID です。  <br/> |
-|affiliationID  <br/> |int (null ではない)  <br/> |所属を表すプリンシパルの ID です。 各プリンシパル (システムユーザーの種類を除く) には、自己所属も含まれています。  <br/> |
-|位置  <br/> |int (null ではない)  <br/> |位置. 自己所属の値は-1 であり、その他の所属については、principalID の各\<\>バケット内の1から順に1が増加します。  <br/> |
-|updatedBy  <br/> |int (null ではない)  <br/> |最新の更新プログラムを実行したプリンシパル。 これは通常1で、Active Directory の同期を意味します。  <br/> |
+|principalID  <br/> |NULL でない int  <br/> |所属プリンシパルの ID。  <br/> |
+|affiliationID  <br/> |NULL でない int  <br/> |所属を表すプリンシパルの ID。各プリンシパル (system-user-types 除く) には自己所属も含まれます。  <br/> |
+|index  <br/> |NULL でない int  <br/> |インデックス。 自己所属の値は -1 で、他の所属の場合は各バケット内で 1 から順番に増加 \<principalID, affiliationId\> します。  <br/> |
+|updatedBy  <br/> |NULL でない int  <br/> |最新の更新を実行したプリンシパル。通常は、Active Directory の同期を意味する 1 です。  <br/> |
    
-**機能**
+**Keys**
 
-|**行**|**説明**|
+|**Columns**|**説明**|
 |:-----|:-----|
-|\<principalID、index、affiliationID\>  <br/> |主キー。  <br/> |
-|principalID  <br/> |TblPrincipal Id テーブルで参照される外部キー。  <br/> |
-|affiliationID  <br/> |TblPrincipal Id テーブルで参照される外部キー。  <br/> |
+|\<principalID, index, affiliationID\>  <br/> |主キー。  <br/> |
+|principalID  <br/> |tblPrincipal.prinID テーブル内の参照による外部キー。  <br/> |
+|affiliationID  <br/> |tblPrincipal.prinID テーブル内の参照による外部キー。  <br/> |
    
 

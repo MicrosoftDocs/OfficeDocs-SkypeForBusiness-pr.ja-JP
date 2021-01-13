@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalInvites
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,33 +12,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: tblPrincipalInvites には、自動招待を含むすべてのノードのプロビジョニングされたすべてのユーザーの招待が含まれます。
-ms.openlocfilehash: dfa41ec5715c7c5255b26fcdb32561e74c4f08df
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblPrincipalInvites には、自動招待が有効になっているすべてのノードのプロビジョニングされた全ユーザーの招待が含まれます。
+ms.openlocfilehash: 5bbccd582442001bd2122dcbacdbe3634fcfd649
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814185"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815857"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
-tblPrincipalInvites には、自動招待を含むすべてのノードのプロビジョニングされたすべてのユーザーの招待が含まれます。
+tblPrincipalInvites には、自動招待が有効になっているすべてのノードのプロビジョニングされた全ユーザーの招待が含まれます。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int (null ではない)  <br/> |プリンシパル ID。  <br/> |
-|invID  <br/> |int (null ではない)  <br/> |TblLastInviteId テーブルから生成された一意の連続番号 (プリンシパル ID ごと)。  <br/> |
-|nodeID  <br/> |int (null ではない)  <br/> |ノード ID (チャットルームのみ)。  <br/> |
-|createdOn  <br/> |datetime。 null ではありません  <br/> |作成時刻。  <br/> |
+|prinID  <br/> |NULL でない int  <br/> |プリンシパル ID。  <br/> |
+|invID  <br/> |NULL でない int  <br/> |tblLastInviteId テーブルから生成された (プリンシパル ID ごとの) 一意のシーケンシャル番号。  <br/> |
+|nodeID  <br/> |NULL でない int  <br/> |ノード ID (チャット ルームのみ)。  <br/> |
+|createdOn  <br/> |NULL でない datetime  <br/> |作成の時刻。  <br/> |
    
-**機能**
+**Keys**
 
 |**列**|**説明**|
 |:-----|:-----|
-|\<prinID、nodeID\>  <br/> |主キー。  <br/> |
-|prinID  <br/> |TblPrincipal Id テーブルで参照される外部キー。  <br/> |
-|nodeID  <br/> |TblNode テーブルで参照される外部キー。  <br/> |
+|\<prinID, nodeID\>  <br/> |主キー。  <br/> |
+|prinID  <br/> |tblPrincipal.prinID テーブル内の参照による外部キー。  <br/> |
+|nodeID  <br/> |tblNode.nodeID テーブル内の参照による外部キー。  <br/> |
    
 

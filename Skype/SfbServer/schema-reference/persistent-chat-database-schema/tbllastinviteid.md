@@ -1,8 +1,8 @@
 ---
 title: tblLastInviteId
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
-description: tblLastInviteId には、各ユーザーに対して生成された (tblPrincipalInvites テーブルで使用された) 最後の招待 ID が含まれます。
-ms.openlocfilehash: 17d1b725da034f79f8efc9ff9071c36430efde7d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblLastInviteId には、各ユーザーに対して生成された (そして tblPrincipalInvites テーブルで使用された) 最後の招待 ID が格納されます。
+ms.openlocfilehash: 9d5ec67a4f5c3db8558c58834582d489fde00ab6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814575"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815967"
 ---
 # <a name="tbllastinviteid"></a>tblLastInviteId
  
-tblLastInviteId には、各ユーザーに対して生成された (tblPrincipalInvites テーブルで使用された) 最後の招待 ID が含まれます。
+tblLastInviteId には、各ユーザーに対して生成された (そして tblPrincipalInvites テーブルで使用された) 最後の招待 ID が格納されます。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int (null ではない)  <br/> |プリンシパル ID。  <br/> |
-|lastInviteID  <br/> |int (null ではない)  <br/> |最後に使用した招待の ID。  <br/> |
+|prinID  <br/> |NULL でない int  <br/> |プリンシパル ID。  <br/> |
+|lastInviteID  <br/> |NULL でない int  <br/> |最後に使用された招待 ID。  <br/> |
    
-**機能**
+**Keys**
 
 |**列**|**説明**|
 |:-----|:-----|
 |prinID  <br/> |主キー。  <br/> |
-|prinID  <br/> |TblPrincipal Id テーブルで参照される外部キー。  <br/> |
+|prinID  <br/> |tblPrincipal.prinID テーブル内の参照による外部キー。  <br/> |
    
 ## <a name="see-also"></a>関連項目
 

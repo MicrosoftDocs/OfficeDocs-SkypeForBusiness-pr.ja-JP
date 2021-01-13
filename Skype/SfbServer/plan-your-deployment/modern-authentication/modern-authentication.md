@@ -1,8 +1,8 @@
 ---
-title: Skype for Business での先進認証の計画
+title: Plan for Modern Authentication in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: 他の製品との統合を含む、Skype for Business Server の認証と承認の計画に関するトピック
-ms.openlocfilehash: 3b673a9f88895ac57277ef51b51fe0a4a27c64a2
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: c657a2b3609c5fb93f7f915c460cd3334f7fac03
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221581"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816247"
 ---
-# <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Skype for Business での認証と承認についての説明
+# <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Skype for Business での認証と承認について
 
-認証と承認は関連する概念ですが、ユーザーにとってはさまざまな作業を行います。 単純な用語で記述された authenciation (認証) は、パスワード、コード、指紋、証明書、true であるユーザーについてのクレームの組み合わせ、またはこれらを組み合わせて使用することによって、パスワード、コード、指紋、証明書、またはこれらを組み合わせて使用することができます。 認証は、本人であることを証明するためのプロセスを実行します。
+認証と承認は関連する概念ですが、作業は異なります (両方とも必要です)。 簡単に言うなら、認証 (AuthN) は、有効なユーザーだけが知っている、または持っているシークレットに依存します。パスワード、コード、指紋、証明書、ユーザーに関するクレームの組み合わせ、またはこれらが組み合わせて使用される場合があります。 AuthN は、自分が自分の言い分であることを証明するプロセスです。
 
-承認 (AuthZ) は、お客者の身元を確認した後にアクセス権を取得することに関係します。 表示、編集、またはその他のアクセスが許可されているかどうかを判断します。 たとえば、SharePoint Online に対するサイトコレクション管理者のアクセス権は強力ですが、Skype for Business Online などの他のオンラインワークロードに切り替えた場合、ユーザーの問題をトラブルシューティングする権限を持つことがあり、サーバーの構成を変更することはできません。 Exchange Online などの3番目のワークロードでは、平均的なユーザーのアクセス権しか持っていない可能性があります。 AuthZ は、サービス/アクセス負荷、アプリケーション、ファイル、およびその他のデータに対して、どの程度のアクセスが必要かを確認します。
+承認 (AuthZ) は、自分が誰かを証明した後にアクセスできる情報に関係します。 表示、編集、その他のアクセスが許可されている内容が決定されます。 たとえば、SharePoint Online への強力なサイト コレクション管理者アクセス権を持っている場合でも、Skype for Business Online など別のオンライン ワークロードに切り替える場合は、サーバーの構成を変更するのではなく、ユーザーの問題をトラブルシューティングする権限を持っている可能性があります。 Exchange Online などの 3 番目のワークロードでは、平均的なユーザーのアクセス権しか持てない場合があります。 AuthZ は、サービス/worloads、アプリケーション、ファイル、その他のデータに対して持っているアクセスの量と量を確認します。
 
-この例では、SharePoint や Exchange online のようなオンラインプロパティを使用していますが、認証と AuthZ のプロセスはオンプレミスでもハイブリッドドでも同じ方法で動作します。 最終的には、AAD 接続や ADFS などのツールは、オンプレミスのアカウントとパスワードをクラウドの AD (Azure AD) に同期することによって、または intruding のフローでは、ユーザーが自分の資格情報の入力を求められることはありません。たとえば、クラウドのワークロードを切り替えるときにシングルサインオンのシナリオを作成する しかし、自分では、認証または承認の一部ではなく、そのメカニズムの一部ではありません。
+この例では、SharePoint や Exchange Online などのオンライン プロパティが含まれますが、AuthN と AuthZ のプロセスはオンプレミスとハイブリッドのオンプレミスで同じように動作します。 最終的には、AAD Connect や ADFS などのツールは、オンプレミスのアカウントとパスワードをクラウドの AD (Azure AD) に同期するか、AuthZ のフローに侵入してユーザーに資格情報の入力を頻繁に求めなかったりすることで、AuthN や AuthZ のストーリーに関与します。たとえば、クラウド内のワークロードを切り替える際に、単一の Sign-On シナリオを作成します。 ただし、このメカニズムの一部として、それ自体が責任を持つ AuthN や AuthZ というのではない。
 
-現在、多くのテクノロジでは、これらのプロセス (認証と AuthZ) を1つのメカニズムと考えています。また、認証プロセスへの参照もいくつかあります。 ユーザーアクセスの最初のステップは認証であることを覚えておくことが重要です。これは、ユーザーが本人であることを確認し、そのユーザーがアクセス権を判断するユーザーの知識を利用することです (Open Authorization または OAuth を参照してください)。
+現在、多くのテクノロジでは、これらのプロセス (AuthN と AuthZ) が 1 つのメカニズムと見なされ、認証プロセスへの多くの参照が聞こえます。認証プロセスには承認も含まれます。 ユーザー アクセスの最初のステップは AuthN であり、ユーザーが誰かの知識を使用してユーザーがアクセス権を持っているユーザーを判断します (Open Authorization または OAuth で確認できます)。
 
   
 ## <a name="authentication-and-authorization-planning-topics"></a>認証と承認の計画に関するトピック
 
-[Skype for Business での先進認証 (ADAL) の使用方法](plan-adal.md)
+[Skype for Business でモダン認証 (ADAL) を使用する方法](plan-adal.md)
 
-[先進認証でサポートされている Skype for Business のトポロジ](topologies-supported.md)
+[先進認証でサポートされている Skype for Business トポロジ](topologies-supported.md)
 
-[従来の認証方法をネットワークの内部および外部にオフにする計画を立てます。](turn-on-modern-auth.md)
+[ネットワークの内部および外部で従来の認証方法をオフにする計画。](turn-on-modern-auth.md)
 

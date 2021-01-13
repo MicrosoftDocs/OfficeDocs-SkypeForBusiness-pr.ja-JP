@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 Stress and Performance Tool の使用
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 ms.date: 2/13/2018
 manager: serdars
 audience: ITPro
@@ -13,170 +13,170 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
-description: Skype for Business Server 2015 Stress and Performance Tool を実行するには、両側のユーザー、連絡先、およびユーザー プロファイルを管理できること、実行に備えてツールを構成できること、ツールによって生成された出力または結果を確認できることが必要です。
-ms.openlocfilehash: 0bdffee133e583ebaf4177d3226479838495c69f
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Skype for Business Server 2015 Stress and Performance Tool を実行するには、ユーザー、連絡先、およびユーザー プロファイルの両方を管理し、ツールを実行用に構成してから、ツールによって生成された出力または結果を確認できる必要があります。
+ms.openlocfilehash: e008a85d22753a4e649da8501bd387675bb9b536
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888866"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814947"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool の使用
  
-Skype for Business Server 2015 Stress and Performance Tool を実行するには、両側のユーザー、連絡先、およびユーザー プロファイルを管理できること、実行に備えてツールを構成できること、ツールによって生成された出力または結果を確認できることが必要です。
+Skype for Business Server 2015 Stress and Performance Tool を実行するには、ユーザー、連絡先、およびユーザー プロファイルの両方を管理し、ツールを実行用に構成してから、ツールによって生成された出力または結果を確認できる必要があります。
   
-Skype for Business Server 2015 Stress and Performance Tool (実行可能ファイル名: LyncPerfTool.exe) の実行には、次の 4 区分の作業が必要になります。
+Skype for Business Server 2015 Stress and Performance Tool の実行には、次の 4 つの領域があります (実行可能ファイルは次LyncPerfTool.exe。
   
-- [ユーザーと連絡先の作成](using-the-tool.md#BKMK_CreateUsersAndContacts)
+- [ユーザーと連絡先を作成する](using-the-tool.md#BKMK_CreateUsersAndContacts)
     
-- [ユーザー プロファイルの構成](using-the-tool.md#BKMK_UserProfile)
+- [ユーザー プロファイルを構成する](using-the-tool.md#BKMK_UserProfile)
     
 - [LyncPerfTool の実行](using-the-tool.md#BKMK_RunTool)
     
 - [結果の解釈](using-the-tool.md#BKMK_Interpret)
     
-## <a name="create-users-and-contacts"></a>ユーザーと連絡先の作成
+## <a name="create-users-and-contacts"></a>ユーザーと連絡先を作成する
 <a name="BKMK_CreateUsersAndContacts"> </a>
 
-Skype for Business Server 2015 (SB 2015) User Provisioning Tool (UserProvisioningTool.exe) を使用して、ストレスおよびパフォーマンス テストのためのユーザーと連絡先を作成する必要があります。
+Skype for Business Server 2015 (SB 2015) ユーザー プロビジョニング ツール (UserProvisioningTool.exe) を使用して、ストレスおよびパフォーマンス テスト用のユーザーと連絡先を作成する必要があります。
   
-次に示すリストは、このトピックを読み進めるときに役立つことがある便利な用語です。
+トピックを読む上で役立つ可能性がある便利な用語の一覧を次に示します。
   
-- **Organizational Unit (組織単位)**: Active Directory Domain Services (AD DS) の組織単位 (OU)。
+- **組織単位** - Active Directory ドメイン サービス (AD DS) 組織単位 (OU)。
     
-- **Federated/Cross Pool (フェデレーション/クロス プール)**: 別のインスタント メッセージング (IM) サービスのユーザーと通信できるユーザー。
+- **フェデレーション/クロス プール** - 他のインスタント メッセージング (IM) サービスのユーザーと通信できるユーザー。
     
-- **配布リスト (Distribution List)**: DL。 AD DS ユーザーのリストを格納している AD DS のオブジェクトです。 ユーザー グループ間の通信を円滑に進めるために使用されます。
+- **配布リスト** - または配布リスト。 これらは、DS ユーザー ADリストを含む AD DS 内のオブジェクトです。 これらは、ユーザーのグループ間の通信を容易にするために使用されます。
     
-- **Location Info Service (場所情報サービス)**: Skype for Business Server 2015 のサービスであり、電話ごとに有効化および構成しておくと、Enhanced 911 (E911) サービスに対応する物理的な位置の取得が可能になります。
+- **位置情報** サービス - Skype for Business Server 2015 サービス。電話ごとに有効にし、構成すると、Enhanced 911 (E911) サービスの物理的な場所を取得できます。
     
-- **U.S. Phone Numbers (米国の電話番号)**: SIP URI と共にユーザーに割り当てられる電話番号であり、番号の逆引き検索 (RNL) で着信通話と発信通話をルーティングするために使用されます。
+- **米国の電話番号** - 逆引き番号検索 (RNL) で着信および発信通話をルーティングするために使用される SIP URI に加えて、ユーザーに割り当てられた電話番号。
     
-### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>UserProvisioningTool.exe を使用してユーザーと連絡先を作成する
+### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>ユーザーと連絡先を使用してユーザーと連絡先をUserProvisioningTool.exe
 
 > [!NOTE]
-> このツールを実行するために、Domain Admins セキュリティ グループのメンバーとしてログインしていることを作業の開始前に必ず確認してください。 これは、この作業で Active Directory ユーザーを作成することになるために必要な行動です。 
+> 始める前に、このツールを実行するために Domain Admins セキュリティ グループのメンバーとしてログインしている必要があります。 Active Directory ユーザーを作成する場合は、これを行う必要があります。 
   
-ロード シミュレーションのためのユーザーと連絡先を作成する場合は、Skype for Business Server User Provisioning Tool を使用する必要があります。
+読み込みシミュレーション用のユーザーと連絡先を作成するには、Skype for Business Server ユーザー プロビジョニング ツールを使用する必要があります。
   
-**Skype for Business Server User Provisioning Tool** は、**Skype for Business Server Stress and Performance Tool** パッケージと共にインストールされます。 このパッケージ インストーラー (CapacityPlanningTool.msi) は、テスト目的のフロント エンド サーバーまたは Standard Edition サーバーで実行しておきます。
+**Skype for Business Server ユーザー プロビジョニング ツール** は **、Skype for Business Server Stress and Performance Tool パッケージと一緒にインストール** されます。 テストするフロントエンド サーバーまたは Standard Edition サーバーで、パッケージ インストーラー (CapacityPlanningTool.msi) が実行済みである必要があります。
   
-Skype for Business Server User Provisioning Tool は、フロント エンド サーバーまたは Standard Edition サーバーで UserProvisioningTool.exe (%InstalledDirectory%LyncStressAndPerfTool\LyncStress にあります) を実行することで開始できます。
+Skype for Business Server ユーザー プロビジョニング ツールを起動するには、フロントエンド サーバーまたは Standard Edition サーバー上でファイル UserProvisioningTool.exe (%InstalledDirectory%LyncStressAndPerfTool\LyncStress にあります) を実行します。
   
 > [!IMPORTANT]
-> 多数のユーザー (10,000 ユーザー以上) を作成するときには、UserProvisioningTool.exe を実行してください。 これは、このツールによって*新しい* AD ユーザーの作成と構成が実行されるために必要です。
+> 多数のユーザー (たとえば、10,000 以上) を作成する場合は、次のコマンドUserProvisioningTool.exe。 ツールは新しいユーザーを作成および構成するために、  *これを行う*  ADがあります。
   
-User Provisioning Tool を起動したら、[Configuration] をクリックして [Load Configuration] を選択します。 
+ユーザー プロビジョニング ツールが開いたら、[構成] をクリックし、[構成の読み込み] を選択します。 
   
-ユーザーと連絡先を構成するには、パッケージに含まれている "SampleData.xml" という既定のファイルを読み込みます。 これにより、各フィールドがサンプル データで再設定されます。ただし、それぞれの展開に応じて、このデータを変更する必要があります。
+ユーザーと連絡先の構成を開始するには、パッケージに含まれている既定のファイル ("SampleData.xml" と呼ばれる) を読み込SampleData.xml。 これにより、展開に関連付けするために変更が必要なサンプル データがフィールドに事前に入力されます。
   
-カスタマイズした設定が含まれている構成済みの XML ファイルがある場合は、そのファイルを読み込むことも可能です。 次の各セクションで説明するように、User Provisioning Tool のフィールドに入力します。
+カスタマイズした設定が既に含まれている構成済みの XML ファイルがある場合は、代わりにそのファイルを読み込む必要があります。 以下のセクションで説明するように、ユーザー プロビジョニング ツールのフィールドに入力します。
   
 ### <a name="to-configure-server-options"></a>サーバー オプションを構成するには:
 
-1. **[Front End Pool FQDN]** フィールドに、Standard Edition サーバー、またはユーザーをホストするフロント エンド プールの完全修飾ドメイン名 (FQDN) を入力します。
+1. [ **フロントエンド プールの FQDN]** フィールドに、Standard Edition サーバーの完全修飾ドメイン名 (FQDN) またはユーザーをホストするフロントエンド プールを入力します。
     
-2. **[User Name Prefix]** フィールドに、テスト目的のユーザー名を無効にする際に使用するプレフィックスを入力します ("TestUser" など)。
+2. [ **ユーザー名のプレフィックス** ] フィールドに、テスト目的でユーザー名を変更するために使用するプレフィックス ("TestUser" など) を入力します。
     
-3. **[Password]** フィールドに、すべてのテスト ユーザー アカウントに使用するパスワードを入力します。
+3. [ **パスワード] フィールド** に、すべてのテスト ユーザー アカウントで使用するパスワードを入力します。
     
-4. **[Account Domain]** フィールドに、現在の AD ドメインのドメイン名を入力します (テスト ユーザーの作成先にするドメイン)。
+4. [ **アカウント ドメイン]** フィールドに、現在のドメイン ドメインAD (テスト ユーザーを作成するドメイン) を入力します。
     
-5. **[Organizational Unit]** フィールドに、該当するテスト ユーザーの作成先にする AD ドメインの名前を入力します  (この OU が存在していない場合は、自動的に作成されます)。
+5. [組織 **単位]** フィールドに、これらのテスト ユーザーをADドメインの名前を入力します。 (OU が存在しない場合は、作成されます)。
     
-6. **[Phone Area Code]** フィールドに、すべてのテスト ユーザー アカウントに使用する 3 桁の市外局番を入力します。 ここで選択する市外局番は、AD 内の他のユーザーの市外局番と競合しないようにしてください。
+6. [電話エリア **コード]** フィールドに、すべてのテスト ユーザー アカウントで使用する 3 桁のエリア コードを入力します。 選択したエリア コードが、他のユーザーのエリア コードと競合しないことをAD。
     
-7. **[Voice Enabled]** チェックボックスをクリックしてオンにします (テスト ユーザーがエンタープライズ VoIP を使用できるようにする場合)。
+7. テスト ユーザーの音声を **有効** にする場合は、[音声が有効] チェック ボックスをオンエンタープライズ VoIP。
     
-8. **[Number of Users]** フィールドでは、作成するテスト ユーザーの合計数を指定します。
+8. [ユーザー **数] フィールド** に、作成するテスト ユーザーの総数を指定します。
     
-9. **[Start Index]** フィールドでは、ユーザー名プレフィックスのサフィックスとして使用する最初の番号を指定します (次の例の場合、プレフィックスは "TestUser" になり、最初の名前の末尾は "0" になります)。
+9. [開始 **インデックス** ] フィールドで、ユーザー名のプレフィックスのサフィックスとして使用される開始番号を指定します (たとえば、プレフィックスが "TestUser" で、下の例では名の末尾が "0" になります)。
     
-     ![[User Creation] タブを表示している User Provisioning Tool。](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
+     ![ユーザー作成タブを表示するユーザー プロビジョニング ツール。](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
   
-#### <a name="create-users-button"></a>[Create Users] ボタン
+#### <a name="create-users-button"></a>[ユーザーの作成] ボタン
 
-**[Create Users]** ボタンをクリックすると、入力した入力パラメーターが検証されます。 検証エラーが見つかると、そのエラーの修正を求められます。 すべての値が適切な場合は、AD (指定した OU 内) にユーザーが表示されるようになります。 ツールの実行時には、下側に進行状況バーが表示されます。 進行状況バーがアクティブになっている間は、アプリケーションを終了しないでください。
+[ユーザーの作成] ボタン **を** クリックすると、入力した入力パラメーターが検証されます。 検証エラーがある場合は、修正を求めるメッセージが表示されます。 または、すべての値が正しい場合、(指定した OU 内の) ADにユーザーが表示され始める可能性があります。 ツールの実行時に、ツールの下部に進行状況バーが表示されます。 進行状況バーがアクティブな間はアプリケーションを閉じない。
   
-ユーザーの作成には時間がかかるため、それに応じて計画を立ててください。 この処理には、数分間 (ユーザーが少数の場合) から数時間 (ユーザーが多数の場合) かかることがあります。
+ユーザーの作成には時間がかかるので、必要に応じて計画してください。 このプロセスは、数分間のユーザーの場合は任意の時間、多数のユーザーの場合は数時間かかる場合があります。
   
-テスト環境の AD ドメイン コントローラーにアクセスできない場合でも、作成対象に指定したユーザーの範囲内のいずれかのユーザーとしてログインすることで、ユーザーの作成を検証できます。 ユーザー名として、@sipDomain と共にプレフィックスとサフィックスを使用してください。 たとえば、<em>TestUser20@contoso.net</em> のようにします。
+テスト環境で AD ドメイン コントローラーにアクセスできない場合でも、作成するユーザー範囲のユーザーの 1 人としてログインすることで、ユーザーの作成を検証できます。 ユーザー名には、プレフィックスとサフィックスを@sipDomainしてください。 次に例を示します: <em>TestUser20@contoso.net。</em>
   
 > [!NOTE]
-> 既にユーザーが存在している場合に [Create Users] ボタンをクリックすると、そのユーザーは構成の変更内容によって更新されます。 
+> ユーザーが既に存在する場合は、[ユーザーの作成] ボタンをクリックすると、構成の変更によってユーザーが更新されます。 
   
-#### <a name="delete-users-button"></a>[Delete Users] ボタン
+#### <a name="delete-users-button"></a>[ユーザーの削除] ボタン
 
-**[Delete Users]** ボタンをクリックすると、そのタブの入力パラメーターが検証されます。 検証エラーが見つかると、そのエラーの修正を求められます。入力値が適切な場合は、指定したテスト ユーザーが無効化され、Active Directory から削除されます。 前述したように、このタブの下側に進行状況バーが表示されます。この進行状況バーがアクティブになっている間はアプリケーションを終了しないでください。
+[ユーザーの削除] **ボタンをクリック** すると、タブの入力パラメーターが検証されます。 検証エラーがある場合は、修正を求めるメッセージが表示され、入力値が正しい場合は、指定したテスト ユーザーが無効になり、Active Directory から削除されます。 この場合も、このタブの下部に進行状況バーが表示され、進行状況バーがアクティブな間はアプリケーションを閉じてはならない。
   
 > [!NOTE]
-> 米国形式の電話番号のみがサポートされます。 ユーザーには電話番号が常に割り当てられます。また、UserProvisioningTool.exe で作成されたすべてのユーザーは、既定でエンタープライズ VoIP が有効化されます。 電話番号を使用するシナリオ (会議自動アテンダントや UC-PSTN 通話など) では、この電話番号が通話の正しいルーティングのために使用されます。 そのため、*すべてのユーザー*に*一意の電話番号*を用意する必要があります。
+> サポートされているのは、米国形式の電話番号のみです。 電話番号は常にユーザーに割り当てられます。電話番号によって作成UserProvisioningTool.exeユーザーは、既定エンタープライズ VoIP有効になっています。 電話会議や UC-PSTN 通話など、自動応答を使用するシナリオでは、この電話番号を使用して通話を適切にルーティングします。 このため、すべてのユーザーは  *一意*  の電話番号 *を持っている必要があります*  。
   
 > [!NOTE]
-> **ユーザーを 2 回作成する必要がある場合は、別の市外局番を使用するか、Disable-CsUser コマンドレットを使用して以前のユーザーを削除してください。それ以外の場合は、ユーザー作成のコマンドが失敗します。**
+> **ユーザーを 2 回作成する必要がある場合は、別のエリア コードを使用しない限り、または以前のユーザーが Disable-CsUser コマンドレットを使用して無効になっている場合、コマンドは失敗します。**
   
 > [!IMPORTANT]
-> 連絡先の作成前に、まず、ユーザーのレプリケーションを完了しておく必要があります (この操作は、[Users] タブで実行します)。 
+> 連絡先を作成する前に、まずユーザーのレプリケーションを完了する必要があります (これは [ユーザー] タブから実行します)。 
   
 > [!IMPORTANT]
-> ユーザー作成の直後の場合は、Skype for Business Server レプリケーションが完了して、データベースにユーザー アカウントが設定されるまで、しばらくの間待機する必要があります。 **ユーザーのレプリケーションが完了していないと、エラーが表示されます。** ユーザーのレプリケーションの完了は、Skype for Business Server 2015 フロント エンド サービスが開始されていること、または指定した合計数の最後のユーザーに対する Get-CsUser コマンドレットが正常に実行されたことによって確認できます。
+> ユーザーを作成したばかりである場合は、Skype for Business Server のレプリケーションが完了し、データベースにユーザー アカウントが設定されるまで待機する必要があります。 **ユーザーがレプリケートを完了していない場合は、エラーが表示されます。** Skype for Business Server 2015 フロントエンド サービスが開始した場合、または指定した総数の最後のユーザーに対して Get-CsUser コマンドレットを正常に実行することで、ユーザーがレプリケートを完了した時間が分かっています。
   
-#### <a name="contacts-creation-tab"></a>[Contacts Creation] タブ
+#### <a name="contacts-creation-tab"></a>[連絡先の作成] タブ
 
-このタブを使用すると、テストのためのユーザーの連絡先詳細を指定できます。
+このタブでは、テスト用にユーザーの連絡先の詳細を指定できます。
   
-![[Contents Creation] タブを表示している User Provisioning Tool。](../../media/dfb7fdf1-fb97-4e8e-8608-c4995f95dd5b.png)
+![[コンテンツの作成] タブを表示するユーザー プロビジョニング ツール。](../../media/dfb7fdf1-fb97-4e8e-8608-c4995f95dd5b.png)
   
-### <a name="to-configure-users-contacts-do-the-following"></a>ユーザーの連絡先を構成するには、次の操作を実行します。
+### <a name="to-configure-users-contacts-do-the-following"></a>ユーザーの連絡先を構成するには、次の手順を実行します。
 
-1. **[Average Contacts per User]** フィールドに、ユーザーごとの連絡先リストに設定する連絡先の平均数を入力します。
+1. [Average **Contacts per User]** フィールドに、各ユーザーの連絡先リストに入力する連絡先の平均数を入力します。
     
-2. **[Fixed]** チェックボックスは、すべてのユーザーに同数の連絡先を作成する場合にオンにします。 各ユーザーに異なる数の連絡先を作成する場合は、このチェックボックスをオフにします。
+2. すべてのユーザー **に対** して同じ数の連絡先を作成する場合は、[固定] チェック ボックスをオンにします。 ユーザー用に作成された連絡先の数を変更する場合は、そのチェック ボックスをオフにします。
     
-3. **[Average Contact Groups per User]** フィールドに、ユーザーごとの連絡先グループの数を入力します。 この数は、**[Average Contacts per User]** よりも小さい数にする必要があります。
+3. [ユーザーあたりの **平均連絡先グループ数]** フィールドに、ユーザーごとの連絡先グループの数を入力します。 この数は、ユーザーごとの平均連絡先 **よりも小さくする必要があります**。
     
-4. **[Federated / Cross Pool Contacts Percentage]** フィールドで、0 から 100 までの数を指定します。 この割合の連絡先が、フェデレーション ユーザーで作成されます。
+4. [フェデレーション/ **クロス プールの連絡先の割合** ] フィールドで、0 ~ 100 の数値を指定します。 この割合の連絡先は、フェデレーション ユーザーと一緒に作成されます。
     
-5. **[Federated / Cross Pool User Prefix]** フィールドで、ローカル ユーザーの連絡先リストに追加するフェデレーション ユーザーのユーザー名を指定します。
+5. [ **フェデレーション/ クロス プール** ユーザー プレフィックス] フィールドで、ローカル ユーザーの連絡先リストに追加されるフェデレーション ユーザーのユーザー名を指定します。
     
-6. **[Federated / Cross Pool User SIP Domain]** で、フェデレーション ユーザーの SIP ドメイン名を指定します。
+6. [フェデレーション **/クロス プール ユーザー SIP ドメイン** ] フィールドで、フェデレーション ユーザーの SIP ドメイン名を指定します。
     
-7. **[User Creation]** タブで、情報に間違いがないことを確認します。 連絡先は、[User Creation] タブの各値に基づいて作成されます。
+7. [ **ユーザーの作成]** タブで、情報が正しいか確認します。 連絡先は、[ユーザーの作成] タブの値から作成されます。
     
-8. **[Create Contacts]** をクリックして、連絡先の作成を開始します。 この処理は、数分間かかります。 処理の完了後、"Operation Completed Successfully" というメッセージのダイアログ ボックスが表示されます。 作成した連絡先は、[User Creation] タブで作成したユーザーとしてログインすることで検証できます。
+8. [連絡先 **の作成] を** クリックして連絡先の作成を開始します。 このプロセスには数分かかる場合があります。 完了すると、"Operation Completed Successfully" というメッセージが表示されたダイアログ ボックスが表示されます。 作成された連絡先は、[ユーザーの作成] タブから作成されたユーザーとしてログオンすることで検証できます。
     
     > [!NOTE]
-    > 連絡先の作成後、このツールによりターゲット プール内のすべてのフロント エンド サーバーが再起動されます。 フロント エンド サーバーの起動には長い時間がかかることがあります (最大 2 時間)。この時間は、この操作で作成した連絡先の数によって異なります。 
+    > 連絡先が作成されると、このツールはターゲット プール内のすべてのフロントエンド サーバーを再起動します。 この操作によって作成された連絡先の数によっては、フロントエンド サーバーの起動に時間がかかる場合があります (最大 2 時間)。 
   
 #### <a name="distribution-list"></a>配布リスト
 
-Skype for Business Server 2015 Stress and Performance Tool では、Skype for Business 2015 クライアントの配布リスト (DL) 展開機能をシミュレートできます。 User Provisioning Tool で DL 展開を有効にしない場合は、この手順を省略できます。
+Skype for Business Server 2015 Stress and Performance Tool は、Skype for Business 2015 クライアントの配布リスト (DL) 拡張機能をシミュレートできます。 ユーザー プロビジョニング ツールで DL 拡張を有効にしない場合は、この手順を省略できます。
   
-![[Distribution List Creation] タブを表示している User Provisioning Tool。](../../media/4b689306-70c4-4569-9842-15c73f038eb6.png)
+![[配布リストの作成] タブを表示するユーザー プロビジョニング ツール。](../../media/4b689306-70c4-4569-9842-15c73f038eb6.png)
   
-[Distribution List] タブでは、Stress and Performance Tool で配布リスト展開機能に使用される DL を作成できます。 DL の作成前に、Skype for Business Server 2015 を展開しておく必要があります。これには、ForestPrep の実行も含まれます。 この操作を実行していないと、DL の属性が AD スキーマに存在しないことになるため、このツールで DL を作成できなくなります。
+[配布リスト] タブでは、Stress and Performance Tool が配布リスト拡張機能に使用する配布リストを作成できます。 DLL を作成する前に、ForestPrep の実行を含め、Skype for Business Server 2015 を展開する必要があります。 これが行われなかった場合、DL 属性は AD スキーマに存在しないので、ツールは DL を作成できません。
   
 ### <a name="to-configure-distribution-lists"></a>配布リストを構成するには:
 
-1. **[Number of Distribution Lists]** フィールドに、作成する DL の合計数を指定します (最初はユーザー数の倍の値にすることをお勧めします)。
+1. [配布 **リスト** の数] フィールドに、作成する配布リストの総数を指定します (ここでの推奨事項は、ユーザー数の 2 倍の値から始めるという方法です)。
     
-2. **[Distribution List Prefix]** フィールドに、作成する DL のすべてに付加するプレフィックスを入力します (例: *testDL*)。 つまり、DL 数が 100 の場合、DL の名前は testDL0、testDL1 のようになり、最後は testDL99 になります。
+2. [Distribution **List Prefix]** フィールドに、作成する DLL のプレフィックス *(testDL*  など) を入力します。 つまり、100 DL では、DL 名は testDL0、testDL1、testDL99 までのように表示されます。
     
-3. **[Minimum Members in a Dist. List]** フィールドに、それぞれの DL に収めるユーザーの最小数を入力します。
+3. **[Dist. List]** フィールドの [Minimum Members] に、各 DL に入力する最小ユーザー数を入力します。
     
-4. **[Maximum Members in a Dist. List]** フィールドに、それぞれの DL に追加するユーザーの最大数を入力します。
+4. **[Dist の最大メンバー** 数] フィールドに、各 DL に追加する最大ユーザー数を入力します。
     
-#### <a name="create-distribution-lists-button"></a>[Create Distribution Lists] ボタン
+#### <a name="create-distribution-lists-button"></a>[配布リストの作成] ボタン
 
-[Create Distribution Lists] ボタンをクリックすると、このツールは Active Directory を照会して、配布リストが既存のプレフィックスと数に一致するかどうかが確認されます。 まだ存在していない DL については、ツールによって作成されます。 この新しく作成した配布リストにメンバーを追加するときには、[User Creation] タブで指定した範囲のユーザーが選択されます。
+[配布リストの作成] ボタンをクリックすると、このツールは Active Directory を照会して、プレフィックスと番号に一致する配布リストが既に存在していないか確認します。 このツールは、まだ存在していない DLL を作成します。 これらの新しく作成した配布リストにメンバーを追加するときに、[ユーザーの作成] タブで指定した範囲からユーザーを選択します。
   
-#### <a name="location-info-service-config-tab"></a>[Location Info Service Config] タブ
+#### <a name="location-info-service-config-tab"></a>[場所情報サービス構成] タブ
 
-Skype for Business Server 2015 Stress and Performance Tool では、場所情報サービスに対応するダミーの構成ファイルを生成することもできます。 通常、場所情報サービスがサーバーのパフォーマンスに重大な影響を与えることはありません。 
+Skype for Business Server 2015 Stress and Performance Tool では、場所情報サービスのダミー構成ファイルを生成することもできます。 通常、場所情報サービスは、サーバーのパフォーマンスに大きな影響を与える点に注意してください。 
   
-![[Location Info Service Config] タブを表示している User Provisioning Tool。](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
+![[場所情報サービス構成] タブを表示するユーザー プロビジョニング ツール。](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
   
-この機能をテストする場合は、フォームに値を入力してから [Generate LIS Config Files] ボタンをクリックします。これにより、次の .CSV ファイルが作成されます。
+If you choose to test this feature, fill in the values in the form and click the Generate LIS Config Files button, which will create .CSV ファイルの呼び出し:
   
 - LIS_Subnet.csv
     
@@ -186,7 +186,7 @@ Skype for Business Server 2015 Stress and Performance Tool では、場所情報
     
 - LIS_WAP.csv
     
-これらのファイルを LIS データベースにインポートする場合は、次の PowerShell コマンドレットを使用します。
+これらのファイルを LIS データベースにインポートするには、次の PowerShell コマンドレットを使用します。
   
 - Set-CsLisSubnet
     
@@ -196,329 +196,329 @@ Skype for Business Server 2015 Stress and Performance Tool では、場所情報
     
 - Set-CsWirelessAccessPoint
     
-## <a name="configure-user-profile"></a>ユーザー プロファイルの作成
+## <a name="configure-user-profile"></a>ユーザー プロファイルを構成する
 <a name="BKMK_UserProfile"> </a>
 
-ユーザーの作成後 (User Creation Tool を使用)、Skype for Business Server 2015 Load Configuration ツールを使用してユーザー プロファイルを構成できます。
+(ユーザー作成ツールを使用して) ユーザーを作成した後、Skype for Business Server 2015 Load Configuration ツール (UserProfileGenerator.exe) を使用してユーザー プロファイルを構成できます。
   
 ### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>Skype for Business Server 2015 Load Configuration ツールの実行
 
-Load Configuration ツール (UserProfileGenerator.exe) を起動して、各タブに入力します。 このツールでは、シミュレーションに必要なクライアント コンピューターごとにディレクトリを作成します。 それぞれのクライアント ディレクトリには、Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe) を実行するためのスクリプトが付属します。 次からの各セクションでは、Skype for Business Server 2015 Load Configuration ツールの各タブにあるフィールドの入力例を示します。
+構成の読み込みツール (UserProfileGenerator.exe) を起動し、タブに入力します。 このツールは、シミュレーションの実行に必要なクライアント コンピューターごとにディレクトリを作成します。 各クライアント ディレクトリには、Skype for Business Server 2015 Stress and Performance ツール (LyncPerfTool.exe) を起動するスクリプトが付属しています。 以下のセクションでは、Skype for Business Server 2015 Load Configuration ツールの各タブのフィールドに入力する方法の例を示します。
   
 > [!IMPORTANT]
-> Load Configuration ツール (UserProfileGenerator.exe) で使用されるユーザー固有の値は、Skype for Business Server 2015 User Creation Tool (UserProvisioningTool.exe) でプールに指定した値と一致している必要があります。 
+> 読み込み構成ツール (UserProfileGenerator.exe) で使用されるユーザー固有の値は、プールの Skype for Business Server 2015 ユーザー作成ツール (UserProvisioningTool.exe) で指定された値と一致する必要があります。 
   
-#### <a name="common-configuration-tab"></a>[Common Configuration] タブ
+#### <a name="common-configuration-tab"></a>[共通の構成] タブ
 
-Load Configuration Tool の **[Common Configuration]** タブを次に示します。 次の各手順で説明するように、[Common Configuration] タブのフィールドを入力してください。
+Load Configuration Tool の [Common **Configuration]** タブを以下に示します。 次の手順で説明するように、[共通の構成] タブのフィールドに入力します。
   
-![[Common Configuration] タブを表示している [User Provisioning] タブ。](../../media/c25df343-3550-47fb-88e0-29194338fee2.png)
+![[共通の構成] タブを表示する [ユーザー プロビジョニング] タブ。](../../media/c25df343-3550-47fb-88e0-29194338fee2.png)
   
-1. **[Number of Available Machines]** フィールドに、Stress and Performance Tool (LyncPerfTool.exe) の実行に使用するコンピューターの数を入力します。 4500 ユーザーごとに 1 台のコンピューターを用意することをお勧めします。ただし、負荷レベルを下げる場合や、ツールで使用できる機能の一部のみを使用する場合、その数を変更してもかまいません (負荷レベルは、[General Scenarios] タブで設定します)。
+1. [利用可能 **なコンピューター** の数] フィールドに、Stress and Performance ツールの実行に使用するコンピューターの数を入力します (LyncPerfTool.exe)。 シミュレートする 4,500 ユーザーごとに 1 台のコンピューターを用意することをお勧めしますが、負荷レベルを下げるか、ツールの使用可能な機能のサブセットのみを使用する場合は、その数が異なる場合があります ([一般的なシナリオ] タブで読み込みレベルが設定されます)。
     
-2. **[Prefix for User Names]** フィールドに、すべてのユーザーのユーザー名フィールドに対するプレフィックスを入力します。 ログインするための Uniform Resource Identifier (URI) は、*ユーザーのプレフィックス[ユーザーの最初のインデックス …(ユーザー数-1)]@ユーザーのドメイン* になります (例: myUser009@Contoso.com)。
+2. [ユーザー **名のプレフィックス]** フィールドに、すべてのユーザーのユーザー名フィールドのプレフィックスを入力します。 Uri (Uniform Resource Identifier) にログインするには *、UserPrefix[User Start Index...(ユーザー数-1)]@Userドメイン*  (たとえば、myUser009@Contoso.com)。
     
-3. **[Password for All Users]** に、ユーザーの作成時に使用したパスワードを入力します。 このフィールドを空白のままにすると、ユーザー名がパスワードとして設定されます。
+3. [すべての **ユーザーのパスワード] フィールドに** 、ユーザーの作成時に使用するパスワードを入力します。 このフィールドを空のままにすると、ユーザー名はパスワードとして設定されます。
     
-4. **[User Start Index]** フィールドに、構成する最初のユーザーのインデックスを入力します。 それぞれの種類または負荷のレベルごとに異なる範囲を構成できますが、構成対象の範囲ごとに Load Configuration ツール (UserProfileGenerator.exe) を 1 回実行する必要があります。
+4. [ユーザー **の開始インデックス]** フィールドに、構成する最初のユーザーのインデックスを入力します。 異なる種類または負荷レベルに対して異なる範囲を構成できますが、構成する範囲ごとに 1 回、Load Configuration ツール (UserProfileGenerator.exe) を実行する必要があります。
     
-5. **[Number of Users]** フィールドに、構成するユーザーの合計数を入力します。
+5. [ **ユーザー数] フィールド** に、構成するユーザーの総数を入力します。
     
-6. **[User Domain]** フィールドに、SIP URI に使用するドメインを入力します。 これは、各ユーザーが Skype for Business Server 2015 フロント エンド サーバーまたは Standard Edition サーバーにログオンするための SIP URI を構築する際に使用され、[Account Domain] とは異なることがあります。
+6. [ユーザー **ドメイン] フィールド** に、SIP URI に使用するドメインを入力します。 これは、Skype for Business Server 2015 フロントエンド サーバーまたは Standard Edition サーバーにログオンする各ユーザーの SIP URI を作成するために使用され、アカウント ドメインとは異なる場合があります。
     
-7. **[Account Domain]** フィールドに、AD DS ドメイン ログオンを入力します。
+7. [アカウント **ドメイン] フィールド** に、DS ドメイン ログオンAD入力します。
     
-8. **[MPOP Percentage]** (Multiple Point of Presence のパーセンテージ) フィールドには、複数のコンピューターまたはデバイスからログオンするユーザーの割合を指定します (たとえば、10 パーセントなど)。
+8. **[MPOP の割合**] (複数のプレゼンス ポイントの割合) フィールドで、複数のコンピューターまたはデバイスからログオンしているユーザーの割合 (たとえば 10%) の値を指定します。
     
-9. 同時エンドポイントの最大数は、**[Sign in Per Second (per Instance)]** フィールドに入力します。 これは、ユーザーの最大ログイン数であり、毎秒 2 ログイン以下の割合 (<=2) にすることをお勧めします。
+9. [サインイン/秒] (インスタンスごとに) フィールドに同時 **エンドポイントの最大数を入力** します。 これはユーザーのログインの最大数であり、推奨される割合は 1 秒あたり 2 以下 (<=2) です。
     
-10. **[Access Proxy or Pool FQDN]** フィールドに、クライアントの接続先にするサーバーの完全修飾ドメイン名 (FQDN) を入力します。 ユーザーが外部的にログオンする場合は、アクセス プロキシを入力する必要があります。 ユーザーが内部の場合は、エンタープライズ プール サーバーまたは Standard Edition サーバーの FQDN を指定します。
+10. [アクセス プロキシ] または [プール **の FQDN]** フィールドに、クライアントが接続するサーバーの完全修飾ドメイン名 (FQDN) を入力します。 ユーザーが外部でログオンしている場合は、アクセス プロキシを入力する必要があります。 ユーザーが内部の場合は、エンタープライズ プールまたは Standard Edition サーバーの FQDN を指定します。
     
-11. **[Port]** フィールドに、ユーザーが SIP に使用するポートを入力します (既定値は 5061)。
+11. [ **ポート] フィールド** に、ユーザーが SIP に使用するポートを入力します (既定値は 5061 です)。
     
-12. **[External Network Server Settings]** フィールドには、[Access Proxy or Pool FQDN] と **[Port]** を再度指定します。 これらの設定は、外部エンドポイントのロード シミュレーションにのみ使用されます。
+12. [外部 **ネットワーク サーバーの設定** ] フィールドで、アクセス プロキシまたはプールの FQDN を指定し、ここでもポートを指定 **します**。 これらの設定は、外部エンドポイントの負荷シミュレーションにのみ使用されます。
     
-#### <a name="general-scenarios-tab"></a>[General Scenarios] タブ
+#### <a name="general-scenarios-tab"></a>[一般的なシナリオ] タブ
 
-![[General Scenarios] タブを表示している Load Configuration Tool。](../../media/45792e57-4322-4c20-956f-fe480b0de1a7.png)
+![[一般的なシナリオ] タブを表示する構成ツールの読み込み。](../../media/45792e57-4322-4c20-956f-fe480b0de1a7.png)
   
-負荷レベルとパラメーターは、実行内容を決定することで示される一般的なシナリオごとに構成することも無効のままにすることもできます。 次に、一般的なオプションを示します。
+実行または無効のままにする処理を決定することで、提供される一般的な各シナリオの負荷レベルとパラメーターを構成できます。 一般的なオプションを次に示します。
   
 > [!NOTE]
-> [Local Information Services] 以外のすべてのフィールドの負荷レベルの値は、**[Disabled]**、**[Low]**、**[Medium]**、**[High]**、または **[Custom]** です。 [Disabled] 以外の設定を選択すると、クライアントごとの構成が生成されます。 [High] はサーバーでサポートされる最大負荷になります。[Medium] は最大負荷の 60%、[Low] は 30% になります。 
+> ローカル 情報サービスを含むすべてのフィールドの読み込みレベルの値は **、無効**、**低**、**中、****高、** または **ユーザー設定です**。 [無効] を選択した場合は、クライアントごとに構成が生成されます。 この値が高い場合、サーバーでサポートされる負荷は最大になります。medium は高負荷の 60% です。low は 30% です。 
   
-- **Instant Messaging**: ピアツーピアおよび会議通話が含まれます。適切な負荷レベルの値を選択します。
+- **インスタント メッセージング -** これにはピアツーピアおよび会議が含まれます。読み込みレベルに適した値を選択します。
     
-- **Audio Conferencing**: 会議通話*のみ*の負荷レベルを選択します。 ピアツーピア通話については、この後の「**Voice Scenarios**」セクションで説明します。 **[Advanced]** タブを開いて、マルチビューを有効にします。
+- **電話会議 -** 電話会議専用の負荷レベルを選択 *します*  。 ピアツーピア通話については、「音声シナリオ」セクションで少し **後で取り組む予定** です。 MultiView を **有効にするには** 、[詳細設定] タブを開きます。
     
-- **Application Sharing**: アプリケーション共有の負荷レベルを選択します。
+- **アプリケーション共有 -** アプリケーション共有の負荷レベルを選択します。
     
-- **Data Collaboration**: データ コラボレーション (データ会議を含む) の負荷レベルを選択します。
+- **データ コラボレーション -** データ会議を含むデータ コラボレーションの負荷レベルを選択します。
     
-- **Distribution List Expansion**: **[Advanced]** ボタンをクリックして、User Creation Tool (UserProvisioningTool.exe) の [DL] タブで構成したものと同じ値をフィールドに入力します。 負荷レベルを選択します。
+- **配布リストの展開 -** [詳細設定 **]** ボタンをクリックし、ユーザー作成ツール (UserProvisioningTool.exe) の [DL] タブで構成されている値と同じ値をフィールドに入力します。 負荷レベルを選択します。
     
-- **Address Book Web Query**: アドレス帳の検索サービスです。アドレス帳ファイルのダウンロードではありません。 アドレス帳ファイルのダウンロードに対して有効にするには、**[Advanced]** ボタンをクリックして **[EnableABSDownload]** を True に設定します。 負荷レベルの値を指定します。
+- **アドレス帳 Web クエリ -** これは、アドレス帳ファイルのダウンロードではなく、アドレス帳参照サービスです。 アドレス帳ファイルのダウンロードに対してこれを有効にする場合は、[詳細設定] ボタンをクリックし **、EnableABSDownload** を True に設定します。 読み込みレベルの値を指定します。
     
-- **Response Group Service**: **[Advanced]** ボタンをクリックして、応答グループ サービスのエージェントのプロビジョニング時に作成した応答グループの URI を指定します。 少なくとも 1 つの応答グループを選択する必要があります。 それよりも多くの応答グループを使用する場合は、それらをセミコロンで区切ります。 実際の値になるように、**[RGSUriSuffixStartIndex]** と **[RGSUriSuffixEndIndex]** を更新します。 負荷レベルを選択します。
+- **応答グループ サービス -** [詳細設定 **] ボタン** をクリックし、応答グループ サービス エージェントの準備時に既に作成した応答グループの URI を指定します。 少なくとも 1 つの応答グループを選択する必要があります。 さらに多くの値を使用するには、応答グループをセミコロンで区切ります。 **RGSUriSuffixStartIndex** と **RGSUriSuffixEndIndex** を実際の値に更新します。 負荷レベルを選択します。
     
-- **Location Information Services**: [Enabled] または [Disabled] のどちらかの負荷レベルを選択します。
+- **場所情報サービス -** [有効] または [無効] の読み込みレベルを選択します。
     
 > [!NOTE]
-> それぞれのシナリオの横には [Advanced] ボタンがあります。また、既定の設定のバリエーションを有効にするチェックボックスのセットがあります。 
+> 各シナリオには、横に [詳細設定] ボタンがあります。また、既定の設定へのバリエーションを有効にする一連のチェック ボックスがあります。 
   
-- *[Ad-hoc]* を選択すると、ツールによって 1 時間の間に作成される会議通話のシミュレーションが作成されます。
+- *アドホックを選択* すると、ツールは 1 時間を通して作成される会議のシミュレーションを生成できます。
     
-- *[Large Conf]* を選択すると、大規模な会議通話のシナリオがシミュレートされます。
+- 大きな  *Conf を選択*  すると、大規模な会議シナリオがシミュレートされます。
     
--  *[External]* では、外部ユーザーについてもシミュレートするようにツールに指示します。
+-  *External*  は、外部ユーザーもシミュレートする必要があります。
     
-これらのボタンとチェックボックスは、それぞれのシナリオに固有な追加の値であり、Stress and Performance Tool の動作を変更して、カスタマイズを可能にします。
+これらのボタンとチェック ボックスは、各シナリオに固有の追加の値であり、Stress and Performance Tool の動作を変更し、カスタマイズを可能にします。
   
-[General Scenarios] タブの各シナリオ ([Location Information Services] を除く) では、負荷レベルの値が **[Custom]** の場合、会話レートが [Advanced] ダイアログ ボックスの対応するフィールドを使用して計算されます。 フィールド名はシナリオによって異なることがありますが、フィールドの説明には、*[NOTE This number will only be used if Custom is selected from the drop-down menu]* (注: この数値は、ドロップダウン メニューから [Custom] を選択した場合にのみ使用されます) と示されます。
+[一般シナリオ] タブのシナリオごとに (場所情報サービスを除く)、読み込みレベルの値がユーザー設定の場合、[詳細設定] ダイアログ ボックスの対応するフィールドを使用して会話速度が計算されます。 シナリオによってフィールド名が異なる場合がありますが、フィールドの説明は次の状態になります。メモ この番号は、ドロップダウン メニューから [ユーザー設定] が選択されている場合にのみ  *使用されます*  。
   
-**[High]**、**[Medium]**、および **[Low]** の値は、すべてのシナリオのバランスを取ったユーザー モデルに合せてモダリティごとの会話レートを変更します。 想定される使用状況とは異なるために、モダリティごとの負荷レベルを変更する必要がある場合は、[Custom] の会話レートを使用します。
+値 **High、Medium、****および** **Low** は、すべてのシナリオのバランスが取れたユーザー モデルに合ったモダリティごとの会話レートを変更します。 期待される使用量の違いによりモダリティごとの負荷レベルを変更する必要がある場合は、カスタム会話レートを使用します。
   
-#### <a name="voice-scenarios-tab"></a>[Voice Scenarios] タブ
+#### <a name="voice-scenarios-tab"></a>[音声シナリオ] タブ
 
-このタブでは、すべての音声関連のシナリオを構成します。
+これは、音声関連のすべてのシナリオを構成するタブです。
   
-![Load Configuration Tool の [Voice Scenarios] タブ。](../../media/042e406f-5156-4095-a4eb-6298f24bb51f.png)
+![[構成ツールの音声シナリオの読み込み] タブ](../../media/042e406f-5156-4095-a4eb-6298f24bb51f.png)
   
-オプションは次のとおりです。
+選択肢は以下のとおりです。
   
-- **[VoIP]**: **[Advanced]** ボタンをクリックして、[PhoneAreaCode] と [LocationProfile (dial plan)] フィールドの値を追加します。 また、負荷レベルの値も指定します。 [VoIP] または [UC/PSTN Gateway] の負荷レベルを有効にすると、外部通話をシミュレートするために、公衆交換電話網 (PSTN) から統合コミュニケーション (UC) への構成ファイルが生成されます。
+- **VoIP -** [詳細設定 **] ボタン** をクリックし、PhoneAreaCode フィールドと LocationProfile (ダイヤル プラン) フィールドの値を追加します。 また、読み込みレベルの値も指定します。 VoIP または UC/PSTN ゲートウェイの負荷レベルを有効にした場合、外部通話をシミュレートするために公衆交換電話網 (PSTN) から統合コミュニケーション (UC) への構成ファイルが生成されます。
     
-- **UC/PSTN Gateway**: 負荷レベルの値を選択する必要があり、[Disabled] 以外の値を選択した場合は、**[Advanced]** ボタンをクリックして PSTN 市外局番の値も指定します。 [Mediation Server and PSTN] の下側にある **[Add]** をクリックします。 その市外局番のルートが構成されていることを確認してください。
+- **UC/PSTN ゲートウェイ -** 負荷レベルの値を選択する必要があります。無効以外の値を選択する場合は、[詳細設定] ボタンをクリックして PSTN エリア コードの値も **指定する必要** があります。 仲介 **サーバーと** PSTN の下の [追加] をクリックします。 エリア コード用にルートが構成されていることを確認します。
     
     > [!TIP]
-    > Skype for Business コントロール パネルまたは Skype for Business 管理シェルを使用すると、音声ルートの構成を確認できます。 
+    > Skype for Business コントロール パネルまたは Skype for Business 管理シェルを使用して、ボイス ルートの構成を確認できます。 
   
-- **Conferencing Attendant**: 負荷レベルの値を指定します。 [Disabled] 以外の値にすると、**[Telephone Number]** フィールドが有効になります。 使用する自動応答の電話番号を入力します。 **[Advanced]** をクリックして、**[LocationProfile]** フィールドの値を指定します。
+- **会議アテンダント -** 読み込みレベルの値を指定します。 Disabled 以外の値を指定すると、[電話番号] **フィールドが有効** になります。 使用する電話番号を自動応答入力します。 [ **詳細設定] を** クリックし **、[LocationProfile] フィールドの値を指定** します。
     
-- **Call Parking Service**: 負荷レベルを指定します。
+- **Call Parking Service -** ここでは、負荷レベルを指定します。
     
-- **Mediation Server and PSTN**: 使用する仲介サーバーごとに独自の PSTN シミュレーターが必要です。 シミュレーターに使用するクライアントを決定したら、構成した PSTN シミュレーターで、そのコンピューターに通話をルーティングするように仲介サーバーを構成します。 **[Add]** ボタンをクリックして、仲介サーバーの値を構成します。
+- **仲介サーバーと PSTN -** 使用する仲介サーバーごとに、独自の PSTN シミュレーターが必要です。 シミュレーターに使用するクライアントを決定した後、構成した PSTN シミュレーターで通話をそのコンピューターにルーティングするように仲介サーバーを構成します。 [追加 **] ボタン** をクリックして、仲介サーバーの値を構成します。
     
     > [!NOTE]
-    > それぞれのシナリオの横には [Advanced] ボタンがあります。 [Advanced] ダイアログ ボックスには、Stress and Performance Tool の動作を変更してカスタマイズを可能にする、各シナリオに固有の設定が含まれています。 > [Voice Scenarios] タブの各シナリオでは、負荷レベルの値が **[Custom]** の場合、会話レートが [Advanced] ダイアログ ボックスの対応するフィールドを使用して計算されます。 フィールド名はシナリオによって異なることがありますが、フィールドの説明には、*[NOTE This number will only be used if Custom is selected from the drop-down menu]* (注: この数値は、ドロップダウン メニューから [Custom] を選択した場合にのみ使用されます) と示されます。
+    > 各シナリオの横に [詳細設定] ボタンがあります。 [詳細] ダイアログ ボックスには、Stress and Performance Tool の動作を変更し、カスタマイズを有効にする各シナリオに固有の設定が含まれる。 > [音声シナリオ] タブのシナリオごとに、読み込みレベルの値が **カスタム** の場合、[詳細設定] ダイアログ ボックスの対応するフィールドを使用して会話速度が計算されます。 シナリオによってフィールド名が異なる場合がありますが、フィールドの説明は次の状態になります。メモ この番号は、ドロップダウン メニューから [ユーザー設定] が選択されている場合にのみ  *使用されます*  。
   
 #### <a name="web-app-tab"></a>[Web App] タブ
 
-![Load Configuration Tool の [Web app] タブ。](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
+![構成ツールの [Web アプリ] タブを読み込む。](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
   
-[Web App] では、フロント エンド サーバーにインストールされた Unified Communications Web API (UCWA) サーバーによる会議シナリオをサポートします。 [Web App] タブを使用して、Web アプリ関連のすべてのシナリオを構成します。 オプションは、次のとおりです。
+Web App は、フロントエンド サーバーにインストールされている Unified Communications Web API (UCWA) サーバーを介した会議シナリオをサポートします。 [Web アプリ] タブを使用して、すべての Web アプリ関連のシナリオを構成します。 オプションは、次のとおりです。
   
-- **General Web App Settings**: **[Additional Settings]** ボタンをクリックして、**[ReachTargetServerUrl]** をフロント エンド プール VIP のディレクトリ プール仮想 IP (VIP) に設定します。
+- **一般的な Web アプリの設定 -** [追加 **設定]** ボタンをクリックし **、ReachTargetServerUrl** をフロントエンド プールの VIP のディレクトリ プール仮想 IP (VIP) に設定します。
     
-- **Application Sharing**: 負荷レベルの値を選択します。
+- **アプリケーション共有 -** 読み込みレベルの値を選択します。
     
-- **Data Collaboration**: 負荷レベルの値を選択します。
+- **データ コラボレーション -** 読み込みレベルの値を選択します。
     
-- **Instant Messaging**: 負荷レベルの値を選択します。
+- **インスタント メッセージング -** 読み込みレベルの値を選択します。
     
-- **Voice Conferencing**: 負荷レベルの値を選択します。
-    
-> [!NOTE]
-> それぞれのシナリオの横には **[Advanced]** ボタンが配置されています。 [Advanced] ダイアログには、Stress and Performance Tool の動作を変更してカスタマイズを可能にする、各シナリオに固有の値が含まれています。> それぞれの [Web App] のシナリオについて、負荷レベルが **[Custom]** の場合は、既定値の代わりに **[ConversationsPerHour]** フィールドに指定した値が使用されます。
-  
-#### <a name="mobility-tab"></a>[Mobility] タブ
-
-このタブを使用して、モビリティ関連のシナリオのすべてを構成します。
-  
-![Load Configuration Tool の [Mobility] タブ。](../../media/30af39c2-50ea-476a-8a56-ce2ddf08517e.png)
-  
-次のオプションがあります。
-  
-- **General Mobility Settings**: **[Additional Settings]** をクリックして、[UcwaTargetServerUrl] フィールドをフロント エンド プール VIP のディレクトリ プール仮想 IP (VIP) に設定します。
-    
-- **Presence and P2P Instant Messaging/Audio**: 負荷レベルの値を選択して、モビリティのシミュレーションを有効にします。
+- **音声会議 -** 読み込みレベルの値を選択します。
     
 > [!NOTE]
-> それぞれのシナリオの横には **[Advanced]** ボタンが配置されています。 [Advanced] ダイアログには、Stress and Performance Tool の動作を変更してカスタマイズを可能にする、各シナリオに固有の値が含まれています。> それぞれの [Mobility] のシナリオについて、負荷レベルが **[Custom]** の場合は、既定値の代わりに **[ConversationsPerHour]** フィールドに指定した値が使用されます。
+> 各シナリオの横に **[詳細設定** ] ボタンがあります。 詳細ダイアログには、Stress and Performance Tool の動作を変更し、カスタマイズを有効にする各シナリオに固有の値が含まれます。> Web App の各シナリオで、読み込みレベルが **カスタム** の場合は **、ConversationsPerHour** フィールドで指定された値が既定ではなく使用されます。
   
-#### <a name="summary-tab"></a>[Summary] タブ
+#### <a name="mobility-tab"></a>[モビリティ] タブ
 
-[Summary] タブには、シナリオごとに使用するユーザーが示されます。
+モビリティ関連のすべてのシナリオを構成するには、このタブを使用します。
   
-![Load Configuration Tool の [Summary] タブ。](../../media/436fb3f2-d73e-402d-bc6e-e8a6740819d2.png)
+![[構成ツールのモビリティの読み込み] タブ](../../media/30af39c2-50ea-476a-8a56-ce2ddf08517e.png)
   
-[Summary] タブには、シナリオごとに使用するユーザーが示されます。 
+オプションは次のとおりです。
   
-ユーザー番号の範囲は、**[Enable Custom User Range Generation]** チェック ボックスをオンにして、表内でカスタマイズするユーザー範囲があるシナリオをダブルクリックすると手動で構成できます。
+- **General Mobility Settings -** [ **追加設定]** をクリックし、フィールド UcwaTargetServerUrl をディレクター プール仮想 IP (VIP) またはフロントエンド プールの VIP に設定します。
+    
+- **プレゼンスと P2P インスタント メッセージング/オーディオ -** モビリティ シミュレーションを有効にするには、負荷レベルの値を選択します。
+    
+> [!NOTE]
+> 各シナリオの横に **[詳細設定** ] ボタンがあります。 詳細ダイアログには、Stress and Performance Tool の動作を変更し、カスタマイズを有効にする各シナリオに固有の値が含まれます。> 各モビリティ シナリオで、負荷レベルが **カスタム** の場合は **、ConversationsPerHour** フィールドで指定された値が既定ではなく使用されます。
   
-サインイン レートに合せて生成されたバッチ ファイルに遅延を含める場合は、**[(RunClient.bat) Add sign-in delay when starting]** をオンにします。 これは、多数のユーザーがサインにするときにサーバーの過負荷を防止する際に役立ちます。
+#### <a name="summary-tab"></a>[概要] タブ
+
+[概要] タブは、各シナリオで使用するユーザーを示します。
   
-**[Generate Files]** をクリックして、構成の生成先にするフォルダーを選択します。 ファイルが正常に作成されると、ダイアログ ボックスが表示されます。
+![[構成ツールの概要] タブを読み込む。](../../media/436fb3f2-d73e-402d-bc6e-e8a6740819d2.png)
   
-!["Load configuration files generated successfully" というメッセージ ボックス。 そのまま [OK] をクリックします。](../../media/c3c1d4a0-cb44-4837-8124-03354f5d9d8c.png)
+[概要] タブは、各シナリオで使用するユーザーを示します。 
+  
+ユーザー番号の範囲を手動で構成するには、[ユーザー範囲の生成を有効にする] チェック ボックスをオンにし、カスタマイズするユーザー範囲を含む表のシナリオをダブルクリックします。
+  
+**(RunClient.bat) サインイン** 速度に対応する生成されたバッチ ファイルに遅延を含めるには、開始時にサインインの遅延を追加します。 これは、多数のユーザーをサインインするときにサーバーの過負荷を防ぐのに役立ちます。
+  
+[ **ファイルの生成]** をクリックし、構成を生成するフォルダーを選択します。 ファイルが正常に作成されると、ダイアログ ボックスが表示されます。
+  
+![[正常に生成された構成ファイルの読み込み] メッセージ ボックス。 [OK] をクリックします。](../../media/c3c1d4a0-cb44-4837-8124-03354f5d9d8c.png)
   
 ## <a name="run-lyncperftool"></a>LyncPerfTool の実行
 <a name="BKMK_RunTool"> </a>
 
-Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe) の実行前に、ユーザー、連絡先、およびシナリオを作成する必要があります。 これらの操作を実行するツールの使用方法の詳細については、この記事で前述した「[ユーザーと連絡先の作成](using-the-tool.md#BKMK_CreateUsersAndContacts)」および「[ユーザー プロファイルの構成](using-the-tool.md#BKMK_UserProfile)」を参照してください。 これらのツールを実行することで、必須のパラメーターが含まれたバッチ ファイルの一部として、Stress and Performance Tool で実行するファイルも生成されます。
+Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool.exe) を実行する前に、ユーザー、連絡先、およびシナリオを作成する必要があります。 ツールを使用してこれらのアクションを実行する方法の詳細[](using-the-tool.md#BKMK_CreateUsersAndContacts)については、この記事で[](using-the-tool.md#BKMK_UserProfile)前に説明した「ユーザーと連絡先の作成とユーザー プロファイルの構成」を参照してください。 これらのツールを実行すると、必要なパラメーターを含むバッチ ファイルの一部として Stress and Performance ツールで実行されるファイルも生成されます。
   
-### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool の実行
+### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance ツールの実行
 
-Load Configuration ツール (UserProfileGenerator.exe) では、パフォーマンス カウンターを登録して XML 構成ファイルを読み込むことで、Stress and Performance Tool (LyncPerfTool.exe) の実行が可能になるバッチ ファイルを作成します。 このバッチ ファイルでは、構成ファイルごとに LyncPerfTool.exe の 1 つのインスタンスを実行します。 バッチ ファイルを実行するには、次の手順を実行します。
+Load Configuration ツール (UserProfileGenerator.exe) は、パフォーマンス カウンターを登録し、XML 構成ファイルを読み込み、Stress and Performance Tool (LyncPerfTool.exe) を実行できるバッチ ファイルを作成します。 バッチ ファイルは、構成ファイルごとに 1 LyncPerfTool.exeインスタンスを実行します。 バッチ ファイルを実行するには、次の手順を実行します。
   
-### <a name="run-the-stress-and-performance-test"></a>Stress and Performance テストの実行
+### <a name="run-the-stress-and-performance-test"></a>ストレスとパフォーマンスのテストを実行する
 
-1. 各クライアント コンピューターの LyncPerfTool.exe があるディレクトリに、構成フォルダーとファイルが含まれているフォルダーをコピーします  (たとえば、1.28_13.16.16 という名前のフォルダー内に構成ファイルを生成した場合は、そのフォルダーを LyncPerfTool.exe が含まれているフォルダーにコピーします。 この操作をクライアントごとに実行します)。
+1. 構成フォルダーとファイルを含むフォルダーを、各クライアント コンピューター上にLyncPerfTool.exeディレクトリにコピーします。 (たとえば、1.28_13.16.16 という名前のフォルダーに構成ファイルを生成した場合は、そのフォルダーを LyncPerfTool.exe が含むフォルダーにコピーします。 これを各クライアントで行います)。
     
-2. クライアントのフォルダーに移動して、**RunClient** バッチ スクリプトを実行します。 Windows のエクスプローラーでバッチ ファイルをダブルクリックすると、そのクライアント用のすべての構成ファイルを実行できます。 また、次の構文を使用して、クライアントのフォルダーからスクリプトを実行することもできます。
+2. クライアント フォルダーに移動し **、RunClient** バッチ スクリプトを実行します。 エクスプローラーでバッチ ファイルをダブルクリックすると、そのクライアントのすべての構成ファイルが実行されます。 次の構文を使用して、クライアント フォルダーからスクリプトを実行することもできます。
     
    ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
-Stress and Performance Tool を直接実行するには、コマンド プロンプトを開いて、コマンド ラインで次のコマンドを入力します (この操作を初めて実行する場合は、このトピックの注記で後述するように、パフォーマンス カウンターの登録 `regsvr32 /i /n /s LyncPerfToolPerf.dll` を実行してください)。
+Stress and Performance ツールを直接実行するには、コマンド プロンプトを開き、コマンド ラインで次のコマンドを入力します (初めて実行する場合は、このトピックの後半のメモに示すように、必ずパフォーマンス カウンターを登録してください)。 `regsvr32 /i /n /s LyncPerfToolPerf.dll`
   
 ```console
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
-ツールで構成ファイル内の値が表示されるようにするには、次に示すように、前述のコマンドに `/displayfile` パラメーターを含めます。
+ツールで構成ファイルの値を表示するには、前のコマンドにパラメーターを含め、次のように  `/displayfile` します。
   
 ```console
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 
-処理を*終了*するには、Ctrl キーを押しながら C キーを押します。
+プロセス  *を終了*  するには、Ctrl + C キーを押します。
   
 > [!NOTE]
-> Stress and Performance Tool を直接実行する前に、コマンド `regsvr32 /i /n /s LyncPerfToolPerf.dll` でパフォーマンス カウンターを登録する必要があります。
+> Stress and Performance ツールを直接実行する前に、次のコマンドを使用してパフォーマンス カウンターを登録する必要があります。  `regsvr32 /i /n /s LyncPerfToolPerf.dll`
   
 > [!NOTE]
-> 起動した Stress and Performance Tool のすべてのインスタンスは、通常、1 秒間に 1 ユーザーの割合でユーザーのサインインをすぐに開始します。 
+> 開始する Stress and Performance ツールのすべてのインスタンスは、すぐにユーザーのサインインを開始します。通常は、1 秒あたり 1 ユーザーの割合でサインインします。 
   
-プールに対するユーザー サインインの最大レートは、毎秒約 12 ユーザーになります。 そのため、ユーザーがサインインしている間は、同時に 12 個よりも多くの LyncPerfTool.exe のインスタンスを実行しないでください。 1 秒間に 1 ユーザーの割合で 1000 ユーザーが完全にサインインするには、約 20 分かかります。
+プールのユーザー サインイン率のピークは、1 秒あたり約 12 です。 つまり、ユーザーがサインインしている間、同時に 12 LyncPerfTool.exeを超えるインスタンスを開始してはならないことを意味します。 1 秒あたり 1 人のユーザーが完全にサインインするには、約 20 分かかります。
   
 ## <a name="interpreting-the-results"></a>結果の解釈
 <a name="BKMK_Interpret"> </a>
 
-Skype for Business Server 2015 Stress and Performance Tool には、クライアントの実行内容と問題が発生しているかどうかを判断する際に役立つ多くのカウンターがあります。
+Skype for Business Server 2015 Stress and Performance Tool には、クライアントが何を行い、問題が発生しているのかを理解するのに役立つカウンターが多数含まれています。
   
-### <a name="client-counters"></a>クライアントのカウンター
+### <a name="client-counters"></a>クライアント カウンター
 
-実行中の LyncPerfTool.exe の各インスタンスには、カウンターの個別のインスタンスがあります。 それぞれのインスタンスには、そのプロセス ID による名前が付けられます。 クライアントが過負荷になると、別の問題が発生することがあります。 こうした問題を防止するには:
+実行中のインスタンスLyncPerfTool.exeカウンターのインスタンスが個別に設定されます。 各インスタンスの名前は、プロセス ID によって指定されます。 クライアントが過負荷の場合は、他の問題が発生する可能性があります。 これらの問題を回避するには、次の手順を実行します。
   
-- クライアント コンピューターの CPU およびメモリの使用状況を監視します。 CPU が継続的に 90% 以上になっている場合は、ユーザーの数を減らします。
+- クライアント コンピューターの CPU とメモリの使用状況を監視します。 CPU が一貫して 90% を超える場合は、ユーザーの数を減らします。
     
-- メモリ占有領域が大きいときに、ページ ファイルが不足すると問題が発生することがあります。 コミット チャージがコンピューターの制限に達していないことを確認してください。 メモリ制限に達した場合は、ページ ファイルのサイズを大きくするか、ユーザーの数を減らします。
+- メモリ使用量が高い場合は、ページ ファイルの領域が足りなから始まると、問題が発生する可能性があります。 コミット チャージがコンピューターの制限に達していないのを確認します。 メモリ制限に達している場合は、ページ ファイルのサイズを大きくするか、ユーザー数を減らすことを検討してください。
     
-次に、主なパフォーマンス カウンターのリストを示します。
+主要なパフォーマンス カウンターの一覧を次に示します。
   
-**一般情報**
+**一般的な情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|Time Spent in Minutes  <br/> |プロセスの開始からの経過時間。  <br/> |
-|Active Endpoints  <br/> |現在サーバーに接続しているエンドポイントの数。  <br/> |
-|Failed Logons  <br/> |エンドポイント サインインの合計失敗数。  <br/> |
-|Logon Attempts  <br/> |エンドポイント サインインの合計試行数。  <br/> |
-|Endpoints Disconnected  <br/> |切断されたエンドポイントの合計数。  <br/> |
+|時間 (分)  <br/> |プロセスが開始された後に費やされた時間。  <br/> |
+|アクティブなエンドポイント  <br/> |サーバーに現在接続されているエンドポイントの数。  <br/> |
+|失敗したログオン  <br/> |エンドポイント サインインの失敗の総数。  <br/> |
+|ログオン試行回数  <br/> |エンドポイント サインインの合計試行回数。  <br/> |
+|Endpoints Disconnected  <br/> |切断されたエンドポイントの総数。  <br/> |
    
 **プレゼンス情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|SetPresence Calls  <br/> |プレゼンス変更の合計試行数。 プレゼンス変更のさまざまな種類については、SetPresence (プレゼンスの種類) Calls パフォーマンス カウンターを参照してください。  <br/> |
-|NNN Responses for SetPresence  <br/> |サーバーから受信した nnn 応答コードの合計数。  <br/> |
-|GetPresence Calls  <br/> |プレゼンス取得要求の合計試行数。  <br/> |
-|NNN Responses for GetPresence  <br/> |サーバーから受信した nnn 応答コードの合計数。  <br/> |
+|SetPresence Calls  <br/> |プレゼンス変更の合計試行回数。 さまざまな種類のプレゼンス変更については、「SetPresence (Presence Type) Calls Performance Counter」を参照してください。  <br/> |
+|SetPresence の NNN 応答  <br/> |サーバーから受信した nnn 応答コードの総数。  <br/> |
+|GetPresence Calls  <br/> |プレゼンス要求の取得試行の総数。  <br/> |
+|GetPresence の NNN 応答  <br/> |サーバーから受信した nnn 応答コードの総数。  <br/> |
    
-**アドレス帳サービスの情報**
+**アドレス帳サービス情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|ABS Full/Delta File Downloads Attempted  <br/> |試行された完全または差分ファイル ダウンロード要求の合計数。  <br/> |
-|ABS Full/Delta File Downloads Succeeded  <br/> |試行された完全または差分ファイル ダウンロード要求の合計数。  <br/> |
-|アドレス帳 Web クエリ サービスに関連するカウンター  <br/> |アドレス帳ファイルのダウンロードに関連するカウンター。  <br/> |
-|ABS WS Calls attempted  <br/> |試行したアドレス帳 Web クエリ サービス要求の合計数。  <br/> |
-|ABS WS Calls Succeeded  <br/> |成功応答コードを返したアドレス帳 Web クエリ サービス要求の合計数。  <br/> |
-|ABS WS Calls Failed  <br/> |エラー応答コードを返したアドレス帳 Web クエリ サービスの合計数。  <br/> |
+|ABS Full/Delta File Downloads Attempted  <br/> |試行された完全ファイルまたは差分ファイルのダウンロード要求の総数。  <br/> |
+|ABS Full/Delta File Downloads Succeeded  <br/> |試行された完全ファイルまたは差分ファイルのダウンロード要求の総数。  <br/> |
+|アドレス帳 Web クエリ サービス関連のカウンター  <br/> |アドレス帳ファイルのダウンロードに関連するカウンター。  <br/> |
+|ABS WS Calls attempted  <br/> |試行されたアドレス帳 Web クエリ サービス要求の総数。  <br/> |
+|ABS WS Calls Succeeded  <br/> |正常な応答コードを返したアドレス帳 Web クエリ サービス要求の総数。  <br/> |
+|ABS WS Calls Failed  <br/> |エラー応答コードを返したアドレス帳 Web クエリ サービス要求の総数。  <br/> |
    
 > [!NOTE]
-> このカテゴリには、アドレス帳サービス (ABS) のファイル ダウンロードとアドレス帳 Web クエリ サービスの要求を監視するために使用するカウンターが含まれています。 
+> このカテゴリには、アドレス帳サービス (ABS) ファイルのダウンロードとアドレス帳 Web クエリ サービス要求を監視するために使用されるカウンターが含まれます。 
   
-**配布リスト (DL) の情報**
+**配布リスト (DL) 情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|Calls Attempted  <br/> |試行した配布リスト展開 (DLX) Web サービス要求の合計数。  <br/> |
-|Calls Succeeded  <br/> |成功応答コードを返した DLX Web サービス要求の合計数。  <br/> |
-|Calls Failed  <br/> |エラー応答コードを返した DLX Web サービス要求の合計数。  <br/> |
+|Calls Attempted  <br/> |試行された配布リスト拡張 (DLX) Web サービス要求の総数。  <br/> |
+|Calls Succeeded  <br/> |成功した応答コードを返した DLX Web サービス要求の総数。  <br/> |
+|Calls Failed  <br/> |エラー応答コードを返した DLX Web サービス要求の総数。  <br/> |
    
 
   
 > [!NOTE]
-> 次に示す各パフォーマンス カウンターは、すべての Voice over IP (VoIP) の通話数を報告します。これには、仲介サーバー、音声ビデオ会議サーバー、エッジ サーバー、応答グループ アプリケーション、および電話会議自動応答に対する通話が含まれます (これらのシナリオが有効な場合)。 
+> 以下に示すパフォーマンス カウンターは、仲介サーバー、音声ビデオ会議サーバー、エッジ サーバー、応答グループ アプリケーション、電話会議 自動応答 に対する通話を含む、すべてのボイス オーバー IP (VoIP) 呼び出し (これらのシナリオが有効な場合) の番号を報告します。 
   
 **VoIP の基本情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|Calls Active  <br/> |現在進行中の着信/発信音声通話の合計数。  <br/> |
-|Calls Terminated  <br/> |既に終了している着信/発信音声通話の合計数。  <br/> |
-|Calls Declined  <br/> |拒否した着信音声通話の合計数。  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |試行した着信/発信音声通話の合計数。  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |成立した着信/発信音声通話の合計数。  <br/> |
-|Calls Received NNN  <br/> |サーバーから受信した nnn 応答コードの合計数。  <br/> |
-|VoIP Pass Rate (%)  <br/> |成立した通話の合計/試行した通話の合計。  <br/> |
+|Calls Active  <br/> |現在進行中の着信/発信音声通話の総数。  <br/> |
+|Calls Terminated  <br/> |既に終了している着信/発信音声通話の総数。  <br/> |
+|Calls Declined  <br/> |拒否された着信音声呼び出しの総数。  <br/> |
+|着信/発信呼び出しの試行  <br/> |試行された着信/発信音声通話の総数。  <br/> |
+|着信/発信通話の確立  <br/> |確立された着信/発信音声通話の総数。  <br/> |
+|Calls Received NNN  <br/> |サーバーから受信した nnn 応答コードの総数。  <br/> |
+|VoIP パス レート (%)  <br/> |Total calls established/Total calls attempted.  <br/> |
    
-**応答グループ サービス通話の情報**
+**応答グループ サービスの通話情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|Calls Active  <br/> |応答グループ アプリケーションへのアクティブな通話の合計数。  <br/> |
-|Calls Attempted  <br/> |試行した通話の合計数。  <br/> |
+|Calls Active  <br/> |応答グループ アプリケーションに対するアクティブな通話の総数。  <br/> |
+|Calls Attempted  <br/> |試行された通話の総数。  <br/> |
    
-**インスタント メッセージング (IM) 通話の情報**
+**インスタント メッセージング (IM) 通話情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|Calls Active  <br/> |進行中の着信/発信インスタント メッセージング通話の合計数。  <br/> |
-|Calls Terminated  <br/> |既に終了している着信/発信インスタント メッセージング通話の合計数。  <br/> |
-|Calls Received NNN  <br/> |サーバーから受信した nnn 応答コードの合計数。  <br/> |
-|IM Messages Received/Sent  <br/> |すべてのセッションで受信または送信したメッセージの合計数。  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |試行した着信/発信インスタント メッセージング通話の合計数。  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |成立した着信/発信インスタント メッセージ通話の合計数。  <br/> |
+|Calls Active  <br/> |進行中の着信/発信インスタント メッセージング呼び出しの総数。  <br/> |
+|Calls Terminated  <br/> |既に終了している着信/発信インスタント メッセージング呼び出しの総数。  <br/> |
+|Calls Received NNN  <br/> |サーバーから受信した nnn 応答コードの総数。  <br/> |
+|IM メッセージの受信/送信  <br/> |すべてのセッションで受信または送信されたメッセージの総数。  <br/> |
+|着信/発信呼び出しの試行  <br/> |試行された着信/発信インスタント メッセージング呼び出しの総数。  <br/> |
+|着信/発信通話の確立  <br/> |確立された着信/発信インスタント メッセージ呼び出しの総数。  <br/> |
    
-**アプリケーション共有通話の情報**
+**アプリ共有呼び出し情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|Calls Active  <br/> |進行中の着信/発信アプリケーション共有通話の合計数。  <br/> |
-|Calls Terminated  <br/> |既に終了している着信/発信アプリケーション共有通話の合計数。  <br/> |
-|Calls Received NNN  <br/> |サーバーから受信した nnn 応答コードの合計数。  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |試行した着信/発信アプリケーション共有通話の合計数。  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |成立した着信/発信アプリケーション共有通話の合計数。  <br/> |
+|Calls Active  <br/> |進行中の着信/発信アプリケーション共有呼び出しの総数。  <br/> |
+|Calls Terminated  <br/> |既に終了している着信/発信アプリケーション共有呼び出しの総数。  <br/> |
+|Calls Received NNN  <br/> |サーバーから受信した nnn 応答コードの総数。  <br/> |
+|着信/発信呼び出しの試行  <br/> |試行された着信/発信アプリケーション共有呼び出しの総数。  <br/> |
+|着信/発信通話の確立  <br/> |確立された着信/発信アプリケーション共有呼び出しの総数。  <br/> |
    
-**CAA 通話の情報**
+**CAA 通話情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|Calls Active  <br/> |現在進行中の着信/発信公衆交換電話網 (PSTN) 通話の合計数。  <br/> |
-|Calls Terminated  <br/> |既に終了している着信/発信 PSTN 通話の合計数。  <br/> |
-|Incoming/Outgoing Calls Attempted  <br/> |試行した着信/発信 PSTN 通話の合計数。  <br/> |
-|Incoming/Outgoing Calls Established  <br/> |成立した着信/発信 PSTN 通話の合計数。  <br/> |
+|Calls Active  <br/> |現在進行中の着信/発信公衆交換電話網 (PSTN) 通話の総数。  <br/> |
+|Calls Terminated  <br/> |既に終了している着信/発信 PSTN 通話の総数。  <br/> |
+|着信/発信呼び出しの試行  <br/> |試行された着信/発信 PSTN 通話の総数。  <br/> |
+|着信/発信通話の確立  <br/> |確立された着信/発信 PSTN 通話の総数。  <br/> |
    
-**会議通話の情報**
+**電話会議情報**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|Active Instant Messaging Conferences  <br/> |進行中のインスタント メッセージング会議通話の合計数。  <br/> |
-|Active Audio/Video Conferences  <br/> |進行中の音声ビデオ (A/V) 会議通話の合計数。  <br/> |
-|Active Application Sharing Conferences  <br/> |進行中のアプリケーション共有会議通話の合計数。  <br/> |
-|Number of Participants  <br/> |会議通話に現在接続している参加者の合計数。  <br/> |
-|Conference Schedule Failure  <br/> |会議通話のスケジュールに失敗した合計回数。  <br/> |
-|Join Conference Failure  <br/> |会議通話への接続に失敗した合計回数。  <br/> |
+|アクティブなインスタント メッセージング会議  <br/> |進行中のインスタント メッセージング会議の総数。  <br/> |
+|アクティブな音声ビデオ会議  <br/> |進行中の音声ビデオ (A/V) 会議の総数。  <br/> |
+|Active Application Sharing Conferences  <br/> |進行中のアプリケーション共有会議の総数。  <br/> |
+|参加者数  <br/> |現在電話会議に接続している参加者の総数です。  <br/> |
+|会議スケジュールの失敗  <br/> |電話会議をスケジュールしようとして失敗した合計回数。  <br/> |
+|会議参加の失敗  <br/> |電話会議への接続中に発生したエラーの総数です。  <br/> |
    
-**UCWA クライアントのカウンター**
+**UCWA クライアント カウンター**
 
 |**パフォーマンス カウンター**|**説明**|
 |:-----|:-----|
-|Total Number of IMMCU Joins Succeeded  <br/> |参加したインスタント メッセージング会議通話の合計数。  <br/> |
-|Total Number of DMCU Joins Succeeded  <br/> |参加した音声ビデオ会議通話の合計数。  <br/> |
+|Total Number of IMMCU Joins Succeeded  <br/> |参加したインスタント メッセージング会議の総数。  <br/> |
+|Total Number of DMCU Joins Succeeded  <br/> |参加した A/V 会議の総数。  <br/> |
    
 

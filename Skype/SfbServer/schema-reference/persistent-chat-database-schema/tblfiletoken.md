@@ -1,8 +1,8 @@
 ---
 title: tblFileToken
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,37 +12,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
-description: tblFileToken には、ファイル転送のための一時トークンが含まれています。
-ms.openlocfilehash: 573c921278521eb5b9ed7cc754dec9fa3471e9f4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblFileToken には、ファイル送信を目的とする一時的なトークンが格納されます。
+ms.openlocfilehash: 75d3d4df3affe3d12f94499efdb4337ade11af27
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814595"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816017"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
-tblFileToken には、ファイル転送のための一時トークンが含まれています。
+tblFileToken には、ファイル送信を目的とする一時的なトークンが格納されます。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|fileToken  <br/> |nvarchar (50)、null ではない  <br/> |一意のトークン (GUID)。  <br/> |
-|fileTokenUserID  <br/> |int (null ではない)  <br/> |ファイルを転送するプリンシパルの ID です。  <br/> |
-|fileTokenChannelID  <br/> |GUID、null ではない  <br/> |チャットルームノードの GUID です。  <br/> |
-|fileTokenExpireDate  <br/> |datetime。 null ではありません  <br/> |有効期限。 (固定されていない限り、トークンは30分後に期限切れになります (このコラムの次の説明を参照してください)。  <br/> |
-|fileTokenComplianceFileUrl  <br/> |nvarchar(256)  <br/> |転送されたファイルの URL (コンプライアンスサービスの使用の場合)。  <br/> |
-|fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |転送されたファイル (コンプライアンスサービスの使用の場合) のサムネイルの URL。  <br/> |
-|fileTokenComplianceTime  <br/> |datetime2  <br/> |実際のファイル転送操作のタイムスタンプ (コンプライアンスサービスの使用の場合)。  <br/> |
-|fileTokenComplianceIsUpload  <br/> |bit  <br/> |アップロードの場合は True(コンプライアンスサービスの使用のために) False を返します。  <br/> |
-|fileTokenCompliancePinned  <br/> |ビット、null ではない  <br/> |トークンがピン留めされている場合は True です。 これは、コンプライアンスサービスが関連するフィールドを取得できるようになるまで、トークンをテーブルに保持するために使われます。  <br/> |
+|fileToken  <br/> |NULL でない nvarchar (50)  <br/> |一意のトークン (GUID)。  <br/> |
+|fileTokenUserID  <br/> |NULL でない int  <br/> |ファイルを転送するプリンシパルの ID。  <br/> |
+|fileTokenChannelID  <br/> |NULL でない GUID  <br/> |チャット ルーム ノードの GUID。  <br/> |
+|fileTokenExpireDate  <br/> |NULL でない datetime  <br/> |有効期限。固定されていない場合、トークンの有効期限は 30 分 （この列の以下の説明を参照)。  <br/> |
+|fileTokenComplianceFileUrl  <br/> |nvarchar(256)  <br/> |転送ファイルの URL (Compliance Service で使用)。  <br/> |
+|fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |転送ファイルのサムネイルの URL (Compliance Service で使用)。  <br/> |
+|fileTokenComplianceTime  <br/> |datetime2  <br/> |実際のファイル転送操作のタイムスタンプ (Compliance Service で使用)。  <br/> |
+|fileTokenComplianceIsUpload  <br/> |bit  <br/> |アップロードの場合は True、ダウンロードの場合 False (Compliance Service で使用)。  <br/> |
+|fileTokenCompliancePinned  <br/> |NULL でない bit  <br/> |トークンが固定されている場合は True。 コンプライアンス サービスが関連フィールドを取得できるまで、トークンをテーブルに保持するために使用されます。  <br/> |
    
-**機能**
+**Keys**
 
 |**列**|**説明**|
 |:-----|:-----|
 |fileToken  <br/> |主キー。  <br/> |
-|fileTokenChannelID  <br/> |TblNode Guid テーブルで参照されている外部キー。  <br/> |
+|fileTokenChannelID  <br/> |tblNode.nodeGuid テーブルを参照する外部キー。  <br/> |
    
 

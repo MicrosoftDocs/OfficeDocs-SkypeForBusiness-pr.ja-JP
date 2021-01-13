@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams 向けの Advanced Communications のアドオン
-author: LanaChin
-ms.author: v-lanac
+title: Microsoft Teams 用 Advanced Communications アドオン
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -9,7 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Teams のアドバンストコミュニケーションアドオン SKU について説明します。
+description: Microsoft Teams の Advanced Communications アドオン SKU について説明します。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,66 +17,66 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6502f73d39c61eaa933d126cebb71f3123bdd541
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: e3de3ea38f326917232fce41ade78a59ef6da7fc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130388"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809357"
 ---
-# <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft Teams 向けの Advanced Communications のアドオン
+# <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft Teams 用 Advanced Communications アドオン
 
-2020年8月1日、高度な通信は microsoft Teams アドオン SKU として、有料の Microsoft 365 または Office 365 サブスクリプションに対して提供されています。
+Advanced Communications は、2020 年 8 月 1 日から、Microsoft Teams アドオン SKU として Microsoft 365 または Office 365 サブスクリプションをご利用いただけます。
 
-組織でコミュニケーションをさらに強化することを検討している場合は、大規模な会議、会議のカスタマイズ、および組織の通信ポリシーを管理するためのツールを含む、通話と会議機能の高度なコミュニケーションを実現します。
+組織がコミュニケーションエクスペリエンスをさらに強化する場合は、大規模な会議、会議のカスタマイズ、組織の通信ポリシーを管理するためのツールを含む通話および会議機能用の Advanced Communications を取得します。
 
-## <a name="what-is-advanced-communications"></a>高度な通信とは何ですか?
+## <a name="what-is-advanced-communications"></a>Advanced Communications とは
 
-高度な通信には、次のようなさまざまな通信ニーズに対応する、強化された通話と会議機能が備わっています。
+Advanced Communications は、次のようなさまざまな通信ニーズに対応する、通話および会議機能の強化を提供します。
 
-- **より多く** のユーザーにアクセスする: 最大2万人の参加者と、1000参加者のインタラクティブな会議について、ユーザーがリアルタイムでライブイベントに接続して、表示のみの会議体験で最大2万参加者を有効にすることができます。
-- **会議をカスタマイズしてカスタマイズ** する: 社内およびカスタム向けのシナリオについて、会議を通じて、カスタムブランドの会議ロビーなどの機能を使用して標準化を推進します。 組織の部門全体で柔軟に実装できます。 
-- **組織の通信を管理** する: ユーザーとデバイス上のデータを監視、追跡、分析して、スムーズなエクスペリエンスを実現します。
+- より多くの対象ユーザーに **到達する:** 最大 20,000 人の参加者のライブ イベントと対話形式の会議にユーザーが接続し、最大 20,000 人の参加者を表示専用の会議エクスペリエンスで有効にする機能を使用できます。
+- **会議のカスタマイズとカスタマイズ**: カスタム ブランドのミーティング ロビーなどの機能を使用して、内部およびユーザー設定のシナリオに合わせて会議全体の標準化を推進します。 組織の部門全体で柔軟性を備えて実装します。 
+- **組織の通信を管理** する: ユーザーとデバイスのデータを監視、追跡、分析して、スムーズなエクスペリエンスを実現します。
 
-Advanced Communications は、microsoft のすべての microsoft 365 市場で、有料の Microsoft 365 または Office 365 サブスクリプションへのアドオンとして提供されています。 Advanced Communications に含まれる機能は、他の Microsoft 365 または Office 365 プランに追加されず、個別に購入することもできません。 機能を取得するには、アドオンを購入する必要があります。
+Advanced Communications は、すべての Microsoft 365 市場で、有料の Microsoft 365 または Office 365 サブスクリプションのアドオンとして利用できます。 Advanced Communications に含まれる機能は、他の Microsoft 365 プランまたは Office 365 プランには追加されません。また、個別に購入する方法もあります。 機能を取得するには、アドオンを購入する必要があります。
 
 > [!NOTE]
-> Microsoft 365 Government Community Cloud (GCC)、GCC 高、または国防総省 (DoD) 環境では、高度な通信はまだ利用できません。 これは、後で利用できるようにすることを予定しています。
+> Advanced Communications は、Microsoft 365 Government Community Cloud (GCC)、GCC High、または Department of Defense (DoD) 環境ではまだ利用できません。 後で利用できる予定です。
 
 ## <a name="feature-availability"></a>機能の可用性
 
-2020年8月1日のリリースでは、次の機能を利用できます。
+2020 年 8 月 1 日にリリースされた時点で、次の機能を利用できます。
 
-- 最大2万の参加者、50の同時イベント、1ブロードキャストあたり16時間のイベント期間のライブイベントのサポート
+- 最大 20,000 人の参加者、50 の同時イベント、ブロードキャストあたり 16 時間のイベント期間をサポートするライブ イベント
 
-この年の後に、次の機能が利用可能になります。
+次の機能が今年中に利用できる予定です。
 
-- 最大1000人の参加者向けのインタラクティブな Teams 会議
-- 表示のみの会議エクスペリエンスで 1000 2万を有効にする機能を備えた、参加者のインタラクティブなチーム会議
-- カスタムブランドの会議ロビー
+- 最大 1,000 人の参加者を対象にした対話型 Teams 会議
+- 1,000 人の参加者を対象にした対話型 Teams 会議で、表示専用の会議エクスペリエンスで最大 20,000 を有効にする機能
+- カスタム ブランドのミーティング ロビー
 
-今後の月に、カスタマイズ、ツール、および通信の拡張機能が追加されます。 
+今後数か月以内に、カスタマイズ、ツール、コミュニケーションの拡張機能を追加する予定です。 
 
-高度な通信には、通信のコンプライアンスと通信データ損失防止 (DLP) は含まれていないことに注意してください。
+Advanced Communications には、通信コンプライアンスと通信データ損失防止 (DLP) は含め注意してください。
 
-## <a name="pricing"></a>決定
+## <a name="pricing"></a>価格
 
-高度な通信は、1ユーザーあたり $12 です。 会議の開催者のみがライセンスを必要としていることに注意してください。 会議の出席者は、ライセンスを必要としません。
+Advanced Communications は、ユーザー/月あたり 12 ドルです。 会議の開催者だけがライセンスを必要とします。 会議の出席者にはライセンスは必要ない。
 
-## <a name="trial-offer"></a>試用版のプラン
+## <a name="trial-offer"></a>試用版のオファー
 
-60日間の試用版は、2020年8月4日から利用可能です。 Microsoft 365 管理センターを使用して試用版を入手できます。
+2020 年 8 月 4 日から 60 日間の試用版を利用できます。 試用版は、Microsoft 365 管理センターから取得できます。
 
-## <a name="difference-between-overflow-meetings-and-live-events"></a>オーバーフロー会議とライブイベントの相違点
+## <a name="difference-between-overflow-meetings-and-live-events"></a>オーバーフロー会議とライブ イベントの違い
 
-高度なコミュニケーションを利用すれば、300人以上の出席者との会議で、1000最大で2万の参加者が、対話形式のエクスペリエンスを利用できるようになり、最大での参加者が会議に参加できるようになります。 Live イベントにより追加の機能が有効になります。 ライブイベントでは、2万の出席者はブロードキャストを視聴して、チーム内での Q&A の操作、Yammer での会話、Microsoft Stream での表示のみを行うことができます。 さらに、ライブイベントの長さが4時間から16時間に増え、テナントあたり最大50の同時ライブイベントを有効にしています。 
+Advanced Communications を使用すると、出席者数が 300 を超える会議では、最大 1,000 人の参加者が対話形式で操作できるだけでなく、最大 20,000 人の参加者が表示専用のエクスペリエンスで会議に参加できます。 ライブ イベントを使用すると、追加の機能を有効にできます。 ライブ イベントでは、20,000 人の出席者がブロードキャストを視聴し、Teams での Q&A、Yammer での会話、または Microsoft Stream での表示のみと対話できます。 また、ライブ イベントの長さを 4 時間から 16 時間に増やし、テナントごとに最大 50 の同時ライブ イベントを有効にします。 
 
 >[!Note]
 > Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 > [!NOTE]
-> エンタープライズおよび教育機関は、2万出席者に対してライブイベントを一時的に保留にし、ブロードキャストあたり16時間のイベント期間、2021 1 月1日までにテナント内の50同時イベントを行うことができます。
+> Enterprise および Education SKU では、最大 20,000 人の出席者のライブ イベントを一時的に開催できます。イベントの期間はブロードキャストあたり 16 時間で、テナント内では 2021 年 1 月 1 日まで 50 件の同時イベントを開催できます。
 
 ## <a name="related-topics"></a>関連項目
 
-[通話と会議のためのチームポリシーベースのレコーディング](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)
+[通話および会議用の Teams ポリシーベースの記録](https://docs.microsoft.com/MicrosoftTeams/teams-recording-policy)

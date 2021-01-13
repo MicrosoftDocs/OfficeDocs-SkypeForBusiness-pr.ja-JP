@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 の ConferenceSessionDetails テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -12,52 +12,52 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
-description: 各レコードは1つの会議セッションを表します。これは、フォーカスのあるセッションまたは特定の会議サーバーのセッションのいずれかになります。
-ms.openlocfilehash: 95cf64589cdcd0fd38b4e29cd4e863c870f2a7a6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 各レコードは 1 つの電話会議セッションを表し、フォーカスのあるセッションまたは特定の会議サーバーとのセッションのいずれかになります。
+ms.openlocfilehash: 7eb00976af71e88c9bfe2348c4b2e91ca5bb23f8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815345"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816197"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の ConferenceSessionDetails テーブル
  
-各レコードは1つの会議セッションを表します。これは、フォーカスのあるセッションまたは特定の会議サーバーのセッションのいずれかになります。
+各レコードは 1 つの電話会議セッションを表し、フォーカスのあるセッションまたは特定の会議サーバーとのセッションのいずれかになります。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**セッション Id** <br/> |Datetime  <br/> |プライマリ、外部  <br/> |セッション要求の時刻。電話会議セッションを一意に識別するために**Sessionidseq**と組み合わせて使用されます。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |プライマリ、外部  <br/> |セッションを識別する ID 番号。 電話会議セッションを一意に識別するために**Sessionidtime**と組み合わせて使われます。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 * <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |外部  <br/> |このセッションに関連する会議の URI にフォーカスを移動します。 詳細については、「 [Skype For Business Server 2015 の ConferenceUris テーブル](conferenceuris.md)」を参照してください。 この URI は、フォーカスベースの会議 URI です。 <br/> |
-|**ConfInstance** <br/> |長さ  <br/> ||定期的な会議のインスタンスを区別する識別子。 各定期的な会議インスタンスの ConferenceURI は同じですが、異なる ConfInstance 値があります。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**McuConferenceUriId** <br/> |int  <br/> |外部  <br/> |このセッションに関連する会議サーバーの会議 URI。 詳細については、「 [Skype For Business Server 2015 の ConferenceUris テーブル](conferenceuris.md)」を参照してください。 この URI は、会議サーバーベースの会議 URI です。 フォーカス会議セッションの場合、この列は null になります。 <br/> |
-|**UserId** <br/> |int  <br/> |外部  <br/> |会議セッションの1人のユーザーの ID です。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
-|**UserEndpointId** <br/> |長さ  <br/> ||エンドポイントのインスタンスを識別するための GUID。 たとえば、あるユーザーが同じアカウントで異なるコンピューターにログオンしている場合、各コンピューターには別のエンドポイント ID があります。  <br/> |
-|**OnBehalfOfId** <br/> |int  <br/> |外部  <br/> |発信者が代理としているユーザーの ID を示します。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
-|**ReferredById** <br/> |int  <br/> |外部  <br/> |通話を参照するユーザーの ID です。 詳細については、「ユーザー」の[表](users.md)を参照してください。 <br/> |
-|**UserClientVersionId** <br/> |int  <br/> |外部  <br/> |電話会議ユーザーが使用したクライアントバージョン。 詳細については、「 [Skype For Business Server 2015 の Clientversions](clientversions.md) 」の表を参照してください。 <br/> |
-|**ConfClientVersionId** <br/> |int  <br/> |外部  <br/> |会議サーバーで使用されるクライアントのバージョンです。 詳細については、「 [Skype For Business Server 2015 の Clientversions](clientversions.md) 」の表を参照してください。 <br/> |
-|**Edialogidtime の置き換え** <br/> |datetime  <br/> |外部  <br/> |現在のセッションによって置き換えられたダイアログを識別する ID 番号。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
-|**Edialogidseq の置き換え** <br/> |int  <br/> |外部  <br/> |セッションを識別する ID 番号。 このセッションによって置き換えられるセッションを一意に識別するために、**代替の操作と組み合わせ**て使います。 詳細については、「 [Skype For Business Server 2015 のダイアログ一覧](dialogs.md)」を参照してください。 <br/> |
-|**IsStartedByConfServer** <br/> |bit  <br/> ||セッションが会議サーバーによって開始されたかどうかを示します。  <br/> |
+|**SessionIdTime** <br/> |Datetime  <br/> |主/プライマリ、外部  <br/> |セッション要求の時刻。 **SessionIdSeq と組み合わせて使用して** 、会議セッションを一意に識別します。 詳細については [、Skype for Business Server 2015](dialogs.md) の Dialogs テーブルを参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主/プライマリ、外部  <br/> |セッションを識別するための ID 番号。 SessionIdTime と **組み合わせて使用し** 、会議セッションを一意に識別します。 詳細については [、Skype for Business Server 2015](dialogs.md) のダイアログ の表を参照してください。 * <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |外部  <br/> |このセッションに関連するフォーカス会議 URI。 詳細については [、Skype for Business Server 2015 の ConferenceUris テーブル](conferenceuris.md) を参照してください。 この URI は、フォーカスベースの会議 URI です。 <br/> |
+|**ConfInstance** <br/> |uniqueIdentifier  <br/> ||定期的な電話会議のインスタンスを区別する識別子。 定期的な電話会議の各インスタンスは、ConferenceURI は同じですが、ConfInstance 値が異なります。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**McuConferenceUriId** <br/> |int  <br/> |外部  <br/> |このセッションに関連する会議サーバーの会議 URI。 詳細については [、Skype for Business Server 2015 の ConferenceUris テーブル](conferenceuris.md) を参照してください。 この URI は、会議サーバーベースの会議 URI です。 フォーカス会議セッションの場合、この列は null になります。 <br/> |
+|**UserId** <br/> |int  <br/> |外部  <br/> |会議セッションの 1 人のユーザーの ID。 詳細については [、Users の表](users.md) を参照してください。 <br/> |
+|**UserEndpointId** <br/> |uniqueidentifier  <br/> ||エンドポイントのインスタンスを識別する GUID。 たとえば、あるユーザーが同じアカウントを持つ別のコンピューターにログオンした場合、各コンピューターのエンドポイント ID は異なります。  <br/> |
+|**OnBehalfOfId** <br/> |int  <br/> |外部  <br/> |発信者が代理を務めているユーザーの ID を示します。 詳細については [、Users の表](users.md) を参照してください。 <br/> |
+|**ReferredById** <br/> |int  <br/> |外部  <br/> |通話の参照元であるユーザーの ID。 詳細については [、Users の表](users.md) を参照してください。 <br/> |
+|**UserClientVersionId** <br/> |int  <br/> |外部  <br/> |会議ユーザーが使用するクライアント バージョン。 詳細については [、Skype for Business Server 2015 の ClientVersions テーブル](clientversions.md) を参照してください。 <br/> |
+|**ConfClientVersionId** <br/> |int  <br/> |外部  <br/> |会議サーバーで使用されるクライアント バージョン。 詳細については [、Skype for Business Server 2015 の ClientVersions テーブル](clientversions.md) を参照してください。 <br/> |
+|**ReplaceDialogIdTime** <br/> |日付型  <br/> |外部  <br/> |現在のセッションで置き換えられたダイアログを識別するための ID 番号。 詳細については [、Skype for Business Server 2015](dialogs.md) の Dialogs テーブルを参照してください。 <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |外部  <br/> |セッションを識別するための ID 番号。 このセッションで置き換えられたセッションを一意に識別するために **ReplacesDialogIdTime** と併用されます。 詳細については [、Skype for Business Server 2015](dialogs.md) の Dialogs テーブルを参照してください。 <br/> |
+|**IsStartedByConfServer** <br/> |bit  <br/> ||会議サーバーによってセッションが開始されたかどうかを示します。  <br/> |
 |**IsEndedByConfServer** <br/> |bit  <br/> ||会議サーバーによってセッションが終了したかどうかを示します。  <br/> |
-|**IsUserInternal** <br/> |bit  <br/> ||ユーザーが内部からログオンしているかどうか。  <br/> |
-|**返信** <br/> |int  <br/> ||セッションの招待状へのセッション開始プロトコル (SIP) 応答コード。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。  <br/> |
-|**DiagnosticId** <br/> |int  <br/> ||SIP ヘッダーからキャプチャされた診断 ID。  <br/> |
-|**ServerId** <br/> |int  <br/> |外部  <br/> |このセッションで使用するフロントエンドサーバーの ID です。 詳細については、「Servers」の[表](servers.md)を参照してください。 <br/> |
-|**PoolId** <br/> |int  <br/> |外部  <br/> |セッションがキャプチャされたプールの ID です。 詳細については、「プール」の[表](pools.md)を参照してください。 <br/> |
-|**MediationServerId** <br/> |int  <br/> |外部  <br/> |通話が使用している仲介サーバー。 詳細については、 [Mediationservers テーブル](mediationservers.md)を参照してください。 <br/> |
-|**GatewayId** <br/> |int  <br/> |外部  <br/> |通話が使用しているゲートウェイ。 詳細については、「 [Skype For Business Server 2015 のゲートウェイの表](gateways.md)」を参照してください。 <br/> |
-|**EdgeServerId** <br/> |int  <br/> |外部  <br/> |通話が使用しているエッジサーバー。 詳細については、「 [Skype For Business Server 2015 の EdgeServers テーブル](edgeservers.md)」を参照してください。 <br/> |
-|**ContentTypeId** <br/> |int  <br/> |外部  <br/> |セッションで使用されるコンテンツタイプ。 詳細については、「 [Skype For Business Server 2015 の ContentTypes テーブル](contenttypes.md)」を参照してください。 <br/> |
-|**InviteTime** <br/> |datetime  <br/> ||最初の招待要求の時刻。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。  <br/> |
-|**ResponseTime** <br/> |datetime  <br/> ||最初の SIP 応答の時刻。 通常、このフィールドは、セッションの最初の INVITE メッセージから生成されたデータによって設定されます。 招待メッセージがない場合は、最初に関連する SIP メッセージ (BYE、キャンセル、メッセージ、または情報) の日付と時刻がフィールドに設定されています。  <br/> |
-|**セッション終了時刻** <br/> |datetime  <br/> ||セッションが終了した時刻。  <br/> |
-|**UriTypeId** <br/> |tinyint  <br/> |外部  <br/> |[UriTypes テーブル](uritypes.md)の MCU URI の種類の値が含まれています。 このフィールドは、クエリのパフォーマンスを向上させるために使用されます。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**UserFlag** <br/> |smallint  <br/> || ユーザー属性を示すビットセット。 次の属性定義が表示されます。 <br/>  デスクトップ電話と統合-1 <br/> |
-|**CallFlag** <br/> |smallint  <br/> || 呼び出し属性を示すビットセット。 次の属性定義が表示されます。 <br/>  セッションを再試行しました-1 <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> ||監視サービスで内部的に使用されます。  <br/> このフィールドは、Skype for Business Server 2015 で導入されました。  <br/> |
+|**IsUserInternal** <br/> |bit  <br/> ||ユーザーが内部からログオンするかどうか。  <br/> |
+|**ResponseCode** <br/> |int  <br/> ||セッションの招待に対するセッション開始プロトコル (SIP) 応答コード。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。 INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
+|**DiagnosticId** <br/> |int  <br/> ||SIP ヘッダーから取得された診断 ID。  <br/> |
+|**ServerId** <br/> |int  <br/> |外部  <br/> |このセッションで使用されるフロントエンド サーバーの ID。 詳細については [、Servers の表](servers.md) を参照してください。 <br/> |
+|**PoolId** <br/> |int  <br/> |外部  <br/> |セッションが取得されたプールの ID。 詳細については [、Pools の表](pools.md) を参照してください。 <br/> |
+|**MediationServerId** <br/> |int  <br/> |外部  <br/> |通話が使用している仲介サーバー。 詳細については [、MediationServers の表](mediationservers.md) を参照してください。 <br/> |
+|**GatewayId** <br/> |int  <br/> |外部  <br/> |通話が使用しているゲートウェイ。 詳細については [、Skype for Business Server 2015](gateways.md) のゲートウェイの表を参照してください。 <br/> |
+|**EdgeServerId** <br/> |int  <br/> |外部  <br/> |呼び出しが使用しているエッジ サーバー。 詳細については [、Skype for Business Server 2015 の EdgeServers テーブル](edgeservers.md) を参照してください。 <br/> |
+|**ContentTypeId** <br/> |int  <br/> |外部  <br/> |セッションで使用されるコンテンツの種類。 詳細については [、Skype for Business Server 2015 の ContentTypes の表](contenttypes.md) を参照してください。 <br/> |
+|**InviteTime** <br/> |日付型  <br/> ||最初の INVITE 要求の時刻。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。 INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
+|**ResponseTime** <br/> |日付型  <br/> ||最初の SIP 応答の時刻。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。 INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
+|**SessionEndTime** <br/> |日付型  <br/> ||セッションが終了した時刻。  <br/> |
+|**UriTypeId** <br/> |tinyint  <br/> |外部  <br/> |UriTypes テーブルからの MCU URI の種類の [値が含まれています](uritypes.md)。 このフィールドは、クエリのパフォーマンスを向上するために使用されます。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**UserFlag** <br/> |smallint  <br/> || ユーザー属性を示すビット セット。 以下の属性が定義されています。 <br/>  デスクトップフォンとの統合 - 1 <br/> |
+|**CallFlag** <br/> |smallint  <br/> || 通話の属性を示すビット セット。以下の属性が定義されています。 <br/>  再試行されたセッション - 1 <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||監視サービスの内部用テーブル。  <br/> このフィールドは、Skype for Business Server 2015 で導入されました。  <br/> |
    
-\*ほとんどのセッションでは、SessionIdSeq の値は1になります。 複数のセッションが同時に開始された場合は、1つのセッションの SessionIdSeq は1、それ以外の場合は2となります。
+\* ほとんどのセッションでは、SessionIdSeq の値は 1 になります。 まったく同時に複数のセッションが開始した場合、あるセッションの SessionIdSeq は 1、別のセッションは 2、などとなります。
   
 

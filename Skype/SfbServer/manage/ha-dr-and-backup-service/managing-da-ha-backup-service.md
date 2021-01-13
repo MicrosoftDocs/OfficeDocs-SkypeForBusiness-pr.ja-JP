@@ -1,8 +1,8 @@
 ---
-title: 障害回復、高可用性、バックアップサービスの管理
+title: 障害復旧、高可用性、およびバックアップ サービスの管理
 ms.reviewer: ''
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,38 +10,38 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 障害回復操作の手順、およびペアリングされたフロントエンドプールのデータを同期するバックアップサービスの維持について説明します。
-ms.openlocfilehash: bb8178b98d355159a92d7187884e5502912f4436
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 障害復旧操作の手順と、ペアのフロント エンド プールのデータを同期するバックアップ サービスを維持する手順について説明します。
+ms.openlocfilehash: e486a71203b64b4fc351888869ac64a24689ba7b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818338"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49817157"
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Skype for Business Server の災害復旧、高可用性、バックアップサービスの管理
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Skype for Business Server の障害復旧、高可用性、およびバックアップ サービスの管理
 
-このセクションには、障害回復操作の手順に加えて、ペアリングされたフロントエンドプールのデータを同期するバックアップサービスを管理するための手順が含まれています。
+このセクションでは、障害復旧操作の手順と、ペアのフロント エンド プール内のデータを同期するバックアップ サービスを維持するための手順について説明します。
 
-フェールオーバーとフェールバックの両方の障害回復手順は手動で行うことができます。 障害が発生した場合、管理者はフェールオーバー手順を手動で呼び出す必要があります。 プールが修復された後も、フェイルバックにも同じことが適用されます。
+障害回復の手順は、フェールオーバーとフェールバックのどちらも、手動によるものです。障害が発生した場合、管理者はフェールオーバーの手順を手動で開始する必要があります。プール修復後のフェールバックにも同じことが当てはまります。
 
-このセクションの障害回復手順では、次のことを前提としています。
+このセクションの障害復旧手順では、以下を前提とします。
 
-  - [高可用性と障害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)に記載されているように、複数のフロントエンドプールを使用して、さまざまなサイトに存在する展開を利用できます。 これらのペアのプールでバックアップサービスが実行されているため、同期されません。
+  - 「高可用性と障害復旧の計画」で説明するように、ペアのフロント エンド プールが異なるサイト [に展開されている](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。 バックアップ サービスは、ペアになったプールの同期を保つためにこれらのプール上で実行されています。
 
-  - 中央管理ストアがいずれかのプールでホストされている場合は、これらのペアのプールの両方にインストールされて実行され、アクティブなマスターをホストしているプールと、スタンバイをホストしている他のプールのどちらかになります。
+  - 中央管理ストアがいずれかのプールでホストされている場合、そのストアはペアのプールの両方にインストールされ、実行されます。これらのプールの 1 つはアクティブ マスターをホストし、もう 1 つはスタンバイをホストするプールです。
 
 > [!IMPORTANT]
-> 次の手順では、 *Poolfqdn*パラメーターが、障害によって影響を受けるプールの fqdn を示しますが、影響を受けるユーザーがリダイレクトされるプールには関係ありません。 影響を受けているユーザーの同じセットの場合、フェールオーバーとフェールバックの両方のコマンドレット (つまり、フェールオーバー前に最初にユーザーをホームにしたプール) で同じプールを参照します。<BR><br>たとえば、プール P1 に所属しているすべてのユーザーがバックアッププール (P2) にフェールオーバーした場合を想定します。 管理者が、現在 P2 で処理されているすべてのユーザーを P1 で処理するようにする場合は、管理者は次の手順を実行する必要があります。 
+> 以下の手順では、影響を受けるユーザーのリダイレクト元になるプールではなく、障害の影響を受けるプールの完全修飾 FQDN を PoolFQDN ** パラメーターが参照しています。影響を受ける同じユーザー群が同じ場合、このパラメーターはフェールオーバーとフェールバックの各コマンドレットで同じプール (つまり、ユーザーがフェールオーバー前に最初に所属していたプール) を参照します。<BR><br>たとえば、プール P1 に所属していたすべてのユーザーがバックアップ プール P2 にフェールオーバーされた場合を想定します。 管理者が P2 によって現在サービスを受け取っているすべてのユーザーを P1 によって処理される移動する場合、管理者は次の手順を実行する必要があります。 
 > <OL>
 > <LI>
-> <P>フェールバックコマンドレットを使用して、最初に P1 をホームにしたユーザーをすべて P2 から P1 にフェールバックします。 この場合、 *Poolfqdn*は P1's fqdn です。</P>
+> <P>フェールバック コマンドレットを使用して、当初 P1 にホームだったすべてのユーザーを P2 から P1 にフェールバックします。 この場合、PoolFQDN ** は P1 の FQDN になります。</P>
 > <LI>
-> <P>フェールオーバーコマンドレットを使用して、最初に P2 でホームに所属していたすべてのユーザーをフェールオーバーします。 この場合、PoolFQDN は P2's FQDN です。</P>
+> <P>フェールオーバー コマンドレットを使用して、当初 P2 から P1 にいたすべてのユーザーをフェールオーバーします。 この場合、PoolFQDN は P2 の FQDN になります。</P>
 > <LI>
-> <P>後で管理者が p2 に戻すようにしたい場合は、PoolFQDN は P2's FQDN です。</P></LI></OL><br>上記の手順1では、手順2を実行してプールの整合性を維持する必要があります。 手順1より前の手順2を実行した場合は、手順2のコマンドレットが失敗します。
+> <P>後で管理者が P2 ユーザーを P2 にフェールバックする場合、PoolFQDN は P2 の FQDN になります。</P></LI></OL><br>プールの整合性を維持するには、上記の手順 1 を手順 2 の前に実行する必要があります。 手順 1 の前に手順 2 を実行すると、手順 2 のコマンドレットは失敗します。
 
 
 ## <a name="see-also"></a>関連項目
 
-[高可用性および障害復旧の計画](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
+[高可用性と障害復旧を計画する](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
   

@@ -1,8 +1,8 @@
 ---
-title: ネットワークインターフェイス情報の表示
+title: ネットワーク インターフェイス情報の表示
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Windows PowerShell と CsNetworkInterface コマンドレットを使用して、ネットワークインターフェイス情報を表示できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。
-ms.openlocfilehash: d4443f7ec10a0f56cc82ab495d88518f3f3aa17d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ネットワーク インターフェイス情報は、このコマンドレットと Windows PowerShell使用してGet-CsNetworkInterfaceできます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+ms.openlocfilehash: 26876fe6f7d8ac6989c88e8247d28a72e78ff903
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817353"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815137"
 ---
-# <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Skype for Business Server でのネットワークインターフェイス情報の表示
+# <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク インターフェイス情報の表示
 
-Windows PowerShell と**CsNetworkInterface**コマンドレットを使用して、ネットワークインターフェイス情報を表示できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモートセッションから実行できます。 
+ネットワーク インターフェイス情報を表示するには、Windows PowerShell **Get-CsNetworkInterface コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 
 
-## <a name="to-view-network-interface-information"></a>ネットワークインターフェイス情報を表示するには
+## <a name="to-view-network-interface-information"></a>ネットワーク インターフェイス情報を表示するには
 
-  - ネットワークインターフェイス情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力し、enter キーを押します。
+  - ネットワーク インターフェイス情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力し、Enter キーを押します。
     
         Get-CsNetworkInterface
     
-    このコマンドは、各ネットワークインターフェイスについて、次のような情報を返します。
+    このコマンドは、各ネットワーク インターフェイスについて次のような情報を返します。
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com

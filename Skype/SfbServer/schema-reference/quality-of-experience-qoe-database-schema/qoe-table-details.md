@@ -1,8 +1,8 @@
 ---
 title: QoE テーブルの詳細
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: 以下のセクションでは、各 Quality of Experience (QoE) データベーススキーマテーブルの列について詳しく説明します。
-ms.openlocfilehash: a09e39bc0e942b68a0b53d6c8718ab8973d7ba7f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: これらのセクションでは、QoE (Quality of Experience) データベース スキーマ テーブルの各列について詳しく説明します。
+ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807195"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815757"
 ---
 # <a name="qoe-table-details"></a>QoE テーブルの詳細
  
-以下のセクションでは、各 Quality of Experience (QoE) データベーススキーマテーブルの列について詳しく説明します。
+これらのセクションでは、QoE (Quality of Experience) データベース スキーマ テーブルの各列について詳しく説明します。
   
 - [AppliedBandwidthSource テーブル](appliedbandwidthsource.md)
     
@@ -38,13 +38,13 @@ ms.locfileid: "41807195"
     
 - [CodecDescription テーブル](codecdescription.md)
     
-- [Conference テーブル](conference.md)
+- [会議テーブル](conference.md)
     
 - [Device テーブル](device.md)
     
 - [DeviceDriver テーブル](devicedriver.md)
     
-- [Dialog テーブル](dialog.md)
+- [ダイアログ テーブル](dialog.md)
     
 - [Endpoint テーブル](endpoint.md)
     
@@ -66,13 +66,13 @@ ms.locfileid: "41807195"
     
 - [Pool テーブル](pool.md)
     
-- [PurgeSettings table (QoE)](purgesettings-qoe.md)
+- [PurgeSettings テーブル (QoE)](purgesettings-qoe.md)
     
 - [Region テーブル](region.md)
     
 - [サーバー テーブル](server.md)
     
-- [Session テーブル](session.md)
+- [セッション テーブル](session.md)
     
 - [SessionCorrelation テーブル](sessioncorrelation.md)
     
@@ -80,7 +80,7 @@ ms.locfileid: "41807195"
     
 - [TraceRoute テーブル](traceroute.md)
     
-- [User テーブル](user-0.md)
+- [ユーザー テーブル](user-0.md)
     
 - [UserAgent テーブル](useragent.md)
     

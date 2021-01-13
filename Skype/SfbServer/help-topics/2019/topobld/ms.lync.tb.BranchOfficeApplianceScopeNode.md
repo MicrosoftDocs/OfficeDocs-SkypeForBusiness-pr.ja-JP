@@ -1,8 +1,8 @@
 ---
 title: ブランチ オフィス アプライアンス スコープ ノード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: このノードには、完全修飾ドメイン名 (FQDN)、関連付けられたプールとサーバー、この Survivable Branch Appliance に関する復元性の情報が表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: cfc1874a3713055d03a3c01c4afef251f16c8205
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: このノードには、この存続可能ブランチ アプライアンスに関する完全修飾ドメイン名 (FQDN)、関連付けられたプールとサーバー、および復元情報が表示されます。 以下のアクションを実行できます。
+ms.openlocfilehash: 3d40ebefe5966985f2f755bff68190d989654457
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793895"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815517"
 ---
-# <a name="branch-office-appliance-scope-node"></a>ブランチ オフィス アプライアンス スコープ ノード
+# <a name="branch-office-appliance-scope-node"></a>ブランチ オフィス アプライアンスのスコープ ノード
  
-このノードには、完全修飾ドメイン名 (FQDN)、関連付けられたプールとサーバー、この Survivable Branch Appliance に関する復元性の情報が表示されます。 以下のアクションを実行できます。
+このノードには、この存続可能ブランチ アプライアンスに関する完全修飾ドメイン名 (FQDN)、関連付けられたプールとサーバー、および復元情報が表示されます。 以下のアクションを実行できます。
   
-- **プロパティの編集**。 この Survivable Branch Appliance の [**プロパティの編集**] ページを開きます。ここで、FQDN (トポロジがまだ公開されていない場合)、関連付け、復元の設定を変更できます。
+- **プロパティの編集**。 この存続 **可能** ブランチ アプライアンスの [プロパティの編集] ページを開きます。このページでは、FQDN (トポロジがまだ公開されていない場合)、関連付け、および復元設定を変更できます。
     
 - **削除**。トポロジからサーバーを削除します。
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、または展開の削除といった操作を実行できます。
+- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、または展開の削除を行います。
     
-- **表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。
+- **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     
