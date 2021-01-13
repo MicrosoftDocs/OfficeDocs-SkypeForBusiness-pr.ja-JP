@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc6c39d03912f8a708eea91ce34b2a7f61a47828
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: c3180eabe2886faaade690f7a5bc0f3f97226589
+ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731165"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49841498"
 ---
 # <a name="operate-your-service"></a>サービスを運用する
 
@@ -138,7 +138,7 @@ Microsoft 365 管理アプリは、Apple iOS、Android、Windows (PC とモバ�
 
 ### <a name="monitoring-with-microsoft-system-center"></a>Microsoft System Center による監視
 
-Microsoft System Center は、データセンター、クライアント デバイス、ハイブリッド クラウド IT 環境の管理に役立つ統合管理プラットフォームです。 システム センターを使用する Microsoft 365 管理者または Office 365 管理者は、管理パックをインポートして、システム センターの Operations Manager 内のすべてのサービス通信を表示することができます。 このツールを使用すると、サブスクライブしているサービスの状態、アクティブなサービス インシデントと解決済みサービス インシデント、およびメッセージ センターの通信 (今後の変更) にアクセスできます。 詳細については、次のブログ投稿を [参照してください](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
+Microsoft System Center は、データセンター、クライアント デバイス、ハイブリッド クラウド IT 環境の管理に役立つ統合管理プラットフォームです。 システム センターを使用する Microsoft 365 管理者または Office 365 管理者は、管理パックをインポートして、システム センターの Operations Manager 内のすべてのサービス通信を表示することができます。 このツールを使用すると、サブスクライブしているサービスの状態、アクティブなサービス インシデントと解決済みサービス インシデント、およびメッセージ センターの通信 (今後の変更) にアクセスできます。 詳細については、次のブログ投稿を [参照してください](https://www.microsoft.com/en-us/microsoft-365/blog/2014/07/29/new-office-365-admin-tools/)。
 
 システム センターを利用して Teams のサービス正常性 (および依存サービス) を監視する場合は、管理パックをさらにカスタマイズして、インシデントに対応すると特定のグループまたは個人に警告または通知することができます。
 これらのグループには、サービス所有者、ヘルプデスク、第 2 レベルと第 3 レベルのサポート グループ、組織内のインシデント マネージャーを含めることができます。
@@ -207,7 +207,7 @@ Teams サービスの今後の変更を認識したので、次の手順は、�
 |---|---|---|---|
 | ユーザーへの影響 | 低 | | |
 | ユーザーの準備が必要 | はい | | |
-| 通信の準備ができました | 不要 | コミュニケーション メールの下書きが作成されました。レビューが保留中です。 | コミュニケーション チーム |
+| 通信の準備ができました | いいえ | コミュニケーション メールの下書きが作成されました。レビューが保留中です。 | コミュニケーション チーム |
 | トレーニングの準備ができました | はい | トレーニングでは、既存の Microsoft ビデオを活用します。 | トレーニング チーム |
 
 **ステータス トラック**
