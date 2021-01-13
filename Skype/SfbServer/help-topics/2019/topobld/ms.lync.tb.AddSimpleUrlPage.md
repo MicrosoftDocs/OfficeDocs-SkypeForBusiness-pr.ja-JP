@@ -1,8 +1,8 @@
 ---
 title: 簡易 URL の追加
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,24 +14,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
-description: 展開の定義に簡単な url を追加するには、新しい単純な URL の URL を指定します。
-ms.openlocfilehash: 13c77fb7fc0745865be99aaf165c13040204ffcc
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 展開の定義に簡易 URL を追加するには、新しい簡易 URL の URL を指定します。
+ms.openlocfilehash: 41cd5c4698157a9dde2d8c357a5b8aba753495f3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794346"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835837"
 ---
 # <a name="add-simple-url"></a>簡易 URL の追加
  
-展開の定義に簡単な url を追加するには、新しい単純な URL の URL を指定します。 URL の形式は、 _http://\<simple url 型\>です。\<ドメイン名\> _また_は\<http://ドメイン\>/\<名の単純\>な url の種類_。ここでは、単純な url の種類は次のいずれかです。
+展開の定義に簡易 URL を追加するには、新しい簡易 URL の URL を指定します。 URL の形式は次 _\<simple URL type\> http://。 \<domain name\>_ または _http://、 \<domain name\> / \<simple URL type\>_ 簡易 URL の種類は次のいずれかを指定します。
   
-- 即時
+- Meet
     
 - ダイヤルイン
     
 > [!IMPORTANT]
-> 簡単な URL であれば1つのダイヤルで簡単な URL を有効にすることができます。 新しい単純な URL を追加してアクティブな URL にすると、以降のすべての要求に新しい単純な URL を使用するように設定されます。 古い単純 URL がアクティブになったときに行われた会議やその他の要求を処理するには、active URL を無効のままにします。 
+> いつでも、1 つのダイヤルイン簡易 URL と 1 つの会議の簡易 URL をアクティブにすることができます。新しい簡易 URL を追加してアクティブな URL にすると、それ以後の要求すべてで新しい簡易 URL を使用するように設定されます。非アクティブの簡易 URL は残しておき、古い簡易 URL がアクティブであったときに行われた会議および他の要求を処理します。 
   
 
 

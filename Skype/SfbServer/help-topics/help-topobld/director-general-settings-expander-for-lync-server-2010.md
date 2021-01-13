@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2010 用のディレクター全般設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,29 +14,29 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: ディレクターまたはディレクタープールの全般プロパティを構成するには、次のようにします。
-ms.openlocfilehash: d61bc52500c254ed43a1804d3094623dd0c8be1b
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: ディレクターまたはディレクター プールの全般プロパティを構成するには、次の手順を実行します。
+ms.openlocfilehash: e31dcf72297bfcbc9afd4f45e232de71c5620b7b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219028"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835357"
 ---
-# <a name="director-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のディレクター全般設定エキスパンダー
+# <a name="director-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のディレクターの全般設定エキスパンダー
  
-ディレクターまたはディレクタープールの **全般** プロパティを構成するには、次のようにします。
+ディレクター **またはディレクター** プールの全般プロパティを構成するには、次の手順を実行します。
   
- [ **FQDN**: ディレクターまたはディレクタープールの完全修飾ドメイン名を入力します。
+ **FQDN**: ディレクターまたはディレクター プールの完全修飾ドメイン名を入力します。
   
- **連盟**
+ **関連付け**
   
- [**ファイルストア**]: ディレクターまたはディレクタープールのファイルストアを一覧から選択します。
+ **ファイル ストア**: ディレクターまたはディレクター プールのファイル ストアを一覧から選択します。
   
 [**新規**] をクリックして、新しいファイル ストアを定義します。
   
-[ **監視サーバーの関連付け** ] チェックボックスをオンにし、一覧から監視サーバーを選択します。
+[監視 **サーバーの関連付け** ] チェック ボックスをオンにして、一覧から監視サーバーを選択します。
   
-[ **新規** ] をクリックして新しい監視サーバーを定義します。
+[ **新規] を** クリックして新しい監視サーバーを定義する
   
  [**OK**]: ダイアログでの変更を受け入れて確定します。
   

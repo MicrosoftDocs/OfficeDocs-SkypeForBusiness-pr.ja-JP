@@ -1,8 +1,8 @@
 ---
 title: フロントエンド サーバー スコープ ノード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Enterprise Edition フロントエンドのプール] ノードには、このサイトのフロントエンドのプールが一覧表示され、[Standard Edition フロントエンド サーバー] ノードには、このサイトの Standard Edition サーバーが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: 378563067522e86c73efc584d0038231bbc3562b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 428d3c0df5fe1237268ed21c30ad16a69d7cb621
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793635"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835737"
 ---
-# <a name="front-end-servers-scope-node"></a>フロントエンド サーバー スコープ ノード
+# <a name="front-end-servers-scope-node"></a>フロント エンド サーバーのスコープ ノード
  
 [**Enterprise Edition フロントエンドのプール**] ノードには、このサイトのフロントエンドのプールが一覧表示され、[**Standard Edition フロントエンド サーバー**] ノードには、このサイトの Standard Edition サーバーが一覧表示されます。以下のアクションを実行できます。
   
@@ -30,9 +30,9 @@ ms.locfileid: "41793635"
     
 また、次の一般的なタスクを実行できます。
   
-- **トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。
+- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンのコンポーネントの結合、または展開の削除を行います。
     
-- **表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。
+- **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     

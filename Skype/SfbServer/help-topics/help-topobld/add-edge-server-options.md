@@ -1,8 +1,8 @@
 ---
 title: エッジ サーバーのオプションを追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
-description: エッジ プールで有効にする各機能を選択します。 既定では、エッジプールは、仮想プライベートネットワーク (VPN) を使用してファイアウォールの外側からサインインする、組織内のリモートユーザーをサポートします。 以下のエッジ プール機能オプションも使用できます。
-ms.openlocfilehash: dfcaafce36d525b676a606db4f164dfdd05f26ba
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: エッジ プールで有効にする各機能を選択します。 既定では、エッジ プールは、仮想プライベート ネットワーク (VPN) を使用してファイアウォールの外側からサインインする組織内のリモート ユーザーをサポートします。 以下のエッジ プール機能オプションも使用できます。
+ms.openlocfilehash: f653f6a5b2c242416d6c644d5c7a5fc4daffc441
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216568"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835497"
 ---
-# <a name="add-edge-server-options"></a>エッジ サーバーのオプションを追加する
+# <a name="add-edge-server-options"></a>エッジ サーバー オプションの追加
 
-エッジ プールで有効にする各機能を選択します。 既定では、エッジプールは、仮想プライベートネットワーク (VPN) を使用してファイアウォールの外側からサインインする、組織内のリモートユーザーをサポートします。 以下のエッジ プール機能オプションも使用できます。
+エッジ プールで有効にする各機能を選択します。 既定では、エッジ プールは、仮想プライベート ネットワーク (VPN) を使用してファイアウォールの外側からサインインする組織内のリモート ユーザーをサポートします。 以下のエッジ プール機能オプションも使用できます。
 
 - アクセス エッジ サービス、Web 会議エッジ サービス、音声ビデオ エッジ サービスなど、すべてのエッジ サービスに 1 つの完全修飾ドメイン名 (FQDN) と IP アドレスを使用する。 1 つの FQDN と IP アドレスを使用するオプションを選択しない場合、展開プロセスの一貫として、これらの 3 つの各エッジ サービスに個別の FQDN と IP アドレスを指定する必要があります。 エッジ サービスの詳細については、「計画」のドキュメントの「[Components Required for External User Access](https://technet.microsoft.com/library/2d0f9817-14e7-4109-95dc-62420e3c29e2.aspx)」を参照してください。
 

@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server との相互運用用に CUCM を構成する
+title: Skype for Business Server との相互運用のための CUCM の構成
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,135 +12,135 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: '概要: Skype for Business Server で動作するように CUCM を構成します。'
-ms.openlocfilehash: 0f8b5321b482d78d9dc833471323ae842c247246
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '概要: Skype for Business Server と動作する CUCM を構成します。'
+ms.openlocfilehash: 82fa48a185b22973d35bc19484e733e6436ba43e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798074"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837117"
 ---
-# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Skype for Business Server との相互運用用に CUCM を構成する
+# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Skype for Business Server との相互運用のための CUCM の構成
  
-**概要:** Skype for Business Server で動作するように CUCM を構成します。
+**概要:** Skype for Business Server と動作する CUCM を構成します。
   
 > [!CAUTION]
-> この機能は、TCP 経由の Trunks セットアップを使って、Cisco ユニファイドコミュニケーションマネージャー (CallManager、または CUCM) バージョン10.5 でテストされています。 作業を続行する前に、CUCM 環境がこれらの条件を満たしていることを確認してください。 
+> この機能は、TCP を使用したトランクセットアップのみを使用して、Cisco Unified Communications Manager (CallManager または CUCM) バージョン 10.5 でテストされます。 次に進む前に、CUCM 環境がこれらの条件を満たしていることを確認します。 
   
-ここで説明する設定は、VIS と連携するように CUCM を設定する方法の例としてのみ使用されています。 CUCM の別の機能を他の方法で設定/使用して同じ結果を実現することもできます。 特定のシナリオ向けの最適な構成に関する推奨事項は示されていません。
+ここで説明する設定は、VIS を使用するように CUCM を構成する方法の例としてのみ使用されます。 代替 CUCM 機能のその他の設定や使用法も、同じ結果を得る目的で使用できます。 特定のシナリオに最適な構成に関する推奨事項は示されていません。
   
-VIS との相互運用を実現するには、多くの CUCM の設定を確認または変更する必要があります。必要な設定を確実に実行するには、以下の手順に従います。
+VIS と相互運用するには、多くの CUCM 設定を確認または変更する必要があります。 必要な設定が見つからないのを避けるため、以下の手順に従ってください。
   
 ### <a name="configure-the-cucm"></a>CUCM を構成する
 
-1. CUCM にログインして、「Cisco ユニファイ CM 管理-\>通話ルーティング-\>制御\>パーティションのクラス」に移動します。
+1. CUCM にログインし、[Cisco Unified CM Administration- \> Call Routing- \> Class of Control- Partition] に移動 \> します。
     
-2. [Partition Configuration] 画面で、パーティションの名前と説明を入力し、[**Add New**] をクリックします。
+2. [パーティション構成] 画面で、パーティション名と説明を入力し、[新規追加] を **クリックします**。
     
-3. 「Cisco ユニファイド CM の管理\>」に移動\>します。コントロール\>呼び出しの検索スペースのクラスを指定します。
+3. [Cisco Unified CM Administration- \> Call Routing- \> Class of Control- Calling Search \> Space] に移動します。
     
-4. [Calling Search Space Configuration] 画面で、Calling Search Space (コーリング サーチ スペース) の名前を入力し、[Selected Partitions] には直前に作成したパーティーションの名前を入力します。完了したら、[**Save**] をクリックします。
+4. [Calling Search Space Configuration] 画面で、呼び出し元の検索スペースの名前を入力し、[Selected Partitions] に作成したパーティションの名前を入力します。 完了したら **、[保存** ] をクリックします。
     
-5. 「Cisco ユニファイド CM 管理-\>システム-\>セキュリティ-\>SIP トランクセキュリティプロファイル」に移動します。
+5. [Cisco Unified CM Administration- \> System- \> Security- \> SIP Trunk Security Profile] に移動します。
     
-6. [SIP Trunk Security Profile Configuration] 画面で、図のように [SIP Trunk Security Profile Information] のオプションを設定し、[**Add New**] をクリックします。
+6. [SIP トランク セキュリティ プロファイルの構成] 画面で、[SIP トランク セキュリティ プロファイル情報] オプションを次のように設定し、[新規追加] を **クリックします**。
     
-   |**パラメーター**|**推奨設定**|
+   |**パラメーター**|**推奨される設定値**|
    |:-----|:-----|
    |名前  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
-   |Device Security Mode  <br/> |Non Secure  <br/> |
-   |Incoming Transport Type  <br/> |TCP + UDP  <br/> |
-   |Outgoing Transport Type  <br/> |TCP  <br/> |
-   |Incoming Port  <br/> |5060  <br/> |
+   |デバイス セキュリティ モード  <br/> |セキュリティで保護されていない  <br/> |
+   |受信トランスポートの種類  <br/> |TCP + UDP  <br/> |
+   |送信トランスポートの種類  <br/> |TCP  <br/> |
+   |受信ポート  <br/> |5060  <br/> |
    
-7. 「Cisco ユニファイド CM の管理\>-デバイス\>の設定-\>SIP プロフィール」に移動します。
+7. [Cisco Unified CM Administration- \> Device- \> Device Settings- \> SIP Profile] に移動します。
     
-8. [SIP Profile Configuration] 画面で、図のように [SIP Profile Information] のオプションを設定します。 
+8. [SIP プロファイル構成] 画面で、[SIP プロファイル情報] オプションを次のように設定します。 
     
-   |**パラメーター**|**推奨設定**|
+   |**パラメーター**|**推奨される設定値**|
    |:-----|:-----|
-   |Name  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |名前  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    |説明  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
-9. 同じ画面で、[SDP プロファイル情報] セクションまで下にスクロールします。 [**SDP Session-level Bandwidth Modifier for Early Offer and Re-invites**] オプションは、既定では [TIAS and AS] に設定されています。 このオプションを [TIAS only] に変更します。 このオプションを既定の設定のままにした場合、Skype for Business Server は SIP メッセージの帯域幅の補助情報を認識しません。 TIAS は Transport Independent Application Specific (トランスポート非依存アプリケーション固有) の意味で、AS は Application Specific (アプリケーション固有) の意味です。 これらは、RFC3890 で規定されている SIP のオプションです。
+9. 同じ画面で、[SDP プロファイル情報] セクションまで下にスクロールします。 [ **早期提供と** 再招待] オプションの SDP セッション レベルの帯域幅修飾子は、既定で TIAS と AS に設定されています。 このオプションを TIAS にのみ変更します。 このオプションを既定の設定のままにした場合、Skype for Business Server は SIP メッセージの帯域幅修飾子情報を理解しません。 TIAS は Transport Independent Application Specific を意味し、AS はアプリケーション固有を意味します。 これらは RFC3890 で指定されている SIP オプションです。
     
-10. 同じ画面で、さらに下にスクロールします。 SIP プロフィールのトランク固有の構成で、「**音声通話とビデオ通話の早期サポート**」を選択して、「**必須 (必要に応じて MTP を挿入)** 」オプションを設定します。 この設定を行うと、CUCM で、Early Offer (アーリー オファー) を使用して発信 SIP 通話を設定できるようになります。 CUCM 8.5 以降の新機能の 1 つとして、メディア終端ポイント (MTP) が必要でない、Early Offer を使用した発信通話の設定をサポートしています。
+10. 同じ画面で、さらに下にスクロールします。 SIP プロファイルのトランク固有の構成で、音声通話とビデオ通話の早期提供サポートを選択し、必須 (必要に応じて **MTP** を挿入) オプションに設定します。 これにより、CUCM で早期オファーを使用して発信 SIP 通話を設定できます。 CUCM 8.5 以降の新機能の 1 つは、メディア終端ポイント (MTP) を必要とせず、早期オファーによる発信通話セットアップをサポートする点です。
     
-11. [SIP Options ping] セクションで、[Enable OPTIONS Ping to monitor destination status for Trunks with Service Type 'None (Default)'] の横にあるボックスがオンになっていることを確認します。
+11. [SIP オプション ping] セクションで、[OPTIONS Ping を有効にして、サービスの種類が 'なし (既定)' のトランクの宛先の状態を監視する] チェック ボックスがオンになっています。
     
-12. 終了したら、[**Add New**] をクリックします。
+12. 完了したら、[新規追加] を **クリックします**。
     
-13. 「Cisco 統合 CM 管理-\>デバイス-\>トランク」に移動します。 
+13. [Cisco Unified CM Administration- \> Device- Trunk] に移動 \> します。 
     
-14. [Device Protocol] を [SIP] に設定し、[**Next**] をクリックします。
+14. デバイス プロトコルを SIP に設定し、[次へ] を **押します**。
     
-15. [Device Information] で、[Device Name] と [Description] (通常は "SfBVideoInterop_SIPTrunk" の形式) の設定を行い、[Media Resource Group List] を、適切なメディア リソースが含まれる MRGL に設定します。 
+15. [デバイス情報] で、デバイス名と説明 (おそらく SfBVideoInterop_SIPTrunk など) を設定し、メディア リソース グループの一覧を、適切なメディア リソースを含む MRGL に設定します。 
     
-16. さらに下にスクロールします。 ビデオ通話には [Media Termination Point (MTP)] は不要であり、まだオフにされていない場合はオフにします。 [**Run on all active Unified CM Nodes**] のオプションをオンにします。 Skype for Business Server の設定には、すべての CUCM ノードを追加する必要があることに注意してください。
+16. さらに下にスクロールします。 ビデオ通話にメディア終端ポイント (MTP) は必要ありません 。まだオフにされていない場合は、オフにします。 アクティブなすべての **Unified CM ノードで実行するオプションをオンにします**。 すべての CUCM ノードを Skype for Business Server 構成に追加する必要があります。
     
-17. さらに下にスクロールします。 以下に示すように、[Inbound Calls and Connected Party Settings] のオプションを設定します。
+17. さらに下にスクロールします。 次に示すように、[着信呼び出しと接続済みパーティの設定] オプションを設定します。
     
-    |**パラメーター**|**推奨設定**|
+    |**パラメーター**|**推奨される設定値**|
     |:-----|:-----|
     |Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
     |AAR Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
-    |Connected Party Transformation CSS  <br/> |CSS_SfBVideoInterop  <br/> |
+    |接続されたパーティー変換 CSS  <br/> |CSS_SfBVideoInterop  <br/> |
    
-18. さらに下にスクロールします。 SIP トランク構成の「SIP 情報の送信先」セクションで、VIS Pool の FQDN またはプール内の個々の VIS サーバーの IP アドレスを指定します (複数のエントリを追加する)。 [Destination Port] で、VIS が CUCM からの接続をリッスンするポートを指定します (既定値は 6001)。 また以下のように、以前に作成した SIP トランクのセキュリティ プロファイルと SIP プロファイルも指定します。
+18. さらに下にスクロールします。 SIP トランク構成の [SIP 情報の宛先] セクションで、VIS プールの FQDN またはプール内の個々の VIS サーバーの IP アドレスを指定します (複数のエントリを追加)。 [Destination Port] で、VIS が CUCM からの接続をリッスンしているポートを指定します (既定値は 6001 です)。 また、次に示すように、前に作成した SIP トランク セキュリティ プロファイルと SIP プロファイルも指定します。
     
-    |**パラメーター**|**推奨設定**|
+    |**パラメーター**|**推奨される設定値**|
     |:-----|:-----|
-    |SIP Trunk Security Profile  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
-    |Rerouting Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
+    |SIP トランク セキュリティ プロファイル  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
+    |呼び出し元の検索スペースの再ルーティング  <br/> |CSS_SfBVideoInterop  <br/> |
     |Out-of-Dialog Refer Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
     |Subscribe Calling Search Space  <br/> |CSS_SfBVideoInterop  <br/> |
-    |SIP Profile  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+    |SIP プロファイル  <br/> |SfBVideoInterop_SIPProfile  <br/> |
     |DTMF Signaling Method  <br/> |RFC 2833  <br/> |
    
-19.  さらに下にスクロールします。 システムに適した [Recording Information] の設定を行います。 **[なし**] に設定したままにしておくこともできます。 
+19.  さらに下にスクロールします。 システムに応じてレコーディング情報を設定します。 [なし] に設定したままで **問題ありません**。 
     
-20. 終了したら、[**Add New**] をクリックします。
+20. 完了したら、[新規追加] を **クリックします**。
     
-21. 「Cisco ユニファイド CM の管理\>」に移動\>します。通話\>ルーティング-ルート/ハント-ルートパターン。
+21. [Cisco Unified CM Administration- \> Call Routing- \> Route/Hunt- \> Route Pattern] に移動します。
     
-22. [Route Pattern Configuration] 画面で、以下に示すようにパターン定義のパラメーターを入力します。[Called Party Transformations] セクションまで下にスクロールし、以下に示すようにマスクを設定して、完了したら [**Add New**] をクリックします。
+22. [ルート パターン構成] 画面で、以下に示すパターン定義パラメーターを入力します。 [呼び出し済みパーティ変換] セクションまで下にスクロールし、次に示すようにマスクを設定し、完了したら [新規追加] **をクリック** します。
     
-    |**パラメーター**|**推奨設定**|
+    |**パラメーター**|**推奨される設定値**|
     |:-----|:-----|
-    |Route Pattern  <br/> |7779999  <br/> |
-    |Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-    |Description  <br/> |Partition for SfBVideoInterop  <br/> |
-    |Gateway/Route List  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |Called Party Transform Mask  <br/> |+14257779999  <br/> |
+    |ルート パターン  <br/> |7779999  <br/> |
+    |ルート パーティション  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |説明  <br/> |SfBVideoInterop のパーティション  <br/> |
+    |ゲートウェイ/ルート一覧  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
+    |呼び出されたパーティー変換マスク  <br/> |+14257779999  <br/> |
    
-23. 「Cisco ユニファイド CM 管理-\>通話ルーティング-\>SIP ルートパターン」に移動します。
+23. [Cisco Unified CM Administration- \> Call Routing- \> SIP Route Pattern] に移動します。
     
-24. [SIP Route Pattern Configuration] 画面で、以下に示すように [Pattern Definition] のオプションを設定し、[**Add New**] をクリックします。
+24. [SIP ルート パターン構成] 画面で、パターン定義オプションを次のように設定し、[新規追加] **をクリックします**。
     
-    |**パラメーター**|**推奨設定**|
+    |**パラメーター**|**推奨される設定値**|
     |:-----|:-----|
-    | Pattern Usage <br/> |Domain Routing  <br/> |
-    |IPv4 Pattern  <br/> |contoso.com (IPv6 を使用する場合は空白のまま)  <br/> |
-    |IPv6 Pattern  <br/> |contoso.com (IPv4 を使用する場合は空白のまま)  <br/> |
-    |Description  <br/> |SIPRoute Pattern to mediarv  <br/> |
-    |Route Partition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
-    |SIP Trunk/Route List  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |[Block Pattern] チェック ボックス  <br/> |オフのまま  <br/> |
+    | パターンの使用 <br/> |ドメイン ルーティング  <br/> |
+    |IPv4 パターン  <br/> |contoso.com (IPv6 を使用する場合は空白のままにします)  <br/> |
+    |IPv6 パターン  <br/> |contoso.com (IPv4 を使用する場合は空白のままにします)  <br/> |
+    |説明  <br/> |MEDIARV への SIPRoute パターン  <br/> |
+    |ルート パーティション  <br/> |SfBVideoInterop_RoutePartition  <br/> |
+    |SIP トランク/ルート一覧  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
+    |[ブロック パターン] チェック ボックス  <br/> |オフのままにする  <br/> |
    
-25. 音声またはビデオのビット レートを既定の設定から変更した場合は、それらを既定に戻す必要があります。 音声/ビデオ通話のビットレートを設定するには、「Cisco 統合 CM 管理\>\>\>」に移動します。 参照用に既定値を以下に示します。
+25. オーディオまたはビデオのビット レートを既定の設定から変更した場合は、既定値に戻す必要があります。 音声ビデオ通話のビット レートを設定するには、[Cisco Unified CM Administration- \> System- \> Region Information- Region] に移動 \> します。 参照用の既定値を以下に示します。
     
-    |**パラメーター**|**推奨設定**|
+    |**パラメーター**|**推奨される設定値**|
     |:-----|:-----|
-    |Region  <br/> |既定  <br/> |
-    |オーディオコーデックの基本設定リスト  <br/> |システムの既定値  <br/> |
-    |オーディオビットレートの最大値  <br/> |64 kbps (722, G)  <br/> |
-    |ビデオ通話の最大セッションビットレート  <br/> |20万 kbps  <br/> |
-    |セッションの最大ビットレート  <br/> |20億 kbps  <br/> |
+    |Region  <br/> |既定値  <br/> |
+    |オーディオ コーデックの基本設定の一覧  <br/> |システムの既定値  <br/> |
+    |最大オーディオ ビット レート  <br/> |64 kbps (G.722、G.711)  <br/> |
+    |ビデオ通話の最大セッション ビット レート  <br/> |200000 kbps  <br/> |
+    |最大セッション ビット レート  <br/> |2000000000 kbps  <br/> |
    
-この時点で、CUCM ビデオゲートウェイは、VIS と連携するように構成されています。 対応する構成は、統合する各 VTC に対して行う必要があります。
+この時点で、CUCM ビデオ ゲートウェイは VIS を使用するように構成されています。 対応する構成は、統合する各 VTC で行う必要があります。
 > [!NOTE]
-> 回復性を向上させるために、2つ目のビデオ相互運用サーバーまたは VIS プールで動作するように、この CUCM ゲートウェイを構成することができます。 詳細については、「[Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency)」を参照してください。
+> 回復性を向上させるために、この CUCM ゲートウェイが 2 つ目のビデオ相互運用サーバーまたは VIS プールで動作する構成が必要になる場合があります。 詳細 [については、「復元メカニズム」](../../plan-your-deployment/video-interop-server.md#resiliency) を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server との相互運用用に VTC を構成する](configure-a-vtc-for-interoperation.md)
+[Skype for Business Server との相互運用のための VTC の構成](configure-a-vtc-for-interoperation.md)

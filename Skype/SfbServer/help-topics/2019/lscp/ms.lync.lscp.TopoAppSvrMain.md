@@ -1,8 +1,8 @@
 ---
-title: Topology Server アプリケーション
+title: トポロジ サーバー アプリケーション
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[トポロジ: サーバーアプリケーション] ページに、展開に含まれるサーバーアプリケーションが表示されます。'
-ms.openlocfilehash: 6e7c726646a0a477754fc969753d1fb27f83d163
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[トポロジ] の [サーバー アプリケーション] ページには、展開に含まれるサーバー アプリケーションが表示されます。'
+ms.openlocfilehash: 4c76e2abc488e650819d5fe6fa19f9b0abbd6d36
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795548"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836277"
 ---
 # <a name="topology-server-application"></a>トポロジ: サーバー アプリケーション
 
-[**トポロジ**:**サーバーアプリケーション**] ページに、展開に含まれるサーバーアプリケーションが表示されます。
+[**トポロジ**] の [**サーバー アプリケーション**] ページには、展開に含まれるサーバー アプリケーションが表示されます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
-**Topology**: **Server アプリケーション**ページでは、次のタスクを実行できます。
+[**トポロジ**] の [**サーバー アプリケーション**] ページでは次のタスクを実行できます。
 
-- 展開でサーバーアプリケーションを表示する
+- 展開内のサーバー アプリケーションを表示する
 
-- サーバーアプリケーションを有効または無効にする
+- サーバー アプリケーションを有効または無効にする。
 
-- 重要としてアプリケーションを選択または選択解除する
+- アプリケーションを重要として選択または選択解除する
 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft SIP 処理言語 (MSPL) サーバーアプリケーションを有効または無効にする](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
+[Microsoft SIP 処理言語 (MSPL) サーバー アプリケーションの有効化または無効化](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
 
-[Microsoft SIP 処理言語 (MSPL) アプリケーションを Critical または Critical としてマークする](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)
+[Microsoft SIP 処理言語 (MSPL) アプリケーションを重大または重要ではないとしてマークする](https://technet.microsoft.com/library/df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1.aspx)

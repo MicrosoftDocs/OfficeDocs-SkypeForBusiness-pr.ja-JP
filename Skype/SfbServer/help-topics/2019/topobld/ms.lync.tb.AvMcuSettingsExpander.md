@@ -1,8 +1,8 @@
 ---
 title: AV MCU 設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,30 +14,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 既に定義した A/V 会議サーバープールのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: ce06468396ed936ffe47fa5848f6c3128ce390b6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 既に定義してある音声ビデオ会議サーバー プールのプロパティを編集するには、次の操作を行います。
+ms.openlocfilehash: d3e725b1905726272df515ee93a402cb488a6652
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793915"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835777"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 設定エキスパンダー
  
-既に定義した A/V 会議サーバープールのプロパティを編集するには、次の操作を行います。
+既に定義してある音声ビデオ会議サーバー プールのプロパティを編集するには、次の操作を行います。
   
 ## <a name="general-settings"></a>全般設定
 
-A/V 会議サーバープールの完全修飾ドメイン名 (FQDN) を更新するには、ドメインネームシステム (DNS) で定義されているプールの名前を入力します。 A/V 会議サーバープール名に対応する DNS ホスト (A) レコードが必要です。
+音声ビデオ会議サーバー プールの完全修飾ドメイン名 (FQDN) を更新するには、ドメイン ネーム システム (DNS) で定義されているプールの名前を入力します。この場合は、音声ビデオ会議サーバー プールの名前に相当する DNS ホスト (A) レコードが必要です。
   
-## <a name="av-conferencing-service"></a>A/V 会議サービス
+## <a name="av-conferencing-service"></a>音声ビデオ会議サービス
 
-A/V 会議サーバープールを関連付けるには、A/V 会議サーバープールに関連付けるフロントエンドプールまたはプールを選択します。
+音声ビデオ会議サーバー プールを関連付けるには、音声ビデオ会議サーバー プールを関連付ける必要があるフロントエンド プールを (複数の場合は複数) 選択します。
   
 > [!NOTE]
-> **[この A/v 会議プールを関連付けるため**のフロントエンドプールを選択してください] ウィンドウにフロントエンドプールが表示されていない場合は、フロントエンドプールで A/v 会議サーバーに接続しているか、フロントエンドプールプロパティの [機能] セクション**と**[会議の追加] を選択していません。
+> [**この音声ビデオ会議プールに関連付けるフロントエンド プールを選択**] ウィンドウにフロントエンド プールが何も表示されない場合は、音声ビデオ会議サーバーとフロントエンド プールを共存させたか、フロントエンド プールのプロパティの [**機能**] セクションで会議を追加しなかったかのどちらかです。
   
 
-完了したら、[ **OK** ] をクリックして、A/V 会議サーバープールの設定の編集を完了します。 変更を破棄するには、[**キャンセル**] をクリックします。
+終了したら、[**OK**] をクリックして音声ビデオ会議サーバー プール設定の編集を完了します。変更をすべて破棄する場合は、[**キャンセル**] をクリックします。
   
 

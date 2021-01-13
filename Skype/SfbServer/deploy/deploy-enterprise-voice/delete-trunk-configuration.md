@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server で既存の SIP トランク構成設定のコレクションを削除する
+title: Skype for Business Server で SIP トランク構成設定の既存のコレクションを削除する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
-description: '概要: Skype for Business Server コントロールパネルを使用して、トランク構成設定のコレクションを削除する方法について説明します。'
-ms.openlocfilehash: 1cd46f855a92f4b1b975f565b12ff07c3af24111
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '概要: Skype for Business Server コントロール パネルを使用してトランク構成設定のコレクションを削除する方法について説明します。'
+ms.openlocfilehash: a9065304860a257a7787c557e59da38d03abfef0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767710"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836977"
 ---
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で既存の SIP トランク構成設定のコレクションを削除する
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で SIP トランク構成設定の既存のコレクションを削除する
  
-**概要:** Skype for Business Server コントロールパネルを使用して、トランク構成設定のコレクションを削除する方法について説明します。
+**概要:** Skype for Business Server コントロール パネルを使用してトランク構成設定のコレクションを削除する方法について説明します。
   
-SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch eXchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係と機能を定義します。たとえば、次の設定ができます。
+SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、サービス プロバイダーの IP-Public ブランチ eXchange (PBX)、またはセッション ボーダー コントローラー (SBC) との間の関係と機能を定義します。 たとえば、次の設定ができます。
   
 - トランクでメディア バイパスを有効化するか。
     
-- Realtime Transport Control Protocol (RTCP) パケットが送信される条件。
+- リアルタイム転送制御プロトコル (RTCP) パケットが送信される条件。
     
-- 各トランクで Secure Realtime Transport Protocol (SRTP) 暗号化を要求するか。
+- 各トランクでセキュア リアルタイム転送プロトコル (SRTP) 暗号化が必要かどうか。
     
-Skype for Business Server をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。 この設定のグローバル コレクションは削除できません。 ただし、Skype for Business Server コントロールパネルまたは[set-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps)コマンドレットを使用して、グローバルコレクションのプロパティを既定値に "リセット" することができます。 たとえば、Enable3pccRefer プロパティを True に設定した場合、グローバル コレクションをリセットすると、Enable3pccRefer プロパティは既定値である False に戻ります。
+Skype for Business Server をインストールすると、SIP トランク構成設定のグローバル コレクションが自動的に作成されます。 この設定のグローバル コレクションは削除できません。 ただし、Skype for Business Server コントロール パネルまたは [Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) コマンドレットを使用して、グローバル コレクションのプロパティを既定値に "リセット" できます。 たとえば、Enable3pccRefer プロパティを True に設定した場合、グローバル コレクションをリセットすると、Enable3pccRefer プロパティは既定値である False に戻ります。
   
 管理者がサイト スコープまたはサービス スコープでカスタム トランク構成設定を作成することもできます (個別の PSTN ゲートウェイの場合)。これらのカスタム設定は削除できます。カスタム設定を削除するときは、次の点に注意してください。
   
@@ -43,23 +43,23 @@ Skype for Business Server をインストールすると、SIP トランク構�
     
 - サイト スコープの設定を削除すると、その設定で管理されていたすべての SIP トランクが、トランク構成設定のグローバル コレクションによって管理されます。
     
-### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルでトランク構成設定を削除するには
+### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してトランク構成設定を削除するには
 
-1. Skype for Business Server コントロールパネルで、[**音声ルーティング**] をクリックし、[ **Trunk 構成**] をクリックします。
+1. Skype for Business Server コントロール パネルで、[音声ルーティング] **をクリック** し、[トランク構成] **をクリックします**。
     
 2. [**トランク構成**] タブで、削除する SIP トランク構成設定のコレクションを選択し、[**編集**]、[**削除**] の順にクリックします。同じ操作で複数のコレクションを削除するには、削除する最初のコレクションをクリックし、Ctrl キーを押しながら、削除するその他のコレクションをクリックします。
     
-3. コレクションの [**状態**] プロパティが、[**コミットされていません**] に変わります。変更をコミットし、コレクションを削除するには、[**コミット**] をクリックした後、[**すべてコミット**] をクリックします。
+3. コレクションの [**状態**] プロパティが [**コミットされていません**] に更新されます。変更をコミットし、コレクションを削除するには、[**コミット**]、[**すべてコミット**] の順にクリックします。
     
 4. [**コミットされていない音声構成設定**] ダイアログ ボックスで、[**OK**] をクリックします。
     
-5. [ **Skype For Business Server コントロールパネル**] ダイアログボックスで、[ **OK**] をクリックします。
+5. In the **Skype for Business Server Control Panel** dialog box click **OK**.
     
-6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. [ **Skype For Business Server コントロールパネル**] ダイアログボックスが表示されたら、[ **OK**] をクリックします。
+6. 後でコレクションを削除しないことにした場合は、[**コミット**]、[**コミットされていないすべての変更を取り消し**] の順にクリックします。 Skype **for Business Server の [コントロール パネル** ] ダイアログ ボックスが表示されたら **、[OK]** をクリックします。
     
-## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Skype for Business Server 管理シェルコマンドレットを使用したトランク構成設定の削除
+## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Skype for Business Server 管理シェル コマンドレットを使用したトランク構成設定の削除
 
-トランク構成設定は、Skype for Business Server 管理シェルと**set-cstrunkconfiguration**コマンドレットを使用して削除できます。 このコマンドレットは、Skype for Business Server 管理シェルから、または Skype for Business Server 管理シェルのリモートセッションからでも実行できます。
+Skype for Business Server 管理シェルと **Remove-CsTrunkConfiguration** コマンドレットを使用して、トランク構成設定を削除できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Skype for Business Server 管理シェルのリモート セッションから実行できます。
   
 ### <a name="to-remove-a-specified-collection-of-settings"></a>指定した設定のコレクションを削除するには
 
@@ -69,7 +69,7 @@ Skype for Business Server をインストールすると、SIP トランク構�
   Remove-CsTrunkConfiguration -Identity site:Redmond
   ```
 
-### <a name="to-remove-all-the-collections-applied-to-the-site-scope"></a>サイト スコープに適用されているすべてのコレクションを削除するには
+### <a name="to-remove-all-the-collections-applied-to-the-site-scope"></a>サイト スコープに適用されているコレクションを削除するには
 
 - 次のコマンドを実行すると、サービス スコープに適用されているすべてのトランク構成設定が削除されます。
     
@@ -85,6 +85,6 @@ Skype for Business Server をインストールすると、SIP トランク構�
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 
-詳細については、 [set-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps)コマンドレットのヘルプトピックを参照してください。
+詳細については [、Remove-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cstrunkconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
   
 

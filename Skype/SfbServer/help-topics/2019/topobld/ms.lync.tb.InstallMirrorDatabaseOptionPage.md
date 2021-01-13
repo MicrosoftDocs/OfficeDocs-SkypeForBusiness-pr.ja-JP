@@ -1,8 +1,8 @@
 ---
 title: ミラー データベースのインストール オプション ページ
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
-description: ミラーデータベースの設定を構成するには、次のように定義します。
-ms.openlocfilehash: 33c9cb7daea7d17f58c0de3d375c1c71441ccdb0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 以下のものを定義することにより、[ミラー データベースの設定] を構成します。
+ms.openlocfilehash: 99dab88ecadc52d021531e03a0d6aea904cc4ce8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793585"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835697"
 ---
 # <a name="install-mirror-database-option-page"></a>ミラー データベースのインストール オプション ページ
  
 > [!NOTE]
-> SQL ミラーリングは、Skype for Business Server 2015 では使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバークラスターインスタンス (FCI)、SQL フェールオーバークラスタリングの各方法は、Skype for Business Server 2019 で推奨されます。
+> SQLミラーリングは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Skype for Business Server 2019 では、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタリングの方法が優先されます。

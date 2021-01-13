@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server で通話受付制御を展開する
+title: Skype for Business Server での通話受付管理の展開
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,34 +15,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
-description: 通話受付制御 (CAC) は、使用可能な帯域幅に基づいてリアルタイムのセッションを確立して、混雑したネットワークのユーザーに対して低品質のオーディオ/ビデオ品質を防ぐことができるかどうかを決定するソリューションです。
-ms.openlocfilehash: 2e41d5a26e99c482041fb29e204f777a6c1a7cd7
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 通話受付管理 (CAC) は、混雑したネットワーク上のユーザーの音声/ビデオ品質の低下を防ぐために、使用可能な帯域幅に基づいてリアルタイム セッションを確立できるかどうかを決定するソリューションです。
+ms.openlocfilehash: af08afe02b1dc138aa38ded654d567aed6a09247
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767670"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836887"
 ---
-# <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server で通話受付制御を展開する
+# <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server での通話受付管理の展開
  
-通話受付制御 (CAC) は、使用可能な帯域幅に基づいてリアルタイムのセッションを確立して、混雑したネットワークのユーザーに対して低品質のオーディオ/ビデオ品質を防ぐことができるかどうかを決定するソリューションです。 詳細については、「 [Skype For Business Server での通話受付制御の計画](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)」を参照してください。
+通話受付管理 (CAC) は、混雑したネットワーク上のユーザーの音声/ビデオ品質の低下を防ぐために、使用可能な帯域幅に基づいてリアルタイム セッションを確立できるかどうかを決定するソリューションです。 詳細については [、「Plan for call admission control in Skype for Business Server 」を参照してください](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
-### <a name="to-deploy-call-admission-control"></a>通話管理受付サービスを展開するには
+### <a name="to-deploy-call-admission-control"></a>通話受付管理を展開するには
 
-1.  「[例: Skype For Business Server での通話受付制御の要件の収集](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)」の説明に従って、エンタープライズネットワークトポロジに必要なすべての情報を収集します。
+1.  「例: Skype for Business Server での通話受付管理の要件の収集」で説明するように、エンタープライズ ネットワーク トポロジに必要なすべての [情報を収集します](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
     
-2. まだ行っていない場合は、ネットワーク地域とサイトを定義して、サブネットをネットワーク サイトに関連付ける必要があります。 詳細については、「 [Skype For business でネットワークのリージョン、サイト、サブネットを展開](deploy-network.md)する」を参照してください。
+2. まだ定義していない場合は、ネットワーク地域とサイトを定義し、サブネットをネットワーク サイトに関連付ける必要があります。 詳細については [、「Skype for Business でのネットワーク地域、サイト、サブネットの展開」を参照してください](deploy-network.md)。
     
-3. 「 [Skype For Business Server での帯域幅ポリシープロファイルの作成](create-bandwidth-policy-profiles.md)」で詳しく説明するように、帯域幅ポリシープロファイルを作成します。
+3. 「Skype for Business Server での帯域幅ポリシー プロファイルの作成」の説明に示されている帯域幅ポリシー プロファイル [の作成](create-bandwidth-policy-profiles.md)
     
-4. 「 [Skype For Business Server でのネットワーク領域リンクの作成](create-network-region-links.md)」で詳しく説明するように、ネットワーク領域のリンクを作成します。
+4. 「Skype for Business Server でのネットワーク地域リンクの作成 [」で説明されているネットワーク地域リンクを作成します](create-network-region-links.md)。
     
-5. 「 [Skype For Business Server でネットワーク間の地域ルートを作成する](create-network-interregional-routes.md)」で詳しく説明するように、ネットワーク間のネットワーク間ルートを作成します。
+5. 「Skype for Business Server でのネットワーク地域間ルートの作成」で説明されているネットワーク地域間ルート [を作成します](create-network-interregional-routes.md)。
     
-6. 「 [Skype For Business Server でのネットワークのサイト間ポリシーの作成](create-network-intersite-policies.md)」で詳しく説明するように、ネットワークのサイト間ポリシーを作成します。
+6. 「Skype for Business Server でネットワーク サイト間ポリシーを作成する」の説明に従って、 [ネットワーク サイト間ポリシーを作成します](create-network-intersite-policies.md)。
     
-7. 「 [Skype For Business Server で通話受付制御を有効にする](enable-call-admission-control.md)」で詳しく説明するように、通話受付制御を有効にします。
+7. 「Skype for Business Server で通話受付管理を有効にする」の説明に示されている方法で、 [通話受付管理を有効にします](enable-call-admission-control.md)。
     
-8. いくつかの最終設定をチェックして、すべてが正しく設定されていることを確認します。 詳細については、「[通話受付制御の展開: Skype For Business Server の最終チェックリスト](final-checklist.md)」を参照してください。
+8. 最終的な設定を確認して、すべてが正しく設定されていることを確認します。 詳細については、「 [通話受付管理の展開: Skype for Business Server の最終チェックリスト」を参照してください](final-checklist.md)。
     
 

@@ -1,8 +1,8 @@
 ---
 title: ブランチ サイトの詳細を追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
-description: サイトの詳細を指定するには、次の手順を実行します。
-ms.openlocfilehash: 30e4629332b732d7a873b2b39b33d64b3c70d7a3
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: サイトのサイトの詳細を指定するには、次の手順を実行します。
+ms.openlocfilehash: acc33e2a08ae4c0232ccff92f8ce1e800178b1c0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217368"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835553"
 ---
-# <a name="add-branch-site-details"></a>ブランチ サイトの詳細を追加する
+# <a name="add-branch-site-details"></a>ブランチ サイトの詳細の追加
 
-サイトの詳細を指定するには、次の手順を実行します。
+サイトのサイトの詳細を指定するには、次の手順を実行します。
 
 新しいブランチ サイトの市区町村名を指定します。市区町村の値はオプションのエントリです。
 
