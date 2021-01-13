@@ -1,8 +1,8 @@
 ---
-title: 仲介併置 (計画ツール)
+title: 仲介のコロケーション (計画ツール)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -15,20 +15,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
-description: 既定では、仲介サーバーはフロントエンドサーバーと併置されています。 パフォーマンス上の理由で、仲介サーバーをスタンドアロンプールに展開したり、SIP トランキングを展開したりすることもできます。この場合、スタンドアロンプールを使用することを強くお勧めします。 Skype for Business Server の併置は、Lync Server 2013 の場合と同じように機能します。 詳細については、以下のトピックを参照してください。
-ms.openlocfilehash: 944b1778e02b297af61544ae500f347b61afefc3
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+description: 仲介サーバーは、既定でフロントエンド サーバーと一緒に展開されます。 仲介サーバーは、パフォーマンス上の理由からスタンドアロン プールに展開することもできます。SIP トランキングを展開する場合は、スタンドアロン プールを強く推奨します。 Skype for Business Server のコロケーションは、Lync Server 2013 と同様に機能します。 詳細については、以下のトピックを参照してください。
+ms.openlocfilehash: 59308a35026798caa648598c864de5fdffffab2f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "42034037"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828957"
 ---
-# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="2f16a-106">仲介併置 (計画ツール)</span><span class="sxs-lookup"><span data-stu-id="2f16a-106">Mediation Collocation (Planning Tool)</span></span>
+# <a name="mediation-collocation-planning-tool"></a><span data-ttu-id="208a4-106">仲介のコロケーション (計画ツール)</span><span class="sxs-lookup"><span data-stu-id="208a4-106">Mediation Collocation (Planning Tool)</span></span>
  
-<span data-ttu-id="2f16a-107">既定では、仲介サーバーはフロントエンドサーバーと併置されています。</span><span class="sxs-lookup"><span data-stu-id="2f16a-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="2f16a-108">パフォーマンス上の理由で、仲介サーバーをスタンドアロンプールに展開したり、SIP トランキングを展開したりすることもできます。この場合、スタンドアロンプールを使用することを強くお勧めします。</span><span class="sxs-lookup"><span data-stu-id="2f16a-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="2f16a-109">Skype for Business Server の併置は、Lync Server 2013 の場合と同じように機能します。</span><span class="sxs-lookup"><span data-stu-id="2f16a-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="2f16a-110">詳細については、以下のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="2f16a-110">For details, see the following topics:</span></span>
+<span data-ttu-id="208a4-107">仲介サーバーは、既定でフロントエンド サーバーと一緒に展開されます。</span><span class="sxs-lookup"><span data-stu-id="208a4-107">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="208a4-108">仲介サーバーは、パフォーマンス上の理由からスタンドアロン プールに展開することもできます。SIP トランキングを展開する場合は、スタンドアロン プールを強く推奨します。</span><span class="sxs-lookup"><span data-stu-id="208a4-108">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span> <span data-ttu-id="208a4-109">Skype for Business Server のコロケーションは、Lync Server 2013 と同様に機能します。</span><span class="sxs-lookup"><span data-stu-id="208a4-109">Collocation in Skype for Business Server functions just as it did in Lync Server 2013.</span></span> <span data-ttu-id="208a4-110">詳細については、以下のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="208a4-110">For details, see the following topics:</span></span>
   
-- [<span data-ttu-id="2f16a-111">Lync Server 2013 でサポートされているサーバーの併置</span><span class="sxs-lookup"><span data-stu-id="2f16a-111">Supported server collocation in Lync Server 2013</span></span>](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
+- [<span data-ttu-id="208a4-111">Lync Server 2013 でサポートされるサーバーのコロケーション</span><span class="sxs-lookup"><span data-stu-id="208a4-111">Supported server collocation in Lync Server 2013</span></span>](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
     
-- [<span data-ttu-id="2f16a-112">Skype for Business Server 2015 の仲介サーバーコンポーネント</span><span class="sxs-lookup"><span data-stu-id="2f16a-112">Mediation Server component in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+- [<span data-ttu-id="208a4-112">Skype for Business Server 2015 の仲介サーバー コンポーネント</span><span class="sxs-lookup"><span data-stu-id="208a4-112">Mediation Server component in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
     
 

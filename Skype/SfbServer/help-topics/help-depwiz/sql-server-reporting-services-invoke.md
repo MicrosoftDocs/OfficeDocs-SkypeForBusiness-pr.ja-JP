@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (起動)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
-description: 監視サーバーレポートの展開に必要な情報を Microsoft SQL Server 2008 R2、または Microsoft SQL Server 2012 レポートサービスに提供した後、[ページの実行] コマンドには、SQL Server Reporting Services に関するレポート。
-ms.openlocfilehash: ba0b1b70d3dc1d0dbcc68931fc8bf601b7693efd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 監視サーバー レポートの展開に必要な情報を Microsoft SQL Server 2008 R2 または Microsoft SQL Server 2012 Report Services に提供した後、[コマンドの実行] ページには、SQL Server Reporting Services にレポートをインストールするために発行されたコマンドの概要が表示されます。
+ms.openlocfilehash: eac8b7884859c0b5b14218471054533eedb6d481
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823341"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829537"
 ---
-# <a name="sql-server-reporting-services-invoke"></a><span data-ttu-id="df341-103">SQL Server Reporting Services (起動)</span><span class="sxs-lookup"><span data-stu-id="df341-103">SQL Server Reporting Services (Invoke)</span></span>
+# <a name="sql-server-reporting-services-invoke"></a><span data-ttu-id="a9814-103">SQL Server Reporting Services (起動)</span><span class="sxs-lookup"><span data-stu-id="a9814-103">SQL Server Reporting Services (Invoke)</span></span>
  
-<span data-ttu-id="df341-104">監視サーバーレポートの展開に必要な情報を Microsoft SQL Server 2008 R2、または Microsoft SQL Server 2012 レポートサービスに提供した後、[ページの実行] コマンドには、SQL Server Reporting Services に関するレポート。</span><span class="sxs-lookup"><span data-stu-id="df341-104">After supplying the required information for the deployment of the Monitoring Server reports to the Microsoft SQL Server 2008 R2, or to Microsoft SQL Server 2012 Report Services, the page Execute Commands displays a summary of commands that are issued to install the reports to the SQL Server Reporting Services.</span></span>
+<span data-ttu-id="a9814-104">監視サーバー レポートの展開に必要な情報を Microsoft SQL Server 2008 R2 または Microsoft SQL Server 2012 Report Services に提供した後、[コマンドの実行] ページには、SQL Server Reporting Services にレポートをインストールするために発行されたコマンドの概要が表示されます。</span><span class="sxs-lookup"><span data-stu-id="a9814-104">After supplying the required information for the deployment of the Monitoring Server reports to the Microsoft SQL Server 2008 R2, or to Microsoft SQL Server 2012 Report Services, the page Execute Commands displays a summary of commands that are issued to install the reports to the SQL Server Reporting Services.</span></span>
   
-<span data-ttu-id="df341-p101">コマンドの概要を調べ、コマンドによって表示されたエラーまたは警告メッセージがないかどうかを確認します。ログ ファイルが生成された場合は、概要ウィンドウのドロップダウン リストからそのログ ファイルを選択し、[**ログの表示**] をクリックしてログ ファイルを表示します。</span><span class="sxs-lookup"><span data-stu-id="df341-p101">Review the summary of commands and note any error or warning messages displayed from the commands. If a log file is generated, select the log file from the drop-down list under the summary window, and click **View Log** to display the log file.</span></span>
+<span data-ttu-id="a9814-p101">コマンドの概要を調べ、コマンドよって表示されたエラーまたは警告メッセージがないかどうか確認してください。ログ ファイルが生成された場合は、概要ウィンドウのドロップダウン リストからそのログ ファイルを選択し、**[ログの表示]** をクリックしてログ ファイルを表示します。</span><span class="sxs-lookup"><span data-stu-id="a9814-p101">Review the summary of commands and note any error or warning messages displayed from the commands. If a log file is generated, select the log file from the drop-down list under the summary window, and click **View Log** to display the log file.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="df341-107">Reporting Services レポートが正常に展開され、展開が完了した後にレポートにアクセスするには、SQL Server のセキュリティが強化された Windows ファイアウォールで、TCP/IP ポート 80 (および必要に応じて、SSL 用の TCP ポート 443) を使用している必要があります。</span><span class="sxs-lookup"><span data-stu-id="df341-107">For the Reporting Services reports to deploy successfully, and to access the reports after deployment is complete, you must have TCP/IP port 80 (and optionally, TCP port 443 for SSL, if you assign a certificate to the Reporting Services) open in the Windows Firewall with Advanced Security on the SQL Server.</span></span> <span data-ttu-id="df341-108">詳細については、「Microsoft SQL server 2008 R2 の[Sql Server アクセスを許可するように Windows ファイアウォールを構成](https://go.microsoft.com/fwlink/p/?linkId=218031)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="df341-108">For details, see [Configure the Windows Firewall to Allow SQL Server Access](https://go.microsoft.com/fwlink/p/?linkId=218031) for Microsoft SQL Server 2008 R2.</span></span>
+> <span data-ttu-id="a9814-107">Reporting Services レポートを正常に展開し、展開の完了後にレポートにアクセスするには、tcp/IP ポート 80 (および、Reporting Services に証明書を割り当てる場合は SSL 用の TCP ポート 443) が SQL Server の Windows ファイアウォールで開いている必要があります。</span><span class="sxs-lookup"><span data-stu-id="a9814-107">For the Reporting Services reports to deploy successfully, and to access the reports after deployment is complete, you must have TCP/IP port 80 (and optionally, TCP port 443 for SSL, if you assign a certificate to the Reporting Services) open in the Windows Firewall with Advanced Security on the SQL Server.</span></span> <span data-ttu-id="a9814-108">詳細については [、「Configure the Windows Firewall to Allow SQL Server Access](https://go.microsoft.com/fwlink/p/?linkId=218031) for Microsoft SQL Server 2008 R2」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a9814-108">For details, see [Configure the Windows Firewall to Allow SQL Server Access](https://go.microsoft.com/fwlink/p/?linkId=218031) for Microsoft SQL Server 2008 R2.</span></span>
   
-<span data-ttu-id="df341-109">概要を確認した後、[**完了**] をクリックして、レポートの SQL Server Reporting Services へのインストールを完了します。</span><span class="sxs-lookup"><span data-stu-id="df341-109">After reviewing the summary, click **Finish** to complete the installation of the reports to the SQL Server Reporting Services.</span></span>
+<span data-ttu-id="a9814-109">概要を確認したら、[完了]をクリックして、レポートのインストールを SQL Server Reporting Services に完了します。</span><span class="sxs-lookup"><span data-stu-id="a9814-109">After reviewing the summary, click **Finish** to complete the installation of the reports to the SQL Server Reporting Services.</span></span>
   
 

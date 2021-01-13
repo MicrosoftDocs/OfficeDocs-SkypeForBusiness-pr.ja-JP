@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 2015 でバックエンド サーバーの高可用性を実現するための SQL ミラーリングの展開
+title: Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,135 +11,135 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
-description: SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「SQL Server 2008 Service Pack 1 の累積更新プログラムパッケージ9」を参照してください。
-ms.openlocfilehash: 2be6b59d294db6a74ffe902648511658a07242ca
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、SQL Server 2008 Service Pack 1 の累積的な更新プログラム パッケージ 9 を参照してください。
+ms.openlocfilehash: 8a546f65d8ad5c701eea20fb2c9c3bf0e026ff1f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790065"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830557"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a><span data-ttu-id="e7974-105">Skype for Business server 2015 でバックエンドサーバーの高可用性を実現するための SQL ミラーリングを展開する</span><span class="sxs-lookup"><span data-stu-id="e7974-105">Deploy SQL mirroring for Back End Server high availability in Skype for Business server 2015</span></span>
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a><span data-ttu-id="7bdc3-105">Deploy SQL mirroring for Back End Server high availability in Skype for Business server 2015</span><span class="sxs-lookup"><span data-stu-id="7bdc3-105">Deploy SQL mirroring for Back End Server high availability in Skype for Business server 2015</span></span>
 
 
-<span data-ttu-id="e7974-106">SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-106">To be able to deploy SQL mirroring, your servers must run a minimum of SQL Server 2008 R2.</span></span> <span data-ttu-id="e7974-107">このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-107">This version must run on all the involved servers: the primary, mirror, and the witness.</span></span> <span data-ttu-id="e7974-108">詳細については、「 [SQL Server 2008 Service Pack 1 の累積更新プログラムパッケージ 9](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e7974-108">For details, see [Cumulative update package 9 for SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).</span></span>
+<span data-ttu-id="7bdc3-106">SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-106">To be able to deploy SQL mirroring, your servers must run a minimum of SQL Server 2008 R2.</span></span> <span data-ttu-id="7bdc3-107">このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-107">This version must run on all the involved servers: the primary, mirror, and the witness.</span></span> <span data-ttu-id="7bdc3-108">詳細については、SQL Server [2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)の累積的な更新プログラム パッケージ 9 を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-108">For details, see [Cumulative update package 9 for SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).</span></span>
 
-<span data-ttu-id="e7974-109">一般に、2 つのバックエンド サーバー間での SQL ミラーリングを設定するには、以下の要件を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-109">In general, setting up SQL mirroring between the two Back End Servers with a witness requires the following:</span></span>
+<span data-ttu-id="7bdc3-109">一般に、2 つのバックエンド サーバー間での SQL ミラーリングを設定するには、以下の要件を満たしている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-109">In general, setting up SQL mirroring between the two Back End Servers with a witness requires the following:</span></span>
 
-- <span data-ttu-id="e7974-110">プライマリサーバーの SQL Server のバージョンでは、SQL のミラーリングがサポートされている必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-110">The primary server's version of SQL Server must support SQL mirroring.</span></span>
+- <span data-ttu-id="7bdc3-110">プライマリ サーバーのバージョンのサーバーは、SQL ServerミラーリングをSQL必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-110">The primary server's version of SQL Server must support SQL mirroring.</span></span>
 
-- <span data-ttu-id="e7974-111">プライマリ、ミラー、およびミラーリング監視 (展開されている場合) の各 SQL Server が同一バージョンである。</span><span class="sxs-lookup"><span data-stu-id="e7974-111">The primary, mirror, and the witness (if deployed) must have the same version of SQL Server.</span></span>
+- <span data-ttu-id="7bdc3-111">プライマリ、ミラー、およびミラーリング監視 (展開されている場合) の各 SQL Server が同一バージョンである。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-111">The primary, mirror, and the witness (if deployed) must have the same version of SQL Server.</span></span>
 
-- <span data-ttu-id="e7974-p103">プライマリおよびミラーの各 SQL Server が同一エディションである (ミラーリング監視のエディションは異なっていても構いません)。</span><span class="sxs-lookup"><span data-stu-id="e7974-p103">The primary and the mirror must have the same edition of SQL Server. The witness may have a different edition.</span></span>
+- <span data-ttu-id="7bdc3-p103">プライマリおよびミラーの各 SQL Server が同一エディションである (ミラーリング監視のエディションは異なっていても構いません)。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-p103">The primary and the mirror must have the same edition of SQL Server. The witness may have a different edition.</span></span>
 
-<span data-ttu-id="e7974-114">監視ロールでサポートされる SQL バージョンについては、SQL のベストプラクティスについては、「[データベースミラーリングの監視](https://go.microsoft.com/fwlink/p/?LinkId=247345)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="e7974-114">For SQL best practices in terms of what SQL versions are supported for a Witness role, see [Database Mirroring Witness](https://go.microsoft.com/fwlink/p/?LinkId=247345).</span></span>
+<span data-ttu-id="7bdc3-114">監視SQLでサポートされているSQLのベスト プラクティスについては、「データベース ミラーリング監視」 [を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=247345)。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-114">For SQL best practices in terms of what SQL versions are supported for a Witness role, see [Database Mirroring Witness](https://go.microsoft.com/fwlink/p/?LinkId=247345).</span></span>
 
-<span data-ttu-id="e7974-115">SQL ミラーリングを展開するには、トポロジビルダーを使います。</span><span class="sxs-lookup"><span data-stu-id="e7974-115">You use Topology Builder to deploy SQL mirroring.</span></span> <span data-ttu-id="e7974-116">トポロジビルダーでデータベースをミラーリングするオプションを選ぶと、トポロジビルダーは、トポロジを公開するときに、(必要に応じて、監視の設定を含む) ミラーリングを設定します。</span><span class="sxs-lookup"><span data-stu-id="e7974-116">You select an option in Topology Builder to mirror the databases, and Topology Builder sets up the mirroring (including setting up a witness, if you want) when you publish the topology.</span></span> <span data-ttu-id="e7974-117">ミラーリング監視は、ミラーの設定または削除と同時に設定または削除することに注意してください。</span><span class="sxs-lookup"><span data-stu-id="e7974-117">Note that you set up or remove the witness at the same time you set up or remove the mirror.</span></span> <span data-ttu-id="e7974-118">ミラーリング監視のみ展開または削除する独立したコマンドはありません。</span><span class="sxs-lookup"><span data-stu-id="e7974-118">There is no separate command to deploy or remove only a witness.</span></span>
+<span data-ttu-id="7bdc3-115">トポロジ ビルダーを使用して、ミラーリングをSQLします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-115">You use Topology Builder to deploy SQL mirroring.</span></span> <span data-ttu-id="7bdc3-116">トポロジ ビルダーでデータベースをミラー化するオプションを選択し、トポロジ ビルダーはトポロジの公開時にミラーリング (必要に合ったミラーリング監視の設定を含む) を設定します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-116">You select an option in Topology Builder to mirror the databases, and Topology Builder sets up the mirroring (including setting up a witness, if you want) when you publish the topology.</span></span> <span data-ttu-id="7bdc3-117">ミラーリング監視は、ミラーの設定または削除と同時に設定または削除します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-117">Note that you set up or remove the witness at the same time you set up or remove the mirror.</span></span> <span data-ttu-id="7bdc3-118">ミラーリング監視のみ展開または削除する独立したコマンドはありません。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-118">There is no separate command to deploy or remove only a witness.</span></span>
 
-<span data-ttu-id="e7974-119">サーバー ミラーリングを構成するには、最初に SQL データベース アクセス許可を正しく設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-119">To configure server mirroring, you must first set up SQL database permissions correctly.</span></span> <span data-ttu-id="e7974-120">詳細について[は、「データベースミラーリングまたは AlwaysOn 可用性グループ (SQL Server) のログインアカウントを設定する](https://go.microsoft.com/fwlink/p/?LinkId=268454)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e7974-120">For details, see [Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).</span></span>
+<span data-ttu-id="7bdc3-119">サーバー ミラーリングを構成するには、最初に SQL データベース アクセス許可を正しく設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-119">To configure server mirroring, you must first set up SQL database permissions correctly.</span></span> <span data-ttu-id="7bdc3-120">詳細については、「データベース ミラーリングまたは AlwaysOn 可用性グループのログイン アカウントをセットアップする [(SQL Server)」を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=268454)。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-120">For details, see [Set Up Login Accounts for Database Mirroring or AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).</span></span>
 
-<span data-ttu-id="e7974-p106">SQL ミラーリングでは、データベース復旧モードは常に [**完全**] に設定されます。これは、トランザクション ログ サイズを綿密に監視し、トランザクション ログを定期的にバックアップしてバックエンド サーバー上のディスク容量の不足を回避する必要があることを意味します。トランザクション ログのバックアップ頻度は、ログの増加率によって決まります。ログの増加率は、フロントエンド プールのユーザー アクティビティによるデータベース トランザクションによって決まります。展開ワークロードに対して予想されるトランザクション ログの増加を判断し、それに応じて計画することをお勧めします。次の記事では、SQL バックアップおよびログ管理に関する追加情報を提供しています。</span><span class="sxs-lookup"><span data-stu-id="e7974-p106">With SQL mirroring, database recovery mode is always set to **Full**, which means you must closely monitor transaction log size and back up transaction logs on a regular basis to avoid running out of disk space on the Back End Servers. The frequency of transaction log backups depends on the log growth rate, which in turn depends on database transactions incurred by user activities on the Front End pool. We recommend that you determine how much transaction log growth is expected for your deployment workload so that you can do the planning accordingly. The following articles provide additional information on SQL backup and log management:</span></span>
+<span data-ttu-id="7bdc3-121">SQL ミラーリングでは、データベース回復モードは常に **"** 完全" に設定されます。つまり、バック エンド サーバー上のディスク領域が使い切れなくするには、トランザクション ログのサイズを十分に監視し、トランザクション ログを定期的にバックアップする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-121">With SQL mirroring, database recovery mode is always set to **Full**, which means you must closely monitor transaction log size and back up transaction logs on a regular basis to avoid running out of disk space on the Back End Servers.</span></span> <span data-ttu-id="7bdc3-122">トランザクション ログのバックアップの頻度は、ログの増加率によって異なります。これは、フロントエンド プールでのユーザー アクティビティによって発生したデータベース トランザクションによって異なります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-122">The frequency of transaction log backups depends on the log growth rate, which in turn depends on database transactions incurred by user activities on the Front End pool.</span></span> <span data-ttu-id="7bdc3-123">計画を適切に実行できるよう、展開ワークロードで予想されるトランザクション ログの増加量を決定することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-123">We recommend that you determine how much transaction log growth is expected for your deployment workload so that you can do the planning accordingly.</span></span> <span data-ttu-id="7bdc3-124">以下の記事では、バックアップとログ管理のSQLに関する追加情報を提供します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-124">The following articles provide additional information on SQL backup and log management:</span></span>
 
-- [<span data-ttu-id="e7974-125">データベースの回復モデル</span><span class="sxs-lookup"><span data-stu-id="e7974-125">Database recovery models</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268446)
+- [<span data-ttu-id="7bdc3-125">データベース回復モデル</span><span class="sxs-lookup"><span data-stu-id="7bdc3-125">Database recovery models</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268446)
 
-- [<span data-ttu-id="e7974-126">バックアップの概要</span><span class="sxs-lookup"><span data-stu-id="e7974-126">Backup overview</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268449)
+- [<span data-ttu-id="7bdc3-126">バックアップの概要</span><span class="sxs-lookup"><span data-stu-id="7bdc3-126">Backup overview</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268449)
 
-- [<span data-ttu-id="e7974-127">バックアップトランザクションログ</span><span class="sxs-lookup"><span data-stu-id="e7974-127">Backup transaction log</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268452)
+- [<span data-ttu-id="7bdc3-127">バックアップ トランザクション ログ</span><span class="sxs-lookup"><span data-stu-id="7bdc3-127">Backup transaction log</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=268452)
 
-<span data-ttu-id="e7974-128">SQL ミラーリングでは、ミラーリングのトポロジの構成を、プールの作成時、またはプールが既に作成された後のどちらでも行うことができます。</span><span class="sxs-lookup"><span data-stu-id="e7974-128">With SQL mirroring, you can either configure the topology for mirroring when you create the pools, or after the pools are already created.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="e7974-129">SQL ミラーリングのセットアップと削除を行うためのトポロジビルダーまたはコマンドレットの使用は、プライマリ、ミラー、および監視 (必要な場合) サーバーがすべて同じドメインに属している場合にのみサポートされます。</span><span class="sxs-lookup"><span data-stu-id="e7974-129">Using Topology Builder or cmdlets to set up and remove SQL mirroring is supported only when the primary, mirror, and witness (if desired) servers all belong to the same domain.</span></span> <span data-ttu-id="e7974-130">異なるドメインのサーバーに SQL ミラーリングを設定する場合は、SQL Server のドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="e7974-130">If you want to set up SQL mirroring among servers in different domains, see your SQL Server documentation.</span></span>
+<span data-ttu-id="7bdc3-128">SQL ミラーリングでは、ミラーリングのトポロジの構成を、プールの作成時、またはプールが既に作成された後のどちらでも行うことができます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-128">With SQL mirroring, you can either configure the topology for mirroring when you create the pools, or after the pools are already created.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e7974-131">バックエンド データベース ミラーリング関係を変更するたびに、プール内のすべてのフロントエンド サーバーを再起動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-131">Whenever you make a change to a Back End Database mirroring relationship, you must restart all the Front End Servers in the pool.</span></span> <span data-ttu-id="e7974-132">ミラーリングの変更 (ミラーの場所の変更など) の > は、次の3つの手順を実行するためにトポロジビルダーを使用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-132">> For a change in mirroring, (such as changing the location of a mirror), you must use Topology Builder to perform these three steps:</span></span>
+> <span data-ttu-id="7bdc3-129">トポロジ ビルダーまたはコマンドレットを使用した SQL ミラーリングのセットアップと削除は、プライマリ サーバー、ミラー サーバー、およびミラーリング監視サーバー (必要な場合) すべてが同じドメインに属している場合にのみサポートされます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-129">Using Topology Builder or cmdlets to set up and remove SQL mirroring is supported only when the primary, mirror, and witness (if desired) servers all belong to the same domain.</span></span> <span data-ttu-id="7bdc3-130">異なるドメインのサーバーに SQL ミラーリングを設定する場合は、SQL Server のドキュメントを参照してください。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-130">If you want to set up SQL mirroring among servers in different domains, see your SQL Server documentation.</span></span>
 
-1. <span data-ttu-id="e7974-133">古いミラー サーバーからミラーリングを削除します。</span><span class="sxs-lookup"><span data-stu-id="e7974-133">Remove mirroring from the old mirror server.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="7bdc3-131">バックエンド データベース ミラーリング関係を変更するたびに、プール内のすべてのフロントエンド サーバーを再起動する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-131">Whenever you make a change to a Back End Database mirroring relationship, you must restart all the Front End Servers in the pool.</span></span> <span data-ttu-id="7bdc3-132">>ミラーリングの変更 (ミラーの場所の変更など) には、トポロジ ビルダーを使用して次の 3 つの手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-132">> For a change in mirroring, (such as changing the location of a mirror), you must use Topology Builder to perform these three steps:</span></span>
 
-2. <span data-ttu-id="e7974-134">新しいミラー サーバーにミラーリングを追加します。</span><span class="sxs-lookup"><span data-stu-id="e7974-134">Add mirroring to the new mirror server.</span></span>
+1. <span data-ttu-id="7bdc3-133">古いミラー サーバーからミラーリングを削除します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-133">Remove mirroring from the old mirror server.</span></span>
 
-3. <span data-ttu-id="e7974-135">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="e7974-135">Publish the topology.</span></span>
+2. <span data-ttu-id="7bdc3-134">新しいミラー サーバーにミラーリングを追加します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-134">Add mirroring to the new mirror server.</span></span>
+
+3. <span data-ttu-id="7bdc3-135">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-135">Publish the topology.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e7974-136">書き込み先のミラーファイルに対してファイル共有を作成し、SQL Server と SQL エージェントが実行されているサービスが読み取り/書き込みアクセスを必要とするようにする必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-136">A file share has to be created for the mirror files to be written to, and the service that SQL Server and SQL Agent are running under needs read/write access.</span></span> <span data-ttu-id="e7974-137">SQL Server サービスが Network service のコンテキストで実行されている場合は、 \<プリンシパル\> \\とミラーの\>SQL server の両方のドメイン<sqlservername $ を共有アクセス許可に追加できます。</span><span class="sxs-lookup"><span data-stu-id="e7974-137">If the SQL Server service is running under the context of Network Service, you can add \<Domain\>\\<SQLSERVERNAME\>$ of both the Principal and Mirror SQL Servers to the share permissions.</span></span> <span data-ttu-id="e7974-138">$ は、これがコンピュータアカウントであることを特定するために重要です。</span><span class="sxs-lookup"><span data-stu-id="e7974-138">The $ is important to identify that this is a computer account.</span></span>
+> <span data-ttu-id="7bdc3-136">ミラー ファイルを書き込むにはファイル共有を作成する必要があります。また、SQL Server および SQL エージェントが実行されているサービスには読み取り/書き込みアクセス権が必要です。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-136">A file share has to be created for the mirror files to be written to, and the service that SQL Server and SQL Agent are running under needs read/write access.</span></span> <span data-ttu-id="7bdc3-137">SQL Server サービスがネットワーク サービスのコンテキストで実行されている場合は、プリンシパル サーバーとミラー SQL サーバーの両方の \<Domain\> \\<SQLSERVERNAME \> $ を共有アクセス許可に追加できます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-137">If the SQL Server service is running under the context of Network Service, you can add \<Domain\>\\<SQLSERVERNAME\>$ of both the Principal and Mirror SQL Servers to the share permissions.</span></span> <span data-ttu-id="7bdc3-138">$ は、これがコンピューター アカウントであるのを識別するために重要です。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-138">The $ is important to identify that this is a computer account.</span></span>
 
-## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a><span data-ttu-id="e7974-139">トポロジビルダーでプールを作成するときに SQL ミラーリングを構成するには</span><span class="sxs-lookup"><span data-stu-id="e7974-139">To configure SQL mirroring while creating a pool in Topology Builder</span></span>
+## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a><span data-ttu-id="7bdc3-139">トポロジ ビルダー SQL作成時にミラーリングを構成するには</span><span class="sxs-lookup"><span data-stu-id="7bdc3-139">To configure SQL mirroring while creating a pool in Topology Builder</span></span>
 
-1. <span data-ttu-id="e7974-140">[**SQL ストアの定義**] ページで、[**SQL ストア**] ボックスの隣にある [**新規作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-140">On the **Define the SQL Store** page, click **New** next to the **SQL store** box.</span></span>
+1. <span data-ttu-id="7bdc3-140">[**SQL ストアの定義**] ページで、[**SQL ストア**] ボックスの横にある [**新規作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-140">On the **Define the SQL Store** page, click **New** next to the **SQL store** box.</span></span>
 
-2. <span data-ttu-id="e7974-141">[**新しい SQL ストアの定義**] ページで、プライマリ ストアを指定し、[**この SQL インスタンスはミラーリングの関係にある **] を選択して、SQL ミラーリングのポート番号 (既定値は 5022) を指定したうえで [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-141">On the **Define new SQL Store** page, specify the primary store, select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number (the default is 5022), and then click **OK**.</span></span>
+2. <span data-ttu-id="7bdc3-141">[**新しい SQL ストアの定義**] ページで、プライマリ ストアを指定し、[**この SQL インスタンスはミラーリングの関係にある**] を選択して、SQL ミラーリングのポート番号 (既定値は 5022) を指定したうえで [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-141">On the **Define new SQL Store** page, specify the primary store, select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number (the default is 5022), and then click **OK**.</span></span>
 
-3. <span data-ttu-id="e7974-142">[**SQL ストアの定義**] ページに戻ったら、[**SQL ストアのミラーリングを有効にする**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="e7974-142">Back on the **Define the SQL store** page, select **Enable SQL Store mirroring**.</span></span>
+3. <span data-ttu-id="7bdc3-142">[**SQL ストアの定義**] ページに戻ったら、[**SQL ストアのミラーリングを有効にする**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-142">Back on the **Define the SQL store** page, select **Enable SQL Store mirroring**.</span></span>
 
-4. <span data-ttu-id="e7974-p110">[**新しい SQL ストアの定義**] ページで、ミラーとして使用する SQL ストアを指定し、[**この SQL インスタンスはミラーリングの関係にある**] を選択して、ポート番号 (既定値は 5022) を指定したうえで [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-p110">In the **Define new SQL Store** page, specify the SQL store to be used as the mirror. Select **This SQL instance is in mirroring relation**, specify the port number (the default is 5022), and then click **OK**.</span></span>
+4. <span data-ttu-id="7bdc3-p110">[**新しい SQL ストアの定義**] ページで、ミラーとして使用する SQL ストアを指定し、[**この SQL インスタンスはミラーリングの関係にある**] を選択して、ポート番号 (既定値は 5022) を指定したうえで [**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-p110">In the **Define new SQL Store** page, specify the SQL store to be used as the mirror. Select **This SQL instance is in mirroring relation**, specify the port number (the default is 5022), and then click **OK**.</span></span>
 
-5. <span data-ttu-id="e7974-145">このミラーのミラーリング監視が必要な場合は、以下の操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="e7974-145">If you want a witness for this mirror, do the following:</span></span>
+5. <span data-ttu-id="7bdc3-145">このミラーのミラーリング監視が必要な場合は、以下の操作を実行します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-145">If you want a witness for this mirror, do the following:</span></span>
 
-    <span data-ttu-id="e7974-146">a.</span><span class="sxs-lookup"><span data-stu-id="e7974-146">a.</span></span> <span data-ttu-id="e7974-147">[**SQL ミラーリング監視を使用して自動フェールオーバーを有効にする**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="e7974-147">Select **Use SQL mirroring witness to enable automatic failover**.</span></span>
+    <span data-ttu-id="7bdc3-146">a. </span><span class="sxs-lookup"><span data-stu-id="7bdc3-146">a.</span></span> <span data-ttu-id="7bdc3-147">[**SQL ミラーリング監視を使用して自動フェールオーバーを有効にする**] を選択します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-147">Select **Use SQL mirroring witness to enable automatic failover**.</span></span>
 
-    <span data-ttu-id="e7974-148">b.</span><span class="sxs-lookup"><span data-stu-id="e7974-148">b.</span></span> <span data-ttu-id="e7974-149">[**SQL ストアの定義**] ページで、[**SQL ミラーリング監視を使用して自動フェールオーバーを有効にする**] を選択し、ミラーリング監視として使用する SQL ストアを指定します。</span><span class="sxs-lookup"><span data-stu-id="e7974-149">In the **Define the SQL Store** page, select **Use SQL mirroring witness to enable automatic failover**, and specify the SQL store to be used as the witness.</span></span>
+    <span data-ttu-id="7bdc3-148">b.</span><span class="sxs-lookup"><span data-stu-id="7bdc3-148">b.</span></span> <span data-ttu-id="7bdc3-149">[**SQL ストアの定義**] ページで、[**SQL ミラーリング監視を使用して自動フェールオーバーを有効にする**] を選択し、ミラーリング監視として使用する SQL ストアを指定します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-149">In the **Define the SQL Store** page, select **Use SQL mirroring witness to enable automatic failover**, and specify the SQL store to be used as the witness.</span></span>
 
-    <span data-ttu-id="e7974-150">c.</span><span class="sxs-lookup"><span data-stu-id="e7974-150">c.</span></span> <span data-ttu-id="e7974-151">ポート番号 (既定値は 7022) を指定し、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-151">Specify the port number (the default is 7022) and click **OK**.</span></span>
+    <span data-ttu-id="7bdc3-150">c.</span><span class="sxs-lookup"><span data-stu-id="7bdc3-150">c.</span></span> <span data-ttu-id="7bdc3-151">ポート番号 (既定値は 7022) を指定し、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-151">Specify the port number (the default is 7022) and click **OK**.</span></span>
 
-6. <span data-ttu-id="e7974-152">フロントエンドプールとトポロジ内の他のすべての役割の定義が完了したら、トポロジビルダーを使用してトポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="e7974-152">After you are done defining your Front End pool and all other roles in your topology, use Topology Builder to publish the topology.</span></span> <span data-ttu-id="e7974-153">トポロジが公開されている場合、中央管理ストアをホストするフロントエンドプールに SQL ミラーリングが有効になっていると、プライマリとミラーの両方の SQL ストアデータベースを作成するオプションが表示されます。</span><span class="sxs-lookup"><span data-stu-id="e7974-153">When the topology is published, if the Front End pool that hosts Central Management store has SQL mirroring enabled, you will see an option to create both primary and mirror SQL store databases.</span></span>
+6. <span data-ttu-id="7bdc3-152">トポロジでフロントエンド プールと他のすべての役割の定義が完了したら、トポロジ ビルダーを使用してトポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-152">After you are done defining your Front End pool and all other roles in your topology, use Topology Builder to publish the topology.</span></span> <span data-ttu-id="7bdc3-153">トポロジを公開すると、中央管理ストアをホストするフロントエンド プールで SQL ミラーリングが有効になっている場合、プライマリ とミラーの両方の SQL ストア データベースを作成するオプションが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-153">When the topology is published, if the Front End pool that hosts Central Management store has SQL mirroring enabled, you will see an option to create both primary and mirror SQL store databases.</span></span>
 
-    <span data-ttu-id="e7974-154">[**設定**] をクリックし、ミラーリング バックアップのファイル共有として使用するパスを入力します。</span><span class="sxs-lookup"><span data-stu-id="e7974-154">Click **Settings**, and type the path to use as the file share for the mirroring backup.</span></span>
+    <span data-ttu-id="7bdc3-154">[**設定**] をクリックし、ミラーリング バックアップのファイル共有として使用するパスを入力します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-154">Click **Settings**, and type the path to use as the file share for the mirroring backup.</span></span>
 
-    <span data-ttu-id="e7974-p115">[**OK**]、[**次へ**] の順にクリックして、データベースを作成し、トポロジを公開します。ミラーリングとミラーリング監視 (指定した場合) が展開されます。</span><span class="sxs-lookup"><span data-stu-id="e7974-p115">Click **OK** and then **Next** to create the databases and publish the topology. The mirroring and the witness (if specified) will be deployed.</span></span>
+    <span data-ttu-id="7bdc3-p115">[**OK**]、[**次へ**] の順にクリックして、データベースを作成し、トポロジを公開します。ミラーリングとミラーリング監視 (指定した場合) が展開されます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-p115">Click **OK** and then **Next** to create the databases and publish the topology. The mirroring and the witness (if specified) will be deployed.</span></span>
 
-<span data-ttu-id="e7974-157">トポロジビルダーを使用して、既存のプールのプロパティを編集し、SQL のミラーリングを有効にすることができます。</span><span class="sxs-lookup"><span data-stu-id="e7974-157">You can use Topology Builder to edit the properties of an already existing pool to enable SQL mirroring.</span></span>
+<span data-ttu-id="7bdc3-157">トポロジ ビルダーを使用すると、既存のプールのプロパティを編集して、既存のプールのSQLできます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-157">You can use Topology Builder to edit the properties of an already existing pool to enable SQL mirroring.</span></span>
 
-## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a><span data-ttu-id="e7974-158">トポロジビルダーで既存のフロントエンドプールに SQL ミラーリングを追加するには</span><span class="sxs-lookup"><span data-stu-id="e7974-158">To add SQL mirroring to an existing Front End pool in Topology Builder</span></span>
+## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a><span data-ttu-id="7bdc3-158">トポロジ ビルダー SQL既存のフロントエンド プールにミラーリングを追加するには</span><span class="sxs-lookup"><span data-stu-id="7bdc3-158">To add SQL mirroring to an existing Front End pool in Topology Builder</span></span>
 
-1. <span data-ttu-id="e7974-159">トポロジビルダーで、プールを右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-159">In Topology Builder, right-click the pool and then click **Edit Properties**.</span></span>
+1. <span data-ttu-id="7bdc3-159">トポロジ ビルダーで、プールを右クリックし、[プロパティの編集] **をクリックします**。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-159">In Topology Builder, right-click the pool and then click **Edit Properties**.</span></span>
 
-2. <span data-ttu-id="e7974-160">[**SQL ストアのミラーリングを有効にする**] を選択し、[**ミラーリング SQL ストア**] の横にある [**新規作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-160">Select **Enable SQL Store Mirroring**, and then click **New** next to **Mirroring SQL Store**.</span></span>
+2. <span data-ttu-id="7bdc3-160">[**SQL ストアのミラーリングを有効にする**] を選択し、[**ミラーリング SQL ストア**] の横にある [**新規作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-160">Select **Enable SQL Store Mirroring**, and then click **New** next to **Mirroring SQL Store**.</span></span>
 
-3. <span data-ttu-id="e7974-161">ミラーとして使用する SQL ストアを指定します。</span><span class="sxs-lookup"><span data-stu-id="e7974-161">Specify the SQL store that you want to use as the mirror.</span></span>
+3. <span data-ttu-id="7bdc3-161">ミラーとして使用する SQL ストアを指定します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-161">Specify the SQL store that you want to use as the mirror.</span></span>
 
-4. <span data-ttu-id="e7974-162">[**この SQL インスタンスはミラーリングの関係にある**] を選択し、SQL ミラーリングのポート番号 (既定のポートは 5022 番) を指定して、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-162">Select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number the default port is 5022), and then click **OK**.</span></span>
+4. <span data-ttu-id="7bdc3-162">[**この SQL インスタンスはミラーリングの関係にある**] を選択し、SQL ミラーリングのポート番号 (既定のポートは 5022 番) を指定して、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-162">Select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number the default port is 5022), and then click **OK**.</span></span>
 
-5. <span data-ttu-id="e7974-163">ミラーリング監視を構成する場合は、[**SQL ミラーリング監視を使用して自動フェールオーバーを有効にする**] を選択し、[**新規作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-163">If you want to configure a witness, select **Use SQL mirroring witness to enable automatic failover**, and click **New**.</span></span>
+5. <span data-ttu-id="7bdc3-163">ミラーリング監視を構成する場合は、[**SQL ミラーリング監視を使用して自動フェールオーバーを有効にする**] を選択し、[**新規作成**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-163">If you want to configure a witness, select **Use SQL mirroring witness to enable automatic failover**, and click **New**.</span></span>
 
-6. <span data-ttu-id="e7974-164">ミラーリング監視として使用する SQL ストアを指定します。</span><span class="sxs-lookup"><span data-stu-id="e7974-164">Specify the SQL store that you want to use as the witness.</span></span>
+6. <span data-ttu-id="7bdc3-164">ミラーリング監視として使用する SQL ストアを指定します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-164">Specify the SQL store that you want to use as the witness.</span></span>
 
-7. <span data-ttu-id="e7974-165">[**この SQL インスタンスはミラーリングの関係にある**] を選択し、SQL ミラーリングのポート番号 (既定のポートは 7022 番) を指定して、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-165">Select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number (the default port is 7022), and then click **OK**.</span></span>
+7. <span data-ttu-id="7bdc3-165">[**この SQL インスタンスはミラーリングの関係にある**] を選択し、SQL ミラーリングのポート番号 (既定のポートは 7022 番) を指定して、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-165">Select **This SQL instance is in mirroring relation**, specify the SQL mirroring port number (the default port is 7022), and then click **OK**.</span></span>
 
-8. <span data-ttu-id="e7974-166">[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-166">Click **OK**.</span></span>
+8. <span data-ttu-id="7bdc3-166">[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-166">Click **OK**.</span></span>
 
-9. <span data-ttu-id="e7974-p116">トポロジを公開します。この操作を行うと、データベースをインストールするように求められます。</span><span class="sxs-lookup"><span data-stu-id="e7974-p116">Publish the topology. When you do so, you will be prompted to install the database.</span></span>
+9. <span data-ttu-id="7bdc3-p116">トポロジを公開します。この操作を行うと、データベースをインストールするように求められます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-p116">Publish the topology. When you do so, you will be prompted to install the database.</span></span>
 
-    <span data-ttu-id="e7974-p117">トポロジ公開プロセスでは、ファイル共有パスの入力を求められます。ミラーリングを確立するには、ミラーリングに参加するすべての SQL Server に、このファイル共有への読み取り/書き込みのアクセス権が必要です。</span><span class="sxs-lookup"><span data-stu-id="e7974-p117">During the topology publishing process, you will be asked to define a file share path. The SQL Servers that participate in the mirroring must have read/write access to this file share for the mirror to be established.</span></span>
+    <span data-ttu-id="7bdc3-169">トポロジ公開プロセス中に、ファイル共有パスの定義を求めるメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-169">During the topology publishing process, you will be asked to define a file share path.</span></span> <span data-ttu-id="7bdc3-170">ミラーリングSQLに参加するサーバーは、ミラーを確立するために、このファイル共有への読み取り/書き込みアクセス権を持っている必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-170">The SQL Servers that participate in the mirroring must have read/write access to this file share for the mirror to be established.</span></span>
 
-<span data-ttu-id="e7974-171">その場合、次の手順に進む前にデータベースをインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-171">You must then install the database before going on to the next procedure.</span></span>
+<span data-ttu-id="7bdc3-171">その場合、次の手順に進む前にデータベースをインストールする必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-171">You must then install the database before going on to the next procedure.</span></span>
 
-<span data-ttu-id="e7974-172">SQL ミラーリングの設定時には次の点に留意する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-172">You should keep the following in mind when setting up SQL mirroring:</span></span>
+<span data-ttu-id="7bdc3-172">SQL ミラーリングの設定時には次の点に留意する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-172">You should keep the following in mind when setting up SQL mirroring:</span></span>
 
-- <span data-ttu-id="e7974-173">既に存在するミラーリング エンドポイントは、そこに定義されたポートを使用して再利用され、トポロジ内で指定したポートは無視されます。</span><span class="sxs-lookup"><span data-stu-id="e7974-173">If a mirroring endpoint already exists, it will be reused using the ports defined there, and will ignore the ones you specify in the topology.</span></span>
+- <span data-ttu-id="7bdc3-173">既に存在するミラーリング エンドポイントは、そこに定義されたポートを使用して再利用され、トポロジ内で指定したポートは無視されます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-173">If a mirroring endpoint already exists, it will be reused using the ports defined there, and will ignore the ones you specify in the topology.</span></span>
 
-- <span data-ttu-id="e7974-p118">同じサーバー上の他のアプリケーションに既に割り当てられたポート (他の SQL インスタンス用のポートを含みます) は、ここでインストールする SQL インスタンスでは使用しないでください。これは、複数の SQL インスタンスを同じサーバー上にインストールしている場合、それらのインスタンスは同じポートをミラーリングに使用してはならないことを意味します。詳細については、以下の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e7974-p118">Any port already allocated for other applications on the same server, including those for other SQL instances, should not be used for the installed SQL instances at hand. This implies that if you have more than one SQL instance installed on the same server, they must not use the same port for mirroring. For details, see the following articles:</span></span>
+- <span data-ttu-id="7bdc3-p118">同じサーバー上の他のアプリケーションに既に割り当てられたポート (他の SQL インスタンス用のポートを含みます) は、ここでインストールする SQL インスタンスでは使用しないでください。これは、複数の SQL インスタンスを同じサーバー上にインストールしている場合、それらのインスタンスは同じポートをミラーリングに使用してはならないことを意味します。詳細については、以下の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-p118">Any port already allocated for other applications on the same server, including those for other SQL instances, should not be used for the installed SQL instances at hand. This implies that if you have more than one SQL instance installed on the same server, they must not use the same port for mirroring. For details, see the following articles:</span></span>
 
-  - [<span data-ttu-id="e7974-177">サーバーのネットワークアドレスを指定する (データベースのミラーリング)</span><span class="sxs-lookup"><span data-stu-id="e7974-177">Specify a Server Network Address (Database Mirroring)</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=247346)
+  - [<span data-ttu-id="7bdc3-177">サーバー ネットワーク アドレスを指定する (データベース ミラーリング)</span><span class="sxs-lookup"><span data-stu-id="7bdc3-177">Specify a Server Network Address (Database Mirroring)</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=247346)
 
-  - [<span data-ttu-id="e7974-178">データベースミラーリングエンドポイント (SQL Server)</span><span class="sxs-lookup"><span data-stu-id="e7974-178">The Database Mirroring Endpoint (SQL Server)</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=247347)
+  - [<span data-ttu-id="7bdc3-178">データベース ミラーリング エンドポイント (SQL Server)</span><span class="sxs-lookup"><span data-stu-id="7bdc3-178">The Database Mirroring Endpoint (SQL Server)</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=247347)
 
-## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a><span data-ttu-id="e7974-179">Skype for Business Server 2015 Management Shell コマンドレットを使用して SQL ミラーリングを設定する</span><span class="sxs-lookup"><span data-stu-id="e7974-179">Using Skype for Business Server 2015 Management Shell Cmdlets to Set Up SQL Mirroring</span></span>
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a><span data-ttu-id="7bdc3-179">Skype for Business Server 2015 管理シェル コマンドレットを使用してミラーリングをSQLする</span><span class="sxs-lookup"><span data-stu-id="7bdc3-179">Using Skype for Business Server 2015 Management Shell Cmdlets to Set Up SQL Mirroring</span></span>
 
-<span data-ttu-id="e7974-180">ミラーリングを設定する最も簡単な方法は、トポロジビルダーを使用することですが、コマンドレットを使って行うこともできます。</span><span class="sxs-lookup"><span data-stu-id="e7974-180">The easiest way to set up mirroring is by using Topology Builder, but you can also do so using cmdlets.</span></span>
+<span data-ttu-id="7bdc3-180">ミラーリングを設定する最も簡単な方法はトポロジ ビルダーを使用する方法ですが、コマンドレットを使用して設定することもできます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-180">The easiest way to set up mirroring is by using Topology Builder, but you can also do so using cmdlets.</span></span>
 
-1. <span data-ttu-id="e7974-181">Skype for Business Server 2015 管理シェルウィンドウを開いて、次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="e7974-181">Open a Skype for Business Server 2015 Management Shell window and run the following cmdlet:</span></span>
+1. <span data-ttu-id="7bdc3-181">Skype for Business Server 2015 管理シェル ウィンドウを開き、次のコマンドレットを実行します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-181">Open a Skype for Business Server 2015 Management Shell window and run the following cmdlet:</span></span>
 
    ```powershell
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose
    ```
 
-    <span data-ttu-id="e7974-182">例:</span><span class="sxs-lookup"><span data-stu-id="e7974-182">For example:</span></span>
+    <span data-ttu-id="7bdc3-182">例:</span><span class="sxs-lookup"><span data-stu-id="7bdc3-182">For example:</span></span>
 
    ```powershell
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose
    ```
 
-    <span data-ttu-id="e7974-183">以下のように表示されます。</span><span class="sxs-lookup"><span data-stu-id="e7974-183">You will see the following:</span></span>
+    <span data-ttu-id="7bdc3-183">以下のように表示されます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-183">You will see the following:</span></span>
 
    <pre>
    Database Name:rtcxds
@@ -217,78 +217,78 @@ ms.locfileid: "41790065"
    [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
    </pre>
 
-2. <span data-ttu-id="e7974-184">次のことを確認します。</span><span class="sxs-lookup"><span data-stu-id="e7974-184">Verify the following:</span></span>
+2. <span data-ttu-id="7bdc3-184">次のことを確認します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-184">Verify the following:</span></span>
 
-    - <span data-ttu-id="e7974-185">プライマリ SQL Server e04-ocs.los_a.lsipt.local\rtc で Windows ファイアウォールが有効になっている場合は、ポート 5022 がファイアウォール経由でアクセスできる。</span><span class="sxs-lookup"><span data-stu-id="e7974-185">Port 5022 is accessible through the firewall if Windows Firewall is enabled in the primary SQL Server e04-ocs.los_a.lsipt.local\rtc.</span></span>
+    - <span data-ttu-id="7bdc3-185">プライマリ SQL Server e04-ocs.los_a.lsipt.local\rtc で Windows ファイアウォールが有効になっている場合は、ポート 5022 がファイアウォール経由でアクセスできる。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-185">Port 5022 is accessible through the firewall if Windows Firewall is enabled in the primary SQL Server e04-ocs.los_a.lsipt.local\rtc.</span></span>
 
-    - <span data-ttu-id="e7974-186">ミラー SQL Server K16-ocs.los_a.lsipt.local\rtc で Windows ファイアウォールが有効になっている場合は、ポート 5022 がファイアウォール経由でアクセスできる。</span><span class="sxs-lookup"><span data-stu-id="e7974-186">Port 5022 is accessible through the firewall if Windows Firewall is enabled in the mirror SQL Server K16-ocs.los_a.lsipt.local\rtc.</span></span>
+    - <span data-ttu-id="7bdc3-186">ミラー SQL Server K16-ocs.los_a.lsipt.local\rtc で Windows ファイアウォールが有効になっている場合は、ポート 5022 がファイアウォール経由でアクセスできる。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-186">Port 5022 is accessible through the firewall if Windows Firewall is enabled in the mirror SQL Server K16-ocs.los_a.lsipt.local\rtc.</span></span>
 
-    - <span data-ttu-id="e7974-187">ミラーリング監視 SQL Server AB14-lct.los_a.lsipt.local\rtc で Windows ファイアウォールが有効になっている場合は、ポート 7022 がファイアウォール経由でアクセスできる。</span><span class="sxs-lookup"><span data-stu-id="e7974-187">Port 7022 is accessible through the firewall if Windows Firewall is enabled in the witness SQL Server AB14-lct.los_a.lsipt.local\rtc.</span></span>
+    - <span data-ttu-id="7bdc3-187">ミラーリング監視 SQL Server AB14-lct.los_a.lsipt.local\rtc で Windows ファイアウォールが有効になっている場合は、ポート 7022 がファイアウォール経由でアクセスできる。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-187">Port 7022 is accessible through the firewall if Windows Firewall is enabled in the witness SQL Server AB14-lct.los_a.lsipt.local\rtc.</span></span>
 
-   - <span data-ttu-id="e7974-188">すべてのプライマリおよびミラー SQL server で SQL Server を実行しているアカウントは、ファイル共有\\E04-OCS\csdatabackup の読み取り/書き込みアクセス許可を持っている</span><span class="sxs-lookup"><span data-stu-id="e7974-188">Accounts running the SQL Servers on all primary and mirror SQL servers have read/write permission to the file share \\E04-OCS\csdatabackup</span></span>
+   - <span data-ttu-id="7bdc3-188">すべてのプライマリ SQL およびミラー SQL サーバー上で SQL サーバーを実行するアカウントは、ファイル共有 E04-OCS\csdatabackup に対する読み取り/書き込みアクセス許可を持 \\ っています。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-188">Accounts running the SQL Servers on all primary and mirror SQL servers have read/write permission to the file share \\E04-OCS\csdatabackup</span></span>
 
-   - <span data-ttu-id="e7974-p119">これらすべてのサーバーで、Windows Management Instrumentation (WMI) プロバイダーが実行されている。コマンドレットでは、このプロバイダーを使用して、すべてのプライマリ サーバー、ミラー サーバー、およびミラーリング監視サーバーで実行されている SQL Server サービスのアカウント情報が検索されます。</span><span class="sxs-lookup"><span data-stu-id="e7974-p119">Verify that the Windows Management Instrumentation (WMI) provider is running on all these servers. The cmdlet uses this provider to find the account information for SQL Server services running on all primary, mirror and witness servers.</span></span>
+   - <span data-ttu-id="7bdc3-p119">これらすべてのサーバーで、Windows Management Instrumentation (WMI) プロバイダーが実行されている。コマンドレットでは、このプロバイダーを使用して、すべてのプライマリ サーバー、ミラー サーバー、およびミラーリング監視サーバーで実行されている SQL Server サービスのアカウント情報が検索されます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-p119">Verify that the Windows Management Instrumentation (WMI) provider is running on all these servers. The cmdlet uses this provider to find the account information for SQL Server services running on all primary, mirror and witness servers.</span></span>
 
-   - <span data-ttu-id="e7974-191">このコマンドレットを実行しているアカウントに、すべてのミラー サーバーのデータおよびログ ファイル用のフォルダーを作成するためのアクセス許可がある。</span><span class="sxs-lookup"><span data-stu-id="e7974-191">Verify that the account running this cmdlet has permission to create the folders for the data and log files for all the mirror servers.</span></span>
+   - <span data-ttu-id="7bdc3-191">このコマンドレットを実行しているアカウントに、すべてのミラー サーバーのデータおよびログ ファイル用のフォルダーを作成するためのアクセス許可がある。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-191">Verify that the account running this cmdlet has permission to create the folders for the data and log files for all the mirror servers.</span></span>
 
-   - <span data-ttu-id="e7974-p120">SQL インスタンスの実行に使用するユーザー アカウントに、ファイル共有に対する読み取り/書き込みアクセス許可が必要であることに注意してください。ファイル共有が別のサーバーにあり、SQL インスタンスがローカル システム アカウントを実行している場合は、SQL インスタンスをホストするサーバーへのファイル共有アクセス許可を付与する必要があります。</span><span class="sxs-lookup"><span data-stu-id="e7974-p120">Note that the user account that the SQL instance uses to run must have read/write permission to the file share. If the file share is on a different server, and the SQL instance runs a local system account, you must grant file share permissions to the server that hosts the SQL instance.</span></span>
+   - <span data-ttu-id="7bdc3-p120">SQL インスタンスの実行に使用するユーザー アカウントに、ファイル共有に対する読み取り/書き込みアクセス許可がある。ファイル共有が別のサーバーにあり、SQL インスタンスがローカル システム アカウントを実行している場合は、SQL インスタンスをホストするサーバーへのファイル共有アクセス許可を付与する必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-p120">Note that the user account that the SQL instance uses to run must have read/write permission to the file share. If the file share is on a different server, and the SQL instance runs a local system account, you must grant file share permissions to the server that hosts the SQL instance.</span></span>
 
-3. <span data-ttu-id="e7974-194">「A」と入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="e7974-194">Type A and press ENTER.</span></span>
+3. <span data-ttu-id="7bdc3-194">「A」と入力し、Enter キーを押します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-194">Type A and press ENTER.</span></span>
 
-    <span data-ttu-id="e7974-195">ミラーリングの構成が行われます。</span><span class="sxs-lookup"><span data-stu-id="e7974-195">The mirroring will be configured.</span></span>
+    <span data-ttu-id="7bdc3-195">ミラーリングの構成が行われます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-195">The mirroring will be configured.</span></span>
 
-    <span data-ttu-id="e7974-196">**CsMirrorDatabase をインストール**すると、ミラーがインストールされ、プライマリ SQL ストアに存在するすべてのデータベースのミラーリングが構成されます。</span><span class="sxs-lookup"><span data-stu-id="e7974-196">**Install-CsMirrorDatabase** installs the mirror and configures mirroring for all the databases that are present on the primary SQL store.</span></span> <span data-ttu-id="e7974-197">特定のデータベースに対してのみミラーリングを構成する場合は、-DatabaseType オプションを使用できます。また、少数を除くすべてのデータベースのミラーリングを構成する場合は、-ExcludeDatabaseList オプションと、少数のデータベースのコンマ区切りリストを使用することができます。除外する名前。</span><span class="sxs-lookup"><span data-stu-id="e7974-197">If you want to configure mirroring for only specific databases, you can use the -DatabaseType option, or if you want to configure mirroring for all databases except for a few, you can use the -ExcludeDatabaseList option, along with a comma-separated list of database names to exclude.</span></span>
+    <span data-ttu-id="7bdc3-196">**Install-CsMirrorDatabase** はミラーをインストールし、プライマリ サーバー ストアに存在するデータベースすべてについてミラーリングSQLします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-196">**Install-CsMirrorDatabase** installs the mirror and configures mirroring for all the databases that are present on the primary SQL store.</span></span> <span data-ttu-id="7bdc3-197">特定のデータベースにのみミラーリングを構成する場合は、-DatabaseType オプションを使用するか、または少数のデータベースを除くすべてのデータベースに対してミラーリングを構成する場合は、-ExcludeDatabaseList オプションと共に、除外するデータベース名のコンマ区切りリストを使用できます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-197">If you want to configure mirroring for only specific databases, you can use the -DatabaseType option, or if you want to configure mirroring for all databases except for a few, you can use the -ExcludeDatabaseList option, along with a comma-separated list of database names to exclude.</span></span>
 
-    <span data-ttu-id="e7974-198">たとえば、次のオプションを **Install-CsMirrorDatabase** に追加した場合は、rtcab と rtcxds を除くすべてのデータベースがミラーリングされます。</span><span class="sxs-lookup"><span data-stu-id="e7974-198">For example, if you add the following option to **Install-CsMirrorDatabase**, all databases except rtcab and rtcxds will be mirrored.</span></span>
+    <span data-ttu-id="7bdc3-198">たとえば、次のオプションを **Install-CsMirrorDatabase** に追加した場合は、rtcab と rtcxds を除くすべてのデータベースがミラーリングされます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-198">For example, if you add the following option to **Install-CsMirrorDatabase**, all databases except rtcab and rtcxds will be mirrored.</span></span>
 
     `-ExcludeDatabaseList rtcab,rtcxds`
 
-   <span data-ttu-id="e7974-199">たとえば、次のオプションを **Install-CsMirrorDatabase** に追加した場合は、rtcab、rtcshared、および rtcxds データベースのみがミラーリングされます。</span><span class="sxs-lookup"><span data-stu-id="e7974-199">For example, if you add the following option to **Install-CsMirrorDatabase**, only the rtcab, rtcshared, and rtcxds databases will be mirrored.</span></span>
+   <span data-ttu-id="7bdc3-199">たとえば、次のオプションを **Install-CsMirrorDatabase** に追加した場合は、rtcab、rtcshared、および rtcxds データベースのみミラーリングされます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-199">For example, if you add the following option to **Install-CsMirrorDatabase**, only the rtcab, rtcshared, and rtcxds databases will be mirrored.</span></span>
 
     `-DatabaseType User`
 
-## <a name="removing-or-changing-sql-mirroring"></a><span data-ttu-id="e7974-200">SQL ミラーリングの削除または変更</span><span class="sxs-lookup"><span data-stu-id="e7974-200">Removing or Changing SQL Mirroring</span></span>
+## <a name="removing-or-changing-sql-mirroring"></a><span data-ttu-id="7bdc3-200">SQL ミラーリングの削除または変更</span><span class="sxs-lookup"><span data-stu-id="7bdc3-200">Removing or Changing SQL Mirroring</span></span>
 
-<span data-ttu-id="e7974-p122">トポロジ ビルダーのプールの SQL ミラーリングを削除するには、最初にコマンドレットを使用して、SQL Server のミラーを削除する必要があります。次に、トポロジ ビルダーを使用して、トポロジからミラーを削除できます。SQL Server でミラーを削除するには、次のコマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="e7974-p122">To remove the SQL mirroring of a pool in Topology Builder, you must first use a cmdlet to remove the mirror in SQL Server. You can then use Topology Builder to remove the mirror from the topology. To remove the mirror in SQL Server, use the following cmdlet:</span></span>
+<span data-ttu-id="7bdc3-p122">トポロジ ビルダーのプールの SQL ミラーリングを削除するには、最初にコマンドレットを使用して、SQL Server のミラーを削除する必要があります。次に、トポロジ ビルダーを使用して、トポロジからミラーを削除できます。SQL Server でミラーを削除するには、次のコマンドレットを使用します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-p122">To remove the SQL mirroring of a pool in Topology Builder, you must first use a cmdlet to remove the mirror in SQL Server. You can then use Topology Builder to remove the mirror from the topology. To remove the mirror in SQL Server, use the following cmdlet:</span></span>
 
 ```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
 ```
 
-<span data-ttu-id="e7974-204">たとえば、ミラーリングを削除し、User データベースのデータベースを削除するには、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="e7974-204">For example, to remove mirroring and drop the databases for the User databases, type the following:</span></span>
+<span data-ttu-id="7bdc3-204">たとえば、ミラーリングを削除し、User データベースのデータベースを削除するには、次のように入力します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-204">For example, to remove mirroring and drop the databases for the User databases, type the following:</span></span>
 
 ```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
-<span data-ttu-id="e7974-205">この`-DropExistingDatabasesOnMirror`オプションを選択すると、影響を受けるデータベースがミラーから削除されます。</span><span class="sxs-lookup"><span data-stu-id="e7974-205">The  `-DropExistingDatabasesOnMirror` option causes the affected databases to be deleted from the mirror.</span></span>
+<span data-ttu-id="7bdc3-205">この  `-DropExistingDatabasesOnMirror` オプションを使用すると、影響を受けるデータベースがミラーから削除されます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-205">The  `-DropExistingDatabasesOnMirror` option causes the affected databases to be deleted from the mirror.</span></span>
 
-<span data-ttu-id="e7974-206">その後、トポロジからミラーを削除するために次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="e7974-206">Then, to remove the mirror from the topology, do the following:</span></span>
+<span data-ttu-id="7bdc3-206">次に、トポロジからミラーを削除するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-206">Then, to remove the mirror from the topology, do the following:</span></span>
 
-1. <span data-ttu-id="e7974-207">トポロジ ビルダーで、プールを右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-207">In Topology Builder, right-click the pool and click **Edit Properties**.</span></span>
+1. <span data-ttu-id="7bdc3-207">トポロジ ビルダーで、プールを右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-207">In Topology Builder, right-click the pool and click **Edit Properties**.</span></span>
 
-2. <span data-ttu-id="e7974-208">[**SQL ストアのミラーリングを有効にする**] チェック ボックスをオフにし、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-208">Uncheck **Enable SQL Store Mirroring** and click **OK**.</span></span>
+2. <span data-ttu-id="7bdc3-208">[**SQL ストアのミラーリングを有効にする**] チェック ボックスをオフにし、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-208">Uncheck **Enable SQL Store Mirroring** and click **OK**.</span></span>
 
-3. <span data-ttu-id="e7974-209">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="e7974-209">Publish the topology.</span></span>
+3. <span data-ttu-id="7bdc3-209">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-209">Publish the topology.</span></span>
 
-## <a name="removing-a-mirroring-witness"></a><span data-ttu-id="e7974-210">ミラーリング監視の削除</span><span class="sxs-lookup"><span data-stu-id="e7974-210">Removing a Mirroring Witness</span></span>
+## <a name="removing-a-mirroring-witness"></a><span data-ttu-id="7bdc3-210">ミラーリング監視の削除</span><span class="sxs-lookup"><span data-stu-id="7bdc3-210">Removing a Mirroring Witness</span></span>
 
-<span data-ttu-id="e7974-211">バックエンドサーバーのミラーリング構成から監視を削除する必要がある場合は、この手順を使用します。</span><span class="sxs-lookup"><span data-stu-id="e7974-211">Use this procedure if you need to remove the witness from a Back End Server mirroring configuration.</span></span>
+<span data-ttu-id="7bdc3-211">この手順は、ミラーリング監視をバック エンド サーバー ミラーリング構成から削除する必要がある場合に使用します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-211">Use this procedure if you need to remove the witness from a Back End Server mirroring configuration.</span></span>
 
-1. <span data-ttu-id="e7974-212">トポロジ ビルダーで、プールを右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-212">In Topology Builder, right-click the pool and click **Edit Properties**.</span></span>
+1. <span data-ttu-id="7bdc3-212">トポロジ ビルダーで、プールを右クリックし、[**プロパティの編集**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-212">In Topology Builder, right-click the pool and click **Edit Properties**.</span></span>
 
-2. <span data-ttu-id="e7974-213">[**SQL Server ミラーリング監視を自動フェールオーバーの有効化のために使用**] をオフにし、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e7974-213">Uncheck **Use SQL Server mirroring witness to enable automatic failover** and click **OK**.</span></span>
+2. <span data-ttu-id="7bdc3-213">[**SQL Server ミラーリング監視を自動フェールオーバーの有効化のために使用**] をオフにし、[**OK**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-213">Uncheck **Use SQL Server mirroring witness to enable automatic failover** and click **OK**.</span></span>
 
-3. <span data-ttu-id="e7974-214">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="e7974-214">Publish the topology.</span></span>
+3. <span data-ttu-id="7bdc3-214">トポロジを公開します。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-214">Publish the topology.</span></span>
 
-    <span data-ttu-id="e7974-215">トポロジを公開すると、次のようなメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="e7974-215">After publishing the topology, Topology Builder you will see a message that includes the following</span></span>
+    <span data-ttu-id="7bdc3-215">トポロジを公開すると、トポロジ ビルダーに次の内容を含むメッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-215">After publishing the topology, Topology Builder you will see a message that includes the following</span></span>
 
    ```console
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    <span data-ttu-id="e7974-216">ただし、この手順に従ってはいけません。 `Uninstall-CsMirrorDatabase`また、ミラーリング構成全体をアンインストールするのと同じように入力しないでください。</span><span class="sxs-lookup"><span data-stu-id="e7974-216">However, do not follow that step, and do not type  `Uninstall-CsMirrorDatabase` as that would uninstall the entire mirroring configuration.</span></span>
+    <span data-ttu-id="7bdc3-216">ただし、この手順に従う必要はなのではなく、ミラーリング構成全体をアンインストールする入力  `Uninstall-CsMirrorDatabase` は行う必要があります。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-216">However, do not follow that step, and do not type  `Uninstall-CsMirrorDatabase` as that would uninstall the entire mirroring configuration.</span></span>
 
-4. <span data-ttu-id="e7974-217">SQL Server の構成から監視のみを削除するには、「[データベースミラーリングセッション (SQL Server) から監視を削除](https://go.microsoft.com/fwlink/p/?LinkId=268456)する」の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="e7974-217">To remove just the witness from the SQL Server configuration, follow the instructions in [Remove the Witness from a Database Mirroring Session (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).</span></span>
+4. <span data-ttu-id="7bdc3-217">SQL Server 構成からミラーリング監視を削除するには、「データベース ミラーリング セッションからミラーリング監視を削除する [(SQL Server)」の手順に従います](https://go.microsoft.com/fwlink/p/?LinkId=268456)。</span><span class="sxs-lookup"><span data-stu-id="7bdc3-217">To remove just the witness from the SQL Server configuration, follow the instructions in [Remove the Witness from a Database Mirroring Session (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).</span></span>
 
 

@@ -1,8 +1,8 @@
 ---
-title: IP または PSTN ゲートウェイの IP アドレスの定義
+title: IP または PSTN ゲートウェイの IP アドレスを定義する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
-description: IP または電話交換電話網 (PSTN) ゲートウェイの IPv4 アドレスまたは IPv6 アドレスを定義するには、[IPv4 を有効にする] または [IPv6 を有効にする] を選択します。 [指定した IP アドレスをすべて使用する] または [サービスの使用を制限する] を選択した IP アドレスに制限することができます。
-ms.openlocfilehash: c55c5aea5659845fc0ad4e519e3382065ae9371e
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: IP または公衆交換電話網 (PSTN) ゲートウェイの IPv4 または IPv6 アドレスを定義するには、[IPv4 を有効にする] または [IPv6 を有効にする] を選択します。 [すべての構成済み IP アドレスを使用する] または [選択された IP アドレスのみにサービスの使用を制限する] のどちらかを選択できます。
+ms.openlocfilehash: 850e5dcc0553047ea951a4b07b9cc3f86e4d67e9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794376"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830047"
 ---
-# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="3767b-104">IP または PSTN ゲートウェイの IP アドレスの定義</span><span class="sxs-lookup"><span data-stu-id="3767b-104">Define the IP Address of the IP or PSTN Gateway</span></span>
+# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="fe6fd-104">IP または PSTN ゲートウェイの IP アドレスの定義</span><span class="sxs-lookup"><span data-stu-id="fe6fd-104">Define the IP Address of the IP or PSTN Gateway</span></span>
 
-<span data-ttu-id="3767b-105">IP または電話交換電話網 (PSTN) ゲートウェイの IPv4 アドレスまたは IPv6 アドレスを定義するには、[ **Ipv4 を有効に**する] または [ **ipv6 を有効**にする] を選択します。</span><span class="sxs-lookup"><span data-stu-id="3767b-105">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**.</span></span> <span data-ttu-id="3767b-106">[指定した**ip アドレスをすべて使用**する] または [**サービスの使用を制限する] を選択した Ip アドレスに制限**することができます。</span><span class="sxs-lookup"><span data-stu-id="3767b-106">You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
+<span data-ttu-id="fe6fd-p102">IP または公衆交換電話網 (PSTN) ゲートウェイの IPv4 または IPv6 アドレスを定義するには、[**IPv4 を有効にする**] または [**IPv6 を有効にする**] を選択します。[**すべての構成済み IP アドレスを使用する**] または [**選択された IP アドレスのみにサービスの使用を制限する**] のどちらかを選択できます。</span><span class="sxs-lookup"><span data-stu-id="fe6fd-p102">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**. You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
 
-<span data-ttu-id="3767b-107">[**設定済み IP アドレスをすべて使用**する] を選択すると、ゲートウェイで構成されているすべてのアドレスが使用されます。</span><span class="sxs-lookup"><span data-stu-id="3767b-107">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used.</span></span> <span data-ttu-id="3767b-108">必要に応じて、[**サービスの利用制限を選択した ip アドレスに制限**] を選択して、 **PSTN IP アドレス**の入力を有効にします。</span><span class="sxs-lookup"><span data-stu-id="3767b-108">Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry.</span></span> <span data-ttu-id="3767b-109">このゲートウェイに割り当てられている IPv4 アドレスまたは IPv6 アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="3767b-109">Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
+<span data-ttu-id="fe6fd-p103">[**すべての構成済み IP アドレスを使用する**] を選択する場合、ゲートウェイ上で構成されたすべてのアドレスが使用されます。必要に応じて、[**選択された IP アドレスのみにサービスの使用を制限する**] を選択します。これを選択すると、[**PSTN の IP アドレス**] エントリが有効になります。このゲートウェイに割り当てられた IPv4 または IPv6 アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="fe6fd-p103">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used. Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry. Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="3767b-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="3767b-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fe6fd-110">関連項目</span><span class="sxs-lookup"><span data-stu-id="fe6fd-110">See also</span></span>
 
-[<span data-ttu-id="3767b-111">ダイヤルイン会議の要件</span><span class="sxs-lookup"><span data-stu-id="3767b-111">Dial-In Conferencing Requirements</span></span>](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+[<span data-ttu-id="fe6fd-111">ダイヤルイン会議の計画</span><span class="sxs-lookup"><span data-stu-id="fe6fd-111">Dial-In Conferencing Requirements</span></span>](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
