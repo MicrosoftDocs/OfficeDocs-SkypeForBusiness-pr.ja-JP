@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server で帯域幅ポリシープロファイルを作成する
+title: Skype for Business Server で帯域幅ポリシー プロファイルを作成する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Skype for Business Server のエンタープライズボイス通話受付制御によって使用される帯域幅ポリシーを作成または変更します。
-ms.openlocfilehash: e54fc20c142e0eacc2758d97bdeba8043511b3fe
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 帯域幅ポリシーを作成または変更します。このポリシーは、Skype for Business Server エンタープライズ VoIP通話受付管理で使用されます。
+ms.openlocfilehash: ac80ebb8b61a763efc0077f267a024a21a359b5d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767950"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824848"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Skype for Business Server で帯域幅ポリシープロファイルを作成する 
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Skype for Business Server で帯域幅ポリシー プロファイルを作成する 
  
-Skype for Business Server のエンタープライズボイス通話受付制御によって使用される帯域幅ポリシーを作成または変更します。 
+帯域幅ポリシーを作成または変更します。このポリシーは、Skype for Business Server エンタープライズ VoIP通話受付管理で使用されます。 
   
-帯域幅ポリシーは、リアルタイムのオーディオおよびビデオのモダリティについて、帯域幅使用量の制限を定義します。 帯域幅ポリシーは、通話受付制御のために複数のネットワークサイトに適用できる帯域幅ポリシープロファイルに適用されます。
+帯域幅ポリシーは、リアルタイムのオーディオおよびビデオのモダリティについて、帯域幅使用量の制限を定義します。 帯域幅ポリシーはbandwidth ポリシー プロファイルに適用され、通話受付管理のために複数のネットワーク サイトに適用できます。
   
-CAC 展開で設定する必要がある帯域幅制限のガイドラインについては、「 [Skype For Business Server での通話受付制御の計画](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)」を参照してください。
+CAC 展開で設定する必要がある帯域幅制限のガイドラインについては [、「Plan for call admission control in Skype for Business Server 」を参照してください](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
-次の手順で作成されるポリシーの例は、オーディオ トラフィック全体、個々のオーディオ セッション、ビデオ トラフィック全体、および個々のビデオ セッションに制限を設定します。たとえば、5Mb_Link の帯域幅のポリシーのプロファイルは次の制限値を設定します。 
+次の手順で作成されるポリシーの例は、オーディオ トラフィック全体、個々のオーディオ セッション、ビデオ トラフィック全体、および個々のビデオ セッションに制限を設けます。 たとえば、5Mb_Link の帯域幅のポリシーのプロファイルは次の制限値を設定します。 
   
 - オーディオ リミット: 2,000 kbps
     
@@ -44,9 +44,9 @@ CAC 展開で設定する必要がある帯域幅制限のガイドラインに�
 > [!NOTE]
 > オーディオ セッション リミットの最小値は 40 kbps です。 ビデオ セッション リミットの最小値は 100 kbps です。 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して帯域幅ポリシープロファイルを作成するには
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して帯域幅ポリシー プロファイルを作成するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
     
 2. 作成する帯域幅ポリシーのプロファイルごとに、New-CsNetworkBandwidthPolicyProfile コマンドレットを実行します。 たとえば、以下を実行します。
     
@@ -66,9 +66,9 @@ CAC 展開で設定する必要がある帯域幅制限のガイドラインに�
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用して帯域幅ポリシープロファイルを作成するには
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して帯域幅ポリシー プロファイルを作成するには
 
-1. Skype for Business Server コントロールパネルを開きます。
+1. Skype for Business Server コントロール パネルを開きます。
     
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
     
@@ -90,11 +90,11 @@ CAC 展開で設定する必要がある帯域幅制限のガイドラインに�
     
 11. [**確定**] をクリックします。
     
-12. トポロジの帯域幅ポリシーのプロファイル作成を完了するには、他の帯域幅ポリシーのプロファイルの設定値を使用してステップ 4 ～ 11 を繰り返します。
+12. トポロジの帯域幅ポリシーのプロファイル作成を完了するには、ステップ 4 ～ 11 を繰り返して、他の帯域幅ポリシーのプロファイルを設定します。
     
 ## <a name="see-also"></a>関連項目
 
-[新規-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   

@@ -1,8 +1,8 @@
 ---
-title: Skype for Business でボイスメールのエスケープを設定する
+title: Skype for Business でボイス メール エスケープを構成する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: '概要: skype for business Server 管理シェルを使用して、Skype for Business Server でボイスメールのエスケープを構成する方法について説明します。'
-ms.openlocfilehash: e372b43a0a580cd1a7b95fc3db8130a65c8398ca
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '概要: Skype for Business Server 管理シェルを使用して Skype for Business Server でボイス メール エスケープを構成する方法について説明します。'
+ms.openlocfilehash: c6326360a0e49715feb7e9f9c3c123ec42b9c330
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768010"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824927"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Skype for Business でボイスメールのエスケープを設定する
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Skype for Business でボイス メール エスケープを構成する
 
-**概要:** Skype for business Server 管理シェルを使用して、Skype for Business Server でボイスメールのエスケープを構成する方法について説明します。
+**概要:** Skype for Business Server 管理シェルを使用して Skype for Business Server でボイス メール エスケープを構成する方法について説明します。
 
-ユーザーが携帯電話との同時呼び出しを構成する場合、携帯電話がオフになっているか、バッテリ電力が不足しているか、または範囲外である場合、通常、発信者はユーザーの個人用ボイスメールにルーティングされます。 Skype for Business Server では、ユーザーはビジネス関連の通話を会社のボイスメールシステムにルーティングすることを選ぶことができます。 特に、タイマーは構成可能であり、定義された時間内に電話会社のボイスメールによって通話が応答された場合、Skype for Business Server は、電話会社のボイスメールシステム (およびユーザーの個人ボイスメール) から切断しますが、ユーザーの企業システムの残りのエンドポイントでも、呼び出しが続行されます。 こうすることで、発信者はユーザーの会社のボイスメールに自動的にルーティングされます。
+ユーザーが携帯電話への同時呼び出しを構成する場合、通常、携帯電話がオフになっている、バッテリがオフになっている、または使用範囲が外になっている場合、発信者はユーザーの個人用ボイス メールにルーティングされます。 Skype for Business Server を使用すると、ユーザーは会社のボイス メール システムにルーティングされたビジネス関連の通話を選択できます。 具体的には、タイマーを構成できます。通話が定義された時間の範囲内で通信事業者のボイス メールによって応答された場合、Skype for Business Server は通信事業者のボイス メール システム (およびユーザーの個人用ボイス メール) から切断し、企業システム内のユーザーの残りのエンドポイントは呼び出しを続行します。 これにより、発信者は自動的にユーザーの会社のボイス メールにルーティングされます。
 
-この構成は、Skype for Business Server Management Shell コマンドレット**CsVoicePolicy**を使用して、音声ポリシーレベルで次のパラメーターを指定して実行します。
+この構成は、次のパラメーターを使用して、音声ポリシー レベルで Skype for Business Server 管理シェル コマンドレット **Set-CsVoicePolicy** を使用して実行します。
 
 ### <a name="to-configure-voice-mail-escape"></a>ボイス メール エスケープを構成するには
 
-1. Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
 
-2. **Set-CsVoicePolicy** に対して次のパラメーターを指定します。
+2. **Set-CsVoicePolicy に次のパラメーターを指定します**。
 
    - **EnableVoicemailEscapeTimer** - エスケープ タイマーを有効または無効にします。
 
-   - **PSTNVoicemailEscapeTimer**: タイムアウト値をミリ秒単位で指定します。既定値は 1500 ミリ秒で、指定できる値の範囲は 0 ～ 8000 ミリ秒です。
+   - **PSTNVoicemailEscapeTimer** - タイムアウト値をミリ秒単位で指定します。 既定値は 1500 ミリ秒で、指定できる値の範囲は 0 ～ 8000 ミリ秒です。
 
 ## <a name="example"></a>例
 
@@ -50,5 +50,5 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## <a name="see-also"></a>関連項目
 
-[Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[通話機能と特権の承認のための音声ポリシーと PSTN 使用法レコードの構成](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

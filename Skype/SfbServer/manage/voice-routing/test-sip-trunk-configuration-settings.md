@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server での SIP トランク構成設定のテスト
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。 '
-ms.openlocfilehash: bed342de3f602499f16b9f27ee0726f10d2c867e
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 1489fe1e45223bac6b62ed23a09212a569ea7838
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "42048190"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826187"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server での SIP トランク構成設定のテスト
 
@@ -26,9 +26,9 @@ SIP トランクの構成では、仲介サーバーと、公衆交換電話網 
 - Real-time Transport Control Protocol (RTCP) パケットが送信される条件。
 - 各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化を要求するか。
 
-Skype for Business Server をインストールすると、SIP トランク構成設定のグローバルコレクションが作成されます。 また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。 管理者は、 [get-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration)コマンドレットを使用して、ユーザーによってダイヤルされた番号を、ゲートウェイで処理できる数値に変換できることを確認することもできます。
+Skype for Business Server をインストールすると、SIP トランク構成設定のグローバル コレクションが自動的に作成されます。 また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。 管理者は [、Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) コマンドレットを使用して、ユーザーがダイヤルした番号をゲートウェイが処理できる番号にトランクが変換できる状態にすることもできます。
 
-トランク構成設定は、Windows PowerShell と Test-CsTrunkConfiguration コマンドレットを使用する方法でのみテストできます。 このコマンドレットは、Skype for Business Server 管理シェルから実行するか、Windows PowerShell のリモートセッションから実行できます。 
+トランク構成設定は、Windows PowerShell と Test-CsTrunkConfiguration コマンドレットを使用する方法でのみテストできます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Skype for Business Server のリモート セッションから実行Windows PowerShell。 
 
 **SIP トランク構成設定をテストするには**
 

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server の通話品質ダッシュボード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
-description: '概要: Skype for Business Server のレポートツールである通話品質ダッシュボードについて説明します。'
-ms.openlocfilehash: 142e172fd4c9a9444df4ac0713c03d18e5f07a39
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server のレポート ツールである通話品質ダッシュボードについて学習します。'
+ms.openlocfilehash: de0985f1da2e201896b3f67c9fffff8f71f5f1e2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816896"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826127"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボード
  
-**概要:** Skype for Business Server のレポートツールである通話品質ダッシュボードについて説明します。
+**概要:** Skype for Business Server のレポート ツールである通話品質ダッシュボードについて学習します。
  
-Skype for Business Server Call Quality Dashboard (CQD) は、Skype for Business Server および Lync Server 2013 の監視サーバーのエクスペリエンスデータベースの上にあるレポートレイヤーです。 CQD は、Microsoft SQL Server Analysis Services を使用して、データセットのフィルター処理とピボット処理に加えて、集計の利用状況と通話品質情報を提供します。
+Skype for Business Server 通話品質ダッシュボード (CQD) は、Skype for Business Server および Lync Server 2013 の監視サーバーの Quality of Experience データベース上のレポート層です。 CQD は、Microsoft SQL Server Analysis Services を使用して、集計された使用状況と通話品質情報を提供し、データ セットのフィルタリングとピボットを行います。
   
-以下のトピックはこのセクションに含まれており、通話品質ダッシュボードを展開する前に確認する必要があります。
+このセクションには以下のトピックが含まれており、通話品質ダッシュボードを展開する前に確認する必要があります。
   
 - [Skype for Business Server の通話品質ダッシュボードの計画](plan.md)
 - [Skype for Business Server の通話品質ダッシュボードの展開](deploy-0.md)
-- [Skype for Business Server の通話品質ダッシュボードを使用する](use.md)
+- [Skype for Business Server の通話品質ダッシュボードの使用](use.md)
 - [Skype for Business Server の通話品質ダッシュボードの開発](develop.md)

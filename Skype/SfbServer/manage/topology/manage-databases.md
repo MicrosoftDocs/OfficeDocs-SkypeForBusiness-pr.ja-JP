@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server の AlwaysOn 可用性グループでデータベースを管理する
+title: Skype for Business Server で AlwaysOn 可用性グループを使用してデータベースを管理する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,44 +11,44 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
-description: '概要: Skype for Business Server データベースを既存の AlwaysOn 可用性グループに追加する方法について説明し、Skype for the AlwaysOn 可用性グループの一部であるバックエンドサーバーを修正またはアップグレードした後に必要な追加の手順について説明します。Business Server。'
-ms.openlocfilehash: 579b00047a9966e3ce991863506f5686d8a2d520
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: 既存の AlwaysOn 可用性グループにさらに Skype for Business Server データベースを追加する方法と、Skype for Business Server の AlwaysOn 可用性グループの一部であるバック エンド サーバーにパッチを適用またはアップグレードした後の必要な追加手順について説明します。'
+ms.openlocfilehash: 444194c9cda5f4c3f82e6f3f7698395dce1a5d07
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817138"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826367"
 ---
-# <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Skype for Business Server の AlwaysOn 可用性グループでデータベースを管理する
+# <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Skype for Business Server で AlwaysOn 可用性グループを使用してデータベースを管理する
 
-この記事の手順を使用して、Skype for Business Server の既存の AlwaysOn 可用性グループにさらに Skype for Business Server データベースを追加します。 AlwaysOn の一部であるバックエンドサーバーを修正またはアップグレードした後で、必要な追加の手順を確認してください。Skype for Business Server の可用性グループ。
+この記事の手順を使用して、Skype for Business Server の既存の AlwaysOn 可用性グループにさらに Skype for Business Server データベースを追加し、Skype for Business Server の AlwaysOn 可用性グループの一部であるバック エンド サーバーにパッチを適用またはアップグレードした後に必要な追加の手順を確認します。
 
 ## <a name="add-databases-to-an-alwayson-availability-group"></a>AlwaysOn 可用性グループにデータベースを追加する 
 
-1. SQL Server Management Studio を開き、AlwaysOn 可用性グループに移動します。 プライマリレプリカにフェイルオーバーします。
+1. このSQL Server Management Studio開き、AlwaysOn 可用性グループに移動します。 プライマリ レプリカにフェールオーバーします。
     
-2. [トポロジビルダー] で、AlwaysOn 可用性グループの SQL Server FQDN をそのグループのプライマリノードの FQDN に設定します。
+2. トポロジ ビルダーで、AlwaysOn 可用性SQL Serverの FQDN をそのグループのプライマリ ノードの FQDN に設定します。
     
-   - トポロジビルダーを開き、[**既存の展開からトポロジをダウンロード**] を選択して、[ **OK]** をクリックします。
+   - トポロジ ビルダーを開き、[既存の展開から **トポロジ** をダウンロードする] を選択し **、[OK] をクリックします**。
     
-   - [Skype for Business Server]、使用するトポロジ、[**SQL Server ストア**] の順に展開します。 新しい AlwaysOn 可用性グループの SQL ストアを右クリックし、[プロパティの**編集**] をクリックします。
+   - [Skype for Business Server] を展開し、トポロジを展開し、[ストア] **SQL Server展開します**。 新しい AlwaysOn 可用性SQLストアを右クリックし、[プロパティの編集] を **クリックします**。
     
-   - ページの下部にある [ **SQL SERVER FQDN** ] ボックスに、AlwaysOn 可用性グループのプライマリノードの FQDN を入力します。
+   - ページの下部にある [SQL Server **FQDN]** ボックスに、AlwaysOn 可用性グループのプライマリ ノードの FQDN を入力します。
     
-3. トポロジを公開します。 [**操作**] メニューから、[**トポロジ**]、[**公開**] の順にクリックします。 続いて、確認ページで [**次へ**] をクリックします。
+3. トポロジを公開します。 [操作 **] メニューの** [ **トポロジ] をクリックし、[公開]** を **クリックします**。 次に、確認ページで [次へ] を **クリックします**。
     
-4. SQL Server Management Studio を使用して、新しいデータベースを AlwaysOn 可用性グループに追加します。
+4. このSQL Server Management Studio使用して、新しいデータベースを AlwaysOn 可用性グループに追加します。
     
-## <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group"></a>AlwaysOn 可用性グループの SQL Server に対して修正プログラムを適用または更新を実行する
+## <a name="patch-or-update-a-sql-server-in-an-alwayson-availability-group"></a>AlwaysOn 可用性グループのSQL Serverまたは更新する
 
-AlwaysOn 可用性グループの一部であるバックエンドサーバーを更新した後、トポロジを再公開する必要があります。
+AlwaysOn 可用性グループの一部であるバック エンド サーバーにパッチを適用した後、トポロジを再公開する必要があります。
 
-1. Skype for Business Server に更新プログラムをインストールします。
+1. Skype for Business サーバーに更新プログラムをインストールします。
     
-2. Skype for Business 管理シェルで次の PowerShell コマンドを (SQL AlwaysOn データベースに変更を適用する適切な権限を持ったアカウントでログインした上で) 次のとおり実行します。
+2. Skype for Business 管理シェルで次の PowerShell コマンドを実行します (SQL AlwaysOn データベースに変更を適用するための適切なアクセス許可を持つアカウントでログインします)。
     
     ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn [sqlpool.contoso.com] -Verbose
     ```
 
-    [sqlpool.contoso.com] は、AlwaysOn 可用性グループの完全修飾ドメイン名 (FQDN) に置き換えられます。
+    ここで、[sqlpool.contoso.com] は AlwaysOn 可用性グループの完全修飾ドメイン名 (FQDN) に置き換えてください。

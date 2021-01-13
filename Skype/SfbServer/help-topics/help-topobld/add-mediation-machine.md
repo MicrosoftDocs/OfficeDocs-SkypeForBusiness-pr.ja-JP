@@ -1,8 +1,8 @@
 ---
 title: 仲介コンピューターを追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f186be15-626a-4454-9b54-55aa5d90c520
 description: このプールにフロントエンド サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 一覧にコンピューターを追加した後、トポロジを公開するまでの間はいつでも、コンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。 トポロジの公開後に FQDN を変更するには、トポロジ ビルダーでサーバーを削除し、新しいサーバーを新しい FQDN でプールに追加する必要があります。
-ms.openlocfilehash: 67fd038489ed3df95ffee84f7517dc86b96a296c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: ecca5fa38f74aa13ad9b181f9c08ebf38bfe0675
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217928"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823997"
 ---
-# <a name="add-mediation-machine"></a>仲介コンピューターを追加する
+# <a name="add-mediation-machine"></a>仲介コンピューターの追加
  
 このプールにフロントエンド サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 一覧にコンピューターを追加した後、トポロジを公開するまでの間はいつでも、コンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。 トポロジの公開後に FQDN を変更するには、トポロジ ビルダーでサーバーを削除し、新しいサーバーを新しい FQDN でプールに追加する必要があります。 
   

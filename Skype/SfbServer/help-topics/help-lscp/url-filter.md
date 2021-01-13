@@ -1,8 +1,8 @@
 ---
 title: URL フィルター
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 51726595fa9a38e838f9251726090c520b9442e1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 8bd34e880cf22f4bf41968eeffe0ee9dd428cf40
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821859"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826807"
 ---
 # <a name="url-filter"></a>URL フィルター
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [既定の URL フィルターを変更する](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [既定の URL フィルターの変更](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
 
-- [IM 会話でハイパーリンクを処理するための新しい URL フィルターを作成する](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [IM 会話でのハイパーリンクの処理のための新しい URL フィルターの作成](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
 
-Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。
+Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
 

@@ -1,8 +1,8 @@
 ---
 title: Office Communications Server スコープ ノード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: feed152cb42bece0abffd62d781a10836109475e
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 3b3d25559e280187a2b6931323434485436abaa0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48215578"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823917"
 ---
-# <a name="office-communications-server-scope-node"></a>Office Communications Server スコープ ノード
+# <a name="office-communications-server-scope-node"></a>Office Communications Server のスコープ ノード
 
 このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
 
-[ **Office Communications Server 2007 R2** ] をクリックしてノードの下にあるセクションを展開するか、または右クリックして [ **トポロジ** オプション] にアクセスするか、この **ヘルプ** ページにアクセスします。
+**[Office Communications Server 2007 R2]** をクリックしてノードの下のセクションを展開するか、右クリックしてトポロジ オプションにアクセスするか、このヘルプ ページにアクセスします。
 
 ## <a name="see-also"></a>関連項目
 

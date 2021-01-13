@@ -1,8 +1,8 @@
 ---
 title: Office Web Apps サーバーのスコープ ノード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: '[Office Web Apps サーバー] を右クリックし、[新しい Office Web Apps サーバー] を選択してウィザードを開きます。'
-ms.openlocfilehash: 6cc31249f2ac7245fd279dc562f61ac5ad24cd1a
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: '[Web Apps サーバー Office右クリックし、[Web Apps サーバーのOfficeを選択してウィザードを開きます。'
+ms.openlocfilehash: c070432d5cc9136293c3e6c454275b6d632ee9bc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216098"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823897"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps サーバーのスコープ ノード
 
-[ **Office Web Apps サーバー** ] を右クリックし、[ **新しい Office web apps サーバー** ] を選択してウィザードを開きます。
+[Web Apps サーバー Office **右クリックし、[Web Apps** サーバーのOffice **を** 選択してウィザードを開きます。
 
-![OfficeWebApps サーバーのスコープノード](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![OfficeWebApps サーバー スコープ ノード](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
-- **トポロジ**。 このオプションを使用すると、新しいトポロジを定義したり、既存のトポロジを開いたり、現在のトポロジをダウンロードしたり、トポロジのコピーを保存したり、トポロジを公開したり、データベースをインストールしたり、以前のバージョンのコンポーネントをマージしたり、展開を削除したりすることができます。
+- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンのコンポーネントの結合、または展開の削除を行います。
 
 - **Help**. このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
 

@@ -1,8 +1,8 @@
 ---
 title: エッジ サーバーの外部 IPv6 を追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9c43d46-374e-4dc9-858c-54a021b69947
-description: '[外部 IPv6 アドレス] に、アクセスエッジサービス、Web 会議エッジサービス、音声ビデオエッジサービスを指す外部 IP アドレスを入力します。'
-ms.openlocfilehash: 5e67fff571054d3a28a2654a23ba3818f337d8f9
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 外部 IPv6 アドレスに、アクセス エッジ サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。
+ms.openlocfilehash: 78379c3a32a298ea9c94e40dc6b4154c30fa0e23
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219268"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826687"
 ---
-# <a name="add-edge-server-external-ipv6"></a>エッジ サーバーの外部 IPv6 を追加する
+# <a name="add-edge-server-external-ipv6"></a>エッジ サーバー外部 IPv6 の追加
  
-[ **外部 IPv6 アドレス**] に、アクセスエッジサービス、Web 会議エッジサービス、音声ビデオエッジサービスを指す外部 IP アドレスを入力します。
+外部 **IPv6 アドレス** に、アクセス エッジ サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。
   
 

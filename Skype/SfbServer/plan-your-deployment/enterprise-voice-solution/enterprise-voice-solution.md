@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server でエンタープライズ Voip ソリューションを計画する
+title: Skype for Business Server エンタープライズ VoIPソリューションを計画する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,41 +15,41 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: '概要: Skype for Business Server でのユニファイド音声およびコミュニケーションソリューションの計画に関するオプションについて説明します。'
-ms.openlocfilehash: 2f3b66815a5d49fcd770f85b7641d0a6c4dff7d8
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: '概要: Skype for Business Server で統合音声および通信ソリューションを計画するためのオプションについて説明します。'
+ms.openlocfilehash: 7f335fd3fe954e7a0e66381da9dad0748ee02905
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359123"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825727"
 ---
-# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Skype for Business Server でエンタープライズ Voip ソリューションを計画する
+# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Skype for Business Server エンタープライズ VoIPソリューションを計画する
  
-**概要:** Skype for Business Server でのユニファイド音声およびコミュニケーションソリューションの計画に関するオプションについて説明します。
+**概要:** Skype for Business Server で統合音声および通信ソリューションを計画するためのオプションについて説明します。
   
-Skype for Business Server では、組織の電話システムと Skype for Business Server の展開を統合するために、真の統合コミュニケーションソリューションを実現するために、2つのオンプレミスエンタープライズ Voip オプション (エンタープライズ Voip と勤務先からの通話) が提供されています。 両方のオプションを使用すると、ユーザーは Skype for Business クライアントを使用して、組織の内部と外部の両方で、他のユーザーとの音声通話を開始することができます。
+Skype for Business Server には、2 つのオンプレミスの エンタープライズ VoIP オプション (エンタープライズ VoIP と [Call Via Work] が用意されています。このオプションを使用すると、組織の電話システムを Skype for Business Server 展開と統合し、真の統合コミュニケーション ソリューションを実現できます。 どちらのオプションでも、ユーザーは Skype for Business クライアントを使用して、組織内外の両方の他のユーザーとの音声通話を開始できます。
   
-エンタープライズ Voip と通話の両方を一緒に使用することもできます。
+また、他のユーザーと通話エンタープライズ VoIPの両方を一緒に使用できます。
   
-- エンタープライズ Voip は、最も包括的な音声オファーリングです。 ソフトウェアによるボイスオーバー IP (VoIP) ソリューションであり、Outlook と Exchange との豊富な統合や、応答グループ、コールパーク、チーム呼び出し、グループ通話ピックアップ、強化された緊急 E9-1-1 サポートなどの強力な機能を備えています。 エンタープライズ Voip では、ユーザーは、従来の PSTN または PBX 電話ではなく、コンピューターや VoIP 対応の電話番号などのオーディオデバイスを使用します。
+- エンタープライズ VoIPは、最も完全な音声サービスです。 ソフトウェアベースのボイス オーバー IP (VoIP) ソリューションであり、Outlook および Exchange との豊富な統合、応答グループ、コール パーク、チーム通話、グループ通話ピックアップ、拡張緊急 E9-1-1 サポートなどの多くの強力な機能を含む、非常に豊富な機能セットを提供します。 このエンタープライズ VoIP、ユーザーは、従来の PSTN 電話や PBX 電話ではなく、コンピューターとヘッドセットなどのオーディオ デバイス、または VoIP 対応電話を使用します。
     
-- 「勤務先から通話」では、Skype for Business ソリューションと既存の PBX 電話システムを統合する方法を提供します。 [勤務先から通話] が有効になっているユーザーは、展開内または外部ユーザーのいずれかで、Skype for Business でクリックして別のユーザーを呼び出すことができます。 通話は、ユーザーの PBX 電話を使用して完了します。 さらに、これらのユーザーは、Skype for Business をクリックして会議に参加できます。
+- Call Via Work は、Skype for Business ソリューションを既存の PBX 電話システムと統合する方法を提供します。 [仕事から通話] が有効なユーザーは、Skype for Business でクリックして、展開内または外部ユーザーのどちらかに別のユーザーに電話をかけできます。 通話は、ユーザーの PBX 電話を使用して完了します。 さらに、これらのユーザーは Skype for Business をクリックして会議に参加できます。
     
-    勤務先から通話を展開することは、まだ PBX 電話を使用しているが、エンタープライズ Voip に移行しているユーザーには、Skype for Business クライアントを使用して自分の電話を制御できるという利点があります。
+    引き続き PBX 電話を使用しているが、エンタープライズ VoIP に移行しているユーザーは、Skype for Business クライアントを使用して通話を制御できます。
     
-     [勤務先から通話するには、エンタープライズ Voip より多くの音声機能を提供します。 たとえば、委任、チーム呼び出し、応答グループ、または Enhanced E9-1-1 をサポートしていません。
+     Call Via Work は、Enterprise Voice よりも限られた一連の音声機能を提供します。 たとえば、委任、チーム呼び出し、応答グループ、拡張 E9-1-1 はサポートされていません。
     
-もちろん、他のユーザーが PBX 電話を使用している間は、一部のユーザーのエンタープライズ Voip を有効にすることができます。 また、完全なエンタープライズ Voip ソリューションに移行している間は、まだ PBX 電話を使用しているユーザーをエンタープライズ Voip にすることができます。 これらのユーザーは、自分のデスクで PBX 電話を使用することができます。また、エンタープライズ voip を使用して、他の場所で VoIP デバイスを使用して通話を発信または受信することもできます。 これらのユーザーが勤務先から通話を有効にしている場合は、自分のデスクで Skype for Business クライアントを使用して PBX 電話を制御することができます。
+もちろん、一部のユーザーが PBX 電話を使用している間エンタープライズ VoIPを有効にできます。 さらに、完全なシステム ソリューションに移行エンタープライズ VoIP、引き続き PBX 電話を使用しているユーザーをエンタープライズ VoIP。 これらのユーザーは、自分のデスクで PBX 電話を使用できます。また、他の場所で VoIP デバイスを使用してエンタープライズ VoIPを使用して通話を送受信することもできます。 これらのユーザーが [仕事から通話] に対して有効になっている場合は、Skype for Business クライアントを使用して、デスクで PBX 電話を制御できます。
   
 > [!NOTE]
-> リモート通話コントロールは、以前のバージョンの Lync Server で提供されていた機能の1つで、ユーザーが Skype for Business クライアントを使用して PBX 電話で通話を発信および受信できるようにします。 リモート通話コントロールは、Skype for Business Server サーバーに所属するユーザーに対してはサポートされていませんが、Lync Server 2013 を実行しているサーバーに所属している Skype for Business クライアントを使用しているユーザーに対してサポートされています。 
+> リモート通話コントロールは、以前のバージョンの Lync Server で提供された機能であり、ユーザーは Skype for Business クライアントを使用して PBX 電話で通話を送受信できます。 リモート通話コントロールは、Skype for Business Server サーバーに存在するユーザーにはサポートされていませんが、Lync Server 2013 を実行しているサーバーにまだ存在する Skype for Business クライアントを持つユーザーに対してサポートされます。 
   
 ## <a name="see-also"></a>関連項目
 
 
-[Skype for Business Server でのエンタープライズ Voip の計画](enterprise-voice.md)
+[Skype for Business Server エンタープライズ VoIPの計画](enterprise-voice.md)
   
-[Skype for Business Server での作業による通話の計画](call-via-work.md)
+[Plan for Call Via Work in Skype for Business Server](call-via-work.md)
   
 [Skype for Business でのリモート通話コントロールの計画](remote-call-control.md)
 

@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server での E9-1 の SIP トランクの設計
+title: Skype for Business Server で E9-1-1 の SIP トランクを設計する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,46 +15,46 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
-description: Skype for Business Server Enterprise Voice で SIP トランクプロバイダーを使用する E9 展開用の SIP トランクトポロジを計画します。
-ms.openlocfilehash: bd310b39affbea9b4d9328c66b54712c0d388b8d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server エンタープライズ VoIP で、SIP トランキング プロバイダーを使用する E9-1-1 展開の SIP トランキング トポロジを計画します。
+ms.openlocfilehash: ef30d721b59f29885004ee948055a91ca8af9490
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803077"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825797"
 ---
-# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Skype for Business Server での E9-1 の SIP トランクの設計
+# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Skype for Business Server で E9-1-1 の SIP トランクを設計する
  
-Skype for Business Server Enterprise Voice で SIP トランクプロバイダーを使用する E9 展開用の SIP トランクトポロジを計画します。
+Skype for Business Server エンタープライズ VoIP で、SIP トランキング プロバイダーを使用する E9-1-1 展開の SIP トランキング トポロジを計画します。
   
-Skype for Business Server は、SIP trunks を使用して、緊急通話を E9 サービスプロバイダに接続します。 E9-1-1 用の緊急サービス SIP トランクは、1 つの中央サイト、複数の中央サイト、または各ブランチ サイトにセットアップできます。 ただし、発信者のサイトと緊急対応の SIP トランクをホストしているサイトとの間の WAN リンクが利用できない場合は、接続されていないサイトのユーザーによって発信される電話には、ユーザーの音声ポリシーに、通話をルーティングするための特別な電話の使用状況レコードが必要になります。[ローカル公衆交換電話網 (PSTN) ゲートウェイからの ECRC] を選びます。 通話受付管理で同時通話数制限が有効な場合も同様です。
+Skype for Business Server は SIP トランクを使用して、緊急通話を E9-1-1 サービス プロバイダーに接続します。 E9-1-1 用の緊急サービス SIP トランクは、1 つのセントラル サイト、複数のセントラル サイト、または各ブランチ サイトにセットアップできます。 ただし、発信者のサイトと緊急サービス SIP トランクをホストするサイト間の WAN リンクが使用できない場合、切断されたサイトのユーザーが発信した通話には、ローカルの公衆交換電話網 (PSTN) ゲートウェイを介して ECRC に通話をルーティングする、ユーザーの音声ポリシー内の特別な電話使用法レコードが必要です。 通話受付管理で同時通話数制限が有効な場合も同様です。
   
-Skype for Business Server 環境で SIP トランクを実装するには、次の2つの方法があります。
+Skype for Business Server 環境に SIP トランクを実装するには、次の 2 つの方法があります。
   
-- 外部向けのパブリックルーティングインターフェイスを使用して、SIP トランクプロバイダーと通信するマルチホーム仲介サーバーを使います。
+- SIP トランク プロバイダーと通信するには、外向きの公開ルーティング インターフェイスを使用するマルチホーム仲介サーバーを使用します。
     
-- オンプレミスセッションボーダーコントローラー (SBC) を使って、仲介サーバーと SIP トランクプロバイダーのサービス間に安全な境界点を指定します。
+- オンプレミスのセッション ボーダー コントローラー (SBC) を使用して、仲介サーバーと SIP トランク プロバイダーのサービス間に安全な境界ポイントを提供します。
     
-後者の方法を選択した場合は、選択する SBC の型とモデルが認定済みであり、SIP INVITE の一部としてプレゼンス情報データ フォーマット位置オブジェクト (PIDF-LO) 場所データの通過がサポートされていることを確認します。 サポートされてない場合、緊急サービスのサービス プロバイダーに到着した通話から場所情報が除去されます。 認定された SBCs の詳細については、「 [Microsoft Lync 用に認定](https://go.microsoft.com/fwlink/p/?LinkId=248425)されたインフラストラクチャ」および[「Skype For Business のテレフォニーインフラストラクチャ](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)」を参照してください。 
+後者の方法を選択した場合は、選択する SBC の型とモデルが認定済みであり、SIP INVITE の一部としてプレゼンス情報データ フォーマット位置オブジェクト (PIDF-LO) 場所データの通過がサポートされていることを確認します。 サポートされてない場合、緊急サービスのサービス プロバイダーに到着した通話から場所情報が除去されます。 認定 SPC の詳細については   [、「Infrastructure Qualified for Microsoft Lync」](https://go.microsoft.com/fwlink/p/?LinkId=248425) および [「Telephony Infrastructure for Skype for Business」](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways)を参照してください。 
   
-E9-1-1 サービス プロバイダーは、冗長性を確保するために SBC のペアへのアクセスを提供します。 仲介サーバートポロジと通話ルーティング構成について、いくつかの決定を行う必要があります。 たとえば、2 つの SBC を同等のピアとして扱い、SBC 間の通話にラウンドロビン ルーティングを使用するのか、または一方の SBC をプライマリ、もう一方をセカンダリとして指定するのかを決定します。
+E9-1-1 サービス プロバイダーは、冗長性を確保するために SBC のペアへのアクセスを提供します。 仲介サーバーのトポロジと通話ルーティング構成に関して、いくつかの決定を行う必要があります。 たとえば、2 つの SBC を同等のピアとして扱い、SBC 間の通話にラウンドロビン ルーティングを使用するのか、または一方の SBC をプライマリ、もう一方をセカンダリとして指定するのかを決定します。
   
-Skype for Business Server での SIP トランクの展開の詳細については、「 [skype For Business server の sip トランク](sip-trunking.md)」を参照してください。 E9-1-1 用 SIP トランクの展開方法を決定する際に次の質問が役立ちます。
+Skype for Business Server での SIP トランクの展開の詳細については、「Skype for Business Server での SIP トランキング」 [を参照してください](sip-trunking.md)。 E9-1-1 用 SIP トランクの展開方法を決定する際に次の質問が役立ちます。
   
  **SIP トランクの展開に、専用接続を使用するか、それとも共有のインターネット接続を使用するか。**
   
 > 緊急電話は常につながることが重要です。専用線で接続すれば、ネットワーク上の他のトラフィックによって回線が専有されることがなくなり、サービス品質 (QoS) も実装できます。パブリック インターネット経由で緊急サービスのサービス プロバイダーに接続し、緊急電話の機密性を保証する必要がある場合は、IPsec 暗号化が必要です。 
     
- **E9 展開は、耐障害性のために設計されていますか?**
+ **E9-1-1 展開は障害許容度を目的として設計されていますか?**
   
-> これは緊急時向けのソリューションなので、回復性が重要です。 プライマリおよびセカンダリの仲介サーバーと SIP trunks を、ディザスタートレラントな場所に展開します。 サポート対象のユーザーに最も近いプライマリ仲介サーバーを展開し、セカンダリ仲介サーバー (別の地理的な場所にある) 経由でフェールオーバー通話をルーティングすることをお勧めします。 
+> これは緊急時向けのソリューションなので、回復性が重要です。 プライマリおよびセカンダリの仲介サーバーと SIP トランクを障害許容の場所に展開します。 プライマリ仲介サーバーは、サポートしているユーザーに最も近い場所に展開し、フェールオーバー呼び出しを (地理的に異なる場所にある) セカンダリ仲介サーバーを経由してルーティングする方法をお試しください。 
     
  **ブランチ オフィスごとに個別に SIP トランクを展開するかどうか。**
   
-> Skype for Business Server には、回復可能なデータネットワークが存在する場合、各ブランチに SIP トランクを展開する場合、または停止中にローカルゲートウェイへの呼び出しをプッシュする場合など、支店での音声回復性を処理するためのいくつかの戦略が用意されています。 詳細については、「 [Skype For Business Server の SIP トランキング](sip-trunking.md)」を参照してください。
+> Skype for Business Server は、ブランチ オフィスでの音声の復元に対応するためのいくつかの戦略を提供します。たとえば、回復力のあるデータ ネットワークの確保、各ブランチでの SIP トランクの展開、停止時のローカル ゲートウェイへの通話のプッシュなどです。 詳細については、Skype for Business Server の [SIP トランキングを参照してください](sip-trunking.md)。
     
  **通話受付管理 (CAC) を有効にするかどうか。**
   
-> Skype for Business Server では、通常の通話とは異なる方法で緊急通話を処理することはできません。 そのため、帯域幅管理や通話受付管理 (CAC) が E9-1-1 の構成に悪影響を与える場合があります。 CAC が有効になっており、緊急電話がルーティングされているリンク上に構成された制限数を超過した場合は、緊急電話がブロックされたり、ローカル PSTN ゲートウェイにルーティングされたりします。 前述のように、このような通話には場所データが含まれていないので、ECRC に手動でルーティングする必要があります。
+> Skype for Business Server は、通常の通話と異なる方法で緊急電話を処理しません。 そのため、帯域幅管理や通話受付管理 (CAC) が E9-1-1 の構成に悪影響を与える場合があります。 CAC が有効になっており、緊急電話がルーティングされているリンク上に構成された制限数を超過した場合は、緊急電話がブロックされたり、ローカル PSTN ゲートウェイにルーティングされたりします。 前述のように、このような通話には場所データが含まれていないので、ECRC に手動でルーティングする必要があります。
     
 

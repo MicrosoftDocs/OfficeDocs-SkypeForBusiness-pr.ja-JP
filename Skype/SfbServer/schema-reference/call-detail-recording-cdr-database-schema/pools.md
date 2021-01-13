@@ -1,8 +1,8 @@
 ---
 title: Pools テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
-description: プールテーブルは、さまざまなプールに関する情報を格納するサポートテーブルです。 テーブル内の各レコードは、1つのプールを表します。
-ms.openlocfilehash: 1d9cf12e667edc178f6136c322ab62fcc6f9615e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Pools テーブルは、さまざまなプールに関する情報を格納するサポート テーブルです。 このテーブル内の各レコードは、1 つのプールを表しています。
+ms.openlocfilehash: bb0b794c38617d20b9a718fc9a44ec17c3a9ec66
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814995"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823217"
 ---
 # <a name="pools-table"></a>Pools テーブル
  
-プールテーブルは、さまざまなプールに関する情報を格納するサポートテーブルです。 テーブル内の各レコードは、1つのプールを表します。
+Pools テーブルは、さまざまなプールに関する情報を格納するサポート テーブルです。 このテーブル内の各レコードは、1 つのプールを表しています。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**PoolId** <br/> |int  <br/> |Primary  <br/> |このプールを識別する一意の番号。  <br/> |
-|**PoolFQDN** <br/> |nvarchar(256)  <br/> | <br/> |プールの FQDN。  <br/> |
+|**PoolId** <br/> |int  <br/> |Primary  <br/> |このプールを示す一意の番号です。  <br/> |
+|**PoolFQDN** <br/> |nvarchar(256)  <br/> | <br/> |プールの FQDN です。  <br/> |
    
 

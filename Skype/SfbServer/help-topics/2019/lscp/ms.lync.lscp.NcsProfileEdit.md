@@ -1,8 +1,8 @@
 ---
-title: 帯域幅ポリシープロファイルの新規作成または既存の編集
+title: Bandwidth Policy Profile Create New or Edit Existing
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5760460ca660c03520ecd48e4bcdee1778031ac3
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 221fb1c9cb009773cf0faffd8b0d555b9f8bc630
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795668"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824777"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>帯域幅ポリシーのプロファイル: 新規作成または現在の形式のままで編集
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [帯域幅ポリシープロファイルの構成](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+- [帯域幅ポリシー プロファイルの構成](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
 
 
 

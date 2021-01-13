@@ -1,8 +1,8 @@
 ---
 title: トポロジの公開でのプールのリセット ページ
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: 5420fae0974a39730663fd7f80267ae497200647
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: a7463a3089b3944817f266e0e279501c607d6569
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217278"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823677"
 ---
 # <a name="publish-topology-reset-pool-page"></a>トポロジの公開でのプールのリセット ページ
  
 このドキュメントは暫定版であり、変更される可能性があります。 空白のトピックがプレースホルダーとして含まれています。
   
-既存のプールに新しいコンピューターを追加するには、プールをリセットして、Windows Fabric がプールのすべてのメンバー間の接続を再定義できるようにする必要があります。 これを行うには、サーバーを追加したプールを選択し、[ **次へ**] をクリックします。
+新しいコンピューターを既存のプールに追加するには、プールをリセットして、Windows Fabric がプールのすべてのメンバー間の接続を再定義できる必要があります。 これを行うには、サーバーを追加したプールを選択し、[次へ] をクリック **します**。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server 2015 で新しいトポロジを作成および公開する](../../deploy/install/create-and-publish-new-topology.md)
+[Skype for Business Server 2015 での新しいトポロジの作成と公開](../../deploy/install/create-and-publish-new-topology.md)

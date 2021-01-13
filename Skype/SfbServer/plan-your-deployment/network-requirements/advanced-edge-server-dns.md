@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 向け Advanced Edge Server DNS の計画
+title: Skype for Business Server の高度なエッジ サーバー DNS の計画
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 audience: ITPro
 manager: serdars
 ms.topic: conceptual
@@ -15,162 +15,162 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
-description: '概要: Skype for Business Server 展開オプションのシナリオを確認します。 単一サーバーを使用したいと考えている場合も、DNS または HLB と共にサーバー プールを使用することを優先する場合も、このトピックは役に立ちます。'
-ms.openlocfilehash: b3893c11e1ce0cfdf9ab0b0452ef0a30a6442ee7
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: '概要: Skype for Business Server 展開オプションのシナリオを確認します。 単一サーバーを使用する場合も、DNS または HLB を使用するサーバー プールを使用する場合も、このトピックで説明します。'
+ms.openlocfilehash: 5a41baac30f3bf6a1e20ae34db009dae0cec40af
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887764"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825327"
 ---
-# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Skype for Business Server 向け Advanced Edge Server DNS の計画
+# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Skype for Business Server の高度なエッジ サーバー DNS の計画
  
-**概要:** Skype for Business Server 展開オプションのシナリオを確認します。 単一サーバーを使用したいと考えている場合も、DNS または HLB と共にサーバー プールを使用することを優先する場合も、このトピックは役に立ちます。
+**概要:** Skype for Business Server 展開オプションのシナリオを確認します。 単一サーバーを使用する場合でも、DNS または HLB を使用するサーバー プールを使用する場合でも、このトピックは役立ちます。
   
-Skype for Business Server のドメインネームシステム (DNS) の計画については、多くの要因が考えられます。 組織のドメイン構造が既に確立されている場合は、どのように作業を進めるか確認するための考慮事項になる可能性があります。 最初に、以下に示すトピックについて説明します。
+Skype for Business Server のドメイン ネーム システム (DNS) の計画に関しては、決定に影響を与える可能性がある多くの要因があります。 組織のドメイン構造が既に設定されている場合は、手順を確認する必要があります。 まず、以下のトピックを参照してください。
   
-- [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
+- [Skype for Business クライアント検索サービスのチュートリアル](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
-- [Split-brain DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS)
+- [スプリットブレイン DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#SplitBrainDNS)
     
-- [Automatic configuration without split-brain DNS](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#NoSplitBrainDNS)
+- [スプリットブレイン DNS を使用しない自動構成](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#NoSplitBrainDNS)
     
-- [DNS disaster recovery](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#DNSDR)
+- [DNS 障害復旧](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#DNSDR)
     
-- [DNS load balancing](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#DNSLB)
+- [DNS 負荷分散](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#DNSLB)
     
-## <a name="walkthrough-of-skype-for-business-clients-locating-services"></a>Walkthrough of Skype for Business clients locating services
+## <a name="walkthrough-of-skype-for-business-clients-locating-services"></a>Skype for Business クライアント検索サービスのチュートリアル
 <a name="WalkthroughOfSkype"> </a>
 
-Skype for Business クライアントは、以前のバージョンの Lync クライアントと似ていますが、Skype for Business Server でのサービスの検索とアクセス方法が含まれています。 ここではサーバー検索の詳細について説明します。
+Skype for Business クライアントは、Skype for Business Server でサービスを検索してアクセスする方法について、以前のバージョンの Lync クライアントに似ています。 このセクションでは、サーバーの場所の処理について詳しい説明を示します。
   
-1. lyncdiscoverinternal.\<ドメイン\>
+1. lyncdiscoverinternal。\<domain\>
     
-     *これは、内部 Web サービスを対象とした自動検出サービスの A ホスト レコードです。* 
+     *これは、内部 Web サービス上の自動検出サービスの A ホスト レコードです。* 
     
-2. lyncdiscover.\<ドメイン\>
+2. lyncdiscover。\<domain\>
     
-     *これは、外部 Web サービスを対象とした自動検出サービスのホスト レコードです。* 
+     *これは、外部 Web サービス上の自動検出サービスのホスト レコードです。* 
     
-3. _sipinternaltls _tcp。\<ドメイン\>
+3. _sipinternaltls._tcp。\<domain\>
     
-     *これは、内部 TLS 接続用の SRV レコードです。* 
+     *これは、内部 TLS 接続の SRV レコードです。* 
     
-4. _sip _tls。\<ドメイン\>
+4. _sip._tls。\<domain\>
     
-     *これは、外部 TLS 接続用の SRV レコードです。* 
+     *これは、外部 TLS 接続の SRV レコードです。* 
     
-5. sipinternal.\<ドメイン\>
+5. sipinternal。\<domain\>
     
-     *これは、内部ネットワーク上でのみ解決可能なフロントエンドプールまたはディレクターのホストレコードです。* 
+     *これはフロント エンド プールまたはディレクターの A ホスト レコードで、内部ネットワーク上でのみ解決できます。* 
     
-6. フェデレーション.\<ドメイン\>
+6. sip.\<domain\>
     
-     *これは、内部ネットワーク上でのみ解決可能なフロントエンドプールまたはディレクターのホストレコードです。* 
+     *これはフロント エンド プールまたはディレクターの A ホスト レコードで、内部ネットワーク上でのみ解決できます。* 
     
-7. sipexternal.\<ドメイン\>
+7. sipexternal。\<domain\>
     
-     *これは、クライアントが外部の場合に、アクセスエッジサービスのホストレコードです。* 
+     *クライアントが外部の場合、これはアクセス エッジ サービスの A ホスト レコードです。* 
     
-常に自動検出サービスを使用することが望まれます。これはサービス検出に関して優先される方法であり、他の方法はフォールバックの方法です。
+自動検出サービスは常に優先され、サービスの場所の推奨される方法であり、他の方法はフォールバック方法です。
   
 > [!NOTE]
-> SRV レコードを作成する場合は、DNS SRV レコードを作成するのと同じドメインにある DNS の A レコード (および、IPv6 アドレスを使用している場合は AAAA レコード) を指す必要があります。たとえば、SRV レコードが contoso.com にある場合、A (および AAAA) レコードが fabrikam.com を指すことはできません。 
+> SRV レコードを作成する場合、DNS SRV レコードが作成されているのと同じドメイン内の DNS A (および IPv6 アドレスを使用している場合は AAAA) をポイントする必要がある点に注意してください。 たとえば、SRV レコードが contoso.com にある場合、そのレコードがポイントしている A (および AAAA) レコードは、fabrikam.com。 
   
-希望する場合は、サービスの手動検出に依存するようにモバイル デバイスを設定することもできます。この方法を採用しようとする場合は、各ユーザーが自らのモバイル デバイスで、次のようにプロトコルとパスを含め、内部と外部の完全な自動検出サービス URL を構成する必要があります。
+これを行う必要がある場合は、サービスを手動で検出するためにモバイル デバイスを設定できます。 これが必要な場合、各ユーザーは、プロトコルとパスを含む、内部および外部の完全な自動検出サービス URI を使用して、次のようにモバイル デバイス設定を構成する必要があります。
   
-- 外部アクセスの場合:\<Https://extpoolfqdn\>/Autodiscover/autodiscoverservice.svc/Root
+- 外部アクセスの場合: https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root
     
-- 内部アクセスの場合:\<Https://intpoolfqdn\>/AutoDiscover/AutoDiscover.svc/Root
+- 内部アクセスの場合: https:// \<IntPoolFQDN\> /AutoDiscover/AutoDiscover.svc/Root
     
-手動検出ではなく、自動検出を使用することを強くお勧めします。ただし、トラブルシューティングやテストを実行する場合は、手動設定が非常に役に立つこともあります。
+手動検出ではなく、自動検出を使用することをお勧めします。 ただし、トラブルシューティングやテストを行う場合は、手動設定が非常に役立ちます。
   
 ## <a name="split-brain-dns"></a>スプリットブレイン DNS
 <a name="SplitBrainDNS"> </a>
 
-これは、2 つの DNS ゾーンが同じ名前空間に存在する DNS 構成です。一方の DNS ゾーンは内部要求のみ、他方の DNS ゾーンは外部要求のみを処理します。
+これは、同じ名前空間を持つ 2 つの DNS ゾーンがある DNS 構成です。 最初の DNS ゾーンは内部要求を処理し、2 番目の DNS ゾーンは外部要求を処理します。
   
-企業がこの構成を採用するのはなぜでしょうか。これは、内部と外部で同じ名前空間を使用する場合の要件になることがあります。もちろん、この構成を採用すると、DNS の多数の SRV レコードと A レコードが一方のゾーン内または他方のゾーン内で一意になることが求められる結果につながります。重複が存在する場合は、これらのレコードに関連付けられる IP アドレスは一意になります。
+企業がこれを行う理由 内部と外部で同じ名前空間を使用する必要がある場合がありますが、もちろん、これにより、多くの DNS SRV レコードと A レコードが 1 つのゾーンまたは別のゾーンに固有のものになります。重複がある場合、これらのレコードに関連付けられた IP アドレスは一意になります。
   
-この構成を採用すると、いくつかの課題が発生します。 最も重要なことは、スプリットブレイン DNS はモビリティでサポートされて**いない**ことです。 これは、LyncDiscover と LyncDiscoverInternal の各 DNS レコードが原因です (LyncDiscover は外部 DNS サーバー上で、また LyncDiscoverInternal は内部 DNS サーバー上で定義する必要があります)。
+これはいくつかの課題を示しています。 最も重要なのは、スプリットブレイン DNS が Mobility **でサポートされていない** 点です。 これは、LyncDiscover と LyncDiscoverInternal DNS レコード (LyncDiscover は外部 DNS サーバーで定義する必要があるのに対し、LyncDiscoverInternal は内部 DNS サーバーで定義する必要がある) ためです。
   
-ここでは、内部と外部のゾーンの DNS レコードについて説明しますが、「microsoft Edge Server の環境要件」セクションで詳しく説明します。
+ここでは、内部ゾーンと外部ゾーンの DNS レコードを一覧表示しますが、詳細な例については、「エッジ サーバーの環境要件」セクションを参照してください。
   
 ### <a name="internal-dns"></a>内部 DNS
 
-- (たとえば) contoso.com という信頼できる DNS ゾーンが含まれています。
+- 権限がある (たとえば) contoso.com DNS ゾーンが含まれている。
     
-- 以下は、内部 contoso.com の内容です。
+- この内部contoso.com次の情報が含まれる。
     
-  - フロントエンドプール、ディレクタープールまたはディレクタープールの名前、および組織のネットワーク内で Skype for Business Server を実行しているすべての内部サーバーに対して、DNS A と AAAA (IPv6 アドレス指定を使用している場合)。
+  - フロント エンド プール、ディレクター プールまたはディレクター プール名、および組織のネットワーク内で Skype for Business Server を実行しているすべての内部サーバーの DNS A および AAAA (IPv6 アドレス指定を使用している場合) レコード。
     
-  - 境界ネットワーク内の各 Skype for Business Server Edge サーバーの Edge 内部インターフェイスの (IPv6 アドレス指定を使用している場合は) DNS A と AAAA。
+  - 境界ネットワーク内の各 Skype for Business Server エッジ サーバーのエッジ内部インターフェイスの DNS A および AAAA (IPv6 アドレス指定を使用している場合) レコード。
     
-  - DNS A と AAAA (IPv6 アドレス指定を使用している場合) 境界ネットワーク内の各リバースプロキシサーバーの内部インターフェイスのレコード (リバースプロキシを管理するための**オプション**)。
+  - 境界ネットワーク内の各リバース プロキシ サーバーの内部インターフェイスの DNS A および AAAA (IPv6 アドレス指定を使用している場合) レコード (リバース プロキシの管理にはオプション)。
     
-  - DNS A と AAAA (IPv6 アドレス指定を使用している場合)、および内部の Skype for Business Server クライアントの自動構成の SRV レコード (**オプション**)。
+  - 内部 Skype for Business Server クライアントの自動構成用の DNS A および AAAA (IPv6 アドレス指定を使用している場合) および SRV レコード **(オプション)。**
     
-  - Skype for Business Server Web サービスを自動的に検出するための DNS A と AAAA (IPv6 アドレスを使用している場合) または CNAME レコード (**オプション**)。
+  - DNS A および AAAA (IPv6 アドレス指定を使用している場合) または CNAME レコードを使用して、Skype for Business Server Web サービスの自動検出を行います (**オプション)。**
     
-- 境界ネットワーク内のすべての Skype for Business Server 内部エッジインターフェイスは、この内部 DNS ゾーンを使って、contoso.com へのクエリを解決します。
+- 境界ネットワーク内のすべての Skype for Business Server 内部エッジ インターフェイスは、この内部 DNS ゾーンを使用してクエリを解決contoso.com。
     
-- Skype for Business Server を実行しているすべてのサーバー、および企業ネットワーク内の Skype for Business Server を実行しているクライアント、contoso.com へのクエリを解決するための内部 DNS サーバー、または各エッジサーバー上のホストファイルを使用している場合は、(使用している場合)IPv6 アドレス) 次ホップサーバーのレコード (特にディレクターまたはディレクタープール VIP、フロントエンドプール VIP、または Standard Edition server)。
+- Skype for Business Server を実行しているすべてのサーバー、および企業ネットワークで Skype for Business Server を実行しているクライアントは、contoso.com へのクエリを解決するために内部 DNS サーバーをポイントするか、各エッジ サーバーのホスト ファイルを使用して次ホップ サーバー (特にディレクターまたはディレクター プールの VIP 用) の A および AAAA (IPv6 アドレス指定を使用している場合) レコードを一覧表示します。、フロントエンド プールの VIP、または Standard Edition サーバー)。
     
 ### <a name="external-dns"></a>外部 DNS
 
-- (たとえば) contoso.com という信頼できる DNS ゾーンが含まれています。
+- 権限がある (たとえば) contoso.com DNS ゾーンが含まれている。
     
-- 以下は、外部 contoso.com の内容です。
+- この外部contoso.com次の情報が含まれる。
     
-  - Skype for Business Server web サービスを自動的に検出するために、DNS A と AAAA (IPv6 アドレス指定を使用している場合)、または CNAME レコード。 これは、モビリティでの使用に適しています。
+  - Skype for Business Server Web サービスの自動検出用の DNS A および AAAA (IPv6 アドレス指定を使用している場合)、または CNAME レコード。 これはモビリティで使用するために使用されます。
     
-  - DNS A と AAAA (IPv6 アドレスを使用している場合)、および境界ネットワークでの各 Skype for Business Server Edge サーバーまたはハードウェア負荷分散 (HLB) VIP のエッジ外部インターフェイスの SRV レコード。
+  - 境界ネットワーク内の各 Skype for Business Server エッジ サーバーまたはハードウェア負荷分散 (HLB) VIP のエッジ外部インターフェイスの DNS A および AAAA (IPv6 アドレス指定を使用している場合) および SRV レコード。
     
-  - 境界ネットワークの DNS A および AAAA (IPv6 アドレス指定を使用している場合) および SRV レコード (リバースプロキシサーバーの外部インターフェイスまたはリバースプロキシサーバーのプール用 VIP)。
+  - 境界ネットワーク内のリバース プロキシ サーバーの外部インターフェイスまたは (リバース プロキシ サーバーのプールの VIP) の DNS A および AAAA (IPv6 アドレスを使用している場合) および SRV レコード。
     
-  - DNS A と AAAA (IPv6 アドレス指定を使用している場合)、および Skype for Business Server クライアント自動構成の SRV レコード (**オプション**)。
+  - Skype for Business Server クライアントの自動構成の DNS A および AAAA (IPv6 アドレス指定を使用している場合) および SRV レコード ( **オプション** )。
     
-## <a name="automatic-configuration-without-split-brain-dns"></a>スプリットブレイン DNS なしの自動構成
+## <a name="automatic-configuration-without-split-brain-dns"></a>スプリットブレイン DNS を使用しない自動構成
 <a name="NoSplitBrainDNS"> </a>
 
-スプリットブレイン DNS を使用していない場合は、次の回避策のいずれかを使用しない限り、Skype for Business を実行しているクライアントの内部自動構成は機能しません。 なぜでしょうか。 Skype for Business Server は、自動構成用に指定されたフロントエンドプールのドメインと一致するようにユーザーの SIP URI を要求するためです。 これは、以前のバージョンの Lync Server から変更されていません。
+スプリットブレイン DNS を使用しない場合は、ここに示す回避策のいずれかを使用しない限り、Skype for Business を実行しているクライアントの内部自動構成は機能しません。 どうしてでしょうか? Skype for Business Server では、自動構成用に指定されたフロントエンド プールのドメインと一致するユーザーの SIP URI が必要です。 これは、以前のバージョンの Lync Server から変更されていない。
   
-たとえば、使用されている SIP ドメインが 2 つある場合、次の DNS SRV レコードが必要です。
+したがって、2 つの SIP ドメインが使用されている場合は、次の DNS SRV レコードが必要です。
   
-- _sipinternaltls._tcp.contoso.com. 86400 IN SRV 0 0 5061 pool01.contoso.com
+- _sipinternaltls._tcp.contoso.com。 86400 IN SRV 0 0 5061 pool01.contoso.com
     
-     *ユーザーが bob@contoso.com としてサインインした場合、ユーザーの SIP ドメインはフロントエンドプールのドメイン (contoso.com) と一致するため、このレコードは自動構成で動作します。* 
+     *ユーザーが bob@contoso.com としてサインインした場合、ユーザーの SIP ドメインがフロントエンド プール (contoso.com) のドメインと一致する場合、このレコードは自動構成で機能します。* 
     
-- _sipinternaltls._tcp.fabrikam.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
+- _sipinternaltls._tcp.fabrikam.com。 86400 IN SRV 0 0 5061 pool01.fabrikam.com
     
-     *ユーザーが alice@fabrikam.com としてサインインした場合、SIP ドメインがそのドメインのフロントエンドプールと一致するため、このレコードは2番目のドメインの自動構成に使用できます。* 
+     *ユーザーが alice@fabrikam.com としてサインインすると、SIP ドメインがドメインのフロント エンド プールと一致する場合も、このレコードは 2 番目のドメインの自動構成で機能します。* 
     
-ここまでの例を使用すると、次のレコードは機能しません。
+この例をさらに詳しくは、次の方法では動作しません。
   
-- _sipinternaltls._tcp.litwareinc.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
+- _sipinternaltls._tcp.litwareinc.com。 86400 IN SRV 0 0 5061 pool01.fabrikam.com
     
-     *tim@litwareinc.com としてサインインしたユーザーの場合は、自動構成は機能しません。このユーザーの SIP ドメイン (litwareinc.com) は、プール内のドメイン (fabrikam.com) と一致しないためです。* 
+     *SIP ドメイン litwareinc.com (tim@litwareinc.com) がプール内のドメイン (fabrikam.com) と一致しないので、ユーザーが tim@litwareinc.com としてサインインしても自動構成は機能しません。* 
     
-これで、スプリットブレイン DNS を使わずに Skype for Business クライアントの自動要件が必要な場合は、次のオプションがあります。
+これで、スプリットブレイン DNS を使用しない Skype for Business クライアントの自動要件が必要な場合は、次のオプションを使用できます。
   
 - **グループ ポリシー オブジェクト**
     
-    グループ ポリシー オブジェクト (GPO) を使用して、適切なサーバーの値を設定できます。
+    グループ ポリシー オブジェクト (GPO) を使用して、正しいサーバー値を設定できます。
     
     > [!NOTE]
-    > このオプションを使用しても自動構成は有効になりませんが、手動構成が自動化されます。この方法を使用した場合、自動構成に関連付ける SRV レコードは必要ありません。 
+    > このオプションは自動構成を有効にしないが、手動構成を自動化する。 この方法を使用する場合、自動構成に関連付けられている SRV レコードは必要ありません。 
   
 - **内部ゾーンの一致**
     
-    外部 DNS ゾーン (contoso.com など) に一致する内部 DNS のゾーンを作成して、自動で使用される Skype for Business Server プールに対応するレコードを作成する必要があります (IPv6 アドレスを使っている場合は、AAAA の場合)。構成.
+    外部 DNS ゾーン (contoso.com など) に一致するゾーンを内部 DNS に作成し、自動構成に使用される Skype for Business Server プールに対応する DNS A (および IPv6 アドレス指定を使用している場合は AAAA) レコードを作成する必要があります。
     
-    たとえば、ユーザーが pool01.contoso.net をホームにしていて、bob@contoso.com として Skype for Business にサインインしている場合、contoso.com という名前の内部 DNS ゾーンを作成し、その内部に pool01.contoso.com の DNS A (IPv6 アドレスを使用する場合は AAAA) レコードを作成する必要があります。
+    たとえば、ユーザーが pool01.contoso.net にホームとしていて、Skype for Business に bob@contoso.com としてサインインしている場合は、contoso.com という内部 DNS ゾーンを作成し、その内部に pool01.contoso.com の DNS A (および IPv6 アドレス指定が使用されている場合は AAAA) レコードを作成する必要があります。
     
 - **ピンポイントの内部ゾーン**
     
-    内部 DNS 内にゾーン全体を作成することが適切なオプションではない場合は、自動構成で必要とされる複数の SRV レコードに対応するピンポイント (専用) ゾーンを作成し、dnscmd.exe を使用してそれらのゾーンを設定することができます。DNS ユーザー インターフェイスはピンポイント ゾーンの作成をサポートしていないため、Dnscmd.exe が必須です。
+    内部 DNS でゾーン全体を作成するオプションではない場合は、自動構成に必要な SRV レコードに対応するピンポイント (専用) ゾーンを作成し、dnscmd.exe を使用してこれらのゾーンにデータを設定できます。 Dnscmd.exe DNS ユーザー インターフェイスはピンポイント ゾーンの作成をサポートしないので、この設定は必須です。
     
-    たとえば、SIP ドメインが contoso.com で、2つのフロントエンドサーバーを含む pool01 というフロントエンドプールがある場合、次のピンポイントゾーンと内部 DNS 内のレコードが必要になります。
+    たとえば、SIP ドメインが contoso.com で、pool01 というフロントエンド プールに 2 つのフロントエンド サーバーが含まれている場合、内部 DNS には次のピンポイント ゾーンと A レコードが必要です。
     
   ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
@@ -182,7 +182,7 @@ Skype for Business クライアントは、以前のバージョンの Lync ク�
   dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
   ```
 
-    環境内で 2 番目の SIP ドメインを用意することもできます。この場合は、内部 DNS 内で以下のピンポイント ゾーンと A レコードが必要になります。
+    環境内に 2 番目の SIP ドメインがある場合があります。 その場合は、内部 DNS に次のピンポイント ゾーンと A レコードが必要になります。
     
   ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
@@ -195,39 +195,39 @@ Skype for Business クライアントは、以前のバージョンの Lync ク�
   ```
 
 > [!NOTE]
-> フロントエンドプールの FQDN が2回表示されますが、2つの異なる IP アドレスがあります。 DNS 負荷分散を使用しているためです。 HLB を使っている場合は、1つのフロントエンドプールエントリしかありません。 
+> フロントエンド プールの FQDN が 2 回表示されますが、2 つの異なる IP アドレスが表示されます。 これは、DNS 負荷分散が使用されているからです。 HLB を使用する場合、フロントエンド プール エントリは 1 つのみです。 
   
 > [!NOTE]
-> また、contoso.com と fabrikam.com の例では、フロントエンドプールの FQDN 値が変更されますが、IP アドレスは変わりません。 その理由は、いずれかの SIP ドメインからサインインしているユーザーが、自動構成で同じフロントエンドプールを使用しているためです。 
+> また、フロントエンド プールの FQDN の値は、contoso.com と fabrikam.comの間で変化しますが、IP アドレスは変わりません。 これは、いずれかの SIP ドメインからサインインしているユーザーが、自動構成に同じフロントエンド プールを使用するからです。 
   
 ## <a name="dns-disaster-recovery"></a>DNS 障害復旧
 <a name="DNSDR"> </a>
 
-Skype for Business Server の web トラフィックを disaster recover (DR) とフェールオーバーサイトにリダイレクトするように DNS を構成するには、GeoDNS をサポートする DNS プロバイダーを使用する必要があります。 障害回復をサポートするように DNS レコードを設定することができます。これにより、フロントエンドプール全体が停止した場合でも、web サービスを使う機能が続行されます。 この障害復旧機能では、自動検出、会議、およびダイヤルインの簡易 URL をサポートします。
+Skype for Business Server Web トラフィックを障害復旧 (DR) およびフェールオーバー サイトにリダイレクトする DNS を構成するには、GeoDNS をサポートする DNS プロバイダーを使用する必要があります。 障害復旧をサポートする DNS レコードを設定して、1 つのフロントエンド プール全体がダウンしても Web サービスを使用する機能を続行できます。 この DR 機能は、自動検出、会議、ダイヤルインの簡易 URL をサポートします。
   
-You define and configure additional DNS host A (AAAA if using IPv6) records for internal and external resolution of web services at your GeoDNS provider. The following details assume paired pools, geographically dispersed, and that the GeoDNS supported by your provider **either** has round-robin DNS **or** is configured to use Pool1 as primary and fails over to Pool2 in the event of any communications loss or power failure.
+追加の DNS ホスト A (IPv6 を使用する場合は AAAA) レコードを定義して構成し、GeoDNS プロバイダーで Web サービスの内部および外部の解決を行います。 次の詳細は、ペアのプールが地理的に分散し、プロバイダーがサポートする GeoDNS がラウンドロビン **DNS** を持っているか、Pool1 をプライマリとして使用するように構成され、通信損失や停電が発生した場合に Pool2 に障害が発生した場合に Pool2 に障害が発生したと想定しています。
   
-この表の DNS レコードは、いずれも例です。
+この表に示す DNS レコードはすべて例です。
   
-|**GeoDNS レコード**|**プール レコード**|**CNAME レコード**|**DNS 設定 (オプションを 1 つ選択する)**|
+|**GeoDNS レコード**|**プール レコード**|**CNAME レコード**|**DNS 設定 (1 つのオプションを選択)**|
 |:-----|:-----|:-----|:-----|
-|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Meet.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Meet.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Meet.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Meet.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Dialin.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Dialin.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Dialin.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Dialin.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Lyncdiscoverinternal.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Lyncdiscoverinternal.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Lyncdiscover.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Lyncdiscover.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |エイリアス Scheduler.contoso.com を Pool1InternalWebFQDN.contoso.com に指定  <br/> エイリアス Scheduler.contoso.com を Pool2InternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
-|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |エイリアス Scheduler.contoso.com を Pool1ExternalWebFQDN.contoso.com に指定  <br/> エイリアス Scheduler.contoso.com を Pool2ExternalWebFQDN.contoso.com に指定  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害発生時はセカンダリに接続  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.comエイリアスをPool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.comエイリアスをPool2InternalWebFQDN.contoso.com  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害が発生した場合はセカンダリに接続する  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.comエイリアスをPool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.comエイリアスを使用してPool2ExternalWebFQDN.contoso.com  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害が発生した場合はセカンダリに接続する  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Dialin.contoso.comエイリアスを指定Pool1InternalWebFQDN.contoso.com  <br/> Dialin.contoso.comエイリアスを指定Pool2InternalWebFQDN.contoso.com  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害が発生した場合はセカンダリに接続する  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Dialin.contoso.comエイリアスを指定Pool1ExternalWebFQDN.contoso.com  <br/> Dialin.contoso.comエイリアスをPool2ExternalWebFQDN.contoso.com  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害が発生した場合はセカンダリに接続する  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Lyncdiscoverinternal.contoso.comエイリアスをPool1InternalWebFQDN.contoso.com  <br/> Lyncdiscoverinternal.contoso.comエイリアスをPool2InternalWebFQDN.contoso.com  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害が発生した場合はセカンダリに接続する  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Lyncdiscover.contoso.comエイリアスをPool1ExternalWebFQDN.contoso.com  <br/> Lyncdiscover.contoso.comエイリアスを設定Pool2ExternalWebFQDN.contoso.com  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害が発生した場合はセカンダリに接続する  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.comエイリアスをPool1InternalWebFQDN.contoso.com  <br/> Scheduler.contoso.comエイリアスを追加Pool2InternalWebFQDN.contoso.com  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害が発生した場合はセカンダリに接続する  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.comにエイリアスをPool1ExternalWebFQDN.contoso.com  <br/> Scheduler.contoso.comエイリアスをPool2ExternalWebFQDN.contoso.com  <br/> |プール間のラウンド ロビン  <br/> **または** <br/> プライマリを使用し、障害が発生した場合はセカンダリに接続する  <br/> |
    
 ## <a name="dns-load-balancing"></a>DNS 負荷分散
 <a name="DNSLB"> </a>
 
-DNS 負荷分散は一般的に、アプリケーション レベルで実装されます。 このアプリケーション (たとえば、Skype for Business を実行しているクライアント) は、DNS A と AAAA から返された IP アドレスの1つ (IPv6 アドレスが使用されている場合) に接続して、プールの FQDN のレコードクエリを実行します。
+DNS 負荷分散は、通常、アプリケーション レベルで実装されます。 アプリケーション (Skype for Business を実行しているクライアントなど) は、プール FQDN の DNS A および AAAA (IPv6 アドレスが使用されている場合) レコード クエリから返された IP アドレスの 1 つに接続して、プール内のサーバーへの接続を試行します。
   
-たとえば、pool01.contoso.com という名前のプールに3台のフロントエンドサーバーがある場合は、次のようになります。
+たとえば、pool01.contoso.com という名前のプールに 3 つのフロントエンド サーバーがある場合、次のようになります。
   
-- Skype for Business の DNS クエリを実行しているクライアント pool01.contoso.com。 このクエリは 3 つの IP アドレスを返し、それらを次のようにキャッシュに格納します (順序は任意)。
+- Skype for Business を実行しているクライアントは、DNS にクエリをpool01.contoso.com。 クエリは 3 つの IP アドレスを返し、次のようにキャッシュします (順序は次のとおりです)。
     
    |||
    |:-----|:-----|
@@ -235,35 +235,35 @@ DNS 負荷分散は一般的に、アプリケーション レベルで実装さ
    |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
    |pool01.contoso.com  <br/> |192.168.10.92  <br/> |
    
-- 次に、クライアントは IP アドレスの 1 つに対して TCP 接続を確立しようとします。それが失敗した場合は、一覧の中にキャッシュされている次の IP アドレスを試します。
+- クライアントは、IP アドレスの 1 つへの TCP 接続を確立します。 失敗した場合は、そのリストからキャッシュされている次の IP アドレスを試します。
     
-- TCP 接続が成功した場合、クライアントは TLS のネゴシエーションを行い、pool01.contoso.com のプライマリ レジストラーに接続します。
+- TCP 接続が成功すると、クライアントは TLS をネゴシエートして、サーバー上のプライマリ レジストラー pool01.contoso.com。
     
-- クライアントがすべてのキャッシュエントリを正常に接続していない場合は、Skype for Business Server が実行されているサーバーが現在利用できないという通知がユーザーに表示されます。
+- クライアントが接続に成功せずにすべてのキャッシュされたエントリを試みる場合、ユーザーは、現時点では Skype for Business Server を実行しているサーバーが利用できないという通知を受け取ります。
     
 > [!NOTE]
-> DNS ベースの負荷分散は、一般的に、DNS を利用してプール内のサーバーの IP アドレスを別の順序で提供して負荷分散を行うことを指す DNS ラウンド ロビン (DNS RR) と異なります。一般的に、DNS RR は負荷分散が可能で、フェールオーバー機能を実現しません。たとえば、DNS A (または IPv6 のシナリオを使用している場合は AAAA) クエリで返された 1 つの IP アドレスに対する接続が失敗した場合、その接続は失敗します。したがって、DNS RR は DNS ベースの負荷分散より信頼性が劣りますが、上記の目的で、DNS 負荷分散と共に DNS RR を引き続き使用することができます。 
+> DNS ベースの負荷分散は、DNS ラウンド ロビン (DNS RR) とは異なります。これは、通常、DNS に依存してプール内のサーバーに異なる順序の IP アドレスを与える負荷分散を指します。 通常、DNS RR は負荷分散を有効にしますが、フェールオーバーを有効にしません。 たとえば、DNS A (または IPv6 シナリオの AAAA) クエリによって返された 1 つの IP アドレスへの接続が失敗した場合、その接続は失敗します。 これにより、DNS RR の信頼性が DNS ベースの負荷分散よりも低くします。 必要に応じて、DNS RR を DNS ベースの負荷分散と組み合わせて使用できます。 
   
-DNS 負荷分散の用途:
+DNS 負荷分散を使用して、次の処理を行います。
   
-- サーバー間 SIP の負荷分散をエッジサーバーに対して行います。
+- サーバー間 SIP をエッジ サーバーに負荷分散します。
     
-- 会議自動アテンダント、応答グループ、コール パークなどの統合コミュニケーション アプリケーション サービス (UCAS) アプリケーションの負荷分散
+- 会議サービス、応答グループ、コール パークなど、統合コミュニケーション 自動応答 (UCAS) アプリケーションの負荷分散。
     
-- UCAS アプリケーションへの新規接続の禁止(ドレインとも呼ばれます)
+- UCAS アプリケーションへの新しい接続を防止する (ドレインとも呼ばれる)。
     
-- クライアントとエッジサーバー間のクライアント間トラフィックはすべて負荷分散されます。
+- クライアントとエッジ サーバー間のすべてのクライアント間トラフィックの負荷分散。
     
-DNS 負荷分散を使用できない用途:
+次の場合に DNS 負荷分散を使用することはできません。
   
-- フロントエンドサーバーまたはディレクターへのクライアント対サーバー web トラフィック。
+- フロントエンド サーバーまたはディレクターへのクライアントからサーバーへの Web トラフィック。
     
-Mutiple DNS レコードがクエリによって返されたときの DNS SRV レコードの選択方法についてさらに詳しく理解するために、アクセスエッジサービスは常に最も低い数値の優先度を持つレコードを選びます。また、タイのブレーカーが必要な場合は、最も高い数値の重みにします。 これは、[インターネットエンジニアリングタスクのフォースに関するドキュメント](https://www.ietf.org/rfc/rfc2782.txt)と一貫性があります。
+クエリによって複数の DNS レコードが返された場合に DNS SRV レコードがどのように選択されるのかについてもう少し詳しい情報を得る場合、アクセス エッジ サービスは常に数値の優先順位が最も低いレコードを選択し、タイ ブレーカーが必要な場合は数値ウェイトが最も高くなります。 これは、インターネットエンジニアリングタスク [フォースのドキュメントと一致しています](https://www.ietf.org/rfc/rfc2782.txt)。
   
-そのため、たとえば最初の DNS SRV レコードの重み付けが 20 で、優先順位が 40、また 2 番目の DNS SRV レコードの重み付けが 10 で、優先順位が 50 の場合は、優先順位が 40 である最初のレコードが選択されます。常に優先順位が最初に考慮され、クライアントが最初にターゲットにするホストになります。同じ優先順位を持つターゲットが 2 つ存在する場合はどうなるでしょうか。 
+たとえば、最初の DNS SRV レコードの重み付け値が 20、優先順位が 40 で、2 番目の DNS SRV レコードの重み付けが 10 で優先順位が 50 の場合、優先順位が 40 より低いので、最初のレコードが選択されます。 優先度は常に最初に行き、クライアントが最初にターゲットとするホストです。 同じ優先度を持つターゲットが 2 つある場合は、どうなるでしょうか。 
   
-この場合は、重み付けが考慮されます。この状況では、重み付けが大きいほど、選択される確率が高くなります。サーバー選択を行わない場合は、DNS 管理者は重み付け 0 を使用する必要があります。0 より大きい重み付けを持つレコードが存在するとき、重み付け 0 のレコードが選択される可能性は非常に小さくなります。
+その場合は、重みを考慮します。 この状況では、より大きな重みを選択する可能性が高い必要があります。 DNS 管理者は、実行するサーバーが選択されていない場合は、重み 0 を使用する必要があります。 重み付けが 0 より大きいレコードが存在する場合、重み付け 0 のレコードが選択される可能性は非常に小さいです。
   
-同じ優先度と重み付けを持つ複数の DNS SRV レコードが返された場合は、どうなるでしょうか。 この場合、アクセスエッジサービスによって、DNS サーバーから取得した SRV レコードが最初に選択されます。
+では、同じ優先度と重みを持つ複数の DNS SRV レコードが返された場合は、どうなるでしょうか。 この場合、アクセス エッジ サービスは、最初に DNS サーバーから取得した SRV レコードを選択します。
   
 
