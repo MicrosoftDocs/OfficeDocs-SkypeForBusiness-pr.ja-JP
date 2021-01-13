@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams でサポートされていないブラウザーに関する会議
-author: lanachin
-ms.author: v-lanac
+title: サポートされていないブラウザーでの Microsoft Teams 会議
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -13,41 +13,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 search.appverid: MET150
-description: チームがサポートされていないブラウザーで音声とビデオをサポートする方法について説明します。
+description: サポートされていないブラウザーでの Teams でのオーディオとビデオのサポートについて学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d19affd962b396af42f4efaec707388b186094
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 4aca1592a89e36e7a26a9a22b111968e4b44a302
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778049"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804527"
 ---
-# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a><span data-ttu-id="b478a-103">Microsoft Teams でサポートされていないブラウザーに関する会議</span><span class="sxs-lookup"><span data-stu-id="b478a-103">Microsoft Teams meetings on unsupported browsers</span></span>
+# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a><span data-ttu-id="cabaa-103">サポートされていないブラウザーでの Microsoft Teams 会議</span><span class="sxs-lookup"><span data-stu-id="cabaa-103">Microsoft Teams meetings on unsupported browsers</span></span>
 
-<span data-ttu-id="b478a-104">Internet Explorer 11、Safari、Firefox などの一部のブラウザーでは、Microsoft Teams web app がサポートされていますが、チームの通話機能と会議機能の一部はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="b478a-104">Some browsers, such as Internet Explorer 11, Safari, and Firefox, support the Microsoft Teams web app but don't support some of the Teams calling and meeting features.</span></span> <span data-ttu-id="b478a-105">この制限を回避するために、Teams web app では、ユーザーが PSTN 接続を使用して音声を受信できるようにし、表示されたコンテンツ (スクリーン共有) を表示することができます。</span><span class="sxs-lookup"><span data-stu-id="b478a-105">To work around this limitation, the Teams web app lets users receive audio through a PSTN connection and lets them view presented content (screen share) at a reduced display rate.</span></span>
+<span data-ttu-id="cabaa-104">Internet Explorer 11、Safari、Firefox などの一部のブラウザーは Microsoft Teams Web アプリをサポートしていますが、Teams の通話および会議機能の一部はサポートされていません。</span><span class="sxs-lookup"><span data-stu-id="cabaa-104">Some browsers, such as Internet Explorer 11, Safari, and Firefox, support the Microsoft Teams web app but don't support some of the Teams calling and meeting features.</span></span> <span data-ttu-id="cabaa-105">この制限を回避するために、Teams Web アプリを使用すると、ユーザーは PSTN 接続を介して音声を受信し、表示されたコンテンツ (画面共有) を表示速度を低下して表示できます。</span><span class="sxs-lookup"><span data-stu-id="cabaa-105">To work around this limitation, the Teams web app lets users receive audio through a PSTN connection and lets them view presented content (screen share) at a reduced display rate.</span></span>
 
 > [!Note]
-> <span data-ttu-id="b478a-106">Microsoft 365 アプリとサービスは、Internet Explorer 11 (2021 年8月17日) をサポートしていません (Microsoft Teams は、年11月 2020 30 日以降、Internet Explorer 11 より前のバージョンをサポートしていません)。</span><span class="sxs-lookup"><span data-stu-id="b478a-106">Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting  November 30, 2020).</span></span> <span data-ttu-id="b478a-107">[詳細については、こちらを参照してください](https://aka.ms/AA97tsw)。</span><span class="sxs-lookup"><span data-stu-id="b478a-107">[Learn more](https://aka.ms/AA97tsw).</span></span> <span data-ttu-id="b478a-108">Internet Explorer 11 はサポートされているブラウザーにとどまりますのでご注意ください。</span><span class="sxs-lookup"><span data-stu-id="b478a-108">Please note that Internet Explorer 11 will remain a supported browser.</span></span> <span data-ttu-id="b478a-109">Internet Explorer 11 は Windows オペレーティングシステムのコンポーネントであり、インストールされている製品の [ライフサイクルポリシーに従い](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) ます。</span><span class="sxs-lookup"><span data-stu-id="b478a-109">Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is  installed.</span></span>
+> <span data-ttu-id="cabaa-106">Microsoft 365 のアプリとサービスは、2021 年 8 月 17 日から Internet Explorer 11 をサポートしない予定です (Microsoft Teams では、2020 年 11 月 30 日から Internet Explorer 11 以前はサポートされていません)。</span><span class="sxs-lookup"><span data-stu-id="cabaa-106">Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting  November 30, 2020).</span></span> <span data-ttu-id="cabaa-107">[詳細情報を参照してください](https://aka.ms/AA97tsw)。</span><span class="sxs-lookup"><span data-stu-id="cabaa-107">[Learn more](https://aka.ms/AA97tsw).</span></span> <span data-ttu-id="cabaa-108">Internet Explorer 11 は、サポート対象のブラウザーとして残ることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="cabaa-108">Please note that Internet Explorer 11 will remain a supported browser.</span></span> <span data-ttu-id="cabaa-109">Internet Explorer 11 は Windows オペレーティング システムのコンポーネントであり[](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge)、インストールされている製品のライフサイクル ポリシーに従います。</span><span class="sxs-lookup"><span data-stu-id="cabaa-109">Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is  installed.</span></span>
 
-<span data-ttu-id="b478a-110">チームでサポートされていないブラウザーが検出されると、その問題とセッションの制限を説明するメッセージが自動的に表示されます。</span><span class="sxs-lookup"><span data-stu-id="b478a-110">When Teams detects an unsupported browser, it automatically displays a message explaining the issue and the session limitations.</span></span> <span data-ttu-id="b478a-111">このメッセージには、会議の音声にアクセスするための詳しい手順が記載されています。たとえば、チームがユーザーに電話をかけたり、会議の出席依頼に記載されている電話会議の電話番号に電話をかけたりするようにユーザーに指示することができます。</span><span class="sxs-lookup"><span data-stu-id="b478a-111">The message provides further instructions for accessing the meeting audio, such as advising the user to leave a call back number so that Teams can call the user, or instructing the user to call the conference number included in the meeting invitation.</span></span> <span data-ttu-id="b478a-112">また、このメッセージにより、teams の [デスクトップクライアント](https://teams.microsoft.com/downloads) をダウンロードして、チームのすべてのエクスペリエンスに使用することが奨励されます。</span><span class="sxs-lookup"><span data-stu-id="b478a-112">The message also encourages the user to download and use the [Teams desktop client](https://teams.microsoft.com/downloads) for the full Teams experience.</span></span>
+<span data-ttu-id="cabaa-110">Teams がサポートされていないブラウザーを検出すると、問題とセッションの制限を説明するメッセージが自動的に表示されます。</span><span class="sxs-lookup"><span data-stu-id="cabaa-110">When Teams detects an unsupported browser, it automatically displays a message explaining the issue and the session limitations.</span></span> <span data-ttu-id="cabaa-111">このメッセージには、Teams がユーザーに通話を呼び出せするように呼び出し元の番号を残すようユーザーに指示したり、会議出席依頼に含まれる電話会議番号に電話するようにユーザーに指示したりなど、会議の音声にアクセスする手順が示されます。</span><span class="sxs-lookup"><span data-stu-id="cabaa-111">The message provides further instructions for accessing the meeting audio, such as advising the user to leave a call back number so that Teams can call the user, or instructing the user to call the conference number included in the meeting invitation.</span></span> <span data-ttu-id="cabaa-112">このメッセージでは、Teams デスクトップ クライアントをダウンロードして [使用し、Teams](https://teams.microsoft.com/downloads) の完全なエクスペリエンスを得る方法もユーザーに推奨されます。</span><span class="sxs-lookup"><span data-stu-id="cabaa-112">The message also encourages the user to download and use the [Teams desktop client](https://teams.microsoft.com/downloads) for the full Teams experience.</span></span>
 
-<span data-ttu-id="b478a-113">PSTN を使用できない場合は、会議にアクセスするための手順が表示されず、会議に参加できません。</span><span class="sxs-lookup"><span data-stu-id="b478a-113">If PSTN is unavailable, the user won't see the instructions for accessing the meeting and won't be able to join the meeting.</span></span>
+<span data-ttu-id="cabaa-113">PSTN が利用できない場合、ユーザーには会議にアクセスする手順が表示され、会議に参加できません。</span><span class="sxs-lookup"><span data-stu-id="cabaa-113">If PSTN is unavailable, the user won't see the instructions for accessing the meeting and won't be able to join the meeting.</span></span>
 
-## <a name="browser-limitations"></a><span data-ttu-id="b478a-114">ブラウザーの制限</span><span class="sxs-lookup"><span data-stu-id="b478a-114">Browser limitations</span></span>
+## <a name="browser-limitations"></a><span data-ttu-id="cabaa-114">ブラウザーの制限事項</span><span class="sxs-lookup"><span data-stu-id="cabaa-114">Browser limitations</span></span>
 
-<span data-ttu-id="b478a-115">サポートされていないブラウザーで Teams web app を使用しているユーザーには、次の制限があります。</span><span class="sxs-lookup"><span data-stu-id="b478a-115">People who use the Teams web app on unsupported browsers will experience the following limitations:</span></span>
+<span data-ttu-id="cabaa-115">サポートされていないブラウザーで Teams Web アプリを使用するユーザーには、次の制限が発生します。</span><span class="sxs-lookup"><span data-stu-id="cabaa-115">People who use the Teams web app on unsupported browsers will experience the following limitations:</span></span>
 
-- <span data-ttu-id="b478a-116">オーディオは PSTN 接続のみで利用できます。</span><span class="sxs-lookup"><span data-stu-id="b478a-116">Audio is available through a PSTN connection only.</span></span> <span data-ttu-id="b478a-117">ユーザーはマイクを使用できません。</span><span class="sxs-lookup"><span data-stu-id="b478a-117">Users can't use their microphone.</span></span>
-- <span data-ttu-id="b478a-118">ユーザーはカメラを共有したり、他の参加者のビデオを表示したりすることはできませんが、イメージベースの画面共有を通じて表示されるコンテンツを表示できます。</span><span class="sxs-lookup"><span data-stu-id="b478a-118">Users can't share their camera or see other participants' videos but can view presented content through image-based screen sharing.</span></span>
-- <span data-ttu-id="b478a-119">ユーザーは画面を共有することはできませんが、別の会議出席者が共有している画面を表示できます。</span><span class="sxs-lookup"><span data-stu-id="b478a-119">Users can't share their screen, although they can see a screen that another meeting participant shares.</span></span>
-- <span data-ttu-id="b478a-120">画面共有セッション中は、ユーザーが制御を行うことはできません。</span><span class="sxs-lookup"><span data-stu-id="b478a-120">Users can't take control during a screen sharing session.</span></span>
-- <span data-ttu-id="b478a-121">着信通話の通知を受信できません。</span><span class="sxs-lookup"><span data-stu-id="b478a-121">Users won't receive incoming call notifications.</span></span>
-- <span data-ttu-id="b478a-122">通話が中断された場合、会議は自動的に再接続されません。</span><span class="sxs-lookup"><span data-stu-id="b478a-122">If the call is interrupted, the meeting won't automatically reconnect.</span></span>
-- <span data-ttu-id="b478a-123">ユーザーは会議を開始できません。</span><span class="sxs-lookup"><span data-stu-id="b478a-123">Users can't start meetings.</span></span>
+- <span data-ttu-id="cabaa-116">音声は PSTN 接続でのみ利用できます。</span><span class="sxs-lookup"><span data-stu-id="cabaa-116">Audio is available through a PSTN connection only.</span></span> <span data-ttu-id="cabaa-117">ユーザーは自分のマイクを使用することはできません。</span><span class="sxs-lookup"><span data-stu-id="cabaa-117">Users can't use their microphone.</span></span>
+- <span data-ttu-id="cabaa-118">ユーザーはカメラを共有したり、他の参加者のビデオを表示したりできないが、画像ベースの画面共有を通じて表示されたコンテンツを表示できる。</span><span class="sxs-lookup"><span data-stu-id="cabaa-118">Users can't share their camera or see other participants' videos but can view presented content through image-based screen sharing.</span></span>
+- <span data-ttu-id="cabaa-119">ユーザーは自分の画面を共有できないが、別の会議参加者が共有している画面を表示できる。</span><span class="sxs-lookup"><span data-stu-id="cabaa-119">Users can't share their screen, although they can see a screen that another meeting participant shares.</span></span>
+- <span data-ttu-id="cabaa-120">ユーザーは、画面共有セッション中に制御を受け取る必要があります。</span><span class="sxs-lookup"><span data-stu-id="cabaa-120">Users can't take control during a screen sharing session.</span></span>
+- <span data-ttu-id="cabaa-121">ユーザーは着信通話の通知を受け取らない。</span><span class="sxs-lookup"><span data-stu-id="cabaa-121">Users won't receive incoming call notifications.</span></span>
+- <span data-ttu-id="cabaa-122">通話が中断された場合、会議は自動的に再接続されません。</span><span class="sxs-lookup"><span data-stu-id="cabaa-122">If the call is interrupted, the meeting won't automatically reconnect.</span></span>
+- <span data-ttu-id="cabaa-123">ユーザーが会議を開始できない。</span><span class="sxs-lookup"><span data-stu-id="cabaa-123">Users can't start meetings.</span></span>
 
-<span data-ttu-id="b478a-124">Teams でのブラウザーのサポートについて詳しくは、「 [teams の制限と仕様](/microsoftteams/limits-specifications-teams#browsers)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="b478a-124">For more information about browser support in Teams, see [Limits and specifications for Teams](/microsoftteams/limits-specifications-teams#browsers).</span></span>
+<span data-ttu-id="cabaa-124">Teams でのブラウザー サポートの詳細については、「Teams の制限と [仕様」を参照してください](/microsoftteams/limits-specifications-teams#browsers)。</span><span class="sxs-lookup"><span data-stu-id="cabaa-124">For more information about browser support in Teams, see [Limits and specifications for Teams](/microsoftteams/limits-specifications-teams#browsers).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="b478a-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="b478a-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="cabaa-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="cabaa-125">Related topics</span></span>
 
-- [<span data-ttu-id="b478a-126">サポートされていないブラウザーで Teams 会議に参加する</span><span class="sxs-lookup"><span data-stu-id="b478a-126">Join a Teams meeting on an unsupported browser</span></span>](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
+- [<span data-ttu-id="cabaa-126">サポートされていないブラウザーで Teams 会議に参加する</span><span class="sxs-lookup"><span data-stu-id="cabaa-126">Join a Teams meeting on an unsupported browser</span></span>](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

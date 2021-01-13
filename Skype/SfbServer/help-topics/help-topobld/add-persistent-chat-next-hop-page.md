@@ -1,8 +1,8 @@
 ---
 title: 常設チャットの次ホップの追加ページ
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
-description: このページを使用して、展開内の常設チャットサーバーサーバーから次ホップを定義します。 常設チャットサーバーの展開方法の詳細については、「Deploy Persistent Chat Server in Skype for Business Server 2015」を参照してください。
-ms.openlocfilehash: 03984d6086ad9f6f7c3d8dbd16f10fd4b425c223
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: このページを使用して、展開内の常設チャット サーバーからの次ホップを定義します。 常設チャット サーバーの展開方法の詳細については、「Deploy Persistent Chat Server in Skype for Business Server 2015」を参照してください。
+ms.openlocfilehash: 9b70ae1dd711672e9eb62d748b57a6091a22dadc
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218668"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49818667"
 ---
-# <a name="add-persistent-chat-next-hop-page"></a><span data-ttu-id="b089c-104">常設チャットの次ホップの追加ページ</span><span class="sxs-lookup"><span data-stu-id="b089c-104">Add Persistent Chat Next Hop Page</span></span>
+# <a name="add-persistent-chat-next-hop-page"></a><span data-ttu-id="3f621-104">常設チャットの次ホップの追加ページ</span><span class="sxs-lookup"><span data-stu-id="3f621-104">Add Persistent Chat Next Hop Page</span></span>
  
-<span data-ttu-id="b089c-105">このページを使用して、展開内の常設チャットサーバーサーバーから次ホップを定義します。</span><span class="sxs-lookup"><span data-stu-id="b089c-105">Use this page to define the Next Hop from the Persistent Chat Server server in your deployment.</span></span> <span data-ttu-id="b089c-106">常設チャットサーバーの展開方法の詳細については、「 [Deploy Persistent Chat server In Skype For Business server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b089c-106">For more information about how to deploy Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md).</span></span> 
+<span data-ttu-id="3f621-105">このページを使用して、展開内の常設チャット サーバーからの次ホップを定義します。</span><span class="sxs-lookup"><span data-stu-id="3f621-105">Use this page to define the Next Hop from the Persistent Chat Server server in your deployment.</span></span> <span data-ttu-id="3f621-106">常設チャット サーバーを展開する方法の詳細については [、「Deploy Persistent Chat Server in Skype for Business Server 2015」](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3f621-106">For more information about how to deploy Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md).</span></span> 
   
 
