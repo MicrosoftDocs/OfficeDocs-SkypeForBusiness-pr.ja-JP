@@ -1,8 +1,8 @@
 ---
 title: 証明書要求 (追加のサブジェクト代替名)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
-description: '[追加のサブジェクト代替名の構成] を使用すると、証明書を完了して要求する前に、追加のサブジェクト代替名 (SAN) を証明書に追加できます。 SAN を追加するには、SAN の完全修飾ドメイン名 (FQDN) を入力して、[追加] をクリックします。 追加した SAN を削除する必要がある場合は、SAN エントリを強調表示して [削除] をクリックします。 追加したすべての SAN エントリを削除するには、[すべてクリア] をクリックします。'
-ms.openlocfilehash: 25616b4bd29bcd2ce6aa6aa6f752db61c36899a0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[追加のサブジェクト代替名の構成] を使用すると、証明書を完了して要求する前に、追加のサブジェクト代替名 (SAN) を証明書に追加できます。 SAN を追加するには、SAN の完全修飾ドメイン名 (FQDN) を入力し、[追加] をクリックします。 追加した SAN を削除する必要がある場合は、SAN エントリを強調表示して [削除] をクリックします。 追加したすべての SAN エントリを削除するには、[すべてクリア] をクリックします。'
+ms.openlocfilehash: f71276c320d0f4759c773e7aa8a7822bed07a7fe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823921"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805357"
 ---
-# <a name="certificate-request-additional-subject-alternate-names"></a><span data-ttu-id="d94b3-106">証明書要求 (追加のサブジェクト代替名)</span><span class="sxs-lookup"><span data-stu-id="d94b3-106">Certificate Request (Additional Subject Alternate Names)</span></span>
+# <a name="certificate-request-additional-subject-alternate-names"></a><span data-ttu-id="91dc6-106">証明書要求 (追加のサブジェクトの別名)</span><span class="sxs-lookup"><span data-stu-id="91dc6-106">Certificate Request (Additional Subject Alternate Names)</span></span>
  
-<span data-ttu-id="d94b3-p102">[**追加のサブジェクト代替名の構成**] を使用すると、証明書を完了して要求する前に、追加のサブジェクト代替名 (SAN) を証明書に追加できます。SAN を追加するには、SAN の完全修飾ドメイン名 (FQDN) を入力して、[**追加**] をクリックします。追加した SAN を削除する必要がある場合は、SAN エントリを強調表示して [**削除**] をクリックします。追加したすべての SAN エントリを削除するには、[**すべてクリア**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d94b3-p102">The **Configure Additional Subject Alternate Names** option provides the opportunity to add any additional subject alternate names (SANs) to the certificate before finalizing and requesting the certificate. To add the SAN, type the fully qualified domain name (FQDN) of the SAN and then click **Add**. If you have added a SAN that you must delete, highlight the SAN entry and click **Remove**. To remove all SAN entries that you have added, click **Clear All**.</span></span>
+<span data-ttu-id="91dc6-p102">[**追加のサブジェクト代替名の構成**] を使用すると、証明書を完了して要求する前に、追加のサブジェクト代替名 (SAN) を証明書に追加できます。SAN を追加するには、SAN の完全修飾ドメイン名 (FQDN) を入力し、[**追加**] をクリックします。追加した SAN を削除する必要がある場合は、SAN エントリを強調表示して [**削除**] をクリックします。追加したすべての SAN エントリを削除するには、[**すべてクリア**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="91dc6-p102">The **Configure Additional Subject Alternate Names** option provides the opportunity to add any additional subject alternate names (SANs) to the certificate before finalizing and requesting the certificate. To add the SAN, type the fully qualified domain name (FQDN) of the SAN and then click **Add**. If you have added a SAN that you must delete, highlight the SAN entry and click **Remove**. To remove all SAN entries that you have added, click **Clear All**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="d94b3-p103">[**削除**] または [**すべてクリア**] は、このページで追加した SAN エントリでのみ機能します。これらのボタンは、現在証明書で使用されている SAN エントリには影響しません。</span><span class="sxs-lookup"><span data-stu-id="d94b3-p103">The **Remove** or **Clear All** buttons work only on SAN entries that are added on this page. The buttons will not affect SAN entries that are currently on the certificate.</span></span>
+> <span data-ttu-id="91dc6-111">[ **すべて** 削除] **または** [すべてクリア] ボタンは、このページに追加された SAN エントリでのみ機能します。</span><span class="sxs-lookup"><span data-stu-id="91dc6-111">The **Remove** or **Clear All** buttons work only on SAN entries that are added on this page.</span></span> <span data-ttu-id="91dc6-112">これらのボタンは、現在証明書で使用されている SAN エントリには影響しません。</span><span class="sxs-lookup"><span data-stu-id="91dc6-112">The buttons will not affect SAN entries that are currently on the certificate.</span></span>
   
 

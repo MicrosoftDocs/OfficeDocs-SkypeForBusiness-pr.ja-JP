@@ -1,8 +1,8 @@
 ---
 title: ローカル構成ストアのインストール (起動)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[コマンドの実行] ウィンドウには、中央管理ストアのローカルの読み取り専用レプリカをインストールするためのタスクの状態が表示されます。 タスクの実行中は、コマンドの実行時に作業ウィンドウが更新されます。 タスクの状態を確認し、表示されるエラーまたは警告を確認する必要があります。 タスクが完了すると、[メッセージタスクの状態: 完了] が表示され、ログファイルのドロップダウンリストにログファイルの名前が表示されます。 作成されたログファイルを表示するには、表示するログファイルを選択し、[ログの表示] をクリックします。 成功、エラー、警告メッセージのすべてのログファイルを確認します。'
-ms.openlocfilehash: 4a0c8e909795711ff4611c0957a64706985e6347
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[コマンドを実行しています] ウィンドウには、中央管理ストアの読み取り専用のローカル レプリカをインストールする、タスクの状態が表示されます。 タスクの実行中、作業ウィンドウはコマンドの実行にあわせて更新されます。 タスクの状態を確認し、表示されるエラーや警告に注意する必要があります。 タスクが完了すると、[タスクの状態: 完了] というメッセージが表示され、ログ ファイルのドロップダウン リスト ボックスにログ ファイルの名前が表示されます。 作成されたログ ファイルを表示するには、表示するログ ファイルを選択して、[ログの表示] をクリックします。 すべてのログ ファイルで成功メッセージ、エラー メッセージ、および警告メッセージを確認します。'
+ms.openlocfilehash: 5d5ca227e4631751bb9bb7774093749f83e82a6b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794716"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801527"
 ---
-# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="1fda7-108">ローカル構成ストアのインストール (起動)</span><span class="sxs-lookup"><span data-stu-id="1fda7-108">Install Local Configuration Store (Invoke)</span></span>
+# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="1dcd4-108">ローカル構成ストアのインストール (起動)</span><span class="sxs-lookup"><span data-stu-id="1dcd4-108">Install Local Configuration Store (Invoke)</span></span>
  
-<span data-ttu-id="1fda7-109">[**コマンドの実行**] ウィンドウには、中央管理ストアのローカルの読み取り専用レプリカをインストールするためのタスクの状態が表示されます。</span><span class="sxs-lookup"><span data-stu-id="1fda7-109">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store.</span></span> <span data-ttu-id="1fda7-110">タスクの実行中は、コマンドの実行時に作業ウィンドウが更新されます。</span><span class="sxs-lookup"><span data-stu-id="1fda7-110">While the tasks are running, the task pane is updated as the commands are run.</span></span> <span data-ttu-id="1fda7-111">タスクの状態を確認し、表示されるエラーまたは警告を確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="1fda7-111">You should review the task status and note any errors or warnings that are displayed.</span></span> <span data-ttu-id="1fda7-112">タスクが完了すると、[メッセージ**タスクの状態: 完了**] が表示され、ログファイルのドロップダウンリストにログファイルの名前が表示されます。</span><span class="sxs-lookup"><span data-stu-id="1fda7-112">When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files.</span></span> <span data-ttu-id="1fda7-113">作成されたログファイルを表示するには、表示するログファイルを選択し、[**ログの表示**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="1fda7-113">To view the log files that were created, choose a log file to view and click **View Log**.</span></span> <span data-ttu-id="1fda7-114">成功、エラー、警告メッセージのすべてのログファイルを確認します。</span><span class="sxs-lookup"><span data-stu-id="1fda7-114">Review all log files for success, errors, and warning messages.</span></span>
+<span data-ttu-id="1dcd4-p102">[**コマンドを実行しています**] ウィンドウには、中央管理ストアの読み取り専用のローカル レプリカをインストールする、タスクの状態が表示されます。タスクの実行中、作業ウィンドウはコマンドの実行にあわせて更新されます。タスクの状態を確認し、表示されるエラーや警告に注意する必要があります。タスクが完了すると、[**タスクの状態: 完了**] というメッセージが表示され、ログ ファイルのドロップダウン リスト ボックスにログ ファイルの名前が表示されます。作成されたログ ファイルを表示するには、表示するログ ファイルを選択して、[**ログの表示**] をクリックします。すべてのログ ファイルで成功メッセージ、エラー メッセージ、および警告メッセージを確認します。</span><span class="sxs-lookup"><span data-stu-id="1dcd4-p102">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store. While the tasks are running, the task pane is updated as the commands are run. You should review the task status and note any errors or warnings that are displayed. When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files. To view the log files that were created, choose a log file to view and click **View Log**. Review all log files for success, errors, and warning messages.</span></span>
   
-<span data-ttu-id="1fda7-115">ログファイルを確認した後、[**完了**] をクリックして、ローカル構成ストアのインストールを完了します。</span><span class="sxs-lookup"><span data-stu-id="1fda7-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
+<span data-ttu-id="1dcd4-115">ログ ファイルを確認したら、[**完了**] をクリックしてローカルの構成ストアのインストールを完了します。</span><span class="sxs-lookup"><span data-stu-id="1dcd4-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
   
 

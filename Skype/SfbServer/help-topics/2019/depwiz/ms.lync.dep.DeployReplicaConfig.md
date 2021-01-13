@@ -1,8 +1,8 @@
 ---
 title: ローカル構成ストアのインストールの起動 (構成)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 中央管理ストアのローカルの読み取り専用コピーを保持するデータベースのインストールを開始するには、既にインストールされている構成済みのセントラルで、トポロジビルダーを使用して発行された定義済みの構成を取得するように選択します。管理ストア、または他のメディアから定義された構成を読み取ります。 組織の内部ネットワーク上にあるコンピューターの場合は、[セントラル管理ストアから自動的に構成を取得する] を選択します。
-ms.openlocfilehash: b4cc16b26e40b0215a72917c5cab47de8bce5e1b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 中央管理ストアのローカル読み取り専用コピーを保持するデータベースのインストールを開始するには、既にインストールおよび構成されている中央管理ストアからトポロジ ビルダーを使用して公開された定義済みの構成を取得するか、定義された構成を他のメディアから読み取る方法を選択します。 組織の内部ネットワーク上にあるコンピューターの場合は、中央管理ストアから [構成を自動的に取得する] を選択します。
+ms.openlocfilehash: f8f9aeaccb510de4efec0020a8993d56851d0544
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794726"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801547"
 ---
-# <a name="install-local-configuration-store-invoke-configure"></a><span data-ttu-id="ae26b-104">ローカル構成ストアのインストールの起動 (構成)</span><span class="sxs-lookup"><span data-stu-id="ae26b-104">Install Local Configuration Store Invoke (Configure)</span></span>
+# <a name="install-local-configuration-store-invoke-configure"></a><span data-ttu-id="d4529-104">ローカル構成ストアの起動のインストール (構成)</span><span class="sxs-lookup"><span data-stu-id="d4529-104">Install Local Configuration Store Invoke (Configure)</span></span>
  
-<span data-ttu-id="ae26b-105">中央管理ストアのローカルの読み取り専用コピーを保持するデータベースのインストールを開始するには、既にインストールされている構成済みのセントラルで、トポロジビルダーを使用して発行された定義済みの構成を取得するように選択します。管理ストア、または他のメディアから定義された構成を読み取ります。</span><span class="sxs-lookup"><span data-stu-id="ae26b-105">To begin the installation of the database that will hold the local read-only copy of the Central Management store, you select between retrieving the defined configuration published by using Topology Builder from the already installed and configured Central Management store, or reading the defined configuration from other media.</span></span> <span data-ttu-id="ae26b-106">組織の内部ネットワーク上にあるコンピューターの場合は、[**セントラル管理ストアから自動的に構成を取得**する] を選択します。</span><span class="sxs-lookup"><span data-stu-id="ae26b-106">For a machine that is on your organization's internal network, select **Retrieve configuration automatically from the Central Management Store**.</span></span>
+<span data-ttu-id="d4529-105">中央管理ストアのローカル読み取り専用コピーを保持するデータベースのインストールを開始するには、既にインストールおよび構成されている中央管理ストアからトポロジ ビルダーを使用して公開された定義済みの構成を取得するか、定義された構成を他のメディアから読み取る方法を選択します。</span><span class="sxs-lookup"><span data-stu-id="d4529-105">To begin the installation of the database that will hold the local read-only copy of the Central Management store, you select between retrieving the defined configuration published by using Topology Builder from the already installed and configured Central Management store, or reading the defined configuration from other media.</span></span> <span data-ttu-id="d4529-106">組織の内部ネットワーク上にあるコンピューターの場合は、[中央管理ストアから構成を自動的に取得する] **を選択します**。</span><span class="sxs-lookup"><span data-stu-id="d4529-106">For a machine that is on your organization's internal network, select **Retrieve configuration automatically from the Central Management Store**.</span></span>
   
-<span data-ttu-id="ae26b-107">エッジサーバーに中央管理ストアの複製をインストールする場合は、USB フラッシュドライブ、USB ハードディスクドライブ、CD-ROM などのメディアから、エクスポートした構成ドキュメントのコピーをポータブルメディアから読み取ることを選択します。</span><span class="sxs-lookup"><span data-stu-id="ae26b-107">If you are installing a replica of the Central Management store on an Edge Server, you select to read the exported copy of the configuration document from portable media, such as a USB flash drive, USB hard disk drive, CD-ROM, or other media.</span></span> 
+<span data-ttu-id="d4529-107">エッジ サーバーに中央管理ストアのレプリカをインストールする場合は、USB フラッシュ ドライブ、USB ハード ディスク ドライブ、または CD-ROM その他のポータブル メディアから、構成ドキュメントのエクスポート コピーを読み取る方法を選択します。</span><span class="sxs-lookup"><span data-stu-id="d4529-107">If you are installing a replica of the Central Management store on an Edge Server, you select to read the exported copy of the configuration document from portable media, such as a USB flash drive, USB hard disk drive, CD-ROM, or other media.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="ae26b-108">エッジサーバーにローカル構成ストアをインストールする場合、構成情報は、Windows PowerShell コマンドレットを実行して、中央管理ストアからエクスポートした形式である必要があります。`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span><span class="sxs-lookup"><span data-stu-id="ae26b-108">If you are installing the Local Configuration store on an Edge Server, the configuration information must be in a format that was exported from the Central Management store by running the Windows PowerShell cmdlet:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span></span>
+> <span data-ttu-id="d4529-108">エッジ サーバーにローカル構成ストアをインストールする場合、構成情報は、次のコマンドレットを実行して中央管理ストアからエクスポートされた形式Windows PowerShellがあります。  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span><span class="sxs-lookup"><span data-stu-id="d4529-108">If you are installing the Local Configuration store on an Edge Server, the configuration information must be in a format that was exported from the Central Management store by running the Windows PowerShell cmdlet:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span></span>
   
-<span data-ttu-id="ae26b-109">適切なオプションを選んだら、[**次へ**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ae26b-109">After you have selected the appropriate option, click **Next**.</span></span>
+<span data-ttu-id="d4529-109">適切なオプションを選択したら、**[次へ]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d4529-109">After you have selected the appropriate option, click **Next**.</span></span>
   
 

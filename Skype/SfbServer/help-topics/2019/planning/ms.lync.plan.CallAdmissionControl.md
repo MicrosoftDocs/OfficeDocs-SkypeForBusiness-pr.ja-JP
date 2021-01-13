@@ -1,8 +1,8 @@
 ---
-title: Call Admission Control (Planning Tool)
+title: 通話受付管理 (計画ツール)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
-description: 通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話などのリアルタイム コミュニケーションのセッションの確立を許可するかどうかを判断します。
-ms.openlocfilehash: ed1086ff22c28a5b0ccc5638b5171e344828d260
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話のようなリアルタイム通信セッションの確立を許可するかどうかを判断できます。
+ms.openlocfilehash: 36d221b787dfa7ed3846b72b19f9dc5474c08eb2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797368"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801137"
 ---
-# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="b94e9-103">Call Admission Control (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="b94e9-103">Call Admission Control (Planning Tool)</span></span>
+# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="449cb-103">通話受付管理 (計画ツール)</span><span class="sxs-lookup"><span data-stu-id="449cb-103">Call Admission Control (Planning Tool)</span></span>
  
-<span data-ttu-id="b94e9-104">通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話などのリアルタイム コミュニケーションのセッションの確立を許可するかどうかを判断します。</span><span class="sxs-lookup"><span data-stu-id="b94e9-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
+<span data-ttu-id="449cb-104">通話受付管理 (CAC) では、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話のようなリアルタイム通信セッションの確立を許可するかどうかを判断できます。</span><span class="sxs-lookup"><span data-stu-id="449cb-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
   
-<span data-ttu-id="b94e9-105">通話受付制御の計画について詳しくは、「 [Skype For Business Server での通話受付制御の計画](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="b94e9-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
+<span data-ttu-id="449cb-105">通話受付管理の計画の詳細については [、「Plan for call admission control in Skype for Business Server 」を参照してください](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。</span><span class="sxs-lookup"><span data-stu-id="449cb-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
   
 

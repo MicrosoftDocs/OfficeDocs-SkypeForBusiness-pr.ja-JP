@@ -1,8 +1,8 @@
 ---
 title: 証明書要求 (生成された証明書の署名要求)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
-description: 証明書のオフライン要求を完了すると、[証明書要求ファイル] ページが表示されます。 証明書の要求を表示して、オフライン証明機関 (CA) またはパブリック CA に送信する準備をするには、[表示] ボタンをクリックします。 証明書の要求が Windows メモ帳 (既定) に表示されます。 このディスプレイからエンコードされた証明書の要求をコピーして貼り付けるか、選択したオフライン CA またはパブリック CA からの指示に従って証明書要求の処理を完了します。 [完了] をクリックして続行します。
-ms.openlocfilehash: 24f2c03adc3328caae25a0f920b1b2efba98b63a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 証明書のオフライン要求が完了すると、[証明書要求ファイル] ページが表示されます。 証明書要求を表示し、それをオフライン証明機関 (CA) またはパブリック CA に送信する準備をするには、[表示] ボタンをクリックします。 証明書要求は、Windows メモ帳 (既定) に表示されます。 このディスプレイからエンコードされた証明書要求をコピーして貼り付けるか、選択したオフライン CA またはパブリック CA からの指示に従って証明書要求の処理を完了できます。 [完了] をクリックして続行します。
+ms.openlocfilehash: bcdeae4cd2c23f00ed423c11f1ed95fc6c31a83c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823881"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805307"
 ---
-# <a name="certificate-request-certificate-signing-request-generated"></a><span data-ttu-id="b476f-107">証明書要求 (生成された証明書の署名要求)</span><span class="sxs-lookup"><span data-stu-id="b476f-107">Certificate Request (Certificate Signing Request Generated)</span></span>
+# <a name="certificate-request-certificate-signing-request-generated"></a><span data-ttu-id="804e4-107">証明書要求 (生成された証明書の署名要求)</span><span class="sxs-lookup"><span data-stu-id="804e4-107">Certificate Request (Certificate Signing Request Generated)</span></span>
  
-<span data-ttu-id="b476f-108">証明書のオフライン要求を完了すると、[**証明書要求ファイル**] ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="b476f-108">The **Certificate Request File** page is displayed after you have completed an offline request for a certificate.</span></span> <span data-ttu-id="b476f-109">証明書の要求を表示して、オフライン証明機関 (CA) またはパブリック CA に送信する準備をするには、[**表示**] ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="b476f-109">To display the certificate request and prepare to send it to your offline certification authority (CA) or public CA, click the **View** button.</span></span> <span data-ttu-id="b476f-110">証明書の要求が Windows メモ帳 (既定) に表示されます。</span><span class="sxs-lookup"><span data-stu-id="b476f-110">The certificate request is displayed in Windows Notepad (by default).</span></span> <span data-ttu-id="b476f-111">このディスプレイからエンコードされた証明書の要求をコピーして貼り付けるか、選択したオフライン CA またはパブリック CA からの指示に従って証明書要求の処理を完了します。</span><span class="sxs-lookup"><span data-stu-id="b476f-111">You can copy and paste the encoded certificate request from this display, or finish the processing of the certificate request by following the directions from your chosen offline CA or public CA.</span></span> <span data-ttu-id="b476f-112">[**完了**] をクリックして続行します。</span><span class="sxs-lookup"><span data-stu-id="b476f-112">Click **Finish** to continue.</span></span>
+<span data-ttu-id="804e4-108">証明書 **のオフライン要求** が完了すると、[証明書要求ファイル] ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="804e4-108">The **Certificate Request File** page is displayed after you have completed an offline request for a certificate.</span></span> <span data-ttu-id="804e4-109">証明書要求を表示し、それをオフライン証明機関 (CA) またはパブリック CA に送信する準備をするには、[表示] ボタン **をクリック** します。</span><span class="sxs-lookup"><span data-stu-id="804e4-109">To display the certificate request and prepare to send it to your offline certification authority (CA) or public CA, click the **View** button.</span></span> <span data-ttu-id="804e4-110">証明書要求は、Windows メモ帳 (既定) に表示されます。</span><span class="sxs-lookup"><span data-stu-id="804e4-110">The certificate request is displayed in Windows Notepad (by default).</span></span> <span data-ttu-id="804e4-111">このディスプレイからエンコードされた証明書要求をコピーして貼り付けるか、選択したオフライン CA またはパブリック CA からの指示に従って証明書要求の処理を完了できます。</span><span class="sxs-lookup"><span data-stu-id="804e4-111">You can copy and paste the encoded certificate request from this display, or finish the processing of the certificate request by following the directions from your chosen offline CA or public CA.</span></span> <span data-ttu-id="804e4-112">[完了 **] をクリック** して続行します。</span><span class="sxs-lookup"><span data-stu-id="804e4-112">Click **Finish** to continue.</span></span>
   
 
