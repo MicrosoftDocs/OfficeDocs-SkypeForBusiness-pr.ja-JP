@@ -1,8 +1,8 @@
 ---
 title: エッジ サーバー コンピューターの追加
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 ROBOTS: NOINDEX, NOFOLLOW
-description: このプールでエッジサーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 コンピューターを一覧に追加した後は、トポロジを公開する前に、コンピューターの FQDN を更新するか、プールから削除することができます。 トポロジを公開した後、FQDN を変更するには、トポロジビルダーでサーバーを削除してから新しい FQDN のプールに新しいサーバーを追加する必要があります。 エッジプールのトポロジの設計の詳細については、「エッジの展開のドキュメントでエッジトポロジを定義する」を参照してください。
-ms.openlocfilehash: 6af9b4096f22af2932e1692702f8ebad11d920d0
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: このプールにエッジ サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 一覧にコンピューターを追加した後、トポロジを公開するまでの間はいつでも、コンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。 トポロジの公開後に FQDN を変更するには、トポロジ ビルダーでサーバーを削除し、新しいサーバーを新しい FQDN でプールに追加する必要があります。 エッジ プールのトポロジ設計の詳細については、「エッジの展開」のドキュメントの「Define Your Edge Topology」を参照してください。
+ms.openlocfilehash: 1fe8b307e5f14b1762a88ad65e50cd539966d9a9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793785"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822527"
 ---
 # <a name="edge-server-add-machine"></a>エッジ サーバー コンピューターの追加
 
-このプールでエッジサーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 コンピューターを一覧に追加した後は、トポロジを公開する前に、コンピューターの FQDN を更新するか、プールから削除することができます。 トポロジを公開した後、FQDN を変更するには、トポロジビルダーでサーバーを削除してから新しい FQDN のプールに新しいサーバーを追加する必要があります。 エッジプールのトポロジの設計の詳細については、「エッジの展開のドキュメントで[エッジトポロジを定義](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)する」を参照してください。
+このプールにエッジ サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。 一覧にコンピューターを追加した後、トポロジを公開するまでの間はいつでも、コンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。 トポロジの公開後に FQDN を変更するには、トポロジ ビルダーでサーバーを削除し、新しいサーバーを新しい FQDN でプールに追加する必要があります。 エッジ プールのトポロジ設計の詳細については、「エッジの展開」のドキュメントの「[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)」を参照してください。
 
 

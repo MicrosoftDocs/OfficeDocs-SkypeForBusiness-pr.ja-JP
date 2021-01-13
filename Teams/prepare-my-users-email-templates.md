@@ -1,14 +1,14 @@
 ---
-title: オンライン電話システムのロールアウト用のユーザー通知の電子メールテンプレート
-author: lanachin
-ms.author: v-lanac
+title: オンライン電話システムのロールアウト用のユーザー通知メール テンプレート
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: チームまたは Skype for Business でクラウドボイス機能を導入するときに、テンプレートを使用してユーザーにメールを送信します。
+description: Teams または Skype for Business でクラウド音声機能を実装する場合は、テンプレートを使用してユーザーにメールを送信します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,22 +16,22 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0382f8033d9faf925d5d5cd4023bf43e543b7b86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e224f12a2c2aa7f41ee772980ffea24a907197c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137517"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812647"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンライン電話システムのユーザーの導入を容易にする
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンライン電話システムのユーザー導入を促進する
 
-電話はユーザーの生存線にすることができます。 従来の電話システムからオンライン電話システムに切り替えることは、ユーザーが作業する方法の大幅な変更を意味し、生産性に悪影響を与える可能性があります。 この変更によってユーザーの通知、ガイド、サポートを行うことができます。これにより、ユーザーエクスペリエンスを向上させ、投資収益率を最大限に高めることができます。
+電話はユーザーのライフラインです。 従来の電話システムからオンライン電話システムへの切り替えは、ユーザーの作業方法の大きな変化を表し、生産性に悪影響を与える可能性があります。 この変更を通じてユーザーへの情報提供、ガイド、サポートに時間を割いて取り組むのは、ユーザー エクスペリエンスの向上と投資収益の最大化に役立ちます。
 
-この記事には、新しい電話システムについてユーザーに通知するためのカスタマイズ可能なメールテンプレートが含まれています。 特定の音声展開に合わせて、適切なメールをカスタマイズして送信します。 簡単にカスタマイズできるセクションを示すために、かっこを使用しましたが、ユーザーにとって最も関連性の高いお知らせとなるように、組織固有のメッセージを追加することをお勧めします。 展開に該当する場合は、"Teams" へのすべての参照を "Skype for Business" に置き換えます。
+この記事には、新しい電話システムについてユーザーに知らせるのに役立つカスタマイズ可能なメール テンプレートが含まれている。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 個人用設定を簡単にするセクションを示すために角かっこを使用しましたが、お知らせをユーザーに最も関連性の高いものにするために、組織固有のメッセージングを追加することをお勧めします。 展開に該当する場合は、"Teams" へのすべての参照を "Skype for Business" に置き換えます。
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>メール番号 1: 起動する3週間前に送信する
+## <a name="email-number-1-send-three-weeks-before-launch"></a>メール番号 1: 起動の 3 週間前に送信する
 
-件名行:
+件名行: 
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
@@ -94,9 +94,9 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>メール番号 2: 起動前に1週間送信する
+## <a name="email-number-2-send-one-week-before-launch"></a>メール番号 2: 起動の 1 週間前に送信する
 
-件名行:
+件名行: 
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
@@ -138,9 +138,9 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>メール番号 3: 起動日に送信
+## <a name="email-number-3-send-on-launch-day"></a>メール番号 3: 開始日に送信する
 
-件名行:
+件名行: 
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
@@ -175,9 +175,9 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>メール番号 4: 起動後に2週間分送信する
+## <a name="email-number-4-send-two-weeks-after-launch"></a>メール番号 4: 起動から 2 週間後に送信する
 
-件名行:
+件名行: 
 
 ```
 FEEDBACK REQUESTED: Your new phone system

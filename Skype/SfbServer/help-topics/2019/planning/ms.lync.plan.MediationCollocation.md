@@ -1,8 +1,8 @@
 ---
-title: 仲介併置 (計画ツール)
+title: 仲介のコロケーション (計画ツール)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 既定では、仲介サーバーはフロントエンドサーバーと併置されています。 パフォーマンス上の理由で、仲介サーバーをスタンドアロンプールに展開したり、SIP トランキングを展開したりすることもできます。この場合、スタンドアロンプールを使用することを強くお勧めします。 Skype for Business Server の併置は、Lync Server 2013 の場合と同じように機能します。 詳細については、以下のトピックを参照してください。
-ms.openlocfilehash: 08edc66af83f9490889522bb7e44624daffc6bc1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 仲介サーバーは、既定でフロントエンド サーバーと一緒に展開されます。 仲介サーバーは、パフォーマンス上の理由からスタンドアロン プールに展開することもできます。SIP トランキングを展開する場合は、スタンドアロン プールを強く推奨します。 Skype for Business Server のコロケーションは、Lync Server 2013 と同様に機能します。 詳細については、以下のトピックを参照してください。
+ms.openlocfilehash: 93e7e11cb6f4098695b3b473f8b5890d9de2a974
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036577"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819727"
 ---
-# <a name="mediation-collocation-planning-tool"></a>仲介併置 (計画ツール)
+# <a name="mediation-collocation-planning-tool"></a>仲介のコロケーション (計画ツール)
  
-既定では、仲介サーバーはフロントエンドサーバーと併置されています。 パフォーマンス上の理由で、仲介サーバーをスタンドアロンプールに展開したり、SIP トランキングを展開したりすることもできます。この場合、スタンドアロンプールを使用することを強くお勧めします。 Skype for Business Server の併置は、Lync Server 2013 の場合と同じように機能します。 詳細については、以下のトピックを参照してください。
+仲介サーバーは、既定でフロントエンド サーバーと一緒に展開されます。 仲介サーバーは、パフォーマンス上の理由からスタンドアロン プールに展開することもできます。SIP トランキングを展開する場合は、スタンドアロン プールを強く推奨します。 Skype for Business Server のコロケーションは、Lync Server 2013 と同様に機能します。 詳細については、以下のトピックを参照してください。
   
-- [Lync Server 2013 でサポートされているサーバーの併置](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
+- [Lync Server 2013 でサポートされるサーバーのコロケーション](https://technet.microsoft.com/library/gg425885%28v=ocs.15%29.aspx)
     
-- [Skype for Business Server の仲介サーバーコンポーネント](../../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+- [Skype for Business Server の仲介サーバー コンポーネント](../../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
     
 

@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6691b246e294db5b1d356431aa2a52f9b67d3446
-ms.sourcegitcommit: 6f1e245ac9a026468432a041a7255104191ae7d3
+ms.openlocfilehash: e48cac3e556c6bb99e29ad07f3d875362ad42489
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49716968"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820997"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
@@ -38,7 +38,7 @@ Microsoft Teams は、チャット、ビデオ会議、通話などの通信モ�
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams Certification プログラム用のコネクテッド コンタクト センター
 
-この API を使用すると、パートナーは Teams 用の CCaaS ソリューションを開発して統合できます。 さらに、Microsoft Teams 認定プログラム用の接続コンタクト センターを開発し、参加している各パートナーのソリューションがテストされ、確認され、Microsoft ソリューションから期待される品質、互換性、信頼性を提供する保証を顧客に提供しています。
+この API を使用すると、パートナーは Teams 用の CCaaS ソリューションを開発して統合できます。 さらに、Microsoft Teams 認定プログラム用の接続コンタクト センターを開発し、参加している各パートナーのソリューションがテストされ、検証され、Microsoft ソリューションから期待される品質、互換性、信頼性を提供する保証を顧客に提供しています。
 
 次のパートナーは、Microsoft Teams 向けのソリューションの認定中であり、顧客を支援する準備が整っています。
 
@@ -53,6 +53,7 @@ Microsoft Teams は、チャット、ビデオ会議、通話などの通信モ�
 | `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
+| 'Geomant' | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
@@ -74,7 +75,7 @@ Microsoft Teams には、次のようなサードパーティの音声ソリュ�
 
 4. Teams SDK
 
-これらの機能を組み合わせると、次の 3 つの統合モデルが実現します。
+これらの機能を組み合わせて使用すると、次の 3 つの統合モデルを有効にできます。
 
   - **接続** (ダイレクト ルーティング)
 
@@ -84,9 +85,9 @@ Microsoft Teams には、次のようなサードパーティの音声ソリュ�
 
 ### <a name="connect"></a>接続
 
-このモデルでは、Microsoft Teams 電話システムのインフラストラクチャを使用して CCaaS パートナーに接続し、強化されたルーティング、構成、システムの分析機能を有効にします。 このモデルでは、コンタクト センターのパートナー ソリューションは、選択した番号とユーザーに対してテレフォニー サービスを提供することもできます。
+このモデルは、CCaaS パートナーと Microsoft Teams の電話システム インフラストラクチャを接続し、ルーティング、構成、システムインサイトを強化します。 このモデルでは、コンタクト センターのパートナー ソリューションは、選択した番号とユーザーに対してテレフォニー サービスを提供することもできます。
 
-接続モデルに基づいて構築されたソリューションを使用するエージェントは、情報と洞察を収集し、必要に応じて対象の専門家に直接電話を転送して、Teams 内の SME のプレゼンスを活用して、可用性を確保できます。
+Connect モデルに構築されたソリューションを使用するエージェントは、情報 & インサイトを収集し、必要に応じて、Teams での SME のプレゼンスを使用して、問題の専門家に直接転送することができます。
 
 組織は、自動化された仮想アシスタントやスキル ベースのルーティング キューを設定することで、最適なエージェントへの通話を確実に行うことができます。
 
@@ -112,7 +113,7 @@ Microsoft Teams には、次のようなサードパーティの音声ソリュ�
 
 このモデルでは、 [Teams クライアントプラットフォーム](https://docs.microsoft.com/microsoftteams/platform/overview)、[Teams Graph API](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)、[Microsoft Graph のクラウド通信 API ](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を使用して Teams クライアントと統合し、コンタクト センターの担当者とエージェントの操作を拡張します。このモデルでは、すべてのコンタクト センターの通話と通話コントロールの操作に Teams 電話システムを使用します。 このモデルでは、コンタクト センターのパートナーは、Microsoft 365 と共にテレフォニー キャリアとして機能します。
 
-接続と拡張ベースのソリューションを活用することで、エージェントは、契約を開始する前に複数のシステムのデータを関連付ける動的なコンテキスト ノートから恩恵を受け、内部のコラボレーションと外部通信の両方について、チーム内でネイティブに作業することによって、コストのかかるコンテキスト切り替えを回避することができます。
+Connect および拡張ベースのソリューションを使用すると、エージェントは、契約を開始する前に、複数のシステムからのデータを動的に関連付けるコンテキスト ノートを利用し、内部コラボレーションと外部通信の両方のために Teams 内でネイティブに作業することでコストの高いコンテキストの切り替えを回避できます。
 
 組織では、個人に向けてワークフローや高度なルーティング構成を設計し、システムとやり取りの品質を測定できます。
 
@@ -138,11 +139,11 @@ Microsoft Teams には、次のようなサードパーティの音声ソリュ�
 
 ### <a name="extend-and-power"></a>拡張とパワー
 
-このモデルを使用すると、パートナーは、Teams の通話インフラストラクチャとクライアント プラットフォームを活用して、Azure ベースのネイティブ音声アプリケーションを作成し、顧客とエージェントの接続をコラボレーションするための最新のインテリジェント ソリューションを提供できます。 拡張とパワーモデルの目標は、開発者の創造性を刺激し、顧客の生産性を高めることです。
+このモデルを使用すると、パートナーは Teams の呼び出しインフラストラクチャとクライアント プラットフォームを使用してネイティブの Azure ベースの音声アプリケーションを作成し、顧客とエージェントの共同作業を行う最新のインテリジェントなソリューションを提供できます。 拡張とパワーモデルの目標は、開発者の創造性を刺激し、顧客の生産性を高めることです。
 
 Azure に直接構築することで、パートナーはすべてのチームのリージョンと地域にソリューションを迅速に展開してプロビジョニングでき、Azure のストレージ、コンピューティング、分析とコグニティブ サービスを利用しながら、共有されたグローバルな通信ネットワークのメリットを活用できます。
 
-拡張とパワーモデルを使用することで、パートナーは、コンタクト センター エージェントにオムニチャネル通信を提供しながら、人工知能を組み込んで、参加者 (または他のサービス) が [Microsoft Graph のクラウド通信 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) を活用して通話に参加する方法と時期をカスタマイズできます。
+拡張および Power 統合モデルを使用すると、パートナーは、パートナーは、参加者 (または他のサービス) が Microsoft Graph で [Cloud Communications API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を適用する呼び出しに参加する方法と時間をカスタマイズするために人工知能を組み込みながら、コンタクト センター エージェントにチャネル通信エクスペリエンスを提供できます。
 
 **主要な機能**
 
@@ -150,7 +151,7 @@ Azure に直接構築することで、パートナーはすべてのチーム�
 
   - 正式なエージェントでは、Teams SDK を介してオムニチャネル通信がネイティブで有効になります 
 
-  - Teams の共同作業サービスを活用してエージェントの共同作業と顧客との対話を実現  
+  - Teams コラボレーション サービスを使用してエージェントの共同作業と顧客とのやり取りを行う  
 
   - クラウド サービスの迅速なプロビジョニング、どこからでも展開 
 
@@ -158,7 +159,7 @@ Azure に直接構築することで、パートナーはすべてのチーム�
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>コネクテッド コンタクト センターの統合モデルを比較する
 
-Microsoft Teams でサポートされている統合モデルの概要については、以下の表を参照してください。
+Microsoft Teams がサポートする統合モデルの概要については、次の表を参照してください。
 
 <table>
 <thead>

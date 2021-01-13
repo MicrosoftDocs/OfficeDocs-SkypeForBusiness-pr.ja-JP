@@ -1,7 +1,7 @@
 ---
-title: 組織のシフトアプリを管理する
-author: LanaChin
-ms.author: v-lanac
+title: 組織の Shifts アプリを管理する
+author: cichur
+ms.author: v-cichur
 ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 組織の Firstline Worker の Teams でシフトアプリを設定および管理する方法について説明します。
+description: 組織内の Teams for Firstline Worker で Shifts アプリを設定および管理する方法について学習します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -22,21 +22,21 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d89ca8938c80b2afb8c1b32a395ab4a984327dcc
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: dc6f3047a74fda332e945558a243f40b714e8730
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790509"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821137"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
 > [!IMPORTANT]
-> 2020年6月30日有効な Microsoft StaffHub は廃止されました。 Microsoft Teams で StaffHub 機能を構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 2020年6月30日に、StaffHub がすべてのユーザーに対して動作を停止しました。 StaffHub を開こうとするユーザーには、チームをダウンロードするように指示するメッセージが表示されます。 詳細については、「 [Microsoft StaffHub が廃止されました](microsoft-staffhub-to-be-retired.md)」を参照してください。  
+> Microsoft StaffHub は 2020 年 6 月 30 日に廃止されました。 StaffHub の機能を Microsoft Teams に構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は、2020 年 6 月 30 日にすべてのユーザーの作業を停止しました。 StaffHub を開しようとすると、Teams のダウンロードを指示するメッセージが表示されます。 詳細については [、Microsoft StaffHub の廃止に関するページを参照してください](microsoft-staffhub-to-be-retired.md)。  
 
 ## <a name="overview-of-shifts"></a>シフトの概要
 
-Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続され、同期されます。モバイル機能を搭載しているので、チームの時間管理とコミュニケーションを迅速かつ効率的に行うことができます。 [シフト] では、最初の行の作業者とそのマネージャーは、モバイルデバイスを使ってスケジュールを管理し、連絡を取ることができます。
+Microsoft Teams の Shifts アプリでは、Firstline Worker が接続され、同期されます。モバイルを最初に構築して、チームの時間管理とコミュニケーションを迅速かつ効果的に行います。 シフトを使用すると、Firstline Worker とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
 
 - マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。 
 - 従業員は、自分の今後のシフトの確認、自分の他にその日にスケジュールが入っている従業員の表示、シフトの入れ替えや申し出のリクエスト、および休暇のリクエストが行えます。 
@@ -44,11 +44,11 @@ Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続さ�
 シフトでは現在、ゲスト ユーザーはサポートされていませんのでご注意ください。 つまり、Teams でゲスト アクセスがオンになっていると、チームのゲストをシフト スケジュールに追加することも、チームのゲストがシフト スケジュールを使用することもできません。 
 
 > [!Note]
-> さまざまなプラットフォームのシフト機能について詳しくは、「 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」をご覧ください。
+> さまざまなプラットフォームでの Shifts 機能の詳細については、プラットフォーム別 [の Teams の機能を参照してください](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="availability-of-shifts"></a>シフトの可用性
 
-シフトは、Teams が利用できるすべての Enterprise Sku で利用できます。
+シフトは、Teams が利用可能なすべてのエンタープライズ SKU で利用できます。
 
 ## <a name="location-of-shifts-data"></a>シフトのデータの場所
 
@@ -58,41 +58,41 @@ Microsoft Teams の [シフト] アプリでは、Firstline Worker が接続さ�
 
 ### <a name="enable-or-disable-shifts-in-your-organization"></a>組織のシフトを有効または無効にする
 
-シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft Teams 管理センターの [ [アプリの管理](../../manage-apps.md) ] ページで、組織レベルでアプリをオンまたはオフにすることができます。
+シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 Microsoft Teams 管理センターの [アプリの管理] ページ[](../../manage-apps.md)で、組織レベルでアプリをオフまたはオンにできます。
 
-1. Microsoft Teams 管理センターの左のナビゲーションで、[ **Teams アプリ** の管理] に移動  >  **Manage apps** します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、Teams アプリの [アプリの **管理]**  >  **に移動します**。
 2. アプリの一覧で、次のいずれかの操作を行います。
 
-    - 組織のシフトをオフにするには、[シフト] アプリを検索して選択し、[ **ブロック** ] をクリックします。
-    - 組織のシフトを有効にするには、[シフト] アプリを検索して選択し、[ **許可** ] をクリックします。
+    - 組織の Shifts をオフにする場合は、Shifts アプリを検索して選び、[ブロック] をクリック **します**。
+    - 組織の Shifts を有効にする場合は、Shifts アプリを検索して選び、[許可] をクリック **します**。
 
-### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>組織内の特定のユーザーのシフトを有効または無効にする
+### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>組織内の特定のユーザーに対して Shifts を有効または無効にする
 
-組織内の特定のユーザーによるシフトの使用を許可またはブロックするには、[ [アプリの管理](../../manage-apps.md) ] ページで組織のシフトが有効になっていることを確認してから、カスタムのアプリのアクセス許可ポリシーを作成して、それらのユーザーに割り当てます。 詳細については、「 [Teams でアプリのアクセス許可ポリシーを管理](../../teams-app-permission-policies.md)する」を参照してください。
+組織内の特定のユーザーに対して Shifts の使用を許可またはブロックするには、[アプリの管理] ページ[](../../manage-apps.md)で組織の Shifts が有効になっていることを確認し、カスタム アプリのアクセス許可ポリシーを作成して、それらのユーザーに割り当てします。 詳細については、「Teams でアプリ [のアクセス許可ポリシーを管理する」を参照してください](../../teams-app-permission-policies.md)。
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstlineWorker アプリのセットアップポリシーを使用して、チームにシフトをピン留めする
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstlineWorker アプリのセットアップ ポリシーを使用して、Shifts を Teams にピン留めする
 
 アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
  
-Teams には、組織内の Firstline Worker に割り当てることができる、FirstlineWorker アプリセットアップポリシーが組み込まれています。 既定では、ポリシーにはアクティビティ、シフト、チャット、および通話の各アプリが含まれています。 
+Teams には、組織内の Firstline Worker に割り当て可能な組み込みの FirstlineWorker アプリセットアップ ポリシーが含まれています。 既定では、ポリシーにはアクティビティ、シフト、チャット、および通話の各アプリが含まれています。 
 
-Firstlineworker ポリシーを表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[ **Teams アプリ**  >  **アプリセットアップポリシー** ] に移動します。
+FirstlineWorker ポリシーを表示するには、Microsoft Teams 管理センターの左側のナビゲーションで **、Teams** アプリアプリのセットアップ ポリシー  >  **に移動します**。
 
-![FirstlineWorker アプリセットアップポリシーのスクリーンショット](../../media/firstline-worker-app-setup-policy.png "Microsoft Teams 管理センターの FirstlineWorker アプリセットアップポリシーのスクリーンショット")
+![FirstlineWorker アプリのセットアップ ポリシーのスクリーンショット](../../media/firstline-worker-app-setup-policy.png "Microsoft Teams 管理センターの FirstlineWorker アプリセットアップ ポリシーのスクリーンショット")
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>FirstLineWorker アプリのセットアップ ポリシーをユーザーに割り当てる
 
 [!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
-## <a name="search-the-audit-log-for-shifts-events"></a>監査ログでシフトイベントを検索する
+## <a name="search-the-audit-log-for-shifts-events"></a>監査ログで Shifts イベントを検索する
 
 **(プレビュー段階)**
 
-監査ログを検索して、組織内のシフトアクティビティを表示できます。  監査ログを検索し、監査ログに記録されている [シフトアクティビティ](../../audit-log-events.md#shifts-in-teams-activities) の一覧を表示する方法の詳細については、「 [Teams のイベントの監査ログを検索](../../audit-log-events.md)する」を参照してください。
+監査ログを検索して、組織内のシフト アクティビティを表示できます。  監査ログを検索する方法と、監査ログに記録された [シフト](../../audit-log-events.md#shifts-in-teams-activities) アクティビティの一覧を表示する方法の詳細については [、「Teams](../../audit-log-events.md)でイベントの監査ログを検索する」を参照してください。
 
-監査ログを検索する前に、まず [セキュリティ & コンプライアンスセンター](https://protection.office.com)で監査を有効にする必要があります。 詳細については、「 [監査ログの検索を有効または無効に](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)する」を参照してください。 監査データは、監査を有効にした時点でのみ利用可能であることに注意してください。
+監査ログを検索するには、まずセキュリティ/コンプライアンス センターで監査 [&があります](https://protection.office.com)。 詳細については、「監査ログの検索 [を有効またはオフにする」を参照してください](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。 監査データは、監査を有効にした時点からのみ利用できます。
 
 ## <a name="related-topics"></a>関連項目
 
-- [Firstline Worker のヘルプをシフトする](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [チームのユーザーにポリシーを割り当てる](../../assign-policies.md)
+- [Firstline Worker の Shifts ヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [ Teams でユーザーにポリシーを割り当てる](../../assign-policies.md)

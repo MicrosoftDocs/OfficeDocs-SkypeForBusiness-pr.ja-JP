@@ -1,8 +1,8 @@
 ---
 title: VideoMetricsThreshold テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,36 +12,36 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
-description: VideoMetricsThreshold テーブルには、ビデオ通話で使用されるエクスペリエンスメトリックの品質と受け入れ可能な値が含まれています。
-ms.openlocfilehash: 89d3095ef7222cacc7633116c43d66cbcc2be2e2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: VideoMetricsThreshold テーブルには、ビデオ通話で使用される QoE 指標の最適な値および許容可能な値が含まれています。
+ms.openlocfilehash: 15bf482412973fe4b3a0178be6ecdcc593c762e7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804737"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821377"
 ---
 # <a name="videometricsthreshold-table"></a>VideoMetricsThreshold テーブル
  
-VideoMetricsThreshold テーブルには、ビデオ通話で使用されるエクスペリエンスメトリックの品質と受け入れ可能な値が含まれています。
+VideoMetricsThreshold テーブルには、ビデオ通話で使用される QoE 指標の最適な値および許容可能な値が含まれています。
   
 
 | **列**                                               | **データ型**       | **キー/インデックス**  | **詳細**                          |
 |:---------------------------------------------------------|:--------------------|:---------------|:-------------------------------------|
-| **CallType** <br/>                                       | int  <br/>          | Primary  <br/> | 発信した通話の種類。  <br/> |
-| **VideoPostFECPLROptimal** <br/>                         | 10進数 (5, 2)  <br/> |                | 既定値は0.05 です。  <br/>    |
-| **VideoPostFECPLRAcceptable** <br/>                      | 10進数 (5, 2)  <br/> |                | 既定値は0.10 です。  <br/>    |
-| **VideoLocalFrameLostPercentageAverageOptimal** <br/>    | 10進数 (5, 2)  <br/> |                | 既定値は5.0 です。  <br/>     |
-| **VideoLocalFrameLostPercentageAverageAcceptable** <br/> | 10進数 (5, 2)  <br/> |                | 既定値は10.0 です。  <br/>    |
-| **RecvFrameRateAverageOptimal** <br/>                    | 10進数 (9, 4)  <br/> |                | 既定値は12.0000 です。  <br/> |
-| **RecvFramerateAverageAcceptable** <br/>                 | 10進数 (9, 4)  <br/> |                | 既定値は7.0000 です。  <br/>  |
-| **LowFrameRateCallPercentOptimal** <br/>                 | 10進数 (5, 2)  <br/> |                | 既定値は5.0 です。  <br/>     |
-| \****LowFrameRateCallPercentAcceptable***\* <br/>        | 10進数 (5, 2)  <br/> |                | 既定値は 10.0/  <br/>    |
-| **LowResolutionCallPercentOptimal** <br/>                | 10進数 (5, 2)  <br/> |                | 既定値は5.0 です。  <br/>     |
-| **LowResolutionCallPercentAcceptable** <br/>             | 10進数 (5, 2)  <br/> |                | 既定値は10.0 です。  <br/>    |
-| **VideoPacketLossRateOptimal** <br/>                     | @  <br/>         |                | 既定値は0.05 です。  <br/>    |
-| **VideoPacketLossRateAcceptable** <br/>                  | float  <br/>        |                | 既定値は0.10 です。  <br/>    |
-| **VideoFrameRateAvgOptimal** <br/>                       | float  <br/>        |                | 既定値は12です。  <br/>      |
-| **VideoFrameRateAvgAcceptable** <br/>                    | float  <br/>        |                | 既定値は7です。  <br/>       |
-| **DynamicCapabilityPercentOptimal** <br/>                | 10進数 (5, 2)  <br/> |                | 既定値は5.00 です。  <br/>    |
-| **DynamicCapabilityPercentAcceptable** <br/>             | 10進数 (5, 2)  <br/> |                | 既定値は10.00 です。  <br/>   |
+| **CallType** <br/>                                       | int  <br/>          | Primary  <br/> | 発信された通話の種類  <br/> |
+| **VideoPostFECPLROptimal** <br/>                         | decimal(5,2)  <br/> |                | 既定値は 0.05 です。  <br/>    |
+| **VideoPostFECPLRAcceptable** <br/>                      | decimal(5,2)  <br/> |                | 既定値は 0.10 です。  <br/>    |
+| **VideoLocalFrameLostPercentageAverageOptimal** <br/>    | decimal(5,2)  <br/> |                | 既定値は 5.0 です。  <br/>     |
+| **VideoLocalFrameLostPercentageAverageAcceptable** <br/> | decimal(5,2)  <br/> |                | 既定値は 10.0 です。  <br/>    |
+| **RecvFrameRateAverageOptimal** <br/>                    | decimal(9,4)  <br/> |                | 既定値は 12.0000 です。  <br/> |
+| **RecvFramerateAverageAcceptable** <br/>                 | decimal(9,4)  <br/> |                | 既定値は 7.0000 です。  <br/>  |
+| **LowFrameRateCallPercentOptimal** <br/>                 | decimal(5,2)  <br/> |                | 既定値は 5.0 です。  <br/>     |
+| \****LowFrameRateCallPercentAcceptable** _\_ <br/>        | decimal(5,2)  <br/> |                | 既定値は 10.0 です。  <br/>    |
+| **LowResolutionCallPercentOptimal** <br/>                | decimal(5,2)  <br/> |                | 既定値は 5.0 です。  <br/>     |
+| **LowResolutionCallPercentAcceptable** <br/>             | decimal(5,2)  <br/> |                | 既定値は 10.0 です。  <br/>    |
+| **VideoPacketLossRateOptimal** <br/>                     | foat  <br/>         |                | 既定値は 0.05 です。  <br/>    |
+| **VideoPacketLossRateAcceptable** <br/>                  | 浮動小数点数  <br/>        |                | 既定値は 0.10 です。  <br/>    |
+| **VideoFrameRateAvgOptimal** <br/>                       | 浮動小数点数  <br/>        |                | 既定値は 12 です。  <br/>      |
+| **VideoFrameRateAvgAcceptable** <br/>                    | 浮動小数点数  <br/>        |                | 既定値は 7 です。  <br/>       |
+| **DynamicCapabilityPercentOptimal** <br/>                | decimal(5,2)  <br/> |                | 既定値は 5.00 です。  <br/>    |
+| **DynamicCapabilityPercentAcceptable** <br/>             | decimal(5,2)  <br/> |                | 既定値は 10.00 です。  <br/>   |
 

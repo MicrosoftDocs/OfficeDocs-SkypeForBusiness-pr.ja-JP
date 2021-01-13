@@ -1,8 +1,8 @@
 ---
-title: 正規化ルール正規表現を入力する
+title: 正規化ルールの正規表現の種類
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 ROBOTS: NOINDEX, NOFOLLOW
-description: ルートの適用先の電話番号に一致するパターンを指定するには、.NET Framework の正規表現を入力します。
-ms.openlocfilehash: 4afcf766fd6229cecd010d93f05346dec053bf25
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: .NET Framework 正規表現を入力して、ルートを適用する通信先電話番号の照合パターンを指定します。
+ms.openlocfilehash: fd66e36018276ac1373c2b5392c44f6052fdd458
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793535"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819997"
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>正規化ルール: 正規表現の入力
  
-ルートの適用先の電話番号に一致するパターンを指定するには、.NET Framework の正規表現を入力します。 
+.NET Framework 正規表現を入力して、ルートを適用する通信先電話番号の照合パターンを指定します。 
   
  
   

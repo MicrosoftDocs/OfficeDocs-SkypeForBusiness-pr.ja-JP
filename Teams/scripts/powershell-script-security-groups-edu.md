@@ -1,13 +1,13 @@
 ---
-title: PowerShell スクリプトのサンプル-学校の教員と学生のセキュリティグループを作成する
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell スクリプトのサンプル - 学校の教育者と学生用のセキュリティ グループを作成する
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、学校の教員と学生の Teams ポリシーを管理するために必要なセキュリティグループを作成します。
+description: この PowerShell スクリプトを使用して、学校の教師と学生の Teams ポリシーを管理するために必要なセキュリティ グループを作成します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,35 +17,35 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b468ae05139571f395962b96f2963c7bb77b2e6
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 4eb7e482552b5013b6b220c4244ee4ecf114780c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46534090"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809467"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプトのサンプル-学校の教員と学生のセキュリティグループを作成する
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプトのサンプル - 学校の教育者と学生用のセキュリティ グループを作成する
 
-この PowerShell スクリプトを使用して、学校での Microsoft Teams のポリシーを管理するために必要なセキュリティグループを作成します。 Teams の[グループに対するポリシーの割り当て](../assign-policies.md#assign-a-policy-to-a-group)機能を使用すると、セキュリティグループなどのユーザーグループにポリシーを割り当てることができます。 ポリシーの割り当ては、優先順位の規則に従ってグループのメンバーに伝達されます。 メンバーがグループに追加またはグループから削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
+この PowerShell スクリプトを使用して、学校で Microsoft Teams ポリシーを管理するために必要なセキュリティ グループを作成します。 Teams [のグループ機能にポリシー](../assign-policies.md#assign-a-policy-to-a-group) を割り当てると、セキュリティ グループなどのユーザーのグループにポリシーを割り当てできます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
 
-この PowerShell スクリプトでは、ライセンスの種類に基づいて、スタッフや教師用、学校の学生用の2つのセキュリティグループを作成します。 次に、作成したセキュリティグループにポリシーを割り当てることができます。 このスクリプトの使い方について詳しくは、「[学校の大規模なユーザーにポリシーを割り当てる](../batch-group-policy-assignment-edu.md)」をご覧ください。
+この PowerShell スクリプトは、2 つのセキュリティ グループを作成します。1 つはスタッフと教育者用、もう 1 つはライセンスの種類に基づいて学校の学生用です。 作成したセキュリティ グループにポリシーを割り当てできます。 このスクリプトの使用の詳細については、学校の大規模なユーザー セットにポリシーを割り [当てるを参照してください](../batch-group-policy-assignment-edu.md)。
 
-このスクリプトでは、次の操作を行います。
+このスクリプトは、次の手順を実行します。
 
-- 教職員の SKU が割り当てられているスタッフと教員を特定し、セキュリティグループを作成して、そのグループにスタッフと教師を追加します。
-- 学生の SKU が割り当てられている学生を識別し、セキュリティグループを作成してから、学生をグループに追加します。
-- 各セキュリティグループのメンバーシップを更新して、ライセンスを取得しているかどうかに応じてスタッフ、教師、および学生を追加または削除します。
+- Faculty SKU が割り当てられているスタッフと教師を識別し、セキュリティ グループを作成し、グループにスタッフと教師を追加します。
+- Student SKU が割り当てられている学生を識別し、セキュリティ グループを作成し、その学生をグループに追加します。
+- 各セキュリティ グループのメンバーシップを更新し、ライセンスを持っているかどうかに基づいて、スタッフ、教育者、学生を追加または削除します。
 
-セキュリティグループを最新の状態に維持するには、このスクリプトを定期的に実行する必要があります。
+セキュリティ グループを最新の状態に保つには、このスクリプトを定期的に実行する必要があります。
 
 > [!IMPORTANT]
-> ポリシーをグループに割り当てるときは、[優先順位規則](../assign-policies.md#precedence-rules)と[グループの割り当ての順位](../assign-policies.md#group-assignment-ranking)を理解することが重要です。 [グループへのポリシーの割り当てについて知っておく必要が](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)ある概念を読んで理解していることを確認してください。
+> ポリシーをグループに割り当 [てる場合は、優先順位ルール](../assign-policies.md#precedence-rules) とグループ [割](../assign-policies.md#group-assignment-ranking) り当てのランク付けについて理解することが重要です。 グループへのポリシー割り当てについて知る必要がある概念を読んで [理解してください](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
 ## <a name="before-you-start"></a>始める前に
 
-[Skype For Business Online PowerShell モジュール](https://www.microsoft.com/download/details.aspx?id=39366)をダウンロードしてインストールし、メッセージが表示されたら、コンピューターを再起動します。
+Skype for [Business Online PowerShell](https://www.microsoft.com/download/details.aspx?id=39366)モジュールをダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。
 
-詳細については、「Office 365 PowerShell と[Teams PowerShell](../teams-powershell-overview.md)[を使って Skype for Business Online を管理](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)する」を参照してください。
+さらに詳しくは [、「365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) と Teams PowerShell で Skype for Business Online を管理するOfficeをご [覧ください](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>サンプル スクリプト
@@ -275,4 +275,4 @@ Stop-Transcript
 
 ## <a name="related-topics"></a>関連項目
 
-[チームのユーザーにポリシーを割り当てる](../assign-policies.md)
+[ Teams でユーザーにポリシーを割り当てる](../assign-policies.md)

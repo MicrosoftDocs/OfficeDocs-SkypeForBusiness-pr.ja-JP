@@ -1,8 +1,8 @@
 ---
 title: すべてのユーザーの移動
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ユーザーの移動] ダイアログ ボックスでは、展開内のプール間でユーザー アカウントを移動する場合の、移動元プールと移動先プールを選択できます。'
-ms.openlocfilehash: 9566405c6c088270168368855c88bedece9595dd
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: bc1888a6507acd9fc887c5b2f6aceeb9faf5fc58
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794976"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820207"
 ---
 # <a name="move-all-users"></a>すべてのユーザーの移動
 

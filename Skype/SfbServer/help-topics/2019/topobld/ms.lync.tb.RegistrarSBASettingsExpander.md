@@ -1,8 +1,8 @@
 ---
 title: レジストラー SBA 設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
-description: 回復性の設定を編集し、次のプロパティを構成します。
-ms.openlocfilehash: 7eb90efde862b6326ea6f43f27937751ebff0ce9
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[復元] の設定を編集し、以下のプロパティを構成します。'
+ms.openlocfilehash: 277f1b78db9a756ea3a31bcae060d59ab3e69bcd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797248"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822127"
 ---
 # <a name="registrar-sba-settings-expander"></a>レジストラー SBA 設定エキスパンダー
 
-**回復性**の設定を編集し、次のプロパティを構成します。
+[**復元**] の設定を編集し、以下のプロパティを構成します。
 
-- リストから**関連付けられているユーザーサービスとバックアップレジストラープール**を選択します。
+- 一覧から [**関連付けられているユーザー サービスとバックアップ レジストラー プール**] を選択します。
 
-    必要に応じて、[**自動フェールオーバーと音声のフェールバック**] チェックボックスをオンにします。
+    必要に応じて、[**音声に対する自動フェールオーバーとフェールバック**] チェック ボックスをオンにします。
 
-    **ボイスエラー検出間隔 (sec)** と**ボイスバックの間隔 (秒)** を構成します。 既定では、音声の障害検出と240秒のボイスバックの間隔は120秒です。
+    [**音声のエラー検出間隔 (秒)**] と [**音声のフェールバック間隔 (秒)**] を構成します。既定では、音声エラー検出の間隔は 120 秒、音声フェールバックの間隔は 240 秒です。
 
     > [!CAUTION]
-    > フェールオーバーとフェールバックの間隔に対して定義した秒数は、回復性が期待どおりに動作することを確認するために慎重にテストする必要があります。 間隔を低 (つまり、120秒未満) に設定した場合、またはフェールオーバーとフェールバックがあまりにも設定されていない場合は、実際のフェールオーバーが予期したとおりに機能しないことがあります。
+    > 復元が意図したとおりに動作するように、フェールオーバーおよびフェールバックの間隔に対して定義する秒数を慎重にテストする必要があります。間隔の設定が短すぎる場合 (120 秒未満) またはフェールオーバーとフェールバックの設定の差が小さすぎる場合は、実際のフェールオーバーおよびフェールバックが意図したとおりに動作しない可能性があります。
 
   [**OK**]: ダイアログでの変更を受け入れて確定します。
 
@@ -43,4 +43,4 @@ ms.locfileid: "41797248"
 
 ## <a name="see-also"></a>関連項目
 
-[エンタープライズボイスの回復性の計画](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[エンタープライズ VoIP の復旧の計画](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

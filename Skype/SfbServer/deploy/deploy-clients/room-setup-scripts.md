@@ -1,7 +1,7 @@
 ---
 title: Skype Room System ルームのセットアップ スクリプト
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: このトピックでは、Skype Room System アカウントをプロビジョニングするためのサンプル スクリプトの検索について説明します。
-ms.openlocfilehash: a24de087eeeb20c8093101c23ffd20dec19f25e3
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: このトピックでは、Skype Room System アカウントをプロビジョニングするためのサンプル スクリプトについて説明します。
+ms.openlocfilehash: 0ea4466787099bfe24e6ddf53fac40073892aea8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768710"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820827"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Room System ルームのセットアップ スクリプト
  
-このトピックでは、Skype Room System アカウントをプロビジョニングするためのサンプル スクリプトの検索について説明します。
+このトピックでは、Skype Room System アカウントをプロビジョニングするためのサンプル スクリプトについて説明します。
   
-このセクションでは、Skype Room System アカウントのプロビジョニングに使用できるサンプルスクリプトを示します。 これらのスクリプトは、説明の目的にのみ提供されており、使用する場合は必ず IT エキスパートまたはドメイン管理者に事前に相談してください。
+このセクションでは、Skype Room System アカウントのプロビジョニングに使用できるサンプル スクリプトを示します。 これらのスクリプトは例示のみを目的とします。IT の専門家またはドメイン管理者に相談した後にのみ使用してください。
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>セットアップスクリプトの例: Skype for Business および Exchange Server (オンプレミス)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>セットアップ スクリプトの例: Skype for Business と Exchange Server (オンプレミス)
 
 ```powershell
 # On Exchange 
@@ -39,17 +39,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>セットアップスクリプトの例: Skype for Business および Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>セットアップ スクリプトの例: Skype for Business および Exchange Server Online
 
 スクリプトを実行する前に、次の前提条件を確認してください。
   
-- Microsoft Online Services サインイン アシスタント (IT Professionals BETA 用)
+- Microsoft Online Services Sign-In アシスタント (IT プロフェッショナル向け) BETA
     
-- Windows PowerShell 用 Windows Azure Active Directory モジュール (64 ビット バージョン) または (32 ビット バージョン)
+- Windows Azure Active Directory モジュール (Windows PowerShell (64 ビット バージョン) または (32 ビット バージョン)
     
-- Lync Online 用 Windows PowerShell モジュール
+- Windows PowerShell Lync Online 用モジュール
     
-- 必要な場合は再起動します
+- 必要に応じて再起動する
     
 ```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 へのアップグレード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
@@ -16,236 +16,236 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
-description: '概要: Lync Server 2013 から Skype for Business Server 2015 にアップグレードする方法について説明します。 Skype for Business Server 2015 の無料トライアルは、次https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverの Microsoft 評価センターからダウンロードしてください。'
-ms.openlocfilehash: c024cde12ce30f3d143bf5f3e34400cc49cb46b5
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '概要: Lync Server 2013 から Skype for Business Server 2015 にアップグレードする方法について学習します。 Microsoft Evaluation Center から Skype for Business Server 2015 の無料試用版を次の場所からダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
+ms.openlocfilehash: cda83d03db697a0adf404af4f6fe6e350abf6b58
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41791555"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820427"
 ---
-# <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
+# <a name="upgrade-to-skype-for-business-server-2015"></a>Skype for Business Server 2015 へのアップグレード
  
-**概要:** Lync Server 2013 から Skype for Business Server 2015 にアップグレードする方法について説明します。 [Microsoft 評価センター](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)から Skype For business Server 2015 の無料トライアルをダウンロードします。
+**概要:** Lync Server 2013 から Skype for Business Server 2015 にアップグレードする方法について学習します。 Microsoft Evaluation Center から Skype for Business Server 2015 の無料試用版  [をダウンロードします](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-このドキュメントの手順を使用して、Skype for Business Server のトポロジビルダーと新しいインプレースアップグレード機能を使用して、Lync Server 2013 から Skype for Business Server 2015 にアップグレードします。 Lync Server 2010 または Office Communications Server 2007 R2 からアップグレードする場合は、「 [Skype For Business Server 2015 へのアップグレードを計画](../plan-your-deployment/upgrade.md)する」を参照してください。
+このドキュメントの手順を使用して、Skype for Business Server トポロジ ビルダーと新しい In-Place アップグレード機能を使用して Lync Server 2013 から Skype for Business Server 2015 にアップグレードします。 Lync Server 2010 または Office Communications Server 2007 R2 からアップグレードする場合は [、「Skype for Business Server 2015](../plan-your-deployment/upgrade.md)へのアップグレードを計画する」を参照してください。
 
 > [!NOTE]
-> インプレースアップグレードは、Skype for Business Server 2015 で使用できましたが、Skype for Business Server 2019 ではサポートされなくなりました。 サイドバイサイドの coexistance はサポートされています。詳細については、「 [Skype For Business Server 2019 への移行](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md)」を参照してください。
+> 一時アップグレードは Skype for Business Server 2015 で利用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 共存がサポートされている場合は [、「Skype for Business Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) への移行」を参照してください。
   
 ## <a name="upgrade-from-lync-server-2013"></a>Lync Server 2013 からのアップグレード
 
-Lync Server 2013 を Skype for Business Server 2015 にアップグレードするには、必須ソフトウェアのインストール、Skype for Business Server Topology Builder を使用した、プール内のデータベースのアップグレード、および Skype for Business Server のインプレースアップグレードの使用プールに関連付けられているサーバー。 アップグレードを完了するには、このトピックの 8 つの手順に従います。
+Lync Server 2013 を Skype for Business Server 2015 にアップグレードするには、前提条件となるソフトウェアをインストールし、Skype for Business Server トポロジ ビルダーを使用してプール内のデータベースをアップグレードし、プールに関連付けられている各サーバーで Skype for Business Server In-Place アップグレードを使用する必要があります。 アップグレードを完了するには、このトピックの 8 つの手順を実行します。
   
-### <a name="before-you-begin"></a>始める前に
+### <a name="before-you-begin"></a>はじめに
 
-- 「[Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)」を確認します。
+- [Review Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md).
     
-- [Skype For Business server 2015 のサーバー要件を](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)確認します。
+- [Skype for Business Server 2015 のサーバー要件を確認します](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
     
-- [Skype For Business Server 2015 の前提条件をインストール](install/install-prerequisites.md)します。
+- [Skype for Business Server 2015 の前提条件をインストールします](install/install-prerequisites.md) 。
     
-- [Skype For Business Server 2015 をインストール](install/install.md)します。
+- [Skype for Business Server 2015 をインストールします](install/install.md) 。
     
-### <a name="step-1-install-administrator-tools-and-download-topology"></a>手順 1: 管理ツールをインストールしてトポロジをダウンロードする
+### <a name="step-1-install-administrator-tools-and-download-topology"></a>手順 1: 管理者ツールをインストールしてトポロジをダウンロードする
 
-1. Lync OCSCore またはその他の Lync コンポーネントがインストールされていないトポロジのコンピューターに接続します。
+1. Lync OCSCore または他の Lync コンポーネントがインストールされていないトポロジ内のコンピューターに接続します。
     
-2. Skype for Business Server 2015 インストールメディアから、 **OCS_Volume \setup\amd64**から**setup.exe**を実行します。 
+2. Skype for Business Server 2015インストール メディアから **、Setup.exe\Setup\AMD64 OCS_Volumeを実行します**。 
     
-3. [**インストール**] をクリックします。 
+3. **[インストール]** をクリックします。 
     
-4. ライセンス契約に同意します。
+4. 使用許諾契約書に同意します。
     
-5. 展開ウィザードで、[**管理ツールのインストール**] をクリックして、インストールの手順に従います。
+5. 展開ウィザードで、[管理者ツールのインストール] **をクリック** し、手順に従ってインストールします。
     
-     ![[管理ツールのインストール] へのリンクが強調された展開ウィザードのスクリーン ショット](../media/5bbac2d6-a5b3-42b4-a243-7bcf2b04477a.png)
+     ![[Install Administrator Tools] (インストール管理者ツール) へのリンクが示された展開ウィザードのスクリーン ショット。](../media/5bbac2d6-a5b3-42b4-a243-7bcf2b04477a.png)
   
-6. Windows のスタート画面で、Skype for Business Server トポロジビルダーを開きます。
+6. Windows のスタート画面で、Skype for Business Server トポロジ ビルダーを開きます。
     
-7. [**既存の展開からトポロジをダウンロードする**] をクリックして、[**次へ**] をクリックします。
+7. [ **既存の展開からトポロジをダウンロード] をクリックし、[** 次へ] を **クリックします**。
     
-8. トポロジの名前を入力して、[**保存**] をクリックします。
+8. トポロジの名前を入力し、[保存] をクリック **します**。
     
-9. トポロジを保存した場所に移動して、トポロジのコピーを作成します。
+9. トポロジを保存した場所に移動し、トポロジのコピーを作成します。
     
-### <a name="step-2-upgrade-and-publish-topology-using-topology-builder"></a>手順 2: トポロジ ビルダーを使用して、トポロジをアップグレードして公開する
+### <a name="step-2-upgrade-and-publish-topology-using-topology-builder"></a>手順 2: トポロジ ビルダーを使用してトポロジをアップグレードおよび公開する
 
-アップグレードを開始する前に、アップグレードを計画しているプールのすべてのサービスが実行されている必要があります。 これは、トポロジの変更が、プール内のサーバーのローカル データベースにレプリケートされるようにするためです。
+アップグレード プロセスを開始する前に、アップグレードを計画しているプールに対してすべてのサービスが実行されている必要があります。 そのため、トポロジの変更はプール内のサーバーのローカル データベースにレプリケートされます。
   
 > [!IMPORTANT]
->  アップグレードの前に、トポロジ ファイルのコピーを保存します。 アップグレードした後は、トポロジをダウングレードすることはできません。 > 永続的なチャットサービスが、常設チャットデータベースと同じサーバー上にある場合は、この手順をスキップして、手順4に進みます。 サービスを停止した後、各サーバー上で一括アップグレードのセットアップを実行して、ローカル データベースをアップグレードします。
+>  アップグレードする前に、トポロジ ファイルのコピーを保存します。 アップグレード後は、トポロジをダウングレードできません。> 常設チャット サービスが常設チャット データベースと同じサーバー上にあるなど、サービスがデータベースと同じサーバーにある場合は、この手順をスキップして、手順 4. に進みます。 サービスを停止した後、各サーバーで In-Place アップグレード のセットアップを実行して、ローカル データベースをアップグレードします。
   
 > [!NOTE]
-> ミラー化されているバック エンド データベースがトポロジに含まれる場合、トポロジ ビルダーを使用して**トポロジを公開すると**、プリンシパル データベースとミラー化されたデータベースの両方が表示されます。トポロジを公開するときは、すべてのデータベースがプリンシパル上で実行されていて、ミラーではなくプリンシパルのみを選択していることを確認してください。条件が満たされていない場合、トポロジを公開した後に警告が表示されます。
+> トポロジにミラー化されたバック エンド データベースがある場合、トポロジ ビルダーを使用してトポロジを公開すると、プリンシパル データベースとミラー 化データベースの両方が表示されます。 すべてのデータベースがプリンシパルで実行され、ミラーではなくプリンシパルのみを選択してください。そうしないと、トポロジの公開後に警告が表示されます。
   
-以下のいずれかのオプションを選び、Skype for Business Server 2015 Topology Builder を使用して、新しいトポロジをアップグレードして公開します。 手順を完了し、アップグレードしたトポロジを公開した後、このトピックの手順 3 に進みます。
+Skype for Business Server 2015 トポロジ ビルダーを使用して新しいトポロジをアップグレードおよび公開するには、以下のいずれかのオプションを選択します。 手順を完了し、更新されたトポロジを公開したら、このトピックの手順 3 に進みます。
   
-#### <a name="option-1-upgrade-an-isolated-front-end-pool-and-associated-archiving-and-monitoring-stores"></a>オプション 1: 孤立したフロントエンド プールと、関連するアーカイブ ストアと監視ストアをアップグレードする
+#### <a name="option-1-upgrade-an-isolated-front-end-pool-and-associated-archiving-and-monitoring-stores"></a>オプション 1: 分離されたフロントエンド プールと関連するアーカイブストアと監視ストアをアップグレードする
 
-アップグレードするプールにアーカイブ ストアと監視ストアの依存関係が存在する場合、以下の手順に従って、アーカイブ ストアと監視ストアもアップグレードされます。
+アップグレードするプールにアーカイブ ストアと監視ストアの依存関係がある場合は、次の手順を使用すると、アーカイブ ストアと監視ストアもアップグレードされます。
   
-1. [トポロジビルダー] で、Lync Server 2013 プールを右クリックし、[ **Skype For Business Server 2015 にアップグレード**] を選択して、手順に従います。 
+1. トポロジ ビルダーで、Lync Server 2013 プールを右クリックし **、[Skype for Business Server 2015** へのアップグレード] を選択して、手順を実行します。 
     
-     ![Lync Server 2013 のアップグレード オプションが含まれる右クリック メニューのスクリーン ショット](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
+     ![Lync Server 2013 のアップグレード オプションを含む右クリック メニューのスクリーン ショット。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-2. トポロジビルダーで、[**アクション** > **発行トポロジ**] または [**アクション** > **トポロジ** > の**公開**] をクリックします。 
+2. トポロジ ビルダーで、[アクションの公開 **]**  >  **トポロジまたは [アクション****トポロジの公開]**  >  **を**  >  **クリックします**。 
     
-     ![トポロジ ビルダーの [アクション] メニューの [トポロジの公開] オプションのスクリーン ショット](../media/d6712634-9205-401f-a0b0-3ea096ca51bf.png)
+     ![トポロジ ビルダーの [トポロジの公開] オプションが表示された [操作] メニューのスクリーン ショット。](../media/d6712634-9205-401f-a0b0-3ea096ca51bf.png)
   
-3. 公開時に、アーカイブ ストアと監視ストアへのデータベースのインストールを選択します。
+3. 発行時に、アーカイブストアと監視ストアにデータベースをインストールします。
     
-#### <a name="option-2-upgrade-front-end-pool-without-upgrading-archiving-and-monitoring-stores"></a>オプション 2: アーカイブおよび監視ストアをアップグレードせずに、フロントエンドプールをアップグレードする
+#### <a name="option-2-upgrade-front-end-pool-without-upgrading-archiving-and-monitoring-stores"></a>オプション 2: アーカイブ ストアと監視ストアをアップグレードせずにフロントエンド プールをアップグレードする
 
-以下の手順に従うと、選択したプールのアーカイブと監視が無効になります。アップグレード後、プールにはアーカイブ ストアと監視ストアは存在しなくなります。
+次の手順を使用すると、選択したプールのアーカイブと監視が無効になります。 アップグレード後、プールにはアーカイブ ストアと監視ストアは含めらなされます。
   
-1. [トポロジビルダー] で、アップグレードする Lync Server 2013 プールを選択します。
+1. トポロジ ビルダーで、アップグレードする Lync Server 2013 プールを選択します。
     
-2. Lync Server 2013 アーカイブおよび監視ストアへの依存関係を削除します。 
+2. Lync Server 2013 のアーカイブ ストアと監視ストアへの依存関係を削除します。 
     
-   - [**アクション** > の**編集プロパティ**] に移動します。
+   - [アクションの編集 **]**  >  **プロパティに移動します**。
     
-   - [**アーカイブ**] チェック ボックスをオフにします。
+   - [アーカイブ **] チェック ボックスを** オフにします。
     
-     ![[プロパティの編集] ダイアログの [アーカイブ] チェックボックスのスクリーン ショット](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
+     ![[プロパティの編集] ダイアログ ボックスの [アーカイブ] チェック ボックスのスクリーン ショット。](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
-   - [**監視**] チェック ボックスをオフにします。
+   - [監視] **チェック ボックス** をオフにします。
     
-     ![[監視] チェックボックスを示している、[プロパティの編集] ダイアログのスクリーン ショット](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
+     ![[監視] チェック ボックスを表示する [プロパティの編集] ダイアログのスクリーン ショット。](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. Lync Server 2013 プールを右クリックし、[ **Skype For Business Server 2015 にアップグレード**] を選択して、手順に従います。 
+3. Lync Server 2013 プールを右クリックし **、[Skype for Business Server 2015** へのアップグレード] を選択して、手順を実行します。 
     
-     ![Lync Server 2013 のアップグレード オプションが含まれる右クリック メニューのスクリーン ショット](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
+     ![Lync Server 2013 のアップグレード オプションを含む右クリック メニューのスクリーン ショット。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-4. トポロジビルダーで、[**アクション** > **発行トポロジ**] または [**アクション** > **トポロジ** > の**公開**] をクリックします。 
+4. トポロジ ビルダーで、[アクションの公開 **]**  >  **トポロジまたは [アクション****トポロジの公開]**  >  **を**  >  **クリックします**。 
     
-#### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>オプション 3: フロントエンドプールをアップグレードし、それに関連付けた新しい Skype for Business Server 2015 アーカイブと監視ストア
+#### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>オプション 3: フロント エンド プールをアップグレードし、それを新しい Skype for Business Server 2015 のアーカイブおよび監視ストアに関連付にする
 
-以下の手順に従うと、アーカイブと監視が以前のストアで停止され、作成した新しいストアで開始されます。 
+次の手順を実行すると、アーカイブと監視は前のストアで停止し、作成した新しいストアで開始されます。 
   
-1. [トポロジビルダー] で、アップグレードする Lync Server 2013 プールを選択します。 
+1. トポロジ ビルダーで、アップグレードする Lync Server 2013 プールを選択します。 
     
-2. Lync Server 2013 アーカイブおよび監視ストアへの依存関係を削除します。 
+2. Lync Server 2013 のアーカイブ ストアと監視ストアへの依存関係を削除します。 
     
-   - [**アクション** > の**編集プロパティ**] に移動します。
+   - [アクションの編集 **]**  >  **プロパティに移動します**。
     
-   - [**アーカイブ**] チェック ボックスをオフにします。
+   - [アーカイブ **] チェック ボックスを** オフにします。
     
-     ![[プロパティの編集] ダイアログの [アーカイブ] チェックボックスのスクリーン ショット](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
+     ![[プロパティの編集] ダイアログ ボックスの [アーカイブ] チェック ボックスのスクリーン ショット。](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
-   - [**監視**] チェック ボックスをオフにします。
+   - [監視] **チェック ボックス** をオフにします。
     
-     ![[監視] チェックボックスを示している、[プロパティの編集] ダイアログのスクリーン ショット](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
+     ![[監視] チェック ボックスを表示する [プロパティの編集] ダイアログのスクリーン ショット。](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. Lync Server 2013 プールを右クリックし、[ **Skype For Business Server 2015 にアップグレード**] を選択して、手順に従います。 
+3. Lync Server 2013 プールを右クリックし **、[Skype for Business Server 2015** へのアップグレード] を選択して、手順を実行します。 
     
-     ![Lync Server 2013 のアップグレード オプションが含まれる右クリック メニューのスクリーン ショット](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
+     ![Lync Server 2013 のアップグレード オプションを含む右クリック メニューのスクリーン ショット。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-4. アーカイブ用の新しい SQL ストアを作成します。 
+4. アーカイブ用の新SQLストアを作成します。 
     
-   - プールと**アクション** > の**編集プロパティ**を選びます。 
+   - プールとアクション編集の **プロパティ**  >  **を選択します**。 
     
-   -  [**アーカイブ**] チェック ボックスをオンにします。
+   -  [アーカイブ **] チェック ボックスを** オンにします。
     
-   - [**新規**] をクリックします。
+   - **[新規作成]** をクリックします。
     
-     ![[アーカイブ] セクションの [新規] ボタンを示している、[プロパティの編集] ダイアログのスクリーン ショット](../media/3a4a18e7-8251-4736-837c-2b486f64f896.png)
+     ![[アーカイブ] セクションの [新規] ボタンを表示する [プロパティの編集] ダイアログのスクリーン ショット。](../media/3a4a18e7-8251-4736-837c-2b486f64f896.png)
   
-5. 監視用の新しい SQL ストアを作成します。 
+5. 監視用の新SQLストアを作成します。 
     
-   - プールと**アクション** > の**編集プロパティ**を選びます。 
+   - プールとアクション編集の **プロパティ**  >  **を選択します**。 
     
-   -  [**監視**] チェック ボックスをオンにします。
+   -  [監視] **チェック ボックス** をオンにします。
     
-   - [**新規**] をクリックします。
+   - **[新規作成]** をクリックします。
     
-     ![[監視] セクションの [新規] ボタンを示している、[プロパティの編集] ダイアログのスクリーン ショット](../media/729c72a7-0068-4e0d-99dc-e480a6bfbf1d.png)
+     ![[監視] セクションの下に [新規] ボタンが表示される [プロパティの編集] ダイアログのスクリーン ショット。](../media/729c72a7-0068-4e0d-99dc-e480a6bfbf1d.png)
   
-6. トポロジビルダーで、[**アクション** > **発行トポロジ**] または [**アクション** > **トポロジ** > の**公開**] をクリックします。 
+6. トポロジ ビルダーで、[アクションの公開 **]**  >  **トポロジまたは [アクション****トポロジの公開]**  >  **を**  >  **クリックします**。 
     
-7. 公開時に、新しいアーカイブ ストアと監視ストアへのデータベースのインストールを選択します。
+7. 発行時に、新しいアーカイブおよび監視ストアにデータベースをインストールします。
     
-### <a name="step-3-wait-for-replication"></a>手順 3: レプリケーションを待機する
+### <a name="step-3-wait-for-replication"></a>手順 3: レプリケーションを待つ
 
-更新されたトポロジを、環境内のすべてのサーバーに公開するために、レプリケーションが完了するまで少し待ちます。
+更新されたトポロジを環境内のすべてのサーバーに公開するために、レプリケーションに時間を与えます。
   
-### <a name="step-4-stop-all-services-in-pool-to-be-upgraded"></a>手順 4: アップグレードするプールですべてのサービスを停止する
+### <a name="step-4-stop-all-services-in-pool-to-be-upgraded"></a>手順 4: アップグレードするプール内のすべてのサービスを停止する
 
-アップグレードするプールをサービスしている各サーバーで、PowerShell で次のコマンドレットを実行します。
+アップグレードするプールを提供している各サーバーで、PowerShell で次のコマンドレットを実行します。
   
 ```powershell
 Disable-CsComputer -Scorch
 ```
 
-インプレースアップグレード処理中にサーバーの再起動が必要になる場合があるため、[無効-CsComputer] を使うことをお勧めします。 Stop-CsWindowsService を使った場合、再起動後に一部のサービスが自動的に再起動されることがあります。 これにより、インプレースアップグレードが失敗することがあります。
+アップグレード プロセスのDisable-CsComputerサーバーの再起動が必要になる場合がある場合は、このIn-Place使用することをお勧めします。 Stop-CsWindowsService を使用すると、再起動後に一部のサービスが自動的に再起動される場合があります。 この場合、アップグレードIn-Place失敗する可能性があります。
   
-### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>手順 5: フロントエンド プールと非フロントエンド プール サーバーをアップグレードする
+### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>手順 5: フロントエンド プールとフロントエンド 以外のプール サーバーをアップグレードする
 
 > [!NOTE]
->  アップグレード前に、Skype for Business Server 2015 に必要なすべての新しい前提条件をインストールしてください。アップグレードを試みる前に、32 GB 以上の空き領域を > してください。 また、ドライブが固定ローカルドライブであり、USB または Firewire で接続されていないことを確認してください。は、NTFS ファイルシステムで書式設定されていますが、圧縮されておらず、ページファイルも含まれていません。最新の Lync Server 2013 の累積的 > な更新プログラムがインストールされていることを > します。 > windows server 2008 r2-KB2533623> Windows server[](https://support.microsoft.com/kb/2533623) r2-KB2858668> Windows server[>](https://support.microsoft.com/kb/2858668) 2012 > 2012 r2-2012[KB2982006](https://support.microsoft.com/kb/2982006)
+>  アップグレードの前に、Skype for Business Server 201 > 5 に必要なすべての新しい前提条件をインストールしてください。この前提条件には、アップグレードを試行する前に、32 GB 以上の空き領域が含まれます。 また、ドライブが固定ローカル ドライブで、USB または Firewire で接続されていないか確認してください。 は NTFS ファイル システムでフォーマットされ、圧縮されません。ページ ファイルは含> PowerShell バージョン 6. 2.9200.0 以降.> 最新の Lync Server 2013 累積更新プログラムがインストールされている。> SQL Server 2012 SP1 がインストールされている。> 次の KB がインストールされている (Microsoft Update を使用している場合は自動的にインストール):> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB29820066](https://support.microsoft.com/kb/2982006)
   
-各サーバーでインプレースアップグレードを使用して、フロントエンドプール、エッジプール、仲介サーバー、常設チャットプールを更新します。
+各サーバーIn-Placeアップグレードを使用して、フロントエンド プール、エッジ プール、仲介サーバー、および常設チャット プールを更新します。
   
-1. 各サーバーで、Skype for Business Server 2015 インストールメディアの**OCS_Volume \setup\amd64**から**setup.exe**を実行します。
+1. 各サーバーで、skype for Business Server 2015 **Setup.exe** メディアで **OCS_Volume\Setup\amd64** からこのコマンドを実行します。
     
-2. 使用許諾契約に同意し、インプレースアップグレードのプロンプトに従います。
+2. 使用許諾契約書に同意し、アップグレードの指示にIn-Placeします。
     
-3. フロントエンドプールとフロントエンドプールサーバーの各サーバーについて、この手順を繰り返します。
+3. フロント エンド プール内の各サーバーと、フロントエンド 以外のプール サーバーごとに、これらの手順を繰り返します。
     
 > [!NOTE]
-> インプレースアップグレード中にサーバーを再起動するように求められる場合があります。 いいですよ。 再起動後、インプレースアップグレードは中断した場所から続行されます。 
+> アップグレード中にサーバーを再起動するように求In-Placeがあります。 いいですよ。 再起動後、アップグレードIn-Place、アップグレードがオフにされた場所から続行されます。 
   
-一括アップグレードが正常に完了すると、次のメッセージが表示されます。
+アップグレードIn-Place正常に完了すると、次のメッセージが表示されます。
   
-![正常に完了した一括アップグレードのスクリーン ショット](../media/2f52cb50-9bb4-4714-a982-9c7a0865f78a.png)
+![一時アップグレードが正常に完了した場合のスクリーン ショット。](../media/2f52cb50-9bb4-4714-a982-9c7a0865f78a.png)
   
-### <a name="step-6-restart-services-on-all-upgraded-servers"></a>手順 6: アップグレードしたすべてのサーバーでサービスを再開する
+### <a name="step-6-restart-services-on-all-upgraded-servers"></a>手順 6: アップグレードされたサーバーすべてでサービスを再起動する
 
 > [!NOTE]
-> サービスを再起動する前に、%ProgramData%\WindowsFabric がすべてのフロントエンドサーバーに存在しないことを確認してください。 存在する場合は、サービスを開始する前に削除します。 
+> サービスを再起動する前に、%ProgramData%\WindowsFabric がすべてのフロントエンド サーバーに存在しないか確認してください。 存在する場合は、サービスを開始する前に削除します。 
   
-- フロントエンドプール内のすべてのサーバーのアップグレードが完了したら、次の PowerShell コマンドを使用してサービスを再起動します。 
+- フロントエンド プール内のすべてのサーバーをアップグレードした後、次の PowerShell コマンドを使用してサービスを再起動します。 
     
   ```powershell
   Start-CsPool
   ```
 
     > [!NOTE]
-    > 一括アップグレードの実行開始前に再起動が必要な保留中のシステムが既に存在する場合は、インストールの最後に一括アップグレードから再起動は求められません。これにより、Start-CSPool コマンドレットを使用してサービスを開始しようとすると、最初のフロントエンド サーバーに対してアセンブリ例外がスローされます。このようなエラーを解決するには、プール内の全サーバーを再起動し、このコマンドレットをもう一度実行してください。 
+    > In-Place Upgrade の実行を開始する前に保留中のシステム再起動が既に必要な場合、In-Place Upgrade はインストールの最後に再起動を求めしません。 これにより、Start-CSPool コマンドレットを使用してサービスを開始しようとするときに、最初のフロントエンド サーバーに対してアセンブリ例外がStart-CSPoolされます。 これらのエラーを解決するには、プール内のすべてのサーバーを再起動し、コマンドレットを再度実行します。 
   
-- 非フロントエンド プール サーバーでは、以下のコマンドを実行してサービスを再開します。
+- フロントエンド プール 以外のサーバーで、次のコマンドを使用してサービスを再起動します。
     
   ```powershell
   Start-CsWindowsService
   ```
 
-一括アップグレードのページで [**OK**] をクリックした後、この手順を完了するための以下の通知が表示されます。
+[アップグレード] ページで **[OK]** In-Placeクリックすると、この手順を完了するために次のリマインダーが表示されます。
   
-![一括アップグレードが正常に完了した後の、次のステップを示しているスクリーン ショット](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
+![一時アップグレードが正常に完了した後の次の手順を示すスクリーン ショット。](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
   
-### <a name="step-7-verify-skype-for-business-functionality-works"></a>手順 7: Skype for Business 機能の動作を確認する
+### <a name="step-7-verify-skype-for-business-functionality-works"></a>手順 7: Skype for Business の機能が機能することを確認する
 
-アップグレードが成功したことを確認するには、アップグレードされたプールについて、Skype for Business をテストして、機能が期待どおりに機能していることを確認します。 
+アップグレードが成功した場合は、アップグレードされたプールで Skype for Business をテストし、機能が期待通り動作しているのを確認します。 
   
-### <a name="step-8-upgrade-secondary-pools"></a>手順 8: 二次的なプールをアップグレードする
+### <a name="step-8-upgrade-secondary-pools"></a>手順 8: セカンダリ プールをアップグレードする
 
-このトピックの手順を繰り返して、環境に存在する他のプールをすべてアップグレードします。
+環境内に追加のプールがある場合は、このトピックの手順を繰り返してアップグレードします。
   
-## <a name="troubleshoot-issues-with-the-in-place-upgrade"></a>一括アップグレードの問題をトラブルシューティングする
+## <a name="troubleshoot-issues-with-the-in-place-upgrade"></a>アップグレードに関する問題In-Placeトラブルシューティングを行う
 
-一括アップグレードが失敗すると、次の図のようなメッセージが表示される場合があります。 
+アップグレードがIn-Place、次の図のようなメッセージが表示されることがあります。 
   
-![必須の累積的な更新プログラムがインストールされていないために一括アップグレードが失敗していることを示しているスクリーン ショット](../media/f84db06b-0841-45a9-870d-7ba4b5a463d5.png)
+![必要な累積的な更新プログラムがインストールされていない場合の一時アップグレードの失敗を示すスクリーン ショット。](../media/f84db06b-0841-45a9-870d-7ba4b5a463d5.png)
   
-ページの下部にあるすべてのメッセージを確認して、問題のトラブルシューティングに役立てます。 詳細情報を表示するには、[**ログの表示**] をクリックします。
+ページの下部にある完全なメッセージを確認して、問題のトラブルシューティングに役立ちます。 [ログ **の表示] をクリック** して詳細を表示します。
   
-**アップグレードの準備状況の確認**でインプレースアップグレードが失敗した場合、または必要な**前提条件をインストール**していない場合は、サーバーに最新の Windows server、Lync server、SQL server の更新プログラムがすべてインストールされていることを確認してください。また、必要なソフトウェアとロールがすべてインストールされている必要があります 必要なものの一覧については、「Skype for business [server 2015 のサーバー要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)」および「 [Skype for business server 2015 の前提条件をインストール](install/install-prerequisites.md)する」を参照してください。
+アップグレードの準備の確認または不足している前提条件のインストールで In-Placeアップグレードが失敗した場合は、サーバーに最新の Windows Server、Lync Server、および SQL Server の更新プログラムが適用され、必要なすべてのソフトウェアと役割がインストールされていることを確認します。 必要な機能の一覧については[、「Skype for Business Server 2015 のサーバー要件」および「Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)の前提条件のインストール」を参照してください。 [](install/install-prerequisites.md)
   
 ## <a name="see-also"></a>関連項目
 
-[Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
+[Skype for Business Server 2015 へのアップグレードを計画する](../plan-your-deployment/upgrade.md)
   
-[Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Skype for Business Server 2015 のサーバー要件](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
 [Skype for Business Server 2015 の前提条件のインストール](install/install-prerequisites.md)
   

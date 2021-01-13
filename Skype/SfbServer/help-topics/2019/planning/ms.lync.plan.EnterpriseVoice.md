@@ -1,8 +1,8 @@
 ---
-title: Enterprise Voice (Planning Tool)
+title: エンタープライズ VoIP (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
-description: エンタープライズ voip では、Skype for Business Server は、従来の構内交換 (PBX) システムを強化または交換するための、スタンドアロンのボイスオーバーインターネットプロトコル (VoIP) サービスを提供します。
-ms.openlocfilehash: b4f9e05d6e80da2de569adba157c66d44f445950
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: このエンタープライズ VoIP、Skype for Business Server は、従来の PBX (Private Branch Exchange) システムを強化または置き換えるスタンドアロンのボイス オーバー IP (VoIP) サービスを提供します。
+ms.openlocfilehash: 8842d1e869f09cf22841de418cd51538b457854a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797308"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819887"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
+# <a name="enterprise-voice-planning-tool"></a>エンタープライズ VoIP (Planning Tool)
  
-エンタープライズ voip では、Skype for Business Server は、従来の構内交換 (PBX) システムを強化または交換するための、スタンドアロンのボイスオーバーインターネットプロトコル (VoIP) サービスを提供します。 エンタープライズボイスユーザーは、組織の VoIP ネットワークまたは PBX で同僚に通話を発信したり、組織外の従来の電話番号に通話したりすることができます。 エンタープライズ Voip ソリューションには、回答、forward、transfer、hold、転送すれば、release、パークなどの一般的な通話機能、強化された 9-1-1 (E9) 通話 (E9 は米国でのみ利用可能) が含まれています。エンタープライズボイスは、さまざまな現在および古い IP デバイスと USB デバイスもサポートしています。
+このエンタープライズ VoIP、Skype for Business Server は、従来の PBX (Private Branch Exchange) システムを強化または置き換えるスタンドアロンのボイス オーバー IP (VoIP) サービスを提供します。 エンタープライズ VoIPユーザーは、組織の VoIP ネットワークまたは PBX で同僚に電話をかけることができます。また、組織外の従来の電話番号に電話することもできます。 エンタープライズ VoIP ソリューションには、応答、転送、転送、保留、転送、解除とパーク、Enhanced 9-1-1 (E9-1-1) 通話 (E9-1-1) 通話などの一般的な通話機能が含まれています (E9-1-1 は米国でのみ利用可能)。エンタープライズ VoIP、現在および古い IP デバイスと USB デバイスを幅広くサポートしています。
   
-エンタープライズ Voip の計画について詳しくは、「 [Skype For Business Server でのエンタープライズ voip の計画](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)」をご覧ください。 スタンドアロンの仲介サーバーの展開の詳細については、「 [Skype For Business server のトポロジビルダーに仲介サーバーを展開する](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)」を参照してください。
+Skype for Business Server の計画のエンタープライズ VoIP [詳細については、「Skype for Business Server エンタープライズ VoIP計画」を参照してください](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)。 スタンドアロンの仲介サーバーの展開の詳細については [、「Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)」を参照してください。
   
 

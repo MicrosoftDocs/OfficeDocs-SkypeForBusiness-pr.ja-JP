@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の導入に関するフィードバックとレポートを最適化する
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: チームの導入時にユーザーフィードバックを取得し、サービス正常性レポートを使用する方法について説明します。
+description: ユーザーフィードバックを取得し、Teams の導入でサービス正常性レポートを使用する方法について学習します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,43 +21,43 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e883a71d22a8af6c2af6eee8cdbd30e5b618f4dc
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0f8c929eefb8aad83ee4a838b51cb39da6749221
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868644"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821067"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
-ユーザーのフィードバックとサービスの正常性の報告に関するベストプラクティスに従って、サービスと従業員からのシグナルを受信していることを確認します。  場合によっては、特定のサービスの利用状況と正常性のレポートにアクセスするために管理者権限が必要になることがあります。 組織の Microsoft 365 または Office 365 管理者でない場合は、この個人と協力して、Microsoft 365 管理センターでレポートリーダーの役割を与えて、このようなデータにアクセスしてください。
+ユーザー フィードバックとサービス正常性レポートに関するベスト プラクティスに従って、サービスと従業員からシグナルを取得します。  場合によっては、特定のサービス利用状況と正常性レポートにアクセスするために管理者権限が必要な場合があります。 組織の Microsoft 365 または Office 365 管理者ではない場合は、そのユーザーと一緒に作業し、Microsoft 365 管理センターでレポート リーダーの役割を付与して、このデータの一部にアクセスします。
 
-## <a name="incorporating-feedback"></a>フィードバックの組み込み 
+## <a name="incorporating-feedback"></a>フィードバックを取り込む 
 
-実験フェーズを通じて、ユーザーが製品を使用した方法とその経験に関する情報を収集します。 この情報を使用して、ビジネスユニット全体での使用を拡大する計画として、お客様の認識とトレーニングプログラムを調整します。 よく寄せられる質問の例を次に示します。
+実験フェーズを通じて、ユーザーが製品をどのように使用し、そのエクスペリエンスを使用したのかについての情報を取得します。 この情報を今すぐ使用して、ビジネス ユニット全体で使用を拡大する計画を立て、認識とトレーニング プログラムを調整します。 一般的な質問の例を次に示します。
 
-- 既存のテクノロジと共にこの新しいツールを使用するにはどうすればよいですか?
-- このツールの使用を承認されたユーザーは誰ですか?
-- 機密性の高い情報は安全ですか? 
-- Microsoft Teams の詳細については、誰に連絡すればよいですか?
-- 動作していないものがあります。 ヘルプを表示するにはどうすればよいですか?
+- 既存のテクノロジと一緒にこの新しいツールを使用する場合
+- このツールの使用が承認されたユーザー
+- 機密情報は安全ですか? 
+- Microsoft Teams の詳細については、誰と話しますか?
+- 問題が起こっています。 ヘルプを表示する方法
 
-## <a name="invest-in-your-champions"></a>エキスパートへの投資
+## <a name="invest-in-your-champions"></a>チャンピオンに投資する
 
-Microsoft Teams の使用を拡大縮小するための準備として、展開する各ビジネスユニットまたはグループに、追加のチャンピオンを採用します。 これらの enthusiastic のユーザーをサービストレーニングプログラムに登録し、その方法と会議の方法を標準化します。
+Microsoft Teams の使用状況を拡大する準備をする場合は、展開する各ビジネス ユニットまたはグループに追加のチャンピオンを採用します。 これらのユーザーをサービス トレーニング プログラムに登録し、会う方法と時間を標準化します。
  
-お客様のエキスパートプログラムが、従業員が入手できるものと、それがエキスパートになると期待される内容を明確にしてください。 一般的なプログラム要件としては、スケジュールされた office 時間、月間のコミュニティ通話への参加、社内のオンラインコミュニティへの参加、これらの新しいエクスペリエンスへの移行をサポートします。  
+チャンピオン プログラムの設計で、従業員が何を受け取り、チャンピオンになったら何を期待されるのかを明確にしてください。 一般的なプログラム要件は、スケジュールされた営業時間、毎月のコミュニティ呼び出しへの参加、これらの新しいエクスペリエンスへの移行をサポートする内部オンライン コミュニティへの参加です。  
 
-ベストプラクティス: 社内のエキスパートに対して、毎月のチーム会議を開催します。 新しい機能の講義、フィードバックの入力、従業員コミュニティ用のセルフサービスツールの提供の間で、議題を分割します。
+ベスト プラクティス: 社内チャンピオンのために毎月 Teams 会議を開催します。 新しい機能の指導、フィードバックへの対処、従業員コミュニティ向けセルフサービス ツールの提供の間で議題を分割します。
 
-ベストプラクティス: 社内のサポート部門または IT ヘルプデスクからエキスパートコミュニティに参加して、チームの使用状況に関する最新情報を把握することをお勧めします。 
+ベスト プラクティス: 社内サポート部門または IT ヘルプデスクの担当者がチャンピオン コミュニティに参加し、Teams の使用状況に関する新しい情報を最新の情報に更新します。 
 
-## <a name="service-reporting"></a>サービスレポート
+## <a name="service-reporting"></a>サービス レポート
 
-Microsoft Teams の展開と採用の際には、次の3種類のレポートを確認する必要があります。
+Microsoft Teams を展開して採用する場合は、次の 3 種類のレポートを確認する必要があります。
 
-- [サービス正常性](https://status.office365.com/)– Microsoft 365、Office 365、社内 IT サポート部門。
-- [管理センターの microsoft 365 レポート](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)-microsoft 365 または Office 365 からの Microsoft [365 レポートを管理センターで表示-microsoft Teams ユーザーアクティビティ](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity) 組織内の他のシステムの情報を使用することもできます。
-- サービスの満足度–社内コミュニティフォーラムから収集された、特定のエクスペリエンスに関するアンケート
+- [サービス正常性](https://status.office365.com/) – Microsoft 365、Office 365、社内の IT サポート部門。
+- [管理センターでの Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports) レポート – Microsoft 365 または Office 365 から管理センターで [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)レポートを表示する - Microsoft Teams のユーザー アクティビティ。 組織内の他のシステムからの情報を使用することもできます。
+- サービスの満足度 – 内部コミュニティ フォーラムと特定のエクスペリエンスに関するアンケートから収集
 
-![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) :[ドライブの認識とトレーニングの実装](teams-adoption-drive-awareness.md)
+![次のステップを表すアイコン ](media/teams-adoption-next-icon.png) 次: ドライブ [の認識とトレーニングの実装](teams-adoption-drive-awareness.md)

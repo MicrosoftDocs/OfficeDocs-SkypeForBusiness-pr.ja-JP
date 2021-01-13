@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server コンポーネントのセットアップまたは削除 (起動)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[実行] コマンドには、サーバーの役割を展開するために実行されるタスクの概要が表示されます。 タスクが完了した後: 展開とアクティブ化、非アクティブ化、アンインストール-概要が表示されます。 また、ドロップダウンリストでは、コマンドの実行時に作成されたログファイルを選ぶことができます。 ドロップダウンリストを使用して、表示するログファイルを選択し、[ログの表示] をクリックします。'
-ms.openlocfilehash: 6c8e19b353c7aeceddfdc780a8e92cb001afb82a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[コマンドを実行しています] には、サーバーの役割を展開するために実行されるタスクの実行概要が表示されます。 タスクが完了すると、展開とアクティブ化、または非アクティブ化とアンインストールの概要が表示されます。 また、ドロップダウン リストでは、コマンドの実行時に作成されたログ ファイルを選択できます。 ドロップダウン リストを使用して表示するログ ファイルを選択し、[ログの表示] をクリックします。'
+ms.openlocfilehash: 0e6638e9eaf8fc9d6f17bb204a5e97d386d8956e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796918"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820517"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Skype for Business Server コンポーネントのセットアップまたは削除 (起動)
  
-[**実行] コマンド**には、サーバーの役割を展開するために実行されるタスクの概要が表示されます。 タスクが完了した後: 展開とアクティブ化、非アクティブ化、アンインストール-概要が表示されます。 また、ドロップダウンリストでは、コマンドの実行時に作成されたログファイルを選ぶことができます。 ドロップダウンリストを使用して、表示するログファイルを選択し、[ログの**表示**] をクリックします。
+[**コマンドを実行しています**] には、サーバーの役割を展開するために実行されるタスクの実行概要が表示されます。 タスクが完了すると、展開とアクティブ化、または非アクティブ化とアンインストールの概要が表示されます。 また、ドロップダウン リストでは、コマンドの実行時に作成されたログ ファイルを選択できます。 ドロップダウン リストを使用して表示するログ ファイルを選択し、[**ログの表示**] をクリックします。
   
-サマリーファイルとログファイルの確認が終わったら、[**完了**] をクリックします。
+概要とログ ファイルの確認が済んだら、[**終了**] をクリックします。
   
 

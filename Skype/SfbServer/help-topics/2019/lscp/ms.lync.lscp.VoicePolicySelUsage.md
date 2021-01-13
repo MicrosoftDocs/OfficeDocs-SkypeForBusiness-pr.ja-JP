@@ -1,8 +1,8 @@
 ---
 title: PSTN 使用法レコードの選択
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[PSTN 使用状況レコードの選択] ダイアログボックスを使用して、既存の公衆交換電話網 (PSTN) 使用状況レコードを検索します。'
-ms.openlocfilehash: 7010c0aebe3a55c733c3a6788182bc236274f157
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[PSTN 使用法レコードの選択] ダイアログ ボックスを使用して、使用可能な既存の公衆交換電話網 (PSTN) 使用法レコードを検索します。'
+ms.openlocfilehash: f9d1ae171e81657813dbd1c7b7a929b77915a2b2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41792045"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820027"
 ---
 # <a name="select-pstn-usage-record"></a>PSTN 使用法レコードの選択
  
-**[Pstn 使用状況レコードの選択**] ダイアログボックスを使用して、既存の公衆交換電話網 (PSTN) 使用状況レコードを検索します。
+[**PSTN 使用法レコードの選択**] ダイアログ ボックスを使用して、使用可能な既存の公衆交換電話網 (PSTN) 使用法レコードを検索します。
   
 > [!NOTE]
-> 利用可能なすべての PSTN 利用状況レコードを取得するには、[検索] ボックスに何も入力せずに、[検索] アイコンをクリックします。 
+> 使用可能な PSTN 使用法レコードすべてを取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。 
   
  
   

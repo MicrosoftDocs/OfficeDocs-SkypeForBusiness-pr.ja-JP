@@ -1,8 +1,8 @@
 ---
 title: 証明書の割り当て (起動)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[コマンドの実行] ページには、そのタスクによって実行されるアクションが表示され、証明書をサーバーに割り当てることができます。 タスクが完了したら、証明書の割り当てプロセスについて詳しく説明するログを表示できます。 ログ ファイルを表示するには、[ログの表示] をクリックします。'
-ms.openlocfilehash: b4e31eefc09039b0250c68595b401edd3ad604e4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[コマンドの実行] ページには、サーバーに証明書を割り当てるためにタスクによって実行したアクションが表示されます。 タスクが完了すると、証明書の割り当てプロセスの詳細を示すログを表示できます。 ログ ファイルを表示するには、[ログの表示] をクリックします。'
+ms.openlocfilehash: cb9857162541c10d941b2539b99d855ff34ba7d7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796888"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820437"
 ---
 # <a name="certificate-assignment-invoke"></a>証明書の割り当て (起動)
  
-[**コマンドの実行**] ページには、そのタスクによって実行されるアクションが表示され、証明書をサーバーに割り当てることができます。 タスクが完了したら、証明書の割り当てプロセスについて詳しく説明するログを表示できます。 ログ ファイルを表示するには、[**ログの表示**] をクリックします。
+**[コマンドの実行]** ページには、サーバーに証明書を割り当てるためにタスクによって実行したアクションが表示されます。タスクが完了すると、証明書の割り当てプロセスの詳細を示すログを表示できます。ログ ファイルを表示するには、**[ログの表示]** をクリックします。
   
 

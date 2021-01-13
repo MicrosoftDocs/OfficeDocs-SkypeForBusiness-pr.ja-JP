@@ -1,7 +1,7 @@
 ---
 title: Meeting First - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
-ms.translationtype: HT
+ms.openlocfilehash: 34b32a1d421941e4e9c3bd743c5db1026d88a2ac
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868474"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809507"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -34,7 +34,7 @@ ms.locfileid: "44868474"
 
 Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 Meetings First は、製品や機能ではありません。これは、Teams や Skype for Business の機能を活用して、独自にカスタマイズされた共存環境を実現する構成です。
 
-Meetings First では、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成します。 Teams と Skype for Business の間にモダリティの重複はありません。 チャット、通話、プレゼンスは、Skype for Business ではオンになり、Teams ではオフになります。 これにより、Skype for Business と Teams の間で、共存中のユーザーの操作環境を向上する独自の "優れた連携" シナリオだけでなく、**Teams のみ**のユーザーを対象とした相互運用性のシナリオも実現します。
+Meetings First では、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成します。 Teams と Skype for Business の間にモダリティの重複はありません。 チャット、通話、プレゼンスは、Skype for Business ではオンになり、Teams ではオフになります。 これにより、Skype for Business と Teams の間で、共存中のユーザーの操作環境を向上する独自の "優れた連携" シナリオだけでなく、**Teams のみ** のユーザーを対象とした相互運用性のシナリオも実現します。
 
 ![Teams と Skype for Business による優れた連携シナリオのスクリーンショット](media/meetings-first-meeting-in-meeting.png)
 
@@ -47,7 +47,7 @@ Meetings First は、エンタープライズ VoIP で Skype for Business Server
 
 複雑な組織や大規模な組織では、通常、音声の移行はサイトごとに行われるため、時間がかかる場合があり、場合によっては数年かかる可能性もあるため、結果として共存のシナリオが延長されます。 この共存が **Islands** モードにある場合、ユーザーには常に 2 つの会議ソリューション (Skype for Business と Teams) が用意されているため、混乱を招いたり、最適なシナリオではなくなる可能性があります。 音声の移行とは異なり、会議の移行は、一般に会社全体で短時間で行うことができます。 Teams 会議にできるだけ早く (音声の移行が完了するのを待たずに) 完全に切り替えたい組織は、Meetings First を検討する必要があります。
 
-Meetings First は、エンタープライズ VoIP ユーザーがいない組織では役に立ちません。 これらの組織は、Teams 会議を導入できるようになればすぐに **Teams のみ**にアップグレードできるはずです。 これらの組織は、Meetings First を採用しないことを検討する必要があります。
+Meetings First は、エンタープライズ VoIP ユーザーがいない組織では役に立ちません。 これらの組織は、Teams 会議を導入できるようになればすぐに **Teams のみ** にアップグレードできるはずです。 これらの組織は、Meetings First を採用しないことを検討する必要があります。
 
 さらに、Meetings First は、"会議のみ" の RFP が発行されている場合など、組織の対象範囲が会議専業ソリューション場合に役立ちます。
 

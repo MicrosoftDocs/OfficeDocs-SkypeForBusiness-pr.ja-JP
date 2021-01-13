@@ -1,7 +1,7 @@
 ---
 title: ユーザーの緊急対応の場所を割り当てたり変更したりする
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,42 +16,42 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: この記事では、組織内のユーザーの緊急対応の場所を割り当てまたは変更する方法について説明します。
+description: この記事では、組織内のユーザーの緊急対応の場所を割り当てる方法または変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f2e927e90a7ac6b79d6eb63c807e063ca7d78c7
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 8352c702d2c6d32b6384599499aa326def49fa4e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788661"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809567"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
-通話プランを設定するときは、各電話番号またはユーザーに緊急対応の場所を割り当てる必要があります。 ヨーロッパの国では、Microsoft 365 または Office 365 から電話番号を取得したとき、または Microsoft 365 または Office 365 に電話番号を移行したときに、緊急対応の場所が電話番号と関連付けられます。 米国では、ユーザーに割り当てられた緊急対応の場所が電話番号と関連付けられています。 割り当てられたユーザーが新しい場所に移動した場合は、緊急対応の住所を変更することができます。 緊急対応の住所と場所の詳細については、「緊急対応の [場所、場所、通話ルーティング](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)の概要」を参照してください。
+通話プランを設定する場合は、電話番号またはユーザーごとに緊急対応の場所を割り当てる必要があります。 ヨーロッパの国では、緊急対応の場所は、Microsoft 365 または Office 365 から電話番号を取得した場合、または電話番号を Microsoft 365 または Office 365 に転送した場合に関連付けされます。 米国では、緊急対応の場所はユーザーに割り当てられた電話番号に関連付けされます。 緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。 緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは [何か」を参照してください](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
   
-通話プランの取得方法とコストについては、「Teams の [アドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
+通話プランを取得する方法と料金については、「Teams アドオン ライセンス [」を参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
   
-Microsoft Teams 管理センターまたは PowerShell を使用して、ユーザーの緊急対応の場所を割り当てたり、変更したりすることができます。
+Microsoft Teams 管理センターまたは PowerShell を使用して、ユーザーの緊急対応の場所を割り当てまたは変更できます。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. Microsoft Teams 管理センターの左のナビゲーションで **、[**  >  **電話番号**] をクリックします。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[**音声電話番号]** を  >  **クリックします**。
 
-2. [ **電話番号** ] ページで、[ **数値** ] タブをクリックし、一覧でユーザー番号を選択し、[ **編集**] をクリックします。
+2. [電話番号 **] ページで** 、[番号] タブを **クリック** し、一覧からユーザー番号を選び、[編集] をクリック **します**。
 
-3. [ **編集** ] ウィンドウの [ **緊急**対応の場所] で、次のいずれかの操作を行います。
+3. [編集] **ウィンドウの** [緊急対応の **場所] で、** 次のいずれかの操作を行います。
 
    - 緊急対応の場所を割り当てるには、緊急対応の場所を検索して選択します。
 
-   - 既にユーザーに割り当てられている緊急対応の場所を変更するには、[ **X** ] をクリックして既存の場所を削除し、割り当てる場所を検索して選択します。
+   - ユーザーに既に割り当てられている緊急対応の場所を変更するには **、[X]** をクリックして既存の場所を削除し、割り当てる場所を検索して選択します。
 
-4. 電話番号情報を使用してユーザーにメールを送信するかどうかに応じて、 **電話番号情報を含むメールユーザー**を無効にするか、有効にします。 既定では、これはオンになっています。
+4. 電話番号情報を含むメールをユーザーに送信するかどうかに応じて、電話番号情報を含むメール ユーザーをオフまたは **オンにします**。 既定では、オンになっています。
 
 5. [**適用**] をクリックします。
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
-「 [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser)」を参照してください。 
+[「Set-CsOnlineVoiceUser」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser)。 
 
     
 ## <a name="related-topics"></a>関連項目

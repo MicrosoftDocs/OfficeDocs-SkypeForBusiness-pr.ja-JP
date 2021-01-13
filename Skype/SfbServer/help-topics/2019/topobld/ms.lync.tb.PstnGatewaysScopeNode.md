@@ -1,8 +1,8 @@
 ---
 title: PSTN ゲートウェイ スコープ ノード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,24 +15,24 @@ localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[PSTN ゲートウェイ] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: 47d02fdb55110a171cc7fcd2ef36136ed5a3a39a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 05d92143f7b4eff5111671310b7dea7482f2b902
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794165"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822277"
 ---
-# <a name="pstn-gateways-scope-node"></a>PSTN ゲートウェイ スコープ ノード
+# <a name="pstn-gateways-scope-node"></a>PSTN ゲートウェイのスコープ ノード
  
 [**PSTN ゲートウェイ**] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。以下のアクションを実行できます。
   
-- **新しい IP/PSTN ゲートウェイ**。トポロジに新しい PSTN ゲートウェイを追加する場合に使用する、[**新しい IP/PSTN ゲートウェイの定義**] ウィザードを起動します。
+- **新しい IP/PSTN ゲートウェイ**。トポロジに新しい PSTN ゲートウェイを追加する際に使用する、[**新しい IP/PSTN ゲートウェイの定義**] ウィザードを起動します。
     
 PSTN ゲートウェイ オプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。
+- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンのコンポーネントの結合、または展開の削除を行います。
     
-- **表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。
+- **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     

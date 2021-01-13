@@ -1,8 +1,8 @@
 ---
-title: 翻訳ルール正規表現を入力する
+title: 変換ルールの正規表現の種類
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[次のパターンに一致] フィールドに、翻訳する数値と一致させるために使用するパターンを指定します。 [翻訳ルール] フィールドで、翻訳された番号の書式のパターンを指定します。 '
-ms.openlocfilehash: 92e4a65281c86d6e7b24cfc3498bcd19717c3367
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[このパターンを照合] フィールドで、変換する番号を照合するために使用するパターンを指定します。 [変換ルール] フィールドで、変換される番号の形式のパターンを指定します。 '
+ms.openlocfilehash: a1e04cc94c004b520c077816ae535ca4154047ee
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793515"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819987"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>変換ルール: 正規表現の入力
  
-[**次のパターンに一致**] フィールドに、翻訳する数値と一致させるために使用するパターンを指定します。 [**翻訳ルール**] フィールドで、翻訳された番号の書式のパターンを指定します。 \+たとえば、「^ (\d{9}\d +) $」と入力すると、[次のパターンに**一致**します] フィールドと [**翻訳ルール**] フィールドに 011 $ 1 と入力すると、ルールが + 441235551010 から011441235551010に変換されます。 
+[**このパターンを照合**] フィールドで、変換する番号を照合するために使用するパターンを指定します。 [**変換ルール**] フィールドで、変換される番号の形式のパターンを指定します。 たとえば、[このパターンに一致] フィールドに ^ (\d \d+)$ を入力し、変換ルール フィールドに 011$1 を入力すると、ルールは \+ {9} +441235551010 を 011441235551010に変換します。 
   
  
   

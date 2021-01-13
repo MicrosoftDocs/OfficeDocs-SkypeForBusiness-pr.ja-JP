@@ -1,8 +1,8 @@
 ---
 title: 外部アプリケーション スコープ ノード
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[信頼されたアプリケーション サーバー] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーションプールには、信頼できる Microsoft ユニファイドコミュニケーションアプリケーションを実行するが、Skype for Business Server の役割は実行されないサーバーが含まれています。 以下のアクションを実行できます。'
-ms.openlocfilehash: 9462b024a7e98d0b0007e6033d48d5785262635f
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[信頼されたアプリケーション サーバー] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーション プールには、信頼された Microsoft Unified Communications アプリケーションを実行するサーバーが含まれていますが、Skype for Business Server の役割は実行しません。 以下のアクションを実行できます。'
+ms.openlocfilehash: 399292b721c5d19f00398ad05aaf26fabb89dc22
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793715"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819487"
 ---
-# <a name="external-applications-scope-node"></a>外部アプリケーション スコープ ノード
+# <a name="external-applications-scope-node"></a>外部アプリケーションのスコープ ノード
  
-[**信頼されたアプリケーション サーバー**] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーションプールには、信頼できる Microsoft ユニファイドコミュニケーションアプリケーションを実行するが、Skype for Business Server の役割は実行されないサーバーが含まれています。 以下のアクションを実行できます。
+[**信頼されたアプリケーション サーバー**] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼されたアプリケーション プールには、信頼された Microsoft Unified Communications アプリケーションを実行するサーバーが含まれていますが、Skype for Business Server の役割は実行しません。 以下のアクションを実行できます。
   
 - **新しい信頼されたアプリケーション プール**。[**新しい信頼されたアプリケーション プールの定義**] ウィザードを起動します。このウィザードを使用して、新しい信頼されたアプリケーション プールをトポロジに追加します。
     
 信頼済みアプリケーション プールのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。
+- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンのコンポーネントの結合、または展開の削除を行います。
     
-- **表示**。このオプションを使用し、コンソール ツリー ビュー内の項目を選択して表示と非表示の切り替えを行うと、トポロジ ビルダーのビューをカスタマイズできます。
+- **View**. このオプションを使用して、コンソール ツリー ビューで表示または非表示にする項目を選択することで、トポロジ ビルダーのビューをカスタマイズできます。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     

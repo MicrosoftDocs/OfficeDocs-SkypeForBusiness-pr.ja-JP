@@ -1,8 +1,8 @@
 ---
-title: ファイルストアデータを Skype for Business Server の新しいファイルストアに移動する
+title: Skype for Business Server でファイル ストア データを新しいファイル ストアに移動する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,62 +12,62 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server の展開のために現在ファイルストアとして機能しているファイルサーバーを削除する必要がある場合、または現在のファイルストアを使用できないその他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 その後、次の手順を実行する必要があります。
-ms.openlocfilehash: 00fa169eb000c9575609359c146a9db24c94de48
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Skype for Business Server 展開のファイル ストアとして現在機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できなくなるその他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 その後、次の手順を実行する必要があります。
+ms.openlocfilehash: 6121083d736075fa9ec58380dbc09ef6a8c4ef68
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794456"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819607"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>ファイルストアデータを Skype for Business Server の新しいファイルストアに移動する
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Skype for Business Server でファイル ストア データを新しいファイル ストアに移動する
 
-Skype for Business Server の展開のために現在ファイルストアとして機能しているファイルサーバーを削除する必要がある場合、または現在のファイルストアを使用できないその他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 その後、次の手順を実行する必要があります。
+Skype for Business Server 展開のファイル ストアとして現在機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できなくなるその他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 その後、次の手順を実行する必要があります。
 
-1. 削除する予定のファイルストアを使用している Skype for Business Server サービスをシャットダウンします。
+1. 削除する予定のファイル ストアを使用する Skype for Business Server サービスをシャットダウンします。
 
-2. トポロジビルダーでファイルストアを定義し、変更内容を公開して、新しいファイルストアを展開で利用できるようにします。
+2. トポロジ ビルダーでファイル ストアを定義し、変更を公開して、新しいファイル ストアを展開で使用できます。
 
-3. 新しいファイル ストアにデータを移行します。
+3. データを新しいファイル ストアに移動します。
 
 4. サーバーまたはサービスを再起動します。
 
-5. オプションで、古いファイル共有とファイル フォルダーを削除します。
+5. 必要に応じて、古いファイル共有とファイル フォルダーを削除します。
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>ファイル ストアのデータを新しいファイル ストアに移動するには
 
-1. Skype for Business サーバーの管理ツールがインストールされている RTCUniversersalServerAdmins または CsServerAdministrator グループのメンバーとしてコンピューターにログオンします。
+1. Skype for Business Server 管理ツールがインストールされている RTCUniversersalServerAdmins または CsServerAdministrator グループのメンバーとしてコンピューターにログオンします。
 
-2. ブラウザーウィンドウを開き、管理 URL を入力して、Skype for Business Server コントロールパネルを開きます。
+2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。
 
-3. 左側のナビゲーション バーで **[トポロジ]** をクリックし、**[状態]** をクリックします。
+3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 
-4. 削除する予定のファイルストアを使用している各ディレクタープール、監督、Standard Edition サーバー、およびフロントエンドプールでは、サーバーまたはプールを選択し、[**操作**] をクリックして、[**すべてのサービスの停止**] をクリックします。
+4. 削除する予定のファイル ストアを使用するディレクター プール、ディレクター、Standard Edition サーバー、およびフロントエンド プールごとに、サーバーまたはプールを選択し、[操作] をクリックして、[すべてのサービスの停止] をクリック **します。**
 
 5. トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
 
-6. トポロジビルダーを開始します。 [**スタート**]、[**すべてのプログラム**]、[ **skype for Business server**]、[ **skype for business server Topology Builder**] の順にクリックします。
+6. トポロジ ビルダーを起動します **。[** スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business Server]** をクリックして、[Skype for Business Server トポロジ ビルダー]**をクリックします**。
 
-7. ファイル ストアを使用するサーバーまたはプールを選び、次を行います。
+7. ファイル ストアを使用するサーバーまたはプールを選択し、次の操作を行います。
 
-8. サーバーまたはプールを右クリックし、**[プロパティの編集]** をクリックします。
+8. サーバーまたはプールを右クリックし、[プロパティの編集] **をクリックします**。
 
-9. **[プロパティの編集]** で、**[関連付け]** の **[ファイル ストア]** にある **[新規]** をクリックします。
+9. [**プロパティの編集] の**[関連 **付け] で、[****ファイル** ストア] の [新規] を **クリックします**。
 
-10. **[新しいファイル ストアの定義]** の **[ファイル サーバーの FQDN]** で、ファイル サーバーの完全修飾ドメイン名 (FQDN) を入力します。**[ファイル共有]** で、新しいファイル共有のフォルダー名を入力し、**[OK]** をクリックします。
+10. [ **新しいファイル ストア** の定義] の [ファイル サーバー **の FQDN]** で、ファイル サーバーの完全修飾ドメイン名 (FQDN) を入力します。 [ **ファイル共有] で**、新しいファイル共有のフォルダー名を入力し **、[OK]** をクリックします。
 
      > [!IMPORTANT]
-     > この手順では、トポロジビルダーで使用する新しいファイルストアを定義します。 その定義は一度だけ行い、サーバーごとに定義する必要はありません。 トポロジを公開する前に、定義したファイル共有を、定義したファイル サーバー上に作成する必要があります。 詳細については、「[Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)」をご覧ください。
+     > この手順では、トポロジ ビルダーで使用する新しいファイル ストアを定義します。 サーバーごとに定義するのではなく、1 回だけ定義します。 トポロジを公開する前に、定義されたファイル共有を定義したファイル サーバー上に作成する必要があります。 詳細については、「[フロント エンドのファイル ストアの定義](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)」を参照してください。
 
-11. ファイル ストアを使用する各サーバーまたはプールでは、次を行います。
+11. ファイル ストアを使用するサーバーまたはプールごとに、次の操作を行います。
 
-12. サーバーまたはプールを右クリックし、**[プロパティの編集]** をクリックします。
+12. サーバーまたはプールを右クリックし、[プロパティの編集] **をクリックします**。
 
-13. **[プロパティの編集]** で、**[関連付け]** の **[ファイル ストア]** で新しいファイル共有を選び **[OK]** をクリックします。
+13. [ **プロパティの編集] の** **[関連付** け] の [ファイル ストア] **で、新** しいファイル共有を選択し **、[OK]** をクリックします。
 
-14. トポロジを公開し、レプリケーションの状態を確認します。次に、必要に応じて、Skype for Business Server 展開ウィザードを実行します。 詳しくは「[Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx)」をご覧ください。
+14. トポロジを公開し、レプリケーションの状態を確認してから、必要に応じて Skype for Business Server 展開ウィザードを実行します。 詳細については、「[Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx)」を参照してください。
 
-15. コマンドプロンプトを起動します。 [**スタート**] ボタンをクリックし、[ファイル名を指定して**実行**] をクリックして、cmd.exe と入力します。
+15. コマンド プロンプトを起動します。[スタート] **ボタンをクリックし**、[ファイル名を指定して **実行**] cmd.exe。
 
 16. コマンドラインで、次のように入力します。
 
@@ -76,18 +76,18 @@ Skype for Business Server の展開のために現在ファイルストアとし
     ```
 
     > [!TIP]
-    > /S スイッチはファイル、ディレクトリ、およびサブディレクトリをコピーします。 /XF スイッチは Meeting.Active という名前のファイルをすべてスキップします。 /MT スイッチを備えた現在のバージョンの robocopy.exe は、複数のスレッドを使用してコピーの速度を大幅に高めています。 /LOG スイッチの場合は、C:\Logfiles\log.txt. の形式でディレクトリパスとログファイル名を使用します。 このスイッチは、指定された場所で操作のログ ファイルを作成します。
+    > /S スイッチは、ファイル、ディレクトリ、サブディレクトリをコピーします。 /XF スイッチは、Meeting.Active という名前のファイルをスキップします。 /MT スイッチを備えた現在のバージョンの robocopy.exe は、複数のスレッドを使用してコピーの速度を大幅に高めています。 /LOG スイッチの場合は、ディレクトリ パスとログ ファイル名をディレクトリ パスの形式で使用C:\Logfiles\log.txt。 このスイッチは、指定された場所に操作のログ ファイルを作成します。
 
-17. データのコピーが完了したら、Lync Server のコントロールパネルで、[**トポロジ**] をクリックし、[**状態**] をクリックします。
+17. データ コピーが完了したら、Lync Server コントロール パネルで [トポロジ] をクリックし、[状態] を **クリックします**。
 
-18. サービスを停止した各サーバーまたはプールでは、サーバーまたはプールを選び、**[操作]**、**[すべてのサービスを開始する]** の順にクリックします。
+18. サービスを停止したサーバーまたはプールごとに、サーバーまたはプールを選択し、[操作]をクリックして、[すべてのサービスの開始 **] をクリックします**。
 
-19. 古いファイル ストアをトポロジから削除し、トポロジを公開します。詳しくは、「[Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)」をご覧ください。
+19. 古いファイル ストアをトポロジから削除し、トポロジを公開します。 詳細については、「[Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)」を参照してください。
 
 20. (省略可能) 削除したファイル ストアを含むコンピューターに、ローカルの Administrators グループまたは Domain Admins グループのメンバーとしてログオンし、古いファイル共有とディレクトリを削除します。
 
 ## <a name="see-also"></a>関連項目
 
-[別のファイルストアにサーバーを再割り当てする](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
+[サーバーの異なるファイル ストアへの再割り当て](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
-[ファイルストアを削除する](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
+[ファイル ストアを削除する](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)

@@ -1,7 +1,7 @@
 ---
-title: Skype Room System および Skype for Business のフェデレーション パートナー
-ms.author: v-lanac
-author: lanachin
+title: Skype Room System と Skype for Business フェデレーション パートナー
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,26 +12,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: このトピックでは、Skype for Business フェデレーション パートナー用に Skype Room System をセットアップする方法について説明します。
-ms.openlocfilehash: d5ee83857aa439791e2a31ef201e0f365dbb8408
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: ac0203479907f830f1bc6cec6831f8804906e669
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768720"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49820807"
 ---
-# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Room System および Skype for Business のフェデレーション パートナー
+# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Room System と Skype for Business フェデレーション パートナー
  
 このトピックでは、Skype for Business フェデレーション パートナー用に Skype Room System をセットアップする方法について説明します。
   
-## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Room System および Skype for Business のフェデレーション パートナー
+## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Room System と Skype for Business フェデレーション パートナー
 
-Skype Room System は、予定表の会議出席依頼の [Skype for Business 会議への参加] リンクに依存しています。 通常、この参加リンクは会議出席依頼の本文に用意されています。 ただし、Skype Room システムは、このリンクに依存して、メッセージの MAPI プロパティに表示されます。 この会議出席依頼がリモート組織 (Skype for Business フェデレーションパートナー) に送信されると、既定では、リモート組織の Skype Room System には予定表の [会議参加] リンクが表示されません。 実際には、リモート組織のすべての Outlook ユーザーは、予定表アイテムを右クリックするか、会議のアラーム内から、Skype for Business 会議に参加することはできません。 会議出席依頼を開き、メッセージの本文で [Skype for Business 会議に参加する] をクリックする必要があります。 
+Skype Room System は、予定表の会議出席依頼の [Skype for Business 会議に参加する] リンクに依存します。 通常、参加リンクは会議出席依頼の本文に表示されます。 ただし、Skype Room System は、このリンクがメッセージの MAPI プロパティに存在する必要があります。 この会議出席依頼がリモート組織 (Skype for Business フェデレーション パートナー) に送信される場合、既定では、リモート組織の Skype Room System は予定表に会議参加リンクを表示します。 実際、リモート組織の Outlook ユーザーは、予定表アイテムを右クリックするか、会議のアラーム内から Skype for Business 会議に参加できません。 会議の招待を開き、メッセージの本文で [Skype for Business 会議に参加] をクリックする必要があります。 
   
-この制約事項は、Outlook と Microsoft Exchange がインターネット経由でメッセージを送信するためのある特別な情報パッケージ化手法を使用していないことに起因しています。 Transport Neutral Encapsulation Format (TNEF) と呼ばれるこの手法は、Exchange 組織外から送信されたメッセージに対して、既定で無効になっています。 会議参加リンクがリモートの Skype Room システムに表示されるようにするには、次のコマンドを使用して、送信側の組織が TNEF を有効にする必要があります。
+この制限の理由は、Outlook と Microsoft Exchange がインターネットを通してメッセージを送信する情報をパッケージ化するために特別な方法を使用しなだからです。 トランスポート ニュートラル カプセル化形式 (TNEF) と呼ばれるこのメソッドは、Exchange 組織から外部に送信されるメッセージに対して既定で無効になっています。 会議参加リンクをリモートの Skype Room System に表示するには、次のコマンドを使用して送信組織が TNEF を有効にする必要があります。
   
 ```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
 
-リモート組織に対して TNEF を有効にすると、その組織宛てにインターネット経由で送信されるあらゆるメッセージが、TNEF 形式の添付ファイルとして送信されます。 TNEF を有効にすると、skype for business のフェデレーションパートナーに Skype for Business 会議出席依頼が送信されると、skype Room System は skype for business 会議に参加することができ、リモートユーザーは Skype for Business 会議に参加できるようになります。 
+リモート組織で TNEF が有効になると、インターネットを通して組織に送信されるメッセージは、TNEF 形式の添付ファイルとして送信されます。 TNEF を有効にすると、Skype for Business の会議出席依頼が Skype for Business フェデレーション パートナーに送信された場合、Skype Room System は Skype for Business 会議に参加し、リモート ユーザーは Skype for Business 会議に参加できます。 

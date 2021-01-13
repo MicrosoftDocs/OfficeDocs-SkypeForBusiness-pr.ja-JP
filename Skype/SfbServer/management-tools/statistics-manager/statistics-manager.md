@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server の Statistics Manager
+title: Skype for Business Server の統計情報マネージャー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/19/2016
 audience: ITPro
@@ -13,19 +13,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
-description: '概要: skype for Business Server の統計情報マネージャーの詳細については、「Skype for business Server の正常性とパフォーマンスデータをリアルタイムで表示するための強力なツール」を参照してください。'
-ms.openlocfilehash: 67e90bdd62f27f222cce68dedc133ee751ead53a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: このトピックでは、Skype for Business Server の正常性およびパフォーマンス データをリアルタイムで表示できる強力なツールである Skype for Business Server の Statistics Manager について説明します。'
+ms.openlocfilehash: 68a16b76e68bc745a33b91b117c545b45057df55
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816226"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821797"
 ---
-# <a name="statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の Statistics Manager
+# <a name="statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャー
  
-**概要:** このトピックでは、skype for business Server の統計情報マネージャーについて説明します。これには、Skype for business Server の正常性とパフォーマンスデータをリアルタイムで表示できる強力なツールがあります。
+**概要:** このトピックでは、Skype for Business Server の正常性およびパフォーマンス データをリアルタイムで表示できる強力なツールである Skype for Business Server の Statistics Manager について説明します。
   
-このセクションには、次のトピックが含まれます。
+このセクションには、以下のトピックが含まれます。
   
 - [Skype for Business Server の Statistics Manager の計画](plan.md)
     

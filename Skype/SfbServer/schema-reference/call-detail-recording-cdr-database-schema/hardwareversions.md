@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 2015 のハードウェアバージョンの表
+title: Skype for Business Server 2015 の HardwareVersions テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ca05582b-082c-4bab-9233-36fc9434dbca
-description: ハードウェアバージョンの表はサポートテーブルです。 各レコードには、1つのデバイスハードウェアバージョンに関する情報が格納されます。
-ms.openlocfilehash: 11626ace425a2a867c10fafd16b3c44d28fd98fa
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: HardwareVersions テーブルはサポート テーブルです。 各レコードには、1 つのデバイス ハードウェア バージョンに関する情報が格納されます。
+ms.openlocfilehash: 2b9ac6b31f0af30e896d2943eaa4065aecdd4de3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815155"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821577"
 ---
-# <a name="hardwareversions-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 のハードウェアバージョンの表
+# <a name="hardwareversions-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の HardwareVersions テーブル
  
-ハードウェアバージョンの表はサポートテーブルです。 各レコードには、1つのデバイスハードウェアバージョンに関する情報が格納されます。
+HardwareVersions テーブルはサポート テーブルです。 各レコードには、1 つのデバイス ハードウェア バージョンに関する情報が格納されます。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**VersionId** <br/> |int  <br/> |Primary  <br/> |このハードウェアバージョンを識別する一意の番号。  <br/> |
-|**バージョン** <br/> |nvarchar(256)  <br/> | <br/> |ハードウェアのバージョン。  <br/> |
+|**VersionId** <br/> |int  <br/> |Primary  <br/> |このハードウェア バージョンを識別する一意の番号。  <br/> |
+|**バージョン** <br/> |nvarchar(256)  <br/> | <br/> |ハードウェア バージョン。  <br/> |
    
 

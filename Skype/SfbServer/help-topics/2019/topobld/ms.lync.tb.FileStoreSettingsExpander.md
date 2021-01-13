@@ -1,8 +1,8 @@
 ---
-title: ファイル ストア設定の展開
+title: ファイル ストア設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
-description: 定義済みのファイルストアのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: f4c88d7010876f9f71135dffe126a74883957948
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 定義済みのファイル ストアのプロパティを編集するには、以下の操作を行います。
+ms.openlocfilehash: 87ba595ff15b6864ea162c4155fa84937aa13ed7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793675"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819427"
 ---
-# <a name="file-store-settings-expander"></a>ファイル ストア設定の展開
+# <a name="file-store-settings-expander"></a>ファイル ストア設定エキスパンダー
  
-定義済みのファイルストアのプロパティを編集するには、次の操作を行います。
+定義済みのファイル ストアのプロパティを編集するには、以下の操作を行います。
   
-ファイル共有名には、新しい共有の名前を定義できます。 次に、ファイルサーバーの完全修飾ドメイン名 (FQDN) プロパティで指定されたサーバー上に共有を作成する必要があります。
+[ファイル共有名] では、新しい共有の名前を定義できます。その後、[ファイル サーバーの完全修飾ドメイン名 (FQDN)] プロパティで名前を指定したサーバーで共有を作成する必要があります。
   
 > [!NOTE]
-> ファイルサーバーの FQDN プロパティで指定されているサーバーの FQDN を変更することはできません。 ファイルストアのファイル共有を別のサーバー上に配置する必要がある場合は、新しいファイルストアエントリを作成します。 
+> [ファイル サーバーの FQDN] プロパティで指定したサーバーの FQDN は変更できません。別のサーバーにファイル ストアのファイル共有を配置する必要がある場合は、新しいファイル ストア エントリを作成します。 
   
 

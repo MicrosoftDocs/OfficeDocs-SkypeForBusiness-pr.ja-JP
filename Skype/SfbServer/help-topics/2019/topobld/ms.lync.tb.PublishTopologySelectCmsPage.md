@@ -1,8 +1,8 @@
 ---
 title: トポロジの公開での CMS の選択ページ
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
-description: トポロジビルダーを使用して構成したトポロジを公開します。 フロントエンドサーバーまたはフロントエンドプールが、中央管理ストアを保持する役割を持つことを示すリストから選択するように求められます。 この役割は、1つのフロントエンドサーバーまたはフロントエンドプールでいつでも保持できます。
-ms.openlocfilehash: cae0f79b9787458ae1dd24077dfdd46689378414
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: トポロジ ビルダーを使用して構成したトポロジを公開します。 中央管理ストアを保持する役割を担うフロント エンド サーバーまたはフロントエンド プールを一覧から選択する必要があります。 このロールを保持できるフロントエンド サーバーまたはフロントエンド プールは 1 つのみです。
+ms.openlocfilehash: d4af4756dc42c54790ee1120b418eb5e6a349387
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795418"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822187"
 ---
 # <a name="publish-topology-select-cms-page"></a>トポロジの公開での CMS の選択ページ
  
-トポロジビルダーを使用して構成したトポロジを公開します。 フロントエンドサーバーまたはフロントエンドプールが、中央管理ストアを保持する役割を持つことを示すリストから選択するように求められます。 この役割は、1つのフロントエンドサーバーまたはフロントエンドプールでいつでも保持できます。 
+トポロジ ビルダーを使用して構成したトポロジを公開します。 中央管理ストアを保持する役割を担うフロント エンド サーバーまたはフロントエンド プールを一覧から選択する必要があります。 このロールを保持できるフロントエンド サーバーまたはフロントエンド プールは 1 つのみです。 
   
-### <a name="about-the-central-management-server"></a>サーバーの全体管理サーバーについて
-サーバーの全体管理サーバーは、1つのマスター/マルチレプリカシステムです。このシステムでは、データベースの読み取り/書き込みのコピーが、中央管理サーバーを含むフロントエンドサーバーによって保持されています。 トポロジ内の各コンピューターには、サーバーを含むフロントエンドサーバーを含む、セットアップ時にコンピューターにインストールされた、SQL Server データベースの中央管理ストアデータの読み取り専用コピーがあります (既定では、RTCLOCAL という名前が付いています)。デプロイメント. ローカルデータベースは、すべてのコンピューターでサービスとして実行される Lync Server Replica Replicator エージェントを介して、レプリカの更新を受信します。 サーバーの全体管理サーバー上の実際のデータベースの名前とローカルレプリカは XDS で、これらは xds と xds のファイルで構成されます。 Master データベースの場所は、Active Directory ドメインサービスのサービスコントロールポイント (SCP) によって参照されます。 一元管理サーバーを使用して Lync Server を管理および構成するすべてのツール SCP を使用して、中央管理ストアを検索します。
+### <a name="about-the-central-management-server"></a>中央管理サーバーについて
+中央管理サーバーは単一のマスター/複数レプリカ システムで、データベースの読み取り/書き込みコピーは、中央管理サーバーを含むフロントエンド サーバーによって保持されます。 中央管理サーバーを含むフロントエンド サーバーを含むトポロジ内の各コンピューターには、セットアップおよび展開時に、コンピューターにインストールされた SQL Server データベース (既定では RTCLOCAL という名前) の中央管理ストア データの読み取り専用コピーがあります。 ローカル データベースは、すべてのコンピューターでサービスとして実行される Lync Server レプリカ レプリケーター エージェントを使用してレプリカの更新を受信します。 中央管理サーバーとローカル レプリカ上の実際のデータベースの名前は、xds.mdf ファイルと xds.ldf ファイルで構成される XDS です。 マスター データベースの場所は、Active Directory ドメイン サービスのサービス コントロール ポイント (SCP) によって参照されます。 中央管理サーバーを使用して Lync Server を管理および構成するツールはすべて、SCP を使用して中央管理ストアを検索します。
   
 ## <a name="see-also"></a>関連項目
 
-[CsManagementServer の移動](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)

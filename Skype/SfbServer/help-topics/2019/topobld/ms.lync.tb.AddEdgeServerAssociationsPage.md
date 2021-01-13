@@ -1,8 +1,8 @@
 ---
-title: エッジ サーバーの関連付けの追加
+title: エッジ サーバーのの関連付けを追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
-description: このページを使用して、このエッジプールが A/V トラフィック用に使用するフロントエンドプールおよび標準エディションのサーバーを選択します。
-ms.openlocfilehash: 5a67829de4cc56cf8512513e040b5427b676ca8a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: このページを使用して、音声ビデオ トラフィック用にこのエッジ プールを使用するフロント エンド プールと Standard Edition サーバーを選択します。
+ms.openlocfilehash: 6e2274b706df06bb82ff1d96ccf30a000725003d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794075"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819497"
 ---
 # <a name="add-edge-server-associations"></a>エッジ サーバーの関連付けの追加
  
-このページを使用して、このエッジプールが A/V トラフィック用に使用するフロントエンドプールおよび標準エディションのサーバーを選択します。 
+このページを使用して、音声ビデオ トラフィック用にこのエッジ プールを使用するフロント エンド プールと Standard Edition サーバーを選択します。 
   
-各フロントエンドプールは、1つのエッジプールにのみ関連付けることができます。 既に別のエッジプールと関連付けられているプールを選択した場合は、以前のエッジプールからの関連付けが変更されます。
+各フロント エンド プールは、1 つのエッジ プールとのみ関連付けることができます。別のエッジ プールと既に関連付けられているプールを選択すると、そのプールと前のエッジ プールとの関連付けが解除されて変更されます。
   
-このエッジサーバーまたはエッジプールを仲介サーバーまたは仲介サーバープールに関連付けて、外部ユーザーのエンタープライズボイスを構成し、有効にすることもできます。
+また、このエッジ サーバーまたはエッジ プールを仲介サーバーまたは仲介サーバー プールに関連付け、外部ユーザーに対してエンタープライズ VoIP有効にすることもできます。
   
 

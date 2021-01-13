@@ -1,8 +1,8 @@
 ---
 title: Active Directory からの選択
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
-description: '[Active Directory から選択] ダイアログボックスを使って、Skype for Business Server を有効にするユーザーを検索します。 検索ボックスに、検索するユーザーの SIP アドレスまたは表示名を入力します。 使用可能なユーザーすべてを取得する場合は、検索ボックスに何も入力しないでください。'
-ms.openlocfilehash: ec0a811ff00a633c7079f20046c4a079a6657199
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[Active Directory から選択] ダイアログ ボックスを使用して、Skype for Business Server を有効にするユーザーを検索します。 検索ボックスに、検索するユーザーの SIP アドレスまたは表示名を入力します。 使用可能なユーザーすべてを取得する場合は、検索ボックスに何も入力しないでください。'
+ms.openlocfilehash: a238658a6e33c6178562874baaae7a390ebac14f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822210"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821907"
 ---
 # <a name="select-from-active-directory"></a>Active Directory からの選択
  
-**[Active Directory から選択**] ダイアログボックスを使って、Skype For business Server を有効にするユーザーを検索します。 検索ボックスに、検索するユーザーの SIP アドレスまたは表示名を入力します。 使用可能なユーザーすべてを取得する場合は、検索ボックスに何も入力しないでください。
+[Active **Directory から選択] ダイアログ** ボックスを使用して、Skype for Business Server を有効にするユーザーを検索します。 検索ボックスに、検索するユーザーの SIP アドレスまたは表示名を入力します。 使用可能なユーザーすべてを取得する場合は、検索ボックスに何も入力しないでください。
   
-Skype for Business Server コントロールパネルを使用して実行できるさまざまな手順の詳細については、「Skype for business [server 2015 を管理](../../manage/manage.md)する」を参照してください。
+Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
   
 
