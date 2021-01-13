@@ -1,8 +1,8 @@
 ---
-title: Office Web Apps サーバー スコープ ノード エキスパンダー
+title: Office Web Apps サーバーのスコープ ノード エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
-description: トポロジビルダーの Office Web Apps サーバーを右クリックして、次の操作を行います。
-ms.openlocfilehash: f863773c1cbf80f48886285e972e42f2642ec955
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: トポロジ ビルダーで [Office Web Apps サーバー] を右クリックして、次の操作を実行します。
+ms.openlocfilehash: 0828535293e2293971208f86dc293c6757ff0a0d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793425"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829947"
 ---
-# <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps サーバー スコープ ノード エキスパンダー
+# <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps サーバーのスコープ ノード エキスパンダー
  
-トポロジビルダーの**Office Web Apps サーバー**を右クリックして、次の操作を行います。
+トポロジ ビルダーで Web **apps Officeを** 右クリックして、次の操作を実行します。
   
-- **新しい Office web Apps サーバー**: 新しい office web apps サーバーを定義するために使用される**新しい Office web Apps サーバーの定義**ウィザードを開始します。
+- **新Office Web Apps サーバー**: Web Apps サーバーの新Office定義に使用する新しい Web **Apps サーバー** の定義Office開始します。
     
-[新しい Office Web Apps サーバー] オプションに加えて、次の一般的なタスクを実行できます。
+Web Apps サーバーの新しいOfficeオプションに加えて、次の一般的なタスクを実行できます。
   
-![Office WebApps Server スコープ ノード](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps サーバー スコープ ノード](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- **トポロジ**。このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンからのコンポーネントの結合、または展開の削除といった操作を実行できます。
+- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンのコンポーネントの結合、または展開の削除を行います。
     
 - **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
     

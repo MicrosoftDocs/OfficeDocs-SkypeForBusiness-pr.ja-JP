@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server のメディア品質診断レポート
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: '概要: Skype for Business Server のメディア品質診断レポートについて説明します。'
-ms.openlocfilehash: e02ea51681b31b524bf87005e7c4b4fcf48bef62
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: a00084605941af80435dd5da73efbfea89a6272f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817866"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827837"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Skype for Business Server のメディア品質診断レポート
  
@@ -27,24 +27,24 @@ ms.locfileid: "41817866"
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype For Business Server のメディア品質サマリーレポート](summary.md)エンタープライズボイスピアツーピア通話、エンタープライズボイス会議通話、電話会議 (PSTN) 上の少なくとも一部に依存する通話など、エンドポイントの種類ごとに全体的な品質データを提供します。
+- [Skype for Business Server のメディア品質概要レポート](summary.md) エンタープライズ VoIP ピアツーピア通話、エンタープライズ VoIP 電話会議、公衆交換電話網 (PSTN) の少なくとも一部に依存する通話など、さまざまなエンドポイントの種類の全体的な品質データを提供します。
     
-- [Skype For Business Server のメディア品質比較レポート](comparison.md)さまざまな種類の音声通話 (ワイヤレスネットワーク経由で発信された通話、有線接続を経由した通話など) について、通話音質の値の比較が提供されます。
+- [Skype for Business Server のメディア品質比較レポート](comparison.md) さまざまな種類の音声通話 (たとえば、ワイヤレス ネットワークを通して行われた通話と有線接続で行われた通話) の通話品質値の比較を提供します。
     
-- [Skype For Business server のサーバーパフォーマンスレポート](server-performance.md)パフォーマンスの低下、パケット損失、ジッタなどの主要品質指標の測定値に基づいて、問題が発生したサーバーの一覧が表示されます。
+- [Skype for Business Server のサーバー パフォーマンス レポート](server-performance.md) 低下、パケット損失、ジッターなどの主要な品質指標の測定値に基づいて、最も問題が発生したサーバーを一覧表示します。
     
-- [Skype For Business Server の場所レポート](location-report.md)ネットワーク上の場所の一覧と、各場所で発生した通話のメディア品質の概要を示します。 このレポートの目的として、場所は IP サブネットに基づいています。
+- [Skype for Business Server の場所レポート](location-report.md) ネットワークの場所の一覧と、各場所で発生する通話のメディア品質の概要を示します。 このレポートの目的上、場所は IP サブネットに基づいて作成されます。
     
-- [Skype For Business Server のデバイスレポート](device-report.md)エンタープライズ音声通話に使用されるデバイスの概要と、デバイス別の通話の平均メディア品質が含まれています。
+- [Skype for Business Server のデバイス レポート](device-report.md) 通話の通話に使用されるデバイスの概要エンタープライズ VoIP、デバイス別の通話の平均メディア品質が含まれます。
     
-- [Skype For Business Server の通話リストレポート](call-list-report-0.md)組織内で発信または受信した電話の詳細情報について説明します。
+- [Skype for Business Server の通話リスト レポート](call-list-report-0.md) 組織内で行われたまたは受信した電話に関する詳細情報を提供します。
     
-- [Skype For Business Server の通話詳細レポート](call-detail-report.md)組織内で発信または受信した電話の詳細について説明します。
+- [Skype for Business Server の通話詳細レポート](call-detail-report.md) 組織内で行われたまたは受信した電話に関する詳細情報を提供します。
     
-- [Skype For Business server のサーバーメディア品質トレンドレポート](server-media-quality-trend-report.md)通話音量、低品質の通話率、パケット損失、ジッタなど、さまざまなエクスペリエンスのメトリックについて、最大5台のサーバーを視覚的に比較するための手段を提供します。
+- [Skype for Business Server のサーバー メディア品質傾向レポート](server-media-quality-trend-report.md) 通話量、低品質通話のパーセンテージ、パケット損失、ジッターなどの Quality of Experience 指標で、最大 5 つのサーバーをグラフィカルに比較する方法を提供します。
     
-- [Skype For Business Server でのメディア品質指標の配布レポート](media-quality-metrics-distribution-report.md)ジッタ、パケット損失など、質の高いメトリックの分布値を示すグラフを提供します。
+- [Skype for Business Server のメディア品質メトリック分布レポート](media-quality-metrics-distribution-report.md) ジッターやパケット損失などの Quality of Experience 指標の分布値を示すグラフを提供します。
     
-- [Skype For Business Server の位置情報トレンドレポート](location-trend-report.md)ネットワーク上の場所の通話品質の傾向情報を提供します。
+- [Skype for Business Server の場所の傾向レポート](location-trend-report.md) ネットワークの場所の通話品質傾向情報を提供します。
     
 

@@ -1,8 +1,8 @@
 ---
 title: 展開ウィザードの Windows Update
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
-description: 展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については、「Skype for Business Server 2015 をインストールする」を参照してください。
-ms.openlocfilehash: 0069a1ab97f5c543049b2bf5e0f4a2823ba7d864
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については、「Skype for Business Server 2015 のインストール」を参照してください。
+ms.openlocfilehash: 0e990d6882e837e1c0815d41ee78ac47cb61bb1e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823691"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827297"
 ---
 # <a name="deployment-wizard-windows-update"></a>展開ウィザード: Windows Update
  
-展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については、「 [skype For Business server 2015 をインストール](../../deploy/install/install.md)する」を参照してください。
+展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については [、「Skype for Business Server 2015](../../deploy/install/install.md)のインストール」を参照してください。
   
 

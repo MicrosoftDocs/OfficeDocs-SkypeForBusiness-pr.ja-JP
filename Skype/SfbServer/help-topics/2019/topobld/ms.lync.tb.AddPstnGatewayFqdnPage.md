@@ -1,8 +1,8 @@
 ---
-title: PSTN ゲートウェイの FQDN の定義
+title: PSTN ゲートウェイの FQDN を定義する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
-description: エンタープライズボイスコンポーネントを PSTN またはプライベートブランチ exchange (PBX) に接続する、公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。
-ms.openlocfilehash: a6c67586112a15f857f3f82050ea0b55e006bd8a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: エンタープライズ VoIP コンポーネントを PSTN または PBX (Private Branch Exchange) に接続する公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。
+ms.openlocfilehash: c4046499f251421b9158c3932d0bf8de4c52c462
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794366"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830087"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a>PSTN ゲートウェイの FQDN の定義
+# <a name="define-the-pstn-gateway-fqdn"></a>PSTN ゲートウェイ FQDN の定義
 
-エンタープライズボイスコンポーネントを PSTN またはプライベートブランチ exchange (PBX) に接続する、公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。
+エンタープライズ VoIP コンポーネントを PSTN または PBX (Private Branch Exchange) に接続する公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。
 
-詳細については、「 [Skype For Business Server の PSTN 接続コンポーネント](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)」を参照してください。
+詳細については、Skype for Business Server の PSTN 接続 [コンポーネントを参照してください。](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>関連項目
 
-[PSTN ゲートウェイの展開オプション](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[PSTN ゲートウェイ展開オプション](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

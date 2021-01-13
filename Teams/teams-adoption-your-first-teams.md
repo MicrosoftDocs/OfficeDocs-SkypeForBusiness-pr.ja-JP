@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams で最初のチームを作成する
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 主要なリソースを適切なチャネルのタブとしてピン留めする方法など、Teams で Microsoft 365 または Office 365 の展開を管理することで、チームの導入を推進する方法について説明します。
+description: Microsoft 365 または Office 365 の展開を Teams で管理して Teams の導入を推進する方法について説明します。また、重要なリソースを適切なチャネルのタブとしてピン留めする方法も含まれています。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,49 +21,49 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59b42c0f464c377b1a4e320fc01e6466fde99f3b
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 27a54501ff05c85c675987e68240ddd58ce91ab6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350221"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806087"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
-チームの導入を推進する最良の方法は、製品を使用することです。 Microsoft 365 または Office 365 の展開を Teams で管理することをお勧めします。 また、チームワークと生産性に重点を置いている従業員のコミュニティも作成する必要があります。 (これらの初期チームは、時間の経過と共に変化する可能性があります)。おすすめのチームの一部を次に示します。
+Teams の導入を推進する最適な方法は、製品を使用する方法です。 Teams を使用して Microsoft 365 または Office 365 展開を管理することをお勧めします。 また、チームワークと生産性に重点を置いた従業員のコミュニティを作成する必要があります。 (これらの初期チームは時間の間に変化する可能性があります)。いくつかの推奨されるチームは次のとおりです。
 
-| チーム名 | 提示されたチャネル名 |
+| チーム名 | 提案されたチャネル名 |
 | --------- | ---------------------- |
-| チームを理解する | 一般</br> Say hi</br> 方法を教えてください。</br>Feedback </br> Ideas for future teams </br> Support |
-| Microsoft Teams の実装 | 一般 <br/> 認知度と導入 <br/> ビジネスエンゲージメント <br/> 早期導入プログラム <br/> フィードバックと分析 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler チャット |
-| チームワークエキスパート | 一般 <br/> ベストプラクティス、トレーニング、および使い方 <br/> 精鋭コーナー <br/> フィードバックとサポート <br/> プログラムの潜在顧客 <br/> ソーシャルハブ |
+| Teams を知る | General</br> Say hi</br> 方法</br>Feedback </br> Ideas for future teams </br> Support |
+| Microsoft Teams の実装 | General <br/> 認識と導入 <br/> ビジネス予約 <br/> 早期導入者プログラム <br/> フィードバックと分析 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler チャット |
+| チームワーク チャンピオン | General <br/> ベスト プラクティス、トレーニング、および方法 <br/> チャンピオン コーナー <br/> フィードバックとサポート <br/> プログラム のリード <br/> ソーシャル ハブ |
 
-Microsoft Teams の[タブギャラリー](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview)では、管理者によって有効になったすべての Microsoft 365 または Office 365 とサードパーティ製のアプリにアクセスできます。 製品の最大値を取得するには、適切な各チャネルのタブとしてキーリソースをピン留めすることをお勧めします。 次の例を参照してください。
+Microsoft Teams 内[](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview)のタブ ギャラリーでは、管理者が有効にしているすべての Microsoft 365 または Office 365 およびサード パーティ製アプリにアクセスできます。 製品の価値を最も高くするために、主要なリソースを各チャネルのタブとしてピン留めする方法をお勧めしています。 次の例を参照してください。
 
-![既定のタブとカスタムタブを示すスクリーンショット](media/teams-adoption-tab-example.png)
+![既定のタブとカスタム タブを示すスクリーン ショット](media/teams-adoption-tab-example.png)
 
-最初のチームでは、チームチャネルで簡単に参照できるように、次の項目をピン留めすることをお勧めします。 これらのアセットは、OneNote ノートブックのセクションに追加されています。 FastTrack チームで作業している場合は、最初のチームを構成するのに役立ちます。 
+初期のチームでは、次の項目をピン留めして、チーム チャネルで簡単に参照できます。 これらのアセットは、OneNote ノートブック セクションに加えて追加されます。 FastTrack チームと一緒に作業している場合は、これらの最初のチームの構成をサポートします。 
 
-|チーム/チャネル名 | 固定されたタブ |
+|チーム/チャネル名 | [固定] タブ |
 |----------------- | ---------- |
 | **Microsoft Teams の展開** ||
-| 一般 | [Web] タブ:[チームドキュメント](https://aka.ms/SuccessWithTeams) |
-| 認知度と導入 | [Teams の導入ハブ](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)|
-| ビジネスエンゲージメント | Wiki –契約ガイダンス<br/>フォーム– Teams の相談要求<br/>リスト–契約要求 |
-|最早採用 | 固定されたフィードバックのコミュニティ <br/> OneNote for FAQ と一般的なテーマ |
-| フィードバックと報告 | 固定された Microsoft 365 または Office 365 の使用状況レポート (Microsoft 365 または Office 365 管理者のみ) |
-| セキュリティとコンプライアンス | Microsoft 信頼ポータル <br/> [セキュリティとコンプライアンスに関するドキュメント](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
-| 戦略と計画 | 共同作業用の北 Star PowerPoint <br/> サービス導入プロジェクト計画 |
-| トレーニング | カスタム学習トレーニングポータル <br/> [Teams online のトレーニング](https://aka.ms/TeamsTraining) |
-| **チームワークエキスパート**|  |
-| 一般 | プログラムアナウンスに使用する <br/> ピンのチャンピオンプログラムの概要 |
-| ベスト プラクティス | チーム、チャネル、およびチャットの PowerPoint のベストプラクティス <br/> チームのライフサイクル |
-| 精鋭コーナー | 会議のメモとプレゼンテーション |
-| ソーシャルハブ | RSS コネクタ: Teams ブログと運転促進ブログ |
-| トレーニングとその方法 | トレーニングポータルへのリンク |
+| General | [Web] タブ: [Teams のドキュメント](https://aka.ms/SuccessWithTeams) |
+| 認識と導入 | [Teams の導入ハブ](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)|
+| ビジネス契約 | Wiki – 契約のガイダンス<br/>フォーム – Teams の相談を依頼する<br/>リスト – 契約要求 |
+|早期導入者 | 固定されたフィードバック コミュニティ <br/> OneNote でよく寄せられる質問と一般的なテーマ |
+| フィードバックとレポート | 固定された Microsoft 365 または Office 365 利用状況レポート (Microsoft 365 または Office 365 管理者のみ) |
+| セキュリティとコンプライアンス | Microsoft Trust Portal <br/> [セキュリティとコンプライアンスのドキュメント](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [ロードマップ](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| 戦略と計画 | コラボレーション ノース スター PowerPoint <br/> サービス導入プロジェクト計画 |
+| トレーニング | カスタム学習トレーニング ポータル <br/> [Teams のオンライン トレーニング](https://aka.ms/TeamsTraining) |
+| **チームワーク チャンピオン**|  |
+| General | プログラムのお知らせに使用する <br/> ピン チャンピオン プログラムの概要 |
+| ベスト プラクティス | PowerPoint のチーム、チャネル、チャットのベスト プラクティス <br/> チームのライフサイクル |
+| チャンピオン コーナー | 会議のメモとプレゼンテーション |
+| ソーシャル ハブ | RSS コネクタ: Teams ブログと導入の推進ブログ |
+| トレーニングと使い方 | トレーニング ポータルのリンク |
 
-## <a name="making-the-switch-to-microsoft-teams"></a>Microsoft Teams への切り替え
+## <a name="making-the-switch-to-microsoft-teams"></a>Microsoft Teams に切り替える
 
-Teams の使用を開始すると、チームのチャット、チャネル、リソースを使用してプロジェクトを実行するために、プロジェクトチームの残りの部分が重要になります。 チームの実際の使用は、導入プロジェクトの品質にとって重要です。 メールでコアプロジェクトチームとの会話を続けて、プロジェクトの断片化を防ぐことをお勧めします。 Teams に切り替えることで、従業員が最終的に採用する動作をモデル化します。 まずトーンを設定してから、プロジェクト情報を1か所でお楽しみください。  
+Teams を使い始めるに当たっては、チーム チャット、チャネル、リソースを使用してプロジェクトを実行することがプロジェクト チームにとって重要です。 Teams の使用は、導入プロジェクトの品質にとって非常に重要です。 主要なプロジェクト チームとメールで会話を続け、プロジェクトの断片化に抵抗することをお勧めします。 Teams に切り替えて、最終的に従業員に受け入れてほしい動作をモデル化します。 トーンを設定し、最初に進み、プロジェクト情報を 1 か所に分け始めましょう。  
 
-![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) 。 [Microsoft Teams の組織はどのように準備されていますか?](teams-adoption-assess-readiness.md)
+![次の手順の次の手順を表すアイコン:組織で Microsoft Teams を使用 ](media/teams-adoption-next-icon.png) [する準備はできましたか?](teams-adoption-assess-readiness.md)

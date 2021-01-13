@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server で会議の構成設定を作成する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,26 +12,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: '概要: Skype for Business Server で会議の構成設定を作成する方法について説明します。'
-ms.openlocfilehash: cd3d207816f352a33fb3fd228e7249d9e5d836b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: edc498ed3847618b17970fb2270c21fd3f4ec025
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818608"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828207"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で会議の構成設定を作成する
  
 **概要:** Skype for Business Server で会議の構成設定を作成する方法について説明します。
   
-会議の構成設定を作成するには、Skype for Business Server コントロールパネルを使用するか、Skype for Business Server 管理シェルを使用します。
+会議の構成設定は、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して作成できます。
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロールパネルを使用して会議の構成設定を作成する
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議の構成設定を作成する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロールパネルを開きます。
+2.  Skype for Business Server コントロール パネルを開きます。
     
-3. 左側のナビゲーション バーで、[**会議**] をクリックし、[**会議の構成**] をクリックします。
+3. 左側のナビゲーション バーで、[会議] **をクリックし**、[会議の構成] **をクリックします**。
     
 4. [**会議の構成**] ページで、[**新規作成**] をクリックし、次のいずれかを実行します。
     
@@ -53,13 +53,13 @@ ms.locfileid: "41818608"
     
 8. 匿名 (未認証) ユーザーが自動的に承認されないようにするには、[**既定で匿名ユーザーを承認する**] チェック ボックスをオフにします。既定では、匿名ユーザーは会議に対して自動的に承認されます。
     
-9. 参加者に送られる会議の招待をカスタマイズするには、以下を行います。 URL およびカスタム フッター テキストの長さは最大 1 KB です。 [**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。 ユーザー設定のヘルプ URL が含まれていない場合は、Skype for Business の既定のヘルプ URL が招待状に表示されます。 
+9. 参加者に送られる会議の招待をカスタマイズするには、以下を行います。 URL およびカスタム フッター テキストの長さは最大 1 KB です。 [**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。 カスタム ヘルプ URL を含めない場合は、Skype for Business の既定のヘルプ URL が招待に表示されます。 
     
-   - 会議の招待に表示されるロゴをカスタマイズするには、[**ロゴ URL**] にロゴの場所を入力します。ロゴは、サイズが 188 x 30 ピクセルの GIF または JPG 画像である必要があります。 
+   - 会議の招待に表示されるロゴをカスタマイズするには、[**ロゴ URL**] にロゴの場所を入力します。 ロゴは、サイズが 188 x 30 ピクセルの GIF または JPG 画像である必要があります。 
     
    - 会議招待に表示されるヘルプ テキストをカスタマイズするには、[**ヘルプ URL**] にヘルプ テキストの場所を入力します。
     
-   - 会議の招待に表示される法的情報をカスタマイズするには、[**リーガル テキスト URL**] にリーガル テキストの場所を入力します。
+   - 会議の招待に表示される法的情報をカスタマイズするには、[**リーガル テキスト URL**] にロゴの場所を入力します。
     
    - 会議の招待に表示されるカスタム フッター テキストをカスタマイズするには、[**カスタム フッターのテキスト**] にテキストを入力します。
     
@@ -67,9 +67,9 @@ ms.locfileid: "41818608"
     
 ## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議の構成設定を作成する
 
-会議の構成設定を作成するには、**New-CsMeetingConfiguration** コマンドレットを使用します。
+会議の構成設定を作成するには **、New-CsMeetingConfiguration コマンドレットを使用** します。
   
-次のコマンドは、Redmond サイト用に会議構成設定の新しいセットを作成しています。
+次のコマンドは、Redmond サイトの会議構成設定の新しいセットを作成します。
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
@@ -83,12 +83,12 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-複数のパラメーターを含めることにより複数のプロパティ値を設定できます。たとえば、次のコマンドは、会議の全員が発表者となることを許可し、さらに PSTN ユーザーは会議に対して正式に承認されるまで必ずロビーで待機するように設定しています。
+複数のパラメーターを含めて、複数のプロパティ値を設定できます。 たとえば、次のコマンドは、全員が発表者として会議に参加するのを許可し、PSTN ユーザーが会議に正式に参加を許可されるまでロビーで待機する必要があります。
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-パラメーターの完全な一覧を含む、詳細については、「[新しい-Cs会議の構成](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)」を参照してください。
+パラメーターの完全な一覧を含む詳細については [、「New-CsMeetingConfiguration」を参照してください](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)。
   
 

@@ -1,8 +1,8 @@
 ---
-title: 展開ウィザードユニファイドコミュニケーション API
+title: 展開ウィザードの統合コミュニケーション API
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
-description: 展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については、「Skype for Business Server 2015 をインストールする」を参照してください。
-ms.openlocfilehash: 1e1025aae1c737f372a3076e3fb722013c1b36cf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については、「Skype for Business Server 2015 のインストール」を参照してください。
+ms.openlocfilehash: 35c27279cd532ad0ae6fecb101780f23ed2b8264
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827317"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>展開ウィザード: 統合コミュニケーション API
  
-展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については、「 [skype For Business server 2015 をインストール](../../deploy/install/install.md)する」を参照してください。
+展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については [、「Skype for Business Server 2015](../../deploy/install/install.md)のインストール」を参照してください。
   
 

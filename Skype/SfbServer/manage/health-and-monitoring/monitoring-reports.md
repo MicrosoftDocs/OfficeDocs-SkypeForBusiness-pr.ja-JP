@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server で監視レポートを使用する
+title: Skype for Business Server での監視レポートの使用
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: '概要: Skype for Business Server のレポートの監視について説明します。'
-ms.openlocfilehash: 1468a012501753a720807f1b1ec609ff187ffc1c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server の監視レポートについて学習します。'
+ms.openlocfilehash: 32e16d02f458ca36fb18b52790966c68a354503e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817806"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827767"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Skype for Business Server で監視レポートを使用する 
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Skype for Business Server での監視レポートの使用 
  
-**概要:** Skype for Business Server のレポートの監視について説明します。
+**概要:** Skype for Business Server の監視レポートについて学習します。
   
-Skype for Business Server には、Microsoft SQL Server Reporting Service によって公開されている一連の標準的なレポートが含まれています。 これらのレポートは、web ブラウザーを使用してアクセスできます。これらのレポートは、CDR と QoE データベースに保存されている通話の詳細記録 (CDR) と Quality of Experience (QoE) レコードに基づいて提供されます。
+Skype for Business Server には、一連の標準レポートが含まれています。この一連の標準レポートは、Microsoft SQL Server Reporting Service によって発行されます。 これらのレポートは、Web ブラウザーを使用してアクセス可能であり、CDR および QoE データベースに格納されている通話詳細記録 (CDR) および QoE (Quality of Experience) レコードに基づいて、使用状況、通話診断情報、およびメディア品質情報を提供します。
   
-これらのレポートを使用するには、SQL Server のインスタンスが実行されているコンピューターに監視レポートをインストールする必要があります。
+これらのレポートを使用するには、監視レポートのインスタンスを実行しているコンピューターに監視レポートをインストールするSQL Server。
   
-## <a name="in-this-section"></a>このセクション中
+## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype For Business Server で監視ダッシュボードを使用する](monitoring-dashboard.md)管理者に、システムの正常性とシステム使用率の概要を簡単に示します。
+- [Skype for Business Server での監視ダッシュボードの使用](monitoring-dashboard.md) 管理者に、システムの正常性とシステム使用状況の概要を簡単に示します。
     
-- [Skype For Business Server のシステム使用状況レポート](system-usage-reports.md)Skype for Business Server によって収集された CDR データに基づいて、システムの使用状況に関する情報を提供します。
+- [Skype for Business Server のシステム使用状況レポート](system-usage-reports.md) Skype for Business Server によって収集された CDR データに基づくシステム使用状況情報を提供します。
     
-- [Skype For Business Server で診断レポート (ユーザーごと) を呼び出す](call-diagnostic-reports-per-user.md)失敗したピアツーピアと会議セッションに関するユーザーごとの情報を提供します。
+- [Skype for Business Server の通話診断レポート (ユーザー単位)](call-diagnostic-reports-per-user.md) エラーが発生したピアツーピア セッションおよび会議セッションに関するユーザー単位の情報を提供します。
     
-- [Skype For Business Server で診断レポートを発信](call-diagnostic-reports.md)するピアツーピアと会議の失敗の概要と診断データについて説明します。
+- [Skype for Business Server の通話診断レポート](call-diagnostic-reports.md) エラーが発生したピアツーピア セッションおよび会議セッションの概要情報と診断データを提供します。
     
-- [Skype For Business Server のメディア品質診断レポート](media-quality-diagnostic-reports.md)通話品質と、失敗した通話の診断とトラブルシューティングに関する情報を提供します。
+- [Skype for Business Server のメディア品質診断レポート](media-quality-diagnostic-reports.md) 通話品質に関する情報と、失敗した通話の診断およびトラブルシューティングに関する情報を提供します。
     
 ## <a name="locating-records"></a>レコードの検索
 
-監視レポートで画面上に一度に表示されるレコードの数は限られています。 実際に画面に表示されるレコードの数は、レポートによって異なります。 現在画面に表示されていないレコードを表示するには、データをページ間で移動できる標準の forward コントロールと背面コントロール (各レポートのツールバーにあります) を使うことができます。 また、データセットの最初または最後のページにすばやく移動できます。
+監視レポートで画面上に一度に表示されるレコードの数は限られています。 実際に画面に表示されるレコードの数は、レポートによって異なります。 現在画面に表示されていないレコードを表示するには、標準の前方および後方のコントロール (各レポートのツール バーにあります) を使用して、データをページ移動できます。 また、データセットの最初または最後のページにすばやく移動できます。
   
 "進む" と "戻る" のコントロールを使用する以外に、[**現在のページ**] ボックスにページ番号を入力して Enter キーを押すだけで、データセットの任意のページに移動することもできます。
   
@@ -49,7 +49,7 @@ Skype for Business Server には、Microsoft SQL Server Reporting Service によ
   
 前述のとおり、監視レポートには非常に基本的な検索機能しかありません。たとえば、どのフィールドで値を検索するのかは指定できません。この検索メカニズムでは、自動的にすべてのレコードのすべてのフィールドを対象にして一致する値の検索が行われます。また、検索にワイルドカードは使用できず、すべての検索は値の部分一致に基づいて行われます。つまり、"111" を検索した場合は、111 という値だけでなく、11100、811、3112、611A5B といった値や、フィールド内のどこかに "111" が含まれるその他すべてのフィールドも返されます。
   
-各レポートは、既定のレコード セットを表示するように構成されています。 たとえば、既定のユーザー登録レポートでは、この 1 週間のユーザー登録アクティビティが表示されます。 場合によっては、レポートによってレコードが 1 つも返されないことがあります。 これは、ユーザー登録がこの 1 週間に一度も行われなかったということです。 "レポートフィルターに一致する結果がありません" というメッセージが表示された場合は、フィルターの値を変更します (たとえば、期間を先週ではなく過去の月に変更してから、クエリを再実行します)。 詳細については、後のセクション「データのフィルター処理」を参照してください。
+各レポートは、既定のレコード セットを表示するように構成されています。 たとえば、既定のユーザー登録レポートでは、この 1 週間のユーザー登録アクティビティが表示されます。 場合によっては、レポートによってレコードが 1 つも返されないことがあります。 これは、ユーザー登録がこの 1 週間に一度も行われなかったということです。 "レポート フィルターに一致する結果はありません" というメッセージが表示された場合は、フィルター値を変更して (たとえば、期間を過去 1 週間ではなく過去 1 か月に変更する) クエリを再実行します。 詳細については、後のセクション「データのフィルター処理」を参照してください。
   
 ## <a name="filtering-data"></a>データのフィルター処理
 
@@ -59,7 +59,7 @@ Skype for Business Server には、Microsoft SQL Server Reporting Service によ
   
 ## <a name="exporting-data"></a>データのエクスポート
 
-監視レポートには、レポート内のデータをエクスポートする方法が少なくとも 2 つあります。各レポートの最上部に表示されるツール バーの [**エクスポート**] オプションを使用することです。このオプションを使用するには、[**形式を選択してください**] ドロップダウン リストで適切なエクスポート形式を選択します。使用できる形式は次のとおりです。
+監視レポートには、レポート内のデータをエクスポートする方法が少なくとも 2 つあります。各レポートの最上部に表示されるツールバーの [**エクスポート**] オプションを使用することです。このオプションを使用するには、[**形式を選択してください**] ドロップダウン リストで適切なエクスポート形式を選択します。使用できる形式は次のとおりです。
   
 - レポート データが含まれている XML ファイル
     
@@ -75,7 +75,7 @@ Skype for Business Server には、Microsoft SQL Server Reporting Service によ
     
 - Word
     
-形式の選択後、[**エクスポート**] をクリックします。[**ファイルのダウンロード**] ダイアログ ボックスが表示されたら、[**保存**] をクリックします。[**名前を付けて保存**] ダイアログ ボックスで、保存先フォルダーを選択し、ファイル名を入力して、[**保存**] をクリックします。
+形式の選択後、[**エクスポート**] をクリックします。[**ファイルのダウンロード**] ダイアログ ボックスが表示されたら、[**保存**] をクリックします。[ **名前を付けて保存**] ダイアログ ボックスで、保存先フォルダーを選択し、ファイル名を入力して、[**保存**] をクリックします。
   
 Microsoft OneNote がインストールされている場合は、レポート データを OneNote にコピーすることもできます。そのためには、ツールバーの [**レポートの表示**] ボタンをクリックします。[**OneNote の場所の選択**] ダイアログ ボックスで、データのコピー先となる OneNote のセクションを選択し、[**OK**] をクリックします。
   

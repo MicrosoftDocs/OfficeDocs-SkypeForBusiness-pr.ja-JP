@@ -1,8 +1,8 @@
 ---
 title: 存続可能ブランチ アプライアンスの PSTN を追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 description: ブランチ サイトでの存続可能ブランチ アプライアンスの公衆交換電話網 (PSTN) ゲートウェイを定義するには、次の情報を指定します。
-ms.openlocfilehash: 477aa014d6b4450dae3422e6893e7f7f0a48c703
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: a911e94306999645b9f631f1e9b37d405bd1d155
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217078"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828607"
 ---
-# <a name="add-survivable-branch-appliance-pstn"></a>存続可能ブランチ アプライアンスの PSTN を追加する
+# <a name="add-survivable-branch-appliance-pstn"></a>存続可能ブランチ アプライアンスの PSTN の追加
  
 ブランチ サイトでの存続可能ブランチ アプライアンスの公衆交換電話網 (PSTN) ゲートウェイを定義するには、次の情報を指定します。 
   

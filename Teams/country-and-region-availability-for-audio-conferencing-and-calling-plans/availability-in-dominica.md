@@ -1,7 +1,7 @@
 ---
-title: ドミニカでの可用性
-ms.author: v-lanac
-author: LanaChin
+title: ドミニカ国での利用可能性
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -24,25 +24,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、ドミニカで利用できる Microsoft 365 および Skype for Business および Microsoft Teams 用の Office 365 サービスを紹介します。
-ms.openlocfilehash: 079486a0927e5fafc5dd3b9e4e360fed38489a1c
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: ここでは、ドミニカで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
+ms.openlocfilehash: 11b2f5fe51629fdac22425f9c045dcdb02252f50
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230275"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804717"
 ---
-# <a name="availability-in-dominica"></a>ドミニカでの可用性
+# <a name="availability-in-dominica"></a>ドミニカでの利用可能時間
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、ドミニカで利用できる Microsoft 365 および Skype for Business および Microsoft Teams 用の Office 365 サービスを紹介します。
+ここでは、ドミニカで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい、[分単位の支払い](../audio-conferencing-pay-per-minute.md)のみ  <br/> |
+|電話会議は購入できますか?  <br/> |はい[、分単位支払いのみ](../audio-conferencing-pay-per-minute.md)  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> |いいえ <br> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
@@ -52,7 +52,7 @@ ms.locfileid: "44230275"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> | はい <br/> |
-|自動応答 <br/> | 連絡可能  <br/> |
+|自動応答 <br/> | 利用可能  <br/> |
 |通話キュー  <br/> | 利用可能 <br/> |
 |ボイスメール  <br/> | 連絡可能 <br/> |
    
@@ -64,7 +64,7 @@ ms.locfileid: "44230275"
 |通話プランで利用可能な通話分数  <br/> | 該当しない<br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
+通話プランを購入できない場合は、電話システム ダイレクト ルーティング [の使用を検討してください](../direct-routing-landing-page.md)。 直接ルーティングを使用すると、事実上すべてのテレフォニー通信事業者で電話システムを使用できます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

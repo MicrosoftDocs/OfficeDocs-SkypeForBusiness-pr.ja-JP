@@ -1,7 +1,7 @@
 ---
-title: 直接ルーティング用に Ringback ボットを設定する
-author: LanaChin
-ms.author: v-lanac
+title: ダイレクト ルーティング用にリングバック ボットをセットアップする
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
@@ -9,38 +9,38 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-description: Ringback bot を直接ルーティング用に使用して、通話が確立されているときに発生する可能性のある予期しない silences を防ぐ方法について説明します。
+description: 呼び出しが確立されているときに発生する可能性がある予期しない無音を防ぐために、直接ルーティングにリングバック ボットを使用する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26738002ab333d2490ef0dac5674a1f7cdc19efd
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 91cea9183a85a804ca43464aab08f417ccaff1e8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420957"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827517"
 ---
-# <a name="set-up-the-ringback-bot-for-direct-routing"></a>直接ルーティング用に Ringback ボットを設定する
+# <a name="set-up-the-ringback-bot-for-direct-routing"></a>ダイレクト ルーティング用にリングバック ボットをセットアップする
 
-この記事では、Ringback ボットについて説明します。これは、通話の発信に時間がかかる場合に発生する可能性のある予期しない silences を回避するために使用できます。 Ringback bot は、メディア以外のバイパスモードで直接ルーティングすることができます。
+この記事では、呼び出しの確立に長い時間がかかる場合に発生する可能性がある予期しない無音を回避するために使用できるリングバック ボットについて説明します。 リングバック ボットは、メディア以外のバイパス モードのダイレクト ルーティングで利用できます。
 
-公衆交換電話網 (PSTN) から Teams への着信通話は、確立に予想以上に時間がかかることがあります。 これはさまざまな理由で発生する可能性があります。 この問題が発生した場合、発信者は何も聞こえないか、Teams クライアントが呼び出しを行わないため、一部の通信プロバイダーが通話をキャンセルする可能性があります。
+公衆交換電話網 (PSTN) から Teams クライアントへの着信通話は、確立が想定以上に長くなる場合があります。 これは、さまざまな理由で発生する可能性があります。 この場合、発信者は何も聞こえない、Teams クライアントが呼び出されない、一部の通信プロバイダーが通話をキャンセルする場合があります。
 
-Ringback ボットは、このシナリオで発生する可能性のある予期しない silences を回避するのに役立ちます。 PSTN から Teams クライアントへの着信通話については、Ringback bot は、呼び出し元に対して特徴的な音声信号を再生し、チームが通話の確立プロセス中であることを示します。
+リングバック ボットは、このシナリオで発生する可能性がある予期しない無音を回避するのに役立ちます。 PSTN から Teams クライアントへの着信通話の場合、リングバック ボットは呼び出し元に対して独自の音声信号を再生し、Teams が通話を確立中を示します。
 
 > [!NOTE]
-> Ringback ボットは、Teams バックエンドから早期メディアを生成します。 一部の国と地域では、メディアの流れを開始したときに、通話料金がかかる場合があります。
+> リングバック ボットは、Teams バックエンドから初期メディアを生成します。 一部の国と地域では、メディアの流れを開始するときに通話料金が請求される場合があります。
 
-## <a name="configure-the-ringback-bot"></a>Ringback ボットを構成する
+## <a name="configure-the-ringback-bot"></a>リングバック ボットを構成する
 
-[CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)コマンドレットを使用して、以前に定義したセッション境界コントローラー (SBC) 構成を変更するか、 [CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)コマンドレットを使用して新しい SBC 構成を作成し、 **GenerateRingingWhileLocatingUser** パラメーターと共に Ringback ボットを構成します。
+[Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)コマンドレットを使用して、以前に定義されたセッション ボーダー コントローラー (SBC) 構成を変更するか [、New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)コマンドレットを使用して **、GenerateRingingWhileLocatingUser** パラメーターと共に新しい SBC 構成を作成し、リングバック ボットを構成します。
 
-- Ringback bot を有効にするには、 **GenerateRingingWhileLocatingUser** パラメーターを [ **$True**] に設定します。 これは既定の値です。 
+- リングバック ボットを有効にする場合は **、GenerateRingingWhileLocatingUser** パラメーターを **$True。** これが既定値です。 
 
-- Ringback bot をオフにするには、 **GenerateRingingWhileLocatingUser** パラメーターを [ **$False**] に設定します。 
+- リングバック ボットをオフにする場合は **、GenerateRingingWhileLocatingUser** パラメーターを次に **$False。** 
 
 ## <a name="related-topics"></a>関連項目
 

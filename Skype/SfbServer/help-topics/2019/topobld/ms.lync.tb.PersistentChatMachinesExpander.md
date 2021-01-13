@@ -1,8 +1,8 @@
 ---
-title: 常設チャット コンピューターのエキスパンダー
+title: 常設チャット コンピューターの展開
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
-description: 展開済みの常設チャットサーバーまたは常設チャットサーバープールをアクティブ化または非アクティブ化するには、[コンピューターの状態の設定] に表示されているサーバーまたはプールを使用します。 一覧にあるサーバーまたはプールを選択し、[アクティブにする] をクリックすると、サーバーまたはプールはアクティブに設定されます。
-ms.openlocfilehash: f1a214828093846823e9e3e6f99287b165f96299
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: コンピューターの状態設定に一覧表示されているサーバーまたはプールを使用して、展開された常設チャット サーバーまたは常設チャット サーバー プールをアクティブ化または非アクティブ化します。 一覧にあるサーバーまたはプールを選択し、[アクティブにする] をクリックすると、サーバーまたはプールはアクティブに設定されます。
+ms.openlocfilehash: 7c7839684204a8df4fb1d1bb2c22f0571fe40fb4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795136"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829887"
 ---
-# <a name="persistent-chat-machines-expander"></a>常設チャット コンピューターのエキスパンダー
+# <a name="persistent-chat-machines-expander"></a>常設チャット コンピューター エキスパンダー
 
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams へのアップグレード](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーを Teams に移行するか、Skype for Business Server 2015 を使い続けるかのどちらかを選択できます。
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については [、「Skype for Business から Microsoft Teams へのアップグレード」を参照してください](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 を引き続き使用するかのどちらかを選択できます。

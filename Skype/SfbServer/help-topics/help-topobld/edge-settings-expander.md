@@ -1,8 +1,8 @@
 ---
 title: エッジ設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
-ms.openlocfilehash: c2d4ec8e97557a584821bb82ef1d24b9bfa7a9bb
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 7f202dc03d0c83c324f4dc2a75928e022a68250c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218898"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49828577"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
 
@@ -38,7 +38,7 @@ ms.locfileid: "48218898"
 
 エッジ サーバー プールの内部プールの完全修飾ドメイン名 (FQDN)。この設定を変更するには、プールの FQDN を編集します。
 
-Lync Server 2013、Microsoft Lync Server 2010、または Microsoft Office Communications Server 2007 R2 信頼されたパートナーとのフェデレーションを設定する場合は、[ **このエッジプールのフェデレーションを有効にする (ポート 5061)** ] チェックボックスをオンにします。
+Lync Server 2013、Microsoft Lync Server 2010、または Microsoft Office Communications Server 2007 R2 の信頼できるパートナーとのフェデレーションを設定する場合は、このエッジ プールのフェデレーションを有効にする (ポート **5061)** チェック ボックスをオンにします。
 
 [**このエッジ プールの XMPP フェデレーションを有効化 (ポート 5269)**] を選択して、XMPP フェデレーションを有効にします。
 
@@ -46,7 +46,7 @@ Lync Server 2013、Microsoft Lync Server 2010、または Microsoft Office Commu
 
 ## <a name="next-hop-selection-settings"></a>次ホップ選択設定
 
-エッジサーバーが内部インフラストラクチャと通信するために使用する **次ホッププール** を設定または変更するには、ドロップダウンリストボックスからディレクター、ディレクタープール、フロントエンドサーバー、またはフロントエンドサーバープールを選択します。 トポロジビルダーで構成されているディレクターまたはフロントエンドのみが選択対象として表示されます。
+エッジ サーバーが内部インフラストラクチャとの通信に使用する次ホップ プールを設定または変更するには、ドロップダウン リスト ボックスからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバー プールを選択します。 トポロジ ビルダーで構成されているディレクターまたはフロントエンドだけが選択用に表示されます。
 
 ## <a name="edge-server-configuration"></a>エッジ サーバー構成
 
@@ -57,7 +57,7 @@ Lync Server 2013、Microsoft Lync Server 2010、または Microsoft Office Commu
 各外部サービスについて、FQDN および関連付けられたポートを指定します。たとえば、**[SIP アクセス]** に sip.contoso.com および関連付けられたポート 5061 を使用します。
 
 > [!IMPORTANT]
-> 外部に提供される各サービスで別々の FQDN を使用する場合は、各サービスに固有のポート値を関連付ける必要があります。 既定では、SIP はポート 5061/TLS、web 会議エッジサービスはポート 444/TLS、音声ビデオ会議サーバーはポート 443/TLS に設定されています。 別々の FQDN と IP アドレス、またはポートを使用することを含め、これらの設定に変更を加える場合は、最初に構成された値に依存する他のすべてのサービスを更新する必要があります。
+> 外部に提供される各サービスで別々の FQDN を使用する場合は、各サービスに固有のポート値を関連付ける必要があります。 既定では、SIP はポート 5061/TLS、Web 会議エッジ サービスはポート 444/TLS、音声ビデオ会議サーバーはポート 443/TLS です。 別々の FQDN と IP アドレス、またはポートを使用することを含め、これらの設定に変更を加える場合は、最初に構成された値に依存する他のすべてのサービスを更新する必要があります。
 
 外部に提供されるサービスのために、組織では 1 つの FQDN と IP アドレスを使用することを決定した場合は、[**Web 会議と音声ビデオで別々の FQDN と IP アドレスを有効にする**] チェック ボックスをオフにします。必要に応じて、[**SIP アクセス**] のプールの FQDN とポート値を編集できます。
 

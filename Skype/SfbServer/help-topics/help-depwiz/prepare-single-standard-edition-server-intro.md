@@ -1,8 +1,8 @@
 ---
 title: 単一の Standard Edition サーバーの準備 (開始)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
-description: 中央管理ストアおよび選択した他の併置されたサービスを保持する Skype for Business Server 2015 Standard Edition server のインストールを開始するには、サーバーのローカル管理者グループのメンバーとしてログインしている必要があります。Standard Edition サーバーになります。 [単一の Standard Edition サーバーの準備] ページに、初期インストールの要件が表示されます。 コンピューターが展開先のドメインのメンバーであり、フォレストでスキーマ、フォレスト、およびドメインの準備を正常に完了している必要があります。
-ms.openlocfilehash: a426d734c7644511d31a5b53d3a4939c95f979f3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 中央管理ストアと、選択したその他の一部のサービスを保持する Skype for Business Server 2015 Standard Edition サーバーのインストールを開始するには、Standard Edition サーバーになるサーバーのローカルの Administrators グループのメンバーとしてログインする必要があります。 [単一の Standard Edition サーバーの準備] ページに、初期インストールの要件が表示されます。 コンピューターが展開先のドメインのメンバーであり、フォレストでスキーマ、フォレスト、およびドメインの準備を正常に完了している必要があります。
+ms.openlocfilehash: 0523645350c6d6f2c0e42237b944f29193e06555
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823471"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829787"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>単一の Standard Edition サーバーの準備 (開始)
  
-中央管理ストアおよび選択した他の併置されたサービスを保持する Skype for Business Server 2015 Standard Edition server のインストールを開始するには、サーバーのローカル管理者グループのメンバーとしてログインしている必要があります。Standard Edition サーバーになります。 [**単一の Standard Edition サーバーの準備**] ページに、初期インストールの要件が表示されます。 コンピューターが展開先のドメインのメンバーであり、フォレストでスキーマ、フォレスト、およびドメインの準備を正常に完了している必要があります。
+中央管理ストアと、選択したその他の一部のサービスを保持する Skype for Business Server 2015 Standard Edition サーバーのインストールを開始するには、Standard Edition サーバーになるサーバーのローカルの Administrators グループのメンバーとしてログインする必要があります。 **[単一の Standard Edition サーバーの準備]** ページに、初期インストールの要件が表示されます。 コンピューターが展開先のドメインのメンバーであり、フォレストでスキーマ、フォレスト、およびドメインの準備を正常に完了している必要があります。
   
-この特別なタスクは、Standard Edition サーバーをインフラストラクチャの最初のサーバーとして設定するように設計されています。 このタスクは、SQL Server Express の中央管理ストアを Standard Edition Server にインストールします。 別の Standard Edition サーバーまたはフロントエンド プールを既に展開している場合は、[**キャンセル**] をクリックします。
+この特別なタスクは、Standard Edition サーバーをインフラストラクチャの最初のサーバーとして設定するよう設計されています。 このタスクでは、Standard Edition サーバーに中央管理ストア (SQL Server Express) をインストールします。 別の Standard Edition サーバーまたはフロントエンド プールを既に展開している場合は、**[キャンセル]** をクリックします。
   
 > [!NOTE]
-> このタスクが完了したら、トポロジビルダーをインストールし (まだインストールしていない場合)、トポロジドキュメントを構成します。 このトピックで説明するタスクを完了すると展開される中央管理ストアが利用できるようになるまで、トポロジ ドキュメントを公開することはできません。 
+> このタスクを完了したら、トポロジ ビルダーをインストールして (まだインストールしていない場合)、トポロジ ドキュメントを構成します。 このトピックで説明するタスクを完了すると展開される中央管理ストアが利用できるようになるまで、トポロジ ドキュメントを公開することはできません。 
   
 

@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (グループ)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
-description: '[読み取り専用グループの指定] で、監視レポートへの読み取り専用アクセスを許可するグループを指定します。'
-ms.openlocfilehash: 8962fa38ed61d5636b4e4a3178b634368ef66dd1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[読み取り専用グループの指定] で、監視レポートへの読み取り専用アクセスを付与するグループを指定します。'
+ms.openlocfilehash: 07058d17d2f75750201725bf1ff548e02c48351a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823361"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829597"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (グループ)
 
-[**読み取り専用グループの指定**] で、監視レポートへの読み取り専用アクセスを許可するグループを指定します。 [&gt;\\Domain&lt;access &lt;の書式設定&gt;] グループを使用します。 例: contoso\RTCUniversalReadOnlyAdmins.
+[**読み取り専用グループの指定**] で、監視レポートへの読み取り専用アクセスを付与するグループを指定します。 ドメイン アクセス グループの &lt; 形式 &gt; \\ &lt; を使用します &gt; 。 たとえば、「contoso\RTCUniversalReadOnlyAdmins」と入力します。
   
-グループの読み取り専用アクセスを割り当てることは省略可能です。 今すぐ読み取り専用アクセス許可を付与しない場合は、SQL Server Reporting Services で後で直接構成できます。
+グループの読み取り専用アクセスの割り当てはオプションです。読み取り専用アクセスをすぐに付与しない場合、後で SQL Server Reporting Services に直接構成できます。
   
 

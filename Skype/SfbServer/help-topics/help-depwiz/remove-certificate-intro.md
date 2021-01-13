@@ -1,8 +1,8 @@
 ---
 title: 証明書の削除 (開始)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
-description: '[証明書の紹介の削除] ページで、証明書の削除の影響について慎重に確認します。 この情報を読み終わったら、[次へ] をクリックして続行します。'
-ms.openlocfilehash: 8f0c334198a723cb333287fd421e11cf907da432
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[証明書の削除] 概要ページで、証明書を削除することの意味についての情報を注意深く読んでください。 この情報を読み終えたら、[次へ] をクリックして続行します。'
+ms.openlocfilehash: 1c62971c765593c630eda0f38239a0fdd35049f9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823431"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829737"
 ---
 # <a name="remove-certificate-intro"></a>証明書の削除 (開始)
  
-[**証明書**の紹介の削除] ページで、証明書の削除の影響について慎重に確認します。 この情報を読み終わったら、[**次**へ] をクリックして続行します。
+[**証明書の削除**] 概要ページで、証明書を削除することの意味についての情報を注意深く読んでください。この情報を読み終えたら、[**次へ**] をクリックして続行します。
   
 

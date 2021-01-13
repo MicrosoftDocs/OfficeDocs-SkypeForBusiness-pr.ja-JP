@@ -1,8 +1,8 @@
 ---
 title: 証明書の削除 (起動)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
-description: '[実行コマンド] ページには、証明書を削除するための詳細が表示されます。 証明書の削除からサマリー情報を確認します。 [証明書の削除] ログファイルがドロップダウンリストに表示されていることを確認し、[ログの表示] をクリックして、証明書の削除の詳細を確認します。 概要とログファイルの確認が完了したら、[完了] をクリックします。'
-ms.openlocfilehash: 5c5b66aa0453f52c3942c2986fbee84869aeeabf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[コマンドを実行しています] ページには、証明書の削除の詳細が表示されます。 証明書削除の概要情報を確認します。 ドロップダウン リストに [証明書の削除] ログ ファイルが表示されていることを確認し、[ログの表示] をクリックして証明書削除の詳細を確認します。 概要とログ ファイルの確認が終了したら、[完了] をクリックします。'
+ms.openlocfilehash: 7106e210a63294d0004741c9faa1319d8a502c0b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823421"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829727"
 ---
 # <a name="remove-certificate-invoke"></a>証明書の削除 (起動)
  
-[**実行コマンド**] ページには、証明書を削除するための詳細が表示されます。 証明書の削除からサマリー情報を確認します。 [証明書の削除] ログファイルがドロップダウンリストに表示されていることを確認し、[**ログの表示**] をクリックして、証明書の削除の詳細を確認します。 概要とログファイルの確認が完了したら、[**完了**] をクリックします。
+[**コマンドを実行しています**] ページには、証明書の削除の詳細が表示されます。証明書削除の概要情報を確認します。ドロップダウン リストに [証明書の削除] ログ ファイルが表示されていることを確認し、[**ログの表示**] をクリックして証明書削除の詳細を確認します。概要とログ ファイルの確認が終了したら、[**完了**] をクリックします。
   
 

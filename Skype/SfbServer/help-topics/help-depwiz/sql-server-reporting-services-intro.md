@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (開始)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
-description: 各フロントエンドプールと Survivable Branch Appliance には、1つの監視サーバーしか関連付けることができません。 サイトの監視が有効になっている場合、監視サーバーによって、通話の詳細記録 (CDR) と Quality of Experience (QoE) データの収集とレポートが提供されます。
-ms.openlocfilehash: a62ac4310cebcea131760075bfc74174cfaa7e6a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: フロント エンド プールと存続可能ブランチ アプライアンスのそれぞれには、監視サーバーを 1 つだけ関連付けることができます。サイトの監視が有効になっている場合、監視サーバーは通話詳細記録 (CDR) データと QoE (Quality of Experience) データの収集と報告を行います。
+ms.openlocfilehash: 6a45508c3f95da02df966e4d9905020af1b9f9b4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823461"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829577"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (開始)
  
-各フロントエンドプールと Survivable Branch Appliance には、1つの監視サーバーしか関連付けることができません。 サイトの監視が有効になっている場合、監視サーバーによって、通話の詳細記録 (CDR) と Quality of Experience (QoE) データの収集とレポートが提供されます。
+フロント エンド プールと存続可能ブランチ アプライアンスのそれぞれには、監視サーバーを 1 つだけ関連付けることができます。サイトの監視が有効になっている場合、監視サーバーは通話詳細記録 (CDR) データと QoE (Quality of Experience) データの収集と報告を行います。
   
-使用頻度が監視サーバーの容量を超えていない場合、サイトのすべてのプールと複数のセントラルサイトのプールは同じ監視サーバーを使用できます。 監視をサポートするトポロジの設計の詳細については、展開ドキュメントの「 [Skype For Business Server 2015 でのフロントエンドプールへの監視ストアの関連付け](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)」を参照してください。
+1 つのサイトのすべてのプールと複数のセントラル サイトのプールでは、使用量が監視サーバーの処理能力を超えないのであれば、同じ監視サーバーを使用できます。 監視をサポートするトポロジの設計の詳細については、「展開」のドキュメントの [「Associate a monitoring store with a Front End pool in Skype for Business Server 2015」](../../deploy/deploy-monitoring/associate-a-monitoring-store.md) を参照してください。
   
 
