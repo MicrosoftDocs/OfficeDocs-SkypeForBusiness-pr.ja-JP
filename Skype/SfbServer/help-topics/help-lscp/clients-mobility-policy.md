@@ -1,8 +1,8 @@
 ---
-title: クライアントのモバイル機能ポリシー
+title: Clients Mobility Policy
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,45 +14,45 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
-description: '[ClientsMobility Policy] ページには、展開で利用可能なモビリティーポリシーが表示されます。'
-ms.openlocfilehash: 44a61af0da2026a96bdd422b3595869d5ad27966
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '[クライアント] の [モビリティ ポリシー] ページには、展開で使用できるモビリティ ポリシーが表示されます。'
+ms.openlocfilehash: 41dbe29e29d97f1b50ff818494ebca00a5870502
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823050"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807477"
 ---
 # <a name="clients-mobility-policy"></a>クライアント: モビリティ ポリシー
 
-[**クライアント****モビリティポリシー** ] ページには、展開で利用できるモバイル機能ポリシーが表示されます。
+[Clients  **Mobility Policy] ページには**、展開で使用可能なモビリティ ポリシーが表示されます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
-**モバイル機能ポリシー**ページでは、次のタスクを実行できます。
+[**モビリティ ポリシー**] ページでは次のタスクを実行できます。
 
-- 既存のモバイル機能ポリシーの表示
+- 既存のモビリティ ポリシーを表示する
 
-- 新しいモバイル機能ポリシーを作成する
+- 新しいモビリティ ポリシーを作成する
 
-- モバイル機能ポリシーを編集する
+- モビリティ ポリシーを編集する
 
 ## <a name="ui-reference"></a>UI リファレンス
 
 以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。
 
 
-- **検索フィールド**テキストボックスに文字列を入力して、表示されたポリシーをフィルター処理します。
+- **検索フィールド** テキスト ボックスに文字列を入力して、表示されるポリシーをフィルター処理します。
 
-- **新規**[**新規**] をクリックし、[**サイト**] または [**ユーザー** ] を選択して新しいモバイルポリシーを作成します。
+- **新規** [ **新規]** をクリックし **、[サイト]** または [ **ユーザー]** を選択して新しいモビリティ ポリシーを作成します。
 
-- **編集**ポリシーを選択し、[**編集**] をクリックして、選んだポリシーのプロパティを編集します。
+- **編集** ポリシーを選択し、[編集] **をクリック** して選択したポリシーのプロパティを編集します。
 
-- **更新**表示されるポリシーの一覧を更新します。 [**更新**] をクリックすると、検索フィルター文字列がクリアされ、すべての既存のポリシーが表示されます。
+- **更新** 表示されるポリシーの一覧を更新します。 [更新] **を** クリックすると、検索フィルター文字列がクリアされ、既存のすべてのポリシーが表示されます。
 
-モビリティポリシーの構成の詳細については、「[モビリティポリシーの構成](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)」を参照してください。
+モビリティ ポリシーの構成の詳細については、「[Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)」を参照してください。
 
 ## <a name="see-also"></a>関連項目
 
-[モバイル機能の計画](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[モビリティの計画](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
-[モバイル機能の導入](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[モビリティの展開](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)

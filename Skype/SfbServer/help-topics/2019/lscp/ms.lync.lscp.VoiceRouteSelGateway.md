@@ -1,8 +1,8 @@
 ---
 title: トランクの選択
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[トランクの選択] ダイアログボックスを使用して、使用できる既存のトランクを検索します。'
-ms.openlocfilehash: be14b201d35b8e1c4018410cf134a95191a0a068
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: '[トランクの選択] ダイアログ ボックスを使用して、使用可能な既存のトランクを検索します。'
+ms.openlocfilehash: 421ccb762fc9db478858c930903ff56feca82907
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793525"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807857"
 ---
 # <a name="select-trunk"></a>トランクの選択
  
-**[トランクの選択**] ダイアログボックスを使用して、使用できる既存のトランクを検索します。
+[**トランクの選択**] ダイアログ ボックスを使用して、使用可能な既存のトランクを検索します。
   
 > [!NOTE]
-> 使用可能なすべての trunks を取得するには、[検索] ボックスに何も入力せずに、[検索] アイコンをクリックします。 
+> 使用可能なすべてのトランクを取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。 
   
  
   

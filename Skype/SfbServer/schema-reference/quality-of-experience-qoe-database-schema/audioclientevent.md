@@ -1,8 +1,8 @@
 ---
 title: AudioClientEvent テーブル
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,41 +12,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
-description: 各レコードには、音声通話中の1つのエンドポイントのクライアントイベントが含まれています。 通常、1つの通話には2つのレコードがあります。1つは呼び出し元用、もう1つは呼び出し先用です。
-ms.openlocfilehash: 713804875f9cd2a1fc37a2255697c4ffda47a3c5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 各レコードには、オーディオ呼び出しの 1 つのエンドポイントのクライアント イベントが含まれる。 通常、1 つの呼び出しには、呼び出し元用と呼び出し先用の 2 つのレコードがあります。
+ms.openlocfilehash: f5211d7f4ec3bc1d366d97def06edd325c448def
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41811085"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809687"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent テーブル
  
-各レコードには、音声通話中の1つのエンドポイントのクライアントイベントが含まれています。 通常、1つの通話には2つのレコードがあります。1つは呼び出し元用、もう1つは呼び出し先用です。
+各レコードには、オーディオ呼び出しの 1 つのエンドポイントのクライアント イベントが含まれる。 通常、1 つの呼び出しには 2 つのレコードがあります。1 つは呼び出し元用で、もう 1 つは呼び出し先用です。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されます。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されます。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine テーブル](medialine-0.md)から参照されます。  <br/> |
+|**ConferenceDateTime** <br/> |日付型  <br/> |Primary  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
 |**FromCaller** <br/> |bit  <br/> |Primary  <br/> |0: 呼び出し先のデータ  <br/> 1: 発信者のデータ  <br/> |
-|**NetworkSendQualityEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ NetworkSendQuality イベントが ' Bad ' 状態に対して発生しました。  <br/> ネットワーク品質は、ジッタまたはパケット損失の観点から、送信された音声の品質に重大な影響を与えることがあります。  <br/> |
-|**NetworkReceiveQualityEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ ReceiveSendQuality イベントが ' Bad ' 状態で発生しました。  <br/> ネットワーク品質は、ジッタまたはパケット損失の観点から、受信中のオーディオの品質に深刻な影響を与えることができます。  <br/> |
-|**NetworkDelayEventRatio スペック** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ "Bad" 状態に対して Delay イベントが発生しました。 ネットワーク待ち時間が重大であり、対話的なコミュニケーションを防ぐことで、エクスペリエンスに影響を与える  <br/> |
-|**NetworkBandwidthLowEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ低帯域幅イベントが ' Bad ' 状態に対して発生しました。 利用可能な音声エクスペリエンスを実現するには、利用可能な帯域幅が不足しています。  <br/> |
-|**CPUInsufficientEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションの割合。不適切な CPU イベントが ' Bad ' 状態に対して発生しました。 現在使用中のモダリティとアプリケーションで処理するための CPU サイクルが十分にありません。 これにより、オーディオチャンネルでひずみが発生します。  <br/> |
-|**DeviceHalfDuplexAECEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ DeviceHalfDuplexAEC イベントが ' Bad ' 状態で発生しました。 エコーを防ぐために、システムは半二重モードに設定されています。  <br/> |
-|**DeviceRenderNotFunctioningEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションの割合 DeviceRenderNotFunctioning イベントが ' Bad ' 状態に対して発生しました。 現在セッションで使用されているレンダーデバイスが正常に機能していません。 これにより、1方向の音声の問題が発生する可能性があります。  <br/> |
-|**DeviceCaptureNotFunctioningEventRatio 使い方** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ DeviceCaptureNotFunctioning イベントが ' Bad ' 状態に対して発生しました。 現在セッションで使用されているキャプチャデバイスが正常に機能していません。 これにより、1方向の音声の問題が発生する可能性があります。  <br/> |
-|**DeviceGlitchesEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションの割合 DeviceGlitches イベントが ' Bad ' 状態で発生しました。 オーディオのレンダリングで、ひずみの原因となる重大な問題が発生します。 これらのエラーは、ドライバーの問題、遅延プロシージャ呼び出し (DPC) ストーム (ドライバー)、および CPU 使用率が高くなることが原因で発生する可能性があります。  <br/> |
-|**DeviceLowSNREventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ DeviceLowSNR イベントが ' Bad ' 状態に対して発生しました。 キャプチャ品質は非常に低い。雑音が多いか、ユーザがマイクから離れすぎている。 これにより、ひずみが発生します。  <br/> |
-|**DeviceLowSpeechLevelEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ DeviceLowSpeechLevel イベントが ' Bad ' 状態で発生しました。 ユーザーの音声レベルが低すぎて、システムがそれ以上の機能を向上させることができない。 これにより、ひずみが発生したり、一方向のオーディオとして認識されるようになります。  <br/> |
-|**DeviceClippingEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ DeviceClipping イベントが ' Bad ' 状態で発生しました。  <br/> ニアエンドの音声によってマイクがクリップされる場合は、クリッピングによるひずみが発生します。 ニアエンドマイクのクリッピングを回避することが重要です。  <br/> |
-|**DeviceEchoEventRatio** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ DeviceEchoEvent イベントが ' Bad ' 状態で発生しました。 デバイスまたはセットアップが原因で、システムの補正機能を超えたエコーが発生しています。  <br/> |
-|**デバイスの Devicorています。** <br/> |10進数 (5, 2)  <br/> | <br/> |セッションのパーセンテージ Devicenなイベントが ' Bad ' 状態で発生しました。 ユーザーの音声が、ユーザーの中断を簡単にすることができるようになるため、キャプチャされたエコーと比較して、ユーザーエクスペリエンスに影響を与えることができます。 スピーカーの音量を下げて、マイクをトーカーに近づける。  <br/> |
-|**DeviceMultipleEndpointsEventCount** <br/> |int  <br/> ||セッション中に ' Bad ' 状態に対して DeviceMultipleEndpoints イベントが発生した回数。 同じセッション内の複数のオーディオエンドポイントが検出され、レンダーボリュームが減ることで、システムが補正しています。  <br/> |
-|**Deviceskのイベントカウント** <br/> |int  <br/> | <br/> |セッション中に、' Bad ' 状態に対して Deviceなイベントイベントが発生した回数。 音声フィードバックループが検出されました (複数のエンドポイントでのオーディオパスの共有によって発生)。  <br/> |
-|**Devicerendervolumevolumeeventr** <br/> |10進数 (5, 2)  <br/> ||セッションのパーセンテージ Devicerenderゼロボリュームイベントが "Bad" 状態になったときに発生しました。 レンダーデバイスがボリューム0に設定されています。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
-|**Devicerendermuteeventr** <br/> |10進数 (5, 2)  <br/> ||セッションのパーセンテージ DeviceRenderMute イベントが "Bad" 状態になったときに発生しました。 レンダーデバイスがミュートにされました。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**NetworkSendQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |NetworkSendQuality イベントが "Bad" 状態で発生したセッションの割合。  <br/> ジッターやパケット損失の観点から見たネットワーク品質は重大であり、送信される音声の品質に影響を与えます。  <br/> |
+|**NetworkReceiveQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |ReceiveSendQuality イベントが "Bad" 状態で発生したセッションの割合。  <br/> ジッターやパケット損失の観点から見たネットワーク品質は重大であり、受信する音声の品質に影響を与えます。  <br/> |
+|**NetworkDelayEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Delay イベントが "Bad" 状態で発生したセッションの割合。 ネットワーク待機時間は重大であり、対話型通信を防止することでエクスペリエンスに影響を与えます。  <br/> |
+|**NetworkBandwidthLowEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |LowBandwidth イベントが "Bad" 状態で発生したセッションの割合。 使用可能な帯域幅は、許容できる音声エクスペリエンスには不十分です。  <br/> |
+|**CPUInsufficientEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |"Bad" 状態に対して十分な CPU イベントが発生したセッションの割合。 現在のモダリティとアプリケーションを使用して処理する CPU サイクルが不十分です。 これにより、オーディオ チャネルにゆがみが生じる原因です。  <br/> |
+|**DeviceHalfDuplexAECEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceHalfDuplexAEC イベントが "Bad" 状態で発生したセッションの割合。 エコーを防止するために、システムは半二重に入っています。  <br/> |
+|**DeviceRenderNotFunctioningEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceRenderNotFunctioning イベントが "Bad" 状態で発生したセッションの割合。 セッションに現在使用されているレンダー デバイスが正しく機能していません。 これにより、一方通行のオーディオの問題が発生する可能性があります。  <br/> |
+|**DeviceCaptureNotFunctioningEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceCaptureNotFunctioning イベントが "Bad" 状態で発生したセッションの割合。 セッションに現在使用されているキャプチャ デバイスが正しく機能していません。 これにより、一方通行のオーディオの問題が発生する可能性があります。  <br/> |
+|**DeviceGlitchesEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceGlitches イベントが "Bad" 状態で発生したセッションの割合。 オーディオのレンダリングに重大な障害が発生し、ゆがみを引き起こしています。 これらの障害は、ドライバーの問題、遅延プロシージャ コール (DPC) のストーマー (ドライバー)、および CPU 使用率の高さによって発生する可能性があります。  <br/> |
+|**DeviceLowSNREventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceLowSNR イベントが "Bad" 状態で発生したセッションの割合。 キャプチャ品質が非常に低く、非常にノイズが高い、またはユーザーがマイクから離れすぎて話している。 これにより、ゆがみが生じる可能性があります。  <br/> |
+|**DeviceLowSpeechLevelEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceLowSpeechLevel イベントが "Bad" 状態で発生したセッションの割合。 ユーザーの音声レベルが低すぎるので、システムはそれ以上音声レベルを上げできません。 これにより、ゆがみの原因となるか、一方通行のオーディオとして認識される可能性があります。  <br/> |
+|**DeviceClippingEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |DeviceClipping イベントが "Bad" 状態で発生したセッションの割合。  <br/> 近端音声がマイクをクリッピングすると、クリッピングによるゆがみが聞こえます。 近端マイクのクリッピングを回避することが重要です。  <br/> |
+|**DeviceEchoEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceEchoEvent イベントが "Bad" 状態で発生したセッションの割合。 デバイスまたはセットアップによって、システムが補正する機能を超えるエコーが発生しています。  <br/> |
+|**DeviceNearEndToEchoRatioEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceNearEndToEchoRatio イベントが "Bad" 状態で発生したセッションの割合。 ユーザーの音声はキャプチャされるエコーに比べて低すぎるので、ユーザーエクスペリエンスに影響を与えるのは、ユーザーを中断する簡単さが制限されるからです。 スピーカーの音量を小さめ、話し手の近くにマイクを移動します。  <br/> |
+|**DeviceMultipleEndpointsEventCount** <br/> |int  <br/> ||セッション中に DeviceMultipleEndpoints イベントが "Bad" 状態で発生した回数。 同じセッション内の複数のオーディオ エンドポイントが検出され、システムはレンダー ボリュームを減らすことで問題を引き受けしました。  <br/> |
+|**DeviceHowlingEventCount** <br/> |int  <br/> | <br/> |セッション中に DeviceHowlingEvent イベントが "Bad" 状態で発生した回数。 音声フィードバック ループが検出されました (オーディオ パスを共有する複数のエンドポイントによって発生します)。  <br/> |
+|**DeviceRenderZeroVolumeEventRatio** <br/> |decimal(5,2)  <br/> ||DeviceRenderZeroVolume イベントが "Bad" 状態で発生したセッションの割合。 レンダー デバイスはゼロ ボリュームに設定されています。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
+|**DeviceRenderMuteEventRatio** <br/> |decimal(5,2)  <br/> ||DeviceRenderMute イベントが "Bad" 状態で発生したセッションの割合。 レンダー デバイスがミュートされました。  <br/> この列は Microsoft Lync Server 2013 で導入されました。  <br/> |
    
 

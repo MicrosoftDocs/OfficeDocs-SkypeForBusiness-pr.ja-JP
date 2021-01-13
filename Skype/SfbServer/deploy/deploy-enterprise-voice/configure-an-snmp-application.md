@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server で SNMP アプリケーションを構成する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: Skype for Business Server Enterprise Voice で E9-1-1 と連携するように SNMP アプリケーションを構成します。
-ms.openlocfilehash: fd8db117f590343d3e2f5a0194a0f6d8c3bcfb39
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Skype for Business Server サービスで E9-1-1 と動作する SNMP アプリケーションをエンタープライズ VoIP。
+ms.openlocfilehash: eb1947f24968dccc6f45b6d8ea3a7df42282a58f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768140"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804157"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Skype for Business Server で SNMP アプリケーションを構成する
  
-Skype for Business Server Enterprise Voice で E9-1-1 と連携するように SNMP アプリケーションを構成します。 
+Skype for Business Server サービスで E9-1-1 と動作する SNMP アプリケーションをエンタープライズ VoIP。 
   
-Skype for Business Server には標準の web サービスインターフェイスが含まれています。これを使用すると、場所情報サービスを、MAC アドレスとポートおよびスイッチ情報を照合する簡易ネットワーク管理プロトコル (SNMP) アプリケーションに接続することができます。 
+Skype for Business Server には、場所情報サービスをポートおよびスイッチ情報と MAC アドレスと一致する簡易ネットワーク管理プロトコル (SNMP) アプリケーションに接続するために使用できる標準の Web サービス インターフェイスが含まれています。 
   
-SNMP アプリケーションがインストールされていて、位置情報サービスが位置情報データベースで一致を見つけることができなかった場合、位置情報サービスは、クライアントから提供された MAC アドレスを使ってアプリケーションを自動的に照会します。 次に、位置情報サービスは、SNMP アプリケーションによって返されるポートとスイッチの情報を使用して、位置情報データベースをもう一度照会します。
+SNMP アプリケーションがインストールされ、場所情報サービスが場所データベースで一致するアプリケーションを検出できない場合、場所情報サービスは、クライアントが提供する MAC アドレスを使用してアプリケーションを自動的に照会します。 その後、場所情報サービスは、SNMP アプリケーションから返されたポートとスイッチ情報を使用して、場所データベースに再度クエリを実行します。
   
 > [!NOTE]
-> MAC アドレスは、Windows 8 を実行しているコンピューターでは使用できません。 
+> MAC アドレスは、MAC アドレスを実行しているコンピューター Windows 8。 
   
 ### <a name="to-configure-the-snmp-application-url"></a>SNMP アプリケーションの URL を構成するには
 
-1.  Skype for Business Server 管理シェルを以下の手順で起動します。[**スタート**]、[**すべてのプログラム**]、[**Skype for Business 2015**]、[**Skype for Business Server 管理シェル**] の順にクリックします。
+1.  Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
     
 2. 次のコマンドレットを使用して SNMP アプリケーションの URL を構成します。 
     

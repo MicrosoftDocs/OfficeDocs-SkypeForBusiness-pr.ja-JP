@@ -1,8 +1,8 @@
 ---
-title: ネットワークサイトを構成する新規作成または既存の編集
+title: ネットワーク サイトの新規作成または既存の編集を構成する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 2719bebe7c3f5a73ffd4b41f7a8c4024ebb63813
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 49ed9b9867cd5ace760c655ee77ad274d2fd229b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795298"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808497"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>ネットワーク サイトの構成: 新規作成または現在の形式のままで編集
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [ネットワークサイトの構成](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [ネットワーク サイトの構成](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 
 

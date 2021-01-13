@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server で2要素認証を管理する
+title: Skype for Business Server で 2 要素認証を管理する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,74 +12,74 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: '概要: Skype for Business Server で2要素認証を管理します。'
-ms.openlocfilehash: 90dc286e247c0c6eeb75bb884071b85e57663278
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: '概要: Skype for Business Server で 2 要素認証を管理します。'
+ms.openlocfilehash: 415eb23779450bc09cdaa25ea2e60b6cf3526e40
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818719"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806544"
 ---
-# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Skype for Business Server で2要素認証を管理する
+# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Skype for Business Server で 2 要素認証を管理する
  
-**概要:** Skype for Business Server で2要素認証を管理する。
+**概要:** Skype for Business Server で 2 要素認証を管理します。
   
-2 要素認証では、ユーザーが 2 つの形式の認証情報または識別情報、つまりユーザー名/パスワードの組み合わせと、トークンまたは証明書を提示する必要があるため、セキュリティが強化されます。 これは、「持っていること、知っていること」とも呼ばれます。 
+2 要素認証では、ユーザー名/パスワードの組み合わせとトークンまたは証明書の 2 種類の認証または識別をユーザーに提供する必要が生じ、セキュリティが強化されます。 これは、"ユーザーが持っているもの、知っているもの" とも呼ばれる。 
   
-証明書を使用した 2 要素認証の一般的な例として、スマート カードの使用があります。スマート カードにはユーザー アカウントに関連付けられている証明書が格納されていて、サーバーに格納されているユーザー情報と証明書情報に対する検証を行うことができます。ユーザー情報 (ユーザー名とパスワード) と提供された証明書を比較することで、サーバーでは資格情報を検証し、ユーザーを認証します。
+証明書を使用した 2 要素認証の一般的な例として、スマート カードの使用があります。 スマート カードには、ユーザー アカウントに関連付けられた証明書が含まれているので、サーバーに保存されているユーザーおよび証明書の情報に対して検証できます。 ユーザー情報 (ユーザー名とパスワード) と提供された証明書を比較することで、サーバーは資格情報を検証し、ユーザーを認証します。
   
-Skype for Business Server 環境を構成して、2段階認証をサポートする場合は、次の点を考慮してください。
+2 要素認証をサポートする Skype for Business Server 環境を構成する場合は、次の点を考慮してください。
   
-## <a name="client-support"></a>クライアントのサポート
+## <a name="client-support"></a>クライアント サポート
 
-Lync Server 2013 の累積的な更新: 2013 年7月のデスクトップクライアントと Skype for Business クライアントは、現在2要素認証をサポートしている唯一のクライアントです。
+Lync Server 2013 の累積的な更新プログラム: 2013 年 7 月のデスクトップ クライアントと Skype for Business クライアントは、現在 2 要素認証をサポートしている唯一のクライアントです。
   
 ## <a name="topology-requirements"></a>トポロジ要件
 
-お客様は、エッジ、監督、ユーザープールと共に、専用の Skype for Business Server を使用して2要素認証を展開することを強くお勧めします。 ユーザーに対してパッシブ認証を有効にするには、次に示すように、他の役割およびサービスに対してその他の認証方法を無効にする必要があります。
+お客様は、エッジ、ディレクター、およびユーザー プールを備える専用の Skype for Business Server を使用して、2 要素認証を展開強く推奨します。 ユーザーに対してパッシブ認証を有効にするには、次のような他の役割とサービスに対して他の認証方法を無効にする必要があります。
   
 |**構成の種類**|**サービスの種類**|**サーバーの役割**|**無効にする認証の種類**|
 |:-----|:-----|:-----|:-----|
-|Web サービス  <br/> |WebServer  <br/> |ディレクター  <br/> |Kerberos、NTLM、証明書  <br/> |
-|Web サービス  <br/> |WebServer  <br/> |フロントエンド  <br/> |Kerberos、NTLM、証明書  <br/> |
+|(Web) サービス  <br/> |WebServer  <br/> |ディレクター  <br/> |Kerberos、NTLM、および証明書  <br/> |
+|(Web) サービス  <br/> |WebServer  <br/> |フロントエンド  <br/> |Kerberos、NTLM、および証明書  <br/> |
 |プロキシ  <br/> |EdgeServer  <br/> |Edge  <br/> |Kerberos および NTLM  <br/> |
 |プロキシ  <br/> |レジストラー  <br/> |フロントエンド  <br/> |Kerberos および NTLM  <br/> |
    
-これらの認証の種類がサービス レベルで無効になっていない限り、2 要素認証が展開内で有効になっても、他のすべてのバージョンのクライアントでは正常にサインインできません。
+これらの認証の種類がサービス レベルで無効になっていない限り、展開内で 2 要素認証が有効になると、他のすべてのバージョンのクライアントは正常にサインインできません。
   
 ## <a name="skype-for-business-service-discovery"></a>Skype for Business サービスの検出
 
-Skype for business サービスを検出するために、内部または外部のクライアントによって使用される DNS レコードは、2要素認証が有効になっていない Skype for Business サーバーに解決するように構成する必要があります。 この構成では、2要素認証が有効になっていない Skype for Business プールのユーザーは、認証のために PIN を入力する必要がなく、2要素認証が有効になっている Skype for Business プールのユーザーは実行されません。認証のために PIN を入力する必要があります。
+内部クライアントや外部クライアントが Skype for Business サービスを検出するために使用する DNS レコードは、2 要素認証が有効になっていない Skype for Business サーバーに解決するように構成する必要があります。 この構成では、2 要素認証が有効になっていない Skype for Business プールのユーザーは認証のために PIN を入力する必要はありません。一方、2 要素認証が有効になっている Skype for Business プールのユーザーは、認証のために PIN を入力する必要があります。
   
 ## <a name="exchange-authentication"></a>Exchange 認証
 
-Microsoft Exchange の2要素認証を導入しているお客様は、クライアントの一部の機能が利用できない可能性があります。 現時点では、Skype for Business クライアントは Exchange 統合に依存する機能に対して2要素認証をサポートしていないため、これは現在設計になっています。
+Microsoft Exchange の 2 要素認証を展開しているお客様は、クライアント内の特定の機能が使用できないことに気が付く場合があります。 Skype for Business クライアントは Exchange 統合に依存する機能に対して 2 要素認証をサポートしていないので、これは現在設計されています。
   
 ## <a name="contacts"></a>連絡先
 
-ユニファイド連絡先ストア機能を利用するように構成されている Skype for Business ユーザーは、2要素認証を使用してサインインした後、連絡先を使用できなくなります。
+統合連絡先ストア機能を利用するように構成されている Skype for Business ユーザーは、2 要素認証でサインインした後に連絡先を利用できなくなりました。
   
-2要素認証を有効にする前に、 **CsUcsRollback**コマンドレットを使用して、統合された連絡先ストアから既存のユーザーの連絡先を削除し、それらを Skype For business Server に保存する必要があります。
+2 要素認証を有効にする前に **、Invoke-CsUcsRollback** コマンドレットを使用して、既存のユーザー連絡先を統合連絡先ストアから削除し、それらを Skype for Business Server に保存する必要があります。
   
 ## <a name="skill-search"></a>スキル検索
 
-Skype for Business 環境でスキル検索機能を構成している場合は、Skype for Business が2要素認証を有効にしているときに、この機能が機能しないことがわかります。 現在、Microsoft SharePoint では 2 要素認証がサポートされていないため、これは仕様です。
+Skype for Business 環境でスキル検索機能を構成したお客様は、Skype for Business で 2 要素認証が有効になっている場合、この機能は機能しません。 現在、Microsoft SharePoint は 2 要素認証をサポートしていないので、これは設計上の問題です。
   
 ## <a name="credentials"></a>資格情報
 
-2要素認証を使用するように構成されているユーザーに影響を与える可能性のある、Skype for Business の資格情報を保存することについて、いくつかの展開の考慮事項があります。
+保存された Skype for Business 資格情報は、2 要素認証を使用するように構成されているユーザーに影響を与える可能性がある展開に関する考慮事項が多数ある。
   
 ### <a name="deleting-saved-credentials"></a>保存された資格情報の削除
 
-ユーザーは、Skype for Business クライアントで **[サインイン情報の削除**] オプションを使用して、2要素認証を使用して初めてサインインする前に、%Localappdata%\Microsoft\Office\15.0\Skype for BUSINESS から SIP プロファイルフォルダーを削除する必要があります。
+ユーザーは、2 要素認証を使用して初めてサインインする前に、Skype for Business クライアントの [サインイン情報の削除] オプションを使用し、SIP プロファイル フォルダーを %localappdata%\Microsoft\Office\15.0\Skype for Business から削除する必要があります。 
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
-Kerberos 認証方法または NTLM 認証方法を使用すると、ユーザーの Windows 資格情報が認証に自動的に使用されます。 Skype for Business Server の一般的な展開では、認証に Kerberos または NTLM が有効になっているため、ユーザーはサインインするたびに資格情報を入力する必要はありません。
+Kerberos または NTLM 認証方式では、ユーザーの Windows 資格情報が認証に自動的に使用されます。 認証に対して Kerberos または NTLM が有効になっている一般的な Skype for Business Server 展開では、ユーザーはサインインの度に資格情報を入力する必要がなされません。
   
-PIN の入力を求めるメッセージが表示される前に、意図せず資格情報の入力を求められた場合は、クライアント コンピューターで **DisableNTCredentials** レジストリ キーが誤って (おそらくグループ ポリシーを使用して) 構成されている可能性があります。
+PIN の入力を求めるメッセージが表示される前に、ユーザーに資格情報の入力を求めるメッセージが意図せずに表示された場合 **、DisableNTCredentials** レジストリ キーがクライアント コンピューター上で意図せず構成されている可能性があります (場合によっては、グループ ポリシーによって)。
   
-追加の資格情報の入力を求めるメッセージが表示されないようにするには、ローカルワークステーションで次のレジストリエントリを作成するか、グループポリシーを使って特定のプールのすべてのユーザーに適用する Skype for Business 管理用テンプレートを使用します。
+資格情報の追加のプロンプトが表示されるのを防ぐには、ローカル ワークステーションで次のレジストリ エントリを作成するか、Skype for Business 管理テンプレートを使用して、グループ ポリシーを使用して特定のプールのすべてのユーザーに適用します。
   
     HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
@@ -89,9 +89,9 @@ PIN の入力を求めるメッセージが表示される前に、意図せず�
   
 ### <a name="savepassword"></a>SavePassword
 
-ユーザーが初めて Skype for Business にサインインしたときに、ユーザーにパスワードの保存を促すメッセージが表示されます。 このオプションを選択すると、ユーザーのクライアント証明書が個人証明書ストアに保存され、ユーザーの Windows 資格情報がローカルコンピューターの資格情報マネージャーに格納されるようになります。
+ユーザーが初めて Skype for Business にサインインすると、ユーザーは自分のパスワードを保存するように求められます。 このオプションを選択すると、ユーザーのクライアント証明書を個人用証明書ストアに格納し、ユーザーの Windows 資格情報をローカル コンピューターの資格情報マネージャーに格納できます。
   
-Skype for Business が2要素認証をサポートするように構成されている場合は、 **Savepassword**レジストリ設定を無効にする必要があります。 ユーザーがパスワードを保存できないようにするには、ローカルワークステーション上の次のレジストリエントリを変更するか、グループポリシーを使って特定のプールのすべてのユーザーに適用する Skype for Business 管理用テンプレートを使用します。
+**2 要素認証を** サポートするように Skype for Business が構成されている場合は、SavePassword レジストリ設定を無効にする必要があります。 ユーザーがパスワードを保存しなくするには、ローカル ワークステーションで次のレジストリ エントリを変更するか、Skype for Business 管理テンプレートを使用して、グループ ポリシーを使用して特定のプールのすべてのユーザーに適用します。
   
     HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
@@ -99,17 +99,17 @@ Skype for Business が2要素認証をサポートするように構成されて
   
     Value: 0x0
   
-## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 のトークンのリプレイ
+## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 トークンの再生
 
-AD FS 2.0 には、トークン リプレイ検出と呼ばれる機能が用意されています。この機能によって、同じトークンを使用する複数のトークン要求を検出して破棄できます。この機能が有効な場合は、同じトークンが複数回使用されることがなくなるため、WS-Federation パッシブ プロファイルと SAML WebSSO プロファイルの両方において認証要求の整合性が確保されます。
+AD FS 2.0 には、同じトークンを使用した複数のトークン要求を検出して破棄できる、トークン再生検出と呼ばれる機能が用意されています。 この機能を有効にすると、トークン再生検出は、同じトークンが 2 回使用されたことがないことを確認することで、WS-Federation パッシブ プロファイルと SAML WebSSO プロファイルの両方の認証要求の整合性を保護します。
   
-キオスクを使用する場合など、セキュリティが最も重視される状況では、この機能を有効にする必要があります。 トークンの再生検出の詳細については、「 [AD FS 2.0 のセキュリティで保護された計画と展開のためのベストプラクティス](https://go.microsoft.com/fwlink/p/?LinkId=309215)」を参照してください。
+キオスクを使用する場合など、セキュリティが非常に高い懸念事項である場合は、この機能を有効にする必要があります。 トークン再生検出の詳細については [、「Secure Planning and Deployment for Secure Planning and Deployment of AD FS 2.0」](https://go.microsoft.com/fwlink/p/?LinkId=309215)を参照してください。
   
 ## <a name="external-user-access"></a>外部ユーザー アクセス
 
-外部ネットワークからの Skype for Business の2要素認証をサポートするために ADFS プロキシまたはリバースプロキシを構成する方法については、以下のトピックを参照してください。
+外部ネットワークからの Skype for Business 2 要素認証をサポートするために ADFS プロキシまたはリバース プロキシを構成する方法については、以下のトピックでは説明されていません。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server で2要素認証を構成する](configure-two-factor.md)
+[Skype for Business Server で 2 要素認証を構成する](configure-two-factor.md)
   

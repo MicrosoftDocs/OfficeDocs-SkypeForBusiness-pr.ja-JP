@@ -1,8 +1,8 @@
 ---
 title: 従来のマージの開始
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,14 +14,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
-description: 従来の展開と Skype for Business Server 2015 との統合を開始するには、[次へ] をクリックします。
-ms.openlocfilehash: d9ee69bb3616447fb0e3883c278701834a0a3f07
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 従来の展開と Skype for Business Server 2015 のマージを開始するには、[次へ] をクリックします。
+ms.openlocfilehash: 004eb9f8fdfef25c5af8514b5f4dc1ff7a088d2c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218048"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806757"
 ---
-# <a name="legacy-merge-start"></a>従来のマージの開始
+# <a name="legacy-merge-start"></a>従来版のマージの開始
  
-従来の展開と Skype for Business Server 2015 との統合を開始するには、[ **次へ**] をクリックします。 
+従来の展開と Skype for Business Server 2015 のマージを開始するには、[次へ] をクリック **します**。 

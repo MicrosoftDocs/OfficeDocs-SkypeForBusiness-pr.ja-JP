@@ -1,8 +1,8 @@
 ---
 title: Office Web Apps サーバーを追加する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[新しい Office Web Apps サーバーの定義] ウィザードでは、展開で新しい Office Web Apps サーバーを定義します。 以下の情報を入力します。'
-ms.openlocfilehash: 9ca5be070d4a79a2cb011a1e91bd0613f21e8700
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Web Apps サーバーのOfficeウィザードでは、展開内の Web Apps サーバー Office新しいアプリケーションを定義します。 以下の情報を入力します。
+ms.openlocfilehash: dc82ea7b6b846940ab1975d93b70fbcb4dd9e983
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41798454"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807727"
 ---
-# <a name="add-office-web-apps-server"></a>Office Web Apps サーバーを追加する
+# <a name="add-office-web-apps-server"></a>Office Web Apps サーバーの追加
 
-[**新しい Office Web Apps サーバーの定義**] ウィザードでは、展開で新しい Office Web apps サーバーを定義します。 以下の情報を入力します。
+Web **Apps サーバーのOfficeウィザードでは** 、展開内の Web Apps サーバー Office新しいアプリケーションを定義します。 以下の情報を入力します。
 
- **Office Web Apps サーバー FQDN**: Office Web apps サーバーをホストするサーバーの完全修飾ドメイン名を入力します。
+ **Office Web Apps サーバーの FQDN**: Web Apps サーバーをホストするサーバーの完全修飾ドメイン名Office入力します。
 
- **Office Web Apps サーバー検出 URL**: Office Web apps サーバーの完全な uniform resource LOCATOR (URL) を入力します。
+ **Office Web Apps サーバーの検出 URL**: Web Apps サーバーの完全な UNIFORM Resource Locator (URL) Office入力します。
 
 > [!TIP]
-> **Office Web Apps サーバー検出 URL**の既定の動作では、次`https://<FQDN of the Office Web Apps Server/hosting/discovery`の形式の office WEB apps サーバーの FQDN に基づいて url が作成されます。 多くの場合、既定の形式を変更する必要はありません。 Office Web Apps サーバーと Office Web Apps サーバー検出 URL が異なっている必要がある場合は、既定の形式を変更する必要がある場合があります。 たとえば、Office Web Apps サーバーは境界ネットワーク内に配置され、その場所に基づいて異なる URL が設定されます。
+> **Office Web Apps サーバー** 検出 URL の既定の動作では、次の形式で Office Web Apps サーバーの FQDN に基づいて URL を作成します `https://<FQDN of the Office Web Apps Server/hosting/discovery` 。 多くの場合、既定の形式を変更する必要はありません。 Web Apps サーバーと Office Web Apps サーバーの検出 URL が異なる必要Office場合は、既定の形式を変更する必要があります。 たとえば、Office Web Apps サーバーは境界ネットワークに配置され、その場所に基づいて異なる URL を持つ場合があります。
 
- **Office Web Apps サーバーが外部ネットワーク (つまり、境界/インターネット) に展開され**ている場合: 境界ネットワーク、外部ネットワーク、または内部ネットワークと同じではないその他のネットワークゾーンなどの内部ファイアウォールの外側に Office Web apps サーバーが配置されている場合は、このチェックボックスをオンにします。
+ Office Web Apps サーバーが外部ネットワーク **(境界ネットワーク/インターネット)** に展開されている場合: Office Web Apps サーバーが内部ファイアウォールの外側 (境界ネットワーク、外部ネットワーク、内部ネットワークと同じではないその他のネットワーク ゾーンなど) にある場合は、このチェック ボックスをオンにします。
 
 ## <a name="see-also"></a>関連項目
 
-[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[会議のコンポーネンツおよびトポロジ](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

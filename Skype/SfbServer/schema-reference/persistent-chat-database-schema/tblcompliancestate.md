@@ -1,8 +1,8 @@
 ---
 title: tblComplianceState
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
-description: tblComplianceState には、プール全体のコンプライアンスの状態に関する情報が含まれています。
-ms.openlocfilehash: 6f3a7b1b7744260d0630a5328021b1752137a797
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: tblComplianceState には、プール全体のコンプライアンス状態情報が含まれている。
+ms.openlocfilehash: 82c775b315976b0e5b112c476a41a8f5adc6a24c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814635"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809727"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
-tblComplianceState には、プール全体のコンプライアンスの状態に関する情報が含まれています。
+tblComplianceState には、プール全体のコンプライアンス状態情報が含まれている。
   
-**行**
+**Columns**
 
-|**列**|**種類**|**説明**|
+|**列**|**型**|**説明**|
 |:-----|:-----|:-----|
-|lastProcessedEntryID  <br/> |bigint (null ではない)  <br/> |最新の処理済みのコンプライアンスイベントの ID です。  <br/> |
-|activeServerID  <br/> |int (null ではない)  <br/> |データベースの排他ロックを保持しているコンプライアンスサーバーの ID。または、なしの場合は-1。  <br/> |
-|lockExpirationTime  <br/> |datetime2、null ではない  <br/> |有効期限をロックします (activeServerID が-1 でない場合)。  <br/> |
+|lastProcessedEntryID  <br/> |NULL でない bigint  <br/> |処理された最新のコンプライアンス イベントの ID。  <br/> |
+|activeServerID  <br/> |NULL でない int  <br/> |データベースの排他ロックを保持しているコンプライアンス サーバーの ID。存在しない場合は -1。  <br/> |
+|lockExpirationTime  <br/> |null ではない datetime2  <br/> |ロックの有効期限 (activeServerID が -1 ではない場合)。  <br/> |
    
 

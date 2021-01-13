@@ -1,8 +1,8 @@
 ---
-title: ユーザが常設チャットを表示
+title: ユーザーが常設チャットを表示する
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,15 +14,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
-description: CsPersistentChatAdministrator ロールのメンバー (常設チャット管理者) は、チャットルーム管理者の権限と権限を他のユーザーに与えることができます。
-ms.openlocfilehash: e8c389a505aad377142ff5282348dccb342da339
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: CsPersistentChatAdministrator 役割 (常設チャット管理者) のメンバーは、他のユーザーおよび自分自身に対するチャット ルーム マネージャーの権限とアクセス許可を付与できます。
+ms.openlocfilehash: 36bd664f1bba680214eaf6315b2ed164e70ef7a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797924"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808087"
 ---
-# <a name="users-view-persistent-chat"></a>ユーザが常設チャットを表示
+# <a name="users-view-persistent-chat"></a>ユーザーが常設チャットを表示する
 
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「 [Skype For business から Microsoft Teams へのアップグレード](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)」を参照してください。 常設チャットを使用する必要がある場合は、この機能が必要なユーザーを Teams に移行するか、Skype for Business Server 2015 を使い続けるかのどちらかを選択できます。
+> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については [、「Skype for Business から Microsoft Teams へのアップグレード」を参照してください](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 を引き続き使用するかのどちらかを選択できます。
