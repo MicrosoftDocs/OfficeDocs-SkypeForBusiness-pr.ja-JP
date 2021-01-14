@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシー パッケージを使用して管理し、ユーザー グループのポリシーを管理する際に、一貫性を簡素化、合理化、および提供する方法について説明します。
-ms.openlocfilehash: 62250644d29f65a9c650db0e80477eec6baf4f3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9718751ea1d34692718b63cbe90ee6e694577c21
+ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49839451"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49862586"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシー パッケージを管理する
 
@@ -64,8 +64,8 @@ Teams には現在、次のポリシー パッケージが含まれています�
 |Education (教師)    |教師に適用されるポリシーとポリシー設定のセットを作成します。      |
 |Education (リモート学習を使用する小学校教師)    |小学校教師に適用する一連のポリシーを作成して、学生が最大限に安心して共同でリモート学習に集中できる環境づくりを行います。      |
 |Education (リモート学習を使用する主な学生)    |小学生に適用する一連のポリシーを作成して、学生が最大限に安心して共同でリモート学習に集中できる環境づくりを行います。      |
-|Firstline Manager |一連のポリシーを作成し、それらの設定を組織内の Firstline Managers に適用します。 |
-|Firstline worker |一連のポリシーを作成し、組織内の Firstline Worker にそれらの設定を適用します。 |
+|Frontline Manager |一連のポリシーを作成し、それらの設定を組織内の Fronttline マネージャーに適用します。 |
+|Fronttline worker |一連のポリシーを作成し、それらの設定を組織内の Fronttline ワーカーに適用します。 |
 |医療クリニカル ワーカー  |一連のポリシーとポリシー設定を作成し、登録された看護師、看護師、医師、ソーシャル ワーカーなどの臨床作業員にチャット、通話、シフト管理、会議へのフル アクセスを許可します。 |
 |医療情報の従業員  |IT 担当者、スタッフ、財務担当者、コンプライアンス責任者などの情報ワーカー、チャット、通話、会議へのフル アクセスを提供するポリシーとポリシー設定のセットを作成します。|
 |医療患者の部屋  |医療組織の患者室に適用されるポリシーとポリシー設定のセットを作成します。|
