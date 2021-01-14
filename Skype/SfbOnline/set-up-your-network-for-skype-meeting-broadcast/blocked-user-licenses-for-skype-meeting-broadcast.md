@@ -19,47 +19,50 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 残念なことに、ユーザーが  Skype 会議ブロードキャストにアクセスして使用するときに、ブロックされる特定のユーザー ライセンスがあります。https://broadcast.skype.com ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
-ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0b2791f0f3d04de7e1383516b0c44cf392233761
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706142"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865151"
 ---
-# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Skype 会議ブロードキャストをホストするためのユーザーライセンスがブロックされている
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Skype 会議ブロードキャストをホストするユーザー ライセンスがブロックされました
 
-申し訳ありませんが、Skype 会議ブロードキャストを開催したい場合https://broadcast.skype.comにブロックされる特定のユーザーライセンスがあります。 ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
+> [!IMPORTANT]
+> Skype for Business Online は 2021 年 7 月 31 日に廃止され、サービスへのアクセスが終了します。 Microsoft 365 のコミュニケーションとチームワークのコア クライアントである Microsoft Teams へのアップグレードを開始する方法をお勧めしています。
+
+残念ながら、ユーザーが Skype 会議ブロードキャストにアクセスしてホストする場合にブロックされる特定のユーザー ライセンス https://broadcast.skype.com があります。 ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
   
  *「あなたの会社のポリシーでは、Skype 会議ブロードキャストの使用が許可されていません。このサービスが有効にされ、正しいライセンスを保有していることをシステム管理者に確認してください。」* 
   
-## <a name="blocked-user-licenses"></a>ブロックされたユーザライセンス 
+## <a name="blocked-user-licenses"></a>ブロックされたユーザー ライセンス 
 
-次のいずれかのユーザーライセンスがユーザーに割り当てられている場合、Skype 会議ブロードキャストイベントのホスティングはブロックされます。 ブロードキャストイベントをストリーミングしている参加者には、ユーザーライセンスは必要ありません。
+次のユーザー ライセンスがユーザーに割り当てられている場合、Skype 会議ブロードキャストイベントのホストはブロックされます。 ブロードキャスト イベントをストリーミングしている出席者は、ユーザー ライセンスを必要としません。
   
-- Office 365 エデュケーション Fac/スタッフ
+- Office 365 Education Fac/Staff
     
-- Office 365 エデュケーション学生
+- Office 365 Education Student
     
-- Office 365 エデュケーション Plus Fac/スタッフ
+- Office 365 Education Plus Fac/Staff
     
-- Office 365 エデュケーション Plus Student
+- Office 365 Education Plus Student
     
 - Office 365 Education E1 Fac/Staff
     
 - Office 365 Education E1 Student
     
-- Office 365 教育 E3 Fac/スタッフ
+- Office 365 Education E3 Fac/Staff
     
 - Office 365 Education E3 Fac/Staff Large
     
-- Office 365 エデュケーション E3 学生
+- Office 365 Education E3 Student
     
 - Office 365 A1 を学生が使用するメリット
     
 - Microsoft 365 A1 を学生が使用するメリット
 
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
   
