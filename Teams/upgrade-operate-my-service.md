@@ -50,7 +50,7 @@ ms.locfileid: "49841498"
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>Teams の操作の実装方法を決定します。</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>操作ガイドを完全に確認してください。</li><li>Teams ワークロードの品質と信頼性を実現するために、組織の目標に合った運用戦略を実装します。</li><li>エクスペリエンスの品質レビュー ガイドを確認します。</li><li> 操作戦略を実装して、定期的にエクスペリエンスの品質レビューを実行し、Teams の展開が最大の機能で動作しているのを確認します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>操作ガイドを完全に確認してください。</li><li>Teams ワークロードの品質と信頼性を実現するために、組織の目標に合った運用戦略を実装します。</li><li>エクスペリエンスの品質レビュー ガイドを確認します。</li><li> 操作戦略を実装して、定期的にエクスペリエンスの品質レビューを実行し、Teams の展開が最大の機能で動作しているのを確認します。</li></ul></td></tr>
 
 </table>
 
@@ -69,7 +69,7 @@ ms.locfileid: "49841498"
 契約が設定された後、対応するチームは役割の運用を開始する必要があります。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td>
 <td><ul><li>このドキュメントを使用して、運用上の役割マッピングの演習を容易に行います。</li><li>各サポート チームと会って、必要なアクティビティの一覧の各アイテムに名前を割り当てる。</li><li>割り当てられたロールに対する承認または承認を得る。</li><li>対応するチームが、必要なアクティビティを完了するための適切なトレーニング、準備、リソースを持っている必要があります。</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams サービスの依存関係

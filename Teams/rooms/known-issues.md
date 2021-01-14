@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、更新プログラム、ユーザー インターフェイス、ハードウェア、制限事項や想定される動作を含む、Microsoft Teams Rooms の既知の問題のリストについて知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c32e35f0ea95d81fcb597c18a12a8f48fe4c7b2
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: afa1bf4a2a4fdd36bd45d8b237998ec461dcc1f4
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662632"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865241"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -35,6 +35,7 @@ ms.locfileid: "49662632"
 |  SfB 会議コンテンツ共有が全画面表示されない         |    Skype for Business の会議で、高解像度の設定を使用して正面表示にした会議室では、コンテンツが会議に共有されている場合にウィンドウの正面に全画面が表示されない問題が発生することがあります。 これは、Windows 10 Remote Desktop Protocol (RDP) API の根底にある問題が原因で発生します。 | この問題を解決するには、`<WinRTRdpEnabled>` XML 設定を使用して、Windows 10 RDP API を無効にします。 無効にするには、値を `false` として指定する必要があります。 詳細については、「[XML 構成ファイルを使用してコンソールの設定を管理する](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)」を参照してください。 | なし |
 |  旧版のアプリ         |    Microsoft Teams Rooms のコンソールには、「システム構成が古くなっています」というエラーが表示されます。                |   [Microsoft Teams Rooms の回復ツールを使用する](recovery-tool.md)             |  なし |
 |  デバイスを Windows 10 でサポートされていないバージョンに更新した   |    Windows 10 デバイスはバージョン 1803 からバージョン 1809 に更新されましたが、これはサポートされていないバージョンです。 サポートされているバージョンは 1903 です。 |   これは、[DeferFeatureUpdatesPeriodinDays 向けグループ ポリシーまたは MDM 設定](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)で、機能の更新を指定した日数 (最大 365 日) 保留にした場合に発生することがあります。 <br><br> Windows 10 バージョン 1903 は Microsoft Teams Rooms でサポートされていますが、バージョン 1809 はサポートされていません。 ただし、2020 年 3 月 27 日時点で、バージョン 1809 はリリースから 365 日以上経過しています。 この設定が変更されていない場合は、Windows は バージョン 1809 のインストールを試行します。これにより、Microsoft Teams Rooms で問題が発生する可能性があります。<br><br>このような状況を回避するには、更新を保留しているグループ ポリシーまたは MDM 設定のいずれかを **削除** します。 これにより、Windows はサポートされている最新の OS バージョンに更新されます。 <br><br>**重要** グループ ポリシーまたは MDM 設定は、**削除済み** (構成しないままにする) および **0 に設定しない** 必要があります。 ポリシーが 0 に設定された場合、Windows はサポートされていない可能性がある使用可能な最新バージョンを選択します。 |  なし |
+|  Teams 会議に参加できない Cisco Room デバイス   |    Cisco Room デバイスからの直接ゲスト参加を使用した Teams 会議への参加は失敗し、ユーザーが [参加] を選択した後に通話が終了 **します**。 |  Cisco Room デバイスが Teams 会議に参加できる Teams Web クライアントの変更により、この回帰が発生しました。 この問題の修正プログラムは、2020 年 1 月 15 日までにすべてのテナントに展開される予定です。 Cisco と Microsoft は、今後同様の問題を回避するために、取り組み中です。   |  なし |
 
 
 <a name="OS-conflicts"> </a>  
@@ -69,7 +70,7 @@ _*_
 _*_
 
 Microsoft Teams Rooms デバイスとドメインとの信頼が途絶えている場合は、デバイスに認証して [設定] を開くことはできません。 たとえば、ドメインに参加した後に、そのドメインから Microsoft Teams Rooms を削除した場合、信頼関係が失われます。 回避策では、ローカルの管理者アカウントでログインします。 
-_*_ Microsoft Teams Rooms は、マルチウィンドウ アプリケーションであり、アプリが正しく機能するためには、デバイスの HDMI ポートにルーム ディスプレイの前面を接続する必要があります。 テスト中で、まだディスプレイを購入していない場合は、HDMI ディスプレイを接続するか、ダミーの HDMI プラグを使用するかのいずれかを必ず実行してください。
+_*_ Microsoft Teams Rooms はマルチウィンドウ アプリケーションであり、アプリが正しく機能するためには、デバイスの HDMI ポートに接続する会議室の前面ディスプレイが必要です。 テスト中で、まだディスプレイを購入していない場合は、HDMI ディスプレイを接続するか、ダミーの HDMI プラグを使用するかのいずれかを必ず実行してください。
 _** <a name="See"> </a>  
 ## <a name="see-also"></a>関連項目
 
