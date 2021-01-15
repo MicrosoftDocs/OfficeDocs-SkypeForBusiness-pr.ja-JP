@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: francoid
+ms.reviewer: lsomi
 description: Meetings First について説明します。Meetings First を使用すると、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成できます。
 localization_priority: Normal
 search.appverid: MET150
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34b32a1d421941e4e9c3bd743c5db1026d88a2ac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c4e4eba45e7f6719b1fb3427ebd169b69a1e86c9
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809507"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871078"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -32,7 +32,7 @@ ms.locfileid: "49809507"
 
 ## <a name="what-is-meetings-first"></a>Meetings First とは
 
-Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 Meetings First は、製品や機能ではありません。これは、Teams や Skype for Business の機能を活用して、独自にカスタマイズされた共存環境を実現する構成です。
+Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 会議 First は、製品や機能ではないので、Teams と Skype for Business の機能を使用して独自にカスタマイズされた共存エクスペリエンスを提供する構成です。
 
 Meetings First では、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成します。 Teams と Skype for Business の間にモダリティの重複はありません。 チャット、通話、プレゼンスは、Skype for Business ではオンになり、Teams ではオフになります。 これにより、Skype for Business と Teams の間で、共存中のユーザーの操作環境を向上する独自の "優れた連携" シナリオだけでなく、**Teams のみ** のユーザーを対象とした相互運用性のシナリオも実現します。
 

@@ -1,7 +1,7 @@
 ---
 title: 仮想デスクトップ インフラストラクチャ用の Teams
-author: cichur
-ms.author: v-cichur
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687726febc81a727c4f6da4824487672c602809e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 52c3a4fd1f8ce3871874468590662f223520dc07
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820987"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49868352"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -120,10 +120,12 @@ VDI 環境での Teams AV の最適化が適切に機能するには、シン �
 
 非永続的なセットアップの場合、Teams デスクトップ アプリは、ゴールデン イメージに対してマシンごとにインストールする必要があります。 (詳細に関しては、[VDI での Teams デスクトップ アプリのインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi)セクションを参照してください) これにより、Teams アプリがユーザー セッション中でも効率的に起動できるようになります。
 
-非永続的なセットアップで Teams を使用するには、Teams のランタイム データ同期を効率的に行うプロファイル キャッシュ マネージャーも必要です。これにより、適切なユーザー固有の情報 (ユーザー データ、プロファイル、設定など) がユーザー セッション中にキャッシュされます。 これら 2 つのフォルダーのデータが同期されます。  
-
+非永続的セットアップで Teams を使用するには、Teams のランタイム データ同期を効率的に行うには、プロファイル キャッシュ マネージャーも必要です。 効率的なデータ同期により、ユーザーのセッション中に適切なユーザー固有の情報 (ユーザーのデータ、プロファイル、設定など) がキャッシュされます。 これら 2 つのフォルダーのデータが同期されます。<br>
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
+
+> [!NOTE]
+> Teams アプリがアプリケーションの実行に必要なランタイム データとファイルを確実に取得するには、ローミング フォルダー (またはフォルダー リダイレクトを使用している場合はキャッシュ マネージャー) が必要です。 これは、ネットワーク遅延の問題やネットワークの不具合を軽減するために必要です。そうしないと、使用できないデータやファイルが原因でアプリケーション エラーが発生し、エクスペリエンスが遅くなります。
 
 さまざまなキャッシュ マネージャー ソリューションが利用可能です。 たとえば、[FSLogix](https://docs.microsoft.com/fslogix/overview) があります。 具体的な構成手順については、キャッシュ マネージャー プロバイダーに問い合わせてください。
 

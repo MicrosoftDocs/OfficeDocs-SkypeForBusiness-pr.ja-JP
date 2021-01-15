@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06244553c051677533d275ad6cd47052775d01f7
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 0c5a0fcdce1218bc32eac8b28e7a8c1f41e87cb0
+ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865251"
+ms.locfileid: "49868342"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>チームのターゲット階層を設定する
 
-チームのターゲット階層を設定すると、組織は大規模なチーム セットにコンテンツを発行できます。 チームのターゲット階層は、階層内のすべてのチームが互いに関連付けられている方法、ユーザーがタスクを発行できる方法、および発行する権限を持つチームを定義します。 組織に対してチームのターゲット階層が設定されていない限り、すべてのユーザーに対して発行機能が無効になります。 チームのターゲット階層を設定するには、階層を定義するファイルを作成し、それを Teams にアップロードして組織に適用する必要があります。 スキーマがアップロードされると、Teams 内のアプリで使用できます。 ここでは、スクリプトを使用して階層を設定し、Teams テナントにアップロードする練習を [行います](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#Create-a-sample-hierarchy)。
+チームのターゲット階層を設定すると、組織は大規模なチーム セットにコンテンツを発行できます。 チームのターゲット階層は、階層内のすべてのチームが互いに関連付けられている方法、ユーザーがタスクを発行できる方法、および発行する権限を持つチームを定義します。 組織に対してチームのターゲット階層が設定されていない限り、すべてのユーザーに対して発行機能が無効になります。 チームのターゲット階層を設定するには、階層を定義するファイルを作成し、それを Teams にアップロードして組織に適用する必要があります。 スキーマがアップロードされると、Teams 内のアプリで使用できます。
 
 > [!IMPORTANT]
 > 最初のリリースでは、タスク アプリだけが階層構造のチームをサポートしています。  チームのターゲット階層を組織に適用すると、 [タスク](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) アプリでのタスクの発行が有効になります。 Microsoft Teams の他の領域には、チームの階層は表示されません。
