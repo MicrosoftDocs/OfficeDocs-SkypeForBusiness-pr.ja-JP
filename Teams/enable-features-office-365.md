@@ -21,24 +21,24 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790529"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871088"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
 ## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams アプリの設定
 
-[Microsoft Teams 管理センター](https://admin.teams.microsoft.com)で、 **Teams アプリ** の組織向けアプリを管理します。 たとえば、組織全体または特定の Teams ユーザーが使用できるアプリを制御するポリシーを設定したり、ユーザーにとって最も重要なアプリをピン留めして Teams をカスタマイズしたりすることができます。
+[Microsoft Teams 管理センター](https://admin.teams.microsoft.com)で、**Teams アプリ** の組織向けアプリを管理します。 たとえば、組織全体または特定の Teams ユーザーが使用できるアプリを制御するポリシーを設定したり、ユーザーにとって最も重要なアプリをピン留めして Teams をカスタマイズしたりすることができます。
 
 詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。  
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams の組織全体の設定
 
-Microsoft Teams 管理センターで、組織全体のユーザー設定を制御することができます。組織全体の設定を編集するには、Microsoft Teams 管理センターに移動して、 **[Org-wide settings (組織全体の設定)]** を選択します。次の設定を構成することができます。
+Microsoft Teams 管理センターで、組織全体のユーザー設定を制御することができます。組織全体の設定を編集するには、Microsoft Teams 管理センターに移動して、**[Org-wide settings (組織全体の設定)]** を選択します。次の設定を構成することができます。
 
 ### <a name="external-access"></a>外部アクセス
 
@@ -46,14 +46,14 @@ Microsoft Teams 管理センターで、組織全体のユーザー設定を制�
 
 ドメインを追加またはブロックします。
 
-1. [ **ドメインの追加** ] を選択します。
+1. [**ドメインの追加**] を選択します。
 2. [ドメインの追加] ウィンドウで、ドメイン名を入力し、スペース バーをクリックして名前を保存します。
-3. [ **許可** ] または [ **禁止** ]を選択します。
-4. [ **完了** ] を選んで変更内容を保存します。 
+3. [**許可**] または [**禁止**]を選択します。
+4. [**完了**] を選んで変更内容を保存します。 
 
 ### <a name="guest-access"></a>ゲスト アクセス
 
-Microsoft Teams での **ゲスト アクセス** により、組織内のチームは組織外のユーザーにチームおよびチャネルへのアクセス権を付与することで、それらのユーザーと共同作業することができるようになります。Outlook、Gmail などの勤務先または通常のメール アカウントを持っているユーザーは、チーム チャット、会議、ファイルに完全なアクセス権を持つゲストとして Teams に参加することができます。詳細については、「 [Guest access in Microsoft Teams (Microsoft Teams でのゲスト アクセス)](guest-access.md)」をご覧ください。
+Microsoft Teams での **ゲスト アクセス** により、組織内のチームは組織外のユーザーにチームおよびチャネルへのアクセス権を付与することで、それらのユーザーと共同作業することができるようになります。Outlook、Gmail などの勤務先または通常のメール アカウントを持っているユーザーは、チーム チャット、会議、ファイルに完全なアクセス権を持つゲストとして Teams に参加することができます。詳細については、「[Guest access in Microsoft Teams (Microsoft Teams でのゲスト アクセス)](guest-access.md)」をご覧ください。
 
 ### <a name="teams-settings"></a>Teams の設定
 
@@ -69,7 +69,7 @@ Microsoft Teams での **ゲスト アクセス** により、組織内のチー
 
 #### <a name="email-integration"></a>電子メールの統合
 
-この機能をオンにすると、ユーザーはチャネル電子メール アドレスを使用して、Teams のチャネルにメールを送信できるようなります。この操作は、ユーザーが所有するチームに属しているどのチャネルに対しても行えます。ユーザーのメールは、チーム メンバーに対してオンになっている追加のコネクタがあるチーム内の任意のチャネルにも送信できます。電子メール統合をオンにするには、[ **Allow users to send emails to a channel email address (ユーザーがメールをチャネルの電子メール アドレスに送信できるようにする)** ] が [ **オン** ] であることを確認します。
+この機能をオンにすると、ユーザーはチャネル電子メール アドレスを使用して、Teams のチャネルにメールを送信できるようなります。 この操作は、ユーザーが所有するチームに属しているどのチャネルに対しても行えます。 ユーザーのメールは、チーム メンバーに対してオンになっている追加のコネクタがあるチーム内の任意のチャネルにも送信できます。 メールの統合をオンにするには、**[ユーザーにチャネルの電子メール アドレスへの電子メールの送信を許可します]** が **[オン]** であることを確認します。 次に、送信者のメール アドレスのドメインが、[Teams 管理センター]、[組織全体の設定]、[Teams の設定]、[電子メール統合]、**[これらの SMTP ドメインからのチャネルのメールを許可します]** でブロックされていないことを確認します。 空白にするか、メールの受信を期待するすべてのドメインを含める必要があります。 次に、[Teams チャネルのメール アドレスへのメールがブロックされないようにする](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies)ために必要なルールが設定されていることを確認する必要があります。
 
 #### <a name="files"></a>ファイル
 
@@ -79,7 +79,7 @@ Microsoft Teams での **ゲスト アクセス** により、組織内のチー
 
 #### <a name="organization"></a>組織
 
-ユーザーの組織について詳細な組織図を示す、[ **組織** ] タブをオンにすることができます。詳細については、「 [Teams で組織タブを使用する](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)」をご覧ください。
+ユーザーの組織について詳細な組織図を示す、[**組織**] タブをオンにすることができます。詳細については、「[Teams で組織タブを使用する](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894)」をご覧ください。
 
 #### <a name="devices"></a>デバイス
 
@@ -87,7 +87,7 @@ Microsoft Teams での **ゲスト アクセス** により、組織内のチー
 
 - **Require a secondary form of authentication to access meeting content (会議のコンテンツにアクセスするための認証のセカンダリ フォームを要求する)** – コンテンツ PIN を入力するときにユーザーが持つアクセスのレベルを選択します。
 - **Set content PIN (コンテンツ PIN を設定する)** – ドキュメントに対する未承認のアクセスを防ぐためにこの PIN を入力するようにユーザーに要求します。これにより、未承認のユーザーが今後の会議に参加したり、添付ファイルを参照したりすることを防ぐことができます。
-- **Resource accounts can send messages (リソース アカウントがメッセージを送信することができる)** – この設定を [ **オン** ] にすると、メッセージが Surface Hub リソース アカウントから送信されるようになります。
+- **Resource accounts can send messages (リソース アカウントがメッセージを送信することができる)** – この設定を [**オン**] にすると、メッセージが Surface Hub リソース アカウントから送信されるようになります。
 
 #### <a name="search-by-name"></a>名前で検索
 
@@ -96,7 +96,7 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 - 所属する組織において、テナント内に複数の会社があり、それらを切り離された状態で維持する場合。 
 - 所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。 
 
-範囲指定ディレクトリ検索をオンにするには、この設定を [ **オン** ] に切り替えます。
+範囲指定ディレクトリ検索をオンにするには、この設定を [**オン**] に切り替えます。
 
 ### <a name="skype-for-business"></a>Skype for Business
 
