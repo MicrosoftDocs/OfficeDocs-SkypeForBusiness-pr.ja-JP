@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 次の表は、Microsoft Teams のアイルランドでの電話番号の取得と管理に関する情報を示しています。
-ms.openlocfilehash: 8795dd57e165f354318d780da1ccee4d87cff9a4
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+ms.openlocfilehash: 0526bd1827f838298a86498d93c3e24acb0e38be
+ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868292"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876711"
 ---
 # <a name="phone-number-management-for-ireland"></a>アイルランドでの電話番号の管理
 
-次の表は、Microsoft Teams のアイルランドでの電話番号の取得と管理に関する情報を示しています。 
+次の表は、Microsoft Teams のアイルランドでの電話番号の取得と管理に関する情報を示しています。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
