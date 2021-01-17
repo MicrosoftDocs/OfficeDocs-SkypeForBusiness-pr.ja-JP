@@ -300,7 +300,7 @@ TeamsData
 
 #### <a name="user-accounts-who-are-owners-of-large-numbers-of-teams"></a>多数のチームの所有者であるユーザー アカウント
 
-通常、ユーザーは特定のトピックについて少数のチームを作成して所有していますが、権限を高めようとする攻撃者は、多数の異なるチームの所有者権限を割り当てようとする可能性があります。 この KQL クエリは不審な動作を検索します。
+通常、ユーザーは特定のトピックについて少数のチームを作成して所有していますが、特権を昇格させようとする攻撃者は、多数の異なるチームの所有者権限を自分に割り当てる可能性があります。 この KQL クエリは不審な動作を検索します。
 
 ```kusto
 // Adjust this value to change how many teams a user is made owner of before detecting 
