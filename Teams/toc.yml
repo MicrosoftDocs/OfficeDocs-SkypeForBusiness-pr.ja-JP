@@ -256,6 +256,8 @@
               href: rooms/rooms-prep.md
             - name: 要件
               href: rooms/requirements.md
+            - name: セキュリティ
+              href: rooms/security.md
             - name: オンライン ライセンス
               href: rooms/rooms-licensing.md
             - name: Azure Monitor による管理の計画
@@ -354,6 +356,8 @@
       href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
     - name: Teams でホワイトボードを管理する
       href: manage-whiteboard.md
+    - name: Google Workspace 用のTeams 会議アドオンを設定する
+      href: google-workspace-addon-teams.md
     - name: 電話会議
       items:
         - name: 展開の計画
