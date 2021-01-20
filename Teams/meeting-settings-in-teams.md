@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 447aa83af836eefb854f3917738020badee2f33c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: d3301c8232fda2133e77f973ca0efbc13cfa571d
+ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806217"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49903568"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -51,6 +51,26 @@ ms.locfileid: "49806217"
 
 > [!CAUTION]
 > 組織のユーザーがスケジュールを行った会議に匿名ユーザーを参加させないようにするには、この設定をオフにします。
+
+## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>匿名ユーザーが会議でアプリを操作できる
+
+匿名ユーザーは、ユーザー レベルのグローバル既定のアクセス許可ポリシーを継承します。 このコントロールを使用すると、ユーザー レベルのアクセス許可ポリシーでアプリが有効になっている限り、匿名ユーザーは Teams 会議でアプリを操作できます。 匿名ユーザーは、会議で既に利用できるアプリとのみやり取りできます。また、これらのアプリを取得および管理することはできません。 
+
+> [!IMPORTANT]
+> 既定では、匿名ユーザーが会議でアプリを操作できる設定は有効になっています。
+
+![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+
+この設定にアクセスするには、Teams サービス管理者である必要があります。 「[Teams 管理者ロールを使用してチームを管理する](https://docs.microsoft.com/microsoftteams/using-admin-roles)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
+
+1. 管理センターにアクセスします。
+
+2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
+
+3. [ **参加者]** では、匿名ユーザー **の設定を変更** して、会議中にアプリを操作できます。
+
+> [!CAUTION]
+> 組織内のユーザーがスケジュールした会議で匿名ユーザーがアプリを操作したくない場合は、この設定をオフにします。
 
 ## <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする
 

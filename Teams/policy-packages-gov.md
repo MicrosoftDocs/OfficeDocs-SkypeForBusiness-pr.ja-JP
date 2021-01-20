@@ -17,17 +17,17 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 政府機関向け Teams ポリシー パッケージを使用して管理する方法について学習します。
-ms.openlocfilehash: 19e2c692f2b5109e3ef0915ced9fd2b68c56e482
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812887"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909081"
 ---
 # <a name="teams-policy-packages-for-government"></a>政府機関向け Teams ポリシー パッケージ
 
 > [!NOTE]
-> ポリシー パッケージは現在、Microsoft 365 Government GCC High または DoD 展開では利用できません。
+> 現在、ポリシー パッケージは Microsoft 365 Government GCC High または DoD 展開では利用できません。
 
 ## <a name="overview"></a>概要
 
@@ -46,12 +46,12 @@ Teams には現在、政府機関向け次のポリシー パッケージが含�
 |Microsoft Teams 管理センターのパッケージ名|以下の目的での使用に最適です|説明 |
 |---------|---------|---------|
 |公安責任者  |政府機関の公安責任者  |組織の公安責任者に適用される一連のポリシーとポリシー設定を作成します。 |
-|Firstline Manager  |政府機関の Firstline Managers |一連のポリシーを作成し、それらの設定を組織内の Firstline Managers に適用します。|
-|Firstline worker  |政府機関の Firstline Workers |一連のポリシーを作成し、組織内の Firstline Worker にそれらの設定を適用します。|
+|Frontline Manager  |政府機関のフロントライン マネージャー |一連のポリシーを作成し、それらの設定を組織内の Frontline Managers に適用します。|
+|最前線の従業員  |政府機関の最前線の従業員 |一連のポリシーを作成し、それらの設定を組織内の Frontline Worker に適用します。|
 
 ![医療ポリシー パッケージのスクリーンショット](media/policy-packages-gov.png)
 
-ポリシー パッケージにリンクされているポリシーを簡単に識別できるよう、個々のポリシーにはポリシー パッケージの名前が付けされます。 たとえば、組織内のユーザーに公安責任者ポリシー パッケージを割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
+ポリシー パッケージにリンクされているポリシーを簡単に識別できるよう、個々のポリシーにはポリシー パッケージの名前が付けされます。 たとえば、パブリック セーフティ責任者のポリシー パッケージを組織内のユーザーに割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
 
 ![医療クリニカル ワーカー パッケージのポリシーのスクリーンショット](media/policy-packages-public-safety-officer.png)
 

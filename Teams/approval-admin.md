@@ -18,18 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4326408b7e27aa19af8e6c404d7275d26ba90969
-ms.sourcegitcommit: d73d732591944b899a9366f79b4ea97f4a7f2260
+ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675195"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909521"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの可用性
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-承認アプリは、すべての Microsoft Teams ユーザーの個人用アプリとして使用できます。
+承認アプリは、すべての Microsoft Teams ユーザーの個人用アプリとして利用できます。
 承認アプリは、監査、コンプライアンス、責任、ワークフローを Teams の構造化された承認と非構造化承認の両方に表示する簡単な方法を提供します。
 
  ![承認アプリを表示する](media/approvals-selection.png)
@@ -50,7 +48,7 @@ ms.locfileid: "49675195"
 
 - アカウント [のflow.microsoft.com](https://flow.microsoft.com/)
 
-- ターゲット環境の管理者ロール。
+- ターゲット環境での管理者の役割。
 
 - [Power Automate、Office](https://docs.microsoft.com/power-automate/get-started-approvals)365、または Dynamics 365 のライセンス。
 
@@ -74,7 +72,7 @@ ms.locfileid: "49675195"
 
 - チャネルでチーム メンバーが提供するメッセージとデータを受信します。
 
-- チャネルでメッセージと通知を送信します。
+- チャネルでメッセージと通知を送信する。
 
 - チームの情報にアクセスします。
   - チーム名
@@ -109,7 +107,7 @@ ms.locfileid: "49675195"
 
 承認アプリは、Microsoft 365 セキュリティ/コンプライアンス センター内の監査イベントをログに記録します。 監査ログを表示できます。
 
-1. M365 コンプライアンス サイトに移動します。
+1. Microsoft 365 コンプライアンス サイトに移動します。
 
 2. [監査] **セクションを選択** します。
 
@@ -137,9 +135,9 @@ ms.locfileid: "49675195"
 
 Flow 内で他の監査承認にアクセスするには、プライマリ承認エンティティの承認、承認要求、承認応答の既定の環境で監査を有効にして構成します。 作成、更新、削除の操作は、承認レコードの監査可能なイベントです。 セキュリティとコンプライアンスの [データとユーザー アクティビティの監査について詳しくは、Power Platform Microsoft Docs をご \| 覧ください](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity)。
 
-監査は [、Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)セキュリティ/コンプライアンス センターでさらにカスタマイズできます。
+Microsoft [365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)セキュリティ/コンプライアンス センターでは、監査をさらにカスタマイズできます。
 
-1. 事前に構成されたレポートを使用するには、Office 365 セキュリティ/コンプライアンスにサインインします。
+1. 構成済みのレポートを使用するには、Microsoft 365 セキュリティ/コンプライアンスにサインインします。
 
 2. [検索 **と調査&選択します**。
 

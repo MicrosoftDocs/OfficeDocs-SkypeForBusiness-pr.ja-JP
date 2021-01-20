@@ -7,152 +7,152 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-description: Microsoft Teams 管理センターの称賛アプリでの管理設定について
-ms.openlocfilehash: 4e96355a3b05af2c9df484a2451014fbbaf0e926
-ms.sourcegitcommit: 4b01e4091d22d925d22a2e921963843175a4180b
+description: Microsoft Teams 管理センターの称賛アプリの管理者設定について
+ms.openlocfilehash: 122e7f0ffad914e62ede56ebd1811d1504f3fcd7
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48929528"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909191"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで称賛アプリを管理する
 
 > [!NOTE]
-> この機能にアクセスするには、管理者が Teams ライセンスを持っている必要があります。 チームのライセンスがなくてもこの機能にアクセスしようとすると、エラーメッセージが表示されます。
+> この機能にアクセスするには、管理者が Teams のライセンスを持っている必要があります。 Teams ライセンスなしでこの機能にアクセスしようとすると、エラー メッセージが表示されます。
 
-Microsoft Teams の称賛アプリを使用すると、ユーザーは組織または教室のメンバーに対する感謝を示すことができます。 選択して、独自のバッジを作成するためのオプションを選択すると、称賛は、チームユーザーが作成するさまざまな作業について、教師と Firstline 員の間で行う作業を認識できるように設計されています。 詳細については、「 [他のユーザーに称賛を送信](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)する」を参照してください。
+Microsoft Teams の称賛アプリは、ユーザーが組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 選択できるバッジ セットと独自のバッジを作成するオプションにより、称賛は、教育者から最前線の従業員まで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「称賛を他の [ユーザーに送信する」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
-管理者は、Microsoft Teams 管理センターから、組織で利用できるバッジを制御することができます。 左側のナビゲーションで、[ **チームアプリ > アプリの管理** ] に移動します。 アプリの一覧で、[ **称賛** ] をクリックし、[ **設定** ] を選択します。  ここでは、既定と組み込みのバッジのセットを有効にして、カスタムバッジを作成することができます。
+管理者は、Microsoft Teams 管理センターから組織で使用できるバッジを制御できます。 左側のナビゲーションで、[Teams アプリ] の [ **アプリ>に移動します**。 アプリの一覧で、[称 **賛]** をクリックし、[設定] を **選択します**。  ここから、既定のバッジ セットと組み込みのバッジ セットを有効にし、カスタム バッジを作成することができます。
 
 ![称賛アプリの [設定] タブのスクリーンショット](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> 米国政府機関の称賛アプリ機能は使用できません。
+> 称賛アプリの機能は、米国政府の雲では利用できません。
 
-## <a name="use-built-in-badge-sets"></a>組み込みのバッジセットを使用する
+## <a name="use-built-in-badge-sets"></a>組み込みのバッジ セットを使用する
 
-組み込みセットは、称賛アプリ用に Microsoft によって設計されたバッジのコレクションです。 これらのセットは管理者が編集できません。 既定のバッジセットは既に有効になっており、称賛アプリで利用できます。 既定のセットまたはバッジセットの使用可能状態を変更するには、対応するトグルを [オン] または [オフ] に切り替えます。 
+組み込みのセットは、称賛アプリ用に Microsoft が設計したバッジのコレクションです。 これらのセットは管理者が編集できません。 既定のバッジ セットは既に有効であり、称賛アプリで使用できます。 既定のセットまたはバッジ セットの可用性を変更するには、対応するトグルを [オン] または [オフ] に切り替えます。 
 
 <a name="default-badges"></br></a>
 
 ### <a name="default-badges"></a>既定のバッジ
 
-既定のバッジセットは、チームのユーザーが自分のピアを作業の前後に向かって理解できるように設計されています。
+既定のバッジ セットは、Teams ユーザーが自分の作業で上や先に行く同僚を認識するのに役立ちます。
 
-![既定のバッジセットのプレビュー](media/default-set-praise.png)
+![既定のバッジ セットのプレビュー](media/default-set-praise.png)
 
 <a name="sel-edu-badges"></br></a>
 
-### <a name="social-and-emotional-learning-badges-for-education"></a>教育機関向けのソーシャルおよび感情的な学習バッジ
+### <a name="social-and-emotional-learning-badges-for-education"></a>教育用のソーシャルおよび感情的な学習バッジ
 
-教師は、ソーシャルおよび感情的ラーニング (SEL) のアチーブメントと行動のために、これらの概念を説明するバッジで個々の学生を認識することができます。
+教育者は、これらの概念を示すバッジを使用して、個々の学生をソーシャルおよび感情的な学習 (SEL) の実績と行動について認識できます。
 
-![教育機関向けのソーシャルおよび感情的ラーニングバッジのプレビュー](media/sel-edu-set-praise.png)
+![教育用のソーシャルおよび感情的な学習バッジのプレビュー](media/sel-edu-set-praise.png)
 
 <a name="create-your-own-badges"></br></a>
 
 ## <a name="create-your-own-badges"></a>独自のバッジを作成する
 
-[ **カスタムバッジの作成** ] を選びます。 ここでは、サイドパネルでカスタムバッジをデザインできます。 最大25個のカスタムバッジを作成できます。 
+[カスタム **バッジの作成] を選択します**。 ここから、サイド パネルでカスタム バッジをデザインできます。 最大 25 のカスタム バッジを作成できます。 
 
-![カスタムバッジウィンドウの作成のスクリーンショット](media/manage-praise-app-create-custom-badge.png)
+![[カスタム バッジの作成] ウィンドウのスクリーンショット](media/manage-praise-app-create-custom-badge.png)
 
-1. バッジ名を入力します。 これは、ユーザーが称賛を送信したときにバッジに表示される名前です。
+1. バッジ名を入力します。 これは、ユーザーが称賛を送信するときにバッジに表示される名前です。
 
-2. バッジの色を設定します。 バッジのテキストと背景の色を設定するには、16進数の値として色を入力する必要があります。
+2. バッジの色を設定します。 バッジのテキストと背景色を設定するには、16 進数 (16 進) 値として色を入力する必要があります。
 
    > [!TIP]
-   > 16進値を初めて使用する場合は、この記事では、その使用方法を説明した [簡単な概要](#hex-colors-intro) を説明します。
+   > 16 進値を初めから使う場合[](#hex-colors-intro)は、この記事で使い方を簡単に説明します。
 
-3. バッジ画像をアップロードします。 許可されているファイルの種類はです。.PNG. 画像ファイルの最大サイズは 216 X 216 ピクセルで、40 KB 未満である必要があります。
-![背景、テキスト、およびイメージフィールドのラベルが付いたバッジ](media/praise-app-badge-fields.png)
+3. バッジの画像をアップロードします。 受け入れ可能なファイルの種類は次です。PNG。 イメージ ファイルは 40 KB 未満で、最大サイズは 216 X 216 ピクセルである必要があります。
+![背景、テキスト、画像のフィールドにラベルが付いたバッジ](media/praise-app-badge-fields.png)
 
-4. バッジ名をローカライズします。 [ローカライズされた **バッジ名** ] で [ **追加** ] を選びます。 ドロップダウンリストから目的のロケールを選択します。 次に、指定した言語でバッジ名を入力します。
+4. バッジ名をローカライズする: [ローカライズされたバッジ **名] で [** 追加] を **選択します**。 ドロップダウン リストから目的のロケールを選択します。 次に、指定した言語でバッジ名を入力します。
 
-5. 特定のロケールからバッジを除外します。 [ **以下のロケールからバッジを除外** ] で [ **追加** ] を選びます。 ドロップダウンリストから除外するロケールを選択します。
+5. 特定の地域からバッジを除外する: **[これらの** 地域からバッジを除外] で、[追加] を選択 **します**。 ドロップダウン リストから除外する地域を選択します。
 
-6. **[適用]** を選択します。 これで、新しいバッジがカスタムバッジテーブルに表示されるようになります。
+6. **[適用]** を選択します。 これで、新しいバッジがカスタム バッジ テーブルに表示されます。
 
 > [!NOTE]
-> 手順4と5がスキップされると、バッジはすべてのロケールの既定の言語になります。
+> 手順 4 と 5 がスキップされた場合、バッジは、すべての地域の既定の言語になります。
 >
-> バッジの選択の変更が完了したら、必ず [ **Submit** ] を選んでください。 この変更が組織で利用可能になるまでには、数時間かかることがあります。
+> バッジの選択を変更し終わったら、[送信] を選択 **します**。 組織でこれらの変更を利用するには、最大で数時間かかる場合があります。
 
 <a name="hex-colors-intro"></br></a>
 
-## <a name="specify-colors-with-hex-values"></a>16進数の値を使用して色を指定する
+## <a name="specify-colors-with-hex-values"></a>16 進値を使用して色を指定する
 
-16進数の色の値は、特定の色の赤 (RR)、緑色 (GG)、青 (BB) の強さを、倍率 00 ~ FF で表した6桁の16進数の文字列です。 3つの色の値をすべてまとめて入力すると、16進数の値が表示されます。 #RRGGBB
+16 進数の色の値は、赤 (RR)、緑 (GG)、および青 (BB) の強度を 00 から FF の縮尺で特定の色で表す 6 桁の 16 進数の文字列です。 3 色すべての値をまとめて入力すると、16 進値 (#RRGGBB
 
-たとえば、color red の16進数の値は、可能な限り最高の値、FF、緑、青のいずれかで設定されているため、最も低い値である00に設定されているため、#FF0000 ます。
+たとえば、赤色の 16 進値は #FF0000 です。赤は可能な限り最高の値に設定され、FF、緑、青はそれぞれ、可能な限り小さい値である 00 に設定されます。
 
-さまざまな色とその16進値を調べるには、 [Bing の色の選択](https://www.bing.com/search?q=color+picker)を確認します。
+さまざまな色とその 16 進値を調ぶには [、Bing のカラー ピッカーを確認してください](https://www.bing.com/search?q=color+picker)。
 
-使用を開始するための色の例を次に示します。
+使用を開始する場合の色の例を次に示します。
 
-|色  |Hex 値|
+|色  |16 進値|
 |-------|---------|
-|![16進数の色 #FF6666](media/hexColor1.png)|  #FF6666   |
-|![16進数の色 #7FFFD4](media/hexColor2.png)|  #7FFFD4   |
-|![16進数の色 #FF75F0](media/hexColor3.png)|  #FF75F0   |
-|![16進数の色 #00BFFF](media/hexColor4.png)|  #00BFFF   |
-|![16進数の色 #800080](media/hexColor5.png)|  #800080   |
-|![16進数の色 #000000](media/hexColor6.png)|  #000000   |
+|![16 進カラー #FF6666](media/hexColor1.png)|  #FF6666   |
+|![16 進カラー #7FFFD4](media/hexColor2.png)|  #7FFFD4   |
+|![16 進カラー #FF75F0](media/hexColor3.png)|  #FF75F0   |
+|![16 進カラー #00BFFF](media/hexColor4.png)|  #00BFFF   |
+|![16 進カラー #800080](media/hexColor5.png)|  #800080   |
+|![16 進カラー #000000](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
-## <a name="best-practices-for-creating-custom-badges"></a>カスタムバッジを作成するためのベストプラクティス
+## <a name="best-practices-for-creating-custom-badges"></a>カスタム バッジを作成するためのベスト プラクティス
 
-**すべてのバッジを一度に送信します。** 新しいバッジが処理されるまでには時間がかかるため、送信する前に、すべてのカスタムバッジをテーブルに追加することをお勧めします。
+**すべてのバッジを一度に送信します。** 新しいバッジの処理には時間がかかるため、送信する前に、すべてのカスタム バッジをテーブルに追加する方法が最適です。
 
-**色を選択するときは、アクセシビリティを念頭に置いてください。** 一部の色は、他の色よりも見やすくなります。  テキストと背景の色のコントラストを作成して、バッジ名を読みやすくします。 たとえば、暗い背景色を選んだ場合は、淡色テキストの色を選択します。
+**色を選ぶ場合は、アクセシビリティに関するご安心ください。** 一部の色は、他の色よりも優れた色でまとめます。  テキストと背景色のコントラストを作成して、バッジ名を読みやすくします。 たとえば、濃い背景色を選んだ場合は、明るいテキストの色を選ぶとします。
 
-**画像を選択するときは、バッジの寸法を念頭に置いておきます。** 最高の品質を得るには、216 x 216 ピクセル (最大サイズ) の画像ファイルをアップロードすることをお勧めします。 これらの寸法に合わせて画像を拡大または変形しないようにします。
+**画像を選択する場合は、バッジのサイズを念頭に置きます。** 最適な品質を得る場合は、216 x 216 ピクセル (最大サイズ) の画像ファイルをアップロードすることをお勧めします。 これらの寸法に合わせて画像を拡大または歪ませないでください。
 
-**バッジ画像が四角形でない場合は、画像を透明にします。** イメージファイルを称賛にアップロードする前に、この操作を行う必要があります。
+**バッジの画像が四角形ではない場合は、画像を透明にします。** 画像ファイルを称賛にアップロードする前に、この操作を行う必要があります。
 
-![Left: 透明ではない画像を含むバッジ、右: バッジが透明な画像](media/praise-app-best-practices.png)
+![左: 透明ではない画像のバッジ、右: 透明な画像付きバッジ](media/praise-app-best-practices.png)
 
-## <a name="badge-set-assets"></a>バッジ設定アセット
+## <a name="badge-set-assets"></a>バッジ セットの資産
 
-組み込みのバッジセットを変更することはできません。そのため、組み込みのバッジ設定が有効になっていると、セット内のすべてのバッジが称賛アプリに追加されます。 組み込みセットから特定のバッジを追加したり、他のユーザーを脱退したりする場合は、カスタムバッジとして使用するバッジを再作成します。 次の表の組み込みセットからバッジのテキストと背景色を見つけることができます。
+組み込みのバッジ セットは変更できないので、組み込みセットを有効にすると、そのセット内のすべてのバッジが称賛アプリに追加されます。 組み込みのセットから特定のバッジを追加し、他のバッジを残す場合は、カスタム バッジとして使用するバッジを再び作成します。 バッジの画像をダウンロードして、次の表の組み込みセットからバッジのテキストと背景色を確認できます。
 
-### <a name="default-badges-assets"></a>既定のバッジアセット
+### <a name="default-badges-assets"></a>既定のバッジの資産
 
 </br>
 
 |バッジ名     |画像ファイル  |テキストの色 | 背景色 |
 |---------------|------------|---------- |--------|
 |Achiever       |[Achiever PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
-|すごい        |[Awesome PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
-|Coach          |[エコノミーでの PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
-|Courage        |[Courage PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
-|Creative       |[クリエイティブな PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
-|的      |[包括的な PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
-|種類のハート     |[ハートの PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
-|優位性     |[リーダーシップの PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
-|Optimism       |[Optimism PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
-|問題ソルバー |[問題のある PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
-|チームプレーヤー    |[チームプレーヤーの PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|
-|ありがとう      |[ありがとうございます](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/thank-you-badge.png)|#469CA4    |#BACCB6|
+|すごい        |[すばらしい PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
+|コーチ          |[コーチ PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
+|しやき        |[Png (しりがな)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
+|クリエイティブ       |[クリエイティブ PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
+|包括的      |[包括的 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
+|Kind Heart     |[Kind Heart PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
+|指導力     |[Leadership PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
+|楽観       |[楽観形式 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
+|問題解決 |[問題解決 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
+|チーム プレイヤー    |[チーム プレイヤー PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|
+|ありがとう      |[PNG ありがとうございます](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/thank-you-badge.png)|#469CA4    |#BACCB6|
 
 </br>
 
-### <a name="social-and-emotional-learning-badges-for-education-assets"></a>教育機関向けのソーシャルおよび感情的な学習バッジ
+### <a name="social-and-emotional-learning-badges-for-education-assets"></a>教育資産のソーシャルおよび感情的な学習バッジ
 
 </br>
 
 |バッジ名        |画像ファイル  |テキストの色 | 背景色 |
 |------------------|------------|---------- |--------|
-|コミュニケーション     |[コミュニケーションの PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/communication-badge.png)|#FFFFFF    |#173B65|
-|重要な思考 |[重要な思考 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/critical-thinking-badge.png)|#FFFFFF    |#084D26|
-|好奇心         |[好奇心 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity-badge.png)|#FFFFFF    |#008078|
-|Empathy           |[Empathy PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
-|ゴールのフォローアップ      |[目標のフォローアップ PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png)|#FFFFFF    |#006F95|
-|利点        |[モチベーションの PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation-badge.png)|#FFFFFF    |#C52127|
-|ティ       |[常設 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
-|従っ           |[PNG を尊重する](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/respect-badge.png)|#FFFFFF    |#8251A0|
-|業務    |[責任の PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility-badge.png)|#FFFFFF    |#B05DA3|
-|自己認知    |[自己認知型 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
-|自動管理   |[自己管理 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
-|Thoughtfulness    |[Thoughtfulness PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+|コミュニケーション     |[Communication PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/communication-badge.png)|#FFFFFF    |#173B65|
+|クリティカル 思考 |[クリティカル 思考 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/critical-thinking-badge.png)|#FFFFFF    |#084D26|
+|しなやか         |[好感を持つ PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/curiosity-badge.png)|#FFFFFF    |#008078|
+|共感           |[共感 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/empathy-badge.png)|#FFFFFF    |#650B35|
+|ゴール ゴール      |[ゴール の目標 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/goal-pursuit-badge.png)|#FFFFFF    |#006F95|
+|動機付け        |[Png のプログラム設定](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/motivation-badge.png)|#FFFFFF    |#C52127|
+|永続性       |[永続性 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/persistence-badge.png)|#FFFFFF    |#167D3E|
+|尊重           |[PNG を尊重する](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/respect-badge.png)|#FFFFFF    |#8251A0|
+|責任    |[責任 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/responsibility-badge.png)|#FFFFFF    |#B05DA3|
+|自己認識    |[自己認識 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
+|自己管理   |[自己管理 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
+|思いやり    |[思いやり PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|

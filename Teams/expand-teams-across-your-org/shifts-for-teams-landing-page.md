@@ -21,30 +21,30 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 71238c4ec0ae2e413732bd289bbb868bedd573b7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f699b60bddba6bcf5ffa884760540e5c20378f81
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815737"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909221"
 ---
 # <a name="shifts-for-teams"></a>Shifts for Teams
 
-Teams は、組織内の Firstline Worker に、効果的にコミュニケーションと共同作業を行い、最高の作業を行うのに必要なツールを提供します。 ここでは、Teams でシフト (スケジュール管理ツール) を設定および管理するために必要な管理者ガイダンスを示します。
+Teams は、組織内の Frontline Worker に、通信や共同作業に必要なツールを効果的に提供します。 この記事では、セットアップと管理の方法について示します。 Teams でシフトし、スケジュール管理ツールを使用します。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>組織のシフトを設定および管理する
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[組織内のシフトを管理する](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![デザイン](../media/Help-small.svg)  | **[Firstline Worker の Shifts ヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[組織内のシフトを管理する](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)** |![デザイン](../media/Help-small.svg)  | **[最前線の従業員向けシフト ヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>Shifts 拡張機能
 
 |               |               |
 | ------------- | ------------- |
-| ![api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph API を使用すると、シフト データを外部の従業員管理システムと統合することができます。ユーザーは、ユーザーが Teams で豊富なフロント エンドのエクスペリエンスを提供しながら、バック エンドでカスタム のシフトエクスペリエンスを柔軟に構築できます。             |
-| ![api](../media/api-small.svg) | **[従業員管理の統合](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** スケジュール、時間、出席のために、クロノや JDA などのサードパーティの人員管理システムを使用している場合は、Shifts Graph API と SDK を使用して、オープン ソースの統合を使用して Shifts と直接統合できます。 |
-| ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate を使用すると、シフトから情報を取得し、他のアプリでカスタム ワークフローを作成し、大規模な操作を実行できます。 主要なプロセスをほとんど、または何もコードを使って自動化する。 トリガーとテンプレートは、マネージャーの承認が不要な場合にシフト要求の自動承認を有効にするなどのさまざまなシナリオをサポートします。 |
+| ![api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph API を使用すると、Shifts データを外部の従業員管理システムと統合できます。 カスタム の Shifts エクスペリエンスをバック エンドで柔軟に構築できる一方で、ユーザーは Teams での豊富なフロントエンド エクスペリエンスを提供できます。             |
+| ![api](../media/api-small.svg) | **[従業員管理の統合](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** スケジュール、時間、出席のために、クロノや JDA などのサードパーティの人員管理システムを使用している場合は、Shifts Graph API と SDK を使用して、オープン ソース統合を使用して、Shifts と直接統合できます。 |
+| ![api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate を使用すると、Shifts から情報を取得し、他のアプリでカスタム ワークフローを作成し、大規模な操作を実行できます。 主要なプロセスをほとんど、または何もコードを使って自動化する。 トリガーとテンプレートは、マネージャーの承認が不要な場合にシフト要求の自動承認を有効にするなどのさまざまなシナリオをサポートします。 |
 
 ## <a name="featured-training"></a>おすすめのトレーニング
 

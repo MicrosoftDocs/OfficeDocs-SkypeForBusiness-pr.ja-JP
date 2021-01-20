@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SPC) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 256451e778ed0e5864a7144003d44eb7ffc28767
-ms.sourcegitcommit: b8e697d52dcedace66cec2a06a5bd9889a780623
+ms.openlocfilehash: 8d5d94a2e15ea9e792cd9c8efbfacc53b9f47f92
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49782540"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909541"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -40,13 +40,13 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
   > [!NOTE]
   > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを提供する必要があります。
 
-以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーの詳細については、「直接ルーティング用にローカル メディアの最適化 [を構成する」を参照してください](direct-routing-media-optimization-configure.md))。
+以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーについては、「直接ルーティング用にローカル メディア最適化を構成する」 [を参照](direct-routing-media-optimization-configure.md)してください)。
 
-[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認定プログラムについて不明な点がある場合は、drsbccertification@microsoft.com。
+[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認定プログラムに関してご質問がある場合は、drsbccertification@microsoft.com。
 <br/>
 <br/>
 
-|                                                       仕入先                                                        |       Product       | メディア以外のバイパス | メディア バイパス | ソフトウェアバージョン | E911 プロバイダーで検証済み | ELIN 対応
+|                                                       仕入先                                                        |       Product       | メディア以外のバイパス | メディア バイパス | ソフトウェア バージョン | E911 プロバイダーで検証済み | ELIN 対応
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul> |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |
@@ -71,7 +71,7 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>   |  &#10004;  |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      サポートされている 3.20 (推奨 4.0)        |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>   |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      サポートされている 3.20 (推奨 4.0)        |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>   |  &#10004;   |    
 |                     [メタスイッチ](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 シリーズ統合サービス ルーター用の Cisco Unified Border 要素 (CUBE)        |     &#10004;   |  |      IOS XE アムステルダム 17.2.1r      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
 |                                   |     4000 シリーズ統合サービス ルーター用の Cisco Unified Border 要素 (CUBE)        |     &#10004;   |  |      IOS XE アムステルダム 17.2.1r      |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
@@ -103,4 +103,4 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
   | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode と Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
 
 新機能のアイデアなど、Teams に関する製品フィードバックを提供する場合は [、Uservoice を参照してください](https://microsoftteams.uservoice.com)。
-メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェアの任意の番号のファームウェアがサポートされています。
+メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェアの任意の番号のファームウェアがサポートされます。

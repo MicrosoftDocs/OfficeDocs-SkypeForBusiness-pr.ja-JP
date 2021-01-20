@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea07079a94e2f76f8833e0854fd0161b4ff9ec09
-ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
-ms.translationtype: HT
+ms.openlocfilehash: 51046148620c804dfadb4296d718a1759b618b44
+ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620712"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49903558"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -90,7 +90,7 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
 3. SkypeOnline Connector をインポートし、Teams 管理者としてサインインします。
 
    ```powershell
-   Import-Module SkypeOnlineConnector
+   Import-Module MicrosoftTeams
    $sfbSession = New-CsOnlineSession
    Import-PSSession $sfbSession
    ```

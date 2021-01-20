@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b3aac3aa5678608a4020b603026401d8cf8e6b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 33519f6873d2c2479f01dc6a408f279e47e35718
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809387"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908931"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの使用を開始する
 
@@ -39,7 +39,7 @@ ms.locfileid: "49809387"
 
 | モジュール | ビデオ | PowerPoint デッキ  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics - TEAMS Essentials for IT YouTube チャネル](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: IT 向け Teams Essentials](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 分)<br>[ビデオ: Teams &を展開する - 導入](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4) (12:42 分)<br>[ビデオ: セキュリティとコンプライアンスの Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 分)||
+| [Microsoft Mechanics - Teams Essentials for IT YouTube チャネル](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: TEAMS Essentials for IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 分)<br>[ビデオ: Teams &を展開する - 導入](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4) (12:42 分)<br>[ビデオ: セキュリティとコンプライアンスの Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 分)||
 | コア コンポーネントの基礎 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
 | ガバナンス、管理とライフサイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
@@ -79,12 +79,12 @@ ms.locfileid: "49809387"
 | Teams アドバイザー: Microsoft Teams でのチャット、チーム、チャネル、アプリの展開 | Teams アドバイザーを活用して環境を評価し、チャット、チーム、チャネル、アプリを展開するための計画を立てる方法について学習します。                                                                                         |  [Teams アドバイザー ガイド](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell と動的グループを使用した Teams 管理の合理化        | Office 365 グループを静的メンバーシップから動的に変換し、Windows PowerShell を使用してすべてのメンバーに新しいアプリのアクセス許可ポリシーを割り当てる。                                                                         |  [Teams 管理ガイドの合理化](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Microsoft Teams 管理センターでの Teams とゲスト アクセスの管理         | 組織の Microsoft Teams とゲスト アクセスを構成および管理する方法について説明します。                                                                                                                              | [Teams とゲスト アクセス ガイドの管理](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
-| Teams 電話システムの構成: 自動応答 & キュー                   | Microsoft Teams 管理センターを使用して、Microsoft Teams 自動応答通話キューと通話キューを作成および展開するプロセスを実行します。                                                          |  [Teams の電話システム ガイドを構成する](https://aka.ms/TeamsPhoneInteractiveGuide)             |
+| Teams 電話システムの構成: 自動応答 & キュー                   | Microsoft Teams 管理センターを使用した Microsoft Teams 通話の一部として自動応答キューと通話キューを作成および展開するプロセスを実行します。                                                          |  [Teams の電話システム ガイドを構成する](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | ダイレクト ルーティングの構成: SBC と音声ルーティングの接続                 | Microsoft Teams 電話システムダイレクト ルーティングを使用して、既存のテレフォニー インフラストラクチャと統合します。                                                                                                              | [直接ルーティング ガイドを構成する](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | Microsoft Teams でガバナンスを構成する                                     | 組織の Teams メッセージング保持ポリシーを作成する方法と、個々の Teams をアーカイブ、削除、復元する方法について説明します。                                                                                   |  [Microsoft Teams ガイドでガバナンスを構成する](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Microsoft Teams 会議の構成と展開                          | Microsoft Teams の会議ワークロードを展開するプロセスを実行します。                                                                                                                                       |  [Microsoft Teams 会議ガイドの構成と展開](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Microsoft Teams の電話会議を構成する                            | Teams の電話会議の機能を確認し、会議ブリッジとダイヤルイン電話番号を割り当てる方法について説明します。                                                                                          |  [Microsoft Teams の電話会議ガイドの構成](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Firstline Worker 用の Microsoft Teams の構成                           | Firstline Workforce に適切な Microsoft Teams 環境を構成して展開する方法について説明します。                                                                                                                  | [Microsoft Teams for Firstline Workers ガイドの構成](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 最前線の従業員向け Microsoft Teams の構成                           | Frontline Workforce に適切な Microsoft Teams 環境を構成して展開する方法について説明します。                                                                                                                  | [Microsoft Teams for Frontline Workers ガイドの構成](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>クイック スタート ガイド</h2>
 

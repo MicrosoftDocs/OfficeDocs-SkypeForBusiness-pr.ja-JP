@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams の管理機能のリリース ノート。
-ms.openlocfilehash: f81ba33f75a7b94618b0344ce2136009b42e8402
-ms.sourcegitcommit: ef88694f6015ed2ff840ae78657b84700ce16815
+ms.openlocfilehash: e2b21a7f96162493fbee7b37ec2dcd57ac8c3a1f
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "49728167"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909381"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft Teams の管理機能のリリース ノート
 
@@ -75,13 +75,13 @@ Microsoft Teams のディスプレイは、周囲のタッチスクリーンと 
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>組織の Skype for Business 設定を管理する
 
-組織内の Skype for Business ユーザー向け Skype for Business 機能は、Microsoft Teams 管理センターで管理できます。 Skype for Business **の組織全体の**  >  **設定に移動します**。 ここから、Skype 会議ブロードキャスト、プレゼンス、モバイル通知を管理できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
+組織内の Skype for Business ユーザーの Skype for Business 機能は、Microsoft Teams 管理センターで管理できます。 Skype for Business **の組織全体の**  >  **設定に移動します**。 ここから、Skype 会議ブロードキャスト、プレゼンス、モバイル通知を管理できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings)。
 
 ## <a name="october-16-2020"></a>2020 年 10 月 16 日
 
-### <a name="manage-shift-based-access-for-firstline-workers"></a>Firstline Worker のシフト ベースのアクセスを管理する
+### <a name="manage-shift-based-access-for-frontline-workers"></a>フロントライン ワーカーのシフト ベースのアクセスを管理する
 
-管理者は、組織内の Firstline Worker のシフトベースのプレゼンス状態のセットを表示して、シフトのオンとオフを示す一連のプレゼンス状態を表示する Teams を構成できます。 シフトベースのアクセスでは、Firstline Worker がシフトオフのときに Teams へのアクセスを管理できます。 たとえば、スケジュールされたシフトに移動していない場合に、Firstline Worker が Teams を使用する前に認識する必要があるメッセージを表示する Teams を設定できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
+管理者は、組織内の最前線の従業員がシフトのオンとオフを示すために、シフトベースのプレゼンス状態のセットを表示する Teams を構成できます。 シフトベースのアクセスでは、Frontline Worker がシフトオフのときに Teams へのアクセスを管理できます。 たとえば、スケジュールされたシフトに参加していない場合に、フロントライン ワーカーが Teams を使用する前に認識する必要があるメッセージを表示する Teams を設定できます。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw)。
 
 ## <a name="october-15-2020"></a>2020 年 10 月 15 日
 
@@ -97,13 +97,13 @@ Microsoft Teams 管理センターの [アプリの管理] ページで、[チ�
 
 ## <a name="october-1-2020"></a>2020 年 10 月 1 日
 
-### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>会議のレコーディングに OneDrive for Business と SharePoint を使用する
+### <a name="use-onedrive-for-business-and-sharepoint-for-meeting-recordings"></a>OneDrive for Business と SharePoint を使用して会議の記録を行う
 
-Microsoft Teams には、会議の記録を保存する新しい方法があります。 従来の Microsoft Stream から新しい Stream への移行の第 1 フェーズとして、この方法では Microsoft 365 の Microsoft OneDrive for Business と SharePoint にレコーディングが保存され、多くの利点があります。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)。
+Microsoft Teams には、会議の記録を保存するための新しい方法があります。 従来の Microsoft Stream から新しい Stream への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)。
 
 ### <a name="free-audio-conferencing-for-small-to-medium-businesses"></a>中小企業向け無料の電話会議
 
-最大 300 人のユーザーを持つ中小企業で、現在電話会議のライセンスを持っている場合は、電話会議を 1 年間無料で利用できます。 この無料特典は、2020 年 10 月 1 日から利用できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)。
+最大 300 人のユーザーを持つ中小企業で、現在電話会議のライセンスを持ってない場合は、電話会議を 1 年間無料で利用できます。 この無料特典は、2020 年 10 月 1 日から利用できます。 [詳細情報を参照してください](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-smb)。
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
 
@@ -121,7 +121,7 @@ Teams 会議ポリシーでの IP オーディオと IP ビデオの 2 つのポ
 
 ## <a name="september-27-2020"></a>2020 年 9 月 27 日
 
-### <a name="simplified-notification-setting"></a>シンプルな通知設定
+### <a name="simplified-notification-setting"></a>簡単な通知設定
 
 ユーザーは、強化された機能を使用して、よりシンプルな方法で通知設定を管理できます。
 
@@ -129,7 +129,7 @@ Teams 会議ポリシーでの IP オーディオと IP ビデオの 2 つのポ
 
 ### <a name="teams-integration-with-android-contacts"></a>Teams と Android の連絡先との統合
 
-Android Phonebook から Teams を使用して直接通話します。
+Android の電話帳から直接 Teams を使用して通話します。
 
 ## <a name="september-21-2020"></a>2020 年 9 月 21 日
 
@@ -181,7 +181,7 @@ Teams のライブ イベント設定を使用して、組織で保持されて�
 
 ### <a name="manage-the-praise-app"></a>称賛アプリを管理する
 
-Microsoft Teams の称賛アプリは、ユーザーが組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 称賛アプリには、選択できるバッジ セットが選択され、独自のバッジを作成するオプションが提供されます。 称賛は、教師から Firstline Worker まで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 [詳細情報を参照してください](../manage-praise-app.md)。
+Microsoft Teams の称賛アプリは、ユーザーが組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 称賛アプリには、選択できるバッジ セットが選択され、独自のバッジを作成するオプションが提供されます。 称賛は、教育者から最前線の従業員まで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 [詳細情報を参照してください](../manage-praise-app.md)。
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Microsoft Teams の会議室と Surface Hub で調整された会議をセットアップする
 
@@ -195,13 +195,13 @@ Microsoft Teams の称賛アプリは、ユーザーが組織または教室の�
 
 ### <a name="cortana-voice-skills-in-teams"></a>Teams での Cortana の音声スキル
 
-Teams モバイル アプリの Cortana の音声スキルは、ユーザーが自然な音声を使用して会議、コミュニケーション、共同作業のタスクを実行するのに役立ちます。 ユーザーは Teams アプリのマイク ボタンをクリックして Cortana と話し、家事や犬の散歩中、または一般的に移動中に誰かとつながる必要がある場合は、"メーガンに電話する" や "次の会議にメッセージを送信する" のような要求を行います。 ユーザーは、"次の会議に参加" と言うだけで会議に参加したり、"今朝は何を持っていますか" と聞いて予定表を確認できます。 会議や通話に参加すると、会議ステージのオーバーフロー メニューから Cortana を呼び出し、名前または番号でユーザーを追加する ("通話にメーガンを追加")、デッキ プレゼンテーション ("四半期のレビュー デッキを表示")、スライド間を移動する ("付録 スライドに移動") などの一般的な会議中のタスクを実行できます。 この機能でサポートされるその他の機能は、ファイルの検索と共有、検索、Teams アプリ内の移動です (「John とのチャットを開く、未読のアクティビティに移動する、メンションに移動する」など)。
+Teams モバイル アプリの Cortana の音声スキルは、ユーザーが話し手の自然言語を使用して、会議、コミュニケーション、共同作業のタスクを実行するのに役立ちます。 ユーザーは Teams アプリのマイク ボタンをクリックして Cortana と話し、家事や犬の散歩中、または一般的に移動中に誰かとつながる必要がある場合は、"メーガンに電話する" や "次の会議にメッセージを送信する" のような要求を行います。 ユーザーは、"次の会議に参加" と言うだけで会議に参加したり、"今朝は何を持っていますか" と聞いて予定表を確認できます。 会議や通話に参加すると、会議ステージのオーバーフロー メニューから Cortana を呼び出し、名前または番号でユーザーを追加する ("通話にメーガンを追加")、デッキ プレゼンテーション ("四半期のレビュー デッキを表示")、スライド間を移動する ("付録 スライドに移動") などの一般的な会議中のタスクを実行できます。 この機能でサポートされるその他の機能は、ファイルの検索と共有、検索、Teams アプリ内の移動です ("John とのチャットを開く、未読のアクティビティに移動する、メンションに移動するなど)。
 
 Teams の Cortana は、オンライン サービス規約 [(OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)に反映される、Cortana エンタープライズ サービスと同じエンタープライズ レベルのプライバシー、セキュリティ、コンプライアンスの約束を満たしています。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/cortana-in-teams)。
 
 ### <a name="teams-devices-administrator"></a>Teams デバイス管理者
 
-この役割を持つユーザーは、Teams 管理センターから Teams 認定デバイスを管理できます。 サインインしているアカウント、デバイスの作成とモデルなど、各デバイスの詳細を確認できます。 デバイスの設定を変更し、ソフトウェアを更新し、リモートでデバイスを再起動できます。 [詳細情報を参照してください](../using-admin-roles.md)。
+この役割を持つユーザーは、Teams 管理センターから Teams 認定デバイスを管理できます。 サインインしているアカウント、デバイスの作成とモデルなど、各デバイスの詳細を確認できます。 デバイスの設定を変更し、ソフトウェアを更新し、リモートでデバイスを再起動することができます。 [詳細情報を参照してください](../using-admin-roles.md)。
 
 ## <a name="august-12-2020"></a>2020 年 8 月 12 日
 
@@ -217,7 +217,7 @@ Teams アプリ提出 API を通じて送信されたカスタム アプリを�
 
 ## <a name="august-3-2020"></a>2020 年 8 月 3 日
 
-### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams サードパーティ アプリのサービスを購入する
+### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams サードパーティ 製アプリのサービスを購入する
 
 Teams アプリは無料でインストールできます。また、アプリの完全な機能と範囲を体験するには、サービス サブスクリプションの購入が必要な場合があります。 これらのサービス サブスクリプションは、サービスとしてのソフトウェア (SaaS) オファーと呼ばれるサービスであり、AppSource から購入し、Microsoft Teams 管理センターから利用できます。 [詳細情報を参照してください](../purchase-third-party-apps.md)。
 
@@ -301,7 +301,7 @@ Teams ユーザーが会話への返信候補を表示する機能を追加し�
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
-プッシュ対通話を使用したインスタント 音声通信。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/walkie-talkie)。
+プッシュ to Talk を使用したインスタント 音声通信。 [詳細情報を参照してください](https://docs.microsoft.com/microsoftteams/walkie-talkie)。
 
 ## <a name="june-25-2020"></a>2020 年 6 月 25 日
 
@@ -353,7 +353,7 @@ Teams ユーザーが会話への返信候補を表示する機能を追加し�
 
 ### <a name="easily-access-meeting-options-from-within-a-teams-meeting-in-progress"></a>進行中の Teams 会議内から会議オプションに簡単にアクセスする
 
-会議の開催者は、Teams 会議が始まると、参加者ウィンドウに直接簡単にアクセスできるリンクを提供することで、発表者とロビーの設定をすばやく簡単に変更できます。 この新しい機能は、スケジュールされた会議と "今すぐ会議" 会議の両方に表示されます。
+Teams 会議が始まると、会議の開催者は簡単に発表者とロビーの設定を簡単に変更できます。参加者ウィンドウに直接簡単にアクセスできるリンクが用意されています。 この新しい機能は、スケジュールされた会議と "今すぐ会議" の両方に表示されます。
 
 ### <a name="download-a-participant-report-in-a-teams-meeting"></a>Teams 会議で参加者レポートをダウンロードする
 
@@ -387,7 +387,7 @@ Teams ユーザーが会話への返信候補を表示する機能を追加し�
 
 ### <a name="teams-for-realwear"></a>Teams for RealWear
 
-RealWear 用 Microsoft Teams クライアントを使用すると、RealWear の堅牢なヘッドマウント 装着型の装着を使用する Firstline Worker は、Teams 100% ハンズフリーで操作し、Teams ビデオ通話を使用して専門家からのリモート アシスタンスを探し求めすることができます。 [詳細情報を参照してください](../flw-realwear.md)。
+RealWear 用 Microsoft Teams クライアントを使用すると、RealWear の堅牢なヘッドマウント 型の装着を使用するフロントライン ワーカーは、Teams 100% ハンズフリーで操作し、Teams ビデオ通話を使用して専門家からのリモート アシスタンスを探し求めすることができます。 [詳細情報を参照してください](../flw-realwear.md)。
 
 ## <a name="march-31-2020"></a>2020 年 3 月 31 日
 
