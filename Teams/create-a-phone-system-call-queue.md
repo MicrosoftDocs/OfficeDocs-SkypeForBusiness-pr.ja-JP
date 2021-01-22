@@ -25,11 +25,11 @@ ms.custom:
 - seo-marvel-apr2020
 description: Microsoft Teams で通話キュー用の電話システムをセットアップする方法について説明します。応答メッセージの提供、音楽の保留、通話リダイレクト、その他の機能が提供されます。
 ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49765340"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919033"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -185,7 +185,7 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 
 - [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 

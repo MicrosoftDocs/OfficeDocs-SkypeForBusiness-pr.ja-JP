@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Microsoft Phone System Direct Routing を使用して、サポートされている顧客提供のセッション ボーダー コントローラー (SBC) を Microsoft Phone System に接続する方法について説明します。
-ms.openlocfilehash: 0256078cd641c437d067bea9eb63861abcf5868e
-ms.sourcegitcommit: 28e65b7a11c6afb5f791744b3f9780a024c4dc79
+ms.openlocfilehash: 77757cf76215dbed0b3ec572b5f1f57120551d86
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "49712325"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923829"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -143,7 +143,7 @@ SBC ドメイン名は、テナントのドメインに登録されている名�
 |DNS 名|SBC FQDN に使用できます|FQDN 名の例|
 |:--- |:--- |:--- |
 contoso.com|はい|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|不要|SBC 名onmicrosoft.com *.onmicrosoft.comの使用はサポートされていません
+|contoso.onmicrosoft.com|いいえ|SBC 名onmicrosoft.com *.onmicrosoft.comの使用はサポートされていません
 
 新しいドメイン名を使用するとします。 たとえば、テナントがテナントcontoso.com登録されているドメイン名として保存されている場合、テナントを使用sbc1.sip.contoso.com。 SBC とドメイン名を組み合sbc1.sip.contoso.com、テナントの [ドメイン] にドメインsip.contoso.comを登録する必要があります。 ドメイン名を登録する前に SBC と sbc1.sip.contoso.com をペアリングすると、"このテナント用に構成されていない "sbc1.sip.contoso.com" ドメインを使用できません。
 ドメイン名を追加した後、UPN アカウントを持つユーザーを作成し、Teams user@sip.contoso.com割り当てる必要があります。 ドメイン名がテナントのドメインに追加され、新しい名前のユーザーが作成され、ユーザーにライセンスが割り当てられるまで、最大で 24 時間かかる場合があります。 
@@ -159,9 +159,9 @@ Microsoft では、証明書署名要求 (CSR) を生成して SBC の証明書�
   > [!NOTE]
   > ほとんどの認証局 (CA) では、2048 以上のプライベート キー サイズが必要です。 CSR を生成する際は、この問題に気を付ける必要があります。
 
-証明書の件名フィールドには、共通名 (CN) として SBC FQDN が必要です。 証明書は、中間プロバイダーからではなく、証明機関から直接発行する必要があります。
+証明書には、共通名 (CN) または件名の代替名 (SAN) フィールドとして SBC FQDN が必要です。 証明書は、中間プロバイダーからではなく、証明機関から直接発行する必要があります。
 
-または、ダイレクト ルーティングは SAN のワイルドカードをサポートし、ワイルドカードは標準の RFC HTTP Over TLS に準拠 [する必要があります](https://tools.ietf.org/html/rfc2818#section-3.1)。 たとえば、SAN で .contoso.com を使用すると、SBC FQDN sbc.contoso.com と一致するが、一致しない \* sbc.test.contoso.com。
+または、ダイレクト ルーティングは CN または SAN のワイルドカードをサポートし、ワイルドカードは標準の [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)に準拠する必要があります。 たとえば、SBC FQDN contoso.com と一致するが、sbc.contoso.com と一致しない \* .sbc.test.contoso.com を使用する場合があります。
 
 証明書は、次のいずれかのルート証明機関によって生成される必要があります。
 

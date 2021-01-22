@@ -18,12 +18,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2942de5e824d0553ba9d92f445d3635d73f0fe83
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: 40fad38d8c77d8194d2bf24a451fb9438f10c586
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031033"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918973"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -42,20 +42,20 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 Teams ユーザーの会議を記録するには、そのテナントに対して Microsoft Stream を有効にする必要があります。 また、会議の開催者とレコーディングを開始するユーザーの双方は、次の前提条件を満たす必要があります。
 
 - Office 365 E1、E3、E5、A1、A3、A5、Microsoft 365 Business Premium または Business Standard または Business Basic<sup>1</sup> を所有している
-- Microsoft Stream<sup>2</sup> のライセンスが付与されている必要がある 
-- Microsoft Stream でビデオをアップロードするアクセス許可を持っている
 - 会社のガイドラインが管理者によって設定されている場合、そのガイドラインに同意している
 - レコーディングを保存するのに十分なストレージを Microsoft Stream に確保している
-- TeamsMeetingPolicy-AllowCloudRecording 設定が true に設定されている
+- ユーザーが CsTeamsMeetingPolicy -AllowCloudRecording 設定を true に設定して会議やグループ通話を記録する
+- ユーザーが 1 対 1 の呼び出しを記録するために CsTeamsCallingPolicy -AllowCloudRecordingForCalls の設定が true に設定されている
 - その会議の匿名ユーザー、ゲスト ユーザー、フェデレーション ユーザーではない
 - ユーザーの会議の議事録作成を有効にするには、割り当てられている Teams の会議ポリシーで-AllowTranscription 設定が「正」に設定されている必要があります。
 
 <sup>1</sup> 2020 年 8 月 20 日以降、A1 を使用しているユーザーの場合、会議記録ファイルへのアクセスは 21 日後に有効期限が切れます。 詳細については、「[Microsoft Teams 会議の記録を Stream にアップロードする](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording)」を参照してください。
 
-<sup>2</sup> 会議を Microsoft Stream に/からアップロードおよび/またはダウンロードするライセンスは必要ですが、会議を記録するライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
-
 > [!IMPORTANT] 
-> ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream に保存されず、削除されるまでの 21 日間の制限付きで Azure Media Services (AMS) に保存されるということです。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
+> ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 これは、記録が Microsoft Stream に保存されるのではなく、削除される前に 21 日の制限を持つ非同期メディア サービス (AMS) に保存されるという意味になります。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
+
+> [!IMPORTANT]
+> また、AMS 上のレコーディングの場合、レコーディングの保持はチャット メッセージ自体の影響を受ける点に注意してください。 そのため、元の AMS レコーディング チャット メッセージが削除された場合、ユーザーは記録にアクセスできない可能性があります。 この問題に影響を与える可能性があるシナリオは 2 つ考えられます。 1) ユーザーがチャット メッセージを手動で削除する - このシナリオでは、元のメッセージがなくなっているので、ユーザーは記録にアクセスできなくなり、ダウンロードも行えなくなります。 ただし、記録自体は、Microsoft の内部システム内で一度 (元の 21 日間を超えない) 保持される場合があります。 2) チャットメッセージの記録は、チャット保持ポリシーによって削除されます。AMS レコーディングはチャット保持ポリシーに直接関連付けされます。 そのため、AMS でのレコーディングは削除される前に既定で 21 日間保持されます。チャット メッセージ保持ポリシーにより、チャット メッセージが 21 日前に削除された場合、記録も削除されます。 この後に記録を回復する方法はありません。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>組織内のユーザーに対して Teams のクラウド会議のレコーディングを設定する
 
@@ -112,46 +112,44 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>会議のレコーディングの保存場所
 
-会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 記録は保持され、21 日間の表示およびダウンロードに使用できます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。 将来、Microsoft Stream がその国内のデータ所在地では利用できない場合でも、データが国内に保存されるお客様が Teams 会議のレコーディング機能をご利用いただけるようになる予定です。
+会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。 Microsoft Stream が国内のデータ常駐地域で利用できない場合でも、データが国内に保存されるはずの顧客に対して、会議の記録機能を有効にできます。 これは、記録を Microsoft Stream の最も近い地理的地域に保存できるようにして行います。 
 
-この変更が有効になると、会議のレコーディングは既定で地理的に最も近い Microsoft Stream のリージョンに保存されます。 Teams のデータが国内に保存されており、会議のレコーディングを国内に保存することをご希望の場合は、この機能を無効にし、Microsoft Stream がお客様の国内のデータ所在地のリージョンに展開されてから有効にすることをお勧めします。 組織内のすべてのユーザーに対してこの機能を無効にするには、Microsoft Teams 管理センターで、グローバルな Teams 会議ポリシーの **クラウドの記録を許可する** 設定をオフにします。 ただし、記録を Microsoft Stream の最も近い地理的地域に保存できるようにしたい場合は、この変更を実行する前に、「**クラウドの記録を許可する**」 と 「**外部の領域の保存を許可**」の両方を有効にする必要があります。
+Teams のデータが国内に保存されており、会議のレコーディングを国内に保存することをご希望の場合は、この機能を無効にし、Microsoft Stream がお客様の国内のデータ所在地のリージョンに展開されてから有効にすることをお勧めします。 組織内のすべてのユーザーに対してこの機能を無効にするには、Microsoft Teams 管理センターで、グローバルな Teams 会議ポリシーの **クラウドの記録を許可する** 設定をオフにします。 ただし、記録を Microsoft Stream の最も近い地理的地域に保存できるようにしたい場合は、この変更を実行する前に、「**クラウドの記録を許可する**」 と 「**外部の領域の保存を許可**」の両方を有効にする必要があります。
 
-グローバル ポリシーの地域でのレコーディングを有効にするには、次のコマンドレットを使用します。
+グローバル ポリシーで領域内のレコーディングを有効にするには、次のコマンドレットを使用します。
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
-```
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
 
+Here's a summary of what happens when you turn on meeting recording when this change takes effect:
 
-この変更が有効になると、会議のレコーディングを開始した場合の動作は次のようになります。
-
-|会議のレコーディングを開始した場合...|会議のレコーディングの保存先... |
+|If you turn on meeting recordings...|Meeting recordings are stored... |
 |---|---|
-|Microsoft Stream がお客様の国内のデータ所在地のリージョンで利用できるようになる前 |最も近い Microsoft Stream のリージョン|
-|Microsoft Stream がお客様の国内のデータ所在地のリージョンで利用できるようになった後 |お客様の国内のデータ所在地のリージョン|
+|Before Microsoft Stream is available in your in-country data residency region |In the nearest Microsoft Stream region|
+|After Microsoft Stream is available in your in-country data residency region |In your in-country data residency region|
 
-会議のレコーディングが開始していない新規および既存のテナントの場合、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになると、新しいレコーディングは国内に保存されます。 ただし、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになる前に会議のレコーディングが有効になっているすべてのテナントでは、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになった後でも、既存および新規のレコーディングに引き続き Microsoft Stream ストレージが使用されます。
+For new and existing tenants that haven't yet turned on meeting recording, new recordings are stored in-country after Microsoft Stream is available in the in-country data residency region. However, any tenant that enables meeting recording before Microsoft Stream is available in the in-country data residency region will continue to use the Microsoft Stream storage for existing and new recordings, even after Microsoft Stream is available in the in-country data residency region.
 
-お客様の Microsoft Stream データが保存されるリージョンを確認するには、Microsoft Stream で、右上隅にある **[?]** をクリックし、 **[About Microsoft Stream](Microsoft Stream について)** をクリックして、**[Your data is stored in](データの保存場所)** をクリックします。  Microsoft Stream でデータが保存されるリージョンについて詳しくは、「[Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)」を参照してください。
+To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-Office 365 または Office 365 のサービス全体のデータの保存場所について詳しくは、「[データの保管場所](https://products.office.com/where-is-your-data-located?rtc=1)」を参照してください。
+To learn more about where data is stored across services in Microsoft 365 or Office 365, see [Where is your data located?](https://products.office.com/where-is-your-data-located?rtc=1)
 
-### <a name="turn-on-or-turn-off-recording-transcription"></a>記録の文字起こしを有効または無効にする
+### Turn on or turn off recording transcription
 
-この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 これをオフにすると、会議の記録の再生中に [**検索**] および [**CC**] オプションを使用できなくなります。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。
+This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
 
 > [!NOTE]
-> 記録された会議の文字起こしは、現在 Teams の言語が英語に設定されているユーザー、および会議で英語が話されている場合のみサポートされていることに注意してください。 これらは、Microsoft Stream クラウド ストレージに会議のレコーディングと共に保存されます。
+> That transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting. They are stored together with the meeting recordings in Microsoft Stream cloud storage.
 
-Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、レコーディングを開始するユーザーが会議のレコーディングを文字起こしする機能を選択できるかどうかを制御できます。
+You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 
-Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow transcription](議事録作成を許可する)** 設定をオンまたはオフにします。 詳細については、「[Teams での会議ポリシーを管理する](meeting-policies-in-teams.md#allow-transcription)」を参照してください。
+In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-transcription).
 
-PowerShell を使用する場合は、TeamsMeetingPolicy で AllowTranscription 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
+Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-管理者がユーザーにカスタム ポリシーを割り当てていない限り、ユーザーはグローバル ポリシーを取得します。グローバル ポリシーでは、既定で AllowTranscription が無効になっています。
+Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowTranscription disabled by default.
 
-ユーザーがグローバル ポリシーにフォールバックするには、次のコマンドレットを使用して、ユーザーの特定のポリシーの割り当てを削除します。
+For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
 ```powershell
 Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose

@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a8fe0d3b4f86de34accb1519c80a391a9e395fbe
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 6d4cb45334edb9307663eb1ffcab5e7c1085b149
+ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49703458"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49923839"
 ---
 # <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Teams ラーニング アプリのインストール、管理、アクセス許可の割り当て (プライベート プレビュー)
 
@@ -34,7 +34,6 @@ Teams ラーニング アプリ (プライベート プレビュー) をセッ�
 
 -   Teams 管理センターの管理
 -   Microsoft 365 管理センターの管理 (グローバル管理者)
--   グローバル管理者 (IT 管理者または Microsoft 365 管理者とも呼ばれる) が組織内のすべてのユーザーに割り当て可能な、ナレッジ管理者 (Microsoft 365 管理センターの新しい役割)。 この役割は、Microsoft 365 管理センターを通じて組織の学習コンテンツ ソースを管理します)。 
 
 ## <a name="manage-the-teams-learning-app-private-preview-in-the-teams-admin-center"></a>Teams 管理センターで Teams ラーニング アプリ (プライベート プレビュー) を管理する
 
@@ -69,26 +68,13 @@ Teams 管理者は、Teams ラーニング アプリ (プライベート プレ�
 
 ## <a name="configure-learning-content-sources-in-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターで学習コンテンツ ソースを構成する
 
-Microsoft 365 管理センターの管理者は、自分自身または組織内の選択した個人にナレッジ管理者の役割を割り当て、Teams ラーニング アプリ (プライベート プレビュー) に関連する設定を管理し、学習コンテンツ ソースを構成できます。
+Microsoft 365 管理センターの管理者は、Teams ラーニング アプリ (プライベート プレビュー) に関連する設定を管理し、学習コンテンツ ソースを構成できます。
 
-> [!TIP]
-> 知識管理者は、中程度の技術的な知識を持ち、既存の SharePoint 管理者資格情報を持っている必要があります。できれば、組織の教育、学習、トレーニング、または従業員の経験に精通しているユーザーが必要です。
- 
 管理者は、アプリで利用できる学習コンテンツ ソース (LinkedIn ラーニングや SharePoint など) を選択します。 次に、管理者は、コンテンツが検索と検出に使用できる情報であり、アプリを使用する従業員が参照できるよう、これらのソースを構成します。
-
-### <a name="assign-the-knowledge-admin-role-optional"></a>サポート技術情報管理者の役割を割り当てる [オプション]
-
-これらの手順は、Microsoft 365 管理センターの管理者が実行する必要があります。
-
-1.  Microsoft 365 管理センターの左側のナビゲーションで、[ロール] に移動 **します**。
-
-2.  [ロール **] ページの** **[Azure** AD] タブで、[サポート技術情報の **管理者] を選択します**。
- 
-3.  [サポート **技術情報の管理**] ページの [割り当てられた管理者] セクションで、[追加] を選択し、役割に選択したユーザーを追加します。
 
 ### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>アプリの学習コンテンツ ソースの設定を構成する
 
-これらの手順は、Microsoft 365 管理者またはサポート技術情報の管理者が実行する必要があります。
+これらの手順は、Microsoft 365 管理者が実行する必要があります。
 
 1.  Microsoft 365 管理センターの左側のナビゲーションで、[組織の設定 **] 設定に**  >  **移動します**。
 
@@ -113,13 +99,13 @@ Microsoft 365 管理センターの管理者は、自分自身または組織内
 
 学習コンテンツ ソースを有効または無効にするには、ソースの横にあるチェック ボックスをオンにします。 ソースが有効な場合は、チェック マークが表示されます。
 
-## <a name="configure-sharepoint-as-a-learning-content-source"></a>学習コンテンツ ソースとして SharePoint を構成する
+## <a name="configure-sharepoint-as-a-learning-content-source-coming-soon"></a>学習コンテンツ ソースとして SharePoint を構成する (近日公開)
 
 Microsoft 365 管理センターで、Teams ラーニング アプリ (プライベート プレビュー) の学習コンテンツ ソースとして SharePoint を構成します。
 
 ### <a name="overview"></a>概要
 
-ナレッジ管理者は、ラーニング サービスが構造化された SharePoint リストの形式で空の一元管理された学習コンテンツ リポジトリを作成できるサイト URL を提供します。 このリストは、組織が学習コンテンツを含む会社間の SharePoint フォルダーへのリンクを格納するために使用できます。 管理者は、フォルダーの URL リストを収集し、管理する必要があります。 これらのフォルダーには、Teams ラーニング アプリ (プライベート プレビュー) で利用できるコンテンツのみを含める必要があります。
+管理者は、構造化された SharePoint リストの形式で、ラーニング サービスが空の一元管理された学習コンテンツ リポジトリを作成できるサイト URL を提供します。 このリストは、組織が学習コンテンツを含む会社間の SharePoint フォルダーへのリンクを格納するために使用できます。 管理者は、フォルダーの URL リストを収集し、管理する必要があります。 これらのフォルダーには、Teams ラーニング アプリ (プライベート プレビュー) で利用できるコンテンツのみを含める必要があります。
 
 ### <a name="permissions"></a>アクセス許可
 
@@ -131,7 +117,7 @@ Microsoft 365 管理センターで、Teams ラーニング アプリ (プライ
 
 ### <a name="configure-sharepoint-as-a-source"></a>SharePoint をソースとして構成する
 
-これらの手順は、Microsoft 365 管理者またはサポート技術情報の管理者が実行する必要があります。
+これらの手順は、Microsoft 365 管理者が実行する必要があります。
 
 1.  Microsoft 365 管理センターの左側のナビゲーションで、[設定] に移動 **します**。
  

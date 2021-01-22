@@ -1,5 +1,5 @@
 ---
-title: チームボイスの Contoso のケーススタディ
+title: Teams の音声 Contoso のケース スタディ
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,89 +13,89 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 多国籍企業向けの Teams の音声のケーススタディ
+description: 多国籍企業向け Teams 音声ケース スタディ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 780d812b4e6e56b28b867ace14dbf1d5f6170302
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: a6ee08fa7bdeb1ded6bda384115a08048021cb67
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786093"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918733"
 ---
-# <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso のケーススタディ: 自動応答と通話キュー
+# <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso のケース スタディ: 自動応答と通話キュー
 
-Contoso は、オンプレミスの Skype for Business 展開の自動応答と通話キューに精通していました。 クラウド自動応答のセットアップ方法を理解するために、[クラウド自動応答の](what-are-phone-system-auto-attendants.md)概要と[小規模ビジネスの例-自動応答のセットアップ](tutorial-org-aa.yml)に関するチュートリアルをご覧ください。 通話キューのセットアップに使用できるオプションの詳細については、[Contoso レビュー][クラウドの通話キューを作成](create-a-phone-system-call-queue.md)します。  
+Contoso は、オンプレミスの Skype for Business 展開からの自動応答と通話キューに慣れ親しんでいます。 クラウド自動応答と通話キューを設定する方法を理解するために、Teams の自動応答と通話キューのプラン [を確認しました](plan-auto-attendant-call-queue.md)。
 
-## <a name="requirements-depending-on-site-type"></a>サイトの種類に応じた要件
+## <a name="requirements-depending-on-site-type"></a>サイトの種類に応じて要件
 
-Contoso には、サイトの種類に応じて次の要件があります。
+サイトの種類に応じて、Contoso には次のニーズがありました。
 
-- サイトの種類 A: 従来の従来のテレフォニーシステム 
+- サイトの種類 A: 従来のレガシ テレフォニー システム 
 
-  [サイトの種類の場合、受付に関連付けられた電話番号を自動応答の番号として保持する必要があります。 各サイトの主要部署には、チームメンバーにルーティングされる専用の通話キューがあります。 通話プランを使って、直通ルーティングと電話システムで電話システムを使用しているサイトが混在していました。  
+  受付係と同じ電話番号を自動応答の番号と関連付けるのに必要なサイトタイプ A。 これらの各サイトの主要な部門には、チーム メンバーにルーティングされる独自の通話キューがあります。 直接ルーティングを使用した電話システムと通話プラン付き電話システムを使用するサイトが混同されています。  
 
-- サイトの種類 B: Skype for Business のエンタープライズボイス 
+- サイトの種類 B: Skype for Business エンタープライズ VoIP 
 
-  サイトの種類 B には、チームへの移行に必要な既存の自動応答と通話キューがありました。 Contoso は、電話番号を自動応答に関連付けておく必要があります。 Contoso がこれらのサイトの大部分を電話システムに移行しました。 ただし、通話プランを利用できない場所では、Contoso がこれらのサイトを直接ルーティング構成に移行しました。  
+  サイトの種類 B には、Teams への移行に必要な既存の自動応答と通話キューがありました。 Contoso は、自動応答に関連付けられている電話番号を保持する必要がありました。 Contoso は、これらのサイトの大部分を通話プランを使用する電話システムに移行しました。 ただし、通話プランを利用できないいくつかの場所で、Contoso はこれらのサイトを直接ルーティング構成に移動しました。  
 
-- サイトの種類 C: Skype for Business エンタープライズボイス & 従来の従来のテレフォニーシステム 
+- サイトの種類 C: Skype for Business エンタープライズ VoIP &従来のテレフォニー システム 
 
-  サイトの種類 C には、従来の従来のテレフォニーシステムに含まれていた既存の自動応答がありました。 このサイトの決定と構成は、サイトの種類 A と同じです。   
+  サイトの種類 C には、従来のレガシ テレフォニー システムに存在する既存の自動応答がありました。 このサイトの決定と構成は、サイトの種類 A と同じでした。   
 
-- すべてのサイトの種類について、Contoso から以下の質問が寄せられています。
+- すべてのサイトの種類について、Contoso は次の質問をしました。
 
-  - Q: 新規または既存の番号を使用しますか? 
-    A: Contoso は、自動応答のサービスアカウントに割り当てられる既存の電話番号を使用することを決定しました。 
+  - Q: 新しい数値または既存の数値を使用しますか? 
+    A: Contoso は、自動応答のサービス アカウントに割り当てる既存の電話番号を使用することを決定しました。 
 
-  - Q: 自動応答はどのようなタイミングで着信を受け入れることができますか? 
-    A: Contoso は、勤務時間を設定することを決定し、営業時間が "勤務時間" の自動応答にリダイレクトされた後で通話を受信することにしました。  
+  - Q: 着信通話を受け取る自動応答は、いつ利用できますか? 
+    A: Contoso は営業時間を設定し、営業時間が "営業時間外" の自動応答にリダイレクトされた後に着信を受信しました。  
 
-  - Q: 通話キュー内のメンバーへの通話は、アテンダント、シリアル、またはラウンドロビンルーティングのどのようにルーティングされますか? 
-    A: Contoso は、アテンダントルーティングを使用することを決定しました。 
+  - Q: 通話キュー内のメンバー (アテンダント、シリアル、ラウンド ロビン ルーティング) に通話をルーティングする方法 
+    A: Contoso はアテンダント ルーティングを使用することを決定しました。 
 
-  - Q: ユーザーが通話を受けるべきかどうかを判断する方法を教えてください。 
-    A: Contoso は、エージェントが利用可能かどうかを判断するために、通話処理オプションの使用を決定しました。プレゼンスベースのルーティング。 
+  - Q: ユーザーがいついつ通話を受けるべきか、それとも受けるべきでないのかを判断するにはどうすればいいでしょうか。 
+    A: Contoso は、エージェントが利用可能かどうかを判断するために通話処理オプションを使用することを決定しました。プレゼンス ベースのルーティング。 
 
 
 ## <a name="configuration"></a>構成
 
-自動応答と通話キューを設定する手順については、「[リソースアカウントを管理](manage-resource-accounts.md)する」に記載されています。 
+自動応答と通話キューを設定する手順については、「リソース アカウントを管理する」で説明されている [次の手順が含まれます](manage-resource-accounts.md)。 
 
 1. サービス番号を取得します。 
 
-2. リソースアカウントまたは電話システムのライセンスと共に使用する、無料の電話システム仮想ユーザーライセンスまたは有料電話システムライセンスを取得します。
+2. 無料の電話システム - 仮想ユーザー ライセンスまたは有料電話システム ライセンスを取得して、リソース アカウントまたは電話システム ライセンスで使用します。
 
-3. リソースアカウントを作成します。 関連付けられているリソースアカウントを持つには、自動応答または通話キューが必要です。 
+3. リソース アカウントを作成します。 自動応答または通話キューは、関連付けられたリソース アカウントを持っている必要があります。 
 
-4. 電話システムまたは電話システム仮想ユーザーライセンスをリソースアカウントに割り当てます。 詳細については、「 [Microsoft 365 電話システム–仮想ユーザーライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user)」を参照してください。
+4. 電話システムまたは電話システム - 仮想ユーザー ライセンスをリソース アカウントに割り当てる。 詳細については [、「Microsoft 365 電話システム - 仮想ユーザー ライセンス」を参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user)。
 
-5. ライセンスを割り当てたリソースアカウントにサービスの電話番号を割り当てます。 
+5. ライセンスを割り当てたリソース アカウントにサービス電話番号を割り当てる。 
 
-6. 電話システムの通話キューまたは自動応答を作成する 
+6. 電話システム通話キューまたは自動応答を作成する 
 
-7. リソースアカウントを通話キューまたは自動応答にリンクします。 
-
-
-### <a name="sites-with-phone-system-with-direct-routing"></a>直接ルーティングを使用する電話システムを使用しているサイト 
-
-Contoso は、Office 365 のサービス番号として、ローカルの通信事業者から提供される電話番号を設定する必要がありました。 
-
-- 直接ルーティングによって利用可能な電話番号を設定するには、「[リソースアカウントの管理](manage-resource-accounts.md)」に記載された手順に従います。 Office 365 はオンプレミスの電話番号を認識しないため、Contoso は PowerShell を使用してセットアップを完了します。   
-
-- クラウド自動応答を構成するには、「[クラウド自動応答を設定](create-a-phone-system-auto-attendant.md)する」の手順に従ってください。 
-
-- クラウド通話キューをセットアップするには、「[クラウド通話キューを作成](create-a-phone-system-call-queue.md)する」で説明した手順に従います。  
+7. リソース アカウントを通話キューまたは自動応答にリンクします。 
 
 
-### <a name="sites-with-phone-system-with-calling-plan"></a>通話プランのある電話システムを使用するサイト
+### <a name="sites-with-phone-system-with-direct-routing"></a>直接ルーティングが設定された電話システムを使用するサイト 
 
-Contoso は、Skype for Business のエンタープライズボイス自動応答に使用された電話番号を、Office 365 電話システムに移植する必要がありました。 これにより、自動応答として使用するために、同じ番号をサービス番号として割り当てることができます。 
+Contoso は、365 年 365 日にローカルの通信事業者から提供された電話番号をサービス番号としてOffice必要でした。 
 
-- 電話番号を移植するには、「会社[に電話番号を移行](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)する」の指示に従って、「[組織の電話番号を管理](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)する」で追加のガイダンスを入手します。
+- Contoso は、直接ルーティングで利用できる電話番号を設定するために、「リソース アカウントの管理」の手順 [に従いました](manage-resource-accounts.md)。 365 Officeオンプレミスの電話番号を認識していないので、Contoso は PowerShell を使用してセットアップを完了しました。   
 
-- クラウド自動応答を構成するには、「[クラウド自動応答を設定](create-a-phone-system-auto-attendant.md)する」の手順に従ってください。
+- クラウド自動応答を構成するには、「クラウド自動応答を設定する」で説明されている手順 [に従います](create-a-phone-system-auto-attendant.md)。 
 
--  クラウド通話キューをセットアップするには、「[クラウド通話キューを作成](create-a-phone-system-call-queue.md)する」で説明した手順に従います。  
+- クラウド通話キューを設定するには、「クラウド通話キューを作成する」で説明されている手順 [に従います](create-a-phone-system-call-queue.md)。  
+
+
+### <a name="sites-with-phone-system-with-calling-plan"></a>通話プランが設定された電話システムを使用するサイト
+
+Contoso は、Skype for Business の自動応答に使用された電話番号を 365 エンタープライズ VoIP 365 電話システムOffice移行する必要があります。 これにより、自動応答として使用するサービス番号として同じ番号を割り当てる必要がありました。 
+
+- 電話番号を移行するために、Contoso は [「電話番号](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) を Teams に移行する」の手順に従い、組織の電話番号の管理に関する追加のガイダンス [を取得しました](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+
+- クラウド自動応答を構成するには、「クラウド自動応答を設定する」で説明されている手順 [に従います](create-a-phone-system-auto-attendant.md)。
+
+-  クラウド通話キューを設定するには、「クラウド通話キューを作成する」で説明されている手順 [に従います](create-a-phone-system-call-queue.md)。  
 
  

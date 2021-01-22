@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューについて、および発信者がメニュー システム内を移動して組織内のユーザーまたは部門に到達するのに役立つ方法について説明します。
-ms.openlocfilehash: f53beb7b084a003b1c6ca363708d5df89d73f302
-ms.sourcegitcommit: ce9460934cf469969502298a76a9ce3e7866ceb1
+ms.openlocfilehash: 9ba8ccf08793e352e225340aeab33d7b95204cd9
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49697906"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918893"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams の自動応答と通話キューを計画する
 
@@ -74,7 +74,10 @@ ms.locfileid: "49697906"
 - 直接ダイヤル [可能に](getting-service-phone-numbers.md)したい各リソース アカウントの 1 つ以上の Microsoft サービス番号、直接ルーティング番号、またはハイブリッド番号
  - サービス番号は有料またはフリーダイヤルの番号である場合があります
 
-通話キューから通話を受信するエージェントは、オンラインまたはエンタープライズ VoIP有効になっている必要があります。 
+通話キューから通話を受信するエージェントは、オンラインまたはエンタープライズ VoIP有効になっている必要があります。 さらに、通話キューが直接ルーティング番号を使用している場合は、電話会議または転送が必要なエージェントも次の必要があります。
+
+- 通話キューで転送モードが使用されている場合に割り当てられたオンライン音声ルーティング ポリシー
+- 通話キューで電話会議モードが使用されている場合に割り当てられた電話会議ライセンスまたはオンライン音声ルーティング ポリシー
 
 エージェントが通話キューの呼び出しに Microsoft Teams アプリを使用している場合は、TeamsOnly モードである必要があります。
 
@@ -223,4 +226,6 @@ ms.locfileid: "49697906"
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[小規模ビジネスの例: 自動応答をセットアップする](/microsoftteams/tutorial-org-aa)
+[通話キューを作成する - 小規模ビジネス向けチュートリアル](business-voice/create-a-phone-system-call-queue-smb.md)
+
+[自動応答を設定する - 小規模ビジネス向けチュートリアル](business-voice/create-a-phone-system-auto-attendant-smb.md)

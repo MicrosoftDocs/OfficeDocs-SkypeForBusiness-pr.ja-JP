@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Microsoft Teams でユーザーの電話会議の PIN をリセットする方法と、Pin についての重要な事実について説明します。
-ms.openlocfilehash: 8926218c72c888edb00480ff8382672a3730cf15
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+description: Microsoft Teams でユーザーの電話会議 PIN をリセットする方法と PIN に関する重要な事実について説明します。
+ms.openlocfilehash: cf660331bebfe32fe1809067570e316449c12a22
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666189"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918983"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
-PIN は、電話会議が有効になっている Microsoft Teams ユーザーごとに作成された番号から構成されるコードです。 電話会議の Pin は、会議の開催者が会議の開催者であり、電話で会議を開始できることを示すために使用されます。 Microsoft Teams アプリを使って会議を開始する場合、PIN は必要ありません。 ユーザーが PIN を忘れた場合、電話会議用に有効にしたときに送信されたメールでその PIN が見つからない場合は、管理者が自分の pin をリセットするか、自分の pin をリセットすることができます。
+PIN は、電話会議に対応している Microsoft Teams ユーザーごとに作成される番号で構成されるコードです。 電話会議 PIN は、会議の開催者が自分が会議の開催者であり、電話で会議を開始するために使用されます。 Microsoft Teams アプリを使用して会議を開始する場合、PIN は必要ありません。 ユーザーが自分の PIN を忘れて、電話会議で有効になっていたときに送信されたメールで PIN を見つからなかった場合、管理者は自分の PIN をリセットするか、自分の PIN をリセットできます。
   
-会議を開始できるのは、認証されたユーザーが Microsoft Teams アプリを使って参加した場合、または開催者が電話で自分の PIN を使用して参加した場合です。 会議の開始に PIN が必要な場合、電話で参加するユーザーはロビーで待機し、会議が開始するまで保留音を聞くことになります。 会議の開催者が、電話で会議を開始するための PIN を要求しない場合、発信者は会議に参加しようとするときに PIN の提示を求められません。
+会議は、認証されたユーザーが Microsoft Teams アプリを使用して参加するか、開催者が電話で自分の PIN で参加するときに開始できます。 会議の開始に PIN が必要な場合、電話で参加するユーザーはロビーで待機し、会議が開始するまで保留音を聞くことになります。 会議の開催者が、電話で会議を開始するための PIN を要求しない場合、発信者は会議に参加しようとするときに PIN の提示を求められません。
 
 ## <a name="reset-a-users-pin"></a>ユーザーの PIN をリセットする
 
@@ -41,46 +41,46 @@ PIN は、電話会議が有効になっている Microsoft Teams ユーザー�
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
-2. [**編集**] をクリックします。
+2. [編集 **] をクリックします**。
 
-3. [**電話会議**] の [ **PIN のリセット**] をクリックします。
+3. [電話 **会議] の [PIN の** リセット] **をクリックします**。
 
-4. [**リセット**] をクリックします。
+4. [リセット] **をクリックします**。
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>ユーザーが自分の PIN をリセットする
+## <a name="have-a-user-reset-their-own-pin"></a>ユーザーに自分の PIN をリセットする
 
-1. ユーザーにアクセス権を付与 [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) します。
-2. [ **PIN のリセット**] をクリックします。 
+1. ユーザーにアクセスを許可します [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) 。
+2. [PIN **のリセット] をクリックします**。 
 
 
 ## <a name="what-else-should-you-know-about-pins"></a>PIN について知っておくべきその他のこと
 
-- セキュリティ保護のため、PIN のリセット時に PIN は 1 回だけ管理者に表示されます。 PIN が管理者によってリセットされると、PIN が "* * * * *" と表示されます。
+- セキュリティ保護のため、PIN のリセット時に PIN は 1 回だけ管理者に表示されます。 管理者が PIN をリセットすると、PIN は ***** として表示されます。
     
-- ユーザーにメールを自動的に送信する機能は既定で有効になっています。電話会議が有効になっているか、PIN がリセットされると、ユーザーは PIN を含むメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN のリセットメールはユーザーに送信されず、ユーザーに PIN 情報を手動で送信する必要があります。
+- ユーザーへのメールの自動送信は既定で有効になっています。ユーザーが電話会議で有効になっている場合、または PIN がリセットされた場合、ユーザーは自分の PIN が記載されたメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN リセット メールはユーザーに送信されません。PIN 情報を手動でユーザーに送信する必要があります。
     
-- 会議が始まると、ロビー内のすべてのユーザーは自動的にその会議に参加します。 たとえば、会議が始まる前に 2 人の参加者が会議に参加しようとすると、ロビーで待って保留音を聞くことになります。会議の開催者が自分の PIN を使用して電話で参加すると、会議が始まり、ロビーにいる参加者が会議に参加します。
+- 会議が始まると、ロビー内のすべてのユーザーが自動的に会議に参加します。 たとえば、開始前に 2 人の参加者が会議に参加しようとする場合、その参加者はロビーに配置され、保留音が聞き取り、会議の開催者が自分の PIN を使って電話で参加すると、会議が開始され、ロビーの参加者が会議に参加します。
     
-- 既定の設定では、匿名の発信者が会議を開始することは許可されていません。
+- 既定の設定では、匿名の発信者による会議の開始を許可しません。
     
-- 電話会議のユーザーを有効にすると、既定では、会議の情報とその PIN を含むメールが送信されます。 PIN がリセットされると、ユーザーに対して設定されているプライマリ SMTP アドレス (エイリアス) に新しい PIN がメールのユーザーに送信されるため、Microsoft 365 または Office 365 メールボックスが必要です。
+- ユーザーを電話会議用に有効にした場合、既定では、ユーザーは会議情報と PIN を含むメールを送信します。 PIN がリセットされた場合、ユーザーに設定されているプライマリ SMTP アドレス (エイリアス) に新しい PIN がメールで送信されるので、ユーザーは Microsoft 365 または Office 365 メールボックスを持っている必要があります。
     
-- 電話会議をセットアップするときには、組織内の Pin に必要な数字を設定します。 Pin は 4 ~ 12 桁にすることができます。既定値は5です。 PIN の長さの設定を変更した場合、設定は新しく生成された Pin にのみ適用され、電話会議用に有効になっている既存のユーザーの PIN の設定には適用されません。 「[電話会議の PIN の長さを設定](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)する」を参照してください。
+- 電話会議をセットアップするときに、組織内の PIN に必要な数字を設定します。 PIN は 4 ~ 12 桁で指定できます。既定値は 5 です。 PIN の長さの設定を変更した場合、この設定は新しく生成された PIN にのみ適用され、電話会議で有効になっている既存のユーザーの PIN 設定には適用されません。 「 [電話会議の PIN の長さを設定する」を参照してください](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
     
-- 既定では、メールはユーザーの Microsoft 365 または Office 365 プライマリ SMTP アドレスに設定されます。 メールは、Microsoft 以外の365または Office 以外の365アドレス (Hotmail または MSN のメールアドレスなど) に送信できます。 Windows PowerShell を使用して、既定のメールアドレスを上書きできます。 これは、ユーザーが Microsoft 365 または Office 365 で Exchange メールボックスを持っていない場合に便利です。
+- 既定では、メールはユーザーの Microsoft 365 Office 365 プライマリ SMTP アドレスに設定されます。 Microsoft 365 以外のアドレスまたは Office 365 以外のアドレス (Hotmail または MSN のメール アドレスなど) にメールを送信できます。 既定のメール アドレスを上書きするには、既定のメール Windows PowerShell。 これは、ユーザーが Microsoft 365 または 365 で Exchange メールボックスを持Office便利です。
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常的な作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell では、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
   

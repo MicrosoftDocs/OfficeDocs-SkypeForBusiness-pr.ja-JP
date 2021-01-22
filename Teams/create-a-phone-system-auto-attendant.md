@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams の自動応答を設定してテストする方法について説明します。
-ms.openlocfilehash: 361122f4411f6aa3621d030a7a0569b438a86c27
-ms.sourcegitcommit: 7c6a9e851d2fbf055d15e681e367d9dceee0b917
+ms.openlocfilehash: 4809965eaad0f8cd81b59823d3890bd895998906
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "49751782"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49919041"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -37,13 +37,13 @@ ms.locfileid: "49751782"
 
 自動応答では、発信者の入力に基づいて、次のいずれかの発信先に通話を発信できます。 <a name="call-routing-options" ></a>
 
-- **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 これは、オンライン ユーザーまたは Skype for Business Server を使用するオンプレミスでホストされるユーザーです。
+- **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 これは、オンライン ユーザーまたは Skype for Business Server を使用するオンプレミスでホストされているユーザーです。
 - **音声アプリ** - 別の自動応答または通話キュー。 (この宛先を選ぶときに、自動応答または通話キューに関連付けられているリソース アカウントを選ぶ。
 - **外部電話番号** - 任意の電話番号。 (外部 [転送の技術的な詳細を参照してください](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details))。
 - **ボイス** メール - 指定した Microsoft 365 グループに関連付けられているボイス メールボックス。
 - **オペレーター** - 自動応答に定義された演算子。 演算子の定義は省略可能です。 演算子は、このリストの他の宛先として定義できます。
 
-自動応答を設定すると、さまざまな段階でこれらのオプションのいずれかを選択するように求めるメッセージが表示されます。
+自動応答を設定する場合、さまざまな段階でこれらのオプションのいずれかを選択するように求めるメッセージが表示されます。
 
 自動応答を設定するには、Teams 管理センターで [音声] を展開し、[自動応答] をクリックして、[追加] をクリック **します**。
 
@@ -59,7 +59,7 @@ ms.locfileid: "49751782"
 
 4. この自動応答の言語を指定します。 システム生成の音声プロンプトに使用される言語です。
 
-5. 音声入力を有効にする場合に選択します。 有効にすると、すべてのメニュー オプションの名前が音声認識キーワードになります。 たとえば、発信者は"1" と言ってキー 1 にマップされたメニュー オプションを選択したり、"営業" と言って "売上" という名前のメニュー オプションを選択したりします。
+5. 音声入力を有効にする場合に選択します。 有効にすると、すべてのメニュー オプションの名前が音声認識キーワードになります。 たとえば、発信者は"1" と言ってキー 1 に対応付けられたメニュー オプションを選択したり、"営業" と言って "営業" という名前のメニュー オプションを選択したりします。
 
 6. **[次へ]** をクリックします。
 
@@ -97,7 +97,7 @@ ms.locfileid: "49751782"
 
 - **ダイヤル キー** - このオプションにアクセスするには、電話機のキーパッドのキー。 音声入力が使用可能な場合は、発信者はオプションにアクセスするためにこの番号を音声で入力することもできます。
 
-- **音声コマンド** - 音声入力が有効になっている場合に、発信者がこのオプションにアクセスするために与える音声コマンドを定義します。 "カスタマー サービス" や "Operations and Grounds" のような複数の単語を含めることができます。 たとえば、発信者は 2 を押したり、"2" と言い、"営業" と言って 2 キーにマップされたオプションを選択できます。 このテキストは、サービスの確認プロンプトの音声合成によっても表示されます。たとえば、"通話を営業に転送" のようなメッセージが表示されます。
+- **音声コマンド** - 音声入力が有効になっている場合に、発信者がこのオプションにアクセスするために与える音声コマンドを定義します。 "カスタマー サービス" や "Operations and Grounds" のような複数の単語を含めることができます。 たとえば、発信者は 2 を押したり、"2" と言い、"営業" と言って 2 キーにマップされたオプションを選択できます。 このテキストは、サービスの確認プロンプトの音声合成によってもレンダリングされます。これは、"通話を販売に転送する" のような場合があります。
 
 - **[リダイレクト先** ] - 発信者がこのオプションを選択するときに使用される通話ルーティング先。 自動応答または通話キューにリダイレクトする場合は、関連付けられているリソース アカウントを選択します。
 
@@ -111,7 +111,7 @@ ms.locfileid: "49751782"
 
 **内線番号で** ダイヤルする - このオプションを有効にすると、発信者は内線番号にダイヤルして組織内のユーザーと接続できます。 Skype for Business Server を使用するオンライン ユーザーまたはオンプレミスでホストされているユーザーは対象ユーザーであり、内線でダイヤル **機能を使用して見つけることができます**。 (ダイヤル スコープ ページのディレクトリに含まれるユーザーと含まれていないユーザー [を設定](#dial-scope) できます)。
 
-ダイヤルバイ拡張機能を利用するには、Active Directory または Azure Active Directory で定義されている次のいずれかの電話属性の一部として内線番号を指定[](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)する必要があります (詳細については、「ユーザーを個別に、または一括で追加する」を参照してください)。
+ダイヤルバイ拡張機能を利用するには、Active Directory または Azure Active Directory で定義されている次のいずれかの電話属性の一部として、内線番号を[](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)指定する必要があります (詳細については、「ユーザーを個別に追加する」または「一括でユーザーを追加する」を参照してください)。
 
 - OfficePhone
 - HomePhone
@@ -126,15 +126,15 @@ ms.locfileid: "49751782"
 - *x\<extension>*
 
 - 例 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
-- 例 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
+- 例 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678x5678"
 - 例 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
 拡張機能は [、Microsoft 365](https://admin.microsoft.com/) 管理センターまたは Azure Active Directory 管理センター [で設定できます](https://aad.portal.azure.com)。 自動応答と通話キューで変更を利用するには、最大で 12 時間かかる場合があります。
 
 > [!NOTE]
-> 名前でダイヤル機能と内線番号でダイヤル機能の両方を使用する場合は、メインの自動応答にダイヤル キーを割り当て、名前でダイヤルが有効になっている自動応答にアクセス **できます**。 その自動応答内で、内線番号の自動応答でダイヤルに到達する 1 つのキー (関連付けられた文字がない) **を割り** 当てできます。
+> 名前でダイヤル機能と内線番号でダイヤル機能の両方を使用する場合は、メインの自動応答にダイヤル キーを割り当て、名前でダイヤルが有効になっている自動応答にアクセス **できます**。 その自動応答内で、内線番号自動応答でダイヤルに到達する 1 つのキー (関連付けられた文字がない) **を割り** 当てできます。
 
-ディレクトリ検索オプションを選択したら、[ **次へ** ] を **クリックします**。
+ディレクトリ検索オプションを選択したら、[ **次へ** ] をクリック **します**。
 
 ## <a name="call-flow-for-after-hours"></a>営業時間外のコール フロー
 
@@ -214,7 +214,7 @@ ms.locfileid: "49751782"
 表示される発信電話番号は、次のように決定されます。
 
   - 通話プラン番号の場合、元の発信者の電話番号が表示されます。
-  - 直接ルーティング番号の場合、送信される数は、SBC の P-Asserted-Identity (IDENTITY) 設定に基づいて、次のように行われます。
+  - 直接ルーティング番号の場合、送信される番号は、SBC の P-Asserted-Identity (IDENTITY) 設定に基づいて、次のようになります。
     - [無効] に設定すると、元の発信者の電話番号が表示されます。 これは既定の推奨設定です。
     - [有効] に設定すると、リソース アカウントの電話番号が表示されます。
 
@@ -222,7 +222,7 @@ Skype for Business ハイブリッド環境では、自動応答通話を PSTN �
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>PowerShell で自動応答を作成する
 
-PowerShell を使用して自動応答を作成および設定できます。 自動応答を管理するために必要なコマンドレットを次に示します。
+また、PowerShell を使用して自動応答を作成および設定できます。 自動応答を管理するために必要なコマンドレットを次に示します。
 
 - [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
 - [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
@@ -242,14 +242,12 @@ PowerShell を使用して自動応答を作成および設定できます。 �
 - [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [サービス電話番号を取得する](/microsoftteams/getting-service-phone-numbers)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-
-[小規模ビジネスの例 : 自動応答を設定する](/microsoftteams/tutorial-org-aa)
 
 [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

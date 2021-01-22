@@ -16,20 +16,20 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SPC) を確認できます。
+description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SBC) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d5d94a2e15ea9e792cd9c8efbfacc53b9f47f92
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: d0617c975b95bdb39c020e57456490621125f459
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909541"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918923"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
 マイクロソフトは、選択したセッション ボーダー コントローラー (SBC) ベンダーと提携して、SBC がダイレクト ルーティングと連携していることを保証しています。 
 
-Microsoft は、各ベンダーと次のサービスを提供しています。 
+Microsoft は、各ベンダーと次の仕事をしています。 
 
 - SIP 相互接続プロトコルで共同で作業します。
 - サードパーティラボを使用して、テストを行います。 テストに合格したデバイスだけが認定されます。 
@@ -38,7 +38,7 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
 
 
   > [!NOTE]
-  > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを提供する必要があります。
+  > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 Microsoft が顧客のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると判断した場合、顧客は SBC ベンダーにサポートを提供する必要があります。
 
 以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーについては、「直接ルーティング用にローカル メディア最適化を構成する」 [を参照](direct-routing-media-optimization-configure.md)してください)。
 
@@ -79,6 +79,7 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
 |                                 |     1000 シリーズ集計サービス ルーター用の Cisco Unified Border 要素 (CUBE)      |     &#10004;   |  |      IOS XE アムステルダム 17.2.1r      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |           |       リリース 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       19.5 (1908)       |     |    | 
+|                     |    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       20.8       |      <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    リンクリンク    |     &#10004;     |           |      3.1        |     |    | 
@@ -103,4 +104,4 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
   | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode と Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
 
 新機能のアイデアなど、Teams に関する製品フィードバックを提供する場合は [、Uservoice を参照してください](https://microsoftteams.uservoice.com)。
-メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェアの任意の番号のファームウェアがサポートされます。
+メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェアの任意の番号のファームウェアがサポートされています。

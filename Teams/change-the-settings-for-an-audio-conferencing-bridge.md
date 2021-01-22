@@ -23,17 +23,17 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
-description: 電話会議ブリッジの設定を変更します。これには、エントリの入力や終了の通知、名前または電話番号、トーンの再生、発信者に名前を記録するためのプロンプトも含まれます。
-ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 入退出通知、名前または電話番号の再生、トーン、発信者に名前の録音を促すメッセージなど、電話会議ブリッジの設定を変更します。
+ms.openlocfilehash: 9694ac0cddecc5b00c0df133c5c494e4b5bc0d17
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690913"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918709"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
-Microsoft 365 または Office 365 で電話会議をセットアップする場合は、電話会議ブリッジと呼ばれるものからユーザーの電話番号を取得します。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 この電話番号は、発信者が会議にダイヤルインするときに使用されます。 電話番号は、Skype for Business または Microsoft Teams の会議出席依頼の下部にあります。
+Microsoft 365 または Office 365 で電話会議をセットアップすると、電話会議ブリッジと呼ばれるものからユーザーの電話番号を受け取ります。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 この電話番号は、発信者が会議にダイヤルインするときに使用されます。 電話番号は、Skype for Business または Microsoft Teams の会議出席依頼の下部にあります。
   
 電話会議ブリッジは着信に応答し、会議の自動応答を使用して音声案内で発信者を案内し、それから設定に応じて、通知メッセージを再生し、発信者に自分の名前を記録することと、PIN の設定を管理することを求めます。 PIN は 会議の開催者に付与され、Skype for Business または Microsoft Teams のアプリを使用していないときに会議を開始できます。
 
@@ -67,63 +67,17 @@ Microsoft 365 または Office 365 で電話会議をセットアップする場
  
 6. [**保存**] をクリックします。 
 
-
-## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![Skype for Business ロゴを示すアイコン](media/sfb-logo-30x30.png)  Skype for Business 管理センターの使用
-
- **発信者が会議に参加するときの会議エクスペリエンスを設定する**
-    
-1. **Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
-    
-2. [**Microsoft ブリッジ設定**] ページの [**会議に参加**] から次を選択します。
-    
-   - [**会議の開始と終了の通知を有効にする**] これは既定で選択されています。 このチェック ボックスの選択を外すと、誰かが入室したり退出したりしたときに、既に参加済みのユーザーは通知を受け取りません。
-    
-   - [**会議の開始と終了の通知を有効にする**] を選択すると、[**開始または終了のお知らせの種類**] リストから次のオプションを選択できます。
-    
-   - [**名前または電話番号**] ユーザーが会議にダイヤルインすると、ユーザーの参加時に参加者の電話番号が再生されます。
-    
-   - [**トーン**] ユーザーが会議にダイヤルインすると、ユーザーの参加時にオーディオ トーンが再生されます。
-  
-   - [**発信者に会議に参加する前に自分の名前を記録するように要求する**] これは既定で選択されています。 チェック ボックスから選択を外すと、発信者が会議に参加する前に自分の名前を記録するよう求められることはありません。
-    
-3. 変更を完了したら、[**保存**] をクリックします。
-    
-**会議の PIN の長さを設定する**
-  
-1. 職場または学校のアカウントを使用してサインインします。
-    
-2. **Microsoft 365 管理センター** > **Skype for Business** に移動します。
-    
-3. **Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
-    
-4. [**Microsoft ブリッジの設定**] ウィンドウの [**セキュリティ**] で、[**PIN の長さ**] リストに PIN の桁数を入力し、[**保存**] をクリックします。
-    
-    > [!IMPORTANT]
-    > PIN は 4 桁から 12 桁の間の値にする必要があります。 
-  
-**ユーザーにメールを送信するかどうかを選択する**
-  
-1. 職場または学校のアカウントを使用してサインインします。
-    
-2. **Microsoft 365 管理センター** > **Skype for Business** に移動します。
-    
-3. **Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
-    
-4. [**Microsoft ブリッジ設定**] ページで [**ダイヤルイン情報を変更したらユーザーに自動的に電子メールを送信する**] を選択または選択解除して [**保存**] をクリックします。
-    
-    詳細については、「[Microsoft Teams で電話会議の設定を変更したときにユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)」または「[Skype for Business Online で設定を変更したときにユーザーに送信されるメール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)」を参照してください。
-    
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
 - 時間を節約したり、このプロセスを自動化したりするには、[Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617686) コマンドレットを使用できます。
     
-- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常業務を簡素化することができます。Windows PowerShell を使い始めるには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell では、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。次のトピックで、これらの利点について説明します。 
+- Windows PowerShellは、多くのユーザーに対して一度に設定変更を行う場合など、Microsoft 365 管理センターのみを使用する場合と同様に、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
     
