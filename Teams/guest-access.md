@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi
 audience: admin
 search.appverid: MET150
-localization_priority: Normal
+localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: 09090cc2061c3d138af2b3092e987293255a1134
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: MT
+ms.openlocfilehash: 6bbee4609bad74fb89f98debadd3a37efc9b7759
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662042"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49908991"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
@@ -37,7 +37,7 @@ Teams のゲストは、Microsoft 365 と同様のコンプライアンスと監
 ゲストのエクスペリエンスには、仕様上の制限があります。 ゲストが Teams でできることとできないことの完全なリストについては、「[チーム メンバーとゲスト機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」をご覧ください。
 
 > [!IMPORTANT]
-> ゲストは、共存アップグレード モードの Teams 組織全体の設定に従います。 これは変更できません。
+> ゲストは、共存アップグレード モードの Teams の組織全体の設定に従います。 これは変更できません。
 
 ゲスト アクセスを設定する方法については、「[チームでゲストと共同作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照してください。 
 
@@ -57,10 +57,10 @@ Teams でのゲスト アクセスは組織全体の設定であり、既定で�
 1. チーム所有者または Microsoft 365 管理者は[チームにゲストを追加](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)します。
 2. ゲストが、チームに関する情報と、チームのメンバーとして要求される事項が記載されたようこそメールを、チーム所有者から受信します。
 3. ゲストが招待を承諾します。
-  Azure Active Directory で仕事用または学校用のアカウントを持っているゲストは、招待を承諾して直接認証することができます。 他のユーザーには、ID を検証するためのワンタイム パスコードが送信されます ([ワンタイム パスコード認証](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode)が必要です)。
+  Azure Active Directory の職場や学校のアカウントを持っているゲストは、招待を承諾して、直接認証を受けることができます。 他のユーザーには、ID を検証するためのワンタイム パスコードが送信されます ([ワンタイム パスコード認証](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode)が必要です)。
 4. 招待を承諾すると、ゲストは [チームやチャネルへの参加](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)、チャネル メッセージに対する受信や応答、[チャネル内のファイルへのアクセス](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、チャットへの参加、会議への参加、ドキュメントでの共同作業などを行うことができるようになります。 
 
-Teams では、ゲストは明確に特定されます。 ゲストの名前にはラベル **(ゲスト)** が含まれます。チャネルには、チームにゲストが含まれるかどうかを示すアイコンが含まれています。 詳しくは、「[ゲストのエクスペリエンスについて](guest-experience.md)」をご覧ください。
+Teams では、ゲストは明確に特定されます。 ゲスト の名前にはラベル **(ゲスト)** が含まれていて、チャネルにはチームにゲストがいることを示すアイコンが含まれています。 詳しくは、「[ゲストのエクスペリエンスについて](guest-experience.md)」をご覧ください。
   
 ゲストは Teams 内からいつでもチームを去ることができます。 詳しくは、「[チームから脱退する方法を教えてください。](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076)」をご覧ください。
 
@@ -84,7 +84,7 @@ Azure AD を使用してアプリケーションに割り当てられたグル�
 
 [組織外部のユーザーとの共有](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[特定の Microsoft 365 グループまたは Microsoft Teams チームからのゲストをブロックする](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[特定の Microsoft 365 グループまたは Microsoft Teams チームにゲストが追加されないようにする](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
 [セキュリティで保護されたゲスト共有環境を作成する](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 

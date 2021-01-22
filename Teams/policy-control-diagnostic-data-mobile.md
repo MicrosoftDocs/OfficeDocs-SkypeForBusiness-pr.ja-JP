@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3a4e827016622910aad0ee46318ba19c44aac0
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136057"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909151"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
@@ -92,7 +92,7 @@ ms.locfileid: "48136057"
   - [再接続 UFD] で [**ダイヤルイン**] ボタンが選択されています。
   - 再接続している間に [**ダイヤルイン**] ボタンが選択された回数。
 - **autoReconnectDialInonCallDrop** - [通話切断済み UFD] で [**ダイヤルイン**] ボタンが選択されています。
-- **autoReconnectDialOut** - [再接続 UFD] で [** もう一度通話する**] ボタンが選択されています。
+- **autoReconnectDialOut** - [再接続 UFD] で [**もう一度通話する**] ボタンが選択されています。
 - **autoReconnectRejoinonCallDrop** - [**再度参加**] または [**リダイヤル**] ボタンが通話の最終画面で選択された回数。
 - **backFromCallMePSTN** - [もう一度通話する] PSTN 番号フローが完了していません。
 - **backToPhotoShare** - カメラに戻ります。
@@ -133,7 +133,7 @@ ms.locfileid: "48136057"
 - **Callcontrols Manualinvoke** - 通話コントロールを手動で呼び出します。
 - **callHistoryItemExpand** - 通話履歴アイテムが展開されます。
 - **callHistoryTab** - [**通話履歴**] タブが [通話] で選択されています。
-- **callInProgressShown** - * [**進行中の通話**] バナーが表示されています。
+- **callInProgressShown** - * *_[通話中]_* バナーが表示されています。
 - **callMePSTNConnected** - [**電話**] に成功しました。
 - **callOrMeetUpAddParticipants** - 以下の場合にトリガーされます。
   - [参加者の追加] ボタンが、1:1の通話画面でタップされている。
@@ -258,7 +258,7 @@ ms.locfileid: "48136057"
 - **center_on_team_clicked** - ユーザーが正常にグループ中心にマップを配置しました。
 - **channelFollow** - チャネルの通知をオンにします。
 - **channelUnfollow** - チャネルの通知をオフにします。
-- **channelsActiveSetting** - デスクトップで**アクティブな時を知らせる通知の**通知設定が変更されます。
+- **channelsActiveSetting** - デスクトップで **アクティブな時を知らせる通知の** 通知設定が変更されます。
 - **chatCreation** - チャットの作成に成功しました。
 - **changeIsActiveSetting** - デスクトップ アクティビティ ベースの通知を変更します。
 - **channel** - チャットの [新しいメッセージ] ボタンまたはテキストボックス。
@@ -501,7 +501,7 @@ ms.locfileid: "48136057"
   - 通知の種類。
   - 着信通知。
 - **enabled** - 最初の実行エクスペリエンス フローでの通知の有効化に関連。
-  - **Enable notifications**が [最初の実行エクスペリエンス] で選択されています。
+  - **Enable notifications** が [最初の実行エクスペリエンス] で選択されています。
   - リマインダーで [有効化] が選択されています。
 - **enabled/disabled** - 通話中のアクセス許可または連絡先のアクセス許可 (Android のみ)。
 - **enabled, notNow** - 通知アクセス許可のプロンプト [**同意**] ボタン、最初の実行エクスペリエンスの通知アクセス許可 (iOS)。 これにより、通知機能を有効にしているユーザー数がキャプチャされ、情報が提供されます。
@@ -576,7 +576,7 @@ ms.locfileid: "48136057"
 - **image** - 画像。
 - **immediateCallForward** - 即時通話転送先が設定されている、または即時通話転送が有効 ([通話を自分に着信する] は無効) になっている場合。
 - **importanceToggleClicked** - [**!**] フィールドが タスク アイテムの詳細内に切り替えられるとトリガーされます。
-- **importantMessage_select** - ユーザーが重要なメッセージを優先度コンテキスト メニューから選択します。
+- **importantMessage_select** - ユーザーが重要なメッセージを優先コンテキスト メニューから選択します。
 - **importantMessageSend** - ユーザーが重要なメッセージを送信します。
 - **inCallDialOut** - ユーザーが [**もう一度通話する**] ボタンをその他の通話オプションから選択します。
 - **initiatePhotoShare** -　写真共有を開始します。
@@ -586,8 +586,8 @@ ms.locfileid: "48136057"
 - **invisionWhiteboardClicked** - Invision ホワイト ボードが選択されています。
   - [**チャネル ファイル**] タブ。
   - 会議の [**チャット ファイル**] タブ。
-- **inviteFreemium** - [招待] 画面の**+** ボタンをタップします。
-- **inviteGuest** - [招待] 画面の**+** ボタンをタップします。
+- **inviteFreemium** - [招待] 画面の **+** ボタンをタップします。
+- **inviteGuest** - [招待] 画面の **+** ボタンをタップします。
 - **joinFromDeeplinkInTeams** - ディープリンクを介してユーザーが Teams アプリ内から参加しました。
 - **joinFromDeeplinkOutsideTeams** - ディープリンク外からユーザーが Teams アプリ内から参加しました。
 - **joinFromJoinLauncher** - ユーザーが参加起動ツールから参加しました。
@@ -665,7 +665,7 @@ ms.locfileid: "48136057"
 - **meetingJoinNowWithPSTN** - ユーザーがダイヤルインで会議に参加します。
 - **meetingLeaveChat** - チャットを終了します。
 - **meetingMuteChat** - チャットをミュートします。
-- **meetingNotesCreatedInChatLink** - **作成済み**会議ノートのチクレットがプライベート会議チャットまたはチャネル会議チャットで選択されます。
+- **meetingNotesCreatedInChatLink** - **作成済み** 会議ノートのチクレットがプライベート会議チャットまたはチャネル会議チャットで選択されます。
 - **meetingNotesMentionCharLink** - プライベート会議チャットで [@mention] のリンクが選択されています。
 - **meetingNotesMentionChatLink** - チャネル会議チャットで [@mention] のリンクが選択されています。
 - **meetingNotesTabEntryPoint** - [**会議ノート**] タブが [プライベート会議] または [チャネル] で選択されています。
@@ -711,7 +711,7 @@ ms.locfileid: "48136057"
 - **muteOnWhiteboard** - ユーザーがホワイトボード画面でユーザーのミュートまたはミュート解除を行います。
 - **muteParticipant** - 参加者のミュート (アクション シートへの移動)。
 - **my_location_button_clicked** - ユーザーが [**自分の所在地**] ボタンを選択して、自分の位置をマップ中央に配置します。
-- **my_location_clicked** - ユーザーがマップ上の**青い点**を選択して、自分の位置をマップ中央に配置します。
+- **my_location_clicked** - ユーザーがマップ上の **青い点** を選択して、自分の位置をマップ中央に配置します。
 - **myShiftPickerClicked** - 送信された要求が割り込みかプランの場合にのみログされます。 [**自分のシフト**] ピッカーが選択されています。
 - **nameGroupChat** - グループのチャットに名前をつけます。
 - **nativeTimeClockBreak** -　業務時間記録上の休憩。
@@ -765,7 +765,7 @@ ms.locfileid: "48136057"
 - **ocvFormOpened** - OCV フォームが開かれたときに送信されるイベント。
 - **ocvFormSubmit** - ユーザーが OCV フィードバック フォームで [送信] を選択したときに送信されるイベント。
 - **offerRecipientClicked** - 送信された要求がプランの場合にのみログされます。 ユーザーがチーム メンバー ピッカーを入力してシフトを提示します。 オファリングとは、シフト休暇のことです。
-- **offerSwapShiftFromL1** - ユーザーがシフト リストの提示または割り込みを試すシフトの種類。 iOS での操作は**右にスワイプ**で、Android での操作は**長押し**です。
+- **offerSwapShiftFromL1** - ユーザーがシフト リストの提示または割り込みを試すシフトの種類。 iOS での操作は **右にスワイプ** で、Android での操作は **長押し** です。
 - **offerSwapShiftFromL1Triggered** - ユーザーが別のユーザーとシフトを交換できます。
 - **officeLens** - アプリが officeLens カメラ機能を起動すると、以下のいずれかの場合に始動します。
   - ユーザーがメッセージに画像を添付しようとする
@@ -913,8 +913,8 @@ ms.locfileid: "48136057"
 - **replyViaMsgOptions** - コンテキスト メニュー経由でユーザーが返信を開始しました。
 - **replyViaSwipe** - ユーザーがスワイプで返信を開始しました。
 - **requestActedOn** - マネージャーが空きシフトの要求決定を行うとトリガーされます。
-- **requestActionClicked** - シフトの要求が選択されている場合など、ユーザーがアクションを要求したとき (現場担当マネージャー表示または現場担当者のいずれか)。
-- **requestDetailsClicked** - シフトの要求が選択されるとき (現場担当マネージャー表示または現場担当者)。
+- **requestActionClicked** - シフトの要求が選択されている場合など、ユーザーがアクションを要求した場合 (現場担当マネージャー表示または現場担当者のいずれか)。
+- **requestDetailsClicked** - シフトの要求が選択される場合 (現場担当マネージャー表示または現場担当者)。
 - **requestJoinTeam** - [**要求**] ボタンが押されました。
 - **requestSent** - 送信された要求があったかログします。
 - **Requestto結合の** - チームに参加するよう要求します (公開またはプライベート)。
@@ -1002,7 +1002,7 @@ ms.locfileid: "48136057"
 - **shiftDetailsMyShifts** - [**スケジュール**] タブから [**カレンダー**] をタップします。
 - **shiftDetailsTodaysCoworkers** - 画面の時計で、[**開始**] または [**休憩終了**] ボタンが選択されています。
 - **shortCircuitContactCount** -　連絡先の取得で受け取るアドレス帳に一致するショート サーキットの連絡先の数。
-- **showBanner** - **WiFi に接続されていて、インターネット**バナーが表示されない回数。
+- **showBanner** - **WiFi に接続されていて、インターネット** バナーが表示されない回数。
 - **showCard** - カード ボタンをタップします。 カードは主要なプラットフォーム コンストラクトで、その用途とパターンを測定することは、プラットフォームの用途を理解し、クライアント側の潜在的な問題を探し出すのに必要となります。
 - **shownReadReceiptNotice** - ユーザーに [設定] オプションのある機能通知が示されます。
 - **signIn** - [**サインイン**] がウェルカム ページで選択されている、または[**サインイン**] ボタンがタップされています。
