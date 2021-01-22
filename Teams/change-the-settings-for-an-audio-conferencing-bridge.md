@@ -23,119 +23,73 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
-description: 電話会議ブリッジの設定を変更します。これには、エントリの入力や終了の通知、名前または電話番号、トーンの再生、発信者に名前を記録するためのプロンプトも含まれます。
-ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 入退出通知、名前または電話番号の再生、トーン、発信者に名前の録音を促すメッセージなど、電話会議ブリッジの設定を変更します。
+ms.openlocfilehash: 9694ac0cddecc5b00c0df133c5c494e4b5bc0d17
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690913"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918709"
 ---
-# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a><span data-ttu-id="d28a2-103">電話会議ブリッジの設定を変更する</span><span class="sxs-lookup"><span data-stu-id="d28a2-103">Change the settings for an Audio Conferencing bridge</span></span>
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a><span data-ttu-id="caa47-103">電話会議ブリッジの設定を変更する</span><span class="sxs-lookup"><span data-stu-id="caa47-103">Change the settings for an Audio Conferencing bridge</span></span>
 
-<span data-ttu-id="d28a2-104">Microsoft 365 または Office 365 で電話会議をセットアップする場合は、電話会議ブリッジと呼ばれるものからユーザーの電話番号を取得します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-104">When you are setting up Audio Conferencing in Microsoft 365 or Office 365, you will receive phone numbers for your users from what is called an audio conferencing bridge.</span></span> <span data-ttu-id="d28a2-105">電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-105">A conferencing bridge can contain one or more phone numbers.</span></span> <span data-ttu-id="d28a2-106">この電話番号は、発信者が会議にダイヤルインするときに使用されます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-106">These phone numbers are used when callers dial in to a meeting.</span></span> <span data-ttu-id="d28a2-107">電話番号は、Skype for Business または Microsoft Teams の会議出席依頼の下部にあります。</span><span class="sxs-lookup"><span data-stu-id="d28a2-107">The phone number is included at the bottom of the Skype for Business or Microsoft Teams meeting invite.</span></span>
+<span data-ttu-id="caa47-104">Microsoft 365 または Office 365 で電話会議をセットアップすると、電話会議ブリッジと呼ばれるものからユーザーの電話番号を受け取ります。</span><span class="sxs-lookup"><span data-stu-id="caa47-104">When you are setting up Audio Conferencing in Microsoft 365 or Office 365, you will receive phone numbers for your users from what is called an audio conferencing bridge.</span></span> <span data-ttu-id="caa47-105">電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。</span><span class="sxs-lookup"><span data-stu-id="caa47-105">A conferencing bridge can contain one or more phone numbers.</span></span> <span data-ttu-id="caa47-106">この電話番号は、発信者が会議にダイヤルインするときに使用されます。</span><span class="sxs-lookup"><span data-stu-id="caa47-106">These phone numbers are used when callers dial in to a meeting.</span></span> <span data-ttu-id="caa47-107">電話番号は、Skype for Business または Microsoft Teams の会議出席依頼の下部にあります。</span><span class="sxs-lookup"><span data-stu-id="caa47-107">The phone number is included at the bottom of the Skype for Business or Microsoft Teams meeting invite.</span></span>
   
-<span data-ttu-id="d28a2-108">電話会議ブリッジは着信に応答し、会議の自動応答を使用して音声案内で発信者を案内し、それから設定に応じて、通知メッセージを再生し、発信者に自分の名前を記録することと、PIN の設定を管理することを求めます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-108">The conferencing bridge answers a call and prompts the caller with voice prompts using a meeting auto attendant, and then, depending on your settings, it can play notifications, ask callers to record their name, and control the PIN settings.</span></span> <span data-ttu-id="d28a2-109">PIN は 会議の開催者に付与され、Skype for Business または Microsoft Teams のアプリを使用していないときに会議を開始できます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-109">PINs are given to meeting organizers to allow them to start a meeting when they are aren't using a Skype for Business or Microsoft Teams app.</span></span>
+<span data-ttu-id="caa47-108">電話会議ブリッジは着信に応答し、会議の自動応答を使用して音声案内で発信者を案内し、それから設定に応じて、通知メッセージを再生し、発信者に自分の名前を記録することと、PIN の設定を管理することを求めます。</span><span class="sxs-lookup"><span data-stu-id="caa47-108">The conferencing bridge answers a call and prompts the caller with voice prompts using a meeting auto attendant, and then, depending on your settings, it can play notifications, ask callers to record their name, and control the PIN settings.</span></span> <span data-ttu-id="caa47-109">PIN は 会議の開催者に付与され、Skype for Business または Microsoft Teams のアプリを使用していないときに会議を開始できます。</span><span class="sxs-lookup"><span data-stu-id="caa47-109">PINs are given to meeting organizers to allow them to start a meeting when they are aren't using a Skype for Business or Microsoft Teams app.</span></span>
 
   > [!IMPORTANT]
-  > <span data-ttu-id="d28a2-110">PIN が必要になるのは、Skype for Business または Microsoft Teams のアプリのユーザーがまだ会議を開始していないときの、会議の開催者のみです。</span><span class="sxs-lookup"><span data-stu-id="d28a2-110">A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting.</span></span> <span data-ttu-id="d28a2-111">全員が会議にダイヤルインすると、会議の開催者が会議を開始するために PIN が必要になります。</span><span class="sxs-lookup"><span data-stu-id="d28a2-111">If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting.</span></span> 
+  > <span data-ttu-id="caa47-110">PIN が必要になるのは、Skype for Business または Microsoft Teams のアプリのユーザーがまだ会議を開始していないときの、会議の開催者のみです。</span><span class="sxs-lookup"><span data-stu-id="caa47-110">A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting.</span></span> <span data-ttu-id="caa47-111">全員が会議にダイヤルインすると、会議の開催者が会議を開始するために PIN が必要になります。</span><span class="sxs-lookup"><span data-stu-id="caa47-111">If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting.</span></span> 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](media/teams-logo-30x30.png) <span data-ttu-id="d28a2-113">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="d28a2-113">Using the Microsoft Teams admin center</span></span>
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](media/teams-logo-30x30.png) <span data-ttu-id="caa47-113">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="caa47-113">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="d28a2-114">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-114">In the left navigation, go to **Meetings** > **Conference bridges**.</span></span> 
+1. <span data-ttu-id="caa47-114">左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。</span><span class="sxs-lookup"><span data-stu-id="caa47-114">In the left navigation, go to **Meetings** > **Conference bridges**.</span></span> 
 
-2. <span data-ttu-id="d28a2-115">[**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d28a2-115">At the top of the **Conference bridges** page, click **Bridge settings**.</span></span> 
+2. <span data-ttu-id="caa47-115">[**会議ブリッジ**] ページの最上部で、[**ブリッジの設定**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="caa47-115">At the top of the **Conference bridges** page, click **Bridge settings**.</span></span> 
 
-3. <span data-ttu-id="d28a2-116">[**ブリッジ設定**] ウィンドウで、</span><span class="sxs-lookup"><span data-stu-id="d28a2-116">In the **Bridge settings** pane, select:</span></span> 
-   - <span data-ttu-id="d28a2-117">[**会議の開始と終了の通知**] を選択します。この選択を外すと、既に参加済みのユーザーは、誰かが入ってきたり退出したりしたときに通知を受け取りません。</span><span class="sxs-lookup"><span data-stu-id="d28a2-117">**Meeting entry and exit notifications** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.</span></span>
+3. <span data-ttu-id="caa47-116">[**ブリッジ設定**] ウィンドウで、</span><span class="sxs-lookup"><span data-stu-id="caa47-116">In the **Bridge settings** pane, select:</span></span> 
+   - <span data-ttu-id="caa47-117">[**会議の開始と終了の通知**] を選択します。この選択を外すと、既に参加済みのユーザーは、誰かが入ってきたり退出したりしたときに通知を受け取りません。</span><span class="sxs-lookup"><span data-stu-id="caa47-117">**Meeting entry and exit notifications** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.</span></span>
     
-     <span data-ttu-id="d28a2-118">[**会議の開始と終了通知**] を有効にすると、以下のオプションを選択できます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-118">When you turn on **Meeting entry and exit notifications**, you can select these options:</span></span>
+     <span data-ttu-id="caa47-118">[**会議の開始と終了通知**] を有効にすると、以下のオプションを選択できます。</span><span class="sxs-lookup"><span data-stu-id="caa47-118">When you turn on **Meeting entry and exit notifications**, you can select these options:</span></span>
     
-   - <span data-ttu-id="d28a2-119">[**名前または電話番号**] ユーザーが会議にダイヤルインすると、ユーザーの参加時に参加者の電話番号が再生されます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-119">**Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.</span></span>
+   - <span data-ttu-id="caa47-119">[**名前または電話番号**] ユーザーが会議にダイヤルインすると、ユーザーの参加時に参加者の電話番号が再生されます。</span><span class="sxs-lookup"><span data-stu-id="caa47-119">**Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.</span></span>
     
-   - <span data-ttu-id="d28a2-120">[**トーン**] ユーザーが会議にダイヤルインすると、ユーザーの参加時にオーディオ トーンが再生されます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-120">**Tones** When users dial in to a meeting, an audio tone will be played when they join it.</span></span>
+   - <span data-ttu-id="caa47-120">[**トーン**] ユーザーが会議にダイヤルインすると、ユーザーの参加時にオーディオ トーンが再生されます。</span><span class="sxs-lookup"><span data-stu-id="caa47-120">**Tones** When users dial in to a meeting, an audio tone will be played when they join it.</span></span>
       
-   - <span data-ttu-id="d28a2-121">[**発信者に会議に参加する前に自分の名前を記録するように要求する**] これをオフにすると、発信者は会議に参加する前に名前を録音するように求められません。</span><span class="sxs-lookup"><span data-stu-id="d28a2-121">**Ask callers to record their name before joining the meeting** If you turn this off, callers won't be asked to record their name before they join a meeting.</span></span>
+   - <span data-ttu-id="caa47-121">[**発信者に会議に参加する前に自分の名前を記録するように要求する**] これをオフにすると、発信者は会議に参加する前に名前を録音するように求められません。</span><span class="sxs-lookup"><span data-stu-id="caa47-121">**Ask callers to record their name before joining the meeting** If you turn this off, callers won't be asked to record their name before they join a meeting.</span></span>
 
-4. <span data-ttu-id="d28a2-122">電話会議の PIN の長さを設定するには、[**PIN の長さ**] リストの PIN に希望の桁数を選択します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-122">To set the PIN length for meetings, select the number of digits you want for the PIN in the **PIN length** list.</span></span>
+4. <span data-ttu-id="caa47-122">電話会議の PIN の長さを設定するには、[**PIN の長さ**] リストの PIN に希望の桁数を選択します。</span><span class="sxs-lookup"><span data-stu-id="caa47-122">To set the PIN length for meetings, select the number of digits you want for the PIN in the **PIN length** list.</span></span>
 
-5. <span data-ttu-id="d28a2-123">ユーザーに電子メールを送信するかどうか指定するには、[**電話会議設定を変更した場合ユーザーに自動的に電子メールを送信する**] を有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="d28a2-123">To specify whether to send email to your users, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**.</span></span>
-    <span data-ttu-id="d28a2-124">詳細については、「[Microsoft Teams で電話会議の設定を変更したときにユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)」または「[Skype for Business Online で設定を変更したときにユーザーに送信されるメール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d28a2-124">See [Emails automatically sent to users when their Audio Conferencing settings change in Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) or [Emails sent to users when their settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) for more information.</span></span>
+5. <span data-ttu-id="caa47-123">ユーザーに電子メールを送信するかどうか指定するには、[**電話会議設定を変更した場合ユーザーに自動的に電子メールを送信する**] を有効または無効にします。</span><span class="sxs-lookup"><span data-stu-id="caa47-123">To specify whether to send email to your users, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**.</span></span>
+    <span data-ttu-id="caa47-124">詳細については、「[Microsoft Teams で電話会議の設定を変更したときにユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)」または「[Skype for Business Online で設定を変更したときにユーザーに送信されるメール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="caa47-124">See [Emails automatically sent to users when their Audio Conferencing settings change in Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) or [Emails sent to users when their settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) for more information.</span></span>
  
-6. <span data-ttu-id="d28a2-125">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d28a2-125">Click **Save**.</span></span> 
+6. <span data-ttu-id="caa47-125">[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="caa47-125">Click **Save**.</span></span> 
 
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="caa47-126">Windows PowerShell での管理方法について</span><span class="sxs-lookup"><span data-stu-id="caa47-126">Want to know how to manage with Windows PowerShell?</span></span>
 
-## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![Skype for Business ロゴを示すアイコン](media/sfb-logo-30x30.png)  <span data-ttu-id="d28a2-127">Skype for Business 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="d28a2-127">Using the Skype for Business admin center</span></span>
-
- <span data-ttu-id="d28a2-128">**発信者が会議に参加するときの会議エクスペリエンスを設定する**</span><span class="sxs-lookup"><span data-stu-id="d28a2-128">**Set up the meeting experience when callers join a meeting**</span></span>
+- <span data-ttu-id="caa47-127">時間を節約したり、このプロセスを自動化したりするには、[Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617686) コマンドレットを使用できます。</span><span class="sxs-lookup"><span data-stu-id="caa47-127">To save time or automate this process, you can use the [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) cmdlet.</span></span>
     
-1. <span data-ttu-id="d28a2-129">**Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-129">In the **Skype for Business admin center**, in the left navigation go to **Audio conferencing** > **Microsoft bridge settings**.</span></span>
+- <span data-ttu-id="caa47-128">Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。</span><span class="sxs-lookup"><span data-stu-id="caa47-128">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="caa47-129">Windows PowerShell では、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。</span><span class="sxs-lookup"><span data-stu-id="caa47-129">With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do.</span></span> <span data-ttu-id="caa47-130">Windows PowerShell の使用を開始するには、次のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="caa47-130">To get started with Windows PowerShell, see these topics:</span></span>
     
-2. <span data-ttu-id="d28a2-130">[**Microsoft ブリッジ設定**] ページの [**会議に参加**] から次を選択します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-130">On the **Microsoft bridge settings** page, under **Meeting join experience**, select:</span></span>
+  - [<span data-ttu-id="caa47-131">Windows PowerShell で Office 365 を管理するための最善の方法</span><span class="sxs-lookup"><span data-stu-id="caa47-131">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-   - <span data-ttu-id="d28a2-131">[**会議の開始と終了の通知を有効にする**] これは既定で選択されています。</span><span class="sxs-lookup"><span data-stu-id="d28a2-131">**Enable meeting entry and exit notifications to be turned on** This is selected by default.</span></span> <span data-ttu-id="d28a2-132">このチェック ボックスの選択を外すと、誰かが入室したり退出したりしたときに、既に参加済みのユーザーは通知を受け取りません。</span><span class="sxs-lookup"><span data-stu-id="d28a2-132">If you clear the check box, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.</span></span>
+  - [<span data-ttu-id="caa47-132">Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell</span><span class="sxs-lookup"><span data-stu-id="caa47-132">Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-   - <span data-ttu-id="d28a2-133">[**会議の開始と終了の通知を有効にする**] を選択すると、[**開始または終了のお知らせの種類**] リストから次のオプションを選択できます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-133">When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:</span></span>
+- <span data-ttu-id="caa47-133">Windows PowerShellは、多くのユーザーに対して一度に設定変更を行う場合など、Microsoft 365 管理センターのみを使用する場合と同様に、速度、シンプルさ、生産性に多くの利点があります。</span><span class="sxs-lookup"><span data-stu-id="caa47-133">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making setting changes for many users at one time.</span></span> <span data-ttu-id="caa47-134">次のトピックで、これらの利点を説明します。</span><span class="sxs-lookup"><span data-stu-id="caa47-134">Learn about these advantages in the following topics:</span></span> 
     
-   - <span data-ttu-id="d28a2-134">[**名前または電話番号**] ユーザーが会議にダイヤルインすると、ユーザーの参加時に参加者の電話番号が再生されます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-134">**Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.</span></span>
+  - [<span data-ttu-id="caa47-135">Windows PowerShell と Skype for Business Online の概要</span><span class="sxs-lookup"><span data-stu-id="caa47-135">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-   - <span data-ttu-id="d28a2-135">[**トーン**] ユーザーが会議にダイヤルインすると、ユーザーの参加時にオーディオ トーンが再生されます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-135">**Tones** When users dial in to a meeting, an audio tone will be played when they join it.</span></span>
-  
-   - <span data-ttu-id="d28a2-136">[**発信者に会議に参加する前に自分の名前を記録するように要求する**] これは既定で選択されています。</span><span class="sxs-lookup"><span data-stu-id="d28a2-136">**Ask callers to record their name before joining the meeting** This is selected by default.</span></span> <span data-ttu-id="d28a2-137">チェック ボックスから選択を外すと、発信者が会議に参加する前に自分の名前を記録するよう求められることはありません。</span><span class="sxs-lookup"><span data-stu-id="d28a2-137">If you clear the check box, callers won't be asked to record their name before they join a meeting.</span></span>
+  - [<span data-ttu-id="caa47-136">Windows PowerShell による Skype for Business Online の管理</span><span class="sxs-lookup"><span data-stu-id="caa47-136">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-3. <span data-ttu-id="d28a2-138">変更を完了したら、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d28a2-138">After you make your changes, click **Save**.</span></span>
-    
-<span data-ttu-id="d28a2-139">**会議の PIN の長さを設定する**</span><span class="sxs-lookup"><span data-stu-id="d28a2-139">**Set the PIN length for meetings**</span></span>
-  
-1. <span data-ttu-id="d28a2-140">職場または学校のアカウントを使用してサインインします。</span><span class="sxs-lookup"><span data-stu-id="d28a2-140">Sign in with your work or school account.</span></span>
-    
-2. <span data-ttu-id="d28a2-141">**Microsoft 365 管理センター** > **Skype for Business** に移動します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-141">Go to the **Microsoft 365 admin center** > **Skype for Business**.</span></span>
-    
-3. <span data-ttu-id="d28a2-142">**Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-142">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.</span></span>
-    
-4. <span data-ttu-id="d28a2-143">[**Microsoft ブリッジの設定**] ウィンドウの [**セキュリティ**] で、[**PIN の長さ**] リストに PIN の桁数を入力し、[**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d28a2-143">On the **Microsoft bridge settings** page, under **Security**, enter the number of digits you want for the PIN in the **PIN length** list, and then click **Save**.</span></span>
-    
-    > [!IMPORTANT]
-    > <span data-ttu-id="d28a2-144">PIN は 4 桁から 12 桁の間の値にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="d28a2-144">The PIN must be between 4 and 12 digits.</span></span> 
-  
-<span data-ttu-id="d28a2-145">**ユーザーにメールを送信するかどうかを選択する**</span><span class="sxs-lookup"><span data-stu-id="d28a2-145">**Select whether to send email to your users**</span></span>
-  
-1. <span data-ttu-id="d28a2-146">職場または学校のアカウントを使用してサインインします。</span><span class="sxs-lookup"><span data-stu-id="d28a2-146">Sign in with your work or school account.</span></span>
-    
-2. <span data-ttu-id="d28a2-147">**Microsoft 365 管理センター** > **Skype for Business** に移動します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-147">Go to the **Microsoft 365 admin center** > **Skype for Business**.</span></span>
-    
-3. <span data-ttu-id="d28a2-148">**Skype for Business 管理センター**の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-148">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.</span></span>
-    
-4. <span data-ttu-id="d28a2-149">[**Microsoft ブリッジ設定**] ページで [**ダイヤルイン情報を変更したらユーザーに自動的に電子メールを送信する**] を選択または選択解除して [**保存**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="d28a2-149">On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their dial-in information changes**, and then click **Save**.</span></span>
-    
-    <span data-ttu-id="d28a2-150">詳細については、「[Microsoft Teams で電話会議の設定を変更したときにユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)」または「[Skype for Business Online で設定を変更したときにユーザーに送信されるメール](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d28a2-150">See [Emails automatically sent to users when their Audio Conferencing settings change in Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) or [Emails sent to users when their settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) for more information.</span></span>
-    
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="d28a2-151">Windows PowerShell での管理方法について</span><span class="sxs-lookup"><span data-stu-id="d28a2-151">Want to know how to manage with Windows PowerShell?</span></span>
-
-- <span data-ttu-id="d28a2-152">時間を節約したり、このプロセスを自動化したりするには、[Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617686) コマンドレットを使用できます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-152">To save time or automate this process, you can use the [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) cmdlet.</span></span>
-    
-- <span data-ttu-id="d28a2-p107">Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常業務を簡素化することができます。Windows PowerShell を使い始めるには、次のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="d28a2-p107">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
-    
-  - [<span data-ttu-id="d28a2-156">Office 365 PowerShell を使用する必要がある理由</span><span class="sxs-lookup"><span data-stu-id="d28a2-156">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [<span data-ttu-id="d28a2-157">Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法</span><span class="sxs-lookup"><span data-stu-id="d28a2-157">Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-- <span data-ttu-id="d28a2-p108">Windows PowerShell には、Microsoft 365 管理センターを使用する場合にのみ、速度、シンプルさ、生産性を向上させるための多くの利点があります。たとえば、複数のユーザーに対して同時に設定を変更する場合です。次のトピックで、これらの利点について説明します。</span><span class="sxs-lookup"><span data-stu-id="d28a2-p108">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span></span> 
-    
-  - [<span data-ttu-id="d28a2-160">Windows PowerShell と Skype for Business Online の概要</span><span class="sxs-lookup"><span data-stu-id="d28a2-160">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
-  - [<span data-ttu-id="d28a2-161">Windows PowerShell による Skype for Business Online の管理</span><span class="sxs-lookup"><span data-stu-id="d28a2-161">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
-  - [<span data-ttu-id="d28a2-162">Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行</span><span class="sxs-lookup"><span data-stu-id="d28a2-162">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [<span data-ttu-id="caa47-137">Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行</span><span class="sxs-lookup"><span data-stu-id="caa47-137">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > <span data-ttu-id="d28a2-p109">Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="d28a2-p109">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
+    > <span data-ttu-id="caa47-p107">Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。</span><span class="sxs-lookup"><span data-stu-id="caa47-p107">The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="d28a2-165">関連トピック</span><span class="sxs-lookup"><span data-stu-id="d28a2-165">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="caa47-140">関連トピック</span><span class="sxs-lookup"><span data-stu-id="caa47-140">Related topics</span></span>
 
-[<span data-ttu-id="d28a2-166">Microsoft Teams の電話会議を設定する</span><span class="sxs-lookup"><span data-stu-id="d28a2-166">Set up Audio Conferencing for Microsoft Teams</span></span>](set-up-audio-conferencing-in-teams.md)
+[<span data-ttu-id="caa47-141">Microsoft Teams の電話会議を設定する</span><span class="sxs-lookup"><span data-stu-id="caa47-141">Set up Audio Conferencing for Microsoft Teams</span></span>](set-up-audio-conferencing-in-teams.md)
 
-[<span data-ttu-id="d28a2-167">Skype for Business Online 用電話会議を設定する</span><span class="sxs-lookup"><span data-stu-id="d28a2-167">Set up Audio Conferencing for Skype for Business Online</span></span>](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[<span data-ttu-id="caa47-142">Skype for Business Online 用電話会議を設定する</span><span class="sxs-lookup"><span data-stu-id="caa47-142">Set up Audio Conferencing for Skype for Business Online</span></span>](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
