@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365initiative-lists
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 8ba05b4922b25cc6294fc85f1264a44bdb031660
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
+ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731125"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "49944612"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のリスト アプリを管理する
 
@@ -34,11 +35,11 @@ ms.locfileid: "49731125"
 
 Microsoft Teams のリスト アプリは、組織内のユーザーが情報を追跡し、作業を整理し、ワークフローを管理するのに役立ちます。 リストを使用すると、ユーザーはカスタマイズ可能なビュー、ルール、警告を使用して、問題、資産、ルーチン、連絡先、在庫、インシデント、ローン、患者などのデータを追跡し、チームの全員の同期を維持できます。
 
-Teams では、ユーザーはチャネル内のタブとしてリストにアクセスします。 タブ **+** ギャラリーをクリックして開き、新しいリスト アプリ タブ インスタンスをチャネルに追加して開始します。
+Teams では、ユーザーはチャネルのタブとしてリストにアクセスします。 タブ **+** ギャラリーをクリックして開き、新しいリスト アプリ タブ インスタンスをチャネルに追加して開始します。
 
 ![タブ ギャラリーのリスト アプリ](media/lists-tab.png)
 
-ユーザーは、新しいリストを作成したり、同じチーム内またはアクセス権を持つ別の SharePoint サイトから既存のリストを固定することができます。 新しいリストは、一から作成したり、組み込みのテンプレートから作成したり、既存のリストの構造に基づいて作成したり、Excel ブックからデータをインポートしたりして作成できます。 リスト アプリは、Teams デスクトップ、Web、モバイル クライアントで利用できます。
+ユーザーは、新しいリストを作成したり、同じチーム内またはアクセス権を持つ別の SharePoint サイトから既存のリストを固定することができます。 新しいリストは、一から作成したり、組み込みのテンプレートから作成したり、既存のリストの構造に基づいて作成したり、Excel ブックからデータをインポートしたりして作成できます。 リスト アプリは、Teams デスクトップ、Web、モバイル クライアントで使用できます。
 
 ![リスト アプリでリストを作成する方法](media/lists-create-list.png)
 
@@ -46,18 +47,18 @@ Teams では、ユーザーはチャネル内のタブとしてリストにア�
 
 リスト内のテンプレートは、ユーザーの一般的な情報追跡シナリオに合わせて調整されます。 各テンプレートには、定義済みのリスト構造、フォーム レイアウト、書式設定オプションがリスト ビューと詳細ビュー レベルの両方に用意され、ユーザーがすぐに使い始めることができます。 テンプレートを選択すると、ユーザーはリストの外観とサンプル データのプレビューを取得します。 次に、組織内のチームがリストで定義済みのテンプレートを使用する方法の例を示します。
 
-- 問題を追跡し、問題管理テンプレートを使用してそれらを終了します。
+- 問題を追跡し、問題追跡テンプレートを使用してそれらを終了します。
 - イベント日程テンプレートを使用して、すべてのイベントの詳細を整理します。
 - 患者テンプレートを使用して、医療組織の医療チームの患者のニーズと状態を記録し、ケアを監視および調整します。
 - ローン申請の状況を、[ローン] テンプレートで追跡します。
 
 ## <a name="example-scenario"></a>シナリオ例
 
-地域内でメールの並べ替えと配信を行うのは、現地の郵便会社が担当します。 毎日の目標を確認し、お知らせを共有し、既知のインシデントについて話し合うチームが、毎日のオフィスにいます。
+地域内でメールの並べ替えと配信を行うのは、現地の郵便会社が担当します。 毎日の目標を確認し、お知らせを共有し、既知のインシデントについて話し合うチームのメンバーが、今朝、オフィスにいます。
 
 連絡を受け取ると、メール会社はメールを受け取り、配送ルートを開始します。 インシデントは、自動車の事故、犬関連の問題、社会不安の原因など、ルート上で発生する可能性があります。 メールの携帯電話会社がインシデントに遭遇すると、モバイル デバイス上の Teams を使用してインシデントの詳細を記録します。これは、チーム チャネルのリストで追跡されます。 フィールド内のメール通信事業者を含むチームの全員が、この情報を確認し、最新の情報を取得できます。
 
-Teams に移行する前に、メールの通信事業者は、Excel スプレッドシートに入力されたインシデントを報告するために、ハード コピーフォームを完成するために、郵便会社に戻る必要がありました。 Teams は、メール携帯電話会社に最初にモバイル機能を提供し、リストを使用して発生したインシデントを現場で報告し、インシデントの詳細をチーム メンバーと共有し、チャネル上でインシデントに関する会話を行い、インシデントを解決に追い込む操作を行います。
+Teams に移行する前に、メールの通信事業者は、Excel スプレッドシートに入力されたインシデントを報告するために、ハード コピーフォームを完成するために、郵便会社に戻る必要がありました。 Teams は、メール携帯電話会社に最初にモバイル機能を提供し、リストを使用して発生したインシデントを現場で報告し、インシデントの詳細をチーム メンバーと共有し、チャネルでインシデントに関する会話を行い、インシデントを解決に追い込む操作を行います。
 
 ## <a name="what-you-need-to-know-about-lists"></a>リストについて知る必要がある情報
 
@@ -71,10 +72,10 @@ Teams に移行する前に、メールの通信事業者は、Excel スプレ�
 
 SharePoint で設定されたアクセス許可は、リスト アプリで作成されたリストに適用されます。 既定では、リストは属するサイトから権限を継承します。 これらのアクセス許可は、リストを作成または編集できるかどうかなど、ユーザーが実行できる操作の種類に適用されます。 詳細については [、「SharePoint のアクセス許可レベル」および「SharePoint](https://docs.microsoft.com/sharepoint/understanding-permission-levels) Server のユーザー権限と権限 [レベル」を参照してください](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels)。
 
-特定のシナリオでは、ユーザーがリストで実行できる操作を制限する必要がある場合があります。 たとえば、チームのユーザーがリスト ビューを編集すると、すべてのチーム メンバーに対して変更され、チーム所有者または特定のチーム メンバーだけがリスト ビューを編集できるとします。 詳細については、「SharePoint リストまたはライブラリ [の権限をカスタマイズする」を参照してください](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
+特定のシナリオでは、ユーザーがリストで実行できる操作を制限する必要がある場合があります。 たとえば、チームのユーザーがリスト ビューを編集すると、すべてのチーム メンバーに対して変更され、チーム所有者または特定のチーム メンバーだけがリスト ビューを編集できるとします。 詳細については、「SharePoint リストまたはライブラリ [のアクセス許可をカスタマイズする」を参照してください](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
 
 > [!NOTE]
-> この時点では、チームの所有者とメンバーのアクセス許可は、リストまたはリスト アプリの動作を制御するチーム サイトのアクセス許可にリンクされるものではありません。 ただし、お客様からのフィードバックと使用状況に基づいて、これは製品の今後の反復について考慮されます。  
+> この時点では、チームの所有者とメンバーのアクセス許可は、リストまたはリスト アプリの動作を制御するチーム サイトのアクセス許可にリンクされるものではありません。 ただし、お客様からのフィードバックと利用状況に基づいて、これは製品の将来の反復について考慮されます。  
 
 ### <a name="limitations"></a>制限事項
 
@@ -104,15 +105,15 @@ SharePoint で設定されたアクセス許可は、リスト アプリで作�
 
 ## <a name="search-the-audit-log-for-list-events"></a>リスト イベントの監査ログを検索する
 
-リストはエンタープライズ レベルの監査で有効になっているので、セキュリティ/コンプライアンス センターの監査ログでリストとリスト アイテム&できます。 詳細については、セキュリティ/コンプライアンス センターで監査ログを検索する [&参照してください](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+リストはエンタープライズ レベルの監査で有効になっているので、セキュリティ/コンプライアンス センターの監査ログでリストとリスト アイテム&できます。 詳細については、セキュリティ/コンプライアンス センターで監査 [ログ&参照してください](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 Teams のリスト アプリに関連する監査イベントの一覧については [、SharePoint リストアクティビティを参照してください](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
 
-監査ログを検索するには、まずセキュリティ/コンプライアンス センターで監査 [&があります](https://protection.office.com)。 監査データは、監査を有効にした時点からのみ利用できます。
+監査ログを検索するには、まずセキュリティ/コンプライアンス センターで監査 [を&があります](https://protection.office.com)。 監査データは、監査を有効にした時点からのみ利用できます。
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate、Power Apps、Graph API
 
-リストでは [、ワークフロー用の Power Automate](https://docs.microsoft.com/power-automate/flow-types) とリスト [フォーム用の Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) がサポートされます。 デベロッパーはリスト API を [使用して、Microsoft](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) Graph を介してソースとしてリスト データを接続できます。
+リストでは [、ワークフロー用の Power Automate](https://docs.microsoft.com/power-automate/flow-types) とリスト [フォーム用の Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) がサポートされます。 開発者はリスト API を [使用して、Microsoft](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) Graph を介してソースとしてリスト データを接続できます。
 
 ## <a name="give-feedback-or-report-an-issue"></a>フィードバックを送信する、または問題を報告する
   
