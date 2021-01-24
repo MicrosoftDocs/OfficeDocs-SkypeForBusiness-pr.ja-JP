@@ -56,8 +56,6 @@
       href: create-manager-directs-teams.md
     - name: チームとチャネル ポリシーを管理する
       href: teams-policies.md
-    - name: Teams の機密度ラベル
-      href: sensitivity-labels.md
     - name: Teams でチャネルのモデレートを設定する
       href: manage-channel-moderation-in-teams.md
     - name: Teams でファイルを共有する
@@ -1241,6 +1239,8 @@
           href: communication-compliance.md
         - name: 通話と会議のためのポリシー ベースの録音
           href: teams-recording-policy.md
+        - name: 秘密度ラベル
+          href: sensitivity-labels.md
         - name: データ損失防止
           href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
         - name: 電子情報開示
