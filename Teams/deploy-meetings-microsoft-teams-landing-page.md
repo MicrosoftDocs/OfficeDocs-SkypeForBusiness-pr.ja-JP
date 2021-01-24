@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030803"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918683"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -56,7 +56,7 @@ Teams は、すぐに使用できる優れたエクスペリエンスを組織�
 > ミーティングの詳細については、セッション「[Microsoft Teams でのミーティングの概要 (IT プロフェッショナル向け)](https://aka.ms/teams-meetings-intro)」を視聴してください。
 
 
-## <a name="meetings-and-conferencing-prerequisites"></a>ミーティングと会議の前提条件 
+## <a name="meetings-and-conferencing-prerequisites"></a>ミーティングと会議の前提条件
 
 組織全体にミーティングの展開を広げる前に、できる限り最高のエクスペリエンスをユーザーに提供する環境が整っているかどうかを再確認するための時間を割いてください。 次の情報を確認して、環境に必要に応じた変更を実行します。
 
@@ -139,7 +139,10 @@ Teams のミーティング エクスペリエンスを最適なものにする�
 
 ### <a name="bandwidth-planning"></a>帯域幅の計画 
 
-帯域の計画により、組織は組織のワイド エリア ネットワークとインターネットのリンク全体でミーティングをサポートするために必要な帯域幅の推定が可能になり、ミーティング サービスの拡大をサポートするためにネットワークが適切にプロビジョニングされていることを確認できるようになります。 
+帯域の計画により、組織は組織のワイド エリア ネットワークとインターネットのリンク全体でミーティングをサポートするために必要な帯域幅の推定が可能になり、ミーティング サービスの拡大をサポートするためにネットワークが適切にプロビジョニングされていることを確認できるようになります。
+
+> [!IMPORTANT]
+> Teams は、ユーザーがオフラインのときや限られた帯域幅で実行しているときには、会議やライブ イベントをスケジュールできないようにします。 
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -157,7 +160,7 @@ Teams のミーティング エクスペリエンスを最適なものにする�
 
 | 確認事項 | アクション |
 |--------------|--------|
-| ミーティングの文字起こしサービスをオンにするか?|「[記録の文字起こしをオンまたはオフにする](cloud-recording.md#turn-on-or-turn-off-recording-transcription)」を参照してください。|
+| ミーティングの文字起こしサービスをオンにするか?|「[記録の文字起こしをオンまたはオフにする](cloud-recording.md#turn-on-or-turn-off-cloud-recording)」を参照してください。|
 |||
 
 
