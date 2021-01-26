@@ -24,39 +24,31 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
-  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+  ms.openlocfilehash: 7909d77e2c8d6a99bdeb501172f528aeb78c142f
+  ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 08/06/2020
-  ms.locfileid: "46583284"
+  ms.lasthandoff: 01/25/2021
+  ms.locfileid: "49973161"
 productDirectory:
   items:
   - title: アップグレードを計画する (ここから開始!)
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: Teams へのアップグレードを成功させるために必要なすべてを見つけてください。 対象ユーザー-すべて (ビジネススポンサー、IT 管理者、ユーザー準備/変更マネージャー、プロジェクトリーダー)
+    summary: Skype for Business Online のサポート終了 (2021 年 7 月 31 日) に先立って Teams にアップグレードする場合でも、Skype for Business オンプレミス環境から Teams にシナリオを移行する場合でも、移行が成功すると、技術的な準備とユーザーの準備の両方に対応できます。 実績のあるフレームワーク、ベスト プラクティス、および Skype for Business Online、Skype for Business Server、またはハイブリッド環境から Teams への移行を成功に向け支援するように設計されたリソースについて説明します。 対象ユーザー – すべて (ビジネス スポンサー、IT 管理者、ユーザー準備/変更マネージャー、プロジェクト リード)
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: エンド ユーザーを準備させる
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: ユーザーが Teams を気に入って導入することを支援するためのユーザーの準備戦略を設計します。 対象ユーザー-ユーザーの準備と変更マネージャー
-    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
-  - title: アップグレード方法を特定する
+  - title: Teams のアップグレードを実装する
     imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: 現在の Skype for Business の実装とアップグレードの目標に基づいて最適な方法を決定します。 対象ユーザー (IT 管理者)
-    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
-  - title: アップグレード方法を実装する
-    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
-    summary: 定義済みのアップグレード方法を、正式なアップグレード計画の一部として実行します。 対象ユーザー (IT 管理者)
-    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+    summary: お客様の目標と現在の Skype for Business 環境に基づいて、すべてのワークロードを Teams に移行するための最適な技術的アプローチを特定し、実行するための準備を行います。 移行が成功したほとんどのお客様は、現在の Skype for Business Online、Skype for Business Server、またはハイブリッド実装と共に Teams を有効にしています。 このセッションでは、組織に最適な移行戦略を定義するのに役立つ重要な考慮事項と貴重なリソースを共有します。 対象ユーザー - IT 管理者
+    url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
 additionalContent:
   sections:
   - items:
-    - title: このワークショップを自分の時間で表示する
-      summary: 「YouTube での Microsoft Teams へのアップグレード」を参照してください。
+    - title: これらのワークショップを自分の時間で表示する
+      summary: YouTube の Microsoft Teams へのアップグレードにアクセスします。
       url: https://aka.ms/UpgradeOnDemand
-    - title: チームシナリオを拡張する
-      summary: IT 担当者向けのチームチョークトークのワークショップをご覧ください。
+    - title: Teams のシナリオを拡大する
+      summary: IT プロ向け Teams のストーク Talk ワークショップをご覧ください。
       url: https://aka.ms/TeamsChalkTalks
     - title: Teams は初めてですか?
-      summary: チームの概要については、こちらを参照してください。
+      summary: Teams の使用を開始する方法について詳しくは、次のリンクを参照してください。
       url: https://docs.microsoft.com/microsoftteams/teams-overview

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51046148620c804dfadb4296d718a1759b618b44
-ms.sourcegitcommit: c6b999226294aeea98dafa9ef5f0bd256fcb6a0c
+ms.openlocfilehash: a3b7a3917f47bd07bd5d66ce5fdb524b91b0299e
+ms.sourcegitcommit: d5732f043b7b5aa9b889aae185a7bc7e6ffad409
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "49903558"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49979754"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -141,6 +141,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 - チャネル会議については、記録は、 **レコーディング** という名前のフォルダーにある Teams サイトのドキュメント ライブラリに格納されます。 例: 
 
   <i>Teams 名 - チャネル名</i>/**ドキュメント**/**記録**
+
+**Stream ファイル (レコーディングなど) が SharePoint/OneDrive に保存されている場合、どこに移動するかはどのようにして決定されますか?管理者は行き先を変更できますか?**
+
+既定では、すべての記録ファイルは、[レコード] を選択したユーザーの OneDrive アカウントに移動 **します**。 チャネル会議の場合、記録は常にチャネルの SharePoint サイトに移動します。 管理者は記録の保存場所を変更できない。
 
 **元従業員の記録を処理するにはどうすればよいですか?**
 
