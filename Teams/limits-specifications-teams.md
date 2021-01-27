@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc3a2597c82bfce0f920f511677f9d6a0bf7e6fa
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
+ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786789"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "49973071"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -39,7 +39,7 @@ ms.locfileid: "49786789"
 |チームのメンバーの数 | 10,000<sup>5</sup>     |
 |チーム 1 つあたりの所有者数 | 100   |
 |テナントで許可されている組織全体のチームの数 | 5     |
-|[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 5,000       |
+|[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 10,000       |
 |グローバル管理者を作成できるチームの数        |  500,000   |
 |Microsoft 365 または Office 365 組織が持てるチームの数    | 500,000&sup2;     |
 |チームごとのチャネル数    | 200 (削除されたチャネルを含む) &sup3;         |
@@ -57,7 +57,7 @@ ms.locfileid: "49786789"
 
 <sup>4</sup> 28 KBは、メッセージ自体 (テキスト、画像リンクなど)、@メンション、コネクタの数、およびリアクションを含むため、おおよその制限です。
 
-<sup>5</sup> GCC の チーム は 5,000 人のメンバーしか収容できず、GCCH / DoD のチームは 2,500 人のメンバーしか収容できません。
+<sup>5</sup> GCC のチームはメンバーしか収容できず、GCCH/DoD のチームは 2,500 人のメンバーしか収容できません。
 
 ## <a name="messaging"></a>Messaging
 
