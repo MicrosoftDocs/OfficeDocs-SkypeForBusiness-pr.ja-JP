@@ -1155,8 +1155,12 @@
           href: edu-remote-low-bandwidth.md
         - name: 教育機関用 Teams ポリシー ウィザード
           href: easy-policy-setup-edu.md
-        - name: Insights の使用を開始する
-          href: class-insights.md
+        - name: Education Insights
+          items:
+            - name: Insights の使用を開始する
+              href: class-insights.md
+            - name: SIS データを Insights と同期する
+              href: education-insights-sis-data-sync.md
         - name: '教育機関向けの Teams の課題 '
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: 教育機関管理者向けの Teams のリソース
