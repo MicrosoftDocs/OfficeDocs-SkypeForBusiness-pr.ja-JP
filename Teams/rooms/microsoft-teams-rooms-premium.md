@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a70a07d4f17e4eb956c005ff4296a8f1b69f4d37
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662662"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043951"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -44,7 +44,7 @@ Microsoft Teams Rooms の管理サービスの概要を以下に示します。
 |**分析情報と推奨事項**     |お客様の健康状態、使用状況、使用率、および機器の信頼性に関する分析情報。         |
 |**コンプライアンスと認定**   |Microsoft オンライン サービスの該当するすべての基準を満たしています。         |
 |**カスタマー サポート**   |Microsoft Teams Rooms の管理サービス オペレーション センター (SOC) による 24 時間 365 日対応のチケット サポート お客様に代わって他の主要ベンダーにエスカレーションします (該当する場合)。 詳細については、[カスタマー サポート](#customer-support)を参照してください。|
-|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。         |
+|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*2021 年の後半に予定されている Surface Hub のサポート*        |
 |**サポートされる地域**    |[サポートされる地域](#supported-regions)を参照してください。        |
 |**統合**    |お客様がホストする ServiceNow との統合が可能です。         |
 
@@ -91,29 +91,86 @@ Microsoft Teams Rooms の管理サービスのサポート対象の詳細につ�
 
 ## <a name="supported-regions"></a>サポートされる地域
 
-Microsoft Teams Rooms の管理サービスは、次の国と地域で利用できます。
+Microsoft Teams Rooms の管理サービスは、次の国と地域で利用できます。 
 
+- アンドラ
 - オーストラリア
 - オーストリア
 - ベルギー
-- カナダ (ケベックを除く)
+- ブーベ島
+- ブラジル
+- ブルガリア
+- カナダ
+- クリスマス島
+- ココス (キーリング) 諸島
+- クック諸島
+- クロアチア
+- キプロス
+- チェコ共和国
 - デンマーク
-- フィンランド
+- エストニア
+- Faroe Islands
+- フィジー
+- フランス
 - ドイツ
+- ジブラルタル
 - ギリシャ
+- グリーンランド
+- 聞こえの島とマクドナルド諸島
+- 香港特別行政区
+- ハンガリー
+- アイスランド
+- インド
 - アイルランド
 - イタリア
+- 日本
+- キリバス
+- ラトビア
+- レソト
+- リヒテンシュタイン
+- リトアニア
 - ルクセンブルク
+- マカオ
+- マルタ
+- マーシャル諸島
+- メキシコ
+- ミクロネシア
 - モナコ
+- ナウル
 - オランダ
 - ニュージーランド
+- ニウエ
+- ノーフォーク島
+- 北マリアナ諸島
 - ノルウェー
+- パラオ
+- パプアニューギニア
+- ピトケアン諸島
+- ポーランド
 - ポルトガル
+- ルーマニア
+- ロシア
+- サンピエール島・ミクロン島
+- サモア
+- サンマリノ
+- シンガポール
+- スロバキア
+- スロベニア
+- ソロモン諸島
+- 南アフリカ
 - スペイン
+- スワジランド
 - スウェーデン
 - スイス
+- 台湾
+- トケラウ
+- トンガ
+- ツバル
 - 英国
 - 米国
+- バヌアツ
+- バチカン市国
+- ワリス・フトゥーナ
 
 ## <a name="support-inclusions-and-exclusions"></a>サポート内容と除外事項
 
