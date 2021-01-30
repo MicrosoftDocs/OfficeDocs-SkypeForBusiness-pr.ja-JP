@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams の外部 (フェデレーション) ユーザー向けのネイティブチャット操作
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams での外部 (フェデレーション) ユーザーのネイティブ チャットエクスペリエンス
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,38 +14,37 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams の外部アクセス (フェデレーション) ユーザー向けのネイティブなチームチャットエクスペリエンスについて説明します。この機能は、両方のユーザーが teams Sonly アップグレードモードを使用している外部ユーザー間で利用できます。
-ms.openlocfilehash: d3ff414420f8d1d68965307e9303aed4b5cf00ff
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: 両方のユーザーが TeamsOnly アップグレード モードにある Microsoft Teams の外部アクセス (フェデレーション) ユーザー向けネイティブ Teams チャット エクスペリエンスについて説明します。
+ms.openlocfilehash: df9e1e41992e105937deacf898833995cdfb7714
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030603"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055659"
 ---
-<a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft Teams の外部 (フェデレーション) ユーザー向けのネイティブチャット操作
-======================================
+# <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft Teams での外部 (フェデレーション) ユーザーのネイティブ チャットエクスペリエンス
 
-Microsoft Teams ユーザーが外部 (フェデレーション) ユーザーとのチャットを行っている場合、チャットエクスペリエンスはテキストに制限されます。 ただし、Teams ユーザーと外部ユーザーの両方が TeamsOnly アップグレードモードに入っている場合は、"ネイティブチームチャットエクスペリエンス" を使用できます。これには、リッチな書式設定、@mentions、その他のチャット機能が含まれます。 つまり、組織内のユーザーと同じように、適切な外部ユーザーと同じ1:1 チームチャットエクスペリエンスを提供することができます。 外部ユーザーとのネイティブチームチャットは、依然として1:1 のチャットに限定されます (外部ユーザーはグループチャットを行うことはできません)。
+Microsoft Teams ユーザーが外部 (フェデレーション) ユーザーとチャットしている場合、チャットエクスペリエンスはテキストに制限されます。 ただし、Teams ユーザーと別の組織のユーザーの両方が TeamsOnly アップグレード モードの場合は、リッチフォーマット、@mentions、その他のチャット機能を含む "ネイティブ Teams チャット エクスペリエンス" を使用できます。 つまり、組織内のユーザーと同じように、他の組織の対象ユーザーと同じリッチな 1 対 1 の Teams チャット エクスペリエンスを利用できます。 他の組織のユーザーとのネイティブ Teams チャットは、1 対 1 のチャットに制限されます。
 
-外部ユーザー向けのネイティブチャット操作は、すべてのチームテナントで有効になっていますが、すべてのユーザーが対象になっているわけではありません。 ネイティブチャットエクスペリエンスを提供するには、送信者と受信者の両方が teams s アップグレードモード用に構成されている必要があります。 アップグレードポリシーの詳細については、「 [共存の設定とアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)」を参照してください。
+他の組織のユーザーのネイティブ チャットエクスペリエンスは、すべての Teams テナントに対して有効になりますが、すべてのユーザーが利用できるとは言えな。 ネイティブ チャットエクスペリエンスを提供するには、送信者と受信者の両方を TeamsOnly アップグレード モード用に構成する必要があります。 アップグレード ポリシーの詳細については、「共存とアップグレード [の設定」を参照してください](setting-your-coexistence-and-upgrade-settings.md)。
 
-Teams の外部アクセスユーザーの機能の一覧については、「 [外部とゲストのアクセスを比較](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)する」を参照してください。
+Teams で外部アクセス ユーザーの機能の一覧を表示するには、「外部アクセスとゲスト アクセスを比較する [」を参照してください](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。
 
-## <a name="how-do-i-know-if-im-in-a-native-chat"></a>自分がネイティブチャットであるかどうかを知る方法を教えてください。
+## <a name="how-do-i-know-if-im-in-a-native-chat"></a>ネイティブ チャットに参加しているかどうかは、どのように知る必要がありますか?
 
-チャット内のテキストを外部ユーザーとのみ交換できる場合は、標準の外部アクセス (フェデレーション) チャットを使用しています。 書式設定、@mentions、絵文字など、その他のすべてのチャット機能を使用している場合は、ネイティブのチームとの間で、外部ユーザーとチャットしていることになります。 
+チャット内のテキストを他の組織のユーザーとのみやり取りできる場合は、標準の外部アクセス (フェデレーション) チャットに参加しています。 書式設定、@mentions、絵文字など、他のすべてのチャット機能がある場合は、ネイティブの Teams チャットに参加しています。 
 
-チームは定期的に外部ユーザーのアップグレードモードを確認します。チームは、Teams のアップグレードモードで Teams を実行している外部ユーザーを見つけたときに、ネイティブのチームチャットに切り替えて、元のチャットをロックするように求められます。
+Teams は、他の組織のユーザーのアップグレード モードを定期的にチェックし、TeamsOnly アップグレード モードで Teams を実行しているユーザーを見つけたら、ネイティブの Teams チャットに切り替えて元のチャットをロックするように求めるメッセージが表示されます。
 
-ネイティブなチームチャットに切り替えると、Teams では2つの会話が結合されません。 代わりに、チャットフィードに両方のチャットが表示されます。 新しいネイティブチームチャットはアクティブですが、以前のテキストのみのチャットはロックされています。
-
+ネイティブの Teams チャットに切り替えても、Teams は 2 つの会話を結合しません。 代わりに、両方のチャットがチャット フィードに表示されます。 新しいネイティブ Teams チャットはアクティブですが、古いテキスト専用のチャットはロックされています。
 
 
-## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>ユーザーが Teams のみモードになっていない場合はどうなりますか?
 
-ネイティブなチームで外部ユーザーとチャットしていて、どちらか一方が teams のアップグレードモードに切り替えられている場合、チームはネイティブのチームチャットをロックし、テキストのみのチャットを制限したリンクを提供します。 ネイティブの Teams チャットを続行することはできません。 ただし、ネイティブの Teams チャットを読むことはできますが、そこで会話を続けることはできません。
+## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>ユーザーが Teams のみモードではなくなった場合は、どうなるでしょうか。
 
-Teams では、この外部ユーザとのテキストのみのチャットが見つかると、そのチャットが使おうます。 それ以外の場合、チームは新しいテキストのみのチャットを作成します。
+他の組織のユーザーとネイティブの Teams チャットを行っている場合、そのうちの 1 人が TeamsOnly アップグレード モードから切り替わると、Teams はネイティブの Teams チャットをロックし、制限付きテキスト専用チャットのリンクを提供します。 ネイティブの Teams チャットを続行できない。 ネイティブの Teams チャットは引き続き読み取り可能ですが、そこで会話を続けはまだできます。
+
+Teams が、このユーザーとの古いテキスト専用チャットを見つけた場合、そのチャットは復活します。 それ以外の場合、Teams は新しいテキスト専用チャットを作成します。
 
 
 ## <a name="related-topics"></a>関連項目
