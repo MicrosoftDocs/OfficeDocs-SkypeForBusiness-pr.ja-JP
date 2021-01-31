@@ -18,23 +18,25 @@ description: Microsoft Teams のパブリック プレビューについて説�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: ab48796f877f6af33b8a3c1b2bc5a3cc56e7bd1e
-ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
+ms.openlocfilehash: 6a8d677b4acd56e6de5681d40a1e1aa69008a1ad
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49530984"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043961"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 
 > [!NOTE]
 > プレビューに含まれている機能は完全でないため、一般公開前に変更される場合があります。これらは、評価と調査のみを目的としています。
 
-Microsoft Teams のパブリック プレビューを使用すると、Teams の未公開機能にいち早くアクセスできます。プレビューでは、今後加えられる機能を探したり、テストしたりできます。パブリック プレビューのあらゆる機能に関するフィードバックをお待ちしております。パブリック プレビューは、各Teams ユーザーごとに有効になっているので、組織全体への影響を心配する必要はありません。
+Microsoft Teams のパブリック プレビューを使用すると、Teams の未公開機能にいち早くアクセスできます。プレビューでは、今後加えられる機能を探したり、テストしたりできます。パブリック プレビューのあらゆる機能に関するフィードバックをお待ちしております。パブリック プレビューは、それぞれのチーム ユーザーごとに有効になっているので、組織全体への影響を心配する必要はありません。
+
+Teams のパブリック プレビューで利用可能な機能の一覧については、「[Release Notes for Office Current Channel (Preview) (Office 最新チャネル (プレビュー版) のリリース ノート)](https://docs.microsoft.com/officeupdates/current-channel-preview)」を参照してください。
 
 ## <a name="set-the-update-policy"></a>更新ポリシーを設定する
 
- パブリック プレビューは、ユーザーごとに有効になっています。また、パブリックプレビューを有効にするオプションは管理者ポリシーで制御されます。 更新ポリシーは、Teams アプリのプレリリースやプレビュー機能を表示する Teams や Office のプレビュー ユーザーを管理するために使用されます。 グローバル (組織全体の既定) ポリシーを使用してカスタマイズすることも、ユーザー用に 1 つまたは複数のカスタム ポリシーを作成することもできます。 このポリシーは、グローバルポリシーを上書きしないため、特定のユーザーに割り当てる必要があります。
+パブリック プレビューは、ユーザー単位で有効になっています。また、パブリック プレビューを有効にするオプションは管理者ポリシーで制御されます。 更新ポリシーは、Teams アプリのプレリリースやプレビュー機能を表示する Teams や Office のプレビュー ユーザーを管理するために使用されます。 グローバル (組織全体の既定) ポリシーを使用してカスタマイズすることも、ユーザー用に 1 つまたは複数のカスタム ポリシーを作成することもできます。 このポリシーは、グローバルポリシーを上書きしないため、特定のユーザーに割り当てる必要があります。
 
 1. 管理センターにサインインします。
 2. **[Teams**>**更新ポリシー]** を選択します。
@@ -57,3 +59,4 @@ Microsoft Teams のパブリック プレビューを使用すると、Teams の
 ## <a name="related-topics"></a>関連項目
 
 [開発者向けパブリック プレビュー](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
+

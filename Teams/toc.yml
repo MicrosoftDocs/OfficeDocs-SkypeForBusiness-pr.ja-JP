@@ -1,1734 +1,1735 @@
-- name: Teams へようこそ
-  href: teams-overview.md
-- name: アーキテクチャとテレフォニー ソリューションのポスター
-  href: teams-architecture-solutions-posters.md
-- name: リモート ワーカーのサポート (WFH)
-  href: support-remote-work-with-teams.md
-- name: トレーニング
-  items:
-    - name: 概要
-      href: training-microsoft-teams-landing-page.md
-    - name: Teams の管理者トレーニング
-      href: itadmin-readiness.md
-    - name: Ignite 2020 の Teams セッション
-      href: ignite-2020-landing-page.md
-    - name: Teams のライブ トレーニング
-      href: instructor-led-training-teams-landing-page.yml
-    - name: Teams のオンライン トレーニング
-      href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
-- name: Teams のロールアウト方法
-  href: How-to-roll-out-teams.md
-- name: 概要
-  items:
-    - name: 概要
-      href: get-started-with-teams-quick-start.md
-    - name: 'ステップ 1: 最初のチームとチャネルを作成する'
-      href: get-started-with-teams-create-your-first-teams-and-channels.md
-    - name: 'ステップ 2: 早期導入者を参加させる'
-      href: get-started-with-teams-onboard-early-adopters.md
-    - name: 'ステップ 3: 利用状況とフィードバックを監視する'
-      href: get-started-with-teams-monitor-usage-and-feedback.md
-    - name: 'ステップ 4: 組織全体へのロールアウトを計画する'
-      href: get-started-with-teams-resources-for-org-wide-rollout.md
-- name: 会話、チーム、チャネル
-  items:
-    - name: 展開の計画
-      href: deploy-chat-teams-channels-microsoft-teams-landing-page.md
-    - name: Advisor for Teams を使用して Teams をロールアウトする
-      href: use-advisor-teams-roll-out.md
-    - name: チームとチャネルの概要
-      href: teams-channels-overview.md
-    - name: プライベート チャンネルの概要
-      href: private-channels.md
-    - name: プライベート チャネルのライフ サイクルを管理する
-      href: private-channels-life-cycle-management.md
-    - name: Teams でチーム所有者とメンバーを割り当てる
-      href: assign-roles-permissions.md
-    - name: チームの動的なメンバーシップの概要
-      href: dynamic-memberships.md
-    - name: Teams でチームを編成するためのベスト プラクティス
-      href: best-practices-organizing.md
-    - name: 大規模な Teams を管理する
-      href: best-practices-large-groups.md
-    - name: Teams で組織全体にわたるチームを作成する
-      href: create-an-org-wide-team.md
-    - name: people manager teams を作成する
-      href: create-manager-directs-teams.md
-    - name: チームとチャネル ポリシーを管理する
-      href: teams-policies.md
-    - name: Teams でチャネルのモデレートを設定する
-      href: manage-channel-moderation-in-teams.md
-    - name: Teams でファイルを共有する
-      href: sharing-files-in-teams.md
-    - name: Teams と Outlook のメールの統合
-      href: teams-outlook-email-integration.md
-    - name: メッセージ ポリシーを管理する
-      href: messaging-policies-in-teams.md
-    - name: Teams でのユーザーのプレゼンス
-      href: presence-admins.md
-    - name: Teams のタグを管理する
-      href: manage-tags.md
-    - name: Teams で分析を表示する
-      href: teams-analytics-and-reports/view-analytics.md
-    - name: Teams の有効期限と更新
-      href: team-expiration-renewal.md
-    - name: チームをアーカイブまたは削除する
-      href: archive-or-delete-a-team.md
-    - name: Slack から Teams に移行する
-      href: migrate-slack-to-teams.md
-    - name: Teams テンプレートを使う
-      items:
-        - name: 管理コンソールで Teams テンプレートを使用する
-          href: get-started-with-teams-templates-in-the-admin-console.md
-        - name: Graph に内蔵された中小企業向け Teams テンプレート
-          href: smb-templates.md
-        - name: カスタムの Teams テンプレートを作成する
-          href: create-a-team-template.md
-        - name: 既存のチームからテンプレートを作成する
-          href: create-template-from-existing-team.md
-        - name: 既存のチームからテンプレートをビルドする
-          href: create-template-from-existing-template.md
-        - name: 財務カテゴリの Teams テンプレート
-          href: financial-teams-templates-in-the-admin-console.md
-        - name: 全般カテゴリの Teams テンプレート
-          href: general-teams-templates-in-the-admin-console.md
-        - name: 製造カテゴリの Teams テンプレート
-          href: manufacturing-teams-templates-in-the-admin-console.md
-    - name: 外部ユーザーと通信する
-      items:
-        - name: 別の組織のユーザーと通信する
-          href: communicate-with-users-from-other-organizations.md
-        - name: 外部アクセス (フェデレーション)
-          items:
-            - name: 外部アクセスを管理する
-              href: manage-external-access.md
-            - name: 外部ユーザー向けのネイティブ Teams チャット
-              href: native-chat-for-external-users.md
-            - name: Teams と Skype の相互運用性
-              href: teams-skype-interop.md
-        - name: ゲスト アクセス
-          items:
-            - name: ゲスト アクセスについて
-              href: guest-access.md
-            - name: ゲスト アクセスのチェックリスト
-              href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
-            - name: ゲスト エクスペリエンス
-              href: guest-experience.md
-            - name: ゲスト アクセスを承認する
-              href: teams-dependencies.md
-            - name: ゲスト アクセスをオンまたはオフにする
-              href: set-up-guests.md
-            - name: チームにゲストを追加する
-              href: add-guests.md
-            - name: チームのゲスト ユーザーを表示する
-              href: view-guests.md
-            - name: ゲスト ユーザー情報の編集
-              href: edit-guests-information.md
-            - name: ゲスト アクセスのトラブルシューティング
-              href: troubleshoot-guest-access.md
-    - name: Teams の Cortana
-      href: cortana-in-teams.md
-    - name: Teams の管理
-      items:
-        - name: 管理者の役割
-          href: using-admin-roles.md
-        - name: 組織の Microsoft Teams の設定を管理する
-          href: enable-features-office-365.md
-        - name: 新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
-          href: manage-teams-skypeforbusiness-admin-center.md
-        - name: Microsoft Teams 管理センターで Teams を管理する
-          href: manage-teams-in-modern-portal.md
-        - name: Teams でチーム所有者とメンバーを割り当てる
-          href: assign-roles-permissions.md
-        - name: ユーザーにポリシーを割り当てる
-          href: assign-policies.md
-        - name: アクティビティ ログでポリシーの割り当てを表示する
-          href: activity-log.md
-        - name: Teams のアプリのアクセス許可ポリシーを管理する
-          href: teams-app-permission-policies.md
-        - name: Teams のアプリのセットアップ ポリシーを管理する
-          href: teams-app-setup-policies.md
-        - name: Teams のカスタム アプリのポリシーと設定を管理する
-          href: teams-custom-app-policies-and-settings.md
-        - name: Teams でフィードバック ポリシーを管理する
-          href: manage-feedback-policies-in-teams.md
-        - name: Teams でポリシー パッケージを管理する
-          href: manage-policy-packages.md
-        - name: Teams と連動するように Skype 会議アプリを構成する
-          href: configure-skype-meetings-app-to-work-with-teams.md
-        - name: 外部アクセスを管理する
-          href: manage-external-access.md
-        - name: インライン メッセージの翻訳の使用
-          href: inline-message-translation-teams.md
-        - name: Microsoft Teams の範囲指定ディレクトリ検索を使用する
-          href: teams-scoped-directory-search.md
-        - name: Teams 管理センターの分析とレポート
-          items:
-            - name: 概要
-              href: teams-analytics-and-reports/teams-reporting-reference.md
-            - name: Teams の使用状況レポート
-              href: teams-analytics-and-reports/teams-usage-report.md
-            - name: Teams ユーザー アクティビティ レポート
-              href: teams-analytics-and-reports/user-activity-report.md
-            - name: Teams アプリの使用状況レポート
-              href: teams-analytics-and-reports/app-usage-report.md
-            - name: Teams のデバイス使用状況レポート
-              href: teams-analytics-and-reports/device-usage-report.md
-            - name: PSTN のブロックされたユーザー レポート
-              href: teams-analytics-and-reports/pstn-blocked-users-report.md
-            - name: PSTN の利用分数プール レポート
-              href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: PSTN の使用状況のレポート
-              href: teams-analytics-and-reports/pstn-usage-report.md
-            - name: Teams のライブ イベントの使用状況レポート
-              href: teams-analytics-and-reports/teams-live-event-usage-report.md
-        - name: Microsoft 365 管理センターでの Teams のアクティビティ レポート
-          href: teams-activity-reports.md
-- name: アプリ、ボット、コネクタ
-  items:
-    - name: 概要
-      href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Power Platform との統合
-      href: teams-power-platfom-integration.md
-    - name: Teams 用アプリを管理する
-      href: manage-apps.md
-    - name: Teams でのアプリの管理設定
-      href: admin-settings.md
-    - name: 組み込みタブとカスタム タブの使用
-      href: built-in-custom-tabs.md
-    - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
-      href: Office-365-custom-connectors.md
-    - name: リソース固有の同意
-      href: resource-specific-consent.md
-    - name: カスタム アプリ
-      items:
-        - name: Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する
-          href: submit-approve-custom-apps.md
-        - name: Microsoft Teams 管理センターで電源プラットフォームアプリを管理する
-          href: manage-power-platform-apps.md
-        - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
-          href: upload-custom-apps.md
-        - name: カスタム アプリ ストア
-          href: customize-your-app-store.md
-    - name: アプリ証明書
-      href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
-      href: app-permissions-admin-center.md
-    - name: アプリのアクセス許可と考慮事項
-      href: app-permissions.md
-    - name: Teams サードパーティ アプリのサービスを購入する
-      href: purchase-third-party-apps.md
-    - name: Teams 用のアプリ テンプレート
-      href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-    - name: Teams で組織のリストアプリを管理する
-      href: manage-lists-app.md
-    - name: 組織のタスク アプリを管理する
-      href: manage-tasks-app.md
-    - name: チーム対象の階層を設定する
-      href: set-up-your-team-hierarchy.md
-    - name: Teams 管理センターで称賛アプリを管理する
-      href: manage-praise-app.md
-    - name: Teams と連動するように Skype 会議アプリを構成する
-      href: configure-skype-meetings-app-to-work-with-teams.md
-    - name: Teams 承認アプリの利用可能性
-      href: approval-admin.md
-- name: ミーティングと会議
-  items:
-    - name: クイック スタート - 会議とライブ イベント
-      href: quick-start-meetings-live-events.md
-    - name: 展開の計画
-      href: deploy-meetings-microsoft-teams-landing-page.md
-    - name: Microsoft Teams Rooms
-      items:
-        - name: 概要
-          href: rooms/index.md
-        - name: 計画
-          items:
-            - name: Microsoft Teams Rooms の計画の概要
-              href: rooms/rooms-plan.md
-            - name: バージョンのサポート
-              href: rooms/rooms-lifecycle-support.md
-            - name: リリース ノート
-              href: rooms/rooms-release-note.md
-            - name: 環境を準備する
-              href: rooms/rooms-prep.md
-            - name: 要件
-              href: rooms/requirements.md
-            - name: セキュリティ
-              href: rooms/security.md
-            - name: オンライン ライセンス
-              href: rooms/rooms-licensing.md
-            - name: Azure Monitor による管理の計画
-              href: rooms/azure-monitor-plan.md
-            - name: Microsoft Teams Rooms の管理サービス
-              items:
-                - name: Microsoft Teams Rooms の管理サービスを使用して管理を計画する
-                  href: rooms/microsoft-teams-rooms-premium.md
-                - name: Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御
-                  href: rooms/microsoft-teams-rooms-premium-rbac.md
-        - name: 展開
-          items:
-            - name: 展開の概要
-              href: rooms/rooms-deploy.md
-            - name: アカウントを構成する
-              href: rooms/rooms-configure-accounts.md
-            - name: Surface Hub
-              items:
-                - name: 最適化された会議を設定する
-                  href: rooms/coordinated-meetings.md
-                - name: Microsoft Teams 設定の管理
-                  href: rooms/surface-hub-manage-config.md
-            - name: Office 365 の場合
-              href: rooms/with-office-365.md
-            - name: Skype for Business Server の場合
-              href: rooms/with-skype-for-business-server-2015.md
-            - name: Exchange Online の場合 (ハイブリッド)
-              href: rooms/with-exchange-online.md
-            - name: オンプレミスの Exchange の場合 (ハイブリッド)
-              href: rooms/with-exchange-on-premises.md
-            - name: コンソールを構成する
-              href: rooms/console.md
-            - name: 手動でデバイスを更新する
-              href: rooms/manual-update.md
-            - name: 認証を構成する
-              href: rooms/rooms-authentication.md
-            - name: サードパーティ製の会議に参加する
-              href: rooms/third-party-join.md
-            - name: Microsoft Endpoint Configuration Manager を使用する
-              href: rooms/rooms-scale.md
-            - name: Azure Monitor による管理
-              href: rooms/azure-monitor-deploy.md
-            - name: SRS v1 または LRS の移行
-              href: rooms/lrs-migration.md
-            - name: コンテンツ カメラ
-              href: rooms/content-camera.md
-        - name: 管理
-          items:
-            - name: 管理の概要
-              href: rooms/rooms-manage.md
-            - name: メンテナンスと操作
-              href: rooms/rooms-operations.md
-            - name: 組織で Teams をサポートする
-              href: rooms/known-issues.md
-            - name: Azure Monitor でのデバイス
-              href: rooms/azure-monitor-manage.md
-            - name: XML を使用した設定
-              href: rooms/xml-config-file.md
-            - name: 回復ツールの使用
-              href: rooms/recovery-tool.md
-    - name: 'チュートリアル: Teams でのミーティング'
-      href: Tutorial-Meetings-in-Teams.yml
-    - name: 会議ポリシーを管理する
-      href: meeting-policies-in-teams.md
-    - name: ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する
-      href: meeting-policies-restricted-anonymous-access.md
-    - name: 会議の設定を管理する
-      href: meeting-settings-in-teams.md
-    - name: ユーザーの設定を変更したときに送信されるメール
-      href: emails-sent-to-users-when-their-settings-change-in-teams.md
-    - name: ユーザーが会議に参加するときに名前を記録できるようにする
-      href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-    - name: 会議の入退室通知をオンまたはオフにする
-      href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-    - name: Teams で NDI® テクノロジを使用する
-      href: use-NDI-in-meetings.md
-    - name: Teams 会議での挙手オプション
-      href: raise-hand-meetings.md
-    - name: サポートされていないブラウザーでの Teams 会議
-      href: unsupported-browsers.md
-    - name: Teams でのデスクトップ共有を構成する
-      href: configure-desktop-sharing.md
-    - name: Teams のクラウド会議のレコーディング
-      href: cloud-recording.md
-    - name: OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
-      href: tmr-meeting-recording-change.md
-    - name: コンタクト センターの統合
-      href: teams-contact-center.md
-    - name: Outlook で Teams の会議アドインを使用する
-      href: teams-add-in-for-outlook.md
-    - name: 'ユーザーの [電話する] 機能をセットアップする'
-      href: set-up-the-call-me-feature-for-your-users.md
-    - name: 会議出席レポートを入手する
-      href: teams-analytics-and-reports/meeting-attendance-report.md
-    - name: Meeting Migration Service (MMS) のセットアップ
-      href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Teams でホワイトボードを管理する
-      href: manage-whiteboard.md
-    - name: Google Workspace 用のTeams 会議アドオンを設定する
-      href: google-workspace-addon-teams.md
-    - name: 電話会議
-      items:
-        - name: 展開の計画
-          href: deploy-audio-conferencing-teams-landing-page.md
-        - name: Microsoft 365 での電話会議
-          href: audio-conferencing-in-office-365.md
-        - name: 'プレビューを開く: 電話会議のためのネットワーク上の会議'
-          href: audio-conferencing-on-network.md
-        - name: 電話会議に関するよくある質問
-          href: audio-conferencing-common-questions.md
-        - name: 'チュートリアル: Teams での電話会議'
-          href: Tutorial-Audio-Conferencing.yml
-        - name: Microsoft 365 での電話会議を試用または購入する
-          href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
-        - name: 米国とカナダの拡張ダイヤルアウト分数
-          href: dial-out-minutes-canada-us.md
-        - name: 電話会議の無料ダイヤル アウト期間
-          href: complimentary-dial-out-period.md
-        - name: 電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット
-          href: audio-conferencing-subscription-dial-out.md
-        - name: 電話会議をセットアップする
-          href: set-up-audio-conferencing-in-teams.md
-        - name: 電話会議をセットアップする - 中小企業向けのクイックスタート
-          href: audio-conferencing-smb.md
-        - name: Microsoft を電話会議プロバイダーとして割り当てる
-          href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: 電話会議ブリッジの管理
-          items:
-            - name: 電話会議ブリッジの電話番号を変更する
-              href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-            - name: 電話会議ブリッジの設定を変更する
-              href: change-the-settings-for-an-audio-conferencing-bridge.md
-            - name: 電話会議の電話番号のリストを表示する
-              href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-            - name: 電話会議の自動案内の言語を設定する
-              href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-            - name: ユーザー用の会議のダイヤルアウト確認をセットアップする
-              href: set-up-meeting-dial-out-confirmation.md
-        - name: 組織の電話会議の設定を管理する
-          href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-        - name: 分数ごと従量課金制電話会議
-          href: audio-conferencing-pay-per-minute.md
-        - name: ユーザーの電話会議の設定を管理する
-          items:
-            - name: 概要
-              href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-            - name: 電話会議が有効になっているユーザーのリストを表示する
-              href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
-            - name: ユーザーが会議に参加するときに名前を記録できるようにする
-              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-            - name: ユーザーの会議 ID をリセットする
-              href: reset-a-conference-id-for-a-user-in-teams.md
-            - name: ユーザーの電話会議の PIN をリセットする
-              href: reset-the-audio-conferencing-pin-in-teams.md
-            - name: ユーザーの設定が変更されるとユーザーに自動的に送信されるメール
-              href: emails-sent-to-users-when-their-settings-change-in-teams.md
-            - name: 電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
-              href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-            - name: 特定のユーザーの無料電話番号を無効にする
-              href: disabling-toll-free-numbers-for-specific-teams-users.md
-            - name: 電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
-              href: outbound-calling-restriction-policies.md
-            - name: ユーザーに割り当てられた会議 ID の表示およびリセット
-              href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-            - name: 電話会議の情報が記載されたメールをユーザーに送信する
-              href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-        - name: 電話会議の会議設定の管理
-          items:
-            - name: 他のユーザーが参加できるように会議からダイヤル アウトする
-              href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
-            - name: 会議の入退室通知をオンまたはオフにする
-              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-            - name: 電話会議の PIN の長さを設定する
-              href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-            - name: 招待状に含まれている電話番号を設定する
-              href: set-the-phone-numbers-included-on-invites-in-teams.md
-            - name: PIN を使用せずに電話で音声会議を開始する
-              href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
-        - name: 国および地域ごとの電話会議の利用可能性
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: 参照
-          items:
-            - name: 電話会議でサポートされている言語
-              href: audio-conferencing-supported-languages.md
-            - name: 電話会議の電話番号
-              href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: 国および地域ごとの電話会議の利用可能性
-              href: audio-conferencing-zones.md
-            - name: 'ビデオ: Teams での電話会議'
-              href: audio-conferencing-videos.md
-    - name: クラウド ビデオ相互運用性
-      href: cloud-video-interop.md
-    - name: ライブ イベント
-      items:
-        - name: Teams のライブ イベントについて
-          href: teams-live-events/what-are-teams-live-events.md
-        - name: Teams のライブ イベントの計画
-          href: teams-live-events/plan-for-teams-live-events.md
-        - name: Teams のライブ イベントをセットアップする
-          href: teams-live-events/set-up-for-teams-live-events.md
-        - name: PowerShell を使用して Teams のライブ イベント ポリシーを設定する
-          href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-        - name: Teams のライブ イベント設定を構成する
-          href: teams-live-events/configure-teams-live-events.md
-- name: 音声 - 電話システムと PSTN 接続
-  items:
-    - name: Teams の音声ソリューションを計画する
-      href: cloud-voice-landing-page.md
-    - name: 電話システム
-      items:
-        - name: 電話システムとは
-          href: what-is-phone-system-in-office-365.md
-        - name: 電話システムで利用できる機能
-          href: here-s-what-you-get-with-phone-system.md
-        - name: 電話システムをセットアップする
-          href: setting-up-your-phone-system.md
-        - name: 共通領域電話をセットアップする
-          href: set-up-common-area-phones.md
-        - name: ボイスメール
-          items:
-            - name: クラウド ボイスメールのセットアップ
-              href: set-up-phone-system-voicemail.md
-            - name: ボイスメールのデフォルト言語を変更する
-              href: change-the-default-language-for-greetings-and-emails.md
-            - name: ボイスメールの応答メッセージとメッセージで使用する言語
-              href: languages-for-voicemail-greetings-and-messages.md
-        - name: 発信者番号
-          items:
-            - name: 組織での発信者番号の利用方法
-              href: how-can-caller-id-be-used-in-your-organization.md
-            - name: 発信者 ID ポリシーの管理
-              href: caller-id-policies.md
-            - name: ユーザーの発信者 ID の設定
-              href: set-the-caller-id-for-a-user.md
-            - name: 発信回線 ID と発信者名の詳細
-              href: more-about-calling-line-id-and-calling-party-name.md
-        - name: 自動応答と呼び出しキュー
-          items:
-            - name: 計画
-              href: plan-auto-attendant-call-queue.md
-            - name: Auto attendantのセットアップ
-              href: create-a-phone-system-auto-attendant.md
-            - name: 通話キューの設定
-              href: create-a-phone-system-call-queue.md
-            - name: Teams のリソース アカウントを管理する
-              href: manage-resource-accounts.md
-            - name: 休日を設定する
-              href: set-up-holidays-in-teams.md
-            - name: 自動応答および通話キューの通話に Teams から直接応答する
-              href: answer-auto-attendant-and-call-queue-calls.md
-            - name: レポート
-              href: aa-cq-cqd-historical-reports.md
-            - name: ダイヤルおよび音声参照
-              href: dial-voice-reference.md
-            - name: Reporting
-              href: aa-cq-cqd-historical-reports.md
-        - name: 受信通話をブロックする
-          href: block-inbound-calls.md
-        - name: コール パークおよび取得
-          href: call-park-and-retrieve.md
-        - name: 通話の共有およびグループ通話ピックアップ
-          href: call-sharing-and-group-call-pickup.md
-        - name: 通話ポリシー
-          href: teams-calling-policy.md
-        - name: 回線共有機能
-          href: shared-line-appearance.md
-        - name: ダイヤルパッドの構成
-          href: dial-pad-configuration.md
-    - name: 通話プラン
-      items:
-        - name: どの通話プランが適していますか?
-          href: calling-plan-landing-page.md
-        - name: 通話プランを購入する方法
-          href: calling-plans-for-office-365.md
-        - name: 組織の通話プランをセットアップする
-          href: set-up-calling-plans.md
-        - name: 'クイック スタート ガイド: 通話プランの構成'
-          href: configuring-teams-calling-quickstartguide.md
-        - name: 国および地域ごとの通話プランの利用可能性
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-    - name: 電話システムのダイレクト ルーティング
-      items:
-        - name: 概要
-          href: direct-routing-landing-page.md
-        - name: ダイレクト ルーティングを計画する
-          href: direct-routing-plan.md
-        - name: ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
-          href: direct-routing-border-controllers.md
-        - name: ダイレクト ルーティングを構成する
-          items:
-            - name: 概要
-              href: direct-routing-configure.md
-            - name: '手順 1: SBC を接続する'
-              href: direct-routing-connect-the-sbc.md
-            - name: '手順 2: ユーザーを有効にする'
-              href: direct-routing-enable-users.md
-            - name: '手順 3: 音声ルーティングを構成する'
-              href: direct-routing-voice-routing.md
-            - name: '手順 4: 電話番号を変換する'
-              href: direct-routing-translate-numbers.md
-            - name: 複数のテナントの SBC を構成する
-              href: direct-routing-sbc-multiple-tenants.md
-            - name: ダイレクト ルーティングを使用してアナログ デバイスを使用する方法
-              href: direct-routing-analog-devices.md
-        - name: 場所に基づくルーティング
-          items:
-            - name: ダイレクト ルーティングの場所に基づくルーティングを計画する
-              href: location-based-routing-plan.md
-            - name: 場所に基づくルーティングのネットワーク設定を構成する
-              href: location-based-routing-configure-network-settings.md
-            - name: ダイレクト ルーティングの場所に基づくルーティングを有効にする
-              href: location-based-routing-enable.md
-        - name: ダイレクト ルーティングのメディア バイパス
-          items:
-            - name: ダイレクト ルーティングでメディア バイパスを計画する
-              href: direct-routing-plan-media-bypass.md
-            - name: ダイレクト ルーティングでメディア バイパスを構成する
-              href: direct-routing-configure-media-bypass.md
-        - name: ダイレクト ルーティングのローカル メディアの最適化
-          items:
-            - name: ローカル メディアの最適化を計画する
-              href: direct-routing-media-optimization.md
-            - name: ローカル メディアの最適化を構成する
-              href: direct-routing-media-optimization-configure.md
-        - name: PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
-          href: direct-routing-user-accounts-in-a-hybrid-environment.md
-        - name: ダイレクト ルーティングに移行する
-          href: direct-routing-migrating.md
-        - name: ダイレクト ルーティングの監視とトラブルシューティング
-          items:
-            - name: 概要
-              href: direct-routing-monitor-and-troubleshoot.md
-            - name: 正常性ダッシュボード
-              href: direct-routing-health-dashboard.md
-        - name: ダイレクト ルーティングのテクニカル リファレンス
-          items:
-            - name: 発信通話でのトランクのフェイルオーバー
-              href: direct-routing-trunk-failover-on-outbound-call.md
-            - name: メディア パスの国コード
-              href: direct-routing-country-codes.md
-            - name: セッション ボーダー コントローラーの接続をテストする PowerShell スクリプト
-              href: sip-tester-powershell-script.md
-            - name: 着信通知の管理
-              href: direct-routing-call-notifications.md
-            - name: プロトコル
-              items:
-                - name: 定義と RFC 標準
-                  href: direct-routing-protocols.md
-                - name: SIP プロトコル
-                  href: direct-routing-protocols-SIP.md
-                - name: メディア プロトコル
-                  href: direct-routing-protocols-media.md
-            - name: 音声ルーティング ポリシーを管理する
-              href: manage-voice-routing-policies.md
-            - name: 存続可能ダイレクト ルーティングの接続
-              href: direct-routing-survivable-branch-appliance.md
-    - name: 電話番号
-      items:
-        - name: 組織のために電話番号を管理する
-          href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-        - name: 通話プランで使用される電話番号の種類
-          href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-        - name: ユーザー用の電話番号を取得する
-          href: getting-phone-numbers-for-your-users.md
-        - name: 取得できる電話番号の数について
-          href: how-many-phone-numbers-can-you-get.md
-        - name: ユーザーの電話番号を検索する
-          href: search-for-phone-numbers-for-users.md
-        - name: 組織の電話番号のリストを表示する
-          href: see-a-list-of-phone-numbers-in-your-organization.md
-        - name: ユーザーの電話番号を割り当て、変更、または削除する
-          href: assign-change-or-remove-a-phone-number-for-a-user.md
-        - name: サービス電話番号を取得する
-          href: getting-service-phone-numbers.md
-        - name: 電話番号の転送
-          items:
-            - name: 番号移行注文について
-              href: phone-number-calling-plans/port-order-overview.md
-            - name: Teams に電話番号を転送する
-              href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-            - name: 手動で番号移行注文を送信する
-              href: phone-number-calling-plans/manually-submit-port-order.md
-            - name: 番号移行注文の状況
-              href: phone-number-calling-plans/port-order-status.md
-        - name: サポートされているレート センターとカバレッジ
-          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
-    - name: 通話ルーティング
-      items:
-        - name: ダイヤル プランについて
-          href: what-are-dial-plans.md
-        - name: ダイヤル プランを作成および管理する
-          href: create-and-manage-dial-plans.md
-        - name: レポート ラベルを追加して更新する
-          href: learn-more-about-site-upload.md
-    - name: ネットワーク設定とトポロジ
-      items:
-        - name: クラウド ボイス機能のネットワーク設定
-          href: cloud-voice-network-settings.md
-        - name: クラウド ボイス機能のネットワーク トポロジを管理する
-          href: manage-your-network-topology.md
-    - name: 緊急通話
-      items:
-        - name: 概要
-          href: what-are-emergency-locations-addresses-and-call-routing.md
-        - name: 動的な緊急通話を構成する
-          href: configure-dynamic-emergency-calling.md
-        - name: 緊急時の連絡先の住所を管理する
-          items:
-            - name: 組織の緊急対応の場所を追加、変更、削除する
-              href: add-change-remove-emergency-location-organization.md
-            - name: 組織の緊急対応の場所の位置情報を追加、変更、削除する
-              href: add-change-remove-emergency-place-organization.md
-            - name: ユーザーの緊急対応の場所を割り当てたり変更したりする
-              href: assign-change-emergency-location-user.md
-            - name: ユーザーの緊急対応の場所の位置情報を割り当てたり変更したりする
-              href: assign-change-emergency-place-user.md
-            - name: 緊急通話のラベル
-              href: emergency-calling-labels.md
-        - name: 緊急通話ポリシーを管理する
-          href: manage-emergency-calling-policies.md
-        - name: 緊急通話のルーティング ポリシーを管理する
-          href: manage-emergency-call-routing-policies.md
-    - name: 音声の移行についての Contoso 社のケース スタディ
-      items:
-        - name: 概要
-          href: voice-case-study-overview.md
-        - name: Teams のアップグレード プラン
-          href: voice-case-study-migration-plan.md
-        - name: 電話システム
-          href: voice-case-study-phone-system.md
-        - name: 場所に基づくルーティング
-          href: voice-case-study-location-based-routing.md
-        - name: 緊急通話
-          href: voice-case-study-emergency-calling.md
-        - name: 電話会議
-          href: voice-case-study-audio-conferencing.md
-        - name: 自動応答と呼び出しキュー
-          href: voice-case-study-call-queues.md
-    - name: Reference
-      items:
-        - name: 国別電話番号の管理
-          items:
-            - name: オーストラリアでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
-            - name: オーストリアでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
-            - name: ベルギーでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
-            - name: カナダでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
-            - name: デンマークでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
-            - name: フランスでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
-            - name: ドイツでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
-            - name: アイルランドでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
-            - name: イタリアでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
-            - name: 日本での電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
-            - name: ポルトガルでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
-            - name: スペインでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
-            - name: オランダでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
-            - name: スウェーデンでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
-            - name: スイスでの電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
-            - name: 英国での電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-            - name: 米国での電話番号の管理
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
-        - name: 無料電話ダイヤルの制限事項と制約事項
-          items:
-            - name: 概要
-              href: toll-free-dialing-limitations-and-restrictions.md
-            - name: アルゼンチン
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
-            - name: オーストラリア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
-            - name: オーストリア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
-            - name: ベラルーシ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
-            - name: ベルギー
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
-            - name: ベリーズ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: ボスニア・ヘルツェゴビナ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
-            - name: ブラジル
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
-            - name: ブルネイ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
-            - name: ブルガリア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-            - name: チリ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
-            - name: 中国 (北部)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
-            - name: 中国 (南部)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
-            - name: コロンビア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
-            - name: クロアチア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
-            - name: キプロス
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
-            - name: デンマーク
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
-            - name: エクアドル
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
-            - name: エジプト
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
-            - name: エストニア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
-            - name: フィンランド
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
-            - name: フランス
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
-            - name: ドイツ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
-            - name: ホンジュラス
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: 香港特別行政区
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
-            - name: ハンガリー
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
-            - name: インド
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
-            - name: インドネシア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
-            - name: アイルランド
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
-            - name: イスラエル
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
-            - name: イタリア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
-            - name: 日本
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
-            - name: ケニア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
-            - name: ルクセンブルク
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
-            - name: マレーシア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
-            - name: メキシコ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
-            - name: モルドバ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
-            - name: モナコ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
-            - name: オランダ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
-            - name: パナマ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
-            - name: パラグアイ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
-            - name: ペルー
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
-            - name: フィリピン
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
-            - name: ポーランド
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
-            - name: ポルトガル
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
-            - name: カタール
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
-            - name: ルーマニア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
-            - name: サウジアラビア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
-            - name: セルビア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
-            - name: シンガポール
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
-            - name: スロバキア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
-            - name: スロベニア
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
-            - name: 南アフリカ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
-            - name: 韓国
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
-            - name: スペイン
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
-            - name: スウェーデン
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
-            - name: スイス
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
-            - name: 台湾
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
-            - name: タイ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
-            - name: トルコ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
-            - name: アラブ首長国連邦 (U.A.E)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
-            - name: 英国
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
-            - name: ウルグアイ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
-            - name: ベネズエラ
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
-            - name: ベトナム
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
-        - name: コミュニケーション クレジットの管理
-          items:
-            - name: コミュニケーション クレジットについて
-              href: what-are-communications-credits.md
-            - name: 組織用にコミュニケーション クレジットをセットアップする
-              href: set-up-communications-credits-for-your-organization.md
-            - name: 資金を追加してコミュニケーション クレジットを管理する
-              href: add-funds-and-manage-communications-credits.md
-        - name: Microsoft Teams の通話フロー
-          href: microsoft-teams-online-call-flows.md
-        - name: 'チュートリアル: Teams での通話'
-          href: Tutorial-calling-in-teams.yml
-          items:
-            - name: ユーザーのエクスぺリエンスを計画する
-              href: 5-envision-plan-my-users-experience.md
-- name: 導入
-  items:
-    - name: 概要
-      href: adopt-microsoft-teams-landing-page.md
-    - name: 概要
-      href: teams-adoption-get-started.md
-    - name: 'フェーズ 1: 開始'
-      items:
-        - name: 開始
-          href: teams-adoption-phase1.md
-        - name: チームとチャネルについて理解する
-          href: teams-adoption-understand-teams-and-channels.md
-        - name: 最初のチームを作成する
-          href: teams-adoption-your-first-teams.md
-        - name: Teams に対する組織の準備状況について
-          href: teams-adoption-assess-readiness.md
-    - name: 'フェーズ 2: 試用'
-      items:
-        - name: 試用
-          href: teams-adoption-phase2-experiment.md
-        - name: 主導者プログラムを作成する
-          href: teams-adoption-create-champions-program.md
-        - name: クイック スタートのガバナンス
-          href: teams-adoption-governance-quick-start.md
-        - name: 使用例を定義する
-          href: teams-adoption-define-usage-scenarios.md
-        - name: アーリー アダプターに関与してフィードバックを収集する
-          href: teams-adoption-onboard-early-adopters.md
-        - name: 参加サポート
-          href: teams-adoption-onboard-support.md
-    - name: 'フェーズ 3: スケール'
-      items:
-        - name: '[倍率]'
-          href: teams-adoption-phase3-enable.md
-        - name: 結果と成功を定義する
-          href: teams-adoption-define-outcomes.md
-        - name: フィードバックとレポートを最適化する
-          href: teams-adoption-optimize-feedback-and-reporting.md
-        - name: 啓発とトレーニングの実施
-          href: teams-adoption-drive-awareness.md
-        - name: サービス正常性のレビューをスケジュールする
-          href: teams-adoption-schedule-service-health-reviews.md
-- name: Teams へのアップグレード
-  items:
-    - name: 開始する
-      href: upgrade-start-here.md
-    - name: アップグレードのフレームワークについて
-      href: upgrade-framework.md
-    - name: どのようにアップグレードするか計画する
-      items:
-        - name: プロジェクトと要件を計画する
-          items:
-            - name: 概要
-              href: upgrade-plan-journey.md
-            - name: プロジェクト関係者に協力を求める
-              href: upgrade-enlist-stakeholders.md
-            - name: プロジェクトの対象範囲を定義する
-              href: upgrade-define-project-scope.md
-            - name: 共存および相互運用性について理解する
-              href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-            - name: PSTN に関する考慮事項
-              href: upgrade-to-teams-on-prem-pstn-considerations.md
-            - name: アップグレードの行程を選択する
-              href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-            - name: ユーザー パイロットを計画する
-              href: pilot-essentials.md
-        - name: Teams 向けの環境を準備する
-          items:
-            - name: 技術準備の概要
-              href: upgrade-prepare-environment.md
-            - name: Teams に向けて IT スタッフを準備する
-              href: upgrade-prepare-IT-pros.md
-            - name: 前提条件
-              href: upgrade-plan-journey-prerequisites.md
-            - name: 環境を評価する
-              href: upgrade-plan-journey-evaluate-environment.md
-            - name: サービスを準備する
-              href: upgrade-prepare-environment-prepare-service.md
-        - name: Teams に向けて組織を準備する
-          items:
-            - name: 組織準備の概要
-              href: upgrade-prepare-organization.md
-            - name: 組織的な変更の準備状況を評価する
-              href: upgrade-org-change-readiness.md
-            - name: ユーザーの準備計画を整える
-              href: upgrade-user-readiness.md
-    - name: アップグレードを実装する
-      items:
-        - name: 概要
-          href: upgrade-to-Teams.md
-        - name: Skype for Business Online から Teams にアップグレードする
-          href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-        - name: Skype for Business オンプレミスから Teams にアップグレードする
-          href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-    - name: 運用、導入、および最適化
-      href: continue-journey.md
-    - name: Skype for Business Online のサポート終了
-      href: skype-for-business-online-retirement.md
-    - name: よくあるご質問 (FAQ)
-      href: FAQ-journey.yml
-    - name: テクニカル ライブラリ
-      items:
-        - name: IT 管​​理者向けのアップグレード ガイダンス
-          items:
-            - name: 概要
-              href: upgrade-to-teams-on-prem-overview.md
-            - name: アップグレード方法
-              href: upgrade-to-teams-on-prem-upgrade-methods.md
-            - name: アップグレードの管理ツール
-              href: upgrade-to-teams-on-prem-tools.md
-            - name: Skype for Business オンプレミスを使用している組織に関する考慮事項
-              href: upgrade-to-teams-on-prem-considerations.md
-            - name: アップグレードを実装する
-              href: upgrade-to-teams-on-prem-implement.md
-            - name: Teams と Skype for Business の共存
-              href: upgrade-to-teams-on-prem-coexistence.md
-            - name: 共存モード - リファレンス
-              href: migration-interop-guidance-for-teams-with-skype.md
-            - name: Teams のクライアント エクスペリエンスおよび共存モードへの準拠
-              href: teams-client-experience-and-conformance-to-coexistence-modes.md
-        - name: 共存およびアップグレードの設定
-          href: setting-your-coexistence-and-upgrade-settings.md
-        - name: Meetings First
-          href: meetings-first.md
-- name: ハイブリッド接続
-  items:
-    - name: ハイブリッド接続のプラン
-      href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-    - name: ハイブリッド接続の構成
-      items:
-        - name: 概要
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-        - name: ハイブリッド環境用の Azure AD Connect の構成
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-        - name: Skype for Business ハイブリッドの構成
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-    - name: オンプレミスとクラウドの間でユーザーを移動する
-      items:
-        - name: 概要
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-        - name: オンプレミスから Teams にユーザーを移動する
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-        - name: ユーザーをオンプレミスから Skype for Business Online に移動する
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-        - name: ユーザーをクラウドからオンプレミスに移動する
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-        - name: 会議の移行を管理する
-          href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-    - name: ハイブリッドを無効にしてクラウドへの移行を完了する
-      href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-    - name: リソース フォレスト トポロジの展開
-      href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-    - name: Teams および Skype for Business Online のクラウド統合
-      items:
-        - name: 概要
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-        - name: エッジ証明書の更新
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-        - name: AAD Connect を更新して複数のフォレストを含める
-          href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-    - name: Exchange および SharePoint との統合
-      href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
-- name: Microsoft 365 Business Voice
-  items:
-    - name: Microsoft 365 企業向け音声とは?
-      href: business-voice/whats-business-voice.md
-    - name: 国および地域ごとの利用可能性
-      href: business-voice/country-region-availability.md
-    - name: 購入前の注意事項
-      items:
-        - name: 企業向け音声を取得するために何を購入すべきか
-          href: business-voice/what-to-buy.md
-        - name: 販売店またはパートナーからサポートを受ける
-          href: business-voice/reseller-partner-support.md
-        - name: インターネット接続を確認する
-          href: business-voice/get-ready-internet.md
-        - name: ユーザーの準備を行う
-          href: business-voice/prepare-users.md
-    - name: 作業の開始ウィザードを実行する
-      href: business-voice/use-getting-started-wizard.md
-    - name: 試すべきこと
-      href: business-voice/things-to-try.md
-    - name: 設定をカスタマイズする
-      items:
-        - name: カスタマイズのオプション
-          href: business-voice/customize-business-voice.md
-        - name: 電話番号のポート
-          href: business-voice/port-phone-numbers.md
-        - name: 通話ポリシーの設定
-          href: business-voice/set-up-policies.md
-        - name: ポリシー パッケージを管理する
-          href: business-voice/policy-packages.md
-        - name: 追加のユーザーを作成する
-          href: business-voice/create-users.md
-        - name: 通話キューを設定する
-          href: business-voice/create-a-phone-system-call-queue-smb.md
-        - name: 自動応答を設定する
-          href: business-voice/create-a-phone-system-auto-attendant-smb.md
-    - name: 設定を管理する
-      items:
-        - name: 1 名以上のユーザーを作成する
-          href: business-voice/create-users.md
-        - name: デバイスを管理する
-          href: business-voice/manage-devices.md
-        - name: 通話品質を監視する
-          href: business-voice/monitor-quality.md
-        - name: 通話品質ダッシュボード
-          href: business-voice/analytics-dashboard.md
-    - name: パートナーのリソース
-      href: business-voice/partner-resources.md
-- name: 業界および政府機関向けのガイダンス
-  items:
-    - name: 概要
-      href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
-    - name: すべての業界
-      items:
-        - name: Teams のテンプレートの使用を開始する
-          href: get-started-with-teams-templates.md
-        - name: Teams の Shifts
-          href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-          items:
-            - name: Teams で組織の Shifts アプリを管理する
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 医療関係向けの Teams
-      items:
-        - name: 医療関係組織のための Teams の使用を開始する
-          href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: 仮想アクセス
-          items:
-            - name: Teamsでの仮想アクセス - EHR への統合
-              href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: 予約と Teams による仮想訪問
-              href: bookings-app-admin.md
-        - name: ポリシー パッケージの表示と割り当て
-          href: policy-packages-healthcare.md
-        - name: セキュリティで保護されたメッセージング
-          items:
-            - name: セキュリティで保護されたメッセージング
-              href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
-            - name: メッセージの委任
-              href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Teams テンプレート
-          items:
-            - name: 医療機関向けの Teams テンプレートを使用する
-              href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-            - name: 医療機関向けの Teams のテンプレート
-              href: expand-teams-across-your-org/healthcare/healthcare-templates.md
-        - name: Teams で組織のリスト アプリを管理する
-          href: manage-lists-app.md
-        - name: 組織のタスク アプリを管理する
-          href: manage-tasks-app.md
-        - name: Teams の Shifts
-          items:
-            - name: Teams の Shifts
-              href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-            - name: Teams で組織の シフト アプリを管理する
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-    - name: 教育機関用 Teams
-      href: expand-teams-across-your-org/teams-for-education-landing-page.md
-      items:
-        - name: クイック スタート - 教育機関用 Teams の管理者
-          href: teams-quick-start-edu.yml
-        - name: リモート学習の開始
-          href: remote-learning-edu.md
-        - name: Teams EDU ポリシーおよびポリシー パッケージ
-          href: policy-packages-edu.md
-        - name: 多数のユーザー セットにポリシーを割り当てる
-          href: batch-group-policy-assignment-edu.md
-        - name: 教育者と学生のためのセキュリティ グループを作成する PowerShell スクリプト
-          href: scripts/powershell-script-security-groups-edu.md
-        - name: 教育機関管理者向けの低帯域幅ガイダンス
-          href: edu-remote-low-bandwidth.md
-        - name: 教育機関用 Teams ポリシー ウィザード
-          href: easy-policy-setup-edu.md
-        - name: Education Insights
-          items:
-            - name: Insights の使用を開始する
-              href: class-insights.md
-            - name: SIS データを Insights と同期する
-              href: education-insights-sis-data-sync.md
-        - name: '教育機関向けの Teams の課題 '
-          href: expand-teams-across-your-org/assignments-in-teams.md
-        - name: 教育機関管理者向けの Teams のリソース
-          href: resources-teams-edu.md
-        - name: Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
-          href: plan-teams-governance-edu.md
-        - name: Moodle の統合をインストールする
-          href: install-moodle-integration.md
-        - name: 教育機関向けの Teams のライセンス
-          href: teams-edu-licensing.md
-        - name: 教育 SKU の参照
-          href: sku-reference-edu.md
-    - name: 現場担当者向けの Teams
-      items:
-        - name: 現場担当者向けのクイックスタート
-          href: flw-quickstart.yml
-        - name: 現場担当者のスクリプト化された展開
-          href: flw-scripted-deployment.md
-        - name: 現場担当者のシフトベースのアクセスを管理する
-          href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: RealWear for Microsoft Teams
-          href: flw-realwear.md
-        - name: トランシーバー
-          href: walkie-talkie.md
-        - name: SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する
-          href: teams-standalone-static-tabs-using-spo-sites.md
-    - name: 小売店向けの Teams
-      href: expand-teams-across-your-org/teams-for-retail-landing-page.md
-      items:
-        - name: 管理コンソールで小売店向け Teams テンプレートの使用を開始する
-          href: retail-teams-templates-in-the-admin-console.md
-        - name: 小売店向けテンプレートで Teams の使用を開始する
-          href: get-started-with-retail-teams-templates.md
-    - name: 政府機関用 Teams
-      href: expand-teams-across-your-org/teams-for-government-landing-page.md
-      items:
-        - name: リモート ワーカーのサポート (WFH)
-          href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-        - name: 政府向け Teams テンプレートの使用を開始する
-          href: government-teams-templates-in-the-admin-console.md
-        - name: Office 365 G1 試用版を管理する
-          href: g1-trial-license.md
-        - name: 'Microsoft 365 Government の計画: GCC'
-          href: plan-for-government-gcc.md
-        - name: 'Microsoft 365 Government の計画: GCC High'
-          href: plan-for-government-gcc-high.md
-        - name: 'Microsoft 365 Government の計画: DoD'
-          href: plan-for-government-dod.md
-        - name: GCC High および DoD のダイレクト ルーティングを使用する電話会議
-          href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
-        - name: 政府機関向けの Teams ポリシー パッケージ
-          href: policy-packages-gov.md
-- name: セキュリティ、プライバシー、コンプライアンス
-  items:
-    - name: 概要
-      href: security-compliance-overview.md
-    - name: セキュリティ
-      items:
-        - name: セキュリティ ガイド
-          href: teams-security-guide.md
-        - name: Azure Sentinel と Teams
-          href: teams-sentinel-guide.md
-        - name: ID モデルと認証
-          href: identify-models-authentication.md
-        - name: Microsoft Teams にサイン インする
-          href: sign-in-teams.md
-        - name: Teams の安全なリンク
-          href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-        - name: AppLocker アプリケーション コントロール ポリシー
-          href: applocker-in-teams.md
-        - name: SharePoint へのアクセスをブロックする
-          href: block-access-sharepoint.md
-    - name: コンプライアンス
-      items:
-        - name: 情報バリア
-          href: information-barriers-in-teams.md
-        - name: アイテム保持ポリシー
-          href: retention-policies.md
-        - name: コミュニケーション コンプライアンス
-          href: communication-compliance.md
-        - name: 通話と会議のためのポリシー ベースの録音
-          href: teams-recording-policy.md
-        - name: 秘密度ラベル
-          href: sensitivity-labels.md
-        - name: データ損失防止
-          href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-        - name: 電子情報開示
-          href: ediscovery-investigation.md
-        - name: 訴訟ホールド
-          href: legal-hold.md
-        - name: コンテンツ検索
-          href: content-search.md
-        - name: 監査
-          href: audit-log-events.md
-        - name: Microsoft Teams エクスポート API を使ってコンテンツをエクスポートする
-          href: export-teams-content.md
-        - name: Teams 用テナント レベルの カスタマー キー
-          href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-    - name: プライバシー
-      items:
-        - name: プライバシーと Microsoft Teams
-          href: teams-privacy.md
-        - name: データ収集方法
-          href: data-collection-practices.md
-        - name: Teams のデータの場所
-          href: location-of-data-in-teams.md
-        - name: 特定のユーザーの Sharepoint Online へのアクセスをブロックする
-          href: block-access-sharepoint.md
-        - name: ポリシー制御の概要
-          href: policy-control-overview.md
-        - name: モバイル診断データ
-          href: policy-control-diagnostic-data-mobile.md
-        - name: デスクトップ クライアントの診断データ
-          href: policy-control-diagnostic-data-desktop.md
-        - name: オプションの接続エクスペリエンス
-          href: teams-privacy-oce-overview.md
-- name: 監視、保守、およびトラブルシューティング
-  items:
-    - name: サービスを運用する
-      href: upgrade-operate-my-service.md
-    - name: サービスを強化する
-      href: upgrade-enhance-my-service.md
-    - name: 通話品質を監視および管理する
-      items:
-        - name: 通話品質を監視および改善する
-          href: monitor-call-quality-qos.md
-        - name: 通話品質ダッシュボード (CQD)
-          items:
-            - name: CQD とは?
-              href: CQD-what-is-call-quality-dashboard.md
-            - name: CQDをセットアップする
-              href: turning-on-and-using-call-quality-dashboard.md
-            - name: テナントとビルのデータをアップロードする
-              href: CQD-upload-tenant-building-data.md
-            - name: CQD のデータとレポート
-              href: CQD-data-and-reports.md
-            - name: CQD を使用して通話と会議の品質を管理する
-              href: quality-of-experience-review-guide.md
-            - name: よく寄せられる質問
-              href: CQD-frequently-asked-questions.md
-            - name: CQD で利用できるディメンションとメジャー
-              href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: CQD のストリーム分類
-              href: stream-classification-in-call-quality-dashboard.md
-            - name: ビルディング マップを作成する
-              href: CQD-building-mapping.md
-            - name: Power BI を使用して CQD データを分析する
-              items:
-                - name: Power BI を使用して CQD データを分析する
-                  href: CQD-Power-BI-query-templates.md
-                - name: Power BI コネクタをインストールして CQD クエリ テンプレートを使用する
-                  href: CQD-Power-BI-connector.md
-                - name: Teams の使用率に関する CQD データを取得する
-                  href: CQD-teams-utilization-report.md
-                - name: CQD PSTN ダイレクト ルーティング レポートを使用する
-                  href: CQD-PSTN-report.md
-        - name: 通話分析
-          items:
-            - name: 通話分析をセットアップする
-              href: set-up-call-analytics.md
-            - name: 通話分析を使用して低品質の通話をトラブルシューティングする
-              href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-        - name: サービスの品質 (QoS)
-          items:
-            - name: Teams の QoS をセットアップする
-              href: QoS-in-Teams.md
-            - name: Windows クライアントで QoS を設定する
-              href: QoS-in-Teams-clients.md
-    - name: Teams のトラブルシューティング
-      href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
-    - name: インストールと更新に関する問題のトラブルシューティング
-      href: troubleshoot-installation.md
-    - name: Teams クライアントの接続性の問題をトラブルシューティングする
-      href: connectivity-issues.md
-    - name: 従来のシステムでメッセージおよび通話を受信するときの問題
-      href: legacy-login-issues.md
-    - name: Teams のトラブルシューティングでログ ファイルを使用する
-      href: log-files.md
-    - name: 'よく寄せられる質問: リモートの従業員をサポートする'
-      href: FAQ-support-remote-workforce.md
-    - name: Teams のサービス正常性を確認する
-      href: service-health.md
-    - name: ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ
-      href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
-- name: 参照
-  items:
-    - name: Teams の制限と仕様
-      href: limits-specifications-teams.md
-    - name: Teams のロールアウトの準備
-      items:
-        - name: Teams 用に組織のネットワークを準備する
-          href: prepare-network.md
-        - name: Advisor for Teams を使用して Teams をロールアウトする
-          href: use-advisor-teams-roll-out.md
-        - name: Teams の Network Planner を使用する
-          href: network-planner.md
-        - name: Network Planner のチュートリアル
-          href: tutorial-network-planner-example.yml
-        - name: Teams または Skype for Business Online 向けのプロキシ サーバー
-          href: proxy-servers-for-skype-for-business-online.md
-        - name: Teams でチームを作成するときの Microsoft 365 グループの計画
-          href: plan-office-365-groups.md
-        - name: Teams でのライフサイクル管理の計画
-          href: plan-teams-lifecycle.md
-        - name: Teams でのガバナンスを計画する
-          href: plan-teams-governance.md
-    - name: Teams のインストール
-      items:
-        - name: Teams のクライアントを取得する
-          href: get-clients.md
-        - name: 中国で Android 用 Teams を取得する
-          href: get-teams-android-in-china.md
-        - name: Teams アプリのハードウェア要件
-          href: hardware-requirements-for-the-teams-app.md
-        - name: ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
-          href: hardware-decoders-and-encoders.md
-        - name: MSI を使用した Teams のインストール
-          href: msi-deployment.md
-        - name: 組織で Teams を有効にする
-          href: Office-365-set-up.md
-        - name: Microsoft Teams のメモリ使用方法
-          href: teams-memory-usage-perf.md
-        - name: Microsoft 365 と Office 365 の URL と IP アドレスの範囲
-          href: office-365-urls-ip-address-ranges.md
-        - name: 仮想デスクトップ インフラストラクチャ (VDI) 用の Teams
-          href: teams-for-vdi.md
-        - name: Surface Hub の Teams を展開する
-          href: teams-surface-hub.md
-        - name: Teams クライアントの更新プログラム
-          href: teams-client-update.md
-        - name: インストールと更新に関する問題のトラブルシューティング
-          href: troubleshoot-installation.md
-    - name: ライセンス
-      items:
-        - name: Teams へのユーザー アクセスを管理する
-          href: user-access.md
-        - name: Teams アドオン ライセンス オプション
-          href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
-        - name: Teams アドオンのライセンス割り当て
-          href: teams-add-on-licensing/assign-teams-add-on-licenses.md
-        - name: Office 365 E1 試用版を管理する
-          href: e1-trial-license.md
-        - name: Office 365 G1 試用版を管理する
-          href: g1-trial-license.md
-        - name: Teams Exploratory エクスペリエンスを管理する
-          href: teams-exploratory.md
-        - name: Teams の無料版を管理する
-          href: manage-freemium.md
-        - name: Teams を無料で月額プラン バージョンにアップグレードする
-          href: upgrade-freemium.md
-        - name: Advanced Communications
-          href: teams-add-on-licensing/advanced-communications.md
-        - name: メッセージング ポリシーのライセンス
-          href: teams-add-on-licensing/pri-message.md
-        - name: Microsoft 365 電話システム - 仮想ユーザー ライセンス
-          href: teams-add-on-licensing/virtual-user.md
-    - name: Microsoft 365 や Office 365 との相互運用性
-      items:
-        - name: Microsoft 365 グループと Teams
-          href: office-365-groups.md
-        - name: Microsoft 365 管理センターを使用して、Microsoft 365 リソース アカウントを作成する
-          href: devices/resource-account-ui.md
-        - name: 既存の Microsoft 365 グループを Teams で強化する
-          href: enhance-office-365-groups.md
-        - name: Exchange と Teams の連携
-          href: exchange-teams-interact.md
-          items:
-            - name: Teams で使用する Exchange ハイブリッド展開の組織を構成する
-              href: exchange-hybrid-organization.md
-            - name: Exchange のメール フロー ルールを使用する
-              href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
-        - name: Teams との SharePoint Online と OneDrive for Business の連携
-          href: sharepoint-onedrive-interact.md
-        - name: Microsoft 365 または Office 365 複数地域対応テナントでの Teams のエクスペリエンス
-          href: teams-experience-o365odb-spo-multi-geo.md
-    - name: サポート対象のデバイス
-      items:
-        - name: Teams でのデバイスの管理
-          href: devices/device-management.md
-        - name: デバイスをリモートで更新する
-          href: devices/remote-update.md
-        - name: Teams デバイス タグを管理する
-          href: devices/manage-device-tags.md
-        - name: Teams 対応の電話機
-          href: devices/phones-for-teams.md
-        - name: Teams ディスプレイ
-          href: devices/teams-displays.md
-        - name: Teams 電話を Teams ディスプレイにアップグレードする
-          href: devices/upgrade-phones-to-displays.md
-        - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
-          href: devices/phones-displays-deploy.md
-        - name: USB オーディオ デバイスおよびビデオ デバイス
-          href: devices/usb-devices.md
-        - name: Microsoft Teams の共同作業バーを展開する
-          href: devices/collab-bar-deploy.md
-        - name: 会議室のデバイスとソリューション
-          href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Microsoft Teams 認定 IP 電話
-          href: devices/teams-ip-phones.md
-        - name: Skype for Business Online 対応の電話機
-          href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-    - name: Teams PowerShell
-      items:
-        - name: 概要
-          href: teams-powershell-overview.md
-        - name: Teams Powershell のインストール
-          href: teams-powershell-install.md
-        - name: Powershell で Teams を管理する
-          href: teams-powershell-managing-teams.md
-        - name: Teams Powershell のリリース ノート
-          href: teams-powershell-release-notes.md
-        - name: Skype for Business Online Connector から Teams PowerShell モジュールに移動する
-          href: teams-powershell-move-from-sfbo.md
-        - name: Teams のコマンドレット リファレンス
-          href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
-    - name: Teams の開発者向けドキュメント
-      href: 'https://docs.microsoft.com/microsoftteams/platform'
-    - name: チームのヘルプを表示する
-      href: get-help-in-microsoft-teams.md
-    - name: Teams のコンテンツ アップデート
-      href: teams-updates.md
-    - name: サポート PIN を確認する方法
-      href: support-pin.md
-    - name: 国および地域ごとの電話会議および通話プランの利用可能性
-      items:
-        - name: 概要
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-        - name: アルバニア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
-        - name: アルジェリア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md
-        - name: アンティグア バーブーダ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md
-        - name: アルゼンチン
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md
-        - name: オーストラリア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
-        - name: オーストリア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md
-        - name: バハマ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md
-        - name: バーレーン
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md
-        - name: バングラデシュ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md
-        - name: バルバドス
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md
-        - name: ベラルーシ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md
-        - name: ベルギー
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md
-        - name: ベリーズ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md
-        - name: ベナン
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
-        - name: バミューダ諸島
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
-        - name: ボスニア・ヘルツェゴビナ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
-        - name: ブラジル
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
-        - name: ブルネイ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md
-        - name: ブルガリア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md
-        - name: カンボジア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md
-        - name: カメルーン
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md
-        - name: カナダ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md
-        - name: ケイマン諸島
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md
-        - name: チリ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md
-        - name: 中国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md
-        - name: コロンビア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md
-        - name: コスタリカ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md
-        - name: クロアチア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md
-        - name: キプロス
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md
-        - name: チェコ共和国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md
-        - name: デンマーク
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md
-        - name: ドミニカ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica.md
-        - name: ドミニカ共和国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md
-        - name: エクアドル
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md
-        - name: エジプト
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md
-        - name: エルサルバドル
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md
-        - name: エストニア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md
-        - name: フィンランド
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md
-        - name: フランス
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md
-        - name: ジョージア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md
-        - name: ドイツ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md
-        - name: ガーナ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md
-        - name: ギリシャ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md
-        - name: グレナダ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md
-        - name: グアム
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md
-        - name: グアテマラ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
-        - name: ホンジュラス
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
-        - name: 香港特別行政区
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
-        - name: ハンガリー
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
-        - name: インド
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md
-        - name: インドネシア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md
-        - name: アイルランド
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md
-        - name: イスラエル
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md
-        - name: イタリア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md
-        - name: ジャマイカ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md
-        - name: 日本
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md
-        - name: ヨルダン
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md
-        - name: ケニア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md
-        - name: クウェート
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md
-        - name: ラトビア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md
-        - name: リトアニア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
-        - name: ルクセンブルク
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
-        - name: マケドニア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
-        - name: マレーシア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
-        - name: マルタ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md
-        - name: メキシコ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md
-        - name: モルドバ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md
-        - name: モナコ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md
-        - name: モロッコ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md
-        - name: オランダ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md
-        - name: ニュージーランド
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md
-        - name: ニカラグア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md
-        - name: ナイジェリア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md
-        - name: 北マリアナ諸島
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md
-        - name: ノルウェー
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md
-        - name: パキスタン
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md
-        - name: パナマ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md
-        - name: パラグアイ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md
-        - name: ペルー
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md
-        - name: フィリピン
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md
-        - name: ポーランド
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md
-        - name: ポルトガル
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md
-        - name: プエルトリコ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md
-        - name: カタール
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md
-        - name: ルーマニア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md
-        - name: ロシア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md
-        - name: セントクリストファー ネイビス
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-kitts-and-nevis.md
-        - name: セントルシア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-lucia.md
-        - name: サウジアラビア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md
-        - name: セルビア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md
-        - name: シンガポール
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md
-        - name: スロバキア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md
-        - name: スロベニア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md
-        - name: 南アフリカ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md
-        - name: 韓国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md
-        - name: スペイン
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md
-        - name: スリランカ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md
-        - name: スウェーデン
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md
-        - name: スイス
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md
-        - name: 台湾
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
-        - name: タイ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
-        - name: トリニダード・トバゴ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
-        - name: チュニジア
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
-        - name: トルコ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md
-        - name: タークス カイコス諸島
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md
-        - name: ウガンダ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md
-        - name: ウクライナ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md
-        - name: アラブ首長国連邦 (U.A.E)
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md
-        - name: 英国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md
-        - name: 米国
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md
-        - name: ウルグアイ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md
-        - name: ベネズエラ
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
-        - name: ベトナム
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
-    - name: アクセシビリティと適合性
-      items:
-        - name: フランスでの Microsoft Teams のアクセシビリティに関する適合宣言
-          href: accessibility-declaration-of-conformance-in-france-for-teams.md
-        - name: Skype for Business Online および Microsoft Teams のアクセシビリティ ソリューション
-          href: accessibility-solutions-in-france.md
-        - name: 'Microsoft 365 の通話プラン: 英国での実施基準'
-          href: code-of-practice-for-the-united-kingdom-u-k.md
-        - name: 'Microsoft 365 の通話プラン: 英国での苦情処理基準'
-          href: complaint-handling-code-for-the-united-kingdom-u-k.md
-        - name: 緊急通話の利用条件
-          href: emergency-calling-terms-and-conditions.md
-    - name: 探索アンケートをアップグレードする
-      href: upgrade-plan-journey-discovery-questionnaire.md
-    - name: Teams 管理者機能のリリースノート
-      href: release-notes/release-notes.md
-    - name: Microsoft Teams でのパブリック プレビュー
-      href: public-preview-doc-updates.md
+items:
+  - name: Teams へようこそ
+    href: teams-overview.md
+  - name: アーキテクチャとテレフォニー ソリューションのポスター
+    href: teams-architecture-solutions-posters.md
+  - name: リモート ワーカーのサポート (WFH)
+    href: support-remote-work-with-teams.md
+  - name: トレーニング
+    items:
+      - name: 概要
+        href: training-microsoft-teams-landing-page.md
+      - name: Teams の管理者トレーニング
+        href: itadmin-readiness.md
+      - name: Ignite 2020 の Teams セッション
+        href: ignite-2020-landing-page.md
+      - name: Teams のライブ トレーニング
+        href: instructor-led-training-teams-landing-page.yml
+      - name: Teams のオンライン トレーニング
+        href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - name: Teams のロールアウト方法
+    href: How-to-roll-out-teams.md
+  - name: 概要
+    items:
+      - name: 概要
+        href: get-started-with-teams-quick-start.md
+      - name: 'ステップ 1: 最初のチームとチャネルを作成する'
+        href: get-started-with-teams-create-your-first-teams-and-channels.md
+      - name: 'ステップ 2: 早期導入者を参加させる'
+        href: get-started-with-teams-onboard-early-adopters.md
+      - name: 'ステップ 3: 利用状況とフィードバックを監視する'
+        href: get-started-with-teams-monitor-usage-and-feedback.md
+      - name: 'ステップ 4: 組織全体へのロールアウトを計画する'
+        href: get-started-with-teams-resources-for-org-wide-rollout.md
+  - name: 会話、チーム、チャネル
+    items:
+      - name: 展開の計画
+        href: deploy-chat-teams-channels-microsoft-teams-landing-page.md
+      - name: Advisor for Teams を使用して Teams をロールアウトする
+        href: use-advisor-teams-roll-out.md
+      - name: チームとチャネルの概要
+        href: teams-channels-overview.md
+      - name: プライベート チャンネルの概要
+        href: private-channels.md
+      - name: プライベート チャネルのライフ サイクルを管理する
+        href: private-channels-life-cycle-management.md
+      - name: Teams でチーム所有者とメンバーを割り当てる
+        href: assign-roles-permissions.md
+      - name: チームの動的なメンバーシップの概要
+        href: dynamic-memberships.md
+      - name: Teams でチームを編成するためのベスト プラクティス
+        href: best-practices-organizing.md
+      - name: 大規模な Teams を管理する
+        href: best-practices-large-groups.md
+      - name: Teams で組織全体にわたるチームを作成する
+        href: create-an-org-wide-team.md
+      - name: people manager teams を作成する
+        href: create-manager-directs-teams.md
+      - name: チームとチャネル ポリシーを管理する
+        href: teams-policies.md
+      - name: Teams でチャネルのモデレートを設定する
+        href: manage-channel-moderation-in-teams.md
+      - name: Teams でファイルを共有する
+        href: sharing-files-in-teams.md
+      - name: Teams と Outlook のメールの統合
+        href: teams-outlook-email-integration.md
+      - name: メッセージ ポリシーを管理する
+        href: messaging-policies-in-teams.md
+      - name: Teams でのユーザーのプレゼンス
+        href: presence-admins.md
+      - name: Teams のタグを管理する
+        href: manage-tags.md
+      - name: Teams で分析を表示する
+        href: teams-analytics-and-reports/view-analytics.md
+      - name: Teams の有効期限と更新
+        href: team-expiration-renewal.md
+      - name: チームをアーカイブまたは削除する
+        href: archive-or-delete-a-team.md
+      - name: Slack から Teams に移行する
+        href: migrate-slack-to-teams.md
+      - name: Teams テンプレートを使う
+        items:
+          - name: 管理コンソールで Teams テンプレートを使用する
+            href: get-started-with-teams-templates-in-the-admin-console.md
+          - name: Graph に内蔵された中小企業向け Teams テンプレート
+            href: smb-templates.md
+          - name: カスタムの Teams テンプレートを作成する
+            href: create-a-team-template.md
+          - name: 既存のチームからテンプレートを作成する
+            href: create-template-from-existing-team.md
+          - name: 既存のチームからテンプレートをビルドする
+            href: create-template-from-existing-template.md
+          - name: 財務カテゴリの Teams テンプレート
+            href: financial-teams-templates-in-the-admin-console.md
+          - name: 全般カテゴリの Teams テンプレート
+            href: general-teams-templates-in-the-admin-console.md
+          - name: 製造カテゴリの Teams テンプレート
+            href: manufacturing-teams-templates-in-the-admin-console.md
+      - name: 外部ユーザーと通信する
+        items:
+          - name: 別の組織のユーザーと通信する
+            href: communicate-with-users-from-other-organizations.md
+          - name: 外部アクセス (フェデレーション)
+            items:
+              - name: 外部アクセスを管理する
+                href: manage-external-access.md
+              - name: 外部ユーザー向けのネイティブ Teams チャット
+                href: native-chat-for-external-users.md
+              - name: Teams と Skype の相互運用性
+                href: teams-skype-interop.md
+          - name: ゲスト アクセス
+            items:
+              - name: ゲスト アクセスについて
+                href: guest-access.md
+              - name: ゲスト アクセスのチェックリスト
+                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+              - name: ゲスト エクスペリエンス
+                href: guest-experience.md
+              - name: ゲスト アクセスを承認する
+                href: teams-dependencies.md
+              - name: ゲスト アクセスをオンまたはオフにする
+                href: set-up-guests.md
+              - name: チームにゲストを追加する
+                href: add-guests.md
+              - name: チームのゲスト ユーザーを表示する
+                href: view-guests.md
+              - name: ゲスト ユーザー情報の編集
+                href: edit-guests-information.md
+              - name: ゲスト アクセスのトラブルシューティング
+                href: troubleshoot-guest-access.md
+      - name: Teams の Cortana
+        href: cortana-in-teams.md
+      - name: Teams の管理
+        items:
+          - name: 管理者の役割
+            href: using-admin-roles.md
+          - name: 組織の Microsoft Teams の設定を管理する
+            href: enable-features-office-365.md
+          - name: 新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
+            href: manage-teams-skypeforbusiness-admin-center.md
+          - name: Microsoft Teams 管理センターで Teams を管理する
+            href: manage-teams-in-modern-portal.md
+          - name: Teams でチーム所有者とメンバーを割り当てる
+            href: assign-roles-permissions.md
+          - name: ユーザーにポリシーを割り当てる
+            href: assign-policies.md
+          - name: アクティビティ ログでポリシーの割り当てを表示する
+            href: activity-log.md
+          - name: Teams のアプリのアクセス許可ポリシーを管理する
+            href: teams-app-permission-policies.md
+          - name: Teams のアプリのセットアップ ポリシーを管理する
+            href: teams-app-setup-policies.md
+          - name: Teams のカスタム アプリのポリシーと設定を管理する
+            href: teams-custom-app-policies-and-settings.md
+          - name: Teams でフィードバック ポリシーを管理する
+            href: manage-feedback-policies-in-teams.md
+          - name: Teams でポリシー パッケージを管理する
+            href: manage-policy-packages.md
+          - name: Teams と連動するように Skype 会議アプリを構成する
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: 外部アクセスを管理する
+            href: manage-external-access.md
+          - name: インライン メッセージの翻訳の使用
+            href: inline-message-translation-teams.md
+          - name: Microsoft Teams の範囲指定ディレクトリ検索を使用する
+            href: teams-scoped-directory-search.md
+          - name: Teams 管理センターの分析とレポート
+            items:
+              - name: 概要
+                href: teams-analytics-and-reports/teams-reporting-reference.md
+              - name: Teams の使用状況レポート
+                href: teams-analytics-and-reports/teams-usage-report.md
+              - name: Teams ユーザー アクティビティ レポート
+                href: teams-analytics-and-reports/user-activity-report.md
+              - name: Teams アプリの使用状況レポート
+                href: teams-analytics-and-reports/app-usage-report.md
+              - name: Teams のデバイス使用状況レポート
+                href: teams-analytics-and-reports/device-usage-report.md
+              - name: PSTN のブロックされたユーザー レポート
+                href: teams-analytics-and-reports/pstn-blocked-users-report.md
+              - name: PSTN の利用分数プール レポート
+                href: teams-analytics-and-reports/pstn-minute-pools-report.md
+              - name: PSTN の使用状況のレポート
+                href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Teams のライブ イベントの使用状況レポート
+                href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Microsoft 365 管理センターでの Teams のアクティビティ レポート
+            href: teams-activity-reports.md
+  - name: アプリ、ボット、コネクタ
+    items:
+      - name: 概要
+        href: deploy-apps-microsoft-teams-landing-page.md
+      - name: Power Platform との統合
+        href: teams-power-platfom-integration.md
+      - name: Teams 用アプリを管理する
+        href: manage-apps.md
+      - name: Teams でのアプリの管理設定
+        href: admin-settings.md
+      - name: 組み込みタブとカスタム タブの使用
+        href: built-in-custom-tabs.md
+      - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
+        href: Office-365-custom-connectors.md
+      - name: リソース固有の同意
+        href: resource-specific-consent.md
+      - name: カスタム アプリ
+        items:
+          - name: Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する
+            href: submit-approve-custom-apps.md
+          - name: Microsoft Teams 管理センターで電源プラットフォームアプリを管理する
+            href: manage-power-platform-apps.md
+          - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
+            href: upload-custom-apps.md
+          - name: カスタム アプリ ストア
+            href: customize-your-app-store.md
+      - name: アプリ証明書
+        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
+        href: app-permissions-admin-center.md
+      - name: アプリのアクセス許可と考慮事項
+        href: app-permissions.md
+      - name: Teams サードパーティ アプリのサービスを購入する
+        href: purchase-third-party-apps.md
+      - name: Teams 用のアプリ テンプレート
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: Teams で組織のリストアプリを管理する
+        href: manage-lists-app.md
+      - name: 組織のタスク アプリを管理する
+        href: manage-tasks-app.md
+      - name: チーム対象の階層を設定する
+        href: set-up-your-team-hierarchy.md
+      - name: Teams 管理センターで称賛アプリを管理する
+        href: manage-praise-app.md
+      - name: Teams と連動するように Skype 会議アプリを構成する
+        href: configure-skype-meetings-app-to-work-with-teams.md
+      - name: Teams 承認アプリの利用可能性
+        href: approval-admin.md
+  - name: ミーティングと会議
+    items:
+      - name: クイック スタート - 会議とライブ イベント
+        href: quick-start-meetings-live-events.md
+      - name: 展開の計画
+        href: deploy-meetings-microsoft-teams-landing-page.md
+      - name: Microsoft Teams Rooms
+        items:
+          - name: 概要
+            href: rooms/index.md
+          - name: 計画
+            items:
+              - name: Microsoft Teams Rooms の計画の概要
+                href: rooms/rooms-plan.md
+              - name: バージョンのサポート
+                href: rooms/rooms-lifecycle-support.md
+              - name: リリース ノート
+                href: rooms/rooms-release-note.md
+              - name: 環境を準備する
+                href: rooms/rooms-prep.md
+              - name: 要件
+                href: rooms/requirements.md
+              - name: セキュリティ
+                href: rooms/security.md
+              - name: オンライン ライセンス
+                href: rooms/rooms-licensing.md
+              - name: Azure Monitor による管理の計画
+                href: rooms/azure-monitor-plan.md
+              - name: Microsoft Teams Rooms の管理サービス
+                items:
+                  - name: Microsoft Teams Rooms の管理サービスを使用して管理を計画する
+                    href: rooms/microsoft-teams-rooms-premium.md
+                  - name: Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御
+                    href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 展開
+            items:
+              - name: 展開の概要
+                href: rooms/rooms-deploy.md
+              - name: アカウントを構成する
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 最適化された会議を設定する
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 設定の管理
+                    href: rooms/surface-hub-manage-config.md
+              - name: Office 365 の場合
+                href: rooms/with-office-365.md
+              - name: Skype for Business Server の場合
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: Exchange Online の場合 (ハイブリッド)
+                href: rooms/with-exchange-online.md
+              - name: オンプレミスの Exchange の場合 (ハイブリッド)
+                href: rooms/with-exchange-on-premises.md
+              - name: コンソールを構成する
+                href: rooms/console.md
+              - name: 手動でデバイスを更新する
+                href: rooms/manual-update.md
+              - name: 認証を構成する
+                href: rooms/rooms-authentication.md
+              - name: サードパーティ製の会議に参加する
+                href: rooms/third-party-join.md
+              - name: Microsoft Endpoint Configuration Manager を使用する
+                href: rooms/rooms-scale.md
+              - name: Azure Monitor による管理
+                href: rooms/azure-monitor-deploy.md
+              - name: SRS v1 または LRS の移行
+                href: rooms/lrs-migration.md
+              - name: コンテンツ カメラ
+                href: rooms/content-camera.md
+          - name: 管理
+            items:
+              - name: 管理の概要
+                href: rooms/rooms-manage.md
+              - name: メンテナンスと操作
+                href: rooms/rooms-operations.md
+              - name: 組織で Teams をサポートする
+                href: rooms/known-issues.md
+              - name: Azure Monitor でのデバイス
+                href: rooms/azure-monitor-manage.md
+              - name: XML を使用した設定
+                href: rooms/xml-config-file.md
+              - name: 回復ツールの使用
+                href: rooms/recovery-tool.md
+      - name: 'チュートリアル: Teams でのミーティング'
+        href: Tutorial-Meetings-in-Teams.yml
+      - name: 会議ポリシーを管理する
+        href: meeting-policies-in-teams.md
+      - name: ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する
+        href: meeting-policies-restricted-anonymous-access.md
+      - name: 会議の設定を管理する
+        href: meeting-settings-in-teams.md
+      - name: ユーザーの設定を変更したときに送信されるメール
+        href: emails-sent-to-users-when-their-settings-change-in-teams.md
+      - name: ユーザーが会議に参加するときに名前を記録できるようにする
+        href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+      - name: 会議の入退室通知をオンまたはオフにする
+        href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+      - name: Teams で NDI® テクノロジを使用する
+        href: use-NDI-in-meetings.md
+      - name: Teams 会議での挙手オプション
+        href: raise-hand-meetings.md
+      - name: サポートされていないブラウザーでの Teams 会議
+        href: unsupported-browsers.md
+      - name: Teams でのデスクトップ共有を構成する
+        href: configure-desktop-sharing.md
+      - name: Teams のクラウド会議のレコーディング
+        href: cloud-recording.md
+      - name: OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
+        href: tmr-meeting-recording-change.md
+      - name: コンタクト センターの統合
+        href: teams-contact-center.md
+      - name: Outlook で Teams の会議アドインを使用する
+        href: teams-add-in-for-outlook.md
+      - name: 'ユーザーの [電話する] 機能をセットアップする'
+        href: set-up-the-call-me-feature-for-your-users.md
+      - name: 会議出席レポートを入手する
+        href: teams-analytics-and-reports/meeting-attendance-report.md
+      - name: Meeting Migration Service (MMS) のセットアップ
+        href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: Teams でホワイトボードを管理する
+        href: manage-whiteboard.md
+      - name: Google Workspace 用のTeams 会議アドオンを設定する
+        href: google-workspace-addon-teams.md
+      - name: 電話会議
+        items:
+          - name: 展開の計画
+            href: deploy-audio-conferencing-teams-landing-page.md
+          - name: Microsoft 365 での電話会議
+            href: audio-conferencing-in-office-365.md
+          - name: 'プレビューを開く: 電話会議のためのネットワーク上の会議'
+            href: audio-conferencing-on-network.md
+          - name: 電話会議に関するよくある質問
+            href: audio-conferencing-common-questions.md
+          - name: 'チュートリアル: Teams での電話会議'
+            href: Tutorial-Audio-Conferencing.yml
+          - name: Microsoft 365 での電話会議を試用または購入する
+            href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 米国とカナダの拡張ダイヤルアウト分数
+            href: dial-out-minutes-canada-us.md
+          - name: 電話会議の無料ダイヤル アウト期間
+            href: complimentary-dial-out-period.md
+          - name: 電話会議の月額プラン「ダイヤル アウト」/「折り返し先」のメリット
+            href: audio-conferencing-subscription-dial-out.md
+          - name: 電話会議をセットアップする
+            href: set-up-audio-conferencing-in-teams.md
+          - name: 電話会議をセットアップする - 中小企業向けのクイックスタート
+            href: audio-conferencing-smb.md
+          - name: Microsoft を電話会議プロバイダーとして割り当てる
+            href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: 電話会議ブリッジの管理
+            items:
+              - name: 電話会議ブリッジの電話番号を変更する
+                href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
+              - name: 電話会議ブリッジの設定を変更する
+                href: change-the-settings-for-an-audio-conferencing-bridge.md
+              - name: 電話会議の電話番号のリストを表示する
+                href: see-a-list-of-audio-conferencing-numbers-in-teams.md
+              - name: 電話会議の自動案内の言語を設定する
+                href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
+              - name: ユーザー用の会議のダイヤルアウト確認をセットアップする
+                href: set-up-meeting-dial-out-confirmation.md
+          - name: 組織の電話会議の設定を管理する
+            href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
+          - name: 分数ごと従量課金制電話会議
+            href: audio-conferencing-pay-per-minute.md
+          - name: ユーザーの電話会議の設定を管理する
+            items:
+              - name: 概要
+                href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
+              - name: 電話会議が有効になっているユーザーのリストを表示する
+                href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
+              - name: ユーザーが会議に参加するときに名前を記録できるようにする
+                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+              - name: ユーザーの会議 ID をリセットする
+                href: reset-a-conference-id-for-a-user-in-teams.md
+              - name: ユーザーの電話会議の PIN をリセットする
+                href: reset-the-audio-conferencing-pin-in-teams.md
+              - name: ユーザーの設定が変更されるとユーザーに自動的に送信されるメール
+                href: emails-sent-to-users-when-their-settings-change-in-teams.md
+              - name: 電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
+                href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
+              - name: 特定のユーザーの無料電話番号を無効にする
+                href: disabling-toll-free-numbers-for-specific-teams-users.md
+              - name: 電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
+                href: outbound-calling-restriction-policies.md
+              - name: ユーザーに割り当てられた会議 ID の表示およびリセット
+                href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
+              - name: 電話会議の情報が記載されたメールをユーザーに送信する
+                href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
+          - name: 電話会議の会議設定の管理
+            items:
+              - name: 他のユーザーが参加できるように会議からダイヤル アウトする
+                href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
+              - name: 会議の入退室通知をオンまたはオフにする
+                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+              - name: 電話会議の PIN の長さを設定する
+                href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
+              - name: 招待状に含まれている電話番号を設定する
+                href: set-the-phone-numbers-included-on-invites-in-teams.md
+              - name: PIN を使用せずに電話で音声会議を開始する
+                href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+          - name: 国および地域ごとの電話会議の利用可能性
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 参照
+            items:
+              - name: 電話会議でサポートされている言語
+                href: audio-conferencing-supported-languages.md
+              - name: 電話会議の電話番号
+                href: phone-numbers-for-audio-conferencing-in-teams.md
+              - name: 国および地域ごとの電話会議の利用可能性
+                href: audio-conferencing-zones.md
+              - name: 'ビデオ: Teams での電話会議'
+                href: audio-conferencing-videos.md
+      - name: クラウド ビデオ相互運用性
+        href: cloud-video-interop.md
+      - name: ライブ イベント
+        items:
+          - name: Teams のライブ イベントについて
+            href: teams-live-events/what-are-teams-live-events.md
+          - name: Teams のライブ イベントの計画
+            href: teams-live-events/plan-for-teams-live-events.md
+          - name: Teams のライブ イベントをセットアップする
+            href: teams-live-events/set-up-for-teams-live-events.md
+          - name: PowerShell を使用して Teams のライブ イベント ポリシーを設定する
+            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+          - name: Teams のライブ イベント設定を構成する
+            href: teams-live-events/configure-teams-live-events.md
+  - name: 音声 - 電話システムと PSTN 接続
+    items:
+      - name: Teams の音声ソリューションを計画する
+        href: cloud-voice-landing-page.md
+      - name: 電話システム
+        items:
+          - name: 電話システムとは
+            href: what-is-phone-system-in-office-365.md
+          - name: 電話システムで利用できる機能
+            href: here-s-what-you-get-with-phone-system.md
+          - name: 電話システムをセットアップする
+            href: setting-up-your-phone-system.md
+          - name: 共通領域電話をセットアップする
+            href: set-up-common-area-phones.md
+          - name: ボイスメール
+            items:
+              - name: クラウド ボイスメールのセットアップ
+                href: set-up-phone-system-voicemail.md
+              - name: ボイスメールのデフォルト言語を変更する
+                href: change-the-default-language-for-greetings-and-emails.md
+              - name: ボイスメールの応答メッセージとメッセージで使用する言語
+                href: languages-for-voicemail-greetings-and-messages.md
+          - name: 発信者番号
+            items:
+              - name: 組織での発信者番号の利用方法
+                href: how-can-caller-id-be-used-in-your-organization.md
+              - name: 発信者 ID ポリシーの管理
+                href: caller-id-policies.md
+              - name: ユーザーの発信者 ID の設定
+                href: set-the-caller-id-for-a-user.md
+              - name: 発信回線 ID と発信者名の詳細
+                href: more-about-calling-line-id-and-calling-party-name.md
+          - name: 自動応答と呼び出しキュー
+            items:
+              - name: 計画
+                href: plan-auto-attendant-call-queue.md
+              - name: Auto attendantのセットアップ
+                href: create-a-phone-system-auto-attendant.md
+              - name: 通話キューの設定
+                href: create-a-phone-system-call-queue.md
+              - name: Teams のリソース アカウントを管理する
+                href: manage-resource-accounts.md
+              - name: 休日を設定する
+                href: set-up-holidays-in-teams.md
+              - name: 自動応答および通話キューの通話に Teams から直接応答する
+                href: answer-auto-attendant-and-call-queue-calls.md
+              - name: レポート
+                href: aa-cq-cqd-historical-reports.md
+              - name: ダイヤルおよび音声参照
+                href: dial-voice-reference.md
+              - name: Reporting
+                href: aa-cq-cqd-historical-reports.md
+          - name: 受信通話をブロックする
+            href: block-inbound-calls.md
+          - name: コール パークおよび取得
+            href: call-park-and-retrieve.md
+          - name: 通話の共有およびグループ通話ピックアップ
+            href: call-sharing-and-group-call-pickup.md
+          - name: 通話ポリシー
+            href: teams-calling-policy.md
+          - name: 回線共有機能
+            href: shared-line-appearance.md
+          - name: ダイヤルパッドの構成
+            href: dial-pad-configuration.md
+      - name: 通話プラン
+        items:
+          - name: どの通話プランが適していますか?
+            href: calling-plan-landing-page.md
+          - name: 通話プランを購入する方法
+            href: calling-plans-for-office-365.md
+          - name: 組織の通話プランをセットアップする
+            href: set-up-calling-plans.md
+          - name: 'クイック スタート ガイド: 通話プランの構成'
+            href: configuring-teams-calling-quickstartguide.md
+          - name: 国および地域ごとの通話プランの利用可能性
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+      - name: 電話システムのダイレクト ルーティング
+        items:
+          - name: 概要
+            href: direct-routing-landing-page.md
+          - name: ダイレクト ルーティングを計画する
+            href: direct-routing-plan.md
+          - name: ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
+            href: direct-routing-border-controllers.md
+          - name: ダイレクト ルーティングを構成する
+            items:
+              - name: 概要
+                href: direct-routing-configure.md
+              - name: '手順 1: SBC を接続する'
+                href: direct-routing-connect-the-sbc.md
+              - name: '手順 2: ユーザーを有効にする'
+                href: direct-routing-enable-users.md
+              - name: '手順 3: 音声ルーティングを構成する'
+                href: direct-routing-voice-routing.md
+              - name: '手順 4: 電話番号を変換する'
+                href: direct-routing-translate-numbers.md
+              - name: 複数のテナントの SBC を構成する
+                href: direct-routing-sbc-multiple-tenants.md
+              - name: ダイレクト ルーティングを使用してアナログ デバイスを使用する方法
+                href: direct-routing-analog-devices.md
+          - name: 場所に基づくルーティング
+            items:
+              - name: ダイレクト ルーティングの場所に基づくルーティングを計画する
+                href: location-based-routing-plan.md
+              - name: 場所に基づくルーティングのネットワーク設定を構成する
+                href: location-based-routing-configure-network-settings.md
+              - name: ダイレクト ルーティングの場所に基づくルーティングを有効にする
+                href: location-based-routing-enable.md
+          - name: ダイレクト ルーティングのメディア バイパス
+            items:
+              - name: ダイレクト ルーティングでメディア バイパスを計画する
+                href: direct-routing-plan-media-bypass.md
+              - name: ダイレクト ルーティングでメディア バイパスを構成する
+                href: direct-routing-configure-media-bypass.md
+          - name: ダイレクト ルーティングのローカル メディアの最適化
+            items:
+              - name: ローカル メディアの最適化を計画する
+                href: direct-routing-media-optimization.md
+              - name: ローカル メディアの最適化を構成する
+                href: direct-routing-media-optimization-configure.md
+          - name: PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
+            href: direct-routing-user-accounts-in-a-hybrid-environment.md
+          - name: ダイレクト ルーティングに移行する
+            href: direct-routing-migrating.md
+          - name: ダイレクト ルーティングの監視とトラブルシューティング
+            items:
+              - name: 概要
+                href: direct-routing-monitor-and-troubleshoot.md
+              - name: 正常性ダッシュボード
+                href: direct-routing-health-dashboard.md
+          - name: ダイレクト ルーティングのテクニカル リファレンス
+            items:
+              - name: 発信通話でのトランクのフェイルオーバー
+                href: direct-routing-trunk-failover-on-outbound-call.md
+              - name: メディア パスの国コード
+                href: direct-routing-country-codes.md
+              - name: セッション ボーダー コントローラーの接続をテストする PowerShell スクリプト
+                href: sip-tester-powershell-script.md
+              - name: 着信通知の管理
+                href: direct-routing-call-notifications.md
+              - name: プロトコル
+                items:
+                  - name: 定義と RFC 標準
+                    href: direct-routing-protocols.md
+                  - name: SIP プロトコル
+                    href: direct-routing-protocols-SIP.md
+                  - name: メディア プロトコル
+                    href: direct-routing-protocols-media.md
+              - name: 音声ルーティング ポリシーを管理する
+                href: manage-voice-routing-policies.md
+              - name: 存続可能ダイレクト ルーティングの接続
+                href: direct-routing-survivable-branch-appliance.md
+      - name: 電話番号
+        items:
+          - name: 組織のために電話番号を管理する
+            href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
+          - name: 通話プランで使用される電話番号の種類
+            href: different-kinds-of-phone-numbers-used-for-calling-plans.md
+          - name: ユーザー用の電話番号を取得する
+            href: getting-phone-numbers-for-your-users.md
+          - name: 取得できる電話番号の数について
+            href: how-many-phone-numbers-can-you-get.md
+          - name: ユーザーの電話番号を検索する
+            href: search-for-phone-numbers-for-users.md
+          - name: 組織の電話番号のリストを表示する
+            href: see-a-list-of-phone-numbers-in-your-organization.md
+          - name: ユーザーの電話番号を割り当て、変更、または削除する
+            href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: サービス電話番号を取得する
+            href: getting-service-phone-numbers.md
+          - name: 電話番号の転送
+            items:
+              - name: 番号移行注文について
+                href: phone-number-calling-plans/port-order-overview.md
+              - name: Teams に電話番号を転送する
+                href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+              - name: 手動で番号移行注文を送信する
+                href: phone-number-calling-plans/manually-submit-port-order.md
+              - name: 番号移行注文の状況
+                href: phone-number-calling-plans/port-order-status.md
+          - name: サポートされているレート センターとカバレッジ
+            href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+      - name: 通話ルーティング
+        items:
+          - name: ダイヤル プランについて
+            href: what-are-dial-plans.md
+          - name: ダイヤル プランを作成および管理する
+            href: create-and-manage-dial-plans.md
+          - name: レポート ラベルを追加して更新する
+            href: learn-more-about-site-upload.md
+      - name: ネットワーク設定とトポロジ
+        items:
+          - name: クラウド ボイス機能のネットワーク設定
+            href: cloud-voice-network-settings.md
+          - name: クラウド ボイス機能のネットワーク トポロジを管理する
+            href: manage-your-network-topology.md
+      - name: 緊急通話
+        items:
+          - name: 概要
+            href: what-are-emergency-locations-addresses-and-call-routing.md
+          - name: 動的な緊急通話を構成する
+            href: configure-dynamic-emergency-calling.md
+          - name: 緊急時の連絡先の住所を管理する
+            items:
+              - name: 組織の緊急対応の場所を追加、変更、削除する
+                href: add-change-remove-emergency-location-organization.md
+              - name: 組織の緊急対応の場所の位置情報を追加、変更、削除する
+                href: add-change-remove-emergency-place-organization.md
+              - name: ユーザーの緊急対応の場所を割り当てたり変更したりする
+                href: assign-change-emergency-location-user.md
+              - name: ユーザーの緊急対応の場所の位置情報を割り当てたり変更したりする
+                href: assign-change-emergency-place-user.md
+              - name: 緊急通話のラベル
+                href: emergency-calling-labels.md
+          - name: 緊急通話ポリシーを管理する
+            href: manage-emergency-calling-policies.md
+          - name: 緊急通話のルーティング ポリシーを管理する
+            href: manage-emergency-call-routing-policies.md
+      - name: 音声の移行についての Contoso 社のケース スタディ
+        items:
+          - name: 概要
+            href: voice-case-study-overview.md
+          - name: Teams のアップグレード プラン
+            href: voice-case-study-migration-plan.md
+          - name: 電話システム
+            href: voice-case-study-phone-system.md
+          - name: 場所に基づくルーティング
+            href: voice-case-study-location-based-routing.md
+          - name: 緊急通話
+            href: voice-case-study-emergency-calling.md
+          - name: 電話会議
+            href: voice-case-study-audio-conferencing.md
+          - name: 自動応答と呼び出しキュー
+            href: voice-case-study-call-queues.md
+      - name: Reference
+        items:
+          - name: 国別電話番号の管理
+            items:
+              - name: オーストラリアでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
+              - name: オーストリアでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
+              - name: ベルギーでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
+              - name: カナダでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: デンマークでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: フランスでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
+              - name: ドイツでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: アイルランドでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
+              - name: イタリアでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
+              - name: 日本での電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: ポルトガルでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: スペインでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
+              - name: オランダでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
+              - name: スウェーデンでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
+              - name: スイスでの電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
+              - name: 英国での電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
+              - name: 米国での電話番号の管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
+          - name: 無料電話ダイヤルの制限事項と制約事項
+            items:
+              - name: 概要
+                href: toll-free-dialing-limitations-and-restrictions.md
+              - name: アルゼンチン
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
+              - name: オーストラリア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
+              - name: オーストリア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
+              - name: ベラルーシ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
+              - name: ベルギー
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
+              - name: ベリーズ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
+              - name: ボスニア・ヘルツェゴビナ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
+              - name: ブラジル
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
+              - name: ブルネイ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
+              - name: ブルガリア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
+              - name: チリ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
+              - name: 中国 (北部)
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
+              - name: 中国 (南部)
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
+              - name: コロンビア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
+              - name: クロアチア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
+              - name: キプロス
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
+              - name: デンマーク
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
+              - name: エクアドル
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
+              - name: エジプト
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
+              - name: エストニア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
+              - name: フィンランド
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
+              - name: フランス
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
+              - name: ドイツ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
+              - name: ホンジュラス
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
+              - name: 香港特別行政区
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
+              - name: ハンガリー
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
+              - name: インド
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
+              - name: インドネシア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
+              - name: アイルランド
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
+              - name: イスラエル
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
+              - name: イタリア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
+              - name: 日本
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
+              - name: ケニア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
+              - name: ルクセンブルク
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
+              - name: マレーシア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
+              - name: メキシコ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
+              - name: モルドバ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
+              - name: モナコ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
+              - name: オランダ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
+              - name: パナマ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
+              - name: パラグアイ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
+              - name: ペルー
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
+              - name: フィリピン
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
+              - name: ポーランド
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
+              - name: ポルトガル
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
+              - name: カタール
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
+              - name: ルーマニア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
+              - name: サウジアラビア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
+              - name: セルビア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
+              - name: シンガポール
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
+              - name: スロバキア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
+              - name: スロベニア
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
+              - name: 南アフリカ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
+              - name: 韓国
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
+              - name: スペイン
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
+              - name: スウェーデン
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
+              - name: スイス
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
+              - name: 台湾
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
+              - name: タイ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
+              - name: トルコ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
+              - name: アラブ首長国連邦 (U.A.E)
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
+              - name: 英国
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
+              - name: ウルグアイ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
+              - name: ベネズエラ
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
+              - name: ベトナム
+                href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
+          - name: コミュニケーション クレジットの管理
+            items:
+              - name: コミュニケーション クレジットについて
+                href: what-are-communications-credits.md
+              - name: 組織用にコミュニケーション クレジットをセットアップする
+                href: set-up-communications-credits-for-your-organization.md
+              - name: 資金を追加してコミュニケーション クレジットを管理する
+                href: add-funds-and-manage-communications-credits.md
+          - name: Microsoft Teams の通話フロー
+            href: microsoft-teams-online-call-flows.md
+          - name: 'チュートリアル: Teams での通話'
+            href: Tutorial-calling-in-teams.yml
+            items:
+              - name: ユーザーのエクスぺリエンスを計画する
+                href: 5-envision-plan-my-users-experience.md
+  - name: 導入
+    items:
+      - name: 概要
+        href: adopt-microsoft-teams-landing-page.md
+      - name: 概要
+        href: teams-adoption-get-started.md
+      - name: 'フェーズ 1: 開始'
+        items:
+          - name: 開始
+            href: teams-adoption-phase1.md
+          - name: チームとチャネルについて理解する
+            href: teams-adoption-understand-teams-and-channels.md
+          - name: 最初のチームを作成する
+            href: teams-adoption-your-first-teams.md
+          - name: Teams に対する組織の準備状況について
+            href: teams-adoption-assess-readiness.md
+      - name: 'フェーズ 2: 試用'
+        items:
+          - name: 試用
+            href: teams-adoption-phase2-experiment.md
+          - name: 主導者プログラムを作成する
+            href: teams-adoption-create-champions-program.md
+          - name: クイック スタートのガバナンス
+            href: teams-adoption-governance-quick-start.md
+          - name: 使用例を定義する
+            href: teams-adoption-define-usage-scenarios.md
+          - name: アーリー アダプターに関与してフィードバックを収集する
+            href: teams-adoption-onboard-early-adopters.md
+          - name: 参加サポート
+            href: teams-adoption-onboard-support.md
+      - name: 'フェーズ 3: スケール'
+        items:
+          - name: '[倍率]'
+            href: teams-adoption-phase3-enable.md
+          - name: 結果と成功を定義する
+            href: teams-adoption-define-outcomes.md
+          - name: フィードバックとレポートを最適化する
+            href: teams-adoption-optimize-feedback-and-reporting.md
+          - name: 啓発とトレーニングの実施
+            href: teams-adoption-drive-awareness.md
+          - name: サービス正常性のレビューをスケジュールする
+            href: teams-adoption-schedule-service-health-reviews.md
+  - name: Teams へのアップグレード
+    items:
+      - name: 開始する
+        href: upgrade-start-here.md
+      - name: アップグレードのフレームワークについて
+        href: upgrade-framework.md
+      - name: どのようにアップグレードするか計画する
+        items:
+          - name: プロジェクトと要件を計画する
+            items:
+              - name: 概要
+                href: upgrade-plan-journey.md
+              - name: プロジェクト関係者に協力を求める
+                href: upgrade-enlist-stakeholders.md
+              - name: プロジェクトの対象範囲を定義する
+                href: upgrade-define-project-scope.md
+              - name: 共存および相互運用性について理解する
+                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
+              - name: PSTN に関する考慮事項
+                href: upgrade-to-teams-on-prem-pstn-considerations.md
+              - name: アップグレードの行程を選択する
+                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
+              - name: ユーザー パイロットを計画する
+                href: pilot-essentials.md
+          - name: Teams 向けの環境を準備する
+            items:
+              - name: 技術準備の概要
+                href: upgrade-prepare-environment.md
+              - name: Teams に向けて IT スタッフを準備する
+                href: upgrade-prepare-IT-pros.md
+              - name: 前提条件
+                href: upgrade-plan-journey-prerequisites.md
+              - name: 環境を評価する
+                href: upgrade-plan-journey-evaluate-environment.md
+              - name: サービスを準備する
+                href: upgrade-prepare-environment-prepare-service.md
+          - name: Teams に向けて組織を準備する
+            items:
+              - name: 組織準備の概要
+                href: upgrade-prepare-organization.md
+              - name: 組織的な変更の準備状況を評価する
+                href: upgrade-org-change-readiness.md
+              - name: ユーザーの準備計画を整える
+                href: upgrade-user-readiness.md
+      - name: アップグレードを実装する
+        items:
+          - name: 概要
+            href: upgrade-to-Teams.md
+          - name: Skype for Business Online から Teams にアップグレードする
+            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
+          - name: Skype for Business オンプレミスから Teams にアップグレードする
+            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+      - name: 運用、導入、および最適化
+        href: continue-journey.md
+      - name: Skype for Business Online のサポート終了
+        href: skype-for-business-online-retirement.md
+      - name: よくあるご質問 (FAQ)
+        href: FAQ-journey.yml
+      - name: テクニカル ライブラリ
+        items:
+          - name: IT 管​​理者向けのアップグレード ガイダンス
+            items:
+              - name: 概要
+                href: upgrade-to-teams-on-prem-overview.md
+              - name: アップグレード方法
+                href: upgrade-to-teams-on-prem-upgrade-methods.md
+              - name: アップグレードの管理ツール
+                href: upgrade-to-teams-on-prem-tools.md
+              - name: Skype for Business オンプレミスを使用している組織に関する考慮事項
+                href: upgrade-to-teams-on-prem-considerations.md
+              - name: アップグレードを実装する
+                href: upgrade-to-teams-on-prem-implement.md
+              - name: Teams と Skype for Business の共存
+                href: upgrade-to-teams-on-prem-coexistence.md
+              - name: 共存モード - リファレンス
+                href: migration-interop-guidance-for-teams-with-skype.md
+              - name: Teams のクライアント エクスペリエンスおよび共存モードへの準拠
+                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: 共存およびアップグレードの設定
+            href: setting-your-coexistence-and-upgrade-settings.md
+          - name: Meetings First
+            href: meetings-first.md
+  - name: ハイブリッド接続
+    items:
+      - name: ハイブリッド接続のプラン
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+      - name: ハイブリッド接続の構成
+        items:
+          - name: 概要
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+          - name: ハイブリッド環境用の Azure AD Connect の構成
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+          - name: Skype for Business ハイブリッドの構成
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+      - name: オンプレミスとクラウドの間でユーザーを移動する
+        items:
+          - name: 概要
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+          - name: オンプレミスから Teams にユーザーを移動する
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+          - name: ユーザーをオンプレミスから Skype for Business Online に移動する
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+          - name: ユーザーをクラウドからオンプレミスに移動する
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+          - name: 会議の移行を管理する
+            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+      - name: ハイブリッドを無効にしてクラウドへの移行を完了する
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+      - name: リソース フォレスト トポロジの展開
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+      - name: Teams および Skype for Business Online のクラウド統合
+        items:
+          - name: 概要
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+          - name: エッジ証明書の更新
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+          - name: AAD Connect を更新して複数のフォレストを含める
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+      - name: Exchange および SharePoint との統合
+        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+  - name: Microsoft 365 Business Voice
+    items:
+      - name: Microsoft 365 企業向け音声とは?
+        href: business-voice/whats-business-voice.md
+      - name: 国および地域ごとの利用可能性
+        href: business-voice/country-region-availability.md
+      - name: 購入前の注意事項
+        items:
+          - name: 企業向け音声を取得するために何を購入すべきか
+            href: business-voice/what-to-buy.md
+          - name: 販売店またはパートナーからサポートを受ける
+            href: business-voice/reseller-partner-support.md
+          - name: インターネット接続を確認する
+            href: business-voice/get-ready-internet.md
+          - name: ユーザーの準備を行う
+            href: business-voice/prepare-users.md
+      - name: 作業の開始ウィザードを実行する
+        href: business-voice/use-getting-started-wizard.md
+      - name: 試すべきこと
+        href: business-voice/things-to-try.md
+      - name: 設定をカスタマイズする
+        items:
+          - name: カスタマイズのオプション
+            href: business-voice/customize-business-voice.md
+          - name: 電話番号のポート
+            href: business-voice/port-phone-numbers.md
+          - name: 通話ポリシーの設定
+            href: business-voice/set-up-policies.md
+          - name: ポリシー パッケージを管理する
+            href: business-voice/policy-packages.md
+          - name: 追加のユーザーを作成する
+            href: business-voice/create-users.md
+          - name: 通話キューを設定する
+            href: business-voice/create-a-phone-system-call-queue-smb.md
+          - name: 自動応答を設定する
+            href: business-voice/create-a-phone-system-auto-attendant-smb.md
+      - name: 設定を管理する
+        items:
+          - name: 1 名以上のユーザーを作成する
+            href: business-voice/create-users.md
+          - name: デバイスを管理する
+            href: business-voice/manage-devices.md
+          - name: 通話品質を監視する
+            href: business-voice/monitor-quality.md
+          - name: 通話品質ダッシュボード
+            href: business-voice/analytics-dashboard.md
+      - name: パートナーのリソース
+        href: business-voice/partner-resources.md
+  - name: 業界および政府機関向けのガイダンス
+    items:
+      - name: 概要
+        href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
+      - name: すべての業界
+        items:
+          - name: Teams のテンプレートの使用を開始する
+            href: get-started-with-teams-templates.md
+          - name: Teams の Shifts
+            href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+            items:
+              - name: Teams で組織の Shifts アプリを管理する
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: 医療関係向けの Teams
+        items:
+          - name: 医療関係組織のための Teams の使用を開始する
+            href: expand-teams-across-your-org/healthcare/teams-in-hc.md
+          - name: 仮想アクセス
+            items:
+              - name: Teamsでの仮想アクセス - EHR への統合
+                href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: 予約と Teams による仮想訪問
+                href: bookings-app-admin.md
+          - name: ポリシー パッケージの表示と割り当て
+            href: policy-packages-healthcare.md
+          - name: セキュリティで保護されたメッセージング
+            items:
+              - name: セキュリティで保護されたメッセージング
+                href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
+              - name: メッセージの委任
+                href: expand-teams-across-your-org/healthcare/hc-delegates.md
+          - name: Teams テンプレート
+            items:
+              - name: 医療機関向けの Teams テンプレートを使用する
+                href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
+              - name: 医療機関向けの Teams のテンプレート
+                href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+          - name: Teams で組織のリスト アプリを管理する
+            href: manage-lists-app.md
+          - name: 組織のタスク アプリを管理する
+            href: manage-tasks-app.md
+          - name: Teams の Shifts
+            items:
+              - name: Teams の Shifts
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+              - name: Teams で組織の シフト アプリを管理する
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: 教育機関用 Teams
+        href: expand-teams-across-your-org/teams-for-education-landing-page.md
+        items:
+          - name: クイック スタート - 教育機関用 Teams の管理者
+            href: teams-quick-start-edu.yml
+          - name: リモート学習の開始
+            href: remote-learning-edu.md
+          - name: Teams EDU ポリシーおよびポリシー パッケージ
+            href: policy-packages-edu.md
+          - name: 多数のユーザー セットにポリシーを割り当てる
+            href: batch-group-policy-assignment-edu.md
+          - name: 教育者と学生のためのセキュリティ グループを作成する PowerShell スクリプト
+            href: scripts/powershell-script-security-groups-edu.md
+          - name: 教育機関管理者向けの低帯域幅ガイダンス
+            href: edu-remote-low-bandwidth.md
+          - name: 教育機関用 Teams ポリシー ウィザード
+            href: easy-policy-setup-edu.md
+          - name: Education Insights
+            items:
+              - name: Insights の使用を開始する
+                href: class-insights.md
+              - name: SIS データを Insights と同期する
+                href: education-insights-sis-data-sync.md
+          - name: '教育機関向けの Teams の課題 '
+            href: expand-teams-across-your-org/assignments-in-teams.md
+          - name: 教育機関管理者向けの Teams のリソース
+            href: resources-teams-edu.md
+          - name: Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
+            href: plan-teams-governance-edu.md
+          - name: Moodle の統合をインストールする
+            href: install-moodle-integration.md
+          - name: 教育機関向けの Teams のライセンス
+            href: teams-edu-licensing.md
+          - name: 教育 SKU の参照
+            href: sku-reference-edu.md
+      - name: 現場担当者向けの Teams
+        items:
+          - name: 現場担当者向けのクイックスタート
+            href: flw-quickstart.yml
+          - name: 現場担当者のスクリプト化された展開
+            href: flw-scripted-deployment.md
+          - name: 現場担当者のシフトベースのアクセスを管理する
+            href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: RealWear for Microsoft Teams
+            href: flw-realwear.md
+          - name: トランシーバー
+            href: walkie-talkie.md
+          - name: SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する
+            href: teams-standalone-static-tabs-using-spo-sites.md
+      - name: 小売店向けの Teams
+        href: expand-teams-across-your-org/teams-for-retail-landing-page.md
+        items:
+          - name: 管理コンソールで小売店向け Teams テンプレートの使用を開始する
+            href: retail-teams-templates-in-the-admin-console.md
+          - name: 小売店向けテンプレートで Teams の使用を開始する
+            href: get-started-with-retail-teams-templates.md
+      - name: 政府機関用 Teams
+        href: expand-teams-across-your-org/teams-for-government-landing-page.md
+        items:
+          - name: リモート ワーカーのサポート (WFH)
+            href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
+          - name: 政府向け Teams テンプレートの使用を開始する
+            href: government-teams-templates-in-the-admin-console.md
+          - name: Office 365 G1 試用版を管理する
+            href: g1-trial-license.md
+          - name: 'Microsoft 365 Government の計画: GCC'
+            href: plan-for-government-gcc.md
+          - name: 'Microsoft 365 Government の計画: GCC High'
+            href: plan-for-government-gcc-high.md
+          - name: 'Microsoft 365 Government の計画: DoD'
+            href: plan-for-government-dod.md
+          - name: GCC High および DoD のダイレクト ルーティングを使用する電話会議
+            href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
+          - name: 政府機関向けの Teams ポリシー パッケージ
+            href: policy-packages-gov.md
+  - name: セキュリティ、プライバシー、コンプライアンス
+    items:
+      - name: 概要
+        href: security-compliance-overview.md
+      - name: セキュリティ
+        items:
+          - name: セキュリティ ガイド
+            href: teams-security-guide.md
+          - name: Azure Sentinel と Teams
+            href: teams-sentinel-guide.md
+          - name: ID モデルと認証
+            href: identify-models-authentication.md
+          - name: Microsoft Teams にサイン インする
+            href: sign-in-teams.md
+          - name: Teams の安全なリンク
+            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: AppLocker アプリケーション コントロール ポリシー
+            href: applocker-in-teams.md
+          - name: SharePoint へのアクセスをブロックする
+            href: block-access-sharepoint.md
+      - name: コンプライアンス
+        items:
+          - name: 情報バリア
+            href: information-barriers-in-teams.md
+          - name: アイテム保持ポリシー
+            href: retention-policies.md
+          - name: コミュニケーション コンプライアンス
+            href: communication-compliance.md
+          - name: 通話と会議のためのポリシー ベースの録音
+            href: teams-recording-policy.md
+          - name: 秘密度ラベル
+            href: sensitivity-labels.md
+          - name: データ損失防止
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: 電子情報開示
+            href: ediscovery-investigation.md
+          - name: 訴訟ホールド
+            href: legal-hold.md
+          - name: コンテンツ検索
+            href: content-search.md
+          - name: 監査
+            href: audit-log-events.md
+          - name: Microsoft Teams エクスポート API を使ってコンテンツをエクスポートする
+            href: export-teams-content.md
+          - name: Teams 用テナント レベルの カスタマー キー
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: プライバシー
+        items:
+          - name: プライバシーと Microsoft Teams
+            href: teams-privacy.md
+          - name: データ収集方法
+            href: data-collection-practices.md
+          - name: Teams のデータの場所
+            href: location-of-data-in-teams.md
+          - name: 特定のユーザーの Sharepoint Online へのアクセスをブロックする
+            href: block-access-sharepoint.md
+          - name: ポリシー制御の概要
+            href: policy-control-overview.md
+          - name: モバイル診断データ
+            href: policy-control-diagnostic-data-mobile.md
+          - name: デスクトップ クライアントの診断データ
+            href: policy-control-diagnostic-data-desktop.md
+          - name: オプションの接続エクスペリエンス
+            href: teams-privacy-oce-overview.md
+  - name: 監視、保守、およびトラブルシューティング
+    items:
+      - name: サービスを運用する
+        href: upgrade-operate-my-service.md
+      - name: サービスを強化する
+        href: upgrade-enhance-my-service.md
+      - name: 通話品質を監視および管理する
+        items:
+          - name: 通話品質を監視および改善する
+            href: monitor-call-quality-qos.md
+          - name: 通話品質ダッシュボード (CQD)
+            items:
+              - name: CQD とは?
+                href: CQD-what-is-call-quality-dashboard.md
+              - name: CQDをセットアップする
+                href: turning-on-and-using-call-quality-dashboard.md
+              - name: テナントとビルのデータをアップロードする
+                href: CQD-upload-tenant-building-data.md
+              - name: CQD のデータとレポート
+                href: CQD-data-and-reports.md
+              - name: CQD を使用して通話と会議の品質を管理する
+                href: quality-of-experience-review-guide.md
+              - name: よく寄せられる質問
+                href: CQD-frequently-asked-questions.md
+              - name: CQD で利用できるディメンションとメジャー
+                href: dimensions-and-measures-available-in-call-quality-dashboard.md
+              - name: CQD のストリーム分類
+                href: stream-classification-in-call-quality-dashboard.md
+              - name: ビルディング マップを作成する
+                href: CQD-building-mapping.md
+              - name: Power BI を使用して CQD データを分析する
+                items:
+                  - name: Power BI を使用して CQD データを分析する
+                    href: CQD-Power-BI-query-templates.md
+                  - name: Power BI コネクタをインストールして CQD クエリ テンプレートを使用する
+                    href: CQD-Power-BI-connector.md
+                  - name: Teams の使用率に関する CQD データを取得する
+                    href: CQD-teams-utilization-report.md
+                  - name: CQD PSTN ダイレクト ルーティング レポートを使用する
+                    href: CQD-PSTN-report.md
+          - name: 通話分析
+            items:
+              - name: 通話分析をセットアップする
+                href: set-up-call-analytics.md
+              - name: 通話分析を使用して低品質の通話をトラブルシューティングする
+                href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+          - name: サービスの品質 (QoS)
+            items:
+              - name: Teams の QoS をセットアップする
+                href: QoS-in-Teams.md
+              - name: Windows クライアントで QoS を設定する
+                href: QoS-in-Teams-clients.md
+      - name: Teams のトラブルシューティング
+        href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
+      - name: インストールと更新に関する問題のトラブルシューティング
+        href: troubleshoot-installation.md
+      - name: Teams クライアントの接続性の問題をトラブルシューティングする
+        href: connectivity-issues.md
+      - name: 従来のシステムでメッセージおよび通話を受信するときの問題
+        href: legacy-login-issues.md
+      - name: Teams のトラブルシューティングでログ ファイルを使用する
+        href: log-files.md
+      - name: 'よく寄せられる質問: リモートの従業員をサポートする'
+        href: FAQ-support-remote-workforce.md
+      - name: Teams のサービス正常性を確認する
+        href: service-health.md
+      - name: ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ
+        href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+  - name: 参照
+    items:
+      - name: Teams の制限と仕様
+        href: limits-specifications-teams.md
+      - name: Teams のロールアウトの準備
+        items:
+          - name: Teams 用に組織のネットワークを準備する
+            href: prepare-network.md
+          - name: Advisor for Teams を使用して Teams をロールアウトする
+            href: use-advisor-teams-roll-out.md
+          - name: Teams の Network Planner を使用する
+            href: network-planner.md
+          - name: Network Planner のチュートリアル
+            href: tutorial-network-planner-example.yml
+          - name: Teams または Skype for Business Online 向けのプロキシ サーバー
+            href: proxy-servers-for-skype-for-business-online.md
+          - name: Teams でチームを作成するときの Microsoft 365 グループの計画
+            href: plan-office-365-groups.md
+          - name: Teams でのライフサイクル管理の計画
+            href: plan-teams-lifecycle.md
+          - name: Teams でのガバナンスを計画する
+            href: plan-teams-governance.md
+      - name: Teams のインストール
+        items:
+          - name: Teams のクライアントを取得する
+            href: get-clients.md
+          - name: 中国で Android 用 Teams を取得する
+            href: get-teams-android-in-china.md
+          - name: Teams アプリのハードウェア要件
+            href: hardware-requirements-for-the-teams-app.md
+          - name: ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
+            href: hardware-decoders-and-encoders.md
+          - name: MSI を使用した Teams のインストール
+            href: msi-deployment.md
+          - name: 組織で Teams を有効にする
+            href: Office-365-set-up.md
+          - name: Microsoft Teams のメモリ使用方法
+            href: teams-memory-usage-perf.md
+          - name: Microsoft 365 と Office 365 の URL と IP アドレスの範囲
+            href: office-365-urls-ip-address-ranges.md
+          - name: 仮想デスクトップ インフラストラクチャ (VDI) 用の Teams
+            href: teams-for-vdi.md
+          - name: Surface Hub の Teams を展開する
+            href: teams-surface-hub.md
+          - name: Teams クライアントの更新プログラム
+            href: teams-client-update.md
+          - name: インストールと更新に関する問題のトラブルシューティング
+            href: troubleshoot-installation.md
+      - name: ライセンス
+        items:
+          - name: Teams へのユーザー アクセスを管理する
+            href: user-access.md
+          - name: Teams アドオン ライセンス オプション
+            href: teams-add-on-licensing/microsoft-teams-add-on-licensing.md
+          - name: Teams アドオンのライセンス割り当て
+            href: teams-add-on-licensing/assign-teams-add-on-licenses.md
+          - name: Office 365 E1 試用版を管理する
+            href: e1-trial-license.md
+          - name: Office 365 G1 試用版を管理する
+            href: g1-trial-license.md
+          - name: Teams Exploratory エクスペリエンスを管理する
+            href: teams-exploratory.md
+          - name: Teams の無料版を管理する
+            href: manage-freemium.md
+          - name: Teams を無料で月額プラン バージョンにアップグレードする
+            href: upgrade-freemium.md
+          - name: Advanced Communications
+            href: teams-add-on-licensing/advanced-communications.md
+          - name: メッセージング ポリシーのライセンス
+            href: teams-add-on-licensing/pri-message.md
+          - name: Microsoft 365 電話システム - 仮想ユーザー ライセンス
+            href: teams-add-on-licensing/virtual-user.md
+      - name: Microsoft 365 や Office 365 との相互運用性
+        items:
+          - name: Microsoft 365 グループと Teams
+            href: office-365-groups.md
+          - name: Microsoft 365 管理センターを使用して、Microsoft 365 リソース アカウントを作成する
+            href: devices/resource-account-ui.md
+          - name: 既存の Microsoft 365 グループを Teams で強化する
+            href: enhance-office-365-groups.md
+          - name: Exchange と Teams の連携
+            href: exchange-teams-interact.md
+            items:
+              - name: Teams で使用する Exchange ハイブリッド展開の組織を構成する
+                href: exchange-hybrid-organization.md
+              - name: Exchange のメール フロー ルールを使用する
+                href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365'
+          - name: Teams との SharePoint Online と OneDrive for Business の連携
+            href: sharepoint-onedrive-interact.md
+          - name: Microsoft 365 または Office 365 複数地域対応テナントでの Teams のエクスペリエンス
+            href: teams-experience-o365odb-spo-multi-geo.md
+      - name: サポート対象のデバイス
+        items:
+          - name: Teams でのデバイスの管理
+            href: devices/device-management.md
+          - name: デバイスをリモートで更新する
+            href: devices/remote-update.md
+          - name: Teams デバイス タグを管理する
+            href: devices/manage-device-tags.md
+          - name: Teams 対応の電話機
+            href: devices/phones-for-teams.md
+          - name: Teams ディスプレイ
+            href: devices/teams-displays.md
+          - name: Teams 電話を Teams ディスプレイにアップグレードする
+            href: devices/upgrade-phones-to-displays.md
+          - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
+            href: devices/phones-displays-deploy.md
+          - name: USB オーディオ デバイスおよびビデオ デバイス
+            href: devices/usb-devices.md
+          - name: Microsoft Teams の共同作業バーを展開する
+            href: devices/collab-bar-deploy.md
+          - name: 会議室のデバイスとソリューション
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Microsoft Teams 認定 IP 電話
+            href: devices/teams-ip-phones.md
+          - name: Skype for Business Online 対応の電話機
+            href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: Teams PowerShell
+        items:
+          - name: 概要
+            href: teams-powershell-overview.md
+          - name: Teams Powershell のインストール
+            href: teams-powershell-install.md
+          - name: Powershell で Teams を管理する
+            href: teams-powershell-managing-teams.md
+          - name: Teams Powershell のリリース ノート
+            href: teams-powershell-release-notes.md
+          - name: Skype for Business Online Connector から Teams PowerShell モジュールに移動する
+            href: teams-powershell-move-from-sfbo.md
+          - name: Teams のコマンドレット リファレンス
+            href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
+      - name: Teams の開発者向けドキュメント
+        href: 'https://docs.microsoft.com/microsoftteams/platform'
+      - name: チームのヘルプを表示する
+        href: get-help-in-microsoft-teams.md
+      - name: Teams のコンテンツ アップデート
+        href: teams-updates.md
+      - name: サポート PIN を確認する方法
+        href: support-pin.md
+      - name: 国および地域ごとの電話会議および通話プランの利用可能性
+        items:
+          - name: 概要
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: アルバニア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
+          - name: アルジェリア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md
+          - name: アンティグア バーブーダ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md
+          - name: アルゼンチン
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md
+          - name: オーストラリア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
+          - name: オーストリア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md
+          - name: バハマ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md
+          - name: バーレーン
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md
+          - name: バングラデシュ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md
+          - name: バルバドス
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md
+          - name: ベラルーシ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md
+          - name: ベルギー
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md
+          - name: ベリーズ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md
+          - name: ベナン
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-benin.md
+          - name: バミューダ諸島
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bermuda.md
+          - name: ボスニア・ヘルツェゴビナ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md
+          - name: ブラジル
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md
+          - name: ブルネイ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md
+          - name: ブルガリア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md
+          - name: カンボジア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md
+          - name: カメルーン
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md
+          - name: カナダ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md
+          - name: ケイマン諸島
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md
+          - name: チリ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md
+          - name: 中国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md
+          - name: コロンビア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md
+          - name: コスタリカ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md
+          - name: クロアチア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md
+          - name: キプロス
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md
+          - name: チェコ共和国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md
+          - name: デンマーク
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md
+          - name: ドミニカ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-dominica.md
+          - name: ドミニカ共和国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md
+          - name: エクアドル
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md
+          - name: エジプト
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md
+          - name: エルサルバドル
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md
+          - name: エストニア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md
+          - name: フィンランド
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md
+          - name: フランス
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md
+          - name: ジョージア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md
+          - name: ドイツ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md
+          - name: ガーナ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ghana.md
+          - name: ギリシャ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md
+          - name: グレナダ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md
+          - name: グアム
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md
+          - name: グアテマラ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md
+          - name: ホンジュラス
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md
+          - name: 香港特別行政区
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md
+          - name: ハンガリー
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md
+          - name: インド
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md
+          - name: インドネシア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md
+          - name: アイルランド
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md
+          - name: イスラエル
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md
+          - name: イタリア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md
+          - name: ジャマイカ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jamaica.md
+          - name: 日本
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md
+          - name: ヨルダン
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md
+          - name: ケニア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md
+          - name: クウェート
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kuwait.md
+          - name: ラトビア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md
+          - name: リトアニア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md
+          - name: ルクセンブルク
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md
+          - name: マケドニア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md
+          - name: マレーシア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md
+          - name: マルタ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md
+          - name: メキシコ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md
+          - name: モルドバ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md
+          - name: モナコ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md
+          - name: モロッコ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-morocco.md
+          - name: オランダ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md
+          - name: ニュージーランド
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md
+          - name: ニカラグア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nicaragua.md
+          - name: ナイジェリア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md
+          - name: 北マリアナ諸島
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md
+          - name: ノルウェー
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md
+          - name: パキスタン
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md
+          - name: パナマ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md
+          - name: パラグアイ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md
+          - name: ペルー
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md
+          - name: フィリピン
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md
+          - name: ポーランド
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md
+          - name: ポルトガル
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md
+          - name: プエルトリコ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md
+          - name: カタール
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md
+          - name: ルーマニア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md
+          - name: ロシア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md
+          - name: セントクリストファー ネイビス
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-kitts-and-nevis.md
+          - name: セントルシア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saint-lucia.md
+          - name: サウジアラビア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md
+          - name: セルビア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md
+          - name: シンガポール
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md
+          - name: スロバキア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md
+          - name: スロベニア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md
+          - name: 南アフリカ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md
+          - name: 韓国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md
+          - name: スペイン
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md
+          - name: スリランカ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md
+          - name: スウェーデン
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md
+          - name: スイス
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md
+          - name: 台湾
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md
+          - name: タイ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md
+          - name: トリニダード・トバゴ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md
+          - name: チュニジア
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md
+          - name: トルコ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md
+          - name: タークス カイコス諸島
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md
+          - name: ウガンダ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md
+          - name: ウクライナ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md
+          - name: アラブ首長国連邦 (U.A.E)
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md
+          - name: 英国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md
+          - name: 米国
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md
+          - name: ウルグアイ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md
+          - name: ベネズエラ
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
+          - name: ベトナム
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
+      - name: アクセシビリティと適合性
+        items:
+          - name: フランスでの Microsoft Teams のアクセシビリティに関する適合宣言
+            href: accessibility-declaration-of-conformance-in-france-for-teams.md
+          - name: Skype for Business Online および Microsoft Teams のアクセシビリティ ソリューション
+            href: accessibility-solutions-in-france.md
+          - name: 'Microsoft 365 の通話プラン: 英国での実施基準'
+            href: code-of-practice-for-the-united-kingdom-u-k.md
+          - name: 'Microsoft 365 の通話プラン: 英国での苦情処理基準'
+            href: complaint-handling-code-for-the-united-kingdom-u-k.md
+          - name: 緊急通話の利用条件
+            href: emergency-calling-terms-and-conditions.md
+      - name: 探索アンケートをアップグレードする
+        href: upgrade-plan-journey-discovery-questionnaire.md
+      - name: Teams 管理者機能のリリースノート
+        href: release-notes/release-notes.md
+      - name: Microsoft Teams でのパブリック プレビュー
+        href: public-preview-doc-updates.md
