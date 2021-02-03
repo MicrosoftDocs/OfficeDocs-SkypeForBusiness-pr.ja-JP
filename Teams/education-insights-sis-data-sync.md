@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7570368a6b9bd889bc5ed632cd1d057d70ae791a
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986426"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067122"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>学生情報システム (SIS) データを Education Insights と同期する
 より多くのデータが [Education Insights](class-insights.md) に提供されるほど、教師はより適切に学生をサポートでき、教育リーダーはより適切に教師をサポートできます。
@@ -37,7 +37,7 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1 ファイル形式と SDS V2 ファイル形式の違い
 
-| データの種類 |   V1 | V2 (推奨) |
+| データの種類 |   V1 | V2 (新規のお客様におすすめ) |
 |:--- |:--- |:--- |
 | **ユーザー** | V1 ファイル形式には、**教師のみ** が含まれます。そのため、教育リーダーに対して組織レベルのアクセス許可を設定するには、該当者を検索し、それぞれのアクセス許可を手動で定義する必要があります。 | V2 ファイル形式には **すべての役割** が含まれます。そのため、役割ベースのアクセス許可を割り当てることができます。 |
 | **組織** | V1 ファイル形式には、**学校のみ** が含まれます。したがって、1 つの集計レベル (すべての学校) のみが表示されます。 単純なリストを使用して特定の学校にズームインできますが、このリストには多数の学校が含まれている場合や、比較が難しいさまざまな種類の学校 (小学校から中学校、科学系から芸術系の学校など) が含まれている場合があります。<br/><br/> 階層が設定されている場合は、科学系や芸術系の学部など、意味のあるレベルを作成できます。| V2 ファイル形式には、総合大学、単科大学、学部、キャンパス、地域、プログラムなどを含む、**学区または教育機関の完全な階層** が含まれています。<br/><br/> 階層を使用すると、階層のレベルごとに関連する集計を確認したり、各レベルの組織単位をすばやく比較したり、特定のレベルに権限を割り当てたり、組織レベルごとに目標を設定したりできます。|
@@ -112,7 +112,9 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
 ### <a name="deploy-sds"></a>SDS を展開する
 **すでに SDS を使用している場合は**、「[ベスト プラクティス](#best-practices)」に従うことをお勧めします。 
 
-現在のプロファイルを Insights と同期するには、**同期プロファイル** に移動し、**[編集]** をクリックして **[Sync organizational data from SDS]** (SDS の組織データを同期する) を選択します。 初回の同期においては、SIS からデータが更新された後にレポートを利用できるようにするために、24 時間待機することが推奨されます。  
+現在のプロファイルを Insights と同期するには、**同期プロファイル** に移動し、**[編集]** をクリックして **[Insights に同期]** を選択します。 初回の同期においては、SIS からデータが更新された後にレポートを利用できるようにするために、24 時間待機することが推奨されます。  
+
+:::image type="content" source="media/insights-sds-profile-sync.png" alt-text="プロファイルを Insights トグルと同期する":::
 
 **SDS を使用していない場合は**、[SDS を展開する](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync)必要があります。
 
@@ -122,7 +124,7 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
 > 年央で、すでに手動でチームを作成している場合は、Insights にデータを提供するためだけに SDS を使用するとしておき、来年は Teams のユーザーとクラスのプロビジョニングにも SDS を使用することを検討してください。
 
 ### <a name="verify-the-sync-process"></a>同期プロセスを確認する
-[設定] ページの [Sync organizational data from SDS (preview)] (SDS の組織データを同期する (プレビュー)) の横に新しい [状態] 領域が表示されます。
+[設定] ページの [SDS から組織データを同期する (プレビュー)] の横に新しい [状態] 領域が表示されます。
  
 *   状態が "**処理中**" の場合は、SDS プロファイルの展開後、最大で 24 時間お待ちください。
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd60e20d4218c9deaca84974b890280f942fe1be
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986393"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067132"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -174,7 +174,7 @@ Insights にアクセスするには、ユーザーは Microsoft 365 の A1、A3
 
 クラスの教師としてクラス レベルの Insights を表示する場合は、*その必要はありません*。これは、Teams のクラス構造とアクセス許可が使用されるためです。
 
-詳細については、「[学生情報システム (SIS) データを Education Insights と同期する](education-insights-sis-data-sync.md)」をご確認ください。
+詳細については、「[**学生情報システム (SIS) データを Education Insights と同期する**](education-insights-sis-data-sync.md)」をご確認ください。
 
 ## <a name="manage-permissions"></a>権限の管理
 教育リーダー、地区リーダー、学校長、学部長、カウンセラー、教科長、プログラム ディレクター、ソーシャル ワーカー、心理学者に許可を与える必要があります。 教職員には、クラス チームを所有している場合、自動的に許可が与えられます。
@@ -208,19 +208,51 @@ Insights にアクセスするには、ユーザーは Microsoft 365 の A1、A3
 ## <a name="turn-insights-off-or-on"></a>Insights をオフまたはオンにする
 既定では、Education Analytics と Insights はオンになっています。 オプトアウトすると、Insights 用に収集された *すべてのデータが削除されます*。 Insights をオンに戻すと、データが再度有効になった時点からデータの収集が開始されます。
 
-### <a name="turn-insights-off-using-school-data-sync-sds"></a>School Data Sync (SDS) を使用して Insights を無効にする
+### <a name="turn-off-insights-using-school-data-sync-sds"></a>School Data Sync (SDS) を使用して Insights をオフにする
 School Data Sync (SDS) は、Student Information System (SIS) データをインポートおよび同期するプロセスを自動化するために役立ちます。
 
-Insights を使用するときに SDS を使用する必要は *ありません*。 ただし、いつでも Insights からオプトアウトすることを選択できます。 SDS管理センターを開き、**[設定]** > **[Education Insights の管理]** の順に移動します。 「**Insights のデータを収集する**」をオフにして、Insights を無効にします。 
+Insights を使用するときに SDS を使用する必要は *ありません*。 ただし、いつでも Insights からオプトアウトすることを選択できます。 [SDS 管理センター](https://sds.microsoft.com)を開き、**[設定]** > **[Education Insights の管理]** の順に移動します。 「**Insights のデータを収集する**」をオフにして、Insights を無効にします。 
 
 :::image type="content" source="media/insights-sds-settings.png" alt-text="Insights を有効または無効にできるスイッチ。":::
 
-### <a name="turn-insights-on"></a>Insights をオンにする
-Insights をオフにした場合でも、すぐにオンにできます。 SDS管理センターを開き、**[設定]** > **[Education Insights の管理]** の順に移動します。 「**Insights のデータを収集する**」をオンにして、Insights を有効にします。
+### <a name="turn-on-insights"></a>Insights をオンにする
+Insights をオフにした場合でも、すぐにオンにできます。 [SDS 管理センター](https://sds.microsoft.com)を開き、**[設定]** > **[Education Insights の管理]** の順に移動します。 「**Insights のデータを収集する**」をオンにして、Insights を有効にします。
 
 ### <a name="how-to-delete-your-data"></a>データを削除する方法
 Insights は、クラスチームのコンテキストで実行された学生と教職員のアクションを格納します。 このデータは、まとまったデータセットと見なされるため、学生または教職員のユーザーアカウントが組織から削除されても、サービスから自動的に削除されません。
 注: データを削除すると、時間の経過とともにクラス チームの関与を分析する Insights の機能が損なわれます。
-* [サポート チケットを開きます](https://edusupport.microsoft.com/support)。 サポートチケットには、GDPR 削除 DSR 操作の要求を明確に記載し、削除するユーザーオブジェクト ID を入れる必要があります。 削除するデータセットまたは時間帯を制限することはできません。
+* [サポート チケットを開きます](https://aka.ms/edusupport)。 サポートチケットには、GDPR 削除 DSR 操作の要求を明確に記載し、削除するユーザーオブジェクト ID を入れる必要があります。 削除するデータセットまたは時間帯を制限することはできません。
 *   提出されると、サポート チケットは、コンプライアンスの最小保持ポリシーを満たすために 1 週間キュー内で待機します。 この間、操作をキャンセルすることができます。
 *   1 週間後に、Education Insights チームが、ユーザー ID に関連するすべてのデータをサービスから削除する処置を行います。 Microsoft サポートが チケットを監視し、28 日以内に削除プロセスが完了したことを通知します。
+
+## <a name="troubleshooting"></a>トラブルシューティング
+### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>自分の教育機関が Insights でデータを表示できないのはなぜですか?
+*新規* テナントで、Insights でデータを見たことが *ない* 場合、テナントが Insights にアクセスするために **教育テナントとして認証** されているかどうかを確認してください。 Microsoft アカウント マネージャーに問い合せて、テナントが正しく構成されていることを確認するよう依頼します。
+
+アカウント マネージャーがいない場合は、チケットをオープンしてください。 [Office 365 管理センター](https://admin.microsoft.com/AdminPortal/) > **[サポート]** > **[新しいお問い合わせ]** の順に進みます。  チケットのタイトルに「教育機関の認証に関するサポートが必要」と記載します。
+ 
+また、Insights のデータ収集が有効になっていることを確認します。 既定でオンになっている間は、IT 管理者がオフにしている可能性があるため、Insights が保持しているすべてのデータが削除されます。
+
+これを確認するには、[SDS 管理センター](https://sds.microsoft.com)を開き、**[設定]** > **[Education Insights の管理]** の順に移動します。 [Insights のデータを収集する] の状態を確認します。
+
+オフになっている場合は、オンに戻します。  Insights はデータの収集を開始しますが、レポートでデータを確認するには最大 24 時間かかる場合があります。 
+
+
+### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>すべてではなく、一部の生徒またはクラスのデータが表示されるのはなぜですか?
+*ライセンスを取得した* 生徒のデータのみを収集するため、最も可能性の高い理由は、ゲスト生徒がクラスに参加していて、そのデータが収集されていないことです。 名前は表示されるかもしれませんが、データはありません。
+
+生徒の状態を確認して、全員がライセンスを持っていることを確認します。 
+
+### <a name="why-dont-educators-see-meeting-data"></a>なぜ教育者は会議データを表示できないのですか?
+Insights レポートで会議データを表示するには、最大 24 時間かかります。 十分な時間が経過したことを確認してください。
+
+また、生徒が [Teams アカウントなしでクラス会議に参加](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)*しなかった* ことを確認してください。 このようなシナリオでは、生徒のアクティビティは収集されません。
+
+> [!TIP]
+> 生徒の出席状況を追跡する必要がある教育者は、会議中に生徒に返信を求めるメッセージを送信することをおすすめします。 これで生徒の出席状況が数分でわかるようになります。
+
+> [!NOTE]
+> 質問にまだ回答がない場合は、[サポート チケットをオープン](https://aka.ms/edusupport)してください。 問題を示すスクリーンショットと、問題が発生した日付を含めます。 問題の解決に役立つと思われるデータを追加してください。
+
+
+
