@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 0913bef8a77e66ae3b82905a8d154940f32c2392
+ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909491"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084750"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
@@ -62,31 +62,11 @@ Microsoft Teams は、チャット、ビデオ会議、通話などの通信モ�
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
-## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>Microsoft Teams でのコンタクト センター ソリューションの機能
-
-Microsoft Teams には、次のようなサードパーティの音声ソリューションの開発をサポートするためのさまざまな機能が用意されています。
-
-1. [ダイレクト ルーティング接続](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
-
-2. [Microsoft Graph クラウド通信 API](https://docs.microsoft.com/graph/cloud-communications-get-started)
-
-3. Teams のプラットフォームと機能拡張
-
-4. Teams SDK
-
-これらの機能を組み合わせて使用すると、次の 3 つの統合モデルを有効にできます。
-
-  - **接続** (ダイレクト ルーティング)
-
-  - **接続と拡張** (ダイレクト ルーティング、Graph API、Teams アプリ プラットフォーム)
-
-  - **拡張とパワー** (Teams SDK を 3p アプリに埋め込み、ネイティブの Teams の対話を実現)
-
 ### <a name="connect"></a>接続
 
-このモデルは、CCaaS パートナーと Microsoft Teams の電話システム インフラストラクチャを接続し、ルーティング、構成、システムインサイトを強化します。 このモデルでは、コンタクト センターのパートナー ソリューションは、選択した番号とユーザーに対してテレフォニー サービスを提供することもできます。
+このモデルは、CCaaS パートナーと Microsoft Teams の電話システム インフラストラクチャを接続し、ルーティング、構成、システムインサイトを強化します。 
 
-Connect モデルに構築されたソリューションを使用するエージェントは、情報 & インサイトを収集し、必要に応じて、Teams での SME のプレゼンスを使用して、問題の専門家に直接転送することができます。
+Connect モデルに組み込みのソリューションを使用するエージェントは、情報 & インサイトを収集し、必要に応じて、Teams での SME のプレゼンスを使用して、問題の専門家に直接転送することができます。
 
 組織は、自動化された仮想アシスタントやスキル ベースのルーティング キューを設定することで、最適なエージェントへの通話を確実に行うことができます。
 
@@ -98,15 +78,13 @@ Connect モデルに構築されたソリューションを使用するエージ
 
   - Teams ユーザーからのプレゼンス表示 
 
-  - ダイレクト ルーティングを使用した通話フロー (テスト プランに記載のとおり) 
-
   - Teams ユーザーとの転送とグループ通話のサポート 
 
   - Teams との統合のための Teams Graph API とクラウド通信 API 
 
   - マルチテナント SIP トランクをサポートして、複数の顧客をパートナーの SBC でサポートできるようにします。  
 
-  - [<span class="underline">Microsoft 認定セッション ボーダー コントローラー (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) を実装するパートナー 
+  - Microsoft 認定セッション[<span class="underline">ボーダー コントローラー (SBC)</span>を使用するパートナー](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>接続と拡張
 
@@ -138,7 +116,7 @@ Connect と拡張ベースのソリューションを使用すると、エージ
 
 ### <a name="extend-and-power"></a>拡張とパワー
 
-このモデルを使用すると、パートナーは Teams の呼び出しインフラストラクチャとクライアント プラットフォームを使用してネイティブの Azure ベースの音声アプリケーションを作成し、顧客とエージェントの共同作業を行う最新のインテリジェントなソリューションを提供できます。 拡張とパワーモデルの目標は、開発者の創造性を刺激し、顧客の生産性を高めることです。
+このモデルを使用すると、パートナーは Teams の呼び出しインフラストラクチャとクライアント プラットフォームを使用してネイティブの Azure ベースの音声アプリケーションを作成し、顧客とエージェントの連携接続用に最新のインテリジェントなソリューションを提供できます。 拡張とパワーモデルの目標は、開発者の創造性を刺激し、顧客の生産性を高めることです。
 
 Azure に直接構築することで、パートナーはすべてのチームのリージョンと地域にソリューションを迅速に展開してプロビジョニングでき、Azure のストレージ、コンピューティング、分析とコグニティブ サービスを利用しながら、共有されたグローバルな通信ネットワークのメリットを活用できます。
 
