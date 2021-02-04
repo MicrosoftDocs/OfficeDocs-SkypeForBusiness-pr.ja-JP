@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8efc437b36748768807a11d392bddcd41b0eb12
-ms.sourcegitcommit: 413aa915f74b997358b54f39842b60fe757094f3
+ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
+ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49670751"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50101325"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -29,6 +29,7 @@ ms.locfileid: "49670751"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
 |4.6.23.0 |10/19/2020 |
 |4.6.20.0 |09/30/2020 |
@@ -70,6 +71,11 @@ ms.locfileid: "49670751"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
+
+この更新プログラムで導入されるもの:
+- 品質と信頼性の修正
+
 ### <a name="47150-12112020"></a>4.7.15.0 (12/11/2020)
 
 この更新プログラムで導入されるもの:
@@ -93,7 +99,7 @@ ms.locfileid: "49670751"
 この更新プログラムで導入されるもの:
 
 - ルーム ディスプレイの前に 3x3 ビデオ ギャラリーを表示してその他のビデオを表示する  
-- ローカルライブクローズドキャプションをローカルに開始する
+- ローカルライブ クローズド キャプションを開始する
 - 直接ゲスト参加を使用して Teams 会議室からズーム会議に参加する (プレビュー)
 
 > [!NOTE]
