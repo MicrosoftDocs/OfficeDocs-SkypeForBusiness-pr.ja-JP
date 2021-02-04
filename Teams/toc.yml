@@ -31,6 +31,206 @@ items:
         href: get-started-with-teams-monitor-usage-and-feedback.md
       - name: 'ステップ 4: 組織全体へのロールアウトを計画する'
         href: get-started-with-teams-resources-for-org-wide-rollout.md
+  - name: セキュリティ、プライバシー、コンプライアンス
+    items:
+      - name: 概要
+        href: security-compliance-overview.md
+      - name: セキュリティ
+        items:
+          - name: セキュリティ ガイド
+            href: teams-security-guide.md
+          - name: Azure Sentinel と Teams
+            href: teams-sentinel-guide.md
+          - name: ID モデルと認証
+            href: identify-models-authentication.md
+          - name: Microsoft Teams にサイン インする
+            href: sign-in-teams.md
+          - name: Teams の安全なリンク
+            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: AppLocker アプリケーション コントロール ポリシー
+            href: applocker-in-teams.md
+          - name: SharePoint へのアクセスをブロックする
+            href: block-access-sharepoint.md
+      - name: コンプライアンス
+        items:
+          - name: 情報バリア
+            href: information-barriers-in-teams.md
+          - name: アイテム保持ポリシー
+            href: retention-policies.md
+          - name: コミュニケーション コンプライアンス
+            href: communication-compliance.md
+          - name: 通話と会議のためのポリシー ベースの録音
+            href: teams-recording-policy.md
+          - name: 秘密度ラベル
+            href: sensitivity-labels.md
+          - name: データ損失防止
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+          - name: 電子情報開示
+            href: ediscovery-investigation.md
+          - name: 訴訟ホールド
+            href: legal-hold.md
+          - name: コンテンツ検索
+            href: content-search.md
+          - name: 監査
+            href: audit-log-events.md
+          - name: Teams 用テナント レベルの カスタマー キー
+            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: プライバシー
+        items:
+          - name: プライバシーと Microsoft Teams
+            href: teams-privacy.md
+          - name: データ収集方法
+            href: data-collection-practices.md
+          - name: Teams のデータの場所
+            href: location-of-data-in-teams.md
+          - name: 特定のユーザーの Sharepoint Online へのアクセスをブロックする
+            href: block-access-sharepoint.md
+          - name: ポリシー制御の概要
+            href: policy-control-overview.md
+          - name: モバイル診断データ
+            href: policy-control-diagnostic-data-mobile.md
+          - name: デスクトップ クライアントの診断データ
+            href: policy-control-diagnostic-data-desktop.md
+          - name: オプションの接続エクスペリエンス
+            href: teams-privacy-oce-overview.md
+  - name: Teams を管理および監視する
+    items:
+      - name: 概要
+        href: manage-teams-overview.md
+      - name: 管理者の役割
+        href: using-admin-roles.md
+      - name: 新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
+        href: manage-teams-skypeforbusiness-admin-center.md
+      - name: Microsoft Teams 管理センターで Teams を管理する
+        href: manage-teams-in-modern-portal.md
+      - name: 組織の Microsoft Teams の設定を管理する
+        href: enable-features-office-365.md
+      - name: ポリシーを管理する
+        items:
+          - name: ユーザーにポリシーを割り当てる
+            href: assign-policies.md
+          - name: アクティビティ ログでポリシーの割り当てを表示する
+            href: activity-log.md
+          - name: Teams のアプリのアクセス許可ポリシーを管理する
+            href: teams-app-permission-policies.md
+          - name: Teams のアプリのセットアップ ポリシーを管理する
+            href: teams-app-setup-policies.md
+          - name: Teams のカスタム アプリのポリシーと設定を管理する
+            href: teams-custom-app-policies-and-settings.md
+          - name: Teams でフィードバック ポリシーを管理する
+            href: manage-feedback-policies-in-teams.md
+          - name: Teams でポリシー パッケージを管理する
+            href: manage-policy-packages.md
+      - name: 外部ユーザーと通信する
+        items:
+          - name: 別の組織のユーザーと通信する
+            href: communicate-with-users-from-other-organizations.md
+          - name: 外部アクセス (フェデレーション)
+            items:
+              - name: 外部アクセスを管理する
+                href: manage-external-access.md
+              - name: 外部ユーザー向けのネイティブ Teams チャット
+                href: native-chat-for-external-users.md
+              - name: Teams と Skype の相互運用性
+                href: teams-skype-interop.md
+          - name: ゲスト アクセス
+            items:
+              - name: ゲスト アクセスについて
+                href: guest-access.md
+              - name: ゲスト アクセスのチェックリスト
+                href: 'https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team'
+              - name: ゲスト エクスペリエンス
+                href: guest-experience.md
+              - name: ゲスト アクセスを承認する
+                href: teams-dependencies.md
+              - name: ゲスト アクセスをオンまたはオフにする
+                href: set-up-guests.md
+              - name: チームにゲストを追加する
+                href: view-guests.md
+              - name: ゲスト ユーザー情報の編集
+                href: edit-guests-information.md
+              - name: ゲスト アクセスのトラブルシューティング
+                href: troubleshoot-guest-access.md
+      - name: 通話品質を監視および管理する
+        items:
+          - name: 通話品質を監視および改善する
+            href: monitor-call-quality-qos.md
+          - name: 通話品質ダッシュボード (CQD)
+            items:
+              - name: CQD とは?
+                href: CQD-what-is-call-quality-dashboard.md
+              - name: CQDをセットアップする
+                href: turning-on-and-using-call-quality-dashboard.md
+              - name: テナントとビルのデータをアップロードする
+                href: CQD-upload-tenant-building-data.md
+              - name: CQD のデータとレポート
+                href: CQD-data-and-reports.md
+              - name: CQD を使用して通話と会議の品質を管理する
+                href: quality-of-experience-review-guide.md
+              - name: よく寄せられる質問
+                href: CQD-frequently-asked-questions.md
+              - name: CQD で利用できるディメンションとメジャー
+                href: dimensions-and-measures-available-in-call-quality-dashboard.md
+              - name: CQD のストリーム分類
+                href: stream-classification-in-call-quality-dashboard.md
+              - name: ビルディング マップを作成する
+                href: CQD-building-mapping.md
+              - name: Power BI を使用して CQD データを分析する
+                items:
+                  - name: Power BI を使用して CQD データを分析する
+                    href: CQD-Power-BI-query-templates.md
+                  - name: Power BI コネクタをインストールして CQD クエリ テンプレートを使用する
+                    href: CQD-Power-BI-connector.md
+                  - name: Teams の使用率に関する CQD データを取得する
+                    href: CQD-teams-utilization-report.md
+                  - name: CQD PSTN ダイレクト ルーティング レポートを使用する
+                    href: CQD-PSTN-report.md
+          - name: 通話分析
+            items:
+              - name: 通話分析をセットアップする
+                href: set-up-call-analytics.md
+              - name: 通話分析を使用して低品質の通話をトラブルシューティングする
+                href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+          - name: サービスの品質 (QoS)
+            items:
+              - name: Teams の QoS をセットアップする
+                href: QoS-in-Teams.md
+              - name: Windows クライアントで QoS を設定する
+                href: QoS-in-Teams-clients.md
+      - name: サービスを運用する
+        href: upgrade-operate-my-service.md
+      - name: サービスを強化する
+        href: upgrade-enhance-my-service.md
+      - name: インライン メッセージの翻訳の使用
+        href: inline-message-translation-teams.md
+      - name: Microsoft Teams の範囲指定ディレクトリ検索を使用する
+        href: teams-scoped-directory-search.md
+      - name: 'よく寄せられる質問: リモートの従業員をサポートする'
+        href: FAQ-support-remote-workforce.md
+      - name: レポート
+        items:
+          - name: Microsoft 365 管理センターのアクティビティ レポート
+            href: teams-activity-reports.md
+          - name: Teams 管理センターの分析とレポート
+            items:
+              - name: 概要
+                href: teams-analytics-and-reports/teams-reporting-reference.md
+              - name: Teams の使用状況レポート
+                href: teams-analytics-and-reports/teams-usage-report.md
+              - name: Teams ユーザー アクティビティ レポート
+                href: teams-analytics-and-reports/user-activity-report.md
+              - name: Teams アプリの使用状況レポート
+                href: teams-analytics-and-reports/app-usage-report.md
+              - name: Teams のデバイス使用状況レポート
+                href: teams-analytics-and-reports/device-usage-report.md
+              - name: PSTN のブロックされたユーザー レポート
+                href: teams-analytics-and-reports/pstn-blocked-users-report.md
+              - name: PSTN の利用分数プール レポート
+                href: teams-analytics-and-reports/pstn-minute-pools-report.md
+              - name: PSTN の使用状況のレポート
+                href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Teams のライブ イベントの使用状況レポート
+                href: teams-analytics-and-reports/teams-live-event-usage-report.md
   - name: 会話、チーム、チャネル
     items:
       - name: 展開の計画
@@ -129,110 +329,6 @@ items:
                 href: troubleshoot-guest-access.md
       - name: Teams の Cortana
         href: cortana-in-teams.md
-      - name: Teams の管理
-        items:
-          - name: 管理者の役割
-            href: using-admin-roles.md
-          - name: 組織の Microsoft Teams の設定を管理する
-            href: enable-features-office-365.md
-          - name: 新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
-            href: manage-teams-skypeforbusiness-admin-center.md
-          - name: Microsoft Teams 管理センターで Teams を管理する
-            href: manage-teams-in-modern-portal.md
-          - name: Teams でチーム所有者とメンバーを割り当てる
-            href: assign-roles-permissions.md
-          - name: ユーザーにポリシーを割り当てる
-            href: assign-policies.md
-          - name: アクティビティ ログでポリシーの割り当てを表示する
-            href: activity-log.md
-          - name: Teams のアプリのアクセス許可ポリシーを管理する
-            href: teams-app-permission-policies.md
-          - name: Teams のアプリのセットアップ ポリシーを管理する
-            href: teams-app-setup-policies.md
-          - name: Teams のカスタム アプリのポリシーと設定を管理する
-            href: teams-custom-app-policies-and-settings.md
-          - name: Teams でフィードバック ポリシーを管理する
-            href: manage-feedback-policies-in-teams.md
-          - name: Teams でポリシー パッケージを管理する
-            href: manage-policy-packages.md
-          - name: Teams と連動するように Skype 会議アプリを構成する
-            href: configure-skype-meetings-app-to-work-with-teams.md
-          - name: 外部アクセスを管理する
-            href: manage-external-access.md
-          - name: インライン メッセージの翻訳の使用
-            href: inline-message-translation-teams.md
-          - name: Microsoft Teams の範囲指定ディレクトリ検索を使用する
-            href: teams-scoped-directory-search.md
-          - name: Teams 管理センターの分析とレポート
-            items:
-              - name: 概要
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Teams の使用状況レポート
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Teams ユーザー アクティビティ レポート
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Teams アプリの使用状況レポート
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Teams のデバイス使用状況レポート
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: PSTN のブロックされたユーザー レポート
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: PSTN の利用分数プール レポート
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: PSTN の使用状況のレポート
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Teams のライブ イベントの使用状況レポート
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-          - name: Microsoft 365 管理センターでの Teams のアクティビティ レポート
-            href: teams-activity-reports.md
-  - name: アプリ、ボット、コネクタ
-    items:
-      - name: 概要
-        href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Power Platform との統合
-        href: teams-power-platfom-integration.md
-      - name: Teams 用アプリを管理する
-        href: manage-apps.md
-      - name: Teams でのアプリの管理設定
-        href: admin-settings.md
-      - name: 組み込みタブとカスタム タブの使用
-        href: built-in-custom-tabs.md
-      - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
-        href: Office-365-custom-connectors.md
-      - name: リソース固有の同意
-        href: resource-specific-consent.md
-      - name: カスタム アプリ
-        items:
-          - name: Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する
-            href: submit-approve-custom-apps.md
-          - name: Microsoft Teams 管理センターで電源プラットフォームアプリを管理する
-            href: manage-power-platform-apps.md
-          - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
-            href: upload-custom-apps.md
-          - name: カスタム アプリ ストア
-            href: customize-your-app-store.md
-      - name: アプリ証明書
-        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
-        href: app-permissions-admin-center.md
-      - name: アプリのアクセス許可と考慮事項
-        href: app-permissions.md
-      - name: Teams サードパーティ アプリのサービスを購入する
-        href: purchase-third-party-apps.md
-      - name: Teams 用のアプリ テンプレート
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: Teams で組織のリストアプリを管理する
-        href: manage-lists-app.md
-      - name: 組織のタスク アプリを管理する
-        href: manage-tasks-app.md
-      - name: チーム対象の階層を設定する
-        href: set-up-your-team-hierarchy.md
-      - name: Teams 管理センターで称賛アプリを管理する
-        href: manage-praise-app.md
-      - name: Teams と連動するように Skype 会議アプリを構成する
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Teams 承認アプリの利用可能性
-        href: approval-admin.md
   - name: ミーティングと会議
     items:
       - name: クイック スタート - 会議とライブ イベント
@@ -347,6 +443,8 @@ items:
         href: teams-contact-center.md
       - name: Outlook で Teams の会議アドインを使用する
         href: teams-add-in-for-outlook.md
+      - name: Teams と連動するように Skype 会議アプリを構成する
+        href: configure-skype-meetings-app-to-work-with-teams.md
       - name: 'ユーザーの [電話する] 機能をセットアップする'
         href: set-up-the-call-me-feature-for-your-users.md
       - name: 会議出席レポートを入手する
@@ -882,6 +980,102 @@ items:
             items:
               - name: ユーザーのエクスぺリエンスを計画する
                 href: 5-envision-plan-my-users-experience.md
+  - name: Microsoft 365 Business Voice
+    items:
+      - name: Microsoft 365 企業向け音声とは?
+        href: business-voice/whats-business-voice.md
+      - name: 国および地域ごとの利用可能性
+        href: business-voice/country-region-availability.md
+      - name: 購入前の注意事項
+        items:
+          - name: 企業向け音声を取得するために何を購入すべきか
+            href: business-voice/what-to-buy.md
+          - name: 販売店またはパートナーからサポートを受ける
+            href: business-voice/reseller-partner-support.md
+          - name: インターネット接続を確認する
+            href: business-voice/get-ready-internet.md
+          - name: ユーザーの準備を行う
+            href: business-voice/prepare-users.md
+      - name: 作業の開始ウィザードを実行する
+        href: business-voice/use-getting-started-wizard.md
+      - name: 試すべきこと
+        href: business-voice/things-to-try.md
+      - name: 設定をカスタマイズする
+        items:
+          - name: カスタマイズのオプション
+            href: business-voice/customize-business-voice.md
+          - name: 電話番号のポート
+            href: business-voice/port-phone-numbers.md
+          - name: 通話ポリシーの設定
+            href: business-voice/set-up-policies.md
+          - name: ポリシー パッケージを管理する
+            href: business-voice/policy-packages.md
+          - name: 追加のユーザーを作成する
+            href: business-voice/create-users.md
+          - name: 通話キューを設定する
+            href: business-voice/create-a-phone-system-call-queue-smb.md
+          - name: 自動応答を設定する
+            href: business-voice/create-a-phone-system-auto-attendant-smb.md
+      - name: 設定を管理する
+        items:
+          - name: 1 名以上のユーザーを作成する
+            href: business-voice/create-users.md
+          - name: デバイスを管理する
+            href: business-voice/manage-devices.md
+          - name: 通話品質を監視する
+            href: business-voice/monitor-quality.md
+          - name: 通話品質ダッシュボード
+            href: business-voice/analytics-dashboard.md
+      - name: パートナーのリソース
+        href: business-voice/partner-resources.md
+  - name: アプリ、ボット、コネクタ
+    items:
+      - name: 概要
+        href: deploy-apps-microsoft-teams-landing-page.md
+      - name: Power Platform との統合
+        href: teams-power-platfom-integration.md
+      - name: Teams 用アプリを管理する
+        href: manage-apps.md
+      - name: Teams でのアプリの管理設定
+        href: admin-settings.md
+      - name: 組み込みタブとカスタム タブの使用
+        href: built-in-custom-tabs.md
+      - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
+        href: Office-365-custom-connectors.md
+      - name: リソース固有の同意
+        href: resource-specific-consent.md
+      - name: カスタム アプリ
+        items:
+          - name: Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する
+            href: submit-approve-custom-apps.md
+          - name: Microsoft Teams 管理センターで電源プラットフォームアプリを管理する
+            href: manage-power-platform-apps.md
+          - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
+            href: upload-custom-apps.md
+          - name: カスタム アプリ ストア
+            href: customize-your-app-store.md
+      - name: アプリ証明書
+        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      - name: Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
+        href: app-permissions-admin-center.md
+      - name: アプリのアクセス許可と考慮事項
+        href: app-permissions.md
+      - name: Teams サードパーティ アプリのサービスを購入する
+        href: purchase-third-party-apps.md
+      - name: Teams 用のアプリ テンプレート
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: Teams で組織のリストアプリを管理する
+        href: manage-lists-app.md
+      - name: 組織のタスク アプリを管理する
+        href: manage-tasks-app.md
+      - name: チーム対象の階層を設定する
+        href: set-up-your-team-hierarchy.md
+      - name: Teams 管理センターで称賛アプリを管理する
+        href: manage-praise-app.md
+      - name: Teams と連動するように Skype 会議アプリを構成する
+        href: configure-skype-meetings-app-to-work-with-teams.md
+      - name: Teams 承認アプリの利用可能性
+        href: approval-admin.md
   - name: 導入
     items:
       - name: 概要
@@ -1044,54 +1238,6 @@ items:
             href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
       - name: Exchange および SharePoint との統合
         href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
-  - name: Microsoft 365 Business Voice
-    items:
-      - name: Microsoft 365 企業向け音声とは?
-        href: business-voice/whats-business-voice.md
-      - name: 国および地域ごとの利用可能性
-        href: business-voice/country-region-availability.md
-      - name: 購入前の注意事項
-        items:
-          - name: 企業向け音声を取得するために何を購入すべきか
-            href: business-voice/what-to-buy.md
-          - name: 販売店またはパートナーからサポートを受ける
-            href: business-voice/reseller-partner-support.md
-          - name: インターネット接続を確認する
-            href: business-voice/get-ready-internet.md
-          - name: ユーザーの準備を行う
-            href: business-voice/prepare-users.md
-      - name: 作業の開始ウィザードを実行する
-        href: business-voice/use-getting-started-wizard.md
-      - name: 試すべきこと
-        href: business-voice/things-to-try.md
-      - name: 設定をカスタマイズする
-        items:
-          - name: カスタマイズのオプション
-            href: business-voice/customize-business-voice.md
-          - name: 電話番号のポート
-            href: business-voice/port-phone-numbers.md
-          - name: 通話ポリシーの設定
-            href: business-voice/set-up-policies.md
-          - name: ポリシー パッケージを管理する
-            href: business-voice/policy-packages.md
-          - name: 追加のユーザーを作成する
-            href: business-voice/create-users.md
-          - name: 通話キューを設定する
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: 自動応答を設定する
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: 設定を管理する
-        items:
-          - name: 1 名以上のユーザーを作成する
-            href: business-voice/create-users.md
-          - name: デバイスを管理する
-            href: business-voice/manage-devices.md
-          - name: 通話品質を監視する
-            href: business-voice/monitor-quality.md
-          - name: 通話品質ダッシュボード
-            href: business-voice/analytics-dashboard.md
-      - name: パートナーのリソース
-        href: business-voice/partner-resources.md
   - name: 業界および政府機関向けのガイダンス
     items:
       - name: 概要
@@ -1214,124 +1360,9 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: 政府機関向けの Teams ポリシー パッケージ
             href: policy-packages-gov.md
-  - name: セキュリティ、プライバシー、コンプライアンス
+  - name: トラブルシューティング
+    href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
     items:
-      - name: 概要
-        href: security-compliance-overview.md
-      - name: セキュリティ
-        items:
-          - name: セキュリティ ガイド
-            href: teams-security-guide.md
-          - name: Azure Sentinel と Teams
-            href: teams-sentinel-guide.md
-          - name: ID モデルと認証
-            href: identify-models-authentication.md
-          - name: Microsoft Teams にサイン インする
-            href: sign-in-teams.md
-          - name: Teams の安全なリンク
-            href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-          - name: AppLocker アプリケーション コントロール ポリシー
-            href: applocker-in-teams.md
-          - name: SharePoint へのアクセスをブロックする
-            href: block-access-sharepoint.md
-      - name: コンプライアンス
-        items:
-          - name: 情報バリア
-            href: information-barriers-in-teams.md
-          - name: アイテム保持ポリシー
-            href: retention-policies.md
-          - name: コミュニケーション コンプライアンス
-            href: communication-compliance.md
-          - name: 通話と会議のためのポリシー ベースの録音
-            href: teams-recording-policy.md
-          - name: 秘密度ラベル
-            href: sensitivity-labels.md
-          - name: データ損失防止
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-          - name: 電子情報開示
-            href: ediscovery-investigation.md
-          - name: 訴訟ホールド
-            href: legal-hold.md
-          - name: コンテンツ検索
-            href: content-search.md
-          - name: 監査
-            href: audit-log-events.md
-          - name: Microsoft Teams エクスポート API を使ってコンテンツをエクスポートする
-            href: export-teams-content.md
-          - name: Teams 用テナント レベルの カスタマー キー
-            href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: プライバシー
-        items:
-          - name: プライバシーと Microsoft Teams
-            href: teams-privacy.md
-          - name: データ収集方法
-            href: data-collection-practices.md
-          - name: Teams のデータの場所
-            href: location-of-data-in-teams.md
-          - name: 特定のユーザーの Sharepoint Online へのアクセスをブロックする
-            href: block-access-sharepoint.md
-          - name: ポリシー制御の概要
-            href: policy-control-overview.md
-          - name: モバイル診断データ
-            href: policy-control-diagnostic-data-mobile.md
-          - name: デスクトップ クライアントの診断データ
-            href: policy-control-diagnostic-data-desktop.md
-          - name: オプションの接続エクスペリエンス
-            href: teams-privacy-oce-overview.md
-  - name: 監視、保守、およびトラブルシューティング
-    items:
-      - name: サービスを運用する
-        href: upgrade-operate-my-service.md
-      - name: サービスを強化する
-        href: upgrade-enhance-my-service.md
-      - name: 通話品質を監視および管理する
-        items:
-          - name: 通話品質を監視および改善する
-            href: monitor-call-quality-qos.md
-          - name: 通話品質ダッシュボード (CQD)
-            items:
-              - name: CQD とは?
-                href: CQD-what-is-call-quality-dashboard.md
-              - name: CQDをセットアップする
-                href: turning-on-and-using-call-quality-dashboard.md
-              - name: テナントとビルのデータをアップロードする
-                href: CQD-upload-tenant-building-data.md
-              - name: CQD のデータとレポート
-                href: CQD-data-and-reports.md
-              - name: CQD を使用して通話と会議の品質を管理する
-                href: quality-of-experience-review-guide.md
-              - name: よく寄せられる質問
-                href: CQD-frequently-asked-questions.md
-              - name: CQD で利用できるディメンションとメジャー
-                href: dimensions-and-measures-available-in-call-quality-dashboard.md
-              - name: CQD のストリーム分類
-                href: stream-classification-in-call-quality-dashboard.md
-              - name: ビルディング マップを作成する
-                href: CQD-building-mapping.md
-              - name: Power BI を使用して CQD データを分析する
-                items:
-                  - name: Power BI を使用して CQD データを分析する
-                    href: CQD-Power-BI-query-templates.md
-                  - name: Power BI コネクタをインストールして CQD クエリ テンプレートを使用する
-                    href: CQD-Power-BI-connector.md
-                  - name: Teams の使用率に関する CQD データを取得する
-                    href: CQD-teams-utilization-report.md
-                  - name: CQD PSTN ダイレクト ルーティング レポートを使用する
-                    href: CQD-PSTN-report.md
-          - name: 通話分析
-            items:
-              - name: 通話分析をセットアップする
-                href: set-up-call-analytics.md
-              - name: 通話分析を使用して低品質の通話をトラブルシューティングする
-                href: use-call-analytics-to-troubleshoot-poor-call-quality.md
-          - name: サービスの品質 (QoS)
-            items:
-              - name: Teams の QoS をセットアップする
-                href: QoS-in-Teams.md
-              - name: Windows クライアントで QoS を設定する
-                href: QoS-in-Teams-clients.md
-      - name: Teams のトラブルシューティング
-        href: 'https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams'
       - name: インストールと更新に関する問題のトラブルシューティング
         href: troubleshoot-installation.md
       - name: Teams クライアントの接続性の問題をトラブルシューティングする
@@ -1340,8 +1371,6 @@ items:
         href: legacy-login-issues.md
       - name: Teams のトラブルシューティングでログ ファイルを使用する
         href: log-files.md
-      - name: 'よく寄せられる質問: リモートの従業員をサポートする'
-        href: FAQ-support-remote-workforce.md
       - name: Teams のサービス正常性を確認する
         href: service-health.md
       - name: ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ
