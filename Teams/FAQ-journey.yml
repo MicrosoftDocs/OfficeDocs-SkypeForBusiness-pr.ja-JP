@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
-  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
+  ms.openlocfilehash: 9cefe2a8558b10a6d53a6b6c49c519f9f8aa13f3
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 01/13/2021
-  ms.locfileid: "49841478"
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110340"
 title: よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 summary: ''
 sections:
@@ -45,9 +45,9 @@ sections:
   - question: Microsoft Teams 管理センターの共存モードの詳細はどこで確認できますか?
     answer: >
       Microsoft Teams 管理センター内で、組織に適した Skype for Business から Teams への移行を組織で管理することができるようになる、共存モードのオプションが表示されています。 [共存モードとアップグレード モード](teams-and-skypeforbusiness-coexistence-and-interoperability.md)の詳細については、こちらを参照してください。
-  - question: アップグレードに備える準備をするには、何を行う必要がありますか?
+  - question: アップグレードに対する準備として何を行うべきですか?
     answer: >
-      正常に完了するアップグレードには、ユーザー側の受け入態勢が整っていることに加えて、技術面の準備状況の検証が含まれています。 所属する組織で Teams にアップグレードする準備が整っていないと判断される場合でも、計画のプロセスは今すぐ始めることができます。 さらに、Teams を Skype for Business と共存する形で有効にすることによって、Teams の価値を実感し始めることができます。 今すぐ [Skype から Teams への移行[(https://aka.ms/skypetoteams-home)を開始しましょう。
+      正常に完了するアップグレードには、ユーザー側の受け入態勢が整っていることに加えて、技術面の準備状況の検証が含まれています。 所属する組織で Teams にアップグレードする準備が整っていないと判断される場合でも、計画のプロセスは今すぐ始めることができます。 さらに、Teams を Skype for Business と共存する形で有効にすることによって、Teams の価値を実感し始めることができます。 今すぐ [Skype から Teams への移行](https://aka.ms/skypetoteams-home)を開始しましょう。
 
 
       Microsoft は、アップグレードの計画と実装を開始するために設計されたガイダンス、ベスト プラクティス、リソースを紹介する、インタラクティブなライブ ワークショップも提供しています。 [アップグレード計画のワークショップについて](https://aka.ms/SkypeToTeamsPlanning)。
@@ -120,4 +120,4 @@ sections:
     answer: >
       現代的なワークプレースの実現に向けた Microsoft のビジョンでは、[会議室のデバイス](https://products.office.com/microsoft-teams/across-devices)が重要な役割を担います。 Teams 会議を既存の VTC システムでサポートする[クラウド ビデオの相互運用性サービス](https://docs.microsoft.com/microsoftteams/cloud-video-interop)は、パートナー企業の Pexip、Polycom、Blue Jeans を介して利用することができます。
   - question: Skype Room Systems v2 の最新世代は Teams の会議をサポートしますか?
-    answer: Skype ミーティング システムを、Microsoft Teams ミーティングにブランド変更しました。これは、Microsoft Teams の会議を完全にサポートしており、デバイス上で Teams を有効にするだけで、Skype for Business から Teams へ簡単に移行できるパスを提供しています。 近距離の検出機能を使用してユーザーが近くの Microsoft Teams Rooms を識別する機能に加えて、シングル クリックでの Teams の会議への参加、デュアル スクリーン サポート、Microsoft Whiteboard、インテリジェント キャプチャを備えたコンテンツ カメラなどの革新的な機能を引き続き提供します。
+    answer: Microsoft では、Microsoft Teams 会議を完全にサポートする Microsoft Teams ルームに Skype Room Systems のブランドを変更し、デバイスで Teams を有効にすることで、Skype for Business から Teams への簡単な移行パスを提供しています。 近接検出機能を使用して、ユーザーが近くの Microsoft Teams 会議室を特定できるだけでなく、Teams 会議にシングル クリックの二重画面サポート、Microsoft Whiteboard を参加することができます。また、インテリジェントなキャプチャを備えたコンテンツ カメラのような革新的な機能を引き続き提供しています。
