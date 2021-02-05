@@ -20,99 +20,104 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: よく寄せられる質問 (FAQ) と、Microsoft Teams の通話品質ダッシュボード (CQD) に関する回答を参照してください。
-ms.openlocfilehash: 8ad0a1745799194ec11284f8f7aaabd76bd30d05
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: Microsoft Teams 通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ) と回答をお読みください。
+ms.openlocfilehash: f622d197900faf632d94d659dae0a5b6eeaee2db
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584026"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110260"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
-[1人以上の会議の出席者が不適切なエクスペリエンスをした場合、CQD は "Good" として通話をマークするのはなぜですか?](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
+[1 人または複数の会議参加者のエクスペリエンスが低下した場合、CQD は通話を "良い" とマークする理由を示します。](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
-[メジャーの通話回数とユーザー数の値に0.2% の差が表示されるのはなぜですか。また、正確なボリュームを取得するにはどうすればよいですか?](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
+[メジャーの呼び出しとユーザー 数の値に最大 0.2% の差が表示される理由と、最も正確なボリュームを取得する方法 ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
 
-[Skype for Business からの CQD データが Teams の CQD データと異なっているのはなぜですか?](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
+[Skype for Business の CQD データが Teams の CQD データと異なる理由 ](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
-[CQD で EUII が表示されるのはなぜですか?](#why-cant-i-see-euii-in-cqd)
+[CQD に EUII が表示できない理由](#why-cant-i-see-euii-in-cqd)
 
-[チームのみを対象としてフィルター処理したときに、CQD に Skype for Business の情報が表示されるのはなぜですか?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[Teams のみをフィルター処理した場合に、CQD に Skype for Business の情報が表示される理由](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
-### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>1人以上の会議の出席者が不適切なエクスペリエンスをした場合、CQD は "Good" として通話をマークするのはなぜですか?
+[追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行である理由](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
-CQD で[ストリームの分類](stream-classification-in-call-quality-dashboard.md)に使用するルールを確認します。
+### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>1 人または複数の会議参加者のエクスペリエンスが低下した場合、CQD は通話を "良い" とマークする理由を示します。
+
+ストリームの分類に CQD が使用するルール [を確認します](stream-classification-in-call-quality-dashboard.md)。
  
-オーディオストリームについては、呼び出しの長さに基づいて平均値に基づいて計算される5つの分類子のいずれかが "good" パラメーター内に存在する可能性があります。 これは、ユーザーがオーディオのドロップアウト、静的、または故障に寄与するものを経験していなかったことを意味します。 
+オーディオ ストリームの場合、呼び出しの長さに基づいて平均に対して計算される 5 つの分類子はすべて "良好" パラメーター内に含まれます。 これは、ユーザーがオーディオのドロップ アウト、静的、またはエラーの発生を経験しなかったという意味では意味されません。 
 
-ネットワークの問題であったかどうかを判断するには、セッションの平均値と最大値の間のデルタを確認します。 [最大値] は、セッション中に最大検出および報告された値です。
+ネットワークの問題かどうかを判断するには、セッションの平均値と最大値の差分を確認します。 最大値は、セッション中に検出および報告される最大値です。
  
-このような状況のトラブルシューティングを行う方法の例を次に示します。 通話中にネットワークトレースを取得したときに、最初の20分間のパケットが失われても、1.5 秒のパケットが残っていて、通話の残りの部分に適しているとします。 この平均値は、Wireshark trace RTP の分析であっても、10% (0.1) のパケット損失と <なります。 パケット損失の最大値は何ですか? 1.5 秒の間の秒数は、30% (0.3) です。 5番目のサンプリング期間内に発生しましたか (おそらく、サンプリング期間に分割されている可能性があります)?
+この状況のトラブルシューティングを行う方法の例を次に示します。 たとえば、通話中にネットワーク トレースを実行し、最初の 20 分間はパケットが失われなくなっても、1.5 秒のパケットの間隔が生じ、通話の残りの部分に有効だとします。 平均は、Wireshark トレース RTP 分析<10% (0.1) パケット損失に対応する予定です。 最大パケット損失は何でしたか? 5 秒の 1.5 秒は 30% (0.3) になります。 これは 5 秒のサンプリング期間内に発生しましたか (または、サンプリング期間を超える場合に分割される可能性があります)。
  
-ネットワークメトリックが [平均] と [最大値] に適切に表示される場合は、他のテレメトリデータを参照します。 
-- CPU 不足イベント比率を確認して、検出された CPU リソースが不足していて、品質が低品質であるかどうかを確認します。 
-- スピーカーに近いマイクによるフィードバックを防ぐため、半二重モードのオーディオデバイスになりましたか? 
-- デバイスの半二重 AEC イベント比率を確認します。 ハブまたはドッキングステーションに接続したときに、USB オーディオのドロップアウトによって、デバイスグリッチノイズまたはマイクグリッチノイズ音が聞こえます。  
-- デバイスのエラーとマイクのイベント比率を確認します。 デバイス自体が正常に機能していますか?  
-- キャプチャとレンダリングデバイスが機能していないことを確認します。
+ネットワークメトリックが平均と最大値で良好に表示される場合は、他のテレメトリ データを確認します。 
+- [CPU Insufficient Event Ratio] をチェックして、使用可能な検出された CPU リソースが不足し、低品質の原因になっているか確認します。 
+- スピーカーに近いマイクによるフィードバックを防ぐために、オーディオ デバイスは半両面モードでしたか? 
+- Device Half Duplex AEC Event Ratio を確認します。 ハブまたはドッキング ステーションに接続すると、USB オーディオ のドロップアウトが原因でノイズまたは静的なノイズが発生したデバイスまたはマイク gling でした。  
+- デバイスの不具合とマイクの不具合のイベント比率を確認します。 デバイス自体は正しく機能しましたか?  
+- キャプチャ デバイスとレンダー デバイスが機能しないイベント 比を確認します。
 
 
-CQD テレメトリで利用できるディメンションとメジャーの詳細については、「[通話品質ダッシュボードで利用可能なディメンションと測定値](dimensions-and-measures-available-in-call-quality-dashboard.md)」を参照してください。
+CQD テレメトリで利用できるディメンションとメジャーの詳細については、通話品質ダッシュボードで利用できるディメンションと測定値 [を参照してください](dimensions-and-measures-available-in-call-quality-dashboard.md)。
 
-バックグラウンドノイズの場合は、[ミュートイベント比率] チェックボックスをオンにして、参加者がミュートにした時間の長さを確認します。
+背景の雑音の場合は、ミュート イベントの比率を確認して、参加者がミュートにされた時間の長さを確認します。
  
-CQD で詳細なレポートを作成し、会議 ID にフィルターを適用して、会議のすべてのユーザーとストリームを確認し、目的のフィールドを追加します。 問題を報告しているユーザーが、問題が発生しているユーザーでない可能性があります。 経験を報告しているだけです。
+CQD で詳細レポートを作成し、会議 ID をフィルター処理して、会議のすべてのユーザーとストリームを確認し、関心のあるフィールドを追加します。 問題を報告しているユーザーが、問題を発生しているユーザーではない可能性があります。 これらのユーザーは、そのエクスペリエンスを報告しています。
  
-テレメトリによって問題が発生するとは限りませんが、お客様の意思決定を確認して通知する方法を理解するのに役立ちます。 ネットワーク、デバイス、ドライバーまたはファームウェアの更新、使用、またはユーザーのどちらを使用していますか?
+テレメトリは必ずしも問題を呼び出すとは限りませんが、どこで決定を見て通知する必要があるのかをよりよく理解するのに役立ちます。 ネットワーク、デバイス、ドライバー、またはファームウェアの更新プログラム、使用状況、またはユーザーですか?
 
-### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>メジャーの通話回数とユーザー数の値に0.2% の差が表示されるのはなぜですか。また、正確なボリュームを取得するにはどうすればよいですか? 
-通話カウントとユーザーカウントのメジャーを計算するために、個別の countif 操作が、データセット内の呼び出しまたはユーザー id に対して実行されます。 大きなデータセットでは、個別の countif 操作に固有の最大0.2% のエラーがあります。 最も正確なボリュームの場合は、この個別の countif 操作に依存しないため、ストリームカウントのメジャーに依存している必要があります。 データの量を減らすためにフィルター処理を行うと、エラーが発生する可能性がありますが、個別の通話とユーザーカウントでこのエラーの原因が解消されない場合があります。 メジャーに影響を与える[通話品質ダッシュボードで利用可能な寸法と測定値](dimensions-and-measures-available-in-call-quality-dashboard.md)を参照してください。
+### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>メジャーの呼び出しとユーザー 数の値に最大 0.2% の差が表示される理由と、最も正確なボリュームを取得する方法 
+呼び出し数とユーザー数のメジャーを計算するには、データ セット内の呼び出しまたはユーザー識別子に対して個別の countif 操作が実行されます。 大きなデータ セットの場合、個別の countif 操作に固有のエラーは最大 0.2% です。 最も正確なボリュームの場合は、この個別の countif 操作に依存しないので、ストリーム カウント メジャーに依存する必要があります。 データ ボリュームを減らすためにフィルター処理を行った場合、エラーが減る可能性がありますが、個別の呼び出しとユーザー数でこのエラーの原因が排除されない場合があります。 メジャーが [影響を受け取る通話品質ダッシュボードで使用](dimensions-and-measures-available-in-call-quality-dashboard.md) できるディメンションと寸法を参照してください。
 
 
-### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>Skype for Business からの CQD データが Teams の CQD データと異なっているのはなぜですか? 
+### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>Skype for Business の CQD データが Teams の CQD データと異なる理由 
 
 
 > [!IMPORTANT]
-> 2020年7月1日の時点では、古い CQD (CQD.lync.com) は最新の CQD (CQD のデータを使用しています。Teams.microsoft.com)。 古い CQD データは利用できなくなり、文書の作成やレポートのデータをエクスポートすることはできません。 引き続き CQD.lync.com (Skype for Business 管理センターから利用可能) は使用できますが、CQD.lync.com へのアクセスはすぐにオフにするため、CQD に移動する必要があります。まだインストールしていない場合は、Teams.microsoft.com します。
+> 2020 年 7 月 1 日現在、古い CQD (CQD.lync.com) では最新の CQD (CQD) のデータが使用されます。Teams.microsoft.com)。 古い CQD データは使用できなくなったので、建物やレポートのデータをエクスポートできません。 CQD.lync.com (Skype for Business 管理センターから利用可能) を引き続き使用できますが、まもなく CQD.lync.com へのアクセスがオフになりますので、CQD に移動する必要があります。Teams.microsoft.comまだ行っていない場合は、この設定を行います。
 
 
-以前の CQD と Skype for Business の従来のポータル (cqd.lync.com) と最新の CQD の間でデータを比較しようとしている場合は、データが一致していないことがすぐにわかります。 これは、最新の CQD で多くの追加の通話シナリオが報告されるためです。 以前の CQD のレポートを引き続き使用している場合は、この記事を参照してください。これらのレポートは、 [Skype For Business Server の通話品質ダッシュボード](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)を使って解釈することができます。
+Skype for Business レガシ ポータル (cqd.lync.com) の古い CQD と Teams 管理センター (cqd.teams.microsoft.com) の最新の CQD の間でデータを比較しようとしている場合、データが一致しない場合があります。 これは、最新の CQD レポートで多くの追加の呼び出しシナリオが報告されるからです。 古い CQD のレポートを引き続き使用している場合は、この記事を使用して、これらのレポートを解釈するのに役立ちます [。Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)の通話品質ダッシュボード。
 
 
   
-### <a name="why-cant-i-see-euii-in-cqd"></a>CQD で EUII が表示されるのはなぜですか?
+### <a name="why-cant-i-see-euii-in-cqd"></a>CQD に EUII が表示できない理由
 
-次の管理者ロールは、CQD にアクセスできますが、EUII (エンドユーザーを特定できる情報) を表示することはできません。
-- Microsoft 365 レポートリーダー
+これらの管理者ロールは CQD にアクセスできますが、EUII (エンド ユーザーを特定できる情報) を表示できません。
+- Microsoft 365 レポート リーダー
 - Teams 通信サポート スペシャリスト
 
-CQD にアクセスできる役割の詳細については、「 [CQD にアクセスするための役割の割り当て](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)」を参照してください。
+CQD にアクセスできるロール (EUII を含む) の詳細については [、「CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)にアクセスするためにロールを割り当てる」を参照してください。
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>チームのみを対象としてフィルター処理したときに、CQD に Skype for Business の情報が表示されるのはなぜですか?
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Teams のみをフィルター処理した場合に、CQD に Skype for Business の情報が表示される理由
 
-CQD レポート (isTeams = 1) でのみチームをフィルター処理している場合、*第1のエンドポイント*が Teams であるすべての通話をフィルター処理します。 *第2のエンドポイント*が Skype for business の場合、その情報が CQD レポートに表示されます。
+CQD レポート (isTeams = 1) でのみ Teams をフィルター処理する場合、第 1 のエンドポイントが Teams であるすべての呼び出しを *フィルター処理します* 。 第 *2 のエンドポイント* が Skype for Business の場合、その情報が CQD レポートに表示されます。
 
-CQDv2 と CQDv3 は、CQDv2 にはない新しいシナリオが用意されているため、常に合計数が異なる場合があります。 このため、サマリーの合計を比較したり、フィルターを使わずにすべての数値を集計したりすると、このような違いがあります。  
+CQDv2 と CQDv3 では CQDv2 にはない新しいシナリオが作成されるので、CQDv3 と CQDv3 の合計カウントは常に異なります。 これは、集計合計または集計された集計された集計値をフィルターを使用して比較すると、期待される違いがあります。  
 
-お客様のシナリオに応じて、CQDv3 には SFB 2019 オンプレミスの通話 (データコネクタと共に SFB 2019 を使用している場合)、Skype ボット通話 (AA、CVI、VDI)、ライブイベント、PSTN 通話が含まれます。 顧客に提供されているが、そのデータは CQD V2 に含まれていないシナリオ/機能。
+顧客のシナリオに応じて、CQDv3 には SFB 2019 オンプレミス通話 (SFB 2019 がデータ コネクタで使用されている場合)、Skype Bot 通話 (AA、CVI、VDI)、ライブ イベント、PSTN 通話が含まれます。 お客様が利用できるシナリオ/機能ですが、そのデータは CQD V2 に含められません。
 
-たとえば、お客様には、20万オーディオストリームが表示され、CQD V2 サマリーレポートで5000エラーが発生することが予想されます。CQD V3 の5500のエラー (2019 オンプレミス通話、CVI 通話、PSTN 通話など) と30万オーディオストリーム。
+たとえば、顧客と 200,000 のオーディオ ストリームが表示され、CQD V2 サマリー レポートで 5000 の失敗が発生すると想定されます。CQD V3 での 300,000 のオーディオ ストリームと 5500 失敗 (2019 のオンプレム通話、CVI 通話、PSTN 通話など) に対する。
 
-予期しない違いがある場合は、データ全体のさまざまな内訳を確認する必要があります。  目的に合わせて比較します。  ユーザーエージェントカテゴリペア別のデータのスライスは、最初に推奨されるものの1つです。  *第1の製品*と*第2の製品*は、スライサーとしても優れています。  
+予期しない違いがあるかどうかを判断するには、データ全体のさまざまな内訳を確認する必要があります。  目的に合った比較を行います。  ユーザー エージェント カテゴリ ペアによるデータのスライスは、最初に推奨される項目の 1 つです。  *First Product と* *Second Product も* 優れたスライサーです。  
 
+### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行である理由
 
-## <a name="related-topics"></a>関連トピック
+CQD は集計されたデータ クエリ用に設計され、データ エクスポート用には設計されません。 可能な場合は、10,000 行の制限を超えないように、レポートを再構築することをお勧めします。 まず、月、年、日付、地域、国など、より大きく基数が小さいディメンションを使用して KPI を確認します。そこから、より高い基数のディメンションにドリルダウンできます。 ヘルプデスクとレポートLocation-Enhanced両方とも、このドリルダウン ワークフローの良い例を示します。
 
-[Teams の通話品質を向上させて監視する](monitor-call-quality-qos.md)
+## <a name="related-topics"></a>関連項目
 
-[CQD とは何ですか?](CQD-what-is-call-quality-dashboard.md)
+[Teams の通話品質の向上と監視](monitor-call-quality-qos.md)
+
+[CQD とは](CQD-what-is-call-quality-dashboard.md)
 
 [通話品質ダッシュボード (CQD) を設定する](turning-on-and-using-call-quality-dashboard.md)
 
-[テナントのアップロードとデータの構築](CQD-upload-tenant-building-data.md)
+[テナントと建物のデータをアップロードする](CQD-upload-tenant-building-data.md)
 
 [CQD データとレポート](CQD-data-and-reports.md)
 

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973071"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110210"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -57,7 +57,7 @@ ms.locfileid: "49973071"
 
 <sup>4</sup> 28 KBは、メッセージ自体 (テキスト、画像リンクなど)、@メンション、コネクタの数、およびリアクションを含むため、おおよその制限です。
 
-<sup>5</sup> GCC のチームはメンバーしか収容できず、GCCH/DoD のチームは 2,500 人のメンバーしか収容できません。
+<sup>5</sup> GCC の チーム は 5,000 人のメンバーしか収容できず、GCCH / DoD のチームは 2,500 人のメンバーしか収容できません。
 
 ## <a name="messaging"></a>Messaging
 

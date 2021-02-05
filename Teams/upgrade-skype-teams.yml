@@ -1,0 +1,131 @@
+### YamlMime:Hub
+title: Skype for Business から Microsoft Teams へのアップグレードを計画する
+summary: Microsoft Teams は、ユーザーの接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するために設計されています。すべて 1 か所で行います。 ここでは、Skype for Business から Teams へのアップグレードを成功に導くガイダンス、トレーニング、リソースを示します。
+brand: teams
+metadata:
+  title: Skype for Business から Microsoft Teams へのアップグレードを計画する
+  description: Microsoft Teams は、ユーザーの接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するために設計されています。すべて 1 か所で行います。 ここでは、Skype for Business から Teams へのアップグレードを成功に導くガイダンス、トレーニング、リソースを示します。
+  ms.service: msteams
+  ms.topic: hub-page
+  author: SerdarSoysal
+  ms.author: samanro
+  manager: serdars
+  ms.date: 01/27/2020
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.translationtype: MT
+  ms.contentlocale: ja-JP
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110373"
+highlightedContent:
+  items:
+  - title: 実績のあるアップグレード フレームワークを活用する
+    itemType: how-to-guide
+    url: https://docs.microsoft.com/microsoftteams/upgrade-framework
+  - title: 無料のアップグレード計画ワークショップに登録する
+    itemType: learn
+    url: https://aka.ms/upgradeworkshops
+  - title: Black & Veatch が 8 週間で Teams に移行する方法について学習する
+    itemType: video
+    url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
+productDirectory:
+  title: Teams のアップグレードを成功に向け、その先を計画する場合のリソース
+  summary: 健全な技術環境、持続的なユーザー採用、そしてビジネス目標の実現はすべて、適切な計画から始まります。
+  items:
+  - title: Teams への旅
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    links:
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-enlist-stakeholders
+      text: 1. プロジェクト関係者に協力を求める
+    - url: https://aka.ms/SkypetoTeams-Scope
+      text: 2. プロジェクトの範囲を定義する
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment
+      text: 3. アップグレード用に環境を準備する
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-organization
+      text: 4. アップグレードのために組織を準備する
+    - url: https://docs.microsoft.com/microsoftteams/upgrade-to-teams
+      text: 5. アップグレードを実装する
+    - url: https://docs.microsoft.com/microsoftteams/continue-journey
+      text: 6. 運用、導入、最適化
+  - title: Teams のアップグレード ストーリー
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    links:
+    - url: https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams
+      text: 予約 DSM – Skype for Business Server から Teams へ
+    - url: https://customers.microsoft.com/story/799203-ikea-retailers-teams
+      text: TEAMS – Skype for Business Server から Teams へ
+    - url: https://customers.microsoft.com/story/782385-williams-energy-teams
+      text: Williams – Skype for Business Server から Teams へ
+    - url: https://customers.microsoft.com/story/765513-trek-retailers-teams
+      text: Trek – Skype for Business Online から Teams へ
+    - url: https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams
+      text: Dengis Aegis Network – Skype for Business Online から Teams へ
+    - url: https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams
+      text: バークシャー医療 – Skype for Business Online から Teams へ
+  - title: Teams を利用するオンライン ワークショップ
+    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+    links:
+    - url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
+      text: だから。。。 Teams で通話を行う場合
+    - url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
+      text: Teams でオーディオ/ビデオ品質を担当する
+    - url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
+      text: Teams のアプリの基礎
+    - url: https://aka.ms/ChalkTalkKeyApps
+      text: Teams のアプリを使用して重要なワークフローをスーパーチャージする
+  - title: 'ラーニング パス: Microsoft Teams にアップグレードする'
+    imageSrc: media/upgrade-microsoft-teams.svg
+    summary: オンプレミスの Skype for Business Online と Skype for Business から Microsoft Teams にアップグレードする方法について説明します。
+    url: https://docs.microsoft.com/learn/paths/m365-teams-upgrade/
+  - title: Microsoft Teams のブログ
+    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+    summary: Microsoft Teams の背後にあるチームから、ベスト プラクティス、ニュース、傾向について直接学習します。
+    url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog
+  - title: Teams の総経済への影響
+    imageSrc: https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg
+    summary: Teams 導入後の従業員と会社の業績の改善を定量化する、Forrester リサーチ レポートを参照してください。
+    url: https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf
+  - title: 'Ignite セッション: Teams へのパスを設計する'
+    imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
+    summary: Ignite 2020 からのこのセッションは、Skype for Business の実装と目標に最も適したアプローチを見つけるのに役立ちます。
+    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+  - title: Microsoft Teams のプランと価格
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
+    summary: ビジネスに合った Microsoft Teams を見つける。
+    url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options
+  - title: アップグレード成功キット
+    imageSrc: https://docs.microsoft.com/office/media/icons/success-teams.svg
+    summary: コミュニケーション テンプレート、ユーザーアンケート、サンプル プロジェクトやパイロット テスト計画などのユーザー準備資料をダウンロードします。
+    url: https://aka.ms/UpgradeSuccessKit
+additionalContent:
+  sections:
+  - items:
+    - title: Skype for Business Online のサポート終了
+      summary: 2021 年 7 月 31 日に Skype for Business Online サービスが終了する準備をし、Teams への移行を成功に向けて計画する方法について学習します。
+      url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
+    - title: コースを Teams にグラフで表示する
+      summary: Teams アップグレードの各手順をマップする、この楽しく便利なインフォグラフィックをダウンロードしてください。
+      url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
+    - title: FastTrack に展開支援を提供する
+      summary: Teams 展開プロジェクトでさらに詳しいサポートが必要な場合、対象となるサブスクリプションをお持ちのお客様は FastTrack にサポートを提供できます。
+      url: https://www.microsoft.com/fasttrack
+    - title: Microsoft パートナーを見つける
+      summary: 追加のガイダンスが必要な場合 Microsoft ソリューション プロバイダーは、アップグレードの技術的および物流の管理を支援します。
+      url: https://www.microsoft.com/solution-providers/home
+    - title: Teams 管理者ドキュメント
+      summary: Teams を展開して管理する方法と、新しいコミュニケーションと共同作業のエクスペリエンスのためにユーザーを準備する方法について学習します。
+      url: https://docs.microsoft.com/MicrosoftTeams/
+    - title: インストラクター主導の Teams のトレーニング
+      summary: Teams を使い始め、実行するために設計された無料のライブ オンライン トレーニング クラス。
+      url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page

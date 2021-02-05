@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: この記事では、Skype for Business から Microsoft Teams へのアップグレードの概要について説明します。
+description: この記事は、Skype for Business から Microsoft Teams へのアップグレードを開始する方法について説明します。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom:
@@ -30,12 +30,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed91a5bc6df8836e19f602facccce704cad65876
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: abb88c42de7858a80ade93953f08a168feb533e2
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578180"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110320"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Skype for Business から Microsoft Teams へのアップグレードを開始する
 
@@ -43,11 +43,17 @@ Skype for Business から Microsoft Teams へのアップグレードが予定�
 
 Skype for Business Online から Teams にアップグレードする場合でも、Skype for Business オンプレミス環境から Teams にアップグレードする場合でも、アップグレード フレームワークは、ビジネス シナリオに基づいたプロセスをガイドします。
 
+| アイコン | 説明 |
+| --- | --- |
+|![チュートリアルの記号](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **アップグレード** ハブ: Skype for Business から Teams へのアップグレードを正常に実装するために必要なすべてのガイダンス、トレーニング、リソースの概要については [、「Skype for Business](upgrade-skype-teams.yml)から Microsoft Teams へのアップグレードを計画する」を参照してください。|
+
+アップグレードについてよく寄せられる質問については、読み続ける必要があります。
+
 ## <a name="why-upgrade-to-microsoft-teams"></a>Microsoft Teams にアップグレードする理由
 
 Microsoft Teams では、Skype for Business の機能を拡張して、チャット、会議、通話、共同作業、アプリの統合、ファイル ストレージを単一のインターフェイスにまとめます。 チームワーク向けのこの新しい中央ハブでは、ユーザーが作業を完了する流れを効率化することで、ユーザー満足度を高め、ビジネス成果を加速します。 Microsoft では、継続的に Teams の機能を拡張することで、新しい方法でユーザーがコミュニケーションと共同作業を行えるよう、組織的および地理的な障壁を壊してプロセスと意思決定の効率性を高めます。 Teams にアップグレードする利点の詳細については、Forrester のレポート「[Microsoft Teams による総合的な経済効果](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf)」を参照してください。  
 
-## <a name="when-should-my-organization-migrate-to-teams"></a>組織が Teams に移行されるのはいつですか?
+## <a name="when-should-my-organization-migrate-to-teams"></a>組織が Teams に移行する必要がありますか?
 
 Skype for Business Online は 2021 年 7 月 31 日に廃止される予定です。それ以降、アクセスとサポートが終了します。 Skype for Business Online サービスは、2021 年 7 月 31 日まで完全に機能しますが、Microsoft は、お客様が今すぐアップグレードの計画を開始することを推奨します。そうすれば、償却完了日までにアップグレードを完了する十分な時間を確保できます。  詳細については、[償却完了日のお知らせ](https://aka.ms/sfboannounce) を参照してください。
 
@@ -55,15 +61,15 @@ Skype for Business Online は 2021 年 7 月 31 日に廃止される予定で�
 
 はい。Microsoft では、Skype for Business Online と Teams を一緒に実行するためのオプションをいくつか用意しています。 現在、この共存モードを使用すると、Teams 単独へのアップグレードを加速させながら、ユーザーは Teams に慣れ親しむことができます。 詳細については、[https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)を参照してください。
 
-## <a name="is-phone-system-available-for-teams-users"></a>電話システムは Teams ユーザーに対して利用できますか?
+## <a name="is-phone-system-available-for-teams-users"></a>Teams ユーザーは電話システムを利用できますか?
 
-はい。 電話システムは、Teams Sonly モードに移行した後は、すべての Teams ユーザーが利用できます。  また、公衆交換電話網 (PSTN) に接続するためのオプションも用意されているため、ユーザーは世界中のどこからでも電話をかけることができます。 詳細については、「 [ボイスフォンシステムと PSTN 接続](cloud-voice-landing-page.md)」を参照してください。
+はい。 電話システムは、TeamsOnly モードに移動した後、すべての Teams ユーザーが使用できます。  また、ユーザーが世界中どこでも電話を発信できるよう、公衆交換電話網 (PSTN) に接続するためのオプションも用意されています。 詳細については、「音声 [- 電話システムと PSTN 接続」を参照してください](cloud-voice-landing-page.md)。
 
-## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>オンプレミスのテレフォニーインフラストラクチャを引き続き使用できますか?
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>引き続きオンプレミスのテレフォニー インフラストラクチャを使用できますか。
 
-はい。 電話システムによる直接ルーティングでは、ほとんどすべてのテレフォニーキャリアで電話システムを使うことができます。 直接ルーティングでは、独自のセッションボーダーコントローラー (SBC) を直接電話システムに接続します。 詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
+はい。 電話システムダイレクト ルーティングを使用すると、事実上すべてのテレフォニー通信事業者で電話システムを使用できます。 直接ルーティングを使用すると、独自のセッション ボーダー コントローラー (SBC) を電話システムに直接接続できます。 詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
  
-## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Microsoft が Teams への移行を支援する方法を教えてください。 
+## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Microsoft は、お客様の Teams への移行を支援する方法を説明します。 
 
 Microsoft は、お客様が Skype for Business から Teams へ問題なく移行できるよう、貢献することに努めています。 Microsoft は、評価されたエンド ツー エンドのアップグレード成功フレームワークに基づいて構築された堅牢なガイダンスを提供しています。これは、Teams へのアップグレードを計画して実行するのに役立ちます。 このガイダンスは、計画を開始したばかりの場合、Skype for Business と共に Teams を使用している場合、Teams にアップグレードする準備ができている場合など、アップグレードのあらゆる段階に合わせて作成されています。
 
