@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューについて、および発信者がメニュー システム内を移動して組織内のユーザーまたは部門に到達するのに役立つ方法について説明します。
-ms.openlocfilehash: 9ba8ccf08793e352e225340aeab33d7b95204cd9
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 65dac48267379d17b76443e42eb70e2e866f6e8f
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918893"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125669"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Teams の自動応答と通話キューを計画する
 
@@ -129,9 +129,6 @@ ms.locfileid: "49918893"
 エージェントの Teams アカウントを Teams 専用モードに設定します。 要件を満たしていないエージェントは、通話ルーティング リストに含まれません。
 
 エージェント全員が互換性のあるクライアントを使用している場合は、通話キューの会議モードを有効にすることをお勧めします。
-
-> [!NOTE]
-> 取り込み中の取り込み中は、電話会議モードではサポートされていません。 プレゼンス ベースのルーティングが有効になっていない場合、非通話キュー呼び出しのエージェントは通話キューの呼び出しで引き続き表示される場合があります。
 
 ## <a name="plan-your-call-routing-flow"></a>通話ルーティング フローを計画する
 

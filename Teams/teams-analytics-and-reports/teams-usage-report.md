@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: svemu
+ms.reviewer: kojika
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,12 @@ description: 自分の組織での Teams のアクティビティの概要を把
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 63193b6540a40e9ad4a2171c95f638dfb7c1d112
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 993c1b124737a0f335e9c9b1e720af72fcc88a8e
+ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809267"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122257"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 

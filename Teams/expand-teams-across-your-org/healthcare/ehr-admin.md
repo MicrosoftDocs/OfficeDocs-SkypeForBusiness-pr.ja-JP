@@ -17,16 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Microsoft Teams を使用して仮想訪問システムをセットアップする
-ms.openlocfilehash: 4c8511939532a448d5229865618aa308494c7a42
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101335"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125780"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams を使用した仮想アクセス - EHR への統合
 
@@ -90,7 +92,7 @@ Microsoft Teams で仮想訪問を開始するための医療組織の構成は�
 
 - FHIR ベース URL は、サーバー FHIR API エンドポイントに対応する静的アドレスです。 URL の例 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` は次のようになります。
 
-- 構成承認者の名前は、次の手順で構成の承認を担当する、壮大な顧客アナリストの名前です。 エピスの顧客アナリストは、エピスへのサインイン アクセス権を持つ組織内のユーザーです。
+- 構成承認者の名前は、次の手順で構成の承認を担当する、壮大な顧客アナリストの名前です。 壮大な顧客アナリストは、組織のユーザーで、エピスへのサインイン アクセスを持っています。
 
   ![構成承認者の名前は、EHR コネクタの一覧から選択されます。](../../media/teams-ehr-connector.png)
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft Teams で通話キュー用の電話システムをセットアップする方法について説明します。応答メッセージの提供、音楽の保留、通話リダイレクト、その他の機能が提供されます。
-ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 17e15e270492c4105f79ead6b2ce34ca37165ec3
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49919033"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125790"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -94,9 +94,6 @@ Teams は、キューで保留にしている間、発信者に既定の音楽�
   - Microsoft Teams の電話バージョン 1449/1.0.94.2020051601 以降
   
 エージェントの Teams アカウントは、Teams 専用モードに設定する必要があります。 要件を満たしていないエージェントは、通話ルーティング リストに含まれません。 エージェント全員が互換性のあるクライアントを使用している場合は、通話キューの会議モードを有効にすることをお勧めします。
-
-> [!NOTE]
-> 取り込み中の取り込み中は、電話会議モードではサポートされていません。 プレゼンス ベースのルーティングが有効になっていない場合、非通話キュー呼び出しのエージェントは通話キューの呼び出しで引き続き表示される場合があります。
 
 **ルーティング方法は** 、エージェントがキューから通話を受信する順序を決定します。 次のオプションから選択します。
 
