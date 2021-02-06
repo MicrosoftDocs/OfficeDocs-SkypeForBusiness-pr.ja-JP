@@ -201,6 +201,8 @@ items:
         href: upgrade-operate-my-service.md
       - name: サービスを強化する
         href: upgrade-enhance-my-service.md
+      - name: Microsoft Teams でのパブリック プレビュー
+        href: public-preview-doc-updates.md
       - name: インライン メッセージの翻訳の使用
         href: inline-message-translation-teams.md
       - name: Microsoft Teams の範囲指定ディレクトリ検索を使用する
@@ -413,8 +415,6 @@ items:
                 href: rooms/xml-config-file.md
               - name: 回復ツールの使用
                 href: rooms/recovery-tool.md
-      - name: 'チュートリアル: Teams でのミーティング'
-        href: Tutorial-Meetings-in-Teams.yml
       - name: 会議ポリシーを管理する
         href: meeting-policies-in-teams.md
       - name: ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する
@@ -465,8 +465,6 @@ items:
             href: audio-conferencing-on-network.md
           - name: 電話会議に関するよくある質問
             href: audio-conferencing-common-questions.md
-          - name: 'チュートリアル: Teams での電話会議'
-            href: Tutorial-Audio-Conferencing.yml
           - name: Microsoft 365 での電話会議を試用または購入する
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
           - name: 米国とカナダの拡張ダイヤルアウト分数
@@ -975,11 +973,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams の通話フロー
             href: microsoft-teams-online-call-flows.md
-          - name: 'チュートリアル: Teams での通話'
-            href: Tutorial-calling-in-teams.yml
-            items:
-              - name: ユーザーのエクスぺリエンスを計画する
-                href: 5-envision-plan-my-users-experience.md
   - name: Microsoft 365 Business Voice
     items:
       - name: Microsoft 365 企業向け音声とは?
@@ -1375,6 +1368,8 @@ items:
         href: service-health.md
       - name: ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ
         href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+      - name: サポート PIN を確認する方法
+        href: support-pin.md
   - name: 参照
     items:
       - name: Teams の制限と仕様
@@ -1508,16 +1503,10 @@ items:
             href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
       - name: Teams の開発者向けドキュメント
         href: 'https://docs.microsoft.com/microsoftteams/platform'
-      - name: チームのヘルプを表示する
-        href: get-help-in-microsoft-teams.md
       - name: Teams のコンテンツ アップデート
         href: teams-updates.md
-      - name: サポート PIN を確認する方法
-        href: support-pin.md
       - name: 国および地域ごとの電話会議および通話プランの利用可能性
         items:
-          - name: 概要
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: アルバニア
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
           - name: アルジェリア
@@ -1760,5 +1749,3 @@ items:
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 管理者機能のリリースノート
         href: release-notes/release-notes.md
-      - name: Microsoft Teams でのパブリック プレビュー
-        href: public-preview-doc-updates.md
