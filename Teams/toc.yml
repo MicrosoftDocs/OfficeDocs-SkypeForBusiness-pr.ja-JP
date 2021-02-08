@@ -297,6 +297,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 製造カテゴリの Teams テンプレート
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: テンプレート ポリシーを作成して管理する
+            href: templates-policies.md
       - name: 外部ユーザーと通信する
         items:
           - name: 別の組織のユーザーと通信する
